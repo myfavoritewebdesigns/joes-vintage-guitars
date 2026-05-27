@@ -66,3 +66,7 @@ Thumbs.db
 
 # Lockfile policy: KEEP package-lock.json (deterministic builds for CF Pages
 # + the team). Do NOT ignore it.
+
+.dev.vars*
+!.dev.vars.example
+!.env.example

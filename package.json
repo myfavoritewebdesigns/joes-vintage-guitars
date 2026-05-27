@@ -8,14 +8,17 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "npm run build && wrangler dev",
     "astro": "astro",
     "audit:live-diff": "node scripts/audit-live-diff.mjs",
     "audit:section-crops": "node scripts/audit-section-crops.mjs",
     "extract:html-first": "node scripts/extract-html-first.mjs",
-    "audit:a11y": "node scripts/audit-a11y.mjs"
+    "audit:a11y": "node scripts/audit-a11y.mjs",
+    "generate-types": "wrangler types",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^13.5.5",
     "@tailwindcss/vite": "^4.3.0",
     "astro": "^6.3.2",
     "tailwindcss": "^4.3.0"
@@ -26,6 +29,10 @@
     "cheerio": "^1.2.0",
     "odiff-bin": "^4.3.8",
     "playwright": "^1.60.0",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "wrangler": "^4.95.0"
+  },
+  "overrides": {
+    "vite": "^7"
   }
 }
