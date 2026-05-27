@@ -1,0 +1,26 @@
+---
+// Copy-paste the lines below into the page that needs the extracted section.
+// The wrapper class scopes the CSS so it cannot leak to other pages.
+//
+// Paths are relative to the page file — adjust as needed.
+
+import sectionHtml from "../../reference/extracted/meet-joe-gibson/meet-joe-gibson.html?raw";
+import sectionCss  from "../../reference/extracted/meet-joe-gibson/meet-joe-gibson.css?raw";
+---
+
+<div class="wp-extracted-meet-joe-gibson" set:html={sectionHtml} />
+<style is:global set:html={sectionCss}></style>
+
+{/*
+  Pre-launch checklist for this extracted section:
+
+  1. Replace hot-linked asset URLs in meet-joe-gibson.html with local copies. The
+     extractor writes absolute live-origin URLs by default — hot-linking is
+     single-session-only per the template's image migration rule.
+  2. Run npm run audit:live-diff against this page once it's wired up.
+  3. If the section needs to be interactive, also import the section's JS
+     bundle as a static asset under public/scripts/.
+  4. Test with the live site in DevTools first — sometimes WordPress builders
+     emit @import statements pulling in additional sheets, which the
+     extractor drops by default (would re-fetch from the WP origin).
+*/}

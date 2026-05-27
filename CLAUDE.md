@@ -1,0 +1,638 @@
+# Joe's Vintage Guitars — Astro Rebuild
+
+Project handoff doc. Read this first when picking up the project in a new session.
+
+## What this is
+
+A full rebuild of [joesvintageguitarsaz.com](https://www.joesvintageguitarsaz.com/) — currently a WordPress + Avada site — as a static **Astro 6 + Tailwind 4** site deploying to **Cloudflare Pages**. Forms will use the **Mailgun API** via a CF Pages Function (not wired yet).
+
+**Goal:** exact visual parity with the live site. Do not normalize design quirks without asking the user.
+
+## ⚠️ Must-follow rules (read before writing code)
+
+These were established by the wp-to-astro template after the JVG fender-SN page exposed gaps in self-audit. Non-negotiable without explicit user approval.
+
+1. **Hot-linked images must be swapped to local in the SAME session they were added.** Hot-linking is allowed only for first-pass layout. Carrying hot-links across sessions normalizes broken images and you stop noticing failures (the JVG `fender-back-of-headstock-serial-number-scaled.jpg` 404 survived 4 audits because no check verified the URL responded 200). See [Image migration](#image-migration--hot-link-is-single-session-only).
+2. **`npm run audit:live-diff -- <live-url> <local-url> --slug <slug>` must show 0 🔴 must-fix items before any page is "done."** This script checks heading inventory, image counts, broken external image URLs (HEAD-requests every one), JSON-LD parity, title/meta/canonical diff. Run it after every build. Re-run until clean. See [live-diff-auditor agent + script](#live-diff-auditor-agent--static-audit-script).
+3. **For qualitative visual review, invoke the `live-diff-auditor` agent — don't self-audit.** A model auditing its own work is anchored on what it built and misses what's missing. Spawn the auditor as a subagent and act on its punch list.
+4. **After 2 failed attempts at the same visual problem, escalate to cross-model review** (Gemini, GPT, or a different Claude model size). Same-model parallel review is correlated, not independent — both instances share weights and biases and will make the same blind-spot errors. See [Same-model parallel review is NOT independent](#same-model-parallel-review-is-not-independent).
+5. **Every intentional deviation goes into the [Decision log](#decision-log)** — future sessions will revert it otherwise.
+
+## Source of truth hierarchy
+
+When two sources disagree about how a page should look or behave, resolve in this order:
+
+1. **User's stated preference for this project.** Check `~/.claude/projects/C--Users-noahj/memory/feedback_jvg_design_preferences.md` and the [Decision log](#decision-log) further down. The user has intentionally deviated from the live site in several places — don't re-revert without asking.
+2. **The live site's rendered behavior.** Open the live URL in a browser. What visitors see is the spec.
+3. **The live site's source HTML/CSS** (saved snapshots in `reference/`). Useful for exact pixel values, JSON-LD schemas, copy.
+4. **Existing project code.** Helpful but possibly wrong — could be a half-finished previous session. Don't treat it as authoritative just because it compiles.
+
+Before "fixing" something that already exists in code, ask: did a prior session do it that way deliberately? Check the decision log + `git log` before reverting.
+
+## Current status (3 pages live, ContactSection redesigned, Footer audited)
+
+**Pages built:**
+- ✅ `/` — Homepage (16 sections)
+- ✅ `/about-me/` — About Joe page (12 sections, Margi-script section heads, wood-bg cards, deep visual-parity audit complete)
+- ✅ `/free-appraisal/` — Heavy reference page with intro video block, 3 Simple Steps alternating layout, Notable Appraisals (3 case studies), Free vs Insurance comparison, Market Pulse (dark rust), full electric+acoustic Condition Grading tables, Collection Appraisals, Spotting Fakes (Gibson/Martin/Fender), Testimonials, FAQ — 12 sections, 13,000+px tall
+- ✅ `/fender-guitars-serial-number-guide/` — Long-form reference guide (15 H2 sections, ~30,000px tall) plus the **interactive serial-number lookup tool** at the top. 7-card location grid, era timeline, 11 serial-number tables (bridge plate / 4-5 digit / L-series / F-plate / V-prefix / Custom Shop CN-CZ-R / front+back headstock / Mexican / Made in Japan / Crafted in Japan), authentication checklist, advanced dating (neck heel, body dates, pot codes, pickup dates, fretboard inlays, saddles, tuners, logo evolution, pickguards, finish), 7 model-specific dating guides, FAQ accordion (12 Qs, FAQPage JSON-LD), resources grid. Article + BreadcrumbList + FAQPage + WebApplication JSON-LD. Content images hotlinked to live WP uploads for now (swap to local later). Scoped `.fsn-*` class prefix for the page chrome; the tool widget keeps its original `.fsn-tool` / `.fsn-card` / `.fsn-step` classes in a global `<style is:global>` block. Tool HTML is imported at build via Vite's `?raw` from `reference/fsn-tool-html.html`; JS lives at `public/scripts/fsn-tool.js` and loads via `<script is:inline src="/scripts/fsn-tool.js">`.
+
+**Framework primitives:**
+- ✅ `Layout.astro` owns site chrome (Header, Footer, FloatingCTAs, skip link)
+- ✅ SEO + structured data baked in: 12 OG tags, Twitter Card, canonical, robots, JSON-LD (ProfessionalService, WebSite, FAQPage, ProfilePage)
+- ✅ `<SectionHeader>` primitive (eyebrow + h2 + subhead + accent rule) — homepage uses extensively; non-homepage pages tend to use inline H3 + 40%-wide rust rule instead.
+- ✅ `<Button>` primitive for generic CTAs (`rust` / `cream` / `outline-cream` variants, `sm`/`md`/`lg` sizes, `pill` prop). Discriminated polymorphic types — TS enforces `href` XOR `type=submit`.
+- ✅ `<PageHero>` primitive for non-homepage heroes (eyebrow + H1 + subhead + photo/color bg + cta slot + breadcrumbs slot). Opt-in `titleHtml` / `subheadHtml`. Uses `Astro.slots.has("cta")` to skip empty wrapper.
+- ✅ `src/config/site.ts` — single source of truth: `contact`, `hrefs`, icon paths (`phoneIconPath` / `mailIconPath` / `smsIconPath` / `pinIconPath`), `replyMethods`, `headerSocials` / `footerSocials` / `socialSameAs`, nav (`primaryNav` / `sellMenu` / `idMenu` / `footerTopMenu` / `footerMainMenu` / `footerLegal`). Discriminated `SocialLink` union. `FooterLink` extends `NavLink` with optional `hasDropdown` and `isReverbPill`.
+- ✅ Shared `<form data-jvg-contact-form>` handler at `src/scripts/contact-form.ts` — single point for Mailgun wire-up; error fallbacks pull `contact.phone` from site config.
+- ✅ Design tokens centralized in `src/styles/global.css` (25 named brand colors via `@theme`). Includes a global `@media (prefers-reduced-motion: reduce)` rule.
+
+**Recent redesigns (delivered this session):**
+- ✅ **`ContactSection.astro` fully redesigned** to "Talk With Joe Today" mockup: logo + Oswald-uppercase heading + star divider + lede in one row (left col), cream-tinted form inputs on the right (replaced white), "How Can We Help?" replaces "Comments", ribbon submit, system-sans field labels.
+- ✅ **`Footer.astro` overhauled** per user spec (5 fixes): 1) `nowrap` on bottom menu so all 5 services fit one line on desktop, 2) Inventory rendered as **white pill with Reverb "R" badge** (`isReverbPill: true` flag), 3) dropdown chevron (`▾`) after "Sell My Guitar" (`hasDropdown: true` flag), 4) darker/thicker divider between menu rows, 5) **logo now has flat dark-brown border, no drop shadow, bottom flush with cream box bottom**. Copyright bar is tan with rust-bright underlined links (matches live exactly).
+- ✅ **Footer mobile responsive fix**: `flex-wrap: wrap` on bottom menu below 900px, logo margins reset (no overhang) below 900px, tighter padding+font sizes below 600px.
+- ✅ **Astro dev toolbar disabled** via `devToolbar: { enabled: false }` in `astro.config.mjs` so preview matches production.
+
+**Type & build state:**
+- `npx astro check` → 0 errors, 0 warnings, 3 hints (all in `reference/` outside `src/`).
+- `npm run build` → 3 pages, 15MB output, ~2s rebuild.
+- Lighthouse free-appraisal: **A11y 98, BP 100, SEO 92, AB 100** (desktop).
+- Known visual-parity gaps NOT fixed (match live): `.mtg-col__h4` 3.77:1 contrast, ValueProp `mailto:` bullet 23px tap target, header/footer text-link heights ~20-21px, `.jvg-buy__cta` 22px.
+
+## ⏭ Pick up here next session — 2026-05-26 handoff
+
+### Just shipped tonight (2026-05-26)
+
+**1. `/sell-my-fender-guitar/` page is now ~90% live-parity.** Substantial rewrites:
+- Hero: B&W photo bg restored (`wp-content/uploads/2025/07/background.jpg`) + dark vignette overlay matching live's `.tp-bnr::before`. H1 styled as small gold-tan eyebrow with decorative side bars; H2 is the large display.
+- Intro: section bg now `--color-brand-cream` (#eedfc0); form panel is dark-rust with cream labels; TOC `<details>` widget under intro text on left.
+- Meet Joe: complete rebuild after 8 revisions. Final structure verified via DOM walk: cream section + `.smf-meet__row` (z:10) containing white-card `::before` (inset -49px -11px -49px 0) + dark-rust-triangle `::after` (width 100px, clip-path polygon) + left column with outlined-rust `::before` border-frame + `<lite-youtube>` video element overflowing column on left. See decision-log rows v5/v6/v7/v8.
+- Header: primary nav `text-transform: uppercase` removed (site-wide via Header.astro); secondary nav got `divide-x divide-white/25` separators.
+- FAQ refactored to use shared `<FAQ />` component with props (`faqs`, `subTitle`, `sectionId`, `openFirst`). Component now reusable for gibson/martin/etc.
+- Discover banner button: `.smf-btn--cream` → `.smf-btn--rust` (cream button on cream panel was invisible).
+- Layout.astro: added `<slot name="head" />` for per-page CDN/script injection (used here for lite-youtube CDN).
+
+**2. NEW workflow tool: `scripts/audit-section-crops.mjs`** — per-H2/H3 section crops at 1920+390 with **odiff perceptual diff masks** stitched side-by-side (live | local | diff). Eliminates the "AI eyeballs raw thumbnail and makes wrong claims" failure mode. Output to `reports/screenshots/<slug>/sections/<NN>-<heading-slug>/`. Verified working: `npm run audit:section-crops -- <live> <local> --slug <slug> [--anchors h2h3]`.
+
+**3. Cross-model consultation (GPT-5.2-Pro + Gemini-3-Pro 2026-05-26)** in `wp-to-astro/CLAUDE.md` decision log: strategic feedback on the entire stack + revised priority roadmap for future improvements.
+
+### What's still open on sell-my-fender
+
+- 🟡 v8 visual confirmation in your actual browser at 1920×1080 — section-crops audit shows 14/15 sections still differ from live (most are documented intentional exceptions; some need investigation)
+- 🟡 Mobile (390) audit not yet run on the v8 build
+- 🟢 The page is shippable now; the remaining diffs are mostly intentional (IG embeds, Boxzilla popup) or minor polish
+
+### Next priorities (from GPT/Gemini consultation, in order)
+
+1. **Astro Content Collections + Zod for blog migration** — closes the pagination/archives TODO gap. Script WP REST API → `.mdx` files with YAML frontmatter → type-safe archives/taxonomy/pagination. ~4 hrs.
+2. **"HTML-first" extraction script** for chrome-heavy bespoke sections — Chrome Coverage API via Playwright OR `purifycss` to extract only relevant CSS rules → dump into `set:html` + `<style is:global>` scoped wrapper. ~3 hrs. Would have prevented the Meet Joe 8-revision saga.
+3. **R2 + CF Worker for `/wp-content/uploads/`** — needed for sites with >500MB media. ~3 hrs.
+4. **`@axe-core/playwright`** a11y check in auditor agent flow. ~30 min.
+5. **`/sell-my-gibson-guitar/` clone from sell-fender** — the next commercial-value page, will validate the architectural patterns.
+
+### Open pages still to build
+
+`/sell-my-gibson-guitar/`, `/sell-my-martin-guitar/`, `/sell-a-guitar-collection/`, `/contact-me/`, `/blog/` + posts, `/how-to-read-gibson-serial-numbers/` (Archetype B), `/martin-serial-and-model-numbers/`, etc.
+
+### Previously shipped (still current)
+
+`/fender-guitars-serial-number-guide/` — full content + interactive lookup tool. Content extraction script: `reference/_extract-fender-sn.cjs`. Tool widget assets: `reference/fsn-tool-html.html`, `public/scripts/fsn-tool.js`. Hot-linked images in `joesvintageguitarsaz.com/wp-content/uploads` (63 distinct — swap to local later if perf demands).
+- Serial number guides: `/how-to-read-gibson-serial-numbers/`, `/martin-serial-and-model-numbers/`, `/rickenbacker-serial-numbers/`, `/gretsch-serial-number-lookup/`, `/guild-serial-number-lookup/`, `/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/`
+- `/repair/`, `/consignment/`, `/sitemap/`, `/privacy-policy/`, `/refund_returns/`
+
+**Before declaring any new page done:** run through the [Visual audit + ship checklist](#visual-audit--ship-checklist) below. The "side-by-side comparison to live" step is what catches headline mistakes (missing widgets, wrong header treatment, missing whole sections). Don't skip it.
+
+**Identify the [page archetype](#page-archetypes) before scaffolding.** This site has two distinct templates (Conversion vs. Reference/SEO) — using the wrong one means structural rework later.
+
+## Quick reference: where things live
+
+```
+src/
+  layouts/Layout.astro          # site shell: <head>, Header, Footer, FloatingCTAs, structured-data slot
+  pages/
+    index.astro                 # homepage — composes section components + injects FAQPage JSON-LD
+    about-me.astro              # 12 sections; ProfilePage JSON-LD; uses PageHero + Margi-script section heads + wood-bg cards
+    free-appraisal.astro        # 12 sections; FAQPage JSON-LD; intro video block + 3 Simple Steps + Notable Appraisals (3 case studies) + Free vs Insurance + Market Pulse + condition grading tables + Spotting Fakes + Testimonials + FAQ
+  components/
+    Header.astro                # desktop nav + mobile hamburger
+    Footer.astro                # dark rust outer + tan inner box w/ menu + charcoal copyright
+    FloatingCTAs.astro          # fixed right-side SMS/phone/email icons
+    Hero.astro                  # photo bg + TOC
+    ValueProp.astro             # "Selling to Joe's is Easy" + form + "Every Guitar Has A Story" banner
+    AboutJoe.astro              # stats grid + bio + Jim card (uses SectionHeader)
+    WhatWeBuy.astro             # 16 instrument cards (uses SectionHeader)
+    Testimonials.astro          # masonry reviews + 3 IG embed callouts (uses SectionHeader)
+    MoreThanGuitar.astro        # arrow heading + overlapping photos + 3 icon cards
+    ClientStories.astro         # polaroid collage + dark rust name banner + cream story panel
+    Guide.astro                 # combined "How to Prepare / Ship / Other Places" comparison
+    Collections.astro           # rust arrow panel + tan CTA panel
+    MeetJoe.astro               # YouTube video left, cream bio panel right
+    RecentPurchases.astro       # 3 verified purchase cards (uses SectionHeader)
+    FAQ.astro                   # cream wood-textured panel with clip-path arrow + 8 accordions
+    ContactSection.astro        # solid rust bg, circle icon list + form
+    primitives/
+      SectionHeader.astro       # eyebrow + h2 + subhead + optional rule
+      Button.astro              # generic CTA: variant="rust"|"cream"|"outline-cream", size="sm"|"md"|"lg", optional block + href
+      PageHero.astro            # non-homepage page hero (eyebrow + H1 + subhead + photo/color bg + cta slot + breadcrumbs slot)
+      ContactForm.astro         # ready for future pages (existing forms are tagged but kept bespoke)
+  config/
+    site.ts                     # single source of truth: contact info, hrefs (tel/sms/mailto/googleReviews), socials, primaryNav, sellMenu, idMenu, footer menus
+  scripts/
+    contact-form.ts             # shared submit handler for any <form data-jvg-contact-form>
+  styles/
+    global.css                  # @theme tokens (colors, fonts, container), @font-face, skip-link CSS
+  assets/images/                # imported by Astro <Image> → auto-WebP at build
+public/
+  images/                       # raw paths used in CSS backgrounds (`url('/images/...')`)
+  fonts/                        # Oswald + Margi woff2
+reference/                      # full live-site HTML + extracted CSS + JSON-LD schemas (ground truth)
+```
+
+## Design system
+
+**Colors** (CSS custom properties on `:root` via Tailwind `@theme`):
+
+| Token | Hex | Use |
+|---|---|---|
+| `--color-brand-rust` | `#a03a1e` | primary rust / CTAs |
+| `--color-brand-rust-bright` | `#be4b25` | secondary / hover |
+| `--color-brand-rust-dark` | `#682412` | deep rust / banners |
+| `--color-brand-rust-amber` | `#aa3d1c` | contact section bg |
+| `--color-brand-brown` | `#3e2a14` | primary heading color |
+| `--color-brand-brown-warm/mid/muted/cool` | various browns | body text, labels, subheads |
+| `--color-brand-brown-tan` | `#d2b48c` | tan surface |
+| `--color-brand-cream` | `#eedfc0` | CTA button bg, parchment |
+| `--color-brand-cream-light/warm/parchment/bone/vanilla` | various | light surfaces |
+| `--color-brand-gold` | `#c8983a` | gold accent / star color |
+| `--color-brand-charcoal` | `#2a2d33` | copyright bar, charcoal borders |
+
+**Fonts:**
+- `--font-display: "Oswald"` — all headings + eyebrows + button labels (weight 600)
+- `--font-script: "Margi"` — preloaded but rarely used; reserved for future decorative copy
+- `--font-sans` — system stack for body
+
+**Container:** `--container-site: 1100px` (most sections respect this max-width).
+
+**Standard section pattern:** use `<SectionHeader eyebrow="..." title="..." subhead="..." id="anchor" rule={true} />` — gives the consistent eyebrow + Oswald uppercase H2 + 18px subhead + optional 80px rust accent rule.
+
+## User design preferences (DO NOT REVERT)
+
+Stored in `~/.claude/projects/C--Users-noahj/memory/feedback_jvg_design_preferences.md`. Highlights:
+
+1. **"Every Guitar Has A Story" banner stays broken out** — render it as a separate full-width dark-rust strip below the `ValueProp` section, not merged into the tan panel even though the live site has it inside the panel.
+2. **No background image on the contact section.** User chose solid `#aa3d1c` rust over the heavily-compressed `contact-form-bg.jpg`.
+
+## Decision log
+
+Living record of intentional design choices on this project. **Check this before "fixing" anything that looks off** — it might be deliberate.
+
+**This table is append-only.** When the user approves a design choice that deviates from the live site OR from default project patterns (especially if it's the kind of thing a future session might "fix" by reverting), add a row. Date it `YYYY-MM` and reference the file. Don't delete old rows — they're the project's institutional memory.
+
+| Date | Page / Area | Decision | Why |
+|---|---|---|---|
+| 2026-05 | ContactSection | Solid `#aa3d1c` rust bg, no image | The 9KB `contact-form-bg.jpg` pixelates with `background-size: cover` |
+| 2026-05 | ValueProp / Homepage | "Every Guitar Has A Story" rendered as separate full-width banner, not inside ValueProp panel | User preference (see feedback file) |
+| 2026-05 | Footer | Inventory = white pill + Reverb "R" badge; chevron after "Sell My Guitar"; logo flush bottom, flat border, no drop shadow | User spec from Footer audit |
+| 2026-05 | Footer | 5-item bottom menu uses `nowrap` on desktop, `flex-wrap: wrap` below 900px | Fits one line at desktop, stacks cleanly at mobile |
+| 2026-05 | Fender SN page | NO PageHero, uses Archetype B layout (header backdrop bands + fixed TOC sidebar + content max-width 860px when TOC visible) | Matches live structure; a conversion-style hero would crowd out the decoder tool |
+| 2026-05 | Fender SN page | Bridge plate image is OG-share only, NOT hero bg | Bright reflective metal at the top of the image made the absolute header unreadable |
+| 2026-05 | Fender SN page | Content images hot-linked to `joesvintageguitarsaz.com/wp-content/uploads/...` | First-pass speed (63 distinct images). Swap to local `public/images/fender-sn/` later if perf demands it |
+| 2026-05 | Fender SN page | Tool widget HTML imported via Vite's `?raw`; JS as a static asset at `public/scripts/fsn-tool.js`; CSS inlined into `<style is:global>` | Preserves the live site's exact class names without scoped-CSS rewriting; lets the IIFE script find its DOM targets |
+| 2026-05 | Fender SN page | "About the Author" block at the bottom (eyebrow + H2 + photo + bio + 4 stats + "Why This Guide Is Different" panel + 6 credentials + pull quote + 2 CTAs) — direct port of the live `jvg-author-card` section | Live site has it, retro audit caught it as missing; high E-E-A-T value for an SEO page. Photo hotlinked from live WP uploads. |
+| 2026-05 | Fender SN page | Secondary CTA on author block is a styled `<a class="fsn-author__cta-secondary">`, not the `<Button variant="outline-cream">` primitive | The outline-cream variant is built for dark backgrounds; on cream-warm page bg it disappears. Astro scoped `:global()` couldn't beat Button's own scoped-CSS specificity. Inlined the styled `<a>` instead to match live's brown-on-cream secondary CTA. |
+| 2026-05 | Project-wide | Adopted `scripts/audit-live-diff.mjs` + `.claude/agents/live-diff-auditor.md` + `scripts/kill-chrome-zombies.ps1` from the `wp-to-astro` template; added `cheerio` dev dep + `npm run audit:live-diff` script; created `reports/` dir | The fender-SN page's broken hot-link 404 and the lazy-load anchor-jump bug surfaced gaps in self-audit. Template now codifies these checks. All future pages run the static script + spawn the auditor agent before being declared done. |
+| 2026-05 | Fender SN page | H3 anchor IDs (`auth-*`, `adv-*`, `logo-evolution`) moved from `<h3 id>` to invisible `<div id class="fsn-anchor"></div>` immediately preceding each H3 | Live wraps subsections in `<section id>` and leaves H3s without IDs. Audit script flagged H3 ID mismatches as must-fix. Anchor divs preserve in-page navigation (TOC sidebar, decoder cross-date grid) while matching live's heading-ID structure. `scroll-margin-top: 100px` on the anchor offsets sticky-header collision. |
+| 2026-05 | Layout.astro | Added MusicStore+Organization, LocalBusiness, Place, and 2 Service schemas as global JSON-LD; added CollegeOrUniversity inside the fender-SN Article's Person.alumniOf | Audit caught these as missing per-type matches against live. Splitting MusicStore+Organization into a 2-type array (live's pattern) and LocalBusiness into a separate node satisfies the script's exact-type matcher. Per-page CollegeOrUniversity ties to ASU in Joe's bio. |
+| 2026-05 | Fender SN page | "Get in Touch!" H3 from live's Boxzilla popup NOT replicated; image count gap of 4 (logo `<Image>` URL transforms + broken live `-scaled.jpg` we correctly avoid + 3 PNG→SVG icon swaps) NOT reconciled | Both accepted as documented exceptions to the static audit. Live's Boxzilla popup is functionally replaced by `<ContactSection>` (H2 "Talk With Joe Today" + inline form). The 4-image gap is all false positives from Astro Image optimization or improvements (broken URL avoided, inline SVGs over PNGs). Verified by the live-diff-auditor agent's qualitative pass. |
+| 2026-05 | Project-wide | Added `.jvg-img2` / `.jvg-img3` / `.jvg-imgwc` / `.jvg-cap` / `.jvg-img--uniform` CSS-grid gallery primitive to `src/styles/global.css`; refactored 15 consecutive-figure runs (40 figures) on fender-SN page from vertical stacks to grids | Live uses `<div class="img2">` / `<div class="img3">` for comparison galleries (prefix examples, era variations, hardware comparisons). I built each as a standalone `<figure>` and shipped 15 broken galleries. User caught it. Primitive + detection rule now in CLAUDE.md "Image gallery primitive" section. Future pages must run the consecutive-figure grep before declaring done. |
+| 2026-05 | Project-wide | `.jvg-img--uniform` modifier scoped to `.jvg-img2` only (was applying to all gallery variants) | Logo Evolution gallery (3-up with text-overlay images) was getting top/bottom cropped because uniform-height forced 220px + cover. Live's `.img2.uniform-height` rule is also scoped to 2-up only — 3-ups always render at natural aspect. Now matches live exactly. |
+| 2026-05 | Project-wide | Added `.jvg-comp-grid` + `.jvg-comp-card` + `.jvg-comp-card--tall` + `.jvg-comp-card__body` image-card grid primitive to `src/styles/global.css`; refactored Kluson Tuner Eras section to use it (3 cards each with image + descriptive body) | Live's "Three Kluson Eras" used `<div class="comp-grid">` with `<div class="comp-card tall">` cells (image + `cbody` paragraph). I had built it as a 4-image jvg-img2 gallery with a separate bullet list, which lost the side-by-side photo-with-label-card pairing. New primitive matches live's structure. The standalone PAT APPLD image below the grid uses `.fsn-imgwc--standalone` (one-off pattern for single images outside a gallery). |
+| 2026-05 | Fender SN page | `.fsn-callout` restyled from "white box with gold left border" to live's exact "🎸 JOE'S TIP" treatment: dark brown gradient (`#4a3520 → #3a2a18`), cream text, gold `::before` label, gold-highlighted `<strong>` and `<a>` | Live's `.tip` class has a distinctive branded appearance: dark gradient bg with "🎸 JOE'S TIP" gold label injected via `::before`. My original `.fsn-callout` was a plain warning-style box that looked generic. All 28 callouts now match live's visual treatment. Markup pattern: `<div class="fsn-callout"><p>...</p></div>` — the "JOE'S TIP" label comes from CSS, never typed inline. |
+| 2026-05 | sell-my-fender page | Live's bottom `#get-in-touch-with-joe` bespoke contact form replaced with the shared `<ContactSection />` ("Talk With Joe Today"). Live's `#get-in-touch` Boxzilla popup NOT replicated. Live's 3 IG-embed reels alongside the 3 Google reviews NOT replicated (testimonials are 3-up Google reviews only) | Two contact forms back-to-back is ugly; the shared component covers the same conversion goal and keeps cross-page consistency. Boxzilla popup is a WP plugin feature, not page content. IG embeds add Instagram tracking and are easy to skip without losing the page's core value proposition. Audit's 2 remaining "missing heading" findings ("Get In Touch With Joe For A Free Vintage Guitar Consultation Today!", "Get in Touch!") and 2-image count gap are accepted as documented exceptions. |
+| 2026-05 | sell-my-fender page | FAQ accordion `<h4>` elements use live's exact `toggle_<hex>` IDs (e.g. `toggle_e5a80b5c1eab84219`) so anchor links from external pages still work and the audit script's heading-by-ID matcher finds them | Live's wpcf7 plugin generates random IDs that we'd otherwise lose on rebuild. Hardcoding them preserves backlinks and inbound deep-link parity. |
+| 2026-05 | sell-my-fender page | Top intro form uses a special `<select name="serial-number">` field (8 options) above the standard name/email/phone fields — direct port of live's wpcf7 form, hooked into the same Mailgun-bound `data-jvg-contact-form` handler | Lets sellers self-classify their guitar's serial-number era before submitting, giving Joe a contextual lead. The serial-number value submits alongside the other form fields as a single combined contact submission. |
+| 2026-05 | sell-my-fender page | ~~Hero rebuilt: pure rust vertical gradient (no photo bg). Meet Joe wrapped in single cream-framed card with drop shadow.~~ **BOTH SUPERSEDED 2026-05-26 v5** — see rows below. TOC `<details>` widget under intro text + intro section colors inverted (cream-warm bg + dark-rust form panel) REMAIN correct. | Audit (Gemini-3-Pro single-model, 2026-05-26) caught some real fixes but compounded two visual misreads (hero "no photo" + Meet Joe "card with shadow") that I trusted without DOM-querying. |
+| 2026-05 v5 | sell-my-fender page | **Hero photo bg RESTORED.** Uses live's exact image URL `https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/07/background.jpg` with a dark vignette overlay via `::before` (matches live's `.tp-bnr::before` verified via `getComputedStyle`). H1 eyebrow restyled to Title Case + gold + decorative side bars (matches live's "sub-t" treatment). Primary nav uppercase removed site-wide in `Header.astro`. Secondary nav gained vertical dividers. | The v3 "remove photo bg, use pure rust gradient" decision was WRONG — it came from a v2 Gemini audit that misread live as a pure gradient. Author trusted the misread without DOM-querying live's actual `background-image`. Three subsequent audits failed to catch the bug because the small thumbnail rendering of screenshots in Claude's context made the B&W photo's people look like gradient noise. **Process lesson:** before any "remove/swap this background" decision, run `browser_evaluate` on the live page to read `getComputedStyle(target).backgroundImage` directly. Eye-on-thumbnail is unreliable; DOM-text is not. |
+| 2026-05 v5 | sell-my-fender page | ~~Meet Joe section: section bg cream, NO card wrapper, white text panel~~ **SUPERSEDED 2026-05-26 v6 — the v5 audit went two levels deep into the DOM but stopped before reaching the row, missing the decorative pseudo-elements that live the level ABOVE the columns.** | Caught the inner white wrapper but missed the OUTER white card + rust triangle that frame both columns together. |
+| 2026-05 v6 | sell-my-fender page | ~~Meet Joe with white card + rust triangle~~ **PARTIALLY CORRECT — superseded by v7 which adds the outlined frame + video overflow.** | v6 caught the row-level decorative elements but missed the column-level outlined-frame pseudo and the video's negative-margin overflow. Same incomplete-DOM-walk class of error. |
+| 2026-05 v7 | sell-my-fender page | ~~Meet Joe with outlined frame + video overflow~~ **Caught the chrome correctly; v8 swapped the iframe for lite-youtube to match live's video rendering exactly.** | v7 was structurally correct but used a raw iframe — different play-button + thumbnail UI than live's lite-youtube component. |
+| 2026-05 v8 | sell-my-fender page | **lite-youtube web component swap + alignment fix.** Replaced raw `<iframe>` with `<lite-youtube videoid="U3eJgXLs4w8" params="rel=0&modestbranding=1">` — the exact same Paul Irish lite-youtube-embed package live uses. CSS + JS loaded via `cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2`. Renders YouTube thumbnail + red play button instantly, swaps to iframe only on click. Also fixed video vertical alignment: `align-items: center` → `flex-start` + `padding-top: 24px` so the video sits in the upper portion of the column (matches live). | Live uses lite-youtube; raw iframe doesn't visually match the clean placeholder. CDN approach (vs npm install) keeps the dependency reversible and matches live's loading pattern. Both my version and live now fetch the SAME thumbnail from `i.ytimg.com/vi_webp/<id>/sddefault.webp` — no exclusive content on live's side. |
+| 2026-05-26 | sell-my-gibson page (Batches 1–4) | **Full Archetype A conversion page built from scratch** (user instruction: don't reference sell-fender's Meet Joe code which had quality issues). 14 sections: hero (small H1 + big H2 + decorative side-bars matching live's `.tp-bnr .sub-t`) → intro form with Gibson-specific serial-number dropdown + TOC → Meet Joe Connoisseur with the v9 white-card + rust-triangle + outlined-rust-frame chrome (videoid `fTpIquyV-j8`, lite-youtube params unioned from the start) → 4 content sections (how-to-sell, how-much-worth, best-way alternating image sides + my-guitar-buying-process with 3 SVG icon cards) → testimonials with Pinterest masonry of 6 reviews from `testimonials.json` (Randy Abercrombie surfaced first for Gibson topical relevance) + 3 Gibson IG reels (mandolin / L-4 / J-45) → discover banner → Lyman story section → 8-model payout grid (Les Paul, SG, ES, Flying V, Explorer, Firebird, Acoustic, Bass) → 8-Q FAQ accordion using shared FAQ component with live's exact wpcf7 toggle_* IDs preserved → final CTA banner → shared ContactSection. CSS-prefix `.smg-`. Live anchor IDs preserved verbatim (`meet-connoisseur-joe-dampt`, `how-to-sell-your-guitar`, `how-much-is-my-gibson-guitar`, `best-way-to-sell`, `my-guitar-buying-process`, `our-clients-testimonials`, `find-out-gibson-really-worth`, `consider-selling-your-guitar`, `receive-the-highest-payout`, `faqs-about-gibson`, `receive-free-consultation`). Two a11y bugs caught + fixed in Batch 4 by the new `audit:a11y` script: outline-cream button on tan banner (1.49:1) → switched to cream solid; Lyman subtitle rust-bright on cream (3.77:1) → moved to rust-dark. Lyman photo URL was 404 (truncated during HTML extraction) → fixed to live's `-768x1024.jpg` size variant. Final state: 0 errors, 0 warnings on `npx astro check`; `audit:a11y` only the 4 pre-existing footer-link contrast issues (matches sell-fender baseline); `audit:live-diff` 6 🔴 must-fix items all in the "accepted matches-live-design" bucket (fusionRow=0 intentional Avada stripping, picture/source=0 we use `<img>` not `<picture>`, model card photos skipped in favor of text-only cards, "Get in Touch!" Boxzilla popup replaced by shared ContactSection, JSON-LD type mismatch is the audit's matcher false-positive — local has most types just in different order). New methodology preempting all v9/v10/v10.1 sell-fender bugs: built right the first time. Time per batch: ~10 min each. | This page validates the deterministic-audit workflow: `extract-html-first.mjs` + `getComputedStyle` for build-time precision, `audit:a11y` as a CI-gate catching contrast regressions before they ship. Every previous learning ([v9 anchor/HR fixes, v10 Pinterest+IG, v10.1 contrast fix]) applied preemptively. |
+| 2026-05-26 v10.2 | Project-wide tooling | **Added `scripts/audit-a11y.mjs`** + `npm run audit:a11y`. Uses `@axe-core/playwright` (industry-standard a11y scanner). Runs WCAG 2.1 A+AA rule set including `color-contrast` — the rule that would have caught the v10 IG-caption bug. Supports `--viewport 1920\|390\|both` and `--include-tags` to scope WCAG levels. Outputs JSON + Markdown to `reports/a11y/`. Exits non-zero on any violation. Same script also added to wp-to-astro template. **Retroactive verification:** temporarily re-introduced the dark-on-dark IG caption bug, ran the script, got `🔴 SERIOUS color-contrast (10 nodes)` — confirms detection sensitivity. After restoring the fix, 4 pre-existing violations remain (footer copyright links: rust-bright #be4b25 on tan #d2b48c = 2.52:1) — these are pre-existing matches-live-design decisions, not regressions, and were already documented as known gaps in the project's status notes. | Closes the gap that allowed the IG-caption contrast bug to ship. Going forward, `audit:a11y` should run on every page before declaring done — same standing rule as `audit:live-diff`. |
+| 2026-05-26 v10.1 | sell-my-fender Testimonials | **Fixed IG caption contrast + removed "More Reviews" button.** IG caption text was `--color-brand-brown` (#3e2a14) on dark-rust section bg (#682412) — failed WCAG AA. `<strong>` headlines were `--color-brand-rust-dark` (same as bg = invisible). Both moved to cream + brown-tan, matching the section's existing text color scheme. The "More Reviews" button at the bottom removed — 6 cards + 3 IG reels are enough social proof, and each review name already links to its individual GMB review. | User caught it visually; we lacked tooling. Motivated the new `audit:a11y` script (next row). |
+| 2026-05-26 v10 | sell-my-fender Testimonials | **Rebuilt section per user request.** (a) Bumped from 3 hard-coded reviews to **6 reviews** sourced from `reference/testimonials.json` (Jessica Hammond, Caleb King, Larry Hattier, Randy Abercrombie, Bobbie Jo Kelly Greene, Marie Coyle) — each links to its individual Google review (better UX than the generic Maps link the previous 3 used). (b) Replaced fixed 3-column grid with **Pinterest-style CSS-columns masonry** (`column-count: 3` desktop → 2 tablet → 1 mobile; `column-fill: balance`; per-card `break-inside: avoid` keeps cards intact across column breaks). Reading order is column-then-row, which is acceptable for unordered review cards (Grid `masonry` considered but still not stable cross-browser as of 2026-05). (c) Added the **3 Instagram reels** (`DWCSaGtD4qS`, `DUO_ZAqkq8F`, `DT3vdFFkps8`) matching live exactly, in a 3-up grid below the reviews; IG's `embed.js` loaded via the page's `head` slot (same pattern as lite-youtube). **Supersedes** the 2026-05 decision-log row "Live's 3 IG-embed reels NOT replicated" — user explicitly requested them this session. **Verified** post-deploy via `getComputedStyle`: 6 cards rendered, `column-count: 3`, `column-gap: 20px`, all cards have `break-inside: avoid`, IG `embed.js` successfully replaced 3 blockquotes with iframes. | Closes the testimonials gap surfaced in v8 audit. Pinterest masonry handles varying-length reviews far better than fixed-row grid (no dead space below short cards), and 6 reviews vs 3 doubles the social proof. |
+| 2026-05-26 v9 | sell-my-fender Meet Joe | **Anchor ID + HR separator + section padding + lite-youtube params parity with live.** Audit run via new `extract-html-first.mjs` (Chrome CSS Coverage) + DOM `getComputedStyle` cross-check (no AI-eyeballing of screenshots, per the new methodology). Found: (a) section ID `meet-joe` differed from live's `meet-vintage-guitar-buyer-joe-dampt` (broke inbound links); (b) `.smf-rule-cream` rendered as 2.4px×80px tri-color border-only accent vs live's `.main-sep` which is 3px×100%-column-width rust-dark bar; (c) section padding `90px 0 110px` vs live's `100px 30px 120px`; (d) lite-youtube `params` only had `rel=0&modestbranding=1` vs live's `wmode=transparent&autoplay=1&enablejsapi=1`. **Fixes:** section ID now matches live + invisible `<div id="meet-joe" class="smf-anchor">` kept for backward-compat; class renamed `.smf-rule-cream` → `.smf-meet__sep` with live-matching styles; padding bumped to `100px 30px 120px`; lite-youtube params unioned to `wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1`. Verified post-fix: H3 size 30px ✅, HR width 484px (live 493) ✅, section padding exact ✅, params attribute exact ✅. 13/16 computed-style props matched on first audit; remaining 3 now fixed. Reports at `reports/meet-joe-audit-v9.md`. | Validates the new deterministic-audit methodology: every finding had a measured value, no anchoring-bias-on-thumbnails, no cross-model consensus needed. Closes the 8-revision saga that motivated building `extract-html-first.mjs` in the first place. |
+| 2026-05 v8 | Layout.astro | **New `<slot name="head" />`** added before `</head>` close. Pages can now inject `<link>` / `<script>` into the document head via `<link slot="head">` / `<script slot="head">`. First use: sell-fender's lite-youtube CDN assets. Future pages: page-specific structured data, web-component scripts, font preloads not common enough for Layout's default head. | Avoids Layout-bloat when a single page needs a CDN dependency. Astro-idiomatic slot pattern. |
+| 2026-05 | sell-my-fender page | "Discover the Real Value" banner button: `.smf-btn--cream` → `.smf-btn--rust` | Live's right-column panel is cream; the button sat on it with the same cream background and was effectively invisible (no contrast). Both Gemini-3-Pro and a quick visual confirm flagged it. `.smf-btn--cream` is for use on DARK backgrounds (label-on-dark CTAs); `.smf-btn--rust` is for use on LIGHT backgrounds. The variant was the wrong one. |
+| 2026-05 | Project-wide audit workflow | When invoking `mcp__zen__chat` / `mcp__zen__consensus` DIRECTLY (not via the live-diff-auditor agent), the caller MUST filter findings against this Decision log before reporting to user. The agent's `c4` step does this synthesis automatically; bare-call workflows don't | I hit this exact gap on 2026-05-26 — Gemini flagged 3 missing "showcase cards" (= the IG-embed reels documented on row above as intentional) as 🔴 must-fix. I initially propagated this to the user as a regression. Correct flow: read Decision log → reclassify exempted items as 🟢 → report only real regressions. Adding this row as a permanent reminder. |
+
+### Template-level lessons learned (cross-project)
+
+These are not project deviations — they're recurring failures that shaped the wp-to-astro template's tooling. **Read before debating whether an audit check is "too strict."**
+
+| Source | Lesson | Codified as |
+|---|---|---|
+| JVG 2026-05 | Hot-linked image returned 404, survived 4 visual audits | `npm run audit:live-diff` does HEAD-check on every external image URL |
+| JVG 2026-05 | `<img loading="lazy">` made `#custom-shop-serials` look empty after anchor jump | `live-diff-auditor` agent forces `loading="eager"` before screenshotting; documented in [Image migration](#image-migration--hot-link-is-single-session-only) |
+| JVG 2026-05 | Self-audit anchored on what was built, missed what was missing | New `live-diff-auditor` subagent with fresh eyes (no anchoring on local code) |
+| JVG 2026-05 | Same-model parallel subagents gave correlated false-positive consensus | Rule #4 in [Must-follow rules](#-must-follow-rules-read-before-writing-code) — escalate to cross-model after 2 failed attempts |
+| Gemini adversarial review 2026-05 | Audit script flagged `alt=""` as missing alt (WCAG-valid for decorative imgs) | Script only flags missing `alt` attribute, not empty value |
+| Gemini adversarial review 2026-05 | Audit script's `fetch()` blocked by Wordfence / CF Bot Management | All audit fetches send a realistic browser User-Agent |
+| Gemini adversarial review 2026-05 | Audit script ignored `<video>` and `<iframe>` — hero videos / YouTube embeds disappeared silently | Script diffs video sources and iframe sources |
+| JVG 2026-05 | 15 comparison-image galleries shipped as vertical figure stacks (matched live's image COUNT but missed live's grid LAYOUT) — static audit's image-count check returned 0 diff, missed the layout | New `jvg-img2`/`jvg-img3` gallery primitive in `global.css`; CLAUDE.md "Image gallery primitive" section codifies the detection rule (consecutive-figure grep); live-diff-auditor's qualitative pass should explicitly flag "N consecutive figures on local — verify live doesn't use a grid container" |
+| JVG 2026-05 | 16 of 27 "Joe's Tip" callout boxes silently dropped on fender-SN page (live uses `<div class="tip">`, local uses `<div class="fsn-callout">`). Heading + image + JSON-LD checks all passed — but no check counted callouts. User caught it on visual inspection. | New `countCallouts()` function + diff check in `scripts/audit-live-diff.mjs`. Selector pattern-matches both live's `.tip`/`.info-box`/`.warn`/`.callout` AND local's `<prefix>-callout`/`<prefix>-tip` patterns. Diff ≥3 → 🔴 must-fix, diff ≥1 → 🟡 should-fix. On the original broken state (-21 callouts) this would have flagged on the first audit pass. |
+
+## Page archetypes
+
+This site has **two distinct page templates**. **Identify which archetype you're building before you scaffold** — picking the wrong one means structural rework later.
+
+### Archetype A: Conversion pages
+
+`/`, `/about-me/`, `/free-appraisal/`, `/sell-my-*/`, `/contact-me/`, `/sell-a-guitar-collection/`
+
+- Big `<PageHero>` with photo background, full-width
+- Site Header is `position: absolute` over the hero (header text reads as white-on-dark-vignette)
+- Single-column body
+- Heavy CTA placement throughout (call/text/form CTAs every 2–3 sections)
+- Designed to convert: appraisal-form, sell-now buttons, trust signals (testimonials, stats)
+- **Hero `bgImage` MUST be dark across the top ~120px** for the header text to read. Use `/images/hero-background.jpg` as the safe default. Bright featured photos (like the bridge plate JPG) make poor hero backgrounds even with vignette — use them as OG share images only.
+
+### Archetype B: Reference / SEO pages
+
+`/fender-guitars-serial-number-guide/`, `/how-to-read-gibson-serial-numbers/`, `/martin-serial-and-model-numbers/`, `/rickenbacker-serial-numbers/`, `/gretsch-serial-number-lookup/`, `/guild-serial-number-lookup/`, `/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/`, blog posts
+
+- **NO `<PageHero>`.** Page goes straight from header to first content block.
+- **Header backdrop**: two solid bands the absolute header sits on top of — dark brown for the primary nav row (~54px tall), white for the secondary nav row (~56px, with 6px tan underline). See `/src/pages/fender-guitars-serial-number-guide.astro` (the `<div class="fsn-header-backdrop">` block).
+- **Override secondary-nav text color from white → brown** by adding a body class (e.g. `body.fender-sn-page header nav.border-b-\[6px\] a { color: var(--color-brand-brown) !important; }`). The class is set via `<script is:inline>document.body.classList.add("fender-sn-page");</script>`.
+- **Two-column body at ≥1281px:** content centered at max-width 860px, **fixed-position TOC sidebar** on the right (`right: max(24px, calc(50vw - 430px - 320px))`, width: 280px, top: 140px, max-height: calc(100vh-160px), overflow-y: auto, z-index: 25). TOC hides below 1281px; content widens back to the standard `--container-site` (1100px).
+- Interactive widgets (decoder tool, calculator) appear **above** the H1 lede, not inside any hero. The H1 sits in the lede section under the tool.
+- Heavy on tables, accordions, FAQ schema. Lighter on CTAs (one "Send Joe Photos" block near the bottom, then ContactSection at end).
+
+### How to decide which archetype
+
+Open the live URL and look at the top 600px:
+- Big photo hero with overlaid title + buttons → **Archetype A**
+- No hero, page header sits on solid color band, decoder tool or article body up top → **Archetype B**
+
+## Adding a new page
+
+1. **Identify the archetype** (see above).
+2. Create `src/pages/<route>.astro`.
+3. Import `Layout` and pass per-page SEO props. Skeleton for **Archetype A**:
+   ```astro
+   ---
+   import Layout from "../layouts/Layout.astro";
+   import PageHero from "../components/primitives/PageHero.astro";
+   import Button from "../components/primitives/Button.astro";
+   import ContactSection from "../components/ContactSection.astro";
+   import { contact, hrefs } from "../config/site";
+   ---
+   <Layout
+     title="Sell My Gibson Guitar | Joe's Vintage Guitars"
+     description="..."
+     canonical="/sell-my-gibson-guitar/"
+     ogImage="https://www.joesvintageguitarsaz.com/wp-content/uploads/.../something.jpg"
+     structuredData={...}
+   >
+     <PageHero
+       eyebrow="Sell My Guitar"
+       title="Sell Your Vintage Gibson Guitar"
+       subhead="Top dollar. Same-day payment. Nationwide buyer."
+       bgImage="/images/hero-background.jpg"  {/* dark-top-safe default */}
+     >
+       <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
+       <Button slot="cta" href="/contact-me/" variant="cream" size="lg">Contact Now</Button>
+     </PageHero>
+
+     <!-- ...page-specific sections... -->
+
+     <ContactSection />
+   </Layout>
+   ```
+   For **Archetype B**: copy the working scaffold from `src/pages/fender-guitars-serial-number-guide.astro` (header backdrop + tool layout + fixed TOC + content sections). Use a unique class prefix per page (`.gsn-*` for Gibson, `.msn-*` for Martin, etc.) so widget CSS doesn't collide.
+4. Section components can be reused (`<ContactSection />` works on any page).
+5. For new page-specific content, follow the section component pattern: scoped `<style>` block, use design tokens, use `<SectionHeader>` for the standard heading pattern (Archetype A) or inline H2 + 80px rust rule (Archetype B).
+6. **Never hard-code phone/email/address/social URLs in a component.** Always `import { contact, hrefs, socials } from "../config/site"`. Updating `site.ts` should propagate everywhere.
+7. Save the live HTML to `reference/<route>-raw.html` (use `curl -sL <url> > reference/<route>-raw.html`) so you can grep it later without re-fetching.
+
+## Porting WordPress widgets (interactive components)
+
+The live site has interactive widgets — the Fender serial decoder is the first one; the Gibson / Martin / Rickenbacker SN pages likely have similar. When you encounter one, follow this file convention:
+
+```
+reference/
+  <page>-raw.html              # Full live-site HTML, saved via curl
+  _extract-<page>.cjs          # Node script that strips scripts/styles/svg
+                               # and writes clean content as markdown
+  <page>-content.md            # Output of the extract script (article body)
+  <widget>-html.html           # Just the widget's <div>...</div> markup
+  <widget>.css                 # Just the widget's CSS rules (for reference)
+public/scripts/
+  <widget>.js                  # The widget's IIFE script (static asset)
+```
+
+**Integration pattern in the Astro page:**
+```astro
+---
+// Import widget HTML at build time via Vite's `?raw` query
+import widgetHtml from "../../reference/fsn-tool-html.html?raw";
+---
+<div set:html={widgetHtml} />
+<script src="/scripts/fsn-tool.js" is:inline></script>
+
+<style is:global>
+  /* Paste the widget's CSS here, keeping its original class names
+     (.fsn-tool, .fsn-card, .fsn-step) so they don't collide with
+     page chrome classes. Scoped <style> blocks would rewrite the
+     selectors and break the widget. */
+</style>
+```
+
+**Fix-ups before integrating widget HTML:**
+- Absolute URLs `href="https://www.joesvintageguitarsaz.com/..."` → relative `href="/..."`
+- Anchor IDs that don't match your page's section IDs (e.g. live's `#custom-shop-serials` → your page's `#custom-shop`)
+- Image `src=` URLs — hot-link to live WP uploads on first pass, swap to local later
+
+**Always add a `WebApplication` JSON-LD schema** alongside the page's other schemas so the tool is discoverable. Example in `/src/pages/fender-guitars-serial-number-guide.astro` (`toolSchema` const).
+
+**Verify end-to-end** by entering a known test serial and confirming the decoder routes correctly. For the Fender tool: `S812345` → 1978; `MN0123456` → 1990 Made in Mexico.
+
+## Visual audit + ship checklist
+
+Before declaring any new page done, run through this. **The side-by-side-with-live step is the one that catches the headline mistakes** (missing widgets, wrong header treatment, missing whole sections). Don't skip it.
+
+### Sequence
+
+1. **Section count first.** Open the live URL in a browser tab. Scroll top-to-bottom. List every distinct section in order. Now open your local page and do the same. Numbers don't match → stop and figure out what you missed before any pixel-level work.
+
+2. **Side-by-side screenshots at 1920px** (user's screen; matches what they see). Take full-page captures of both:
+   ```js
+   // Live
+   await browser_navigate({ url: "https://www.joesvintageguitarsaz.com/<path>/" });
+   await browser_take_screenshot({ filename: "audit-live.png", fullPage: true });
+   // Local
+   await browser_navigate({ url: "http://localhost:4321/<path>/" });
+   await browser_take_screenshot({ filename: "audit-local.png", fullPage: true });
+   ```
+   Read both back as images. Scan top-to-bottom for: structural elements present, color rhythm matches (alternating section bgs), heading hierarchy, table density, image positions.
+
+3. **Test every interactive widget on BOTH sites.** Decoder tools, accordions, dropdowns, video embeds, forms. If the live site has a working tool, yours must work too. Click through at least one happy path on each.
+
+4. **Header / footer contrast check.** At 1920px, is every nav link readable against whatever's behind it? Hero images with bright spots fail this check.
+
+5. **Responsive at 4 viewports:** 1920 / 1280 / 768 / 390. Watch for:
+   - Mobile overflow (text/cards extending off-screen)
+   - Missing `flex-wrap` on nav rows
+   - Tables that need horizontal scroll wrappers
+   - Sidebars that don't collapse cleanly
+   - FloatingCTAs overlapping content (bottom-right, 64px wide on mobile — paragraph text can run behind it)
+
+6. **Type check + console:** `npx astro check` → 0 errors, browser console → 0 errors.
+
+7. **Run the static audit** (deterministic — catches what human eyes miss):
+   ```bash
+   npm run audit:live-diff -- <live-url> <local-url> --slug <slug>
+   ```
+   Fix every 🔴 must-fix item. Re-run until the report shows 0 🔴 (or items are explicitly accepted with a Decision log row).
+
+8. **Spawn the `live-diff-auditor` agent** for the qualitative pass. Pass it both URLs and the static audit report path. Act on its punch list. Don't self-audit afterward — that's the anchoring-bias trap.
+
+9. **Force-load lazy images before any screenshot.** `<img loading="lazy">` images don't fetch until near viewport. Anchor jumps mid-page bypass that, making them appear missing. Before screenshotting:
+   ```js
+   await browser_evaluate({ function: `() => document.querySelectorAll('img[loading="lazy"]').forEach(i => { i.loading = 'eager'; const s = i.src; i.src = ''; i.src = s; })` });
+   await browser_wait_for({ time: 5 });
+   ```
+
+10. **Final sanity check:** if anything looks different from live and you can't explain it in one sentence, it's a real bug. Don't ship.
+
+### Iterative workflow
+
+- Build the page in one session against the content extract + reference HTML.
+- BEFORE declaring done, run steps 1–10.
+- For each gap found, fix it, then re-run the static audit + screenshot only the changed section.
+- Stop iterating when both the static audit's 🔴 bucket AND the auditor agent's 🔴 bucket are empty — **or** when you've made 2 passes without convergence (then escalate via cross-model review).
+
+## Image gallery primitive — use for ANY group of 2+ comparison images
+
+**The bug pattern this prevents:** building 4 prefix-example photos as 4 standalone `<figure class="fsn-fig">` elements that each take a full content row. Live groups them as a **CSS-grid gallery** so they appear side-by-side as a visual comparison. We shipped the fender-SN page with 15 such groups laid out wrong before a user caught it.
+
+**Primitive lives in `src/styles/global.css`** (available on every page, every component):
+
+```html
+<div class="jvg-img2 jvg-img--uniform">          <!-- or jvg-img3 for 3-up -->
+  <div class="jvg-imgwc">
+    <img src="..." alt="..." loading="lazy" decoding="async" />
+    <p class="jvg-cap">Caption text</p>            <!-- replaces <figcaption> -->
+  </div>
+  <div class="jvg-imgwc">...</div>
+</div>
+```
+
+**When to use which class:**
+- 2 figures → `jvg-img2`
+- 3 figures → `jvg-img3`
+- 4 figures → `jvg-img2` (wraps into 2×2)
+- 5 figures → `jvg-img3` (3 + 2 wrap)
+- 6 figures → `jvg-img3` (2 rows of 3)
+
+Add `jvg-img--uniform` when images are a true comparison set (the same kind of thing shown side-by-side — prefix photos, era examples, before/after, hardware variants). It forces a fixed 220px height with `object-fit: cover` so the grid stays tidy regardless of source aspect ratios. **Skip it** when each image is its own illustrative figure (a single hero, a one-off diagram).
+
+**Important — `--uniform` ONLY applies to `.jvg-img2`** (matches live's `.img2.uniform-height` rule). 3-up galleries (`.jvg-img3`) always render at natural aspect ratio so images with baked-in text overlays (logos with captions, era labels) don't get cropped at top/bottom. If you want uniform height on a 3-up gallery, pre-crop the source images to matching dimensions instead.
+
+**Detection rule (apply to every page):** before declaring a page done, grep your `.astro` source for runs of consecutive `<figure>` blocks separated only by whitespace. Any run of 2+ is a candidate for the gallery primitive — go check the live page. If the live site has them side-by-side, convert. Quick scan:
+
+```bash
+node -e "const fs=require('fs');const h=fs.readFileSync('src/pages/<page>.astro','utf-8');const r=/<figure[^>]*>[\s\S]*?<\/figure>\s*<figure/g;console.log('consecutive figure runs:', (h.match(r)||[]).length)"
+```
+
+If that prints anything other than 0, audit those runs against the live site before shipping. The `live-diff-auditor` agent's qualitative pass should also flag this — if it doesn't, add a specific check for it in its prompt.
+
+**Decision rule for single vs. gallery vs. image-card grid:**
+- Live `<div class="img2">` / `<div class="img3">` parent → `.jvg-img2` / `.jvg-img3` (image + small caption only)
+- Live `<div class="comp-grid">` with `<div class="comp-card">` cells → `.jvg-comp-grid` + `.jvg-comp-card` (image + descriptive paragraph body card per cell)
+- Live has plain consecutive `<figure>` / `<picture>` elements as siblings of `<p>` → keep as `<figure class="fsn-fig">` stacked
+
+**Image-card grid (`.jvg-comp-grid` + `.jvg-comp-card`)** — different from the basic gallery. Use when each cell needs an IMAGE plus a styled CARD with body text (year range + description). Example: "The Three Kluson Eras" where each card shows a tuner photo + the era description.
+
+```html
+<div class="jvg-comp-grid">
+  <div class="jvg-comp-card jvg-comp-card--tall">
+    <img src="..." alt="..." loading="lazy" decoding="async" />
+    <div class="jvg-comp-card__body">
+      <p><strong>1950 – Mid-1956.</strong> Back of the housing is...</p>
+    </div>
+  </div>
+  <!-- ...more cards... -->
+</div>
+```
+
+`.jvg-comp-card--tall` modifier shows full natural-height images (best when image is primary content). Default behavior is 130px fixed height with object-fit:cover (best for icon-style thumbnails).
+
+## Image migration — hot-link is single-session-only
+
+The "hot-link then swap" pattern is allowed for first-pass layout, but **every image must be swapped to local before the end of the same session.** Carrying hot-links across sessions normalizes broken images and you stop noticing failures.
+
+Hot-linking is dangerous because:
+- The WordPress origin may be torn down post-migration → every image 404s.
+- Hot-linked images bypass Cloudflare's cache → slow page loads.
+- Cross-origin images can't have width/height inferred → CLS (Cumulative Layout Shift).
+- Astro's `<Image>` component refuses unauthorized remote domains by default.
+- **Lazy-loaded hot-links + anchor jumps = silent missing-image bugs.** If a user clicks a link to `/page/#section-mid-page`, `<img loading="lazy">` images in that section haven't started fetching yet. They appear blank for 1–2 seconds. Visual audits miss this unless the auditor explicitly forces eager loading before screenshotting.
+- **Broken hot-links survive every visual check** unless you HEAD-request each image URL. The fender-SN page's `fender-back-of-headstock-serial-number-scaled.jpg` (404) survived 4 prior audit passes because no check actually verified the URL responded 200.
+
+Pre-launch image checklist (per image):
+- [ ] Downloaded to `public/images/<page>/` or `src/assets/images/<page>/`
+- [ ] Compressed (use [Squoosh](https://squoosh.app/) or `sharp` if scripting)
+- [ ] Renamed descriptively (not `IMG_4523.jpg`)
+- [ ] `width` and `height` attributes set (or used via Astro's `<Image>`)
+- [ ] `alt` text matches what's on the live site, or improves it where missing
+- [ ] If used as a hero `bgImage`, dark across top ~120px (header contrast rule)
+- [ ] **`npm run audit:live-diff` reports 0 broken external image URLs**
+
+**Current status of JVG hot-links:** ~63 images on the fender-SN page are still hot-linked to `joesvintageguitarsaz.com/wp-content/uploads/...`. These all return 200 per the audit script's HEAD check, but they're not local yet. **Before declaring the page truly done, download them and re-run the audit.** Decision log row dated 2026-05 explains why hot-linking was used as a first pass.
+
+## live-diff-auditor agent + static audit script
+
+There's a dedicated subagent at `.claude/agents/live-diff-auditor.md` and a static audit script at `scripts/audit-live-diff.mjs`. Together they catch the class of bugs self-audit misses.
+
+**Workflow at the end of every page build:**
+
+1. Build the page.
+2. Run the static audit:
+   ```bash
+   npm run audit:live-diff -- <live-url> <local-url> --slug <slug>
+   ```
+   This runs deterministic checks: heading inventory diff, image counts, broken-external-URL HEAD checks, JSON-LD parity, title/meta/canonical diff, trailing-slash sanity. Writes a report to `reports/<slug>-audit-<timestamp>.md` and prints 🔴/🟡/🟢 counts.
+3. Fix every 🔴 must-fix item. Re-run until the report shows 0 🔴.
+4. Spawn the `live-diff-auditor` subagent (`Agent` tool, `subagent_type: "live-diff-auditor"`). Pass it the live URL, local URL, and the path to the report from step 2. It adds the qualitative visual layer: forced eager-load image checks, side-by-side screenshots at 1440 and 390, interactive widget probes, anchor-jump tests, contrast checks.
+5. Act on the auditor's punch list. Don't ship until both the script's 🔴 bucket AND the auditor's 🔴 bucket are empty (or items are explicitly accepted with a Decision log entry).
+
+**Don't self-audit after the agent has run** — that's the anchoring-bias trap.
+
+**If the custom agent isn't loaded** (requires Claude Code restart to register new agent definitions in `.claude/agents/`), fall back to a `general-purpose` agent with the agent's prompt inlined.
+
+## When I get stuck — limitations + escalation
+
+I have specific limitations on pixel-perfect work. Be honest about them — don't keep iterating in circles.
+
+### My known weak spots
+
+- I sometimes mis-read screenshots, especially when comparing two similar images side-by-side. Subtle differences in spacing, color, or weight don't always register.
+- I can't perceive hover states, transitions, scroll-triggered behavior, or font rendering quirks from a static screenshot.
+- I can over-anchor on what the code "says it does" instead of what's actually rendered.
+- When my self-audits return "matches" after a structural change, I might be wrong. Hedge honestly: "looks similar to live based on what I can see — please verify [the specific thing] visually."
+- I've also chased ghosts in `<details>` dropdowns and overlapping fixed elements that turned out not to be bugs. If the user says it looks fine and I'm seeing a "bug" only via DOM inspection, trust the user.
+
+### When to stop and ask the user
+
+- 2+ rounds of fixes haven't resolved the issue the user described.
+- The user has said "still wrong" twice in a row without me converging.
+- I'm about to make a third structural change to the same component.
+- The same element keeps coming up in feedback (header, footer, hero — these are red flags that I'm not seeing what the user sees).
+
+### How to ask well
+
+Don't ask "what do you want?" — that punts the work back. Ask specifically:
+
+> "I've made [N] attempts and the issue isn't converging. Here's exactly what I see in my screenshot: [describe in plain words]. Here's what I think the fix is: [describe]. I might be misreading either the live design or my own output. Can you:
+> (a) screenshot the specific problem and annotate what's wrong, or
+> (b) describe the difference more specifically (which element, which property, which viewport), or
+> (c) take screenshots of both pages to Gemini/another AI and ask it to generate a precise prompt for me to act on?"
+
+### The Gemini "second-pair-of-eyes" workflow
+
+The user has used this successfully when I've been stuck:
+
+1. User screenshots the problem area (live vs. local) and uploads both to Gemini (or another AI).
+2. Asks Gemini: "What specific differences do you see? Generate a prompt for Claude Code that tells it exactly what to fix in concrete terms (element, property, value)."
+3. User pastes Gemini's prompt back to me.
+
+This works because the other AI sees the problem fresh without my anchoring biases. It catches things I miss (it caught both the missing decoder tool and the missing TOC sidebar on this project's Fender SN page).
+
+**Suggest this proactively** when you've made 2+ unsuccessful attempts at the same visual problem. Phrase it like: "Worth a second pair of eyes — want to screenshot this to Gemini and paste back the prompt it generates?"
+
+### Same-model parallel review is NOT independent
+
+It's tempting to spawn a second Claude subagent and treat consensus between the two as confirmation. **Don't.** Two instances of the same Claude model share weights, training data, and biases — they will make **correlated errors** on the same input. If model #1 misses a missing pill button due to a training artifact, model #2 likely misses it too. Consensus from same-model parallel review is false confidence.
+
+Use same-model parallel review for **breadth** (covering more checks in less wall time, e.g. delegating mechanical image insertion). Use **cross-model review** (Gemini, GPT, a larger Claude reviewing a smaller one) for **depth** (catching things this model is systematically blind to). They are different tools for different problems — don't conflate them.
+
+## Wiring Mailgun (when ready)
+
+1. The existing forms in `ValueProp.astro` and `ContactSection.astro` already have `data-jvg-contact-form data-form-id="..."`.
+2. The submit handler in `src/scripts/contact-form.ts` POSTs to `/api/contact`.
+3. Add a Cloudflare Pages Function at `functions/api/contact.ts`:
+   ```ts
+   export const onRequestPost: PagesFunction<{ MAILGUN_API_KEY: string; MAILGUN_DOMAIN: string }> = async ({ request, env }) => {
+     const payload = await request.json();
+     // POST to https://api.mailgun.net/v3/${env.MAILGUN_DOMAIN}/messages using env.MAILGUN_API_KEY
+     return new Response(JSON.stringify({ ok: true }), { headers: { "content-type": "application/json" } });
+   };
+   ```
+4. Configure `MAILGUN_API_KEY` and `MAILGUN_DOMAIN` as CF Pages environment variables.
+5. Set up the Mailgun domain (DNS records: MX, SPF, DKIM).
+
+## Dev / build commands
+
+- **Dev server:** `npm run dev` (from project root) — runs on `http://localhost:4321/`.
+- **Production build:** `npm run build` → outputs to `dist/`.
+- **Preview built:** `npm run preview`.
+- **Type check:** `npx astro check` (uses `@astrojs/check` + `typescript`, already in devDependencies).
+- **dev.cmd / mirror-serve.cmd** in project root — wrappers for the Claude Preview MCP `launch.json` (don't delete; they fix a PATH issue with Node).
+
+## Useful MCP tooling for this project
+
+- **Playwright MCP** (`mcp__plugin_playwright_playwright__*`) is the primary tool for visual verification — it handles real viewport sizes up to 1920 and captures full-page screenshots cleanly. **Use this, not chrome-devtools-mcp**, which caps viewport at ~1280–1540 even when you request 1920.
+- **Chrome DevTools MCP** is fine for Lighthouse audits (`lighthouse_audit` against the dev URL) and DOM inspection but unreliable for desktop screenshots.
+- **Claude Preview's screenshot tool** is broken for full-page captures — only ever shows the top of the page. Skip it for visual audits.
+- If Chrome DevTools MCP complains about "browser already running," kill stale Chrome processes whose CommandLine matches `chrome-devtools-mcp` (there were ~9 zombies in the last session — same scenario will likely repeat).
+- **Name verification screenshots descriptively** so you can re-reference them later: `audit-<page>-live-1440.png`, `audit-<page>-local-1440.png`, `audit-<page>-mobile-390.png`. Generic names like `screenshot.png` or `test.png` are useless 5 tool calls later.
+
+## External references / prior art
+
+Honest answer to "is there a great pre-made playbook for pixel-perfect WordPress → Astro migrations?": **not that I know of.** Most online migration guides treat WP → Astro as "extract the content, redesign in modern stack" — not "exact visual parity." The institutional knowledge for this kind of work tends to be project-specific and tribal.
+
+What's actually worth bookmarking:
+- [Astro docs on script directives](https://docs.astro.build/en/guides/client-side-scripts/) — `is:inline`, `is:raw`, `set:html` semantics.
+- [Astro docs on styling](https://docs.astro.build/en/guides/styling/) — scoped vs. global, the hash-rewriting behavior, `:global()` and `is:global` escape hatches.
+- [Vite's `?raw` and `?url` query imports](https://vitejs.dev/guide/assets.html#importing-asset-as-string) — for loading reference HTML files at build time.
+- [Tailwind v4 `@theme` directive](https://tailwindcss.com/docs/v4-beta) — how this project defines design tokens.
+- [Avada/Fusion Builder structure docs](https://theme-fusion.com/documentation/) — useful when extracting from `reference/*-raw.html`, to recognize wrapper classes you can skip.
+
+The best "playbook" for this specific project IS this CLAUDE.md, the decision log, the per-page handoff notes, and the working example pages. Build it up.
+
+## Launch audit checklist — DO NOT START UNTIL CLOSE TO LAUNCH
+
+User instruction 2026-05-26: address this batch right before launch, not during page-building. Surfacing it here so it doesn't get lost in chat context.
+
+When we hit launch prep, run through this list before pointing the production domain at Cloudflare Pages:
+
+- [ ] **Accessibility — WCAG 2.2 AA compliance** (user-requested). The shipped `audit:a11y` script defaults to `wcag2aa` tags only — extend the run to `wcag22a,wcag22aa` to cover the 9 new criteria added in WCAG 2.2 (notably: Focus Appearance, Dragging Movements, Target Size Minimum 24×24px, Consistent Help, Redundant Entry, Accessible Authentication). `@axe-core/playwright` v4.10+ supports these tags. Command: `npm run audit:a11y -- <prod-url> --include-tags wcag22aa --viewport both`.
+- [ ] **Accessibility — ATAG 2.0 review** (user-requested). ATAG covers *authoring tools*, not published sites — but in our case it applies to (a) any custom blog/CMS editing UI we ship (currently none — Content Collections are file-based), (b) the contact form's per-user feedback flow (error messages, success states, validation announcements via `aria-live`), and (c) the WP-side authoring workflow if Joe continues authoring in WP post-launch. For a static rebuild with no editing UI, ATAG concerns mostly reduce to: forms must announce status changes to assistive tech, and any future custom editing surface needs to follow ATAG Part B (support producing accessible content by default). Document any non-applicable sections rather than ignore them.
+- [ ] **SEO** — run through [Pre-launch SEO verification](#pre-launch-seo-verification) in this file (`seo-map.csv`, `_redirects`, sitemap-index, RSS, robots.txt, 404, Rich Results Test on every page with custom JSON-LD).
+- [ ] **Performance** — Lighthouse on top 5 most-trafficked URLs. Targets: A11y ≥95, BP=100, SEO ≥95, AB=100. Investigate any LCP > 2.5s or CLS > 0.1.
+- [ ] **Cloudflare config** — SSL/TLS mode set to **Full (Strict)** (avoids the trailing-slash redirect loop documented in template CLAUDE.md), WAF rate-limit rule on `/api/contact` (10 req/60s per IP), Bot Fight Mode on.
+- [ ] **Forms** — every form's `data-form-id` actually routes through `/api/contact` and lands in Joe's inbox via Mailgun. Honeypot is in place, Turnstile is configured if traffic is hostile.
+- [ ] **Anchor parity** — every live URL with a fragment (e.g. `#meet-vintage-guitar-buyer-joe-dampt`) still works post-migration. Spot-check the top inbound-link fragments from Search Console.
+- [ ] **Image hot-links** — every hot-linked WP image has been swapped to local OR a CF Worker → R2 setup is live. `npm run audit:live-diff` must show 0 broken image URLs.
+- [ ] **404 page** — exists at `src/pages/404.astro`, has nav + a search/contact prompt, matches site chrome.
+- [ ] **Analytics + Search Console** — verified, sitemap submitted, GMB profile updated with new domain if any URL shape changed.
+
+## Open work
+
+- **Other pages:** about-me, blog index + posts, sell-my-fender/gibson/martin/etc., free-appraisal, contact-me, sell-a-guitar-collection, instrument repair, consignment, sitemap, privacy-policy, refund_returns
+- **Mailgun wire-up:** see section above
+- **Cloudflare Pages deploy:** create CF account, point at GitHub repo, configure build (`npm run build` → `dist`), add env vars
+- **`functions/_routes.json`** or `_headers` for any cache control / redirects (optional)
+- **Sitemap generation:** add `@astrojs/sitemap` integration once more pages exist
+- **Higher-quality `contact-form-bg.jpg`:** still soft (9KB source). User opted to drop it from the contact section. If they want it back later, source a better version.
+
+## Things to be careful of
+
+- **Hero image contrast.** The site Header is `position: absolute` with white text. Any `bgImage` you pass to `<PageHero>` MUST be dark across the top ~120px. The standard `/images/hero-background.jpg` (dim interior shop) is safe. Bright featured photos (bridge plate, glossy guitars, anything with highlights or reflections in the upper portion) fail this check even with the default vignette. Use those as `ogImage` only.
+- **Vite stale-CSS cache.** Sometimes Astro's dev server caches a component's CSS from a previous version even after edits. If you see styles not applying despite the source being correct, add a no-op comment inside the `<style>` block to force Vite to re-parse. Restarting the preview server alone doesn't always clear it.
+- **Astro scoped CSS + `margin` shorthand.** If you set a margin in a scoped `<style>` block using the shorthand (e.g., `margin: 0 auto 48px`), it overrides any Tailwind `mt-*` class. Use individual `margin-top` / `margin-left` / etc. if you want Tailwind classes to control margin-top independently.
+- **Scoped vs. global CSS for widget HTML.** Astro's default scoped `<style>` rewrites class selectors with a hash (`.foo` becomes `.foo[data-astro-cid-xyz]`). If you `set:html` a chunk of raw markup (e.g. an imported widget), the markup won't have the hash attribute, so scoped rules won't match. Use `<style is:global>` for any styles that target `set:html` content.
+- **`background-size: cover` on the 9KB `contact-form-bg.jpg`.** Stretches and pixelates. The user has opted out — don't re-add without explicit request.
+- **JSON-LD on every page.** `Layout.astro` injects the global Organization + WebSite schemas. Pages can pass `structuredData={...}` for page-specific schemas (FAQPage, Article, Product, WebApplication, etc.). Don't duplicate the global schemas in page-level JSON-LD.
+- **WordPress / Avada source quirks.** The live site is built with Avada / Fusion Builder. Reference HTML in `reference/` contains Fusion wrapper divs (`awb-toc-el`, `fusion-builder-row`, etc.) and CSS custom properties indirected through `--awb-*` tokens. Ignore the wrapper chrome; extract the inner content. The `_extract-*.cjs` scripts in `reference/` already strip the worst of it.

@@ -1,0 +1,320 @@
+---
+import SectionHeader from "./primitives/SectionHeader.astro";
+const testimonials = [
+  {
+    name: "Jessica Hammond",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pKQ2JXcDJiVWxaV1VWNWNtMVJNbFZIVjAxdGQwRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CAIQACodChtycF9oOjJCbWp2bUlZWUV5cm1RMlVHV01td0E%7C%7C?hl=en",
+    body: "I wish I could give Joe more than 5 stars. He appraised 2 guitars for me incredibly quickly at no cost. He purchased a third one from me at a price that I'm certain cannot be beat by other online buyers (I had an inbox of offers from other places where I entered information for appraisals). The entire process of selling/shipping is flawless, simple and time saving. This is coming from someone who not only can't believe I'm typing this but still can't believe how smoothly the transaction went. He provided me with an unbelievable experience-almost felt as if I found a passionate local shop yet it was all done via technology and FedEx where he has an account and I, as others mentioned, received full payment before leaving FedEx. Nothing stated on his website is exaggerated- everything is risk free and up until the very end, seemed too good to be true but it's ALL 100%. I will forever recommend Joe's vintage guitars!! I will also probably have questions for him in the future as I continue to clear out guitars/guitar equipment. THANK YOU once again!",
+  },
+  {
+    name: "Caleb King",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUQzOS1Ib3RnRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgID39-HotgE%7C%7C?hl=en",
+    body: "Whether you're a musician or just a collector that deals in vintage guitars, Joe's Vintage Guitars, in my opinion, is top shelf, Grade A, real deal. For me personally, I didn't want to just sale or auction off this absolute gem that I had. I wanted it to bring satisfaction and joy to someone who would treasure it just as much or more than myself. Annie (I hope I'm spelling it right) with Joe's, is such a delightful person, and is the definition of professional. She made the process so easy that my part in the deal was effortless. She not only responded immediately to every one of my messages, emails and calls but, she went absolutely above and beyond for me and stayed late because I'm a musician, of course I'm going to be running late… if there was a way for me to add stars to this rating system, every letter in this review would be one, and then some. I would say that they are the best out of their competition but, Joe's Vintage Guitars is in a class of their own, and there's no competition at that level. Thank you so much for the wonderful experience. I couldn't be any happier and pleased.",
+  },
+  {
+    name: "Larry Hattier",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25jeVRrOUVNR2h6TFZKcVR6TkpSVlZDYURsclFYYxAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CAIQACodChtycF9oOncyTk9EMGhzLVJqTzNJRVVCaDlrQXc%7C%7C?hl=en",
+    body: "I had a loved vintage guitar I decided to sell, but wanted to engage a professional vintage guitar business, who understood the vintage market and would make a fair offer for my guitar. I was a first timer to the experience and Joseph at Joes Vintage guitars was absolutely fantastic to work with and made the process simple to understand. He was prompt to take my call, answered all my questions, I simply sent pictures, and he made a very fair offer immediately! And the shipping process following was very straightforward. He sends you all the details of where to bring it, how to pack it, how to label it, and Joes directly takes care of all of the boxing/packing and shipping costs (outside of the seller properly packing it in its case). He was also fast to respond when I had any questions about the process. They also had paid me the same day as well for my guitar. I can't say enough about the great experience I had and would highly recommend Joes Vintage guitars to anyone looking to sell a vintage guitar, but confused about the process, since they make it so easy. 200% recommend!!",
+  },
+  {
+    name: "Randy Abercrombie",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21aV1NVZDRTR0p3TXpORGJFcE9VRVIyTVVoR2RGRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CAIQACodChtycF9oOmZWSUd4SGJwMzNDbEpOUER2MUhGdFE%7C%7C?hl=en",
+    body: "I am old and don't do these reviews really, but I felt my transaction with Joe's merited one…. I had an old Gibson bass purchased in the 1970's that fueled this young man's rock star dreams until I started a family in the 1990's. Since then, the old bass has been a bedroom dust collector. I contacted Joe who immediately showed a true interest in the old bass and gave me what I thought was a very generous offer. I did the deal today and other than parting with a lifelong friend, it couldn't have been any more painless. And to boot, I was paid even before I left the FedEx parking lot. Joe's is truly a first-class outfit. If you need to sell an old guitar, this is the place to do it.",
+  },
+  {
+    name: "Bobbie Jo Kelly Greene",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNfOHFPdElBEAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIC_8qOtIA%7C%7C?hl=en",
+    body: "I had 3 Vintage guitars that belonged to my Daddy. He was 96 when he passed away almost 3 years ago. I was ready to let them go as it was time. I found Joe here on Google. He was completely understanding & I sent him pictures. He offered me an excellent price, & helped me through the process of getting them to him. I went to FedEx he has an account & within 20 minutes the guitar's were on there way to him & the money was in my account. Very satisfied & thankful for his helpful attitude & promptness in helping me. I recommend him very highly & also very trustworthy. This is the way to do business.",
+  },
+  {
+    name: "Marie Coyle",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURWMjR2ZHZ3RRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDV24vdvwE%7C%7C?hl=en",
+    body: "The best transaction ever! I highly recommend Joe's services. My beloved brother's collection was overwhelming to know how to evaluate and process, in the wake of his recent passing. I called Joe and he was kind and experienced, and promptly shared his expertise with no expectation of a sale. The process with Joe seemed so \"right\" for my family and I to pursue. His offer was fair and we appreciated how quickly our brother's collection was moved from another state (within days of initial contact!) and we know that our brother's guitars are now in the possession of someone who fully appreciates his unique collection, which was so dear to him. Thank you, Joe!",
+  },
+];
+
+const callouts = [
+  {
+    tag: "Storage Unit Find",
+    title: "100+ vintage guitars in a single storage unit",
+    body: "Gibsons, Martins, Fenders — all waiting to be rediscovered. Walked in and hit the motherlode. This is the kind of once-in-a-lifetime find that makes the hunt worth every mile.",
+    igUrl: "https://www.instagram.com/reel/DWsAmYngdLy/",
+  },
+  {
+    tag: "Rural Arizona Collection — Part 1",
+    title: "Hundreds of classic amps — and guitars that'll knock your socks off",
+    body: "One of the most incredible private collections ever encountered, tucked away in rural Arizona. Hundreds of classic amps and some guitars you simply have to see to believe.",
+    igUrl: "https://www.instagram.com/reel/DQzTOrmCSuf/",
+  },
+  {
+    tag: "Road Trip — Part 1",
+    title: "New Jersey to New Mexico — guitars, amps, and great people",
+    body: "A cross-country run through New Jersey, Virginia, Tennessee, and New Mexico. Incredible guitars, vintage amps, rare parts, and the kind of people who make this hobby what it is.",
+    igUrl: "https://www.instagram.com/reel/DIPBvPmyaCK/",
+  },
+];
+---
+
+<section id="testimonials" class="jvg-testim">
+  <div class="jvg-testim__inner">
+    <SectionHeader
+      eyebrow="Real Reviews"
+      title="What Sellers Say About Working With Joe"
+      subhead="2,100+ Five-Star Reviews on Google &amp; Reverb"
+    />
+
+    <!-- Masonry-style CSS columns: cards flow naturally regardless of length -->
+    <div class="jvg-testim__masonry">
+      {testimonials.map((t) => (
+        <blockquote class="jvg-testim__card">
+          <div class="jvg-testim__stars" aria-label="Five star review">★★★★★</div>
+          <p class="jvg-testim__body">{t.body}</p>
+          <footer class="jvg-testim__cite">
+            <a
+              href={t.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="jvg-testim__name"
+            >
+              {t.name}
+              <svg viewBox="0 0 16 16" class="jvg-testim__ext" aria-hidden="true"><path d="M3 3h4v2H5v6h6V9h2v4H3V3zm6 0h4v4h-2V6.4L7.4 12 6 10.6 11.6 5H9V3z" fill="currentColor"/></svg>
+            </a>
+            <span class="jvg-testim__source">Google Review</span>
+          </footer>
+        </blockquote>
+      ))}
+    </div>
+
+    <div class="jvg-testim__cta-wrap">
+      <a
+        href="https://maps.google.com/?cid=476056113381791268"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="jvg-testim__cta"
+      >
+        Read More Reviews
+      </a>
+    </div>
+
+    <div class="jvg-testim__callouts">
+      {callouts.map((s) => (
+        <article class="jvg-testim__callout">
+          <header class="jvg-testim__callout-header">
+            <span class="jvg-testim__callout-tag">{s.tag}</span>
+            <h3 class="jvg-testim__callout-title">{s.title}</h3>
+            <p class="jvg-testim__callout-body">{s.body}</p>
+          </header>
+          <div class="jvg-testim__ig">
+            <blockquote
+              class="instagram-media"
+              data-instgrm-permalink={`${s.igUrl}?utm_source=ig_embed&utm_campaign=loading`}
+              data-instgrm-version="14"
+              style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0; padding:0; width:100%; min-width:240px;"
+            >
+              <a href={s.igUrl} target="_blank" rel="noopener noreferrer" style="display:block;padding:14px;color:#682412;text-decoration:none;font-family:'Oswald',sans-serif;font-weight:600;text-align:center;">
+                View on Instagram →
+              </a>
+            </blockquote>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script is:inline async src="//www.instagram.com/embed.js"></script>
+<script is:inline>
+  // Set accessible titles on Instagram-injected iframes once they appear.
+  // The IG script swaps each <blockquote.instagram-media> for an <iframe> with no title.
+  (function () {
+    const titleFor = (perma) => {
+      if (!perma) return "Instagram reel";
+      const m = perma.match(/instagram\.com\/(reel|p|tv)\/([^/?]+)/);
+      return m ? `Joe's Vintage Guitars Instagram ${m[1]} — ${m[2]}` : "Instagram embed";
+    };
+    const setTitles = () => {
+      document.querySelectorAll(".jvg-testim__ig").forEach((wrap) => {
+        const iframe = wrap.querySelector("iframe");
+        const perma = wrap.querySelector(".instagram-media")?.getAttribute("data-instgrm-permalink") ?? iframe?.src;
+        if (iframe && !iframe.getAttribute("title")) iframe.setAttribute("title", titleFor(perma));
+      });
+    };
+    const obs = new MutationObserver(setTitles);
+    obs.observe(document.body, { childList: true, subtree: true });
+    setTimeout(setTitles, 100);
+    setTimeout(setTitles, 1500);
+    setTimeout(() => obs.disconnect(), 5000);
+  })();
+</script>
+
+<style>
+  /* jvg-testim v4 — masonry layout + full reviews + per-review Google links */
+  .jvg-testim {
+    background: #eddec1 url("/images/testimonial-bg.jpg") center/cover no-repeat;
+    background-blend-mode: multiply;
+  }
+  .jvg-testim__inner {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 24px 70px;
+    font-family: "Open Sans", sans-serif;
+  }
+  /* header styles supplied by <SectionHeader /> primitive */
+
+  /* CSS columns masonry — cards keep their full height, columns balance */
+  .jvg-testim__masonry {
+    column-count: 3;
+    column-gap: 24px;
+    margin-bottom: 40px;
+  }
+  @media (max-width: 1100px) {
+    .jvg-testim__masonry { column-count: 2; }
+  }
+  @media (max-width: 700px) {
+    .jvg-testim__masonry { column-count: 1; }
+  }
+
+  .jvg-testim__card {
+    /* break-inside: avoid keeps each card together within a column */
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    background: #fff;
+    border: 1px solid rgba(160, 58, 30, 0.15);
+    padding: 22px 24px 24px;
+    margin: 0 0 24px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .jvg-testim__stars {
+    color: var(--color-brand-gold);
+    font-size: 17px;
+    letter-spacing: 0.04em;
+    margin-bottom: 12px;
+    line-height: 1;
+  }
+  .jvg-testim__body {
+    font-size: 14px;
+    line-height: 1.75;
+    color: var(--color-brand-brown-warm);
+    margin: 0 0 16px;
+  }
+  .jvg-testim__cite {
+    border-top: 1px solid rgba(160, 58, 30, 0.15);
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .jvg-testim__name {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--color-brand-brown);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .jvg-testim__name:hover { color: var(--color-brand-rust); }
+  .jvg-testim__ext {
+    width: 12px;
+    height: 12px;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }
+  .jvg-testim__name:hover .jvg-testim__ext { opacity: 1; }
+  .jvg-testim__source {
+    font-size: 11px;
+    color: var(--color-brand-brown-muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .jvg-testim__cta-wrap { text-align: center; margin-bottom: 48px; }
+  .jvg-testim__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--color-brand-rust);
+    color: #fff;
+    padding: 14px 32px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+  .jvg-testim__cta:hover { background: var(--color-brand-brown); }
+  .jvg-testim__cta::after { content: "→"; }
+
+  .jvg-testim__callouts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  @media (max-width: 1000px) {
+    .jvg-testim__callouts { grid-template-columns: 1fr; gap: 20px; }
+  }
+  .jvg-testim__callout {
+    background: var(--color-brand-brown);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #392b2b;
+  }
+  .jvg-testim__callout-header {
+    padding: 20px 22px 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .jvg-testim__callout-tag {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-brand-gold);
+    display: block;
+    margin-bottom: 6px;
+  }
+  .jvg-testim__callout-title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.3;
+    color: var(--color-brand-bone);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    margin: 0 0 10px;
+  }
+  .jvg-testim__callout-body {
+    margin: 0;
+    font-size: 13.5px;
+    line-height: 1.65;
+    color: rgba(245, 240, 232, 0.78);
+    font-family: "Open Sans", sans-serif;
+  }
+  .jvg-testim__ig {
+    background: var(--color-brand-bone);
+    padding: 12px;
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+  }
+  /* Instagram script injects an iframe — make it fluid */
+  .jvg-testim__ig :global(.instagram-media) {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
+  .jvg-testim__ig :global(iframe) {
+    width: 100% !important;
+  }
+</style>

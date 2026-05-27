@@ -1,0 +1,384 @@
+---
+import { Image } from "astro:assets";
+import logo from "../assets/images/logo-joe-2.png";
+import { contact, hrefs, phoneIconPath, mailIconPath, pinIconPath, replyMethods } from "../config/site";
+
+const cityStateZip = `${contact.address.city}, ${contact.address.region} ${contact.address.postalCode}`;
+---
+
+<section id="contact" class="jvgct">
+  <div class="jvgct__inner">
+    <div class="jvgct__grid">
+      <!-- LEFT: logo + "TALK WITH JOE TODAY" heading + star divider + subhead all sit next to the logo,
+           then contact list below -->
+      <div class="jvgct__left">
+        <div class="jvgct__brand">
+          <Image
+            src={logo}
+            alt="Joe's Vintage Guitars"
+            widths={[180, 260, 340]}
+            sizes="(max-width: 700px) 120px, 180px"
+            class="jvgct__logo"
+          />
+          <div class="jvgct__brand-text">
+            <h2 class="jvgct__heading">Talk With<br />Joe Today</h2>
+            <div class="jvgct__divider" aria-hidden="true">
+              <span class="jvgct__divider-line"></span>
+              <span class="jvgct__divider-star">★</span>
+              <span class="jvgct__divider-line"></span>
+            </div>
+            <p class="jvgct__lede">
+              Have a vintage guitar to sell or a question? We&rsquo;re here to help.
+            </p>
+          </div>
+        </div>
+
+        <ul class="jvgct__list">
+          <li class="jvgct__item">
+            <span class="jvgct__circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d={phoneIconPath}/></svg>
+            </span>
+            <a href={hrefs.tel} class="jvgct__line jvgct__line--phone">{contact.phone}</a>
+          </li>
+          <li class="jvgct__item">
+            <span class="jvgct__circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d={mailIconPath}/></svg>
+            </span>
+            <a href={hrefs.mailto} class="jvgct__line jvgct__line--email">{contact.email}</a>
+          </li>
+          <li class="jvgct__item">
+            <span class="jvgct__circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d={pinIconPath}/></svg>
+            </span>
+            <a href={contact.mapUrl} target="_blank" rel="noopener noreferrer" class="jvgct__line jvgct__line--addr">
+              {contact.address.street}<br />
+              {cityStateZip}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- RIGHT: form with cream-tinted inputs -->
+      <div class="jvgct__right">
+        <form class="jvgct__form" data-jvg-contact-form data-form-id="contact">
+          <div class="jvgct__row">
+            <label class="jvgct__field">
+              <span>First Name</span>
+              <input type="text" name="first-name" required autocomplete="given-name" />
+            </label>
+            <label class="jvgct__field">
+              <span>Last Name</span>
+              <input type="text" name="last-name" required autocomplete="family-name" />
+            </label>
+          </div>
+
+          <div class="jvgct__row">
+            <label class="jvgct__field">
+              <span>Phone</span>
+              <input type="tel" name="phone" required autocomplete="tel" inputmode="tel" />
+            </label>
+            <label class="jvgct__field">
+              <span>Email</span>
+              <input type="email" name="email" required autocomplete="email" inputmode="email" />
+            </label>
+          </div>
+
+          <label class="jvgct__field">
+            <span>How Can We Help?</span>
+            <textarea rows="5" name="comments"></textarea>
+          </label>
+
+          <div class="jvgct__reply-row">
+            <span class="jvgct__reply-label">Best way to reply:</span>
+            <div class="jvgct__radios">
+              {replyMethods.map((opt) => (
+                <label class="jvgct__radio">
+                  <input type="radio" name="reply" value={opt} />
+                  <span>{opt}</span>
+                </label>
+              ))}
+            </div>
+          </div>
+
+          <button type="submit" class="jvgct__submit">
+            <span class="jvgct__submit-text">Submit</span>
+          </button>
+          <p class="jvgct__note">*If you have photos, you will have the option to upload them after clicking submit</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .jvgct {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background-color: var(--color-brand-rust-amber);
+  }
+  .jvgct__inner {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 70px 16px 80px;
+    font-family: var(--font-sans);
+    color: #fff;
+    position: relative;
+  }
+  .jvgct__grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 88px;
+    align-items: start;
+  }
+
+  /* LEFT column: logo + ALL the brand text (heading + divider + lede) sit side-by-side */
+  .jvgct__brand {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 0 0 36px;
+  }
+  .jvgct__logo {
+    display: block;
+    flex-shrink: 0;
+    width: clamp(140px, 16vw, 200px);
+    height: auto;
+    filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.2));
+  }
+  /* Right-of-logo stack: heading + divider + lede, centered within column */
+  .jvgct__brand-text {
+    flex: 1;
+    min-width: 0;
+    padding-top: 6px;
+    text-align: center;
+  }
+
+  /* "Talk With Joe Today" — uppercase Oswald display heading.
+     `white-space: nowrap` locks each <br/>-separated line as a single line. */
+  .jvgct__heading {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(30px, 4vw, 56px);
+    line-height: 0.95;
+    color: var(--color-brand-cream);
+    text-transform: uppercase;
+    margin: 0 0 14px;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+  }
+
+  /* Decorative divider — two thin cream lines flanking a star */
+  .jvgct__divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 14px;
+    color: var(--color-brand-cream);
+  }
+  .jvgct__divider-line {
+    flex: 1;
+    height: 1px;
+    background: var(--color-brand-cream);
+    opacity: 0.7;
+    max-width: 140px;
+  }
+  .jvgct__divider-star {
+    font-size: 14px;
+    color: var(--color-brand-cream);
+    line-height: 1;
+  }
+
+  /* Lede paragraph — sits centered in the brand-text column next to the logo */
+  .jvgct__lede {
+    margin: 0 auto;
+    font-family: var(--font-sans);
+    font-size: clamp(16px, 1.4vw, 19px);
+    line-height: 1.4;
+    color: var(--color-brand-cream);
+    max-width: 360px;
+  }
+
+  @media (max-width: 600px) {
+    .jvgct__brand { flex-direction: column; align-items: flex-start; gap: 16px; }
+    .jvgct__heading { white-space: normal; }
+  }
+
+  /* Contact list with circle icons + vertical connector line */
+  .jvgct__list {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 4px;
+  }
+  .jvgct__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 12px 0;
+  }
+  .jvgct__item:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    left: 24px;
+    top: 60px;
+    width: 2px;
+    height: calc(100% - 36px);
+    background: rgba(255, 255, 255, 0.25);
+    z-index: 0;
+  }
+  .jvgct__circle {
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    background: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .jvgct__circle svg {
+    width: 22px;
+    height: 22px;
+    fill: #fff;
+  }
+  .jvgct__line {
+    color: var(--color-brand-cream);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .jvgct__line:hover { color: #fff; }
+  .jvgct__line--phone {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(20px, 2.4vw, 26px);
+    letter-spacing: 0.01em;
+  }
+  .jvgct__line--email {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 16px;
+    word-break: break-all;
+  }
+  .jvgct__line--addr {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .jvgct__circle {
+    border-color: rgba(238, 223, 192, 0.5);
+  }
+  .jvgct__circle svg { fill: var(--color-brand-cream); }
+
+  /* RIGHT: form sits bare on rust bg */
+  .jvgct__form {
+    color: #fff;
+  }
+  .jvgct__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+  .jvgct__field {
+    display: block;
+    margin-bottom: 14px;
+  }
+  .jvgct__field span {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-brand-cream);
+    margin-bottom: 6px;
+    letter-spacing: 0.01em;
+  }
+  .jvgct__field input,
+  .jvgct__field textarea {
+    width: 100%;
+    border: none;
+    background: var(--color-brand-cream);
+    padding: 14px 16px;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    color: var(--color-brand-brown);
+    transition: box-shadow 0.2s;
+  }
+  .jvgct__field input:focus,
+  .jvgct__field textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
+  }
+  .jvgct__field textarea { resize: vertical; min-height: 140px; }
+
+  .jvgct__reply-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    margin: 18px 0 22px;
+  }
+  .jvgct__reply-label {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--color-brand-cream);
+    letter-spacing: 0.01em;
+  }
+  .jvgct__radios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+  .jvgct__radio {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-sans);
+    font-size: 16px;
+    color: var(--color-brand-cream);
+    cursor: pointer;
+  }
+  .jvgct__radio input {
+    width: 14px;
+    height: 14px;
+    accent-color: var(--color-brand-rust-dark);
+    cursor: pointer;
+  }
+
+  /* Ribbon submit button — dark rust w/ chevron-cut ends */
+  .jvgct__submit {
+    display: block;
+    width: 100%;
+    background: var(--color-brand-rust-dark);
+    color: #fff;
+    border: none;
+    padding: 18px 24px;
+    cursor: pointer;
+    transition: background 0.2s;
+    clip-path: polygon(2% 0, 98% 0, 100% 50%, 98% 100%, 2% 100%, 0 50%);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .jvgct__submit:hover { background: var(--color-brand-brown); }
+  .jvgct__note {
+    margin: 16px 0 0;
+    font-size: 13px;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    .jvgct__grid { grid-template-columns: 1fr; gap: 40px; }
+    .jvgct__row { grid-template-columns: 1fr; }
+    .jvgct__heading::before { left: -24px; width: calc(100% + 24px); }
+  }
+</style>

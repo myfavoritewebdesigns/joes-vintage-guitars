@@ -1,0 +1,78 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://www.joesvintageguitarsaz.com/",
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Jessica Hammond"
+      },
+      "reviewBody": "I wish I could give Joe more than 5 stars. He appraised 2 guitars for me incredibly quickly at no cost. He purchased a third one from me at a price that I'm certain cannot be beat by other online buyers. The entire process of selling/shipping is flawless, simple and time saving. He provided me with an unbelievable experience-almost felt as if I found a passionate local shop yet it was all done via technology and FedEx where he has an account and I received full payment before leaving FedEx. Nothing stated on his website is exaggerated- everything is risk free. I will forever recommend Joe's vintage guitars!!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Caleb King"
+      },
+      "reviewBody": "Whether you're a musician or just a collector that deals in vintage guitars, Joe's Vintage Guitars is top shelf, Grade A, real deal. Annie with Joe's is such a delightful person, and is the definition of professional. She made the process so easy that my part in the deal was effortless. She not only responded immediately to every one of my messages, emails and calls but went absolutely above and beyond for me. Joe's Vintage Guitars is in a class of their own. Thank you so much for the wonderful experience.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Larry Hattier"
+      },
+      "reviewBody": "I had a loved vintage guitar I decided to sell and wanted to engage a professional vintage guitar business who understood the vintage market. Joseph at Joe's Vintage Guitars was absolutely fantastic to work with and made the process simple to understand. He was prompt, answered all my questions, I simply sent pictures, and he made a very fair offer immediately. Joe's directly takes care of all of the boxing/packing and shipping costs. They also paid me the same day for my guitar. 200% recommend!!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Randy Abercrombie"
+      },
+      "reviewBody": "I had an old Gibson bass purchased in the 1970's. I contacted Joe who immediately showed a true interest in the old bass and gave me what I thought was a very generous offer. Other than parting with a lifelong friend, it couldn't have been any more painless. I was paid even before I left the FedEx parking lot. Joe's is truly a first-class outfit. If you need to sell an old guitar, this is the place to do it.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Bobbie Jo Kelly Greene"
+      },
+      "reviewBody": "I had 3 Vintage guitars that belonged to my Daddy. I found Joe here on Google. He was completely understanding, I sent him pictures, and he offered me an excellent price and helped me through the process of getting them to him. I went to FedEx - he has an account - and within 20 minutes the guitars were on their way to him and the money was in my account. Very satisfied and thankful for his helpful attitude and promptness. Very trustworthy. This is the way to do business.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Marie Coyle"
+      },
+      "reviewBody": "The best transaction ever! My beloved brother's collection was overwhelming to evaluate in the wake of his recent passing. I called Joe and he was kind and experienced, and promptly shared his expertise with no expectation of a sale. His offer was fair and we appreciated how quickly our brother's collection was moved from another state within days of initial contact. We know that our brother's guitars are now in the possession of someone who fully appreciates his unique collection. Thank you, Joe!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    }
+  ]
+}

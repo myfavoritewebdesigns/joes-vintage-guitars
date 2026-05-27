@@ -1,0 +1,226 @@
+---
+/**
+ * Shared contact form. Used by ValueProp + ContactSection (and any future page).
+ *
+ * - Visual stub for now (no submit handler wired).
+ * - When Mailgun integration is added, the only place to update is this component
+ *   + the `/api/contact` Cloudflare Pages Function it posts to.
+ *
+ * Two visual variants control color theming; field markup is identical.
+ *   variant="cream"   -> light cream panel (used inside dark sections like ContactSection)
+ *   variant="bare"    -> transparent panel that inherits the parent's bg (used in ValueProp)
+ */
+interface Props {
+  /** Form heading (h3 above the fields). Optional. */
+  heading?: string;
+  /** Sub-heading below the main heading. Optional. */
+  subheading?: string;
+  /** Text on the submit button. */
+  submitLabel?: string;
+  /** Render First Name + Last Name as two side-by-side fields, or one combined Name field. */
+  nameLayout?: "split" | "single";
+  /** Identifier sent with the submission so the Mailgun handler knows the source form. */
+  formId?: string;
+  /** Visual variant. */
+  variant?: "cream" | "bare";
+}
+
+const {
+  heading,
+  subheading,
+  submitLabel = "Send Message",
+  nameLayout = "split",
+  formId = "contact",
+  variant = "cream",
+} = Astro.props;
+---
+
+<form
+  class:list={["jvg-form", `jvg-form--${variant}`]}
+  data-form-id={formId}
+  novalidate
+>
+  {heading && <h3 class="jvg-form__heading">{heading}</h3>}
+  {subheading && <h4 class="jvg-form__sub">{subheading}</h4>}
+
+  {nameLayout === "split" ? (
+    <div class="jvg-form__row jvg-form__row--2">
+      <label class="jvg-form__field">
+        <span>First Name</span>
+        <input type="text" name="first-name" required autocomplete="given-name" />
+      </label>
+      <label class="jvg-form__field">
+        <span>Last Name</span>
+        <input type="text" name="last-name" required autocomplete="family-name" />
+      </label>
+    </div>
+  ) : (
+    <label class="jvg-form__field">
+      <span>Name</span>
+      <input type="text" name="name" required autocomplete="name" />
+    </label>
+  )}
+
+  <div class="jvg-form__row jvg-form__row--2">
+    <label class="jvg-form__field">
+      <span>Phone</span>
+      <input type="tel" name="phone" required autocomplete="tel" inputmode="tel" />
+    </label>
+    <label class="jvg-form__field">
+      <span>Email</span>
+      <input type="email" name="email" required autocomplete="email" inputmode="email" />
+    </label>
+  </div>
+
+  <label class="jvg-form__field">
+    <span>Comments</span>
+    <textarea name="comments" rows="4"></textarea>
+  </label>
+
+  <fieldset class="jvg-form__reply">
+    <legend>Best way to reply</legend>
+    <div class="jvg-form__radios">
+      {["Call", "Text", "Email"].map((opt) => (
+        <label class="jvg-form__radio">
+          <input type="radio" name="reply" value={opt.toLowerCase()} />
+          <span>{opt}</span>
+        </label>
+      ))}
+    </div>
+  </fieldset>
+
+  <button type="submit" class="jvg-form__submit">
+    {submitLabel}
+  </button>
+
+  <p class="jvg-form__note">
+    *If you have photos, you'll have the option to upload them after submitting.
+  </p>
+</form>
+
+<style>
+  /* Base form structure shared by both variants */
+  .jvg-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-family: var(--font-sans);
+    box-sizing: border-box;
+  }
+  .jvg-form * { box-sizing: border-box; }
+
+  .jvg-form__heading {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(20px, 2.4vw, 26px);
+    color: var(--color-brand-rust-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+  }
+  .jvg-form__sub {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(15px, 2vw, 18px);
+    color: var(--color-brand-rust);
+    line-height: 1.2;
+  }
+
+  .jvg-form__row { display: grid; gap: 14px; }
+  .jvg-form__row--2 { grid-template-columns: 1fr 1fr; }
+  @media (max-width: 600px) {
+    .jvg-form__row--2 { grid-template-columns: 1fr; }
+  }
+
+  .jvg-form__field { display: block; }
+  .jvg-form__field span {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-brand-rust-dark);
+    margin-bottom: 4px;
+  }
+  .jvg-form__field input,
+  .jvg-form__field textarea {
+    width: 100%;
+    border: 1px solid rgba(62, 42, 20, 0.25);
+    background: #fff;
+    padding: 10px 12px;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    color: var(--color-brand-brown);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .jvg-form__field input:focus,
+  .jvg-form__field textarea:focus {
+    outline: none;
+    border-color: var(--color-brand-rust-bright);
+    box-shadow: 0 0 0 3px rgba(190, 75, 37, 0.18);
+  }
+
+  .jvg-form__reply {
+    border: none;
+    margin: 4px 0 8px;
+    padding: 0;
+  }
+  .jvg-form__reply legend {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-brand-rust-dark);
+    padding: 0;
+    margin-bottom: 6px;
+  }
+  .jvg-form__radios { display: flex; flex-wrap: wrap; gap: 18px; }
+  .jvg-form__radio {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: var(--color-brand-brown);
+    cursor: pointer;
+  }
+  .jvg-form__radio input { width: auto; accent-color: var(--color-brand-rust-bright); }
+
+  .jvg-form__submit {
+    width: 100%;
+    background: var(--color-brand-rust-bright);
+    color: #fff;
+    border: none;
+    padding: 14px 24px;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .jvg-form__submit:hover { background: var(--color-brand-rust-dark); }
+  .jvg-form__submit:focus-visible { outline: 3px solid var(--color-brand-gold); outline-offset: 2px; }
+
+  .jvg-form__note {
+    margin: 0;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--color-brand-brown-muted);
+  }
+
+  /* Variant: cream panel (ContactSection) */
+  .jvg-form--cream {
+    background: var(--color-brand-cream);
+    padding: 28px 28px 22px;
+    border-left: 4px solid var(--color-brand-rust-bright);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Variant: bare (ValueProp — inherits parent's tan bg) */
+  .jvg-form--bare { background: transparent; padding: 0; }
+</style>

@@ -1,0 +1,176 @@
+.wp-extracted-meet-joe-gibson * {box-sizing:border-box}
+.wp-extracted-meet-joe-gibson {margin:0;min-width:320px;-webkit-text-size-adjust:100%;overflow-x:hidden;overflow-y:scroll;color:var(--body_typography-color);font-size:var(--body_typography-font-size, 16px);font-family:var(--body_typography-font-family,inherit)}
+.wp-extracted-meet-joe-gibson a {text-decoration:none}
+.wp-extracted-meet-joe-gibson a, .wp-extracted-meet-joe-gibson a:after, .wp-extracted-meet-joe-gibson a:before {transition-property:color,background-color,border-color;transition-duration:.2s;transition-timing-function:linear}
+.wp-extracted-meet-joe-gibson .fusion-accordian .panel-title a .fa-fusion-box {transition-property:color,background-color,border-color;transition-duration:.2s;transition-timing-function:linear}
+.wp-extracted-meet-joe-gibson .post-content p {margin:0 0 20px}
+.wp-extracted-meet-joe-gibson .fusion-row {margin:0 auto}
+.wp-extracted-meet-joe-gibson .fusion-row:after, .wp-extracted-meet-joe-gibson .fusion-row:before {content:" ";display:table}
+.wp-extracted-meet-joe-gibson .fusion-row:after {clear:both}
+.wp-extracted-meet-joe-gibson strong {font-weight:bolder}
+.wp-extracted-meet-joe-gibson .post-content p {margin-top:0;margin-bottom:20px}
+@media screen and (min-width:1025px) {
+.wp-extracted-meet-joe-gibson .fusion-absolute-position-large {position:absolute;width:100%}
+}
+.wp-extracted-meet-joe-gibson .menu li a {font-family:var(--awb-custom_typography_2-font-family)}
+.wp-extracted-meet-joe-gibson .spt-mn hr {margin-top:5px;margin-bottom:5px;border:0;background-repeat:no-repeat}
+.wp-extracted-meet-joe-gibson .sub-menu li a {color:var(--secondary);font-size:14px;font-weight:400}
+.wp-extracted-meet-joe-gibson .sub-menu>li>a {width:100%;padding:9px 15px}
+.wp-extracted-meet-joe-gibson header .menu li a {font-size:16px;color:#fff;line-height:1.1}
+.wp-extracted-meet-joe-gibson header .menu li.menu-2 a {font-size:clamp(17px, 1.2vw, 19px)}
+@media (min-width:1025px) {
+.wp-extracted-meet-joe-gibson header .menu li.menu-2 a {color:var(--h3_typography-color);text-transform:uppercase}
+.wp-extracted-meet-joe-gibson header .menu li.menu-2:hover>a {color:var(--awb-color4)}
+.wp-extracted-meet-joe-gibson .menu li.menu-2 .sub-menu a {Font-size:15px;font-weight:700}
+}
+.wp-extracted-meet-joe-gibson nav.hamb-menu li a {font-family:var(--awb-custom_typography_2-font-family)!important}
+.wp-extracted-meet-joe-gibson .fusion-tb-header .fusion-builder-row, .wp-extracted-meet-joe-gibson .fusion-tb-header .fusion-fullwidth {width:100%!important;max-width:100%!important}
+.wp-extracted-meet-joe-gibson, .wp-extracted-meet-joe-gibson body {background-color:var(--bg_color);background-blend-mode:var(--bg-color-overlay)}
+.wp-extracted-meet-joe-gibson {background-image:var(--bg_image);background-repeat:var(--bg_repeat)}
+.wp-extracted-meet-joe-gibson, .wp-extracted-meet-joe-gibson {background-color:var(--content_bg_color)}
+.wp-extracted-meet-joe-gibson #main .fusion-row, .wp-extracted-meet-joe-gibson .fusion-footer-widget-area .fusion-row {max-width:var(--site_width)}
+.wp-extracted-meet-joe-gibson #main, .wp-extracted-meet-joe-gibson .fusion-footer-copyright-area, .wp-extracted-meet-joe-gibson .fusion-footer-widget-area {padding-left:30px;padding-right:30px}
+.wp-extracted-meet-joe-gibson #main.width-100 {padding-left:var(--hundredp_padding-fallback_to_zero);padding-right:var(--hundredp_padding-fallback_to_zero)}
+.wp-extracted-meet-joe-gibson .width-100 .fusion-fullwidth, .wp-extracted-meet-joe-gibson .width-100 .nonhundred-percent-fullwidth {margin-left:var(--hundredp_padding-hundred_percent_negative_margin);margin-right:var(--hundredp_padding-hundred_percent_negative_margin)}
+.wp-extracted-meet-joe-gibson #nav ul li ul li a, .wp-extracted-meet-joe-gibson #wrapper #nav ul li ul li>a, .wp-extracted-meet-joe-gibson .review blockquote div strong, .wp-extracted-meet-joe-gibson {font-family:var(--body_typography-font-family);font-weight:var(--body_typography-font-weight);letter-spacing:var(--body_typography-letter-spacing);font-style:var(--body_typography-font-style,normal)}
+.wp-extracted-meet-joe-gibson {font-size:var(--body_typography-font-size)}
+.wp-extracted-meet-joe-gibson #nav ul li ul li a, .wp-extracted-meet-joe-gibson #wrapper #nav ul li ul li>a, .wp-extracted-meet-joe-gibson .review blockquote div strong, .wp-extracted-meet-joe-gibson {line-height:var(--body_typography-line-height)}
+.wp-extracted-meet-joe-gibson .review blockquote div, .wp-extracted-meet-joe-gibson {color:var(--body_typography-color)}
+.wp-extracted-meet-joe-gibson #main .post h2 a, .wp-extracted-meet-joe-gibson a, .wp-extracted-meet-joe-gibson a:after, .wp-extracted-meet-joe-gibson a:before {color:var(--link_color)}
+.wp-extracted-meet-joe-gibson .post-content h3, .wp-extracted-meet-joe-gibson h3 {font-family:var(--h3_typography-font-family);font-weight:var(--h3_typography-font-weight);line-height:var(--h3_typography-line-height);letter-spacing:var(--h3_typography-letter-spacing);text-transform:var(--h3_typography-text-transform);font-style:var(--h3_typography-font-style,normal)}
+.wp-extracted-meet-joe-gibson .fusion-widget-area h3, .wp-extracted-meet-joe-gibson .post-content h3, .wp-extracted-meet-joe-gibson h3 {font-size:var(--h3_typography-font-size)}
+.wp-extracted-meet-joe-gibson .fusion-title h3, .wp-extracted-meet-joe-gibson .post-content h3, .wp-extracted-meet-joe-gibson .title h3, .wp-extracted-meet-joe-gibson h3 {color:var(--h3_typography-color)}
+.wp-extracted-meet-joe-gibson h3 {margin-top:var(--h3_typography-margin-top);margin-bottom:var(--h3_typography-margin-bottom)}
+.wp-extracted-meet-joe-gibson .fusion-tabs-widget .fusion-tabs-nav ul li a {font-family:var(--h4_typography-font-family);font-weight:var(--h4_typography-font-weight);line-height:var(--h4_typography-line-height);letter-spacing:var(--h4_typography-letter-spacing);text-transform:var(--h4_typography-text-transform);font-style:var(--h4_typography-font-style,normal)}
+.wp-extracted-meet-joe-gibson .fusion-tabs-widget .fusion-tabs-nav ul li a {font-size:var(--h4_typography-font-size)}
+.wp-extracted-meet-joe-gibson {--awb-alert-border-top-left-radius-default:0px;--awb-alert-border-top-right-radius-default:0px;--awb-alert-border-bottom-right-radius-default:0px;--awb-alert-border-bottom-left-radius-default:0px;--button-border-radius-top-left:4px;--button-border-radius-top-right:4px;--button-border-radius-bottom-right:4px;--button-border-radius-bottom-left:4px}
+.wp-extracted-meet-joe-gibson .awb-menu_desktop.awb-menu_flyout .awb-menu__sub-a span {display:inline-block;text-align:center}
+.wp-extracted-meet-joe-gibson .fusion-disable-outline .awb-menu_desktop.awb-menu_flyout a, .wp-extracted-meet-joe-gibson .fusion-disable-outline .awb-menu_desktop.awb-menu_flyout a:focus {outline:0}
+.wp-extracted-meet-joe-gibson .fusion-social-links .fusion-social-networks a {font-size:var(--social_links_font_size)}
+.wp-extracted-meet-joe-gibson .fusion-text {--awb-content-alignment:initial;--awb-font-size:inherit;--awb-line-height:inherit;--awb-letter-spacing:inherit;--awb-text-transform:inherit;--awb-text-color:inherit;--awb-text-font-family:inherit;--awb-text-font-style:inherit;--awb-text-font-weight:inherit;--awb-columns:var(--text_columns, auto);--awb-column-spacing:var(--text_column_spacing, normal);--awb-column-min-width:var(--text_column_min_width, auto);--awb-rule-style:var(--text_rule_style, initial);--awb-margin-top:0;--awb-margin-right:0;--awb-margin-bottom:0;--awb-margin-left:0;--awb-user-select:var(--text_user_select, auto);--awb-width:auto;--awb-min-width:auto;--awb-max-width:none;text-align:var(--awb-content-alignment);font-size:var(--awb-font-size);line-height:var(--awb-line-height);letter-spacing:var(--awb-letter-spacing);text-transform:var(--awb-text-transform);color:var(--awb-text-color);font-family:var(--awb-text-font-family);font-weight:var(--awb-text-font-weight);font-style:var(--awb-text-font-style);margin:var(--awb-margin-top) var(--awb-margin-right) var(--awb-margin-bottom) var(--awb-margin-left);-webkit-user-select:var(--awb-user-select);user-select:var(--awb-user-select);width:var(--awb-width);min-width:var(--awb-min-width);max-width:var(--awb-max-width)}
+.wp-extracted-meet-joe-gibson .fusion-accordian .panel-heading .panel-title a {display:flex;align-items:baseline;color:var(--awb-title-color)}
+.wp-extracted-meet-joe-gibson .fusion-accordian .panel-heading .panel-title a:not(.active) .fusion-toggle-icon-wrapper .active-icon {display:none}
+.wp-extracted-meet-joe-gibson .fusion-accordian .panel-title a {display:block;padding:10px 0;text-decoration:none;box-shadow:none!important}
+.wp-extracted-meet-joe-gibson .fusion-accordian .panel-title a .fa-fusion-box {display:inline-block;vertical-align:middle;background-color:var(--awb-icon-box-color)!important;border-color:var(--awb-icon-box-color)!important;color:var(--awb-icon-color);text-align:center;padding:4.5px;-webkit-font-smoothing:subpixel-antialiased}
+.wp-extracted-meet-joe-gibson .fusion-accordian .panel-title a .fa-fusion-box:before {font-style:normal;line-height:1;font-size:var(--awb-icon-size);width:var(--awb-icon-size);display:grid}
+.wp-extracted-meet-joe-gibson .fusion-youtube {--awb-max-width:600px;--awb-max-height:360px;--awb-align-self:auto;--awb-width:auto;--awb-margin-top:0;--awb-margin-bottom:0;max-width:var(--awb-max-width);max-height:var(--awb-max-height);align-self:var(--awb-align-self);width:var(--awb-width);margin-top:var(--awb-margin-top);margin-bottom:var(--awb-margin-bottom)}
+.wp-extracted-meet-joe-gibson .fusion-youtube .video-shortcode {max-width:var(--awb-max-width);max-height:var(--awb-max-height)}
+.wp-extracted-meet-joe-gibson lite-youtube {background-color:#000;position:relative;display:block;contain:content;background-position:center center;background-size:cover;cursor:pointer;max-width:100%}
+.wp-extracted-meet-joe-gibson lite-youtube::before {content:'';display:block;position:absolute;top:0;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADGCAYAAAAT+OqFAAAAdklEQVQoz42QQQ7AIAgEF/T/D+kbq/RWAlnQyyazA4aoAB4FsBSA/bFjuF1EOL7VbrIrBuusmrt4ZZORfb6ehbWdnRHEIiITaEUKa5EJqUakRSaEYBJSCY2dEstQY7AuxahwXFrvZmWl2rh4JZ07z9dLtesfNj5q0FU3A5ObbwAAAABJRU5ErkJggg==);background-position:top;background-repeat:repeat-x;height:60px;padding-bottom:50px;width:100%;transition:all .2s cubic-bezier(0, 0, .2, 1)}
+.wp-extracted-meet-joe-gibson lite-youtube::after {content:"";display:block;padding-bottom:calc(100% / (16 / 9))}
+.wp-extracted-meet-joe-gibson .fusion-builder-row {width:100%;margin:0 auto}
+.wp-extracted-meet-joe-gibson .fusion-builder-row.fusion-builder-row-inner {max-width:100%!important}
+.wp-extracted-meet-joe-gibson .fusion-builder-row:after {clear:both;content:" ";display:table}
+.wp-extracted-meet-joe-gibson .fusion-fullwidth {position:relative}
+.wp-extracted-meet-joe-gibson .fusion-fullwidth .fusion-row {position:relative;z-index:10}
+.wp-extracted-meet-joe-gibson .fusion-text-no-margin>p {margin-top:0}
+.wp-extracted-meet-joe-gibson .fusion-text-no-margin>p:last-child {margin-bottom:0}
+.wp-extracted-meet-joe-gibson .fusion-fullwidth {--awb-background-color:var(--full_width_bg_color);--awb-background-image:none;--awb-background-position:center center;--awb-background-size:auto;--awb-background-repeat:no-repeat;--awb-background-blend-mode:none;--awb-background-size:initial;--awb-box-shadow:none;--awb-border-sizes-top:var(--full_width_border_sizes_top);--awb-border-sizes-right:var(--full_width_border_sizes_right);--awb-border-sizes-bottom:var(--full_width_border_sizes_bottom);--awb-border-sizes-left:var(--full_width_border_sizes_left);--awb-border-color:var(--full_width_border_color);--awb-border-style:solid;--awb-border-radius-top-left:0;--awb-border-radius-top-right:0;--awb-border-radius-bottom-left:0;--awb-border-radius-bottom-right:0;--awb-padding-top:var(--container_padding_default_top, 0px);--awb-padding-right:var(--container_padding_default_right, 0px);--awb-padding-bottom:var(--container_padding_default_bottom, 0px);--awb-padding-left:var(--container_padding_default_left, 0px);--awb-margin-top:0;--awb-margin-bottom:0;--awb-min-height:0;--awb-overflow:visible;--awb-z-index:auto;--awb-sticky-background-color:var(--awb-background-color);--awb-sticky-height:var(--awb-min-height);--awb-filter:none;--awb-filter-hover:none;--awb-filter-transition:all;--awb-position-top:auto;--awb-position-right:auto;--awb-position-bottom:auto;--awb-position-left:auto;background-color:var(--awb-background-color);background-image:var(--awb-background-image);background-position:var(--awb-background-position);background-repeat:var(--awb-background-repeat);background-blend-mode:var(--awb-background-blend-mode);background-size:var(--awb-background-size);box-shadow:var(--awb-box-shadow);border-width:var(--awb-border-sizes-top) var(--awb-border-sizes-right) var(--awb-border-sizes-bottom) var(--awb-border-sizes-left);border-color:var(--awb-border-color);border-style:var(--awb-border-style);border-radius:var(--awb-border-radius-top-left) var(--awb-border-radius-top-right) var(--awb-border-radius-bottom-right) var(--awb-border-radius-bottom-left);padding:var(--awb-padding-top) var(--awb-padding-right) var(--awb-padding-bottom) var(--awb-padding-left);margin-top:var(--awb-margin-top);margin-bottom:var(--awb-margin-bottom);min-height:var(--awb-min-height);overflow:var(--awb-overflow);z-index:var(--awb-z-index);top:var(--awb-position-top);right:var(--awb-position-right);bottom:var(--awb-position-bottom);left:var(--awb-position-left);filter:var(--awb-filter);transition:var(--awb-filter-transition)}
+.wp-extracted-meet-joe-gibson .awb-off-canvas .fusion-fullwidth, .wp-extracted-meet-joe-gibson .fusion-tb-footer .fusion-fullwidth, .wp-extracted-meet-joe-gibson .fusion-tb-header .fusion-fullwidth, .wp-extracted-meet-joe-gibson .fusion-tb-page-title-bar .fusion-fullwidth, .wp-extracted-meet-joe-gibson .width-100 .fusion-fullwidth {--awb-padding-top:var(--container_padding_100_top, 0px);--awb-padding-right:var(--container_padding_100_right, var(--hundredp_padding));--awb-padding-bottom:var(--container_padding_100_bottom, 0px);--awb-padding-left:var(--container_padding_100_left, var(--hundredp_padding))}
+.wp-extracted-meet-joe-gibson .hundred-percent-fullwidth .fusion-row {max-width:none!important}
+.wp-extracted-meet-joe-gibson #wrapper {position:relative}
+.wp-extracted-meet-joe-gibson .fusion-flex-container {--awb-content-wrap:var(--awb-flex-wrap, wrap);display:flex;justify-content:center}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-row {flex-wrap:wrap;display:flex;flex:1;width:100%}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-row .fusion-builder-row-inner {flex:auto;flex-grow:initial;flex-shrink:initial;--awb-min-height:auto;--awb-max-height:none;--awb-overflow:visible;--awb-flex-grow:0;--awb-flex-shrink:0;min-height:var(--awb-min-height);max-height:var(--awb-max-height);flex-grow:var(--awb-flex-grow);flex-shrink:var(--awb-flex-shrink);overflow:var(--awb-overflow)}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-row:after, .wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-row:before {content:none}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-row.fusion-flex-content-wrap {flex-wrap:var(--awb-content-wrap)}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-row .fusion-flex-column {display:flex}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-row .fusion-flex-column .fusion-column-wrapper {width:100%}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-row .fusion-flex-column .fusion-column-wrapper:not(.fusion-flex-column-wrapper-legacy) {display:flex}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-row .fusion-flex-column .fusion-column-wrapper:not(.fusion-flex-column-wrapper-legacy).fusion-content-layout-column {flex-direction:column}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-row .fusion-flex-column .fusion-column-wrapper:not(.fusion-flex-column-wrapper-legacy).fusion-content-layout-row {flex-direction:row;flex-wrap:wrap}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-flex-align-self-center {align-self:center}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-flex-align-self-stretch {align-self:stretch}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-flex-align-items-flex-start {align-items:flex-start}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-flex-justify-content-flex-start {justify-content:flex-start}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-flex-justify-content-center {justify-content:center}
+.wp-extracted-meet-joe-gibson .fusion-flex-container .fusion-flex-justify-content-flex-end {justify-content:flex-end}
+.wp-extracted-meet-joe-gibson .fusion_builder_column {--awb-z-index:auto;--awb-z-index-hover:var(--awb-z-index);--awb-absolute-top:auto;--awb-absolute-right:auto;--awb-absolute-bottom:auto;--awb-absolute-left:auto;--awb-container-position:relative;--awb-overflow:visible;--awb-inner-bg-overflow:visible;--awb-bg-color:transparent;--awb-bg-color-hover:var(--awb-bg-color);--awb-inner-bg-color:transparent;--awb-bg-position:left top;--awb-inner-bg-position:left top;--awb-bg-image:none;--awb-inner-bg-image:none;--awb-bg-blend:none;--awb-inner-bg-blend:none;--awb-bg-repeat:no-repeat;--awb-inner-bg-repeat:no-repeat;--awb-bg-size:auto auto;--awb-inner-bg-size:auto auto;--awb-border-top:0;--awb-border-right:0;--awb-border-bottom:0;--awb-border-left:0;--awb-border-color:initial;--awb-border-color-hover:var(--awb-border-color);--awb-border-style:solid;--awb-inner-border-top:0;--awb-inner-border-right:0;--awb-inner-border-bottom:0;--awb-inner-border-left:0;--awb-inner-border-color:initial;--awb-inner-border-color-hover:var(--awb-inner-border-color);--awb-inner-border-style:solid;--awb-border-radius:0;--awb-inner-bg-border-radius:0;--awb-liftup-border-radius:0;--awb-box-shadow:none;--awb-inner-bg-box-shadow:none;--awb-padding-top:0;--awb-padding-right:0;--awb-padding-bottom:0;--awb-padding-left:0;--awb-transform:none;--awb-transform-hover:var(--awb-transform);--awb-transform-parent-hover:var(--awb-transform);--awb-transform-origin:50% 50%;--awb-transition:transform 300ms ease,filter 300ms ease,background-color 300ms ease,border-color 300ms ease;--awb-filter:none;--awb-filter-hover:var(--awb-filter);--awb-filter-parent-hover:var(--awb-filter);--awb-col-width:var(--awb-width-large, 33.3333%);--awb-col-order:var(--awb-order-large, 0);--awb-margin-top-large:var(--col_margin-top, 0);--awb-margin-bottom-large:var(--col_margin-bottom, 20px);--awb-spacing-left-large:var(--col_spacing, 4%);--awb-spacing-right-large:var(--col_spacing, 4%);--awb-margin-top:var(--awb-margin-top-large);--awb-margin-bottom:var(--awb-margin-bottom-large);--awb-spacing-left:var(--awb-spacing-left-large);--awb-spacing-right:var(--awb-spacing-right-large);--awb-col-flex-grow:var(--awb-flex-grow, 0);--awb-col-flex-shrink:var(--awb-flex-shrink, 0);--awb-column-gap:var(--awb-column-gap-large);--awb-row-gap:var(--awb-row-gap-large);--awb-max-height:none}
+.wp-extracted-meet-joe-gibson .fusion-layout-column {position:var(--awb-container-position);float:left;margin-top:var(--awb-margin-top);margin-bottom:var(--awb-margin-bottom);z-index:var(--awb-z-index);top:var(--awb-absolute-top);right:var(--awb-absolute-right);bottom:var(--awb-absolute-bottom);left:var(--awb-absolute-left);filter:var(--awb-filter);transition:var(--awb-transition);width:var(--awb-col-width);order:var(--awb-col-order);flex-grow:var(--awb-col-flex-grow);flex-shrink:var(--awb-col-flex-shrink)}
+.wp-extracted-meet-joe-gibson .fusion-layout-column .fusion-column-wrapper {background-image:var(--awb-bg-image);background-color:var(--awb-bg-color);background-position:var(--awb-bg-position);background-blend-mode:var(--awb-bg-blend);background-repeat:var(--awb-bg-repeat);background-size:var(--awb-bg-size);border-width:var(--awb-border-top) var(--awb-border-right) var(--awb-border-bottom) var(--awb-border-left);border-color:var(--awb-border-color);border-style:var(--awb-border-style);border-radius:var(--awb-border-radius);box-shadow:var(--awb-box-shadow);padding:var(--awb-padding-top) var(--awb-padding-right) var(--awb-padding-bottom) var(--awb-padding-left);overflow:var(--awb-overflow);transition:var(--awb-transition);transform:var(--awb-transform);transform-origin:var(--awb-transform-origin);min-height:1px;min-width:0;margin-left:var(--awb-spacing-left);margin-right:var(--awb-spacing-right);column-gap:var(--awb-column-gap);row-gap:var(--awb-row-gap);max-height:var(--awb-max-height)}
+.wp-extracted-meet-joe-gibson .fusion-flex-container {background-size:cover}
+@media screen and (min-width:801px) {
+.wp-extracted-meet-joe-gibson .fit-image>div>div {height:100%}
+}
+.wp-extracted-meet-joe-gibson .testisec>.fusion-builder-row {max-width:1431px!important}
+.wp-extracted-meet-joe-gibson .post-content p {line-height:1.5}
+@media (min-width:501px) {
+.wp-extracted-meet-joe-gibson .fcg-sct>div>div:nth-child(4n+2) h4:after {content:'';position:absolute;width:20px;height:100%;background-color:var(--awb-color3);clip-path:polygon(0 0,60% 0,100% 50%,60% 100%,0 100%,40% 50%);left:-15%;top:0}
+.wp-extracted-meet-joe-gibson .fcg-sct>div>div:nth-child(4n+5) h4:after {content:'';position:absolute;width:20px;height:100%;background-color:var(--awb-color3);clip-path:polygon(40% 0,100% 0,60% 50%,100% 100%,40% 100%,0% 50%);right:-15%;top:0}
+}
+.wp-extracted-meet-joe-gibson .ctam-sct h3 {color:var(--awb-color1);font-size:clamp(18px, 2.5vw, 22px)!important;font-family:var(--awb-custom_typography_2-font-family);margin-bottom:0}
+.wp-extracted-meet-joe-gibson .ctam-col-r>div:before {content:'';position:absolute;width:110%;left:-10%;border-top:2px solid var(--awb-color1);opacity:.6}
+.wp-extracted-meet-joe-gibson .ctam-col-r>div:before {top:50%}
+@media (min-width:801px) {
+.wp-extracted-meet-joe-gibson .ctam-col-l>div {clip-path:polygon(0 0,97% 0,100% 50%,97% 100%,0 100%);z-index:1}
+}
+.wp-extracted-meet-joe-gibson .fcg-sct>div {row-gap:20px}
+.wp-extracted-meet-joe-gibson .fcg-sct h3 {font-family:var(--awb-custom_typography_2-font-family)}
+.wp-extracted-meet-joe-gibson .fcg-sct h3 {font-size:clamp(22px, 3vw, 40px)!important;color:var(--awb-color5)}
+.wp-extracted-meet-joe-gibson .faqr-col>div {margin:0 5%!important}
+.wp-extracted-meet-joe-gibson .faqr-sct h3 {font-size:clamp(22px, 3vw, 40px)!important;color:var(--awb-color5);font-family:var(--awb-custom_typography_2-font-family);position:relative}
+.wp-extracted-meet-joe-gibson .faqr-sct h3:before {content:'';position:absolute;width:120%;left:-10%;bottom:-20px;border-top:4px solid var(--awb-color5);z-index:2}
+.wp-extracted-meet-joe-gibson .faqr-col>div {clip-path:polygon(100% 0,100% 95%,50% 100%,0 95%,0 0)}
+.wp-extracted-meet-joe-gibson {scroll-behavior:smooth}
+.wp-extracted-meet-joe-gibson .fusion-builder-row.fusion-row {max-width:var(--site_width)}
+.wp-extracted-meet-joe-gibson nav li a {font-family:var(--awb-custom_typography_3-font-family)!important}
+.wp-extracted-meet-joe-gibson .container-social .text-link p {white-space:nowrap}
+@media (min-width:900px) {
+.wp-extracted-meet-joe-gibson footer .container-social .fusion-column-wrapper {margin-right:5px;margin-left:5px}
+}
+.wp-extracted-meet-joe-gibson .tp-bnr span.sub-t {font-size:.9em}
+.wp-extracted-meet-joe-gibson .top_form_sctn>.fusion-builder-row {max-width:1606px!important}
+.wp-extracted-meet-joe-gibson .top_form_sctn .top-form-col h3 {text-align:center}
+.wp-extracted-meet-joe-gibson .top_form_sctn .top-form-col h3 {color:var(--awb-color1)!important;font-size:clamp(1.375rem, 1.087rem + 1.438vw, 2.813rem)!important;line-height:1.2;font-family:'Oswald Semibold'}
+.wp-extracted-meet-joe-gibson .top_form_sctn .top-form-col h3 .span-one {display:block}
+.wp-extracted-meet-joe-gibson .vdo-sct-p a {color:var(--awb-color4);text-decoration:underline}
+.wp-extracted-meet-joe-gibson .vdo-sct-p {background-color:var(--awb-custom_color_1)}
+.wp-extracted-meet-joe-gibson .vdo-sct-p h3 {font-size:clamp(22px, 2.7vw, 30px)!important;font-family:'Oswald Semibold';color:var(--awb-color5);margin-bottom:10px}
+.wp-extracted-meet-joe-gibson .vdo-sct-p .main-sep {border:none;height:3px;background-color:var(--awb-color5);width:100%}
+@media (min-width:801px) {
+.wp-extracted-meet-joe-gibson .vdo-col-l-p>div {margin-left:-15%!important;z-index:2;width:120%!important}
+.wp-extracted-meet-joe-gibson .vdo-sct-p>.fusion-builder-row:before {content:'';position:absolute;width:101%;height:120%;background-color:var(--awb-color1);top:-10%;left:0;filter:drop-shadow(1px 2px 9px rgba(0, 0, 0, .61))}
+.wp-extracted-meet-joe-gibson .vdo-sct-p>.fusion-builder-row:after {content:'';position:absolute;width:100px;height:120%;top:-10%;background-color:var(--awb-color5);left:0;clip-path:polygon(0 0,0 100%,100% 50%)}
+.wp-extracted-meet-joe-gibson .vdo-col-l-p:before {content:'';position:absolute;width:100px;height:110%;top:-5%;border:4px solid var(--awb-color4);left:-30px;z-index:-1}
+.wp-extracted-meet-joe-gibson .vdo-col-r-p h4 strong {position:relative}
+.wp-extracted-meet-joe-gibson .vdo-col-r-p h4 strong:before {content:'';position:absolute;width:50%;border-top:3px solid var(--awb-color5);right:-59%;top:55%}
+}
+.wp-extracted-meet-joe-gibson .txt-img-left_sctn a, .wp-extracted-meet-joe-gibson .txt-img-right_sctn a {color:var(--awb-color4);text-decoration:underline}
+.wp-extracted-meet-joe-gibson .guitar_buying_process_sctn .maintitle {color:var(--awb-color5)}
+.wp-extracted-meet-joe-gibson .guitar_buying_process_sctn a {color:var(--awb-color4);text-decoration:underline}
+.wp-extracted-meet-joe-gibson .guitar_buying_process_sctn .maintitle {font-size:clamp(1.375rem, 1.15rem + 1.125vw, 2.5rem)!important;max-width:800px;margin:0 auto;background-color:#eedfc0;padding:0 20px;font-family:'Oswald Semibold'}
+.wp-extracted-meet-joe-gibson .guitar_buying_process_sctn .main-sep {border:none;height:3px;background-color:var(--awb-color4);width:231px}
+@media (min-width:1401px) {
+.wp-extracted-meet-joe-gibson .guitar_buying_process_sctn>.fusion-builder-row:before {width:102%;left:0}
+}
+@media (min-width:1025px) {
+.wp-extracted-meet-joe-gibson .guitar_buying_process_sctn>.fusion-builder-row {max-width:1357px!important;padding:0 4%!important;margin-bottom:-47px;z-index:11;padding-bottom:36px!important}
+.wp-extracted-meet-joe-gibson .guitar_buying_process_sctn>.fusion-builder-row:before {content:'';position:absolute;right:0;height:95%;top:5%;border:3px solid var(--awb-color5)}
+}
+.wp-extracted-meet-joe-gibson .vin_guitar_sctn .maintitle {font-size:clamp(1.375rem, 1.15rem + 1.125vw, 2.5rem)!important;color:var(--awb-color5);font-family:'Oswald Semibold'}
+.wp-extracted-meet-joe-gibson .vin_guitar_sctn .txt-div p {font-size:16px}
+.wp-extracted-meet-joe-gibson .fcg-sct h3 {font-family:'Oswald Semibold'}
+.wp-extracted-meet-joe-gibson .faqr-sct h3 {font-family:'Oswald Semibold'}
+.wp-extracted-meet-joe-gibson .contact-usa>.fusion-builder-row {max-width:1291px!important}
+.wp-extracted-meet-joe-gibson .contact-usa .form-cl .fusion-column-wrapper {padding:0 30px 30px}
+@media (min-width:801px) {
+.wp-extracted-meet-joe-gibson div#boxzilla-12395 {display:none}
+}
+.wp-extracted-meet-joe-gibson .table-of-contents p.table-title {background-color:var(--awb-color5);color:#fff;display:flex;align-items:center;justify-content:center;width:fit-content;padding:12px 28px;margin-bottom:0;gap:20px;white-space:nowrap;font-family:"Oswald Semibold"}
+.wp-extracted-meet-joe-gibson .table-of-contents p.table-title svg {fill:white!important;stroke:white;width:40px;height:40px}
+.wp-extracted-meet-joe-gibson .tp-home-lp>div .wpcf7-submit {width:100%!important;background-color:#682412;padding:10px}
+.wp-extracted-meet-joe-gibson .tp-home-lp div>label {font-size:16px}
+.wp-extracted-meet-joe-gibson .tp-home-lp>div:first-child {width:100%}
+.wp-extracted-meet-joe-gibson .tp-home-lp>div:nth-child(2) {width:30%}
+.wp-extracted-meet-joe-gibson .tp-home-lp>div:nth-child(3) {width:30%}
+.wp-extracted-meet-joe-gibson .tp-home-lp>div:nth-child(4) {width:30%}
+.wp-extracted-meet-joe-gibson .tp-home-lp>div:nth-child(5) {width:30%}
+.wp-extracted-meet-joe-gibson .tp-home-lp>div:nth-child(6) {width:30%}
+.wp-extracted-meet-joe-gibson .tp-home-lp>div:nth-child(7) {width:30%}
+@media (min-width:501px) {
+.wp-extracted-meet-joe-gibson .faqr-col>div {background-size:cover!important;background-repeat:no-repeat!important}
+.wp-extracted-meet-joe-gibson .faqr-col>div {background-image:url(https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/05/faq-wooder-bg.jpg)!important}
+.wp-extracted-meet-joe-gibson .top_form_sctn .top-form-col h3 span {font-size:.6em!important}
+.wp-extracted-meet-joe-gibson .tp-home-lp .flex-sd div:first-child {width:65%}
+.wp-extracted-meet-joe-gibson .tp-home-lp .flex-sd div:nth-child(2) {width:30%}
+}

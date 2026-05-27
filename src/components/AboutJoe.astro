@@ -1,0 +1,238 @@
+---
+import { Image } from "astro:assets";
+import SectionHeader from "./primitives/SectionHeader.astro";
+import jimPhoto from "../assets/images/1964-fender-jazz-bass-original-owner-scaled.jpg";
+
+const stats = [
+  { value: "12+", label: "Years Experience" },
+  { value: "10,000+", label: "Instruments Appraised" },
+  { value: "50", label: "States Bought From" },
+  { value: "2,100+", label: "Five-Star Reviews" },
+];
+---
+
+<section class="bg-white">
+  <div class="jvg-exp">
+    <SectionHeader
+      eyebrow="About Joe"
+      title="A Buyer Who Knows Vintage Guitars"
+      subhead="Twelve Years Buying Vintage Guitars Full-Time"
+      id="expertise"
+    />
+
+    <div class="jvg-exp__stats">
+      {stats.map((s) => (
+        <div class="jvg-exp__stat">
+          <span class="jvg-exp__stat-num">{s.value}</span>
+          <span class="jvg-exp__stat-lbl">{s.label}</span>
+        </div>
+      ))}
+    </div>
+
+    <div class="jvg-exp__body">
+      <div class="jvg-exp__text">
+        <p>
+          Whether you're looking to sell a vintage <a href="/sell-my-gibson-guitar/">Gibson</a>, a classic <a href="/sell-my-fender-guitar/">Fender Stratocaster</a>, a pre-war <a href="/sell-my-martin-guitar/">Martin</a> acoustic, or something more obscure, I've probably handled one before and I know what it's worth right now. I work with sellers across the U.S., from people selling a single inherited guitar to families settling full estate collections. Whatever you have, you'll get an honest read on its value and a fair offer based on real recent sales.
+        </p>
+        <p>
+          That experience comes from twelve years of buying and appraising vintage instruments full-time, with more than 10,000 guitars personally evaluated. I've bought from sellers in all 50 states, served as a traveling appraiser for Treasure Seekers Roadshow, and sourced instruments for Grammy Award-winning artists. I've handled guitars from the estates of musicians who played alongside Hank Williams, the Everly Brothers, and Loretta Lynn. Across Google and Reverb, more than 2,100 sellers have left five-star reviews of the experience.
+        </p>
+
+        <div class="jvg-exp__resources">
+          <span class="jvg-exp__res-label">Free Community Resources</span>
+          <p>
+            On top of buying and selling, I've spent a lot of time building free reference tools for the vintage guitar community. The <a href="/how-to-read-gibson-serial-numbers/">Gibson serial number decoder</a> and <a href="/fender-guitars-serial-number-guide/">Fender serial number guide</a> on this site are two of the more thorough you'll find online. For collectors digging into rarity, I've also published <a href="/post/gibson-shipping-totals-1948-1979/">verified Gibson production totals from 1948&ndash;1979</a>. The reason these exist is simple: informed sellers are better sellers, and the hobby is in better shape when good information is free.
+          </p>
+        </div>
+      </div>
+
+      <div class="jvg-jim">
+        <div class="jvg-jim__img-wrap">
+          <Image
+            src={jimPhoto}
+            alt="The original owner of a 1964 Fender Jazz Bass posing for a photo after selling to Joe's Vintage Guitars"
+            widths={[300, 500, 700]}
+            sizes="(max-width: 820px) 100vw, 300px"
+            class="jvg-jim__img"
+          />
+        </div>
+        <div class="jvg-jim__body">
+          <span class="jvg-jim__tag">A Real Story</span>
+          <div class="jvg-jim__title">Jim &amp; His 1964 Fender Jazz Bass</div>
+          <div class="jvg-jim__divider"></div>
+          <p class="jvg-jim__quote">
+            Every guitar has a story. When I buy one, I document the history so the musician who played it isn't forgotten.
+          </p>
+          <div class="jvg-jim__caption">Jim, original owner, sold to Joe's Vintage Guitars</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .jvg-exp {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 24px 70px;
+    font-family: "Open Sans", sans-serif;
+    color: var(--color-brand-brown);
+  }
+  /* header styles supplied by <SectionHeader /> primitive */
+  .jvg-exp__stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border: 1px solid rgba(160, 58, 30, 0.2);
+    margin-bottom: 48px;
+  }
+  .jvg-exp__stat {
+    padding: 22px 16px;
+    text-align: center;
+    border-right: 1px solid rgba(160, 58, 30, 0.2);
+    background: #fff;
+  }
+  .jvg-exp__stat:last-child { border-right: none; }
+  .jvg-exp__stat-num {
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--color-brand-rust);
+    line-height: 1;
+  }
+  .jvg-exp__stat-lbl {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    color: var(--color-brand-brown-muted);
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .jvg-exp__body {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 48px;
+    align-items: start;
+  }
+  .jvg-exp__text p {
+    font-size: 16px;
+    line-height: 1.85;
+    color: var(--color-brand-brown-warm);
+    margin-bottom: 20px;
+  }
+  .jvg-exp__text p:last-child { margin-bottom: 0; }
+  .jvg-exp__text a {
+    color: var(--color-brand-rust);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: rgba(160, 58, 30, 0.35);
+    transition: text-decoration-color 0.2s;
+  }
+  .jvg-exp__text a:hover { text-decoration-color: var(--color-brand-rust); }
+
+  .jvg-exp__resources {
+    background: var(--color-brand-parchment);
+    border-left: 4px solid var(--color-brand-rust);
+    padding: 22px 24px;
+    margin-top: 24px;
+  }
+  .jvg-exp__res-label {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust);
+    margin-bottom: 10px;
+    display: block;
+  }
+  .jvg-exp__resources p {
+    font-size: 15px !important;
+    line-height: 1.75 !important;
+    color: var(--color-brand-brown-warm) !important;
+    margin: 0 !important;
+  }
+  .jvg-exp__resources a {
+    color: var(--color-brand-rust) !important;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .jvg-jim {
+    background: var(--color-brand-brown);
+    overflow: hidden;
+    max-width: 400px;
+    position: sticky;
+    top: 90px;
+  }
+  .jvg-jim__img-wrap { overflow: hidden; position: relative; }
+  .jvg-jim__img-wrap :global(img) {
+    width: 100%;
+    display: block;
+    filter: sepia(10%) contrast(1.05);
+    transition: transform 0.5s ease;
+  }
+  .jvg-jim:hover .jvg-jim__img-wrap :global(img) { transform: scale(1.04); }
+  .jvg-jim__img-wrap::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, var(--color-brand-brown));
+  }
+  .jvg-jim__body { padding: 18px 22px 26px; }
+  .jvg-jim__tag {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-brand-gold);
+    margin-bottom: 8px;
+    display: block;
+  }
+  .jvg-jim__title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--color-brand-bone);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+  .jvg-jim__divider {
+    width: 36px;
+    height: 2px;
+    background: var(--color-brand-gold);
+    margin-bottom: 14px;
+  }
+  .jvg-jim__quote {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    color: rgba(245, 240, 232, 0.72);
+    line-height: 1.75;
+    margin: 0 0 14px;
+  }
+  .jvg-jim__caption {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    color: rgba(245, 240, 232, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  @media (max-width: 820px) {
+    .jvg-exp__body { grid-template-columns: 1fr; }
+    .jvg-exp__stats { grid-template-columns: repeat(2, 1fr); }
+    .jvg-exp__stat:nth-child(2) { border-right: none; }
+    .jvg-exp__stat:first-child,
+    .jvg-exp__stat:nth-child(2) { border-bottom: 1px solid rgba(160, 58, 30, 0.2); }
+    .jvg-jim { position: static; margin: 0 auto; }
+  }
+</style>

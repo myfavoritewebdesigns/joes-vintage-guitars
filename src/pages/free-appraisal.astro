@@ -1,0 +1,1000 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PageHero from "../components/primitives/PageHero.astro";
+import SectionHeader from "../components/primitives/SectionHeader.astro";
+import Button from "../components/primitives/Button.astro";
+import ContactSection from "../components/ContactSection.astro";
+import { contact, hrefs } from "../config/site";
+
+// FAQPage JSON-LD — sourced from live JSON-LD #4
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    { "@type": "Question", name: "What's The Difference Between Fair Market Value And An Insurance Appraisal?", acceptedAnswer: { "@type": "Answer", text: "Fair Market Value is what you can realistically expect a buyer to hand you in cash today. An insurance appraisal is usually higher—it represents the retail replacement cost to buy an equivalent instrument from a dealer if yours is stolen or destroyed. We provide the exact numbers for both, so you know where you stand, whether you're cashing out or updating your policy." } },
+    { "@type": "Question", name: "Do I Have To Bring The Guitar To Mesa To Get An Appraisal?", acceptedAnswer: { "@type": "Answer", text: "Not at all. While we love having great gear walk through our doors, our remote appraisal system is built for accuracy. By reviewing high-resolution photos of specific forensic details—like neck heels, pot codes, and solder joints—we can authenticate and value your instrument from anywhere in the country." } },
+    { "@type": "Question", name: "Why Can't I Just Check eBay Or Reverb Sold Listings To Find The Value Myself?", acceptedAnswer: { "@type": "Answer", text: "Public sold listings lack crucial context. A 1965 Stratocaster that sold for $12,000 might have had unoriginal pickups, a refret, and overspray, while an untouched survivor could command double that amount. We price your instrument using private, off-market sales data and exact factory specs that public platforms simply don't account for." } },
+    { "@type": "Question", name: "How Much Does A Refinish Or A Headstock Repair Hurt The Value?", acceptedAnswer: { "@type": "Answer", text: "It depends heavily on the era and the quality of the work, but generally, a refinish on a golden-era Fender or Gibson cuts the pure collector value by about 50%. A headstock break does the same, usually dropping the price by 40% to 50%. The good news? These guitars remain highly desirable as 'player grade' instruments, and we know exactly how to price them to sell in that market." } },
+    { "@type": "Question", name: "Can You Help With Appraisals For An Estate Or Probate Court?", acceptedAnswer: { "@type": "Answer", text: "Yes. Valuing a lifetime collection during estate settlement requires absolute accuracy and clean documentation. We provide official, written appraisals that hold up in legal, tax, and probate scenarios, taking the burden and guesswork off the family's shoulders." } },
+    { "@type": "Question", name: "Will You Buy My Guitar After You Appraise It?", acceptedAnswer: { "@type": "Answer", text: "Absolutely. If you decide you're ready to sell, we make competitive, hassle-free cash offers based on the Fair Market Value we just uncovered. There is never any pressure to sell to us, but the option is always there if you want a fast, secure transaction without dealing with tire-kickers online." } },
+  ],
+};
+
+const steps = [
+  {
+    n: "01",
+    title: "Send Over the Details",
+    body: "Just fill out the form below with the brand, model, and a few clear photos. Whether you have one old Fender or a high-value collection you&rsquo;ve built over a lifetime, this is the best way to get the ball rolling. The more details you can provide, the more accurate the guitar identification will be. You can also feel free to call, text or email if you&rsquo;d prefer to reach out that way.",
+    img: "/images/get-your-valuation.jpg",
+    alt: "Man taking photo of cherry Gibson ES-335",
+  },
+  {
+    n: "02",
+    title: "Expert Review & Research",
+    body: "I use multiple data points beyond just the serial number to date your vintage guitar correctly, including pot codes and hardware specs. I&rsquo;ll personally dive into the details, checking the serial number and looking over the parts and overall condition. I&rsquo;ll identify the guitar model &amp; year, then I&rsquo;ll compare your guitar against actual recent sales and my own deep market data to find its true current market value.",
+    img: "/images/expert-review-research.jpg",
+    alt: "Joe Dampt reviewing Gibson Barney Kessel guitar",
+  },
+  {
+    n: "03",
+    title: "Get Your Valuation",
+    body: "I&rsquo;ll get back to you with a straight-up, honest look at the current market value of your guitar. Whether you&rsquo;re just curious about its history or you&rsquo;re ready to move it on to a new home, you&rsquo;ll have the expert data you need. If you do decide to sell, I&rsquo;m always happy to make a competitive cash offer to buy it using our easy nationwide selling process.",
+    img: "/images/joes-vintage-guitars-remote-nationwide-guitar-appraisal.png",
+    alt: "Email from Joe explaining market value of cherry red Gibson ES-335",
+  },
+];
+
+const authority = [
+  { title: "A National Name in Vintage", body: "Even though I&rsquo;m in Mesa, I&rsquo;ve spent years building a reputation as a trusted vintage guitar buyer for collectors all over the country. I focus on the high-end stuff&mdash;the instruments that have a rich history and require a real eye for detail." },
+  { title: "Expert Remote Identification", body: "You don&rsquo;t have to ship your guitar just to find out what it is. I&rsquo;m an expert at spotting original parts, finish issues, and hardware specs just by looking at high-res photos. I&rsquo;ve done thousands of these remote appraisals for owners across the US, helping them verify their gear from their own living room." },
+  { title: "Beyond the &ldquo;Big Three&rdquo;", body: "I know the market inside and out for more than just Fender and Gibson. If you need an accurate Gretsch appraisal, the value of a vintage Guild, or help identifying a rare Rickenbacker or Epiphone, I&rsquo;ve got the national sales data to give you a real number." },
+  { title: "Real-World Market Data", body: "I don&rsquo;t look at the bargain bin prices from 10 years ago, or the often inflated &lsquo;asking prices&rsquo; you see on Reverb. I track the actual sales data across the national vintage guitar market to make sure my valuations reflect what&rsquo;s actually happening in the world of guitar collecting today." },
+];
+
+const stats = [
+  { value: "10,000+", label: "Vintage Instruments Appraised Personally" },
+  { value: "$2,000,000+", label: "Annual Volume in Vintage Gear Bought & Sold" },
+  { value: "1,000+", label: "Instruments Repaired & Restored by Joe" },
+  { value: "20+", label: "Countries Shipped to Globally" },
+  { value: "1500+ Hours", label: "Of live performance and studio session guitar work" },
+];
+
+const caseStudies = [
+  {
+    title: "1966 Fender Jaguar in Lake Placid Blue",
+    subtitle: "Fender Custom Color Authentication",
+    img: "/images/neck-heel-date-stamp-reading-15-may-66.jpg",
+    challenge: "Determining if the rare custom color finish was factory-original or a high-quality &lsquo;pro-refinish&rsquo; from years ago.",
+    detail: "I asked the seller for photos of the &lsquo;paint stick&rsquo; mark in the neck pocket in order to aid in finish authentication, as well as detailed photos of the electronics to inspect the originality of the solder joints. Untouched solder joints are key in confirming the originality of a Fender finish. I also verified the neck heel date and pot codes to confirm the 1966 production window.",
+    outcome: "Confirmed the guitar was a 100% original custom color survivor. This verification provided the owner with a precise market valuation, reflecting its rarity compared to the more common sunburst models. Custom color Fender guitars are often worth twice as much (or more) than sunburst models.",
+  },
+  {
+    title: "1962 Gibson ES-335 (Transitional Year)",
+    subtitle: "Vintage PAF Pickup Identification",
+    img: "/images/1962-gibson-335-cherry-red-semi-hollow-body-electric.jpg",
+    challenge: "1962 is a major &lsquo;transition&rsquo; year for Gibson. The goal was to determine if this Cherry 335 still held the coveted PAF pickups, early Patent Number pickups, or a mix of both. This was an in-person appraisal.",
+    detail: "I pulled the pickups to verify the PAF stickers, &lsquo;L&rsquo; shaped tooling marks, cover solder, and overall construction. I then looked at the pots and wiring to confirm that the electronics were untouched. I also spent time on the hardware, identifying the &lsquo;no-wire&rsquo; ABR-1 bridge and the &lsquo;short seam&rsquo;, lightweight aluminum stop tailpiece. Unlike the heavier zinc versions that followed, this specific tailpiece is a key indicator of an early &rsquo;62. I finished by verifying that the single-line, double-ring Kluson tuners were original with no added or enlarged holes.",
+    outcome: "This was a &lsquo;best-case scenario&rsquo; with two original PAFs and all-original hardware. This confirmation significantly boosted the seller&rsquo;s market position, helping them realize the full premium value of a transitional 1962 model.",
+  },
+  {
+    title: "1956 Gibson ES-5 (The &ldquo;N&rdquo; Mystery)",
+    subtitle: "Gibson Factory Inconsistencies",
+    img: "/images/1956-Gibson.jpg",
+    challenge: "This was an in-person appraisal with a couple of &lsquo;red flags.&rsquo; It was a Natural finish, but the label was missing the &lsquo;N&rsquo; designation Gibson usually used. Even weirder, it had double black &lsquo;stingers&rsquo; on the back of the neck, which can often mean that someone is trying to hide a headstock/heel repair or a refinish.",
+    detail: "I did a deep dive into the finish, looking at the weather checking and the way the finish had aged under the hardware. Also performed a &lsquo;blacklight test&rsquo; by looking for that telltale nitrocellulose green glow and consistency of finish. I looked for any overspray in the cavities and checked the interior for original wiring. After a full physical disassembly, I was able to prove that the missing &lsquo;N&rsquo; was just a factory slip-up. Most importantly, the finish and those black stingers were 100% factory original.",
+    outcome: "By certifying the guitar as factory-original, I cleared up the doubts that would have made buyers walk away. It gave the owner peace of mind and protected the value of a seriously rare Gibson. According to the Gibson shipping totals, a Natural ES-5 is approximately three to four times rare than a Sunburst.",
+  },
+];
+
+const marketPulse = [
+  { tag: "&ldquo;Player Grade&rdquo; is on fire.", body: "I&rsquo;m seeing a surge in demand for 50s and 60s gear that is &lsquo;player grade&rsquo;. Whereas any modification used to be a death sentence for value, I&rsquo;ve been noticing that the market has become increasingly forgiving towards modifications, especially if they are era-correct vintage mods. Now, is your refinished 50s Fender Telecaster going to be worth as much as an original one? Not even close. But it will be worth comparatively more than it was a few years ago, especially if it&rsquo;s a cool older refinish." },
+  { tag: "The Hunt for Transition Years.", body: "Collectors are getting much more specific. They&rsquo;re hunting for those &lsquo;in-between&rsquo; months where the specs were shifting. If I can identify a stray PAF pickup or an early-spec neck profile on a mid-60s piece, it&rsquo;s adding thousands to the value." },
+  { tag: "The Reality Check.", body: "There&rsquo;s a massive gap right now between the &lsquo;asking prices&rsquo; you see on the big public sites and what the actual sales data is telling us. A lot of sellers are still acting as if COVID-era price inflation never ended. Don&rsquo;t get me wrong&mdash;the market is still great&mdash;but prices aren&rsquo;t climbing at that same crazy rate anymore. It&rsquo;s left the market cluttered with unsold listings and inflated, speculative prices that just aren&rsquo;t grounded in reality." },
+  { tag: "&ldquo;Under the Radar&rdquo; Brands.", body: "Everyone wants a Burst or a Blackguard, but I&rsquo;m seeing a huge uptick in interest for brands like Gretsch, Guild, and Epiphone (Kalamazoo-made). The &lsquo;alternative&rsquo; vintage market is booming because the value-to-vibe ratio is so high. If you&rsquo;ve got a clean Gretsch 6120 or an Epiphone Crestwood, don&rsquo;t sleep on it&mdash;the collector interest in these &lsquo;other&rsquo; brands is at an all-time high." },
+];
+
+const conditionGradesElectric = [
+  { grade: "Mint", impact: "Top of Market", body: "100% original factory finish. No checking, buckle rash, or wear of any kind. Original hardware, pickups, and electronics with zero oxidation. Original frets at full height." },
+  { grade: "Excellent", impact: "80–95% of Mint", body: "Original finish with only the lightest signs of play. All original hardware and electronics. Minor surface oxidation acceptable. Frets at 90%+ height." },
+  { grade: "Very Good+", impact: "60–75% of Mint", body: "Original finish showing honest player wear — moderate checking, light buckle rash. All original hardware. Original or refretted with good height." },
+  { grade: "Very Good", impact: "45–60% of Mint", body: "Visible player wear — heavier checking, moderate buckle rash, small dings. Mostly original hardware with minor replacements. Plays well after set-up." },
+  { grade: "Good", impact: "25–40% of Mint", body: "Heavy player wear. May include a repaired crack or small headstock repair. Mix of original and non-original parts. Functional as a gigging instrument." },
+  { grade: "Fair", impact: "10–25% of Mint", body: "Refinished, or original finish with significant structural repairs. Non-original hardware throughout, including pickups. Playable but requires work." },
+  { grade: "Poor", impact: "Parts Value Only", body: "Significant structural damage, missing parts, heavy modifications. Heavily modified or non-functional electronics. A project guitar." },
+];
+
+const conditionGradesAcoustic = [
+  { grade: "Mint", impact: "Top of Market", body: "Original nitrocellulose finish perfectly intact. No checking, no pick wear. 100% original binding, intact bracing, perfect glue joints. Practically impossible on pre-war instruments." },
+  { grade: "Excellent", impact: "80–95% of Mint", body: "Original finish with very light checking or minor pick wear near soundhole. No belly-up. All original binding. No structural cracks." },
+  { grade: "Very Good+", impact: "60–75% of Mint", body: "Original finish showing honest play wear. Light to moderate pick wear and checking. One neatly repaired crack acceptable. All original bracing." },
+  { grade: "Very Good", impact: "45–60% of Mint", body: "Heavy checking, moderate pick wear, possible small top dings. No refin. Likely refretted. Neck reset likely performed. A few professionally repaired cracks." },
+  { grade: "Good", impact: "25–40% of Mint", body: "Heavy player wear. Possible touch-up or localized refinish. Multiple repaired cracks. Bridge plate replacement acceptable. Multiple refrets." },
+  { grade: "Fair", impact: "10–25% of Mint", body: "Full or partial refinish, OR extensive top damage with amateur repairs. Significant bellying. Major structural repairs throughout." },
+  { grade: "Poor", impact: "Restoration / Parts", body: "Extensive damage, missing top sections, heavily cracked soundboard, or amateur refinish. Not playable without major restoration." },
+];
+
+const fakeSpotting = [
+  {
+    brand: "Gibson",
+    points: [
+      { title: "The Truss Rod Reveal", body: "Real Gibson uses a brass hex nut for adjustments. Almost every fake uses a recessed Allen key. If you see a deep hole meant for a hex wrench instead of that standing brass nut, you&rsquo;re looking at a counterfeit." },
+      { title: "The &ldquo;Flathead&rdquo; Bridge Tell", body: "On a genuine American-made Gibson, the bridge is adjusted using thumbwheels. Counterfeits almost exclusively use a bridge that sits on large, chunky bolts with a flathead screwdriver slot on top." },
+      { title: "The Headstock &ldquo;Wings&rdquo;", body: "A genuine Gibson neck is carved from a single piece of mahogany, but the &lsquo;flares&rsquo; on the side of the headstock are separate pieces of wood called &lsquo;wings&rsquo; glued on at the factory. Most fakes use a &lsquo;scarf joint.&rsquo;" },
+      { title: "Stampings vs. Laser Etching", body: "Gibson serial numbers are stamped into the wood before paint. Counterfeits usually laser-etch numbers after the finish is dry. If the serial looks sharp enough to cut your finger, it&rsquo;s a fake." },
+    ],
+  },
+  {
+    brand: "Martin",
+    points: [
+      { title: "The Neck Block Identity", body: "Through the soundhole, the model name and serial number should be cleanly stamped into solid mahogany using Martin&rsquo;s sans-serif typeface. Fakers usually stumble here with generic, serifed stamps or sloppy ink transfers." },
+      { title: "The &ldquo;Inside-Outside&rdquo; Grain Test", body: "On a solid-wood Martin, grain patterns on the outside back match the inside back exactly. If the inside looks plain while the outside is figured rosewood, it&rsquo;s a laminate." },
+      { title: "The Back Center Strip", body: "On a genuine Nazareth-built Martin, the back center strip is stamped with &lsquo;C.F. Martin &amp; Co. Nazareth, PA.&rsquo; If that strip is blank or the font looks like modern computer print, you need a professional look." },
+    ],
+  },
+  {
+    brand: "Fender",
+    points: [
+      { title: "Date Stamps &amp; Codes", body: "On a vintage piece, you&rsquo;re looking for a handwritten pencil date or ink stamp on the &lsquo;butt&rsquo; of the neck — like &lsquo;5-62&rsquo; or &lsquo;13MAY65B.&rsquo; A clean modern barcode or no markings means a newer guitar or &lsquo;Partscaster.&rsquo;" },
+      { title: "The &ldquo;Walnut Plug&rdquo; Test", body: "On a genuine American Fender with a headstock-adjust truss rod, you&rsquo;ll see a distinct dark walnut wood plug surrounding the adjustment hole. Counterfeits leave raw wood or a cheap black plastic insert." },
+      { title: "Era-Correct Hardware", body: "Fender was very specific about which hardware went with which era. A &lsquo;1954&rsquo; Strat with an 11-screw pickguard (didn&rsquo;t exist until 1959) or a &lsquo;1960s&rsquo; neck with a 3-bolt &lsquo;Micro-Tilt&rsquo; plate is a parts-bin guitar." },
+    ],
+  },
+];
+
+const testimonials = [
+  { name: "Jim W. (PA)", body: "I sent an email to Joe&rsquo;s Vintage Guitars last evening about 10:00 PM Eastern Time. I included a description of my guitar including serial number and a couple of photos. He responded immediately with a real pleasant email and gave me a value on my guitar. I can&rsquo;t tell you how cool the experience was!" },
+  { name: "Ray", body: "I had been doing some research on the value of instruments that my father owned when I saw Joe&rsquo;s Vintage Guitars website and their free appraisals. The next day I called. Joe patiently went through each instrument and provided me with a range of values for each one. I appreciated his knowledge, honesty, and willingness to take time to help me." },
+  { name: "Amy Vickery", body: "They were very easy to deal with and appraised my 1979 Guild within minutes! I sent pictures and details via text and received a FREE estimated value right away! 10/10 highly recommend!" },
+  { name: "Missy", body: "I highly recommend Joe&rsquo;s Vintage Guitars if you have a guitar that you&rsquo;d like to get an appraisal on. I sent my contact information and was called the next day. The process couldn&rsquo;t have been any easier. Thank you again for an easy and honest appraisal!" },
+  { name: "Kevin Richard Scholl", body: "I needed help with accurately unscrambling the serial number on my Gibson Spirit. I saw Joe&rsquo;s web site and it said &lsquo;Contact me if you need help dating, valuing or selling a guitar.&rsquo; So I called, he answered quickly and told me it was indeed a 1983 Spirit. Nice guy, real chill and pleasant to speak with." },
+  { name: "D Angelino", body: "Joe called me himself to let me know the value of my &rsquo;76 Les Paul Custom. He was fair, honest, super easy to talk with, as well as being informative and educational. His call was a really pleasant break in my day. I trust his knowledge, experience and character." },
+];
+
+const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.text }));
+---
+
+<Layout
+  title="Free Vintage Guitar Appraisal | Joe&rsquo;s Vintage Guitars"
+  description="Get a free vintage guitar appraisal from Joe's Vintage Guitars. We provide accurate market valuations for Fender, Gibson, and Martin based on sales data!"
+  canonical="/free-appraisal/"
+  ogImage="https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/07/Vintage-Guitar-Appraisal-Expert.jpg"
+  ogImageAlt="Free vintage guitar appraisal at Joe's Vintage Guitars"
+  ogType="article"
+  publishedTime="2022-05-11T21:17:00+00:00"
+  modifiedTime="2026-04-24T19:29:25+00:00"
+  structuredData={faqSchema}
+>
+  <PageHero
+    title="Free Vintage Guitar Appraisal: What Is Your Vintage Guitar Worth?"
+    subhead="Expert Valuations For Fender, Gibson, Martin &amp; All Iconic American Brands"
+    bgImage="/images/hero-background.jpg"
+    size="lg"
+  >
+    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
+    <Button slot="cta" href="#contact" variant="cream" size="lg">Contact Now</Button>
+  </PageHero>
+
+  <!-- Intro section under hero: video left + intro copy + 2 CTAs right -->
+  <section class="fa-intro">
+    <div class="fa-intro__inner">
+      <div class="fa-intro__video">
+        <div class="fa-intro__video-wrap">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/uSu-Ld-xgnI"
+            title="Joe explains the free vintage guitar appraisal"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div class="fa-intro__copy">
+        <p>
+          Getting a free vintage guitar appraisal shouldn&rsquo;t be a hassle. At Joe&rsquo;s Vintage Guitars,
+          I help owners and collectors nationwide find out exactly what their gear is worth in today&rsquo;s
+          market. Whether you&rsquo;re trying to find the cash value of a vintage Gibson, need a
+          <a href="/fender-guitars-serial-number-guide/"><strong>Fender Serial Number</strong></a>
+          identified, or have an entire
+          <a href="/sell-a-guitar-collection/"><strong>Guitar Collection to Sell</strong></a>,
+          I provide the straight-up expert advice you need. My goal is to make sure you have the right
+          numbers before you sell or insure your instrument.
+        </p>
+        <div class="fa-intro__ctas">
+          <Button href={hrefs.tel} variant="rust" size="md">Call Or Text Joe</Button>
+          <Button href="#contact" variant="cream" size="md">Appraisal Form</Button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 Simple Steps — heading + alternating 2-col rows with "Step N:" labels -->
+  <section class="fa-steps">
+    <div class="fa-steps__inner">
+      <h3 class="fa-steps__heading">How to Get Your Free Vintage Guitar Valuation In 3 Simple Steps</h3>
+      <div class="fa-steps__rule" aria-hidden="true"></div>
+      {steps.map((s, i) => (
+        <article class={`fa-step fa-step--${i % 2 === 0 ? "left" : "right"}`}>
+          <div class="fa-step__copy">
+            <span class="fa-step__label">Step {i + 1}:</span>
+            <h4 class="fa-step__title">{s.title}</h4>
+            <div class="fa-step__title-rule" aria-hidden="true"></div>
+            <p class="fa-step__body" set:html={s.body} />
+          </div>
+          <div class="fa-step__photo">
+            <img src={s.img} alt={s.alt} loading="lazy" />
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <!-- Trusted Authority — single H3 (no eyebrow, natural case) + Expertise sub-heading -->
+  <section class="fa-authority">
+    <div class="fa-authority__inner">
+      <h3 class="fa-authority__heading">A Trusted Authority In Nationwide Vintage Guitar Values</h3>
+      <div class="fa-authority__rule" aria-hidden="true"></div>
+      <h4 class="fa-authority__sub">Expertise By The Numbers</h4>
+      <div class="fa-authority__stats">
+        {stats.map((s) => (
+          <div class="fa-authority__stat">
+            <strong>{s.value}</strong>
+            <span>{s.label}</span>
+          </div>
+        ))}
+      </div>
+      <div class="fa-authority__grid">
+        {authority.map((c) => (
+          <article class="fa-authority__card">
+            <h3 set:html={c.title} />
+            <p set:html={c.body} />
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Notable Appraisals: 3 case studies — combined heading, natural case -->
+  <section class="fa-cases">
+    <div class="fa-cases__inner">
+      <header class="fa-cases__head">
+        <h3 class="fa-cases__title">Notable Appraisals:<br />Real-World Vintage Guitar Case Studies</h3>
+        <div class="fa-cases__rule" aria-hidden="true"></div>
+        <p class="fa-cases__lede">I&rsquo;ve handled thousands of vintage instruments over the years. Here are a few examples where my research helped sellers get the full story&mdash;and the right price&mdash;for their gear.</p>
+      </header>
+      {caseStudies.map((c, i) => (
+        <article class={`fa-case fa-case--${i % 2 === 0 ? "left" : "right"}`}>
+          <div class="fa-case__photo">
+            <img src={c.img} alt={c.title} loading="lazy" />
+          </div>
+          <div class="fa-case__body">
+            <span class="fa-case__sub">{c.subtitle}</span>
+            <h3 class="fa-case__title" set:html={c.title} />
+            <dl>
+              <dt>The Challenge:</dt>
+              <dd set:html={c.challenge} />
+              <dt>The Detail:</dt>
+              <dd set:html={c.detail} />
+              <dt>The Outcome:</dt>
+              <dd set:html={c.outcome} />
+            </dl>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <!-- Free vs Insurance comparison -->
+  <section class="fa-vs">
+    <div class="fa-vs__inner">
+      <header class="fa-section-head">
+        <h3 class="fa-section-head__title">Free Expert Market Valuation vs.<br />Official Insurance Appraisals</h3>
+        <div class="fa-section-head__rule" aria-hidden="true"></div>
+        <p class="fa-section-head__lede">I handle appraisals two ways depending on what you&rsquo;re trying to do. Both come from my years spent tracking the national vintage guitar market, but they&rsquo;re for two different situations.</p>
+      </header>
+      <div class="fa-vs__grid">
+        <article class="fa-vs__card">
+          <img src="/images/couple-with-guitar.jpg" alt="Couple receiving free guitar valuation" loading="lazy" />
+          <h3>Free Expert Market Valuation</h3>
+          <p>This is the &ldquo;straight-talk&rdquo; option. Use this if you&rsquo;re thinking about selling, found a family heirloom, or just want to know what your guitar is actually worth in today&rsquo;s economy. It&rsquo;s an informal assessment based on actual sales data, not the &lsquo;dreamer&rsquo; asking prices you see all over the internet.</p>
+        </article>
+        <article class="fa-vs__card">
+          <img src="/images/insurance-appraisal-document.jpg" alt="Official insurance appraisal document" loading="lazy" />
+          <h3>Official Insurance Appraisals</h3>
+          <p>If you need a formal, legal document for an insurance rider, a tax donation, or an estate, you&rsquo;ll need this instead. I provide a detailed, signed report on Joe&rsquo;s Vintage Guitars letterhead that meets the strict requirements of major insurers. This covers the deep-dive research and the professional liability that comes with a certified valuation.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Market Pulse -->
+  <section class="fa-pulse">
+    <div class="fa-pulse__inner">
+      <header class="fa-pulse__head">
+        <h3 class="fa-pulse__title">Current Market Pulse: Notes From The Trade</h3>
+        <div class="fa-pulse__title-rule" aria-hidden="true"></div>
+        <p class="fa-pulse__lede">The vintage market doesn&rsquo;t sit still. Here&rsquo;s a quick look at what I&rsquo;m seeing right now from the daily &lsquo;buy and sell&rsquo; side of the national vintage guitar market.</p>
+      </header>
+      <ul class="fa-pulse__list">
+        {marketPulse.map((m) => (
+          <li>
+            <strong set:html={m.tag} />
+            <p set:html={m.body} />
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Condition Grading -->
+  <section class="fa-grading">
+    <div class="fa-grading__inner">
+      <header class="fa-section-head">
+        <h3 class="fa-section-head__title">Vintage Guitar Condition Grading Explained</h3>
+        <div class="fa-section-head__rule" aria-hidden="true"></div>
+        <p class="fa-section-head__lede">What the grades actually mean &mdash; and how they move the price</p>
+      </header>
+      <div class="fa-grading__lede">
+        <p>A 1959 Gibson Les Paul graded Mint can sell for three to four times the price of the exact same model graded Good. The grading system used by professional dealers and auction houses is very different from casual descriptions like &lsquo;great shape&rsquo; or &lsquo;a few dings.&rsquo;</p>
+        <p>The grades below are the standard used by serious collectors and dealers. Electric and acoustic grading criteria differ: on an electric, the focus is on original finish and hardware; on an acoustic, the top and structural integrity carry additional weight.</p>
+      </div>
+
+      <h3 class="fa-grading__sub">Vintage Electric Guitar Condition Grades</h3>
+      <table class="fa-grading__table">
+        <thead><tr><th>Grade</th><th>Description</th><th>Value Impact</th></tr></thead>
+        <tbody>
+          {conditionGradesElectric.map((g) => (
+            <tr>
+              <td><strong>{g.grade}</strong></td>
+              <td set:html={g.body} />
+              <td>{g.impact}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      <h3 class="fa-grading__sub">Vintage Acoustic Guitar Condition Grades</h3>
+      <table class="fa-grading__table">
+        <thead><tr><th>Grade</th><th>Description</th><th>Value Impact</th></tr></thead>
+        <tbody>
+          {conditionGradesAcoustic.map((g) => (
+            <tr>
+              <td><strong>{g.grade}</strong></td>
+              <td set:html={g.body} />
+              <td>{g.impact}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Collection Appraisals -->
+  <section class="fa-collection">
+    <div class="fa-collection__inner">
+      <div class="fa-collection__copy">
+        <h3 class="fa-collection__title">Vintage Guitar Collection Appraisals: Expert Valuation for Estates &amp; Large Inventories</h3>
+        <div class="fa-collection__rule" aria-hidden="true"></div>
+        <p>When you&rsquo;re looking at 20, 50, or even 100+ instruments, the hardest part is usually just knowing where to start. Whether you built the collection yourself or you&rsquo;ve suddenly inherited a room full of gear, I&rsquo;m here to help you get a clear, realistic look at what&rsquo;s actually there.</p>
+        <p>I&rsquo;ve personally appraised and purchased dozens of 100+ piece collections&mdash;my largest to date was a single appraisal and purchase totaling <strong>713 guitars and amps</strong>. No collection is too big or too complex for me to handle professionally.</p>
+        <ul>
+          <li><strong>Inventory Without the Stress.</strong> I&rsquo;ll help you catalog the whole collection &mdash; turning a confusing pile of cases into a professional list with the exact years and models identified.</li>
+          <li><strong>Spotting the &ldquo;Money&rdquo; Guitars.</strong> I&rsquo;ll identify the &lsquo;heavy hitters&rsquo; &mdash; the high-value collector items &mdash; and separate them from the &lsquo;player-grade&rsquo; gear.</li>
+          <li><strong>One Voice for Every Brand.</strong> You don&rsquo;t need a &lsquo;Gibson guy&rsquo; and a &lsquo;Martin guy.&rsquo; I track actual sales data for all the major American names.</li>
+          <li><strong>Remote Collection Review.</strong> You don&rsquo;t have to ship a trailer of gear to Mesa just to get an answer. I&rsquo;ve developed a remote collection appraisal system using high-res photos.</li>
+        </ul>
+      </div>
+      <div class="fa-collection__photo">
+        <img src="/images/large-vintage-guitar-collection.jpg" alt="Large collection of vintage electric guitars" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Spotting Fakes -->
+  <section class="fa-fakes">
+    <div class="fa-fakes__inner">
+      <header class="fa-section-head">
+        <h3 class="fa-section-head__title">Spotting The Fakes: A Professional Guide To Gibson, Martin, And Fender Authenticity</h3>
+        <div class="fa-section-head__rule" aria-hidden="true"></div>
+      </header>
+      <p class="fa-fakes__lede">The market right now is crawling with &lsquo;tributes,&rsquo; partscasters, and outright scams designed to fool people who don&rsquo;t spend every day looking at 1950s wood. When I handle an appraisal, I&rsquo;m doing a forensic deep dive. The truth is always buried in the stuff that&rsquo;s too expensive or too tedious for a faker to get right.</p>
+      {fakeSpotting.map((brand) => (
+        <div class="fa-fakes__brand">
+          <h3>{brand.brand}</h3>
+          <div class="fa-fakes__grid">
+            {brand.points.map((p) => (
+              <article class="fa-fakes__card">
+                <h4 set:html={p.title} />
+                <p set:html={p.body} />
+              </article>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="fa-testim">
+    <div class="fa-testim__inner">
+      <header class="fa-section-head">
+        <h3 class="fa-section-head__title">Authentic Vintage Guitar Reviews</h3>
+        <div class="fa-section-head__rule" aria-hidden="true"></div>
+        <p class="fa-section-head__lede">5-Star Rated Vintage Guitar Appraiser Across The USA</p>
+      </header>
+      <div class="fa-testim__grid">
+        {testimonials.map((t) => (
+          <article class="fa-testim__card">
+            <p class="fa-testim__name">{t.name}</p>
+            <div class="fa-testim__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="fa-testim__body" set:html={t.body} />
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="fa-faq">
+    <div class="fa-faq__inner">
+      <header class="fa-section-head">
+        <h3 class="fa-section-head__title">FAQs About Our Guitar Appraisal Services</h3>
+        <div class="fa-section-head__rule" aria-hidden="true"></div>
+      </header>
+      <div class="fa-faq__grid">
+        {faqs.map((f) => (
+          <div class="fa-faq__item">
+            <h4 class="fa-faq__q">{f.q}</h4>
+            <p class="fa-faq__a">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <ContactSection />
+</Layout>
+
+<style>
+  /* ============================================
+     Intro section (under hero): video left + copy with rust accent + 2 CTAs
+     ============================================ */
+  .fa-intro { background: var(--color-brand-cream-light); padding: 60px 0; }
+  .fa-intro__inner {
+    max-width: var(--container-site);
+    margin: 0 auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  /* Responsive 16:9 YouTube embed */
+  .fa-intro__video-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    background: #000;
+  }
+  .fa-intro__video-wrap iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+  .fa-intro__copy {
+    padding-left: 18px;
+    border-left: 4px solid var(--color-brand-rust-bright);
+  }
+  .fa-intro__copy p {
+    margin: 0 0 22px;
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--color-brand-charcoal);
+  }
+  .fa-intro__copy a {
+    color: var(--color-brand-rust);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+  }
+  .fa-intro__copy a:hover { color: var(--color-brand-rust-bright); }
+  .fa-intro__ctas { display: flex; flex-wrap: wrap; gap: 14px; }
+
+  @media (max-width: 800px) {
+    .fa-intro__inner { grid-template-columns: 1fr; gap: 28px; }
+    .fa-intro__copy { padding-left: 14px; }
+  }
+
+  /* ============================================
+     Shared section heading pattern — natural-case Oswald H3 + 40% rust rule + optional lede
+     Used by Free vs Insurance, Condition Grading, Spotting Fakes, Testimonials, FAQ
+     ============================================ */
+  .fa-section-head { text-align: center; margin-bottom: 32px; }
+  .fa-section-head__title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(24px, 3vw, 38.5px);
+    color: var(--color-brand-rust-dark);
+    line-height: 1.2;
+    margin: 0;
+    text-transform: none;
+  }
+  .fa-section-head__rule {
+    width: 40%;
+    max-width: 440px;
+    height: 3px;
+    background: var(--color-brand-rust);
+    margin: 12px auto 16px;
+  }
+  .fa-section-head__lede {
+    max-width: 760px;
+    margin: 0 auto;
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--color-brand-charcoal);
+  }
+
+  /* ============================================
+     3 Simple Steps — single H3 heading + alternating 2-col rows
+     Matches live: text + photo side-by-side, sides alternate per step
+     ============================================ */
+  .fa-steps { background: #fff; padding: 60px 0; }
+  .fa-steps__inner { max-width: var(--container-site); margin: 0 auto; padding: 0 24px; }
+  .fa-steps__heading {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(24px, 3vw, 38.5px);
+    color: var(--color-brand-rust-dark);
+    text-align: center;
+    margin: 0;
+    line-height: 1.2;
+    text-transform: none;
+  }
+  .fa-steps__rule {
+    width: 40%;
+    max-width: 440px;
+    height: 3px;
+    background: var(--color-brand-rust);
+    margin: 10px auto 36px;
+  }
+
+  .fa-step {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    margin: 36px 0;
+  }
+  /* Even-indexed step: text left, photo right. Odd: reversed. */
+  .fa-step--right .fa-step__copy { order: 2; }
+  .fa-step--right .fa-step__photo { order: 1; }
+  .fa-step__photo img { width: 100%; height: auto; display: block; }
+
+  .fa-step__label {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--color-brand-rust);
+    text-transform: none;
+    letter-spacing: 0.02em;
+  }
+  .fa-step__title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(22px, 2.4vw, 28px);
+    color: var(--color-brand-rust-dark);
+    margin: 4px 0 10px;
+    text-transform: none;
+    line-height: 1.2;
+  }
+  .fa-step__title-rule {
+    width: 60px;
+    height: 2px;
+    background: var(--color-brand-rust);
+    margin: 0 0 14px;
+  }
+  .fa-step__body {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--color-brand-charcoal);
+    margin: 0;
+  }
+
+  @media (max-width: 800px) {
+    .fa-step, .fa-step--right { grid-template-columns: 1fr; gap: 16px; }
+    .fa-step--right .fa-step__copy { order: 0; }
+    .fa-step--right .fa-step__photo { order: 0; }
+  }
+
+  /* ============================================
+     Trusted Authority
+     ============================================ */
+  .fa-authority { background: #fff; padding: 70px 0; }
+  .fa-authority__inner { max-width: var(--container-site); margin: 0 auto; padding: 0 24px; text-align: center; }
+  .fa-authority__heading {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(24px, 3vw, 38.5px);
+    color: var(--color-brand-rust-dark);
+    line-height: 1.2;
+    text-transform: none;
+    margin: 0;
+  }
+  .fa-authority__rule {
+    width: 40%;
+    max-width: 440px;
+    height: 3px;
+    background: var(--color-brand-rust);
+    margin: 10px auto 28px;
+  }
+  .fa-authority__sub {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--color-brand-rust);
+    text-transform: none;
+    margin: 0 0 4px;
+  }
+  .fa-authority__stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin: 32px 0 48px;
+    background: var(--color-brand-cream);
+    padding: 28px 24px;
+    border-left: 4px solid var(--color-brand-rust-bright);
+  }
+  .fa-authority__stat { text-align: center; }
+  .fa-authority__stat strong {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(22px, 2.6vw, 30px);
+    color: var(--color-brand-rust-dark);
+    line-height: 1.1;
+  }
+  .fa-authority__stat span {
+    font-family: var(--font-sans);
+    font-size: 13px;
+    color: var(--color-brand-charcoal);
+    margin-top: 4px;
+    display: block;
+    line-height: 1.3;
+  }
+  .fa-authority__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
+  }
+  .fa-authority__card { padding-left: 16px; border-left: 3px solid var(--color-brand-rust-bright); }
+  .fa-authority__card h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 8px;
+  }
+  .fa-authority__card p {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--color-brand-charcoal);
+    margin: 0;
+  }
+
+  /* ============================================
+     Notable Appraisals — alternating left/right photo
+     ============================================ */
+  .fa-cases { background: var(--color-brand-cream-light); padding: 70px 0; }
+  .fa-cases__inner { max-width: var(--container-site); margin: 0 auto; padding: 0 24px; }
+  .fa-cases__head { text-align: center; margin-bottom: 36px; }
+  .fa-cases__title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(24px, 3vw, 38.5px);
+    color: var(--color-brand-rust-dark);
+    line-height: 1.2;
+    margin: 0;
+    text-transform: none;
+  }
+  .fa-cases__rule {
+    width: 40%;
+    max-width: 440px;
+    height: 3px;
+    background: var(--color-brand-rust);
+    margin: 12px auto 16px;
+  }
+  .fa-cases__lede {
+    max-width: 760px;
+    margin: 0 auto;
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--color-brand-charcoal);
+  }
+  .fa-case {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 40px;
+    align-items: start;
+    margin: 40px 0;
+    padding: 24px 0;
+    border-top: 1px solid rgba(62, 42, 20, 0.12);
+  }
+  .fa-case:first-of-type { border-top: none; padding-top: 0; }
+  .fa-case--right { grid-template-columns: 1.2fr 1fr; }
+  .fa-case--right .fa-case__photo { order: 2; }
+  .fa-case__photo img { width: 100%; height: auto; display: block; }
+  .fa-case__sub {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust);
+  }
+  .fa-case__title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(22px, 2.4vw, 28px);
+    color: var(--color-brand-rust-dark);
+    margin: 6px 0 16px;
+    line-height: 1.2;
+  }
+  .fa-case dl { margin: 0; }
+  .fa-case dt {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--color-brand-rust);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 14px;
+  }
+  .fa-case dd {
+    margin: 4px 0 0;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--color-brand-charcoal);
+  }
+  @media (max-width: 800px) {
+    .fa-case, .fa-case--right { grid-template-columns: 1fr; gap: 20px; }
+    .fa-case--right .fa-case__photo { order: 0; }
+  }
+
+  /* ============================================
+     Free vs Insurance
+     ============================================ */
+  .fa-vs { background: #fff; padding: 70px 0; }
+  .fa-vs__inner { max-width: var(--container-site); margin: 0 auto; padding: 0 24px; }
+  .fa-vs__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 32px;
+  }
+  .fa-vs__card {
+    background: var(--color-brand-cream-light);
+    padding: 0 0 24px;
+    border-top: 4px solid var(--color-brand-rust-bright);
+  }
+  .fa-vs__card img { width: 100%; height: 220px; object-fit: cover; display: block; }
+  .fa-vs__card h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--color-brand-rust-dark);
+    margin: 18px 24px 10px;
+    text-transform: uppercase;
+  }
+  .fa-vs__card p {
+    margin: 0 24px;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--color-brand-charcoal);
+  }
+  @media (max-width: 800px) { .fa-vs__grid { grid-template-columns: 1fr; } }
+
+  /* ============================================
+     Market Pulse
+     ============================================ */
+  .fa-pulse { background: var(--color-brand-rust-dark); color: #fff; padding: 70px 0; }
+  .fa-pulse__inner { max-width: var(--container-site); margin: 0 auto; padding: 0 24px; }
+  .fa-pulse__head { text-align: center; margin-bottom: 28px; }
+  .fa-pulse__title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(24px, 3vw, 38.5px);
+    color: var(--color-brand-cream);
+    line-height: 1.2;
+    margin: 0;
+    text-transform: none;
+  }
+  .fa-pulse__title-rule {
+    width: 40%;
+    max-width: 440px;
+    height: 3px;
+    background: var(--color-brand-rust-bright);
+    margin: 12px auto 16px;
+  }
+  .fa-pulse__lede {
+    max-width: 760px;
+    margin: 0 auto;
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.92);
+  }
+  .fa-pulse__list { list-style: none; margin: 32px 0 0; padding: 0; display: grid; gap: 24px; }
+  .fa-pulse__list li {
+    padding-left: 18px;
+    border-left: 3px solid var(--color-brand-rust-bright);
+  }
+  .fa-pulse__list strong {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-brand-cream);
+    display: block;
+    margin-bottom: 4px;
+  }
+  .fa-pulse__list p { margin: 0; font-family: var(--font-sans); font-size: 15px; line-height: 1.6; color: rgba(255, 255, 255, 0.9); }
+
+  /* ============================================
+     Condition Grading
+     ============================================ */
+  .fa-grading { background: var(--color-brand-cream-light); padding: 70px 0; }
+  .fa-grading__inner { max-width: var(--container-site); margin: 0 auto; padding: 0 24px; }
+  .fa-grading__lede { max-width: 820px; margin: 0 auto 32px; text-align: center; }
+  .fa-grading__lede p { font-family: var(--font-sans); font-size: 16px; line-height: 1.6; color: var(--color-brand-charcoal); margin-bottom: 14px; }
+  .fa-grading__sub {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-brand-rust-dark);
+    margin: 40px 0 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .fa-grading__table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    font-family: var(--font-sans);
+  }
+  .fa-grading__table th, .fa-grading__table td {
+    text-align: left;
+    padding: 14px 18px;
+    border-bottom: 1px solid rgba(62, 42, 20, 0.12);
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--color-brand-charcoal);
+  }
+  .fa-grading__table th {
+    background: var(--color-brand-rust-dark);
+    color: #fff;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .fa-grading__table td strong { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 16px; }
+
+  /* ============================================
+     Collection Appraisals
+     ============================================ */
+  .fa-collection { background: #fff; padding: 70px 0; }
+  .fa-collection__inner { max-width: var(--container-site); margin: 0 auto; padding: 0 24px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 48px; align-items: start; }
+  .fa-collection__title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(22px, 2.6vw, 32px);
+    color: var(--color-brand-rust-dark);
+    line-height: 1.2;
+    margin: 0;
+    text-transform: none;
+  }
+  .fa-collection__rule {
+    width: 80px;
+    height: 3px;
+    background: var(--color-brand-rust);
+    margin: 12px 0 18px;
+  }
+  .fa-collection__copy p { font-family: var(--font-sans); font-size: 16px; line-height: 1.6; color: var(--color-brand-charcoal); margin: 0 0 14px; }
+  .fa-collection__copy ul { list-style: none; padding: 0; margin: 18px 0 0; }
+  .fa-collection__copy li {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--color-brand-charcoal);
+    margin-bottom: 14px;
+    padding-left: 16px;
+    border-left: 3px solid var(--color-brand-rust-bright);
+  }
+  .fa-collection__copy li strong { color: var(--color-brand-rust-dark); }
+  .fa-collection__photo img { width: 100%; height: auto; display: block; }
+  @media (max-width: 800px) { .fa-collection__inner { grid-template-columns: 1fr; } }
+
+  /* ============================================
+     Spotting Fakes
+     ============================================ */
+  .fa-fakes { background: var(--color-brand-cream-light); padding: 70px 0; }
+  .fa-fakes__inner { max-width: var(--container-site); margin: 0 auto; padding: 0 24px; }
+  .fa-fakes__lede { max-width: 820px; margin: 0 auto 36px; text-align: center; font-family: var(--font-sans); font-size: 16px; line-height: 1.6; color: var(--color-brand-charcoal); }
+  .fa-fakes__brand { margin-top: 40px; }
+  .fa-fakes__brand h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--color-brand-rust-bright);
+  }
+  .fa-fakes__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+  .fa-fakes__card {
+    background: #fff;
+    padding: 22px 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  .fa-fakes__card h4 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 10px;
+    text-transform: none;
+  }
+  .fa-fakes__card p { margin: 0; font-family: var(--font-sans); font-size: 14px; line-height: 1.55; color: var(--color-brand-charcoal); }
+
+  /* ============================================
+     Testimonials
+     ============================================ */
+  .fa-testim { background: #fff; padding: 70px 0; }
+  .fa-testim__inner { max-width: var(--container-site); margin: 0 auto; padding: 0 24px; }
+  .fa-testim__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 32px;
+  }
+  .fa-testim__card {
+    background: var(--color-brand-cream-light);
+    padding: 22px 24px;
+    color: var(--color-brand-charcoal);
+  }
+  .fa-testim__name { font-family: var(--font-sans); font-weight: 700; font-size: 16px; color: var(--color-brand-charcoal); margin: 0 0 4px; }
+  .fa-testim__stars { color: var(--color-brand-rust-bright); font-size: 16px; letter-spacing: 1px; margin-bottom: 10px; }
+  .fa-testim__body { color: var(--color-brand-charcoal); font-family: var(--font-sans); font-size: 14px; line-height: 1.55; margin: 0; }
+
+  /* ============================================
+     FAQ
+     ============================================ */
+  .fa-faq { background: var(--color-brand-cream-light); padding: 70px 0; }
+  .fa-faq__inner { max-width: var(--container-site); margin: 0 auto; padding: 0 24px; }
+  .fa-faq__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 48px; margin-top: 32px; }
+  .fa-faq__item { break-inside: avoid; }
+  .fa-faq__q {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--color-brand-charcoal);
+    margin: 0 0 10px;
+    line-height: 1.3;
+  }
+  .fa-faq__a { font-family: var(--font-sans); font-size: 15px; line-height: 1.55; color: var(--color-brand-charcoal); margin: 0; }
+  @media (max-width: 800px) { .fa-faq__grid { grid-template-columns: 1fr; } }
+</style>

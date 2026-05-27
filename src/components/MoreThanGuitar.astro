@@ -1,0 +1,265 @@
+---
+import { Image } from "astro:assets";
+import walterRadio from "../assets/images/more-guitar-02.jpg";
+import gibsonJ45 from "../assets/images/99123263_3422411747786529_8426677821312598016_n.jpg";
+
+const cards = [
+  {
+    iconUrl: "/images/guitar-icon-01.svg",
+    title: "A Journey Through Time",
+    body: "I invite you to explore the rich history and evolution of iconic guitar brands and models. From the legendary craftsmanship of vintage Martin acoustics to the revolutionary designs of classic Fender and Gibson electric guitars, I appreciate the historical significance of every instrument I encounter.",
+  },
+  {
+    iconUrl: "/images/guitar-icon-02.svg",
+    title: "Discovering Hidden Gems",
+    body: "My mission is to uncover hidden gems and forgotten treasures. I tirelessly search for guitars with exceptional stories, whether it's a rare model from the early 20th century or a custom-built masterpiece from a renowned luthier. I believe that every vintage guitar has a tale to tell.",
+  },
+  {
+    iconUrl: "/images/guitar-icon-03.svg",
+    title: "Preserving Musical Heritage",
+    body: "By acquiring and preserving vintage and collectible guitars, I contribute to the preservation of musical heritage. These instruments not only carry the memories of the musicians who played them but also represent milestones in the world of music.",
+  },
+];
+---
+
+<section class="mtg-sct">
+  <div class="mtg-sct__bg"></div>
+  <div class="mtg-sct__inner">
+    <!-- Top row: heading + body text (left) and overlapping photos (right) -->
+    <div class="mtg-sct__top">
+      <div class="mtg-sct__heading-col">
+        <h3 class="mtg-sct__h3">
+          <strong>More Than Just A Guitar</strong>
+        </h3>
+        <p class="mtg-sct__body">
+          I have a profound passion for these remarkable instruments, and my goal is to ensure they continue to be cherished. I either play them myself or make sure they find their way into the hands of individuals who will care for them just as I do.
+        </p>
+        <p class="mtg-sct__body">
+          The stories that accompany these guitars are immensely precious to me. When I acquire a guitar, what I cherish most is often a photograph of its original owner or stories about their life. I take the time to type up these stories, print them out, neatly fold them, and place them into the guitar's case. I want these incredible musicians from another era to live on through their instruments.
+        </p>
+        <p class="mtg-sct__body">
+          One such story is that of <strong>Walter M</strong>, a cowboy from Belen, NM, whose son sold me a wonderful Gibson J-45. Over to the right, you'll find photos of a 19-year-old Walter with his beloved guitar while recording at a local radio station in 1945.
+        </p>
+      </div>
+
+      <div class="mtg-sct__photo-col">
+        <figure class="mtg-sct__photo mtg-sct__photo--a">
+          <Image src={walterRadio} alt="Walter M with his guitar at a radio station, 1945" widths={[240, 360, 480]} sizes="(max-width: 820px) 60vw, 280px" />
+        </figure>
+        <figure class="mtg-sct__photo mtg-sct__photo--b">
+          <Image src={gibsonJ45} alt="Walter's Gibson J-45" widths={[300, 500, 800]} sizes="(max-width: 820px) 70vw, 360px" />
+        </figure>
+      </div>
+    </div>
+
+    <!-- Bottom row: three feature cards with circular icons -->
+    <div class="mtg-sct__cards">
+      {cards.map((c) => (
+        <div class="mtg-col">
+          <div class="mtg-col__icon-wrap">
+            <img src={c.iconUrl} alt="" class="mtg-col__icon" aria-hidden="true" />
+          </div>
+          <h4 class="mtg-col__h4">{c.title}</h4>
+          <p class="mtg-col__body">{c.body}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  /* mtg-sct v2 — full rebuild matching live design */
+  .mtg-sct {
+    position: relative;
+    padding: 80px 0 100px;
+    background: transparent;
+    overflow: hidden;
+  }
+  .mtg-sct__bg {
+    position: absolute;
+    inset: 40px -10% 0 -10%;
+    background: var(--color-brand-cream);
+    z-index: 0;
+  }
+  .mtg-sct__inner {
+    position: relative;
+    z-index: 1;
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 24px;
+    font-family: "Open Sans", sans-serif;
+    color: var(--color-brand-brown);
+  }
+
+  /* Top row layout: 60% heading/text + 40% photos */
+  .mtg-sct__top {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 48px;
+    align-items: flex-start;
+    margin-bottom: 90px;
+    padding-top: 30px;
+  }
+
+  /* Heading with rust arrow-chevron background */
+  .mtg-sct__h3 {
+    position: relative;
+    margin: 0 0 32px;
+    padding-left: 24px;
+    font-size: clamp(22px, 3vw, 40px);
+    line-height: 1.1;
+  }
+  .mtg-sct__h3 strong {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    padding: 14px 32px 14px 24px;
+  }
+  /* The rust arrow shape behind the heading */
+  .mtg-sct__h3 strong::before {
+    content: "";
+    position: absolute;
+    inset: 0 -40% 0 -24px;
+    background: var(--color-brand-rust-dark);
+    clip-path: polygon(0 0, 100% 0, 96% 50%, 100% 100%, 0 100%);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    z-index: -1;
+  }
+  /* Vertical rust line accent */
+  .mtg-sct__h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -16px;
+    bottom: -16px;
+    width: 3px;
+    background: var(--color-brand-rust-bright);
+  }
+
+  .mtg-sct__body {
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: var(--color-brand-brown);
+    margin: 0 0 18px;
+  }
+  .mtg-sct__body:last-child { margin-bottom: 0; }
+  .mtg-sct__body strong { color: var(--color-brand-rust-dark); font-weight: 700; }
+
+  /* Photo column — two overlapping framed photos */
+  .mtg-sct__photo-col {
+    position: relative;
+    min-height: 460px;
+  }
+  .mtg-sct__photo {
+    position: absolute;
+    margin: 0;
+    background: #fff;
+    padding: 14px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  .mtg-sct__photo :global(img) {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: sepia(8%) contrast(1.03);
+  }
+  .mtg-sct__photo:hover {
+    transform: rotate(0deg) scale(1.04);
+    z-index: 99;
+    box-shadow: 0 0 30px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Top photo (Walter at radio, portrait) — upper-left of column, no rotation, behind */
+  .mtg-sct__photo--a {
+    top: 0;
+    left: 2%;
+    width: 56%;
+    z-index: 1;
+  }
+  /* Bottom photo (Gibson J-45, landscape) — shifted right, pulled up to overlap Walter's lower-right, rotated +5°, in front */
+  .mtg-sct__photo--b {
+    top: 36%;
+    left: 32%;
+    width: 66%;
+    transform: rotate(5deg);
+    z-index: 2;
+  }
+
+  /* Three feature cards */
+  .mtg-sct__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    position: relative;
+  }
+  /* Vertical rust dividers between cards (per live design) */
+  .mtg-sct__cards::before,
+  .mtg-sct__cards::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    width: 3px;
+    background: var(--color-brand-rust-dark);
+  }
+  .mtg-sct__cards::before { left: 33.33%; transform: translateX(-50%); }
+  .mtg-sct__cards::after { left: 66.66%; transform: translateX(-50%); }
+
+  .mtg-col {
+    text-align: center;
+    padding: 0 8px;
+  }
+  .mtg-col__icon-wrap {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 24px;
+    border: 3px solid var(--color-brand-rust-dark);
+    border-radius: 50%;
+    padding: 16px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(62, 42, 20, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mtg-col__icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+  .mtg-col__h4 {
+    margin: 0 0 14px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: clamp(18px, 2.2vw, 26px);
+    color: var(--color-brand-rust-bright);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+  }
+  .mtg-col__body {
+    font-size: 14.5px;
+    line-height: 1.75;
+    color: var(--color-brand-brown);
+    margin: 0;
+  }
+
+  @media (max-width: 900px) {
+    .mtg-sct__top { grid-template-columns: 1fr; gap: 32px; margin-bottom: 60px; }
+    .mtg-sct__photo-col { min-height: 380px; }
+    .mtg-sct__photo--a { right: 8%; width: 70%; }
+    .mtg-sct__photo--b { left: 2%; width: 80%; }
+    .mtg-sct__h3::after { display: none; }
+    .mtg-sct__h3 { padding-left: 0; }
+    .mtg-sct__h3 strong::before { inset: 0 -10% 0 0; }
+    .mtg-sct__cards { grid-template-columns: 1fr; gap: 48px; }
+    .mtg-sct__cards::before, .mtg-sct__cards::after { display: none; }
+  }
+</style>

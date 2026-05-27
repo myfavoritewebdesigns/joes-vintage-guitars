@@ -1,0 +1,978 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PageHero from "../components/primitives/PageHero.astro";
+import SectionHeader from "../components/primitives/SectionHeader.astro";
+import Button from "../components/primitives/Button.astro";
+import ContactSection from "../components/ContactSection.astro";
+import { contact, hrefs } from "../config/site";
+
+// Page-specific JSON-LD: ProfilePage + page-level review schema.
+// Source: live site JSON-LD #3 + #4 (saved to /reference/about-me-jsonld-3-profile.json + about-me-jsonld-4-reviews.json)
+const profileSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  mainEntity: {
+    "@type": "Person",
+    name: "Joe Dampt",
+    url: "https://www.joesvintageguitarsaz.com/about-me/",
+    image: "https://www.joesvintageguitarsaz.com/images/about-me-joe-1.jpg",
+    jobTitle: ["Vintage Guitar Expert", "Professional Appraiser", "Musician", "Business Owner"],
+    worksFor: { "@id": "https://www.joesvintageguitarsaz.com/#organization" },
+    alumniOf: {
+      "@type": "CollegeOrUniversity",
+      name: "Arizona State University",
+      degree: "Bachelor's in Business Entrepreneurship",
+    },
+    knowsAbout: [
+      "Vintage Guitars",
+      "Guitar Appraisal",
+      "Pre-War Martin Guitars",
+      "Golden Era Gibson Guitars",
+      "Vintage Fender Guitars",
+      "Guitar Repair",
+      "Music History",
+    ],
+  },
+};
+
+const stats = [
+  { value: "10,000+", label: "Vintage Instruments Appraised Personally" },
+  { value: "$2,000,000+", label: "Annual Volume in Vintage Gear Bought & Sold" },
+  { value: "1,000+", label: "Instruments Repaired & Restored by Joe (Not outsourced)" },
+  { value: "20+", label: "Countries Shipped to Globally" },
+  { value: "1500+ Hours", label: "Of live performance and studio session guitar work" },
+];
+
+// Note: First card has no title — it's the intro paragraph styled as a card with a chevron marker
+const background = [
+  {
+    title: null,
+    body: "While many sellers simply &ldquo;flip&rdquo; gear, Joe is a trained expert in the mechanics and history of the instrument. His background combines academic discipline with hands-on tradecraft.",
+  },
+  {
+    title: "Education",
+    body: "Bachelor's in Business Entrepreneurship from <strong>Arizona State University</strong>",
+  },
+  {
+    title: "National Experience",
+    body: "Former Traveling Expert Appraiser for <strong>Treasure Seekers Roadshow</strong>, touring the United States to evaluate rare antiques and instruments. Joe has purchased guitars from ALL 50 states and many foreign countries.",
+  },
+  {
+    title: "Specializations",
+    body: "Pre-War <strong>Martin Guitars</strong> (Herringbone/Scalloped Bracing eras), Golden Era <strong>Gibson Electrics and Archtops</strong> (1920s-1960s), and Vintage <strong>Fender</strong> Custom Color guitars.",
+  },
+];
+
+const acquisitions = [
+  {
+    title: "Largest Vintage Guitar Collection Acquisition",
+    body: "700+ guitars and amplifiers purchased in Tucson, Arizona.",
+  },
+  {
+    title: "Notable Clients",
+    body: "Has sourced instruments for over 10 Grammy-Award winning artists and touring members of their bands.",
+  },
+  {
+    title: "Historical Preservation",
+    body: "Successfully acquired and documented instruments from the estates of musicians who played with legends like <strong>Hank Williams</strong>, <strong>The Everly Brothers</strong>, <strong>Ferlin Husky</strong>, <strong>Hank Thompson</strong> and <strong>Loretta Lynn</strong>.",
+  },
+];
+
+const whySell = [
+  {
+    title: "Direct Access",
+    body: "Every appraisal is conducted or reviewed by Joe personally.",
+  },
+  {
+    title: "Speed",
+    body: "Average turnaround for payment is the <strong>same day</strong>.",
+  },
+  {
+    title: "Trust",
+    body: "Over <strong>2,100 Verified Reviews</strong> on Reverb.com with a 5-Star Average as well as <strong>over 400 5-star reviews on Google.</strong>",
+  },
+];
+
+const faqs = [
+  {
+    q: "What Inspired You To Start Collecting Vintage Guitars?",
+    a: "The more vintage instruments I tried throughout my years of playing, the more I gained an appreciation for the variety and quality of these instruments. My passion for collecting stemmed from trying to find instruments that spoke to me and that truly inspired me to play.",
+  },
+  {
+    q: "Could You Share Some Of Your Most Memorable Experiences Or Moments Related To Your Vintage Guitar Collection?",
+    a: "The best memories I have related to my collection are definitely hearing the stories from people who played with the musicians that I idolize. Over the years I have purchased guitars from people who have played with some of my favorite country stars like Hank Williams, The Everly Brothers, Hank Thompson, Loretta Lynn, Little Jimmy Dickens, Ferlin Husky and many more!",
+  },
+  {
+    q: "What Led You To Specialize In Certain Types Of Vintage Guitars Or Specific Eras?",
+    a: "Over the years, I have gravitated towards focusing on instruments that I personally think are special. That being said, there is no accounting for taste and I try to see the value in every guitar that someone else might appreciate and play. Overall, while I do gravitate towards what I like, I try to get every instrument I can into the hands of a loving player who will cherish it for years to come.",
+  },
+  {
+    q: "What Tips Do You Have For New Vintage Guitar Collectors?",
+    a: "Always focus on the vintage guitars that you enjoy playing and collecting. You don't need to like what everybody else likes. The best guitars are the ones that inspire you to play them! Spend less time searching online for what specs you should like, and spend more time playing and figuring out what inspires you!",
+  },
+  {
+    q: "Can You Describe The Characteristics Of Your Ideal Vintage Guitar Find Or Acquisition?",
+    a: "My ideal guitar acquisition is one in which I get to hear tons of awesome history surrounding the guitar. Additionally, my ideal guitar acquisition includes photos of the original owner, accessories, music recordings and other interesting items that add historical significance to the guitar.",
+  },
+];
+
+const testimonials = [
+  {
+    name: "Amy B.",
+    body: "Joe is a consummate professional! Encyclopedic knowledge of guitars, but also just a kind, generous, and helpful person. Highly recommend supporting Joe's Vintage Guitars!",
+  },
+  {
+    name: "Mateo Cavestany",
+    body: "Joe gave me an accurate and fair appraisal for my vintage Gibson. I love how passionate he is about his craft and the genuine care he puts into his business.",
+  },
+  {
+    name: "Adam Kirkpatrick",
+    body: "Joe is a true professional! I was very impressed with his knowledge and insights as it relates to vintage guitars. Joe is an expert of the highest order!",
+  },
+];
+---
+
+<Layout
+  title="Learn More About Joe Dampt At Joe&rsquo;s Vintage Guitars"
+  description="Meet Joe Dampt, your nationwide vintage guitar expert at Joe's Vintage Guitars. We buy, appraise, and sell rare guitars and guitar collections across the USA."
+  canonical="/about-me/"
+  ogImage="https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/07/About-Me.jpg"
+  ogImageAlt="Joe Dampt, owner of Joe's Vintage Guitars"
+  ogType="article"
+  publishedTime="2026-02-04T15:38:15+00:00"
+  modifiedTime="2026-05-06T16:59:02+00:00"
+  structuredData={profileSchema}
+>
+  <PageHero
+    title="About Me"
+    bgImage="/images/hero-background.jpg"
+    size="lg"
+  />
+
+  <!-- Intro section: single h3 + 40%-wide rust rule + body paragraphs on cream bg -->
+  <section class="about-intro">
+    <div class="about-intro__inner">
+      <h3 class="about-intro__title">About Joe Dampt: Vintage Guitar Expert &amp; Appraiser</h3>
+      <div class="about-intro__rule" aria-hidden="true"></div>
+      <div class="about-intro__body">
+        <p>
+          Joe Dampt is the owner, lead appraiser, and head of preservation at
+          <a href="/">Joe&rsquo;s Vintage Guitars</a> in Mesa, Arizona. A musician first
+          and a dealer second, Joe has built one of the Southwest&rsquo;s premier
+          vintage instrument destinations through a commitment to history,
+          technical expertise, and fair dealing.
+        </p>
+        <p>
+          With over 12 years of professional experience, Joe manages an annual
+          inventory volume exceeding $2,000,000 and is a
+          <strong>Top-Rated Seller on Reverb</strong> with over 2,000 5-Star reviews.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats: 2-col with portrait photo (square) + cream-warm callout panel -->
+  <section class="about-stats">
+    <div class="about-stats__inner">
+      <div class="about-stats__photo">
+        <img src="/images/about-me-joe-1.jpg" alt="Joe Dampt playing guitar" loading="lazy" width="414" height="414" />
+      </div>
+      <div class="about-stats__panel">
+        <h4 class="about-stats__title"><b>Expertise by the Numbers</b></h4>
+        <ul class="about-stats__list">
+          {stats.map((s) => (
+            <li>
+              <span class="about-stats__check" aria-hidden="true">✓</span>
+              <span><strong>{s.value}</strong> {s.label}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Background — wood-textured bg, cream banner heading, 2x2 chevron-marker cards -->
+  <section class="about-cards about-cards--wood">
+    <div class="about-cards__banner">
+      <h3 class="about-cards__heading">
+        Professional Background<br />
+        <em>&amp; Industry Authority</em>
+      </h3>
+    </div>
+    <div class="about-cards__inner">
+      <div class="about-cards__grid">
+        {background.map((c) => (
+          <article class="about-card">
+            <span class="about-card__chev" aria-hidden="true">❯</span>
+            <div class="about-card__body">
+              {c.title && <h4 set:html={c.title} />}
+              <p set:html={c.body} />
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Significant Acquisitions — same wood-bg pattern, lede as first untitled card -->
+  <section class="about-cards about-cards--wood">
+    <div class="about-cards__banner">
+      <h3 class="about-cards__heading">
+        Significant Acquisitions <em>&amp; Sales</em>
+      </h3>
+    </div>
+    <div class="about-cards__inner">
+      <div class="about-cards__grid">
+        <article class="about-card">
+          <span class="about-card__chev" aria-hidden="true">❯</span>
+          <div class="about-card__body">
+            <p>
+              Joe has handled some of the rarest instruments in the world. His expertise
+              is trusted by collectors, and professional artists.
+            </p>
+          </div>
+        </article>
+        {acquisitions.map((c) => (
+          <article class="about-card">
+            <span class="about-card__chev" aria-hidden="true">❯</span>
+            <div class="about-card__body">
+              <h4 set:html={c.title} />
+              <p set:html={c.body} />
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- The Man Behind the Music: photo left + heading/quote/lede right + 2-col labeled bio below -->
+  <section class="about-music">
+    <div class="about-music__inner">
+      <div class="about-music__top">
+        <div class="about-music__photo">
+          <img src="/images/The-Man-Behind-the-Music.jpg" alt="Joe Dampt playing guitar" loading="lazy" />
+        </div>
+        <div class="about-music__copy">
+          <h3 class="about-music__title">The Man Behind the Music</h3>
+          <div class="about-music__rule" aria-hidden="true"></div>
+          <blockquote class="about-music__quote">
+            &ldquo;I believe that guitars don&rsquo;t do us any good if they just sit in a case. These beauties are meant to be played!&rdquo;
+          </blockquote>
+          <p class="about-music__lede">
+            Joe&rsquo;s passion started young, listening to the bedrock of American music: 50s Rock &amp; Roll, Classic Country, and Swing. Because he is a player, Joe understands what a musician needs because he is one.
+          </p>
+        </div>
+      </div>
+      <dl class="about-music__list">
+        <div class="about-music__item">
+          <dt>Performance History:</dt>
+          <dd>Former Lead Guitarist for <strong>2nd Hand Sam &amp; His Country Gentlemen</strong> and currently playing with <strong>Woody Rambell &amp; The Wrecks</strong>.</dd>
+        </div>
+        <div class="about-music__item">
+          <dt>Session Work:</dt>
+          <dd>Recorded guitar, bass, mandolin and organ on many local studio albums.</dd>
+        </div>
+        <div class="about-music__item">
+          <dt>Influences:</dt>
+          <dd>Merle Travis, Chet Atkins, Oscar Moore, Hank Garland, and Scotty Moore.</dd>
+        </div>
+        <div class="about-music__item">
+          <dt>Personal Collection:</dt>
+          <dd>Joe&rsquo;s personal favorites aren&rsquo;t always the most expensive. He treasures his <strong>1956 Gretsch 6120</strong>, <strong>1956 Gibson ES-5 Switchmaster</strong>, and a humble Harmony Bobcat he bought for $100 years ago.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- Media & Community: centered heading + lead, then 2-col copy + photo -->
+  <section class="about-media">
+    <div class="about-media__inner">
+      <header class="about-media__head">
+        <h3 class="about-media__title">Media &amp; Community</h3>
+        <div class="about-media__rule" aria-hidden="true"></div>
+        <p class="about-media__lede">
+          Joe is an active voice in the vintage guitar community, believing in transparency and education over secrecy.
+        </p>
+      </header>
+      <div class="about-media__grid">
+        <div class="about-media__copy">
+          <div class="about-media__item">
+            <h4>Press:</h4>
+            <p>
+              Joe&rsquo;s Vintage Guitars was featured by <strong>KJZZ 91.5 FM</strong>, Phoenix&rsquo;s NPR affiliate, in an in-depth photo story showcasing the shop&rsquo;s rare collection and the passion behind it. The feature highlights Joe&rsquo;s lifelong love of vintage instruments and the unique buying-and-selling philosophy that keeps rare guitars in players&rsquo; hands.
+              <a href="https://www.kjzz.org/the-show/see-inside-joes-vintage-guitars-in-mesa" target="_blank" rel="noopener noreferrer">Read the full story here.</a>
+            </p>
+            <p>
+              Joe&rsquo;s Vintage Guitars was recently featured in <strong>VoyagePhoenix</strong> for an in-depth look at our mission to preserve guitar history in the Southwest.
+              <a href="https://voyagephoenix.com/interview/exploring-life-business-with-joseph-dampt-of-joes-vintage-guitars-llc" target="_blank" rel="noopener noreferrer">Read the full interview here.</a>
+            </p>
+          </div>
+          <div class="about-media__item">
+            <h4>YouTube:</h4>
+            <p>Documents major buys (like a recent $100,000 buying trip in New Jersey) to show the reality of the business.</p>
+          </div>
+          <div class="about-media__item">
+            <h4>Forums:</h4>
+            <p>Active contributor to the Gibson Brands Forums, helping users date and authenticate vintage finds.</p>
+          </div>
+          <div class="about-media__item">
+            <h4>Community:</h4>
+            <p>Works closely with local music shops that don&rsquo;t specialize in vintage instruments, helping them confidently evaluate and offer fair value for vintage gear.</p>
+          </div>
+        </div>
+        <div class="about-media__photo">
+          <img src="/images/media-1.jpg" alt="Joe in the media and community" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Sell to Joe? 2-col copy + dark-rust CTA box -->
+  <section class="about-why">
+    <div class="about-why__inner">
+      <div class="about-why__copy">
+        <h3 class="about-why__title">Why Sell to Joe?</h3>
+        <p class="about-why__lede">
+          When you deal with <strong>Joe&rsquo;s Vintage Guitars</strong>, you aren&rsquo;t dealing with a call center or an untrained employee. You are dealing directly with Joe.
+        </p>
+        <ul class="about-why__list">
+          {whySell.map((c) => (
+            <li>
+              <strong>{c.title}:</strong> <span set:html={c.body} />
+            </li>
+          ))}
+        </ul>
+      </div>
+      <aside class="about-why__cta-box">
+        <p class="about-why__cta-eyebrow">Ready to talk vintage?</p>
+        <p class="about-why__cta-line">Call or Text Joe directly at</p>
+        <Button href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
+      </aside>
+    </div>
+  </section>
+
+  <!-- FAQ section: heading + permanent 2-col Q&A grid (not accordion) -->
+  <section class="about-faq">
+    <div class="about-faq__inner">
+      <h3 class="about-faq__title">About Joe Dampt</h3>
+      <div class="about-faq__grid">
+        {faqs.map((f) => (
+          <div class="about-faq__item">
+            <h4 class="about-faq__q">{f.q}</h4>
+            <p class="about-faq__a">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials — dark wood bg, Margi heading, tan/cream cards -->
+  <section class="about-testim">
+    <div class="about-testim__inner">
+      <h3 class="about-testim__title">Our Clients&rsquo; Testimonials</h3>
+      <p class="about-testim__sub">5-Star Rated Vintage Guitar Buyer &amp; Appraisal Expert Near You</p>
+      <div class="about-testim__grid">
+        {testimonials.map((t) => (
+          <article class="about-testim__card">
+            <p class="about-testim__name">{t.name}</p>
+            <div class="about-testim__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="about-testim__body">{t.body}</p>
+          </article>
+        ))}
+      </div>
+      <div class="about-testim__more">
+        <Button href={hrefs.googleReviews} variant="cream" size="md">View More</Button>
+      </div>
+    </div>
+  </section>
+
+  <ContactSection />
+</Layout>
+
+<style>
+  /* ============================================
+     About Intro — single h3 title + 40%-wide rule + bio paragraphs
+     Cream/parchment bg matches live page
+     ============================================ */
+  .about-intro { background: var(--color-brand-cream-light); }
+  .about-intro__inner {
+    max-width: var(--container-site);
+    margin: 0 auto;
+    padding: 50px 24px;
+    text-align: center;
+  }
+  .about-intro__title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(24px, 3vw, 38.5px);
+    line-height: 1.2;
+    color: var(--color-brand-rust-dark);
+    margin: 0;
+    /* Natural case — NOT uppercase. */
+    text-transform: none;
+    letter-spacing: normal;
+  }
+  .about-intro__rule {
+    width: 40%;
+    max-width: 440px;
+    height: 3px;
+    background: var(--color-brand-rust);
+    margin: 10px auto 30px;
+  }
+  .about-intro__body p {
+    max-width: 820px;
+    margin: 0 auto 18px;
+    text-align: center;
+    color: var(--color-brand-charcoal);
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: var(--font-sans);
+    font-weight: 400;
+  }
+  .about-intro__body a { color: var(--color-brand-rust); font-weight: 700; }
+  .about-intro__body a:hover { color: var(--color-brand-rust-bright); }
+
+  /* ============================================
+     Stats: 2-col (square portrait photo + cream-warm callout panel)
+     Matches live: cream-warm bg, no border-left, pseudo-element bookends
+     ============================================ */
+  .about-stats { background: var(--color-brand-cream-light); padding: 0 0 70px; }
+  .about-stats__inner {
+    max-width: var(--container-site);
+    margin: 0 auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: 414px 1fr;
+    gap: 36px;
+    align-items: center;
+  }
+  .about-stats__photo img {
+    width: 414px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+  }
+  .about-stats__panel {
+    background: var(--color-brand-cream-warm);
+    padding: 20px;
+  }
+  .about-stats__title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--color-brand-charcoal);
+    margin: 0 0 14px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .about-stats__title b { font-weight: 900; color: inherit; }
+  /* Decorative rust-dark rectangle bookends above + below the heading text */
+  .about-stats__title::before,
+  .about-stats__title::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 15px;
+    background: var(--color-brand-rust-dark);
+    margin: 0 auto 6px;
+  }
+  .about-stats__title::after { margin: 6px auto 0; }
+
+  .about-stats__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .about-stats__list li {
+    color: var(--color-brand-charcoal);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.45;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .about-stats__check {
+    flex-shrink: 0;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background: var(--color-brand-rust-bright);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 800px) {
+    .about-stats__inner { grid-template-columns: 1fr; }
+    .about-stats__photo img { width: 100%; }
+  }
+
+  /* ============================================
+     about-cards — Professional Background, Significant Acquisitions
+     Wood-grain bg, cream banner (overhangs left), 2x2 chevron-marker cards
+     ============================================ */
+  .about-cards--wood {
+    background-color: var(--color-brand-rust-dark);
+    background-image: url("/images/wood-bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    color: #fff;
+    overflow: hidden;
+    /* Wood-grain strip above the banner — matches live */
+    padding-top: 60px;
+  }
+  /* Cream banner — overhangs viewport's left edge ~120px, ~60% wide.
+     Inner padding-left compensates so heading text sits ~60px from viewport edge. */
+  .about-cards__banner {
+    background: var(--color-brand-cream);
+    /* padding-left = overhang (120) + visible inset (60) so text appears at ~viewport x=60 */
+    padding: 20px 32px 20px 180px;
+    margin-left: max(-120px, calc((var(--container-site) - 100vw) / 2));
+    width: min(820px, 60%);
+  }
+  .about-cards__heading {
+    font-family: var(--font-script);
+    font-weight: 400;
+    font-size: clamp(28px, 3.6vw, 40px);
+    color: var(--color-brand-rust-dark);
+    line-height: 1.15;
+    margin: 0;
+    padding: 0;
+  }
+  .about-cards__heading em { font-style: italic; }
+
+  .about-cards__inner {
+    /* Full width — padding-left dynamically matches the banner's heading-text x position.
+       This makes the card chevrons align vertically with the heading text. */
+    max-width: none;
+    margin: 0;
+    padding-top: 48px;
+    padding-bottom: 70px;
+    /* Heading text x = banner.margin-left (clamped at -120) + banner.padding-left (180).
+       Same formula here keeps chevron column aligned with heading text. */
+    padding-left: calc(max(-120px, (var(--container-site) - 100vw) / 2) + 180px);
+    padding-right: max(40px, calc((100vw - var(--container-site)) / 2 - 60px));
+    color: #fff;
+  }
+  /* 2x2 grid (4 cards on the live pattern) */
+  .about-cards__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px 64px;
+    /* Vertical connector line down each column behind the chevrons */
+    position: relative;
+  }
+  .about-card {
+    position: relative;
+    color: #fff;
+    padding-left: 64px;
+    min-height: 56px;
+  }
+  /* Vertical connector line down the column — runs through chevron centers */
+  .about-card::before {
+    content: "";
+    position: absolute;
+    left: 19px;
+    top: 40px;
+    width: 2px;
+    bottom: -36px;
+    background: rgba(255, 255, 255, 0.4);
+    z-index: 0;
+  }
+  /* The last card in each column shouldn't extend the line past its bottom */
+  .about-card:nth-last-child(-n+2)::before { display: none; }
+
+  /* Chevron marker — 40px WHITE filled circle with charcoal ❯ */
+  .about-card__chev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    color: var(--color-brand-charcoal);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  .about-card__body { padding-top: 8px; }
+  .about-card h4 {
+    font-family: var(--font-script);
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    margin: 0 0 6px;
+    line-height: 1.2;
+  }
+  .about-card p {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.55;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.92);
+  }
+  .about-card strong { color: #fff; }
+
+  @media (max-width: 800px) {
+    .about-cards__banner { margin-left: 0; max-width: 100%; }
+    .about-cards__grid { grid-template-columns: 1fr; gap: 28px; }
+    .about-card::before { display: none; }
+  }
+
+  /* ============================================
+     The Man Behind the Music — photo+heading row, then 2-col labeled bio
+     White bg matches live; system sans heading, rust-bright pull quote
+     ============================================ */
+  .about-music { background: #fff; }
+  .about-music__inner {
+    max-width: var(--container-site);
+    margin: 0 auto;
+    padding: 70px 24px;
+  }
+  .about-music__top {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 48px;
+    align-items: start;
+    margin-bottom: 40px;
+  }
+  .about-music__photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .about-music__title {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: clamp(28px, 3.5vw, 42px);
+    line-height: 1.15;
+    color: var(--color-brand-rust-dark);
+    margin: 0;
+    text-transform: none;
+  }
+  .about-music__rule {
+    width: 80px;
+    height: 3px;
+    background: var(--color-brand-rust);
+    margin: 12px 0 24px;
+  }
+  .about-music__quote {
+    font-family: var(--font-sans);
+    font-style: normal;
+    font-size: clamp(22px, 2.6vw, 32px);
+    line-height: 1.3;
+    color: var(--color-brand-rust-bright);
+    margin: 0 0 20px;
+    padding: 0;
+    border: none;
+    font-weight: 400;
+  }
+  .about-music__lede {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--color-brand-charcoal);
+  }
+  .about-music__list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 48px;
+  }
+  .about-music__item {
+    padding-left: 14px;
+    border-left: 3px solid var(--color-brand-rust-bright);
+  }
+  .about-music__item dt {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--color-brand-rust-dark);
+    margin-bottom: 6px;
+  }
+  .about-music__item dd {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--color-brand-charcoal);
+  }
+
+  @media (max-width: 800px) {
+    .about-music__top { grid-template-columns: 1fr; gap: 24px; }
+    .about-music__list { grid-template-columns: 1fr; gap: 24px; }
+  }
+
+  /* ============================================
+     Media & Community — centered heading + 2-col copy/photo
+     System sans heading 32px; labeled items with rust accent
+     ============================================ */
+  .about-media { background: #fff; }
+  .about-media__inner {
+    max-width: var(--container-site);
+    margin: 0 auto;
+    padding: 70px 24px;
+  }
+  .about-media__head { text-align: center; margin-bottom: 40px; }
+  .about-media__title {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: clamp(22px, 2.6vw, 32px);
+    color: var(--color-brand-rust-dark);
+    margin: 0;
+    line-height: 1.2;
+  }
+  .about-media__rule {
+    width: 80px;
+    height: 3px;
+    background: var(--color-brand-rust);
+    margin: 12px auto 18px;
+  }
+  .about-media__lede {
+    margin: 0 auto;
+    max-width: 640px;
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--color-brand-charcoal);
+  }
+  .about-media__grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+  .about-media__photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .about-media__item {
+    padding-left: 14px;
+    border-left: 3px solid var(--color-brand-rust-bright);
+    margin-bottom: 22px;
+  }
+  .about-media__item h4 {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 6px;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+  .about-media__item p {
+    color: var(--color-brand-charcoal);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 10px;
+  }
+  .about-media__item p:last-child { margin-bottom: 0; }
+  .about-media__item a { color: var(--color-brand-rust-bright); font-weight: 700; }
+  .about-media__item a:hover { color: var(--color-brand-rust-dark); }
+
+  @media (max-width: 800px) {
+    .about-media__grid { grid-template-columns: 1fr; }
+    .about-media__photo { order: -1; }
+  }
+
+  /* ============================================
+     Why Sell to Joe? — 2-col copy + dark-rust CTA box
+     ============================================ */
+  .about-why { background: var(--color-brand-cream-light); }
+  .about-why__inner {
+    max-width: var(--container-site);
+    margin: 0 auto;
+    padding: 60px 24px;
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+  .about-why__title {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: clamp(22px, 2.6vw, 30px);
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 14px;
+    line-height: 1.2;
+  }
+  .about-why__lede {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--color-brand-charcoal);
+    margin: 0 0 18px;
+  }
+  .about-why__list {
+    margin: 0;
+    padding-left: 22px;
+    list-style: disc;
+    color: var(--color-brand-charcoal);
+  }
+  .about-why__list li {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.55;
+    margin-bottom: 8px;
+    /* Bullet color */
+    color: var(--color-brand-charcoal);
+  }
+  .about-why__list li::marker { color: var(--color-brand-rust-bright); }
+  .about-why__list li strong { color: var(--color-brand-rust-dark); }
+
+  /* CTA box: dark rust panel w/ cream CTA button */
+  .about-why__cta-box {
+    background: var(--color-brand-rust-dark);
+    padding: 32px 28px;
+    text-align: center;
+    color: #fff;
+  }
+  .about-why__cta-eyebrow {
+    margin: 0 0 6px;
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+  .about-why__cta-line {
+    margin: 0 0 18px;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  @media (max-width: 800px) {
+    .about-why__inner { grid-template-columns: 1fr; }
+  }
+
+  /* ============================================
+     FAQ — heading + 2-col permanent Q&A grid (matches live, NOT an accordion)
+     ============================================ */
+  .about-faq { background: #fff; }
+  .about-faq__inner {
+    max-width: var(--container-site);
+    margin: 0 auto;
+    padding: 70px 24px;
+  }
+  .about-faq__title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(32px, 4vw, 44.88px);
+    color: var(--color-brand-rust-dark);
+    text-transform: none;
+    margin: 0 0 32px;
+    text-align: center;
+    line-height: 1.15;
+  }
+  .about-faq__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px 48px;
+  }
+  .about-faq__item { break-inside: avoid; }
+  .about-faq__q {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-brand-charcoal);
+    margin: 0 0 10px;
+    line-height: 1.25;
+    text-transform: none;
+  }
+  .about-faq__a {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--color-brand-charcoal);
+    margin: 0;
+  }
+  @media (max-width: 800px) {
+    .about-faq__grid { grid-template-columns: 1fr; }
+  }
+
+  /* ============================================
+     Testimonials — dark wood bg, Margi heading, tan cards
+     ============================================ */
+  .about-testim {
+    background-color: var(--color-brand-rust-darker);
+    background-image: url("/images/wood-bg.webp");
+    background-size: cover;
+    background-repeat: repeat;
+  }
+  .about-testim__inner {
+    max-width: var(--container-site);
+    margin: 0 auto;
+    padding: 60px 24px 70px;
+    text-align: center;
+  }
+  .about-testim__title {
+    font-family: var(--font-script);
+    font-weight: 400;
+    font-size: clamp(28px, 3.5vw, 38px);
+    color: var(--color-brand-brown-tan);
+    margin: 0;
+    line-height: 1.15;
+  }
+  .about-testim__sub {
+    margin: 6px 0 32px;
+    font-family: var(--font-sans);
+    font-size: 16px;
+    color: var(--color-brand-brown-tan);
+  }
+  .about-testim__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    text-align: left;
+  }
+  .about-testim__card {
+    background: var(--color-brand-brown-tan);
+    padding: 22px 24px;
+    color: var(--color-brand-charcoal);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  }
+  .about-testim__name {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--color-brand-charcoal);
+    margin: 0 0 4px;
+  }
+  .about-testim__stars {
+    color: var(--color-brand-rust-bright);
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  .about-testim__body {
+    color: var(--color-brand-charcoal);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  .about-testim__more {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+  }
+</style>

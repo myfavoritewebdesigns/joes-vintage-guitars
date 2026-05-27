@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://www.joesvintageguitarsaz.com/",
+  "url": "https://www.joesvintageguitarsaz.com/",
+  "sameAs": [
+    "https://www.facebook.com/joesvintageguitars/",
+    "https://www.youtube.com/@joesvintageguitars",
+    "https://reverb.com/shop/joe-s-gear-emporium-4",
+    "https://www.pinterest.com/joesvintageguitars0087/",
+    "https://www.instagram.com/joesvintageguitarsaz/",
+    "https://www.tiktok.com/@joesvintageguitar/",
+    "https://maps.app.goo.gl/QwmHsZGznWUwB9LA9/"
+  ],
+  "logo": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/06/joes-vintage-guitars-logo.jpg",
+  "image": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/om2ob5ra1i1x7wbklaug.jpg",
+  "name": "Joe's Vintage Guitars - We Buy Guitars!",
+  "legalName": "Joe’s Vintage Guitars",
+  "description": "Joe's Vintage Guitars specializes in purchasing and collecting vintage guitars and other stringed instruments. With years of expertise, Joe Dampt offers top cash for renowned brands like Fender and Gibson.",
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": 1
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "405",
+    "ratingValue": "5"
+  },
+  "priceRange": "$$$$",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  ],
+  "telephone": "+1-602-900-6635",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "47 N Fraser Dr E",
+    "addressLocality": "Mesa",
+    "addressRegion": "AZ",
+    "postalCode": "85203",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-602-900-6635",
+    "contactType": "Customer Support",
+    "availableLanguage": [
+      "English",
+      "Spanish"
+    ]
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "33.417304029490694",
+    "longitude": "-111.81059051571508"
+  },
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Buy and Sell Guitars"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Free Guitar Appraisal"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Stringed Instruments Appraisal"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Vintage Guitar Consignment"
+      }
+    }
+  ],
+  "department": [
+    {
+      "@type": "ProfessionalService",
+      "name": "Buy Sell Vintage Guitars",
+      "@id": "https://www.joesvintageguitarsaz.com/",
+      "url": "https://www.joesvintageguitarsaz.com/",
+      "sameAs": [
+        "https://www.facebook.com/joesvintageguitars/",
+        "https://www.youtube.com/@joesvintageguitars",
+        "https://www.instagram.com/joesvintageguitarsaz/",
+        "https://maps.app.goo.gl/6xHcpYV9EdNij5vY8/"
+      ],
+      "image": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/njw3skvdov5hr4crdk1e.jpg",
+      "telephone": "+1-602-830-5735",
+      "priceRange": "$$$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "United States"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Canada"
+        }
+      ]
+    }
+  ]
+}

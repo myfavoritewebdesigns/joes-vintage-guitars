@@ -1,0 +1,114 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://www.joesvintageguitarsaz.com/",
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Jim W."
+      },
+      "reviewBody": "I sent an email to Joe's Vintage Guitars about 10:00 PM Eastern Time with a description of my guitar including serial number and a couple of photos. He responded immediately with a real pleasant email and gave me a value on my guitar. I can't tell you how cool the experience was! I highly recommend you reaching out to him should you need assistance with this type of thing. Thanks Joe, you're the best!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Ray"
+      },
+      "reviewBody": "I had been researching the value of instruments my father owned when I saw Joe's Vintage Guitars website and their free appraisals. I emailed with some pictures and was surprised by the quick reply. Joe patiently went through each instrument and provided a range of values for each one. He was very helpful and gracious. I appreciated his knowledge, honesty, and willingness to take time to help me. Thank you very much, Joe.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Amy Vickery"
+      },
+      "reviewBody": "They were very easy to deal with and appraised my 1979 Guild within minutes! I sent pictures and details via text and received a FREE estimated value right away! 10/10 highly recommend!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Missy"
+      },
+      "reviewBody": "I highly recommend Joe's Vintage Guitars if you have a guitar you'd like to get an appraisal on. I sent my contact information on their website and was called the next day. I was asked to send pictures and was called promptly the following day with a value amount. The process couldn't have been any easier. Thank you to Joe's Vintage Guitars for an easy and honest appraisal! I would recommend them to anyone!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Kevin Richard Scholl"
+      },
+      "reviewBody": "I needed help unscrambling the serial number on my Gibson Spirit. I saw Joe's website and it said 'Contact me if you need help dating, valuing or selling a guitar from this time period.' So I called, he answered quickly and told me it was indeed a 1983 Spirit. Nice guy, real chill and pleasant to speak with. If you need help with a guitar question, especially with serial numbers, give Joe a call.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Steve Hastie"
+      },
+      "reviewBody": "I contacted Joe's Vintage Guitars about an old Stratocaster to know its value. Joe asked some questions and requested pictures, then called me to let me know the approximate value and about modifications that might lower it. He was a great source of information and very friendly. I'd highly recommend him.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Mary Chadbourne"
+      },
+      "reviewBody": "I texted pictures of a guitar from my late brother's collection to Joe's Vintage Guitars for a free estimate of its value. Joe's representative Annie got back to me the next day by phone with a very heartening estimate. I found this service exceedingly helpful for possible sales or insurance valuation, and I am impressed with the efficiency and cordiality of Joe and Annie. Five Stars. I couldn't be more pleased.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Rich S."
+      },
+      "reviewBody": "I saw that Joe's does free appraisals online. I sent him a few pictures of a guitar and he quickly responded with information and a rough estimate. He actually gave me a call and gave me as much info about my guitar as he could. He also offered to buy it and pay for the shipping. Now that's what I call service! Give him a call and see how much your guitar could be worth.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "D. Angelino"
+      },
+      "reviewBody": "Joe called me himself to let me know the value of my '76 Les Paul Custom. He was fair, honest, super easy to talk with, as well as being informative and educational. His call was a really pleasant break in my day. I trust his knowledge, experience and character, and I highly recommend him as an appraiser.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    }
+  ]
+}

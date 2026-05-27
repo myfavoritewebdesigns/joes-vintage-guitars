@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Frequently Asked Questions About Our Guitar Buying Services",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What’s The Difference Between Fair Market Value And An Insurance Appraisal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fair Market Value is what you can realistically expect a buyer to hand you in cash today. An insurance appraisal is usually higher—it represents the retail replacement cost to buy an equivalent instrument from a dealer if yours is stolen or destroyed. We provide the exact numbers for both, so you know where you stand, whether you’re cashing out or updating your policy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I Have To Bring The Guitar To Mesa To Get An Appraisal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not at all. While we love having great gear walk through our doors, our remote appraisal system is built for accuracy. By reviewing high-resolution photos of specific forensic details—like neck heels, pot codes, and solder joints—we can authenticate and value your instrument from anywhere in the country."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why Can’t I Just Check eBay Or Reverb Sold Listings To Find The Value Myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Public sold listings lack crucial context. A 1965 Stratocaster that sold for $12,000 might have had unoriginal pickups, a refret, and overspray, while an untouched survivor could command double that amount. We price your instrument using private, off-market sales data and exact factory specs that public platforms simply don’t account for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Much Does A Refinish Or A Headstock Repair Hurt The Value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends heavily on the era and the quality of the work, but generally, a refinish on a golden-era Fender or Gibson cuts the pure collector value by about 50%. A headstock break does the same, usually dropping the price by 40% to 50%. The good news? These guitars remain highly desirable as “player grade” instruments, and we know exactly how to price them to sell in that market."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can You Help With Appraisals For An Estate Or Probate Court?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Valuing a lifetime collection during estate settlement requires absolute accuracy and clean documentation. We provide official, written appraisals that hold up in legal, tax, and probate scenarios, taking the burden and guesswork off the family’s shoulders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will You Buy My Guitar After You Appraise It?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. If you decide you’re ready to sell, we make competitive, hassle-free cash offers based on the Fair Market Value we just uncovered. There is never any pressure to sell to us, but the option is always there if you want a fast, secure transaction without dealing with tire-kickers online."
+      }
+    }
+  ]
+}

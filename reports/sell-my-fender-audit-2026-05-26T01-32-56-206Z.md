@@ -1,0 +1,101 @@
+# Live-diff audit â€” sell-my-fender
+
+- Live:  https://www.joesvintageguitarsaz.com/sell-my-fender-guitar/
+- Local: http://localhost:4324/sell-my-fender-guitar/
+- When:  2026-05-26T01:32:56.207Z
+
+## ðŸ”´ Must fix
+
+- **11 heading(s) on live but missing on local:**
+  - h3#- How To Sell Your Vintage Fender Guitar
+  - h3#- How Much Is My Fender Guitar Worth?
+  - h3#- What Is the Best Way To Sell A Classic Fender Guitar?
+  - h4#- A Caring Home For Your Cherished Guitar
+  - h4#toggle_e5a80b5c1eab84219 What Factors Are Most Crucial in Determining The Value of a Vintage Fender Guitar?
+  - h4#toggle_098b6f29162bd1430 What Documentation is Essential for Appraising a Vintage Fender Guitar?
+  - h4#toggle_157b1d9a99dd3b7ee Are There Specific Models Of Vintage Fender Guitars That Are Particularly Sought After?
+  - h4#toggle_e5bcf276f553f9570 Is There a Difference in Value Between Vintage Fender Stratocasters and Telecasters?
+  - h4#toggle_a9d76fb4ce52b7088 What Should I Look for in an Appraiser When Getting My Vintage Fender Guitar Valued?
+  - h3#- Get In Touch With Joe For A Free Vintage Guitar Consultation Today!
+  - h3#- Get in Touch!
+
+- **Structural block mismatch â€” `fusionRow`:** live=19, local=0 (missing 19 on local)
+
+- **Image count mismatch:** live=22, local=20 (missing 2 on local)
+
+- **11 <picture><source> URL(s) on live but missing on local:**
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/1964-fiesta-red-stratocaster-17-1-200x133.jpg.webp
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/12/IMG_2424-200x133.jpg.webp
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2023/10/IMG_0992-200x133.jpg.webp
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1956-fender-stratocaster-sunburst-200x133.jpg.webp
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1960-fender-telecaster-blonde-200x133.jpg.webp
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1965-fender-jazzmaster-charcoal-frost-200x133.jpg.webp
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1952-fender-precision-bass-200x133.jpg.webp
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1964-fender-jaguar-sunburst-200x133.jpg.webp
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1972-fender-mustang-competition-blue-200x133.jpg.webp
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1972-fender-jazz-bass-sunburst-200x133.jpg.webp
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/02/chat-icon.png.webp
+
+- **Callout / tip / aside wrapper count mismatch:** live=3, local=0 (diff +3). Live pages typically wrap pro-tip / warning content in styled aside boxes (`.tip`, `.callout`, `.info-box`, `.fusion-alert`, etc.). If local is short, the agent likely extracted prose but skipped wrapper styling. Grep the live HTML for the relevant class and add corresponding `<div class="jvg-callout">` / `jvg-tip` blocks on local.
+
+- **JSON-LD @type(s) on live but missing on local:** Place, PostalAddress, MusicStore+Organization, ImageObject, ImageObject, ImageObject, ImageObject, ImageObject, ImageObject, WebSite, BreadcrumbList, ListItem, ListItem, WebPage, WebPage, Person, Person, Person, Person, Article, SpeakableSpecification, SpeakableSpecification, ProfessionalService, OpeningHoursSpecification, Offer, Offer, Offer, Offer, Service, Service, Review, Review, Review, Rating, Rating, Rating
+
+
+## ðŸŸ¡ Should fix
+
+- **5 heading(s) on local but not on live (extra):**
+  - h3#- How To Sell Your VintageFender Guitar
+  - h3#- How Much Is My FenderGuitar Worth?
+  - h3#- What Is the Best Way To SellA Classic Fender Guitar?
+  - h4#- A Caring HomeFor Your Cherished Guitar
+  - h2#- Talk WithJoe Today
+
+- Structural block extra on local â€” `section`: live=2, local=13 (+11)
+
+- **17 image(s) on local missing width/height (CLS risk):**
+  - /images/reverb-icon.svg
+  - /images/reverb-icon.svg
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/06/Guitar.png
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/1964-fiesta-red-stratocaster-17-1-1024x683.jpg
+  - https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/12/IMG_2424-1024x683.jpg
+  - ... and 12 more
+  _(False-positive risk on Astro <Image> with aspect-ratio CSS â€” see CLAUDE.md.)_
+
+- **<title> differs:**
+  - live:  `Sell My FENDER Guitar | Joes Vintage Guitars`
+  - local: `Sell My FENDER Guitar | Joe's Vintage Guitars`
+
+- **meta description differs:**
+  - live:  `Are you looking to sell your Fender? At Joe's Vintage Guitars, we are recognized nationwide as experts in buying, selling and appraising Fender guitars.`
+  - local: `Sell your vintage Fender guitar to a trusted specialist. Expert appraisals, top-dollar cash offers, and stress-free nationwide shipping for Stratocasters, Telecasters, Jazzmasters, Precision Basses and more.`
+
+
+## ðŸŸ¢ Acceptable / informational
+
+- JSON-LD @type(s) on local but not live (extra): SearchAction, LocalBusiness, AdministrativeArea, AdministrativeArea
+
+
+## Summary
+
+- Live headings: 32 | Local: 26
+- Live images:   22 | Local: 20
+- Live <picture><source>: 11 | Local: 0
+- Live videos:   0 | Local: 0
+- Live iframes:  0 | Local: 1
+- Asset URLs on local checked: 20, broken: 0
+- Consecutive <figure> runs â€” live: 0 (total 0 figures) | local: 0 (total 0 figures)
+- Callout / tip / info-box blocks â€” live: 3 | local: 0
+- Structural blocks (live vs local):
+  - section: 2 vs 13
+  - article: 0 vs 0
+  - main: 1 vs 1
+  - fusionRow: 19 vs 0
+  - elementorSection: 0 vs 0
+  - awbToc: 0 vs 0
+- JSON-LD types â€” live: [Place, GeoCoordinates, PostalAddress, MusicStore+Organization, PostalAddress, ImageObject, WebSite, ImageObject, BreadcrumbList, ListItem, ListItem, WebPage, Person, ImageObject, Article, SpeakableSpecification, Place, GeoCoordinates, PostalAddress, MusicStore+Organization, PostalAddress, ImageObject, WebSite, ImageObject, BreadcrumbList, ListItem, ListItem, WebPage, Person, ImageObject, Article, SpeakableSpecification, ProfessionalService, QuantitativeValue, AggregateRating, OpeningHoursSpecification, PostalAddress, ContactPoint, GeoCoordinates, Offer, Service, Offer, Service, Offer, Service, Offer, Service, ProfessionalService, OpeningHoursSpecification, AdministrativeArea, AdministrativeArea, Review, Person, Rating, Review, Person, Rating, Review, Person, Rating, FAQPage, Question, Answer, Question, Answer, Question, Answer, Question, Answer, Question, Answer] | local: [ProfessionalService, QuantitativeValue, AggregateRating, OpeningHoursSpecification, PostalAddress, ContactPoint, GeoCoordinates, WebSite, SearchAction, MusicStore+Organization, PostalAddress, LocalBusiness, PostalAddress, GeoCoordinates, AdministrativeArea, AdministrativeArea, Place, GeoCoordinates, PostalAddress, Service, AdministrativeArea, Service, AdministrativeArea, FAQPage, Question, Answer, Question, Answer, Question, Answer, Question, Answer, Question, Answer, BreadcrumbList, ListItem, ListItem, Article, Person]
+
+---
+
+> Deterministic checks only. For qualitative visual review (screenshots,
+> color rhythm, missing UI blocks), invoke the **live-diff-auditor** agent
+> and pass it this report as context.

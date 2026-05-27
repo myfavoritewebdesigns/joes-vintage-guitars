@@ -1,0 +1,650 @@
+{
+  "topColors": [
+    [
+      "#fff",
+      39
+    ],
+    [
+      "#eedfc0",
+      15
+    ],
+    [
+      "hsla(var(--awb-color5-h)",
+      15
+    ],
+    [
+      "#a03a1e",
+      15
+    ],
+    [
+      "#3e2a14",
+      14
+    ],
+    [
+      "#000",
+      8
+    ],
+    [
+      "#682412",
+      8
+    ],
+    [
+      "hsla(var(--awb-color8-h)",
+      8
+    ],
+    [
+      "rgba(255,255,255,0)",
+      8
+    ],
+    [
+      "#c8983a",
+      8
+    ],
+    [
+      "#65bc7b",
+      7
+    ],
+    [
+      "rgba(0,0,0,.2)",
+      7
+    ],
+    [
+      "#333",
+      6
+    ],
+    [
+      "#212934",
+      6
+    ],
+    [
+      "rgba(33,33,33,.97)",
+      6
+    ],
+    [
+      "#747474",
+      5
+    ],
+    [
+      "#be4b25",
+      5
+    ],
+    [
+      "#ffffff",
+      5
+    ],
+    [
+      "hsla(var(--awb-color1-h)",
+      5
+    ],
+    [
+      "rgba(0,0,0,0)",
+      5
+    ],
+    [
+      "#46494a",
+      5
+    ],
+    [
+      "#5a4a38",
+      5
+    ],
+    [
+      "#d2d2d2",
+      4
+    ],
+    [
+      "rgba(0,0,0,.4)",
+      4
+    ],
+    [
+      "#f9f9fb",
+      4
+    ],
+    [
+      "#dc3232",
+      3
+    ],
+    [
+      "#db4b68",
+      3
+    ],
+    [
+      "#12b878",
+      3
+    ],
+    [
+      "#333333",
+      3
+    ],
+    [
+      "#2a2d33",
+      3
+    ],
+    [
+      "#4a4e57",
+      3
+    ],
+    [
+      "rgba(0,0,0,.3)",
+      3
+    ],
+    [
+      "#f0e8d8",
+      3
+    ],
+    [
+      "rgba(160,58,30,.2)",
+      3
+    ],
+    [
+      "#7a6a54",
+      3
+    ],
+    [
+      "#e7e6e6",
+      2
+    ],
+    [
+      "rgba(0,0,0,.6)",
+      2
+    ],
+    [
+      "#dadada",
+      2
+    ],
+    [
+      "#ddd",
+      2
+    ],
+    [
+      "rgba(0,0,0,.75)",
+      2
+    ],
+    [
+      "#612211",
+      2
+    ],
+    [
+      "#b94a48",
+      2
+    ],
+    [
+      "#468847",
+      2
+    ],
+    [
+      "rgba(219,75,104,.1)",
+      2
+    ],
+    [
+      "rgba(18,184,120,.1)",
+      2
+    ],
+    [
+      "#d2b48c",
+      2
+    ],
+    [
+      "#434549",
+      2
+    ],
+    [
+      "hsla(var(--awb-color4-h)",
+      2
+    ],
+    [
+      "#696157",
+      2
+    ],
+    [
+      "#392b2b",
+      2
+    ]
+  ],
+  "fontFamilies": [
+    [
+      "Oswald,sans-serif",
+      24
+    ],
+    [
+      "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+      15
+    ],
+    [
+      "var(--awb-custom_typography_2-font-family)",
+      12
+    ],
+    [
+      "'Open Sans',sans-serif",
+      12
+    ],
+    [
+      "awb-icons",
+      9
+    ],
+    [
+      "var(--body_typography-font-family)",
+      7
+    ],
+    [
+      "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif",
+      7
+    ],
+    [
+      "\"Oswald Semibold\"",
+      5
+    ],
+    [
+      "var(--awb-custom_typography_3-font-family)",
+      3
+    ],
+    [
+      "var(--awb-fusion-font-family-mobile-typography)",
+      3
+    ],
+    [
+      "Oswald,sans-serif!important",
+      3
+    ],
+    [
+      "var(--body_typography-font-family,inherit)",
+      2
+    ],
+    [
+      "Margi",
+      2
+    ],
+    [
+      "var(--awb-title-font-family)",
+      2
+    ],
+    [
+      "var(--awb-fusion-font-family-typography)",
+      2
+    ],
+    [
+      "var(--awb-fusion-font-family-submenu-typography)",
+      2
+    ],
+    [
+      "inherit",
+      2
+    ],
+    [
+      "var(--awb-text-font-family)",
+      2
+    ],
+    [
+      "var(--awb-custom_typography_1-font-family)",
+      2
+    ],
+    [
+      "monospace",
+      1
+    ],
+    [
+      "var(--awb-custom_typography_2-font-family)!important",
+      1
+    ],
+    [
+      "icomoon",
+      1
+    ],
+    [
+      "icomoon!important",
+      1
+    ],
+    [
+      "awb-icons!important",
+      1
+    ],
+    [
+      "var(--nav_typography-font-family)",
+      1
+    ],
+    [
+      "var(--h1_typography-font-family)",
+      1
+    ],
+    [
+      "var(--h2_typography-font-family)",
+      1
+    ],
+    [
+      "var(--h3_typography-font-family)",
+      1
+    ],
+    [
+      "var(--h4_typography-font-family)",
+      1
+    ],
+    [
+      "Oswald,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+      1
+    ],
+    [
+      "var(--post_title_typography-font-family)",
+      1
+    ],
+    [
+      "var(--button_typography-font-family)",
+      1
+    ],
+    [
+      "var(--awb-content-font-family)",
+      1
+    ],
+    [
+      "var(--awb-item-font-family)",
+      1
+    ],
+    [
+      "var(--awb-custom_typography_3-font-family)!important",
+      1
+    ],
+    [
+      "\"Oswald Semibold\"!important",
+      1
+    ],
+    [
+      "Roboto,sans-serif",
+      1
+    ],
+    [
+      "Oswald",
+      1
+    ],
+    [
+      "margi!important",
+      1
+    ]
+  ],
+  "fontSizes": [
+    [
+      "13px",
+      16
+    ],
+    [
+      "11px",
+      12
+    ],
+    [
+      "16px",
+      12
+    ],
+    [
+      "12px",
+      9
+    ],
+    [
+      "14px",
+      8
+    ],
+    [
+      "15px",
+      8
+    ],
+    [
+      "var(--body_typography-font-size)",
+      7
+    ],
+    [
+      "var(--awb-font-size)",
+      7
+    ],
+    [
+      "9px",
+      5
+    ],
+    [
+      "22px",
+      5
+    ],
+    [
+      "clamp(22px, 3vw, 40px)!important",
+      5
+    ],
+    [
+      "1em",
+      4
+    ],
+    [
+      "10px",
+      4
+    ],
+    [
+      "18px",
+      4
+    ],
+    [
+      "var(--awb-submenu-font-size)",
+      4
+    ],
+    [
+      "20px",
+      3
+    ],
+    [
+      "inherit",
+      3
+    ],
+    [
+      "13.5px",
+      3
+    ],
+    [
+      "28px",
+      2
+    ],
+    [
+      "30px",
+      2
+    ],
+    [
+      "19px",
+      2
+    ],
+    [
+      "var(--form_text_size)",
+      2
+    ],
+    [
+      "var(--form_text_size, 13px)",
+      2
+    ],
+    [
+      "24px",
+      2
+    ],
+    [
+      "1.33333em",
+      2
+    ],
+    [
+      "var(--awb-title-font-size)",
+      2
+    ],
+    [
+      "var(--button_font_size, 14px)",
+      2
+    ],
+    [
+      "var(--awb-icon-size)",
+      2
+    ],
+    [
+      "clamp(18px, 3vw, 25px)!important",
+      2
+    ],
+    [
+      "clamp(25px, 3vw, 40px)!important",
+      2
+    ],
+    [
+      "clamp(22px, 3vw, 32px)!important",
+      2
+    ],
+    [
+      "11.5px",
+      2
+    ],
+    [
+      "17px",
+      2
+    ],
+    [
+      "var(--body_typography-font-size, 16px)",
+      1
+    ],
+    [
+      "1rem",
+      1
+    ],
+    [
+      "clamp(17px, 1.2vw, 19px)",
+      1
+    ],
+    [
+      "32px",
+      1
+    ],
+    [
+      "var(--pagination_font_size)",
+      1
+    ],
+    [
+      "calc((var(--form_text_size)) * .75)",
+      1
+    ],
+    [
+      "var(--nav_typography-font-size)",
+      1
+    ],
+    [
+      "var(--footer_social_links_font_size)",
+      1
+    ],
+    [
+      "var(--h1_typography-font-size)",
+      1
+    ],
+    [
+      "var(--h2_typography-font-size)",
+      1
+    ],
+    [
+      "var(--h3_typography-font-size)",
+      1
+    ],
+    [
+      "var(--h4_typography-font-size)",
+      1
+    ],
+    [
+      "var(--form_text_size, 9px)",
+      1
+    ],
+    [
+      "clamp(24px, 4vw, 46px)",
+      1
+    ],
+    [
+      "clamp(22px, 4vw, 30px)",
+      1
+    ],
+    [
+      "clamp(16px, 1.5vw,19px)",
+      1
+    ],
+    [
+      "var(--awb-typography3-font-size)",
+      1
+    ]
+  ],
+  "cssVarCount": 1000,
+  "cssVars": {
+    "--awb-active-color": "#be4b25",
+    "--adminbar-height": "0px",
+    "--awb-z-index": "2",
+    "--awb-color1": "#ffffff",
+    "--awb-color1-h": "0",
+    "--awb-color1-s": "0%",
+    "--awb-color1-l": "100%",
+    "--awb-color1-a": "100%",
+    "--awb-color2": "#f9f9fb",
+    "--awb-color2-h": "240",
+    "--awb-color2-s": "20%",
+    "--awb-color2-l": "98%",
+    "--awb-color2-a": "100%",
+    "--awb-color3": "#d2b48c",
+    "--awb-color3-h": "34",
+    "--awb-color3-s": "44%",
+    "--awb-color3-l": "69%",
+    "--awb-color3-a": "100%",
+    "--awb-color4": "#be4b25",
+    "--awb-color4-h": "15",
+    "--awb-color4-s": "67%",
+    "--awb-color4-l": "45%",
+    "--awb-color4-a": "100%",
+    "--awb-color5": "#682412",
+    "--awb-color5-h": "13",
+    "--awb-color5-s": "70%",
+    "--awb-color5-l": "24%",
+    "--awb-color5-a": "100%",
+    "--awb-color6": "#434549",
+    "--awb-color6-h": "220",
+    "--awb-color6-s": "4%",
+    "--awb-color6-l": "27%",
+    "--awb-color6-a": "100%",
+    "--awb-color7": "#333333",
+    "--awb-color7-h": "0",
+    "--awb-color7-s": "0%",
+    "--awb-color7-l": "20%",
+    "--awb-color7-a": "100%",
+    "--awb-color8": "#2a2d33",
+    "--awb-color8-h": "220",
+    "--awb-color8-s": "10%",
+    "--awb-color8-l": "18%",
+    "--awb-color8-a": "100%",
+    "--awb-custom_color_1": "#eedfc0",
+    "--awb-custom_color_1-h": "40",
+    "--awb-custom_color_1-s": "58%",
+    "--awb-custom_color_1-l": "84%",
+    "--awb-custom_color_1-a": "100%",
+    "--awb-typography1-font-family": "\"Oswald Semibold\"",
+    "--awb-typography1-font-size": "clamp(24px, 4vw, 46px)",
+    "--awb-typography1-font-weight": "400",
+    "--awb-typography1-font-style": "normal",
+    "--awb-typography1-line-height": "1.2",
+    "--awb-typography1-letter-spacing": "0px",
+    "--awb-typography1-text-transform": "none",
+    "--awb-typography2-font-family": "\"Oswald Semibold\"",
+    "--awb-typography2-font-size": "clamp(22px, 4vw, 30px)",
+    "--awb-typography2-font-weight": "400",
+    "--awb-typography2-font-style": "normal",
+    "--awb-typography2-line-height": "1.2",
+    "--awb-typography2-letter-spacing": "0px",
+    "--awb-typography2-text-transform": "none",
+    "--awb-typography3-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+    "--awb-typography3-font-size": "19px",
+    "--awb-typography3-font-weight": "400",
+    "--awb-typography3-font-style": "normal",
+    "--awb-typography3-line-height": "1.4",
+    "--awb-typography3-letter-spacing": "0.015em",
+    "--awb-typography3-text-transform": "none",
+    "--awb-typography4-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+    "--awb-typography4-font-size": "clamp(16px, 1.5vw,19px)",
+    "--awb-typography4-font-weight": "400",
+    "--awb-typography4-font-style": "normal",
+    "--awb-typography4-line-height": "1.5",
+    "--awb-typography4-letter-spacing": "0px",
+    "--awb-typography4-text-transform": "none",
+    "--awb-typography5-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+    "--awb-typography5-font-size": "16px",
+    "--awb-typography5-font-weight": "400",
+    "--awb-typography5-font-style": "normal"
+  },
+  "fontFaceCount": 5,
+  "importCount": 0,
+  "imports": []
+}

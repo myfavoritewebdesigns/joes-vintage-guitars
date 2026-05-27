@@ -1,0 +1,97 @@
+---
+/**
+ * Shared section header pattern used by ~13 sections:
+ *   eyebrow (small uppercase rust)
+ *   H2/H3 (Oswald 600, dark rust, uppercase)
+ *   subhead (Oswald 400, warm brown)
+ *   optional 3px rust accent rule below
+ *
+ * Usage:
+ *   <SectionHeader
+ *     eyebrow="About Joe"
+ *     title="A Buyer Who Knows Vintage Guitars"
+ *     subhead="Twelve Years Buying Vintage Guitars Full-Time"
+ *     id="expertise"
+ *   />
+ */
+interface Props {
+  eyebrow?: string;
+  title: string;
+  /** Heading level (h2 by default — use h3 inside a sub-section). */
+  level?: 2 | 3;
+  subhead?: string;
+  /** id to attach to the heading (used by TOC anchor links). */
+  id?: string;
+  /** Show the 80px rust rule beneath the heading. */
+  rule?: boolean;
+  /** Override max-width of the heading text. */
+  maxWidth?: string;
+  /** Center align (default) or left align. */
+  align?: "center" | "left";
+}
+
+const {
+  eyebrow,
+  title,
+  level = 2,
+  subhead,
+  id,
+  rule = false,
+  maxWidth,
+  align = "center",
+} = Astro.props;
+
+const HeadingTag = level === 3 ? "h3" : "h2";
+---
+
+<header
+  class:list={["jvg-section-header", `jvg-section-header--${align}`]}
+  style={maxWidth ? `max-width:${maxWidth};margin-left:auto;margin-right:auto;` : undefined}
+>
+  {eyebrow && <span class="jvg-section-header__eyebrow">{eyebrow}</span>}
+  <HeadingTag id={id} class="jvg-section-header__title" set:html={title} />
+  {subhead && <p class="jvg-section-header__subhead" set:html={subhead} />}
+  {rule && <div class="jvg-section-header__rule" aria-hidden="true"></div>}
+</header>
+
+<style>
+  .jvg-section-header { margin-bottom: 32px; }
+  .jvg-section-header--center { text-align: center; }
+  .jvg-section-header--left { text-align: left; }
+
+  .jvg-section-header__eyebrow {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust);
+    margin-bottom: 10px;
+    display: block;
+  }
+  .jvg-section-header__title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(28px, 4vw, 44px);
+    color: var(--color-brand-brown);
+    line-height: 1.15;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .jvg-section-header__subhead {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--c-brown-warm, var(--color-brand-brown-cool));
+    letter-spacing: 0.05em;
+    margin: 0;
+  }
+  .jvg-section-header__rule {
+    width: 80px;
+    height: 3px;
+    background: var(--color-brand-rust);
+    margin: 16px auto 0;
+  }
+  .jvg-section-header--left .jvg-section-header__rule { margin-left: 0; }
+</style>

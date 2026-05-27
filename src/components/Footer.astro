@@ -1,0 +1,338 @@
+---
+import { Image } from "astro:assets";
+import footerLogo from "../assets/images/Logo-Footer-1-1-300x300.png";
+import { contact, hrefs, footerSocials, footerTopMenu, footerMainMenu, footerLegal, phoneIconPath } from "../config/site";
+---
+
+<footer class="jvgft">
+  <div class="jvgft__main">
+    <div class="jvgft__sub">
+      <!-- Left: logo extending above the box -->
+      <div class="jvgft__logo-col">
+        <Image src={footerLogo} alt="Joe's Vintage Guitars" widths={[200, 300, 400]} sizes="200px" class="jvgft__logo" />
+      </div>
+
+      <!-- Middle: phone + socials -->
+      <div class="jvgft__contact-col">
+        <a href={hrefs.tel} class="jvgft__phone">
+          <svg viewBox="0 0 24 24" class="jvgft__phone-icon" aria-hidden="true">
+            <path d={phoneIconPath} />
+          </svg>
+          <span class="jvgft__phone-num">{contact.phone}</span>
+        </a>
+        <ul class="jvgft__socials">
+          {footerSocials.map((s) => (
+            <li>
+              <a href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label} class="jvgft__social">
+                <svg viewBox="0 0 24 24"><path d={s.path} /></svg>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Right: menu -->
+      <div class="jvgft__menu-col">
+        <ul class="jvgft__menu jvgft__menu--top">
+          {footerTopMenu.map((m) => (
+            <li>
+              <a href={m.href}>{m.label}</a>
+            </li>
+          ))}
+        </ul>
+        <ul class="jvgft__menu jvgft__menu--main">
+          {footerMainMenu.map((m) => (
+            <li class:list={[m.isReverbPill && "jvgft__menu--pill-item"]}>
+              <a
+                href={m.href}
+                target={m.external ? "_blank" : undefined}
+                rel={m.external ? "noopener noreferrer" : undefined}
+                class:list={[m.isReverbPill && "jvgft__pill"]}
+              >
+                {m.label}
+                {m.hasDropdown && <span class="jvgft__chev" aria-hidden="true">▾</span>}
+                {m.isReverbPill && <span class="jvgft__rev-badge" aria-hidden="true">R</span>}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="jvgft__copyright">
+    <p>
+      Copyright {footerLegal.copyrightYear} | Joe's Vintage Guitars
+      {footerLegal.links.map((l) => (
+        <>
+          {" | "}
+          <a
+            href={l.href}
+            target={l.external ? "_blank" : undefined}
+            rel={l.external ? "noopener noreferrer" : undefined}
+          >{l.label}</a>
+        </>
+      ))}
+    </p>
+  </div>
+</footer>
+
+<style>
+  /* Outer footer — dark rust band */
+  .jvgft {
+    background: var(--color-brand-rust-dark);
+    border-top: 4px solid var(--color-brand-charcoal);
+    font-family: "Open Sans", sans-serif;
+  }
+  .jvgft__main {
+    /* Live's outer band has tight vertical padding so the cream box is short, with
+       wider horizontal padding. The logo overhangs above the band into page content. */
+    padding: 18px 56px 14px;
+  }
+
+  /* Inner tan box with charcoal border — live spans the full width of the outer band
+     (minus side padding), not a fixed container-site width. */
+  .jvgft__sub {
+    background: var(--color-brand-brown-tan);
+    border: 3px solid var(--color-brand-charcoal);
+    padding: 6px 36px 6px;
+    display: grid;
+    grid-template-columns: 235px auto 1fr;
+    gap: 36px;
+    align-items: center;
+    position: relative;
+  }
+
+  /* Logo column — logo overhangs above the cream box (and the outer band) into page content.
+     Top-aligned (not center) so the -30px margin pushes the logo up out of the box, matching live. */
+  .jvgft__logo-col {
+    display: flex;
+    justify-content: flex-start;
+    align-self: start;
+  }
+  .jvgft__logo-col :global(.jvgft__logo) {
+    width: 235px;
+    height: auto;
+    /* Live biases the logo upward so it overhangs the cream box top more than the
+       bottom (matches a "tucked under" look on the live site). The asymmetric negative
+       margins create the overhang without growing the grid cell. */
+    margin: -38px -30px -22px;
+    /* No drop-shadow — flat design per spec; dark border is baked into the PNG */
+    filter: none;
+    border: none;
+    border-radius: 6px;
+    display: block;
+  }
+
+  /* Phone + social column */
+  .jvgft__contact-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .jvgft__phone {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    /* Matches live: system sans (not Oswald) at 19px */
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 19px;
+    color: var(--color-brand-charcoal);
+    text-decoration: none;
+    margin-top: 14px;
+  }
+  /* "Call Us!" italic red label above the phone number */
+  .jvgft__phone::before {
+    content: "Call Us!";
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--color-brand-rust-amber);
+    white-space: nowrap;
+  }
+  .jvgft__phone-icon {
+    width: 18px;
+    height: 18px;
+    fill: var(--color-brand-rust-amber);
+    flex-shrink: 0;
+  }
+  .jvgft__phone:hover { color: var(--color-brand-rust-dark); }
+
+  .jvgft__socials {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .jvgft__social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: var(--color-brand-rust-bright);
+    color: var(--color-brand-brown-tan);
+    border-radius: 50%;
+    transition: background 0.2s, color 0.2s;
+  }
+  .jvgft__social svg {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+  }
+  .jvgft__social:hover { background: #fff; color: var(--color-brand-rust-bright); }
+
+  /* Menu column */
+  .jvgft__menu-col {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 8px 0;
+  }
+  .jvgft__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14px 22px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  /* Bottom row stays on a SINGLE LINE — required by spec. Tighter spacing so all 5 items fit. */
+  .jvgft__menu--main {
+    flex-wrap: nowrap;
+    gap: 18px;
+  }
+  .jvgft__menu a {
+    font-family: var(--font-display);
+    color: var(--color-brand-charcoal);
+    text-decoration: none;
+    transition: color 0.2s;
+    white-space: nowrap;
+  }
+  .jvgft__menu a:hover { color: var(--color-brand-rust-bright); }
+  /* Top row: Home/About Joe/JVG Blog/Contact — Oswald 700 14px natural case */
+  /* Darker, more visible divider between top and bottom menu rows (per spec) */
+  .jvgft__menu--top {
+    border-bottom: 1px solid rgba(42, 45, 51, 0.65);
+    padding-bottom: 14px;
+  }
+  .jvgft__menu--top a {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 0.02em;
+  }
+  /* Bottom row: services — Oswald 400 16px UPPERCASE */
+  .jvgft__menu--main a {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  /* Dropdown chevron after "Sell My Guitar" */
+  .jvgft__chev {
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 10px;
+    line-height: 1;
+    color: var(--color-brand-charcoal);
+    vertical-align: middle;
+  }
+
+  /* Inventory pill — white rounded button with "INVENTORY" + Reverb "R" badge */
+  .jvgft__pill {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    color: var(--color-brand-charcoal) !important;
+    padding: 5px 6px 5px 16px;
+    border-radius: 50px;
+    /* Override default menu link size on the pill so it stays compact */
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    transition: background 0.2s, color 0.2s;
+  }
+  .jvgft__pill:hover { background: var(--color-brand-cream); color: var(--color-brand-rust-dark) !important; }
+  /* The "R" badge — red circle with white letter */
+  .jvgft__rev-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--color-brand-rust-bright);
+    color: #fff;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  /* Copyright bar — tan bg with black text + rust-bright underlined links (matches live) */
+  .jvgft__copyright {
+    background: var(--color-brand-brown-tan);
+    color: #000;
+    padding: 12px 24px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .jvgft__copyright p { margin: 0; line-height: 1.5; }
+  .jvgft__copyright a {
+    color: var(--color-brand-rust-bright);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: color 0.2s;
+  }
+  .jvgft__copyright a:hover { color: var(--color-brand-rust-dark); }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .jvgft__sub {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      padding: 50px 18px 24px;
+    }
+    .jvgft__logo-col {
+      align-self: center;
+      align-items: center;
+    }
+    /* On mobile, drop the desktop overhang and let logo sit cleanly inside the cream box. */
+    .jvgft__logo-col :global(.jvgft__logo) {
+      width: 180px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .jvgft__menu-col { align-items: center; }
+    .jvgft__menu { justify-content: center; }
+    /* Allow bottom menu to wrap to multiple rows on narrow screens (desktop forces nowrap). */
+    .jvgft__menu--main { flex-wrap: wrap; gap: 14px 18px; }
+  }
+  @media (max-width: 600px) {
+    .jvgft__main { padding: 50px 12px 24px; }
+    .jvgft__sub { padding: 36px 14px 24px; }
+    .jvgft__logo-col :global(.jvgft__logo) { width: 150px; }
+    .jvgft__phone { font-size: 18px; }
+    .jvgft__menu a { font-size: 13px; }
+    .jvgft__menu--main a { font-size: 14px; }
+    .jvgft__pill { font-size: 13px !important; padding: 4px 4px 4px 12px; }
+    .jvgft__copyright { padding: 12px 14px; font-size: 12px; line-height: 1.6; }
+  }
+</style>

@@ -1,0 +1,277 @@
+---
+import { Image } from "astro:assets";
+import SectionHeader from "./primitives/SectionHeader.astro";
+import strat from "../assets/images/1960-fender-stratocaster-hardtail-front-scaled.jpg";
+import lesPaul from "../assets/images/1956-gibson-les-paul-standard-1-scaled.jpg";
+import martin from "../assets/images/1959-martin-D-28-scaled.jpg";
+import guild from "../assets/images/1950s-guild-x175-sunburst-2-scaled.jpg";
+import rick from "../assets/images/1968-rickenbacker-4005-azureglo-scaled.jpg";
+import jackson from "../assets/images/1980s-jackson-soloist-with-custom-finish-scaled.jpeg";
+import charvel from "../assets/images/charvel-model-5-lava-crackle.jpg";
+import prs from "../assets/images/prs-dweezil-zappa-signature-guitar.jpg";
+import national from "../assets/images/national-style-2-tenor-guitar-1-scaled.jpg";
+import twinAmp from "../assets/images/1960-fender-twin-amp-blonde.jpg";
+import lapSteel from "../assets/images/fender-champion-lap-steel-guitar.jpg";
+import pedalSteel from "../assets/images/emmons-d-10-push-pull-pedal-steel.jpg";
+import bass from "../assets/images/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg";
+import gretsch from "../assets/images/gretsch-6120-market-value-scaled.jpg";
+import mandolin from "../assets/images/1950s-gibson-f-5-mandolin.jpg";
+import banjo from "../assets/images/epiphone-concert-banjo-1920s.jpg";
+
+const cards = [
+  {
+    image: strat,
+    label: "Vintage Fender Guitars",
+    labelHref: "/sell-my-fender-guitar/",
+    body: "Stratocasters, Telecasters, Jazzmasters, Jaguars, Mustangs, Esquires, and Precision and Jazz Basses, particularly pre-CBS (pre-1965) examples. Custom colors, original cases, and matching headstocks all push the price higher. See my 1952 Telecaster authentication guide for what I look at when evaluating one.",
+    cta: { label: "Sell My Fender", href: "/sell-my-fender-guitar/" },
+  },
+  {
+    image: lesPaul,
+    label: "Vintage Gibson Guitars",
+    labelHref: "/sell-my-gibson-guitar/",
+    body: "Les Pauls, ES-335s, ES-175s, SGs, Flying Vs, J-45s, J-200s, and archtops from the 1930s–1960s. Golden era electrics are where I spend most of my time. My guides on the 1957 Les Paul Goldtop, 1959 ES-335, and Gibson L-5 CES go into what to look for.",
+    cta: { label: "Sell My Gibson", href: "/sell-my-gibson-guitar/" },
+  },
+  {
+    image: martin,
+    label: "Martin Acoustic Guitars",
+    labelHref: "/sell-my-martin-guitar/",
+    body: "Pre-war herringbone D-28s, D-45s, 000-28s, 0-18s, and OM models with scalloped bracing and Brazilian rosewood are at the top of the market. I'll consider any Martin built before 1970. My Martin D-18E vs D-28E authentication guide gets into the details.",
+    cta: { label: "Sell My Martin", href: "/sell-my-martin-guitar/" },
+  },
+  {
+    image: guild,
+    label: "Vintage Guild Guitars",
+    labelHref: "/sell-my-guild-guitar/",
+    body: "Archtops, flattops, and electric thinlines from Guild's early New York and Hoboken years through the Rhode Island era. I'm always interested in F-47s, D-55s, Starfires, and Artist Award models. Guild is underrated by the casual market but well-known to serious collectors.",
+    cta: null,
+  },
+  {
+    image: rick,
+    label: "50s, 60s & 70s Rickenbacker Guitars",
+    labelHref: "/sell-my-rickenbacker-guitar/",
+    body: "360s, 330s, 325s, 4001 basses, and other models from Rickenbacker's most collectible decades. I'm interested in any of the classic finishes including Fireglo, Mapleglo, and Jetglo. Left-handed examples and export models bring even more.",
+    cta: { label: "Sell My Rickenbacker", href: "/sell-my-rickenbacker-guitar/" },
+  },
+  {
+    image: jackson,
+    label: "USA-Made Jackson Guitars",
+    labelHref: null,
+    body: "Pre-Fender-acquisition USA-made Jacksons: Soloists, Dinkys, Kellys, and custom shop instruments. Early Randy Rhoads models and guitars with original Floyd Rose hardware sit at the top of the market. Originality and condition matter more on these than on most brands.",
+    cta: null,
+  },
+  {
+    image: charvel,
+    label: "USA-Made Charvel Guitars",
+    labelHref: null,
+    body: "Pre-production and early-production San Dimas Charvels, Jackson-era USA models, and custom shop pieces. Hard rock and metal collectors drive serious demand for these. Original components, the original case, and any documentation will all push the offer up.",
+    cta: null,
+  },
+  {
+    image: prs,
+    label: "High-End Paul Reed Smith (PRS) Guitars",
+    labelHref: null,
+    body: "Private Stock, Dragon series, vintage Artist series, and early pre-factory CE models. Brazilian rosewood necks, ten-top figured maple, and original tremolo systems all matter when I'm pricing one of these. Older USA-made core models are worth showing me too.",
+    cta: null,
+  },
+  {
+    image: national,
+    label: "National Resonator Guitars",
+    labelHref: "/sell-my-national-guitar/",
+    body: "Style O, Duolian, Triolian, Tricone, and other National resonator models from the 1920s through the 1940s. I buy both wood-body and metal-body examples. The condition of the cone and coverplate makes a big difference to what one will bring.",
+    cta: null,
+  },
+  {
+    image: twinAmp,
+    label: "Vintage Tube Amplifiers",
+    labelHref: "/sell-an-amplifier-or-effect/",
+    body: "Fender Tweed, Blackface, and Silverface amplifiers, plus Gibson, Vox, Marshall, Ampeg, and other vintage tube combos and heads. Original speakers, original transformers, and an untouched chassis matter most. All-original examples bring the strongest prices.",
+    cta: { label: "Sell My Amp", href: "/sell-an-amplifier-or-effect/" },
+  },
+  {
+    image: lapSteel,
+    label: "Lap Steel Guitars",
+    labelHref: null,
+    body: "Hawaiian and electric lap steels from the 1930s through the 1960s, including Rickenbacker Frying Pans, Gibson Ultratones, Fender Champions, Nationals, and Supros. It's a niche corner of the market, but collectors are paying serious money for the right examples. Most sellers underestimate what theirs is worth.",
+    cta: null,
+  },
+  {
+    image: pedalSteel,
+    label: "Pedal Steel Guitars",
+    labelHref: null,
+    body: "Vintage and professional-grade pedal steels from Sho-Bud, Emmons, ZB, MSA, and other makers. I'll look at single and double-neck models. Original cases, knee levers, and a full pedal setup all matter when pricing one.",
+    cta: null,
+  },
+  {
+    image: bass,
+    label: "Bass Guitars",
+    labelHref: null,
+    body: "Vintage Fender Precision and Jazz Basses, Gibson EB series, Rickenbacker 4001s, Hofner Violin basses, and other collectible basses from the 1950s through the 1970s. Original pickups, original tuners, and an unrefinished body are what move the price most.",
+    cta: null,
+  },
+  {
+    image: gretsch,
+    label: "Vintage Gretsch Guitars",
+    labelHref: "/sell-my-gretsch-guitar/",
+    body: "6120s, White Falcons, Country Gentlemans, Jets, and Anniversaries from Gretsch's Brooklyn era (1950s–1960s). Filter'Tron and DynaSonic pickups, original Bigsby vibratos, and any original case candy all push the price up. My Gretsch 6120 history and value guide goes deeper.",
+    cta: { label: "Sell My Gretsch", href: "/sell-my-gretsch-guitar/" },
+  },
+  {
+    image: mandolin,
+    label: "Vintage Mandolins",
+    labelHref: null,
+    body: "Gibson F-5s, A-5s, F-4s, and Lloyd Loar-era instruments are the top of the mandolin world. I'm also interested in pre-war Martins, Washburns, and other quality American-made mandolins. The condition of the top, the tuners, and any original finish matter most.",
+    cta: null,
+  },
+  {
+    image: banjo,
+    label: "Vintage Gibson Banjos & More",
+    labelHref: null,
+    body: "Pre-war Gibson Mastertone banjos (RB-3s, RB-4s, RB-5s) sit among the most valuable fretted instruments anywhere. I'm also buying ukuleles, resonator guitars, lap harps, and other quality American-made stringed instruments with some history behind them.",
+    cta: null,
+  },
+];
+---
+
+<section class="bg-white">
+  <div class="jvg-buy">
+    <SectionHeader
+      eyebrow="What I Buy"
+      title="Vintage Guitars &amp; Instruments I Buy Across the U.S."
+      subhead="Fender, Gibson, Martin, Guild &middot; Pre-war to 1970s &middot; Single instruments to full estates"
+      id="what-we-buy"
+    />
+
+    <div class="jvg-buy__grid">
+      {cards.map((c) => (
+        <article class="jvg-buy__card">
+          <div class="jvg-buy__img-wrap">
+            <Image
+              src={c.image}
+              alt={c.label}
+              widths={[300, 500, 800]}
+              sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw"
+            />
+          </div>
+          <div class="jvg-buy__label">
+            {c.labelHref ? (
+              <a href={c.labelHref}>{c.label}</a>
+            ) : (
+              <span>{c.label}</span>
+            )}
+          </div>
+          <div class="jvg-buy__body">
+            <p>{c.body}</p>
+            {c.cta && (
+              <a href={c.cta.href} class="jvg-buy__cta">{c.cta.label}</a>
+            )}
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .jvg-buy {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 24px 70px;
+    font-family: "Open Sans", sans-serif;
+  }
+  /* header styles supplied by <SectionHeader /> primitive */
+
+  .jvg-buy__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+  }
+  @media (max-width: 1100px) {
+    .jvg-buy__grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 820px) {
+    .jvg-buy__grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  }
+  @media (max-width: 500px) {
+    .jvg-buy__grid { grid-template-columns: 1fr; }
+  }
+
+  .jvg-buy__card {
+    background: #fff;
+    border: 1px solid rgba(160, 58, 30, 0.15);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .jvg-buy__card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(62, 42, 20, 0.1);
+  }
+  .jvg-buy__img-wrap {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+  }
+  .jvg-buy__img-wrap :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+    filter: sepia(5%) contrast(1.03);
+  }
+  .jvg-buy__card:hover .jvg-buy__img-wrap :global(img) { transform: scale(1.05); }
+
+  .jvg-buy__label {
+    background: var(--color-brand-brown);
+    padding: 10px 16px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-brand-cream);
+    line-height: 1.2;
+  }
+  .jvg-buy__label a {
+    color: var(--color-brand-cream) !important;
+    text-decoration: none !important;
+    transition: color 0.2s;
+  }
+  .jvg-buy__label a:hover { color: var(--color-brand-gold) !important; }
+
+  .jvg-buy__body {
+    padding: 16px 18px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .jvg-buy__body p {
+    font-size: 13.5px;
+    line-height: 1.75;
+    color: var(--color-brand-brown-mid);
+    margin: 0 0 14px;
+    flex: 1;
+  }
+  .jvg-buy__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust) !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid rgba(160, 58, 30, 0.3);
+    padding-bottom: 2px;
+    transition: border-color 0.2s, color 0.2s;
+    margin-top: auto;
+    width: max-content;
+  }
+  .jvg-buy__cta:hover { color: var(--color-brand-brown) !important; border-color: var(--color-brand-brown); }
+  .jvg-buy__cta::after { content: "→"; font-size: 13px; }
+</style>

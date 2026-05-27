@@ -1,0 +1,288 @@
+---
+import { Image } from "astro:assets";
+import SectionHeader from "./primitives/SectionHeader.astro";
+import jesusGroup from "../assets/images/jesus-is-coming-large-group.jpg";
+import homerPearl from "../assets/images/homer-pearl-horns-and-instruments-small.jpg";
+import homer02 from "../assets/images/homer-02.jpg";
+import photo1 from "../assets/images/Photo-1--scaled.jpg";
+import photo7 from "../assets/images/Photo-7-scaled.jpg";
+import photo9 from "../assets/images/Photo-9-scaled.jpg";
+import photo10 from "../assets/images/Photo_10-scaled.jpg";
+import dontLaugh from "../assets/images/Dont-Laugh-scaled.jpg";
+
+type Photo = {
+  src: any;
+  alt: string;
+  /** top in % of stage */
+  top: number;
+  /** left in % of stage */
+  left: number;
+  /** width in % of stage */
+  width: number;
+  /** rotation in degrees */
+  rotate: number;
+  /** stacking */
+  z: number;
+};
+
+type Story = {
+  name: string;
+  /** stage height in px on desktop */
+  stageHeight: number;
+  photos: Photo[];
+  intro: string;
+  body: string[];
+  reverse?: boolean;
+};
+
+const stories: Story[] = [
+  // Homer — landscape group (front, top-left), portrait (behind, right), landscape pair (front, bottom)
+  {
+    name: "Homer",
+    reverse: false,
+    stageHeight: 540,
+    photos: [
+      { src: jesusGroup, alt: "Camp gatherings — Homer's family revivals", top: 0, left: 0, width: 60, rotate: -3, z: 2 },
+      { src: homer02, alt: "Homer with his guitar", top: 15, left: 48, width: 36, rotate: 3, z: 1 },
+      { src: homerPearl, alt: "Homer and Pearl, original owners", top: 50, left: 2, width: 64, rotate: -2, z: 3 },
+    ],
+    intro: "I purchased this beautiful Gibson L-3 from the grandson of the original owner. He was kind enough to send a hand-written history of his grandfather and the guitar.",
+    body: [
+      "My grandfather Homer grew up a working cowboy. He began preaching around 1910. Because he continued to do ranch work, he became known as the cowboy preacher. The name stuck. He would assist ranchers around the country on his travels while holding the meetings. As a kid, to me he seemed to know every person in the country, including a few celebrities of his era.",
+      "The guitar was purchased new by my grandparents. My grandmother Pearl was the picker in the family — though she and my grandfather gave up playing by the early '50s. The family business was traveling revivals and camp meetings, a popular thing in the days of the circuit preacher. Everyone in the family played at least one instrument well.",
+      "Local attendees would bring their own instruments and turn the services into quite a raucous event. Any instrument was allowed, no matter the skill or volume level. Music was extremely important to them, and they used it very effectively.",
+      "The Gibson is a true survivor and deserves the respect I know you have for the history of guitars.",
+    ],
+  },
+  // Patti & Howard — matches live screenshot overlap exactly:
+  //   Patti (z:2, front-middle) top-left covers Howard's left edge
+  //   Howard (z:1, back) sits behind Patti's right side, offset down+right
+  //   Band shot (z:3, very front) drops in across Patti's bottom-left
+  {
+    name: "Patti & Howard",
+    reverse: true,
+    stageHeight: 620,
+    photos: [
+      { src: photo1, alt: "Patti with her Gibson", top: 0, left: 2, width: 44, rotate: -3, z: 2 },
+      { src: photo7, alt: "Howard at KAHU radio with his Gibson", top: 12, left: 30, width: 42, rotate: 3, z: 1 },
+      { src: dontLaugh, alt: "Don't Laugh band shot", top: 40, left: 0, width: 56, rotate: -2, z: 3 },
+    ],
+    intro: "I purchased two Gibson guitars from the daughter of this lovely couple.",
+    body: [
+      "Patti & Howard both began playing music at a young age and played together their whole married life. They backed many incredible country artists in the 50s, 60s, and 70s, and were even in Ferlin Husky's backing band for a while.",
+      "Patti was an absolutely incredible guitarist who was good friends with Roy Clark — and could play as well as him too. Howard was a great singer and rhythm guitar player.",
+      "I have been helping their daughter scan all of their photos and digitize all of their music from the old tapes and records she has.",
+    ],
+  },
+  // Linda Gayle — diagonal pair with body overlap
+  {
+    name: "Linda Gayle",
+    reverse: false,
+    stageHeight: 540,
+    photos: [
+      { src: photo10, alt: "Linda Gayle on stage", top: 0, left: 0, width: 50, rotate: -3, z: 2 },
+      { src: photo9, alt: "Linda Gayle performing", top: 15, left: 40, width: 50, rotate: 3, z: 1 },
+    ],
+    intro: "I purchased this lovely Martin 0-18 from the niece of the original owner.",
+    body: [
+      "Linda Gayle was a country western musician from Iowa who toured around the state and played regularly on several local radio stations from an early age. She continued to play and sing her whole life — but stepped back from performing when she started her family.",
+      "We're hoping her granddaughter will pick the Martin up next.",
+    ],
+  },
+];
+---
+
+<section id="stories" class="jvg-stories">
+  <div class="jvg-stories__inner">
+    <SectionHeader
+      eyebrow="Client Stories"
+      title="Read Some Of My Clients' Wonderful Stories"
+      rule={true}
+    />
+
+    {stories.map((s) => (
+      <article class:list={["jvg-stories__row", s.reverse && "jvg-stories__row--reverse"]}>
+        <div class="jvg-stories__photos">
+          <div class="jvg-stories__stage" style={`--stage-h:${s.stageHeight}px`}>
+            {s.photos.map((p) => (
+              <figure
+                class="jvg-stories__polaroid"
+                style={`--top:${p.top}%;--left:${p.left}%;--w:${p.width}%;--rot:${p.rotate}deg;z-index:${p.z};`}
+              >
+                <Image src={p.src} alt={p.alt} widths={[240, 400, 600]} sizes="(max-width: 820px) 60vw, 320px" />
+              </figure>
+            ))}
+          </div>
+        </div>
+
+        <div class="jvg-stories__panel">
+          <header class="jvg-stories__banner">
+            <h3 class="jvg-stories__name">{s.name}</h3>
+            <span class="jvg-stories__banner-line" aria-hidden="true"></span>
+          </header>
+          <div class="jvg-stories__body">
+            <p class="jvg-stories__intro">{s.intro}</p>
+            {s.body.map((p) => <p>{p}</p>)}
+          </div>
+          <span class="jvg-stories__bottom-rule" aria-hidden="true"></span>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+<style>
+  /* clientstories v3 — explicit placement per photo, corner overlap only */
+  .jvg-stories { background: #fff; }
+  .jvg-stories__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 24px 80px;
+    font-family: "Open Sans", sans-serif;
+    color: var(--color-brand-brown);
+  }
+  /* header styles supplied by <SectionHeader rule /> primitive */
+
+  .jvg-stories__row {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    gap: 56px;
+    align-items: center;
+    margin-bottom: 110px;
+  }
+  .jvg-stories__row:last-child { margin-bottom: 0; }
+  .jvg-stories__row--reverse .jvg-stories__photos { order: 2; }
+
+  /* Photo stage — sized container; polaroids absolutely placed inside */
+  .jvg-stories__photos { padding: 16px 0; }
+  .jvg-stories__stage {
+    position: relative;
+    width: 100%;
+    height: var(--stage-h, 600px);
+  }
+  .jvg-stories__polaroid {
+    position: absolute;
+    top: var(--top, 0);
+    left: var(--left, 0);
+    width: var(--w, 50%);
+    margin: 0;
+    background: #fff;
+    padding: 10px 10px 14px;
+    box-shadow:
+      0 14px 28px rgba(62, 42, 20, 0.22),
+      0 4px 10px rgba(62, 42, 20, 0.16);
+    transform: rotate(var(--rot, 0deg));
+    transform-origin: center center;
+    transition: transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1), box-shadow 0.45s ease;
+  }
+  .jvg-stories__polaroid:hover {
+    transform: rotate(0deg) scale(1.05);
+    z-index: 99 !important;
+    box-shadow:
+      0 22px 40px rgba(62, 42, 20, 0.35),
+      0 8px 16px rgba(62, 42, 20, 0.22);
+  }
+  .jvg-stories__polaroid :global(img) {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: sepia(12%) contrast(1.04);
+  }
+
+  /* Cream story panel */
+  .jvg-stories__panel {
+    position: relative;
+    background: var(--color-brand-cream-light);
+    padding: 0 0 28px;
+  }
+  .jvg-stories__banner {
+    position: relative;
+    background: var(--color-brand-rust-dark);
+    padding: 22px 32px;
+    margin-left: -16px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+  }
+  .jvg-stories__name {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: clamp(24px, 3vw, 36px);
+    color: #fff;
+    margin: 0;
+    letter-spacing: 0.01em;
+    line-height: 1.1;
+    flex-shrink: 0;
+  }
+  .jvg-stories__banner-line {
+    flex: 1;
+    height: 3px;
+    background: var(--color-brand-rust);
+    margin-left: 24px;
+    margin-right: -32px;
+  }
+  .jvg-stories__body { padding: 24px 32px 8px; }
+  .jvg-stories__intro {
+    font-size: 15.5px;
+    line-height: 1.7;
+    color: var(--color-brand-brown);
+    font-weight: 600;
+    margin: 0 0 16px;
+  }
+  .jvg-stories__body p {
+    font-size: 14.5px;
+    line-height: 1.85;
+    color: var(--color-brand-brown-mid);
+    margin: 0 0 12px;
+  }
+  .jvg-stories__body p:last-child { margin-bottom: 0; }
+  .jvg-stories__bottom-rule {
+    position: absolute;
+    bottom: 0;
+    left: -16px;
+    right: -32px;
+    height: 3px;
+    background: var(--color-brand-rust);
+  }
+  .jvg-stories__row--reverse .jvg-stories__banner {
+    margin-left: 0;
+    margin-right: -16px;
+  }
+  .jvg-stories__row--reverse .jvg-stories__bottom-rule {
+    left: -32px;
+    right: -16px;
+  }
+
+  /* Mobile — switch to vertical stack with minimal rotation */
+  @media (max-width: 900px) {
+    .jvg-stories__row {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-bottom: 80px;
+    }
+    .jvg-stories__row--reverse .jvg-stories__photos { order: 0; }
+    .jvg-stories__stage {
+      height: auto;
+      min-height: 420px;
+      padding: 30px 16px 60px;
+    }
+    .jvg-stories__polaroid {
+      position: relative;
+      top: auto !important;
+      left: auto !important;
+      width: 78% !important;
+      margin: -28px auto 0;
+      transform: rotate(var(--rot, 0deg)) !important;
+    }
+    .jvg-stories__polaroid:first-child { margin-top: 0; }
+    .jvg-stories__polaroid:nth-child(odd) { margin-left: 0; margin-right: auto; }
+    .jvg-stories__polaroid:nth-child(even) { margin-left: auto; margin-right: 0; }
+    .jvg-stories__banner { margin-left: -8px; padding: 18px 24px; }
+    .jvg-stories__row--reverse .jvg-stories__banner { margin-left: 0; margin-right: -8px; }
+    .jvg-stories__banner-line { margin-right: -24px; }
+    .jvg-stories__body { padding: 20px 24px 8px; }
+    .jvg-stories__bottom-rule { left: -8px; right: -24px; }
+    .jvg-stories__row--reverse .jvg-stories__bottom-rule { left: -24px; right: -8px; }
+  }
+</style>

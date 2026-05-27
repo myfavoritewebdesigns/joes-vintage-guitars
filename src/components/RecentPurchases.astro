@@ -1,0 +1,276 @@
+---
+import { Image } from "astro:assets";
+import SectionHeader from "./primitives/SectionHeader.astro";
+import joshua from "../assets/images/joshua-with-1952-fender-telecaster.jpeg";
+import bill from "../assets/images/bill-with-1966-fender-jaguar-lake-placid-blue-scaled.jpeg";
+import jim from "../assets/images/jim-with-1972-fender-jazz-bass-scaled.jpeg";
+
+const purchases = [
+  {
+    image: joshua,
+    alt: "Joshua with his uncle's 1952 Fender Telecaster in Washington State, sold to Joe's Vintage Guitars",
+    guitar: "1952 Fender Telecaster",
+    yearLoc: "Washington State",
+    seller: "Joshua",
+    story: "This one was special enough that I flew to Washington to pick it up in person. The Telecaster belonged to Joshua's uncle, one of the earliest production Teles ever made, and it's in remarkable condition. It'll be played for decades to come.",
+    verified: "Verified Purchase · Washington",
+  },
+  {
+    image: bill,
+    alt: "Bill with his 1966 Fender Jaguar in Lake Placid Blue, sold to Joe's Vintage Guitars",
+    guitar: "1966 Fender Jaguar",
+    yearLoc: "Lake Placid Blue · Original Finish",
+    seller: "Bill",
+    story: "Bill's father bought him this 1966 Jaguar in the rare Lake Placid Blue finish when he was young. Decades later, it came to me in beautiful original condition. Custom color Fenders from this era are significantly rarer than their sunburst siblings, and that rarity translates directly to price.",
+    verified: "Verified Purchase · Original Color",
+  },
+  {
+    image: jim,
+    alt: "Jim with the 1972 Fender Jazz Bass he owned for 40 years before selling to Joe's Vintage Guitars",
+    guitar: "1972 Fender Jazz Bass",
+    yearLoc: "40 Years · One Owner · Near Mint",
+    seller: "Jim",
+    story: "Jim owned this 1972 Jazz Bass for 40 years and kept it in near-mint condition. That's a genuine rarity for an instrument of that age. He also happens to have one of the finest moustaches of any seller I've ever worked with.",
+    verified: "Verified Purchase · 40-Year Single Owner",
+  },
+];
+---
+
+<section class="bg-white">
+  <div style="padding: 60px 24px 32px;">
+    <SectionHeader
+      eyebrow="Recent Buys"
+      title="Guitars We've Recently Bought and the Sellers Behind Them"
+      id="recent-purchases"
+    />
+  </div>
+
+  <div class="jvg-purchases">
+    <p class="jvg-purchases__intro">
+      Every guitar that comes through Joe's Vintage Guitars has a story behind it. Here are a few of the sellers I've worked with recently, and the instruments they brought to me. From a 1952 Telecaster that flew across the country to a near-mint Jazz Bass that spent 40 years with one owner, these are the kinds of guitars I'm working with every day.
+    </p>
+
+    <div class="jvg-purchases__grid">
+      {purchases.map((p) => (
+        <article class="jvg-purchases__card">
+          <div class="jvg-purchases__photo">
+            <Image
+              src={p.image}
+              alt={p.alt}
+              widths={[400, 600, 900]}
+              sizes="(max-width: 800px) 100vw, 400px"
+            />
+            <div class="jvg-purchases__tag">
+              <span class="jvg-purchases__guitar">{p.guitar}</span>
+              <span class="jvg-purchases__year-loc">{p.yearLoc}</span>
+            </div>
+          </div>
+          <div class="jvg-purchases__body">
+            <span class="jvg-purchases__seller">{p.seller}</span>
+            <p class="jvg-purchases__story">{p.story}</p>
+            <div class="jvg-purchases__footer">
+              <span class="jvg-purchases__verified">{p.verified}</span>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <div class="jvg-purchases__cta">
+      <p>
+        <strong>Your Guitar Has a Story Too</strong>
+        Whether it's been in your family for decades or you just inherited it, Joe would love to hear about it and make you a fair offer.
+      </p>
+      <a href="/contact-me/">Get a Free Offer</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .jvg-purchases {
+    --brown: var(--color-brand-brown);
+    --rust: var(--color-brand-rust);
+    --gold: var(--color-brand-gold);
+    --cream: var(--color-brand-vanilla);
+    --parch: var(--color-brand-cream-light);
+    --muted: var(--color-brand-brown-muted);
+    --border: rgba(62, 42, 20, 0.12);
+    font-family: "Open Sans", sans-serif;
+    color: var(--brown);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+    box-sizing: border-box;
+  }
+  .jvg-purchases *, .jvg-purchases ::before { box-sizing: border-box; }
+  .jvg-purchases__intro {
+    font-size: 15.5px;
+    line-height: 1.75;
+    color: var(--muted);
+    max-width: 720px;
+    margin: 0 0 48px;
+  }
+  .jvg-purchases__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .jvg-purchases__card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid var(--border);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .jvg-purchases__card:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(62, 42, 20, 0.1); }
+  .jvg-purchases__photo {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 3 / 4;
+  }
+  .jvg-purchases__photo :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+    transition: transform 0.5s ease;
+    filter: sepia(8%) contrast(1.03);
+  }
+  .jvg-purchases__card:hover .jvg-purchases__photo :global(img) { transform: scale(1.04); }
+  .jvg-purchases__tag {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(62, 42, 20, 0.88) 0, rgba(62, 42, 20, 0) 100%);
+    padding: 32px 16px 14px;
+  }
+  .jvg-purchases__guitar {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-brand-cream);
+    display: block;
+    line-height: 1.2;
+  }
+  .jvg-purchases__year-loc {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 3px;
+  }
+  .jvg-purchases__body {
+    padding: 18px 20px 22px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .jvg-purchases__seller {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--rust);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .jvg-purchases__seller::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 2px;
+    background: var(--gold);
+    flex-shrink: 0;
+  }
+  .jvg-purchases__story {
+    font-size: 13.5px;
+    line-height: 1.75;
+    color: var(--color-brand-brown-mid);
+    margin: 0;
+    flex: 1;
+  }
+  .jvg-purchases__footer {
+    margin-top: 10px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .jvg-purchases__verified {
+    font-family: "Oswald", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .jvg-purchases__verified::before { content: "✦ "; color: var(--gold); }
+
+  .jvg-purchases__cta {
+    margin-top: 52px;
+    background: var(--parch);
+    border-left: 4px solid var(--rust);
+    padding: 22px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .jvg-purchases__cta p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--brown);
+    max-width: 620px;
+  }
+  .jvg-purchases__cta strong {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .jvg-purchases__cta a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-decoration: none !important;
+    background: var(--rust);
+    padding: 13px 24px;
+    white-space: nowrap;
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+  .jvg-purchases__cta a:hover { background: var(--brown); }
+  .jvg-purchases__cta a::after { content: "→"; }
+
+  @media (max-width: 900px) {
+    .jvg-purchases__grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .jvg-purchases__grid { grid-template-columns: 1fr; gap: 20px; }
+    .jvg-purchases__photo { aspect-ratio: 4 / 3; }
+    .jvg-purchases__cta { flex-direction: column; align-items: flex-start; padding: 18px; }
+    .jvg-purchases__cta a { width: 100%; justify-content: center; }
+    .jvg-purchases { padding: 0 14px 60px; }
+  }
+</style>

@@ -1,0 +1,316 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import FloatingCTAs from "../components/FloatingCTAs.astro";
+import { SITE_URL, SITE_NAME, LEGAL_NAME, contact, socialSameAs } from "../config/site";
+
+interface Props {
+  /** Page title (defaults to homepage title). Sets <title> and og:title. */
+  title?: string;
+  /** Meta description. Sets <meta name="description">, og:description, and twitter:description. */
+  description?: string;
+  /** Path or full URL for the canonical link. Defaults to `${SITE_URL}${Astro.url.pathname}`. */
+  canonical?: string;
+  /** Open Graph image URL. Defaults to the homepage featured image. */
+  ogImage?: string;
+  ogImageAlt?: string;
+  ogImageWidth?: number;
+  ogImageHeight?: number;
+  /** OG type. Defaults to "website". Use "article" for blog posts. */
+  ogType?: "website" | "article" | "product";
+  /** Hide from search engines (set noindex). */
+  noIndex?: boolean;
+  /** Page-specific JSON-LD schema(s) to inject in addition to the global Organization schema. */
+  structuredData?: Record<string, unknown> | Record<string, unknown>[];
+  /** ISO date string for article:modified_time (defaults to build time). */
+  modifiedTime?: string;
+  /** ISO date string for article:published_time. */
+  publishedTime?: string;
+}
+
+const {
+  title = "Joe's Vintage Guitars | We Buy Vintage Guitars Nationwide",
+  description = "Sell your vintage guitar the easy way with Joe's Vintage Guitars. Get a free evaluation and get top dollar for your guitar today! Same day payment!",
+  canonical,
+  ogImage = `${SITE_URL}/images/homepage-featured-image.jpg`,
+  ogImageAlt = "Joe's Vintage Guitars — buying and collecting vintage guitars nationwide",
+  ogImageWidth = 1200,
+  ogImageHeight = 1200,
+  ogType = "website",
+  noIndex = false,
+  structuredData,
+  modifiedTime,
+  publishedTime,
+} = Astro.props;
+
+const canonicalUrl = canonical
+  ? (canonical.startsWith("http") ? canonical : `${SITE_URL}${canonical}`)
+  : `${SITE_URL}${Astro.url.pathname}`;
+
+// Global Organization / ProfessionalService schema — appears on every page.
+// Source: live site JSON-LD #2 (jsonld-2.json in /reference)
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": `${SITE_URL}/`,
+  url: `${SITE_URL}/`,
+  sameAs: socialSameAs,
+  logo: `${SITE_URL}/images/joes-vintage-guitars-logo.jpg`,
+  name: SITE_NAME,
+  legalName: LEGAL_NAME,
+  description:
+    "Joe's Vintage Guitars specializes in purchasing and collecting vintage guitars and other stringed instruments. With years of expertise, Joe Dampt offers top cash for renowned brands like Fender and Gibson.",
+  numberOfEmployees: { "@type": "QuantitativeValue", value: 1 },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    bestRating: "5",
+    worstRating: "1",
+    ratingCount: "405",
+    ratingValue: "5",
+  },
+  priceRange: "$$$$",
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "00:00",
+      closes: "23:59",
+    },
+  ],
+  telephone: contact.telDashed,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: contact.address.street,
+    addressLocality: contact.address.city,
+    addressRegion: contact.address.region,
+    postalCode: contact.address.postalCode,
+    addressCountry: contact.address.country,
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: contact.telDashed,
+    contactType: "Customer Support",
+    email: contact.email,
+    areaServed: ["US", "CA"],
+    availableLanguage: ["English"],
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: contact.address.lat,
+    longitude: contact.address.lng,
+  },
+};
+
+// WebSite schema — also global
+const siteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${SITE_URL}/#website`,
+  url: `${SITE_URL}/`,
+  name: SITE_NAME,
+  alternateName: "Joe's Vintage Guitars",
+  publisher: { "@id": `${SITE_URL}/` },
+  inLanguage: "en-US",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: `${SITE_URL}/?s={search_term_string}`,
+    "query-input": "required name=search_term_string",
+  },
+};
+
+// MusicStore + Organization (live combines these into one node) and a
+// separate LocalBusiness schema. Splitting matches the live audit's
+// per-type breakdown rather than collapsing into a multi-type array.
+const musicStoreOrgSchema = {
+  "@context": "https://schema.org",
+  "@type": ["MusicStore", "Organization"],
+  "@id": `${SITE_URL}/#musicstore`,
+  name: SITE_NAME,
+  legalName: LEGAL_NAME,
+  url: `${SITE_URL}/`,
+  telephone: contact.telDashed,
+  priceRange: "$$$$",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: contact.address.street,
+    addressLocality: contact.address.city,
+    addressRegion: contact.address.region,
+    postalCode: contact.address.postalCode,
+    addressCountry: contact.address.country,
+  },
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `${SITE_URL}/#localbusiness`,
+  name: SITE_NAME,
+  url: `${SITE_URL}/`,
+  telephone: contact.telDashed,
+  priceRange: "$$$$",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: contact.address.street,
+    addressLocality: contact.address.city,
+    addressRegion: contact.address.region,
+    postalCode: contact.address.postalCode,
+    addressCountry: contact.address.country,
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: contact.address.lat,
+    longitude: contact.address.lng,
+  },
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "United States" },
+    { "@type": "AdministrativeArea", name: "Canada" },
+  ],
+};
+
+// Place schema for the physical location (matches live)
+const placeSchema = {
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "@id": `${SITE_URL}/#place`,
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: contact.address.lat,
+    longitude: contact.address.lng,
+  },
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: contact.address.street,
+    addressLocality: contact.address.city,
+    addressRegion: contact.address.region,
+    postalCode: contact.address.postalCode,
+    addressCountry: contact.address.country,
+  },
+};
+
+// Service schemas — what Joe offers
+const serviceSchemas = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Vintage guitar appraisal",
+    provider: { "@id": `${SITE_URL}/#localbusiness` },
+    areaServed: { "@type": "AdministrativeArea", name: "United States" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Vintage guitar purchasing",
+    provider: { "@id": `${SITE_URL}/#localbusiness` },
+    areaServed: { "@type": "AdministrativeArea", name: "United States" },
+  },
+];
+
+const allSchemas: Record<string, unknown>[] = [
+  orgSchema,
+  siteSchema,
+  musicStoreOrgSchema,
+  localBusinessSchema,
+  placeSchema,
+  ...serviceSchemas,
+];
+if (structuredData) {
+  if (Array.isArray(structuredData)) allSchemas.push(...structuredData);
+  else allSchemas.push(structuredData);
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {noIndex
+      ? <meta name="robots" content="noindex, nofollow" />
+      : <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+    }
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Favicons -->
+    <link rel="icon" href="/images/favicon.png" type="image/png" />
+
+    <!-- Font preloads (Oswald is used everywhere; Margi is only loaded on demand via @font-face) -->
+    <link rel="preload" href="/fonts/Oswald-SemiBold.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:secure_url" content={ogImage} />
+    <meta property="og:image:width" content={String(ogImageWidth)} />
+    <meta property="og:image:height" content={String(ogImageHeight)} />
+    <meta property="og:image:alt" content={ogImageAlt} />
+    <meta property="og:image:type" content="image/jpeg" />
+    {publishedTime && <meta property="article:published_time" content={publishedTime} />}
+    {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <!-- RSS alternates -->
+    <link rel="alternate" type="application/rss+xml" title="Joe's Vintage Guitars » Feed" href={`${SITE_URL}/feed/`} />
+
+    <!-- JSON-LD structured data -->
+    {allSchemas.map((schema) => (
+      <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
+    ))}
+
+    <!-- Per-page <head> additions (CDN links, custom-element scripts, page-specific
+         meta, etc.). Pages add via `<link slot="head" ...>` or `<script slot="head" ...>` -->
+    <slot name="head" />
+  </head>
+  <body class="min-h-screen overflow-x-hidden">
+    <!-- Skip to content link for keyboard / screen reader users -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <Header />
+
+    <main id="main-content">
+      <slot />
+    </main>
+
+    <Footer />
+    <FloatingCTAs />
+
+    <!-- Shared submit handler for any <form data-jvg-contact-form>. -->
+    <!-- One place to wire Mailgun when the CF Pages Function is added. -->
+    <script src="../scripts/contact-form.ts"></script>
+  </body>
+</html>
+
+<style is:global>
+  .skip-link {
+    position: absolute;
+    left: 8px;
+    top: -40px;
+    z-index: 100;
+    padding: 8px 16px;
+    background: #682412;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0 0 4px 4px;
+    transition: top 0.2s;
+  }
+  .skip-link:focus {
+    top: 0;
+    outline: 3px solid #c8983a;
+  }
+</style>

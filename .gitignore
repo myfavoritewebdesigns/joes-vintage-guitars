@@ -1,0 +1,68 @@
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+.env.local
+.env.*.local
+
+# macOS-specific files
+.DS_Store
+
+# JetBrains
+.idea/
+
+# VS Code (keep settings.json if a project ships it, but for now exclude;
+# the .vscode/launch.json here is for local-only Claude Preview MCP wiring)
+.vscode/
+
+# Wrangler / Cloudflare local
+.wrangler/
+.dev.vars
+
+# Loose audit screenshots at the project root (`.f*-live.png`, `.foot-mine-*.png`
+# etc.) accumulated from prior visual-audit sessions. Keep locally for reference
+# but don't ship — they're 100KB-500KB each, not deliverables.
+.f*.png
+.foot*.png
+.audit*.png
+
+# Playwright MCP working dir (per-session screenshots, gigabytes if not pruned)
+.playwright-mcp/
+
+# Anthropic / Claude scratch
+.claude-tasks/
+
+# Audit report JSON dumps — the matching .md companions in the same dir are
+# the human-readable canonical copies. The .json files are 5-10K lines of
+# machine-readable detail that regenerates every audit run.
+reports/a11y/*.json
+reports/**/audit-screenshots-raw/
+reports/screenshots/**/*.png
+reports/screenshots/**/*.jpg
+
+# OS junk
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Editor swap files
+*.swp
+*.swo
+*~
+
+# Lockfile policy: KEEP package-lock.json (deterministic builds for CF Pages
+# + the team). Do NOT ignore it.

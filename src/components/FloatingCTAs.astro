@@ -1,0 +1,27 @@
+---
+import { hrefs, phoneIconPath, mailIconPath, smsIconPath } from "../config/site";
+---
+
+<aside class="fixed bottom-6 right-4 z-40 flex flex-col gap-3" aria-label="Quick contact">
+  <a
+    href={hrefs.sms}
+    aria-label="Text us"
+    class="flex h-12 w-12 items-center justify-center rounded-full bg-brand-rust-bright text-white shadow-lg transition hover:bg-brand-rust-dark"
+  >
+    <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current"><path d={smsIconPath} /></svg>
+  </a>
+  <a
+    href={hrefs.tel}
+    aria-label="Call us"
+    class="flex h-12 w-12 items-center justify-center rounded-full bg-brand-rust-bright text-white shadow-lg transition hover:bg-brand-rust-dark"
+  >
+    <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current"><path d={phoneIconPath} /></svg>
+  </a>
+  <a
+    href={hrefs.mailto}
+    aria-label="Email us"
+    class="flex h-12 w-12 items-center justify-center rounded-full bg-brand-rust-bright text-white shadow-lg transition hover:bg-brand-rust-dark"
+  >
+    <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current"><path d={mailIconPath} /></svg>
+  </a>
+</aside>

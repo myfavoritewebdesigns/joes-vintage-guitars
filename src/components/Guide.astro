@@ -1,0 +1,485 @@
+---
+const prepareSelf = [
+  { strong: "Research the market value.", body: "Spend time on Reverb, eBay sold listings, and guitar forums to understand what comparable instruments have actually sold for, not what sellers are asking." },
+  { strong: "Take a full set of high-quality photos.", body: "Buyers expect 15 to 25 clear images covering the front, back, headstock, serial number, frets, tuners, pickups, electronics, case, and any wear or repairs. Poor photos kill sales." },
+  { strong: "Have the guitar evaluated by a technician.", body: "A guitar tech can document the condition, identify hidden issues, and verify originality, all of which affect your asking price and buyer confidence." },
+  { strong: "Consider a professional setup.", body: "Most buyers expect a vintage guitar to be playable. A full setup (fret leveling, nut work, intonation) can run $80 to $200, and you may or may not recover that in your sale price." },
+  { strong: "Address any repairs.", body: "Loose braces, faulty electronics, tuner issues, or finish cracks should be disclosed, and if they affect playability, repaired before listing. If you don't repair them, factor them heavily into your price." },
+  { strong: "Write a detailed, accurate listing.", body: "Experienced vintage buyers expect thorough descriptions including year, specs, finish, neck profile, weight, all known repairs, and provenance. Missing details invite low offers and skepticism." },
+  { strong: "Wait for the right buyer.", body: "Vintage guitars can sit on the market for weeks or months depending on the instrument, season, and platform. Meanwhile your money is tied up." },
+];
+
+const prepareJoe = [
+  { strong: "Take three photos on your phone.", body: "Front, back, and headstock is enough to get started. You don't need professional lighting, a special setup, or 25 angles." },
+  { strong: "Send them to Joe.", body: "Text or email the photos directly. Joe will respond with an honest assessment and a fair offer, typically within 24 hours." },
+  { strong: "Accept or decline.", body: "No pressure. If you like the offer, Joe handles everything from there. If you don't, there's no obligation." },
+  { strong: "No setup or repairs needed.", body: "Joe buys guitars as-is. He handles all repairs and setups in-house. You don't need to spend money preparing an instrument before selling it." },
+  { strong: "Get paid the same day.", body: "Once you accept, payment is sent immediately. You're not waiting on a buyer, dealing with payment holds, or worrying about a dispute later." },
+];
+
+const shipSelf = [
+  { strong: "Detune the strings.", body: "Before packing, detune all strings to relieve tension on the neck during transit. Temperature and pressure changes in cargo holds can cause significant neck movement under full string tension." },
+  { strong: "Pack the headstock carefully.", body: "The headstock is the most commonly broken part in transit. It should be individually wrapped in bubble wrap and braced so it cannot move independently inside the case." },
+  { strong: "Use a hard case, then box it.", body: "The guitar should be in a hard case, which then goes inside a purpose-built guitar shipping box (or a double-walled cardboard box) with at least 3 inches of packing material on all sides." },
+  { strong: "Photograph your packing job.", body: "Before sealing the box, photograph every layer of packing as proof of how the guitar was shipped. That documentation is essential if you end up filing a damage claim." },
+  { strong: "Purchase third-party shipping insurance.", body: "Standard carrier insurance typically doesn't cover musical instruments adequately. You'll need a specialist policy. Most sellers use a third-party insurer like Heritage or add a rider to their homeowner's policy." },
+  { strong: "Choose the right carrier.", body: "FedEx and UPS are preferred for vintage instruments. USPS and standard ground services are generally not recommended for high-value guitars." },
+  { strong: "Get a signature on delivery.", body: "Always require a signature confirmation on delivery for any instrument worth over a few hundred dollars. Without it, \"delivered\" is the end of your recourse if something goes wrong." },
+];
+
+const shipJoe = [
+  { strong: "Take it to any FedEx location.", body: "Give them Joe's account number. That's the whole thing. FedEx packs the guitar professionally, ships it, and bills Joe directly. You don't need to print a label or supply your own packaging." },
+  { strong: "Get paid when you drop it off.", body: "Once FedEx has the guitar in hand, payment goes out. You don't wait for it to arrive at Joe's shop, and there's no post-arrival inspection period. Your money is on its way before you leave the parking lot." },
+  { strong: "Your liability ends at the door.", body: "The moment you hand the guitar to FedEx, the transaction is complete. From there, the tracking, the shipping risk, and the wait for delivery confirmation are all Joe's to handle. It's done." },
+  { strong: "Full insurance is covered by Joe.", body: "Every shipment is fully insured through transit at Joe's expense. If anything happens in shipping, that's on Joe to resolve, not on you." },
+];
+
+type PillVariant = "good" | "bad" | "mid";
+type Cell = { html: string };
+type Row = {
+  label: string;
+  ebay: Cell;
+  reverb: Cell;
+  cl: Cell;
+  pawn: Cell;
+  joe: Cell;
+};
+
+const pill = (txt: string, v: PillVariant) =>
+  `<span class="jvg-guide__pill jvg-guide__pill--${v}">${txt}</span>`;
+
+const chartRows: Row[] = [
+  {
+    label: "Seller Fees",
+    ebay: { html: "~13.25% final value fee plus PayPal/payment fees" },
+    reverb: { html: "5% selling fee on total sale (including shipping), capped at $500, plus 3.19% + $0.49 payment processing. Free to list." },
+    cl: { html: `${pill("None", "good")} but cash-only risk` },
+    pawn: { html: `${pill("None", "bad")}, but the offer reflects their resale margin (typically 40 to 60% of retail)` },
+    joe: { html: `${pill("Zero fees", "good")}. What Joe offers is what you receive.` },
+  },
+  {
+    label: "Speed of Sale",
+    ebay: { html: "Days to weeks depending on listing format and demand" },
+    reverb: { html: "Days to months. Vintage guitars can sit a while." },
+    cl: { html: `${pill("Variable", "mid")}: fast if local demand exists, slow otherwise` },
+    pawn: { html: `${pill("Same day", "good")}, but at a significant price discount` },
+    joe: { html: `${pill("Same day", "good")}. Offer within 24 hours, payment on acceptance.` },
+  },
+  {
+    label: "Who Sets the Price",
+    ebay: { html: "You, but market pressure and buyer offers drive the final price down" },
+    reverb: { html: "You, but low offers and \"watchers\" are common" },
+    cl: { html: "You, but lowball offers are the norm" },
+    pawn: { html: "The dealer, based on what they can resell it for" },
+    joe: { html: "Joe, based on real current market value, not resale margin" },
+  },
+  {
+    label: "Buyer Dispute Risk",
+    ebay: { html: `${pill("High", "bad")}. eBay heavily favors buyers. "Not as described" claims can result in forced returns even months after sale, with the seller bearing return shipping costs.` },
+    reverb: { html: `${pill("Medium to High", "bad")}. Reverb's buyer protection policy can side with buyers in disputes even when seller descriptions were accurate. Buyer's remorse returns do happen.` },
+    cl: { html: `${pill("Low", "mid")}. Cash sales are final, but scams, counterfeit bills, and safety risks are real considerations for high-value instruments.` },
+    pawn: { html: `${pill("None", "good")}. Once sold, it's sold. No disputes.` },
+    joe: { html: `${pill("None", "good")}. Joe assumes all risk once he makes an offer. No chargebacks, no returns, no disputes.` },
+  },
+  {
+    label: "Expertise of Buyer",
+    ebay: { html: "Unknown. Buyers range from serious collectors to casual buyers who may later claim misrepresentation." },
+    reverb: { html: "Generally higher than eBay, but still variable" },
+    cl: { html: "Unknown and unverifiable" },
+    pawn: { html: "Variable. General pawn shops rarely have vintage guitar expertise." },
+    joe: { html: "12+ years, 10,000+ instruments appraised. Joe will know exactly what you have." },
+  },
+  {
+    label: "Shipping Responsibility",
+    ebay: { html: "Seller packs, ships, insures, and bears risk if damaged in transit" },
+    reverb: { html: "Seller packs, ships, insures, and bears risk if damaged in transit" },
+    cl: { html: "Local pickup, no shipping required" },
+    pawn: { html: "You bring it in. No shipping required." },
+    joe: { html: "Joe provides his FedEx account number. FedEx packs it, ships it, and insures it at Joe's expense. You get paid at drop-off. Your liability ends the moment you leave the store." },
+  },
+  {
+    label: "Best For",
+    ebay: { html: "Common, lower-value instruments where fees are a smaller percentage of sale price" },
+    reverb: { html: "Mid-range vintage guitars where the buyer base is knowledgeable and the seller has time to wait" },
+    cl: { html: "Lower-value, easy-to-move instruments where convenience matters more than price" },
+    pawn: { html: "Situations where speed is the only priority and price is secondary" },
+    joe: { html: "Rare, valuable, or sentimental instruments where fair value, expertise, and a smooth process matter" },
+  },
+];
+---
+
+<section class="jvg-outer">
+  <div class="jvg-guide">
+    <div class="jvg-guide__block">
+      <h3 id="prepare" class="jvg-guide__block-h3">How to Prepare to Sell Your Guitar</h3>
+      <p class="jvg-guide__block-intro">
+        If you plan to sell your vintage guitar yourself, whether locally, on Reverb, or on eBay, there's a standard set of steps most experienced sellers recommend before listing. That's especially true for higher-value instruments like a pre-CBS Fender Stratocaster, a 1950s Gibson Les Paul, or a pre-war Martin D-28, where originality and condition are what drive the price. With vintage guitars, buyers can't physically inspect what you're selling. That means everything they decide is based on your documentation and your photos, and the burden of getting it right falls entirely on you. Cutting corners here usually results in lower offers, skeptical buyers, or a sale that gets disputed weeks later. Here's what the full preparation process actually looks like, and how it compares to selling directly to Joe.
+      </p>
+      <div class="jvg-guide__contrast">
+        <div class="jvg-guide__col">
+          <div class="jvg-guide__col-head">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+              <circle cx="7.5" cy="7.5" r="6.5" stroke="#eedfc0" stroke-width="1.2" />
+              <path d="M7.5 4v4l2.5 1.5" stroke="#eedfc0" stroke-width="1.2" stroke-linecap="round" />
+            </svg>
+            Selling It Yourself
+          </div>
+          <div class="jvg-guide__col-body">
+            <ul class="jvg-guide__steps">
+              {prepareSelf.map((s, i) => (
+                <li>
+                  <span class="jvg-guide__step-num">{i + 1}</span>
+                  <span><strong>{s.strong}</strong> {s.body}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div class="jvg-guide__col">
+          <div class="jvg-guide__col-head jvg-guide__col-head--joe">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+              <path d="M3 7.5l3 3 6-6" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Selling to Joe's Vintage Guitars
+          </div>
+          <div class="jvg-guide__col-body">
+            <ul class="jvg-guide__steps">
+              {prepareJoe.map((s, i) => (
+                <li>
+                  <span class="jvg-guide__step-num jvg-guide__step-num--joe">{i + 1}</span>
+                  <span><strong>{s.strong}</strong> {s.body}</span>
+                </li>
+              ))}
+            </ul>
+            <div class="jvg-guide__joe-note">
+              There's nothing to list and no commission to pay. Send a few photos and see what Joe offers. If it works for you, the rest is straightforward.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="jvg-guide__divider" />
+
+    <div class="jvg-guide__block">
+      <h3 id="shipping" class="jvg-guide__block-h3">How to Ship Your Guitar Once It's Sold</h3>
+      <p class="jvg-guide__block-intro">
+        Shipping a vintage guitar safely is one of the most underestimated parts of selling one. It's also one of the most common places things go wrong. The headstock is the single most frequently broken component in transit, usually because of inadequate bracing inside the case. Beyond physical damage, most sellers don't realize that standard carrier declared value coverage explicitly limits or excludes claims on musical instruments in many circumstances, particularly when damage is attributed to "inadequate packaging." For any guitar worth more than $1,000, that standard coverage is rarely enough on its own. Done correctly, shipping a vintage guitar takes specific materials, methodical packing, third-party insurance, and proper documentation. Most sellers who've done it once are relieved to never have to do it again.
+      </p>
+      <div class="jvg-guide__contrast">
+        <div class="jvg-guide__col">
+          <div class="jvg-guide__col-head">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+              <circle cx="7.5" cy="7.5" r="6.5" stroke="#eedfc0" stroke-width="1.2" />
+              <path d="M7.5 4v4l2.5 1.5" stroke="#eedfc0" stroke-width="1.2" stroke-linecap="round" />
+            </svg>
+            Shipping It Yourself
+          </div>
+          <div class="jvg-guide__col-body">
+            <ul class="jvg-guide__steps">
+              {shipSelf.map((s, i) => (
+                <li>
+                  <span class="jvg-guide__step-num">{i + 1}</span>
+                  <span><strong>{s.strong}</strong> {s.body}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div class="jvg-guide__col">
+          <div class="jvg-guide__col-head jvg-guide__col-head--joe">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+              <path d="M3 7.5l3 3 6-6" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Selling to Joe's Vintage Guitars
+          </div>
+          <div class="jvg-guide__col-body">
+            <ul class="jvg-guide__steps">
+              {shipJoe.map((s, i) => (
+                <li>
+                  <span class="jvg-guide__step-num jvg-guide__step-num--joe">{i + 1}</span>
+                  <span><strong>{s.strong}</strong> {s.body}</span>
+                </li>
+              ))}
+            </ul>
+            <div class="jvg-guide__joe-note">
+              You don't print a label, buy a box, or pack anything. You drop the guitar at FedEx, payment goes out, and the transaction is done. Your part is finished the moment it leaves your hands.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="jvg-guide__divider" />
+
+    <div class="jvg-guide__block">
+      <h3 id="where-to-sell" class="jvg-guide__block-h3">Other Places to Sell Your Vintage Guitar</h3>
+      <p class="jvg-guide__block-intro">
+        There's no single right answer to where you should sell a vintage guitar. The best option depends on the instrument, your timeline, and how much risk you want to take on. A $400 student-grade acoustic and a $12,000 Jazzmaster from the 60s are not the same selling problem. Platforms like eBay and Reverb have buyer protection policies that, in practice, heavily favor the buyer in the event of a dispute, including disputes that amount to little more than buyer's remorse. The chart below compares the options honestly so you can decide what fits your situation.
+      </p>
+      <div class="jvg-guide__chart-wrap">
+        <table class="jvg-guide__chart">
+          <thead>
+            <tr>
+              <th></th>
+              <th>eBay</th>
+              <th>Reverb</th>
+              <th>Craigslist / FB Marketplace</th>
+              <th>Local Dealer / Pawn</th>
+              <th class="joe-col">Joe's Vintage Guitars</th>
+            </tr>
+          </thead>
+          <tbody>
+            {chartRows.map((r) => (
+              <tr>
+                <th scope="row">{r.label}</th>
+                <td data-label="eBay" set:html={r.ebay.html} />
+                <td data-label="Reverb" set:html={r.reverb.html} />
+                <td data-label="Craigslist / FB" set:html={r.cl.html} />
+                <td data-label="Local Dealer / Pawn" set:html={r.pawn.html} />
+                <td class="joe-col" data-label="Joe's Vintage Guitars" set:html={r.joe.html} />
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="jvg-guide__chart-note">* Platform fees and policies are subject to change. eBay and Reverb buyer protection policies have historically favored buyers in disputes, including cases of buyer's remorse. Always review current terms before listing.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .jvg-outer { background: #fff; padding-top: 60px; }
+  .jvg-guide {
+    --brown: var(--color-brand-brown);
+    --rust: var(--color-brand-rust);
+    --gold: var(--color-brand-gold);
+    --cream: var(--color-brand-vanilla);
+    --parch: var(--color-brand-cream-light);
+    --muted: var(--color-brand-brown-muted);
+    --border: rgba(62, 42, 20, 0.12);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--brown);
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 80px;
+    box-sizing: border-box;
+  }
+  .jvg-guide *, .jvg-guide ::before { box-sizing: border-box; }
+  .jvg-guide__block { margin-bottom: 72px; width: 100%; }
+  .jvg-guide__block-h3 {
+    font-family: "Oswald", sans-serif !important;
+    font-weight: 600 !important;
+    font-size: clamp(20px, 3vw, 32px) !important;
+    color: var(--brown) !important;
+    margin: 0 0 6px !important;
+    line-height: 1.2 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .jvg-guide__block-intro {
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--muted);
+    width: 100%;
+    max-width: 740px;
+    margin: 0 0 32px;
+  }
+  .jvg-guide__contrast {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: start;
+    width: 100%;
+  }
+  .jvg-guide__col {
+    border: 1px solid var(--border);
+    background: #fff;
+    min-width: 0;
+    overflow: hidden;
+  }
+  .jvg-guide__col-head {
+    padding: 14px 20px;
+    background: var(--brown);
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-brand-cream);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .jvg-guide__col-head--joe { background: var(--rust); }
+  .jvg-guide__col-body { padding: 20px 22px 24px; }
+  .jvg-guide__steps {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .jvg-guide__steps li {
+    display: flex;
+    gap: 12px;
+    font-size: 14px;
+    line-height: 1.65;
+    color: var(--color-brand-brown-mid);
+    min-width: 0;
+  }
+  .jvg-guide__steps li > span:last-child { min-width: 0; }
+  .jvg-guide__step-num {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    background: var(--parch);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--brown);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+  }
+  .jvg-guide__step-num--joe { background: var(--rust); border-color: var(--rust); color: #fff; }
+  .jvg-guide__steps li strong { color: var(--brown); font-weight: 600; }
+  .jvg-guide__joe-note {
+    margin-top: 16px;
+    padding: 12px 16px;
+    background: var(--parch);
+    border-left: 3px solid var(--gold);
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--color-brand-brown);
+    font-style: italic;
+  }
+  .jvg-guide__chart-wrap { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .jvg-guide__chart {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11.5px;
+    table-layout: fixed;
+  }
+  .jvg-guide__chart thead tr { background: var(--brown); }
+  .jvg-guide__chart thead th {
+    padding: 9px 8px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-brand-cream);
+    text-align: left;
+  }
+  .jvg-guide__chart thead th:first-child { width: 13%; }
+  .jvg-guide__chart thead th:not(:first-child) { width: 17.4%; }
+  .jvg-guide__chart thead th.joe-col { background: var(--rust); color: #fff; }
+  .jvg-guide__chart tbody tr { border-bottom: 1px solid var(--border); }
+  .jvg-guide__chart tbody tr:nth-child(2n) { background: var(--cream); }
+  .jvg-guide__chart tbody tr:hover { background: var(--parch); }
+  .jvg-guide__chart td {
+    padding: 9px 8px;
+    color: var(--color-brand-brown-mid);
+    line-height: 1.5;
+    vertical-align: top;
+  }
+  .jvg-guide__chart td:first-child {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--brown);
+  }
+  .jvg-guide__chart td.joe-col {
+    background: rgba(160, 58, 30, 0.06);
+    font-weight: 600;
+    color: var(--brown);
+    border-left: 2px solid var(--rust);
+    border-right: 2px solid var(--rust);
+  }
+  .jvg-guide__chart tbody tr:last-child td.joe-col { border-bottom: 2px solid var(--rust); }
+  .jvg-guide__pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .jvg-guide__pill--good { background: #e6f4ec; color: #2e6b3e; }
+  .jvg-guide__pill--bad { background: #fbeaea; color: var(--color-brand-rust); }
+  .jvg-guide__pill--mid { background: #fef6e4; color: #8a6a10; }
+  .jvg-guide__chart-note {
+    margin-top: 14px;
+    font-size: 12.5px;
+    color: var(--muted);
+    font-style: italic;
+    line-height: 1.6;
+  }
+  .jvg-guide__divider { border: none; border-top: 1px solid var(--border); margin: 0 0 72px; }
+
+  @media (max-width: 720px) {
+    .jvg-guide { padding: 0 12px 60px; }
+    .jvg-guide__block { margin-bottom: 48px; }
+    .jvg-guide__block-intro { font-size: 14px; }
+    .jvg-guide__contrast { grid-template-columns: 1fr; gap: 16px; }
+    .jvg-guide__col:last-child { order: -1; }
+    .jvg-guide__chart-wrap { overflow-x: visible; }
+    .jvg-guide__chart { display: block !important; }
+    .jvg-guide__chart thead { display: none !important; }
+    .jvg-guide__chart tbody { display: block !important; }
+    .jvg-guide__chart tr { display: block !important; }
+    .jvg-guide__chart tbody tr {
+      border: 1px solid var(--border) !important;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      overflow: hidden;
+      background: #fff !important;
+    }
+    .jvg-guide__chart tbody td:first-child {
+      background: var(--brown) !important;
+      color: var(--color-brand-cream) !important;
+      font-family: "Oswald", sans-serif !important;
+      font-weight: 600 !important;
+      font-size: 11px !important;
+      letter-spacing: 0.1em !important;
+      text-transform: uppercase !important;
+      padding: 10px 14px !important;
+      display: block !important;
+    }
+    .jvg-guide__chart tbody td {
+      padding: 10px 14px !important;
+      border: none !important;
+      border-bottom: 1px solid var(--border) !important;
+      font-size: 13px !important;
+      line-height: 1.6 !important;
+      display: block !important;
+    }
+    .jvg-guide__chart tbody td:last-child { border-bottom: none !important; }
+    .jvg-guide__chart tbody td::before {
+      content: attr(data-label);
+      display: block;
+      font-family: "Oswald", sans-serif;
+      font-weight: 600;
+      font-size: 9px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--rust);
+      margin-bottom: 4px;
+    }
+    .jvg-guide__chart tbody td:first-child::before { display: none !important; }
+    .jvg-guide__chart tbody td.joe-col {
+      border-left: 3px solid var(--rust) !important;
+      background: rgba(160, 58, 30, 0.04) !important;
+    }
+  }
+</style>

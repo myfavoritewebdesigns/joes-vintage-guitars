@@ -1,0 +1,292 @@
+<div class="fsn-tool">
+    <div class="fsn-header">
+      <p class="fsn-eyebrow">Free Tool · Joe's Vintage Guitars</p>
+      <h2>Fender Serial Number Lookup</h2>
+      <p>Decode any Fender guitar or bass serial number. American, Mexican, Japanese, and Custom Shop, 1950 to present.</p>
+      <span class="fsn-badge">Last reviewed by Joe, May 2026</span>
+    </div>
+
+    <div class="fsn-body">
+      <div class="fsn-input-row">
+        <div class="fsn-input-wrap">
+          <label for="fsn-input">Enter your serial number</label>
+          <span class="fsn-input-icon" aria-hidden="true">🔍</span>
+          <input id="fsn-input" type="text" name="fender_serial"
+            placeholder="e.g. S812345 or CZ123456"
+            autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+            inputmode="text"
+            aria-label="Fender serial number input">
+        </div>
+        <button id="fsn-btn-search" class="fsn-btn-search" type="button">
+          <span>Look Up</span> <span aria-hidden="true">→</span>
+        </button>
+      </div>
+
+      <button id="fsn-btn-reset" class="fsn-btn-reset" type="button">← New search</button>
+
+
+
+      
+      <div id="fsn-step-location" class="fsn-step fsn-hidden">
+        <p class="fsn-step-label">Step 1: Where is the serial number?</p>
+        <div class="fsn-card-grid">
+          <a class="fsn-card" data-location="neck" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/neck-plate-tool.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/neck-plate-tool.jpg" alt="Fender neck plate serial number" width="360" height="360"/>
+</picture>
+
+            <span class="fsn-card-label">Neck Plate</span>
+          </a>
+          <a class="fsn-card" data-location="bridge" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/bridge-plate-tool.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/bridge-plate-tool.jpg" alt="Fender bridge plate serial number" width="360" height="360"/>
+</picture>
+
+            <span class="fsn-card-label">Bridge Plate</span>
+          </a>
+          <a class="fsn-card" data-location="headstock" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/headstock.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/headstock.jpg" alt="Fender headstock serial number" width="360" height="240"/>
+</picture>
+
+            <span class="fsn-card-label">Headstock</span>
+          </a>
+        </div>
+      </div>
+
+      
+      <div id="fsn-step-vneck" class="fsn-step fsn-hidden">
+        <p class="fsn-step-label" id="fsn-vneck-label">Where is the V-prefix serial located?</p>
+        <div class="fsn-card-grid">
+          <a class="fsn-card" data-vloc="neckplate" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/neck-plate-tool.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/neck-plate-tool.jpg" alt="Neck plate serial location" width="360" height="360"/>
+</picture>
+
+            <span class="fsn-card-label">Neck Plate</span>
+          </a>
+          <a class="fsn-card" data-vloc="neckheel" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/fender-back-of-neck-serial-number-scaled.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/fender-back-of-neck-serial-number-scaled.jpg" alt="Back of neck heel serial location" width="360" height="240"/>
+</picture>
+
+            <span class="fsn-card-label">Back of Neck Heel</span>
+          </a>
+        </div>
+      </div>
+
+      
+      <div id="fsn-step-rneck" class="fsn-step fsn-hidden">
+        <p class="fsn-step-label">Where is the R-prefix serial located?</p>
+        <div class="fsn-card-grid">
+          <a class="fsn-card" data-rloc="neckplate" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/neck-plate-tool.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/neck-plate-tool.jpg" alt="Neck plate serial location" width="360" height="360"/>
+</picture>
+
+            <span class="fsn-card-label">Neck Plate</span>
+          </a>
+          <a class="fsn-card" data-rloc="neckheel" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/fender-back-of-neck-serial-number-scaled.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/fender-back-of-neck-serial-number-scaled.jpg" alt="Back of neck heel serial location" width="360" height="240"/>
+</picture>
+
+            <span class="fsn-card-label">Back of Neck Heel</span>
+          </a>
+        </div>
+      </div>
+
+      
+      <div id="fsn-step-sneck" class="fsn-step fsn-hidden">
+        <p class="fsn-step-label">Where is the S-prefix serial located?</p>
+        <div class="fsn-card-grid">
+          <a class="fsn-card" data-sloc="headstock" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/headstock.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/headstock.jpg" alt="Front of headstock serial location" width="360" height="240"/>
+</picture>
+
+            <span class="fsn-card-label">Front of Headstock</span>
+          </a>
+          <a class="fsn-card" data-sloc="neckheel" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/fender-back-of-neck-serial-number-scaled.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/fender-back-of-neck-serial-number-scaled.jpg" alt="Back of neck heel serial location" width="360" height="240"/>
+</picture>
+
+            <span class="fsn-card-label">Back of Neck Heel</span>
+          </a>
+        </div>
+      </div>
+
+      
+      <div id="fsn-step-bjapan" class="fsn-step fsn-hidden">
+        <p class="fsn-step-label">What does the back of the neck heel say?</p>
+        <div class="fsn-card-grid">
+          <a class="fsn-card" data-bjapan="mij" role="button" tabindex="0" style="max-width:280px;">
+            <span class="fsn-card-label" style="font-size:1rem;padding:1.5rem 1rem;">"Made in Japan"</span>
+          </a>
+          <a class="fsn-card" data-bjapan="cij" role="button" tabindex="0" style="max-width:280px;">
+            <span class="fsn-card-label" style="font-size:1rem;padding:1.5rem 1rem;">"Crafted in Japan"</span>
+          </a>
+        </div>
+      </div>
+
+      
+      <div id="fsn-step-lloc" class="fsn-step fsn-hidden">
+        <p class="fsn-step-label">Where is the L-prefix serial located?</p>
+        <div class="fsn-card-grid">
+          <a class="fsn-card" data-lloc="neckplate" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/neck-plate-tool.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/neck-plate-tool.jpg" alt="Neck plate serial location" width="360" height="360"/>
+</picture>
+
+            <span class="fsn-card-label">Neck Plate</span>
+          </a>
+          <a class="fsn-card" data-lloc="neckheel" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/fender-back-of-neck-serial-number-scaled.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/fender-back-of-neck-serial-number-scaled.jpg" alt="Back of neck heel serial location" width="360" height="240"/>
+</picture>
+
+            <span class="fsn-card-label">Back of Neck Heel</span>
+          </a>
+        </div>
+      </div>
+
+      
+      <div id="fsn-step-nloc" class="fsn-step fsn-hidden">
+        <p class="fsn-step-label">Where is the N-prefix serial located?</p>
+        <div class="fsn-card-grid">
+          <a class="fsn-card" data-nloc="headstock" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/headstock.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/headstock.jpg" alt="Headstock serial location" width="360" height="240"/>
+</picture>
+
+            <span class="fsn-card-label">Back of Headstock</span>
+          </a>
+          <a class="fsn-card" data-nloc="neckheel" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/fender-back-of-neck-serial-number-scaled.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/fender-back-of-neck-serial-number-scaled.jpg" alt="Back of neck heel serial location" width="360" height="240"/>
+</picture>
+
+            <span class="fsn-card-label">Back of Neck Heel</span>
+          </a>
+        </div>
+      </div>
+
+      
+      <div id="fsn-step-tuneck" class="fsn-step fsn-hidden">
+        <p class="fsn-step-label">What does the back of the neck heel say?</p>
+        <div class="fsn-card-grid">
+          <a class="fsn-card" data-tujapan="mij" role="button" tabindex="0" style="max-width:280px;">
+            <span class="fsn-card-label" style="font-size:1rem;padding:1.5rem 1rem;">"Made in Japan"</span>
+          </a>
+          <a class="fsn-card" data-tujapan="cij" role="button" tabindex="0" style="max-width:280px;">
+            <span class="fsn-card-label" style="font-size:1rem;padding:1.5rem 1rem;">"Crafted in Japan"</span>
+          </a>
+        </div>
+      </div>
+
+      
+      <div id="fsn-step-sjapan" class="fsn-step fsn-hidden">
+        <p class="fsn-step-label">What does the back of the neck heel say?</p>
+        <div class="fsn-card-grid">
+          <a class="fsn-card" data-sjapan="mij" role="button" tabindex="0" style="max-width:280px;">
+            <span class="fsn-card-label" style="font-size:1rem;padding:1.5rem 1rem;">"Made in Japan"</span>
+          </a>
+          <a class="fsn-card" data-sjapan="cij" role="button" tabindex="0" style="max-width:280px;">
+            <span class="fsn-card-label" style="font-size:1rem;padding:1.5rem 1rem;">"Crafted in Japan"</span>
+          </a>
+        </div>
+      </div>
+
+      
+      <div id="fsn-step-instrument" class="fsn-step fsn-hidden">
+        <p class="fsn-step-label">Step 2: Guitar or bass?</p>
+        <div class="fsn-card-grid">
+          <a class="fsn-card" data-instrument="guitar" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/guitar.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/guitar.jpg" alt="Fender Telecaster guitar" width="360" height="240"/>
+</picture>
+
+            <span class="fsn-card-label">Guitar</span>
+          </a>
+          <a class="fsn-card" data-instrument="bass" role="button" tabindex="0">
+            <picture decoding="async" loading="lazy">
+<source type="image/webp" srcset="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/bass.jpg.webp"/>
+<img decoding="async" loading="lazy" src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/bass.jpg" alt="Fender Jazz Bass" width="360" height="240"/>
+</picture>
+
+            <span class="fsn-card-label">Bass</span>
+          </a>
+        </div>
+      </div>
+
+      
+      <div id="fsn-result" class="fsn-result fsn-hidden" aria-live="polite">
+        <div class="fsn-result-header">
+          <div class="fsn-result-icon" aria-hidden="true">🎸</div>
+          <h3>Serial Number Decoded</h3>
+        </div>
+        <div class="fsn-result-body">
+          <div class="fsn-serial-pill" id="fsn-serial-pill"></div>
+          <div class="fsn-year-display">
+            <span class="fsn-year-label">Approximate Year</span>
+            <span class="fsn-year-value" id="fsn-year-value"></span>
+          </div>
+          <p class="fsn-result-note">
+            Serial number ranges are estimates. Fender production was rarely perfectly sequential. For a precise appraisal or help selling your guitar, contact
+            <a href="/" target="_blank" rel="noopener">Joe's Vintage Guitars</a>.
+            Call or text <a href="tel:+16029006635">602-900-6635</a>, or
+            <a href="/contact-me/" target="_blank" rel="noopener">contact us online</a>.
+          </p>
+          <div id="fsn-r-warning" class="fsn-warning fsn-hidden">
+            <strong>⚠️ R-Prefix Warning:</strong> R-prefix serial numbers are <strong>not a reliable dating method</strong> for Fender Custom Shop guitars. The R number is stamped when the neck blank is cut, not when the guitar is completed, so it can be years off from the actual build date. The only reliable sources are the <strong>Certificate of Authenticity (COA)</strong> or contacting the Fender Custom Shop directly.
+            <a href="/fender-guitars-serial-number-guide/#custom-shop">Read more about R-prefix serials →</a>
+          </div>
+          <div class="fsn-crossdate">
+            <p class="fsn-crossdate-title">🔍 Cross-date your guitar for a more precise year</p>
+            <ul class="fsn-crossdate-grid">
+              <li><a href="/fender-guitars-serial-number-guide/#adv-pot-codes">Pot codes (most reliable)</a></li>
+              <li><a href="/fender-guitars-serial-number-guide/#adv-neck-heel">Neck heel date stamp</a></li>
+              <li><a href="/fender-guitars-serial-number-guide/#adv-body-dates">Body cavity stamp</a></li>
+              <li><a href="/fender-guitars-serial-number-guide/#adv-pickup-dates">Pickup bobbin dating</a></li>
+              <li><a href="/fender-guitars-serial-number-guide/#adv-tuners">Tuner dating</a></li>
+              <li><a href="/fender-guitars-serial-number-guide/#adv-finish">Finish dating</a></li>
+              <li><a href="/fender-guitars-serial-number-guide/#advanced-dating">Neck profile dating</a></li>
+              <li><a href="/fender-guitars-serial-number-guide/#logo-evolution">Logo & decal dating</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+      
+      <div id="fsn-fallback" class="fsn-fallback fsn-hidden" aria-live="polite">
+        <p>We couldn't automatically decode that serial number. Some older or rare Fenders need a hands-on look. <a href="/" target="_blank" rel="noopener">Joe's Vintage Guitars</a> can help. Call or text <a href="tel:+16029006635">602-900-6635</a>, or <a href="/contact-me/" target="_blank" rel="noopener">contact us online</a>.</p>
+        <div class="fsn-crossdate">
+          <p class="fsn-crossdate-title">🔍 Try cross-dating manually</p>
+          <ul class="fsn-crossdate-grid">
+            <li><a href="/fender-guitars-serial-number-guide/#adv-pot-codes">Pot codes</a></li>
+            <li><a href="/fender-guitars-serial-number-guide/#adv-neck-heel">Neck heel stamp</a></li>
+            <li><a href="/fender-guitars-serial-number-guide/#adv-body-dates">Body cavity stamp</a></li>
+            <li><a href="/fender-guitars-serial-number-guide/#adv-pickup-dates">Pickup dating</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>

@@ -1,0 +1,226 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Margi";
+  src: url("/fonts/Margin-DEMO.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* ----- Brand palette ----- */
+  /* Creams & parchments (light surfaces) */
+  --color-brand-cream: #eedfc0;
+  --color-brand-cream-light: #f0e8d8;
+  --color-brand-cream-warm: #f0e1c1;
+  --color-brand-parchment: #f5efe3;
+  --color-brand-bone: #f5f0e8;
+  --color-brand-vanilla: #faf6ef;
+
+  /* Rusts (CTAs, accents) */
+  --color-brand-rust: #a03a1e;          /* primary rust */
+  --color-brand-rust-bright: #be4b25;   /* secondary / hover */
+  --color-brand-rust-dark: #682412;     /* deep rust, banners */
+  --color-brand-rust-darker: #612211;   /* darkest rust */
+  --color-brand-rust-amber: #aa3d1c;    /* amber-rust, contact section */
+
+  /* Browns (body text, deep tones) */
+  --color-brand-brown: #3e2a14;         /* primary heading color */
+  --color-brand-brown-warm: #4a3828;    /* warm body text */
+  --color-brand-brown-mid: #5a4a38;     /* mid brown, body text */
+  --color-brand-brown-muted: #7a6a54;   /* muted brown, labels */
+  --color-brand-brown-cool: #7a5c38;    /* subhead brown */
+  --color-brand-brown-tan: #d2b48c;     /* tan surface */
+
+  /* Gold accents */
+  --color-brand-gold: #c8983a;          /* gold accent / star color */
+
+  /* Neutrals */
+  --color-brand-charcoal: #2a2d33;
+  --color-brand-graphite: #434549;
+  --color-brand-ink: #333333;
+  --color-brand-off: #f9f9fb;
+
+  /* ----- Fonts ----- */
+  --font-display: "Oswald", "Helvetica Neue", system-ui, sans-serif;
+  --font-script: "Margi", Georgia, serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  /* ----- Container ----- */
+  --container-site: 1100px;
+}
+
+/* Base layer adjustments to match the live theme */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-brand-charcoal);
+    -webkit-font-smoothing: antialiased;
+    background: #fff;
+  }
+  h1, h2, h3, h4 {
+    font-weight: 700;
+  }
+}
+
+/* WCAG 2.3.3 — honor the user's OS-level reduced-motion preference. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ===== Image gallery primitives ===========================================
+   Use when the live site groups 2+ images as a visual comparison gallery
+   (decade prefix examples, before/after photos, era comparisons, etc.) — NOT
+   when each image is its own full-width illustrative figure.
+
+   Live's `<div class="img2">` / `<div class="img3">` / `<div class="imgwc">`
+   layout. Each `.jvg-imgwc` is a flex-column with img + caption underneath.
+   Mobile collapses to single column.
+
+   Pattern:
+     <div class="jvg-img2 jvg-img--uniform">
+       <div class="jvg-imgwc">
+         <img src="..." alt="..." loading="lazy" decoding="async" />
+         <p class="jvg-cap">76 Prefix = 1976</p>
+       </div>
+       <div class="jvg-imgwc">...</div>
+     </div>
+
+   Use `jvg-img2` for 2-up, `jvg-img3` for 3-up. With 4 images, use `jvg-img2`
+   — wraps naturally into a 2×2. With 5+, use `jvg-img3` (3 + 2 wrap).
+
+   Add `jvg-img--uniform` to force all images in the gallery to the same
+   height with object-fit: cover. Use when the gallery is a comparison
+   (multiple guitars/parts shown side-by-side); skip it when images naturally
+   vary in aspect ratio.
+   ========================================================================= */
+.jvg-img2,
+.jvg-img3 {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1.4rem 0;
+}
+.jvg-img2 { grid-template-columns: 1fr 1fr; }
+.jvg-img3 { grid-template-columns: 1fr 1fr 1fr; }
+
+.jvg-imgwc {
+  display: flex;
+  flex-direction: column;
+}
+.jvg-imgwc img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(62, 42, 20, 0.12);
+  display: block;
+}
+/* Uniform-height only applies to 2-up galleries (mirrors live's behavior).
+   3-up galleries (.jvg-img3) keep natural aspect ratios so images with
+   baked-in text overlays (logos, era labels) don't get cropped at top/bottom. */
+.jvg-img2.jvg-img--uniform .jvg-imgwc img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.jvg-cap {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--color-brand-brown-muted, #6c5238);
+  text-align: center;
+  margin: 8px 0 0;
+}
+
+/* Mobile collapses to single column */
+@media (max-width: 950px) {
+  .jvg-img3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 600px) {
+  .jvg-img2,
+  .jvg-img3 { grid-template-columns: 1fr; }
+  .jvg-img2.jvg-img--uniform .jvg-imgwc img { height: auto; }
+}
+
+/* ===== Image + description card grid =====================================
+   Use when each cell of a comparison gallery needs an image PLUS a short
+   descriptive paragraph (year range + body text) — e.g. "The Three Kluson
+   Eras" where each card shows a tuner photo + the era it represents.
+
+   Default `.jvg-comp-card img` is fixed 130px with object-fit:cover (good
+   for icon-style thumbnails). Add `.jvg-comp-card--tall` for full natural-
+   height images (good for photo-heavy galleries like Kluson, where the
+   image is the primary content and the text just labels the era).
+
+   Pattern:
+     <div class="jvg-comp-grid">
+       <div class="jvg-comp-card jvg-comp-card--tall">
+         <img src="..." alt="..." loading="lazy" decoding="async" />
+         <div class="jvg-comp-card__body">
+           <p><strong>1950 – Mid-1956.</strong> Back of the housing is...</p>
+         </div>
+       </div>
+       <!-- ...more cards... -->
+     </div>
+
+   Live equivalent: `<div class="comp-grid">` + `<div class="comp-card tall">`
+   + `<div class="cbody">`.
+   ========================================================================= */
+.jvg-comp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+  gap: 0.9rem;
+  margin: 1.1rem 0;
+}
+.jvg-comp-card {
+  background: #fff;
+  border: 1px solid rgba(160, 58, 30, 0.18);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+.jvg-comp-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+}
+.jvg-comp-card--tall img {
+  height: auto;
+  width: 100%;
+  object-fit: unset;
+  display: block;
+}
+.jvg-comp-card__body {
+  padding: 0.75rem;
+}
+.jvg-comp-card__body p {
+  font-size: 0.85rem;
+  margin: 0;
+  color: var(--color-brand-brown-warm, #4a3520);
+  line-height: 1.5;
+}
+.jvg-comp-card__body p strong { color: var(--color-brand-brown); }
+
+@media (max-width: 600px) {
+  .jvg-comp-grid { grid-template-columns: 1fr; }
+}

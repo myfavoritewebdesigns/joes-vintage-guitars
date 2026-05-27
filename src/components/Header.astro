@@ -1,0 +1,305 @@
+---
+import { Image } from "astro:assets";
+import logo from "../assets/images/logo-joe-2.png";
+import { contact, hrefs, headerSocials, primaryNav, sellMenu, idMenu, phoneIconPath } from "../config/site";
+---
+
+<header class="absolute inset-x-0 top-0 z-30">
+  <div class="mx-auto flex w-[97%] max-w-[1617px] items-start gap-4 px-2 sm:px-4">
+    <!-- Logo -->
+    <div class="flex-shrink-0 drop-shadow-[0_0_15px_rgba(0,0,0,0.9)]">
+      <a href="/" aria-label="Joe's Vintage Guitars - Home">
+        <Image
+          src={logo}
+          alt="Joe's Vintage Guitars - Preserving History One Guitar at a Time"
+          widths={[160, 220, 296]}
+          sizes="(max-width: 768px) 110px, (max-width: 1100px) 160px, 220px"
+          class="block h-auto w-[110px] sm:w-[160px] lg:w-[220px]"
+          loading="eager"
+        />
+      </a>
+    </div>
+
+    <!-- Desktop: two-row nav. Mobile: hidden, hamburger appears instead. -->
+    <div class="ml-auto hidden flex-1 flex-col items-end lg:flex">
+      <!-- Top row: socials + primary text links + Call Me CTA -->
+      <div class="flex items-center gap-5 pt-5 text-white">
+        <ul class="flex items-center gap-2">
+          {headerSocials.map((s) => (
+            <li>
+              <a
+                href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={s.label}
+                class="inline-flex h-7 w-7 items-center justify-center rounded-full border-2 border-white text-white transition hover:bg-white hover:text-brand-rust-bright"
+              >
+                {s.useImg ? (
+                  <img src={s.imgSrc} alt={s.label} class="h-3.5 w-3.5" />
+                ) : (
+                  <svg viewBox="0 0 24 24" class="h-3.5 w-3.5 fill-current">
+                    <path d={s.path} />
+                  </svg>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <!-- 2026-05 audit fix: primary nav text-case changed from `uppercase`
+             to natural Title Case to match live. -->
+        <ul class="flex items-center gap-5 text-[15px] font-semibold tracking-wide">
+          {primaryNav.map((l) => (
+            <li>
+              <a
+                href={l.href}
+                class="text-white transition hover:text-brand-cream"
+              >
+                {l.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <a
+          href={hrefs.tel}
+          class="flex items-center gap-2 text-white transition hover:text-brand-cream"
+          aria-label={`Call Me! ${contact.phone}`}
+        >
+          <span class="flex flex-col leading-tight">
+            <span class="text-[11px] italic text-brand-rust-bright">Call Me!</span>
+            <span class="text-[16px] font-semibold">{contact.phone}</span>
+          </span>
+          <svg viewBox="0 0 24 24" class="h-5 w-5 fill-current">
+            <path d={phoneIconPath}></path>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Second row: secondary nav with tan underline.
+           2026-05 audit fix: added thin vertical dividers between items
+           (matches live's separated-pill treatment) + cream hover for clarity. -->
+      <nav class="mt-3 border-b-[6px] border-brand-brown-tan/80">
+        <ul class="flex items-center text-[15px] font-bold uppercase tracking-wide text-white divide-x divide-white/25">
+          <li class="relative">
+            <details class="group" data-dropdown>
+              <summary class="flex cursor-pointer items-center gap-1 px-5 py-2 transition hover:bg-white/15 hover:text-brand-cream list-none">
+                {sellMenu.label}
+                <svg viewBox="0 0 20 20" class="h-3 w-3 fill-current transition group-open:rotate-180">
+                  <path d="M10 14L4 6h12z" />
+                </svg>
+              </summary>
+              <ul class="absolute right-0 top-full z-40 mt-0 min-w-[240px] bg-white shadow-2xl">
+                {sellMenu.children.map((c) => (
+                  <li>
+                    <a
+                      href={c.href}
+                      class="block px-4 py-2.5 text-[14px] font-semibold normal-case text-brand-charcoal transition hover:bg-brand-cream hover:text-brand-rust-bright"
+                    >
+                      {c.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </li>
+          <li>
+            <a
+              href="/free-appraisal/"
+              class="block px-5 py-2 transition hover:bg-white/15 hover:text-brand-cream"
+            >
+              Free Appraisal
+            </a>
+          </li>
+          <li class="relative">
+            <details class="group" data-dropdown>
+              <summary class="flex cursor-pointer items-center gap-1 px-5 py-2 transition hover:bg-white/15 hover:text-brand-cream list-none">
+                {idMenu.label}
+                <svg viewBox="0 0 20 20" class="h-3 w-3 fill-current transition group-open:rotate-180">
+                  <path d="M10 14L4 6h12z" />
+                </svg>
+              </summary>
+              <ul class="absolute right-0 top-full z-40 mt-0 min-w-[320px] bg-white shadow-2xl">
+                {idMenu.children.map((c) => (
+                  <li>
+                    <a
+                      href={c.href}
+                      class="block px-4 py-2.5 text-[13px] font-semibold normal-case text-brand-charcoal transition hover:bg-brand-cream hover:text-brand-rust-bright"
+                    >
+                      {c.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Mobile/Tablet hamburger -->
+    <div class="ml-auto flex items-center gap-3 pt-5 lg:hidden">
+      <a
+        href={hrefs.tel}
+        class="hidden flex-col items-start text-white sm:flex"
+        aria-label={`Call ${contact.phone}`}
+      >
+        <span class="text-[10px] italic text-brand-rust-bright">Call Or Text!</span>
+        <span class="text-[14px] font-semibold">{contact.phone}</span>
+      </a>
+
+      <details class="hamb-bars relative" data-hamb>
+        <summary
+          aria-label="Open Navigation Menu"
+          class="cursor-pointer select-none list-none text-[32px] font-bold leading-none text-white"
+        ></summary>
+        <nav class="absolute right-0 top-full mt-2 w-[290px] bg-white shadow-[0_1px_15px_5px_rgba(0,0,0,0.25)]">
+          <ul class="py-2 text-[15px]">
+            {primaryNav.map((l) => (
+              <li class="border-b border-neutral-200">
+                <a
+                  href={l.href}
+                  class="block px-4 py-3 text-brand-charcoal hover:bg-brand-cream hover:text-brand-rust-bright"
+                >
+                  {l.label}
+                </a>
+              </li>
+            ))}
+            <li class="border-b border-neutral-200">
+              <a
+                href={hrefs.tel}
+                class="block px-4 py-3 font-semibold text-brand-rust-bright"
+              >
+                Call Me! {contact.phone}
+              </a>
+            </li>
+            <li class="border-b border-neutral-200">
+              <details class="group">
+                <summary class="flex cursor-pointer items-center justify-between px-4 py-3 font-bold uppercase text-brand-charcoal list-none">
+                  <span>{sellMenu.label}</span>
+                  <span class="text-brand-rust-bright transition group-open:rotate-180">▾</span>
+                </summary>
+                <ul class="bg-neutral-50 pl-2">
+                  {sellMenu.children.map((c) => (
+                    <li>
+                      <a
+                        href={c.href}
+                        class="block px-4 py-2 text-[14px] text-brand-charcoal hover:text-brand-rust-bright"
+                      >
+                        {c.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            </li>
+            <li class="border-b border-neutral-200">
+              <a
+                href="/free-appraisal/"
+                class="block px-4 py-3 font-bold uppercase text-brand-charcoal hover:text-brand-rust-bright"
+              >
+                Free Appraisal
+              </a>
+            </li>
+            <li class="border-b border-neutral-200">
+              <details class="group">
+                <summary class="flex cursor-pointer items-center justify-between px-4 py-3 font-bold uppercase text-brand-charcoal list-none">
+                  <span>{idMenu.label}</span>
+                  <span class="text-brand-rust-bright transition group-open:rotate-180">▾</span>
+                </summary>
+                <ul class="bg-neutral-50 pl-2">
+                  {idMenu.children.map((c) => (
+                    <li>
+                      <a
+                        href={c.href}
+                        class="block px-4 py-2 text-[13px] text-brand-charcoal hover:text-brand-rust-bright"
+                      >
+                        {c.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            </li>
+            <li class="px-4 py-3">
+              <div class="mb-3 flex items-center justify-around">
+                {headerSocials.map((s) => (
+                  <a
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={s.label}
+                    class="inline-flex h-7 w-7 items-center justify-center rounded-full border-2 border-brand-rust-bright text-brand-rust-bright hover:bg-brand-rust-bright hover:text-white"
+                  >
+                    {s.useImg ? (
+                      <img src={s.imgSrc} alt={s.label} class="h-3.5 w-3.5" />
+                    ) : (
+                      <svg viewBox="0 0 24 24" class="h-3.5 w-3.5 fill-current">
+                        <path d={s.path} />
+                      </svg>
+                    )}
+                  </a>
+                ))}
+              </div>
+              <a
+                href={hrefs.tel}
+                class="block rounded-sm bg-brand-rust-bright px-4 py-2 text-center font-semibold text-white hover:bg-brand-rust-dark"
+              >
+                {contact.phone}
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>
+
+<style>
+  .hamb-bars > summary::-webkit-details-marker { display: none; }
+  .hamb-bars > summary::marker { content: ""; }
+  .hamb-bars > summary::after { content: "☰"; }
+  .hamb-bars[open] > summary::after { content: "✕"; }
+  .hamb-bars > summary:focus-visible {
+    outline: 3px solid var(--color-brand-gold);
+    outline-offset: 4px;
+    border-radius: 2px;
+  }
+
+  details.group > summary::-webkit-details-marker { display: none; }
+  details.group > summary::marker { content: ""; }
+
+  [data-dropdown] > summary::-webkit-details-marker { display: none; }
+  [data-dropdown] > summary::marker { content: ""; }
+</style>
+
+<script>
+  // Sync aria-expanded on every <details>'s summary so screen readers announce state.
+  const syncExpanded = (d: Element) => {
+    const summary = d.querySelector("summary");
+    if (summary) summary.setAttribute("aria-expanded", String((d as HTMLDetailsElement).open));
+  };
+  document.querySelectorAll("details").forEach((d) => {
+    syncExpanded(d);
+    d.addEventListener("toggle", () => syncExpanded(d));
+  });
+
+  // Close other open <details data-dropdown> when one opens
+  document.querySelectorAll("[data-dropdown]").forEach((d) => {
+    d.addEventListener("toggle", () => {
+      if ((d as HTMLDetailsElement).open) {
+        document.querySelectorAll<HTMLDetailsElement>("[data-dropdown]").forEach((o) => {
+          if (o !== d) o.open = false;
+        });
+      }
+    });
+  });
+
+  // Click-outside to close desktop dropdowns
+  document.addEventListener("click", (e) => {
+    const t = e.target as HTMLElement;
+    document.querySelectorAll<HTMLDetailsElement>("[data-dropdown]").forEach((d) => {
+      if (d.open && !d.contains(t)) d.open = false;
+    });
+  });
+</script>

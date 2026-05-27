@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Joe Dampt",
+    "url": "https://www.joesvintageguitarsaz.com/about-me/",
+    "image": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/02/about-me-joe-1.jpg",
+    "jobTitle": [
+      "Vintage Guitar Expert",
+      "Professional Appraiser",
+      "Musician",
+      "Business Owner"
+    ],
+    "worksFor": {
+      "@id": "https://www.joesvintageguitarsaz.com/#organization"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Arizona State University",
+      "degree": "Bachelor's in Business Entrepreneurship"
+    },
+    "knowsAbout": [
+      "Vintage Guitars",
+      "Guitar Appraisal",
+      "Pre-War Martin Guitars",
+      "Golden Era Gibson Guitars",
+      "Vintage Fender Guitars",
+      "Guitar Restoration",
+      "Musical Instrument History",
+      "Guitar Repair",
+      "Antique Instruments"
+    ],
+    "description": "Joe Dampt is a vintage guitar expert, professional appraiser, and musician with over 12 years of experience. Owner of Joe's Vintage Guitars in Mesa, Arizona, Joe has appraised 10,000+ vintage instruments and manages an annual inventory volume exceeding $2,000,000. A Top-Rated Seller on Reverb with over 2,000 5-star reviews.",
+    "telephone": "+1-602-900-6635",
+    "email": "joesvintageguitars94@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "47 N Fraser Dr E",
+      "addressLocality": "Mesa",
+      "addressRegion": "AZ",
+      "postalCode": "85203",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://reverb.com/shop/joe-s-gear-emporium-4",
+      "https://www.facebook.com/joesvintageguitars",
+      "https://www.instagram.com/joesvintageguitarsaz/",
+      "https://www.youtube.com/channel/UCz4TN2DTC8fTKlEZFe0LVAQ"
+    ],
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Vintage Guitar Expert and Appraiser",
+      "occupationLocation": {
+        "@type": "City",
+        "name": "Mesa, Arizona"
+      },
+      "estimatedSalary": {
+        "@type": "MonetaryAmountDistribution",
+        "name": "Annual Business Volume",
+        "currency": "USD",
+        "duration": "P1Y",
+        "median": "2000000"
+      },
+      "skills": [
+        "Guitar Appraisal",
+        "Vintage Instrument Authentication",
+        "Guitar Repair and Restoration",
+        "Musical Instrument History",
+        "Business Entrepreneurship",
+        "Customer Service",
+        "Negotiation"
+      ],
+      "experienceRequirements": {
+        "@type": "OccupationalExperienceRequirements",
+        "monthsOfExperience": "144"
+      }
+    },
+    "performerIn": [
+      {
+        "@type": "MusicGroup",
+        "name": "Woody Rambell & The Wrecks",
+        "genre": [
+          "Country",
+          "Rock and Roll",
+          "Swing"
+        ]
+      },
+      {
+        "@type": "MusicGroup",
+        "name": "2nd Hand Sam & His Country Gentlemen",
+        "genre": [
+          "Country",
+          "Western"
+        ],
+        "description": "Former Lead Guitarist"
+      }
+    ],
+    "award": [
+      "Top-Rated Seller on Reverb",
+      "Over 2,000 5-Star Reviews on Reverb",
+      "Over 400 5-Star Reviews on Google"
+    ],
+    "numberOfEmployees": {
+      "@type": "QuantitativeValue",
+      "value": "1"
+    },
+    "seeks": {
+      "@type": "Demand",
+      "itemOffered": [
+        "Vintage Guitars",
+        "Vintage Amplifiers",
+        "Guitar Collections",
+        "Pre-War Instruments",
+        "Golden Era Guitars"
+      ]
+    }
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "Vintage Guitar Expert and Musician",
+    "description": "Professional profile of Joe Dampt, vintage guitar expert, appraiser, and musician specializing in pre-war Martin guitars, golden era Gibson guitars, and vintage Fender instruments."
+  },
+  "dateCreated": "2026-02-11T00:00:00-07:00",
+  "inLanguage": "en-US"
+}

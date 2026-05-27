@@ -1,0 +1,31 @@
+{
+  "name": "joes-vintage-guitars",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "audit:live-diff": "node scripts/audit-live-diff.mjs",
+    "audit:section-crops": "node scripts/audit-section-crops.mjs",
+    "extract:html-first": "node scripts/extract-html-first.mjs",
+    "audit:a11y": "node scripts/audit-a11y.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "astro": "^6.3.2",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@axe-core/playwright": "^4.11.3",
+    "cheerio": "^1.2.0",
+    "odiff-bin": "^4.3.8",
+    "playwright": "^1.60.0",
+    "typescript": "^6.0.3"
+  }
+}

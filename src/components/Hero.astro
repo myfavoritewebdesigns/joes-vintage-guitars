@@ -1,0 +1,195 @@
+---
+import { contact, hrefs } from "../config/site";
+import Button from "./primitives/Button.astro";
+
+const tocItems = [
+  { num: "01", label: "A Buyer Who Knows Vintage Guitars", href: "#expertise" },
+  { num: "02", label: "Vintage Guitars & Instruments I Buy Across the U.S.", href: "#what-we-buy" },
+  { num: "03", label: "What Sellers Say About Working With Joe", href: "#testimonials" },
+  { num: "04", label: "Stories From People Who've Sold to Me", href: "#stories" },
+  { num: "05", label: "How to Prepare to Sell Your Guitar", href: "#prepare" },
+  { num: "06", label: "How to Ship Your Guitar Once It's Sold", href: "#shipping" },
+  { num: "07", label: "Other Places to Sell Your Vintage Guitar", href: "#where-to-sell" },
+  { num: "08", label: "Recent Purchases and the Sellers", href: "#recent-purchases" },
+];
+---
+
+<section
+  class="tp-bnr relative isolate w-full overflow-hidden bg-cover bg-center"
+  style="background-image: url('/images/hero-background.jpg');"
+>
+  <!-- Dark vignette overlay (top + bottom) per live CSS -->
+  <div class="pointer-events-none absolute inset-0 z-10"
+    style="background:
+      linear-gradient(to top, rgba(0,0,0,.7), rgba(0,0,0,.3) 40%),
+      linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0,.3) 40%);"
+  ></div>
+
+  <div
+    class="relative z-20 mx-auto w-full max-w-[1300px] px-4 sm:px-6"
+    style="padding-top: clamp(160px, 18vw, 280px); padding-bottom: clamp(40px, 6vw, 80px);"
+  >
+    <div class="text-center">
+      <h1
+        class="font-bold text-white text-balance"
+        style="font-size: clamp(28px, 4vw, 48px); line-height: 1.15;"
+      >
+        Sell Your Vintage Guitar | Joe&rsquo;s Vintage Guitars, Trusted Nationwide Buyer
+      </h1>
+
+      <div class="mx-auto my-5 h-px w-full max-w-[900px] bg-brand-cream/80"></div>
+
+      <h2
+        class="text-balance font-semibold"
+        style="font-size: clamp(19px, 2.4vw, 28px); line-height: 1.3; color: var(--color-brand-brown-tan);"
+      >
+        The Honest Buyer Who Knows What Your Guitar Is Actually Worth.
+      </h2>
+    </div>
+
+    <div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
+      <Button href={hrefs.tel} variant="cream" size="lg" pill>
+        {contact.phone}
+      </Button>
+      <Button href="/contact-me/" variant="cream" size="lg" pill>
+        Contact Now
+      </Button>
+    </div>
+
+    <div class="jvg-toc">
+      <details class="jvg-toc__details">
+        <summary class="jvg-toc__summary">
+          <span class="jvg-toc__toggle-left">
+            <span class="jvg-toc__toggle-icon">☰</span>
+            <span class="jvg-toc__toggle-label">
+              On This Page
+              <span class="jvg-toc__toggle-sub">(8 sections)</span>
+            </span>
+          </span>
+          <svg class="jvg-toc__chevron" viewBox="0 0 20 20" fill="none">
+            <path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </summary>
+        <ul class="jvg-toc__list">
+          {tocItems.map((item) => (
+            <li class="jvg-toc__item">
+              <a class="jvg-toc__link" href={item.href}>
+                <span class="jvg-toc__num">{item.num}</span>
+                {item.label}
+                <span class="jvg-toc__link-arrow">↓</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </details>
+    </div>
+  </div>
+</section>
+
+<style>
+  .jvg-toc {
+    --brown: var(--color-brand-brown);
+    --rust: var(--color-brand-rust);
+    --gold: var(--color-brand-gold);
+    --parch: var(--color-brand-cream);
+    --border: rgba(62, 42, 20, 0.15);
+    font-family: "Open Sans", sans-serif;
+    /* Match the combined width of the two CTA buttons above:
+       2 × 320px (max-w-[320px]) + 24px gap = 664px */
+    max-width: 664px;
+    margin-top: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  @media (max-width: 640px) {
+    .jvg-toc { margin-top: 40px; max-width: 320px; }
+  }
+  .jvg-toc *,
+  .jvg-toc ::before {
+    box-sizing: border-box;
+  }
+  .jvg-toc__details {
+    border: 1px solid var(--border);
+  }
+  .jvg-toc__summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--parch);
+    padding: 14px 20px;
+    cursor: pointer;
+    gap: 12px;
+    list-style: none;
+    transition: background 0.2s;
+    user-select: none;
+  }
+  .jvg-toc__summary::-webkit-details-marker { display: none; }
+  .jvg-toc__summary::marker { content: ""; }
+  .jvg-toc__summary:hover { background: #e8dcc8; }
+  .jvg-toc__toggle-left { display: flex; align-items: center; gap: 10px; }
+  .jvg-toc__toggle-icon { color: var(--rust); font-size: 14px; line-height: 1; flex-shrink: 0; }
+  .jvg-toc__toggle-label {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--brown);
+  }
+  .jvg-toc__toggle-sub {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    margin-left: 4px;
+    text-transform: none;
+  }
+  .jvg-toc__chevron { width: 18px; height: 18px; flex-shrink: 0; color: var(--rust); transition: transform 0.3s ease; }
+  .jvg-toc__details[open] .jvg-toc__chevron { transform: rotate(180deg); }
+  .jvg-toc__list {
+    z-index: 11;
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    margin: 0;
+    padding: 8px 0;
+    background: #fff;
+    border-top: 1px solid var(--border);
+  }
+  .jvg-toc__item { border-bottom: 1px solid var(--border); }
+  .jvg-toc__item:last-child { border-bottom: none; }
+  .jvg-toc__link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 14px;
+    text-decoration: none !important;
+    color: var(--brown) !important;
+    font-size: 13px;
+    line-height: 1.4;
+    transition: background 0.15s, color 0.15s;
+  }
+  .jvg-toc__link:hover { background: var(--parch); color: var(--rust) !important; }
+  .jvg-toc__num {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 11px;
+    color: var(--rust);
+    min-width: 20px;
+    flex-shrink: 0;
+    letter-spacing: 0.04em;
+  }
+  .jvg-toc__link-arrow {
+    margin-left: auto;
+    font-size: 12px;
+    color: var(--rust);
+    opacity: 0;
+    transition: opacity 0.15s;
+    flex-shrink: 0;
+  }
+  .jvg-toc__link:hover .jvg-toc__link-arrow { opacity: 1; }
+</style>

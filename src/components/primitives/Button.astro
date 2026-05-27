@@ -1,0 +1,119 @@
+---
+/**
+ * Generic CTA Button primitive. Variants:
+ *   rust          — filled rust-bright bg, white text. Primary CTA on light bgs.
+ *   cream         — filled cream bg, brown text. Light CTAs on dark/photo bgs.
+ *   outline-cream — transparent w/ cream border. Ghost CTAs on dark bgs.
+ *
+ * Renders as <a> when `href` is given, otherwise <button>. The two branches are
+ * discriminated so callers can't pass `type=submit` with an `href`.
+ */
+import type { HTMLAttributes } from "astro/types";
+
+type ButtonVariant = "rust" | "cream" | "outline-cream";
+type ButtonSize = "sm" | "md" | "lg";
+
+type SharedProps = {
+  variant?: ButtonVariant;
+  size?: ButtonSize;
+  /** Stretch to width:100%, capped at max-width:320px (matches the Hero CTA pattern). */
+  pill?: boolean;
+};
+
+type AnchorProps = HTMLAttributes<"a"> & SharedProps & {
+  href: string;
+  type?: never;
+};
+type NativeButtonProps = HTMLAttributes<"button"> & SharedProps & {
+  href?: never;
+  type?: "button" | "submit" | "reset";
+};
+
+type Props = AnchorProps | NativeButtonProps;
+
+const {
+  variant = "rust",
+  size = "md",
+  pill = false,
+  href,
+  type,
+  class: className,
+  ...rest
+} = Astro.props;
+
+const Tag = href ? "a" : "button";
+const classes = [
+  "jvg-btn",
+  `jvg-btn--${variant}`,
+  `jvg-btn--${size}`,
+  pill ? "jvg-btn--pill" : null,
+  className,
+].filter(Boolean).join(" ");
+---
+
+<Tag
+  class={classes}
+  href={href}
+  type={!href ? (type ?? "button") : undefined}
+  {...rest}
+>
+  <slot />
+</Tag>
+
+<style>
+  .jvg-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    font-family: var(--font-display);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+    /* Tiny click target floor for a11y on touch devices. */
+    min-height: 44px;
+  }
+  .jvg-btn:focus-visible {
+    outline: 3px solid var(--color-brand-gold);
+    outline-offset: 2px;
+  }
+
+  /* ---------- Sizes ---------- */
+  .jvg-btn--sm { padding: 8px 18px;  font-size: 13px; }
+  .jvg-btn--md { padding: 12px 28px; font-size: 15px; }
+  .jvg-btn--lg { padding: 16px 36px; font-size: clamp(18px, 2.2vw, 22px); letter-spacing: 0.04em; }
+
+  .jvg-btn--pill { width: 100%; max-width: 320px; }
+
+  /* ---------- Variant: rust (primary) ---------- */
+  .jvg-btn--rust {
+    background-color: var(--color-brand-rust-bright);
+    color: #fff;
+  }
+  .jvg-btn--rust:hover { background-color: var(--color-brand-rust-dark); }
+
+  /* ---------- Variant: cream (over dark bg) ---------- */
+  .jvg-btn--cream {
+    background-color: var(--color-brand-cream);
+    color: var(--color-brand-brown);
+  }
+  .jvg-btn--cream:hover {
+    background-color: var(--color-brand-rust-dark);
+    color: #fff;
+  }
+
+  /* ---------- Variant: outline-cream (ghost on dark bg) ---------- */
+  .jvg-btn--outline-cream {
+    background-color: transparent;
+    color: var(--color-brand-cream);
+    border-color: var(--color-brand-cream);
+  }
+  .jvg-btn--outline-cream:hover {
+    background-color: var(--color-brand-cream);
+    color: var(--color-brand-rust-dark);
+  }
+</style>

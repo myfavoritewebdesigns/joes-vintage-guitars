@@ -1,0 +1,182 @@
+---
+import { contact, hrefs, replyMethods } from "../config/site";
+import Button from "./primitives/Button.astro";
+
+const bullets = [
+  "Top Dollar For Your Vintage Instrument",
+  "Same-Day Payment, No Waiting",
+  "A Simple Process From Start To Finish",
+  "Free, Fully Insured Shipping Arranged By Me",
+];
+---
+
+<section class="relative" style="background: var(--color-brand-brown-tan);">
+  <div class="grid grid-cols-1 lg:grid-cols-2">
+    <!-- Left column: copy + bullets + contact -->
+    <div class="relative px-6 py-14 sm:px-10 lg:py-20 lg:pl-[8%] lg:pr-12">
+      <h3
+        class="tct-l-headline relative inline-block font-bold text-brand-rust-dark"
+        style="font-size: clamp(28px, 3.5vw, 44px); line-height: 1.1; font-family: var(--font-display);"
+      >
+        Selling to Joe&rsquo;s Vintage Guitars Is Easy
+      </h3>
+
+      <ul class="mt-8 space-y-5">
+        {bullets.map((b) => (
+          <li
+            class="relative pl-9 text-brand-brown"
+            style="font-size: clamp(17px, 2vw, 22px); line-height: 1.35; font-family: var(--font-display);"
+          >
+            <span
+              aria-hidden="true"
+              class="absolute left-0 top-1 h-6 w-6"
+              style="background-image: url('/images/vellum-icon-01.jpg'); background-size: cover; background-position: center; mix-blend-mode: multiply;"
+            ></span>
+            {b}
+          </li>
+        ))}
+        <li
+          class="relative pl-9 text-brand-brown"
+          style="font-size: clamp(17px, 2vw, 22px); line-height: 1.35; font-family: var(--font-display);"
+        >
+          <span
+            aria-hidden="true"
+            class="absolute left-0 top-1 h-6 w-6"
+            style="background-image: url('/images/vellum-icon-01.jpg'); background-size: cover; background-position: center; mix-blend-mode: multiply;"
+          ></span>
+          Hundreds Of Sellers Have Done This:&nbsp;
+          <a
+            href={hrefs.googleReviews}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-bold text-brand-rust-dark underline decoration-2 underline-offset-2 hover:text-brand-rust-bright"
+          >
+            Read Their Google Reviews
+          </a>
+        </li>
+        <li
+          class="relative pl-9 text-brand-brown"
+          style="font-size: clamp(17px, 2vw, 22px); line-height: 1.35; font-family: var(--font-display);"
+        >
+          <span
+            aria-hidden="true"
+            class="absolute left-0 top-1 h-6 w-6"
+            style="background-image: url('/images/vellum-icon-01.jpg'); background-size: cover; background-position: center; mix-blend-mode: multiply;"
+          ></span>
+          Contact Me At
+          <a href={hrefs.tel} class="font-bold text-brand-rust-dark hover:text-brand-rust-bright">{contact.phone}</a>
+          Or Email
+          <a href={hrefs.mailto} class="block font-bold text-brand-rust-dark underline decoration-2 underline-offset-2 hover:text-brand-rust-bright break-all">{contact.email}</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right column: form panel on lady-guitar bg with tan gradient -->
+    <div
+      class="tct-r-col relative overflow-hidden px-6 py-14 sm:px-10 lg:py-20 lg:pr-[8%] lg:pl-12"
+      style="background-color: var(--color-brand-brown-tan); background-image: url('/images/lady-guitar-01.jpg'); background-repeat: no-repeat; background-size: cover; background-position: right center;"
+    >
+      <!-- Tan gradient overlay fading right -->
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 right-0 z-0"
+        style="background: linear-gradient(90deg, var(--color-brand-brown-tan) 0%, var(--color-brand-brown-tan) 60%, rgba(210,180,140,0) 100%);"
+      ></div>
+
+      <div class="relative z-10 max-w-[560px]">
+        <h3
+          class="font-bold text-brand-rust-dark"
+          style="font-size: clamp(26px, 3vw, 34px); line-height: 1.1; font-family: var(--font-display);"
+        >
+          Book Your Guitar Selling Consultation Now!
+        </h3>
+        <h4
+          class="mt-2 font-bold text-brand-rust-bright"
+          style="font-size: clamp(20px, 2.4vw, 26px); line-height: 1.15; font-family: var(--font-display);"
+        >
+          Get The Best Price For Your Vintage Guitar
+        </h4>
+        <div class="mt-3 h-[2px] w-full max-w-[440px] bg-brand-brown/30"></div>
+
+        <form class="mt-6 space-y-4" data-jvg-contact-form data-form-id="consultation">
+          <div class="grid gap-3 sm:grid-cols-3">
+            <label class="block">
+              <span class="block text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Name</span>
+              <input type="text" name="name" autocomplete="name" required class="mt-1 w-full border-0 bg-white px-3 py-2 text-sm text-brand-charcoal focus:outline-none focus:ring-2 focus:ring-brand-rust-bright" />
+            </label>
+            <label class="block">
+              <span class="block text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Phone</span>
+              <input type="tel" name="phone" autocomplete="tel" inputmode="tel" required class="mt-1 w-full border-0 bg-white px-3 py-2 text-sm text-brand-charcoal focus:outline-none focus:ring-2 focus:ring-brand-rust-bright" />
+            </label>
+            <label class="block">
+              <span class="block text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Email</span>
+              <input type="email" name="email" autocomplete="email" inputmode="email" required class="mt-1 w-full border-0 bg-white px-3 py-2 text-sm text-brand-charcoal focus:outline-none focus:ring-2 focus:ring-brand-rust-bright" />
+            </label>
+          </div>
+
+          <label class="block">
+            <span class="block text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Comments</span>
+            <textarea name="comments" rows="4" class="mt-1 w-full border-0 bg-white px-3 py-2 text-sm text-brand-charcoal focus:outline-none focus:ring-2 focus:ring-brand-rust-bright"></textarea>
+          </label>
+
+          <fieldset>
+            <legend class="text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Best Way To Reply:</legend>
+            <div class="mt-2 flex flex-wrap items-center gap-5 text-brand-brown">
+              {replyMethods.map((opt) => (
+                <label class="inline-flex items-center gap-2 text-[14px] font-semibold">
+                  <input type="radio" name="reply" value={opt} class="accent-brand-rust-bright" />
+                  {opt}
+                </label>
+              ))}
+              <button
+                type="submit"
+                class="ml-auto inline-block bg-brand-rust-bright px-7 py-3 font-bold uppercase tracking-wide text-white transition hover:bg-brand-rust-dark"
+                style="font-family:var(--font-display);"
+              >
+                Sell Your Vintage Guitar
+              </button>
+            </div>
+          </fieldset>
+
+          <p class="text-xs italic text-brand-brown">
+            *If you have photos, you will have the option to upload them after clicking submit
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom bar: "Every Guitar Has A Story" -->
+  <div class="relative bg-brand-rust-dark py-10 text-center">
+    <div class="mx-auto max-w-[900px] px-4">
+      <p class="text-sm font-bold uppercase tracking-[0.3em] text-brand-brown-tan">
+        Every Guitar Has A Story
+      </p>
+      <Button href="#client-stories" variant="outline-cream" size="md" class="mt-4">
+        Read More Guitar Stories
+        <span aria-hidden="true">↓</span>
+      </Button>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Clip-path arrow decoration behind headline, per live CSS */
+  .tct-l-headline::before {
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 70%;
+    background-color: var(--color-brand-rust-bright);
+    left: -130%;
+    top: 15%;
+    clip-path: polygon(0 0, 100% 0, 98% 50%, 100% 100%, 0 100%);
+    z-index: -1;
+  }
+
+  /* Make the vellum-icon-01.jpg blend into the tan bg by dropping its white background */
+  @supports (mix-blend-mode: multiply) {
+    .tct-r-col {
+      isolation: isolate;
+    }
+  }
+</style>
