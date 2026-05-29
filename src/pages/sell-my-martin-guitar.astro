@@ -1,0 +1,1121 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ContactSection from "../components/ContactSection.astro";
+import FAQ from "../components/FAQ.astro";
+import { contact } from "../config/site";
+import testimonialsRaw from "../../reference/martin-testimonials.json";
+
+// Reviews — sourced from reference/martin-testimonials.json (3 Martin-specific
+// reviews scraped from the live page's ProfessionalService JSON-LD and rendered
+// testimonial cards). All 5-star; stars are rendered uniformly by the template
+// — no need to store rating per review.
+//
+// Note: Fender's page v10 (2026-05-26) bumped from 3 -> 6 reviews per user
+// request. Martin starts at 3 to match live exactly; can be bumped later if
+// the same pattern is desired here.
+const reviews: { name: string; link: string; body: string }[] = testimonialsRaw;
+
+// Instagram reels — exact post permalinks from live's sell-my-martin page.
+// Live loads www.instagram.com/embed.js which scans for any .instagram-media
+// blockquote and renders it as a styled iframe.
+const igPosts = [
+  {
+    permalink: "https://www.instagram.com/reel/DV_coYfkz5t/",
+    headline: "1923 Martin 0-21 — Player Grade",
+    subtitle: "A century old and every bit as sweet as ever",
+    body: "Compact body, vintage voice, and loads of character. This 1923 Martin 0-21 is a genuine player — the kind of instrument that rewards every hour you put into it.",
+  },
+  {
+    permalink: "https://www.instagram.com/reel/DV85bu_k2_w/",
+    headline: "Martin — Nearly 200 Years Old",
+    subtitle: "Almost two centuries old — and in fantastic condition",
+    body: "Some instruments survive. This one thrived. A Martin pushing nearly 200 years old and still presenting beautifully — a testament to the craft and care that has followed it through the generations.",
+  },
+  {
+    permalink: "https://www.instagram.com/reel/DVooAQEDxVi/",
+    headline: "1966 Martin D-28",
+    subtitle: "A D-28 from one of Martin’s finest decades",
+    body: "The 1960s were a golden era for Martin dreadnoughts, and this 1966 D-28 is a prime example of why. Big, balanced, and built to last — exactly what a great Martin should be.",
+  },
+];
+
+// Image base — local copies downloaded same-session per CLAUDE.md rule 1
+// ("hot-linked images must be swapped to local in the SAME session they were added").
+// Files live in public/images/sell-martin/ and were sourced from the live WP /wp-content/uploads/
+// paths during this build session.
+const IMG = "/images/sell-martin";
+
+// Featured image — used for ogImage + intro section's serial-number-locator photo.
+const FEATURED_IMG = `${IMG}/sell-my-martin-guitar-featured-image.jpg`;
+
+// FAQs sourced from live JSON-LD (reference/sell-my-martin-jsonld.json, FAQPage entity).
+// Toggle IDs match live's `panel-` / `toggle_` IDs so anchor links from external pages still work.
+const faqs = [
+  {
+    id: "toggle_15bcac79451840ec9",
+    q: "What Should I Look For In An Appraiser When Evaluating My Vintage Martin Guitar?",
+    a: "When evaluating a vintage Martin guitar, it&rsquo;s important to work with an appraiser who specializes in vintage and high-end acoustic instruments. At Joe&rsquo;s Vintage Guitars, we have extensive experience with Martin guitars and understand the details that truly affect value&mdash;such as model variations, serial numbers, tonewoods, and original components. We provide accurate, professional evaluations backed by current market trends and decades of hands-on expertise. Our goal is to give you a clear, trustworthy understanding of your guitar&rsquo;s worth.",
+  },
+  {
+    id: "toggle_667a03873c0f1b397",
+    q: "Can I Sell My Vintage Martin Guitar Without Original Paperwork?",
+    a: "Yes, you can absolutely sell your vintage Martin guitar without the original paperwork. While original documents like the bill of sale or warranty card can be helpful, they&rsquo;re not required to determine authenticity or value. At Joe&rsquo;s Vintage Guitars, we carefully inspect each instrument to verify its originality and condition. We&rsquo;ve purchased and appraised many valuable Martins without any paperwork&mdash;what truly matters is the guitar itself.",
+  },
+  {
+    id: "toggle_30d237965adcb2a03",
+    q: "What Factors Affect The Value Of A Vintage Martin Guitar?",
+    a: "Several key factors influence the value of a vintage Martin guitar, including the model, year of production, overall condition, originality of parts, and whether it has had any modifications or repairs. Pre-war models and guitars with Brazilian rosewood are especially sought-after. At Joe&rsquo;s Vintage Guitars, we also consider playability, tonal quality, and market demand when evaluating value. Our team has the knowledge and experience to assess your guitar accurately and provide a fair market appraisal.",
+  },
+  {
+    id: "toggle_74a9dca0d7a06eae0",
+    q: "Are There Specific Martin Guitar Models That Are More Sought-After?",
+    a: "Yes&mdash;certain Martin models are consistently in high demand among collectors and players. Pre-war D-28s and D-18s, 1930s OM and 000 models, and guitars made with Brazilian rosewood are especially desirable. Limited editions and well-preserved vintage instruments also tend to attract strong interest. At Joe&rsquo;s Vintage Guitars, we specialize in identifying these high-value models and can help you understand exactly what you have and how it fits into the current market.",
+  },
+  {
+    id: "toggle_2ebbbd8a61ddcff50",
+    q: "What Documentation Is Needed To Accurately Value A Vintage Martin Guitar?",
+    a: "While original documentation can add context and value, it&rsquo;s not required to accurately assess a vintage Martin guitar. At Joe&rsquo;s Vintage Guitars, we rely on a detailed evaluation process that includes serial number analysis, inspection of tonewoods and hardware, and assessment of originality and condition. We recommend providing clear photos and any known history, but even without paperwork, we can offer a reliable and well-documented appraisal.",
+  },
+];
+
+// 8 model cards — content + photos from live's "Receive The Best Cash Deal" grid.
+const models = [
+  {
+    img: `${IMG}/1953-martin-D-18-1-1024x682.jpg`,
+    alt: "Classic Martin D-18 Acoustic with Solid Wood Construction",
+    title: "Martin D-18",
+    body: "Seeking <strong>Pre-War and Golden Era D-18s</strong>. We pay a premium for mahogany-body dreadnoughts with original <strong>scalloped bracing</strong> and Adirondack spruce tops.",
+  },
+  {
+    img: `${IMG}/1959-martin-D-28-1024x683.jpg`,
+    alt: "Authentic Martin D-28 Acoustic Guitar in Excellent Condition",
+    title: "Martin D-28",
+    body: "Premier buyer for vintage herringbone D-28s. Expert valuation for Brazilian Rosewood models from the 1930s through the late 60s.",
+  },
+  {
+    img: `${IMG}/martin-acoustic-guitar-1024x682.jpg`,
+    alt: "Classic Martin 0-18 Guitar with Tortoise Pickguard",
+    title: "Martin 0-18, 0-21, 0-28",
+    body: "Actively buying Single-0 Martin models. We value the unique projection and history of these early concert-sized instruments.",
+  },
+  {
+    img: `${IMG}/1920s-martin-00-18-1-1024x683.jpg`,
+    alt: "Martin 00-18 Vintage Acoustic Guitar",
+    title: "Martin 00-18, 00-21, 00-28",
+    body: "Top cash offers for Grand Concert 00 models. Specializing in identifying rare 12-fret and 14-fret configurations with original finishes.",
+  },
+  {
+    img: `${IMG}/1956-martin-000-21-1-1024x683.jpg`,
+    alt: "Martin 000-18 Guitar in Excellent Vintage Condition",
+    title: "Martin 000-18, 21, 28",
+    body: "Buying vintage 000 &lsquo;Auditorium&rsquo; models. We pay top dollar for Pre-War examples and clean, original-condition 000-28 guitars.",
+  },
+  {
+    img: `${IMG}/martin-om-42-1024x682.jpg`,
+    alt: "Authentic Martin 000-28 Guitar in Excellent Condition",
+    title: "Martin OM Models",
+    body: "Looking for original Orchestra Model (OM) Martins. We recognize the rarity of the 1929&ndash;1933 era and offer premium payouts for authentic examples.",
+  },
+  {
+    img: `${IMG}/martin-d-45-brazilian-rosewood-1024x682.jpg`,
+    alt: "Classic Martin D-45 Acoustic Guitar with Elegant Detailing",
+    title: "Martin D-45, 42, 41, 40",
+    body: "Expert buyer for high-trim Martin dreadnoughts. Specializing in the identification of original abalone pearl inlay and rare early production numbers.",
+  },
+  {
+    img: `${IMG}/1959-martin-d-28-e-1-1024x683.jpg`,
+    alt: "Martin GPC Acoustic Guitar with Rich Tone and Smooth Playability",
+    title: "Martin Electric Models",
+    body: "Seeking <a href=\"/post/martin-d18e-vs-d28e-authentication-guide/\" class=\"smm-link\">rare 1960s Martin electrics</a> and thin-line hollow bodies. We appreciate the unique place these models hold in Martin&rsquo;s legendary history.",
+  },
+];
+
+// Page-specific JSON-LD: FAQPage + BreadcrumbList + Article.
+// Mirrors live JSON-LD blocks 1 (BreadcrumbList + Article), 4 (FAQPage).
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: f.a
+          .replace(/&rsquo;/g, "’")
+          .replace(/&lsquo;/g, "‘")
+          .replace(/&mdash;/g, "—")
+          .replace(/&ndash;/g, "–")
+          .replace(/<[^>]+>/g, ""),
+      },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Sell My Martin Guitar", item: "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/" },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Sell Your Vintage Martin Guitar",
+    author: { "@type": "Person", name: "Joe Dampt" },
+    publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" },
+    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/",
+  },
+];
+---
+
+<Layout
+  title="Sell My Vintage Martin Guitar | Top Cash Offers"
+  description="Looking to sell your Martin? Joe Dampt is a premier buyer of Pre-War D-18s, D-28s, and OM models. We travel the U.S. to offer top dollar for Golden Era acoustics."
+  canonical="/sell-my-martin-guitar/"
+  ogImage={FEATURED_IMG}
+  structuredData={structuredData}
+>
+  <!-- lite-youtube web component — matches live's Meet Joe video element.
+       Renders YouTube thumbnail + red play button instantly, swaps to iframe only on click. -->
+  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
+  <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+
+  <!-- Instagram embed script — scans every `.instagram-media` blockquote and
+       renders it as a styled IG iframe. Same script live loads. -->
+  <script slot="head" is:inline async src="https://www.instagram.com/embed.js"></script>
+
+  <!-- 1. Hero — solid linear-gradient (NOT a photo like Fender).
+       Verified via live DOM: `--awb-background-image:linear-gradient(180deg, #612211 0%,#682412 100%)` on .tp-bnr. -->
+  <section class="smm-hero">
+    <div class="smm-hero__inner">
+      <h1>Sell Your Vintage Martin Guitar</h1>
+      <h2 class="smm-hero__subtitle">Expert Buyer and Collector Specializing in Vintage Martin Acoustic Guitars</h2>
+      <div class="smm-hero__rule" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- 2. Intro + simplified form (Martin's form is SIMPLER than Fender's:
+       only Name / Phone / Email / Comments — no city/country/price/serial-dropdown). -->
+  <section class="smm-intro">
+    <div class="smm-inner smm-intro__grid">
+      <!-- LEFT: intro copy + serial-number locator photo -->
+      <div class="smm-intro__copy">
+        <p class="smm-intro__lede">
+          There is something magical about a Martin acoustic guitar. <strong>Martin guitars have a special place in my heart, and I am always looking to acquire vintage Martin guitars.</strong> I&rsquo;m looking for Martin D-18 guitars, Martin D-28 guitars, Martin 0-18 guitars, Martin 00-18 guitars, Martin 000-18 guitars, Martin 000-28 guitars, Martin D-45 guitars, and any other vintage Martin guitars. If you&rsquo;re looking for someone to buy your Martin guitar, you&rsquo;ve come to the right place! I will make you a fair cash offer for your treasured instrument, and will treasure and play it, or make sure that it goes to someone who will. For professional guitar appraisals to discover what your Martin guitar is worth, look no further. If you have a vintage Martin guitar you&rsquo;d like to sell, please call or text me at <a href={`tel:${contact.tel}`} class="smm-underline"><strong>{contact.phone}</strong></a> or email me at <a href={`mailto:${contact.email}`} class="smm-underline"><strong>{contact.email}</strong></a>.
+        </p>
+        <div class="smm-intro__photo">
+          <img
+            src={`${IMG}/Model-Name-Serial-Number-Martin-1024x683.jpg`}
+            alt="Model Name and Serial Number on a Martin Acoustic Guitar"
+            loading="eager"
+            width="1024"
+            height="683"
+          />
+        </div>
+      </div>
+
+      <!-- RIGHT: simplified contact form -->
+      <div class="smm-intro__formwrap">
+        <div class="smm-form-head">
+          <h3><span class="smm-form-head__lede">Feel Free To Contact</span> Joe&rsquo;s Vintage Guitars</h3>
+          <h4>Get a Free Martin Guitar Evaluation &amp; Appraisal Today!</h4>
+        </div>
+        <form
+          class="smm-form"
+          data-jvg-contact-form
+          data-form-id="sell-martin-top"
+          action="/api/contact"
+          method="post"
+          novalidate
+        >
+          <div class="smm-field">
+            <label for="smm-name">Name*</label>
+            <input id="smm-name" type="text" name="your-name" required maxlength="400" />
+          </div>
+          <div class="smm-field">
+            <label for="smm-phone">Phone*</label>
+            <input id="smm-phone" type="tel" name="your-phone" required maxlength="400" />
+          </div>
+          <div class="smm-field">
+            <label for="smm-email">Email*</label>
+            <input id="smm-email" type="email" name="your-email" required maxlength="400" />
+          </div>
+          <div class="smm-field smm-field--message">
+            <label for="smm-message">Comments</label>
+            <textarea id="smm-message" name="your-message" rows="6" maxlength="2000"></textarea>
+          </div>
+          <div class="smm-reply">
+            <span class="smm-reply__label">How do you want to do it?:</span>
+            <label class="smm-reply__opt"><input type="radio" name="best-reply" value="Call" /> Call</label>
+            <label class="smm-reply__opt"><input type="radio" name="best-reply" value="Text" /> Text</label>
+            <label class="smm-reply__opt"><input type="radio" name="best-reply" value="Email" /> Email</label>
+          </div>
+          <button type="submit" class="smm-submit">SENT</button>
+          <p class="smm-form__note">*If you have photos, you will have the option to upload them after clicking submit</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Meet Joe — anchor matches live exactly (#meet-connoisseur-joe-dampt).
+       Same structural pattern as Fender (white card behind columns + rust triangle accent). -->
+  <section id="meet-connoisseur-joe-dampt" class="smm-meet">
+    <div class="smm-inner">
+      <div class="smm-meet__row">
+        <div class="smm-meet__video">
+          <lite-youtube
+            videoid="fTpIquyV-j8"
+            params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1"
+            title="Introducing Joe Dampt, A Martin Guitar Connoisseur"
+            class="smm-lite-yt"
+          ></lite-youtube>
+        </div>
+        <div class="smm-meet__panel">
+          <h3 class="smm-meet__title">Introducing Joe Dampt, <span class="smm-meet__name">A Martin Guitar Connoisseur</span></h3>
+          <hr class="smm-meet__sep" />
+          <p>
+            <a href="/about-me/"><strong>My name is Joe,</strong></a> and my passion is preserving musical history, one guitar at a time. To me, a vintage Martin guitar isn&rsquo;t just an instrument; <strong>it&rsquo;s a piece of American history</strong>. Whether you have a pre-war Dreadnought or a classic 000, I treat every Martin with the deep respect it deserves. I&rsquo;ve always been inspired by the legendary players who defined the Martin sound&mdash;<strong>Doc Watson, Merle Travis, and Ernest Tubb</strong>&mdash;and I strive to honor that legacy in every evaluation I perform. If you are looking to sell a vintage Martin guitar or simply want to understand its current market value, I am here to help. I provide a free professional Martin guitar evaluation to ensure you get top dollar for your instrument through an honest, expert process. I would love to hear your guitar&rsquo;s history and help you take the next step in its journey. Call me at <strong>{contact.phone}</strong> or email <strong class="smm-underline">{contact.email}</strong> today.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. How To Sell — text left, photo right (anchor matches live: #how-to-sell-your-guitar). -->
+  <section id="how-to-sell-your-guitar" class="smm-split">
+    <div class="smm-inner smm-split__grid">
+      <div class="smm-split__text">
+        <h3 class="smm-h3">How To Sell Your Vintage<br /> Martin Guitar</h3>
+        <p>
+          I travel extensively throughout the United States to personally acquire the world&rsquo;s finest acoustic instruments, which often allows me to facilitate a private, face-to-face purchase of your instrument. My goal is to make selling a vintage Martin guitar the easiest and most secure experience possible. I handle every logistical detail so you don&rsquo;t have to.
+        </p>
+        <p>
+          If we cannot meet for a hand-to-hand transaction, I provide a professional, prepaid packing and shipping service that is entirely risk-free. <strong>I cover all the costs and provide specialized materials designed specifically for the fragile nature of vintage acoustics.</strong> From the moment your guitar is packed to the moment it arrives, the process is fully insured and managed by me. You get paid quickly and securely, without ever worrying about packaging headaches, shipping risks, or lost items. <a href="/contact-me/" class="smm-link"><strong>Contact me</strong></a> today or visit the homepage to see why I am the premier choice when you want top dollar for a vintage Martin with total peace of mind.
+        </p>
+      </div>
+      <div class="smm-split__photo">
+        <img
+          src={`${IMG}/1929-martin-00-21-1-1024x683.jpg`}
+          alt="Vintage Martin Acoustic Guitar In Purple Case At Joe&rsquo;s Vintage Guitars"
+          loading="lazy"
+          width="1024"
+          height="683"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Discover The Value — photo left, text right.
+       LIVE-SITE QUIRK: anchor ID is `#how-much-is-my-gibson-guitar` (leftover from
+       when the Martin page was cloned from the Gibson page and never renamed).
+       Per project's "exact visual parity" rule we preserve it for inbound-link parity.
+       Revisit this if/when live's anchor gets fixed — track in decision log. -->
+  <section id="how-much-is-my-gibson-guitar" class="smm-split smm-split--alt">
+    <div class="smm-inner smm-split__grid smm-split__grid--reverse">
+      <div class="smm-split__photo">
+        <img
+          src={`${IMG}/1945-martin-d-18-1-1024x683.jpg`}
+          alt="Free Vintage Martin Acoustic Guitar Appraisal at Joe&rsquo;s Vintage Guitars"
+          loading="lazy"
+          width="1024"
+          height="683"
+        />
+      </div>
+      <div class="smm-split__text">
+        <h3 class="smm-h3">Discover The Value Of<br /> Your Martin Guitar</h3>
+        <p>
+          The most critical question for any owner is, &lsquo;What is my instrument actually worth?&rsquo; I provide <a href="/free-appraisal/" class="smm-link"><strong>free vintage guitar appraisals</strong></a> to give you a clear, professional answer&mdash;all I need are a few photos to get started. My evaluations are fast, accurate, and come with absolutely no obligation to sell. To help you navigate the complexities of the vintage market, I&rsquo;ve put together a comprehensive guide on <a href="/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/" class="smm-link"><strong>how to determine the value of your old Martin acoustic guitar</strong></a>. In addition to my personal appraisals, you can explore my library of research tools to uncover your guitar&rsquo;s history on your own. A great place to start is by using my <a href="/martin-serial-and-model-numbers/" class="smm-link"><strong>Martin Serial Number Guide</strong></a> to pinpoint the exact year and production details of your instrument. Whether you are curious about its legacy or ready to sell, I am here to ensure you have the best information possible.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Where To Sell — text left, photo right (anchor matches live: #best-way-to-sell). -->
+  <section id="best-way-to-sell" class="smm-split">
+    <div class="smm-inner smm-split__grid">
+      <div class="smm-split__text">
+        <h3 class="smm-h3">Where To Sell Your Martin Guitar<br /> For The Best Price</h3>
+        <p>
+          When deciding how to move your instrument, it is essential to understand the trade-offs of selling privately versus selling to a dedicated Martin collector or dealer. <strong>While a private sale can be rewarding, I don&rsquo;t recommend it for first-time sellers of high-end acoustics valued over $4,000.</strong> Selling a vintage Martin guitar involves significant liability, especially regarding shipping and buyer disputes. Because these instruments are so reactive to temperature and humidity, shipping a Martin guitar is complicated and requires specialized knowledge to prevent structural damage.
+        </p>
+        <p>
+          I take the anxiety out of this process with my nationwide shipping and professional packing service. Unlike a private seller who may be underinsured, I maintain high-value insurance policies specifically for vintage instruments, ensuring a risk-free transaction from the moment it leaves your door.
+        </p>
+        <p>
+          If you choose to sell privately, platforms like <a href="https://reverb.com/" target="_blank" rel="noopener" class="smm-link"><strong>Reverb.com</strong></a> offer protection, but keep in mind their high selling fees and the fact that marketplaces often side with the buyer in disputes. By selling to me, you bypass the &lsquo;shipping stress&rsquo; and the risk of a forced return. I handle the logistics, the insurance, and the professional packing so you can focus on getting top dollar for your vintage Martin without the hassle.
+        </p>
+      </div>
+      <div class="smm-split__photo">
+        <img
+          src={`${IMG}/1955-martin-d-18-1-1024x683.jpg`}
+          alt="1955 Martin D-18 Guitar in Excellent Condition Available at Joe&rsquo;s Vintage Guitars"
+          loading="lazy"
+          width="1024"
+          height="683"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. My Buying Process — 3-card grid (anchor matches live: #my-guitar-buying-process).
+       Card headings/copy are Martin-specific; icons are the shared Fair-Cash SVGs. -->
+  <section id="my-guitar-buying-process" class="smm-process">
+    <div class="smm-inner">
+      <h3 class="smm-h3 smm-h3--center">My Guitar Buying Process</h3>
+      <div class="smm-process__grid">
+        <div class="smm-process__card">
+          <img src={`${IMG}/Fair-Cash-1.svg`} alt="Accurate Guitar Dating and Value Assessment at Joe&rsquo;s Vintage Guitars" class="smm-process__icon" />
+          <h4>Precise Martin Identification</h4>
+          <hr class="smm-rule" />
+          <p>I use my decades of expertise to accurately date and identify your instrument, ensuring every detail of its construction is recognized. I&rsquo;m always excited to discuss the history of a vintage Martin guitar, from the bracing patterns to the specific tonewoods that make it special. My goal is to determine the true market value so you have a clear understanding of your guitar&rsquo;s worth.</p>
+        </div>
+        <div class="smm-process__card">
+          <img src={`${IMG}/Fair-Cash-2.svg`} alt="Joe&rsquo;s Vintage Guitars: A Safe Home for Your Beloved Guitar" class="smm-process__icon" />
+          <h4>A Trusted Home For<br /> Your Beloved Martin</h4>
+          <hr class="smm-rule" />
+          <p>Throughout my career, I&rsquo;ve acquired many cherished heirlooms and historic acoustics that were no longer being played. I guarantee that when you sell a vintage Martin guitar to me, it will be appreciated, well-cared for, and played as it was meant to be. I take pride in being a trusted caretaker for these &lsquo;Golden Era&rsquo; instruments, ensuring their legacy continues in a respectful home.</p>
+        </div>
+        <div class="smm-process__card">
+          <img src={`${IMG}/Fair-Cash-3-1.svg`} alt="Competitive Cash Offer at Fair Market Valuation for Your Vintage Martin Guitar" class="smm-process__icon" />
+          <h4>Transparent Cash Offer</h4>
+          <hr class="smm-rule" />
+          <p>I am always prepared to pay top dollar for vintage Martins and high-quality collectible guitars. I aim to be the leading vintage guitar buyer in the country, offering the best cash deals on everything from pre-war Dreadnoughts to classic 00-21 models. If you&rsquo;re looking to sell your Martin guitar through a secure and transparent process, feel free to reach out for a free evaluation today.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* 8. Testimonials — 3 Martin-specific Google reviews + 3 IG reels.
+       Pinterest masonry layout via CSS columns (same pattern as Fender v10). */}
+  <section id="our-clients-testimonials" class="smm-testi">
+    <div class="smm-inner">
+      <h3 class="smm-testi__title">Our Clients&rsquo; Testimonials</h3>
+
+      <div class="smm-testi__masonry">
+        {reviews.map((r) => (
+          <article class="smm-testi__card">
+            <p class="smm-testi__name">
+              <a href={r.link} target="_blank" rel="noopener noreferrer">{r.name}</a>
+              <br />
+              <span class="smm-testi__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </p>
+            <p>{r.body}</p>
+          </article>
+        ))}
+      </div>
+
+      <div class="smm-testi__ig-grid">
+        {igPosts.map((post) => (
+          <div class="smm-testi__ig">
+            <div class="instagram-wrapper">
+              <blockquote
+                class="instagram-media"
+                data-instgrm-permalink={post.permalink}
+                data-instgrm-version="14"
+              ></blockquote>
+            </div>
+            <div class="instagram-text">
+              <p><strong>{post.headline}</strong><br />{post.subtitle}</p>
+              <p>{post.body}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="smm-testi__more-wrap">
+        <a
+          href="https://www.google.com/maps/place/Joe%27s+Vintage+Guitars+-+We+Buy+Guitars!/@33.4165697,-111.8105476,15z/data=!4m8!3m7!1s0x872ba7d2937937d9:0x69728d089b8a764!8m2!3d33.4165697!4d-111.8105476!9m1!1b1!16s%2Fg%2F11cs6lnym7?hl=en&amp;entry=ttu"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="smm-btn smm-btn--rust"
+        >
+          Read More Testimonials
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Identify Your Martin banner.
+       LIVE-SITE QUIRK: anchor ID is `#find-out-gibson-really-worth` (leftover from Gibson page clone).
+       Preserved for inbound-link parity per "exact visual parity" rule. -->
+  <section id="find-out-gibson-really-worth" class="smm-banner">
+    <div class="smm-banner__left">
+      <h3>Identify Your Martin Guitar&rsquo;s Model &amp; Value Today at Joe&rsquo;s Vintage Guitars</h3>
+    </div>
+    <div class="smm-banner__right">
+      <a href="/martin-serial-and-model-numbers/" class="smm-btn smm-btn--rust">Learn More</a>
+    </div>
+  </section>
+
+  <!-- 10. Consider Selling + Linda's Case Study — TWO photos in the right column
+       (Copy-of-IMG_1620 of a Martin owner + B&W historic photo of Linda playing her 0-18 on radio).
+       Anchor: #consider-selling-your-guitar (matches live). -->
+  <section id="consider-selling-your-guitar" class="smm-case">
+    <div class="smm-inner smm-case__grid">
+      <div class="smm-case__text">
+        <h3 class="smm-h3">Looking To Sell?<br /> Joe&rsquo;s Vintage Guitars Is Ready to Buy</h3>
+        <hr class="smm-rule" />
+        <p>
+          My deep passion for these extraordinary instruments drives me to ensure they remain cherished and played. Whether I keep them myself or pass them along to those who will appreciate them just as much, my goal is to honor their legacy. The stories behind these guitars are just as valuable to me as the instruments themselves. When I acquire a guitar, I treasure photos of its original owner and the history that comes with it. I carefully document these stories, print them, fold them neatly, and place them in the guitar&rsquo;s case&mdash;allowing the musicians of the past to live on through their beloved instruments.
+        </p>
+        <!-- Live renders this as an <h2> (not h3) — match for heading-inventory parity. -->
+        <h2 class="smm-h3 smm-case__sub"><strong>Preserving Linda&rsquo;s 1950s Martin 0-18 Legacy</strong></h2>
+        <p>
+          <strong>I had the distinct honor of meeting Linda, a talented musician who spent years sharing her music with the world, including performing with this very 1950s Martin 0-18 on the radio long ago.</strong> For Linda, this guitar wasn&rsquo;t just wood and wire; it was a companion through a lifetime of broadcasts and melodies. When she decided she was finally ready to move it on to a new owner, <strong>I felt a deep responsibility to honor that history. I carefully documented her story to ensure that the next player understands the incredible legacy of this instrument</strong>. It is moments like these&mdash;preserving the connection between a legendary player like Linda and her beloved Martin&mdash;that drive my passion for what I do.
+        </p>
+      </div>
+      <div class="smm-case__photos">
+        <img
+          src={`${IMG}/Copy-of-IMG_1620-600x800.jpg`}
+          alt="Former Vintage Guitar Owner with Martin Guitar at Joe&rsquo;s Vintage Guitars"
+          loading="lazy"
+          width="600"
+          height="800"
+        />
+        <img
+          src={`${IMG}/linda-1950s-with-martin-0-18-768x1024.jpg`}
+          alt="Black and white 1950s historical photo of Linda playing her vintage Martin 0-18 on the radio. Joe&rsquo;s Vintage Guitars specializes in buying Martin guitars with documented history and provenance."
+          loading="lazy"
+          width="768"
+          height="1024"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. Top Dollar — 8-card Martin model grid.
+       Anchor `#receive-the-highest-payout` matches live. -->
+  <section id="receive-the-highest-payout" class="smm-grid">
+    <div class="smm-inner">
+      <h3 class="smm-h3 smm-h3--center">Receive The Best Cash Deal for Your Vintage Martin Guitars</h3>
+      <div class="smm-grid__cards">
+        {models.map((m) => (
+          <div class="smm-grid__card">
+            <img src={m.img} alt={m.alt} loading="lazy" />
+            <h4>{m.title}</h4>
+            <p set:html={m.body} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* 12. FAQs — shared <FAQ /> component (wood-textured cream box pattern matches site-wide).
+       LIVE-SITE QUIRK: anchor `#faqs-about-gibson` (leftover from Gibson clone). Preserved. */}
+  <FAQ
+    faqs={faqs}
+    subTitle="Vintage Martin Guitars"
+    sectionId="faqs-about-gibson"
+    openFirst={true}
+  />
+
+  <!-- 13. Get In Touch — shared ContactSection (handles #receive-free-consultation anchor + form).
+       Same component used by Fender + Gibson pages for site-wide consistency. -->
+  <ContactSection />
+</Layout>
+
+<style>
+  /* ============================================================
+     SELL MY MARTIN (.smm-*) — Archetype A conversion page
+
+     Martin is structurally similar to Fender (.smf-*) but with brand-specific
+     differences:
+       - Hero is a SOLID rust gradient, NOT a B&W photo with vignette overlay
+       - Intro is one flowing paragraph (no bullet list)
+       - Form is simpler: Name/Phone/Email/Comments only — no city/country/
+         price/serial-dropdown (Martin model+serial is an interior label stamp,
+         not a headstock serial number like Fender, so no dropdown choice)
+       - 8 model cards (Fender has 7) — adds Martin Electric Models card
+       - Case study uses TWO photos (Copy-of-IMG_1620 + Linda B&W historical)
+       - No "Table of Contents" widget (Fender has one; Martin live doesn't)
+       - Different anchor IDs (some still say "gibson" — live-site leftover quirk)
+     ============================================================ */
+  .smm-inner {
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* 1. Hero — solid linear-gradient (NO photo, unlike Fender).
+     Verified via live DOM: `--awb-background-image:linear-gradient(180deg, #612211 0%,#682412 100%)` on .tp-bnr. */
+  .smm-hero {
+    position: relative;
+    isolation: isolate;
+    background: linear-gradient(180deg, #612211 0%, #682412 100%);
+    color: #fff;
+    padding: 250px 24px 60px;
+    text-align: center;
+    overflow: hidden;
+  }
+  @media (max-width: 768px) {
+    .smm-hero { padding: 120px 16px 40px; }
+  }
+  .smm-hero__inner h1 {
+    font-family: var(--font-display);
+    font-size: clamp(15px, 1.5vw, 20px);
+    font-weight: 500;
+    margin: 0 0 14px;
+    color: var(--color-brand-gold, #c8983a);
+    letter-spacing: 0.04em;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  .smm-hero__inner h1::before,
+  .smm-hero__inner h1::after {
+    content: "";
+    flex: 0 0 auto;
+    width: 36px;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.7;
+  }
+  .smm-hero__subtitle {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 4.5vw, 56px);
+    font-weight: 600;
+    color: #fff;
+    margin: 0 auto 24px;
+    max-width: 1000px;
+    line-height: 1.18;
+    letter-spacing: 0.01em;
+  }
+  .smm-hero__rule {
+    height: 3px;
+    width: 100%;
+    background: var(--color-brand-cream);
+    margin: 0 auto;
+    max-width: 1144px;
+  }
+
+  /* 2. Intro + Form ------------------------------------------- */
+  .smm-intro {
+    background: var(--color-brand-cream-warm, #f5e7c8);
+    padding: 60px 0;
+    color: var(--color-brand-brown);
+  }
+  .smm-intro__grid {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 32px;
+    align-items: stretch;
+  }
+  /* LEFT: copy stacked vertically — lede paragraph above the serial-locator photo */
+  .smm-intro__copy {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .smm-intro__lede {
+    margin: 0;
+    line-height: 1.7;
+    text-align: justify;
+    color: var(--color-brand-brown);
+  }
+  .smm-intro__lede strong { color: var(--color-brand-rust-dark); }
+  .smm-intro__lede a {
+    color: var(--color-brand-rust-dark);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .smm-intro__photo { text-align: center; }
+  .smm-intro__photo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+  }
+  .smm-underline { text-decoration: underline; }
+
+  /* Form panel — INVERTED dark-rust bg with cream text/inputs (matches Fender) */
+  .smm-intro__formwrap {
+    background: var(--color-brand-rust-dark);
+    color: var(--color-brand-cream);
+    border-radius: 6px;
+    padding: 28px 28px 24px;
+  }
+  .smm-form-head h3 {
+    font-family: var(--font-display);
+    font-size: clamp(22px, 2.4vw, 30px);
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  .smm-form-head__lede {
+    color: var(--color-brand-gold, #c8983a);
+    font-style: italic;
+    text-transform: none;
+    font-weight: 400;
+  }
+  .smm-form-head h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-brand-cream);
+    margin: 0 0 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .smm-form { display: block; }
+  .smm-field { margin-bottom: 14px; }
+  .smm-field label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-brand-cream);
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+  .smm-field input,
+  .smm-field textarea {
+    width: 100%;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.95);
+    border-radius: 4px;
+    padding: 8px 10px;
+    font: inherit;
+    font-size: 14px;
+    color: var(--color-brand-brown);
+    box-sizing: border-box;
+  }
+  .smm-field textarea { resize: vertical; min-height: 120px; }
+  .smm-field input:focus,
+  .smm-field textarea:focus {
+    outline: 2px solid var(--color-brand-gold, #c8983a);
+    outline-offset: 1px;
+    border-color: var(--color-brand-gold, #c8983a);
+  }
+  .smm-reply {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 14px;
+    margin: 6px 0 16px;
+    color: var(--color-brand-cream);
+  }
+  .smm-reply__label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-brand-cream);
+  }
+  .smm-reply__opt { font-size: 13px; cursor: pointer; color: var(--color-brand-cream); }
+  .smm-submit {
+    background: var(--color-brand-rust-bright);
+    color: #fff;
+    border: none;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 14px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+  }
+  .smm-submit:hover { background: var(--color-brand-rust-dark); }
+  .smm-form__note {
+    font-size: 12px;
+    color: rgba(255,255,255,0.75);
+    margin: 10px 0 0;
+    line-height: 1.4;
+  }
+
+  /* Intro responsive collapse */
+  @media (max-width: 950px) {
+    .smm-intro__grid { grid-template-columns: 1fr; gap: 28px; }
+  }
+
+  /* 3. Meet Joe ----------------------------------------------- */
+  /* Same "white card + rust triangle" structural pattern as Fender. */
+  .smm-meet {
+    background: var(--color-brand-cream, #eedfc0);
+    padding: 100px 30px 120px;
+  }
+  .smm-meet__row {
+    position: relative;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: stretch;
+  }
+  /* WHITE CARD behind both columns */
+  .smm-meet__row::before {
+    content: "";
+    position: absolute;
+    top: -49px;
+    right: -11px;
+    bottom: -49px;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+  }
+  /* DARK RUST TRIANGLE — peeks out top-left + bottom-left of card */
+  .smm-meet__row::after {
+    content: "";
+    position: absolute;
+    top: -49px;
+    bottom: -49px;
+    left: 0;
+    width: 100px;
+    background: rgb(104, 36, 18);
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    pointer-events: none;
+  }
+  .smm-meet__video,
+  .smm-meet__panel {
+    position: relative;
+    z-index: 1;
+  }
+  .smm-meet__video {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 24px;
+  }
+  /* Outlined rust frame — decorative rectangle peeking out top-left + bottom-left */
+  .smm-meet__video::before {
+    content: "";
+    position: absolute;
+    top: -24px;
+    bottom: -32px;
+    left: -30px;
+    width: 108px;
+    border: 4px solid var(--color-brand-rust-bright, #be4b25);
+    z-index: -1;
+    pointer-events: none;
+  }
+  .smm-lite-yt {
+    width: 600px;
+    max-width: 100%;
+    margin-left: clamp(-70px, -5vw, -20px);
+    display: block;
+  }
+  .smm-meet__panel {
+    padding: 17px 24px;
+    color: var(--color-brand-brown, #3e2a14);
+  }
+  .smm-meet__title {
+    font-family: var(--font-display);
+    font-size: clamp(22px, 2.4vw, 30px);
+    color: var(--color-brand-rust-dark);
+    font-weight: 700;
+    margin: 0 0 10px;
+    line-height: 1.25;
+  }
+  .smm-meet__name {
+    color: var(--color-brand-rust-bright);
+  }
+  .smm-meet__panel p {
+    margin: 0 0 12px;
+    line-height: 1.7;
+    text-align: justify;
+    color: var(--color-brand-brown);
+  }
+  .smm-meet__panel a { color: var(--color-brand-rust-dark); text-decoration: underline; font-weight: 600; }
+  .smm-meet__panel strong { color: var(--color-brand-rust-dark); }
+  .smm-meet__sep {
+    border: 0;
+    height: 3px;
+    width: 100%;
+    background-color: var(--color-brand-rust-dark);
+    margin: 12px 0 18px;
+  }
+
+  /* 4-6. Text + image splits --------------------------------- */
+  .smm-split { background: #fff; padding: 60px 0; }
+  .smm-split--alt { background: var(--color-brand-cream-light, #f6e9cf); }
+  .smm-split__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+  }
+  .smm-split__text p { line-height: 1.7; margin: 0 0 14px; text-align: justify; color: var(--color-brand-brown); }
+  .smm-split__photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
+  }
+
+  /* Shared H3 */
+  .smm-h3 {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 3vw, 38px);
+    font-weight: 600;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 18px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+  }
+  .smm-h3--center { text-align: center; }
+  .smm-rule {
+    border: none;
+    border-top: 3px solid var(--color-brand-rust-bright);
+    width: 80px;
+    margin: 8px 0 18px;
+  }
+  .smm-h3--center + .smm-rule { margin-left: auto; margin-right: auto; }
+  .smm-link { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .smm-link:hover { color: var(--color-brand-rust-bright); }
+
+  /* 7. Buying Process ---------------------------------------- */
+  .smm-process { background: var(--color-brand-cream-light, #f6e9cf); padding: 70px 0; }
+  .smm-process__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    margin-top: 36px;
+  }
+  .smm-process__card { text-align: center; }
+  .smm-process__icon {
+    width: 130px;
+    height: 121px;
+    margin: 0 auto 18px;
+    display: block;
+  }
+  .smm-process__card h4 {
+    font-family: var(--font-display);
+    font-size: clamp(20px, 2.2vw, 26px);
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 8px;
+    line-height: 1.25;
+  }
+  .smm-process__card .smm-rule { margin: 8px auto 16px; }
+  .smm-process__card p { line-height: 1.7; color: var(--color-brand-brown); margin: 0; }
+
+  /* 8. Testimonials ------------------------------------------ */
+  .smm-testi {
+    background: var(--color-brand-rust-dark);
+    color: var(--color-brand-cream);
+    padding: 70px 0 80px;
+    position: relative;
+  }
+  .smm-testi__title {
+    font-family: var(--font-script, "Margi"), serif;
+    font-size: clamp(35px, 3.5vw, 54px);
+    color: var(--color-brand-brown-tan);
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 32px;
+  }
+  /* Pinterest masonry via CSS columns — same pattern as Fender v10 */
+  .smm-testi__masonry {
+    column-count: 3;
+    column-gap: 20px;
+    column-fill: balance;
+  }
+  .smm-testi__card {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+    background: #dcb58b;
+    color: var(--color-brand-brown);
+    padding: 22px 24px 24px;
+    border-radius: 0 0 20px 20px;
+    margin: 0 0 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  .smm-testi__name {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 8px;
+    line-height: 1.2;
+  }
+  .smm-testi__name a { color: inherit; text-decoration: none; }
+  .smm-testi__name a:hover { text-decoration: underline; }
+  .smm-testi__stars { color: var(--color-brand-rust-bright); font-size: 16px; letter-spacing: 1px; }
+  .smm-testi__card > p:last-child { font-size: 14px; line-height: 1.6; margin: 0; color: var(--color-brand-brown); }
+
+  @media (max-width: 960px) { .smm-testi__masonry { column-count: 2; } }
+  @media (max-width: 640px) { .smm-testi__masonry { column-count: 1; } }
+
+  /* Instagram reels — 3-up grid below reviews (same pattern as Fender) */
+  .smm-testi__ig-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 48px;
+  }
+  .smm-testi__ig {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .smm-testi__ig .instagram-wrapper {
+    min-height: 360px;
+    display: flex;
+    justify-content: center;
+  }
+  .smm-testi__ig .instagram-media {
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 380px !important;
+  }
+  .smm-testi__ig .instagram-text {
+    color: var(--color-brand-cream);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .smm-testi__ig .instagram-text p { margin: 0 0 8px; }
+  .smm-testi__ig .instagram-text p:last-child { margin-bottom: 0; }
+  .smm-testi__ig .instagram-text strong { color: var(--color-brand-brown-tan); }
+
+  /* "Read More Testimonials" button — live still has this on Martin
+     (Fender's v10 dropped it). Centered below the IG grid. */
+  .smm-testi__more-wrap {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  @media (max-width: 960px) {
+    .smm-testi__ig-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .smm-testi__ig-grid { grid-template-columns: 1fr; gap: 24px; }
+  }
+
+  .smm-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+  }
+  .smm-btn--rust { background: var(--color-brand-rust-bright); color: #fff; }
+  .smm-btn--rust:hover { background: #bf6344; color: #fff; }
+
+  /* 9. Identify Your Martin banner --------------------------- */
+  .smm-banner {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: stretch;
+  }
+  .smm-banner__left {
+    background: #dc4a1e;
+    color: #fff;
+    padding: 30px 8% 30px 3%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .smm-banner__left h3 {
+    font-family: var(--font-display);
+    font-size: clamp(22px, 2.6vw, 32px);
+    color: #fff;
+    text-align: right;
+    margin: 0;
+    line-height: 1.25;
+    max-width: 660px;
+  }
+  .smm-banner__right {
+    background: var(--color-brand-cream);
+    padding: 30px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* 10. Case study + Linda's photos --------------------------- */
+  .smm-case { background: #fff; padding: 70px 0 60px; }
+  .smm-case__grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 50px;
+    align-items: start;
+  }
+  .smm-case__text p { line-height: 1.7; margin: 0 0 14px; color: var(--color-brand-brown); }
+  .smm-case__text a { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .smm-case__text strong { color: var(--color-brand-rust-dark); }
+  .smm-case__sub { font-size: clamp(20px, 2.2vw, 26px); margin-top: 24px; }
+  /* Linda case study has TWO photos stacked vertically (Martin owner + historic Linda) */
+  .smm-case__photos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .smm-case__photos img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
+  }
+
+  /* 11. Top Dollar grid (8 cards) ---------------------------- */
+  .smm-grid { background: var(--color-brand-cream-light, #f6e9cf); padding: 70px 0 80px; }
+  .smm-grid__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 36px 28px;
+    margin-top: 36px;
+  }
+  .smm-grid__card { text-align: center; }
+  .smm-grid__card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 14px;
+  }
+  .smm-grid__card h4 {
+    font-family: var(--font-display);
+    font-size: clamp(18px, 1.8vw, 22px);
+    color: var(--color-brand-rust-dark);
+    text-transform: uppercase;
+    margin: 0 0 8px;
+  }
+  .smm-grid__card p { font-size: 14px; line-height: 1.6; color: var(--color-brand-brown); margin: 0; }
+  .smm-grid__card p a { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .smm-grid__card p strong { color: var(--color-brand-rust-dark); }
+
+  /* ---- Responsive ------------------------------------------ */
+  @media (max-width: 1024px) {
+    .smm-intro__grid { grid-template-columns: 1fr; gap: 32px; }
+    .smm-grid__cards { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 900px) {
+    .smm-meet__row,
+    .smm-split__grid,
+    .smm-case__grid,
+    .smm-banner {
+      grid-template-columns: 1fr;
+    }
+    .smm-split__grid--reverse .smm-split__photo { order: -1; }
+    .smm-process__grid { grid-template-columns: 1fr; }
+    .smm-banner__left,
+    .smm-banner__right { justify-content: center; padding: 30px 24px; }
+    .smm-banner__left h3 { text-align: center; }
+    .smm-grid__cards { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .smm-hero { padding: 180px 16px 40px; }
+    .smm-intro { padding: 40px 0; }
+    .smm-meet, .smm-split, .smm-process, .smm-testi, .smm-case, .smm-grid { padding: 50px 0; }
+    .smm-meet__panel { padding: 24px; }
+    .smm-intro__formwrap { padding: 22px 18px; }
+    .smm-grid__cards { grid-template-columns: 1fr; }
+  }
+</style>

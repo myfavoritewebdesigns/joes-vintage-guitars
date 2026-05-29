@@ -1,0 +1,411 @@
+﻿[
+    {
+        "@context":  "https://schema.org",
+        "@graph":  [
+                       {
+                           "@type":  "Place",
+                           "@id":  "https://www.joesvintageguitarsaz.com/#place",
+                           "geo":  {
+                                       "@type":  "GeoCoordinates",
+                                       "latitude":  "33.41735776080888",
+                                       "longitude":  " -111.81037593707954"
+                                   },
+                           "hasMap":  "https://www.google.com/maps/search/?api=1\u0026amp;query=33.41735776080888, -111.81037593707954",
+                           "address":  {
+                                           "@type":  "PostalAddress",
+                                           "streetAddress":  "47 N Fraser Dr E",
+                                           "addressLocality":  "Mesa",
+                                           "addressRegion":  "Arizona",
+                                           "postalCode":  "85203",
+                                           "addressCountry":  "United States"
+                                       }
+                       },
+                       {
+                           "@type":  [
+                                         "MusicStore",
+                                         "Organization"
+                                     ],
+                           "@id":  "https://www.joesvintageguitarsaz.com/#organization",
+                           "name":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+                           "url":  "https://www.joesvintageguitarsaz.com",
+                           "sameAs":  [
+                                          "https://www.facebook.com/joesvintageguitars"
+                                      ],
+                           "email":  "joesvintageguitars94@gmail.com",
+                           "address":  {
+                                           "@type":  "PostalAddress",
+                                           "streetAddress":  "47 N Fraser Dr E",
+                                           "addressLocality":  "Mesa",
+                                           "addressRegion":  "Arizona",
+                                           "postalCode":  "85203",
+                                           "addressCountry":  "United States"
+                                       },
+                           "logo":  {
+                                        "@type":  "ImageObject",
+                                        "@id":  "https://www.joesvintageguitarsaz.com/#logo",
+                                        "url":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/Logo-Principal.png",
+                                        "contentUrl":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/Logo-Principal.png",
+                                        "caption":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+                                        "inLanguage":  "en-US",
+                                        "width":  "864",
+                                        "height":  "864"
+                                    },
+                           "priceRange":  "$$$",
+                           "openingHours":  [
+                                                "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-00:00"
+                                            ],
+                           "location":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/#place"
+                                        },
+                           "image":  {
+                                         "@id":  "https://www.joesvintageguitarsaz.com/#logo"
+                                     },
+                           "telephone":  "+1-602-900-6635"
+                       },
+                       {
+                           "@type":  "WebSite",
+                           "@id":  "https://www.joesvintageguitarsaz.com/#website",
+                           "url":  "https://www.joesvintageguitarsaz.com",
+                           "name":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+                           "alternateName":  "Joe\u0027s Vintage Guitars",
+                           "publisher":  {
+                                             "@id":  "https://www.joesvintageguitarsaz.com/#organization"
+                                         },
+                           "inLanguage":  "en-US"
+                       },
+                       {
+                           "@type":  "ImageObject",
+                           "@id":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/05/sell-my-martin-guitar-featured-image.jpg",
+                           "url":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/05/sell-my-martin-guitar-featured-image.jpg",
+                           "width":  "1200",
+                           "height":  "1200",
+                           "caption":  "Sell My Martin Guitar featured image",
+                           "inLanguage":  "en-US"
+                       },
+                       {
+                           "@type":  "BreadcrumbList",
+                           "@id":  "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/#breadcrumb",
+                           "itemListElement":  [
+                                                   {
+                                                       "@type":  "ListItem",
+                                                       "position":  "1",
+                                                       "item":  {
+                                                                    "@id":  "https://www.joesvintageguitarsaz.com",
+                                                                    "name":  "Home"
+                                                                }
+                                                   },
+                                                   {
+                                                       "@type":  "ListItem",
+                                                       "position":  "2",
+                                                       "item":  {
+                                                                    "@id":  "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/",
+                                                                    "name":  "Sell My Martin Guitar"
+                                                                }
+                                                   }
+                                               ]
+                       },
+                       {
+                           "@type":  "WebPage",
+                           "@id":  "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/#webpage",
+                           "url":  "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/",
+                           "name":  "Sell My Vintage Martin Guitar | Top Cash Offers",
+                           "datePublished":  "2022-05-11T22:05:20+00:00",
+                           "dateModified":  "2026-04-24T19:58:33+00:00",
+                           "isPartOf":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/#website"
+                                        },
+                           "primaryImageOfPage":  {
+                                                      "@id":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/05/sell-my-martin-guitar-featured-image.jpg"
+                                                  },
+                           "inLanguage":  "en-US",
+                           "breadcrumb":  {
+                                              "@id":  "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/#breadcrumb"
+                                          }
+                       },
+                       {
+                           "@type":  "Person",
+                           "@id":  "https://www.joesvintageguitarsaz.com/author/joedampt/",
+                           "name":  "Joe Dampt",
+                           "url":  "https://www.joesvintageguitarsaz.com/author/joedampt/",
+                           "image":  {
+                                         "@type":  "ImageObject",
+                                         "@id":  "https://secure.gravatar.com/avatar/b59f3dc94db4c3521c86659644a17187119c1eed4bb55f1e78f7dc00bc2bca38?s=96\u0026amp;d=mm\u0026amp;r=g",
+                                         "url":  "https://secure.gravatar.com/avatar/b59f3dc94db4c3521c86659644a17187119c1eed4bb55f1e78f7dc00bc2bca38?s=96\u0026amp;d=mm\u0026amp;r=g",
+                                         "caption":  "Joe Dampt",
+                                         "inLanguage":  "en-US"
+                                     },
+                           "sameAs":  [
+                                          "https://www.joesvintageguitarsaz.com/about-me/"
+                                      ],
+                           "worksFor":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/#organization"
+                                        }
+                       },
+                       {
+                           "image":  {
+                                         "@id":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/05/sell-my-martin-guitar-featured-image.jpg"
+                                     },
+                           "headline":  "Sell My MARTIN Guitar | Joes Vintage Guitars",
+                           "description":  "We have top dollar cash offers for vintage Martin guitars.",
+                           "keywords":  "martin guitar, sell martin guitar, sell my martin guitar,",
+                           "speakable":  {
+                                             "@type":  "SpeakableSpecification",
+                                             "cssSelector":  [
+
+                                                             ]
+                                         },
+                           "@type":  "Article",
+                           "author":  {
+                                          "@id":  "https://www.joesvintageguitarsaz.com/author/joedampt/",
+                                          "name":  "Joe Dampt"
+                                      },
+                           "datePublished":  "2022-05-11T22:05:20+00:00",
+                           "dateModified":  "2026-04-24T19:58:33+00:00",
+                           "name":  "Sell My MARTIN Guitar | Joes Vintage Guitars",
+                           "@id":  "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/#schema-7378",
+                           "isPartOf":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/#webpage"
+                                        },
+                           "publisher":  {
+                                             "@id":  "https://www.joesvintageguitarsaz.com/#organization"
+                                         },
+                           "inLanguage":  "en-US",
+                           "mainEntityOfPage":  {
+                                                    "@id":  "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/#webpage"
+                                                }
+                       }
+                   ]
+    },
+    {
+        "@context":  "https://schema.org",
+        "@type":  "ProfessionalService",
+        "@id":  "https://www.joesvintageguitarsaz.com/",
+        "url":  "https://www.joesvintageguitarsaz.com/",
+        "sameAs":  [
+                       "https://www.facebook.com/joesvintageguitars/",
+                       "https://www.youtube.com/@joesvintageguitars",
+                       "https://reverb.com/shop/joe-s-gear-emporium-4",
+                       "https://www.pinterest.com/joesvintageguitars0087/",
+                       "https://www.instagram.com/joesvintageguitarsaz/",
+                       "https://www.tiktok.com/@joesvintageguitar/",
+                       "https://maps.app.goo.gl/QwmHsZGznWUwB9LA9/"
+                   ],
+        "logo":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/06/joes-vintage-guitars-logo.jpg",
+        "image":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/om2ob5ra1i1x7wbklaug.jpg",
+        "name":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+        "legalName":  "Joe’s Vintage Guitars",
+        "description":  "Joe\u0027s Vintage Guitars specializes in purchasing and collecting vintage guitars and other stringed instruments. With years of expertise, Joe Dampt offers top cash for renowned brands like Fender and Gibson.",
+        "numberOfEmployees":  {
+                                  "@type":  "QuantitativeValue",
+                                  "value":  1
+                              },
+        "aggregateRating":  {
+                                "@type":  "AggregateRating",
+                                "bestRating":  "5",
+                                "worstRating":  "1",
+                                "ratingCount":  "405",
+                                "ratingValue":  "5"
+                            },
+        "priceRange":  "$$$$",
+        "openingHoursSpecification":  [
+                                          {
+                                              "@type":  "OpeningHoursSpecification",
+                                              "dayOfWeek":  [
+                                                                "Monday",
+                                                                "Tuesday",
+                                                                "Wednesday",
+                                                                "Thursday",
+                                                                "Friday",
+                                                                "Saturday",
+                                                                "Sunday"
+                                                            ],
+                                              "opens":  "00:00",
+                                              "closes":  "23:59"
+                                          }
+                                      ],
+        "telephone":  "+1-602-900-6635",
+        "address":  {
+                        "@type":  "PostalAddress",
+                        "streetAddress":  "47 N Fraser Dr E",
+                        "addressLocality":  "Mesa",
+                        "addressRegion":  "AZ",
+                        "postalCode":  "85203",
+                        "addressCountry":  "US"
+                    },
+        "contactPoint":  {
+                             "@type":  "ContactPoint",
+                             "telephone":  "+1-602-900-6635",
+                             "contactType":  "Customer Support",
+                             "availableLanguage":  [
+                                                       "English",
+                                                       "Spanish"
+                                                   ]
+                         },
+        "geo":  {
+                    "@type":  "GeoCoordinates",
+                    "latitude":  "33.417304029490694",
+                    "longitude":  "-111.81059051571508"
+                },
+        "makesOffer":  [
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Buy and Sell Guitars"
+                                               }
+                           },
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Free Guitar Appraisal"
+                                               }
+                           },
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Stringed Instruments Appraisal"
+                                               }
+                           },
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Vintage Guitar Consignment"
+                                               }
+                           }
+                       ],
+        "department":  [
+                           {
+                               "@type":  "ProfessionalService",
+                               "name":  "Buy Sell Vintage Guitars",
+                               "@id":  "https://www.joesvintageguitarsaz.com/",
+                               "url":  "https://www.joesvintageguitarsaz.com/",
+                               "sameAs":  [
+                                              "https://www.facebook.com/joesvintageguitars/",
+                                              "https://www.youtube.com/@joesvintageguitars",
+                                              "https://www.instagram.com/joesvintageguitarsaz/",
+                                              "https://maps.app.goo.gl/6xHcpYV9EdNij5vY8/"
+                                          ],
+                               "image":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/njw3skvdov5hr4crdk1e.jpg",
+                               "telephone":  "+1-602-830-5735",
+                               "priceRange":  "$$$$",
+                               "openingHoursSpecification":  [
+                                                                 {
+                                                                     "@type":  "OpeningHoursSpecification",
+                                                                     "dayOfWeek":  [
+                                                                                       "Monday",
+                                                                                       "Tuesday",
+                                                                                       "Wednesday",
+                                                                                       "Thursday",
+                                                                                       "Friday",
+                                                                                       "Saturday",
+                                                                                       "Sunday"
+                                                                                   ],
+                                                                     "opens":  "00:00",
+                                                                     "closes":  "23:59"
+                                                                 }
+                                                             ],
+                               "areaServed":  [
+                                                  {
+                                                      "@type":  "AdministrativeArea",
+                                                      "name":  "United States"
+                                                  },
+                                                  {
+                                                      "@type":  "AdministrativeArea",
+                                                      "name":  "Canada"
+                                                  }
+                                              ]
+                           }
+                       ]
+    },
+    {
+        "@context":  "https://schema.org",
+        "@id":  "https://www.joesvintageguitarsaz.com/",
+        "review":  [
+                       {
+                           "@type":  "Review",
+                           "author":  {
+                                          "@type":  "Person",
+                                          "name":  "Adrienne Young"
+                                      },
+                           "reviewBody":  "Fair, courteous, gracious and trustworthy – it was a pleasure doing business with this company. Feeling no regrets after selling our 1920\u0027s Martin to these folks – we highly recommend. Thank you!",
+                           "reviewRating":  {
+                                                "@type":  "Rating",
+                                                "ratingValue":  "5"
+                                            }
+                       },
+                       {
+                           "@type":  "Review",
+                           "author":  {
+                                          "@type":  "Person",
+                                          "name":  "Tony Michaud"
+                                      },
+                           "reviewBody":  "If you are looking to get your guitar appraised, I highly recommend reaching out to Joe\u0027s Vintage Guitars. Even though they are a busy place, they took the time to look at the photos of my Martin D18 and emailed back an appraisal – and they were super nice!! Thanks Joe\u0027s Vintage Guitars!!",
+                           "reviewRating":  {
+                                                "@type":  "Rating",
+                                                "ratingValue":  "5"
+                                            }
+                       },
+                       {
+                           "@type":  "Review",
+                           "author":  {
+                                          "@type":  "Person",
+                                          "name":  "Scott Wolfe"
+                                      },
+                           "reviewBody":  "Called Joe regarding a dull sounding \u0027b\u0027 string on my Martin. He identified an issue with where that string went through the nut, built up that portion and renotched it at the proper height. The tone of the string was corrected in a few days at a very affordable rate. Would highly recommend Joe\u0027s Vintage Guitars for these type of repairs.",
+                           "reviewRating":  {
+                                                "@type":  "Rating",
+                                                "ratingValue":  "5"
+                                            }
+                       }
+                   ]
+    },
+    {
+        "@context":  "https://schema.org",
+        "@type":  "FAQPage",
+        "mainEntity":  [
+                           {
+                               "@type":  "Question",
+                               "name":  "What Should I Look For In An Appraiser When Evaluating My Vintage Martin Guitar?",
+                               "acceptedAnswer":  {
+                                                      "@type":  "Answer",
+                                                      "text":  "When evaluating a vintage Martin guitar, it’s important to work with an appraiser who specializes in vintage and high-end acoustic instruments. At Joe’s Vintage Guitars, we have extensive experience with Martin guitars and understand the details that truly affect value—such as model variations, serial numbers, tonewoods, and original components. We provide accurate, professional evaluations backed by current market trends and decades of hands-on expertise. Our goal is to give you a clear, trustworthy understanding of your guitar’s worth."
+                                                  }
+                           },
+                           {
+                               "@type":  "Question",
+                               "name":  "Can I Sell My Vintage Martin Guitar Without Original Paperwork?",
+                               "acceptedAnswer":  {
+                                                      "@type":  "Answer",
+                                                      "text":  "Yes, you can absolutely sell your vintage Martin guitar without the original paperwork. While original documents like the bill of sale or warranty card can be helpful, they’re not required to determine authenticity or value. At Joe’s Vintage Guitars, we carefully inspect each instrument to verify its originality and condition. We’ve purchased and appraised many valuable Martins without any paperwork—what truly matters is the guitar itself."
+                                                  }
+                           },
+                           {
+                               "@type":  "Question",
+                               "name":  "What Factors Affect The Value Of A Vintage Martin Guitar?",
+                               "acceptedAnswer":  {
+                                                      "@type":  "Answer",
+                                                      "text":  "Several key factors influence the value of a vintage Martin guitar, including the model, year of production, overall condition, originality of parts, and whether it has had any modifications or repairs. Pre-war models and guitars with Brazilian rosewood are especially sought-after. At Joe’s Vintage Guitars, we also consider playability, tonal quality, and market demand when evaluating value. Our team has the knowledge and experience to assess your guitar accurately and provide a fair market appraisal."
+                                                  }
+                           },
+                           {
+                               "@type":  "Question",
+                               "name":  "Are There Specific Martin Guitar Models That Are More Sought-After?",
+                               "acceptedAnswer":  {
+                                                      "@type":  "Answer",
+                                                      "text":  "Yes—certain Martin models are consistently in high demand among collectors and players. Pre-war D-28s and D-18s, 1930s OM and 000 models, and guitars made with Brazilian rosewood are especially desirable. Limited editions and well-preserved vintage instruments also tend to attract strong interest. At Joe’s Vintage Guitars, we specialize in identifying these high-value models and can help you understand exactly what you have and how it fits into the current market."
+                                                  }
+                           },
+                           {
+                               "@type":  "Question",
+                               "name":  "What Documentation Is Needed To Accurately Value A Vintage Martin Guitar?",
+                               "acceptedAnswer":  {
+                                                      "@type":  "Answer",
+                                                      "text":  "While original documentation can add context and value, it’s not required to accurately assess a vintage Martin guitar. At Joe’s Vintage Guitars, we rely on a detailed evaluation process that includes serial number analysis, inspection of tonewoods and hardware, and assessment of originality and condition. We recommend providing clear photos and any known history, but even without paperwork, we can offer a reliable and well-documented appraisal."
+                                                  }
+                           }
+                       ]
+    }
+]
