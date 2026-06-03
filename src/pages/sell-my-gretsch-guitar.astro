@@ -1,0 +1,256 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ContactSection from "../components/ContactSection.astro";
+import FAQ from "../components/FAQ.astro";
+import { contact, hrefs } from "../config/site";
+
+/* ============================================================
+   SELL MY GRETSCH GUITAR (.smgt-*) — Archetype B
+   Same skeleton as Sell My Rickenbacker. Reuses the brand-agnostic
+   feature-grid images from /images/sell-rickenbacker/ (live's Gretsch
+   page also references those same Rickenbacker-named images — a CMS
+   quirk we preserve for visual parity).
+   ============================================================ */
+
+const IMG = "/images/sell-rickenbacker"; // shared feature-grid + appraisal photo
+const TESTI_BG = "/images/sell-rickenbacker/rickenbacker-reviews-bg.jpg";
+
+const reviews = [
+  {
+    name: "John Haverlin",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNLN2JqMzVRRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICK7bj35QE%7C%7C?hl=en",
+    body: "Joe’s a good guy. Had him set up my Les Paul and Gretsch and he did a superb job. Look forward to coming back to him again in the future.",
+  },
+  {
+    name: "David Rath",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0NWVVRXRhV3BGWkhObE1uQXlNMmxPVURCNVQzYxAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CAIQACodChtycF9oOkt5eUEtaWpFZHNlMnAyM2lOUDB5T3c%7C%7C?hl=en",
+    body: "Selling my parents’ guitars that sat up in the attic for years was very easy. I sent pictures to Joe, and he got back to me with an appraisal in just a few minutes. His instructions for shipping the guitars to AZ were very simple and did not cost me a thing. After leaving FedEx, I received my payment in about 15 minutes! Thank you, Joe, for everything.",
+  },
+  {
+    name: "Debra Parsons",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pCRmJFTXhOeTAzV0RCcVQwZENkMmwzT1cxMGVrRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CAIQACodChtycF9oOjBFbEMxNy03WDBqT0dCd2l3OW10ekE%7C%7C?hl=en",
+    body: "I want to extend my deepest gratitude for such a flawless experience selling my instruments to you. Selling such memorable and vintage pieces is always a significant moment, but knowing they are now in the hands of a true enthusiast who respects their history makes all the difference. I was particularly impressed by how you navigated the entire transaction. From our first conversation, you provided a level of guidance that turned what could have been a complex process into a masterclass in transparency. You made me feel completely comfortable at every turn, ensuring I knew exactly what to expect logistically and professionally. It’s rare to find someone who combines such deep expertise with a world-class approach to the human side of the deal. Thank you for making this such a seamless and positive experience—I’m thrilled these instruments have found their next chapter with you.",
+  },
+];
+
+const featureCols = [
+  {
+    icon: `${IMG}/prices-icon.svg`,
+    iconAlt: "Providing Fair And Convenient Prices Nationwide",
+    photo: `${IMG}/fair-and-convenient-prices-rickenbacker.jpg`,
+    photoAlt: "Fair And Convenient Prices For Your Gretsch Guitar",
+    headline: "Get Fair Prices For Your Gretsch Bass &amp; Electric Guitars",
+    body: "I will always give you the fairest price on the market for your guitar or bass. Have one that you want to sell? <a href=\"/contact-me/\" class=\"smgt-link\">Contact me today</a>!",
+  },
+  {
+    icon: `${IMG}/classic-icon.svg`,
+    iconAlt: "Rare, Unique, And Classic Guitars",
+    photo: `${IMG}/find-rare-unique-classic-rickenbacker.jpg`,
+    photoAlt: "Find Rare, Unique And Classic Gretsch Guitars In Our Online Shop",
+    headline: "Find Rare, Unique &amp; Classic Gretsch Guitars In Our Online Shop",
+    body: "Due to my constant travels around the country, we are constantly updating our inventory. Don’t forget to browse our online catalog; you might find a rare Gretsch guitar!",
+  },
+  {
+    icon: `${IMG}/guitar-icon.svg`,
+    iconAlt: "Many Years Of Experience",
+    photo: `${IMG}/years-of-experience-buying-and-selling.jpg`,
+    photoAlt: "Years Of Experience Buying And Selling Guitars From All Over America",
+    headline: "Years Of Experience Buying &amp; Selling Guitars From All Over America",
+    body: "Over the years, I have seen many Gretsch guitar models and series. You can benefit from my expertise whether you are buying or selling one of your own.",
+  },
+];
+
+const faqs = [
+  { id: "toggle_527859ceb8a70e0f6", q: "How Can Appraisal Experts Determine My Guitar's Price &amp; Value?", a: "There are several things that I take into consideration when determining the price of your guitar. These include your instrument&rsquo;s age, how unique it is, if it belong to anyone famous, and the condition of the guitar itself. All of those things combined will dictate what you will pay or be paid for it." },
+  { id: "toggle_02229f7ac996d625a", q: "Can I Sell My Guitar On Consignment Or Trade It For Another One?", a: "There is not a set answer for this. It depends on a number of things &mdash; like if I have something that you might want to trade for or if the guitar is in good enough shape or valuable enough. I will approach each scenario carefully and will give you a detailed answer as to why or why not this can happen." },
+  { id: "toggle_a6fb7e4d037f53f7c", q: "What Are The Payment Options To Buy A Vintage Guitar?", a: "I generally prefer to work in cash when it comes to buying and selling, but if there is a reasonable alternative, I will gladly listen to any suggestions that you might have. I cannot guarantee that I will be able to work with your payment method, but it never hurts to ask first. I look forward to working with you!" },
+  { id: "toggle_00fc6428ecb9a31e6", q: "Will I Have To Pay For Shipping Taxes To Buy Or Sell A Guitar?", a: "This usually depends on what state you are buying or selling from. Typically, the buyer is the one who pays the shipping tax, not the seller. Be sure to inquire about this before sending any payment. It&rsquo;s my goal to have a smooth transaction on all ends. Thanks for taking a look!" },
+  { id: "toggle_e91094f9e7923d8b7", q: "Is There A Warranty Or Return Policy After Buying A Used Guitar From You?", a: "Yes. If you find that the guitar was damaged while shipping or soon after with normal use, we will work something out so that you are completely satisfied. I want you to be able to enjoy playing the guitar as much as I do and having this sort of protection will put your mind at ease." },
+];
+
+const structuredData = [
+  { "@context": "https://schema.org", "@type": "FAQPage", name: "About Our Guitar Resale Services", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q.replace(/&rsquo;/g, "'").replace(/&amp;/g, "&"), acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'").replace(/&mdash;/g, "—") } })) },
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" }, { "@type": "ListItem", position: 2, name: "Sell My Gretsch Guitar", item: "https://www.joesvintageguitarsaz.com/sell-my-gretsch-guitar/" } ] },
+  { "@context": "https://schema.org", "@type": "Article", headline: "Sell Your Vintage Gretsch Guitar In The US", author: { "@type": "Person", name: "Joe Dampt" }, publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" }, mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-gretsch-guitar/" },
+];
+---
+
+<Layout
+  title="Sell New Or Used Gretsch Guitars At Joes Vintage Guitars"
+  description="Looking to sell or just appraise your Gretsch guitar? Joe's Vintage Guitars is buying! We'll buy your acoustic, bass, hollow, &amp; semi-hollow Gretsch guitars!"
+  canonical="/sell-my-gretsch-guitar/"
+  ogImage={`${IMG}/find-rare-unique-classic-rickenbacker.jpg`}
+  structuredData={structuredData}
+>
+  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
+  <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+
+  <section class="smgt-hero">
+    <div class="smgt-inner">
+      <h1>Sell Your Vintage Gretsch Guitar In The US</h1>
+      <div class="smgt-hero__rule" aria-hidden="true"></div>
+      <h2 class="smgt-hero__subtitle">Leading Gretsch Used Guitar Buyer Near You</h2>
+      <div class="smgt-hero__copy">
+        <p>Are you looking to sell a vintage Gretsch guitar? Are you simply curious what your guitar is worth? Joe&rsquo;s Vintage Guitars can help! I have spent years of my life playing and researching all types of guitars, and have personally experienced the trial and error process of buying and selling vintage, high-quality guitars. I believe these guitars are incredible investments, and I know exactly what they are worth.</p>
+        <p>For that reason, I am proud to offer <a href="/free-appraisal/">free vintage guitar appraisals</a> to anyone looking to sell their vintage Gretsch. You will need to send me photos through email or text, or visit my shop if you are local to Arizona. I am honest, trustworthy, and passionate about these incredible instruments.</p>
+      </div>
+      <div class="smgt-hero__cta">
+        <a href="/free-appraisal/" class="smgt-btn smgt-btn--rust">Get Your Free Appraisal</a>
+        <p class="smgt-hero__cta-sub">Get the best price for your Vintage Guitar</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="smgt-buyappraise">
+    <div class="smgt-inner smgt-buyappraise__grid">
+      <div class="smgt-buyappraise__text">
+        <h3>I Buy &amp; Appraise <span>Vintage Guitars</span> <span class="smgt-buyappraise__online">Online Or In Person</span></h3>
+        <p>When you are ready to get your Gretsch guitar appraised in Arizona, you will simply need to text or email several clear, quality photos to me, along with your contact information. We will view the photos and let you know if we need additional information, and provide an honest appraisal of its value. We are always looking for vintage guitars and pay top dollar in a risk-free, simple process!</p>
+        <a href={hrefs.tel} class="smgt-btn smgt-btn--rust">{contact.phone}</a>
+      </div>
+      <div class="smgt-buyappraise__photo">
+        <img src={`${IMG}/i-buy-and-appraise-vintage-guitars.png`} alt="Joe Dampt Buys And Appraises Gretsch Guitars Online Or In Person" loading="lazy" width="1106" height="720" />
+      </div>
+    </div>
+  </section>
+
+  <section class="smgt-nationwide">
+    <div class="smgt-inner">
+      <h3 class="smgt-nationwide__title">Nationwide Gretsch Guitar Resale &amp; Appraisals</h3>
+      <div class="smgt-nationwide__cols">
+        {featureCols.map((c) => (
+          <div class="smgt-nationwide__col">
+            <img src={c.icon} alt={c.iconAlt} class="smgt-nationwide__icon" loading="lazy" />
+            <img src={c.photo} alt={c.photoAlt} class="smgt-nationwide__photo" loading="lazy" />
+            <hr class="smgt-rule" />
+            <h4 set:html={c.headline} />
+            <p set:html={c.body} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="smgt-testi" style={`background-image: url('${TESTI_BG}')`}>
+    <div class="smgt-inner">
+      <div class="smgt-testi__head">
+        <h3 class="smgt-testi__title">Our Clients&rsquo; Testimonials</h3>
+        <h4 class="smgt-testi__sub">5-Star Rated Gretsch Guitar Resale Expert Near You</h4>
+      </div>
+      <div class="smgt-testi__grid">
+        {reviews.map((r) => (
+          <article class="smgt-testi__card">
+            <p class="smgt-testi__name"><a href={r.link} target="_blank" rel="noopener noreferrer">{r.name}</a></p>
+            <p class="smgt-testi__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <p class="smgt-testi__body">{r.body}</p>
+          </article>
+        ))}
+      </div>
+      <div class="smgt-testi__more-wrap">
+        <a href="https://www.google.com/maps/place/Joe%27s+Vintage+Guitars+-+We+Buy+Guitars!/@33.420432,-111.8365821,17z/data=!4m7!3m6!1s0x872ba7d2937937d9:0x69728d089b8a764!8m2!3d33.420432!4d-111.8343934!9m1!1b1" target="_blank" rel="noopener noreferrer" class="smgt-btn smgt-btn--rust">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="smgt-meet-wrap">
+    <div class="smgt-meet-cta">
+      <div class="smgt-inner smgt-meet-cta__grid">
+        <h3 class="smgt-meet-cta__title">
+          <span class="smgt-meet-cta__accent">Sell Your Gretsch</span> Guitar Collection Online
+        </h3>
+        <a href="/contact-me/" class="smgt-btn smgt-btn--cream">Contact Now</a>
+      </div>
+    </div>
+    <div class="smgt-inner smgt-meet">
+      <div class="smgt-meet__video">
+        <lite-youtube videoid="zMd6IJ-6e-8" params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1" title="Meet Vintage Guitar Expert, Joe Dampt" class="smgt-lite-yt"></lite-youtube>
+      </div>
+      <div class="smgt-meet__panel">
+        <h3 class="smgt-meet__title">Meet Vintage Guitar Expert, <span>Joe Dampt</span></h3>
+        <h5 class="smgt-meet__sub">Professional Buyer and Seasoned Collector of Vintage Guitars</h5>
+        <p>Hey there! My name is Joe Dampt and I love old music and old guitars!</p>
+        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I&rsquo;ve sacrificed and worked hard to make music and musical instruments my livelihood. I love old guitars and musical instruments, but I love the MUSIC even more. I believe that guitars don&rsquo;t do us any good if they just sit in a case. These beauties are meant to be played!</p>
+        <p>I&rsquo;ve performed in many local bands and my favorite styles to play are classic country/western music, swing &amp; dance music, and classic rock &amp; roll.</p>
+      </div>
+    </div>
+  </section>
+
+  <FAQ faqs={faqs} mainTitle="Frequently Asked Questions" subTitle="About Our Guitar Resale Services" sectionId="faqs-gretsch" openFirst={true} />
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .smgt-inner { max-width: 1144px; margin: 0 auto; padding: 0 24px; }
+  .smgt-link { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .smgt-link:hover { color: var(--color-brand-rust-bright); }
+  .smgt-rule { border: none; border-top: 3px solid var(--color-brand-rust-bright); width: 80px; margin: 12px auto 16px; }
+
+  .smgt-btn { display: inline-block; padding: 14px 32px; font-family: var(--font-display); font-size: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; text-decoration: none; border-radius: 4px; transition: background 0.2s, color 0.2s; border: none; cursor: pointer; }
+  .smgt-btn--rust { background: var(--color-brand-rust-bright); color: #fff; }
+  .smgt-btn--rust:hover { background: #bf6344; }
+  .smgt-btn--cream { background: var(--color-brand-cream); color: var(--color-brand-rust-dark); }
+  .smgt-btn--cream:hover { background: #fff; }
+
+  /* Hero — black bg */
+  .smgt-hero { background: #000; color: #fff; padding: 280px 24px 80px; text-align: center; }
+  @media (max-width: 768px) { .smgt-hero { padding: 120px 16px 60px; } }
+  .smgt-hero h1 { font-family: var(--font-display); font-size: clamp(32px, 4.5vw, 56px); font-weight: 600; color: var(--color-brand-cream); margin: 0 auto 18px; max-width: 1000px; line-height: 1.15; }
+  .smgt-hero__rule { height: 3px; width: 100%; max-width: 740px; background: var(--color-brand-cream); margin: 0 auto 20px; }
+  .smgt-hero__subtitle { font-family: var(--font-display); color: #f0e1c1; font-weight: 400; font-size: clamp(20px, 2.5vw, 26px); margin: 0 auto calc(20px + 2%); max-width: 900px; }
+  .smgt-hero__copy { max-width: 900px; margin: 0 auto 30px; }
+  .smgt-hero__copy p { color: #fff; line-height: 1.7; margin: 0 0 16px; }
+  .smgt-hero__copy a { color: var(--color-brand-gold, #c8983a); text-decoration: underline; }
+  .smgt-hero__cta-sub { color: var(--color-brand-cream); margin: 14px 0 0; font-weight: 600; }
+
+  /* I Buy & Appraise */
+  .smgt-buyappraise { background: linear-gradient(180deg, #f2f2f2 0%, rgba(255, 255, 255, 0) 100%); padding: 70px 0; }
+  .smgt-buyappraise__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+  .smgt-buyappraise__text h3 { font-family: var(--font-display); font-size: clamp(24px, 2.8vw, 34px); color: var(--color-brand-rust-dark); line-height: 1.25; margin: 0 0 18px; }
+  .smgt-buyappraise__text h3 span { white-space: nowrap; }
+  .smgt-buyappraise__online { display: block; font-size: 0.7em; color: var(--color-brand-brown); }
+  .smgt-buyappraise__text p { line-height: 1.7; margin: 0 0 22px; color: var(--color-brand-brown); }
+  .smgt-buyappraise__photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
+  @media (max-width: 900px) { .smgt-buyappraise__grid { grid-template-columns: 1fr; gap: 30px; } }
+
+  /* Nationwide */
+  .smgt-nationwide { padding: 60px 0 80px; background: #fff; }
+  .smgt-nationwide__title { font-family: "Oswald", var(--font-display); font-weight: 600; font-size: 36px; color: var(--color-brand-rust-dark); text-align: center; margin: 0 0 40px; line-height: 1.25; display: flex; align-items: center; justify-content: center; gap: 18px; }
+  .smgt-nationwide__title::before, .smgt-nationwide__title::after { content: ""; flex: 1; max-width: 120px; height: 1px; background: var(--color-brand-rust-dark); opacity: 0.45; }
+  .smgt-nationwide__cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+  .smgt-nationwide__col { text-align: center; }
+  .smgt-nationwide__icon { width: 80px; height: auto; margin: 0 auto 16px; display: block; }
+  .smgt-nationwide__photo { width: 100%; height: auto; display: block; border-radius: 4px; margin-bottom: 12px; }
+  .smgt-nationwide__col h4 { font-family: var(--font-display); font-size: 22px; color: var(--color-brand-rust-dark); margin: 0 0 10px; line-height: 1.3; }
+  .smgt-nationwide__col p { line-height: 1.65; color: var(--color-brand-brown); margin: 0; }
+  @media (max-width: 900px) { .smgt-nationwide__cols { grid-template-columns: 1fr; gap: 30px; } .smgt-nationwide__title::before, .smgt-nationwide__title::after { display: none; } }
+
+  /* Testimonials */
+  .smgt-testi { background-color: var(--color-brand-rust-dark); background-size: cover; background-position: center; color: var(--color-brand-cream); padding: 70px 0 80px; margin-top: -70px; }
+  .smgt-testi__head { text-align: center; margin-bottom: 40px; }
+  .smgt-testi__title { font-family: var(--font-script, "Margi"), serif; font-size: clamp(32px, 3.5vw, 54px); color: var(--color-brand-brown-tan); font-weight: 400; margin: 0 0 6px; line-height: 1; }
+  .smgt-testi__sub { color: var(--color-brand-cream); font-size: 22px; font-weight: 400; margin: 0; }
+  .smgt-testi__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .smgt-testi__card { background: var(--color-brand-brown-tan, #dcb58b); color: var(--color-brand-brown); padding: 22px 24px; border-radius: 0 0 20px 20px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); }
+  .smgt-testi__name { font-family: "Oswald", var(--font-display); font-size: 23px; font-weight: 600; color: var(--color-brand-rust-dark); margin: 0 0 6px; line-height: 1.2; }
+  .smgt-testi__name a { color: inherit; text-decoration: none; }
+  .smgt-testi__name a:hover { text-decoration: underline; }
+  .smgt-testi__stars { color: var(--color-brand-rust-bright); font-size: 16px; letter-spacing: 1px; margin: 0 0 10px; }
+  .smgt-testi__body { font-size: 14px; line-height: 1.6; margin: 0; color: var(--color-brand-brown); text-align: justify; }
+  .smgt-testi__more-wrap { text-align: center; margin-top: 40px; }
+  @media (max-width: 900px) { .smgt-testi__grid { grid-template-columns: 1fr; } }
+
+  /* Meet Joe */
+  .smgt-meet-wrap { background: var(--color-brand-cream, #eedfc0); padding: 60px 0 80px; }
+  .smgt-meet-cta { padding: 0 0 30px; }
+  .smgt-meet-cta__grid { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; align-items: center; }
+  .smgt-meet-cta__title { font-family: var(--font-script, "Margi"), serif; color: #fff; background: var(--color-brand-rust-dark); padding: 18px 26px; border-radius: 8px; margin: 0; font-size: clamp(22px, 3vw, 38px); font-weight: 400; }
+  .smgt-meet-cta__accent { color: var(--color-brand-brown-tan); }
+  .smgt-meet { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; background: #f0e1c1; border-radius: 10px; padding: 40px; margin-top: 30px; }
+  .smgt-meet__video .smgt-lite-yt { width: 100%; max-width: 600px; display: block; }
+  .smgt-meet__title { font-family: var(--font-display); font-size: clamp(24px, 2.8vw, 32px); color: var(--color-brand-rust-dark); margin: 0 0 6px; line-height: 1.2; }
+  .smgt-meet__title span { white-space: nowrap; }
+  .smgt-meet__sub { color: var(--color-brand-rust-bright); font-weight: 400; font-size: 16px; margin: 0 0 18px; }
+  .smgt-meet__panel p { margin: 0 0 12px; line-height: 1.7; color: var(--color-brand-brown); text-align: justify; }
+  @media (max-width: 900px) { .smgt-meet-cta__grid { grid-template-columns: 1fr; text-align: center; } .smgt-meet { grid-template-columns: 1fr; padding: 28px; } }
+</style>
