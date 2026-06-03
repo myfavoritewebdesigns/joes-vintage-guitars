@@ -1,0 +1,446 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { contact, hrefs } from "../config/site";
+
+/* ============================================================
+   CONTACT ME — small, focused page.
+   Structure mirrors live /contact-me/ exactly:
+     1. Title-bar hero with H1 "Contact Me"
+     2. Location card + static Joe-Map image (left/right split)
+     3. Contact CTA + form (with custom heading unique to this page —
+        "Contact Joe's Vintage Guitars / Vintage Guitar Buyer Today!")
+   Does NOT use the shared <ContactSection /> because that component's
+   heading is "Talk With Joe Today" and this page uses a different one.
+   ============================================================ */
+
+const IMG = "/images/contact-me";
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Contact Me", item: "https://www.joesvintageguitarsaz.com/contact-me/" },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    name: "Contact Joe Dampt At Joe’s Vintage Guitars",
+    url: "https://www.joesvintageguitarsaz.com/contact-me/",
+    mainEntity: { "@id": "https://www.joesvintageguitarsaz.com/#organization" },
+  },
+];
+---
+
+<Layout
+  title="Contact Joe Dampt At Joe’s Vintage Guitars"
+  description="Contact Joe's Vintage Guitars, the top-rated nationwide buyer of vintage guitars. Just email us at joesvintageguitars94@gmail.com or text us at 602-900-6635"
+  canonical="/contact-me/"
+  ogImage={`${IMG}/contact-me-featured-image.jpg`}
+  structuredData={structuredData}
+>
+  <!-- 1. Title bar ----------------------------------------------- -->
+  <section class="cm-title-bar">
+    <div class="cm-inner">
+      <h1>Contact Me</h1>
+    </div>
+  </section>
+
+  <!-- 2. Location card + Joe-Map ---------------------------------- -->
+  <section class="cm-location">
+    <div class="cm-location__grid">
+      <!-- LEFT: location info card with location-bg background -->
+      <div
+        class="cm-location__card"
+        style={`background-image: url('${IMG}/location-bg.jpg')`}
+      >
+        <div class="cm-location__inner">
+          <img
+            src={`${IMG}/mascot-stacked.png`}
+            alt="Joe's Vintage Guitars mascot logo"
+            width="160"
+            height="160"
+            class="cm-location__mascot"
+            loading="eager"
+          />
+          <p class="cm-location__addr">
+            {contact.address.street}<br />
+            {`${contact.address.city}, ${contact.address.region} ${contact.address.postalCode}`}
+          </p>
+          <p class="cm-location__email">
+            <a href={hrefs.mailto}>{contact.email}</a>
+          </p>
+          <p class="cm-location__hours">
+            <span class="cm-location__hours-label">Office Hours</span><br />
+            Open 24 hrs by appointment
+          </p>
+          <p class="cm-location__maplinks">
+            <a href={contact.mapUrl} target="_blank" rel="noopener noreferrer">View Map</a>
+            <span aria-hidden="true"> | </span>
+            <a
+              href="https://www.google.com/maps/dir//Joe's+Vintage+Guitars+-+We+Buy+Guitars!,+North+Macdonald+unit+c,+Mesa,+AZ/@33.4166364,-111.845567,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x872ba7d2937937d9:0x69728d089b8a764!2m2!1d-111.8105476!2d33.4165697!3e0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Get Directions</a>
+          </p>
+          <a href={hrefs.tel} class="cm-btn cm-btn--rust">{contact.phone}</a>
+        </div>
+      </div>
+
+      <!-- RIGHT: static map image (not a Google Maps iframe — matches live) -->
+      <div class="cm-location__map">
+        <img
+          src={`${IMG}/Joe-Map.jpg`}
+          alt={`Joe's Vintage Guitars map located at ${contact.address.street}, ${contact.address.city}, ${contact.address.region} ${contact.address.postalCode}`}
+          loading="lazy"
+          width="1319"
+          height="835"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Contact CTA + form --------------------------------------- -->
+  <section class="cm-contact">
+    <div class="cm-inner cm-contact__grid">
+      <!-- LEFT: heading + checklist -->
+      <div class="cm-contact__left">
+        <h3 class="cm-contact__heading">
+          <em>Contact Joe&rsquo;s Vintage Guitars</em><br />
+          <span class="cm-contact__heading-sub">Vintage Guitar Buyer Today!</span>
+        </h3>
+        <ul class="cm-contact__list">
+          <li>
+            <span class="cm-contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.36 2.32.55 3.57.55a1 1 0 011 1v3.5a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.19 2.45.55 3.57a1 1 0 01-.24 1.02l-2.19 2.2z"/></svg>
+            </span>
+            <a href={hrefs.tel} class="cm-contact__line cm-contact__line--phone">{contact.phone}</a>
+          </li>
+          <li>
+            <span class="cm-contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </span>
+            <a href={hrefs.mailto} class="cm-contact__line cm-contact__line--email">{contact.email}</a>
+          </li>
+          <li>
+            <span class="cm-contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z"/></svg>
+            </span>
+            <a href={contact.mapUrl} target="_blank" rel="noopener noreferrer" class="cm-contact__line">
+              {contact.address.street}<br />
+              {`${contact.address.city}, ${contact.address.region} ${contact.address.postalCode}`}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- RIGHT: form (same field set as live wpcf7-f213) -->
+      <div class="cm-contact__right">
+        <form
+          class="cm-form"
+          data-jvg-contact-form
+          data-form-id="contact-me"
+          action="/api/contact"
+          method="post"
+          novalidate
+        >
+          <div class="cm-form__row">
+            <label class="cm-form__field">
+              <span>First Name</span>
+              <input type="text" name="your-name" required maxlength="400" autocomplete="given-name" />
+            </label>
+            <label class="cm-form__field">
+              <span>Last Name</span>
+              <input type="text" name="last-name" required maxlength="400" autocomplete="family-name" />
+            </label>
+          </div>
+          <div class="cm-form__row">
+            <label class="cm-form__field">
+              <span>Phone</span>
+              <input type="tel" name="your-phone" required maxlength="400" autocomplete="tel" inputmode="tel" />
+            </label>
+            <label class="cm-form__field">
+              <span>Email</span>
+              <input type="email" name="your-email" required maxlength="400" autocomplete="email" />
+            </label>
+          </div>
+          <label class="cm-form__field cm-form__field--block">
+            <span>Comments</span>
+            <textarea name="your-message" rows="10" maxlength="2000"></textarea>
+          </label>
+          <div class="cm-form__reply">
+            <span class="cm-form__reply-label">Best way to reply:</span>
+            <label class="cm-form__reply-opt"><input type="radio" name="best-reply" value="Call" /> Call</label>
+            <label class="cm-form__reply-opt"><input type="radio" name="best-reply" value="Text" /> Text</label>
+            <label class="cm-form__reply-opt"><input type="radio" name="best-reply" value="Email" /> Email</label>
+          </div>
+          <button type="submit" class="cm-form__submit">SUBMIT</button>
+          <p class="cm-form__note">*If you have photos, you will have the option to upload them after clicking submit</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .cm-inner {
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* 1. Title bar ------------------------------------------------ */
+  .cm-title-bar {
+    background: var(--color-brand-rust-dark, #682412);
+    color: #fff;
+    padding: 190px 24px 50px;
+    text-align: center;
+  }
+  .cm-title-bar h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    color: var(--color-brand-cream);
+    line-height: 1.1;
+  }
+  @media (max-width: 700px) {
+    .cm-title-bar { padding: 110px 16px 40px; }
+    .cm-title-bar h1 { font-size: 42px; }
+  }
+
+  /* 2. Location ------------------------------------------------- */
+  .cm-location {
+    background: #fff;
+    padding: 40px 0;
+  }
+  .cm-location__grid {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    max-width: 1304px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 0 20px;
+    align-items: stretch;
+  }
+  .cm-location__card {
+    background-color: var(--color-brand-rust-dark, #682412);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cm-location__inner {
+    padding: 50px 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .cm-location__mascot {
+    display: block;
+    margin: 0 auto 16px;
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+  }
+  .cm-location__addr {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 12px;
+    color: #fff;
+  }
+  .cm-location__email {
+    margin: 0 0 16px;
+  }
+  .cm-location__email a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .cm-location__hours {
+    margin: 0 0 14px;
+    color: #fff;
+  }
+  .cm-location__hours-label {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .cm-location__maplinks {
+    margin: 0 0 22px;
+  }
+  .cm-location__maplinks a {
+    color: var(--color-brand-cream, #eedfc0);
+    text-decoration: underline;
+    margin: 0 4px;
+  }
+  .cm-location__map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+  }
+  @media (max-width: 900px) {
+    .cm-location__grid { grid-template-columns: 1fr; }
+    .cm-location__card { padding: 0; }
+    .cm-location__map img { height: auto; }
+  }
+
+  /* Reusable CTA button */
+  .cm-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+  .cm-btn--rust { background: var(--color-brand-rust-bright, #be4b25); color: #fff; }
+  .cm-btn--rust:hover { background: #bf6344; color: #fff; }
+
+  /* 3. Contact + form ------------------------------------------ */
+  .cm-contact {
+    background: var(--color-brand-cream, #eedfc0);
+    padding: calc(3% + 20px) 0 3%;
+  }
+  .cm-contact__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7.68%;
+    align-items: start;
+  }
+  .cm-contact__heading {
+    font-size: 43px;
+    color: var(--color-brand-brown-tan, #d2b48c);
+    font-weight: 600;
+    font-family: "Oswald", var(--font-display);
+    line-height: 0.85;
+    margin: 0 0 24px;
+  }
+  .cm-contact__heading em {
+    font-style: italic;
+  }
+  .cm-contact__heading-sub {
+    color: var(--color-brand-rust-dark, #682412);
+    font-family: "Aleo", serif;
+    font-weight: 700;
+    font-size: 0.67em;
+    display: inline-block;
+    margin-top: 6px;
+  }
+  .cm-contact__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .cm-contact__list li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: var(--color-brand-rust-dark);
+  }
+  .cm-contact__icon {
+    flex: 0 0 36px;
+    width: 36px;
+    height: 36px;
+    background: var(--color-brand-rust-bright, #be4b25);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cm-contact__icon svg { width: 18px; height: 18px; fill: #fff; }
+  .cm-contact__line {
+    color: var(--color-brand-rust-dark);
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  .cm-contact__line--phone { font-family: "Oswald", var(--font-display); font-size: 23px; }
+  .cm-contact__line--email { font-size: 15px; }
+  .cm-contact__line:hover { text-decoration: underline; }
+
+  /* Form (matches the wpcf7-f213 field set on live exactly) */
+  .cm-form { display: block; }
+  .cm-form__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .cm-form__field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .cm-form__field--block { margin-bottom: 14px; }
+  .cm-form__field span {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-brand-rust-dark);
+  }
+  .cm-form__field input,
+  .cm-form__field textarea {
+    border: 1px solid rgba(62, 42, 20, 0.2);
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px 12px;
+    font: inherit;
+    font-size: 14px;
+    color: var(--color-brand-brown);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .cm-form__field textarea {
+    resize: vertical;
+    min-height: 140px;
+    font-family: inherit;
+  }
+  .cm-form__field input:focus,
+  .cm-form__field textarea:focus {
+    outline: 2px solid var(--color-brand-rust-bright);
+    border-color: var(--color-brand-rust-bright);
+  }
+  .cm-form__reply {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 14px;
+    margin: 6px 0 16px;
+    color: var(--color-brand-rust-dark);
+  }
+  .cm-form__reply-label { font-size: 13px; font-weight: 600; }
+  .cm-form__reply-opt { font-size: 13px; cursor: pointer; }
+  .cm-form__submit {
+    background: var(--color-brand-brown-tan, #d2b48c);
+    color: #fff;
+    border: none;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 14px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+  }
+  .cm-form__submit:hover { background: var(--color-brand-rust-bright); }
+  .cm-form__note { font-size: 13px; color: var(--color-brand-brown); margin: 10px 0 0; }
+
+  @media (max-width: 900px) {
+    .cm-contact__grid { grid-template-columns: 1fr; gap: 28px; }
+    .cm-contact__heading { font-size: 32px; }
+    .cm-form__row { grid-template-columns: 1fr; }
+  }
+</style>
