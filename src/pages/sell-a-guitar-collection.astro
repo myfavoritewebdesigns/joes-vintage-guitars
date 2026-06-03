@@ -1,0 +1,1162 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ContactSection from "../components/ContactSection.astro";
+import FAQ from "../components/FAQ.astro";
+import { contact } from "../config/site";
+import testimonialsRaw from "../../reference/collection-testimonials.json";
+
+/* ============================================================
+   SELL A GUITAR COLLECTION — Archetype B page
+   ============================================================
+   Structurally distinct from the Fender/Gibson/Martin "sell my X" pages:
+   - NO fusion-container-anchor wrappers (live page uses custom hand-rolled
+     HTML inside Avada containers with BEM-style class names — .hiw-step__*,
+     .purchase-item__*, .notable-purchases__*)
+   - NO contact form embedded in hero (uses a "Get Your Free Appraisal"
+     button linking to /free-appraisal/)
+   - NEW section: "How Our Collection Purchasing Process Works" (3 numbered
+     steps with keyword tags) — unique to this page
+   - NEW section: "Notable Collection Purchases" (5 items with location
+     pins, instrument counts, and logistics badges; 2 items have embedded
+     YouTube videos)
+   - Testimonials show 5 reviews (vs 3 on Martin), 3 IG reels
+   - 2-column "I Buy & Appraise" feature
+   - 3-column "Nationwide Vintage Guitar Collection Purchase & Appraisals"
+     feature grid with icons + photos
+   - Meet Joe section is BELOW the past-purchases (different position)
+   ============================================================ */
+
+// 5 testimonials sourced from reference/collection-testimonials.json (live JSON-LD
+// review schema + rendered cards). All 5-star.
+const reviews: { name: string; link: string; body: string }[] = testimonialsRaw;
+
+// Instagram reels — exact post permalinks from live's sell-a-guitar-collection page.
+const igPosts = [
+  {
+    permalink: "https://www.instagram.com/reel/C0MuI5ix5Tr/",
+    headline: "71-Piece Bluegrass Collection",
+    subtitle: "71 top-shelf bluegrass instruments — from a single storage unit",
+    body: "Sometimes the treasures are hiding right around the corner. This haul of 71 premium bluegrass instruments came out of one storage unit — a reminder that incredible collections can surface anywhere, at any time.",
+  },
+  {
+    permalink: "https://www.instagram.com/reel/DIPBvPmyaCK/",
+    headline: "Multi-State Road Trip — Part 1",
+    subtitle: "New Jersey to New Mexico — one unforgettable buying trip",
+    body: "Five states, countless guitars, amps, and parts — and even more great people along the way. This cross-country run through New Jersey, Virginia, Tennessee, and New Mexico was a trip very much worth the miles.",
+  },
+  {
+    permalink: "https://www.instagram.com/reel/C45z6mARK2T/",
+    headline: "200+ Instrument Collection",
+    subtitle: "Over 200 instruments, one road trip, and a little fishing",
+    body: "One of the biggest single hauls we’ve done — over 200 instruments acquired across a road trip that had it all: rainstorms, snowstorms, fantastic finds, and a fishing stop on the way back home.",
+  },
+];
+
+// Image base — local copies downloaded same-session per CLAUDE.md rule 1.
+// Source URLs (preserved in commit history): /wp-content/uploads/<year>/<month>/<file>.
+const IMG = "/images/sell-collection";
+const FEATURED_IMG = `${IMG}/Sell-Your-Vintage-Guitar.jpg`;
+
+// 3-step process — content from live .hiw-section
+const hiwSteps = [
+  {
+    n: "01",
+    label: "Discovery & Valuation",
+    title: "We Document & Value Your Collection Together",
+    desc: "We start with a conversation — by phone, email, or text. You share photos and details of your instruments, and I document and appraise some or all of the collection remotely. We discuss pricing openly so there’s a clear understanding of value before I ever travel. That means minimal back-and-forth when it’s time to buy — no surprises, no lowball offers on arrival, no drawn-out negotiation.",
+    keywords: ["Collection Appraisal", "Remote Valuation", "No Obligation"],
+  },
+  {
+    n: "02",
+    label: "On-Site Collection Purchasing",
+    title: "I Come to You — Anywhere in the U.S.",
+    desc: "For large instrument collections, I come to you. Depending on distance, I either drive out in my own box truck or fly to your location and rent a truck on-site. Either way, the goal is the same: buy the entire collection in a single visit. No multiple trips, no partial purchases, no leaving instruments behind. One transaction, handled completely.",
+    keywords: ["Nationwide Collection Buying", "Estate Liquidation", "On-Site Purchase"],
+  },
+  {
+    n: "03",
+    label: "Same-Day Payment",
+    title: "We Load Up & You Get Paid — Same Day",
+    desc: "Once we’ve gone through the collection, we load everything into the truck promptly and get you paid on the spot. No waiting on wire transfers, no payment holds, no “we’ll send a check.” Collection liquidation shouldn’t drag on — and with us, it doesn’t. You walk away paid the same day your instruments leave.",
+    keywords: ["Same-Day Payment", "Collection Liquidation", "Cash or Transfer"],
+  },
+];
+
+// 3-column "Nationwide" feature grid (icons + photos + headlines + copy)
+const featureCols = [
+  {
+    icon: `${IMG}/prices-icon.svg`,
+    iconAlt: "Providing Fair And Convenient Prices Nationwide",
+    photo: `${IMG}/1966-gibson-es-335-1024x683.jpg`,
+    photoAlt: "Sell An Electric Or Acoustic Guitar Collection",
+    headline: "Sell An Electric Or Acoustic Guitar Collection At The Right Price",
+    body: `I have been through years of trial and error associated with buying and selling electric or acoustic guitars, and can usually tell within minutes what your guitar collection is truly worth. Whether you have a large collection of <a href="/sell-my-gibson-guitar/" class="smc-link">Gibsons to sell</a>, or a huge mix of makes and models. I can help you to sell your guitar collection.`,
+  },
+  {
+    icon: `${IMG}/classic-icon.svg`,
+    iconAlt: "Buy Classic And Vintage Guitar Collections",
+    photo: `${IMG}/large-vintage-guitar-collection.jpg`,
+    photoAlt: "Find Classic And Vintage Guitar Collections In Our Online Shop",
+    headline: "Get A Free Appraisal For Your Guitar Collection",
+    body: `Not sure what your collection is worth? I offer <a href="/free-appraisal/" class="smc-link">free appraisals</a> with no obligation to sell. I can also help you document and organize your collection — whether you’re planning to sell, insure, or simply want a clear record of what you have.`,
+  },
+  {
+    icon: `${IMG}/guitar-icon.svg`,
+    iconAlt: "Many Years Of Experience",
+    photo: `${IMG}/1966-fender-jazzmaster-in-hard-case-1024x683.jpg`,
+    photoAlt: "Years Of Experience Buying And Selling Guitar Collections Nationwide",
+    headline: "Years Of Experience Buying & Selling Guitars Throughout The States",
+    body: `Take advantage of my passion, knowledge, and <a href="/about-me/" class="smc-link">years of experience</a> with new and vintage guitars, and let me make the sale process easy and risk-free for you.`,
+  },
+];
+
+// 5 notable past purchases — content from live .purchase-list
+// Items 2 and 5 include embedded YouTube videos in addition to copy.
+const pastPurchases = [
+  {
+    n: "01",
+    location: "Tucson, Arizona",
+    title: "700+ Guitars & Amps from a Retiring Collector",
+    desc: "One of our largest single acquisitions ever. A lifelong collector in Tucson had spent decades amassing an extraordinary range of guitars and amplifiers, and we were honored to be trusted with his entire inventory upon retirement. Every piece was hand-inspected and brought back to our shop.",
+    stat: { number: "700+", label: "Guitars & Amplifiers" },
+    badges: ["Flew to Tucson", "Box Truck Transport"],
+    video: null,
+  },
+  {
+    n: "02",
+    location: "New Jersey",
+    title: "100+ Rare 1950s–1960s Instruments",
+    desc: `We flew out to New Jersey, rented a box truck, and loaded it with over 100 remarkable instruments spanning the golden era of American lutherie. An incredible concentration of mid-century pieces from a collector named Art — see the haul for yourself in the video below. Among the highlights: a stunning <a href="/post/gretsch-6120-history-value/" class="smc-link">1960 Gretsch 6120</a> that became the centerpiece of our collector’s guide to the model.`,
+    stat: { number: "100+", label: "1950s–1960s Instruments" },
+    badges: ["Flew to New Jersey", "Box Truck Rented On-Site"],
+    video: { id: "NTw8EcrS5Y8", title: "I Spent $100,000 on Guitars in One Week!" },
+  },
+  {
+    n: "03",
+    location: "Santa Fe, New Mexico",
+    title: "100+ Premium Archtop Jazz Guitars",
+    desc: "A private gentleman in Santa Fe had assembled one of the finest personal archtop collections we’ve ever encountered. Over 100 premium jazz guitars — carved tops, big names, and rare finds — acquired in a single purchase. A true once-in-a-career buy.",
+    stat: { number: "100+", label: "Premium Archtop Jazz Guitars" },
+    badges: ["Private Collection Purchase"],
+    video: null,
+  },
+  {
+    n: "04",
+    location: "Connecticut",
+    title: "80+ Top-Tier Acoustic Guitars",
+    desc: `We flew to Connecticut and rented a truck on-site to haul back more than 80 exceptional acoustic guitars — a deep collection of high-end flat-tops representing some of the most sought-after builders in American lutherie history. One standout from this collection was a Gibson J-45 that went on to be featured in our <a href="/post/identify-vintage-gibson-j45-j50-sj/" class="smc-link">complete guide to identifying vintage Gibson J-45s, J-50s, and SJs</a>.`,
+    stat: { number: "80+", label: "Premium Acoustic Guitars" },
+    badges: ["Flew to Connecticut", "Truck Rented On-Site"],
+    video: null,
+  },
+  {
+    n: "05",
+    location: "Southern Arizona",
+    title: "100+ Rare Vintage Fender Amps — Bought in a Single Day",
+    desc: "One of the most remarkable single-day hauls we’ve ever pulled off. Over 100 rare vintage Fender amplifiers — plus several guitars — all acquired in one visit in Southern Arizona. Every amp loaded up and gone the same day. See the haul in the video below.",
+    stat: { number: "100+", label: "Vintage Fender Amplifiers" },
+    badges: ["Single-Day Purchase", "Southern Arizona"],
+    video: { id: "SFjsaZsEHqI", title: "Buying Over 100 Vintage Fender Amps & Rare Guitars in The Middle of Nowhere in Arizona!" },
+  },
+];
+
+// FAQs sourced from live JSON-LD (reference/sell-a-guitar-collection-jsonld.json).
+// Toggle IDs match live's `panel-` / `toggle_` IDs for inbound-link parity.
+const faqs = [
+  {
+    id: "toggle_e51afd6282088838c",
+    q: "How Can Appraisal Experts Determine My Guitar Collection&rsquo;s Price &amp; Value?",
+    a: "When you bring your guitar in for appraisal, I will inspect your guitar carefully. Its make and model, the age, condition, and any unique features the guitar has will be considered as I determine its value. You will receive a written appraisal detailing my assessment and findings, along with the determined value of your guitar so you can make an informed decision for moving forward with keeping or selling it.",
+  },
+  {
+    id: "toggle_36b0dcad5b96e59a8",
+    q: "How Long Will The Process Of Selling My Vintage Guitar Collection Take?",
+    a: "When you visit Joe&rsquo;s Vintage Guitar for an appraisal and assessment, I do everything I can to make the process quick, painless, and risk-free for you. I share as much information as I can without overwhelming you, and take my time understanding the guitar&rsquo;s history and sentimental value to you personally. If you are ready to sell it, the actual process is relatively quick and simple.",
+  },
+  {
+    id: "toggle_8517607e71808a494",
+    q: "Will I Have To Pay For Shipping Taxes To Sell My Vintage Guitar Collection?",
+    a: "When I purchase your guitar, all expected fees and information are up front. I will never surprise you with hidden shipping fees or unexpected taxes, because I want the process to be painless and easy for you. We will take the utmost care as we package and ship your vintage guitar to my inventory. Feel free to text or call me for more details about the shipping process!",
+  },
+  {
+    id: "toggle_97d0a78fd56124e29",
+    q: "Can I Sell My Guitar Collection On Consignment Or Trade It For Other Guitars?",
+    a: "Consignment comes with a few risks, but depending on your guitar I am willing to offer the opportunity to you. I want you to have a guitar that you love, so if you are interested in trading your guitar for one from my inventory, let&rsquo;s talk! I am flexible and ready to work with you to ensure a fair trade experience for all involved.",
+  },
+  {
+    id: "toggle_37b36752c094139f4",
+    q: "Is There A Warranty Or Return Policy After Buying Or Selling My Guitar Collection?",
+    a: "I love guitars and want you to love yours too! If you purchase a guitar from my inventory and feel there was missing information, or you are simply unhappy with your purchase, please reach out to me! I will do everything possible to make it right for you.",
+  },
+];
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q.replace(/&rsquo;/g, "'").replace(/&amp;/g, "&"),
+      acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'") },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Sell A Guitar Collection", item: "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/" },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Sell Your Vintage Guitar Collection In The US",
+    author: { "@type": "Person", name: "Joe Dampt" },
+    publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" },
+    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/",
+  },
+];
+---
+
+<Layout
+  title="Sell A Guitar Collection | Joes Vintage Guitars"
+  description="At Joe's Vintage Guitars, we are the premier nationwide buyer for guitar collections. Trust us to evaluate and acquire your prized collection with care."
+  canonical="/sell-a-guitar-collection/"
+  ogImage={FEATURED_IMG}
+  structuredData={structuredData}
+>
+  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
+  <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+  <script slot="head" is:inline async src="https://www.instagram.com/embed.js"></script>
+
+  <!-- 1. Hero — dark-brown bg, large title + subtitle, intro-box with 4 paragraphs and a jump button -->
+  <section class="smc-hero">
+    <div class="smc-hero__inner">
+      <h1>Sell Your Vintage Guitar Collection In The US</h1>
+      <div class="smc-hero__rule" aria-hidden="true"></div>
+      <h2 class="smc-hero__subtitle">Top-Rated Guitar Collection Buyer — I Come to You</h2>
+
+      <div class="smc-intro-box">
+        <p>Whether you&rsquo;ve been building your collection for decades or you&rsquo;re simply ready to pass it on, I&rsquo;m here to make the process simple, fast, and completely pressure-free.</p>
+        <p>I buy entire collections — guitars, basses, amplifiers, mandolins, banjos, and more. With years of experience and over $1 million in liquid cash ready to go, I can make you a serious same-day offer on everything at once. No need to list items one by one, deal with lowball offers, or wait weeks for a sale.</p>
+        <p class="smc-intro-box__brands">Brands I&rsquo;m looking for include: Gibson, Fender, Martin, Gretsch, Rickenbacker, Guild, Epiphone, Marshall, Vox &amp; more!</p>
+        <p>I travel all across the U.S. with my trailer and come directly to you, whether you&rsquo;re in California, New York, or anywhere in between. One call, one visit, one fair offer — it&rsquo;s that simple.</p>
+        <div class="smc-intro-box__divider"></div>
+        <div class="smc-intro-box__contact">
+          <span>📞 Call or text: <a href={`tel:${contact.tel}`}>{contact.phone}</a></span>
+          <span>📧 Email: <a href={`mailto:${contact.email}`}>{contact.email}</a></span>
+        </div>
+        <div class="smc-intro-box__jump">
+          <p class="smc-intro-box__jump-label">Every collection has a story.</p>
+          <a href="#notable-purchases" class="smc-intro-box__jump-btn">See Our Notable Past Purchases ↓</a>
+        </div>
+      </div>
+
+      <div class="smc-hero__cta">
+        <a href="/free-appraisal/" class="smc-btn smc-btn--rust">Get Your Free Appraisal</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. How It Works — 3 numbered steps with keyword tags + CTA -->
+  <section class="smc-hiw">
+    <div class="smc-inner">
+      <div class="smc-hiw__header">
+        <p class="smc-hiw__eyebrow">Guitar &amp; Instrument Collection Liquidation</p>
+        <h2 class="smc-hiw__title">How Our Collection<br />Purchasing Process Works</h2>
+        <p class="smc-hiw__subtitle">Whether you&rsquo;re liquidating a lifelong collection, settling an estate, or selling a retiring musician&rsquo;s instruments — our collection buying process is designed to be fast, fair, and completely hassle-free.</p>
+        <div class="smc-hiw__divider"></div>
+      </div>
+
+      <div class="smc-hiw__steps">
+        {hiwSteps.map((s) => (
+          <div class="smc-hiw__step">
+            <div class="smc-hiw__step-top">
+              <div class="smc-hiw__step-number">{s.n}</div>
+              <div class="smc-hiw__step-label">{s.label}</div>
+            </div>
+            <h3 class="smc-hiw__step-title">{s.title}</h3>
+            <p class="smc-hiw__step-desc">{s.desc}</p>
+            <div class="smc-hiw__step-keywords">
+              {s.keywords.map((k) => <span class="smc-hiw__keyword">{k}</span>)}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="smc-hiw__cta">
+        <div class="smc-hiw__cta-text">Ready to discuss your collection? <span>Let&rsquo;s talk.</span></div>
+        <div class="smc-hiw__cta-actions">
+          <a href={`tel:${contact.tel}`} class="smc-btn smc-btn--rust">Call {contact.phone}</a>
+          <a href="/contact-me/" class="smc-btn smc-btn--cream">Send Photos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. I Buy & Appraise — 2-column with copy + Joe-with-guitars image -->
+  <section class="smc-buyappraise">
+    <div class="smc-inner smc-buyappraise__grid">
+      <div class="smc-buyappraise__text">
+        <h3>I Buy &amp; Appraise <span>Vintage Guitar Collections</span> <span class="smc-buyappraise__online">Online Or In Person</span></h3>
+        <p>I am deeply passionate about beautiful vintage instruments, whether I keep them to play or pass them along to another passionate individual. I believe each guitar tells an incredibly unique story, so when I appraise your guitar, I want to hear its background, see a picture of the original owner, or hear stories about the guitar&rsquo;s experiences. For <a href="/free-appraisal/" class="smc-link">top-rated guitar appraisals</a>, please email us at <a href={`mailto:${contact.email}`} class="smc-link">{contact.email}</a>.</p>
+        <a href={`tel:${contact.tel}`} class="smc-btn smc-btn--rust">{contact.phone}</a>
+      </div>
+      <div class="smc-buyappraise__photo">
+        <img
+          src={`${IMG}/i-buy-and-appraise-vintage-guitars.png`}
+          alt="Joe Dampt Buys And Appraises Guitar Collections Online Or In Person"
+          loading="lazy"
+          width="1106"
+          height="720"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Nationwide grid — title + 3 columns (icon + photo + heading + copy each) -->
+  <section class="smc-nationwide">
+    <div class="smc-inner">
+      <h3 class="smc-nationwide__title">Nationwide Vintage Guitar Collection <span>Purchase &amp; Appraisals</span></h3>
+      <div class="smc-nationwide__cols">
+        {featureCols.map((c) => (
+          <div class="smc-nationwide__col">
+            <img src={c.icon} alt={c.iconAlt} class="smc-nationwide__icon" loading="lazy" />
+            <img src={c.photo} alt={c.photoAlt} class="smc-nationwide__photo" loading="lazy" />
+            <hr class="smc-rule" />
+            <h4 set:html={c.headline} />
+            <p set:html={c.body} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* 5. Testimonials — 5 reviews + 3 IG reels (Pinterest masonry pattern) */}
+  <section class="smc-testi">
+    <div class="smc-inner">
+      <div class="smc-testi__head">
+        <h3 class="smc-testi__title">Our Clients&rsquo; Testimonials</h3>
+        <h4 class="smc-testi__sub">Guitar Collection Resale Expert With 5-Star Rated Reviews</h4>
+      </div>
+
+      <div class="smc-testi__masonry">
+        {reviews.map((r) => (
+          <article class="smc-testi__card">
+            <p class="smc-testi__name">
+              <a href={r.link} target="_blank" rel="noopener noreferrer">{r.name}</a>
+              <br />
+              <span class="smc-testi__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </p>
+            <p>{r.body}</p>
+          </article>
+        ))}
+      </div>
+
+      <div class="smc-testi__ig-grid">
+        {igPosts.map((post) => (
+          <div class="smc-testi__ig">
+            <div class="instagram-wrapper">
+              <blockquote
+                class="instagram-media"
+                data-instgrm-permalink={post.permalink}
+                data-instgrm-version="14"
+              ></blockquote>
+            </div>
+            <div class="instagram-text">
+              <p><strong>{post.headline}</strong><br />{post.subtitle}</p>
+              <p>{post.body}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- "View More" testimonials button — live still shows this on Collection
+           (Fender v10 dropped it; Martin keeps a similar one). -->
+      <div class="smc-testi__more-wrap">
+        <a
+          href="https://www.google.com/maps/place/Joe%27s+Vintage+Guitars+-+We+Buy+Guitars!/@33.420432,-111.8365821,17z/data=!4m7!3m6!1s0x872ba7d2937937d9:0x69728d089b8a764!8m2!3d33.420432!4d-111.8343934!9m1!1b1"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="smc-btn smc-btn--rust"
+        >
+          View More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Inherited a Collection — vintage-title section with two H3s + body + Free Appraisal CTA + photo.
+       Live HTML markup is malformed (nested <h3><h3>), so the structural content is two H3s in source order. -->
+  <section class="smc-inherited">
+    <div class="smc-inner">
+      <div class="smc-inherited__title">
+        <h3 class="smc-inherited__main">Inherited A Guitar Collection And Need To Get It Appraised <span>&amp; Sell It?</span></h3>
+        <h3 class="smc-inherited__sub">We Buy Vintage Acoustic &amp; Electric Guitar Collections In <span>Any State</span></h3>
+      </div>
+      <div class="smc-inherited__grid">
+        <div class="smc-inherited__text">
+          <p>If you have become the proud new owner of a guitar collection but have no clue what it is worth or where to even begin appraising it, I can help! I travel to you no matter your location in the United States for <a href="/free-appraisal/" class="smc-link">in-person guitar appraisals</a>, or can schedule an online meetup instead.</p>
+          <p>It is always my goal to make sure you understand the worth of the guitar in your possession. I will never shortcut you or make up false information. My passion for beautiful, vintage guitars drives everything I do. If you&rsquo;re interested in a <a href="/free-appraisal/" class="smc-link">free appraisal</a> for your vintage guitar, please email us at <a href={`mailto:${contact.email}`} class="smc-link">{contact.email}</a> or text us at <a href={`sms:${contact.tel}`} class="smc-link">{contact.phone}</a>.</p>
+          <div class="smc-inherited__cta">
+            <a href="/free-appraisal/" class="smc-btn smc-btn--rust">Get Your Free Appraisal</a>
+            <p><strong>Get The Best Price For Your Vintage Guitar!</strong></p>
+          </div>
+        </div>
+        <div class="smc-inherited__photo">
+          <img
+            src={`${IMG}/blog5.jpg`}
+            alt="Appraise And Sell Your Inherited Guitar Collection At Joe&rsquo;s Vintage Guitars"
+            loading="lazy"
+            width="1400"
+            height="933"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Notable Collection Purchases — 5 items with location/stat/badges; items 02 + 05 have YouTube videos.
+       Anchor #notable-purchases is the target of the hero jump button. -->
+  <section class="smc-notable">
+    <div class="smc-inner">
+      <div class="smc-notable__header">
+        <p class="smc-notable__eyebrow">Sourced Across the Country</p>
+        <h2 id="notable-purchases" class="smc-notable__title">Notable Collection<br />Purchases</h2>
+        <p class="smc-notable__subtitle">We travel wherever the great instruments are — flying, driving, and hauling truckloads of history to bring you the finest vintage guitars and amps available anywhere.</p>
+        <div class="smc-notable__divider"></div>
+      </div>
+
+      <div class="smc-purchase-list">
+        {pastPurchases.map((p) => (
+          <div class="smc-purchase">
+            <div class="smc-purchase__number">{p.n}</div>
+            <div class="smc-purchase__content">
+              <div class="smc-purchase__location">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+                {p.location}
+              </div>
+              <h3 class="smc-purchase__title">{p.title}</h3>
+              <p class="smc-purchase__desc" set:html={p.desc} />
+              <div class="smc-purchase__stat"><strong>{p.stat.number}</strong> {p.stat.label}</div>
+              <div class="smc-purchase__badges">
+                {p.badges.map((b) => <span class="smc-logistics-badge">{b}</span>)}
+              </div>
+              {p.video && (
+                <div class="smc-purchase__video">
+                  <lite-youtube
+                    videoid={p.video.id}
+                    params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1"
+                    title={p.video.title}
+                    class="smc-lite-yt"
+                  ></lite-youtube>
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Sell Your Vintage Guitar Collection Online + Meet Joe -->
+  <section class="smc-meet-wrap">
+    <div class="smc-meet-cta">
+      <div class="smc-inner smc-meet-cta__grid">
+        <h3 class="smc-meet-cta__title">
+          <span class="smc-meet-cta__accent">Sell Your Vintage</span> Guitar Collection Online
+        </h3>
+        <a href="/contact-me/" class="smc-btn smc-btn--cream">Contact Now</a>
+      </div>
+    </div>
+
+    <div class="smc-inner smc-meet">
+      <div class="smc-meet__video">
+        <lite-youtube
+          videoid="zMd6IJ-6e-8"
+          params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1"
+          title="Meet Vintage Guitar Expert, Joe Dampt"
+          class="smc-lite-yt"
+        ></lite-youtube>
+      </div>
+      <div class="smc-meet__panel">
+        <h3 class="smc-meet__title">Meet Vintage Guitar Expert, <span>Joe Dampt</span></h3>
+        <h5 class="smc-meet__sub">Professional Buyer and Seasoned Collector of Vintage Guitars</h5>
+        <p>Hey there! My name is Joe Dampt and I love old music and old guitars!</p>
+        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I&rsquo;ve sacrificed and worked hard to make music and musical instruments my livelihood. I love old guitars and musical instruments, but I love the MUSIC even more. I believe that guitars don&rsquo;t do us any good if they just sit in a case. These beauties are meant to be played!</p>
+        <p>I&rsquo;ve performed in many local bands and my favorite styles to play are classic country/western music, swing &amp; dance music, and classic rock &amp; roll.</p>
+      </div>
+    </div>
+  </section>
+
+  {/* 9. FAQs — shared <FAQ /> component (wood-textured cream box pattern).
+       NOTE: FAQ.astro renders as "FAQs About <subTitle>", so subTitle must NOT
+       include the word "About" or it'd render "FAQs About About...". */}
+  <FAQ
+    faqs={faqs}
+    subTitle="Our Guitar Collection Resale Services"
+    sectionId="faqs-collection"
+    openFirst={true}
+  />
+
+  <!-- 10. Get In Touch — shared ContactSection -->
+  <ContactSection />
+</Layout>
+
+<style>
+  /* ============================================================
+     SELL A GUITAR COLLECTION (.smc-*) — Archetype B page styles
+
+     Structural notes:
+     - Hero uses solid dark-brown bg (not gradient like Martin)
+     - Intro-box card sits over the hero with internal contact info + jump btn
+     - How It Works uses big numbered cards with keyword chips
+     - Notable Purchases uses left-side number "stamps" with bordered cards
+     ============================================================ */
+  .smc-inner {
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .smc-link { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .smc-link:hover { color: var(--color-brand-rust-bright); }
+  .smc-rule {
+    border: none;
+    border-top: 3px solid var(--color-brand-rust-bright);
+    width: 80px;
+    margin: 12px auto 16px;
+  }
+
+  /* Buttons (used in hero + HIW CTA + buy/appraise + vintage banner) */
+  .smc-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+    border: none;
+    cursor: pointer;
+  }
+  .smc-btn--rust { background: var(--color-brand-rust-bright); color: #fff; }
+  .smc-btn--rust:hover { background: #bf6344; color: #fff; }
+  .smc-btn--cream { background: var(--color-brand-cream); color: var(--color-brand-rust-dark); }
+  .smc-btn--cream:hover { background: #fff; }
+
+  /* 1. Hero ------------------------------------------------------ */
+  .smc-hero {
+    background: var(--color-brand-brown, #3e2a14);
+    color: #fff;
+    padding: 280px 24px 80px;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .smc-hero { padding: 120px 16px 60px; }
+  }
+  .smc-hero__inner h1 {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 4.5vw, 56px);
+    font-weight: 600;
+    color: var(--color-brand-cream);
+    margin: 0 auto 18px;
+    max-width: 1000px;
+    line-height: 1.15;
+  }
+  .smc-hero__rule {
+    height: 3px;
+    width: 100%;
+    max-width: 740px;
+    background: var(--color-brand-cream);
+    margin: 0 auto 20px;
+  }
+  .smc-hero__subtitle {
+    font-family: var(--font-display);
+    color: #f0e1c1;
+    font-weight: 400;
+    font-size: clamp(20px, 2.5vw, 26px);
+    margin: 0 auto 30px;
+    max-width: 900px;
+  }
+  .smc-hero__cta { margin-top: 30px; }
+
+  /* Intro box that sits inside the hero with collection-specific copy */
+  .smc-intro-box {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    padding: 28px 34px;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .smc-intro-box p {
+    margin: 0 0 14px;
+    line-height: 1.7;
+    color: var(--color-brand-cream);
+    font-size: 16px;
+  }
+  .smc-intro-box__brands {
+    color: var(--color-brand-gold, #c8983a) !important;
+    font-weight: 600;
+  }
+  .smc-intro-box__divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.18);
+    margin: 18px 0;
+  }
+  .smc-intro-box__contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    color: var(--color-brand-cream);
+    font-weight: 600;
+    margin-bottom: 18px;
+  }
+  .smc-intro-box__contact a { color: var(--color-brand-gold, #c8983a); text-decoration: underline; }
+  .smc-intro-box__jump {
+    text-align: center;
+    padding-top: 8px;
+  }
+  .smc-intro-box__jump-label {
+    font-style: italic;
+    color: var(--color-brand-cream);
+    margin: 0 0 8px !important;
+  }
+  .smc-intro-box__jump-btn {
+    display: inline-block;
+    padding: 10px 22px;
+    background: var(--color-brand-rust-bright);
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+  .smc-intro-box__jump-btn:hover { background: #bf6344; }
+
+  /* 2. How It Works --------------------------------------------- */
+  .smc-hiw {
+    background: #fff;
+    padding: 70px 0 80px;
+  }
+  .smc-hiw__header { text-align: center; margin-bottom: 50px; }
+  .smc-hiw__eyebrow {
+    color: var(--color-brand-rust-bright);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 0 10px;
+  }
+  .smc-hiw__title {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 3.4vw, 42px);
+    color: var(--color-brand-rust-dark);
+    line-height: 1.2;
+    margin: 0 0 18px;
+  }
+  .smc-hiw__subtitle {
+    max-width: 800px;
+    margin: 0 auto 18px;
+    line-height: 1.65;
+    color: var(--color-brand-brown);
+  }
+  .smc-hiw__divider {
+    height: 3px;
+    width: 80px;
+    background: var(--color-brand-rust-bright);
+    margin: 0 auto;
+  }
+  .smc-hiw__steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .smc-hiw__step {
+    background: var(--color-brand-cream-light, #f6e9cf);
+    border-radius: 10px;
+    padding: 28px 26px 30px;
+    position: relative;
+  }
+  .smc-hiw__step-top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 12px;
+  }
+  .smc-hiw__step-number {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--color-brand-rust-bright);
+    line-height: 1;
+  }
+  .smc-hiw__step-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    color: var(--color-brand-rust-dark);
+  }
+  .smc-hiw__step-title {
+    font-family: var(--font-display);
+    font-size: 22px;
+    color: var(--color-brand-rust-dark);
+    line-height: 1.25;
+    margin: 0 0 12px;
+  }
+  .smc-hiw__step-desc { line-height: 1.65; color: var(--color-brand-brown); margin: 0 0 16px; }
+  .smc-hiw__step-keywords { display: flex; flex-wrap: wrap; gap: 8px; }
+  .smc-hiw__keyword {
+    background: rgba(190, 75, 37, 0.12);
+    color: var(--color-brand-rust-dark);
+    border: 1px solid rgba(190, 75, 37, 0.32);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .smc-hiw__cta {
+    margin-top: 40px;
+    background: var(--color-brand-cream-warm, #f5e7c8);
+    border-radius: 10px;
+    padding: 28px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .smc-hiw__cta-text {
+    font-family: var(--font-display);
+    font-size: 22px;
+    color: var(--color-brand-rust-dark);
+  }
+  .smc-hiw__cta-text span { color: var(--color-brand-rust-bright); }
+  .smc-hiw__cta-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
+  @media (max-width: 900px) {
+    .smc-hiw__steps { grid-template-columns: 1fr; }
+    .smc-hiw__cta { flex-direction: column; align-items: stretch; text-align: center; }
+    .smc-hiw__cta-actions { justify-content: center; }
+  }
+
+  /* 3. I Buy & Appraise ----------------------------------------- */
+  .smc-buyappraise {
+    background: linear-gradient(180deg, #f2f2f2 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 70px 0;
+  }
+  .smc-buyappraise__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+  }
+  .smc-buyappraise__text h3 {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 2.8vw, 34px);
+    color: var(--color-brand-rust-dark);
+    line-height: 1.25;
+    margin: 0 0 18px;
+  }
+  .smc-buyappraise__text h3 span { white-space: nowrap; }
+  .smc-buyappraise__online { display: block; font-size: 0.7em; color: var(--color-brand-brown); }
+  .smc-buyappraise__text p { line-height: 1.7; margin: 0 0 22px; color: var(--color-brand-brown); }
+  .smc-buyappraise__photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+  }
+  @media (max-width: 900px) {
+    .smc-buyappraise__grid { grid-template-columns: 1fr; gap: 30px; }
+  }
+
+  /* 4. Nationwide grid ------------------------------------------ */
+  .smc-nationwide {
+    padding: 60px 0 80px;
+    background: #fff;
+  }
+  .smc-nationwide__title {
+    font-family: "Oswald", var(--font-display);
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--color-brand-rust-dark);
+    text-align: center;
+    margin: 0 0 40px;
+    line-height: 1.25;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+  .smc-nationwide__title::before,
+  .smc-nationwide__title::after {
+    content: "";
+    flex: 1;
+    max-width: 120px;
+    height: 1px;
+    background: var(--color-brand-rust-dark);
+    opacity: 0.45;
+  }
+  .smc-nationwide__title span { white-space: nowrap; }
+  .smc-nationwide__cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  .smc-nationwide__col { text-align: center; }
+  .smc-nationwide__icon {
+    width: 80px;
+    height: auto;
+    margin: 0 auto 16px;
+    display: block;
+  }
+  .smc-nationwide__photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  .smc-nationwide__col h4 {
+    font-family: var(--font-display);
+    font-size: 22px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 10px;
+    line-height: 1.3;
+  }
+  .smc-nationwide__col p { line-height: 1.65; color: var(--color-brand-brown); margin: 0; }
+  @media (max-width: 900px) {
+    .smc-nationwide__cols { grid-template-columns: 1fr; gap: 30px; }
+    .smc-nationwide__title::before,
+    .smc-nationwide__title::after { display: none; }
+  }
+
+  /* 5. Testimonials --------------------------------------------- */
+  .smc-testi {
+    background-color: var(--color-brand-rust-dark);
+    background-image: url("/images/sell-collection/rickenbacker-reviews-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--color-brand-cream);
+    padding: 70px 0 80px;
+    position: relative;
+  }
+  .smc-testi__head { text-align: center; margin-bottom: 32px; }
+  .smc-testi__title {
+    font-family: var(--font-script, "Margi"), serif;
+    font-size: clamp(32px, 3.5vw, 54px);
+    color: var(--color-brand-brown-tan);
+    font-weight: 400;
+    margin: 0 0 6px;
+    line-height: 1;
+  }
+  .smc-testi__sub {
+    color: var(--color-brand-cream);
+    font-size: clamp(18px, 2.5vw, 22px);
+    font-weight: 400;
+    margin: 0;
+  }
+  /* Pinterest masonry — same as Fender/Martin */
+  .smc-testi__masonry {
+    column-count: 3;
+    column-gap: 20px;
+    column-fill: balance;
+  }
+  .smc-testi__card {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+    background: #dcb58b;
+    color: var(--color-brand-brown);
+    padding: 22px 24px 24px;
+    border-radius: 0 0 20px 20px;
+    margin: 0 0 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  .smc-testi__name {
+    font-family: "Oswald", var(--font-display);
+    font-size: 23px;
+    font-weight: 600;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 6px;
+    line-height: 1.2;
+  }
+  .smc-testi__name a { color: inherit; text-decoration: none; }
+  .smc-testi__name a:hover { text-decoration: underline; }
+  .smc-testi__stars { color: var(--color-brand-rust-bright); font-size: 16px; letter-spacing: 1px; }
+  .smc-testi__card > p:last-child { font-size: 14px; line-height: 1.6; margin: 0; color: var(--color-brand-brown); }
+
+  @media (max-width: 960px) { .smc-testi__masonry { column-count: 2; } }
+  @media (max-width: 640px) { .smc-testi__masonry { column-count: 1; } }
+
+  /* Instagram reels grid */
+  .smc-testi__ig-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 48px;
+  }
+  .smc-testi__ig { display: flex; flex-direction: column; gap: 14px; }
+  .smc-testi__ig .instagram-wrapper {
+    min-height: 360px;
+    display: flex;
+    justify-content: center;
+  }
+  .smc-testi__ig .instagram-media {
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 380px !important;
+  }
+  .smc-testi__ig .instagram-text {
+    color: var(--color-brand-cream);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .smc-testi__ig .instagram-text p { margin: 0 0 8px; }
+  .smc-testi__ig .instagram-text strong { color: var(--color-brand-brown-tan); }
+  @media (max-width: 960px) { .smc-testi__ig-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) { .smc-testi__ig-grid { grid-template-columns: 1fr; gap: 24px; } }
+
+  /* 6. Inherited a Collection ----------------------------------- */
+  /* Replaced the original .smc-vintage block to add the two missing H3s
+     ("Inherited A Guitar Collection..." / "We Buy Vintage Acoustic & Electric...")
+     plus body copy that the live page renders above the CTA + photo. */
+  .smc-testi__more-wrap {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .smc-inherited {
+    background: var(--color-brand-cream-light, #f6e9cf);
+    padding: 60px 0 70px;
+  }
+  .smc-inherited__title { text-align: center; margin-bottom: 30px; }
+  .smc-inherited__main {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 2.8vw, 32px);
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 10px;
+    line-height: 1.25;
+  }
+  .smc-inherited__main span { white-space: nowrap; }
+  .smc-inherited__sub {
+    font-family: var(--font-display);
+    font-size: clamp(18px, 2.2vw, 22px);
+    color: var(--color-brand-rust-bright);
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.25;
+  }
+  .smc-inherited__sub span { white-space: nowrap; }
+  .smc-inherited__grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+  .smc-inherited__text p {
+    line-height: 1.7;
+    color: var(--color-brand-brown);
+    margin: 0 0 14px;
+    text-align: justify;
+  }
+  .smc-inherited__text a { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .smc-inherited__cta { text-align: center; margin-top: 14px; }
+  .smc-inherited__cta p { color: var(--color-brand-rust-dark); font-weight: 600; margin: 14px 0 0; }
+  .smc-inherited__photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
+  @media (max-width: 900px) {
+    .smc-inherited__grid { grid-template-columns: 1fr; gap: 24px; }
+  }
+
+  /* 7. Notable Past Purchases ----------------------------------- */
+  .smc-notable {
+    background: #fff;
+    padding: 70px 0 80px;
+  }
+  .smc-notable__header { text-align: center; margin-bottom: 50px; }
+  .smc-notable__eyebrow {
+    color: var(--color-brand-rust-bright);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 0 10px;
+  }
+  .smc-notable__title {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 3.4vw, 42px);
+    color: var(--color-brand-rust-dark);
+    line-height: 1.2;
+    margin: 0 0 18px;
+    scroll-margin-top: 80px;
+  }
+  .smc-notable__subtitle {
+    max-width: 800px;
+    margin: 0 auto 18px;
+    line-height: 1.65;
+    color: var(--color-brand-brown);
+  }
+  .smc-notable__divider {
+    height: 3px;
+    width: 80px;
+    background: var(--color-brand-rust-bright);
+    margin: 0 auto;
+  }
+  .smc-purchase-list {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+  .smc-purchase {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 24px;
+    background: var(--color-brand-cream-light, #f6e9cf);
+    border-left: 6px solid var(--color-brand-rust-bright);
+    border-radius: 10px;
+    padding: 28px 30px;
+  }
+  .smc-purchase__number {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 56px;
+    color: var(--color-brand-rust-bright);
+    line-height: 1;
+    text-align: center;
+  }
+  .smc-purchase__location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-brand-rust-dark);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .smc-purchase__location svg { width: 18px; height: 18px; fill: var(--color-brand-rust-bright); }
+  .smc-purchase__title {
+    font-family: var(--font-display);
+    font-size: clamp(20px, 2.2vw, 26px);
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 12px;
+    line-height: 1.25;
+  }
+  .smc-purchase__desc {
+    line-height: 1.7;
+    color: var(--color-brand-brown);
+    margin: 0 0 16px;
+  }
+  .smc-purchase__desc a { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .smc-purchase__stat {
+    background: rgba(190, 75, 37, 0.12);
+    color: var(--color-brand-rust-dark);
+    padding: 8px 14px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+  .smc-purchase__stat strong { font-size: 18px; }
+  .smc-purchase__badges { display: flex; flex-wrap: wrap; gap: 8px; }
+  .smc-logistics-badge {
+    background: #fff;
+    border: 1px solid rgba(62, 42, 20, 0.2);
+    color: var(--color-brand-brown);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 16px;
+  }
+  .smc-purchase__video {
+    margin-top: 22px;
+    max-width: 720px;
+  }
+  .smc-purchase__video .smc-lite-yt { width: 100%; display: block; }
+
+  @media (max-width: 700px) {
+    .smc-purchase { grid-template-columns: 1fr; padding: 22px 20px; }
+    .smc-purchase__number { text-align: left; font-size: 44px; }
+  }
+
+  /* 8. Meet Joe block + above-it CTA bar ------------------------ */
+  .smc-meet-wrap { background: var(--color-brand-cream, #eedfc0); padding: 60px 0 80px; }
+  .smc-meet-cta {
+    background: var(--color-brand-cream, #eedfc0);
+    padding: 0 0 30px;
+  }
+  .smc-meet-cta__grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    align-items: center;
+  }
+  .smc-meet-cta__title {
+    font-family: var(--font-script, "Margi"), serif;
+    color: #fff;
+    background: var(--color-brand-rust-dark);
+    padding: 18px 26px;
+    border-radius: 8px;
+    margin: 0;
+    font-size: clamp(22px, 3vw, 34px);
+    font-weight: 400;
+  }
+  .smc-meet-cta__accent { color: var(--color-brand-brown-tan); }
+
+  .smc-meet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    background: #f0e1c1;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  .smc-meet__video .smc-lite-yt { width: 100%; max-width: 600px; display: block; }
+  .smc-meet__title {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 2.8vw, 32px);
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 6px;
+    line-height: 1.2;
+  }
+  .smc-meet__title span { white-space: nowrap; }
+  .smc-meet__sub {
+    color: var(--color-brand-rust-bright);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 18px;
+  }
+  .smc-meet__panel p {
+    margin: 0 0 12px;
+    line-height: 1.7;
+    color: var(--color-brand-brown);
+    text-align: justify;
+  }
+
+  @media (max-width: 900px) {
+    .smc-meet-cta__grid { grid-template-columns: 1fr; text-align: center; }
+    .smc-meet { grid-template-columns: 1fr; padding: 28px; }
+  }
+
+  /* ---- Site-wide responsive tweaks --------------------------- */
+  @media (max-width: 600px) {
+    .smc-hero { padding: 180px 16px 50px; }
+    .smc-hiw, .smc-buyappraise, .smc-nationwide, .smc-testi, .smc-notable, .smc-meet-wrap, .smc-vintage {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .smc-intro-box { padding: 22px 18px; }
+  }
+</style>

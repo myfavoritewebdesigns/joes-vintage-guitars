@@ -1,0 +1,435 @@
+﻿[
+    {
+        "@context":  "https://schema.org",
+        "@graph":  [
+                       {
+                           "@type":  "Place",
+                           "@id":  "https://www.joesvintageguitarsaz.com/#place",
+                           "geo":  {
+                                       "@type":  "GeoCoordinates",
+                                       "latitude":  "33.41735776080888",
+                                       "longitude":  " -111.81037593707954"
+                                   },
+                           "hasMap":  "https://www.google.com/maps/search/?api=1\u0026amp;query=33.41735776080888, -111.81037593707954",
+                           "address":  {
+                                           "@type":  "PostalAddress",
+                                           "streetAddress":  "47 N Fraser Dr E",
+                                           "addressLocality":  "Mesa",
+                                           "addressRegion":  "Arizona",
+                                           "postalCode":  "85203",
+                                           "addressCountry":  "United States"
+                                       }
+                       },
+                       {
+                           "@type":  [
+                                         "MusicStore",
+                                         "Organization"
+                                     ],
+                           "@id":  "https://www.joesvintageguitarsaz.com/#organization",
+                           "name":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+                           "url":  "https://www.joesvintageguitarsaz.com",
+                           "sameAs":  [
+                                          "https://www.facebook.com/joesvintageguitars"
+                                      ],
+                           "email":  "joesvintageguitars94@gmail.com",
+                           "address":  {
+                                           "@type":  "PostalAddress",
+                                           "streetAddress":  "47 N Fraser Dr E",
+                                           "addressLocality":  "Mesa",
+                                           "addressRegion":  "Arizona",
+                                           "postalCode":  "85203",
+                                           "addressCountry":  "United States"
+                                       },
+                           "logo":  {
+                                        "@type":  "ImageObject",
+                                        "@id":  "https://www.joesvintageguitarsaz.com/#logo",
+                                        "url":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/Logo-Principal.png",
+                                        "contentUrl":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/Logo-Principal.png",
+                                        "caption":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+                                        "inLanguage":  "en-US",
+                                        "width":  "864",
+                                        "height":  "864"
+                                    },
+                           "priceRange":  "$$$",
+                           "openingHours":  [
+                                                "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-00:00"
+                                            ],
+                           "location":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/#place"
+                                        },
+                           "image":  {
+                                         "@id":  "https://www.joesvintageguitarsaz.com/#logo"
+                                     },
+                           "telephone":  "+1-602-900-6635"
+                       },
+                       {
+                           "@type":  "WebSite",
+                           "@id":  "https://www.joesvintageguitarsaz.com/#website",
+                           "url":  "https://www.joesvintageguitarsaz.com",
+                           "name":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+                           "alternateName":  "Joe\u0027s Vintage Guitars",
+                           "publisher":  {
+                                             "@id":  "https://www.joesvintageguitarsaz.com/#organization"
+                                         },
+                           "inLanguage":  "en-US"
+                       },
+                       {
+                           "@type":  "ImageObject",
+                           "@id":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/07/Sell-Your-Vintage-Guitar.jpg",
+                           "url":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/07/Sell-Your-Vintage-Guitar.jpg",
+                           "width":  "1200",
+                           "height":  "1200",
+                           "caption":  "Sell Your Vintage Guitar Collection at https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/",
+                           "inLanguage":  "en-US"
+                       },
+                       {
+                           "@type":  "BreadcrumbList",
+                           "@id":  "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/#breadcrumb",
+                           "itemListElement":  [
+                                                   {
+                                                       "@type":  "ListItem",
+                                                       "position":  "1",
+                                                       "item":  {
+                                                                    "@id":  "https://www.joesvintageguitarsaz.com",
+                                                                    "name":  "Home"
+                                                                }
+                                                   },
+                                                   {
+                                                       "@type":  "ListItem",
+                                                       "position":  "2",
+                                                       "item":  {
+                                                                    "@id":  "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/",
+                                                                    "name":  "Sell My Collection"
+                                                                }
+                                                   }
+                                               ]
+                       },
+                       {
+                           "@type":  "WebPage",
+                           "@id":  "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/#webpage",
+                           "url":  "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/",
+                           "name":  "Sell A Guitar Collection | Joes Vintage Guitars",
+                           "datePublished":  "2022-05-11T22:38:24+00:00",
+                           "dateModified":  "2026-04-24T20:13:35+00:00",
+                           "isPartOf":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/#website"
+                                        },
+                           "primaryImageOfPage":  {
+                                                      "@id":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/07/Sell-Your-Vintage-Guitar.jpg"
+                                                  },
+                           "inLanguage":  "en-US",
+                           "breadcrumb":  {
+                                              "@id":  "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/#breadcrumb"
+                                          }
+                       },
+                       {
+                           "@type":  "Person",
+                           "@id":  "https://www.joesvintageguitarsaz.com/author/joedampt/",
+                           "name":  "Joe Dampt",
+                           "url":  "https://www.joesvintageguitarsaz.com/author/joedampt/",
+                           "image":  {
+                                         "@type":  "ImageObject",
+                                         "@id":  "https://secure.gravatar.com/avatar/b59f3dc94db4c3521c86659644a17187119c1eed4bb55f1e78f7dc00bc2bca38?s=96\u0026amp;d=mm\u0026amp;r=g",
+                                         "url":  "https://secure.gravatar.com/avatar/b59f3dc94db4c3521c86659644a17187119c1eed4bb55f1e78f7dc00bc2bca38?s=96\u0026amp;d=mm\u0026amp;r=g",
+                                         "caption":  "Joe Dampt",
+                                         "inLanguage":  "en-US"
+                                     },
+                           "sameAs":  [
+                                          "https://www.joesvintageguitarsaz.com/about-me/"
+                                      ],
+                           "worksFor":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/#organization"
+                                        }
+                       },
+                       {
+                           "image":  {
+                                         "@id":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/07/Sell-Your-Vintage-Guitar.jpg"
+                                     },
+                           "headline":  "Sell A Guitar Collection | Joes Vintage Guitars",
+                           "description":  "We have top dollar cash offers for entire guitar collections!",
+                           "keywords":  "guitar collection, guitar collection for sale, ",
+                           "speakable":  {
+                                             "@type":  "SpeakableSpecification",
+                                             "cssSelector":  [
+
+                                                             ]
+                                         },
+                           "@type":  "Article",
+                           "author":  {
+                                          "@id":  "https://www.joesvintageguitarsaz.com/author/joedampt/",
+                                          "name":  "Joe Dampt"
+                                      },
+                           "datePublished":  "2022-05-11T22:38:24+00:00",
+                           "dateModified":  "2026-04-24T20:13:35+00:00",
+                           "name":  "Sell A Guitar Collection | Joes Vintage Guitars",
+                           "@id":  "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/#schema-7343",
+                           "isPartOf":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/#webpage"
+                                        },
+                           "publisher":  {
+                                             "@id":  "https://www.joesvintageguitarsaz.com/#organization"
+                                         },
+                           "inLanguage":  "en-US",
+                           "mainEntityOfPage":  {
+                                                    "@id":  "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/#webpage"
+                                                }
+                       }
+                   ]
+    },
+    {
+        "@context":  "https://schema.org",
+        "@type":  "ProfessionalService",
+        "@id":  "https://www.joesvintageguitarsaz.com/",
+        "url":  "https://www.joesvintageguitarsaz.com/",
+        "sameAs":  [
+                       "https://www.facebook.com/joesvintageguitars/",
+                       "https://www.youtube.com/@joesvintageguitars",
+                       "https://reverb.com/shop/joe-s-gear-emporium-4",
+                       "https://www.pinterest.com/joesvintageguitars0087/",
+                       "https://www.instagram.com/joesvintageguitarsaz/",
+                       "https://www.tiktok.com/@joesvintageguitar/",
+                       "https://maps.app.goo.gl/QwmHsZGznWUwB9LA9/"
+                   ],
+        "logo":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/06/joes-vintage-guitars-logo.jpg",
+        "image":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/om2ob5ra1i1x7wbklaug.jpg",
+        "name":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+        "legalName":  "Joe’s Vintage Guitars",
+        "description":  "Joe\u0027s Vintage Guitars specializes in purchasing and collecting vintage guitars and other stringed instruments. With years of expertise, Joe Dampt offers top cash for renowned brands like Fender and Gibson.",
+        "numberOfEmployees":  {
+                                  "@type":  "QuantitativeValue",
+                                  "value":  1
+                              },
+        "aggregateRating":  {
+                                "@type":  "AggregateRating",
+                                "bestRating":  "5",
+                                "worstRating":  "1",
+                                "ratingCount":  "405",
+                                "ratingValue":  "5"
+                            },
+        "priceRange":  "$$$$",
+        "openingHoursSpecification":  [
+                                          {
+                                              "@type":  "OpeningHoursSpecification",
+                                              "dayOfWeek":  [
+                                                                "Monday",
+                                                                "Tuesday",
+                                                                "Wednesday",
+                                                                "Thursday",
+                                                                "Friday",
+                                                                "Saturday",
+                                                                "Sunday"
+                                                            ],
+                                              "opens":  "00:00",
+                                              "closes":  "23:59"
+                                          }
+                                      ],
+        "telephone":  "+1-602-900-6635",
+        "address":  {
+                        "@type":  "PostalAddress",
+                        "streetAddress":  "47 N Fraser Dr E",
+                        "addressLocality":  "Mesa",
+                        "addressRegion":  "AZ",
+                        "postalCode":  "85203",
+                        "addressCountry":  "US"
+                    },
+        "contactPoint":  {
+                             "@type":  "ContactPoint",
+                             "telephone":  "+1-602-900-6635",
+                             "contactType":  "Customer Support",
+                             "availableLanguage":  [
+                                                       "English",
+                                                       "Spanish"
+                                                   ]
+                         },
+        "geo":  {
+                    "@type":  "GeoCoordinates",
+                    "latitude":  "33.417304029490694",
+                    "longitude":  "-111.81059051571508"
+                },
+        "makesOffer":  [
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Buy and Sell Guitars"
+                                               }
+                           },
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Free Guitar Appraisal"
+                                               }
+                           },
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Stringed Instruments Appraisal"
+                                               }
+                           },
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Vintage Guitar Consignment"
+                                               }
+                           }
+                       ],
+        "department":  [
+                           {
+                               "@type":  "ProfessionalService",
+                               "name":  "Buy Sell Vintage Guitars",
+                               "@id":  "https://www.joesvintageguitarsaz.com/",
+                               "url":  "https://www.joesvintageguitarsaz.com/",
+                               "sameAs":  [
+                                              "https://www.facebook.com/joesvintageguitars/",
+                                              "https://www.youtube.com/@joesvintageguitars",
+                                              "https://www.instagram.com/joesvintageguitarsaz/",
+                                              "https://maps.app.goo.gl/6xHcpYV9EdNij5vY8/"
+                                          ],
+                               "image":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/njw3skvdov5hr4crdk1e.jpg",
+                               "telephone":  "+1-602-830-5735",
+                               "priceRange":  "$$$$",
+                               "openingHoursSpecification":  [
+                                                                 {
+                                                                     "@type":  "OpeningHoursSpecification",
+                                                                     "dayOfWeek":  [
+                                                                                       "Monday",
+                                                                                       "Tuesday",
+                                                                                       "Wednesday",
+                                                                                       "Thursday",
+                                                                                       "Friday",
+                                                                                       "Saturday",
+                                                                                       "Sunday"
+                                                                                   ],
+                                                                     "opens":  "00:00",
+                                                                     "closes":  "23:59"
+                                                                 }
+                                                             ],
+                               "areaServed":  [
+                                                  {
+                                                      "@type":  "AdministrativeArea",
+                                                      "name":  "United States"
+                                                  },
+                                                  {
+                                                      "@type":  "AdministrativeArea",
+                                                      "name":  "Canada"
+                                                  }
+                                              ]
+                           }
+                       ]
+    },
+    {
+        "@context":  "https://schema.org",
+        "@id":  "https://www.joesvintageguitarsaz.com/",
+        "review":  [
+                       {
+                           "@type":  "Review",
+                           "author":  {
+                                          "@type":  "Person",
+                                          "name":  "Judy Anziano"
+                                      },
+                           "reviewBody":  "Joe just bought 38 guitars from my sister. She called to tell me how pleased she was with the whole process. She said he was very knowledgeable about the guitars and answered every question she had. She highly recommends Joe\u0027s Vintage Guitars!",
+                           "reviewRating":  {
+                                                "@type":  "Rating",
+                                                "ratingValue":  "5"
+                                            }
+                       },
+                       {
+                           "@type":  "Review",
+                           "author":  {
+                                          "@type":  "Person",
+                                          "name":  "Jeanne Century"
+                                      },
+                           "reviewBody":  "Joe appraised 7 guitars and 4 amps – he was fast, great to work with and very reasonably priced. Highly recommend!",
+                           "reviewRating":  {
+                                                "@type":  "Rating",
+                                                "ratingValue":  "5"
+                                            }
+                       },
+                       {
+                           "@type":  "Review",
+                           "author":  {
+                                          "@type":  "Person",
+                                          "name":  "John Coste"
+                                      },
+                           "reviewBody":  "I needed insurance appraisals for some of my guitars. I emailed pics and the appraisal came back that evening. Superfast, great price. Joe appraised two of my guitars and gave me current values on half a dozen others within a matter of hours. Easy to work with and very friendly. I will deal with him again. HIGHLY recommended.",
+                           "reviewRating":  {
+                                                "@type":  "Rating",
+                                                "ratingValue":  "5"
+                                            }
+                       },
+                       {
+                           "@type":  "Review",
+                           "author":  {
+                                          "@type":  "Person",
+                                          "name":  "My School In Azia"
+                                      },
+                           "reviewBody":  "Appraised my guitars over the phone and sold all in a matter of a couple hours. Does business well and would be happy to return if I ever needed something again. Please go to Joe instead of a pawn shop or franchise guitar store!",
+                           "reviewRating":  {
+                                                "@type":  "Rating",
+                                                "ratingValue":  "5"
+                                            }
+                       },
+                       {
+                           "@type":  "Review",
+                           "author":  {
+                                          "@type":  "Person",
+                                          "name":  "Tim C."
+                                      },
+                           "reviewBody":  "I needed several appraisals for musical equipment for insurance purposes. Joe\u0027s Vintage Guitars turned these around quickly and accurately. Highest recommendation for his ethics and professionalism. Top notch!",
+                           "reviewRating":  {
+                                                "@type":  "Rating",
+                                                "ratingValue":  "5"
+                                            }
+                       }
+                   ]
+    },
+    {
+        "@context":  "https://schema.org",
+        "@type":  "FAQPage",
+        "mainEntity":  [
+                           {
+                               "@type":  "Question",
+                               "name":  "How Can Appraisal Experts Determine My Guitar Collection\u0027s Price \u0026 Value?",
+                               "acceptedAnswer":  {
+                                                      "@type":  "Answer",
+                                                      "text":  "When you bring your guitar in for appraisal, I will inspect your guitar carefully. Its make and model, the age, condition, and any unique features the guitar has will be considered as I determine its value. You will receive a written appraisal detailing my assessment and findings, along with the determined value of your guitar so you can make an informed decision for moving forward with keeping or selling it."
+                                                  }
+                           },
+                           {
+                               "@type":  "Question",
+                               "name":  "How Long Will The Process Of Selling My Vintage Guitar Collection Take?",
+                               "acceptedAnswer":  {
+                                                      "@type":  "Answer",
+                                                      "text":  "When you visit Joe’s Vintage Guitar for an appraisal and assessment, I do everything I can to make the process quick, painless, and risk-free for you. I share as much information as I can without overwhelming you, and take my time understanding the guitar’s history and sentimental value to you personally. If you are ready to sell it, the actual process is relatively quick and simple."
+                                                  }
+                           },
+                           {
+                               "@type":  "Question",
+                               "name":  "Will I Have To Pay For Shipping Taxes To Sell My Vintage Guitar Collection?",
+                               "acceptedAnswer":  {
+                                                      "@type":  "Answer",
+                                                      "text":  "When I purchase your guitar, all expected fees and information are up front. I will never surprise you with hidden shipping fees or unexpected taxes, because I want the process to be painless and easy for you. We will take the utmost care as we package and ship your vintage guitar to my inventory. Feel free to text or call me for more details about the shipping process!"
+                                                  }
+                           },
+                           {
+                               "@type":  "Question",
+                               "name":  "Can I Sell My Guitar Collection On Consignment Or Trade It For Other Guitars?",
+                               "acceptedAnswer":  {
+                                                      "@type":  "Answer",
+                                                      "text":  "Consignment comes with a few risks, but depending on your guitar I am willing to offer the opportunity to you. I want you to have a guitar that you love, so if you are interested in trading your guitar for one from my inventory, let’s talk! I am flexible and ready to work with you to ensure a fair trade experience for all involved."
+                                                  }
+                           },
+                           {
+                               "@type":  "Question",
+                               "name":  "Is There A Warranty Or Return Policy After Buying Or Selling My Guitar Collection?",
+                               "acceptedAnswer":  {
+                                                      "@type":  "Answer",
+                                                      "text":  "I love guitars and want you to love yours too! If you purchase a guitar from my inventory and feel there was missing information, or you are simply unhappy with your purchase, please reach out to me! I will do everything possible to make it right for you."
+                                                  }
+                           }
+                       ]
+    }
+]
