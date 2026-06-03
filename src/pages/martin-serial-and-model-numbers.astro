@@ -1,0 +1,1019 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ContactSection from "../components/ContactSection.astro";
+import { contact, SITE_URL } from "../config/site";
+
+/* ============================================================
+   MARTIN SERIAL NUMBER LOOKUP & GUIDE — Archetype C (info-guide page)
+   ============================================================
+   Faithful port of the live /martin-serial-and-model-numbers/ page.
+
+   The serial-number lookup tool is ported verbatim from live (per user
+   request "make sure the tool functions exactly the same") — same UX:
+   instrument-type dropdown, numeric input, FIND YEAR button, result card
+   with year + per-type notes + appraisal CTA link.
+
+   Data sourced from the live page's inline <script> (Nazareth records):
+     - guitarData:   1898–2024, full a/b ranges
+     - lxData:       2005–2024 (Little Martin LX, last-serial-of-year)
+     - mandolinData: 1895–1993 (last-serial-of-year)
+     - navSolidData: 2010–2024 (Navojoa Solid Wood Ukulele)
+     - navHplData:   2010–2024 (Navojoa HPL Ukulele)
+     - navSoData:    2000–2010 (Navojoa SO Ukulele, with 2000–2006 approximate)
+   ============================================================ */
+
+const IMG = "/images/martin-serial";
+
+// Guitar serials — full a/b ranges, 1898–2024 (127 entries).
+const guitarData = [
+  {y:"1898",a:0,b:8348},{y:"1899",a:8349,b:8716},{y:"1900",a:8717,b:9128},{y:"1901",a:9129,b:9310},{y:"1902",a:9311,b:9528},{y:"1903",a:9529,b:9810},{y:"1904",a:9811,b:9988},{y:"1905",a:9989,b:10120},{y:"1906",a:10121,b:10329},{y:"1907",a:10330,b:10727},{y:"1908",a:10728,b:10883},{y:"1909",a:10884,b:11018},{y:"1910",a:11019,b:11203},{y:"1911",a:11204,b:11413},{y:"1912",a:11414,b:11565},{y:"1913",a:11566,b:11821},{y:"1914",a:11822,b:12047},{y:"1915",a:12048,b:12209},{y:"1916",a:12210,b:12390},{y:"1917",a:12391,b:12988},{y:"1918",a:12989,b:13450},{y:"1919",a:13451,b:14512},{y:"1920",a:14513,b:15848},{y:"1921",a:15849,b:16758},{y:"1922",a:16759,b:17839},{y:"1923",a:17840,b:19891},{y:"1924",a:19892,b:22008},{y:"1925",a:22009,b:24116},{y:"1926",a:24117,b:28689},{y:"1927",a:28690,b:34435},{y:"1928",a:34436,b:37568},{y:"1929",a:37569,b:40843},{y:"1930",a:40844,b:45317},{y:"1931",a:45318,b:49589},{y:"1932",a:49590,b:52590},{y:"1933",a:52591,b:55084},{y:"1934",a:55085,b:58679},{y:"1935",a:58680,b:61947},{y:"1936",a:61948,b:65176},{y:"1937",a:65177,b:68865},{y:"1938",a:68866,b:71866},{y:"1939",a:71867,b:74061},{y:"1940",a:74062,b:76734},{y:"1941",a:76735,b:80013},{y:"1942",a:80014,b:83107},{y:"1943",a:83108,b:86724},{y:"1944",a:86725,b:90149},{y:"1945",a:90150,b:93623},{y:"1946",a:93624,b:98158},{y:"1947",a:98159,b:103468},{y:"1948",a:103469,b:108269},{y:"1949",a:108270,b:112961},{y:"1950",a:112962,b:117961},{y:"1951",a:117962,b:122799},{y:"1952",a:122800,b:128436},{y:"1953",a:128437,b:134501},{y:"1954",a:134502,b:141345},{y:"1955",a:141346,b:147328},{y:"1956",a:147329,b:153225},{y:"1957",a:153226,b:159061},{y:"1958",a:159062,b:165576},{y:"1959",a:165577,b:171047},{y:"1960",a:171048,b:175689},{y:"1961",a:175690,b:181297},{y:"1962",a:181298,b:187384},{y:"1963",a:187385,b:193327},{y:"1964",a:193328,b:199626},{y:"1965",a:199627,b:207030},{y:"1966",a:207031,b:217215},{y:"1967",a:217216,b:230095},{y:"1968",a:230096,b:241925},{y:"1969",a:241926,b:256003},{y:"1970",a:256004,b:271633},{y:"1971",a:271634,b:294270},{y:"1972",a:294271,b:313302},{y:"1973",a:313303,b:333873},{y:"1974",a:333874,b:353387},{y:"1975",a:353388,b:371828},{y:"1976",a:371829,b:388800},{y:"1977",a:388801,b:399625},{y:"1978",a:399626,b:407800},{y:"1979",a:407801,b:419900},{y:"1980",a:419901,b:430300},{y:"1981",a:430301,b:436474},{y:"1982",a:436475,b:439627},{y:"1983",a:439628,b:446101},{y:"1984",a:446102,b:453300},{y:"1985",a:453301,b:460575},{y:"1986",a:460576,b:468175},{y:"1987",a:468176,b:476216},{y:"1988",a:476217,b:483952},{y:"1989",a:483953,b:493279},{y:"1990",a:493280,b:503309},{y:"1991",a:503310,b:512487},{y:"1992",a:512488,b:522655},{y:"1993",a:522656,b:535223},{y:"1994",a:535224,b:551696},{y:"1995",a:551697,b:570434},{y:"1996",a:570435,b:592930},{y:"1997",a:592931,b:624799},{y:"1998",a:624800,b:668796},{y:"1999",a:668797,b:724077},{y:"2000",a:724078,b:780500},{y:"2001",a:780501,b:845644},{y:"2002",a:845645,b:916759},{y:"2003",a:916760,b:978706},{y:"2004",a:978707,b:1042558},{y:"2005",a:1042559,b:1115862},{y:"2006",a:1115863,b:1197799},{y:"2007",a:1197800,b:1268091},{y:"2008",a:1268092,b:1337042},{y:"2009",a:1337043,b:1406715},{y:"2010",a:1406716,b:1473461},{y:"2011",a:1473462,b:1555767},{y:"2012",a:1555768,b:1656742},{y:"2013",a:1656743,b:1755536},{y:"2014",a:1755537,b:1857399},{y:"2015",a:1857400,b:1972129},{y:"2016",a:1972130,b:2076795},{y:"2017",a:2076796,b:2161732},{y:"2018",a:2161733,b:2258889},{y:"2019",a:2258890,b:2366880},{y:"2020",a:2366881,b:2454224},{y:"2021",a:2454225,b:2576415},{y:"2022",a:2576416,b:2711440},{y:"2023",a:2711441,b:2829083},{y:"2024",a:2829084,b:2935987}
+];
+
+// Little Martin LX — last serial of year (no a-min; computed as previous b+1)
+const lxData = [
+  {y:"2005",b:41279},{y:"2006",b:54016},{y:"2007",b:69850},{y:"2008",b:85266},{y:"2009",b:98332},{y:"2010",b:115197},{y:"2011",b:129934},{y:"2012",b:145612},{y:"2013",b:172822},{y:"2014",b:205052},{y:"2015",b:236580},{y:"2016",b:263886},{y:"2017",b:284726},{y:"2018",b:319828},{y:"2019",b:344677},{y:"2020",b:361282},{y:"2021",b:388199},{y:"2022",b:406762},{y:"2023",b:417282},{y:"2024",b:429400}
+];
+
+// Mandolins — last serial of year. Note breaks at 1991 (merged with guitar seq).
+const mandolinData = [
+  {y:"1895",b:23},{y:"1896",b:112},{y:"1897",b:153},{y:"1898",b:359},{y:"1899",b:577},{y:"1900",b:800},{y:"1901",b:881},{y:"1902",b:1171},{y:"1903",b:1348},{y:"1904",b:1507},{y:"1905",b:1669},{y:"1906",b:2026},{y:"1907",b:2357},{y:"1908",b:2510},{y:"1909",b:2786},{y:"1910",b:3098},{y:"1911",b:3431},{y:"1912",b:3847},{y:"1913",b:4162},{y:"1914",b:4462},{y:"1915",b:4767},{y:"1916",b:5007},{y:"1917",b:5752},{y:"1918",b:6370},{y:"1919",b:7237},{y:"1920",b:8761},{y:"1921",b:9627},{y:"1922",b:10245},{y:"1923",b:11020},{y:"1924",b:11809},{y:"1925",b:12520},{y:"1926",b:13359},{y:"1927",b:13833},{y:"1928",b:14170},{y:"1929",b:14630},{y:"1930",b:14892},{y:"1931",b:15290},{y:"1932",b:15476},{y:"1933",b:15528},{y:"1934",b:15729},{y:"1935",b:15887},{y:"1936",b:16156},{y:"1937",b:16437},{y:"1938",b:16580},{y:"1939",b:16747},{y:"1940",b:16957},{y:"1941",b:17263},{y:"1942",b:17405},{y:"1946",b:17641},{y:"1947",b:18303},{y:"1948",b:19078},{y:"1949",b:19559},{y:"1950",b:20065},{y:"1951",b:20496},{y:"1952",b:20902},{y:"1953",b:21452},{y:"1954",b:21952},{y:"1955",b:22254},{y:"1956",b:22629},{y:"1957",b:22985},{y:"1958",b:23111},{y:"1959",b:23262},{y:"1960",b:23512},{y:"1961",b:23663},{y:"1962",b:23938},{y:"1963",b:24139},{y:"1964",b:24339},{y:"1965",b:24439},{y:"1966",b:24564},{y:"1967",b:24639},{y:"1968",b:24839},{y:"1969",b:24989},{y:"1970",b:25039},{y:"1971",b:25139},{y:"1972",b:25239},{y:"1973",b:25339},{y:"1974",b:25679},{y:"1975",b:25895},{y:"1976",b:26070},{y:"1977",b:26101},{y:"1979",b:26112},{y:"1980",b:26156},{y:"1981",b:26215},{y:"1982",b:26225},{y:"1983",b:26247},{y:"1984",b:26254},{y:"1985",b:26263},{y:"1986",b:26273},{y:"1987",b:26279},{y:"1988",b:26281},{y:"1989",b:26283},{y:"1990",b:26291},{y:"1991",b:509122},{y:"1993",b:533213}
+];
+
+const navSolidData = [
+  {y:"2010",b:1282},{y:"2011",b:3607},{y:"2012",b:6702},{y:"2013",b:9266},{y:"2014",b:10829},{y:"2015",b:13298},{y:"2016",b:15594},{y:"2017",b:17465},{y:"2018",b:19924},{y:"2019",b:22337},{y:"2020",b:24189},{y:"2021",b:27497},{y:"2022",b:32393},{y:"2023",b:34983},{y:"2024",b:37638}
+];
+
+const navHplData = [
+  {y:"2010",b:1672},{y:"2011",b:2403},{y:"2012",b:2967},{y:"2013",b:3382},{y:"2014",b:4322},{y:"2015",b:4833},{y:"2016",b:5616},{y:"2017",b:6207},{y:"2018",b:6517},{y:"2019",b:6682},{y:"2020",b:6683},{y:"2021",b:7874},{y:"2022",b:8876},{y:"2023",b:10793},{y:"2024",b:12583}
+];
+
+const navSoData = [
+  {y:"2000–2006",a:0,b:9972,approximate:true},{y:"2007",a:9973,b:10910},{y:"2008",a:10911,b:11724},{y:"2009",a:11725,b:12570},{y:"2010",a:12571,b:12922}
+];
+
+// Helper: compute the start serial for last-serial-of-year tables for display
+function formatLastSerial(data: { y: string; b: number }[]) {
+  return data.map((row, i) => ({
+    year: row.y,
+    rangeStart: i === 0 ? 0 : data[i - 1].b + 1,
+    rangeEnd: row.b,
+    last: row.b,
+  }));
+}
+
+// Format guitar range for display (e.g., "0000 — 8348")
+const guitarTableRows = guitarData.map((r) => ({
+  year: r.y,
+  range: `${r.a === 0 ? "0000" : r.a} — ${r.b}`,
+}));
+const lxTableRows = lxData;
+const mandolinTableRows = mandolinData;
+const navSolidTableRows = navSolidData;
+const navHplTableRows = navHplData;
+const navSoTableRows = navSoData;
+
+// Jump-to-section nav (matches live)
+const jumpNav = [
+  { href: "#where-to-find-your-martin-guitar-model-and-serial-number", label: "Serial Location" },
+  { href: "#tuner-guide", label: "Tuner Chronology" },
+  { href: "#tonewood-guide", label: "Woods & Tone Guide" },
+  { href: "#trim-guide", label: "Purfling & Binding" },
+  { href: "#inlay-guide", label: "Inlay Patterns" },
+  { href: "#logo-guide", label: "Logo & Stamps" },
+  { href: "#historical-timeline", label: "Martin History Timeline" },
+];
+
+// Page-specific JSON-LD: BreadcrumbList + Article
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+      { "@type": "ListItem", position: 2, name: "Martin Serial Number Lookup and Guide", item: SITE_URL + "/martin-serial-and-model-numbers/" },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Martin Serial Number Lookup and Guide",
+    author: { "@type": "Person", name: "Joe Dampt" },
+    publisher: { "@id": SITE_URL + "/#organization" },
+    mainEntityOfPage: SITE_URL + "/martin-serial-and-model-numbers/",
+  },
+];
+---
+
+<Layout
+  title="Martin Serial Number Lookup & Guide"
+  description="Finding the model and year of your Martin guitar is a very easy process, thanks to this quick and simple serial number lookup and guide."
+  canonical="/martin-serial-and-model-numbers/"
+  ogImage={`${IMG}/Model-Name-Serial-Number-Martin.jpg`}
+  structuredData={structuredData}
+>
+  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
+  <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+
+  <!-- 1. Title + lookup tool ------------------------------------------- -->
+  <section class="msn-hero">
+    <div class="msn-inner">
+      <h1>Martin Serial Number Lookup and Guide</h1>
+
+      <div class="serial-hero-container">
+        <h2>Martin Serial Number Lookup</h2>
+        <div class="container-input-serial">
+          <!-- Custom dropdown (mirrors live's #mcs-wrapper structure 1:1) -->
+          <div class="martin-custom-select" id="mcs-wrapper">
+            <div class="mcs-selected" id="mcs-selected">Martin Guitars &amp; Ukuleles (Nazareth)</div>
+            <div class="mcs-options" id="mcs-options">
+              <div class="mcs-option active" data-value="guitar">Martin Guitars &amp; Ukuleles (Nazareth)</div>
+              <div class="mcs-option" data-value="lx">Little Martin (LX Series)</div>
+              <div class="mcs-option" data-value="mandolin">Martin Mandolins</div>
+              <div class="mcs-option" data-value="nav-solid">Navojoa Solid Wood Ukulele</div>
+              <div class="mcs-option" data-value="nav-hpl">Navojoa HPL Ukulele</div>
+              <div class="mcs-option" data-value="nav-so">Navojoa SO Ukulele</div>
+            </div>
+          </div>
+
+          <div class="msn-input-row">
+            <input id="search-serial" type="text" placeholder="Enter Serial Number" />
+            <button class="btn-search-serial" id="btn-find-year" type="button">FIND YEAR</button>
+          </div>
+        </div>
+        <div id="show-search" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Intro + jump-to-chart button + Joe's video + section nav ------ -->
+  <section class="msn-intro">
+    <div class="msn-inner">
+      <div class="jump-btn-container">
+        <a href="#martin-chart-title" class="btn-jump-chart">Jump to Serial Number Chart ↓</a>
+      </div>
+
+      <p class="msn-lede">If you&rsquo;re holding a Martin guitar, you&rsquo;re holding a piece of music history. Finding the exact year of production is the first step in understanding its story and its true market value. Our lookup tool above cross-references official Nazareth records to give you an instant date for your instrument.</p>
+
+      <div class="video-nav-container">
+        <div class="video-column">
+          <lite-youtube
+            videoid="WGF-pL6GB38"
+            params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1"
+            title="Where to Find the Serial Number on a Martin Guitar"
+            class="msn-lite-yt"
+          ></lite-youtube>
+        </div>
+        <nav class="nav-column" aria-label="Jump to section">
+          <h3>Jump to a Section</h3>
+          <ul>
+            {jumpNav.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Serial number location --------------------------------------- -->
+  <section class="msn-section">
+    <div class="msn-inner">
+      <h2 id="where-to-find-your-martin-guitar-model-and-serial-number">Where Is The Serial Number Located?</h2>
+      <p>On all vintage Martin acoustic guitars, the serial number is stamped on the <strong>neck block</strong> inside the soundhole. The neck block is the heavy piece of wood inside the guitar where the neck joins the body. The top number is the model number (e.g., D-28), and the lower one is the serial number. Martin guitars made before October 1930 do not have the Model number stamped.</p>
+      <figure class="msn-figure">
+        <img
+          src={`${IMG}/Model-Name-Serial-Number-Martin.jpg`}
+          alt="Martin Serial Number Stamped on Neck Block"
+          loading="lazy"
+          width="1100"
+          height="733"
+        />
+      </figure>
+    </div>
+  </section>
+
+  <!-- 4. Guitar serial number range chart + 2025/2026 projections box -->
+  <section class="msn-section msn-section--alt">
+    <div class="msn-inner">
+      <h2 id="martin-chart-title">Martin Serial Number Range Chart</h2>
+      <p>Find the range that your guitar falls into below. <strong>This chart contains every production year from 1898 to 2024.</strong></p>
+
+      <div class="table-cont">
+        <table class="post-content-table">
+          <thead>
+            <tr><th>Year</th><th>Serial Number Range</th></tr>
+          </thead>
+          <tbody>
+            {guitarTableRows.map((row) => (
+              <tr><td>{row.year}</td><td>{row.range}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div id="martin-2025-and-2026-serial-numbers" class="projections-box">
+        <h3>Martin 2025 and 2026 Projections</h3>
+        <p>Based on Martin&rsquo;s current production of ~107,000 guitars annually, we speculate the following ranges:</p>
+        <ul>
+          <li>2025 Projection: 2,935,988 — 3,043,000</li>
+          <li>2026 Projection: 3,043,001 — 3,150,000</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Little Martin (LX Series) ------------------------------------ -->
+  <section class="msn-section">
+    <div class="msn-inner">
+      <h2 id="little-martin-lx-serial-numbers">Little Martin (LX Series) Serial Numbers</h2>
+      <p>The Little Martin LX series uses its own separate serial number sequence, completely independent from standard Nazareth production. These compact, HPL-bodied instruments have been made at Martin&rsquo;s Navojoa, Sonora, Mexico facility since 2003. Use the chart below to date your LX model.</p>
+
+      <div class="table-cont">
+        <table class="post-content-table">
+          <thead>
+            <tr><th>Year</th><th>Last Serial No.</th></tr>
+          </thead>
+          <tbody>
+            {lxTableRows.map((row) => <tr><td>{row.y}</td><td>{row.b}</td></tr>)}
+          </tbody>
+        </table>
+      </div>
+
+      <p><strong>How to read this chart:</strong> The number shown is the <em>last</em> serial number issued in that year. If your serial number falls between the previous year&rsquo;s last number and the current year&rsquo;s last number, your instrument was made in that year. For example, a serial number of 100000 falls between 98332 (end of 2009) and 115197 (end of 2010), so it was made in 2010.</p>
+    </div>
+  </section>
+
+  <!-- 6. Mandolins ---------------------------------------------------- -->
+  <section class="msn-section msn-section--alt">
+    <div class="msn-inner">
+      <h2 id="martin-mandolin-serial-numbers">Martin Mandolin Serial Numbers</h2>
+      <p>Martin mandolins use an entirely separate serial number system from their guitars. Production ran from the late 1800s through 2002, when Martin ceased mandolin manufacturing entirely. From 1994 to 2002, mandolins were only available as custom orders. Note that from 1991 onward, Martin merged the mandolin serial sequence with the standard guitar numbering system, so serial numbers from 1991 and 1993 will overlap with guitar serials from that period.</p>
+      <p>The serial number on a Martin mandolin can typically be found stamped on the inside of the instrument, either on the back strip or the neck block, visible through the soundhole.</p>
+      <p><strong>* Note on 1976:</strong> Serial numbers 259,996–260,020 were also used in 1976. <strong>** Note on 1991:</strong> From serial 509,122 onward, mandolin serials merged into the standard Martin guitar sequence.</p>
+
+      <div class="table-cont">
+        <table class="post-content-table">
+          <thead>
+            <tr><th>Year</th><th>Last Serial No.</th></tr>
+          </thead>
+          <tbody>
+            {mandolinTableRows.map((row) => (
+              <tr><td>{row.y}</td><td>{row.y === "1976" ? `${row.b} *` : row.y === "1991" ? `${row.b} **` : row.b}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Navojoa Ukuleles (3 sub-tables) ------------------------------- -->
+  <section class="msn-section">
+    <div class="msn-inner">
+      <h2 id="martin-navojoa-ukulele-serial-numbers">Martin Navojoa Ukulele Serial Numbers</h2>
+      <p>Martin produces several ukulele models at their Navojoa, Sonora, Mexico facility. These instruments use three completely separate serial number sequences depending on construction type: Solid Wood, HPL (High Pressure Laminate), and SO. If you&rsquo;re unsure which type you have, check the back and sides of your ukulele — solid wood models will show real wood grain on the interior, while HPL models have a smooth, uniform paper-and-resin composite construction.</p>
+
+      <h3 id="navojoa-solid-wood-ukulele-serial-numbers">Navojoa Solid Wood Ukulele Serial Numbers</h3>
+      <p>These are Martin&rsquo;s higher-end Navojoa ukuleles, built with genuine solid wood tops, backs, and sides. Production data is available from 2010 onward.</p>
+      <div class="table-cont">
+        <table class="post-content-table">
+          <thead><tr><th>Year</th><th>Last Serial No.</th></tr></thead>
+          <tbody>{navSolidTableRows.map((row) => <tr><td>{row.y}</td><td>{row.b}</td></tr>)}</tbody>
+        </table>
+      </div>
+
+      <h3 id="navojoa-hpl-ukulele-serial-numbers">Navojoa HPL Ukulele Serial Numbers</h3>
+      <p>HPL stands for High Pressure Laminate — a composite material made from paper and resin pressed at very high pressure, with a wood-pattern surface finish. These are Martin&rsquo;s more affordable and highly durable Navojoa ukulele models, well suited for travel and beginners.</p>
+      <div class="table-cont">
+        <table class="post-content-table">
+          <thead><tr><th>Year</th><th>Last Serial No.</th></tr></thead>
+          <tbody>{navHplTableRows.map((row) => <tr><td>{row.y}</td><td>{row.b}</td></tr>)}</tbody>
+        </table>
+      </div>
+
+      <h3 id="navojoa-so-ukulele-serial-numbers">Navojoa SO Ukulele Serial Numbers</h3>
+      <p>The SO ukulele series was an earlier Navojoa production line. <strong>Important note:</strong> the 2000–2006 serial range (up to 9972) is approximate only — Martin did not keep year-by-year records for this period, so an exact production year cannot be confirmed for instruments in that range. Records become year-specific from 2007 onward.</p>
+      <div class="table-cont">
+        <table class="post-content-table">
+          <thead><tr><th>Year</th><th>Serial Number Range</th></tr></thead>
+          <tbody>
+            {navSoTableRows.map((row) => (
+              <tr><td>{row.approximate ? <Fragment>{row.y} <em>(approximate)</em></Fragment> : row.y}</td><td>{`${row.a} — ${row.b}`}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. The Ultimate Martin Dating & Specifications Guide ------------ -->
+  <section class="msn-section msn-section--alt depth-section" id="in-depth-dating-and-specs">
+    <div class="msn-inner">
+      <h2>The Ultimate Martin Dating &amp; Specifications Guide</h2>
+      <p>Using a serial number is the first step, but identifying the correct specifications is how you verify authenticity and value. Here is how Martin&rsquo;s construction evolved over the decades.</p>
+
+      <!-- 8.1 Tuners -->
+      <div class="guide-category" id="tuner-guide">
+        <h3>1. Chronology of Martin Tuners (Machine Heads)</h3>
+        <p>Original tuners are one of the most accurate ways to help date a Martin. Hardware evolved from 19th-century friction pegs to specialized wartime metal-saving designs.</p>
+        <p class="msn-note">Note: While these are not all the tuner variations Martin used, they are the most commonly seen.</p>
+
+        <div class="spec-grid">
+          <div class="spec-item">
+            <h4>Pre-War Mastery (1900 – 1941)</h4>
+            <p><strong>Waverly Clipped-End:</strong> Baseplates with angled-off corners, common in the late 1920s.<br /><strong>Grover G-93 &amp; G-98 Sta-Tite:</strong> The definitive &ldquo;pointed-end&rdquo; or arrowhead plates.<br /><strong>Banjo Tuners:</strong> Long planetary gears seen on early 1929-31 OM models.<br /><strong>Grover G-111 Enclosed:</strong> Early covered gears for D-28s with a smooth, rounded protective &ldquo;shroud.&rdquo;</p>
+          </div>
+
+          <div class="spec-item">
+            <h4>The Modern Era (1966 – Present)</h4>
+            <p><strong>Grover Rotomatics:</strong> Large, chrome sealed-gear tuners with kidney buttons. Marked the end of the lightweight &ldquo;Golden Era&rdquo; feel.<br /><strong>Schaller:</strong> Often used in the 70s/80s, similar to Grovers but with a more squared-off casing.</p>
+          </div>
+
+          <div class="spec-item">
+            <h4>Wartime Variations (1942 – 1945)</h4>
+            <div class="warning-box">
+              <strong>Wartime Fun Fact:</strong> Martin saved metal for the war effort by omitting headstock bushings; the string posts pass directly through the wood.
+            </div>
+            <p><strong>Waverly 12:1 &ldquo;3-Hump&rdquo;:</strong> Plates with three distinct curves and sharp corners.<br /><strong>&ldquo;Teddy Bear&rdquo; Waverlys:</strong> Rare variant with a silhouette like a bear&rsquo;s head.<br /><strong>Grey Klusons (1943-44):</strong> Dull, non-plated, thin-geared flat plate tuners.<br /><strong>Style 17:</strong> Simple 3-on-a-strip gears with exposed rivets.</p>
+            <figure class="msn-figure-inline">
+              <img src={`${IMG}/Martin-wartime-tuners-plastic-buttons-no-bushings-scaled.jpg`} alt="Vintage Martin Wartime Tuners No Bushings" loading="lazy" />
+              <figcaption>Vintage Martin Wartime Tuners (Plastic Buttons, No Bushings)</figcaption>
+            </figure>
+          </div>
+
+          <div class="spec-item">
+            <h4>Post-War &amp; Transition (1946 – 1960s)</h4>
+            <p><strong>Waverly &ldquo;Round-end&rdquo;:</strong> Return to smooth, scalloped plate ends.</p>
+            <figure class="msn-figure-inline">
+              <img src={`${IMG}/martin-tuners-waverly-round-end-scaled.jpeg`} alt="Vintage Martin Waverly Round-End Tuners" loading="lazy" />
+              <figcaption>Vintage Martin Waverly Round-End Tuners</figcaption>
+            </figure>
+            <p><strong>Kluson Post-War Hex:</strong> Features a distinctive six-sided gear housing.</p>
+            <figure class="msn-figure-inline">
+              <img src={`${IMG}/martin-tuners-hexagonal-kluson-scaled.jpeg`} alt="Vintage Martin Hexagonal Kluson Tuners" loading="lazy" />
+              <figcaption>Vintage Martin Kluson Hexagonal Tuners</figcaption>
+            </figure>
+            <p><strong>Kluson Deluxe:</strong> Classic &ldquo;closed-back&rdquo; with a vertical line of text stamped into the housing.<br /><strong>Nickel Waffle-Backs:</strong> Heavy-duty Klusons with a textured pattern, often on Style 45s.</p>
+            <figure class="msn-figure-inline">
+              <img src={`${IMG}/martin-kluson-waffle-back-tuners-scaled.jpg`} alt="Vintage Martin Kluson Waffle-Back Tuners" loading="lazy" />
+              <figcaption>Vintage Martin Kluson Waffle-Back Tuners</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8.2 Purfling & Binding -->
+      <div class="guide-category" id="trim-guide">
+        <h3>2. Purfling &amp; Binding: Identifying High-Value Materials</h3>
+        <p>The &ldquo;bling&rdquo; and construction of the edges are direct indicators of a Martin&rsquo;s style and era. Understanding these material transitions is key for separating &ldquo;Golden Era&rdquo; originals from modern reissues.</p>
+        <div class="spec-grid">
+          <div class="spec-item">
+            <h4>The Iconic "Bone" (Style 28)</h4>
+            <p><strong>The Standard:</strong> This wood-inlay pattern was the standard on Style 28 guitars until 1947.<br /><strong>Aesthetic:</strong> Pre-war herringbone is a specific &ldquo;zig-zag&rdquo; wood marquetry that defines the high-end working man&rsquo;s guitar of the 1930s.<br /><strong>Ivoroid Binding:</strong> Genuine pre-war models featured grained ivoroid, which develops a creamy yellowish patina.</p>
+          </div>
+          <div class="spec-item">
+            <h4>Abalone Pearl (The Style 45 Pinnacle)</h4>
+            <p><strong>Style 45:</strong> The ultimate collectible prize, featuring hand-selected abalone on the top, back, and sides, including a pearl border around the neck joint.<br /><strong>Style 42:</strong> Features abalone on the top only, typically stopping at the fingerboard extension.<br /><strong>Style 41:</strong> Introduced in 1968 with a wider pearl border than pre-war versions.</p>
+          </div>
+          <div class="spec-item">
+            <h4>Celluloid vs. Wood Binding</h4>
+            <p><strong>Style 18 Transition:</strong> Early Style 18s featured real rosewood binding before transitioning to dark brown &ldquo;Tortoiseshell&rdquo; celluloid in the mid-1930s.<br /><strong>The Boltaron Shift:</strong> In the late 1960s, Martin moved from celluloid to Boltaron, a stark white, stable plastic.<br /><strong>Binding Shrinkage:</strong> Common in vintage celluloid where the plastic pulls away from the guitar&rsquo;s &ldquo;waist&rdquo; over decades.</p>
+          </div>
+          <div class="spec-item">
+            <h4>Specialty Purfling (Style 21 &amp; 35)</h4>
+            <p><strong>Style 21:</strong> Features simple, dark multi-ply wood purfling for an earthy, understated look.<br /><strong>Style 35:</strong> Introduced in 1965 with its 3-piece back; look for two additional vertical strips of decorative &ldquo;checkerboard&rdquo; purfling joining the panels.</p>
+          </div>
+        </div>
+        <div class="warning-box">
+          <strong>Wartime Fun Fact:</strong> During the war years, Martin occasionally used leftover materials or simplified the purfling due to labor shortages. Look for these unique &ldquo;mismatched&rdquo; trim variations!
+        </div>
+      </div>
+
+      <!-- 8.3 Inlays -->
+      <div class="guide-category" id="inlay-guide">
+        <h3>3. Fretboard &amp; Headstock Inlays: The Art of the Luthier</h3>
+        <p>While standard dots were the norm for working-man guitars, Martin&rsquo;s high-end models used intricate &ldquo;pearl work&rdquo; to signify the highest level of craftsmanship. Identifying these patterns is essential for verifying authenticity.</p>
+
+        <div class="spec-grid">
+          <div class="spec-item">
+            <h4>Evolution of the Fretboard Dot</h4>
+            <p><strong>Micro-Dots (Pre-1932):</strong> Tiny, almost microscopic abalone or pearl dots used on early Style 18 models.<br /><strong>Golden Era (1930s – 1944):</strong> Dots became slightly larger and more uniform.<br /><strong>1944 &ldquo;Large Dot&rdquo; Shift:</strong> Martin moved to larger 1/4-inch mother-of-pearl dots across most models to simplify production.</p>
+          </div>
+          <div class="spec-item">
+            <h4>Elite Patterns: Vines &amp; Snowflakes</h4>
+            <p><strong>Tree of Life (Vine):</strong> Intricate abalone vine growing up the entire fretboard, reserved for custom commissions.<br /><strong>Snowflake (Style 42 &amp; 45):</strong> Delicate, six-pointed floral designs.<br /><strong>Diamonds &amp; Squares (Pre-War Style 28):</strong> Elegant slotted patterns that signal a &ldquo;Golden Era&rdquo; instrument.</p>
+          </div>
+          <div class="spec-item">
+            <h4>Fancy Headstock: Torch &amp; Flowerpot</h4>
+            <p><strong>The Torch (19th C – Early 1900s):</strong> The ultimate pre-war status symbol; an intricate flaming torch design in abalone.<br /><strong>The Flowerpot:</strong> A rare, rounded floral variant found on premium late-19th-century parlor guitars.<br /><strong>Vertical Logo:</strong> Spell-out &ldquo;C.F. MARTIN&rdquo; in vertical pearl blocks, typical of 20th-century Style 45s.</p>
+          </div>
+          <div class="spec-item">
+            <h4>Personalized &amp; Engraved Appointments</h4>
+            <p><strong>Name-in-Fretboard:</strong> Players occasionally had their names inlaid in pearl, signaling unique historical commissions.<br /><strong>Engraved Pearl:</strong> Elite 19th-century models often featured pearl hand-engraved with fine lines to add detail to flowers or scrollwork.</p>
+          </div>
+        </div>
+        <div class="warning-box">
+          <strong>Wartime Fun Fact:</strong> Labor and material shortages in the 1940s forced Martin to simplify inlays. The move from refined &ldquo;Diamonds &amp; Squares&rdquo; to large dots in 1944 was a direct result of these production pressures.
+        </div>
+      </div>
+
+      <!-- 8.4 Logos & Stamps -->
+      <div class="guide-category" id="logo-guide">
+        <h3>4. Evolution of the Martin Logo &amp; Stamps</h3>
+        <p>Before the gold decal standard, Martin used various wood stamps and pearl work to brand their instruments. These markers are often the best way to distinguish an early production model.</p>
+        <div class="spec-grid">
+          <div class="spec-item">
+            <h4>Early External Body Stamp</h4>
+            <p>On some of the earliest Martin models (1833 – mid-1800s), the company name was branded directly into the wood on the <strong>back of the body</strong>, just below the neck heel.</p>
+            <figure class="msn-figure-inline">
+              <img src={`${IMG}/martin-back-of-body-logo-stamp.jpg`} alt="Vintage Martin Back of Body Wood Stamp" loading="lazy" />
+              <figcaption>Vintage Martin Early External Body Stamp</figcaption>
+            </figure>
+          </div>
+          <div class="spec-item">
+            <h4>Rear Headstock Stamp (Pre-1932)</h4>
+            <p>Until 1932, there was typically no logo on the front of the headstock! Instead, the brand was stamped into the <strong>back</strong> of the headstock. This was usually paired with a matching internal wood stamp.</p>
+            <figure class="msn-figure-inline">
+              <img src={`${IMG}/martin-guitar-back-of-headstock-stamp-scaled.jpg`} alt="Vintage Martin Back of Headstock Stamp" loading="lazy" />
+              <figcaption>Vintage Martin Rear Headstock Stamp</figcaption>
+            </figure>
+          </div>
+          <div class="spec-item">
+            <h4>The Inlaid Vertical Logo</h4>
+            <p>Reserved for elite Style 45 models, this premium branding features the company name spelled out vertically in individual blocks of Abalone pearl. It is the pinnacle of vintage Martin branding.</p>
+          </div>
+          <div class="spec-item">
+            <h4>The Gold Decal (1932-Present)</h4>
+            <p>The iconic gold decal was introduced in 1932. Early decals were slightly smaller and had a different font weight than the &ldquo;Large Decals&rdquo; seen in the 1960s and 70s.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8.5 Timeline -->
+      <div class="guide-category" id="historical-timeline">
+        <h3>5. Martin Historical Production Timeline</h3>
+        <div class="timeline-list">
+          <div class="timeline-item"><span class="timeline-year">1833</span> C.F. Martin Sr. moves to New York from Germany and establishes the company.</div>
+          <div class="timeline-item"><span class="timeline-year">1850s</span> Introduction of <strong>X-Bracing</strong>, the most significant innovation in acoustic guitar history.</div>
+          <div class="timeline-item"><span class="timeline-year">1916</span> The first <strong>Dreadnought</strong> (the D-size) is built for the Ditson company.</div>
+          <div class="timeline-item"><span class="timeline-year">1929</span> The OM-28 (Orchestra Model) is introduced, featuring the first 14-fret neck on a Martin.</div>
+          <div class="timeline-item"><span class="timeline-year">1934</span> Martin officially switches from <strong>Bar Frets</strong> to modern <strong>T-Frets</strong> across all models.</div>
+          <div class="timeline-item"><span class="timeline-year">1944</span> The end of <strong>Scalloped Bracing</strong> (due to steel string tension issues). Post-1944 guitars have &ldquo;straight&rdquo; braces.</div>
+          <div class="timeline-item"><span class="timeline-year">1969</span> The &ldquo;Brazilian Rosewood Cutoff.&rdquo; Martin switches to Indian Rosewood in late 1969.</div>
+        </div>
+      </div>
+
+      <!-- 8.6 Tonewoods -->
+      <div class="guide-category" id="tonewood-guide">
+        <h3>6. Tonewood Guide: From Standard to Exceptional</h3>
+        <p>The choice of wood defines a Martin&rsquo;s voice. While many guitars share species, the specific grain and era of the wood can elevate a guitar to a true investment piece.</p>
+        <div class="spec-grid">
+          <div class="spec-item">
+            <h4>Adirondack Spruce (Pre-War "Red Spruce")</h4>
+            <p><strong>Standard:</strong> Used until 1946. Look for wide grain spacing and a stiff, lightweight structure.<br /><strong>The Exceptional Piece:</strong> Look for &ldquo;silk&rdquo; (medullary rays) across the grain. Exceptional Adirondack offers massive headroom and a &ldquo;punch&rdquo; that stays clear even when played hard. Mid-40s models may feature rare four-piece Adirondack tops.</p>
+          </div>
+          <div class="spec-item">
+            <h4>Sitka Spruce (Post-War Powerhouse)</h4>
+            <p><strong>Standard:</strong> Primary top wood after 1946; generally tighter, more consistent grain than Adirondack with a warmer initial response.<br /><strong>The Exceptional Piece:</strong> Look for <strong>&ldquo;Bearclaw&rdquo; figuring</strong> (natural ripples). Once seen as a defect, stiff Bearclaw Sitka is now highly prized for its unique aesthetic and tone. Exceptional vintage Sitka from the 1950s has often &ldquo;honeyed&rdquo; over decades, providing a rich, complex tone.</p>
+          </div>
+          <div class="spec-item">
+            <h4>The "Mystery Top" Era (1946 – Early 50s)</h4>
+            <p><strong>The Identity:</strong> A post-war transition period away from Adirondack where tops often don&rsquo;t perfectly fit into the Sitka or Adirondack categories.<br /><strong>The Value:</strong> Highly prized because these tops often possess the tonal power of Adirondack with the visual consistency of premium Sitka.</p>
+          </div>
+          <div class="spec-item">
+            <h4>Brazilian Rosewood (Pre-1969 Gold Standard)</h4>
+            <p><strong>Standard:</strong> Definitive back/side wood until 1969. Look for chocolate to orange-red hues with &ldquo;spidery&rdquo; black ink lines.<br /><strong>The Exceptional Piece:</strong> Exceptional pieces used dead-straight grain for superior bell-like tone and stability. Late-60s transition pieces or D-35s (introduced in 1965) use multi-piece back construction to maximize wood supplies.</p>
+          </div>
+          <div class="spec-item">
+            <h4>Mahogany: The Soul of the Golden Era Workhorse</h4>
+            <p><strong>Standard:</strong> Consistent vertical grain with a warm, dry tonal response.<br /><strong>The Exceptional Piece:</strong> Look for rare flamed or quilted mahogany on early or custom pieces. A lightweight 1930s D-18 is widely considered the ultimate recording guitar.</p>
+          </div>
+        </div>
+        <div class="warning-box">
+          <strong>Wartime Fun Fact:</strong> Due to wartime shortages, Martin focused on structural integrity over book-matching aesthetics. A &ldquo;mismatched&rdquo; but incredible-sounding top from 1944 is a hallmark marker of the era.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Vintage Martin Guitar Values --------------------------------- -->
+  <section class="msn-section">
+    <div class="msn-inner">
+      <h2 id="what-is-my-martin-guitar-worth">Vintage Martin Guitar Values</h2>
+      <p>The value of Martin guitars can vary from a couple of hundred dollars all the way up to six figures! Pre-war guitars (made before 1941) are the most desirable and valuable. If you would like help valuing or selling your Martin guitar, please don&rsquo;t hesitate to <strong><a href="/contact-me/">contact me</a></strong>!</p>
+      <figure class="msn-figure msn-figure--portrait">
+        <img src={`${IMG}/2003-martin-d-35-sunburst-683x1024.jpg`} alt="2003 Martin D-35 sunburst acoustic guitar" loading="lazy" width="683" height="1024" />
+      </figure>
+    </div>
+  </section>
+
+  <!-- 10. Unearth The History ----------------------------------------- -->
+  <section class="msn-section msn-section--alt">
+    <div class="msn-inner">
+      <h2 id="unearth-the-history-of-your-vintage-martin-with-joes-vintage-guitars">Unearth The History Of Your Vintage Martin</h2>
+      <p>I am a passionate Martin collector and would love to hear about your guitar and its story! I can help you date, value, and sell your guitar for a fair price. Don&rsquo;t hesitate to contact me today! If you&rsquo;re considering parting with your instrument, you can <strong><a href="/sell-my-martin-guitar/">sell your Martin guitar</a></strong> through us for a seamless experience.</p>
+    </div>
+  </section>
+
+  <ContactSection />
+</Layout>
+
+<!-- Tool data + lookup logic — ported VERBATIM from live's inline script.
+     Wrapped in IIFE to scope variables. Uses Astro's `define:vars` to receive
+     the same datasets used to render the static tables above (single source
+     of truth). The lookup behaviour mirrors live exactly:
+       - 'guitar'      → inclusive a/b range match (most precise)
+       - 'lx', 'mandolin', 'nav-solid', 'nav-hpl' → "last serial of year" walk
+       - 'nav-so'      → a/b range with `approximate` flag for 2000–2006
+     Per-type result notes also match live verbatim. -->
+<script
+  is:inline
+  define:vars={{ guitarData, lxData, mandolinData, navSolidData, navHplData, navSoData }}
+>
+(function() {
+  'use strict';
+  let currentType = 'guitar';
+
+  const mcsSelected = document.getElementById('mcs-selected');
+  const mcsOptions = document.getElementById('mcs-options');
+  const mcsOptionEls = mcsOptions.querySelectorAll('.mcs-option');
+  const input = document.getElementById('search-serial');
+  const btn = document.getElementById('btn-find-year');
+  const display = document.getElementById('show-search');
+
+  // Custom dropdown
+  mcsSelected.addEventListener('click', function(e) {
+    mcsOptions.classList.toggle('open');
+    e.stopPropagation();
+  });
+  mcsOptionEls.forEach(function(opt) {
+    opt.addEventListener('click', function() {
+      currentType = this.getAttribute('data-value');
+      mcsSelected.textContent = this.textContent;
+      mcsOptionEls.forEach(function(o) { o.classList.remove('active'); });
+      this.classList.add('active');
+      mcsOptions.classList.remove('open');
+    });
+  });
+  document.addEventListener('click', function() {
+    mcsOptions.classList.remove('open');
+  });
+
+  function lookupLastSerial(data, num) {
+    let prev = 0;
+    for (let i = 0; i < data.length; i++) {
+      if (num > prev && num <= data[i].b) return data[i].y;
+      prev = data[i].b;
+    }
+    return null;
+  }
+
+  function runLookup() {
+    const val = input.value.replace(/\D/g, '');
+    const num = parseInt(val);
+    display.style.display = 'block';
+
+    if (isNaN(num)) {
+      display.innerHTML = 'Please enter a valid numeric serial number.';
+      return;
+    }
+
+    let year = null;
+    let note = '';
+    const appraisalLink = '<br><br>If you need more information or want to find your guitar’s current market value, <a href="/free-appraisal/" class="appraisal-link">GET A FREE APPRAISAL HERE</a>.';
+
+    if (currentType === 'guitar') {
+      const match = guitarData.find(function(r){ return num >= r.a && num <= r.b; });
+      year = match ? match.y : null;
+    } else if (currentType === 'lx') {
+      year = lookupLastSerial(lxData, num);
+      note = year ? '<br><small>Little Martin (LX Series) — made in Navojoa, Mexico.</small>' : '';
+    } else if (currentType === 'mandolin') {
+      year = lookupLastSerial(mandolinData, num);
+      if (year) {
+        note = (year === '1991' || year === '1993')
+          ? '<br><small>Note: From 1991, Martin mandolin serials merged with the standard guitar sequence. Mandolins were custom order only from 1994–2002. Martin ceased mandolin production in 2002.</small>'
+          : '<br><small>Martin mandolins use a separate serial number system from guitars (pre-1991).</small>';
+      }
+    } else if (currentType === 'nav-solid') {
+      year = lookupLastSerial(navSolidData, num);
+      note = year ? '<br><small>Navojoa Solid Wood Ukulele — made in Navojoa, Sonora, Mexico.</small>' : '';
+    } else if (currentType === 'nav-hpl') {
+      year = lookupLastSerial(navHplData, num);
+      note = year ? '<br><small>Navojoa HPL Ukulele — made in Navojoa, Sonora, Mexico. HPL = High Pressure Laminate.</small>' : '';
+    } else if (currentType === 'nav-so') {
+      const match = navSoData.find(function(r){ return num >= (r.a || 0) && num <= r.b; });
+      if (match) {
+        year = match.y;
+        note = match.approximate
+          ? '<br><small><strong>Note:</strong> Serial numbers in this range (up to 9972) are attributed to the 2000–2006 production period. Year-by-year records are not available, so an exact year cannot be confirmed.</small>'
+          : '<br><small>Navojoa SO Ukulele — made in Navojoa, Sonora, Mexico.</small>';
+      }
+    }
+
+    if (year) {
+      display.innerHTML = '<strong>Your Martin was built in: ' + year + '</strong>.' + note + appraisalLink;
+    } else {
+      display.innerHTML = 'Serial number not found for the selected instrument type. Please double-check the number and the instrument type selected.';
+    }
+  }
+
+  btn.addEventListener('click', runLookup);
+  input.addEventListener('keyup', function(e) {
+    if (e.key === 'Enter') runLookup();
+  });
+})();
+</script>
+
+<style>
+  /* ============================================================
+     MARTIN SERIAL (.msn-*) — Archetype C info-guide page
+     Inherits site palette via CSS custom properties from global.css.
+     ============================================================ */
+  .msn-inner {
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* 1. Hero + tool ---------------------------------------------- */
+  .msn-hero {
+    background: var(--color-brand-cream, #eedfc0);
+    padding: 80px 24px 60px;
+    border-bottom: 4px solid var(--color-brand-rust-bright, #be4b25);
+  }
+  .msn-hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 3.6vw, 44px);
+    color: var(--color-brand-rust-dark, #682412);
+    margin: 0 0 28px;
+    line-height: 1.2;
+    text-align: left;
+  }
+  .serial-hero-container {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px 26px 26px;
+    box-shadow: 0 6px 20px rgba(62, 42, 20, 0.12);
+  }
+  .serial-hero-container > h2 {
+    font-family: var(--font-display);
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 20px;
+    font-size: clamp(22px, 2.4vw, 30px);
+    text-align: center;
+  }
+  .container-input-serial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  /* Custom dropdown (replaces native <select> for styling parity with live) */
+  .martin-custom-select {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+  }
+  .mcs-selected {
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px 40px 15px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--color-brand-brown);
+    user-select: none;
+    position: relative;
+  }
+  .mcs-selected::after {
+    content: '';
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 7px solid var(--color-brand-rust-bright);
+  }
+  .mcs-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-top: 4px;
+    z-index: 10;
+    display: none;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  }
+  .mcs-options.open { display: block; }
+  .mcs-option {
+    padding: 12px 18px;
+    cursor: pointer;
+    color: var(--color-brand-brown);
+    transition: background 0.15s;
+  }
+  .mcs-option:hover { background: var(--color-brand-cream-light, #f6e9cf); }
+  .mcs-option.active {
+    background: var(--color-brand-cream-warm, #f5e7c8);
+    font-weight: 600;
+    color: var(--color-brand-rust-dark);
+  }
+
+  .msn-input-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+  }
+  #search-serial {
+    flex: 1 1 200px;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    color: var(--color-brand-brown);
+  }
+  #search-serial:focus {
+    outline: 2px solid var(--color-brand-rust-bright);
+    border-color: var(--color-brand-rust-bright);
+  }
+  .btn-search-serial {
+    background: var(--color-brand-rust-bright, #be4b25);
+    color: #fff;
+    border: none;
+    padding: 15px 28px;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .btn-search-serial:hover { background: var(--color-brand-rust-dark, #682412); }
+
+  #show-search {
+    display: none;
+    margin-top: 20px;
+    padding: 16px 18px;
+    background: var(--color-brand-cream-warm, #f5e7c8);
+    border-left: 4px solid var(--color-brand-rust-bright);
+    border-radius: 6px;
+    color: var(--color-brand-brown);
+    line-height: 1.6;
+  }
+  #show-search a.appraisal-link {
+    color: var(--color-brand-rust-dark);
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  /* 2. Intro + video + section nav ----------------------------- */
+  .msn-intro { background: #fff; padding: 50px 0 40px; }
+  .jump-btn-container { text-align: center; margin-bottom: 24px; }
+  .btn-jump-chart {
+    display: inline-block;
+    background: var(--color-brand-rust-bright);
+    color: #fff;
+    padding: 12px 26px;
+    font-family: var(--font-display);
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  .btn-jump-chart:hover { background: var(--color-brand-rust-dark); color: #fff; }
+  .msn-lede {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--color-brand-brown);
+    max-width: 900px;
+    margin: 0 auto 40px;
+    text-align: center;
+  }
+  .video-nav-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+  .video-column .msn-lite-yt { width: 100%; display: block; }
+  .nav-column {
+    background: var(--color-brand-cream, #eedfc0);
+    border-radius: 10px;
+    padding: 22px 26px;
+  }
+  .nav-column h3 {
+    font-family: var(--font-display);
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 14px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .nav-column ul { list-style: none; margin: 0; padding: 0; }
+  .nav-column li { margin: 6px 0; }
+  .nav-column a {
+    color: var(--color-brand-rust-dark);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px dotted var(--color-brand-rust-bright);
+    padding-bottom: 1px;
+  }
+  .nav-column a:hover { color: var(--color-brand-rust-bright); }
+  @media (max-width: 900px) {
+    .video-nav-container { grid-template-columns: 1fr; }
+  }
+
+  /* 3+ generic content sections -------------------------------- */
+  .msn-section { padding: 50px 0; background: #fff; }
+  .msn-section--alt { background: var(--color-brand-cream-light, #f6e9cf); }
+  .msn-section h2 {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 2.8vw, 34px);
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 16px;
+    line-height: 1.25;
+    scroll-margin-top: 80px;
+  }
+  .msn-section h3 {
+    font-family: var(--font-display);
+    font-size: clamp(20px, 2.4vw, 26px);
+    color: var(--color-brand-rust-dark);
+    margin: 30px 0 12px;
+    line-height: 1.3;
+    scroll-margin-top: 80px;
+  }
+  .msn-section p {
+    line-height: 1.7;
+    color: var(--color-brand-brown);
+    margin: 0 0 14px;
+  }
+  .msn-section a { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .msn-section a:hover { color: var(--color-brand-rust-bright); }
+  .msn-section strong { color: var(--color-brand-rust-dark); }
+
+  .msn-figure { text-align: center; margin: 24px 0; }
+  .msn-figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
+  }
+  .msn-figure--portrait img { max-width: 480px; }
+
+  /* Tables ------------------------------------------------------ */
+  .table-cont {
+    overflow-x: auto;
+    margin: 20px 0 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(62, 42, 20, 0.08);
+    background: #fff;
+  }
+  .post-content-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  .post-content-table thead {
+    background: var(--color-brand-rust-dark);
+    color: #fff;
+  }
+  .post-content-table th {
+    text-align: left;
+    padding: 12px 18px;
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .post-content-table td {
+    padding: 9px 18px;
+    border-bottom: 1px solid rgba(62, 42, 20, 0.08);
+    color: var(--color-brand-brown);
+  }
+  .post-content-table tbody tr:nth-child(even) td {
+    background: var(--color-brand-cream-warm, #f5e7c8);
+  }
+  .post-content-table tbody tr:hover td {
+    background: var(--color-brand-cream, #eedfc0);
+  }
+
+  /* 2025/2026 projections box */
+  .projections-box {
+    background: var(--color-brand-cream-warm, #f5e7c8);
+    border-left: 5px solid var(--color-brand-rust-bright);
+    border-radius: 8px;
+    padding: 22px 26px;
+    margin: 24px 0;
+  }
+  .projections-box h3 { margin-top: 0; color: var(--color-brand-rust-dark); }
+  .projections-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
+    font-weight: 700;
+    color: var(--color-brand-rust-dark);
+  }
+  .projections-box li { padding: 4px 0; }
+
+  /* Dating Guide spec grids ------------------------------------ */
+  .depth-section .guide-category { margin-top: 40px; }
+  .depth-section .guide-category:first-of-type { margin-top: 28px; }
+  .spec-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 20px;
+  }
+  .spec-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 22px 24px;
+    box-shadow: 0 2px 10px rgba(62, 42, 20, 0.08);
+  }
+  .spec-item h4 {
+    font-family: var(--font-display);
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  .spec-item p { margin: 0 0 12px; line-height: 1.65; }
+  .spec-item p:last-child { margin-bottom: 0; }
+  .spec-item strong { color: var(--color-brand-rust-dark); }
+  .msn-figure-inline {
+    margin: 12px 0 6px;
+    text-align: center;
+  }
+  .msn-figure-inline img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  .msn-figure-inline figcaption {
+    font-size: 13px;
+    font-style: italic;
+    color: var(--color-brand-brown);
+    margin-top: 6px;
+  }
+  .msn-note {
+    font-style: italic;
+    color: #555;
+    font-size: 14px;
+  }
+  .warning-box {
+    background: rgba(190, 75, 37, 0.08);
+    border-left: 4px solid var(--color-brand-rust-bright);
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin: 16px 0;
+    font-size: 14px;
+    color: var(--color-brand-brown);
+    line-height: 1.55;
+  }
+  .warning-box strong { color: var(--color-brand-rust-dark); }
+
+  /* Timeline ---------------------------------------------------- */
+  .timeline-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 20px;
+  }
+  .timeline-item {
+    background: #fff;
+    border-left: 5px solid var(--color-brand-rust-bright);
+    padding: 14px 20px;
+    border-radius: 6px;
+    line-height: 1.65;
+    color: var(--color-brand-brown);
+  }
+  .timeline-year {
+    display: inline-block;
+    background: var(--color-brand-rust-dark);
+    color: #fff;
+    font-family: var(--font-display);
+    font-weight: 700;
+    padding: 3px 12px;
+    border-radius: 4px;
+    margin-right: 12px;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+  }
+  .timeline-item strong { color: var(--color-brand-rust-dark); }
+
+  /* Responsive -------------------------------------------------- */
+  @media (max-width: 700px) {
+    .spec-grid { grid-template-columns: 1fr; }
+    .post-content-table { font-size: 14px; }
+    .post-content-table th,
+    .post-content-table td { padding-left: 12px; padding-right: 12px; }
+  }
+</style>

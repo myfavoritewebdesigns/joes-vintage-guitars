@@ -1,0 +1,450 @@
+﻿[
+    {
+        "@context":  "https://schema.org",
+        "@graph":  [
+                       {
+                           "@type":  "Place",
+                           "@id":  "https://www.joesvintageguitarsaz.com/#place",
+                           "geo":  {
+                                       "@type":  "GeoCoordinates",
+                                       "latitude":  "33.41735776080888",
+                                       "longitude":  " -111.81037593707954"
+                                   },
+                           "hasMap":  "https://www.google.com/maps/search/?api=1\u0026amp;query=33.41735776080888, -111.81037593707954",
+                           "address":  {
+                                           "@type":  "PostalAddress",
+                                           "streetAddress":  "47 N Fraser Dr E",
+                                           "addressLocality":  "Mesa",
+                                           "addressRegion":  "Arizona",
+                                           "postalCode":  "85203",
+                                           "addressCountry":  "United States"
+                                       }
+                       },
+                       {
+                           "@type":  [
+                                         "MusicStore",
+                                         "Organization"
+                                     ],
+                           "@id":  "https://www.joesvintageguitarsaz.com/#organization",
+                           "name":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+                           "url":  "https://www.joesvintageguitarsaz.com",
+                           "sameAs":  [
+                                          "https://www.facebook.com/joesvintageguitars"
+                                      ],
+                           "email":  "joesvintageguitars94@gmail.com",
+                           "address":  {
+                                           "@type":  "PostalAddress",
+                                           "streetAddress":  "47 N Fraser Dr E",
+                                           "addressLocality":  "Mesa",
+                                           "addressRegion":  "Arizona",
+                                           "postalCode":  "85203",
+                                           "addressCountry":  "United States"
+                                       },
+                           "logo":  {
+                                        "@type":  "ImageObject",
+                                        "@id":  "https://www.joesvintageguitarsaz.com/#logo",
+                                        "url":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/Logo-Principal.png",
+                                        "contentUrl":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/Logo-Principal.png",
+                                        "caption":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+                                        "inLanguage":  "en-US",
+                                        "width":  "864",
+                                        "height":  "864"
+                                    },
+                           "priceRange":  "$$$",
+                           "openingHours":  [
+                                                "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-00:00"
+                                            ],
+                           "location":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/#place"
+                                        },
+                           "image":  {
+                                         "@id":  "https://www.joesvintageguitarsaz.com/#logo"
+                                     },
+                           "telephone":  "+1-602-900-6635"
+                       },
+                       {
+                           "@type":  "WebSite",
+                           "@id":  "https://www.joesvintageguitarsaz.com/#website",
+                           "url":  "https://www.joesvintageguitarsaz.com",
+                           "name":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+                           "alternateName":  "Joe\u0027s Vintage Guitars",
+                           "publisher":  {
+                                             "@id":  "https://www.joesvintageguitarsaz.com/#organization"
+                                         },
+                           "inLanguage":  "en-US"
+                       },
+                       {
+                           "@type":  "BreadcrumbList",
+                           "@id":  "https://www.joesvintageguitarsaz.com/martin-serial-and-model-numbers/#breadcrumb",
+                           "itemListElement":  [
+                                                   {
+                                                       "@type":  "ListItem",
+                                                       "position":  "1",
+                                                       "item":  {
+                                                                    "@id":  "https://www.joesvintageguitarsaz.com",
+                                                                    "name":  "Home"
+                                                                }
+                                                   },
+                                                   {
+                                                       "@type":  "ListItem",
+                                                       "position":  "2",
+                                                       "item":  {
+                                                                    "@id":  "https://www.joesvintageguitarsaz.com/martin-serial-and-model-numbers/",
+                                                                    "name":  "Martin Serial Number Lookup and Guide"
+                                                                }
+                                                   }
+                                               ]
+                       },
+                       {
+                           "@type":  "WebPage",
+                           "@id":  "https://www.joesvintageguitarsaz.com/martin-serial-and-model-numbers/#webpage",
+                           "url":  "https://www.joesvintageguitarsaz.com/martin-serial-and-model-numbers/",
+                           "name":  "Martin Serial Number Lookup \u0026amp; Guide",
+                           "datePublished":  "2026-03-12T20:17:34+00:00",
+                           "dateModified":  "2026-04-15T18:20:00+00:00",
+                           "isPartOf":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/#website"
+                                        },
+                           "inLanguage":  "en-US",
+                           "breadcrumb":  {
+                                              "@id":  "https://www.joesvintageguitarsaz.com/martin-serial-and-model-numbers/#breadcrumb"
+                                          }
+                       },
+                       {
+                           "@type":  "Person",
+                           "@id":  "https://www.joesvintageguitarsaz.com/author/joedampt/",
+                           "name":  "Joe Dampt",
+                           "url":  "https://www.joesvintageguitarsaz.com/author/joedampt/",
+                           "image":  {
+                                         "@type":  "ImageObject",
+                                         "@id":  "https://secure.gravatar.com/avatar/b59f3dc94db4c3521c86659644a17187119c1eed4bb55f1e78f7dc00bc2bca38?s=96\u0026amp;d=mm\u0026amp;r=g",
+                                         "url":  "https://secure.gravatar.com/avatar/b59f3dc94db4c3521c86659644a17187119c1eed4bb55f1e78f7dc00bc2bca38?s=96\u0026amp;d=mm\u0026amp;r=g",
+                                         "caption":  "Joe Dampt",
+                                         "inLanguage":  "en-US"
+                                     },
+                           "sameAs":  [
+                                          "https://www.joesvintageguitarsaz.com/about-me/"
+                                      ],
+                           "worksFor":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/#organization"
+                                        }
+                       },
+                       {
+                           "@type":  "Article",
+                           "headline":  "Martin Serial Number Lookup \u0026amp; Guide",
+                           "datePublished":  "2026-03-12T20:17:34+00:00",
+                           "dateModified":  "2026-04-15T18:20:00+00:00",
+                           "author":  {
+                                          "@id":  "https://www.joesvintageguitarsaz.com/author/joedampt/",
+                                          "name":  "Joe Dampt"
+                                      },
+                           "publisher":  {
+                                             "@id":  "https://www.joesvintageguitarsaz.com/#organization"
+                                         },
+                           "description":  "Finding the model and year of your Martin guitar is a very easy process, thanks to this quick and simple serial number lookup and guide.",
+                           "name":  "Martin Serial Number Lookup \u0026amp; Guide",
+                           "@id":  "https://www.joesvintageguitarsaz.com/martin-serial-and-model-numbers/#richSnippet",
+                           "isPartOf":  {
+                                            "@id":  "https://www.joesvintageguitarsaz.com/martin-serial-and-model-numbers/#webpage"
+                                        },
+                           "inLanguage":  "en-US",
+                           "mainEntityOfPage":  {
+                                                    "@id":  "https://www.joesvintageguitarsaz.com/martin-serial-and-model-numbers/#webpage"
+                                                }
+                       }
+                   ]
+    },
+    {
+        "@context":  "https://schema.org",
+        "@type":  "ProfessionalService",
+        "@id":  "https://www.joesvintageguitarsaz.com/",
+        "url":  "https://www.joesvintageguitarsaz.com/",
+        "sameAs":  [
+                       "https://www.facebook.com/joesvintageguitars/",
+                       "https://www.youtube.com/@joesvintageguitars",
+                       "https://reverb.com/shop/joe-s-gear-emporium-4",
+                       "https://www.pinterest.com/joesvintageguitars0087/",
+                       "https://www.instagram.com/joesvintageguitarsaz/",
+                       "https://www.tiktok.com/@joesvintageguitar/",
+                       "https://maps.app.goo.gl/QwmHsZGznWUwB9LA9/"
+                   ],
+        "logo":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/06/joes-vintage-guitars-logo.jpg",
+        "image":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/om2ob5ra1i1x7wbklaug.jpg",
+        "name":  "Joe\u0027s Vintage Guitars - We Buy Guitars!",
+        "legalName":  "Joe’s Vintage Guitars",
+        "description":  "Joe\u0027s Vintage Guitars specializes in purchasing and collecting vintage guitars and other stringed instruments. With years of expertise, Joe Dampt offers top cash for renowned brands like Fender and Gibson.",
+        "numberOfEmployees":  {
+                                  "@type":  "QuantitativeValue",
+                                  "value":  1
+                              },
+        "aggregateRating":  {
+                                "@type":  "AggregateRating",
+                                "bestRating":  "5",
+                                "worstRating":  "1",
+                                "ratingCount":  "405",
+                                "ratingValue":  "5"
+                            },
+        "priceRange":  "$$$$",
+        "openingHoursSpecification":  [
+                                          {
+                                              "@type":  "OpeningHoursSpecification",
+                                              "dayOfWeek":  [
+                                                                "Monday",
+                                                                "Tuesday",
+                                                                "Wednesday",
+                                                                "Thursday",
+                                                                "Friday",
+                                                                "Saturday",
+                                                                "Sunday"
+                                                            ],
+                                              "opens":  "00:00",
+                                              "closes":  "23:59"
+                                          }
+                                      ],
+        "telephone":  "+1-602-900-6635",
+        "address":  {
+                        "@type":  "PostalAddress",
+                        "streetAddress":  "47 N Fraser Dr E",
+                        "addressLocality":  "Mesa",
+                        "addressRegion":  "AZ",
+                        "postalCode":  "85203",
+                        "addressCountry":  "US"
+                    },
+        "contactPoint":  {
+                             "@type":  "ContactPoint",
+                             "telephone":  "+1-602-900-6635",
+                             "contactType":  "Customer Support",
+                             "availableLanguage":  [
+                                                       "English",
+                                                       "Spanish"
+                                                   ]
+                         },
+        "geo":  {
+                    "@type":  "GeoCoordinates",
+                    "latitude":  "33.417304029490694",
+                    "longitude":  "-111.81059051571508"
+                },
+        "makesOffer":  [
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Buy and Sell Guitars"
+                                               }
+                           },
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Free Guitar Appraisal"
+                                               }
+                           },
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Stringed Instruments Appraisal"
+                                               }
+                           },
+                           {
+                               "@type":  "Offer",
+                               "itemOffered":  {
+                                                   "@type":  "Service",
+                                                   "name":  "Vintage Guitar Consignment"
+                                               }
+                           }
+                       ],
+        "department":  [
+                           {
+                               "@type":  "ProfessionalService",
+                               "name":  "Buy Sell Vintage Guitars",
+                               "@id":  "https://www.joesvintageguitarsaz.com/",
+                               "url":  "https://www.joesvintageguitarsaz.com/",
+                               "sameAs":  [
+                                              "https://www.facebook.com/joesvintageguitars/",
+                                              "https://www.youtube.com/@joesvintageguitars",
+                                              "https://www.instagram.com/joesvintageguitarsaz/",
+                                              "https://maps.app.goo.gl/6xHcpYV9EdNij5vY8/"
+                                          ],
+                               "image":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/njw3skvdov5hr4crdk1e.jpg",
+                               "telephone":  "+1-602-830-5735",
+                               "priceRange":  "$$$$",
+                               "openingHoursSpecification":  [
+                                                                 {
+                                                                     "@type":  "OpeningHoursSpecification",
+                                                                     "dayOfWeek":  [
+                                                                                       "Monday",
+                                                                                       "Tuesday",
+                                                                                       "Wednesday",
+                                                                                       "Thursday",
+                                                                                       "Friday",
+                                                                                       "Saturday",
+                                                                                       "Sunday"
+                                                                                   ],
+                                                                     "opens":  "00:00",
+                                                                     "closes":  "23:59"
+                                                                 }
+                                                             ],
+                               "areaServed":  [
+                                                  {
+                                                      "@type":  "AdministrativeArea",
+                                                      "name":  "United States"
+                                                  },
+                                                  {
+                                                      "@type":  "AdministrativeArea",
+                                                      "name":  "Canada"
+                                                  }
+                                              ]
+                           }
+                       ]
+    },
+    {
+        "@context":  "https://schema.org",
+        "@graph":  [
+                       {
+                           "@type":  "HowTo",
+                           "name":  "How to Decode Martin Guitar Serial Numbers",
+                           "description":  "Learn how to locate and read Martin serial numbers on the neck block inside the soundhole to determine the year of manufacture.",
+                           "image":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/Model-Name-Serial-Number-Martin.jpg",
+                           "step":  [
+                                        {
+                                            "@type":  "HowToStep",
+                                            "name":  "Locate the Serial Number",
+                                            "text":  "Look inside the soundhole for the neck block — the heavy piece of wood where the neck joins the body. The serial number is stamped there on all vintage Martin acoustic guitars.",
+                                            "url":  "https://www.joesvintageguitarsaz.com/post/martin-serial-and-model-numbers/#where-to-find-your-martin-guitar-model-and-serial-number"
+                                        },
+                                        {
+                                            "@type":  "HowToStep",
+                                            "name":  "Identify the Model Number",
+                                            "text":  "The top stamp on the neck block is the model number (e.g., D-28). Note that Martin guitars made before October 1930 do not have a model number stamped.",
+                                            "url":  "https://www.joesvintageguitarsaz.com/post/martin-serial-and-model-numbers/#where-to-find-your-martin-guitar-model-and-serial-number"
+                                        },
+                                        {
+                                            "@type":  "HowToStep",
+                                            "name":  "Match the Serial Number to the Chart",
+                                            "text":  "Use the lower stamp (the serial number) and cross-reference it against the production year chart, which covers every year from 1898 to 2024.",
+                                            "url":  "https://www.joesvintageguitarsaz.com/post/martin-serial-and-model-numbers/#serial-number-chart"
+                                        }
+                                    ],
+                           "totalTime":  "PT5M"
+                       },
+                       {
+                           "@type":  "Dataset",
+                           "name":  "Martin Guitar Serial Number Search Tool",
+                           "description":  "An interactive database and search tool for dating vintage and modern Martin guitars by serial number range, cross-referencing official Nazareth production records.",
+                           "url":  "https://www.joesvintageguitarsaz.com/post/martin-serial-and-model-numbers/",
+                           "license":  "https://www.joesvintageguitarsaz.com/privacy-policy/",
+                           "isAccessibleForFree":  true,
+                           "creator":  {
+                                           "@type":  "Organization",
+                                           "name":  "Joe\u0027s Vintage Guitars"
+                                       },
+                           "copyrightHolder":  {
+                                                   "@type":  "Organization",
+                                                   "name":  "Joe\u0027s Vintage Guitars"
+                                               }
+                       },
+                       {
+                           "@type":  "ImageObject",
+                           "contentUrl":  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/01/Model-Name-Serial-Number-Martin.jpg",
+                           "name":  "Martin Serial Number Stamped on Neck Block",
+                           "description":  "Visual guide showing the model number and serial number stamped on the neck block inside the soundhole of a vintage Martin acoustic guitar.",
+                           "license":  "https://www.joesvintageguitarsaz.com/privacy-policy/",
+                           "acquireLicensePage":  "https://www.joesvintageguitarsaz.com/post/martin-serial-and-model-numbers/",
+                           "creditText":  "Joe\u0027s Vintage Guitars",
+                           "copyrightNotice":  "Copyright Joe\u0027s Vintage Guitars",
+                           "creator":  {
+                                           "@type":  "Organization",
+                                           "name":  "Joe\u0027s Vintage Guitars"
+                                       }
+                       }
+                   ]
+    },
+    {
+        "@context":  "https://schema.org",
+        "@graph":  [
+                       {
+                           "@type":  "Dataset",
+                           "name":  "Martin Guitar Serial Number Data (1898–1949)",
+                           "description":  "Historical serial number ranges for Martin acoustic guitars from 1898 through 1949, covering early pre-war models including the Dreadnought, OM, and parlor guitar series produced in Nazareth, PA.",
+                           "url":  "https://www.joesvintageguitarsaz.com/post/martin-serial-and-model-numbers/",
+                           "creator":  {
+                                           "@type":  "Organization",
+                                           "name":  "Joe\u0027s Vintage Guitars",
+                                           "url":  "https://www.joesvintageguitarsaz.com/"
+                                       },
+                           "license":  "https://creativecommons.org/licenses/by/4.0/",
+                           "variableMeasured":  "Production Year by Serial Range",
+                           "hasPart":  [
+                                           {
+                                               "@type":  "Dataset",
+                                               "name":  "Martin Pre-War Serial Numbers (1898–1941)",
+                                               "description":  "Serial number ranges 0000 through 80013 for Martin guitars produced in the highly collectible pre-war Golden Era, featuring Adirondack spruce tops, Brazilian rosewood, and scalloped bracing.",
+                                               "creator":  {
+                                                               "@type":  "Organization",
+                                                               "name":  "Joe\u0027s Vintage Guitars"
+                                                           },
+                                               "license":  "https://creativecommons.org/licenses/by/4.0/"
+                                           },
+                                           {
+                                               "@type":  "Dataset",
+                                               "name":  "Martin Wartime Serial Numbers (1942–1945)",
+                                               "description":  "Serial number ranges 80014 through 90149 for Martin guitars built during WWII, characterized by simplified hardware, no headstock bushings, and material substitutions due to wartime shortages.",
+                                               "creator":  {
+                                                               "@type":  "Organization",
+                                                               "name":  "Joe\u0027s Vintage Guitars"
+                                                           },
+                                               "license":  "https://creativecommons.org/licenses/by/4.0/"
+                                           }
+                                       ]
+                       },
+                       {
+                           "@type":  "Dataset",
+                           "name":  "Martin Guitar Serial Number Data (1950–1969)",
+                           "description":  "Serial number ranges for post-war Martin guitars from 1950 through 1969, covering the transition from Adirondack to Sitka spruce tops and the final years of Brazilian rosewood back and sides.",
+                           "url":  "https://www.joesvintageguitarsaz.com/post/martin-serial-and-model-numbers/",
+                           "creator":  {
+                                           "@type":  "Organization",
+                                           "name":  "Joe\u0027s Vintage Guitars",
+                                           "url":  "https://www.joesvintageguitarsaz.com/"
+                                       },
+                           "license":  "https://creativecommons.org/licenses/by/4.0/",
+                           "hasPart":  [
+                                           {
+                                               "@type":  "Dataset",
+                                               "name":  "Martin Post-War Serial Numbers (1946–1968)",
+                                               "description":  "Serial number ranges 90150 through 230095 covering the post-war transition era, including the shift to Sitka spruce (1946) and the introduction of the Style 35 (1965).",
+                                               "creator":  {
+                                                               "@type":  "Organization",
+                                                               "name":  "Joe\u0027s Vintage Guitars"
+                                                           },
+                                               "license":  "https://creativecommons.org/licenses/by/4.0/"
+                                           },
+                                           {
+                                               "@type":  "Dataset",
+                                               "name":  "Martin Brazilian Rosewood Cutoff Serials (1969)",
+                                               "description":  "Serial number range 241926 through 256003 for 1969 Martin guitars, the final year Brazilian rosewood was used before the switch to Indian rosewood.",
+                                               "creator":  {
+                                                               "@type":  "Organization",
+                                                               "name":  "Joe\u0027s Vintage Guitars"
+                                                           },
+                                               "license":  "https://creativecommons.org/licenses/by/4.0/"
+                                           }
+                                       ]
+                       },
+                       {
+                           "@type":  "Dataset",
+                           "name":  "Martin Guitar Serial Number Data (1970–2024)",
+                           "description":  "A complete serial number reference for modern Martin guitars from 1970 through 2024, with projected ranges through 2026 based on an annual production rate of approximately 107,000 instruments.",
+                           "url":  "https://www.joesvintageguitarsaz.com/post/martin-serial-and-model-numbers/",
+                           "creator":  {
+                                           "@type":  "Organization",
+                                           "name":  "Joe\u0027s Vintage Guitars",
+                                           "url":  "https://www.joesvintageguitarsaz.com/"
+                                       },
+                           "license":  "https://creativecommons.org/licenses/by/4.0/",
+                           "variableMeasured":  "Production Year by Serial Range"
+                       }
+                   ]
+    }
+]
