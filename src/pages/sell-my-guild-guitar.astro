@@ -1,0 +1,284 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ContactSection from "../components/ContactSection.astro";
+import { contact } from "../config/site";
+
+/* ============================================================
+   SELL MY GUILD GUITAR (.smgu-*) — Archetype D (simple article)
+
+   Live page is much simpler than Fender/Martin/Rickenbacker — just a
+   title-bar hero, a featured image, a "Dating A Vintage Guild Guitar
+   By Serial Number" section with year ranges, 3 testimonials, then
+   the shared <ContactSection />.
+   ============================================================ */
+
+const IMG = "/images/sell-guild";
+
+// Approximate Guild serial number year-ranges, 1952-1959 (from Hans Moust's
+// Guild Guitar Book, the only authoritative source for the early years).
+const guildRanges = [
+  { year: "1952", range: "0–1000" },
+  { year: "1953", range: "1000–1500" },
+  { year: "1954", range: "1500–2200" },
+  { year: "1955", range: "2200–3000" },
+  { year: "1956", range: "3000–4000" },
+  { year: "1957", range: "4000–5700" },
+  { year: "1958", range: "5700–8300" },
+  { year: "1959", range: "8300–12035" },
+];
+
+const reviews = [
+  {
+    name: "Logan Lamson",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNNbjRqT2lRRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICMn4jOiQE%7C%7C?hl=en",
+    body: "I took my Guild S-100 here for a setup after I purchased it used. It originally came to me with a lot of fret buzz even after restringing it. I took it to Joe and he did a fantastic job setting it up for my specific tuning preferences. 40$ for a setup and it was back to me by the next day. I would highly recommend him for any luthier work you may need done.",
+  },
+  {
+    name: "Amy Vickery",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUMzaWFfdUtREAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIC3ia_uKQ%7C%7C?hl=en",
+    body: "They were very easy to deal with and appraised my 1979 Guild within minutes! I sent pictures and details via text and received a FREE estimated value right away! 10/10 highly recommend!",
+  },
+  {
+    name: "Terry",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xCMlZFaEZRVVF0TVZwbFlUSnhOMEUzTTFRM1JFRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CAIQACodChtycF9oOlB2VEhFQUQtMVplYTJxN0E3M1Q3REE%7C%7C?hl=en",
+    body: "I tried to ensure that when I sold my vintage guitar it would find a good new home. I considered many different reputable options nearby and online. But then I found Joe’s Vintage Guitars. Joe was great-knowledgeable, honest, prompt, and professional through the entire experience. He made the process much easier than I anticipated it might be. Thanks Joe!",
+  },
+];
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Sell My Guild Guitar", item: "https://www.joesvintageguitarsaz.com/sell-my-guild-guitar/" },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Sell My Guild Guitar",
+    author: { "@type": "Person", name: "Joe Dampt" },
+    publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" },
+    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-guild-guitar/",
+  },
+];
+---
+
+<Layout
+  title="Sell My GUILD Guitar | Joes Vintage Guitars"
+  description="Discover our wide range of exceptional Guild guitars today and experience the expertise of Joe's Vintage Guitars, your nationwide buyer and seller."
+  canonical="/sell-my-guild-guitar/"
+  ogImage={`${IMG}/vintage-guild-guitar.jpg`}
+  structuredData={structuredData}
+>
+  <!-- 1. Title bar ----------------------------------------------- -->
+  <section class="smgu-title-bar">
+    <div class="smgu-inner">
+      <h1>Sell My Guild Guitar</h1>
+    </div>
+  </section>
+
+  <!-- 2. Featured image + serial-number guide ------------------- -->
+  <section class="smgu-content">
+    <div class="smgu-inner">
+      <figure class="smgu-figure">
+        <img
+          src={`${IMG}/vintage-guild-guitar.jpg`}
+          alt="Vintage Guild Guitar"
+          loading="eager"
+          width="1094"
+          height="730"
+        />
+      </figure>
+
+      <h2>Dating A Vintage Guild Guitar By Serial Number</h2>
+      <p>
+        Finding the year of manufacture of your Guild guitar is imperative in order to figure out its value. Guild manufactured guitars from the early 1950s until today! Guild&rsquo;s electric guitars were often the guitar of choice for many serious jazz players of the 1950s, but their fine acoustic guitars are what most people think of when they hear the name &ldquo;Guild&rdquo; today.
+      </p>
+      <p>
+        Figuring out the year your specific Guild guitar was made can be quite a difficult endeavor, and we recommend seeking expert advice if you believe the guitar is of great value to ensure that the price accurately reflects the model/condition. This is especially true for Guild guitars made before the 1960s, as records are either unreliable or missing entirely. The best we can do for these is to reference the approximate last serial numbers for this timeframe listed in the Guild Guitar Book by Hans Moust. Here are the approximate serial number ranges for Guild guitars from 1952-1960.
+      </p>
+      <p><strong>Made 1952-1960:</strong></p>
+      <ul class="smgu-ranges">
+        {guildRanges.map((r) => (
+          <li><strong>{r.year}:</strong> {r.range}</li>
+        ))}
+      </ul>
+      <p>
+        Guild guitars made after 1960 often have a serial number specific to their model. Check out <a href="/guild-serial-number-lookup/" class="smgu-link">comprehensive Guild Serial Number Guide</a> for more information!
+      </p>
+    </div>
+  </section>
+
+  {/* 3. Testimonials — 3 Guild-specific reviews */}
+  <section class="smgu-testi">
+    <div class="smgu-inner">
+      <h3 class="smgu-testi__title">Your Testimonials!</h3>
+      <div class="smgu-testi__grid">
+        {reviews.map((r) => (
+          <article class="smgu-testi__card">
+            <p class="smgu-testi__name">
+              <a href={r.link} target="_blank" rel="noopener noreferrer">{r.name}</a>
+            </p>
+            <p class="smgu-testi__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <p class="smgu-testi__body">{r.body}</p>
+          </article>
+        ))}
+      </div>
+      <div class="smgu-testi__more">
+        <a
+          href="https://www.google.com/maps/place/Joe%27s+Vintage+Guitars+-+We+Buy+Guitars!/@33.420432,-111.8365821,17z/data=!4m7!3m6!1s0x872ba7d2937937d9:0x69728d089b8a764!8m2!3d33.420432!4d-111.8343934!9m1!1b1"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="smgu-btn smgu-btn--rust"
+        >
+          Read Our Testimonials
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .smgu-inner {
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .smgu-link {
+    color: var(--color-brand-rust-dark);
+    text-decoration: underline;
+  }
+  .smgu-link:hover { color: var(--color-brand-rust-bright); }
+
+  /* Title bar */
+  .smgu-title-bar {
+    background: var(--color-brand-rust-dark, #682412);
+    color: #fff;
+    padding: 190px 24px 50px;
+    text-align: center;
+  }
+  .smgu-title-bar h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    color: var(--color-brand-cream);
+  }
+  @media (max-width: 700px) {
+    .smgu-title-bar { padding: 110px 16px 40px; }
+    .smgu-title-bar h1 { font-size: 42px; }
+  }
+
+  /* Content body */
+  .smgu-content {
+    background: #fff;
+    padding: 60px 0 40px;
+    color: var(--color-brand-brown);
+  }
+  .smgu-figure {
+    margin: 0 0 30px;
+    text-align: center;
+  }
+  .smgu-figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
+  }
+  .smgu-content h2 {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 2.8vw, 32px);
+    color: var(--color-brand-rust-dark);
+    margin: 30px 0 16px;
+    line-height: 1.25;
+  }
+  .smgu-content p {
+    line-height: 1.7;
+    margin: 0 0 14px;
+    color: var(--color-brand-brown);
+  }
+  .smgu-content strong { color: var(--color-brand-rust-dark); }
+
+  .smgu-ranges {
+    list-style: none;
+    margin: 12px 0 16px;
+    padding: 0 0 0 18px;
+    columns: 2 220px;
+    column-gap: 28px;
+  }
+  .smgu-ranges li {
+    padding: 4px 0;
+    color: var(--color-brand-brown);
+    break-inside: avoid;
+  }
+
+  /* Testimonials */
+  .smgu-testi {
+    background: #eddec1;
+    padding: 60px 0 60px;
+  }
+  .smgu-testi__title {
+    font-family: var(--font-script, "Margi"), serif;
+    text-align: center;
+    color: var(--color-brand-rust-dark, #682412);
+    font-weight: 400;
+    font-size: clamp(36px, 3.5vw, 54px);
+    margin: 0 0 36px;
+  }
+  .smgu-testi__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .smgu-testi__card {
+    background: var(--color-brand-rust-dark, #682412);
+    color: #fff;
+    padding: 22px 26px;
+    border-radius: 0 0 20px 20px;
+  }
+  .smgu-testi__name {
+    font-family: "Oswald", var(--font-display);
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0 0 4px;
+    line-height: 1.2;
+  }
+  .smgu-testi__name a { color: #fff; text-decoration: none; }
+  .smgu-testi__name a:hover { text-decoration: underline; }
+  .smgu-testi__stars {
+    color: var(--color-brand-rust-bright, #be4b25);
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 10px;
+  }
+  .smgu-testi__body {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    margin: 0;
+    text-align: justify;
+  }
+  .smgu-testi__more { text-align: center; margin-top: 36px; }
+  @media (max-width: 900px) {
+    .smgu-testi__grid { grid-template-columns: 1fr; }
+  }
+
+  .smgu-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+  }
+  .smgu-btn--rust { background: var(--color-brand-rust-bright, #be4b25); color: #fff; }
+  .smgu-btn--rust:hover { background: #bf6344; color: #fff; }
+</style>
