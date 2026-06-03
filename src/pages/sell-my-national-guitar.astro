@@ -1,0 +1,212 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ContactSection from "../components/ContactSection.astro";
+import FAQ from "../components/FAQ.astro";
+import { contact, hrefs } from "../config/site";
+
+/* ============================================================
+   SELL MY NATIONAL GUITAR (.smn-*) — Archetype B
+   Same template as D'Angelico (hero/intro/grid/testimonials/vintage
+   banner/Meet Joe/FAQs).
+   ============================================================ */
+
+const IMG = "/images/sell-rickenbacker";
+const TESTI_BG = "/images/sell-rickenbacker/rickenbacker-reviews-bg.jpg";
+
+const reviews = [
+  { name: "Victor Shevchuk", link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNybzViZ0N3EAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICro5bgCw%7C%7C?hl=en", body: "Contacted Joe’s regarding the a guitar my mom gave me that she picked it up in a pawn shop in 1964. The folks at Joe’s are very nice and easy going. Sent them a few pics and what could be read of the very faded serial and model number and they quickly came back with the model number and a value on the guitar. I would certainly recommend Joe’s to anyone looking for information on a guitar. Knowledgeable, friendly and very responsive. I couldn’t ask for anything else." },
+  { name: "Angelica Chavez", link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURUMTVEM2VREAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDT15D3eQ%7C%7C?hl=en", body: "They are by far the most friendly, honest, and helpful. If you have questions or doubts, they absolutely go above and beyond. I recommend them 100%. In regards of the price i do wish i would have gotten more for my dad’s 1920 Lyon and Healy Washburn acoustic guitar🥺. But i know they have to win more then the buyer. So overall we were content. 😌 Thank so much Joe and Annie!! 🙏🏻😇" },
+  { name: "Alex Pukal", link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURKOTVmWXl3RRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDJ95fYywE%7C%7C?hl=en", body: "I came across Joe’s Vintage Guitars online and decided to call them because I’m not entirely clueless about what to look for in a vintage guitar but my knowledge is no where near the high end of the spectrum either. I called to see if I could get a second opinion about an electric guitar that was for sale and Joe answered at a time many people are already sleeping. He offered his services, asked me to send him some photos of what I was looking at, and in a turn around time of less than 5 minutes from me calling to Joe emailing me back with answers to the photos I had sent him, I had the extra info I needed to make a decision on the guitar purchase. I highly recommend making use of Joe’s very fast appraisal service if you have any questions, or doubts about any guitar you’re buying or selling. To go with this, they also do consignment and instrument repairs." },
+];
+
+const featureCols = [
+  { icon: `${IMG}/prices-icon.svg`, iconAlt: "Fair And Convenient Prices", photo: `${IMG}/fair-and-convenient-prices-rickenbacker.jpg`, photoAlt: "Fair And Convenient Prices For Your National Guitar", headline: "Sell Your National Acoustic Or Electric Guitar At The Right Price", body: "I will always give you the fairest price on the market for your National guitar. Have one that you want to sell? <a href=\"/contact-me/\" class=\"smn-link\">Contact me today</a>!" },
+  { icon: `${IMG}/classic-icon.svg`, iconAlt: "Rare, Unique, And Classic Guitars", photo: `${IMG}/find-rare-unique-classic-rickenbacker.jpg`, photoAlt: "Find Rare, Unique And Classic National Guitars In Our Online Shop", headline: "Find Rare, Unique &amp; Classic National Guitars In Our Online Shop", body: "Due to my constant travels around the country, we are constantly updating our inventory. Don&rsquo;t forget to browse our online catalog; you might find a rare National guitar!" },
+  { icon: `${IMG}/guitar-icon.svg`, iconAlt: "Many Years Of Experience", photo: `${IMG}/years-of-experience-buying-and-selling.jpg`, photoAlt: "Years Of Experience Buying And Selling Guitars From All Over America", headline: "Years Of Experience Buying &amp; Selling Guitars From All Over America", body: "Over the years, I have seen many National guitar models and series. You can benefit from my expertise whether you are buying or selling one of your own." },
+];
+
+const faqs = [
+  { id: "toggle_527859ceb8a70e0f6", q: "How Can Appraisal Experts Determine My Guitar's Price &amp; Value?", a: "There are several things that I take into consideration when determining the price of your guitar. These include your instrument&rsquo;s age, how unique it is, if it belong to anyone famous, and the condition of the guitar itself. All of those things combined will dictate what you will pay or be paid for it." },
+  { id: "toggle_02229f7ac996d625a", q: "Can I Sell My Guitar On Consignment Or Trade It For Another One?", a: "There is not a set answer for this. It depends on a number of things &mdash; like if I have something that you might want to trade for or if the guitar is in good enough shape or valuable enough." },
+  { id: "toggle_a6fb7e4d037f53f7c", q: "What Are The Payment Options To Buy A Vintage Guitar?", a: "I generally prefer to work in cash when it comes to buying and selling, but if there is a reasonable alternative, I will gladly listen to any suggestions that you might have." },
+  { id: "toggle_00fc6428ecb9a31e6", q: "Will I Have To Pay For Shipping Taxes To Buy Or Sell A Guitar?", a: "This usually depends on what state you are buying or selling from. Typically, the buyer is the one who pays the shipping tax, not the seller." },
+  { id: "toggle_e91094f9e7923d8b7", q: "Is There A Warranty Or Return Policy After Buying A Used Guitar From You?", a: "Yes. If you find that the guitar was damaged while shipping or soon after with normal use, we will work something out so that you are completely satisfied." },
+];
+
+const structuredData = [
+  { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q.replace(/&rsquo;/g, "'").replace(/&amp;/g, "&"), acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'").replace(/&mdash;/g, "—") } })) },
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" }, { "@type": "ListItem", position: 2, name: "Sell My National Guitar", item: "https://www.joesvintageguitarsaz.com/sell-my-national-guitar/" } ] },
+  { "@context": "https://schema.org", "@type": "Article", headline: "Sell Your Vintage National Guitar In The US", author: { "@type": "Person", name: "Joe Dampt" }, publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" }, mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-national-guitar/" },
+];
+---
+
+<Layout
+  title="Sell Your Vintage National Guitar At Joe's Vintage Guitars"
+  description="At Joe's Vintage Guitars, we are the top-rated nationwide buyers for National guitars. Discover our expertise in acquiring these iconic instruments."
+  canonical="/sell-my-national-guitar/"
+  ogImage={`${IMG}/find-rare-unique-classic-rickenbacker.jpg`}
+  structuredData={structuredData}
+>
+  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
+  <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+
+  <section class="smn-hero">
+    <div class="smn-inner">
+      <h1>Sell Your Vintage National Guitar <span>In The US</span></h1>
+      <div class="smn-hero__rule" aria-hidden="true"></div>
+      <h2 class="smn-hero__subtitle">Connect With The Right Buyer For Your Vintage <span>National Guitar</span></h2>
+      <div class="smn-hero__copy">
+        <p>Welcome to <a href="/">Joe&rsquo;s Vintage Guitars</a>! The place that helps you connect with the right buyer for your vintage guitar. I understand the sentimental and monetary value of your prized possession, which is why I put my best effort to make the selling process as smooth and hassle-free as possible. I have many years of experience in the industry and a vast network of potential buyers, ensuring that your guitar gets the attention it deserves. Whether you have a pre-war National Resonator or a 1950s Valco-built National, I have the expertise and resources to give you the right offer.</p>
+      </div>
+      <div class="smn-hero__cta">
+        <a href="/free-appraisal/" class="smn-btn smn-btn--rust">Get Your Free Appraisal</a>
+        <p class="smn-hero__cta-sub">Get the best price for your <span>Vintage Guitar</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="smn-buyappraise">
+    <div class="smn-inner smn-buyappraise__grid">
+      <div class="smn-buyappraise__text">
+        <h3>I Buy &amp; Appraise <span>Vintage Guitars</span> <span class="smn-buyappraise__online">Online Or In Person</span></h3>
+        <p>Are you in possession of a vintage guitar and looking to sell it? Are you curious about the value of your cherished instrument? Look no further! I&rsquo;m an <a href="/free-appraisal/" class="smn-link">experienced guitar appraiser</a> and a buyer that offers online and in-person services. With years of experience in the industry, I specialize in vintage guitars from all eras, including acoustic and electric models. Whether a pre-war Martin or a 1960s Fender Stratocaster, I have the knowledge and expertise to accurately appraise your guitar and offer a fair price.</p>
+        <p>I offer a convenient and straightforward service. Simply send me detailed photos and information about your guitar, and I will provide you with an accurate evaluation. If you prefer an in-person evaluation, I&rsquo;m happy to schedule a meeting at a convenient location.</p>
+        <a href={hrefs.tel} class="smn-btn smn-btn--rust">{contact.phone}</a>
+      </div>
+      <div class="smn-buyappraise__photo">
+        <img src={`${IMG}/i-buy-and-appraise-vintage-guitars.png`} alt="Joe Dampt Buys And Appraises National Guitars Online Or In Person" loading="lazy" width="1106" height="720" />
+      </div>
+    </div>
+  </section>
+
+  <section class="smn-nationwide">
+    <div class="smn-inner">
+      <h3 class="smn-nationwide__title">Nationwide National Guitars Resale &amp; Appraisals</h3>
+      <div class="smn-nationwide__cols">
+        {featureCols.map((c) => (
+          <div class="smn-nationwide__col">
+            <img src={c.icon} alt={c.iconAlt} class="smn-nationwide__icon" loading="lazy" />
+            <img src={c.photo} alt={c.photoAlt} class="smn-nationwide__photo" loading="lazy" />
+            <hr class="smn-rule" />
+            <h4 set:html={c.headline} />
+            <p set:html={c.body} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="smn-testi" style={`background-image: url('${TESTI_BG}')`}>
+    <div class="smn-inner">
+      <div class="smn-testi__head">
+        <h3 class="smn-testi__title">Our Clients&rsquo; Testimonials</h3>
+        <h4 class="smn-testi__sub">5-Star Rated Vintage Guitar Buyer And Appraisal Expert <span>Near You</span></h4>
+      </div>
+      <div class="smn-testi__grid">
+        {reviews.map((r) => (
+          <article class="smn-testi__card">
+            <p class="smn-testi__name"><a href={r.link} target="_blank" rel="noopener noreferrer">{r.name}</a></p>
+            <p class="smn-testi__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <p class="smn-testi__body">{r.body}</p>
+          </article>
+        ))}
+      </div>
+      <div class="smn-testi__more-wrap">
+        <a href="https://www.google.com/maps/place/Joe%27s+Vintage+Guitars+-+We+Buy+Guitars!/@33.420432,-111.8365821,17z/data=!4m7!3m6!1s0x872ba7d2937937d9:0x69728d089b8a764!8m2!3d33.420432!4d-111.8343934!9m1!1b1" target="_blank" rel="noopener noreferrer" class="smn-btn smn-btn--rust">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="smn-vintage">
+    <div class="smn-inner">
+      <h3 class="smn-vintage__title">Sell Acoustic And Electric National Guitars From Anywhere Within The US</h3>
+    </div>
+  </section>
+
+  <section class="smn-meet-wrap">
+    <div class="smn-inner smn-meet">
+      <div class="smn-meet__video">
+        <lite-youtube videoid="zMd6IJ-6e-8" params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1" title="Meet Vintage Guitar Expert, Joe Dampt" class="smn-lite-yt"></lite-youtube>
+      </div>
+      <div class="smn-meet__panel">
+        <h3 class="smn-meet__title">Meet Vintage Guitar Expert, <span>Joe Dampt</span></h3>
+        <h5 class="smn-meet__sub">Professional Buyer and Seasoned Collector of Vintage Guitars</h5>
+        <p>Hey there! My name is Joe Dampt and I love old music and old guitars!</p>
+        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I&rsquo;ve sacrificed and worked hard to make music and musical instruments my livelihood.</p>
+      </div>
+    </div>
+  </section>
+
+  <FAQ faqs={faqs} mainTitle="Frequently Asked Questions" subTitle="About Our Guitar Resale Services" sectionId="faqs-national" openFirst={true} />
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .smn-inner { max-width: 1144px; margin: 0 auto; padding: 0 24px; }
+  .smn-link { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .smn-link:hover { color: var(--color-brand-rust-bright); }
+  .smn-rule { border: none; border-top: 3px solid var(--color-brand-rust-bright); width: 80px; margin: 12px auto 16px; }
+  .smn-btn { display: inline-block; padding: 14px 32px; font-family: var(--font-display); font-size: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; text-decoration: none; border-radius: 4px; transition: background 0.2s; border: none; cursor: pointer; }
+  .smn-btn--rust { background: var(--color-brand-rust-bright); color: #fff; }
+  .smn-btn--rust:hover { background: #bf6344; }
+  .smn-btn--cream { background: var(--color-brand-cream); color: var(--color-brand-rust-dark); }
+
+  .smn-hero { background: #000; color: #fff; padding: 280px 24px 80px; text-align: center; }
+  @media (max-width: 768px) { .smn-hero { padding: 120px 16px 60px; } }
+  .smn-hero h1 { font-family: var(--font-display); font-size: clamp(32px, 4.5vw, 56px); font-weight: 600; color: var(--color-brand-cream); margin: 0 auto 18px; max-width: 1000px; line-height: 1.15; }
+  .smn-hero h1 span { white-space: nowrap; }
+  .smn-hero__rule { height: 3px; width: 100%; max-width: 740px; background: var(--color-brand-cream); margin: 0 auto 20px; }
+  .smn-hero__subtitle { font-family: var(--font-display); color: #f0e1c1; font-weight: 400; font-size: clamp(20px, 2.5vw, 26px); margin: 0 auto calc(20px + 2%); max-width: 900px; }
+  .smn-hero__subtitle span { white-space: nowrap; }
+  .smn-hero__copy { max-width: 900px; margin: 0 auto 30px; }
+  .smn-hero__copy p { color: #fff; line-height: 1.7; margin: 0 0 16px; }
+  .smn-hero__copy a { color: var(--color-brand-gold, #c8983a); text-decoration: underline; }
+  .smn-hero__cta-sub { color: var(--color-brand-cream); margin: 14px 0 0; font-weight: 600; }
+
+  .smn-buyappraise { background: linear-gradient(180deg, #f2f2f2 0%, rgba(255, 255, 255, 0) 100%); padding: 70px 0; }
+  .smn-buyappraise__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+  .smn-buyappraise__text h3 { font-family: var(--font-display); font-size: clamp(24px, 2.8vw, 34px); color: var(--color-brand-rust-dark); line-height: 1.25; margin: 0 0 18px; }
+  .smn-buyappraise__text h3 span { white-space: nowrap; }
+  .smn-buyappraise__online { display: block; font-size: 0.7em; color: var(--color-brand-brown); }
+  .smn-buyappraise__text p { line-height: 1.7; margin: 0 0 16px; color: var(--color-brand-brown); }
+  .smn-buyappraise__photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
+  @media (max-width: 900px) { .smn-buyappraise__grid { grid-template-columns: 1fr; gap: 30px; } }
+
+  .smn-nationwide { padding: 60px 0 80px; background: #fff; }
+  .smn-nationwide__title { font-family: "Oswald", var(--font-display); font-weight: 600; font-size: 36px; color: var(--color-brand-rust-dark); text-align: center; margin: 0 0 40px; line-height: 1.25; display: flex; align-items: center; justify-content: center; gap: 18px; }
+  .smn-nationwide__title::before, .smn-nationwide__title::after { content: ""; flex: 1; max-width: 120px; height: 1px; background: var(--color-brand-rust-dark); opacity: 0.45; }
+  .smn-nationwide__cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+  .smn-nationwide__col { text-align: center; }
+  .smn-nationwide__icon { width: 80px; height: auto; margin: 0 auto 16px; display: block; }
+  .smn-nationwide__photo { width: 100%; height: auto; display: block; border-radius: 4px; margin-bottom: 12px; }
+  .smn-nationwide__col h4 { font-family: var(--font-display); font-size: 22px; color: var(--color-brand-rust-dark); margin: 0 0 10px; line-height: 1.3; }
+  .smn-nationwide__col p { line-height: 1.65; color: var(--color-brand-brown); margin: 0; }
+  @media (max-width: 900px) { .smn-nationwide__cols { grid-template-columns: 1fr; gap: 30px; } .smn-nationwide__title::before, .smn-nationwide__title::after { display: none; } }
+
+  .smn-testi { background-color: var(--color-brand-rust-dark); background-size: cover; background-position: center; color: var(--color-brand-cream); padding: 70px 0 80px; margin-top: -70px; }
+  .smn-testi__head { text-align: center; margin-bottom: 40px; }
+  .smn-testi__title { font-family: var(--font-script, "Margi"), serif; font-size: clamp(32px, 3.5vw, 54px); color: var(--color-brand-brown-tan); font-weight: 400; margin: 0 0 6px; line-height: 1; }
+  .smn-testi__sub { color: var(--color-brand-cream); font-size: 22px; font-weight: 400; margin: 0; }
+  .smn-testi__sub span { white-space: nowrap; }
+  .smn-testi__grid { display: grid; grid-template-columns: 30% 30% 40%; gap: 24px; }
+  .smn-testi__card { background: var(--color-brand-brown-tan, #dcb58b); color: var(--color-brand-brown); padding: 22px 24px; border-radius: 0 0 20px 20px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); }
+  .smn-testi__name { font-family: "Oswald", var(--font-display); font-size: 23px; font-weight: 600; color: var(--color-brand-rust-dark); margin: 0 0 6px; line-height: 1.2; }
+  .smn-testi__name a { color: inherit; text-decoration: none; }
+  .smn-testi__stars { color: var(--color-brand-rust-bright); font-size: 16px; letter-spacing: 1px; margin: 0 0 10px; }
+  .smn-testi__body { font-size: 14px; line-height: 1.6; margin: 0; color: var(--color-brand-brown); text-align: justify; }
+  .smn-testi__more-wrap { text-align: center; margin-top: 40px; }
+  @media (max-width: 900px) { .smn-testi__grid { grid-template-columns: 1fr; } }
+
+  .smn-vintage { background: var(--color-brand-rust-bright); color: #fff; padding: 30px 20px; text-align: center; }
+  .smn-vintage__title { font-family: var(--font-display); font-size: clamp(20px, 2.4vw, 28px); color: #fff; margin: 0; line-height: 1.3; }
+
+  .smn-meet-wrap { background: var(--color-brand-cream, #eedfc0); padding: 60px 0 80px; }
+  .smn-meet { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; background: #f0e1c1; border-radius: 10px; padding: 40px; }
+  .smn-meet__video .smn-lite-yt { width: 100%; max-width: 600px; display: block; }
+  .smn-meet__title { font-family: var(--font-display); font-size: clamp(24px, 2.8vw, 32px); color: var(--color-brand-rust-dark); margin: 0 0 6px; line-height: 1.2; }
+  .smn-meet__title span { white-space: nowrap; }
+  .smn-meet__sub { color: var(--color-brand-rust-bright); font-weight: 400; font-size: 16px; margin: 0 0 18px; }
+  .smn-meet__panel p { margin: 0 0 12px; line-height: 1.7; color: var(--color-brand-brown); text-align: justify; }
+  @media (max-width: 900px) { .smn-meet { grid-template-columns: 1fr; padding: 28px; } }
+</style>
