@@ -1,0 +1,476 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { contact, hrefs, SITE_URL } from "../config/site";
+
+/* ============================================================
+   VINTAGE FENDER AMP SERIAL — article-style guide
+   ============================================================
+   Faithful port of /vintage-fender-amplifier-serial-numbers-how-to-find-the-year/.
+   No interactive tool on this page (the article opens by stating that Fender
+   amp serials aren't useful for dating). Content is sequential: tube-chart
+   letter code table → era visual guide (Tweed / Blonde+Brownface / Blackface
+   / Silverface) → transformer & speaker code decoder.
+
+   All TOC anchor IDs (#tc-1 through #tc-10) preserved from live for inbound-
+   link parity.
+   ============================================================ */
+
+const IMG = "/images/fender-amp-serial";
+
+// Two-letter tube chart code → year of manufacture.
+// A-T maps to 1951-1970 (the only years Fender used this code).
+const tubeChartCodes: { letter: string; year: number }[] = [
+  { letter: "A", year: 1951 },
+  { letter: "B", year: 1952 },
+  { letter: "C", year: 1953 },
+  { letter: "D", year: 1954 },
+  { letter: "E", year: 1955 },
+  { letter: "F", year: 1956 },
+  { letter: "G", year: 1957 },
+  { letter: "H", year: 1958 },
+  { letter: "I", year: 1959 },
+  { letter: "J", year: 1960 },
+  { letter: "K", year: 1961 },
+  { letter: "L", year: 1962 },
+  { letter: "M", year: 1963 },
+  { letter: "N", year: 1964 },
+  { letter: "O", year: 1965 },
+  { letter: "P", year: 1966 },
+  { letter: "Q", year: 1967 },
+  { letter: "R", year: 1968 },
+  { letter: "S", year: 1969 },
+  { letter: "T", year: 1970 },
+];
+
+// Table-of-contents items (10 anchored sections, matches live's <details>).
+const toc = [
+  { href: "#tc-1", label: "Fender Amp Serial Numbers" },
+  { href: "#tc-2", label: "Using Fender Amplifier Tube Chart Codes to Date Your Fender Amp" },
+  { href: "#tc-3", label: "What If The Tube Chart Is Missing? Other Methods of Dating Fender Amps" },
+  { href: "#tc-4", label: "Which Era Of Fender Amplifier Do You Have?" },
+  { href: "#tc-5", label: "1948-1959: Tweed" },
+  { href: "#tc-6", label: "1959-1963: Blonde and Brownface" },
+  { href: "#tc-7", label: "1963-1967: Blackface" },
+  { href: "#tc-8", label: "1967-1980: Silverface" },
+  { href: "#tc-9", label: "Using Transformer and Speaker Codes to Date Your Fender Amplifier" },
+  { href: "#tc-10", label: "Do You Have a Fender Amp You Want To Sell?" },
+];
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+      { "@type": "ListItem", position: 2, name: "Vintage Fender Amplifier Serial Numbers", item: SITE_URL + "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/" },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Vintage Fender Amp Serial Numbers – How To Find The Year",
+    author: { "@type": "Person", name: "Joe Dampt" },
+    publisher: { "@id": SITE_URL + "/#organization" },
+    mainEntityOfPage: SITE_URL + "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/",
+    datePublished: "2026-03-12",
+  },
+];
+---
+
+<Layout
+  title="Vintage Fender Amplifier Serial Numbers - How To Find The Year"
+  description="Wondering how old your vintage Fender Amplifier is? Learn to date your amp using tube chart codes, transformer details, and era-specific features in this guide!"
+  canonical="/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
+  ogImage={`${IMG}/champ.jpg`}
+  structuredData={structuredData}
+>
+  <section class="fas-page">
+    <div class="fas-inner">
+      <h1 class="fas-title">Vintage Fender Amp Serial Numbers – How To Find The Year</h1>
+
+      <!-- Collapsible TOC — matches live's <details class="table-of-contents"> -->
+      <details class="fas-toc">
+        <summary>
+          <p class="fas-toc__title">
+            <span class="fas-toc__text">Table Of Contents</span>
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 6H20M4 12H20M4 18H20" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </p>
+        </summary>
+        <div class="fas-toc__list">
+          <ul>
+            {toc.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
+          </ul>
+        </div>
+      </details>
+
+      <p class="fas-figure-wrap">
+        <img
+          src={`${IMG}/champ.jpg`}
+          alt="Vintage Fender amplifier with worn tweed covering, perfect for determining the Fender amplifier's age"
+          width="800"
+          height="533"
+          loading="eager"
+        />
+      </p>
+
+      <p>
+        We hear it all the time: &ldquo;I have a vintage Fender amplifier, can you help me find out what year it was made?&rdquo; Yes we can! In fact, we&rsquo;ve helped people date their amplifiers so many times, we decided to write up a comprehensive guide for dating your Fender amplifier!
+      </p>
+
+      <h3 id="tc-1"><strong>Fender Amp Serial Numbers</strong></h3>
+      <p>
+        Let&rsquo;s get this straight right off the bat: <strong>Fender amp serial numbers are not useful for finding their year.</strong> Since Fender amp serial numbers were not always sequential, we cannot use them to date our amps.
+      </p>
+      <p>
+        However, if you&rsquo;re working with a guitar and not an amp, we recommend checking out our guide on <a href="/fender-guitars-serial-number-guide/"><strong>How To Read Fender Serial Numbers</strong></a>, which focuses specifically on identifying guitar production years.
+      </p>
+      <p>Luckily, Fender did use some other codes that will help us determine the year.</p>
+      <p><strong>Note:</strong> This article deals only with vintage Fender amps made in 1980 &amp; before.</p>
+
+      <h3 id="tc-2"><strong>Using Fender Amplifier Tube Chart Codes to Date Your Fender Amp</strong></h3>
+      <p>
+        All vintage Fender amplifiers came with a paper tube chart pasted to the interior of the chassis, usually on the left inner side, but sometimes on the right. Up until 1970 or so, these tube charts almost always bear an ink-stamped two letter code. The first letter of this code will tell us the year of manufacture:
+      </p>
+
+      <div class="fas-amplifier-numbers">
+        <ul class="fas-amplifier-numbers__codes">
+          {tubeChartCodes.map((row) => (
+            <li><span>{row.letter} &ndash; {row.year}</span></li>
+          ))}
+        </ul>
+        <div class="fas-amplifier-numbers__photo">
+          <img
+            src={`${IMG}/Princeton-Tube-Chart.jpg`}
+            alt="Tube chart inside a vintage Fender amplifier, showing a two-letter code used to determine the amp's production year"
+            width="377"
+            height="283"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
+      <h3 id="tc-3"><strong>What If The Tube Chart Is Missing? Other Methods of Dating Fender Amps</strong></h3>
+      <p>
+        As you can imagine, on amplifiers that are several decades old, a piece of paper glued to the side of the cabinet can often flake off and go missing. In addition, <strong>the two letter code can sometimes be missing from the tube chart.</strong> Without access to the two letter code, dating a Fender amp becomes a little more complicated. Here are some tips.
+      </p>
+
+      <h3 id="tc-4"><strong>Which Era Of Fender Amplifier Do You Have?</strong></h3>
+      <p>
+        The nice thing about vintage Fender amplifiers is that each era of amplifier has a unique look. By using the appearance of your amp, you can discern a range of years during which it was manufactured.
+      </p>
+
+      <h4 id="tc-5"><strong>1948-1959: Tweed</strong></h4>
+      <p>
+        Fender amps from this era have a light brown tweed covering and a brown &ldquo;Fender&rdquo; plaque on the front. The control knobs are on the top side of the amp.
+      </p>
+      <p class="fas-figure-wrap">
+        <img
+          src={`${IMG}/Princeton-Edited.jpg`}
+          alt="Vintage Fender amplifier with classic tweed covering, a signature look of Fender amps from the 1940s to 1950s"
+          width="800"
+          height="533"
+          loading="lazy"
+        />
+      </p>
+
+      <h4 id="tc-6"><strong>1959-1963: Blonde &amp; Brownface</strong></h4>
+      <p>
+        Amps from this era have either a blonde colored tolex or a brown colored tolex and have the control knobs on the front of the amp.
+      </p>
+      <div class="fas-twoup">
+        <img
+          src={`${IMG}/brownface-edited.jpg`}
+          alt="Vintage Fender amplifier with classic brownface design, a hallmark of Fender amps from the early 1960s"
+          width="407"
+          height="305"
+          loading="lazy"
+        />
+        <img
+          src={`${IMG}/blonde-edited.jpg`}
+          alt="Vintage Fender amplifier with classic blonde tolex finish, a signature style from the early 1960s era"
+          width="407"
+          height="305"
+          loading="lazy"
+        />
+      </div>
+
+      <h4 id="tc-7"><strong>1963-1967: Blackface</strong></h4>
+      <p>
+        Amps from this era are covered in black tolex and have a black control panel with the amp model written in a white script.
+      </p>
+      <p class="fas-figure-wrap">
+        <img
+          src={`${IMG}/Blackface-Edited.jpg`}
+          alt="Vintage Fender amplifier with iconic blackface design, known for its rich sound and style from the mid-1960s"
+          width="800"
+          height="533"
+          loading="lazy"
+        />
+      </p>
+
+      <h4 id="tc-8"><strong>1967-1980: Silverface</strong></h4>
+      <p>
+        Amps from this era still have the same black tolex covering, but they have a shiny silver faceplate with the model in blue lettering.
+      </p>
+      <p class="fas-figure-wrap">
+        <img
+          src={`${IMG}/Silverface-Edited.jpg`}
+          alt="Vintage Fender amplifier with a distinctive silverface design, popular from the late 1960s to the 1970s"
+          width="800"
+          height="533"
+          loading="lazy"
+        />
+      </p>
+
+      <h3 id="tc-9"><strong>Using Transformer &amp; Speaker Codes to Date Your Fender Amplifier</strong></h3>
+      <p>
+        When the tube chart or two letter code is missing, it is possible to date Fender amps by looking at codes on their components. Looking at the speaker is the easiest way to do this, but codes can also be found on the transformers. These codes are to be used in conjunction with the above information about the aesthetic appearance of your amp since the codes only provide the last digit of the year (for example, a 2 could mean 1962 or 1972. If the amp is brown or blonde, it is a 1962, if it is silver, it is 1972).
+      </p>
+      <p>
+        These codes consist of a 3 digit manufacturer code, followed by 3 more digits, which indicate the year and week of manufacture. The <strong>first number in the second set of 3 digits indicates the last number in the year of manufacture</strong> (ie 5 for 1955 or 1965, etc) So, in the picture below, this speaker was made in 1955, 1965, or 1975 since &ldquo;5&rdquo; is the first digit in the second set of 3 numbers. Since the amp is a &ldquo;Silverface&rdquo; we can conclude that it was made in 1975.
+      </p>
+      <p>Remember! You are looking for a 6 digit code with numbers only! Happy hunting!</p>
+      <p>
+        If after identifying your amp&rsquo;s year you decide it&rsquo;s time to <a href="/sell-an-amplifier-or-effect/"><strong>sell your amplifier or effect</strong></a>, Joe&rsquo;s Vintage Guitars makes the process simple and fair.
+      </p>
+      <p class="fas-figure-wrap">
+        <img
+          src={`${IMG}/Speaker-Codes-scaled.jpg`}
+          alt="Close-up of a vintage Fender amplifier's speaker code, showing the 3-digit manufacturer code, year digit, and week of production for dating purposes"
+          width="600"
+          height="533"
+          loading="lazy"
+        />
+      </p>
+
+      <h3 id="tc-10"><strong>Do You Have a Fender Amp You Want To Sell?</strong></h3>
+      <p>
+        <a href="/"><strong>Joe&rsquo;s Vintage Guitars</strong></a> is a buyer of all fine vintage Fender amplifiers! If you want to <a href="/sell-an-amplifier-or-effect/"><strong>sell your amplifier</strong></a> made before 1967, we would be interested in purchasing for top dollar! Reach out to us at <a href={hrefs.tel}><strong>{contact.phone}</strong></a>
+      </p>
+      <p>
+        We also offer professional appraisals for vintage Fender guitars. If you&rsquo;re curious about what your guitar might be worth, we can help you <a href="/vintage-fender-telecaster-value-guide/"><strong>determine the value of your Telecaster</strong></a> or <a href="/vintage-fender-stratocaster-value-guide/"><strong>assess the true worth of your Stratocaster</strong></a> with expert insight and market-based valuations.
+      </p>
+
+      <!-- Mini-contact card at the end of the article (matches live) -->
+      <aside class="fas-jvg-card">
+        <p class="fas-jvg-card__name"><strong>Joe&rsquo;s Vintage Guitars</strong></p>
+        <p>
+          <a href={contact.mapUrl} target="_blank" rel="noopener noreferrer">
+            {contact.address.street}<br />
+            {`${contact.address.city}, ${contact.address.region} ${contact.address.postalCode}`}
+          </a>
+          <br />
+          Phone: <a href={hrefs.tel}>{contact.phone}</a>
+          <br />
+          Email: <a href={hrefs.mailto}>{contact.email}</a>
+        </p>
+      </aside>
+
+      <!-- Author byline at very bottom (matches live's Joe Dampt section) -->
+      <div class="fas-byline">
+        <p>
+          <strong>Written by <a href="/about-me/">Joe Dampt</a></strong>
+        </p>
+        <p>
+          <em>&ldquo;Driven by a love for classic tunes, I specialize in buying, selling, and appraising vintage guitars, bringing music and history together.&rdquo;</em>
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .fas-page {
+    background: #fff;
+    padding: 60px 0 80px;
+    color: var(--color-brand-brown);
+  }
+  .fas-inner {
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .fas-title {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 3.4vw, 42px);
+    color: var(--color-brand-rust-dark, #682412);
+    margin: 0 0 24px;
+    line-height: 1.25;
+  }
+
+  /* Collapsible TOC */
+  .fas-toc {
+    padding-bottom: clamp(32px, 4%, 72px);
+  }
+  .fas-toc summary {
+    list-style: none;
+    cursor: pointer;
+  }
+  .fas-toc summary::-webkit-details-marker { display: none; }
+  .fas-toc__title {
+    background-color: var(--color-brand-rust-dark, #682412);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 12px 28px;
+    margin-bottom: 0;
+    gap: 20px;
+    white-space: nowrap;
+    font-family: "Oswald Semibold", var(--font-display);
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+  .fas-toc__title svg {
+    fill: white;
+    stroke: white;
+    width: 28px;
+    height: 28px;
+  }
+  .fas-toc__list {
+    border-bottom: 2px solid var(--color-brand-rust-dark, #682412);
+    padding-top: 18px;
+  }
+  .fas-toc__list ul {
+    margin: 0 0 32px;
+    columns: 2 250px;
+    padding-left: 0;
+    list-style: none;
+  }
+  .fas-toc__list li {
+    margin: 6px 0;
+    line-height: 1.4;
+    break-inside: avoid;
+  }
+  .fas-toc__list a {
+    color: var(--color-brand-rust-dark, #682412);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--color-brand-rust-bright);
+  }
+  .fas-toc__list a:hover { color: var(--color-brand-rust-bright); }
+
+  /* Body content */
+  .fas-page h3 {
+    font-family: var(--font-display);
+    font-size: clamp(22px, 2.4vw, 28px);
+    color: var(--color-brand-rust-dark, #682412);
+    margin: 32px 0 12px;
+    line-height: 1.3;
+    scroll-margin-top: 80px;
+  }
+  .fas-page h4 {
+    font-family: var(--font-display);
+    font-size: clamp(18px, 2vw, 22px);
+    color: var(--color-brand-rust-dark, #682412);
+    margin: 28px 0 10px;
+    line-height: 1.3;
+    scroll-margin-top: 80px;
+  }
+  .fas-page p {
+    line-height: 1.75;
+    margin: 0 0 16px;
+    color: var(--color-brand-brown);
+  }
+  .fas-page a {
+    color: var(--color-brand-rust-dark, #682412);
+    text-decoration: underline;
+  }
+  .fas-page a:hover { color: var(--color-brand-rust-bright); }
+  .fas-page strong { color: var(--color-brand-rust-dark, #682412); }
+
+  /* Centered standalone image wrapper */
+  .fas-figure-wrap {
+    text-align: center;
+    margin: 24px 0;
+  }
+  .fas-figure-wrap img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
+    display: inline-block;
+  }
+
+  /* Brownface / Blonde 2-up grid */
+  .fas-twoup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 24px 0;
+  }
+  .fas-twoup img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
+  }
+
+  /* Tube chart codes: two-column letter list next to the tube-chart photo */
+  .fas-amplifier-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px 20px;
+    margin: 20px 0;
+    background: var(--color-brand-cream-light, #f6e9cf);
+    border-radius: 8px;
+    align-items: center;
+  }
+  .fas-amplifier-numbers__codes {
+    flex: 1 1 280px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    columns: 2;
+    column-gap: 32px;
+  }
+  .fas-amplifier-numbers__codes li {
+    padding: 4px 0;
+    color: var(--color-brand-brown);
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .fas-amplifier-numbers__codes li span { display: inline-block; }
+  .fas-amplifier-numbers__photo {
+    flex: 1 1 280px;
+    max-height: 283px;
+    text-align: center;
+  }
+  .fas-amplifier-numbers__photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  @media (max-width: 700px) {
+    .fas-twoup { grid-template-columns: 1fr; }
+    .fas-amplifier-numbers { flex-direction: column; padding: 20px; }
+    .fas-amplifier-numbers__codes,
+    .fas-amplifier-numbers__photo { flex: 1 1 100%; }
+  }
+
+  /* Mini Joe's-Vintage-Guitars contact card */
+  .fas-jvg-card {
+    margin: 36px 0 24px;
+    padding: 20px 24px;
+    background: var(--color-brand-cream-light, #f6e9cf);
+    border-left: 4px solid var(--color-brand-rust-bright);
+    border-radius: 6px;
+  }
+  .fas-jvg-card p { margin: 0 0 6px; line-height: 1.6; }
+  .fas-jvg-card__name { font-size: 17px; }
+
+  /* Author byline */
+  .fas-byline {
+    margin-top: 36px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(62, 42, 20, 0.18);
+    color: var(--color-brand-brown);
+  }
+  .fas-byline p { margin: 0 0 6px; }
+  .fas-byline em { color: var(--color-brand-brown); }
+</style>
