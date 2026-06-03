@@ -1,0 +1,317 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ContactSection from "../components/ContactSection.astro";
+import FAQ from "../components/FAQ.astro";
+import { contact, hrefs } from "../config/site";
+
+/* ============================================================
+   SELL AN AMPLIFIER OR EFFECT (.sma-*) — Archetype A
+   Rust-gradient hero (same as Martin), intro + form layout, then
+   shared sections. This is the page linked from the Fender Amp Serial
+   Numbers guide ("sell your amplifier or effect").
+   ============================================================ */
+
+const faqs = [
+  { id: "toggle_amp-1", q: "What Types Of Amplifiers Do You Buy?", a: "I buy vintage tube amps and effects from major brands like Fender, Marshall, Gibson, Vox, Ampeg, Hiwatt, and more. Boutique builders, rare studio amps, and one-of-a-kind pedals are also of interest. If you&rsquo;re unsure, send me a photo and I&rsquo;ll let you know within minutes." },
+  { id: "toggle_amp-2", q: "How Do I Get An Appraisal For My Vintage Amp?", a: "Just text or email me a few clear photos of the front, back, and chassis (including any visible date codes), along with the model. I&rsquo;ll get back to you with a fair-market value and a no-obligation offer." },
+  { id: "toggle_amp-3", q: "Do You Cover Shipping?", a: "Yes. For most amps, I provide a prepaid, fully-insured shipping label and detailed packing instructions. You drop it at FedEx and get paid same-day in many cases." },
+  { id: "toggle_amp-4", q: "What If My Amp Doesn&rsquo;t Work?", a: "Non-working vintage amps still have real value. I buy amps in any condition — original or modified, working or not. Just tell me what you know and I&rsquo;ll factor it into the offer." },
+  { id: "toggle_amp-5", q: "Will I Get Paid The Same Day?", a: "For most deals, yes. Once I&rsquo;ve received and inspected the amp, payment goes out same-day via your preferred method — Zelle, Venmo, PayPal, wire transfer, or check." },
+];
+
+const structuredData = [
+  { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q.replace(/&rsquo;/g, "'").replace(/&amp;/g, "&"), acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'").replace(/&mdash;/g, "—") } })) },
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" }, { "@type": "ListItem", position: 2, name: "Sell An Amplifier or Effect", item: "https://www.joesvintageguitarsaz.com/sell-an-amplifier-or-effect/" } ] },
+  { "@context": "https://schema.org", "@type": "Article", headline: "Sell My Amplifier", author: { "@type": "Person", name: "Joe Dampt" }, publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" }, mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-an-amplifier-or-effect/" },
+];
+---
+
+<Layout
+  title="Sell An Amplifier or Effect | Joes Vintage Guitars"
+  description="At Joe's Vintage Guitars, we offer a wide selection of amplifiers and effects. Explore our collection for the perfect tone and enhance your musical journey."
+  canonical="/sell-an-amplifier-or-effect/"
+  structuredData={structuredData}
+>
+  <!-- 1. Hero — rust gradient -->
+  <section class="sma-hero">
+    <div class="sma-hero__inner">
+      <h1>Sell My Amplifier</h1>
+      <h2 class="sma-hero__subtitle">Get A Competitive Offer &amp; Quick Payment For Your Vintage Amp</h2>
+      <p class="sma-hero__lede">Is your amplifier gathering dust? Whether it&rsquo;s a classic Fender, Marshall, or something rare you&rsquo;ve kept in storage, we make it easy to sell. At Joe&rsquo;s Vintage Guitars, we offer a stress-free way to get your vintage amp into the hands of someone who&rsquo;ll appreciate its sound and get you paid fast. Start today with a free appraisal to get a fair offer without leaving home.</p>
+    </div>
+  </section>
+
+  <!-- 2. Intro copy + contact form (50/50 split) -->
+  <section class="sma-intro">
+    <div class="sma-inner sma-intro__grid">
+      <div class="sma-intro__copy">
+        <h3 class="sma-intro__title">Sell Your Vintage Amplifier <span>or Effect</span></h3>
+        <p>Looking to sell your vintage amplifier or effects unit? Joe&rsquo;s Vintage Guitars offers a simple and professional selling process with fair offers, fast payments, and insured shipping. Whether it&rsquo;s a classic Fender tube amp, a boutique pedal, or a rare vintage piece, we&rsquo;ve got you covered. Not sure what you have? Start with a <a href="/free-appraisal/" class="sma-link">free appraisal</a> to get an accurate value. We buy all types of vintage amplifiers, including Fender, Gibson, Marshall, Vox, and more. <a href="/contact-me/" class="sma-link">Contact me today</a> to sell your amp hassle-free and get a great price!</p>
+      </div>
+
+      <div class="sma-intro__formwrap">
+        <div class="sma-form-head">
+          <h3>Feel Free To Contact <span class="sma-form-head__big">Joe&rsquo;s Vintage Guitars</span></h3>
+          <h4>Receive Fair Value For Your Vintage Amp</h4>
+        </div>
+        <form
+          class="sma-form"
+          data-jvg-contact-form
+          data-form-id="sell-amp-top"
+          action="/api/contact"
+          method="post"
+          novalidate
+        >
+          <div class="sma-field">
+            <label for="sma-name">Name*</label>
+            <input id="sma-name" type="text" name="your-name" required maxlength="400" />
+          </div>
+          <div class="sma-field">
+            <label for="sma-phone">Phone*</label>
+            <input id="sma-phone" type="tel" name="your-phone" required maxlength="400" />
+          </div>
+          <div class="sma-field">
+            <label for="sma-email">Email*</label>
+            <input id="sma-email" type="email" name="your-email" required maxlength="400" />
+          </div>
+          <div class="sma-field sma-field--message">
+            <label for="sma-message">Tell us about your amp</label>
+            <textarea id="sma-message" name="your-message" rows="5" maxlength="2000" placeholder="Brand, model, year if known — any details help"></textarea>
+          </div>
+          <div class="sma-reply">
+            <span class="sma-reply__label">Best Way To Reply:</span>
+            <label class="sma-reply__opt"><input type="radio" name="best-reply" value="Call" /> Call</label>
+            <label class="sma-reply__opt"><input type="radio" name="best-reply" value="Text" /> Text</label>
+            <label class="sma-reply__opt"><input type="radio" name="best-reply" value="Email" /> Email</label>
+          </div>
+          <button type="submit" class="sma-submit">SUBMIT</button>
+          <p class="sma-form__note">*If you have photos, you will have the option to upload them after clicking submit</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Sell-an-amp value props -->
+  <section class="sma-value">
+    <div class="sma-inner">
+      <h3 class="sma-value__title">Why Sell To Joe&rsquo;s Vintage Guitars?</h3>
+      <div class="sma-value__grid">
+        <div class="sma-value__card">
+          <h4>Free Appraisals, No Pressure</h4>
+          <p>Send me a few photos and the brand/model — I&rsquo;ll get back within minutes with a fair-market value. No obligation to sell.</p>
+        </div>
+        <div class="sma-value__card">
+          <h4>I Cover Shipping &amp; Insurance</h4>
+          <p>Prepaid, fully-insured shipping labels and detailed packing instructions. You don&rsquo;t pay a dime to send your amp my way.</p>
+        </div>
+        <div class="sma-value__card">
+          <h4>Fast Payment</h4>
+          <p>Same-day payment in most cases via Zelle, Venmo, PayPal, wire, or check. No drawn-out negotiation, no chargebacks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Brands I buy -->
+  <section class="sma-brands">
+    <div class="sma-inner">
+      <h3 class="sma-brands__title">Amplifier &amp; Effect Brands I Buy</h3>
+      <p class="sma-brands__intro">Top dollar paid for vintage amps and effects from these classic builders. Don&rsquo;t see your brand? Reach out anyway — I look at everything.</p>
+      <ul class="sma-brands__list">
+        <li>Fender</li><li>Marshall</li><li>Vox</li><li>Gibson</li><li>Ampeg</li><li>Hiwatt</li><li>Magnatone</li><li>Supro</li><li>Silvertone</li><li>Gretsch</li><li>Standel</li><li>Mesa Boogie</li><li>Dumble</li><li>Trainwreck</li><li>Two-Rock</li><li>And many more&hellip;</li>
+      </ul>
+    </div>
+  </section>
+
+  <FAQ faqs={faqs} mainTitle="FAQs About" subTitle="Selling Your Amplifier or Effect" sectionId="faqs-amp" openFirst={true} />
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .sma-inner { max-width: 1144px; margin: 0 auto; padding: 0 24px; }
+  .sma-link { color: var(--color-brand-rust-dark); text-decoration: underline; font-weight: 600; }
+  .sma-link:hover { color: var(--color-brand-rust-bright); }
+
+  /* 1. Hero — rust gradient (matches Martin's hero) */
+  .sma-hero {
+    background: linear-gradient(180deg, #612211 0%, #682412 100%);
+    color: #fff;
+    padding: 250px 24px 60px;
+    text-align: center;
+  }
+  @media (max-width: 768px) { .sma-hero { padding: 120px 16px 50px; } }
+  .sma-hero__inner { max-width: 1000px; margin: 0 auto; }
+  .sma-hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(38px, 5vw, 64px);
+    color: var(--color-brand-gold, #c8983a);
+    margin: 0 0 18px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .sma-hero__subtitle {
+    font-family: var(--font-display);
+    font-size: clamp(22px, 3vw, 32px);
+    font-weight: 400;
+    color: #fff;
+    margin: 0 auto 20px;
+    line-height: 1.25;
+  }
+  .sma-hero__lede {
+    color: var(--color-brand-cream);
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  /* 2. Intro + Form */
+  .sma-intro {
+    background: var(--color-brand-cream, #eedfc0);
+    padding: 60px 0;
+  }
+  .sma-intro__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: stretch;
+  }
+  .sma-intro__title {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 2.8vw, 32px);
+    color: var(--color-brand-rust-dark);
+    font-weight: 400;
+    margin: 0 0 18px;
+    line-height: 1.25;
+  }
+  .sma-intro__title span { white-space: nowrap; }
+  .sma-intro__copy p {
+    line-height: 1.75;
+    color: var(--color-brand-brown);
+    margin: 0 0 14px;
+    font-size: 16px;
+  }
+  .sma-intro__formwrap {
+    background: var(--color-brand-rust-dark);
+    color: var(--color-brand-cream);
+    border-radius: 6px;
+    padding: 28px 28px 24px;
+  }
+  .sma-form-head h3 {
+    font-family: var(--font-display);
+    font-size: clamp(20px, 2.2vw, 26px);
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  .sma-form-head__big { font-size: 28px; display: block; }
+  .sma-form-head h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-brand-brown-tan, #d2b48c);
+    margin: 0 0 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .sma-form { display: block; }
+  .sma-field { margin-bottom: 14px; }
+  .sma-field label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-brand-cream);
+    margin-bottom: 4px;
+  }
+  .sma-field input, .sma-field textarea {
+    width: 100%;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.95);
+    border-radius: 4px;
+    padding: 10px 12px;
+    font: inherit;
+    font-size: 14px;
+    color: var(--color-brand-brown);
+    box-sizing: border-box;
+  }
+  .sma-field textarea { resize: vertical; min-height: 100px; }
+  .sma-field input:focus, .sma-field textarea:focus {
+    outline: 2px solid var(--color-brand-gold, #c8983a);
+    border-color: var(--color-brand-gold, #c8983a);
+  }
+  .sma-reply { display: flex; flex-wrap: wrap; gap: 8px 14px; margin: 6px 0 16px; color: var(--color-brand-cream); }
+  .sma-reply__label { font-size: 13px; font-weight: 600; }
+  .sma-reply__opt { font-size: 13px; cursor: pointer; }
+  .sma-submit {
+    background: var(--color-brand-rust-bright);
+    color: #fff;
+    border: none;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 14px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .sma-submit:hover { background: var(--color-brand-rust-bright); filter: brightness(0.9); }
+  .sma-form__note { font-size: 12px; color: rgba(255,255,255,0.75); margin: 10px 0 0; }
+  @media (max-width: 900px) { .sma-intro__grid { grid-template-columns: 1fr; gap: 30px; } }
+
+  /* 3. Value props */
+  .sma-value { background: #fff; padding: 70px 0 80px; }
+  .sma-value__title {
+    font-family: var(--font-display);
+    text-align: center;
+    font-size: clamp(26px, 3vw, 36px);
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 40px;
+  }
+  .sma-value__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .sma-value__card {
+    background: var(--color-brand-cream-light, #f6e9cf);
+    border-left: 4px solid var(--color-brand-rust-bright);
+    border-radius: 8px;
+    padding: 24px 26px;
+  }
+  .sma-value__card h4 {
+    font-family: var(--font-display);
+    font-size: 20px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 10px;
+  }
+  .sma-value__card p { line-height: 1.65; color: var(--color-brand-brown); margin: 0; }
+  @media (max-width: 900px) { .sma-value__grid { grid-template-columns: 1fr; } }
+
+  /* 4. Brands */
+  .sma-brands { background: var(--color-brand-cream-light, #f6e9cf); padding: 60px 0; }
+  .sma-brands__title { text-align: center; font-family: var(--font-display); font-size: clamp(24px, 2.8vw, 32px); color: var(--color-brand-rust-dark); margin: 0 0 16px; }
+  .sma-brands__intro { text-align: center; max-width: 800px; margin: 0 auto 30px; line-height: 1.65; color: var(--color-brand-brown); }
+  .sma-brands__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    text-align: center;
+  }
+  .sma-brands__list li {
+    background: #fff;
+    color: var(--color-brand-rust-dark);
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 1px 3px rgba(62, 42, 20, 0.08);
+  }
+  @media (max-width: 700px) { .sma-brands__list { grid-template-columns: repeat(2, 1fr); } }
+</style>
