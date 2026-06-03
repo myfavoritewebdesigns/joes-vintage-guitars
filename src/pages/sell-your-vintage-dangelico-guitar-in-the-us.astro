@@ -1,0 +1,255 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ContactSection from "../components/ContactSection.astro";
+import FAQ from "../components/FAQ.astro";
+import { contact, hrefs } from "../config/site";
+
+/* ============================================================
+   SELL MY D'ANGELICO GUITAR (.smd-*) — Archetype B + Buying Process
+   Same hero/intro/feature-grid/testimonials/Meet-Joe pattern as Gretsch
+   plus the "My Vintage Guitar Buying Process" 3-card section unique to
+   this page.
+   ============================================================ */
+
+const IMG = "/images/sell-rickenbacker"; // shared feature-grid + appraisal photo
+const TESTI_BG = "/images/sell-rickenbacker/rickenbacker-reviews-bg.jpg";
+
+const reviews = [
+  {
+    name: "Tony DePrizio",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURieWJUa2x3RRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDbybTklwE%7C%7C?hl=en",
+    body: "I wanted to say how wonderful and easy Joe made selling my grandmothers Gibson guitar. He is so knowledgeable, cares about the personal value, and wants to share the story behind the instrument. He traveled all the way to New England to pick it up. He was honest, and gave us a very fair price. His love for guitars and preserving their history is very evident. Thanks Joe!",
+  },
+  {
+    name: "Maureen M",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURBc2RITy13RRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDAsdHO-wE%7C%7C?hl=en",
+    body: "Amazingly nice guy. We drove from Maricopa to meet Joe this morning. We purchased a beautiful Vintage Fender Mustang electric guitar for our daughter. He spent a lot of time with us. He even looked at our 1937 Silverstone Archtop and offered to clean it and change the strings. He wouldn’t let us tip or pay him for that extra service. I’d give him 10 stars if I could. Thank you Joe for EVERYTHING! We will definitely be back. 👍",
+  },
+  {
+    name: "Dan Tarnowski",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VLYWhpcGZJb3UyOXBBRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEKahipfIou29pAE%7C%7C?hl=en",
+    body: "It was a pleasure dealing with Joe. I do enjoy doing business with companies and/or persons that answer the phones or texts in a timely manner!",
+  },
+];
+
+const featureCols = [
+  { icon: `${IMG}/prices-icon.svg`, iconAlt: "Fair And Convenient Prices", photo: `${IMG}/fair-and-convenient-prices-rickenbacker.jpg`, photoAlt: "Fair And Convenient Prices For Your D'Angelico Guitar", headline: "Sell Your Used D&rsquo;Angelico Guitar At The Right Price", body: "I will always give you the fairest price on the market for your D&rsquo;Angelico guitar. Have one that you want to sell? <a href=\"/contact-me/\" class=\"smd-link\">Contact me today</a>!" },
+  { icon: `${IMG}/classic-icon.svg`, iconAlt: "Rare, Unique, And Classic Guitars", photo: `${IMG}/find-rare-unique-classic-rickenbacker.jpg`, photoAlt: "Find Rare, Unique And Classic D'Angelico Guitars In Our Online Shop", headline: "Find Rare, Unique &amp; Classic D&rsquo;Angelico Guitars In Our Online Shop", body: "Due to my constant travels around the country, we are constantly updating our inventory. Don&rsquo;t forget to browse our online catalog; you might find a rare D&rsquo;Angelico guitar!" },
+  { icon: `${IMG}/guitar-icon.svg`, iconAlt: "Many Years Of Experience", photo: `${IMG}/years-of-experience-buying-and-selling.jpg`, photoAlt: "Years Of Experience Buying And Selling Guitars From All Over America", headline: "Years Of Experience Buying &amp; Selling Guitars From All Over America", body: "Over the years, I have seen many D&rsquo;Angelico guitar models and series. You can benefit from my expertise whether you are buying or selling one of your own." },
+];
+
+const buyingProcess = [
+  { title: "Accurate Identification", body: "I am happy to take the time to discuss your guitar and explain what we know and don&rsquo;t know about it. We can geek out together over your fascinating piece of music history. I will offer all the information that I know and help you understand what the guitar means in the modern market." },
+  { title: "A Caring Home For Your Cherished Guitar", body: "I have purchased many heirlooms and vintage guitars that were lovely but no longer being played. I want every guitar to do what guitars are supposed to do: be played and enjoyed! Whether I keep it or sell it, I will ensure the guitar finds a good home." },
+  { title: "Fair Cash Offer", body: "I am always willing to pay a fair price for your guitar. I strive to make competitive offers and have a strong reputation as one of the most trusted vintage guitar buyers in the country. If you&rsquo;re looking to sell your D&rsquo;Angelico, please don&rsquo;t hesitate to <a href=\"/contact-me/\" class=\"smd-link\">contact me</a> today!" },
+];
+
+const faqs = [
+  { id: "toggle_527859ceb8a70e0f6", q: "How Can Appraisal Experts Determine My Guitar's Price &amp; Value?", a: "There are several things that I take into consideration when determining the price of your guitar. These include your instrument&rsquo;s age, how unique it is, if it belong to anyone famous, and the condition of the guitar itself. All of those things combined will dictate what you will pay or be paid for it." },
+  { id: "toggle_02229f7ac996d625a", q: "Can I Sell My Guitar On Consignment Or Trade It For Another One?", a: "There is not a set answer for this. It depends on a number of things &mdash; like if I have something that you might want to trade for or if the guitar is in good enough shape or valuable enough. I will approach each scenario carefully and will give you a detailed answer as to why or why not this can happen." },
+  { id: "toggle_a6fb7e4d037f53f7c", q: "What Are The Payment Options To Buy A Vintage Guitar?", a: "I generally prefer to work in cash when it comes to buying and selling, but if there is a reasonable alternative, I will gladly listen to any suggestions that you might have. I cannot guarantee that I will be able to work with your payment method, but it never hurts to ask first. I look forward to working with you!" },
+  { id: "toggle_00fc6428ecb9a31e6", q: "Will I Have To Pay For Shipping Taxes To Buy Or Sell A Guitar?", a: "This usually depends on what state you are buying or selling from. Typically, the buyer is the one who pays the shipping tax, not the seller. Be sure to inquire about this before sending any payment. It&rsquo;s my goal to have a smooth transaction on all ends." },
+  { id: "toggle_e91094f9e7923d8b7", q: "Is There A Warranty Or Return Policy After Buying A Used Guitar From You?", a: "Yes. If you find that the guitar was damaged while shipping or soon after with normal use, we will work something out so that you are completely satisfied." },
+];
+
+const structuredData = [
+  { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q.replace(/&rsquo;/g, "'").replace(/&amp;/g, "&"), acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'").replace(/&mdash;/g, "—") } })) },
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" }, { "@type": "ListItem", position: 2, name: "Sell My D'Angelico Guitar", item: "https://www.joesvintageguitarsaz.com/sell-your-vintage-dangelico-guitar-in-the-us/" } ] },
+  { "@context": "https://schema.org", "@type": "Article", headline: "Sell Your Vintage D'Angelico Guitar In The US", author: { "@type": "Person", name: "Joe Dampt" }, publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" }, mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-your-vintage-dangelico-guitar-in-the-us/" },
+];
+---
+
+<Layout
+  title="Sell Your Vintage D’Angelico Guitar At Joe's Vintage Guitars"
+  description="Ready to sell your vintage D’Angelico guitar? We specialize in D'Angelico electric &amp; acoustic guitars such as New Yorker, Excel &amp; more. Get an appraisal!"
+  canonical="/sell-your-vintage-dangelico-guitar-in-the-us/"
+  ogImage={`${IMG}/find-rare-unique-classic-rickenbacker.jpg`}
+  structuredData={structuredData}
+>
+  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
+  <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+
+  <section class="smd-hero">
+    <div class="smd-inner">
+      <h1>Sell Your Vintage D&rsquo;Angelico Guitar <span>In The US</span></h1>
+      <div class="smd-hero__rule" aria-hidden="true"></div>
+      <h2 class="smd-hero__subtitle">Get In Touch With A Classic D&rsquo;Angelico Guitar Buyer <span>Near You</span></h2>
+      <div class="smd-hero__copy">
+        <p>As someone who loves vintage guitars in Arizona and has spent years studying them and the market they&rsquo;re sold in, I have the necessary skills and resources to appraise your vintage D&rsquo;Angelico and am able to offer you a fair price. Your vintage guitar is a treasure with a unique history that I will be sure to protect.</p>
+      </div>
+      <div class="smd-hero__cta">
+        <a href="/free-appraisal/" class="smd-btn smd-btn--rust">Get Your Free Appraisal</a>
+        <p class="smd-hero__cta-sub">Get the best price for your <span>Vintage Guitar</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="smd-buyappraise">
+    <div class="smd-inner smd-buyappraise__grid">
+      <div class="smd-buyappraise__text">
+        <h3>I Buy &amp; Appraise <span>Vintage Guitars</span> <span class="smd-buyappraise__online">Online Or In Person</span></h3>
+        <p>If you have an old D&rsquo;Angelico guitar that you are looking to sell or simply curious to find out its appraisal value, then please reach out today! I do my best to provide quality services to my customers and provide a great experience.</p>
+        <a href={hrefs.tel} class="smd-btn smd-btn--rust">{contact.phone}</a>
+      </div>
+      <div class="smd-buyappraise__photo">
+        <img src={`${IMG}/i-buy-and-appraise-vintage-guitars.png`} alt="Joe Dampt Buys And Appraises D'Angelico Guitars Online Or In Person" loading="lazy" width="1106" height="720" />
+      </div>
+    </div>
+  </section>
+
+  <section class="smd-nationwide">
+    <div class="smd-inner">
+      <h3 class="smd-nationwide__title">Nationwide Vintage D&rsquo;Angelico Guitars Resale &amp; Appraisals</h3>
+      <div class="smd-nationwide__cols">
+        {featureCols.map((c) => (
+          <div class="smd-nationwide__col">
+            <img src={c.icon} alt={c.iconAlt} class="smd-nationwide__icon" loading="lazy" />
+            <img src={c.photo} alt={c.photoAlt} class="smd-nationwide__photo" loading="lazy" />
+            <hr class="smd-rule" />
+            <h4 set:html={c.headline} />
+            <p set:html={c.body} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="smd-testi" style={`background-image: url('${TESTI_BG}')`}>
+    <div class="smd-inner">
+      <div class="smd-testi__head">
+        <h3 class="smd-testi__title">Our Clients&rsquo; Testimonials</h3>
+        <h4 class="smd-testi__sub">5-Star Rated Vintage Guitar Buyer And Appraisal Expert <span>Near You</span></h4>
+      </div>
+      <div class="smd-testi__grid">
+        {reviews.map((r) => (
+          <article class="smd-testi__card">
+            <p class="smd-testi__name"><a href={r.link} target="_blank" rel="noopener noreferrer">{r.name}</a></p>
+            <p class="smd-testi__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <p class="smd-testi__body">{r.body}</p>
+          </article>
+        ))}
+      </div>
+      <div class="smd-testi__more-wrap">
+        <a href="https://www.google.com/maps/place/Joe%27s+Vintage+Guitars+-+We+Buy+Guitars!/@33.420432,-111.8365821,17z/data=!4m7!3m6!1s0x872ba7d2937937d9:0x69728d089b8a764!8m2!3d33.420432!4d-111.8343934!9m1!1b1" target="_blank" rel="noopener noreferrer" class="smd-btn smd-btn--rust">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vintage banner -->
+  <section class="smd-vintage">
+    <div class="smd-inner">
+      <h3 class="smd-vintage__title">Sell Vintage D&rsquo;Angelico Acoustic &amp; Electric Guitars From Anywhere Within The US</h3>
+    </div>
+  </section>
+
+  <!-- Buying Process -->
+  <section class="smd-process">
+    <div class="smd-inner">
+      <h3 class="smd-process__title">My Vintage Guitar Buying Process</h3>
+      <div class="smd-process__grid">
+        {buyingProcess.map((p) => (
+          <div class="smd-process__card">
+            <h4>{p.title}</h4>
+            <hr class="smd-rule" />
+            <p set:html={p.body} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="smd-meet-wrap">
+    <div class="smd-inner smd-meet">
+      <div class="smd-meet__video">
+        <lite-youtube videoid="zMd6IJ-6e-8" params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1" title="Meet Vintage Guitar Expert, Joe Dampt" class="smd-lite-yt"></lite-youtube>
+      </div>
+      <div class="smd-meet__panel">
+        <h3 class="smd-meet__title">Meet Vintage Guitar Expert, <span>Joe Dampt</span></h3>
+        <h5 class="smd-meet__sub">Professional Buyer and Seasoned Collector of Vintage Guitars</h5>
+        <p>Hey there! My name is Joe Dampt and I love old music and old guitars!</p>
+        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I&rsquo;ve sacrificed and worked hard to make music and musical instruments my livelihood.</p>
+      </div>
+    </div>
+  </section>
+
+  <FAQ faqs={faqs} mainTitle="Frequently Asked Questions" subTitle="About Our Guitar Resale Services" sectionId="faqs-dangelico" openFirst={true} />
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .smd-inner { max-width: 1144px; margin: 0 auto; padding: 0 24px; }
+  .smd-link { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .smd-link:hover { color: var(--color-brand-rust-bright); }
+  .smd-rule { border: none; border-top: 3px solid var(--color-brand-rust-bright); width: 80px; margin: 12px auto 16px; }
+  .smd-btn { display: inline-block; padding: 14px 32px; font-family: var(--font-display); font-size: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; text-decoration: none; border-radius: 4px; transition: background 0.2s; border: none; cursor: pointer; }
+  .smd-btn--rust { background: var(--color-brand-rust-bright); color: #fff; }
+  .smd-btn--rust:hover { background: #bf6344; }
+  .smd-btn--cream { background: var(--color-brand-cream); color: var(--color-brand-rust-dark); }
+
+  .smd-hero { background: #000; color: #fff; padding: 280px 24px 80px; text-align: center; }
+  @media (max-width: 768px) { .smd-hero { padding: 120px 16px 60px; } }
+  .smd-hero h1 { font-family: var(--font-display); font-size: clamp(32px, 4.5vw, 56px); font-weight: 600; color: var(--color-brand-cream); margin: 0 auto 18px; max-width: 1000px; line-height: 1.15; }
+  .smd-hero h1 span { white-space: nowrap; }
+  .smd-hero__rule { height: 3px; width: 100%; max-width: 740px; background: var(--color-brand-cream); margin: 0 auto 20px; }
+  .smd-hero__subtitle { font-family: var(--font-display); color: #f0e1c1; font-weight: 400; font-size: clamp(20px, 2.5vw, 26px); margin: 0 auto calc(20px + 2%); max-width: 900px; }
+  .smd-hero__subtitle span { white-space: nowrap; }
+  .smd-hero__copy { max-width: 900px; margin: 0 auto 30px; }
+  .smd-hero__copy p { color: #fff; line-height: 1.7; margin: 0 0 16px; }
+  .smd-hero__cta-sub { color: var(--color-brand-cream); margin: 14px 0 0; font-weight: 600; }
+
+  .smd-buyappraise { background: linear-gradient(180deg, #f2f2f2 0%, rgba(255, 255, 255, 0) 100%); padding: 70px 0; }
+  .smd-buyappraise__grid { display: grid; grid-template-columns: 60% 40%; gap: 50px; align-items: center; }
+  .smd-buyappraise__text h3 { font-family: var(--font-display); font-size: clamp(20px, 2.5vw, 30px); color: var(--color-brand-rust-dark); line-height: 1.25; margin: 0 0 18px; }
+  .smd-buyappraise__text h3 span { white-space: nowrap; }
+  .smd-buyappraise__online { display: block; font-size: 0.7em; color: var(--color-brand-brown); }
+  .smd-buyappraise__text p { line-height: 1.7; margin: 0 0 22px; color: var(--color-brand-brown); }
+  .smd-buyappraise__photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
+  @media (max-width: 900px) { .smd-buyappraise__grid { grid-template-columns: 1fr; gap: 30px; } }
+
+  .smd-nationwide { padding: 60px 0 80px; background: #fff; }
+  .smd-nationwide__title { font-family: "Oswald", var(--font-display); font-weight: 600; font-size: 36px; color: var(--color-brand-rust-dark); text-align: center; margin: 0 0 40px; line-height: 1.25; display: flex; align-items: center; justify-content: center; gap: 18px; }
+  .smd-nationwide__title::before, .smd-nationwide__title::after { content: ""; flex: 1; max-width: 120px; height: 1px; background: var(--color-brand-rust-dark); opacity: 0.45; }
+  .smd-nationwide__cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+  .smd-nationwide__col { text-align: center; }
+  .smd-nationwide__icon { width: 80px; height: auto; margin: 0 auto 16px; display: block; }
+  .smd-nationwide__photo { width: 100%; height: auto; display: block; border-radius: 4px; margin-bottom: 12px; }
+  .smd-nationwide__col h4 { font-family: var(--font-display); font-size: 22px; color: var(--color-brand-rust-dark); margin: 0 0 10px; line-height: 1.3; }
+  .smd-nationwide__col p { line-height: 1.65; color: var(--color-brand-brown); margin: 0; }
+  @media (max-width: 900px) { .smd-nationwide__cols { grid-template-columns: 1fr; gap: 30px; } .smd-nationwide__title::before, .smd-nationwide__title::after { display: none; } }
+
+  .smd-testi { background-color: var(--color-brand-rust-dark); background-size: cover; background-position: center; color: var(--color-brand-cream); padding: 70px 0 80px; margin-top: -70px; }
+  .smd-testi__head { text-align: center; margin-bottom: 40px; }
+  .smd-testi__title { font-family: var(--font-script, "Margi"), serif; font-size: clamp(32px, 3.5vw, 54px); color: var(--color-brand-brown-tan); font-weight: 400; margin: 0 0 6px; line-height: 1; }
+  .smd-testi__sub { color: var(--color-brand-cream); font-size: clamp(18px, 2.5vw, 22px); font-weight: 400; margin: 0; }
+  .smd-testi__sub span { white-space: nowrap; }
+  .smd-testi__grid { display: grid; grid-template-columns: 30% 30% 40%; gap: 24px; }
+  .smd-testi__card { background: var(--color-brand-brown-tan, #dcb58b); color: var(--color-brand-brown); padding: 22px 24px; border-radius: 0 0 20px 20px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); }
+  .smd-testi__name { font-family: "Oswald", var(--font-display); font-size: clamp(16px, 6vw, 23px); font-weight: 600; color: var(--color-brand-rust-dark); margin: 0 0 6px; line-height: 1.2; }
+  .smd-testi__name a { color: inherit; text-decoration: none; }
+  .smd-testi__stars { color: var(--color-brand-rust-bright); font-size: 16px; letter-spacing: 1px; margin: 0 0 10px; }
+  .smd-testi__body { font-size: 14px; line-height: 1.6; margin: 0; color: var(--color-brand-brown); text-align: justify; }
+  .smd-testi__more-wrap { text-align: center; margin-top: 40px; }
+  @media (max-width: 900px) { .smd-testi__grid { grid-template-columns: 1fr; } }
+
+  .smd-vintage { background: var(--color-brand-rust-bright); color: #fff; padding: 30px 20px; text-align: center; }
+  .smd-vintage__title { font-family: var(--font-display); font-size: clamp(20px, 2.4vw, 28px); color: #fff; margin: 0; line-height: 1.3; }
+
+  .smd-process { background: var(--color-brand-cream-light, #f6e9cf); padding: 70px 0; }
+  .smd-process__title { text-align: center; font-family: var(--font-display); font-size: clamp(26px, 3vw, 36px); color: var(--color-brand-rust-dark); margin: 0 0 40px; }
+  .smd-process__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+  .smd-process__card { background: #fff; padding: 28px 26px; border-radius: 10px; text-align: center; box-shadow: 0 2px 10px rgba(62, 42, 20, 0.08); }
+  .smd-process__card h4 { font-family: var(--font-display); font-size: 22px; color: var(--color-brand-rust-dark); margin: 0 0 8px; }
+  .smd-process__card p { line-height: 1.7; color: var(--color-brand-brown); margin: 8px 0 0; }
+  .smd-process__card .smd-rule { margin: 8px auto 14px; }
+  @media (max-width: 900px) { .smd-process__grid { grid-template-columns: 1fr; } }
+
+  .smd-meet-wrap { background: var(--color-brand-cream, #eedfc0); padding: 60px 0 80px; }
+  .smd-meet { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; background: #f0e1c1; border-radius: 10px; padding: 40px; }
+  .smd-meet__video .smd-lite-yt { width: 100%; max-width: 600px; display: block; }
+  .smd-meet__title { font-family: var(--font-display); font-size: clamp(24px, 2.8vw, 32px); color: var(--color-brand-rust-dark); margin: 0 0 6px; line-height: 1.2; }
+  .smd-meet__title span { white-space: nowrap; }
+  .smd-meet__sub { color: var(--color-brand-rust-bright); font-weight: 400; font-size: 16px; margin: 0 0 18px; }
+  .smd-meet__panel p { margin: 0 0 12px; line-height: 1.7; color: var(--color-brand-brown); text-align: justify; }
+  @media (max-width: 900px) { .smd-meet { grid-template-columns: 1fr; padding: 28px; } }
+</style>
