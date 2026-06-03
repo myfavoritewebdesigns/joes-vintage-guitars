@@ -1,0 +1,537 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ContactSection from "../components/ContactSection.astro";
+import FAQ from "../components/FAQ.astro";
+import { contact, hrefs } from "../config/site";
+
+/* ============================================================
+   SELL MY RICKENBACKER GUITAR (.smr-*) — Archetype B
+   Same layout family as Sell A Guitar Collection but simpler:
+   no Notable Purchases, no IG reels, no case study, no special
+   "Inherited a Collection" section. Just hero → I Buy & Appraise
+   → 3-card feature grid → testimonials → CTA + Meet Joe → FAQs.
+   ============================================================ */
+
+const IMG = "/images/sell-rickenbacker";
+
+// 3 Rickenbacker-specific testimonials from the live page
+const reviews = [
+  {
+    name: "Cody Folk DeCou",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURDMHZYQ0FnEAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDC0vXCAg%7C%7C?hl=en",
+    body: "Joe is a great dude, with tons of knowledge and experience. I’ve had several guitars in for work with him, and have ALWAYS been impressed with the end result. I dropped my rickenbacker 4003 off with him on Thursday for a setup, and he had it ready to be picked up the following afternoon! You can’t go wrong here, trust me ✊",
+  },
+  {
+    name: "Keith Smith",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURiZ05tVE1nEAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDbgNmTMg%7C%7C?hl=en",
+    body: "Joe bought a vintage guitar from me. I had never sold anything to someone that I’d found online and was kinda scared in doing so, but the process he uses puts all of the risk on him. I got paid before the guitar left my sight but made sure he was getting his monies worth. Thank you for an easy pleasant transaction.",
+  },
+  {
+    name: "Mike (StratMC)",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT20xZlNEZElkVzVETFZweGVqZFpjVzFwU0VNeUxYYxAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CAIQACodChtycF9oOm1fSDdIdW5DLVpxejdZcW1pSEMyLXc%7C%7C?hl=en",
+    body: "Selling my vintage guitar couldn’t have been easier as Joe is quick to respond and offered a very fair price for my instrument. He has a shipping process that it is seamless and simple. I have a couple of other vintage instruments that I don’t play enough to justify owning them and when I get ready to part with them, Joe’s Vintage Guitars will be my choice!",
+  },
+];
+
+const featureCols = [
+  {
+    icon: `${IMG}/prices-icon.svg`,
+    iconAlt: "Fair And Convenient Prices",
+    photo: `${IMG}/fair-and-convenient-prices-rickenbacker.jpg`,
+    photoAlt: "Fair And Convenient Prices For Your Rickenbacker Bass Or Electric Guitar",
+    headline: "Sell Your Rickenbacker Bass Or Electric Guitar At The Right Price",
+    body: `I will always give you the fairest price on the market for your guitar or bass. Have one that you want to sell? <a href="/contact-me/" class="smr-link">Contact me today</a>!`,
+  },
+  {
+    icon: `${IMG}/classic-icon.svg`,
+    iconAlt: "Rare, Unique, And Classic Guitars",
+    photo: `${IMG}/find-rare-unique-classic-rickenbacker.jpg`,
+    photoAlt: "Find Rare, Unique And Classic Rickenbacker Guitars In Our Online Shop",
+    headline: "Find Rare, Unique &amp; Classic Rickenbacker Guitars In Our Online Shop",
+    body: `Due to my constant travels around the country, we are constantly updating our inventory. Don’t forget to browse our online catalog; you might find a rare Rickenbacker guitar!`,
+  },
+  {
+    icon: `${IMG}/guitar-icon.svg`,
+    iconAlt: "Many Years Of Experience",
+    photo: `${IMG}/years-of-experience-buying-and-selling.jpg`,
+    photoAlt: "Years Of Experience Buying And Selling Guitars From All Over America",
+    headline: "Years Of Experience Buying &amp; Selling Guitars From All Over America",
+    body: `Over the years, I have seen many Rickenbacker guitar models and series. You can benefit from my expertise whether you are buying or selling one of your own.`,
+  },
+];
+
+// FAQs sourced from live JSON-LD (generic guitar resale FAQs, used across
+// the secondary sell-my pages — Rickenbacker, Guild, Gretsch, etc.).
+const faqs = [
+  {
+    id: "toggle_527859ceb8a70e0f6",
+    q: "How Can Appraisal Experts Determine My Guitar's Price &amp; Value?",
+    a: "There are several things that I take into consideration when determining the price of your guitar. These include your instrument&rsquo;s age, how unique it is, if it belong to anyone famous, and the condition of the guitar itself. All of those things combined will dictate what you will pay or be paid for it.",
+  },
+  {
+    id: "toggle_02229f7ac996d625a",
+    q: "Can I Sell My Guitar On Consignment Or Trade It For Another One?",
+    a: "There is not a set answer for this. It depends on a number of things &mdash; like if I have something that you might want to trade for or if the guitar is in good enough shape or valuable enough. I will approach each scenario carefully and will give you a detailed answer as to why or why not this can happen.",
+  },
+  {
+    id: "toggle_a6fb7e4d037f53f7c",
+    q: "What Are The Payment Options To Buy A Vintage Guitar?",
+    a: "I generally prefer to work in cash when it comes to buying and selling, but if there is a reasonable alternative, I will gladly listen to any suggestions that you might have. I cannot guarantee that I will be able to work with your payment method, but it never hurts to ask first. I look forward to working with you!",
+  },
+  {
+    id: "toggle_00fc6428ecb9a31e6",
+    q: "Will I Have To Pay For Shipping Taxes To Buy Or Sell A Guitar?",
+    a: "This usually depends on what state you are buying or selling from. Typically, the buyer is the one who pays the shipping tax, not the seller. Be sure to inquire about this before sending any payment. It&rsquo;s my goal to have a smooth transaction on all ends. Thanks for taking a look!",
+  },
+  {
+    id: "toggle_e91094f9e7923d8b7",
+    q: "Is There A Warranty Or Return Policy After Buying A Used Guitar From You?",
+    a: "Yes. If you find that the guitar was damaged while shipping or soon after with normal use, we will work something out so that you are completely satisfied. I want you to be able to enjoy playing the guitar as much as I do and having this sort of protection will put your mind at ease.",
+  },
+];
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    name: "About Our Guitar Resale Services",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q.replace(/&rsquo;/g, "'").replace(/&amp;/g, "&"),
+      acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'").replace(/&mdash;/g, "—") },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Sell My Rickenbacker Guitar", item: "https://www.joesvintageguitarsaz.com/sell-my-rickenbacker-guitar/" },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Sell Your Vintage Rickenbacker Bass Guitar In The US",
+    author: { "@type": "Person", name: "Joe Dampt" },
+    publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" },
+    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-rickenbacker-guitar/",
+  },
+];
+---
+
+<Layout
+  title="Sell My RICKENBACKER Guitar | Joes Vintage Guitars"
+  description="Sell your vintage Rickenbacker bass or guitar to a trusted nationwide buyer. Fair cash offers, expert appraisals, and a stress-free process from coast to coast."
+  canonical="/sell-my-rickenbacker-guitar/"
+  ogImage={`${IMG}/find-rare-unique-classic-rickenbacker.jpg`}
+  structuredData={structuredData}
+>
+  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
+  <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+
+  <!-- 1. Hero — black bg, centered, no photo background -->
+  <section class="smr-hero">
+    <div class="smr-inner">
+      <h1>Sell Your Vintage Rickenbacker Bass Guitar <span>In The US</span></h1>
+      <div class="smr-hero__rule" aria-hidden="true"></div>
+      <h2 class="smr-hero__subtitle">Top-Rated Rickenbacker Used Guitar Buyer Near You</h2>
+
+      <div class="smr-hero__copy">
+        <p>Rickenbacker guitars, basses, amplifiers and other instruments are classic American instruments that have provided inspiration to thousands of beloved musicians all over the world. They are best known for their extensive use by one of my favorite music groups of all time: The Beatles!</p>
+        <p>I am a cash buyer for Rickenbacker guitars and basses. If you are looking for someone to buy your Rickenbacker guitar, look no further! I will make you a fair cash offer for your treasured instrument, and will treasure and play it, or make sure that it goes to someone who will. I can help you answer questions like: &ldquo;What is my vintage Rickenbacker guitar worth?&rdquo; If you have a vintage Rickenbacker guitar you&rsquo;d like to sell, please call or text me at <a href={hrefs.tel}>{contact.phone}</a> or email me at <a href={hrefs.mailto}>{contact.email}</a>.</p>
+      </div>
+
+      <div class="smr-hero__cta">
+        <a href="/free-appraisal/" class="smr-btn smr-btn--rust">Get Your Free Appraisal</a>
+        <p class="smr-hero__cta-sub">Get the best price for your Vintage Guitar</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. I Buy & Appraise — 2-column -->
+  <section class="smr-buyappraise">
+    <div class="smr-inner smr-buyappraise__grid">
+      <div class="smr-buyappraise__text">
+        <h3>I Buy &amp; Appraise <span>Vintage Guitars</span> <span class="smr-buyappraise__online">Online Or In Person</span></h3>
+        <p>Before buying your guitar, <a href="/free-appraisal/" class="smr-link">I will appraise it carefully</a> to ensure that it is in good condition. By using my years of experience with Rickenbacker guitars, I am able to give you a fair price that is good for both you and me. Instead of just quoting you something, though, I will gladly explain my whole process and why I came to the price that I did. I will also answer any questions that you may have throughout the entire meeting.</p>
+        <a href={hrefs.tel} class="smr-btn smr-btn--rust">{contact.phone}</a>
+      </div>
+      <div class="smr-buyappraise__photo">
+        <img
+          src={`${IMG}/i-buy-and-appraise-vintage-guitars.png`}
+          alt="Joe Dampt Buys And Appraises Vintage Guitars Online Or In Person"
+          loading="lazy"
+          width="1106"
+          height="720"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Nationwide grid — title + 3 columns -->
+  <section class="smr-nationwide">
+    <div class="smr-inner">
+      <h3 class="smr-nationwide__title">Nationwide Rickenbacker Bass Guitar Resale &amp; Appraisals</h3>
+      <div class="smr-nationwide__cols">
+        {featureCols.map((c) => (
+          <div class="smr-nationwide__col">
+            <img src={c.icon} alt={c.iconAlt} class="smr-nationwide__icon" loading="lazy" />
+            <img src={c.photo} alt={c.photoAlt} class="smr-nationwide__photo" loading="lazy" />
+            <hr class="smr-rule" />
+            <h4 set:html={c.headline} />
+            <p set:html={c.body} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* 4. Testimonials — 3 Rickenbacker reviews on rickenbacker-reviews-bg.jpg */}
+  <section
+    class="smr-testi"
+    style={`background-image: url('${IMG}/rickenbacker-reviews-bg.jpg')`}
+  >
+    <div class="smr-inner">
+      <div class="smr-testi__head">
+        <h3 class="smr-testi__title">Your Testimonials</h3>
+        <h4 class="smr-testi__sub">Rickenbacker Guitar Resale Expert <span>With 5-Star Reviews</span></h4>
+      </div>
+      <div class="smr-testi__grid">
+        {reviews.map((r) => (
+          <article class="smr-testi__card">
+            <p class="smr-testi__name">
+              <a href={r.link} target="_blank" rel="noopener noreferrer">{r.name}</a>
+              <br />
+              <span class="smr-testi__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </p>
+            <p>{r.body}</p>
+          </article>
+        ))}
+      </div>
+      <div class="smr-testi__more-wrap">
+        <a
+          href="https://www.google.com/maps/place/Joe%27s+Vintage+Guitars+-+We+Buy+Guitars!/@33.420432,-111.8365821,17z/data=!4m7!3m6!1s0x872ba7d2937937d9:0x69728d089b8a764!8m2!3d33.420432!4d-111.8343934!9m1!1b1"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="smr-btn smr-btn--rust"
+        >
+          Read More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. CTA bar + Meet Joe video -->
+  <section class="smr-meet-wrap">
+    <div class="smr-meet-cta">
+      <div class="smr-inner smr-meet-cta__grid">
+        <h3 class="smr-meet-cta__title">
+          <span class="smr-meet-cta__accent">Sell Your Rickenbacker</span> Guitar Collection Online
+        </h3>
+        <a href="/contact-me/" class="smr-btn smr-btn--cream">Contact Now</a>
+      </div>
+    </div>
+
+    <div class="smr-inner smr-meet">
+      <div class="smr-meet__video">
+        <lite-youtube
+          videoid="zMd6IJ-6e-8"
+          params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1"
+          title="Meet Vintage Guitar Expert, Joe Dampt"
+          class="smr-lite-yt"
+        ></lite-youtube>
+      </div>
+      <div class="smr-meet__panel">
+        <h3 class="smr-meet__title">Meet Vintage Guitar Expert, <span>Joe Dampt</span></h3>
+        <h5 class="smr-meet__sub">Professional Buyer and Seasoned Collector of Vintage Guitars</h5>
+        <p>Hey there! My name is Joe Dampt and I love old music and old guitars!</p>
+        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I&rsquo;ve sacrificed and worked hard to make music and musical instruments my livelihood. I love old guitars and musical instruments, but I love the MUSIC even more. I believe that guitars don&rsquo;t do us any good if they just sit in a case. These beauties are meant to be played!</p>
+        <p>I&rsquo;ve performed in many local bands and my favorite styles to play are classic country/western music, swing &amp; dance music, and classic rock &amp; roll.</p>
+      </div>
+    </div>
+  </section>
+
+  {/* 6. FAQs */}
+  <FAQ
+    faqs={faqs}
+    mainTitle="Frequently Asked Questions"
+    subTitle="About Our Guitar Resale Services"
+    sectionId="faqs-rickenbacker"
+    openFirst={true}
+  />
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .smr-inner {
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .smr-link { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .smr-link:hover { color: var(--color-brand-rust-bright); }
+  .smr-rule {
+    border: none;
+    border-top: 3px solid var(--color-brand-rust-bright);
+    width: 80px;
+    margin: 12px auto 16px;
+  }
+
+  .smr-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+    border: none;
+    cursor: pointer;
+  }
+  .smr-btn--rust { background: var(--color-brand-rust-bright); color: #fff; }
+  .smr-btn--rust:hover { background: #bf6344; }
+  .smr-btn--cream { background: var(--color-brand-cream); color: var(--color-brand-rust-dark); }
+  .smr-btn--cream:hover { background: #fff; }
+
+  /* 1. Hero — black bg */
+  .smr-hero {
+    background: #000;
+    color: #fff;
+    padding: 280px 24px 80px;
+    text-align: center;
+  }
+  @media (max-width: 768px) { .smr-hero { padding: 120px 16px 60px; } }
+  .smr-hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 4.5vw, 56px);
+    font-weight: 600;
+    color: var(--color-brand-cream);
+    margin: 0 auto 18px;
+    max-width: 1000px;
+    line-height: 1.15;
+  }
+  .smr-hero h1 span { white-space: nowrap; }
+  .smr-hero__rule {
+    height: 3px;
+    width: 100%;
+    max-width: 740px;
+    background: var(--color-brand-cream);
+    margin: 0 auto 20px;
+  }
+  .smr-hero__subtitle {
+    font-family: var(--font-display);
+    color: #f0e1c1;
+    font-weight: 400;
+    font-size: clamp(20px, 2.5vw, 26px);
+    margin: 0 auto calc(20px + 2%);
+    max-width: 900px;
+  }
+  .smr-hero__copy {
+    max-width: 900px;
+    margin: 0 auto 30px;
+  }
+  .smr-hero__copy p {
+    color: #fff;
+    line-height: 1.7;
+    margin: 0 0 16px;
+  }
+  .smr-hero__copy a { color: var(--color-brand-gold, #c8983a); text-decoration: underline; }
+  .smr-hero__cta-sub {
+    color: var(--color-brand-cream);
+    margin: 14px 0 0;
+    font-weight: 600;
+  }
+
+  /* 2. I Buy & Appraise */
+  .smr-buyappraise {
+    background: linear-gradient(180deg, #f2f2f2 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 70px 0;
+  }
+  .smr-buyappraise__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+  }
+  .smr-buyappraise__text h3 {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 2.8vw, 34px);
+    color: var(--color-brand-rust-dark);
+    line-height: 1.25;
+    margin: 0 0 18px;
+  }
+  .smr-buyappraise__text h3 span { white-space: nowrap; }
+  .smr-buyappraise__online { display: block; font-size: 0.7em; color: var(--color-brand-brown); }
+  .smr-buyappraise__text p { line-height: 1.7; margin: 0 0 22px; color: var(--color-brand-brown); }
+  .smr-buyappraise__photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
+  @media (max-width: 900px) {
+    .smr-buyappraise__grid { grid-template-columns: 1fr; gap: 30px; }
+  }
+
+  /* 3. Nationwide grid */
+  .smr-nationwide { padding: 60px 0 80px; background: #fff; }
+  .smr-nationwide__title {
+    font-family: "Oswald", var(--font-display);
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--color-brand-rust-dark);
+    text-align: center;
+    margin: 0 0 40px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+  .smr-nationwide__title::before,
+  .smr-nationwide__title::after {
+    content: "";
+    flex: 1;
+    max-width: 120px;
+    height: 1px;
+    background: var(--color-brand-rust-dark);
+    opacity: 0.45;
+  }
+  .smr-nationwide__cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  .smr-nationwide__col { text-align: center; }
+  .smr-nationwide__icon { width: 80px; height: auto; margin: 0 auto 16px; display: block; }
+  .smr-nationwide__photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  .smr-nationwide__col h4 {
+    font-family: var(--font-display);
+    font-size: 22px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 10px;
+    line-height: 1.3;
+  }
+  .smr-nationwide__col p { line-height: 1.65; color: var(--color-brand-brown); margin: 0; }
+  @media (max-width: 900px) {
+    .smr-nationwide__cols { grid-template-columns: 1fr; gap: 30px; }
+    .smr-nationwide__title::before, .smr-nationwide__title::after { display: none; }
+  }
+
+  /* 4. Testimonials with reviews-bg */
+  .smr-testi {
+    background-color: var(--color-brand-rust-dark);
+    background-size: cover;
+    background-position: center;
+    color: var(--color-brand-cream);
+    padding: 70px 0 80px;
+    margin-top: -70px;
+    position: relative;
+  }
+  .smr-testi__head { text-align: center; margin-bottom: 40px; }
+  .smr-testi__title {
+    font-family: var(--font-script, "Margi"), serif;
+    font-size: clamp(32px, 3.5vw, 54px);
+    color: var(--color-brand-brown-tan);
+    font-weight: 400;
+    margin: 0 0 6px;
+    line-height: 1;
+  }
+  .smr-testi__sub {
+    color: var(--color-brand-cream);
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .smr-testi__sub span { white-space: nowrap; }
+  .smr-testi__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .smr-testi__card {
+    background: var(--color-brand-brown-tan, #dcb58b);
+    color: var(--color-brand-brown);
+    padding: 22px 24px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  .smr-testi__name {
+    font-family: "Oswald", var(--font-display);
+    font-size: 23px;
+    font-weight: 600;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 6px;
+    line-height: 1.2;
+  }
+  .smr-testi__name a { color: inherit; text-decoration: none; }
+  .smr-testi__name a:hover { text-decoration: underline; }
+  .smr-testi__stars { color: var(--color-brand-rust-bright); font-size: 16px; letter-spacing: 1px; }
+  .smr-testi__card > p:last-child { font-size: 14px; line-height: 1.6; margin: 0; color: var(--color-brand-brown); text-align: justify; }
+  .smr-testi__more-wrap { text-align: center; margin-top: 40px; }
+  @media (max-width: 900px) {
+    .smr-testi__grid { grid-template-columns: 1fr; }
+  }
+
+  /* 5. CTA bar + Meet Joe */
+  .smr-meet-wrap { background: var(--color-brand-cream, #eedfc0); padding: 60px 0 80px; }
+  .smr-meet-cta { padding: 0 0 30px; }
+  .smr-meet-cta__grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    align-items: center;
+  }
+  .smr-meet-cta__title {
+    font-family: var(--font-script, "Margi"), serif;
+    color: #fff;
+    background: var(--color-brand-rust-dark);
+    padding: 18px 26px;
+    border-radius: 8px;
+    margin: 0;
+    font-size: clamp(22px, 3vw, 38px);
+    font-weight: 400;
+  }
+  .smr-meet-cta__accent { color: var(--color-brand-brown-tan); }
+  .smr-meet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    background: #f0e1c1;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  .smr-meet__video .smr-lite-yt { width: 100%; max-width: 600px; display: block; }
+  .smr-meet__title {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 2.8vw, 32px);
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 6px;
+    line-height: 1.2;
+  }
+  .smr-meet__title span { white-space: nowrap; }
+  .smr-meet__sub {
+    color: var(--color-brand-rust-bright);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 18px;
+  }
+  .smr-meet__panel p {
+    margin: 0 0 12px;
+    line-height: 1.7;
+    color: var(--color-brand-brown);
+    text-align: justify;
+  }
+  @media (max-width: 900px) {
+    .smr-meet-cta__grid { grid-template-columns: 1fr; text-align: center; }
+    .smr-meet { grid-template-columns: 1fr; padding: 28px; }
+  }
+</style>
