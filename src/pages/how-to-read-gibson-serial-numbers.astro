@@ -15,19 +15,21 @@ import gsnToolHtml from "../../reference/gsn-tool-html.html?raw";
 
 const IMG = "/images/gibson-serial";
 
-// Floating in-page TOC (matches live's jvg-nav). H2 section anchors in order.
-const toc = [
+// Floating in-page nav (matches live's jvg-nav). Two labeled groups + a top link.
+const navEras = [
   { href: "#fon", label: "Factory Order Numbers (1902–1945)" },
-  { href: "#white-label", label: "White Label Era (1902–1947)" },
-  { href: "#a-prefix", label: "A-Prefix Serials (1947–1961)" },
-  { href: "#ink-stamp", label: "Ink Stamp: Solid Bodies (1952–1960)" },
-  { href: "#reused", label: "Reused Number Era (1961–1970)" },
-  { href: "#norlin", label: "The Norlin Era (1969–1984)" },
-  { href: "#present", label: "Modern System (1977–Present)" },
-  { href: "#classic", label: "Les Paul Classic Ink Stamp" },
-  { href: "#csri", label: "Custom Shop & Historic Reissues" },
-  { href: "#advanced", label: "Dating by Physical Features" },
-  { href: "#model-dating", label: "Dating by Model (LP · ES · SG)" },
+  { href: "#white-label", label: "White Label Era (1947–1961)" },
+  { href: "#a-prefix", label: "A-Prefix Era (1947–1961)" },
+  { href: "#ink-stamp", label: "Ink Stamp Era (1952–1960)" },
+  { href: "#reused", label: "Reused Numbers Era (1961–1970)" },
+  { href: "#norlin", label: "Norlin Era (1970–1975)" },
+  { href: "#present", label: "Modern Serialization (1977–Present)" },
+  { href: "#classic", label: "Les Paul Classic (1989–2014)" },
+  { href: "#csri", label: "Custom Shop & Reissues" },
+];
+const navAdvanced = [
+  { href: "#advanced", label: "Physical Features Guide" },
+  { href: "#model-dating", label: "Dating by Model" },
 ];
 
 const breadcrumbSchema = {
@@ -1497,6 +1499,29 @@ const personSchema = {
       </section>
     </div>
   </main>
+
+  <!-- Floating in-page navigation (desktop fixed sidebar ≥900px; mobile button + panel) -->
+  <nav class="jvg-nav-sidebar" aria-label="Page section navigation">
+    <div class="jvg-nav-sidebar-header"><strong>Gibson Serial Number Guide</strong></div>
+    <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="jvg-nav-link top">↑ Decoder Tool — Top of Page</a>
+    <div class="jvg-nav-section-label">Serial Number Eras</div>
+    {navEras.map((i) => <a href={i.href} class="jvg-nav-link"><span class="jvg-nav-dot"></span>{i.label}</a>)}
+    <div class="jvg-nav-section-label">Advanced Dating</div>
+    {navAdvanced.map((i) => <a href={i.href} class="jvg-nav-link"><span class="jvg-nav-dot"></span>{i.label}</a>)}
+  </nav>
+
+  <button class="jvg-nav-btn" id="jvgNavBtn" onclick="toggleJvgNav()" aria-expanded="false" aria-controls="jvgNavPanel">
+    <span class="jvg-nav-icon">☰</span> Jump To Section
+  </button>
+
+  <div class="jvg-nav-panel" id="jvgNavPanel" role="navigation" aria-label="Page section navigation">
+    <div class="jvg-nav-panel-header"><strong>Gibson Serial Number Guide</strong></div>
+    <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});closeJvgNav();return false;" class="jvg-nav-link top">↑ Decoder Tool — Top of Page</a>
+    <div class="jvg-nav-section-label">Serial Number Eras</div>
+    {navEras.map((i) => <a href={i.href} onclick="closeJvgNav()" class="jvg-nav-link"><span class="jvg-nav-dot"></span>{i.label}</a>)}
+    <div class="jvg-nav-section-label">Advanced Dating</div>
+    {navAdvanced.map((i) => <a href={i.href} onclick="closeJvgNav()" class="jvg-nav-link"><span class="jvg-nav-dot"></span>{i.label}</a>)}
+  </div>
 </Layout>
 
 <!-- lite-youtube web component (matches live's embed loader) -->
@@ -1520,6 +1545,28 @@ const personSchema = {
       btn.setAttribute('aria-expanded', 'true');
     }
   }
+</script>
+
+<!-- Floating nav toggle (mobile) -->
+<script is:inline>
+  function toggleJvgNav() {
+    var btn = document.getElementById('jvgNavBtn');
+    var panel = document.getElementById('jvgNavPanel');
+    var isOpen = panel.classList.contains('open');
+    if (isOpen) { closeJvgNav(); }
+    else { panel.classList.add('open'); btn.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
+  }
+  function closeJvgNav() {
+    var btn = document.getElementById('jvgNavBtn');
+    var panel = document.getElementById('jvgNavPanel');
+    panel.classList.remove('open'); btn.classList.remove('open'); btn.setAttribute('aria-expanded', 'false');
+  }
+  document.addEventListener('click', function (e) {
+    var btn = document.getElementById('jvgNavBtn');
+    var panel = document.getElementById('jvgNavPanel');
+    if (!btn || !panel) return;
+    if (!btn.contains(e.target) && !panel.contains(e.target)) closeJvgNav();
+  });
 </script>
 
 <style is:global>
@@ -1863,6 +1910,35 @@ const personSchema = {
   .gsn-author__ctas a { font-family: var(--font-display); font-weight: 600; text-transform: uppercase; padding: 12px 24px; border-radius: 6px; text-decoration: none; }
   .gsn-author__ctas a:first-child { background: var(--wood, #b93c15); color: #fff; }
   .gsn-author__ctas a:last-child { background: transparent; border: 2px solid var(--border, #d2b48c); color: var(--border, #d2b48c); }
+
+  /* Floating in-page nav (jvg-nav) — ported from live */
+  .jvg-nav-btn { display: none; position: fixed; top: 32px; right: 24px; z-index: 9999; background: #b93c15; color: #fff; border: none; border-radius: 50px; padding: 13px 22px; font-family: var(--font-display, Oswald), sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; cursor: pointer; box-shadow: 0 4px 20px rgba(185,60,21,.45); align-items: center; gap: 8px; transition: background .2s, box-shadow .2s, transform .2s; }
+  .jvg-nav-btn:hover { background: #9a3010; box-shadow: 0 6px 28px rgba(185,60,21,.55); transform: translateY(-2px); }
+  .jvg-nav-btn.open { background: #7b1d1d; }
+  .jvg-nav-icon { font-size: 15px; line-height: 1; transition: transform .3s; }
+  .jvg-nav-btn.open .jvg-nav-icon { transform: rotate(45deg); }
+  .jvg-nav-sidebar { position: fixed; top: 170px; right: 24px; z-index: 9998; width: 260px; max-height: calc(100vh - 200px); overflow-y: auto; background: #fff; border: 1px solid #e0dacc; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.12); display: none; flex-direction: column; }
+  .jvg-nav-panel { position: fixed; top: 90px; right: 24px; z-index: 9998; width: 300px; max-height: 80vh; overflow-y: auto; background: #fff; border: 1px solid #e0dacc; border-radius: 14px; box-shadow: 0 12px 40px rgba(0,0,0,.18); flex-direction: column; display: none; }
+  .jvg-nav-panel.open { display: flex; }
+  .jvg-nav-panel-header, .jvg-nav-sidebar-header { background: #7b1d1d; padding: 16px 18px; border-radius: 10px 10px 0 0; flex-shrink: 0; }
+  .jvg-nav-panel-header strong, .jvg-nav-sidebar-header strong { display: block; color: #fff; font-family: var(--font-display, Oswald), sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }
+  .jvg-nav-section-label { background: #f4f0e8; padding: 7px 18px; font-family: var(--font-display, Oswald), sans-serif; font-size: 10px; font-weight: 700; color: #7a6b5d; text-transform: uppercase; letter-spacing: .1em; border-bottom: 1px solid #e0dacc; flex-shrink: 0; }
+  .jvg-nav-link, .jvg-nav-link:link, .jvg-nav-link:visited { display: flex; padding: 10px 18px; font-family: var(--font-display, Oswald), sans-serif; font-size: 12px; font-weight: 700; color: #4a3427 !important; text-decoration: none !important; text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid #f0ebe3; transition: background .15s, color .15s; align-items: center; gap: 8px; }
+  .jvg-nav-link:last-child { border-bottom: none; }
+  .jvg-nav-link:focus, .jvg-nav-link:hover { background: #f9f7f2; color: #b93c15 !important; text-decoration: none !important; }
+  .jvg-nav-link.top, .jvg-nav-link.top:link, .jvg-nav-link.top:visited { background: #fff8f0; color: #b93c15 !important; border-bottom: 2px solid #e0dacc; text-decoration: none !important; }
+  .jvg-nav-link.top:hover { background: #fef0e6; }
+  .jvg-nav-dot { width: 6px; height: 6px; border-radius: 50%; background: #b93c15; flex-shrink: 0; }
+  @media (min-width: 900px) {
+    .jvg-nav-btn { display: none !important; }
+    .jvg-nav-panel { display: none !important; }
+    .jvg-nav-sidebar { display: flex !important; }
+  }
+  @media (max-width: 899px) {
+    .jvg-nav-sidebar { display: none !important; }
+    .jvg-nav-btn { display: flex !important; }
+    .jvg-nav-panel { right: 16px; top: 90px; width: calc(100vw - 32px); max-width: 320px; }
+  }
 
   @media (max-width: 760px) {
     .gsn-locate-grid { grid-template-columns: 1fr; }
