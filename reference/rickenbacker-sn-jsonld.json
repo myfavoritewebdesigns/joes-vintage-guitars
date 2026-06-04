@@ -1,0 +1,270 @@
+{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://www.joesvintageguitarsaz.com/#place","geo":{"@type":"GeoCoordinates","latitude":"33.41735776080888","longitude":" -111.81037593707954"},"hasMap":"https://www.google.com/maps/search/?api=1&amp;query=33.41735776080888, -111.81037593707954","address":{"@type":"PostalAddress","streetAddress":"47 N Fraser Dr E","addressLocality":"Mesa","addressRegion":"Arizona","postalCode":"85203","addressCountry":"United States"}},{"@type":["MusicStore","Organization"],"@id":"https://www.joesvintageguitarsaz.com/#organization","name":"Joe's Vintage Guitars - We Buy Guitars!","url":"https://www.joesvintageguitarsaz.com","sameAs":["https://www.facebook.com/joesvintageguitars"],"email":"joesvintageguitars94@gmail.com","address":{"@type":"PostalAddress","streetAddress":"47 N Fraser Dr E","addressLocality":"Mesa","addressRegion":"Arizona","postalCode":"85203","addressCountry":"United States"},"logo":{"@type":"ImageObject","@id":"https://www.joesvintageguitarsaz.com/#logo","url":"https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/Logo-Principal.png","contentUrl":"https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/Logo-Principal.png","caption":"Joe's Vintage Guitars - We Buy Guitars!","inLanguage":"en-US","width":"864","height":"864"},"priceRange":"$$$","openingHours":["Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-00:00"],"location":{"@id":"https://www.joesvintageguitarsaz.com/#place"},"image":{"@id":"https://www.joesvintageguitarsaz.com/#logo"},"telephone":"+1-602-900-6635"},{"@type":"WebSite","@id":"https://www.joesvintageguitarsaz.com/#website","url":"https://www.joesvintageguitarsaz.com","name":"Joe's Vintage Guitars - We Buy Guitars!","alternateName":"Joe's Vintage Guitars","publisher":{"@id":"https://www.joesvintageguitarsaz.com/#organization"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://www.joesvintageguitarsaz.com/rickenbacker-serial-numbers/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://www.joesvintageguitarsaz.com","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://www.joesvintageguitarsaz.com/rickenbacker-serial-numbers/","name":"Rickenbacker Serial Numbers"}}]},{"@type":"WebPage","@id":"https://www.joesvintageguitarsaz.com/rickenbacker-serial-numbers/#webpage","url":"https://www.joesvintageguitarsaz.com/rickenbacker-serial-numbers/","name":"Rickenbacker Serial Number Decoder + Dating Guide","datePublished":"2026-04-02T21:17:20+00:00","dateModified":"2026-04-02T21:17:20+00:00","isPartOf":{"@id":"https://www.joesvintageguitarsaz.com/#website"},"inLanguage":"en-US","breadcrumb":{"@id":"https://www.joesvintageguitarsaz.com/rickenbacker-serial-numbers/#breadcrumb"}},{"@type":"Person","@id":"https://www.joesvintageguitarsaz.com/author/joedampt/","name":"Joe Dampt","url":"https://www.joesvintageguitarsaz.com/author/joedampt/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/b59f3dc94db4c3521c86659644a17187119c1eed4bb55f1e78f7dc00bc2bca38?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/b59f3dc94db4c3521c86659644a17187119c1eed4bb55f1e78f7dc00bc2bca38?s=96&amp;d=mm&amp;r=g","caption":"Joe Dampt","inLanguage":"en-US"},"sameAs":["https://www.joesvintageguitarsaz.com/about-me/"],"worksFor":{"@id":"https://www.joesvintageguitarsaz.com/#organization"}},{"@type":"Article","headline":"Rickenbacker Serial Number Decoder + Dating Guide","datePublished":"2026-04-02T21:17:20+00:00","dateModified":"2026-04-02T21:17:20+00:00","author":{"@id":"https://www.joesvintageguitarsaz.com/author/joedampt/","name":"Joe Dampt"},"publisher":{"@id":"https://www.joesvintageguitarsaz.com/#organization"},"description":"Decode any Rickenbacker serial number from 1954 to today. Full era guide, interactive decoder tool, and advanced dating by pickups, tuners, knobs, and body specs.","name":"Rickenbacker Serial Number Decoder + Dating Guide","@id":"https://www.joesvintageguitarsaz.com/rickenbacker-serial-numbers/#richSnippet","isPartOf":{"@id":"https://www.joesvintageguitarsaz.com/rickenbacker-serial-numbers/#webpage"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://www.joesvintageguitarsaz.com/rickenbacker-serial-numbers/#webpage"}}]}
+
+=====
+
+{
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://www.joesvintageguitarsaz.com/",
+    "url": "https://www.joesvintageguitarsaz.com/",
+    "sameAs": [
+        "https://www.facebook.com/joesvintageguitars/",
+        "https://www.youtube.com/@joesvintageguitars",
+        "https://reverb.com/shop/joe-s-gear-emporium-4",
+        "https://www.pinterest.com/joesvintageguitars0087/",
+        "https://www.instagram.com/joesvintageguitarsaz/",
+        "https://www.tiktok.com/@joesvintageguitar/",
+        "https://maps.app.goo.gl/QwmHsZGznWUwB9LA9/"
+    ],
+    "logo": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/06/joes-vintage-guitars-logo.jpg",
+    "image": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/om2ob5ra1i1x7wbklaug.jpg",
+    "name": "Joe's Vintage Guitars - We Buy Guitars!",
+    "legalName": "Joe’s Vintage Guitars",
+    "description": "Joe's Vintage Guitars specializes in purchasing and collecting vintage guitars and other stringed instruments. With years of expertise, Joe Dampt offers top cash for renowned brands like Fender and Gibson.",
+    "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 1
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "405",
+        "ratingValue": "5"
+    },
+    "priceRange": "$$$$",
+    "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+    }],
+    "telephone": "+1-602-900-6635",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "47 N Fraser Dr E",
+        "addressLocality": "Mesa",
+        "addressRegion": "AZ",
+        "postalCode": "85203",
+        "addressCountry": "US"
+    },
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-602-900-6635",
+        "contactType": "Customer Support",
+        "availableLanguage": [
+            "English",
+            "Spanish"
+        ]
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "33.417304029490694",
+        "longitude": "-111.81059051571508"
+    },
+    "makesOffer": [
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Buy and Sell Guitars"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Free Guitar Appraisal"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Stringed Instruments Appraisal"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Vintage Guitar Consignment"
+            }
+        }
+    ],
+    "department": [{
+        "@type": "ProfessionalService",
+        "name": "Buy Sell Vintage Guitars",
+        "@id": "https://www.joesvintageguitarsaz.com/",
+        "url": "https://www.joesvintageguitarsaz.com/",
+        "sameAs": [
+            "https://www.facebook.com/joesvintageguitars/",
+            "https://www.youtube.com/@joesvintageguitars",
+            "https://www.instagram.com/joesvintageguitarsaz/",
+            "https://maps.app.goo.gl/6xHcpYV9EdNij5vY8/"
+        ],
+        "image": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/njw3skvdov5hr4crdk1e.jpg",
+        "telephone": "+1-602-830-5735",
+        "priceRange": "$$$$",
+        "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+        }],
+        "areaServed": [{
+            "@type": "AdministrativeArea",
+            "name": "United States"
+        },
+        {
+            "@type": "AdministrativeArea",
+            "name": "Canada"
+        }]
+    }]
+}
+
+=====
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "headline": "Rickenbacker Serial Number Guide & Advanced Dating Reference",
+      "description": "Complete guide to reading Rickenbacker serial numbers across all eras from 1932 to present, plus advanced dating by pickups, tuners, knobs, inlays, body styles, and hardware specs.",
+      "author": {
+        "@type": "Person",
+        "name": "Joe Dampt",
+        "url": "https://www.joesvintageguitarsaz.com/about-me"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Joe's Vintage Guitars",
+        "url": "https://www.joesvintageguitarsaz.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/06/logo-joe-2.png"
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/04/1960s-rickenbacker-360-2-scaled.jpg",
+        "width": 2560,
+        "height": 1707
+      },
+      "datePublished": "2026-04-02",
+      "dateModified": "2026-04-02",
+      "url": "https://www.joesvintageguitarsaz.com/rickenbacker-serial-number-guide/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.joesvintageguitarsaz.com/rickenbacker-serial-number-guide/"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Rickenbacker Guitar Dating and Serial Number Identification"
+      },
+      "keywords": "Rickenbacker serial numbers, Rickenbacker guitar dating, how to date a Rickenbacker, Rickenbacker serial number decoder, vintage Rickenbacker identification, Rickenbacker 360, Rickenbacker 4001"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where is the serial number on a Rickenbacker guitar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On most Rickenbackers made from 1961 onward, the serial number is stamped on the output jackplate — letters appear above the jack hole and numbers below. On some lower-end 1960s solidbody Combo models, the serial was stamped on the bridge plate instead. Pre-1961 instruments may have the serial on the jackplate, bridge, or other hardware depending on the model and era."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I read a Rickenbacker serial number from 1961 to 1986?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rickenbackers from 1961 to 1986 use a two-letter code followed by a production number. The first letter is the year: A=1961, B=1962, C=1963 through Z=1986. The second letter is the month: A=January, B=February through L=December. For example, GD1234 decodes as April 1967, production number 1234."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I read a Rickenbacker serial number from 1987 to 1998?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From 1987 to 1996, the letter and digit swap roles: the first character is a letter indicating the month (A=January through L=December) and the second is a digit indicating the year (0=1987 through 9=1996). From 1997 to 1998, a new month-letter set was used: M=January, N=February, P=March (O is skipped), Q=April, R=May, S=June, T=July, U=August, V=September, W=October, X=November, Y=December, with 0=1997 and 1=1998."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a Rickenbacker serial number starting with two digits mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rickenbackers made from 1999 to the present use a year-plus-week format. The first two digits are the year (99=1999, 00=2000, and so on) and the next two digits are the week of production (01 through 52). For example, 2108001 decodes as Week 8 of 2021."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does XX at the start of a Rickenbacker serial number mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Rickenbacker serial beginning with XX identifies a replacement output jackplate sold by the factory as a service part. The XX prefix was used to prevent counterfeit instruments from using authentic-looking hardware. These plates have no production date significance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I date a Rickenbacker guitar without a serial number?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can narrow down the production era using hardware and construction details. Key markers include: pickup type (horseshoe pre-1957, toaster 1957–1974, Hi-Gain 1968–present), knob style (gold cooker/TV knobs on hollowbodies pre-1964, silver-top knobs 1964–2020), tuner brand (Kluson Deluxe 1954–1982, Grover Rotomatic on 360s from 1971, Schaller from 1985), pickguard color (gold Lucite pre-1964, white plastic 1964 onward), body binding (top and back binding pre-1964, checkerboard back binding only from mid-1964 onward), and triangle inlay material on Deluxe models."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a toaster pickup on a Rickenbacker?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Rickenbacker toaster pickup is a chrome-covered single-coil pickup named for its resemblance to a bread toaster. Introduced in 1957, it produces the clear, jangly tone most associated with the Rickenbacker sound. Toasters were standard equipment on all models from 1957 until gradually replaced by Hi-Gain pickups between 1969 and 1974."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the R tailpiece on a Rickenbacker and when was it introduced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The R tailpiece is Rickenbacker's iconic string anchor hardware, shaped like a stylized letter R. It debuted in October 1964 on the New Style 360/12. Early examples through mid-to-late 1966 are cast brass with hand-cut string slots; all later examples use a Zamak zinc alloy casting. The brass version is extremely durable. Some later zinc versions — particularly powder-coated black examples from the BH/BT era — have a higher rate of failure under sustained string tension."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When did Rickenbacker switch from Kluson to Schaller tuners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kluson ceased production in late 1981 after the death of John Kluson. By mid-1982 Rickenbacker had transitioned to Grover Slimline tuners on guitars, then Grover Rotomatics in late 1983 while Schaller tooled up. Schaller Mini M6 tuners became standard on all non-reissue six-string guitars in early 1985, paired with the new paddle headstock designed to fit them. Black hardware guitars continued with black Grover Rotomatics until Schaller released a black M6 variant around early 1996."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I tell if a Rickenbacker is an OS or NS body?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OS (Old Style) Rickenbackers have square body edges, top and back binding on both sides, and were made from 1958 through mid-1964. NS (New Style) bodies introduced in mid-1964 have rounded top edges, no top binding, and checkerboard back binding only. If the top edge of the guitar's body is sharply squared and has binding on both the top and back, it is OS. If the top edge is rounded and there is binding only on the back, it is NS."
+          }
+        }
+      ]
+    }
+  ]
+}

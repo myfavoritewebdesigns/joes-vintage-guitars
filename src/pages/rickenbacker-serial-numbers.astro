@@ -1,0 +1,544 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE_URL } from "../config/site";
+// Cohesive .jvg-rick design system + decoder/TOC machinery ported verbatim from live.
+import rsnCss from "../../reference/rsn-content.css?raw";
+// Page-specific JSON-LD (TechArticle + FAQPage + Thing) injected verbatim from live.
+import rsnPageJsonLd from "../../reference/rsn-jsonld-page.json?raw";
+
+const IMG = "/images/rickenbacker-serial";
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+    { "@type": "ListItem", position: 2, name: "Rickenbacker Serial Numbers", item: `${SITE_URL}/rickenbacker-serial-numbers/` },
+  ],
+};
+---
+
+<Layout
+  title="Rickenbacker Serial Number Decoder + Dating Guide"
+  description="Decode any Rickenbacker serial number from 1954 to today. Full era guide, interactive decoder tool, and advanced dating by pickups, tuners, knobs, and body specs."
+  canonical="/rickenbacker-serial-numbers/"
+  ogImage={`${SITE_URL}/wp-content/uploads/2026/04/1960s-rickenbacker-360-2-scaled.jpg`}
+  ogType="article"
+  publishedTime="2026-04-02T21:17:20+00:00"
+  structuredData={[breadcrumbSchema]}
+>
+  <!-- Page-specific structured data (TechArticle + FAQPage), verbatim from live -->
+  <script type="application/ld+json" slot="head" is:inline set:html={rsnPageJsonLd} />
+
+  <!-- Title band: rust-dark hero the absolute site Header sits over, centered H1, wave separator -->
+  <section class="rsn-titlebar" aria-label="Page title">
+    <h1>Rickenbacker Serial Numbers</h1>
+    <svg class="rsn-wave" viewBox="0 0 1920 72" preserveAspectRatio="none" aria-hidden="true"><path d="M0 35.6 V0 H1920 V35.5 c-19.2 0 -38.4 -2 -73.3 -7 -412.8 -55 -841.6 -73.1 -1261.3 -53.1 -190.9 9.1 -389.4 26.8 -578.7 51.5 -3.5 .4 -6.7 .8 -6.7 .8 Z" fill="#ffffff"></path></svg>
+  </section>
+
+  <div class="jvg-outer">
+    <nav class="jvg-toc-sidebar" id="jvg-toc-sidebar" aria-label="Table of contents">
+      <div class="jvg-toc-head">Contents</div>
+      <ul id="jvg-toc-list-desk"></ul>
+    </nav>
+
+    <div class="jvg-toc-mobile" id="jvg-toc-mobile">
+      <div class="jvg-toc-mobile-inner">
+        <button class="jvg-toc-btn" id="jvg-toc-btn" aria-expanded="false" aria-controls="jvg-toc-panel" onclick="jvgTocToggle()">
+          Contents
+          <svg viewBox="0 0 12 12" aria-hidden="true"><polyline points="1,3 6,9 11,3"></polyline></svg>
+        </button>
+        <div class="jvg-toc-panel" id="jvg-toc-panel" hidden>
+          <ul id="jvg-toc-list-mob"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="jvg-rick">
+      <div class="jvg-cta-bar">
+        <a href="/sell-my-rickenbacker-guitar/" class="jvg-cta-primary">Sell My Rickenbacker</a>
+        <a href="/free-appraisal/" class="jvg-cta-secondary">Free Guitar Appraisal</a>
+      </div>
+
+      <h2>Rickenbacker Serial Numbers</h2>
+
+      <h3>Quick Decoder Tool</h3>
+      <p>Enter a serial number exactly as it appears on the jackplate (letters and numbers only, no spaces). The tool will identify the era and decode the production date.</p>
+      <div class="decoder-wrap">
+        <label for="jvg-sn-input">Enter Serial Number</label>
+        <div class="decoder-row">
+          <input class="decoder-input" id="jvg-sn-input" type="text" maxlength="16" placeholder="e.g. GD1234 or 2108001" autocomplete="off" spellcheck="false" />
+          <button class="decoder-btn" onclick="jvgDecode()">Decode</button>
+        </div>
+        <div class="decoder-result" id="jvg-result">
+          <div class="result-date" id="jvg-result-date"></div>
+          <div class="result-detail" id="jvg-result-detail"></div>
+        </div>
+      </div>
+
+      <div class="intro-banner">
+        <p>Rickenbacker used several distinct serial number systems across nine decades of production. This guide covers every era — from the earliest 1950s Combos through the current year+week format — plus a comprehensive spec-dating section to help you pin down a guitar when the serial number alone isn&rsquo;t enough. Once you know what you have, <a href="/free-appraisal/">get a free appraisal from Joe</a> to find out what it&rsquo;s worth.</p>
+      </div>
+
+      <figure class="jvg-figure">
+        <img loading="lazy" decoding="async" width="2560" height="1707" alt="1960s Rickenbacker 360 in Mapleglo natural finish" src={`${IMG}/1960s-rickenbacker-360-2-scaled.jpg`} />
+        <figcaption>A 1960s Rickenbacker 360 in Mapleglo — the natural finish that shows off the instrument&rsquo;s clean lines and distinctive body shape.</figcaption>
+      </figure>
+
+      <hr class="section-divider" />
+
+      <h2>Era Guide: Pre-1961 (Model-Specific Numbers)</h2>
+      <p>Before November 1960, Rickenbacker used several separate serial schemes depending on the type of guitar. None of these are decodable by the tool above — they require pattern-matching against the formats below. Expect exceptions throughout this entire era.</p>
+
+      <h3>Solidbody Combo Guitars — 1954 to Late 1958</h3>
+      <div class="era-badge">1954 – 1958</div>
+      <figure class="jvg-figure jvg-figure-half">
+        <img loading="lazy" decoding="async" width="1600" height="1066" alt="Rickenbacker serial number stamped on the bridge of a 1950s solidbody Combo guitar" src={`${IMG}/rickenbacker-serial-number-on-bridge.jpg`} />
+        <figcaption>Serial number stamped on the bridge of a 1960s Rickenbacker Combo — lower-end solid body models continued using the bridge stamp even after the jackplate became standard on higher-end guitars.</figcaption>
+      </figure>
+      <p>The Combo 600 and 800 introduced Rickenbacker&rsquo;s first modern serial format, later extended to the 400, 450, and 650/850. The first one to three characters identify the model and type, a single year digit follows, and the remaining digits are a production sequence.</p>
+      <div class="table-scroll">
+        <table class="mobile-cards">
+          <thead><tr><th>Format</th><th>Model</th><th>Example</th><th>Decodes As</th></tr></thead>
+          <tbody>
+            <tr><td>4C[Y]###</td><td>Combo 400</td><td>4C6123</td><td>1956 Combo 400, seq. 123</td></tr>
+            <tr><td>4C[Y]####A</td><td>Combo 450</td><td>4C7234A</td><td>1957 Combo 450, seq. 234</td></tr>
+            <tr><td>6C[Y]###</td><td>Combo 600</td><td>6C5456</td><td>1955 Combo 600, seq. 456</td></tr>
+            <tr><td>8C[Y]###</td><td>Combo 800</td><td>8C6789</td><td>1956 Combo 800, seq. 789</td></tr>
+            <tr><td>85C[Y]###</td><td>Combo 850</td><td>85C7001</td><td>1957 Combo 850, seq. 001</td></tr>
+            <tr><td>65C[Y]###</td><td>Combo 650</td><td>65C7123</td><td>1957 Combo 650, seq. 123</td></tr>
+            <tr><td>C####</td><td>650 / dual-toaster 850</td><td>C1234</td><td>No date info — special cases only</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout"><p><strong>Year digit key:</strong> The single digit after the type letter codes directly to the year — <em>4 = 1954, 5 = 1955, 6 = 1956, 7 = 1957, 8 = 1958.</em> This year information disappears at some point in late 1958, after which the serial simply reads as &ldquo;4C&rdquo; or &ldquo;85C&rdquo; followed by a production number with no date embedded.</p></div>
+
+      <h3>Hollowbody Capri and F-Series — 1958 to October 1960</h3>
+      <div class="era-badge">1958 – 1960</div>
+      <p>The full-scale Capris (models 330–375) and F-series launched in 1958 using a different scheme. The first character is the pickup count (2 or 3); the second is a tailpiece/options code. No date information is embedded.</p>
+      <div class="table-scroll">
+        <table class="mobile-cards">
+          <thead><tr><th>Format</th><th>Pickup Count</th><th>Tailpiece Code</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>2T###</td><td>2</td><td>T = Trapeze</td><td>Standard non-vibrato models</td></tr>
+            <tr><td>2V###</td><td>2</td><td>V = Vibrola / Accent</td><td>Vibrato-equipped models</td></tr>
+            <tr><td>3T###</td><td>3</td><td>T = Trapeze</td><td>Three-pickup standard</td></tr>
+            <tr><td>3V###</td><td>3</td><td>V = Vibrola / Accent</td><td>Three-pickup vibrato</td></tr>
+            <tr><td>2R###</td><td>2</td><td>R = Rick-O-Sound stereo</td><td>Deluxe models only, from June 1960</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Short-scale Capris (models 310–325) initially used the solidbody &ldquo;V###&rdquo; short-scale format in 1958, then switched to the pickup/tailpiece format in 1959. Basses used <strong class="mono">B[Y]###</strong> with a year digit, which also disappeared in late 1958–1959.</p>
+
+      <h3>The JK / JL Transition — November–December 1960</h3>
+      <div class="era-badge">Nov–Dec 1960</div>
+      <figure class="jvg-figure">
+        <img loading="lazy" decoding="async" width="800" height="533" alt="Serial number stamped on the headstock of a Rickenbacker Frying Pan lap steel guitar" src={`${IMG}/rickenbacker-fry-pan-serial-number.jpg`} />
+        <figcaption>Serial number stamped directly on the headstock of a Rickenbacker Frying Pan — the earliest Rickenbacker serial location.</figcaption>
+      </figure>
+      <p>In November 1960, Rickenbacker briefly previewed the system that would become permanent. Serials from this two-month window begin with <strong>JK</strong> (November 1960) or <strong>JL</strong> (December 1960), followed by a production number. J = the 10th letter = year 1960. K = 11th letter = November, L = 12th = December. If your serial starts with JK or JL and is followed only by digits, it&rsquo;s from this narrow window.</p>
+      <hr class="section-divider" />
+
+      <h2>Era Guide: 1961–1986 (Two-Letter Code)</h2>
+      <div class="era-badge">1961 – 1986</div>
+      <p>This is the most famous and longest-running Rickenbacker serial system. The first two characters — both letters — stamp a precise year and month on every instrument. Letters appear above the output jack hole on the jackplate; digits appear below.</p>
+      <figure class="jvg-figure">
+        <img loading="lazy" decoding="async" width="1600" height="1066" alt="Rickenbacker output jack serial number showing the two-letter year and month code used from 1961 to 1986" src={`${IMG}/rickenbacker-output-jack-serial-number-two-letter-code.jpg`} />
+        <figcaption>The two-letter code on a Rickenbacker output jackplate — the first letter gives the year, the second the month of production.</figcaption>
+      </figure>
+      <p>From 1961 to 1965, production numbers ran 01–999 (resetting to 01 when they hit 999). From 1966 onward, the range expanded to 001–9999 and never needed to reset in a single year.</p>
+      <div class="callout"><p><strong>Bridge-stamped serials on 1960s Combo models:</strong> While the output jackplate is the standard serial location from 1961 onward, some lower-end solidbody models — particularly the Combo series — continued to have their serials stamped directly on the bridge plate rather than the jackplate well into the 1960s. These bridge-stamped serials follow the same two-letter year/month coding system and decode identically. If you find no serial on the jackplate of a 1960s solidbody Rick, always check the bridge before assuming it&rsquo;s missing.</p></div>
+
+      <h4>First Letter = Year of Production</h4>
+      <div class="letter-grid">
+        <div class="lg-cell"><span class="lg-letter">A</span><span class="lg-value">1961</span></div>
+        <div class="lg-cell"><span class="lg-letter">B</span><span class="lg-value">1962</span></div>
+        <div class="lg-cell"><span class="lg-letter">C</span><span class="lg-value">1963</span></div>
+        <div class="lg-cell"><span class="lg-letter">D</span><span class="lg-value">1964</span></div>
+        <div class="lg-cell"><span class="lg-letter">E</span><span class="lg-value">1965</span></div>
+        <div class="lg-cell"><span class="lg-letter">F</span><span class="lg-value">1966</span></div>
+        <div class="lg-cell"><span class="lg-letter">G</span><span class="lg-value">1967</span></div>
+        <div class="lg-cell"><span class="lg-letter">H</span><span class="lg-value">1968</span></div>
+        <div class="lg-cell"><span class="lg-letter">I</span><span class="lg-value">1969</span></div>
+        <div class="lg-cell"><span class="lg-letter">J</span><span class="lg-value">1970</span></div>
+        <div class="lg-cell"><span class="lg-letter">K</span><span class="lg-value">1971</span></div>
+        <div class="lg-cell"><span class="lg-letter">L</span><span class="lg-value">1972</span></div>
+        <div class="lg-cell"><span class="lg-letter">M</span><span class="lg-value">1973</span></div>
+        <div class="lg-cell"><span class="lg-letter">N</span><span class="lg-value">1974</span></div>
+        <div class="lg-cell"><span class="lg-letter">O</span><span class="lg-value">1975</span></div>
+        <div class="lg-cell"><span class="lg-letter">P</span><span class="lg-value">1976</span></div>
+        <div class="lg-cell"><span class="lg-letter">Q</span><span class="lg-value">1977</span></div>
+        <div class="lg-cell"><span class="lg-letter">R</span><span class="lg-value">1978</span></div>
+        <div class="lg-cell"><span class="lg-letter">S</span><span class="lg-value">1979</span></div>
+        <div class="lg-cell"><span class="lg-letter">T</span><span class="lg-value">1980</span></div>
+        <div class="lg-cell"><span class="lg-letter">U</span><span class="lg-value">1981</span></div>
+        <div class="lg-cell"><span class="lg-letter">V</span><span class="lg-value">1982</span></div>
+        <div class="lg-cell"><span class="lg-letter">W</span><span class="lg-value">1983</span></div>
+        <div class="lg-cell"><span class="lg-letter">X</span><span class="lg-value">1984</span></div>
+        <div class="lg-cell"><span class="lg-letter">Y</span><span class="lg-value">1985</span></div>
+        <div class="lg-cell"><span class="lg-letter">Z</span><span class="lg-value">1986</span></div>
+      </div>
+
+      <h4>Second Letter = Month of Production</h4>
+      <div class="letter-grid" style="grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));">
+        <div class="lg-cell"><span class="lg-letter">A</span><span class="lg-value">January</span></div>
+        <div class="lg-cell"><span class="lg-letter">B</span><span class="lg-value">February</span></div>
+        <div class="lg-cell"><span class="lg-letter">C</span><span class="lg-value">March</span></div>
+        <div class="lg-cell"><span class="lg-letter">D</span><span class="lg-value">April</span></div>
+        <div class="lg-cell"><span class="lg-letter">E</span><span class="lg-value">May</span></div>
+        <div class="lg-cell"><span class="lg-letter">F</span><span class="lg-value">June</span></div>
+        <div class="lg-cell"><span class="lg-letter">G</span><span class="lg-value">July</span></div>
+        <div class="lg-cell"><span class="lg-letter">H</span><span class="lg-value">August</span></div>
+        <div class="lg-cell"><span class="lg-letter">I</span><span class="lg-value">September</span></div>
+        <div class="lg-cell"><span class="lg-letter">J</span><span class="lg-value">October</span></div>
+        <div class="lg-cell"><span class="lg-letter">K</span><span class="lg-value">November</span></div>
+        <div class="lg-cell"><span class="lg-letter">L</span><span class="lg-value">December</span></div>
+      </div>
+      <p><strong>Example:</strong> A serial reading <em>GD1234</em> decodes as: G = 1967, D = April → <strong>April 1967</strong>, production number 1234. This is the system in place for the peak Beatle, Byrds, and Tom Petty eras.</p>
+      <hr class="section-divider" />
+
+      <h2>Era Guide: 1987–1998 (Letter + Digit)</h2>
+      <div class="era-badge">1987 – 1998</div>
+      <p>With Z assigned to 1986 and the full alphabet exhausted, Rickenbacker redesigned the system. The letter and digit swap roles compared to the 1961–1986 scheme: the <em>letter</em> now indicates the month and the <em>digit</em> indicates the year. Two separate sub-eras use this structure, distinguished by the month letters used.</p>
+
+      <h3>1987–1996: Month Letters A–L</h3>
+      <p>The same A–L = January–December month mapping as the second-position letters above, now moved to first position. The digit following indicates the year from a base of 1987.</p>
+      <div class="spec-grid">
+        <div class="sg-cell"><div class="sg-label">Month letter</div><div class="sg-value">A = Jan · B = Feb · C = Mar · D = Apr · E = May · F = Jun · G = Jul · H = Aug · I = Sep · J = Oct · K = Nov · L = Dec</div></div>
+        <div class="sg-cell"><div class="sg-label">Year digit</div><div class="sg-value">0 = 1987 · 1 = 1988 · 2 = 1989 · 3 = 1990 · 4 = 1991 · 5 = 1992 · 6 = 1993 · 7 = 1994 · 8 = 1995 · 9 = 1996</div></div>
+      </div>
+      <p><strong>Example:</strong> <em>A0001</em> → January 1987. <em>L9001</em> → December 1996.</p>
+
+      <h3>1997–1998: Month Letters M–Y (skipping O)</h3>
+      <p>A new set of month letters was introduced to avoid confusion with the A–L block above. The letter O is skipped to avoid confusion with the digit zero. The year digit resets: 0 = 1997, 1 = 1998. This sub-era lasted only two years before the whole format was replaced.</p>
+      <div class="spec-grid">
+        <div class="sg-cell"><div class="sg-label">Month letter</div><div class="sg-value">M = Jan · N = Feb · P = Mar · Q = Apr · R = May · S = Jun · T = Jul · U = Aug · V = Sep · W = Oct · X = Nov · Y = Dec</div></div>
+        <div class="sg-cell"><div class="sg-label">Year digit</div><div class="sg-value">0 = 1997 · 1 = 1998</div></div>
+      </div>
+      <p><strong>Example:</strong> <em>M0001</em> → January 1997. <em>Y1001</em> → December 1998.</p>
+      <hr class="section-divider" />
+
+      <h2>Era Guide: 1999–Present (Year + Week)</h2>
+      <div class="era-badge">1999 – Present</div>
+      <p>The current system is the most transparent Rickenbacker has ever used and should remain valid through 2098. The serial number begins with the two-digit year, followed immediately by the two-digit production week, then a production sequence number.</p>
+      <div class="callout">
+        <p><strong>Format: YY + WW + [sequence]</strong><br />The first two digits are the year (99 = 1999, 00 = 2000, 01 = 2001 … 26 = 2026). The next two digits are the week of the year, running 01 through 52 (occasionally 53). Any remaining digits are the production sequence for that week.</p>
+        <p><strong>Examples:</strong> <em>9901001</em> → Week 1 of 1999. <em>2108001</em> → Week 8 of 2021. <em>2635001</em> → Week 35 of 2026.</p>
+      </div>
+      <hr class="section-divider" />
+
+      <h2>Exceptions and Edge Cases</h2>
+      <h3>XX Replacement Jackplates</h3>
+      <p>During the 1980s, Rickenbacker sold replacement output jackplates as service parts. To prevent these from being used on counterfeit instruments, all replacement plates were stamped with a serial number beginning with <strong>XX</strong>. Any serial starting with XX has no dating significance — it identifies only that the plate is a replacement part, not an original production jackplate.</p>
+      <h3>1965 Headstock Sticker Serials</h3>
+      <p>A small number of guitars produced in 1965 carried a serial number sticker on the back of the headstock beneath the clear coat, in addition to or instead of the jackplate serial. These guitars used their own distinct numbering scheme separate from the standard 1961–1986 system.</p>
+      <h3>Vibrato-Equipped 425 (1965–1967)</h3>
+      <p>The vibrato-equipped Combo 425 built between 1965 and 1967 used a serial number that was stamped directly onto the vibrato housing — not the jackplate. This number follows its own scheme and is unrelated to the standard two-letter format in use at the time.</p>
+      <h3>Pre-1961 Numbers Without Date Information</h3>
+      <p>As noted above, serial numbers from late 1958 through October 1960 — on Combo, Capri, and bass instruments — provide model or configuration information but no reliable date. Dating these instruments requires the spec-based approach in Part 2 below.</p>
+      <div class="callout callout-warn"><p><strong>A note on accuracy:</strong> The serial number date reflects when the jackplate was <em>stamped</em>, which is typically close to — but not always identical to — the completion date of the instrument. Factory inventory, back-order situations, and custom orders can place a guitar&rsquo;s actual finish date days, weeks, or in rare cases months after the plate date. The serial establishes a production window; the specs below can help narrow it further.</p></div>
+      <hr class="section-divider" />
+
+      <h2>Advanced Dating by Specs and Features</h2>
+      <div class="intro-banner"><p>When the serial number is missing, illegible, or falls in a pre-1961 gap, the guitar&rsquo;s hardware, electronics, and construction features often bracket the date more precisely than any table. Every section below lists the key changes in chronological order — work through multiple sections and triangulate. The more details that agree, the more confident your date estimate.</p></div>
+
+      <h2>Pickups</h2>
+      <p>Rickenbacker&rsquo;s pickup evolution is one of the most reliable dating tools on the instrument. The three main production families — Horseshoe, Toaster, and Hi-Gain — overlap at their transitions but follow a clear overall arc.</p>
+      <h3>Horseshoe Pickup — 1932 to 1971</h3>
+      <div class="timeline">
+        <div class="tl-item"><span class="tl-date">1932–1943</span><span class="tl-desc"><strong>Wide-magnet version:</strong> 1½&Prime; wide horseshoe magnet wraps over the strings. Found on all early lap steels and pre-war electric Spanish models.</span></div>
+        <div class="tl-item"><span class="tl-date">1946–1971</span><span class="tl-desc"><strong>Narrow-magnet version:</strong> Magnet narrows to 1¼&Prime;. Used on post-war lap steels and early Spanish models. Discontinued on most guitar models in 1957 when replaced by the Toaster, but remained on some lap steels until 1971.</span></div>
+        <div class="tl-item"><span class="tl-date">1957–1969</span><span class="tl-desc"><strong>Transition era:</strong> Combo 600 and 800 continued with horseshoe variants through 1959 (single horseshoe treble + bar neck on the 800 from 1958). The 4000 series basses also used horseshoes in the bridge position until late 1968.</span></div>
+      </div>
+      <h3>Toaster Pickup — 1957 to 1974</h3>
+      <p>The Toaster is the defining Rickenbacker sound — clear, jangly, and chimey. Its name comes from its visual resemblance to the top of a bread toaster. It appeared first on the Capri hollowbodies and spread across the line.</p>
+      <figure class="jvg-figure">
+        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Rickenbacker toaster pickup — the chrome covered single-coil that defined the Rickenbacker sound from 1957 to 1974" src={`${IMG}/rickenbacker-toaster-pickup-scaled.jpg`} />
+        <figcaption>The Rickenbacker toaster pickup — named for its resemblance to the top of a bread toaster. Present on all models 1957–1974, with some overlap during the Hi-Gain transition.</figcaption>
+      </figure>
+      <div class="timeline">
+        <div class="tl-item"><span class="tl-date">1957</span><span class="tl-desc">Introduced on new Capri and Combo models. Characterized by chrome covers, no adjustable polepieces.</span></div>
+        <div class="tl-item"><span class="tl-date">~1963</span><span class="tl-desc">Molding marks (&ldquo;dimples&rdquo;) begin appearing on the covers — a very early version present on 1963 and earlier examples. This detail is replicated on modern reissue pickups from 2003 onward.</span></div>
+        <div class="tl-item"><span class="tl-date">1970–1974</span><span class="tl-desc">Gradual phase-out as Hi-Gain pickups take over. The 420/450/460 series held out the longest, with toasters present on some examples through early 1974. Finding a toaster on a post-1970 guitar indicates either an early-production example for that model year or a late holdout model.</span></div>
+      </div>
+      <h3>Hi-Gain Pickup — 1968 to Present</h3>
+      <p>The Hi-Gain uses a rubberized magnet mounted beneath the pickup body rather than pole magnets — a fundamentally different topology from both the Horseshoe and Toaster. Dating Hi-Gain versions is highly precise once you know what to look for.</p>
+      <div class="timeline">
+        <div class="tl-item"><span class="tl-date">Late 1968 (bass only)</span><span class="tl-desc"><strong>First-gen bass Hi-Gain:</strong> &ldquo;Fiberboard&rdquo; bobbin (G-10 mil-spec glass-filled epoxy PCB material) — may be unpainted (pale green) or painted black. Slotted polepieces, not designed to be adjusted. Bridge position of 4000-series basses only. Also called &ldquo;green bobbins.&rdquo;</span></div>
+        <div class="tl-item"><span class="tl-date">Early 1969 (guitars)</span><span class="tl-desc"><strong>First-gen guitar Hi-Gain:</strong> Same painted fiberboard bobbin, but threaded polepieces (not slotted) to eliminate adjustment damage risk. First appears on the 381. Often called &ldquo;transitional&rdquo; Hi-Gains. These are actually <em>less</em> hot than the toasters they replaced.</span></div>
+        <div class="tl-item"><span class="tl-date">1970–1974</span><span class="tl-desc">General transition of all models from Toaster to first-gen Hi-Gain. <strong>Not a clean cutover</strong> — many 1970–1972 guitars show mixed examples of toasters and first-gen Hi-Gains. The 480 series (1972) launched Hi-Gain-only from the start.</span></div>
+        <div class="tl-item"><span class="tl-date">March–May 1973</span><span class="tl-desc"><strong>&ldquo;Button top&rdquo; Hi-Gain introduced:</strong> Basses first (March/April), guitars follow (April/May). Painted fiberboard bobbin, but threaded polepieces replaced by painted black button-top drive screws. Wound hotter than first-gen. This is the Hi-Gain sound most people think of. A neck-position Hi-Gain also appears on the 4001 bass from September 1973.</span></div>
+        <div class="tl-item"><span class="tl-date">~Late 1985–Early 1986</span><span class="tl-desc"><strong>Unpainted bobbin version:</strong> Both bobbin and button-top polepieces change to naturally black material, eliminating the need to paint them. The &ldquo;fiberboard&rdquo; texture pattern is more visible. Exact transition date is difficult to pin down precisely.</span></div>
+        <div class="tl-item"><span class="tl-date">August 1991</span><span class="tl-desc"><strong>Dual-use plastic bobbin:</strong> Fiberboard replaced by a molded black plastic bobbin with raised &ldquo;toaster&rdquo; slots — a design shared with the simultaneously updated toaster pickup cases. Polepieces remain unpainted button tops.</span></div>
+        <div class="tl-item"><span class="tl-date">March 2003</span><span class="tl-desc"><strong>Dimples added:</strong> Dimples matching the early toaster molding marks appear on Hi-Gain covers to complement the dimpled toasters introduced for the new C-series vintage reissues.</span></div>
+        <div class="tl-item"><span class="tl-date">May 2005 – Present</span><span class="tl-desc"><strong>Adjustable button tops:</strong> For the first time in the Hi-Gain&rsquo;s history, the button-top polepieces become fully adjustable. This remains the current version.</span></div>
+      </div>
+      <div class="callout callout-warn"><p><strong>Mounting note:</strong> All top-mounted guitar Hi-Gains of every generation sit on foam pads, not the rubber grommets used by Toaster pickups. Finding a Hi-Gain on grommets is a reliable indicator that the pickup has been replaced or the mounting has been modified.</p></div>
+      <div class="table-scroll">
+        <table class="mobile-cards">
+          <thead><tr><th>Variant</th><th>Approx. Dates</th><th>Bobbin</th><th>Polepieces</th></tr></thead>
+          <tbody>
+            <tr><td>Bass first-gen</td><td>Late 1968–Apr 1973</td><td>Fiberboard, painted or unpainted</td><td>Slotted (do not adjust)</td></tr>
+            <tr><td>Guitar first-gen (&ldquo;transitional&rdquo;)</td><td>Early 1969–Apr/May 1973</td><td>Painted fiberboard</td><td>Threaded rod (no heads)</td></tr>
+            <tr><td>Button top</td><td>Mar/May 1973–1986ish</td><td>Painted fiberboard</td><td>Painted black button tops</td></tr>
+            <tr><td>Unpainted button top</td><td>1986ish–Aug 1991</td><td>Unpainted fiberboard</td><td>Unpainted black button tops</td></tr>
+            <tr><td>Dual-use plastic, no dimples</td><td>Aug 1991–Mar 2003</td><td>Molded plastic w/ toaster slots</td><td>Unpainted button tops</td></tr>
+            <tr><td>Dual-use plastic, dimpled</td><td>Mar 2003–May 2005</td><td>Dimpled molded plastic</td><td>Unpainted button tops</td></tr>
+            <tr><td>Current (adjustable)</td><td>May 2005–Present</td><td>Dimpled molded plastic</td><td>Adjustable button tops</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <hr class="section-divider" />
+
+      <h2>Control Knobs</h2>
+      <p>Knobs are easy to swap, so always cross-check against other features before relying on knobs alone for dating. That said, original-knob guitars provide some of the clearest visual dating cues available.</p>
+      <div class="timeline">
+        <div class="tl-item"><span class="tl-date">1954–1961</span><span class="tl-desc"><strong>Chrome dome / knurled side:</strong> Chromed steel dome-top knobs with knurled sides, the same style used on period console steel guitars. Found on Combo 600, 800, 650, 850, and first Capri prototypes. Last used on the 1961 4000/4001 basses before the 1963 redesign.</span></div>
+        <div class="tl-item"><span class="tl-date">1956–1963 (solidbodies)</span><span class="tl-desc"><strong>Black &ldquo;vintage&rdquo; KK knob:</strong> Black plastic with skirted base, indicator dot, fluted sides, and white indicator line on a domed top. First appeared on the Combo 400 in 1956. Became the standard solidbody knob through the early 1960s. Returned on V/C Series reissues from 1985. Back on all guitars from approximately 2020 onward due to silver-top discontinuation.</span></div>
+        <div class="tl-item"><span class="tl-date">1958–1963 (hollowbodies)</span><span class="tl-desc"><strong>Rogan &ldquo;cooker&rdquo; / &ldquo;TV&rdquo; knob:</strong> Brown phenolic knobs with diamond-grip texture, large skirt, small notched indicator, and a distinctive gold brushed metal insert. Named for their resemblance to period kitchen appliance knobs. Found on ALL full-scale semi-hollow Capris and F-series guitars from 1958 through 1963. Never appeared on solidbody guitars in standard production.</span></div>
+        <div class="tl-item"><span class="tl-date">1964</span><span class="tl-desc"><strong>Knob unification:</strong> All semi-hollow models switch from gold Rogan cooker knobs (and gold pickguards) to white hardware and the same black vintage knob already used on solidbodies. For most of 1964, the vintage black knob is the only knob on any production Rickenbacker.</span></div>
+        <div class="tl-item"><span class="tl-date">Late 1964</span><span class="tl-desc"><strong>Silver-top knob introduced</strong> with the new &ldquo;New Style&rdquo; round-top 360. Skirted, fluted sides, silver dome top. First examples have <em>no labels</em> on top, white dot on skirt, white indicator dash on top.</span></div>
+        <div class="tl-item"><span class="tl-date">~July 1965</span><span class="tl-desc"><strong>Silver-top knob gains &ldquo;Bass / Treble / Tone / Volume&rdquo; labels.</strong> White skirt dot and white top dash remain.</span></div>
+        <div class="tl-item"><span class="tl-date">Late 1966</span><span class="tl-desc"><strong>Top indicator changes from a white dash to a white dot.</strong> Mixed dash/dot examples appear through 1967. The labeled-silver-dot version runs as the primary knob until approximately 2020.</span></div>
+        <div class="tl-item"><span class="tl-date">~1965–1974</span><span class="tl-desc">Silver-top knobs spread to all non-330-family models. Two-knob guitars (420/425, 900/1000) receive <em>unlabeled</em> silver tops around 1974. By 1974 the vintage black knob has been phased off all standard production.</span></div>
+        <div class="tl-item"><span class="tl-date">~2020–Present</span><span class="tl-desc"><strong>Silver-top knob discontinued</strong> (likely due to COVID supply chain disruptions). Black vintage knob returns to all models, including the 381V69 which should correctly wear silver tops. Current standard.</span></div>
+      </div>
+      <div class="callout"><p><strong>Quick rule of thumb:</strong> <em>Cooker/TV knob → pre-1964 hollowbody. Gold pickguard + cooker knob → 1958–1963. White pickguard + vintage black knob → 1964. Silver-top knob → 1964–2020ish (with labeled version narrowing to mid-1965 onward).</em></p></div>
+      <hr class="section-divider" />
+
+      <h2>Tuning Machines</h2>
+      <p>Rickenbacker&rsquo;s tuner history involves three main suppliers — Grover, Kluson, and Schaller — used at different times on different models. The transitions are model-specific and do not always happen simultaneously across the line.</p>
+      <h3>Grover Sta-Tite — 1956 to 1959/1960</h3>
+      <p>Open-back tuners with cloverleaf buttons — pre-war in design but reliable and affordable. Used on entry-level and some student models: Combo 400 (1956 launch), Combo 450 (1957), and all short-scale Capris (310–325) through most of 1959. Full-scale Capri prototypes briefly had them; production standardized on Klusons by end of 1958. The 450 transitioned to Klusons in early 1959; the short-scale Capris held out until the very last guitars made in 1960.</p>
+      <h3>Kluson Deluxe — 1954 to 1982</h3>
+      <p>The dominant Rickenbacker guitar tuner for nearly three decades. Closed-back, the first of their type when introduced in 1947. Present on Combo 600 and 800 from 1954 onward. White plastic or nickel &ldquo;bean&rdquo; buttons in different periods.</p>
+      <figure class="jvg-figure">
+        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Kluson Deluxe tuners on a Rickenbacker guitar — the standard tuner on most Ricks from 1954 until Kluson closed in 1982" src={`${IMG}/rickenbacker-kluson-tuners-scaled.jpg`} />
+        <figcaption>Kluson Deluxe tuners on a Rickenbacker — closed-back with white bean buttons. The standard fitment on nearly all Rick guitars from 1954 until Kluson ceased production in 1982.</figcaption>
+      </figure>
+      <ul>
+        <li>Kluson 548 (very large footprint) on 4000 bass, 1957–1961</li>
+        <li>Kluson 536 (smaller) on 4000/4001 bass from 1963</li>
+        <li>Standard Kluson Deluxe on all non-Grover guitars 1960–1982</li>
+        <li>Kluson closed entirely in late 1981 after the death of John Kluson, forcing Rickenbacker to find alternatives</li>
+      </ul>
+      <h3>Grover Slimline (Bass) — 1969 to 1974 and 1982 to 1983</h3>
+      <p>Two-piece pressure-fit sealed back tuners with small footprint. Replaced Kluson on all 4000-series basses in May 1969. <em>Flat cloverleaf keys</em> from 1969 to June/July 1972; <em>&ldquo;wavy&rdquo; or S-shaped keys</em> from mid-1972 to July 1974 when Klusons returned. After Kluson&rsquo;s closure, returned to 4001/4003 basses in mid-to-late 1982 until Schaller BM tuners replaced them in August 1983. The &ldquo;wavy Grover&rdquo; on a bass is a reliable indicator for 1972–1974.</p>
+      <h3>Grover Rotomatic (360 Guitar) — September 1971 to Early 1985</h3>
+      <p>Sealed full-size tuners introduced on the 360 six-string in September 1971 as part of the early-1970s 360 upgrades. The Rotomatic&rsquo;s large bushings required a redesigned headstock — giving rise to the wider &ldquo;Gumby&rdquo; headstock on transitional-era 360s. The specific version Rickenbacker used was a two-piece pressure-fit unit, unlike the more common one-piece Rotomatic found on Gibson and other guitars.</p>
+      <ul>
+        <li>Two-piece Rotomatic: September 1971 to early 1984</li>
+        <li>One-piece (standard) Rotomatic: early 1984 onward, when the two-piece version appears to have been discontinued</li>
+        <li>Also fitted to the 481 and the six-string neck of the 362/12 (both from 1974)</li>
+        <li>After Kluson&rsquo;s closure in 1982, all six-string guitars including those previously on Klusons received Grover Slimline guitar tuners (mid-1982)</li>
+        <li>When Slimlines were discontinued (late 1983), all six-string guitars moved to Rotomatics through late 1984</li>
+      </ul>
+      <h3>Schaller M6 / Mini M6 — 1985 to 1996</h3>
+      <p>The new &ldquo;paddle headstock&rdquo; introduced on all non-reissue six-string guitars in late 1984 was designed to accommodate the Schaller M6&rsquo;s bushings (same diameter as the Rotomatic). Schallers replaced Grovers in early 1985. Black hardware/black trim (BH/BT) guitars held onto black Rotomatic tuners until Schaller produced black M6 variants — which arrived in approximately March/April 1996, ending Grover&rsquo;s relationship with Rickenbacker. BH/BT non-reissue six-strings with black Rotomatics date between roughly 1985 and early 1996.</p>
+      <div class="table-scroll">
+        <table class="mobile-cards">
+          <thead><tr><th>Tuner</th><th>Instrument Type</th><th>Dates</th></tr></thead>
+          <tbody>
+            <tr><td>Grover Sta-Tite</td><td>Combo 400, 450; short-scale Capris</td><td>1956–1959/60</td></tr>
+            <tr><td>Kluson Deluxe</td><td>Most guitars</td><td>1954–1982</td></tr>
+            <tr><td>Kluson 548</td><td>4000 bass</td><td>1957–1961</td></tr>
+            <tr><td>Kluson 536</td><td>4001 bass</td><td>1963–1969</td></tr>
+            <tr><td>Grover Slimline (flat key, bass)</td><td>4000/4001 bass</td><td>May 1969–mid 1972</td></tr>
+            <tr><td>Grover Slimline (wavy key, bass)</td><td>4000/4001 bass</td><td>Mid 1972–July 1974</td></tr>
+            <tr><td>Grover Rotomatic (2-piece)</td><td>360 six-string, 481, 362/12 (six-string neck)</td><td>Sep 1971–early 1984</td></tr>
+            <tr><td>Grover Slimline (guitar)</td><td>All six-string guitars (ex-Kluson models)</td><td>Mid 1982–late 1983</td></tr>
+            <tr><td>Grover Rotomatic (1-piece)</td><td>All six-string guitars</td><td>Late 1983–early 1985</td></tr>
+            <tr><td>Schaller Mini M6</td><td>All non-reissue six-string guitars</td><td>Early 1985–present</td></tr>
+            <tr><td>Black Rotomatic</td><td>BH/BT guitars</td><td>1985–early 1996</td></tr>
+            <tr><td>Black Schaller M6</td><td>BH/BT guitars</td><td>Early 1996–present</td></tr>
+            <tr><td>Schaller BM (Kluson-copy)</td><td>4003 bass</td><td>Aug 1983–present</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <hr class="section-divider" />
+
+      <h2>Fingerboard Inlays</h2>
+      <h3>Dot Inlays — Standard Trim</h3>
+      <p>All standard-trim Rickenbackers (330, 340, 420, 450, etc.) use simple dot fingerboard inlays for their entire production run. No changes affect dating.</p>
+      <h3>Triangle Inlays — Deluxe Trim Models</h3>
+      <p>Triangle inlays are the hallmark of Rickenbacker Deluxe models (360, 370, 460, 4001, etc.) and their evolution is a very precise dating tool. The triangle design derives from the Mittenwald School of German lutherie via Roger Rossmeisl.</p>
+      <div class="timeline">
+        <div class="tl-item"><span class="tl-date">1958–1963</span><span class="tl-desc"><strong>Full-width poured pearlescent resin, early:</strong> Clear resin with pearlescent powder poured into routed channels and cured in place. Very early 1958 examples have sharp-pointed triangles that barely reach the fingerboard edge. By late 1958 the points are blunted — and remain so from that point on.</span></div>
+        <div class="tl-item"><span class="tl-date">Mid-1961 to Mid-1962</span><span class="tl-desc"><strong>Crushed pearl (first run):</strong> Crushed mother-of-pearl fragments bound in epoxy, cut from sheets and glued into ⅛&Prime;-deep channels. Found on the &ldquo;New Capri&rdquo; / OS body-style 360s introduced with the new body shape in mid-1961. Other Deluxe models (460, 4001, F-bodies) did not receive crushed pearl at this time. Back to poured resin by the second half of 1962 for reasons unknown.</span></div>
+        <div class="tl-item"><span class="tl-date">Late 1963</span><span class="tl-desc"><strong>Poured resin resumes</strong> on all Deluxe models including the 1963 Capris (meaning George Harrison&rsquo;s famous 360/12 has poured resin inlays, not crushed pearl).</span></div>
+        <div class="tl-item"><span class="tl-date">1964 – 1973</span><span class="tl-desc"><strong>Crushed pearl (main run):</strong> Returns with the &ldquo;New Style&rdquo; round-top 360 in 1964 and by mid-year appears on all Deluxe models. Material believed to have come from a now-protected marine reserve near Okinawa. Runs continuously until the source became unavailable circa 1972–1973.</span></div>
+        <div class="tl-item"><span class="tl-date">March 1973</span><span class="tl-desc"><strong>Full-width poured resin returns</strong> on the 4001, exactly as before. Only lasts approximately six weeks before the design narrows.</span></div>
+        <div class="tl-item"><span class="tl-date">Late April–May 1973</span><span class="tl-desc"><strong>Inset (not full-width) poured resin:</strong> The triangles are now inset from the fingerboard edges rather than running fully across. This reduces the depth of the channel needed and preserves neck stiffness. Backing paint is cream-colored in this early period. Other Deluxe models follow quickly.</span></div>
+        <div class="tl-item"><span class="tl-date">~Late 1973 / Early 1974</span><span class="tl-desc"><strong>Backing paint shifts from cream to light grey.</strong> The color of the resin inlays appears to shift slightly around this time as well — likely related to the backing color change.</span></div>
+        <div class="tl-item"><span class="tl-date">1973–2007</span><span class="tl-desc"><strong>Inset poured pearlescent resin (grey backing):</strong> The long-running standard. Color and pearlescence varied over the run (formula changes noted in 1984 and 1990). V/C-series reissue models and some Signature Limited Editions received full-width poured versions during this era.</span></div>
+        <div class="tl-item"><span class="tl-date">Late January 2008 – Present</span><span class="tl-desc"><strong>Laser-cut full-width pearlescent acrylic:</strong> Grover Jackson (who managed Rickenbacker&rsquo;s shop 1996–1999 and again as a consultant from the late 2000s) introduced laser cutting for inlays. All Deluxe models receive full-width acrylic inlays cut with a laser from ⅛&Prime; pearlescent acrylic sheet. February 2008 4003s briefly got inset acrylic before standardizing on full-width. This remains the current production method.</span></div>
+        <div class="tl-item"><span class="tl-date">2021 – Present</span><span class="tl-desc"><strong>Crushed pearl returns (limited):</strong> 90th Anniversary 480XC and 4005XC bring back crushed pearl inlays for the first time since 1973, followed by the 4005V (2024). Flake size and color differ slightly from the 1960s material but are the closest modern equivalent.</span></div>
+      </div>
+      <hr class="section-divider" />
+
+      <h2>Body Styles, Binding, and Construction</h2>
+      <h3>Thin Hollowbody (Capri) Body Styles</h3>
+      <div class="timeline">
+        <div class="tl-item"><span class="tl-date">1958–1960</span><span class="tl-desc"><strong>Thick &ldquo;OS&rdquo; body (2½&Prime; deep), square edges:</strong> The original Capri body shape. Standard models had no binding or back binding only; Deluxe models (360, 365, etc.) had top and back binding with square edges.</span></div>
+        <div class="tl-item"><span class="tl-date">1961</span><span class="tl-desc"><strong>Thin &ldquo;OS&rdquo; body (1½&Prime; deep), still square edges:</strong> Body depth reduced dramatically. Standard models remained unbound. Deluxe models retained top and back binding with square edges (these are the OS / &ldquo;double-bound&rdquo; guitars).</span></div>
+        <div class="tl-item"><span class="tl-date">June 1964</span><span class="tl-desc"><strong>&ldquo;New Style&rdquo; (NS) body introduced</strong> on Deluxe 360-series: rounded top edges, no top binding, checkered back binding only, bound cat-eye soundholes. This major cosmetic change accompanies the new knobs, white pickguard, and (on non-vibrato models) the R tailpiece. Standard models (330, 340) retained their existing construction with no major body changes at this time.</span></div>
+      </div>
+      <figure class="jvg-figure">
+        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Rickenbacker checkerboard back binding — the hallmark of the New Style NS body introduced in mid-1964" src={`${IMG}/rickenbacker-checklerboard-binding-scaled.jpg`} />
+        <figcaption>Rickenbacker&rsquo;s signature checkerboard back binding — introduced with the New Style body in mid-1964 and a definitive marker of post-1964 Deluxe hollowbodies.</figcaption>
+      </figure>
+      <h3>Soundholes</h3>
+      <ul>
+        <li><strong>1958–1963:</strong> &ldquo;Cat eye&rdquo; or slash f-holes on most Capri models. Some early 310–325 short-scale models had no soundholes at all.</li>
+        <li><strong>1964:</strong> All models standardize on cat-eye f-holes. Standard models (330 etc.) had them bound starting with the NS body; Deluxe models had their f-holes bound from the beginning.</li>
+        <li><strong>1979:</strong> F-holes dropped as standard on short-scale 310/315/325 (available by special order only).</li>
+      </ul>
+      <h3>Pickguards</h3>
+      <ul>
+        <li><strong>1956–1963:</strong> Gold back-painted clear Lucite / acrylic. The gold color comes from the paint on the back of a clear sheet — a hallmark of the TV knob / stove knob era.</li>
+        <li><strong>1964 onward:</strong> Thick solid white plastic. The change from gold to white pickguard coincides precisely with the change from cooker knobs to black vintage knobs on hollowbodies — one of the most reliable single visual dating cues for pre/post-1964 Rickenbacker hollowbodies.</li>
+        <li>Hollowbody models from 1958 onward use a split-level (stepped) pickguard design.</li>
+      </ul>
+      <hr class="section-divider" />
+
+      <h2>Tailpieces</h2>
+      <figure class="jvg-figure">
+        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Rare 1968 Rickenbacker 4005 hollowbody bass in Azureglo — one of the most desirable Rickenbacker basses ever produced" src={`${IMG}/1968-rickenbacker-4005-azureglo-1-scaled.jpg`} />
+        <figcaption>A rare 1968 Rickenbacker 4005 hollowbody bass in Azureglo — the 4005 was the first semi-hollow Rickenbacker bass and one of the brand&rsquo;s most collectible instruments. It features the brass R tailpiece introduced in 1964–1965.</figcaption>
+      </figure>
+      <h3>Trapeze Tailpiece — 1958 to 1965</h3>
+      <p>All Capri and F-series models from their 1958 introduction used a simple trapeze tailpiece (non-vibrato models) or vibrola (vibrato models). The T/V/R coding in the serial number reflects this configuration. The trapeze era ends with the introduction of the R tailpiece in 1964–1965.</p>
+      <h3>Kauffman Vibrola — 1958 to ~1961</h3>
+      <p>The original vibrato unit on 1958–1961 Capri models. Replaced by the Accent vibrato. The &ldquo;V&rdquo; in Capri-era serial numbers originally referred to this unit.</p>
+      <h3>Accent Vibrato — ~1961 onward</h3>
+      <p>Replaced the Kauffman as Rickenbacker&rsquo;s vibrato of choice on Capri and other hollowbody models. The &ldquo;V&rdquo; in the serial number carried over to continue indicating vibrato, now meaning the Accent.</p>
+      <h3>"R" Tailpiece — October 1964 to Present</h3>
+      <p>One of the most iconic pieces of hardware in guitar history — named for the stylized &ldquo;R&rdquo; shape (also described memorably as a &ldquo;baby dinosaur&rdquo;). Introduced on the October 1964 production of New Style 360/12s, then rapidly becoming standard on all non-vibrato semi-hollow models and the 4005 bass.</p>
+      <div class="spec-grid">
+        <div class="sg-cell"><div class="sg-label">Brass tailpiece</div><div class="sg-value">October 1964 to mid-to-late 1966. Chrome-plated cast brass. String slots hand-cut with a chopsaw — all have 12 slots regardless of string count. Mounting screws set approximately 7/8&Prime; on-center. Back surface is rough. Extremely durable; none of the failure issues of later zinc versions.</div></div>
+        <div class="sg-cell"><div class="sg-label">Zamak (zinc alloy) tailpiece</div><div class="sg-value">Mid-to-late 1966 onward. Die-cast Zamak (zinc-aluminum-magnesium-copper alloy). String slots are part of the casting in 4-, 5-, 6-, and 12-string versions. Mounting screws ~11/16&Prime; on-center. Some post-~1979 examples exhibit &ldquo;exploding&rdquo; tailpiece failures, particularly on 12-strings and powder-coated BH/BT versions.</div></div>
+      </div>
+      <div class="callout callout-warn"><p><strong>Distinguishing brass from zinc without removal:</strong> Measure the mounting screw spacing. Brass units: approximately 7/8&Prime; on center. Zinc units: approximately 11/16&Prime; on center. If you can remove the tailpiece, brass backs are rough-textured; zinc backs show smooth round mold marks. All 12 slots on a brass tailpiece are hand-cut and equal; zinc tailpieces have casting-integrated slots in the correct count for the model.</p></div>
+      <hr class="section-divider" />
+
+      <h2>Control Configurations</h2>
+      <p>The number and arrangement of controls changed at a few key moments and provides a useful cross-check for dating, especially on hollowbody models.</p>
+      <div class="table-scroll">
+        <table class="mobile-cards">
+          <thead><tr><th>Configuration</th><th>Models Affected</th><th>Dates</th></tr></thead>
+          <tbody>
+            <tr><td>2 knobs + 1 switch (solidbodies)</td><td>Combo 600, 800 (1 switch = tone/selector)</td><td>1954–1959</td></tr>
+            <tr><td>4 knobs (hollowbodies)</td><td>All Capri / F-series, standard and deluxe</td><td>1958–1962</td></tr>
+            <tr><td>5 knobs (hollowbodies)</td><td>330/340 series from 1963; 360/365 from 1963</td><td>1963–present</td></tr>
+            <tr><td>Rick-O-Sound stereo jack</td><td>Deluxe hollowbodies (360, 370, 460, 4001)</td><td>1960–present (optional/standard varies by model)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <hr class="section-divider" />
+
+      <h2>Finishes</h2>
+      <div class="timeline">
+        <div class="tl-item"><span class="tl-date">1956–1959</span><span class="tl-desc"><strong>Yellow-to-brown sunburst.</strong> The original Rickenbacker sunburst, sometimes called &ldquo;autumnglo&rdquo; before that name was formalized.</span></div>
+        <div class="tl-item"><span class="tl-date">1958–Present</span><span class="tl-desc"><strong>Mapleglo</strong> — natural finish, no tint. Available from 1958 onward.</span></div>
+        <div class="tl-item"><span class="tl-date">1960–Present</span><span class="tl-desc"><strong>Fireglo</strong> — yellow-to-red sunburst. The most iconic Rickenbacker finish. Replaces the earlier yellow-to-brown version.</span></div>
+        <div class="tl-item"><span class="tl-date">1960–1980</span><span class="tl-desc"><strong>Autumnglo</strong> — red-to-brown sunburst. Discontinued approximately 1980.</span></div>
+        <div class="tl-item"><span class="tl-date">1984–~1996</span><span class="tl-desc"><strong>Jetglo (black) with Black Hardware/Black Trim (BH/BT):</strong> All-black hardware era coincides with the paddle headstock introduction and later the Schaller tuner transition.</span></div>
+      </div>
+      <hr class="section-divider" />
+
+      <h2>Headstock Logo and Spelling</h2>
+      <div class="spec-grid">
+        <div class="sg-cell"><div class="sg-label">1934–1949</div><div class="sg-value">&ldquo;Rickenbacher&rdquo; — spelled with an <strong>H</strong> in the &ldquo;bacher&rdquo; portion. Named for Adolph Rickenbacher, the original founder.</div></div>
+        <div class="sg-cell"><div class="sg-label">1950–Present</div><div class="sg-value">&ldquo;Rickenbacker&rdquo; — spelling change to K when F.C. Hall took over. Any guitar spelling the name with an H predates 1950.</div></div>
+      </div>
+      <hr class="section-divider" />
+
+      <h2>Quick-Reference Dating Cheat Sheet</h2>
+      <p>Use this summary table to quickly bracket a guitar&rsquo;s age from a single visible feature. Work through as many rows as possible and look for agreement.</p>
+      <div class="table-scroll">
+        <table class="mobile-cards">
+          <thead><tr><th>What You See</th><th>Likely Date Range</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>Gold Lucite pickguard</td><td>1956–1963</td><td>All hollowbodies. One of the clearest single dating cues.</td></tr>
+            <tr><td>Cooker / TV knobs</td><td>1958–1963</td><td>Hollowbodies only. Never on solidbodies in period.</td></tr>
+            <tr><td>White pickguard + black vintage knobs</td><td>1964</td><td>Very short-lived combination before silver tops appear.</td></tr>
+            <tr><td>Silver-top knob, no labels</td><td>Late 1964–mid 1965</td><td>Round-top 360 era. Very collectible.</td></tr>
+            <tr><td>Silver-top knob, labeled, white top dash</td><td>Mid 1965–late 1966</td><td>Labels appear ~July 1965; dash → dot change ~late 1966.</td></tr>
+            <tr><td>Silver-top knob, labeled, white dot on top</td><td>Late 1966–~2020</td><td>Long-running standard version.</td></tr>
+            <tr><td>Horseshoe pickup on guitar</td><td>1932–1957 (mostly)</td><td>1¼&Prime; magnet = post-war. 1½&Prime; = pre-war.</td></tr>
+            <tr><td>Toaster pickup</td><td>1957–1974</td><td>On post-1970 guitar = early that model year or late holdout.</td></tr>
+            <tr><td>First-gen Hi-Gain (threaded polepieces, no heads)</td><td>Early 1969–1973</td><td>Guitar only. Less hot than later Hi-Gains or Toasters.</td></tr>
+            <tr><td>Button-top Hi-Gain, painted</td><td>1973–~1985</td><td>The classic Hi-Gain sound.</td></tr>
+            <tr><td>Full-width crushed pearl inlays</td><td>1961–62 or 1964–1973</td><td>Or 2021+ (90th anniversary / 4005V limited run).</td></tr>
+            <tr><td>Inset poured pearlescent resin inlays</td><td>1973–2007</td><td>Cream backing = 1973–early 1974. Grey backing = 1974–2007.</td></tr>
+            <tr><td>Full-width laser-cut acrylic inlays</td><td>Jan 2008–present</td><td>Very easy to spot — crisp, precise edges.</td></tr>
+            <tr><td>Grover Sta-Tite (open back, cloverleaf)</td><td>1956–1960</td><td>Combos 400/450; short-scale Capris.</td></tr>
+            <tr><td>Grover Slimline, flat key (bass)</td><td>1969–mid 1972</td><td>Bass only in this first run.</td></tr>
+            <tr><td>Grover Slimline, wavy key (bass)</td><td>Mid 1972–July 1974</td><td>Extremely reliable dating marker for basses.</td></tr>
+            <tr><td>Grover Rotomatic (2-piece back)</td><td>Sep 1971–early 1984</td><td>360 and related. &ldquo;Gumby&rdquo; headstock accompanies.</td></tr>
+            <tr><td>Paddle headstock (six-string)</td><td>Late 1984–present</td><td>Non-reissue only. Designed for Schaller M6 bushing size.</td></tr>
+            <tr><td>R tailpiece, brass</td><td>Oct 1964–mid 1966</td><td>Hand-cut slots (12 per tailpiece regardless of string count). Wider screw spacing.</td></tr>
+            <tr><td>Square body edges (Capri)</td><td>1958–mid 1964</td><td>OS body. Rounded edges = NS body, mid-1964 onward.</td></tr>
+            <tr><td>Checkered back binding only (360 etc.)</td><td>Mid 1964–present</td><td>NS body. Top+back binding on both sides = OS pre-1964.</td></tr>
+            <tr><td>&ldquo;Rickenbacher&rdquo; spelling on headstock</td><td>Pre-1950</td><td>The H spelling definitively pre-dates F.C. Hall&rsquo;s ownership.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout callout-tip"><p><strong>Dating strategy:</strong> Start with the serial number to establish a production month and year (for 1961+). Then run through the spec checklist above. If the specs all agree with the serial date, you have high confidence. If one or two specs suggest a different era, check for replaced parts (knobs and tuners are most commonly swapped). If the serial is missing or pre-1961, use three or more independent spec markers and look for internal agreement. No single spec is infallible — Rickenbacker frequently used old-stock parts, ran overlapping transitions, and made custom or special-order instruments that don&rsquo;t follow the standard timeline.</p></div>
+      <div class="callout" style="text-align:center;">
+        <p><strong>Now that you know what you have — find out what it&rsquo;s worth.</strong></p>
+        <p>Joe has appraised over 10,000 instruments and buys Rickenbackers nationwide. Get a free, no-obligation valuation in under 24 hours.</p>
+        <div class="jvg-cta-bar" style="justify-content:center;">
+          <a href="/free-appraisal/" class="jvg-cta-primary">Free Guitar Appraisal</a>
+          <a href="/sell-my-rickenbacker-guitar/" class="jvg-cta-secondary">Sell My Rickenbacker</a>
+        </div>
+      </div>
+      <hr class="section-divider" />
+
+      <h2>Related Guides</h2>
+      <p>Looking to date or value a different instrument? Joe has published comprehensive serial number and dating guides for every major American brand.</p>
+      <div class="jvg-related-grid">
+        <a href="/how-to-read-gibson-serial-numbers/" class="jvg-related-card"><span class="jvg-related-label">Serial Numbers</span><span class="jvg-related-title">Gibson Serial Number Decoder</span><span class="jvg-related-desc">Free decoder tool + complete dating guide covering every Gibson era from 1902 to present.</span></a>
+        <a href="/fender-guitars-serial-number-guide/" class="jvg-related-card"><span class="jvg-related-label">Serial Numbers</span><span class="jvg-related-title">Fender Serial Number Decoder</span><span class="jvg-related-desc">Date any Fender guitar or bass — Stratocaster, Telecaster, Jazz Bass, and more.</span></a>
+        <a href="/gretsch-serial-number-lookup/" class="jvg-related-card"><span class="jvg-related-label">Serial Numbers</span><span class="jvg-related-title">Gretsch Serial Number Guide</span><span class="jvg-related-desc">Decode Gretsch serials across the Brooklyn, Baldwin, and Booneville eras.</span></a>
+        <a href="/martin-serial-and-model-numbers/" class="jvg-related-card"><span class="jvg-related-label">Serial Numbers</span><span class="jvg-related-title">Martin Serial Number Guide</span><span class="jvg-related-desc">Date any Martin guitar from the 1800s through today using the sequential serial system.</span></a>
+        <a href="/guild-serial-number-lookup/" class="jvg-related-card"><span class="jvg-related-label">Serial Numbers</span><span class="jvg-related-title">Guild Serial Number Lookup</span><span class="jvg-related-desc">How to date a Guild guitar across the Hoboken, Westerly, and Corona eras.</span></a>
+        <a href="https://www.joesvintageguitarsaz.com/post/how-to-identify-the-manufacture-date-of-a-gretsch-guitar/" class="jvg-related-card"><span class="jvg-related-label">Dating Guide</span><span class="jvg-related-title">How to Date a Gretsch Guitar</span><span class="jvg-related-desc">Identify the manufacture date of any Gretsch by serial number and spec changes.</span></a>
+        <a href="https://www.joesvintageguitarsaz.com/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/" class="jvg-related-card"><span class="jvg-related-label">Value Guide</span><span class="jvg-related-title">Is Your Vintage Guitar Valuable?</span><span class="jvg-related-desc">The 7 factors that determine whether a vintage guitar is worth $500 or $50,000.</span></a>
+        <a href="https://www.joesvintageguitarsaz.com/post/blue-book-of-guitar-values-and-vintage-guitar-price-guide/" class="jvg-related-card"><span class="jvg-related-label">Value Guide</span><span class="jvg-related-title">Blue Book of Guitar Values</span><span class="jvg-related-desc">How to use the Blue Book and other price guides — and where they fall short for vintage instruments.</span></a>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<!-- Decoder + mobile-card-table init + TOC builder/toggle (handlers on window.*) -->
+<script src="/scripts/rsn-tool.js" is:inline></script>
+
+<style is:global set:html={rsnCss}></style>
+
+<style>
+  /* Title band (Avada page-title-bar equivalent) — rust-dark, centered H1, wave separator */
+  .rsn-titlebar {
+    position: relative;
+    background: #682412;
+    padding: 190px 20px 0;
+    text-align: center;
+  }
+  .rsn-titlebar h1 {
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 700;
+    font-size: clamp(2rem, 6vw, 60px);
+    line-height: 1.1;
+    margin: 0 0 5vw;
+  }
+  .rsn-wave {
+    display: block;
+    width: 100%;
+    height: 5vw;
+    min-height: 28px;
+  }
+  @media (max-width: 780px) {
+    .rsn-titlebar { padding-top: 110px; }
+  }
+</style>
