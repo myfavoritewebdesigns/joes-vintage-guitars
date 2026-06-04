@@ -1,0 +1,237 @@
+﻿{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://www.joesvintageguitarsaz.com/#place","geo":{"@type":"GeoCoordinates","latitude":"33.41735776080888","longitude":" -111.81037593707954"},"hasMap":"https://www.google.com/maps/search/?api=1&amp;query=33.41735776080888, -111.81037593707954","address":{"@type":"PostalAddress","streetAddress":"47 N Fraser Dr E","addressLocality":"Mesa","addressRegion":"Arizona","postalCode":"85203","addressCountry":"United States"}},{"@type":["MusicStore","Organization"],"@id":"https://www.joesvintageguitarsaz.com/#organization","name":"Joe's Vintage Guitars - We Buy Guitars!","url":"https://www.joesvintageguitarsaz.com","sameAs":["https://www.facebook.com/joesvintageguitars"],"email":"joesvintageguitars94@gmail.com","address":{"@type":"PostalAddress","streetAddress":"47 N Fraser Dr E","addressLocality":"Mesa","addressRegion":"Arizona","postalCode":"85203","addressCountry":"United States"},"logo":{"@type":"ImageObject","@id":"https://www.joesvintageguitarsaz.com/#logo","url":"https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/Logo-Principal.png","contentUrl":"https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/08/Logo-Principal.png","caption":"Joe's Vintage Guitars - We Buy Guitars!","inLanguage":"en-US","width":"864","height":"864"},"priceRange":"$$$","openingHours":["Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 00:00-00:00"],"location":{"@id":"https://www.joesvintageguitarsaz.com/#place"},"image":{"@id":"https://www.joesvintageguitarsaz.com/#logo"},"telephone":"+1-602-900-6635"},{"@type":"WebSite","@id":"https://www.joesvintageguitarsaz.com/#website","url":"https://www.joesvintageguitarsaz.com","name":"Joe's Vintage Guitars - We Buy Guitars!","alternateName":"Joe's Vintage Guitars","publisher":{"@id":"https://www.joesvintageguitarsaz.com/#organization"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1955-gibson-les-paul-custom-ink-stamp-serial-number-scaled.jpg","url":"https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1955-gibson-les-paul-custom-ink-stamp-serial-number-scaled.jpg","width":"2560","height":"1707","caption":"Ink-stamped serial number on the back of the headstock of a 1955 Gibson Les Paul Custom \u2014 the method Gibson used to serialize solid body electric guitars from 1952 through 1960","inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://www.joesvintageguitarsaz.com","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/","name":"Gibson Serial Number Lookup &#8211; Free Decoder Tool + Complete Dating Guide"}}]},{"@type":"WebPage","@id":"https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/#webpage","url":"https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/","name":"Gibson Serial Number Lookup - Free Decoder + Dating Guide","datePublished":"2026-03-12T20:06:33+00:00","dateModified":"2026-05-08T23:44:24+00:00","isPartOf":{"@id":"https://www.joesvintageguitarsaz.com/#website"},"primaryImageOfPage":{"@id":"https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1955-gibson-les-paul-custom-ink-stamp-serial-number-scaled.jpg"},"inLanguage":"en-US","breadcrumb":{"@id":"https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/#breadcrumb"}},{"headline":"Gibson Serial Number Lookup - Free Decoder + Dating Guide","description":"Decode any Gibson serial number free. Plus date your Gibson by era, hardware, knobs, tuners, pot codes, volute, neck construction, cases and more.","@type":"Article","author":{"@type":"Person","name":"Joe Dampt","url":"https://www.joesvintageguitarsaz.com/about-me/"},"datePublished":"2026-03-12T20:06:33+00:00","dateModified":"2026-05-08T23:44:24+00:00","image":{"@type":"ImageObject","url":"https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1955-gibson-les-paul-custom-ink-stamp-serial-number-scaled.jpg"},"worksFor":{"@id":"https://www.joesvintageguitarsaz.com/#organization"},"name":"Gibson Serial Number Lookup - Free Decoder + Dating Guide","mainEntityOfPage":{"@id":"https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/#webpage"}}]}
+
+=====BLOCK=====
+
+{
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://www.joesvintageguitarsaz.com/",
+    "url": "https://www.joesvintageguitarsaz.com/",
+    "sameAs": [
+        "https://www.facebook.com/joesvintageguitars/",
+        "https://www.youtube.com/@joesvintageguitars",
+        "https://reverb.com/shop/joe-s-gear-emporium-4",
+        "https://www.pinterest.com/joesvintageguitars0087/",
+        "https://www.instagram.com/joesvintageguitarsaz/",
+        "https://www.tiktok.com/@joesvintageguitar/",
+        "https://maps.app.goo.gl/QwmHsZGznWUwB9LA9/"
+    ],
+    "logo": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/06/joes-vintage-guitars-logo.jpg",
+    "image": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/om2ob5ra1i1x7wbklaug.jpg",
+    "name": "Joe's Vintage Guitars - We Buy Guitars!",
+    "legalName": "Joeâ€™s Vintage Guitars",
+    "description": "Joe's Vintage Guitars specializes in purchasing and collecting vintage guitars and other stringed instruments. With years of expertise, Joe Dampt offers top cash for renowned brands like Fender and Gibson.",
+    "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 1
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "405",
+        "ratingValue": "5"
+    },
+    "priceRange": "$$$$",
+    "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+    }],
+    "telephone": "+1-602-900-6635",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "47 N Fraser Dr E",
+        "addressLocality": "Mesa",
+        "addressRegion": "AZ",
+        "postalCode": "85203",
+        "addressCountry": "US"
+    },
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-602-900-6635",
+        "contactType": "Customer Support",
+        "availableLanguage": [
+            "English",
+            "Spanish"
+        ]
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "33.417304029490694",
+        "longitude": "-111.81059051571508"
+    },
+    "makesOffer": [
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Buy and Sell Guitars"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Free Guitar Appraisal"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Stringed Instruments Appraisal"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Vintage Guitar Consignment"
+            }
+        }
+    ],
+    "department": [{
+        "@type": "ProfessionalService",
+        "name": "Buy Sell Vintage Guitars",
+        "@id": "https://www.joesvintageguitarsaz.com/",
+        "url": "https://www.joesvintageguitarsaz.com/",
+        "sameAs": [
+            "https://www.facebook.com/joesvintageguitars/",
+            "https://www.youtube.com/@joesvintageguitars",
+            "https://www.instagram.com/joesvintageguitarsaz/",
+            "https://maps.app.goo.gl/6xHcpYV9EdNij5vY8/"
+        ],
+        "image": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/09/njw3skvdov5hr4crdk1e.jpg",
+        "telephone": "+1-602-830-5735",
+        "priceRange": "$$$$",
+        "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+        }],
+        "areaServed": [{
+            "@type": "AdministrativeArea",
+            "name": "United States"
+        },
+        {
+            "@type": "AdministrativeArea",
+            "name": "Canada"
+        }]
+    }]
+}
+
+=====BLOCK=====
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HowTo",
+      "name": "How to Decode a Gibson Guitar Serial Number",
+      "description": "Use this free tool to identify the year your Gibson guitar was made by entering its serial number or Factory Order Number (FON).",
+      "tool": [
+        { "@type": "HowToTool", "name": "Gibson serial number or FON" },
+        { "@type": "HowToTool", "name": "Joe's Vintage Guitars Free Decoder Tool" }
+      ],
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Choose Serial Number or FON", "text": "Determine whether you have a serial number or a Factory Order Number (FON)." },
+        { "@type": "HowToStep", "position": 2, "name": "Enter your number", "text": "Type your Gibson serial number or FON into the decoder field and click Decode Number." },
+        { "@type": "HowToStep", "position": 3, "name": "Identify where the number is located", "text": "Select where your serial number appears: on the interior label, ink-stamped on the headstock, or stamped into the wood." },
+        { "@type": "HowToStep", "position": 4, "name": "Answer any follow-up questions", "text": "For overlapping eras, the tool will ask clarifying questions such as label color or whether a MADE IN USA stamp is present." },
+        { "@type": "HowToStep", "position": 5, "name": "Review your result", "text": "The tool returns the estimated year your Gibson was manufactured based on Gibson's published serialization records." }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What do Gibson serial numbers tell me about my guitar?", "acceptedAnswer": { "@type": "Answer", "text": "Gibson serial numbers can reveal the year of manufacture, the factory location, and the production sequence. For guitars made after 1977, the 8-digit format encodes the specific day of the year it was built." } },
+        { "@type": "Question", "name": "Where is the serial number on a Gibson guitar?", "acceptedAnswer": { "@type": "Answer", "text": "On most Gibson guitars, the serial number is stamped or inked on the back of the headstock. On vintage acoustics and hollow-body electrics, it may appear on an interior paper label visible through the soundhole or f-holes." } },
+        { "@type": "Question", "name": "How do I decode a Gibson Custom Shop serial number?", "acceptedAnswer": { "@type": "Answer", "text": "Gibson Custom Shop serial numbers use a CS prefix followed by the last digit of the production year and a production rank number. Historic Reissue Les Pauls use the first digit to indicate the vintage year being reissued. SG and other reissues use an impressed format where the last digit is the model year code." } },
+        { "@type": "Question", "name": "How do I decode a Gibson Les Paul Classic serial number?", "acceptedAnswer": { "@type": "Answer", "text": "Les Paul Classic guitars made from 1989 to 1999 use the first digit as the last digit of the production year. From 2000 to 2014, the first two digits are the last two digits of the production year. There is no Made in USA stamp on most examples before 2007." } }
+      ]
+    },
+    {
+      "@type": "WebApplication",
+      "name": "Gibson Serial Number & FON Decoder",
+      "description": "Free interactive tool to decode Gibson guitar serial numbers and Factory Order Numbers and identify the year of manufacture.",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+  ]
+}
+
+=====BLOCK=====
+
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.joesvintageguitarsaz.com/about-me/#person",
+  "name": "Joe Dampt",
+  "givenName": "Joe",
+  "familyName": "Dampt",
+  "jobTitle": "Vintage Guitar Expert, Appraiser, and Owner",
+  "description": "Vintage guitar expert and appraiser specializing in Golden Era Gibson electrics and archtops from the 1920s through the 1960s. Over 12 years of professional experience and 10,000+ vintage instruments personally appraised.",
+  "url": "https://www.joesvintageguitarsaz.com/about-me/",
+  "image": "https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/02/about-me-joe-1.jpg",
+  "worksFor": {
+    "@type": "LocalBusiness",
+    "name": "Joe's Vintage Guitars",
+    "url": "https://www.joesvintageguitarsaz.com/",
+    "telephone": "+16029006635",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "47 N Fraser Dr E",
+      "addressLocality": "Mesa",
+      "addressRegion": "AZ",
+      "postalCode": "85203",
+      "addressCountry": "US"
+    }
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Arizona State University",
+    "url": "https://www.asu.edu/"
+  },
+  "knowsAbout": [
+    "Vintage Gibson guitars",
+    "Gibson serial number dating",
+    "Vintage guitar authentication",
+    "Golden era Gibson archtops",
+    "Pre-war Martin guitars",
+    "Vintage Fender custom color guitars",
+    "Vintage guitar appraisal",
+    "Vintage guitar repair and restoration"
+  ],
+  "knowsLanguage": "en",
+  "sameAs": [
+    "https://reverb.com/shop/joe-s-gear-emporium-4",
+    "https://www.facebook.com/joesvintageguitars",
+    "https://www.instagram.com/joesvintageguitarsaz/",
+    "https://www.youtube.com/@joesvintageguitars",
+    "https://www.tiktok.com/@joesvintageguitar"
+  ]
+}

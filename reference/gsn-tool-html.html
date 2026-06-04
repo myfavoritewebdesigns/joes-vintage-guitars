@@ -1,0 +1,115 @@
+<section
+  class="top-tool-wrapper"
+  role="region"
+  aria-label="Free Gibson Serial Number and FON Decoder Tool"
+>
+  <div class="tool-card">
+    <h2 class="maintitle">Gibson Serial Number & FON Decoder</h2>
+    <p class="subtitle-text">Enter your serial number or Factory Order Number below to identify the year your Gibson was made. Free, instant results.</p>
+    
+    <div id="input-step" role="form" aria-label="Gibson serial number decoder input">
+      <fieldset style="border:none; padding:0; margin:0 0 10px 0;">
+        <legend class="sr-only">Select number type to decode</legend>
+        <div class="type-selector">
+          <div id="select-serial" class="type-btn active" onclick="setLookupType('serial')" role="radio" aria-checked="true" tabindex="0" aria-label="Decode a Serial Number" onkeydown="if(event.key==='Enter'||event.key===' ')setLookupType('serial')">
+            SERIAL NUMBER
+            <span class="type-desc">Located on headstock or label</span>
+          </div>
+          <div id="select-fon" class="type-btn" onclick="setLookupType('fon')" role="radio" aria-checked="false" tabindex="0" aria-label="Decode a Factory Order Number (FON)" onkeydown="if(event.key==='Enter'||event.key===' ')setLookupType('fon')">
+            FACTORY ORDER (FON)
+            <span class="type-desc">Ink stamped inside on bare wood</span>
+          </div>
+        </div>
+      </fieldset>
+      
+      <div class="cs-toggle-wrap" role="group" aria-label="Custom Shop and Les Paul Classic serial number decoder">
+        <button class="cs-toggle-btn" id="cs-toggle-btn" onclick="toggleCSPanel()" aria-expanded="false" aria-controls="cs-panel" type="button">
+          <div class="cs-toggle-checkbox">
+            <span class="cs-toggle-checkbox-tick">✓</span>
+          </div>
+          <div class="cs-toggle-label">
+            My guitar is a Custom Shop or Les Paul Classic
+            <span class="cs-toggle-sublabel">CS prefix · Historic Reissue · SG/Flying V reissue · ES reissue · Les Paul Classic 1989–2014</span>
+          </div>
+          <span class="cs-toggle-arrow">▼</span>
+        </button>
+        <div class="cs-panel" id="cs-panel" aria-hidden="true">
+          <label class="cs-model-select-label" for="cs-model-select">Select your model type</label>
+          <select class="cs-model-select" id="cs-model-select" onchange="updateCSHint()" aria-label="Select Custom Shop or Les Paul Classic model type">
+            <option value="">Choose a model type</option>
+            <option value="cs_prefix">Modern Custom Shop (CS prefix, e.g. CS91234)</option>
+            <option value="lp_reissue">Historic Reissue Les Paul (R4, R7, R8, R9 etc.)</option>
+            <option value="sg_reissue">Historic Reissue SG, Firebird, Flying V (impressed)</option>
+            <option value="es_61_64">ES Reissue, 1961 or 1964 models (headstock + f-hole label)</option>
+            <option value="es_58">ES-335 Reissue, 1958 model (f-hole label only, A8 prefix)</option>
+            <option value="es_59">ES Reissue, 1959 models (f-hole label only, A9 prefix)</option>
+            <option value="carved_top">Carved-Top Custom Shop (L-5, Super 400, etc.)</option>
+            <option value="lp_classic">Les Paul Classic (1989–2014, ink stamp, no CS prefix)</option>
+          </select>
+          <p class="cs-hint" id="cs-hint" style="margin-bottom:14px;"></p>
+          <div class="cs-input-row">
+            <input type="text" class="cs-serial-input" id="cs-serial-input" placeholder="Enter serial number..." aria-label="Custom Shop or Les Paul Classic serial number" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" inputmode="text" />
+            <button class="btn-main" onclick="decodeCSSerial()" type="button" aria-label="Decode Custom Shop or Les Paul Classic serial number">Decode</button>
+          </div>
+        </div>
+      </div>
+      <div class="tool-input-group">
+        <label for="serial-input" class="sr-only">Enter your Gibson serial number or Factory Order Number</label>
+        <input type="text" id="serial-input" placeholder="Enter number here..." aria-label="Gibson serial number or Factory Order Number" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" inputmode="text" />
+        <button class="btn-main" onclick="startLookup()" aria-label="Decode this Gibson serial number">Decode Number</button>
+      </div>
+    </div>
+    
+    <div id="location-step" class="hidden" role="group" aria-label="Where is your Gibson serial number located?">
+      <p><strong>Where is the serial number located and how is it applied?</strong></p>
+      <div class="selection-grid">
+        <div class="selection-card" onclick="processSelection('label')" role="button" tabindex="0" aria-label="Serial number is on the interior paper label" onkeydown="if(event.key==='Enter'||event.key===' ')processSelection('label')">
+          <img src="/images/gibson-serial/gibson-montana-gold-sj-200-9.jpg" alt="Vintage Gibson guitar interior label showing serial number on paper label inside the body" width="300" height="160" loading="eager" decoding="async" />
+          <span>On the Interior Label</span>
+        </div>
+        <div class="selection-card" onclick="processSelection('ink_headstock')" role="button" tabindex="0" aria-label="Serial number is ink or silkscreened on the back of the headstock" onkeydown="if(event.key==='Enter'||event.key===' ')processSelection('ink_headstock')">
+          <img src="/images/gibson-serial/1954-gibson-les-paul-goldtop.jpg" alt="1954 Gibson Les Paul Goldtop headstock showing ink-stamped serial number on back of headstock" width="300" height="160" loading="eager" decoding="async" />
+          <span>Ink/Silkscreened on Headstock</span>
+        </div>
+        <div class="selection-card" onclick="processSelection('wood')" role="button" tabindex="0" aria-label="Serial number is die-stamped into the wood of the headstock" onkeydown="if(event.key==='Enter'||event.key===' ')processSelection('wood')">
+          <img src="/images/gibson-serial/1983-gibson-es-335-gold-hardware.jpg" alt="1983 Gibson ES-335 headstock showing serial number stamped directly into the wood" width="300" height="160" loading="eager" decoding="async" />
+          <span>Stamped Into the Wood</span>
+        </div>
+      </div>
+    </div>
+    
+    <div id="conflict-label-color" class="hidden" role="group" aria-label="What color is the interior label?">
+      <p><strong>What color is the label inside your guitar?</strong></p>
+      <div class="color-btn-group">
+        <div class="color-btn color-white" onclick="resolveConflict('white_label')" role="button" tabindex="0" aria-label="My guitar has a white interior label" onkeydown="if(event.key==='Enter'||event.key===' ')resolveConflict('white_label')">WHITE LABEL</div>
+        <div class="color-btn color-orange" onclick="resolveConflict('orange_label')" role="button" tabindex="0" aria-label="My guitar has an orange interior label" onkeydown="if(event.key==='Enter'||event.key===' ')resolveConflict('orange_label')">ORANGE LABEL</div>
+      </div>
+    </div>
+    
+    <div id="conflict-step" class="hidden" role="group" aria-label="Is the serial number a decal or stamped into the wood?">
+      <p><strong>Important Detail:</strong> Is the serial number a gold/silver decal on the back of the headstock, or is it stamped into the wood?</p>
+      <div class="tool-input-group">
+        <button class="btn-main" style="background:#4a3427" onclick="resolveConflict('decal')" aria-label="The serial number is a gold or silver decal on the headstock">It's a Decal/Silkscreen</button>
+        <button class="btn-main" onclick="resolveConflict('stamped')" aria-label="The serial number is stamped into the wood or on an interior label">It's Stamped in Wood/On Label</button>
+      </div>
+    </div>
+    
+    <div id="conflict-usa-stamp" class="hidden" role="group" aria-label="Does your Gibson headstock have a MADE IN USA stamp?">
+      <p><strong>Visual Check:</strong> Is there a "MADE IN USA" stamp on the back of the headstock (usually directly below the serial number)?</p>
+      <div class="tool-input-group">
+        <button class="btn-main" style="background:#4a3427" onclick="resolveConflict('usa_yes')" aria-label="Yes, my Gibson has a MADE IN USA stamp">YES, it has the stamp</button>
+        <button class="btn-main" onclick="resolveConflict('usa_no')" aria-label="No, there is no MADE IN USA stamp">NO stamp present</button>
+      </div>
+    </div>
+    
+    <div id="tool-results" class="hidden" role="alert" aria-live="polite" aria-label="Gibson serial number decoder results" tabindex="-1">
+      <h3 id="result-header" style="margin-top:0; color:#4a3427;">Estimation Results</h3>
+      <div id="result-text"></div>
+      <div id="crossref-tips"></div>
+      <div style="margin-top:20px; border-top:1px solid #ddd; padding-top:15px;">
+        <p><strong>Expert Tip:</strong> Serial numbers alone aren't 100% foolproof on vintage instruments. Text photos to <a href="tel:6029006635" aria-label="Call or text Joe's Vintage Guitars at 602-900-6635">(602) 900-6635</a> for a free professional dating from a vintage guitar specialist.</p>
+        <button class="btn-main" style="font-size:12px; padding:8px 15px;" onclick="resetTool()" aria-label="Start a new Gibson serial number search">Start New Search</button>
+      </div>
+    </div>
+  </div>
+</section>
