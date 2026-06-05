@@ -3,8 +3,8 @@ title: "The Ultimate Collector’s Guide to the Gretsch 6120: History, Specs, an
 pubDate: "2026-02-13T23:53:33"
 modified: "2026-04-01T16:47:27"
 excerpt: "Thinking of selling a vintage Gretsch 6120? This comprehensive guide covers everything from 1954-1962 specifications and ‘Golden Era’ milestones to critical condition issues like binding rot and current market valuations. Get an expert appraisal today."
-category: "uncategorized"
-categoryName: "Uncategorized"
+category: "specific-model-highlights"
+categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gretsch-6120-history-value/gretsch-6120-market-value-scaled.jpg"
 heroImageAlt: "A 1960 Gretsch 6120 in excellent condition with the original hard case. We buy Gretsch guitars."

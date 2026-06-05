@@ -3,8 +3,8 @@ title: "The Definitive Guide to the Gibson ES-175: Evolution, Technical Specs, a
 pubDate: "2026-02-15T04:50:42"
 modified: "2026-02-18T23:22:01"
 excerpt: "Since its debut, the Gibson ES-175 has been the quintessential jazz box. From its signature Florentine cutaway to the transition from P-90s to PAF humbuckers in 1957, this laminate-body legend is as versatile as it is iconic. Our guide breaks down the specs and serial numbers that determine the true collector value of your vintage 175."
-category: "uncategorized"
-categoryName: "Uncategorized"
+category: "specific-model-highlights"
+categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-es-175-evolution-and-specifications/sell-vintage-gibson-es-175-value-guide-scaled.jpg"
 heroImageAlt: "A vintage Gibson ES-175 hollow-body electric guitar in a classic Sunburst finish, showcasing the iconic Florentine cutaway and double-parallelogram fingerboard inlays."

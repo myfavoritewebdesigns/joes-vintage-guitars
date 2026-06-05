@@ -3,8 +3,8 @@ title: "Vintage Gibson LG Series: A Guide to the LG-0, LG-1, LG-2, and LG-3 Mode
 pubDate: "2026-02-17T03:29:04"
 modified: "2026-04-01T16:46:52"
 excerpt: "The Gibson LG series proves that big things come in small packages. From the legendary X-braced LG-2 to the mahogany LG-0, these “Little Guitars” offer a focused, punchy tone that has made them a favorite for over 80 years. Whether you’re holding a wartime “Banner” model or a late-60s workhorse, our guide helps you identify your specific model and explains why these small-body Gibsons are currently seeing a massive surge in collector value."
-category: "uncategorized"
-categoryName: "Uncategorized"
+category: "specific-model-highlights"
+categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1950s-gibson-lg-2-vintage-acoustic-guitar-scaled.jpg"
 heroImageAlt: "Vintage 1950s Gibson LG-2 acoustic guitar with large pickguard and original small rectangular rosewood bridge"

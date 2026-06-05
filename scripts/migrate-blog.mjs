@@ -24,6 +24,18 @@ const UA =
 const CONTENT_DIR = path.join(ROOT, "src", "content", "blog");
 const IMG_ROOT = path.join(ROOT, "public", "images", "blog");
 
+// Manual category reassignments, keyed by slug. The live WP site leaves these
+// model-specific guides in "Uncategorized"; we surface them under Specific
+// Model Highlights instead. Applied after deriving the WP primary category so
+// re-running this migration preserves the recategorization.
+const CATEGORY_OVERRIDES = {
+  "identify-vintage-gibson-j45-j50-sj": "specific-model-highlights",
+  "joesvintageguitarsaz-com-identify-gibson-lg-series": "specific-model-highlights",
+  "vintage-epiphone-crestwood-value-history-guide": "specific-model-highlights",
+  "gibson-es-175-evolution-and-specifications": "specific-model-highlights",
+  "gretsch-6120-history-value": "specific-model-highlights",
+};
+
 const BLOCK_SEL = "h1,h2,h3,h4,h5,h6,p,ul,ol,table,figure,blockquote,img,pre";
 
 async function getJSON(url) {
@@ -276,7 +288,12 @@ async function main() {
     md = md.replace(/\n{3,}/g, "\n\n").trim();
 
     const primaryCatId = post.categories?.[0];
-    const cat = catById[primaryCatId] || { slug: "uncategorized", name: "Uncategorized" };
+    let cat = catById[primaryCatId] || { slug: "uncategorized", name: "Uncategorized" };
+    if (CATEGORY_OVERRIDES[slug]) {
+      const overrideSlug = CATEGORY_OVERRIDES[slug];
+      const overrideCat = cats.find((c) => c.slug === overrideSlug);
+      if (overrideCat) cat = { slug: overrideCat.slug, name: decodeEntities(overrideCat.name) };
+    }
     const postTags = (post.tags || []).map((id) => tagById[id]).filter(Boolean);
     const excerpt = stripTags(post.excerpt.rendered)
       .replace(/\s*\[?…\]?\s*$/, "")
