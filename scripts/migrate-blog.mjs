@@ -34,6 +34,8 @@ const CATEGORY_OVERRIDES = {
   "vintage-epiphone-crestwood-value-history-guide": "specific-model-highlights",
   "gibson-es-175-evolution-and-specifications": "specific-model-highlights",
   "gretsch-6120-history-value": "specific-model-highlights",
+  "1963-fender-stratocaster-authentication-guide": "specific-model-highlights",
+  "mistakes-to-avoid-when-selling-a-vintage-guitar": "value-evaluation",
 };
 
 const BLOCK_SEL = "h1,h2,h3,h4,h5,h6,p,ul,ol,table,figure,blockquote,img,pre";
