@@ -129,9 +129,9 @@ const structuredData = [
               <div class="mcs-option active" data-value="guitar">Martin Guitars &amp; Ukuleles (Nazareth)</div>
               <div class="mcs-option" data-value="lx">Little Martin (LX Series)</div>
               <div class="mcs-option" data-value="mandolin">Martin Mandolins</div>
-              <div class="mcs-option" data-value="nav-solid">Navojoa Solid Wood Ukulele</div>
-              <div class="mcs-option" data-value="nav-hpl">Navojoa HPL Ukulele</div>
-              <div class="mcs-option" data-value="nav-so">Navojoa SO Ukulele</div>
+              <div class="mcs-option" data-value="nav-solid">Made In Mexico Solid Wood Ukulele</div>
+              <div class="mcs-option" data-value="nav-hpl">Made In Mexico HPL Ukulele</div>
+              <div class="mcs-option" data-value="nav-so">Made In Mexico SO Ukulele</div>
             </div>
           </div>
 
@@ -584,7 +584,7 @@ const structuredData = [
       year = match ? match.y : null;
     } else if (currentType === 'lx') {
       year = lookupLastSerial(lxData, num);
-      note = year ? '<br><small>Little Martin (LX Series) — made in Navojoa, Mexico.</small>' : '';
+      note = year ? '<br><small>Little Martin (LX Series) — made in Mexico.</small>' : '';
     } else if (currentType === 'mandolin') {
       year = lookupLastSerial(mandolinData, num);
       if (year) {
@@ -594,17 +594,17 @@ const structuredData = [
       }
     } else if (currentType === 'nav-solid') {
       year = lookupLastSerial(navSolidData, num);
-      note = year ? '<br><small>Navojoa Solid Wood Ukulele — made in Navojoa, Sonora, Mexico.</small>' : '';
+      note = year ? '<br><small>Made In Mexico Solid Wood Ukulele — made in Mexico.</small>' : '';
     } else if (currentType === 'nav-hpl') {
       year = lookupLastSerial(navHplData, num);
-      note = year ? '<br><small>Navojoa HPL Ukulele — made in Navojoa, Sonora, Mexico. HPL = High Pressure Laminate.</small>' : '';
+      note = year ? '<br><small>Made In Mexico HPL Ukulele — made in Mexico. HPL = High Pressure Laminate.</small>' : '';
     } else if (currentType === 'nav-so') {
       const match = navSoData.find(function(r){ return num >= (r.a || 0) && num <= r.b; });
       if (match) {
         year = match.y;
         note = match.approximate
           ? '<br><small><strong>Note:</strong> Serial numbers in this range (up to 9972) are attributed to the 2000–2006 production period. Year-by-year records are not available, so an exact year cannot be confirmed.</small>'
-          : '<br><small>Navojoa SO Ukulele — made in Navojoa, Sonora, Mexico.</small>';
+          : '<br><small>Made In Mexico SO Ukulele — made in Mexico.</small>';
       }
     }
 
