@@ -668,7 +668,7 @@ const breadcrumbSchema = {
         instrument. Check the headstock joint: thick, convex rosewood pushing up into the headstock
         equals a slab board. Find one and you've got a transitional piece that commands a serious
         premium.
-        <a href="#adv-fretboards">How to identify a slab board →</a> | <a href="#adv-pot-codes">Always verify with pot codes →</a></p>
+        <a href="#adv-fretboard-wood">How to identify a slab board →</a> | <a href="#adv-pot-codes">Always verify with pot codes →</a></p>
       </div>
     </div>
   </section>
@@ -1493,6 +1493,7 @@ const breadcrumbSchema = {
         vintage guitar it's a surprisingly useful tool.</p>
       </div>
 
+      <div id="adv-fretboard-wood" class="fsn-anchor" aria-hidden="true"></div>
       <h3>Fretboard Wood & Construction: Maple, Slab Rosewood & Veneer</h3>
       <h4>Maple Neck (1950 – Mid-1959, and Reintroduced Later)</h4>
       <p>Leo Fender's original design: a one-piece maple neck with frets cut directly into the maple itself. No separate fretboard at all.</p>
@@ -2729,6 +2730,13 @@ const breadcrumbSchema = {
     z-index: 25;
     scrollbar-width: thin;
     scrollbar-color: var(--color-brand-brown-tan, #d2b48c) transparent;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+  }
+  /* Hidden once the contact section scrolls in, so it doesn't overlap the form. */
+  .fsn-toc--hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
   .fsn-toc::-webkit-scrollbar { width: 4px; }
   .fsn-toc::-webkit-scrollbar-thumb {
@@ -3030,6 +3038,25 @@ const breadcrumbSchema = {
       document.addEventListener("DOMContentLoaded", labelTables);
     } else {
       labelTables();
+    }
+  })();
+
+  /* Hide the fixed TOC sidebar once the contact section is in view so it
+     doesn't overlap the "Talk With Joe Today" form at the bottom. */
+  (function () {
+    function initTocHide() {
+      var toc = document.getElementById("fsn-toc");
+      var contact = document.getElementById("contact");
+      if (!toc || !contact || !("IntersectionObserver" in window)) return;
+      var obs = new IntersectionObserver(function (entries) {
+        toc.classList.toggle("fsn-toc--hidden", entries[0].isIntersecting);
+      }, { rootMargin: "0px 0px -10% 0px" });
+      obs.observe(contact);
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initTocHide);
+    } else {
+      initTocHide();
     }
   })();
 </script>
