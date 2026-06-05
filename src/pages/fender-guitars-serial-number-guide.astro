@@ -2314,8 +2314,12 @@ const breadcrumbSchema = {
     color: rgba(238, 223, 192, 0.92);
   }
   .fsn-callout strong { color: var(--color-brand-gold, #c8983a); }
-  .fsn-callout a { color: var(--color-brand-gold, #c8983a); text-decoration: underline; }
-  .fsn-callout a:hover { color: #e6c068; }
+  /* Gold links, legible against the dark-brown callout bg. Needs to beat the
+     more-specific `.fsn-section p a` rust rule above, so include `p a`. */
+  .fsn-callout a,
+  .fsn-callout p a { color: #f0c860; text-decoration: underline; text-underline-offset: 2px; font-weight: 600; }
+  .fsn-callout a:hover,
+  .fsn-callout p a:hover { color: #ffe08c; }
 
   /* Warning */
   .fsn-warn {
