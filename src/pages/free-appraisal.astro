@@ -3,7 +3,6 @@ import Layout from "../layouts/Layout.astro";
 import PageHero from "../components/primitives/PageHero.astro";
 import SectionHeader from "../components/primitives/SectionHeader.astro";
 import Button from "../components/primitives/Button.astro";
-import ContactSection from "../components/ContactSection.astro";
 import { contact, hrefs } from "../config/site";
 
 // FAQPage JSON-LD — sourced from live JSON-LD #4
@@ -228,27 +227,56 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
     </div>
   </section>
 
-  <!-- Trusted Authority — single H3 (no eyebrow, natural case) + Expertise sub-heading -->
-  <section class="fa-authority">
-    <div class="fa-authority__inner">
-      <h3 class="fa-authority__heading">A Trusted Authority In Nationwide Vintage Guitar Values</h3>
-      <div class="fa-authority__rule" aria-hidden="true"></div>
-      <h4 class="fa-authority__sub">Expertise By The Numbers</h4>
-      <div class="fa-authority__stats">
-        {stats.map((s) => (
-          <div class="fa-authority__stat">
-            <strong>{s.value}</strong>
-            <span>{s.label}</span>
+  <!-- Get An Appraisal + Trusted Authority — two-column lead section (matches live's sctn-contact) -->
+  <section class="fa-appraisal" id="get-an-appraisal">
+    <div class="fa-appraisal__inner">
+      <!-- Left: dark-rust appraisal form panel -->
+      <div class="fa-appraisal__formcol">
+        <p class="fa-appraisal__eyebrow">Get An Appraisal</p>
+        <h4 class="fa-appraisal__subhead">For Your Vintage Guitar Or Collection Online Or In Person</h4>
+
+        <form class="appr-top-form" data-jvg-contact-form data-form-id="free-appraisal" novalidate>
+          <div class="apf-q"><label>Name<input name="your-name" type="text" autocomplete="name" required /></label></div>
+          <div class="apf-q"><label>Email<input name="your-email" type="email" autocomplete="email" required /></label></div>
+          <div class="apf-q"><label>Phone<input name="your-phone" type="tel" autocomplete="tel" /></label></div>
+          <div class="apf-q"><label>Location <span class="sub-color">(City, State or Country)</span><input name="your-location" type="text" /></label></div>
+          <div class="apf-t"><label>Make/Brand <span class="sub-color">(e.g., Fender, Gibson, Martin)</span><input name="your-brand" type="text" /></label></div>
+          <div class="apf-t"><label>Model <span class="sub-color">(e.g., Stratocaster, Les Paul)</span><input name="your-model" type="text" /></label></div>
+          <div class="apf-t"><label>Year <span class="sub-color">(Approximate)</span><input name="your-year" type="number" inputmode="numeric" min="1900" max="2099" /></label></div>
+          <div class="apf-full"><label>Condition <span class="sub-color">(e.g., Excellent, Good, Fair, Needs Repair)</span><input name="your-condition" type="text" /></label></div>
+          <div class="apf-full"><label>Comments<textarea name="your-comment" rows="3"></textarea></label></div>
+          <div class="apf-full apf-reply">
+            <span class="apf-reply__legend">Best Way To Reply:</span>
+            <label class="apf-radio"><input type="radio" name="best-reply" value="call" checked /> Call</label>
+            <label class="apf-radio"><input type="radio" name="best-reply" value="text" /> Text</label>
+            <label class="apf-radio"><input type="radio" name="best-reply" value="email" /> Email</label>
           </div>
-        ))}
+          <div class="apf-full"><button type="submit" class="appr-top-form__submit">Submit</button></div>
+          <p class="appr-top-form__note">*If you have photos, you will have the option to upload them after clicking submit</p>
+        </form>
       </div>
-      <div class="fa-authority__grid">
-        {authority.map((c) => (
-          <article class="fa-authority__card">
-            <h3 set:html={c.title} />
-            <p set:html={c.body} />
-          </article>
-        ))}
+
+      <!-- Right: Trusted Authority -->
+      <div class="fa-appraisal__authoritycol">
+        <h3 class="fa-authority__heading">A Trusted Authority In Nationwide Vintage Guitar Values</h3>
+        <div class="fa-authority__rule" aria-hidden="true"></div>
+        <h4 class="fa-authority__sub">Expertise By The Numbers</h4>
+        <div class="fa-authority__stats">
+          {stats.map((s) => (
+            <div class="fa-authority__stat">
+              <strong>{s.value}</strong>
+              <span>{s.label}</span>
+            </div>
+          ))}
+        </div>
+        <div class="fa-authority__grid">
+          {authority.map((c) => (
+            <article class="fa-authority__card">
+              <h3 set:html={c.title} />
+              <p set:html={c.body} />
+            </article>
+          ))}
+        </div>
       </div>
     </div>
   </section>
@@ -451,7 +479,53 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
     </div>
   </section>
 
-  <ContactSection />
+  <!-- Get in Touch! — closing contact form (matches live's bottom contact form) -->
+  <section class="fa-touch" id="get-in-touch">
+    <div class="fa-touch__inner">
+      <h2 class="fa-touch__title">Get in Touch!</h2>
+      <div class="fa-touch__rule" aria-hidden="true"></div>
+      <p class="fa-touch__lede">
+        Got a classic guitar or an amplifier you&rsquo;re thinking of selling? We&rsquo;re here for you! At
+        Joe&rsquo;s Vintage Guitars, we buy individual pieces, collections, and other stringed instruments. We
+        also provide expert appraisals. Send over your pics to <a href={hrefs.mailto}>{contact.email}</a> or
+        text us at <a href={hrefs.sms}>{contact.phone}</a>. Let&rsquo;s discover the value of your instrument!
+      </p>
+
+      <form class="fa-touch__form" data-jvg-contact-form data-form-id="contact" novalidate>
+        <div class="fa-touch__grid">
+          <div class="fa-field">
+            <label for="gt-first">First Name</label>
+            <input id="gt-first" name="your-name" type="text" autocomplete="given-name" required />
+          </div>
+          <div class="fa-field">
+            <label for="gt-last">Last Name</label>
+            <input id="gt-last" name="last-name" type="text" autocomplete="family-name" />
+          </div>
+          <div class="fa-field">
+            <label for="gt-phone">Phone</label>
+            <input id="gt-phone" name="your-phone" type="tel" autocomplete="tel" />
+          </div>
+          <div class="fa-field">
+            <label for="gt-email">Email</label>
+            <input id="gt-email" name="your-email" type="email" autocomplete="email" required />
+          </div>
+          <div class="fa-field fa-field--full">
+            <label for="gt-comments">Comments</label>
+            <textarea id="gt-comments" name="your-message" rows="4"></textarea>
+          </div>
+        </div>
+
+        <fieldset class="fa-touch__reply">
+          <legend>Best Way To Reply:</legend>
+          <label><input type="radio" name="best-reply" value="email" checked /> Email</label>
+          <label><input type="radio" name="best-reply" value="text" /> Text</label>
+          <label><input type="radio" name="best-reply" value="phone" /> Phone</label>
+        </fieldset>
+
+        <button type="submit" class="fa-touch__submit">Submit</button>
+      </form>
+    </div>
+  </section>
 </Layout>
 
 <style>
@@ -997,4 +1071,261 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
   }
   .fa-faq__a { font-family: var(--font-sans); font-size: 15px; line-height: 1.55; color: var(--color-brand-charcoal); margin: 0; }
   @media (max-width: 800px) { .fa-faq__grid { grid-template-columns: 1fr; } }
+
+  /* ---- Get An Appraisal + Trusted Authority — two-column lead section ---- */
+  .fa-appraisal {
+    background: var(--color-brand-cream, #eedfc0);
+    padding: 64px 0 72px;
+  }
+  .fa-appraisal__inner {
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 44px;
+    align-items: start;
+  }
+  @media (max-width: 900px) {
+    .fa-appraisal__inner { grid-template-columns: 1fr; gap: 36px; }
+  }
+  /* Guitarist photo behind the right column, faded into cream (matches live). */
+  @media (min-width: 901px) {
+    .fa-appraisal__inner {
+      background-image:
+        linear-gradient(100deg, var(--color-brand-cream, #eedfc0) 48%, rgba(238, 223, 192, 0) 92%),
+        url("/images/free-appraisal/appraisal-bg.jpg");
+      background-size: auto 100%;
+      background-position: right center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  /* Left: dark-rust form panel */
+  .fa-appraisal__formcol {
+    background: var(--color-brand-rust-dark, #682412);
+    border-radius: 8px;
+    padding: 28px 26px 24px;
+  }
+  .fa-appraisal__eyebrow {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: clamp(24px, 3vw, 34px);
+    line-height: 1.15;
+    color: #fff;
+    margin: 0 0 6px;
+  }
+  .fa-appraisal__subhead {
+    font-size: clamp(15px, 2vw, 19px);
+    font-weight: 400;
+    color: var(--color-brand-brown-tan, #d2b48c);
+    margin: 0 0 20px;
+  }
+
+  /* Form grid — mirrors live's .appr-top-form */
+  .appr-top-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 12px;
+  }
+  .appr-top-form .apf-q { width: 24%; }
+  .appr-top-form .apf-t { width: 32%; }
+  .appr-top-form .apf-full { width: 100%; }
+  @media (max-width: 600px) {
+    .appr-top-form .apf-q,
+    .appr-top-form .apf-t { width: 100%; }
+  }
+  .appr-top-form label {
+    display: block;
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 13px;
+    color: #fff;
+  }
+  .appr-top-form .sub-color { color: #b67f5e; }
+  .appr-top-form input,
+  .appr-top-form textarea {
+    width: 100%;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    color: var(--color-brand-brown, #3e2a14);
+    background: #fff;
+    border: 1px solid #d2b48c;
+    border-radius: 5px;
+    padding: 9px 11px;
+    margin-top: 4px;
+  }
+  .appr-top-form textarea { max-height: 90px; min-height: 64px; resize: vertical; }
+  .appr-top-form input:focus,
+  .appr-top-form textarea:focus {
+    outline: none;
+    border-color: var(--color-brand-rust-bright, #be4b25);
+    box-shadow: 0 0 0 3px rgba(190, 75, 37, 0.3);
+  }
+  .apf-reply {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 18px;
+    margin-top: 4px;
+  }
+  .apf-reply__legend {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 13px;
+    color: #fff;
+  }
+  .apf-radio {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .apf-radio input { width: auto; margin: 0; accent-color: var(--color-brand-rust-bright, #be4b25); }
+  .appr-top-form__submit {
+    width: 100%;
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--color-brand-rust-bright, #be4b25);
+    border: none;
+    border-radius: 5px;
+    padding: 13px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .appr-top-form__submit:hover { background: var(--color-brand-rust, #a03a1e); }
+  .appr-top-form__submit:disabled { opacity: 0.6; cursor: default; }
+  .appr-top-form__note {
+    width: 100%;
+    font-family: var(--font-sans);
+    font-size: 12px;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 8px 0 0;
+  }
+  .appr-top-form .jvg-form-banner {
+    width: 100%;
+    margin-top: 12px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    text-align: center;
+  }
+  .appr-top-form .jvg-form-banner[data-state="success"] { background: #e7f3e3; color: #2c5a22; }
+  .appr-top-form .jvg-form-banner[data-state="error"] { background: #f6e0da; color: #842012; }
+  .appr-top-form .jvg-form-banner[data-state="submitting"] { background: #fff; color: var(--color-brand-brown, #3e2a14); }
+
+  /* ---- Get in Touch! — closing contact form ---- */
+  .fa-touch {
+    background: var(--color-brand-rust-dark, #682412);
+    padding: 76px 0 88px;
+  }
+  .fa-touch__inner {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 24px;
+    text-align: center;
+  }
+  .fa-touch__title {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: clamp(28px, 4vw, 40px);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--color-brand-cream, #eedfc0);
+    margin: 0 0 14px;
+  }
+  .fa-touch__rule {
+    width: 80px;
+    height: 3px;
+    background: var(--color-brand-gold, #c8983a);
+    margin: 0 auto 22px;
+  }
+  .fa-touch__lede {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f1e6cd;
+    margin: 0 auto 30px;
+    max-width: 62ch;
+  }
+  .fa-touch__lede a {
+    color: var(--color-brand-gold, #c8983a);
+    text-decoration: underline;
+  }
+  .fa-touch__form {
+    background: #fff;
+    border-radius: 12px;
+    padding: 32px 32px 28px;
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.28);
+    text-align: left;
+  }
+  .fa-touch__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px 22px;
+  }
+  .fa-touch__reply {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 22px;
+    border: none;
+    margin: 22px 0 0;
+    padding: 0;
+  }
+  .fa-touch__reply legend {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-brand-brown, #3e2a14);
+    padding: 0;
+    float: left;
+    margin-right: 8px;
+  }
+  .fa-touch__reply label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    color: var(--color-brand-brown-warm, #4a3a24);
+    cursor: pointer;
+  }
+  .fa-touch__reply input[type="radio"] { accent-color: var(--color-brand-rust, #a03a1e); width: 16px; height: 16px; }
+  .fa-touch__submit {
+    margin-top: 24px;
+    width: 100%;
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--color-brand-rust, #a03a1e);
+    border: none;
+    border-radius: 6px;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .fa-touch__submit:hover { background: var(--color-brand-rust-bright, #be4b25); }
+  .fa-touch__submit:disabled { opacity: 0.6; cursor: default; }
+  .fa-touch__form .jvg-form-banner {
+    margin-top: 16px;
+    padding: 12px 14px;
+    border-radius: 6px;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    text-align: center;
+  }
+  .fa-touch__form .jvg-form-banner[data-state="success"] { background: #e7f3e3; color: #2c5a22; }
+  .fa-touch__form .jvg-form-banner[data-state="error"] { background: #f6e0da; color: #842012; }
+  @media (max-width: 620px) {
+    .fa-touch__grid { grid-template-columns: 1fr; }
+    .fa-touch__form { padding: 24px 20px; }
+  }
 </style>
