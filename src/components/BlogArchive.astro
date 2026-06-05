@@ -1,0 +1,164 @@
+---
+import PostCard from "./PostCard.astro";
+import BlogPagination from "./BlogPagination.astro";
+import ContactSection from "./ContactSection.astro";
+import type { Post } from "../lib/blog";
+
+interface CategoryLink {
+  slug: string;
+  name: string;
+  count: number;
+}
+interface Props {
+  heading: string;
+  intro?: string;
+  posts: Post[];
+  current: number;
+  total: number;
+  basePath: string;
+  categories: CategoryLink[];
+  /** slug of the active category, or "" on the main blog archive. */
+  activeCategory?: string;
+}
+const { heading, intro, posts, current, total, basePath, categories, activeCategory = "" } = Astro.props;
+---
+
+<div class="barch-header-backdrop" aria-hidden="true"></div>
+
+<div class="barch">
+  <div class="barch__inner">
+    <p class="barch__eyebrow">Joe's Vintage Guitars Blog</p>
+    <h1 class="barch__h1">{heading}</h1>
+    {intro && <p class="barch__intro">{intro}</p>}
+
+    <nav class="barch__cats" aria-label="Blog categories">
+      <a class={`barch__cat${activeCategory === "" ? " is-active" : ""}`} href="/blog/">All Posts</a>
+      {categories.map((c) => (
+        <a
+          class={`barch__cat${activeCategory === c.slug ? " is-active" : ""}`}
+          href={`/category/${c.slug}/`}
+        >
+          {c.name} <span class="barch__cat-count">{c.count}</span>
+        </a>
+      ))}
+    </nav>
+
+    {posts.length > 0 ? (
+      <div class="barch__grid">
+        {posts.map((post, i) => (
+          <PostCard post={post} eager={current === 1 && i < 3} />
+        ))}
+      </div>
+    ) : (
+      <p class="barch__empty">No posts here yet.</p>
+    )}
+
+    <BlogPagination current={current} total={total} basePath={basePath} />
+  </div>
+</div>
+
+<ContactSection />
+
+<script is:inline>document.body.classList.add("blog-archive-page");</script>
+
+<style is:global>
+  /* Archetype-B: force the secondary-nav text dark over the white band. */
+  body.blog-archive-page header nav.border-b-\[6px\] a { color: var(--color-brand-brown) !important; }
+  body.blog-archive-page header nav.border-b-\[6px\] > ul > li > a { color: #fff !important; }
+  body.blog-archive-page header nav.border-b-\[6px\] > ul > li > a:hover { color: var(--color-brand-cream) !important; }
+</style>
+
+<style>
+  .barch-header-backdrop {
+    background: var(--color-brand-rust-dark, #682412);
+    height: 200px;
+  }
+  @media (max-width: 640px) {
+    .barch-header-backdrop { height: 160px; }
+  }
+
+  .barch {
+    background: #faf4e6;
+    color: var(--color-brand-brown, #3e2a14);
+    padding: 48px 0 80px;
+  }
+  @media (max-width: 640px) {
+    .barch { padding-top: 28px; }
+  }
+  .barch__inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .barch__eyebrow {
+    font-family: var(--font-display, Oswald), sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.8rem;
+    color: var(--color-brand-rust, #a03a1e);
+    margin: 28px 0 6px;
+  }
+  .barch__h1 {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: clamp(28px, 4vw, 44px);
+    line-height: 1.12;
+    color: var(--color-brand-rust-dark, #682412);
+    margin: 0 0 14px;
+    max-width: 22ch;
+  }
+  .barch__intro {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    max-width: 70ch;
+    color: var(--color-brand-brown-warm, #4a3a24);
+    margin: 0 0 26px;
+  }
+  .barch__cats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 36px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #e3d4b4;
+  }
+  .barch__cat {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 0.82rem;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--color-brand-brown, #3e2a14);
+    background: #fff;
+    border: 1px solid #d9c8a6;
+    border-radius: 999px;
+    padding: 7px 14px;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+  .barch__cat:hover {
+    background: var(--color-brand-cream, #eedfc0);
+    border-color: var(--color-brand-rust, #a03a1e);
+  }
+  .barch__cat.is-active {
+    background: var(--color-brand-rust, #a03a1e);
+    border-color: var(--color-brand-rust, #a03a1e);
+    color: #fff;
+  }
+  .barch__cat-count {
+    opacity: 0.7;
+    font-size: 0.78em;
+  }
+  .barch__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  @media (max-width: 900px) {
+    .barch__grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 560px) {
+    .barch__grid { grid-template-columns: 1fr; gap: 22px; }
+  }
+  .barch__empty {
+    font-size: 1.05rem;
+    color: var(--color-brand-brown-muted, #7a6a52);
+  }
+</style>

@@ -1,0 +1,80 @@
+---
+interface Props {
+  current: number;
+  total: number;
+  /** Base path WITHOUT trailing slash, e.g. "/blog" or "/category/value-evaluation". */
+  basePath: string;
+}
+const { current, total, basePath } = Astro.props;
+
+// Page 1 lives at the base path itself; pages 2+ live at <base>/page/N/.
+const urlFor = (n: number) => (n <= 1 ? `${basePath}/` : `${basePath}/page/${n}/`);
+const pages = Array.from({ length: total }, (_, i) => i + 1);
+---
+{total > 1 && (
+  <nav class="bpg" aria-label="Blog pagination">
+    {current > 1 && (
+      <a class="bpg__arrow" href={urlFor(current - 1)} rel="prev" aria-label="Previous page">&larr; Prev</a>
+    )}
+    <ul class="bpg__list">
+      {pages.map((n) => (
+        <li>
+          {n === current ? (
+            <span class="bpg__num bpg__num--current" aria-current="page">{n}</span>
+          ) : (
+            <a class="bpg__num" href={urlFor(n)}>{n}</a>
+          )}
+        </li>
+      ))}
+    </ul>
+    {current < total && (
+      <a class="bpg__arrow" href={urlFor(current + 1)} rel="next" aria-label="Next page">Next &rarr;</a>
+    )}
+  </nav>
+)}
+
+<style>
+  .bpg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 56px;
+  }
+  .bpg__list {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+  }
+  .bpg__num,
+  .bpg__arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 42px;
+    height: 42px;
+    padding: 0 12px;
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 0.95rem;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #d9c8a6;
+    color: var(--color-brand-brown, #3e2a14);
+    background: #fff;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+  .bpg__num:hover,
+  .bpg__arrow:hover {
+    background: var(--color-brand-cream, #eedfc0);
+    border-color: var(--color-brand-rust, #a03a1e);
+  }
+  .bpg__num--current {
+    background: var(--color-brand-rust, #a03a1e);
+    border-color: var(--color-brand-rust, #a03a1e);
+    color: #fff;
+    font-weight: 600;
+  }
+</style>

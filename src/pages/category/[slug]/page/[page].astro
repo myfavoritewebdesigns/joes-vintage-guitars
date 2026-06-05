@@ -1,0 +1,61 @@
+---
+import type { GetStaticPaths } from "astro";
+import Layout from "../../../../layouts/Layout.astro";
+import BlogArchive from "../../../../components/BlogArchive.astro";
+import { SITE_URL } from "../../../../config/site";
+import {
+  getPublishedPosts,
+  getCategories,
+  postsInCategory,
+  paginate,
+  categoryName,
+  CATEGORY_META,
+} from "../../../../lib/blog";
+
+export const getStaticPaths = (async () => {
+  const allPosts = await getPublishedPosts();
+  const cats = getCategories(allPosts);
+  return cats.flatMap((c) => {
+    const pages = paginate(postsInCategory(allPosts, c.slug));
+    // Pages 2..N (page 1 is served by the category index).
+    return pages.slice(1).map((posts, i) => ({
+      params: { slug: c.slug, page: String(i + 2) },
+      props: { posts, current: i + 2, total: pages.length, slug: c.slug },
+    }));
+  });
+}) satisfies GetStaticPaths;
+
+const { posts, current, total, slug } = Astro.props;
+const allPosts = await getPublishedPosts();
+const categories = getCategories(allPosts);
+const name = categoryName(slug);
+const intro = CATEGORY_META[slug]?.description;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog/` },
+    { "@type": "ListItem", position: 3, name, item: `${SITE_URL}/category/${slug}/` },
+  ],
+};
+---
+
+<Layout
+  title={`${name} (Page ${current}) | Joe's Vintage Guitars Blog`}
+  description={intro || `${name} articles from Joe's Vintage Guitars.`}
+  canonical={`/category/${slug}/page/${current}/`}
+  structuredData={breadcrumbSchema}
+>
+  <BlogArchive
+    heading={name}
+    intro={intro}
+    posts={posts}
+    current={current}
+    total={total}
+    basePath={`/category/${slug}`}
+    categories={categories}
+    activeCategory={slug}
+  />
+</Layout>

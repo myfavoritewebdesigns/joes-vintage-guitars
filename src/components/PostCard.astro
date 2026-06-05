@@ -1,0 +1,141 @@
+---
+import type { Post } from "../lib/blog";
+import { categoryName, formatDate } from "../lib/blog";
+
+interface Props {
+  post: Post;
+  eager?: boolean;
+}
+const { post, eager = false } = Astro.props;
+const { data, id } = post;
+const href = `/post/${id}/`;
+const catHref = `/category/${data.category}/`;
+---
+
+<article class="bpc">
+  <a class="bpc__media" href={href} aria-label={data.title}>
+    {data.heroImage ? (
+      <img
+        src={data.heroImage}
+        alt={data.heroImageAlt || data.title}
+        loading={eager ? "eager" : "lazy"}
+        decoding="async"
+        width="700"
+        height="441"
+      />
+    ) : (
+      <span class="bpc__media-fallback" aria-hidden="true">JVG</span>
+    )}
+  </a>
+  <div class="bpc__body">
+    <a class="bpc__cat" href={catHref}>{categoryName(data.category, data.categoryName)}</a>
+    <h2 class="bpc__title"><a href={href}>{data.title}</a></h2>
+    <time class="bpc__date" datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>
+    {data.excerpt && <p class="bpc__excerpt">{data.excerpt}</p>}
+    <a class="bpc__more" href={href}>Read more <span aria-hidden="true">&rarr;</span></a>
+  </div>
+</article>
+
+<style>
+  .bpc {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #e6d9bd;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(62, 42, 20, 0.06);
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+  .bpc:hover {
+    box-shadow: 0 8px 24px rgba(62, 42, 20, 0.14);
+    transform: translateY(-3px);
+  }
+  .bpc__media {
+    display: block;
+    aspect-ratio: 700 / 441;
+    overflow: hidden;
+    background: var(--color-brand-rust-dark, #682412);
+  }
+  .bpc__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s;
+  }
+  .bpc:hover .bpc__media img {
+    transform: scale(1.04);
+  }
+  .bpc__media-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.1em;
+  }
+  .bpc__body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 18px 20px 22px;
+    flex: 1;
+  }
+  .bpc__cat {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust, #a03a1e);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .bpc__cat:hover {
+    text-decoration: underline;
+  }
+  .bpc__title {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 1.18rem;
+    line-height: 1.25;
+    margin: 0;
+    color: var(--color-brand-brown, #3e2a14);
+  }
+  .bpc__title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .bpc__title a:hover {
+    color: var(--color-brand-rust, #a03a1e);
+  }
+  .bpc__date {
+    font-size: 0.8rem;
+    color: var(--color-brand-brown-muted, #7a6a52);
+  }
+  .bpc__excerpt {
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--color-brand-brown-warm, #4a3a24);
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .bpc__more {
+    margin-top: auto;
+    padding-top: 4px;
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust, #a03a1e);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .bpc__more:hover {
+    color: var(--color-brand-rust-dark, #682412);
+  }
+</style>

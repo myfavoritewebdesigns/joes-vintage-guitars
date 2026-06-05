@@ -1,0 +1,51 @@
+---
+import type { GetStaticPaths } from "astro";
+import Layout from "../../../layouts/Layout.astro";
+import BlogArchive from "../../../components/BlogArchive.astro";
+import { SITE_URL } from "../../../config/site";
+import { getPublishedPosts, getCategories, paginate } from "../../../lib/blog";
+
+export const getStaticPaths = (async () => {
+  const allPosts = await getPublishedPosts();
+  const pages = paginate(allPosts);
+  // Pages 2..N (page 1 is served by /blog/index.astro).
+  return pages.slice(1).map((posts, i) => ({
+    params: { page: String(i + 2) },
+    props: { posts, current: i + 2, total: pages.length },
+  }));
+}) satisfies GetStaticPaths;
+
+const { posts, current, total } = Astro.props;
+const allPosts = await getPublishedPosts();
+const categories = getCategories(allPosts);
+
+const HEADING = "Vintage Guitar Expert Resource Center: Authentication & Selling Guides";
+const INTRO =
+  "Model-by-model authentication guides, serial-number dating help, and honest advice on valuing and selling vintage guitars — written by Joe Dampt from real instruments handled at the shop.";
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog/` },
+  ],
+};
+---
+
+<Layout
+  title={`Blog (Page ${current}) | Joe's Vintage Guitars`}
+  description="Vintage guitar authentication guides, serial-number dating help, and expert advice on valuing and selling Fender, Gibson, Martin and more — from Joe's Vintage Guitars."
+  canonical={`/blog/page/${current}/`}
+  structuredData={breadcrumbSchema}
+>
+  <BlogArchive
+    heading={HEADING}
+    intro={INTRO}
+    posts={posts}
+    current={current}
+    total={total}
+    basePath="/blog"
+    categories={categories}
+  />
+</Layout>
