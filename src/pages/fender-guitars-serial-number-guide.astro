@@ -19,6 +19,7 @@ const locationCards = [
     caption: "Telecaster bridge plate serial number, 1950–1954",
     text: "Stamped into the metal bridge plate where the strings anchor. You'll see this on the earliest Broadcasters, No-Casters, Telecasters, and Esquires.",
     range: "1950 – 1954",
+    href: "#bridge-plate",
   },
   {
     id: undefined,
@@ -28,6 +29,7 @@ const locationCards = [
     caption: "Precision Bass bridge plate serial number, 1951–1954",
     text: "Leo Fender's first electric bass, released in October 1951, also carried its serial on the bridge plate. It ran on a separate numbering sequence from the guitar lineup.",
     range: "1951 – 1954",
+    href: "#bridge-plate",
   },
   {
     id: "loc-neck-plate",
@@ -37,6 +39,7 @@ const locationCards = [
     caption: "Neck plate serial number, 1955–1976",
     text: "Flip the guitar over and look at the chrome plate where the neck bolts on. The number is stamped into the metal, sometimes near the top edge and sometimes near the bottom. This spot covers the widest stretch of the classic vintage era.",
     range: "1955 – 1976",
+    href: "#neck-plate-serials",
   },
   {
     id: "loc-headstock-front",
@@ -46,6 +49,7 @@ const locationCards = [
     caption: "Front of headstock serial number, 1976–1995",
     text: "Sits right below the Fender logo on the face of the headstock. Either ink-stamped or printed as part of the decal itself. Standard placement on Strats, Teles, and basses from the post-CBS era.",
     range: "1976 – 1995",
+    href: "#headstock-serials",
   },
   {
     id: "loc-headstock-back",
@@ -55,6 +59,7 @@ const locationCards = [
     caption: "Back of headstock serial number, current production standard",
     text: "This has been the standard placement since 1996. A 'Made in USA' or country-of-origin stamp typically sits directly below the serial.",
     range: "1996 – Present",
+    href: "#headstock-serials",
   },
   {
     id: "loc-tremolo",
@@ -64,6 +69,7 @@ const locationCards = [
     caption: "Tremolo cover plate serial number, very early Stratocasters only",
     text: "The very earliest Stratocasters had the serial stamped into the plastic tremolo cavity cover on the back of the body. Only a handful of known examples exist, so this one shows up rarely.",
     range: "1954–1955 (Early Strats Only)",
+    href: "#neck-plate-serials",
   },
   {
     id: "loc-neck-heel",
@@ -73,6 +79,7 @@ const locationCards = [
     caption: "Back of neck heel serial number, Japanese-made Fenders",
     text: "Some Japanese-made Fenders carry the number on the back of the neck where it meets the body. You'll have to pull the neck off to see it.",
     range: "Japanese Models, 1982 – Present",
+    href: "#import-serials",
   },
 ];
 
@@ -424,7 +431,7 @@ const breadcrumbSchema = {
       <li><a href="#locations" class="fsn-toc__h2">Where to Find Your Serial #</a></li>
       <li><a href="#eras" class="fsn-toc__h2">Serial Formats by Era</a></li>
       <li><a href="#bridge-plate" class="fsn-toc__h3">Bridge Plate (1950–1954)</a></li>
-      <li><a href="#neck-plate-serials" class="fsn-toc__h3">Neck Plate (1954–1963)</a></li>
+      <li><a href="#neck-plate-serials" class="fsn-toc__h3">4 &amp; 5 Digit Neck Plate (1954–1963)</a></li>
       <li><a href="#l-series" class="fsn-toc__h3">L-Series (1963–1965)</a></li>
       <li><a href="#f-plate" class="fsn-toc__h3">F-Plate (1965–1976)</a></li>
       <li><a href="#v-prefix" class="fsn-toc__h3">V-Prefix Reissues</a></li>
@@ -492,6 +499,7 @@ const breadcrumbSchema = {
             <h4 id={card.id}>{card.h}</h4>
             <p>{card.text}</p>
             <p class="fsn-loc__range"><strong>{card.range}</strong></p>
+            <a class="fsn-loc__cta" href={card.href}>See serial numbers <span class="fsn-loc__arrow" aria-hidden="true">→</span></a>
           </article>
         ))}
       </div>
@@ -597,7 +605,7 @@ const breadcrumbSchema = {
         cross-referencing with other dating methods isn't optional.
       </p>
 
-      <div class="jvg-img2 jvg-img--uniform">
+      <div class="jvg-img2">
         <div class="jvg-imgwc">
           <img src={`${IMG}/2026/03/1957-fender-esquire-blonde.jpg`} alt="1957 Fender Esquire blonde neck plate showing serial number stamped at the top edge" loading="lazy" decoding="async" />
           <p class="jvg-cap">Serial stamped at the top of the neck plate, the more common position</p>
@@ -819,7 +827,7 @@ const breadcrumbSchema = {
         </table>
       </div>
 
-      <div class="jvg-img2 jvg-img--uniform">
+      <div class="jvg-img2">
         <div class="jvg-imgwc">
           <img src={`${IMG}/2026/03/fender-76-prefix-serial-number.jpg`} alt="Fender 76-prefix serial number on front of headstock — guitars made in 1976 when Fender transitioned from neck plate to headstock serials" loading="lazy" decoding="async" />
           <p class="jvg-cap">76 Prefix = 1976</p>
@@ -829,7 +837,7 @@ const breadcrumbSchema = {
           <p class="jvg-cap">S Prefix = 1970s</p>
         </div>
       </div>
-      <div class="jvg-img2 jvg-img--uniform">
+      <div class="jvg-img2">
         <div class="jvg-imgwc">
           <img src={`${IMG}/2026/03/fender-e-prefix-serial-number.jpg`} alt="Fender E-prefix serial number on front of headstock — E indicates 1980s production, second digit gives the specific year" loading="lazy" decoding="async" />
           <p class="jvg-cap">E Prefix = 1980s</p>
@@ -882,7 +890,7 @@ const breadcrumbSchema = {
         </table>
       </div>
 
-      <div class="jvg-img2 jvg-img--uniform">
+      <div class="jvg-img2">
         <div class="jvg-imgwc">
           <img src={`${IMG}/2026/03/fender-z-prefix-serial-number.jpg`} alt="Fender Z-prefix serial number on back of headstock — Z indicates 2000s production, first digit after Z gives the specific year" loading="lazy" decoding="async" />
           <p class="jvg-cap">Z Prefix = 2000s</p>
@@ -925,7 +933,7 @@ const breadcrumbSchema = {
         </table>
       </div>
 
-      <div class="jvg-img2 jvg-img--uniform">
+      <div class="jvg-img2">
         <div class="jvg-imgwc">
           <img src={`${IMG}/2025/04/mn-prefix.jpg`} alt="MN prefix serial on Mexican Fender Stratocaster" loading="lazy" decoding="async" />
           <p class="jvg-cap">MN Prefix = Mexico 1990s</p>
@@ -1153,7 +1161,7 @@ const breadcrumbSchema = {
         <li><strong>Rear tremolo cavity (Stratocasters):</strong> Check the bare wood inside the spring cavity under the back plate.</li>
         <li><strong>Control cavity:</strong> Behind the control plate or under the pickguard.</li>
       </ul>
-      <div class="jvg-img2 jvg-img--uniform">
+      <div class="jvg-img2">
         <div class="jvg-imgwc">
           <img src={`${IMG}/2026/03/1956-fender-telecaster-blonde-21.jpg`} alt="Fender guitar body neck pocket with visible ink stamp date marking" loading="lazy" decoding="async" />
           <p class="jvg-cap">Ink stamp in the neck pocket of a 1956 Telecaster</p>
@@ -1209,7 +1217,7 @@ const breadcrumbSchema = {
           <p class="jvg-cap">Pot code breakdown diagram</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={`${IMG}/2025/10/cts-pot-code-for-fender-guitars.jpg`} alt="CTS potentiometer code for vintage Fender guitars — rotated to show date code markings clearly" loading="lazy" decoding="async" />
+          <img src="/images/fender-sn/cts-pot-code-for-fender-guitars-rotated.jpg" alt="CTS potentiometer code for vintage Fender guitars — manufacturer code 137, last digit of year, and week markings" width="2364" height="2424" loading="lazy" decoding="async" />
           <p class="jvg-cap">CTS pot code example</p>
         </div>
       </div>
@@ -1293,7 +1301,7 @@ const breadcrumbSchema = {
         <li><strong>Brass (1950 – mid-1954):</strong> Golden brownish color that develops a dull patina. Found on all Blackguards and early Whiteguards. Diameter roughly 5/16".</li>
         <li><strong>Steel (mid-1954 – 1958):</strong> Silver chrome color, prone to rust and pitting. Diameter roughly 1/4".</li>
       </ul>
-      <div class="jvg-img2 jvg-img--uniform">
+      <div class="jvg-img2">
         <div class="jvg-imgwc">
           <img src={`${IMG}/2026/03/brass-saddles-2.jpg`} alt="Brass bridge saddles on early 1950s Fender Telecaster Blackguard" loading="lazy" decoding="async" />
           <p class="jvg-cap">Brass saddles (1950 – mid-1954): gold color, dull patina</p>
@@ -1310,7 +1318,7 @@ const breadcrumbSchema = {
         zinc "block" saddles. They're thick, rectangular, and completely unbranded. That's arguably
         the fastest way to spot a CBS-era Strat from across the room.
       </p>
-      <div class="jvg-img2 jvg-img--uniform">
+      <div class="jvg-img2">
         <div class="jvg-imgwc">
           <img src={`${IMG}/2026/03/fender-stamped-saddles-1960s.jpg`} alt="Fender Stratocaster stamped steel saddles 1954-1971 with PAT PEND" loading="lazy" decoding="async" />
           <p class="jvg-cap">Stamped steel saddles (1954–1971), "FENDER PAT. PEND." on each</p>
@@ -1357,7 +1365,7 @@ const breadcrumbSchema = {
           </div>
         </div>
       </div>
-      <div class="jvg-img2 jvg-img--uniform">
+      <div class="jvg-img2">
         <div class="jvg-imgwc">
           <img src={`${IMG}/2026/03/vintage-kluson-deluxe-tuner-casing-underside-showing-pat.jpg`} alt="Vintage Kluson Deluxe tuner underside showing PAT APPLD marking" loading="lazy" decoding="async" />
           <p class="jvg-cap">No-line Kluson underside: "PAT. APPLD." = pre-1954 spec</p>
@@ -1443,7 +1451,7 @@ const breadcrumbSchema = {
         <li><strong>Round string guide (Pre-mid-1956):</strong> Small, circular piece of metal. Simple and functional.</li>
         <li><strong>Butterfly / Wing tree (Mid-1956 Onward):</strong> Wider, wing-shaped piece that provides a more consistent string break angle.</li>
       </ul>
-      <div class="jvg-img2 jvg-img--uniform">
+      <div class="jvg-img2">
         <div class="jvg-imgwc">
           <img src={`${IMG}/2026/02/fender-telecaster-vintage-round-string-tree-scaled.jpg`} alt="Fender round circular string guide on vintage Telecaster headstock pre-mid-1956" loading="lazy" decoding="async" />
           <p class="jvg-cap">Round string guide (pre-mid-1956)</p>
@@ -1492,7 +1500,7 @@ const breadcrumbSchema = {
       <p>A thick, flat-bottomed slab of rosewood glued directly onto the maple neck. Look at the headstock joint right above the nut and you'll see the rosewood form a thick, <em>convex</em> curve.</p>
       <h4>Veneer (Round-Lam) Rosewood Fretboard (Mid-1962 Onward)</h4>
       <p>A thinner veneer board with a curved bottom matching the neck radius. At the headstock, the rosewood line looks much thinner and <em>flatter</em>.</p>
-      <div class="jvg-img2 jvg-img--uniform">
+      <div class="jvg-img2">
         <div class="jvg-imgwc">
           <img src={`${IMG}/2026/03/slabboard.jpg`} alt="Fender slab rosewood fretboard 1959-1962 thick convex at headstock nut joint" loading="lazy" decoding="async" />
           <p class="jvg-cap">Slab board (1959–mid-1962): thick, convex rosewood at headstock</p>
@@ -1911,11 +1919,14 @@ const breadcrumbSchema = {
   /* ---------- Shared section scaffolding ---------- */
   .fsn-section {
     padding: clamp(48px, 7vw, 88px) 16px;
-    background: var(--color-brand-cream-warm, #f5ead4);
+    /* Light band — brighter warm cream so the alternation pops (see --alt). */
+    background: #f9f1de;
     color: var(--color-brand-brown);
   }
   .fsn-section--alt {
-    background: var(--color-brand-cream-parchment, #efe5cc);
+    /* Deeper wheat-tan: widened the contrast vs the light band so each
+       section reads as a distinct stripe (was #efe5cc, ~3% off the base). */
+    background: #ecdab4;
   }
   .fsn-inner {
     max-width: 1100px;
@@ -1925,7 +1936,7 @@ const breadcrumbSchema = {
   /* Lead-in under hero */
   .fsn-intro {
     padding: clamp(32px, 4vw, 56px) 16px clamp(8px, 2vw, 16px);
-    background: var(--color-brand-cream-warm, #f5ead4);
+    background: #f9f1de;
     color: var(--color-brand-brown);
     text-align: center;
   }
@@ -2017,6 +2028,14 @@ const breadcrumbSchema = {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    position: relative;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+  .fsn-loc:hover,
+  .fsn-loc:focus-within {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 26px rgba(74, 53, 32, 0.18);
+    border-color: var(--color-brand-rust);
   }
   .fsn-loc__fig {
     margin: 0;
@@ -2043,13 +2062,46 @@ const breadcrumbSchema = {
     font-size: 15px;
   }
   .fsn-loc__range {
-    margin: auto 16px 16px !important;
+    margin: auto 16px 12px !important;
     padding-top: 12px;
     border-top: 1px solid rgba(160, 58, 30, 0.15);
     color: var(--color-brand-rust);
     font-family: var(--font-display);
     font-size: 15px;
     letter-spacing: 0.04em;
+  }
+  /* "See serial numbers →" CTA — stretched-link makes the whole card clickable */
+  .fsn-loc__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 16px 16px;
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust);
+    text-decoration: none;
+  }
+  .fsn-loc__cta::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+  .fsn-loc__arrow {
+    transition: transform 0.18s ease;
+  }
+  .fsn-loc:hover .fsn-loc__cta,
+  .fsn-loc:focus-within .fsn-loc__cta {
+    color: var(--color-brand-rust-bright, #be4b25);
+  }
+  .fsn-loc:hover .fsn-loc__arrow {
+    transform: translateX(4px);
+  }
+  .fsn-loc__cta:focus-visible {
+    outline: 2px solid var(--color-brand-rust);
+    outline-offset: 3px;
   }
 
   /* Era timeline */
@@ -2127,6 +2179,41 @@ const breadcrumbSchema = {
   }
   .fsn-table tbody tr:nth-child(even) { background: #fbf4e3; }
   .fsn-table tbody tr:last-child td { border-bottom: none; }
+
+  /* Mobile: stack each row as a card instead of a side-scrolling table.
+     Cell labels (data-label) are filled in by the inline script below from
+     each table's own <thead> headers. */
+  @media (max-width: 600px) {
+    .fsn-table-wrap { overflow-x: visible; box-shadow: none; border-radius: 0; }
+    .fsn-table { min-width: 0; font-size: 14px; display: block; }
+    .fsn-table thead { display: none; }
+    .fsn-table tbody { display: block; }
+    .fsn-table tbody tr {
+      display: block;
+      background: #fff !important;
+      border: 1px solid rgba(160, 58, 30, 0.18);
+      border-radius: 8px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+    .fsn-table tbody td {
+      display: block;
+      padding: 8px 14px;
+      border-bottom: 1px solid rgba(160, 58, 30, 0.1);
+    }
+    .fsn-table tbody td:last-child { border-bottom: none; }
+    .fsn-table tbody td[data-label]::before {
+      content: attr(data-label);
+      display: block;
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--color-brand-rust);
+      margin-bottom: 2px;
+    }
+  }
 
   /* Era badges */
   .fsn-era {
@@ -2473,7 +2560,7 @@ const breadcrumbSchema = {
      The TOC sidebar is `position: fixed` and floats on the right of the
      viewport — see the global block below. */
   .fsn-tool-layout {
-    background: var(--color-brand-cream-warm, #f5ead4);
+    background: #f9f1de;
     padding: clamp(28px, 4vw, 56px) 16px 0;
   }
   .fsn-tool-layout__inner {
@@ -2518,10 +2605,14 @@ const breadcrumbSchema = {
   @media (max-width: 960px) {
     .fsn-header-backdrop__dark { height: 70px; }
     .fsn-header-backdrop__cream { height: 60px; }
+    /* Clear the overhanging site logo (taller than the header bar on narrow
+       screens) so it doesn't cover the tool card's eyebrow + heading. */
+    .fsn-tool-layout { padding-top: 64px; }
   }
   @media (max-width: 600px) {
     .fsn-header-backdrop__dark { height: 64px; }
     .fsn-header-backdrop__cream { height: 0; border-bottom: none; }
+    .fsn-tool-layout { padding-top: 84px; }
   }
 </style>
 
@@ -2698,7 +2789,7 @@ const breadcrumbSchema = {
 
   /* ===== About the Author block ===== */
   .fsn-author {
-    background: var(--color-brand-cream-warm, #f5ead4);
+    background: #f9f1de;
     padding: clamp(48px, 7vw, 88px) 16px;
     color: var(--color-brand-brown);
   }
@@ -2911,4 +3002,30 @@ const breadcrumbSchema = {
 <!-- Mark <body> so the header-override CSS above can target this page. -->
 <script is:inline>
   document.body.classList.add("fender-sn-page");
+
+  /* Label each table cell from its <thead> headers so the mobile card layout
+     (max-width:600px) can show "Header: value" per cell. */
+  (function () {
+    function labelTables() {
+      document.querySelectorAll("table.fsn-table").forEach(function (tbl) {
+        var headers = Array.prototype.map.call(
+          tbl.querySelectorAll("thead th"),
+          function (th) { return th.textContent.trim(); }
+        );
+        if (!headers.length) return;
+        tbl.querySelectorAll("tbody tr").forEach(function (tr) {
+          Array.prototype.forEach.call(tr.children, function (cell, i) {
+            if (cell.tagName === "TD" && headers[i]) {
+              cell.setAttribute("data-label", headers[i]);
+            }
+          });
+        });
+      });
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", labelTables);
+    } else {
+      labelTables();
+    }
+  })();
 </script>
