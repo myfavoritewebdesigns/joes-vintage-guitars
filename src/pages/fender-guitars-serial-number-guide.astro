@@ -1914,6 +1914,21 @@ const breadcrumbSchema = {
   </section>
 
   <ContactSection />
+
+  <!-- Mobile-only "Jump to a Section" button + expandable TOC panel (the fixed
+       sidebar TOC is desktop-only). The panel's links are cloned from the
+       sidebar list by the inline script below. Sits above the FloatingCTAs. -->
+  <button class="fsn-toc-fab" id="fsn-toc-fab" type="button" aria-expanded="false" aria-controls="fsn-toc-sheet">
+    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
+    Jump to a Section
+  </button>
+  <div class="fsn-toc-sheet" id="fsn-toc-sheet" role="dialog" aria-label="Jump to a section" aria-modal="false">
+    <div class="fsn-toc-sheet__head">
+      <span>Jump to a Section</span>
+      <button class="fsn-toc-sheet__close" id="fsn-toc-sheet-close" type="button" aria-label="Close section list">&times;</button>
+    </div>
+    <div class="fsn-toc-sheet__body" id="fsn-toc-sheet-body"></div>
+  </div>
 </Layout>
 
 <style>
@@ -2789,6 +2804,85 @@ const breadcrumbSchema = {
     .fsn-toc { display: none; }
   }
 
+  /* ===== Mobile "Jump to a Section" floating button + TOC panel ===== */
+  .fsn-toc-fab,
+  .fsn-toc-sheet { display: none; }
+  .fsn-toc-sheet__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(160, 58, 30, 0.15);
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust-dark, #682412);
+    position: sticky;
+    top: 0;
+    background: #fff;
+  }
+  .fsn-toc-sheet__close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    line-height: 1;
+    color: var(--color-brand-brown-muted, #6c5238);
+    cursor: pointer;
+    padding: 0 4px;
+  }
+  .fsn-toc-sheet__body { padding: 8px 0; }
+  @media (max-width: 1280px) {
+    .fsn-toc-fab {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      position: fixed;
+      left: 16px; /* bottom-left, clear of the contact CTAs on the right */
+      bottom: 1.5rem;
+      z-index: 45;
+      background: var(--color-brand-rust-bright, #be4b25);
+      color: #fff;
+      border: none;
+      border-radius: 999px;
+      padding: 11px 18px;
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.28);
+      cursor: pointer;
+    }
+    .fsn-toc-fab svg { width: 18px; height: 18px; }
+    .fsn-toc-fab[aria-expanded="true"] { background: var(--color-brand-rust-dark, #682412); }
+    .fsn-toc-sheet {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      left: 16px;
+      bottom: 5rem; /* opens upward from just above the bottom-left button */
+      width: min(340px, calc(100vw - 32px));
+      max-height: 60vh;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid rgba(160, 58, 30, 0.2);
+      border-radius: 12px;
+      box-shadow: 0 10px 34px rgba(0, 0, 0, 0.28);
+      z-index: 46;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(12px);
+      transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+    }
+    .fsn-toc-sheet.fsn-toc-sheet--open {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+
   /* On viewports where the TOC IS visible, narrow the body content so it
      doesn't slide under the floating sidebar. Live site does the same. */
   @media (min-width: 1281px) {
@@ -3057,6 +3151,36 @@ const breadcrumbSchema = {
       document.addEventListener("DOMContentLoaded", initTocHide);
     } else {
       initTocHide();
+    }
+  })();
+
+  /* Mobile "Jump to a Section" button: clone the sidebar TOC links into the
+     panel and wire up open/close. */
+  (function () {
+    function initMobileToc() {
+      var fab = document.getElementById("fsn-toc-fab");
+      var sheet = document.getElementById("fsn-toc-sheet");
+      var body = document.getElementById("fsn-toc-sheet-body");
+      var closeBtn = document.getElementById("fsn-toc-sheet-close");
+      var srcList = document.querySelector(".fsn-toc .fsn-toc__list");
+      if (!fab || !sheet || !body || !srcList) return;
+      body.appendChild(srcList.cloneNode(true));
+      function open() { sheet.classList.add("fsn-toc-sheet--open"); fab.setAttribute("aria-expanded", "true"); }
+      function close() { sheet.classList.remove("fsn-toc-sheet--open"); fab.setAttribute("aria-expanded", "false"); }
+      fab.addEventListener("click", function (e) {
+        e.stopPropagation();
+        sheet.classList.contains("fsn-toc-sheet--open") ? close() : open();
+      });
+      if (closeBtn) closeBtn.addEventListener("click", close);
+      body.addEventListener("click", function (e) { if (e.target.closest("a")) close(); });
+      document.addEventListener("click", function (e) {
+        if (!sheet.contains(e.target) && !fab.contains(e.target)) close();
+      });
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initMobileToc);
+    } else {
+      initMobileToc();
     }
   })();
 </script>
