@@ -451,7 +451,10 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
   .gsl-header-backdrop { background: var(--color-brand-rust-dark, #682412); height: 200px; }
   @media (max-width: 640px) { .gsl-header-backdrop { height: 160px; } }
 
-  .gsl-page { background: #fff; color: var(--color-brand-brown, #3e2a14); padding: 0 0 80px; }
+  /* padding-top clears the overhanging site logo, which hangs ~64px below the
+     200px header band and would otherwise cover the top-left of the H1. */
+  .gsl-page { background: #fff; color: var(--color-brand-brown, #3e2a14); padding: 48px 0 80px; }
+  @media (max-width: 640px) { .gsl-page { padding-top: 28px; } }
   .gsl-inner { max-width: 960px; margin: 0 auto; padding: 0 24px; }
 
   .gsl-h1 {
