@@ -1,0 +1,140 @@
+---
+/* Reusable serial-number table for the Guild guide.
+   Renders a horizontally-scrollable table that collapses to stacked
+   "cards" on mobile (each cell labelled from its column header via
+   data-label). All 9 Guild charts go through this one component. */
+interface Props {
+  headers: string[];
+  rows: string[][];
+  caption?: string;
+}
+const { headers, rows, caption } = Astro.props;
+---
+<div class="gsl-tablewrap" role="region" aria-label={caption ?? "Serial number chart"} tabindex="0">
+  <table class="gsl-table">
+    {caption && <caption class="gsl-table__cap">{caption}</caption>}
+    <thead>
+      <tr>{headers.map((h) => <th scope="col">{h}</th>)}</tr>
+    </thead>
+    <tbody>
+      {rows.map((row) => (
+        <tr>
+          {row.map((cell, i) => (
+            <td data-label={headers[i]} class={cell === "N/A" ? "is-na" : undefined}>{cell}</td>
+          ))}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .gsl-tablewrap {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 18px 0 22px;
+    border-radius: 10px;
+    border: 1px solid #e0dacc;
+    box-shadow: 0 2px 10px rgba(62, 42, 20, 0.07);
+  }
+  .gsl-tablewrap:focus-visible {
+    outline: 2px solid var(--color-brand-rust-bright, #be4b25);
+    outline-offset: 2px;
+  }
+  .gsl-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 460px;
+    background: #fff;
+  }
+  .gsl-table__cap {
+    caption-side: top;
+    text-align: left;
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust-dark, #682412);
+    padding: 12px 14px 10px;
+    background: var(--color-brand-cream-warm, #f5e7c8);
+  }
+  .gsl-table thead th {
+    position: sticky;
+    top: 0;
+    background: var(--color-brand-rust-dark, #682412);
+    color: #f3d9a8;
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 12px;
+    text-align: left;
+    padding: 10px 14px;
+    white-space: nowrap;
+    border-bottom: 1px solid #1a1614;
+  }
+  .gsl-table tbody td {
+    padding: 8px 14px;
+    border-bottom: 1px solid #ece5da;
+    color: var(--color-brand-brown, #3e2a14);
+    vertical-align: top;
+  }
+  .gsl-table tbody td:first-child {
+    font-weight: 600;
+    color: var(--color-brand-rust-dark, #682412);
+    white-space: nowrap;
+  }
+  .gsl-table tbody tr:nth-child(even) td {
+    background: var(--color-brand-cream-warm, #f7ecd4);
+  }
+  .gsl-table tbody td.is-na {
+    color: #b3a892;
+    font-weight: 400;
+  }
+
+  /* Mobile: collapse each row into a labelled card. */
+  @media (max-width: 640px) {
+    .gsl-tablewrap { overflow-x: visible; }
+    .gsl-table { min-width: 0; font-size: 13.5px; }
+    .gsl-table thead { display: none; }
+    .gsl-table tbody tr {
+      display: block;
+      margin: 10px;
+      border: 1px solid #e0dacc;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .gsl-table tbody tr:nth-child(even) td { background: transparent; }
+    .gsl-table tbody td {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 7px 12px;
+      border-bottom: 1px solid #f0e9dd;
+      text-align: right;
+    }
+    .gsl-table tbody td:first-child {
+      background: var(--color-brand-cream-warm, #f5e7c8);
+      font-size: 14px;
+      text-align: left;
+      justify-content: flex-start;
+    }
+    .gsl-table tbody td:last-child { border-bottom: none; }
+    .gsl-table tbody td::before {
+      content: attr(data-label);
+      font-family: var(--font-display, Oswald), sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #9a7b4e;
+      text-align: left;
+      flex-shrink: 0;
+    }
+    .gsl-table tbody td:first-child::before { display: none; }
+  }
+</style>

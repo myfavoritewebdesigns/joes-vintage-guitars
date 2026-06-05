@@ -1,0 +1,573 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE_URL } from "../config/site";
+import GuildTable from "../components/GuildTable.astro";
+// Decoder widget markup (handlers live in /scripts/gsl-tool.js, on window.*)
+import gslToolHtml from "../../reference/gsl-tool-html.html?raw";
+// Verbatim serial-number table data (transcribed from the live page)
+import {
+  numericalSequence,
+  generalRanges,
+  modelSpecific1965,
+  westerly1970,
+  prefixes1979,
+  westerly1984,
+  transition1990,
+  expansion1994,
+  late1997,
+} from "../data/guild-serial-data";
+
+const IMG = "/images/guild-sn";
+
+// --- Simple tables reshaped into the {headers, rows} the component wants ---
+const numSeqVM = {
+  headers: ["Year", "Approximate Serial Number Range"],
+  rows: numericalSequence.map((r) => [r.year, r.range]),
+};
+const genRangesVM = {
+  headers: ["Year", "Approximate Serial Number Range"],
+  rows: generalRanges.map((r) => [r.year, r.range]),
+};
+const westerlyVM = {
+  headers: ["Year", "First Number Produced", "Last Number Produced"],
+  rows: westerly1970.map((r) => [r.year, r.first, r.last]),
+};
+const late97VM = {
+  headers: ["Model", "1997 Serial Range"],
+  rows: late1997.map((r) => [r.model, r.range]),
+};
+
+// --- In-page navigation ---
+const navParts = [
+  { href: "#part1", label: "Part 1: Early Eras (1952–1969)" },
+  { href: "#part2", label: "Part 2: Westerly (1970–1979)" },
+  { href: "#part3", label: "Part 3: Model Prefixes (1979–1983)" },
+  { href: "#part4", label: "Part 4: Westerly Cont. (1984–1989)" },
+  { href: "#part5", label: "Part 5: 90s Transition (1990–1994)" },
+  { href: "#part6", label: "Part 6: Expansion (1994–1996)" },
+  { href: "#part7", label: "Part 7: Late Westerly (1997–1999)" },
+  { href: "#part8", label: "Part 8: Julian Dating & Authentication" },
+];
+
+const PAGE_URL = `${SITE_URL}/guild-serial-number-lookup/`;
+const OG_IMG =
+  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/02/guild-serial-number-guide-lookup-1024x683.jpg";
+
+// --- Structured data ---
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+    { "@type": "ListItem", position: 2, name: "Guild Serial Number Lookup", item: PAGE_URL },
+  ],
+};
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline: "Guild Serial Number Lookup: How To Date a Guild Guitar",
+  description:
+    "Date any Guild guitar from 1952 to today with full serial-number charts, an interactive decoder, and a professional authentication checklist.",
+  image: OG_IMG,
+  datePublished: "2026-03-12",
+  author: { "@type": "Person", name: "Joe Dampt", url: SITE_URL + "/about-me/" },
+  publisher: { "@id": SITE_URL + "/#organization" },
+  mainEntityOfPage: PAGE_URL,
+};
+const toolSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Guild Serial Number Decoder",
+  applicationCategory: "UtilityApplication",
+  operatingSystem: "All",
+  url: PAGE_URL,
+  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+  description:
+    "Free tool that dates Guild guitars from their serial number — sequential numbers (1953–1979) and modern Julian serials (2005+).",
+};
+const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
+---
+
+<Layout
+  title="Guild Serial Number Lookup & Decoder | Date Your Guild Guitar"
+  description="Date any Guild guitar from 1952 to today. Full serial-number charts by era, a free interactive decoder, Julian dating for modern models, and a pro authentication checklist."
+  canonical="/guild-serial-number-lookup/"
+  ogImage={OG_IMG}
+  ogType="article"
+  publishedTime="2026-03-12T00:00:00+00:00"
+  structuredData={structuredData}
+>
+  <!-- Band the (absolute) site Header sits over — brand rust-dark so it
+       matches the rest of the site. -->
+  <div class="gsl-header-backdrop" aria-hidden="true"></div>
+
+  <main class="gsl-page">
+    <div class="gsl-inner">
+      <h1 class="gsl-h1">Guild Serial Number Lookup: How To Date a Guild Guitar</h1>
+    </div>
+
+    <!-- Interactive decoder tool -->
+    <div class="gsl-tool-mount" set:html={gslToolHtml} />
+
+    <div class="gsl-inner">
+      <div class="gsl-disclaimer" role="note">
+        <span class="gsl-disclaimer__label">Heads-up</span>
+        <p>
+          Many Guild serial numbers are <strong>model-specific</strong>. From 1965&ndash;1969, and again from
+          1979 through 1996, the letter prefix identifies the model and the digits give the year, so the same
+          number can mean different things on different models. If your serial has a letter prefix, you'll need
+          to find your model in the era charts below to date it.
+        </p>
+      </div>
+
+      <figure class="gsl-photo gsl-photo--lead">
+        <img
+          src={`${IMG}/guild-serial-number-guide-lookup.jpg`}
+          alt="Detailed body shot of a vintage 1960s Guild Thunderbird S-200 electric guitar, showcasing its offset body shape, sunburst finish, and dual-pickup configuration."
+          width="1024"
+          height="683"
+          loading="eager"
+          decoding="async"
+        />
+        <figcaption>
+          Identifying the hallmarks of a 1960s legend: this Thunderbird body displays the distinctive
+          control layout and finish patterns essential for authenticating Hoboken-era Guilds.
+        </figcaption>
+      </figure>
+
+      <p class="gsl-lede">
+        Dating and authenticating a vintage Guild is a critical step in determining its market value. Serial
+        number charts are a vital foundation, but they are only one part of the puzzle. Guild's history is
+        defined by shifts in manufacturing locations — Manhattan and Hoboken, then Westerly, Tacoma, and New
+        Hartford — each with its own characteristics and numbering quirks.
+      </p>
+      <p class="gsl-byline">● Published March 12, 2026 by <a href="/about-me/">Joe Dampt</a></p>
+      <p>
+        This guide provides the full technical data needed to date your instrument, along with professional
+        authentication tips to confirm its originality. If you need help evaluating your vintage guitar, reach
+        out for a <a href="/free-appraisal/">free appraisal</a>. If you're ready to
+        <a href="/sell-my-guild-guitar/">sell a vintage Guild</a>, get in touch for a competitive cash offer.
+      </p>
+
+      <div class="gsl-callout gsl-callout--tip">
+        <p>
+          <strong>Optimized for mobile.</strong> Every chart below scrolls horizontally and stacks into
+          readable cards on a phone, so you can track model years and designations wherever you are. Enter your
+          number in the decoder above for an instant read, or browse the era charts directly.
+        </p>
+      </div>
+
+      <!-- ============ Part 1 ============ -->
+      <section class="gsl-section" id="part1">
+        <h2 class="gsl-h2">Part 1: The Early Eras (1952–1969)</h2>
+
+        <h3 class="gsl-h3">The Numerical Sequence (1953–1959)</h3>
+        <p>
+          In the earliest years of production, Guild used a straightforward numerical sequence. These
+          &ldquo;Hoboken&rdquo; era guitars are prized for their craftsmanship and often feature white internal
+          labels.
+        </p>
+        <GuildTable headers={numSeqVM.headers} rows={numSeqVM.rows} caption="The Numerical Sequence (1953–1959)" />
+
+        <h3 class="gsl-h3">General Ranges (1960–1969)</h3>
+        <p>
+          From 1960 to 1964, Guild continued a single sequential numbering system for all models. From 1965 to
+          1969, a separate serial system was introduced for each model. <strong>Your serial number may be a
+          sequential one or a model-specific one — check both charts and compare accordingly.</strong>
+        </p>
+        <GuildTable headers={genRangesVM.headers} rows={genRangesVM.rows} caption="General Ranges (1960–1969)" />
+
+        <h3 class="gsl-h3">Model-Specific Ranges (1965–1969)</h3>
+        <p>During this period, refer to the model-specific prefixes to determine the year.</p>
+        <div class="gsl-callout gsl-callout--tip">
+          <p>
+            <strong>Tip:</strong> the fastest way to navigate these model-specific charts on a computer is to
+            press <kbd>Ctrl</kbd>+<kbd>F</kbd> and type your prefix into the search bar. You can then jump
+            straight to the rows that share your guitar's prefix.
+          </p>
+        </div>
+        <GuildTable
+          headers={modelSpecific1965.headers}
+          rows={modelSpecific1965.rows}
+          caption="Model-Specific Ranges (1965–1969)"
+        />
+      </section>
+
+      <!-- ============ Part 2 ============ -->
+      <section class="gsl-section" id="part2">
+        <h2 class="gsl-h2">Part 2: The Westerly Era (1970–1979)</h2>
+        <p>
+          In 1970, Guild consolidated production back into a single sequential system. Dating Guilds from this
+          period is much easier than the preceding era — match your number to the year ranges below.
+        </p>
+        <GuildTable headers={westerlyVM.headers} rows={westerlyVM.rows} caption="The Westerly Era (1970–1979)" />
+      </section>
+
+      <!-- ============ Part 3 ============ -->
+      <section class="gsl-section" id="part3">
+        <h2 class="gsl-h2">Part 3: Return to Model Prefixes (1979–1983)</h2>
+        <p>
+          In late 1979, the prefix system was reintroduced. The figures below represent the <strong>last</strong>
+          serial number produced for each model in each year.
+        </p>
+        <GuildTable
+          headers={prefixes1979.headers}
+          rows={prefixes1979.rows}
+          caption="Return to Model Prefixes (1979–1983) — last serial of each year"
+        />
+      </section>
+
+      <!-- ============ Part 4 ============ -->
+      <section class="gsl-section" id="part4">
+        <h2 class="gsl-h2">Part 4: Westerly Era Continued (1984–1989)</h2>
+        <p>
+          During this high-production era, Guild continued model-specific serialization. Match your model to
+          find the <strong>last</strong> serial number of that year.
+        </p>
+        <GuildTable
+          headers={westerly1984.headers}
+          rows={westerly1984.rows}
+          caption="Westerly Era Continued (1984–1989) — last serial of each year"
+        />
+      </section>
+
+      <!-- ============ Part 5 ============ -->
+      <section class="gsl-section" id="part5">
+        <h2 class="gsl-h2">Part 5: The 90s Transition Era (1990–1994)</h2>
+        <p>Guild continued model-specific serialization through 1994.</p>
+        <GuildTable
+          headers={transition1990.headers}
+          rows={transition1990.rows}
+          caption="The 90s Transition Era (1990–1994) — last serial of each year"
+        />
+      </section>
+
+      <!-- ============ Part 6 ============ -->
+      <section class="gsl-section" id="part6">
+        <h2 class="gsl-h2">Part 6: Expansion and Model Prefixes (1994–1996)</h2>
+        <p>
+          For 1994, factory records typically provide only the model prefix and the last serial number. For 1995
+          and 1996, Guild returned to providing full production ranges (first and last serial numbers) for each
+          model. The table below is a complete record of this transition era.
+        </p>
+        <GuildTable
+          headers={expansion1994.headers}
+          rows={expansion1994.rows}
+          caption="Expansion and Model Prefixes (1994–1996)"
+        />
+      </section>
+
+      <!-- ============ Part 7 ============ -->
+      <section class="gsl-section" id="part7">
+        <h2 class="gsl-h2">Part 7: Late Westerly Era (1997–1999)</h2>
+        <p>
+          As the 1990s progressed, Guild provided detailed beginning and ending serial-number ranges for each
+          model. This chart covers 1997 production, including several legendary acoustics and the continuation
+          of the Starfire electric series.
+        </p>
+        <GuildTable headers={late97VM.headers} rows={late97VM.rows} caption="Late Westerly Era (1997 Ranges)" />
+      </section>
+
+      <!-- ============ Part 8 ============ -->
+      <section class="gsl-section" id="part8">
+        <h2 class="gsl-h2">Part 8: Modern Julian Dating &amp; Authentication Checklist</h2>
+
+        <h3 class="gsl-h3">The Julian Dating System (2005–Present)</h3>
+        <p>
+          For Guild instruments built in Tacoma, Washington (from February 2005) or New Hartford, Connecticut
+          (from December 2008), a specialized serial system is used. These numbers consist of two letters
+          followed by six digits — for example, <strong>TJ 037 016</strong>:
+        </p>
+        <ul class="gsl-list">
+          <li><strong>Factory Location:</strong> the first letter identifies the plant (<strong>T</strong> for Tacoma, <strong>N</strong> for New Hartford).</li>
+          <li><strong>Year Code:</strong> the second letter identifies the year — <strong>I</strong>=2005, <strong>J</strong>=2006, <strong>K</strong>=2007, <strong>L</strong>=2008, <strong>M</strong>=2009, <strong>N</strong>=2010.</li>
+          <li><strong>Julian Day:</strong> the first three digits give the day of the year (001–365).</li>
+          <li><strong>Unit Number:</strong> the final three digits are the specific unit built that day.</li>
+        </ul>
+        <div class="gsl-callout gsl-callout--tip">
+          <p>Have a serial in this format? The <a href="#" onclick="document.getElementById('gsl-input').focus();window.scrollTo({top:0,behavior:'smooth'});return false;">decoder at the top of the page</a> reads it for you instantly.</p>
+        </div>
+
+        <h2 class="gsl-h2">Professional Authentication Checklist</h2>
+        <figure class="gsl-photo gsl-photo--portrait">
+          <img
+            src={`${IMG}/1960s-guild-x-500-bigsby.jpg`}
+            alt="Full-body shot of a high-end 1960s Guild X-500 archtop electric guitar in sunburst finish, featuring a factory-installed Bigsby vibrato tailpiece, gold hardware, and multi-ply binding."
+            width="683"
+            height="1024"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            The flagship Guild X-500 from the 1960s — this example features a rare factory Bigsby tailpiece.
+            Combining elegant aesthetics with professional-grade versatility, the X-500 remains one of the most
+            sought-after archtops for collectors and players alike.
+          </figcaption>
+        </figure>
+        <p>
+          While serial numbers provide the baseline, expert authentication requires a physical inspection of
+          these key areas:
+        </p>
+
+        <h3 class="gsl-h3">1. Internal Labels</h3>
+        <ul class="gsl-list">
+          <li><strong>Hoboken Era (1950s–60s):</strong> look for a white label explicitly stating &ldquo;Hoboken, New Jersey.&rdquo;</li>
+          <li><strong>Westerly Era (1970s–90s):</strong> these typically moved to a cream or tan label.</li>
+          <li><strong>Consistency:</strong> always ensure the serial number on the label matches the number stamped on the back of the headstock exactly.</li>
+        </ul>
+
+        <h3 class="gsl-h3">2. Potentiometer (Pot) Codes</h3>
+        <ul class="gsl-list">
+          <li>For electric models, check the seven-digit EIA code on the pots.</li>
+          <li>The first three digits (usually 137) identify the manufacturer (CTS).</li>
+          <li>The next two digits identify the year, and the last two the week of production.</li>
+        </ul>
+
+        <h3 class="gsl-h3">3. Finish and Structure</h3>
+        <ul class="gsl-list">
+          <li><strong>Nitrocellulose Check:</strong> vintage Guilds used nitrocellulose lacquer, which often develops fine &ldquo;weather checking&rdquo; lines over time.</li>
+          <li><strong>Binding Shrinkage:</strong> minor shrinkage of the headstock or body binding is common on vintage units and is often a sign of original materials.</li>
+        </ul>
+
+        <h3 class="gsl-h3">Consider Selling Your Vintage Guild to Joe&rsquo;s Vintage Guitars</h3>
+        <div class="gsl-cta-strip">
+          <p>
+            I'm a dedicated buyer of Westerly and Hoboken-era Guilds, and I travel the U.S. to make top-dollar
+            cash offers, with prepaid packing and fully insured shipping. If you've used this guide to date your
+            instrument and you're ready to find it a new home, contact me for a free professional evaluation.
+          </p>
+          <a href="/sell-my-guild-guitar/">Sell My Guild</a>
+        </div>
+      </section>
+
+      <!-- Author bio -->
+      <section class="gsl-author" aria-label="About the author">
+        <img
+          class="gsl-author__photo"
+          src={`${IMG}/joe-dampt.jpg`}
+          alt="Joe Dampt, owner of Joe's Vintage Guitars"
+          width="120"
+          height="120"
+          loading="lazy"
+          decoding="async"
+        />
+        <div class="gsl-author__body">
+          <p class="gsl-author__name">Written by <a href="/about-me/">Joe Dampt</a></p>
+          <p class="gsl-author__quote">
+            &ldquo;Driven by a love for classic tunes, I specialize in buying, selling, and appraising vintage
+            guitars, bringing music and history together.&rdquo;
+          </p>
+          <p class="gsl-author__date">Published On: March 12, 2026</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Floating in-page navigation (desktop fixed sidebar ≥900px; mobile bottom-left button + panel) -->
+  <nav class="jvg-nav-sidebar" aria-label="Page section navigation">
+    <div class="jvg-nav-sidebar-header"><strong>Guild Serial Number Guide</strong></div>
+    <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="jvg-nav-link top">↑ Decoder Tool — Top of Page</a>
+    {navParts.map((i) => <a href={i.href} class="jvg-nav-link"><span class="jvg-nav-dot"></span>{i.label}</a>)}
+  </nav>
+
+  <button class="jvg-nav-btn" id="jvgNavBtn" onclick="toggleJvgNav()" aria-expanded="false" aria-controls="jvgNavPanel">
+    <span class="jvg-nav-icon">☰</span> Jump To Section
+  </button>
+
+  <div class="jvg-nav-panel" id="jvgNavPanel" role="navigation" aria-label="Page section navigation">
+    <div class="jvg-nav-panel-header"><strong>Guild Serial Number Guide</strong></div>
+    <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});closeJvgNav();return false;" class="jvg-nav-link top">↑ Decoder Tool — Top of Page</a>
+    {navParts.map((i) => <a href={i.href} onclick="closeJvgNav()" class="jvg-nav-link"><span class="jvg-nav-dot"></span>{i.label}</a>)}
+  </div>
+</Layout>
+
+<!-- Decoder logic (handlers attach to window.*) -->
+<script src="/scripts/gsl-tool.js" is:inline></script>
+
+<!-- Body class drives the secondary-nav color + floating-CTA overrides below. -->
+<script is:inline>document.body.classList.add("guild-sn-page");</script>
+
+<!-- Floating nav toggle (mobile) -->
+<script is:inline>
+  function toggleJvgNav() {
+    var btn = document.getElementById("jvgNavBtn");
+    var panel = document.getElementById("jvgNavPanel");
+    if (panel.classList.contains("open")) { closeJvgNav(); }
+    else { panel.classList.add("open"); btn.classList.add("open"); btn.setAttribute("aria-expanded", "true"); }
+  }
+  function closeJvgNav() {
+    var btn = document.getElementById("jvgNavBtn");
+    var panel = document.getElementById("jvgNavPanel");
+    if (btn) { btn.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); }
+    if (panel) { panel.classList.remove("open"); }
+  }
+  document.addEventListener("click", function (e) {
+    var btn = document.getElementById("jvgNavBtn");
+    var panel = document.getElementById("jvgNavPanel");
+    if (!btn || !panel) return;
+    if (!btn.contains(e.target) && !panel.contains(e.target)) closeJvgNav();
+  });
+</script>
+
+<style is:global>
+  /* Secondary-nav links sit on the dark rust header band. Brown is correct for
+     the dropdown flyout items (white panels); keep the top-level links white. */
+  body.guild-sn-page header nav.border-b-\[6px\] a { color: var(--color-brand-brown) !important; }
+  body.guild-sn-page header nav.border-b-\[6px\] > ul > li > a { color: #fff !important; }
+  body.guild-sn-page header nav.border-b-\[6px\] > ul > li > a:hover { color: var(--color-brand-cream) !important; }
+
+  /* The fixed TOC sidebar overlaps the bottom-right floating contact icons on
+     desktop; hide them on this page at ≥900px (kept on mobile). */
+  @media (min-width: 900px) {
+    body.guild-sn-page aside[aria-label="Quick contact"] { display: none; }
+  }
+
+  /* Decoder tool — global because the widget is injected via set:html and
+     therefore carries no scoped-style hash. */
+  .gsl-tool { background: var(--color-brand-cream-light, #f6e9cf); padding: 40px 20px; border-bottom: 5px solid var(--color-brand-rust, #a03a1e); display: flex; justify-content: center; }
+  .gsl-tool__card { background: #fff; width: 100%; max-width: 720px; padding: 30px 28px; border-radius: 14px; box-shadow: 0 12px 32px rgba(62, 42, 20, 0.14); border: 1px solid #e0dacc; text-align: center; }
+  .gsl-tool__title { font-family: var(--font-display, Oswald), sans-serif; font-size: clamp(22px, 3vw, 28px); color: var(--color-brand-rust-dark, #682412); margin: 0 0 8px; }
+  .gsl-tool__sub { font-size: 14px; color: var(--color-brand-brown, #3e2a14); line-height: 1.6; margin: 0 auto 20px; max-width: 560px; }
+  .gsl-tool__label { display: block; font-family: var(--font-display, Oswald), sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-brand-brown-muted, #6c5238); margin-bottom: 8px; }
+  .gsl-tool__inputwrap { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+  .gsl-tool__input { flex: 1 1 240px; min-width: 0; border: 2px solid #cdbf9f; border-radius: 8px; padding: 13px 16px; font-size: 17px; font-family: "Courier New", monospace; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-brand-brown, #3e2a14); outline: none; transition: border-color 0.2s; }
+  .gsl-tool__input:focus { border-color: var(--color-brand-rust-bright, #be4b25); }
+  .gsl-tool__input::placeholder { color: #b6a888; text-transform: none; }
+  .gsl-tool__btn { background: var(--color-brand-rust, #a03a1e); color: #fff; border: none; border-radius: 8px; padding: 13px 30px; font-family: var(--font-display, Oswald), sans-serif; font-weight: 600; font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; transition: background 0.2s; }
+  .gsl-tool__btn:hover { background: var(--color-brand-rust-dark, #682412); }
+  .gsl-tool__result { display: none; margin-top: 20px; padding: 16px 18px; background: var(--color-brand-cream-warm, #f5e7c8); border-left: 4px solid var(--color-brand-rust-bright, #be4b25); border-radius: 8px; color: var(--color-brand-brown, #3e2a14); line-height: 1.6; text-align: left; }
+  .gsl-tool__result.is-visible { display: block; }
+  .gsl-tool__result.is-warn { border-left-color: var(--color-brand-gold, #c8983a); background: #faf2dd; }
+  .gsl-tool__result.is-error { border-left-color: #9a3010; background: #fbeae3; }
+  .gsl-tool__result .gsl-tool__link { color: var(--color-brand-rust-dark, #682412); font-weight: 600; }
+  .gsl-tool__result kbd { background: #fff; border: 1px solid #cdbf9f; border-radius: 4px; padding: 1px 6px; font-size: 12px; font-family: inherit; }
+  .gsl-tool__hint { font-size: 12.5px; color: var(--color-brand-brown-muted, #6c5238); margin: 14px 0 0; }
+  .gsl-tool__eg { background: #f1e7d0; border: 1px solid #ddcfa9; border-radius: 5px; padding: 2px 8px; font-family: "Courier New", monospace; font-size: 12.5px; color: var(--color-brand-rust-dark, #682412); cursor: pointer; }
+  .gsl-tool__eg:hover { background: #e9dcbd; }
+</style>
+
+<style>
+  /* ===== Guild serial guide (.gsl-*) — Archetype B reference page ===== */
+  .gsl-header-backdrop { background: var(--color-brand-rust-dark, #682412); height: 200px; }
+  @media (max-width: 640px) { .gsl-header-backdrop { height: 160px; } }
+
+  .gsl-page { background: #fff; color: var(--color-brand-brown, #3e2a14); padding: 0 0 80px; }
+  .gsl-inner { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+  .gsl-h1 {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: clamp(28px, 4vw, 42px);
+    line-height: 1.15;
+    color: var(--color-brand-rust-dark, #682412);
+    margin: 36px 0 4px;
+  }
+  .gsl-page p { line-height: 1.75; margin: 0 0 16px; }
+  .gsl-page a { color: var(--color-brand-rust-dark, #682412); text-decoration: underline; }
+  .gsl-page a:hover { color: var(--color-brand-rust-bright, #be4b25); }
+  .gsl-page strong { color: var(--color-brand-rust-dark, #682412); }
+  .gsl-lede { font-size: 18px; }
+  .gsl-byline { font-size: 13.5px; color: var(--color-brand-brown-muted, #6c5238); margin-top: -6px; }
+  .gsl-byline a { color: var(--color-brand-rust-dark); }
+
+  .gsl-section { margin-top: 8px; }
+  .gsl-h2 {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: clamp(23px, 3vw, 32px);
+    color: var(--color-brand-rust-dark, #682412);
+    margin: 44px 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--color-brand-rust, #a03a1e);
+    scroll-margin-top: 90px;
+  }
+  .gsl-h3 {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: clamp(19px, 2.3vw, 24px);
+    color: var(--color-brand-brown, #3e2a14);
+    margin: 30px 0 10px;
+    scroll-margin-top: 90px;
+  }
+  .gsl-h4 {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 17px;
+    color: var(--color-brand-rust-dark, #682412);
+    margin: 22px 0 6px;
+  }
+  .gsl-list { margin: 0 0 18px; padding-left: 22px; }
+  .gsl-list li { line-height: 1.7; margin-bottom: 8px; }
+
+  /* Decoder tool wrapper. The widget itself is injected via set:html, so its
+     .gsl-tool__* classes are styled in the is:global block above (scoped rules
+     can't reach set:html'd markup). */
+  .gsl-tool-mount { margin: 0 0 34px; }
+
+  /* Photos */
+  .gsl-photo { margin: 22px 0; }
+  .gsl-photo img { width: 100%; height: auto; border-radius: 10px; display: block; box-shadow: 0 6px 20px rgba(62, 42, 20, 0.16); }
+  .gsl-photo figcaption { font-size: 13px; font-style: italic; color: var(--color-brand-brown-muted, #6c5238); line-height: 1.5; margin-top: 8px; }
+  .gsl-photo--portrait { max-width: 420px; }
+  .gsl-photo--portrait img { aspect-ratio: 2 / 3; object-fit: cover; }
+
+  /* Model-specific disclaimer box (sits under the decoder) */
+  .gsl-disclaimer { display: flex; gap: 14px; align-items: flex-start; background: #faf2dd; border: 1px solid #e6cf95; border-left: 5px solid var(--color-brand-gold, #c8983a); border-radius: 8px; padding: 15px 18px; margin: 4px 0 26px; }
+  .gsl-disclaimer__label { flex-shrink: 0; font-family: var(--font-display, Oswald), sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #fff; background: var(--color-brand-gold, #c8983a); padding: 4px 10px; border-radius: 4px; margin-top: 2px; }
+  .gsl-disclaimer p { margin: 0; line-height: 1.65; font-size: 15px; }
+  @media (max-width: 480px) { .gsl-disclaimer { flex-direction: column; gap: 8px; } }
+
+  /* Callouts */
+  .gsl-callout { background: #f5f0e6; border-left: 4px solid var(--color-brand-rust, #a03a1e); border-radius: 6px; padding: 14px 18px; margin: 18px 0; }
+  .gsl-callout p { margin: 0; line-height: 1.6; }
+  .gsl-callout--tip { border-left-color: var(--color-brand-gold, #c8983a); background: #faf4e4; }
+  .gsl-callout kbd { background: #fff; border: 1px solid #cdbf9f; border-radius: 4px; padding: 1px 6px; font-size: 12px; }
+
+  /* CTA strip */
+  .gsl-cta-strip { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; background: var(--color-brand-brown, #3e2a14); color: #fff; border-radius: 12px; padding: 22px 26px; margin: 30px 0; }
+  .gsl-cta-strip p { margin: 0; color: #fff; flex: 1 1 320px; }
+  .gsl-cta-strip strong { color: #fff; }
+  .gsl-cta-strip a { background: var(--color-brand-rust-bright, #be4b25); color: #fff !important; text-decoration: none; font-family: var(--font-display, Oswald), sans-serif; font-weight: 600; text-transform: uppercase; padding: 12px 26px; border-radius: 6px; white-space: nowrap; }
+  .gsl-cta-strip a:hover { background: var(--color-brand-cream, #eedfc0); color: var(--color-brand-brown, #3e2a14) !important; }
+
+  /* Author bio */
+  .gsl-author { display: flex; gap: 18px; align-items: flex-start; margin: 44px 0 0; padding: 22px; background: var(--color-brand-cream-light, #f6e9cf); border-radius: 12px; }
+  .gsl-author__photo { width: 84px; height: 84px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid var(--color-brand-rust, #a03a1e); }
+  .gsl-author__name { font-family: var(--font-display, Oswald), sans-serif; font-weight: 600; margin: 0 0 4px; }
+  .gsl-author__quote { font-style: italic; margin: 0 0 6px; }
+  .gsl-author__date { font-size: 12.5px; color: var(--color-brand-brown-muted, #6c5238); margin: 0; }
+
+  /* ===== Floating in-page nav (jvg-nav) ===== */
+  .jvg-nav-btn { display: none; position: fixed; left: 24px; bottom: 1.5rem; top: auto; right: auto; z-index: 9999; background: #b93c15; color: #fff; border: none; border-radius: 50px; padding: 13px 22px; font-family: var(--font-display, Oswald), sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; cursor: pointer; box-shadow: 0 4px 20px rgba(185,60,21,.45); align-items: center; gap: 8px; transition: background .2s, box-shadow .2s, transform .2s; }
+  .jvg-nav-btn:hover { background: #9a3010; box-shadow: 0 6px 28px rgba(185,60,21,.55); transform: translateY(-2px); }
+  .jvg-nav-btn.open { background: #7b1d1d; }
+  .jvg-nav-icon { font-size: 15px; line-height: 1; transition: transform .3s; }
+  .jvg-nav-btn.open .jvg-nav-icon { transform: rotate(45deg); }
+  .jvg-nav-sidebar { position: fixed; top: 170px; right: 24px; z-index: 9998; width: 260px; max-height: calc(100vh - 200px); overflow-y: auto; background: #fff; border: 1px solid #e0dacc; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.12); display: none; flex-direction: column; }
+  .jvg-nav-panel { position: fixed; left: 24px; bottom: 5rem; top: auto; right: auto; z-index: 9998; width: 300px; max-height: 70vh; overflow-y: auto; background: #fff; border: 1px solid #e0dacc; border-radius: 14px; box-shadow: 0 12px 40px rgba(0,0,0,.18); flex-direction: column; display: none; }
+  .jvg-nav-panel.open { display: flex; }
+  .jvg-nav-panel-header, .jvg-nav-sidebar-header { background: #7b1d1d; padding: 16px 18px; border-radius: 10px 10px 0 0; flex-shrink: 0; }
+  .jvg-nav-panel-header strong, .jvg-nav-sidebar-header strong { display: block; color: #fff; font-family: var(--font-display, Oswald), sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }
+  .jvg-nav-link, .jvg-nav-link:link, .jvg-nav-link:visited { display: flex; padding: 10px 18px; font-family: var(--font-display, Oswald), sans-serif; font-size: 12px; font-weight: 700; color: #4a3427 !important; text-decoration: none !important; text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid #f0ebe3; transition: background .15s, color .15s; align-items: center; gap: 8px; }
+  .jvg-nav-link:last-child { border-bottom: none; }
+  .jvg-nav-link:focus, .jvg-nav-link:hover { background: #f9f7f2; color: #b93c15 !important; }
+  .jvg-nav-link.top, .jvg-nav-link.top:link, .jvg-nav-link.top:visited { background: #fff8f0; color: #b93c15 !important; border-bottom: 2px solid #e0dacc; }
+  .jvg-nav-link.top:hover { background: #fef0e6; }
+  .jvg-nav-dot { width: 6px; height: 6px; border-radius: 50%; background: #b93c15; flex-shrink: 0; }
+  @media (min-width: 900px) {
+    .jvg-nav-btn { display: none !important; }
+    .jvg-nav-panel { display: none !important; }
+    .jvg-nav-sidebar { display: flex !important; }
+  }
+  @media (min-width: 900px) {
+    /* Reserve space on the right for the fixed TOC sidebar so no content
+       (decoder band, tables, prose) ever slides under it. The header backdrop
+       is a separate element and stays full-width. */
+    .gsl-page { padding-right: 300px; }
+  }
+  @media (max-width: 899px) {
+    .jvg-nav-sidebar { display: none !important; }
+    .jvg-nav-btn { display: flex !important; }
+    .jvg-nav-panel { left: 16px; bottom: 5rem; top: auto; right: auto; width: calc(100vw - 32px); max-width: 320px; }
+  }
+  @media (max-width: 640px) {
+    .gsl-inner { padding: 0 16px; }
+    .gsl-cta-strip a { flex: 1 1 100%; text-align: center; }
+  }
+</style>

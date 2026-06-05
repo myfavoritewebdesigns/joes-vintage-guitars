@@ -1,0 +1,15 @@
+<section class="gsl-tool" role="region" aria-label="Free Guild Serial Number Decoder Tool">
+  <div class="gsl-tool__card">
+    <h2 class="gsl-tool__title">Guild Serial Number Decoder</h2>
+    <p class="gsl-tool__sub">Enter your serial number exactly as it appears on the headstock or label. The decoder instantly dates plain sequential serial numbers (1953&ndash;1979) and modern Julian serials (2005+).</p>
+    <div class="gsl-tool__row">
+      <label class="gsl-tool__label" for="gsl-input">Serial Number</label>
+      <div class="gsl-tool__inputwrap">
+        <input id="gsl-input" class="gsl-tool__input" type="text" maxlength="14" placeholder="e.g. 75603  or  TJ037016" autocomplete="off" spellcheck="false" inputmode="text" />
+        <button id="gsl-decode" class="gsl-tool__btn" type="button" onclick="gslDecode()">Decode</button>
+      </div>
+    </div>
+    <div id="gsl-result" class="gsl-tool__result" aria-live="polite"></div>
+    <p class="gsl-tool__hint">Examples: <button type="button" class="gsl-tool__eg" onclick="document.getElementById('gsl-input').value=this.textContent;gslDecode();">75603</button> (1973 sequential) &middot; <button type="button" class="gsl-tool__eg" onclick="document.getElementById('gsl-input').value=this.textContent;gslDecode();">TJ037016</button> (2006 Tacoma)</p>
+  </div>
+</section>
