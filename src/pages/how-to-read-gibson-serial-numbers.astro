@@ -141,8 +141,9 @@ const personSchema = {
   <!-- Body class drives the Archetype-B secondary-nav color override (white → brown). -->
   <script is:inline>document.body.classList.add("gibson-sn-page");</script>
 
-  <!-- Dark navy band the (absolute) site Header sits over. Matches live's
-       page-title-bar (#1e2033, ~200px tall). -->
+  <!-- Band the (absolute) site Header sits over. Live's page-title-bar is
+       dark navy (#1e2033); we use brand rust-dark instead so it matches the
+       rest of the site (see decision log). ~200px tall. -->
   <div class="gsn-header-backdrop" aria-hidden="true"></div>
 
   <main class="gsn-page">
@@ -1573,6 +1574,13 @@ const personSchema = {
   /* ===== Archetype-B secondary-nav color override on this page ===== */
   body.gibson-sn-page header nav.border-b-\[6px\] a { color: var(--color-brand-brown) !important; }
 
+  /* On desktop the fixed TOC sidebar (right side) overlaps the global
+     bottom-right floating contact icons. Hide them on this page at >=900px;
+     they remain on mobile, where the TOC is a bottom-left button instead. */
+  @media (min-width: 900px) {
+    body.gibson-sn-page aside[aria-label="Quick contact"] { display: none; }
+  }
+
   /* ============================================================
      Gibson decoder TOOL — original class names preserved so the
      IIFE in /scripts/gsn-tool.js finds its DOM targets. Ported
@@ -1666,7 +1674,7 @@ const personSchema = {
      Page chrome (.gsn-*) — hand-built, scoped. Reproduces live's
      wood/cream Gibson SN look using the brand + tool palette.
      ============================================================ */
-  .gsn-header-backdrop { background: #1e2033; height: 200px; }
+  .gsn-header-backdrop { background: var(--color-brand-rust-dark, #682412); height: 200px; }
   @media (max-width: 640px) { .gsn-header-backdrop { height: 160px; } }
 
   .gsn-page { background: #fff; color: var(--color-brand-brown); padding: 0 0 80px; }
@@ -1815,7 +1823,7 @@ const personSchema = {
   /* Two-up compare grid (buttons, nickel/chrome) */
   .gsn-compare2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 22px 0; }
   .gsn-compare2 figure { margin: 0; background: #fff; border: 1px solid #e0dacc; border-radius: 12px; overflow: hidden; }
-  .gsn-compare2 img { width: 100%; height: 200px; object-fit: cover; display: block; }
+  .gsn-compare2 img { width: 100%; height: auto; display: block; }
   .gsn-compare2 figcaption { padding: 12px 16px; font-size: 13.5px; }
   .gsn-compare2 figcaption b { display: block; font-family: var(--font-display); color: var(--color-brand-rust-dark, #682412); margin-bottom: 4px; }
 
@@ -1823,7 +1831,7 @@ const personSchema = {
   .gsn-progression { margin: 18px 0; }
   .gsn-progression__row { display: grid; grid-template-columns: 120px 1fr 110px; align-items: center; gap: 12px; margin: 8px 0; font-size: 14px; }
   .gsn-progression__track { background: #efe7d7; border-radius: 6px; height: 16px; overflow: hidden; }
-  .gsn-progression__fill { background: var(--wood, #b93c15); height: 100%; }
+  .gsn-progression__fill { display: block; background: var(--wood, #b93c15); height: 100%; border-radius: 6px; }
 
   /* Case swatches */
   .gsn-case-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; margin: 22px 0; }
@@ -1912,13 +1920,13 @@ const personSchema = {
   .gsn-author__ctas a:last-child { background: transparent; border: 2px solid var(--border, #d2b48c); color: var(--border, #d2b48c); }
 
   /* Floating in-page nav (jvg-nav) — ported from live */
-  .jvg-nav-btn { display: none; position: fixed; top: 32px; right: 24px; z-index: 9999; background: #b93c15; color: #fff; border: none; border-radius: 50px; padding: 13px 22px; font-family: var(--font-display, Oswald), sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; cursor: pointer; box-shadow: 0 4px 20px rgba(185,60,21,.45); align-items: center; gap: 8px; transition: background .2s, box-shadow .2s, transform .2s; }
+  .jvg-nav-btn { display: none; position: fixed; left: 24px; bottom: 1.5rem; top: auto; right: auto; z-index: 9999; background: #b93c15; color: #fff; border: none; border-radius: 50px; padding: 13px 22px; font-family: var(--font-display, Oswald), sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; cursor: pointer; box-shadow: 0 4px 20px rgba(185,60,21,.45); align-items: center; gap: 8px; transition: background .2s, box-shadow .2s, transform .2s; }
   .jvg-nav-btn:hover { background: #9a3010; box-shadow: 0 6px 28px rgba(185,60,21,.55); transform: translateY(-2px); }
   .jvg-nav-btn.open { background: #7b1d1d; }
   .jvg-nav-icon { font-size: 15px; line-height: 1; transition: transform .3s; }
   .jvg-nav-btn.open .jvg-nav-icon { transform: rotate(45deg); }
   .jvg-nav-sidebar { position: fixed; top: 170px; right: 24px; z-index: 9998; width: 260px; max-height: calc(100vh - 200px); overflow-y: auto; background: #fff; border: 1px solid #e0dacc; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.12); display: none; flex-direction: column; }
-  .jvg-nav-panel { position: fixed; top: 90px; right: 24px; z-index: 9998; width: 300px; max-height: 80vh; overflow-y: auto; background: #fff; border: 1px solid #e0dacc; border-radius: 14px; box-shadow: 0 12px 40px rgba(0,0,0,.18); flex-direction: column; display: none; }
+  .jvg-nav-panel { position: fixed; left: 24px; bottom: 5rem; top: auto; right: auto; z-index: 9998; width: 300px; max-height: 70vh; overflow-y: auto; background: #fff; border: 1px solid #e0dacc; border-radius: 14px; box-shadow: 0 12px 40px rgba(0,0,0,.18); flex-direction: column; display: none; }
   .jvg-nav-panel.open { display: flex; }
   .jvg-nav-panel-header, .jvg-nav-sidebar-header { background: #7b1d1d; padding: 16px 18px; border-radius: 10px 10px 0 0; flex-shrink: 0; }
   .jvg-nav-panel-header strong, .jvg-nav-sidebar-header strong { display: block; color: #fff; font-family: var(--font-display, Oswald), sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }
@@ -1933,11 +1941,15 @@ const personSchema = {
     .jvg-nav-btn { display: none !important; }
     .jvg-nav-panel { display: none !important; }
     .jvg-nav-sidebar { display: flex !important; }
+    /* The fixed TOC sidebar overlaps the content's right edge, covering these
+       CTA strips. Hide them on desktop (the sidebar + inline appraisal links
+       cover the same intent); they remain on mobile where there's no sidebar. */
+    .gsn-cta-strip { display: none; }
   }
   @media (max-width: 899px) {
     .jvg-nav-sidebar { display: none !important; }
     .jvg-nav-btn { display: flex !important; }
-    .jvg-nav-panel { right: 16px; top: 90px; width: calc(100vw - 32px); max-width: 320px; }
+    .jvg-nav-panel { left: 16px; bottom: 5rem; top: auto; right: auto; width: calc(100vw - 32px); max-width: 320px; }
   }
 
   @media (max-width: 760px) {
