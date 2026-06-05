@@ -1582,7 +1582,13 @@ const personSchema = {
 
 <style is:global>
   /* ===== Archetype-B secondary-nav color override on this page ===== */
+  /* Brown is for the dropdown-menu links, which sit on white flyout panels. */
   body.gibson-sn-page header nav.border-b-\[6px\] a { color: var(--color-brand-brown) !important; }
+  /* The top-level secondary-nav links (e.g. "Free Appraisal") sit on the dark
+     header band, not a white panel, so keep them white like the dropdown
+     triggers next to them. */
+  body.gibson-sn-page header nav.border-b-\[6px\] > ul > li > a { color: #fff !important; }
+  body.gibson-sn-page header nav.border-b-\[6px\] > ul > li > a:hover { color: var(--color-brand-cream) !important; }
 
   /* On desktop the fixed TOC sidebar (right side) overlaps the global
      bottom-right floating contact icons. Hide them on this page at >=900px;
