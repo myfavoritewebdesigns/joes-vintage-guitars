@@ -84,9 +84,60 @@ const structuredData = [
   ogImage={`${IMG}/champ.jpg`}
   structuredData={structuredData}
 >
+  <!-- Band the (absolute) site Header sits over, so the nav reads on the dark backdrop -->
+  <div class="fas-header-backdrop" aria-hidden="true"></div>
+
   <section class="fas-page">
     <div class="fas-inner">
       <h1 class="fas-title">Vintage Fender Amp Serial Numbers – How To Find The Year</h1>
+
+      <!-- Interactive date-code decoder -->
+      <div class="fas-tool" id="amp-decoder">
+        <div class="fas-tool__head">
+          <h2 class="fas-tool__title">Fender Amp Date Code Decoder</h2>
+          <p class="fas-tool__sub">
+            Enter the <strong>two-letter code</strong> stamped on your amp&rsquo;s tube chart and we&rsquo;ll tell
+            you the month and year it was built.
+          </p>
+        </div>
+        <div class="fas-tool__body">
+          <div class="fas-tool__form">
+            <label class="fas-tool__label" for="amp-code">Tube chart date code</label>
+            <div class="fas-tool__row">
+              <input
+                id="amp-code"
+                class="fas-tool__input"
+                type="text"
+                maxlength="2"
+                autocomplete="off"
+                autocapitalize="characters"
+                spellcheck="false"
+                placeholder="e.g. OC"
+                aria-describedby="amp-result"
+              />
+              <button id="amp-decode-btn" class="fas-tool__btn" type="button">Decode</button>
+            </div>
+            <p class="fas-tool__examples">
+              Try:
+              <button type="button" class="fas-tool__ex" data-code="OC">OC</button> (March 1965) &middot;
+              <button type="button" class="fas-tool__ex" data-code="GA">GA</button> (January 1957)
+            </p>
+            <div id="amp-result" class="fas-tool__result" role="status" aria-live="polite"></div>
+          </div>
+          <figure class="fas-tool__figure">
+            <img
+              src={`${IMG}/Princeton-Tube-Chart.jpg`}
+              alt="Fender amplifier tube chart with the ink-stamped two-letter date code. The first letter is the year and the second letter is the month."
+              loading="eager"
+              decoding="async"
+            />
+            <figcaption>
+              Look for the ink-stamped <strong>two-letter code</strong> on the paper tube chart glued inside the
+              amp chassis. The <strong>first letter is the year</strong>, the <strong>second is the month</strong>.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
 
       <!-- Collapsible TOC — matches live's <details class="table-of-contents"> -->
       <details class="fas-toc">
@@ -279,13 +330,60 @@ const structuredData = [
       </div>
     </div>
   </section>
+
+  <script is:inline>document.body.classList.add("fas-amp-page");</script>
+
+  <script is:inline>
+    (function () {
+      var YEAR = { A: 1951, B: 1952, C: 1953, D: 1954, E: 1955, F: 1956, G: 1957, H: 1958, I: 1959, J: 1960, K: 1961, L: 1962, M: 1963, N: 1964, O: 1965, P: 1966, Q: 1967, R: 1968, S: 1969, T: 1970 };
+      var MONTH = { A: "January", B: "February", C: "March", D: "April", E: "May", F: "June", G: "July", H: "August", I: "September", J: "October", K: "November", L: "December" };
+      var input = document.getElementById("amp-code");
+      var btn = document.getElementById("amp-decode-btn");
+      var out = document.getElementById("amp-result");
+      if (!input || !btn || !out) return;
+      function show(cls, html) { out.className = "fas-tool__result " + cls; out.innerHTML = html; }
+      function decode() {
+        var v = (input.value || "").toUpperCase().replace(/[^A-Z]/g, "");
+        if (v.length < 2) { show("is-error", "Enter the <strong>two-letter</strong> code from the tube chart (for example, <strong>OC</strong>)."); return; }
+        var y = v.charAt(0), m = v.charAt(1), year = YEAR[y], month = MONTH[m];
+        if (!year) { show("is-error", "&ldquo;" + y + "&rdquo; isn&rsquo;t a valid year letter. The first letter runs A&ndash;T (1951&ndash;1970)."); return; }
+        if (!month) { show("is-error", "&ldquo;" + m + "&rdquo; isn&rsquo;t a valid month letter. The second letter runs A&ndash;L (January&ndash;December)."); return; }
+        show("is-ok", '<span class="fas-tool__code">' + y + m + "</span> &rarr; <strong>" + month + " " + year + "</strong>");
+      }
+      btn.addEventListener("click", decode);
+      input.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); decode(); } });
+      [].forEach.call(document.querySelectorAll(".fas-tool__ex"), function (b) {
+        b.addEventListener("click", function () { input.value = b.getAttribute("data-code"); decode(); input.focus(); });
+      });
+    })();
+  </script>
 </Layout>
 
+<!-- Make the absolute site Header readable over the rust backdrop band -->
+<style is:global>
+  body.fas-amp-page header nav.border-b-\[6px\] a { color: var(--color-brand-brown) !important; }
+  body.fas-amp-page header nav.border-b-\[6px\] > ul > li > a { color: #fff !important; }
+  body.fas-amp-page header nav.border-b-\[6px\] > ul > li > a:hover { color: var(--color-brand-cream) !important; }
+</style>
+
 <style>
+  /* Dark band the absolute site Header sits over. */
+  .fas-header-backdrop {
+    background: var(--color-brand-rust-dark, #682412);
+    height: 200px;
+  }
+  @media (max-width: 640px) {
+    .fas-header-backdrop { height: 160px; }
+  }
+  /* padding-top clears the overhanging site logo (~257px tall at desktop),
+     matching the Guild page's H1 clearance so the logo never covers the title. */
   .fas-page {
     background: #fff;
-    padding: 60px 0 80px;
+    padding: 92px 0 80px;
     color: var(--color-brand-brown);
+  }
+  @media (max-width: 640px) {
+    .fas-page { padding-top: 44px; }
   }
   .fas-inner {
     max-width: 1144px;
@@ -298,6 +396,146 @@ const structuredData = [
     color: var(--color-brand-rust-dark, #682412);
     margin: 0 0 24px;
     line-height: 1.25;
+  }
+
+  /* ===== Date-code decoder tool ===== */
+  .fas-tool {
+    background: var(--color-brand-cream, #eedfc0);
+    border: 1px solid #e0cfa9;
+    border-radius: 12px;
+    padding: 26px 28px 28px;
+    margin: 0 0 40px;
+    box-shadow: 0 8px 26px rgba(62, 42, 20, 0.1);
+  }
+  .fas-tool__title {
+    font-family: var(--font-display);
+    font-size: clamp(20px, 2.4vw, 28px);
+    color: var(--color-brand-rust-dark, #682412);
+    margin: 0 0 6px;
+  }
+  .fas-tool__sub {
+    margin: 0 0 18px;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--color-brand-brown-warm, #4a3a24);
+    max-width: 62ch;
+  }
+  .fas-tool__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+    gap: 28px;
+    align-items: start;
+  }
+  @media (max-width: 760px) {
+    .fas-tool__body { grid-template-columns: 1fr; gap: 22px; }
+  }
+  .fas-tool__label {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-brand-brown, #3e2a14);
+    margin-bottom: 8px;
+  }
+  .fas-tool__row { display: flex; gap: 10px; }
+  .fas-tool__input {
+    flex: 1;
+    min-width: 0;
+    font-family: var(--font-display);
+    font-size: 22px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-brand-brown, #3e2a14);
+    background: #fff;
+    border: 2px solid #d2b48c;
+    border-radius: 6px;
+    padding: 12px 14px;
+  }
+  .fas-tool__input:focus {
+    outline: none;
+    border-color: var(--color-brand-rust-bright, #be4b25);
+    box-shadow: 0 0 0 3px rgba(190, 75, 37, 0.22);
+  }
+  .fas-tool__btn {
+    flex-shrink: 0;
+    font-family: var(--font-display);
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--color-brand-rust, #a03a1e);
+    border: none;
+    border-radius: 6px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .fas-tool__btn:hover { background: var(--color-brand-rust-dark, #682412); }
+  .fas-tool__examples {
+    margin: 12px 0 0;
+    font-size: 13px;
+    color: var(--color-brand-brown-muted, #7a6a52);
+  }
+  .fas-tool__ex {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--color-brand-rust, #a03a1e);
+    background: #fff;
+    border: 1px solid #d9c8a6;
+    border-radius: 4px;
+    padding: 2px 8px;
+    cursor: pointer;
+  }
+  .fas-tool__ex:hover { background: #fff8f0; border-color: var(--color-brand-rust, #a03a1e); }
+  .fas-tool__result {
+    margin-top: 16px;
+    min-height: 1px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .fas-tool__result.is-ok {
+    padding: 14px 16px;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid #cfe3c4;
+    color: var(--color-brand-brown, #3e2a14);
+    font-size: 19px;
+  }
+  .fas-tool__result.is-error {
+    padding: 12px 14px;
+    border-radius: 6px;
+    background: #f6e0da;
+    border: 1px solid #e3b3a6;
+    color: #842012;
+    font-size: 14px;
+  }
+  .fas-tool__code {
+    display: inline-block;
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    background: var(--color-brand-rust-dark, #682412);
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 4px;
+  }
+  .fas-tool__figure { margin: 0; }
+  .fas-tool__figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #d2b48c;
+    display: block;
+  }
+  .fas-tool__figure figcaption {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--color-brand-brown-warm, #4a3a24);
   }
 
   /* Collapsible TOC */
@@ -331,6 +569,8 @@ const structuredData = [
     width: 28px;
     height: 28px;
   }
+  /* Win over `.fas-page p` (higher specificity) so the label stays white. */
+  .fas-toc__text { color: #fff; }
   .fas-toc__list {
     border-bottom: 2px solid var(--color-brand-rust-dark, #682412);
     padding-top: 18px;
