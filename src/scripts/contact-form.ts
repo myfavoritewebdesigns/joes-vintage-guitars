@@ -61,14 +61,14 @@ async function handleSubmit(e: SubmitEvent) {
       body: JSON.stringify(payload),
     });
     if (res.ok) {
-      setState(form, "success", "Thanks — we'll be in touch shortly.");
+      setState(form, "success", "Thanks, we'll be in touch shortly.");
       form.reset();
       return;
     }
     // 404 (no handler yet) — visual stub mode.
     if (res.status === 404) {
       console.info("[contact-form] /api/contact not wired yet. Payload:", payload);
-      setState(form, "success", "Thanks — we got your details.");
+      setState(form, "success", "Thanks, we got your details.");
       form.reset();
       return;
     }
