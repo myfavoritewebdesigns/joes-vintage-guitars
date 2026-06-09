@@ -1,0 +1,97 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { contact, hrefs } from "../config/site";
+---
+
+<Layout
+  title="Thank You | Joe&rsquo;s Vintage Guitars"
+  description="Thanks for reaching out to Joe's Vintage Guitars. I'll get back to you shortly, usually the same day."
+  canonical="/thank-you/"
+>
+  <section class="ty">
+    <div class="ty__inner">
+      <p class="ty__eyebrow">Message Sent</p>
+      <h1 class="ty__title">Thank You!</h1>
+      <div class="ty__rule" aria-hidden="true"></div>
+      <p class="ty__lede">
+        Thanks for reaching out. I got your message and I&rsquo;ll get back to you shortly, usually the same day.
+        If you sent photos, even better, that&rsquo;s the fastest way for me to tell you what you&rsquo;ve got.
+      </p>
+      <p class="ty__lede">
+        In a hurry? Call or text me directly at <a href={hrefs.tel}>{contact.phone}</a>, or email
+        <a href={hrefs.mailto}>{contact.email}</a>.
+      </p>
+      <div class="ty__ctas">
+        <a href={hrefs.tel} class="ty__btn ty__btn--rust">Call or Text Joe</a>
+        <a href="/" class="ty__btn ty__btn--outline">Back to Home</a>
+        <a href="/blog/" class="ty__btn ty__btn--outline">Read the Blog</a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .ty {
+    background: var(--color-brand-rust-dark, #682412);
+    padding: 200px 24px 110px;
+    text-align: center;
+    min-height: 60vh;
+  }
+  .ty__inner { max-width: 720px; margin: 0 auto; }
+  .ty__eyebrow {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 14px;
+    color: var(--color-brand-gold, #c8983a);
+    margin: 0 0 10px;
+  }
+  .ty__title {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(40px, 7vw, 72px);
+    color: var(--color-brand-cream);
+    line-height: 1.05;
+  }
+  .ty__rule {
+    width: 80px;
+    height: 3px;
+    background: var(--color-brand-gold, #c8983a);
+    margin: 22px auto 26px;
+  }
+  .ty__lede {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.65;
+    color: #f1e6cd;
+    margin: 0 auto 18px;
+    max-width: 60ch;
+  }
+  .ty__lede a { color: var(--color-brand-gold, #c8983a); text-decoration: underline; }
+  .ty__ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .ty__btn {
+    display: inline-block;
+    padding: 14px 30px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.18s, color 0.18s;
+  }
+  .ty__btn--rust { background: var(--color-brand-rust-bright, #be4b25); color: #fff; }
+  .ty__btn--rust:hover { background: var(--color-brand-rust, #a03a1e); }
+  .ty__btn--outline { border: 2px solid var(--color-brand-cream, #eedfc0); color: var(--color-brand-cream, #eedfc0); }
+  .ty__btn--outline:hover { background: var(--color-brand-cream, #eedfc0); color: var(--color-brand-rust-dark, #682412); }
+  @media (max-width: 700px) {
+    .ty { padding: 130px 16px 70px; }
+  }
+</style>

@@ -1,0 +1,138 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { contact, hrefs } from "../config/site";
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Privacy Policy", item: "https://www.joesvintageguitarsaz.com/privacy-policy/" },
+    ],
+  },
+];
+---
+
+<Layout
+  title="Privacy Policy | Joe&rsquo;s Vintage Guitars"
+  description="How Joe's Vintage Guitars collects, uses, and protects the personal information you share when you use this website."
+  canonical="/privacy-policy/"
+  structuredData={structuredData}
+>
+  <section class="legal-title-bar">
+    <div class="legal-inner"><h1>Privacy Policy</h1></div>
+  </section>
+
+  <section class="legal-body">
+    <div class="legal-inner legal-prose">
+      <p>
+        Joe&rsquo;s Vintage Guitars operates the
+        <a href="https://www.joesvintageguitarsaz.com/">joesvintageguitarsaz.com</a> website. This page explains
+        what personal information I collect, how I use it, and the choices you have. By using the site, you agree
+        to the collection and use of information described here.
+      </p>
+
+      <h2>Information I Collect and How I Use It</h2>
+      <p>
+        To respond to you and provide a better experience, I may ask for personal information such as your name,
+        phone number, email, and postal address. I use that information to contact or identify you, and to provide
+        and improve the site. I will not share it with anyone except as described in this policy.
+      </p>
+
+      <h2>Log Data</h2>
+      <p>
+        Whenever you visit the site, my hosting collects standard log data your browser sends. That may include
+        your IP address, browser version, the pages you visit, the time and date of your visit, the time spent on
+        those pages, and similar statistics.
+      </p>
+
+      <h2>Cookies</h2>
+      <p>
+        Cookies are small data files a website stores on your device, often used as anonymous identifiers. This
+        site uses cookies to collect information and improve the experience. You can accept or refuse cookies in
+        your browser. If you refuse them, some parts of the site may not work properly.
+      </p>
+
+      <h2>Service Providers</h2>
+      <p>
+        I may use third-party companies and individuals to help run the site, deliver services on my behalf,
+        perform site-related tasks, or analyze how the site is used. These third parties have access to your
+        personal information only to perform those tasks, and they are obligated not to use or disclose it for
+        any other purpose.
+      </p>
+
+      <h2>Security</h2>
+      <p>
+        I value your trust and use commercially reasonable means to protect your personal information. No method
+        of transmission over the internet or electronic storage is 100% secure, though, so I can&rsquo;t guarantee
+        absolute security.
+      </p>
+
+      <h2>Links to Other Sites</h2>
+      <p>
+        The site may link to other websites I don&rsquo;t operate. If you click a third-party link, you&rsquo;ll be
+        taken to that site. I have no control over and take no responsibility for the content or privacy practices
+        of those sites, so I encourage you to review their policies.
+      </p>
+
+      <h2>Children&rsquo;s Privacy</h2>
+      <p>
+        The site is not directed at anyone under 13, and I don&rsquo;t knowingly collect personal information from
+        children under 13. If I learn that a child under 13 has provided personal information, I delete it right
+        away. If you&rsquo;re a parent or guardian and believe your child has given me personal information, please
+        contact me so I can take care of it.
+      </p>
+
+      <h2>Changes to This Policy</h2>
+      <p>
+        I may update this policy from time to time, so please review it periodically. Any changes are posted on
+        this page and take effect once posted.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        If you have any questions about this policy, email me at <a href={hrefs.mailto}>{contact.email}</a> or call
+        or text <a href={hrefs.tel}>{contact.phone}</a>.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .legal-inner { max-width: 820px; margin: 0 auto; padding: 0 24px; }
+  .legal-title-bar {
+    background: var(--color-brand-rust-dark, #682412);
+    padding: 180px 24px 48px;
+    text-align: center;
+  }
+  .legal-title-bar h1 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(34px, 5vw, 56px);
+    color: var(--color-brand-cream);
+    line-height: 1.1;
+  }
+  .legal-body { background: #fff; padding: 48px 0 72px; }
+  .legal-prose p,
+  .legal-prose li {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--color-brand-charcoal);
+  }
+  .legal-prose p { margin: 0 0 18px; }
+  .legal-prose h2 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-brand-rust-dark);
+    margin: 34px 0 12px;
+  }
+  .legal-prose a { color: var(--color-brand-rust); text-decoration: underline; }
+  .legal-prose a:hover { color: var(--color-brand-rust-bright); }
+  @media (max-width: 700px) {
+    .legal-title-bar { padding: 120px 16px 36px; }
+  }
+</style>
