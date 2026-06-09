@@ -1,0 +1,244 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PageHero from "../components/primitives/PageHero.astro";
+import Button from "../components/primitives/Button.astro";
+import ContactSection from "../components/ContactSection.astro";
+import { contact, hrefs } from "../config/site";
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Consignment", item: "https://www.joesvintageguitarsaz.com/consignment/" },
+    ],
+  },
+];
+
+const advantages = [
+  { t: "A Higher Selling Price", b: "You get the benefit of professional marketing and authentication, which is what lets a high-end vintage guitar reach its real price instead of a quick-sale number." },
+  { t: "A Worldwide Audience", b: "Your guitar gets advertised, shipped, and insured to buyers around the world, not just whoever happens to be local." },
+  { t: "Real Marketing", b: "Proper photos, an accurate listing, and a demo video put your instrument in front of the collectors who actually buy at this level." },
+  { t: "Less Hassle for You", b: "I handle the listing, the questions, the negotiation, the packing, the shipping, and the insurance. You don&rsquo;t have to deal with tire-kickers." },
+];
+
+const steps = [
+  { n: "01", t: "Send It Over", b: "Get in touch with photos and a description of your guitar. From there we talk about what you have and what you&rsquo;re hoping to get." },
+  { n: "02", t: "Assessment &amp; Valuation", b: "I give you a realistic, market-based valuation and we agree on a price to list it at." },
+  { n: "03", t: "Marketing &amp; Promotion", b: "I photograph it properly, write an accurate listing, often shoot a demo video, and put it in front of my buyer network and collectors worldwide." },
+  { n: "04", t: "Sale &amp; Payment", b: "Once it sells, I handle full insurance and shipping and pay you by wire transfer, cash, check, or electronic transfer." },
+];
+
+const tips = [
+  { t: "Keep It in Good Shape", b: "A clean, humidified guitar in working order sells for more. Don&rsquo;t try to &lsquo;fix it up&rsquo; yourself, just keep it stable." },
+  { t: "Document Its History", b: "Receipts, original paperwork, old photos, stories, and the original case all add real value. Send whatever you have." },
+  { t: "Work With Someone Reputable", b: "Look for an established seller with real reviews and professional listings, not someone who&rsquo;ll bury your guitar in a sea of bad photos." },
+  { t: "Be Ready to Negotiate", b: "Values move, and serious buyers usually negotiate. Going in with a reasonable range gets the deal done." },
+];
+
+const why = [
+  { t: "Low, Honest Fees", b: "Consignment fees as low as 8% for top-tier vintage instruments, with no hidden or surprise charges." },
+  { t: "Flexible Terms", b: "Remote consignment, no minimum consignment period, and you deal directly with me, not a front desk." },
+  { t: "A Real Buyer Network", b: "A built-up network of collectors and buyers, which sometimes means a guitar sells almost immediately." },
+  { t: "Straightforward Service", b: "I answer your questions, keep you posted, and treat your guitar like it&rsquo;s my own." },
+];
+---
+
+<Layout
+  title="Vintage Guitar Consignment | Joe&rsquo;s Vintage Guitars"
+  description="Consign your vintage guitar with Joe's Vintage Guitars: professional photos, real authentication, a worldwide buyer network, and fees as low as 8%."
+  canonical="/consignment/"
+  structuredData={structuredData}
+>
+  <PageHero
+    eyebrow="Consignment"
+    title="Vintage Guitar Consignment"
+    subhead="Sell your vintage guitar for what it&rsquo;s really worth, with professional photos, real authentication, and a buyer network built over a decade."
+    subheadTag="p"
+    subheadHtml={true}
+    bgImage="/images/hero-background.jpg"
+  >
+    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
+    <Button slot="cta" href="#contact" variant="cream" size="lg">Contact Now</Button>
+  </PageHero>
+
+  <!-- What it is -->
+  <section class="con-section">
+    <div class="con-inner">
+      <h2 class="con-head">What Vintage Guitar Consignment Is</h2>
+      <div class="con-rule" aria-hidden="true"></div>
+      <p>
+        Consignment is when you sell your guitar through someone who handles the whole sale for you, reaching a
+        far bigger audience than you could on your own and usually getting a better price for it. For high-end
+        instruments, that also means a proper demo video that shows the guitar off in the hands of a good player.
+        You keep ownership until it sells; I do the work to sell it right.
+      </p>
+    </div>
+  </section>
+
+  <!-- Advantages -->
+  <section class="con-section con-section--alt">
+    <div class="con-inner">
+      <h2 class="con-head">Why Consign Your Vintage Guitar</h2>
+      <div class="con-rule" aria-hidden="true"></div>
+      <div class="con-grid">
+        {advantages.map((a) => (
+          <article class="con-card">
+            <h3 set:html={a.t} />
+            <p set:html={a.b} />
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="con-section">
+    <div class="con-inner">
+      <h2 class="con-head">How the Consignment Process Works</h2>
+      <div class="con-rule" aria-hidden="true"></div>
+      <div class="con-grid con-grid--steps">
+        {steps.map((s) => (
+          <article class="con-step">
+            <span class="con-step__n">{s.n}</span>
+            <h3 set:html={s.t} />
+            <p set:html={s.b} />
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- What drives top dollar -->
+  <section class="con-section con-section--alt">
+    <div class="con-inner">
+      <h2 class="con-head">What Drives a Top-Dollar Sale</h2>
+      <div class="con-rule" aria-hidden="true"></div>
+      <p>
+        Getting top dollar on a vintage guitar comes down to a few things: a specific, accurate listing, the right
+        details called out, and photos that do the instrument justice.
+      </p>
+      <h3 class="con-sub">Professional Photos</h3>
+      <p>
+        Serious buyers look closely, so the photos have to be an honest, sharp representation of the guitar, and
+        good enough to actually catch a collector&rsquo;s eye.
+      </p>
+      <h3 class="con-sub">A Reputation for Honest Authentication</h3>
+      <p>
+        With vintage gear, the details are everything. The same model can be worth $100,000+ if it&rsquo;s original
+        and around $13,000 if it&rsquo;s been refinished. I&rsquo;ve spent more than a decade selling correct
+        instruments and being straight about what they are, and that track record is part of what gets your guitar
+        a fair price.
+      </p>
+      <h3 class="con-sub">The Setup to Actually Sell It</h3>
+      <p>
+        High-dollar guitars sell more easily when there&rsquo;s real infrastructure behind them. I run a busy
+        online shop, I&rsquo;m a top-rated seller on the major platforms like Reverb, and I photograph,
+        authenticate, describe, package, ship, and insure every instrument, plus shoot a demo video for the
+        top-tier pieces.
+      </p>
+    </div>
+  </section>
+
+  <!-- Tips -->
+  <section class="con-section">
+    <div class="con-inner">
+      <h2 class="con-head">Tips for a Smooth Consignment</h2>
+      <div class="con-rule" aria-hidden="true"></div>
+      <div class="con-grid">
+        {tips.map((t) => (
+          <article class="con-card">
+            <h3 set:html={t.t} />
+            <p set:html={t.b} />
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Joe -->
+  <section class="con-section con-section--alt">
+    <div class="con-inner">
+      <h2 class="con-head">Why Consign With Joe&rsquo;s Vintage Guitars</h2>
+      <div class="con-rule" aria-hidden="true"></div>
+      <div class="con-grid">
+        {why.map((w) => (
+          <article class="con-card">
+            <h3 set:html={w.t} />
+            <p set:html={w.b} />
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .con-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
+  .con-section { background: #fff; padding: 64px 0; }
+  .con-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
+  .con-head {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(26px, 3vw, 38px);
+    color: var(--color-brand-rust-dark);
+    margin: 0;
+    line-height: 1.2;
+  }
+  .con-rule { width: 80px; height: 3px; background: var(--color-brand-rust); margin: 14px 0 22px; }
+  .con-section p {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--color-brand-charcoal);
+    margin: 0 0 16px;
+    max-width: 900px;
+  }
+  .con-sub {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 19px;
+    color: var(--color-brand-rust);
+    margin: 24px 0 8px;
+  }
+  .con-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 22px;
+    margin-top: 8px;
+  }
+  .con-card {
+    background: var(--color-brand-cream-light, #f9f1de);
+    border-left: 4px solid var(--color-brand-rust-bright);
+    padding: 20px 22px;
+  }
+  .con-section--alt .con-card { background: #fff; }
+  .con-card h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 8px;
+    line-height: 1.25;
+  }
+  .con-card p { font-size: 15px; margin: 0; }
+  .con-step { position: relative; padding: 6px 0 0; }
+  .con-step__n {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--color-brand-rust-bright);
+    line-height: 1;
+  }
+  .con-step h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-brand-rust-dark);
+    margin: 8px 0 8px;
+  }
+  .con-step p { font-size: 15px; margin: 0; }
+</style>

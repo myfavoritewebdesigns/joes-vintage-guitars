@@ -1,0 +1,245 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PageHero from "../components/primitives/PageHero.astro";
+import Button from "../components/primitives/Button.astro";
+import FAQ from "../components/FAQ.astro";
+import ContactSection from "../components/ContactSection.astro";
+import { contact, hrefs } from "../config/site";
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Repair", item: "https://www.joesvintageguitarsaz.com/repair/" },
+    ],
+  },
+];
+
+const cases = [
+  {
+    title: "The &ldquo;Ghost&rdquo; Headstock Repair",
+    sub: "1957 Gibson Les Paul Standard",
+    body: "A broken Gibson headstock can be glued back so well it looks untouched, but the wood grain never lines back up perfectly across a repair. Catching that keeps a buyer from paying an all-original price for a guitar that has been put back together.",
+  },
+  {
+    title: "The Refret &amp; Fingerboard Plane",
+    sub: "1954 Fender Stratocaster",
+    body: "Whether a guitar is a collector piece or a player often comes down to the fingerboard: how much wood has come off in past refrets and whether the radius is still right. You have to know what you&rsquo;re looking at to judge it.",
+  },
+  {
+    title: "Bracing &amp; Bridge Plate Forensics",
+    sub: "1930s Martin D-28",
+    body: "On a flat-top, the value lives inside the box. Original bracing, an intact bridge plate, and the top thickness tell you far more about what a pre-war Martin is worth than anything you can see from the outside.",
+  },
+  {
+    title: "The &ldquo;Invisible&rdquo; Heel Graft",
+    sub: "Late-1950s Gibson ES-335",
+    body: "This one looked flawless to a couple of dealers who passed it as all-original. A close look at the heel showed a professional graft, which dropped the real value by about 40%.",
+  },
+  {
+    title: "The Refinish &ldquo;Tell&rdquo;",
+    sub: "1952 Fender Telecaster",
+    body: "The finish looked original at a glance. The witness lines around the edges said otherwise, it was a quality pro refinish. On that guitar, the difference was roughly $65,000 versus $25,000.",
+  },
+  {
+    title: "The Solder-Joint Audit",
+    sub: "Vintage electronics",
+    body: "Vintage solder looks and ages differently than modern work. Reading the joints and the way the components have aged is how I confirm whether the electronics are untouched or have been gone through.",
+  },
+];
+
+const faqs = [
+  {
+    q: "If you aren&rsquo;t doing repairs anymore, why does your repair background matter?",
+    a: "A lot of people who appraise guitars are salespeople first. I came up as a repairman, so I look at a guitar the way a mechanic looks at a car: how it was built and what has been done to it over the years, not just the surface. That&rsquo;s what catches the things that move the value.",
+  },
+  {
+    q: "Can you appraise a guitar that&rsquo;s currently unplayable?",
+    a: "Yes. I appraise damaged and non-working instruments all the time. I can tell you what it&rsquo;s worth as-is, what it&rsquo;s worth for parts, and what a proper restoration would realistically cost.",
+  },
+  {
+    q: "Will you tell me what&rsquo;s wrong with my guitar during the appraisal?",
+    a: "I&rsquo;ll give you a straight condition report, including things like a shaved bridge, a refret, or non-original parts. You&rsquo;ll know exactly what you have.",
+  },
+  {
+    q: "How do you catch &ldquo;super-fakes&rdquo;?",
+    a: "By looking past the surface. A good fake can look right from across the room. I check the internal construction, the wood, and the way everything has aged, which is where the fakes fall apart.",
+  },
+  {
+    q: "How do you handle guitars with mystery modifications?",
+    a: "I look at whether the work is reversible, how much it affects the structure, and how much original wood is left. That tells me whether it&rsquo;s still a collector piece or a player.",
+  },
+  {
+    q: "What&rsquo;s the difference between structural integrity and cosmetic condition?",
+    a: "They&rsquo;re not the same thing. A guitar can look like it was dragged behind a truck and still be a $40,000 instrument if the neck is straight and the electronics are untouched. A clean-looking one can be worth far less if it&rsquo;s been refinished or had major repairs.",
+  },
+  {
+    q: "Do you use tools like blacklights or bore cameras?",
+    a: "Yes. I use a blacklight to read finishes and inspection cameras to see inside acoustic bodies, so I&rsquo;m not guessing about the parts of a guitar you can&rsquo;t easily see.",
+  },
+];
+---
+
+<Layout
+  title="Musical Instrument Repair | Joe&rsquo;s Vintage Guitars"
+  description="Joe's Vintage Guitars isn't taking on new repairs right now, but that bench experience is what makes the appraisals sharp. Here's how a luthier's eye reads a vintage guitar."
+  canonical="/repair/"
+  structuredData={structuredData}
+>
+  <PageHero
+    eyebrow="Instrument Repair"
+    title="Musical Instrument Repair"
+    subhead="I&rsquo;m not taking on new repair work right now, except in very limited cases. But the years I spent on the bench are exactly what make my appraisals sharp."
+    subheadTag="p"
+    subheadHtml={true}
+    bgImage="/images/hero-background.jpg"
+  >
+    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
+    <Button slot="cta" href="/free-appraisal/" variant="cream" size="lg">Free Appraisal</Button>
+  </PageHero>
+
+  <!-- Notice / redirect -->
+  <section class="rep-notice">
+    <div class="rep-inner">
+      <p>
+        <strong>Heads up:</strong> I&rsquo;m currently not accepting new repair or restoration work, except in a
+        few limited cases. If you were hoping to get an instrument fixed, the best thing I can do is give you an
+        honest read on what it&rsquo;s worth, and if you&rsquo;d rather sell it than repair it, make you a fair
+        offer. <a href="/free-appraisal/">Get a free appraisal</a> or call or text me at
+        <a href={hrefs.tel}>{contact.phone}</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Luthier's edge -->
+  <section class="rep-section">
+    <div class="rep-inner">
+      <h2 class="rep-head">The Luthier&rsquo;s Edge in Valuation</h2>
+      <div class="rep-rule" aria-hidden="true"></div>
+      <p>
+        Really knowing a vintage instrument takes more than a shelf of serial-number books and a ledger of specs.
+        It takes understanding how the thing is built: truss-rod tension, hide-glue joints, the geometry that makes
+        it play right. Those are the details a lot of appraisers miss, and they&rsquo;re the ones that decide
+        whether a guitar is the real thing or a story.
+      </p>
+      <p>
+        I spent years on the bench taking in instruments other shops had written off and getting them stage-ready
+        again. That work taught me what a guitar looks like underneath, and that&rsquo;s the same eye I bring to
+        every appraisal now.
+      </p>
+    </div>
+  </section>
+
+  <!-- Evolution -->
+  <section class="rep-section rep-section--alt">
+    <div class="rep-inner">
+      <h2 class="rep-head">From the Bench to the Showroom</h2>
+      <div class="rep-rule" aria-hidden="true"></div>
+      <p>
+        For years the shop was a repair destination. These days my focus has shifted to appraising, buying, and
+        selling fine vintage instruments, so I&rsquo;m not taking on new repair commissions. That shift actually
+        makes the appraisals better: instead of fixing a guitar, I&rsquo;m looking at every bit of damage and
+        every past repair and working out exactly what it means for value and for what a real restoration
+        would cost.
+      </p>
+      <p>
+        To know what a guitar is truly worth, you have to understand how it was built and, more important, how
+        it&rsquo;s been messed with over the last fifty or sixty years. That&rsquo;s the part most people can&rsquo;t
+        see.
+      </p>
+    </div>
+  </section>
+
+  <!-- Case studies -->
+  <section class="rep-section">
+    <div class="rep-inner">
+      <h2 class="rep-head">What a Repair Background Catches</h2>
+      <div class="rep-rule" aria-hidden="true"></div>
+      <p class="rep-lede">
+        A few real examples of details that change the number, and that are easy to miss without time on the bench.
+      </p>
+      <div class="rep-grid">
+        {cases.map((c) => (
+          <article class="rep-card">
+            <h3 class="rep-card__title" set:html={c.title} />
+            <p class="rep-card__sub">{c.sub}</p>
+            <p class="rep-card__body" set:html={c.body} />
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <FAQ faqs={faqs} mainTitle="FAQs:" subTitle="Appraisals &amp; Repair Background" sectionId="repair-faqs" />
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .rep-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
+
+  .rep-notice { background: var(--color-brand-cream, #eedfc0); padding: 28px 0; }
+  .rep-notice p {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-brand-charcoal);
+    text-align: center;
+  }
+  .rep-notice a { color: var(--color-brand-rust); text-decoration: underline; font-weight: 600; }
+
+  .rep-section { background: #fff; padding: 64px 0; }
+  .rep-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
+  .rep-head {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(26px, 3vw, 38px);
+    color: var(--color-brand-rust-dark);
+    margin: 0;
+    line-height: 1.2;
+  }
+  .rep-rule { width: 80px; height: 3px; background: var(--color-brand-rust); margin: 14px 0 22px; }
+  .rep-section p {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--color-brand-charcoal);
+    margin: 0 0 18px;
+    max-width: 900px;
+  }
+  .rep-lede { font-style: italic; }
+
+  .rep-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 28px;
+  }
+  .rep-card {
+    background: var(--color-brand-cream-light, #f9f1de);
+    border-top: 4px solid var(--color-brand-rust-bright);
+    padding: 22px 24px;
+  }
+  .rep-section--alt .rep-card { background: #fff; }
+  .rep-card__title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 19px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 4px;
+    line-height: 1.25;
+  }
+  .rep-card__sub {
+    font-family: var(--font-display);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust);
+    margin: 0 0 12px !important;
+  }
+  .rep-card__body { font-size: 15px !important; margin: 0 !important; }
+</style>
