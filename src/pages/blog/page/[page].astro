@@ -19,9 +19,9 @@ const { posts, current, total } = Astro.props;
 const allPosts = await getPublishedPosts();
 const categories = getCategories(allPosts);
 
-const HEADING = "Vintage Guitar Expert Resource Center: Authentication & Selling Guides";
+const HEADING = "Vintage Guitar Resource Center: Authentication & Selling Guides";
 const INTRO =
-  "Model-by-model authentication guides, serial-number dating help, and honest advice on valuing and selling vintage guitars — written by Joe Dampt from real instruments handled at the shop.";
+  "Model-by-model authentication guides, serial-number dating help, and honest advice on valuing and selling vintage guitars, written by Joe Dampt from real instruments handled at the shop.";
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -35,7 +35,7 @@ const breadcrumbSchema = {
 
 <Layout
   title={`Blog (Page ${current}) | Joe's Vintage Guitars`}
-  description="Vintage guitar authentication guides, serial-number dating help, and expert advice on valuing and selling Fender, Gibson, Martin and more — from Joe's Vintage Guitars."
+  description="Vintage guitar authentication guides, serial-number dating help, and honest advice on valuing and selling Fender, Gibson, Martin and more, from Joe's Vintage Guitars."
   canonical={`/blog/page/${current}/`}
   structuredData={breadcrumbSchema}
 >
