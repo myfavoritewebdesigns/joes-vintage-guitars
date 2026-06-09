@@ -2,13 +2,13 @@
 title: "1966 Fender Stratocaster: Authentication & Specs Guide"
 pubDate: "2026-05-18T18:19:59"
 modified: "2026-05-18T18:19:59"
-excerpt: "The 1966 Stratocaster sits in one of the most interesting transitional windows of Fender history. Here’s the full authentication walkthrough: every spec, every dating tell, the custom color chart, the fakes to watch for, and what one is worth in today’s market."
+excerpt: "The 1966 Stratocaster sits in a transitional window of Fender history. Here’s the full authentication walkthrough: every spec, every dating tell, the custom color chart, the fakes to watch for, and what one is worth in today’s market."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-scaled.jpg"
 heroImageAlt: "A 1966 Fender Stratocaster in excellent condition."
-metaDescription: "The 1966 Stratocaster sits in one of the most interesting transitional windows of Fender history. Here’s the full authentication walkthrough: every spec, every dating tell, the custom color chart, the fakes to watch for, and what one is worth in today’s market."
+metaDescription: "The 1966 Stratocaster sits in a transitional window of Fender history. Here’s the full authentication walkthrough: every spec, every dating tell, the custom color chart, the fakes to watch for, and what one is worth in today’s market."
 ogImage: "/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-scaled.jpg"
 wpId: 21105
 ---
@@ -68,7 +68,7 @@ Flip the neck off the body and look at the heel. By 1966, Fender was stamping th
 
 <figure><img src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-neck-heel-scaled.jpg" alt="1966 Fender Stratocaster neck heel ink stamp reading 13 MAY 66 B" loading="lazy" decoding="async"><figcaption>Real neck heel stamp: 13 MAY 66 B (model 13, May, 1966, 1 5/8" nut)</figcaption></figure>
 
-The first two digits are the model code. On a Stratocaster from this window (late 1965 through late 1967) the correct code is **13**. Don't let anyone tell you a "3" leading the stamp is correct for a Strat in this era. That single-digit "3" was used for the Telecaster and Esquire. A 1966 Stratocaster neck heel should read 13. The middle three letters are the month abbreviated. The next two digits are the year. The final letter is the neck shape and nut-width profile code. The vintage Fender width codes are absolute and worth memorizing:
+The first two digits are the model code. On a Stratocaster from this window (late 1965 through late 1967) the correct code is **13**. Don't let anyone tell you a "3" leading the stamp is correct for a Strat in this era. That single-digit "3" was used for the Telecaster and Esquire. A 1966 Stratocaster neck heel should read 13. The middle three letters are the month abbreviated. The next two digits are the year. The final letter is the neck shape and nut-width profile code. The vintage Fender width codes are fixed and worth memorizing:
 
 -   **A**: 1 1/2" nut width (narrowest, uncommon)
 -   **B**: 1 5/8" nut width (by far the most common 1966 Strat width)
@@ -206,7 +206,7 @@ Authenticating a 1966 Stratocaster comes down to confirming that every datable c
 
 Think your '66 matches the full checklist?
 
-If most or all of those boxes are checked, your guitar belongs in the conversation. We make fair, professional offers on real 1966 Stratocasters every week, in sunburst, custom color, clean, or honestly played. Let's verify it together.
+If most or all of those boxes are checked, you've got a real one. We make fair, professional offers on real 1966 Stratocasters every week, in sunburst, custom color, clean, or honestly played. Let's verify it together.
 
 [Sell Your 1966 Strat](/sell-my-fender-guitar/)
 
@@ -240,9 +240,9 @@ Custom color 1966 Stratocasters bring serious money, and that money attracts ser
 
 <h2 id="players">Players Who Defined the Sound</h2>
 
-The 1966 Stratocaster lived through the year that arguably changed electric guitar forever. Hendrix didn't get to Monterey until June 1967, but his early Strats included examples from this era, and the sound he chased on Are You Experienced was already a 1966 Strat sound. David Gilmour, Eric Clapton in his post-Cream years, Ritchie Blackmore, and Rory Gallagher all logged time on Strats from this exact window. Lots of session players in Nashville and Los Angeles were quietly using these guitars for everything from country dates to Motown overdubs to surf tracking sessions.
+The 1966 Stratocaster lived through a big year for electric guitar. Hendrix didn't get to Monterey until June 1967, but his early Strats included examples from this era, and the sound he chased on Are You Experienced was already a 1966 Strat sound. David Gilmour, Eric Clapton in his post-Cream years, Ritchie Blackmore, and Rory Gallagher all logged time on Strats from this exact window. Lots of session players in Nashville and Los Angeles were quietly using these guitars for everything from country dates to Motown overdubs to surf tracking sessions.
 
-The reason the 1966 has stayed relevant for so long is that the guitar is a remarkably balanced instrument. The neck is thin and fast for lead work, the pickups are bright but not brittle, and the trem still has the smooth feel of the original Fender design. It's a guitar that does almost everything well, which is exactly why it was useful to so many different players across so many different styles.
+The reason the 1966 has stayed relevant for so long is that the guitar is a well-balanced instrument. The neck is thin and fast for lead work, the pickups are bright but not brittle, and the trem still has the smooth feel of the original Fender design. It's a guitar that does almost everything well, which is exactly why it was useful to so many different players across so many different styles.
 
 <h2 id="market">Market Notes</h2>
 

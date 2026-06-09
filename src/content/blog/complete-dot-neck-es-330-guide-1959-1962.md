@@ -2,13 +2,13 @@
 title: "Complete Dot Neck ES-330 Authentication Guide & Timeline (1958-1962)"
 pubDate: "2026-03-26T20:49:26"
 modified: "2026-05-14T17:53:30"
-excerpt: "The dot-neck Gibson ES-330 is one of the most misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret — not the 17th, not the 19th — it’s a fundamentally different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959–1962 dot-neck era in exhaustive detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and every other detail that separates an original example from a modified one — and a 1959 from a 1962."
+excerpt: "The dot-neck Gibson ES-330 is one of the more misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret (not the 17th, not the 19th), it’s a very different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959–1962 dot-neck era in detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and the other details that separate an original example from a modified one, and a 1959 from a 1962."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-scaled.jpg"
 heroImageAlt: "A sunburst 1959 gibson ES-335 in near mint condition."
-metaDescription: "The dot-neck Gibson ES-330 is one of the most misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret — not the 17th, not the 19th — it’s a fundamentally different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959–1962 dot-neck era in exhaustive detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and every other detail that separates an original example from a modified one — and a 1959 from a 1962."
+metaDescription: "The dot-neck Gibson ES-330 is one of the more misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret (not the 17th, not the 19th), it’s a very different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959–1962 dot-neck era in detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and the other details that separate an original example from a modified one, and a 1959 from a 1962."
 ogImage: "/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-scaled.jpg"
 wpId: 20616
 ---
@@ -63,7 +63,7 @@ The ES-330 body is built on Gibson's standard thinline depth of approximately **
 
 The double cutaway shape follows the same template introduced on the ES-335, but the 330's upper bout cutaway horns (the "ears") evolved visually across the dot-neck period. On the earliest 1959 examples the horn tips are noticeably more rounded and fuller. By 1960 and into 1961 they became more pointed and slightly narrower in profile, though the change was gradual and inconsistent. Individual examples within the same year can vary meaningfully. Gibson's production tolerance in this era was wide.
 
-### Back and Side Finish — Varies by Top Color
+### Back and Side Finish, Varies by Top Color
 
 The finish treatment on the back and sides of the ES-330 depends on which top finish the guitar carries, and this is a detail that gets oversimplified in most descriptions of these instruments.
 
@@ -106,7 +106,7 @@ The neck profile changed meaningfully across the dot-neck era and is often the e
 
 The neck joins the body at the 16th fret on all dot-neck ES-330s. This is the defining structural characteristic of the "short-neck" 330.
 
-The ES-330's neck joins the body at the **16th fret**, the defining structural characteristic of the dot-neck 330. The joint itself is a traditional Gibson dovetail, with the neck tenon seated into a routed pocket in the body. A neck that has been reset, if done properly, is generally acceptable to experienced buyers. Signs of a neck reset to look for include finish disturbance at the heel, shimming evidence visible through the f-holes, and inconsistency in the neck angle relative to the body plane. A correctly set ES-330 neck should present a straightedge placed along the fretboard that just grazes the top of the bridge saddles when the bridge is at a reasonable height.
+The ES-330's neck joins the body at the **16th fret**. The joint itself is a traditional Gibson dovetail, with the neck tenon seated into a routed pocket in the body. A neck that has been reset, if done properly, is generally acceptable to experienced buyers. Signs of a neck reset to look for include finish disturbance at the heel, shimming evidence visible through the f-holes, and inconsistency in the neck angle relative to the body plane. A correctly set ES-330 neck should present a straightedge placed along the fretboard that just grazes the top of the bridge saddles when the bridge is at a reasonable height.
 
 <h2 id="fretboard">Fretboard, Inlays, and Binding</h2>
 
@@ -122,7 +122,7 @@ Pearl dot inlays on near-black Brazilian rosewood. The look that defines the dot
 
 The fretboard position markers are **plain white/cream plastic dot inlays**, giving this generation its "dot neck" designation. Dots sit at the 3rd, 5th, 7th, 9th, 12th (double), 15th, and 17th frets, approximately **6mm in diameter**, flush with the rosewood surface. The material is a plastic or celluloid with a creamy white appearance that has aged well on most surviving examples. The block inlay that replaced them (shown below for comparison) didn't appear on the ES-330 until late 1962 at the earliest.
 
-![Block inlay close-up on a later 1960s Gibson ES-330 — shown for comparison with the dot-neck era](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1960s-gibson-es-330-block-inlay.jpg)
+![Block inlay close-up on a later 1960s Gibson ES-330, shown for comparison with the dot-neck era](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1960s-gibson-es-330-block-inlay.jpg)
 
 Block inlays as seen on later-era ES-330s. These didn't appear until late 1962 at the earliest, marking the end of the dot-neck period.
 
@@ -140,7 +140,7 @@ Original frets are **Gibson's standard nickel silver wire** in the "small vintag
 
 ### Fret Nibs
 
-![Fret nibs on the binding edge of a 1959 Gibson ES-330 fretboard — the binding extends above the fret ends creating a smooth edge](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-26-scaled.jpg)
+![Fret nibs on the binding edge of a 1959 Gibson ES-330 fretboard, the binding extends above the fret ends creating a smooth edge](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-26-scaled.jpg)
 
 Fret nibs on a 1959 ES-330. The cream binding projects above the fret ends, creating the smooth side-of-neck feel associated with the best vintage Gibsons. Loss of nibs is a tell-tale sign of a prior re-fret.
 
@@ -162,7 +162,7 @@ The ES-330 uses Gibson's standard open-book electric headstock shape. Critically
 
 The face of the headstock is finished in black, with a thin application of black pigmented lacquer over the mahogany, giving the headstock the dark face that contrasts with the pearl logo.
 
-![Front of headstock on a 1959 Gibson ES-330 — plain unbound black face with pearl script logo and no crown inlay](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-4-scaled.jpg)
+![Front of headstock on a 1959 Gibson ES-330, plain unbound black face with pearl script logo and no crown inlay](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-4-scaled.jpg)
 
 The 1959 ES-330 headstock: plain unbound black face, pearl script Gibson logo, and "ES-330TD" model designation below. No crown inlay; that was the ES-335's feature.
 
@@ -206,7 +206,7 @@ On the ES-330, the dogear pickups mount directly to the top of the guitar throug
 
 Dogear P-90 pickups with black plastic covers on a 1959 ES-330. Note the characteristic flanged ears that mount directly to the top surface. That's the feature that distinguishes a dogear from a soapbar.
 
-![Nickel-plated dogear P-90 pickup cover on a late-1962 Gibson ES-330 — a transitional specification](/images/blog/complete-dot-neck-es-330-guide-1959-1962/gibson-es-330-nickel-cover-p-90.jpg)
+![Nickel-plated dogear P-90 pickup cover on a late-1962 Gibson ES-330, a transitional specification](/images/blog/complete-dot-neck-es-330-guide-1959-1962/gibson-es-330-nickel-cover-p-90.jpg)
 
 Nickel-plated dogear P-90 covers began appearing on some ES-330s in late 1962 as a transitional specification. Black plastic covers are correct for 1959 through early 1962.
 
@@ -225,9 +225,9 @@ Saddle material on the dot-neck ES-330 changed across the production period, and
 -   **1959 through early 1961:** The ABR-1 used **nickel-plated brass saddles**. This is correct original equipment for the majority of the dot-neck run. They provide good intonation and a slightly brighter, more focused tone.
 -   **Late 1961 and 1962:** Gibson transitioned to **nylon saddles**. These are correct for later dot-neck examples. Nylon saddles are often the first component to be replaced on well-used examples, since they wear and can break over decades of use.
 
-<figure><img 2026="" alt="Macro of 1959 ABR-1 Tune-o-matic bridge on Gibson ES-330 — no retaining wire on the saddles" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-21-scaled.jpg" https:="" www.joesvintageguitarsaz.com="" wp-content="" uploads="" 03="" 1959-gibson-es-330-sunburst-21-200x133.jpg="" 200w="" 1959-gibson-es-330-sunburst-21-400x267.jpg="" 400w="" 1959-gibson-es-330-sunburst-21-600x400.jpg="" 600w="" 1959-gibson-es-330-sunburst-21-800x533.jpg="" 800w="" 1959-gibson-es-330-sunburst-21-1024x683.jpg="" 1024w="" 1959-gibson-es-330-sunburst-21-scaled.jpg="" 2560w="" loading="lazy" decoding="async"><figcaption>1959 ABR-1: no retaining wire, nickel-plated brass saddles correct for this year</figcaption></figure>
+<figure><img 2026="" alt="Macro of 1959 ABR-1 Tune-o-matic bridge on Gibson ES-330, no retaining wire on the saddles" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-21-scaled.jpg" https:="" www.joesvintageguitarsaz.com="" wp-content="" uploads="" 03="" 1959-gibson-es-330-sunburst-21-200x133.jpg="" 200w="" 1959-gibson-es-330-sunburst-21-400x267.jpg="" 400w="" 1959-gibson-es-330-sunburst-21-600x400.jpg="" 600w="" 1959-gibson-es-330-sunburst-21-800x533.jpg="" 800w="" 1959-gibson-es-330-sunburst-21-1024x683.jpg="" 1024w="" 1959-gibson-es-330-sunburst-21-scaled.jpg="" 2560w="" loading="lazy" decoding="async"><figcaption>1959 ABR-1: no retaining wire, nickel-plated brass saddles correct for this year</figcaption></figure>
 
-<figure><img 2026="" alt="ABR-1 Tune-o-matic with nylon saddles on a Gibson ES-330 — correct for late 1961 and 1962 examples" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/gibson-es-330-tune-o-matic-with-nylon-saddles.jpg" https:="" www.joesvintageguitarsaz.com="" wp-content="" uploads="" 03="" gibson-es-330-tune-o-matic-with-nylon-saddles-200x133.jpg="" 200w="" gibson-es-330-tune-o-matic-with-nylon-saddles-400x267.jpg="" 400w="" gibson-es-330-tune-o-matic-with-nylon-saddles-600x400.jpg="" 600w="" gibson-es-330-tune-o-matic-with-nylon-saddles.jpg="" 763w="" loading="lazy" decoding="async"><figcaption>Nylon saddles on an ABR-1: correct for late 1961 and 1962; not original on 1959–early 1961 examples</figcaption></figure>
+<figure><img 2026="" alt="ABR-1 Tune-o-matic with nylon saddles on a Gibson ES-330, correct for late 1961 and 1962 examples" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/gibson-es-330-tune-o-matic-with-nylon-saddles.jpg" https:="" www.joesvintageguitarsaz.com="" wp-content="" uploads="" 03="" gibson-es-330-tune-o-matic-with-nylon-saddles-200x133.jpg="" 200w="" gibson-es-330-tune-o-matic-with-nylon-saddles-400x267.jpg="" 400w="" gibson-es-330-tune-o-matic-with-nylon-saddles-600x400.jpg="" 600w="" gibson-es-330-tune-o-matic-with-nylon-saddles.jpg="" 763w="" loading="lazy" decoding="async"><figcaption>Nylon saddles on an ABR-1: correct for late 1961 and 1962; not original on 1959–early 1961 examples</figcaption></figure>
 
 **Important:** Nylon saddles are *not* correct for a 1959 or 1960 ES-330. If you encounter an early dot-neck 330 with nylon saddles, they are almost certainly replacements. The correct saddle for 1959–early 1961 is nickel-plated brass. Sellers sometimes present nylon saddles as original on early examples; that's incorrect.
 
@@ -277,7 +277,7 @@ The four-ply laminate edge of the 1959 ES-330 pickguard, showing the black/white
 
 The pickguard is mounted to the guitar via a **single-arm metal bracket**: a nickel-plated metal arm that extends from beneath the neck pickup, with the guard screwed or clipped to it. This bracket style is specific to the thinline hollow-body family and is different from the simple screw-to-top mounting used on solidbody instruments. The bracket allows the pickguard to float slightly above the top surface rather than lying flat against it.
 
-![Pickguard mounting bracket detail on a 1959 Gibson ES-330 — single-arm nickel bracket extending from the neck pickup area](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-24-scaled.jpg)
+![Pickguard mounting bracket detail on a 1959 Gibson ES-330, single-arm nickel bracket extending from the neck pickup area](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-24-scaled.jpg)
 
 The single-arm pickguard mounting bracket on a 1959 ES-330. This bracket is specific to the thinline hollow-body family and allows the guard to float above the top surface. Original brackets are nickel plated and should show period-appropriate oxidation.
 
@@ -295,7 +295,7 @@ The controls use **CTS 500k ohm pots**, standard for P-90 equipped Gibsons of th
 
 ### Capacitors
 
-The tone circuit uses **.022µF capacitors**, consistent with Gibson's standard wiring for P-90 equipped instruments. The capacitors used were typically **bumble bee or black beauty (Sprague) wax-paper-and-foil types**, both of which are highly sought after by vintage tone enthusiasts. These are often the first components replaced in vintage Gibson wiring. Original capacitors in-circuit are a meaningful originality point.
+The tone circuit uses **.022µF capacitors**, consistent with Gibson's standard wiring for P-90 equipped instruments. The capacitors used were typically **bumble bee or black beauty (Sprague) wax-paper-and-foil types**, both of which vintage tone enthusiasts look for. These are often the first components replaced in vintage Gibson wiring. Original capacitors in-circuit are a meaningful originality point.
 
 ### Toggle Switch
 
@@ -313,7 +313,7 @@ The toggle switch tip is a **cream/amber colored plastic barrel-style tip**, the
 
 The knobs on the dot-neck ES-330 get misidentified more often than almost any other detail. They were never cream-colored top hats. The correct knobs changed once during the dot-neck era:
 
-![Gold reflector knobs on a 1960s Gibson ES-330 — the metallic insert in the dome top can be either gold or silver](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1960s-gibson-es-330-reflector-knob-example.jpg)
+![Gold reflector knobs on a 1960s Gibson ES-330, the metallic insert in the dome top can be either gold or silver](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1960s-gibson-es-330-reflector-knob-example.jpg)
 
 Gold Reflector knobs on a 1960s ES-330. Note that the metallic insert in the dome can be either a gold or silver finish; both are correct period variants. The transition from Gold Bonnet to Reflector knobs happened around mid-1960.
 
@@ -327,17 +327,17 @@ The ES-330 has a pair of **bound f-holes**: traditional archtop-style openings i
 
 <h2 id="serial-numbers">Serial Numbers and Factory Order Numbers</h2>
 
-### No Interior Labels — Ink Stamp and FON Only
+### No Interior Labels, Ink Stamp and FON Only
 
 One detail that surprises many buyers encountering their first dot-neck ES-330 is the **absence of any interior paper label**. Unlike later Gibsons and many other manufacturers of the period, dot-neck ES-330s don't carry a label glued inside the body. Identification is provided by two elements: the **model name and serial number ink-stamped directly on the inside of the body** (visible through the treble f-hole), and the **Factory Order Number (FON)** written in pencil on the interior.
 
 The ink stamp typically shows the model designation ("ES-330T" or "ES-330TD") alongside other production markings. On 1959 examples, there is generally **no serial number on the back of the headstock**. The primary identification is the FON visible through the f-hole. A headstock serial number began appearing more consistently from 1960 onward. This means that on many 1959 examples, the only external identification is the model name stamped on the headstock face below the logo, and the interior FON is the primary dating tool.
 
-![Interior ink stamp on a 1959 Gibson ES-330 showing the model designation — dot-neck ES-330s have no interior label, only this ink stamp and the penciled FON](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-27-scaled.jpg)
+![Interior ink stamp on a 1959 Gibson ES-330 showing the model designation, dot-neck ES-330s have no interior label, only this ink stamp and the penciled FON](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-27-scaled.jpg)
 
 The interior ink stamp on a 1959 ES-330. This model designation stamped inside the body is the primary identification on dot-neck examples. There is no paper label. The penciled FON (Factory Order Number) appears nearby and is the main dating tool for 1959 instruments, which typically lack a headstock serial number.
 
-![Factory Order Number (FON) close-up inside a 1959 Gibson ES-330 — the T-prefix identifies this as a 1959 build](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-8-scaled.jpg)
+![Factory Order Number (FON) close-up inside a 1959 Gibson ES-330, the T-prefix identifies this as a 1959 build](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-8-scaled.jpg)
 
 FON close-up on a 1959 ES-330. The "T" prefix letter identifies this as a 1959 build. This penciled number, visible through the treble f-hole, is the most reliable dating tool on the instrument.
 
@@ -363,7 +363,7 @@ The FON is written in pencil (sometimes ink) on the inside of the guitar body, v
 
 <h2 id="year-by-year">Year-by-Year Specification Summary</h2>
 
-### 1959 — Introduction Year
+### 1959, Introduction Year
 
 -   Full-to-transitional neck profile: .88"–.93"+ (early); .84"–.88" (late year)
 -   16th-fret neck joint, constant for the entire dot-neck era
@@ -381,9 +381,9 @@ The FON is written in pencil (sometimes ink) on the inside of the guitar body, v
 -   Bumble bee or black beauty capacitors
 -   Cases: alligator-grain chipboard (standard) or Lifton brown/pink hard shell (upgrade)
 
-1959 was of course the same year Gibson was producing its most celebrated ES-335s. If you own or are researching a 1959 335, our dedicated [1959 Gibson ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) covers the equivalent spec details for that model.
+1959 was the same year Gibson was producing its well-known 1959 ES-335s. If you own or are researching a 1959 335, our dedicated [1959 Gibson ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) covers the equivalent spec details for that model.
 
-### 1960 — Transition Year
+### 1960, Transition Year
 
 -   Slim C neck profile: typically .82"–.87" at first fret
 -   Knobs: Gold Bonnet early in year → **Gold Reflector knobs from approximately mid-year**
@@ -394,7 +394,7 @@ The FON is written in pencil (sometimes ink) on the inside of the guitar body, v
 -   "Made in USA" and headstock serial beginning to appear more consistently
 -   Cases: Lifton / stone / transitional black and gold
 
-### 1961 — Slim Taper Era
+### 1961, Slim Taper Era
 
 -   Slim taper neck profile: typically .80"–.83" at first fret
 -   Gold Reflector knobs standard
@@ -406,7 +406,7 @@ The FON is written in pencil (sometimes ink) on the inside of the guitar body, v
 -   Nickel hardware throughout
 -   Black and gold Gibson hard case standard
 
-### 1962 — Last of the Dots
+### 1962, Last of the Dots
 
 -   Slim taper neck profile: .80"–.83" at first fret
 -   Gold Reflector knobs
@@ -440,7 +440,7 @@ Gibson's standard base-configuration case for the late-1950s and early-1960s thi
 
 ![Original alligator-grain chipboard case for a 1959 Gibson ES-330 with pink/salmon crushed velvet interior](/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-34-scaled.jpg)
 
-The original alligator-grain chipboard case that shipped with many 1959 ES-330s. The pink/salmon crushed velvet interior is period-correct and increasingly collectible. These cases are structurally modest but visually iconic.
+The original alligator-grain chipboard case that shipped with many 1959 ES-330s. The pink/salmon crushed velvet interior is period-correct and increasingly collectible. These cases are structurally modest but instantly recognizable.
 
 ### The Lifton Brown/Pink Hard Case
 

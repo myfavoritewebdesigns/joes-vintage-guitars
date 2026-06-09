@@ -2,13 +2,13 @@
 title: "How to Sell a Large Guitar Collection (Every Option, Honestly Explained)"
 pubDate: "2026-04-02T22:47:45"
 modified: "2026-05-14T17:07:36"
-excerpt: "Whether you’ve built your collection over decades or just inherited one you don’t know how to value, selling a large guitar collection is a real job — not a weekend project. This guide covers every selling avenue honestly: Reverb, eBay, Facebook Marketplace, local dealers, consignment, auction houses, and more. We’ve handled collections of 700+ instruments and help with every step, including identification, documentation, and organization. Read the full breakdown, then decide what’s right for you."
+excerpt: "If you've built your collection over decades, or just inherited one you don't know how to value, selling a large guitar collection is a real job, not a weekend project. This guide covers every selling avenue honestly: Reverb, eBay, Facebook Marketplace, local dealers, consignment, auction houses, and more. We've handled collections of 700+ instruments and help with every step, including identification, documentation, and organization. Read the full breakdown, then decide what's right for you."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/large-vintage-guitar-collection.jpg"
 heroImageAlt: "A vintage guitar collection purchased by Joe's Vintage Guitars"
-metaDescription: "Whether you’ve built your collection over decades or just inherited one you don’t know how to value, selling a large guitar collection is a real job — not a weekend project. This guide covers every selling avenue honestly: Reverb, eBay, Facebook Marketplace, local dealers, consignment, auction houses, and more. We’ve handled collections of 700+ instruments and help with every step, including identification, documentation, and organization. Read the full breakdown, then decide what’s right for you."
+metaDescription: "If you've built your collection over decades, or just inherited one you don't know how to value, selling a large guitar collection is a real job, not a weekend project. This guide covers every selling avenue honestly: Reverb, eBay, Facebook Marketplace, local dealers, consignment, auction houses, and more. We've handled collections of 700+ instruments and help with every step, including identification, documentation, and organization. Read the full breakdown, then decide what's right for you."
 ogImage: "/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/large-vintage-guitar-collection.jpg"
 wpId: 20723
 ---
@@ -16,7 +16,7 @@ Contents
 
 Contents
 
-<figure><img alt="A large vintage guitar collection purchased by Joe's Vintage Guitars — hundreds of instruments evaluated and acquired in a single visit" src="/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/large-vintage-guitar-collection.jpg" loading="lazy" decoding="async"><figcaption>A real collection we purchased. Instruments evaluated, documented, and acquired in a single visit by Joe's Vintage Guitars.</figcaption></figure>
+<figure><img alt="A large vintage guitar collection purchased by Joe's Vintage Guitars, hundreds of instruments evaluated and acquired in a single visit" src="/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/large-vintage-guitar-collection.jpg" loading="lazy" decoding="async"><figcaption>A real collection we purchased. Instruments evaluated, documented, and acquired in a single visit by Joe's Vintage Guitars.</figcaption></figure>
 
 Maybe you spent years (decades, even) putting it together yourself. Or maybe a parent or grandparent just left you a room full of guitars, and you're staring at cases you can't identify, instruments you can't price, and paperwork that may or may not exist. Either way, the same question lands on your shoulders that lands on thousands of people every year: **how do you actually sell all of this?**
 
@@ -24,7 +24,7 @@ Short answer: selling a real collection is a real job. Not a side project. Not s
 
 This guide walks through every legitimate avenue: what each platform requires, what it actually costs in time and money, and which type of seller it suits. At the end, I'll explain how [Joe's Vintage Guitars](/sell-my-collection/) handles the whole thing for you, identification, documentation, organization, so you don't have to figure all of it out before you can even start.
 
-**Who this is for:** anyone selling 10 or more instruments. Your own lifetime collection, an inherited collection from an estate, or instruments you're managing on behalf of a family member, the math works the same. Collections range from a dozen guitars to several hundred or more. We've personally handled collections over **700 instruments**. Whatever the scale, if you don't know what you have or where to begin, [start here](/sell-my-collection/). We can help from step one.
+**Who this is for:** anyone selling 10 or more instruments. Your own lifetime collection, an inherited collection from an estate, or instruments you're managing on behalf of a family member. The math works the same. Collections range from a dozen guitars to several hundred or more. We've personally handled collections over **700 instruments**. Whatever the scale, if you don't know what you have or where to begin, [start here](/sell-my-collection/). We can help from step one.
 
 <h2 id="inherited">If You've Inherited a Guitar Collection: Read This First</h2>
 
@@ -40,7 +40,7 @@ That uncertainty is normal. Nobody expects you to know any of this. But it does 
 -   **Mixed-quality collections.** Most serious collectors accumulate instruments across a wide value range. Trophy pieces next to player guitars, boutique builds next to production models. Selling all of it the same way, in the same place, is rarely the right strategy.
 -   **Emotional weight.** These were someone's prized possessions. There's real pressure to handle them responsibly, get fair value, and not make decisions you'll regret. That pressure is legitimate, and it deserves a process that takes it seriously.
 
-<figure><img alt="A large guitar collection stored in cases on a rack — the kind of inherited collection Joe's Vintage Guitars evaluates and purchases" src="/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/photo-of-guitar-collection-in-cases-scaled.jpeg" loading="lazy" decoding="async"><figcaption>A guitar collection in cases. Exactly the kind of situation we're built to handle. We come to you, open every case, and tell you what's there.</figcaption></figure>
+<figure><img alt="A large guitar collection stored in cases on a rack, the kind of inherited collection Joe's Vintage Guitars evaluates and purchases" src="/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/photo-of-guitar-collection-in-cases-scaled.jpeg" loading="lazy" decoding="async"><figcaption>A guitar collection in cases. Exactly the kind of situation we're built to handle. We come to you, open every case, and tell you what's there.</figcaption></figure>
 
 **You don't need to figure this out alone.** When you [reach out to us](/sell-my-collection/), we can come to you, look at what's there, identify the instruments, give you honest context about values, and walk you through your options. No charge, no obligation. You can also [request a free appraisal](/free-appraisal/) if you want a professional valuation before making any decisions. Most families find that one conversation with us saves them weeks of research and uncertainty.
 
@@ -346,7 +346,7 @@ Real collection buys. Follow along as we evaluate and purchase vintage instrumen
 
 ## Ready to Get an Offer on Your Collection?
 
-Your own collection or one you've inherited, we handle every step. Identification, documentation, organization, and a fair offer. No prep work required on your end.
+Your own collection or one you've inherited. We handle every step. Identification, documentation, organization, and a fair offer. No prep work required on your end.
 
 <h2 id="faq">Common Questions About Selling a Guitar Collection</h2>
 

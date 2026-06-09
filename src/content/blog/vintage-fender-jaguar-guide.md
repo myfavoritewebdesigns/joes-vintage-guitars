@@ -502,7 +502,7 @@ If you have inherited a vintage Jaguar that came out of a closet, attic, or unde
 | **Late 1965 onward** | Black Tolex with chrome Fender logo on the lid | Orange plush early, transitioning to other colors | Chrome Fender logo plate, with the small "tail" decoration on earliest examples then without |
 | **Late 60s into 70s** | Black Tolex continues, hard shell construction | Orange then black plush by the early 70s | Chrome "tailless" Fender logo, then plain black molded cases on late 70s |
 
-The brown Tolex case from 1962 to 1963 is the most coveted and adds noticeable value when present with a pre-CBS Jaguar. The "no logo" black case from 1964 to early 1965 is a strong second tier and often gets dismissed by people who do not know what they are looking at. If you found a Jaguar in a brown Tolex case in a closet, you are likely looking at an early 60s instrument before you even open the lid.
+The brown Tolex case from 1962 to 1963 is the one buyers want most and adds noticeable value when present with a pre-CBS Jaguar. The "no logo" black case from 1964 to early 1965 is a strong second tier and often gets dismissed by people who do not know what they are looking at. If you found a Jaguar in a brown Tolex case in a closet, you are likely looking at an early 60s instrument before you even open the lid.
 
 ### Case Candy and Why It Matters
 

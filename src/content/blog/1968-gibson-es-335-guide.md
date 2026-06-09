@@ -1,18 +1,18 @@
 ---
-title: "1968 Gibson ES-335: The Complete Buyer’s & Collector’s Guide"
+title: "1968 Gibson ES-335: Buyer’s & Collector’s Guide"
 pubDate: "2026-04-13T22:26:56"
 modified: "2026-05-14T16:30:25"
-excerpt: "The 1968 Gibson ES-335 marks the final year of Gibson’s one-piece mahogany neck and long tenon joint — the last of the true Kalamazoo-era semi-hollows before the construction changes of 1969. This guide covers finish rarity, hardware authentication, pot code dating, and current market values for collectors and sellers."
+excerpt: "The 1968 Gibson ES-335 marks the final year of Gibson’s one-piece mahogany neck and long tenon joint, the last of the Kalamazoo-era semi-hollows before the construction changes of 1969. This guide covers finish rarity, hardware authentication, pot code dating, and current market values for collectors and sellers."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1968-gibson-es-335-guide/1968-gibson-es-335-sunburst-9-scaled.jpg"
 heroImageAlt: "A 1968 Gibson ES-335 in Sunburst finish. This example is in near mint condition."
-metaDescription: "The 1968 Gibson ES-335 marks the final year of Gibson’s one-piece mahogany neck and long tenon joint — the last of the true Kalamazoo-era semi-hollows before the construction changes of 1969. This guide covers finish rarity, hardware authentication, pot code dating, and current market values for collectors and sellers."
+metaDescription: "The 1968 Gibson ES-335 marks the final year of Gibson’s one-piece mahogany neck and long tenon joint, the last of the Kalamazoo-era semi-hollows before the construction changes of 1969. This guide covers finish rarity, hardware authentication, pot code dating, and current market values for collectors and sellers."
 ogImage: "/images/blog/1968-gibson-es-335-guide/1968-gibson-es-335-sunburst-9-scaled.jpg"
 wpId: 20834
 ---
-## The 1968 Gibson ES-335: A Collector's Deep Dive
+## The 1968 Gibson ES-335: A Collector's Guide
 
 1.  [The 1968 Color Palette](#color-palette)
 2.  [Hardware and Electronics](#hardware)
@@ -26,7 +26,7 @@ The details that define a 1968, from headstock inlay transitions to potentiomete
 
 <h2 id="color-palette">The 1968 Color Palette</h2>
 
-Sunburst and Cherry dominated the shipping ledgers in 1968, but Gibson got adventurous with finishes that year. The unusual colors are where the real collector heat is. A Pelham Blue or Polaris White 1968 ES-335 is a different conversation entirely from a clean Cherry.
+Sunburst and Cherry dominated the shipping ledgers in 1968, but Gibson got adventurous with finishes that year. The unusual colors are where the collector money is. A Pelham Blue or Polaris White 1968 ES-335 is a very different guitar from a clean Cherry.
 
 | Finish Name | Rarity | Notes |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ T-tops don't have the mystique of PAFs. They've got their own following anyway. 
 
 <figure><img alt="Gibson Patent Number T-top pickup, back view showing Patent No. sticker" src="/images/blog/1968-gibson-es-335-guide/gibson-patent-no-pickup-scaled.jpg" loading="lazy" decoding="async"><figcaption>Back of a 1968 Gibson Patent Number pickup showing the "Patent No." sticker. This is the key identifier distinguishing T-tops from earlier PAF and transitional examples.</figcaption></figure>
 
-On the cap side, you'll typically see either **Black Beauty Spragues** or the rounder "pancake" style disc caps paired with these pickups. Both play into the cleaner, more articulate voice that defines the T-top era.
+On the cap side, you'll typically see either **Black Beauty Spragues** or the rounder "pancake" style disc caps paired with these pickups. Both feed into the cleaner, more articulate voice of the T-top era.
 
 ### Controls and Knobs
 
@@ -100,11 +100,11 @@ A case and guitar that have clearly lived together, with matching patina and the
 
 <h2 id="market-value">Collector Sentiment and Market Value</h2>
 
-From a market standpoint, 1968 sits in a specific spot in the ES-335 hierarchy that works in the owner's favor. Worth understanding whether you're thinking about a purchase or thinking about [selling your vintage Gibson](/sell-my-gibson-guitar/).
+From a market standpoint, 1968 sits in a spot in the ES-335 lineup that works in the owner's favor. Worth understanding if you're thinking about a purchase or about [selling your vintage Gibson](/sell-my-gibson-guitar/).
 
 ### How 1968 Sits in the ES-335 Timeline
 
-Start with the full lineage. The earliest examples, covered in our [1959 ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and our [1962 ES-335 guide](/post/1962-gibson-es-335-guide/), are the most collectible. PAF pickups, wider nut widths, prices regularly above $30,000. The 1968 keeps the critical structural pieces (one-piece neck, long tenon) but trades the PAF for T-tops and the wider nut for a slightly narrower one. The price drops accordingly.
+Start with the full lineage. The earliest examples, covered in our [1959 ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and our [1962 ES-335 guide](/post/1962-gibson-es-335-guide/), are the most collectible. PAF pickups, wider nut widths, prices regularly above $30,000. The 1968 keeps the key structural pieces (one-piece neck, long tenon) but trades the PAF for T-tops and the wider nut for a slightly narrower one. The price drops accordingly.
 
 ### The "Narrow Neck" Factor
 
@@ -116,13 +116,13 @@ The 1968 nut width of 1⅝″ is narrower than the 1 11/16″ on 1958–1964 e
 
 ### The Entry Point Argument
 
-The 1968 ES-335 is still one of the strongest buys in the vintage semi-hollow market. Genuine late-Kalamazoo construction, a wide range of finishes to chase, and pricing that's still within reach for serious players who want the real article. If you own one and want to know what it would actually bring today, [our free appraisal](/free-appraisal/) gives you a real number with no obligation.
+The 1968 ES-335 is still one of the strongest buys in the vintage semi-hollow market. Genuine late-Kalamazoo construction, a wide range of finishes to chase, and pricing that's still within reach for serious players who want the real thing. If you own one and want to know what it would actually bring today, [our free appraisal](/free-appraisal/) gives you a real number with no obligation.
 
 -   [1959 Gibson ES-335 Authentication Guide](/post/1959-gibson-es-335-authentication-guide/)
 -   [1962 Gibson ES-335 Guide](/post/1962-gibson-es-335-guide/)
 -   [How to Read Gibson Serial Numbers](/how-to-read-gibson-serial-numbers/)
 -   [Gibson Shipping Totals: 1948–1979](/post/gibson-shipping-totals-1948-1979/)
--   [Sell My Gibson Guitar — How It Works](/sell-my-gibson-guitar/)
+-   [Sell My Gibson Guitar, How It Works](/sell-my-gibson-guitar/)
 
 <h2 id="faq">Frequently Asked Questions</h2>
 
@@ -150,4 +150,4 @@ How does the 1968 ES-335 compare to the 1959 or 1962 models?
 
 The 1958–1964 ES-335s, covered in detail in our [1959 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and our [1962 guide](/post/1962-gibson-es-335-guide/), have the wider 1 11/16″ nut, PAF or early Patent Number pickups, and the long tenon. The 1968 keeps the long tenon and one-piece neck but has a narrower 1⅝″ nut and T-top pickups instead of PAFs. On playability, the 1968 neck is often rounder and deeper than the flatter mid-60s profiles, which is part of why players gravitate to it. On price, a 1968 typically sells for a fraction of a comparable 1959 or 1962.
 
-We deal in authenticated, properly documented vintage Gibsons. Whether you're looking to add to a collection or want a fair appraisal on something you already own, we're the call to make.
+We deal in authenticated, properly documented vintage Gibsons. If you're looking to add to a collection or want a fair appraisal on something you already own, give us a call.

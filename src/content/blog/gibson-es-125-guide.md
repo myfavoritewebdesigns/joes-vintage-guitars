@@ -2,17 +2,17 @@
 title: "Gibson ES-125 Complete Guide: Every Variant, Era & What to Look For"
 pubDate: "2026-04-09T17:50:39"
 modified: "2026-05-14T16:40:25"
-excerpt: "The ES-125 spent nearly 30 years as Gibson’s quiet workhorse — affordable, versatile, and loaded with P-90 character. Here’s everything you need to know to buy, date, and identify one."
+excerpt: "The ES-125 spent nearly 30 years as Gibson’s quiet workhorse: affordable, versatile, and loaded with P-90 character. Here’s everything you need to know to buy, date, and identify one."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg"
 heroImageAlt: "A 1954 Gibson ES-125 in sunburst finish."
-metaDescription: "The ES-125 spent nearly 30 years as Gibson’s quiet workhorse — affordable, versatile, and loaded with P-90 character. Here’s everything you need to know to buy, date, and identify one."
+metaDescription: "The ES-125 spent nearly 30 years as Gibson’s quiet workhorse: affordable, versatile, and loaded with P-90 character. Here’s everything you need to know to buy, date, and identify one."
 ogImage: "/images/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg"
 wpId: 20765
 ---
-Deep Dive The **Gibson ES-125** was on the bandstand for almost thirty years, and for most of that time nobody was looking at it. The flashier names in the Gibson catalog were the ES-175, the [ES-335](/post/complete-dot-neck-es-330-guide-1959-1962/), and the L-5. The ES-125 just kept showing up: jazz combos, Chicago blues clubs, country sidemen, rockabilly players who needed something that could survive a tour. It cost less than its stablemates, it carried the same P-90 pickups that made the rest of Gibson's 50s lineup what it was, and right now it's one of the harder vintage semi-hollows to find at a fair price.
+The **Gibson ES-125** was on the bandstand for almost thirty years, and for most of that time nobody was looking at it. The flashier names in the Gibson catalog were the ES-175, the [ES-335](/post/complete-dot-neck-es-330-guide-1959-1962/), and the L-5. The ES-125 just kept showing up: jazz combos, Chicago blues clubs, country sidemen, rockabilly players who needed something that could survive a tour. It cost less than its stablemates, it carried the same P-90 pickups that made the rest of Gibson's 50s lineup what it was, and right now it's one of the harder vintage semi-hollows to find at a fair price.
 
 <figure><img alt="1954 Gibson ES-125 in sunburst finish" src="/images/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg" loading="lazy" decoding="async"><figcaption>1954 Gibson ES-125 in sunburst, a textbook example of the Golden Era full-depth model.</figcaption></figure>
 
@@ -23,7 +23,7 @@ Contents
 3.  [Body & Construction: Era by Era](#es125-construction)
 4.  [Electronics: The P-90 Pickup](#es125-electronics)
 5.  [Hardware & Aesthetics: The Dating Details](#es125-hardware)
-6.  [Finishes: Standard, Rare & Legendary](#es125-finishes)
+6.  [Finishes: Standard, Rare & Custom](#es125-finishes)
 7.  [Tonal Character & Playing Feel](#es125-tone)
 8.  [Buying a Vintage ES-125: What to Know](#es125-buying)
 9.  [Notable Players & Musical Contexts](#es125-players)
@@ -47,11 +47,11 @@ No other Gibson generated quite this many suffix variants. Each letter at the en
 | --- | --- | --- | --- | --- | --- |
 | ES-125 | 1941–42, 1946–1970 | Full (3.25–3.5") | No | 1 × P-90 | The original. The most common variant. |
 | ES-125T | 1956–1968 | Thinline (1.75") | No | 1 × P-90 | Arrived with the thinline trend. Sold well. |
-| ES-125TC | 1960–1970 | Thinline (1.75") | Yes — Florentine (sharp) | 1 × P-90 | Best single-pickup version for upper-fret access. |
-| ES-125TDC | 1960–1970 | Thinline (1.75") | Yes — Florentine | 2 × P-90 | The "rock and roll" spec. Most versatile thinline. |
+| ES-125TC | 1960–1970 | Thinline (1.75") | Yes, Florentine (sharp) | 1 × P-90 | Best single-pickup version for upper-fret access. |
+| ES-125TDC | 1960–1970 | Thinline (1.75") | Yes, Florentine | 2 × P-90 | The "rock and roll" spec. Most versatile thinline. |
 | ES-125TD | 1957–c.1963 | Thinline (1.75") | No | 2 × P-90 | Uncommon after the early 60s. Transitional. |
-| ES-125C | 1965–1970 | Full (3.25–3.5") | Yes — Florentine | 1 × P-90 | Late addition to the full-depth line. |
-| ES-125CD | 1966–1970 | Full (3.25–3.5") | Yes — Florentine | 2 × P-90 | The full-depth dual-pickup option. Scarce. |
+| ES-125C | 1965–1970 | Full (3.25–3.5") | Yes, Florentine | 1 × P-90 | Late addition to the full-depth line. |
+| ES-125CD | 1966–1970 | Full (3.25–3.5") | Yes, Florentine | 2 × P-90 | The full-depth dual-pickup option. Scarce. |
 | ES-125 3/4 | 1956–1969 | Full (reduced body) | No | 1 × P-90 | Short 22.75" scale. Student model. |
 
 **Decoder key:** **T** = Thinline body  ·  **D** = Dual pickups  ·  **C** = Cutaway  ·  **3/4** = Short scale. Stack them: *TDC* means Thinline, Dual pickup, Cutaway.
@@ -134,7 +134,7 @@ Knob style is one of the most reliable visual dating clues on any vintage Gibson
 
 The ES-125 uses a **"Raised Diamond" trapeze tailpiece**, a pressed-steel unit with a raised diamond cutout in the center bar. The diamond geometry and the plating shifted subtly across the run. The most useful change for dating is the move from **nickel to chrome plating around 1965**, which is a clean visual tell on mid-decade transitional examples. Chrome reads cooler and brighter. Nickel ages to a warmer amber.
 
-<h2 id="es125-finishes">Finishes: Standard, Rare &amp; Legendary</h2>
+<h2 id="es125-finishes">Finishes: Standard, Rare &amp; Custom</h2>
 
 ### Sunburst (Standard)
 
@@ -178,7 +178,7 @@ The two body depths produce real tonal differences even though the electronics a
 
 ### Neck Profiles by Era
 
-ES-125 neck profiles follow Gibson's broader evolution across the period. The most coveted shapes are the substantial **late-1950s round-C profiles**, generous in the hand without being unplayable. Through the 60s the profiles got progressively thinner, ending at the slim "60s C" that a lot of players find less satisfying for chord-heavy styles. Post-1965 examples generally reflect this thinning, and the three-piece neck construction of the very final years is widely viewed as a downgrade from the one-piece mahogany of the earlier guitars.
+ES-125 neck profiles follow Gibson's broader evolution across the period. The necks players want most are the substantial **late-1950s round-C profiles**, generous in the hand without being unplayable. Through the 60s the profiles got progressively thinner, ending at the slim "60s C" that a lot of players find less satisfying for chord-heavy styles. Post-1965 examples generally reflect this thinning, and the three-piece neck construction of the very final years is widely viewed as a downgrade from the one-piece mahogany of the earlier guitars.
 
 <h2 id="es125-buying">Buying a Vintage ES-125: What to Know</h2>
 
@@ -234,7 +234,7 @@ If you want a semi-hollow with real vintage age in the wood, a price that doesn'
 
 #### Have a Gibson ES-125 to Sell or Appraise?
 
-We specialize in vintage Gibsons and buy guitars outright. No consignment, no waiting. Whether you have a single instrument or an entire collection, we can help.
+We specialize in vintage Gibsons and buy guitars outright. No consignment, no waiting. Whether it's a single instrument or an entire collection, we can help.
 
 -   [Request a free appraisal](/free-appraisal/). Tell us what you have and we'll give you an honest current-market assessment.
 -   [Sell your Gibson guitar](/sell-my-gibson-guitar/). Fast, fair offers on vintage Gibsons in any condition.

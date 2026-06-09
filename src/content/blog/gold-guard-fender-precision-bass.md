@@ -2,13 +2,13 @@
 title: "Fender Precision Bass 1957–1959: Identification, Specs & Value"
 pubDate: "2026-04-17T19:25:51"
 modified: "2026-05-14T16:10:26"
-excerpt: "Defined by its gold anodized pickguard and revolutionary split-coil pickup, the 1957–1959 Fender Precision Bass marked the birth of the modern electric bass. Here’s a full breakdown of specs, authenticity markers, and market values for one of the most collectible instruments in the Fender canon — year by year."
+excerpt: "Defined by its gold anodized pickguard and split-coil pickup, the 1957–1959 Fender Precision Bass marked the start of the modern electric bass. Here’s a full breakdown of specs, authenticity markers, and market values, year by year."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-scaled.jpg"
 heroImageAlt: "A 1959 Fender gold guard precision bass in Sunburst finish."
-metaDescription: "Defined by its gold anodized pickguard and revolutionary split-coil pickup, the 1957–1959 Fender Precision Bass marked the birth of the modern electric bass. Here’s a full breakdown of specs, authenticity markers, and market values for one of the most collectible instruments in the Fender canon — year by year."
+metaDescription: "Defined by its gold anodized pickguard and split-coil pickup, the 1957–1959 Fender Precision Bass marked the start of the modern electric bass. Here’s a full breakdown of specs, authenticity markers, and market values, year by year."
 ogImage: "/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-scaled.jpg"
 wpId: 20887
 ---
@@ -162,7 +162,7 @@ The Gold Guard Precision Bass is the first fully modern electric bass. Contoured
 
 For collectors, these are blue-chip pieces. Finite supply, real historical weight, and they actually play as well as the mystique suggests. For players who can afford one, the instrument still does the job it was designed to do sixty-plus years later. That's more than you can say for most mid-century engineering.
 
-Whether you're looking to buy, sell, or just figure out what you have, **the details matter**. A bass that checks every authenticity box is a different object, both economically and historically, than one with a replaced guard, a reissue pickup, or a re-dated neck. If you're not sure, get a [qualified appraisal](/free-appraisal/) before money changes hands.
+If you're looking to buy, sell, or just figure out what you have, **the details matter**. A bass that checks every authenticity box is a different object, both economically and historically, than one with a replaced guard, a reissue pickup, or a re-dated neck. If you're not sure, get a [qualified appraisal](/free-appraisal/) before money changes hands.
 
 <figure><img alt="Full-body shot of a 1959 Fender Precision Bass with maple fingerboard" src="/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-full-shot-scaled.jpg" loading="lazy" decoding="async"><figcaption>1959 Precision Bass: Full Body</figcaption></figure>
 

@@ -72,7 +72,7 @@ To get why a '73 is its own animal, and not just "an old Jazz Bass," you have to
 
 Here's the thing, though. For the Jazz Bass, that era produced an instrument that punches in a way nothing else does. The bodies tend toward heavier alder (occasionally ash), which gives you a percussive low-mid thump that pre-CBS Jazz Basses don't always have. The pickups of the period are voiced for cut and growl, and that signature Jazz Bass *bark* you hear when you favor the bridge pickup is essentially a 1970s sonic invention, even though the instrument itself dates back to 1960. Visually, with the bound maple board and the blocks, the '73 is the year that Fender's Jazz Bass finally caught up to its own swagger.
 
-<figure><img alt="Close-up of the 1973 Fender Jazz Bass maple fingerboard showing white binding, bold black block inlays, and the warm amber tone the maple has developed under the lacquer" src="/images/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-block-inlays.jpg" loading="lazy" decoding="async"><figcaption>Black blocks on maple, framed by white binding. A definitive '70s Fender visual.</figcaption></figure>
+<figure><img alt="Close-up of the 1973 Fender Jazz Bass maple fingerboard showing white binding, bold black block inlays, and the warm amber tone the maple has developed under the lacquer" src="/images/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-block-inlays.jpg" loading="lazy" decoding="async"><figcaption>Black blocks on maple, framed by white binding. A classic '70s Fender look.</figcaption></figure>
 
 <h2 id="specs">The Specs That Make a '73</h2>
 

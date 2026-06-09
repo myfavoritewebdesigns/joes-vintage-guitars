@@ -28,7 +28,7 @@ The guitar has become a symbol of music lovers around the globe. There are many 
 
 From colorful guitars with powerful sounds to more minimalistic designs, there are many guitars to choose from, so you must be mindful of what you’re offering.
 
-Whether you want to sell an instrument that matches a specific style or you only want to get cash with a valuable item, we’ve prepared these tips on how to sell a vintage guitar successfully.  
+Maybe you want to sell an instrument that matches a specific style, or maybe you just want cash for a valuable item. Either way, we’ve put together these tips on how to sell a vintage guitar successfully.  
   
 ![What To Consider When Buying A Vintage Guitar AZ](/images/blog/what-to-consider-when-selling-a-vintage-guitar/What-To-Consider-When-Buying-A-Vintage-Guitar-AZ.jpg)
 

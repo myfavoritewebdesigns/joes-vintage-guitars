@@ -158,7 +158,7 @@ Mentioned this in the serial section, but it's worth saying twice. Some January 
 
 <h2 id="colors">Custom Colors of 1963</h2>
 
-By 1963 Fender's custom color program had been running for seven years and was firmly established. The 1963 chart offered fourteen DuPont automotive colors, most lifted directly from Cadillac, Buick, Pontiac, and Chevrolet paint codes. A genuine custom-color '63 in original finish is one of the most collectable production electric guitars ever made.
+By 1963 Fender's custom color program had been running for seven years and was firmly established. The 1963 chart offered fourteen DuPont automotive colors, most lifted directly from Cadillac, Buick, Pontiac, and Chevrolet paint codes. A genuine custom-color '63 in original finish is one of the most collectable vintage Fenders you'll come across.
 
 Buyers tend to pay the most for Shoreline Gold and Burgundy Mist (both fade so dramatically with UV that very few survive looking anything close to original), then Sherwood Green, Foam Green, and Surf Green, then the blues (Sonic, Daphne, Lake Placid). Olympic White and standard sunburst sit at the more affordable end of "custom" pricing, though even those carry a healthy bump over a refinished example.
 

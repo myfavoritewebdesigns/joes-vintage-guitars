@@ -2,13 +2,13 @@
 title: "Best Online Platforms to Sell Vintage Guitars in 2026: Fees, Risks, and What You Actually Keep"
 pubDate: "2026-05-12T20:56:01"
 modified: "2026-05-13T16:02:39"
-excerpt: "A 5% selling fee can quietly become 12% by the time you get paid. Here is what every major online platform actually costs vintage guitar sellers in 2026. My pick is the second one — it name-drops the four platforms (which is what search snippets reward), signals the year, and ends with “side by side” so the click promise is clear."
+excerpt: "A 5% selling fee can quietly become 12% by the time you get paid. Here is what every major online platform actually costs vintage guitar sellers in 2026, four platforms compared side by side."
 category: "uncategorized"
 categoryName: "Uncategorized"
 tags: []
 heroImage: "/images/blog/best-online-platforms-sell-vintage-guitars/1954-gibson-les-paul-goldtop-scaled.jpg"
 heroImageAlt: "A Gibson Les Paul Goldtop from 1954"
-metaDescription: "A 5% selling fee can quietly become 12% by the time you get paid. Here is what every major online platform actually costs vintage guitar sellers in 2026. My pick is the second one — it name-drops the four platforms (which is what search snippets reward), signals the year, and ends with “side by side” so the click promise is clear."
+metaDescription: "A 5% selling fee can quietly become 12% by the time you get paid. Here is what every major online platform actually costs vintage guitar sellers in 2026, four platforms compared side by side."
 ogImage: "/images/blog/best-online-platforms-sell-vintage-guitars/1954-gibson-les-paul-goldtop-scaled.jpg"
 wpId: 21047
 ---
