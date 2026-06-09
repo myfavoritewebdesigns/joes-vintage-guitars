@@ -1,0 +1,39 @@
+<div class="jvg-tool-wrap">
+
+  <div class="jvg-tool-header">
+    <h2>Gretsch Serial Number Lookup</h2>
+    <p>Enter any Gretsch serial number below — sequential, date-coded, hyphenated, or modern Fender-era — and we'll decode the era, production date, and what to cross-check on the guitar itself. Where serial ranges overlap, all valid interpretations are shown.</p>
+  </div>
+
+  <div class="jvg-tool-input-area">
+    <input
+      type="text"
+      id="jvg-serial-input"
+      class="jvg-tool-input"
+      placeholder="e.g.  32154  ·  68409  ·  2-365  ·  JT03074463"
+      autocomplete="off"
+      autocorrect="off"
+      autocapitalize="characters"
+      spellcheck="false"
+      maxlength="20"
+      aria-label="Gretsch serial number">
+    <button class="jvg-tool-btn" id="jvg-decode-btn" onclick="jvgDecode()">Decode Serial</button>
+  </div>
+
+  <p class="jvg-tool-hint">💡 If your serial number has a <strong>space, dot, or hyphen</strong> between the numbers — as seen on many Baldwin-era headstocks — type it with a <strong>hyphen ( - )</strong> in the field above. Example: <span class="jvg-chip" style="cursor:default;">2-365</span> or <span class="jvg-chip" style="cursor:default;">11-4892</span></p>
+
+  <div class="jvg-tool-examples">
+    <strong>Try an example:</strong>
+    <span class="jvg-chip" onclick="jvgTry('32154')">32154</span>
+    <span class="jvg-chip" onclick="jvgTry('23105')">23105</span>
+    <span class="jvg-chip" onclick="jvgTry('68409')">68409</span>
+    <span class="jvg-chip" onclick="jvgTry('109837')">109837</span>
+    <span class="jvg-chip" onclick="jvgTry('2-365')">2-365</span>
+    <span class="jvg-chip" onclick="jvgTry('11-4892')">11-4892</span>
+    <span class="jvg-chip" onclick="jvgTry('JT03074463')">JT03074463</span>
+    <span class="jvg-chip" onclick="jvgTry('CY14015892')">CY14015892</span>
+  </div>
+
+  <div id="jvg-tool-results" role="region" aria-live="polite" aria-label="Serial number lookup results"></div>
+
+</div>
