@@ -83,7 +83,7 @@ const toolSchema = {
   url: PAGE_URL,
   offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
   description:
-    "Free tool that dates Guild guitars from their serial number — sequential numbers (1953–1979) and modern Julian serials (2005+).",
+    "Free tool that dates Guild guitars from their serial number: sequential numbers (1953–1979) and modern Julian serials (2005+).",
 };
 const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
 ---
@@ -130,16 +130,16 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
           decoding="async"
         />
         <figcaption>
-          Identifying the hallmarks of a 1960s legend: this Thunderbird body displays the distinctive
-          control layout and finish patterns essential for authenticating Hoboken-era Guilds.
+          A 1960s Guild Thunderbird. The control layout and finish patterns shown here are key to
+          authenticating Hoboken-era Guilds.
         </figcaption>
       </figure>
 
       <p class="gsl-lede">
-        Dating and authenticating a vintage Guild is a critical step in determining its market value. Serial
-        number charts are a vital foundation, but they are only one part of the puzzle. Guild's history is
-        defined by shifts in manufacturing locations — Manhattan and Hoboken, then Westerly, Tacoma, and New
-        Hartford — each with its own characteristics and numbering quirks.
+        Dating and authenticating a vintage Guild is the first step in figuring out its value. The serial
+        charts are the foundation, but they're only part of the picture. Guild's history runs through several
+        factory moves, Manhattan and Hoboken, then Westerly, Tacoma, and New Hartford, each one with its own
+        quirks and numbering.
       </p>
       <p class="gsl-byline">● Published March 12, 2026 by <a href="/about-me/">Joe Dampt</a></p>
       <p>
@@ -164,7 +164,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <h3 class="gsl-h3">The Numerical Sequence (1953–1959)</h3>
         <p>
           In the earliest years of production, Guild used a straightforward numerical sequence. These
-          &ldquo;Hoboken&rdquo; era guitars are prized for their craftsmanship and often feature white internal
+          &ldquo;Hoboken&rdquo; era guitars are known for their craftsmanship and often feature white internal
           labels.
         </p>
         <GuildTable headers={numSeqVM.headers} rows={numSeqVM.rows} caption="The Numerical Sequence (1953–1959)" />
@@ -173,7 +173,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <p>
           From 1960 to 1964, Guild continued a single sequential numbering system for all models. From 1965 to
           1969, a separate serial system was introduced for each model. <strong>Your serial number may be a
-          sequential one or a model-specific one — check both charts and compare accordingly.</strong>
+          sequential one or a model-specific one, so check both charts and compare accordingly.</strong>
         </p>
         <GuildTable headers={genRangesVM.headers} rows={genRangesVM.rows} caption="General Ranges (1960–1969)" />
 
@@ -198,7 +198,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <h2 class="gsl-h2">Part 2: The Westerly Era (1970–1979)</h2>
         <p>
           In 1970, Guild consolidated production back into a single sequential system. Dating Guilds from this
-          period is much easier than the preceding era — match your number to the year ranges below.
+          period is much easier than the preceding era. Just match your number to the year ranges below.
         </p>
         <GuildTable headers={westerlyVM.headers} rows={westerlyVM.rows} caption="The Westerly Era (1970–1979)" />
       </section>
@@ -213,7 +213,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <GuildTable
           headers={prefixes1979.headers}
           rows={prefixes1979.rows}
-          caption="Return to Model Prefixes (1979–1983) — last serial of each year"
+          caption="Return to Model Prefixes (1979–1983), last serial of each year"
         />
       </section>
 
@@ -227,7 +227,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <GuildTable
           headers={westerly1984.headers}
           rows={westerly1984.rows}
-          caption="Westerly Era Continued (1984–1989) — last serial of each year"
+          caption="Westerly Era Continued (1984–1989), last serial of each year"
         />
       </section>
 
@@ -238,7 +238,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <GuildTable
           headers={transition1990.headers}
           rows={transition1990.rows}
-          caption="The 90s Transition Era (1990–1994) — last serial of each year"
+          caption="The 90s Transition Era (1990–1994), last serial of each year"
         />
       </section>
 
@@ -262,7 +262,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <h2 class="gsl-h2">Part 7: Late Westerly Era (1997–1999)</h2>
         <p>
           As the 1990s progressed, Guild provided detailed beginning and ending serial-number ranges for each
-          model. This chart covers 1997 production, including several legendary acoustics and the continuation
+          model. This chart covers 1997 production, including several well-known acoustics and the continuation
           of the Starfire electric series.
         </p>
         <GuildTable headers={late97VM.headers} rows={late97VM.rows} caption="Late Westerly Era (1997 Ranges)" />
@@ -276,11 +276,11 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <p>
           For Guild instruments built in Tacoma, Washington (from February 2005) or New Hartford, Connecticut
           (from December 2008), a specialized serial system is used. These numbers consist of two letters
-          followed by six digits — for example, <strong>TJ 037 016</strong>:
+          followed by six digits, for example <strong>TJ 037 016</strong>:
         </p>
         <ul class="gsl-list">
           <li><strong>Factory Location:</strong> the first letter identifies the plant (<strong>T</strong> for Tacoma, <strong>N</strong> for New Hartford).</li>
-          <li><strong>Year Code:</strong> the second letter identifies the year — <strong>I</strong>=2005, <strong>J</strong>=2006, <strong>K</strong>=2007, <strong>L</strong>=2008, <strong>M</strong>=2009, <strong>N</strong>=2010.</li>
+          <li><strong>Year Code:</strong> the second letter identifies the year. <strong>I</strong>=2005, <strong>J</strong>=2006, <strong>K</strong>=2007, <strong>L</strong>=2008, <strong>M</strong>=2009, <strong>N</strong>=2010.</li>
           <li><strong>Julian Day:</strong> the first three digits give the day of the year (001–365).</li>
           <li><strong>Unit Number:</strong> the final three digits are the specific unit built that day.</li>
         </ul>
@@ -299,21 +299,20 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
             decoding="async"
           />
           <figcaption>
-            The flagship Guild X-500 from the 1960s — this example features a rare factory Bigsby tailpiece.
-            Combining elegant aesthetics with professional-grade versatility, the X-500 remains one of the most
-            sought-after archtops for collectors and players alike.
+            The flagship Guild X-500 from the 1960s. This one has a rare factory Bigsby tailpiece. The X-500
+            is still one of Guild's most in-demand archtops with collectors and players.
           </figcaption>
         </figure>
         <p>
-          While serial numbers provide the baseline, expert authentication requires a physical inspection of
-          these key areas:
+          Serial numbers give you the baseline, but real authentication takes a physical inspection of
+          these areas:
         </p>
 
         <h3 class="gsl-h3">1. Internal Labels</h3>
         <ul class="gsl-list">
           <li><strong>Hoboken Era (1950s–60s):</strong> look for a white label explicitly stating &ldquo;Hoboken, New Jersey.&rdquo;</li>
           <li><strong>Westerly Era (1970s–90s):</strong> these typically moved to a cream or tan label.</li>
-          <li><strong>Consistency:</strong> always ensure the serial number on the label matches the number stamped on the back of the headstock exactly.</li>
+          <li><strong>Consistency:</strong> always make sure the serial number on the label matches the number stamped on the back of the headstock exactly.</li>
         </ul>
 
         <h3 class="gsl-h3">2. Potentiometer (Pot) Codes</h3>
@@ -366,7 +365,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
   <!-- Floating in-page navigation (desktop fixed sidebar ≥900px; mobile bottom-left button + panel) -->
   <nav class="jvg-nav-sidebar" aria-label="Page section navigation">
     <div class="jvg-nav-sidebar-header"><strong>Guild Serial Number Guide</strong></div>
-    <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="jvg-nav-link top">↑ Decoder Tool — Top of Page</a>
+    <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="jvg-nav-link top">↑ Back to Decoder Tool</a>
     {navParts.map((i) => <a href={i.href} class="jvg-nav-link"><span class="jvg-nav-dot"></span>{i.label}</a>)}
   </nav>
 
@@ -376,7 +375,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
 
   <div class="jvg-nav-panel" id="jvgNavPanel" role="navigation" aria-label="Page section navigation">
     <div class="jvg-nav-panel-header"><strong>Guild Serial Number Guide</strong></div>
-    <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});closeJvgNav();return false;" class="jvg-nav-link top">↑ Decoder Tool — Top of Page</a>
+    <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});closeJvgNav();return false;" class="jvg-nav-link top">↑ Back to Decoder Tool</a>
     {navParts.map((i) => <a href={i.href} onclick="closeJvgNav()" class="jvg-nav-link"><span class="jvg-nav-dot"></span>{i.label}</a>)}
   </div>
 </Layout>

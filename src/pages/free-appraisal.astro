@@ -10,12 +10,12 @@ const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "What's The Difference Between Fair Market Value And An Insurance Appraisal?", acceptedAnswer: { "@type": "Answer", text: "Fair Market Value is what you can realistically expect a buyer to hand you in cash today. An insurance appraisal is usually higher—it represents the retail replacement cost to buy an equivalent instrument from a dealer if yours is stolen or destroyed. We provide the exact numbers for both, so you know where you stand, whether you're cashing out or updating your policy." } },
-    { "@type": "Question", name: "Do I Have To Bring The Guitar To Mesa To Get An Appraisal?", acceptedAnswer: { "@type": "Answer", text: "Not at all. While we love having great gear walk through our doors, our remote appraisal system is built for accuracy. By reviewing high-resolution photos of specific forensic details—like neck heels, pot codes, and solder joints—we can authenticate and value your instrument from anywhere in the country." } },
-    { "@type": "Question", name: "Why Can't I Just Check eBay Or Reverb Sold Listings To Find The Value Myself?", acceptedAnswer: { "@type": "Answer", text: "Public sold listings lack crucial context. A 1965 Stratocaster that sold for $12,000 might have had unoriginal pickups, a refret, and overspray, while an untouched survivor could command double that amount. We price your instrument using private, off-market sales data and exact factory specs that public platforms simply don't account for." } },
-    { "@type": "Question", name: "How Much Does A Refinish Or A Headstock Repair Hurt The Value?", acceptedAnswer: { "@type": "Answer", text: "It depends heavily on the era and the quality of the work, but generally, a refinish on a golden-era Fender or Gibson cuts the pure collector value by about 50%. A headstock break does the same, usually dropping the price by 40% to 50%. The good news? These guitars remain highly desirable as 'player grade' instruments, and we know exactly how to price them to sell in that market." } },
-    { "@type": "Question", name: "Can You Help With Appraisals For An Estate Or Probate Court?", acceptedAnswer: { "@type": "Answer", text: "Yes. Valuing a lifetime collection during estate settlement requires absolute accuracy and clean documentation. We provide official, written appraisals that hold up in legal, tax, and probate scenarios, taking the burden and guesswork off the family's shoulders." } },
-    { "@type": "Question", name: "Will You Buy My Guitar After You Appraise It?", acceptedAnswer: { "@type": "Answer", text: "Absolutely. If you decide you're ready to sell, we make competitive, hassle-free cash offers based on the Fair Market Value we just uncovered. There is never any pressure to sell to us, but the option is always there if you want a fast, secure transaction without dealing with tire-kickers online." } },
+    { "@type": "Question", name: "What's The Difference Between Fair Market Value And An Insurance Appraisal?", acceptedAnswer: { "@type": "Answer", text: "Fair market value is what a buyer will realistically hand you in cash today. An insurance appraisal is usually higher. It's the retail cost of replacing your instrument with an equivalent one from a dealer if yours gets stolen or destroyed. I give you the numbers for both. If you're selling, you know your floor. If you're insuring, you know your coverage." } },
+    { "@type": "Question", name: "Do I Have To Bring The Guitar To Mesa To Get An Appraisal?", acceptedAnswer: { "@type": "Answer", text: "Not at all. I love it when great gear walks through the door, but I do most appraisals remotely. From clear photos of the right details, like neck heels, pot codes, and solder joints, I can authenticate and value your guitar anywhere in the country." } },
+    { "@type": "Question", name: "Why Can't I Just Check eBay Or Reverb Sold Listings To Find The Value Myself?", acceptedAnswer: { "@type": "Answer", text: "Sold listings don't tell you the whole story. A 1965 Stratocaster that sold for $12,000 might have had swapped pickups, a refret, and overspray, while an untouched one could be worth double. I price your guitar off private sales data and the exact factory specs that public listings leave out." } },
+    { "@type": "Question", name: "How Much Does A Refinish Or A Headstock Repair Hurt The Value?", acceptedAnswer: { "@type": "Answer", text: "It depends on the era and how good the work is, but as a rule a refinish on a golden-era Fender or Gibson cuts the collector value by about half. A headstock break does about the same, usually 40% to 50%. That's not the end of the road, though. These guitars still sell well as player-grade instruments, and I know how to price them for that market." } },
+    { "@type": "Question", name: "Can You Help With Appraisals For An Estate Or Probate Court?", acceptedAnswer: { "@type": "Answer", text: "Yes. Settling an estate takes accurate numbers and clean paperwork. I write official appraisals that hold up for legal, tax, and probate purposes, so the family isn't left guessing." } },
+    { "@type": "Question", name: "Will You Buy My Guitar After You Appraise It?", acceptedAnswer: { "@type": "Answer", text: "Absolutely. If you decide to sell, I'll make a fair cash offer based on that same value. There's never any pressure, but the option is there if you'd rather sell quick than deal with tire-kickers online." } },
   ],
 };
 
@@ -23,31 +23,31 @@ const steps = [
   {
     n: "01",
     title: "Send Over the Details",
-    body: "Just fill out the form below with the brand, model, and a few clear photos. Whether you have one old Fender or a high-value collection you&rsquo;ve built over a lifetime, this is the best way to get the ball rolling. The more details you can provide, the more accurate the guitar identification will be. You can also feel free to call, text or email if you&rsquo;d prefer to reach out that way.",
+    body: "Just fill out the form below with the brand, model, and a few clear photos. One old Fender or a whole collection built over the years, either way this is the easiest way to get started. The more details you give me, the more accurate the guitar identification will be. You can also call, text, or email if you&rsquo;d rather reach out that way.",
     img: "/images/get-your-valuation.jpg",
     alt: "Man taking photo of cherry Gibson ES-335",
   },
   {
     n: "02",
     title: "Expert Review & Research",
-    body: "I use multiple data points beyond just the serial number to date your vintage guitar correctly, including pot codes and hardware specs. I&rsquo;ll personally dive into the details, checking the serial number and looking over the parts and overall condition. I&rsquo;ll identify the guitar model &amp; year, then I&rsquo;ll compare your guitar against actual recent sales and my own deep market data to find its true current market value.",
+    body: "I use more than just the serial number to date your guitar correctly, including pot codes and hardware specs. I&rsquo;ll go through the details, checking the serial number and looking over the parts and overall condition. Once I&rsquo;ve pinned down the model &amp; year, I&rsquo;ll compare it against recent sales and my own market data to find what it&rsquo;s actually worth today.",
     img: "/images/expert-review-research.jpg",
     alt: "Joe Dampt reviewing Gibson Barney Kessel guitar",
   },
   {
     n: "03",
     title: "Get Your Valuation",
-    body: "I&rsquo;ll get back to you with a straight-up, honest look at the current market value of your guitar. Whether you&rsquo;re just curious about its history or you&rsquo;re ready to move it on to a new home, you&rsquo;ll have the expert data you need. If you do decide to sell, I&rsquo;m always happy to make a competitive cash offer to buy it using our easy nationwide selling process.",
+    body: "I&rsquo;ll get back to you with a straight, honest look at what your guitar is worth right now. Curious about its history or ready to move it on, you&rsquo;ll have solid numbers to work from. And if you do decide to sell, I&rsquo;m always happy to make a fair cash offer and buy it through my easy nationwide process.",
     img: "/images/joes-vintage-guitars-remote-nationwide-guitar-appraisal.png",
     alt: "Email from Joe explaining market value of cherry red Gibson ES-335",
   },
 ];
 
 const authority = [
-  { title: "A National Name in Vintage", body: "Even though I&rsquo;m in Mesa, I&rsquo;ve spent years building a reputation as a trusted vintage guitar buyer for collectors all over the country. I focus on the high-end stuff&mdash;the instruments that have a rich history and require a real eye for detail." },
-  { title: "Expert Remote Identification", body: "You don&rsquo;t have to ship your guitar just to find out what it is. I&rsquo;m an expert at spotting original parts, finish issues, and hardware specs just by looking at high-res photos. I&rsquo;ve done thousands of these remote appraisals for owners across the US, helping them verify their gear from their own living room." },
-  { title: "Beyond the &ldquo;Big Three&rdquo;", body: "I know the market inside and out for more than just Fender and Gibson. If you need an accurate Gretsch appraisal, the value of a vintage Guild, or help identifying a rare Rickenbacker or Epiphone, I&rsquo;ve got the national sales data to give you a real number." },
-  { title: "Real-World Market Data", body: "I don&rsquo;t look at the bargain bin prices from 10 years ago, or the often inflated &lsquo;asking prices&rsquo; you see on Reverb. I track the actual sales data across the national vintage guitar market to make sure my valuations reflect what&rsquo;s actually happening in the world of guitar collecting today." },
+  { title: "Known Beyond Arizona", body: "I&rsquo;m based in Mesa, but I&rsquo;ve spent years building a name as a vintage guitar buyer for collectors all over the country. I work mostly on the high-end stuff, the instruments with real history that take an experienced eye to get right." },
+  { title: "No Shipping Required", body: "You don&rsquo;t have to ship your guitar just to find out what it is. I can spot original parts, finish issues, and hardware specs from good photos. I&rsquo;ve done thousands of these remote appraisals for owners across the US, all without them leaving the living room." },
+  { title: "Beyond the &ldquo;Big Three&rdquo;", body: "My market knowledge goes well past Fender and Gibson. If you need an accurate Gretsch appraisal, the value of a vintage Guild, or help identifying a rare Rickenbacker or Epiphone, I&rsquo;ve got the national sales data to give you a real number." },
+  { title: "Real-World Market Data", body: "I don&rsquo;t go by the bargain-bin prices from 10 years ago, or the inflated &lsquo;asking prices&rsquo; you see on Reverb. I track real sales data across the national vintage guitar market so my numbers reflect what&rsquo;s actually selling right now." },
 ];
 
 const stats = [
@@ -73,7 +73,7 @@ const caseStudies = [
     img: "/images/1962-gibson-335-cherry-red-semi-hollow-body-electric.jpg",
     challenge: "1962 is a major &lsquo;transition&rsquo; year for Gibson. The goal was to determine if this Cherry 335 still held the coveted PAF pickups, early Patent Number pickups, or a mix of both. This was an in-person appraisal.",
     detail: "I pulled the pickups to verify the PAF stickers, &lsquo;L&rsquo; shaped tooling marks, cover solder, and overall construction. I then looked at the pots and wiring to confirm that the electronics were untouched. I also spent time on the hardware, identifying the &lsquo;no-wire&rsquo; ABR-1 bridge and the &lsquo;short seam&rsquo;, lightweight aluminum stop tailpiece. Unlike the heavier zinc versions that followed, this specific tailpiece is a key indicator of an early &rsquo;62. I finished by verifying that the single-line, double-ring Kluson tuners were original with no added or enlarged holes.",
-    outcome: "This was a &lsquo;best-case scenario&rsquo; with two original PAFs and all-original hardware. This confirmation significantly boosted the seller&rsquo;s market position, helping them realize the full premium value of a transitional 1962 model.",
+    outcome: "With two original PAFs and all-original hardware, this was about as good as it gets. The confirmation let the seller ask the full premium a transitional 1962 model brings.",
   },
   {
     title: "1956 Gibson ES-5 (The &ldquo;N&rdquo; Mystery)",
@@ -88,15 +88,15 @@ const caseStudies = [
 const marketPulse = [
   { tag: "&ldquo;Player Grade&rdquo; is on fire.", body: "I&rsquo;m seeing a surge in demand for 50s and 60s gear that is &lsquo;player grade&rsquo;. Whereas any modification used to be a death sentence for value, I&rsquo;ve been noticing that the market has become increasingly forgiving towards modifications, especially if they are era-correct vintage mods. Now, is your refinished 50s Fender Telecaster going to be worth as much as an original one? Not even close. But it will be worth comparatively more than it was a few years ago, especially if it&rsquo;s a cool older refinish." },
   { tag: "The Hunt for Transition Years.", body: "Collectors are getting much more specific. They&rsquo;re hunting for those &lsquo;in-between&rsquo; months where the specs were shifting. If I can identify a stray PAF pickup or an early-spec neck profile on a mid-60s piece, it&rsquo;s adding thousands to the value." },
-  { tag: "The Reality Check.", body: "There&rsquo;s a massive gap right now between the &lsquo;asking prices&rsquo; you see on the big public sites and what the actual sales data is telling us. A lot of sellers are still acting as if COVID-era price inflation never ended. Don&rsquo;t get me wrong&mdash;the market is still great&mdash;but prices aren&rsquo;t climbing at that same crazy rate anymore. It&rsquo;s left the market cluttered with unsold listings and inflated, speculative prices that just aren&rsquo;t grounded in reality." },
-  { tag: "&ldquo;Under the Radar&rdquo; Brands.", body: "Everyone wants a Burst or a Blackguard, but I&rsquo;m seeing a huge uptick in interest for brands like Gretsch, Guild, and Epiphone (Kalamazoo-made). The &lsquo;alternative&rsquo; vintage market is booming because the value-to-vibe ratio is so high. If you&rsquo;ve got a clean Gretsch 6120 or an Epiphone Crestwood, don&rsquo;t sleep on it&mdash;the collector interest in these &lsquo;other&rsquo; brands is at an all-time high." },
+  { tag: "The Reality Check.", body: "There&rsquo;s a massive gap right now between the &lsquo;asking prices&rsquo; you see on the big public sites and what the actual sales data is telling us. A lot of sellers are still acting as if COVID-era price inflation never ended. Don&rsquo;t get me wrong, the market is still strong, but prices aren&rsquo;t climbing at that crazy rate anymore. That&rsquo;s left the market full of unsold listings and inflated, speculative prices that just aren&rsquo;t grounded in reality." },
+  { tag: "&ldquo;Under the Radar&rdquo; Brands.", body: "Everyone wants a Burst or a Blackguard, but I&rsquo;m seeing a huge uptick in interest for brands like Gretsch, Guild, and Epiphone (Kalamazoo-made). The &lsquo;alternative&rsquo; vintage market is booming because the value-to-vibe ratio is so high. If you&rsquo;ve got a clean Gretsch 6120 or an Epiphone Crestwood, don&rsquo;t sleep on it. Collector interest in these &lsquo;other&rsquo; brands is as strong as I&rsquo;ve ever seen it." },
 ];
 
 const conditionGradesElectric = [
   { grade: "Mint", impact: "Top of Market", body: "100% original factory finish. No checking, buckle rash, or wear of any kind. Original hardware, pickups, and electronics with zero oxidation. Original frets at full height." },
   { grade: "Excellent", impact: "80–95% of Mint", body: "Original finish with only the lightest signs of play. All original hardware and electronics. Minor surface oxidation acceptable. Frets at 90%+ height." },
-  { grade: "Very Good+", impact: "60–75% of Mint", body: "Original finish showing honest player wear — moderate checking, light buckle rash. All original hardware. Original or refretted with good height." },
-  { grade: "Very Good", impact: "45–60% of Mint", body: "Visible player wear — heavier checking, moderate buckle rash, small dings. Mostly original hardware with minor replacements. Plays well after set-up." },
+  { grade: "Very Good+", impact: "60–75% of Mint", body: "Original finish showing honest player wear, with moderate checking and light buckle rash. All original hardware. Original or refretted with good height." },
+  { grade: "Very Good", impact: "45–60% of Mint", body: "Visible player wear, heavier checking, moderate buckle rash, small dings. Mostly original hardware with minor replacements. Plays well after set-up." },
   { grade: "Good", impact: "25–40% of Mint", body: "Heavy player wear. May include a repaired crack or small headstock repair. Mix of original and non-original parts. Functional as a gigging instrument." },
   { grade: "Fair", impact: "10–25% of Mint", body: "Refinished, or original finish with significant structural repairs. Non-original hardware throughout, including pickups. Playable but requires work." },
   { grade: "Poor", impact: "Parts Value Only", body: "Significant structural damage, missing parts, heavy modifications. Heavily modified or non-functional electronics. A project guitar." },
@@ -133,7 +133,7 @@ const fakeSpotting = [
   {
     brand: "Fender",
     points: [
-      { title: "Date Stamps &amp; Codes", body: "On a vintage piece, you&rsquo;re looking for a handwritten pencil date or ink stamp on the &lsquo;butt&rsquo; of the neck — like &lsquo;5-62&rsquo; or &lsquo;13MAY65B.&rsquo; A clean modern barcode or no markings means a newer guitar or &lsquo;Partscaster.&rsquo;" },
+      { title: "Date Stamps &amp; Codes", body: "On a vintage piece, you&rsquo;re looking for a handwritten pencil date or ink stamp on the &lsquo;butt&rsquo; of the neck, like &lsquo;5-62&rsquo; or &lsquo;13MAY65B.&rsquo; A clean modern barcode or no markings means a newer guitar or &lsquo;Partscaster.&rsquo;" },
       { title: "The &ldquo;Walnut Plug&rdquo; Test", body: "On a genuine American Fender with a headstock-adjust truss rod, you&rsquo;ll see a distinct dark walnut wood plug surrounding the adjustment hole. Counterfeits leave raw wood or a cheap black plastic insert." },
       { title: "Era-Correct Hardware", body: "Fender was very specific about which hardware went with which era. A &lsquo;1954&rsquo; Strat with an 11-screw pickguard (didn&rsquo;t exist until 1959) or a &lsquo;1960s&rsquo; neck with a 3-bolt &lsquo;Micro-Tilt&rsquo; plate is a parts-bin guitar." },
     ],
@@ -154,7 +154,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
 
 <Layout
   title="Free Vintage Guitar Appraisal | Joe&rsquo;s Vintage Guitars"
-  description="Get a free vintage guitar appraisal from Joe's Vintage Guitars. We provide accurate market valuations for Fender, Gibson, and Martin based on sales data!"
+  description="Get a free vintage guitar appraisal from Joe's Vintage Guitars. I give accurate market valuations for Fender, Gibson, Martin and more, based on real sales data."
   canonical="/free-appraisal/"
   ogImage="https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/07/Vintage-Guitar-Appraisal-Expert.jpg"
   ogImageAlt="Free vintage guitar appraisal at Joe's Vintage Guitars"
@@ -165,7 +165,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
 >
   <PageHero
     title="Free Vintage Guitar Appraisal: What Is Your Vintage Guitar Worth?"
-    subhead="Expert Valuations For Fender, Gibson, Martin &amp; All Iconic American Brands"
+    subhead="Expert Valuations For Fender, Gibson, Martin &amp; Every Major American Brand"
     bgImage="/images/hero-background.jpg"
     size="lg"
   >
@@ -190,13 +190,13 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
       <div class="fa-intro__copy">
         <p>
           Getting a free vintage guitar appraisal shouldn&rsquo;t be a hassle. At Joe&rsquo;s Vintage Guitars,
-          I help owners and collectors nationwide find out exactly what their gear is worth in today&rsquo;s
-          market. Whether you&rsquo;re trying to find the cash value of a vintage Gibson, need a
+          I help owners and collectors nationwide find out what their gear is worth in today&rsquo;s
+          market. Maybe you want the cash value of a vintage Gibson, need a
           <a href="/fender-guitars-serial-number-guide/"><strong>Fender Serial Number</strong></a>
-          identified, or have an entire
-          <a href="/sell-a-guitar-collection/"><strong>Guitar Collection to Sell</strong></a>,
-          I provide the straight-up expert advice you need. My goal is to make sure you have the right
-          numbers before you sell or insure your instrument.
+          identified, or have a whole
+          <a href="/sell-a-guitar-collection/"><strong>Guitar Collection to Sell</strong></a>.
+          Either way, I&rsquo;ll give you a straight, honest answer and the right
+          numbers before you sell or insure it.
         </p>
         <div class="fa-intro__ctas">
           <Button href={hrefs.tel} variant="rust" size="md">Call Or Text Joe</Button>
@@ -258,7 +258,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
 
       <!-- Right: Trusted Authority -->
       <div class="fa-appraisal__authoritycol">
-        <h3 class="fa-authority__heading">A Trusted Authority In Nationwide Vintage Guitar Values</h3>
+        <h3 class="fa-authority__heading">Nationwide Vintage Guitar Values You Can Trust</h3>
         <div class="fa-authority__rule" aria-hidden="true"></div>
         <h4 class="fa-authority__sub">Expertise By The Numbers</h4>
         <div class="fa-authority__stats">
@@ -287,7 +287,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
       <header class="fa-cases__head">
         <h3 class="fa-cases__title">Notable Appraisals:<br />Real-World Vintage Guitar Case Studies</h3>
         <div class="fa-cases__rule" aria-hidden="true"></div>
-        <p class="fa-cases__lede">I&rsquo;ve handled thousands of vintage instruments over the years. Here are a few examples where my research helped sellers get the full story&mdash;and the right price&mdash;for their gear.</p>
+        <p class="fa-cases__lede">I&rsquo;ve handled thousands of vintage instruments over the years. Here are a few where my research got sellers the full story, and the right price, for their gear.</p>
       </header>
       {caseStudies.map((c, i) => (
         <article class={`fa-case fa-case--${i % 2 === 0 ? "left" : "right"}`}>
@@ -359,7 +359,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
       <header class="fa-section-head">
         <h3 class="fa-section-head__title">Vintage Guitar Condition Grading Explained</h3>
         <div class="fa-section-head__rule" aria-hidden="true"></div>
-        <p class="fa-section-head__lede">What the grades actually mean &mdash; and how they move the price</p>
+        <p class="fa-section-head__lede">What the grades actually mean, and how they move the price</p>
       </header>
       <div class="fa-grading__lede">
         <p>A 1959 Gibson Les Paul graded Mint can sell for three to four times the price of the exact same model graded Good. The grading system used by professional dealers and auction houses is very different from casual descriptions like &lsquo;great shape&rsquo; or &lsquo;a few dings.&rsquo;</p>
@@ -403,10 +403,10 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
         <h3 class="fa-collection__title">Vintage Guitar Collection Appraisals: Expert Valuation for Estates &amp; Large Inventories</h3>
         <div class="fa-collection__rule" aria-hidden="true"></div>
         <p>When you&rsquo;re looking at 20, 50, or even 100+ instruments, the hardest part is usually just knowing where to start. Whether you built the collection yourself or you&rsquo;ve suddenly inherited a room full of gear, I&rsquo;m here to help you get a clear, realistic look at what&rsquo;s actually there.</p>
-        <p>I&rsquo;ve personally appraised and purchased dozens of 100+ piece collections&mdash;my largest to date was a single appraisal and purchase totaling <strong>713 guitars and amps</strong>. No collection is too big or too complex for me to handle professionally.</p>
+        <p>I&rsquo;ve appraised and bought dozens of 100+ piece collections. My largest so far was a single appraisal and purchase of <strong>713 guitars and amps</strong>. No collection is too big or too complicated for me to take on.</p>
         <ul>
-          <li><strong>Inventory Without the Stress.</strong> I&rsquo;ll help you catalog the whole collection &mdash; turning a confusing pile of cases into a professional list with the exact years and models identified.</li>
-          <li><strong>Spotting the &ldquo;Money&rdquo; Guitars.</strong> I&rsquo;ll identify the &lsquo;heavy hitters&rsquo; &mdash; the high-value collector items &mdash; and separate them from the &lsquo;player-grade&rsquo; gear.</li>
+          <li><strong>Inventory Without the Stress.</strong> I&rsquo;ll help you catalog the whole collection, turning a pile of cases into a clear list with the exact years and models identified.</li>
+          <li><strong>Spotting the &ldquo;Money&rdquo; Guitars.</strong> I&rsquo;ll pick out the &lsquo;heavy hitters,&rsquo; the high-value collector pieces, and separate them from the &lsquo;player-grade&rsquo; gear.</li>
           <li><strong>One Voice for Every Brand.</strong> You don&rsquo;t need a &lsquo;Gibson guy&rsquo; and a &lsquo;Martin guy.&rsquo; I track actual sales data for all the major American names.</li>
           <li><strong>Remote Collection Review.</strong> You don&rsquo;t have to ship a trailer of gear to Mesa just to get an answer. I&rsquo;ve developed a remote collection appraisal system using high-res photos.</li>
         </ul>
@@ -485,10 +485,10 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
       <h2 class="fa-touch__title">Get in Touch!</h2>
       <div class="fa-touch__rule" aria-hidden="true"></div>
       <p class="fa-touch__lede">
-        Got a classic guitar or an amplifier you&rsquo;re thinking of selling? We&rsquo;re here for you! At
-        Joe&rsquo;s Vintage Guitars, we buy individual pieces, collections, and other stringed instruments. We
-        also provide expert appraisals. Send over your pics to <a href={hrefs.mailto}>{contact.email}</a> or
-        text us at <a href={hrefs.sms}>{contact.phone}</a>. Let&rsquo;s discover the value of your instrument!
+        Got a classic guitar or amp you&rsquo;re thinking of selling? At
+        Joe&rsquo;s Vintage Guitars, I buy individual pieces, whole collections, and other stringed
+        instruments, and I do free appraisals. Send your pics to <a href={hrefs.mailto}>{contact.email}</a> or
+        text me at <a href={hrefs.sms}>{contact.phone}</a>, and I&rsquo;ll tell you what it&rsquo;s worth.
       </p>
 
       <form class="fa-touch__form" data-jvg-contact-form data-form-id="contact" novalidate>
