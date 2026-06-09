@@ -1,0 +1,256 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PageHero from "../components/primitives/PageHero.astro";
+import Button from "../components/primitives/Button.astro";
+import ContactSection from "../components/ContactSection.astro";
+import { contact, hrefs } from "../config/site";
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Vintage Fender Stratocaster Value Guide", item: "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/" },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Vintage Fender Stratocaster Value Guide",
+    author: { "@type": "Person", name: "Joe Dampt" },
+    publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" },
+    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/",
+  },
+];
+
+const drivers = [
+  { t: "Year of Manufacture", b: "Earlier guitars bring the most. The 1954 debut year is the top of the market, and values step down year by year from there." },
+  { t: "Color &amp; Finish", b: "Anything other than sunburst is a custom color, and those are much rarer. A custom-color Strat can be worth more than twice a sunburst from the same year." },
+  { t: "Originality", b: "All-original parts matter: knobs, hardware, pickguard, pickups, tuners. A refinish drops a guitar to roughly half its original-finish value, and replaced parts can cost up to 50%." },
+  { t: "Condition", b: "The cleaner, the better. Unplayed &lsquo;case queens&rsquo; sit at the top, then lightly played, then moderately worn, then heavily used." },
+];
+
+// Year/era, sunburst range, custom-color range. "—" = no separate custom listing.
+const prices = [
+  { era: "1954 (transitional)", sunburst: "$85,000–$275,000", custom: "—" },
+  { era: "1955", sunburst: "$62,000–$80,000", custom: "$100,000–$200,000" },
+  { era: "1956", sunburst: "$55,000–$75,000", custom: "$50,000–$200,000" },
+  { era: "1957", sunburst: "$40,000–$60,000", custom: "$50,000–$200,000" },
+  { era: "1958", sunburst: "$35,000–$45,000", custom: "$45,000–$180,000" },
+  { era: "1959", sunburst: "$25,000–$35,000", custom: "$40,000–$160,000" },
+  { era: "1960–1965", sunburst: "$15,000–$45,000", custom: "$20,000–$85,000" },
+];
+
+const dating = [
+  "Serial on the bridge plate: roughly 1950–1954",
+  "Serial on the neck plate: roughly 1954–1963",
+  "Neck plate with an &lsquo;L&rsquo; prefix: 1963–1965",
+  "Neck plate, 6-digit number with a large &lsquo;F&rsquo; logo: 1965–1976",
+  "Serial on the headstock: 1977–present",
+  "Neck plate starting with &lsquo;V&rsquo;: 1982 and later (American Vintage reissues)",
+];
+---
+
+<Layout
+  title="Vintage Fender Stratocaster Value Guide | Joe&rsquo;s Vintage Guitars"
+  description="What a vintage 1954-1965 Fender Stratocaster is worth: current price ranges by year for sunburst and custom colors, plus the four things that drive the value."
+  canonical="/vintage-fender-stratocaster-value-guide/"
+  structuredData={structuredData}
+>
+  <PageHero
+    eyebrow="Value Guide"
+    title="Vintage Fender Stratocaster Value Guide"
+    subhead="What a 1954&ndash;1965 Stratocaster is actually worth today, and the four things that move the number."
+    subheadTag="p"
+    subheadHtml={true}
+    bgImage="/images/hero-background.jpg"
+  >
+    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
+    <Button slot="cta" href="/free-appraisal/" variant="cream" size="lg">Free Appraisal</Button>
+  </PageHero>
+
+  <section class="vg-section">
+    <div class="vg-inner">
+      <p class="vg-lede">
+        Vintage Fender Stratocasters from the 1950s and &rsquo;60s are some of the most collectible instruments
+        out there. This guide gives you real, current numbers and the factors that set them, so you have a sense
+        of where yours stands before you sell or insure it. For an exact figure on your specific guitar,
+        <a href="/free-appraisal/">get a free appraisal</a> and I&rsquo;ll give you a straight answer.
+      </p>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt">
+    <div class="vg-inner">
+      <h2 class="vg-head">What Drives the Value</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <div class="vg-grid">
+        {drivers.map((d) => (
+          <article class="vg-card">
+            <h3 set:html={d.t} />
+            <p set:html={d.b} />
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="vg-section">
+    <div class="vg-inner">
+      <h2 class="vg-head">Vintage Stratocaster Values (1954&ndash;1965)</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <p class="vg-note">
+        These ranges are for all-original guitars in excellent condition with the original case. Custom-color
+        prices swing widely depending on how rare the color is. Updated March 2026, and the market moves, so treat
+        them as a guide rather than a quote.
+      </p>
+      <div class="vg-table-wrap">
+        <table class="vg-table">
+          <thead>
+            <tr><th>Year</th><th>Sunburst</th><th>Custom Color</th></tr>
+          </thead>
+          <tbody>
+            {prices.map((p) => (
+              <tr><td>{p.era}</td><td>{p.sunburst}</td><td>{p.custom}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt">
+    <div class="vg-inner">
+      <h2 class="vg-head">Dating Your Stratocaster</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <p>The fastest way to narrow down the year is where the serial number sits and how it&rsquo;s formatted:</p>
+      <ul class="vg-list">
+        {dating.map((d) => <li set:html={d}></li>)}
+      </ul>
+      <p>
+        For the full breakdown with photos, work through my
+        <a href="/fender-guitars-serial-number-guide/">Fender serial number guide</a>. Serial numbers only get
+        you a window, though, so the physical features matter too.
+      </p>
+    </div>
+  </section>
+
+  <section class="vg-section">
+    <div class="vg-inner">
+      <h2 class="vg-head">Selling Your Vintage Stratocaster</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <div class="vg-grid">
+        <article class="vg-card">
+          <h3>Consign It</h3>
+          <p>
+            Let a dealer handle the photos, the listing, the authentication, and the buyers. I offer
+            <a href="/consignment/">consignment</a> from as low as 8% on top-tier instruments.
+          </p>
+        </article>
+        <article class="vg-card">
+          <h3>Sell It Outright</h3>
+          <p>
+            The quickest, simplest route: a fair cash offer and payment up front, with me handling shipping or
+            pickup. <a href="/sell-my-fender-guitar/">Sell your Fender to me</a> directly.
+          </p>
+        </article>
+        <article class="vg-card">
+          <h3>Sell It Privately</h3>
+          <p>
+            You can sell it yourself, but a high-end vintage guitar carries real liability. Most dealers keep an
+            insurance policy over $100,000 just for shipments. If you go this route, Reverb&rsquo;s buyer
+            protection is worth the fees.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .vg-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
+  .vg-section { background: #fff; padding: 56px 0; }
+  .vg-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-head {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(26px, 3vw, 38px);
+    color: var(--color-brand-rust-dark);
+    margin: 0;
+    line-height: 1.2;
+  }
+  .vg-rule { width: 80px; height: 3px; background: var(--color-brand-rust); margin: 14px 0 22px; }
+  .vg-section p {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--color-brand-charcoal);
+    margin: 0 0 16px;
+    max-width: 900px;
+  }
+  .vg-lede { font-size: 17px !important; }
+  .vg-note { font-style: italic; }
+  .vg-section a { color: var(--color-brand-rust); text-decoration: underline; font-weight: 600; }
+  .vg-section a:hover { color: var(--color-brand-rust-bright); }
+
+  .vg-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 22px;
+    margin-top: 8px;
+  }
+  .vg-card {
+    background: var(--color-brand-cream-light, #f9f1de);
+    border-top: 4px solid var(--color-brand-rust-bright);
+    padding: 20px 22px;
+  }
+  .vg-section--alt .vg-card { background: #fff; }
+  .vg-card h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 8px;
+  }
+  .vg-card p { font-size: 15px; margin: 0; }
+
+  .vg-list { margin: 0 0 18px; padding-left: 22px; }
+  .vg-list li {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-brand-charcoal);
+    margin-bottom: 8px;
+  }
+
+  .vg-table-wrap { overflow-x: auto; }
+  .vg-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    font-family: var(--font-sans);
+    min-width: 460px;
+  }
+  .vg-table th, .vg-table td {
+    text-align: left;
+    padding: 13px 18px;
+    border-bottom: 1px solid rgba(62, 42, 20, 0.12);
+    font-size: 15px;
+    color: var(--color-brand-charcoal);
+  }
+  .vg-table th {
+    background: var(--color-brand-rust-dark);
+    color: #fff;
+    font-family: var(--font-display);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 14px;
+  }
+  .vg-table td:first-child { font-weight: 700; color: var(--color-brand-rust-dark); }
+  .vg-table tbody tr:nth-child(odd) { background: var(--color-brand-cream-light, #f9f1de); }
+</style>

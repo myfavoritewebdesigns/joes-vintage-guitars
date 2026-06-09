@@ -22,9 +22,9 @@ Maybe you spent years (decades, even) putting it together yourself. Or maybe a p
 
 Short answer: selling a real collection is a real job. Not a side project. Not something you knock out in a weekend. Depending on the size of the collection and what's in it, you're looking at anywhere from a couple weeks of steady work to several months of active management. We've worked on collections of **700 instruments and up**. At that scale you aren't selling a few guitars, you're running a full inventory liquidation, with months of photography, listing, messaging, packing, and shipping ahead of you, all while trying to price accurately in a market that moves week to week. And that's assuming you already know what you've got.
 
-This guide walks through every legitimate avenue: what each platform requires, what it actually costs in time and money, and which type of seller it suits. At the end, I'll explain how [Joe's Vintage Guitars](/sell-my-collection/) handles the whole thing for you, identification, documentation, organization, so you don't have to figure all of it out before you can even start.
+This guide walks through every legitimate avenue: what each platform requires, what it actually costs in time and money, and which type of seller it suits. At the end, I'll explain how [Joe's Vintage Guitars](/sell-a-guitar-collection/) handles the whole thing for you, identification, documentation, organization, so you don't have to figure all of it out before you can even start.
 
-**Who this is for:** anyone selling 10 or more instruments. Your own lifetime collection, an inherited collection from an estate, or instruments you're managing on behalf of a family member. The math works the same. Collections range from a dozen guitars to several hundred or more. We've personally handled collections over **700 instruments**. Whatever the scale, if you don't know what you have or where to begin, [start here](/sell-my-collection/). We can help from step one.
+**Who this is for:** anyone selling 10 or more instruments. Your own lifetime collection, an inherited collection from an estate, or instruments you're managing on behalf of a family member. The math works the same. Collections range from a dozen guitars to several hundred or more. We've personally handled collections over **700 instruments**. Whatever the scale, if you don't know what you have or where to begin, [start here](/sell-a-guitar-collection/). We can help from step one.
 
 <h2 id="inherited">If You've Inherited a Guitar Collection: Read This First</h2>
 
@@ -42,7 +42,7 @@ That uncertainty is normal. Nobody expects you to know any of this. But it does 
 
 <figure><img alt="A large guitar collection stored in cases on a rack, the kind of inherited collection Joe's Vintage Guitars evaluates and purchases" src="/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/photo-of-guitar-collection-in-cases-scaled.jpeg" loading="lazy" decoding="async"><figcaption>A guitar collection in cases. Exactly the kind of situation we're built to handle. We come to you, open every case, and tell you what's there.</figcaption></figure>
 
-**You don't need to figure this out alone.** When you [reach out to us](/sell-my-collection/), we can come to you, look at what's there, identify the instruments, give you honest context about values, and walk you through your options. No charge, no obligation. You can also [request a free appraisal](/free-appraisal/) if you want a professional valuation before making any decisions. Most families find that one conversation with us saves them weeks of research and uncertainty.
+**You don't need to figure this out alone.** When you [reach out to us](/sell-a-guitar-collection/), we can come to you, look at what's there, identify the instruments, give you honest context about values, and walk you through your options. No charge, no obligation. You can also [request a free appraisal](/free-appraisal/) if you want a professional valuation before making any decisions. Most families find that one conversation with us saves them weeks of research and uncertainty.
 
 ### What to Do (and Not Do) Before Calling Anyone
 
@@ -230,7 +230,7 @@ For collections that include genuinely significant vintage pieces, pre-war acous
 
 ### Dealers and Broker Networks
 
-Reaching out directly to established vintage guitar dealers, beyond just your local area, is worth doing for high-value pieces. A lot of dealers are actively buying inventory and will make offers without the friction of a formal auction process. Expect wholesale offers (typically 50 to 70 percent of retail depending on the instrument), but factor in the zero time cost and zero shipping risk. [This is essentially what we do at Joe's](/sell-my-collection/), with a specific focus on making the process efficient, fair, and transparent for collectors and families.
+Reaching out directly to established vintage guitar dealers, beyond just your local area, is worth doing for high-value pieces. A lot of dealers are actively buying inventory and will make offers without the friction of a formal auction process. Expect wholesale offers (typically 50 to 70 percent of retail depending on the instrument), but factor in the zero time cost and zero shipping risk. [This is essentially what we do at Joe's](/sell-a-guitar-collection/), with a specific focus on making the process efficient, fair, and transparent for collectors and families.
 
 ### Instagram and Direct Collector Outreach
 
@@ -293,11 +293,11 @@ Most dealers will only engage once you've done the homework: identified every in
 -   **Explain the value honestly.** We'll tell you what each instrument is worth in the current market, what factors affect that value, and what a fair offer looks like.
 -   **Work around estate timelines.** If you're an executor with probate deadlines, or a family that needs a clean resolution on a schedule, we accommodate that.
 
-If you're managing a parent's or grandparent's collection and feel completely lost, that's exactly the situation we're set up to help with. [Reach out here](/sell-my-collection/) and we'll have a straightforward conversation about what you have and what makes sense. No pressure, no obligation.
+If you're managing a parent's or grandparent's collection and feel completely lost, that's exactly the situation we're set up to help with. [Reach out here](/sell-a-guitar-collection/) and we'll have a straightforward conversation about what you have and what makes sense. No pressure, no obligation.
 
 ### Here's What the Full Process Looks Like
 
-1.  **You reach out.** Through our [Sell My Collection page](/sell-my-collection/), by phone, or by email. Tell us what you know. Approximate number of instruments, general categories if you know them, and your situation. You don't need answers. Just a starting point.
+1.  **You reach out.** Through our [Sell My Collection page](/sell-a-guitar-collection/), by phone, or by email. Tell us what you know. Approximate number of instruments, general categories if you know them, and your situation. You don't need answers. Just a starting point.
 2.  **We evaluate, at your location if needed.** For local collections, we come to you. We handle the identification and documentation ourselves. For out-of-area collections, photos and whatever records exist give us enough to have a meaningful conversation and figure out next steps.
 3.  **You receive a clear, itemized offer.** We don't do vague lowball numbers. We tell you what we'll pay for the collection, walk you through the reasoning on significant pieces, and give you time to consider it without pressure.
 4.  **You get paid.** Same day for local transactions. No waiting on buyers, no platform fees deducted, no returns weeks later.
@@ -316,7 +316,7 @@ If you're managing a parent's or grandparent's collection and feel completely lo
 
 We won't pretend otherwise. Buying collections to resell is a business, and the offers we make reflect that. You will not net the same dollar amount you'd theoretically achieve if every guitar sold at full retail, every buyer was reasonable, and the process took no time. What you *will* get is a fair wholesale price, paid immediately, with the identification and documentation handled for you, and zero ongoing effort on your part. For most families and collectors who run the real math on DIY selling versus a direct sale, that gap narrows considerably. And for inherited collections, where the alternative is months of unfamiliar work during an already difficult time, the value of a clean resolution is real.
 
-We're based in Mesa, Arizona, and we travel for the right collection. If you're in the Phoenix metro area, we can typically schedule an evaluation within a week. Out of state? [Start the conversation here](/sell-my-collection/). We'll tell you quickly whether it makes sense to proceed and what the process looks like.
+We're based in Mesa, Arizona, and we travel for the right collection. If you're in the Phoenix metro area, we can typically schedule an evaluation within a week. Out of state? [Start the conversation here](/sell-a-guitar-collection/). We'll tell you quickly whether it makes sense to proceed and what the process looks like.
 
 ## See Real Collections We've Purchased
 
@@ -360,7 +360,7 @@ This is the most common situation we work with, and it deserves a real answer. I
 -   **Tax and reporting considerations.** Inherited property typically receives a stepped-up cost basis for tax purposes, which affects how gains are calculated if the estate sells at a profit. That's a question for your CPA or estate attorney, not us. But it's worth understanding before you decide how to sell.
 -   **Family dynamics.** Sometimes multiple heirs have an interest in the collection, or family members want input on where specific instruments go. We're comfortable navigating those conversations and can work with multiple parties when needed.
 
-If you're an executor or family member handling a guitar collection as part of an estate and don't know where to start, [contact us directly](/sell-my-collection/) or [request a free appraisal](/free-appraisal/). We'll walk you through the process from the beginning. That includes coming to the location, identifying every instrument, and giving you an honest picture of what you're working with before you make any decisions.
+If you're an executor or family member handling a guitar collection as part of an estate and don't know where to start, [contact us directly](/sell-a-guitar-collection/) or [request a free appraisal](/free-appraisal/). We'll walk you through the process from the beginning. That includes coming to the location, identifying every instrument, and giving you an honest picture of what you're working with before you make any decisions.
 
 ### What if the collection isn't organized at all, no list, no records, instruments in different rooms?
 
@@ -388,4 +388,4 @@ Selling individually maximizes theoretical gross revenue but requires maximum ti
 
 Double-box it. The guitar in its case goes into a guitar-specific box with blocking foam or wrapped bubble wrap to keep the case from moving. That box goes inside a slightly larger outer box with at least 2 inches of packing material on all sides. Use carrier-grade tape on all seams. Declare the full value for insurance. Carrier insurance is the only protection with any teeth if something is damaged. FedEx and UPS Ground are both commonly used. USPS Priority Mail is not recommended for expensive instruments. Their handling standards and damage claim process don't hold up.
 
-Joe's Vintage Guitars is located in Mesa, Arizona. We buy vintage and quality used guitars, amplifiers, and musical instruments from collectors, estates, and families throughout the Phoenix metro area and across the country. We specialize in inherited collections and handle identification, documentation, and organization as part of our process. [Learn more about selling your collection →](/sell-my-collection/)
+Joe's Vintage Guitars is located in Mesa, Arizona. We buy vintage and quality used guitars, amplifiers, and musical instruments from collectors, estates, and families throughout the Phoenix metro area and across the country. We specialize in inherited collections and handle identification, documentation, and organization as part of our process. [Learn more about selling your collection →](/sell-a-guitar-collection/)

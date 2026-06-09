@@ -1,0 +1,269 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PageHero from "../components/primitives/PageHero.astro";
+import Button from "../components/primitives/Button.astro";
+import ContactSection from "../components/ContactSection.astro";
+import { contact, hrefs } from "../config/site";
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Vintage Fender Telecaster Value Guide", item: "https://www.joesvintageguitarsaz.com/vintage-fender-telecaster-value-guide/" },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Vintage Fender Telecaster Value Guide",
+    author: { "@type": "Person", name: "Joe Dampt" },
+    publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" },
+    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/vintage-fender-telecaster-value-guide/",
+  },
+];
+
+const models = [
+  { t: "Broadcaster", b: "Fender&rsquo;s very first solid-body electric, named after Leo Fender&rsquo;s radio background. Only about 200 were made, so they&rsquo;re extremely rare. In early 1951 Gretsch asked Fender to drop the name, since Gretsch used &lsquo;Broadkaster&rsquo; on a drum." },
+  { t: "Nocaster", b: "When Fender pulled the &lsquo;Broadcaster&rsquo; off the decal, the headstock just read &lsquo;Fender&rsquo; with no model name. Very few were built in this short transitional stretch, which is what makes them collectible." },
+  { t: "Telecaster", b: "Around September 1951 Fender settled on &lsquo;Telecaster,&rsquo; the name it still carries. The earliest ones have black pickguards (&lsquo;Blackguards&rsquo;) and are the most collectible." },
+  { t: "Esquire", b: "An Esquire is a Telecaster without a neck pickup. They&rsquo;re less in-demand than the two-pickup models but still a valuable collectible, usually around 75% of a same-year, same-color Telecaster." },
+];
+
+const drivers = [
+  { t: "Originality &amp; Condition", b: "Fender used modular, swappable parts, so a lot of these guitars have had pieces changed over the years. Any modification cuts into the collectible value, a refinish runs about half of an original-finish example, and replaced parts take a real bite too. Cleaner guitars bring more." },
+  { t: "Color &amp; Finish", b: "Blonde was the standard finish. Anything else was a custom color at an upcharge, so those are much rarer and worth more depending on the color. Confirming an original finish takes a close, experienced look." },
+  { t: "Year of Manufacture", b: "Earlier guitars were built in smaller numbers, with the more desirable features and hand-built quality. Value drops as the year goes up, with the early-&rsquo;50s models at the top." },
+];
+
+// Model / year (+ finish), value range. en-dash ranges.
+const prices = [
+  { m: "Broadcaster (1950)", v: "$150,000–$250,000" },
+  { m: "Nocaster (1951)", v: "$80,000–$125,000" },
+  { m: "Telecaster (1951)", v: "$65,000–$85,000" },
+  { m: "Telecaster (1952–1953)", v: "$55,000–$75,000" },
+  { m: "Telecaster (1954, black pickguard)", v: "$55,000–$75,000" },
+  { m: "Telecaster (1954, white pickguard)", v: "$40,000–$50,000" },
+  { m: "Telecaster (1955–1957)", v: "$38,000–$50,000" },
+  { m: "Telecaster (1958–1959, blonde)", v: "$25,000–$35,000" },
+  { m: "Telecaster (1958–1959, custom color)", v: "$80,000–$100,000" },
+  { m: "Telecaster (1960–1962, blonde)", v: "$22,000–$32,000" },
+  { m: "Telecaster (1960–1962, custom color)", v: "$60,000–$80,000" },
+  { m: "Telecaster (1963–1964, blonde)", v: "$15,000–$25,000" },
+  { m: "Telecaster (1963–1964, custom color)", v: "$40,000–$65,000" },
+  { m: "Telecaster (1965–1968, blonde)", v: "$9,000–$22,000" },
+  { m: "Telecaster (1965–1968, custom color)", v: "$15,000–$35,000" },
+];
+---
+
+<Layout
+  title="Vintage Fender Telecaster Value Guide | Joe&rsquo;s Vintage Guitars"
+  description="What a vintage Fender Telecaster, Esquire, Broadcaster, or Nocaster is worth: current price ranges by year and finish, plus what drives the value."
+  canonical="/vintage-fender-telecaster-value-guide/"
+  structuredData={structuredData}
+>
+  <PageHero
+    eyebrow="Value Guide"
+    title="Vintage Fender Telecaster Value Guide"
+    subhead="What a vintage Telecaster, Esquire, Broadcaster, or Nocaster is worth, and what sets the number."
+    subheadTag="p"
+    subheadHtml={true}
+    bgImage="/images/hero-background.jpg"
+  >
+    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
+    <Button slot="cta" href="/free-appraisal/" variant="cream" size="lg">Free Appraisal</Button>
+  </PageHero>
+
+  <section class="vg-section">
+    <div class="vg-inner">
+      <p class="vg-lede">
+        The Telecaster family covers the first solid-body electrics Fender ever built, and the early ones are
+        among the most valuable vintage guitars there are. This guide lays out current price ranges by year and
+        finish and the factors behind them. For an exact figure on your guitar,
+        <a href="/free-appraisal/">get a free appraisal</a> and I&rsquo;ll give you a straight answer.
+      </p>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt">
+    <div class="vg-inner">
+      <h2 class="vg-head">Telecaster, Broadcaster, Nocaster &amp; Esquire</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <p>
+        The Telecaster, Broadcaster, and Nocaster are essentially the same guitar under different names. The
+        Esquire is a Telecaster with one pickup instead of two. Here&rsquo;s how they break down:
+      </p>
+      <div class="vg-grid">
+        {models.map((m) => (
+          <article class="vg-card">
+            <h3 set:html={m.t} />
+            <p set:html={m.b} />
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="vg-section">
+    <div class="vg-inner">
+      <h2 class="vg-head">What Drives the Value</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <div class="vg-grid">
+        {drivers.map((d) => (
+          <article class="vg-card">
+            <h3 set:html={d.t} />
+            <p set:html={d.b} />
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt">
+    <div class="vg-inner">
+      <h2 class="vg-head">Vintage Telecaster Values</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <p class="vg-note">
+        These ranges are for all-original guitars in excellent condition with the original case. Custom-color
+        prices vary a lot with how rare the color is. Updated March 2026, and the market moves, so treat them as
+        a guide rather than a quote. An Esquire is typically worth about 75% of a same-year, same-color
+        Telecaster.
+      </p>
+      <div class="vg-table-wrap">
+        <table class="vg-table">
+          <thead>
+            <tr><th>Model &amp; Year</th><th>Value</th></tr>
+          </thead>
+          <tbody>
+            {prices.map((p) => (
+              <tr><td set:html={p.m}></td><td>{p.v}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="vg-section">
+    <div class="vg-inner">
+      <h2 class="vg-head">Dating Your Telecaster</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <p>
+        The serial number sits on the bridge plate, the neck plate, or the headstock depending on the era. To pin
+        down the year, run it through my
+        <a href="/fender-guitars-serial-number-guide/">Fender serial number guide</a>, then confirm with the
+        physical features, since the serial alone only gives you a window.
+      </p>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt">
+    <div class="vg-inner">
+      <h2 class="vg-head">Selling Your Vintage Telecaster</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <div class="vg-grid">
+        <article class="vg-card">
+          <h3>Consign It</h3>
+          <p>
+            Hand off the photos, listing, authentication, and buyers. I offer
+            <a href="/consignment/">consignment</a> from as low as 8% on top-tier instruments.
+          </p>
+        </article>
+        <article class="vg-card">
+          <h3>Sell It Outright</h3>
+          <p>
+            The simplest route: a fair cash offer and payment up front, no photos or write-ups needed on your end.
+            <a href="/sell-my-fender-guitar/">Sell your Fender to me</a> directly.
+          </p>
+        </article>
+        <article class="vg-card">
+          <h3>Sell It Privately</h3>
+          <p>
+            You can sell it yourself, but a high-end vintage guitar carries real liability for a first-time seller.
+            Most dealers keep an insurance policy over $100,000 just for shipments. If you go this way,
+            Reverb&rsquo;s buyer protection is worth the fees.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .vg-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
+  .vg-section { background: #fff; padding: 56px 0; }
+  .vg-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-head {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(26px, 3vw, 38px);
+    color: var(--color-brand-rust-dark);
+    margin: 0;
+    line-height: 1.2;
+  }
+  .vg-rule { width: 80px; height: 3px; background: var(--color-brand-rust); margin: 14px 0 22px; }
+  .vg-section p {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--color-brand-charcoal);
+    margin: 0 0 16px;
+    max-width: 900px;
+  }
+  .vg-lede { font-size: 17px !important; }
+  .vg-note { font-style: italic; }
+  .vg-section a { color: var(--color-brand-rust); text-decoration: underline; font-weight: 600; }
+  .vg-section a:hover { color: var(--color-brand-rust-bright); }
+
+  .vg-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 22px;
+    margin-top: 8px;
+  }
+  .vg-card {
+    background: var(--color-brand-cream-light, #f9f1de);
+    border-top: 4px solid var(--color-brand-rust-bright);
+    padding: 20px 22px;
+  }
+  .vg-section--alt .vg-card { background: #fff; }
+  .vg-card h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 8px;
+  }
+  .vg-card p { font-size: 15px; margin: 0; }
+
+  .vg-table-wrap { overflow-x: auto; }
+  .vg-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    font-family: var(--font-sans);
+    min-width: 460px;
+  }
+  .vg-table th, .vg-table td {
+    text-align: left;
+    padding: 13px 18px;
+    border-bottom: 1px solid rgba(62, 42, 20, 0.12);
+    font-size: 15px;
+    color: var(--color-brand-charcoal);
+  }
+  .vg-table th {
+    background: var(--color-brand-rust-dark);
+    color: #fff;
+    font-family: var(--font-display);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 14px;
+  }
+  .vg-table td:first-child { font-weight: 700; color: var(--color-brand-rust-dark); }
+  .vg-table tbody tr:nth-child(odd) { background: var(--color-brand-cream-light, #f9f1de); }
+</style>
