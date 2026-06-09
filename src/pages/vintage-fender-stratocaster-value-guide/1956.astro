@@ -1,0 +1,169 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import PageHero from "../../components/primitives/PageHero.astro";
+import Button from "../../components/primitives/Button.astro";
+import ContactSection from "../../components/ContactSection.astro";
+import { contact, hrefs } from "../../config/site";
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Vintage Fender Stratocaster Value Guide", item: "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/" },
+      { "@type": "ListItem", position: 3, name: "1956", item: "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/1956/" },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "1956 Fender Stratocaster Value Guide",
+    author: { "@type": "Person", name: "Joe Dampt" },
+    publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" },
+    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/1956/",
+  },
+];
+
+const specs = [
+  { t: "Body Wood", b: "1956 is the last year Fender used ash for Stratocaster bodies before switching to alder around mid-1956. Either is correct for the year depending on the build date." },
+  { t: "Neck Profile", b: "A large &lsquo;soft V&rsquo; carve, a chunky V-shape that&rsquo;s a hallmark of the mid-&rsquo;50s neck." },
+  { t: "Electronics", b: "Single-ply white pickguard, three single-coil pickups, one volume and two tone knobs, and a three-way selector switch." },
+  { t: "Finishes", b: "Sunburst and blonde were standard. Custom colors from 1956 exist but are extremely rare and worth far more." },
+];
+---
+
+<Layout
+  title="1956 Fender Stratocaster Value Guide | Joe&rsquo;s Vintage Guitars"
+  description="What a 1956 Fender Stratocaster is worth and how to spot one: the last ash bodies, the soft-V neck, and current value ranges for sunburst and custom colors."
+  canonical="/vintage-fender-stratocaster-value-guide/1956/"
+  structuredData={structuredData}
+>
+  <PageHero
+    eyebrow="Value Guide / 1956"
+    title="1956 Fender Stratocaster Value Guide"
+    subhead="What a 1956 Stratocaster is worth, and the specs that make this year its own thing."
+    subheadTag="p"
+    bgImage="/images/hero-background.jpg"
+  >
+    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
+    <Button slot="cta" href="/free-appraisal/" variant="cream" size="lg">Free Appraisal</Button>
+  </PageHero>
+
+  <section class="vg-section">
+    <div class="vg-inner">
+      <p class="vg-lede">
+        The 1956 Stratocaster sits in an interesting spot: it&rsquo;s the last of the ash-body Strats and carries
+        the chunky soft-V neck people either love or remember vividly. This page covers the year&rsquo;s
+        specifications and what one is worth today. For the full year-by-year picture, see the main
+        <a href="/vintage-fender-stratocaster-value-guide/">Stratocaster value guide</a>, and for an exact figure
+        on your guitar, <a href="/free-appraisal/">get a free appraisal</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt">
+    <div class="vg-inner">
+      <h2 class="vg-head">1956 Stratocaster Specifications</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <div class="vg-grid">
+        {specs.map((s) => (
+          <article class="vg-card">
+            <h3 set:html={s.t} />
+            <p set:html={s.b} />
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="vg-section">
+    <div class="vg-inner">
+      <h2 class="vg-head">What a 1956 Stratocaster Is Worth</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <p>
+        For an all-original 1956 in excellent condition with its original case, figure roughly
+        <strong>$55,000&ndash;$75,000</strong> for a sunburst. Custom-color examples are far rarer and can run
+        well into six figures. As always, the number swings on condition, originality (original finish, pickups,
+        hardware, and pickguard), provenance, and how it plays. A refinish or replaced parts can cut the value
+        roughly in half.
+      </p>
+      <p class="vg-note">
+        Updated March 2026, and the market moves, so treat this as a guide rather than a quote. These figures
+        match the 1956 row in the full <a href="/vintage-fender-stratocaster-value-guide/">Stratocaster value
+        guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt">
+    <div class="vg-inner">
+      <h2 class="vg-head">Selling Your 1956 Stratocaster</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <div class="vg-grid">
+        <article class="vg-card">
+          <h3>Consign It</h3>
+          <p>I handle the photos, listing, authentication, and buyers. <a href="/consignment/">Consignment</a> runs from as low as 8% on top-tier instruments.</p>
+        </article>
+        <article class="vg-card">
+          <h3>Sell It Outright</h3>
+          <p>A fair cash offer and payment up front, with me handling shipping or pickup. <a href="/sell-my-fender-guitar/">Sell your Fender to me</a> directly.</p>
+        </article>
+        <article class="vg-card">
+          <h3>Sell It Privately</h3>
+          <p>You can, but a guitar at this value is real liability for a first-time seller. If you go this way, Reverb&rsquo;s buyer protection is worth the fees.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .vg-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
+  .vg-section { background: #fff; padding: 56px 0; }
+  .vg-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-head {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(26px, 3vw, 38px);
+    color: var(--color-brand-rust-dark);
+    margin: 0;
+    line-height: 1.2;
+  }
+  .vg-rule { width: 80px; height: 3px; background: var(--color-brand-rust); margin: 14px 0 22px; }
+  .vg-section p {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--color-brand-charcoal);
+    margin: 0 0 16px;
+    max-width: 900px;
+  }
+  .vg-lede { font-size: 17px !important; }
+  .vg-note { font-style: italic; }
+  .vg-section a { color: var(--color-brand-rust); text-decoration: underline; font-weight: 600; }
+  .vg-section a:hover { color: var(--color-brand-rust-bright); }
+
+  .vg-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 22px;
+    margin-top: 8px;
+  }
+  .vg-card {
+    background: var(--color-brand-cream-light, #f9f1de);
+    border-top: 4px solid var(--color-brand-rust-bright);
+    padding: 20px 22px;
+  }
+  .vg-section--alt .vg-card { background: #fff; }
+  .vg-card h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 8px;
+  }
+  .vg-card p { font-size: 15px; margin: 0; }
+</style>

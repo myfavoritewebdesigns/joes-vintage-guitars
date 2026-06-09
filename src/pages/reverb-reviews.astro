@@ -1,0 +1,140 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PageHero from "../components/primitives/PageHero.astro";
+import Button from "../components/primitives/Button.astro";
+import ContactSection from "../components/ContactSection.astro";
+import { contact, hrefs } from "../config/site";
+
+// Reverb shop reviews live and update constantly, so this page links out to the
+// real, current feed rather than hard-coding a stale or partial snapshot.
+const REVERB_REVIEWS = "https://reverb.com/shop/joe-s-gear-emporium-4";
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
+      { "@type": "ListItem", position: 2, name: "Reverb Reviews", item: "https://www.joesvintageguitarsaz.com/reverb-reviews/" },
+    ],
+  },
+];
+
+const stats = [
+  { value: "4.9 / 5", label: "Average Reverb Rating" },
+  { value: "2,000+", label: "Verified Reverb Reviews" },
+  { value: "10+ Years", label: "Selling on Reverb" },
+];
+---
+
+<Layout
+  title="Reverb Reviews | Joe&rsquo;s Vintage Guitars"
+  description="Over 2,000 verified reviews and a 4.9-star average on Reverb. Read what buyers say about how Joe's Vintage Guitars grades, packs, and ships."
+  canonical="/reverb-reviews/"
+  structuredData={structuredData}
+>
+  <PageHero
+    eyebrow="Reviews"
+    title="Reverb Reviews"
+    subhead="Over 2,000 verified reviews and a 4.9-star average on Reverb."
+    subheadTag="p"
+    bgImage="/images/hero-background.jpg"
+  >
+    <Button slot="cta" href={REVERB_REVIEWS} variant="cream" size="lg">Read My Reverb Reviews</Button>
+  </PageHero>
+
+  <section class="rr-stats">
+    <div class="rr-inner rr-stats__grid">
+      {stats.map((s) => (
+        <div class="rr-stat">
+          <span class="rr-stat__value">{s.value}</span>
+          <span class="rr-stat__label">{s.label}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="rr-body">
+    <div class="rr-inner">
+      <p>
+        I&rsquo;ve sold thousands of instruments on Reverb over the years, and the reviews come from real,
+        verified buyers, not testimonials I picked out. They&rsquo;re the best read you&rsquo;ll get on how I
+        grade a guitar, how I pack it, and how the whole transaction goes.
+      </p>
+      <p>
+        The full list lives on my Reverb shop and updates as new orders come in, so you&rsquo;re always seeing
+        the current picture rather than a snapshot. Have a look for yourself:
+      </p>
+      <div class="rr-ctas">
+        <a class="rr-btn rr-btn--rust" href={REVERB_REVIEWS} target="_blank" rel="noopener noreferrer">
+          Browse All Reviews on Reverb
+        </a>
+        <a class="rr-btn rr-btn--outline" href={hrefs.googleReviews} target="_blank" rel="noopener noreferrer">
+          Read My Google Reviews
+        </a>
+      </div>
+      <p class="rr-note">
+        Prefer to talk it through first? Call or text me at <a href={hrefs.tel}>{contact.phone}</a>.
+      </p>
+    </div>
+  </section>
+
+  <ContactSection />
+</Layout>
+
+<style>
+  .rr-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
+
+  .rr-stats { background: var(--color-brand-rust-dark, #682412); padding: 40px 0; }
+  .rr-stats__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 24px;
+    text-align: center;
+  }
+  .rr-stat__value {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(30px, 4vw, 46px);
+    color: var(--color-brand-cream);
+    line-height: 1.05;
+  }
+  .rr-stat__label {
+    display: block;
+    margin-top: 6px;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--color-brand-brown-tan);
+  }
+
+  .rr-body { background: #fff; padding: 56px 0 64px; }
+  .rr-body p {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--color-brand-charcoal);
+    margin: 0 0 18px;
+    max-width: 820px;
+  }
+  .rr-note { font-size: 15px !important; }
+  .rr-body a { color: var(--color-brand-rust); text-decoration: underline; font-weight: 600; }
+
+  .rr-ctas { display: flex; flex-wrap: wrap; gap: 14px; margin: 8px 0 24px; }
+  .rr-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-decoration: none !important;
+    border-radius: 5px;
+    transition: background 0.18s, color 0.18s;
+  }
+  .rr-btn--rust { background: var(--color-brand-rust-bright, #be4b25); color: #fff !important; }
+  .rr-btn--rust:hover { background: var(--color-brand-rust, #a03a1e); }
+  .rr-btn--outline { border: 2px solid var(--color-brand-rust); color: var(--color-brand-rust) !important; }
+  .rr-btn--outline:hover { background: var(--color-brand-rust); color: #fff !important; }
+</style>
