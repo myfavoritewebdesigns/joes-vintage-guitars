@@ -37,18 +37,18 @@ const callouts = [
   {
     tag: "Storage Unit Find",
     title: "100+ vintage guitars in a single storage unit",
-    body: "Gibsons, Martins, Fenders — all waiting to be rediscovered. Walked in and hit the motherlode. This is the kind of once-in-a-lifetime find that makes the hunt worth every mile.",
+    body: "Gibsons, Martins, Fenders, all waiting to be found. Walked in and hit the motherlode. The kind of find that makes the miles worth it.",
     igUrl: "https://www.instagram.com/reel/DWsAmYngdLy/",
   },
   {
-    tag: "Rural Arizona Collection — Part 1",
-    title: "Hundreds of classic amps — and guitars that'll knock your socks off",
-    body: "One of the most incredible private collections ever encountered, tucked away in rural Arizona. Hundreds of classic amps and some guitars you simply have to see to believe.",
+    tag: "Rural Arizona Collection, Part 1",
+    title: "Hundreds of classic amps, and guitars that'll knock your socks off",
+    body: "One of the biggest private collections I've come across, out in rural Arizona. Hundreds of classic amps and some guitars you have to see to believe.",
     igUrl: "https://www.instagram.com/reel/DQzTOrmCSuf/",
   },
   {
-    tag: "Road Trip — Part 1",
-    title: "New Jersey to New Mexico — guitars, amps, and great people",
+    tag: "Road Trip, Part 1",
+    title: "New Jersey to New Mexico: guitars, amps, and great people",
     body: "A cross-country run through New Jersey, Virginia, Tennessee, and New Mexico. Incredible guitars, vintage amps, rare parts, and the kind of people who make this hobby what it is.",
     igUrl: "https://www.instagram.com/reel/DIPBvPmyaCK/",
   },
@@ -130,7 +130,7 @@ const callouts = [
     const titleFor = (perma) => {
       if (!perma) return "Instagram reel";
       const m = perma.match(/instagram\.com\/(reel|p|tv)\/([^/?]+)/);
-      return m ? `Joe's Vintage Guitars Instagram ${m[1]} — ${m[2]}` : "Instagram embed";
+      return m ? `Joe's Vintage Guitars Instagram ${m[1]}: ${m[2]}` : "Instagram embed";
     };
     const setTitles = () => {
       document.querySelectorAll(".jvg-testim__ig").forEach((wrap) => {
