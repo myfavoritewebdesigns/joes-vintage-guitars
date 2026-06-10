@@ -64,7 +64,7 @@ function formatLastSerial(data: { y: string; b: number }[]) {
 // Format guitar range for display (e.g., "0000 to 8348")
 const guitarTableRows = guitarData.map((r) => ({
   year: r.y,
-  range: `${r.a === 0 ? "0000" : r.a} — ${r.b}`,
+  range: `${r.a === 0 ? "0000" : r.a} to ${r.b}`,
 }));
 const lxTableRows = lxData;
 const mandolinTableRows = mandolinData;
@@ -295,7 +295,7 @@ const structuredData = [
           <thead><tr><th>Year</th><th>Serial Number Range</th></tr></thead>
           <tbody>
             {navSoTableRows.map((row) => (
-              <tr><td>{row.approximate ? <Fragment>{row.y} <em>(approximate)</em></Fragment> : row.y}</td><td>{`${row.a} — ${row.b}`}</td></tr>
+              <tr><td>{row.approximate ? <Fragment>{row.y} <em>(approximate)</em></Fragment> : row.y}</td><td>{`${row.a} to ${row.b}`}</td></tr>
             ))}
           </tbody>
         </table>
@@ -394,7 +394,7 @@ const structuredData = [
         <div class="spec-grid">
           <div class="spec-item">
             <h4>Evolution of the Fretboard Dot</h4>
-            <p><strong>Micro-Dots (Pre-1932):</strong> Tiny, almost microscopic abalone or pearl dots used on early Style 18 models.<br /><strong>Golden Era (1930s – 1944):</strong> Dots became slightly larger and more uniform.<br /><strong>1944 &ldquo;Large Dot&rdquo; Shift:</strong> Martin moved to larger 1/4-inch mother-of-pearl dots across most models to simplify production.</p>
+            <p><strong>Micro-Dots (Pre-1932):</strong> Tiny, almost microscopic abalone or pearl dots used on early Style 18 models.<br /><strong>Golden Era (1930s to 1944):</strong> Dots became slightly larger and more uniform.<br /><strong>1944 &ldquo;Large Dot&rdquo; Shift:</strong> Martin moved to larger 1/4-inch mother-of-pearl dots across most models to simplify production.</p>
           </div>
           <div class="spec-item">
             <h4>Elite Patterns: Vines &amp; Snowflakes</h4>
@@ -402,7 +402,7 @@ const structuredData = [
           </div>
           <div class="spec-item">
             <h4>Fancy Headstock: Torch &amp; Flowerpot</h4>
-            <p><strong>The Torch (19th C – Early 1900s):</strong> The ultimate pre-war status symbol; an intricate flaming torch design in abalone.<br /><strong>The Flowerpot:</strong> A rare, rounded floral variant found on premium late-19th-century parlor guitars.<br /><strong>Vertical Logo:</strong> Spell-out &ldquo;C.F. MARTIN&rdquo; in vertical pearl blocks, typical of 20th-century Style 45s.</p>
+            <p><strong>The Torch (19th C to Early 1900s):</strong> The ultimate pre-war status symbol; an intricate flaming torch design in abalone.<br /><strong>The Flowerpot:</strong> A rare, rounded floral variant found on premium late-19th-century parlor guitars.<br /><strong>Vertical Logo:</strong> Spell-out &ldquo;C.F. MARTIN&rdquo; in vertical pearl blocks, typical of 20th-century Style 45s.</p>
           </div>
           <div class="spec-item">
             <h4>Personalized &amp; Engraved Appointments</h4>
@@ -421,7 +421,7 @@ const structuredData = [
         <div class="spec-grid">
           <div class="spec-item">
             <h4>Early External Body Stamp</h4>
-            <p>On some of the earliest Martin models (1833 – mid-1800s), the company name was branded directly into the wood on the <strong>back of the body</strong>, just below the neck heel.</p>
+            <p>On some of the earliest Martin models (1833 to mid-1800s), the company name was branded directly into the wood on the <strong>back of the body</strong>, just below the neck heel.</p>
             <figure class="msn-figure-inline">
               <img src={`${IMG}/martin-back-of-body-logo-stamp.jpg`} alt="Vintage Martin Back of Body Wood Stamp" loading="lazy" />
               <figcaption>Vintage Martin Early External Body Stamp</figcaption>
@@ -474,7 +474,7 @@ const structuredData = [
             <p><strong>Standard:</strong> Primary top wood after 1946; generally tighter, more consistent grain than Adirondack with a warmer initial response.<br /><strong>The Exceptional Piece:</strong> Look for <strong>&ldquo;Bearclaw&rdquo; figuring</strong> (natural ripples). Once seen as a defect, stiff Bearclaw Sitka is now highly prized for its unique aesthetic and tone. Exceptional vintage Sitka from the 1950s has often &ldquo;honeyed&rdquo; over decades, providing a rich, complex tone.</p>
           </div>
           <div class="spec-item">
-            <h4>The "Mystery Top" Era (1946 – Early 50s)</h4>
+            <h4>The "Mystery Top" Era (1946 to Early 50s)</h4>
             <p><strong>The Identity:</strong> A post-war transition period away from Adirondack where tops often don&rsquo;t perfectly fit into the Sitka or Adirondack categories.<br /><strong>The Value:</strong> Sought after because these tops often have the tonal power of Adirondack with the visual consistency of premium Sitka.</p>
           </div>
           <div class="spec-item">

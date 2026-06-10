@@ -113,7 +113,7 @@ The replacement introduced in mid-1962, used on all rosewood-board Stratocasters
 
 <figure><img alt="1962 Fender Stratocaster slab rosewood fingerboard nut area, approximately 4.8mm thick flat-bottom board showing deep rosewood depth at headstock end" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-slab-board-example.jpg" loading="lazy" decoding="async"><figcaption><strong>Slab rosewood board (early 1962).</strong> Looking at the headstock end at the nut, the rosewood occupies a visibly substantial depth, approximately 4.8mm. The glue line between rosewood and maple sits well below the fretboard surface. This is the flat-bottom slab configuration used from 1959 through mid-1962 and is the more desirable and valuable specification.</figcaption></figure>
 
-<figure><img alt="1962 Fender Stratocaster veneer rosewood fingerboard nut area, approximately 2mm thin curved-bottom board showing shallow rosewood depth at headstock end" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-slab-board-example.jpg" loading="lazy" decoding="async"><figcaption><strong>Veneer rosewood board (mid–late 1962).</strong> At the same vantage point, the rosewood is noticeably thinner, only about 2mm. The glue line sits close to the fretboard surface and the maple neck wood is visible much higher up. This curved-bottom veneer replaced the slab in mid-1962 and is still a genuine pre-CBS specification.</figcaption></figure>
+<figure><img alt="1962 Fender Stratocaster veneer rosewood fingerboard nut area, approximately 2mm thin curved-bottom board showing shallow rosewood depth at headstock end" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-slab-board-example.jpg" loading="lazy" decoding="async"><figcaption><strong>Veneer rosewood board (mid to late 1962).</strong> At the same vantage point, the rosewood is noticeably thinner, only about 2mm. The glue line sits close to the fretboard surface and the maple neck wood is visible much higher up. This curved-bottom veneer replaced the slab in mid-1962 and is still a genuine pre-CBS specification.</figcaption></figure>
 
 ### How to Identify Slab vs. Veneer
 
@@ -364,7 +364,7 @@ Serial & Neck Plate
 
 Neck & Fingerboard
 
--   **Slab rosewood (early 1962) OR veneer rosewood (mid–late 1962), confirm which and verify consistently**
+-   **Slab rosewood (early 1962) OR veneer rosewood (mid to late 1962), confirm which and verify consistently**
 -   Slab board: rosewood depth at headstock end is ~4.8mm, flat underside visible
 -   Veneer board: rosewood depth at headstock end is ~2mm, curved underside
 -   Clay dot inlays, dull matte finish, NOT shiny pearloid

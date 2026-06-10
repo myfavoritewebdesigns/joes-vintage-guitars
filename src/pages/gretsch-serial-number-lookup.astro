@@ -42,24 +42,24 @@ const eraGrid = [
 
 // ── Sequential serial-number ranges 1939 to 1965 ──
 const seqTable = [
-  ["1939 to 1946", "001s – 1,000s", "Penciled, pre-war models"],
+  ["1939 to 1946", "001s to 1,000s", "Penciled, pre-war models"],
   ["1946 to 1949", "2,000s", "Post-war resume, label begins ~1949"],
-  ["1950", "4,000s – 5,000s", "—"],
-  ["1951", "001s – 1,000s", "Numbering restarted; use headstock style to differentiate pre/post-war"],
-  ["1952", "5,000s – 6,000s", "—"],
-  ["1953", "6,000s – 8,000s", "—"],
-  ["1954", "9,000s – 12,000s", "—"],
-  ["1955", "13,000s – 16,000s", "—"],
-  ["1956", "17,000s – 21,000s", "—"],
-  ["1957", "21,000s – 26,000s", "Filter'Tron introduced at NAMM. Lost label batch from this range."],
-  ["1958", "26,000s – 30,000s", "—"],
-  ["1959", "30,000s – 34,000s", "—"],
-  ["1960", "35,000s – 39,000s", "—"],
-  ["1961", "40,000s – 45,000s", "Double-cutaway bodies introduced on 6120/6122"],
-  ["1962", "46,000s – 52,000s", "—"],
-  ["1963", "53,000s – 63,000s", "Production ramping up toward Baldwin era"],
-  ["1964", "63,000s – 78,000s", "—"],
-  ["1965", "78,000s – 85,000s", "Also includes rediscovered 1957-range labels"],
+  ["1950", "4,000s to 5,000s", ""],
+  ["1951", "001s to 1,000s", "Numbering restarted; use headstock style to differentiate pre/post-war"],
+  ["1952", "5,000s to 6,000s", ""],
+  ["1953", "6,000s to 8,000s", ""],
+  ["1954", "9,000s to 12,000s", ""],
+  ["1955", "13,000s to 16,000s", ""],
+  ["1956", "17,000s to 21,000s", ""],
+  ["1957", "21,000s to 26,000s", "Filter'Tron introduced at NAMM. Lost label batch from this range."],
+  ["1958", "26,000s to 30,000s", ""],
+  ["1959", "30,000s to 34,000s", ""],
+  ["1960", "35,000s to 39,000s", ""],
+  ["1961", "40,000s to 45,000s", "Double-cutaway bodies introduced on 6120/6122"],
+  ["1962", "46,000s to 52,000s", ""],
+  ["1963", "53,000s to 63,000s", "Production ramping up toward Baldwin era"],
+  ["1964", "63,000s to 78,000s", ""],
+  ["1965", "78,000s to 85,000s", "Also includes rediscovered 1957-range labels"],
 ];
 
 const fenderFormat = [
@@ -80,32 +80,32 @@ const prefixCodes = [
 ];
 
 const labelTable = [
-  ["No label — penciled serial", "1939–~1949", "Serial written in pencil directly on the inside of the body back. Often faded, smeared, or completely gone on surviving instruments. Three hard-to-read handwritten digits is a strong pre-war signal."],
-  ["<strong>1st Generation — “Brooklyn Label”</strong> (White Rectangle)", "~1949 to 1957 (some holdovers into early 1958)", "<strong>“Fred Gretsch Mfg. Co., 60 Broadway, Brooklyn 11, N.Y.”</strong> — the <strong>“Brooklyn Label,”</strong> the holy grail for 1950s Gretsch identification. White rectangular background, printed serial, handwritten model number. The 60 Broadway address is the unmistakable tell. Leftover Brooklyn Labels were used into very early 1958."],
-  ["<strong>2nd Generation — Orange Oval</strong> (Grey &amp; White Background)", "1957–~1965 (serial #25,001 onward)", "<strong>“Fred Gretsch Mfg. Co.”</strong> in black on an orange musical-note shape over a grey-over-white label. <strong>“Musical Instrument Makers Since 1883”</strong> at the bottom. Begins at serial #25,001. Printed-vs-handwritten serial/model varied by month — both versions are legitimate."],
-  ["<strong>3rd Generation — “Ghost Period”</strong> (No Interior Label)", "~1965 to 1969", "<strong>No label inside the body.</strong> A missing label here does <em>not</em> mean a fake. From ~1965 Gretsch moved the model number to the headstock and stopped fitting interior labels; the serial is strictly on the headstock. No label + headstock serial on a mid-’60s Gretsch is almost certainly correct — the <strong>“Ghost Period.”</strong>"],
-  ["4th Generation — “That Great Gretsch Sound” (Orange &amp; Grey Return)", "~1969 to 1981", "Orange and grey label like the 2nd generation but reads <strong>“That Great Gretsch Sound”</strong> at the bottom. Serials here are always 5-digit sequential — they do <em>not</em> follow the headstock date-code of the same era."],
-  ["<strong>5th Generation — “Booneville Label”</strong> (Black &amp; White Rectangle)", "1973 to 1981", "<strong>“Gretsch Guitars”</strong> on a black and white rectangular label with the Baldwin model number and the hyphenated date-coded serial. Called <strong>“Booneville Labels”</strong> after Baldwin’s move to Booneville, Arkansas in 1969."],
-  ["Japan Era label", "1985 to 2002", "Japanese manufacturing details and model codes; 9-digit serial with the last 3 digits hyphenated. Pre-Fender Korean instruments (1999 to 2002) used a headstock sticker that is almost always missing — a normal, not suspicious, condition."],
+  ["No label, penciled serial", "1939 to ~1949", "Serial written in pencil directly on the inside of the body back. Often faded, smeared, or completely gone on surviving instruments. Three hard-to-read handwritten digits is a strong pre-war signal."],
+  ["<strong>1st Generation: “Brooklyn Label”</strong> (White Rectangle)", "~1949 to 1957 (some holdovers into early 1958)", "<strong>“Fred Gretsch Mfg. Co., 60 Broadway, Brooklyn 11, N.Y.”</strong> This is the <strong>“Brooklyn Label,”</strong> the holy grail for 1950s Gretsch identification. White rectangular background, printed serial, handwritten model number. The 60 Broadway address is the unmistakable tell. Leftover Brooklyn Labels were used into very early 1958."],
+  ["<strong>2nd Generation: Orange Oval</strong> (Grey &amp; White Background)", "1957 to ~1965 (serial #25,001 onward)", "<strong>“Fred Gretsch Mfg. Co.”</strong> in black on an orange musical-note shape over a grey-over-white label. <strong>“Musical Instrument Makers Since 1883”</strong> at the bottom. Begins at serial #25,001. Printed-vs-handwritten serial/model varied by month; both versions are legitimate."],
+  ["<strong>3rd Generation: “Ghost Period”</strong> (No Interior Label)", "~1965 to 1969", "<strong>No label inside the body.</strong> A missing label here does <em>not</em> mean a fake. From ~1965 Gretsch moved the model number to the headstock and stopped fitting interior labels; the serial is strictly on the headstock. No label + headstock serial on a mid-’60s Gretsch is almost certainly correct: the <strong>“Ghost Period.”</strong>"],
+  ["4th Generation: “That Great Gretsch Sound” (Orange &amp; Grey Return)", "~1969 to 1981", "Orange and grey label like the 2nd generation but reads <strong>“That Great Gretsch Sound”</strong> at the bottom. Serials here are always 5-digit sequential; they do <em>not</em> follow the headstock date-code of the same era."],
+  ["<strong>5th Generation: “Booneville Label”</strong> (Black &amp; White Rectangle)", "1973 to 1981", "<strong>“Gretsch Guitars”</strong> on a black and white rectangular label with the Baldwin model number and the hyphenated date-coded serial. Called <strong>“Booneville Labels”</strong> after Baldwin’s move to Booneville, Arkansas in 1969."],
+  ["Japan Era label", "1985 to 2002", "Japanese manufacturing details and model codes; 9-digit serial with the last 3 digits hyphenated. Pre-Fender Korean instruments (1999 to 2002) used a headstock sticker that is almost always missing, which is a normal, not suspicious, condition."],
   ["Fender Era label", "2003 to present", "Clean, consistently printed label; serial also on back of headstock using the 2-letter factory code system. The most legible, standardized label generation in the company’s history."],
 ];
 
 const inlayTable = [
-  ["<strong>Block — “Western Inlays”</strong> (Plain or engraved celluloid)", "1954 to 1956", "Plain rectangular celluloid blocks. On western-themed models (6120, 6121, 6130) engraved with the <strong>“Western” motif</strong> — cactus, steer heads, rope. <strong>Material matters:</strong> authentic 1954 to 1956 Western inlays are <em>engraved celluloid</em>, not pearl — shiny/iridescent inlays signal a modern reissue. White Falcon used pearl blocks with engraved birds."],
-  ["<strong>Humptop Block</strong> (The “Transition Marker”)", "1957 only", "A block inlay with a <strong>rounded dome / “hump” on the top edge</strong> — the bridge between flat-top blocks and the later Neo-Classic oval. One of the single strongest one-year tools in Gretsch collecting: <strong>Humptop inlays = 1957 model year, full stop</strong> on virtually every major model."],
-  ["<strong>Neo-Classic “Thumbprint”</strong> (Neoclassic oval)", "1958 – mid-1960s", "Oval inlay, universally called <strong>“thumbprint.”</strong> <strong>Placement detail most guides miss:</strong> positioned on the <strong>bass side (top edge)</strong> of the fingerboard, not centered — centered thumbprints on a claimed 1958 to 1964 guitar may indicate a refret or replacement board. Standard through the early-to-mid 1960s."],
-  ["<strong>Block (return)</strong>", "Mid-1960s – Baldwin era", "Block inlays returned on several models from the mid-1960s as Gretsch simplified specs: Viking, late Country Club, and the 1971 White Falcon reissue (7594) all reverted to blocks. Plain, no Western engraving."],
+  ["<strong>Block: “Western Inlays”</strong> (Plain or engraved celluloid)", "1954 to 1956", "Plain rectangular celluloid blocks. On western-themed models (6120, 6121, 6130) engraved with the <strong>“Western” motif</strong>: cactus, steer heads, rope. <strong>Material matters:</strong> authentic 1954 to 1956 Western inlays are <em>engraved celluloid</em>, not pearl; shiny/iridescent inlays signal a modern reissue. White Falcon used pearl blocks with engraved birds."],
+  ["<strong>Humptop Block</strong> (The “Transition Marker”)", "1957 only", "A block inlay with a <strong>rounded dome / “hump” on the top edge</strong>, the bridge between flat-top blocks and the later Neo-Classic oval. One of the single strongest one-year tools in Gretsch collecting: <strong>Humptop inlays = 1957 model year, full stop</strong> on virtually every major model."],
+  ["<strong>Neo-Classic “Thumbprint”</strong> (Neoclassic oval)", "1958 to mid-1960s", "Oval inlay, universally called <strong>“thumbprint.”</strong> <strong>Placement detail most guides miss:</strong> positioned on the <strong>bass side (top edge)</strong> of the fingerboard, not centered. Centered thumbprints on a claimed 1958 to 1964 guitar may indicate a refret or replacement board. Standard through the early-to-mid 1960s."],
+  ["<strong>Block (return)</strong>", "Mid-1960s to Baldwin era", "Block inlays returned on several models from the mid-1960s as Gretsch simplified specs: Viking, late Country Club, and the 1971 White Falcon reissue (7594) all reverted to blocks. Plain, no Western engraving."],
   ["<strong>T-Zone “Tempered Treble” Dots</strong>", "1965 to 1972", "A <strong>dead giveaway for mid-to-late 1960s production.</strong> The pattern inlay runs nut → 14th fret, then <strong>switches to plain dots from the 15th fret onward.</strong> A Baldwin-era marketing feature on the White Falcon (1965+), Viking, and Rally. Dot-from-15th-fret = 1965 or later, no exceptions."],
 ];
 
 const bigsbyTable = [
-  ["Gold Bigsby, fixed arm", "1954–mid 1956", "On 6120 and 6121. Replaced mid-1956 by aluminum-colored swing arm unit."],
+  ["Gold Bigsby, fixed arm", "1954 to mid-1956", "On 6120 and 6121. Replaced mid-1956 by aluminum-colored swing arm unit."],
   ["Aluminum swing arm Bigsby", "Mid-1956 to 1958", "Lower-profile aluminum-colored arm replaces the fixed gold unit."],
-  ["Gretsch “V” Bigsby", "1959 – early 1960s", "Distinctive V-shaped arm; on 6120, 6121, Country Gentleman for the 1959 model year."],
-  ["Gold Gretsch Bigsby", "1962–mid 1960s", "Gold-plated Gretsch Bigsby on Country Gentleman from 1962."],
+  ["Gretsch “V” Bigsby", "1959 to early 1960s", "Distinctive V-shaped arm; on 6120, 6121, Country Gentleman for the 1959 model year."],
+  ["Gold Gretsch Bigsby", "1962 to mid-1960s", "Gold-plated Gretsch Bigsby on Country Gentleman from 1962."],
   ["Gretsch Bigsby with “G” plate / tubular arm", "1964 to 1965", "White Falcon gets Gretsch vibrato with G-plate and straight tubular arm curving at tip. Adjustable nut on arm by 1965."],
   ["Burns vibrato", "1961 to 1963", "British Burns flat-arm vibrato on Duo-Jet models only during double-cutaway transition."],
-  ["Melita bridge", "1954–late 1950s", "Adjustable metal bridge on early models; replaced by bar-style bridge on most models from 1958."],
+  ["Melita bridge", "1954 to late 1950s", "Adjustable metal bridge on early models; replaced by bar-style bridge on most models from 1958."],
   ["Bar / roller bridge", "1958 onward", "Metal bar bridge introduced with Filter'Trons on most models for the 1958 model year."],
   ["Adjustamatic bridge", "1971 to 1981", "Baldwin-era cost reduction; appears on renumbered 7000-series models."],
   ["Tuning fork bridge", "1966 to 1972", "Used on White Falcon (1966+), Van Eps (1968), and Viking (1968). Replaced by wood bridge on Van Eps by 1969."],
@@ -234,7 +234,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
       <div class="grsn-tip"><p><strong>Quick Era Check:</strong> Look at the label inside your guitar. <em>Fred Gretsch Mfg. Co.</em> = pre-Baldwin (pre-1967). <em>Gretsch Guitars / Baldwin</em> = 1967 to 1981. A Japanese label with model codes = 1985 to 2002. A modern printed label = 2003 to present. The serial format itself confirms the era once you know what to look for below.</p></div>
 
       <!-- Quick reference grid -->
-      <h2 id="gretsch-serial-number-lookup">Gretsch Serial Number Lookup — Era Quick Reference</h2>
+      <h2 id="gretsch-serial-number-lookup">Gretsch Serial Number Lookup: Era Quick Reference</h2>
       <p>Use this grid to identify which numbering system your guitar uses, then jump to the detailed breakdown below.</p>
       <div class="grsn-table-wrap">
         <table class="grsn-table">
@@ -244,20 +244,20 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
       </div>
 
       <!-- Era 1 -->
-      <h2 id="gretsch-serial-numbers-1939-1966">Era 1: Sequential Numbers — 1939 to 1966</h2>
+      <h2 id="gretsch-serial-numbers-1939-1966">Era 1: Sequential Numbers (1939 to 1966)</h2>
       <p class="grsn-eyebrow">Family Era · Sequential</p>
       <p>From 1939 through mid-1966, Gretsch used a single rising sequence of serial numbers, similar to how Martin numbered their guitars. A higher number means a later guitar, and the ranges below let you pinpoint the approximate year. Gretsch production overlapped significantly between years, so think of these ranges as approximate windows rather than firm cutoffs.</p>
       <h3>Where to Find the Serial Number (Pre-1966)</h3>
       <ul class="grsn-list">
         <li><strong>1939 to 1945:</strong> Penciled by hand directly on the inside back of the body. Often nearly invisible on surviving instruments.</li>
-        <li><strong>1945–early 1950s:</strong> Impressed (stamped) into the top edge of the headstock on lower-end models. Penciled and impressed numbers coexist in this window.</li>
+        <li><strong>1945 to early 1950s:</strong> Impressed (stamped) into the top edge of the headstock on lower-end models. Penciled and impressed numbers coexist in this window.</li>
         <li><strong>1949 to 1957:</strong> White rectangular paper label glued inside the body, reading <em>&ldquo;Fred Gretsch Mfg. Co., 60 Broadway, Brooklyn 11, N.Y.&rdquo;</em> with lines for Model and Serial No.</li>
         <li><strong>1957 to 1965:</strong> Orange oval label on a grey and white background, reading <em>&ldquo;Fred Gretsch Mfg. Co.&rdquo;</em> with <em>&ldquo;Musical Instrument Makers Since 1883&rdquo;</em> at the bottom. Appears at serial #25001 and up.</li>
         <li><strong>1962 to 1965:</strong> Electrotone and solid-body models returned to the impressed headstock method.</li>
         <li><strong>1958 to 1965:</strong> Viking, Falcon, and Country Gentleman models had the serial impressed onto the metal nameplate on the headstock.</li>
       </ul>
       <div class="grsn-warn"><p><strong>⚠ The 1957/1965 Serial Number Anomaly:</strong> Around 1957, nearly a thousand serial number labels were misplaced at the factory. They were rediscovered and used in 1965, creating guitars with 1957-range numbers that are actually 1965 instruments. If your guitar has a serial in the 21,000 to 26,000 range, check the physical features carefully. A 1965 guitar will have very different hardware (see Advanced Dating below) than a true 1957 instrument.</p></div>
-      <h3>Sequential Serial Number Table — 1939 to 1965</h3>
+      <h3>Sequential Serial Number Table: 1939 to 1965</h3>
       <div class="grsn-table-wrap">
         <table class="grsn-table">
           <thead><tr><th>Year</th><th>Serial Number Range</th><th>Notes</th></tr></thead>
@@ -271,7 +271,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
       </div>
 
       <!-- Era 2 -->
-      <h2 id="gretsch-serial-numbers-1966-1972">Era 2: Date-Coded Numbers — 1966 to 1972</h2>
+      <h2 id="gretsch-serial-numbers-1966-1972">Era 2: Date-Coded Numbers (1966 to 1972)</h2>
       <p class="grsn-eyebrow">Late Family / Early Baldwin · Date-Coded</p>
       <p>With annual production topping 150,000 guitars and the imminent Baldwin acquisition, Gretsch switched to a date-coded serial system in August 1966. These numbers appear stamped on the back or top of the headstock, printed in gold, black, or white depending on the guitar&rsquo;s finish color. The words <em>&ldquo;Made in USA&rdquo;</em> were added to the stamp beginning in June 1967, when Baldwin&rsquo;s ownership was formalized.</p>
       <h3>How to Read a Date-Coded Serial (No Hyphen)</h3>
@@ -287,21 +287,21 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
       <p>Around 1969, Gretsch began using a third version of the orange and grey label on f-hole hollow-body instruments, reading <em>&ldquo;That Great Gretsch Sound&rdquo;</em> at the bottom. The 5-digit numbers on these labels always begin with 1 or 2 and are purely sequential. They do not follow the date-code formula, and precise dates cannot be determined from them alone. Some Electrotone hollow-body guitars from this window have large-font versions of these sequential numbers impressed on the upper edge of the headstock, a known anomaly still not fully explained by researchers.</p>
 
       <!-- Era 3 -->
-      <h2 id="gretsch-serial-numbers-1972-1981">Era 3: Hyphenated Date-Codes — 1972 to 1981</h2>
+      <h2 id="gretsch-serial-numbers-1972-1981">Era 3: Hyphenated Date-Codes (1972 to 1981)</h2>
       <p class="grsn-eyebrow">Baldwin Era · Hyphenated</p>
       <p>In 1973, Gretsch introduced a new black and white rectangular label reading <em>&ldquo;Gretsch Guitars&rdquo;</em> along with the Baldwin model number and a date-coded serial. The coding method is identical to the 1966 to 1972 system, but a hyphen (or sometimes a space) now separates the month digits from the year digit, making identification much cleaner. These are the only Gretsch guitars that use this hyphenated format, so if you see a hyphen in your serial, you&rsquo;re squarely in the Baldwin era.</p>
       <p><strong>Example:</strong> <code>2-365</code> → Month: 2 (February) · Year: 3 (1973) · Unit: 65th instrument.<br /><strong>Example:</strong> <code>11-4892</code> → Month: 11 (November) · Year: 4 (1974) · Unit: 892nd instrument.</p>
       <figure class="grsn-fig grsn-fig--solo"><img src={`${IMG}/1970s-gretsch-hyphenated-serial-number-scaled.jpg`} alt="Hyphenated Baldwin-era serial number stamped on the headstock of a 1976 Gretsch White Falcon, the hyphen identifies a 1972 to 1981 Booneville-era instrument" loading="lazy" decoding="async" /><figcaption>Hyphenated serial on a 1976 Gretsch White Falcon. The hyphen after the leading digits is the definitive Baldwin-era identifier: no other Gretsch era uses this format.</figcaption></figure>
 
       <!-- Era 4 -->
-      <h2 id="gretsch-serial-numbers-1989-2002">Era 4: Japan &amp; Korea — 1989 to 2002</h2>
+      <h2 id="gretsch-serial-numbers-1989-2002">Era 4: Japan &amp; Korea (1989 to 2002)</h2>
       <p class="grsn-eyebrow">Fred Gretsch Returns · Japan / Korea</p>
       <p>When Fred W. Gretsch relaunched the brand in 1985, production moved to the Terada factory in Japan. These guitars are highly regarded by collectors and players alike. The serial numbers are 9 digits with the last three hyphenated, located on the back of the headstock.</p>
       <p>Budget-level Korean Electromatics, Synchromatics, and Historic Series models began appearing in 1999. These serials were printed on a sticker that, notoriously, fell off almost immediately, sometimes before the guitar left the store. Korean-made pre-Fender guitars with no serial number are common, and the sticker&rsquo;s loss doesn&rsquo;t indicate anything unusual. Fender corrected this after the 2003 acquisition.</p>
       <div class="grsn-warn"><p><strong>⚠ No Serial? Check the Label:</strong> A Korean-made Gretsch from 1999 to 2002 with no serial number is extremely common. The sticker-based serials were poorly implemented and routinely lost. These instruments are not counterfeits or anomalies; they simply lost their stickers. Dating them requires careful feature examination.</p></div>
 
       <!-- Era 5 -->
-      <h2 id="gretsch-serial-numbers-2003-present">Era 5: Fender Era — 2003 to Present</h2>
+      <h2 id="gretsch-serial-numbers-2003-present">Era 5: Fender Era (2003 to Present)</h2>
       <p class="grsn-eyebrow">Fender Era · Two-Letter Factory Code</p>
       <p>When Fender assumed production in January 2003, a single unified serial number system was implemented across all Gretsch factories and series worldwide. Serials appear on the back of the headstock and follow a consistent structure that is easy to decode.</p>
       <h3>Format Breakdown</h3>
@@ -312,7 +312,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
         </table>
       </div>
       <p><strong>Example:</strong> <code>JT03074463</code> → Japan (J) · Terada factory (T) · 2003 · July · 4,463rd instrument built that year.<br /><strong>Example:</strong> <code>CY14015892</code> → China (C) · Yako facility (Y) · 2014 · January · 5,892nd instrument built that year.</p>
-      <h3 id="gretsch-fender-prefix-codes">Factory Prefix Codes — Fender Era</h3>
+      <h3 id="gretsch-fender-prefix-codes">Factory Prefix Codes: Fender Era</h3>
       <div class="grsn-table-wrap">
         <table class="grsn-table">
           <thead><tr><th>Code</th><th>Country</th><th>Facility</th><th>Notes</th></tr></thead>
@@ -328,36 +328,36 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
 
       <h3 id="gretsch-headstock-logo-changes">Headstock Logo Changes by Era</h3>
       <p>The Gretsch headstock logo evolved several distinct times. Identifying the correct logo style is one of the fastest ways to date a guitar.</p>
-      <h4>Early Script &ldquo;Gretsch&rdquo; — 1930s–early 1950s (&ldquo;Snakehead&rdquo; / &ldquo;Bulb&rdquo; Headstock Era)</h4>
+      <h4>Early Script &ldquo;Gretsch&rdquo;: 1930s to early 1950s (&ldquo;Snakehead&rdquo; / &ldquo;Bulb&rdquo; Headstock Era)</h4>
       <ul class="grsn-list">
-        <li>The primary indicators of 1930s–1940s production are the <strong>&ldquo;Snakehead&rdquo;</strong> or <strong>&ldquo;Bulb&rdquo;</strong> headstock shapes, the peghead tapers dramatically to a rounded or pointed tip. If you have one of these, you are almost certainly looking at pre-war or early post-war production.</li>
+        <li>The primary indicators of 1930s to 1940s production are the <strong>&ldquo;Snakehead&rdquo;</strong> or <strong>&ldquo;Bulb&rdquo;</strong> headstock shapes, the peghead tapers dramatically to a rounded or pointed tip. If you have one of these, you are almost certainly looking at pre-war or early post-war production.</li>
         <li>Flowing script &ldquo;Gretsch&rdquo; logo used on pre-war Synchromatics, early Electromatics, and transitional post-war models.</li>
         <li>On professional models (Synchromatic 300, 400), the text was typically inlaid in pearloid; on budget Electromatics it was white-painted or stenciled; the finish method itself is a quality indicator.</li>
         <li>2-ply headstock veneer (black outer, white underlayer) with beveled edges to simulate binding on higher-end models.</li>
       </ul>
-      <h4>Block &ldquo;Gretsch&rdquo; with T-Roof — Mid-1954 onward</h4>
+      <h4>Block &ldquo;Gretsch&rdquo; with T-Roof: Mid-1954 onward</h4>
       <ul class="grsn-list">
         <li>The T-roof describes the capital G&rsquo;s flat crossbar extending horizontally like a roofline across the bold block letterforms, a <em>block logo</em> characteristic, not a pre-war script feature.</li>
         <li><strong>Early appearances:</strong> the T-Roof appeared as early as 1933 on the Broadkaster and on the New Yorker from the mid-1940s. For the solidbody and electric hollowbody line, Duo-Jet, 6120, 6121, the T-Roof block logo transition happened in <strong>late 1954</strong>.</li>
-        <li><strong>Script Logo Duo-Jets (1953–early 1954)</strong> are among the rarest early Gretsches; a script-logo Duo-Jet predates the T-Roof transition and commands a significant premium.</li>
-        <li><strong>Headstock inlays, the golden-era double-check:</strong> Cactus &amp; Steer (1953 to 1954, earliest 6121 Western Specials); Longhorn Steer Head (1954–mid 1956, engraved pearloid, Steer Head + T-Roof = pre-mid-1956); Horseshoe (mid-1956 onward, Horseshoe + T-Roof = mid-1956 through the late-1950s golden-era peak).</li>
+        <li><strong>Script Logo Duo-Jets (1953 to early 1954)</strong> are among the rarest early Gretsches; a script-logo Duo-Jet predates the T-Roof transition and commands a significant premium.</li>
+        <li><strong>Headstock inlays, the golden-era double-check:</strong> Cactus &amp; Steer (1953 to 1954, earliest 6121 Western Specials); Longhorn Steer Head (1954 to mid-1956, engraved pearloid, Steer Head + T-Roof = pre-mid-1956); Horseshoe (mid-1956 onward, Horseshoe + T-Roof = mid-1956 through the late-1950s golden-era peak).</li>
         <li>Vertical T-Roof orientation on the early White Falcon (1954 to 1958); horizontal standard on most other 6000-series models.</li>
       </ul>
-      <h4>Standard Horizontal Logo + Nameplate Era — 1959 onward</h4>
+      <h4>Standard Horizontal Logo + Nameplate Era: 1959 onward</h4>
       <ul class="grsn-list">
         <li><strong>1959 Transition:</strong> the White Falcon moves from vertical to horizontal logo with the iconic metal nameplate, almost always coinciding with the introduction of the <strong>zero fret</strong>.</li>
         <li><strong>&ldquo;Does my Gretsch have a zero fret?&rdquo;</strong> If yes, your guitar is almost certainly 1959 or later. The zero fret and horizontal logo arrived together, giving you two ways to cross-verify a 1959+ date.</li>
         <li>Look for brass or aluminum <strong>Model Nameplates</strong> engraved with the guitar&rsquo;s name: Country Gentleman (1957), White Falcon (1959), Anniversary (mid-1959). An original, intact nameplate is a meaningful value contributor.</li>
         <li>Serial number moved from the interior label or nameplate to the back of the headstock on some models from 1965.</li>
       </ul>
-      <h4>Baldwin Era Logo — 1967 to 1981</h4>
+      <h4>Baldwin Era Logo: 1967 to 1981</h4>
       <ul class="grsn-list">
         <li>Same &ldquo;Gretsch&rdquo; block letterforms but serials now pressed directly into the wood on the back of the headstock.</li>
         <li><strong>Post-June 1967:</strong> look for the &ldquo;Made in USA&rdquo; stamp pressed alongside the serial; its presence confirms Baldwin ownership and post-June 1967 production.</li>
         <li><strong>Font and depth tell the story:</strong> Baldwin-era stamps are typically larger, deeper-pressed, and messier than the clean, small serials of the 1965 to 1966 transitional models.</li>
         <li><strong>The 1971 Renumbering:</strong> nameplates phased out as Gretsch moved to 7000-series numbers: the 6120 became the 7660, the White Falcon the 7594, the Country Gentleman the 7670. No nameplate + a 7000-series model number = Baldwin era.</li>
       </ul>
-      <h4>Japan / Fender Era — 1985 to Present</h4>
+      <h4>Japan / Fender Era: 1985 to Present</h4>
       <ul class="grsn-list">
         <li>FMIC assumed full control in late 2002 / early 2003, the start of what many players consider the &ldquo;Modern Golden Era&rdquo; of Gretsch quality.</li>
         <li><strong>The 2003 Fender Transition:</strong> Fender immediately corrected headstock shapes and truss rod covers to match pre-Baldwin vintage specs.</li>
@@ -376,26 +376,26 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
 
       <h3 id="gretsch-pickup-dating">Dating by Pickup Type</h3>
       <p>Gretsch&rsquo;s three main pickup families changed in a predictable sequence across the golden era. Identifying the pickup on your guitar instantly narrows the date window significantly.</p>
-      <h4>DeArmond DynaSonic — ~1949 to 1957</h4>
+      <h4>DeArmond DynaSonic: ~1949 to 1957</h4>
       <ul class="grsn-list">
         <li>Known as <strong>DynaSonics</strong>: use this term when searching, buying, or selling. Originally marketed as the Gretsch-DeArmond Fidelatone.</li>
         <li>Single-coil with two parallel rows visible through the black face: individual pole pieces and large <strong>height-adjustment screws</strong>; the adjustment screws are the &ldquo;money detail.&rdquo; Despite the dual-row look, it&rsquo;s a true single coil.</li>
         <li><strong>Original 1950s install note:</strong> the bridge pickup is typically set higher than the neck pickup to compensate for the DynaSonic&rsquo;s strong magnetic pull. Equal heights on a claimed 1950s guitar warrant inspection.</li>
         <li>Standard on virtually all electric Gretsch guitars ~1949 through the 1957 model-year transition. DynaSonics + a serial under ~26,000 = almost certainly 1957 or earlier.</li>
       </ul>
-      <h4>Filter'Tron Humbucker — 1957 / 1958 onward</h4>
+      <h4>Filter'Tron Humbucker: 1957 / 1958 onward</h4>
       <ul class="grsn-list">
         <li>Developed by Ray Butts for Chet Atkins; debuted at the 1957 NAMM show alongside Gibson&rsquo;s PAF, technically the first humbucking design into production.</li>
         <li><strong>Three distinct production phases, each a major dating marker:</strong> <strong>&ldquo;No-Line&rdquo; (1957 to 1958, serials ~26,500 to 28,500):</strong> plain smooth covers, no markings, the Gretsch equivalent of a Gibson PAF. <strong>&ldquo;Pat. Applied For&rdquo; (~1958 to 1960):</strong> text across the center bar, a premium transitional instrument. <strong>Patent Number (1960 onward, serial ~37,600+):</strong> <em>U.S. PAT 2,892,371</em> stamped on the cover; ridged plastic surrounds introduced simultaneously.</li>
         <li>Baldwin era (1970 to 1981): Filter'Trons placed in open-top HiLo'Tron frames with a black cover concealing the poles, <strong>&ldquo;Blacktop&rdquo; Filter'Trons,</strong> often ceramic magnets, higher output, less vintage character.</li>
       </ul>
-      <h4>HiLo'Tron — 1960 onward</h4>
+      <h4>HiLo'Tron: 1960 onward</h4>
       <ul class="grsn-list">
         <li><strong>The Harrison Connection:</strong> George Harrison played HiLo'Tron-equipped Gretsches, most notably his 6119 Tennessean, through the Beatles&rsquo; formative years. A correct HiLo'Tron Tennessean carries genuine cultural weight.</li>
         <li>Single-coil construction inside a <strong>humbucker-sized cover</strong>, looks identical to a Filter'Tron from the outside but contains a single lightly-wound coil, so they&rsquo;re sometimes mislabeled as Filter'Trons.</li>
-        <li>Output significantly lower than a Filter'Tron, typically 2K–3K ohms. Standard on Anniversaries, Tennesseans, and Clippers from 1960; used through ~1980 on budget and mid-range models.</li>
+        <li>Output significantly lower than a Filter'Tron, typically 2K to 3K ohms. Standard on Anniversaries, Tennesseans, and Clippers from 1960; used through ~1980 on budget and mid-range models.</li>
       </ul>
-      <h4>Super'Tron — 1964 onward</h4>
+      <h4>Super'Tron: 1964 onward</h4>
       <ul class="grsn-list">
         <li>Presence of Super'Trons dates a guitar to <strong>1964 at the absolute earliest</strong>; anything earlier has been modified.</li>
         <li>Definitive identifier: <strong>&ldquo;Bar&rdquo; or &ldquo;Blade&rdquo; pole pieces</strong>, two wide blades running the full width of the pickup, spotted immediately through the cover slots.</li>
@@ -419,7 +419,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
       <div class="grsn-img2">
         <figure class="grsn-fig"><img src={`${IMG}/gretsch-block-inlays.jpg`} alt="Gretsch block fingerboard inlays on a 1954 to 1956 era guitar, plain rectangular celluloid blocks" loading="lazy" decoding="async" /><figcaption>Block inlays: plain rectangular celluloid. 1954 to 1956 on most models. Engraved Western motif on earliest 6120/6121.</figcaption></figure>
         <figure class="grsn-fig"><img src={`${IMG}/gretsch-hump-inlays.jpg`} alt="Gretsch Humptop block fingerboard inlays, the rounded dome on the top edge identifies a 1957 model year instrument" loading="lazy" decoding="async" /><figcaption>Humptop inlays: the rounded dome on each block top means one thing: 1957 model year. No other year used this style.</figcaption></figure>
-        <figure class="grsn-fig"><img src={`${IMG}/gretsch-thumbprint-inlays-scaled.jpg`} alt="Gretsch Neo-Classic thumbprint fingerboard inlays, oval inlays on the bass-side edge, standard 1958 through the mid-1960s" loading="lazy" decoding="async" /><figcaption>Neo-Classic thumbprints: note the bass-side placement. Centered thumbprints on a claimed 1958 to 1964 guitar warrant scrutiny. Standard 1958–mid-1960s.</figcaption></figure>
+        <figure class="grsn-fig"><img src={`${IMG}/gretsch-thumbprint-inlays-scaled.jpg`} alt="Gretsch Neo-Classic thumbprint fingerboard inlays, oval inlays on the bass-side edge, standard 1958 through the mid-1960s" loading="lazy" decoding="async" /><figcaption>Neo-Classic thumbprints: note the bass-side placement. Centered thumbprints on a claimed 1958 to 1964 guitar warrant scrutiny. Standard 1958 to mid-1960s.</figcaption></figure>
         <figure class="grsn-fig"><img src={`${IMG}/gretsch-t-zone-dots-on-viking.jpg`} alt="T-Zone Tempered Treble fingerboard on a Gretsch Viking, pattern inlay switching to plain dots from the 15th fret onward" loading="lazy" decoding="async" /><figcaption>T-Zone dots on a Gretsch Viking: pattern inlay up to fret 14, dots from fret 15. Instant confirmation of 1965 or later.</figcaption></figure>
       </div>
 

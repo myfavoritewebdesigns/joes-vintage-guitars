@@ -465,7 +465,7 @@ The Junior's journey from student model to cultural icon shows something that ke
 
 ### Reference Books
 
--   *Gibson Electrics: The Classic Years* by A.R. Duchossoir. The most comprehensive technical reference available for Gibson electric guitars of the 1950s and early 1960s.
+-   *Gibson Electrics: The Classic Years* by A.R. Duchossoir. The most complete technical reference available for Gibson electric guitars of the 1950s and early 1960s.
 -   *The Beauty of the Burst* by Yasuhiko Iwanade. Focused primarily on Les Paul Standards but useful comparative context for the full LP lineup.
 -   *The Gibson Les Paul Book* by Tony Bacon and Paul Day. An accessible overview of the full Les Paul lineup with strong photographic documentation across all eras.
 

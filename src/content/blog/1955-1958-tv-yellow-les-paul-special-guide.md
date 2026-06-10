@@ -2,13 +2,13 @@
 title: "Authentic 1955-1958 TV Yellow Les Paul Special: A Collector’s Guide"
 pubDate: "2026-03-02T19:31:50"
 modified: "2026-03-02T19:31:50"
-excerpt: "In the ‘Golden Era’ of Gibson production, few instruments carry as much mojo, or as much confusion for collectors, as the 1955 to 1958 single-cutaway Les Paul Special. Finished in TV Yellow, these ‘slab-body’ mahogany guitars sit between the working-man’s Junior and the high-end Standard. But with seventy years of history comes seventy years of modifications. From ‘Bumblebee’ capacitors and original P-90 soapbars to the patina of aged brass tuner posts, we go through the details that tell you what you’ve got. Whether you’re a longtime collector or looking to sell a family heirloom, this guide, backed by personally authenticating over 40 of these models, covers what makes a ‘dead-original’ Special worth holding onto."
+excerpt: "In the ‘Golden Era’ of Gibson production, few instruments carry as much mojo, or as much confusion for collectors, as the 1955 to 1958 single-cutaway Les Paul Special. Finished in TV Yellow, these ‘slab-body’ mahogany guitars sit between the working-man’s Junior and the high-end Standard. But with seventy years of history comes seventy years of modifications. From ‘Bumblebee’ capacitors and original P-90 soapbars to the patina of aged brass tuner posts, we go through the details that tell you what you’ve got. Maybe you’re a longtime collector, or maybe you’re looking to sell a family heirloom. Either way, this guide, backed by personally authenticating over 40 of these models, covers what makes a ‘dead-original’ Special worth holding onto."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1955-1958-tv-yellow-les-paul-special-guide/1958-gibson-les-paul-special-tv-yellow-24-scaled.jpg"
 heroImageAlt: "1958 Gibson Les Paul Special with TV Yellow finish"
-metaDescription: "In the ‘Golden Era’ of Gibson production, few instruments carry as much mojo, or as much confusion for collectors, as the 1955 to 1958 single-cutaway Les Paul Special. Finished in TV Yellow, these ‘slab-body’ mahogany guitars sit between the working-man’s Junior and the high-end Standard. But with seventy years of history comes seventy years of modifications. From ‘Bumblebee’ capacitors and original P-90 soapbars to the patina of aged brass tuner posts, we go through the details that tell you what you’ve got. Whether you’re a longtime collector or looking to sell a family heirloom, this guide, backed by personally authenticating over 40 of these models, covers what makes a ‘dead-original’ Special worth holding onto."
+metaDescription: "In the ‘Golden Era’ of Gibson production, few instruments carry as much mojo, or as much confusion for collectors, as the 1955 to 1958 single-cutaway Les Paul Special. Finished in TV Yellow, these ‘slab-body’ mahogany guitars sit between the working-man’s Junior and the high-end Standard. But with seventy years of history comes seventy years of modifications. From ‘Bumblebee’ capacitors and original P-90 soapbars to the patina of aged brass tuner posts, we go through the details that tell you what you’ve got. Maybe you’re a longtime collector, or maybe you’re looking to sell a family heirloom. Either way, this guide, backed by personally authenticating over 40 of these models, covers what makes a ‘dead-original’ Special worth holding onto."
 ogImage: "/images/blog/1955-1958-tv-yellow-les-paul-special-guide/1958-gibson-les-paul-special-tv-yellow-24-scaled.jpg"
 wpId: 18997
 ---
@@ -20,7 +20,7 @@ In the golden age of Gibson craftsmanship, the **1955 to 1958 Single Cut Les Pau
 
 If you are looking to buy or [sell a vintage Les Paul](/), understanding these authentication specifications is critical. At **Joe’s Vintage Guitars**, we’ve seen how even small parts swaps can impact the market value of a vintage instrument by thousands of dollars. If you are wonderinf what your guitar is worth, don’t hesitate to reach out to us for a [free appraisal.](/vintage-guitar-appraisal/)
 
-Below is a comprehensive guide on authenticating your single cut Les Paul Special from 1955-1958.
+Below is a complete guide to authenticating your single cut Les Paul Special from 1955-1958.
 
 ## The “Limed Mahogany” TV Yellow Finish
 
@@ -188,7 +188,7 @@ Critical Authentication Changes for the TV Yellow Les Paul Special
 -   **Debut Specifications:** Introduction of the **short-seam tailpiece**, **dual P-90 soapbars**, and **brass tuner posts**.
 -   **Logo & Silk Screen:** Standardized Mother of Pearl Gibson logo with gold "Les Paul Special" silk screen.
 
- | The "Wheat" era. Look for less grain "telegraphing" through the lacquer compared to '56–'58 models. |
+ | The "Wheat" era. Look for less grain "telegraphing" through the lacquer compared to '56 to '58 models. |
 | 1956 | 
 
 -   **Finish Translucency:** The "Limed Mahogany" process is refined; the **mahogany wood grain** becomes much more visible through the lacquer.

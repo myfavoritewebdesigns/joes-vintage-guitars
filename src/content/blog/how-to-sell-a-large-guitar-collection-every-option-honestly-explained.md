@@ -129,7 +129,7 @@ Buyers expect tracking numbers fast, usually within 1 to 2 business days of paym
 
 ### Returns and Disputes
 
-Reverb's buyer protection program tilts toward buyers in disputes. If a buyer claims an item arrived not as described, Reverb will often side with them even when your listing was accurate, particularly if your photos weren't comprehensive. Another reason exhaustive photo documentation matters. Set a clear return policy. Thirty days with the buyer paying return shipping is standard for most professional sellers. Factor potential return costs into your pricing on expensive pieces.
+Reverb's buyer protection program tilts toward buyers in disputes. If a buyer claims an item arrived not as described, Reverb will often side with them even when your listing was accurate, particularly if your photos left gaps. Another reason exhaustive photo documentation matters. Set a clear return policy. Thirty days with the buyer paying return shipping is standard for most professional sellers. Factor potential return costs into your pricing on expensive pieces.
 
 ### The Actual Time Commitment on Reverb
 

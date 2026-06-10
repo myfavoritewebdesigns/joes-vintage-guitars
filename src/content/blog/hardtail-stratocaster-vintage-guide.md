@@ -28,7 +28,7 @@ A hardtail Stratocaster lacks the routed-out tremolo cavity and the spring-tensi
 
 Look closely at the chrome bridge plate on this 1960 Stratocaster: you’ll notice there is no hole for a tremolo arm. Unlike a “blocked” or “decked” tremolo, a true factory hardtail features a solid bridge plate screwed directly into the body, providing the superior resonance and tuning stability that makes these rare pre-CBS models so special.
 
-## The “In-Between” Vibe: Strat meets Tele
+## The “In-Between” Vibe: Strat Meets Tele
 
 I personally have a huge soft spot for these guitars. To me, a hardtail Stratocaster sits right in the sweet spot between a traditional Strat and a Telecaster. You get the ergonomic contours and the versatile three-pickup “quack” of a Strat, but you gain the punchy, immediate attack and tuning stability of a Tele.
 

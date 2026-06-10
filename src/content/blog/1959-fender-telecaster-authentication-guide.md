@@ -40,7 +40,7 @@ No other year in the Telecaster's history packs as many simultaneous changes as 
 
 The result is that **a genuine 1959 Telecaster can look dramatically different depending on when in 1959 it was built**. An early-1959 example has a one-piece maple neck, a top-loading bridge, and the same basic specification as a late 1958. A late-1959 example has a thick slab rosewood board, a string-through bridge, a slim "D" neck profile, and clay dot inlays. These are not the same guitar in the eyes of collectors, and knowing exactly where on that timeline a given instrument falls is the core challenge of authenticating a 1959.
 
-**1\. Maple or slab rosewood neck?** Maple necks run January–approximately March/April 1959; slab rosewood from approximately April onward. Early maple-neck 1959s are exceptionally rare and valuable.
+**1\. Maple or slab rosewood neck?** Maple necks run January to approximately March/April 1959; slab rosewood from approximately April onward. Early maple-neck 1959s are exceptionally rare and valuable.
 
 **2\. Top loader or string-through bridge?** Top-loading bridges were standard from mid-1958 through mid-1959. String-through returned in mid-to-late 1959. Many 1959 examples have a bridge with *both sets of holes*, the transition hardware. This is discussed in detail in Section 06.
 
@@ -90,25 +90,25 @@ The introduction of the rosewood fingerboard is the defining change of 1959, the
 
 The original Telecaster configuration from 1950 through approximately March/April 1959. The neck and fretboard are a single piece of maple, with the frets seated directly in the maple. The playing surface was finished with a thin coat of lacquer.
 
--   **Period:** January–approximately March/April 1959
+-   **Period:** January to approximately March/April 1959
 -   **Rarity:** Extremely rare, small fraction of total 1959 production
 -   **Identification:** No glue line between neck and fretboard; single piece of wood all the way through; no skunk stripe on back (that came with the rosewood board)
 -   **Value premium:** Very significant, maple-neck 1959s are among the most desirable early Telecasters
 
 The new configuration first used on the Jazzmaster in 1958 and introduced to the Telecaster in the spring of 1959. A thick, flat-bottomed slab of rosewood (approximately 4.8mm) is glued directly onto the maple neck, with its flat underside matching the flat-milled top of the neck. This is the "slab." It has a completely flat glue surface, unlike the thinner curved "veneer" board that replaced it in mid-1962.
 
--   **Period:** Approximately April 1959–mid 1962
+-   **Period:** Approximately April 1959 to mid 1962
 -   **Rarity:** More common than maple-neck '59s but still pre-CBS desirability
 -   **Identification:** Visible glue line at headstock (rosewood meets maple); skunk stripe on back of neck; thick rosewood with flat underside when viewed at headstock end
 -   **Value premium:** Slab boards command a premium over later veneer boards
 
 <figure><img alt="1959 Fender Telecaster early maple board nut area showing one-piece maple neck with no glue line, early 1959 pre-rosewood configuration" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-blonde-maple-board-example.jpg" loading="lazy" decoding="async"><figcaption><strong>Early 1959: one-piece maple neck.</strong> At the nut area, the single piece of maple continues uninterrupted, no glue line, no separate fretboard. The playing surface is lacquered maple. This configuration was used from the Telecaster's 1950 debut through approximately March/April 1959, making genuine maple-neck 1959s exceptionally rare.</figcaption></figure>
 
-<figure><img alt="1959 Fender Telecaster thick slab rosewood fingerboard nut area showing glue line and approximately 4.8mm board thickness, mid to late 1959" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-slab-rosewood-board.jpg" loading="lazy" decoding="async"><figcaption><strong>Mid–late 1959: thick slab rosewood board.</strong> At the headstock end, the glue line between the rosewood slab and the maple neck is clearly visible. The rosewood is approximately 4.8mm thick, noticeably deeper than the veneer board used from mid-1962 onward. The flat underside of the slab (milled flat to mate with the neck blank) distinguishes it from the curved veneer.</figcaption></figure>
+<figure><img alt="1959 Fender Telecaster thick slab rosewood fingerboard nut area showing glue line and approximately 4.8mm board thickness, mid to late 1959" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-slab-rosewood-board.jpg" loading="lazy" decoding="async"><figcaption><strong>Mid-to-late 1959: thick slab rosewood board.</strong> At the headstock end, the glue line between the rosewood slab and the maple neck is clearly visible. The rosewood is approximately 4.8mm thick, noticeably deeper than the veneer board used from mid-1962 onward. The flat underside of the slab (milled flat to mate with the neck blank) distinguishes it from the curved veneer.</figcaption></figure>
 
 ### Identifying a Slab vs. Veneer Board
 
-The slab rosewood board (1959–mid-1962) and the veneer rosewood board (mid-1962–mid-1960s) can look nearly identical from the playing surface. The key is to look at the **headstock end of the neck**, where the rosewood meets the maple at the nut area:
+The slab rosewood board (1959 to mid-1962) and the veneer rosewood board (mid-1962 to mid-1960s) can look nearly identical from the playing surface. The key is to look at the **headstock end of the neck**, where the rosewood meets the maple at the nut area:
 
 -   Slab board thicknessApproximately **4.8mm thick**, visibly substantial. When you look at the headstock end from the front, the rosewood occupies a significant portion of the neck depth. The glue line between the rosewood and maple sits well below the fretboard surface.
 -   Slab board undersideThe underside of a slab board is **completely flat**. It was milled flat to glue directly onto the flat top of the neck blank. On veneer boards the underside follows the curve of the neck radius.
@@ -120,7 +120,7 @@ All 1959 rosewood-board Telecasters use **clay dot inlays**, a dull, slightly ch
 
 ### Neck Profile
 
-The 1959 neck profile is a **slim "D" shape**, the result of a progressive thinning that began around 1957 to 1958 after the thicker "V" necks of 1955 to 1956 and the transitional rounder profiles of 1957. By 1959, Telecaster necks had become quite slim, with the slimmest examples appearing toward year-end. Typical measurements: approximately 0.82"–0.90" deep at the first fret and 0.94"–1.00" at the twelfth fret. Players with large hands sometimes find these necks uncomfortably thin; conversely, they are beloved by players who want maximum speed and comfort.
+The 1959 neck profile is a **slim "D" shape**, the result of a progressive thinning that began around 1957 to 1958 after the thicker "V" necks of 1955 to 1956 and the transitional rounder profiles of 1957. By 1959, Telecaster necks had become quite slim, with the slimmest examples appearing toward year-end. Typical measurements: approximately 0.82" to 0.90" deep at the first fret and 0.94" to 1.00" at the twelfth fret. Players with large hands sometimes find these necks uncomfortably thin; conversely, they are beloved by players who want maximum speed and comfort.
 
 The nut width is the standard Fender specification of **1 5/8"**, not widened to 1 11/16" as on vintage Gibsons of the same period. This remained constant throughout the 1950s Telecaster production.
 
@@ -359,7 +359,7 @@ Work through each item systematically. Every confirmation adds confidence; any c
 ### Neck & Fingerboard
 
 -   Early 1959: one-piece maple neck, no visible glue line, lacquered playing surface, dot inlays are black on the maple board
--   Mid–late 1959: thick slab rosewood (~4.8mm) with flat-milled underside; visible glue line at headstock end
+-   Mid-to-late 1959: thick slab rosewood (~4.8mm) with flat-milled underside; visible glue line at headstock end
 -   Skunk stripe present on back of neck regardless of board type
 -   Dot inlays are clay, dull, matte, off-white/tan (NOT shiny pearloid)
 -   12th fret dots are positioned relatively close to the neck edge (period-specific detail)
@@ -379,7 +379,7 @@ Work through each item systematically. Every confirmation adds confidence; any c
 ### Bridge
 
 -   Top-loader bridge (string holes at back of plate only, no body ferrules) is common on 1959 but not exclusive. Both configurations appear throughout the year
--   Mid–late 1959: transitional dual-hole bridge (both sets of holes) OR string-through body with ferrules
+-   Mid-to-late 1959: transitional dual-hole bridge (both sets of holes) OR string-through body with ferrules
 -   Bridge plate shows "Pat. Pending" or "Pat. Pend." stamp, period-correct for this era
 -   Saddles are threaded steel (3 paired), NOT smooth steel, NOT brass, NOT compensated modern
 -   Bridge configuration (top loader, dual hole, or string-through) is a supporting detail, cross-reference with neck date and pot codes rather than treating it as definitive

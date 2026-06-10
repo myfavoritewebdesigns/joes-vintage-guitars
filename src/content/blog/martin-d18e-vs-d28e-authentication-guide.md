@@ -2,13 +2,13 @@
 title: "Identifying the Rare “Electric” Martin: A Look at the D-18E and D-28E Specs"
 pubDate: "2026-02-26T23:51:54"
 modified: "2026-04-01T16:48:52"
-excerpt: "A look at the rare “Electric” version of Martin’s most famous dreadnoughts. From the Brazilian Rosewood and gold hardware of the D-28E to the mahogany punch of the D-18E, we go through the specs of these 1950s guitars. Learn the “smoking gun” of ladder bracing, the history of the DeArmond pickups, and how the “Kurt Cobain effect” sent their value into the millions. Whether you’re a collector or looking to appraise and sell a family heirloom, here’s how to tell a factory original from a conversion."
+excerpt: "A look at the rare “Electric” version of Martin’s most famous dreadnoughts. From the Brazilian Rosewood and gold hardware of the D-28E to the mahogany punch of the D-18E, we go through the specs of these 1950s guitars. Learn the “smoking gun” of ladder bracing, the history of the DeArmond pickups, and how the “Kurt Cobain effect” sent their value into the millions. For collectors, and for anyone looking to appraise and sell a family heirloom, here’s how to tell a factory original from a conversion."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/martin-d18e-vs-d28e-authentication-guide/1959-martin-d-28-e-1-scaled.jpg"
 heroImageAlt: "1959 Martin D-28E vintage acoustic-electric guitar frontal body shot featuring dual DeArmond pickups, Brazilian Rosewood, and gold hardware."
-metaDescription: "A look at the rare “Electric” version of Martin’s most famous dreadnoughts. From the Brazilian Rosewood and gold hardware of the D-28E to the mahogany punch of the D-18E, we go through the specs of these 1950s guitars. Learn the “smoking gun” of ladder bracing, the history of the DeArmond pickups, and how the “Kurt Cobain effect” sent their value into the millions. Whether you’re a collector or looking to appraise and sell a family heirloom, here’s how to tell a factory original from a conversion."
+metaDescription: "A look at the rare “Electric” version of Martin’s most famous dreadnoughts. From the Brazilian Rosewood and gold hardware of the D-28E to the mahogany punch of the D-18E, we go through the specs of these 1950s guitars. Learn the “smoking gun” of ladder bracing, the history of the DeArmond pickups, and how the “Kurt Cobain effect” sent their value into the millions. For collectors, and for anyone looking to appraise and sell a family heirloom, here’s how to tell a factory original from a conversion."
 ogImage: "/images/blog/martin-d18e-vs-d28e-authentication-guide/1959-martin-d-28-e-1-scaled.jpg"
 wpId: 18939
 ---

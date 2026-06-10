@@ -61,7 +61,7 @@ The original cutaway inherited from the L-5CES is the **Venetian** style, a soft
 -   The pickguard used with the Venetian cutaway is **longer** than its Florentine counterpart
 -   When Gibson returned to the Venetian shape in 1969, it also widened the nut to 1 11/16". The two changes are closely correlated as dating evidence
 
-A 1969–early 1970 Venetian-cutaway Byrdland should have the wider 1 11/16" nut. If a guitar is presented as a 1969 with the original narrow 1⅝" nut AND a Venetian cutaway, that is a very late transitional example. Always cross-reference nut width with cutaway style for this year.
+A 1969 to early 1970 Venetian-cutaway Byrdland should have the wider 1 11/16" nut. If a guitar is presented as a 1969 with the original narrow 1⅝" nut AND a Venetian cutaway, that is a very late transitional example. Always cross-reference nut width with cutaway style for this year.
 
 ### Florentine (Pointed) Cutaway
 
@@ -102,7 +102,7 @@ Pickup swaps are extremely common on vintage Byrdlands. Original gold-plated PAF
 
 <figure><img alt="Gibson PAF humbucker pickup showing Patent Applied For sticker, used on Gibson Byrdland 1957 to 1962" src="/images/blog/gibson-byrdland-authentication-guide/gibson-paf-pickup-sticker-scaled.jpeg" loading="lazy" decoding="async"><figcaption><strong>PAF humbucker (1957 to 1962).</strong> The "Patent Applied For" decal on the baseplate identifies this as an original PAF. Byrdland examples are gold-plated and carry narrow neck pole spacing.</figcaption></figure>
 
-<figure><img alt="Gibson Patent Number humbucker pickup showing Pat No 2737842 sticker, used on Gibson Byrdland from 1962" src="/images/blog/gibson-byrdland-authentication-guide/gibson-pat-no-pickup-gibson-sg.jpeg" loading="lazy" decoding="async"><figcaption><strong>Patent Number humbucker (1962–c.1975).</strong> The "Patent No. 2,737,842" sticker replaced the PAF decal from mid-1962. Despite the number referring to the trapeze tailpiece, these are outstanding-sounding pickups.</figcaption></figure>
+<figure><img alt="Gibson Patent Number humbucker pickup showing Pat No 2737842 sticker, used on Gibson Byrdland from 1962" src="/images/blog/gibson-byrdland-authentication-guide/gibson-pat-no-pickup-gibson-sg.jpeg" loading="lazy" decoding="async"><figcaption><strong>Patent Number humbucker (1962 to c.1975).</strong> The "Patent No. 2,737,842" sticker replaced the PAF decal from mid-1962. Despite the number referring to the trapeze tailpiece, these are outstanding-sounding pickups.</figcaption></figure>
 
 <figure><img alt="Gibson T-Top humbucker pickup example, used on Gibson Byrdland from approximately 1967 to 1975" src="/images/blog/gibson-byrdland-authentication-guide/gibson-t-top-pickup-example.jpg" loading="lazy" decoding="async"><figcaption><strong>T-Top humbucker (c.1967 to 1975).</strong> Identifiable by the raised "T"-shaped ridge visible on the inside of the bobbins. Consistent, automated-wound construction at approximately 7.5k ohms. Gold-plated on all Byrdland examples.</figcaption></figure>
 
@@ -120,7 +120,7 @@ The back is where the Byrdland's construction story is most nuanced, with **thre
 
 | Period | Back Construction | Sides | Top |
 | --- | --- | --- | --- |
-| 1955–c.1962 | **Solid 2-piece curly maple** | Solid curly maple | Solid carved spruce |
+| 1955 to c.1962 | **Solid 2-piece curly maple** | Solid curly maple | Solid carved spruce |
 | c.1963 to 1968 | **Laminated (pressed) maple** | Solid curly maple | Solid carved spruce |
 | 1969 to present | **Solid carved maple (returned)** | Solid curly maple | Solid carved spruce |
 
@@ -151,7 +151,7 @@ The Byrdland's narrow nut was one of its defining original specifications, speci
 | 1955 to 1968 | **1⅝" (41.3mm)** | Original narrow spec; some early 1969 examples retain this |
 | 1969 to present | **1 11/16" (42.9mm)** | Widened to standard Gibson spec; some early 1970s examples still narrow |
 
-The 1969–early 1970 transition is not clean. Always physically measure a claimed-1969 instrument rather than relying on a seller's description.
+The 1969 to early 1970 transition is not clean. Always physically measure a claimed-1969 instrument rather than relying on a seller's description.
 
 ### Neck Construction, Lamination Changes
 
@@ -215,8 +215,8 @@ A pre-1970 Byrdland with a "Byrdland" truss rod cover has had the cover replaced
 | --- | --- |
 | 1955 to 1960 | **Bonnet knobs**, gold, dome-shaped (same as golden-era Les Pauls) |
 | 1960 to 1967 | **Top-hat / reflector knobs**, gold, with metallic reflector insert on top |
-| 1967–c.1975 | **Witch-hat / bell knobs**, gold with metal top |
-| 1970s–1980s | Bell-shaped gold plastic knobs; some late examples have black variants |
+| 1967 to c.1975 | **Witch-hat / bell knobs**, gold with metal top |
+| 1970s to 1980s | Bell-shaped gold plastic knobs; some late examples have black variants |
 
 <figure><img alt="Gibson bonnet knob gold example on 1956 Les Paul Goldtop, same style used on Gibson Byrdland 1955 to 1960" src="/images/blog/gibson-byrdland-authentication-guide/1956-gibson-les-paul-standard-knob-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Bonnet knob (1955 to 1960)</strong>, shown here on a 1956 Les Paul Goldtop, but identical to those used on Byrdlands of the same period. The low dome profile is the key identifier.</figcaption></figure>
 
@@ -413,9 +413,9 @@ Use this checklist when examining any Byrdland. Not all items apply to all eras,
 
 -   Pickup covers are gold-plated, not nickel or chrome
 -   Neck pickup has narrow pole spacing (1 13/16" E-to-E), standard-spaced pickup has been replaced
--   Pickup type correct for claimed era: Alnico staple (1955 to 1957), PAF (1958 to 1962), Patent Number (1962–c.1975)
+-   Pickup type correct for claimed era: Alnico staple (1955 to 1957), PAF (1958 to 1962), Patent Number (1962 to c.1975)
 -   Sticker on pickup underside reads correctly: "Patent Applied For" (1957 to 1962) or "Patent No. 2,737,842" (1962 onward)
--   DC resistance in range: PAF typically 7k–9k+ (variable); Patent Number typically 7.5 to 8k; automated era consistent 7.5k
+-   DC resistance in range: PAF typically 7k to 9k+ (variable); Patent Number typically 7.5 to 8k; automated era consistent 7.5k
 -   Check for rerouting or misaligned screw holes indicating pickup replacement
 -   No signs of fresh gold plating over older covers (inconsistent color or thickness)
 
@@ -432,7 +432,7 @@ Use this checklist when examining any Byrdland. Not all items apply to all eras,
 ### Body Woods
 
 -   Top is always solid carved spruce, verify by examining f-hole edges (grain runs through full thickness; no glue lines)
--   Back should be solid 2-piece curly maple for 1955–c.1962 examples and 1969+ examples; laminated for c.1963 to 1968
+-   Back should be solid 2-piece curly maple for 1955 to c.1962 examples and 1969+ examples; laminated for c.1963 to 1968
 -   Examine inside through f-holes with a light: laminated back shows glue lines at any exposed edge
 -   Tap tone: solid top rings clearly under a knuckle tap; pressed top sounds noticeably duller
 

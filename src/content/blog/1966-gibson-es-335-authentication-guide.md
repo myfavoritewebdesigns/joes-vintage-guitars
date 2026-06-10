@@ -195,7 +195,7 @@ Gibson's humbucker pickup went through three distinct phases in the first decade
 
 -   PAF Era**~1957 to 1962.** "Patent Applied For" sticker on the base plate. The gold label. Hand-wound with varying specifications. Generally considered the most tonally complex and desirable. NOT present on 1966 instruments.
 -   Patent Sticker Era**~1962 to 1965.** The PAF sticker replaced with a black sticker reading the patent number. Still largely hand-wound with similar specs to late PAFs. Transitional era. NOT present on 1966.
--   Patent Number Era**~1962–late 1960s.** A **black sticker reading "Patent No 2,737,842"** on the base plate. This is what a genuine 1966 ES-335 has. Pre-T-top winding and construction. Genuinely excellent pickups that are often underrated.
+-   Patent Number Era**~1962 to late 1960s.** A **black sticker reading "Patent No 2,737,842"** on the base plate. This is what a genuine 1966 ES-335 has. Pre-T-top winding and construction. Genuinely excellent pickups that are often underrated.
 -   T-Top Era**~1967 to 1975.** Named for the T-shaped coil former visible from the adjustable-pole side. More consistent winding, different sonic character. NOT present on 1966.
 
 ### Authenticating 1966 Patent Number Pickups
@@ -205,14 +205,14 @@ Pickup swaps are extremely common on vintage Gibsons, PAFs especially are highly
 -   Base plate stickerA **black sticker reading "Patent No 2,737,842"** on the base plate, this is the correct form for 1966. On a 1966, you should see the sticker.
 -   Magnet type**Alnico magnet**, not ceramic. Genuine pre-T-top Patent Number pickups use Alnico II or Alnico V magnets. Ceramic magnets (which are stronger and harder to the touch) indicate a later or replacement pickup. A small rare-earth magnet held near the pickup will be attracted to Alnico; ceramic pickups interact differently.
 -   Pole piecesOne row of **adjustable pole pieces** (slotted screws) and one row of **non-adjustable slugs**, the standard Gibson humbucker configuration. Both rows are only visible with the cover removed.
--   DC resistanceTypically **7.5k–8.5k ohms** per pickup on period-correct examples. Readings significantly outside this range suggest a rewind. Both pickups should read in roughly the same range, a dramatic mismatch indicates one may be a replacement.
+-   DC resistanceTypically **7.5k to 8.5k ohms** per pickup on period-correct examples. Readings significantly outside this range suggest a rewind. Both pickups should read in roughly the same range, a dramatic mismatch indicates one may be a replacement.
 -   Lead wires**Coaxial lead wires with a metal braid outer shield** over a cloth-covered inner conductor. Plastic-insulated lead wires indicate a replacement pickup or a rewound unit.
 -   Cover solderThe pickup cover is **held by solder**, not screws. The cover is soldered to the base plate at two points. Undisturbed original factory solder at these joints is a strong indicator the cover has never been removed. Re-flowed or disturbed solder is not automatically disqualifying but should be noted, as it indicates the cover has been off at some point.
 -   T-top checkThe T-top coil former (visible from the adjustable-pole side with the cover removed) indicates 1967 or later production. However, **you do not need to remove the cover** to make this assessment, and on an original unplayed example you should avoid disturbing the solder. If you have suspicions about pickup replacement, check instead whether the pickup aging and wiring condition matches the rest of the guitar. Mismatched wear, different lead wire style, or solder that looks re-flowed are more practical tells than pulling the cover.
 
 <figure><img alt="1966 Gibson ES-335 pickup cover undisturbed solder close-up, original factory solder joints on pickup cover confirming cover has never been removed" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-undisturbed-pickup-cover-solder.jpg" loading="lazy" decoding="async"><figcaption><strong>Undisturbed factory solder on a 1966 Gibson ES-335 pickup cover.</strong> The solder joints that secure the chrome pickup cover to the base plate are original and undisturbed. The cover is held by solder at two points, not screws. Factory solder from 1966 shows a characteristic texture distinct from fresh or re-flowed work. Undisturbed solder strongly suggests the pickup is all-original and the cover has never been removed.</figcaption></figure>
 
-<figure><img alt="1966 Gibson ES-335 Patent Number humbucker base plate close-up showing Patent No 2737842 sticker, confirming pre-T-top Patent Number era pickup not PAF" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-patent-no-pickup-close-up-of-sticker-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Patent Number sticker on a 1966 Gibson ES-335 humbucker base plate.</strong> The black sticker reading "Patent No 2,737,842" is the defining identifier of the Patent Number era pickup. The sticker replaced the gold PAF label of the late 1950s–early 1960s. Its condition and aging should be consistent with the age of the pickup and guitar.</figcaption></figure>
+<figure><img alt="1966 Gibson ES-335 Patent Number humbucker base plate close-up showing Patent No 2737842 sticker, confirming pre-T-top Patent Number era pickup not PAF" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-patent-no-pickup-close-up-of-sticker-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Patent Number sticker on a 1966 Gibson ES-335 humbucker base plate.</strong> The black sticker reading "Patent No 2,737,842" is the defining identifier of the Patent Number era pickup. The sticker replaced the gold PAF label of the late 1950s to early 1960s. Its condition and aging should be consistent with the age of the pickup and guitar.</figcaption></figure>
 
 Because PAF pickups are significantly more valuable than Patent Number units, there is an active market in misrepresenting Patent Number pickups as PAFs, removing the patent number sticker and replacing it with a gold PAF sticker. Always verify the sticker type, the magnet type, and the coil former before accepting any pickup identification claim.
 
@@ -465,7 +465,7 @@ Pickups
 -   **Black "Patent No 2,737,842" sticker on pickup base plate, NOT a gold PAF sticker, NOT an engraved number**
 -   Alnico magnet (not ceramic), confirm with small test magnet
 -   Adjustable and non-adjustable pole piece rows both present
--   DC resistance approximately 7.5k–8.5k ohms per pickup
+-   DC resistance approximately 7.5k to 8.5k ohms per pickup
 -   Braid-covered coaxial lead wires
 -   **NOT T-tops, no T-shaped coil former visible from adjustable-pole side**
 

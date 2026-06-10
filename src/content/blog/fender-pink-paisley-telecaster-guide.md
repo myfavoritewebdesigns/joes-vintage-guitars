@@ -58,7 +58,7 @@ A missing chunk of the Cling-Foil paper on the 1969. Completely typical wear for
 
 **Authentication Warning:** Many of these guitars were stripped and refinished during the 1970s, when the psychedelic look was considered outdated. A significant percentage of "Paisley Telecasters" encountered today are CBS-era Telecasters that have been refinished with a later reproduction of the foil. The shattering pattern, foil bubbling, UV response, and the "puzzle piece" test (covered later) are all essential checks before any serious money changes hands.
 
-## 3\. Neck Construction: The Fastest Way to Tell 1968 from 1969
+## 3\. Neck Construction: The Fastest Way to Tell 1968 From 1969
 
 The neck is the easiest place to tell the two model years apart. Fender changed neck construction in this window, and the difference is immediately visible once you know what you're looking at.
 

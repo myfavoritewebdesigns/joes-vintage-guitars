@@ -49,7 +49,7 @@ No other Gibson generated quite this many suffix variants. Each letter at the en
 | ES-125T | 1956 to 1968 | Thinline (1.75") | No | 1 × P-90 | Arrived with the thinline trend. Sold well. |
 | ES-125TC | 1960 to 1970 | Thinline (1.75") | Yes, Florentine (sharp) | 1 × P-90 | Best single-pickup version for upper-fret access. |
 | ES-125TDC | 1960 to 1970 | Thinline (1.75") | Yes, Florentine | 2 × P-90 | The "rock and roll" spec. Most versatile thinline. |
-| ES-125TD | 1957–c.1963 | Thinline (1.75") | No | 2 × P-90 | Uncommon after the early 60s. Transitional. |
+| ES-125TD | 1957 to c.1963 | Thinline (1.75") | No | 2 × P-90 | Uncommon after the early 60s. Transitional. |
 | ES-125C | 1965 to 1970 | Full (3.25 to 3.5") | Yes, Florentine | 1 × P-90 | Late addition to the full-depth line. |
 | ES-125CD | 1966 to 1970 | Full (3.25 to 3.5") | Yes, Florentine | 2 × P-90 | The full-depth dual-pickup option. Scarce. |
 | ES-125 3/4 | 1956 to 1969 | Full (reduced body) | No | 1 × P-90 | Short 22.75" scale. Student model. |
@@ -80,7 +80,7 @@ By 1950 Gibson had settled on **laminated maple top, back, and sides**, the reci
 
 Collectors keep a closer eye on **1959 examples** than on most other years. Like the solid-body Gibsons of the same year, late-50s ES-125s tend to carry chunkier, rounder neck profiles, sometimes called "baseball bat" shapes, and a lot of players find them the most comfortable necks in the catalog. Pair that with broken-in P-90s and early-60s knob hardware and you get one of the more desirable vintage examples.
 
-### The Norlin Era (Late 1960s–1970)
+### The Norlin Era (Late 1960s to 1970)
 
 After CMI (Chicago Musical Instruments) sold Gibson to the Ecuadorian brewery conglomerate Norlin in 1969, quality control started to slip, and the slide kept going through the 1970s and into the early 80s. In the final years of ES-125 production, necks transitioned from **one-piece mahogany** to **three-piece mahogany or maple**, a cost-cutting change that also altered the feel and resonance of the guitar. Binding work, finish quality, and hardware plating all got more inconsistent toward the end of the run.
 
@@ -189,7 +189,7 @@ The ES-125's old reputation as a "budget" Gibson kept its prices well behind the
 Valuations move constantly with the vintage market, so treat this as framework rather than a price guide. For actual production data that helps put rarity in context, our [Gibson shipping totals reference (1948 to 1979)](/post/gibson-shipping-totals-1948-1979/) is a useful starting point:
 
 -   **Late 1960s examples** (Norlin transition, three-piece necks): Entry-level pricing for the model. Condition-dependent but generally the most accessible.
--   **Early–mid 1960s thinlines** (TC, TDC): Strong player-grade demand. The dual-pickup cutaway models bring a premium over the single-pickup non-cutaway.
+-   **Early to mid 1960s thinlines** (TC, TDC): Strong player-grade demand. The dual-pickup cutaway models bring a premium over the single-pickup non-cutaway.
 -   **1950s full-depth examples**: Collector and player crossover demand. Late-50s "chunky neck" examples sit at the top of this tier.
 -   **Pre-war and all-mahogany 1946 examples**: Specialist collector territory. Condition and originality drive pricing.
 

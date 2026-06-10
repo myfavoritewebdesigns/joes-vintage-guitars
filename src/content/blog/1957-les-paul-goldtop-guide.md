@@ -7,7 +7,7 @@ category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-scaled.jpg"
-heroImageAlt: "A comprehensive view of an original 1957 Gibson Les Paul Standard, highlighting the iconic bullion gold top and dual PAF humbucking pickups."
+heroImageAlt: "A detailed look at an original 1957 Gibson Les Paul Standard, highlighting the iconic bullion gold top and dual PAF humbucking pickups."
 metaDescription: "1957 was the year Gibson introduced the PAF humbucker. With values reaching all-time highs, how do you verify a true ’57 Goldtop? From the “M-69” stamps inside the pickup rings to the “Dark Back” finish and reddish tortoise side dots, this authentication guide covers the small details that mark a genuine 1957 Standard. Get the facts from Joe’s Vintage Guitars before you sell."
 ogImage: "/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-scaled.jpg"
 wpId: 18916
@@ -23,7 +23,7 @@ wpId: 18916
 -   [1956 vs. 1957: Key Technical Differences](#technical-differences)
 -   [Professional Authentication: The Joe’s Vintage Advantage](#joe-advantage)
 
-![A comprehensive view of an original 1957 Gibson Les Paul Standard, highlighting the iconic bullion gold top and dual PAF humbucking pickups.](/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-1024x683.jpg)
+![A detailed look at an original 1957 Gibson Les Paul Standard, highlighting the iconic bullion gold top and dual PAF humbucking pickups.](/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-1024x683.jpg)
 
 his 1957 Standard sits at the big transition point in Gibson history. While it keeps the classic single-cutaway mahogany body and maple cap, the move to Seth Lover’s PAF humbuckers changed the sound of the instrument for good. This particular example features an incredibly deep “Dark Back” stain, perhaps the darkest I’ve ever seen, creating a strong contrast against the metallic gold top. From the “no-wire” ABR-1 bridge to the aged nickel covers, this is a clean example of 1950s Kalamazoo work.
 

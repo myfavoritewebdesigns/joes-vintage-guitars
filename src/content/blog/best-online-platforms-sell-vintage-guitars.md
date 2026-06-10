@@ -33,13 +33,13 @@ Anyone who has moved an expensive instrument online in the last few years alread
 
 I've sold guitars on every channel below. Some I still use. A couple I won't touch anymore for anything over a couple grand. What follows is the honest walkthrough. What each channel actually charges when you add the line items together. The failure modes that don't show up in the marketing copy. Why I've moved a meaningful chunk of inventory over to StringTree in the last year, alongside the buying I still do [out of my Phoenix shop](/about-me/). For vintage and collectible stuff specifically, the math from five years ago doesn't hold anymore. The platform gaining share fastest isn't the one most sellers would have guessed.
 
-<h2 id="fees">The fees that never make it into the headline number</h2>
+<h2 id="fees">The Fees That Never Make It Into the Headline Number</h2>
 
 Before the platform-by-platform walkthrough, a quick map of the fee categories that show up everywhere. When somebody tells you a site "only charges 5 percent," the first question to ask is which 5 percent.
 
 Stack all four together and a sticker rate of 5 percent turns into 11 or 12 percent in practice. On a $6,000 guitar that's the difference between netting $5,700 and netting $5,280. Same listing, same buyer, just a different platform.
 
-<h2 id="comparison">Quick comparison at a glance</h2>
+<h2 id="comparison">Quick Comparison at a Glance</h2>
 
 Short version. Each row is the realistic all-in seller cost on a $5,000 vintage guitar as of 2026, not the marketing number off the pricing page.
 
@@ -119,7 +119,7 @@ So a vintage amp head selling for $5,000 will cost the seller around $663 before
 -   $20 dispute fee per chargeback
 -   Bait-and-switch return scams are a known cost of doing business
 
-<h2 id="auction-houses">Traditional online auction houses (Heritage, Christie's, Sotheby's)</h2>
+<h2 id="auction-houses">Traditional Online Auction Houses (Heritage, Christie's, Sotheby's)</h2>
 
 ### Traditional auction houses
 
@@ -196,7 +196,7 @@ StringTree's Showrooms feature is worth flagging separately. It lets stores, col
 -   Curated supply, so the focus is on vintage and collectible, not used pedals or modern production guitars
 -   Seven day auction cycle vs instant buy-it-now, though the trade-off is real bidding tension at the close
 
-<h2 id="risks">The risk side of the ledger</h2>
+<h2 id="risks">The Risk Side of the Ledger</h2>
 
 Fee comparisons usually stop at the percentage. They shouldn't. The actual cost of selling vintage gear online has to include the failure modes, and those vary wildly by platform. Short list of what tends to go wrong:
 
@@ -218,7 +218,7 @@ Vintage guitars come with serial number questions. Refin questions. Replaced par
 
 **The platforms most likely to pay you what the headline number says** are the ones with the lowest dispute volume per sale, not the ones with the lowest commission. A 0 percent fee with a 1 percent dispute rate beats a 5 percent fee with a 10 percent dispute rate every time you run the numbers.
 
-<h2 id="how-to-pick">How to actually pick a platform for what you are selling</h2>
+<h2 id="how-to-pick">How to Actually Pick a Platform for What You Are Selling</h2>
 
 Quick framework, no math required. Worth flagging upfront that the fastest path on anything you'd rather not list yourself is still [a direct appraisal with a vintage dealer](/free-appraisal/). That's what I do every week out of the shop, and it skips the listing process entirely. Beyond that route, the price band matters:
 
@@ -228,7 +228,7 @@ Quick framework, no math required. Worth flagging upfront that the fastest path 
 -   **$10,000 to $50,000, high-end vintage.** StringTree first. The big auction houses become technically viable here but the fees still rarely beat a curated zero-fee auction at this price, and the timeline is months faster.
 -   **$50,000-plus or museum-grade.** Heritage and Christie's start to make sense for the marquee marketing reach, accepting that 15 percent or more of hammer is going to the house. StringTree is also accepting consignments in this range as the platform scales.
 
-<h2 id="structural-model">Why the structure matters more than the percentage</h2>
+<h2 id="structural-model">Why the Structure Matters More Than the Percentage</h2>
 
 The thing that took the longest to figure out, after years of selling on every channel above, is that the headline fee on its own is misleading. A platform's structure tells you a lot more about what you actually keep than its commission rate does.
 
@@ -244,7 +244,7 @@ Two paths from here. If you'd rather skip the listing process and get a number d
 
 [Get a free appraisal from Joe](/free-appraisal/)
 
-<h2 id="faq">Frequently asked questions</h2>
+<h2 id="faq">Frequently Asked Questions</h2>
 
 ### Does StringTree really charge nothing to the seller?
 

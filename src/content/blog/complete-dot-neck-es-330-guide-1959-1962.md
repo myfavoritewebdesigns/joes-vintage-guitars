@@ -227,9 +227,9 @@ Saddle material on the dot-neck ES-330 changed across the production period, and
 
 <figure><img 2026="" alt="Macro of 1959 ABR-1 Tune-o-matic bridge on Gibson ES-330, no retaining wire on the saddles" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-21-scaled.jpg" https:="" www.joesvintageguitarsaz.com="" wp-content="" uploads="" 03="" 1959-gibson-es-330-sunburst-21-200x133.jpg="" 200w="" 1959-gibson-es-330-sunburst-21-400x267.jpg="" 400w="" 1959-gibson-es-330-sunburst-21-600x400.jpg="" 600w="" 1959-gibson-es-330-sunburst-21-800x533.jpg="" 800w="" 1959-gibson-es-330-sunburst-21-1024x683.jpg="" 1024w="" 1959-gibson-es-330-sunburst-21-scaled.jpg="" 2560w="" loading="lazy" decoding="async"><figcaption>1959 ABR-1: no retaining wire, nickel-plated brass saddles correct for this year</figcaption></figure>
 
-<figure><img 2026="" alt="ABR-1 Tune-o-matic with nylon saddles on a Gibson ES-330, correct for late 1961 and 1962 examples" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/gibson-es-330-tune-o-matic-with-nylon-saddles.jpg" https:="" www.joesvintageguitarsaz.com="" wp-content="" uploads="" 03="" gibson-es-330-tune-o-matic-with-nylon-saddles-200x133.jpg="" 200w="" gibson-es-330-tune-o-matic-with-nylon-saddles-400x267.jpg="" 400w="" gibson-es-330-tune-o-matic-with-nylon-saddles-600x400.jpg="" 600w="" gibson-es-330-tune-o-matic-with-nylon-saddles.jpg="" 763w="" loading="lazy" decoding="async"><figcaption>Nylon saddles on an ABR-1: correct for late 1961 and 1962; not original on 1959–early 1961 examples</figcaption></figure>
+<figure><img 2026="" alt="ABR-1 Tune-o-matic with nylon saddles on a Gibson ES-330, correct for late 1961 and 1962 examples" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/gibson-es-330-tune-o-matic-with-nylon-saddles.jpg" https:="" www.joesvintageguitarsaz.com="" wp-content="" uploads="" 03="" gibson-es-330-tune-o-matic-with-nylon-saddles-200x133.jpg="" 200w="" gibson-es-330-tune-o-matic-with-nylon-saddles-400x267.jpg="" 400w="" gibson-es-330-tune-o-matic-with-nylon-saddles-600x400.jpg="" 600w="" gibson-es-330-tune-o-matic-with-nylon-saddles.jpg="" 763w="" loading="lazy" decoding="async"><figcaption>Nylon saddles on an ABR-1: correct for late 1961 and 1962; not original on 1959 to early 1961 examples</figcaption></figure>
 
-**Important:** Nylon saddles are *not* correct for a 1959 or 1960 ES-330. If you encounter an early dot-neck 330 with nylon saddles, they are almost certainly replacements. The correct saddle for 1959–early 1961 is nickel-plated brass. Sellers sometimes present nylon saddles as original on early examples; that's incorrect.
+**Important:** Nylon saddles are *not* correct for a 1959 or 1960 ES-330. If you encounter an early dot-neck 330 with nylon saddles, they are almost certainly replacements. The correct saddle for 1959 to early 1961 is nickel-plated brass. Sellers sometimes present nylon saddles as original on early examples; that's incorrect.
 
 ### Wire Retention and Post Anchoring
 
@@ -365,7 +365,7 @@ The FON is written in pencil (sometimes ink) on the inside of the guitar body, v
 
 ### 1959, Introduction Year
 
--   Full-to-transitional neck profile: .88"–.93"+ (early); .84"–.88" (late year)
+-   Full-to-transitional neck profile: .88" to .93"+ (early); .84" to .88" (late year)
 -   16th-fret neck joint, constant for the entire dot-neck era
 -   Rounded upper bout horn tips
 -   Unbound headstock; pearl script logo; no crown inlay
@@ -385,7 +385,7 @@ The FON is written in pencil (sometimes ink) on the inside of the guitar body, v
 
 ### 1960, Transition Year
 
--   Slim C neck profile: typically .82"–.87" at first fret
+-   Slim C neck profile: typically .82" to .87" at first fret
 -   Knobs: Gold Bonnet early in year → **Gold Reflector knobs from approximately mid-year**
 -   Single-line Kluson transitioning to double-line Kluson Deluxe by mid-year
 -   FON prefix: U
@@ -396,7 +396,7 @@ The FON is written in pencil (sometimes ink) on the inside of the guitar body, v
 
 ### 1961, Slim Taper Era
 
--   Slim taper neck profile: typically .80"–.83" at first fret
+-   Slim taper neck profile: typically .80" to .83" at first fret
 -   Gold Reflector knobs standard
 -   New serial number format on headstock back
 -   FON prefix: V
@@ -408,7 +408,7 @@ The FON is written in pencil (sometimes ink) on the inside of the guitar body, v
 
 ### 1962, Last of the Dots
 
--   Slim taper neck profile: .80"–.83" at first fret
+-   Slim taper neck profile: .80" to .83" at first fret
 -   Gold Reflector knobs
 -   New serial number format; FON less consistently applied
 -   Nylon ABR-1 saddles standard; wire-retained bridge standard
@@ -422,7 +422,7 @@ The FON is written in pencil (sometimes ink) on the inside of the guitar body, v
 | Specification | 1959 | 1960 | 1961 | 1962 |
 | --- | --- | --- | --- | --- |
 | **Neck joint** | 16th fret | 16th fret | 16th fret | 16th fret |
-| **Neck depth at 1st fret** | .88"–.93" early; .84"–.88" late | .82"–.87" | .80"–.83" | .80"–.83" |
+| **Neck depth at 1st fret** | .88" to .93" early; .84" to .88" late | .82" to .87" | .80" to .83" | .80" to .83" |
 | **Knobs** | Gold Bonnet | Gold Bonnet → Gold Reflector (mid-year) | Gold Reflector | Gold Reflector |
 | **ABR-1 saddles** | Nickel-plated brass | Nickel-plated brass | Brass → Nylon (late year) | Nylon |
 | **Pickup covers** | Black plastic | Black plastic | Black plastic | Black → Nickel (late year) |
@@ -461,9 +461,9 @@ If you're in the market for a dot-neck ES-330, the following checklist covers th
 -   Original finish: check heel, pickup routes, and control cavity for overspray under UV light
 -   Pot date codes consistent with the claimed year
 -   FON visible through the treble f-hole: read it with a light and mirror, don't just trust the seller's description
--   Correct knob style: Gold Bonnet (1959–mid-1960) or Gold Reflector (mid-1960 to 1962)
--   Dogear P-90 pickups with dogear flanges intact; black covers for 1959–early 1962
--   Correct ABR-1 saddle material: nickel-plated brass (1959–early 1961) or nylon (late 1961 to 1962)
+-   Correct knob style: Gold Bonnet (1959 to mid-1960) or Gold Reflector (mid-1960 to 1962)
+-   Dogear P-90 pickups with dogear flanges intact; black covers for 1959 to early 1962
+-   Correct ABR-1 saddle material: nickel-plated brass (1959 to early 1961) or nylon (late 1961 to 1962)
 -   Fret nibs present: indicates original frets or a careful re-fret that preserved the binding
 -   Original tuner buttons: check for cracks at the collar
 -   Bumble bee or black beauty capacitors in the control cavity
@@ -482,10 +482,10 @@ If you're in the market for a dot-neck ES-330, the following checklist covers th
 
 <h2 id="context">The ES-330 in Context</h2>
 
--   **Gibson ES-335 (1958–):** The premium semi-hollow sibling. Center block construction, PAF humbuckers, 19th-fret neck joint, nickel-plated hardware (like the 330; gold was for the 345 and 355), bound headstock with crown inlay. More expensive in the vintage market but a different instrument in construction and feel.
+-   **Gibson ES-335 (1958 onward):** The premium semi-hollow sibling. Center block construction, PAF humbuckers, 19th-fret neck joint, nickel-plated hardware (like the 330; gold was for the 345 and 355), bound headstock with crown inlay. More expensive in the vintage market but a different instrument in construction and feel.
 -   **Gibson ES-225T / ES-225TD (1952 to 1959):** The full-depth archtop models that the ES-330 directly replaced. Single-cutaway, full-depth hollowbody, single or dual P-90s. The 225s play and feel substantially different from the double-cutaway thinline 330, with less upper-fret access and a different acoustic character.
--   **Epiphone Casino (1961–):** The ES-330's closest cousin. Virtually identical in construction, with the same fully hollow thinline body, the same dogear P-90s, and the same general hardware complement in the early 1960s. Carries the Epiphone brand but is an equally capable instrument with its own collector following thanks to John Lennon, George Harrison, and Paul McCartney all playing one through the mid-1960s.
--   **Gibson ES-345 (1959–):** The step above the 335. Center block, stereo wiring, Varitone circuit, humbuckers, gold hardware. A different instrument and significantly more expensive in the vintage market than the 330.
+-   **Epiphone Casino (1961 onward):** The ES-330's closest cousin. Virtually identical in construction, with the same fully hollow thinline body, the same dogear P-90s, and the same general hardware complement in the early 1960s. Carries the Epiphone brand but is an equally capable instrument with its own collector following thanks to John Lennon, George Harrison, and Paul McCartney all playing one through the mid-1960s.
+-   **Gibson ES-345 (1959 onward):** The step above the 335. Center block, stereo wiring, Varitone circuit, humbuckers, gold hardware. A different instrument and significantly more expensive in the vintage market than the 330.
 -   **Gibson Les Paul Junior:** Another P-90 equipped Gibson of the same era. Solidbody, slab mahogany. Very different feel from the 330 but uses the same dogear pickup. See our [Gibson Les Paul Junior guide](/post/gibson-les-paul-junior-guide/) for a deeper look at that model.
 
 <h2 id="final-thoughts">Final Thoughts</h2>
@@ -494,6 +494,6 @@ The dot-neck ES-330 is one of the great underappreciated instruments of Gibson's
 
 The specification changes across 1959 to 1962 are real and meaningful, particularly in the neck profile evolution and the knob and saddle material transitions. A 1959 example feels very different in the hand than a 1962. The neck profile alone separates them. Knowing which end of that spectrum suits you is worth thinking about before you commit. Both are legitimate vintage instruments. They're just different tools.
 
-If you're searching for a dot-neck ES-330 or want to discuss a specific example you've found, visit our [shop](/shop/) or use our [contact page](/contact/) to reach out. If you already own one and are thinking about selling, our [Gibson consignment and buying page](/sell-my-gibson-guitar/) explains how we work with sellers. We've handled many of these instruments over the years and are always glad to help, whether you're looking to buy one or find the right home for one you already own.
+If you're searching for a dot-neck ES-330 or want to discuss a specific example you've found, visit our [shop](/shop/) or use our [contact page](/contact/) to reach out. If you already own one and are thinking about selling, our [Gibson consignment and buying page](/sell-my-gibson-guitar/) explains how we work with sellers. We've handled many of these instruments over the years, and we're always glad to help you buy one or find the right home for one you already own.
 
 **Looking for related reading?** Explore our guides to other classic Gibsons on our [blog](/blog/), browse available vintage inventory in our [shop](/shop/), or get a [free appraisal](/free-appraisal/) on a guitar you own.

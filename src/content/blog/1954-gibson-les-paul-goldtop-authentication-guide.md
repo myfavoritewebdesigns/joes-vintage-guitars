@@ -98,7 +98,7 @@ Flip the headstock over and look at the back of any tuner gear cover. If you see
 
 ### Neck Profile & Nut
 
-The 1954 neck has a pronounced, chunky **"C" to "soft D" profile**. Typical measurements run approximately 0.88"–0.92" deep at the first fret and 0.98"–1.02" at the twelfth fret. The nut width is the standard mid-1950s Gibson **1 11/16"**; Gibson did not narrow the nut to 1 9/16" until 1965.
+The 1954 neck has a pronounced, chunky **"C" to "soft D" profile**. Typical measurements run approximately 0.88" to 0.92" deep at the first fret and 0.98" to 1.02" at the twelfth fret. The nut width is the standard mid-1950s Gibson **1 11/16"**; Gibson did not narrow the nut to 1 9/16" until 1965.
 
 The nut material on original 1954 examples is **Nylon 6/6**, an off-white, slightly translucent material that is distinctly different from both bright white modern plastic and the granular texture of bone. Aged original Nylon 6/6 takes on a soft, slightly yellowed appearance. The string slots should show authentic wear patterns consistent with decades of use.
 
@@ -203,7 +203,7 @@ Grey Tiger capacitors inside = strong evidence for pre-1956 production (could be
 
 All internal wiring in a 1954 is **cloth-covered wire**. The main shielded lead from the pickup to the control cavity is typically braided cloth over a metal shield. The individual hook-up wires between components have cloth-wrapped insulation in period-correct colors. Plastic-insulated wiring inside a claimed 1954 is not correct and indicates a rewire or repairs.
 
-The control cavity route on a 1954 is also notable for what is **absent**: the ground wire channel that ran to the trapeze tailpiece on 1952–early 1953 models is gone by 1954. If you see a routed channel on the bass side of the control cavity heading toward what would be the strap pin end, that indicates an earlier guitar body, likely 1952 or very early 1953.
+The control cavity route on a 1954 is also notable for what is **absent**: the ground wire channel that ran to the trapeze tailpiece on 1952 to early 1953 models is gone by 1954. If you see a routed channel on the bass side of the control cavity heading toward what would be the strap pin end, that indicates an earlier guitar body, likely 1952 or very early 1953.
 
 ### Toggle Switch
 
