@@ -1,0 +1,18 @@
+.jvg-tool-wrap{max-width:860px;margin:0 auto 2.5rem;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:1rem;line-height:1.7;color:#1a1a1a}
+.jvg-tool-header{background:#fdf8f2;border:1px solid #d4b483;border-top:4px solid #8a6020;border-radius:4px;padding:1.5rem 1.8rem 1.2rem;margin-bottom:1.2rem}
+.jvg-tool-header h2{font-family:Oswald,sans-serif;font-weight:600;font-size:clamp(1.4rem, 3vw, 1.85rem);color:#6b4a10;margin:0 0 .4rem;border:none;padding:0}
+.jvg-tool-header p{font-size:.93rem;color:#444;margin:0}
+.jvg-tool-input-area{display:flex;gap:.75rem;align-items:stretch;margin-bottom:.75rem}
+.jvg-tool-input{flex:1;font-size:1.15rem;font-family:Oswald,sans-serif;font-weight:600;letter-spacing:.06em;color:#1a1a1a;background:#fff;border:2px solid #d4b483;border-radius:4px;padding:.7rem 1rem;outline:0;transition:border-color .15s;min-width:0}
+.jvg-tool-input:focus{border-color:#8a6020}
+.jvg-tool-input::placeholder{color:#bba880;font-weight:400;letter-spacing:0}
+.jvg-tool-btn{font-family:Oswald,sans-serif;font-weight:600;font-size:.9rem;letter-spacing:.08em;text-transform:uppercase;background:#8a6020;color:#fff;border:none;border-radius:4px;padding:.7rem 1.5rem;cursor:pointer;white-space:nowrap;transition:background .15s}
+.jvg-tool-btn:hover{background:#6b4a10}
+.jvg-tool-hint{font-size:.82rem;color:#555;background:#f5efe3;border-left:3px solid #d4b483;border-radius:2px;padding:.5rem .75rem;margin:0 0 .9rem;line-height:1.5}
+.jvg-tool-hint strong{color:#6b4a10}
+.jvg-tool-examples{font-size:.82rem;color:#555;margin-bottom:1.4rem}
+.jvg-tool-examples strong{color:#6b4a10}
+.jvg-chip{display:inline-block;font-family:Oswald,sans-serif;font-weight:600;font-size:.78rem;letter-spacing:.05em;background:#f0e8d8;border:1px solid #d4b483;color:#5a3a08;border-radius:3px;padding:.15em .55em;margin:.15rem .2rem .15rem 0;cursor:pointer;transition:background .12s}
+.jvg-chip:hover{background:#d4b483;color:#1a1a1a}
+.jvg-tool-input-area{flex-direction:column}
+.jvg-tool-btn{width:100%}
