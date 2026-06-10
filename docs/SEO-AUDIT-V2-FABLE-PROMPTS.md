@@ -12,7 +12,18 @@
 This has two parts.
 
 - **Part A** is the analysis. It is the rough audit of the rebuild as it stands today, grounded in the actual source. Read it so you know the "why" behind each fix.
-- **Part B** is a pack of eight prompts (Prompt 0 through Prompt 7). Paste them into Fable one at a time, in order. Each one re-checks the relevant area, then auto-executes the fixes on its own branch and opens a PR for Josh to merge. They are sequenced on purpose: later prompts depend on earlier ones landing first.
+- **Part B** is a pack of nine prompts (Prompt 0 through Prompt 8). Each one re-checks the relevant area, then auto-executes the fixes on its own branch and opens a PR for Josh to merge. They are sequenced on purpose: later prompts depend on earlier ones landing first.
+
+### How To Feed This To Fable (Read This First)
+
+You do NOT have to paste the prompts one at a time. The cleaner way: **paste this whole document into Fable once, as context.** Fable reads the entire plan (so it understands the dependencies), then you say "run Prompt 0," and after that PR is merged, "run Prompt 1," and so on.
+
+What you cannot do is have Fable execute the whole pack in a single shot. Two hard reasons, neither about Fable's ability to parse:
+
+1. **Fable cannot merge its own PRs. You do.** The whole model is: branch from `main`, open a PR, you merge, then the next prompt branches from the now-updated `main`. Fable physically cannot proceed past one PR without your merge in between.
+2. **Later prompts depend on earlier ones being on `main`.** Prompt 3 needs Prompt 2's detector to exist. Prompt 5 needs Prompt 4's relocated images. If Fable tried to do everything on one branch, you would get one giant unreviewable PR and lose the per-prompt verification gates.
+
+So: feed it all for context, run one prompt per PR, merge between them. Prompts 0, 1, and 2 are independent of each other and can run back-to-back as three separate PRs without waiting. Everything from Prompt 3 on needs the prior PR merged first. Tell Fable explicitly: "one prompt = one branch = one PR; do not start the next until I say so."
 
 Everything in this pack uses free tools (Lighthouse, code analysis, and the repo's own audit scripts). No billable keyword, backlink, or rank-tracking APIs are part of this execution pack. The keyword, competitor, backlink, and Search Console analysis described in `reference/_seo-analysis-brief.md` is a separate, billable workstream and is out of scope here.
 
@@ -121,6 +132,29 @@ SCOPE CONTROL:
   - Prefer a codemod (a small script in scripts/) over hand-editing when a change
     repeats more than ~20 times. Commit the script alongside its output so the
     reviewer audits ~80 lines instead of thousands of lines of churn.
+
+STRUCTURAL OPTIMIZATION AS YOU GO (standing directive):
+  Joe wants the CSS and HTML structures cleaned up as you audit, not just at the end.
+  So whenever a prompt already has you inside a file, you MAY also make SAFE structural
+  improvements in that same file: remove provably-dead CSS rules, collapse leftover
+  Avada/Fusion wrapper divs that were carried over from WordPress (awb-*, fusion-builder-*,
+  empty nesting), reduce needless DOM depth, and improve semantic HTML (correct heading
+  order, real landmarks: nav/main/article/aside). Prompt 7 then does a thorough,
+  data-driven pass for whatever opportunistic cleanup did not reach.
+  THE HARD GATE (non-negotiable, this project is pixel-perfect by design):
+    - Rendered output must NOT change visually. Verify with
+      npm run audit:section-crops -- <live-url> <local-url> --slug <slug>
+      at 1920 AND 390; the odiff perceptual diff must show ZERO visual change. Also run
+      audit:live-diff and confirm heading/image/JSON-LD parity holds.
+    - "Dead" means proven dead (the selector matches nothing in the built DOM), not
+      "looks unused." When unsure, leave it.
+    - NEVER restyle, rename design tokens, change colors/spacing/fonts, or "tidy" anything
+      that alters appearance. Structure and bytes only, never look.
+    - Call out every structural change in its own section of the PR body, separate from
+      the prompt's primary work, so the reviewer can scan it fast.
+  Note: Astro + Vite already minify and bundle CSS/JS at build, and Tailwind 4 tree-shakes
+  unused utilities. Do NOT hand-minify or reformat. The wins here are dead hand-ported
+  rules in the is:global widget blocks and global.css, and leftover WP wrapper markup.
 
 VERIFICATION (every prompt ends with these, plus its own acceptance criteria):
   - npm run build  -> must succeed
@@ -609,16 +643,78 @@ npm run build green, astro check 0 errors. PR titled "SEO v2 Prompt 6: schema an
 
 ---
 
-## Prompt 7: Full Lighthouse, Core Web Vitals, And Accessibility Final Pass
+## Prompt 7: CSS And HTML Structure Optimization
 
 ```
-GOAL: Run a full Lighthouse and CWV pass across the key page types now that images and
-schema are fixed, fix any remaining regressions, and confirm the accessibility baseline.
+GOAL: Clean up dead CSS, leftover WordPress/Avada wrapper markup, and excessive DOM nesting
+across the site, with ZERO visual change. This is the thorough, data-driven version of the
+"optimize as you go" standing directive: it catches what the opportunistic cleanup in
+earlier prompts did not reach.
 
-READ FIRST: reports/seo-v2/lighthouse-baseline.md and lighthouse-after-images.md, CLAUDE.md
-"Launch audit checklist" (the WCAG 2.2 AA and target-score expectations).
+READ FIRST: CLAUDE.md (the pixel-parity rules and the audit:section-crops / audit:live-diff
+tooling), src/styles/global.css (the ported rules and 25 tokens), the large
+<style is:global> blocks in the serial pages and src/pages/post/[slug].astro,
+reports/seo-v2/baseline.md, and the latest Lighthouse report (the "Reduce unused CSS",
+"Reduce unused JavaScript", and "Avoid an excessive DOM size" diagnostics).
 
-BRANCH: fable/seo-07-lighthouse-cwv
+EXPECTED CURRENT STATE: the site carries hand-ported Avada/Fusion CSS and wrapper markup
+from the WordPress original (awb-*, fusion-builder-*), big per-page is:global CSS blocks, and
+some deep DOM nesting. Tailwind utilities and Astro/Vite bundling are ALREADY optimized and
+minified; the targets are the hand-authored leftovers, not the build output.
+
+BRANCH: fable/seo-07-structure-optimization
+
+STEPS:
+1. TARGET WITH DATA, do not guess. From the latest Lighthouse run, pull per-page "Reduce
+   unused CSS", "Reduce unused JavaScript", and "Avoid an excessive DOM size". Build a
+   worklist of the biggest offenders. Optionally use scripts/extract-html-first.mjs (Chrome
+   Coverage) to measure used vs unused CSS per page precisely.
+2. Dead CSS: starting with global.css and the largest is:global blocks (highest leverage,
+   they touch every page), PROVE which rules match nothing in the built DOM and remove ONLY
+   those. After each file, run npm run audit:section-crops -- <live> <local> --slug <slug>
+   at 1920 AND 390. The odiff perceptual diff must show ZERO change.
+3. Leftover WP/Avada markup: collapse carried-over awb-*/fusion-builder-* wrappers and empty
+   nesting that exist only as cruft. Before removing any wrapper, grep to confirm no active
+   CSS rule and no decoder JS depends on it. Re-verify with the perceptual diff.
+4. DOM depth + semantics: where the "excessive DOM" flag points, flatten needless nesting
+   and use real landmarks (nav/main/article/aside) and correct heading order. Do NOT change
+   any visible text or styling.
+5. ONE page-group per commit, so review and the diff stay tractable. If any odiff shows a
+   visual delta you cannot fully explain, REVERT that change. Parity wins over cleanup,
+   every time.
+6. Re-measure: re-run Lighthouse on the touched pages; record CSS/JS bytes and DOM-node
+   counts before/after in reports/seo-v2/structure-optimization.md.
+
+ALLOWED TO TOUCH: src/styles/global.css, the <style> and <style is:global> blocks in
+src/pages/**/*.astro and src/components/**/*.astro, and the markup of those same files
+(wrapper removal + semantics), reports/seo-v2/**.
+
+DO NOT: change any color, spacing, font, or visible text. Do not rename design tokens. Do
+not remove a rule or wrapper unless you have PROVEN it is dead or unused. Do not hand-minify
+(Vite does that). Do not touch the interactive decoder tool internals in public/scripts/**
+or the reference/** baselines.
+
+ACCEPTANCE: audit:section-crops shows ZERO visual change at 1920 and 390 on every touched
+page (attach the odiff results in the PR). audit:live-diff parity holds (headings, images,
+JSON-LD). npm run build green, astro check 0 errors, audit:a11y no new violations.
+structure-optimization.md shows the CSS/JS byte and DOM-node reductions. PR titled "SEO v2
+Prompt 7: CSS and HTML structure optimization". PR body lists exactly what was removed and
+the before/after numbers.
+```
+
+---
+
+## Prompt 8: Full Lighthouse, Core Web Vitals, And Accessibility Final Pass
+
+```
+GOAL: Run a full Lighthouse and CWV pass across the key page types now that images, schema,
+and structure are fixed, fix any remaining regressions, and confirm the accessibility baseline.
+
+READ FIRST: reports/seo-v2/lighthouse-baseline.md, lighthouse-after-images.md, and
+structure-optimization.md, CLAUDE.md "Launch audit checklist" (the WCAG 2.2 AA and
+target-score expectations).
+
+BRANCH: fable/seo-08-lighthouse-cwv
 
 STEPS:
 1. Run Lighthouse mobile AND desktop on a representative URL of EACH page type:
@@ -650,17 +746,18 @@ report rather than expanding scope silently.
 
 ACCEPTANCE: lighthouse-final.md shows the before/after table with real numbers and the
 targets met (or an honest explanation where not). npm run build green, astro check 0 errors,
-npm run audit:copy exits 0. PR titled "SEO v2 Prompt 7: Lighthouse and CWV final pass".
+npm run audit:copy exits 0. PR titled "SEO v2 Prompt 8: Lighthouse and CWV final pass".
 ```
 
 ---
 
 ## After The Pack
 
-Once these seven PRs are merged, the rebuild has: an XML sitemap, robots, redirects,
-cache and security headers, a real 404, optimized and responsive images with no hot-links,
-a clean and validated schema graph with proper image and author markup, a permanent AI-tell
-CI gate, and measured Core Web Vitals.
+Once these nine prompts (Prompt 0 through Prompt 8) are merged, the rebuild has: an XML
+sitemap, robots, redirects, cache and security headers, a real 404, optimized and responsive
+images with no hot-links, a clean and validated schema graph with proper image and author
+markup, a permanent AI-tell CI gate, leaner CSS and HTML with the dead WordPress and Avada
+cruft removed (verified pixel-identical against live), and measured Core Web Vitals.
 
 What is still deliberately NOT in this pack, because it is billable and needs Josh's cost
 sign-off first (see reference/_seo-analysis-brief.md): real Search Console query analysis,
