@@ -98,7 +98,7 @@ const structuredData = [
     mainEntity: faqs.map((f) => ({
       "@type": "Question",
       name: f.q.replace(/&rsquo;/g, "'").replace(/&amp;/g, "&"),
-      acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'").replace(/&mdash;/g, "—") },
+      acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'").replace(/—/g, "—") },
     })),
   },
   {

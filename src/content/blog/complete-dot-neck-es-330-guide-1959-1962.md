@@ -2,13 +2,13 @@
 title: "Complete Dot Neck ES-330 Authentication Guide & Timeline (1958-1962)"
 pubDate: "2026-03-26T20:49:26"
 modified: "2026-05-14T17:53:30"
-excerpt: "The dot-neck Gibson ES-330 is one of the more misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret (not the 17th, not the 19th), it’s a very different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959–1962 dot-neck era in detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and the other details that separate an original example from a modified one, and a 1959 from a 1962."
+excerpt: "The dot-neck Gibson ES-330 is one of the more misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret (not the 17th, not the 19th), it’s a very different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959 to 1962 dot-neck era in detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and the other details that separate an original example from a modified one, and a 1959 from a 1962."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-scaled.jpg"
 heroImageAlt: "A sunburst 1959 gibson ES-335 in near mint condition."
-metaDescription: "The dot-neck Gibson ES-330 is one of the more misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret (not the 17th, not the 19th), it’s a very different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959–1962 dot-neck era in detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and the other details that separate an original example from a modified one, and a 1959 from a 1962."
+metaDescription: "The dot-neck Gibson ES-330 is one of the more misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret (not the 17th, not the 19th), it’s a very different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959 to 1962 dot-neck era in detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and the other details that separate an original example from a modified one, and a 1959 from a 1962."
 ogImage: "/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-scaled.jpg"
 wpId: 20616
 ---
@@ -57,7 +57,7 @@ One structural detail defines the ES-330 more than any other: the **neck joins t
 
 ### Thinline Fully Hollow Construction
 
-The ES-330 body is built on Gibson's standard thinline depth of approximately **1¾ inches** (roughly 44–45mm) at the rim, the same depth used for the ES-335 and ES-345. The body width is approximately **16 inches** at the lower bout. Internally, the body is braced beneath the spruce top in the typical Gibson style for this era. The top is **laminated maple**, pressed and arched rather than carved, and finished with a thin lacquer sealer before the color coats go on. The back is also laminated maple, and the sides are bent maple. This laminate construction kept costs down and is one reason dot-neck 330s tend to be a little more humidity-stable than carved-top instruments.
+The ES-330 body is built on Gibson's standard thinline depth of approximately **1¾ inches** (roughly 44 to 45mm) at the rim, the same depth used for the ES-335 and ES-345. The body width is approximately **16 inches** at the lower bout. Internally, the body is braced beneath the spruce top in the typical Gibson style for this era. The top is **laminated maple**, pressed and arched rather than carved, and finished with a thin lacquer sealer before the color coats go on. The back is also laminated maple, and the sides are bent maple. This laminate construction kept costs down and is one reason dot-neck 330s tend to be a little more humidity-stable than carved-top instruments.
 
 ### The Double Cutaway and Ear Shape
 
@@ -96,7 +96,7 @@ The neck profile changed meaningfully across the dot-neck era and is often the e
 -   **1959 (early):** Large, full C-to-D profile. Typically **.88" to .93" deep at the first fret**, up to .96"+ at the 12th. A substantial grip that fills the hand completely.
 -   **1959 (mid-to-late):** Profile begins to slim perceptibly. This is the transitional neck. Still full by modern standards, but noticeably less massive than an early-1959 example. Many players find this the ideal compromise.
 -   **1960:** Profiles continue to slim. Most examples fall in the **.82" to .87" range at the first fret**. Shape shifts from a deep C/D toward a shallower C.
--   **1961–1962:** The "slim taper" profile. Typically **.80" to .83" deep at the first fret**. Fast and slender. Preferred by lead players, sometimes less comfortable for large-handed chord players.
+-   **1961 to 1962:** The "slim taper" profile. Typically **.80" to .83" deep at the first fret**. Fast and slender. Preferred by lead players, sometimes less comfortable for large-handed chord players.
 
 **Note:** Neck measurements on any vintage Gibson should be confirmed with calipers on the specific instrument. Individual variation within a given year can be significant. The ranges above are generalizations based on documented examples.
 
@@ -168,7 +168,7 @@ The 1959 ES-330 headstock: plain unbound black face, pearl script Gibson logo, a
 
 ### The Gibson Logo
 
-The headstock carries the Gibson script logo in **pearl inlay** set directly into the headstock face. The letterform character evolved slightly across the dot-neck era, with early examples showing slightly more open letter proportions than later ones. Below the Gibson script, the headstock carries the model designation: **"ES-330T"** for the single-pickup version or **"ES-330TD"** for the two-pickup model, both in smaller lettering on a separate line. The "made in USA" stamp on the back of the headstock is absent on most early 1959 examples and becomes more consistent through 1960 and into 1961–62.
+The headstock carries the Gibson script logo in **pearl inlay** set directly into the headstock face. The letterform character evolved slightly across the dot-neck era, with early examples showing slightly more open letter proportions than later ones. Below the Gibson script, the headstock carries the model designation: **"ES-330T"** for the single-pickup version or **"ES-330TD"** for the two-pickup model, both in smaller lettering on a separate line. The "made in USA" stamp on the back of the headstock is absent on most early 1959 examples and becomes more consistent through 1960 and into 1961 to 1962.
 
 ### Truss Rod Cover
 
@@ -233,7 +233,7 @@ Saddle material on the dot-neck ES-330 changed across the production period, and
 
 ### Wire Retention and Post Anchoring
 
-The ABR-1 through most of the dot-neck period is the **non-wire-retained version**, with saddles held by tension rather than a retaining wire. By approximately 1961–62, Gibson began using a retaining wire on some ABR-1 production. On dot-neck ES-330s, the bridge posts are **threaded directly into the maple laminate top itself**. There are no press-fit metal anchors or bushings beneath the posts as used on some later Gibson designs. The wood alone carries the load. This is an important authentication and condition detail: after 60+ years of string tension, the wood around the post holes can become compressed or stressed, which causes the posts to lean forward toward the neck. Inspect both posts carefully for any lean or rocking. A leaning post indicates the wood has been stressed and may need stabilization before the guitar is playable at proper string height.
+The ABR-1 through most of the dot-neck period is the **non-wire-retained version**, with saddles held by tension rather than a retaining wire. By approximately 1961 to 1962, Gibson began using a retaining wire on some ABR-1 production. On dot-neck ES-330s, the bridge posts are **threaded directly into the maple laminate top itself**. There are no press-fit metal anchors or bushings beneath the posts as used on some later Gibson designs. The wood alone carries the load. This is an important authentication and condition detail: after 60+ years of string tension, the wood around the post holes can become compressed or stressed, which causes the posts to lean forward toward the neck. Inspect both posts carefully for any lean or rocking. A leaning post indicates the wood has been stressed and may need stabilization before the guitar is playable at proper string height.
 
 <h2 id="tailpiece">Tailpiece</h2>
 
@@ -461,9 +461,9 @@ If you're in the market for a dot-neck ES-330, the following checklist covers th
 -   Original finish: check heel, pickup routes, and control cavity for overspray under UV light
 -   Pot date codes consistent with the claimed year
 -   FON visible through the treble f-hole: read it with a light and mirror, don't just trust the seller's description
--   Correct knob style: Gold Bonnet (1959–mid-1960) or Gold Reflector (mid-1960–1962)
+-   Correct knob style: Gold Bonnet (1959–mid-1960) or Gold Reflector (mid-1960 to 1962)
 -   Dogear P-90 pickups with dogear flanges intact; black covers for 1959–early 1962
--   Correct ABR-1 saddle material: nickel-plated brass (1959–early 1961) or nylon (late 1961–1962)
+-   Correct ABR-1 saddle material: nickel-plated brass (1959–early 1961) or nylon (late 1961 to 1962)
 -   Fret nibs present: indicates original frets or a careful re-fret that preserved the binding
 -   Original tuner buttons: check for cracks at the collar
 -   Bumble bee or black beauty capacitors in the control cavity
@@ -483,7 +483,7 @@ If you're in the market for a dot-neck ES-330, the following checklist covers th
 <h2 id="context">The ES-330 in Context</h2>
 
 -   **Gibson ES-335 (1958–):** The premium semi-hollow sibling. Center block construction, PAF humbuckers, 19th-fret neck joint, nickel-plated hardware (like the 330; gold was for the 345 and 355), bound headstock with crown inlay. More expensive in the vintage market but a different instrument in construction and feel.
--   **Gibson ES-225T / ES-225TD (1952–1959):** The full-depth archtop models that the ES-330 directly replaced. Single-cutaway, full-depth hollowbody, single or dual P-90s. The 225s play and feel substantially different from the double-cutaway thinline 330, with less upper-fret access and a different acoustic character.
+-   **Gibson ES-225T / ES-225TD (1952 to 1959):** The full-depth archtop models that the ES-330 directly replaced. Single-cutaway, full-depth hollowbody, single or dual P-90s. The 225s play and feel substantially different from the double-cutaway thinline 330, with less upper-fret access and a different acoustic character.
 -   **Epiphone Casino (1961–):** The ES-330's closest cousin. Virtually identical in construction, with the same fully hollow thinline body, the same dogear P-90s, and the same general hardware complement in the early 1960s. Carries the Epiphone brand but is an equally capable instrument with its own collector following thanks to John Lennon, George Harrison, and Paul McCartney all playing one through the mid-1960s.
 -   **Gibson ES-345 (1959–):** The step above the 335. Center block, stereo wiring, Varitone circuit, humbuckers, gold hardware. A different instrument and significantly more expensive in the vintage market than the 330.
 -   **Gibson Les Paul Junior:** Another P-90 equipped Gibson of the same era. Solidbody, slab mahogany. Very different feel from the 330 but uses the same dogear pickup. See our [Gibson Les Paul Junior guide](/post/gibson-les-paul-junior-guide/) for a deeper look at that model.
@@ -492,7 +492,7 @@ If you're in the market for a dot-neck ES-330, the following checklist covers th
 
 The dot-neck ES-330 is one of the great underappreciated instruments of Gibson's golden era. It doesn't have the solidbody cachet of the Les Paul. It doesn't have the collector frenzy around the ES-335. What it has is a fully resonant hollow body, a pair of well-voiced dogear P-90s, and a 16th-fret neck joint that gives it a feel distinct from anything else in the thinline family. These were built for working players in 1959, and 65+ years later they still play like working instruments.
 
-The specification changes across 1959–1962 are real and meaningful, particularly in the neck profile evolution and the knob and saddle material transitions. A 1959 example feels very different in the hand than a 1962. The neck profile alone separates them. Knowing which end of that spectrum suits you is worth thinking about before you commit. Both are legitimate vintage instruments. They're just different tools.
+The specification changes across 1959 to 1962 are real and meaningful, particularly in the neck profile evolution and the knob and saddle material transitions. A 1959 example feels very different in the hand than a 1962. The neck profile alone separates them. Knowing which end of that spectrum suits you is worth thinking about before you commit. Both are legitimate vintage instruments. They're just different tools.
 
 If you're searching for a dot-neck ES-330 or want to discuss a specific example you've found, visit our [shop](/shop/) or use our [contact page](/contact/) to reach out. If you already own one and are thinking about selling, our [Gibson consignment and buying page](/sell-my-gibson-guitar/) explains how we work with sellers. We've handled many of these instruments over the years and are always glad to help, whether you're looking to buy one or find the right home for one you already own.
 

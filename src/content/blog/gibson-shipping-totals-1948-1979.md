@@ -1,5 +1,5 @@
 ---
-title: "Gibson Guitar Production Numbers: Shipping Totals (1948–1979)"
+title: "Gibson Guitar Production Numbers: Shipping Totals (1948 to 1979)"
 pubDate: "2026-03-02T21:44:13"
 modified: "2026-04-01T16:46:33"
 excerpt: "A look at the official Kalamazoo records on how rare your instrument really is. This guide lists Gibson shipping totals from 1948 to 1979, the data you need for an accurate vintage guitar appraisal. If you are researching a 1959 Sunburst or a Norlin-era Custom, these figures give you the production numbers to back up a value before you sell your vintage guitar."
@@ -251,7 +251,7 @@ When you are tracking down the **Gibson TV Yellow SG Special and Junior shipment
 
 <h2 id="es-semi-58-69">Gibson ES-335,ES-345 &amp; ES-355 Shipping Totals (1958-1969)</h2>
 
-**The 1958–1969 shipment totals for the ES-335, ES-345, and ES-355 cover the peak production years of Gibson’s semi-hollow body guitars.** These figures help collectors tell a rare first-year “dot neck” 335 apart from the high-volume output of the late 1960s.
+**The 1958 to 1969 shipment totals for the ES-335, ES-345, and ES-355 cover the peak production years of Gibson’s semi-hollow body guitars.** These figures help collectors tell a rare first-year “dot neck” 335 apart from the high-volume output of the late 1960s.
 
 > **Historical Data Note:** Original Kalamazoo ledgers for the ES-355 typically consolidated all units into the “Cherry” column. While most were indeed Cherry, rare Sunburst and Natural examples exist that the factory records simply did not specify.
 
@@ -297,7 +297,7 @@ Because high-trim models like the 345 and 355, with VariTone circuits and gold h
 
 <h2 id="premier-arch-48-69">Gibson L5ces, Super 400ces &amp; L-7 McCarty (1948-1969)</h2>
 
-The 1948–1969 shipping totals for the **L-5CES, Super 400CES, and L-7 McCarty** cover Gibson’s top-of-the-line archtops. Because these were the most expensive models in the catalog, production stayed very low, so the data matters to collectors. Whether you are tracking a rare **L-7 McCarty assembly** or a 1950s “non-cutaway” example, these Kalamazoo ledger totals are the basis for an appraisal and the proof of scarcity that backs up premium prices.
+The 1948 to 1969 shipping totals for the **L-5CES, Super 400CES, and L-7 McCarty** cover Gibson’s top-of-the-line archtops. Because these were the most expensive models in the catalog, production stayed very low, so the data matters to collectors. Whether you are tracking a rare **L-7 McCarty assembly** or a 1950s “non-cutaway” example, these Kalamazoo ledger totals are the basis for an appraisal and the proof of scarcity that backs up premium prices.
 
 > Note: “L-7e” refers to Gibson L-7 guitars that shipped with a “McCarty” electric pickguard.
 
@@ -434,7 +434,7 @@ When you are researching the **Gibson ES-175, ES-225, ES-295, and ES-5 shipping 
 
 <h2 id="thinline-arch-48-79">Gibson ES-300, ES-330, ES-350 &amp; Byrdland Shipping Totals (1948-1979)</h2>
 
-The shipping totals for the Gibson ES-300, ES-330, ES-350, and Byrdland (1948–1979) are a record of the more specialized thinline and archtop models made in Kalamazoo. This data helps collectors tell a rare first-year **1959 “long neck” ES-330** apart from the high-volume output of the mid-1960s. Because the **Byrdland and ES-350T** were built with short-scale, thin-depth bodies for jazz players, their production numbers stayed well below standard models, which makes these figures a big part of an appraisal. Whether you are verifying a late-1940s **ES-300 with a slanted pickup** or a 1970s Byrdland with humbuckers, the shipping totals are the most effective way to show scarcity and back up current value.
+The shipping totals for the Gibson ES-300, ES-330, ES-350, and Byrdland (1948 to 1979) are a record of the more specialized thinline and archtop models made in Kalamazoo. This data helps collectors tell a rare first-year **1959 “long neck” ES-330** apart from the high-volume output of the mid-1960s. Because the **Byrdland and ES-350T** were built with short-scale, thin-depth bodies for jazz players, their production numbers stayed well below standard models, which makes these figures a big part of an appraisal. Whether you are verifying a late-1940s **ES-300 with a slanted pickup** or a 1970s Byrdland with humbuckers, the shipping totals are the most effective way to show scarcity and back up current value.
 
 | Model/Year | Sunburst | Natural | Cherry |
 | --- | --- | --- | --- |

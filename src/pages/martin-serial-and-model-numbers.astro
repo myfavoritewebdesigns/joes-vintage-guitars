@@ -14,17 +14,17 @@ import { contact, SITE_URL } from "../config/site";
    with year + per-type notes + appraisal CTA link.
 
    Data sourced from the live page's inline <script> (Nazareth records):
-     - guitarData:   1898–2024, full a/b ranges
-     - lxData:       2005–2024 (Little Martin LX, last-serial-of-year)
-     - mandolinData: 1895–1993 (last-serial-of-year)
-     - navSolidData: 2010–2024 (Navojoa Solid Wood Ukulele)
-     - navHplData:   2010–2024 (Navojoa HPL Ukulele)
-     - navSoData:    2000–2010 (Navojoa SO Ukulele, with 2000–2006 approximate)
+     - guitarData:   1898 to 2024, full a/b ranges
+     - lxData:       2005 to 2024 (Little Martin LX, last-serial-of-year)
+     - mandolinData: 1895 to 1993 (last-serial-of-year)
+     - navSolidData: 2010 to 2024 (Navojoa Solid Wood Ukulele)
+     - navHplData:   2010 to 2024 (Navojoa HPL Ukulele)
+     - navSoData:    2000 to 2010 (Navojoa SO Ukulele, with 2000 to 2006 approximate)
    ============================================================ */
 
 const IMG = "/images/martin-serial";
 
-// Guitar serials — full a/b ranges, 1898–2024 (127 entries).
+// Guitar serials — full a/b ranges, 1898 to 2024 (127 entries).
 const guitarData = [
   {y:"1898",a:0,b:8348},{y:"1899",a:8349,b:8716},{y:"1900",a:8717,b:9128},{y:"1901",a:9129,b:9310},{y:"1902",a:9311,b:9528},{y:"1903",a:9529,b:9810},{y:"1904",a:9811,b:9988},{y:"1905",a:9989,b:10120},{y:"1906",a:10121,b:10329},{y:"1907",a:10330,b:10727},{y:"1908",a:10728,b:10883},{y:"1909",a:10884,b:11018},{y:"1910",a:11019,b:11203},{y:"1911",a:11204,b:11413},{y:"1912",a:11414,b:11565},{y:"1913",a:11566,b:11821},{y:"1914",a:11822,b:12047},{y:"1915",a:12048,b:12209},{y:"1916",a:12210,b:12390},{y:"1917",a:12391,b:12988},{y:"1918",a:12989,b:13450},{y:"1919",a:13451,b:14512},{y:"1920",a:14513,b:15848},{y:"1921",a:15849,b:16758},{y:"1922",a:16759,b:17839},{y:"1923",a:17840,b:19891},{y:"1924",a:19892,b:22008},{y:"1925",a:22009,b:24116},{y:"1926",a:24117,b:28689},{y:"1927",a:28690,b:34435},{y:"1928",a:34436,b:37568},{y:"1929",a:37569,b:40843},{y:"1930",a:40844,b:45317},{y:"1931",a:45318,b:49589},{y:"1932",a:49590,b:52590},{y:"1933",a:52591,b:55084},{y:"1934",a:55085,b:58679},{y:"1935",a:58680,b:61947},{y:"1936",a:61948,b:65176},{y:"1937",a:65177,b:68865},{y:"1938",a:68866,b:71866},{y:"1939",a:71867,b:74061},{y:"1940",a:74062,b:76734},{y:"1941",a:76735,b:80013},{y:"1942",a:80014,b:83107},{y:"1943",a:83108,b:86724},{y:"1944",a:86725,b:90149},{y:"1945",a:90150,b:93623},{y:"1946",a:93624,b:98158},{y:"1947",a:98159,b:103468},{y:"1948",a:103469,b:108269},{y:"1949",a:108270,b:112961},{y:"1950",a:112962,b:117961},{y:"1951",a:117962,b:122799},{y:"1952",a:122800,b:128436},{y:"1953",a:128437,b:134501},{y:"1954",a:134502,b:141345},{y:"1955",a:141346,b:147328},{y:"1956",a:147329,b:153225},{y:"1957",a:153226,b:159061},{y:"1958",a:159062,b:165576},{y:"1959",a:165577,b:171047},{y:"1960",a:171048,b:175689},{y:"1961",a:175690,b:181297},{y:"1962",a:181298,b:187384},{y:"1963",a:187385,b:193327},{y:"1964",a:193328,b:199626},{y:"1965",a:199627,b:207030},{y:"1966",a:207031,b:217215},{y:"1967",a:217216,b:230095},{y:"1968",a:230096,b:241925},{y:"1969",a:241926,b:256003},{y:"1970",a:256004,b:271633},{y:"1971",a:271634,b:294270},{y:"1972",a:294271,b:313302},{y:"1973",a:313303,b:333873},{y:"1974",a:333874,b:353387},{y:"1975",a:353388,b:371828},{y:"1976",a:371829,b:388800},{y:"1977",a:388801,b:399625},{y:"1978",a:399626,b:407800},{y:"1979",a:407801,b:419900},{y:"1980",a:419901,b:430300},{y:"1981",a:430301,b:436474},{y:"1982",a:436475,b:439627},{y:"1983",a:439628,b:446101},{y:"1984",a:446102,b:453300},{y:"1985",a:453301,b:460575},{y:"1986",a:460576,b:468175},{y:"1987",a:468176,b:476216},{y:"1988",a:476217,b:483952},{y:"1989",a:483953,b:493279},{y:"1990",a:493280,b:503309},{y:"1991",a:503310,b:512487},{y:"1992",a:512488,b:522655},{y:"1993",a:522656,b:535223},{y:"1994",a:535224,b:551696},{y:"1995",a:551697,b:570434},{y:"1996",a:570435,b:592930},{y:"1997",a:592931,b:624799},{y:"1998",a:624800,b:668796},{y:"1999",a:668797,b:724077},{y:"2000",a:724078,b:780500},{y:"2001",a:780501,b:845644},{y:"2002",a:845645,b:916759},{y:"2003",a:916760,b:978706},{y:"2004",a:978707,b:1042558},{y:"2005",a:1042559,b:1115862},{y:"2006",a:1115863,b:1197799},{y:"2007",a:1197800,b:1268091},{y:"2008",a:1268092,b:1337042},{y:"2009",a:1337043,b:1406715},{y:"2010",a:1406716,b:1473461},{y:"2011",a:1473462,b:1555767},{y:"2012",a:1555768,b:1656742},{y:"2013",a:1656743,b:1755536},{y:"2014",a:1755537,b:1857399},{y:"2015",a:1857400,b:1972129},{y:"2016",a:1972130,b:2076795},{y:"2017",a:2076796,b:2161732},{y:"2018",a:2161733,b:2258889},{y:"2019",a:2258890,b:2366880},{y:"2020",a:2366881,b:2454224},{y:"2021",a:2454225,b:2576415},{y:"2022",a:2576416,b:2711440},{y:"2023",a:2711441,b:2829083},{y:"2024",a:2829084,b:2935987}
 ];
@@ -48,7 +48,7 @@ const navHplData = [
 ];
 
 const navSoData = [
-  {y:"2000–2006",a:0,b:9972,approximate:true},{y:"2007",a:9973,b:10910},{y:"2008",a:10911,b:11724},{y:"2009",a:11725,b:12570},{y:"2010",a:12571,b:12922}
+  {y:"2000 to 2006",a:0,b:9972,approximate:true},{y:"2007",a:9973,b:10910},{y:"2008",a:10911,b:11724},{y:"2009",a:11725,b:12570},{y:"2010",a:12571,b:12922}
 ];
 
 // Helper: compute the start serial for last-serial-of-year tables for display
@@ -61,7 +61,7 @@ function formatLastSerial(data: { y: string; b: number }[]) {
   }));
 }
 
-// Format guitar range for display (e.g., "0000 — 8348")
+// Format guitar range for display (e.g., "0000 to 8348")
 const guitarTableRows = guitarData.map((r) => ({
   year: r.y,
   range: `${r.a === 0 ? "0000" : r.a} — ${r.b}`,
@@ -213,8 +213,8 @@ const structuredData = [
         <h3>Martin 2025 and 2026 Projections</h3>
         <p>Based on Martin&rsquo;s current production of about 107,000 guitars a year, here are my projected ranges:</p>
         <ul>
-          <li>2025 Projection: 2,935,988 — 3,043,000</li>
-          <li>2026 Projection: 3,043,001 — 3,150,000</li>
+          <li>2025 Projection: 2,935,988 to 3,043,000</li>
+          <li>2026 Projection: 3,043,001 to 3,150,000</li>
         </ul>
       </div>
     </div>
@@ -247,7 +247,7 @@ const structuredData = [
       <h2 id="martin-mandolin-serial-numbers">Martin Mandolin Serial Numbers</h2>
       <p>Martin mandolins use an entirely separate serial number system from their guitars. Production ran from the late 1800s through 2002, when Martin ceased mandolin manufacturing entirely. From 1994 to 2002, mandolins were only available as custom orders. Note that from 1991 onward, Martin merged the mandolin serial sequence with the standard guitar numbering system, so serial numbers from 1991 and 1993 will overlap with guitar serials from that period.</p>
       <p>The serial number on a Martin mandolin can typically be found stamped on the inside of the instrument, either on the back strip or the neck block, visible through the soundhole.</p>
-      <p><strong>* Note on 1976:</strong> Serial numbers 259,996–260,020 were also used in 1976. <strong>** Note on 1991:</strong> From serial 509,122 onward, mandolin serials merged into the standard Martin guitar sequence.</p>
+      <p><strong>* Note on 1976:</strong> Serial numbers 259,996 to 260,020 were also used in 1976. <strong>** Note on 1991:</strong> From serial 509,122 onward, mandolin serials merged into the standard Martin guitar sequence.</p>
 
       <div class="table-cont">
         <table class="post-content-table">
@@ -289,7 +289,7 @@ const structuredData = [
       </div>
 
       <h3 id="navojoa-so-ukulele-serial-numbers">Navojoa SO Ukulele Serial Numbers</h3>
-      <p>The SO ukulele series was an earlier Navojoa production line. <strong>Important note:</strong> the 2000–2006 serial range (up to 9972) is approximate only. Martin didn&rsquo;t keep year-by-year records for this period, so an exact production year can&rsquo;t be confirmed for instruments in that range. Records become year-specific from 2007 onward.</p>
+      <p>The SO ukulele series was an earlier Navojoa production line. <strong>Important note:</strong> the 2000 to 2006 serial range (up to 9972) is approximate only. Martin didn&rsquo;t keep year-by-year records for this period, so an exact production year can&rsquo;t be confirmed for instruments in that range. Records become year-specific from 2007 onward.</p>
       <div class="table-cont">
         <table class="post-content-table">
           <thead><tr><th>Year</th><th>Serial Number Range</th></tr></thead>
@@ -317,17 +317,17 @@ const structuredData = [
 
         <div class="spec-grid">
           <div class="spec-item">
-            <h4>Pre-War Mastery (1900 – 1941)</h4>
+            <h4>Pre-War Mastery (1900 to 1941)</h4>
             <p><strong>Waverly Clipped-End:</strong> Baseplates with angled-off corners, common in the late 1920s.<br /><strong>Grover G-93 &amp; G-98 Sta-Tite:</strong> The definitive &ldquo;pointed-end&rdquo; or arrowhead plates.<br /><strong>Banjo Tuners:</strong> Long planetary gears seen on early 1929-31 OM models.<br /><strong>Grover G-111 Enclosed:</strong> Early covered gears for D-28s with a smooth, rounded protective &ldquo;shroud.&rdquo;</p>
           </div>
 
           <div class="spec-item">
-            <h4>The Modern Era (1966 – Present)</h4>
+            <h4>The Modern Era (1966 to Present)</h4>
             <p><strong>Grover Rotomatics:</strong> Large, chrome sealed-gear tuners with kidney buttons. Marked the end of the lightweight &ldquo;Golden Era&rdquo; feel.<br /><strong>Schaller:</strong> Often used in the 70s/80s, similar to Grovers but with a more squared-off casing.</p>
           </div>
 
           <div class="spec-item">
-            <h4>Wartime Variations (1942 – 1945)</h4>
+            <h4>Wartime Variations (1942 to 1945)</h4>
             <div class="warning-box">
               <strong>Wartime Fun Fact:</strong> Martin saved metal for the war effort by omitting headstock bushings; the string posts pass directly through the wood.
             </div>
@@ -339,7 +339,7 @@ const structuredData = [
           </div>
 
           <div class="spec-item">
-            <h4>Post-War &amp; Transition (1946 – 1960s)</h4>
+            <h4>Post-War &amp; Transition (1946 to 1960s)</h4>
             <p><strong>Waverly &ldquo;Round-end&rdquo;:</strong> Return to smooth, scalloped plate ends.</p>
             <figure class="msn-figure-inline">
               <img src={`${IMG}/martin-tuners-waverly-round-end-scaled.jpeg`} alt="Vintage Martin Waverly Round-End Tuners" loading="lazy" />
@@ -521,7 +521,7 @@ const structuredData = [
      of truth). The lookup behaviour mirrors live exactly:
        - 'guitar'      → inclusive a/b range match (most precise)
        - 'lx', 'mandolin', 'nav-solid', 'nav-hpl' → "last serial of year" walk
-       - 'nav-so'      → a/b range with `approximate` flag for 2000–2006
+       - 'nav-so'      → a/b range with `approximate` flag for 2000 to 2006
      Per-type result notes also match live verbatim. -->
 <script
   is:inline
@@ -589,7 +589,7 @@ const structuredData = [
       year = lookupLastSerial(mandolinData, num);
       if (year) {
         note = (year === '1991' || year === '1993')
-          ? '<br><small>Note: From 1991, Martin mandolin serials merged with the standard guitar sequence. Mandolins were custom order only from 1994–2002. Martin ceased mandolin production in 2002.</small>'
+          ? '<br><small>Note: From 1991, Martin mandolin serials merged with the standard guitar sequence. Mandolins were custom order only from 1994 to 2002. Martin ceased mandolin production in 2002.</small>'
           : '<br><small>Martin mandolins use a separate serial number system from guitars (pre-1991).</small>';
       }
     } else if (currentType === 'nav-solid') {
@@ -603,7 +603,7 @@ const structuredData = [
       if (match) {
         year = match.y;
         note = match.approximate
-          ? '<br><small><strong>Note:</strong> Serial numbers in this range (up to 9972) are attributed to the 2000–2006 production period. Year-by-year records are not available, so an exact year cannot be confirmed.</small>'
+          ? '<br><small><strong>Note:</strong> Serial numbers in this range (up to 9972) are attributed to the 2000 to 2006 production period. Year-by-year records are not available, so an exact year cannot be confirmed.</small>'
           : '<br><small>Made In Mexico SO Ukulele.</small>';
       }
     }

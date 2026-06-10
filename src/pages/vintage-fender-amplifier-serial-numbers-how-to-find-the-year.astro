@@ -188,7 +188,7 @@ const structuredData = [
       <div class="fas-amplifier-numbers">
         <ul class="fas-amplifier-numbers__codes">
           {tubeChartCodes.map((row) => (
-            <li><span>{row.letter} &ndash; {row.year}</span></li>
+            <li><span>{row.letter} – {row.year}</span></li>
           ))}
         </ul>
         <div class="fas-amplifier-numbers__photo">
@@ -346,8 +346,8 @@ const structuredData = [
         var v = (input.value || "").toUpperCase().replace(/[^A-Z]/g, "");
         if (v.length < 2) { show("is-error", "Enter the <strong>two-letter</strong> code from the tube chart (for example, <strong>OC</strong>)."); return; }
         var y = v.charAt(0), m = v.charAt(1), year = YEAR[y], month = MONTH[m];
-        if (!year) { show("is-error", "&ldquo;" + y + "&rdquo; isn&rsquo;t a valid year letter. The first letter runs A&ndash;T (1951&ndash;1970)."); return; }
-        if (!month) { show("is-error", "&ldquo;" + m + "&rdquo; isn&rsquo;t a valid month letter. The second letter runs A&ndash;L (January&ndash;December)."); return; }
+        if (!year) { show("is-error", "&ldquo;" + y + "&rdquo; isn&rsquo;t a valid year letter. The first letter runs A–T (1951 to 1970)."); return; }
+        if (!month) { show("is-error", "&ldquo;" + m + "&rdquo; isn&rsquo;t a valid month letter. The second letter runs A–L (January–December)."); return; }
         show("is-ok", '<span class="fas-tool__code">' + y + m + "</span> &rarr; <strong>" + month + " " + year + "</strong>");
       }
       btn.addEventListener("click", decode);

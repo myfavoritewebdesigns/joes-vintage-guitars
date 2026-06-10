@@ -75,7 +75,7 @@ Detailed view of the split-parallelogram mother-of-pearl inlays on a Gibson  fr
 
 Understanding the evolution of the J-45, J-50, and Southern Jumbo is essential because Gibson was constantly “tweaking the recipe.” Small changes in bracing or neck shape can lead to massive differences in market value and tone. Because Gibson FONs & serial numbers are not 100% consistent, these physical specs are your best tool if you want to accurately date your instrument.
 
-### The Banner Era (1942–1945)
+### The Banner Era (1942 to 1945)
 
 These are the “Holy Grail” models.
 
@@ -90,14 +90,14 @@ These are the “Holy Grail” models.
 
 The unmistakable 1944 “Banner” headstock. This gold decal, stating “Only a Gibson Is Good Enough,” is the primary identifier for the wartime Southern Jumbo (SJ). At Joe’s Vintage Guitars, we specialize in the identification and purchase of these rare “Kalamazoo Gal” built instruments.
 
-### The Post-War Script Era (1946–1947)
+### The Post-War Script Era (1946 to 1947)
 
 -   The Banner is removed, but the “Gibson” logo is still in a cursive **Script font**.
     
 -   These are often considered the best “player” vintage Gibsons because the necks got slightly slimmer while the bracing stayed light.
     
 
-### The Gold Logo Era (1948–1954)
+### The Gold Logo Era (1948 to 1954)
 
 -   The modern **Block Logo** is introduced.
     
@@ -110,7 +110,7 @@ The unmistakable 1944 “Banner” headstock. This gold decal, stating “Only a
 
 The classic gold block logo. Introduced in 1948 to replace the post-war script style, this logo is a vital “checkpoint” when we authenticate and date Golden Era Gibson acoustics.
 
-### The “Stiffening” Period (1955–1961)
+### The “Stiffening” Period (1955 to 1961)
 
 -   **1955:** A massive turning point. Gibson moved to **Non-Scalloped Bracing**. The braces were left thicker to prevent warranty repairs, resulting in a “tighter,” punchier sound.
     
@@ -119,11 +119,11 @@ The classic gold block logo. Introduced in 1948 to replace the post-war script s
 -   **1961:** The introduction of the **Adjustable Bridge**. While modern players often replace these with fixed bone saddles, they are a hallmark of the 60s Gibson sound.
     
 
-### The Square Shoulder Transition (1962–1969)
+### The Square Shoulder Transition (1962 to 1969)
 
 -   **1962:** The J-45 changes from a dark Tobacco Sunburst to a bright **Cherry Sunburst**.
     
--   **1968–1969:** The end of the classic era. Gibson changed the body from “Round Shoulder” to **Square Shoulder** (looking more like a Martin D-18). Scale length often shifted from the short 24.75″ to the long 25.5″ scale.
+-   **1968 to 1969:** The end of the classic era. Gibson changed the body from “Round Shoulder” to **Square Shoulder** (looking more like a Martin D-18). Scale length often shifted from the short 24.75″ to the long 25.5″ scale.
     
 
 ## Part 3: Interesting Facts & Trivia
@@ -141,9 +141,9 @@ The classic gold block logo. Introduced in 1948 to replace the post-war script s
 
 Since there are no labels, you must look for the **Factory Order Number (FON)**. This is an ink stamp located on the wood block inside the neck joint.
 
--   **1942–1945:** Usually 3 or 4 digits, sometimes with a “letter” suffix.
+-   **1942 to 1945:** Usually 3 or 4 digits, sometimes with a “letter” suffix.
     
--   **1952–1961:** Follows a letter-code system (e.g., “Z” is 1948, “X” is 1950, “S” is 1955).
+-   **1952 to 1961:** Follows a letter-code system (e.g., “Z” is 1948, “X” is 1950, “S” is 1955).
     
 -   **1961-1970s:** Gibson switched to a serial number stamped into the back of the headstock.
 

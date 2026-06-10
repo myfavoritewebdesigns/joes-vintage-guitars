@@ -59,7 +59,7 @@ In a traditional Strat, the string vibration has to travel through the saddle, i
 
 The transition from the 1950s into the 1960s saw the Stratocaster evolve significantly, and the hardtail models followed suit. While they remained a staple of the Fender catalog, they were produced in much smaller numbers than their tremolo-equipped counterparts. If you need help dating your stratocaster, please visit our [**Fender serial number guide.**](/post/fender-guitars-serial-number-guide/)
 
-### 1954–1964: The Pre-CBS Era
+### 1954 to 1964: The Pre-CBS Era
 
 During these early years, hardtails were a consistent option, but they were far from the “standard.” Early 1954 to mid-1956 models typically featured ash bodies, while most guitars produced after 1956 shifted to alder. Similarly, neck profiles moved from the chunky “D” and “V” shapes of the mid-50s to the slimmer “C” profiles of the early 60s.
 

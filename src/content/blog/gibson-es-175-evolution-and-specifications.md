@@ -76,11 +76,11 @@ The most significant price driver is the finish. A **Natural (Blonde) finish** i
 
 The electronics under the hood are the secondary price pillar.
 
--   **Golden Era (1957–1960):** Guitars with original PAF humbuckers are the most expensive. They are easy to sell and hold their value even when the market dips.
+-   **Golden Era (1957 to 1960):** Guitars with original PAF humbuckers are the most expensive. They are easy to sell and hold their value even when the market dips.
     
--   **P-90 Era (1949–1956):** These have seen a massive surge in value recently as more players seek out that early “Charlie Christian-adjacent” clarity.
+-   **P-90 Era (1949 to 1956):** These have seen a massive surge in value recently as more players seek out that early “Charlie Christian-adjacent” clarity.
     
--   **Early Patent Number (1962–1965):** Often regarded as having nearly identical sound to PAFs, these represent a high-value middle ground for collectors.
+-   **Early Patent Number (1962 to 1965):** Often regarded as having nearly identical sound to PAFs, these represent a high-value middle ground for collectors.
     
 
 ### Condition vs. “Player Grade”

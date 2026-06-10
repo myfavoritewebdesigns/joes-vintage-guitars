@@ -114,7 +114,7 @@ const models = [
     img: `${IMG}/martin-om-42-1024x682.jpg`,
     alt: "Authentic Martin 000-28 Guitar in Excellent Condition",
     title: "Martin OM Models",
-    body: "Looking for original Orchestra Model (OM) Martins. I know how rare the 1929&ndash;1933 era is and pay a premium for authentic examples.",
+    body: "Looking for original Orchestra Model (OM) Martins. I know how rare the 1929 to 1933 era is and pay a premium for authentic examples.",
   },
   {
     img: `${IMG}/martin-d-45-brazilian-rosewood-1024x682.jpg`,
@@ -144,8 +144,8 @@ const structuredData = [
         text: f.a
           .replace(/&rsquo;/g, "’")
           .replace(/&lsquo;/g, "‘")
-          .replace(/&mdash;/g, "—")
-          .replace(/&ndash;/g, "–")
+          .replace(/—/g, "—")
+          .replace(/–/g, "–")
           .replace(/<[^>]+>/g, ""),
       },
     })),

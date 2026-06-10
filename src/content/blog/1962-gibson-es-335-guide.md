@@ -162,7 +162,7 @@ The presence of a Bigsby B7 vibrato significantly alters the value and “vibe�
 
 ### Structural Integrity and Common Repairs
 
-Because the 1960–1962 neck profiles were famously thin, they are more susceptible to specific types of damage.
+Because the 1960 to 1962 neck profiles were famously thin, they are more susceptible to specific types of damage.
 
 -   **Headstock Breaks:** A classic Gibson “smile” (headstock crack) usually reduces the value of the guitar by **50%**, even if the repair is professionally done and stable.
     

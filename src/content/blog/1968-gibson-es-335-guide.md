@@ -22,7 +22,7 @@ wpId: 20834
 
 1968 is the last year of the one-piece mahogany neck and the long tenon joint on an ES-335. That alone makes it worth a serious look. Pricing still sits well below the pre-'65 examples that get all the attention, which is why a clean 1968 is one of the better buys in the vintage semi-hollow market right now. We handle these regularly at [Joe's Vintage Guitars](/) and know what separates a clean example from one that's been quietly parted out.
 
-The details that define a 1968, from headstock inlay transitions to potentiometer date codes, are the same details serious buyers use to authenticate a purchase. The breakdown below covers them all. If you're trying to date your own instrument, our guide to [reading Gibson serial numbers](/how-to-read-gibson-serial-numbers/) is the companion piece to this one. Gibson's [production records for 1948–1979](/post/gibson-shipping-totals-1948-1979/) show 1968 as one of the higher-volume years for the ES-335. Examples surface regularly. Originality varies widely.
+The details that define a 1968, from headstock inlay transitions to potentiometer date codes, are the same details serious buyers use to authenticate a purchase. The breakdown below covers them all. If you're trying to date your own instrument, our guide to [reading Gibson serial numbers](/how-to-read-gibson-serial-numbers/) is the companion piece to this one. Gibson's [production records for 1948 to 1979](/post/gibson-shipping-totals-1948-1979/) show 1968 as one of the higher-volume years for the ES-335. Examples surface regularly. Originality varies widely.
 
 <h2 id="color-palette">The 1968 Color Palette</h2>
 
@@ -33,7 +33,7 @@ Sunburst and Cherry dominated the shipping ledgers in 1968, but Gibson got adven
 | Cherry | Common | The classic 1960s Gibson look. The nitrocellulose topcoat holds the red pigment well, so most surviving examples are still bright. |
 | Sunburst | Common | Typically a Tobacco or Iced Tea burst. The 1968 version tends to have a tighter perimeter of dark paint than earlier years. |
 | Sparkling Burgundy | Uncommon | A metallic finish. The lacquer yellows over decades and shifts the red-metallic toward a Bullion Gold or copper tone. |
-| Walnut | Rare (Late '68) | Became standard in 1969–70 to compete with the Gretsch look. A few late-1968 examples are out there. |
+| Walnut | Rare (Late '68) | Became standard in 1969 to 1970 to compete with the Gretsch look. A few late-1968 examples are out there. |
 | Pelham Blue | Ultra-Rare | Almost always a special order. The lacquer yellows over time and shifts the blue toward teal, so a true period example often reads closer to seafoam than the factory color. |
 | Polaris White | Ultra-Rare | Usually seen on SGs or Firebirds. A handful of 1968 ES-335s left the factory in Polaris White. Finding one is a serious score. |
 | Black (Ebony) | Ultra-Rare | Often a jazz player order, or a specific stage look. Usually paired with a white pickguard for contrast. |
@@ -108,11 +108,11 @@ Start with the full lineage. The earliest examples, covered in our [1959 ES-335 
 
 ### The "Narrow Neck" Factor
 
-The 1968 nut width of 1⅝″ is narrower than the 1 11/16″ on 1958–1964 examples. That does suppress value relative to the earlier instruments. The 1968 neck profile is often **round and deep**, though, which a lot of modern players prefer over the flatter "blade" necks Gibson started shipping in 1966. The narrower width matters less than the depth once you're actually playing the thing.
+The 1968 nut width of 1⅝″ is narrower than the 1 11/16″ on 1958 to 1964 examples. That does suppress value relative to the earlier instruments. The 1968 neck profile is often **round and deep**, though, which a lot of modern players prefer over the flatter "blade" necks Gibson started shipping in 1966. The narrower width matters less than the depth once you're actually playing the thing.
 
 ### The Last-of-Its-Kind Premium
 
-1968 was the **final production year for the one-piece mahogany neck and the long tenon joint**. That makes it the last of the classic ES-335 construction era. Collector awareness of this has grown, and 1968 models have been appreciating faster than the 1969–1975 examples that followed. The [Gibson shipping data from 1948–1979](/post/gibson-shipping-totals-1948-1979/) also shows 1968 as a transitional year in output volume, which helps explain why the construction changes happened so quickly after.
+1968 was the **final production year for the one-piece mahogany neck and the long tenon joint**. That makes it the last of the classic ES-335 construction era. Collector awareness of this has grown, and 1968 models have been appreciating faster than the 1969 to 1975 examples that followed. The [Gibson shipping data from 1948 to 1979](/post/gibson-shipping-totals-1948-1979/) also shows 1968 as a transitional year in output volume, which helps explain why the construction changes happened so quickly after.
 
 ### The Entry Point Argument
 
@@ -121,7 +121,7 @@ The 1968 ES-335 is still one of the strongest buys in the vintage semi-hollow ma
 -   [1959 Gibson ES-335 Authentication Guide](/post/1959-gibson-es-335-authentication-guide/)
 -   [1962 Gibson ES-335 Guide](/post/1962-gibson-es-335-guide/)
 -   [How to Read Gibson Serial Numbers](/how-to-read-gibson-serial-numbers/)
--   [Gibson Shipping Totals: 1948–1979](/post/gibson-shipping-totals-1948-1979/)
+-   [Gibson Shipping Totals: 1948 to 1979](/post/gibson-shipping-totals-1948-1979/)
 -   [Sell My Gibson Guitar, How It Works](/sell-my-gibson-guitar/)
 
 <h2 id="faq">Frequently Asked Questions</h2>
@@ -132,11 +132,11 @@ Read the potentiometer codes stamped on the back of each pot. The format is 137-
 
 What is the difference between a 1968 and a 1969 Gibson ES-335?
 
-1968 was the final year of the one-piece mahogany neck and the long tenon joint on the ES-335. Starting in 1969 Gibson moved to a multi-piece neck and shorter tenon, which most collectors see as a real construction downgrade. The result: 1968 examples generally bring a premium over 1969–1975 models and appreciate faster. Walnut also started appearing in late 1968 and became the standard finish in 1969.
+1968 was the final year of the one-piece mahogany neck and the long tenon joint on the ES-335. Starting in 1969 Gibson moved to a multi-piece neck and shorter tenon, which most collectors see as a real construction downgrade. The result: 1968 examples generally bring a premium over 1969 to 1975 models and appreciate faster. Walnut also started appearing in late 1968 and became the standard finish in 1969.
 
 How much is a 1968 Gibson ES-335 worth?
 
-Value depends on condition, originality, and finish. A clean, fully original Cherry or Sunburst example in excellent condition typically trades in the $6,000–$14,000 range. Rare finishes like Pelham Blue, Polaris White, or Ebony bring significant premiums. For a precise number on a specific instrument, [request a free appraisal](/free-appraisal/). Generic online estimates almost never account for the hardware and finish details that actually move the price.
+Value depends on condition, originality, and finish. A clean, fully original Cherry or Sunburst example in excellent condition typically trades in the $6,000 to $14,000 range. Rare finishes like Pelham Blue, Polaris White, or Ebony bring significant premiums. For a precise number on a specific instrument, [request a free appraisal](/free-appraisal/). Generic online estimates almost never account for the hardware and finish details that actually move the price.
 
 How do I decode the serial number on my 1968 Gibson ES-335?
 
@@ -148,6 +148,6 @@ Start with an accurate appraisal from someone who actively buys and sells vintag
 
 How does the 1968 ES-335 compare to the 1959 or 1962 models?
 
-The 1958–1964 ES-335s, covered in detail in our [1959 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and our [1962 guide](/post/1962-gibson-es-335-guide/), have the wider 1 11/16″ nut, PAF or early Patent Number pickups, and the long tenon. The 1968 keeps the long tenon and one-piece neck but has a narrower 1⅝″ nut and T-top pickups instead of PAFs. On playability, the 1968 neck is often rounder and deeper than the flatter mid-60s profiles, which is part of why players gravitate to it. On price, a 1968 typically sells for a fraction of a comparable 1959 or 1962.
+The 1958 to 1964 ES-335s, covered in detail in our [1959 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and our [1962 guide](/post/1962-gibson-es-335-guide/), have the wider 1 11/16″ nut, PAF or early Patent Number pickups, and the long tenon. The 1968 keeps the long tenon and one-piece neck but has a narrower 1⅝″ nut and T-top pickups instead of PAFs. On playability, the 1968 neck is often rounder and deeper than the flatter mid-60s profiles, which is part of why players gravitate to it. On price, a 1968 typically sells for a fraction of a comparable 1959 or 1962.
 
 We deal in authenticated, properly documented vintage Gibsons. If you're looking to add to a collection or want a fair appraisal on something you already own, give us a call.

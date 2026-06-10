@@ -2,18 +2,18 @@
 // reference/guild-sn-content.md. Cell values are exact (including "N/A",
 // "?", asterisks, slashes, "to", dashes, and multi-value cells).
 
-// Part 1, table 1 — "The Numerical Sequence (1953–1959)"
+// Part 1, table 1 — "The Numerical Sequence (1953 to 1959)"
 export const numericalSequence: { year: string; range: string }[] = [
-  { year: "1953", range: "1000–1500" },
-  { year: "1954", range: "1500–2200" },
-  { year: "1955", range: "2200–3000" },
-  { year: "1956", range: "3000–4000" },
-  { year: "1957", range: "4000–5700" },
-  { year: "1958", range: "5700–8300" },
+  { year: "1953", range: "1000 to 1500" },
+  { year: "1954", range: "1500 to 2200" },
+  { year: "1955", range: "2200 to 3000" },
+  { year: "1956", range: "3000 to 4000" },
+  { year: "1957", range: "4000 to 5700" },
+  { year: "1958", range: "5700 to 8300" },
   { year: "1959", range: "Up to 12035" },
 ];
 
-// Part 1, table 2 — "General Ranges (1960–1969)"
+// Part 1, table 2 — "General Ranges (1960 to 1969)"
 export const generalRanges: { year: string; range: string }[] = [
   { year: "1960", range: "12036 to 14713" },
   { year: "1961", range: "14714 to 18419" },
@@ -27,7 +27,7 @@ export const generalRanges: { year: string; range: string }[] = [
   { year: "1969", range: "46657 to 46695" },
 ];
 
-// Part 1, table 3 — "Model-Specific Ranges (1965–1969)"
+// Part 1, table 3 — "Model-Specific Ranges (1965 to 1969)"
 export const modelSpecific1965: { headers: string[]; rows: string[][] } = {
   headers: ["MODEL", "1965", "1966", "1967", "1968", "1969"],
   rows: [
@@ -88,7 +88,7 @@ export const modelSpecific1965: { headers: string[]; rows: string[][] } = {
   ],
 };
 
-// Part 2 — "The Westerly Era (1970–1979)"
+// Part 2 — "The Westerly Era (1970 to 1979)"
 export const westerly1970: { year: string; first: string; last: string }[] = [
   { year: "1970", first: "46696", last: "50978" },
   { year: "1971", first: "50979", last: "61463" },
@@ -102,7 +102,7 @@ export const westerly1970: { year: string; first: string; last: string }[] = [
   { year: "1979", first: "195068", last: "211877 (to Sept. 30, 1979)" },
 ];
 
-// Part 3 — "Return to Model Prefixes (1979–1983)"
+// Part 3 — "Return to Model Prefixes (1979 to 1983)"
 export const prefixes1979: { headers: string[]; rows: string[][] } = {
   headers: ["MODEL", "1979", "1980", "1981", "1982", "1983"],
   rows: [
@@ -187,7 +187,7 @@ export const prefixes1979: { headers: string[]; rows: string[][] } = {
   ],
 };
 
-// Part 4 — "Westerly Era Continued (1984–1989)"
+// Part 4 — "Westerly Era Continued (1984 to 1989)"
 export const westerly1984: { headers: string[]; rows: string[][] } = {
   headers: ["MODEL", "1984", "1985", "1986", "1987", "1988", "1989"],
   rows: [
@@ -333,7 +333,7 @@ export const westerly1984: { headers: string[]; rows: string[][] } = {
   ],
 };
 
-// Part 5 — "The 90s Transition Era (1990–1994)"
+// Part 5 — "The 90s Transition Era (1990 to 1994)"
 export const transition1990: { headers: string[]; rows: string[][] } = {
   headers: ["MODEL", "1990", "1991", "1992", "1993", "1994"],
   rows: [
@@ -394,7 +394,7 @@ export const transition1990: { headers: string[]; rows: string[][] } = {
   ],
 };
 
-// Part 6 — "Expansion and Model Prefixes (1994–1996)"
+// Part 6 — "Expansion and Model Prefixes (1994 to 1996)"
 export const expansion1994: { headers: string[]; rows: string[][] } = {
   headers: ["MODEL", "1994", "1995", "1996"],
   rows: [

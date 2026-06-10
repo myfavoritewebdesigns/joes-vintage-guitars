@@ -38,13 +38,13 @@ The complete year-specific reference for dating and authenticating a genuine 196
 
 ## Why 1966 Is a Transitional Year
 
-The 1966 Gibson ES-335 sits in an often misunderstood spot in the model's history. It isn't the celebrated "dot neck" of 1958–1961, and it isn't the CBS-era instrument of the early 1970s. It's a mid-CBS-acquisition guitar that keeps most of what made the ES-335 great while showing the first signs of the cost and quality changes that picked up through the late 1960s. To date one correctly you have to know both what it still was and what it was starting to become. For context on how production year affects value across Gibson's electric guitar range, see our guide on [how year of manufacture affects vintage Gibson value](/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/).
+The 1966 Gibson ES-335 sits in an often misunderstood spot in the model's history. It isn't the celebrated "dot neck" of 1958 to 1961, and it isn't the CBS-era instrument of the early 1970s. It's a mid-CBS-acquisition guitar that keeps most of what made the ES-335 great while showing the first signs of the cost and quality changes that picked up through the late 1960s. To date one correctly you have to know both what it still was and what it was starting to become. For context on how production year affects value across Gibson's electric guitar range, see our guide on [how year of manufacture affects vintage Gibson value](/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/).
 
 CBS acquired Fender in 1965; Gibson's ownership change, to Norlin through Chicago Musical Instruments (CMI), came later, in 1969. So a 1966 ES-335 is still a **pre-Norlin Kalamazoo guitar**, built by the same craftsmen and to fundamentally the same standards as the early 1960s examples, just with hardware and materials that were already evolving. The pickups are no longer PAFs but are excellent Patent Number humbuckers; the bridge saddles are in transition; the tuners may still be Klusons. It's a genuine vintage guitar with real collector value, and one that takes attention to specific year-defining details to authenticate correctly.
 
 **1\. Are the bridge saddles nylon or chrome-plated?** 1966 is precisely the transition year. Both are correct; knowing which your example has and confirming it matches the bridge casting is important.
 
-**2\. Are the pickups pre-T-top Patent Number humbuckers?** The T-top design came in approximately 1967–68. A genuine 1966 should have earlier Patent Number pickups, authenticating these is covered in detail in Section 08.
+**2\. Are the pickups pre-T-top Patent Number humbuckers?** The T-top design came in approximately 1967 to 1968. A genuine 1966 should have earlier Patent Number pickups, authenticating these is covered in detail in Section 08.
 
 **3\. Does the serial number confirm 1966?** Gibson's 1960s serial system has quirks and overlaps. Knowing what a genuine 1966 number looks like, and why it can appear faint, helps a lot.
 
@@ -66,7 +66,7 @@ Angling a flashlight across the headstock back at a low angle (raking light) oft
 
 ### 1966 Serial Ranges
 
-Gibson used a 6-digit serial number system during this period with no letter prefix. The approximate range for 1966 production is **300000 to 420000**, though this range overlaps significantly with late 1965 and early 1967 production due to Gibson's batch-production numbering practices. A number in the 300000–420000 range tells you "mid-1960s" with confidence; pinning it to specifically 1966 requires the orange label and physical feature confirmation. For a complete breakdown of Gibson's serial number systems across all eras, see our [Gibson serial number dating guide](/how-to-read-gibson-serial-numbers/).
+Gibson used a 6-digit serial number system during this period with no letter prefix. The approximate range for 1966 production is **300000 to 420000**, though this range overlaps significantly with late 1965 and early 1967 production due to Gibson's batch-production numbering practices. A number in the 300000 to 420000 range tells you "mid-1960s" with confidence; pinning it to specifically 1966 requires the orange label and physical feature confirmation. For a complete breakdown of Gibson's serial number systems across all eras, see our [Gibson serial number dating guide](/how-to-read-gibson-serial-numbers/).
 
 Gibson serial numbers in the 1960s were not strictly sequential by production date. Numbers were assigned in batches and instruments of the same model built weeks or months apart can have numbers that appear out of sequence. Never date a mid-1960s Gibson by serial number alone. Always cross-reference with the orange label date, the FON (factory order number) if present inside the body, and the physical specification details covered in this guide.
 
@@ -101,7 +101,7 @@ The 1966 ES-335 uses a **bell-shaped truss rod cover**, a black plastic cover wi
 
 ### Neck Construction & Profile
 
-The 1966 ES-335 neck is **mahogany, set into the body** with Gibson's long-tenon joint. By 1966, Gibson's neck profiles were beginning to transition from the slimmer profiles of 1963–1965 toward the fuller profiles of the late 1960s and early 1970s. A 1966 neck is generally a comfortable medium C-to-D profile, slimmer than a 1968–1969 example but slightly fuller than a 1964. This is not a precisely defined specification since profiles varied somewhat from instrument to instrument even within the same year.
+The 1966 ES-335 neck is **mahogany, set into the body** with Gibson's long-tenon joint. By 1966, Gibson's neck profiles were beginning to transition from the slimmer profiles of 1963 to 1965 toward the fuller profiles of the late 1960s and early 1970s. A 1966 neck is generally a comfortable medium C-to-D profile, slimmer than a 1968 to 1969 example but slightly fuller than a 1964. This is not a precisely defined specification since profiles varied somewhat from instrument to instrument even within the same year.
 
 ### The Nut
 
@@ -127,7 +127,7 @@ If a claimed 1966 ES-335 has intact, well-defined fret nibs at every fret positi
 
 ### Block Inlays
 
-The 1966 ES-335 has **small rectangular block inlays** in the fingerboard, not dots. Gibson switched the ES-335 from dot inlays to block inlays in 1962; the dot-neck ES-335s of 1958–1961 are a separate and generally more valuable category. All 1962 and later ES-335s through this era use the block inlay format. The blocks are mother-of-pearl (MOP), set flush with the fingerboard surface.
+The 1966 ES-335 has **small rectangular block inlays** in the fingerboard, not dots. Gibson switched the ES-335 from dot inlays to block inlays in 1962; the dot-neck ES-335s of 1958 to 1961 are a separate and generally more valuable category. All 1962 and later ES-335s through this era use the block inlay format. The blocks are mother-of-pearl (MOP), set flush with the fingerboard surface.
 
 Genuine pearl inlays show a layered, iridescent quality that catches light differently at different angles. Plastic or epoxy replacement inlays are typically more uniform in appearance and don't show the same depth. At the headstock end of the neck (first position), look at the blocks under raking light, original pearl should show natural layering and variation across the block's surface.
 
@@ -151,11 +151,11 @@ The internal construction, specifically the routing and the way the center block
 
 ### Horn Shape, A Subtle but Real Difference
 
-The cutaway horn shape on the ES-335 evolved gradually over the instrument's production history, and the 1966 horns are detectably different from the horns of the earliest examples. The **1958–1961 "dot neck" ES-335s have rounder, more gently curved horns**. By the mid-1960s the horns had become slightly more **pointed and angular** at the tips, a subtle change that is most visible when comparing an early example directly to a mid-to-late 1960s example side by side.
+The cutaway horn shape on the ES-335 evolved gradually over the instrument's production history, and the 1966 horns are detectably different from the horns of the earliest examples. The **1958 to 1961 "dot neck" ES-335s have rounder, more gently curved horns**. By the mid-1960s the horns had become slightly more **pointed and angular** at the tips, a subtle change that is most visible when comparing an early example directly to a mid-to-late 1960s example side by side.
 
 This is not a dramatic visual difference and should not be the only basis for dating or authentication, but it is a consistent period indicator. A claimed 1966 with noticeably round, blunt horn tips may warrant a closer look at whether the body is actually from an earlier period.
 
-<figure><img alt="1966 Gibson ES-335 cutaway horn shape, slightly pointed horn tips characteristic of mid-1960s production, more angular than 1958-1961 dot-neck examples" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-horn-shape-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Cutaway horn on a 1966 Gibson ES-335.</strong> The horn tips on a 1966 ES-335 are visibly more pointed than the rounder, blunter horns of the 1958–1961 dot-neck era. This gradual evolution in body geometry is a supporting dating indicator, not dramatic enough to date a guitar on its own, but consistent and detectable when you know what to look for.</figcaption></figure>
+<figure><img alt="1966 Gibson ES-335 cutaway horn shape, slightly pointed horn tips characteristic of mid-1960s production, more angular than 1958-1961 dot-neck examples" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-horn-shape-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Cutaway horn on a 1966 Gibson ES-335.</strong> The horn tips on a 1966 ES-335 are visibly more pointed than the rounder, blunter horns of the 1958 to 1961 dot-neck era. This gradual evolution in body geometry is a supporting dating indicator, not dramatic enough to date a guitar on its own, but consistent and detectable when you know what to look for.</figcaption></figure>
 
 ### Binding
 
@@ -193,14 +193,14 @@ The pickups on a 1966 ES-335 are among the most important and scrutinized authen
 
 Gibson's humbucker pickup went through three distinct phases in the first decade of production:
 
--   PAF Era**~1957–1962.** "Patent Applied For" sticker on the base plate. The gold label. Hand-wound with varying specifications. Generally considered the most tonally complex and desirable. NOT present on 1966 instruments.
--   Patent Sticker Era**~1962–1965.** The PAF sticker replaced with a black sticker reading the patent number. Still largely hand-wound with similar specs to late PAFs. Transitional era. NOT present on 1966.
+-   PAF Era**~1957 to 1962.** "Patent Applied For" sticker on the base plate. The gold label. Hand-wound with varying specifications. Generally considered the most tonally complex and desirable. NOT present on 1966 instruments.
+-   Patent Sticker Era**~1962 to 1965.** The PAF sticker replaced with a black sticker reading the patent number. Still largely hand-wound with similar specs to late PAFs. Transitional era. NOT present on 1966.
 -   Patent Number Era**~1962–late 1960s.** A **black sticker reading "Patent No 2,737,842"** on the base plate. This is what a genuine 1966 ES-335 has. Pre-T-top winding and construction. Genuinely excellent pickups that are often underrated.
--   T-Top Era**~1967–1975.** Named for the T-shaped coil former visible from the adjustable-pole side. More consistent winding, different sonic character. NOT present on 1966.
+-   T-Top Era**~1967 to 1975.** Named for the T-shaped coil former visible from the adjustable-pole side. More consistent winding, different sonic character. NOT present on 1966.
 
 ### Authenticating 1966 Patent Number Pickups
 
-Pickup swaps are extremely common on vintage Gibsons, PAFs especially are highly desirable and frequently transplanted. For production volume context, our [Gibson shipping totals 1948–1979](/post/gibson-shipping-totals-1948-1979/) shows how many ES-335s were built each year. Confirming that the pickups in a claimed 1966 ES-335 are original and period-correct requires checking multiple details:
+Pickup swaps are extremely common on vintage Gibsons, PAFs especially are highly desirable and frequently transplanted. For production volume context, our [Gibson shipping totals 1948 to 1979](/post/gibson-shipping-totals-1948-1979/) shows how many ES-335s were built each year. Confirming that the pickups in a claimed 1966 ES-335 are original and period-correct requires checking multiple details:
 
 -   Base plate stickerA **black sticker reading "Patent No 2,737,842"** on the base plate, this is the correct form for 1966. On a 1966, you should see the sticker.
 -   Magnet type**Alnico magnet**, not ceramic. Genuine pre-T-top Patent Number pickups use Alnico II or Alnico V magnets. Ceramic magnets (which are stronger and harder to the touch) indicate a later or replacement pickup. A small rare-earth magnet held near the pickup will be attracted to Alnico; ceramic pickups interact differently.
@@ -230,11 +230,11 @@ The 1966 ES-335 uses the **ABR-1 Tune-o-matic bridge**, the original Gibson adju
 
 ### Bridge Saddles, The 1966 Transition
 
-The 1966 ES-335 uses **nylon/plastic saddles** on the ABR-1 bridge. Gibson used nylon saddles on the ABR-1 from its introduction through approximately 1969–1970, when they switched to chrome-plated saddles. A 1966 should always have nylon saddles, chrome saddles on a claimed 1966 indicate either a bridge replacement or a later instrument.
+The 1966 ES-335 uses **nylon/plastic saddles** on the ABR-1 bridge. Gibson used nylon saddles on the ABR-1 from its introduction through approximately 1969 to 1970, when they switched to chrome-plated saddles. A 1966 should always have nylon saddles, chrome saddles on a claimed 1966 indicate either a bridge replacement or a later instrument.
 
 Nylon saddles can show string contact grooves and occasional cracking or chipping over time, this is period-authentic aging. Check that all six saddles are the same type; a mix of nylon and metal saddles indicates a partial replacement.
 
-<figure><img alt="1966 Gibson ES-335 ABR-1 Tune-o-matic bridge with original nylon saddles and retainer wire, correct period bridge hardware showing authentic chrome aging" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-bridge-nylon-saddles-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>ABR-1 Tune-o-matic bridge with nylon saddles on a 1966 Gibson ES-335.</strong> Nylon/plastic saddles are correct for all 1966 production, Gibson did not switch to chrome-plated saddles until approximately 1969–70. The thin metal retainer wire threading through the saddle adjustment screws is also present and correct. "ABR-1" is stamped on the reverse side of this bridge.</figcaption></figure>
+<figure><img alt="1966 Gibson ES-335 ABR-1 Tune-o-matic bridge with original nylon saddles and retainer wire, correct period bridge hardware showing authentic chrome aging" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-bridge-nylon-saddles-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>ABR-1 Tune-o-matic bridge with nylon saddles on a 1966 Gibson ES-335.</strong> Nylon/plastic saddles are correct for all 1966 production, Gibson did not switch to chrome-plated saddles until approximately 1969 to 1970. The thin metal retainer wire threading through the saddle adjustment screws is also present and correct. "ABR-1" is stamped on the reverse side of this bridge.</figcaption></figure>
 
 ### Stop Bar Tailpiece
 
@@ -422,7 +422,7 @@ Use this checklist as a starting framework. No single item is definitive, authen
 
 Serial Number & Label
 
--   **6-digit serial in ~300000–420000 range, ink-stamped on back of headstock**
+-   **6-digit serial in ~300000 to 420000 range, ink-stamped on back of headstock**
 -   Serial may be faint, use raking light to read; faintness alone is not suspicious
 -   Orange oval label inside body (bass f-hole), reads "STYLE ES-335 T" and "Kalamazoo, Michigan"
 -   Serial number on label matches headstock stamp
@@ -447,7 +447,7 @@ Neck & Fingerboard
 Body
 
 -   Double-cutaway semi-hollow, 1¾" body depth
--   Horn tips are slightly pointed (more so than 1958–1961 examples)
+-   Horn tips are slightly pointed (more so than 1958 to 1961 examples)
 -   Single-ply body binding shows age-consistent checking and patina
 -   F-holes are bound; binding shows consistent aging
 -   Finish checking consistent with 60-year-old nitrocellulose (if applicable)
@@ -473,7 +473,7 @@ Bridge & Tailpiece
 
 -   "ABR-1" marked on back of bridge
 -   **Retainer wire present holding saddles on bridge**
--   Saddles are nylon/plastic, chrome saddles indicate 1969–70 or later bridge
+-   Saddles are nylon/plastic, chrome saddles indicate 1969 to 1970 or later bridge
 -   Trapeze tailpiece, correct for 1966 ES-335
 -   Bridge post thumbwheels allow height adjustment
 

@@ -20,9 +20,9 @@ Few instruments are as tied to the ‘Golden Era’ of rock ‘n’ roll as the 
 
 ## Year-by-Year Evolution & Specifications
 
-The “Golden Era” of the 6120 (1954–1961) is defined by rapid changes in aesthetics and internal construction. Identifying these shifts is the first step in determining a guitar’s market value.
+The “Golden Era” of the 6120 (1954 to 1961) is defined by rapid changes in aesthetics and internal construction. Identifying these shifts is the first step in determining a guitar’s market value.
 
-### 1954–1956: The “Full Western” Era
+### 1954 to 1956: The “Full Western” Era
 
 These are the most visually distinct 6120s. They were designed to appeal to the “Cowboy” market.
 
@@ -47,10 +47,10 @@ Gretsch began stripping away the “Cowboy” aesthetic. The “G” brand disap
     
 -   **Pickups:** Still Dynasonics, but often with newer “Bar” bridges.
     
--   **Market Value:** **$10,000 – $16,000.**
+-   **Market Value:** **$10,000 to $16,000.**
     
 
-### 1958–1959: The “Trestle Bracing” Peak
+### 1958 to 1959: The “Trestle Bracing” Peak
 
 Many players, including Brian Setzer, consider these the greatest 6120s ever built.
 
@@ -60,10 +60,10 @@ Many players, including Brian Setzer, consider these the greatest 6120s ever bui
     
 -   **Inlays:** “Neo-Classical” or “Thumbprint” inlays on the side of the fretboard.
     
--   **Market Value:** **$9,000 – $16,000.** (1959 is the “Holy Grail” year for players).
+-   **Market Value:** **$9,000 to $16,000.** (1959 is the “Holy Grail” year for players).
     
 
-### 1960–1961: The Thinner Body
+### 1960 to 1961: The Thinner Body
 
 Gretsch began slimming down the 6120 to compete with Gibson’s ES-335.
 
@@ -71,7 +71,7 @@ Gretsch began slimming down the 6120 to compete with Gibson’s ES-335.
     
 -   **Zero Fret:** A permanent fret added next to the nut to improve intonation.
     
--   **Market Value:** **$6,000 – $10,500.**
+-   **Market Value:** **$6,000 to $10,500.**
     
     ![Full front view of a 1961 Gretsch 6120 Chet Atkins single-cutaway hollow body – We offer competitive nationwide payouts for all-original vintage Gretsch guitars.](/images/blog/gretsch-6120-history-value/1961-gretsch-6120-single-cutaway-full-view-683x1024.jpg)
     
@@ -86,7 +86,7 @@ A radical redesign that split the collector market.
     
 -   **F-Holes:** Many 1962 models have **painted-on** (simulated) F-holes to further reduce feedback.
     
--   **Market Value:** **$4,000 – $7,500.**
+-   **Market Value:** **$4,000 to $7,500.**
     
 
 ## The “Red Flags”: Originality and Condition Checks
@@ -127,13 +127,13 @@ Before 1966, Gretsch used sequential serial numbers. You can usually find the nu
 2.  Stamped into the **top edge of the headstock** (on early 50s or 60s models).
     
 
--   **13000 – 16000:** 1955
+-   **13000 to 16000:** 1955
     
--   **22000 – 25000:** 1957
+-   **22000 to 25000:** 1957
     
--   **30000 – 34000:** 1959
+-   **30000 to 34000:** 1959
     
--   **43000 – 48000:** 1961
+-   **43000 to 48000:** 1961
     
     For more information on dating a Gretsch guitar, check out our [Gretsch Serial Number Page.](/post/how-to-identify-the-manufacture-date-of-a-gretsch-guitar/) You can also check out the Serial Number Guide on the [Gretsch website.](https://www.gretschguitars.com/support/product-dating) 
     

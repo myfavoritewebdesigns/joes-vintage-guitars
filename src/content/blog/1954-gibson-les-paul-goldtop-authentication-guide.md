@@ -73,7 +73,7 @@ The "Gibson" headstock logo on a 1954 is a **mother-of-pearl inlay** in the clas
 
 -   Letter forms**Open "b" and "o"**, the counters (enclosed spaces) are open, not filled. This open-letter style is correct through 1967. Closed letters appear post-1967.
 -   Dot over "i"Present on 1954 examples. The dot is a small, separate piece of MOP inlaid above the stem of the "i".
--   Logo positionOn 1954 examples, the "Gibson" logo sits relatively **high on the headstock**, approximately ¾" from the top tip. Some late 1954 models begin showing the logo positioned slightly lower, a change that became standard by 1955–56. The exact position can help narrow down early vs. late 1954 production.
+-   Logo positionOn 1954 examples, the "Gibson" logo sits relatively **high on the headstock**, approximately ¾" from the top tip. Some late 1954 models begin showing the logo positioned slightly lower, a change that became standard by 1955 to 1956. The exact position can help narrow down early vs. late 1954 production.
 -   MaterialGenuine **mother-of-pearl**, creamy white with a subtle orient (directional shimmer). Not abalone (more colorful iridescence) and not plastic (no shimmer, uniform color).
 
 ### "Les Paul Model" Silkscreen
@@ -92,7 +92,7 @@ This distinguishes 1954 tuners from the later "single line" Kluson Deluxe tuners
 
 The back of the gear housing should carry a **"Patent Applied"** stamp, not "Patent No." which comes later.
 
-Flip the headstock over and look at the back of any tuner gear cover. If you see "Kluson Deluxe" stamped vertically, those are single-line tuners, correct for 1955–1960 but *not* for 1954. Original 1954 covers are plain. This is one of the most commonly overlooked authentication points on early goldtops.
+Flip the headstock over and look at the back of any tuner gear cover. If you see "Kluson Deluxe" stamped vertically, those are single-line tuners, correct for 1955 to 1960 but *not* for 1954. Original 1954 covers are plain. This is one of the most commonly overlooked authentication points on early goldtops.
 
 <figure><img alt="1954 Gibson Les Paul Goldtop back of headstock showing no-line Kluson single-ring tuners with plain gear covers and cream tulip buttons" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-back-of-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Back of the 1954 Les Paul Goldtop headstock showing original "no line" Kluson tuners.</strong> The plain, unmarked gear housing covers, with no "Kluson Deluxe" text, are the defining tuner identification for 1954. Single-line Kluson Deluxe tuners (with vertical text on the cover) arrived around 1955. Also visible here is the ink-stamped serial number beginning with "4" and the "Patent Applied" stamp on the gear housings.</figcaption></figure>
 
@@ -172,7 +172,7 @@ The 1954 Les Paul uses two **P-90 "soapbar" single-coil pickups** with cream pla
 
 -   Cover color**Cream**, not black (black covers appear on some other models), not white (a brighter, more modern-looking plastic). Authentic 1954 cream covers have aged to a warm off-white with a slight yellow cast.
 -   Lead wiresOriginal 1954 P-90 coils have **two black lead wires** coming from the base of the coil. This is a key authentication detail: **P-90s from the 1960s onward use one black and one white lead wire**. Two black leads = pre-1960 production. If you can access the inside of the pickup cavity and see the wires coming off the coil, that is a reliable early-production indicator.
--   Shielding wireSome 1954 examples use **three-strand shielded lead wire** running from the pickup to the control cavity, a less common configuration seen on some 1952–1955 production. More typical is standard single-conductor shielded wire.
+-   Shielding wireSome 1954 examples use **three-strand shielded lead wire** running from the pickup to the control cavity, a less common configuration seen on some 1952 to 1955 production. More typical is standard single-conductor shielded wire.
 -   Black tape wrapOriginal 1954 P-90 coils are wrapped in **black electrical tape** applied at the factory. Undisturbed coils still carry this original tape. Disturbed or rewound coils will not.
 -   DC resistanceOriginal 1954 P-90s typically measure between **7.2k and 8.0k ohms**. Both bridge and neck pickups should be in this range. Significant deviation (especially over 9k) suggests a rewind.
 -   Pole piecesSix individually adjustable slot-head pole screws are visible through the top of the cover. These are steel screws against an Alnico bar magnet underneath. The pole screws should show light oxidation consistent with age.
@@ -195,7 +195,7 @@ This is one of the most visually distinctive and reliable authenticity markers i
 
 The Grey Tiger was replaced by the **Sprague "Bumblebee" capacitor** (black with colored stripes) in late 1955 to early 1956. If you open a claimed 1954 and find Bumblebee caps, that guitar either has been re-capped or is misdated into the 1956 range. The Grey Tiger is uniquely and specifically a pre-1956 component.
 
-Grey Tiger capacitors inside = strong evidence for pre-1956 production (could be 1952–1955). Bumblebee capacitors inside = 1956 or later. This one detail resolves more "is it really a '54 or a '56?" debates than almost anything else. Never buy a high-value early goldtop without verifying the capacitors in person.
+Grey Tiger capacitors inside = strong evidence for pre-1956 production (could be 1952 to 1955). Bumblebee capacitors inside = 1956 or later. This one detail resolves more "is it really a '54 or a '56?" debates than almost anything else. Never buy a high-value early goldtop without verifying the capacitors in person.
 
 <figure><img alt="1954 Gibson Les Paul Goldtop control cavity showing original Grey Tiger capacitors, Stackpole potentiometers, and cloth-covered wiring" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-electronics-cavity-wiring-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1954 Les Paul Goldtop control cavity with original electronics.</strong> The Sprague Grey Tiger capacitors, the brown/tan tubular components, are the single most decisive internal dating marker for pre-1956 production. Also visible are the original potentiometers (note that date codes may be on the side rim, not the back face) and period-correct cloth-covered wiring throughout. The clean rectangular cavity route confirms post-1953 production, the trapeze tailpiece ground channel is absent.</figcaption></figure>
 
@@ -217,7 +217,7 @@ Around the switch is the **cream plastic "poker chip"** rhythm/treble indicator 
 
 This is the single most immediately visible difference between a 1954 and a 1956 goldtop. The 1954 uses **barrel-shaped (speed) knobs in gold/amber**, a short, cylindrical design approximately ½" tall with a slight taper. These are fundamentally different in silhouette from the dome-shaped "bonnet" or "top hat" knobs introduced in 1955.
 
-On an original 1954 the four knobs are gold-colored, with the amber plastic body aged to a warm caramel tone. The numbers 1–10 should be visible on the knob face. The pointer on each knob is a **sharp metal "finger bleeder" washer**, a thin metal plate with a pointed indicator, positioned between the knob and the control plate. This detail is correct for 1954 and distinguishes originals from later replacements.
+On an original 1954 the four knobs are gold-colored, with the amber plastic body aged to a warm caramel tone. The numbers 1 to 10 should be visible on the knob face. The pointer on each knob is a **sharp metal "finger bleeder" washer**, a thin metal plate with a pointed indicator, positioned between the knob and the control plate. This detail is correct for 1954 and distinguishes originals from later replacements.
 
 If a claimed 1954 has dome-shaped bonnet knobs, those are either replacements or the guitar is a 1955 or later. The barrel knob was standard on goldtops through most of 1955, when bonnet knobs phased in. A 1954 with four original barrel knobs is highly desirable and significantly more valuable than one with replaced hardware.
 
@@ -233,7 +233,7 @@ The two back control cavity cover plates are also cream-colored plastic with a s
 
 ### Neck Joint, The Long Tenon
 
-If the neck pickup is removed from its cavity, the **long tenon neck joint** should be visible extending deep into the pickup route. This is a characteristic of 1950s Gibson construction. The neck tenon is long enough to extend beneath the neck pickup cavity, providing a large gluing surface. The long tenon is associated with the excellent sustain of 1950s Les Pauls and is absent from the 1969–1970 reissues, which used a short tenon. Seeing the long tenon confirms pre-1960s Kalamazoo construction.
+If the neck pickup is removed from its cavity, the **long tenon neck joint** should be visible extending deep into the pickup route. This is a characteristic of 1950s Gibson construction. The neck tenon is long enough to extend beneath the neck pickup cavity, providing a large gluing surface. The long tenon is associated with the excellent sustain of 1950s Les Pauls and is absent from the 1969 to 1970 reissues, which used a short tenon. Seeing the long tenon confirms pre-1960s Kalamazoo construction.
 
 ## Internal Construction Details
 
@@ -241,7 +241,7 @@ The internal details visible through the pickup and control cavities are among t
 
 ### Control Cavity Route
 
-The 1954 control cavity is a **roughly rectangular parallelogram shape**, as established during the 1952–1953 design evolution. What it should *not* have is the square channel for the trapeze tailpiece ground wire that ran toward the bottom end of the guitar. That route was eliminated during 1953 as the trapeze tailpiece was discontinued. A 1954 body should have a clean route with no vestigial trapeze ground channel.
+The 1954 control cavity is a **roughly rectangular parallelogram shape**, as established during the 1952 to 1953 design evolution. What it should *not* have is the square channel for the trapeze tailpiece ground wire that ran toward the bottom end of the guitar. That route was eliminated during 1953 as the trapeze tailpiece was discontinued. A 1954 body should have a clean route with no vestigial trapeze ground channel.
 
 The cavity walls should show the tool marks of Kalamazoo routing, consistent, slightly curved chisel or router marks in the wood. The wood should be unfinished inside the cavity (natural mahogany color), with the finish only on the exterior edges. Areas of black paint or shielding inside a vintage cavity indicate a non-original modification.
 
@@ -275,7 +275,7 @@ Because 1954 carries a specific premium over 1953 (due to the corrected neck pit
 
 -   **1953 neck pitch:** A 1953 wrap-tail with the bridge sitting all the way down to the top with no height adjustment left, the shallower pitch means less height to work with
 -   **Altered serial:** A "3" that has been inked over or partially obscured to look like a "4", examine with magnification under raking light
--   **Bonnet knobs on a claimed "1954":** Bonnet knobs belong on 1955–1960, not 1954
+-   **Bonnet knobs on a claimed "1954":** Bonnet knobs belong on 1955 to 1960, not 1954
 -   **Bumblebee caps on a claimed "1954":** Bumblebees arrive in 1956, finding them inside confirms late 1955 or later production
 
 ### Hardware-Swapped Instruments
@@ -344,7 +344,7 @@ For any 1954 Les Paul Goldtop transaction above $20,000, insist on a physical ex
 
 A 1954 Les Paul Goldtop that still has its original case is meaningfully more desirable to collectors, both because the case confirms provenance and because it protects the guitar from the humidity and light exposure that cause the most damage to vintage instruments over time. Knowing what the correct case looks like is also a useful cross-check: a guitar claiming to be a 1954 accompanied by a completely wrong-era case prompts questions about the guitar's history.
 
-<figure><img alt="1954 Gibson Les Paul Goldtop original Lifton hardshell case, brown exterior with pink or orange plush lining, four latches" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-2case-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Original Lifton hardshell case for the 1954 Gibson Les Paul Goldtop.</strong> Gibson shipped 1954 Les Pauls in a Lifton-made hardshell case with a brown exterior and a distinctive pink or salmon-toned interior plush lining, often described as "pink" though the actual color varies with age and fading. The case has a curved lid that echoes the carved maple top of the guitar, four latches, and a handle on the long edge. This case style is correct for 1952–1956 production.</figcaption></figure>
+<figure><img alt="1954 Gibson Les Paul Goldtop original Lifton hardshell case, brown exterior with pink or orange plush lining, four latches" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-2case-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Original Lifton hardshell case for the 1954 Gibson Les Paul Goldtop.</strong> Gibson shipped 1954 Les Pauls in a Lifton-made hardshell case with a brown exterior and a distinctive pink or salmon-toned interior plush lining, often described as "pink" though the actual color varies with age and fading. The case has a curved lid that echoes the carved maple top of the guitar, four latches, and a handle on the long edge. This case style is correct for 1952 to 1956 production.</figcaption></figure>
 
 ### Case Authentication Details
 
@@ -363,6 +363,6 @@ Dig deeper into vintage Gibson authentication and valuation with these guides.
 
 **1954 Gibson Les Paul Goldtop Authentication Guide**
 
-This reference draws on documented production examples, collector literature including Vic DaPra's *Goldtop Believers*, potentiometer date code records, and hands-on inspection of authenticated 1954 instruments. Dates for component transitions are approximate, Gibson's changes were phased rather than instantaneous, and transitional examples exist throughout 1953–1955 production.
+This reference draws on documented production examples, collector literature including Vic DaPra's *Goldtop Believers*, potentiometer date code records, and hands-on inspection of authenticated 1954 instruments. Dates for component transitions are approximate, Gibson's changes were phased rather than instantaneous, and transitional examples exist throughout 1953 to 1955 production.
 
 Always verify against the physical instrument. Not a substitute for hands-on expert examination for high-value transactions.
