@@ -230,7 +230,7 @@ if (structuredData) {
     <title>{title}</title>
     <meta name="description" content={description} />
     {noIndex
-      ? <meta name="robots" content="noindex, nofollow" />
+      ? <meta name="robots" content="noindex, follow" />
       : <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
     }
     <link rel="canonical" href={canonicalUrl} />
