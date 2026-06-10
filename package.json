@@ -13,7 +13,9 @@
     "audit:live-diff": "node scripts/audit-live-diff.mjs",
     "audit:section-crops": "node scripts/audit-section-crops.mjs",
     "extract:html-first": "node scripts/extract-html-first.mjs",
-    "audit:a11y": "node scripts/audit-a11y.mjs"
+    "audit:a11y": "node scripts/audit-a11y.mjs",
+    "audit:copy": "node scripts/check-copy.mjs",
+    "verify": "npm run build && npx astro check && npm run audit:copy"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
