@@ -1,0 +1,142 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { contact, hrefs, idMenu } from "../config/site";
+---
+
+<Layout
+  title="Page Not Found | Joe's Vintage Guitars"
+  description="That page is not here anymore. Find your way back to the guides, the blog, or get in touch with Joe directly."
+  noIndex={true}
+>
+  <section class="nf">
+    <div class="nf__inner">
+      <p class="nf__eyebrow">Error 404</p>
+      <h1 class="nf__title">Page Not Found</h1>
+      <div class="nf__rule" aria-hidden="true"></div>
+      <p class="nf__lede">
+        Whatever you were looking for is not at this address. The page may have moved when the site
+        was rebuilt, or the link you followed has a typo in it. No harm done.
+      </p>
+      <p class="nf__lede">
+        If you were trying to reach me about a guitar, the fastest way is a call or text at
+        <a href={hrefs.tel}>{contact.phone}</a>.
+      </p>
+      <div class="nf__ctas">
+        <a href="/" class="nf__btn nf__btn--rust">Back to Home</a>
+        <a href="/blog/" class="nf__btn nf__btn--outline">Read the Blog</a>
+        <a href="/contact-me/" class="nf__btn nf__btn--outline">Contact Joe</a>
+      </div>
+      <h2 class="nf__subhead">Looking for a Serial Number Guide?</h2>
+      <ul class="nf__links">
+        {idMenu.children.map((link) => (
+          <li><a href={link.href}>{link.label}</a></li>
+        ))}
+        <li><a href="/free-appraisal/">Free Guitar Appraisal</a></li>
+        <li><a href="/sell-my-fender-guitar/">Sell My Fender</a></li>
+        <li><a href="/sell-my-gibson-guitar/">Sell My Gibson</a></li>
+      </ul>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .nf {
+    background: var(--color-brand-rust-dark, #682412);
+    padding: 200px 24px 110px;
+    text-align: center;
+    min-height: 70vh;
+  }
+  .nf__inner { max-width: 760px; margin: 0 auto; }
+  /* Accent text uses the brighter gold (#f0c860, the Fender guide's legible-gold
+     precedent): brand gold #c8983a is 4.32:1 on rust-dark, under the 4.5:1 AA bar. */
+  .nf__eyebrow {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 14px;
+    color: #f0c860;
+    margin: 0 0 10px;
+  }
+  .nf__title {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(40px, 7vw, 72px);
+    color: var(--color-brand-cream);
+    line-height: 1.05;
+  }
+  .nf__rule {
+    width: 80px;
+    height: 3px;
+    background: var(--color-brand-gold, #c8983a);
+    margin: 22px auto 26px;
+  }
+  .nf__lede {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.65;
+    color: #f1e6cd;
+    margin: 0 auto 18px;
+    max-width: 60ch;
+  }
+  .nf__lede a { color: #f0c860; text-decoration: underline; }
+  .nf__ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .nf__btn {
+    display: inline-block;
+    padding: 14px 30px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.18s, color 0.18s;
+  }
+  .nf__btn--rust { background: var(--color-brand-rust-bright, #be4b25); color: #fff; }
+  .nf__btn--rust:hover { background: var(--color-brand-rust, #a03a1e); }
+  .nf__btn--outline { border: 2px solid var(--color-brand-cream, #eedfc0); color: var(--color-brand-cream, #eedfc0); }
+  .nf__btn--outline:hover { background: var(--color-brand-cream, #eedfc0); color: var(--color-brand-rust-dark, #682412); }
+  .nf__subhead {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    font-size: 22px;
+    color: var(--color-brand-cream, #eedfc0);
+    margin: 56px 0 18px;
+  }
+  .nf__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+    justify-content: center;
+  }
+  .nf__links a {
+    color: #f0c860;
+    font-family: var(--font-sans);
+    font-size: 16px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .nf__links a:hover { color: var(--color-brand-cream, #eedfc0); }
+  @media (max-width: 700px) {
+    .nf { padding: 130px 16px 70px; }
+  }
+</style>
+
+<!-- The absolute header sits on this page's flat rust-dark band (no hero photo),
+     so its tiny rust-bright "Call Me!" label fails AA contrast here. Brighten it
+     on this page only, same pattern as the Archetype B body-class overrides. -->
+<script is:inline>document.body.classList.add("nf-404-page");</script>
+<style is:global>
+  body.nf-404-page header a[href^="tel:"] .text-\[11px\] {
+    color: #f0c860 !important;
+  }
+</style>

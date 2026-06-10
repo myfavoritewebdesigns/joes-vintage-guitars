@@ -1,0 +1,45 @@
+# Cloudflare Pages 301s for WordPress-only URL shapes that have no equivalent
+# on the static rebuild. Top-level page slugs and /post/<slug>/ URLs were
+# preserved 1:1, so they need no rules here (and adding any would risk loops).
+#
+# NOT handled here, by platform limitation: query-string URLs (?p=123,
+# ?attachment_id=...) cannot be matched by _redirects. They need a Pages
+# Function or Cloudflare Bulk Redirects at cutover. Attachment pages are also
+# skipped: their WP shape (/<parent-slug>/<media-slug>/) is indistinguishable
+# from real nested routes, so a wildcard would catch live pages.
+
+# --- Feeds. The real feed now lives at /feed.xml (src/pages/feed.xml.ts). ---
+# Splat rules also catch WordPress format variants (/feed/atom/, /feed/rss2/,
+# /post/<slug>/feed/atom/, and so on). No built route contains a /feed segment,
+# so the splats cannot shadow a real page.
+/feed              /feed.xml      301
+/feed/             /feed.xml      301
+/feed/*            /feed.xml      301
+/comments/feed     /feed.xml      301
+/comments/feed/    /feed.xml      301
+/comments/feed/*   /feed.xml      301
+/post/:slug/feed   /post/:slug/   301
+/post/:slug/feed/  /post/:slug/   301
+/post/:slug/feed/* /post/:slug/   301
+/category/:cat/feed   /category/:cat/   301
+/category/:cat/feed/  /category/:cat/   301
+/category/:cat/feed/* /category/:cat/   301
+
+# --- Tag archives: never rebuilt. Send to the blog index. ---
+/tag/*  /blog/  301
+
+# --- Author archive: single-author site. Send to About Joe. ---
+/author/*  /about-me/  301
+
+# --- Date archives (year and year/month): never rebuilt. Send to the blog index. ---
+/2016/*  /blog/  301
+/2017/*  /blog/  301
+/2018/*  /blog/  301
+/2019/*  /blog/  301
+/2020/*  /blog/  301
+/2021/*  /blog/  301
+/2022/*  /blog/  301
+/2023/*  /blog/  301
+/2024/*  /blog/  301
+/2025/*  /blog/  301
+/2026/*  /blog/  301
