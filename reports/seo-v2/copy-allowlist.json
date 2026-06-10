@@ -1,0 +1,4 @@
+{
+  "_doc": "Adjudicated exceptions for scripts/check-copy.mjs. Each entry: { url, phrase, note }. url is the page route ('/free-appraisal/') or '*' for every page. phrase is compared case-insensitively against the exact matched text. Add entries only after a human judges the finding to be a real brand term, product name, or verbatim quoted material, and say why in note.",
+  "entries": []
+}
