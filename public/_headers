@@ -1,0 +1,31 @@
+# Cloudflare Pages headers.
+#
+# HTML caching is intentionally NOT overridden: Pages serves HTML with
+# "Cache-Control: public, max-age=0, must-revalidate" by default, which is the
+# short-cache behavior we want. Only long-lived static assets get overrides.
+#
+# No Content-Security-Policy on purpose: the lite-youtube CDN assets and the
+# Instagram embeds would need careful allowlisting and testing first.
+
+# Baseline security headers on every response.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# Hashed build output: content-addressed filenames, safe to cache forever.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Site images and fonts are NOT content-hashed, so no "immutable": a file
+# replaced under the same name (the planned pre-launch image compression, a
+# font swap) must be able to revalidate. Long cache, but recoverable.
+/images/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/fonts/*
+  Cache-Control: public, max-age=2592000
+
+# Decoder tool scripts: not content-hashed, so keep staleness to an hour.
+/scripts/*
+  Cache-Control: public, max-age=3600

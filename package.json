@@ -16,6 +16,8 @@
     "audit:a11y": "node scripts/audit-a11y.mjs"
   },
   "dependencies": {
+    "@astrojs/rss": "^4.0.18",
+    "@astrojs/sitemap": "^3.7.3",
     "@tailwindcss/vite": "^4.3.0",
     "astro": "^6.3.2",
     "tailwindcss": "^4.3.0"
