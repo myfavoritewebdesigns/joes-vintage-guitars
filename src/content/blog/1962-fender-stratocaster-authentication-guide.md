@@ -61,7 +61,7 @@ Like all pre-CBS Fender instruments, the 1962 Stratocaster serial number is an u
 
 The serial number is stamped on the plain chrome **4-bolt neck plate** on the back of the body. For 1962 production the approximate range is **80000 to 99999**, five digits, no prefix letter. This range overlaps significantly with late 1961 and early 1963 production.
 
-A critical dating marker: **the L-series serials began in January 1963**. L-series serials have a prefix letter "L" followed by five digits (e.g., L00001). If a claimed 1962 Stratocaster has an L-series serial, either the neck plate has been swapped, or the guitar was built in 1963 or later. Conversely, a 5-digit serial in the 80000–99999 range is consistent with 1962 but not conclusive.
+A critical dating marker: **the L-series serials began in January 1963**. L-series serials have a prefix letter "L" followed by five digits (e.g., L00001). If a claimed 1962 Stratocaster has an L-series serial, either the neck plate has been swapped, or the guitar was built in 1963 or later. Conversely, a 5-digit serial in the 80000 to 99999 range is consistent with 1962 but not conclusive.
 
 Fender serial plates from this era are notoriously unreliable for precise dating. Always cross-reference: **neck heel date + body date + pot codes + physical features**. The serial is an era indicator, not a year confirmation. See our [complete Fender serial number guide](/fender-guitars-serial-number-guide/) for the full dating framework.
 
@@ -113,7 +113,7 @@ The replacement introduced in mid-1962, used on all rosewood-board Stratocasters
 
 <figure><img alt="1962 Fender Stratocaster slab rosewood fingerboard nut area, approximately 4.8mm thick flat-bottom board showing deep rosewood depth at headstock end" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-slab-board-example.jpg" loading="lazy" decoding="async"><figcaption><strong>Slab rosewood board (early 1962).</strong> Looking at the headstock end at the nut, the rosewood occupies a visibly substantial depth, approximately 4.8mm. The glue line between rosewood and maple sits well below the fretboard surface. This is the flat-bottom slab configuration used from 1959 through mid-1962 and is the more desirable and valuable specification.</figcaption></figure>
 
-<figure><img alt="1962 Fender Stratocaster veneer rosewood fingerboard nut area, approximately 2mm thin curved-bottom board showing shallow rosewood depth at headstock end" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-slab-board-example.jpg" loading="lazy" decoding="async"><figcaption><strong>Veneer rosewood board (mid–late 1962).</strong> At the same vantage point, the rosewood is noticeably thinner, only about 2mm. The glue line sits close to the fretboard surface and the maple neck wood is visible much higher up. This curved-bottom veneer replaced the slab in mid-1962 and is still a genuine pre-CBS specification.</figcaption></figure>
+<figure><img alt="1962 Fender Stratocaster veneer rosewood fingerboard nut area, approximately 2mm thin curved-bottom board showing shallow rosewood depth at headstock end" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-slab-board-example.jpg" loading="lazy" decoding="async"><figcaption><strong>Veneer rosewood board (mid to late 1962).</strong> At the same vantage point, the rosewood is noticeably thinner, only about 2mm. The glue line sits close to the fretboard surface and the maple neck wood is visible much higher up. This curved-bottom veneer replaced the slab in mid-1962 and is still a genuine pre-CBS specification.</figcaption></figure>
 
 ### How to Identify Slab vs. Veneer
 
@@ -129,7 +129,7 @@ A slab-board 1962 Stratocaster can be worth substantially more than a veneer-boa
 
 ### Neck Profile
 
-By 1962 Fender had settled into what collectors call the **slim "C" profile**, a comfortable oval-to-C cross-section that is thinner front-to-back than the chunky "V" profiles of 1954–1957. The 1962 neck is not as thin as the very narrow profiles that appeared on some CBS-era Strats, but it is distinctly slimmer than any 1950s example. Players accustomed to vintage Telecasters sometimes find the 1962 Strat neck slightly thinner than expected. This is correct and period-authentic.
+By 1962 Fender had settled into what collectors call the **slim "C" profile**, a comfortable oval-to-C cross-section that is thinner front-to-back than the chunky "V" profiles of 1954 to 1957. The 1962 neck is not as thin as the very narrow profiles that appeared on some CBS-era Strats, but it is distinctly slimmer than any 1950s example. Players accustomed to vintage Telecasters sometimes find the 1962 Strat neck slightly thinner than expected. This is correct and period-authentic.
 
 ## Body, Wood & Finish
 
@@ -173,7 +173,7 @@ Fender suspended bodies from nails during the finishing process. The nail was dr
 
 ### The 3-Ply Pickguard
 
-The 1962 Stratocaster uses a **3-ply white/black/white pickguard**, the three layers visible at the edge as a white-black-white sandwich. This replaced the single-ply anodized aluminum guard (1954–1959) and the single-ply white celluloid guard (briefly used in the transition). By 1959–1960 the 3-ply celluloid guard was standard, and it remained so through the CBS era. The 1962 guard has **11 mounting screws**.
+The 1962 Stratocaster uses a **3-ply white/black/white pickguard**, the three layers visible at the edge as a white-black-white sandwich. This replaced the single-ply anodized aluminum guard (1954 to 1959) and the single-ply white celluloid guard (briefly used in the transition). By 1959 to 1960 the 3-ply celluloid guard was standard, and it remained so through the CBS era. The 1962 guard has **11 mounting screws**.
 
 The original 1962 pickguard will show visible aging, slight warping or cupping from decades under string tension. Importantly, the outer white layer of genuine pre-CBS 3-ply guards ages to a distinctive **mint green** color over time, caused by the off-gassing of the celluloid material. This mint green aging is a hallmark of an original period guard and is very difficult to replicate convincingly on a reproduction. A guard that remains bright white after 60+ years is more likely a replacement. The screw holes should show the same chrome oxidation as the hardware.
 
@@ -205,10 +205,10 @@ This is one of the most widely misunderstood details in vintage Strat collecting
 
 ### Pickup Specifications
 
--   Coil wire**Formvar-coated wire**, the yellow-orange wire insulation visible on the coil windings. Formvar was used through approximately 1964–65; plain enamel wire indicates a rewind or replacement.
+-   Coil wire**Formvar-coated wire**, the yellow-orange wire insulation visible on the coil windings. Formvar was used through approximately 1964 to 1965; plain enamel wire indicates a rewind or replacement.
 -   Lead wiresThe two wires running from each pickup to the wiring harness are **black and white cloth-covered**, a black-insulated wire and a white-insulated wire with braided cloth over each. Plastic-insulated lead wires indicate a replacement pickup or rewound unit. All three pickups should have matching black/white cloth leads.
 -   Pole pieces**Staggered** on all three pickups. The bass-side poles (E, A, D) are taller than the treble-side poles (G, B, E) to compensate for output imbalance between wound and plain strings. Non-staggered poles on a claimed 1962 are a mismatch.
--   DC resistanceNeck pickup: approximately **5.5–6.5k ohms**. Middle and bridge pickups: approximately **5.8–6.8k ohms**. Readings significantly outside these ranges suggest a rewind. Bridge pickups typically read slightly higher than neck.
+-   DC resistanceNeck pickup: approximately **5.5 to 6.5k ohms**. Middle and bridge pickups: approximately **5.8 to 6.8k ohms**. Readings significantly outside these ranges suggest a rewind. Bridge pickups typically read slightly higher than neck.
 -   Wax pottingPre-CBS Fender pickups are **wax-potted**, dipped in paraffin wax to prevent microphonic feedback. Original potted pickups show a slight wax coating on the flatwork and sometimes on the cover base. Un-potted pickups may squeal at high volumes.
 -   Pickup covers**White plastic**, same material as the knobs. All three covers should show consistent aging, if the bridge pickup cover is noticeably whiter or more brittle-looking than the neck pickup cover, one has been replaced.
 -   Pickup datesA date may be **stamped or hand-written** on the bottom of the pickup bobbin or on a piece of tape wrapped around the base. Not always present, but when found it is a strong corroborating dating tool.
@@ -261,7 +261,7 @@ The 1962 Stratocaster has a **single butterfly/wing string tree** on the headsto
 
 ### The "Spaghetti" Logo
 
-The 1962 Stratocaster headstock carries the classic **"spaghetti" Fender logo**, the thin, flowing cursive script in silver/chrome that was used from the early 1950s through approximately 1964–65. The logo is a water-slide decal applied **on top of the headstock finish** and protected by a clear topcoat. Key authentication points:
+The 1962 Stratocaster headstock carries the classic **"spaghetti" Fender logo**, the thin, flowing cursive script in silver/chrome that was used from the early 1950s through approximately 1964 to 1965. The logo is a water-slide decal applied **on top of the headstock finish** and protected by a clear topcoat. Key authentication points:
 
 -   ApplicationThe decal sits on top of the lacquer, protected by a clear topcoat over it. The logo should feel flush with the headstock surface, not raised above it in a way that suggests fresh application without clear coat. A logo that can be felt sitting well above the surface without any clear coat over it has likely been re-applied.
 -   Patent numbersMost 1962 Stratocaster decals include **three patent numbers**: "2,573,254," "2,960,900," and "Des. 164,227." Very early 1962 examples transitioning from the previous decal version may show two patent numbers, but three is correct for the majority of 1962 production. Note that the Stratocaster patent numbers differ from the Telecaster's, a claimed 1962 Strat showing only Telecaster patent numbers has a non-original decal. Count the numbers and match them to known 1962 reference examples.
@@ -288,13 +288,13 @@ Because the 1962 serial number is unreliable as a standalone tool, triangulating
 | **Body date** | Pickup cavity (middle or neck route) or tremolo spring cavity on back | Month and year body was routed. May differ from neck date by months | High, corroborating date |
 | **Pot codes** | Back of volume and tone pots, remove pickguard | Earliest possible assembly date. Format: MFRYYWW | High, gives earliest assembly floor |
 | **Pickup dates** | Bottom of pickup bobbin or tape around base | Approximate manufacture date of pickup when present | Moderate, corroborating, not always present |
-| **Neck plate serial** | Chrome plate on back, neck-body junction | Approximate era, 80000–99999 is 1962 range; L-prefix = 1963+ | Low standalone, era indicator only |
+| **Neck plate serial** | Chrome plate on back, neck-body junction | Approximate era, 80000 to 99999 is 1962 range; L-prefix = 1963+ | Low standalone, era indicator only |
 | **Fingerboard type** | Headstock end of neck, slab vs. veneer depth | Slab = early 1962 or before; veneer = mid-1962 or after | High for placing within the year |
 | **Pickup flatwork** | Bottom of pickup bobbins, remove pickguard | Black = correct for 1962 and all pre-CBS; gray flatwork appeared ~1964 onward | High for era confirmation |
 
 **Early 1962:** Slab rosewood board + black-bottom pickups + pot codes in early 1962 + 5-digit serial 80000s + neck date early 1962.
 
-**Mid 1962:** Transitional, slab or veneer rosewood + black-bottom pickups + pot codes mid-1962 + serial 85000–93000 + body/neck dates mid-1962.
+**Mid 1962:** Transitional, slab or veneer rosewood + black-bottom pickups + pot codes mid-1962 + serial 85000 to 93000 + body/neck dates mid-1962.
 
 **Late 1962:** Veneer rosewood board + black-bottom pickups + pot codes late 1962 + serial 90000s + neck date late 1962. Still 100% pre-CBS and highly desirable.
 
@@ -326,7 +326,7 @@ The most common reissue encountered. Fender introduced the American Vintage Reis
 
 ### Japanese Reissues (JV, SQ, E, A Series)
 
-Made in Japan (MIJ) Fenders from this era are sometimes confused with or misrepresented as originals. The early JV-series (1982–84) are widely considered the highest quality Japanese reissues and occasionally appear with fraudulently applied neck dates and removed serial numbers. Tells:
+Made in Japan (MIJ) Fenders from this era are sometimes confused with or misrepresented as originals. The early JV-series (1982 to 1984) are widely considered the highest quality Japanese reissues and occasionally appear with fraudulently applied neck dates and removed serial numbers. Tells:
 
 -   **Serial number prefix:** JV, SQ, E, A, or similar, always a letter prefix, never 5 plain digits
 -   **Neck heel:** MIJ stamps say "Made in Japan" or "Crafted in Japan" on the neck heel
@@ -348,7 +348,7 @@ Modifications that reduce value but don't disqualify authenticity:
 -   **Tuner replacement:** Grover Rotomatics were the most common swap. Kluson originals significantly increase value over Grovers on otherwise identical examples.
 -   **Refret:** Common on played examples. Original frets are small and vintage. Re-fretting with period-correct wire and retaining original fret slots does not severely impact value; jumbo re-fretting does.
 -   **Rewiring:** Modern wiring, replacement capacitors, and added shielding are common. Original wiring harness intact is a plus.
--   **Refinish:** The most value-destructive modification. A refinished pre-CBS Strat can lose 50–70% of its value compared to an original-finish example. Refinishes are very common, always check under the pickguard and in cavities for original finish traces.
+-   **Refinish:** The most value-destructive modification. A refinished pre-CBS Strat can lose 50 to 70% of its value compared to an original-finish example. Refinishes are very common, always check under the pickguard and in cavities for original finish traces.
 -   **Neck plate modification:** Swapped neck plates are common. A mismatched serial number that doesn't match the neck/body dates indicates a plate swap.
 
 ## Authentication Checklist
@@ -357,14 +357,14 @@ Use this checklist as a starting framework. No single item is definitive. Authen
 
 Serial & Neck Plate
 
--   **5-digit serial in 80000–99999 range, no "L" prefix (L-series = 1963+)**
+-   **5-digit serial in 80000 to 99999 range, no "L" prefix (L-series = 1963+)**
 -   Neck plate is plain chrome, 4-bolt, no logo, just the serial number
 -   Phillips-head neck screws, not slot-head
 -   Electrode mark visible on neck plate chrome
 
 Neck & Fingerboard
 
--   **Slab rosewood (early 1962) OR veneer rosewood (mid–late 1962), confirm which and verify consistently**
+-   **Slab rosewood (early 1962) OR veneer rosewood (mid to late 1962), confirm which and verify consistently**
 -   Slab board: rosewood depth at headstock end is ~4.8mm, flat underside visible
 -   Veneer board: rosewood depth at headstock end is ~2mm, curved underside
 -   Clay dot inlays, dull matte finish, NOT shiny pearloid
@@ -400,7 +400,7 @@ Pickups
 -   **Black fiber flatwork on bottom of all three pickup bobbins, gray flatwork indicates ~1964 or later production**
 -   Staggered pole pieces on all three pickups (bass poles taller than treble)
 -   Formvar-coated wire at pickup leads (yellow-orange insulation)
--   DC resistance: neck ~5.5–6.5k, middle/bridge ~5.8–6.8k ohms
+-   DC resistance: neck ~5.5 to 6.5k, middle/bridge ~5.8 to 6.8k ohms
 -   White pickup covers, all three should show consistent aging
 -   Pickup date stamps consistent with claimed year (when present)
 

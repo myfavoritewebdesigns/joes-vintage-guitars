@@ -75,7 +75,7 @@ Launched in 1958, the LG-0 was Gibson’s most affordable flat-top.
     
 -   **Tone:** Extremely warm, dark, and naturally compressed. It is “dry” and “woody,” lacking the high-end sparkle of spruce but offering a beautiful, mellow resonance.
     
--   **Critical Detail:** Avoid or plan to upgrade the 1962–1966 models with the **injection-molded plastic bridge**. These bridges were bolted on with four screws and are notorious for warping the top and stifling the sound. Replacing these with a rosewood bridge is a “must-do” for any serious player.
+-   **Critical Detail:** Avoid or plan to upgrade the 1962 to 1966 models with the **injection-molded plastic bridge**. These bridges were bolted on with four screws and are notorious for warping the top and stifling the sound. Replacing these with a rosewood bridge is a “must-do” for any serious player.
     
 
 ## Internal Architecture: X-Bracing vs. Ladder Bracing
@@ -97,11 +97,11 @@ Simply take a small flashlight and a handheld mirror (or your phone’s front-fa
 
 The “feel” of an LG changes drastically by era:
 
--   **1942–1945 (Banner Era):** Massive “baseball bat” necks, often with a wide **1 3/4″ or 1 7/8″ nut width**. Many of these lack truss rods due to wartime metal shortages but are incredibly stable.
+-   **1942 to 1945 (Banner Era):** Massive “baseball bat” necks, often with a wide **1 3/4″ or 1 7/8″ nut width**. Many of these lack truss rods due to wartime metal shortages but are incredibly stable.
     
--   **1947–1959:** Transitioned to a comfortable **1 11/16″ nut** with a full, rounded “C” profile.
+-   **1947 to 1959:** Transitioned to a comfortable **1 11/16″ nut** with a full, rounded “C” profile.
     
--   **1965–1968:** The nut width narrowed to a slim **1 5/8″**. If you have a narrow-nut Gibson, it is generally valued lower than the wider “pre-65” versions because it can feel “cramped” for fingerstyle players.
+-   **1965 to 1968:** The nut width narrowed to a slim **1 5/8″**. If you have a narrow-nut Gibson, it is generally valued lower than the wider “pre-65” versions because it can feel “cramped” for fingerstyle players.
     
 
 ### 2\. Bridge & Saddle Variations
@@ -110,7 +110,7 @@ The “feel” of an LG changes drastically by era:
     
 -   **Belly-Up Bridge (1960s):** Gibson introduced the “reverse belly” bridge.
     
--   **Adjustable Saddle (1961–1970s):** Gibson added a ceramic or rosewood adjustable saddle system. While this allows for quick action adjustments, the extra hardware often creates a slightly “thinner” sound compared to a fixed bone saddle.
+-   **Adjustable Saddle (1961 to 1970s):** Gibson added a ceramic or rosewood adjustable saddle system. While this allows for quick action adjustments, the extra hardware often creates a slightly “thinner” sound compared to a fixed bone saddle.
     
 
 ![Close up of vintage Gibson LG-1 belly up rosewood bridge with original bridge pins and saddle detail.](/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/gibson-lg-1-belly-up-bridge-1024x683.jpg)
@@ -119,7 +119,7 @@ A close-up look at the classic “belly up” rosewood bridge found on later Gib
 
 ### 3\. Tuners and Logos
 
--   **Logo:** 1942–1946 features the **Script Logo**; 1948 onward features the **Block Logo**. The “Banner” decal only appeared during WWII (1942–1945).
+-   **Logo:** 1942 to 1946 features the **Script Logo**; 1948 onward features the **Block Logo**. The “Banner” decal only appeared during WWII (1942 to 1945).
     
 -   **Tuners:** Early models used **open-back Kluson** tuners with cream buttons. By the 50s, these transitioned to “single line” or “double line” Kluson Deluxe enclosed tuners.
     
@@ -170,18 +170,18 @@ The Gibson LG series was produced for decades, but the value between models vari
 
 Identifying the exact year of an LG is often the biggest hurdle for a seller. Because these guitars were produced during several era-defining shifts in Gibson’s production, you might find a traditional serial number, a Factory Order Number (FON), or in some cases, both.
 
-### The Factory Order Number (FON): 1942–1961
+### The Factory Order Number (FON): 1942 to 1961
 
 If you have an older LG-2 or LG-1, the number you see stamped on the inside (usually on the neck block) isn’t actually a serial number. It’s a **Factory Order Number**.
 
 During the 1940s and 50s, Gibson used these to track batches of instruments moving through the factory.
 
--   **Banner Era (1942–1945):** These often feature a four-digit number followed by a letter (like “7412 H”). These are critical for identifying the high-value “Wartime” builds.
+-   **Banner Era (1942 to 1945):** These often feature a four-digit number followed by a letter (like “7412 H”). These are critical for identifying the high-value “Wartime” builds.
     
--   **Letter Prefixes (1952–1961):** In the 1950s, Gibson used a letter at the start of the code to denote the year. For example, a code starting with **“V”** is from 1956, while **“U”** is from 1957.
+-   **Letter Prefixes (1952 to 1961):** In the 1950s, Gibson used a letter at the start of the code to denote the year. For example, a code starting with **“V”** is from 1956, while **“U”** is from 1957.
     
 
-### The Modern Serial Number: 1961–1968
+### The Modern Serial Number: 1961 to 1968
 
 In 1961, Gibson moved to a more standardized, 6-digit serial number system usually found stamped into the back of the headstock. However, be careful. Gibson reused these numbers throughout the 1960s, which makes the physical specs (like the bridge style and nut width we discussed above) just as important as the number itself for a proper valuation.
 

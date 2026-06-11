@@ -117,7 +117,7 @@ If the body is the heart and the neck is the soul, the tuners are the “ID card
 In 1959, Gibson exclusively used **Kluson Deluxe** tuners with the iconic “Tulip” or “Keystone” buttons. To the untrained eye, all vintage tuners look similar, but the 1959 spec is defined by its **stamping**:
 
 -   **The “Single Line” Marker:** If you look at the vertical metal casing (the gear housing) on the back of the headstock, the words **KLUSON DELUXE** are stamped in a single vertical line running straight down the center.
--   **The Evolution:** This distinguishes them from earlier “No Line” tuners (1952–1956) and later “Double Line” tuners (starting in 1964), where the brand name was split into two parallel lines.
+-   **The Evolution:** This distinguishes them from earlier “No Line” tuners (1952 to 1956) and later “Double Line” tuners (starting in 1964), where the brand name was split into two parallel lines.
 -   **Single Ring vs. Double Ring:** 1959 was also the era of the **“Single Ring”** button. This refers to the single plastic ring or “bushing” where the tuner shaft meets the plastic tulip button. In 1960, Gibson transitioned to “Double Ring” tuners, making the single-ring version a hallmark of the ’59 aesthetic.
 
 ### The “Mummification” Phenomenon (Button Decay)

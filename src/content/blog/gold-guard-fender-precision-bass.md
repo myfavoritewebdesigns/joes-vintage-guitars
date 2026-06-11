@@ -1,14 +1,14 @@
 ---
-title: "Fender Precision Bass 1957–1959: Identification, Specs & Value"
+title: "Fender Precision Bass 1957 to 1959: Identification, Specs & Value"
 pubDate: "2026-04-17T19:25:51"
 modified: "2026-05-14T16:10:26"
-excerpt: "Defined by its gold anodized pickguard and split-coil pickup, the 1957–1959 Fender Precision Bass marked the start of the modern electric bass. Here’s a full breakdown of specs, authenticity markers, and market values, year by year."
+excerpt: "Defined by its gold anodized pickguard and split-coil pickup, the 1957 to 1959 Fender Precision Bass marked the start of the modern electric bass. Here’s a full breakdown of specs, authenticity markers, and market values, year by year."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-scaled.jpg"
 heroImageAlt: "A 1959 Fender gold guard precision bass in Sunburst finish."
-metaDescription: "Defined by its gold anodized pickguard and split-coil pickup, the 1957–1959 Fender Precision Bass marked the start of the modern electric bass. Here’s a full breakdown of specs, authenticity markers, and market values, year by year."
+metaDescription: "Defined by its gold anodized pickguard and split-coil pickup, the 1957 to 1959 Fender Precision Bass marked the start of the modern electric bass. Here’s a full breakdown of specs, authenticity markers, and market values, year by year."
 ogImage: "/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-scaled.jpg"
 wpId: 20887
 ---
@@ -120,7 +120,7 @@ Gold Guard P-Basses are prime targets for parts-casters and outright fakes. If y
 
 ### What to Verify
 
--   **Serial number:** On the neck plate, prefixed with a "-" or "0" in the 1957–1958 range (5 digits). For full decoding across Fender's serial number schemes, see our [Fender serial number guide](/fender-guitars-serial-number-guide/).
+-   **Serial number:** On the neck plate, prefixed with a "-" or "0" in the 1957 to 1958 range (5 digits). For full decoding across Fender's serial number schemes, see our [Fender serial number guide](/fender-guitars-serial-number-guide/).
 -   **Pencil dates:** Handwritten date on the end of the neck heel (e.g. *6-57*), and often in the middle pickup cavity or under the bridge. Note that some basses, especially 1959 examples, left the factory with **no heel date at all**. A missing heel date isn't automatically a red flag on a bass from that year. In those cases, rely on the body cavity markings, pot codes, and other construction details to confirm the year.
 -   **Guard underside:** Original anodized guards are gold on **both** sides, though the underside looks cleaner and fresher than the top.
 -   **Spaghetti logo decal:** Thin silver "Fender" with "Precision Bass" in smaller black lettering below. Early 1957 decals carry no patent numbers.
@@ -140,7 +140,7 @@ Gold Guard P-Basses are prime targets for parts-casters and outright fakes. If y
 
 #### A Note On "Refin" vs. "Parts"
 
-A period-correct bass with a later refinish is a legitimate collectible, typically valued at 40–60% of all-original. A "parts bass" assembled from genuine components of different instruments is a much harder call and should be priced closer to the sum of its parts. Always ask.
+A period-correct bass with a later refinish is a legitimate collectible, typically valued at 40 to 60% of all-original. A "parts bass" assembled from genuine components of different instruments is a much harder call and should be priced closer to the sum of its parts. Always ask.
 
 <h2 id="tone-collectibility">6. Tone and Collectibility</h2>
 
@@ -168,4 +168,4 @@ If you're looking to buy, sell, or just figure out what you have, **the details 
 
 #### Have a Gold Guard Bass?
 
-Got a late-50s Precision Bass you're thinking about selling? Or just want an honest opinion on what you own? [Joe's Vintage Guitars](/) sees instruments like these every week. Reach out about [selling a Fender](/sell-my-fender-guitar/), whether it's a single piece or [an entire collection](/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/). 1957–1959 basses are always of interest, in any condition.
+Got a late-50s Precision Bass you're thinking about selling? Or just want an honest opinion on what you own? [Joe's Vintage Guitars](/) sees instruments like these every week. Reach out about [selling a Fender](/sell-my-fender-guitar/), whether it's a single piece or [an entire collection](/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/). 1957 to 1959 basses are always of interest, in any condition.

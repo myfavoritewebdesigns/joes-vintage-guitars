@@ -28,11 +28,11 @@ The Crestwood debuted in **1958** as a bold new silhouette. It featured a solid 
 
 From 1958 to 1969, the Crestwood underwent several design shifts that drastically changed its market appeal and playability.
 
-### The Slab-Body Era (1958–1960)
+### The Slab-Body Era (1958 to 1960)
 
 The earliest Crestwoods featured thick, un-contoured mahogany slabs. These early models often utilized leftover “New York” style single-coil pickups, providing a gritty, biting tone that predated the cleaner sounds of the 1960s. These are exceptionally rare. Only a handful were produced each year, which makes them some of the hardest early Epiphones to find.
 
-### The “Batwing” and the Mini-Humbucker (1961–1963)
+### The “Batwing” and the Mini-Humbucker (1961 to 1963)
 
 In 1961, the edges were contoured for comfort, and the model became the **Crestwood Custom**. This era introduced the **Mini-Humbucker**, designed by Seth Lover. These pickups offer a “snappier” attack and more top-end shimmer than a full-sized PAF, which is why a lot of players like them when they want clarity without giving up the “muscle” of a humbucker.
 
@@ -40,7 +40,7 @@ In 1961, the edges were contoured for comfort, and the model became the **Crestw
 
 The 1961 body shows the symmetrical mahogany slab and the move toward deeper contours, making it one of the most recognizable designs of the Kalamazoo era.
 
-### The Deluxe and the Tremotone (1963–1969)
+### The Deluxe and the Tremotone (1963 to 1969)
 
 The final iteration of the vintage Crestwood saw the introduction of the 6-on-a-side **“Batwing” headstock** and the **Tremotone vibrato**. The Crestwood Deluxe, with its three pickups and ebony fretboard, sat at the top of the line, a “tuxedo” guitar meant to compete with the most expensive instruments on the market.
 

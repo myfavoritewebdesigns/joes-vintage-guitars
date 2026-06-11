@@ -39,13 +39,13 @@ const late97VM = {
 
 // --- In-page navigation ---
 const navParts = [
-  { href: "#part1", label: "Part 1: Early Eras (1952–1969)" },
-  { href: "#part2", label: "Part 2: Westerly (1970–1979)" },
-  { href: "#part3", label: "Part 3: Model Prefixes (1979–1983)" },
-  { href: "#part4", label: "Part 4: Westerly Cont. (1984–1989)" },
-  { href: "#part5", label: "Part 5: 90s Transition (1990–1994)" },
-  { href: "#part6", label: "Part 6: Expansion (1994–1996)" },
-  { href: "#part7", label: "Part 7: Late Westerly (1997–1999)" },
+  { href: "#part1", label: "Part 1: Early Eras (1952 to 1969)" },
+  { href: "#part2", label: "Part 2: Westerly (1970 to 1979)" },
+  { href: "#part3", label: "Part 3: Model Prefixes (1979 to 1983)" },
+  { href: "#part4", label: "Part 4: Westerly Cont. (1984 to 1989)" },
+  { href: "#part5", label: "Part 5: 90s Transition (1990 to 1994)" },
+  { href: "#part6", label: "Part 6: Expansion (1994 to 1996)" },
+  { href: "#part7", label: "Part 7: Late Westerly (1997 to 1999)" },
   { href: "#part8", label: "Part 8: Julian Dating & Authentication" },
 ];
 
@@ -83,7 +83,7 @@ const toolSchema = {
   url: PAGE_URL,
   offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
   description:
-    "Free tool that dates Guild guitars from their serial number: sequential numbers (1953–1979) and modern Julian serials (2005+).",
+    "Free tool that dates Guild guitars from their serial number: sequential numbers (1953 to 1979) and modern Julian serials (2005+).",
 };
 const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
 ---
@@ -113,7 +113,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
       <div class="gsl-disclaimer" role="note">
         <span class="gsl-disclaimer__label">Heads-up</span>
         <p>
-          Many Guild serial numbers are <strong>model-specific</strong>. From 1965&ndash;1969, and again from
+          Many Guild serial numbers are <strong>model-specific</strong>. From 1965 to 1969, and again from
           1979 through 1996, the letter prefix identifies the model and the digits give the year, so the same
           number can mean different things on different models. If your serial has a letter prefix, you'll need
           to find your model in the era charts below to date it.
@@ -159,25 +159,25 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
 
       <!-- ============ Part 1 ============ -->
       <section class="gsl-section" id="part1">
-        <h2 class="gsl-h2">Part 1: The Early Eras (1952–1969)</h2>
+        <h2 class="gsl-h2">Part 1: The Early Eras (1952 to 1969)</h2>
 
-        <h3 class="gsl-h3">The Numerical Sequence (1953–1959)</h3>
+        <h3 class="gsl-h3">The Numerical Sequence (1953 to 1959)</h3>
         <p>
           In the earliest years of production, Guild used a straightforward numerical sequence. These
           &ldquo;Hoboken&rdquo; era guitars are known for their craftsmanship and often feature white internal
           labels.
         </p>
-        <GuildTable headers={numSeqVM.headers} rows={numSeqVM.rows} caption="The Numerical Sequence (1953–1959)" />
+        <GuildTable headers={numSeqVM.headers} rows={numSeqVM.rows} caption="The Numerical Sequence (1953 to 1959)" />
 
-        <h3 class="gsl-h3">General Ranges (1960–1969)</h3>
+        <h3 class="gsl-h3">General Ranges (1960 to 1969)</h3>
         <p>
           From 1960 to 1964, Guild continued a single sequential numbering system for all models. From 1965 to
           1969, a separate serial system was introduced for each model. <strong>Your serial number may be a
           sequential one or a model-specific one, so check both charts and compare accordingly.</strong>
         </p>
-        <GuildTable headers={genRangesVM.headers} rows={genRangesVM.rows} caption="General Ranges (1960–1969)" />
+        <GuildTable headers={genRangesVM.headers} rows={genRangesVM.rows} caption="General Ranges (1960 to 1969)" />
 
-        <h3 class="gsl-h3">Model-Specific Ranges (1965–1969)</h3>
+        <h3 class="gsl-h3">Model-Specific Ranges (1965 to 1969)</h3>
         <p>During this period, refer to the model-specific prefixes to determine the year.</p>
         <div class="gsl-callout gsl-callout--tip">
           <p>
@@ -189,23 +189,23 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <GuildTable
           headers={modelSpecific1965.headers}
           rows={modelSpecific1965.rows}
-          caption="Model-Specific Ranges (1965–1969)"
+          caption="Model-Specific Ranges (1965 to 1969)"
         />
       </section>
 
       <!-- ============ Part 2 ============ -->
       <section class="gsl-section" id="part2">
-        <h2 class="gsl-h2">Part 2: The Westerly Era (1970–1979)</h2>
+        <h2 class="gsl-h2">Part 2: The Westerly Era (1970 to 1979)</h2>
         <p>
           In 1970, Guild consolidated production back into a single sequential system. Dating Guilds from this
           period is much easier than the preceding era. Just match your number to the year ranges below.
         </p>
-        <GuildTable headers={westerlyVM.headers} rows={westerlyVM.rows} caption="The Westerly Era (1970–1979)" />
+        <GuildTable headers={westerlyVM.headers} rows={westerlyVM.rows} caption="The Westerly Era (1970 to 1979)" />
       </section>
 
       <!-- ============ Part 3 ============ -->
       <section class="gsl-section" id="part3">
-        <h2 class="gsl-h2">Part 3: Return to Model Prefixes (1979–1983)</h2>
+        <h2 class="gsl-h2">Part 3: Return to Model Prefixes (1979 to 1983)</h2>
         <p>
           In late 1979, the prefix system was reintroduced. The figures below represent the <strong>last</strong>
           serial number produced for each model in each year.
@@ -213,13 +213,13 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <GuildTable
           headers={prefixes1979.headers}
           rows={prefixes1979.rows}
-          caption="Return to Model Prefixes (1979–1983), last serial of each year"
+          caption="Return to Model Prefixes (1979 to 1983), last serial of each year"
         />
       </section>
 
       <!-- ============ Part 4 ============ -->
       <section class="gsl-section" id="part4">
-        <h2 class="gsl-h2">Part 4: Westerly Era Continued (1984–1989)</h2>
+        <h2 class="gsl-h2">Part 4: Westerly Era Continued (1984 to 1989)</h2>
         <p>
           During this high-production era, Guild continued model-specific serialization. Match your model to
           find the <strong>last</strong> serial number of that year.
@@ -227,24 +227,24 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <GuildTable
           headers={westerly1984.headers}
           rows={westerly1984.rows}
-          caption="Westerly Era Continued (1984–1989), last serial of each year"
+          caption="Westerly Era Continued (1984 to 1989), last serial of each year"
         />
       </section>
 
       <!-- ============ Part 5 ============ -->
       <section class="gsl-section" id="part5">
-        <h2 class="gsl-h2">Part 5: The 90s Transition Era (1990–1994)</h2>
+        <h2 class="gsl-h2">Part 5: The 90s Transition Era (1990 to 1994)</h2>
         <p>Guild continued model-specific serialization through 1994.</p>
         <GuildTable
           headers={transition1990.headers}
           rows={transition1990.rows}
-          caption="The 90s Transition Era (1990–1994), last serial of each year"
+          caption="The 90s Transition Era (1990 to 1994), last serial of each year"
         />
       </section>
 
       <!-- ============ Part 6 ============ -->
       <section class="gsl-section" id="part6">
-        <h2 class="gsl-h2">Part 6: Expansion and Model Prefixes (1994–1996)</h2>
+        <h2 class="gsl-h2">Part 6: Expansion and Model Prefixes (1994 to 1996)</h2>
         <p>
           For 1994, factory records typically provide only the model prefix and the last serial number. For 1995
           and 1996, Guild returned to providing full production ranges (first and last serial numbers) for each
@@ -253,13 +253,13 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <GuildTable
           headers={expansion1994.headers}
           rows={expansion1994.rows}
-          caption="Expansion and Model Prefixes (1994–1996)"
+          caption="Expansion and Model Prefixes (1994 to 1996)"
         />
       </section>
 
       <!-- ============ Part 7 ============ -->
       <section class="gsl-section" id="part7">
-        <h2 class="gsl-h2">Part 7: Late Westerly Era (1997–1999)</h2>
+        <h2 class="gsl-h2">Part 7: Late Westerly Era (1997 to 1999)</h2>
         <p>
           As the 1990s progressed, Guild provided detailed beginning and ending serial-number ranges for each
           model. This chart covers 1997 production, including several well-known acoustics and the continuation
@@ -272,7 +272,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
       <section class="gsl-section" id="part8">
         <h2 class="gsl-h2">Part 8: Modern Julian Dating &amp; Authentication Checklist</h2>
 
-        <h3 class="gsl-h3">The Julian Dating System (2005–Present)</h3>
+        <h3 class="gsl-h3">The Julian Dating System (2005 to Present)</h3>
         <p>
           For Guild instruments built in Tacoma, Washington (from February 2005) or New Hartford, Connecticut
           (from December 2008), a specialized serial system is used. These numbers consist of two letters
@@ -281,7 +281,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <ul class="gsl-list">
           <li><strong>Factory Location:</strong> the first letter identifies the plant (<strong>T</strong> for Tacoma, <strong>N</strong> for New Hartford).</li>
           <li><strong>Year Code:</strong> the second letter identifies the year. <strong>I</strong>=2005, <strong>J</strong>=2006, <strong>K</strong>=2007, <strong>L</strong>=2008, <strong>M</strong>=2009, <strong>N</strong>=2010.</li>
-          <li><strong>Julian Day:</strong> the first three digits give the day of the year (001–365).</li>
+          <li><strong>Julian Day:</strong> the first three digits give the day of the year (001 to 365).</li>
           <li><strong>Unit Number:</strong> the final three digits are the specific unit built that day.</li>
         </ul>
         <div class="gsl-callout gsl-callout--tip">
@@ -310,8 +310,8 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
 
         <h3 class="gsl-h3">1. Internal Labels</h3>
         <ul class="gsl-list">
-          <li><strong>Hoboken Era (1950s–60s):</strong> look for a white label explicitly stating &ldquo;Hoboken, New Jersey.&rdquo;</li>
-          <li><strong>Westerly Era (1970s–90s):</strong> these typically moved to a cream or tan label.</li>
+          <li><strong>Hoboken Era (1950s to 1960s):</strong> look for a white label explicitly stating &ldquo;Hoboken, New Jersey.&rdquo;</li>
+          <li><strong>Westerly Era (1970s to 1990s):</strong> these typically moved to a cream or tan label.</li>
           <li><strong>Consistency:</strong> always make sure the serial number on the label matches the number stamped on the back of the headstock exactly.</li>
         </ul>
 

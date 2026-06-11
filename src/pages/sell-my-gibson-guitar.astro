@@ -172,7 +172,7 @@ const faqSchema = {
     name: f.q.replace(/&[a-z]+;/g, (s) => ({ "&rsquo;": "’", "&ldquo;": "“", "&rdquo;": "”", "&amp;": "&" }[s] ?? s)),
     acceptedAnswer: {
       "@type": "Answer",
-      text: f.a.replace(/&[a-z]+;/g, (s) => ({ "&rsquo;": "’", "&ldquo;": "“", "&rdquo;": "”", "&amp;": "&", "&mdash;": "—" }[s] ?? s)),
+      text: f.a.replace(/&[a-z]+;/g, (s) => ({ "&rsquo;": "’", "&ldquo;": "“", "&rdquo;": "”", "&amp;": "&", "—": "—" }[s] ?? s)),
     },
   })),
 };

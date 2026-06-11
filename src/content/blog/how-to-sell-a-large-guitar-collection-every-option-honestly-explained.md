@@ -129,7 +129,7 @@ Buyers expect tracking numbers fast, usually within 1 to 2 business days of paym
 
 ### Returns and Disputes
 
-Reverb's buyer protection program tilts toward buyers in disputes. If a buyer claims an item arrived not as described, Reverb will often side with them even when your listing was accurate, particularly if your photos weren't comprehensive. Another reason exhaustive photo documentation matters. Set a clear return policy. Thirty days with the buyer paying return shipping is standard for most professional sellers. Factor potential return costs into your pricing on expensive pieces.
+Reverb's buyer protection program tilts toward buyers in disputes. If a buyer claims an item arrived not as described, Reverb will often side with them even when your listing was accurate, particularly if your photos left gaps. Another reason exhaustive photo documentation matters. Set a clear return policy. Thirty days with the buyer paying return shipping is standard for most professional sellers. Factor potential return costs into your pricing on expensive pieces.
 
 ### The Actual Time Commitment on Reverb
 
@@ -245,12 +245,12 @@ Some of the most targeted buyers for specific vintage categories live in private
 | Platform | Fees (approx.) | Buyer Quality | Best For | Biggest Friction |
 | --- | --- | --- | --- | --- |
 | **Reverb** | ~8% | High, instrument-educated | Most guitars, vintage, boutique | Shipping labor, high message volume |
-| **eBay** | ~13–15%+ | Mixed, broad audience | Rare vintage, parts, accessories | High fees, buyer-tilted returns |
+| **eBay** | ~13 to 15%+ | Mixed, broad audience | Rare vintage, parts, accessories | High fees, buyer-tilted returns |
 | **Facebook Marketplace** | Free (local) | Low to medium, casual players | Production guitars, local cash sales | No-shows, lowballers, time-wasters |
 | **Craigslist** | Free | Low, local only | Player-grade, sub-$1K, local only | No-shows, safety, shallow pool |
 | **Reddit / TGP** | Free to small | High, community-vetted | Boutique, modern, enthusiast gear | Requires reputation/account history |
-| **Consignment** | 30–40% | Medium, walk-in retail | Hands-off sellers, mid-range stock | Huge commission, slow, no control |
-| **Auction Houses** | 10–25% | Very high, serious collectors | Museum-quality, pre-war, trophy pieces | Long timeline, high minimum quality bar |
+| **Consignment** | 30 to 40% | Medium, walk-in retail | Hands-off sellers, mid-range stock | Huge commission, slow, no control |
+| **Auction Houses** | 10 to 25% | Very high, serious collectors | Museum-quality, pre-war, trophy pieces | Long timeline, high minimum quality bar |
 | **Joe's Vintage Guitars** | No fees | Direct sale, you deal with us | Entire collections, vintage, serious instruments | Wholesale pricing (offset by zero time cost) |
 
 <h2 id="true-cost">The True Cost of Selling It Yourself</h2>

@@ -27,7 +27,7 @@ Table Of Contents
 
 <h2 id="how-can-you-determine-that-your-vintage-guitar-is-still-valuable">How Can You Determine That Your Vintage Guitar Is Still Valuable</h2>
 
-Knowing the instruments’ value is essential when purchasing or selling vintage guitars. Not only can you get a better price if you know your guitar’s value, but you also have a better idea of whether or not you should sell it in an auction or try to resell it privately.
+Knowing the instruments’ value is essential when purchasing or selling vintage guitars. If you know your guitar’s value, you can get a better price, and you have a better idea of whether or not you should sell it in an auction or try to resell it privately.
 
 Each guitar is unique and has its own story to tell, so do your research before buying or selling one. In this blog post, we’ll explain some factors that can help you determine the value of your vintage guitar so you can sell it to a trusted [**vintage guitar collector**](/about-me/). 
 

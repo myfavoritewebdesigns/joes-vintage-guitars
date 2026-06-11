@@ -16,7 +16,7 @@ Authentication Guide · Fender Solid Body · 1959
 
 A year-specific reference for identifying, dating, and authenticating a genuine 1959 Fender Telecaster, covering the transitional details that make this one of the trickiest years in Tele history
 
-<figure><img alt="1959 Fender Telecaster blonde front view, white blond nitrocellulose finish, single-ply white pickguard, slab rosewood neck, pre-CBS Fullerton production" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-blonde-1-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1959 Fender Telecaster Blonde.</strong> A good example of the most transitional year in Telecaster history. This mid-to-late 1959 example shows the slab rosewood neck, single-ply white pickguard, and white blond nitrocellulose finish over an ash body. Note the threaded steel saddles and the characteristic slim profile that distinguished 1959 necks from the thicker profiles of 1957–58.</figcaption></figure>
+<figure><img alt="1959 Fender Telecaster blonde front view, white blond nitrocellulose finish, single-ply white pickguard, slab rosewood neck, pre-CBS Fullerton production" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-blonde-1-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1959 Fender Telecaster Blonde.</strong> A good example of the most transitional year in Telecaster history. This mid-to-late 1959 example shows the slab rosewood neck, single-ply white pickguard, and white blond nitrocellulose finish over an ash body. Note the threaded steel saddles and the characteristic slim profile that distinguished 1959 necks from the thicker profiles of 1957 to 1958.</figcaption></figure>
 
 -   [Why 1959 Is the Most Complex Year](#why1959)
 -   [At-a-Glance Specifications](#specs)
@@ -40,7 +40,7 @@ No other year in the Telecaster's history packs as many simultaneous changes as 
 
 The result is that **a genuine 1959 Telecaster can look dramatically different depending on when in 1959 it was built**. An early-1959 example has a one-piece maple neck, a top-loading bridge, and the same basic specification as a late 1958. A late-1959 example has a thick slab rosewood board, a string-through bridge, a slim "D" neck profile, and clay dot inlays. These are not the same guitar in the eyes of collectors, and knowing exactly where on that timeline a given instrument falls is the core challenge of authenticating a 1959.
 
-**1\. Maple or slab rosewood neck?** Maple necks run January–approximately March/April 1959; slab rosewood from approximately April onward. Early maple-neck 1959s are exceptionally rare and valuable.
+**1\. Maple or slab rosewood neck?** Maple necks run January to approximately March/April 1959; slab rosewood from approximately April onward. Early maple-neck 1959s are exceptionally rare and valuable.
 
 **2\. Top loader or string-through bridge?** Top-loading bridges were standard from mid-1958 through mid-1959. String-through returned in mid-to-late 1959. Many 1959 examples have a bridge with *both sets of holes*, the transition hardware. This is discussed in detail in Section 06.
 
@@ -90,29 +90,29 @@ The introduction of the rosewood fingerboard is the defining change of 1959, the
 
 The original Telecaster configuration from 1950 through approximately March/April 1959. The neck and fretboard are a single piece of maple, with the frets seated directly in the maple. The playing surface was finished with a thin coat of lacquer.
 
--   **Period:** January–approximately March/April 1959
+-   **Period:** January to approximately March/April 1959
 -   **Rarity:** Extremely rare, small fraction of total 1959 production
 -   **Identification:** No glue line between neck and fretboard; single piece of wood all the way through; no skunk stripe on back (that came with the rosewood board)
 -   **Value premium:** Very significant, maple-neck 1959s are among the most desirable early Telecasters
 
 The new configuration first used on the Jazzmaster in 1958 and introduced to the Telecaster in the spring of 1959. A thick, flat-bottomed slab of rosewood (approximately 4.8mm) is glued directly onto the maple neck, with its flat underside matching the flat-milled top of the neck. This is the "slab." It has a completely flat glue surface, unlike the thinner curved "veneer" board that replaced it in mid-1962.
 
--   **Period:** Approximately April 1959–mid 1962
+-   **Period:** Approximately April 1959 to mid 1962
 -   **Rarity:** More common than maple-neck '59s but still pre-CBS desirability
 -   **Identification:** Visible glue line at headstock (rosewood meets maple); skunk stripe on back of neck; thick rosewood with flat underside when viewed at headstock end
 -   **Value premium:** Slab boards command a premium over later veneer boards
 
 <figure><img alt="1959 Fender Telecaster early maple board nut area showing one-piece maple neck with no glue line, early 1959 pre-rosewood configuration" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-blonde-maple-board-example.jpg" loading="lazy" decoding="async"><figcaption><strong>Early 1959: one-piece maple neck.</strong> At the nut area, the single piece of maple continues uninterrupted, no glue line, no separate fretboard. The playing surface is lacquered maple. This configuration was used from the Telecaster's 1950 debut through approximately March/April 1959, making genuine maple-neck 1959s exceptionally rare.</figcaption></figure>
 
-<figure><img alt="1959 Fender Telecaster thick slab rosewood fingerboard nut area showing glue line and approximately 4.8mm board thickness, mid to late 1959" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-slab-rosewood-board.jpg" loading="lazy" decoding="async"><figcaption><strong>Mid–late 1959: thick slab rosewood board.</strong> At the headstock end, the glue line between the rosewood slab and the maple neck is clearly visible. The rosewood is approximately 4.8mm thick, noticeably deeper than the veneer board used from mid-1962 onward. The flat underside of the slab (milled flat to mate with the neck blank) distinguishes it from the curved veneer.</figcaption></figure>
+<figure><img alt="1959 Fender Telecaster thick slab rosewood fingerboard nut area showing glue line and approximately 4.8mm board thickness, mid to late 1959" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-slab-rosewood-board.jpg" loading="lazy" decoding="async"><figcaption><strong>Mid-to-late 1959: thick slab rosewood board.</strong> At the headstock end, the glue line between the rosewood slab and the maple neck is clearly visible. The rosewood is approximately 4.8mm thick, noticeably deeper than the veneer board used from mid-1962 onward. The flat underside of the slab (milled flat to mate with the neck blank) distinguishes it from the curved veneer.</figcaption></figure>
 
 ### Identifying a Slab vs. Veneer Board
 
-The slab rosewood board (1959–mid-1962) and the veneer rosewood board (mid-1962–mid-1960s) can look nearly identical from the playing surface. The key is to look at the **headstock end of the neck**, where the rosewood meets the maple at the nut area:
+The slab rosewood board (1959 to mid-1962) and the veneer rosewood board (mid-1962 to mid-1960s) can look nearly identical from the playing surface. The key is to look at the **headstock end of the neck**, where the rosewood meets the maple at the nut area:
 
 -   Slab board thicknessApproximately **4.8mm thick**, visibly substantial. When you look at the headstock end from the front, the rosewood occupies a significant portion of the neck depth. The glue line between the rosewood and maple sits well below the fretboard surface.
 -   Slab board undersideThe underside of a slab board is **completely flat**. It was milled flat to glue directly onto the flat top of the neck blank. On veneer boards the underside follows the curve of the neck radius.
--   Veneer board thicknessMuch thinner, approximately 2–2.5mm. The rosewood contributes less visual depth at the headstock end, and the neck wood is visible much higher relative to the fretboard surface.
+-   Veneer board thicknessMuch thinner, approximately 2 to 2.5mm. The rosewood contributes less visual depth at the headstock end, and the neck wood is visible much higher relative to the fretboard surface.
 -   Truss rod accessBoth slab and veneer boards adjust at the **neck heel** (not the headstock). The truss rod slot opening on a slab board's headstock end shows the rosewood slightly intruding into the slot opening. This was noted as a period-correct detail.
 -   Skunk stripeBoth maple-neck and slab-board necks have a **walnut skunk stripe** on the back of the neck, the channel for the truss rod, routed from the back and filled with a contrasting wood strip. Absence of a skunk stripe suggests a non-original neck.
 
@@ -120,7 +120,7 @@ All 1959 rosewood-board Telecasters use **clay dot inlays**, a dull, slightly ch
 
 ### Neck Profile
 
-The 1959 neck profile is a **slim "D" shape**, the result of a progressive thinning that began around 1957–58 after the thicker "V" necks of 1955–56 and the transitional rounder profiles of 1957. By 1959, Telecaster necks had become quite slim, with the slimmest examples appearing toward year-end. Typical measurements: approximately 0.82"–0.90" deep at the first fret and 0.94"–1.00" at the twelfth fret. Players with large hands sometimes find these necks uncomfortably thin; conversely, they are beloved by players who want maximum speed and comfort.
+The 1959 neck profile is a **slim "D" shape**, the result of a progressive thinning that began around 1957 to 1958 after the thicker "V" necks of 1955 to 1956 and the transitional rounder profiles of 1957. By 1959, Telecaster necks had become quite slim, with the slimmest examples appearing toward year-end. Typical measurements: approximately 0.82" to 0.90" deep at the first fret and 0.94" to 1.00" at the twelfth fret. Players with large hands sometimes find these necks uncomfortably thin; conversely, they are beloved by players who want maximum speed and comfort.
 
 The nut width is the standard Fender specification of **1 5/8"**, not widened to 1 11/16" as on vintage Gibsons of the same period. This remained constant throughout the 1950s Telecaster production.
 
@@ -130,13 +130,13 @@ The nut width is the standard Fender specification of **1 5/8"**, not widened to
 
 This is one of the most misunderstood aspects of late-1950s Telecaster authentication. The answer depends on the finish:
 
--   Blonde finish**Ash body.** Standard blond Telecasters used swamp ash throughout the 1950s. Ash is semi-transparent under a blond finish, the wood grain shows through as a warm, visible pattern. Ash is also noticeably heavier than alder, typically putting a blond 1959 Tele in the 7–8+ lb range.
+-   Blonde finish**Ash body.** Standard blond Telecasters used swamp ash throughout the 1950s. Ash is semi-transparent under a blond finish, the wood grain shows through as a warm, visible pattern. Ash is also noticeably heavier than alder, typically putting a blond 1959 Tele in the 7 to 8+ lb range.
 -   Custom colors / sunburst**Alder body.** When Fender produced Telecasters in opaque or semi-opaque finishes (custom colors, the Telecaster Custom's sunburst), they used alder, a lighter, less visually dramatic wood that was easier to finish with solid colors. An alder-bodied blond Telecaster from this era is unusual and merits investigation.
 -   Visual testUnder a blond finish, ash shows characteristic long, open grain lines and a slightly golden color. Alder grain is finer and less visually distinct. If the finish is blond but the grain is very tight and uniform, look more carefully at what's underneath.
 
 ### The White Blond Finish
 
-The standard 1959 Telecaster finish is a **white blond nitrocellulose lacquer** applied semi-transparently over the ash body. This finish is meaningfully different from the butterscotch blond used on 1950–1954 Telecasters. The 1954–1959 blond is lighter, whiter, and more opaque. It hides more grain than the deep golden tints of the early-1950s instruments.
+The standard 1959 Telecaster finish is a **white blond nitrocellulose lacquer** applied semi-transparently over the ash body. This finish is meaningfully different from the butterscotch blond used on 1950 to 1954 Telecasters. The 1954 to 1959 blond is lighter, whiter, and more opaque. It hides more grain than the deep golden tints of the early-1950s instruments.
 
 Aged 1959 blond finishes typically show: **fine checking** across the body and neck, a slight yellowing toward tan in areas of heavy UV exposure, and characteristic nitrocellulose crazing that is distinctly different from the even, thick appearance of a polyurethane finish. The lacquer is thin by modern standards. You can feel the grain through it when the guitar is new, and after 65 years of shrinkage, the grain telegraphs strongly through the finish.
 
@@ -146,7 +146,7 @@ Fender suspended guitar bodies from nails during the finishing process. On pre-m
 
 ### The Pickguard
 
-Standard 1959 Telecasters carry a **single-ply white pickguard**, a thick, opaque white plastic piece. This replaced the thin black Bakelite guard of 1950–1954. The white guard changed to a three-ply mint green celluloid guard on *all* models in 1963, so a three-ply guard on a claimed 1959 is a replacement (or indicates the instrument is the Custom model, see Section 11).
+Standard 1959 Telecasters carry a **single-ply white pickguard**, a thick, opaque white plastic piece. This replaced the thin black Bakelite guard of 1950 to 1954. The white guard changed to a three-ply mint green celluloid guard on *all* models in 1963, so a three-ply guard on a claimed 1959 is a replacement (or indicates the instrument is the Custom model, see Section 11).
 
 The white pickguard on an original 1959 will show the characteristic yellowing and aging of period plastics. It should not look bright white and pristine after 65 years. Check the underside; original guards show Fender's pencil marks or routing marks from the factory, and the screw holes should show the same patina as the rest of the hardware.
 
@@ -188,7 +188,7 @@ The top-loader and string-through configurations overlapped throughout 1959 and 
 
 ### Bridge Saddles
 
-All 1959 Telecasters use **three paired threaded steel saddles**, six strings across three adjustable saddle units. These replaced the smooth steel saddles used in 1954–1957 and the briefly-used smooth saddles before that. The threaded saddles are chrome-plated steel and show a distinctive knurled/threaded surface. Each saddle is adjusted for height via a single height-adjustment screw and for intonation by moving the saddle fore or aft on the bridge plate.
+All 1959 Telecasters use **three paired threaded steel saddles**, six strings across three adjustable saddle units. These replaced the smooth steel saddles used in 1954 to 1957 and the briefly-used smooth saddles before that. The threaded saddles are chrome-plated steel and show a distinctive knurled/threaded surface. Each saddle is adjusted for height via a single height-adjustment screw and for intonation by moving the saddle fore or aft on the bridge plate.
 
 Original threaded saddles show consistent chrome plating and period-appropriate patina. Later replacement saddles (brass, stainless, or modern compensated steel versions) are immediately identifiable by their different material and appearance. Original threaded steel saddles that show rust pitting are authentic, steel saddles of this era are prone to it.
 
@@ -200,13 +200,13 @@ Original threaded saddles show consistent chrome plating and period-appropriate 
 
 The 1959 Telecaster bridge pickup is a **single-coil unit mounted to the bridge plate**, not to the body or pickguard. It sits in a chrome baseplate that is part of the ashtray bridge assembly. The pickup cover is **chrome-plated steel**, the characteristic look of the Telecaster bridge pickup. The poles are flush to the cover or barely protruding.
 
-Original 1959 bridge pickups use **formvar-coated wire** and typically read approximately **6.5–7.5k ohms** DC resistance. The bridge pickup carries the staggered pole pieces introduced in 1955, the bass strings (E, A, D) have slightly taller poles than the treble strings (G, B, E) to compensate for the imbalanced output of wound vs. plain strings. A bridge pickup without staggered poles is earlier (pre-1955) or a replacement.
+Original 1959 bridge pickups use **formvar-coated wire** and typically read approximately **6.5 to 7.5k ohms** DC resistance. The bridge pickup carries the staggered pole pieces introduced in 1955, the bass strings (E, A, D) have slightly taller poles than the treble strings (G, B, E) to compensate for the imbalanced output of wound vs. plain strings. A bridge pickup without staggered poles is earlier (pre-1955) or a replacement.
 
-<figure><img alt="Back of 1959 Fender Telecaster bridge pickup showing chrome baseplate, period-correct construction, and formvar-coated wire leads" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-pickup-2048x1536.jpg" loading="lazy" decoding="async"><figcaption><strong>Back of the 1959 Fender Telecaster bridge pickup.</strong> The chrome baseplate, original construction, and cloth-covered leads are all visible here. A date code may be stamped on the baseplate or written on cloth tape. Original formvar-wound 1959 bridge pickups read approximately 6.5–7.5k ohms, significantly outside this range suggests a rewind or replacement. The staggered pole pieces are visible from the front: bass-side poles are taller than treble-side.</figcaption></figure>
+<figure><img alt="Back of 1959 Fender Telecaster bridge pickup showing chrome baseplate, period-correct construction, and formvar-coated wire leads" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-pickup-2048x1536.jpg" loading="lazy" decoding="async"><figcaption><strong>Back of the 1959 Fender Telecaster bridge pickup.</strong> The chrome baseplate, original construction, and cloth-covered leads are all visible here. A date code may be stamped on the baseplate or written on cloth tape. Original formvar-wound 1959 bridge pickups read approximately 6.5 to 7.5k ohms, significantly outside this range suggests a rewind or replacement. The staggered pole pieces are visible from the front: bass-side poles are taller than treble-side.</figcaption></figure>
 
 ### Neck Pickup
 
-The neck pickup on a 1959 Telecaster is mounted in the neck cavity with its cover **sitting flush to the pickguard surface**. The cover is also chrome-plated steel. The neck pickup typically reads approximately **5.5–6.5k ohms**, lower output than the bridge, contributing to the warmer, rounder tone of the neck position.
+The neck pickup on a 1959 Telecaster is mounted in the neck cavity with its cover **sitting flush to the pickguard surface**. The cover is also chrome-plated steel. The neck pickup typically reads approximately **5.5 to 6.5k ohms**, lower output than the bridge, contributing to the warmer, rounder tone of the neck position.
 
 Original 1959 neck pickups use the same formvar wire. The pickup leads run under the pickguard to the control plate. Both pickups should show cloth-covered leads, plastic-insulated wiring on the pickups indicates a rewire or replacement.
 
@@ -248,7 +248,7 @@ The **4-bolt neck plate** is a plain chrome-plated steel plate with no logo or m
 
 The neck pocket, the routed cavity in the body that receives the neck, should fit the neck snugly. A loose neck pocket is often a sign of a neck replacement.
 
-<figure><img alt="1959 Fender Telecaster neck plate showing 5-digit serial number in 30000-40000 range, four Phillips head screws, and electrode mark from chrome plating" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-blonde-neck-plate-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1959 Fender Telecaster neck plate.</strong> The plain chrome neck plate carries a 5-digit serial in the approximately 30000–40000 range for 1959 production. Note the four Phillips-head screws (the transition from slot-head was complete by 1953) and the small electrode mark, a slightly rougher spot where the plating fixture was attached during the chrome process. This mark appears on both the neck plate and the control plate and is a period-authentic detail. The serial alone cannot confirm 1959, always cross-reference with the neck heel date, body date, and pot codes.</figcaption></figure>
+<figure><img alt="1959 Fender Telecaster neck plate showing 5-digit serial number in 30000-40000 range, four Phillips head screws, and electrode mark from chrome plating" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-blonde-neck-plate-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1959 Fender Telecaster neck plate.</strong> The plain chrome neck plate carries a 5-digit serial in the approximately 30000 to 40000 range for 1959 production. Note the four Phillips-head screws (the transition from slot-head was complete by 1953) and the small electrode mark, a slightly rougher spot where the plating fixture was attached during the chrome process. This mark appears on both the neck plate and the control plate and is a period-authentic detail. The serial alone cannot confirm 1959, always cross-reference with the neck heel date, body date, and pot codes.</figcaption></figure>
 
 ### Output Jack
 
@@ -260,7 +260,7 @@ The output jack is a standard **Switchcraft 1/4" jack** mounted on the side of t
 
 The 1959 Telecaster headstock carries the classic **"spaghetti" Fender logo**, a thin, cursive script decal in silver/chrome with the Fender name in an elegantly flowing font. This logo is called "spaghetti" by collectors because of the thin, noodle-like strokes of the lettering. Below the Fender name, in smaller text, is the model name "Telecaster."
 
-The spaghetti logo was used through approximately 1964–65, when it was replaced by the thicker "transition" logo and then the bold CBS-era logo. Key authenticity points:
+The spaghetti logo was used through approximately 1964 to 1965, when it was replaced by the thicker "transition" logo and then the bold CBS-era logo. Key authenticity points:
 
 -   MaterialWater-slide decal applied **on top of the finish**, not a silkscreen. On an original 1959, the decal sits on the lacquer surface and is protected by a clear topcoat. The logo may show very slight edge relief but should not feel raised in a way that suggests a fresh re-application. A logo that sits well above the surface with no clear topcoat over it has likely been replaced.
 -   Patent numbersThe 1959 Telecaster headstock decal includes **two patent numbers** below the model name: "2,573,254" and "2,784,631." The presence of both patent numbers is correct for 1959. Note that the second patent number was added in 1959, earlier examples have only one. A claimed 1959 with only one patent number may be from early 1959 or earlier.
@@ -291,10 +291,10 @@ Because the 1959 serial number is so unreliable as a standalone tool, building a
 | **Body date** | Bridge pickup cavity, under bridge plate | Month and year body was routed/prepared. Format: M-YY (e.g., "4-59") | High, but body and neck dates can differ by months |
 | **Pot codes** | Back of volume and tone pots, remove control plate | Earliest possible assembly date. Format: MFRYYWW (manufacturer, year, week) | High, gives earliest assembly floor |
 | **Pickup date** | Bottom of pickup, may be stamped or written on cloth tape | Approximate manufacture date of the pickup; not always present | Moderate, corroborating evidence |
-| **Neck plate serial** | Metal plate on back, neck-body junction | Approximate era only, ~30000–40000 is 1959 range | Low standalone, use only for broad era confirmation |
+| **Neck plate serial** | Metal plate on back, neck-body junction | Approximate era only, ~30000 to 40000 is 1959 range | Low standalone, use only for broad era confirmation |
 | **Physical features** | Bridge type, board type, dot material, knobs, logo | Which part of 1959 based on feature transitions | High when features align |
 
-Early 1959: maple neck + likely top-loader bridge + serial ~30000–33000. Mid-1959: blank neck heel + slab rosewood appearing + serial ~32000–36000. Late 1959: slab rosewood + date stamp or blank heel + slim D profile + serial ~35000–40000. Bridge configuration (top loader, dual hole, or string-through) overlaps throughout the year and is a supporting detail, not a defining one, use neck date, body date, and pot codes as the primary sources.
+Early 1959: maple neck + likely top-loader bridge + serial ~30000 to 33000. Mid-1959: blank neck heel + slab rosewood appearing + serial ~32000 to 36000. Late 1959: slab rosewood + date stamp or blank heel + slim D profile + serial ~35000 to 40000. Bridge configuration (top loader, dual hole, or string-through) overlaps throughout the year and is a supporting detail, not a defining one, use neck date, body date, and pot codes as the primary sources.
 
 ## The Telecaster Custom, New for 1959
 
@@ -350,7 +350,7 @@ Work through each item systematically. Every confirmation adds confidence; any c
 
 ### Serial & Dating Sources
 
--   Serial number is on the neck plate (not the bridge or headstock), 5 digits, no prefix, range ~30000–40000
+-   Serial number is on the neck plate (not the bridge or headstock), 5 digits, no prefix, range ~30000 to 40000
 -   Neck heel date present (penciled or stamped) and reads 1959, OR heel is blank (consistent with mid-1959 transition window)
 -   Body date in bridge pickup cavity reads 1959
 -   Pot codes read 1959 (Stackpole 304 or Centralab 134 manufacturer codes)
@@ -359,11 +359,11 @@ Work through each item systematically. Every confirmation adds confidence; any c
 ### Neck & Fingerboard
 
 -   Early 1959: one-piece maple neck, no visible glue line, lacquered playing surface, dot inlays are black on the maple board
--   Mid–late 1959: thick slab rosewood (~4.8mm) with flat-milled underside; visible glue line at headstock end
+-   Mid-to-late 1959: thick slab rosewood (~4.8mm) with flat-milled underside; visible glue line at headstock end
 -   Skunk stripe present on back of neck regardless of board type
 -   Dot inlays are clay, dull, matte, off-white/tan (NOT shiny pearloid)
 -   12th fret dots are positioned relatively close to the neck edge (period-specific detail)
--   Neck profile is slim D, thinner than 1957–58 examples
+-   Neck profile is slim D, thinner than 1957 to 1958 examples
 -   Nut width is 1 5/8"
 -   Truss rod adjusts at the neck heel (not at the headstock)
 
@@ -379,7 +379,7 @@ Work through each item systematically. Every confirmation adds confidence; any c
 ### Bridge
 
 -   Top-loader bridge (string holes at back of plate only, no body ferrules) is common on 1959 but not exclusive. Both configurations appear throughout the year
--   Mid–late 1959: transitional dual-hole bridge (both sets of holes) OR string-through body with ferrules
+-   Mid-to-late 1959: transitional dual-hole bridge (both sets of holes) OR string-through body with ferrules
 -   Bridge plate shows "Pat. Pending" or "Pat. Pend." stamp, period-correct for this era
 -   Saddles are threaded steel (3 paired), NOT smooth steel, NOT brass, NOT compensated modern
 -   Bridge configuration (top loader, dual hole, or string-through) is a supporting detail, cross-reference with neck date and pot codes rather than treating it as definitive
@@ -387,7 +387,7 @@ Work through each item systematically. Every confirmation adds confidence; any c
 ### Electronics
 
 -   All hookup wiring is cloth-covered, no plastic-insulated wire
--   Bridge pickup DC resistance ~6.5–7.5k ohms; neck ~5.5–6.5k ohms
+-   Bridge pickup DC resistance ~6.5 to 7.5k ohms; neck ~5.5 to 6.5k ohms
 -   Original or early wiring scheme (bass-heavy neck cap in position 1), if rewired, note it
 -   Switchcraft jack, CRL or equivalent switch
 

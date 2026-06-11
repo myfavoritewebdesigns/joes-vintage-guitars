@@ -28,7 +28,7 @@ A hardtail Stratocaster lacks the routed-out tremolo cavity and the spring-tensi
 
 Look closely at the chrome bridge plate on this 1960 Stratocaster: you’ll notice there is no hole for a tremolo arm. Unlike a “blocked” or “decked” tremolo, a true factory hardtail features a solid bridge plate screwed directly into the body, providing the superior resonance and tuning stability that makes these rare pre-CBS models so special.
 
-## The “In-Between” Vibe: Strat meets Tele
+## The “In-Between” Vibe: Strat Meets Tele
 
 I personally have a huge soft spot for these guitars. To me, a hardtail Stratocaster sits right in the sweet spot between a traditional Strat and a Telecaster. You get the ergonomic contours and the versatile three-pickup “quack” of a Strat, but you gain the punchy, immediate attack and tuning stability of a Tele.
 
@@ -59,7 +59,7 @@ In a traditional Strat, the string vibration has to travel through the saddle, i
 
 The transition from the 1950s into the 1960s saw the Stratocaster evolve significantly, and the hardtail models followed suit. While they remained a staple of the Fender catalog, they were produced in much smaller numbers than their tremolo-equipped counterparts. If you need help dating your stratocaster, please visit our [**Fender serial number guide.**](/post/fender-guitars-serial-number-guide/)
 
-### 1954–1964: The Pre-CBS Era
+### 1954 to 1964: The Pre-CBS Era
 
 During these early years, hardtails were a consistent option, but they were far from the “standard.” Early 1954 to mid-1956 models typically featured ash bodies, while most guitars produced after 1956 shifted to alder. Similarly, neck profiles moved from the chunky “D” and “V” shapes of the mid-50s to the slimmer “C” profiles of the early 60s.
 

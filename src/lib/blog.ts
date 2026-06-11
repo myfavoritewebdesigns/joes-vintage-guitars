@@ -15,7 +15,7 @@ export const CATEGORY_META: Record<string, { name: string; description: string }
   "specific-model-highlights": {
     name: "Specific Model Highlights",
     description:
-      "Deep-dive authentication and spec guides for individual vintage models — year-by-year details, originality checks, and what collectors look for.",
+      "Deep-dive authentication and spec guides for individual vintage models: year-by-year details, originality checks, and what collectors look for.",
   },
   "value-evaluation": {
     name: "Value & Evaluation",

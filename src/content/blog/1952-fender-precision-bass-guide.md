@@ -52,7 +52,7 @@ In late 1951, Leo Fender did something no one in the music industry believed was
 
 The **early slab-body Fender Precision Bass**, covering production from late 1951 through 1953, is now recognized as one of the most historically significant instruments ever manufactured. It predates the Stratocaster. It predates the modern music industry's infrastructure of studios, amplifiers, and live sound reinforcement that would eventually be built around it. This guide covers all three years of the original slab-body run together, because the construction philosophy, the authentication details, and the collecting criteria are largely shared across 1951, 1952, and 1953 production, with important and specific differences noted where they exist.
 
-For the vintage collector, these instruments represent one of the most rewarding, and most challenging, authentication exercises in the Fender world. The details that define a genuine example are extraordinarily specific, and many of them changed not just year to year but *within* a single year of production. This guide covers every authentication point in exhaustive detail.
+For the vintage collector, these instruments represent one of the most rewarding, and most challenging, authentication exercises in the Fender world. The details that define a genuine example are extraordinarily specific, and many of them changed year to year, even *within* a single year of production. This guide covers every authentication point in exhaustive detail.
 
 If you own an early Fender Precision Bass and want an expert evaluation, [Joe's Vintage Guitars makes it easy to sell your guitar nationwide](/), free market appraisals, no pressure, and we arrange all shipping from anywhere in the US.
 
@@ -82,7 +82,7 @@ Fender in the early 1950s did not assemble instruments from a perfectly synchron
 
 A difference of **under twelve months** between a neck date and a body date on an early Fender instrument is entirely consistent with authentic factory production. This is not a red flag. It is not evidence of a parts swap. It is how Fender built guitars and basses in this period, and experienced collectors and authenticators expect to see it. What would be unusual, and genuinely worth scrutinizing, is a date discrepancy of more than roughly twelve months, or dates that don't make sense relative to the instrument's serial number range.
 
-When you encounter a 1951–1953 Precision Bass with a neck dated a few months earlier or later than the body, do not dismiss the instrument. Instead, verify that both dates are consistent with the serial number, that both are in the correct format and location for the period, and that the overall picture of the instrument, finish, hardware, electronics, is internally consistent. A neck date of late 1952 and a body date of early 1953 on the same instrument is perfectly normal and says nothing negative about the instrument's originality.
+When you encounter a 1951 to 1953 Precision Bass with a neck dated a few months earlier or later than the body, do not dismiss the instrument. Instead, verify that both dates are consistent with the serial number, that both are in the correct format and location for the period, and that the overall picture of the instrument, finish, hardware, electronics, is internally consistent. A neck date of late 1952 and a body date of early 1953 on the same instrument is perfectly normal and says nothing negative about the instrument's originality.
 
 ## The Body, Finish & Visual Aging
 
@@ -170,7 +170,7 @@ There is **no pickup cover** on these early instruments; the pickup sits exposed
 
 These early instruments do **not** have a pickup cover. The pickup sits fully exposed in its routed cavity. A chrome cover fitted over the pickup on one of these basses has been added after the fact and is not original to the instrument.
 
-The pickup typically measures in the range of **10,000–13,000 ohms (10k–13k Ω) DC resistance**. A reading of infinite resistance indicates a broken coil. Significantly out-of-range readings suggest the coil has been rewound.
+The pickup typically measures in the range of **10,000 to 13,000 ohms (10k to 13k Ω) DC resistance**. A reading of infinite resistance indicates a broken coil. Significantly out-of-range readings suggest the coil has been rewound.
 
 ## The Finger Rest (Tug Bar)
 
@@ -256,7 +256,7 @@ The early Precision Bass found its way into recording studios almost immediately
 
 Joe buys vintage Fender instruments **nationwide**, free same-day appraisal, fair cash offer, and we arrange all shipping. No pressure, ever.
 
-## Complete Specifications: 1951–1953 Fender Precision Bass
+## Complete Specifications: 1951 to 1953 Fender Precision Bass
 
 | Specification | Detail |
 | --- | --- |
@@ -283,7 +283,7 @@ Joe buys vintage Fender instruments **nationwide**, free same-day appraisal, fai
 | Pickup Wrapping | White string/cotton thread over coil windings |
 | Pickup Leads | Yellow and black cloth braid |
 | Pickup Mounting | 2 long slotted screws with springs (height-adjustable) |
-| Pickup DC Resistance | Approx. 10,000–13,000 ohms (10k–13k Ω) |
+| Pickup DC Resistance | Approx. 10,000 to 13,000 ohms (10k to 13k Ω) |
 | Bridge Cover | Chrome-plated metal, snaps/screws over bridge |
 | Controls | 1 Volume, 1 Tone |
 | Control Knobs | Domed knurled chrome ("dome" / "bonnet" knobs) |
@@ -346,7 +346,7 @@ Authentication is the sum of all details being consistent with each other and wi
 -   Pickup coil wrapped in **white string/thread**
 -   Pickup leads are **yellow and black cloth braid**
 -   Pickup mounting uses **two long slotted screws with springs**
--   DC resistance in range of **10k–13k Ω**
+-   DC resistance in range of **10k to 13k Ω**
 -   **Pot date codes ink-stamped on back** of pot bodies; manufacturer should be **Clarostat** for this era, consistent with production year
 -   **Paper-in-oil capacitor** in tone circuit, not ceramic disc, not orange flat "chicklet"
 -   **Domed knurled chrome knobs**, correct dome profile, fine knurling
@@ -355,7 +355,7 @@ Authentication is the sum of all details being consistent with each other and wi
 
 The market value of an early slab-body Fender Precision Bass depends almost entirely on originality and condition. A completely original, all-matching example in Excellent condition is one of the most valuable instruments in the vintage Fender market. The same instrument with a refinish, a replaced pickup, or non-original electronics can lose **fifty percent or more** of its collector value.
 
-All-original 1951–1953 Fender Precision Basses in Excellent to Very Good condition have sold at auction and through dealers in the range of **$20,000 to $40,000 or more**, with exceptional examples exceeding these figures. Player-grade examples with modifications can sell in the $8,000 to $15,000 range. The market has strengthened consistently as the supply of genuinely all-original examples has dwindled.
+All-original 1951 to 1953 Fender Precision Basses in Excellent to Very Good condition have sold at auction and through dealers in the range of **$20,000 to $40,000 or more**, with exceptional examples exceeding these figures. Player-grade examples with modifications can sell in the $8,000 to $15,000 range. The market has strengthened consistently as the supply of genuinely all-original examples has dwindled.
 
 The single biggest value killer is a **refinish**. Another is a **replaced neck or body**. If yours still has its original single-coil with white string wrapping and cloth leads, that is a significant part of what you are sitting on. Don't do anything to it before talking to an expert.
 

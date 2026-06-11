@@ -45,14 +45,14 @@ No other Gibson generated quite this many suffix variants. Each letter at the en
 
 | Model | Years | Body Depth | Cutaway | Pickups | Notes |
 | --- | --- | --- | --- | --- | --- |
-| ES-125 | 1941–42, 1946–1970 | Full (3.25–3.5") | No | 1 × P-90 | The original. The most common variant. |
-| ES-125T | 1956–1968 | Thinline (1.75") | No | 1 × P-90 | Arrived with the thinline trend. Sold well. |
-| ES-125TC | 1960–1970 | Thinline (1.75") | Yes, Florentine (sharp) | 1 × P-90 | Best single-pickup version for upper-fret access. |
-| ES-125TDC | 1960–1970 | Thinline (1.75") | Yes, Florentine | 2 × P-90 | The "rock and roll" spec. Most versatile thinline. |
-| ES-125TD | 1957–c.1963 | Thinline (1.75") | No | 2 × P-90 | Uncommon after the early 60s. Transitional. |
-| ES-125C | 1965–1970 | Full (3.25–3.5") | Yes, Florentine | 1 × P-90 | Late addition to the full-depth line. |
-| ES-125CD | 1966–1970 | Full (3.25–3.5") | Yes, Florentine | 2 × P-90 | The full-depth dual-pickup option. Scarce. |
-| ES-125 3/4 | 1956–1969 | Full (reduced body) | No | 1 × P-90 | Short 22.75" scale. Student model. |
+| ES-125 | 1941 to 1942, 1946 to 1970 | Full (3.25 to 3.5") | No | 1 × P-90 | The original. The most common variant. |
+| ES-125T | 1956 to 1968 | Thinline (1.75") | No | 1 × P-90 | Arrived with the thinline trend. Sold well. |
+| ES-125TC | 1960 to 1970 | Thinline (1.75") | Yes, Florentine (sharp) | 1 × P-90 | Best single-pickup version for upper-fret access. |
+| ES-125TDC | 1960 to 1970 | Thinline (1.75") | Yes, Florentine | 2 × P-90 | The "rock and roll" spec. Most versatile thinline. |
+| ES-125TD | 1957 to c.1963 | Thinline (1.75") | No | 2 × P-90 | Uncommon after the early 60s. Transitional. |
+| ES-125C | 1965 to 1970 | Full (3.25 to 3.5") | Yes, Florentine | 1 × P-90 | Late addition to the full-depth line. |
+| ES-125CD | 1966 to 1970 | Full (3.25 to 3.5") | Yes, Florentine | 2 × P-90 | The full-depth dual-pickup option. Scarce. |
+| ES-125 3/4 | 1956 to 1969 | Full (reduced body) | No | 1 × P-90 | Short 22.75" scale. Student model. |
 
 **Decoder key:** **T** = Thinline body  ·  **D** = Dual pickups  ·  **C** = Cutaway  ·  **3/4** = Short scale. Stack them: *TDC* means Thinline, Dual pickup, Cutaway.
 
@@ -64,23 +64,23 @@ No other Gibson generated quite this many suffix variants. Each letter at the en
 
 The ES-125's body construction tracks Gibson's manufacturing changes across three decades. Where the top-tier archtops got hand-carved solid spruce, the ES-125 used laminated (pressed) tonewoods from day one. That wasn't a corner cut so much as a working decision. Laminate handles humidity swings and road abuse better than a carved top, and it's a real part of why an ES-125 sounds warm and slightly compressed through an amplifier the way it does.
 
-### Pre-War Production (1941–1942)
+### Pre-War Production (1941 to 1942)
 
 The first ES-125s came with a **16" wide body** at full depth. The original non-adjustable single-coil pickup sat at the bridge before being moved to the neck position fairly early in the run. Very few complete pre-war examples have survived in original condition. The ones that have are collector-grade regardless of finish or configuration, and the headstock profile on these earliest guitars differs slightly from what came after the war.
 
-### Early Post-War (1946–1949)
+### Early Post-War (1946 to 1949)
 
 When civilian production restarted, the body grew slightly to **16¼"**. The most interesting and least-documented variation from this stretch is the **all-mahogany body** on some 1946 examples: top, back, and sides all in mahogany instead of the laminated maple that would become standard. This was almost certainly a materials decision driven by what Gibson could actually get its hands on in 1946, but the tonal result is distinct. Warmer in the mids, less of the glassy top-end shimmer you hear from maple-top examples.
 
 **What to look for:** The 1946 all-mahogany bodies can be identified by the grain showing through the finish and by a slightly different resonance when you tap the top acoustically. Sunburst on these instruments was sprayed over mahogany rather than maple, which sometimes gives the top a more orange-brown cast compared to later examples.
 
-### The Golden Era (1950–1959)
+### The Golden Era (1950 to 1959)
 
 By 1950 Gibson had settled on **laminated maple top, back, and sides**, the recipe that would define the model for the rest of the run. Body width stayed at 16¼" at full depth. The thinline models that arrived in 1956 used the same laminated maple but with body depth cut to 1¾", which made the guitar friendlier on louder stages and less prone to feedback as rock and roll volumes climbed.
 
 Collectors keep a closer eye on **1959 examples** than on most other years. Like the solid-body Gibsons of the same year, late-50s ES-125s tend to carry chunkier, rounder neck profiles, sometimes called "baseball bat" shapes, and a lot of players find them the most comfortable necks in the catalog. Pair that with broken-in P-90s and early-60s knob hardware and you get one of the more desirable vintage examples.
 
-### The Norlin Era (Late 1960s–1970)
+### The Norlin Era (Late 1960s to 1970)
 
 After CMI (Chicago Musical Instruments) sold Gibson to the Ecuadorian brewery conglomerate Norlin in 1969, quality control started to slip, and the slide kept going through the 1970s and into the early 80s. In the final years of ES-125 production, necks transitioned from **one-piece mahogany** to **three-piece mahogany or maple**, a cost-cutting change that also altered the feel and resonance of the guitar. Binding work, finish quality, and hardware plating all got more inconsistent toward the end of the run.
 
@@ -88,11 +88,11 @@ After CMI (Chicago Musical Instruments) sold Gibson to the Ecuadorian brewery co
 
 The **P-90** is what makes the ES-125 the ES-125. It showed up in Gibson's lineup around 1946 and stayed the company's main single-coil through 1957, when the humbucker took over. The same pickup powered Gibson's other working-musician electrics of the period, the [Les Paul Junior](/post/gibson-les-paul-junior-guide/) and the [Les Paul Special](/post/1955-1958-tv-yellow-les-paul-special-guide/), which tells you where Gibson placed it: this was the pickup for guitars that were going to get played. Tonally it sits between the bright glassy clarity of a Fender single-coil and the thick warmth of a PAF humbucker. Strong midrange punch, a slightly dirty top end that breaks up nicely when an amp is leaned on. On a semi-hollow body the natural acoustic resonance gives the P-90 some extra bloom and sustain you won't get from a solid-body P-90 guitar.
 
-### Early P-90s (1946–1949)
+### Early P-90s (1946 to 1949)
 
 The earliest post-war P-90s on the ES-125 used **non-adjustable pole pieces**, a fixed-height setup that didn't last long. The dog-ear covers on these are also slightly taller than what came later, which is something experienced collectors will spot visually. The tone tends to read as a little more open and airy, though most of that is sixty-plus years of wax and insulation aging rather than any deliberate engineering difference.
 
-### Standard Production P-90s (1950–1970)
+### Standard Production P-90s (1950 to 1970)
 
 From 1950 on, pole pieces became **individually adjustable** through slot-head screws, which matters more on an archtop than on a solid-body. The arched top changes the distance from string to pickup across the radius, and adjustable poles let you balance output string by string. On dual-pickup models (the -TD, -TDC, -CD configurations), the **bridge pickup is typically shimmed** closer to the strings to make up for the greater distance the arch creates at the bridge.
 
@@ -148,11 +148,11 @@ Sunburst is what almost every ES-125 left the factory in. It isn't one color, th
 
 ### The "Dark Back" or Walnut Stain
 
-One finish detail from the very early post-war period (**1946–1950**) is worth pulling out. The top of these guitars carries a normal sunburst, but the back and sides are finished in a deep opaque dark brown or sepia stain that period documentation sometimes called "Walnut." The two-tone treatment was applied mostly to all-mahogany examples, probably to hide mahogany's less visually striking grain on the back and sides while keeping the sunburst look on top. The result resembles Gibson's higher-end archtops of the same era, like the L-7, and gives the guitar a distinctive two-tone presentation that stands out next to the uniform sunbursts that came later.
+One finish detail from the very early post-war period (**1946 to 1950**) is worth pulling out. The top of these guitars carries a normal sunburst, but the back and sides are finished in a deep opaque dark brown or sepia stain that period documentation sometimes called "Walnut." The two-tone treatment was applied mostly to all-mahogany examples, probably to hide mahogany's less visually striking grain on the back and sides while keeping the sunburst look on top. The result resembles Gibson's higher-end archtops of the same era, like the L-7, and gives the guitar a distinctive two-tone presentation that stands out next to the uniform sunbursts that came later.
 
 ### Ebony (Black), the Rarest Standard Finish
 
-**Collector Alert:** A factory-original Ebony ES-125 is a real find. Black wasn't a standard catalog option on this model for most of its production run. Gibson did fulfill **custom-order requests** for the finish, and a small number of pre-war examples (1941–42) were produced in "Deep Ebony" as part of specific batches. A handful of 1950s factory-black examples are documented, usually with white or cream binding that creates a dramatic contrast against the dark body. If someone's selling a factory-black ES-125, authentication is mandatory. Refinishing a sunburst guitar to black is one of the more common modifications you'll see in this model, and a legitimate factory original commands a meaningful premium.
+**Collector Alert:** A factory-original Ebony ES-125 is a real find. Black wasn't a standard catalog option on this model for most of its production run. Gibson did fulfill **custom-order requests** for the finish, and a small number of pre-war examples (1941 to 1942) were produced in "Deep Ebony" as part of specific batches. A handful of 1950s factory-black examples are documented, usually with white or cream binding that creates a dramatic contrast against the dark body. If someone's selling a factory-black ES-125, authentication is mandatory. Refinishing a sunburst guitar to black is one of the more common modifications you'll see in this model, and a legitimate factory original commands a meaningful premium.
 
 #### Authentication checklist for a claimed factory Ebony ES-125:
 
@@ -186,10 +186,10 @@ The ES-125's old reputation as a "budget" Gibson kept its prices well behind the
 
 ### Price Tiers (General Guidance)
 
-Valuations move constantly with the vintage market, so treat this as framework rather than a price guide. For actual production data that helps put rarity in context, our [Gibson shipping totals reference (1948–1979)](/post/gibson-shipping-totals-1948-1979/) is a useful starting point:
+Valuations move constantly with the vintage market, so treat this as framework rather than a price guide. For actual production data that helps put rarity in context, our [Gibson shipping totals reference (1948 to 1979)](/post/gibson-shipping-totals-1948-1979/) is a useful starting point:
 
 -   **Late 1960s examples** (Norlin transition, three-piece necks): Entry-level pricing for the model. Condition-dependent but generally the most accessible.
--   **Early–mid 1960s thinlines** (TC, TDC): Strong player-grade demand. The dual-pickup cutaway models bring a premium over the single-pickup non-cutaway.
+-   **Early to mid 1960s thinlines** (TC, TDC): Strong player-grade demand. The dual-pickup cutaway models bring a premium over the single-pickup non-cutaway.
 -   **1950s full-depth examples**: Collector and player crossover demand. Late-50s "chunky neck" examples sit at the top of this tier.
 -   **Pre-war and all-mahogany 1946 examples**: Specialist collector territory. Condition and originality drive pricing.
 
@@ -224,10 +224,10 @@ If you want a semi-hollow with real vintage age in the wood, a price that doesn'
 
 #### More Vintage Gibson Guides
 
--   [Complete Dot-Neck ES-330 Guide: 1959–1962](/post/complete-dot-neck-es-330-guide-1959-1962/). The ES-125's fully hollow thinline cousin, and one of the most underrated guitars Gibson ever made.
+-   [Complete Dot-Neck ES-330 Guide: 1959 to 1962](/post/complete-dot-neck-es-330-guide-1959-1962/). The ES-125's fully hollow thinline cousin, and one of the most underrated guitars Gibson ever made.
 -   [Gibson Les Paul Junior Buyer's Guide](/post/gibson-les-paul-junior-guide/). The other great P-90 workhorse of the 1950s, a natural companion piece to this article.
--   [1955–1958 TV Yellow Les Paul Special Guide](/post/1955-1958-tv-yellow-les-paul-special-guide/). Two P-90s, a slab mahogany body, and one of the boldest finishes Gibson ever offered.
--   [Gibson Shipping Totals 1948–1979](/post/gibson-shipping-totals-1948-1979/). Hard production numbers to put true rarity in context across the entire vintage Gibson line.
+-   [1955 to 1958 TV Yellow Les Paul Special Guide](/post/1955-1958-tv-yellow-les-paul-special-guide/). Two P-90s, a slab mahogany body, and one of the boldest finishes Gibson ever offered.
+-   [Gibson Shipping Totals 1948 to 1979](/post/gibson-shipping-totals-1948-1979/). Hard production numbers to put true rarity in context across the entire vintage Gibson line.
 -   [How to Read Gibson Serial Numbers](/how-to-read-gibson-serial-numbers/). Date your instrument with confidence using factory order numbers, ink stamps, and the orange label system.
 -   [Identify a Vintage Gibson J-45, J-50 or SJ](/post/identify-vintage-gibson-j45-j50-sj/). If the archtop side of Gibson's catalog has you curious about their acoustics, start here.
 -   [Identify a Vintage Gibson LG-Series Guitar](/post/joesvintageguitarsaz-com-identify-gibson-lg-series/). Gibson's student-market flat-tops, contemporaries of the ES-125 3/4 and just as historically interesting.
