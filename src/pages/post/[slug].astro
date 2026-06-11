@@ -1,6 +1,7 @@
 ---
 import type { GetStaticPaths } from "astro";
 import { render } from "astro:content";
+import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
@@ -27,6 +28,9 @@ const catUrl = `/category/${data.category}/`;
 // shim returns pipeline metadata (hashed /_astro/ URL); otherwise the original
 // public path passes through unchanged.
 const ogMeta = data.ogImage ? resolveImage(data.ogImage) : null;
+// Hero: pipeline metadata when relocated (responsive <Image>), public path
+// fallback otherwise (raw <img>, the 15 raw-HTML-blocked heroes).
+const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
 const heroAbs = data.ogImage
   ? ogMeta
     ? `${SITE_URL}${ogMeta.src}`
@@ -93,14 +97,23 @@ const articleSchema = {
 
     {data.heroImage && (
       <figure class="bpost__hero">
-        <img
-          src={assetSrc(data.heroImage)}
-          alt={data.heroImageAlt || data.title}
-          width="1200"
-          height="630"
-          loading="eager"
-          decoding="async"
-        />
+        {heroMeta ? (
+          <Image
+            src={heroMeta}
+            alt={data.heroImageAlt || data.title}
+            width={1200}
+            priority
+          />
+        ) : (
+          <img
+            src={assetSrc(data.heroImage)}
+            alt={data.heroImageAlt || data.title}
+            width="1200"
+            height="630"
+            loading="eager"
+            decoding="async"
+          />
+        )}
       </figure>
     )}
 

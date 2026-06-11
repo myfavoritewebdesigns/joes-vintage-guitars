@@ -109,7 +109,7 @@ const stories: Story[] = [
                 class="jvg-stories__polaroid"
                 style={`--top:${p.top}%;--left:${p.left}%;--w:${p.width}%;--rot:${p.rotate}deg;z-index:${p.z};`}
               >
-                <Image src={p.src} alt={p.alt} widths={[240, 400, 600]} sizes="(max-width: 820px) 60vw, 320px" />
+                <Image layout="none" src={p.src} alt={p.alt} widths={[240, 400, 600]} sizes="(max-width: 820px) 60vw, 320px" />
               </figure>
             ))}
           </div>
