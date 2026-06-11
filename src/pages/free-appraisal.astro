@@ -4,6 +4,7 @@ import PageHero from "../components/primitives/PageHero.astro";
 import SectionHeader from "../components/primitives/SectionHeader.astro";
 import Button from "../components/primitives/Button.astro";
 import { contact, hrefs } from "../config/site";
+import { assetSrc } from "../lib/images";
 
 // FAQPage JSON-LD — sourced from live JSON-LD #4
 const faqSchema = {
@@ -24,21 +25,21 @@ const steps = [
     n: "01",
     title: "Send Over the Details",
     body: "Just fill out the form below with the brand, model, and a few clear photos. One old Fender or a whole collection built over the years, either way this is the easiest way to get started. The more details you give me, the more accurate the guitar identification will be. You can also call, text, or email if you&rsquo;d rather reach out that way.",
-    img: "/images/get-your-valuation.jpg",
+    img: assetSrc("images/get-your-valuation.jpg"),
     alt: "Man taking photo of cherry Gibson ES-335",
   },
   {
     n: "02",
     title: "Expert Review & Research",
     body: "I use more than just the serial number to date your guitar correctly, including pot codes and hardware specs. I&rsquo;ll go through the details, checking the serial number and looking over the parts and overall condition. Once I&rsquo;ve pinned down the model &amp; year, I&rsquo;ll compare it against recent sales and my own market data to find what it&rsquo;s actually worth today.",
-    img: "/images/expert-review-research.jpg",
+    img: assetSrc("images/expert-review-research.jpg"),
     alt: "Joe Dampt reviewing Gibson Barney Kessel guitar",
   },
   {
     n: "03",
     title: "Get Your Valuation",
     body: "I&rsquo;ll get back to you with a straight, honest look at what your guitar is worth right now. Curious about its history or ready to move it on, you&rsquo;ll have solid numbers to work from. And if you do decide to sell, I&rsquo;m always happy to make a fair cash offer and buy it through my easy nationwide process.",
-    img: "/images/joes-vintage-guitars-remote-nationwide-guitar-appraisal.png",
+    img: assetSrc("images/joes-vintage-guitars-remote-nationwide-guitar-appraisal.png"),
     alt: "Email from Joe explaining market value of cherry red Gibson ES-335",
   },
 ];
@@ -62,7 +63,7 @@ const caseStudies = [
   {
     title: "1966 Fender Jaguar in Lake Placid Blue",
     subtitle: "Fender Custom Color Authentication",
-    img: "/images/neck-heel-date-stamp-reading-15-may-66.jpg",
+    img: assetSrc("images/neck-heel-date-stamp-reading-15-may-66.jpg"),
     challenge: "Determining if the rare custom color finish was factory-original or a high-quality &lsquo;pro-refinish&rsquo; from years ago.",
     detail: "I asked the seller for photos of the &lsquo;paint stick&rsquo; mark in the neck pocket in order to aid in finish authentication, as well as detailed photos of the electronics to inspect the originality of the solder joints. Untouched solder joints are key in confirming the originality of a Fender finish. I also verified the neck heel date and pot codes to confirm the 1966 production window.",
     outcome: "Confirmed the guitar was a 100% original custom color survivor. This verification provided the owner with a precise market valuation, reflecting its rarity compared to the more common sunburst models. Custom color Fender guitars are often worth twice as much (or more) than sunburst models.",
@@ -70,7 +71,7 @@ const caseStudies = [
   {
     title: "1962 Gibson ES-335 (Transitional Year)",
     subtitle: "Vintage PAF Pickup Identification",
-    img: "/images/1962-gibson-335-cherry-red-semi-hollow-body-electric.jpg",
+    img: assetSrc("images/1962-gibson-335-cherry-red-semi-hollow-body-electric.jpg"),
     challenge: "1962 is a major &lsquo;transition&rsquo; year for Gibson. The goal was to determine if this Cherry 335 still held the coveted PAF pickups, early Patent Number pickups, or a mix of both. This was an in-person appraisal.",
     detail: "I pulled the pickups to verify the PAF stickers, &lsquo;L&rsquo; shaped tooling marks, cover solder, and overall construction. I then looked at the pots and wiring to confirm that the electronics were untouched. I also spent time on the hardware, identifying the &lsquo;no-wire&rsquo; ABR-1 bridge and the &lsquo;short seam&rsquo;, lightweight aluminum stop tailpiece. Unlike the heavier zinc versions that followed, this specific tailpiece is a key indicator of an early &rsquo;62. I finished by verifying that the single-line, double-ring Kluson tuners were original with no added or enlarged holes.",
     outcome: "With two original PAFs and all-original hardware, this was about as good as it gets. The confirmation let the seller ask the full premium a transitional 1962 model brings.",
@@ -78,7 +79,7 @@ const caseStudies = [
   {
     title: "1956 Gibson ES-5 (The &ldquo;N&rdquo; Mystery)",
     subtitle: "Gibson Factory Inconsistencies",
-    img: "/images/1956-Gibson.jpg",
+    img: assetSrc("images/1956-Gibson.jpg"),
     challenge: "This was an in-person appraisal with a couple of &lsquo;red flags.&rsquo; It was a Natural finish, but the label was missing the &lsquo;N&rsquo; designation Gibson usually used. Even weirder, it had double black &lsquo;stingers&rsquo; on the back of the neck, which can often mean that someone is trying to hide a headstock/heel repair or a refinish.",
     detail: "I did a deep dive into the finish, looking at the weather checking and the way the finish had aged under the hardware. Also performed a &lsquo;blacklight test&rsquo; by looking for that telltale nitrocellulose green glow and consistency of finish. I looked for any overspray in the cavities and checked the interior for original wiring. After a full physical disassembly, I was able to prove that the missing &lsquo;N&rsquo; was just a factory slip-up. Most importantly, the finish and those black stingers were 100% factory original.",
     outcome: "By certifying the guitar as factory-original, I cleared up the doubts that would have made buyers walk away. It gave the owner peace of mind and protected the value of a seriously rare Gibson. According to the Gibson shipping totals, a Natural ES-5 is approximately three to four times rare than a Sunburst.",
@@ -321,12 +322,12 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
       </header>
       <div class="fa-vs__grid">
         <article class="fa-vs__card">
-          <img src="/images/couple-with-guitar.jpg" alt="Couple receiving free guitar valuation" loading="lazy" />
+          <img src={assetSrc("images/couple-with-guitar.jpg")} alt="Couple receiving free guitar valuation" loading="lazy" />
           <h3>Free Expert Market Valuation</h3>
           <p>This is the &ldquo;straight-talk&rdquo; option. Use this if you&rsquo;re thinking about selling, found a family heirloom, or just want to know what your guitar is actually worth in today&rsquo;s economy. It&rsquo;s an informal assessment based on actual sales data, not the &lsquo;dreamer&rsquo; asking prices you see all over the internet.</p>
         </article>
         <article class="fa-vs__card">
-          <img src="/images/insurance-appraisal-document.jpg" alt="Official insurance appraisal document" loading="lazy" />
+          <img src={assetSrc("images/insurance-appraisal-document.jpg")} alt="Official insurance appraisal document" loading="lazy" />
           <h3>Official Insurance Appraisals</h3>
           <p>If you need a formal, legal document for an insurance rider, a tax donation, or an estate, you&rsquo;ll need this instead. I provide a detailed, signed report on Joe&rsquo;s Vintage Guitars letterhead that meets the strict requirements of major insurers. This covers the deep-dive research and the professional liability that comes with a certified valuation.</p>
         </article>
@@ -412,7 +413,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
         </ul>
       </div>
       <div class="fa-collection__photo">
-        <img src="/images/large-vintage-guitar-collection.jpg" alt="Large collection of vintage electric guitars" loading="lazy" />
+        <img src={assetSrc("images/large-vintage-guitar-collection.jpg")} alt="Large collection of vintage electric guitars" loading="lazy" />
       </div>
     </div>
   </section>

@@ -1,4 +1,5 @@
 ---
+import { assetSrc } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import FAQ from "../components/FAQ.astro";
@@ -12,8 +13,8 @@ import { contact, hrefs } from "../config/site";
    quirk we preserve for visual parity).
    ============================================================ */
 
-const IMG = "/images/sell-rickenbacker"; // shared feature-grid + appraisal photo
-const TESTI_BG = "/images/sell-rickenbacker/rickenbacker-reviews-bg.jpg";
+const img = (file: string) => assetSrc("images/sell-rickenbacker/" + file); // shared feature-grid + appraisal photo
+const TESTI_BG = assetSrc("images/sell-rickenbacker/rickenbacker-reviews-bg.jpg");
 
 const reviews = [
   {
@@ -35,25 +36,25 @@ const reviews = [
 
 const featureCols = [
   {
-    icon: `${IMG}/prices-icon.svg`,
+    icon: img("prices-icon.svg"),
     iconAlt: "Providing Fair And Convenient Prices Nationwide",
-    photo: `${IMG}/fair-and-convenient-prices-rickenbacker.jpg`,
+    photo: img("fair-and-convenient-prices-rickenbacker.jpg"),
     photoAlt: "Fair And Convenient Prices For Your Gretsch Guitar",
     headline: "Get Fair Prices For Your Gretsch Bass &amp; Electric Guitars",
     body: "I will always give you the fairest price on the market for your guitar or bass. Have one that you want to sell? <a href=\"/contact-me/\" class=\"smgt-link\">Contact me today</a>!",
   },
   {
-    icon: `${IMG}/classic-icon.svg`,
+    icon: img("classic-icon.svg"),
     iconAlt: "Rare, Unique, And Classic Guitars",
-    photo: `${IMG}/find-rare-unique-classic-rickenbacker.jpg`,
+    photo: img("find-rare-unique-classic-rickenbacker.jpg"),
     photoAlt: "Find Rare, Unique And Classic Gretsch Guitars In Our Online Shop",
     headline: "Find Rare, Unique &amp; Classic Gretsch Guitars In Our Online Shop",
     body: "Because I’m always traveling around the country, the inventory changes constantly. Browse the online catalog; you might find a rare Gretsch.",
   },
   {
-    icon: `${IMG}/guitar-icon.svg`,
+    icon: img("guitar-icon.svg"),
     iconAlt: "Many Years Of Experience",
-    photo: `${IMG}/years-of-experience-buying-and-selling.jpg`,
+    photo: img("years-of-experience-buying-and-selling.jpg"),
     photoAlt: "Years Of Experience Buying And Selling Guitars From All Over America",
     headline: "Years Of Experience Buying &amp; Selling Guitars From All Over America",
     body: "Over the years, I have seen many Gretsch guitar models and series. You can benefit from my expertise whether you are buying or selling one of your own.",
@@ -79,7 +80,7 @@ const structuredData = [
   title="Sell New Or Used Gretsch Guitars At Joes Vintage Guitars"
   description="Looking to sell or just appraise your Gretsch guitar? Joe's Vintage Guitars is buying! We'll buy your acoustic, bass, hollow, &amp; semi-hollow Gretsch guitars!"
   canonical="/sell-my-gretsch-guitar/"
-  ogImage={`${IMG}/find-rare-unique-classic-rickenbacker.jpg`}
+  ogImage={img("find-rare-unique-classic-rickenbacker.jpg")}
   structuredData={structuredData}
 >
   <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
@@ -109,7 +110,7 @@ const structuredData = [
         <a href={hrefs.tel} class="smgt-btn smgt-btn--rust">{contact.phone}</a>
       </div>
       <div class="smgt-buyappraise__photo">
-        <img src={`${IMG}/i-buy-and-appraise-vintage-guitars.png`} alt="Joe Dampt Buys And Appraises Gretsch Guitars Online Or In Person" loading="lazy" width="1106" height="720" />
+        <img src={img("i-buy-and-appraise-vintage-guitars.png")} alt="Joe Dampt Buys And Appraises Gretsch Guitars Online Or In Person" loading="lazy" width="1106" height="720" />
       </div>
     </div>
   </section>

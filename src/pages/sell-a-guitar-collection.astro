@@ -1,4 +1,5 @@
 ---
+import { assetSrc } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import FAQ from "../components/FAQ.astro";
@@ -54,8 +55,8 @@ const igPosts = [
 
 // Image base — local copies downloaded same-session per CLAUDE.md rule 1.
 // Source URLs (preserved in commit history) lived under the live WP uploads directory.
-const IMG = "/images/sell-collection";
-const FEATURED_IMG = `${IMG}/Sell-Your-Vintage-Guitar.jpg`;
+const img = (file: string) => assetSrc("images/sell-collection/" + file);
+const FEATURED_IMG = img("Sell-Your-Vintage-Guitar.jpg");
 
 // 3-step process — content from live .hiw-section
 const hiwSteps = [
@@ -85,25 +86,25 @@ const hiwSteps = [
 // 3-column "Nationwide" feature grid (icons + photos + headlines + copy)
 const featureCols = [
   {
-    icon: `${IMG}/prices-icon.svg`,
+    icon: img("prices-icon.svg"),
     iconAlt: "Providing Fair And Convenient Prices Nationwide",
-    photo: `${IMG}/1966-gibson-es-335-1024x683.jpg`,
+    photo: img("1966-gibson-es-335-1024x683.jpg"),
     photoAlt: "Sell An Electric Or Acoustic Guitar Collection",
     headline: "Sell An Electric Or Acoustic Guitar Collection At The Right Price",
     body: `After years of trial and error buying and selling electric and acoustic guitars, I can usually tell within minutes what your collection is worth. Whether you’ve got a big collection of <a href="/sell-my-gibson-guitar/" class="smc-link">Gibsons to sell</a> or a mix of makes and models, I can help you sell it.`,
   },
   {
-    icon: `${IMG}/classic-icon.svg`,
+    icon: img("classic-icon.svg"),
     iconAlt: "Buy Classic And Vintage Guitar Collections",
-    photo: `${IMG}/large-vintage-guitar-collection.jpg`,
+    photo: img("large-vintage-guitar-collection.jpg"),
     photoAlt: "Find Classic And Vintage Guitar Collections In Our Online Shop",
     headline: "Get A Free Appraisal For Your Guitar Collection",
     body: `Not sure what your collection is worth? I offer <a href="/free-appraisal/" class="smc-link">free appraisals</a> with no obligation to sell. I can also help you document and organize your collection. That comes in handy if you plan to sell, want to insure it, or just want a clear record of what you have.`,
   },
   {
-    icon: `${IMG}/guitar-icon.svg`,
+    icon: img("guitar-icon.svg"),
     iconAlt: "Many Years Of Experience",
-    photo: `${IMG}/1966-fender-jazzmaster-in-hard-case-1024x683.jpg`,
+    photo: img("1966-fender-jazzmaster-in-hard-case-1024x683.jpg"),
     photoAlt: "Years Of Experience Buying And Selling Guitar Collections Nationwide",
     headline: "Years Of Experience Buying & Selling Guitars Throughout The States",
     body: `Take advantage of my knowledge and <a href="/about-me/" class="smc-link">years of experience</a> with new and vintage guitars, and let me make selling easy and risk-free for you.`,
@@ -305,7 +306,7 @@ const structuredData = [
       </div>
       <div class="smc-buyappraise__photo">
         <img
-          src={`${IMG}/i-buy-and-appraise-vintage-guitars.png`}
+          src={img("i-buy-and-appraise-vintage-guitars.png")}
           alt="Joe Dampt Buys And Appraises Guitar Collections Online Or In Person"
           loading="lazy"
           width="1106"
@@ -406,7 +407,7 @@ const structuredData = [
         </div>
         <div class="smc-inherited__photo">
           <img
-            src={`${IMG}/blog5.jpg`}
+            src={img("blog5.jpg")}
             alt="Appraise And Sell Your Inherited Guitar Collection At Joe&rsquo;s Vintage Guitars"
             loading="lazy"
             width="1400"

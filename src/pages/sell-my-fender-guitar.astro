@@ -53,7 +53,7 @@ const smfImg = (file: string) => assetSrc("images/sell-fender/" + file);
 // dark vignette overlay (NOT a rust gradient — that was the wrong conclusion
 // from the v2 audit). Restoring the photo bg using live's exact image URL.
 // Verified via `getComputedStyle(.tp-bnr).backgroundImage` on the live page.
-const HERO_BG = "/images/sell-hero-background.jpg";
+const HERO_BG = assetSrc("images/sell-hero-background.jpg");
 
 // FAQs sourced from live JSON-LD (reference/sell-my-fender-jsonld.json, FAQPage entity).
 // IDs match live's wpcf7-generated `toggle_*` IDs so anchor links from external pages still work.
