@@ -1,9 +1,10 @@
 ---
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import FAQ from "../components/FAQ.astro";
-import { contact } from "../config/site";
+import { SITE_URL, contact } from "../config/site";
 import testimonialsRaw from "../../reference/collection-testimonials.json";
 
 /* ============================================================
@@ -56,6 +57,8 @@ const igPosts = [
 // Image base — local copies downloaded same-session per CLAUDE.md rule 1.
 // Source URLs (preserved in commit history) lived under the live WP uploads directory.
 const img = (file: string) => assetSrc("images/sell-collection/" + file);
+// Metadata twin — only for files verified to exist under src/assets/images/sell-collection/.
+const imgMeta = (file: string) => resolveImage("images/sell-collection/" + file)!;
 const FEATURED_IMG = img("Sell-Your-Vintage-Guitar.jpg");
 
 // 3-step process — content from live .hiw-section
@@ -88,7 +91,7 @@ const featureCols = [
   {
     icon: img("prices-icon.svg"),
     iconAlt: "Providing Fair And Convenient Prices Nationwide",
-    photo: img("1966-gibson-es-335-1024x683.jpg"),
+    photo: imgMeta("1966-gibson-es-335-1024x683.jpg"),
     photoAlt: "Sell An Electric Or Acoustic Guitar Collection",
     headline: "Sell An Electric Or Acoustic Guitar Collection At The Right Price",
     body: `After years of trial and error buying and selling electric and acoustic guitars, I can usually tell within minutes what your collection is worth. Whether you’ve got a big collection of <a href="/sell-my-gibson-guitar/" class="smc-link">Gibsons to sell</a> or a mix of makes and models, I can help you sell it.`,
@@ -96,7 +99,7 @@ const featureCols = [
   {
     icon: img("classic-icon.svg"),
     iconAlt: "Buy Classic And Vintage Guitar Collections",
-    photo: img("large-vintage-guitar-collection.jpg"),
+    photo: imgMeta("large-vintage-guitar-collection.jpg"),
     photoAlt: "Find Classic And Vintage Guitar Collections In Our Online Shop",
     headline: "Get A Free Appraisal For Your Guitar Collection",
     body: `Not sure what your collection is worth? I offer <a href="/free-appraisal/" class="smc-link">free appraisals</a> with no obligation to sell. I can also help you document and organize your collection. That comes in handy if you plan to sell, want to insure it, or just want a clear record of what you have.`,
@@ -104,7 +107,7 @@ const featureCols = [
   {
     icon: img("guitar-icon.svg"),
     iconAlt: "Many Years Of Experience",
-    photo: img("1966-fender-jazzmaster-in-hard-case-1024x683.jpg"),
+    photo: imgMeta("1966-fender-jazzmaster-in-hard-case-1024x683.jpg"),
     photoAlt: "Years Of Experience Buying And Selling Guitar Collections Nationwide",
     headline: "Years Of Experience Buying & Selling Guitars Throughout The States",
     body: `Take advantage of my knowledge and <a href="/about-me/" class="smc-link">years of experience</a> with new and vintage guitars, and let me make selling easy and risk-free for you.`,
@@ -224,7 +227,7 @@ const structuredData = [
   title="Sell A Guitar Collection | Joes Vintage Guitars"
   description="Sell your guitar collection to Joe, a nationwide buyer who comes to you. Same-day cash offers and free appraisals for collections of any size."
   canonical="/sell-a-guitar-collection/"
-  ogImage={FEATURED_IMG}
+  ogImage={`${SITE_URL}${FEATURED_IMG}`}
   structuredData={structuredData}
 >
   <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
@@ -305,12 +308,10 @@ const structuredData = [
         <a href={`tel:${contact.tel}`} class="smc-btn smc-btn--rust">{contact.phone}</a>
       </div>
       <div class="smc-buyappraise__photo">
-        <img
-          src={img("i-buy-and-appraise-vintage-guitars.png")}
+        <Image
+          src={imgMeta("i-buy-and-appraise-vintage-guitars.png")}
           alt="Joe Dampt Buys And Appraises Guitar Collections Online Or In Person"
-          loading="lazy"
-          width="1106"
-          height="720"
+          width={520}
         />
       </div>
     </div>
@@ -324,7 +325,7 @@ const structuredData = [
         {featureCols.map((c) => (
           <div class="smc-nationwide__col">
             <img src={c.icon} alt={c.iconAlt} class="smc-nationwide__icon" loading="lazy" />
-            <img src={c.photo} alt={c.photoAlt} class="smc-nationwide__photo" loading="lazy" />
+            <Image src={c.photo} alt={c.photoAlt} class="smc-nationwide__photo" width={340} />
             <hr class="smc-rule" />
             <h4 set:html={c.headline} />
             <p set:html={c.body} />
@@ -406,12 +407,10 @@ const structuredData = [
           </div>
         </div>
         <div class="smc-inherited__photo">
-          <img
-            src={img("blog5.jpg")}
+          <Image
+            src={imgMeta("blog5.jpg")}
             alt="Appraise And Sell Your Inherited Guitar Collection At Joe&rsquo;s Vintage Guitars"
-            loading="lazy"
-            width="1400"
-            height="933"
+            width={340}
           />
         </div>
       </div>

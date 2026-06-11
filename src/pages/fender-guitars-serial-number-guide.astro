@@ -1,21 +1,23 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import ContactSection from "../components/ContactSection.astro";
 import { contact, hrefs, SITE_URL } from "../config/site";
 // Vite's `?raw` query loads the file as a string at build time.
 import fsnToolHtml from "../../reference/fsn-tool-html.html?raw";
 
-// Hotlinked imagery for first pass — same approach used on My Favorite Web Designs
-// rebuild. Swap to local `src/assets/images/` + Astro <Image> later for full perf.
+// fsnImg -> URL string (OG/JSON-LD constants); fsnMeta -> pipeline metadata for <Image>.
+// All files verified present under src/assets/images/fender-sn/.
 const fsnImg = (file: string) => assetSrc("images/fender-sn/" + file);
+const fsnMeta = (file: string) => resolveImage("images/fender-sn/" + file)!;
 
 const locationCards = [
   {
     id: "loc-bridge-plate",
     h: "Bridge Plate: Telecaster",
-    img: fsnImg("fender-bridge-plate-serial-number-scaled.jpg"),
+    img: fsnMeta("fender-bridge-plate-serial-number-scaled.jpg"),
     alt: "Fender Telecaster bridge plate serial number, 1950 to 1954",
     caption: "Telecaster bridge plate serial number, 1950 to 1954",
     text: "Stamped into the metal bridge plate where the strings anchor. You'll see this on the earliest Broadcasters, No-Casters, Telecasters, and Esquires.",
@@ -25,7 +27,7 @@ const locationCards = [
   {
     id: undefined,
     h: "Bridge Plate: Precision Bass",
-    img: fsnImg("fender-precision-bass-bridge-plate-serial-number-scaled.jpg"),
+    img: fsnMeta("fender-precision-bass-bridge-plate-serial-number-scaled.jpg"),
     alt: "Fender Precision Bass bridge plate serial number, 1951 to 1954",
     caption: "Precision Bass bridge plate serial number, 1951 to 1954",
     text: "Leo Fender's first electric bass, released in October 1951, also carried its serial on the bridge plate. It ran on a separate numbering sequence from the guitar lineup.",
@@ -35,7 +37,7 @@ const locationCards = [
   {
     id: "loc-neck-plate",
     h: "Neck Plate",
-    img: fsnImg("fender-neck-plate-serial-number.jpg"),
+    img: fsnMeta("fender-neck-plate-serial-number.jpg"),
     alt: "Fender neck plate serial number stamped into chrome plate, 1955 to 1976",
     caption: "Neck plate serial number, 1955 to 1976",
     text: "Flip the guitar over and look at the chrome plate where the neck bolts on. The number is stamped into the metal, sometimes near the top edge and sometimes near the bottom. This spot covers the widest stretch of the classic vintage era.",
@@ -45,7 +47,7 @@ const locationCards = [
   {
     id: "loc-headstock-front",
     h: "Front of Headstock",
-    img: fsnImg("fender-front-of-headstock-serial-number.jpg"),
+    img: fsnMeta("fender-front-of-headstock-serial-number.jpg"),
     alt: "Fender front-of-headstock serial number, 1976 to 1995",
     caption: "Front of headstock serial number, 1976 to 1995",
     text: "Sits right below the Fender logo on the face of the headstock. Either ink-stamped or printed as part of the decal itself. Standard placement on Strats, Teles, and basses from the post-CBS era.",
@@ -55,7 +57,7 @@ const locationCards = [
   {
     id: "loc-headstock-back",
     h: "Back of Headstock",
-    img: fsnImg("fender-back-of-headstock-serial-number.jpg"),
+    img: fsnMeta("fender-back-of-headstock-serial-number.jpg"),
     alt: "Fender back-of-headstock serial number, 1996 to present",
     caption: "Back of headstock serial number, current production standard",
     text: "This has been the standard placement since 1996. A 'Made in USA' or country-of-origin stamp typically sits directly below the serial.",
@@ -65,7 +67,7 @@ const locationCards = [
   {
     id: "loc-tremolo",
     h: "Tremolo Cover Plate",
-    img: fsnImg("fender-tremolo-cover-serial-number-scaled.jpg"),
+    img: fsnMeta("fender-tremolo-cover-serial-number-scaled.jpg"),
     alt: "Fender Stratocaster tremolo cavity back plate with serial stamped into the plastic cover, 1954 to 1955",
     caption: "Tremolo cover plate serial number, very early Stratocasters only",
     text: "The very earliest Stratocasters had the serial stamped into the plastic tremolo cavity cover on the back of the body. Only a handful of known examples exist, so this one shows up rarely.",
@@ -75,7 +77,7 @@ const locationCards = [
   {
     id: "loc-neck-heel",
     h: "Back of Neck Heel",
-    img: fsnImg("fender-back-of-neck-serial-number-scaled.jpg"),
+    img: fsnMeta("fender-back-of-neck-serial-number-scaled.jpg"),
     alt: "Fender Japanese-made guitar serial number on the back of the neck heel",
     caption: "Back of neck heel serial number, Japanese-made Fenders",
     text: "Some Japanese-made Fenders carry the number on the back of the neck where it meets the body. You'll have to pull the neck off to see it.",
@@ -399,7 +401,7 @@ const breadcrumbSchema = {
   title="Fender Serial Number Lookup: Free Decoder & Dating Guide"
   description="Free Fender serial number lookup - decode any American, Mexican, Japanese, or Custom Shop serial from 1950 to present. Expert dating guide."
   canonical="/fender-guitars-serial-number-guide/"
-  ogImage={fsnImg("fender-bridge-plate-serial-number-1024x683.jpg")}
+  ogImage={`${SITE_URL}${fsnImg("fender-bridge-plate-serial-number-1024x683.jpg")}`}
   ogImageAlt="The bridge plate serial number on an iconic 1952 Fender Telecaster"
   ogType="article"
   publishedTime="2026-03-12T20:42:57+00:00"
@@ -494,7 +496,7 @@ const breadcrumbSchema = {
         {locationCards.map((card) => (
           <article class="fsn-loc">
             <figure class="fsn-loc__fig">
-              <img src={card.img} alt={card.alt} loading="lazy" decoding="async" />
+              <Image src={card.img} alt={card.alt} width={350} />
               <figcaption>{card.caption}</figcaption>
             </figure>
             <h4 id={card.id}>{card.h}</h4>
@@ -608,11 +610,11 @@ const breadcrumbSchema = {
 
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <img src={fsnImg("1957-fender-esquire-blonde.jpg")} alt="1957 Fender Esquire blonde neck plate showing serial number stamped at the top edge" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("1957-fender-esquire-blonde.jpg")} alt="1957 Fender Esquire blonde neck plate showing serial number stamped at the top edge" width={550} />
           <p class="jvg-cap">Serial stamped at the top of the neck plate, the more common position</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("1957-fender-esquire-blonde-code.jpg")} alt="1957 Fender Esquire blonde neck plate showing serial number stamped at the bottom edge, easy to miss if the plate looks blank at first glance" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("1957-fender-esquire-blonde-code.jpg")} alt="1957 Fender Esquire blonde neck plate showing serial number stamped at the bottom edge, easy to miss if the plate looks blank at first glance" width={550} />
           <p class="jvg-cap">On some plates the serial was stamped at the bottom edge instead of the top, a rarer placement that's easy to miss at a glance.</p>
         </div>
       </div>
@@ -661,7 +663,7 @@ const breadcrumbSchema = {
         </table>
       </div>
       <figure class="fsn-fig">
-        <img src={fsnImg("fender-l-plate-serial-number-guide-1-scaled-1.jpg")} alt="Fender L-plate serial number guide showing models with L-series serials" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("fender-l-plate-serial-number-guide-1-scaled-1.jpg")} alt="Fender L-plate serial number guide showing models with L-series serials" width={1100} />
       </figure>
       <div class="fsn-callout">
         <p>The most sought-after L-series guitar is arguably a <strong>slab-board Stratocaster with an
@@ -697,7 +699,7 @@ const breadcrumbSchema = {
         </table>
       </div>
       <figure class="fsn-fig">
-        <img src={fsnImg("fender-plate-scaled.jpg")} alt="Fender F-plate neck plate with 6-digit serial number" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("fender-plate-scaled.jpg")} alt="Fender F-plate neck plate with 6-digit serial number" width={1100} />
       </figure>
       <div class="fsn-callout">
         <p>The most common forgery in this era is a 1965 "Transition" guitar, an early F-plate with
@@ -727,7 +729,7 @@ const breadcrumbSchema = {
         hardware details. Don't try to date a V-prefix guitar from the serial alone.
       </div>
       <figure class="fsn-fig">
-        <img src={fsnImg("fender-v-prefix-serial-number-reissue-scaled.jpg")} alt="Fender V-prefix serial number on neck plate of a Vintage Reissue guitar" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("fender-v-prefix-serial-number-reissue-scaled.jpg")} alt="Fender V-prefix serial number on neck plate of a Vintage Reissue guitar" width={1100} />
       </figure>
       <div class="fsn-callout">
         <p>Vintage Reissue guitars are legitimately excellent instruments, but they sometimes get
@@ -761,7 +763,7 @@ const breadcrumbSchema = {
       </div>
 
       <figure class="fsn-fig">
-        <img src={fsnImg("fender-cn-prefix-serial-number.jpg")} alt="Fender Custom Shop CN prefix serial number on neck plate" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("fender-cn-prefix-serial-number.jpg")} alt="Fender Custom Shop CN prefix serial number on neck plate" width={1100} />
         <figcaption>CN prefix, Custom Shop 1990s. Decoded the same as a standard N-prefix.</figcaption>
       </figure>
 
@@ -778,7 +780,7 @@ const breadcrumbSchema = {
         and other models that are <em>neither</em> relics <em>nor</em> reissues.
       </p>
       <figure class="fsn-fig">
-        <img src={fsnImg("fender-coa-proving-r-prefix-unreliability.jpg")} alt="Fender Custom Shop COA for a Custom Deluxe Stratocaster with an R-prefix serial" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("fender-coa-proving-r-prefix-unreliability.jpg")} alt="Fender Custom Shop COA for a Custom Deluxe Stratocaster with an R-prefix serial" width={1100} />
         <figcaption>Fender Custom Shop COA for a Custom Deluxe Stratocaster with an R-prefix serial. Not a Relic, not a Reissue.</figcaption>
       </figure>
       <p>
@@ -830,21 +832,21 @@ const breadcrumbSchema = {
 
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-76-prefix-serial-number.jpg")} alt="Fender 76-prefix serial number on front of headstock, seen on guitars made in 1976 when Fender transitioned from neck plate to headstock serials" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-76-prefix-serial-number.jpg")} alt="Fender 76-prefix serial number on front of headstock, seen on guitars made in 1976 when Fender transitioned from neck plate to headstock serials" width={550} />
           <p class="jvg-cap">76 Prefix = 1976</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-s-prefix-serial-number.jpg")} alt="Fender S-prefix serial number on front of headstock: S indicates 1970s production, second digit gives the specific year" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-s-prefix-serial-number.jpg")} alt="Fender S-prefix serial number on front of headstock: S indicates 1970s production, second digit gives the specific year" width={550} />
           <p class="jvg-cap">S Prefix = 1970s</p>
         </div>
       </div>
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-e-prefix-serial-number.jpg")} alt="Fender E-prefix serial number on front of headstock: E indicates 1980s production, second digit gives the specific year" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-e-prefix-serial-number.jpg")} alt="Fender E-prefix serial number on front of headstock: E indicates 1980s production, second digit gives the specific year" width={550} />
           <p class="jvg-cap">E Prefix = 1980s</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-n-prefix-serial-number.jpg")} alt="Fender N-prefix serial number on front of headstock: N indicates 1990s production, second digit gives the specific year" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-n-prefix-serial-number.jpg")} alt="Fender N-prefix serial number on front of headstock: N indicates 1990s production, second digit gives the specific year" width={550} />
           <p class="jvg-cap">N Prefix = 1990s</p>
         </div>
       </div>
@@ -874,7 +876,7 @@ const breadcrumbSchema = {
       </div>
 
       <div class="jvg-imgwc">
-        <img src={fsnImg("fender-ca-prefix-serial-number.jpg")} alt="Fender CA-prefix serial number on a limited-edition Gold Stratocaster headstock, a rare CBS-era two-letter prefix from the early 1980s" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("fender-ca-prefix-serial-number.jpg")} alt="Fender CA-prefix serial number on a limited-edition Gold Stratocaster headstock, a rare CBS-era two-letter prefix from the early 1980s" width={1100} />
         <p class="jvg-cap">CA prefix on a Gold Stratocaster, early 1980s</p>
       </div>
 
@@ -893,11 +895,11 @@ const breadcrumbSchema = {
 
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-z-prefix-serial-number.jpg")} alt="Fender Z-prefix serial number on back of headstock: Z indicates 2000s production, first digit after Z gives the specific year" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-z-prefix-serial-number.jpg")} alt="Fender Z-prefix serial number on back of headstock: Z indicates 2000s production, first digit after Z gives the specific year" width={550} />
           <p class="jvg-cap">Z Prefix = 2000s</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-us-prefix-serial-number.jpg")} alt="Fender US-prefix serial number on back of headstock: US indicates 2010s and later production, first two digits after US give the specific year" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-us-prefix-serial-number.jpg")} alt="Fender US-prefix serial number on back of headstock: US indicates 2010s and later production, first two digits after US give the specific year" width={550} />
           <p class="jvg-cap">US Prefix = 2010s to Present</p>
         </div>
       </div>
@@ -936,11 +938,11 @@ const breadcrumbSchema = {
 
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <img src={fsnImg("mn-prefix.jpg")} alt="MN prefix serial on Mexican Fender Stratocaster" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("mn-prefix.jpg")} alt="MN prefix serial on Mexican Fender Stratocaster" width={550} />
           <p class="jvg-cap">MN Prefix = Mexico 1990s</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("mz-prefix.jpg")} alt="MZ prefix serial on Mexican Fender Precision Bass" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("mz-prefix.jpg")} alt="MZ prefix serial on Mexican Fender Precision Bass" width={550} />
           <p class="jvg-cap">MZ Prefix = Mexico 2000s</p>
         </div>
       </div>
@@ -974,7 +976,7 @@ const breadcrumbSchema = {
         </table>
       </div>
       <figure class="fsn-fig">
-        <img src={fsnImg("crafted-japan.jpg")} alt="Crafted in Japan label on Fender guitar" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("crafted-japan.jpg")} alt="Crafted in Japan label on Fender guitar" width={1100} />
       </figure>
       <div class="fsn-callout">
         <p>The earliest Japanese Fenders, the <strong>JV-series built from 1982 to 1984</strong>, are
@@ -1011,7 +1013,7 @@ const breadcrumbSchema = {
         flag.
       </p>
       <figure class="fsn-fig">
-        <img src={fsnImg("how-to-tell-if-a-fender-serial-number-is-real.jpg")} alt="How to tell if a Fender neck plate serial number is genuine or laser-etched fake" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("how-to-tell-if-a-fender-serial-number-is-real.jpg")} alt="How to tell if a Fender neck plate serial number is genuine or laser-etched fake" width={1100} />
       </figure>
       <div class="fsn-callout">
         <p>At the shop, I keep a jeweler's loupe sitting right by the workbench for exactly this reason.
@@ -1038,7 +1040,7 @@ const breadcrumbSchema = {
         post-1967 replacement.
       </p>
       <figure class="fsn-fig">
-        <img src={fsnImg("fender-vintage-waterslide-decal.jpg")} alt="Fender vintage waterslide headstock decal sitting raised above the lacquer finish" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("fender-vintage-waterslide-decal.jpg")} alt="Fender vintage waterslide headstock decal sitting raised above the lacquer finish" width={1100} />
       </figure>
       <div class="fsn-callout">
         <p>Don't touch the decal aggressively, you can damage an original. A very light pass with the
@@ -1064,7 +1066,7 @@ const breadcrumbSchema = {
         <li><strong>Body vs. neck finish aging.</strong> If the neck finish checks and crazes like genuine nitrocellulose but the body looks smooth and plastic-like, someone may have paired a genuine vintage neck with a refinished or replacement body.</li>
       </ul>
       <figure class="fsn-fig">
-        <img src={fsnImg("vintage-fender-screw-wear-patina.jpg")} alt="Vintage Fender guitar screw wear and consistent patina on authentic example" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("vintage-fender-screw-wear-patina.jpg")} alt="Vintage Fender guitar screw wear and consistent patina on authentic example" width={1100} />
       </figure>
       <div class="fsn-callout">
         <p>The most sophisticated fakes get the individual parts right but get the <em>relationships</em>
@@ -1121,7 +1123,7 @@ const breadcrumbSchema = {
         reads as May 1957. Sometimes the worker's initials follow the date.
       </p>
       <figure class="fsn-fig">
-        <img src={fsnImg("fender-neck-heel-pencil-date-decoder.jpg")} alt="Fender neck heel with pencil date marking showing month-year format" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("fender-neck-heel-pencil-date-decoder.jpg")} alt="Fender neck heel with pencil date marking showing month-year format" width={1100} />
       </figure>
       <h4>Format 2: Ink Stamps (Early 1960s to Late 1960s)</h4>
       <p>
@@ -1135,7 +1137,7 @@ const breadcrumbSchema = {
       </ul>
       <p>Example: 1APR63B = April 1963, standard B-width neck.</p>
       <figure class="fsn-fig">
-        <img src={fsnImg("fender-neck-heel-ink-stamp-decoder-scaled-1.jpg")} alt="Fender neck heel ink stamp decoder showing model code, month, year, and neck width" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("fender-neck-heel-ink-stamp-decoder-scaled-1.jpg")} alt="Fender neck heel ink stamp decoder showing model code, month, year, and neck width" width={1100} />
       </figure>
       <div class="fsn-callout">
         <p>The neck date and serial number should be within a few months of each other on an original,
@@ -1164,11 +1166,11 @@ const breadcrumbSchema = {
       </ul>
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <img src={fsnImg("1956-fender-telecaster-blonde-21.jpg")} alt="Fender guitar body neck pocket with visible ink stamp date marking" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("1956-fender-telecaster-blonde-21.jpg")} alt="Fender guitar body neck pocket with visible ink stamp date marking" width={550} />
           <p class="jvg-cap">Ink stamp in the neck pocket of a 1956 Telecaster</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("1956-fender-telecaster-blonde-24.jpg")} alt="Inside cavity of Fender guitar showing period-correct wiring" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("1956-fender-telecaster-blonde-24.jpg")} alt="Inside cavity of Fender guitar showing period-correct wiring" width={550} />
           <p class="jvg-cap">Interior cavity showing period-correct wiring and pencil dates</p>
         </div>
       </div>
@@ -1210,15 +1212,15 @@ const breadcrumbSchema = {
       <p><strong>Full example:</strong> A pot stamped 304 6243 was made by Centralab in the 43rd week of 1962. The guitar was assembled no earlier than late October 1962, and typically a few weeks to months after that.</p>
       <div style="display:flex;flex-direction:column;gap:1rem;margin:1.1rem 0;">
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-stackpole-potentiometer-decoder.jpg")} alt="Fender Stackpole potentiometer with date code" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-stackpole-potentiometer-decoder.jpg")} alt="Fender Stackpole potentiometer with date code" width={1100} />
           <p class="jvg-cap">Stackpole pot with date code</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("stackpole-potentiometer-decoder.jpg")} alt="Stackpole potentiometer decoder diagram" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("stackpole-potentiometer-decoder.jpg")} alt="Stackpole potentiometer decoder diagram" width={1100} />
           <p class="jvg-cap">Pot code breakdown diagram</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={assetSrc("images/fender-sn/cts-pot-code-for-fender-guitars-rotated.jpg")} alt="CTS potentiometer code for vintage Fender guitars: manufacturer code 137, last digit of year, and week markings" width="2364" height="2424" loading="lazy" decoding="async" />
+          <Image src={resolveImage("images/fender-sn/cts-pot-code-for-fender-guitars-rotated.jpg")!} alt="CTS potentiometer code for vintage Fender guitars: manufacturer code 137, last digit of year, and week markings" width={1100} />
           <p class="jvg-cap">CTS pot code example</p>
         </div>
       </div>
@@ -1251,15 +1253,15 @@ const breadcrumbSchema = {
       </ul>
       <div style="display:flex;flex-direction:column;gap:1rem;margin:1.1rem 0;">
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-pickup-pencil-dates.jpg")} alt="Fender pickup with pencil date stamp" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-pickup-pencil-dates.jpg")} alt="Fender pickup with pencil date stamp" width={1100} />
           <p class="jvg-cap">Pre-1969 pencil date on pickup base</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-pickup-date-ink.jpg")} alt="Vintage Fender pickup showing ink date code" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-pickup-date-ink.jpg")} alt="Vintage Fender pickup showing ink date code" width={1100} />
           <p class="jvg-cap">Ink date stamp on 1960s pickup</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-1970s-pickup-code.jpg")} alt="Fender 1970s pickup with numeric date code" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-1970s-pickup-code.jpg")} alt="Fender 1970s pickup with numeric date code" width={1100} />
           <p class="jvg-cap">1970s numeric pickup code</p>
         </div>
       </div>
@@ -1275,15 +1277,15 @@ const breadcrumbSchema = {
       <p>Large rectangular pearloid blocks on the flagship offset models starting in 1966. The quickest visual identifier of a post-1966 Jazzmaster or Jaguar.</p>
       <div style="display:flex;flex-direction:column;gap:1rem;margin:1.1rem 0;">
         <div class="jvg-imgwc">
-          <img src={fsnImg("clay-dots-1959-1964.jpg")} alt="Fender rosewood fretboard clay dot inlays 1959-1964 dull matte" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("clay-dots-1959-1964.jpg")} alt="Fender rosewood fretboard clay dot inlays 1959-1964 dull matte" width={1100} />
           <p class="jvg-cap">Clay/fiberboard dots (1959 to 1964): dull, matte, often discolored</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("pearloid-dots-1964-1970.jpg")} alt="Fender pearloid dot inlays from late 1964 onwards" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("pearloid-dots-1964-1970.jpg")} alt="Fender pearloid dot inlays from late 1964 onwards" width={1100} />
           <p class="jvg-cap">Pearloid dots (late 1964+): bright, shiny, marbled</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("block-inaly-1966-1970.jpg")} alt="Fender large pearloid block inlays 1966-1970s on Jazzmaster" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("block-inaly-1966-1970.jpg")} alt="Fender large pearloid block inlays 1966-1970s on Jazzmaster" width={1100} />
           <p class="jvg-cap">Block inlays (1966+, Jazzmaster/Jaguar)</p>
         </div>
       </div>
@@ -1304,11 +1306,11 @@ const breadcrumbSchema = {
       </ul>
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <img src={fsnImg("brass-saddles-2.jpg")} alt="Brass bridge saddles on early 1950s Fender Telecaster Blackguard" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("brass-saddles-2.jpg")} alt="Brass bridge saddles on early 1950s Fender Telecaster Blackguard" width={550} />
           <p class="jvg-cap">Brass saddles (1950 to mid-1954): gold color, dull patina</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("steelsaddles.jpg")} alt="Steel bridge saddles on mid-1950s Fender Telecaster" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("steelsaddles.jpg")} alt="Steel bridge saddles on mid-1950s Fender Telecaster" width={550} />
           <p class="jvg-cap">Steel saddles (mid-1954 to 1958): silver, prone to rust</p>
         </div>
       </div>
@@ -1321,11 +1323,11 @@ const breadcrumbSchema = {
       </p>
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-stamped-saddles-1960s.jpg")} alt="Fender Stratocaster stamped steel saddles 1954-1971 with PAT PEND" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-stamped-saddles-1960s.jpg")} alt="Fender Stratocaster stamped steel saddles 1954-1971 with PAT PEND" width={550} />
           <p class="jvg-cap">Stamped steel saddles (1954 to 1971), "FENDER PAT. PEND." on each</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-die-cast-zinc-saddles.jpg")} alt="Fender Stratocaster die-cast zinc block saddles 1971 CBS era" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-die-cast-zinc-saddles.jpg")} alt="Fender Stratocaster die-cast zinc block saddles 1971 CBS era" width={550} />
           <p class="jvg-cap">Die-cast zinc block saddles (1971+): thick, unbranded rectangles</p>
         </div>
       </div>
@@ -1348,19 +1350,19 @@ const breadcrumbSchema = {
       <h4>The Three Kluson Eras</h4>
       <div class="jvg-comp-grid">
         <div class="jvg-comp-card jvg-comp-card--tall">
-          <img src={fsnImg("kluson-deluxe-no-line-tuner.jpg")} alt="Kluson Deluxe No-Line tuner 1950 to mid-1956 on vintage Fender, smooth housing with no text or branding" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("kluson-deluxe-no-line-tuner.jpg")} alt="Kluson Deluxe No-Line tuner 1950 to mid-1956 on vintage Fender, smooth housing with no text or branding" width={370} />
           <div class="jvg-comp-card__body">
             <p><strong>1950 to Mid-1956.</strong> Back of the housing is completely smooth, no text or branding. Clean and minimal.</p>
           </div>
         </div>
         <div class="jvg-comp-card jvg-comp-card--tall">
-          <img src={fsnImg("kluson-deluxe-single-line-tuner-1956-1964-on-vintage-fender-telecaster.jpg")} alt="Kluson Deluxe Single-Line tuner mid-1956 to late 1964 on vintage Fender Telecaster, KLUSON DELUXE stamped in single vertical line" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("kluson-deluxe-single-line-tuner-1956-1964-on-vintage-fender-telecaster.jpg")} alt="Kluson Deluxe Single-Line tuner mid-1956 to late 1964 on vintage Fender Telecaster, KLUSON DELUXE stamped in single vertical line" width={370} />
           <div class="jvg-comp-card__body">
             <p><strong>Mid-1956 to Late 1964.</strong> "KLUSON DELUXE" stamped in a single vertical line. The hallmark of the Golden Era.</p>
           </div>
         </div>
         <div class="jvg-comp-card jvg-comp-card--tall">
-          <img src={fsnImg("kluson-deluxe-double-line-tuner-1964-1967-on-fender-telecaster.jpg")} alt="Kluson Deluxe Double-Line tuner late 1964 to 1967 on Fender Telecaster, words split into two parallel vertical lines" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("kluson-deluxe-double-line-tuner-1964-1967-on-fender-telecaster.jpg")} alt="Kluson Deluxe Double-Line tuner late 1964 to 1967 on Fender Telecaster, words split into two parallel vertical lines" width={370} />
           <div class="jvg-comp-card__body">
             <p><strong>Late 1964 to 1967.</strong> Words split into two parallel vertical lines. Seeing double-lines on a claimed '62 is a major red flag.</p>
           </div>
@@ -1368,7 +1370,7 @@ const breadcrumbSchema = {
       </div>
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <img src={fsnImg("vintage-kluson-deluxe-tuner-casing-underside-showing-pat.jpg")} alt="Vintage Kluson Deluxe tuner underside showing PAT APPLD marking" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("vintage-kluson-deluxe-tuner-casing-underside-showing-pat.jpg")} alt="Vintage Kluson Deluxe tuner underside showing PAT APPLD marking" width={550} />
           <p class="jvg-cap">No-line Kluson underside: "PAT. APPLD." = pre-1954 spec</p>
         </div>
       </div>
@@ -1398,15 +1400,15 @@ const breadcrumbSchema = {
       </ul>
       <div class="jvg-img3 jvg-img--uniform">
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-spaghetti-logo-1950-1964-on-vintage-stratocaster-headstock.jpg")} alt="Fender Spaghetti logo 1950-1964 on vintage Stratocaster headstock, thin elegant script with fine black outline" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-spaghetti-logo-1950-1964-on-vintage-stratocaster-headstock.jpg")} alt="Fender Spaghetti logo 1950-1964 on vintage Stratocaster headstock, thin elegant script with fine black outline" width={370} />
           <p class="jvg-cap">Spaghetti logo (1950 to early 1964): thin elegant script</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("transition-logo-64.jpg")} alt="Fender Transition logo mid-1964 to 1967 on vintage Stratocaster headstock, thicker bolder gold-foil font with heavier black outline" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("transition-logo-64.jpg")} alt="Fender Transition logo mid-1964 to 1967 on vintage Stratocaster headstock, thicker bolder gold-foil font with heavier black outline" width={370} />
           <p class="jvg-cap">Transition logo (mid-1964 to 1967): thicker, bolder gold-foil</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-cbs-tv-logo-1968-1980s-on-vintage-stratocaster-headstock.jpg")} alt="Fender CBS TV logo 1968 to 1980s on vintage Stratocaster headstock, heavy black Fender script with thin gold outline designed for TV visibility" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-cbs-tv-logo-1968-1980s-on-vintage-stratocaster-headstock.jpg")} alt="Fender CBS TV logo 1968 to 1980s on vintage Stratocaster headstock, heavy black Fender script with thin gold outline designed for TV visibility" width={370} />
           <p class="jvg-cap">CBS / TV logo (1968 to 1980s): heavy black with thin gold outline</p>
         </div>
       </div>
@@ -1426,7 +1428,7 @@ const breadcrumbSchema = {
         Fender moved to flat-top skirt knobs with finer knurling.
       </p>
       <figure class="fsn-fig">
-        <img src={fsnImg("fender-telecaster-round-top-control-knob-.jpg")} alt="Pre-1956 Fender Telecaster round top control knob with coarse knurling" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("fender-telecaster-round-top-control-knob-.jpg")} alt="Pre-1956 Fender Telecaster round top control knob with coarse knurling" width={1100} />
       </figure>
       <h4>Round vs. Top Hat Switch Tip (1954)</h4>
       <p>
@@ -1434,7 +1436,7 @@ const breadcrumbSchema = {
         1954, that changed to the "Top Hat" shape that's still on Telecasters today.
       </p>
       <figure class="fsn-fig">
-        <img src={fsnImg("top-hat.jpg")} alt="Fender Telecaster Top Hat switch tip transition 1954" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("top-hat.jpg")} alt="Fender Telecaster Top Hat switch tip transition 1954" width={1100} />
       </figure>
       <div class="fsn-callout">
         <p>On original pre-1955 round barrel tips, many were manufactured by <strong>Daka-Ware</strong>
@@ -1454,11 +1456,11 @@ const breadcrumbSchema = {
       </ul>
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-telecaster-vintage-round-string-tree-scaled.jpg")} alt="Fender round circular string guide on vintage Telecaster headstock pre-mid-1956" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-telecaster-vintage-round-string-tree-scaled.jpg")} alt="Fender round circular string guide on vintage Telecaster headstock pre-mid-1956" width={550} />
           <p class="jvg-cap">Round string guide (pre-mid-1956)</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("vintage-fender-butterfly-string-tree-1.jpg")} alt="Fender butterfly wing-shaped string tree on vintage Telecaster from mid-1956" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("vintage-fender-butterfly-string-tree-1.jpg")} alt="Fender butterfly wing-shaped string tree on vintage Telecaster from mid-1956" width={550} />
           <p class="jvg-cap">Butterfly string tree (mid-1956 onward)</p>
         </div>
       </div>
@@ -1474,15 +1476,15 @@ const breadcrumbSchema = {
       <p>Much more chemically stable. Doesn't turn green. May parchment or yellow slightly over time but never reaches the classic mint-green hue of nitrate.</p>
       <div class="jvg-img3 jvg-img--uniform">
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-vintage-mint-cellulose-nitrate-pickguard.jpg")} alt="Mint Green Cellulose Nitrate 3-ply pickguard 1959-1965 on vintage Stratocaster" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-vintage-mint-cellulose-nitrate-pickguard.jpg")} alt="Mint Green Cellulose Nitrate 3-ply pickguard 1959-1965 on vintage Stratocaster" width={370} />
           <p class="jvg-cap">Nitrate "mint green" guard (1959 to 1964)</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-tortoise-pickguard-years.jpg")} alt="Fender tortoise-shell cellulose nitrate pickguard on Jazzmaster" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-tortoise-pickguard-years.jpg")} alt="Fender tortoise-shell cellulose nitrate pickguard on Jazzmaster" width={370} />
           <p class="jvg-cap">Tortoise-shell nitrate (Jazzmaster/Jaguar)</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("fender-telecaster-white-pickguard-1966.jpg")} alt="Fender white 3-ply PVC pickguard CBS era 1965+" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("fender-telecaster-white-pickguard-1966.jpg")} alt="Fender white 3-ply PVC pickguard CBS era 1965+" width={370} />
           <p class="jvg-cap">White PVC guard (late 1964+): never turns green</p>
         </div>
       </div>
@@ -1504,11 +1506,11 @@ const breadcrumbSchema = {
       <p>A thinner veneer board with a curved bottom matching the neck radius. At the headstock, the rosewood line looks much thinner and <em>flatter</em>.</p>
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <img src={fsnImg("slabboard.jpg")} alt="Fender slab rosewood fretboard 1959-1962 thick convex at headstock nut joint" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("slabboard.jpg")} alt="Fender slab rosewood fretboard 1959-1962 thick convex at headstock nut joint" width={550} />
           <p class="jvg-cap">Slab board (1959 to mid-1962): thick, convex rosewood at headstock</p>
         </div>
         <div class="jvg-imgwc">
-          <img src={fsnImg("veneer-board.jpg")} alt="Fender veneer Round-Lam rosewood fretboard 1962+ thin flat at headstock" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("veneer-board.jpg")} alt="Fender veneer Round-Lam rosewood fretboard 1962+ thin flat at headstock" width={550} />
           <p class="jvg-cap">Veneer board (mid-1962+): thin, flat rosewood at headstock</p>
         </div>
       </div>
@@ -1589,7 +1591,7 @@ const breadcrumbSchema = {
         certainly a pre-mid-1955 build.
       </p>
       <figure class="fsn-fig">
-        <img src={fsnImg("telecaster-pickup-transition.jpg")} alt="Fender Telecaster pickup flat pole vs staggered 1955 transition" loading="lazy" decoding="async" />
+        <Image src={fsnMeta("telecaster-pickup-transition.jpg")} alt="Fender Telecaster pickup flat pole vs staggered 1955 transition" width={1100} />
       </figure>
       <div class="fsn-callout">
         <p>On early staggered pickups from mid-1955, the <strong>D-string magnet is the highest pole
@@ -1806,7 +1808,7 @@ const breadcrumbSchema = {
 
       <div class="fsn-author__top">
         <div class="fsn-author__photo">
-          <img src={fsnImg("about-me-joe-1.jpg")} alt="Joe Dampt, owner and lead appraiser at Joe's Vintage Guitars in Mesa, Arizona" width="560" height="560" loading="lazy" decoding="async" />
+          <Image src={fsnMeta("about-me-joe-1.jpg")} alt="Joe Dampt, owner and lead appraiser at Joe's Vintage Guitars in Mesa, Arizona" width={240} />
         </div>
         <div class="fsn-author__bio">
           <p>

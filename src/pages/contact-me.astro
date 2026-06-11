@@ -1,7 +1,8 @@
 ---
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
-import { contact, hrefs } from "../config/site";
+import { SITE_URL, contact, hrefs } from "../config/site";
 
 /* ============================================================
    CONTACT ME — small, focused page.
@@ -15,6 +16,7 @@ import { contact, hrefs } from "../config/site";
    ============================================================ */
 
 const img = (file: string) => assetSrc("images/contact-me/" + file);
+const imgMeta = (file: string) => resolveImage("images/contact-me/" + file)!;
 
 const structuredData = [
   {
@@ -39,7 +41,7 @@ const structuredData = [
   title="Contact Joe Dampt At Joe’s Vintage Guitars"
   description="Contact Joe's Vintage Guitars, the top-rated nationwide buyer of vintage guitars. Just email us at joesvintageguitars94@gmail.com or text us at 602-900-6635"
   canonical="/contact-me/"
-  ogImage={img("contact-me-featured-image.jpg")}
+  ogImage={`${SITE_URL}${img("contact-me-featured-image.jpg")}`}
   structuredData={structuredData}
 >
   <!-- 1. Title bar ----------------------------------------------- -->
@@ -58,11 +60,10 @@ const structuredData = [
         style={`background-image: url('/images/contact-me/location-bg.jpg')`}
       >
         <div class="cm-location__inner">
-          <img
-            src={img("mascot-stacked.png")}
+          <Image
+            src={imgMeta("mascot-stacked.png")}
             alt="Joe's Vintage Guitars mascot logo"
-            width="160"
-            height="160"
+            width={160}
             class="cm-location__mascot"
             loading="eager"
           />
@@ -92,12 +93,10 @@ const structuredData = [
 
       <!-- RIGHT: static map image (not a Google Maps iframe — matches live) -->
       <div class="cm-location__map">
-        <img
-          src={img("Joe-Map.jpg")}
+        <Image
+          src={imgMeta("Joe-Map.jpg")}
           alt={`Joe's Vintage Guitars map located at ${contact.address.street}, ${contact.address.city}, ${contact.address.region} ${contact.address.postalCode}`}
-          loading="lazy"
-          width="1319"
-          height="835"
+          width={700}
         />
       </div>
     </div>

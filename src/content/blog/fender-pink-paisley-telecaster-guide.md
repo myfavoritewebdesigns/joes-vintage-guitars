@@ -74,9 +74,9 @@ By 1969, Fender had returned to the traditional one-piece maple neck. Truss rod 
 
 Date stamps were applied in **black ink** for 1968 and through early 1969. Mid-to-late 1969 saw a transition to **green ink**. Both years used **black dot position markers** on the maple fretboard. If you need help decoding the neck stamp or serial number on your instrument, our [Fender serial number guide](/fender-guitars-serial-number-guide/) walks through every CBS-era dating system in detail.
 
-<figure><img alt="Black ink neck heel date stamp on 1969 Fender Paisley Telecaster" src="/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-neck-heel-stamp-scaled.jpg" loading="lazy" decoding="async"><figcaption>Black ink heel stamp on the 1969 neck. Early 1969 examples use black ink; late 1969 transitions to green.</figcaption></figure>
+<figure><img alt="Black ink neck heel date stamp on 1969 Fender Paisley Telecaster" width="2560" height="1707" src="/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-neck-heel-stamp-scaled.jpg" loading="lazy" decoding="async"><figcaption>Black ink heel stamp on the 1969 neck. Early 1969 examples use black ink; late 1969 transitions to green.</figcaption></figure>
 
-<figure><img alt="Black dot fretboard position markers on 1969 Fender Paisley Telecaster maple neck" src="/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-dot-inlays-scaled.jpg" loading="lazy" decoding="async"><figcaption>Black dot position markers on the maple fretboard, identical on both 1968 and 1969 models.</figcaption></figure>
+<figure><img alt="Black dot fretboard position markers on 1969 Fender Paisley Telecaster maple neck" width="2560" height="1707" src="/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-dot-inlays-scaled.jpg" loading="lazy" decoding="async"><figcaption>Black dot position markers on the maple fretboard, identical on both 1968 and 1969 models.</figcaption></figure>
 
 ### The CBS Black Logo
 
@@ -110,9 +110,9 @@ The "ashtray" bridge plate and threaded steel saddles on the 1969. Note the surf
 
 One of the components that stands out most is the thick clear **Plexiglass (Lucite) pickguard**. The underside was back-sprayed with pink paint around the pickup cavity and control areas to keep the pink color scheme visible through the transparent material. On original vintage examples, this back-sprayed paint typically bubbles or flakes off the plastic over time. It's a signature that's difficult to fake convincingly.
 
-<figure><img alt="Clear Plexiglass Lucite pickguard on 1969 Fender Paisley Telecaster showing aged pink back-spray" src="/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-plexi-pickguard-scaled.jpg" loading="lazy" decoding="async"><figcaption>The clear Lucite pickguard. The pink back-spray is visible through the transparent plastic. Look for bubbling or flaking on originals.</figcaption></figure>
+<figure><img alt="Clear Plexiglass Lucite pickguard on 1969 Fender Paisley Telecaster showing aged pink back-spray" width="2560" height="1707" src="/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-plexi-pickguard-scaled.jpg" loading="lazy" decoding="async"><figcaption>The clear Lucite pickguard. The pink back-spray is visible through the transparent plastic. Look for bubbling or flaking on originals.</figcaption></figure>
 
-<figure><img alt="Pink burst paint sprayed around the neck pickup cavity on the back of the pickguard on a 1968 Fender Paisley Telecaster" src="/images/blog/fender-pink-paisley-telecaster-guide/1968-paisaley-telecaster-neck-pickup-surround-burst-scaled.jpg" loading="lazy" decoding="async"><figcaption>The pinkish-red paint back-sprayed around the neck pickup on the underside of the 1968 pickguard. This paint ages, cracks, and lifts on originals.</figcaption></figure>
+<figure><img alt="Pink burst paint sprayed around the neck pickup cavity on the back of the pickguard on a 1968 Fender Paisley Telecaster" width="2560" height="1707" src="/images/blog/fender-pink-paisley-telecaster-guide/1968-paisaley-telecaster-neck-pickup-surround-burst-scaled.jpg" loading="lazy" decoding="async"><figcaption>The pinkish-red paint back-sprayed around the neck pickup on the underside of the 1968 pickguard. This paint ages, cracks, and lifts on originals.</figcaption></figure>
 
 ### Potentiometers: The 1966 Date Code Situation
 

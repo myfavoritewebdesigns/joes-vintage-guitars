@@ -35,7 +35,7 @@ wpId: 20543
 21.  [Further Reading](#lpj-resources)
 22.  [FAQ](#lpj-faq)
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-1-scaled.jpg" alt="1955 Gibson Les Paul Junior, original single-cutaway slab body in sunburst finish" loading="lazy" decoding="async"></figure>
+<figure><img width="2560" height="1707" src="/images/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-1-scaled.jpg" alt="1955 Gibson Les Paul Junior, original single-cutaway slab body in sunburst finish" loading="lazy" decoding="async"></figure>
 
 <h2 id="lpj-intro">Introduction: The Guitar That Outgrew Its Ambitions</h2>
 
@@ -89,7 +89,7 @@ Pickup position on 1954 Juniors sits closer to the bridge than on any later year
 
 Controls are about as minimal as electric guitar wiring gets: one master volume, one master tone, both running 500K audio-taper potentiometers with "speed" or "hatbox" style knobs. The tone cap is a "Grey Tiger" waxed-paper capacitor. Pull the control cavity cover on a 1954 Junior and you should see one of these. They look like small striped cylinders. If you see anything else, especially a yellow-and-black banded Bumblebee or a modern orange-drop, the electronics have been worked on. The bridge and tailpiece are a single nickel-plated pot-metal wraparound. Strings load through the back of the bar, wrap up and over the saddle ridge, then run to the tuners. That direct coupling between strings and body is where a big part of the sustain comes from.
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-grey-tiger.jpg" alt="Grey Tiger waxed-paper capacitor on a 1955 Gibson Les Paul Junior" loading="lazy" decoding="async"></figure>
+<figure><img width="2379" height="1586" src="/images/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-grey-tiger.jpg" alt="Grey Tiger waxed-paper capacitor on a 1955 Gibson Les Paul Junior" loading="lazy" decoding="async"></figure>
 
 Bonnet-style knobs (taller, barrel-shaped) on a guitar being sold as a 1954 or early-1955 Junior is a problem. Speed and hatbox knobs are correct for all of 1954 and most of 1955. The switch to bonnet knobs happened in 1956. If the knobs are bonnet style on a guitar being represented as earlier, either the knobs have been swapped or the instrument is being misdated.
 
@@ -115,13 +115,13 @@ Gibson built TV Yellow Juniors in much smaller numbers than sunbursts across the
 
 Second, the knobs changed shape. Out went the low, flat "speed" knobs. In came the taller, barrel-shaped "bonnet" knobs with a wider grip area on top. Bonnet knobs stayed on the Junior from 1956 through the end of original production and on into the SG era.
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-bridge-placement.jpg" alt="Early bridge placement on a 1955 Gibson Les Paul Junior, pickup positioned closer to bridge than later models" loading="lazy" decoding="async"></figure>
+<figure><img width="1202" height="798" src="/images/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-bridge-placement.jpg" alt="Early bridge placement on a 1955 Gibson Les Paul Junior, pickup positioned closer to bridge than later models" loading="lazy" decoding="async"></figure>
 
 ### The Bumblebee Capacitor
 
 1956 also saw the tone capacitor change from the Grey Tiger waxed-paper unit to the "Bumblebee," named for its yellow-and-black banded body. Original Bumblebees are valuable to collectors for two separate reasons. The obvious one is authentication. The less obvious one is that a meaningful number of players prefer how a Bumblebee responds across the tone control's sweep compared to modern replacement caps. Whether that preference is measurable or psychological is debated, but the demand is real and the parts trade for significant money on their own.
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/1958-les-paul-special-bumblebee-capacitors-scaled.jpg" alt="Bumblebee capacitors on a 1958 Gibson Les Paul Special, same cap used on Juniors from 1956" loading="lazy" decoding="async"></figure>
+<figure><img width="2560" height="1707" src="/images/blog/gibson-les-paul-junior-guide/1958-les-paul-special-bumblebee-capacitors-scaled.jpg" alt="Bumblebee capacitors on a 1958 Gibson Les Paul Special, same cap used on Juniors from 1956" loading="lazy" decoding="async"></figure>
 
 ### Magnet Transition: Alnico 3 to Alnico 5
 
@@ -165,7 +165,7 @@ A small number of double-cutaway Juniors, maybe a few dozen confirmed in the wil
 
 One additional pickguard detail worth knowing: black pickguards aren't exclusive to black-finish Juniors. A small number of cherry-finish double-cutaway Juniors, primarily from 1959, are known to have left the factory with original black pickguards rather than the standard configuration. Rare but documented. If you encounter one, authenticate the pickguard against the rest of the instrument rather than rejecting it on sight. The same checks apply: UV response on both finish and pickguard, examination of finish edges under the pickguard for overspray or ghost lines, hardware patina consistent across the whole guitar.
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/1959-gibson-les-paul-junior-black-pickguard-example-scaled.jpg" alt="1959 Gibson Les Paul Junior with original black pickguard, a documented factory variation on cherry-finish double-cutaway models" loading="lazy" decoding="async"></figure>
+<figure><img width="2560" height="1707" src="/images/blog/gibson-les-paul-junior-guide/1959-gibson-les-paul-junior-black-pickguard-example-scaled.jpg" alt="1959 Gibson Les Paul Junior with original black pickguard, a documented factory variation on cherry-finish double-cutaway models" loading="lazy" decoding="async"></figure>
 
 Most collectors and players land on the 1958 to 1960 double-cutaway as the sweet spot of the Junior's evolution. You get the slab mahogany body and everything that delivers tonally, plus the upper-fret access the single-cutaway lacked. TV Yellow double-cutaways command the highest prices of any standard-production Junior in most market conditions.
 
@@ -177,7 +177,7 @@ In 1961 Gibson redesigned its entire solidbody line. The new shape, what we now 
 
 That body change shifts the Junior's character noticeably. A lighter, thinner mahogany body produces a brighter, more aggressive tone with faster attack and less of the midrange warmth and bass weight you get from the earlier slab. The neck joint moved even further into the body, opening up unrestricted upper-fret access. Lead players generally took to the new design quickly. Players who'd been buying Juniors specifically for the thick, warm slab tone were more divided about the trade.
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/1960s-sg-junior-scaled.jpg" alt="1960s Gibson SG Junior, the thinner, lighter SG-style body introduced in 1961, still branded as Les Paul Junior" loading="lazy" decoding="async"></figure>
+<figure><img width="2560" height="1707" src="/images/blog/gibson-les-paul-junior-guide/1960s-sg-junior-scaled.jpg" alt="1960s Gibson SG Junior, the thinner, lighter SG-style body introduced in 1961, still branded as Les Paul Junior" loading="lazy" decoding="async"></figure>
 
 ### Neck Profile Changes
 
@@ -221,7 +221,7 @@ Individual polepiece height is the setup detail most players ignore and most nee
 
 The wraparound combines bridge and tailpiece functions in a single piece that loops back over a metal anchor bar attached to the body. It's one of the things people argue about. The argument has merit. Direct coupling of strings to body produces the kind of sustain that more elaborate bridge systems can't quite match, and a lot of builders and players prefer the result.
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/1960s-sg-junior-lightning-bridge-scaled.jpg" alt="Lightning bar wraparound bridge on a 1960s SG Junior, the direct-coupling design that contributes to the Junior's percussive attack" loading="lazy" decoding="async"></figure>
+<figure><img width="2560" height="1707" src="/images/blog/gibson-les-paul-junior-guide/1960s-sg-junior-lightning-bridge-scaled.jpg" alt="Lightning bar wraparound bridge on a 1960s SG Junior, the direct-coupling design that contributes to the Junior's percussive attack" loading="lazy" decoding="async"></figure>
 
 ### Intonation Limitations and Reality
 
@@ -249,9 +249,9 @@ Under a 365nm UV lamp, original nitrocellulose lacquer fluoresces differently th
 
 Cherry Red on double-cutaway and SG-style Juniors is famous for fading, sometimes dramatically. The specific red dyes Gibson used in this period don't tolerate UV well. A Junior that sat in a sunlit display case or near a window for thirty years can fade from cherry to a deep brown or walnut color. Areas protected by the pickguard, control covers, and the player's body during normal use retain more of the original red, which produces a ghost image of brighter red surrounded by faded sections. That patterning is itself authentication evidence. It tells you the guitar got played and saw real light over decades. A cherry Junior in bright, completely uniform cherry condition should be examined carefully under UV before you assume the finish is original.
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/gibson-les-paul-spcial-cherry-finish.jpg" alt="Cherry finish close-up on a vintage Gibson Les Paul, showing the translucent red over mahogany grain characteristic of the period" loading="lazy" decoding="async"></figure>
+<figure><img width="2124" height="1418" src="/images/blog/gibson-les-paul-junior-guide/gibson-les-paul-spcial-cherry-finish.jpg" alt="Cherry finish close-up on a vintage Gibson Les Paul, showing the translucent red over mahogany grain characteristic of the period" loading="lazy" decoding="async"></figure>
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/1959-gibson-les-paul-junior-output-jack-scaled.jpg" alt="Black output jack plate on a 1959 Gibson Les Paul Junior, a period-correct detail worth checking during authentication" loading="lazy" decoding="async"></figure>
+<figure><img width="2560" height="1707" src="/images/blog/gibson-les-paul-junior-guide/1959-gibson-les-paul-junior-output-jack-scaled.jpg" alt="Black output jack plate on a 1959 Gibson Les Paul Junior, a period-correct detail worth checking during authentication" loading="lazy" decoding="async"></figure>
 
 ### Identifying Refinished Guitars
 
@@ -323,9 +323,9 @@ Gibson's serial number system and Factory Order Numbers apply across the whole J
 
 Gibson used an ink-stamped serial number system on the back of the headstock during this period. Numbers were applied sequentially but not always in strict chronological order, because batches of instruments were sometimes assembled from components built at different times. The Factory Order Number, stamped inside the control cavity or visible at the neck joint, gives you a second dating reference. Cross-referencing the two against published Gibson serial number databases can narrow production dates considerably.
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/1959-gibson-les-paul-junior-headstock-scaled.jpg" alt="1959 Gibson Les Paul Junior headstock, silk-screened Gibson logo and Les Paul Junior designation in gold ink" loading="lazy" decoding="async"></figure>
+<figure><img width="2560" height="1707" src="/images/blog/gibson-les-paul-junior-guide/1959-gibson-les-paul-junior-headstock-scaled.jpg" alt="1959 Gibson Les Paul Junior headstock, silk-screened Gibson logo and Les Paul Junior designation in gold ink" loading="lazy" decoding="async"></figure>
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/1959-gibson-les-paul-junior-back-of-headstock-scaled.jpg" alt="Back of headstock on a 1959 Gibson Les Paul Junior, black ink-stamped serial number" loading="lazy" decoding="async"></figure>
+<figure><img width="2560" height="1707" src="/images/blog/gibson-les-paul-junior-guide/1959-gibson-les-paul-junior-back-of-headstock-scaled.jpg" alt="Back of headstock on a 1959 Gibson Les Paul Junior, black ink-stamped serial number" loading="lazy" decoding="async"></figure>
 
 The principle behind all of this: always cross-reference the headstock serial number with the FON from the control cavity or neck joint. If the two codes suggest inconsistent production dates, that's not necessarily a deal-breaker, but it warrants investigation of components and construction details before you draw any conclusions about the instrument's authenticity.
 
@@ -400,7 +400,7 @@ Beyond overall condition, the originality of specific components matters signifi
 
 Documented provenance pulls real premiums. Original receipts, owner history, photographs of the instrument at a specific moment in its life. Original cases, hang tags, warranty cards, instruction sheets, any period documentation, all of it adds value. Both for the rarity of the materials themselves and for the authentication support they provide. Bring the case to the deal. Bring the paperwork.
 
-<figure><img src="/images/blog/gibson-les-paul-junior-guide/1958-gibson-les-paul-junior-chipboard-case-scaled.jpg" alt="Original brown chipboard case for a 1958 Gibson Les Paul Junior, period-correct case candy adds meaningful value to any vintage Junior" loading="lazy" decoding="async"></figure>
+<figure><img width="2560" height="1707" src="/images/blog/gibson-les-paul-junior-guide/1958-gibson-les-paul-junior-chipboard-case-scaled.jpg" alt="Original brown chipboard case for a 1958 Gibson Les Paul Junior, period-correct case candy adds meaningful value to any vintage Junior" loading="lazy" decoding="async"></figure>
 
 ## Modern Reissues: How They Compare to the Originals
 

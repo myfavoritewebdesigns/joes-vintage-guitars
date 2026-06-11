@@ -1,8 +1,9 @@
 ---
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
-import { contact } from "../config/site";
+import { SITE_URL, contact } from "../config/site";
 
 /* ============================================================
    SELL MY GUILD GUITAR (.smgu-*) — Archetype D (simple article)
@@ -14,6 +15,8 @@ import { contact } from "../config/site";
    ============================================================ */
 
 const img = (file: string) => assetSrc("images/sell-guild/" + file);
+// Metadata twin — only for files verified to exist under src/assets/images/sell-guild/.
+const imgMeta = (file: string) => resolveImage("images/sell-guild/" + file)!;
 
 // Approximate Guild serial number year-ranges, 1952-1959 (from Hans Moust's
 // Guild Guitar Book, the only authoritative source for the early years).
@@ -70,7 +73,7 @@ const structuredData = [
   title="Sell My GUILD Guitar | Joes Vintage Guitars"
   description="Sell your vintage Guild guitar to Joe, a trusted nationwide buyer. Free appraisals and fair cash offers for Guild acoustics and electrics."
   canonical="/sell-my-guild-guitar/"
-  ogImage={img("vintage-guild-guitar.jpg")}
+  ogImage={`${SITE_URL}${img("vintage-guild-guitar.jpg")}`}
   structuredData={structuredData}
 >
   <!-- 1. Title bar ----------------------------------------------- -->
@@ -84,12 +87,11 @@ const structuredData = [
   <section class="smgu-content">
     <div class="smgu-inner">
       <figure class="smgu-figure">
-        <img
-          src={img("vintage-guild-guitar.jpg")}
+        <Image
+          src={imgMeta("vintage-guild-guitar.jpg")}
           alt="Vintage Guild Guitar"
           loading="eager"
-          width="1094"
-          height="730"
+          width={1094}
         />
       </figure>
 

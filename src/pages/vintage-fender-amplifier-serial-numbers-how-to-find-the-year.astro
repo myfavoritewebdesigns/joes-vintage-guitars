@@ -1,5 +1,6 @@
 ---
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { contact, hrefs, SITE_URL } from "../config/site";
 
@@ -17,6 +18,7 @@ import { contact, hrefs, SITE_URL } from "../config/site";
    ============================================================ */
 
 const img = (file: string) => assetSrc("images/fender-amp-serial/" + file);
+const imgMeta = (file: string) => resolveImage("images/fender-amp-serial/" + file)!;
 
 // Two-letter tube chart code → year of manufacture.
 // A-T maps to 1951-1970 (the only years Fender used this code).
@@ -82,7 +84,7 @@ const structuredData = [
   title="Vintage Fender Amplifier Serial Numbers - How To Find The Year"
   description="Wondering how old your vintage Fender amplifier is? Learn to date it using tube chart codes, transformer details, and era-specific features."
   canonical="/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
-  ogImage={img("champ.jpg")}
+  ogImage={`${SITE_URL}${img("champ.jpg")}`}
   structuredData={structuredData}
 >
   <!-- Band the (absolute) site Header sits over, so the nav reads on the dark backdrop -->
@@ -126,11 +128,11 @@ const structuredData = [
             <div id="amp-result" class="fas-tool__result" role="status" aria-live="polite"></div>
           </div>
           <figure class="fas-tool__figure">
-            <img
-              src={img("Princeton-Tube-Chart.jpg")}
+            <Image
+              src={imgMeta("Princeton-Tube-Chart.jpg")}
               alt="Fender amplifier tube chart with the ink-stamped two-letter date code. The first letter is the year and the second letter is the month."
               loading="eager"
-              decoding="async"
+              width={480}
             />
             <figcaption>
               Look for the ink-stamped <strong>two-letter code</strong> on the paper tube chart glued inside the
@@ -158,11 +160,10 @@ const structuredData = [
       </details>
 
       <p class="fas-figure-wrap">
-        <img
-          src={img("champ.jpg")}
+        <Image
+          src={imgMeta("champ.jpg")}
           alt="Vintage Fender amplifier with worn tweed covering, perfect for determining the Fender amplifier's age"
-          width="800"
-          height="533"
+          width={800}
           loading="eager"
         />
       </p>
@@ -193,12 +194,10 @@ const structuredData = [
           ))}
         </ul>
         <div class="fas-amplifier-numbers__photo">
-          <img
-            src={img("Princeton-Tube-Chart.jpg")}
+          <Image
+            src={imgMeta("Princeton-Tube-Chart.jpg")}
             alt="Tube chart inside a vintage Fender amplifier, showing a two-letter code used to determine the amp's production year"
-            width="377"
-            height="283"
-            loading="lazy"
+            width={377}
           />
         </div>
       </div>
@@ -218,12 +217,10 @@ const structuredData = [
         Fender amps from this era have a light brown tweed covering and a brown &ldquo;Fender&rdquo; plaque on the front. The control knobs are on the top side of the amp.
       </p>
       <p class="fas-figure-wrap">
-        <img
-          src={img("Princeton-Edited.jpg")}
+        <Image
+          src={imgMeta("Princeton-Edited.jpg")}
           alt="Vintage Fender amplifier with classic tweed covering, a signature look of Fender amps from the 1940s to 1950s"
-          width="800"
-          height="533"
-          loading="lazy"
+          width={800}
         />
       </p>
 
@@ -232,19 +229,15 @@ const structuredData = [
         Amps from this era have either a blonde colored tolex or a brown colored tolex and have the control knobs on the front of the amp.
       </p>
       <div class="fas-twoup">
-        <img
-          src={img("brownface-edited.jpg")}
+        <Image
+          src={imgMeta("brownface-edited.jpg")}
           alt="Vintage Fender amplifier with classic brownface design, a hallmark of Fender amps from the early 1960s"
-          width="407"
-          height="305"
-          loading="lazy"
+          width={540}
         />
-        <img
-          src={img("blonde-edited.jpg")}
+        <Image
+          src={imgMeta("blonde-edited.jpg")}
           alt="Vintage Fender amplifier with classic blonde tolex finish, a signature style from the early 1960s era"
-          width="407"
-          height="305"
-          loading="lazy"
+          width={540}
         />
       </div>
 
@@ -253,12 +246,10 @@ const structuredData = [
         Amps from this era are covered in black tolex and have a black control panel with the amp model written in a white script.
       </p>
       <p class="fas-figure-wrap">
-        <img
-          src={img("Blackface-Edited.jpg")}
+        <Image
+          src={imgMeta("Blackface-Edited.jpg")}
           alt="Vintage Fender amplifier with iconic blackface design, known for its rich sound and style from the mid-1960s"
-          width="800"
-          height="533"
-          loading="lazy"
+          width={800}
         />
       </p>
 
@@ -267,12 +258,10 @@ const structuredData = [
         Amps from this era still have the same black tolex covering, but they have a shiny silver faceplate with the model in blue lettering.
       </p>
       <p class="fas-figure-wrap">
-        <img
-          src={img("Silverface-Edited.jpg")}
+        <Image
+          src={imgMeta("Silverface-Edited.jpg")}
           alt="Vintage Fender amplifier with a distinctive silverface design, popular from the late 1960s to the 1970s"
-          width="800"
-          height="533"
-          loading="lazy"
+          width={800}
         />
       </p>
 
@@ -288,12 +277,10 @@ const structuredData = [
         If after identifying your amp&rsquo;s year you decide it&rsquo;s time to <a href="/sell-an-amplifier-or-effect/"><strong>sell your amplifier or effect</strong></a>, Joe&rsquo;s Vintage Guitars makes the process simple and fair.
       </p>
       <p class="fas-figure-wrap">
-        <img
-          src={img("Speaker-Codes-scaled.jpg")}
+        <Image
+          src={imgMeta("Speaker-Codes-scaled.jpg")}
           alt="Close-up of a vintage Fender amplifier's speaker code, showing the 3-digit manufacturer code, year digit, and week of production for dating purposes"
-          width="600"
-          height="533"
-          loading="lazy"
+          width={600}
         />
       </p>
 

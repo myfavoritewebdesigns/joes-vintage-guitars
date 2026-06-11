@@ -16,7 +16,8 @@
  */
 
 import Layout from "../layouts/Layout.astro";
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
@@ -61,6 +62,11 @@ const igPosts = [
 // `--awb-background-image:url(<live WP uploads>/2025/07/background.jpg)`
 // on the `.tp-bnr` hero wrapper).
 const gibImg = (file: string) => assetSrc("images/sell-gibson/" + file);
+// Metadata twin of gibImg for <Image> conversions (SEO v2 responsive images).
+// Non-null assertion is safe only for files verified to exist under
+// src/assets/images/sell-gibson/ — the goldtop photo + SVG icons are
+// public/-only and stay on raw <img>.
+const gibImgMeta = (file: string) => resolveImage("images/sell-gibson/" + file)!;
 const HERO_BG = assetSrc("images/sell-hero-background.jpg");
 
 // Live's OG share image for this page (distinct from the hero bg).
@@ -236,15 +242,12 @@ const structuredData = [breadcrumbSchema, faqSchema];
     <div class="smg-intro__inner">
 
       <div class="smg-intro__copy">
-        <img
-          src={gibImg("Guitar22.png")}
+        <Image
+          src={gibImgMeta("Guitar22.png")}
           alt=""
           aria-hidden="true"
-          width="344"
-          height="382"
+          width={200}
           class="smg-intro__guitar-img"
-          loading="lazy"
-          decoding="async"
         />
         <div class="smg-intro__text">
           <h2 class="smg-intro__h2">Sell Your Vintage Gibson Guitar Today!</h2>
@@ -399,10 +402,10 @@ const structuredData = [breadcrumbSchema, faqSchema];
         </p>
       </div>
       <figure class="smg-split__img">
-        <img
-          src={gibImg("1961-gibson-es-175-d-sunburst-1024x683.jpg")}
+        <Image
+          src={gibImgMeta("1961-gibson-es-175-d-sunburst-1024x683.jpg")}
           alt="Vintage Gibson ES-175D 1961, Sunburst Electric Guitar"
-          width="1024" height="683" loading="lazy" decoding="async"
+          width={552}
         />
       </figure>
     </div>
@@ -415,10 +418,10 @@ const structuredData = [breadcrumbSchema, faqSchema];
   <section id="how-much-is-my-gibson-guitar" class="smg-split">
     <div class="smg-split__inner smg-split__inner--text-right">
       <figure class="smg-split__img">
-        <img
-          src={gibImg("1966-gibson-trini-lopez-cherry-finish-1024x683.jpg")}
+        <Image
+          src={gibImgMeta("1966-gibson-trini-lopez-cherry-finish-1024x683.jpg")}
           alt="Vintage 1967 Cherry Gibson Trini Lopez Model"
-          width="1024" height="683" loading="lazy" decoding="async"
+          width={552}
         />
       </figure>
       <div class="smg-split__text">
@@ -616,10 +619,10 @@ const structuredData = [breadcrumbSchema, faqSchema];
           {/* live-parity fix (Batch 4 audit): was pointing at a URL that
               returns 404 — live actually serves the `-768x1024.jpg` size
               suffix variant. Truncated during initial HTML extraction. */}
-          <img
-            src={gibImg("vintage-gibson-guitar-seller-768x1024.jpg")}
+          <Image
+            src={gibImgMeta("vintage-gibson-guitar-seller-768x1024.jpg")}
             alt="Happy client Lyman playing a 1948 Gibson L-50 acoustic guitar after selling it to Joe"
-            width="768" height="1024" loading="lazy" decoding="async"
+            width={320}
           />
         </figure>
         <div class="smg-lyman__text">

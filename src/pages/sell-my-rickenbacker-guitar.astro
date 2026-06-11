@@ -1,9 +1,10 @@
 ---
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import FAQ from "../components/FAQ.astro";
-import { contact, hrefs } from "../config/site";
+import { SITE_URL, contact, hrefs } from "../config/site";
 
 /* ============================================================
    SELL MY RICKENBACKER GUITAR (.smr-*) — Archetype B
@@ -14,6 +15,8 @@ import { contact, hrefs } from "../config/site";
    ============================================================ */
 
 const img = (file: string) => assetSrc("images/sell-rickenbacker/" + file);
+// Metadata twin — only for files verified to exist under src/assets/images/sell-rickenbacker/.
+const imgMeta = (file: string) => resolveImage("images/sell-rickenbacker/" + file)!;
 
 // 3 Rickenbacker-specific testimonials from the live page
 const reviews = [
@@ -38,7 +41,7 @@ const featureCols = [
   {
     icon: img("prices-icon.svg"),
     iconAlt: "Fair And Convenient Prices",
-    photo: img("fair-and-convenient-prices-rickenbacker.jpg"),
+    photo: imgMeta("fair-and-convenient-prices-rickenbacker.jpg"),
     photoAlt: "Fair And Convenient Prices For Your Rickenbacker Bass Or Electric Guitar",
     headline: "Sell Your Rickenbacker Bass Or Electric Guitar At The Right Price",
     body: `I will always give you the fairest price on the market for your guitar or bass. Have one that you want to sell? <a href="/contact-me/" class="smr-link">Contact me today</a>!`,
@@ -46,7 +49,7 @@ const featureCols = [
   {
     icon: img("classic-icon.svg"),
     iconAlt: "Rare, Unique, And Classic Guitars",
-    photo: img("find-rare-unique-classic-rickenbacker.jpg"),
+    photo: imgMeta("find-rare-unique-classic-rickenbacker.jpg"),
     photoAlt: "Find Rare, Unique And Classic Rickenbacker Guitars In Our Online Shop",
     headline: "Find Rare, Unique &amp; Classic Rickenbacker Guitars In Our Online Shop",
     body: `Because I’m always traveling around the country, the inventory changes constantly. Browse the online catalog; you might find a rare Rickenbacker.`,
@@ -54,7 +57,7 @@ const featureCols = [
   {
     icon: img("guitar-icon.svg"),
     iconAlt: "Many Years Of Experience",
-    photo: img("years-of-experience-buying-and-selling.jpg"),
+    photo: imgMeta("years-of-experience-buying-and-selling.jpg"),
     photoAlt: "Years Of Experience Buying And Selling Guitars From All Over America",
     headline: "Years Of Experience Buying &amp; Selling Guitars From All Over America",
     body: `Over the years, I have seen many Rickenbacker guitar models and series. You can benefit from my expertise whether you are buying or selling one of your own.`,
@@ -125,7 +128,7 @@ const structuredData = [
   title="Sell My RICKENBACKER Guitar | Joes Vintage Guitars"
   description="Sell your vintage Rickenbacker bass or guitar to a trusted nationwide buyer. Fair cash offers, expert appraisals, and an easy process from coast to coast."
   canonical="/sell-my-rickenbacker-guitar/"
-  ogImage={img("find-rare-unique-classic-rickenbacker.jpg")}
+  ogImage={`${SITE_URL}${img("find-rare-unique-classic-rickenbacker.jpg")}`}
   structuredData={structuredData}
 >
   <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
@@ -159,12 +162,10 @@ const structuredData = [
         <a href={hrefs.tel} class="smr-btn smr-btn--rust">{contact.phone}</a>
       </div>
       <div class="smr-buyappraise__photo">
-        <img
-          src={img("i-buy-and-appraise-vintage-guitars.png")}
+        <Image
+          src={imgMeta("i-buy-and-appraise-vintage-guitars.png")}
           alt="Joe Dampt Buys And Appraises Vintage Guitars Online Or In Person"
-          loading="lazy"
-          width="1106"
-          height="720"
+          width={520}
         />
       </div>
     </div>
@@ -178,7 +179,7 @@ const structuredData = [
         {featureCols.map((c) => (
           <div class="smr-nationwide__col">
             <img src={c.icon} alt={c.iconAlt} class="smr-nationwide__icon" loading="lazy" />
-            <img src={c.photo} alt={c.photoAlt} class="smr-nationwide__photo" loading="lazy" />
+            <Image src={c.photo} alt={c.photoAlt} class="smr-nationwide__photo" width={340} />
             <hr class="smr-rule" />
             <h4 set:html={c.headline} />
             <p set:html={c.body} />

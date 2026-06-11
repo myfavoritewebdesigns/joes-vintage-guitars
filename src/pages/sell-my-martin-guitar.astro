@@ -1,9 +1,10 @@
 ---
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import FAQ from "../components/FAQ.astro";
-import { contact } from "../config/site";
+import { SITE_URL, contact } from "../config/site";
 import testimonialsRaw from "../../reference/martin-testimonials.json";
 
 // Reviews — sourced from reference/martin-testimonials.json (3 Martin-specific
@@ -45,6 +46,8 @@ const igPosts = [
 // Files live in public/images/sell-martin/ and were sourced from the live WP uploads directory
 // paths during this build session.
 const img = (file: string) => assetSrc("images/sell-martin/" + file);
+// Metadata twin — only for files verified to exist under src/assets/images/sell-martin/.
+const imgMeta = (file: string) => resolveImage("images/sell-martin/" + file)!;
 
 // Featured image — used for ogImage + intro section's serial-number-locator photo.
 const FEATURED_IMG = img("sell-my-martin-guitar-featured-image.jpg");
@@ -82,48 +85,49 @@ const faqs = [
 // 8 model cards — content + photos from live's "Receive The Best Cash Deal" grid.
 const models = [
   {
-    img: img("1953-martin-D-18-1-1024x682.jpg"),
+    img: imgMeta("1953-martin-D-18-1-1024x682.jpg"),
     alt: "Classic Martin D-18 Acoustic with Solid Wood Construction",
     title: "Martin D-18",
     body: "Buying <strong>Pre-War and Golden Era D-18s</strong>. I pay a premium for mahogany-body dreadnoughts with original <strong>scalloped bracing</strong> and Adirondack spruce tops.",
   },
   {
-    img: img("1959-martin-D-28-1024x683.jpg"),
+    img: imgMeta("1959-martin-D-28-1024x683.jpg"),
     alt: "Authentic Martin D-28 Acoustic Guitar in Excellent Condition",
     title: "Martin D-28",
     body: "Buying vintage herringbone D-28s. I know the Brazilian Rosewood models from the 1930s through the late &rsquo;60s well.",
   },
   {
-    img: img("martin-acoustic-guitar-1024x682.jpg"),
+    img: imgMeta("martin-acoustic-guitar-1024x682.jpg"),
     alt: "Classic Martin 0-18 Guitar with Tortoise Pickguard",
     title: "Martin 0-18, 0-21, 0-28",
     body: "Buying Single-0 Martin models. I like the projection and history of these early concert-sized guitars.",
   },
   {
-    img: img("1920s-martin-00-18-1-1024x683.jpg"),
+    img: imgMeta("1920s-martin-00-18-1-1024x683.jpg"),
     alt: "Martin 00-18 Vintage Acoustic Guitar",
     title: "Martin 00-18, 00-21, 00-28",
     body: "Strong cash offers on Grand Concert 00 models. I can spot the rare 12-fret and 14-fret configurations with original finishes.",
   },
   {
-    img: img("1956-martin-000-21-1-1024x683.jpg"),
+    img: imgMeta("1956-martin-000-21-1-1024x683.jpg"),
     alt: "Martin 000-18 Guitar in Excellent Vintage Condition",
     title: "Martin 000-18, 21, 28",
     body: "Buying vintage 000 &lsquo;Auditorium&rsquo; models. I pay top dollar for Pre-War examples and clean, original 000-28 guitars.",
   },
   {
-    img: img("martin-om-42-1024x682.jpg"),
+    img: imgMeta("martin-om-42-1024x682.jpg"),
     alt: "Authentic Martin 000-28 Guitar in Excellent Condition",
     title: "Martin OM Models",
     body: "Looking for original Orchestra Model (OM) Martins. I know how rare the 1929 to 1933 era is and pay a premium for authentic examples.",
   },
   {
-    img: img("martin-d-45-brazilian-rosewood-1024x682.jpg"),
+    img: imgMeta("martin-d-45-brazilian-rosewood-1024x682.jpg"),
     alt: "Classic Martin D-45 Acoustic Guitar with Elegant Detailing",
     title: "Martin D-45, 42, 41, 40",
     body: "Buying high-trim Martin dreadnoughts. I know the original abalone pearl inlay and the rare early production numbers.",
   },
   {
+    // Stays a public/ string path — this file only exists in public/images/sell-martin/.
     img: img("1959-martin-d-28-e-1-1024x683.jpg"),
     alt: "Martin GPC Acoustic Guitar with Rich Tone and Smooth Playability",
     title: "Martin Electric Models",
@@ -174,7 +178,7 @@ const structuredData = [
   title="Sell My Vintage Martin Guitar | Top Cash Offers"
   description="Looking to sell your Martin? Joe Dampt is a premier buyer of Pre-War D-18s, D-28s, and OM models. We travel the U.S. to offer top dollar for Golden Era acoustics."
   canonical="/sell-my-martin-guitar/"
-  ogImage={FEATURED_IMG}
+  ogImage={`${SITE_URL}${FEATURED_IMG}`}
   structuredData={structuredData}
 >
   <!-- lite-youtube web component — matches live's Meet Joe video element.
@@ -206,12 +210,11 @@ const structuredData = [
           There&rsquo;s something special about a Martin acoustic. <strong>Martins mean a lot to me, and I&rsquo;m always looking to buy vintage ones.</strong> I want Martin D-18s, D-28s, 0-18s, 00-18s, 000-18s, 000-28s, D-45s, and just about any other vintage Martin. If you&rsquo;re looking for someone to buy your Martin, you&rsquo;ve come to the right place. I&rsquo;ll make you a fair cash offer, then play it myself or make sure it goes to someone who will. And if you just want to know what your Martin is worth, I can tell you. If you&rsquo;ve got a vintage Martin you&rsquo;d like to sell, call or text me at <a href={`tel:${contact.tel}`} class="smm-underline"><strong>{contact.phone}</strong></a> or email me at <a href={`mailto:${contact.email}`} class="smm-underline"><strong>{contact.email}</strong></a>.
         </p>
         <div class="smm-intro__photo">
-          <img
-            src={img("Model-Name-Serial-Number-Martin-1024x683.jpg")}
+          <Image
+            src={imgMeta("Model-Name-Serial-Number-Martin-1024x683.jpg")}
             alt="Model Name and Serial Number on a Martin Acoustic Guitar"
             loading="eager"
-            width="1024"
-            height="683"
+            width={500}
           />
         </div>
       </div>
@@ -296,12 +299,10 @@ const structuredData = [
         </p>
       </div>
       <div class="smm-split__photo">
-        <img
-          src={img("1929-martin-00-21-1-1024x683.jpg")}
+        <Image
+          src={imgMeta("1929-martin-00-21-1-1024x683.jpg")}
           alt="Vintage Martin Acoustic Guitar In Purple Case At Joe&rsquo;s Vintage Guitars"
-          loading="lazy"
-          width="1024"
-          height="683"
+          width={520}
         />
       </div>
     </div>
@@ -315,12 +316,10 @@ const structuredData = [
   <section id="how-much-is-my-gibson-guitar" class="smm-split smm-split--alt">
     <div class="smm-inner smm-split__grid smm-split__grid--reverse">
       <div class="smm-split__photo">
-        <img
-          src={img("1945-martin-d-18-1-1024x683.jpg")}
+        <Image
+          src={imgMeta("1945-martin-d-18-1-1024x683.jpg")}
           alt="Free Vintage Martin Acoustic Guitar Appraisal at Joe&rsquo;s Vintage Guitars"
-          loading="lazy"
-          width="1024"
-          height="683"
+          width={520}
         />
       </div>
       <div class="smm-split__text">
@@ -348,12 +347,10 @@ const structuredData = [
         </p>
       </div>
       <div class="smm-split__photo">
-        <img
-          src={img("1955-martin-d-18-1-1024x683.jpg")}
+        <Image
+          src={imgMeta("1955-martin-d-18-1-1024x683.jpg")}
           alt="1955 Martin D-18 Guitar in Excellent Condition Available at Joe&rsquo;s Vintage Guitars"
-          loading="lazy"
-          width="1024"
-          height="683"
+          width={520}
         />
       </div>
     </div>
@@ -467,19 +464,15 @@ const structuredData = [
         </p>
       </div>
       <div class="smm-case__photos">
-        <img
-          src={img("Copy-of-IMG_1620-600x800.jpg")}
+        <Image
+          src={imgMeta("Copy-of-IMG_1620-600x800.jpg")}
           alt="Former Vintage Guitar Owner with Martin Guitar at Joe&rsquo;s Vintage Guitars"
-          loading="lazy"
-          width="600"
-          height="800"
+          width={440}
         />
-        <img
-          src={img("linda-1950s-with-martin-0-18-768x1024.jpg")}
+        <Image
+          src={imgMeta("linda-1950s-with-martin-0-18-768x1024.jpg")}
           alt="Black and white 1950s historical photo of Linda playing her vintage Martin 0-18 on the radio. Joe&rsquo;s Vintage Guitars specializes in buying Martin guitars with documented history and provenance."
-          loading="lazy"
-          width="768"
-          height="1024"
+          width={440}
         />
       </div>
     </div>
@@ -493,7 +486,11 @@ const structuredData = [
       <div class="smm-grid__cards">
         {models.map((m) => (
           <div class="smm-grid__card">
-            <img src={m.img} alt={m.alt} loading="lazy" />
+            {typeof m.img === "string" ? (
+              <img src={m.img} alt={m.alt} loading="lazy" />
+            ) : (
+              <Image src={m.img} alt={m.alt} width={260} />
+            )}
             <h4>{m.title}</h4>
             <p set:html={m.body} />
           </div>

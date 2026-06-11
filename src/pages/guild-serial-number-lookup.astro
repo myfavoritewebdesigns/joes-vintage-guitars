@@ -1,5 +1,6 @@
 ---
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { SITE_URL } from "../config/site";
 import GuildTable from "../components/GuildTable.astro";
@@ -19,6 +20,7 @@ import {
 } from "../data/guild-serial-data";
 
 const img = (file: string) => assetSrc("images/guild-sn/" + file);
+const imgMeta = (file: string) => resolveImage("images/guild-sn/" + file)!;
 
 // --- Simple tables reshaped into the {headers, rows} the component wants ---
 const numSeqVM = {
@@ -122,13 +124,11 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
       </div>
 
       <figure class="gsl-photo gsl-photo--lead">
-        <img
-          src={img("guild-serial-number-guide-lookup.jpg")}
+        <Image
+          src={imgMeta("guild-serial-number-guide-lookup.jpg")}
           alt="Detailed body shot of a vintage 1960s Guild Thunderbird S-200 electric guitar, showcasing its offset body shape, sunburst finish, and dual-pickup configuration."
-          width="1024"
-          height="683"
+          width={912}
           loading="eager"
-          decoding="async"
         />
         <figcaption>
           A 1960s Guild Thunderbird. The control layout and finish patterns shown here are key to
@@ -291,13 +291,10 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
 
         <h2 class="gsl-h2">Professional Authentication Checklist</h2>
         <figure class="gsl-photo gsl-photo--portrait">
-          <img
-            src={img("1960s-guild-x-500-bigsby.jpg")}
+          <Image
+            src={imgMeta("1960s-guild-x-500-bigsby.jpg")}
             alt="Full-body shot of a high-end 1960s Guild X-500 archtop electric guitar in sunburst finish, featuring a factory-installed Bigsby vibrato tailpiece, gold hardware, and multi-ply binding."
-            width="683"
-            height="1024"
-            loading="lazy"
-            decoding="async"
+            width={420}
           />
           <figcaption>
             The flagship Guild X-500 from the 1960s. This one has a rare factory Bigsby tailpiece. The X-500
@@ -342,14 +339,11 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
 
       <!-- Author bio -->
       <section class="gsl-author" aria-label="About the author">
-        <img
+        <Image
           class="gsl-author__photo"
-          src={img("joe-dampt.jpg")}
+          src={imgMeta("joe-dampt.jpg")}
           alt="Joe Dampt, owner of Joe's Vintage Guitars"
-          width="120"
-          height="120"
-          loading="lazy"
-          decoding="async"
+          width={84}
         />
         <div class="gsl-author__body">
           <p class="gsl-author__name">Written by <a href="/about-me/">Joe Dampt</a></p>
