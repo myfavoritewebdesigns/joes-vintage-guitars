@@ -71,6 +71,10 @@ const faqSchema = {
   ogImageAlt="Buying and Collecting Vintage Guitars and Stringed Instruments"
   structuredData={faqSchema}
 >
+  <!-- The hero paints from a CSS background-image, which browsers discover
+       late (after CSSOM). Preloading it with high priority is the mobile LCP
+       fix Prompt 8 diagnosed; same file as the free-appraisal hero. -->
+  <link slot="head" rel="preload" as="image" href="/images/hero-background.jpg" fetchpriority="high" />
   <Hero />
   <ValueProp />
   <AboutJoe />

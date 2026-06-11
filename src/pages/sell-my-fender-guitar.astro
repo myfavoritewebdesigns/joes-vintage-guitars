@@ -214,6 +214,9 @@ const structuredData = [
 
   <!-- 1. Hero — B&W vintage-shop photo with dark vignette overlay
        (matches live's .tp-bnr structure verified via DOM inspection) -->
+  <!-- Preload the CSS-background hero (late-discovered otherwise); Prompt 8
+       mobile LCP fix. -->
+  <link slot="head" rel="preload" as="image" href={HERO_BG} fetchpriority="high" />
   <section class="smf-hero" style={`background-image: url('${HERO_BG}')`}>
     <div class="smf-hero__inner">
       <h1>Sell Your Vintage Fender Guitar</h1>
@@ -1167,7 +1170,7 @@ const structuredData = [
     transition: background 0.2s, color 0.2s;
   }
   .smf-btn--rust { background: var(--color-brand-rust-bright); color: #fff; }
-  .smf-btn--rust:hover { background: #bf6344; color: #fff; }
+  .smf-btn--rust:hover { background: #bf6344; color: #fff; }
 
   /* 9. Discover Real Value banner ----------------------------- */
   .smf-banner {
