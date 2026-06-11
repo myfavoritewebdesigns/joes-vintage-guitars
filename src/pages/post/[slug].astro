@@ -31,6 +31,21 @@ const ogMeta = data.ogImage ? resolveImage(data.ogImage) : null;
 // Hero: pipeline metadata when relocated (responsive <Image>), public path
 // fallback otherwise (raw <img>, the 15 raw-HTML-blocked heroes).
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
+
+// Real pixel dimensions for the public-path heroes too: read once at build
+// with sharp so og:image:width/height and the BlogPosting ImageObject never
+// carry made-up numbers. Build-time only; ships nothing to the client.
+let publicDims: { width: number; height: number } | null = null;
+if (!ogMeta && data.ogImage && data.ogImage.startsWith("/images/")) {
+  try {
+    const sharp = (await import("sharp")).default;
+    const m = await sharp(`public${data.ogImage}`).metadata();
+    if (m.width && m.height) publicDims = { width: m.width, height: m.height };
+  } catch {
+    publicDims = null;
+  }
+}
+const ogDims = ogMeta ?? publicDims;
 const heroAbs = data.ogImage
   ? ogMeta
     ? `${SITE_URL}${ogMeta.src}`
@@ -49,16 +64,28 @@ const breadcrumbSchema = {
     { "@type": "ListItem", position: 4, name: data.title, item: postUrl },
   ],
 };
+// BlogPosting.image as ImageObject with real dimensions (and the alt text as
+// caption). Falls back to a url-only ImageObject for the 15 public-path heroes
+// whose dimensions are not statically known.
+const imageSchema = heroAbs
+  ? {
+      "@type": "ImageObject",
+      url: heroAbs,
+      ...(ogDims ? { width: ogDims.width, height: ogDims.height } : {}),
+      ...(data.heroImageAlt ? { caption: data.heroImageAlt } : {}),
+    }
+  : undefined;
+
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "@id": postUrl,
   headline: data.title,
   description: data.metaDescription || data.excerpt,
-  image: heroAbs ? [heroAbs] : undefined,
+  image: imageSchema ? [imageSchema] : undefined,
   datePublished: data.pubDate.toISOString(),
   dateModified: data.modified.toISOString(),
-  author: { "@type": "Person", name: data.author, url: `${SITE_URL}/about-me/` },
+  author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
   mainEntityOfPage: postUrl,
   articleSection: catName,
@@ -71,6 +98,8 @@ const articleSchema = {
   canonical={`/post/${entry.id}/`}
   ogImage={heroAbs}
   ogImageAlt={data.heroImageAlt || data.title}
+  ogImageWidth={ogDims?.width ?? 1200}
+  ogImageHeight={ogDims?.height ?? 630}
   ogType="article"
   publishedTime={data.pubDate.toISOString()}
   modifiedTime={data.modified.toISOString()}

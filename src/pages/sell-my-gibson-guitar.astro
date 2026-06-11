@@ -185,7 +185,33 @@ const faqSchema = {
   })),
 };
 
-const structuredData = [breadcrumbSchema, faqSchema];
+// Article node (the sibling sell pages all carry one; this page was missing
+// it, flagged in the Prompt 0 baseline) plus a VideoObject for the Meet Joe
+// embed. uploadDate and duration looked up from YouTube on 2026-06-11
+// (105 seconds), never fabricated.
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Sell My Gibson Guitar",
+  author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
+  publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
+  mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/",
+};
+const videoSchema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  name: "Meet Gibson Guitar Connoisseur Joe Dampt",
+  description:
+    "Joe Dampt introduces himself and explains how selling your vintage Gibson guitar to Joe's Vintage Guitars works.",
+  thumbnailUrl: "https://i.ytimg.com/vi/fTpIquyV-j8/hqdefault.jpg",
+  uploadDate: "2024-06-04T19:55:33-07:00",
+  duration: "PT1M45S",
+  embedUrl: "https://www.youtube.com/embed/fTpIquyV-j8",
+  contentUrl: "https://www.youtube.com/watch?v=fTpIquyV-j8",
+  publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
+};
+
+const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema];
 ---
 
 <Layout

@@ -56,7 +56,15 @@ const orgSchema = {
   "@id": `${SITE_URL}/`,
   url: `${SITE_URL}/`,
   sameAs: socialSameAs,
-  logo: `${SITE_URL}/images/joes-vintage-guitars-logo.jpg`,
+  // ImageObject with real dimensions satisfies Google's Article publisher-logo
+  // guidance for every post from one edit. The file is the live site's logo,
+  // downloaded to the exact path this URL always pointed at.
+  logo: {
+    "@type": "ImageObject",
+    url: `${SITE_URL}/images/joes-vintage-guitars-logo.jpg`,
+    width: 1440,
+    height: 1440,
+  },
   name: SITE_NAME,
   legalName: LEGAL_NAME,
   description:
@@ -185,6 +193,46 @@ const placeSchema = {
   },
 };
 
+// Shared Person node for Joe (SEO v2 Prompt 6). Promoted from the Gibson
+// serial guide's page-level node and enriched with sameAs + ImageObject so
+// every BlogPosting and Article author reference resolves to one
+// authoritative entity (~47 pages of author E-E-A-T from one node).
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": `${SITE_URL}/about-me/#person`,
+  name: "Joe Dampt",
+  givenName: "Joe",
+  familyName: "Dampt",
+  jobTitle: "Vintage Guitar Expert, Appraiser, and Owner",
+  description:
+    "Vintage guitar expert and appraiser specializing in Golden Era Gibson electrics and archtops from the 1920s through the 1960s. Over 12 years of professional experience and 10,000+ vintage instruments personally appraised.",
+  url: `${SITE_URL}/about-me/`,
+  image: {
+    "@type": "ImageObject",
+    url: `${SITE_URL}/images/about-me-joe-1.jpg`,
+    width: 587,
+    height: 587,
+  },
+  sameAs: [
+    "https://www.youtube.com/@joesvintageguitars",
+    "https://www.instagram.com/joesvintageguitarsaz/",
+    "https://www.facebook.com/joesvintageguitars/",
+  ],
+  alumniOf: { "@type": "CollegeOrUniversity", name: "Arizona State University", url: "https://www.asu.edu/" },
+  knowsAbout: [
+    "Vintage Gibson guitars",
+    "Gibson serial number dating",
+    "Vintage guitar authentication",
+    "Golden era Gibson archtops",
+    "Pre-war Martin guitars",
+    "Vintage Fender custom color guitars",
+    "Vintage guitar appraisal",
+    "Vintage guitar repair and restoration",
+  ],
+  worksFor: { "@id": `${SITE_URL}/` },
+};
+
 // Service schemas — what Joe offers
 const serviceSchemas = [
   {
@@ -209,6 +257,7 @@ const allSchemas: Record<string, unknown>[] = [
   musicStoreOrgSchema,
   localBusinessSchema,
   placeSchema,
+  personSchema,
   ...serviceSchemas,
 ];
 if (structuredData) {
