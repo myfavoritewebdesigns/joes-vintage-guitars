@@ -12,7 +12,7 @@ metaDescription: "The 1962 Gibson ES-335 is a “transitional” model that sits
 ogImage: "/images/blog/1962-gibson-es-335-guide/1962-gibson-es-335-cherry-scaled.jpg"
 wpId: 19065
 ---
-![Vintage 1962 Gibson ES-335TD in Cherry Red finish featuring original cellulose nitrate block inlays, Mickey Mouse ear body shape, and nickel-plated ABR-1 bridge.](/images/blog/1962-gibson-es-335-guide/1962-gibson-es-335-cherry-1024x683.jpg)
+![Vintage 1962 Gibson ES-335TD in Cherry Red finish featuring original cellulose nitrate block inlays, Mickey Mouse ear body shape, and nickel-plated ABR-1 bridge.](../../assets/blog/1962-gibson-es-335-guide/1962-gibson-es-335-cherry-1024x683.jpg)
 
 A pristine 1962 Gibson ES-335 showing the transition to block inlays while retaining the classic ‘Mickey Mouse’ ear cutaways and original Cherry nitrocellulose finish.
 
@@ -31,7 +31,7 @@ The **1962 Gibson ES-335TD** is a “transitional” year, sitting between the e
 -   **The Decal Change:** The primary physical difference is the sticker on the baseplate. While PAFs feature the “Patent Applied For” decal, these versions feature a black-and-gold decal reading **“PATENT NO 2,737,842.”**
     
 
-![Close-up of a rare 1962 Gibson ES-335 pickup set featuring two original 'Patent Applied For' PAF humbuckers with intact decals, highlighting the 1962 transition from PAF to Patent Number pickups.](/images/blog/1962-gibson-es-335-guide/1962-gibson-es-335-PAF-pickups-1024x683.jpg)
+![Close-up of a rare 1962 Gibson ES-335 pickup set featuring two original 'Patent Applied For' PAF humbuckers with intact decals, highlighting the 1962 transition from PAF to Patent Number pickups.](../../assets/blog/1962-gibson-es-335-guide/1962-gibson-es-335-PAF-pickups-1024x683.jpg)
 
 A rare sight: a matched pair of original 1962 PAF humbuckers. While many 1962 ES-335s feature two Patent Number pickups or a “transitional” mix of one PAF and one Pat No, finding two original 1950s-spec PAFs in a block-neck ’62 is a significant value-driver for collectors.
 
@@ -60,14 +60,14 @@ The hardware in 1962 remained high-spec, featuring **nickel plating** which ages
 -   **Bridge & Tailpiece:** This year features the **“No-Wire” ABR-1 bridge**, which lacks the metal retainer wire found on later 60s versions. The standard setup included a lightweight nickel-plated stopbar tailpiece, though many were shipped with the factory-option **Bigsby B7 vibrato**.
     
 
-![Forensic view of a 1962 Gibson ES-335 hardware set featuring a nickel-plated 'no-wire' ABR-1 bridge and the back of a lightweight stop tailpiece with the original short seam.](/images/blog/1962-gibson-es-335-guide/1962-gibson-es-335-bridge-and-tailpiece-1024x683.jpg)
+![Forensic view of a 1962 Gibson ES-335 hardware set featuring a nickel-plated 'no-wire' ABR-1 bridge and the back of a lightweight stop tailpiece with the original short seam.](../../assets/blog/1962-gibson-es-335-guide/1962-gibson-es-335-bridge-and-tailpiece-1024x683.jpg)
 
 The mechanical heart of a ’62: This shot captures the rare ‘no-wire’ ABR-1 bridge alongside the back of an original lightweight tailpiece. Notice the ‘short seam’ on the tailpiece casting, a marker that separates these original 1962 nickel components from later, heavier replacements.
 
 -   **Tuners:** The guitar utilized **Kluson Deluxe “Single Line”** tuners (meaning “Kluson Deluxe” is stamped in a single vertical line). Notably, 1962 versions feature the **“Double Ring”** plastic buttons, a distinct change from the single-ring buttons of the late 50s.
     
 
-![Close-up of original 1962 Gibson Kluson Deluxe single-line tuners featuring the transitional double-ring plastic buttons and original nickel plating.](/images/blog/1962-gibson-es-335-guide/1962-gibson-es-335-kluson-single-line-double-ring-tuners-1024x683.jpg)
+![Close-up of original 1962 Gibson Kluson Deluxe single-line tuners featuring the transitional double-ring plastic buttons and original nickel plating.](../../assets/blog/1962-gibson-es-335-guide/1962-gibson-es-335-kluson-single-line-double-ring-tuners-1024x683.jpg)
 
 A hallmark of the 1962 transition: Kluson Deluxe ‘Single Line’ tuners featuring the distinct ‘Double Ring’ buttons. These replaced the single-ring versions of the 1950s and are a key marker for verifying a period-correct 1962 ES-335 headstock.
 

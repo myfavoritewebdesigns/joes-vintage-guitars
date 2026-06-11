@@ -1,4 +1,5 @@
 ---
+import { assetSrc } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { SITE_URL } from "../config/site";
 import GuildTable from "../components/GuildTable.astro";
@@ -17,7 +18,7 @@ import {
   late1997,
 } from "../data/guild-serial-data";
 
-const IMG = "/images/guild-sn";
+const img = (file: string) => assetSrc("images/guild-sn/" + file);
 
 // --- Simple tables reshaped into the {headers, rows} the component wants ---
 const numSeqVM = {
@@ -51,7 +52,7 @@ const navParts = [
 
 const PAGE_URL = `${SITE_URL}/guild-serial-number-lookup/`;
 const OG_IMG =
-  "https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/02/guild-serial-number-guide-lookup-1024x683.jpg";
+  "https://www.joesvintageguitarsaz.com/images/og/guild-serial-number-guide-lookup-1024x683.jpg";
 
 // --- Structured data ---
 const breadcrumbSchema = {
@@ -122,7 +123,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
 
       <figure class="gsl-photo gsl-photo--lead">
         <img
-          src={`${IMG}/guild-serial-number-guide-lookup.jpg`}
+          src={img("guild-serial-number-guide-lookup.jpg")}
           alt="Detailed body shot of a vintage 1960s Guild Thunderbird S-200 electric guitar, showcasing its offset body shape, sunburst finish, and dual-pickup configuration."
           width="1024"
           height="683"
@@ -291,7 +292,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
         <h2 class="gsl-h2">Professional Authentication Checklist</h2>
         <figure class="gsl-photo gsl-photo--portrait">
           <img
-            src={`${IMG}/1960s-guild-x-500-bigsby.jpg`}
+            src={img("1960s-guild-x-500-bigsby.jpg")}
             alt="Full-body shot of a high-end 1960s Guild X-500 archtop electric guitar in sunburst finish, featuring a factory-installed Bigsby vibrato tailpiece, gold hardware, and multi-ply binding."
             width="683"
             height="1024"
@@ -343,7 +344,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
       <section class="gsl-author" aria-label="About the author">
         <img
           class="gsl-author__photo"
-          src={`${IMG}/joe-dampt.jpg`}
+          src={img("joe-dampt.jpg")}
           alt="Joe Dampt, owner of Joe's Vintage Guitars"
           width="120"
           height="120"

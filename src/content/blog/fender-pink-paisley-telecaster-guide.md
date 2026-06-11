@@ -36,7 +36,7 @@ The finish is where most authentication work happens. It isn't paint, and it isn
 
 Fender sourced the decorative foil from the **Borden Chemical Company**, marketed under the trade name *Cling-Foil*. It was an aluminum-based metallic foil with a paisley pattern printed on it, basically the same product sold commercially as decorative shelf or contact paper in the late 1960s. Fender bonded it to the flat top and back surfaces of the body with adhesive.
 
-![Close-up of the original Borden Cling-Foil paisley paper showing the printed pattern and reflective metallic aluminum sheen](/images/blog/fender-pink-paisley-telecaster-guide/1968-fender-paisley-telecaster-paisley-paper-close-up-scaled.jpg)
+![Close-up of the original Borden Cling-Foil paisley paper showing the printed pattern and reflective metallic aluminum sheen](../../assets/blog/fender-pink-paisley-telecaster-guide/1968-fender-paisley-telecaster-paisley-paper-close-up-scaled.jpg)
 
 Close-up of the original Cling-Foil surface on a 1968 example. Note the reflective metallic sheen of the aluminum base layer beneath the printed paisley pattern.
 
@@ -52,7 +52,7 @@ The foil couldn't wrap around the contoured edges of the body cleanly, so Fender
 
 **UV Fluorescence.** Under a blacklight, original vintage polyester reacts with a specific signature tied to the era's polyester chemistry and the original pink pigment. Modern reissue finishes fluoresce differently, and the variance is usually obvious to an experienced eye.
 
-![Missing chunk of Cling-Foil paper on a 1969 Fender Paisley Telecaster, typical wear pattern showing foil delamination and loss](/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-chip-in-paper-with-missing-piece-scaled.jpg)
+![Missing chunk of Cling-Foil paper on a 1969 Fender Paisley Telecaster, typical wear pattern showing foil delamination and loss](../../assets/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-chip-in-paper-with-missing-piece-scaled.jpg)
 
 A missing chunk of the Cling-Foil paper on the 1969. Completely typical wear for this model. The foil delaminates and can be lost entirely in high-wear areas, which is a positive authenticity indicator rather than a problem.
 
@@ -82,7 +82,7 @@ Date stamps were applied in **black ink** for 1968 and through early 1969. Mid-t
 
 The headstock carries the CBS-era "black logo": "Fender" in large black letters with a gold outline, "Telecaster" in bold black block lettering below, and patent numbers underneath that. This is distinct from the pre-CBS gold transition logos and the later 1970s decals. If the logo doesn't look right, the neck probably isn't right either.
 
-![CBS-era black logo on the headstock of a 1969 Fender Paisley Telecaster](/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-fender-logo-scaled.jpg)
+![CBS-era black logo on the headstock of a 1969 Fender Paisley Telecaster](../../assets/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-fender-logo-scaled.jpg)
 
 The CBS black logo on the 1969 headstock. "Fender" in large black letters with gold outline, "Telecaster" in bold block lettering with patent numbers below.
 
@@ -94,7 +94,7 @@ The hardware on these guitars is a snapshot of CBS-era Fender's parts bin circa 
 
 Both years use **chrome-plated brass knurled flat-top knobs**, sometimes called "skirted" knobs. These replaced the 1950s-style domed "top hat" knobs and are specific to the CBS era. The knurling pattern and the flat top are the identifying features.
 
-![Chrome-plated brass knurled flat-top knob on 1969 Fender Paisley Telecaster, CBS era](/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-knob-scaled.jpg)
+![Chrome-plated brass knurled flat-top knob on 1969 Fender Paisley Telecaster, CBS era](../../assets/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-knob-scaled.jpg)
 
 The CBS-era chrome knurled flat-top knob. Compare it to an earlier 1950s dome-top knob and the flat top with knurling is the instant identifier.
 
@@ -102,7 +102,7 @@ The CBS-era chrome knurled flat-top knob. Compare it to an earlier 1950s dome-to
 
 The bridge is the classic Telecaster **"ashtray" plate** with **three threaded steel saddles**. The threaded barrel saddles allow adjustable string spacing but are prone to oxidation and surface rust after decades of exposure. Light oxidation on the saddles is actually a positive authentication indicator. Perfectly polished saddles on a claimed original deserve a second look.
 
-![Ashtray bridge plate and threaded steel barrel saddles on 1969 Fender Paisley Telecaster](/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-bridge-and-saddles-scaled.jpg)
+![Ashtray bridge plate and threaded steel barrel saddles on 1969 Fender Paisley Telecaster](../../assets/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-bridge-and-saddles-scaled.jpg)
 
 The "ashtray" bridge plate and threaded steel saddles on the 1969. Note the surface oxidation on the saddles, expected and correct on an original instrument.
 
@@ -128,7 +128,7 @@ By late 1968, **PVC plastic-coated wire** had become the factory standard, repla
 
 Both years use **chrome "F"-stamped tuning machines**. These are Kluson-style single-line tuners with the Fender "F" logo stamped into the metal button. They're specific to the CBS era and were used across many Fender models in this period.
 
-![Chrome F-stamped Kluson-style tuning machines on 1969 Fender Paisley Telecaster headstock](/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-tuners-scaled.jpg)
+![Chrome F-stamped Kluson-style tuning machines on 1969 Fender Paisley Telecaster headstock](../../assets/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-tuners-scaled.jpg)
 
 Chrome "F"-stamped tuning machines on the 1969. The "F" stamp on the button is the CBS-era identifier, correct on both 1968 and 1969 examples.
 
@@ -140,7 +140,7 @@ This is the test that separates informed buyers from people who get burned. It w
 -   The polyester clear coat under the plate will be smooth and un-shattered. It was never exposed to the thermal cycling and mechanical stress that causes polyester to fail.
 -   The transition line should be sharp and precise, matching the exact shape of the four-bolt "F" stamped neck plate.
 
-![The puzzle piece neck plate shadow on a 1969 Fender Paisley Telecaster showing vibrant protected finish vs aged surrounding body](/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-puzzle-piece-neck-plate-shadow-scaled.jpg)
+![The puzzle piece neck plate shadow on a 1969 Fender Paisley Telecaster showing vibrant protected finish vs aged surrounding body](../../assets/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-puzzle-piece-neck-plate-shadow-scaled.jpg)
 
 The "puzzle piece" shadow on the 1969 with the neck plate removed. The protected finish is visibly more vibrant and un-shattered than the surrounding body, which is exactly what a genuine original should show.
 

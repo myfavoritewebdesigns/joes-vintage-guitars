@@ -1,4 +1,5 @@
 ---
+import { assetSrc } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { contact, hrefs, SITE_URL } from "../config/site";
 
@@ -15,7 +16,7 @@ import { contact, hrefs, SITE_URL } from "../config/site";
    link parity.
    ============================================================ */
 
-const IMG = "/images/fender-amp-serial";
+const img = (file: string) => assetSrc("images/fender-amp-serial/" + file);
 
 // Two-letter tube chart code → year of manufacture.
 // A-T maps to 1951-1970 (the only years Fender used this code).
@@ -81,7 +82,7 @@ const structuredData = [
   title="Vintage Fender Amplifier Serial Numbers - How To Find The Year"
   description="Wondering how old your vintage Fender amplifier is? Learn to date it using tube chart codes, transformer details, and era-specific features."
   canonical="/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
-  ogImage={`${IMG}/champ.jpg`}
+  ogImage={img("champ.jpg")}
   structuredData={structuredData}
 >
   <!-- Band the (absolute) site Header sits over, so the nav reads on the dark backdrop -->
@@ -126,7 +127,7 @@ const structuredData = [
           </div>
           <figure class="fas-tool__figure">
             <img
-              src={`${IMG}/Princeton-Tube-Chart.jpg`}
+              src={img("Princeton-Tube-Chart.jpg")}
               alt="Fender amplifier tube chart with the ink-stamped two-letter date code. The first letter is the year and the second letter is the month."
               loading="eager"
               decoding="async"
@@ -158,7 +159,7 @@ const structuredData = [
 
       <p class="fas-figure-wrap">
         <img
-          src={`${IMG}/champ.jpg`}
+          src={img("champ.jpg")}
           alt="Vintage Fender amplifier with worn tweed covering, perfect for determining the Fender amplifier's age"
           width="800"
           height="533"
@@ -193,7 +194,7 @@ const structuredData = [
         </ul>
         <div class="fas-amplifier-numbers__photo">
           <img
-            src={`${IMG}/Princeton-Tube-Chart.jpg`}
+            src={img("Princeton-Tube-Chart.jpg")}
             alt="Tube chart inside a vintage Fender amplifier, showing a two-letter code used to determine the amp's production year"
             width="377"
             height="283"
@@ -218,7 +219,7 @@ const structuredData = [
       </p>
       <p class="fas-figure-wrap">
         <img
-          src={`${IMG}/Princeton-Edited.jpg`}
+          src={img("Princeton-Edited.jpg")}
           alt="Vintage Fender amplifier with classic tweed covering, a signature look of Fender amps from the 1940s to 1950s"
           width="800"
           height="533"
@@ -232,14 +233,14 @@ const structuredData = [
       </p>
       <div class="fas-twoup">
         <img
-          src={`${IMG}/brownface-edited.jpg`}
+          src={img("brownface-edited.jpg")}
           alt="Vintage Fender amplifier with classic brownface design, a hallmark of Fender amps from the early 1960s"
           width="407"
           height="305"
           loading="lazy"
         />
         <img
-          src={`${IMG}/blonde-edited.jpg`}
+          src={img("blonde-edited.jpg")}
           alt="Vintage Fender amplifier with classic blonde tolex finish, a signature style from the early 1960s era"
           width="407"
           height="305"
@@ -253,7 +254,7 @@ const structuredData = [
       </p>
       <p class="fas-figure-wrap">
         <img
-          src={`${IMG}/Blackface-Edited.jpg`}
+          src={img("Blackface-Edited.jpg")}
           alt="Vintage Fender amplifier with iconic blackface design, known for its rich sound and style from the mid-1960s"
           width="800"
           height="533"
@@ -267,7 +268,7 @@ const structuredData = [
       </p>
       <p class="fas-figure-wrap">
         <img
-          src={`${IMG}/Silverface-Edited.jpg`}
+          src={img("Silverface-Edited.jpg")}
           alt="Vintage Fender amplifier with a distinctive silverface design, popular from the late 1960s to the 1970s"
           width="800"
           height="533"
@@ -288,7 +289,7 @@ const structuredData = [
       </p>
       <p class="fas-figure-wrap">
         <img
-          src={`${IMG}/Speaker-Codes-scaled.jpg`}
+          src={img("Speaker-Codes-scaled.jpg")}
           alt="Close-up of a vintage Fender amplifier's speaker code, showing the 3-digit manufacturer code, year digit, and week of production for dating purposes"
           width="600"
           height="533"

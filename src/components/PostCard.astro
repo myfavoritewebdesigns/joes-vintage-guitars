@@ -1,6 +1,7 @@
 ---
 import type { Post } from "../lib/blog";
 import { categoryName, formatDate } from "../lib/blog";
+import { assetSrc } from "../lib/images";
 
 interface Props {
   post: Post;
@@ -16,7 +17,7 @@ const catHref = `/category/${data.category}/`;
   <a class="bpc__media" href={href} aria-label={data.title}>
     {data.heroImage ? (
       <img
-        src={data.heroImage}
+        src={assetSrc(data.heroImage)}
         alt={data.heroImageAlt || data.title}
         loading={eager ? "eager" : "lazy"}
         decoding="async"

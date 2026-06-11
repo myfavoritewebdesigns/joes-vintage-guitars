@@ -25,7 +25,7 @@ The **1952 Fender Telecaster** is one of the classic “Blackguard” years and 
 
 Whether you are an heir looking to value an inherited instrument or a collector verifying a potential purchase, distinguishing a factory-original 1952 Telecaster from a high-end reproduction requires looking at specific, microscopic tooling marks and internal components. This guide gives a technical breakdown of the 1952 specifications, from Tadeo Gomez neck shapes to period-correct electronics, to help you determine the [true value and authenticity of your vintage Fender.](/vintage-fender-telecaster-value-guide/) If you want to know the year of your vintage Fender, use our handy [Fender serial number lookup](/post/fender-guitars-serial-number-guide/) tool. If you have a [vintage Fender you’d like to sell](/), please don’t hesitate to reach out to Joe’s Vintage Guitars.
 
-![1952 Fender Telecaster body in Butterscotch Blonde finish featuring black phenolic pickguard and brass bridge saddles.](/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-body-1024x683.jpg)
+![1952 Fender Telecaster body in Butterscotch Blonde finish featuring black phenolic pickguard and brass bridge saddles.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-body-1024x683.jpg)
 
 A prime example of the “Blackguard” era. This 1952 body features a premium ash grain visible through its aged nitrocellulose finish. Key features include the original black phenolic pickguard, solid brass bridge saddles, and the factory serial number stamped into the bridge plate.
 
@@ -40,7 +40,7 @@ In the early 1950s, guitars were made by hand using manual machines called pin r
 -   **The Hump:** If you look at the “cutaway” (the scooped-out part of the body where the neck meets the wood), there should be a slight, uneven “hump.” This happened because the worker had to pull the routing tool away at a certain point. Modern, fake guitars are usually perfectly smooth and symmetrical here because they are made by computers.
     
 
-![Close-up of a 1952 Fender Telecaster neck cutaway showing the authentic "router hump" in the wood.](/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-router-hump-1024x683.jpg)
+![Close-up of a 1952 Fender Telecaster neck cutaway showing the authentic "router hump" in the wood.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-router-hump-1024x683.jpg)
 
 A good way to identify a genuine 1952 body. This slight, uneven “hump” in the cutaway was created by the manual pin-router template exit point. A perfectly smooth, symmetrical curve in this area is often a sign of a modern reproduction.
 
@@ -51,7 +51,7 @@ A good way to identify a genuine 1952 body. This slight, uneven “hump” in th
 
 When these guitars were painted in the factory, workers drove three or four small nails into the wood (usually under where the pickguard and bridge plate sit) so they could paint one side, then flip it over, suspended on the nails to paint the back. Once the paint dried, the nails were pulled out. On a real ’52, you will see these tiny, pin-sized holes. If the holes are missing or filled with thick, plastic-like paint, the guitar has likely been refinished or is a modern copy.
 
-![Alt TextOriginal 1952 Fender Telecaster body showing a tiny factory nail hole under the pickguard area.](/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-nail-holes-1024x683.jpg)
+![Alt TextOriginal 1952 Fender Telecaster body showing a tiny factory nail hole under the pickguard area.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-nail-holes-1024x683.jpg)
 
 A good indicator of an original 1952 finish. These tiny holes were created by nails used to suspend the body during the painting process at the Fullerton factory. Finding these holes, especially when they are clear of modern paint buildup, points to an authentic, non-refinished Blackguard body.
 
@@ -62,7 +62,7 @@ The famous yellow color of a ’52 Tele is actually an accident of time. Origina
 -   **The Test:** If you unscrew the black pickguard, the wood underneath should be much lighter (pale cream) than the rest of the guitar. This is called “ghosting.” If the color is the same everywhere, even under the pickguard, it’s a modern paint job.
     
 
-![1952 Fender Telecaster body with pickguard removed showing original blonde finish ghosting.](/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-ghosting-under-pickguard-1024x683.jpg)
+![1952 Fender Telecaster body with pickguard removed showing original blonde finish ghosting.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-ghosting-under-pickguard-1024x683.jpg)
 
 This image highlights “ghosting,” showing the original pale blonde finish preserved under the pickguard. The surrounding butterscotch color is the result of seven decades of UV exposure on the nitrocellulose lacquer. This contrast is a key indicator of an original, non-refinished body.
 
@@ -77,7 +77,7 @@ The neck is a single piece of maple wood. In 1952, these were shaped by a well-k
 -   **The Adjustment Screw:** Inside the neck is a metal rod (the truss rod) that keeps it straight. The adjustment screw for this rod is located at the very bottom of the neck, where it connects to the body. On a ’52, this must be a **Flat-head (Slot-head)** screw. If you see a cross-shaped Phillips screw here, the neck is likely not from 1952.
     
 
-![Close-up of a 1952 Fender Telecaster neck heel featuring a period-correct flat-head (slot-head) truss rod adjustment screw.](/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-neck-heel-date-and-truss-rod-screw-1024x683.jpg)
+![Close-up of a 1952 Fender Telecaster neck heel featuring a period-correct flat-head (slot-head) truss rod adjustment screw.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-neck-heel-date-and-truss-rod-screw-1024x683.jpg)
 
 An important authentication point for any “Blackguard.” In 1952, the truss rod adjustment screw located at the heel of the neck was a flat-head (slot-head) variety. Finding a Phillips-head screw in this position usually points to a replacement part or a later-era neck. This detail, combined with the handwritten Tadeo Gomez initials often found nearby, confirms the neck’s early 50s origin.
 
@@ -86,7 +86,7 @@ An important authentication point for any “Blackguard.” In 1952, the truss r
 -   **The 12th Fret:** Look at the two black dots at the 12th fret. In 1952, these dots were spaced wide apart (about 1.125 inches). Later Fenders moved them closer together.
     
 
-![Close-up of a 1952 Fender Telecaster maple fretboard showing the wide 1.125-inch spacing of the black 12th fret position dots.](/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-12th-fret-dots-1024x683.jpg)
+![Close-up of a 1952 Fender Telecaster maple fretboard showing the wide 1.125-inch spacing of the black 12th fret position dots.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-12th-fret-dots-1024x683.jpg)
 
 A good marker for early 50s authentication. On an original 1952 Telecaster, the two black phenolic dots at the 12th fret are spaced approximately 1.125 inches apart. Fender moved to a narrower spacing much later, which makes this “wide” gap a handy detail for identifying a Blackguard neck.
 
@@ -98,7 +98,7 @@ A good marker for early 50s authentication. On an original 1952 Telecaster, the 
 -   **The String Tree:** This is the small metal button on the headstock that holds the strings down. In 1952, it must be a **small, round circle**. Fender didn’t switch to the “wing” shape until years later.
     
 
-![Close-up of a 1952 Fender Telecaster headstock featuring the original circular button-style string tree.](/images/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-vintage-round-string-tree-1024x683.jpg)
+![Close-up of a 1952 Fender Telecaster headstock featuring the original circular button-style string tree.](../../assets/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-vintage-round-string-tree-1024x683.jpg)
 
 A telltale detail of the early 50s headstock. The 1952 Telecaster uses a small, round metal button to hold the E and B strings in place. Fender did not switch to the more common “butterfly” or “wing” style string tree until mid-1954, so this hardware piece is a good indicator of a period-correct Blackguard.
 
@@ -129,14 +129,14 @@ The tuning keys at the top of the neck have a very specific look.
 -   **The Stamp:** On the back of the metal casing, it should be stamped **“PAT. APPLD.”** (Patent Applied).
     
 
-![Close-up of the back of a 1952 Fender Telecaster tuner showing the "PAT. APPLD." stamp](/images/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-tuner-casing-with-pat-appld-stamp-1024x683.jpg)
+![Close-up of the back of a 1952 Fender Telecaster tuner showing the "PAT. APPLD." stamp](../../assets/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-tuner-casing-with-pat-appld-stamp-1024x683.jpg)
 
 A useful detail for any 1952 Telecaster. These tuners are known as “No-Line” because they lack the “Kluson Deluxe” text typically found down the center of later models. On the back of the metal housing, you should find the “PAT. APPLD.” (Patent Applied For) stamp. This hardware is typical of early 1950s Fender production.
 
 -   **The “No-Line” Rule:** There should be no brand name (like “Kluson Deluxe”) stamped down the middle of the casing. Those “single-line” stamps didn’t start appearing until after the 1952 era.
     
 
-![Row of original "No-Line" Kluson Deluxe tuners on the back of a 1952 Fender Telecaster headstock.](/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-kluson-no-line-tuners-1024x683.jpg)
+![Row of original "No-Line" Kluson Deluxe tuners on the back of a 1952 Fender Telecaster headstock.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-kluson-no-line-tuners-1024x683.jpg)
 
 A common 1952 feature. These tuners are called “No-Line” because the center of the casing is smooth, lacking the “Kluson Deluxe” branding that appeared in later years. On a Blackguard, these tuners should match across the headstock and have the “PAT. APPLD.” stamp on the underside of the housing.
 
@@ -145,20 +145,20 @@ A common 1952 feature. These tuners are called “No-Line” because the center 
 -   **The Knobs:** The two chrome knobs on the front should have a “coarse” texture (rough to the touch) and a **rounded, dome-shaped top**. Later knobs have flat tops.
     
 
-![Close-up of a 1952 Fender Telecaster chrome control knob featuring a coarse knurled texture and a rounded dome-top profile.](/images/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-coarse-knurled-round-top-knob-1024x683.jpg)
+![Close-up of a 1952 Fender Telecaster chrome control knob featuring a coarse knurled texture and a rounded dome-top profile.](../../assets/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-coarse-knurled-round-top-knob-1024x683.jpg)
 
 A small but useful detail for 1952 authentication. These original chrome knobs have a “coarse” knurl, which gives a heavy, rough grip compared to later versions. The top of the knob should also have a rounded, dome-like shape rather than the flat-top profile seen on later 1950s and 60s models.
 
 -   **The Switch Tip:** The plastic tip on the pickup selector should be a **black “Barrel” shape**. It looks like a tiny cylinder.
     
 
-![Original 1952 Fender Telecaster black "barrel" style pickup selector switch tip.](/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-barrel-switch-tip-1024x683.jpg)
+![Original 1952 Fender Telecaster black "barrel" style pickup selector switch tip.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-barrel-switch-tip-1024x683.jpg)
 
 A cosmetic detail to check on a 1952 Blackguard. In this era, the pickup selector had a cylindrical, “barrel-shaped” tip that is taller and narrower than the “top hat” style tips that became standard in later years. Making sure this tip is period-correct helps confirm a 1952 Telecaster.
 
 -   **Pickguard:** In 1952, the pickguard was made of a single layer of black phenolic (fiber) material. For authenticity, look for circular sanding marks on the back and a thin coat of clear lacquer on the front.
 
-![Close-up of an original 1952 Fender Telecaster black phenolic pickguard showing authentic lacquer wear and play marks on the surface.](/images/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-black-phenolic-pickguard-1024x683.jpg)
+![Close-up of an original 1952 Fender Telecaster black phenolic pickguard showing authentic lacquer wear and play marks on the surface.](../../assets/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-black-phenolic-pickguard-1024x683.jpg)
 
 This image shows the surface wear found on an original 1952 black phenolic pickguard. Unlike modern plastic guards, these early “Blackguards” were clear-coated with lacquer at the factory, which wears and dulls over decades of play. This kind of patina is hard to fake and is a good indicator of the guitar’s age and history.
 
@@ -175,7 +175,7 @@ In 1952, Fender used a brand called **Clarostat**.
 -   **The Date Code:** Look for the number **140**. In the 50s, the date was the very next digit. So a 1952 pot would read **1402**. Note that these codes are often hidden under a blob of silver solder from the factory, so you may only see part of the blue ink.
     
 
-![Original 1952 Fender Telecaster Clarostat potentiometer featuring the distinctive blue ink date code stamp.](/images/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-blue-ink-pot-stamp-1024x683.jpg)
+![Original 1952 Fender Telecaster Clarostat potentiometer featuring the distinctive blue ink date code stamp.](../../assets/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-blue-ink-pot-stamp-1024x683.jpg)
 
 A solid internal marker for a 1952 Telecaster. These potentiometers, manufactured by Clarostat (manufacturer code 140), are identifiable by their blue ink stamps. In the 1950s, the date was indicated by a single digit following the manufacturer code; for 1952, this appears as “1402.” These codes are frequently found partially obscured by factory solder joints. Such is the case with this pot, making the codes illegible. Still, the presence of a blue ink stamp is a verification win on this 52′ tele.
 
@@ -183,7 +183,7 @@ A solid internal marker for a 1952 Telecaster. These potentiometers, manufacture
 
 -   The metal switch that changes the sound should be stamped with **“CRL 1452”**.
 
-![Internal view of a 1952 Fender Telecaster 3-way selector switch clearly showing the "CRL 1452" factory stamp.](/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-3-way-switch-1024x683.jpg)
+![Internal view of a 1952 Fender Telecaster 3-way selector switch clearly showing the "CRL 1452" factory stamp.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-3-way-switch-1024x683.jpg)
 
 Inside the electronics cavity of a 1952 Blackguard, the 3-way pickup selector switch is a good piece of evidence. It must be stamped with “CRL 1452,” identifying it as a Centralab-manufactured switch from the correct era. Checking this stamp is an important step for collectors confirming the originality of the guitar’s internal components.
 
@@ -192,7 +192,7 @@ Inside the electronics cavity of a 1952 Blackguard, the 3-way pickup selector sw
 -   **Pickup Construction:** Original 1952 bridge pickups feature flat, non-staggered pole pieces and are wrapped in black string, while the neck pickup is encased in a chrome-plated brass cover.
     
 
-![Alt TextClose-up of an original 1952 Fender Telecaster bridge pickup featuring flat pole pieces and black string wrapping](/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-bridge-pickup-1024x683.jpg)
+![Alt TextClose-up of an original 1952 Fender Telecaster bridge pickup featuring flat pole pieces and black string wrapping](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-bridge-pickup-1024x683.jpg)
 
 This image highlights the core components of the “Blackguard” bridge pickup. To be period-correct for 1952, the magnets must be flat (non-staggered) and wrapped in protective black string. Authentic lead wires will always be black and white cloth-covered wire.
 
@@ -203,7 +203,7 @@ This image highlights the core components of the “Blackguard” bridge pickup.
 -   **Baseplate:** The bridge pickup is mounted to a copper-plated steel baseplate, a critical component for achieving the signature “twang”.
     
 
-![Rear view of an original 1952 Fender Telecaster bridge pickup showing the copper-plated steel baseplate and cloth-covered lead wires.](/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-pickup-copper-base-plate-1024x683.jpg)
+![Rear view of an original 1952 Fender Telecaster bridge pickup showing the copper-plated steel baseplate and cloth-covered lead wires.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-pickup-copper-base-plate-1024x683.jpg)
 
 A characteristic feature of the early ’50s bridge pickup is this copper-plated steel baseplate. Beyond serving as a mounting surface, this plate interacts with the pickup’s magnetic field to broaden the frequency response, creating the low-end punch and high-end “twang” that 1952 Telecasters are known for. Note the authentic black and yellow cloth-covered wires and the visible wax potting, both useful details for identifying a period-correct Fender pickup.
 

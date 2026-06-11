@@ -12,7 +12,7 @@ metaDescription: "The Gibson LG series packs a lot of guitar into a small body. 
 ogImage: "/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1950s-gibson-lg-2-vintage-acoustic-guitar-scaled.jpg"
 wpId: 18194
 ---
-![Vintage 1950s Gibson LG-2 acoustic guitar with large pickguard and original small rectangular rosewood bridge](/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1950s-gibson-lg-2-vintage-acoustic-guitar-1024x683.jpg)
+![Vintage 1950s Gibson LG-2 acoustic guitar with large pickguard and original small rectangular rosewood bridge](../../assets/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1950s-gibson-lg-2-vintage-acoustic-guitar-1024x683.jpg)
 
 A prime example of a late 1950s Gibson LG-2. This model features the transition-era large pointed pickguard while retaining the highly desirable small rectangular bridge and X-braced construction.
 
@@ -48,7 +48,7 @@ The LG-3 is the natural-finish twin of the LG-2.
 -   **Rarity:** Gibson produced significantly fewer LG-3s than LG-2s, so they are harder to find.
     
 
-![Vintage 1950s Gibson LG-3 acoustic guitar with natural finish and X-bracing at Joe's Vintage Guitars Mesa AZ](/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1950s-gibson-lg-3-acoustic-guitar-1024x683.jpg)
+![Vintage 1950s Gibson LG-3 acoustic guitar with natural finish and X-bracing at Joe's Vintage Guitars Mesa AZ](../../assets/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1950s-gibson-lg-3-acoustic-guitar-1024x683.jpg)
 
 A beautiful example of a 1950s Gibson LG-3. Unlike the sunburst LG-2, the LG-3 features a natural spruce top, but retains the highly desirable X-bracing that collectors look for.
 
@@ -63,7 +63,7 @@ Introduced in 1943, the LG-1 is the most common model found today, but it’s of
 -   **Visual ID:** Usually features a Sunburst finish and a simple single-ply binding.
     
 
-![Vintage Gibson LG-1 sunburst acoustic guitar with ladder bracing and tortoise pickguard at Joe's Vintage Guitars.](/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1960s-gibson-lg-1-sunburst-1024x683.jpg)
+![Vintage Gibson LG-1 sunburst acoustic guitar with ladder bracing and tortoise pickguard at Joe's Vintage Guitars.](../../assets/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1960s-gibson-lg-1-sunburst-1024x683.jpg)
 
 A 1960s Gibson LG-1. Note that it is identical in appearance to an LG-2. The only distinguishing factors are the bracing and back strap.
 
@@ -113,7 +113,7 @@ The “feel” of an LG changes drastically by era:
 -   **Adjustable Saddle (1961 to 1970s):** Gibson added a ceramic or rosewood adjustable saddle system. While this allows for quick action adjustments, the extra hardware often creates a slightly “thinner” sound compared to a fixed bone saddle.
     
 
-![Close up of vintage Gibson LG-1 belly up rosewood bridge with original bridge pins and saddle detail.](/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/gibson-lg-1-belly-up-bridge-1024x683.jpg)
+![Close up of vintage Gibson LG-1 belly up rosewood bridge with original bridge pins and saddle detail.](../../assets/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/gibson-lg-1-belly-up-bridge-1024x683.jpg)
 
 A close-up look at the classic “belly up” rosewood bridge found on later Gibson LG-1 models. When evaluating these, we check for lifting, bridge plate wear, and original saddle height to ensure maximum playability and value.
 
@@ -149,7 +149,7 @@ The **LG-0** (all mahogany) and **LG-1** (ladder-braced spruce top) were designe
 
 > **Guru Tip:** If you find an LG-1 *with* a back strip, you might have a rare “transitional” model or a guitar that had a back replaced at the factory. However, 99% of the time, the presence of that strip is your green light that you’re looking at a high-value LG-2 or LG-3.
 
-![Close up of a vintage Gibson LG-2 back strip showing the center seam reinforcement at Joe's Vintage Guitars.](/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/gibson-lg-2-back-strip-example-1024x683.jpg)
+![Close up of a vintage Gibson LG-2 back strip showing the center seam reinforcement at Joe's Vintage Guitars.](../../assets/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/gibson-lg-2-back-strip-example-1024x683.jpg)
 
 The presence of a back strip, the decorative or structural center seam on the back of the guitar, is a key indicator for many collectors. While common on the X-braced LG-2 and LG-3, its absence on other models can help us date and identify the instrument correctly.
 

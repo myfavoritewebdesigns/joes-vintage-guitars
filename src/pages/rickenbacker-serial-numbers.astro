@@ -1,4 +1,5 @@
 ---
+import { assetSrc } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { SITE_URL } from "../config/site";
 // Cohesive .jvg-rick design system + decoder/TOC machinery ported verbatim from live.
@@ -6,7 +7,7 @@ import rsnCss from "../../reference/rsn-content.css?raw";
 // Page-specific JSON-LD (TechArticle + FAQPage + Thing) injected verbatim from live.
 import rsnPageJsonLd from "../../reference/rsn-jsonld-page.json?raw";
 
-const IMG = "/images/rickenbacker-serial";
+const img = (file: string) => assetSrc("images/rickenbacker-serial/" + file);
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -22,7 +23,7 @@ const breadcrumbSchema = {
   title="Rickenbacker Serial Number Decoder + Dating Guide"
   description="Decode any Rickenbacker serial number from 1954 to today. Full era guide, interactive decoder tool, and advanced dating by pickups, tuners, knobs, and body specs."
   canonical="/rickenbacker-serial-numbers/"
-  ogImage={`${SITE_URL}/wp-content/uploads/2026/04/1960s-rickenbacker-360-2-scaled.jpg`}
+  ogImage={`${SITE_URL}/images/og/1960s-rickenbacker-360-2-scaled.jpg`}
   ogType="article"
   publishedTime="2026-04-02T21:17:20+00:00"
   structuredData={[breadcrumbSchema]}
@@ -81,7 +82,7 @@ const breadcrumbSchema = {
       </div>
 
       <figure class="jvg-figure">
-        <img loading="lazy" decoding="async" width="2560" height="1707" alt="1960s Rickenbacker 360 in Mapleglo natural finish" src={`${IMG}/1960s-rickenbacker-360-2-scaled.jpg`} />
+        <img loading="lazy" decoding="async" width="2560" height="1707" alt="1960s Rickenbacker 360 in Mapleglo natural finish" src={img("1960s-rickenbacker-360-2-scaled.jpg")} />
         <figcaption>A 1960s Rickenbacker 360 in Mapleglo, the natural finish that shows off the instrument&rsquo;s clean lines and distinctive body shape.</figcaption>
       </figure>
 
@@ -93,7 +94,7 @@ const breadcrumbSchema = {
       <h3>Solidbody Combo Guitars: 1954 to Late 1958</h3>
       <div class="era-badge">1954 to 1958</div>
       <figure class="jvg-figure jvg-figure-half">
-        <img loading="lazy" decoding="async" width="1600" height="1066" alt="Rickenbacker serial number stamped on the bridge of a 1950s solidbody Combo guitar" src={`${IMG}/rickenbacker-serial-number-on-bridge.jpg`} />
+        <img loading="lazy" decoding="async" width="1600" height="1066" alt="Rickenbacker serial number stamped on the bridge of a 1950s solidbody Combo guitar" src={img("rickenbacker-serial-number-on-bridge.jpg")} />
         <figcaption>Serial number stamped on the bridge of a 1960s Rickenbacker Combo. Lower-end solid body models continued using the bridge stamp even after the jackplate became standard on higher-end guitars.</figcaption>
       </figure>
       <p>The Combo 600 and 800 introduced Rickenbacker&rsquo;s first modern serial format, later extended to the 400, 450, and 650/850. The first one to three characters identify the model and type, a single year digit follows, and the remaining digits are a production sequence.</p>
@@ -133,7 +134,7 @@ const breadcrumbSchema = {
       <h3>The JK / JL Transition: November to December 1960</h3>
       <div class="era-badge">Nov to Dec 1960</div>
       <figure class="jvg-figure">
-        <img loading="lazy" decoding="async" width="800" height="533" alt="Serial number stamped on the headstock of a Rickenbacker Frying Pan lap steel guitar" src={`${IMG}/rickenbacker-fry-pan-serial-number.jpg`} />
+        <img loading="lazy" decoding="async" width="800" height="533" alt="Serial number stamped on the headstock of a Rickenbacker Frying Pan lap steel guitar" src={img("rickenbacker-fry-pan-serial-number.jpg")} />
         <figcaption>Serial number stamped directly on the headstock of a Rickenbacker Frying Pan, the earliest Rickenbacker serial location.</figcaption>
       </figure>
       <p>In November 1960, Rickenbacker briefly previewed the system that would become permanent. Serials from this two-month window begin with <strong>JK</strong> (November 1960) or <strong>JL</strong> (December 1960), followed by a production number. J = the 10th letter = year 1960. K = 11th letter = November, L = 12th = December. If your serial starts with JK or JL and is followed only by digits, it&rsquo;s from this narrow window.</p>
@@ -143,7 +144,7 @@ const breadcrumbSchema = {
       <div class="era-badge">1961 to 1986</div>
       <p>This is the most famous and longest-running Rickenbacker serial system. The first two characters, both letters, stamp a precise year and month on every instrument. Letters appear above the output jack hole on the jackplate; digits appear below.</p>
       <figure class="jvg-figure">
-        <img loading="lazy" decoding="async" width="1600" height="1066" alt="Rickenbacker output jack serial number showing the two-letter year and month code used from 1961 to 1986" src={`${IMG}/rickenbacker-output-jack-serial-number-two-letter-code.jpg`} />
+        <img loading="lazy" decoding="async" width="1600" height="1066" alt="Rickenbacker output jack serial number showing the two-letter year and month code used from 1961 to 1986" src={img("rickenbacker-output-jack-serial-number-two-letter-code.jpg")} />
         <figcaption>The two-letter code on a Rickenbacker output jackplate. The first letter gives the year, the second the month of production.</figcaption>
       </figure>
       <p>From 1961 to 1965, production numbers ran 01 to 999 (resetting to 01 when they hit 999). From 1966 onward, the range expanded to 001 to 9999 and never needed to reset in a single year.</p>
@@ -253,7 +254,7 @@ const breadcrumbSchema = {
       <h3>Toaster Pickup: 1957 to 1974</h3>
       <p>The Toaster is the defining Rickenbacker sound: clear, jangly, and chimey. Its name comes from its visual resemblance to the top of a bread toaster. It appeared first on the Capri hollowbodies and spread across the line.</p>
       <figure class="jvg-figure">
-        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Rickenbacker toaster pickup, the chrome covered single-coil that defined the Rickenbacker sound from 1957 to 1974" src={`${IMG}/rickenbacker-toaster-pickup-scaled.jpg`} />
+        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Rickenbacker toaster pickup, the chrome covered single-coil that defined the Rickenbacker sound from 1957 to 1974" src={img("rickenbacker-toaster-pickup-scaled.jpg")} />
         <figcaption>The Rickenbacker toaster pickup, named for its resemblance to the top of a bread toaster. Present on all models 1957 to 1974, with some overlap during the Hi-Gain transition.</figcaption>
       </figure>
       <div class="timeline">
@@ -313,7 +314,7 @@ const breadcrumbSchema = {
       <h3>Kluson Deluxe: 1954 to 1982</h3>
       <p>The dominant Rickenbacker guitar tuner for nearly three decades. Closed-back, the first of their type when introduced in 1947. Present on Combo 600 and 800 from 1954 onward. White plastic or nickel &ldquo;bean&rdquo; buttons in different periods.</p>
       <figure class="jvg-figure">
-        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Kluson Deluxe tuners on a Rickenbacker guitar, the standard tuner on most Ricks from 1954 until Kluson closed in 1982" src={`${IMG}/rickenbacker-kluson-tuners-scaled.jpg`} />
+        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Kluson Deluxe tuners on a Rickenbacker guitar, the standard tuner on most Ricks from 1954 until Kluson closed in 1982" src={img("rickenbacker-kluson-tuners-scaled.jpg")} />
         <figcaption>Kluson Deluxe tuners on a Rickenbacker: closed-back with white bean buttons. The standard fitment on nearly all Rick guitars from 1954 until Kluson ceased production in 1982.</figcaption>
       </figure>
       <ul>
@@ -384,7 +385,7 @@ const breadcrumbSchema = {
         <div class="tl-item"><span class="tl-date">June 1964</span><span class="tl-desc"><strong>&ldquo;New Style&rdquo; (NS) body introduced</strong> on Deluxe 360-series: rounded top edges, no top binding, checkered back binding only, bound cat-eye soundholes. This major cosmetic change accompanies the new knobs, white pickguard, and (on non-vibrato models) the R tailpiece. Standard models (330, 340) retained their existing construction with no major body changes at this time.</span></div>
       </div>
       <figure class="jvg-figure">
-        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Rickenbacker checkerboard back binding, the hallmark of the New Style NS body introduced in mid-1964" src={`${IMG}/rickenbacker-checklerboard-binding-scaled.jpg`} />
+        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Rickenbacker checkerboard back binding, the hallmark of the New Style NS body introduced in mid-1964" src={img("rickenbacker-checklerboard-binding-scaled.jpg")} />
         <figcaption>Rickenbacker&rsquo;s signature checkerboard back binding, introduced with the New Style body in mid-1964 and a definitive marker of post-1964 Deluxe hollowbodies.</figcaption>
       </figure>
       <h3>Soundholes</h3>
@@ -403,7 +404,7 @@ const breadcrumbSchema = {
 
       <h2>Tailpieces</h2>
       <figure class="jvg-figure">
-        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Rare 1968 Rickenbacker 4005 hollowbody bass in Azureglo, one of the most desirable Rickenbacker basses ever produced" src={`${IMG}/1968-rickenbacker-4005-azureglo-1-scaled.jpg`} />
+        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Rare 1968 Rickenbacker 4005 hollowbody bass in Azureglo, one of the most desirable Rickenbacker basses ever produced" src={img("1968-rickenbacker-4005-azureglo-1-scaled.jpg")} />
         <figcaption>A rare 1968 Rickenbacker 4005 hollowbody bass in Azureglo. The 4005 was the first semi-hollow Rickenbacker bass and one of the brand&rsquo;s most collectible instruments. It features the brass R tailpiece introduced in 1964 to 1965.</figcaption>
       </figure>
       <h3>Trapeze Tailpiece: 1958 to 1965</h3>

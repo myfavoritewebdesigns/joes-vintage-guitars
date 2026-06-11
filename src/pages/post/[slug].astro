@@ -6,6 +6,7 @@ import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
 import { SITE_URL, hrefs, contact } from "../../config/site";
 import { getPublishedPosts, getRelated, categoryName, formatDate } from "../../lib/blog";
+import { resolveImage, assetSrc } from "../../lib/images";
 
 export const getStaticPaths = (async () => {
   const posts = await getPublishedPosts();
@@ -22,10 +23,16 @@ const { data } = entry;
 const postUrl = `${SITE_URL}/post/${entry.id}/`;
 const catName = categoryName(data.category, data.categoryName);
 const catUrl = `/category/${data.category}/`;
+// og:image must be absolute. When the file was relocated under src/assets the
+// shim returns pipeline metadata (hashed /_astro/ URL); otherwise the original
+// public path passes through unchanged.
+const ogMeta = data.ogImage ? resolveImage(data.ogImage) : null;
 const heroAbs = data.ogImage
-  ? data.ogImage.startsWith("http")
-    ? data.ogImage
-    : `${SITE_URL}${data.ogImage}`
+  ? ogMeta
+    ? `${SITE_URL}${ogMeta.src}`
+    : data.ogImage.startsWith("http")
+      ? data.ogImage
+      : `${SITE_URL}${data.ogImage}`
   : undefined;
 
 const breadcrumbSchema = {
@@ -87,7 +94,7 @@ const articleSchema = {
     {data.heroImage && (
       <figure class="bpost__hero">
         <img
-          src={data.heroImage}
+          src={assetSrc(data.heroImage)}
           alt={data.heroImageAlt || data.title}
           width="1200"
           height="630"
@@ -104,7 +111,7 @@ const articleSchema = {
 
       <!-- Author box -->
       <aside class="bpost__author" aria-label="About the author">
-        <img class="bpost__author-photo" src="/images/about-me-joe-1.jpg" alt="Joe Dampt, owner of Joe's Vintage Guitars" width="120" height="120" loading="lazy" decoding="async" />
+        <img class="bpost__author-photo" src={assetSrc("images/about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars" width="120" height="120" loading="lazy" decoding="async" />
         <div class="bpost__author-body">
           <p class="bpost__author-eyebrow">About the Author</p>
           <h2 class="bpost__author-name">{data.author}</h2>

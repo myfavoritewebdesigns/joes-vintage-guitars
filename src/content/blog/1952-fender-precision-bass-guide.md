@@ -44,7 +44,7 @@ Slab-Body P-Bass Authentication & Valuation Guide
 28.  [19Valuation & Current Market](#valuation)
 29.  [20Comparisons to Contemporaries](#comparisons)
 
-![1953 Fender Precision Bass full shot with 1953 Fender Bassman amplifier](/images/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-bassman-amp-49-scaled.jpg)
+![1953 Fender Precision Bass full shot with 1953 Fender Bassman amplifier](../../assets/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-bassman-amp-49-scaled.jpg)
 
 ## Introduction: The Bass That Changed Everything
 
@@ -98,23 +98,23 @@ The finish was applied directly over the bare ash body. Ash was Fender's wood of
 
 One of the most important authentication details on any original early Precision Bass is the presence of **tan lines**, areas of the body finish that were protected from UV exposure by the hardware and pickguard for decades, retaining the original lighter, creamier color as it appeared when new. These areas are found under the pickguard, under the bridge cover, under the pickup cover, and under the neck plate, and they contrast visibly with the darker, more amber-toned finish in the exposed areas.
 
-![Tan lines visible on 1952 Fender Precision Bass body under pickguard, covers and control plate](/images/blog/1952-fender-precision-bass-guide/1952-fender-p-bass-tan-lines-scaled.jpg)
+![Tan lines visible on 1952 Fender Precision Bass body under pickguard, covers and control plate](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-p-bass-tan-lines-scaled.jpg)
 
 Remove the pickguard from an all-original early P-Bass and you will typically find a noticeably lighter area of finish beneath it, sometimes strikingly so. A body that shows *uniform* finish coloration under the hardware, no tan lines whatsoever, warrants careful scrutiny, as it suggests the hardware was removed at some point or the finish is not original.
 
-![Tan line visible under the neck plate on a 1952 Fender Precision Bass](/images/blog/1952-fender-precision-bass-guide/1952-fender-p-bass-neck-plate-tan-line-scaled.jpg)
+![Tan line visible under the neck plate on a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-p-bass-neck-plate-tan-line-scaled.jpg)
 
 <h3 id="nail-holes">Nail Holes in the Finish</h3>
 
 One of the most frequently overlooked details of original Fender finishes from this era is the presence of **small nail holes**, tiny puncture marks in the finish, typically found on the body sides or inconspicuous areas. Bodies were hung on nails or hooks while the finish was sprayed and allowed to dry, and once the nail was removed it left a small hole punched through the finish down to bare wood. Critically, because the nail was removed *after* finishing, these holes will show **bare wood at the center**, not filled with finish. The finish forms a clean, sharp-edged crater around the hole, with the raw wood visible in the center.
 
-![Nail holes in a 1952 Fender Precision Bass finish showing bare wood at center, the nail was removed after spraying, leaving a clean hole through the lacquer to bare wood](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-nail-hole-scaled.jpg)
+![Nail holes in a 1952 Fender Precision Bass finish showing bare wood at center, the nail was removed after spraying, leaving a clean hole through the lacquer to bare wood](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-nail-hole-scaled.jpg)
 
 <h3 id="routing">Body Routing &amp; Tool Marks</h3>
 
 The control cavity routing was done by hand-guided router, and it shows. Look carefully at the cavity walls and you will often see slight irregularities: faint lines, minor steps, or ridges left by the router as it was guided through the cut. These tool marks are entirely normal and expected on a genuine instrument. A control cavity with perfectly smooth, machine-perfect walls should prompt you to consider whether the body has been refinished or the cavity re-routed.
 
-![Hand-router tool marks and slight step visible on the control cavity walls of a 1952 Fender Precision Bass](/images/blog/1952-fender-precision-bass-guide/1952-fender-p-bass-router-marks-scaled.jpg)
+![Hand-router tool marks and slight step visible on the control cavity walls of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-p-bass-router-marks-scaled.jpg)
 
 ## The Neck: Construction, Details & Authentication
 
@@ -128,19 +128,19 @@ The truss rod on an early Precision Bass is adjusted via a slot in the headstock
 
 One of the most distinctive and instantly recognizable details of a pre-CBS Fender maple-board neck is the **small walnut plug** set into the face of the headstock just behind the nut. This dark walnut insert was used to fill the channel through which the truss rod was installed during manufacture. On a genuine early P-Bass neck, it is clearly visible as a dark wood insert contrasting against the lighter maple.
 
-![Walnut plug on the headstock of a 1952 Fender Precision Bass](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-walnut-plug-scaled.jpg)
+![Walnut plug on the headstock of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-walnut-plug-scaled.jpg)
 
 <h3 id="fret-markers">Fret Markers: Black Dots</h3>
 
 The position markers on an early Precision Bass fretboard are small **black dot inlays** set into the maple, not the white dots or pearl dots found on later instruments. They appear as distinctly dark circles at the standard fret positions. This detail changed in later Fender production, making the black dots a useful period-correct identifier.
 
-![Black dot fret markers on a 1952 Fender Precision Bass maple neck](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-dot-inlay-scaled.jpg)
+![Black dot fret markers on a 1952 Fender Precision Bass maple neck](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-dot-inlay-scaled.jpg)
 
 <h3 id="stamps">Body Stamps, Neck Heel Dates &amp; the D Stamp</h3>
 
 The neck pocket will often contain an **ink stamp** indicating the month and year the body was completed (e.g., "7-52" for July 1952). The underside of the neck heel carries a **pencil date written by the factory worker** who assembled the neck, handwritten and entirely consistent with genuine Fender production practice. As discussed above, the neck date and body date will frequently be a few months apart on an all-original instrument.
 
-![Body date stamp in the neck pocket of a 1952 Fender Precision Bass](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-body-date-scaled.jpg)![Pencil date on the neck heel of a 1952 Fender Precision Bass](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-neck-heel-scaled.jpg)
+![Body date stamp in the neck pocket of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-body-date-scaled.jpg)![Pencil date on the neck heel of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-neck-heel-scaled.jpg)
 
 Some examples also carry a **"D" stamp** in the neck pocket or on the neck heel. The most commonly accepted interpretation is that it refers to a body or neck dimension specification or a particular worker's code. Its presence is consistent with authentic production and is not a cause for concern.
 
@@ -150,23 +150,23 @@ The headstock of an early Precision Bass carries a **silver foil decal logo** wi
 
 The **string tree** is a small **circular (round disc) style**, not the butterfly string tree found on later Fender instruments. This round disc sits between the nut and the first set of tuning machines to maintain downward string pressure.
 
-![Circular string tree on a 1952 Fender Precision Bass headstock](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-string-tree-scaled.jpg)
+![Circular string tree on a 1952 Fender Precision Bass headstock](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-string-tree-scaled.jpg)
 
 The **tuning machines** are individual open-gear units, one per string, each secured to the headstock with **four slotted screws**. The tuner buttons are large and flat, made of **bare metal**, not plastic. These large flat metal buttons are a defining visual characteristic of the earliest Precision Basses and distinguish them clearly from the later Kluson-style tuners with their oval plastic or celluloid buttons that appeared on subsequent production. The underside of the tuner housing, visible on the reverse of the headstock, shows the individual machine plate with its mounting holes, the string post with its threading hole, and age-appropriate oxidation consistent with the rest of the instrument's hardware.
 
-![Original open-gear tuning machine on a 1952 Fender Precision Bass showing large flat metal button and four slotted mounting screws](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-tuner-scaled.jpg)
+![Original open-gear tuning machine on a 1952 Fender Precision Bass showing large flat metal button and four slotted mounting screws](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-tuner-scaled.jpg)
 
 ## The Pickup: Construction, Details & Specs
 
 The pickup on an early Fender Precision Bass is the **earlier single-coil style**, predating the larger rectangular pickup that came later in the production run. This is not the familiar split-coil humbucking pickup Fender introduced in 1957, and it is not the later rectangular single-coil either. The pickup housing and pole piece arrangement are distinctive to this early period and are one of the clearest visual dating markers on the instrument.
 
-![Original early-style single-coil pickup on a 1952 Fender Precision Bass showing white string wrapping over the coil windings](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-pickup-scaled.jpg)
+![Original early-style single-coil pickup on a 1952 Fender Precision Bass showing white string wrapping over the coil windings](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-pickup-scaled.jpg)
 
 The coil wire is wrapped in **white string or thread**, a cotton or fiber wrapping applied over the coil windings for protection. This white string wrapping is one of the most immediately distinguishing visual characteristics of the original pickup. The leads exiting the pickup are insulated in **yellow and black cloth braid**. If the leads are modern plastic-insulated wire, the pickup has been rewound or replaced.
 
 There is **no pickup cover** on these early instruments; the pickup sits exposed in its mounting position, visible in the body. This is unlike some later production where a chrome cover was fitted. The pickup is secured by **two long slotted screws with springs**; the springs sit between the pickup housing and the body, allowing height adjustment by tightening or loosening the mounting screws.
 
-![Pickup mounting screws and springs on a 1952 Fender Precision Bass](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-pickup-screws-and-springs-scaled.jpg)
+![Pickup mounting screws and springs on a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-pickup-screws-and-springs-scaled.jpg)
 
 These early instruments do **not** have a pickup cover. The pickup sits fully exposed in its routed cavity. A chrome cover fitted over the pickup on one of these basses has been added after the fact and is not original to the instrument.
 
@@ -178,17 +178,17 @@ One detail that is often missing on player-used examples, and therefore frequent
 
 The fact that it is **wood painted black** rather than molded plastic is a period-specific detail worth noting. Later Fender instruments transitioned to plastic finger rests, but the earliest Precision Basses used this painted wooden piece. Its presence on an original instrument is a significant positive for a collector, as it is easily lost and rarely replaced when missing.
 
-![Finger rest (tug bar) on a 1952 Fender Precision Bass, wood painted black](/images/blog/1952-fender-precision-bass-guide/finger-rest-on-1952-fender-p-bass-scaled.jpg)
+![Finger rest (tug bar) on a 1952 Fender Precision Bass, wood painted black](../../assets/blog/1952-fender-precision-bass-guide/finger-rest-on-1952-fender-p-bass-scaled.jpg)
 
 ## The Bridge Cover
 
-![Pickup area on a 1953 Fender Precision Bass showing the exposed early-style single-coil pickup with no cover](/images/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-bassman-pickup-cover-scaled.jpg)![Bridge cover on a 1953 Fender Precision Bass](/images/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-bassman-bridge-cover-scaled.jpg)
+![Pickup area on a 1953 Fender Precision Bass showing the exposed early-style single-coil pickup with no cover](../../assets/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-bassman-pickup-cover-scaled.jpg)![Bridge cover on a 1953 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-bassman-bridge-cover-scaled.jpg)
 
 The **bridge cover** is a large elongated chrome-plated metal cover that snaps or screws over the bridge assembly. It is even more frequently missing than the pickup cover, as it physically interferes with the right-hand technique of many bass players. Removing the bridge cover from an all-original instrument will reveal the lighter tan-line finish area on the body beneath it.
 
 ## The Bridge: Saddles, Serial Number & Patent Pending
 
-![Bridge and saddles on a 1953 Fender Precision Bass showing the pressed fiber barrel saddles, serial number stamp, and Patent Pending marking](/images/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-bridge-and-saddles-scaled.jpg)
+![Bridge and saddles on a 1953 Fender Precision Bass showing the pressed fiber barrel saddles, serial number stamp, and Patent Pending marking](../../assets/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-bridge-and-saddles-scaled.jpg)
 
 The bridge on an early Fender Precision Bass is a pressed steel plate, chrome plated, with individual saddles for each string. The bridge plate carries the instrument's **serial number stamped directly into the chrome plate**, a critical authentication detail. On early Fender instruments, the serial number is found on the bridge plate, not the neck plate. In addition, the bridge plate carries the marking **"PATENT PENDING"**, stamped into the plate and consistent with the headstock decal language.
 
@@ -202,7 +202,7 @@ In **early production (late 1951 through early 1952)**, Fender used **slotted-he
 
 ## Controls: Knobs, Pots & Capacitor
 
-![Domed knurled chrome knobs on a 1953 Fender Precision Bass](/images/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-knurled-knobs-scaled.jpg)
+![Domed knurled chrome knobs on a 1953 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-knurled-knobs-scaled.jpg)
 
 The control knobs on an early Precision Bass are large, **chrome-plated domed knobs with a knurled (cross-hatched) surface** around the lower portion of the dome, sometimes called "bonnet" knobs or "dome knobs." They differ in both shape and finish from the flat-top or hat-top knobs of later Fender instruments. There are two dome knobs: one volume, one tone, mounted on the black pickguard.
 
@@ -212,19 +212,19 @@ The tone capacitor is a **paper-in-oil capacitor**, a cylindrical or slightly tu
 
 ## The Output Jack
 
-![Output jack on a 1952 Fender Precision Bass](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-output-jack-scaled.jpg)
+![Output jack on a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-output-jack-scaled.jpg)
 
 The output jack on an early Precision Bass is a standard mono jack mounted on the side of the body in a chrome cup or plate. The wiring from the jack back to the controls should be cloth-insulated wire consistent with the period. Modern plastic-insulated wiring at the jack is a sign of past modification or replacement.
 
 ## The Ferrules on the Back of the Body
 
-![String ferrules on the back of a 1952 Fender Precision Bass](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-ferrules-scaled.jpg)
+![String ferrules on the back of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-ferrules-scaled.jpg)
 
 The early Precision Bass is a **string-through-body** instrument, the strings pass through holes drilled through the body from the bridge, and the ball ends are anchored by **four chrome-plated ferrules** set into the back of the body. Original ferrules should show age-appropriate patina and be firmly seated. Replaced ferrules or enlarged holes are indicators of past modification.
 
 ## The Neck Plate
 
-![Neck plate on a 1952 Fender Precision Bass](/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-neck-plate-scaled.jpg)
+![Neck plate on a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-neck-plate-scaled.jpg)
 
 The neck plate on an early Precision Bass is a **plain, unmarked chrome plate** with four bolts, no model name, no serial number. This is a critical distinction from later Fender production where the serial number migrated to the neck plate. Removing the neck plate from an all-original instrument will reveal the tan line on the body finish beneath it.
 

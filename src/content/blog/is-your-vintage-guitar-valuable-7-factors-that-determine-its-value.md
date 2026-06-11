@@ -31,7 +31,7 @@ Knowing the instruments’ value is essential when purchasing or selling vintage
 
 Each guitar is unique and has its own story to tell, so do your research before buying or selling one. In this blog post, we’ll explain some factors that can help you determine the value of your vintage guitar so you can sell it to a trusted [**vintage guitar collector**](/about-me/). 
 
-![Is Your Vintage Guitar Valuable 7 Factors That Determine Its Value AZ](/images/blog/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/Is-Your-Vintage-Guitar-Valuable-7-Factors-That-Determine-Its-Value-AZ.jpg)
+![Is Your Vintage Guitar Valuable 7 Factors That Determine Its Value AZ](../../assets/blog/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/Is-Your-Vintage-Guitar-Valuable-7-Factors-That-Determine-Its-Value-AZ.jpg)
 
 <h3 id="key-factors-that-primarily-dictate-a-vintage-guitars-value">Key Factors That Primarily Dictate A Vintage Guitar’s Value</h3>
 

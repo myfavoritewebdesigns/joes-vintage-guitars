@@ -23,7 +23,7 @@ wpId: 18916
 -   [1956 vs. 1957: Key Technical Differences](#technical-differences)
 -   [Professional Authentication: The Joe’s Vintage Advantage](#joe-advantage)
 
-![A detailed look at an original 1957 Gibson Les Paul Standard, highlighting the iconic bullion gold top and dual PAF humbucking pickups.](/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-1024x683.jpg)
+![A detailed look at an original 1957 Gibson Les Paul Standard, highlighting the iconic bullion gold top and dual PAF humbucking pickups.](../../assets/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-1024x683.jpg)
 
 his 1957 Standard sits at the big transition point in Gibson history. While it keeps the classic single-cutaway mahogany body and maple cap, the move to Seth Lover’s PAF humbuckers changed the sound of the instrument for good. This particular example features an incredibly deep “Dark Back” stain, perhaps the darkest I’ve ever seen, creating a strong contrast against the metallic gold top. From the “no-wire” ABR-1 bridge to the aged nickel covers, this is a clean example of 1950s Kalamazoo work.
 
@@ -35,7 +35,7 @@ If you need assistance in dating yout Gibson, check out our [serial number guide
 
 The most obvious differentiator for ’57 is the move to humbuckers. When authenticating these, we look for the brushed nickel covers with soft, slightly rounded edges. Unlike modern reissues that are often too “sharp,” an original 1957 cover has a specific “cloudy” patina that is nearly impossible to fake. Underneath, you’re looking for the black “L” tool marks on the feet and the **PAF decal** on the baseplate.
 
-![Macro close-up of the underside of a 1957 Gibson PAF humbucker, showing the original patent applied for decal, black "L" tool marks on the square mounting feet, and "M-69" stamps inside the cream pickup ring.](/images/blog/1957-les-paul-goldtop-guide/1957-gibson-PAF-pickup-1024x683.jpg)
+![Macro close-up of the underside of a 1957 Gibson PAF humbucker, showing the original patent applied for decal, black "L" tool marks on the square mounting feet, and "M-69" stamps inside the cream pickup ring.](../../assets/blog/1957-les-paul-goldtop-guide/1957-gibson-PAF-pickup-1024x683.jpg)
 
 Flipping over a 1957 humbucker reveals the DNA of the “Golden Era.” Two major keys here are the square-shaped mounting feet featuring the distinct black “L” tool marks (a result of the original manufacturing stamps) and the “M-69” nomenclature molded into the underside of the cream pickup ring. While later reissues try to replicate these, the specific texture of the original Butyrate plastic and the “cloudy” aging of the baseplate are unmistakable markers of an authentic ’57 assembly.
 
@@ -50,14 +50,14 @@ Flipping over a 1957 humbucker reveals the DNA of the “Golden Era.” Two majo
 
 While many ’57s share the light mahogany back of the ’56, this was the breakout year for the **“Dark Back.”** This is a deep, chocolate-brown stain that can sometimes look black in low light.
 
-![Alt TextA deep, translucent "Dark Back" finish on a 1957 Gibson Les Paul, showcasing the exceptionally dark chocolate-brown mahogany stain that allows the natural wood grain to remain subtly visible under direct light.](/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-dark-back-1024x683.jpg)
+![Alt TextA deep, translucent "Dark Back" finish on a 1957 Gibson Les Paul, showcasing the exceptionally dark chocolate-brown mahogany stain that allows the natural wood grain to remain subtly visible under direct light.](../../assets/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-dark-back-1024x683.jpg)
 
 While the “Dark Back” became a signature look in 1957, this particular example is likely the darkest mahogany stain I have ever encountered on a vintage Goldtop. It’s a good example of the era’s hand-applied finishes: nearly opaque at first glance, but with a rich, translucent depth that reveals the mahogany grain when caught by the light. When you’re authenticating a ’57, you’re looking for this specific chocolate-brown hue; if it’s a “solid” black paint that hides the grain entirely, it’s likely been oversprayed or refinished. As you can see from the photo, sometimes the difference between dark brown and black is hard to pinpoint!
 
 -   **Bullion Gold Top:** Expect to see “greening” in the lacquer checks where the bronze powder has oxidized over 70 years.
     
 
-![Macro close-up of a 1957 Gibson Les Paul Goldtop bullion gold finish, showing fine weather checking and subtle green oxidation from aged bronze powder lacquer.](/images/blog/1957-les-paul-goldtop-guide/1957-les-paul-finish-checking-and-greening-1024x683.jpg)
+![Macro close-up of a 1957 Gibson Les Paul Goldtop bullion gold finish, showing fine weather checking and subtle green oxidation from aged bronze powder lacquer.](../../assets/blog/1957-les-paul-goldtop-guide/1957-les-paul-finish-checking-and-greening-1024x683.jpg)
 
 A detailed view of the bullion gold finish on a 1957 Standard. The network of weather checking, the fine lines in the nitrocellulose, occurs naturally as the wood expands and contracts over decades. Looking closely at the top of the frame, you can see the distinctive “greening” effect. This is caused by the real bronze powder in the original lacquer formula reacting to moisture and skin contact, oxidizing into a dark copper or green hue. It’s a chemical signature of a true mid-50s Gibson that modern metallic paints simply cannot replicate.
 
@@ -73,7 +73,7 @@ The “face” of a 1957 Les Paul holds several of the most critical markers for
 -   **Mother of Pearl Logo:** The “Gibson” logo is a genuine Mother of Pearl inlay. Authenticity is found in the font, specifically the “open b and o” and the way the “G” and “n” are styled. The inlay should sit flush with the headstock face, though seventy years of lacquer shrinkage often reveals a slight “ghost” outline around the pearl.
     
 
-![Macro close-up of a 1957 Gibson Les Paul headstock showing a Mother of Pearl "Gibson" logo with significant finish checking above it and a faded gold "Les Paul Model" silkscreen.](/images/blog/1957-les-paul-goldtop-guide/1957-les-paul-logo-with-checking-and-fading-1024x683.jpg)
+![Macro close-up of a 1957 Gibson Les Paul headstock showing a Mother of Pearl "Gibson" logo with significant finish checking above it and a faded gold "Les Paul Model" silkscreen.](../../assets/blog/1957-les-paul-goldtop-guide/1957-les-paul-logo-with-checking-and-fading-1024x683.jpg)
 
 A detailed look at the 1957 headstock reveals the honest aging that collectors crave. Notice the dense network of finish checking spiderwebbing across the black lacquer above the Mother of Pearl “Gibson” logo, a clear sign of the original nitrocellulose gassing off over seven decades. Below it, the gold “Les Paul Model” silkscreen shows significant fading; on a genuine ’57, this metallic paint often loses its luster or “thins” out, rather than staying perfectly crisp like a modern reissue. These “imperfections” are the fingerprints of an unmolested vintage instrument.
 
@@ -82,7 +82,7 @@ A detailed look at the 1957 headstock reveals the honest aging that collectors c
 -   **Tortoise Side Dots:** A subtle but reliable tell for a 1957. While the fretboard inlays are cellulose nitrate, the **side dot markers** on the neck binding are actually made of a dark **reddish tortoise shell** material. Under a bright light or a jeweler’s loupe, you should see a deep, translucent red swirl rather than the flat black found on some modern reissues or fakes.
     
 
-![Macro close-up of a 1957 Gibson Les Paul neck binding, showing the original dark reddish tortoise shell side dot inlays with a subtle marbled texture.](/images/blog/1957-les-paul-goldtop-guide/1957-gibson-tortoise-side-dots-1024x683.jpg)
+![Macro close-up of a 1957 Gibson Les Paul neck binding, showing the original dark reddish tortoise shell side dot inlays with a subtle marbled texture.](../../assets/blog/1957-les-paul-goldtop-guide/1957-gibson-tortoise-side-dots-1024x683.jpg)
 
 A detailed view of the side dots on a 1957 Goldtop. While they often appear black in low light, these original markers were actually crafted from a dark, reddish tortoise shell material. Under a bright light or a jeweler’s loupe, you can see the distinctive deep red hue and subtle swirling that modern black plastic markers simply cannot replicate. Finding these “red” dots is a major “green flag” for an unmolested, factory-original 1950s neck.
 
@@ -94,7 +94,7 @@ A detailed view of the side dots on a 1957 Goldtop. While they often appear blac
 -   **“No-Wire” ABR-1:** The bridge should be a nickel-plated Tune-o-matic without a retainer wire. If there is a wire holding the saddles in, it’s a later early-60s part. It should be stamped “GIBSON ABR-1” on the back.
     
 
-![Macro close-up of the underside of an original nickel-plated ABR-1 Tune-o-matic bridge, showing the "ABR-1" stamp and the absence of a retainer wire.](/images/blog/1957-les-paul-goldtop-guide/1957-gibson-abr-1-bridge-1024x683.jpg)
+![Macro close-up of the underside of an original nickel-plated ABR-1 Tune-o-matic bridge, showing the "ABR-1" stamp and the absence of a retainer wire.](../../assets/blog/1957-les-paul-goldtop-guide/1957-gibson-abr-1-bridge-1024x683.jpg)
 
 A look at the underside of a correct 1957 ABR-1 bridge. Authentic 1950s bridges feature a clean “ABR-1” stamp on the base and do not have the retainer wire found on later early-60s versions. On an original ’57, you are looking for this specific nickel plating that has aged with a dull, “cloudy” luster rather than the bright, bluish chrome found on modern replacements.
 
@@ -114,7 +114,7 @@ To truly verify a ’57, you have to look “under the hood.”
 -   **Bumblebee Capacitors:** You’re looking for the Sprague .022uF 400V “Bumblebees” with their distinct color-coded stripes.
     
 
-![An internal view of the 1957 control cavity showing the original Sprague "Bumblebee" capacitors with their iconic color-coded stripes and .022uF 400V ratings.](/images/blog/1957-les-paul-goldtop-guide/bumblebee-capacitors-1957-gibson-1024x683.jpg)
+![An internal view of the 1957 control cavity showing the original Sprague "Bumblebee" capacitors with their iconic color-coded stripes and .022uF 400V ratings.](../../assets/blog/1957-les-paul-goldtop-guide/bumblebee-capacitors-1957-gibson-1024x683.jpg)
 
 To truly verify a ’57, you have to look “under the hood” at the electronics. These original Sprague “Bumblebee” capacitors, rated at .022uF 400V, are a big part of that 1950s Gibson tone. When authenticating, I’m looking for the specific way these color-coded stripes have aged; the plastic casing often develops a slightly dull or “matted” texture over seven decades that modern reproductions just can’t quite mimic.
 
@@ -143,6 +143,6 @@ Authenticating a 1957 Les Paul Standard requires an eye for the smallest details
 
 If you’ve come across a ’57 Goldtop and need a definitive answer on its history, our **[Professional Appraisal Services](/vintage-guitar-appraisal/)** are the industry standard. Ready to move your instrument to its next home? You can **[sell your vintage guitar](/)** to us with confidence, knowing you are getting a fair, expert valuation from a shop that knows these guitars well.
 
-![A full-length front view of an original 1957 Gibson Les Paul Standard, showcasing the iconic bullion gold top, dual nickel-covered PAF humbuckers, and the classic single-cutaway mahogany body design.](/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-full-body-shot-683x1024.jpg)
+![A full-length front view of an original 1957 Gibson Les Paul Standard, showcasing the iconic bullion gold top, dual nickel-covered PAF humbuckers, and the classic single-cutaway mahogany body design.](../../assets/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-full-body-shot-683x1024.jpg)
 
 Seeing a Goldtop from this era in its entirety really puts the “Year of the Humbucker” into perspective. By this point, the Les Paul had reached its pre-1960 peak, combining the solid ABR-1 bridge stability introduced the year prior with the power of Seth Lover’s PAF pickups. Whether it’s the way the bullion gold finish has matured into a deep metallic bronze or the “dark back” mahogany peeking around the edges, a genuine ’57 has a character that modern reissues can’t quite match. If you own one and want to make sure it’s looked after, we’re here to help.
