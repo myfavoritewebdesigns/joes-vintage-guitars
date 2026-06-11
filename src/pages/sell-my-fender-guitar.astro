@@ -172,9 +172,24 @@ const structuredData = [
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Sell Your Vintage Fender Guitar",
-    author: { "@type": "Person", name: "Joe Dampt" },
-    publisher: { "@id": "https://www.joesvintageguitarsaz.com/#organization" },
+    author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
+    publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
     mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-fender-guitar/",
+  },
+  // VideoObject for the Meet Joe embed. uploadDate and duration were looked up
+  // from YouTube on 2026-06-11 (89 seconds), never fabricated.
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: "Meet Vintage Guitar Buyer Joe Dampt",
+    description:
+      "Joe Dampt introduces himself and explains how selling your vintage Fender guitar to Joe's Vintage Guitars works.",
+    thumbnailUrl: "https://i.ytimg.com/vi/U3eJgXLs4w8/hqdefault.jpg",
+    uploadDate: "2024-06-04T20:04:06-07:00",
+    duration: "PT1M29S",
+    embedUrl: "https://www.youtube.com/embed/U3eJgXLs4w8",
+    contentUrl: "https://www.youtube.com/watch?v=U3eJgXLs4w8",
+    publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
   },
 ];
 ---

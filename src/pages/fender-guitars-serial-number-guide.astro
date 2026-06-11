@@ -327,17 +327,10 @@ const articleSchema = {
     "Free Fender serial number lookup - decode any American, Mexican, Japanese, or Custom Shop serial from 1950 to present. Expert dating guide.",
   datePublished: "2026-03-12T20:42:57+00:00",
   dateModified: "2026-05-14T19:40:30+00:00",
-  author: {
-    "@type": "Person",
-    name: "Joe Dampt",
-    url: `${SITE_URL}/about-me/`,
-    jobTitle: "Vintage Guitar Expert, Appraiser, and Owner",
-    alumniOf: {
-      "@type": "CollegeOrUniversity",
-      name: "Arizona State University",
-      url: "https://www.asu.edu/",
-    },
-  },
+  // The jobTitle and ASU alumniOf this author block used to carry now live on
+  // the global Person node in Layout.astro, so the per-type live-diff parity
+  // (CollegeOrUniversity) still holds on this page.
+  author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
   image: fsnImg("fender-bridge-plate-serial-number-scaled.jpg"),
   inLanguage: "en-US",
