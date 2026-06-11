@@ -17,6 +17,16 @@ const SITEMAP_EXCLUDE = [
 // https://astro.build/config
 export default defineConfig({
   site: SITE_URL,
+  // Responsive image pipeline (SEO v2 Prompt 5): every <Image> and markdown
+  // image gets breakpoint srcsets, WebP, and intrinsic dimensions. Pre-existing
+  // <Image> uses with hand-tuned widths/sizes are pinned with layout="none" so
+  // their rendered markup does not change. Verified against Astro 6.3.2: a
+  // global layout makes Astro IGNORE widths/densities/sizes props, and
+  // responsiveStyles defaults to false so it must be opted in.
+  image: {
+    layout: 'constrained',
+    responsiveStyles: true,
+  },
   // Hide the floating Astro dev toolbar so the preview matches what end users see.
   devToolbar: { enabled: false },
   integrations: [

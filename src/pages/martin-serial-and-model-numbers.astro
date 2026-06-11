@@ -1,5 +1,6 @@
 ---
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import { contact, SITE_URL } from "../config/site";
@@ -24,6 +25,8 @@ import { contact, SITE_URL } from "../config/site";
    ============================================================ */
 
 const img = (file: string) => assetSrc("images/martin-serial/" + file);
+// Metadata twin for <Image>; files verified to exist in src/assets/images/martin-serial/.
+const imgMeta = (file: string) => resolveImage("images/martin-serial/" + file)!;
 
 // Guitar serials — full a/b ranges, 1898 to 2024 (127 entries).
 const guitarData = [
@@ -109,7 +112,7 @@ const structuredData = [
   title="Martin Serial Number Lookup & Guide"
   description="Finding the model and year of your Martin guitar is a very easy process, thanks to this quick and simple serial number lookup and guide."
   canonical="/martin-serial-and-model-numbers/"
-  ogImage={img("Model-Name-Serial-Number-Martin.jpg")}
+  ogImage={`${SITE_URL}${img("Model-Name-Serial-Number-Martin.jpg")}`}
   structuredData={structuredData}
 >
   <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
@@ -180,12 +183,10 @@ const structuredData = [
       <h2 id="where-to-find-your-martin-guitar-model-and-serial-number">Where Is The Serial Number Located?</h2>
       <p>On all vintage Martin acoustic guitars, the serial number is stamped on the <strong>neck block</strong> inside the soundhole. The neck block is the heavy piece of wood inside the guitar where the neck joins the body. The top number is the model number (e.g., D-28), and the lower one is the serial number. Martin guitars made before October 1930 do not have the Model number stamped.</p>
       <figure class="msn-figure">
-        <img
-          src={img("Model-Name-Serial-Number-Martin.jpg")}
+        <Image
+          src={imgMeta("Model-Name-Serial-Number-Martin.jpg")}
           alt="Martin Serial Number Stamped on Neck Block"
-          loading="lazy"
-          width="1100"
-          height="733"
+          width={1096}
         />
       </figure>
     </div>
@@ -334,7 +335,7 @@ const structuredData = [
             </div>
             <p><strong>Waverly 12:1 &ldquo;3-Hump&rdquo;:</strong> Plates with three distinct curves and sharp corners.<br /><strong>&ldquo;Teddy Bear&rdquo; Waverlys:</strong> Rare variant with a silhouette like a bear&rsquo;s head.<br /><strong>Grey Klusons (1943-44):</strong> Dull, non-plated, thin-geared flat plate tuners.<br /><strong>Style 17:</strong> Simple 3-on-a-strip gears with exposed rivets.</p>
             <figure class="msn-figure-inline">
-              <img src={img("Martin-wartime-tuners-plastic-buttons-no-bushings-scaled.jpg")} alt="Vintage Martin Wartime Tuners No Bushings" loading="lazy" />
+              <Image src={imgMeta("Martin-wartime-tuners-plastic-buttons-no-bushings-scaled.jpg")} alt="Vintage Martin Wartime Tuners No Bushings" width={488} />
               <figcaption>Vintage Martin Wartime Tuners (Plastic Buttons, No Bushings)</figcaption>
             </figure>
           </div>
@@ -343,17 +344,17 @@ const structuredData = [
             <h4>Post-War &amp; Transition (1946 to 1960s)</h4>
             <p><strong>Waverly &ldquo;Round-end&rdquo;:</strong> Return to smooth, scalloped plate ends.</p>
             <figure class="msn-figure-inline">
-              <img src={img("martin-tuners-waverly-round-end-scaled.jpeg")} alt="Vintage Martin Waverly Round-End Tuners" loading="lazy" />
+              <Image src={imgMeta("martin-tuners-waverly-round-end-scaled.jpeg")} alt="Vintage Martin Waverly Round-End Tuners" width={488} />
               <figcaption>Vintage Martin Waverly Round-End Tuners</figcaption>
             </figure>
             <p><strong>Kluson Post-War Hex:</strong> Features a distinctive six-sided gear housing.</p>
             <figure class="msn-figure-inline">
-              <img src={img("martin-tuners-hexagonal-kluson-scaled.jpeg")} alt="Vintage Martin Hexagonal Kluson Tuners" loading="lazy" />
+              <Image src={imgMeta("martin-tuners-hexagonal-kluson-scaled.jpeg")} alt="Vintage Martin Hexagonal Kluson Tuners" width={488} />
               <figcaption>Vintage Martin Kluson Hexagonal Tuners</figcaption>
             </figure>
             <p><strong>Kluson Deluxe:</strong> Classic &ldquo;closed-back&rdquo; with a vertical line of text stamped into the housing.<br /><strong>Nickel Waffle-Backs:</strong> Heavy-duty Klusons with a textured pattern, often on Style 45s.</p>
             <figure class="msn-figure-inline">
-              <img src={img("martin-kluson-waffle-back-tuners-scaled.jpg")} alt="Vintage Martin Kluson Waffle-Back Tuners" loading="lazy" />
+              <Image src={imgMeta("martin-kluson-waffle-back-tuners-scaled.jpg")} alt="Vintage Martin Kluson Waffle-Back Tuners" width={488} />
               <figcaption>Vintage Martin Kluson Waffle-Back Tuners</figcaption>
             </figure>
           </div>
@@ -424,7 +425,7 @@ const structuredData = [
             <h4>Early External Body Stamp</h4>
             <p>On some of the earliest Martin models (1833 to mid-1800s), the company name was branded directly into the wood on the <strong>back of the body</strong>, just below the neck heel.</p>
             <figure class="msn-figure-inline">
-              <img src={img("martin-back-of-body-logo-stamp.jpg")} alt="Vintage Martin Back of Body Wood Stamp" loading="lazy" />
+              <Image src={imgMeta("martin-back-of-body-logo-stamp.jpg")} alt="Vintage Martin Back of Body Wood Stamp" width={488} />
               <figcaption>Vintage Martin Early External Body Stamp</figcaption>
             </figure>
           </div>
@@ -432,7 +433,7 @@ const structuredData = [
             <h4>Rear Headstock Stamp (Pre-1932)</h4>
             <p>Until 1932, there was typically no logo on the front of the headstock! Instead, the brand was stamped into the <strong>back</strong> of the headstock. This was usually paired with a matching internal wood stamp.</p>
             <figure class="msn-figure-inline">
-              <img src={img("martin-guitar-back-of-headstock-stamp-scaled.jpg")} alt="Vintage Martin Back of Headstock Stamp" loading="lazy" />
+              <Image src={imgMeta("martin-guitar-back-of-headstock-stamp-scaled.jpg")} alt="Vintage Martin Back of Headstock Stamp" width={488} />
               <figcaption>Vintage Martin Rear Headstock Stamp</figcaption>
             </figure>
           </div>
@@ -500,7 +501,7 @@ const structuredData = [
       <h2 id="what-is-my-martin-guitar-worth">Vintage Martin Guitar Values</h2>
       <p>Martin guitars run anywhere from a couple hundred dollars up to six figures. Pre-war guitars (made before 1941) are the most desirable and valuable. If you want help valuing or selling your Martin, <strong><a href="/contact-me/">contact me</a></strong>.</p>
       <figure class="msn-figure msn-figure--portrait">
-        <img src={img("2003-martin-d-35-sunburst-683x1024.jpg")} alt="2003 Martin D-35 sunburst acoustic guitar" loading="lazy" width="683" height="1024" />
+        <Image src={imgMeta("2003-martin-d-35-sunburst-683x1024.jpg")} alt="2003 Martin D-35 sunburst acoustic guitar" width={480} />
       </figure>
     </div>
   </section>

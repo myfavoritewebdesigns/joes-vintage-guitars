@@ -180,9 +180,9 @@ The truss rod cover is a **small, single-ply black plastic cover** in the standa
 
 The ES-330 was equipped with **Kluson Deluxe tuners** throughout the dot-neck era, in the single-ring base plate, open-gear-housing style that's standard on dot-neck Gibsons across all models. Early 1959 examples carry the **single-line Kluson Deluxe** (where "KLUSON DELUXE" is stamped in a single line on the cover plate). By approximately mid-1960 and through the end of the dot-neck era, the **double-line** variant is standard.
 
-<figure><img alt="Single-line Kluson Deluxe tuners on a 1959 Gibson ES-330" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-13-scaled.jpg" loading="lazy" decoding="async"><figcaption>Single-line Kluson Deluxe tuners on a 1959 ES-330</figcaption></figure>
+<figure><img alt="Single-line Kluson Deluxe tuners on a 1959 Gibson ES-330" width="2560" height="1707" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-13-scaled.jpg" loading="lazy" decoding="async"><figcaption>Single-line Kluson Deluxe tuners on a 1959 ES-330</figcaption></figure>
 
-<figure><img alt="Close-up of single-line Kluson Deluxe stamp on the back of a tuner cover from a 1959 Gibson ES-330" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-30-scaled.jpg" loading="lazy" decoding="async"><figcaption>The "KLUSON DELUXE" stamp in a single line: correct for 1959 examples</figcaption></figure>
+<figure><img alt="Close-up of single-line Kluson Deluxe stamp on the back of a tuner cover from a 1959 Gibson ES-330" width="2560" height="1707" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-30-scaled.jpg" loading="lazy" decoding="async"><figcaption>The "KLUSON DELUXE" stamp in a single line: correct for 1959 examples</figcaption></figure>
 
 ### Tuner Buttons
 
@@ -225,9 +225,9 @@ Saddle material on the dot-neck ES-330 changed across the production period, and
 -   **1959 through early 1961:** The ABR-1 used **nickel-plated brass saddles**. This is correct original equipment for the majority of the dot-neck run. They provide good intonation and a slightly brighter, more focused tone.
 -   **Late 1961 and 1962:** Gibson transitioned to **nylon saddles**. These are correct for later dot-neck examples. Nylon saddles are often the first component to be replaced on well-used examples, since they wear and can break over decades of use.
 
-<figure><img alt="Macro of 1959 ABR-1 Tune-o-matic bridge on Gibson ES-330, no retaining wire on the saddles" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-21-scaled.jpg" loading="lazy" decoding="async"><figcaption>1959 ABR-1: no retaining wire, nickel-plated brass saddles correct for this year</figcaption></figure>
+<figure><img alt="Macro of 1959 ABR-1 Tune-o-matic bridge on Gibson ES-330, no retaining wire on the saddles" width="2560" height="1707" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-21-scaled.jpg" loading="lazy" decoding="async"><figcaption>1959 ABR-1: no retaining wire, nickel-plated brass saddles correct for this year</figcaption></figure>
 
-<figure><img alt="ABR-1 Tune-o-matic with nylon saddles on a Gibson ES-330, correct for late 1961 and 1962 examples" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/gibson-es-330-tune-o-matic-with-nylon-saddles.jpg" loading="lazy" decoding="async"><figcaption>Nylon saddles on an ABR-1: correct for late 1961 and 1962; not original on 1959 to early 1961 examples</figcaption></figure>
+<figure><img alt="ABR-1 Tune-o-matic with nylon saddles on a Gibson ES-330, correct for late 1961 and 1962 examples" width="763" height="509" src="/images/blog/complete-dot-neck-es-330-guide-1959-1962/gibson-es-330-tune-o-matic-with-nylon-saddles.jpg" loading="lazy" decoding="async"><figcaption>Nylon saddles on an ABR-1: correct for late 1961 and 1962; not original on 1959 to early 1961 examples</figcaption></figure>
 
 **Important:** Nylon saddles are *not* correct for a 1959 or 1960 ES-330. If you encounter an early dot-neck 330 with nylon saddles, they are almost certainly replacements. The correct saddle for 1959 to early 1961 is nickel-plated brass. Sellers sometimes present nylon saddles as original on early examples; that's incorrect.
 

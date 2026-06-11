@@ -1,7 +1,8 @@
 ---
 import type { Post } from "../lib/blog";
 import { categoryName, formatDate } from "../lib/blog";
-import { assetSrc } from "../lib/images";
+import { assetSrc, resolveImage } from "../lib/images";
+import { Image } from "astro:assets";
 
 interface Props {
   post: Post;
@@ -11,19 +12,29 @@ const { post, eager = false } = Astro.props;
 const { data, id } = post;
 const href = `/post/${id}/`;
 const catHref = `/category/${data.category}/`;
+const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
 ---
 
 <article class="bpc">
   <a class="bpc__media" href={href} aria-label={data.title}>
     {data.heroImage ? (
-      <img
-        src={assetSrc(data.heroImage)}
-        alt={data.heroImageAlt || data.title}
-        loading={eager ? "eager" : "lazy"}
-        decoding="async"
-        width="700"
-        height="441"
-      />
+      heroMeta ? (
+        <Image
+          src={heroMeta}
+          alt={data.heroImageAlt || data.title}
+          width={700}
+          loading={eager ? "eager" : "lazy"}
+        />
+      ) : (
+        <img
+          src={assetSrc(data.heroImage)}
+          alt={data.heroImageAlt || data.title}
+          loading={eager ? "eager" : "lazy"}
+          decoding="async"
+          width="700"
+          height="441"
+        />
+      )
     ) : (
       <span class="bpc__media-fallback" aria-hidden="true">JVG</span>
     )}

@@ -1,10 +1,11 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import ContactSection from "../components/ContactSection.astro";
 import FAQ from "../components/FAQ.astro";
-import { contact, hrefs } from "../config/site";
+import { SITE_URL, contact, hrefs } from "../config/site";
 import testimonialsRaw from "../../reference/testimonials.json";
 
 // Reviews — sourced from reference/testimonials.json, a scrape of Joe's
@@ -47,6 +48,11 @@ const igPosts = [
 
 // Live image base — kept hot-linked for first-pass parity. Swap to /images/sell-fender/ later.
 const smfImg = (file: string) => assetSrc("images/sell-fender/" + file);
+// Metadata twin of smfImg for <Image> conversions (SEO v2 responsive images).
+// Non-null assertion is safe only for files verified to exist under
+// src/assets/images/sell-fender/ — the page's SVG icons are public/-only
+// and stay on smfImg + raw <img>.
+const smfImgMeta = (file: string) => resolveImage("images/sell-fender/" + file)!;
 
 // 2026-05 audit fix v5: REVERTING the v3 "no photo" decision.
 // Live's hero is actually a B&W photo of vintage guitar collectors with a
@@ -88,43 +94,43 @@ const faqs = [
 // 7 model cards — content + photos from live's "I'm Currently Paying Top Dollar" grid
 const models = [
   {
-    img: smfImg("1956-fender-stratocaster-sunburst-800x533.jpg"),
+    img: smfImgMeta("1956-fender-stratocaster-sunburst-800x533.jpg"),
     alt: "Vintage 1956 sunburst Fender Stratocaster electric guitar",
     title: "Fender Stratocaster",
     body: "Buying 1950s and Pre-CBS 1960s Stratocasters. I pay a premium for all-original examples, Custom Color finishes, and early 'spaghetti' logo models.",
   },
   {
-    img: smfImg("1960-fender-telecaster-blonde-800x533.jpg"),
+    img: smfImgMeta("1960-fender-telecaster-blonde-800x533.jpg"),
     alt: "Vintage 1960 blonde Fender Telecaster electric guitar",
     title: "Fender Telecaster",
     body: "Buying Fullerton-era Telecasters, Broadcasters, and No-casters. I know the Blackguard '50s models and early '60s slab-board guitars inside and out.",
   },
   {
-    img: smfImg("1965-fender-jazzmaster-charcoal-frost-800x533.jpg"),
+    img: smfImgMeta("1965-fender-jazzmaster-charcoal-frost-800x533.jpg"),
     alt: "Vintage 1965 charcoal frost Fender Jazzmaster",
     title: "Fender Jazzmaster",
     body: "Buying Pre-CBS Jazzmasters. I pay extra for clay-dot inlays, original anodized guards, and clean Custom Color finishes.",
   },
   {
-    img: smfImg("1952-fender-precision-bass-800x533.jpg"),
+    img: smfImgMeta("1952-fender-precision-bass-800x533.jpg"),
     alt: "Vintage 1952 Fender Precision Bass",
     title: "Fender Precision Bass",
     body: "Buying vintage P-Basses, especially early 'slab-body' '50s designs and early '60s split-coil models with original hardware.",
   },
   {
-    img: smfImg("1964-fender-jaguar-sunburst-800x533.jpg"),
+    img: smfImgMeta("1964-fender-jaguar-sunburst-800x533.jpg"),
     alt: "Vintage 1964 sunburst Fender Jaguar",
     title: "Fender Jaguar",
     body: "Looking for early 1960s Jaguars with original mutes and Pre-CBS specs. I pay cash for these chrome-heavy offsets.",
   },
   {
-    img: smfImg("1972-fender-mustang-competition-blue-800x533.jpg"),
+    img: smfImgMeta("1972-fender-mustang-competition-blue-800x533.jpg"),
     alt: "1972 Fender Mustang Competition in blue with green stripe",
     title: "Fender Mustang",
     body: "Buying 1960s and '70s Mustangs. I pay extra for original 'Competition' finishes and clean short-scale Fullerton models.",
   },
   {
-    img: smfImg("1972-fender-jazz-bass-sunburst-800x533.jpg"),
+    img: smfImgMeta("1972-fender-jazz-bass-sunburst-800x533.jpg"),
     alt: "1972 sunburst Fender Jazz Bass",
     title: "Fender Jazz Bass",
     body: "Buying vintage J-Basses, especially early '60s 'stack-knob' versions and '70s models with original block inlays and binding.",
@@ -177,7 +183,7 @@ const structuredData = [
   title="Sell My FENDER Guitar | Joe's Vintage Guitars"
   description="Sell your vintage Fender guitar to a trusted specialist. Expert appraisals, top-dollar cash offers, and stress-free nationwide shipping for Stratocasters, Telecasters, Jazzmasters, Precision Basses and more."
   canonical="/sell-my-fender-guitar/"
-  ogImage={smfImg("Guitar.png")}
+  ogImage={`${SITE_URL}${smfImg("Guitar.png")}`}
   structuredData={structuredData}
 >
   <!-- lite-youtube web component (paulirish/lite-youtube-embed) — matches live's
@@ -207,7 +213,7 @@ const structuredData = [
       <!-- LEFT: guitar photo + intro copy -->
       <div class="smf-intro__copy">
         <div class="smf-intro__photo">
-          <img src={smfImg("Guitar.png")} alt="Vintage Fender Stratocaster" loading="eager" />
+          <Image src={smfImgMeta("Guitar.png")} alt="Vintage Fender Stratocaster" loading="eager" width={240} />
         </div>
         <div class="smf-intro__text">
           <p>
@@ -368,7 +374,7 @@ const structuredData = [
         <p><strong>Ready to get started? <a href="/contact-me/" class="smf-link">Contact me</a> today and I&rsquo;ll walk you through it.</strong></p>
       </div>
       <div class="smf-split__photo">
-        <img src={smfImg("1964-fiesta-red-stratocaster-17-1-1024x683.jpg")} alt="Vintage 1964 fiesta red Fender Stratocaster" loading="lazy" />
+        <Image src={smfImgMeta("1964-fiesta-red-stratocaster-17-1-1024x683.jpg")} alt="Vintage 1964 fiesta red Fender Stratocaster" width={523} />
       </div>
     </div>
   </section>
@@ -377,7 +383,7 @@ const structuredData = [
   <section id="how-much-worth" class="smf-split smf-split--alt">
     <div class="smf-inner smf-split__grid smf-split__grid--reverse">
       <div class="smf-split__photo">
-        <img src={smfImg("IMG_2424-1024x683.jpg")} alt="Vintage 1968 blonde Fender Telecaster electric guitar" loading="lazy" />
+        <Image src={smfImgMeta("IMG_2424-1024x683.jpg")} alt="Vintage 1968 blonde Fender Telecaster electric guitar" width={523} />
       </div>
       <div class="smf-split__text">
         <h3 class="smf-h3">How Much Is My Fender<br /> Guitar Worth?</h3>
@@ -398,7 +404,7 @@ const structuredData = [
         </p>
       </div>
       <div class="smf-split__photo">
-        <img src={smfImg("IMG_0992-1024x683.jpg")} alt="Vintage 1964 Fender Telecaster solid body electric guitar" loading="lazy" />
+        <Image src={smfImgMeta("IMG_0992-1024x683.jpg")} alt="Vintage 1964 Fender Telecaster solid body electric guitar" width={523} />
       </div>
     </div>
   </section>
@@ -502,7 +508,7 @@ const structuredData = [
         <p><strong>I met Mary in Wisconsin to look at her family&rsquo;s 1963 Fender Stratocaster, one of the better stops on a recent trip.</strong> A lot of buyers would have seen an ordinary vintage guitar. I could see that the Dakota Red finish and factory gold hardware were original, and those Pre-CBS &ldquo;Custom Color&rdquo; features are rare and bring a real premium. I dated the neck, confirmed the parts were original, and offered Mary a price well above the lowball estimates she&rsquo;d gotten elsewhere, which is what the guitar was actually worth. <strong>That&rsquo;s how I like to do business: honest, straightforward, and good for the guitar.</strong></p>
       </div>
       <div class="smf-case__photo">
-        <img src={smfImg("fender-stratocaster-dakota-red-768x1024.jpg")} alt="Mary's vintage 1963 Fender Stratocaster in rare Dakota Red Custom Color with factory gold hardware" loading="lazy" />
+        <Image src={smfImgMeta("fender-stratocaster-dakota-red-768x1024.jpg")} alt="Mary's vintage 1963 Fender Stratocaster in rare Dakota Red Custom Color with factory gold hardware" width={438} />
       </div>
     </div>
   </section>
@@ -514,7 +520,7 @@ const structuredData = [
       <div class="smf-grid__cards">
         {models.map((m) => (
           <div class="smf-grid__card">
-            <img src={m.img} alt={m.alt} loading="lazy" />
+            <Image src={m.img} alt={m.alt} width={253} />
             <h4>{m.title}</h4>
             <p>{m.body}</p>
           </div>

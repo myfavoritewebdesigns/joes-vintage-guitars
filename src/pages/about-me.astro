@@ -5,7 +5,8 @@ import SectionHeader from "../components/primitives/SectionHeader.astro";
 import Button from "../components/primitives/Button.astro";
 import ContactSection from "../components/ContactSection.astro";
 import { contact, hrefs } from "../config/site";
-import { assetSrc } from "../lib/images";
+import { Image } from "astro:assets";
+import { assetSrc, resolveImage } from "../lib/images";
 
 // Page-specific JSON-LD: ProfilePage + page-level review schema.
 // Source: live site JSON-LD #3 + #4 (saved to /reference/about-me-jsonld-3-profile.json + about-me-jsonld-4-reviews.json)
@@ -251,7 +252,7 @@ const testimonials = [
     <div class="about-music__inner">
       <div class="about-music__top">
         <div class="about-music__photo">
-          <img src={assetSrc("images/The-Man-Behind-the-Music.jpg")} alt="Joe Dampt playing guitar" loading="lazy" />
+          <Image src={resolveImage("images/The-Man-Behind-the-Music.jpg")!} alt="Joe Dampt playing guitar" width={400} />
         </div>
         <div class="about-music__copy">
           <h3 class="about-music__title">The Man Behind the Music</h3>
@@ -322,7 +323,7 @@ const testimonials = [
           </div>
         </div>
         <div class="about-media__photo">
-          <img src={assetSrc("images/media-1.jpg")} alt="Joe in the media and community" loading="lazy" />
+          <Image src={resolveImage("images/media-1.jpg")!} alt="Joe in the media and community" width={420} />
         </div>
       </div>
     </div>
