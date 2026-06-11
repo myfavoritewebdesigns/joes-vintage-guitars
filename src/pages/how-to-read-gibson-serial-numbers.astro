@@ -126,7 +126,10 @@ const toolSchema = {
        rest of the site (see decision log). ~200px tall. -->
   <div class="gsn-header-backdrop" aria-hidden="true"></div>
 
-  <main class="gsn-page">
+  <!-- div, not main: Layout already provides the page's single <main> landmark,
+     and the nested main was an axe landmark violation (no visual change,
+     all styling is class-based). -->
+<div class="gsn-page">
     <div class="gsn-inner">
       <h1 class="gsn-h1">Gibson Serial Number Lookup: Free Decoder Tool + Complete Dating Guide</h1>
     </div>
@@ -172,7 +175,9 @@ const toolSchema = {
           </article>
         </div>
 
-        <aside class="gsn-fon-note">
+        <!-- div, not aside: a complementary landmark nested inside main is an
+             axe violation; this is an in-flow content callout, styled by class. -->
+        <div class="gsn-fon-note">
           <div class="gsn-fon-note__circle">
             <Image src={imgMeta("gibson-factory-order-number-ink-stamp-bare-wood.jpg")} alt="Gibson Factory Order Number ink stamped directly onto the bare wood inside the guitar body" width={130} />
             <span>FON Example</span>
@@ -181,7 +186,7 @@ const toolSchema = {
             <h3>What About Factory Order Numbers (FONs)?</h3>
             <p>Nearly all vintage Gibson acoustics and hollow-bodies also have a Factory Order Number, a separate number ink-stamped directly onto the <em>bare wood inside the body</em>, not on a label. FONs were used from 1902 to 1961 and are often more reliable for dating than the serial number alone. Look for a stamped or handwritten number on the interior wood when you peek through the soundhole. Use the decoder tool above to decode both serial numbers and FONs.</p>
           </div>
-        </aside>
+        </div>
 
         <div class="gsn-video">
           <lite-youtube videoid="oxvMHi23bZc" playlabel="Play: Where to find your Gibson serial number"></lite-youtube>
@@ -1489,7 +1494,7 @@ const toolSchema = {
         </div>
       </section>
     </div>
-  </main>
+  </div>
 
   <!-- Floating in-page navigation (desktop fixed sidebar ≥900px; mobile button + panel) -->
   <nav class="jvg-nav-sidebar" aria-label="Page section navigation">
