@@ -16,6 +16,7 @@
  */
 
 import Layout from "../layouts/Layout.astro";
+import { assetSrc } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
@@ -57,12 +58,13 @@ const igPosts = [
 
 // Live hero photo background — same B&W vintage-shop image the Fender page
 // uses (verified by curl-ing live's CSS: both pages set
-// `--awb-background-image:url(.../wp-content/uploads/2025/07/background.jpg)`
+// `--awb-background-image:url(<live WP uploads>/2025/07/background.jpg)`
 // on the `.tp-bnr` hero wrapper).
-const HERO_BG = "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/07/background.jpg";
+const gibImg = (file: string) => assetSrc("images/sell-gibson/" + file);
+const HERO_BG = "/images/sell-hero-background.jpg";
 
 // Live's OG share image for this page (distinct from the hero bg).
-const OG_IMAGE = "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/07/Sell-My-Gibson-Guitar.jpg";
+const OG_IMAGE = "https://www.joesvintageguitarsaz.com/images/og/sell-my-gibson-guitar.jpg";
 
 // Gibson-specific serial-number dropdown options — copied verbatim from
 // live's wpcf7 form so existing analytics dashboards keyed off these values
@@ -235,7 +237,7 @@ const structuredData = [breadcrumbSchema, faqSchema];
 
       <div class="smg-intro__copy">
         <img
-          src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/06/Guitar22.png"
+          src={gibImg("Guitar22.png")}
           alt=""
           aria-hidden="true"
           width="344"
@@ -398,7 +400,7 @@ const structuredData = [breadcrumbSchema, faqSchema];
       </div>
       <figure class="smg-split__img">
         <img
-          src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1961-gibson-es-175-d-sunburst-1024x683.jpg"
+          src={gibImg("1961-gibson-es-175-d-sunburst-1024x683.jpg")}
           alt="Vintage Gibson ES-175D 1961, Sunburst Electric Guitar"
           width="1024" height="683" loading="lazy" decoding="async"
         />
@@ -414,7 +416,7 @@ const structuredData = [breadcrumbSchema, faqSchema];
     <div class="smg-split__inner smg-split__inner--text-right">
       <figure class="smg-split__img">
         <img
-          src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/1966-gibson-trini-lopez-cherry-finish-1024x683.jpg"
+          src={gibImg("1966-gibson-trini-lopez-cherry-finish-1024x683.jpg")}
           alt="Vintage 1967 Cherry Gibson Trini Lopez Model"
           width="1024" height="683" loading="lazy" decoding="async"
         />
@@ -446,7 +448,7 @@ const structuredData = [breadcrumbSchema, faqSchema];
       </div>
       <figure class="smg-split__img">
         <img
-          src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/02/1956-gibson-les-paul-standard-goldtop-1024x683.jpg"
+          src={gibImg("1956-gibson-les-paul-standard-goldtop-1024x683.jpg")}
           alt="Vintage 1956 Gibson Les Paul Standard Goldtop"
           width="1024" height="683" loading="lazy" decoding="async"
         />
@@ -473,7 +475,7 @@ const structuredData = [breadcrumbSchema, faqSchema];
           {/* Audit fix (2026-05-27): icon was 80×80, live measures 130×121.
               Sizing dropped to attributes so layout reserves correct space. */}
           <img
-            src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/12/Fair-Cash-1.svg"
+            src="/images/sell-gibson/Fair-Cash-1.svg"
             alt="" aria-hidden="true" width="130" height="121" loading="lazy"
             class="smg-process__icon"
           />
@@ -490,7 +492,7 @@ const structuredData = [breadcrumbSchema, faqSchema];
 
         <article class="smg-process__card">
           <img
-            src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/12/Fair-Cash-2.svg"
+            src="/images/sell-gibson/Fair-Cash-2.svg"
             alt="" aria-hidden="true" width="130" height="121" loading="lazy"
             class="smg-process__icon"
           />
@@ -508,7 +510,7 @@ const structuredData = [breadcrumbSchema, faqSchema];
 
         <article class="smg-process__card">
           <img
-            src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2024/12/Fair-Cash-3-1.svg"
+            src="/images/sell-gibson/Fair-Cash-3-1.svg"
             alt="" aria-hidden="true" width="130" height="121" loading="lazy"
             class="smg-process__icon"
           />
@@ -615,7 +617,7 @@ const structuredData = [breadcrumbSchema, faqSchema];
               returns 404 — live actually serves the `-768x1024.jpg` size
               suffix variant. Truncated during initial HTML extraction. */}
           <img
-            src="https://www.joesvintageguitarsaz.com/wp-content/uploads/2026/03/vintage-gibson-guitar-seller-768x1024.jpg"
+            src={gibImg("vintage-gibson-guitar-seller-768x1024.jpg")}
             alt="Happy client Lyman playing a 1948 Gibson L-50 acoustic guitar after selling it to Joe"
             width="768" height="1024" loading="lazy" decoding="async"
           />
@@ -1297,7 +1299,7 @@ const structuredData = [breadcrumbSchema, faqSchema];
      swap to local before declaring page done). */
   .smg-testi {
     background-color: var(--color-brand-rust-bright);
-    background-image: url("https://www.joesvintageguitarsaz.com/wp-content/uploads/2022/08/rickenbacker-reviews-bg.jpg");
+    background-image: url("/images/sell-gibson/rickenbacker-reviews-bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

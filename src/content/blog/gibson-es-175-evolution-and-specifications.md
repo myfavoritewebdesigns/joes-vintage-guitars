@@ -12,7 +12,7 @@ metaDescription: "Since its debut, the Gibson ES-175 has been one of the most re
 ogImage: "/images/blog/gibson-es-175-evolution-and-specifications/sell-vintage-gibson-es-175-value-guide-scaled.jpg"
 wpId: 18166
 ---
-![A vintage Gibson ES-175 hollow-body electric guitar in a classic Sunburst finish, showcasing the iconic Florentine cutaway and double-parallelogram fingerboard inlays.](/images/blog/gibson-es-175-evolution-and-specifications/sell-vintage-gibson-es-175-value-guide-1024x683.jpg)
+![A vintage Gibson ES-175 hollow-body electric guitar in a classic Sunburst finish, showcasing the iconic Florentine cutaway and double-parallelogram fingerboard inlays.](../../assets/blog/gibson-es-175-evolution-and-specifications/sell-vintage-gibson-es-175-value-guide-1024x683.jpg)
 
 A 1950s Gibson ES-175 with the Florentine cutaway and Sunburst finish, the kind of instrument that shaped the sound of jazz for generations.
 
@@ -30,7 +30,7 @@ If you’re trying to figure out what your guitar is worth, look at the pickups 
 
 That was the year Gibson introduced the “Patent Applied For” (PAF) humbucker. If you have a 1957, 1958, or 1959 ES-175 with its original PAFs, you are looking at the peak of the vintage market. These pickups have a warmth and harmonic complexity that modern reissues just can’t quite capture. A “Natural” or “Blonde” finish from this era is even rarer; because the wood had to be flawless to not be hidden under a Sunburst finish, Gibson only made a handful of them. If yours is a “Blonde” with PAFs, you’re holding one of the most valuable 175s out there.
 
-![Full body view of a 1962 Gibson ES-175D hollow-body guitar in Sunburst finish, featuring two original PAF humbucking pickups, a Florentine cutaway, and a zig-zag trapeze tailpiece.](/images/blog/gibson-es-175-evolution-and-specifications/1962-gibson-es-175d-paf-pickups-vintage-value-683x1024.jpg)
+![Full body view of a 1962 Gibson ES-175D hollow-body guitar in Sunburst finish, featuring two original PAF humbucking pickups, a Florentine cutaway, and a zig-zag trapeze tailpiece.](../../assets/blog/gibson-es-175-evolution-and-specifications/1962-gibson-es-175d-paf-pickups-vintage-value-683x1024.jpg)
 
 A clean 1962 Gibson ES-175D. This example is in demand because it has two original Patent Applied For (PAF) humbuckers, the high point of Gibson’s Golden Era electronics before the full transition to Patent Number pickups.
 
@@ -46,7 +46,7 @@ When we evaluate a 175 at the shop, we’re looking at a lot more than the year.
     
 -   **The 70s (Norlin Era):** You’ll notice a “volute” or a small bump on the back of the headstock near the nut. While purists used to turn their noses up at these, they’re actually very stable guitars. However, the market value is generally lower than the 50s and 60s models.
     
-    ![Shot of a 1968 Gibson ES-175D in Sunburst finish with two humbuckers, featuring a rare gold 'Gibson' logo on the pickguard and an original bridge with nylon saddles.](/images/blog/gibson-es-175-evolution-and-specifications/1968-gibson-es-175d-pickguard-logo-nylon-saddles-1024x683.jpg)
+    ![Shot of a 1968 Gibson ES-175D in Sunburst finish with two humbuckers, featuring a rare gold 'Gibson' logo on the pickguard and an original bridge with nylon saddles.](../../assets/blog/gibson-es-175-evolution-and-specifications/1968-gibson-es-175d-pickguard-logo-nylon-saddles-1024x683.jpg)
     
     A remarkably original 1968 ES-175D. This era is defined by unique transitions, including the rare Gibson logo on the pickguard and the factory-standard nylon saddle bridge, which offers a slightly warmer, mellower attack than traditional metal saddles.
     

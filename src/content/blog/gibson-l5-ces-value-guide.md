@@ -28,7 +28,7 @@ The L-5 was a big step forward. Introduced in 1922 and credited to Lloyd Loar, i
 
 While it was primarily an acoustic guitar, many players, including Charlie Christian, added pickups (like the DeArmond “Rhythm Chief”) to amplify their L-5s.
 
-![A vintage Gibson L-5C acoustic archtop guitar in a sunburst finish, featuring a 17-inch body with a Venetian cutaway and carved spruce top. The image highlights the clean, acoustic design without any mounted pickups or electronics, showcasing the original wood and craftsmanship.](/images/blog/gibson-l5-ces-value-guide/gibson-l-5-c-1954-1024x682.jpg)
+![A vintage Gibson L-5C acoustic archtop guitar in a sunburst finish, featuring a 17-inch body with a Venetian cutaway and carved spruce top. The image highlights the clean, acoustic design without any mounted pickups or electronics, showcasing the original wood and craftsmanship.](../../assets/blog/gibson-l5-ces-value-guide/gibson-l-5-c-1954-1024x682.jpg)
 
 Before the dawn of the “CES” (Electric Spanish) era, the Gibson L-5 reigned supreme as a purely acoustic powerhouse. This L-5C is a good example of the instrument’s original DNA: a master-carved spruce and maple box designed for maximum projection and tonal clarity. Without the added weight of humbuckers or wiring, the top is free to vibrate, offering a glimpse into the acoustic heritage that laid the foundation for the electrified models that would eventually follow in the early 1950s.
 
@@ -50,7 +50,7 @@ The pickups define the era of an L-5 CES more than any other feature.
 
 **1954-1957: The Alnico V “Staple” Pickup** In late 1953/early 1954, Gibson sought to create a premium pickup for its top-tier models (the L-5 CES, the Super 400 CES, and the newly introduced Les Paul Custom). The result was the Alnico V, often called the “Staple” pickup.
 
-![Alt Text Close-up of a gold-plated Alnico V ](/images/blog/gibson-l5-ces-value-guide/1950s-gibson-l-5-ces-alnico-pickup-1024x683.jpg)
+![Alt Text Close-up of a gold-plated Alnico V ](../../assets/blog/gibson-l5-ces-value-guide/1950s-gibson-l-5-ces-alnico-pickup-1024x683.jpg)
 
 A close look at the Alnico V “Staple” pickup on this mid-1950s Gibson L-5 CES. Known for its clear, hi-fi response and individual adjustable pole pieces, this pickup dates to Gibson’s 1950s heyday. It has a punchy, articulate tone that works well with the resonance of a carved spruce top.
 
@@ -69,7 +69,7 @@ The shape of the cutaway is another key feature that changed over time, affectin
 -   **Florentine Cutaway (Sharp): 1960-1969.** In 1960, Gibson switched the L-5 CES (and other archtops like the Super 400 and Byrdland) to a sharp, pointed Florentine cutaway. This was likely an effort to modernize the look.
     
 
-![Close-up of the sharp Florentine cutaway on a 1964 Gibson L-5 archtop guitar in a sunburst finish. The image showcases the elegant flamed maple back, multi-ply binding, and the graceful curve that defines this era of Gibson's flagship model.](/images/blog/gibson-l5-ces-value-guide/1964-gibson-L-5-florentine-cutaway-1024x682.jpg)
+![Close-up of the sharp Florentine cutaway on a 1964 Gibson L-5 archtop guitar in a sunburst finish. The image showcases the elegant flamed maple back, multi-ply binding, and the graceful curve that defines this era of Gibson's flagship model.](../../assets/blog/gibson-l5-ces-value-guide/1964-gibson-L-5-florentine-cutaway-1024x682.jpg)
 
 The Florentine cutaway on this 1964 Gibson L-5 is typical of early-60s design, giving it both a sharp look and easier access to the upper frets. Paired with the sunburst finish and multi-ply celluloid binding, it shows the craftsmanship Gibson put into their 17-inch carved-top instruments during this transition period.
 
@@ -82,14 +82,14 @@ The L-5 has always featured Gibson’s highest level of ornamentation.
 -   **Fretboard:** From its inception, the L-5 has featured an ebony fretboard. This premium wood is prized for its smooth feel and contribution to the guitar’s bright, articulate tone. The fretboard comes to an elegant point at the end of the fingerboard extension. 
     
 
-![Close-up of the pointed ebony fingerboard extension on a 1969 Gibson L-5 CES. The image highlights the intricate multi-ply white and black binding, the dark grain of the ebony, and the craftsmanship where the neck meets the carved spruce top.](/images/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-1969-5-1024x683.jpg)
+![Close-up of the pointed ebony fingerboard extension on a 1969 Gibson L-5 CES. The image highlights the intricate multi-ply white and black binding, the dark grain of the ebony, and the craftsmanship where the neck meets the carved spruce top.](../../assets/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-1969-5-1024x683.jpg)
 
 One mark of a high-end Gibson archtop is the pointed fingerboard extension seen here on this 1969 L-5 CES. This detail, paired with the multi-ply binding and dark, high-grade ebony, shows the kind of appointments Gibson saved for its top models. It’s a small touch that sets the L-5 apart from its plainer siblings, and it reflects the hand-work that went into every 17-inch carved-top guitar leaving the Kalamazoo factory in the late 60s.
 
 -   **Fretboard Inlays:** The L-5 is defined by its large, **mother-of-pearl block inlays**. In contrast, the Super 400 used split blocks, and lower-tier models like the ES-175 used split parallelograms.
     
 
-![Close-up of a Gibson L-5 CES fingerboard featuring a large rectangular block inlay made of shimmering mother-of-pearl. The inlay is set into a dark, premium ebony fretboard, bordered by multi-ply white and black binding and polished nickel frets.](/images/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-block-inlay-1024x683.jpg)
+![Close-up of a Gibson L-5 CES fingerboard featuring a large rectangular block inlay made of shimmering mother-of-pearl. The inlay is set into a dark, premium ebony fretboard, bordered by multi-ply white and black binding and polished nickel frets.](../../assets/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-block-inlay-1024x683.jpg)
 
 The mother-of-pearl block inlays are a signature of the Gibson L-5 CES and mark it as one of Gibson’s top models. These large markers are set into a dark ebony fingerboard, giving a strong contrast that both helps the player and looks good. Along with the multi-ply neck binding, this is one of the most recognizable features of the L-5.
 
@@ -98,7 +98,7 @@ The mother-of-pearl block inlays are a signature of the Gibson L-5 CES and mark 
 -   **Headstock Inlay:** This is one of the guitar’s most famous features: the intricate **mother-of-pearl “Flowerpot” (or torch) inlay**. It is a symbol of Gibson’s highest-grade craftsmanship.
     
 
-![Close-up of a Gibson L-5 CES headstock featuring the intricate ](/images/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-flower-pot-logo-1024x683.jpg)
+![Close-up of a Gibson L-5 CES headstock featuring the intricate ](../../assets/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-flower-pot-logo-1024x683.jpg)
 
 The “Flower Pot” inlay (often called the torch by collectors) is the centerpiece of the Gibson L-5 CES headstock. This mother-of-pearl design has marked Gibson’s top-grade instruments since the early 20th century. Paired with the multi-bound headstock and gold-plated hardware, it tells you right away that the L-5 is one of Gibson’s top carved-top guitars.
 

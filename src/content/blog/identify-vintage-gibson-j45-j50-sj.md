@@ -12,7 +12,7 @@ metaDescription: "Ever wondered why your vintage Gibson acoustic doesn’t have 
 ogImage: "/images/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-scaled.jpg"
 wpId: 18220
 ---
-![A vintage 1950s Gibson J-45 "Workhorse" acoustic guitar with a sunburst finish and original teardrop pickguard resting in its case at Joe's Vintage Guitars](/images/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-1024x683.jpg)
+![A vintage 1950s Gibson J-45 "Workhorse" acoustic guitar with a sunburst finish and original teardrop pickguard resting in its case at Joe's Vintage Guitars](../../assets/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-1024x683.jpg)
 
 A stunning 1950s Gibson J-45 “Workhorse” featuring a classic sunburst finish, resting in its original hardshell case at Joe’s Vintage Guitars in Mesa, AZ. Identifying these unlabeled vintage acoustics requires a close look at the specific 1950s specs and Factory Order Numbers.
 
@@ -49,7 +49,7 @@ Because the body shape (16-inch “Jumbo” lower bout) and woods (Mahogany back
     
 -   **Bottom Line:** The Gibson J-50 is extremely similar to the J-45, but it can be easily distinguished by its non- sunburt,  natural finish.
 
-![Full shot of a 1952 Gibson J-50 natural finish acoustic guitar featuring a small teardrop pickguard and belly-up bridge at Joe’s Vintage Guitars](/images/blog/identify-vintage-gibson-j45-j50-sj/1952-gibson-j50-small-pickguard-683x1024.jpg)
+![Full shot of a 1952 Gibson J-50 natural finish acoustic guitar featuring a small teardrop pickguard and belly-up bridge at Joe’s Vintage Guitars](../../assets/blog/identify-vintage-gibson-j45-j50-sj/1952-gibson-j50-small-pickguard-683x1024.jpg)
 
 A stunning 1952 Gibson J-50 in its original natural finish. This example perfectly illustrates the early ’50s transition, sporting the desirable small teardrop pickguard and the “belly-up” rosewood bridge.
 
@@ -62,7 +62,7 @@ A stunning 1952 Gibson J-50 in its original natural finish. This example perfect
 -   **Logo:** A pearl-inlaid logo (often with a “Crown” or “Crest” inlay on the headstock). Gibson Script & Banner logo guitars are an exception to this.
     
 
-![Close-up of the split-parallelogram mother of pearl inlays](/images/blog/identify-vintage-gibson-j45-j50-sj/gibson-parallelogram-inlays-1-1024x683.jpg)
+![Close-up of the split-parallelogram mother of pearl inlays](../../assets/blog/identify-vintage-gibson-j45-j50-sj/gibson-parallelogram-inlays-1-1024x683.jpg)
 
 Detailed view of the split-parallelogram mother-of-pearl inlays on a Gibson  fretboard. These “deluxe” inlays are the most reliable visual indicator to differentiate a Southern Jumbo or Country Western from the more common dot-inlay J-45 and J-50 models.
 
@@ -86,7 +86,7 @@ These are the “Holy Grail” models.
 -   **The Bracing:** Light, hand-scalloped X-bracing. This is why they sound like cannons.
     
 
-![Close-up of a 1944 Gibson Southern Jumbo (SJ) headstock featuring the rare wartime gold Banner logo "Only a Gibson Is Good Enough" and the classic script Gibson logo.](/images/blog/identify-vintage-gibson-j45-j50-sj/gibson-sj-banner-logo-headstock-1-1024x682.jpg)
+![Close-up of a 1944 Gibson Southern Jumbo (SJ) headstock featuring the rare wartime gold Banner logo "Only a Gibson Is Good Enough" and the classic script Gibson logo.](../../assets/blog/identify-vintage-gibson-j45-j50-sj/gibson-sj-banner-logo-headstock-1-1024x682.jpg)
 
 The unmistakable 1944 “Banner” headstock. This gold decal, stating “Only a Gibson Is Good Enough,” is the primary identifier for the wartime Southern Jumbo (SJ). At Joe’s Vintage Guitars, we specialize in the identification and purchase of these rare “Kalamazoo Gal” built instruments.
 
@@ -106,7 +106,7 @@ The unmistakable 1944 “Banner” headstock. This gold decal, stating “Only a
 -   **The Bridge:** Moves from the small rectangle to the “Belly Up” shape (where the wider part is toward the soundhole).
     
 
-![Close-up of a vintage Gibson gold block logo on a black headstock, a primary identifier for dating Gibson J-45 and J-50 acoustic guitars from 1948 through the 1960s.](/images/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-block-logo-1024x683.jpg)
+![Close-up of a vintage Gibson gold block logo on a black headstock, a primary identifier for dating Gibson J-45 and J-50 acoustic guitars from 1948 through the 1960s.](../../assets/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-block-logo-1024x683.jpg)
 
 The classic gold block logo. Introduced in 1948 to replace the post-war script style, this logo is a vital “checkpoint” when we authenticate and date Golden Era Gibson acoustics.
 

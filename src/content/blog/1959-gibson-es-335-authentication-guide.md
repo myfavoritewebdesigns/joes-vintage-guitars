@@ -12,7 +12,7 @@ metaDescription: "A close look at the details that set the 1959 apart. From the 
 ogImage: "/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-scaled.jpg"
 wpId: 19215
 ---
-![A 1959 Gibson ES-335TD in original sunburst finish resting in a vintage brown Lifton case with pink interior at Joe's Vintage Guitars.](/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-1024x683.jpg)
+![A 1959 Gibson ES-335TD in original sunburst finish resting in a vintage brown Lifton case with pink interior at Joe's Vintage Guitars.](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-1024x683.jpg)
 
 Among vintage electric guitars, few have the following of the **1959 Gibson ES-335TD**. Collectors and players often call it the “Holy Grail,” and 1959 was the year Ted McCarty’s semi-hollow design really came together. It was the year Gibson corrected the structural teething or “fragility” issues of the inaugural 1958 models while keeping the massive, hand-shaped neck profiles and the “Long-Magnet” PAF humbuckers that define the Golden Era sound. From the **“Mickey Mouse” ear** cutaways to the transition of the **4-ply maple top**, a ’59 was built for the harmonic “bloom” and sustain that modern CNC machines still struggle to match. Whether you are a “Tone Chaser” or an investor, knowing the details, from the **spring-loaded Stone cases** to the **tortoiseshell side dots**, is what tells you what you are looking at. If you need help dating your Gibson, check out our [**Gibson Serial Number Tool.**](/post/how-to-read-gibson-serial-numbers/) If you are curious about the value of your Gibson, reach out for a [**free appraisal!**](/vintage-guitar-appraisal/)
 
@@ -54,7 +54,7 @@ The 1959 ES-335 was finished in **Nitrocellulose lacquer**, a thin, breathable f
 -   **Sunburst:** The classic “Tobacco” or “Iced Tea” bursts were the standard.
 -   **Natural (Blonde):** Significantly rarer and highly coveted by investors. Only 71 Natural finish 335s were produced in 1959, making them some of the most expensive vintage guitars on the market today.
 
-![Close-up of original nitrocellulose lacquer finish on a 1959 Gibson ES-335 sunburst guitar showing exceptional gloss and minimal checking.](/images/blog/1959-gibson-es-335-authentication-guide/gibson-nitrocellulose-lacquer-1959-sunburst-1024x683.jpg)
+![Close-up of original nitrocellulose lacquer finish on a 1959 Gibson ES-335 sunburst guitar showing exceptional gloss and minimal checking.](../../assets/blog/1959-gibson-es-335-authentication-guide/gibson-nitrocellulose-lacquer-1959-sunburst-1024x683.jpg)
 
 This 1959 Gibson ES-335 showcases the incredible depth and luster of an original nitrocellulose lacquer finish in near-museum condition. Finding a sunburst finish from this era without significant weather checking or fading is a rarity that drastically impacts the market value for collectors.
 
@@ -82,7 +82,7 @@ Collectors and players often refer to the ’59 neck as the **“Full Rounded”
 
 > **Pro Tip for Collectors:** Because these necks were hand-sanded at the Parsons Street factory, no two ’59 necks are identical. Some “late ’59s” actually began to transition toward the thinner 1960 spec, making the “Early-to-Mid ’59” the most sought-after for those seeking the true chunky feel.
 
-![Original sunburst finish on the back of a 1959 Gibson ES-335 neck showing minimal play wear and period-correct nitrocellulose lacquer.](/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-neck-shape-1024x683.jpg)
+![Original sunburst finish on the back of a 1959 Gibson ES-335 neck showing minimal play wear and period-correct nitrocellulose lacquer.](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-neck-shape-1024x683.jpg)
 
 The back of this 1959 ES-335 neck shows how well it has been kept. Retaining its original gloss with almost no “buckle rash” or finish thinning, it features the “chunky” ’59 rounded profile that defines this golden era of Gibson production
 
@@ -102,7 +102,7 @@ The fine details of the 1959 neck are the primary “tells” used to authentica
 -   **The Nut (Nylon 6/6):** Rather than bone or modern synthetics, Gibson used **Nylon 6/6**. This material is self-lubricating, which prevents “pinging” during tuning and provides a smoother, “rounder” attack on open strings.
 -   **The Fretboard Inlays:** The dots on the face of the fingerboard are **Cellulose Nitrate**. While these age to a beautiful creamy yellow, they are a solid material.
 
-![Close-up of original Brazilian rosewood fingerboard with classic pearloid dot inlays on a 1959 Gibson ES-335 vintage guitar.](/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-dot-inlays-1024x683.jpg)
+![Close-up of original Brazilian rosewood fingerboard with classic pearloid dot inlays on a 1959 Gibson ES-335 vintage guitar.](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-dot-inlays-1024x683.jpg)
 
 The simple pearloid dots on a dark, rich Brazilian rosewood board are the hallmarks of the 1958 and 1959 ES-335. Unlike the later “block” inlays, these dots signify the most coveted production years. This particular example shows no “lifting” or shrinking of the pearloid, a key indicator of a guitar kept in a climate-controlled environment.
 
@@ -128,7 +128,7 @@ One of the most authentic, and frustrating, traits of original 1959 tuners is th
 -   **The Authentication “Tell”:** If you encounter a “pristine” 1959 ES-335 with buttons that look like bright, smooth plastic, they are almost certainly **replacements** (often “Uncle Lou” or “Fake 58” high-end replicas). While this is not true 100% of the time, it is usually true.
 -   **Originality vs. Playability:** While original “shrunken” buttons prove the guitar’s vintage pedigree, they are often unusable for actual gigging. Many owners store the original “Single Lines” in the case and install modern aged replacements to ensure the guitar stays in tune.
 
-![1959 Gibson ES-335 headstock showing original mummified tuners](/images/blog/1959-gibson-es-335-authentication-guide/1959-kluson-tuners-mummification-1024x683.jpg)
+![1959 Gibson ES-335 headstock showing original mummified tuners](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-kluson-tuners-mummification-1024x683.jpg)
 
 This 1959 ES-335 provides a perfect visual lesson in vintage preservation. Here we see the original “single ring” Kluson tuners in a unique state of transition: four of the original celluloid buttons have “mummified,” a natural off-gassing process that causes them to shrink and crumble over decades. In perfect contrast, two buttons were replaced years ago with stable, period-correct material. Seeing this side-by-side helps collectors and sellers identify the authentic aging process of 1950s Gibson hardware.
 
@@ -144,7 +144,7 @@ The bridge on a 1959 ES-335 is the iconic **ABR-1 Tune-o-matic**. However, the 1
 -   **The “Drop” Risk:** If you break a string during a performance, the individual saddle can, and often does, fall right out of the bridge. While inconvenient, this is a primary indicator of a **period-correct 1959 assembly**.
 -   **Tonal Benefit:** Purists argue that the absence of the wire eliminates “bridge rattle,” a common buzz found on later 1960s models, allowing for a purer transfer of string energy to the posts.
 
-![Vintage 1959 Gibson ES-335 bridge detail showing the original ABR-1 no-wire construction and period-correct nickel plating.](/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-abr-1-bridge-1024x683.jpg)
+![Vintage 1959 Gibson ES-335 bridge detail showing the original ABR-1 no-wire construction and period-correct nickel plating.](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-abr-1-bridge-1024x683.jpg)
 
 A hallmark of the 1959 ES-335 is the original ABR-1 “no-wire” bridge. Produced before Gibson added the retainer wire in the early 1960s to prevent saddles from falling out during string changes, these bridges are highly prized for their historical accuracy and tonal transfer. This example retains its original nickel plating and shows the correct “GIBSON ABR-1” casting on the underside, essential markers of an unmolested Golden Era instrument.
 
@@ -164,7 +164,7 @@ One of the most specific visual “tells” of a Golden Era ES-335 is the mismat
 -   **Production Timeline:** While this is a signature 1959 trait, it wasn’t exclusive to that year. This plastic button was the factory standard throughout 1958 and 1959, continued through 1960, and can even be spotted on some models as late as **1962**.
 -   **The “Aging” Look:** Because these are plastic, they often take on a “yellowed” or “amber” hue over 60+ years, contrasting sharply against the nickel hardware nearby.
 
-![1959 Gibson ES-335 plastic strap button](/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-plastic-strap-button-1024x683.jpg)
+![1959 Gibson ES-335 plastic strap button](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-plastic-strap-button-1024x683.jpg)
 
 A subtle but vital detail for any 1959 ES-335 is the original white plastic strap button. In the late 1950s, Gibson utilized these plastic buttons before transitioning to the more common metal versions in the early 1960s. Seeing an original, un-cracked plastic button in this location is a fantastic indicator that the guitar has been handled with care and hasn’t been subjected to the typical “player mods” of the 1970s.
 
@@ -190,7 +190,7 @@ While most PAFs have black plastic bobbins hidden under their nickel covers, 195
     3.  **Double White:** Both bobbins are cream/white
 -   **The “Mojo” Factor:** **Double White PAFs** are the most desirable for collectors. While they technically sound the same as black PAFs, their rarity and the striking look they provide (if the covers are removed) add thousands of dollars to the guitar’s market value.
 
-![Close-up of a 1959 Gibson PAF humbucker with a pole piece screw removed to reveal the white bobbin](/images/blog/1959-gibson-es-335-authentication-guide/white-bobbin-paf-pickup-4-770x1024.jpg)
+![Close-up of a 1959 Gibson PAF humbucker with a pole piece screw removed to reveal the white bobbin](../../assets/blog/1959-gibson-es-335-authentication-guide/white-bobbin-paf-pickup-4-770x1024.jpg)
 
 To verify the pedigree of this 1959 ES-335, we’ve carefully removed a single pole piece screw to reveal the highly coveted white butyrate bobbin underneath the original nickel cover. While “Double Whites” and “Zebras” are the holy grail for 1959-1960 collectors, we strongly advise against beginners attempting this check. These vintage bobbin leads are extremely fragile; one slipped screwdriver or over-turned screw can break a coil wire, potentially devaluing a $5,000+ pickup in seconds.
 
@@ -205,7 +205,7 @@ Authenticating a six-figure ’59 ES-335 requires looking for specific “forens
 
 > Note: DO NOT remove the metal pickup covers just to authenticate your pickup. You will hurt the value of your guitar!
 
-![An example of the back of a PAF pickup with L tooling marks, correct screws and the label.](/images/blog/1959-gibson-es-335-authentication-guide/1957-gibson-PAF-pickup-1024x683.jpg)
+![An example of the back of a PAF pickup with L tooling marks, correct screws and the label.](../../assets/blog/1959-gibson-es-335-authentication-guide/1957-gibson-PAF-pickup-1024x683.jpg)
 
 While this specific pickup isn’t currently mounted in our featured ES-335, it serves as a perfect reference for what a legitimate 1959-spec ‘Patent Applied For’ humbucker should look like. Note the specific ‘L-shaped’ tooling marks on the mounting legs and the slightly yellowed edges of the ‘Patent Applied For’ decal. For any ES-335 from the Golden Era, these internal details are the difference between a standard vintage guitar and a top-tier collector piece.
 
@@ -223,7 +223,7 @@ Visible through the upper (bass-side) f-hole, the **Orange Oval Label** is the m
 
 > Note: The serial number and FON can tell you the year, but if you want to know how rare your specific year, model and finish is, check out out [**Gibson Shipping Totals**](/post/gibson-shipping-totals-1948-1979/) guide.
 
-![Close-up of an original Gibson orange oval label inside the f-hole of a 1959 ES-335 showing the model name.](/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-orange-label-1024x683.jpg)
+![Close-up of an original Gibson orange oval label inside the f-hole of a 1959 ES-335 showing the model name.](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-orange-label-1024x683.jpg)
 
 Visible through the bass-side f-hole, the orange oval label is a cornerstone for authenticating a 1959 ES-335. On an example this clean, the label remains bright and legible, lacking the heavy “tea-staining” or peeling often seen in guitars kept in humid environments. Note the “Union Made” text and the specific hand-inked serial number prefix, details that collectors and appraisers use to pinpoint the exact production month.
 
@@ -238,7 +238,7 @@ While the orange label was applied when the guitar was completed and ready to sh
     -   **5** = The Ranking Number (the specific guitar within that batch).
 -   **The “Cross-Over” Rareity:** Occasionally, you may find a guitar with a 1958 “T” FON but a 1959 serial number. This indicates the body was built in late ’58 but didn’t leave the factory until 1959, often resulting in the desirable “Mickey Mouse” ears but perhaps a slightly thinner ’58-spec top.
 
-![1958 Factory Order Number (FON) visible through the f-hole of a 1959 Gibson ES-335 with rare 1958-spec thin top construction.](/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-FON-1024x673.jpg)
+![1958 Factory Order Number (FON) visible through the f-hole of a 1959 Gibson ES-335 with rare 1958-spec thin top construction.](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-FON-1024x673.jpg)
 
 While this ES-335 was completed and shipped in 1959, the Factory Order Number (FON) stamped inside the body reveals it was actually started in late 1958. This is a critical distinction for tone purists: because of its 1958 origin, this guitar features the thinner three-ply maple top specification typical of the first-year 335s. This “transitional” combination of 1958 construction with the refined 1959 neck profile makes it one of the most resonant and sought-after variations in the history of the model.
 
@@ -273,7 +273,7 @@ The pickguard is one of the easiest ways to spot a 1959 ES-335 from across a roo
 
 > **Tip:** If you’d like to compare the long vs. short pickguards and the reflector vs. bonnet knobs, compare this 1959 ES-335 to **[this 1962 Gibson ES-335](/post/1962-gibson-es-335-guide/)**
 
-![Original 1959 Gibson ES-335 long pickguard](/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-long-pickguard-example-1024x681.jpg)
+![Original 1959 Gibson ES-335 long pickguard](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-long-pickguard-example-1024x681.jpg)
 
 One of the most striking features of this 1959 ES-335 is the original “long” pickguard. This specific style was used from the model’s debut in 1958 until early 1961, and is easily identified by the way the plastic extends significantly past the bridge toward the tailpiece. Collectors highly prize the long guard for its classic silhouette and historical accuracy.  
 Want to see the difference for yourself? Scroll down a little bit and click on our 1962 ES-335 link if you’d like to compare the short and long pickguards side-by-side to help identify your own guitar.
@@ -298,11 +298,11 @@ At a glance, these cases are often indistinguishable because they share the icon
 -   **Interior:** A vibrant, plush **pink “hot magenta”** crushed velvet lining.
 -   **The Logo:** Both manufacturers typically placed their brand logo inside the case (often on the accessory pocket lid).
 
-![An example of the Lifton case logo](/images/blog/1959-gibson-es-335-authentication-guide/1956-gibson-lifton-california-girl-case-1024x683.jpg)
+![An example of the Lifton case logo](../../assets/blog/1959-gibson-es-335-authentication-guide/1956-gibson-lifton-california-girl-case-1024x683.jpg)
 
 The brass Lifton badge is not just a logo. It’s a hallmark of the “Golden Era.” For a 1959 ES-335, the presence of an original Lifton “California Girl” case (so named for its brown exterior and bright pink interior) can add significant value to the overall package. This badge, featuring the famous “Built Like a Fortress” tagline, confirms that the guitar has been shielded by the industry standard of the 1950s. When we evaluate a vintage Gibson at Joe’s Vintage Guitars, the condition of this badge and the case’s internal plush lining are key factors in our top-dollar offers.
 
-![Vintage 1959 Stone guitar case branding; authentic Brooklyn-made Stone Case Co. badge for a Gibson Dot Neck ES-335.](/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-stone-case-1024x683.jpg)
+![Vintage 1959 Stone guitar case branding; authentic Brooklyn-made Stone Case Co. badge for a Gibson Dot Neck ES-335.](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-stone-case-1024x683.jpg)
 
 While the Lifton is often the first thing people think of, many 1959 ES-335s were originally paired with these high-quality Stone cases. This original metal logo plate from the Stone Case Co. of Brooklyn, N.Y., is a hallmark of authenticity. At Joe’s Vintage Guitars, we pay close attention to these original accessories because they significantly increase the historical and market value of a ’59 Dot Neck.
 
@@ -313,7 +313,7 @@ While not necessarily rarer than the Lifton, the **Stone Case Company** (of Broo
 -   **The Latch System:** The most reliable way to identify a Stone case is the hardware. They typically feature a **spring-loaded, briefcase-style main latch**. When you slide the button, the latch “pops” open with a mechanical snap.
 -   **The Value:** A 1959 ES-335 paired with a Stone case is considered a highly desirable, period-correct historical pairing that collectors value just as highly as the Lifton.
 
-![Side view of a 1959 Stone case for a Gibson ES-335 showing the original spring-loaded briefcase-style latches and textured covering.](/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-stone-case-example-683x1024.jpg)
+![Side view of a 1959 Stone case for a Gibson ES-335 showing the original spring-loaded briefcase-style latches and textured covering.](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-stone-case-example-683x1024.jpg)
 
 While many 1959 ES-335s shipped in Lifton cases, the Stone Case Co. examples are equally iconic and rugged. A defining feature of these cases is the spring-loaded, briefcase-style latch shown here. Unlike the standard flip-latches seen on later models, these provide a satisfying mechanical ‘snap’ that is synonymous with late-50s Gibson protection. Finding these latches fully functional and without heavy corrosion is a clear sign that the instrument inside has been stored in a dry, safe environment for decades.
 

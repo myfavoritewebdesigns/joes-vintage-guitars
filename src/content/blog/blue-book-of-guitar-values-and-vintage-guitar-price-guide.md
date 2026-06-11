@@ -20,7 +20,7 @@ Table Of Contents
 -   [What is the Best Way to Value Your Guitar?](#what-is-the-best-way-to-value-your-guitar)
 -   [The Details Significantly Affect the Value of a Vintage Guitar](#the-details-significantly-affect-the-value-of-a-vintage-guitar)
 
-![A Collings 360st](/images/blog/blue-book-of-guitar-values-and-vintage-guitar-price-guide/IMG_2600-1024x683.jpg)
+![A Collings 360st](../../assets/blog/blue-book-of-guitar-values-and-vintage-guitar-price-guide/IMG_2600-1024x683.jpg)
 
 The front of the body of a Collings 360st
 
@@ -30,13 +30,13 @@ The front of the body of a Collings 360st
 
 If you have been spending time determining the value of your guitar, chances are that you’ve run across the Vintage Guitar Price Guide at least in passing. The Vintage guitar price guide, which is published by Vintage Guitar Magazine and is updated yearly, has been around since 1989. This price guide takes into consideration purchase and sales information from many top guitar dealers around the country and has been a trusted source for guitar valuations for decades. Over my years of guitar buying and selling, I have found the Vintage Guitar Price Guide to be quite accurate overall especially when I am dealing with a guitar that is in excellent condition. In fact, even with all of the knowledge and resources I have gained over years of guitar buying and selling, I still buy a vintage guitar price guide every year! Click the link to buy the Price Guide! [**Vintage Guitar Price Guide**](https://store.vintageguitar.com/price-guide.html).  
   
-![Infographic Joes-Vintage Guitars](/images/blog/blue-book-of-guitar-values-and-vintage-guitar-price-guide/Infographic-Joes-Vintage-Guitars.jpg)
+![Infographic Joes-Vintage Guitars](../../assets/blog/blue-book-of-guitar-values-and-vintage-guitar-price-guide/Infographic-Joes-Vintage-Guitars.jpg)
 
 <h3 id="the-blue-book-of-guitar-values-and-online-resource-for-guitar-values">The Blue Book of Guitar Values, and Online Resource for Guitar Values</h3>
 
 The Blue Book of Guitar Values is a website that offers a paid monthly service for access to a database of guitar values. In order to determine if the service is useful, I signed up for the paid version and used it for a while. I was actually surprised to find that is was quite useful and accurate, although it does undervalue some higher end rare vintage guitars. The website is easy to navigate and it does has A TON of guitar models available for valuation. So far I haven’t found a single model, even obscure ones that did not show up when searched on the site. Overall, this was a useful resource that I would recommend if you don’t want to use the Vintage Guitar Price Guide. Overall though, I do feel that the Vintage Guitar Price Guide is overall more accurate. Click the link if you are interested in the **[Blue Book of Guitar Values!](https://bluebookofguitarvalues.com/ "Blue book of guitar values")**
 
-![The front of the body on a 1974 Fender Stratocaster](/images/blog/blue-book-of-guitar-values-and-vintage-guitar-price-guide/IMG_1234-1200x800.jpg)
+![The front of the body on a 1974 Fender Stratocaster](../../assets/blog/blue-book-of-guitar-values-and-vintage-guitar-price-guide/IMG_1234-1200x800.jpg)
 
 <h3 id="what-is-the-best-way-to-value-your-guitar">What is the Best Way to Value Your Guitar?</h3>
 

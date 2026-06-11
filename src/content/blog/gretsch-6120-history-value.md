@@ -12,7 +12,7 @@ metaDescription: "Thinking of selling a vintage Gretsch 6120? This guide covers 
 ogImage: "/images/blog/gretsch-6120-history-value/gretsch-6120-market-value-scaled.jpg"
 wpId: 18154
 ---
-![Pristine 1960 Gretsch 6120 Chet Atkins with 2.5-inch body depth and Filter'Tron pickups. Get a professional nationwide appraisal and cash offer from Joe's Vintage Guitars.](/images/blog/gretsch-6120-history-value/gretsch-6120-market-value-1024x683.jpg)
+![Pristine 1960 Gretsch 6120 Chet Atkins with 2.5-inch body depth and Filter'Tron pickups. Get a professional nationwide appraisal and cash offer from Joe's Vintage Guitars.](../../assets/blog/gretsch-6120-history-value/gretsch-6120-market-value-1024x683.jpg)
 
 The 1960 model year was an important refinement for the 6120, featuring the slimmed-down 2.5-inch body and the introduction of the zero fret. Instruments in this ‘Collector Grade’ condition are in strong demand in the vintage market right now.
 
@@ -73,7 +73,7 @@ Gretsch began slimming down the 6120 to compete with Gibson’s ES-335.
     
 -   **Market Value:** **$6,000 to $10,500.**
     
-    ![Full front view of a 1961 Gretsch 6120 Chet Atkins single-cutaway hollow body. We offer competitive nationwide payouts for all-original vintage Gretsch guitars.](/images/blog/gretsch-6120-history-value/1961-gretsch-6120-single-cutaway-full-view-683x1024.jpg)
+    ![Full front view of a 1961 Gretsch 6120 Chet Atkins single-cutaway hollow body. We offer competitive nationwide payouts for all-original vintage Gretsch guitars.](../../assets/blog/gretsch-6120-history-value/1961-gretsch-6120-single-cutaway-full-view-683x1024.jpg)
     
     The 1961 model year is in strong demand as the last full year of the classic single-cutaway design. When evaluating your 1961 6120, we look for original ‘V-cutout’ Bigsby tailpieces and the presence of the original ‘standby’ switch, which are good indicators of a high-value collector’s piece.
     
@@ -99,7 +99,7 @@ Vintage Gretsch binding was made of a specific celluloid that off-gasses over ti
 
 -   **Check:** Look for “sugaring” (a crystalline look) on the edges. Total binding replacement is a $1,000+ repair and can reduce the guitar’s value.
     
-    ![Severe celluloid binding rot on a vintage 1959 Gretsch 6120. We buy vintage Gretsch guitars in any condition at Joe’s Vintage Guitars.](/images/blog/gretsch-6120-history-value/gretsch-binding-rot-1024x683.jpg)
+    ![Severe celluloid binding rot on a vintage 1959 Gretsch 6120. We buy vintage Gretsch guitars in any condition at Joe’s Vintage Guitars.](../../assets/blog/gretsch-6120-history-value/gretsch-binding-rot-1024x683.jpg)
     
     Binding rot (celluloid degradation) is a common issue on ‘Golden Era’ Gretsch models. While it can look devastating, it doesn’t mean your guitar has lost all its value. We specialize in evaluating ‘project’ vintage instruments and offering fair market prices despite condition issues.
     
@@ -137,7 +137,7 @@ Before 1966, Gretsch used sequential serial numbers. You can usually find the nu
     
     For more information on dating a Gretsch guitar, check out our [Gretsch Serial Number Page.](/post/how-to-identify-the-manufacture-date-of-a-gretsch-guitar/) You can also check out the Serial Number Guide on the [Gretsch website.](https://www.gretschguitars.com/support/product-dating) 
     
-    ![Original 1960 Gretsch 6120 orange interior label showing model number and serial number. Expert vintage Gretsch authentication and nationwide buying at Joe's Vintage Guitars.](/images/blog/gretsch-6120-history-value/1960-gretsch-6120-orange-label-serial-number-1024x683.jpg)
+    ![Original 1960 Gretsch 6120 orange interior label showing model number and serial number. Expert vintage Gretsch authentication and nationwide buying at Joe's Vintage Guitars.](../../assets/blog/gretsch-6120-history-value/1960-gretsch-6120-orange-label-serial-number-1024x683.jpg)
     
     The 1960 orange label is the ‘birth certificate’ of your 6120. For this year, look for a serial number in the 34000 to 39000 range. At Joe’s, we use these original markings to cross-reference production batches and provide you with an accurate, high-value appraisal for your instrument.
     

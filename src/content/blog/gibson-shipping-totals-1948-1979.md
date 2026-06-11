@@ -12,7 +12,7 @@ metaDescription: "A look at the official Kalamazoo records on how rare your inst
 ogImage: "/images/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-serial-number-scaled.jpg"
 wpId: 18430
 ---
-![Detailed view of the back of a 1958 Gibson Les Paul Special headstock featuring the original black ink-stamped serial number. The Five-digit sequence is applied on top of the "TV Yellow" nitrocellulose finish, showing a distinct, slightly fuzzy edge characteristic of 1950s factory stamping rather than a modern impression into the wood.](/images/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-serial-number-1024x683.jpg)
+![Detailed view of the back of a 1958 Gibson Les Paul Special headstock featuring the original black ink-stamped serial number. The Five-digit sequence is applied on top of the "TV Yellow" nitrocellulose finish, showing a distinct, slightly fuzzy edge characteristic of 1950s factory stamping rather than a modern impression into the wood.](../../assets/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-serial-number-1024x683.jpg)
 
 -   [Les Paul Standard (1952-1961)](#lp-std-52-61)
 -   [Les Paul Custom (1955-1961)](#lp-cust-55-61)
@@ -66,7 +66,7 @@ If you are trying to verify the rarity of a 1950s “Black Beauty,” these **Gi
 | LP Cust '60 | 189 |
 | LP Cust '61 | 18 |
 
-![Rare 1958 Gibson Les Paul Custom 'Black Beauty' vintage guitar, used to illustrate original Kalamazoo shipping totals and production rarity for high-value collectors.](/images/blog/gibson-shipping-totals-1948-1979/1958-les-paul-custom-bigsby-1024x683.jpg)
+![Rare 1958 Gibson Les Paul Custom 'Black Beauty' vintage guitar, used to illustrate original Kalamazoo shipping totals and production rarity for high-value collectors.](../../assets/blog/gibson-shipping-totals-1948-1979/1958-les-paul-custom-bigsby-1024x683.jpg)
 
 <h2 id="lp-jr-tv-54-61">Les Paul Junior &amp; “TV Model” Shipping Totals (1954-1961)</h2>
 
@@ -113,7 +113,7 @@ The shipping totals for the Gibson Norlin Era from **1968 to 1979** cover a chap
 
 Because this era brought big structural changes, including the move to **volutes, large headstocks, and multi-piece necks**, precise production values matter for an appraisal. From the **1968 “Goldtop” re-issue** to late-seventies Customs in rare finishes, these shipping numbers give you the data to back up market prices and understand how scarce an instrument really is.
 
-![Front body view of an authentic 1958 Gibson Les Paul Special in original TV Yellow limed mahogany finish. Detail shows two black P-90 soapbar pickups, a nickel-plated short-seam wraparound tailpiece with original intonation Allen screws, 5-ply black pickguard, and four black top-hat knobs. The mahogany wood grain is visible through the translucent nitrocellulose lacquer with natural weather checking.](/images/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-tv-yellow-24-1024x683.jpg)
+![Front body view of an authentic 1958 Gibson Les Paul Special in original TV Yellow limed mahogany finish. Detail shows two black P-90 soapbar pickups, a nickel-plated short-seam wraparound tailpiece with original intonation Allen screws, 5-ply black pickguard, and four black top-hat knobs. The mahogany wood grain is visible through the translucent nitrocellulose lacquer with natural weather checking.](../../assets/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-tv-yellow-24-1024x683.jpg)
 
 | Model & Year | Total Shipped |
 | --- | --- |

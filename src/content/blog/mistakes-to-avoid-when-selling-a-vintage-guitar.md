@@ -20,7 +20,7 @@ Before you list your guitar, take a moment to learn from the most common misstep
 
 ### How To Accurately Determine The Value Of Your Vintage Guitar 
 
-![intage guitar, showcasing its details. Perfect example for those looking to sell your vintage guitar and highlight its unique features](/images/blog/mistakes-to-avoid-when-selling-a-vintage-guitar/Top-Mistakes-To-Avoid-When-Selling-a-Vintage-Guitar-1-300x225.jpg)Before you can even consider selling your instrument, you first need to know its worth. Let’s say you are selling a Stratocaster. Then you probably know which model of Fender Guitar you have, but that’s not enough to get the right price. That exact model can have a different price for many reasons, including market trends and its current condition. 
+![intage guitar, showcasing its details. Perfect example for those looking to sell your vintage guitar and highlight its unique features](../../assets/blog/mistakes-to-avoid-when-selling-a-vintage-guitar/Top-Mistakes-To-Avoid-When-Selling-a-Vintage-Guitar-1-300x225.jpg)Before you can even consider selling your instrument, you first need to know its worth. Let’s say you are selling a Stratocaster. Then you probably know which model of Fender Guitar you have, but that’s not enough to get the right price. That exact model can have a different price for many reasons, including market trends and its current condition. 
 
 Not all vintage guitars are born equal. Fender has offered different “Strats” over the years, and that can affect the final price. Not to mention that specifications can drastically change from year to year, and with that, the price also changes. 
 
@@ -88,7 +88,7 @@ We understand that urgent financial needs can push you into making a rushed deci
 
 ### Shop a Vintage Guitar Safely & Avoid Costly Mistakes
 
-[**![Back view of a vintage guitar, showcasing its authenticity. Perfect example for those looking to sell your vintage guitar and highlight its unique details](/images/blog/mistakes-to-avoid-when-selling-a-vintage-guitar/Top-Mistakes-To-Avoid-When-Selling-a-Vintage-Guitar-2-300x225.jpg)Selling a vintage guitar**](/) isn’t just about finding the right buyer; it’s also about getting the instrument to them safely. You should avoid the costly mistake of using poor packaging, choosing the wrong shipping service, or skipping insurance altogether. The last thing you want is to face refunds, disputes, or financial loss that could have been avoided.
+[**![Back view of a vintage guitar, showcasing its authenticity. Perfect example for those looking to sell your vintage guitar and highlight its unique details](../../assets/blog/mistakes-to-avoid-when-selling-a-vintage-guitar/Top-Mistakes-To-Avoid-When-Selling-a-Vintage-Guitar-2-300x225.jpg)Selling a vintage guitar**](/) isn’t just about finding the right buyer; it’s also about getting the instrument to them safely. You should avoid the costly mistake of using poor packaging, choosing the wrong shipping service, or skipping insurance altogether. The last thing you want is to face refunds, disputes, or financial loss that could have been avoided.
 
 We recommend using a sturdy hardshell case to protect your guitar. If you don’t have one, wrap the guitar in bubble wrap and loosen the string to reduce tension on the neck. 
 

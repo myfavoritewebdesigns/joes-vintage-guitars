@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { assetSrc } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import ContactSection from "../components/ContactSection.astro";
 import FAQ from "../components/FAQ.astro";
@@ -45,14 +46,14 @@ const igPosts = [
 ];
 
 // Live image base — kept hot-linked for first-pass parity. Swap to /images/sell-fender/ later.
-const IMG = "https://www.joesvintageguitarsaz.com/wp-content/uploads";
+const smfImg = (file: string) => assetSrc("images/sell-fender/" + file);
 
 // 2026-05 audit fix v5: REVERTING the v3 "no photo" decision.
 // Live's hero is actually a B&W photo of vintage guitar collectors with a
 // dark vignette overlay (NOT a rust gradient — that was the wrong conclusion
 // from the v2 audit). Restoring the photo bg using live's exact image URL.
 // Verified via `getComputedStyle(.tp-bnr).backgroundImage` on the live page.
-const HERO_BG = "https://www.joesvintageguitarsaz.com/wp-content/uploads/2025/07/background.jpg";
+const HERO_BG = "/images/sell-hero-background.jpg";
 
 // FAQs sourced from live JSON-LD (reference/sell-my-fender-jsonld.json, FAQPage entity).
 // IDs match live's wpcf7-generated `toggle_*` IDs so anchor links from external pages still work.
@@ -87,43 +88,43 @@ const faqs = [
 // 7 model cards — content + photos from live's "I'm Currently Paying Top Dollar" grid
 const models = [
   {
-    img: `${IMG}/2026/03/1956-fender-stratocaster-sunburst-800x533.jpg`,
+    img: smfImg("1956-fender-stratocaster-sunburst-800x533.jpg"),
     alt: "Vintage 1956 sunburst Fender Stratocaster electric guitar",
     title: "Fender Stratocaster",
     body: "Buying 1950s and Pre-CBS 1960s Stratocasters. I pay a premium for all-original examples, Custom Color finishes, and early 'spaghetti' logo models.",
   },
   {
-    img: `${IMG}/2026/03/1960-fender-telecaster-blonde-800x533.jpg`,
+    img: smfImg("1960-fender-telecaster-blonde-800x533.jpg"),
     alt: "Vintage 1960 blonde Fender Telecaster electric guitar",
     title: "Fender Telecaster",
     body: "Buying Fullerton-era Telecasters, Broadcasters, and No-casters. I know the Blackguard '50s models and early '60s slab-board guitars inside and out.",
   },
   {
-    img: `${IMG}/2026/03/1965-fender-jazzmaster-charcoal-frost-800x533.jpg`,
+    img: smfImg("1965-fender-jazzmaster-charcoal-frost-800x533.jpg"),
     alt: "Vintage 1965 charcoal frost Fender Jazzmaster",
     title: "Fender Jazzmaster",
     body: "Buying Pre-CBS Jazzmasters. I pay extra for clay-dot inlays, original anodized guards, and clean Custom Color finishes.",
   },
   {
-    img: `${IMG}/2026/03/1952-fender-precision-bass-800x533.jpg`,
+    img: smfImg("1952-fender-precision-bass-800x533.jpg"),
     alt: "Vintage 1952 Fender Precision Bass",
     title: "Fender Precision Bass",
     body: "Buying vintage P-Basses, especially early 'slab-body' '50s designs and early '60s split-coil models with original hardware.",
   },
   {
-    img: `${IMG}/2026/03/1964-fender-jaguar-sunburst-800x533.jpg`,
+    img: smfImg("1964-fender-jaguar-sunburst-800x533.jpg"),
     alt: "Vintage 1964 sunburst Fender Jaguar",
     title: "Fender Jaguar",
     body: "Looking for early 1960s Jaguars with original mutes and Pre-CBS specs. I pay cash for these chrome-heavy offsets.",
   },
   {
-    img: `${IMG}/2026/03/1972-fender-mustang-competition-blue-800x533.jpg`,
+    img: smfImg("1972-fender-mustang-competition-blue-800x533.jpg"),
     alt: "1972 Fender Mustang Competition in blue with green stripe",
     title: "Fender Mustang",
     body: "Buying 1960s and '70s Mustangs. I pay extra for original 'Competition' finishes and clean short-scale Fullerton models.",
   },
   {
-    img: `${IMG}/2026/03/1972-fender-jazz-bass-sunburst-800x533.jpg`,
+    img: smfImg("1972-fender-jazz-bass-sunburst-800x533.jpg"),
     alt: "1972 sunburst Fender Jazz Bass",
     title: "Fender Jazz Bass",
     body: "Buying vintage J-Basses, especially early '60s 'stack-knob' versions and '70s models with original block inlays and binding.",
@@ -176,7 +177,7 @@ const structuredData = [
   title="Sell My FENDER Guitar | Joe's Vintage Guitars"
   description="Sell your vintage Fender guitar to a trusted specialist. Expert appraisals, top-dollar cash offers, and stress-free nationwide shipping for Stratocasters, Telecasters, Jazzmasters, Precision Basses and more."
   canonical="/sell-my-fender-guitar/"
-  ogImage={`${IMG}/2024/06/Guitar.png`}
+  ogImage={smfImg("Guitar.png")}
   structuredData={structuredData}
 >
   <!-- lite-youtube web component (paulirish/lite-youtube-embed) — matches live's
@@ -206,7 +207,7 @@ const structuredData = [
       <!-- LEFT: guitar photo + intro copy -->
       <div class="smf-intro__copy">
         <div class="smf-intro__photo">
-          <img src={`${IMG}/2024/06/Guitar.png`} alt="Vintage Fender Stratocaster" loading="eager" />
+          <img src={smfImg("Guitar.png")} alt="Vintage Fender Stratocaster" loading="eager" />
         </div>
         <div class="smf-intro__text">
           <p>
@@ -367,7 +368,7 @@ const structuredData = [
         <p><strong>Ready to get started? <a href="/contact-me/" class="smf-link">Contact me</a> today and I&rsquo;ll walk you through it.</strong></p>
       </div>
       <div class="smf-split__photo">
-        <img src={`${IMG}/2025/08/1964-fiesta-red-stratocaster-17-1-1024x683.jpg`} alt="Vintage 1964 fiesta red Fender Stratocaster" loading="lazy" />
+        <img src={smfImg("1964-fiesta-red-stratocaster-17-1-1024x683.jpg")} alt="Vintage 1964 fiesta red Fender Stratocaster" loading="lazy" />
       </div>
     </div>
   </section>
@@ -376,7 +377,7 @@ const structuredData = [
   <section id="how-much-worth" class="smf-split smf-split--alt">
     <div class="smf-inner smf-split__grid smf-split__grid--reverse">
       <div class="smf-split__photo">
-        <img src={`${IMG}/2024/12/IMG_2424-1024x683.jpg`} alt="Vintage 1968 blonde Fender Telecaster electric guitar" loading="lazy" />
+        <img src={smfImg("IMG_2424-1024x683.jpg")} alt="Vintage 1968 blonde Fender Telecaster electric guitar" loading="lazy" />
       </div>
       <div class="smf-split__text">
         <h3 class="smf-h3">How Much Is My Fender<br /> Guitar Worth?</h3>
@@ -397,7 +398,7 @@ const structuredData = [
         </p>
       </div>
       <div class="smf-split__photo">
-        <img src={`${IMG}/2023/10/IMG_0992-1024x683.jpg`} alt="Vintage 1964 Fender Telecaster solid body electric guitar" loading="lazy" />
+        <img src={smfImg("IMG_0992-1024x683.jpg")} alt="Vintage 1964 Fender Telecaster solid body electric guitar" loading="lazy" />
       </div>
     </div>
   </section>
@@ -408,19 +409,19 @@ const structuredData = [
       <h3 class="smf-h3 smf-h3--center">My Guitar Buying Process</h3>
       <div class="smf-process__grid">
         <div class="smf-process__card">
-          <img src={`${IMG}/2024/12/Fair-Cash-1.svg`} alt="" class="smf-process__icon" />
+          <img src={smfImg("Fair-Cash-1.svg")} alt="" class="smf-process__icon" />
           <h4>Accurate Identification</h4>
           <hr class="smf-rule" />
           <p>After decades of doing this, I can date and identify your Fender from the details that matter, neck dates, pot codes, and hardware specs. <strong>I&rsquo;m always happy to geek out over a guitar and tell you exactly when it was made, what makes it interesting, and what it&rsquo;s worth today.</strong></p>
         </div>
         <div class="smf-process__card">
-          <img src={`${IMG}/2024/12/Fair-Cash-2.svg`} alt="" class="smf-process__icon" />
+          <img src={smfImg("Fair-Cash-2.svg")} alt="" class="smf-process__icon" />
           <h4>A Caring Home<br /> For Your Cherished Guitar</h4>
           <hr class="smf-rule" />
           <p>I&rsquo;ve bought plenty of family heirlooms and Fullerton-era Fenders that just weren&rsquo;t being played anymore. Here&rsquo;s my promise to every seller: the guitar you sell me will go on doing what Leo Fender built it to do, get <strong>played!</strong> I treat every one of them with respect.</p>
         </div>
         <div class="smf-process__card">
-          <img src={`${IMG}/2024/12/Fair-Cash-3-1.svg`} alt="" class="smf-process__icon" />
+          <img src={smfImg("Fair-Cash-3-1.svg")} alt="" class="smf-process__icon" />
           <h4>Fair Cash Offer</h4>
           <hr class="smf-rule" />
           <p>I&rsquo;m always ready to pay a premium for a clean, original vintage guitar. I work hard to be the buyer collectors trust, and my cash offers on Pre-CBS Fenders are among the highest you&rsquo;ll find. When you want a straight valuation and a fair deal on your Fender or bass, <a href="/contact-me/" class="smf-link"><strong>contact me</strong></a> today.</p>
@@ -501,7 +502,7 @@ const structuredData = [
         <p><strong>I met Mary in Wisconsin to look at her family&rsquo;s 1963 Fender Stratocaster, one of the better stops on a recent trip.</strong> A lot of buyers would have seen an ordinary vintage guitar. I could see that the Dakota Red finish and factory gold hardware were original, and those Pre-CBS &ldquo;Custom Color&rdquo; features are rare and bring a real premium. I dated the neck, confirmed the parts were original, and offered Mary a price well above the lowball estimates she&rsquo;d gotten elsewhere, which is what the guitar was actually worth. <strong>That&rsquo;s how I like to do business: honest, straightforward, and good for the guitar.</strong></p>
       </div>
       <div class="smf-case__photo">
-        <img src={`${IMG}/2026/03/fender-stratocaster-dakota-red-768x1024.jpg`} alt="Mary's vintage 1963 Fender Stratocaster in rare Dakota Red Custom Color with factory gold hardware" loading="lazy" />
+        <img src={smfImg("fender-stratocaster-dakota-red-768x1024.jpg")} alt="Mary's vintage 1963 Fender Stratocaster in rare Dakota Red Custom Color with factory gold hardware" loading="lazy" />
       </div>
     </div>
   </section>

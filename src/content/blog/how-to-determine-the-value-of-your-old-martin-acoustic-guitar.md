@@ -30,7 +30,7 @@ At the same time, you want to avoid pricing yourself out of the market and endin
 Here are some tips to help you determine the value of your old Martin acoustic guitar, so that you can make an informed decision about whether it’s time to sell. If you’re unsure about the valuation, consider using our **[FREE APPRAISAL](/free-appraisal)** services to get a professional assessment.
 
   
-![Martin Guitar in Arizona](/images/blog/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/How-To-Determine-The-Value-Of-Your-Old-Martin-Acoustic-Guitar-AZ.jpg)
+![Martin Guitar in Arizona](../../assets/blog/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/How-To-Determine-The-Value-Of-Your-Old-Martin-Acoustic-Guitar-AZ.jpg)
 
 <h3 id="what-to-consider-first">What To Consider First</h3>
 

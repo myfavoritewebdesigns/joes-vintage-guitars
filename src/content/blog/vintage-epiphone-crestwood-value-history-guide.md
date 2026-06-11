@@ -14,7 +14,7 @@ wpId: 18185
 ---
 The Gibson SG and Les Paul usually get all the attention, but the **Epiphone Crestwood** is worth a close look if you care about mid-century solid-body electrics. It was built in the Kalamazoo factory during the “Golden Era” of guitar manufacturing, and it was Epiphone’s flagship original design. It was more than a Gibson alternative; it had technical features and a sound that stood on its own against the more expensive SGs. We’re always looking to add nice vintage USA-made Epiphone guitars to our collection. Contact us to sell or for a [free appraisal!](/free-appraisal/)
 
-![Close-up of a 1961 Epiphone Crestwood headstock featuring the early symmetrical three-per-side tuner configuration and the raised metal Epiphone logo plate.](/images/blog/vintage-epiphone-crestwood-value-history-guide/1961-epiphone-crestwood-symmetrical-headstock-1024x683.jpg)
+![Close-up of a 1961 Epiphone Crestwood headstock featuring the early symmetrical three-per-side tuner configuration and the raised metal Epiphone logo plate.](../../assets/blog/vintage-epiphone-crestwood-value-history-guide/1961-epiphone-crestwood-symmetrical-headstock-1024x683.jpg)
 
 The 1961 “short” headstock design, which maintained the symmetrical shape common in the early Kalamazoo production years before the transition to the asymmetrical “Batwing” style.
 
@@ -36,7 +36,7 @@ The earliest Crestwoods featured thick, un-contoured mahogany slabs. These early
 
 In 1961, the edges were contoured for comfort, and the model became the **Crestwood Custom**. This era introduced the **Mini-Humbucker**, designed by Seth Lover. These pickups offer a “snappier” attack and more top-end shimmer than a full-sized PAF, which is why a lot of players like them when they want clarity without giving up the “muscle” of a humbucker.
 
-![A detailed body shot of a 1961 Epiphone Crestwood, highlighting the symmetrical mahogany double-cutaway, dual mini-humbucker pickups, and original cherry finish.](/images/blog/vintage-epiphone-crestwood-value-history-guide/1961-epiphone-crestwood-body-cherry-finish-1024x683.jpg)
+![A detailed body shot of a 1961 Epiphone Crestwood, highlighting the symmetrical mahogany double-cutaway, dual mini-humbucker pickups, and original cherry finish.](../../assets/blog/vintage-epiphone-crestwood-value-history-guide/1961-epiphone-crestwood-body-cherry-finish-1024x683.jpg)
 
 The 1961 body shows the symmetrical mahogany slab and the move toward deeper contours, making it one of the most recognizable designs of the Kalamazoo era.
 
@@ -44,7 +44,7 @@ The 1961 body shows the symmetrical mahogany slab and the move toward deeper con
 
 The final iteration of the vintage Crestwood saw the introduction of the 6-on-a-side **“Batwing” headstock** and the **Tremotone vibrato**. The Crestwood Deluxe, with its three pickups and ebony fretboard, sat at the top of the line, a “tuxedo” guitar meant to compete with the most expensive instruments on the market.
 
-![Rear view of a 1964 Epiphone Crestwood asymmetrical "Batwing" headstock, showing the six-in-line Kluson tuners and the custom color finish.](/images/blog/vintage-epiphone-crestwood-value-history-guide/1964-epiphone-crestwood-batwing-headstock-back-1024x683.jpg)
+![Rear view of a 1964 Epiphone Crestwood asymmetrical "Batwing" headstock, showing the six-in-line Kluson tuners and the custom color finish.](../../assets/blog/vintage-epiphone-crestwood-value-history-guide/1964-epiphone-crestwood-batwing-headstock-back-1024x683.jpg)
 
 The back of the 1964 “Batwing” headstock. This six-on-a-side tuner arrangement was a big change from the earlier symmetrical designs and is a key identifier for mid-60s Kalamazoo production.
 
