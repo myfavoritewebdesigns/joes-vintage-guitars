@@ -167,7 +167,17 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
 >
   <!-- Preload the CSS-background hero (late-discovered otherwise); Prompt 8
        mobile LCP fix. -->
-  <link slot="head" rel="preload" as="image" href="/images/hero-background.jpg" fetchpriority="high" />
+  <link slot="head" rel="preload" as="image" href="/images/hero-background.jpg" media="(min-width: 769px)" fetchpriority="high" />
+  <link slot="head" rel="preload" as="image" href="/images/hero-background-mobile.webp" media="(max-width: 768px)" fetchpriority="high" />
+  <!-- Mobile serves an 828w WebP of the same hero photo (52KB vs 275KB);
+       must be is:global with !important to beat PageHero's inline style. -->
+  <style is:global>
+    @media (max-width: 768px) {
+      body .jvg-page-hero {
+        background-image: url("/images/hero-background-mobile.webp") !important;
+      }
+    }
+  </style>
   <PageHero
     title="Free Vintage Guitar Appraisal: What Is Your Vintage Guitar Worth?"
     subhead="Expert Valuations For Fender, Gibson, Martin &amp; Every Major American Brand"
