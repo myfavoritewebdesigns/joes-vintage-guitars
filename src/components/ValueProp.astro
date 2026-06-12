@@ -66,7 +66,10 @@ const bullets = [
           Contact Me At
           <a href={hrefs.tel} class="font-bold text-brand-rust-dark hover:text-brand-rust-bright">{contact.phone}</a>
           Or Email
-          <a href={hrefs.mailto} class="block font-bold text-brand-rust-dark underline decoration-2 underline-offset-2 hover:text-brand-rust-bright break-all">{contact.email}</a>
+          {/* py-[1px] -my-[1px] grows the tap target past WCAG 2.5.8's 24px
+              minimum with zero layout shift (the block display forfeits the
+              inline-link exemption the live site's inline anchor enjoys). */}
+          <a href={hrefs.mailto} class="block py-[1px] -my-[1px] font-bold text-brand-rust-dark underline decoration-2 underline-offset-2 hover:text-brand-rust-bright break-all">{contact.email}</a>
         </li>
       </ul>
     </div>

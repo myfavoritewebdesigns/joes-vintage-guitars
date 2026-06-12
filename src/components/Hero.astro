@@ -18,6 +18,15 @@ const tocItems = [
   class="tp-bnr relative isolate w-full overflow-hidden bg-cover bg-center"
   style="background-image: url('/images/hero-background.jpg');"
 >
+  <!-- Mobile serves an 828w WebP of the same photo (52KB vs 275KB); the
+       matching media-scoped preload lives in index.astro. -->
+  <style>
+    @media (max-width: 768px) {
+      .tp-bnr {
+        background-image: url("/images/hero-background-mobile.webp") !important;
+      }
+    }
+  </style>
   <!-- Dark vignette overlay (top + bottom) per live CSS -->
   <div class="pointer-events-none absolute inset-0 z-10"
     style="background:
