@@ -10,9 +10,59 @@
  * which form fired (e.g., "consultation", "contact", "free-appraisal").
  */
 
-import { contact } from "../config/site";
+import { contact, hcaptchaSiteKey } from "../config/site";
 
 type FormState = "idle" | "submitting" | "success" | "error";
+
+/** Minimal shape of the global hCaptcha API we rely on (explicit-render mode). */
+interface HCaptcha {
+  render(el: HTMLElement, opts: { sitekey: string }): string;
+  getResponse(widgetId?: string): string;
+  reset(widgetId?: string): void;
+}
+declare global {
+  interface Window {
+    hcaptcha?: HCaptcha;
+    onJvgHcaptchaLoad?: () => void;
+  }
+}
+
+const HCAPTCHA_SRC =
+  "https://js.hcaptcha.com/1/api.js?render=explicit&onload=onJvgHcaptchaLoad";
+
+/** Render one widget per form, just above its submit button. Idempotent. */
+function renderCaptchas() {
+  const hcaptcha = window.hcaptcha;
+  if (!hcaptcha) return;
+  document
+    .querySelectorAll<HTMLFormElement>("form[data-jvg-contact-form]")
+    .forEach((form) => {
+      if (form.dataset.hcaptchaId) return; // already rendered
+      const mount = document.createElement("div");
+      mount.className = "h-captcha-mount";
+      mount.style.margin = "16px 0";
+      const submit = form.querySelector('button[type="submit"]');
+      if (submit) submit.before(mount);
+      else form.appendChild(mount);
+      try {
+        form.dataset.hcaptchaId = hcaptcha.render(mount, { sitekey: hcaptchaSiteKey });
+      } catch (err) {
+        console.error("[contact-form] hcaptcha render failed", err);
+      }
+    });
+}
+
+/** Inject the hCaptcha script once; render widgets when it finishes loading. */
+function loadHcaptcha() {
+  if (document.querySelector('script[data-jvg-hcaptcha]')) return;
+  window.onJvgHcaptchaLoad = renderCaptchas;
+  const s = document.createElement("script");
+  s.src = HCAPTCHA_SRC;
+  s.async = true;
+  s.defer = true;
+  s.dataset.jvgHcaptcha = "1";
+  document.head.appendChild(s);
+}
 
 function setState(form: HTMLFormElement, state: FormState, message?: string) {
   form.dataset.state = state;
@@ -43,6 +93,14 @@ async function handleSubmit(e: SubmitEvent) {
     return;
   }
 
+  // Require a solved hCaptcha before we bother the server.
+  const widgetId = form.dataset.hcaptchaId;
+  const token = window.hcaptcha?.getResponse(widgetId) ?? "";
+  if (form.dataset.hcaptchaId && !token) {
+    setState(form, "error", "Please complete the “I'm human” check above.");
+    return;
+  }
+
   const data = new FormData(form);
   const payload: Record<string, unknown> = {
     formId: form.dataset.formId ?? "unknown",
@@ -63,6 +121,7 @@ async function handleSubmit(e: SubmitEvent) {
     if (res.ok) {
       setState(form, "success", "Thanks, we'll be in touch shortly.");
       form.reset();
+      window.hcaptcha?.reset(widgetId);
       return;
     }
     // 404 (no handler yet) — visual stub mode.
@@ -70,12 +129,15 @@ async function handleSubmit(e: SubmitEvent) {
       console.info("[contact-form] /api/contact not wired yet. Payload:", payload);
       setState(form, "success", "Thanks, we got your details.");
       form.reset();
+      window.hcaptcha?.reset(widgetId);
       return;
     }
     setState(form, "error", `Something went wrong. Please call ${contact.phone}.`);
+    window.hcaptcha?.reset(widgetId);
   } catch (err) {
     console.error("[contact-form]", err);
     setState(form, "error", `Network error. Please call ${contact.phone}.`);
+    window.hcaptcha?.reset(widgetId);
   }
 }
 
@@ -86,6 +148,12 @@ function init() {
     form.dataset.bound = "1";
     form.addEventListener("submit", handleSubmit);
   });
+  // Only pull in the hCaptcha script on pages that actually have a form.
+  if (forms.length > 0) {
+    loadHcaptcha();
+    // If the script was already loaded by a prior init pass, render now.
+    if (window.hcaptcha) renderCaptchas();
+  }
 }
 
 if (document.readyState === "loading") {

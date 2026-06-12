@@ -39,6 +39,13 @@ export const pinIconPath   = "M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-
 /** "Best way to reply" radio options shared by ValueProp + ContactSection forms. */
 export const replyMethods = ["Call", "Text", "Email"] as const;
 
+/**
+ * hCaptcha PUBLIC site key — safe to ship in client HTML. The matching SECRET
+ * key lives only in the server env (HCAPTCHA_SECRET) and is used by
+ * functions/api/contact.ts to verify each token against hcaptcha siteverify.
+ */
+export const hcaptchaSiteKey = "3600d774-af6e-4466-9654-d94ceeacc44c";
+
 /** Convenience derived values to avoid `tel:` / `mailto:` / `sms:` string concat at call sites. */
 export const hrefs = {
   tel: `tel:${contact.tel}`,

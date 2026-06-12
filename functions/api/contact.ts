@@ -20,6 +20,26 @@ interface Env {
   MAILGUN_TO: string;
   MAILGUN_FROM?: string;
   MAILGUN_REGION?: string;
+  /** hCaptcha secret key. If unset, captcha verification is skipped (dev). */
+  HCAPTCHA_SECRET?: string;
+}
+
+/** Verify an hCaptcha token against hcaptcha siteverify. */
+async function verifyHcaptcha(secret: string, token: string, ip: string | null) {
+  const body = new URLSearchParams({ secret, response: token });
+  if (ip) body.set("remoteip", ip);
+  try {
+    const res = await fetch("https://api.hcaptcha.com/siteverify", {
+      method: "POST",
+      headers: { "content-type": "application/x-www-form-urlencoded" },
+      body,
+    });
+    const data = (await res.json()) as { success?: boolean; "error-codes"?: string[] };
+    return { ok: data.success === true, errors: data["error-codes"] ?? [] };
+  } catch (err) {
+    console.error("[api/contact] hcaptcha verify failed", err);
+    return { ok: false, errors: ["network-error"] };
+  }
 }
 
 const json = (body: unknown, status = 200) =>
@@ -28,7 +48,14 @@ const json = (body: unknown, status = 200) =>
     headers: { "content-type": "application/json" },
   });
 
-export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
+/** Subset of Cloudflare's Pages-Function context we use (typed locally so we
+ *  don't pull @cloudflare/workers-types globals into the browser-side build). */
+interface PagesContext {
+  request: Request;
+  env: Env;
+}
+
+export const onRequestPost = async ({ request, env }: PagesContext): Promise<Response> => {
   // Fail loudly in logs if the project isn't configured, but don't leak details.
   if (!env.MAILGUN_API_KEY || !env.MAILGUN_DOMAIN || !env.MAILGUN_TO) {
     console.error("[api/contact] Missing Mailgun env vars");
@@ -47,6 +74,23 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     return json({ ok: true });
   }
 
+  // hCaptcha verification. Enforced whenever HCAPTCHA_SECRET is set; skipped
+  // (with a warning) in dev so the pipe can be tested without a secret.
+  if (env.HCAPTCHA_SECRET) {
+    const token = String(payload["h-captcha-response"] ?? "");
+    if (!token) {
+      return json({ ok: false, error: "Captcha is required." }, 400);
+    }
+    const ip = request.headers.get("CF-Connecting-IP");
+    const verdict = await verifyHcaptcha(env.HCAPTCHA_SECRET, token, ip);
+    if (!verdict.ok) {
+      console.warn("[api/contact] hcaptcha rejected:", verdict.errors.join(", "));
+      return json({ ok: false, error: "Captcha verification failed." }, 400);
+    }
+  } else {
+    console.warn("[api/contact] HCAPTCHA_SECRET not set — skipping captcha verification");
+  }
+
   const formId = String(payload.formId ?? "unknown");
   const name = String(payload.name ?? payload["your-name"] ?? "").trim();
   const email = String(payload.email ?? payload["your-email"] ?? "").trim();
@@ -57,7 +101,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   }
 
   // Build a readable plaintext body from every submitted field.
-  const skip = new Set(["_gotcha", "formId", "submittedAt"]);
+  const skip = new Set(["_gotcha", "formId", "submittedAt", "h-captcha-response", "g-recaptcha-response"]);
   const lines = Object.entries(payload)
     .filter(([k, v]) => !skip.has(k) && v != null && String(v).trim() !== "")
     .map(([k, v]) => `${k}: ${String(v)}`);
