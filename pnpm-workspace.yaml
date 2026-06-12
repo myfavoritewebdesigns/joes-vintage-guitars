@@ -1,0 +1,11 @@
+allowBuilds:
+  esbuild: true
+  odiff-bin: false
+  sharp: true
+
+ignoredBuiltDependencies:
+  - odiff-bin
+
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
