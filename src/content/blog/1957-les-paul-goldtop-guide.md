@@ -29,7 +29,7 @@ his 1957 Standard sits at the big transition point in Gibson history. While it k
 
 If 1956 was the year Gibson sorted out the hardware, 1957 was the year they got the sound right. This is the point where the P-90 was set aside in favor of Seth Lover’s “Patent Applied For” (PAF) humbucking pickups. Because the 1957 Goldtop brings such a big jump in market value, knowing the small “tells” of a genuine ’57 is the difference between a sound investment and a costly mistake.
 
-If you need assistance in dating yout Gibson, check out our [serial number guide](/post/how-to-read-gibson-serial-numbers/). If you’d like to [sell a Gibson](/sell-my-gibson-guitar/), please contact us for a competitive offer!
+If you need assistance in dating yout Gibson, check out our [serial number guide](/how-to-read-gibson-serial-numbers/). If you’d like to [sell a Gibson](/sell-my-gibson-guitar/), please contact us for a competitive offer!
 
 <h2 id="humbucker-shift">The “Year One” Humbucker Shift: PAFs &amp; M-69 Rings</h2>
 

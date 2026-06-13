@@ -36,7 +36,7 @@ Here are some tips to help you determine the value of your old Martin acoustic g
 
 The model of your instrument will have a significant impact on its worth. If you’re not sure which model you have, the model number is the best way to find out, usually found just above the serial number. Martin guitars have a seven-digit serial number on the sticker inside the soundhole. 
 
-You can use this number to search for the model and year of production on the **[Martin website](https://www.martinguitar.com/customer-service-2/support-serial-number-lookup.html)**. Once you know the model, you can start to estimate your guitar’s value. Generally speaking, older Martin acoustic guitars have a higher value than newer ones. If you're unsure about your guitar's age, it's a good idea to first check out our guide on **[How To Read Martin Serial Numbers](/post/martin-serial-and-model-numbers/)**.
+You can use this number to search for the model and year of production on the **[Martin website](https://www.martinguitar.com/customer-service-2/support-serial-number-lookup.html)**. Once you know the model, you can start to estimate your guitar’s value. Generally speaking, older Martin acoustic guitars have a higher value than newer ones. If you're unsure about your guitar's age, it's a good idea to first check out our guide on **[How To Read Martin Serial Numbers](/martin-serial-and-model-numbers/)**.
 
 If you own a D-28, D-18, or D-45 model, their values can differ greatly depending on several factors. For a detailed breakdown on these iconic dreadnoughts, check out our **[Martin D-28, D-18, D-45 Dreadnought Value Guide](/martin-d-28-d-18-d-45-dreadnought-value-guide/)**.
 

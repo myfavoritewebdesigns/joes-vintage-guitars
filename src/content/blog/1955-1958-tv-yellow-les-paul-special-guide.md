@@ -214,7 +214,7 @@ Trust the technical expertise of Joe’s Vintage Guitars in Mesa, AZ.
 
 ## Dating Your “Golden Era” Les Paul Special
 
-To accurately date a 1955 to 1958 Les Paul Special, professional appraisers look for a convergence of three specific codes: the serial number, the potentiometer codes, and the Factory Order Number (FON). If you need helpo dating your Gibson, check out our [Gibson serial number lookup.](/post/how-to-read-gibson-serial-numbers/)
+To accurately date a 1955 to 1958 Les Paul Special, professional appraisers look for a convergence of three specific codes: the serial number, the potentiometer codes, and the Factory Order Number (FON). If you need helpo dating your Gibson, check out our [Gibson serial number lookup.](/how-to-read-gibson-serial-numbers/)
 
 ### 1\. Dating by Serial Number
 

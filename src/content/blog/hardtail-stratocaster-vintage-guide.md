@@ -57,7 +57,7 @@ In a traditional Strat, the string vibration has to travel through the saddle, i
 
 ## The Years of Production
 
-The transition from the 1950s into the 1960s saw the Stratocaster evolve significantly, and the hardtail models followed suit. While they remained a staple of the Fender catalog, they were produced in much smaller numbers than their tremolo-equipped counterparts. If you need help dating your stratocaster, please visit our [**Fender serial number guide.**](/post/fender-guitars-serial-number-guide/)
+The transition from the 1950s into the 1960s saw the Stratocaster evolve significantly, and the hardtail models followed suit. While they remained a staple of the Fender catalog, they were produced in much smaller numbers than their tremolo-equipped counterparts. If you need help dating your stratocaster, please visit our [**Fender serial number guide.**](/fender-guitars-serial-number-guide/)
 
 ### 1954 to 1964: The Pre-CBS Era
 

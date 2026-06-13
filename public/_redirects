@@ -43,3 +43,15 @@
 /2024/*  /blog/  301
 /2025/*  /blog/  301
 /2026/*  /blog/  301
+
+# Cutover: old WordPress sitemap URLs -> new Astro sitemap (GSC + external refs)
+/sitemap_index.xml     /sitemap-index.xml   301
+/post-sitemap.xml      /sitemap-index.xml   301
+/page-sitemap.xml      /sitemap-index.xml   301
+/category-sitemap.xml  /sitemap-index.xml   301
+/local-sitemap.xml     /sitemap-index.xml   301
+
+# Cutover: serial + value guides live at top level, not under /post/
+/post/how-to-read-gibson-serial-numbers/   /how-to-read-gibson-serial-numbers/   301
+/post/fender-guitars-serial-number-guide/  /fender-guitars-serial-number-guide/  301
+/post/martin-serial-and-model-numbers/     /martin-serial-and-model-numbers/     301

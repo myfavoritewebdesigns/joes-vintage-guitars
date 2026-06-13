@@ -63,6 +63,6 @@ We know the vintage market well, from the “sustain mods” of the 80s back to 
     
 -   **Thinking of moving on?** We are always looking for high-quality pieces. If you want a fair, expert offer, visit our [we buy vintage guitars](/) page.
     
--   **Need to date your instrument?** Before you swap any parts, make sure you know exactly what you have with our [Fender serial number guide](/post/fender-guitars-serial-number-guide/) or our [Gibson dating resource](/post/how-to-read-gibson-serial-numbers/).
+-   **Need to date your instrument?** Before you swap any parts, make sure you know exactly what you have with our [Fender serial number guide](/fender-guitars-serial-number-guide/) or our [Gibson dating resource](/how-to-read-gibson-serial-numbers/).
     
 -   **Browse the Vault:** See how original bone and factory brass look on the real deal by checking out our current [vintage guitar inventory](https://reverb.com/shop/joe-s-gear-emporium-4).

@@ -135,7 +135,7 @@ Before 1966, Gretsch used sequential serial numbers. You can usually find the nu
     
 -   **43000 to 48000:** 1961
     
-    For more information on dating a Gretsch guitar, check out our [Gretsch Serial Number Page.](/post/how-to-identify-the-manufacture-date-of-a-gretsch-guitar/) You can also check out the Serial Number Guide on the [Gretsch website.](https://www.gretschguitars.com/support/product-dating) 
+    For more information on dating a Gretsch guitar, check out our [Gretsch Serial Number Page.](/gretsch-serial-number-lookup/) You can also check out the Serial Number Guide on the [Gretsch website.](https://www.gretschguitars.com/support/product-dating) 
     
     ![Original 1960 Gretsch 6120 orange interior label showing model number and serial number. Expert vintage Gretsch authentication and nationwide buying at Joe's Vintage Guitars.](../../assets/blog/gretsch-6120-history-value/1960-gretsch-6120-orange-label-serial-number-1024x683.jpg)
     

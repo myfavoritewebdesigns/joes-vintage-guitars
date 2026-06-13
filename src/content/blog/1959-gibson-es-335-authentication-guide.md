@@ -14,7 +14,7 @@ wpId: 19215
 ---
 ![A 1959 Gibson ES-335TD in original sunburst finish resting in a vintage brown Lifton case with pink interior at Joe's Vintage Guitars.](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-1024x683.jpg)
 
-Among vintage electric guitars, few have the following of the **1959 Gibson ES-335TD**. Collectors and players often call it the “Holy Grail,” and 1959 was the year Ted McCarty’s semi-hollow design really came together. It was the year Gibson corrected the structural teething or “fragility” issues of the inaugural 1958 models while keeping the massive, hand-shaped neck profiles and the “Long-Magnet” PAF humbuckers that define the Golden Era sound. From the **“Mickey Mouse” ear** cutaways to the transition of the **4-ply maple top**, a ’59 was built for the harmonic “bloom” and sustain that modern CNC machines still struggle to match. Whether you are a “Tone Chaser” or an investor, knowing the details, from the **spring-loaded Stone cases** to the **tortoiseshell side dots**, is what tells you what you are looking at. If you need help dating your Gibson, check out our [**Gibson Serial Number Tool.**](/post/how-to-read-gibson-serial-numbers/) If you are curious about the value of your Gibson, reach out for a [**free appraisal!**](/vintage-guitar-appraisal/)
+Among vintage electric guitars, few have the following of the **1959 Gibson ES-335TD**. Collectors and players often call it the “Holy Grail,” and 1959 was the year Ted McCarty’s semi-hollow design really came together. It was the year Gibson corrected the structural teething or “fragility” issues of the inaugural 1958 models while keeping the massive, hand-shaped neck profiles and the “Long-Magnet” PAF humbuckers that define the Golden Era sound. From the **“Mickey Mouse” ear** cutaways to the transition of the **4-ply maple top**, a ’59 was built for the harmonic “bloom” and sustain that modern CNC machines still struggle to match. Whether you are a “Tone Chaser” or an investor, knowing the details, from the **spring-loaded Stone cases** to the **tortoiseshell side dots**, is what tells you what you are looking at. If you need help dating your Gibson, check out our [**Gibson Serial Number Tool.**](/how-to-read-gibson-serial-numbers/) If you are curious about the value of your Gibson, reach out for a [**free appraisal!**](/vintage-guitar-appraisal/)
 
 ## Jump to a Section
 
@@ -211,7 +211,7 @@ While this specific pickup isn’t currently mounted in our featured ES-335, it 
 
 <h2 id="markings-decoding">Markings: Decoding the “S” Code and the Orange Label</h2>
 
-To the uninitiated, the numbers inside a 1959 ES-335 look like random bookkeeping. To a seasoned collector, they are the DNA of the instrument. In 1959, Gibson utilized a dual-identification system: the **Serial Number** (for the finished product) and the **Factory Order Number (FON)** (for the production batch). If you need more help with Gibson serial numbers, check out our **[Gibson Serial Number Decoder.](/post/how-to-read-gibson-serial-numbers/)**
+To the uninitiated, the numbers inside a 1959 ES-335 look like random bookkeeping. To a seasoned collector, they are the DNA of the instrument. In 1959, Gibson utilized a dual-identification system: the **Serial Number** (for the finished product) and the **Factory Order Number (FON)** (for the production batch). If you need more help with Gibson serial numbers, check out our **[Gibson Serial Number Decoder.](/how-to-read-gibson-serial-numbers/)**
 
 ### The Orange Oval Label: The “Birth Certificate”
 

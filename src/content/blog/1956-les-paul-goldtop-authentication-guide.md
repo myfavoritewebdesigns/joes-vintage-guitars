@@ -16,7 +16,7 @@ wpId: 18898
 
 A stunning example of the 1956 Les Paul Goldtop leaning against its companion Gibson Les Paul amplifier from the same era. This year is the only one where you’ll find the P-90 “Soapbar” pickups paired with the first full-production run of the ABR-1 Tune-o-matic bridge, a combination that many purists consider the best of Gibson’s “Golden Era” engineering.
 
-The 1956 Goldtop is a favorite among players because it’s the only full production year to combine the grit of P-90 pickups with the precision of the ABR-1 bridge. If you’re evaluating one of these guitars, every tiny detail matters. Below is the technical breakdown. If you need help dating your Gibson, check out our [Gibson serial number lookup](/post/how-to-read-gibson-serial-numbers/). If you’d like to [sell your Gibson](/sell-my-gibson-guitar/), feel free to reach out for a competitive and hassle-free offer!
+The 1956 Goldtop is a favorite among players because it’s the only full production year to combine the grit of P-90 pickups with the precision of the ABR-1 bridge. If you’re evaluating one of these guitars, every tiny detail matters. Below is the technical breakdown. If you need help dating your Gibson, check out our [Gibson serial number lookup](/how-to-read-gibson-serial-numbers/). If you’d like to [sell your Gibson](/sell-my-gibson-guitar/), feel free to reach out for a competitive and hassle-free offer!
 
 ## The Headstock & Neck
 

@@ -136,7 +136,7 @@ Modern Gibsons (2001 to present) are the most consistently built instruments in 
 
 <h2 id="jvg-serial">How to Date Your Gibson Using the Serial Number</h2>
 
-Before you can know what your guitar is worth, you need to know when it was made. Gibson has used several different serial number systems across its history. For a complete breakdown with a free decoder tool, see our dedicated [Gibson serial number guide](/post/how-to-read-gibson-serial-numbers/). Below is an overview of the major systems.
+Before you can know what your guitar is worth, you need to know when it was made. Gibson has used several different serial number systems across its history. For a complete breakdown with a free decoder tool, see our dedicated [Gibson serial number guide](/how-to-read-gibson-serial-numbers/). Below is an overview of the major systems.
 
 ### Pre-1953: Ink-Stamped Numbers
 
@@ -183,7 +183,7 @@ Y   D D D   Y   R R R
 -   **500 to 999:** Nashville, Tennessee
 -   After 1989, all Gibson electrics and acoustics were produced in Nashville or Memphis. Bozeman (acoustic) production runs begin at 001 each day.
 
-For any serial number system prior to 1977, or to cross-check your results, use our [free Gibson serial number decoder](/post/how-to-read-gibson-serial-numbers/).
+For any serial number system prior to 1977, or to cross-check your results, use our [free Gibson serial number decoder](/how-to-read-gibson-serial-numbers/).
 
 <h2 id="jvg-factors">Other Factors That Affect Vintage Gibson Value</h2>
 
@@ -213,7 +213,7 @@ Both are simplified versions of the Les Paul platform introduced in the 1950s. T
 
 How do I find out what year my Gibson was made?
 
-The most reliable starting point is the serial number on the back of the headstock. For guitars made after 1977, the 8-digit number encodes both the year and day of manufacture. For older guitars, the system is more complex and may require cross-referencing pot codes and model-specific production records. Use our [free Gibson serial number decoder](/post/how-to-read-gibson-serial-numbers/) or contact us directly and we'll help you date it at no charge.
+The most reliable starting point is the serial number on the back of the headstock. For guitars made after 1977, the 8-digit number encodes both the year and day of manufacture. For older guitars, the system is more complex and may require cross-referencing pot codes and model-specific production records. Use our [free Gibson serial number decoder](/how-to-read-gibson-serial-numbers/) or contact us directly and we'll help you date it at no charge.
 
 Does a Gibson serial number prove authenticity?
 
