@@ -16,11 +16,18 @@ const tocItems = [
 
 <section
   class="tp-bnr relative isolate w-full overflow-hidden bg-cover bg-center"
-  style="background-image: url('/images/hero-background.jpg');"
 >
-  <!-- Mobile serves an 828w WebP of the same photo (52KB vs 275KB); the
-       matching media-scoped preload lives in index.astro. -->
+  <!-- Desktop serves a WebP (q64, ~170KB) of the hero with a JPEG fallback;
+       mobile serves an 828w WebP (52KB). The dark vignette overlay hides any
+       compression in the top/bottom 40%. Matching preloads live in index.astro. -->
   <style>
+    .tp-bnr {
+      background-image: url("/images/hero-background.jpg");
+      background-image: image-set(
+        url("/images/hero-background.webp") type("image/webp"),
+        url("/images/hero-background.jpg") type("image/jpeg")
+      );
+    }
     @media (max-width: 768px) {
       .tp-bnr {
         background-image: url("/images/hero-background-mobile.webp") !important;
