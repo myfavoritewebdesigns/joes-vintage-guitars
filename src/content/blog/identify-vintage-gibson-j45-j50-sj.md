@@ -147,7 +147,7 @@ Since there are no labels, you must look for the **Factory Order Number (FON)**.
     
 -   **1961-1970s:** Gibson switched to a serial number stamped into the back of the headstock.
 
-For the specific codes and to see where your serial number falls, visit our **[Gibson Guitar Dating Guide](/post/how-to-read-gibson-serial-numbers/)**.
+For the specific codes and to see where your serial number falls, visit our **[Gibson Guitar Dating Guide](/how-to-read-gibson-serial-numbers/)**.
 
 ### Why We Love These Guitars
 

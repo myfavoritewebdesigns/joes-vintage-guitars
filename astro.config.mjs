@@ -17,6 +17,9 @@ const SITEMAP_EXCLUDE = [
 // https://astro.build/config
 export default defineConfig({
   site: SITE_URL,
+  // Prefetch internal links on hover for near-instant navigation across the
+  // high-impression serial-guide and value-guide cluster. Built in, no import.
+  prefetch: { prefetchAll: true, defaultStrategy: 'hover' },
   // Responsive image pipeline (SEO v2 Prompt 5): every <Image> and markdown
   // image gets breakpoint srcsets, WebP, and intrinsic dimensions. Pre-existing
   // <Image> uses with hand-tuned widths/sizes are pinned with layout="none" so

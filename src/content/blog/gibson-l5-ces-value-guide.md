@@ -16,7 +16,7 @@ Looking for the value of your Gibson L-5 CES? Need to know its history, features
 
 If the archtop guitar is the top of the guitar world, the Gibson L-5 sits at the head of it. Since its introduction as an acoustic instrument in the 1920s, and its move to the electric L-5 CES in the 1950s, this guitar has been a top choice for jazz, blues, and pop guitarists who want great tone, craftsmanship, and prestige.
 
-In this guide, we will trace the evolution of the L-5 CES, going through everything from its pickups to its changing cutaways, headstock inlays, and finishes. We’ll also cover famous players, how to date and authenticate your L-5, and key factors that influence its value. If you need help dating your Gibson, check out our [**Gibson serial number guide.**](/post/how-to-read-gibson-serial-numbers/) 
+In this guide, we will trace the evolution of the L-5 CES, going through everything from its pickups to its changing cutaways, headstock inlays, and finishes. We’ll also cover famous players, how to date and authenticate your L-5, and key factors that influence its value. If you need help dating your Gibson, check out our [**Gibson serial number guide.**](/how-to-read-gibson-serial-numbers/) 
 
 ## The Evolution: From L-5 to L-5 CES
 
@@ -181,7 +181,7 @@ Dating a Gibson is notoriously difficult because Gibson’s serial number system
 -   **1970-Present:** A slightly more standardized 8-digit system (YYDDDYPPP), where the first two digits signify the year. However, this is still complex and requires confirmation of other specs.
     
 
-The best way to date your L-5 is with our complete guide: [**How to Date a Gibson Guitar**](/post/how-to-read-gibson-serial-numbers/)
+The best way to date your L-5 is with our complete guide: [**How to Date a Gibson Guitar**](/how-to-read-gibson-serial-numbers/)
 
 ### 2\. How to Spot Fakes and Non-Original Parts
 

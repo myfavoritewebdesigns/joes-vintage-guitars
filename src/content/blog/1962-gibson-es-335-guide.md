@@ -82,7 +82,7 @@ To properly authenticate a **1962 Gibson ES-335**, you must verify the serial nu
 -   **Production Ranges:** Serial numbers for 1962 typically fall within the **42441 to 99999** range, though some overlapping occurs with 1963 production.
     
 
-For a full breakdown of production years and factory codes, please refer to our **[Comprehensive Gibson Serial Number Decoder & Dating Guide](/post/how-to-read-gibson-serial-numbers/)**.
+For a full breakdown of production years and factory codes, please refer to our **[Comprehensive Gibson Serial Number Decoder & Dating Guide](/how-to-read-gibson-serial-numbers/)**.
 
 ### The Case Transition: From Brown to Black
 

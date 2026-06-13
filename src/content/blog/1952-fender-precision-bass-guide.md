@@ -192,7 +192,7 @@ The **bridge cover** is a large elongated chrome-plated metal cover that snaps o
 
 The bridge on an early Fender Precision Bass is a pressed steel plate, chrome plated, with individual saddles for each string. The bridge plate carries the instrument's **serial number stamped directly into the chrome plate**, a critical authentication detail. On early Fender instruments, the serial number is found on the bridge plate, not the neck plate. In addition, the bridge plate carries the marking **"PATENT PENDING"**, stamped into the plate and consistent with the headstock decal language.
 
-For more detail on reading and interpreting Fender serial numbers, see our [complete Fender serial number guide](/post/fender-guitars-serial-number-guide/).
+For more detail on reading and interpreting Fender serial numbers, see our [complete Fender serial number guide](/fender-guitars-serial-number-guide/).
 
 The saddles on these early Precision Basses are individual **barrel-shaped pieces of pressed fiber**, not steel, not brass. The pressed fiber material has a distinctive matte, slightly grainy appearance and typically a tan to dark tan color after decades. Original fiber saddles should show **consistent, uniform aging** across all four. Replacement saddles of a different material, steel, brass, or synthetic, are immediately identifiable and indicate the bridge has been modified.
 
@@ -367,13 +367,13 @@ Not sure what your early Precision Bass is worth? Joe buys vintage Fender instru
 
 The early Precision Bass shares a lot with the [1952 Fender Telecaster](/post/1952-fender-telecaster-authentication-guide/). Both share the blonde nitrocellulose finish, maple neck with black dot markers, walnut headstock plug, domed knurled knobs, and the slotted/Phillips screw transition. Many of the authentication details in this guide apply equally to the contemporaneous Telecaster, and collectors who specialize in one instrument typically develop expertise in both.
 
-For collectors interested in other early Fender solid-body instruments, our [vintage Hardtail Stratocaster guide](/post/hardtail-stratocaster-vintage-guide/) covers authentication details for another landmark Fender instrument. And our [Fender serial number guide](/post/fender-guitars-serial-number-guide/) provides the foundation for dating any instrument in the Fender catalog.
+For collectors interested in other early Fender solid-body instruments, our [vintage Hardtail Stratocaster guide](/post/hardtail-stratocaster-vintage-guide/) covers authentication details for another landmark Fender instrument. And our [Fender serial number guide](/fender-guitars-serial-number-guide/) provides the foundation for dating any instrument in the Fender catalog.
 
 #### Related Guides from Joe's Vintage Guitars
 
 -   [1952 Fender Telecaster Authentication Guide](/post/1952-fender-telecaster-authentication-guide/)
 -   [Hardtail Stratocaster Vintage Guide](/post/hardtail-stratocaster-vintage-guide/)
--   [Fender Guitars Serial Number Guide](/post/fender-guitars-serial-number-guide/)
+-   [Fender Guitars Serial Number Guide](/fender-guitars-serial-number-guide/)
 -   [Sell My Fender Guitar, How It Works](/sell-my-fender-guitar/)
 -   [Free Vintage Guitar Appraisal Nationwide](/)
 

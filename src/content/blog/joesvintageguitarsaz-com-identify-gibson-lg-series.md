@@ -194,7 +194,7 @@ In 1961, Gibson moved to a more standardized, 6-digit serial number system usual
 -   **The Bridge:** While not a “number,” the bridge style often acts as a timestamp for the era.
     
 
-If you have found a number on your instrument and want to confirm its age, you can use our comprehensive [**Gibson Serial Number Lookup Guide**](/post/how-to-read-gibson-serial-numbers/) to narrow down the exact year of production.
+If you have found a number on your instrument and want to confirm its age, you can use our comprehensive [**Gibson Serial Number Lookup Guide**](/how-to-read-gibson-serial-numbers/) to narrow down the exact year of production.
 
 ## Common Questions About the Gibson LG Series
 
