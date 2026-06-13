@@ -53,6 +53,14 @@ const canonicalUrl = canonical
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  // One business, one node. The former separate LocalBusiness and MusicStore
+  // nodes are folded in here via additionalType so the same entity is not
+  // duplicated across three @ids. aggregateRating was removed on purpose: a
+  // self-placed rating on a LocalBusiness earns no star rich result (those come
+  // from the Google Business Profile) and a self-serving / cross-source number
+  // risks a "spammy structured markup" manual action. openingHoursSpecification
+  // (a 24/7 claim) was removed: this is a one-person, by-appointment business.
+  additionalType: ["LocalBusiness", "MusicStore"],
   "@id": `${SITE_URL}/`,
   url: `${SITE_URL}/`,
   sameAs: socialSameAs,
@@ -65,27 +73,13 @@ const orgSchema = {
     width: 1440,
     height: 1440,
   },
+  image: `${SITE_URL}/images/joes-vintage-guitars-logo.jpg`,
   name: SITE_NAME,
   legalName: LEGAL_NAME,
   description:
     "Joe's Vintage Guitars specializes in purchasing and collecting vintage guitars and other stringed instruments. With years of expertise, Joe Dampt offers top cash for renowned brands like Fender and Gibson.",
   numberOfEmployees: { "@type": "QuantitativeValue", value: 1 },
-  aggregateRating: {
-    "@type": "AggregateRating",
-    bestRating: "5",
-    worstRating: "1",
-    ratingCount: "405",
-    ratingValue: "5",
-  },
   priceRange: "$$$$",
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      opens: "00:00",
-      closes: "23:59",
-    },
-  ],
   telephone: contact.telDashed,
   address: {
     "@type": "PostalAddress",
@@ -108,6 +102,11 @@ const orgSchema = {
     latitude: contact.address.lat,
     longitude: contact.address.lng,
   },
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "United States" },
+    { "@type": "AdministrativeArea", name: "Canada" },
+  ],
+  founder: { "@id": `${SITE_URL}/about-me/#person` },
 };
 
 // WebSite schema (also global). The live site's SearchAction was removed on
@@ -124,74 +123,10 @@ const siteSchema = {
   inLanguage: "en-US",
 };
 
-// MusicStore + Organization (live combines these into one node) and a
-// separate LocalBusiness schema. Splitting matches the live audit's
-// per-type breakdown rather than collapsing into a multi-type array.
-const musicStoreOrgSchema = {
-  "@context": "https://schema.org",
-  "@type": ["MusicStore", "Organization"],
-  "@id": `${SITE_URL}/#musicstore`,
-  name: SITE_NAME,
-  legalName: LEGAL_NAME,
-  url: `${SITE_URL}/`,
-  telephone: contact.telDashed,
-  priceRange: "$$$$",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: contact.address.street,
-    addressLocality: contact.address.city,
-    addressRegion: contact.address.region,
-    postalCode: contact.address.postalCode,
-    addressCountry: contact.address.country,
-  },
-};
-
-const localBusinessSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": `${SITE_URL}/#localbusiness`,
-  name: SITE_NAME,
-  url: `${SITE_URL}/`,
-  telephone: contact.telDashed,
-  priceRange: "$$$$",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: contact.address.street,
-    addressLocality: contact.address.city,
-    addressRegion: contact.address.region,
-    postalCode: contact.address.postalCode,
-    addressCountry: contact.address.country,
-  },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: contact.address.lat,
-    longitude: contact.address.lng,
-  },
-  areaServed: [
-    { "@type": "AdministrativeArea", name: "United States" },
-    { "@type": "AdministrativeArea", name: "Canada" },
-  ],
-};
-
-// Place schema for the physical location (matches live)
-const placeSchema = {
-  "@context": "https://schema.org",
-  "@type": "Place",
-  "@id": `${SITE_URL}/#place`,
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: contact.address.lat,
-    longitude: contact.address.lng,
-  },
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: contact.address.street,
-    addressLocality: contact.address.city,
-    addressRegion: contact.address.region,
-    postalCode: contact.address.postalCode,
-    addressCountry: contact.address.country,
-  },
-};
+// MusicStore, LocalBusiness, and Place were previously separate nodes for the
+// same business. They are now folded into the single ProfessionalService node
+// above (additionalType: LocalBusiness, MusicStore) to stop fragmenting the
+// entity across multiple @ids.
 
 // Shared Person node for Joe (SEO v2 Prompt 6). Promoted from the Gibson
 // serial guide's page-level node and enriched with sameAs + ImageObject so
@@ -239,14 +174,14 @@ const serviceSchemas = [
     "@context": "https://schema.org",
     "@type": "Service",
     serviceType: "Vintage guitar appraisal",
-    provider: { "@id": `${SITE_URL}/#localbusiness` },
+    provider: { "@id": `${SITE_URL}/` },
     areaServed: { "@type": "AdministrativeArea", name: "United States" },
   },
   {
     "@context": "https://schema.org",
     "@type": "Service",
     serviceType: "Vintage guitar purchasing",
-    provider: { "@id": `${SITE_URL}/#localbusiness` },
+    provider: { "@id": `${SITE_URL}/` },
     areaServed: { "@type": "AdministrativeArea", name: "United States" },
   },
 ];
@@ -254,9 +189,6 @@ const serviceSchemas = [
 const allSchemas: Record<string, unknown>[] = [
   orgSchema,
   siteSchema,
-  musicStoreOrgSchema,
-  localBusinessSchema,
-  placeSchema,
   personSchema,
   ...serviceSchemas,
 ];
@@ -310,6 +242,7 @@ if (structuredData) {
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={ogImageAlt} />
 
     <!-- RSS alternates (real feed generated by src/pages/feed.xml.ts; /feed/ 301s here) -->
     <link rel="alternate" type="application/rss+xml" title="Joe's Vintage Guitars » Feed" href={`${SITE_URL}/feed.xml`} />

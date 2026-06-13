@@ -108,6 +108,9 @@ const {
     background-image:
       linear-gradient(180deg, rgba(35, 20, 10, 0.78) 0%, rgba(90, 62, 39, 0.78) 100%),
       url("/images/faq-bg.jpg");
+    background-image:
+      linear-gradient(180deg, rgba(35, 20, 10, 0.78) 0%, rgba(90, 62, 39, 0.78) 100%),
+      image-set(url("/images/faq-bg.webp") type("image/webp"), url("/images/faq-bg.jpg") type("image/jpeg"));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -143,6 +146,7 @@ const {
     padding: 5% 5% 8%;
     background-color: var(--color-brand-cream);
     background-image: url("/images/faq-wooder-bg.jpg");
+    background-image: image-set(url("/images/faq-wooder-bg.webp") type("image/webp"), url("/images/faq-wooder-bg.jpg") type("image/jpeg"));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
