@@ -11,8 +11,10 @@ export const contact = {
   email: "joesvintageguitars94@gmail.com",
   /** Google Maps share link for the storefront pin. */
   mapUrl: "https://g.page/joesvintageguitars?share",
-  /** Used by the Organization JSON-LD aggregateRating + place lookup. */
-  mapCid: "4063828681090923080",
+  /** Decimal CID of Joe's Google Business Profile. Matches the g.page mapUrl
+   *  above and every Google review deep-link on the site. Builds the
+   *  "see our Google reviews" link in hrefs.googleReviews. */
+  mapCid: "474893161839765348",
   address: {
     street: "47 N Fraser Dr E",
     city: "Mesa",

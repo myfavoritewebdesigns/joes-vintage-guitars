@@ -1,5 +1,6 @@
 ---
 import SectionHeader from "./primitives/SectionHeader.astro";
+import { hrefs } from "../config/site";
 const testimonials = [
   {
     name: "Jessica Hammond",
@@ -87,7 +88,7 @@ const callouts = [
 
     <div class="jvg-testim__cta-wrap">
       <a
-        href="https://maps.google.com/?cid=476056113381791268"
+        href={hrefs.googleReviews}
         target="_blank"
         rel="noopener noreferrer"
         class="jvg-testim__cta"
