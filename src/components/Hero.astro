@@ -120,6 +120,16 @@ const tocItems = [
     box-sizing: border-box;
     position: relative;
   }
+  /* When the On This Page menu is open, the absolutely positioned list drops
+     below the hero. The hero clips it (overflow-hidden) and the next section
+     (position:relative) paints over it. While open, let the hero overflow and
+     lift it above the following section. z-index stays under the header (z-30)
+     so the nav is never covered. Scoped to the open state, so the closed hero
+     is unchanged. */
+  .tp-bnr:has(.jvg-toc__details[open]) {
+    overflow: visible;
+    z-index: 20;
+  }
   @media (max-width: 640px) {
     .jvg-toc { margin-top: 40px; max-width: 320px; }
   }
