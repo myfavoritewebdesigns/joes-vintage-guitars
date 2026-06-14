@@ -216,7 +216,7 @@ const structuredData = [
        (matches live's .tp-bnr structure verified via DOM inspection) -->
   <!-- Preload the CSS-background hero (late-discovered otherwise); Prompt 8
        mobile LCP fix. -->
-  <link slot="head" rel="preload" as="image" href={HERO_BG} media="(min-width: 769px)" fetchpriority="high" />
+  <link slot="head" rel="preload" as="image" href="/images/sell-hero-background.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high" />
   <link slot="head" rel="preload" as="image" href="/images/sell-hero-background-mobile.webp" media="(max-width: 768px)" fetchpriority="high" />
   <!-- Mobile serves an 828w WebP of the same hero photo (52KB vs 275KB). -->
   <style>
@@ -226,7 +226,7 @@ const structuredData = [
       }
     }
   </style>
-  <section class="smf-hero" style={`background-image: url('${HERO_BG}')`}>
+  <section class="smf-hero" style={`background-image: url('${HERO_BG}'); background-image: image-set(url('/images/sell-hero-background.webp') type('image/webp'), url('${HERO_BG}') type('image/jpeg'));`}>
     <div class="smf-hero__inner">
       <h1>Sell Your Vintage Fender Guitar</h1>
       <h2 class="smf-hero__subtitle">Expert Buyer &amp; Collector Specializing in Rare &amp; Vintage Fender Guitars</h2>
