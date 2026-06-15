@@ -5,7 +5,10 @@ import Layout from "../layouts/Layout.astro";
 import { SITE_URL } from "../config/site";
 // Cohesive .jvg-rick design system + decoder/TOC machinery ported verbatim from live.
 import rsnCss from "../../reference/rsn-content.css?raw";
-// Page-specific JSON-LD (TechArticle + FAQPage + Thing) injected verbatim from live.
+// Page-specific JSON-LD (TechArticle). The FAQPage node that lived here was
+// removed: its 10 Q&A were never rendered visibly on the page, and markup-only
+// FAQ schema is ineligible for the rich result and a spam-flag risk. The
+// article url/@id slug was also corrected to /rickenbacker-serial-numbers/.
 import rsnPageJsonLd from "../../reference/rsn-jsonld-page.json?raw";
 
 const img = (file: string) => assetSrc("images/rickenbacker-serial/" + file);
@@ -30,7 +33,7 @@ const breadcrumbSchema = {
   publishedTime="2026-04-02T21:17:20+00:00"
   structuredData={[breadcrumbSchema]}
 >
-  <!-- Page-specific structured data (TechArticle + FAQPage), verbatim from live -->
+  <!-- Page-specific structured data (TechArticle), verbatim from live -->
   <script type="application/ld+json" slot="head" is:inline set:html={rsnPageJsonLd} />
 
   <!-- Title band: rust-dark hero the absolute site Header sits over, centered H1, wave separator -->

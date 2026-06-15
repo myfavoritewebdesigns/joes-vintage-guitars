@@ -6,7 +6,7 @@ import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
 import { contact, hrefs } from "../config/site";
 
-const structuredData = [
+const structuredData: Record<string, unknown>[] = [
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -68,6 +68,20 @@ const faqs = [
   { q: "Are 1970s Les Pauls worth anything?", a: "Yes. The most desirable are early-&rsquo;70s models with transitional specs (small or no volute, long neck tenon, pancake body), rare finishes like Silverburst, and all-original parts." },
   { q: "What should I do before selling?", a: "Don&rsquo;t clean or polish it; modern polish can damage an old finish and strip the patina collectors want. Gather any documentation and the original case, take clear photos in natural light, and get a free appraisal before you accept any offer." },
 ];
+
+// FAQPage schema mirrors the visible <FAQ> above. stripTags keeps the JSON-LD
+// answer text plain even when an answer carries inline HTML (e.g. a link).
+const stripTags = (s: string) => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: stripTags(f.a) },
+  })),
+};
+structuredData.push(faqSchema);
 ---
 
 <Layout

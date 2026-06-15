@@ -2,10 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import PageHero from "../components/primitives/PageHero.astro";
 import Button from "../components/primitives/Button.astro";
+import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
 import { contact, hrefs } from "../config/site";
 
-const structuredData = [
+const structuredData: Record<string, unknown>[] = [
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -50,6 +51,28 @@ const dating = [
   "Serial on the headstock: 1977 to present",
   "Neck plate starting with &lsquo;V&rsquo;: 1982 and later (American Vintage reissues)",
 ];
+
+const faqs = [
+  { q: "How much is a vintage Fender Stratocaster worth?", a: "It depends on the year, finish, and originality. An all-original 1954 to 1965 sunburst Stratocaster runs from about $15,000 to $275,000, and original custom-color finishes can be worth more than twice a sunburst from the same year." },
+  { q: "What year Stratocaster is the most valuable?", a: "The 1954 debut year sits at the top of the market, and pre-CBS examples made before early 1965 bring the most. Values step down year by year from 1954, and a rare original custom color can outrun any sunburst of the same year." },
+  { q: "How do I tell what year my Stratocaster is?", a: "Start with the serial number and where it sits on the guitar, then confirm with the neck date and pot codes. You can run your number through my <a href=\"/fender-guitars-serial-number-guide/\">Fender serial number guide</a>." },
+  { q: "Does a refinish or replaced parts hurt the value?", a: "Yes. A refinish drops a Stratocaster to roughly half of its all-original value, and replaced parts such as pickups, tuners, or the pickguard can each cost up to 50% depending on what was changed." },
+  { q: "What is a pre-CBS Stratocaster?", a: "Pre-CBS means a Stratocaster built before CBS bought Fender in early 1965. Collectors prize the pre-CBS years for their materials and build quality, and those guitars sit at the top of the value range." },
+];
+
+// FAQPage schema mirrors the visible <FAQ> above. stripTags keeps the JSON-LD
+// answer text plain even when an answer carries inline HTML (e.g. a link).
+const stripTags = (s: string) => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: stripTags(f.a) },
+  })),
+};
+structuredData.push(faqSchema);
 ---
 
 <Layout
@@ -166,6 +189,8 @@ const dating = [
       </div>
     </div>
   </section>
+
+  <FAQ faqs={faqs} mainTitle="FAQs:" subTitle="Vintage Stratocaster Values" sectionId="strat-value-faqs" />
 
   <ContactSection />
 </Layout>
