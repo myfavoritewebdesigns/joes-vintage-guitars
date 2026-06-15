@@ -11,18 +11,37 @@ const MAX_FILES = 10;
 const MAX_DIM = 1600; // longest edge after resize
 const JPEG_QUALITY = 0.8;
 const ALLOWED = ["image/jpeg", "image/png", "image/gif", "image/webp"];
+// iPhone HEIC/HEIF: admitted here and transcoded to JPEG in resize() when the browser
+// can decode it (Safari/iOS ship the codecs; desktop Chrome/Firefox do not, so those
+// fall through to a clear "couldn't convert" message instead of a silent drop or a
+// doomed server round-trip). Some browsers also report an empty MIME type for HEIC, so
+// we fall back to the file extension.
+const HEIC_TYPES = ["image/heic", "image/heif", "image/heic-sequence", "image/heif-sequence"];
+const IMG_EXT = /\.(jpe?g|png|gif|webp|heic|heif)$/i;
+const isHeic = (f: File) => HEIC_TYPES.includes(f.type) || /\.(heic|heif)$/i.test(f.name);
+const acceptable = (f: File) =>
+  ALLOWED.includes(f.type) || isHeic(f) || (f.type === "" && IMG_EXT.test(f.name));
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T | null;
 
-/** Downscale + recompress to JPEG so phone photos fit under the email cap.
- *  GIFs and anything we can't decode are sent through unchanged. */
-async function resize(file: File): Promise<{ blob: Blob; ext: string }> {
+/** A server-acceptable original type can be sent untouched when we can't re-encode it. */
+const sendableAsIs = (file: File): { blob: Blob; ext: string } | null =>
+  ALLOWED.includes(file.type)
+    ? { blob: file, ext: (file.type.split("/")[1] || "jpg").replace("jpeg", "jpg") }
+    : null;
+
+/** Downscale + recompress to JPEG so phone photos fit under the email cap. GIFs pass
+ *  through unchanged. HEIC/HEIF is transcoded to JPEG wherever the browser can decode it.
+ *  Returns null when the file can't be decoded AND isn't a type the server accepts
+ *  (e.g. an iPhone HEIC in a browser without HEIC codecs) so the caller can surface a
+ *  clear message rather than let it round-trip to a server rejection. */
+async function resize(file: File): Promise<{ blob: Blob; ext: string } | null> {
   if (file.type === "image/gif") return { blob: file, ext: "gif" };
   let bitmap: ImageBitmap;
   try {
     bitmap = await createImageBitmap(file);
   } catch {
-    return { blob: file, ext: (file.type.split("/")[1] || "jpg").replace("jpeg", "jpg") };
+    return sendableAsIs(file);
   }
   let { width, height } = bitmap;
   const longest = Math.max(width, height);
@@ -37,12 +56,12 @@ async function resize(file: File): Promise<{ blob: Blob; ext: string }> {
   const ctx = canvas.getContext("2d");
   if (!ctx) {
     bitmap.close();
-    return { blob: file, ext: "jpg" };
+    return sendableAsIs(file);
   }
   ctx.drawImage(bitmap, 0, 0, width, height);
   bitmap.close();
   const blob = await new Promise<Blob | null>((res) => canvas.toBlob(res, "image/jpeg", JPEG_QUALITY));
-  return blob ? { blob, ext: "jpg" } : { blob: file, ext: "jpg" };
+  return blob ? { blob, ext: "jpg" } : sendableAsIs(file);
 }
 
 const fmtSize = (b: number) => (b < 1024 * 1024 ? `${Math.round(b / 1024)} KB` : `${(b / 1024 / 1024).toFixed(1)} MB`);
@@ -98,9 +117,9 @@ function init() {
   }
 
   function add(fileList: FileList | File[]) {
-    const incoming = Array.from(fileList).filter((f) => ALLOWED.includes(f.type));
+    const incoming = Array.from(fileList).filter((f) => acceptable(f));
     if (incoming.length === 0 && (fileList as FileList).length > 0) {
-      setStatus("error", "Those files aren't supported. Use JPG, PNG, GIF, or WebP.");
+      setStatus("error", "Those files aren't supported. Use JPG, PNG, GIF, WebP, or iPhone HEIC.");
       return;
     }
     for (const f of incoming) {
@@ -168,10 +187,24 @@ function init() {
     fd.set("_gotcha", $<HTMLInputElement>("pu-gotcha")?.value ?? "");
 
     try {
+      const failed: string[] = [];
       for (const f of files) {
-        const { blob, ext } = await resize(f);
+        const r = await resize(f);
+        if (!r) {
+          failed.push(f.name);
+          continue;
+        }
         const base = f.name.replace(/\.[^.]+$/, "") || "photo";
-        fd.append("photos", blob, `${base}.${ext}`);
+        fd.append("photos", r.blob, `${base}.${r.ext}`);
+      }
+      if (failed.length) {
+        const which = failed.length === 1 ? "that photo" : "those photos";
+        setStatus(
+          "error",
+          `We couldn't convert ${which} in this browser: ${failed.join(", ")}. iPhone HEIC photos convert best in Safari, or set Settings > Camera > Formats > Most Compatible and add again, or send a JPG.`
+        );
+        submit.disabled = false;
+        return;
       }
       const res = await fetch("/api/upload-photos", { method: "POST", body: fd });
       const body = (await res.json().catch(() => ({}))) as { ok?: boolean; error?: string };
