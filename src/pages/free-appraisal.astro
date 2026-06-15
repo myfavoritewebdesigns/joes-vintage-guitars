@@ -4,8 +4,8 @@ import PageHero from "../components/primitives/PageHero.astro";
 import SectionHeader from "../components/primitives/SectionHeader.astro";
 import Button from "../components/primitives/Button.astro";
 import { contact, hrefs } from "../config/site";
-import { Image } from "astro:assets";
 import { resolveImage } from "../lib/images";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
 
 // FAQPage JSON-LD — sourced from live JSON-LD #4
 const faqSchema = {
@@ -235,7 +235,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
             <p class="fa-step__body" set:html={s.body} />
           </div>
           <div class="fa-step__photo">
-            <Image src={s.img} alt={s.alt} width={510} />
+            <LicensedImage src={s.img} alt={s.alt} width={510} />
           </div>
         </article>
       ))}
@@ -307,7 +307,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
       {caseStudies.map((c, i) => (
         <article class={`fa-case fa-case--${i % 2 === 0 ? "left" : "right"}`}>
           <div class="fa-case__photo">
-            <Image src={c.img} alt={c.title} width={460} />
+            <LicensedImage src={c.img} alt={c.title} width={460} />
           </div>
           <div class="fa-case__body">
             <span class="fa-case__sub">{c.subtitle}</span>
@@ -336,12 +336,12 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
       </header>
       <div class="fa-vs__grid">
         <article class="fa-vs__card">
-          <Image src={resolveImage("images/couple-with-guitar.jpg")!} alt="Couple receiving free guitar valuation" width={510} />
+          <LicensedImage src={resolveImage("images/couple-with-guitar.jpg")!} alt="Couple receiving free guitar valuation" width={510} />
           <h3>Free Expert Market Valuation</h3>
           <p>This is the &ldquo;straight-talk&rdquo; option. Use this if you&rsquo;re thinking about selling, found a family heirloom, or just want to know what your guitar is actually worth in today&rsquo;s economy. It&rsquo;s an informal assessment based on actual sales data, not the &lsquo;dreamer&rsquo; asking prices you see all over the internet.</p>
         </article>
         <article class="fa-vs__card">
-          <Image src={resolveImage("images/insurance-appraisal-document.jpg")!} alt="Official insurance appraisal document" width={510} />
+          <LicensedImage src={resolveImage("images/insurance-appraisal-document.jpg")!} alt="Official insurance appraisal document" width={510} />
           <h3>Official Insurance Appraisals</h3>
           <p>If you need a formal, legal document for an insurance rider, a tax donation, or an estate, you&rsquo;ll need this instead. I provide a detailed, signed report on Joe&rsquo;s Vintage Guitars letterhead that meets the strict requirements of major insurers. This covers the deep-dive research and the professional liability that comes with a certified valuation.</p>
         </article>
@@ -427,7 +427,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
         </ul>
       </div>
       <div class="fa-collection__photo">
-        <Image src={resolveImage("images/large-vintage-guitar-collection.jpg")!} alt="Large collection of vintage electric guitars" width={440} />
+        <LicensedImage src={resolveImage("images/large-vintage-guitar-collection.jpg")!} alt="Large collection of vintage electric guitars" width={440} />
       </div>
     </div>
   </section>

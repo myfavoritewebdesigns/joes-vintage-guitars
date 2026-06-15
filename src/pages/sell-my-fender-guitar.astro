@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Image } from "astro:assets";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { assetSrc, resolveImage } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import ContactSection from "../components/ContactSection.astro";
@@ -216,7 +216,7 @@ const structuredData = [
        (matches live's .tp-bnr structure verified via DOM inspection) -->
   <!-- Preload the CSS-background hero (late-discovered otherwise); Prompt 8
        mobile LCP fix. -->
-  <link slot="head" rel="preload" as="image" href={HERO_BG} media="(min-width: 769px)" fetchpriority="high" />
+  <link slot="head" rel="preload" as="image" href="/images/sell-hero-background.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high" />
   <link slot="head" rel="preload" as="image" href="/images/sell-hero-background-mobile.webp" media="(max-width: 768px)" fetchpriority="high" />
   <!-- Mobile serves an 828w WebP of the same hero photo (52KB vs 275KB). -->
   <style>
@@ -226,7 +226,7 @@ const structuredData = [
       }
     }
   </style>
-  <section class="smf-hero" style={`background-image: url('${HERO_BG}')`}>
+  <section class="smf-hero" style={`background-image: url('${HERO_BG}'); background-image: image-set(url('/images/sell-hero-background.webp') type('image/webp'), url('${HERO_BG}') type('image/jpeg'));`}>
     <div class="smf-hero__inner">
       <h1>Sell Your Vintage Fender Guitar</h1>
       <h2 class="smf-hero__subtitle">Expert Buyer &amp; Collector Specializing in Rare &amp; Vintage Fender Guitars</h2>
@@ -240,7 +240,7 @@ const structuredData = [
       <!-- LEFT: guitar photo + intro copy -->
       <div class="smf-intro__copy">
         <div class="smf-intro__photo">
-          <Image src={smfImgMeta("Guitar.png")} alt="Vintage Fender Stratocaster" loading="eager" width={240} />
+          <LicensedImage src={smfImgMeta("Guitar.png")} alt="Vintage Fender Stratocaster" loading="eager" width={240} />
         </div>
         <div class="smf-intro__text">
           <p>
@@ -401,7 +401,7 @@ const structuredData = [
         <p><strong>Ready to get started? <a href="/contact-me/" class="smf-link">Contact me</a> today and I&rsquo;ll walk you through it.</strong></p>
       </div>
       <div class="smf-split__photo">
-        <Image src={smfImgMeta("1964-fiesta-red-stratocaster-17-1-1024x683.jpg")} alt="Vintage 1964 fiesta red Fender Stratocaster" width={523} />
+        <LicensedImage src={smfImgMeta("1964-fiesta-red-stratocaster-17-1-1024x683.jpg")} alt="Vintage 1964 fiesta red Fender Stratocaster" width={523} />
       </div>
     </div>
   </section>
@@ -410,7 +410,7 @@ const structuredData = [
   <section id="how-much-worth" class="smf-split smf-split--alt">
     <div class="smf-inner smf-split__grid smf-split__grid--reverse">
       <div class="smf-split__photo">
-        <Image src={smfImgMeta("IMG_2424-1024x683.jpg")} alt="Vintage 1968 blonde Fender Telecaster electric guitar" width={523} />
+        <LicensedImage src={smfImgMeta("IMG_2424-1024x683.jpg")} alt="Vintage 1968 blonde Fender Telecaster electric guitar" width={523} />
       </div>
       <div class="smf-split__text">
         <h3 class="smf-h3">How Much Is My Fender<br /> Guitar Worth?</h3>
@@ -431,7 +431,7 @@ const structuredData = [
         </p>
       </div>
       <div class="smf-split__photo">
-        <Image src={smfImgMeta("IMG_0992-1024x683.jpg")} alt="Vintage 1964 Fender Telecaster solid body electric guitar" width={523} />
+        <LicensedImage src={smfImgMeta("IMG_0992-1024x683.jpg")} alt="Vintage 1964 Fender Telecaster solid body electric guitar" width={523} />
       </div>
     </div>
   </section>
@@ -535,7 +535,7 @@ const structuredData = [
         <p><strong>I met Mary in Wisconsin to look at her family&rsquo;s 1963 Fender Stratocaster, one of the better stops on a recent trip.</strong> A lot of buyers would have seen an ordinary vintage guitar. I could see that the Dakota Red finish and factory gold hardware were original, and those Pre-CBS &ldquo;Custom Color&rdquo; features are rare and bring a real premium. I dated the neck, confirmed the parts were original, and offered Mary a price well above the lowball estimates she&rsquo;d gotten elsewhere, which is what the guitar was actually worth. <strong>That&rsquo;s how I like to do business: honest, straightforward, and good for the guitar.</strong></p>
       </div>
       <div class="smf-case__photo">
-        <Image src={smfImgMeta("fender-stratocaster-dakota-red-768x1024.jpg")} alt="Mary's vintage 1963 Fender Stratocaster in rare Dakota Red Custom Color with factory gold hardware" width={438} />
+        <LicensedImage src={smfImgMeta("fender-stratocaster-dakota-red-768x1024.jpg")} alt="Mary's vintage 1963 Fender Stratocaster in rare Dakota Red Custom Color with factory gold hardware" width={438} />
       </div>
     </div>
   </section>
@@ -547,7 +547,7 @@ const structuredData = [
       <div class="smf-grid__cards">
         {models.map((m) => (
           <div class="smf-grid__card">
-            <Image src={m.img} alt={m.alt} width={253} />
+            <LicensedImage src={m.img} alt={m.alt} width={253} />
             <h4>{m.title}</h4>
             <p>{m.body}</p>
           </div>

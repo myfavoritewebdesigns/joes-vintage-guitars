@@ -21,6 +21,8 @@ import { assetSrc, resolveImage } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import { buildImageGraph } from "../lib/imageLicense";
 import { contact, hrefs } from "../config/site";
 import testimonialsRaw from "../../reference/testimonials.json";
 
@@ -211,7 +213,18 @@ const videoSchema = {
   publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
 };
 
-const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema];
+// The Goldtop split-section photo is a genuine content photo Joe shot but renders
+// as a raw <img> via gibImg (public-passthrough src), so it is licensed here with
+// its exact rendered src. The other three content photos self-license via
+// <LicensedImage>. Guitar22.png is decorative (aria-hidden) and is NOT licensed.
+const licensedImages = await buildImageGraph([
+  {
+    renderedSrc: gibImg("1956-gibson-les-paul-standard-goldtop-1024x683.jpg"),
+    alt: "Vintage 1956 Gibson Les Paul Standard Goldtop",
+  },
+]);
+
+const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema, ...licensedImages];
 ---
 
 <Layout
@@ -244,7 +257,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema]
        on the live site. Custom hero (not PageHero primitive) because
        PageHero assumes small-eyebrow + big-H1, the opposite hierarchy.
        ─────────────────────────────────────────────────────────────── */}
-  <section class="smg-hero" style={`background-image: url('${HERO_BG}');`}>
+  <section class="smg-hero" style={`background-image: url('${HERO_BG}'); background-image: image-set(url('/images/sell-hero-background.webp') type('image/webp'), url('${HERO_BG}') type('image/jpeg'));`}>
     <div class="smg-hero__vignette" aria-hidden="true"></div>
     <div class="smg-hero__inner">
       <h1 class="smg-hero__eyebrow"><span>Sell Your Vintage Gibson Guitar</span></h1>
@@ -428,7 +441,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema]
         </p>
       </div>
       <figure class="smg-split__img">
-        <Image
+        <LicensedImage
           src={gibImgMeta("1961-gibson-es-175-d-sunburst-1024x683.jpg")}
           alt="Vintage Gibson ES-175D 1961, Sunburst Electric Guitar"
           width={552}
@@ -444,7 +457,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema]
   <section id="how-much-is-my-gibson-guitar" class="smg-split">
     <div class="smg-split__inner smg-split__inner--text-right">
       <figure class="smg-split__img">
-        <Image
+        <LicensedImage
           src={gibImgMeta("1966-gibson-trini-lopez-cherry-finish-1024x683.jpg")}
           alt="Vintage 1967 Cherry Gibson Trini Lopez Model"
           width={552}
@@ -645,7 +658,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema]
           {/* live-parity fix (Batch 4 audit): was pointing at a URL that
               returns 404 — live actually serves the `-768x1024.jpg` size
               suffix variant. Truncated during initial HTML extraction. */}
-          <Image
+          <LicensedImage
             src={gibImgMeta("vintage-gibson-guitar-seller-768x1024.jpg")}
             alt="Happy client Lyman playing a 1948 Gibson L-50 acoustic guitar after selling it to Joe"
             width={320}

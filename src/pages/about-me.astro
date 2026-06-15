@@ -5,8 +5,9 @@ import SectionHeader from "../components/primitives/SectionHeader.astro";
 import Button from "../components/primitives/Button.astro";
 import ContactSection from "../components/ContactSection.astro";
 import { contact, hrefs } from "../config/site";
-import { Image } from "astro:assets";
 import { assetSrc, resolveImage } from "../lib/images";
+import { buildImageGraph } from "../lib/imageLicense";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
 
 // Page-specific JSON-LD: ProfilePage + page-level review schema.
 // Source: live site JSON-LD #3 + #4 (saved to /reference/about-me-jsonld-3-profile.json + about-me-jsonld-4-reviews.json)
@@ -133,6 +134,16 @@ const testimonials = [
     body: "Joe is a true professional! I was very impressed with his knowledge and insights as it relates to vintage guitars. Joe is an expert of the highest order!",
   },
 ];
+
+// Permissive-license ImageObject nodes for genuine content photos rendered as a
+// raw <img> via assetSrc (public passthrough → contentUrl is exact, no pipeline
+// transform). about-me-joe-1.jpg appears twice (stats portrait + author photo in
+// posts is separate); here it is the stats portrait. The two <Image>-optimized
+// photos are licensed inline via <LicensedImage> below (their <img> and node
+// share one getImage() result, so contentUrl == rendered src by construction).
+const licensedImages = await buildImageGraph([
+  { renderedSrc: assetSrc("images/about-me-joe-1.jpg"), alt: "Joe Dampt playing guitar" },
+]);
 ---
 
 <Layout
@@ -144,7 +155,7 @@ const testimonials = [
   ogType="article"
   publishedTime="2026-02-04T15:38:15+00:00"
   modifiedTime="2026-05-06T16:59:02+00:00"
-  structuredData={profileSchema}
+  structuredData={[profileSchema, ...licensedImages]}
 >
   <PageHero
     title="About Me"
@@ -253,7 +264,7 @@ const testimonials = [
     <div class="about-music__inner">
       <div class="about-music__top">
         <div class="about-music__photo">
-          <Image src={resolveImage("images/The-Man-Behind-the-Music.jpg")!} alt="Joe Dampt playing guitar" width={400} />
+          <LicensedImage src={resolveImage("images/The-Man-Behind-the-Music.jpg")!} alt="Joe Dampt playing guitar" width={400} />
         </div>
         <div class="about-music__copy">
           <h3 class="about-music__title">The Man Behind the Music</h3>
@@ -324,7 +335,7 @@ const testimonials = [
           </div>
         </div>
         <div class="about-media__photo">
-          <Image src={resolveImage("images/media-1.jpg")!} alt="Joe in the media and community" width={420} />
+          <LicensedImage src={resolveImage("images/media-1.jpg")!} alt="Joe in the media and community" width={420} />
         </div>
       </div>
     </div>

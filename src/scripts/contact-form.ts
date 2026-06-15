@@ -118,18 +118,26 @@ async function handleSubmit(e: SubmitEvent) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
     });
-    if (res.ok) {
-      setState(form, "success", "Thanks, we'll be in touch shortly.");
-      form.reset();
-      window.hcaptcha?.reset(widgetId);
-      return;
-    }
-    // 404 (no handler yet) — visual stub mode.
-    if (res.status === 404) {
-      console.info("[contact-form] /api/contact not wired yet. Payload:", payload);
-      setState(form, "success", "Thanks, we got your details.");
-      form.reset();
-      window.hcaptcha?.reset(widgetId);
+    // On success (or the 404 dev-stub), restore the original two-step flow:
+    // send the seller to /thank-you/, where they can optionally upload photos.
+    // Carry the basics as URL params so part two pre-fills them.
+    if (res.ok || res.status === 404) {
+      const params = new URLSearchParams();
+      const pick = (...keys: string[]) => {
+        for (const k of keys) {
+          const v = payload[k];
+          if (v != null && String(v).trim() !== "") return String(v).trim();
+        }
+        return "";
+      };
+      const name = pick("name", "your-name");
+      const email = pick("email", "your-email");
+      const phone = pick("phone", "your-phone");
+      if (name) params.set("name", name);
+      if (email) params.set("email", email);
+      if (phone) params.set("phone", phone);
+      const qs = params.toString();
+      window.location.assign(`/thank-you/${qs ? `?${qs}` : ""}`);
       return;
     }
     setState(form, "error", `Something went wrong. Please call ${contact.phone}.`);
