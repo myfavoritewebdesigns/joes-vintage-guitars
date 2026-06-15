@@ -36,13 +36,13 @@ import { contact, hrefs } from "../config/site";
             <textarea id="pu-message" name="message" rows="2" placeholder="Anything I should know about the guitar? (optional)"></textarea>
 
             <div id="pu-dropzone" class="pu-dropzone" role="button" tabindex="0" aria-label="Add photos by clicking or dragging files here">
-              <input id="pu-input" type="file" accept="image/jpeg,image/png,image/gif,image/webp" multiple hidden />
+              <input id="pu-input" type="file" accept="image/jpeg,image/png,image/gif,image/webp,image/heic,image/heif,.heic,.heif" multiple hidden />
               <svg class="pu-dropzone__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M4 16l4-4a2 2 0 012.8 0L15 16M14 14l1.5-1.5a2 2 0 012.8 0L21 15M4 6h16a1 1 0 011 1v10a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
                 <circle cx="9" cy="10" r="1.4" fill="currentColor"/>
               </svg>
               <p class="pu-dropzone__title">Drag photos here, or <span class="pu-dropzone__link">choose files</span></p>
-              <p class="pu-dropzone__hint">Up to 10 photos &middot; JPG, PNG, GIF, or WebP</p>
+              <p class="pu-dropzone__hint">Up to 10 photos &middot; JPG, PNG, GIF, WebP, or iPhone HEIC</p>
             </div>
 
             <ul id="pu-list" class="pu-list"></ul>
