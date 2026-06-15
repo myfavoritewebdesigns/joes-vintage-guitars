@@ -56,6 +56,30 @@ export const hrefs = {
   googleReviews: `https://maps.google.com/?cid=${contact.mapCid}`,
 } as const;
 
+/* ---------- Image licensing ---------- */
+/**
+ * Joe Dampt personally shot 100% of the photos on this site. They ship under a
+ * PERMISSIVE attribution license: reuse is welcome (including commercially) as
+ * long as the user credits Joe and links back to the site. The logo / brand
+ * marks are the ONLY exception (all rights reserved — see /photo-license/#brand
+ * -assets), and the logo's ImageObject asserts copyright only (no `license`, so
+ * no "Licensable" badge on the brand mark).
+ *
+ * Single source of truth for the schema.org ImageObject license fields that
+ * power Google's "Licensable images" feature (GSC "Image metadata" report).
+ * Never hard-code these at a call site — import `imageLicense`.
+ */
+export const imageLicense = {
+  /** Permissive terms page for Joe's photos. Used as BOTH `license` and `acquireLicensePage`. */
+  photoLicenseUrl: `${SITE_URL}/photo-license/`,
+  /** Restrictive brand-asset terms (anchor on the same page). For reference; the logo node uses copyright-only. */
+  brandAssetsUrl: `${SITE_URL}/photo-license/#brand-assets`,
+  /** Attribution string Google shows as the credit line. */
+  creditText: "Joe Dampt, Joe's Vintage Guitars",
+  creatorName: "Joe Dampt",
+  copyrightNotice: "© Joe Dampt, Joe's Vintage Guitars",
+} as const;
+
 /* ---------- Social profiles ---------- */
 /**
  * Discriminated on `useImg`. Most icons render as inline SVGs from a path;
@@ -249,6 +273,7 @@ export const footerLegal = {
     { label: "Sitemap", href: "/sitemap/" },
     { label: "Privacy Policy", href: "/privacy-policy/" },
     { label: "Refund and Returns", href: "/refund_returns/" },
+    { label: "Photo License", href: "/photo-license/" },
     { label: "Designed by MFWD", href: "https://myfavoritewebdesigns.com/", external: true },
   ] as NavLink[],
 };
