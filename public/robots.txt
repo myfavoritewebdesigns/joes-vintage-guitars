@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.joesvintageguitarsaz.com/sitemap-index.xml
+Sitemap: https://www.joesvintageguitarsaz.com/image-sitemap.xml

@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/gen-image-sitemap.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "audit:live-diff": "node scripts/audit-live-diff.mjs",

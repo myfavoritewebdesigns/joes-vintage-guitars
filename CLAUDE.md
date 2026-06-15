@@ -630,6 +630,59 @@ When we hit launch prep, run through this list before pointing the production do
 - **Sitemap generation:** add `@astrojs/sitemap` integration once more pages exist
 - **Higher-quality `contact-form-bg.jpg`:** still soft (9KB source). User opted to drop it from the contact section. If they want it back later, source a better version.
 
+## Image licensing — every new content photo gets a license
+
+Joe Dampt personally shot 100% of the content photos on this site. Each one ships
+as a schema.org `ImageObject` so it qualifies for Google's "Licensable images"
+feature (the GSC "Image metadata" report).
+
+**Single source of truth: the `imageLicense` constant in `src/config/site.ts`**
+(`photoLicenseUrl`, `brandAssetsUrl`, `creditText`, `creatorName`,
+`copyrightNotice`). Never hand-type these at a call site — import `imageLicense`.
+The permissive terms live at `/photo-license/`, linked from the footer legal row.
+
+**Two license tiers:**
+- **Content photos = PERMISSIVE** (reuse welcome with credit + link back):
+  `license` = `acquireLicensePage` = `imageLicense.photoLicenseUrl`, plus
+  `creditText`, `creator` (Joe), `copyrightNotice`.
+- **Logo / brand marks = COPYRIGHT-ONLY**: `copyrightNotice` + `creditText` only,
+  **NO `license`/`acquireLicensePage`** — so the brand mark never earns a
+  "Licensable" badge. The logo node lives in `Layout.astro`'s `orgSchema.logo`.
+
+**Use the helpers, not hand-authored nodes:**
+- `<LicensedImage>` (`src/components/primitives/LicensedImage.astro`) — wraps an
+  optimized image AND emits its matching `ImageObject` inline. **Use this for any
+  new optimized (`<Image>`-style) content photo.** It renders the `<img>` manually
+  from one `getImage()` result so `contentUrl` == the rendered `src` by
+  construction.
+- `buildImageGraph(images)` (`src/lib/imageLicense.ts`) — async; returns an
+  `ImageObject[]` to spread into a page's `structuredData` prop. **Use this for
+  raw `<img>` content photos** served from `public/` via `assetSrc()`: pass
+  `{ renderedSrc: assetSrc(...), alt }`. For optimized images it can take
+  `{ image, width, alt }`, but prefer `<LicensedImage>` for those.
+- The blog (`src/pages/post/[slug].astro`) spreads the permissive fields straight
+  into the existing `BlogPosting.image` ImageObject (creator reuses the shared
+  `/about-me/#person` `@id`).
+
+**contentUrl MUST equal the rendered `src` (silent-fail otherwise).** Google
+ignores an `ImageObject` whose `contentUrl` doesn't match a real `<img>` on the
+page. CRITICAL gotcha: under this project's `image.layout: 'constrained'` config,
+the `<Image>` component's primary `src` is a transform that `getImage()` does NOT
+reproduce — so you cannot render `<Image>` and re-derive the URL separately. That
+is exactly why `<LicensedImage>` renders the `<img>` itself from `getImage()`.
+For raw public-path images there is no transform, so `assetSrc()` is exact.
+
+**NEVER license:** images Joe didn't shoot (manufacturer/third-party photos), the
+Reverb mark, decorative or `aria-hidden` images, UI/SVG icons, favicons, or
+CSS `background-image` art. (Example: sell-gibson's `Guitar22.png` is `aria-hidden`
+decorative — it is NOT licensed; sell-fender's `Guitar.png` has real alt text and
+IS licensed.)
+
+**Gate before a page is "done":** Google Rich Results Test "Image metadata" shows
+**0 errors**. Locally, `node scripts/verify-image-license.mjs [slug ...]` checks
+that every licensed `ImageObject.contentUrl` matches a rendered `<img src>` on the
+built page (run `npm run build` first); it must report 0 mismatches.
+
 ## Things to be careful of
 
 - **Hero image contrast.** The site Header is `position: absolute` with white text. Any `bgImage` you pass to `<PageHero>` MUST be dark across the top ~120px. The standard `/images/hero-background.jpg` (dim interior shop) is safe. Bright featured photos (bridge plate, glossy guitars, anything with highlights or reflections in the upper portion) fail this check even with the default vignette. Use those as `ogImage` only.

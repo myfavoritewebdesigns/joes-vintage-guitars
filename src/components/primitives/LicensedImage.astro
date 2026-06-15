@@ -1,0 +1,93 @@
+---
+/**
+ * LicensedImage — renders an optimized content photo AND emits the matching
+ * permissive-license schema.org ImageObject for the SAME rendered file, inline.
+ *
+ * WHY contentUrl is guaranteed correct
+ * ------------------------------------
+ * Astro's <Image> component, under the project's global `layout: 'constrained'`
+ * config, computes its primary `src` with an internal transform that getImage()
+ * does NOT reproduce (verified: <Image> primary src != getImage(...).src). So we
+ * cannot render <Image> and re-derive the URL separately — they drift silently.
+ *
+ * Instead this component calls getImage() ONCE and renders the <img> MANUALLY
+ * from that result (built.src + built.srcSet.attribute + built.attributes). The
+ * ImageObject.contentUrl is built.src made absolute. Because the <img> and the
+ * ImageObject come from the same `built`, contentUrl == the rendered src by
+ * construction — there is nothing to keep in sync. (<Image> itself does exactly
+ * this manual render internally; the only difference is the primary-variant hash,
+ * which is irrelevant as long as our own <img> uses the same value we license.)
+ *
+ * USE FOR: genuine content photographs Joe shot, added going forward.
+ * DO NOT USE FOR: the logo/brand marks (copyright-only, in Layout.astro),
+ * decorative/UI SVG icons, the Reverb mark, favicons, CSS background art, or any
+ * third-party/manufacturer image.
+ *
+ * Emits a standalone (loose) ImageObject node — correct for the Licensable-images
+ * feature, which Google reads from loose ImageObject nodes.
+ */
+import { getImage } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import { SITE_URL } from "../../config/site";
+import { permissiveLicenseFields } from "../../lib/imageLicense";
+
+interface Props {
+  /** Optimized image source (an import / ImageMetadata under src/assets). */
+  src: ImageMetadata;
+  /** Alt text (also mirrored into the ImageObject caption). */
+  alt: string;
+  /** Render/intrinsic width; also pins the getImage transform. */
+  width?: number;
+  height?: number;
+  loading?: "eager" | "lazy";
+  decoding?: "async" | "sync" | "auto";
+  class?: string;
+  /** Inline style passthrough (matches what some converted <Image> tags set). */
+  style?: string;
+}
+
+const { src, alt, width, height, loading, decoding, class: className, style } = Astro.props;
+
+// One getImage() call drives BOTH the <img> below and the contentUrl. They share
+// `built.src`, so they cannot diverge.
+const built = await getImage({
+  src,
+  layout: "constrained",
+  ...(width ? { width } : {}),
+});
+
+const contentUrl = `${SITE_URL}${built.src.startsWith("/") ? "" : "/"}${built.src}`;
+const renderedWidth = built.attributes?.width ?? width ?? src.width;
+const renderedHeight = built.attributes?.height ?? height ?? src.height;
+
+const imageObject = {
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  contentUrl,
+  width: renderedWidth,
+  height: renderedHeight,
+  caption: alt,
+  ...permissiveLicenseFields,
+};
+
+// Merge getImage's computed attributes (sizes, layout data-attrs, dimensions)
+// with our explicit overrides. getImage does not return `src`/`srcset`, so set
+// those from built.src / built.srcSet directly.
+const imgAttrs = {
+  ...built.attributes,
+  src: built.src,
+  ...(built.srcSet?.attribute ? { srcset: built.srcSet.attribute } : {}),
+  alt,
+  ...(loading ? { loading } : {}),
+  ...(decoding ? { decoding } : {}),
+  ...(className ? { class: className } : {}),
+  ...(style ? { style } : {}),
+};
+---
+
+<img {...imgAttrs} />
+<script
+  is:inline
+  type="application/ld+json"
+  set:html={JSON.stringify(imageObject)}
+/>

@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { SITE_URL, hrefs, contact } from "../config/site";
@@ -7,7 +7,7 @@ import { SITE_URL, hrefs, contact } from "../config/site";
 import grsnToolHtml from "../../reference/grsn-tool-html.html?raw";
 import grsnToolCss from "../../reference/grsn-tool.css?raw";
 
-// Every inline figure on this page is converted to <Image>; files verified in src/assets/images/gretsch-sn/.
+// Every inline figure on this page is converted to <LicensedImage>; files verified in src/assets/images/gretsch-sn/.
 const imgMeta = (file: string) => resolveImage("images/gretsch-sn/" + file)!;
 const PAGE_URL = `${SITE_URL}/gretsch-serial-number-lookup/`;
 const OG_IMG = `${SITE_URL}${assetSrc("images/gretsch-sn/1969-gretsch-serial-number-1024x680.jpg")}`;
@@ -269,8 +269,8 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
       </div>
       <div class="grsn-tip"><p><strong>Model-Year Note:</strong> Like automobile model years, Gretsch&rsquo;s production calendar didn&rsquo;t match the calendar year. A guitar bearing features of the &ldquo;1958 model&rdquo; may have been built in late 1957. Always think of the model year as the design spec, not necessarily the build date.</p></div>
       <div class="grsn-img2">
-        <figure class="grsn-fig"><Image src={imgMeta("1955-gretsch-country-club-natural-serial-number-scaled.jpg")} alt="5-digit red ink serial number stamp on the interior label of a 1955 Gretsch Country Club, a first-generation Brooklyn Label" width={445} /><figcaption>1955 Gretsch Country Club, 5-digit serial stamped in red ink on the original Brooklyn Label. Note the &ldquo;60 Broadway&rdquo; address.</figcaption></figure>
-        <figure class="grsn-fig"><Image src={imgMeta("1959-gretsch-6120-orange-11-scaled.jpg")} alt="5-digit black ink serial number stamped on the headstock of a 1959 Gretsch 6120 Chet Atkins hollowbody, sequential era example" width={445} /><figcaption>1959 Gretsch 6120, 5-digit sequential serial stamped in black ink on the headstock. Serials 30,000 to 34,000 correspond to 1959 production.</figcaption></figure>
+        <figure class="grsn-fig"><LicensedImage src={imgMeta("1955-gretsch-country-club-natural-serial-number-scaled.jpg")} alt="5-digit red ink serial number stamp on the interior label of a 1955 Gretsch Country Club, a first-generation Brooklyn Label" width={445} /><figcaption>1955 Gretsch Country Club, 5-digit serial stamped in red ink on the original Brooklyn Label. Note the &ldquo;60 Broadway&rdquo; address.</figcaption></figure>
+        <figure class="grsn-fig"><LicensedImage src={imgMeta("1959-gretsch-6120-orange-11-scaled.jpg")} alt="5-digit black ink serial number stamped on the headstock of a 1959 Gretsch 6120 Chet Atkins hollowbody, sequential era example" width={445} /><figcaption>1959 Gretsch 6120, 5-digit sequential serial stamped in black ink on the headstock. Serials 30,000 to 34,000 correspond to 1959 production.</figcaption></figure>
       </div>
 
       <!-- Era 2 -->
@@ -285,7 +285,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
       </ul>
       <p><strong>Example:</strong> <code>68409</code> → Month: 6 (June) · Year: 8 (1968) · Unit: 409th instrument.<br /><strong>Example:</strong> <code>109837</code> → Month: 10 (October) · Year: 9 (1969) · Unit: 837th instrument.</p>
       <div class="grsn-warn"><p><strong>⚠ The Decade Ambiguity Problem:</strong> October (10), November (11), and December (12) serials from 1969 can look identical to January 1970 (10), January 1971 (11), and January 1972 (12). A serial beginning with &ldquo;10&rdquo; could be October 1969 or January 1970. The only way to distinguish them is to examine the physical specs against known feature changes. See Advanced Dating.</p></div>
-      <figure class="grsn-fig grsn-fig--solo"><Image src={imgMeta("1969-gretsch-serial-number.jpg")} alt="Date-coded serial number stamped on the headstock of a 1968 Gretsch guitar showing month, year digit, and unit number" width={620} /><figcaption>A date-coded headstock serial on a 1968 Gretsch. First digit = month; second = last digit of the year; remaining digits = the unit number.</figcaption></figure>
+      <figure class="grsn-fig grsn-fig--solo"><LicensedImage src={imgMeta("1969-gretsch-serial-number.jpg")} alt="Date-coded serial number stamped on the headstock of a 1968 Gretsch guitar showing month, year digit, and unit number" width={620} /><figcaption>A date-coded headstock serial on a 1968 Gretsch. First digit = month; second = last digit of the year; remaining digits = the unit number.</figcaption></figure>
       <h3>The &ldquo;Sequential&rdquo; Sub-Series (F-Hole Instruments, ~1969 to 1981)</h3>
       <p>Around 1969, Gretsch began using a third version of the orange and grey label on f-hole hollow-body instruments, reading <em>&ldquo;That Great Gretsch Sound&rdquo;</em> at the bottom. The 5-digit numbers on these labels always begin with 1 or 2 and are purely sequential. They do not follow the date-code formula, and precise dates cannot be determined from them alone. Some Electrotone hollow-body guitars from this window have large-font versions of these sequential numbers impressed on the upper edge of the headstock, a known anomaly still not fully explained by researchers.</p>
 
@@ -294,7 +294,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
       <p class="grsn-eyebrow">Baldwin Era · Hyphenated</p>
       <p>In 1973, Gretsch introduced a new black and white rectangular label reading <em>&ldquo;Gretsch Guitars&rdquo;</em> along with the Baldwin model number and a date-coded serial. The coding method is identical to the 1966 to 1972 system, but a hyphen (or sometimes a space) now separates the month digits from the year digit, making identification much cleaner. These are the only Gretsch guitars that use this hyphenated format, so if you see a hyphen in your serial, you&rsquo;re squarely in the Baldwin era.</p>
       <p><strong>Example:</strong> <code>2-365</code> → Month: 2 (February) · Year: 3 (1973) · Unit: 65th instrument.<br /><strong>Example:</strong> <code>11-4892</code> → Month: 11 (November) · Year: 4 (1974) · Unit: 892nd instrument.</p>
-      <figure class="grsn-fig grsn-fig--solo"><Image src={imgMeta("1970s-gretsch-hyphenated-serial-number-scaled.jpg")} alt="Hyphenated Baldwin-era serial number stamped on the headstock of a 1976 Gretsch White Falcon, the hyphen identifies a 1972 to 1981 Booneville-era instrument" width={620} /><figcaption>Hyphenated serial on a 1976 Gretsch White Falcon. The hyphen after the leading digits is the definitive Baldwin-era identifier: no other Gretsch era uses this format.</figcaption></figure>
+      <figure class="grsn-fig grsn-fig--solo"><LicensedImage src={imgMeta("1970s-gretsch-hyphenated-serial-number-scaled.jpg")} alt="Hyphenated Baldwin-era serial number stamped on the headstock of a 1976 Gretsch White Falcon, the hyphen identifies a 1972 to 1981 Booneville-era instrument" width={620} /><figcaption>Hyphenated serial on a 1976 Gretsch White Falcon. The hyphen after the leading digits is the definitive Baldwin-era identifier: no other Gretsch era uses this format.</figcaption></figure>
 
       <!-- Era 4 -->
       <h2 id="gretsch-serial-numbers-1989-2002">Era 4: Japan &amp; Korea (1989 to 2002)</h2>
@@ -405,10 +405,10 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
         <li>Hotter output than a standard Filter'Tron; appeared on the Monkees guitar, Country Gentleman (1964, bridge), Viking, and Van Eps models. Super'Tron II used multiple thinner blades. Continued through ~1980 under Baldwin.</li>
       </ul>
       <div class="grsn-img2">
-        <figure class="grsn-fig"><Image src={imgMeta("gretsch-dynasonic-pickup-example.jpg")} alt="DeArmond DynaSonic pickup on a vintage Gretsch, two parallel rows of pole pieces and height-adjustment screws" width={445} /><figcaption>DeArmond DynaSonic: the two-row face and large adjustment screws are the key identifiers. Standard ~1949 to 1957.</figcaption></figure>
-        <figure class="grsn-fig"><Image src={imgMeta("gretsch-filtertron-pickup-example.jpg")} alt="Gretsch Filter'Tron humbucker, dual-coil cover with two rows of threaded pole pieces" width={445} /><figcaption>Filter'Tron humbucker: two rows of threaded poles, narrow profile. Check the cover for markings to pinpoint the phase.</figcaption></figure>
-        <figure class="grsn-fig"><Image src={imgMeta("gretsch-hi-lo-tron-example.jpg")} alt="Gretsch HiLo'Tron single-coil pickup, single coil inside a humbucker-sized housing as used on George Harrison's Tennessean" width={445} /><figcaption>HiLo'Tron: looks like a Filter'Tron from the outside; single-coil inside. George Harrison&rsquo;s Tennessean used these. 1960 onward.</figcaption></figure>
-        <figure class="grsn-fig"><Image src={imgMeta("gretsch-supertron-pickup-scaled.jpg")} alt="Gretsch Super'Tron pickup showing wide blade pole pieces that date the guitar to 1964 or later" width={445} /><figcaption>Super'Tron: the wide bar/blade pole pieces are unmistakable through the cover slots. Dates the guitar to 1964 at the earliest.</figcaption></figure>
+        <figure class="grsn-fig"><LicensedImage src={imgMeta("gretsch-dynasonic-pickup-example.jpg")} alt="DeArmond DynaSonic pickup on a vintage Gretsch, two parallel rows of pole pieces and height-adjustment screws" width={445} /><figcaption>DeArmond DynaSonic: the two-row face and large adjustment screws are the key identifiers. Standard ~1949 to 1957.</figcaption></figure>
+        <figure class="grsn-fig"><LicensedImage src={imgMeta("gretsch-filtertron-pickup-example.jpg")} alt="Gretsch Filter'Tron humbucker, dual-coil cover with two rows of threaded pole pieces" width={445} /><figcaption>Filter'Tron humbucker: two rows of threaded poles, narrow profile. Check the cover for markings to pinpoint the phase.</figcaption></figure>
+        <figure class="grsn-fig"><LicensedImage src={imgMeta("gretsch-hi-lo-tron-example.jpg")} alt="Gretsch HiLo'Tron single-coil pickup, single coil inside a humbucker-sized housing as used on George Harrison's Tennessean" width={445} /><figcaption>HiLo'Tron: looks like a Filter'Tron from the outside; single-coil inside. George Harrison&rsquo;s Tennessean used these. 1960 onward.</figcaption></figure>
+        <figure class="grsn-fig"><LicensedImage src={imgMeta("gretsch-supertron-pickup-scaled.jpg")} alt="Gretsch Super'Tron pickup showing wide blade pole pieces that date the guitar to 1964 or later" width={445} /><figcaption>Super'Tron: the wide bar/blade pole pieces are unmistakable through the cover slots. Dates the guitar to 1964 at the earliest.</figcaption></figure>
       </div>
 
       <h3 id="gretsch-fingerboard-inlay-dating">Fingerboard Inlay Changes</h3>
@@ -420,10 +420,10 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
         </table>
       </div>
       <div class="grsn-img2">
-        <figure class="grsn-fig"><Image src={imgMeta("gretsch-block-inlays.jpg")} alt="Gretsch block fingerboard inlays on a 1954 to 1956 era guitar, plain rectangular celluloid blocks" width={445} /><figcaption>Block inlays: plain rectangular celluloid. 1954 to 1956 on most models. Engraved Western motif on earliest 6120/6121.</figcaption></figure>
-        <figure class="grsn-fig"><Image src={imgMeta("gretsch-hump-inlays.jpg")} alt="Gretsch Humptop block fingerboard inlays, the rounded dome on the top edge identifies a 1957 model year instrument" width={445} /><figcaption>Humptop inlays: the rounded dome on each block top means one thing: 1957 model year. No other year used this style.</figcaption></figure>
-        <figure class="grsn-fig"><Image src={imgMeta("gretsch-thumbprint-inlays-scaled.jpg")} alt="Gretsch Neo-Classic thumbprint fingerboard inlays, oval inlays on the bass-side edge, standard 1958 through the mid-1960s" width={445} /><figcaption>Neo-Classic thumbprints: note the bass-side placement. Centered thumbprints on a claimed 1958 to 1964 guitar warrant scrutiny. Standard 1958 to mid-1960s.</figcaption></figure>
-        <figure class="grsn-fig"><Image src={imgMeta("gretsch-t-zone-dots-on-viking.jpg")} alt="T-Zone Tempered Treble fingerboard on a Gretsch Viking, pattern inlay switching to plain dots from the 15th fret onward" width={445} /><figcaption>T-Zone dots on a Gretsch Viking: pattern inlay up to fret 14, dots from fret 15. Instant confirmation of 1965 or later.</figcaption></figure>
+        <figure class="grsn-fig"><LicensedImage src={imgMeta("gretsch-block-inlays.jpg")} alt="Gretsch block fingerboard inlays on a 1954 to 1956 era guitar, plain rectangular celluloid blocks" width={445} /><figcaption>Block inlays: plain rectangular celluloid. 1954 to 1956 on most models. Engraved Western motif on earliest 6120/6121.</figcaption></figure>
+        <figure class="grsn-fig"><LicensedImage src={imgMeta("gretsch-hump-inlays.jpg")} alt="Gretsch Humptop block fingerboard inlays, the rounded dome on the top edge identifies a 1957 model year instrument" width={445} /><figcaption>Humptop inlays: the rounded dome on each block top means one thing: 1957 model year. No other year used this style.</figcaption></figure>
+        <figure class="grsn-fig"><LicensedImage src={imgMeta("gretsch-thumbprint-inlays-scaled.jpg")} alt="Gretsch Neo-Classic thumbprint fingerboard inlays, oval inlays on the bass-side edge, standard 1958 through the mid-1960s" width={445} /><figcaption>Neo-Classic thumbprints: note the bass-side placement. Centered thumbprints on a claimed 1958 to 1964 guitar warrant scrutiny. Standard 1958 to mid-1960s.</figcaption></figure>
+        <figure class="grsn-fig"><LicensedImage src={imgMeta("gretsch-t-zone-dots-on-viking.jpg")} alt="T-Zone Tempered Treble fingerboard on a Gretsch Viking, pattern inlay switching to plain dots from the 15th fret onward" width={445} /><figcaption>T-Zone dots on a Gretsch Viking: pattern inlay up to fret 14, dots from fret 15. Instant confirmation of 1965 or later.</figcaption></figure>
       </div>
 
       <h3 id="gretsch-body-cutaway-dating">Body Shape &amp; Cutaway Changes</h3>
