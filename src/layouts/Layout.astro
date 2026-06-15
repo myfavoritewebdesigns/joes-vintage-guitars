@@ -75,8 +75,12 @@ const orgSchema = {
     // COPYRIGHT-ONLY (brand mark): assert ownership + credit, but NO `license`
     // or `acquireLicensePage` — so the logo never earns a "Licensable" badge.
     // Joe's content PHOTOS get the permissive license; brand assets do not.
+    // `creator` reuses the shared Person @id (same node the blog's
+    // BlogPosting.image.creator references) — clears Rich Results' "Missing
+    // field creator (optional)" warning without making the logo Licensable.
     copyrightNotice: imageLicense.copyrightNotice,
     creditText: imageLicense.creditText,
+    creator: { "@id": `${SITE_URL}/about-me/#person` },
   },
   image: `${SITE_URL}/images/joes-vintage-guitars-logo.jpg`,
   name: SITE_NAME,
