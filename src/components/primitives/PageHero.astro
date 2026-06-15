@@ -65,11 +65,39 @@ const {
 
 const SubheadTag = subheadTag;
 const hasCta = Astro.slots.has("cta");
+
+// WebP upgrade for the CSS-background hero. Keyed by bgImage so a WebP (and
+// mobile variant) is only swapped in for images we've verified have those
+// siblings shipped in public/images. To upgrade a new hero image, ship a
+// matching .webp (and optional -mobile.webp) next to it and add an entry here.
+const HERO_VARIANTS: Record<string, { webp: string; mobile?: string }> = {
+  "/images/hero-background.jpg": {
+    webp: "/images/hero-background.webp",
+    mobile: "/images/hero-background-mobile.webp",
+  },
+};
+const heroVariant = bgImage ? HERO_VARIANTS[bgImage] : undefined;
+
+// background-image is applied in the scoped <style> below via these custom
+// properties so we can layer an image-set() WebP swap plus a mobile media
+// query (an inline style attribute can't hold a media query). Browsers that
+// don't support image-set() fall back to the plain url() declaration.
+const bgVars = bgImage
+  ? [
+      `--hero-bg:url('${bgImage}')`,
+      heroVariant?.webp
+        ? `--hero-bg-set:image-set(url('${heroVariant.webp}') type('image/webp'), url('${bgImage}') type('image/jpeg'))`
+        : "",
+      heroVariant?.mobile ? `--hero-bg-mobile:url('${heroVariant.mobile}')` : "",
+    ]
+      .filter(Boolean)
+      .join(";") + ";"
+  : "";
 ---
 
 <section
   class:list={["jvg-page-hero", `jvg-page-hero--${align}`, `jvg-page-hero--${size}`]}
-  style={`background-color:${bgColor};${bgImage ? `background-image:url('${bgImage}');` : ""}color:${textColor};`}
+  style={`background-color:${bgColor};${bgVars}color:${textColor};`}
 >
   {vignette && <div class="jvg-page-hero__vignette" aria-hidden="true"></div>}
 
@@ -103,6 +131,16 @@ const hasCta = Astro.slots.has("cta");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    /* Plain url() first as the universal fallback, then the image-set() WebP
+       swap (the var falls back to the plain url() when no WebP variant exists,
+       and to nothing for color-only heroes). */
+    background-image: var(--hero-bg);
+    background-image: var(--hero-bg-set, var(--hero-bg));
+  }
+  @media (max-width: 768px) {
+    .jvg-page-hero {
+      background-image: var(--hero-bg-mobile, var(--hero-bg-set, var(--hero-bg)));
+    }
   }
   .jvg-page-hero--md { padding: clamp(140px, 14vw, 200px) 16px clamp(40px, 6vw, 70px); }
   .jvg-page-hero--lg { padding: clamp(160px, 18vw, 280px) 16px clamp(40px, 6vw, 80px); }

@@ -257,7 +257,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
        on the live site. Custom hero (not PageHero primitive) because
        PageHero assumes small-eyebrow + big-H1, the opposite hierarchy.
        ─────────────────────────────────────────────────────────────── */}
-  <section class="smg-hero" style={`background-image: url('${HERO_BG}');`}>
+  <section class="smg-hero" style={`background-image: url('${HERO_BG}'); background-image: image-set(url('/images/sell-hero-background.webp') type('image/webp'), url('${HERO_BG}') type('image/jpeg'));`}>
     <div class="smg-hero__vignette" aria-hidden="true"></div>
     <div class="smg-hero__inner">
       <h1 class="smg-hero__eyebrow"><span>Sell Your Vintage Gibson Guitar</span></h1>
