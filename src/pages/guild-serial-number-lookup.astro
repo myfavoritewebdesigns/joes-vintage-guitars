@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { SITE_URL } from "../config/site";
@@ -124,7 +124,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
       </div>
 
       <figure class="gsl-photo gsl-photo--lead">
-        <Image
+        <LicensedImage
           src={imgMeta("guild-serial-number-guide-lookup.jpg")}
           alt="Detailed body shot of a vintage 1960s Guild Thunderbird S-200 electric guitar, showcasing its offset body shape, sunburst finish, and dual-pickup configuration."
           width={912}
@@ -291,7 +291,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
 
         <h2 class="gsl-h2">Professional Authentication Checklist</h2>
         <figure class="gsl-photo gsl-photo--portrait">
-          <Image
+          <LicensedImage
             src={imgMeta("1960s-guild-x-500-bigsby.jpg")}
             alt="Full-body shot of a high-end 1960s Guild X-500 archtop electric guitar in sunburst finish, featuring a factory-installed Bigsby vibrato tailpiece, gold hardware, and multi-ply binding."
             width={420}
@@ -339,7 +339,7 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema];
 
       <!-- Author bio -->
       <section class="gsl-author" aria-label="About the author">
-        <Image
+        <LicensedImage
           class="gsl-author__photo"
           src={imgMeta("joe-dampt.jpg")}
           alt="Joe Dampt, owner of Joe's Vintage Guitars"
