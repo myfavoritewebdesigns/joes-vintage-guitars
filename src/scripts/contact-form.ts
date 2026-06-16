@@ -151,17 +151,29 @@ async function handleSubmit(e: SubmitEvent) {
 
 function init() {
   const forms = document.querySelectorAll<HTMLFormElement>("form[data-jvg-contact-form]");
+  if (forms.length === 0) return;
+
+  // Defer the hCaptcha third-party script until the visitor first interacts with
+  // a form (focus or pointer/touch). Keeps ~api.js off the initial-load critical
+  // path; it still loads well before they can submit, since filling any field
+  // fires focusin first. loadHcaptcha() is idempotent, so double-arming is safe.
+  let armed = false;
+  const armHcaptcha = () => {
+    if (armed) return;
+    armed = true;
+    loadHcaptcha();
+  };
+
   forms.forEach((form) => {
     if (form.dataset.bound === "1") return;
     form.dataset.bound = "1";
     form.addEventListener("submit", handleSubmit);
+    form.addEventListener("focusin", armHcaptcha, { once: true });
+    form.addEventListener("pointerdown", armHcaptcha, { once: true });
   });
-  // Only pull in the hCaptcha script on pages that actually have a form.
-  if (forms.length > 0) {
-    loadHcaptcha();
-    // If the script was already loaded by a prior init pass, render now.
-    if (window.hcaptcha) renderCaptchas();
-  }
+
+  // If the script was already loaded by a prior init pass, render now.
+  if (window.hcaptcha) renderCaptchas();
 }
 
 if (document.readyState === "loading") {
