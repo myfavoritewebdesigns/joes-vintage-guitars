@@ -4,6 +4,7 @@ import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { assetSrc, resolveImage } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import ContactSection from "../components/ContactSection.astro";
+import InstagramEmbeds from "../components/InstagramEmbeds.astro";
 import FAQ from "../components/FAQ.astro";
 import { SITE_URL, contact, hrefs } from "../config/site";
 import testimonialsRaw from "../../reference/testimonials.json";
@@ -19,9 +20,8 @@ import testimonialsRaw from "../../reference/testimonials.json";
 const reviews: { name: string; link: string; body: string }[] = testimonialsRaw;
 
 // Instagram reels — exact post permalinks from live's sell-my-fender page.
-// Live loads www.instagram.com/embed.js which scans for any .instagram-media
-// blockquote and renders it as a styled iframe. We add the same script via
-// the Layout `head` slot (one-time load, same pattern as lite-youtube).
+// The deferred <InstagramEmbeds /> component lazy-loads IG's embed script on
+// scroll and renders each .instagram-media blockquote as a styled iframe.
 //
 // v10 (2026-05-26): added per user request. Earlier decision-log row
 // ("IG embeds NOT replicated") superseded — user explicitly wants them now.
@@ -207,10 +207,7 @@ const structuredData = [
   <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
   <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
 
-  <!-- Instagram embed script — scans every `.instagram-media` blockquote on
-       the page and renders it as a styled IG iframe. Same script live loads.
-       v10 (2026-05-26): added for the 3 IG reels in the testimonials section. -->
-  <script slot="head" is:inline async src="https://www.instagram.com/embed.js"></script>
+  <InstagramEmbeds />
 
   <!-- 1. Hero — B&W vintage-shop photo with dark vignette overlay
        (matches live's .tp-bnr structure verified via DOM inspection) -->

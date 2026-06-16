@@ -21,6 +21,7 @@ import { assetSrc, resolveImage } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
+import InstagramEmbeds from "../components/InstagramEmbeds.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { buildImageGraph } from "../lib/imageLicense";
 import { contact, hrefs } from "../config/site";
@@ -243,9 +244,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
   <link  slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
   <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
 
-  {/* Instagram embed script — scans every `.instagram-media` blockquote
-      and renders it as a styled IG iframe. Same script live uses. */}
-  <script slot="head" is:inline async src="https://www.instagram.com/embed.js"></script>
+  <InstagramEmbeds />
 
   {/* ───────────────────────────────────────────────────────────────
        1. HERO — photo bg + dark vignette + small H1 eyebrow + big H2.
