@@ -72,12 +72,15 @@ const orgSchema = {
     url: `${SITE_URL}/images/joes-vintage-guitars-logo.jpg`,
     width: 1440,
     height: 1440,
-    // COPYRIGHT-ONLY (brand mark): assert ownership + credit, but NO `license`
-    // or `acquireLicensePage` — so the logo never earns a "Licensable" badge.
-    // Joe's content PHOTOS get the permissive license; brand assets do not.
-    // `creator` reuses the shared Person @id (same node the blog's
-    // BlogPosting.image.creator references) — clears Rich Results' "Missing
-    // field creator (optional)" warning without making the logo Licensable.
+    // Brand mark — RESTRICTIVE terms. `license` + `acquireLicensePage` point at
+    // the brand-assets section of /photo-license/ (all rights reserved; "email
+    // me to inquire"), NOT the permissive photo license Joe's content photos
+    // use. This populates the optional Rich Results "license"/"acquireLicensePage"
+    // fields (clearing the "Image metadata" notices sitewide) WITHOUT telling
+    // anyone they may freely reuse the logo. `creator` reuses the shared Person
+    // @id (same node the blog's BlogPosting.image.creator references).
+    license: imageLicense.brandAssetsUrl,
+    acquireLicensePage: imageLicense.brandAssetsUrl,
     copyrightNotice: imageLicense.copyrightNotice,
     creditText: imageLicense.creditText,
     creator: { "@id": `${SITE_URL}/about-me/#person` },

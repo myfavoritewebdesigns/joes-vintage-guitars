@@ -229,6 +229,7 @@ Living record of intentional design choices on this project. **Check this before
 | 2026-06-12 | Footer + MoreThanGuitar (homepage), site-wide | **Contrast fixes that deviate from the retired live design (post-launch a11y).** `.jvgft__copyright a` (footer copyright links, every page) moved from `--color-brand-rust-bright` #be4b25 (2.52:1 on tan, fails WCAG AA) to `--color-brand-rust-dark` #682412 (5.76:1), hover to `--color-brand-brown`. `.mtg-col__h4` ("More Than A Guitar" subheads) moved from rust-bright #be4b25 (3.78:1 on cream, fails AA) to `--color-brand-rust` #a03a1e (5.11:1). Verified with axe: 0 contrast violations after. | The old WordPress site had these low-contrast values, previously logged as "matches-live, intentional." Now that the Astro site IS the live production site, real WCAG AA compliance outranks parity with the retired design. Josh-approved 2026-06-12 from the homepage audit. **Do NOT revert to rust-bright to "match live."** |
 | 2026-06-12 | Layout.astro global JSON-LD | **Consolidated the business schema + removed aggregateRating (post-launch SEO, Gemini 2.5 Pro + GPT-5.2 consult).** The separate `MusicStore`+`Organization` (`#musicstore`), `LocalBusiness` (`#localbusiness`), and `Place` (`#place`) nodes were folded into the single `ProfessionalService` node via `additionalType: ["LocalBusiness","MusicStore"]` (added `areaServed`, `founder` to the Person `@id`, `image`); both `Service.provider` refs repointed to the primary `@id`. Removed the self-placed `aggregateRating` (5 / 405) and the 24/7 `openingHoursSpecification`. JSON-LD blocks went 9 to 6, all valid. | **Supersedes** the 2026-05 "Added MusicStore+Organization, LocalBusiness, Place... per-type breakdown" row. A self-placed rating on a LocalBusiness earns no star rich result (those come from the Google Business Profile) and a self-serving or cross-platform-blended number risks a spammy-structured-markup manual action; 405 also contradicted the visible "2,100+" claim (reworded from "Five-Star Reviews" to "Positive Reviews" on the homepage). 24/7 hours are false for a by-appointment business. **Do NOT re-split into per-type nodes or re-add aggregateRating without first-party on-page Review markup.** |
 | 2026-06-15 | `contact-form.ts` — hCaptcha load timing | **Defer hCaptcha until first form interaction.** `init()` no longer calls `loadHcaptcha()` on `DOMContentLoaded`; each form arms it via `focusin` + `pointerdown` (`{ once: true }`). | Josh's call, applied across all MFWD Astro projects (also phil-reese). Keeps the hCaptcha `api.js` off the initial-load critical path (CWV win). Safe: filling any field fires `focusin` first, so the widget loads well before submit; `loadHcaptcha()` is idempotent. **Do NOT revert to eager load-on-DOMready.** |
+| 2026-06-16 | Layout.astro global logo JSON-LD | **Added `license` + `acquireLicensePage` to the brand-logo ImageObject, pointing at the RESTRICTIVE `imageLicense.brandAssetsUrl` (`/photo-license/#brand-assets`, all rights reserved).** Supersedes the prior "logo = COPYRIGHT-ONLY, NO license/acquireLicensePage, so the brand mark never earns a Licensable badge" decision. The logo carries `creditText` + `copyrightNotice`, so Google's Rich Results "Image metadata" check detects it as an image-metadata item and emits two optional notices: `Missing field "license"` and `Missing field "acquireLicensePage"` — on **every page** (the logo is in the shared Layout). Pointing both fields at the all-rights-reserved brand-assets terms (NOT the permissive `photoLicenseUrl`) clears the notices sitewide without telling anyone they may reuse the logo. | Josh's call 2026-06-16: "even if it's optional we should have it." The notices were valid/non-critical but Josh wanted a clean Rich Results card. Using the restrictive brand-assets URL keeps the logo all-rights-reserved while populating the optional fields. **Do NOT point the logo at `photoLicenseUrl`** (permissive) and **do NOT strip these back to copyright-only to "match the old policy."** |
 
 ### Template-level lessons learned (cross-project)
 
@@ -646,9 +647,16 @@ The permissive terms live at `/photo-license/`, linked from the footer legal row
 - **Content photos = PERMISSIVE** (reuse welcome with credit + link back):
   `license` = `acquireLicensePage` = `imageLicense.photoLicenseUrl`, plus
   `creditText`, `creator` (Joe), `copyrightNotice`.
-- **Logo / brand marks = COPYRIGHT-ONLY**: `copyrightNotice` + `creditText` only,
-  **NO `license`/`acquireLicensePage`** — so the brand mark never earns a
-  "Licensable" badge. The logo node lives in `Layout.astro`'s `orgSchema.logo`.
+- **Logo / brand marks = RESTRICTIVE LICENSE** (all rights reserved): `license` =
+  `acquireLicensePage` = `imageLicense.brandAssetsUrl` (`/photo-license/#brand-assets`,
+  the "all rights reserved, email to inquire" section), plus `copyrightNotice` +
+  `creditText`. **Never** point a brand mark at `photoLicenseUrl` (the permissive
+  photo terms) — that would tell people they may freely reuse the logo. Pointing
+  `license` at the restrictive brand-assets URL clears the optional Rich Results
+  "Image metadata" notices sitewide while keeping the terms all-rights-reserved.
+  The logo node lives in `Layout.astro`'s `orgSchema.logo`. (Updated 2026-06-16 —
+  was previously COPYRIGHT-ONLY with no `license`/`acquireLicensePage`; see Decision
+  log.)
 
 **Use the helpers, not hand-authored nodes:**
 - `<LicensedImage>` (`src/components/primitives/LicensedImage.astro`) — wraps an
