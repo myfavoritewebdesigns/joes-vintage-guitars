@@ -2,6 +2,7 @@
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
+import InstagramEmbeds from "../components/InstagramEmbeds.astro";
 import FAQ from "../components/FAQ.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { buildImageGraph } from "../lib/imageLicense";
@@ -19,8 +20,8 @@ import testimonialsRaw from "../../reference/martin-testimonials.json";
 const reviews: { name: string; link: string; body: string }[] = testimonialsRaw;
 
 // Instagram reels — exact post permalinks from live's sell-my-martin page.
-// Live loads www.instagram.com/embed.js which scans for any .instagram-media
-// blockquote and renders it as a styled iframe.
+// The deferred <InstagramEmbeds /> component lazy-loads IG's embed script on
+// scroll and renders each .instagram-media blockquote as a styled iframe.
 const igPosts = [
   {
     permalink: "https://www.instagram.com/reel/DV_coYfkz5t/",
@@ -198,9 +199,7 @@ const structuredData = [
   <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
   <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
 
-  <!-- Instagram embed script — scans every `.instagram-media` blockquote and
-       renders it as a styled IG iframe. Same script live loads. -->
-  <script slot="head" is:inline async src="https://www.instagram.com/embed.js"></script>
+  <InstagramEmbeds />
 
   <!-- 1. Hero — solid linear-gradient (NOT a photo like Fender).
        Verified via live DOM: `--awb-background-image:linear-gradient(180deg, #612211 0%,#682412 100%)` on .tp-bnr. -->

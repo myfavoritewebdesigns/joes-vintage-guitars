@@ -1,5 +1,6 @@
 ---
 import SectionHeader from "./primitives/SectionHeader.astro";
+import InstagramEmbeds from "./InstagramEmbeds.astro";
 import { hrefs } from "../config/site";
 const testimonials = [
   {
@@ -123,30 +124,7 @@ const callouts = [
   </div>
 </section>
 
-<script is:inline async src="https://www.instagram.com/embed.js"></script>
-<script is:inline>
-  // Set accessible titles on Instagram-injected iframes once they appear.
-  // The IG script swaps each <blockquote.instagram-media> for an <iframe> with no title.
-  (function () {
-    const titleFor = (perma) => {
-      if (!perma) return "Instagram reel";
-      const m = perma.match(/instagram\.com\/(reel|p|tv)\/([^/?]+)/);
-      return m ? `Joe's Vintage Guitars Instagram ${m[1]}: ${m[2]}` : "Instagram embed";
-    };
-    const setTitles = () => {
-      document.querySelectorAll(".jvg-testim__ig").forEach((wrap) => {
-        const iframe = wrap.querySelector("iframe");
-        const perma = wrap.querySelector(".instagram-media")?.getAttribute("data-instgrm-permalink") ?? iframe?.src;
-        if (iframe && !iframe.getAttribute("title")) iframe.setAttribute("title", titleFor(perma));
-      });
-    };
-    const obs = new MutationObserver(setTitles);
-    obs.observe(document.body, { childList: true, subtree: true });
-    setTimeout(setTitles, 100);
-    setTimeout(setTitles, 1500);
-    setTimeout(() => obs.disconnect(), 5000);
-  })();
-</script>
+<InstagramEmbeds />
 
 <style>
   /* jvg-testim v4 — masonry layout + full reviews + per-review Google links */

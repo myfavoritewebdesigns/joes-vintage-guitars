@@ -2,6 +2,7 @@
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
+import InstagramEmbeds from "../components/InstagramEmbeds.astro";
 import FAQ from "../components/FAQ.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { SITE_URL, contact } from "../config/site";
@@ -232,7 +233,8 @@ const structuredData = [
 >
   <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
   <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
-  <script slot="head" is:inline async src="https://www.instagram.com/embed.js"></script>
+
+  <InstagramEmbeds />
 
   <!-- 1. Hero — dark-brown bg, large title + subtitle, intro-box with 4 paragraphs and a jump button -->
   <section class="smc-hero">
