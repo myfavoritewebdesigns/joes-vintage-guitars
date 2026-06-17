@@ -13,30 +13,12 @@ import testimonialsRaw from "../../reference/testimonials.json";
 // Business Profile. Stars render uniformly (all 5-star), so no per-review
 // rating is stored.
 //
-// v11 (2026-06-17): brand-matching pass. The two Fender-naming reviews (scraped
-// verbatim from the live sell-my-fender page) now LEAD the section, then we
-// backfill with general 5-star selling reviews to keep the 6-card count from
-// v10. Review bodies are quoted verbatim and never edited. Links verified to
-// carry the business CID 0x69728d089b8a764.
-const fenderReviews: { name: string; link: string; body: string }[] = [
-  {
-    name: "Deborah Krantz",
-    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNRMk5DTHBRRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICQ2NCLpQE%7C%7C?hl=en",
-    body: "Joe just finished setting up two Fender guitars for me. I’ve been playing for many years and know how difficult it is to find a great guitar guy. Joe is the real deal – he is highly skilled, knows a lot about guitars and is a pleasure to work with. His prices are incredibly reasonable and the work has a fast turnaround time. Joe’s best quality – he listens to his clients. I am very particular about my setup. He did more than meet my expectations. Highly recommended!",
-  },
-  {
-    name: "Frank D’Angelo",
-    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNHeXUtQzVRRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICGyu-C5QE%7C%7C?hl=en",
-    body: "I had to transfer all parts from a Fender Stratocaster that had a slight hole (damage on the body) to a different Stratocaster body. I really didn’t have a repair guy and it was hard to trust just anyone for the expensive guitar with custom parts. After doing a Google search and after reading many great reviews I decide to have Joe do the work. He gave me a quote on the phone and I dropped off my guitar and spare body. A simple handshake sealed the deal. One week later I got the new guitar: the neck, pickguard loaded with pickups, jack, wiring etc. had been transferred to the new body a completely new guitar! The fit and assembly, and the setup was perfect! The action was set low like I asked and the guitar played and sounded wonderful. I will definitely use Joe at Joe’s Vintage Guitars for all of my future work. Joe is honest, dependable, and does amazing work at a very fair price! MY bill was exactly what Joe quoted me! I definitely recommend Joe for all your guitar related needs!",
-  },
-];
-// General 5-star selling reviews from the Google Business Profile scrape that
-// read well on any sell-* page (no other brand named).
-const generalNames = ["Jessica Hammond", "Caleb King", "Larry Hattier", "Bobbie Jo Kelly Greene"];
-const generalReviews = generalNames
-  .map((n) => testimonialsRaw.find((r) => r.name === n))
-  .filter(Boolean) as { name: string; link: string; body: string }[];
-const reviews = [...fenderReviews, ...generalReviews];
+// v12 (2026-06-17): the page leads with general 5-star SELLING reviews. A
+// brand-matching pass tried the Fender-naming reviews, but the only reviews
+// that name Fender are about setup and repair work rather than selling a
+// Fender, so per Joe's call we keep the selling-focused set. Bodies are quoted
+// verbatim; all links carry the business CID 0x69728d089b8a764.
+const reviews: { name: string; link: string; body: string }[] = testimonialsRaw;
 
 // Instagram reels — exact post permalinks from live's sell-my-fender page.
 // The deferred <InstagramEmbeds /> component lazy-loads IG's embed script on

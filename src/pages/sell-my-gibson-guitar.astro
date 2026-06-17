@@ -29,26 +29,22 @@ import testimonialsRaw from "../../reference/testimonials.json";
 
 // Reviews — 6 cards, each linking to its specific Google review.
 //
-// v11 (2026-06-17): brand-matching pass. The Gibson-naming reviews now LEAD
-// the section. miles2928 (Les Paul Deluxe sale) and Barry Smith (Gibson SG
-// appraisal + purchase) are quoted verbatim from the live sell-my-gibson page
-// scrape; Randy Abercrombie's Gibson-bass sale follows from the profile scrape,
-// then general 5-star selling reviews fill to 6. Bodies are never edited.
+// v12 (2026-06-17): brand-matching pass, leading with Gibson-naming SELLING
+// reviews. miles2928 (Les Paul Deluxe sale) is quoted verbatim from the live
+// sell-my-gibson page scrape; Randy Abercrombie's Gibson-bass sale follows from
+// the profile scrape, then general 5-star selling reviews fill to 6. (Barry
+// Smith's Gibson SG review was dropped per Joe: it recounts a resolved hiccup.)
+// Bodies are never edited.
 const gibsonReviews: { name: string; link: string; body: string }[] = [
   {
     name: "miles2928",
     link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJSE8wY1hUcE1YTFB3EAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEIHO0cXTpMXLPw%7C%7C?hl=en",
     body: "I came across their website as I was trying to verify the date and value of my Les Paul Deluxe before listing it on ebay. Their response was very fast and complete. Long story short, I sold my guitar to Joe’s Vintage Guitars without any of the hassles that one goes through when listing on ebay. If you are thinking about selling a vintage guitar, contact these guys before listing it elsewhere. The buyer made shipping the guitar very easy (and paid for shipping) and I received payment for my guitar while I was still at the Fedex office. Great experience. Thank you.",
   },
-  {
-    name: "Barry Smith",
-    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURCcE9HMl9RRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDBpOG2_QE%7C%7C?hl=en",
-    body: "I called Joe last week for free appraisal of an early ’70’s Gibson SG guitar and a similar era Fender Super Reverb amplifier. He was personable on the phone, interested, and asked that I send photos and descriptions of the items, which I did. After that, I attempted follow up several times, texting and leaving messages, with no response. I became discouraged, and left a negative Google review of my experience. Joe immediately contacted me to explain that he had been travelling, not receiving calls while in the air, and admitted with apology that he had lost track of my inquiry in the process. He offered to make it right. After giving my appraisal, he ended up purchasing my Gibson for what I considered a fair price. Very honorable after all. Thank you.",
-  },
 ];
 // General 5-star selling reviews from the profile scrape that read well on any
 // sell-* page (Randy's names Gibson, the rest are brand-neutral).
-const generalNames = ["Randy Abercrombie", "Jessica Hammond", "Caleb King", "Larry Hattier"];
+const generalNames = ["Randy Abercrombie", "Jessica Hammond", "Caleb King", "Larry Hattier", "Bobbie Jo Kelly Greene"];
 const generalReviews = generalNames
   .map((n) => testimonialsRaw.find((r) => r.name === n))
   .filter(Boolean) as typeof gibsonReviews;
@@ -591,7 +587,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
 
        Inherits the v10.1 patterns from sell-fender (Pinterest masonry +
        cream-on-rust IG captions for AA contrast), but with:
-         - 6 reviews, the three Gibson-naming ones leading (v11)
+         - 6 reviews, the two Gibson-naming sale reviews leading (v12)
          - 3 Gibson-specific IG reels (mandolin / L-4 / J-45)
        ─────────────────────────────────────────────────────────────── */}
   <section id="our-clients-testimonials" class="smg-testi">
