@@ -650,13 +650,15 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
     line-height: 1.65;
     color: var(--color-brand-charcoal);
   }
-  .fa-intro__copy a {
+  .fa-intro__copy a:not(.jvg-btn) {
     color: var(--color-brand-rust);
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 2px;
   }
-  .fa-intro__copy a:hover { color: var(--color-brand-rust-bright); }
+  .fa-intro__copy a:not(.jvg-btn):hover { color: var(--color-brand-rust-bright); }
+  /* The rust CTA sits in the copy block; keep its label cream, not the content-link rust. */
+  .fa-intro__ctas .jvg-btn--rust { color: var(--color-brand-cream); }
   .fa-intro__ctas { display: flex; flex-wrap: wrap; gap: 14px; }
 
   @media (max-width: 800px) {
@@ -1375,6 +1377,35 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 18px 22px;
+  }
+  .fa-touch__grid .fa-field { display: flex; flex-direction: column; }
+  .fa-touch__grid .fa-field--full { grid-column: 1 / -1; }
+  .fa-touch__grid .fa-field label {
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--color-brand-brown, #3e2a14);
+    margin-bottom: 6px;
+  }
+  .fa-touch__grid .fa-field input,
+  .fa-touch__grid .fa-field textarea {
+    width: 100%;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    color: var(--color-brand-brown, #3e2a14);
+    background: #faf6ef;
+    border: 1px solid #cbb38a;
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+  .fa-touch__grid .fa-field textarea { min-height: 96px; resize: vertical; }
+  .fa-touch__grid .fa-field input:focus,
+  .fa-touch__grid .fa-field textarea:focus {
+    outline: none;
+    border-color: var(--color-brand-rust-bright, #be4b25);
+    box-shadow: 0 0 0 2px rgba(190, 75, 37, 0.18);
+    background: #fff;
   }
   .fa-touch__reply {
     display: flex;
