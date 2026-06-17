@@ -64,7 +64,12 @@ const caseStudies = [
   {
     title: "1966 Fender Jaguar in Lake Placid Blue",
     subtitle: "Fender Custom Color Authentication",
-    img: resolveImage("images/neck-heel-date-stamp-reading-15-may-66.jpg")!,
+    photos: [
+      { src: resolveImage("images/1966-fender-jaguar-lake-placid-blue.jpg")!, alt: "1966 Fender Jaguar in Lake Placid Blue custom color with matching headstock, authenticated by Joe&rsquo;s Vintage Guitars", caption: "The 1966 Jaguar in Lake Placid Blue" },
+      { src: resolveImage("images/neck-heel-date-stamp-reading-15-may-66.jpg")!, alt: "Neck heel date stamp reading 15 MAY 66 on the 1966 Fender Jaguar, confirming the production year", caption: "Neck heel stamped 15 MAY 66" },
+      { src: resolveImage("images/vintage-fender-custom-color-value.jpg")!, alt: "Neck pocket of the Lake Placid Blue Fender Jaguar showing the original paint stick marks used to authenticate the factory custom color finish", caption: "Paint stick marks in the neck pocket" },
+      { src: resolveImage("images/vintage-fender-authentication-process.jpg")!, alt: "Original electronics and untouched solder joints inside the 1966 Fender Jaguar, verifying factory-original wiring and finish", caption: "Untouched original solder joints" },
+    ],
     challenge: "Determining if the rare custom color finish was factory-original or a high-quality &lsquo;pro-refinish&rsquo; from years ago.",
     detail: "I asked the seller for photos of the &lsquo;paint stick&rsquo; mark in the neck pocket in order to aid in finish authentication, as well as detailed photos of the electronics to inspect the originality of the solder joints. Untouched solder joints are key in confirming the originality of a Fender finish. I also verified the neck heel date and pot codes to confirm the 1966 production window.",
     outcome: "Confirmed the guitar was a 100% original custom color survivor. This verification provided the owner with a precise market valuation, reflecting its rarity compared to the more common sunburst models. Custom color Fender guitars are often worth twice as much (or more) than sunburst models.",
@@ -72,7 +77,10 @@ const caseStudies = [
   {
     title: "1962 Gibson ES-335 (Transitional Year)",
     subtitle: "Vintage PAF Pickup Identification",
-    img: resolveImage("images/1962-gibson-335-cherry-red-semi-hollow-body-electric.jpg")!,
+    photos: [
+      { src: resolveImage("images/vintage-gibson-es-335-appraisal.jpg")!, alt: "1962 Gibson ES-335 in cherry red, a transitional-year semi-hollow body electric guitar appraised by Joe&rsquo;s Vintage Guitars", caption: "1962 Gibson ES-335 in cherry" },
+      { src: resolveImage("images/gibson-paf-pickup-authentication.jpg")!, alt: "Original PAF humbucking pickups removed from the 1962 Gibson ES-335 to verify the patent-applied-for stickers and construction", caption: "Verifying the original PAF pickups" },
+    ],
     challenge: "1962 is a major &lsquo;transition&rsquo; year for Gibson. The goal was to determine if this Cherry 335 still held the coveted PAF pickups, early Patent Number pickups, or a mix of both. This was an in-person appraisal.",
     detail: "I pulled the pickups to verify the PAF stickers, &lsquo;L&rsquo; shaped tooling marks, cover solder, and overall construction. I then looked at the pots and wiring to confirm that the electronics were untouched. I also spent time on the hardware, identifying the &lsquo;no-wire&rsquo; ABR-1 bridge and the &lsquo;short seam&rsquo;, lightweight aluminum stop tailpiece. Unlike the heavier zinc versions that followed, this specific tailpiece is a key indicator of an early &rsquo;62. I finished by verifying that the single-line, double-ring Kluson tuners were original with no added or enlarged holes.",
     outcome: "With two original PAFs and all-original hardware, this was about as good as it gets. The confirmation let the seller ask the full premium a transitional 1962 model brings.",
@@ -80,7 +88,10 @@ const caseStudies = [
   {
     title: "1956 Gibson ES-5 (The &ldquo;N&rdquo; Mystery)",
     subtitle: "Gibson Factory Inconsistencies",
-    img: resolveImage("images/1956-Gibson.jpg")!,
+    photos: [
+      { src: resolveImage("images/vintage-gibson-jazz-guitar-appraisal.jpg")!, alt: "1956 Gibson ES-5 in rare natural blonde finish, a three-pickup archtop electric guitar appraised by Joe&rsquo;s Vintage Guitars", caption: "The rare natural-finish 1956 ES-5" },
+      { src: resolveImage("images/1956-gibson-es-5-n-appraisal.jpg")!, alt: "Joe&rsquo;s Vintage Guitars specialist closely examining the top and binding of a 1956 Gibson ES-5 during an in-person appraisal", caption: "Examining the ES-5 in person" },
+    ],
     challenge: "This was an in-person appraisal with a couple of &lsquo;red flags.&rsquo; It was a Natural finish, but the label was missing the &lsquo;N&rsquo; designation Gibson usually used. Even weirder, it had double black &lsquo;stingers&rsquo; on the back of the neck, which can often mean that someone is trying to hide a headstock/heel repair or a refinish.",
     detail: "I did a deep dive into the finish, looking at the weather checking and the way the finish had aged under the hardware. Also performed a &lsquo;blacklight test&rsquo; by looking for that telltale nitrocellulose green glow and consistency of finish. I looked for any overspray in the cavities and checked the interior for original wiring. After a full physical disassembly, I was able to prove that the missing &lsquo;N&rsquo; was just a factory slip-up. Most importantly, the finish and those black stingers were 100% factory original.",
     outcome: "By certifying the guitar as factory-original, I cleared up the doubts that would have made buyers walk away. It gave the owner peace of mind and protected the value of a seriously rare Gibson. According to the Gibson shipping totals, a Natural ES-5 is approximately three to four times rare than a Sunburst.",
@@ -118,26 +129,64 @@ const fakeSpotting = [
   {
     brand: "Gibson",
     points: [
-      { title: "The Truss Rod Reveal", body: "Real Gibson uses a brass hex nut for adjustments. Almost every fake uses a recessed Allen key. If you see a deep hole meant for a hex wrench instead of that standing brass nut, you&rsquo;re looking at a counterfeit." },
-      { title: "The &ldquo;Flathead&rdquo; Bridge Tell", body: "On a genuine American-made Gibson, the bridge is adjusted using thumbwheels. Counterfeits almost exclusively use a bridge that sits on large, chunky bolts with a flathead screwdriver slot on top." },
-      { title: "The Headstock &ldquo;Wings&rdquo;", body: "A genuine Gibson neck is carved from a single piece of mahogany, but the &lsquo;flares&rsquo; on the side of the headstock are separate pieces of wood called &lsquo;wings&rsquo; glued on at the factory. Most fakes use a &lsquo;scarf joint.&rsquo;" },
-      { title: "Stampings vs. Laser Etching", body: "Gibson serial numbers are stamped into the wood before paint. Counterfeits usually laser-etch numbers after the finish is dry. If the serial looks sharp enough to cut your finger, it&rsquo;s a fake." },
+      { title: "The Truss Rod Reveal", body: "Real Gibson uses a brass hex nut for adjustments. Almost every fake uses a recessed Allen key. If you see a deep hole meant for a hex wrench instead of that standing brass nut, you&rsquo;re looking at a counterfeit.",
+        media: [
+          { src: resolveImage("images/chibson-fake-truss-rod-example.jpg")!, alt: "Fake Gibson truss rod showing a recessed hole for an Allen wrench where the standing brass adjustment nut should be, a counterfeit giveaway" },
+          { src: resolveImage("images/gibson-truss-rod-nut-authentication.jpg")!, alt: "Authentic Gibson truss rod with the correct standing brass adjustment nut" },
+        ] },
+      { title: "The &ldquo;Flathead&rdquo; Bridge Tell", body: "On a genuine American-made Gibson, the bridge is adjusted using thumbwheels. Counterfeits almost exclusively use a bridge that sits on large, chunky bolts with a flathead screwdriver slot on top.",
+        media: [
+          { src: resolveImage("images/fake-gibson-bridge-identification.jpg")!, alt: "Fake Gibson bridge sitting on chunky bolts with a flathead screwdriver slot on top, a counterfeit sign" },
+          { src: resolveImage("images/gibson-abr-1-bridge-identification.jpg")!, alt: "Authentic Gibson ABR-1 bridge adjusted with smooth thumbwheels on a genuine American-made Gibson" },
+        ] },
+      { title: "The Headstock &ldquo;Wings&rdquo;", body: "A genuine Gibson neck is carved from a single piece of mahogany, but the &lsquo;flares&rsquo; on the side of the headstock are separate pieces of wood called &lsquo;wings&rsquo; glued on at the factory. Most fakes use a &lsquo;scarf joint.&rsquo;",
+        media: [
+          { src: resolveImage("images/gibson-headstock-identification.jpg")!, alt: "Back of an authentic Gibson headstock showing the factory wing seam line where the headstock wings are glued on" },
+          { src: resolveImage("images/gibson-fake-headstock-identification.jpg")!, alt: "Back of a fake Gibson headstock with no wing seam line, indicating a one-piece counterfeit neck" },
+        ] },
+      { title: "Stampings vs. Laser Etching", body: "Gibson serial numbers are stamped into the wood before paint. Counterfeits usually laser-etch numbers after the finish is dry. If the serial looks sharp enough to cut your finger, it&rsquo;s a fake.",
+        media: [
+          { src: resolveImage("images/fake-gibson-serial-number-identification.jpg")!, alt: "Fake Gibson serial number laser-etched into the finish after painting, a counterfeit characteristic" },
+          { src: resolveImage("images/gibson-serial-number-identification.jpg")!, alt: "Authentic Gibson serial number stamped into the wood between the tuners on a genuine headstock" },
+        ] },
     ],
   },
   {
     brand: "Martin",
     points: [
-      { title: "The Neck Block Identity", body: "Through the soundhole, the model name and serial number should be cleanly stamped into solid mahogany using Martin&rsquo;s sans-serif typeface. Fakers usually stumble here with generic, serifed stamps or sloppy ink transfers." },
-      { title: "The &ldquo;Inside-Outside&rdquo; Grain Test", body: "On a solid-wood Martin, grain patterns on the outside back match the inside back exactly. If the inside looks plain while the outside is figured rosewood, it&rsquo;s a laminate." },
-      { title: "The Back Center Strip", body: "On a genuine Nazareth-built Martin, the back center strip is stamped with &lsquo;C.F. Martin &amp; Co. Nazareth, PA.&rsquo; If that strip is blank or the font looks like modern computer print, you need a professional look." },
+      { title: "The Neck Block Identity", body: "Through the soundhole, the model name and serial number should be cleanly stamped into solid mahogany using Martin&rsquo;s sans-serif typeface. Fakers usually stumble here with generic, serifed stamps or sloppy ink transfers.",
+        media: [
+          { src: resolveImage("images/fake-martin-serial-number-identification.jpg")!, alt: "Fake Martin neck block stamped in a generic serifed font, a counterfeit warning sign" },
+          { src: resolveImage("images/genuine-martin-serial-number-identification.jpg")!, alt: "Authentic Martin neck block cleanly stamped with the model and serial number in Martin&rsquo;s correct typeface" },
+        ] },
+      { title: "The &ldquo;Inside-Outside&rdquo; Grain Test", body: "On a solid-wood Martin, grain patterns on the outside back match the inside back exactly. If the inside looks plain while the outside is figured rosewood, it&rsquo;s a laminate.",
+        media: [
+          { src: resolveImage("images/how-to-tell-if-a-martin-is-fake.jpg")!, alt: "Distinct Brazilian rosewood grain pattern on the outside of a genuine solid-wood Martin back" },
+          { src: resolveImage("images/martin-grain-pattern-identification-interior.jpg")!, alt: "The same distinct grain pattern visible inside the Martin back, confirming solid wood rather than laminate" },
+        ] },
+      { title: "The Back Center Strip", body: "On a genuine Nazareth-built Martin, the back center strip is stamped with &lsquo;C.F. Martin &amp; Co. Nazareth, PA.&rsquo; If that strip is blank or the font looks like modern computer print, you need a professional look.",
+        media: [
+          { src: resolveImage("images/martin-center-strip-logo-location.jpg")!, alt: "Authentic Martin back center strip stamped C.F. Martin &amp; Co. Nazareth, PA., seen through the soundhole" },
+        ] },
     ],
   },
   {
     brand: "Fender",
     points: [
-      { title: "Date Stamps &amp; Codes", body: "On a vintage piece, you&rsquo;re looking for a handwritten pencil date or ink stamp on the &lsquo;butt&rsquo; of the neck, like &lsquo;5-62&rsquo; or &lsquo;13MAY65B.&rsquo; A clean modern barcode or no markings means a newer guitar or &lsquo;Partscaster.&rsquo;" },
-      { title: "The &ldquo;Walnut Plug&rdquo; Test", body: "On a genuine American Fender with a headstock-adjust truss rod, you&rsquo;ll see a distinct dark walnut wood plug surrounding the adjustment hole. Counterfeits leave raw wood or a cheap black plastic insert." },
-      { title: "Era-Correct Hardware", body: "Fender was very specific about which hardware went with which era. A &lsquo;1954&rsquo; Strat with an 11-screw pickguard (didn&rsquo;t exist until 1959) or a &lsquo;1960s&rsquo; neck with a 3-bolt &lsquo;Micro-Tilt&rsquo; plate is a parts-bin guitar." },
+      { title: "Date Stamps &amp; Codes", body: "On a vintage piece, you&rsquo;re looking for a handwritten pencil date or ink stamp on the &lsquo;butt&rsquo; of the neck, like &lsquo;5-62&rsquo; or &lsquo;13MAY65B.&rsquo; A clean modern barcode or no markings means a newer guitar or &lsquo;Partscaster.&rsquo;",
+        media: [
+          { src: resolveImage("images/vintage-fender-authentication.jpg")!, alt: "Authentic vintage Fender neck heel ink-stamped 2OCT62B, a genuine factory production date stamp" },
+        ] },
+      { title: "The &ldquo;Walnut Plug&rdquo; Test", body: "On a genuine American Fender with a headstock-adjust truss rod, you&rsquo;ll see a distinct dark walnut wood plug surrounding the adjustment hole. Counterfeits leave raw wood or a cheap black plastic insert.",
+        media: [
+          { src: resolveImage("images/fender-walnut-truss-rod-plug.jpg")!, alt: "Authentic Fender neck with the correct dark walnut wood truss rod plug at the headstock adjustment" },
+          { src: resolveImage("images/fender-truss-rod-fake-plug.jpg")!, alt: "Fake Fender neck with a black plastic insert instead of the genuine walnut truss rod plug" },
+        ] },
+      { title: "Era-Correct Hardware", body: "Fender was very specific about which hardware went with which era. A &lsquo;1954&rsquo; Strat with an 11-screw pickguard (didn&rsquo;t exist until 1959) or a &lsquo;1960s&rsquo; neck with a 3-bolt &lsquo;Micro-Tilt&rsquo; plate is a parts-bin guitar.",
+        media: [
+          { src: resolveImage("images/fender-bullet-truss-rod.jpg")!, alt: "Authentic Fender bullet truss rod nut, the correct factory hardware for 1970s headstock-adjust necks" },
+          { src: resolveImage("images/fender-heel-adjust-truss-rod-plug.jpg")!, alt: "Genuine dark walnut truss rod plug on a vintage Fender neck, a reliable real-Fender identifier" },
+        ] },
     ],
   },
 ];
@@ -307,7 +356,12 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
       {caseStudies.map((c, i) => (
         <article class={`fa-case fa-case--${i % 2 === 0 ? "left" : "right"}`}>
           <div class="fa-case__photo">
-            <Image src={c.img} alt={c.title} width={460} />
+            {c.photos.map((p) => (
+              <figure class="fa-case__shot">
+                <Image src={p.src} alt={p.alt} width={400} />
+                <figcaption>{p.caption}</figcaption>
+              </figure>
+            ))}
           </div>
           <div class="fa-case__body">
             <span class="fa-case__sub">{c.subtitle}</span>
@@ -446,6 +500,13 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
           <div class="fa-fakes__grid">
             {brand.points.map((p) => (
               <article class="fa-fakes__card">
+                {p.media && (
+                  <div class={`fa-fakes__media fa-fakes__media--${p.media.length}`}>
+                    {p.media.map((m) => (
+                      <Image src={m.src} alt={m.alt} width={400} />
+                    ))}
+                  </div>
+                )}
                 <h4 set:html={p.title} />
                 <p set:html={p.body} />
               </article>
@@ -817,7 +878,17 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
   .fa-case:first-of-type { border-top: none; padding-top: 0; }
   .fa-case--right { grid-template-columns: 1.2fr 1fr; }
   .fa-case--right .fa-case__photo { order: 2; }
-  .fa-case__photo img { width: 100%; height: auto; display: block; }
+  .fa-case__photo { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px 14px; align-items: start; }
+  .fa-case__shot { margin: 0; }
+  .fa-case__photo img { width: 100%; height: auto; display: block; border-radius: 6px; }
+  .fa-case__shot figcaption {
+    margin-top: 6px;
+    font-family: var(--font-sans);
+    font-size: 12px;
+    line-height: 1.35;
+    color: var(--color-brand-brown-muted, #7a6a52);
+    text-align: center;
+  }
   .fa-case__sub {
     font-family: var(--font-display);
     font-weight: 600;
@@ -1031,7 +1102,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
     padding-bottom: 8px;
     border-bottom: 3px solid var(--color-brand-rust-bright);
   }
-  .fa-fakes__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+  .fa-fakes__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; }
   .fa-fakes__card {
     background: #fff;
     padding: 22px 24px;
@@ -1046,6 +1117,9 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
     text-transform: none;
   }
   .fa-fakes__card p { margin: 0; font-family: var(--font-sans); font-size: 14px; line-height: 1.55; color: var(--color-brand-charcoal); }
+  .fa-fakes__media { display: grid; gap: 8px; margin: 0 0 14px; }
+  .fa-fakes__media--2 { grid-template-columns: 1fr 1fr; }
+  .fa-fakes__media img { width: 100%; height: auto; display: block; border-radius: 4px; }
 
   /* ============================================
      Testimonials
