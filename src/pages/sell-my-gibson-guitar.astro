@@ -27,14 +27,28 @@ import { buildImageGraph } from "../lib/imageLicense";
 import { contact, hrefs } from "../config/site";
 import testimonialsRaw from "../../reference/testimonials.json";
 
-// Reviews — pulled from reference/testimonials.json (Google Reviews scrape).
-// Reordered so the Gibson-mentioning review (Randy Abercrombie's old Gibson
-// bass) appears FIRST, since topical relevance helps a reader scanning a
-// page about selling their Gibson. The other 5 are generic-positive
-// experience reviews that work on any sell-* page.
-const SCRAPE: { name: string; link: string; body: string }[] = testimonialsRaw;
-const reviewOrder = ["Randy Abercrombie", "Jessica Hammond", "Caleb King", "Larry Hattier", "Bobbie Jo Kelly Greene", "Marie Coyle"];
-const reviews = reviewOrder.map((n) => SCRAPE.find((r) => r.name === n)).filter(Boolean) as typeof SCRAPE;
+// Reviews — 6 cards, each linking to its specific Google review.
+//
+// v12 (2026-06-17): brand-matching pass, leading with Gibson-naming SELLING
+// reviews. miles2928 (Les Paul Deluxe sale) is quoted verbatim from the live
+// sell-my-gibson page scrape; Randy Abercrombie's Gibson-bass sale follows from
+// the profile scrape, then general 5-star selling reviews fill to 6. (Barry
+// Smith's Gibson SG review was dropped per Joe: it recounts a resolved hiccup.)
+// Bodies are never edited.
+const gibsonReviews: { name: string; link: string; body: string }[] = [
+  {
+    name: "miles2928",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJSE8wY1hUcE1YTFB3EAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEIHO0cXTpMXLPw%7C%7C?hl=en",
+    body: "I came across their website as I was trying to verify the date and value of my Les Paul Deluxe before listing it on ebay. Their response was very fast and complete. Long story short, I sold my guitar to Joe’s Vintage Guitars without any of the hassles that one goes through when listing on ebay. If you are thinking about selling a vintage guitar, contact these guys before listing it elsewhere. The buyer made shipping the guitar very easy (and paid for shipping) and I received payment for my guitar while I was still at the Fedex office. Great experience. Thank you.",
+  },
+];
+// General 5-star selling reviews from the profile scrape that read well on any
+// sell-* page (Randy's names Gibson, the rest are brand-neutral).
+const generalNames = ["Randy Abercrombie", "Jessica Hammond", "Caleb King", "Larry Hattier", "Bobbie Jo Kelly Greene"];
+const generalReviews = generalNames
+  .map((n) => testimonialsRaw.find((r) => r.name === n))
+  .filter(Boolean) as typeof gibsonReviews;
+const reviews = [...gibsonReviews, ...generalReviews];
 
 // Instagram reels — Gibson-specific posts from live's sell-my-gibson page.
 // IG's embed.js (loaded via the page head slot below) replaces these
@@ -573,7 +587,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
 
        Inherits the v10.1 patterns from sell-fender (Pinterest masonry +
        cream-on-rust IG captions for AA contrast), but with:
-         - 6 reviews from the scrape, Gibson-mentioning one first
+         - 6 reviews, the two Gibson-naming sale reviews leading (v12)
          - 3 Gibson-specific IG reels (mandolin / L-4 / J-45)
        ─────────────────────────────────────────────────────────────── */}
   <section id="our-clients-testimonials" class="smg-testi">

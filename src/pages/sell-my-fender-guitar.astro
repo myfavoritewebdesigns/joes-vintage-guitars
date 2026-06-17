@@ -9,14 +9,15 @@ import FAQ from "../components/FAQ.astro";
 import { SITE_URL, contact, hrefs } from "../config/site";
 import testimonialsRaw from "../../reference/testimonials.json";
 
-// Reviews — sourced from reference/testimonials.json, a scrape of Joe's
-// Google Business Profile reviews. Each entry has a direct review link
-// (much better UX than a generic Maps link). All 6 are 5-star reviews;
-// stars are rendered uniformly by the template — no need to store rating
-// per-review unless we later mix lower ratings.
+// Reviews — 6 cards, each linking directly to its review on Joe's Google
+// Business Profile. Stars render uniformly (all 5-star), so no per-review
+// rating is stored.
 //
-// v10 (2026-05-26): bumped from 3 hard-coded reviews to all 6 from the
-// scrape per user request; cards now stack Pinterest-style via CSS columns.
+// v12 (2026-06-17): the page leads with general 5-star SELLING reviews. A
+// brand-matching pass tried the Fender-naming reviews, but the only reviews
+// that name Fender are about setup and repair work rather than selling a
+// Fender, so per Joe's call we keep the selling-focused set. Bodies are quoted
+// verbatim; all links carry the business CID 0x69728d089b8a764.
 const reviews: { name: string; link: string; body: string }[] = testimonialsRaw;
 
 // Instagram reels — exact post permalinks from live's sell-my-fender page.
