@@ -355,10 +355,10 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
       </header>
       {caseStudies.map((c, i) => (
         <article class={`fa-case fa-case--${i % 2 === 0 ? "left" : "right"}`}>
-          <div class="fa-case__photo">
+          <div class={`fa-case__photo${c.photos.length <= 2 ? " fa-case__photo--stack" : ""}`}>
             {c.photos.map((p) => (
               <figure class="fa-case__shot">
-                <Image src={p.src} alt={p.alt} width={400} />
+                <Image src={p.src} alt={p.alt} width={c.photos.length <= 2 ? 680 : 420} />
                 <figcaption>{p.caption}</figcaption>
               </figure>
             ))}
@@ -879,6 +879,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
   .fa-case--right { grid-template-columns: 1.2fr 1fr; }
   .fa-case--right .fa-case__photo { order: 2; }
   .fa-case__photo { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px 14px; align-items: start; }
+  .fa-case__photo--stack { grid-template-columns: 1fr; gap: 18px; }
   .fa-case__shot { margin: 0; }
   .fa-case__photo img { width: 100%; height: auto; display: block; border-radius: 6px; }
   .fa-case__shot figcaption {
