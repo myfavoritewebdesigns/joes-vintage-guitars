@@ -192,12 +192,12 @@ const fakeSpotting = [
 ];
 
 const testimonials = [
-  { name: "Jim W. (PA)", body: "I sent an email to Joe&rsquo;s Vintage Guitars last evening about 10:00 PM Eastern Time. I included a description of my guitar including serial number and a couple of photos. He responded immediately with a real pleasant email and gave me a value on my guitar. I can&rsquo;t tell you how cool the experience was!" },
-  { name: "Ray", body: "I had been doing some research on the value of instruments that my father owned when I saw Joe&rsquo;s Vintage Guitars website and their free appraisals. The next day I called. Joe patiently went through each instrument and provided me with a range of values for each one. I appreciated his knowledge, honesty, and willingness to take time to help me." },
-  { name: "Amy Vickery", body: "They were very easy to deal with and appraised my 1979 Guild within minutes! I sent pictures and details via text and received a FREE estimated value right away! 10/10 highly recommend!" },
-  { name: "Missy", body: "I highly recommend Joe&rsquo;s Vintage Guitars if you have a guitar that you&rsquo;d like to get an appraisal on. I sent my contact information and was called the next day. The process couldn&rsquo;t have been any easier. Thank you again for an easy and honest appraisal!" },
-  { name: "Kevin Richard Scholl", body: "I needed help with accurately unscrambling the serial number on my Gibson Spirit. I saw Joe&rsquo;s web site and it said &lsquo;Contact me if you need help dating, valuing or selling a guitar.&rsquo; So I called, he answered quickly and told me it was indeed a 1983 Spirit. Nice guy, real chill and pleasant to speak with." },
-  { name: "D Angelino", body: "Joe called me himself to let me know the value of my &rsquo;76 Les Paul Custom. He was fair, honest, super easy to talk with, as well as being informative and educational. His call was a really pleasant break in my day. I trust his knowledge, experience and character." },
+  { name: "Jim W. (PA)", link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURtN192ejFBRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDm7_vz1AE%7C%7C?hl=en", body: "I sent an email to Joe&rsquo;s Vintage Guitars last evening about 10:00 PM Eastern Time. I included a description of my guitar including serial number and a couple of photos. He responded immediately with a real pleasant email and gave me a value on my guitar. I can&rsquo;t tell you how cool the experience was!" },
+  { name: "Ray", link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNlanAzNEpREAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICejp34JQ%7C%7C?hl=en", body: "I had been doing some research on the value of instruments that my father owned when I saw Joe&rsquo;s Vintage Guitars website and their free appraisals. The next day I called. Joe patiently went through each instrument and provided me with a range of values for each one. I appreciated his knowledge, honesty, and willingness to take time to help me." },
+  { name: "Amy Vickery", link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUMzaWFfdUtREAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIC3ia_uKQ%7C%7C?hl=en", body: "They were very easy to deal with and appraised my 1979 Guild within minutes! I sent pictures and details via text and received a FREE estimated value right away! 10/10 highly recommend!" },
+  { name: "Missy", link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNENTZ1OVJBEAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICD56u9RA%7C%7C?hl=en", body: "I highly recommend Joe&rsquo;s Vintage Guitars if you have a guitar that you&rsquo;d like to get an appraisal on. I sent my contact information and was called the next day. The process couldn&rsquo;t have been any easier. Thank you again for an easy and honest appraisal!" },
+  { name: "Kevin Richard Scholl", link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUMxc3V6ZUhnEAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIC1suzeHg%7C%7C?hl=en", body: "I needed help with accurately unscrambling the serial number on my Gibson Spirit. I saw Joe&rsquo;s web site and it said &lsquo;Contact me if you need help dating, valuing or selling a guitar.&rsquo; So I called, he answered quickly and told me it was indeed a 1983 Spirit. Nice guy, real chill and pleasant to speak with." },
+  { name: "D Angelino", link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNmZzlUSnZRRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICfg9TJvQE%7C%7C?hl=en", body: "Joe called me himself to let me know the value of my &rsquo;76 Les Paul Custom. He was fair, honest, super easy to talk with, as well as being informative and educational. His call was a really pleasant break in my day. I trust his knowledge, experience and character." },
 ];
 
 const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.text }));
@@ -528,9 +528,14 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
       <div class="fa-testim__grid">
         {testimonials.map((t) => (
           <article class="fa-testim__card">
-            <p class="fa-testim__name">{t.name}</p>
+            <p class="fa-testim__name">
+              {t.link ? <a class="fa-testim__namelink" href={t.link} target="_blank" rel="noopener noreferrer">{t.name}</a> : t.name}
+            </p>
             <div class="fa-testim__stars" aria-label="5 out of 5 stars">★★★★★</div>
             <p class="fa-testim__body" set:html={t.body} />
+            {t.link && (
+              <a class="fa-testim__source" href={t.link} target="_blank" rel="noopener noreferrer">Read This Review On Google</a>
+            )}
           </article>
         ))}
       </div>
@@ -1141,6 +1146,20 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
   .fa-testim__name { font-family: var(--font-sans); font-weight: 700; font-size: 16px; color: var(--color-brand-charcoal); margin: 0 0 4px; }
   .fa-testim__stars { color: var(--color-brand-rust-bright); font-size: 16px; letter-spacing: 1px; margin-bottom: 10px; }
   .fa-testim__body { color: var(--color-brand-charcoal); font-family: var(--font-sans); font-size: 14px; line-height: 1.55; margin: 0; }
+  .fa-testim__namelink { color: var(--color-brand-rust-dark); text-decoration: none; }
+  .fa-testim__namelink:hover { color: var(--color-brand-rust-bright); text-decoration: underline; }
+  .fa-testim__source {
+    display: inline-block;
+    margin-top: 12px;
+    font-family: var(--font-display);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust);
+    text-decoration: none;
+  }
+  .fa-testim__source:hover { color: var(--color-brand-rust-bright); text-decoration: underline; }
 
   /* ============================================
      FAQ
