@@ -39,6 +39,7 @@
     { "url": "/sell-my-gibson-guitar/", "phrase": "whether you're a musician or", "note": "Same Caleb King review; no-trailing-space variant." },
     { "url": "/sell-a-guitar-collection/", "phrase": "–", "note": "En dash inside a verbatim customer review (collection testimonials). Page-scoped dash exception; all editable dashes on this page are fixed." },
     { "url": "/sell-my-martin-guitar/", "phrase": "–", "note": "Three en dashes inside one verbatim customer review (martin testimonials). Page-scoped dash exception." },
+    { "url": "/sell-my-fender-guitar/", "phrase": "–", "note": "Two en dashes inside the verbatim Deborah Krantz Google review (brand-matching pass). Page-scoped dash exception; all editable dashes on this page are fixed." },
     { "url": "/sell-my-gretsch-guitar/", "phrase": "—", "note": "Em dash inside the verbatim Debra Parsons Google review. Page-scoped dash exception." },
     { "url": "/how-to-read-gibson-serial-numbers/", "phrase": "–", "note": "En dashes render from reference/gsn-tool-html.html (decoder widget ported verbatim from live; reference/ is hands-off). Page-scoped dash exception; all editable dashes fixed." },
     { "url": "/gretsch-serial-number-lookup/", "phrase": "—", "note": "Em dashes render from reference/grsn-tool-html.html (live-verbatim decoder widget copy). Page-scoped dash exception." },

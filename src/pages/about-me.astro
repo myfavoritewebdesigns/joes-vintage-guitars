@@ -120,17 +120,24 @@ const faqs = [
   },
 ];
 
+// Each review links to its specific entry on Joe's Google Business Profile,
+// matching the clickable-review pattern shipped on the Free Appraisal page.
+// Links are scraped verbatim from the live about-me page; all carry the
+// business CID 0x69728d089b8a764.
 const testimonials = [
   {
     name: "Amy B.",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNQMVBPc3NnRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICP1POssgE%7C%7C?hl=en",
     body: "Joe is a consummate professional! Encyclopedic knowledge of guitars, but also just a kind, generous, and helpful person. Highly recommend supporting Joe's Vintage Guitars!",
   },
   {
     name: "Mateo Cavestany",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNfbW9UNVZ3EAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIC_moT5Vw%7C%7C?hl=en",
     body: "Joe gave me an accurate and fair appraisal for my vintage Gibson. I love how passionate he is about his craft and the genuine care he puts into his business.",
   },
   {
     name: "Adam Kirkpatrick",
+    link: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURfdXNlQmFBEAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgID_useBaA%7C%7C?hl=en",
     body: "Joe is a true professional! I was very impressed with his knowledge and insights as it relates to vintage guitars. Joe is an expert of the highest order!",
   },
 ];
@@ -388,9 +395,12 @@ const licensedImages = await buildImageGraph([
       <div class="about-testim__grid">
         {testimonials.map((t) => (
           <article class="about-testim__card">
-            <p class="about-testim__name">{t.name}</p>
+            <p class="about-testim__name">
+              <a href={t.link} target="_blank" rel="noopener noreferrer">{t.name}</a>
+            </p>
             <div class="about-testim__stars" aria-label="5 out of 5 stars">★★★★★</div>
             <p class="about-testim__body">{t.body}</p>
+            <a class="about-testim__source" href={t.link} target="_blank" rel="noopener noreferrer">Read This Review On Google</a>
           </article>
         ))}
       </div>
@@ -971,6 +981,15 @@ const licensedImages = await buildImageGraph([
     color: var(--color-brand-charcoal);
     margin: 0 0 4px;
   }
+  .about-testim__name a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .about-testim__name a:hover {
+    color: var(--color-brand-rust);
+    text-decoration: underline;
+  }
   .about-testim__stars {
     color: var(--color-brand-rust-bright);
     font-size: 16px;
@@ -983,6 +1002,19 @@ const licensedImages = await buildImageGraph([
     font-size: 15px;
     line-height: 1.5;
     margin: 0;
+  }
+  .about-testim__source {
+    display: inline-block;
+    margin-top: 12px;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--color-brand-rust);
+    text-decoration: none;
+  }
+  .about-testim__source:hover {
+    color: var(--color-brand-rust-bright);
+    text-decoration: underline;
   }
   .about-testim__more {
     display: flex;
