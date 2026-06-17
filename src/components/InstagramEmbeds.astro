@@ -1,0 +1,72 @@
+---
+/**
+ * Deferred Instagram embed loader. Renders nothing visible.
+ *
+ * Loads https://www.instagram.com/embed.js ONLY once an `.instagram-media`
+ * blockquote scrolls near the viewport (IntersectionObserver). This keeps IG's
+ * third-party cookies + ~100KB script off the initial page load, which fixes the
+ * Lighthouse Best Practices "third-party cookies" flag and trims load time. When
+ * the script loads it processes every reel on the page, so one load renders all.
+ *
+ * Also sets accessible titles on the iframes IG injects (they ship titleless).
+ *
+ * Include ONCE on any page that has `.instagram-media` blockquotes — it replaces
+ * the old eager `<script src="https://www.instagram.com/embed.js">`. Placement in
+ * the page doesn't matter; the script waits for DOMContentLoaded.
+ */
+---
+<script is:inline>
+  (() => {
+    const start = () => {
+      const blocks = document.querySelectorAll("blockquote.instagram-media");
+      if (!blocks.length) return;
+
+      const titleFor = (perma) => {
+        const m = (perma || "").match(/instagram\.com\/(reel|p|tv)\/([^/?]+)/);
+        return m ? `Joe's Vintage Guitars Instagram ${m[1]}: ${m[2]}` : "Instagram reel";
+      };
+      const setTitles = () => {
+        document.querySelectorAll("iframe.instagram-media:not([title])").forEach((f) => {
+          f.setAttribute("title", titleFor(f.getAttribute("src")));
+        });
+      };
+
+      let loaded = false;
+      const load = () => {
+        if (loaded) return;
+        loaded = true;
+        // Title the iframes as IG swaps them in.
+        const tObs = new MutationObserver(setTitles);
+        tObs.observe(document.body, { childList: true, subtree: true });
+        const s = document.createElement("script");
+        s.src = "https://www.instagram.com/embed.js";
+        s.async = true;
+        s.addEventListener("load", () => {
+          if (window.instgrm && window.instgrm.Embeds) window.instgrm.Embeds.process();
+          setTitles();
+          setTimeout(setTitles, 1500);
+          setTimeout(() => tObs.disconnect(), 8000);
+        });
+        document.body.appendChild(s);
+      };
+
+      if (!("IntersectionObserver" in window)) {
+        load();
+        return;
+      }
+      const io = new IntersectionObserver(
+        (entries, obs) => {
+          if (entries.some((e) => e.isIntersecting)) {
+            obs.disconnect();
+            load();
+          }
+        },
+        { rootMargin: "600px 0px" }
+      );
+      blocks.forEach((b) => io.observe(b));
+    };
+
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
+    else start();
+  })();
+</script>

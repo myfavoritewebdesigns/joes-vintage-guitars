@@ -228,6 +228,8 @@ Living record of intentional design choices on this project. **Check this before
 | 2026-06 | Site-wide copy (SEO v2 Prompt 3) | Zero-dash copy pass on all rendered output: ranges became "X to Y", "Label — value" headings and table cells became colons, em-dash asides became comma pairs or sentence splits, h1/h2 title-cased. This OVERRIDES the earlier "structured Name—range headings + table-cell em-dashes KEPT" call. Exceptions live in reports/seo-v2/copy-allowlist.json: verbatim customer reviews, testimonials, and ClientStories story text stay dash-intact; reference/-ported widget internals and their JSON-LD stay untouched; emoji verified present on the live pages are allowlisted, not removed. Gretsch seqTable em-dash placeholder cells now render empty. Gate: `npm run audit:copy` must exit 0 (enforced by the check-copy GitHub Action on every PR). | The SEO v2 prompt pack mandates zero dashes in rendered output, and its conflict-resolution order puts the pack's prompts above prior decisions. Quoted material and live-parity widget internals are excluded because altering them is worse than the dash. |
 | 2026-06-12 | Footer + MoreThanGuitar (homepage), site-wide | **Contrast fixes that deviate from the retired live design (post-launch a11y).** `.jvgft__copyright a` (footer copyright links, every page) moved from `--color-brand-rust-bright` #be4b25 (2.52:1 on tan, fails WCAG AA) to `--color-brand-rust-dark` #682412 (5.76:1), hover to `--color-brand-brown`. `.mtg-col__h4` ("More Than A Guitar" subheads) moved from rust-bright #be4b25 (3.78:1 on cream, fails AA) to `--color-brand-rust` #a03a1e (5.11:1). Verified with axe: 0 contrast violations after. | The old WordPress site had these low-contrast values, previously logged as "matches-live, intentional." Now that the Astro site IS the live production site, real WCAG AA compliance outranks parity with the retired design. Josh-approved 2026-06-12 from the homepage audit. **Do NOT revert to rust-bright to "match live."** |
 | 2026-06-12 | Layout.astro global JSON-LD | **Consolidated the business schema + removed aggregateRating (post-launch SEO, Gemini 2.5 Pro + GPT-5.2 consult).** The separate `MusicStore`+`Organization` (`#musicstore`), `LocalBusiness` (`#localbusiness`), and `Place` (`#place`) nodes were folded into the single `ProfessionalService` node via `additionalType: ["LocalBusiness","MusicStore"]` (added `areaServed`, `founder` to the Person `@id`, `image`); both `Service.provider` refs repointed to the primary `@id`. Removed the self-placed `aggregateRating` (5 / 405) and the 24/7 `openingHoursSpecification`. JSON-LD blocks went 9 to 6, all valid. | **Supersedes** the 2026-05 "Added MusicStore+Organization, LocalBusiness, Place... per-type breakdown" row. A self-placed rating on a LocalBusiness earns no star rich result (those come from the Google Business Profile) and a self-serving or cross-platform-blended number risks a spammy-structured-markup manual action; 405 also contradicted the visible "2,100+" claim (reworded from "Five-Star Reviews" to "Positive Reviews" on the homepage). 24/7 hours are false for a by-appointment business. **Do NOT re-split into per-type nodes or re-add aggregateRating without first-party on-page Review markup.** |
+| 2026-06-15 | `contact-form.ts` — hCaptcha load timing | **Defer hCaptcha until first form interaction.** `init()` no longer calls `loadHcaptcha()` on `DOMContentLoaded`; each form arms it via `focusin` + `pointerdown` (`{ once: true }`). | Josh's call, applied across all MFWD Astro projects (also phil-reese). Keeps the hCaptcha `api.js` off the initial-load critical path (CWV win). Safe: filling any field fires `focusin` first, so the widget loads well before submit; `loadHcaptcha()` is idempotent. **Do NOT revert to eager load-on-DOMready.** |
+| 2026-06-16 | Layout.astro global logo JSON-LD | **Added `license` + `acquireLicensePage` to the brand-logo ImageObject, pointing at the RESTRICTIVE `imageLicense.brandAssetsUrl` (`/photo-license/#brand-assets`, all rights reserved).** Supersedes the prior "logo = COPYRIGHT-ONLY, NO license/acquireLicensePage, so the brand mark never earns a Licensable badge" decision. The logo carries `creditText` + `copyrightNotice`, so Google's Rich Results "Image metadata" check detects it as an image-metadata item and emits two optional notices: `Missing field "license"` and `Missing field "acquireLicensePage"` — on **every page** (the logo is in the shared Layout). Pointing both fields at the all-rights-reserved brand-assets terms (NOT the permissive `photoLicenseUrl`) clears the notices sitewide without telling anyone they may reuse the logo. | Josh's call 2026-06-16: "even if it's optional we should have it." The notices were valid/non-critical but Josh wanted a clean Rich Results card. Using the restrictive brand-assets URL keeps the logo all-rights-reserved while populating the optional fields. **Do NOT point the logo at `photoLicenseUrl`** (permissive) and **do NOT strip these back to copyright-only to "match the old policy."** |
 
 ### Template-level lessons learned (cross-project)
 
@@ -629,6 +631,66 @@ When we hit launch prep, run through this list before pointing the production do
 - **`functions/_routes.json`** or `_headers` for any cache control / redirects (optional)
 - **Sitemap generation:** add `@astrojs/sitemap` integration once more pages exist
 - **Higher-quality `contact-form-bg.jpg`:** still soft (9KB source). User opted to drop it from the contact section. If they want it back later, source a better version.
+
+## Image licensing — every new content photo gets a license
+
+Joe Dampt personally shot 100% of the content photos on this site. Each one ships
+as a schema.org `ImageObject` so it qualifies for Google's "Licensable images"
+feature (the GSC "Image metadata" report).
+
+**Single source of truth: the `imageLicense` constant in `src/config/site.ts`**
+(`photoLicenseUrl`, `brandAssetsUrl`, `creditText`, `creatorName`,
+`copyrightNotice`). Never hand-type these at a call site — import `imageLicense`.
+The permissive terms live at `/photo-license/`, linked from the footer legal row.
+
+**Two license tiers:**
+- **Content photos = PERMISSIVE** (reuse welcome with credit + link back):
+  `license` = `acquireLicensePage` = `imageLicense.photoLicenseUrl`, plus
+  `creditText`, `creator` (Joe), `copyrightNotice`.
+- **Logo / brand marks = RESTRICTIVE LICENSE** (all rights reserved): `license` =
+  `acquireLicensePage` = `imageLicense.brandAssetsUrl` (`/photo-license/#brand-assets`,
+  the "all rights reserved, email to inquire" section), plus `copyrightNotice` +
+  `creditText`. **Never** point a brand mark at `photoLicenseUrl` (the permissive
+  photo terms) — that would tell people they may freely reuse the logo. Pointing
+  `license` at the restrictive brand-assets URL clears the optional Rich Results
+  "Image metadata" notices sitewide while keeping the terms all-rights-reserved.
+  The logo node lives in `Layout.astro`'s `orgSchema.logo`. (Updated 2026-06-16 —
+  was previously COPYRIGHT-ONLY with no `license`/`acquireLicensePage`; see Decision
+  log.)
+
+**Use the helpers, not hand-authored nodes:**
+- `<LicensedImage>` (`src/components/primitives/LicensedImage.astro`) — wraps an
+  optimized image AND emits its matching `ImageObject` inline. **Use this for any
+  new optimized (`<Image>`-style) content photo.** It renders the `<img>` manually
+  from one `getImage()` result so `contentUrl` == the rendered `src` by
+  construction.
+- `buildImageGraph(images)` (`src/lib/imageLicense.ts`) — async; returns an
+  `ImageObject[]` to spread into a page's `structuredData` prop. **Use this for
+  raw `<img>` content photos** served from `public/` via `assetSrc()`: pass
+  `{ renderedSrc: assetSrc(...), alt }`. For optimized images it can take
+  `{ image, width, alt }`, but prefer `<LicensedImage>` for those.
+- The blog (`src/pages/post/[slug].astro`) spreads the permissive fields straight
+  into the existing `BlogPosting.image` ImageObject (creator reuses the shared
+  `/about-me/#person` `@id`).
+
+**contentUrl MUST equal the rendered `src` (silent-fail otherwise).** Google
+ignores an `ImageObject` whose `contentUrl` doesn't match a real `<img>` on the
+page. CRITICAL gotcha: under this project's `image.layout: 'constrained'` config,
+the `<Image>` component's primary `src` is a transform that `getImage()` does NOT
+reproduce — so you cannot render `<Image>` and re-derive the URL separately. That
+is exactly why `<LicensedImage>` renders the `<img>` itself from `getImage()`.
+For raw public-path images there is no transform, so `assetSrc()` is exact.
+
+**NEVER license:** images Joe didn't shoot (manufacturer/third-party photos), the
+Reverb mark, decorative or `aria-hidden` images, UI/SVG icons, favicons, or
+CSS `background-image` art. (Example: sell-gibson's `Guitar22.png` is `aria-hidden`
+decorative — it is NOT licensed; sell-fender's `Guitar.png` has real alt text and
+IS licensed.)
+
+**Gate before a page is "done":** Google Rich Results Test "Image metadata" shows
+**0 errors**. Locally, `node scripts/verify-image-license.mjs [slug ...]` checks
+that every licensed `ImageObject.contentUrl` matches a rendered `<img src>` on the
+built page (run `npm run build` first); it must report 0 mismatches.
 
 ## Things to be careful of
 

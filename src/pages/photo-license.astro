@@ -1,0 +1,118 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { contact, hrefs, SITE_URL } from "../config/site";
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Photo License", item: `${SITE_URL}/photo-license/` },
+    ],
+  },
+];
+---
+
+<Layout
+  title="Photo License | Joe&rsquo;s Vintage Guitars"
+  description="Joe Dampt shot every photo on this site. You are welcome to reuse them for free, including commercially, as long as you credit Joe and link back to joesvintageguitarsaz.com."
+  canonical="/photo-license/"
+  structuredData={structuredData}
+>
+  <section class="legal-title-bar">
+    <div class="legal-inner"><h1>Photo License</h1></div>
+  </section>
+
+  <section class="legal-body">
+    <div class="legal-inner legal-prose">
+      <p>
+        I shot every photo on this site myself. The guitars, the close-up detail shots, the headstocks and
+        serial numbers, the shop. They are mine, and I am glad to share them. If one of my photos helps you tell
+        a story or list a guitar, go ahead and use it. Here is all I ask.
+      </p>
+
+      <h2>You Are Welcome To Use My Photos</h2>
+      <p>
+        You can reuse the photos on this site for free, including for commercial work: blog posts, forums,
+        marketplace listings, articles, videos, social media, whatever you are working on. You do not need to
+        write to me first or pay a fee.
+      </p>
+
+      <h2>All I Ask Is Credit and a Link</h2>
+      <p>
+        When you use a photo, credit it to <strong>Joe Dampt, Joe&rsquo;s Vintage Guitars</strong> and link back to
+        <a href="https://www.joesvintageguitarsaz.com/">joesvintageguitarsaz.com</a>. A simple caption with my name
+        and a clickable link is perfect. That credit and link are the whole deal, and they help other folks find me
+        when they have a guitar to sell or value.
+      </p>
+
+      <h2>What This Covers</h2>
+      <p>
+        This license applies to the photographs I took for this site: guitar photos, serial number and
+        authentication close-ups, appraisal photos, and pictures around the shop. It does not cover any image
+        that came from somewhere else, like a manufacturer photo or a customer photo, on the rare page where one
+        appears.
+      </p>
+
+      <h2 id="brand-assets">What It Does Not Cover: My Logo and Name</h2>
+      <p>
+        The Joe&rsquo;s Vintage Guitars logo, name, and wordmark are not part of this license. Those are all rights
+        reserved. Please do not copy them, change them, or use them in a way that suggests I endorse you or that we
+        are connected. If you have a good reason to use the logo, just <a href={hrefs.mailto}>email me</a> and ask.
+      </p>
+
+      <h2>A Couple of Honest Notes</h2>
+      <p>
+        The photos are provided as they are, with no warranty. Using one does not mean I endorse you, your
+        product, or your listing. If you want something outside these terms, or you are not sure whether your use
+        fits, reach out and we will sort it out.
+      </p>
+
+      <h2>Questions</h2>
+      <p>
+        Email me at <a href={hrefs.mailto}>{contact.email}</a> or call or text
+        <a href={hrefs.tel}>{contact.phone}</a>. Happy to help.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .legal-inner { max-width: 820px; margin: 0 auto; padding: 0 24px; }
+  .legal-title-bar {
+    background: var(--color-brand-rust-dark, #682412);
+    padding: 180px 24px 48px;
+    text-align: center;
+  }
+  .legal-title-bar h1 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(34px, 5vw, 56px);
+    color: var(--color-brand-cream);
+    line-height: 1.1;
+  }
+  .legal-body { background: #fff; padding: 48px 0 72px; }
+  .legal-prose p,
+  .legal-prose li {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--color-brand-charcoal);
+  }
+  .legal-prose p { margin: 0 0 18px; }
+  .legal-prose h2 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-brand-rust-dark);
+    margin: 34px 0 12px;
+    scroll-margin-top: 110px;
+  }
+  .legal-prose a { color: var(--color-brand-rust); text-decoration: underline; }
+  .legal-prose a:hover { color: var(--color-brand-rust-bright); }
+  @media (max-width: 700px) {
+    .legal-title-bar { padding: 120px 16px 36px; }
+  }
+</style>

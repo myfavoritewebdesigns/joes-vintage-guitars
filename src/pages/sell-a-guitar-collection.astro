@@ -1,9 +1,10 @@
 ---
-import { Image } from "astro:assets";
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
+import InstagramEmbeds from "../components/InstagramEmbeds.astro";
 import FAQ from "../components/FAQ.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { SITE_URL, contact } from "../config/site";
 import testimonialsRaw from "../../reference/collection-testimonials.json";
 
@@ -232,7 +233,8 @@ const structuredData = [
 >
   <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
   <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
-  <script slot="head" is:inline async src="https://www.instagram.com/embed.js"></script>
+
+  <InstagramEmbeds />
 
   <!-- 1. Hero — dark-brown bg, large title + subtitle, intro-box with 4 paragraphs and a jump button -->
   <section class="smc-hero">
@@ -308,7 +310,7 @@ const structuredData = [
         <a href={`tel:${contact.tel}`} class="smc-btn smc-btn--rust">{contact.phone}</a>
       </div>
       <div class="smc-buyappraise__photo">
-        <Image
+        <LicensedImage
           src={imgMeta("i-buy-and-appraise-vintage-guitars.png")}
           alt="Joe Dampt Buys And Appraises Guitar Collections Online Or In Person"
           width={520}
@@ -325,7 +327,7 @@ const structuredData = [
         {featureCols.map((c) => (
           <div class="smc-nationwide__col">
             <img src={c.icon} alt={c.iconAlt} class="smc-nationwide__icon" loading="lazy" />
-            <Image src={c.photo} alt={c.photoAlt} class="smc-nationwide__photo" width={340} />
+            <LicensedImage src={c.photo} alt={c.photoAlt} class="smc-nationwide__photo" width={340} />
             <hr class="smc-rule" />
             <h4 set:html={c.headline} />
             <p set:html={c.body} />
@@ -407,7 +409,7 @@ const structuredData = [
           </div>
         </div>
         <div class="smc-inherited__photo">
-          <Image
+          <LicensedImage
             src={imgMeta("blog5.jpg")}
             alt="Appraise And Sell Your Inherited Guitar Collection At Joe&rsquo;s Vintage Guitars"
             width={340}

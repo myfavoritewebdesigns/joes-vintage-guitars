@@ -122,25 +122,31 @@ const bullets = [
           </label>
 
           <fieldset>
-            <legend class="text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Best Way To Reply:</legend>
-            <div class="mt-2 flex flex-wrap items-center gap-5 text-brand-brown">
+            <legend class="block w-full text-center text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Best Way To Reply:</legend>
+            <div class="mt-2 flex flex-wrap items-center justify-center gap-5 text-brand-brown">
               {replyMethods.map((opt) => (
                 <label class="inline-flex items-center gap-2 text-[14px] font-semibold">
                   <input type="radio" name="reply" value={opt} class="accent-brand-rust-bright" />
                   {opt}
                 </label>
               ))}
-              <button
-                type="submit"
-                class="ml-auto inline-block bg-brand-rust-bright px-7 py-3 font-bold uppercase tracking-wide text-white transition hover:bg-brand-rust-dark"
-                style="font-family:var(--font-display);"
-              >
-                Sell Your Vintage Guitar
-              </button>
             </div>
           </fieldset>
 
-          <p class="text-xs italic text-brand-brown">
+          {/* contact-form.ts injects the hCaptcha widget right before this button,
+              so keeping the button in its own centered flex column centers the
+              captcha + the submit together, relative to the form. */}
+          <div class="flex flex-col items-center gap-2">
+            <button
+              type="submit"
+              class="inline-block bg-brand-rust-bright px-7 py-3 font-bold uppercase tracking-wide text-white transition hover:bg-brand-rust-dark"
+              style="font-family:var(--font-display);"
+            >
+              Sell Your Vintage Guitar
+            </button>
+          </div>
+
+          <p class="text-center text-xs italic text-brand-brown">
             *If you have photos, you will have the option to upload them after clicking submit
           </p>
         </form>

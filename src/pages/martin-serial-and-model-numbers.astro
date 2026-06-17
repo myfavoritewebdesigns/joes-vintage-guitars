@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
@@ -25,7 +25,7 @@ import { contact, SITE_URL } from "../config/site";
    ============================================================ */
 
 const img = (file: string) => assetSrc("images/martin-serial/" + file);
-// Metadata twin for <Image>; files verified to exist in src/assets/images/martin-serial/.
+// Metadata twin for <LicensedImage>; files verified to exist in src/assets/images/martin-serial/.
 const imgMeta = (file: string) => resolveImage("images/martin-serial/" + file)!;
 
 // Guitar serials — full a/b ranges, 1898 to 2024 (127 entries).
@@ -88,7 +88,7 @@ const jumpNav = [
 ];
 
 // Page-specific JSON-LD: BreadcrumbList + Article
-const structuredData = [
+const structuredData: Record<string, unknown>[] = [
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -106,6 +106,66 @@ const structuredData = [
     mainEntityOfPage: SITE_URL + "/martin-serial-and-model-numbers/",
   },
 ];
+
+// WebApplication node for the on-page decoder. Parity fix: the Guild, Gibson,
+// and Gretsch guides all carry this for the identical tool; the Martin page
+// was the only serial guide missing it.
+const toolSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Martin Serial Number Decoder",
+  applicationCategory: "UtilityApplication",
+  operatingSystem: "All",
+  url: SITE_URL + "/martin-serial-and-model-numbers/",
+  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+  description:
+    "Free tool that dates Martin guitars, ukuleles, and mandolins from their serial number using Martin's Nazareth factory records, 1898 to today.",
+};
+
+// FAQ content (visible accordion below + FAQPage schema). Seeded from real
+// Martin dating search queries.
+const faqs = [
+  { q: "How do I read a Martin serial number?", a: "<p>Find the serial number, then match it to the year. Martin has used one continuous serial sequence on its guitars since 1898, so the number alone dates the instrument. Enter it in the lookup tool above, or match it against the chart for its era on this page.</p>" },
+  { q: "Where is the serial number on a Martin guitar?", a: "<p>On guitars it is stamped on the neck block inside the body, visible through the soundhole. Mandolins, ukuleles, and Little Martin LX models use separate sequences, so pick the right instrument type in the tool above.</p>" },
+  { q: "How do I date my vintage Martin?", a: "<p>The serial number is the most reliable starting point. The lookup tool cross-references Martin's Nazareth factory records to return the year. Construction details such as bracing, frets, and rosewood type then confirm the era.</p>" },
+  { q: "What is a pre-war Martin?", a: "<p>A pre-war Martin is one built before 1944, the year Martin stopped scalloping its braces. Guitars made before 1941 are the most sought after, and the 1969 switch from Brazilian to Indian rosewood is another key value line.</p>" },
+  { q: "How much is my vintage Martin worth?", a: "<p>Value depends on the model, year, condition, and originality, and ranges from a few hundred dollars to six figures for a pre-war example. See my <a href=\"/martin-d-28-d-18-d-45-dreadnought-value-guide/\">Martin dreadnought value guide</a> or send me photos for a free appraisal.</p>" },
+];
+
+// FAQPage schema mirrors the visible accordion. stripTags keeps the JSON-LD
+// answer text plain even though the answers carry inline HTML.
+const stripTags = (s: string) => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: stripTags(f.a) },
+  })),
+};
+
+// HowTo for the decoder tool (mirrors the Gibson guide's pattern). The steps
+// describe using the on-page decoder, so the markup stays truthful.
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Decode a Martin Guitar Serial Number",
+  description:
+    "Use this free tool to identify the year your Martin guitar, ukulele, or mandolin was made from its serial number.",
+  tool: [
+    { "@type": "HowToTool", name: "Martin instrument serial number" },
+    { "@type": "HowToTool", name: "Joe's Vintage Guitars Free Martin Decoder Tool" },
+  ],
+  step: [
+    { "@type": "HowToStep", position: 1, name: "Locate your serial number", text: "Find the serial number stamped on the neck block, visible through the soundhole on guitars." },
+    { "@type": "HowToStep", position: 2, name: "Choose your instrument type", text: "Select guitar, Little Martin LX, mandolin, or ukulele so the tool reads the correct serial sequence." },
+    { "@type": "HowToStep", position: 3, name: "Enter your serial number", text: "Type your number into the field and press Find Year." },
+    { "@type": "HowToStep", position: 4, name: "Review your result", text: "The tool returns the year your Martin was made based on Martin's Nazareth factory records." },
+  ],
+};
+
+structuredData.push(toolSchema, howToSchema, faqSchema);
 ---
 
 <Layout
@@ -183,7 +243,7 @@ const structuredData = [
       <h2 id="where-to-find-your-martin-guitar-model-and-serial-number">Where Is The Serial Number Located?</h2>
       <p>On all vintage Martin acoustic guitars, the serial number is stamped on the <strong>neck block</strong> inside the soundhole. The neck block is the heavy piece of wood inside the guitar where the neck joins the body. The top number is the model number (e.g., D-28), and the lower one is the serial number. Martin guitars made before October 1930 do not have the Model number stamped.</p>
       <figure class="msn-figure">
-        <Image
+        <LicensedImage
           src={imgMeta("Model-Name-Serial-Number-Martin.jpg")}
           alt="Martin Serial Number Stamped on Neck Block"
           width={1096}
@@ -335,7 +395,7 @@ const structuredData = [
             </div>
             <p><strong>Waverly 12:1 &ldquo;3-Hump&rdquo;:</strong> Plates with three distinct curves and sharp corners.<br /><strong>&ldquo;Teddy Bear&rdquo; Waverlys:</strong> Rare variant with a silhouette like a bear&rsquo;s head.<br /><strong>Grey Klusons (1943-44):</strong> Dull, non-plated, thin-geared flat plate tuners.<br /><strong>Style 17:</strong> Simple 3-on-a-strip gears with exposed rivets.</p>
             <figure class="msn-figure-inline">
-              <Image src={imgMeta("Martin-wartime-tuners-plastic-buttons-no-bushings-scaled.jpg")} alt="Vintage Martin Wartime Tuners No Bushings" width={488} />
+              <LicensedImage src={imgMeta("Martin-wartime-tuners-plastic-buttons-no-bushings-scaled.jpg")} alt="Vintage Martin Wartime Tuners No Bushings" width={488} />
               <figcaption>Vintage Martin Wartime Tuners (Plastic Buttons, No Bushings)</figcaption>
             </figure>
           </div>
@@ -344,17 +404,17 @@ const structuredData = [
             <h4>Post-War &amp; Transition (1946 to 1960s)</h4>
             <p><strong>Waverly &ldquo;Round-end&rdquo;:</strong> Return to smooth, scalloped plate ends.</p>
             <figure class="msn-figure-inline">
-              <Image src={imgMeta("martin-tuners-waverly-round-end-scaled.jpeg")} alt="Vintage Martin Waverly Round-End Tuners" width={488} />
+              <LicensedImage src={imgMeta("martin-tuners-waverly-round-end-scaled.jpeg")} alt="Vintage Martin Waverly Round-End Tuners" width={488} />
               <figcaption>Vintage Martin Waverly Round-End Tuners</figcaption>
             </figure>
             <p><strong>Kluson Post-War Hex:</strong> Features a distinctive six-sided gear housing.</p>
             <figure class="msn-figure-inline">
-              <Image src={imgMeta("martin-tuners-hexagonal-kluson-scaled.jpeg")} alt="Vintage Martin Hexagonal Kluson Tuners" width={488} />
+              <LicensedImage src={imgMeta("martin-tuners-hexagonal-kluson-scaled.jpeg")} alt="Vintage Martin Hexagonal Kluson Tuners" width={488} />
               <figcaption>Vintage Martin Kluson Hexagonal Tuners</figcaption>
             </figure>
             <p><strong>Kluson Deluxe:</strong> Classic &ldquo;closed-back&rdquo; with a vertical line of text stamped into the housing.<br /><strong>Nickel Waffle-Backs:</strong> Heavy-duty Klusons with a textured pattern, often on Style 45s.</p>
             <figure class="msn-figure-inline">
-              <Image src={imgMeta("martin-kluson-waffle-back-tuners-scaled.jpg")} alt="Vintage Martin Kluson Waffle-Back Tuners" width={488} />
+              <LicensedImage src={imgMeta("martin-kluson-waffle-back-tuners-scaled.jpg")} alt="Vintage Martin Kluson Waffle-Back Tuners" width={488} />
               <figcaption>Vintage Martin Kluson Waffle-Back Tuners</figcaption>
             </figure>
           </div>
@@ -425,7 +485,7 @@ const structuredData = [
             <h4>Early External Body Stamp</h4>
             <p>On some of the earliest Martin models (1833 to mid-1800s), the company name was branded directly into the wood on the <strong>back of the body</strong>, just below the neck heel.</p>
             <figure class="msn-figure-inline">
-              <Image src={imgMeta("martin-back-of-body-logo-stamp.jpg")} alt="Vintage Martin Back of Body Wood Stamp" width={488} />
+              <LicensedImage src={imgMeta("martin-back-of-body-logo-stamp.jpg")} alt="Vintage Martin Back of Body Wood Stamp" width={488} />
               <figcaption>Vintage Martin Early External Body Stamp</figcaption>
             </figure>
           </div>
@@ -433,7 +493,7 @@ const structuredData = [
             <h4>Rear Headstock Stamp (Pre-1932)</h4>
             <p>Until 1932, there was typically no logo on the front of the headstock! Instead, the brand was stamped into the <strong>back</strong> of the headstock. This was usually paired with a matching internal wood stamp.</p>
             <figure class="msn-figure-inline">
-              <Image src={imgMeta("martin-guitar-back-of-headstock-stamp-scaled.jpg")} alt="Vintage Martin Back of Headstock Stamp" width={488} />
+              <LicensedImage src={imgMeta("martin-guitar-back-of-headstock-stamp-scaled.jpg")} alt="Vintage Martin Back of Headstock Stamp" width={488} />
               <figcaption>Vintage Martin Rear Headstock Stamp</figcaption>
             </figure>
           </div>
@@ -501,8 +561,23 @@ const structuredData = [
       <h2 id="what-is-my-martin-guitar-worth">Vintage Martin Guitar Values</h2>
       <p>Martin guitars run anywhere from a couple hundred dollars up to six figures. Pre-war guitars (made before 1941) are the most desirable and valuable. If you want help valuing or selling your Martin, <strong><a href="/contact-me/">contact me</a></strong>.</p>
       <figure class="msn-figure msn-figure--portrait">
-        <Image src={imgMeta("2003-martin-d-35-sunburst-683x1024.jpg")} alt="2003 Martin D-35 sunburst acoustic guitar" width={480} />
+        <LicensedImage src={imgMeta("2003-martin-d-35-sunburst-683x1024.jpg")} alt="2003 Martin D-35 sunburst acoustic guitar" width={480} />
       </figure>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="msn-section">
+    <div class="msn-inner">
+      <h2 id="martin-faq">Frequently Asked Questions</h2>
+      <div class="msn-faq">
+        {faqs.map((f, i) => (
+          <details class="msn-faq__item" open={i === 0}>
+            <summary>{f.q}</summary>
+            <div class="msn-faq__a" set:html={f.a}></div>
+          </details>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -1018,4 +1093,19 @@ const structuredData = [
     .post-content-table th,
     .post-content-table td { padding-left: 12px; padding-right: 12px; }
   }
+
+  /* FAQ accordion (cloned from the Gretsch guide for cross-page consistency) */
+  .msn-faq { margin: 0 0 1.6em; }
+  .msn-faq__item { border: 1px solid #e0cfa9; border-radius: 8px; margin-bottom: 10px; background: #fff; overflow: hidden; }
+  .msn-faq__item summary {
+    list-style: none; cursor: pointer; padding: 15px 18px;
+    font-family: var(--font-display, Oswald), sans-serif; font-size: 1.05rem; font-weight: 600;
+    color: var(--color-brand-brown, #3e2a14); position: relative; padding-right: 44px;
+  }
+  .msn-faq__item summary::-webkit-details-marker { display: none; }
+  .msn-faq__item summary::after { content: "+"; position: absolute; right: 18px; top: 50%; transform: translateY(-50%); font-size: 22px; color: var(--color-brand-rust, #a03a1e); line-height: 1; }
+  .msn-faq__item[open] summary::after { content: "−"; }
+  .msn-faq__item[open] summary { border-bottom: 1px solid #f0e7d4; }
+  .msn-faq__a { padding: 4px 18px 16px; }
+  .msn-faq__a p { margin: 0.6em 0; line-height: 1.65; font-size: 0.96rem; }
 </style>

@@ -1,9 +1,11 @@
 ---
-import { Image } from "astro:assets";
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
+import InstagramEmbeds from "../components/InstagramEmbeds.astro";
 import FAQ from "../components/FAQ.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import { buildImageGraph } from "../lib/imageLicense";
 import { SITE_URL, contact } from "../config/site";
 import testimonialsRaw from "../../reference/martin-testimonials.json";
 
@@ -18,8 +20,8 @@ import testimonialsRaw from "../../reference/martin-testimonials.json";
 const reviews: { name: string; link: string; body: string }[] = testimonialsRaw;
 
 // Instagram reels — exact post permalinks from live's sell-my-martin page.
-// Live loads www.instagram.com/embed.js which scans for any .instagram-media
-// blockquote and renders it as a styled iframe.
+// The deferred <InstagramEmbeds /> component lazy-loads IG's embed script on
+// scroll and renders each .instagram-media blockquote as a styled iframe.
 const igPosts = [
   {
     permalink: "https://www.instagram.com/reel/DV_coYfkz5t/",
@@ -135,6 +137,16 @@ const models = [
   },
 ];
 
+// One model card (the Martin Electric / d-28-e) only exists in public/ and renders
+// as a raw <img> via img() (string src), so it is licensed here with its exact
+// rendered src. Every other content photo self-licenses via <LicensedImage>.
+const licensedImages = await buildImageGraph([
+  {
+    renderedSrc: img("1959-martin-d-28-e-1-1024x683.jpg"),
+    alt: "Martin GPC Acoustic Guitar with Rich Tone and Smooth Playability",
+  },
+]);
+
 // Page-specific JSON-LD: FAQPage + BreadcrumbList + Article.
 // Mirrors live JSON-LD blocks 1 (BreadcrumbList + Article), 4 (FAQPage).
 const structuredData = [
@@ -171,6 +183,7 @@ const structuredData = [
     publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
     mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/",
   },
+  ...licensedImages,
 ];
 ---
 
@@ -186,9 +199,7 @@ const structuredData = [
   <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
   <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
 
-  <!-- Instagram embed script — scans every `.instagram-media` blockquote and
-       renders it as a styled IG iframe. Same script live loads. -->
-  <script slot="head" is:inline async src="https://www.instagram.com/embed.js"></script>
+  <InstagramEmbeds />
 
   <!-- 1. Hero — solid linear-gradient (NOT a photo like Fender).
        Verified via live DOM: `--awb-background-image:linear-gradient(180deg, #612211 0%,#682412 100%)` on .tp-bnr. -->
@@ -210,7 +221,7 @@ const structuredData = [
           There&rsquo;s something special about a Martin acoustic. <strong>Martins mean a lot to me, and I&rsquo;m always looking to buy vintage ones.</strong> I want Martin D-18s, D-28s, 0-18s, 00-18s, 000-18s, 000-28s, D-45s, and just about any other vintage Martin. If you&rsquo;re looking for someone to buy your Martin, you&rsquo;ve come to the right place. I&rsquo;ll make you a fair cash offer, then play it myself or make sure it goes to someone who will. And if you just want to know what your Martin is worth, I can tell you. If you&rsquo;ve got a vintage Martin you&rsquo;d like to sell, call or text me at <a href={`tel:${contact.tel}`} class="smm-underline"><strong>{contact.phone}</strong></a> or email me at <a href={`mailto:${contact.email}`} class="smm-underline"><strong>{contact.email}</strong></a>.
         </p>
         <div class="smm-intro__photo">
-          <Image
+          <LicensedImage
             src={imgMeta("Model-Name-Serial-Number-Martin-1024x683.jpg")}
             alt="Model Name and Serial Number on a Martin Acoustic Guitar"
             loading="eager"
@@ -299,7 +310,7 @@ const structuredData = [
         </p>
       </div>
       <div class="smm-split__photo">
-        <Image
+        <LicensedImage
           src={imgMeta("1929-martin-00-21-1-1024x683.jpg")}
           alt="Vintage Martin Acoustic Guitar In Purple Case At Joe&rsquo;s Vintage Guitars"
           width={520}
@@ -316,7 +327,7 @@ const structuredData = [
   <section id="how-much-is-my-gibson-guitar" class="smm-split smm-split--alt">
     <div class="smm-inner smm-split__grid smm-split__grid--reverse">
       <div class="smm-split__photo">
-        <Image
+        <LicensedImage
           src={imgMeta("1945-martin-d-18-1-1024x683.jpg")}
           alt="Free Vintage Martin Acoustic Guitar Appraisal at Joe&rsquo;s Vintage Guitars"
           width={520}
@@ -347,7 +358,7 @@ const structuredData = [
         </p>
       </div>
       <div class="smm-split__photo">
-        <Image
+        <LicensedImage
           src={imgMeta("1955-martin-d-18-1-1024x683.jpg")}
           alt="1955 Martin D-18 Guitar in Excellent Condition Available at Joe&rsquo;s Vintage Guitars"
           width={520}
@@ -464,12 +475,12 @@ const structuredData = [
         </p>
       </div>
       <div class="smm-case__photos">
-        <Image
+        <LicensedImage
           src={imgMeta("Copy-of-IMG_1620-600x800.jpg")}
           alt="Former Vintage Guitar Owner with Martin Guitar at Joe&rsquo;s Vintage Guitars"
           width={440}
         />
-        <Image
+        <LicensedImage
           src={imgMeta("linda-1950s-with-martin-0-18-768x1024.jpg")}
           alt="Black and white 1950s historical photo of Linda playing her vintage Martin 0-18 on the radio. Joe&rsquo;s Vintage Guitars specializes in buying Martin guitars with documented history and provenance."
           width={440}
@@ -489,7 +500,7 @@ const structuredData = [
             {typeof m.img === "string" ? (
               <img src={m.img} alt={m.alt} loading="lazy" />
             ) : (
-              <Image src={m.img} alt={m.alt} width={260} />
+              <LicensedImage src={m.img} alt={m.alt} width={260} />
             )}
             <h4>{m.title}</h4>
             <p set:html={m.body} />

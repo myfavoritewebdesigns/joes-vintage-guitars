@@ -2,10 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import PageHero from "../components/primitives/PageHero.astro";
 import Button from "../components/primitives/Button.astro";
+import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
 import { contact, hrefs } from "../config/site";
 
-const structuredData = [
+const structuredData: Record<string, unknown>[] = [
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -44,6 +45,28 @@ const prices = [
   { m: "D-18 (1950 to 1959)", v: "$7,000 to $11,000" },
   { m: "D-18 (1960 to 1969)", v: "$3,000 to $6,000" },
 ];
+
+const faqs = [
+  { q: "How much is a vintage Martin dreadnought worth?", a: "It depends on the model, era, and condition. A pre-war D-45 can reach $450,000 to $675,000, a pre-war D-28 runs $80,000 to $300,000, and later 1950s and 1960s D-18s start around $3,000. Originality and any needed repairs move the number the most." },
+  { q: "Which Martin is most valuable, the D-18, D-28, or D-45?", a: "As a rule the D-45 is the most valuable, then the D-28, then the D-18. Within each model the earlier the build date the higher the value, with pre-war examples at the very top." },
+  { q: "What is a pre-war Martin?", a: "A pre-war Martin is one built before 1944, the year Martin stopped scalloping its braces and made other wartime changes. Pre-war guitars are the most sought after and command the highest prices." },
+  { q: "How do I tell what year my Martin is?", a: "The serial number stamped inside the body, on the neck block, dates the guitar. You can match your number to the year in my <a href=\"/martin-serial-and-model-numbers/\">Martin serial number guide</a>." },
+  { q: "Does a refinish or a neck reset affect value?", a: "Yes. A factory or aftermarket refinish cuts value by about half. Structural issues such as a needed neck reset, loose braces, or a worn bridge plate also pull the price down, even when the guitar looks clean." },
+];
+
+// FAQPage schema mirrors the visible <FAQ> above. stripTags keeps the JSON-LD
+// answer text plain even when an answer carries inline HTML (e.g. a link).
+const stripTags = (s: string) => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: stripTags(f.a) },
+  })),
+};
+structuredData.push(faqSchema);
 ---
 
 <Layout
@@ -151,6 +174,8 @@ const prices = [
       </div>
     </div>
   </section>
+
+  <FAQ faqs={faqs} mainTitle="FAQs:" subTitle="Vintage Martin Dreadnought Values" sectionId="martin-dreadnought-faqs" />
 
   <ContactSection />
 </Layout>

@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { contact, hrefs, SITE_URL } from "../config/site";
@@ -128,7 +128,7 @@ const structuredData = [
             <div id="amp-result" class="fas-tool__result" role="status" aria-live="polite"></div>
           </div>
           <figure class="fas-tool__figure">
-            <Image
+            <LicensedImage
               src={imgMeta("Princeton-Tube-Chart.jpg")}
               alt="Fender amplifier tube chart with the ink-stamped two-letter date code. The first letter is the year and the second letter is the month."
               loading="eager"
@@ -160,7 +160,7 @@ const structuredData = [
       </details>
 
       <p class="fas-figure-wrap">
-        <Image
+        <LicensedImage
           src={imgMeta("champ.jpg")}
           alt="Vintage Fender amplifier with worn tweed covering, perfect for determining the Fender amplifier's age"
           width={800}
@@ -194,7 +194,7 @@ const structuredData = [
           ))}
         </ul>
         <div class="fas-amplifier-numbers__photo">
-          <Image
+          <LicensedImage
             src={imgMeta("Princeton-Tube-Chart.jpg")}
             alt="Tube chart inside a vintage Fender amplifier, showing a two-letter code used to determine the amp's production year"
             width={377}
@@ -217,7 +217,7 @@ const structuredData = [
         Fender amps from this era have a light brown tweed covering and a brown &ldquo;Fender&rdquo; plaque on the front. The control knobs are on the top side of the amp.
       </p>
       <p class="fas-figure-wrap">
-        <Image
+        <LicensedImage
           src={imgMeta("Princeton-Edited.jpg")}
           alt="Vintage Fender amplifier with classic tweed covering, a signature look of Fender amps from the 1940s to 1950s"
           width={800}
@@ -229,12 +229,12 @@ const structuredData = [
         Amps from this era have either a blonde colored tolex or a brown colored tolex and have the control knobs on the front of the amp.
       </p>
       <div class="fas-twoup">
-        <Image
+        <LicensedImage
           src={imgMeta("brownface-edited.jpg")}
           alt="Vintage Fender amplifier with classic brownface design, a hallmark of Fender amps from the early 1960s"
           width={540}
         />
-        <Image
+        <LicensedImage
           src={imgMeta("blonde-edited.jpg")}
           alt="Vintage Fender amplifier with classic blonde tolex finish, a signature style from the early 1960s era"
           width={540}
@@ -246,7 +246,7 @@ const structuredData = [
         Amps from this era are covered in black tolex and have a black control panel with the amp model written in a white script.
       </p>
       <p class="fas-figure-wrap">
-        <Image
+        <LicensedImage
           src={imgMeta("Blackface-Edited.jpg")}
           alt="Vintage Fender amplifier with iconic blackface design, known for its rich sound and style from the mid-1960s"
           width={800}
@@ -258,7 +258,7 @@ const structuredData = [
         Amps from this era still have the same black tolex covering, but they have a shiny silver faceplate with the model in blue lettering.
       </p>
       <p class="fas-figure-wrap">
-        <Image
+        <LicensedImage
           src={imgMeta("Silverface-Edited.jpg")}
           alt="Vintage Fender amplifier with a distinctive silverface design, popular from the late 1960s to the 1970s"
           width={800}
@@ -277,7 +277,7 @@ const structuredData = [
         If after identifying your amp&rsquo;s year you decide it&rsquo;s time to <a href="/sell-an-amplifier-or-effect/"><strong>sell your amplifier or effect</strong></a>, Joe&rsquo;s Vintage Guitars makes the process simple and fair.
       </p>
       <p class="fas-figure-wrap">
-        <Image
+        <LicensedImage
           src={imgMeta("Speaker-Codes-scaled.jpg")}
           alt="Close-up of a vintage Fender amplifier's speaker code, showing the 3-digit manufacturer code, year digit, and week of production for dating purposes"
           width={600}

@@ -4,7 +4,7 @@ import PageHero from "../components/primitives/PageHero.astro";
 import SectionHeader from "../components/primitives/SectionHeader.astro";
 import Button from "../components/primitives/Button.astro";
 import { contact, hrefs } from "../config/site";
-import { Image } from "astro:assets";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { resolveImage } from "../lib/images";
 
 // FAQPage JSON-LD — sourced from live JSON-LD #4
@@ -284,7 +284,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
             <p class="fa-step__body" set:html={s.body} />
           </div>
           <div class="fa-step__photo">
-            <Image src={s.img} alt={s.alt} width={510} />
+            <LicensedImage src={s.img} alt={s.alt} width={510} />
           </div>
         </article>
       ))}
@@ -358,7 +358,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
           <div class={`fa-case__photo${c.photos.length <= 2 ? " fa-case__photo--stack" : ""}`}>
             {c.photos.map((p) => (
               <figure class="fa-case__shot">
-                <Image src={p.src} alt={p.alt} width={c.photos.length <= 2 ? 680 : 420} />
+                <LicensedImage src={p.src} alt={p.alt} width={c.photos.length <= 2 ? 680 : 420} />
                 <figcaption>{p.caption}</figcaption>
               </figure>
             ))}
@@ -390,12 +390,12 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
       </header>
       <div class="fa-vs__grid">
         <article class="fa-vs__card">
-          <Image src={resolveImage("images/couple-with-guitar.jpg")!} alt="Couple receiving free guitar valuation" width={510} />
+          <LicensedImage src={resolveImage("images/couple-with-guitar.jpg")!} alt="Couple receiving free guitar valuation" width={510} />
           <h3>Free Expert Market Valuation</h3>
           <p>This is the &ldquo;straight-talk&rdquo; option. Use this if you&rsquo;re thinking about selling, found a family heirloom, or just want to know what your guitar is actually worth in today&rsquo;s economy. It&rsquo;s an informal assessment based on actual sales data, not the &lsquo;dreamer&rsquo; asking prices you see all over the internet.</p>
         </article>
         <article class="fa-vs__card">
-          <Image src={resolveImage("images/insurance-appraisal-document.jpg")!} alt="Official insurance appraisal document" width={510} />
+          <LicensedImage src={resolveImage("images/insurance-appraisal-document.jpg")!} alt="Official insurance appraisal document" width={510} />
           <h3>Official Insurance Appraisals</h3>
           <p>If you need a formal, legal document for an insurance rider, a tax donation, or an estate, you&rsquo;ll need this instead. I provide a detailed, signed report on Joe&rsquo;s Vintage Guitars letterhead that meets the strict requirements of major insurers. This covers the deep-dive research and the professional liability that comes with a certified valuation.</p>
         </article>
@@ -481,7 +481,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
         </ul>
       </div>
       <div class="fa-collection__photo">
-        <Image src={resolveImage("images/large-vintage-guitar-collection.jpg")!} alt="Large collection of vintage electric guitars" width={440} />
+        <LicensedImage src={resolveImage("images/large-vintage-guitar-collection.jpg")!} alt="Large collection of vintage electric guitars" width={440} />
       </div>
     </div>
   </section>
@@ -503,7 +503,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
                 {p.media && (
                   <div class={`fa-fakes__media fa-fakes__media--${p.media.length}`}>
                     {p.media.map((m) => (
-                      <Image src={m.src} alt={m.alt} width={400} />
+                      <LicensedImage src={m.src} alt={m.alt} width={400} />
                     ))}
                   </div>
                 )}
