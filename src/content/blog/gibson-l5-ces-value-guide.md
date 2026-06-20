@@ -12,7 +12,7 @@ metaDescription: "A history of the Gibson L-5 CES, the electric archtop that set
 ogImage: "/images/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-1969-scaled.jpg"
 wpId: 19327
 ---
-Looking for the value of your Gibson L-5 CES? Need to know its history, features, and how to spot a fake? You’ve come to the right place. Read on for the full story of this instrument, and when you’re ready for a valuation, reach out to us for a [**free appraisal.**](/vintage-guitar-appraisal/)
+Looking for the value of your Gibson L-5 CES? Need to know its history, features, and how to spot a fake? You’ve come to the right place. Read on for the full story of this instrument, and when you’re ready for a valuation, reach out to us for a [**free appraisal.**](/free-appraisal/)
 
 If the archtop guitar is the top of the guitar world, the Gibson L-5 sits at the head of it. Since its introduction as an acoustic instrument in the 1920s, and its move to the electric L-5 CES in the 1950s, this guitar has been a top choice for jazz, blues, and pop guitarists who want great tone, craftsmanship, and prestige.
 

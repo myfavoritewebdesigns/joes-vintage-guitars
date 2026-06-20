@@ -141,7 +141,7 @@ While a 1956 and 1957 Goldtop might look identical from a distance, they represe
 
 Authenticating a 1957 Les Paul Standard requires an eye for the smallest details, from the “Patent Applied” stamp on the tuners to the tool marks in a “stepped” control cavity. At Joe’s Vintage Guitars, we specialize in the “Golden Era” of Gibson production. We provide full UV black light testing and professional internal inspections to verify every solder joint and screw.
 
-If you’ve come across a ’57 Goldtop and need a definitive answer on its history, our **[Professional Appraisal Services](/vintage-guitar-appraisal/)** are the industry standard. Ready to move your instrument to its next home? You can **[sell your vintage guitar](/)** to us with confidence, knowing you are getting a fair, expert valuation from a shop that knows these guitars well.
+If you’ve come across a ’57 Goldtop and need a definitive answer on its history, our **[Professional Appraisal Services](/free-appraisal/)** are the industry standard. Ready to move your instrument to its next home? You can **[sell your vintage guitar](/)** to us with confidence, knowing you are getting a fair, expert valuation from a shop that knows these guitars well.
 
 ![A full-length front view of an original 1957 Gibson Les Paul Standard, showcasing the iconic bullion gold top, dual nickel-covered PAF humbuckers, and the classic single-cutaway mahogany body design.](../../assets/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-full-body-shot-683x1024.jpg)
 

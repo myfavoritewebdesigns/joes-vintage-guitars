@@ -14,7 +14,7 @@ wpId: 20616
 ---
 The **Gibson ES-330** sits in an odd spot in the post-war electric guitar story. It's a fully hollow thinline with a short-neck 16th-fret joint, a pair of dogear P-90s, and a price tag aimed at the working player who wanted something new but couldn't stretch to an ES-335. From its 1959 introduction through the transitional years of the early 1960s, the 330 went through a long list of small but meaningful specification changes. The early examples wearing pearl dot inlays and single-layer body binding are the ones collectors and players hunt for today, and the details that separate a first-year 1959 from a 1962 late-dot-neck guitar are easy to miss if you don't know what you're looking at. This guide covers every spec we have documented, in as much depth as the historical record allows.
 
-If you're hunting one of these guitars, browse our current inventory of [vintage Gibsons](/shop/) or read our broader guide to [vintage guitar collecting](/blog/). Got questions about a specific instrument, or want to know what yours is worth? [Reach out directly](/contact/) or request a [free appraisal](/free-appraisal/). We're always happy to talk specs.
+If you're hunting one of these guitars, browse our current inventory of [vintage Gibsons](https://reverb.com/shop/joe-s-gear-emporium-4) or read our broader guide to [vintage guitar collecting](/blog/). Got questions about a specific instrument, or want to know what yours is worth? [Reach out directly](/contact-me/) or request a [free appraisal](/free-appraisal/). We're always happy to talk specs.
 
 ## In This Guide
 
@@ -456,7 +456,7 @@ From approximately 1960 through the end of the dot-neck era and beyond, the stan
 
 <h2 id="buying-guide">Buying Guide: What to Look For</h2>
 
-If you're in the market for a dot-neck ES-330, the following checklist covers the most important inspection points. Browse our current inventory of [vintage Gibson ES models](/shop/), and feel free to reach out for detailed condition reports and photographs of specific instruments.
+If you're in the market for a dot-neck ES-330, the following checklist covers the most important inspection points. Browse our current inventory of [vintage Gibson ES models](https://reverb.com/shop/joe-s-gear-emporium-4), and feel free to reach out for detailed condition reports and photographs of specific instruments.
 
 -   Original finish: check heel, pickup routes, and control cavity for overspray under UV light
 -   Pot date codes consistent with the claimed year
@@ -494,6 +494,6 @@ The dot-neck ES-330 is one of the great underappreciated instruments of Gibson's
 
 The specification changes across 1959 to 1962 are real and meaningful, particularly in the neck profile evolution and the knob and saddle material transitions. A 1959 example feels very different in the hand than a 1962. The neck profile alone separates them. Knowing which end of that spectrum suits you is worth thinking about before you commit. Both are legitimate vintage instruments. They're just different tools.
 
-If you're searching for a dot-neck ES-330 or want to discuss a specific example you've found, visit our [shop](/shop/) or use our [contact page](/contact/) to reach out. If you already own one and are thinking about selling, our [Gibson consignment and buying page](/sell-my-gibson-guitar/) explains how we work with sellers. We've handled many of these instruments over the years, and we're always glad to help you buy one or find the right home for one you already own.
+If you're searching for a dot-neck ES-330 or want to discuss a specific example you've found, visit our [shop](https://reverb.com/shop/joe-s-gear-emporium-4) or use our [contact page](/contact-me/) to reach out. If you already own one and are thinking about selling, our [Gibson consignment and buying page](/sell-my-gibson-guitar/) explains how we work with sellers. We've handled many of these instruments over the years, and we're always glad to help you buy one or find the right home for one you already own.
 
-**Looking for related reading?** Explore our guides to other classic Gibsons on our [blog](/blog/), browse available vintage inventory in our [shop](/shop/), or get a [free appraisal](/free-appraisal/) on a guitar you own.
+**Looking for related reading?** Explore our guides to other classic Gibsons on our [blog](/blog/), browse available vintage inventory in our [shop](https://reverb.com/shop/joe-s-gear-emporium-4), or get a [free appraisal](/free-appraisal/) on a guitar you own.

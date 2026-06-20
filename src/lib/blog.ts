@@ -55,11 +55,53 @@ export function postsInCategory(posts: Post[], slug: string): Post[] {
   return posts.filter((p) => p.data.category === slug);
 }
 
-/** Up to `n` related posts: same category first, then recent, never the post itself. */
+// Generic words that carry no topical signal — dropped before scoring so the
+// match is driven by brand/model/era tokens (gibson, es, 335, telecaster, 1959…).
+const RELATED_STOPWORDS = new Set(
+  "the a an and or of to for your you why how is are was this that with what when which it its as at by from has have not but vintage guitar guitars guide guides value history identify identifying authentication authenticating complete ultimate real best top classic story market worth selling sell buy buying collector collectors players player".split(
+    " ",
+  ),
+);
+
+/** Topical tokens for a post: brand/model/era words from its slug + title. */
+function relatedTokens(p: Post): Set<string> {
+  const text = `${p.id} ${p.data.title}`.toLowerCase();
+  const out = new Set<string>();
+  for (const t of text.split(/[^a-z0-9]+/)) {
+    if (t.length >= 2 && !RELATED_STOPWORDS.has(t)) out.add(t);
+  }
+  return out;
+}
+
+/**
+ * Up to `n` related posts, ranked by topical relevance rather than recency.
+ * Each candidate scores on shared slug/title tokens weighted by inverse document
+ * frequency (rare model tokens like "335" or "l5" outweigh common ones like
+ * "gibson"), plus a small same-category nudge; ties break by recency. Always
+ * returns `n` posts (falls back to recency for thin matches), never the post
+ * itself. Replaces the old same-category-newest-first logic, which surfaced the
+ * 3 newest posts in the largest category on nearly every page.
+ */
 export function getRelated(posts: Post[], current: Post, n = 3): Post[] {
-  const sameCat = posts.filter((p) => p.id !== current.id && p.data.category === current.data.category);
-  const rest = posts.filter((p) => p.id !== current.id && p.data.category !== current.data.category);
-  return [...sameCat, ...rest].slice(0, n);
+  const others = posts.filter((p) => p.id !== current.id);
+  const tokenSets = new Map<string, Set<string>>();
+  const df = new Map<string, number>();
+  for (const p of [current, ...others]) {
+    const ts = relatedTokens(p);
+    tokenSets.set(p.id, ts);
+    for (const t of ts) df.set(t, (df.get(t) ?? 0) + 1);
+  }
+  const cur = tokenSets.get(current.id)!;
+  return others
+    .map((p) => {
+      let score = 0;
+      for (const t of cur) if (tokenSets.get(p.id)!.has(t)) score += 1 / (df.get(t) ?? 1);
+      if (p.data.category === current.data.category) score += 0.15;
+      return { p, score };
+    })
+    .sort((a, b) => b.score - a.score || b.p.data.pubDate.getTime() - a.p.data.pubDate.getTime())
+    .slice(0, n)
+    .map((s) => s.p);
 }
 
 export function formatDate(d: Date): string {

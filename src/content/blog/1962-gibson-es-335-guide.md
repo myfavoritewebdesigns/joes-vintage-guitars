@@ -279,7 +279,7 @@ We don’t just look at the serial number; we go over every 1962 model that cros
 
 ### A Transparent Appraisal Process
 
-Whether you need an insurance valuation or a “fair market” price, our **[Official Appraisal Services](/vintage-guitar-appraisal/)** give you the documentation you need. We treat your 1962 ES-335 with care and give you a level of detail that big-box retailers don’t.
+Whether you need an insurance valuation or a “fair market” price, our **[Official Appraisal Services](/free-appraisal/)** give you the documentation you need. We treat your 1962 ES-335 with care and give you a level of detail that big-box retailers don’t.
 
 ### The Best Choice to Sell Your Gibson
 
