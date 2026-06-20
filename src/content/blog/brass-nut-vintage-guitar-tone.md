@@ -59,7 +59,7 @@ We know the vintage market well, from the “sustain mods” of the 80s back to 
 
 **Ready to learn more about your instrument? Explore our most popular resources:**
 
--   **Curious about what your gear is worth?** Get a professional [vintage guitar appraisal](/vintage-guitar-appraisal/) to see how modifications like these impact your specific instrument’s market price.
+-   **Curious about what your gear is worth?** Get a professional [vintage guitar appraisal](/free-appraisal/) to see how modifications like these impact your specific instrument’s market price.
     
 -   **Thinking of moving on?** We are always looking for high-quality pieces. If you want a fair, expert offer, visit our [we buy vintage guitars](/) page.
     

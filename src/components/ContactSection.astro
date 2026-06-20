@@ -88,8 +88,8 @@ const cityStateZip = `${contact.address.city}, ${contact.address.region} ${conta
             <textarea rows="5" name="comments"></textarea>
           </label>
 
-          <div class="jvgct__reply-row">
-            <span class="jvgct__reply-label">Best way to reply:</span>
+          <div class="jvgct__reply-row" role="radiogroup" aria-labelledby="jvgct-reply-label">
+            <span class="jvgct__reply-label" id="jvgct-reply-label">Best way to reply:</span>
             <div class="jvgct__radios">
               {replyMethods.map((opt) => (
                 <label class="jvgct__radio">

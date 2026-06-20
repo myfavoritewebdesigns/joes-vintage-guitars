@@ -100,6 +100,11 @@ const SMALL_WORDS = new Set(["the", "for", "to", "and", "or", "in", "on", "by", 
 
 // (e) Emoji in prose.
 const EMOJI = /\p{Extended_Pictographic}/gu;
+// Copyright / trademark / service-mark glyphs are classified as
+// Extended_Pictographic by Unicode but are legitimate legal marks, not AI-tell
+// emoji. They appear deliberately in image-license JSON-LD (creditText,
+// copyrightNotice) and brand copy, so they must not hard-fail the copy gate.
+const ALLOWED_PICTOGRAPHIC = new Set(["©", "®", "™", "℠"]);
 
 // WARN tier lexicon. Report only, never gates.
 const WARN_LEXICON = [
@@ -324,8 +329,10 @@ function checkPage(file) {
     }
 
     // (e) emoji in prose (visible text and alt only; JSON-LD/meta covered too
-    // since emoji never belongs in any of these surfaces)
+    // since emoji never belongs in any of these surfaces). Copyright/trademark
+    // marks are exempt — see ALLOWED_PICTOGRAPHIC.
     for (const m of text.matchAll(EMOJI)) {
+      if (ALLOWED_PICTOGRAPHIC.has(m[0])) continue;
       add("hard", "emoji", unit, m[0], context(text, m.index, m[0].length));
     }
 

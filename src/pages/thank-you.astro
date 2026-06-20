@@ -29,11 +29,11 @@ import { contact, hrefs } from "../config/site";
         <form id="jvg-photo-form" class="pu-form" novalidate>
           <div class="pu-grid">
             <div class="pu-fields">
-              <input id="pu-name" name="name" type="text" placeholder="Your name" autocomplete="name" />
-              <input id="pu-email" name="email" type="email" placeholder="Your email" autocomplete="email" required />
-              <input id="pu-phone" name="phone" type="tel" placeholder="Your phone (optional)" autocomplete="tel" />
+              <input id="pu-name" name="name" type="text" placeholder="Your name" aria-label="Your name" autocomplete="name" />
+              <input id="pu-email" name="email" type="email" placeholder="Your email" aria-label="Your email" autocomplete="email" required />
+              <input id="pu-phone" name="phone" type="tel" placeholder="Your phone (optional)" aria-label="Your phone (optional)" autocomplete="tel" />
             </div>
-            <textarea id="pu-message" name="message" rows="2" placeholder="Anything I should know about the guitar? (optional)"></textarea>
+            <textarea id="pu-message" name="message" rows="2" placeholder="Anything I should know about the guitar? (optional)" aria-label="Anything I should know about the guitar? (optional)"></textarea>
 
             <div id="pu-dropzone" class="pu-dropzone" role="button" tabindex="0" aria-label="Add photos by clicking or dragging files here">
               <input id="pu-input" type="file" accept="image/jpeg,image/png,image/gif,image/webp,image/heic,image/heif,.heic,.heif" multiple hidden />

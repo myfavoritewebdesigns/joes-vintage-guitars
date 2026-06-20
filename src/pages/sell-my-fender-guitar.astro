@@ -331,8 +331,8 @@ const structuredData = [
             <label for="smf-message">Tell us more about it <span class="smf-opt">(Optional)</span></label>
             <textarea id="smf-message" name="your-message" rows="5" maxlength="2000"></textarea>
           </div>
-          <div class="smf-reply">
-            <span class="smf-reply__label">Best Way To Reply:</span>
+          <div class="smf-reply" role="radiogroup" aria-labelledby="smf-reply-label">
+            <span class="smf-reply__label" id="smf-reply-label">Best Way To Reply:</span>
             <label class="smf-reply__opt"><input type="radio" name="best-reply" value="Call" /> Call</label>
             <label class="smf-reply__opt"><input type="radio" name="best-reply" value="Text" /> Text</label>
             <label class="smf-reply__opt"><input type="radio" name="best-reply" value="Email" /> Email</label>

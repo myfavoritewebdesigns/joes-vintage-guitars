@@ -118,7 +118,7 @@ The intricate “checkerboard” backstrip is a signature aesthetic of the D-28E
 
 ## Ready to Discover the Value of Your Vintage Martin?
 
-Whether you’ve inherited a rare “E” series Martin or you’re looking to clear space in your collection, it helps to know what these guitars are actually worth. Because these models are so often faked or converted, it’s worth having someone who knows them check the bracing and electronics before you buy or sell. If you’re ready to find out what your guitar is worth, visit our [appraisal page](/vintage-guitar-appraisal/) for an evaluation, or if you’re looking for a fair, straightforward offer from someone who knows the history of these ladder-braced guitars, head over to our [sell my guitar](/) page today.
+Whether you’ve inherited a rare “E” series Martin or you’re looking to clear space in your collection, it helps to know what these guitars are actually worth. Because these models are so often faked or converted, it’s worth having someone who knows them check the bracing and electronics before you buy or sell. If you’re ready to find out what your guitar is worth, visit our [appraisal page](/free-appraisal/) for an evaluation, or if you’re looking for a fair, straightforward offer from someone who knows the history of these ladder-braced guitars, head over to our [sell my guitar](/) page today.
 
 ![A full-length frontal shot of a 1959 Martin D-28E vintage acoustic-electric guitar, showcasing the dreadnought body shape, dual factory DeArmond pickups, and original gold hardware.](../../assets/blog/martin-d18e-vs-d28e-authentication-guide/1959-martin-d-28-e-2-683x1024.jpg)
 
