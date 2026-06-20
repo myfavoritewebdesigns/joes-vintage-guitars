@@ -170,8 +170,8 @@ const structuredData = [
             <span>Comments</span>
             <textarea name="your-message" rows="10" maxlength="2000"></textarea>
           </label>
-          <div class="cm-form__reply">
-            <span class="cm-form__reply-label">Best way to reply:</span>
+          <div class="cm-form__reply" role="radiogroup" aria-labelledby="cm-reply-label">
+            <span class="cm-form__reply-label" id="cm-reply-label">Best way to reply:</span>
             <label class="cm-form__reply-opt"><input type="radio" name="best-reply" value="Call" /> Call</label>
             <label class="cm-form__reply-opt"><input type="radio" name="best-reply" value="Text" /> Text</label>
             <label class="cm-form__reply-opt"><input type="radio" name="best-reply" value="Email" /> Email</label>

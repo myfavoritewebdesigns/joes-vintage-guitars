@@ -78,8 +78,8 @@ const structuredData = [
             <label for="sma-message">Tell us about your amp</label>
             <textarea id="sma-message" name="your-message" rows="5" maxlength="2000" placeholder="Brand, model, year if known, any details help"></textarea>
           </div>
-          <div class="sma-reply">
-            <span class="sma-reply__label">Best Way To Reply:</span>
+          <div class="sma-reply" role="radiogroup" aria-labelledby="sma-reply-label">
+            <span class="sma-reply__label" id="sma-reply-label">Best Way To Reply:</span>
             <label class="sma-reply__opt"><input type="radio" name="best-reply" value="Call" /> Call</label>
             <label class="sma-reply__opt"><input type="radio" name="best-reply" value="Text" /> Text</label>
             <label class="sma-reply__opt"><input type="radio" name="best-reply" value="Email" /> Email</label>

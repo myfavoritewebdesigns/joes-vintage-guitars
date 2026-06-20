@@ -10,16 +10,13 @@ const bullets = [
 ];
 ---
 
-<section class="relative" style="background: var(--color-brand-brown-tan);">
+<section class="relative bg-brand-brown-tan">
   <div class="grid grid-cols-1 lg:grid-cols-2">
     <!-- Left column: copy + bullets + contact -->
     <div class="relative px-6 py-14 sm:px-10 lg:py-20 lg:pl-[8%] lg:pr-12">
-      <h3
-        class="tct-l-headline relative inline-block font-bold text-brand-rust-dark"
-        style="font-size: clamp(28px, 3.5vw, 44px); line-height: 1.1; font-family: var(--font-display);"
-      >
+      <h2 class="tct-l-headline relative inline-block font-bold text-brand-rust-dark">
         Selling to Joe&rsquo;s Vintage Guitars Is Easy
-      </h3>
+      </h2>
 
       <ul class="mt-8 space-y-5">
         {bullets.map((b) => (
@@ -27,11 +24,7 @@ const bullets = [
             class="relative pl-9 text-brand-brown"
             style="font-size: clamp(17px, 2vw, 22px); line-height: 1.35; font-family: var(--font-display);"
           >
-            <span
-              aria-hidden="true"
-              class="absolute left-0 top-1 h-6 w-6"
-              style="background-image: url('/images/vellum-icon-01.jpg'); background-size: cover; background-position: center; mix-blend-mode: multiply;"
-            ></span>
+            <span aria-hidden="true" class="tct-bullet-icon absolute left-0 top-1 h-6 w-6"></span>
             {b}
           </li>
         ))}
@@ -39,11 +32,7 @@ const bullets = [
           class="relative pl-9 text-brand-brown"
           style="font-size: clamp(17px, 2vw, 22px); line-height: 1.35; font-family: var(--font-display);"
         >
-          <span
-            aria-hidden="true"
-            class="absolute left-0 top-1 h-6 w-6"
-            style="background-image: url('/images/vellum-icon-01.jpg'); background-size: cover; background-position: center; mix-blend-mode: multiply;"
-          ></span>
+          <span aria-hidden="true" class="tct-bullet-icon absolute left-0 top-1 h-6 w-6"></span>
           Hundreds Of Sellers Have Done This:&nbsp;
           <a
             href={hrefs.googleReviews}
@@ -58,11 +47,7 @@ const bullets = [
           class="relative pl-9 text-brand-brown"
           style="font-size: clamp(17px, 2vw, 22px); line-height: 1.35; font-family: var(--font-display);"
         >
-          <span
-            aria-hidden="true"
-            class="absolute left-0 top-1 h-6 w-6"
-            style="background-image: url('/images/vellum-icon-01.jpg'); background-size: cover; background-position: center; mix-blend-mode: multiply;"
-          ></span>
+          <span aria-hidden="true" class="tct-bullet-icon absolute left-0 top-1 h-6 w-6"></span>
           Contact Me At
           <a href={hrefs.tel} class="font-bold text-brand-rust-dark hover:text-brand-rust-bright">{contact.phone}</a>
           Or Email
@@ -169,6 +154,19 @@ const bullets = [
 </section>
 
 <style>
+  /* Left-column headline: size/face moved off the inline style attribute. */
+  .tct-l-headline {
+    font-size: clamp(28px, 3.5vw, 44px);
+    line-height: 1.1;
+    font-family: var(--font-display);
+  }
+  /* Bullet icon — vellum stamp blended onto the tan band (was 3x inline). */
+  .tct-bullet-icon {
+    background-image: url("/images/vellum-icon-01.jpg");
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: multiply;
+  }
   /* Clip-path arrow decoration behind headline, per live CSS */
   .tct-l-headline::before {
     content: "";

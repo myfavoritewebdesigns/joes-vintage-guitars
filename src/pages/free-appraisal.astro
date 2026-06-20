@@ -309,8 +309,8 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
           <div class="apf-t"><label>Year <span class="sub-color">(Approximate)</span><input name="your-year" type="number" inputmode="numeric" min="1900" max="2099" /></label></div>
           <div class="apf-full"><label>Condition <span class="sub-color">(e.g., Excellent, Good, Fair, Needs Repair)</span><input name="your-condition" type="text" /></label></div>
           <div class="apf-full"><label>Comments<textarea name="your-comment" rows="3"></textarea></label></div>
-          <div class="apf-full apf-reply">
-            <span class="apf-reply__legend">Best Way To Reply:</span>
+          <div class="apf-full apf-reply" role="radiogroup" aria-labelledby="apf-reply-label">
+            <span class="apf-reply__legend" id="apf-reply-label">Best Way To Reply:</span>
             <label class="apf-radio"><input type="radio" name="best-reply" value="call" checked /> Call</label>
             <label class="apf-radio"><input type="radio" name="best-reply" value="text" /> Text</label>
             <label class="apf-radio"><input type="radio" name="best-reply" value="email" /> Email</label>
