@@ -166,6 +166,16 @@ const chartRows: Row[] = [
       <p class="jvg-guide__block-intro">
         Shipping a vintage guitar safely is one of the most underestimated parts of selling one. It's also one of the most common places things go wrong. The headstock is the single most frequently broken component in transit, usually because of inadequate bracing inside the case. Beyond physical damage, most sellers don't realize that standard carrier declared value coverage explicitly limits or excludes claims on musical instruments in many circumstances, particularly when damage is attributed to "inadequate packaging." For any guitar worth more than $1,000, that standard coverage is rarely enough on its own. Done correctly, shipping a vintage guitar takes specific materials, methodical packing, third-party insurance, and proper documentation. Most sellers who've done it once are relieved to never have to do it again.
       </p>
+
+      <lite-youtube
+        videoid="XrlMW385NMM"
+        params="autoplay=1&rel=0&modestbranding=1"
+        playlabel="Play the guitar packing and shipping video"
+        title="How to Pack a Guitar for Shipping (Step-by-Step Guide)"
+        style="background-image: url('https://i.ytimg.com/vi/XrlMW385NMM/hqdefault.jpg');"
+        class="jvg-guide__video"
+      ></lite-youtube>
+
       <div class="jvg-guide__contrast">
         <div class="jvg-guide__col">
           <div class="jvg-guide__col-head">
@@ -285,6 +295,21 @@ const chartRows: Row[] = [
     width: 100%;
     max-width: 740px;
     margin: 0 0 32px;
+  }
+  /* "How to Ship" demo video (lite-youtube). Sized here so it reserves space and
+     shows its poster even before the lite-yt CSS/JS finish loading. */
+  .jvg-guide__video {
+    display: block;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto 36px;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(62, 42, 20, 0.18);
+    cursor: pointer;
   }
   .jvg-guide__contrast {
     display: grid;
