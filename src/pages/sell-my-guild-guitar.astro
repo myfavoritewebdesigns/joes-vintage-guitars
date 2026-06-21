@@ -4,34 +4,32 @@ import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import LeadForm from "../components/LeadForm.astro";
-import { SITE_URL, contact } from "../config/site";
+import FAQ from "../components/FAQ.astro";
+import { SITE_URL, contact, hrefs } from "../config/site";
 
 /* ============================================================
-   SELL MY GUILD GUITAR (.smgu-*) — Archetype D (simple article)
+   SELL MY GUILD GUITAR (.smgu-*) — Archetype B
+   Rebuilt 2026-06-21 to match the other brand sell pages
+   (hero / lead form / buy-appraise / feature columns /
+   testimonials / vintage banner / Meet Joe / FAQs). The old
+   serial-number dating table was removed; that lives on the
+   dedicated /guild-serial-number-lookup/ page instead.
 
-   Live page is much simpler than Fender/Martin/Rickenbacker — just a
-   title-bar hero, a featured image, a "Dating A Vintage Guild Guitar
-   By Serial Number" section with year ranges, 3 testimonials, then
-   the shared <ContactSection />.
+   Shared photography (feature columns, testimonial backdrop,
+   the buy-appraise portrait) is reused from sell-rickenbacker/,
+   the same approach the National page takes.
    ============================================================ */
 
-const img = (file: string) => assetSrc("images/sell-guild/" + file);
-// Metadata twin — only for files verified to exist under src/assets/images/sell-guild/.
-const imgMeta = (file: string) => resolveImage("images/sell-guild/" + file)!;
+// Shared rickenbacker assets (icons + bg are public passthrough; the feature
+// photos run through the image pipeline via resolveImage).
+const rkImg = (file: string) => assetSrc("images/sell-rickenbacker/" + file);
+const rkImgMeta = (file: string) => resolveImage("images/sell-rickenbacker/" + file)!;
+// Guild-specific featured photo.
+const guildImgMeta = (file: string) => resolveImage("images/sell-guild/" + file)!;
+const TESTI_BG = assetSrc("images/sell-rickenbacker/rickenbacker-reviews-bg.jpg");
+const OG_IMAGE = `${SITE_URL}${assetSrc("images/sell-guild/vintage-guild-guitar.jpg")}`;
 
-// Approximate Guild serial number year-ranges, 1952-1959 (from Hans Moust's
-// Guild Guitar Book, the only authoritative source for the early years).
-const guildRanges = [
-  { year: "1952", range: "0 to 1000" },
-  { year: "1953", range: "1000 to 1500" },
-  { year: "1954", range: "1500 to 2200" },
-  { year: "1955", range: "2200 to 3000" },
-  { year: "1956", range: "3000 to 4000" },
-  { year: "1957", range: "4000 to 5700" },
-  { year: "1958", range: "5700 to 8300" },
-  { year: "1959", range: "8300 to 12035" },
-];
-
+// Three Guild-specific Google reviews (kept verbatim from the prior page).
 const reviews = [
   {
     name: "Logan Lamson",
@@ -50,7 +48,74 @@ const reviews = [
   },
 ];
 
+const featureCols = [
+  {
+    icon: rkImg("prices-icon.svg"),
+    iconAlt: "Fair And Convenient Prices",
+    photo: rkImgMeta("fair-and-convenient-prices-rickenbacker.jpg"),
+    photoAlt: "Fair And Convenient Prices For Your Guild Guitar",
+    headline: "Sell Your Guild Acoustic Or Electric Guitar At The Right Price",
+    body: "I will always give you the fairest price on the market for your Guild guitar. Have one that you want to sell? <a href=\"/contact-me/\" class=\"smgu-link\">Contact me today</a>!",
+  },
+  {
+    icon: rkImg("classic-icon.svg"),
+    iconAlt: "Rare, Unique, And Classic Guitars",
+    photo: rkImgMeta("find-rare-unique-classic-rickenbacker.jpg"),
+    photoAlt: "Find Rare, Unique And Classic Guild Guitars In Our Online Shop",
+    headline: "Find Rare, Unique &amp; Classic Guild Guitars In Our Online Shop",
+    body: "Because I&rsquo;m always traveling around the country, the inventory changes constantly. Browse the online catalog; you might just find a rare Guild flat-top or Starfire!",
+  },
+  {
+    icon: rkImg("guitar-icon.svg"),
+    iconAlt: "Many Years Of Experience",
+    photo: rkImgMeta("years-of-experience-buying-and-selling.jpg"),
+    photoAlt: "Years Of Experience Buying And Selling Guitars From All Over America",
+    headline: "Years Of Experience Buying &amp; Selling Guitars From All Over America",
+    body: "Over the years I have handled Guild guitars from every era, from the New York and Hoboken years through the long Westerly run. You benefit from that experience whether you are buying or selling.",
+  },
+];
+
+const faqs = [
+  {
+    id: "toggle_guild-1",
+    q: "What Determines The Value Of A Vintage Guild Guitar?",
+    a: "A few things drive it: the model, the year, the overall condition, and how original the guitar is. Where it was built matters too, since the early New York and Hoboken instruments and the Westerly, Rhode Island guitars each have their own following. I weigh all of that against what comparable Guilds have recently sold for so the appraisal reflects the real market.",
+  },
+  {
+    id: "toggle_guild-2",
+    q: "Which Vintage Guild Models Are Most In Demand?",
+    a: "The big jumbo flat-tops like the F-50 and the F-512 twelve-string, the D-55 and D-40 dreadnoughts, the X-500 and Artist Award archtops, and the Starfire electrics all draw strong interest. Clean, original examples from the New York, Hoboken, and early Westerly years are especially sought after, but I am always a buyer for honest player-grade Guilds too.",
+  },
+  {
+    id: "toggle_guild-3",
+    q: "How Do I Find Out What Year My Guild Was Made?",
+    a: "Guild serial numbers are the best starting point, and the early years can be tricky. I put together a full <a href=\"/guild-serial-number-lookup/\" class=\"smgu-link\">Guild Serial Number Guide</a> you can use to date your guitar. If you are still not sure, send me a few photos and I will help you pin down the year.",
+  },
+  {
+    id: "toggle_guild-4",
+    q: "Can I Sell A Guild That Needs Repair Or Has Been Modified?",
+    a: "Yes. A repair, a refinish, or a few changed parts does not take a Guild off the table. These are still great players and I buy them all the time. Just tell me what you know about the guitar and I will factor it into a fair offer.",
+  },
+  {
+    id: "toggle_guild-5",
+    q: "How Do You Pay, And Who Covers Shipping?",
+    a: "I can often meet and pay cash in person, and I am out buying guitars all over the country. If we cannot meet, I pay by money order, Venmo, PayPal, Zelle, or bank transfer, and I arrange and cover prepaid, fully insured shipping so your Guild is protected from your door to mine.",
+  },
+];
+
 const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q.replace(/&[a-z]+;/g, (s) => ({ "&rsquo;": "’", "&amp;": "&" }[s] ?? s)),
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: f.a.replace(/<[^>]+>/g, "").replace(/&[a-z]+;/g, (s) => ({ "&rsquo;": "’", "&amp;": "&" }[s] ?? s)),
+      },
+    })),
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -62,7 +127,7 @@ const structuredData = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Sell My Guild Guitar",
+    headline: "Sell Your Vintage Guild Guitar In The US",
     author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
     publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
     mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-guild-guitar/",
@@ -71,20 +136,32 @@ const structuredData = [
 ---
 
 <Layout
-  title="Sell My GUILD Guitar | Joes Vintage Guitars"
-  description="Sell your vintage Guild guitar to Joe, a trusted nationwide buyer. Free appraisals and fair cash offers for Guild acoustics and electrics."
+  title="Sell Your Vintage Guild Guitar At Joe's Vintage Guitars"
+  description="Sell your vintage Guild guitar to Joe, a trusted nationwide buyer. Free appraisals and fair cash offers for Guild flat-tops, jumbos, archtops, and Starfire electrics."
   canonical="/sell-my-guild-guitar/"
-  ogImage={`${SITE_URL}${img("vintage-guild-guitar.jpg")}`}
+  ogImage={OG_IMAGE}
   structuredData={structuredData}
 >
-  <!-- 1. Title bar ----------------------------------------------- -->
-  <section class="smgu-title-bar">
+  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
+  <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+
+  <!-- 1. Hero -->
+  <section class="smgu-hero">
     <div class="smgu-inner">
-      <h1>Sell My Guild Guitar</h1>
+      <h1>Sell Your Vintage Guild Guitar <span>In The US</span></h1>
+      <div class="smgu-hero__rule" aria-hidden="true"></div>
+      <h2 class="smgu-hero__subtitle">Connect With The Right Buyer For Your Vintage <span>Guild Guitar</span></h2>
+      <div class="smgu-hero__copy">
+        <p>Welcome to <a href="/">Joe&rsquo;s Vintage Guitars</a>. I help you connect with the right buyer for your vintage Guild guitar. Guild has been building first-rate acoustics and electrics since 1952, and the older ones carry real value. Whether you have a Westerly-era F-50 jumbo, a D-55 dreadnought, a Starfire, or an early New York archtop, I can appraise it accurately and make you a fair offer.</p>
+      </div>
+      <div class="smgu-hero__cta">
+        <a href="/free-appraisal/" class="smgu-btn smgu-btn--rust">Get Your Free Appraisal</a>
+        <p class="smgu-hero__cta-sub">Get the best price for your <span>Vintage Guitar</span></p>
+      </div>
     </div>
   </section>
 
-  <!-- 1b. Lead form ---------------------------------------------- -->
+  <!-- 1b. Lead form -->
   <section class="px-4 py-12 sm:py-16" style="background: var(--color-brand-cream);">
     <div class="mx-auto max-w-[760px]">
       <LeadForm
@@ -96,205 +173,152 @@ const structuredData = [
     </div>
   </section>
 
-  <!-- 2. Featured image + serial-number guide ------------------- -->
-  <section class="smgu-content">
-    <div class="smgu-inner">
-      <figure class="smgu-figure">
-        <Image
-          src={imgMeta("vintage-guild-guitar.jpg")}
-          alt="Vintage Guild Guitar"
-          loading="eager"
-          width={1094}
-        />
-      </figure>
-
-      <h2>Dating A Vintage Guild Guitar By Serial Number</h2>
-      <p>
-        Finding the year of manufacture of your Guild guitar is imperative in order to figure out its value. Guild manufactured guitars from the early 1950s until today! Guild&rsquo;s electric guitars were often the guitar of choice for many serious jazz players of the 1950s, but their fine acoustic guitars are what most people think of when they hear the name &ldquo;Guild&rdquo; today.
-      </p>
-      <p>
-        Figuring out the year your Guild was made can be tricky, and I&rsquo;d recommend getting expert advice if you think the guitar is valuable, so the price reflects the model and condition. That&rsquo;s especially true for Guild guitars made before the 1960s, where the records are unreliable or missing entirely. The best we can do for these is to reference the approximate last serial numbers for this timeframe listed in the Guild Guitar Book by Hans Moust. Here are the approximate serial number ranges for Guild guitars from 1952-1960.
-      </p>
-      <p><strong>Made 1952-1960:</strong></p>
-      <ul class="smgu-ranges">
-        {guildRanges.map((r) => (
-          <li><strong>{r.year}:</strong> {r.range}</li>
-        ))}
-      </ul>
-      <p>
-        Guild guitars made after 1960 often have a serial number specific to their model. Check out <a href="/guild-serial-number-lookup/" class="smgu-link">comprehensive Guild Serial Number Guide</a> for more information!
-      </p>
+  <!-- 2. I Buy & Appraise -->
+  <section class="smgu-buyappraise">
+    <div class="smgu-inner smgu-buyappraise__grid">
+      <div class="smgu-buyappraise__text">
+        <h3>I Buy &amp; Appraise <span>Guild Guitars</span> <span class="smgu-buyappraise__online">Online Or In Person</span></h3>
+        <p>Got a vintage Guild you&rsquo;re looking to sell? Or just curious what it&rsquo;s worth? I&rsquo;m an <a href="/free-appraisal/" class="smgu-link">experienced guitar appraiser</a> and buyer, online and in person. After years of doing this, I know Guild guitars from every era, the New York and Hoboken builds, the long Westerly run, and the electrics. Whether it&rsquo;s a jumbo flat-top, a dreadnought, or a Starfire, I can appraise it accurately and make you a fair offer.</p>
+        <p>The process is simple: send me detailed photos and the model, and I&rsquo;ll give you an accurate, no-obligation evaluation. If you&rsquo;d rather meet in person, I&rsquo;m happy to set something up nearby.</p>
+        <a href={hrefs.tel} class="smgu-btn smgu-btn--rust">{contact.phone}</a>
+      </div>
+      <div class="smgu-buyappraise__photo">
+        <Image src={guildImgMeta("vintage-guild-guitar.jpg")} alt="Joe Dampt Buys And Appraises Guild Guitars Online Or In Person" width={520} />
+      </div>
     </div>
   </section>
 
-  {/* 3. Testimonials — 3 Guild-specific reviews */}
-  <section class="smgu-testi">
+  <!-- 3. Feature columns -->
+  <section class="smgu-nationwide">
     <div class="smgu-inner">
-      <h3 class="smgu-testi__title">Your Testimonials!</h3>
+      <h3 class="smgu-nationwide__title">Nationwide Guild Guitars Resale &amp; Appraisals</h3>
+      <div class="smgu-nationwide__cols">
+        {featureCols.map((c) => (
+          <div class="smgu-nationwide__col">
+            <img src={c.icon} alt={c.iconAlt} class="smgu-nationwide__icon" loading="lazy" />
+            <Image src={c.photo} alt={c.photoAlt} class="smgu-nationwide__photo" width={340} />
+            <hr class="smgu-rule" />
+            <h4 set:html={c.headline} />
+            <p set:html={c.body} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Testimonials -->
+  <section class="smgu-testi" style={`background-image: url('${TESTI_BG}')`}>
+    <div class="smgu-inner">
+      <div class="smgu-testi__head">
+        <h3 class="smgu-testi__title">Our Clients&rsquo; Testimonials</h3>
+        <h4 class="smgu-testi__sub">5-Star Rated Vintage Guitar Buyer And Appraisal Expert <span>Near You</span></h4>
+      </div>
       <div class="smgu-testi__grid">
         {reviews.map((r) => (
           <article class="smgu-testi__card">
-            <p class="smgu-testi__name">
-              <a href={r.link} target="_blank" rel="noopener noreferrer">{r.name}</a>
-            </p>
+            <p class="smgu-testi__name"><a href={r.link} target="_blank" rel="noopener noreferrer">{r.name}</a></p>
             <p class="smgu-testi__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
             <p class="smgu-testi__body">{r.body}</p>
           </article>
         ))}
       </div>
-      <div class="smgu-testi__more">
-        <a
-          href="https://www.google.com/maps/place/Joe%27s+Vintage+Guitars+-+We+Buy+Guitars!/@33.420432,-111.8365821,17z/data=!4m7!3m6!1s0x872ba7d2937937d9:0x69728d089b8a764!8m2!3d33.420432!4d-111.8343934!9m1!1b1"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="smgu-btn smgu-btn--rust"
-        >
-          Read Our Testimonials
-        </a>
+      <div class="smgu-testi__more-wrap">
+        <a href="https://www.google.com/maps/place/Joe%27s+Vintage+Guitars+-+We+Buy+Guitars!/@33.420432,-111.8365821,17z/data=!4m7!3m6!1s0x872ba7d2937937d9:0x69728d089b8a764!8m2!3d33.420432!4d-111.8343934!9m1!1b1" target="_blank" rel="noopener noreferrer" class="smgu-btn smgu-btn--rust">Read More</a>
       </div>
     </div>
   </section>
+
+  <!-- 5. Vintage banner -->
+  <section class="smgu-vintage">
+    <div class="smgu-inner">
+      <h3 class="smgu-vintage__title">Sell Acoustic And Electric Guild Guitars From Anywhere Within The US</h3>
+    </div>
+  </section>
+
+  <!-- 6. Meet Joe -->
+  <section class="smgu-meet-wrap">
+    <div class="smgu-inner smgu-meet">
+      <div class="smgu-meet__video">
+        <lite-youtube videoid="zMd6IJ-6e-8" params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1" title="Meet Vintage Guitar Expert, Joe Dampt" class="smgu-lite-yt"></lite-youtube>
+      </div>
+      <div class="smgu-meet__panel">
+        <h3 class="smgu-meet__title">Meet Vintage Guitar Expert, <span>Joe Dampt</span></h3>
+        <h4 class="smgu-meet__sub">Professional Buyer and Seasoned Collector of Vintage Guitars</h4>
+        <p>Hey there! My name is Joe Dampt and I love old music and old guitars!</p>
+        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I&rsquo;ve sacrificed and worked hard to make music and musical instruments my livelihood.</p>
+      </div>
+    </div>
+  </section>
+
+  <FAQ faqs={faqs} mainTitle="Frequently Asked Questions" subTitle="About Selling Your Vintage Guild" sectionId="faqs-guild" openFirst={true} />
 
   <ContactSection />
 </Layout>
 
 <style>
-  .smgu-inner {
-    max-width: 1144px;
-    margin: 0 auto;
-    padding: 0 24px;
-  }
-  .smgu-link {
-    color: var(--color-brand-rust-dark);
-    text-decoration: underline;
-  }
+  .smgu-inner { max-width: 1144px; margin: 0 auto; padding: 0 24px; }
+  .smgu-link { color: var(--color-brand-rust-dark); text-decoration: underline; }
   .smgu-link:hover { color: var(--color-brand-rust-bright); }
+  .smgu-rule { border: none; border-top: 3px solid var(--color-brand-rust-bright); width: 80px; margin: 12px auto 16px; }
+  .smgu-btn { display: inline-block; padding: 14px 32px; font-family: var(--font-display); font-size: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; text-decoration: none; border-radius: 4px; transition: background 0.2s; border: none; cursor: pointer; }
+  .smgu-btn--rust { background: var(--color-brand-rust-bright); color: #fff; }
+  .smgu-btn--rust:hover { background: #bf6344; }
 
-  /* Title bar */
-  .smgu-title-bar {
-    background: var(--color-brand-rust-dark, #682412);
-    color: #fff;
-    padding: 190px 24px 50px;
-    text-align: center;
-  }
-  .smgu-title-bar h1 {
-    margin: 0;
-    font-size: 60px;
-    font-weight: 700;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-    color: var(--color-brand-cream);
-  }
-  @media (max-width: 700px) {
-    .smgu-title-bar { padding: 110px 16px 40px; }
-    .smgu-title-bar h1 { font-size: 42px; }
-  }
+  .smgu-hero { background: #000; color: #fff; padding: 280px 24px 80px; text-align: center; }
+  @media (max-width: 768px) { .smgu-hero { padding: 120px 16px 60px; } }
+  .smgu-hero h1 { font-family: var(--font-display); font-size: clamp(32px, 4.5vw, 56px); font-weight: 600; color: var(--color-brand-cream); margin: 0 auto 18px; max-width: 1000px; line-height: 1.15; }
+  .smgu-hero h1 span { white-space: nowrap; }
+  .smgu-hero__rule { height: 3px; width: 100%; max-width: 740px; background: var(--color-brand-cream); margin: 0 auto 20px; }
+  .smgu-hero__subtitle { font-family: var(--font-display); color: #f0e1c1; font-weight: 400; font-size: clamp(20px, 2.5vw, 26px); margin: 0 auto calc(20px + 2%); max-width: 900px; }
+  .smgu-hero__subtitle span { white-space: nowrap; }
+  .smgu-hero__copy { max-width: 900px; margin: 0 auto 30px; }
+  .smgu-hero__copy p { color: #fff; line-height: 1.7; margin: 0 0 16px; }
+  .smgu-hero__copy a { color: var(--color-brand-gold, #c8983a); text-decoration: underline; }
+  .smgu-hero__cta-sub { color: var(--color-brand-cream); margin: 14px 0 0; font-weight: 600; }
 
-  /* Content body */
-  .smgu-content {
-    background: #fff;
-    padding: 60px 0 40px;
-    color: var(--color-brand-brown);
-  }
-  .smgu-figure {
-    margin: 0 0 30px;
-    text-align: center;
-  }
-  .smgu-figure img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 6px;
-    box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
-  }
-  .smgu-content h2 {
-    font-family: var(--font-display);
-    font-size: clamp(24px, 2.8vw, 32px);
-    color: var(--color-brand-rust-dark);
-    margin: 30px 0 16px;
-    line-height: 1.25;
-  }
-  .smgu-content p {
-    line-height: 1.7;
-    margin: 0 0 14px;
-    color: var(--color-brand-brown);
-  }
-  .smgu-content strong { color: var(--color-brand-rust-dark); }
+  .smgu-buyappraise { background: linear-gradient(180deg, #f2f2f2 0%, rgba(255, 255, 255, 0) 100%); padding: 70px 0; }
+  .smgu-buyappraise__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+  .smgu-buyappraise__text h3 { font-family: var(--font-display); font-size: clamp(24px, 2.8vw, 34px); color: var(--color-brand-rust-dark); line-height: 1.25; margin: 0 0 18px; }
+  .smgu-buyappraise__text h3 span { white-space: nowrap; }
+  .smgu-buyappraise__online { display: block; font-size: 0.7em; color: var(--color-brand-brown); }
+  .smgu-buyappraise__text p { line-height: 1.7; margin: 0 0 16px; color: var(--color-brand-brown); }
+  .smgu-buyappraise__photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
+  @media (max-width: 900px) { .smgu-buyappraise__grid { grid-template-columns: 1fr; gap: 30px; } }
 
-  .smgu-ranges {
-    list-style: none;
-    margin: 12px 0 16px;
-    padding: 0 0 0 18px;
-    columns: 2 220px;
-    column-gap: 28px;
-  }
-  .smgu-ranges li {
-    padding: 4px 0;
-    color: var(--color-brand-brown);
-    break-inside: avoid;
-  }
+  .smgu-nationwide { padding: 60px 0 80px; background: #fff; }
+  .smgu-nationwide__title { font-family: "Oswald", var(--font-display); font-weight: 600; font-size: 36px; color: var(--color-brand-rust-dark); text-align: center; margin: 0 0 40px; line-height: 1.25; display: flex; align-items: center; justify-content: center; gap: 18px; }
+  .smgu-nationwide__title::before, .smgu-nationwide__title::after { content: ""; flex: 1; max-width: 120px; height: 1px; background: var(--color-brand-rust-dark); opacity: 0.45; }
+  .smgu-nationwide__cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+  .smgu-nationwide__col { text-align: center; }
+  .smgu-nationwide__icon { width: 80px; height: auto; margin: 0 auto 16px; display: block; }
+  .smgu-nationwide__photo { width: 100%; height: auto; display: block; border-radius: 4px; margin-bottom: 12px; }
+  .smgu-nationwide__col h4 { font-family: var(--font-display); font-size: 22px; color: var(--color-brand-rust-dark); margin: 0 0 10px; line-height: 1.3; }
+  .smgu-nationwide__col p { line-height: 1.65; color: var(--color-brand-brown); margin: 0; }
+  @media (max-width: 900px) { .smgu-nationwide__cols { grid-template-columns: 1fr; gap: 30px; } .smgu-nationwide__title::before, .smgu-nationwide__title::after { display: none; } }
 
-  /* Testimonials */
-  .smgu-testi {
-    background: #eddec1;
-    padding: 60px 0 60px;
-  }
-  .smgu-testi__title {
-    font-family: var(--font-script, "Margi"), serif;
-    text-align: center;
-    color: var(--color-brand-rust-dark, #682412);
-    font-weight: 400;
-    font-size: clamp(36px, 3.5vw, 54px);
-    margin: 0 0 36px;
-  }
-  .smgu-testi__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-  }
-  .smgu-testi__card {
-    background: var(--color-brand-rust-dark, #682412);
-    color: #fff;
-    padding: 22px 26px;
-    border-radius: 0 0 20px 20px;
-  }
-  .smgu-testi__name {
-    font-family: "Oswald", var(--font-display);
-    font-size: 23px;
-    font-weight: 600;
-    margin: 0 0 4px;
-    line-height: 1.2;
-  }
-  .smgu-testi__name a { color: #fff; text-decoration: none; }
-  .smgu-testi__name a:hover { text-decoration: underline; }
-  .smgu-testi__stars {
-    color: var(--color-brand-rust-bright, #be4b25);
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin: 0 0 10px;
-  }
-  .smgu-testi__body {
-    font-size: 14px;
-    line-height: 1.6;
-    color: #fff;
-    margin: 0;
-    text-align: justify;
-  }
-  .smgu-testi__more { text-align: center; margin-top: 36px; }
-  @media (max-width: 900px) {
-    .smgu-testi__grid { grid-template-columns: 1fr; }
-  }
+  .smgu-testi { background-color: var(--color-brand-rust-dark); background-size: cover; background-position: center; color: var(--color-brand-cream); padding: 70px 0 80px; margin-top: -70px; }
+  .smgu-testi__head { text-align: center; margin-bottom: 40px; }
+  .smgu-testi__title { font-family: var(--font-script, "Margi"), serif; font-size: clamp(32px, 3.5vw, 54px); color: var(--color-brand-brown-tan); font-weight: 400; margin: 0 0 6px; line-height: 1; }
+  .smgu-testi__sub { color: var(--color-brand-cream); font-size: 22px; font-weight: 400; margin: 0; }
+  .smgu-testi__sub span { white-space: nowrap; }
+  .smgu-testi__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .smgu-testi__card { background: var(--color-brand-brown-tan, #dcb58b); color: var(--color-brand-brown); padding: 22px 24px; border-radius: 0 0 20px 20px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); }
+  .smgu-testi__name { font-family: "Oswald", var(--font-display); font-size: 23px; font-weight: 600; color: var(--color-brand-rust-dark); margin: 0 0 6px; line-height: 1.2; }
+  .smgu-testi__name a { color: inherit; text-decoration: none; }
+  .smgu-testi__stars { color: var(--color-brand-rust-bright); font-size: 16px; letter-spacing: 1px; margin: 0 0 10px; }
+  .smgu-testi__body { font-size: 14px; line-height: 1.6; margin: 0; color: var(--color-brand-brown); text-align: justify; }
+  .smgu-testi__more-wrap { text-align: center; margin-top: 40px; }
+  @media (max-width: 900px) { .smgu-testi__grid { grid-template-columns: 1fr; } }
 
-  .smgu-btn {
-    display: inline-block;
-    padding: 14px 32px;
-    font-family: var(--font-display);
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background 0.2s, color 0.2s;
-  }
-  .smgu-btn--rust { background: var(--color-brand-rust-bright, #be4b25); color: #fff; }
-  .smgu-btn--rust:hover { background: #bf6344; color: #fff; }
+  .smgu-vintage { background: var(--color-brand-rust-bright); color: #fff; padding: 30px 20px; text-align: center; }
+  .smgu-vintage__title { font-family: var(--font-display); font-size: clamp(20px, 2.4vw, 28px); color: #fff; margin: 0; line-height: 1.3; }
+
+  .smgu-meet-wrap { background: var(--color-brand-cream, #eedfc0); padding: 60px 0 80px; }
+  .smgu-meet { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; background: #f0e1c1; border-radius: 10px; padding: 40px; }
+  .smgu-meet__video .smgu-lite-yt { width: 100%; max-width: 600px; display: block; }
+  .smgu-meet__title { font-family: var(--font-display); font-size: clamp(24px, 2.8vw, 32px); color: var(--color-brand-rust-dark); margin: 0 0 6px; line-height: 1.2; }
+  .smgu-meet__title span { white-space: nowrap; }
+  .smgu-meet__sub { color: var(--color-brand-rust-bright); font-weight: 400; font-size: 16px; margin: 0 0 18px; }
+  .smgu-meet__panel p { margin: 0 0 12px; line-height: 1.7; color: var(--color-brand-brown); text-align: justify; }
+  @media (max-width: 900px) { .smgu-meet { grid-template-columns: 1fr; padding: 28px; } }
 </style>
