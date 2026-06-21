@@ -20,14 +20,13 @@ import { SITE_URL, contact, hrefs } from "../config/site";
    the same approach the National page takes.
    ============================================================ */
 
-// Shared rickenbacker assets (icons + bg are public passthrough; the feature
-// photos run through the image pipeline via resolveImage).
+// The decorative column icons and the testimonial backdrop are shared assets
+// (abstract icons / a dark texture, not brand photos). Every guitar photo on
+// this page is a real Guild, run through the image pipeline via resolveImage.
 const rkImg = (file: string) => assetSrc("images/sell-rickenbacker/" + file);
-const rkImgMeta = (file: string) => resolveImage("images/sell-rickenbacker/" + file)!;
-// Guild-specific featured photo.
 const guildImgMeta = (file: string) => resolveImage("images/sell-guild/" + file)!;
 const TESTI_BG = assetSrc("images/sell-rickenbacker/rickenbacker-reviews-bg.jpg");
-const OG_IMAGE = `${SITE_URL}${assetSrc("images/sell-guild/vintage-guild-guitar.jpg")}`;
+const OG_IMAGE = `${SITE_URL}${assetSrc("images/sell-guild/guild-x500-blonde.jpg")}`;
 
 // Three Guild-specific Google reviews (kept verbatim from the prior page).
 const reviews = [
@@ -52,24 +51,24 @@ const featureCols = [
   {
     icon: rkImg("prices-icon.svg"),
     iconAlt: "Fair And Convenient Prices",
-    photo: rkImgMeta("fair-and-convenient-prices-rickenbacker.jpg"),
-    photoAlt: "Fair And Convenient Prices For Your Guild Guitar",
+    photo: guildImgMeta("1968-guild-f-50-4.jpg"),
+    photoAlt: "1968 Guild F-50 Headstock With Pearl Logo Inlay",
     headline: "Sell Your Guild Acoustic Or Electric Guitar At The Right Price",
     body: "I will always give you the fairest price on the market for your Guild guitar. Have one that you want to sell? <a href=\"/contact-me/\" class=\"smgu-link\">Contact me today</a>!",
   },
   {
     icon: rkImg("classic-icon.svg"),
     iconAlt: "Rare, Unique, And Classic Guitars",
-    photo: rkImgMeta("find-rare-unique-classic-rickenbacker.jpg"),
-    photoAlt: "Find Rare, Unique And Classic Guild Guitars In Our Online Shop",
+    photo: guildImgMeta("guild-thunderbird.jpg"),
+    photoAlt: "Vintage Guild Thunderbird Sunburst Electric Guitar",
     headline: "Find Rare, Unique &amp; Classic Guild Guitars In Our Online Shop",
     body: "Because I&rsquo;m always traveling around the country, the inventory changes constantly. Browse the online catalog; you might just find a rare Guild flat-top or Starfire!",
   },
   {
     icon: rkImg("guitar-icon.svg"),
     iconAlt: "Many Years Of Experience",
-    photo: rkImgMeta("years-of-experience-buying-and-selling.jpg"),
-    photoAlt: "Years Of Experience Buying And Selling Guitars From All Over America",
+    photo: guildImgMeta("1950s-guild-x175-sunburst-1.jpg"),
+    photoAlt: "1950s Guild X-175 Sunburst Archtop Guitar In Its Case",
     headline: "Years Of Experience Buying &amp; Selling Guitars From All Over America",
     body: "Over the years I have handled Guild guitars from every era, from the New York and Hoboken years through the long Westerly run. You benefit from that experience whether you are buying or selling.",
   },
@@ -183,7 +182,7 @@ const structuredData = [
         <a href={hrefs.tel} class="smgu-btn smgu-btn--rust">{contact.phone}</a>
       </div>
       <div class="smgu-buyappraise__photo">
-        <Image src={guildImgMeta("vintage-guild-guitar.jpg")} alt="Joe Dampt Buys And Appraises Guild Guitars Online Or In Person" width={520} />
+        <Image src={guildImgMeta("guild-x500-blonde.jpg")} alt="Vintage Guild X-500 Blonde Archtop Guitar Joe Bought And Appraised" width={520} />
       </div>
     </div>
   </section>
