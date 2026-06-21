@@ -21,6 +21,7 @@ import { assetSrc, resolveImage } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
+import LeadForm from "../components/LeadForm.astro";
 import InstagramEmbeds from "../components/InstagramEmbeds.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { buildImageGraph } from "../lib/imageLicense";
@@ -333,56 +334,17 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
         </div>
       </div>
 
-      <div class="smg-intro__formwrap">
-        <header class="smg-intro__formhead">
-          <h3><span class="smg-intro__formhead-em">Feel Free To Contact</span> Joe&rsquo;s Vintage Guitars</h3>
-          <h4>For A Free Gibson Guitar Consultation &amp; Appraisal Today!</h4>
-        </header>
-        <form data-jvg-contact-form data-form-id="sell-my-gibson" class="smg-form" novalidate>
-          <label class="smg-form__field smg-form__field--full">
-            <span class="smg-form__label">What information can the serial number tell us? Look on the back of the neck at the top or on the inside of the body.*</span>
-            <select name="serial-number" required class="smg-form__input">
-              <option value="">Please choose an option</option>
-              {serialOptions.map((opt) => (<option value={opt}>{opt}</option>))}
-            </select>
-          </label>
-
-          <label class="smg-form__field">
-            <span class="smg-form__label">Name*</span>
-            <input type="text"  name="your-name"  required maxlength="400" autocomplete="name"  class="smg-form__input" />
-          </label>
-
-          <label class="smg-form__field">
-            <span class="smg-form__label">Email*</span>
-            <input type="email" name="your-email" required maxlength="400" autocomplete="email" class="smg-form__input" />
-          </label>
-
-          <label class="smg-form__field">
-            <span class="smg-form__label">Phone*</span>
-            <input type="tel"   name="your-phone" required maxlength="400" autocomplete="tel"   class="smg-form__input" />
-          </label>
-
-          <label class="smg-form__field smg-form__field--full">
-            <span class="smg-form__label">How Can We Help?</span>
-            <textarea name="your-message" rows="4" maxlength="2000" class="smg-form__input"></textarea>
-          </label>
-
-          {/* Honeypot — see CLAUDE.md "Contact form endpoint" section. Off-screen,
-              tabindex=-1, no autocomplete. Server-side, /api/contact silently
-              drops any submission with this field non-empty. */}
-          <input
-            type="text"
-            name="_honeypot"
-            tabindex="-1"
-            autocomplete="off"
-            class="smg-form__honeypot"
-            aria-hidden="true"
-          />
-
-          <button type="submit" class="smg-form__submit">Send</button>
-          <p class="smg-form__status" data-jvg-form-status aria-live="polite"></p>
-        </form>
-      </div>
+      <LeadForm
+        formId="sell-my-gibson"
+        instrumentMode="model-only"
+        serial={{
+          label: "What information can the serial number tell us? Look on the back of the neck at the top or on the inside of the body.",
+          options: serialOptions,
+        }}
+        heading="Feel Free To Contact Joe’s Vintage Guitars"
+        subheading="For A Free Gibson Guitar Consultation & Appraisal Today!"
+        submitLabel="Send"
+      />
 
     </div>
   </section>

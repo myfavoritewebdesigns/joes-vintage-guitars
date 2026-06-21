@@ -2,6 +2,7 @@
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
+import LeadForm from "../components/LeadForm.astro";
 import InstagramEmbeds from "../components/InstagramEmbeds.astro";
 import FAQ from "../components/FAQ.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
@@ -262,6 +263,17 @@ const structuredData = [
       <div class="smc-hero__cta">
         <a href="/free-appraisal/" class="smc-btn smc-btn--rust">Get Your Free Appraisal</a>
       </div>
+    </div>
+  </section>
+
+  <!-- 1b. Lead form -->
+  <section class="px-4 py-12 sm:py-16" style="background: var(--color-brand-cream);">
+    <div class="mx-auto max-w-[760px]">
+      <LeadForm
+        formId="sell-a-collection"
+        heading="Sell Your Vintage Guitar Collection"
+        subheading="Get A Free Appraisal And A Fair Cash Offer Today"
+      />
     </div>
   </section>
 

@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
+import LeadForm from "../components/LeadForm.astro";
 import FAQ from "../components/FAQ.astro";
 import { SITE_URL, contact, hrefs } from "../config/site";
 
@@ -85,6 +86,18 @@ const structuredData = [
         <a href="/free-appraisal/" class="smd-btn smd-btn--rust">Get Your Free Appraisal</a>
         <p class="smd-hero__cta-sub">Get the best price for your <span>Vintage Guitar</span></p>
       </div>
+    </div>
+  </section>
+
+  <!-- 1b. Lead form -->
+  <section class="px-4 py-12 sm:py-16" style="background: var(--color-brand-cream);">
+    <div class="mx-auto max-w-[760px]">
+      <LeadForm
+        formId="sell-my-dangelico"
+        instrumentMode="model-only"
+        heading="Sell Your Vintage D’Angelico Guitar"
+        subheading="Get A Free Appraisal And A Fair Cash Offer Today"
+      />
     </div>
   </section>
 

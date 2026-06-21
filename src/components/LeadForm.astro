@@ -1,0 +1,243 @@
+---
+/**
+ * LeadForm — the shared lead-capture form used on the home page, every sell
+ * page, and the appraisal page. It mirrors the home-page consultation form
+ * (Name / Phone / Email required; Instrument Make/Model, Year, Comments, and
+ * the reply preference optional) and adds three opt-in variants:
+ *
+ *   instrumentMode="model-only"  -> brand pages ask only for Model (the make
+ *                                   is implied by the page), instead of the
+ *                                   combined "Instrument Make/Model" field.
+ *   serial={{ label, options }}  -> renders a serial-number-format <select>
+ *                                   first (kept on the Gibson + Fender pages).
+ *   appraisalType                -> renders an "Insurance vs Basic appraisal"
+ *                                   selector (free-appraisal page).
+ *
+ * Submission flows through the shared client handler
+ * (src/scripts/contact-form.ts) and the /api/contact Mailgun function, which
+ * forward every named field into Joe's lead email automatically. hCaptcha is
+ * injected by that handler before the submit button, the same as the home form.
+ */
+import { replyMethods } from "../config/site";
+
+interface SerialConfig {
+  /** Question shown above the serial-number dropdown. */
+  label: string;
+  /** Option values (a "Please choose an option" placeholder is prepended). */
+  options: string[];
+}
+
+interface Props {
+  /** Identifier sent with the submission so the Mailgun handler knows the source form. */
+  formId: string;
+  /** Optional form heading (h3 above the fields). */
+  heading?: string;
+  /** Optional sub-heading below the heading. */
+  subheading?: string;
+  /** "make-model" (default) shows the combined field; "model-only" shows just Model. */
+  instrumentMode?: "make-model" | "model-only";
+  /** When set, renders a serial-number-format dropdown as the first field. */
+  serial?: SerialConfig;
+  /** When true, renders an Insurance vs Basic appraisal selector. */
+  appraisalType?: boolean;
+  /** Submit button text. */
+  submitLabel?: string;
+}
+
+const {
+  formId,
+  heading,
+  subheading,
+  instrumentMode = "make-model",
+  serial,
+  appraisalType = false,
+  submitLabel = "Send Message",
+} = Astro.props;
+
+const instrumentLabel = instrumentMode === "model-only" ? "Model" : "Instrument Make/Model";
+const instrumentName = instrumentMode === "model-only" ? "model" : "instrument";
+---
+
+<form class="lead-form" data-jvg-contact-form data-form-id={formId} novalidate>
+  {heading && <h3 class="lead-form__heading">{heading}</h3>}
+  {subheading && <h4 class="lead-form__sub">{subheading}</h4>}
+
+  {serial && (
+    <label class="lead-form__field">
+      <span class="lead-form__label">{serial.label} <span class="lead-form__opt">(optional)</span></span>
+      <select name="serial-number" class="lead-form__input">
+        <option value="">Please choose an option</option>
+        {serial.options.map((opt) => (<option value={opt}>{opt}</option>))}
+      </select>
+    </label>
+  )}
+
+  {appraisalType && (
+    <fieldset class="lead-form__reply">
+      <legend class="lead-form__label">What Type Of Appraisal Do You Need? <span class="lead-form__opt">(optional)</span></legend>
+      <div class="lead-form__radios">
+        {["Insurance Appraisal", "Basic Appraisal"].map((opt) => (
+          <label class="lead-form__radio">
+            <input type="radio" name="appraisal-type" value={opt} />
+            <span>{opt}</span>
+          </label>
+        ))}
+      </div>
+    </fieldset>
+  )}
+
+  <div class="lead-form__row lead-form__row--3">
+    <label class="lead-form__field">
+      <span class="lead-form__label">Name</span>
+      <input type="text" name="name" required autocomplete="name" class="lead-form__input" />
+    </label>
+    <label class="lead-form__field">
+      <span class="lead-form__label">Phone</span>
+      <input type="tel" name="phone" required autocomplete="tel" inputmode="tel" class="lead-form__input" />
+    </label>
+    <label class="lead-form__field">
+      <span class="lead-form__label">Email</span>
+      <input type="email" name="email" required autocomplete="email" inputmode="email" class="lead-form__input" />
+    </label>
+  </div>
+
+  <div class="lead-form__row lead-form__row--instrument">
+    <label class="lead-form__field">
+      <span class="lead-form__label">{instrumentLabel} <span class="lead-form__opt">(optional)</span></span>
+      <input type="text" name={instrumentName} autocomplete="off" class="lead-form__input" />
+    </label>
+    <label class="lead-form__field">
+      <span class="lead-form__label">Year <span class="lead-form__opt">(optional)</span></span>
+      <input type="text" name="year" autocomplete="off" class="lead-form__input" />
+    </label>
+  </div>
+
+  <label class="lead-form__field">
+    <span class="lead-form__label">Comments <span class="lead-form__opt">(optional)</span></span>
+    <textarea name="comments" rows="4" class="lead-form__input"></textarea>
+  </label>
+
+  <fieldset class="lead-form__reply">
+    <legend class="lead-form__label">Best Way To Reply: <span class="lead-form__opt">(optional)</span></legend>
+    <div class="lead-form__radios">
+      {replyMethods.map((opt) => (
+        <label class="lead-form__radio">
+          <input type="radio" name="reply" value={opt} />
+          <span>{opt}</span>
+        </label>
+      ))}
+    </div>
+  </fieldset>
+
+  <button type="submit" class="lead-form__submit">{submitLabel}</button>
+  <p class="lead-form__note">*If you have photos, you will have the option to upload them after clicking submit</p>
+</form>
+
+<style>
+  .lead-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    box-sizing: border-box;
+    background: var(--color-brand-brown-tan);
+    border-left: 4px solid var(--color-brand-rust-bright);
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+    padding: 26px 26px 22px;
+    font-family: var(--font-sans);
+  }
+  .lead-form * { box-sizing: border-box; }
+
+  .lead-form__heading {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(20px, 2.2vw, 26px);
+    line-height: 1.15;
+    color: var(--color-brand-rust-dark);
+  }
+  .lead-form__sub {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(15px, 1.8vw, 18px);
+    line-height: 1.2;
+    color: var(--color-brand-rust-bright);
+  }
+
+  .lead-form__row { display: grid; gap: 12px; }
+  .lead-form__row--3 { grid-template-columns: 1fr 1fr 1fr; }
+  .lead-form__row--instrument { grid-template-columns: 2fr 1fr; }
+  @media (max-width: 600px) {
+    .lead-form__row--3,
+    .lead-form__row--instrument { grid-template-columns: 1fr; }
+  }
+
+  .lead-form__field { display: block; }
+  .lead-form__label {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: var(--color-brand-rust-dark);
+    margin-bottom: 4px;
+    line-height: 1.3;
+  }
+  .lead-form__opt { font-weight: 400; font-style: italic; font-size: 12px; opacity: 0.7; }
+
+  .lead-form__input {
+    width: 100%;
+    border: 1px solid rgba(62, 42, 20, 0.25);
+    background: #fff;
+    padding: 10px 12px;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    color: var(--color-brand-brown);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .lead-form__input:focus {
+    outline: none;
+    border-color: var(--color-brand-rust-bright);
+    box-shadow: 0 0 0 3px rgba(190, 75, 37, 0.18);
+  }
+  textarea.lead-form__input { resize: vertical; min-height: 100px; }
+  select.lead-form__input { appearance: auto; }
+
+  .lead-form__reply { border: 0; margin: 2px 0 0; padding: 0; }
+  .lead-form__reply legend { padding: 0; }
+  .lead-form__radios { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 4px; }
+  .lead-form__radio {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: var(--color-brand-brown);
+    cursor: pointer;
+  }
+  .lead-form__radio input { width: auto; accent-color: var(--color-brand-rust-bright); }
+
+  .lead-form__submit {
+    width: 100%;
+    background: var(--color-brand-rust-bright);
+    color: #fff;
+    border: 0;
+    padding: 13px 24px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .lead-form__submit:hover { background: var(--color-brand-rust-dark); }
+  .lead-form__submit:focus-visible { outline: 3px solid var(--color-brand-gold); outline-offset: 2px; }
+
+  .lead-form__note {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-brand-rust-dark);
+  }
+</style>

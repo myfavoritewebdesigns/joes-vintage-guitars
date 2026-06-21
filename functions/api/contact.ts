@@ -94,6 +94,10 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
   const formId = String(payload.formId ?? "unknown");
   const name = String(payload.name ?? payload["your-name"] ?? "").trim();
   const email = String(payload.email ?? payload["your-email"] ?? "").trim();
+  // Make/Model box leads the subject line. It posts as "instrument" on the
+  // combined-field forms and "model" on the brand pages (make implied). Fall
+  // back to the name, then a generic label, if the seller left it blank.
+  const makeModel = String(payload.instrument ?? payload.model ?? "").trim();
 
   // Minimal server-side validation (the client already validates too).
   if (!email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
@@ -123,7 +127,7 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
   const form = new FormData();
   form.set("from", from);
   form.set("to", env.MAILGUN_TO);
-  form.set("subject", `Website lead: ${formId}${name ? ` — ${name}` : ""}`);
+  form.set("subject", `LEAD: ${makeModel || name || "New website lead"}`);
   form.set("text", text);
   if (email) form.set("h:Reply-To", email);
 

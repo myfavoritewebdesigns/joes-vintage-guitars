@@ -2,6 +2,7 @@
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
+import LeadForm from "../components/LeadForm.astro";
 import InstagramEmbeds from "../components/InstagramEmbeds.astro";
 import FAQ from "../components/FAQ.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
@@ -230,46 +231,14 @@ const structuredData = [
         </div>
       </div>
 
-      <!-- RIGHT: simplified contact form -->
-      <div class="smm-intro__formwrap">
-        <div class="smm-form-head">
-          <h3><span class="smm-form-head__lede">Feel Free To Contact</span> Joe&rsquo;s Vintage Guitars</h3>
-          <h4>Get a Free Martin Guitar Evaluation &amp; Appraisal Today!</h4>
-        </div>
-        <form
-          class="smm-form"
-          data-jvg-contact-form
-          data-form-id="sell-martin-top"
-          action="/api/contact"
-          method="post"
-          novalidate
-        >
-          <div class="smm-field">
-            <label for="smm-name">Name*</label>
-            <input id="smm-name" type="text" name="your-name" required maxlength="400" />
-          </div>
-          <div class="smm-field">
-            <label for="smm-phone">Phone*</label>
-            <input id="smm-phone" type="tel" name="your-phone" required maxlength="400" />
-          </div>
-          <div class="smm-field">
-            <label for="smm-email">Email*</label>
-            <input id="smm-email" type="email" name="your-email" required maxlength="400" />
-          </div>
-          <div class="smm-field smm-field--message">
-            <label for="smm-message">Comments</label>
-            <textarea id="smm-message" name="your-message" rows="6" maxlength="2000"></textarea>
-          </div>
-          <div class="smm-reply" role="radiogroup" aria-labelledby="smm-reply-label">
-            <span class="smm-reply__label" id="smm-reply-label">How do you want to do it?:</span>
-            <label class="smm-reply__opt"><input type="radio" name="best-reply" value="Call" /> Call</label>
-            <label class="smm-reply__opt"><input type="radio" name="best-reply" value="Text" /> Text</label>
-            <label class="smm-reply__opt"><input type="radio" name="best-reply" value="Email" /> Email</label>
-          </div>
-          <button type="submit" class="smm-submit">SENT</button>
-          <p class="smm-form__note">*If you have photos, you will have the option to upload them after clicking submit</p>
-        </form>
-      </div>
+      <!-- RIGHT: shared lead form -->
+      <LeadForm
+        formId="sell-martin-top"
+        instrumentMode="model-only"
+        heading="Feel Free To Contact Joe’s Vintage Guitars"
+        subheading="Get a Free Martin Guitar Evaluation & Appraisal Today!"
+        submitLabel="Send"
+      />
     </div>
   </section>
 

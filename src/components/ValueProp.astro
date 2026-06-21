@@ -101,13 +101,24 @@ const bullets = [
             </label>
           </div>
 
+          <div class="grid gap-3 sm:grid-cols-3">
+            <label class="block sm:col-span-2">
+              <span class="block text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Instrument Make/Model <span class="text-[12px] font-normal italic opacity-70">(optional)</span></span>
+              <input type="text" name="instrument" autocomplete="off" class="mt-1 w-full border-0 bg-white px-3 py-2 text-sm text-brand-charcoal focus:outline-none focus:ring-2 focus:ring-brand-rust-bright" />
+            </label>
+            <label class="block">
+              <span class="block text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Year <span class="text-[12px] font-normal italic opacity-70">(optional)</span></span>
+              <input type="text" name="year" autocomplete="off" class="mt-1 w-full border-0 bg-white px-3 py-2 text-sm text-brand-charcoal focus:outline-none focus:ring-2 focus:ring-brand-rust-bright" />
+            </label>
+          </div>
+
           <label class="block">
-            <span class="block text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Comments</span>
+            <span class="block text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Comments <span class="text-[12px] font-normal italic opacity-70">(optional)</span></span>
             <textarea name="comments" rows="4" class="mt-1 w-full border-0 bg-white px-3 py-2 text-sm text-brand-charcoal focus:outline-none focus:ring-2 focus:ring-brand-rust-bright"></textarea>
           </label>
 
           <fieldset>
-            <legend class="block w-full text-center text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Best Way To Reply:</legend>
+            <legend class="block w-full text-center text-[14px] font-bold text-brand-rust-dark" style="font-family:var(--font-display);">Best Way To Reply: <span class="text-[12px] font-normal italic opacity-70">(optional)</span></legend>
             <div class="mt-2 flex flex-wrap items-center justify-center gap-5 text-brand-brown">
               {replyMethods.map((opt) => (
                 <label class="inline-flex items-center gap-2 text-[14px] font-semibold">
@@ -131,7 +142,7 @@ const bullets = [
             </button>
           </div>
 
-          <p class="text-center text-xs italic text-brand-brown">
+          <p class="text-center text-[15px] font-semibold text-brand-rust-dark">
             *If you have photos, you will have the option to upload them after clicking submit
           </p>
         </form>
