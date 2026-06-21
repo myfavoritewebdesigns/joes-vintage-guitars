@@ -74,8 +74,8 @@ const cityStateZip = `${contact.address.city}, ${contact.address.region} ${conta
 
           <div class="jvgct__row">
             <label class="jvgct__field">
-              <span>Phone <span class="jvgct__optional">(optional)</span></span>
-              <input type="tel" name="phone" autocomplete="tel" inputmode="tel" />
+              <span>Phone</span>
+              <input type="tel" name="phone" required autocomplete="tel" inputmode="tel" />
             </label>
             <label class="jvgct__field">
               <span>Email</span>
@@ -391,9 +391,9 @@ const cityStateZip = `${contact.address.city}, ${contact.address.region} ${conta
   .jvgct__submit:hover { background: var(--color-brand-brown); }
   .jvgct__note {
     margin: 16px 0 0;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 600;
     color: #fff;
-    font-style: italic;
     text-align: center;
   }
 
