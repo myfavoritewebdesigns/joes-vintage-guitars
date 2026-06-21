@@ -27,7 +27,7 @@ const videoTitle = "Meet Joe Dampt: Joe's Vintage Guitars";
         Most of the guitars I buy come with a story. A father's first electric. A guitar that toured the country in the back of a station wagon. An instrument that sat in a closet for 40 years waiting for the right home. Those stories matter to me. I document them, keep them with the instrument, and make sure they don't get lost.
       </p>
       <p>
-        I'm a player and a repairman who grew up on the music of Hank Garland, Merle Travis, and Chet Atkins. My own guitars are Gibson archtops, Gretsch hollowbodies, and Fender Telecasters and offsets, which is the same gear I'm buying from sellers every day. When you send me a photo of a 1950s ES-175 or a Gretsch Country Gentleman, I'm not looking it up. I already know what it is, what it's worth, and why it matters.
+        I'm a player and a <a href="/repair/">repairman</a> who grew up on the music of Hank Garland, Merle Travis, and Chet Atkins. My own guitars are Gibson archtops, Gretsch hollowbodies, and Fender Telecasters and offsets, which is the same gear I'm buying from sellers every day. When you send me a photo of a 1950s ES-175 or a Gretsch Country Gentleman, I'm not looking it up. I already know what it is, what it's worth, and why it matters.
       </p>
       <p>
         Every guitar that comes through my shop gets a proper evaluation and any needed repairs done in-house, by me. Not by a technician I've never met. That's how I'd want my own instruments treated, and it's how I treat yours.
@@ -162,6 +162,13 @@ const videoTitle = "Meet Joe Dampt: Joe's Vintage Guitars";
     color: var(--color-brand-brown);
   }
   .vdo-col-r p:last-child { margin-bottom: 0; }
+  .vdo-col-r a {
+    color: var(--color-brand-rust);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .vdo-col-r a:hover { color: var(--color-brand-rust-dark); }
 
   @media (max-width: 900px) {
     .vdo-sct { padding: 60px 20px; }
