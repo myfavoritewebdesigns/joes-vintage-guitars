@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
+import LeadForm from "../components/LeadForm.astro";
 import FAQ from "../components/FAQ.astro";
 import { contact, hrefs } from "../config/site";
 
@@ -49,45 +50,12 @@ const structuredData = [
         <p>Looking to sell your vintage amp or effects unit? I keep the process simple: fair offers, fast payment, and insured shipping. Whether it&rsquo;s a classic Fender tube amp, a boutique pedal, or a rare vintage piece, I&rsquo;m interested. Not sure what you have? Start with a <a href="/free-appraisal/" class="sma-link">free appraisal</a> for an accurate value. I buy all kinds of vintage amps, including Fender, Gibson, Marshall, Vox, and more. <a href="/contact-me/" class="sma-link">Contact me today</a> and I&rsquo;ll make it easy.</p>
       </div>
 
-      <div class="sma-intro__formwrap">
-        <div class="sma-form-head">
-          <h3>Feel Free To Contact <span class="sma-form-head__big">Joe&rsquo;s Vintage Guitars</span></h3>
-          <h4>Receive Fair Value For Your Vintage Amp</h4>
-        </div>
-        <form
-          class="sma-form"
-          data-jvg-contact-form
-          data-form-id="sell-amp-top"
-          action="/api/contact"
-          method="post"
-          novalidate
-        >
-          <div class="sma-field">
-            <label for="sma-name">Name*</label>
-            <input id="sma-name" type="text" name="your-name" required maxlength="400" />
-          </div>
-          <div class="sma-field">
-            <label for="sma-phone">Phone*</label>
-            <input id="sma-phone" type="tel" name="your-phone" required maxlength="400" />
-          </div>
-          <div class="sma-field">
-            <label for="sma-email">Email*</label>
-            <input id="sma-email" type="email" name="your-email" required maxlength="400" />
-          </div>
-          <div class="sma-field sma-field--message">
-            <label for="sma-message">Tell us about your amp</label>
-            <textarea id="sma-message" name="your-message" rows="5" maxlength="2000" placeholder="Brand, model, year if known, any details help"></textarea>
-          </div>
-          <div class="sma-reply" role="radiogroup" aria-labelledby="sma-reply-label">
-            <span class="sma-reply__label" id="sma-reply-label">Best Way To Reply:</span>
-            <label class="sma-reply__opt"><input type="radio" name="best-reply" value="Call" /> Call</label>
-            <label class="sma-reply__opt"><input type="radio" name="best-reply" value="Text" /> Text</label>
-            <label class="sma-reply__opt"><input type="radio" name="best-reply" value="Email" /> Email</label>
-          </div>
-          <button type="submit" class="sma-submit">SUBMIT</button>
-          <p class="sma-form__note">*If you have photos, you will have the option to upload them after clicking submit</p>
-        </form>
-      </div>
+      <LeadForm
+        formId="sell-amp-top"
+        heading="Feel Free To Contact Joe’s Vintage Guitars"
+        subheading="Receive Fair Value For Your Vintage Amp"
+        submitLabel="Submit"
+      />
     </div>
   </section>
 

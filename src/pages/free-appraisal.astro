@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import PageHero from "../components/primitives/PageHero.astro";
 import SectionHeader from "../components/primitives/SectionHeader.astro";
 import Button from "../components/primitives/Button.astro";
+import LeadForm from "../components/LeadForm.astro";
 import { contact, hrefs } from "../config/site";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { resolveImage } from "../lib/images";
@@ -299,25 +300,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
         <p class="fa-appraisal__eyebrow">Get An Appraisal</p>
         <h4 class="fa-appraisal__subhead">For Your Vintage Guitar Or Collection Online Or In Person</h4>
 
-        <form class="appr-top-form" data-jvg-contact-form data-form-id="free-appraisal" novalidate>
-          <div class="apf-q"><label>Name<input name="your-name" type="text" autocomplete="name" required /></label></div>
-          <div class="apf-q"><label>Email<input name="your-email" type="email" autocomplete="email" required /></label></div>
-          <div class="apf-q"><label>Phone<input name="your-phone" type="tel" autocomplete="tel" /></label></div>
-          <div class="apf-q"><label>Location <span class="sub-color">(City, State or Country)</span><input name="your-location" type="text" /></label></div>
-          <div class="apf-t"><label>Make/Brand <span class="sub-color">(e.g., Fender, Gibson, Martin)</span><input name="your-brand" type="text" /></label></div>
-          <div class="apf-t"><label>Model <span class="sub-color">(e.g., Stratocaster, Les Paul)</span><input name="your-model" type="text" /></label></div>
-          <div class="apf-t"><label>Year <span class="sub-color">(Approximate)</span><input name="your-year" type="number" inputmode="numeric" min="1900" max="2099" /></label></div>
-          <div class="apf-full"><label>Condition <span class="sub-color">(e.g., Excellent, Good, Fair, Needs Repair)</span><input name="your-condition" type="text" /></label></div>
-          <div class="apf-full"><label>Comments<textarea name="your-comment" rows="3"></textarea></label></div>
-          <div class="apf-full apf-reply" role="radiogroup" aria-labelledby="apf-reply-label">
-            <span class="apf-reply__legend" id="apf-reply-label">Best Way To Reply:</span>
-            <label class="apf-radio"><input type="radio" name="best-reply" value="call" checked /> Call</label>
-            <label class="apf-radio"><input type="radio" name="best-reply" value="text" /> Text</label>
-            <label class="apf-radio"><input type="radio" name="best-reply" value="email" /> Email</label>
-          </div>
-          <div class="apf-full"><button type="submit" class="appr-top-form__submit">Submit</button></div>
-          <p class="appr-top-form__note">*If you have photos, you will have the option to upload them after clicking submit</p>
-        </form>
+        <LeadForm formId="free-appraisal" appraisalType submitLabel="Submit" />
       </div>
 
       <!-- Right: Trusted Authority -->
@@ -572,39 +555,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
         text me at <a href={hrefs.sms}>{contact.phone}</a>, and I&rsquo;ll tell you what it&rsquo;s worth.
       </p>
 
-      <form class="fa-touch__form" data-jvg-contact-form data-form-id="contact" novalidate>
-        <div class="fa-touch__grid">
-          <div class="fa-field">
-            <label for="gt-first">First Name</label>
-            <input id="gt-first" name="your-name" type="text" autocomplete="given-name" required />
-          </div>
-          <div class="fa-field">
-            <label for="gt-last">Last Name</label>
-            <input id="gt-last" name="last-name" type="text" autocomplete="family-name" />
-          </div>
-          <div class="fa-field">
-            <label for="gt-phone">Phone</label>
-            <input id="gt-phone" name="your-phone" type="tel" autocomplete="tel" />
-          </div>
-          <div class="fa-field">
-            <label for="gt-email">Email</label>
-            <input id="gt-email" name="your-email" type="email" autocomplete="email" required />
-          </div>
-          <div class="fa-field fa-field--full">
-            <label for="gt-comments">Comments</label>
-            <textarea id="gt-comments" name="your-message" rows="4"></textarea>
-          </div>
-        </div>
-
-        <fieldset class="fa-touch__reply">
-          <legend>Best Way To Reply:</legend>
-          <label><input type="radio" name="best-reply" value="email" checked /> Email</label>
-          <label><input type="radio" name="best-reply" value="text" /> Text</label>
-          <label><input type="radio" name="best-reply" value="phone" /> Phone</label>
-        </fieldset>
-
-        <button type="submit" class="fa-touch__submit">Submit</button>
-      </form>
+      <LeadForm formId="free-appraisal-contact" submitLabel="Submit" />
     </div>
   </section>
 </Layout>

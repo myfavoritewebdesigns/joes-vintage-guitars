@@ -4,6 +4,7 @@ import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { assetSrc, resolveImage } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import ContactSection from "../components/ContactSection.astro";
+import LeadForm from "../components/LeadForm.astro";
 import InstagramEmbeds from "../components/InstagramEmbeds.astro";
 import FAQ from "../components/FAQ.astro";
 import { SITE_URL, contact, hrefs } from "../config/site";
@@ -280,67 +281,17 @@ const structuredData = [
       </div>
 
       <!-- RIGHT: contact form with serial-number dropdown -->
-      <div class="smf-intro__formwrap">
-        <div class="smf-form-head">
-          <h3><span class="smf-form-head__lede">Feel Free To Contact</span> Joe&rsquo;s Vintage Guitar</h3>
-          <h4>For A Free Fender Guitar Consultation &amp; Appraisal Today!</h4>
-        </div>
-        <form
-          class="smf-form"
-          data-jvg-contact-form
-          data-form-id="sell-fender-top"
-          action="/api/contact"
-          method="post"
-          novalidate
-        >
-          <div class="smf-field">
-            <label for="smf-serial">
-              What information can the serial number tell us?<br />
-              Look on the back of the neck at the top or on the inside of the body.*
-            </label>
-            <select id="smf-serial" name="serial-number" required>
-              <option value="">Please choose an option</option>
-              {serialOptions.map((opt) => <option value={opt}>{opt}</option>)}
-            </select>
-          </div>
-          <div class="smf-field">
-            <label for="smf-name">Name*</label>
-            <input id="smf-name" type="text" name="your-name" required maxlength="400" />
-          </div>
-          <div class="smf-field">
-            <label for="smf-email">Email*</label>
-            <input id="smf-email" type="email" name="your-email" required maxlength="400" />
-          </div>
-          <div class="smf-field">
-            <label for="smf-phone">Phone*</label>
-            <input id="smf-phone" type="tel" name="your-phone" required maxlength="400" />
-          </div>
-          <div class="smf-field">
-            <label for="smf-city">City &amp; State/Province <span class="smf-opt">(Optional)</span></label>
-            <input id="smf-city" type="text" name="your-city" maxlength="400" />
-          </div>
-          <div class="smf-field">
-            <label for="smf-country">Country <span class="smf-opt">(Optional)</span></label>
-            <input id="smf-country" type="text" name="your-country" maxlength="400" />
-          </div>
-          <div class="smf-field">
-            <label for="smf-price">Do you have a price in mind? <span class="smf-opt">(Optional)</span></label>
-            <input id="smf-price" type="text" name="price-mind" maxlength="400" />
-          </div>
-          <div class="smf-field smf-field--message">
-            <label for="smf-message">Tell us more about it <span class="smf-opt">(Optional)</span></label>
-            <textarea id="smf-message" name="your-message" rows="5" maxlength="2000"></textarea>
-          </div>
-          <div class="smf-reply" role="radiogroup" aria-labelledby="smf-reply-label">
-            <span class="smf-reply__label" id="smf-reply-label">Best Way To Reply:</span>
-            <label class="smf-reply__opt"><input type="radio" name="best-reply" value="Call" /> Call</label>
-            <label class="smf-reply__opt"><input type="radio" name="best-reply" value="Text" /> Text</label>
-            <label class="smf-reply__opt"><input type="radio" name="best-reply" value="Email" /> Email</label>
-          </div>
-          <button type="submit" class="smf-submit">SUBMIT</button>
-          <p class="smf-form__note">*If you have photos, you will have the option to upload them after clicking submit</p>
-        </form>
-      </div>
+      <LeadForm
+        formId="sell-fender-top"
+        instrumentMode="model-only"
+        serial={{
+          label: "What information can the serial number tell us? Look on the back of the neck at the top or on the inside of the body.",
+          options: serialOptions,
+        }}
+        heading="Feel Free To Contact Joe’s Vintage Guitars"
+        subheading="For A Free Fender Guitar Consultation & Appraisal Today!"
+        submitLabel="Submit"
+      />
     </div>
   </section>
 

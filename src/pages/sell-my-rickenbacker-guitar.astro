@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
+import LeadForm from "../components/LeadForm.astro";
 import FAQ from "../components/FAQ.astro";
 import { SITE_URL, contact, hrefs } from "../config/site";
 
@@ -154,6 +155,18 @@ const structuredData = [
   </section>
 
   <!-- 2. I Buy & Appraise — 2-column -->
+  <!-- 1b. Lead form -->
+  <section class="px-4 py-12 sm:py-16" style="background: var(--color-brand-cream);">
+    <div class="mx-auto max-w-[760px]">
+      <LeadForm
+        formId="sell-my-rickenbacker"
+        instrumentMode="model-only"
+        heading="Sell Your Vintage Rickenbacker Guitar"
+        subheading="Get A Free Appraisal And A Fair Cash Offer Today"
+      />
+    </div>
+  </section>
+
   <section class="smr-buyappraise">
     <div class="smr-inner smr-buyappraise__grid">
       <div class="smr-buyappraise__text">

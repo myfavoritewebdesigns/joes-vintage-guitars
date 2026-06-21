@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
+import LeadForm from "../components/LeadForm.astro";
 import { SITE_URL, contact } from "../config/site";
 
 /* ============================================================
@@ -80,6 +81,18 @@ const structuredData = [
   <section class="smgu-title-bar">
     <div class="smgu-inner">
       <h1>Sell My Guild Guitar</h1>
+    </div>
+  </section>
+
+  <!-- 1b. Lead form ---------------------------------------------- -->
+  <section class="px-4 py-12 sm:py-16" style="background: var(--color-brand-cream);">
+    <div class="mx-auto max-w-[760px]">
+      <LeadForm
+        formId="sell-my-guild"
+        instrumentMode="model-only"
+        heading="Sell Your Vintage Guild Guitar"
+        subheading="Get A Free Appraisal And A Fair Cash Offer Today"
+      />
     </div>
   </section>
 
