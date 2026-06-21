@@ -74,8 +74,8 @@ const cityStateZip = `${contact.address.city}, ${contact.address.region} ${conta
 
           <div class="jvgct__row">
             <label class="jvgct__field">
-              <span>Phone</span>
-              <input type="tel" name="phone" required autocomplete="tel" inputmode="tel" />
+              <span>Phone <span class="jvgct__optional">(optional)</span></span>
+              <input type="tel" name="phone" autocomplete="tel" inputmode="tel" />
             </label>
             <label class="jvgct__field">
               <span>Email</span>
@@ -83,18 +83,24 @@ const cityStateZip = `${contact.address.city}, ${contact.address.region} ${conta
             </label>
           </div>
 
-          <label class="jvgct__field">
-            <span>Instrument Make/Model</span>
-            <input type="text" name="instrument" autocomplete="off" />
-          </label>
+          <div class="jvgct__row">
+            <label class="jvgct__field">
+              <span>Instrument Make/Model <span class="jvgct__optional">(optional)</span></span>
+              <input type="text" name="instrument" autocomplete="off" />
+            </label>
+            <label class="jvgct__field">
+              <span>Year <span class="jvgct__optional">(optional)</span></span>
+              <input type="text" name="year" autocomplete="off" />
+            </label>
+          </div>
 
           <label class="jvgct__field">
-            <span>How Can We Help?</span>
+            <span>How Can We Help? <span class="jvgct__optional">(optional)</span></span>
             <textarea rows="5" name="comments"></textarea>
           </label>
 
           <div class="jvgct__reply-row" role="radiogroup" aria-labelledby="jvgct-reply-label">
-            <span class="jvgct__reply-label" id="jvgct-reply-label">Best way to reply:</span>
+            <span class="jvgct__reply-label" id="jvgct-reply-label">Best way to reply: <span class="jvgct__optional">(optional)</span></span>
             <div class="jvgct__radios">
               {replyMethods.map((opt) => (
                 <label class="jvgct__radio">
@@ -301,6 +307,16 @@ const cityStateZip = `${contact.address.city}, ${contact.address.region} ${conta
     color: var(--color-brand-cream);
     margin-bottom: 6px;
     letter-spacing: 0.01em;
+  }
+  /* "(optional)" markers next to labels: lighter, smaller, inline */
+  .jvgct__field span .jvgct__optional,
+  .jvgct__reply-label .jvgct__optional {
+    display: inline;
+    margin: 0;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 13px;
+    opacity: 0.85;
   }
   .jvgct__field input,
   .jvgct__field textarea {
