@@ -40,6 +40,8 @@ interface Props {
   serial?: SerialConfig;
   /** When true, renders an Insurance vs Basic appraisal selector. */
   appraisalType?: boolean;
+  /** When true, swaps the Make/Model + Year row for collection-specific fields. */
+  collection?: boolean;
   /** Submit button text. */
   submitLabel?: string;
 }
@@ -51,6 +53,7 @@ const {
   instrumentMode = "make-model",
   serial,
   appraisalType = false,
+  collection = false,
   submitLabel = "Send Message",
 } = Astro.props;
 
@@ -101,16 +104,29 @@ const instrumentName = instrumentMode === "model-only" ? "model" : "instrument";
     </label>
   </div>
 
-  <div class="lead-form__row lead-form__row--instrument">
-    <label class="lead-form__field">
-      <span class="lead-form__label">{instrumentLabel} <span class="lead-form__opt">(optional)</span></span>
-      <input type="text" name={instrumentName} autocomplete="off" class="lead-form__input" />
-    </label>
-    <label class="lead-form__field">
-      <span class="lead-form__label">Year <span class="lead-form__opt">(optional)</span></span>
-      <input type="text" name="year" autocomplete="off" class="lead-form__input" />
-    </label>
-  </div>
+  {collection ? (
+    <div class="lead-form__row lead-form__row--collection">
+      <label class="lead-form__field">
+        <span class="lead-form__label">Approx. How Many Instruments? <span class="lead-form__opt">(optional)</span></span>
+        <input type="text" name="instrument-count" autocomplete="off" class="lead-form__input" />
+      </label>
+      <label class="lead-form__field">
+        <span class="lead-form__label">Collection Location <span class="lead-form__opt">(optional)</span></span>
+        <input type="text" name="location" autocomplete="off" class="lead-form__input" />
+      </label>
+    </div>
+  ) : (
+    <div class="lead-form__row lead-form__row--instrument">
+      <label class="lead-form__field">
+        <span class="lead-form__label">{instrumentLabel} <span class="lead-form__opt">(optional)</span></span>
+        <input type="text" name={instrumentName} autocomplete="off" class="lead-form__input" />
+      </label>
+      <label class="lead-form__field">
+        <span class="lead-form__label">Year <span class="lead-form__opt">(optional)</span></span>
+        <input type="text" name="year" autocomplete="off" class="lead-form__input" />
+      </label>
+    </div>
+  )}
 
   <label class="lead-form__field">
     <span class="lead-form__label">Comments <span class="lead-form__opt">(optional)</span></span>
@@ -167,9 +183,11 @@ const instrumentName = instrumentMode === "model-only" ? "model" : "instrument";
   .lead-form__row { display: grid; gap: 12px; }
   .lead-form__row--3 { grid-template-columns: 1fr 1fr 1fr; }
   .lead-form__row--instrument { grid-template-columns: 2fr 1fr; }
+  .lead-form__row--collection { grid-template-columns: 1fr 1.3fr; }
   @media (max-width: 600px) {
     .lead-form__row--3,
-    .lead-form__row--instrument { grid-template-columns: 1fr; }
+    .lead-form__row--instrument,
+    .lead-form__row--collection { grid-template-columns: 1fr; }
   }
 
   .lead-form__field { display: block; }
