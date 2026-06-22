@@ -1,0 +1,112 @@
+VG-0001 [Gibson] On a suspected counterfeit electric Gibson ('Chibson'), the control cavity is one of the most reliable tells: 
+VG-0002 [Gibson] A Kluson tuner stamp dates the tuner, not necessarily the guitar, because tuners are among the most commonly r
+VG-0003 [Gibson] A Gibson 'PAF' is the original 'Patent Applied For' humbucking pickup designed by Seth Lover. Gibson filed the
+VG-0004 [Gibson] 'Long-tenon' (long neck tenon) describes the longer neck-joint extension Gibson used on set-neck models like t
+VG-0005 [Gibson] A 'volute' is a carved triangular thickening on the back of the neck where it meets the headstock, added by Gi
+VG-0006 [Gibson] Gibson reduced its headstock pitch from about 17 degrees to about 14 degrees around 1965, with 1965 being a tr
+VG-0007 [Gibson] A 'Made in USA' stamp impressed on the back of a Gibson headstock (below the serial) generally indicates 1970 
+VG-0008 [Gibson] Gibson began carving a volute (a small reinforcing bump where the neck meets the headstock) around 1969, used 
+VG-0009 [Gibson] For 1961-1969 (and vintage Gibsons generally) the year is confirmed by physical-feature dating rather than the
+VG-0010 [Gibson] Around 1969-1970 Gibson added a volute (a thickened ridge of wood on the back of the neck where it meets the h
+VG-0011 [Gibson] Gibson serial numbers from 1961 through 1969 are notoriously unreliable for dating: numbers were duplicated, r
+VG-0012 [Gibson] A Gibson 'FON' (Factory Order Number) is a batch number ink-stamped into the wood (e.g. inside the body) durin
+VG-0013 [Gibson] Gibson serial numbers from roughly 1961-1969 are notoriously unreliable for exact dating because the numbers w
+VG-0014 [Gibson] Across every Gibson era, a confident production-year verdict requires corroborating physical features alongsid
+VG-0015 [Gibson] Gibson production shifted from Kalamazoo, Michigan to Nashville, Tennessee between 1974 and 1984; the Nashvill
+VG-0016 [Gibson] Within the 1977+ 8-digit serial, the daily ranking block also encodes the plant in the earlier years: rankings
+VG-0017 [Gibson] Under UV blacklight, aged original nitrocellulose lacquer typically fluoresces a greenish or yellowish glow, s
+VG-0018 [Gibson] UV blacklight has documented blind spots: very old refinishes may not show, polyester/polyurethane and many no
+VG-0019 [Gibson] Kluson Deluxe closed-back tuners carry a single vertical 'Kluson Deluxe' stamp on the gear cover from roughly 
+VG-0020 [Gibson] On Gibson logos, the dot over the 'i' disappeared mostly in 1969 (occasionally seen late 1968 and possibly 197
+VG-0021 [Gibson] Gibson redesigned the Les Paul into the thinner, double-pointed-cutaway 'SG' shape for 1961, but the guitars r
+VG-0022 [Gibson] A 'conversion' (collector sense) is a vintage Gibson Les Paul - typically a 1952-1956 Goldtop - that has been 
+VG-0023 [Gibson] Gibson's 'Norlin era' runs from 1969 (Norlin Inc. takeover) to 1986. Common construction tells of the period i
+VG-0024 [Gibson] The patent number '2,737,842' stamped on Gibson 'patent number' humbucking pickups (~1962-1965) is NOT the hum
+VG-0025 [Gibson] Gibson PAF-era humbucker bobbin colors track a rough timeline: black/black bobbins early (1957-early 1959), th
+VG-0026 [Gibson] Gibson placed 'Patent Applied For' (PAF) decals on the underside of its humbucking pickups from approximately 
+VG-0027 [Gibson] Gibson PAF and early patent-number humbuckers have no consistent, single DC-resistance value: they were hand-w
+VG-0028 [Gibson] Gibson made an estimated ~1,700 sunburst Les Paul Standard 'Bursts' from 1958 through 1960 (commonly cited shi
+VG-0029 [Gibson] Surviving 1958-1960 sunburst Les Paul Standards are commonly estimated at roughly 1,500 to 1,700 instruments, 
+VG-0030 [Gibson] The sunburst Gibson Les Paul Standard 'Burst' was produced only from mid-1958 through 1960. Gibson shipping re
+VG-0031 [Gibson] Gibson serial numbers from approximately 1961-1969 are notoriously unreliable for pinpointing a single year: n
+VG-0032 [Gibson] Gibson serial numbers from 1961 through 1969 are notoriously unreliable: numbers were duplicated (sometimes up
+VG-0033 [Gibson] Gibson serial numbers from approximately 1961 to 1969 are widely documented as unreliable for pinning a single
+VG-0034 [Gibson] On Gibson FONs from approximately 1935-1942, a trailing letter A-H denotes the production year: A=1935, B=1936
+VG-0035 [Gibson] From 1977 to present Gibson uses an 8-digit serial number decoded as YDDDYRRR: digits 1 and 5 combine to give 
+VG-0036 [Gibson] Concrete examples of Gibson 1961-1969 serial-number overlap include the range 100000-106099 (which can be 1963
+VG-0037 [Gibson] Beginning in 1961, Gibson introduced a new serial-number system intended to cover its whole lineup, but in pra
+VG-0038 [Gibson] Gibson hollowbody instruments from approximately 1947 to early 1961 carry a paper label (often visible through
+VG-0039 [Gibson] Gibson Factory Order Numbers (FONs) are internal batch-tracking numbers used roughly 1902-1961, and are a sepa
+VG-0040 [Gibson] 'Dot-neck' describes a Gibson ES-335 (and related ES-3xx) with dot fingerboard inlays, made from the 1958 intr
+VG-0041 [Gibson] Gibson began fitting PAF humbucking pickups to the Les Paul Goldtop during 1957, replacing the P-90 single-coi
+VG-0042 [Gibson] Gibson Les Paul neck profiles slimmed progressively from the thick 1958 profile through 1959 to the thinner 's
+VG-0043 [Gibson] Gibson PAF humbuckers used a longer Alnico magnet (~2.5in) in the late-1950s era and transitioned to a shorter
+VG-0044 [Gibson] The Les Paul's gold finish was changed to Cherry Sunburst around mid-1958, with the Sunburst Standard introduc
+VG-0045 [Gibson] The Gibson ES-335 changed from dot fingerboard inlays to block inlays during 1962 (commonly cited as roughly s
+VG-0046 [Gibson] Within the Norlin era, the 'MADE IN USA' headstock stamp and the neck volute both appeared around 1969-1970; p
+VG-0047 [Fender] EIA manufacturer prefixes on US pots include 134 = CentraLab, 137 = CTS, and 304 = Stackpole; for a 7-digit co
+VG-0048 [Fender] EIA source-date codes on potentiometers and speakers establish only the earliest possible build date of a guit
+VG-0049 [Fender] 'Pre-CBS' Fender refers to instruments built before CBS bought Fender in January 1965 (sale finalized early Ja
+VG-0050 [Fender] Most Fender guitars made before the mid-1970s cannot be reliably dated by serial number alone, because Fender 
+VG-0051 [Fender] A Fender 'neck date' is a production date pencil-written or stamped on the butt/heel of the bolt-on neck (unde
+VG-0052 [Fender] Fender amplifiers generally cannot be dated by serial number for vintage units because Fender kept no serial r
+VG-0053 [Fender] Fender serial numbers only approximate a guitar's age because, due to Fender's modular/batch production, seria
+VG-0054 [Fender] Potentiometer (pot) codes give only a rough 'no earlier than' clue: the EIA source-date code on a pot dates wh
+VG-0055 [Fender] The most reliable single clue for dating a vintage Fender is the date written or stamped on the butt end of th
+VG-0056 [Fender] Fender date-marking practices on pickups evolved: a yellow rubber-stamp date appeared on flatwork around 1964 
+VG-0057 [Fender] Fender single-coil pickups changed bottom-plate (flatwork) color over time: 'black bottom' from the 1950s thro
+VG-0058 [Fender] A Fender 'custom color' is a non-standard (non-sunburst) factory finish drawn from DuPont automotive paints. F
+VG-0059 [Fender] Fender was sold to CBS (via Columbia Records Distribution Corp.) for $13 million on January 5, 1965, beginning
+VG-0060 [Fender] Fender serial numbers do not reliably yield a single production year. Ranges overlap heavily (a given number c
+VG-0061 [Fender] Most Fender serial numbers cannot be dated to a single year. Fender pre-stamped neck plates in batches and ass
+VG-0062 [Fender] Vintage Fender serial numbers overlap across years because neck plates and serial-bearing parts were pre-stamp
+VG-0063 [Fender] Starting in 1976, Fender USA moved serials to the headstock decal with a letter-decade prefix: S = 1970s, E = 
+VG-0064 [Fender] Japanese-made Fenders fall in two labeled eras with REUSED letter prefixes that must not be confused: 'Made in
+VG-0065 [Fender] Fender Mexico (Ensenada) serials use an 'M' plus a decade letter: MN = 1990s, MZ = 2000s, MX = 2010s, with the
+VG-0066 [Fender] Early-1950s Fenders carried serial numbers on the bridge/cup or vibrato plate, moving to the neck plate around
+VG-0067 [Fender] L-series Fenders (serial prefixed with 'L' on the neck plate) span roughly 1963 to 1965 and represent the fina
+VG-0068 [Fender] From Q3 1965 to 1976, CBS-era Fenders used a six-digit serial on a neck plate stamped with a large 'F' (the 'b
+VG-0069 [Fender] Collectors call Telecasters/Esquires made from 1950 to mid-1954 'Blackguards' for their black phenolic pickgua
+VG-0070 [Fender] Fender changed the Stratocaster from a one-piece maple neck (no separate fingerboard) to a rosewood fingerboar
+VG-0071 [Fender] Fender's CBS-era visual and construction tells appeared in stages: the enlarged ('large') headstock arrived in
+VG-0072 [Fender] 'Pre-CBS' Fender means an instrument made before CBS completed its purchase of Fender in January 1965. The cut
+VG-0073 [Fender] An original (un-refinished) custom-color finish on a late-1950s through mid-1960s Fender commands roughly a 40
+VG-0074 [Fender] Refinishing a vintage Fender reduces value by roughly 40% on average (about -40% in a 2012-2026 sales study), 
+VG-0075 [Martin] 'Herringbone' refers to the herringbone-pattern wood-marquetry purfling around the top of pre-war Martin D-28s
+VG-0076 [Martin] 'Scalloped bracing' refers to top braces carved with a scooped/scalloped profile, associated with the most res
+VG-0077 [Martin] On Martin flat-tops the serial number is stamped on the neck block inside the body, visible through the soundh
+VG-0078 [Martin] Martin began stamping the body size and style number on the neck block above the serial number in October 1930
+VG-0079 [Martin] For Martin, 'pre-war' refers to instruments built before WWII production changes (generally pre-1944, with 193
+VG-0080 [Martin] A herringbone, scalloped-braced pre-war Martin D-28 is among the most valuable production flat-tops; published
+VG-0081 [Martin] Martin halted D-45 production in 1942 (WWII) and did not reintroduce the model until 1968, creating a roughly 
+VG-0082 [Martin] Martin has used one continuous, sequential serial number series for its guitars since 1898; the number alone i
+VG-0083 [Martin] Martin's official serial chart lists 8348 as the last serial number issued in 1898, the first year of the seri
+VG-0084 [Martin] Key pre-war Martin construction tells: forward-shifted scalloped X-bracing (X positioned about one inch from t
+VG-0085 [Martin] Martin discontinued the herringbone-trimmed D-28 in 1947 (the German-made herringbone purfling became unavaila
+VG-0086 [Martin] Martin phased out scalloped top bracing in late 1944, switching to heavier non-scalloped (tapered) bracing; th
+VG-0087 [Martin] Martin discontinued herringbone trim on Style 28 guitars in early 1947 because the German-made trim was unavai
+VG-0088 [Martin] Martin switched from Brazilian rosewood to East Indian rosewood on rosewood-body models in 1969; this wood tra
+VG-0089 [Martin] Martin used Brazilian rosewood (Dalbergia nigra) as its standard rosewood for back and sides through 1969 and 
+VG-0090 [Gretsch] From about 1939 to 1966 Gretsch numbered guitars sequentially rather than by date code; pre-WWII numbers were 
+VG-0091 [Gretsch] Gretsch switched from sequential serial numbers to a date-coded serial system in mid-1966 (commonly cited as A
+VG-0092 [Gretsch] Two-digit-month Gretsch date codes from 1969 are ambiguous with single-digit-month codes from 1970-1972: a cod
+VG-0093 [Guild] Guild used a single continuous sequential serial number sequence across all models through 1964 (documented by
+VG-0094 [Rickenbacker] Rickenbacker used a two-letter date code (typically on the jackplate) from 1961 to 1986: the first letter is t
+VG-0095 [National] Valco-made instruments (National, Supro, Airline, Oahu and other house brands) generally encode the year of co
+VG-0096 [Epiphone] Pre-Gibson 'New York' Epiphone serial numbers (acoustic sequence beginning around 50000 in 1943-1944 and runni
+VG-0097 [D'Angelico] John D'Angelico numbered his guitars in a single ledger sequence running roughly from 1001 to 2164, with the e
+VG-0098 [Multiple] OHSC stands for 'Original Hard Shell Case' - the factory-correct hard case that shipped with a given guitar. I
+VG-0099 [Multiple] A 'pot code' is the manufacturer + date code stamped on a guitar's potentiometers, used as a dating clue. The 
+VG-0100 [Any (Fender, Gibson, and other US makers)] A pot's EIA date code establishes only the EARLIEST possible build date of the guitar, not the actual build da
+VG-0101 [Any (US guitars using EIA-coded potentiometers)] EIA source-date codes identify the component maker by the first three digits: CTS = 137, Centralab = 134, Stac
+VG-0102 [Any (US guitars using EIA-coded potentiometers)] In an EIA source-date code, the digits after the 3-digit maker code give YEAR then WEEK. A single-digit year i
+VG-0103 [Multiple] 'Relic'ing' (relicing) is the deliberate distressing of a NEW guitar to imitate the worn finish, checked lacqu
+VG-0104 [Multiple] Nitrocellulose lacquer ('nitro') is a thin, solvent-based finish that DuPont introduced commercially in the ea
+VG-0105 [Multiple] A 'sunburst' (or 'burst') finish is a graduated finish that fades from a lighter center to darker edges. On Gi
+VG-0106 [Multiple] 'All-original' means every component (finish, pickups, tuners, bridge, frets, electronics, etc.) is as it left
+VG-0107 [Multiple] A 'refin' (refinish) is a guitar that has been repainted/re-lacquered after leaving the factory. A non-origina
+VG-0108 [All] The Reverb Price Guide bases its estimated used values on actual completed sales recorded on Reverb (sold list
+VG-0109 [All] Martin did NOT stop using Brazilian rosewood because of CITES, the switch came in 1970 from supply shortages, 
+VG-0110 [Multiple] A 'refret' (fret job) is the replacement of a guitar's worn frets. It is routine, often necessary maintenance 
+VG-0111 [Gibson and Fender] Most Gibson serial numbers from 1961-1969 and most Fender serial numbers cannot be resolved to a single year o
+VG-0112 [All] Originality is the single largest driver of a vintage guitar's value: an all-original instrument outranks one 
