@@ -61,7 +61,7 @@ This is the kind of detail that is easy to get wrong if you are valuing a guitar
 
 This 335 came to me from Edgewater Guitars, and they are one of my favorite shops, worth a few words of their own. They are a dealer I trust, which is not something I say lightly about another buyer.
 
-Edgewater is based in Ohio and deals in vintage, rare, and used guitars across the major brands, with real depth on Gibson, Fender, and Martin. They do free appraisals, make fair cash offers, and pay quickly, and for higher value instruments they will come to you. They also put out free guitar resources, including serial number lookup tools, for people trying to learn about what they own, which tells you they care about the instruments and the people behind them, not just the deal.
+Edgewater is based in Ohio and deals in vintage, rare, and used guitars across the major brands, with real depth on Gibson, Fender, and Martin. They do free appraisals, make fair cash offers, and pay quickly, and for higher value instruments they will come to you. They also put out free guitar resources for people trying to learn about what they own, which tells you they care about the instruments and the people behind them, not just the deal.
 
 What matters most to me is that they know what they are looking at. A guitar like this 1965 ES-335, with a factory feature most people have never seen, only gets described and handled correctly when it passes through knowledgeable hands, and Edgewater has those. You can learn more about them at [Edgewater Guitars](https://edgewaterguitars.com/), and they have a [page for selling your Gibson](https://edgewaterguitars.com/sell-your-guitar/gibson) if you want to see the kind of instruments they take in.
 
