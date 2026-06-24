@@ -11,7 +11,7 @@ heroImageAlt: "1965 Gibson ES-335 in sunburst with a factory short Maestro Vibro
 ogImage: "/images/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-maestro-front-of-body.jpg"
 metaDescription: "A 1965 Gibson ES-335 with a factory short Maestro Vibrola, a combination rarely seen on a 335. How the original ground wire and a clean top confirm it left Kalamazoo this way, plus how to date it and what it means for value."
 ---
-Every so often a guitar comes through that stops you for a second, not because it is in spectacular condition or carries a famous name, but because of one detail that does not add up at first glance. A 1965 Gibson ES-335 recently did exactly that. It wears a short Maestro Vibrola, and in all my years of handling these instruments, that is a pairing I had never seen on a 335 from this period. The more I looked at it, the clearer it became that this is how the guitar left Kalamazoo.
+Every so often a guitar comes through that stops you for a second, not because it is in spectacular condition or carries a famous name, but because of one detail that does not add up at first glance. A 1965 Gibson ES-335 recently did exactly that. It wears a short Maestro Vibrola, and in all my years of handling these instruments, that is a pairing I had never seen on a 335 from this period. The more I looked at it, the clearer it became that this is how the guitar left Kalamazoo. I picked it up from [Edgewater Guitars](https://edgewaterguitars.com/), a trusted dealer out of Ohio and one of my favorite shops.
 
 Here is what makes it interesting, how I read it as a genuine factory configuration, and why a one-off like this matters when you are figuring out what a vintage Gibson is actually worth.
 
@@ -61,6 +61,6 @@ This is the kind of detail that is easy to get wrong if you are valuing a guitar
 
 If you own a vintage Gibson, common or unusual, and you want to know what it is and what it is worth, I am always glad to take a look. I buy and appraise Gibsons across the country. You can start on my [sell your Gibson guitar page](/sell-my-gibson-guitar/) or send a few photos for a [free appraisal](/free-appraisal/), and you will hear back from me directly.
 
-For sellers in Ohio and the surrounding states, [Edgewater Guitars](https://edgewaterguitars.com/) is another knowledgeable Gibson buyer worth knowing about. They cover that region and have their own [sell your Gibson guitar page](https://edgewaterguitars.com/sell-your-guitar/gibson) if you would rather work with someone closer to home.
+Edgewater Guitars is one of my favorite shops and a dealer I trust. They are out of Ohio and know vintage Gibsons inside and out, and you can see the kind of instruments they look for on their [sell your Gibson guitar page](https://edgewaterguitars.com/sell-your-guitar/gibson).
 
 A short Maestro Vibrola on a 1965 ES-335 is the kind of thing you can go years without seeing. When one turns up and everything checks out, it is a good reminder that the factory did not always build to a single template, and that the guitar itself always has the final say.
