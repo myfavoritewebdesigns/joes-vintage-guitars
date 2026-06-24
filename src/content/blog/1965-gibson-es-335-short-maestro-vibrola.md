@@ -6,11 +6,16 @@ excerpt: "A 1965 Gibson ES-335 turned up wearing a short Maestro Vibrola, a fact
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
+heroImage: "/images/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-maestro-front-of-body.jpg"
+heroImageAlt: "1965 Gibson ES-335 in sunburst with a factory short Maestro Vibrola, front of body"
+ogImage: "/images/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-maestro-front-of-body.jpg"
 metaDescription: "A 1965 Gibson ES-335 with a factory short Maestro Vibrola, a combination rarely seen on a 335. How the original ground wire and a clean top confirm it left Kalamazoo this way, plus how to date it and what it means for value."
 ---
 Every so often a guitar comes through that stops you for a second, not because it is in spectacular condition or carries a famous name, but because of one detail that does not add up at first glance. A 1965 Gibson ES-335 recently did exactly that. It wears a short Maestro Vibrola, and in all my years of handling these instruments, that is a pairing I had never seen on a 335 from this period. The more I looked at it, the clearer it became that this is how the guitar left Kalamazoo.
 
 Here is what makes it interesting, how I read it as a genuine factory configuration, and why a one-off like this matters when you are figuring out what a vintage Gibson is actually worth.
+
+<figure><img alt="1965 Gibson ES-335 sunburst full front view standing in its case, factory short Maestro Vibrola visible at the tailpiece" width="1067" height="1600" src="/images/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-full-front-of-guitar.jpg" loading="lazy" decoding="async"><figcaption><strong>The 1965 Gibson ES-335.</strong> A sunburst semi-hollow with the short Maestro Vibrola in place. Everything else about the guitar reads as a clean, original example.</figcaption></figure>
 
 ## What a 1965 ES-335 Usually Looks Like
 
@@ -30,6 +35,8 @@ First, the ground wire. A factory vibrato installation grounds the system in a s
 
 Second, and just as important, there is no evidence that any other tailpiece was ever on this guitar. A stop bar tailpiece leaves two stud bushings set into the top. A trapeze leaves its own mounting and bracket marks. If a short Maestro had been retrofitted over an earlier setup, you would expect filled holes, touched up finish, or shadow marks where the original hardware used to sit. There is none of that here. The top shows only the mounting for the short Maestro, with finish and aging that are consistent across the whole area.
 
+<figure><img alt="Close up of the short Maestro Vibrola on a 1965 Gibson ES-335, compact tremolo unit and ABR-1 bridge with the surrounding top clean and unmarked" width="1600" height="1067" src="/images/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-maestro-close-up.jpg" loading="lazy" decoding="async"><figcaption><strong>The short Maestro Vibrola up close.</strong> The compact unit and its mounting are correct period Gibson hardware. The top around it shows no filled holes or shadow marks from any other tailpiece, one of the details that says this configuration left the factory.</figcaption></figure>
+
 When the wiring is right and the top is clean, the simplest explanation is usually the correct one: this is how Gibson built it.
 
 ## Dating the Guitar
@@ -45,6 +52,8 @@ For more on how the ES-335 changed across the 1960s, these year specific guides 
 ## Why a One-Off Like This Matters for Value
 
 Unusual factory configurations are a real part of what makes vintage Gibsons interesting, and they can affect value in both directions. A genuine, documented factory oddity can draw extra attention from collectors who want something that is not the textbook example. At the same time, the same configuration can scare off a buyer who assumes a vibrato was added later and walks away. The difference comes down to being able to show that it is original, which is why the ground wire and the clean top matter as much as they do.
+
+<figure><img alt="Back of a 1965 Gibson ES-335 in sunburst, original finish consistent across the body with no signs of refinishing or repair" width="1600" height="1067" src="/images/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-back-of-body.jpg" loading="lazy" decoding="async"><figcaption><strong>The back of the 1965 ES-335.</strong> The original sunburst is consistent across the instrument, with no signs of refinishing or repair. A clean, all-original guitar is what gives an unusual factory feature its value.</figcaption></figure>
 
 This is the kind of detail that is easy to get wrong if you are valuing a guitar from a spec sheet instead of the instrument in front of you. If you have a Gibson with a feature that does not seem to fit the year, that is worth a closer look, not an automatic mark against it.
 
