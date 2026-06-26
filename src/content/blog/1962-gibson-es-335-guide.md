@@ -79,7 +79,7 @@ To properly authenticate a **1962 Gibson ES-335**, you must verify the serial nu
     
 -   **The Orange Label:** Inside the bass-side f-hole, you will find the classic Gibson “Orange Label”. This label should clearly display the model name (ES-335TD) and a serial number that perfectly matches the stamp on the back of the headstock.
     
--   **Production Ranges:** Serial numbers for 1962 typically fall within the **42441 to 99999** range, though some overlapping occurs with 1963 production.
+-   **Production Ranges:** Serial numbers for 1962 typically fall within the **42441 to 99999** range, though some overlapping occurs with 1963 production. Be careful here: Gibson serial numbers from 1961 to 1969 are notoriously unreliable. Numbers were duplicated and reused across different years, so the serial alone cannot pin down the year. Always corroborate the date with the guitar's physical features rather than trusting the serial number on its own.
     
 
 For a full breakdown of production years and factory codes, please refer to our **[Comprehensive Gibson Serial Number Decoder & Dating Guide](/how-to-read-gibson-serial-numbers/)**.

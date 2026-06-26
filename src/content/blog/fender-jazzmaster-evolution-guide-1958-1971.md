@@ -313,7 +313,7 @@ Jazzmaster serial numbers are located on the **neck plate** on the back of the g
 | --- | --- | --- | --- |
 | **5-digit (no prefix)** | 1958 to 1963 | 30,000 to 99,999 | Shared with other Fender models. Range overlaps significantly; serial alone cannot distinguish model. |
 | **L prefix + 5 digits** | 1963 to 1965 | L00001 to L99999 | "L" prefix applied to all Fender models in this period. L-series Jazzmasters are late pre-CBS and transition era. |
-| **6 digits above large "F"** | 1965 to 1977 | 100000 to 999999 | The large stylized "F" on the neck plate is a clear CBS-era indicator. Six-digit format used throughout. |
+| **6 digits above large "F"** | 1965 to late 1976 | 100000 to 999999 | The large stylized "F" on the neck plate is a clear CBS-era indicator. Six-digit format used throughout. |
 
 <figure><img alt="Fender Jazzmaster CBS-era F-logo neck plate with serial number, large stylized F on chrome neck plate indicating post-1965 CBS production" width="2440" height="1627" src="/images/blog/fender-jazzmaster-evolution-guide-1958-1971/1966-fender-jazzmaster-f-plate-serial.jpg" loading="lazy" decoding="async"><figcaption><strong>CBS-era "F" neck plate on a Fender Jazzmaster.</strong> The large stylized "F" on the neck plate is an immediate CBS-era indicator. All Jazzmasters built from 1965 onward have this plate. The 6-digit serial number appears above the F. Pre-CBS guitars have a plain neck plate without the F logo.</figcaption></figure>
 

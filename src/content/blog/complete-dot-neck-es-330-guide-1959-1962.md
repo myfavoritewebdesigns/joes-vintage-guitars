@@ -168,7 +168,7 @@ The 1959 ES-330 headstock: plain unbound black face, pearl script Gibson logo, a
 
 ### The Gibson Logo
 
-The headstock carries the Gibson script logo in **pearl inlay** set directly into the headstock face. The letterform character evolved slightly across the dot-neck era, with early examples showing slightly more open letter proportions than later ones. Below the Gibson script, the headstock carries the model designation: **"ES-330T"** for the single-pickup version or **"ES-330TD"** for the two-pickup model, both in smaller lettering on a separate line. The "made in USA" stamp on the back of the headstock is absent on most early 1959 examples and becomes more consistent through 1960 and into 1961 to 1962.
+The headstock carries the Gibson script logo in **pearl inlay** set directly into the headstock face. The letterform character evolved slightly across the dot-neck era, with early examples showing slightly more open letter proportions than later ones. Below the Gibson script, the headstock carries the model designation: **"ES-330T"** for the single-pickup version or **"ES-330TD"** for the two-pickup model, both in smaller lettering on a separate line. There is no "Made in USA" stamp on a dot-neck ES-330. Gibson did not add the "Made in USA" stamp to the back of the headstock until 1970, so these 1959 to 1962 examples do not carry it.
 
 ### Truss Rod Cover
 
@@ -391,7 +391,7 @@ The FON is written in pencil (sometimes ink) on the inside of the guitar body, v
 -   FON prefix: U
 -   Nickel-plated brass ABR-1 saddles continue
 -   Nickel hardware throughout
--   "Made in USA" and headstock serial beginning to appear more consistently
+-   Headstock serial beginning to appear more consistently (no "Made in USA" stamp yet; that did not appear until 1970)
 -   Cases: Lifton / stone / transitional black and gold
 
 ### 1961, Slim Taper Era

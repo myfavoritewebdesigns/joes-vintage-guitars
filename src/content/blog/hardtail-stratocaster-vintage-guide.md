@@ -63,7 +63,7 @@ The transition from the 1950s into the 1960s saw the Stratocaster evolve signifi
 
 During these early years, hardtails were a consistent option, but they were far from the “standard.” Early 1954 to mid-1956 models typically featured ash bodies, while most guitars produced after 1956 shifted to alder. Similarly, neck profiles moved from the chunky “D” and “V” shapes of the mid-50s to the slimmer “C” profiles of the early 60s.
 
-While Fender didn’t keep perfectly granular production logs for every single unit, historians and collectors generally estimate that **hardtails accounted for only about 5% to 10% of total Stratocaster production** during the 1950s and 60s.
+While Fender didn’t keep perfectly granular production logs for every single unit, historians and collectors generally estimate that **hardtails accounted for only about 5% of total Stratocaster production** during the 1950s and 60s.
 
 Because the tremolo was the Strat’s “killer feature,” the vast majority of store orders were for the synchronized bridge. This makes finding a clean, original pre-CBS hardtail a real challenge today. They were rare then, and they are even rarer now.
 

@@ -84,9 +84,9 @@ On an original 1966, the crown inlay should sit flush with the headstock surface
 
 ### The "Gibson" Logo
 
-The 1966 ES-335 carries a **mother-of-pearl inlaid "Gibson" logo** on the headstock face, the letters are individually inlaid pearl, not silk-screened and not a decal. This is an important authentication distinction: the pearl inlay sits flush with the headstock surface, with the surrounding finish flowing over it. Under a loupe, the individual pearl pieces and their inlay channels are visible. A silk-screened or decal logo on a claimed 1966 indicates either a later instrument or a headstock that has been altered.
+The 1966 ES-335 carries a **pearloid "Gibson" logo** on the headstock face, set into the holly veneer. This is an important authentication distinction: the pearloid logo sits flush with the headstock surface, with the surrounding finish flowing over it. Under a loupe, the logo and its inlay channel are visible. A decal logo on a claimed 1966 indicates either a later instrument or a headstock that has been altered.
 
-<figure><img alt="1966 Gibson ES-335 headstock showing silk-screened Gibson logo, crown inlay, bell-shaped ADJUSTABLE truss rod cover, and Kluson double-line tuners" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1966 Gibson ES-335 headstock.</strong> The mother-of-pearl inlaid Gibson logo and crown inlay are clearly visible, along with the blank bell-shaped truss rod cover with its narrow bezel. The six Kluson Deluxe double-line tuner buttons and the butterfly string trees are also correct for this year.</figcaption></figure>
+<figure><img alt="1966 Gibson ES-335 headstock showing pearloid Gibson logo, crown inlay, blank bell-shaped truss rod cover, and Kluson double-line tuners" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1966 Gibson ES-335 headstock.</strong> The pearloid Gibson logo and crown inlay are clearly visible, along with the blank bell-shaped truss rod cover with its narrow bezel. The six Kluson Deluxe double-line tuner buttons and the butterfly string trees are also correct for this year.</figcaption></figure>
 
 ### Truss Rod Cover
 
@@ -236,7 +236,7 @@ Nylon saddles can show string contact grooves and occasional cracking or chippin
 
 <figure><img alt="1966 Gibson ES-335 ABR-1 Tune-o-matic bridge with original nylon saddles and retainer wire, correct period bridge hardware showing authentic chrome aging" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-bridge-nylon-saddles-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>ABR-1 Tune-o-matic bridge with nylon saddles on a 1966 Gibson ES-335.</strong> Nylon/plastic saddles are correct for all 1966 production, Gibson did not switch to chrome-plated saddles until approximately 1969 to 1970. The thin metal retainer wire threading through the saddle adjustment screws is also present and correct. "ABR-1" is stamped on the reverse side of this bridge.</figcaption></figure>
 
-### Stop Bar Tailpiece
+### Trapeze Tailpiece
 
 The 1966 ES-335 uses a **trapeze tailpiece**, a hinged, bracket-style tailpiece that attaches to the strap button on the end of the body and angles up to anchor the strings above the top. This is the correct tailpiece for the ES-335 in 1966.
 
@@ -393,7 +393,7 @@ Gibson has produced numerous ES-335 reissues, including the Memphis-era ES-335s,
 
 -   **Serial number format:** All post-1977 Gibson serials have a letter prefix and specific format, "YYDDDNNN" or similar. A genuine 1966 has a plain 6-digit number on the headstock back.
 -   **Orange label:** Reissue labels use modern printing and modern paper, visible under UV light and to a trained eye. The Kalamazoo address only appears on genuine pre-1984 instruments.
--   **Headstock logo:** Reissues use silk-screened or waterslide logos that may approximate the period look but show modern application techniques under magnification.
+-   **Headstock logo:** A genuine 1966 has a pearloid logo set flush into the veneer. Reissues use printed or waterslide logos that may approximate the period look but show modern application techniques under magnification.
 -   **Pickup stickers:** Genuine Patent Number stickers show age-consistent yellowing and adhesion. Reissue pickup base plates use different markings entirely.
 -   **Tortoise side dots:** Many reissues use white side dots, incorrect for a mid-1960s original.
 
@@ -431,8 +431,8 @@ Serial Number & Label
 Headstock
 
 -   Crown inlay is mother-of-pearl, flush with headstock surface
--   Gibson logo is silk-screened (under finish, not raised above surface), NOT a decal
--   Bell-shaped truss rod cover reads "ADJUSTABLE" in white lettering
+-   Gibson logo is pearloid, flush with headstock surface (NOT a decal)
+-   Bell-shaped truss rod cover is blank with no text
 -   Nut is white nylon/plastic, NOT bone (bone = replacement on a 1966)
 
 Neck & Fingerboard

@@ -120,7 +120,7 @@ Gold Guard P-Basses are prime targets for parts-casters and outright fakes. If y
 
 ### What to Verify
 
--   **Serial number:** On the neck plate, prefixed with a "-" or "0" in the 1957 to 1958 range (5 digits). For full decoding across Fender's serial number schemes, see our [Fender serial number guide](/fender-guitars-serial-number-guide/).
+-   **Serial number:** Stamped on the neck plate. For full decoding across Fender's serial number schemes, see our [Fender serial number guide](/fender-guitars-serial-number-guide/).
 -   **Pencil dates:** Handwritten date on the end of the neck heel (e.g. *6-57*), and often in the middle pickup cavity or under the bridge. Note that some basses, especially 1959 examples, left the factory with **no heel date at all**. A missing heel date isn't automatically a red flag on a bass from that year. In those cases, rely on the body cavity markings, pot codes, and other construction details to confirm the year.
 -   **Guard underside:** Original anodized guards are gold on **both** sides, though the underside looks cleaner and fresher than the top.
 -   **Spaghetti logo decal:** Thin silver "Fender" with "Precision Bass" in smaller black lettering below. Early 1957 decals carry no patent numbers.

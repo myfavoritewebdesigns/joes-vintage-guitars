@@ -178,7 +178,7 @@ Dating a Gibson is notoriously difficult because Gibson’s serial number system
     
 -   **1961-1969:** A mixed, inconsistent system. Labels may be orange, and serial numbers are usually 4, 5, or 6 digits. It is common to have serial number duplicates from different years, making features (like the cutaway type) essential for dating.
     
--   **1970-Present:** A slightly more standardized 8-digit system (YYDDDYPPP), where the first two digits signify the year. However, this is still complex and requires confirmation of other specs.
+-   **1977-Present:** A slightly more standardized 8-digit system (YDDDYRRR), where digits 1 and 5 combine to give the year (not the first two digits), digits 2 through 4 are the day of the year, and the last three are a daily ranking number. However, this is still complex and requires confirmation of other specs.
     
 
 The best way to date your L-5 is with our complete guide: [**How to Date a Gibson Guitar**](/how-to-read-gibson-serial-numbers/)

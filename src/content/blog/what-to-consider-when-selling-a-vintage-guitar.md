@@ -70,9 +70,9 @@ If you want to sell a vintage guitar to guitarists and not collectionists, you s
 
 #### What Are The Most Valuable Vintage Guitars?
 
-The value of a vintage guitar depends on its condition and provenance. However, some models never seem to decrease their value. One is Gibson’s Cherry Sunburst Les Paul Standards, which was produced in the late 50s.
+The value of a vintage guitar depends on its condition and provenance. However, some models never seem to decrease their value. One is Gibson’s Cherry Sunburst Les Paul Standards, which was produced from 1958 to 1960.
 
-Their original price was around $280, but they now regularly go to auction for more than $400,000. That’s because they have incredible craftsmanship, and only 650 were ever made.
+Their original price was around $280, but they now regularly go to auction for more than $400,000. That’s because they have incredible craftsmanship, and only about 1,700 were ever made.
 
 <h3 id="where-can-i-sell-vintage-guitars-in-arizona">Where Can I Sell Vintage Guitars In Arizona?</h3>
 
