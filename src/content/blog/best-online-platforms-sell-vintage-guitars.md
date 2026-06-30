@@ -43,6 +43,8 @@ Stack all four together and a sticker rate of 5 percent turns into 11 or 12 perc
 
 Short version. Each row is the realistic all-in seller cost on a $5,000 vintage guitar as of 2026, not the marketing number off the pricing page.
 
+A quick note on the fees and buyer counts throughout this guide. They are current as of mid 2026 and they change. Platforms adjust their rates and their reported buyer numbers regularly, so before you list, check the current rates on whichever platform you pick.
+
 | Platform | Seller fee | Processing | Real all in cost | Best for |
 | --- | --- | --- | --- | --- |
 | **StringTree** | 0% | Handled by buyer's premium | ~0% to seller | Vintage, collectible, high value |
@@ -148,7 +150,7 @@ Minimums matter too. Most major houses won't accept a consignment under $5,000, 
 
 That's a real zero, not a marketing zero. No selling fee, no listing fee, no payment-processing skim, and no mandatory promoted-listing system you have to bid into to be seen. If a guitar hammers at $8,500, the seller gets $8,500 less whatever shipping arrangement was agreed up front.
 
-**What the trajectory looks like.** StringTree launched in late 2024 with six partner dealers and a single proof-of-concept auction. Less than 18 months later, the company is reporting a waitlist of over 100 stores wanting on, bid counts climbing on every successive cycle, and a feature set that's expanded from a single auction format to include Showrooms for collection display and asynchronous offers. *Vintage Guitar Magazine* covered the launch. Established vintage dealers like J. Rieck Music list there publicly. This isn't a sleepy auction site that's going to disappear next quarter. It's where a meaningful chunk of the serious vintage dealer community is moving inventory.
+**What the trajectory looks like.** StringTree launched in late 2024 with six partner dealers and a single proof-of-concept auction. Less than a year later, the company is reporting a waitlist of over 100 stores wanting on, bid counts climbing on every successive cycle, and a feature set that's expanded from a single auction format to include Showrooms for collection display and asynchronous offers. *Vintage Guitar Magazine* covered the launch. Established vintage dealers like J. Rieck Music list there publicly. This isn't a sleepy auction site that's going to disappear next quarter. It's where a meaningful chunk of the serious vintage dealer community is moving inventory.
 
 <figure><img alt="Live StringTree auction listing for a 1964 Epiphone, showing the bid count, time remaining, and curated listing format the platform uses." width="1428" height="473" src="/images/blog/best-online-platforms-sell-vintage-guitars/Screenshot-2026-05-12-103618.png" loading="lazy" decoding="async"><figcaption>A live StringTree auction for a 1964 Epiphone, showing the bid activity, time remaining, and curated listing layout the platform uses for every consignment.</figcaption></figure>
 

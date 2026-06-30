@@ -45,7 +45,7 @@ It all depends on its quality, rarity, and originality, to mention some. Here ar
 
 **Its Age:** Generally, older guitars will command a greater value than newer ones, but there are some exceptions. There are many ways to find out the value of a product, ranging from asking a consulting price guide to checking the prices of similar models, many of which come with warranties.
 
-**Provenance Value:** Instruments with notable owners (especially guitar players) or those with historical significance will bring top prices. For example, a charred Stratocaster that Jimi Hendrix burned onstage sold for thousands of dollars in 2013.
+**Provenance Value:** Instruments with notable owners (especially guitar players) or those with historical significance will bring top prices. For example, the burned 1965 Stratocaster that Jimi Hendrix set alight during his 1967 Monterey performance sold for roughly $380,000 at the 2008 Fame Bureau auction.
 
 <h3 id="how-to-sell-my-vintage-guitar-in-mesa">How To Sell My Vintage Guitar In Mesa</h3>
 
@@ -86,7 +86,7 @@ A fret buzz may be significant or minor depending on the cause. If the neck is s
 
 <h4 id="rare-materials">5. Rare Materials</h4>
 
-Because Brazilian rosewood is an endangered species and its scarcity makes it difficult to produce, it is no longer a material used to build guitars. The same happens with ivory, tortoiseshell, ebony inlays, and embellishments. Their presence signifies a quality instrument, which usually impacts the guitar’s value.
+Martin stopped using Brazilian rosewood around 1969 to 1970, mainly because of supply shortages that made good wood hard to get. Today Brazilian rosewood is also a protected, endangered species with trade limited under CITES, but the original reason builders moved away from it was the shortage, not the protected status that came later. The same happens with ivory, tortoiseshell, ebony inlays, and embellishments. Their presence signifies a quality instrument, which usually impacts the guitar’s value.
 
 <h4 id="research-properly">6. Research Properly</h4>
 

@@ -53,7 +53,7 @@ When we evaluate a 175 at the shop, we’re looking at a lot more than the year.
 
 ## How to Know What You Really Have
 
-If you’re thinking about selling, you need to look “under the hood.” One of the first things we do is check the potentiometer (pot) codes. By looking inside the f-holes with a mirror, you can often see a 7-digit code starting with “137.” The last four digits tell you the year and week those electronics were made. This is the “smoking gun” for dating a Gibson when the serial number on the orange label has faded or doesn’t make sense. As always, you can also use our [Gibson Serial Number Guide](/how-to-read-gibson-serial-numbers/) to aid you in dating your guitar.
+If you’re thinking about selling, you need to look “under the hood.” One of the first things we do is check the potentiometer (pot) codes. By looking inside the f-holes with a mirror, you can often see a 7-digit code starting with “137.” The last four digits tell you the year and week those electronics were made. This is the “smoking gun” for dating a Gibson when the serial number on the orange label has faded or doesn’t make sense. One important caveat: a pot code only sets a “no earlier than” floor for the build, since the pot itself can predate the guitar it was installed in. Treat it as the earliest the guitar could have been built, not the exact build date, and corroborate it with other features rather than treating it as definitive. As always, you can also use our [Gibson Serial Number Guide](/how-to-read-gibson-serial-numbers/) to aid you in dating your guitar.
 
 We also look for “The Big Three” value killers:
 

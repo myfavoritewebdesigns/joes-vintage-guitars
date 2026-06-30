@@ -37,7 +37,7 @@ Pinning down the market value of an instrument takes more than a quick look; it 
 
 <h2 id="lp-std-52-61">Les Paul Standard Shipping Totals (1952-1961)</h2>
 
-The **Gibson Les Paul Standard shipping totals** between 1952 and 1961 are the first thing to check when you want to know how rare your guitar is. From the first 1952 “trapeze” tailpiece models to the 1959 “Holy Grail” Sunburst, these figures show how much Kalamazoo’s output shifted over the decade. Whether you are checking if your 1958 is one of the first 434 Sunbursts made or tracking the 1961 switch to the SG body style, these numbers matter for an accurate appraisal. For collectors looking to sell, the shipping totals give you something solid to point to.
+The **Gibson Les Paul Standard shipping totals** between 1952 and 1961 are the first thing to check when you want to know how rare your guitar is. From the first 1952 “trapeze” tailpiece models to the 1959 “Holy Grail” Sunburst, these figures show how much Kalamazoo’s output shifted over the decade. Whether you are checking if your 1958 is one of the 187 Sunbursts shipped in 1958 or tracking the 1961 switch to the SG body style, these numbers matter for an accurate appraisal. For collectors looking to sell, the shipping totals give you something solid to point to.
 
 | Model/Year | Goldtop | Sunburst |
 | --- | --- | --- |

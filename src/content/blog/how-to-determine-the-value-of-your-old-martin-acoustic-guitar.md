@@ -34,7 +34,7 @@ Here are some tips to help you determine the value of your old Martin acoustic g
 
 <h3 id="what-to-consider-first">What To Consider First</h3>
 
-The model of your instrument will have a significant impact on its worth. If you’re not sure which model you have, the model number is the best way to find out, usually found just above the serial number. Martin guitars have a seven-digit serial number on the sticker inside the soundhole. 
+The model of your instrument will have a significant impact on its worth. If you’re not sure which model you have, the model number is the best way to find out, usually found just above the serial number. Martin guitars have a seven-digit serial number stamped on the neck block, which you can read by looking through the soundhole. 
 
 You can use this number to search for the model and year of production on the **[Martin website](https://www.martinguitar.com/customer-service-2/support-serial-number-lookup.html)**. Once you know the model, you can start to estimate your guitar’s value. Generally speaking, older Martin acoustic guitars have a higher value than newer ones. If you're unsure about your guitar's age, it's a good idea to first check out our guide on **[How To Read Martin Serial Numbers](/martin-serial-and-model-numbers/)**.
 
@@ -60,11 +60,11 @@ Additionally, most of these guitars are produced in the US, which impacts their 
 
 <h3 id="how-to-recognize-pre-war-martin-guitars">How To Recognize Pre-War Martin Guitars</h3>
 
-The 14-fret and 0000 models were first introduced in their most basic forms in 1934 and 1977, respectively. But the top of the 1934 model is carved, so it has a more complex design than the flat top of the 0000 model. Therefore, the 1934 model is significantly more expensive.
+A few build details set the most desirable pre-war Martins apart. Look for forward-shifted scalloped X-bracing, herringbone purfling around the top edge, and an Adirondack (red spruce) top. Here "pre-war" means built before 1944, when Martin moved away from these features. Guitars with these tells tend to command the highest prices.
 
 This is just an example of some things to remember when determining the value of an old Martin acoustic guitar.
 
-One of the priciest versions is the pre-war Martin, with costs ranging from $320,000 to $400,000. Martin’s D-45 is their most costly model, having a high-end and a 20-fold price increase over the typical acoustic. For example, the Eric Clapton D-45 guitar got $625k at auction.
+One of the priciest versions is the pre-war Martin, with costs ranging from $320,000 to $400,000. Martin’s D-45 is their most costly model, and a pre-war D-45 can be worth up to 20 times more than a typical Martin of the same era, up to around $800,000 at the high end. For example, the Eric Clapton D-45 guitar got $625k at auction.
 
 The model and serial number on the neck block may not be clear if you do not know if you have a pre-war Martin. Looking through the neck hole reveals the location of the etched motif. Your guitar will most likely be a post-war model and will be less valued if you cannot find this information.
 
@@ -72,7 +72,7 @@ If you need help with your serial number, don’t worry, you can ask the experts
 
 <h3 id="why-are-pre-war-martin-guitars-so-exorbitantly-priced">Why Are Pre-War Martin Guitars So Exorbitantly Priced?</h3>
 
-Pre-war Martin guitars, which were built with distinctive looks and sounds, are the most in demand. Even though the D-45 guitar sold at auction for $625k is 20 times more valuable than the ordinary Martin acoustic, these old guitars are worth much more. This might be because they are now uncommon and have a long history. You must decide if the expense justifies the difference in sound.
+Pre-war Martin guitars, which were built with distinctive looks and sounds, are the most in demand. Even though a pre-war D-45 can be worth up to 20 times more than an ordinary Martin acoustic, these old guitars are worth much more. This might be because they are now uncommon and have a long history. You must decide if the expense justifies the difference in sound.
 
 <h3 id="always-ask-the-experts">Always Ask The Experts</h3>
 

@@ -66,7 +66,7 @@ Flip the neck off the body and look at the heel. By 1966, Fender was stamping th
 
 13 MAR 66 B
 
-<figure><img width="2560" height="1707" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-neck-heel-scaled.jpg" alt="1966 Fender Stratocaster neck heel ink stamp reading 13 MAY 66 B" loading="lazy" decoding="async"><figcaption>Real neck heel stamp: 13 MAY 66 B (model 13, May, 1966, 1 5/8" nut)</figcaption></figure>
+<figure><img width="2560" height="1707" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-neck-heel-scaled.jpg" alt="1966 Fender Stratocaster neck heel ink stamp reading 13 MAR 66 B" loading="lazy" decoding="async"><figcaption>Real neck heel stamp: 13 MAR 66 B (model 13, March, 1966, 1 5/8" nut)</figcaption></figure>
 
 The first two digits are the model code. On a Stratocaster from this window (late 1965 through late 1967) the correct code is **13**. Don't let anyone tell you a "3" leading the stamp is correct for a Strat in this era. That single-digit "3" was used for the Telecaster and Esquire. A 1966 Stratocaster neck heel should read 13. The middle three letters are the month abbreviated. The next two digits are the year. The final letter is the neck shape and nut-width profile code. The vintage Fender width codes are fixed and worth memorizing:
 
@@ -190,7 +190,7 @@ Authenticating a 1966 Stratocaster comes down to confirming that every datable c
 -   Large CBS headstock with transition logo (gold, patent numbers visible)
 -   Double-line Kluson Deluxe tuners
 -   Pearloid dots and pearloid side dots
--   Brazilian rosewood veneer fretboard
+-   East Indian rosewood veneer fretboard
 -   Gray-bottom staggered pickups with plain enamel wire
 -   Original .1 mfd ceramic disc "pancake" cap
 -   Cloth-covered pushback wiring

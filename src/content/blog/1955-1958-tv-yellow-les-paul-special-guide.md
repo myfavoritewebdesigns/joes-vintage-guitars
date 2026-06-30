@@ -203,7 +203,7 @@ Critical Authentication Changes for the TV Yellow Les Paul Special
  | A prime year for the single-cut design. Ensure the **nylon nut** and **poker chip** details match the '57 aesthetic. |
 | 1958 | 
 
--   **Major Body Redesign:** Early '58 models are the final **Single-Cutaway** units. Late '58 marks the shift to the **Double-Cutaway** body style.
+-   **Major Body Redesign:** Early '58 models are the final **Single-Cutaway** units. Late '58 marks the shift to the **Double-Cutaway** body style. The shape changed again in 1961, when the Special moved to the **SG-style** body.
 -   **Neck Joint Evolution:** The transition to double-cut necessitates a new, thinner neck joint design.
 
  | The rarest single-cut year. These final single-cut units are in demand for having the most evolved 1950s features. |

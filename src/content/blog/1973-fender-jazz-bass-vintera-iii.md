@@ -130,8 +130,8 @@ Before you write a check on a "real" '73, here's the short list of things to ver
 
 #### What you want to see
 
--   A serial number stamped or decaled on the neck plate or headstock that falls within the documented '72 to '74 ranges. Cross-reference it with our [Fender serial number guide](/fender-guitars-serial-number-guide/), and don't rely on any single source.
--   A neck date pencil-marked or stamped at the heel that lines up with the serial.
+-   An **F-stamped 6-digit neck-plate serial** (the CBS F-plate era), read together with the **neck-heel date**. These two are your most reliable dating tools. Fender serials overlap heavily from year to year and can't be pinned to a single year on their own, so treat the published serial ranges as an approximate corroborator, not proof. The serial should land somewhere in the early-'70s neighborhood, but let the F-plate and the heel date carry the call. Cross-reference with our [Fender serial number guide](/fender-guitars-serial-number-guide/), and don't rely on any single source.
+-   A neck date pencil-marked or stamped at the heel that reads 1972 or 1973. This is the date you lean on, since it's tied to the actual neck rather than a plate that got grabbed out of a bin.
 -   Pot codes on the volume and tone potentiometers that read "137" (CTS) followed by a year/week stamp consistent with late '72 or 1973.
 -   Period-correct Fender-stamped tuners and original-era Phillips screws, not the slotted screws of the pre-CBS years.
 -   An original poly finish that, on close inspection, looks "thick." Sometimes you'll see it pooled around the cutaways. That's not a flaw, that's just the era.
