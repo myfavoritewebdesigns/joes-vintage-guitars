@@ -146,7 +146,7 @@ Some examples also carry a **"D" stamp** in the neck pocket or on the neck heel.
 
 ## The Headstock: Logo, Tuners & String Tree
 
-The headstock of an early Precision Bass carries a **silver foil decal logo** with the Fender script in a specific style different from logos used in later production. The decal reads "Fender" in the distinctive script with "PRECISION BASS" in block letters below, and **"PATENT PENDING"** printed beneath that. The "Patent Pending" designation is significant: on instruments produced before the patent was granted in 1952, you will see "Patent Applied For." On some late 1953 examples the actual patent number begins to appear.
+The headstock of an early Precision Bass carries a **silver foil decal logo** with the Fender script in a specific style different from logos used in later production. The decal reads "Fender" in the distinctive script with "PRECISION BASS" in block letters below, and **"PATENT PENDING"** printed beneath that. The "Patent Pending" designation is significant: on instruments produced before the design patent was granted (Des. 169,062, granted March 4, 1953), you will see "Patent Applied For." On some late 1953 examples the actual patent number begins to appear.
 
 The **string tree** is a small **circular (round disc) style**, not the butterfly string tree found on later Fender instruments. This round disc sits between the nut and the first set of tuning machines to maintain downward string pressure.
 
