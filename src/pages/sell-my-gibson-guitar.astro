@@ -132,12 +132,12 @@ const faqs = [
   {
     id: "toggle_d073b93a144bbc99e",
     q: "What Documentation Is Necessary for Valuing a Vintage Gibson Guitar?",
-    a: "Purchase receipts, repair records, and anything showing the guitar&rsquo;s history all help. The more you have, the more thorough and accurate the appraisal.",
+    a: "Purchase receipts, repair records, and anything showing the guitar’s history all help. The more you have, the more thorough and accurate the appraisal.",
   },
   {
     id: "toggle_79483ce4be1a16f44",
     q: "Are There Certain Gibson Guitar Models That Are Especially In Demand?",
-    a: "Yes. Les Pauls and SGs from the &rsquo;50s and &rsquo;60s are in the highest demand. I collect, buy, and appraise these models regularly, so I know the market for them.",
+    a: "Yes. Les Pauls and SGs from the ’50s and ’60s are in the highest demand. I collect, buy, and appraise these models regularly, so I know the market for them.",
   },
   {
     id: "toggle_6a051cc3fa698c41a",
@@ -147,22 +147,22 @@ const faqs = [
   {
     id: "toggle_ab440da3f25cda912",
     q: "What Qualities Should I Seek in an Appraiser for Evaluating My Vintage Gibson Guitar?",
-    a: "Look for someone who knows vintage Gibsons, has a solid reputation, and can point to references. I&rsquo;ve spent years doing this and stand behind every valuation I give.",
+    a: "Look for someone who knows vintage Gibsons, has a solid reputation, and can point to references. I’ve spent years doing this and stand behind every valuation I give.",
   },
   {
     id: "toggle_497286b147f79ec18",
-    q: "How does a headstock repair or refinish affect my Gibson&rsquo;s value?",
-    a: "A headstock crack or a full refinish usually drops the value about 40 to 50 percent compared to a clean, original example. Even so, these are still great players, and I&rsquo;m always a buyer for player-grade Gibsons with a story. I&rsquo;ll give you a fair price that reflects the original parts that remain.",
+    q: "How does a headstock repair or refinish affect my Gibson’s value?",
+    a: "A headstock crack or a full refinish usually drops the value about 40 to 50 percent compared to a clean, original example. Even so, these are still great players, and I’m always a buyer for player-grade Gibsons with a story. I’ll give you a fair price that reflects the original parts that remain.",
   },
   {
     id: "toggle_d7562c8058c15cfc5",
     q: "How can I safely ship a high-value vintage guitar to you?",
-    a: "Shipping a valuable guitar can be nerve-wracking, so I handle the logistics for you. I&rsquo;ll give you clear packing instructions and can usually send fully insured, prepaid shipping labels. Your guitar stays protected from the moment it leaves your door until it reaches me for the final evaluation.",
+    a: "Shipping a valuable guitar can be nerve-wracking, so I handle the logistics for you. I’ll give you clear packing instructions and can usually send fully insured, prepaid shipping labels. Your guitar stays protected from the moment it leaves your door until it reaches me for the final evaluation.",
   },
   {
     id: "toggle_1d50ca075afe79547",
     q: "Will changing the strings or cleaning my vintage Gibson lower its value?",
-    a: "Changing strings is normal maintenance and won&rsquo;t hurt the value, but I&rsquo;d actually rather you didn&rsquo;t clean or polish the guitar before I see it. Modern polishes can react with old nitrocellulose finishes or strip the natural patina collectors look for. It&rsquo;s best to leave it in as-found condition. The dust and grime of 50 years often tell a story of authenticity that I like to see.",
+    a: "Changing strings is normal maintenance and won’t hurt the value, but I’d actually rather you didn’t clean or polish the guitar before I see it. Modern polishes can react with old nitrocellulose finishes or strip the natural patina collectors look for. It’s best to leave it in as-found condition. The dust and grime of 50 years often tell a story of authenticity that I like to see.",
   },
 ];
 
@@ -173,11 +173,11 @@ const gibsonModels = [
   { title: "Gibson Les Paul",     body: "Buying 1950s Goldtops, Bursts, and Customs. I pay premium market value for original PAF-equipped Les Pauls and 1960s Standards." },
   { title: "Gibson SG",           body: "Buying early 1960s SG Standards and Customs with sideways or Lyre vibrolas. I pay well for clean, original-finish vintage SGs." },
   { title: "Gibson ES",           body: "Buying ES-330, ES-335, ES-345, and ES-355 thinlines. I know the golden-era Super 400 and L-5 archtops well." },
-  { title: "Gibson Flying V",     body: "Looking for rare Korina Flying V models and late-&rsquo;60s reissues. I pay cash for these collectible instruments." },
-  { title: "Gibson Explorer",     body: "Buying vintage Korina Explorers and 1970s models. I know how rare these &lsquo;Modernistic&rsquo; series guitars are." },
+  { title: "Gibson Flying V",     body: "Looking for rare Korina Flying V models and late-’60s reissues. I pay cash for these collectible instruments." },
+  { title: "Gibson Explorer",     body: "Buying vintage Korina Explorers and 1970s models. I know how rare these ‘Modernistic’ series guitars are." },
   { title: "Gibson Firebird",     body: "Buying all vintage reverse and non-reverse Firebird I, III, V, and VII models. I pay extra for original banjo tuners and custom-color finishes." },
-  { title: "Gibson Acoustic",     body: "Strong offers on pre-war J-45s, J-200s, and Advanced Jumbos. I know the rare &lsquo;Banner&rsquo; era acoustics, vintage flat-tops, and Gibson jazz archtops." },
-  { title: "Gibson Bass Guitars", body: "Buying EB-0, EB-3, and vintage Thunderbird basses. I appreciate the history of Gibson&rsquo;s 1950s and &rsquo;60s basses." },
+  { title: "Gibson Acoustic",     body: "Strong offers on pre-war J-45s, J-200s, and Advanced Jumbos. I know the rare ‘Banner’ era acoustics, vintage flat-tops, and Gibson jazz archtops." },
+  { title: "Gibson Bass Guitars", body: "Buying EB-0, EB-3, and vintage Thunderbird basses. I appreciate the history of Gibson’s 1950s and ’60s basses." },
 ];
 
 // Page-level structured data — BreadcrumbList + FAQPage (5 schema-curated Qs).
@@ -195,10 +195,10 @@ const faqSchema = {
   "@type": "FAQPage",
   mainEntity: faqs.slice(0, 5).map((f) => ({
     "@type": "Question",
-    name: f.q.replace(/&[a-z]+;/g, (s) => ({ "&rsquo;": "’", "&ldquo;": "“", "&rdquo;": "”", "&amp;": "&" }[s] ?? s)),
+    name: f.q.replace(/&[a-z]+;/g, (s) => ({ "’": "’", "“": "“", "”": "”", "&": "&" }[s] ?? s)),
     acceptedAnswer: {
       "@type": "Answer",
-      text: f.a.replace(/&[a-z]+;/g, (s) => ({ "&rsquo;": "’", "&ldquo;": "“", "&rdquo;": "”", "&amp;": "&", "—": "—" }[s] ?? s)),
+      text: f.a.replace(/&[a-z]+;/g, (s) => ({ "’": "’", "“": "“", "”": "”", "&": "&", "—": "—" }[s] ?? s)),
     },
   })),
 };
@@ -275,7 +275,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
     <div class="smg-hero__vignette" aria-hidden="true"></div>
     <div class="smg-hero__inner">
       <h1 class="smg-hero__eyebrow"><span>Sell Your Vintage Gibson Guitar</span></h1>
-      <h2 class="smg-hero__title">Expert In Acquiring and Collecting Rare &amp; Vintage Gibson Guitars</h2>
+      <h2 class="smg-hero__title">Expert In Acquiring and Collecting Rare & Vintage Gibson Guitars</h2>
       <div class="smg-hero__sep" aria-hidden="true"></div>
     </div>
   </section>
@@ -306,18 +306,18 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
           <h2 class="smg-intro__h2">Sell Your Vintage Gibson Guitar Today!</h2>
           <p>
             Looking for the best place to sell a vintage Gibson?
-            <strong> You&rsquo;ve found a buyer who knows the history and craftsmanship of these guitars</strong>.
-            Whether you have a 1950s Sunburst Les Paul, a vintage SG, or a classic ES-335, I&rsquo;m a private cash buyer, and I especially want the
+            <strong> You’ve found a buyer who knows the history and craftsmanship of these guitars</strong>.
+            Whether you have a 1950s Sunburst Les Paul, a vintage SG, or a classic ES-335, I’m a private cash buyer, and I especially want the
             Super 400, L-5, and ES-355 models.
-            <strong> To me they&rsquo;re not just instruments. They&rsquo;re something special</strong>.
-            I&rsquo;ll walk you through what your Gibson is worth with a free appraisal, no run-around. Skip the auctions and consignment shops.
+            <strong> To me they’re not just instruments. They’re something special</strong>.
+            I’ll walk you through what your Gibson is worth with a free appraisal, no run-around. Skip the auctions and consignment shops.
             I make fair cash offers on the spot for original-spec Gibson electrics and acoustics.
           </p>
           <p>
             Ready to sell? Contact me today for a no-obligation valuation. Call or text
             <strong> {contact.phone}</strong> or email
-            <a href={hrefs.mailto}><strong> {contact.email}</strong></a> and you&rsquo;ll talk to me directly. I&rsquo;ll make sure your Gibson ends up
-            somewhere it&rsquo;ll be played and looked after.
+            <a href={hrefs.mailto}><strong> {contact.email}</strong></a> and you’ll talk to me directly. I’ll make sure your Gibson ends up
+            somewhere it’ll be played and looked after.
           </p>
 
           <details class="smg-toc">
@@ -384,13 +384,13 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
           <h3 class="smg-meet__title">Meet Joe Dampt, Connoisseur <span class="smg-meet__name">of Gibson Guitars</span></h3>
           <hr class="smg-meet__sep" />
           <p>
-            Hello! <strong><a href="/about-me/">I&rsquo;m Joe</a>,</strong> and <strong>I&rsquo;d like to hear the story behind your guitar</strong>.
-            Whether it&rsquo;s a family heirloom or a guitar you&rsquo;ve played on stage for years, every vintage Gibson has its own history.
-            I&rsquo;ve been collecting and buying these for a long time, and I want to keep that history going.
-            <strong>I treat every vintage Les Paul, ES-335, and archtop with respect, and I make sure it goes to a home where it&rsquo;ll get played.</strong>
+            Hello! <strong><a href="/about-me/">I’m Joe</a>,</strong> and <strong>I’d like to hear the story behind your guitar</strong>.
+            Whether it’s a family heirloom or a guitar you’ve played on stage for years, every vintage Gibson has its own history.
+            I’ve been collecting and buying these for a long time, and I want to keep that history going.
+            <strong>I treat every vintage Les Paul, ES-335, and archtop with respect, and I make sure it goes to a home where it’ll get played.</strong>
           </p>
           <p>
-            Don&rsquo;t settle for a generic trade-in number or an auction house&rsquo;s fees. If you want top dollar for your vintage Gibson, contact me for a free evaluation. It&rsquo;s a straightforward, better-paying way to sell a guitar quickly and safely.
+            Don’t settle for a generic trade-in number or an auction house’s fees. If you want top dollar for your vintage Gibson, contact me for a free evaluation. It’s a straightforward, better-paying way to sell a guitar quickly and safely.
             Call or text me at <strong>{contact.phone}</strong> or email
             <a href={hrefs.mailto}><strong> {contact.email}</strong></a> to start your appraisal today.
           </p>
@@ -409,10 +409,10 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
         <h3 class="smg-split__h3">How To Sell Your Vintage Gibson Guitar</h3>
         <hr class="smg-meet__sep" />
         <p>
-          Selling a valuable guitar shouldn&rsquo;t be stressful. I buy nationwide and I&rsquo;m on the road across the U.S. all the time looking at collections. A lot of the time I can meet you in person and buy your Gibson on the spot. If we can&rsquo;t meet face to face, I cover the shipping. I&rsquo;ll set up and pay for prepaid packing and fully insured shipping.
+          Selling a valuable guitar shouldn’t be stressful. I buy nationwide and I’m on the road across the U.S. all the time looking at collections. A lot of the time I can meet you in person and buy your Gibson on the spot. If we can’t meet face to face, I cover the shipping. I’ll set up and pay for prepaid packing and fully insured shipping.
         </p>
         <p>
-          It&rsquo;s a simple process built to take the risk out of selling privately. No packing headaches, no shipping liability, no worrying about a lost box.
+          It’s a simple process built to take the risk out of selling privately. No packing headaches, no shipping liability, no worrying about a lost box.
         </p>
       </div>
       <figure class="smg-split__img">
@@ -442,7 +442,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
         <h3 class="smg-split__h3">How Much Is My Gibson Guitar Worth?</h3>
         <hr class="smg-meet__sep" />
         <p>
-          The first thing most people want to know is what their Gibson is worth. Send me a few photos and I&rsquo;ll give you a free appraisal. It&rsquo;s quick, it&rsquo;s accurate, and there&rsquo;s never any obligation to sell. I&rsquo;ve also written a lot of free guitar-dating articles if you want to research the year and value yourself. Start with my <a href="/how-to-read-gibson-serial-numbers/">Gibson Serial Number Guide</a>.
+          The first thing most people want to know is what their Gibson is worth. Send me a few photos and I’ll give you a free appraisal. It’s quick, it’s accurate, and there’s never any obligation to sell. I’ve also written a lot of free guitar-dating articles if you want to research the year and value yourself. Start with my <a href="/how-to-read-gibson-serial-numbers/">Gibson Serial Number Guide</a>.
         </p>
       </div>
     </div>
@@ -457,10 +457,10 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
         <h3 class="smg-split__h3">What Is the Best Way To Sell A Vintage Gibson Guitar?</h3>
         <hr class="smg-meet__sep" />
         <p>
-          It&rsquo;s worth understanding the pros and cons of selling the guitar yourself versus selling to a collector or dealer. Either one can work out well.
+          It’s worth understanding the pros and cons of selling the guitar yourself versus selling to a collector or dealer. Either one can work out well.
         </p>
         <p>
-          Selling it yourself can go fine, but I wouldn&rsquo;t recommend it for a first-time seller with a high-end guitar ($4,000 &amp; up). There&rsquo;s a lot of liability in selling and shipping an expensive vintage instrument. Most dealers carry over $100,000 in insurance just for their shipments. If you do want to sell on the private market, I&rsquo;d point you to Reverb.com, which has good shipping protection. Just factor in the fees Reverb charges, and keep in mind that if there&rsquo;s a dispute, Reverb and platforms like it almost always side with the buyer.
+          Selling it yourself can go fine, but I wouldn’t recommend it for a first-time seller with a high-end guitar ($4,000 & up). There’s a lot of liability in selling and shipping an expensive vintage instrument. Most dealers carry over $100,000 in insurance just for their shipments. If you do want to sell on the private market, I’d point you to Reverb.com, which has good shipping protection. Just factor in the fees Reverb charges, and keep in mind that if there’s a dispute, Reverb and platforms like it almost always side with the buyer.
         </p>
       </div>
       <figure class="smg-split__img">
@@ -503,7 +503,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
               size variant. */}
           <hr class="smg-meet__sep smg-process__cardsep" />
           <p>
-            After decades of doing this, I can date and identify your vintage Gibson accurately. Pinning down the exact year and specs is what sets the real market value. I&rsquo;m always glad to walk owners through it, the <a href="/post/gibson-shipping-totals-1948-1979/">production numbers</a>, rare features, and the details that make your particular model worth something. If you&rsquo;ve ever wondered how to date your Gibson or what your old guitar is worth, I can help. The identification and appraisal are free. Whether you&rsquo;ve got a rare 1950s prototype or a well-played 1960s workhorse, I&rsquo;ll explain its history and what the market&rsquo;s doing so you have the facts before you decide to sell.
+            After decades of doing this, I can date and identify your vintage Gibson accurately. Pinning down the exact year and specs is what sets the real market value. I’m always glad to walk owners through it, the <a href="/post/gibson-shipping-totals-1948-1979/">production numbers</a>, rare features, and the details that make your particular model worth something. If you’ve ever wondered how to date your Gibson or what your old guitar is worth, I can help. The identification and appraisal are free. Whether you’ve got a rare 1950s prototype or a well-played 1960s workhorse, I’ll explain its history and what the market’s doing so you have the facts before you decide to sell.
           </p>
         </article>
 
@@ -518,10 +518,10 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
           <h4 class="smg-process__card-h4">A Caring Home<br />For Your Cherished Guitar</h4>
           <hr class="smg-meet__sep smg-process__cardsep" />
           <p>
-            Over the years I&rsquo;ve bought a lot of family heirloom guitars and valuable vintage instruments that just weren&rsquo;t being played anymore. Selling a piece of family history is a big decision, I get that. Here&rsquo;s my promise to every seller: the Gibson you sell me will be well cared for.
+            Over the years I’ve bought a lot of family heirloom guitars and valuable vintage instruments that just weren’t being played anymore. Selling a piece of family history is a big decision, I get that. Here’s my promise to every seller: the Gibson you sell me will be well cared for.
           </p>
           <p>
-            I want these guitars to keep doing what they were built for: to be looked after, kept in playing shape, and played. Whether you need a careful buyer for an estate guitar or just want yours to land with a real collector, I&rsquo;ll make the handoff straightforward and honest. Sell to someone who cares about the story as much as the guitar.
+            I want these guitars to keep doing what they were built for: to be looked after, kept in playing shape, and played. Whether you need a careful buyer for an estate guitar or just want yours to land with a real collector, I’ll make the handoff straightforward and honest. Sell to someone who cares about the story as much as the guitar.
           </p>
         </article>
 
@@ -534,10 +534,10 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
           <h4 class="smg-process__card-h4">Fair Cash Offer</h4>
           <hr class="smg-meet__sep smg-process__cardsep" />
           <p>
-            I&rsquo;m always ready to pay top dollar for a clean vintage instrument. I work to be the Gibson buyer collectors come to, with cash offers that beat what you&rsquo;ll get nationwide. Whether it&rsquo;s a Golden Era flat-top or a rare custom-color electric, I pay more than a trade-in program or a local music store.
+            I’m always ready to pay top dollar for a clean vintage instrument. I work to be the Gibson buyer collectors come to, with cash offers that beat what you’ll get nationwide. Whether it’s a Golden Era flat-top or a rare custom-color electric, I pay more than a trade-in program or a local music store.
           </p>
           <p>
-            If you&rsquo;re ready to sell your Gibson for what it&rsquo;s really worth, don&rsquo;t settle for less. Contact me today for a no-obligation valuation. Buying direct for cash means you get the most for it without the wait or the fees of an auction house. <a href="/contact-me/">Contact me</a> if you&rsquo;ve got a Gibson you&rsquo;d like to sell.
+            If you’re ready to sell your Gibson for what it’s really worth, don’t settle for less. Contact me today for a no-obligation valuation. Buying direct for cash means you get the most for it without the wait or the fees of an auction house. <a href="/contact-me/">Contact me</a> if you’ve got a Gibson you’d like to sell.
           </p>
         </article>
       </div>
@@ -554,7 +554,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
        ─────────────────────────────────────────────────────────────── */}
   <section id="our-clients-testimonials" class="smg-testi">
     <div class="smg-testi__inner">
-      <h3 class="smg-testi__title">Our Clients&rsquo; Testimonials</h3>
+      <h3 class="smg-testi__title">Our Clients’ Testimonials</h3>
 
       <div class="smg-testi__masonry">
         {reviews.map((r) => (
@@ -597,7 +597,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
   <section id="find-out-gibson-really-worth" class="smg-banner">
     <div class="smg-banner__inner">
       <div class="smg-banner__copy">
-        <h3>Find Out What Your Gibson Les Paul Guitar is Really Worth at Joe&rsquo;s Vintage Guitars</h3>
+        <h3>Find Out What Your Gibson Les Paul Guitar is Really Worth at Joe’s Vintage Guitars</h3>
       </div>
       <div class="smg-banner__cta">
         {/* a11y fix (Batch 4 audit): `outline-cream` variant fails contrast on
@@ -621,11 +621,11 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
   <section id="consider-selling-your-guitar" class="smg-lyman">
     <div class="smg-lyman__inner">
       <header class="smg-lyman__header">
-        <h3 class="smg-lyman__h2">Consider Selling Your Vintage Guitar To Joe&rsquo;s Vintage Guitars</h3>
+        <h3 class="smg-lyman__h2">Consider Selling Your Vintage Guitar To Joe’s Vintage Guitars</h3>
         {/* a11y / live-parity fix (Batch 4 audit): was <h4>, but live uses
             an <h3> here AND axe-core flags h2→h4 as a heading-order violation.
             Matching live's tag + the audit's expectation in one change. */}
-        <h3 class="smg-lyman__h3">Honoring Lyman&rsquo;s Legacy</h3>
+        <h3 class="smg-lyman__h3">Honoring Lyman’s Legacy</h3>
         <hr class="smg-meet__sep smg-lyman__sep" />
       </header>
       <div class="smg-lyman__body">
@@ -644,7 +644,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
             I love these guitars, and I want them to keep being played. I either play them myself or find them a home with someone who will care for them the way I do. The stories that come with them mean a lot to me. When I buy a guitar, the thing I hang onto most is often a photo of the original owner or a few stories about their life. I type those up, print them, fold them, and tuck them into the case. I want the players who came before to live on through their instruments.
           </p>
           <p>
-            Meeting Lyman (see photo) and hearing the history behind his vintage Gibson acoustic was one of the better parts of a recent trip. I could see right away the craftsmanship and original features that set his guitar apart from a modified or newer one. Lyman had been quoted less elsewhere, but I was able to offer him a price well above those earlier offers, which is what the guitar was worth. I don&rsquo;t just buy instruments. I care about the history and the stories behind them. I want heirlooms like Lyman&rsquo;s to be looked after, and I make the sale honest and easy for owners who want their Gibson to go somewhere it&rsquo;ll be played and appreciated.
+            Meeting Lyman (see photo) and hearing the history behind his vintage Gibson acoustic was one of the better parts of a recent trip. I could see right away the craftsmanship and original features that set his guitar apart from a modified or newer one. Lyman had been quoted less elsewhere, but I was able to offer him a price well above those earlier offers, which is what the guitar was worth. I don’t just buy instruments. I care about the history and the stories behind them. I want heirlooms like Lyman’s to be looked after, and I make the sale honest and easy for owners who want their Gibson to go somewhere it’ll be played and appreciated.
           </p>
         </div>
       </div>
@@ -659,10 +659,10 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
   <section id="receive-the-highest-payout" class="smg-payout">
     <div class="smg-payout__inner">
       <header class="smg-payout__header">
-        <h3>Professional Valuation &amp; Cash Offers for Vintage Gibson Guitars</h3>
+        <h3>Professional Valuation & Cash Offers for Vintage Gibson Guitars</h3>
         <hr class="smg-meet__sep smg-payout__sep" />
         <p class="smg-payout__lede">
-          I&rsquo;m a private buyer for every era and model in the Gibson catalog. Here are the specific instruments I&rsquo;m looking for and roughly where they land on value.
+          I’m a private buyer for every era and model in the Gibson catalog. Here are the specific instruments I’m looking for and roughly where they land on value.
         </p>
       </header>
       <div class="smg-payout__cards">
@@ -695,7 +695,7 @@ const structuredData = [breadcrumbSchema, faqSchema, articleSchema, videoSchema,
        ─────────────────────────────────────────────────────────────── */}
   <section id="receive-free-consultation" class="smg-final-cta">
     <div class="smg-final-cta__inner">
-      <h3>Receive a Free Vintage Guitar Consultation at Joe&rsquo;s Vintage Guitars!</h3>
+      <h3>Receive a Free Vintage Guitar Consultation at Joe’s Vintage Guitars!</h3>
       <p>Send a few photos for a same-day appraisal. No obligation, no pressure, just an honest valuation from someone who knows vintage Gibsons inside and out.</p>
       <div class="smg-final-cta__buttons">
         <Button href={hrefs.tel}    variant="rust"  size="lg">Call {contact.phone}</Button>

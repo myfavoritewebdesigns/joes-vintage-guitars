@@ -110,7 +110,7 @@ One of the most frequently overlooked details of original Fender finishes from t
 
 ![Nail holes in a 1952 Fender Precision Bass finish showing bare wood at center, the nail was removed after spraying, leaving a clean hole through the lacquer to bare wood](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-nail-hole-scaled.jpg)
 
-<h3 id="routing">Body Routing &amp; Tool Marks</h3>
+<h3 id="routing">Body Routing & Tool Marks</h3>
 
 The control cavity routing was done by hand-guided router, and it shows. Look carefully at the cavity walls and you will often see slight irregularities: faint lines, minor steps, or ridges left by the router as it was guided through the cut. These tool marks are entirely normal and expected on a genuine instrument. A control cavity with perfectly smooth, machine-perfect walls should prompt you to consider whether the body has been refinished or the cavity re-routed.
 
@@ -136,7 +136,7 @@ The position markers on an early Precision Bass fretboard are small **black dot 
 
 ![Black dot fret markers on a 1952 Fender Precision Bass maple neck](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-dot-inlay-scaled.jpg)
 
-<h3 id="stamps">Body Stamps, Neck Heel Dates &amp; the D Stamp</h3>
+<h3 id="stamps">Body Stamps, Neck Heel Dates & the D Stamp</h3>
 
 The neck pocket will often contain an **ink stamp** indicating the month and year the body was completed (e.g., "7-52" for July 1952). The underside of the neck heel carries a **pencil date written by the factory worker** who assembled the neck, handwritten and entirely consistent with genuine Fender production practice. As discussed above, the neck date and body date will frequently be a few months apart on an all-original instrument.
 

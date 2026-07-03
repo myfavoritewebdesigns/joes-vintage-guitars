@@ -229,6 +229,6 @@ If you are inspecting a guitar to see if it is a true 1952 Blackguard, use this 
 7.  **Electronics Check:** Confirm the presence of **Clarostat** pots with blue ink codes starting with “1402” and the **CRL 1452** 3-way switch. Capacitors should be either the “phone book” wax style or the blue and white paper-in-oil style.
     
 
-<h2 id="the-buying">Verify Your Vintage Legacy: Professional Authentication &amp; Buying</h2>
+<h2 id="the-buying">Verify Your Vintage Legacy: Professional Authentication & Buying</h2>
 
 Whether you have inherited a family heirloom or have spent years hunting for the right “Blackguard,” knowing these details is the best way to value a 1952 Telecaster. With as much money as changes hands in the vintage market, professional verification is worth it. If you want clarity on your instrument’s history and current market value, take advantage of our **[free vintage guitar appraisal](/free-appraisal/)** service. And if the time has come to pass your instrument on to its next owner, we are actively buying. Visit our **[sell my Fender guitar](/sell-my-fender-guitar/)** page to see how we provide a straightforward, expert-led selling experience.

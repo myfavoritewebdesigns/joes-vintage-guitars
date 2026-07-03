@@ -61,15 +61,15 @@ const featureCols = [
     iconAlt: "Rare, Unique, And Classic Guitars",
     photo: guildImgMeta("guild-thunderbird.jpg"),
     photoAlt: "Vintage Guild Thunderbird Sunburst Electric Guitar",
-    headline: "Find Rare, Unique &amp; Classic Guild Guitars In Our Online Shop",
-    body: "Because I&rsquo;m always traveling around the country, the inventory changes constantly. Browse the online catalog; you might just find a rare Guild flat-top or Starfire!",
+    headline: "Find Rare, Unique & Classic Guild Guitars In Our Online Shop",
+    body: "Because I’m always traveling around the country, the inventory changes constantly. Browse the online catalog; you might just find a rare Guild flat-top or Starfire!",
   },
   {
     icon: rkImg("guitar-icon.svg"),
     iconAlt: "Many Years Of Experience",
     photo: guildImgMeta("1950s-guild-x175-sunburst-1.jpg"),
     photoAlt: "1950s Guild X-175 Sunburst Archtop Guitar In Its Case",
-    headline: "Years Of Experience Buying &amp; Selling Guitars From All Over America",
+    headline: "Years Of Experience Buying & Selling Guitars From All Over America",
     body: "Over the years I have handled Guild guitars from every era, from the New York and Hoboken years through the long Westerly run. You benefit from that experience whether you are buying or selling.",
   },
 ];
@@ -108,10 +108,10 @@ const structuredData = [
     "@type": "FAQPage",
     mainEntity: faqs.map((f) => ({
       "@type": "Question",
-      name: f.q.replace(/&[a-z]+;/g, (s) => ({ "&rsquo;": "’", "&amp;": "&" }[s] ?? s)),
+      name: f.q.replace(/&[a-z]+;/g, (s) => ({ "’": "’", "&": "&" }[s] ?? s)),
       acceptedAnswer: {
         "@type": "Answer",
-        text: f.a.replace(/<[^>]+>/g, "").replace(/&[a-z]+;/g, (s) => ({ "&rsquo;": "’", "&amp;": "&" }[s] ?? s)),
+        text: f.a.replace(/<[^>]+>/g, "").replace(/&[a-z]+;/g, (s) => ({ "’": "’", "&": "&" }[s] ?? s)),
       },
     })),
   },
@@ -151,7 +151,7 @@ const structuredData = [
       <div class="smgu-hero__rule" aria-hidden="true"></div>
       <h2 class="smgu-hero__subtitle">Connect With The Right Buyer For Your Vintage <span>Guild Guitar</span></h2>
       <div class="smgu-hero__copy">
-        <p>Welcome to <a href="/">Joe&rsquo;s Vintage Guitars</a>. I help you connect with the right buyer for your vintage Guild guitar. Guild has been building first-rate acoustics and electrics since 1952, and the older ones carry real value. Whether you have a Westerly-era F-50 jumbo, a D-55 dreadnought, a Starfire, or an early New York archtop, I can appraise it accurately and make you a fair offer.</p>
+        <p>Welcome to <a href="/">Joe’s Vintage Guitars</a>. I help you connect with the right buyer for your vintage Guild guitar. Guild has been building first-rate acoustics and electrics since 1952, and the older ones carry real value. Whether you have a Westerly-era F-50 jumbo, a D-55 dreadnought, a Starfire, or an early New York archtop, I can appraise it accurately and make you a fair offer.</p>
       </div>
       <div class="smgu-hero__cta">
         <a href="/free-appraisal/" class="smgu-btn smgu-btn--rust">Get Your Free Appraisal</a>
@@ -176,9 +176,9 @@ const structuredData = [
   <section class="smgu-buyappraise">
     <div class="smgu-inner smgu-buyappraise__grid">
       <div class="smgu-buyappraise__text">
-        <h3>I Buy &amp; Appraise <span>Guild Guitars</span> <span class="smgu-buyappraise__online">Online Or In Person</span></h3>
-        <p>Got a vintage Guild you&rsquo;re looking to sell? Or just curious what it&rsquo;s worth? I&rsquo;m an <a href="/free-appraisal/" class="smgu-link">experienced guitar appraiser</a> and buyer, online and in person. After years of doing this, I know Guild guitars from every era, the New York and Hoboken builds, the long Westerly run, and the electrics. Whether it&rsquo;s a jumbo flat-top, a dreadnought, or a Starfire, I can appraise it accurately and make you a fair offer.</p>
-        <p>The process is simple: send me detailed photos and the model, and I&rsquo;ll give you an accurate, no-obligation evaluation. If you&rsquo;d rather meet in person, I&rsquo;m happy to set something up nearby.</p>
+        <h3>I Buy & Appraise <span>Guild Guitars</span> <span class="smgu-buyappraise__online">Online Or In Person</span></h3>
+        <p>Got a vintage Guild you’re looking to sell? Or just curious what it’s worth? I’m an <a href="/free-appraisal/" class="smgu-link">experienced guitar appraiser</a> and buyer, online and in person. After years of doing this, I know Guild guitars from every era, the New York and Hoboken builds, the long Westerly run, and the electrics. Whether it’s a jumbo flat-top, a dreadnought, or a Starfire, I can appraise it accurately and make you a fair offer.</p>
+        <p>The process is simple: send me detailed photos and the model, and I’ll give you an accurate, no-obligation evaluation. If you’d rather meet in person, I’m happy to set something up nearby.</p>
         <a href={hrefs.tel} class="smgu-btn smgu-btn--rust">{contact.phone}</a>
       </div>
       <div class="smgu-buyappraise__photo">
@@ -190,7 +190,7 @@ const structuredData = [
   <!-- 3. Feature columns -->
   <section class="smgu-nationwide">
     <div class="smgu-inner">
-      <h3 class="smgu-nationwide__title">Nationwide Guild Guitars Resale &amp; Appraisals</h3>
+      <h3 class="smgu-nationwide__title">Nationwide Guild Guitars Resale & Appraisals</h3>
       <div class="smgu-nationwide__cols">
         {featureCols.map((c) => (
           <div class="smgu-nationwide__col">
@@ -209,7 +209,7 @@ const structuredData = [
   <section class="smgu-testi" style={`background-image: url('${TESTI_BG}')`}>
     <div class="smgu-inner">
       <div class="smgu-testi__head">
-        <h3 class="smgu-testi__title">Our Clients&rsquo; Testimonials</h3>
+        <h3 class="smgu-testi__title">Our Clients’ Testimonials</h3>
         <h4 class="smgu-testi__sub">5-Star Rated Vintage Guitar Buyer And Appraisal Expert <span>Near You</span></h4>
       </div>
       <div class="smgu-testi__grid">
@@ -244,7 +244,7 @@ const structuredData = [
         <h3 class="smgu-meet__title">Meet Vintage Guitar Expert, <span>Joe Dampt</span></h3>
         <h4 class="smgu-meet__sub">Professional Buyer and Seasoned Collector of Vintage Guitars</h4>
         <p>Hey there! My name is Joe Dampt and I love old music and old guitars!</p>
-        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I&rsquo;ve sacrificed and worked hard to make music and musical instruments my livelihood.</p>
+        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I’ve sacrificed and worked hard to make music and musical instruments my livelihood.</p>
       </div>
     </div>
   </section>

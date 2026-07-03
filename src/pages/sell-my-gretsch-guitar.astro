@@ -44,7 +44,7 @@ const featureCols = [
     iconAlt: "Providing Fair And Convenient Prices Nationwide",
     photo: imgMeta("1959-gretsch-tennessean.jpg"),
     photoAlt: "Vintage 1959 Gretsch Tennessean Hollowbody Guitar",
-    headline: "Get Fair Prices For Your Gretsch Bass &amp; Electric Guitars",
+    headline: "Get Fair Prices For Your Gretsch Bass & Electric Guitars",
     body: "I will always give you the fairest price on the market for your guitar or bass. Have one that you want to sell? <a href=\"/contact-me/\" class=\"smgt-link\">Contact me today</a>!",
   },
   {
@@ -52,7 +52,7 @@ const featureCols = [
     iconAlt: "Rare, Unique, And Classic Guitars",
     photo: imgMeta("1955-gretsch-country-club-natural.jpg"),
     photoAlt: "Vintage 1955 Gretsch Country Club Natural Archtop Guitar",
-    headline: "Find Rare, Unique &amp; Classic Gretsch Guitars In Our Online Shop",
+    headline: "Find Rare, Unique & Classic Gretsch Guitars In Our Online Shop",
     body: "Because I’m always traveling around the country, the inventory changes constantly. Browse the online catalog; you might find a rare Gretsch.",
   },
   {
@@ -60,21 +60,21 @@ const featureCols = [
     iconAlt: "Many Years Of Experience",
     photo: imgMeta("1967-gretsch-viking-sunburst.jpg"),
     photoAlt: "Vintage 1967 Gretsch Viking Sunburst Guitar",
-    headline: "Years Of Experience Buying &amp; Selling Guitars From All Over America",
+    headline: "Years Of Experience Buying & Selling Guitars From All Over America",
     body: "Over the years, I have seen many Gretsch guitar models and series. You can benefit from my expertise whether you are buying or selling one of your own.",
   },
 ];
 
 const faqs = [
-  { id: "toggle_527859ceb8a70e0f6", q: "How Can Appraisal Experts Determine My Guitar's Price &amp; Value?", a: "There are several things that I take into consideration when determining the price of your guitar. These include your instrument&rsquo;s age, how unique it is, if it belong to anyone famous, and the condition of the guitar itself. All of those things combined will dictate what you will pay or be paid for it." },
-  { id: "toggle_02229f7ac996d625a", q: "Can I Sell My Guitar On Consignment Or Trade It For Another One?", a: "There&rsquo;s no set answer. It depends on a few things, like whether I have something you&rsquo;d want to trade for, or whether the guitar is in good enough shape or valuable enough. I&rsquo;ll look at each case carefully and give you a clear answer either way." },
+  { id: "toggle_527859ceb8a70e0f6", q: "How Can Appraisal Experts Determine My Guitar's Price & Value?", a: "There are several things that I take into consideration when determining the price of your guitar. These include your instrument’s age, how unique it is, if it belong to anyone famous, and the condition of the guitar itself. All of those things combined will dictate what you will pay or be paid for it." },
+  { id: "toggle_02229f7ac996d625a", q: "Can I Sell My Guitar On Consignment Or Trade It For Another One?", a: "There’s no set answer. It depends on a few things, like whether I have something you’d want to trade for, or whether the guitar is in good enough shape or valuable enough. I’ll look at each case carefully and give you a clear answer either way." },
   { id: "toggle_a6fb7e4d037f53f7c", q: "What Are The Payment Options To Buy A Vintage Guitar?", a: "I generally prefer to work in cash for buying and selling, but if there is a reasonable alternative, I will gladly listen to any suggestions that you might have. I cannot guarantee that I will be able to work with your payment method, but it never hurts to ask first. I look forward to working with you!" },
-  { id: "toggle_00fc6428ecb9a31e6", q: "Will I Have To Pay For Shipping Taxes To Buy Or Sell A Guitar?", a: "This usually depends on what state you are buying or selling from. Typically, the buyer is the one who pays the shipping tax, not the seller. Be sure to inquire about this before sending any payment. It&rsquo;s my goal to have a smooth transaction on all ends. Thanks for taking a look!" },
+  { id: "toggle_00fc6428ecb9a31e6", q: "Will I Have To Pay For Shipping Taxes To Buy Or Sell A Guitar?", a: "This usually depends on what state you are buying or selling from. Typically, the buyer is the one who pays the shipping tax, not the seller. Be sure to inquire about this before sending any payment. It’s my goal to have a smooth transaction on all ends. Thanks for taking a look!" },
   { id: "toggle_e91094f9e7923d8b7", q: "Is There A Warranty Or Return Policy After Buying A Used Guitar From You?", a: "Yes. If you find that the guitar was damaged while shipping or soon after with normal use, we will work something out so that you are completely satisfied. I want you to be able to enjoy playing the guitar as much as I do and having this sort of protection will put your mind at ease." },
 ];
 
 const structuredData = [
-  { "@context": "https://schema.org", "@type": "FAQPage", name: "About Our Guitar Resale Services", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q.replace(/&rsquo;/g, "'").replace(/&amp;/g, "&"), acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'").replace(/—/g, "—") } })) },
+  { "@context": "https://schema.org", "@type": "FAQPage", name: "About Our Guitar Resale Services", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q.replace(/’/g, "'").replace(/&/g, "&"), acceptedAnswer: { "@type": "Answer", text: f.a.replace(/’/g, "'").replace(/—/g, "—") } })) },
   { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" }, { "@type": "ListItem", position: 2, name: "Sell My Gretsch Guitar", item: "https://www.joesvintageguitarsaz.com/sell-my-gretsch-guitar/" } ] },
   { "@context": "https://schema.org", "@type": "Article", headline: "Sell Your Vintage Gretsch Guitar In The US", author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" }, publisher: { "@id": "https://www.joesvintageguitarsaz.com/" }, mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-gretsch-guitar/" },
 ];
@@ -82,7 +82,7 @@ const structuredData = [
 
 <Layout
   title="Sell New Or Used Gretsch Guitars At Joes Vintage Guitars"
-  description="Looking to sell or just appraise your Gretsch guitar? Joe's Vintage Guitars is buying! We'll buy your acoustic, bass, hollow, &amp; semi-hollow Gretsch guitars!"
+  description="Looking to sell or just appraise your Gretsch guitar? Joe's Vintage Guitars is buying! We'll buy your acoustic, bass, hollow, & semi-hollow Gretsch guitars!"
   canonical="/sell-my-gretsch-guitar/"
   ogImage={`${SITE_URL}${assetSrc("images/sell-gretsch/1960-gretsch-6120-orange.jpg")}`}
   structuredData={structuredData}
@@ -96,8 +96,8 @@ const structuredData = [
       <div class="smgt-hero__rule" aria-hidden="true"></div>
       <h2 class="smgt-hero__subtitle">Leading Gretsch Used Guitar Buyer Near You</h2>
       <div class="smgt-hero__copy">
-        <p>Looking to sell a vintage Gretsch? Or just curious what yours is worth? I can help. I&rsquo;ve spent years playing and researching all kinds of guitars, and I&rsquo;ve been through the trial and error of buying and selling high-quality vintage instruments myself. I think these guitars are great investments, and I know what they&rsquo;re worth.</p>
-        <p>So I offer <a href="/free-appraisal/">free appraisals</a> to anyone looking to sell a vintage Gretsch. Just send me photos by email or text, or stop by the shop if you&rsquo;re in Arizona. I&rsquo;ll give it to you straight.</p>
+        <p>Looking to sell a vintage Gretsch? Or just curious what yours is worth? I can help. I’ve spent years playing and researching all kinds of guitars, and I’ve been through the trial and error of buying and selling high-quality vintage instruments myself. I think these guitars are great investments, and I know what they’re worth.</p>
+        <p>So I offer <a href="/free-appraisal/">free appraisals</a> to anyone looking to sell a vintage Gretsch. Just send me photos by email or text, or stop by the shop if you’re in Arizona. I’ll give it to you straight.</p>
       </div>
       <div class="smgt-hero__cta">
         <a href="/free-appraisal/" class="smgt-btn smgt-btn--rust">Get Your Free Appraisal</a>
@@ -121,8 +121,8 @@ const structuredData = [
   <section class="smgt-buyappraise">
     <div class="smgt-inner smgt-buyappraise__grid">
       <div class="smgt-buyappraise__text">
-        <h3>I Buy &amp; Appraise <span>Vintage Guitars</span> <span class="smgt-buyappraise__online">Online Or In Person</span></h3>
-        <p>When you&rsquo;re ready to get your Gretsch appraised, just text or email me a few clear photos along with your contact info. I&rsquo;ll look them over, let you know if I need anything else, and give you an honest appraisal. I&rsquo;m always looking for vintage guitars and pay top dollar through a simple, risk-free process.</p>
+        <h3>I Buy & Appraise <span>Vintage Guitars</span> <span class="smgt-buyappraise__online">Online Or In Person</span></h3>
+        <p>When you’re ready to get your Gretsch appraised, just text or email me a few clear photos along with your contact info. I’ll look them over, let you know if I need anything else, and give you an honest appraisal. I’m always looking for vintage guitars and pay top dollar through a simple, risk-free process.</p>
         <a href={hrefs.tel} class="smgt-btn smgt-btn--rust">{contact.phone}</a>
       </div>
       <div class="smgt-buyappraise__photo">
@@ -133,7 +133,7 @@ const structuredData = [
 
   <section class="smgt-nationwide">
     <div class="smgt-inner">
-      <h3 class="smgt-nationwide__title">Nationwide Gretsch Guitar Resale &amp; Appraisals</h3>
+      <h3 class="smgt-nationwide__title">Nationwide Gretsch Guitar Resale & Appraisals</h3>
       <div class="smgt-nationwide__cols">
         {featureCols.map((c) => (
           <div class="smgt-nationwide__col">
@@ -151,7 +151,7 @@ const structuredData = [
   <section class="smgt-testi" style={`background-image: url('${TESTI_BG}')`}>
     <div class="smgt-inner">
       <div class="smgt-testi__head">
-        <h3 class="smgt-testi__title">Our Clients&rsquo; Testimonials</h3>
+        <h3 class="smgt-testi__title">Our Clients’ Testimonials</h3>
         <h4 class="smgt-testi__sub">5-Star Rated Gretsch Guitar Resale Expert Near You</h4>
       </div>
       <div class="smgt-testi__grid">
@@ -186,8 +186,8 @@ const structuredData = [
         <h3 class="smgt-meet__title">Meet Vintage Guitar Expert, <span>Joe Dampt</span></h3>
         <h4 class="smgt-meet__sub">Professional Buyer and Seasoned Collector of Vintage Guitars</h4>
         <p>Hey there! My name is Joe Dampt and I love old music and old guitars!</p>
-        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I&rsquo;ve sacrificed and worked hard to make music and musical instruments my livelihood. I love old guitars and musical instruments, but I love the MUSIC even more. I believe that guitars don&rsquo;t do us any good if they just sit in a case. These beauties are meant to be played!</p>
-        <p>I&rsquo;ve performed in many local bands and my favorite styles to play are classic country/western music, swing &amp; dance music, and classic rock &amp; roll.</p>
+        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I’ve sacrificed and worked hard to make music and musical instruments my livelihood. I love old guitars and musical instruments, but I love the MUSIC even more. I believe that guitars don’t do us any good if they just sit in a case. These beauties are meant to be played!</p>
+        <p>I’ve performed in many local bands and my favorite styles to play are classic country/western music, swing & dance music, and classic rock & roll.</p>
       </div>
     </div>
   </section>

@@ -13,15 +13,15 @@ import { contact, hrefs } from "../config/site";
    ============================================================ */
 
 const faqs = [
-  { id: "toggle_amp-1", q: "What Types Of Amplifiers Do You Buy?", a: "I buy vintage tube amps and effects from major brands like Fender, Marshall, Gibson, Vox, Ampeg, Hiwatt, and more. Boutique builders, rare studio amps, and one-of-a-kind pedals are also of interest. If you&rsquo;re unsure, send me a photo and I&rsquo;ll let you know within minutes." },
-  { id: "toggle_amp-2", q: "How Do I Get An Appraisal For My Vintage Amp?", a: "Just text or email me a few clear photos of the front, back, and chassis (including any visible date codes), along with the model. I&rsquo;ll get back to you with a fair-market value and a no-obligation offer." },
+  { id: "toggle_amp-1", q: "What Types Of Amplifiers Do You Buy?", a: "I buy vintage tube amps and effects from major brands like Fender, Marshall, Gibson, Vox, Ampeg, Hiwatt, and more. Boutique builders, rare studio amps, and one-of-a-kind pedals are also of interest. If you’re unsure, send me a photo and I’ll let you know within minutes." },
+  { id: "toggle_amp-2", q: "How Do I Get An Appraisal For My Vintage Amp?", a: "Just text or email me a few clear photos of the front, back, and chassis (including any visible date codes), along with the model. I’ll get back to you with a fair-market value and a no-obligation offer." },
   { id: "toggle_amp-3", q: "Do You Cover Shipping?", a: "Yes. For most amps, I provide a prepaid, fully-insured shipping label and detailed packing instructions. You drop it at FedEx and get paid same-day in many cases." },
-  { id: "toggle_amp-4", q: "What If My Amp Doesn&rsquo;t Work?", a: "Non-working vintage amps still have real value. I buy amps in any condition, original or modified, working or not. Just tell me what you know and I&rsquo;ll factor it into the offer." },
-  { id: "toggle_amp-5", q: "Will I Get Paid The Same Day?", a: "For most deals, yes. Once I&rsquo;ve received and inspected the amp, payment goes out same-day via your preferred method: Zelle, Venmo, PayPal, wire transfer, or check." },
+  { id: "toggle_amp-4", q: "What If My Amp Doesn’t Work?", a: "Non-working vintage amps still have real value. I buy amps in any condition, original or modified, working or not. Just tell me what you know and I’ll factor it into the offer." },
+  { id: "toggle_amp-5", q: "Will I Get Paid The Same Day?", a: "For most deals, yes. Once I’ve received and inspected the amp, payment goes out same-day via your preferred method: Zelle, Venmo, PayPal, wire transfer, or check." },
 ];
 
 const structuredData = [
-  { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q.replace(/&rsquo;/g, "'").replace(/&amp;/g, "&"), acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'").replace(/—/g, "—") } })) },
+  { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q.replace(/’/g, "'").replace(/&/g, "&"), acceptedAnswer: { "@type": "Answer", text: f.a.replace(/’/g, "'").replace(/—/g, "—") } })) },
   { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" }, { "@type": "ListItem", position: 2, name: "Sell An Amplifier or Effect", item: "https://www.joesvintageguitarsaz.com/sell-an-amplifier-or-effect/" } ] },
   { "@context": "https://schema.org", "@type": "Article", headline: "Sell My Amplifier", author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" }, publisher: { "@id": "https://www.joesvintageguitarsaz.com/" }, mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-an-amplifier-or-effect/" },
 ];
@@ -37,8 +37,8 @@ const structuredData = [
   <section class="sma-hero">
     <div class="sma-hero__inner">
       <h1>Sell My Amplifier</h1>
-      <h2 class="sma-hero__subtitle">Get A Competitive Offer &amp; Quick Payment For Your Vintage Amp</h2>
-      <p class="sma-hero__lede">Is your amp gathering dust? Whether it&rsquo;s a classic Fender, a Marshall, or something rare you&rsquo;ve had in storage, I make it easy to sell. I&rsquo;ll get your vintage amp to someone who&rsquo;ll appreciate it and get you paid fast. Start with a free appraisal for a fair offer, all from home.</p>
+      <h2 class="sma-hero__subtitle">Get A Competitive Offer & Quick Payment For Your Vintage Amp</h2>
+      <p class="sma-hero__lede">Is your amp gathering dust? Whether it’s a classic Fender, a Marshall, or something rare you’ve had in storage, I make it easy to sell. I’ll get your vintage amp to someone who’ll appreciate it and get you paid fast. Start with a free appraisal for a fair offer, all from home.</p>
     </div>
   </section>
 
@@ -47,7 +47,7 @@ const structuredData = [
     <div class="sma-inner sma-intro__grid">
       <div class="sma-intro__copy">
         <h3 class="sma-intro__title">Sell Your Vintage Amplifier <span>or Effect</span></h3>
-        <p>Looking to sell your vintage amp or effects unit? I keep the process simple: fair offers, fast payment, and insured shipping. Whether it&rsquo;s a classic Fender tube amp, a boutique pedal, or a rare vintage piece, I&rsquo;m interested. Not sure what you have? Start with a <a href="/free-appraisal/" class="sma-link">free appraisal</a> for an accurate value. I buy all kinds of vintage amps, including Fender, Gibson, Marshall, Vox, and more. <a href="/contact-me/" class="sma-link">Contact me today</a> and I&rsquo;ll make it easy.</p>
+        <p>Looking to sell your vintage amp or effects unit? I keep the process simple: fair offers, fast payment, and insured shipping. Whether it’s a classic Fender tube amp, a boutique pedal, or a rare vintage piece, I’m interested. Not sure what you have? Start with a <a href="/free-appraisal/" class="sma-link">free appraisal</a> for an accurate value. I buy all kinds of vintage amps, including Fender, Gibson, Marshall, Vox, and more. <a href="/contact-me/" class="sma-link">Contact me today</a> and I’ll make it easy.</p>
       </div>
 
       <LeadForm
@@ -62,15 +62,15 @@ const structuredData = [
   <!-- 3. Sell-an-amp value props -->
   <section class="sma-value">
     <div class="sma-inner">
-      <h3 class="sma-value__title">Why Sell To Joe&rsquo;s Vintage Guitars?</h3>
+      <h3 class="sma-value__title">Why Sell To Joe’s Vintage Guitars?</h3>
       <div class="sma-value__grid">
         <div class="sma-value__card">
           <h4>Free Appraisals, No Pressure</h4>
-          <p>Send me a few photos and the brand/model, and I&rsquo;ll get back within minutes with a fair-market value. No obligation to sell.</p>
+          <p>Send me a few photos and the brand/model, and I’ll get back within minutes with a fair-market value. No obligation to sell.</p>
         </div>
         <div class="sma-value__card">
-          <h4>I Cover Shipping &amp; Insurance</h4>
-          <p>Prepaid, fully-insured shipping labels and detailed packing instructions. You don&rsquo;t pay a dime to send your amp my way.</p>
+          <h4>I Cover Shipping & Insurance</h4>
+          <p>Prepaid, fully-insured shipping labels and detailed packing instructions. You don’t pay a dime to send your amp my way.</p>
         </div>
         <div class="sma-value__card">
           <h4>Fast Payment</h4>
@@ -83,8 +83,8 @@ const structuredData = [
   <!-- 4. Brands I buy -->
   <section class="sma-brands">
     <div class="sma-inner">
-      <h3 class="sma-brands__title">Amplifier &amp; Effect Brands I Buy</h3>
-      <p class="sma-brands__intro">Top dollar paid for vintage amps and effects from these classic builders. Don&rsquo;t see your brand? Reach out anyway, I look at everything.</p>
+      <h3 class="sma-brands__title">Amplifier & Effect Brands I Buy</h3>
+      <p class="sma-brands__intro">Top dollar paid for vintage amps and effects from these classic builders. Don’t see your brand? Reach out anyway, I look at everything.</p>
       <ul class="sma-brands__list">
         <li>Fender</li><li>Marshall</li><li>Vox</li><li>Gibson</li><li>Ampeg</li><li>Hiwatt</li><li>Magnatone</li><li>Supro</li><li>Silvertone</li><li>Gretsch</li><li>Standel</li><li>Mesa Boogie</li><li>Dumble</li><li>Trainwreck</li><li>Two-Rock</li><li>And many more&hellip;</li>
       </ul>

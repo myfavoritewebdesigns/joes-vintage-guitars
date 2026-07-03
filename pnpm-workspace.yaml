@@ -1,0 +1,21 @@
+# pnpm settings (pnpm 10.16+/11 reads these here, not package.json's "pnpm" field).
+# Converted from npm 2026-07-03 to match the org standard + the wp-to-astro template.
+nodeLinker: hoisted
+
+# Native packages whose build scripts pnpm must run. esbuild/sharp/oxide/parcel are needed
+# for `astro build` on Cloudflare Pages; odiff-bin/playwright are for the local audit tooling.
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+  - "@tailwindcss/oxide"
+  - "@parcel/watcher"
+  - odiff-bin
+  - playwright
+
+# Per-package build-script approval for this machine's pnpm supply-chain policy (local only;
+# Cloudflare Pages CI honors onlyBuiltDependencies above).
+allowBuilds:
+  esbuild: true
+  sharp: true
+  odiff-bin: true
+  playwright: true

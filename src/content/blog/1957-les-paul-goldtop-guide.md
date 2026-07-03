@@ -31,7 +31,7 @@ If 1956 was the year Gibson sorted out the hardware, 1957 was the year they got 
 
 If you need assistance in dating yout Gibson, check out our [serial number guide](/how-to-read-gibson-serial-numbers/). If you’d like to [sell a Gibson](/sell-my-gibson-guitar/), please contact us for a competitive offer!
 
-<h2 id="humbucker-shift">The “Year One” Humbucker Shift: PAFs &amp; M-69 Rings</h2>
+<h2 id="humbucker-shift">The “Year One” Humbucker Shift: PAFs & M-69 Rings</h2>
 
 The most obvious differentiator for ’57 is the move to humbuckers. When authenticating these, we look for the brushed nickel covers with soft, slightly rounded edges. Unlike modern reissues that are often too “sharp,” an original 1957 cover has a specific “cloudy” patina that is nearly impossible to fake. Underneath, you’re looking for the black “L” tool marks on the feet and the **PAF decal** on the baseplate.
 
@@ -66,7 +66,7 @@ A detailed view of the bullion gold finish on a 1957 Standard. The network of we
 -   **Cellulose Nitrate Inlays:** These trapezoid markers often show **noticeable shrinkage**. If you see a slight gap or “dirt line” around the sharp corners of the inlay, that’s actually a great sign of an original, gassing-off 1950s part.
     
 
-<h2 id="headstock-neck">Headstock, Neck &amp; The “Golden Era” Logo</h2>
+<h2 id="headstock-neck">Headstock, Neck & The “Golden Era” Logo</h2>
 
 The “face” of a 1957 Les Paul holds several of the most critical markers for authentication. Because this was a period of high consistency at the Kalamazoo factory, any deviation in these specific specs is a reason to look closer.
 
@@ -89,7 +89,7 @@ A detailed view of the side dots on a 1957 Goldtop. While they often appear blac
 -   **The 17-Degree Pitch:** Every ’57 Standard was built with a steep 17-degree headstock angle. This angle is a major part of the Les Paul’s resonance and sustain, but it also makes the headstock vulnerable; always check for “smile” cracks or repairs behind the nut during your inspection.
     
 
-<h2 id="hardware-plastics">Hardware &amp; Plastics: No-Wire ABR-1 &amp; Klusons</h2>
+<h2 id="hardware-plastics">Hardware & Plastics: No-Wire ABR-1 & Klusons</h2>
 
 -   **“No-Wire” ABR-1:** The bridge should be a nickel-plated Tune-o-matic without a retainer wire. If there is a wire holding the saddles in, it’s a later early-60s part. It should be stamped “GIBSON ABR-1” on the back.
     
@@ -105,7 +105,7 @@ A look at the underside of a correct 1957 ABR-1 bridge. Authentic 1950s bridges 
 -   **The “Poker Chip”:** The selector ring should have gold-embossed lettering that looks “pressed” into the cream plastic.
     
 
-<h2 id="internal-smoking-guns">Internal “Smoking Guns”: Bumblebees &amp; Stepped Routes</h2>
+<h2 id="internal-smoking-guns">Internal “Smoking Guns”: Bumblebees & Stepped Routes</h2>
 
 To truly verify a ’57, you have to look “under the hood.”
 
@@ -121,7 +121,7 @@ To truly verify a ’57, you have to look “under the hood” at the electronic
 -   **Long Tenon:** In the neck pickup cavity, the neck wood should extend significantly into the body route for maximum resonance.
     
 
-<h2 id="serial-numbers">Serial Numbers &amp; The “California Girl” Case</h2>
+<h2 id="serial-numbers">Serial Numbers & The “California Girl” Case</h2>
 
 The serial number should be a **yellow or black ink stamp** starting with a “**7**” (e.g., 7 1234). The font is a specific, blocky mid-50s typeface. This guitar typically paired with the **“California Girl” case**, so named for its curvy, hourglass silhouette.
 

@@ -40,7 +40,7 @@ Switching to anodized aluminum wasn't a cosmetic decision. It solved several eng
 
 <figure><img alt="Gold anodized aluminum pickguard close-up on a 1959 Fender Precision Bass" width="2560" height="1707" src="/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-anodized-pickguard-scaled.jpg" loading="lazy" decoding="async"><figcaption>The Gold Anodized Aluminum Pickguard</figcaption></figure>
 
-<h2 id="specs-construction">2. Technical Specifications &amp; Construction</h2>
+<h2 id="specs-construction">2. Technical Specifications & Construction</h2>
 
 ### The Body
 
@@ -74,7 +74,7 @@ On 1957 and early 1958 models, the magnets sitting under the A-string are notice
 
 <figure><img alt="Metal pickup mounting baseplate under a split-coil pickup on a 1959 Fender Precision Bass" width="2560" height="1707" src="/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-pickup-mounting-playe-scaled.jpg" loading="lazy" decoding="async"><figcaption>Metal Pickup Mounting Baseplate</figcaption></figure>
 
-<h2 id="hardware">3. Hardware &amp; Appointments</h2>
+<h2 id="hardware">3. Hardware & Appointments</h2>
 
 Every metal part on a Gold Guard P-Bass was chosen for function first, with visual appeal as a welcome side effect. Here's what to expect on an original example.
 
@@ -86,7 +86,7 @@ Every metal part on a Gold Guard P-Bass was chosen for function first, with visu
 | Finger Rest | Black plastic "tug bar" mounted below the strings, designed for thumb-plucking above the pickup. |
 | Covers | Large chrome "ashtray" covers over the pickup and bridge. The bridge cover typically houses an internal foam mute. |
 
-<figure><img alt="Front of the headstock on a 1959 Fender Precision Bass showing the spaghetti logo" width="2560" height="1707" src="/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption>Headstock &amp; Spaghetti Logo</figcaption></figure>
+<figure><img alt="Front of the headstock on a 1959 Fender Precision Bass showing the spaghetti logo" width="2560" height="1707" src="/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption>Headstock & Spaghetti Logo</figcaption></figure>
 
 <figure><img alt="Back of a reverse-wind nickel tuner on a 1959 Fender Precision Bass" width="2560" height="1707" src="/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-tuner-scaled.jpg" loading="lazy" decoding="async"><figcaption>Reverse-Wind Tuner</figcaption></figure>
 
@@ -102,7 +102,7 @@ The bridge cover is easy to overlook. Flip it upside down and you'll find a smal
 
 <figure><img alt="Chrome ashtray bridge cover installed on a 1959 Fender Precision Bass" width="2560" height="1707" src="/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-bridge-cover-scaled.jpg" loading="lazy" decoding="async"><figcaption>Chrome Bridge Cover</figcaption></figure>
 
-<figure><img alt="1959 Fender Precision Bass bridge with cover removed and flipped to show the internal foam mute" width="2560" height="1707" src="/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-bridge-scaled.jpg" loading="lazy" decoding="async"><figcaption>Bridge &amp; Internal Foam Mute</figcaption></figure>
+<figure><img alt="1959 Fender Precision Bass bridge with cover removed and flipped to show the internal foam mute" width="2560" height="1707" src="/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-bridge-scaled.jpg" loading="lazy" decoding="async"><figcaption>Bridge & Internal Foam Mute</figcaption></figure>
 
 <h2 id="evolution">4. Chronological Evolution</h2>
 
@@ -114,7 +114,7 @@ Three short years, but meaningful changes within them. If you're trying to date 
 
 <figure><img alt="Late 1959 rosewood slab fretboard with clay dot inlays on a Fender Precision Bass, marking the end of the maple-neck gold-guard era" width="1437" height="958" src="/images/blog/gold-guard-fender-precision-bass/1959-pbass-rosewood-fretboard.jpg" loading="lazy" decoding="async"><figcaption>Late '59 Transition: Rosewood Slab Board with Clay Dots</figcaption></figure>
 
-<h2 id="authenticity">5. Identification &amp; Authenticity Markers</h2>
+<h2 id="authenticity">5. Identification & Authenticity Markers</h2>
 
 Gold Guard P-Basses are prime targets for parts-casters and outright fakes. If you're inspecting one for purchase or appraisal, these are the details that separate a real one from a very expensive mistake.
 

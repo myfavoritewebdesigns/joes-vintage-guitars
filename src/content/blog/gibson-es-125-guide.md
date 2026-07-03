@@ -29,7 +29,7 @@ Contents
 9.  [Notable Players & Musical Contexts](#es125-players)
 10.  [Legacy & Why It Matters Now](#es125-legacy)
 
-<h2 id="es125-origins">Origins &amp; History</h2>
+<h2 id="es125-origins">Origins & History</h2>
 
 The ES-125 arrived in 1941 as the replacement for the **ES-100**, an entry-level archtop Gibson had introduced in 1938. "ES" stood for *Electric Spanish*, the label Gibson used to separate the round-neck guitars from their Hawaiian lap-steel products. The ES-125 sat at the bottom of the Electric Spanish line: laminated body instead of the carved spruce tops Gibson reserved for the L-5 and Super 400, but reliable amplified tone at a price a working player could actually swing.
 
@@ -60,7 +60,7 @@ No other Gibson generated quite this many suffix variants. Each letter at the en
 
 <figure><img alt="Gibson ES-125 3/4 short-scale student model showing the shorter neck and smaller body compared to a full-size ES-125" width="1707" height="2560" src="/images/blog/gibson-es-125-guide/gibson-es125-3-4-scaled.jpg" loading="lazy" decoding="async"><figcaption>Gibson ES-125 3/4, the short-scale student model. Note the compressed body length and reduced scale neck.</figcaption></figure>
 
-<h2 id="es125-construction">Body &amp; Construction: Era by Era</h2>
+<h2 id="es125-construction">Body & Construction: Era by Era</h2>
 
 The ES-125's body construction tracks Gibson's manufacturing changes across three decades. Where the top-tier archtops got hand-carved solid spruce, the ES-125 used laminated (pressed) tonewoods from day one. That wasn't a corner cut so much as a working decision. Laminate handles humidity swings and road abuse better than a carved top, and it's a real part of why an ES-125 sounds warm and slightly compressed through an amplifier the way it does.
 
@@ -102,7 +102,7 @@ From 1950 on, pole pieces became **individually adjustable** through slot-head s
 
 <figure><img alt="Gibson ES-125 P-90 pickup with chrome cover" width="1606" height="1070" src="/images/blog/gibson-es-125-guide/gibson-es-125-p-90-chrome-cover.jpg" loading="lazy" decoding="async"><figcaption>P-90 dog-ear with chrome cover, found on some later examples and on replacement pickups.</figcaption></figure>
 
-<h2 id="es125-hardware">Hardware &amp; Aesthetics: The Dating Details</h2>
+<h2 id="es125-hardware">Hardware & Aesthetics: The Dating Details</h2>
 
 Few guitars give you as many useful dating clues as the ES-125. Gibson's hardware changes through the 1940s, 50s, and 60s are well-tracked in the Gibson literature (Duchossoir, Carter, the Schultz/Beauchamp shipping data), and specific combinations of features can usually put a guitar inside a two- or three-year window even without a clean pot code or factory order number.
 
@@ -134,7 +134,7 @@ Knob style is one of the most reliable visual dating clues on any vintage Gibson
 
 The ES-125 uses a **"Raised Diamond" trapeze tailpiece**, a pressed-steel unit with a raised diamond cutout in the center bar. The diamond geometry and the plating shifted subtly across the run. The most useful change for dating is the move from **nickel to chrome plating around 1965**, which is a clean visual tell on mid-decade transitional examples. Chrome reads cooler and brighter. Nickel ages to a warmer amber.
 
-<h2 id="es125-finishes">Finishes: Standard, Rare &amp; Custom</h2>
+<h2 id="es125-finishes">Finishes: Standard, Rare & Custom</h2>
 
 ### Sunburst (Standard)
 
@@ -168,7 +168,7 @@ One finish detail from the very early post-war period (**1946 to 1950**) is wort
 
 The ES-175 was offered in Natural finish as a catalog option for much of its production. The ES-125 **almost never was**. The overwhelming majority of natural-finish ES-125s on the vintage market are **refinishes**, guitars whose original sunburst was stripped and replaced with a clear or amber finish. A handful of factory special orders in Natural may exist, but documentation has to be airtight to authenticate one. Default assumption on any natural ES-125: treat it as a refin until proven otherwise.
 
-<h2 id="es125-tone">Tonal Character &amp; Playing Feel</h2>
+<h2 id="es125-tone">Tonal Character & Playing Feel</h2>
 
 The ES-125 sits in a tonal slot that's hard to replicate with anything else. The laminated maple body, often written off as a cost-cutting move, is a big part of why the guitar sounds the way it does: warm, naturally compressed, and surprisingly finished-sounding through modest amplification. The hollow body's acoustic resonance adds bloom and sustain to the P-90 signal. Notes swell instead of spike, and the midrange has a woody, organic quality that solid-body P-90 guitars chase but rarely catch.
 
@@ -205,7 +205,7 @@ Valuations move constantly with the vintage market, so treat this as framework r
 
 **Common modifications to watch for:** Replaced tuners, refretted necks, swapped pickups, replaced pots or caps, refinished bodies. All of it is common on working-musician instruments from this era. None of it necessarily disqualifies a guitar as a player. Each one affects collector value, though, and the price should reflect it.
 
-<h2 id="es125-players">Notable Players &amp; Musical Contexts</h2>
+<h2 id="es125-players">Notable Players & Musical Contexts</h2>
 
 The ES-125 never picked up a signature player the way the ES-175 attached itself to Joe Pass or the ES-335 attached itself to B.B. King. Its profile was always more democratic. It showed up wherever someone needed a reliable, affordable amplified archtop.
 
@@ -214,7 +214,7 @@ The ES-125 never picked up a signature player the way the ES-175 attached itself
 -   **Rockabilly and country** players took to the thinline models in the late 50s for the lighter weight and better feedback resistance on louder stages.
 -   The price kept the ES-125 in the hands of **working musicians and session players** who needed a professional result without a premium budget. It was the guitar people actually used, as opposed to the guitar they aspired to.
 
-<h2 id="es125-legacy">Legacy &amp; Why It Matters Now</h2>
+<h2 id="es125-legacy">Legacy & Why It Matters Now</h2>
 
 The ES-125 was never glamorous. It didn't have the ornate inlays of a Super 400 or the historical weight of an L-5, and it never became a pop-culture object the way the ES-335 did. What it had was a thirty-year run of being the guitar working players actually bought and actually used.
 

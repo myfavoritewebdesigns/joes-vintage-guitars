@@ -26,20 +26,20 @@ const reviews = [
 
 const featureCols = [
   { icon: img("prices-icon.svg"), iconAlt: "Fair And Convenient Prices", photo: imgMeta("national-resonator-tricone.jpg"), photoAlt: "Vintage National Tricone Resonator Guitar", headline: "Sell Your National Acoustic Or Electric Guitar At The Right Price", body: "I will always give you the fairest price on the market for your National guitar. Have one that you want to sell? <a href=\"/contact-me/\" class=\"smn-link\">Contact me today</a>!" },
-  { icon: img("classic-icon.svg"), iconAlt: "Rare, Unique, And Classic Guitars", photo: imgMeta("national-resonator-ukulele.jpg"), photoAlt: "Rare Vintage National Resonator Ukulele", headline: "Find Rare, Unique &amp; Classic National Guitars In Our Online Shop", body: "Because I&rsquo;m always traveling around the country, the inventory changes constantly. Browse the online catalog; you might find a rare National guitar!" },
-  { icon: img("guitar-icon.svg"), iconAlt: "Many Years Of Experience", photo: imgMeta("national-wood-sunburst.jpg"), photoAlt: "Vintage National Wood-Body Sunburst Resonator Guitar", headline: "Years Of Experience Buying &amp; Selling Guitars From All Over America", body: "Over the years, I have seen many National guitar models and series. You can benefit from my expertise whether you are buying or selling one of your own." },
+  { icon: img("classic-icon.svg"), iconAlt: "Rare, Unique, And Classic Guitars", photo: imgMeta("national-resonator-ukulele.jpg"), photoAlt: "Rare Vintage National Resonator Ukulele", headline: "Find Rare, Unique & Classic National Guitars In Our Online Shop", body: "Because I’m always traveling around the country, the inventory changes constantly. Browse the online catalog; you might find a rare National guitar!" },
+  { icon: img("guitar-icon.svg"), iconAlt: "Many Years Of Experience", photo: imgMeta("national-wood-sunburst.jpg"), photoAlt: "Vintage National Wood-Body Sunburst Resonator Guitar", headline: "Years Of Experience Buying & Selling Guitars From All Over America", body: "Over the years, I have seen many National guitar models and series. You can benefit from my expertise whether you are buying or selling one of your own." },
 ];
 
 const faqs = [
-  { id: "toggle_527859ceb8a70e0f6", q: "How Can Appraisal Experts Determine My Guitar's Price &amp; Value?", a: "There are several things that I take into consideration when determining the price of your guitar. These include your instrument&rsquo;s age, how unique it is, if it belong to anyone famous, and the condition of the guitar itself. All of those things combined will dictate what you will pay or be paid for it." },
-  { id: "toggle_02229f7ac996d625a", q: "Can I Sell My Guitar On Consignment Or Trade It For Another One?", a: "There&rsquo;s no set answer. It depends on a few things, like whether I have something you&rsquo;d want to trade for, or whether the guitar is in good enough shape or valuable enough." },
+  { id: "toggle_527859ceb8a70e0f6", q: "How Can Appraisal Experts Determine My Guitar's Price & Value?", a: "There are several things that I take into consideration when determining the price of your guitar. These include your instrument’s age, how unique it is, if it belong to anyone famous, and the condition of the guitar itself. All of those things combined will dictate what you will pay or be paid for it." },
+  { id: "toggle_02229f7ac996d625a", q: "Can I Sell My Guitar On Consignment Or Trade It For Another One?", a: "There’s no set answer. It depends on a few things, like whether I have something you’d want to trade for, or whether the guitar is in good enough shape or valuable enough." },
   { id: "toggle_a6fb7e4d037f53f7c", q: "What Are The Payment Options To Buy A Vintage Guitar?", a: "I generally prefer to work in cash for buying and selling, but if there is a reasonable alternative, I will gladly listen to any suggestions that you might have." },
   { id: "toggle_00fc6428ecb9a31e6", q: "Will I Have To Pay For Shipping Taxes To Buy Or Sell A Guitar?", a: "This usually depends on what state you are buying or selling from. Typically, the buyer is the one who pays the shipping tax, not the seller." },
   { id: "toggle_e91094f9e7923d8b7", q: "Is There A Warranty Or Return Policy After Buying A Used Guitar From You?", a: "Yes. If you find that the guitar was damaged while shipping or soon after with normal use, we will work something out so that you are completely satisfied." },
 ];
 
 const structuredData = [
-  { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q.replace(/&rsquo;/g, "'").replace(/&amp;/g, "&"), acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'").replace(/—/g, "—") } })) },
+  { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q.replace(/’/g, "'").replace(/&/g, "&"), acceptedAnswer: { "@type": "Answer", text: f.a.replace(/’/g, "'").replace(/—/g, "—") } })) },
   { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" }, { "@type": "ListItem", position: 2, name: "Sell My National Guitar", item: "https://www.joesvintageguitarsaz.com/sell-my-national-guitar/" } ] },
   { "@context": "https://schema.org", "@type": "Article", headline: "Sell Your Vintage National Guitar In The US", author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" }, publisher: { "@id": "https://www.joesvintageguitarsaz.com/" }, mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-national-guitar/" },
 ];
@@ -61,7 +61,7 @@ const structuredData = [
       <div class="smn-hero__rule" aria-hidden="true"></div>
       <h2 class="smn-hero__subtitle">Connect With The Right Buyer For Your Vintage <span>National Guitar</span></h2>
       <div class="smn-hero__copy">
-        <p>Welcome to <a href="/">Joe&rsquo;s Vintage Guitars</a>. I help you connect with the right buyer for your vintage guitar. I know these guitars carry both sentimental and real dollar value, so I work to make selling yours as smooth and easy as I can. I&rsquo;ve been doing this for years and know plenty of buyers, so your guitar gets seen by the right people. Whether you&rsquo;ve got a pre-war National Resonator or a 1950s Valco-built National, I can make you a fair offer.</p>
+        <p>Welcome to <a href="/">Joe’s Vintage Guitars</a>. I help you connect with the right buyer for your vintage guitar. I know these guitars carry both sentimental and real dollar value, so I work to make selling yours as smooth and easy as I can. I’ve been doing this for years and know plenty of buyers, so your guitar gets seen by the right people. Whether you’ve got a pre-war National Resonator or a 1950s Valco-built National, I can make you a fair offer.</p>
       </div>
       <div class="smn-hero__cta">
         <a href="/free-appraisal/" class="smn-btn smn-btn--rust">Get Your Free Appraisal</a>
@@ -85,9 +85,9 @@ const structuredData = [
   <section class="smn-buyappraise">
     <div class="smn-inner smn-buyappraise__grid">
       <div class="smn-buyappraise__text">
-        <h3>I Buy &amp; Appraise <span>Vintage Guitars</span> <span class="smn-buyappraise__online">Online Or In Person</span></h3>
-        <p>Got a vintage guitar you&rsquo;re looking to sell? Or just curious what it&rsquo;s worth? I&rsquo;m an <a href="/free-appraisal/" class="smn-link">experienced guitar appraiser</a> and buyer, online and in person. After years of doing this, I know vintage guitars from every era, acoustic and electric. Whether it&rsquo;s a pre-war Martin or a 1960s Fender Stratocaster, I can appraise it accurately and make you a fair offer.</p>
-        <p>The process is simple: send me detailed photos and info about your guitar, and I&rsquo;ll give you an accurate evaluation. If you&rsquo;d rather meet in person, I&rsquo;m happy to set something up nearby.</p>
+        <h3>I Buy & Appraise <span>Vintage Guitars</span> <span class="smn-buyappraise__online">Online Or In Person</span></h3>
+        <p>Got a vintage guitar you’re looking to sell? Or just curious what it’s worth? I’m an <a href="/free-appraisal/" class="smn-link">experienced guitar appraiser</a> and buyer, online and in person. After years of doing this, I know vintage guitars from every era, acoustic and electric. Whether it’s a pre-war Martin or a 1960s Fender Stratocaster, I can appraise it accurately and make you a fair offer.</p>
+        <p>The process is simple: send me detailed photos and info about your guitar, and I’ll give you an accurate evaluation. If you’d rather meet in person, I’m happy to set something up nearby.</p>
         <a href={hrefs.tel} class="smn-btn smn-btn--rust">{contact.phone}</a>
       </div>
       <div class="smn-buyappraise__photo">
@@ -98,7 +98,7 @@ const structuredData = [
 
   <section class="smn-nationwide">
     <div class="smn-inner">
-      <h3 class="smn-nationwide__title">Nationwide National Guitars Resale &amp; Appraisals</h3>
+      <h3 class="smn-nationwide__title">Nationwide National Guitars Resale & Appraisals</h3>
       <div class="smn-nationwide__cols">
         {featureCols.map((c) => (
           <div class="smn-nationwide__col">
@@ -116,7 +116,7 @@ const structuredData = [
   <section class="smn-testi" style={`background-image: url('${TESTI_BG}')`}>
     <div class="smn-inner">
       <div class="smn-testi__head">
-        <h3 class="smn-testi__title">Our Clients&rsquo; Testimonials</h3>
+        <h3 class="smn-testi__title">Our Clients’ Testimonials</h3>
         <h4 class="smn-testi__sub">5-Star Rated Vintage Guitar Buyer And Appraisal Expert <span>Near You</span></h4>
       </div>
       <div class="smn-testi__grid">
@@ -149,7 +149,7 @@ const structuredData = [
         <h3 class="smn-meet__title">Meet Vintage Guitar Expert, <span>Joe Dampt</span></h3>
         <h4 class="smn-meet__sub">Professional Buyer and Seasoned Collector of Vintage Guitars</h4>
         <p>Hey there! My name is Joe Dampt and I love old music and old guitars!</p>
-        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I&rsquo;ve sacrificed and worked hard to make music and musical instruments my livelihood.</p>
+        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I’ve sacrificed and worked hard to make music and musical instruments my livelihood.</p>
       </div>
     </div>
   </section>

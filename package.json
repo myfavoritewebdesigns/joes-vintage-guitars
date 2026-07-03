@@ -15,14 +15,14 @@
     "extract:html-first": "node scripts/extract-html-first.mjs",
     "audit:a11y": "node scripts/audit-a11y.mjs",
     "audit:copy": "node scripts/check-copy.mjs",
-    "verify": "npm run build && npx astro check && npm run audit:copy"
+    "verify": "pnpm run build && pnpm exec astro check && pnpm run audit:copy"
   },
   "dependencies": {
-    "@astrojs/rss": "^4.0.18",
+    "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
-    "@tailwindcss/vite": "^4.3.0",
-    "astro": "^6.3.2",
-    "tailwindcss": "^4.3.0"
+    "@tailwindcss/vite": "^4.3.2",
+    "astro": "^7.0.5",
+    "tailwindcss": "^4.3.2"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
@@ -33,5 +33,6 @@
     "turndown": "^7.2.4",
     "turndown-plugin-gfm": "^1.0.2",
     "typescript": "^6.0.3"
-  }
+  },
+  "packageManager": "pnpm@11.7.0"
 }

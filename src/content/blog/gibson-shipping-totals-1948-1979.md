@@ -41,16 +41,16 @@ The **Gibson Les Paul Standard shipping totals** between 1952 and 1961 are the f
 
 | Model/Year | Goldtop | Sunburst |
 | --- | --- | --- |
-| LP Std '52 | 1,716 | \--- |
-| LP Std '53 | 2,245 | \--- |
-| LP Std '54 | 1,504 | \--- |
-| LP Std '55 | 862 | \--- |
-| LP Std '56 | 920 | \--- |
-| LP Std '57 | 598 | \--- |
+| LP Std '52 | 1,716 | \-\-\- |
+| LP Std '53 | 2,245 | \-\-\- |
+| LP Std '54 | 1,504 | \-\-\- |
+| LP Std '55 | 862 | \-\-\- |
+| LP Std '56 | 920 | \-\-\- |
+| LP Std '57 | 598 | \-\-\- |
 | LP Std '58 | 247 | 187 |
-| LP Std '59 | \--- | 643 |
-| LP Std '60 | \--- | 635 |
-| LP Std '61 | \--- | 2 |
+| LP Std '59 | \-\-\- | 643 |
+| LP Std '60 | \-\-\- | 635 |
+| LP Std '61 | \-\-\- | 2 |
 
 <h2 id="lp-cust-55-61">Les Paul Custom Shipping Totals (1955-1961)</h2>
 
@@ -68,7 +68,7 @@ If you are trying to verify the rarity of a 1950s “Black Beauty,” these **Gi
 
 ![Rare 1958 Gibson Les Paul Custom 'Black Beauty' vintage guitar, used to illustrate original Kalamazoo shipping totals and production rarity for high-value collectors.](../../assets/blog/gibson-shipping-totals-1948-1979/1958-les-paul-custom-bigsby-1024x683.jpg)
 
-<h2 id="lp-jr-tv-54-61">Les Paul Junior &amp; “TV Model” Shipping Totals (1954-1961)</h2>
+<h2 id="lp-jr-tv-54-61">Les Paul Junior & “TV Model” Shipping Totals (1954-1961)</h2>
 
 The shipping totals for the Gibson Les Paul Junior and TV Model from **1954 to 1961** cover a “student” line that turned into a rock and roll staple. These figures help collectors tell apart the rarity of a first-year **1954 “single-cut” Junior** and the later double-cutaway versions. To keep these charts easy to read, they treat the **“TV” designation** as a finish category, even though it was listed as a separate model in the original Kalamazoo-era Gibson catalog.
 
@@ -76,21 +76,21 @@ Because the TV Model, known for its **limed mahogany look**, shipped in much low
 
 | Model/Year | Sunburst | Cherry | TV Yel |
 | --- | --- | --- | --- |
-| LP Jr '54 | 823 | \--- | \--- |
-| LP Jr '55 | 2,839 | \--- | 219 |
-| LP Jr '56 | 3,129 | \--- | 511 |
-| LP Jr 3/4 '56 | 18 | \--- | \--- |
-| LP Jr '57 | 2,959 | \--- | 552 |
-| LP Jr 3/4 '57 | 222 | \--- | \--- |
-| LP Jr '58 | 365 | \--- | 429 |
-| LP Jr 3/4 '58 | 23 | \--- | \--- |
-| LP Jr 3/4 DC '58 | \--- | 158 | \--- |
-| LP Jr DC '59 | \--- | 2,043 | 543 |
-| LP Jr 3/4 DC '59 | \--- | 199 | \--- |
-| LP Jr DC '60 | \--- | 4,364 | 419 |
-| LP Jr 3/4 DC '60 | \--- | 96 | \--- |
-| LP Jr DC '61 | \--- | 2,513 | 29 |
-| LP Jr 3/4 DC '61 | \--- | 71 | \--- |
+| LP Jr '54 | 823 | \-\-\- | \-\-\- |
+| LP Jr '55 | 2,839 | \-\-\- | 219 |
+| LP Jr '56 | 3,129 | \-\-\- | 511 |
+| LP Jr 3/4 '56 | 18 | \-\-\- | \-\-\- |
+| LP Jr '57 | 2,959 | \-\-\- | 552 |
+| LP Jr 3/4 '57 | 222 | \-\-\- | \-\-\- |
+| LP Jr '58 | 365 | \-\-\- | 429 |
+| LP Jr 3/4 '58 | 23 | \-\-\- | \-\-\- |
+| LP Jr 3/4 DC '58 | \-\-\- | 158 | \-\-\- |
+| LP Jr DC '59 | \-\-\- | 2,043 | 543 |
+| LP Jr 3/4 DC '59 | \-\-\- | 199 | \-\-\- |
+| LP Jr DC '60 | \-\-\- | 4,364 | 419 |
+| LP Jr 3/4 DC '60 | \-\-\- | 96 | \-\-\- |
+| LP Jr DC '61 | \-\-\- | 2,513 | 29 |
+| LP Jr 3/4 DC '61 | \-\-\- | 71 | \-\-\- |
 
 The shipping totals for the Gibson Les Paul Special from **1955 to 1961** trace the production history of the high-trim, dual-pickup sibling to the Junior. These figures are vital for collectors tracking the rarity of the mid-fifties **“single-cut” Special** compared to the double-cutaway transition that occurred in late 1958.
 
@@ -98,14 +98,14 @@ The **TV Yellow finish** is the best-known look for this model, but production q
 
 | Model/Year | Cherry | White | TV Yel |
 | --- | --- | --- | --- |
-| LP Spec '55 | \--- | \--- | 373 |
-| LP Spec '56 | \--- | \--- | 1,342 |
-| LP Spec '57 | \--- | \--- | 1,436 |
-| LP Spec '58 | 16 | \--- | 328 |
-| LP Spec DC '58 | 212 | \--- | 402 |
-| LP Spec DC '59 | 612 | \--- | 1,209 |
-| LP Spec DC '60 | 322 | \--- | 1,065 |
-| LP Spec DC '61 | \--- | 4 | 412 |
+| LP Spec '55 | \-\-\- | \-\-\- | 373 |
+| LP Spec '56 | \-\-\- | \-\-\- | 1,342 |
+| LP Spec '57 | \-\-\- | \-\-\- | 1,436 |
+| LP Spec '58 | 16 | \-\-\- | 328 |
+| LP Spec DC '58 | 212 | \-\-\- | 402 |
+| LP Spec DC '59 | 612 | \-\-\- | 1,209 |
+| LP Spec DC '60 | 322 | \-\-\- | 1,065 |
+| LP Spec DC '61 | \-\-\- | 4 | 412 |
 
 <h2 id="norlin-lp-68-79">Gibson Norlin Era Les Paul Shipping Totals (1968-1979)</h2>
 
@@ -158,47 +158,47 @@ Because this era brought big structural changes, including the move to **volutes
 | '78 LP Art. | 641 |
 | '79 LP Art. | 338 |
 
-<h2 id="sg-std-cust-62-78">Gibson SG Standard &amp; Custom Shipping Totals (1962-1978)</h2>
+<h2 id="sg-std-cust-62-78">Gibson SG Standard & Custom Shipping Totals (1962-1978)</h2>
 
 If you are trying to track down the **Gibson SG Standard and Custom shipping totals** between 1962 and 1978, you are looking at the guitar that took over when the Les Paul shape was retired for a while. These figures help any collector or dealer verify the rarity of an early “small pickguard” Standard against the higher-volume runs of the late sixties. Since the Custom models, fitted with three pickups and gold hardware, were made in much smaller numbers than the Standard, these shipping numbers are the basis for an appraisal. Whether you are looking at a 1964 “Maestro” vibrola-equipped model or a mid-seventies SG with a harmonium bridge, having the Kalamazoo output on hand lets you confirm the scarcity of your guitar and set a realistic price when you’re ready to sell.
 
 | Model/Year | Cherry | Wh/Wal |
 | --- | --- | --- |
-| SG Stand '62 | 1,449 | \--- |
-| SG Stand '63 | 1,445 | \--- |
-| SG Stand '64 | 1,375 | \--- |
-| SG Stand '65 | 1,731 | \--- |
-| SG Stand '66 | 1,046 | \--- |
-| SG Stand '67 | 1,154 | \--- |
-| SG Stand '68 | 1,340 | \--- |
-| SG Stand '69 | 3,354 | \--- |
-| SG Stand '70 | 5,048 | \--- |
-| SG Stand '72 | 1,009 | \--- |
-| SG Stand '73 | 3,009 | \--- |
-| SG Stand '74 | 2,295 | \--- |
-| SG Stand '75 | 2,042 | \--- |
-| SG Stand '76 | 2,834 | \--- |
-| SG Stand '77 | 2,618 | \--- |
-| SG Stand '78 | 2,503 | \--- |
-| SG Cust '62 | \--- | 298 |
-| SG Cust '63 | \--- | 264 |
-| SG Cust '64 | \--- | 130 |
-| SG Cust '65 | \--- | 236 |
-| SG Cust '66 | \--- | 125 |
-| SG Cust '67 | \--- | 43 |
-| SG Cust '68 | \--- | 264 |
-| SG Cust '69 | \--- | 451 |
-| SG Cust '70 | \--- | 317 |
-| SG Cust '71 | \--- | 395 |
-| SG Cust '72 | \--- | 400 |
-| SG Cust '73 | \--- | 775 |
-| SG Cust '74 | \--- | 939 |
-| SG Cust '75 | \--- | 149 |
-| SG Cust '76 | \--- | 376 |
-| SG Cust '77 | \--- | 279 |
-| SG Cust '78 | \--- | 217 |
+| SG Stand '62 | 1,449 | \-\-\- |
+| SG Stand '63 | 1,445 | \-\-\- |
+| SG Stand '64 | 1,375 | \-\-\- |
+| SG Stand '65 | 1,731 | \-\-\- |
+| SG Stand '66 | 1,046 | \-\-\- |
+| SG Stand '67 | 1,154 | \-\-\- |
+| SG Stand '68 | 1,340 | \-\-\- |
+| SG Stand '69 | 3,354 | \-\-\- |
+| SG Stand '70 | 5,048 | \-\-\- |
+| SG Stand '72 | 1,009 | \-\-\- |
+| SG Stand '73 | 3,009 | \-\-\- |
+| SG Stand '74 | 2,295 | \-\-\- |
+| SG Stand '75 | 2,042 | \-\-\- |
+| SG Stand '76 | 2,834 | \-\-\- |
+| SG Stand '77 | 2,618 | \-\-\- |
+| SG Stand '78 | 2,503 | \-\-\- |
+| SG Cust '62 | \-\-\- | 298 |
+| SG Cust '63 | \-\-\- | 264 |
+| SG Cust '64 | \-\-\- | 130 |
+| SG Cust '65 | \-\-\- | 236 |
+| SG Cust '66 | \-\-\- | 125 |
+| SG Cust '67 | \-\-\- | 43 |
+| SG Cust '68 | \-\-\- | 264 |
+| SG Cust '69 | \-\-\- | 451 |
+| SG Cust '70 | \-\-\- | 317 |
+| SG Cust '71 | \-\-\- | 395 |
+| SG Cust '72 | \-\-\- | 400 |
+| SG Cust '73 | \-\-\- | 775 |
+| SG Cust '74 | \-\-\- | 939 |
+| SG Cust '75 | \-\-\- | 149 |
+| SG Cust '76 | \-\-\- | 376 |
+| SG Cust '77 | \-\-\- | 279 |
+| SG Cust '78 | \-\-\- | 217 |
 
-<h2 id="sg-jr-spec-62-78">Gibson SG Junior &amp; SG Special Shipment Totals (1962-1978)</h2>
+<h2 id="sg-jr-spec-62-78">Gibson SG Junior & SG Special Shipment Totals (1962-1978)</h2>
 
 Shipment totals for the Gibson SG Junior and SG Special between 1962 and 1978 give a clear look at how these “workhorse” models were produced. This data helps collectors and owners work out the scarcity of specific versions, such as the early “small pickguard” 1964 Specials compared to the “large guard” versions that came later in the decade.
 
@@ -213,27 +213,27 @@ The Junior started out as an entry-level instrument, while the dual-pickup Speci
 | SG Spec '66 | 1,841 | 29 |
 | SG Spec '67 | 1,517 | 147 |
 | SG Spec '68 | 1,269 | 192 |
-| SG Spec '69 | 2,378 | \--- |
-| SG Spec '70 | 2,862 | \--- |
-| SG Spec '71 | 1,571 | \--- |
-| SG Spec '72 | 749 | \--- |
-| SG Spec '73 | 3,534 | \--- |
-| SG Spec '74 | 2,183 | \--- |
-| SG Spec '75 | 593 | \--- |
-| SG Spec '76 | 549 | \--- |
-| SG Spec '77 | 232 | \--- |
-| SG Spec '78 | 2 | \--- |
-| SG Jr '62 | 2,395 | \--- |
-| SG Jr '63 | 2,318 | \--- |
-| SG Jr '64 | 3,364 | \--- |
-| SG Jr '65 | 3,570 | \--- |
-| SG Jr '66 | 1,928 | \--- |
-| SG Jr '67 | 1,021 | \--- |
-| SG Jr '68 | 561 | \--- |
-| SG Jr '69 | 751 | \--- |
-| SG Jr '70 | 938 | \--- |
+| SG Spec '69 | 2,378 | \-\-\- |
+| SG Spec '70 | 2,862 | \-\-\- |
+| SG Spec '71 | 1,571 | \-\-\- |
+| SG Spec '72 | 749 | \-\-\- |
+| SG Spec '73 | 3,534 | \-\-\- |
+| SG Spec '74 | 2,183 | \-\-\- |
+| SG Spec '75 | 593 | \-\-\- |
+| SG Spec '76 | 549 | \-\-\- |
+| SG Spec '77 | 232 | \-\-\- |
+| SG Spec '78 | 2 | \-\-\- |
+| SG Jr '62 | 2,395 | \-\-\- |
+| SG Jr '63 | 2,318 | \-\-\- |
+| SG Jr '64 | 3,364 | \-\-\- |
+| SG Jr '65 | 3,570 | \-\-\- |
+| SG Jr '66 | 1,928 | \-\-\- |
+| SG Jr '67 | 1,021 | \-\-\- |
+| SG Jr '68 | 561 | \-\-\- |
+| SG Jr '69 | 751 | \-\-\- |
+| SG Jr '70 | 938 | \-\-\- |
 
-<h2 id="tv-yellow-sg-62-68">Gibson TV Yellow SG Special &amp; Junior (1962-1968)</h2>
+<h2 id="tv-yellow-sg-62-68">Gibson TV Yellow SG Special & Junior (1962-1968)</h2>
 
 When you are tracking down the **Gibson TV Yellow SG Special and Junior shipment totals** between 1962 and 1968, you are looking at some of the hardest-to-find versions of the SG body style. Cherry was the standard finish for the era, but these “TV” models, meant to show up well on black-and-white television, were made in very small batches, which is why collectors chase them. These production numbers matter for an accurate appraisal, especially since many sellers mistake refinished instruments for original “limed” finishes. Because the TV Yellow finish was often a custom order or limited run during the mid-sixties, the Kalamazoo shipping data is the best way to confirm how rare your instrument is. Whether you have a 1963 “small guard” Special or a 1965 Junior in this color, these figures back up a higher price when you are ready to sell.
 
@@ -249,7 +249,7 @@ When you are tracking down the **Gibson TV Yellow SG Special and Junior shipment
 | SG TV '67 | 123 |
 | SG TV '68 | 54 |
 
-<h2 id="es-semi-58-69">Gibson ES-335,ES-345 &amp; ES-355 Shipping Totals (1958-1969)</h2>
+<h2 id="es-semi-58-69">Gibson ES-335,ES-345 & ES-355 Shipping Totals (1958-1969)</h2>
 
 **The 1958 to 1969 shipment totals for the ES-335, ES-345, and ES-355 cover the peak production years of Gibson’s semi-hollow body guitars.** These figures help collectors tell a rare first-year “dot neck” 335 apart from the high-volume output of the late 1960s.
 
@@ -259,43 +259,43 @@ Because high-trim models like the 345 and 355, with VariTone circuits and gold h
 
 | Model/Year | Sunburst | Cherry | Natural |
 | --- | --- | --- | --- |
-| ES-335 '58 | 267 | \--- | 50 |
-| ES-335 '59 | 521 | \--- | 71 |
+| ES-335 '58 | 267 | \-\-\- | 50 |
+| ES-335 '59 | 521 | \-\-\- | 71 |
 | ES-335 '60 | 405 | 21 | 88 |
-| ES-335 '61 | 466 | 420 | \--- |
-| ES-335 '62 | 266 | 610 | \--- |
-| ES-335 '63 | 349 | 807 | \--- |
-| ES-335 '64 | 349 | 892 | \--- |
-| ES-335 '65 | 712 | 1,038 | \--- |
-| ES-335 '66 | 1,468 | 1,056 | \--- |
-| ES-335 '67 | 2,596 | 3,122 | \--- |
-| ES-335 '68 | 2,294 | 1,466 | \--- |
-| ES-335 '69 | 1,055 | 1,142 | \--- |
-| ES-345 '59 | 446 | \--- | 32 |
+| ES-335 '61 | 466 | 420 | \-\-\- |
+| ES-335 '62 | 266 | 610 | \-\-\- |
+| ES-335 '63 | 349 | 807 | \-\-\- |
+| ES-335 '64 | 349 | 892 | \-\-\- |
+| ES-335 '65 | 712 | 1,038 | \-\-\- |
+| ES-335 '66 | 1,468 | 1,056 | \-\-\- |
+| ES-335 '67 | 2,596 | 3,122 | \-\-\- |
+| ES-335 '68 | 2,294 | 1,466 | \-\-\- |
+| ES-335 '69 | 1,055 | 1,142 | \-\-\- |
+| ES-345 '59 | 446 | \-\-\- | 32 |
 | ES-345 '60 | 251 | 252 | 18 |
-| ES-345 '61 | 174 | 223 | \--- |
-| ES-345 '62 | 102 | 204 | \--- |
-| ES-345 '63 | 117 | 161 | \--- |
-| ES-345 '64 | 218 | 193 | \--- |
-| ES-345 '65 | 272 | 216 | \--- |
-| ES-345 '66 | 278 | 186 | \--- |
-| ES-345 '67 | 501 | 643 | \--- |
-| ES-345 '68 | 560 | 378 | \--- |
-| ES-345 '69 | 201 | 213 | \--- |
-| ES-355 '58 | \--- | 10 | \--- |
-| ES-355 '59 | \--- | 300 | \--- |
-| ES-355 '60 | \--- | 317 | \--- |
-| ES-355 '61 | \--- | 291 | \--- |
-| ES-355 '62 | \--- | 220 | \--- |
-| ES-355 '63 | \--- | 163 | \--- |
-| ES-355 '64 | \--- | 252 | \--- |
-| ES-355 '65 | \--- | 257 | \--- |
-| ES-355 '66 | \--- | 269 | \--- |
-| ES-355 '67 | \--- | 405 | \--- |
-| ES-355 '68 | \--- | 318 | \--- |
-| ES-355 '69 | \--- | 214 | \--- |
+| ES-345 '61 | 174 | 223 | \-\-\- |
+| ES-345 '62 | 102 | 204 | \-\-\- |
+| ES-345 '63 | 117 | 161 | \-\-\- |
+| ES-345 '64 | 218 | 193 | \-\-\- |
+| ES-345 '65 | 272 | 216 | \-\-\- |
+| ES-345 '66 | 278 | 186 | \-\-\- |
+| ES-345 '67 | 501 | 643 | \-\-\- |
+| ES-345 '68 | 560 | 378 | \-\-\- |
+| ES-345 '69 | 201 | 213 | \-\-\- |
+| ES-355 '58 | \-\-\- | 10 | \-\-\- |
+| ES-355 '59 | \-\-\- | 300 | \-\-\- |
+| ES-355 '60 | \-\-\- | 317 | \-\-\- |
+| ES-355 '61 | \-\-\- | 291 | \-\-\- |
+| ES-355 '62 | \-\-\- | 220 | \-\-\- |
+| ES-355 '63 | \-\-\- | 163 | \-\-\- |
+| ES-355 '64 | \-\-\- | 252 | \-\-\- |
+| ES-355 '65 | \-\-\- | 257 | \-\-\- |
+| ES-355 '66 | \-\-\- | 269 | \-\-\- |
+| ES-355 '67 | \-\-\- | 405 | \-\-\- |
+| ES-355 '68 | \-\-\- | 318 | \-\-\- |
+| ES-355 '69 | \-\-\- | 214 | \-\-\- |
 
-<h2 id="premier-arch-48-69">Gibson L5ces, Super 400ces &amp; L-7 McCarty (1948-1969)</h2>
+<h2 id="premier-arch-48-69">Gibson L5ces, Super 400ces & L-7 McCarty (1948-1969)</h2>
 
 The 1948 to 1969 shipping totals for the **L-5CES, Super 400CES, and L-7 McCarty** cover Gibson’s top-of-the-line archtops. Because these were the most expensive models in the catalog, production stayed very low, so the data matters to collectors. Whether you are tracking a rare **L-7 McCarty assembly** or a 1950s “non-cutaway” example, these Kalamazoo ledger totals are the basis for an appraisal and the proof of scarcity that backs up premium prices.
 
@@ -322,7 +322,7 @@ The 1948 to 1969 shipping totals for the **L-5CES, Super 400CES, and L-7 McCarty
 | L5-CES '67 | 102 | 5 |
 | L5-CES '68 | 189 | 11 |
 | L5-CES '69 | 170 | 55 |
-| S-400ces '51 | 2 | \--- |
+| S-400ces '51 | 2 | \-\-\- |
 | S-400ces '52 | 7 | 11 |
 | S-400ces '53 | 16 | 11 |
 | S-400ces '54 | 17 | 6 |
@@ -341,170 +341,170 @@ The 1948 to 1969 shipping totals for the **L-5CES, Super 400CES, and L-7 McCarty
 | S-400ces '67 | 28 | 22 |
 | S-400ces '68 | 52 | 11 |
 | S-400ces '69 | 120 | 45 |
-| L-7e '48 | 126 | \--- |
-| L-7e '49 | 224 | \--- |
+| L-7e '48 | 126 | \-\-\- |
+| L-7e '49 | 224 | \-\-\- |
 | L-7e '50 | 138 | 18 |
 | L-7e '51 | 138 | 26 |
 | L-7e '52 | 109 | 33 |
-| L-7e '53 | \--- | \--- |
+| L-7e '53 | \-\-\- | \-\-\- |
 | L-7e '54 | 1 | 8 |
 
-<h2 id="es-arch-49-79">Gibson ES-175, ES-225, ES-295 &amp; ES-5 Shipping Totals (1949-1979)</h2>
+<h2 id="es-arch-49-79">Gibson ES-175, ES-225, ES-295 & ES-5 Shipping Totals (1949-1979)</h2>
 
 When you are researching the **Gibson ES-175, ES-225, ES-295, and ES-5 shipping totals** between 1949 and 1979, you are looking at the core of the “Electric Spanish” archtop line. These figures help collectors verify the rarity of a first-year P-90 equipped ES-175 against the triple-pickup setup of a 1950s ES-5. Because the gold-finished ES-295 and the thinline ES-225 were made in short runs compared to the decades-long run of the 175, these shipment numbers are a big part of an appraisal. Whether you are looking at a 1953 “all gold” model or a late-seventies ES-175 with humbuckers, the official Kalamazoo ledger data is the most reliable way to confirm the scarcity and value of your instrument.
 
 | Model/Year | Goldtop | Sunburst | Natural | Cherry |
 | --- | --- | --- | --- | --- |
-| ES-225 '55 | \--- | 468 | 2 | \--- |
-| ES-225 '56 | \--- | 1,648 | 157 | \--- |
-| ES-225 '57 | \--- | 1,753 | 229 | \--- |
-| ES-225 '58 | \--- | 1,291 | 326 | \--- |
-| ES-225 '59 | \--- | 1,395 | 248 | \--- |
-| ES-175 '49 | \--- | 129 | 13 | \--- |
-| ES-175 '50 | \--- | 503 | 30 | \--- |
-| ES-175 '51 | \--- | 559 | 105 | \--- |
-| ES-175 '52 | \--- | 818 | 192 | \--- |
-| ES-175 '53 | \--- | 829 | 181 | \--- |
-| ES-175 '54 | \--- | 599 | 141 | \--- |
-| ES-175 '55 | \--- | 485 | 115 | \--- |
-| ES-175 '56 | \--- | 560 | 146 | \--- |
-| ES-175 '57 | \--- | 353 | 92 | \--- |
-| ES-175 '58 | \--- | 211 | 66 | \--- |
-| ES-175 '59 | \--- | 301 | \--- | \--- |
-| ES-175 '60 | \--- | 226 | 5 | \--- |
-| ES-175 '61 | \--- | 160 | \--- | \--- |
-| ES-175 '62 | \--- | 133 | \--- | \--- |
-| ES-175 '63 | \--- | 156 | \--- | \--- |
-| ES-175 '64 | \--- | 149 | \--- | \--- |
-| ES-175 '65 | \--- | 182 | \--- | \--- |
-| ES-175 '66 | \--- | 163 | \--- | \--- |
-| ES-175 '67 | \--- | 194 | \--- | \--- |
-| ES-175 '68 | \--- | 127 | \--- | \--- |
-| ES-175 '69 | \--- | 84 | \--- | \--- |
-| ES-175 '70 | \--- | 44 | \--- | \--- |
-| ES-175D '53 | \--- | 182 | 86 | \--- |
-| ES-175D '54 | \--- | 275 | 129 | \--- |
-| ES-175D '55 | \--- | 308 | 143 | 2 |
-| ES-175D '56 | \--- | 320 | 247 | 3 |
-| ES-175D '57 | \--- | 271 | 175 | \--- |
-| ES-175D '58 | \--- | 285 | 114 | 2 |
-| ES-175D '59 | \--- | 324 | 129 | \--- |
-| ES-175D '60 | \--- | 345 | 111 | \--- |
-| ES-175D '61 | \--- | 406 | 81 | \--- |
-| ES-175D '62 | \--- | 373 | 68 | \--- |
-| ES-175D '63 | \--- | 483 | 74 | \--- |
-| ES-175D '64 | \--- | 437 | 46 | \--- |
-| ES-175D '65 | \--- | 505 | 57 | \--- |
-| ES-175D '66 | \--- | 382 | 55 | \--- |
-| ES-175D '67 | \--- | 840 | 26 | \--- |
-| ES-175D '68 | \--- | 949 | 45 | \--- |
-| ES-175D '69 | \--- | 559 | 110 | \--- |
-| ES-175D '70 | \--- | 298 | 54 | \--- |
-| ES-175D '71 | \--- | 439 | 66 | \--- |
-| ES-175D '72 | \--- | 480 | 121 | \--- |
-| ES-175D '73 | \--- | 816 | 191 | \--- |
-| ES-175D '74 | \--- | 578 | 193 | \--- |
-| ES-175D '75 | \--- | 284 | 117 | \--- |
-| ES-175D '76 | \--- | 1,530 | 113 | \--- |
-| ES-175D '77 | \--- | 894 | \--- | \--- |
-| ES-175D '78 | \--- | 475 | \--- | \--- |
-| ES-175D '79 | \--- | 1,269 | \--- | \--- |
-| ES-295 '52 | 297 | \--- | \--- | \--- |
-| ES-295 '53 | 637 | \--- | \--- | \--- |
-| ES-295 '54 | 357 | \--- | \--- | \--- |
-| ES-295 '55 | 166 | \--- | \--- | \--- |
-| ES-295 '56 | 193 | \--- | \--- | \--- |
-| ES-295 '57 | 71 | \--- | \--- | \--- |
-| ES-295 '58 | 49 | \--- | \--- | \--- |
-| ES-5 '49 | \--- | 66 | 22 | \--- |
-| ES-5 '50 | \--- | 111 | 52 | \--- |
-| ES-5 '51 | \--- | \--- | 77 | \--- |
-| ES-5 '52 | \--- | 126 | 93 | \--- |
-| ES-5 '53 | \--- | 72 | 53 | \--- |
-| ES-5 '54 | \--- | 65 | 23 | \--- |
-| ES-5 '55 | \--- | 45 | 11 | \--- |
-| ES-5 '56 | \--- | 4 | \--- | \--- |
-| ES-5 Swm '55 | \--- | 7 | \--- | \--- |
-| ES-5 Swm '56 | \--- | 59 | 39 | \--- |
-| ES-5 Swm '57 | \--- | 56 | 30 | \--- |
-| ES-5 Swm '58 | \--- | 55 | 34 | \--- |
-| ES-5 Swm '59 | \--- | 70 | 33 | \--- |
-| ES-5 Swm '60 | \--- | 46 | 20 | \--- |
-| ES-5 Swm '61 | \--- | 41 | 11 | \--- |
+| ES-225 '55 | \-\-\- | 468 | 2 | \-\-\- |
+| ES-225 '56 | \-\-\- | 1,648 | 157 | \-\-\- |
+| ES-225 '57 | \-\-\- | 1,753 | 229 | \-\-\- |
+| ES-225 '58 | \-\-\- | 1,291 | 326 | \-\-\- |
+| ES-225 '59 | \-\-\- | 1,395 | 248 | \-\-\- |
+| ES-175 '49 | \-\-\- | 129 | 13 | \-\-\- |
+| ES-175 '50 | \-\-\- | 503 | 30 | \-\-\- |
+| ES-175 '51 | \-\-\- | 559 | 105 | \-\-\- |
+| ES-175 '52 | \-\-\- | 818 | 192 | \-\-\- |
+| ES-175 '53 | \-\-\- | 829 | 181 | \-\-\- |
+| ES-175 '54 | \-\-\- | 599 | 141 | \-\-\- |
+| ES-175 '55 | \-\-\- | 485 | 115 | \-\-\- |
+| ES-175 '56 | \-\-\- | 560 | 146 | \-\-\- |
+| ES-175 '57 | \-\-\- | 353 | 92 | \-\-\- |
+| ES-175 '58 | \-\-\- | 211 | 66 | \-\-\- |
+| ES-175 '59 | \-\-\- | 301 | \-\-\- | \-\-\- |
+| ES-175 '60 | \-\-\- | 226 | 5 | \-\-\- |
+| ES-175 '61 | \-\-\- | 160 | \-\-\- | \-\-\- |
+| ES-175 '62 | \-\-\- | 133 | \-\-\- | \-\-\- |
+| ES-175 '63 | \-\-\- | 156 | \-\-\- | \-\-\- |
+| ES-175 '64 | \-\-\- | 149 | \-\-\- | \-\-\- |
+| ES-175 '65 | \-\-\- | 182 | \-\-\- | \-\-\- |
+| ES-175 '66 | \-\-\- | 163 | \-\-\- | \-\-\- |
+| ES-175 '67 | \-\-\- | 194 | \-\-\- | \-\-\- |
+| ES-175 '68 | \-\-\- | 127 | \-\-\- | \-\-\- |
+| ES-175 '69 | \-\-\- | 84 | \-\-\- | \-\-\- |
+| ES-175 '70 | \-\-\- | 44 | \-\-\- | \-\-\- |
+| ES-175D '53 | \-\-\- | 182 | 86 | \-\-\- |
+| ES-175D '54 | \-\-\- | 275 | 129 | \-\-\- |
+| ES-175D '55 | \-\-\- | 308 | 143 | 2 |
+| ES-175D '56 | \-\-\- | 320 | 247 | 3 |
+| ES-175D '57 | \-\-\- | 271 | 175 | \-\-\- |
+| ES-175D '58 | \-\-\- | 285 | 114 | 2 |
+| ES-175D '59 | \-\-\- | 324 | 129 | \-\-\- |
+| ES-175D '60 | \-\-\- | 345 | 111 | \-\-\- |
+| ES-175D '61 | \-\-\- | 406 | 81 | \-\-\- |
+| ES-175D '62 | \-\-\- | 373 | 68 | \-\-\- |
+| ES-175D '63 | \-\-\- | 483 | 74 | \-\-\- |
+| ES-175D '64 | \-\-\- | 437 | 46 | \-\-\- |
+| ES-175D '65 | \-\-\- | 505 | 57 | \-\-\- |
+| ES-175D '66 | \-\-\- | 382 | 55 | \-\-\- |
+| ES-175D '67 | \-\-\- | 840 | 26 | \-\-\- |
+| ES-175D '68 | \-\-\- | 949 | 45 | \-\-\- |
+| ES-175D '69 | \-\-\- | 559 | 110 | \-\-\- |
+| ES-175D '70 | \-\-\- | 298 | 54 | \-\-\- |
+| ES-175D '71 | \-\-\- | 439 | 66 | \-\-\- |
+| ES-175D '72 | \-\-\- | 480 | 121 | \-\-\- |
+| ES-175D '73 | \-\-\- | 816 | 191 | \-\-\- |
+| ES-175D '74 | \-\-\- | 578 | 193 | \-\-\- |
+| ES-175D '75 | \-\-\- | 284 | 117 | \-\-\- |
+| ES-175D '76 | \-\-\- | 1,530 | 113 | \-\-\- |
+| ES-175D '77 | \-\-\- | 894 | \-\-\- | \-\-\- |
+| ES-175D '78 | \-\-\- | 475 | \-\-\- | \-\-\- |
+| ES-175D '79 | \-\-\- | 1,269 | \-\-\- | \-\-\- |
+| ES-295 '52 | 297 | \-\-\- | \-\-\- | \-\-\- |
+| ES-295 '53 | 637 | \-\-\- | \-\-\- | \-\-\- |
+| ES-295 '54 | 357 | \-\-\- | \-\-\- | \-\-\- |
+| ES-295 '55 | 166 | \-\-\- | \-\-\- | \-\-\- |
+| ES-295 '56 | 193 | \-\-\- | \-\-\- | \-\-\- |
+| ES-295 '57 | 71 | \-\-\- | \-\-\- | \-\-\- |
+| ES-295 '58 | 49 | \-\-\- | \-\-\- | \-\-\- |
+| ES-5 '49 | \-\-\- | 66 | 22 | \-\-\- |
+| ES-5 '50 | \-\-\- | 111 | 52 | \-\-\- |
+| ES-5 '51 | \-\-\- | \-\-\- | 77 | \-\-\- |
+| ES-5 '52 | \-\-\- | 126 | 93 | \-\-\- |
+| ES-5 '53 | \-\-\- | 72 | 53 | \-\-\- |
+| ES-5 '54 | \-\-\- | 65 | 23 | \-\-\- |
+| ES-5 '55 | \-\-\- | 45 | 11 | \-\-\- |
+| ES-5 '56 | \-\-\- | 4 | \-\-\- | \-\-\- |
+| ES-5 Swm '55 | \-\-\- | 7 | \-\-\- | \-\-\- |
+| ES-5 Swm '56 | \-\-\- | 59 | 39 | \-\-\- |
+| ES-5 Swm '57 | \-\-\- | 56 | 30 | \-\-\- |
+| ES-5 Swm '58 | \-\-\- | 55 | 34 | \-\-\- |
+| ES-5 Swm '59 | \-\-\- | 70 | 33 | \-\-\- |
+| ES-5 Swm '60 | \-\-\- | 46 | 20 | \-\-\- |
+| ES-5 Swm '61 | \-\-\- | 41 | 11 | \-\-\- |
 
-<h2 id="thinline-arch-48-79">Gibson ES-300, ES-330, ES-350 &amp; Byrdland Shipping Totals (1948-1979)</h2>
+<h2 id="thinline-arch-48-79">Gibson ES-300, ES-330, ES-350 & Byrdland Shipping Totals (1948-1979)</h2>
 
 The shipping totals for the Gibson ES-300, ES-330, ES-350, and Byrdland (1948 to 1979) are a record of the more specialized thinline and archtop models made in Kalamazoo. This data helps collectors tell a rare first-year **1959 “long neck” ES-330** apart from the high-volume output of the mid-1960s. Because the **Byrdland and ES-350T** were built with short-scale, thin-depth bodies for jazz players, their production numbers stayed well below standard models, which makes these figures a big part of an appraisal. Whether you are verifying a late-1940s **ES-300 with a slanted pickup** or a 1970s Byrdland with humbuckers, the shipping totals are the most effective way to show scarcity and back up current value.
 
 | Model/Year | Sunburst | Natural | Cherry |
 | --- | --- | --- | --- |
-| Byrd '55 | 1 | 2 | \--- |
-| Byrd '56 | 31 | 25 | \--- |
-| Byrd '57 | 78 | 52 | \--- |
-| Byrd '58 | 38 | 23 | \--- |
-| Byrd '59 | 40 | 34 | \--- |
-| Byrd '60 | 71 | 39 | \--- |
-| Byrd '61 | 77 | 20 | \--- |
-| Byrd '62 | 59 | 17 | \--- |
-| Byrd '63 | 102 | 32 | \--- |
-| Byrd '64 | 93 | 15 | \--- |
-| Byrd '65 | 66 | 11 | \--- |
-| Byrd '66 | 45 | 3 | \--- |
-| Byrd '67 | 92 | 7 | \--- |
-| Byrd '68 | 194 | 24 | \--- |
-| Byrd '69 | 160 | 60 | \--- |
-| Byrd '70 | 36 | 21 | \--- |
-| Byrd '71 | 65 | 27 | \--- |
-| Byrd '72 | 80 | 48 | \--- |
-| Byrd '73 | 99 | 20 | \--- |
-| Byrd '74 | 85 | 6 | \--- |
-| Byrd '75 | 195 | 11 | \--- |
-| Byrd '76 | 115 | 93 | \--- |
-| Byrd '77 | 56 | 42 | \--- |
-| Byrd '78 | 86 | 25 | \--- |
-| Byrd '79 | 41 | 2 | \--- |
-| ES-350T '55 | 1 | 1 | \--- |
-| ES-350T '56 | 156 | 62 | \--- |
-| ES-350T '57 | 150 | 74 | \--- |
-| ES-350T '58 | 104 | 43 | \--- |
-| ES-350T '59 | 90 | 57 | \--- |
-| ES-350T '60 | 71 | 15 | \--- |
-| ES-350T '61 | 61 | 21 | \--- |
-| ES-350T '62 | 59 | 18 | \--- |
-| ES-350T '63 | 35 | 23 | \--- |
-| ES-330D '59 | 270 | 79 | \--- |
+| Byrd '55 | 1 | 2 | \-\-\- |
+| Byrd '56 | 31 | 25 | \-\-\- |
+| Byrd '57 | 78 | 52 | \-\-\- |
+| Byrd '58 | 38 | 23 | \-\-\- |
+| Byrd '59 | 40 | 34 | \-\-\- |
+| Byrd '60 | 71 | 39 | \-\-\- |
+| Byrd '61 | 77 | 20 | \-\-\- |
+| Byrd '62 | 59 | 17 | \-\-\- |
+| Byrd '63 | 102 | 32 | \-\-\- |
+| Byrd '64 | 93 | 15 | \-\-\- |
+| Byrd '65 | 66 | 11 | \-\-\- |
+| Byrd '66 | 45 | 3 | \-\-\- |
+| Byrd '67 | 92 | 7 | \-\-\- |
+| Byrd '68 | 194 | 24 | \-\-\- |
+| Byrd '69 | 160 | 60 | \-\-\- |
+| Byrd '70 | 36 | 21 | \-\-\- |
+| Byrd '71 | 65 | 27 | \-\-\- |
+| Byrd '72 | 80 | 48 | \-\-\- |
+| Byrd '73 | 99 | 20 | \-\-\- |
+| Byrd '74 | 85 | 6 | \-\-\- |
+| Byrd '75 | 195 | 11 | \-\-\- |
+| Byrd '76 | 115 | 93 | \-\-\- |
+| Byrd '77 | 56 | 42 | \-\-\- |
+| Byrd '78 | 86 | 25 | \-\-\- |
+| Byrd '79 | 41 | 2 | \-\-\- |
+| ES-350T '55 | 1 | 1 | \-\-\- |
+| ES-350T '56 | 156 | 62 | \-\-\- |
+| ES-350T '57 | 150 | 74 | \-\-\- |
+| ES-350T '58 | 104 | 43 | \-\-\- |
+| ES-350T '59 | 90 | 57 | \-\-\- |
+| ES-350T '60 | 71 | 15 | \-\-\- |
+| ES-350T '61 | 61 | 21 | \-\-\- |
+| ES-350T '62 | 59 | 18 | \-\-\- |
+| ES-350T '63 | 35 | 23 | \-\-\- |
+| ES-330D '59 | 270 | 79 | \-\-\- |
 | ES-330D '60 | 1,198 | 215 | 98 |
-| ES-330D '61 | 542 | \--- | 645 |
-| ES-330D '62 | 496 | \--- | 734 |
-| ES-330D '63 | 521 | \--- | 652 |
-| ES-330D '64 | 1,231 | \--- | 693 |
-| ES-330D '65 | 1,318 | \--- | 1,067 |
-| ES-330D '66 | 2,000 | \--- | 1,151 |
-| ES-330D '67 | 2,335 | \--- | 2,563 |
-| ES-330D '68 | 1,223 | \--- | 643 |
-| ES-330D '69 | 518 | \--- | 515 |
-| ES-330 '59 | 349 | 82 | \--- |
+| ES-330D '61 | 542 | \-\-\- | 645 |
+| ES-330D '62 | 496 | \-\-\- | 734 |
+| ES-330D '63 | 521 | \-\-\- | 652 |
+| ES-330D '64 | 1,231 | \-\-\- | 693 |
+| ES-330D '65 | 1,318 | \-\-\- | 1,067 |
+| ES-330D '66 | 2,000 | \-\-\- | 1,151 |
+| ES-330D '67 | 2,335 | \-\-\- | 2,563 |
+| ES-330D '68 | 1,223 | \-\-\- | 643 |
+| ES-330D '69 | 518 | \-\-\- | 515 |
+| ES-330 '59 | 349 | 82 | \-\-\- |
 | ES-330 '60 | 772 | 88 | 37 |
-| ES-330 '61 | 267 | \--- | 214 |
-| ES-330 '62 | 224 | \--- | 179 |
-| ES-330 '63 | 151 | \--- | 152 |
-| ES-300 '48 | 190 | 83 | \--- |
-| ES-300 '49 | 76 | 48 | \--- |
-| ES-300 '50 | 116 | 41 | \--- |
-| ES-300 '51 | 114 | 47 | \--- |
-| ES-300 '52 | 79 | 27 | \--- |
-| ES-300 '53 | 4 | \--- | \--- |
-| ES-350 '48 | 87 | 55 | \--- |
-| ES-350 '49 | 76 | 89 | \--- |
-| ES-350 '50 | 54 | 46 | \--- |
-| ES-350 '51 | 70 | 57 | \--- |
-| ES-350 '52 | 122 | 67 | \--- |
-| ES-350 '53 | 87 | 50 | \--- |
-| ES-350 '54 | 58 | 31 | \--- |
-| ES-350 '55 | 44 | 14 | \--- |
-| ES-350 '56 | 45 | 4 | \--- |
+| ES-330 '61 | 267 | \-\-\- | 214 |
+| ES-330 '62 | 224 | \-\-\- | 179 |
+| ES-330 '63 | 151 | \-\-\- | 152 |
+| ES-300 '48 | 190 | 83 | \-\-\- |
+| ES-300 '49 | 76 | 48 | \-\-\- |
+| ES-300 '50 | 116 | 41 | \-\-\- |
+| ES-300 '51 | 114 | 47 | \-\-\- |
+| ES-300 '52 | 79 | 27 | \-\-\- |
+| ES-300 '53 | 4 | \-\-\- | \-\-\- |
+| ES-350 '48 | 87 | 55 | \-\-\- |
+| ES-350 '49 | 76 | 89 | \-\-\- |
+| ES-350 '50 | 54 | 46 | \-\-\- |
+| ES-350 '51 | 70 | 57 | \-\-\- |
+| ES-350 '52 | 122 | 67 | \-\-\- |
+| ES-350 '53 | 87 | 50 | \-\-\- |
+| ES-350 '54 | 58 | 31 | \-\-\- |
+| ES-350 '55 | 44 | 14 | \-\-\- |
+| ES-350 '56 | 45 | 4 | \-\-\- |
 
-<h2 id="acoustic-arch-48-79">Gibson Acoustic L-4, L-5, L-7 &amp; Super 400 Shipment Totals (1948-1979)</h2>
+<h2 id="acoustic-arch-48-79">Gibson Acoustic L-4, L-5, L-7 & Super 400 Shipment Totals (1948-1979)</h2>
 
 When you get into the **Gibson Acoustic L-4, L-5, L-7, and Super 400 shipment totals** from 1948 to 1979, you are looking at the carved-top instruments at the top of Gibson’s line in Kalamazoo. These records help any owner document the scarcity of a pure “acoustic” Super 400 or L-5, which were often made in even smaller numbers than their electric versions. Because these archtops sat at the top of Gibson’s price list, production was always limited, which puts them at the center of a high-end appraisal. Whether you are holding a 1950s L-7 with its “parallel” bracing or a late-sixties L-4C with a Venetian cutaway, these official shipping ledgers are the most effective way to confirm the rarity and value of your instrument.
 
@@ -519,8 +519,8 @@ When you get into the **Gibson Acoustic L-4, L-5, L-7, and Super 400 shipment to
 | L-4 '53 | 87 | 38 |
 | L-4 '54 | 41 | 7 |
 | L-4 '55 | 20 | 1 |
-| L-4 '56 | 2 | \--- |
-| L-4c '49 | 140 | \--- |
+| L-4 '56 | 2 | \-\-\- |
+| L-4c '49 | 140 | \-\-\- |
 | L-4c '50 | 157 | 42 |
 | L-4c '51 | 201 | 49 |
 | L-4c '52 | 88 | 41 |
@@ -551,7 +551,7 @@ When you get into the **Gibson Acoustic L-4, L-5, L-7, and Super 400 shipment to
 | L-5 '53 | 15 | 1 |
 | L-5 '54 | 12 | 3 |
 | L-5 '55 | 5 | 8 |
-| L-5 '56 | 7 | \--- |
+| L-5 '56 | 7 | \-\-\- |
 | L-5 '57 | 7 | 4 |
 | L-5 '58 | 3 | 2 |
 | L-5c '48 | 23 | 21 |
@@ -586,16 +586,16 @@ When you get into the **Gibson Acoustic L-4, L-5, L-7, and Super 400 shipment to
 | L-5c '78 | 13 | 19 |
 | L-5c '79 | 14 | 4 |
 | L-7 Series |
-| L-7 '48 | 266 | \--- |
-| L-7 '49 | 153 | \--- |
-| L-7 '50 | 158 | \--- |
-| L-7 '51 | 116 | \--- |
-| L-7 '52 | 56 | \--- |
-| L-7 '53 | 77 | \--- |
-| L-7 '54 | 23 | \--- |
-| L-7 '55 | 27 | \--- |
-| L-7 '56 | 1 | \--- |
-| L-7c '48 | 39 | \--- |
+| L-7 '48 | 266 | \-\-\- |
+| L-7 '49 | 153 | \-\-\- |
+| L-7 '50 | 158 | \-\-\- |
+| L-7 '51 | 116 | \-\-\- |
+| L-7 '52 | 56 | \-\-\- |
+| L-7 '53 | 77 | \-\-\- |
+| L-7 '54 | 23 | \-\-\- |
+| L-7 '55 | 27 | \-\-\- |
+| L-7 '56 | 1 | \-\-\- |
+| L-7c '48 | 39 | \-\-\- |
 | L-7c '49 | 97 | 33 |
 | L-7c '50 | 115 | 28 |
 | L-7c '51 | 99 | 53 |
@@ -606,20 +606,20 @@ When you get into the **Gibson Acoustic L-4, L-5, L-7, and Super 400 shipment to
 | L-7c '56 | 56 | 31 |
 | L-7c '57 | 49 | 21 |
 | L-7c '58 | 34 | 14 |
-| L-7c '59 | 89 | \--- |
-| L-7c '60 | 81 | \--- |
-| L-7c '61 | 79 | \--- |
-| L-7c '62 | 66 | \--- |
-| L-7c '63 | 140 | \--- |
-| L-7c '64 | 119 | \--- |
-| L-7c '65 | 49 | \--- |
-| L-7c '66 | 31 | \--- |
-| L-7c '67 | 34 | \--- |
-| L-7c '68 | 95 | \--- |
-| L-7c '69 | 58 | \--- |
-| L-7c '70 | 21 | \--- |
-| L-7c '71 | 6 | \--- |
-| L-7c '72 | 13 | \--- |
+| L-7c '59 | 89 | \-\-\- |
+| L-7c '60 | 81 | \-\-\- |
+| L-7c '61 | 79 | \-\-\- |
+| L-7c '62 | 66 | \-\-\- |
+| L-7c '63 | 140 | \-\-\- |
+| L-7c '64 | 119 | \-\-\- |
+| L-7c '65 | 49 | \-\-\- |
+| L-7c '66 | 31 | \-\-\- |
+| L-7c '67 | 34 | \-\-\- |
+| L-7c '68 | 95 | \-\-\- |
+| L-7c '69 | 58 | \-\-\- |
+| L-7c '70 | 21 | \-\-\- |
+| L-7c '71 | 6 | \-\-\- |
+| L-7c '72 | 13 | \-\-\- |
 | Super 400 Series |
 | Super 400 '48 | 64 | 27 |
 | Super 400 '49 | 31 | 13 |
@@ -632,13 +632,13 @@ When you get into the **Gibson Acoustic L-4, L-5, L-7, and Super 400 shipment to
 | Super 400c '50 | 14 | 7 |
 | Super 400c '51 | 5 | 17 |
 | Super 400c '52 | 10 | 7 |
-| Super 400c '53 | 5 | \--- |
+| Super 400c '53 | 5 | \-\-\- |
 | Super 400c '54 | 17 | 7 |
 | Super 400c '55 | 6 | 6 |
 | Super 400c '56 | 11 | 3 |
 | Super 400c '57 | 11 | 14 |
 | Super 400c '58 | 11 | 9 |
-| Super 400c '59 | 16 | \--- |
+| Super 400c '59 | 16 | \-\-\- |
 | Super 400c '60 | 10 | 9 |
 | Super 400c '61 | 13 | 6 |
 | Super 400c '62 | 16 | 5 |
@@ -652,13 +652,13 @@ When you get into the **Gibson Acoustic L-4, L-5, L-7, and Super 400 shipment to
 | Super 400c '70 | 9 | 4 |
 | Super 400c '71 | 4 | 5 |
 | Super 400 '72 | 5 | 10 |
-| Super 400 '73 | 3 | \--- |
-| Super 400 '74 | 2 | \--- |
+| Super 400 '73 | 3 | \-\-\- |
+| Super 400 '74 | 2 | \-\-\- |
 | Super 400 '75 | 14 | 8 |
 | Super 400 '76 | 15 | 13 |
 | Super 400 '77 | 21 | 13 |
 | Super 400 '78 | 12 | 5 |
-| Super 400 '79 | 5 | \--- |
+| Super 400 '79 | 5 | \-\-\- |
 
 <h2 id="firebird-63-69">Gibson Firebird Shipping Totals. (1963-1969)</h2>
 
@@ -697,7 +697,7 @@ The **Gibson Firebird shipping totals** from 1963 to 1969 show the rocky product
 | Firebird XII 12-string | 1966 | 248 |
 | Firebird XII 12-string | 1967 | 24 |
 
-<h2 id="modern-59-79">Gibson Flying V, Explorer &amp; Moderne Shipping Totals (1959-1979)</h2>
+<h2 id="modern-59-79">Gibson Flying V, Explorer & Moderne Shipping Totals (1959-1979)</h2>
 
 The **Gibson Flying V, Explorer, and Moderne shipping totals** from 1958 to 1979 are some of the hardest-to-find production data in the Kalamazoo archives. For a collector, these figures are the benchmark for telling original “Korina” era pieces apart from the limited reissues and second-wave batches of the late seventies. Since the 1958 and 1959 output for these models was very low, and the Moderne stayed a prototype myth for years, the ledger data is the only reliable way to do a real appraisal on these “Holy Grail” instruments. These shipping numbers let you confirm the rarity of a “Medallion” V or a first-run 1976 Explorer, which is the proof you need to back up a top-tier value.
 

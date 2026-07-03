@@ -170,7 +170,7 @@ Several of these colors changed dramatically over sixty years of UV exposure. Bu
 
 Original cases are worth real money on their own, sometimes $1,500 to $3,000 depending on era and condition. Latches should match across the case (typically two clasp latches with a center key lock), the orange plush lining should be the right color (not red, not pink), and the handle should be original leather, not a replacement strap. The Tolex itself should show appropriate wear and aging for sixty years of use, especially on the corners where the case takes the most abuse.
 
-<h2 id="cheat-sheet">Quick &amp; Dirty: The '63 Cheat Sheet</h2>
+<h2 id="cheat-sheet">Quick & Dirty: The '63 Cheat Sheet</h2>
 
 Short version. The must-haves for a clean original '63 Stratocaster:
 

@@ -171,13 +171,13 @@ const pastPurchases = [
 const faqs = [
   {
     id: "toggle_e51afd6282088838c",
-    q: "How Can Appraisal Experts Determine My Guitar Collection&rsquo;s Price &amp; Value?",
+    q: "How Can Appraisal Experts Determine My Guitar Collection’s Price & Value?",
     a: "When you bring your guitar in for appraisal, I will inspect your guitar carefully. Its make and model, the age, condition, and any unique features the guitar has will be considered as I determine its value. You will receive a written appraisal detailing my assessment and findings, along with the determined value of your guitar so you can make an informed decision for moving forward with keeping or selling it.",
   },
   {
     id: "toggle_36b0dcad5b96e59a8",
     q: "How Long Will The Process Of Selling My Vintage Guitar Collection Take?",
-    a: "When you visit Joe&rsquo;s Vintage Guitar for an appraisal and assessment, I do everything I can to make the process quick, painless, and risk-free for you. I share as much information as I can without overwhelming you, and take my time understanding the guitar&rsquo;s history and sentimental value to you personally. If you are ready to sell it, the actual process is relatively quick and simple.",
+    a: "When you visit Joe’s Vintage Guitar for an appraisal and assessment, I do everything I can to make the process quick, painless, and risk-free for you. I share as much information as I can without overwhelming you, and take my time understanding the guitar’s history and sentimental value to you personally. If you are ready to sell it, the actual process is relatively quick and simple.",
   },
   {
     id: "toggle_8517607e71808a494",
@@ -187,7 +187,7 @@ const faqs = [
   {
     id: "toggle_97d0a78fd56124e29",
     q: "Can I Sell My Guitar Collection On Consignment Or Trade It For Other Guitars?",
-    a: "Consignment comes with a few risks, but depending on your guitar I am willing to offer the opportunity to you. I want you to have a guitar that you love, so if you are interested in trading your guitar for one from my inventory, let&rsquo;s talk! I am flexible and ready to work with you to ensure a fair trade experience for all involved.",
+    a: "Consignment comes with a few risks, but depending on your guitar I am willing to offer the opportunity to you. I want you to have a guitar that you love, so if you are interested in trading your guitar for one from my inventory, let’s talk! I am flexible and ready to work with you to ensure a fair trade experience for all involved.",
   },
   {
     id: "toggle_37b36752c094139f4",
@@ -202,8 +202,8 @@ const structuredData = [
     "@type": "FAQPage",
     mainEntity: faqs.map((f) => ({
       "@type": "Question",
-      name: f.q.replace(/&rsquo;/g, "'").replace(/&amp;/g, "&"),
-      acceptedAnswer: { "@type": "Answer", text: f.a.replace(/&rsquo;/g, "'") },
+      name: f.q.replace(/’/g, "'").replace(/&/g, "&"),
+      acceptedAnswer: { "@type": "Answer", text: f.a.replace(/’/g, "'") },
     })),
   },
   {
@@ -245,10 +245,10 @@ const structuredData = [
       <h2 class="smc-hero__subtitle">Top-Rated Guitar Collection Buyer, I Come to You</h2>
 
       <div class="smc-intro-box">
-        <p>Whether you&rsquo;ve been building your collection for decades or you&rsquo;re just ready to pass it on, I&rsquo;ll make the process simple, fast, and pressure-free.</p>
+        <p>Whether you’ve been building your collection for decades or you’re just ready to pass it on, I’ll make the process simple, fast, and pressure-free.</p>
         <p>I buy entire collections: guitars, basses, amplifiers, mandolins, banjos, and more. With years of experience and over $1 million in cash ready to go, I can make you a serious same-day offer on everything at once. No listing items one by one, no lowball offers, no waiting weeks for a sale.</p>
-        <p class="smc-intro-box__brands">Brands I&rsquo;m looking for include: Gibson, Fender, Martin, Gretsch, Rickenbacker, Guild, Epiphone, Marshall, Vox &amp; more!</p>
-        <p>I travel all across the U.S. with my trailer and come right to you. California, New York, anywhere in between. One call, one visit, one fair offer, it&rsquo;s that simple.</p>
+        <p class="smc-intro-box__brands">Brands I’m looking for include: Gibson, Fender, Martin, Gretsch, Rickenbacker, Guild, Epiphone, Marshall, Vox & more!</p>
+        <p>I travel all across the U.S. with my trailer and come right to you. California, New York, anywhere in between. One call, one visit, one fair offer, it’s that simple.</p>
         <div class="smc-intro-box__divider"></div>
         <div class="smc-intro-box__contact">
           <span>📞 Call or text: <a href={`tel:${contact.tel}`}>{contact.phone}</a></span>
@@ -278,9 +278,9 @@ const structuredData = [
   <section class="smc-hiw">
     <div class="smc-inner">
       <div class="smc-hiw__header">
-        <p class="smc-hiw__eyebrow">Guitar &amp; Instrument Collection Liquidation</p>
+        <p class="smc-hiw__eyebrow">Guitar & Instrument Collection Liquidation</p>
         <h2 class="smc-hiw__title">How Our Collection<br />Purchasing Process Works</h2>
-        <p class="smc-hiw__subtitle">Whether you&rsquo;re liquidating a lifelong collection, settling an estate, or selling a retiring musician&rsquo;s instruments, my collection buying process is fast, fair, and hassle-free.</p>
+        <p class="smc-hiw__subtitle">Whether you’re liquidating a lifelong collection, settling an estate, or selling a retiring musician’s instruments, my collection buying process is fast, fair, and hassle-free.</p>
         <div class="smc-hiw__divider"></div>
       </div>
 
@@ -301,7 +301,7 @@ const structuredData = [
       </div>
 
       <div class="smc-hiw__cta">
-        <div class="smc-hiw__cta-text">Ready to discuss your collection? <span>Let&rsquo;s talk.</span></div>
+        <div class="smc-hiw__cta-text">Ready to discuss your collection? <span>Let’s talk.</span></div>
         <div class="smc-hiw__cta-actions">
           <a href={`tel:${contact.tel}`} class="smc-btn smc-btn--rust">Call {contact.phone}</a>
           <a href="/contact-me/" class="smc-btn smc-btn--cream">Send Photos</a>
@@ -314,8 +314,8 @@ const structuredData = [
   <section class="smc-buyappraise">
     <div class="smc-inner smc-buyappraise__grid">
       <div class="smc-buyappraise__text">
-        <h3>I Buy &amp; Appraise <span>Vintage Guitar Collections</span> <span class="smc-buyappraise__online">Online Or In Person</span></h3>
-        <p>I love vintage instruments, whether I keep them to play or pass them on to someone else who&rsquo;ll appreciate them. Every guitar has its own story, so when I appraise yours, I want to hear its background, see a photo of the original owner, or hear what the guitar&rsquo;s been through. For <a href="/free-appraisal/" class="smc-link">top-rated guitar appraisals</a>, email me at <a href={`mailto:${contact.email}`} class="smc-link">{contact.email}</a>.</p>
+        <h3>I Buy & Appraise <span>Vintage Guitar Collections</span> <span class="smc-buyappraise__online">Online Or In Person</span></h3>
+        <p>I love vintage instruments, whether I keep them to play or pass them on to someone else who’ll appreciate them. Every guitar has its own story, so when I appraise yours, I want to hear its background, see a photo of the original owner, or hear what the guitar’s been through. For <a href="/free-appraisal/" class="smc-link">top-rated guitar appraisals</a>, email me at <a href={`mailto:${contact.email}`} class="smc-link">{contact.email}</a>.</p>
         <a href={`tel:${contact.tel}`} class="smc-btn smc-btn--rust">{contact.phone}</a>
       </div>
       <div class="smc-buyappraise__photo">
@@ -331,7 +331,7 @@ const structuredData = [
   <!-- 4. Nationwide grid — title + 3 columns (icon + photo + heading + copy each) -->
   <section class="smc-nationwide">
     <div class="smc-inner">
-      <h3 class="smc-nationwide__title">Nationwide Vintage Guitar Collection <span>Purchase &amp; Appraisals</span></h3>
+      <h3 class="smc-nationwide__title">Nationwide Vintage Guitar Collection <span>Purchase & Appraisals</span></h3>
       <div class="smc-nationwide__cols">
         {featureCols.map((c) => (
           <div class="smc-nationwide__col">
@@ -350,7 +350,7 @@ const structuredData = [
   <section class="smc-testi">
     <div class="smc-inner">
       <div class="smc-testi__head">
-        <h3 class="smc-testi__title">Our Clients&rsquo; Testimonials</h3>
+        <h3 class="smc-testi__title">Our Clients’ Testimonials</h3>
         <h4 class="smc-testi__sub">Guitar Collection Resale Expert With 5-Star Rated Reviews</h4>
       </div>
 
@@ -405,13 +405,13 @@ const structuredData = [
   <section class="smc-inherited">
     <div class="smc-inner">
       <div class="smc-inherited__title">
-        <h3 class="smc-inherited__main">Inherited A Guitar Collection And Need To Get It Appraised <span>&amp; Sell It?</span></h3>
-        <h3 class="smc-inherited__sub">We Buy Vintage Acoustic &amp; Electric Guitar Collections In <span>Any State</span></h3>
+        <h3 class="smc-inherited__main">Inherited A Guitar Collection And Need To Get It Appraised <span>& Sell It?</span></h3>
+        <h3 class="smc-inherited__sub">We Buy Vintage Acoustic & Electric Guitar Collections In <span>Any State</span></h3>
       </div>
       <div class="smc-inherited__grid">
         <div class="smc-inherited__text">
-          <p>If you&rsquo;ve just become the owner of a guitar collection and have no idea what it&rsquo;s worth or where to start, I can help. I&rsquo;ll travel to you anywhere in the United States for <a href="/free-appraisal/" class="smc-link">in-person guitar appraisals</a>, or we can set up an online meeting instead.</p>
-          <p>I want you to understand what the guitar is actually worth. I won&rsquo;t cut corners or make anything up. I love vintage guitars, and that&rsquo;s what drives everything I do. If you&rsquo;d like a <a href="/free-appraisal/" class="smc-link">free appraisal</a> for your vintage guitar, email me at <a href={`mailto:${contact.email}`} class="smc-link">{contact.email}</a> or text me at <a href={`sms:${contact.tel}`} class="smc-link">{contact.phone}</a>.</p>
+          <p>If you’ve just become the owner of a guitar collection and have no idea what it’s worth or where to start, I can help. I’ll travel to you anywhere in the United States for <a href="/free-appraisal/" class="smc-link">in-person guitar appraisals</a>, or we can set up an online meeting instead.</p>
+          <p>I want you to understand what the guitar is actually worth. I won’t cut corners or make anything up. I love vintage guitars, and that’s what drives everything I do. If you’d like a <a href="/free-appraisal/" class="smc-link">free appraisal</a> for your vintage guitar, email me at <a href={`mailto:${contact.email}`} class="smc-link">{contact.email}</a> or text me at <a href={`sms:${contact.tel}`} class="smc-link">{contact.phone}</a>.</p>
           <div class="smc-inherited__cta">
             <p><strong>Get The Best Price For Your Vintage Guitar!</strong></p>
           </div>
@@ -419,7 +419,7 @@ const structuredData = [
         <div class="smc-inherited__photo">
           <LicensedImage
             src={imgMeta("blog5.jpg")}
-            alt="Appraise And Sell Your Inherited Guitar Collection At Joe&rsquo;s Vintage Guitars"
+            alt="Appraise And Sell Your Inherited Guitar Collection At Joe’s Vintage Guitars"
             width={340}
           />
         </div>
@@ -494,8 +494,8 @@ const structuredData = [
         <h3 class="smc-meet__title">Meet Vintage Guitar Expert, <span>Joe Dampt</span></h3>
         <h4 class="smc-meet__sub">Professional Buyer and Seasoned Collector of Vintage Guitars</h4>
         <p>Hey there! My name is Joe Dampt and I love old music and old guitars!</p>
-        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I&rsquo;ve sacrificed and worked hard to make music and musical instruments my livelihood. I love old guitars and musical instruments, but I love the MUSIC even more. I believe that guitars don&rsquo;t do us any good if they just sit in a case. These beauties are meant to be played!</p>
-        <p>I&rsquo;ve performed in many local bands and my favorite styles to play are classic country/western music, swing &amp; dance music, and classic rock &amp; roll.</p>
+        <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I’ve sacrificed and worked hard to make music and musical instruments my livelihood. I love old guitars and musical instruments, but I love the MUSIC even more. I believe that guitars don’t do us any good if they just sit in a case. These beauties are meant to be played!</p>
+        <p>I’ve performed in many local bands and my favorite styles to play are classic country/western music, swing & dance music, and classic rock & roll.</p>
       </div>
     </div>
   </section>

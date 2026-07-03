@@ -30,7 +30,7 @@ Among vintage electric guitars, few have the following of the **1959 Gibson ES-3
 -   [08\. The Case:](#case-identification) Stone vs. Lifton "California Girl" Designs
 -   [09\. Notable Players:](#notable-players) Architects of the 335 Sound
 
-<h2 id="body-evolution">The Body: Iconic “Mickey Mouse” Ears &amp; Structural Evolution</h2>
+<h2 id="body-evolution">The Body: Iconic “Mickey Mouse” Ears & Structural Evolution</h2>
 
 The 1959 model year is most famous for its **symmetrical double-cutaway body**, featuring the rounded, bulbous horns affectionately known by collectors as **“Mickey Mouse ears.”** These ears are more pronounced and circular than the “pointy” ears seen in the mid-1960s.
 

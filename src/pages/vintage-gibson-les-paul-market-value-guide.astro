@@ -26,7 +26,7 @@ const structuredData: Record<string, unknown>[] = [
 ];
 
 const variants = [
-  { t: "Les Paul Standard", b: "Started as a Goldtop, later Sunburst (with rare Copper Iridescent and Platinum/Silver examples). White P-90s from 1952 to 1957, nickel humbuckers from 1957 to 1961, with the gold script &lsquo;Les Paul&rsquo; logo on the headstock." },
+  { t: "Les Paul Standard", b: "Started as a Goldtop, later Sunburst (with rare Copper Iridescent and Platinum/Silver examples). White P-90s from 1952 to 1957, nickel humbuckers from 1957 to 1961, with the gold script ‘Les Paul’ logo on the headstock." },
   { t: "Les Paul Custom", b: "Black finish with gold hardware. Black P-90s from 1953 to 1957, gold humbuckers from 1957 to 1961, and a diamond inlay on the headstock." },
   { t: "Les Paul Special", b: "Transparent TV Yellow or transparent Cherry Red, with two black P-90 pickups." },
   { t: "Les Paul Junior", b: "Sunburst or TV Yellow (the TV Yellow being rarer), with a single black P-90." },
@@ -50,23 +50,23 @@ const prices = [
 const factors = [
   { t: "Headstock Break or Repair", b: "Even a clean, professional repair usually knocks 40 to 50% off compared to an unbroken example." },
   { t: "Refinish", b: "A non-original finish takes off about 40 to 50%, no matter how good the work is. Collectors put real weight on original nitro and patina." },
-  { t: "Replaced Pickups", b: "A straight swap with no routing is about 25%. A P-90-to-humbucker rout is 35 to 40% because it&rsquo;s a permanent change to the body, and losing the original PAFs hits harder still." },
-  { t: "Added Locking Tremolo", b: "One of the worst, 35 to 45%. It was common in the &rsquo;70s and &rsquo;80s and it&rsquo;s not reversible." },
-  { t: "Replaced Tuners", b: "About 10 to 15%, and more on early-&rsquo;70s models where the waffle-back tuners are a desirable transitional feature." },
+  { t: "Replaced Pickups", b: "A straight swap with no routing is about 25%. A P-90-to-humbucker rout is 35 to 40% because it’s a permanent change to the body, and losing the original PAFs hits harder still." },
+  { t: "Added Locking Tremolo", b: "One of the worst, 35 to 45%. It was common in the ’70s and ’80s and it’s not reversible." },
+  { t: "Replaced Tuners", b: "About 10 to 15%, and more on early-’70s models where the waffle-back tuners are a desirable transitional feature." },
   { t: "Refret", b: "Usually only 5 to 10%, and the market has gotten forgiving here, especially on Customs that left the factory with low frets." },
   { t: "Replaced Pots / Minor Electronics", b: "Roughly 10 to 20% depending on what was changed." },
   { t: "Extra Strap-Button Holes", b: "About 10% for holes drilled in the wrong spots." },
 ];
 
 const faqs = [
-  { q: "What is a vintage Gibson Les Paul worth?", a: "It depends on the model, year, originality, and condition. A 1950s Standard runs from about $25,000 to well over $400,000; 1970s and &rsquo;80s models are usually $2,000 to $20,000 depending on the features and how original it is." },
+  { q: "What is a vintage Gibson Les Paul worth?", a: "It depends on the model, year, originality, and condition. A 1950s Standard runs from about $25,000 to well over $400,000; 1970s and ’80s models are usually $2,000 to $20,000 depending on the features and how original it is." },
   { q: "How do I tell what year mine is?", a: "The serial number on the back of the headstock, or inside the body on older ones, is the most reliable start. Gibson used several formats over the years, so run it through my <a href=\"/how-to-read-gibson-serial-numbers/\">Gibson serial number guide</a>." },
   { q: "Does a headstock repair affect value?", a: "Yes, a lot. Even a clean, professional headstock repair usually takes 40 to 50% off compared to an unbroken example." },
   { q: "How much does a refinish affect value?", a: "A refinished Les Paul is usually worth 40 to 50% less than an all-original one. Collectors put a lot of weight on original nitrocellulose lacquer and natural patina." },
-  { q: "What are PAF pickups and why do they matter?", a: "PAF (Patent Applied For) humbuckers were installed from 1957 into the early 1960s. They&rsquo;re prized for their tone and valuable on their own, so original PAFs add a lot compared to replaced pickups." },
-  { q: "What&rsquo;s the most valuable Les Paul?", a: "The 1958 to 1960 Standard, the &lsquo;Burst.&rsquo; Original examples in excellent condition sell from around $200,000 to $450,000+, and the exceptional ones go higher." },
-  { q: "Are 1970s Les Pauls worth anything?", a: "Yes. The most desirable are early-&rsquo;70s models with transitional specs (small or no volute, long neck tenon, pancake body), rare finishes like Silverburst, and all-original parts." },
-  { q: "What should I do before selling?", a: "Don&rsquo;t clean or polish it; modern polish can damage an old finish and strip the patina collectors want. Gather any documentation and the original case, take clear photos in natural light, and get a free appraisal before you accept any offer." },
+  { q: "What are PAF pickups and why do they matter?", a: "PAF (Patent Applied For) humbuckers were installed from 1957 into the early 1960s. They’re prized for their tone and valuable on their own, so original PAFs add a lot compared to replaced pickups." },
+  { q: "What’s the most valuable Les Paul?", a: "The 1958 to 1960 Standard, the ‘Burst.’ Original examples in excellent condition sell from around $200,000 to $450,000+, and the exceptional ones go higher." },
+  { q: "Are 1970s Les Pauls worth anything?", a: "Yes. The most desirable are early-’70s models with transitional specs (small or no volute, long neck tenon, pancake body), rare finishes like Silverburst, and all-original parts." },
+  { q: "What should I do before selling?", a: "Don’t clean or polish it; modern polish can damage an old finish and strip the patina collectors want. Gather any documentation and the original case, take clear photos in natural light, and get a free appraisal before you accept any offer." },
 ];
 
 // FAQPage schema mirrors the visible <FAQ> above. stripTags keeps the JSON-LD
@@ -85,7 +85,7 @@ structuredData.push(faqSchema);
 ---
 
 <Layout
-  title="Vintage Gibson Les Paul Market Value Guide | Joe&rsquo;s Vintage Guitars"
+  title="Vintage Gibson Les Paul Market Value Guide | Joe’s Vintage Guitars"
   description="What a vintage Gibson Les Paul is worth: current price ranges for Standard, Custom, Special, and Junior by year, plus the modifications that change the value."
   canonical="/vintage-gibson-les-paul-market-value-guide/"
   structuredData={structuredData}
@@ -108,7 +108,7 @@ structuredData.push(faqSchema);
         Few electrics are as collectible, or as faked and modified, as a vintage Gibson Les Paul. Value comes down
         to the model, the year, how original it is, and its condition. This guide gives you current ranges and the
         factors behind them. For an exact figure on your guitar,
-        <a href="/free-appraisal/">get a free appraisal</a> and I&rsquo;ll give you a straight answer.
+        <a href="/free-appraisal/">get a free appraisal</a> and I’ll give you a straight answer.
       </p>
     </div>
   </section>
@@ -139,7 +139,7 @@ structuredData.push(faqSchema);
       <div class="vg-table-wrap">
         <table class="vg-table">
           <thead>
-            <tr><th>Model &amp; Year</th><th>Value</th></tr>
+            <tr><th>Model & Year</th><th>Value</th></tr>
           </thead>
           <tbody>
             {prices.map((p) => (
@@ -155,7 +155,7 @@ structuredData.push(faqSchema);
     <div class="vg-inner">
       <h2 class="vg-head">What Changes the Value</h2>
       <div class="vg-rule" aria-hidden="true"></div>
-      <p>Originality is everything on a Les Paul. Here&rsquo;s roughly what the common changes do to the number:</p>
+      <p>Originality is everything on a Les Paul. Here’s roughly what the common changes do to the number:</p>
       <div class="vg-grid">
         {factors.map((f) => (
           <article class="vg-card">
