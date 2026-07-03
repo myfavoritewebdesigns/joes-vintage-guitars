@@ -215,7 +215,7 @@ As stated above, we cannot provide an accurate cash value for your guitar in thi
 
 ## Gibson L5-CES Specifications & Changes Through the Years
 
-on mobile, scroll to see more ----->
+on mobile, scroll to see more →
 
 | Feature | 1951-1953 (Early P-90) | 1954-1957 (Staple/P-90) | 1957-1960 (PAF Era) | 1960-1969 (Florentine) | 1969-Present (Modern Venetian) |
 | --- | --- | --- | --- | --- | --- |

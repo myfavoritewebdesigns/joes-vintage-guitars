@@ -66,3 +66,12 @@ Thumbs.db
 
 # Lockfile policy: KEEP package-lock.json (deterministic builds for CF Pages
 # + the team). Do NOT ignore it.
+
+# machine-specific dev helpers (pnpm run dev is the standard command)
+*.cmd
+
+# editor / agent / dev-env config (keep local, don't share)
+.vscode/
+
+# LibreOffice lock files
+.~lock.*#
