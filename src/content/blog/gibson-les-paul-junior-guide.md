@@ -57,7 +57,7 @@ The Junior didn't sit alone in the budget lineup for long. By 1955 Gibson had ad
 
 ## The First Les Paul Juniors
 
-The earliest 1954 Juniors are messier than most reference books admit. Production records from the first half of the year are patchy. The guitars themselves vary in ways that strongly suggest Gibson was still working out which specs would stick. If you handle enough of them you start to see the variation. Body wood that shouldn't be there. Pickup positions that drift by a couple of millimeters. Inlay materials that change part-way through the run. None of this is documented in the original catalogs because most of these changes happened on the factory floor between print cycles.
+The earliest 1954 Juniors are messier than most reference books admit. Production records from the first half of the year are patchy. The guitars themselves vary in ways that strongly suggest Gibson was still working out which specs would stick. If you handle enough of them you start to see the variation. Body wood that shouldn't be there. Pickup positions that drift by a couple of millimeters. None of this is documented in the original catalogs because most of these changes happened on the factory floor between print cycles.
 
 ### Body Construction and Wood
 
@@ -73,7 +73,7 @@ The neck is one-piece mahogany, set into the body with a long glued tenon. That'
 
 The neck profile on a 1954 Junior is what dealers politely call a "full C." Less polite descriptions involve baseball bats and 2x4s. Depth at the first fret typically measures around .92 inches and grows from there. If you've never played pre-1960 Gibsons before, this neck will feel enormous for the first few minutes. Most players who stick with it for a session or two end up preferring the feel. The mass actually reduces hand fatigue on long sessions because your fingers aren't doing micro-corrections to stay on the strings. It's also part of why these necks resist warping seventy years on.
 
-Inlays are one of the cleaner authentication checks on these guitars. Early 1954 Juniors use genuine mother-of-pearl dot inlays. Hold the neck under angled light and you'll see actual color shifts across the surface, pinks turning to greens and back depending on viewing angle. That iridescence comes from the natural layered structure of the shell. Plastic doesn't do this. Gibson switched to plastic dots somewhere in 1955, so a Junior with pearl dots is almost certainly first-year production. A Junior dated 1957 with pearl dots either has been re-inlaid or has been misidentified.
+The fingerboard inlays are plain dots, and on a student-grade Junior they are cream-colored celluloid across the entire production run. This is worth stressing because it runs the opposite way from what some sellers will tell you: the Junior and the TV never left Kalamazoo with mother-of-pearl or pearloid dots. Those appointments belonged to the pricier Standard and Custom. If a Junior turns up with iridescent shell inlays that shift color under angled light, the dots have been replaced, or the guitar has been misidentified. Do not let anyone use dot material as a first-year dating tell on these models, because it is not one.
 
 ### Headstock and Tuners
 
@@ -98,10 +98,6 @@ Bonnet-style knobs (taller, barrel-shaped) on a guitar being sold as a 1954 or e
 Standard 1954 finish is a two-tone sunburst in nitrocellulose lacquer. Amber-yellow center fading out to dark brown or near-black at the edges. The very earliest examples sometimes show a deeper, redder burst that's closer to Gibson's acoustic-guitar "Cremona" finish, which suggests the early Juniors were getting sprayed in the same booth as the archtops. By mid-1954 the burst had settled into what most collectors think of as the Junior sunburst: bright yellow center, translucent edges that let the mahogany grain show through clearly. The lacquer ages by checking (those fine spider-web cracks you see on old finishes) and by yellowing as the lacquer oxidizes. Both are normal and expected on an honest 70-year-old guitar.
 
 ## Consolidation and the TV Model
-
-### The Transition to Plastic Dots
-
-Somewhere in 1955, Gibson switched the fingerboard dots from genuine mother-of-pearl to white plastic. The transition wasn't dated formally so we can't pin it to a specific month, but plastic dots are universal by 1956. The visual difference is immediate under good light. Pearl shows color shifts (pinks, greens, blues, sometimes a faint purple) as you tilt the neck. Plastic reads as flat uniform white. This is one of the cleaner quick-check authentication points for distinguishing an early Junior from a later one.
 
 ### Introduction of the TV Model
 
@@ -268,7 +264,7 @@ No single feature on its own proves or disproves authenticity. Authentication is
 ### 1954 Authentication Checklist
 
 -   Serial number headstock stamp font consistent with known 1954 examples
--   Pearl (not plastic) fingerboard dot inlays, iridescent, layered, not flat white
+-   Cream-colored celluloid dot inlays (a student-model spec, never mother-of-pearl or pearloid)
 -   "Speed" or "hatbox" style knobs, not the later bonnet style
 -   Grey Tiger waxed-paper capacitor on tone control
 -   Pickup positioned extremely close to bridge, closer than any post-1955 model
@@ -280,7 +276,7 @@ No single feature on its own proves or disproves authenticity. Authentication is
 
 ### 1955 to 1958 Single-Cutaway Checklist
 
--   Plastic dot inlays (not pearl) from 1955 onward
+-   Cream-colored celluloid dot inlays, unchanged from the earlier examples
 -   Bonnet-style knobs from 1956 onward (earlier 1955 may still have speed knobs)
 -   Bumblebee capacitors from 1956 onward
 -   P-90 positioned slightly further from bridge than 1954 examples
