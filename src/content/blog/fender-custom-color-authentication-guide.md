@@ -11,26 +11,65 @@ heroImageAlt: "Front of a 1965 Fender Stratocaster in Candy Apple Red Metallic w
 metaDescription: "Authenticate a Fender custom color finish: undercoats, paint stick shadows, nail holes, matching headstocks, blacklight, and the refin tells we check first."
 ogImage: "/images/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-candy-apple-red-front-of-body.jpg"
 ---
-1.  [Why Custom Color Authentication Matters](#fcc-why)
-2.  [What Counts as a Fender Custom Color](#fcc-what)
-3.  [A Short History of Fender Custom Colors](#fcc-history)
-4.  [The Custom Color Charts, Year by Year](#fcc-chart)
-5.  [How Fender Built a Custom Color Finish](#fcc-stack)
-6.  [Undercoats Through the Years: Desert Sand, White, Silver, and Gold](#fcc-undercoats)
-7.  [Custom Color Over Sunburst](#fcc-sunburst)
-8.  [Nail Holes and the Paint Stick](#fcc-nails)
-9.  [Pin Router Dowel Holes: Tooling Fingerprints](#fcc-dowels)
-10.  [Reading the Neck Pocket](#fcc-pocket)
-11.  [What Belongs Under the Pickguard](#fcc-guard)
-12.  [Matching Headstocks and Decal Sequencing](#fcc-headstock)
-13.  [Pickguards and Plastic on Custom Colors](#fcc-plastics)
-14.  [How Custom Colors Age](#fcc-aging)
-15.  [The Blacklight Test](#fcc-blacklight)
-16.  [Telltale Signs of a Refinish](#fcc-refin)
-17.  [Factory Refinishes and the Repair Department's Marks](#fcc-factory-refin)
-18.  [The Nine-Step Bench Protocol](#fcc-checklist)
-19.  [What a Real Custom Color Is Worth](#fcc-value)
-20.  [Frequently Asked Questions](#fcc-faq)
+<nav class="fcc-nav-sidebar" id="fccNavSidebar" aria-label="Article section navigation">
+  <div class="fcc-nav-header"><strong>Custom Color Guide</strong></div>
+  <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="fcc-nav-link top">&uarr; Top of Page</a>
+  <div class="fcc-nav-label">The Colors</div>
+  <a href="#fcc-why" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Why It Matters</a>
+  <a href="#fcc-what" class="fcc-nav-link"><span class="fcc-nav-dot"></span>What Counts</a>
+  <a href="#fcc-history" class="fcc-nav-link"><span class="fcc-nav-dot"></span>History</a>
+  <a href="#fcc-chart" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Chart &amp; Swatches</a>
+  <div class="fcc-nav-label">Factory Forensics</div>
+  <a href="#fcc-stack" class="fcc-nav-link"><span class="fcc-nav-dot"></span>The Finish Stack</a>
+  <a href="#fcc-undercoats" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Undercoats</a>
+  <a href="#fcc-sunburst" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Over Sunburst</a>
+  <a href="#fcc-nails" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Nails &amp; Paint Stick</a>
+  <a href="#fcc-dowels" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Dowel Holes</a>
+  <a href="#fcc-pocket" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Neck Pocket</a>
+  <a href="#fcc-guard" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Under the Pickguard</a>
+  <a href="#fcc-headstock" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Matching Headstocks</a>
+  <a href="#fcc-plastics" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Pickguards &amp; Plastic</a>
+  <div class="fcc-nav-label">Judgment Calls</div>
+  <a href="#fcc-aging" class="fcc-nav-link"><span class="fcc-nav-dot"></span>How Colors Age</a>
+  <a href="#fcc-blacklight" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Blacklight</a>
+  <a href="#fcc-refin" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Refinish Tells</a>
+  <a href="#fcc-factory-refin" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Factory Refins</a>
+  <a href="#fcc-checklist" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Bench Protocol</a>
+  <a href="#fcc-value" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Value</a>
+  <a href="#fcc-faq" class="fcc-nav-link"><span class="fcc-nav-dot"></span>FAQ</a>
+</nav>
+
+<button class="fcc-nav-btn" id="fccNavBtn" onclick="toggleFccNav()" aria-expanded="false" aria-controls="fccNavPanel" type="button">
+  <span class="fcc-nav-icon">&#9776;</span> Jump To Section
+</button>
+
+<div class="fcc-nav-panel" id="fccNavPanel" role="navigation" aria-label="Article section navigation">
+  <div class="fcc-nav-header"><strong>Custom Color Guide</strong></div>
+  <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});closeFccNav();return false;" class="fcc-nav-link top">&uarr; Top of Page</a>
+  <div class="fcc-nav-label">The Colors</div>
+  <a href="#fcc-why" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Why It Matters</a>
+  <a href="#fcc-what" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>What Counts</a>
+  <a href="#fcc-history" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>History</a>
+  <a href="#fcc-chart" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Chart &amp; Swatches</a>
+  <div class="fcc-nav-label">Factory Forensics</div>
+  <a href="#fcc-stack" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>The Finish Stack</a>
+  <a href="#fcc-undercoats" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Undercoats</a>
+  <a href="#fcc-sunburst" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Over Sunburst</a>
+  <a href="#fcc-nails" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Nails &amp; Paint Stick</a>
+  <a href="#fcc-dowels" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Dowel Holes</a>
+  <a href="#fcc-pocket" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Neck Pocket</a>
+  <a href="#fcc-guard" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Under the Pickguard</a>
+  <a href="#fcc-headstock" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Matching Headstocks</a>
+  <a href="#fcc-plastics" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Pickguards &amp; Plastic</a>
+  <div class="fcc-nav-label">Judgment Calls</div>
+  <a href="#fcc-aging" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>How Colors Age</a>
+  <a href="#fcc-blacklight" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Blacklight</a>
+  <a href="#fcc-refin" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Refinish Tells</a>
+  <a href="#fcc-factory-refin" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Factory Refins</a>
+  <a href="#fcc-checklist" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Bench Protocol</a>
+  <a href="#fcc-value" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>Value</a>
+  <a href="#fcc-faq" onclick="closeFccNav()" class="fcc-nav-link"><span class="fcc-nav-dot"></span>FAQ</a>
+</div>
 
 <h2 id="fcc-why">Why Custom Color Authentication Matters</h2>
 
@@ -77,30 +116,32 @@ Why does the chart history matter? Because a color has to exist in the year the 
 
 Here is the working reference we use: every chart color with its DuPont paint code, its chemical binder type, the automobile it was mixed for, and its active years. Chart years mark when a color was officially offered; Fender used up old stock and honored odd requests, so real guitars straggle a year or so past the edges.
 
+One disclaimer before the swatches: the color chips below are screen approximations, mixed to get you in the neighborhood of each color and nothing more. Real examples vary with the paint batch, sixty years of fading, and the amber of the clear coat, and no two monitors agree either. Use the swatches to get the idea, and identify actual guitars against protected areas and known originals, never against a screen.
+
 | Color | Type | DuPont Code | Car Year, Make & Model Source | Active Years |
 | --- | --- | --- | --- | --- |
-| Blonde | Translucent Nitro | In-house | Fender proprietary formulation | 1950s-1970s |
-| Black | Solid Nitro (Duco) | 1711 | Universal Automotive Black (All Makes) | 1960-1984 |
-| Olympic White | Solid Acrylic (Lucite) | 2818-L | 1958-1962 Cadillac | 1960-1980 |
-| Fiesta Red | Solid Nitro (Duco) | 2219-H | 1956 Ford Thunderbird | 1960-1969 |
-| Dakota Red | Solid Nitro (Duco) | 2590-H | 1958 Cadillac | 1960-1969 |
-| Shell Pink | Solid Nitro (Duco) | 2371 | 1956 DeSoto | 1960-1963 |
-| Daphne Blue | Solid Nitro (Duco) | 2804 | 1958 Cadillac | 1960-1965 |
-| Sonic Blue | Solid Nitro (Duco) | 2295 | 1956 Cadillac | 1960-1972 |
-| Lake Placid Blue Metallic | Metallic Acrylic (Lucite) | 2876-L | 1958 Cadillac | 1960-1973 |
-| Sherwood Green Metallic | Metallic Nitro (Duco) | 2526-H | 1957 Mercury | 1960-1965 |
-| Foam Green | Solid Nitro (Duco) | 2253 | 1956 Buick | 1960-1969 |
-| Surf Green | Solid Nitro (Duco) | 2461 | 1957 Chevrolet | 1960-1965 |
-| Burgundy Mist Metallic | Metallic Acrylic (Lucite) | 2936-L | 1959 Oldsmobile | 1960-1965 |
-| Shoreline Gold Metallic | Metallic Acrylic (Lucite) | 2935-L | 1959-1960 Pontiac | 1960-1965 |
-| Inca Silver Metallic | Metallic Acrylic (Lucite) | 2436-L | 1957-1959 Chevrolet Corvette | 1960-1965 |
-| Candy Apple Red Metallic | Translucent Nitro | In-house | Fender proprietary formulation (silver, then gold base) | 1963-1973 |
-| Blue Ice Metallic | Metallic Acrylic (Lucite) | 4692L | 1965-1966 Ford | 1965-1969 |
-| Charcoal Frost Metallic | Metallic Acrylic (Lucite) | 4618L | 1965-1966 Lincoln Continental | 1965-1969 |
-| Ocean Turquoise Metallic | Metallic Acrylic (Lucite) | 4607L | 1965 Mercury | 1965-1971 |
-| Teal Green Metallic | Metallic Acrylic (Lucite) | 4297L | 1965-1968 Lincoln | 1965-1969 |
-| Firemist Gold Metallic | Metallic Acrylic (Lucite) | 4579L | 1964-1965 Cadillac Eldorado | 1965-1971 |
-| Firemist Silver Metallic | Metallic Acrylic (Lucite) | 4576L | 1964 Cadillac Eldorado | 1965-1971 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#efddb0"></span>Blonde | Translucent Nitro | In-house | Fender proprietary formulation | 1950s-1970s |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#1b1b1b"></span>Black | Solid Nitro (Duco) | 1711 | Universal Automotive Black (All Makes) | 1960-1984 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#f2eedf"></span>Olympic White | Solid Acrylic (Lucite) | 2818-L | 1958-1962 Cadillac | 1960-1980 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#d6493c"></span>Fiesta Red | Solid Nitro (Duco) | 2219-H | 1956 Ford Thunderbird | 1960-1969 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#9e1c24"></span>Dakota Red | Solid Nitro (Duco) | 2590-H | 1958 Cadillac | 1960-1969 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#ebbdb4"></span>Shell Pink | Solid Nitro (Duco) | 2371 | 1956 DeSoto | 1960-1963 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#7eb6d6"></span>Daphne Blue | Solid Nitro (Duco) | 2804 | 1958 Cadillac | 1960-1965 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#bdd9e0"></span>Sonic Blue | Solid Nitro (Duco) | 2295 | 1956 Cadillac | 1960-1972 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#33618f"></span>Lake Placid Blue Metallic | Metallic Acrylic (Lucite) | 2876-L | 1958 Cadillac | 1960-1973 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#234f3c"></span>Sherwood Green Metallic | Metallic Nitro (Duco) | 2526-H | 1957 Mercury | 1960-1965 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#afd8b9"></span>Foam Green | Solid Nitro (Duco) | 2253 | 1956 Buick | 1960-1969 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#a9d8c2"></span>Surf Green | Solid Nitro (Duco) | 2461 | 1957 Chevrolet | 1960-1965 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#6e3f58"></span>Burgundy Mist Metallic | Metallic Acrylic (Lucite) | 2936-L | 1959 Oldsmobile | 1960-1965 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#c7b37b"></span>Shoreline Gold Metallic | Metallic Acrylic (Lucite) | 2935-L | 1959-1960 Pontiac | 1960-1965 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#b4b6b5"></span>Inca Silver Metallic | Metallic Acrylic (Lucite) | 2436-L | 1957-1959 Chevrolet Corvette | 1960-1965 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#af1329"></span>Candy Apple Red Metallic | Translucent Nitro | In-house | Fender proprietary formulation (silver, then gold base) | 1963-1973 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#c7d8e2"></span>Blue Ice Metallic | Metallic Acrylic (Lucite) | 4692L | 1965-1966 Ford | 1965-1969 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#5a5f5d"></span>Charcoal Frost Metallic | Metallic Acrylic (Lucite) | 4618L | 1965-1966 Lincoln Continental | 1965-1969 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#2f7d78"></span>Ocean Turquoise Metallic | Metallic Acrylic (Lucite) | 4607L | 1965 Mercury | 1965-1971 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#1f5f58"></span>Teal Green Metallic | Metallic Acrylic (Lucite) | 4297L | 1965-1968 Lincoln | 1965-1969 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#c3a55e"></span>Firemist Gold Metallic | Metallic Acrylic (Lucite) | 4579L | 1964-1965 Cadillac Eldorado | 1965-1971 |
+| <span class="fcc-swatch" aria-hidden="true" style="background:#c7c9ca"></span>Firemist Silver Metallic | Metallic Acrylic (Lucite) | 4576L | 1964 Cadillac Eldorado | 1965-1971 |
 
 Now a warning about reading that Type column, because it kills a myth that gets repeated everywhere. People say Fender's solid colors were DuPont Duco nitrocellulose and the metallics were DuPont Lucite acrylic, as if it were a rule. It was not. The paint department picked formulations by what was available and what dried on schedule, and the chart proves it: Olympic White, a solid pastel, is an acrylic (Lucite 2818-L), while Sherwood Green Metallic, as metallic as they come, is a nitrocellulose Duco.
 
@@ -118,7 +159,7 @@ To authenticate the finish you need to know how it went on, layer by layer, beca
 2.  **Stain dip and sealer.** Fender dipped alder and ash bodies in a yellow aniline dye stain, then sealed them. From 1955 to about mid-1962 the sealer was Sherwin-Williams Homoclad, a clear penetrating oil-based sealer. From roughly mid-1962 on it was Fullerplast, a catalyzed reactive poly-vinyl sealer from Fuller-O'Brien. Get this straight, because it is misstated constantly: both sealers are chemically transparent and colorless. The yellow-amber surface you see in neck pockets and cavities is the dye stain under the clear sealer, not the sealer itself.
 3.  **Undercoat.** Most custom colors got an opaque undercoat, and the undercoat color changed over the years. This is such a useful tell that it gets its own section below.
 4.  **Color coats.** A DuPont color coat, Duco nitrocellulose or Lucite acrylic depending on the color and the batch (see the chart section for why the tidy solids-versus-metallics rule is wrong), and for Candy Apple Red a metallic base followed by translucent red.
-5.  **Clear coats.** Clear nitrocellulose over the color on most instruments, including over the decal on matching headstocks. The clear is what ambers with age and shifts the apparent color, and Fender sometimes skipped it entirely to speed production, especially in 1962 and 1963.
+5.  **Clear coats.** Clear nitrocellulose over the color on most instruments. The clear is what ambers with age and shifts the apparent color, and Fender sometimes skipped it entirely to speed production, especially in 1962 and 1963. On matching headstocks the logo decal went on last, over the clear.
 
 ![Top of a 1965 Fender Stratocaster body in Candy Apple Red with the pickguard removed and the loaded guard folded to the side, showing full red coverage in the pickguard footprint, dusty overspray in the pickup routes, and yellow showing through in the neck pocket.](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-candy-apple-red-under-pickguard.jpg)
 
@@ -150,9 +191,9 @@ Chips on the horn of the 1965 Candy Apple Red Strat break to bright silver, corr
 
 A pickguard screw hole on a 1966 Lake Placid Blue Jazzmaster. The chipped rim breaks to clean white, the standard undercoat beneath sixties Lake Placid Blue. Screw holes are the easiest honest window into the stack because the plastic hid them from touch-up brushes.
 
-![Close-up of the upper horn of a 1967 Fender Stratocaster in Lake Placid Blue with small chips that reveal an amber, sealer-colored base rather than a white undercoat.](../../assets/blog/fender-custom-color-authentication-guide/1967-fender-stratocaster-lake-placid-blue-chips-amber-undercoat.jpg)
+![Close-up of the back of a 1964 Fender Stratocaster in Fiesta Red near the tremolo spring cover, with a chip in the red paint breaking directly to bare wood with no undercoat or sealer layer visible.](../../assets/blog/fender-custom-color-authentication-guide/1964-fender-stratocaster-fiesta-red-back-chip-no-undercoat.jpg)
 
-And here is the counterexample that keeps everyone humble: a 1967 Lake Placid Blue Stratocaster whose chips break to amber sealer, not white. Late sixties production got inconsistent about undercoats, and this guitar is factory original. One layer never decides the case by itself; the whole guitar has to agree.
+And here is the counterexample that keeps everyone humble: chipping on the back of a 1964 Fiesta Red Stratocaster that breaks straight to bare wood. No white undercoat, no sealer line, just red on wood, and the guitar is factory original. It is the same instrument whose bare neck pocket appears in the pocket section below, built in the years when Fender was shipping guitars faster than its own process. One layer never decides the case by itself; the whole guitar has to agree.
 
 <h2 id="fcc-sunburst">Custom Color Over Sunburst</h2>
 
@@ -184,16 +225,20 @@ The same guitar's neck pocket at an angle. The floor is sealed yellow wood, the 
 
 Before a body ever saw paint, it saw the pin router. Fender shaped body blanks by clamping a metal template to the raw wood and running the pair against a manual pin router, and the template's alignment pins seated in small holes drilled into the blank. When shaping was done, those pin holes were plugged with wooden dowels, sanded flush, and finished right over. Every vintage Fender body carries them, and they are among the least-known and hardest-to-fake originality marks on the instrument.
 
-Where to look on a Stratocaster: one dowel sits near the neck plate, up toward the upper horn cutaway, and a second sits slightly off center along the bottom edge of the body near the strap button. Factory tremolo-equipped Stratocasters also show telegraphed dowels on the front face, while hardtails carry them on the back only. The neck got the same treatment: look for a template dowel on the headstock face directly beneath the footprint of the G and D tuner housings, hiding in plain sight under the hardware.
+Where to look on a Stratocaster: one dowel sits near the neck plate, up toward the upper horn cutaway, and a second sits slightly off center along the bottom edge of the body near the strap button.
 
 The reason dowels matter for authentication is how they age. A dowel is a separate plug of wood with its own grain, and it shrinks at a different rate than the body around it. Over decades, the circular boundary of the plug telegraphs through Fender's thin lacquer as a faint ring you can catch under raking light, sometimes with fine shrinkage lines breaking the topcoat right at the edge. Original finish, original dowel, visible ring. An aftermarket sanding job flattens the telegraphed outline, and a thick modern refinish, polyester especially, buries or distorts it entirely. When the dowels have vanished under glass-smooth paint on a "factory original custom color," the finish went on long after the factory.
+
+![Close-up of the back of a 1960 Fender Precision Bass refinished in natural, showing the small circular pin router template dowel plug in the ash grain below the neck plate.](../../assets/blog/fender-custom-color-authentication-guide/1960-fender-precision-bass-pin-router-dowel.jpg)
+
+The pin router dowel on a 1960 Precision Bass, dead easy to spot because this bass was refinished natural, which makes it a perfect teaching example. On a guitar wearing its original finish the plug hides under the color, and what you are hunting for is that same circle showing as a faint outline telegraphing through the finish under raking light.
 
 <h2 id="fcc-pocket">Reading the Neck Pocket</h2>
 
 Pull the neck on a sixties custom color Fender (carefully, and only if you are comfortable doing so) and the pocket reads like a build sheet. Here is what belongs there:
 
 -   **The stick shadow.** From late 1962 on, a bare or sealer-only zone where the paint stick blocked the color, with overspray feathering in from the sides. The shadow is often a crisp stripe.
--   **The yellow floor.** The bare zone is not raw white wood; it is wood that took the factory's yellow dye dip, sitting under a water-clear sealer film, Homoclad before mid-1962 and Fullerplast after. The gloss is the sealer; the yellow is the dye.
+-   **The yellow floor.** The bare zone is not raw white wood; it is wood that took the factory's yellow dye dip, sitting under a water-clear sealer film, Homoclad before mid-1962 and Fullerplast after. The gloss is the sealer; the yellow is the dye. It is not yellow on every single body, since the dip got skipped now and then, but it almost always is.
 -   **Factory markings.** Pencil or marker model codes ("JM" for Jazzmaster below), scribbled numbers, date stamps or pencil dates in various spots through the years. Refinishers sand these away, so their presence is worth a lot.
 -   **Shims.** Fender fitted rust-red fiberboard shims at the pocket end of many instruments, offsets especially, to set neck angle. An untouched shim sitting in undisturbed finish is another good sign nobody has been in there with sandpaper.
 
@@ -236,11 +281,11 @@ Fender's rule of thumb, and ours: on the offset models, a sixties custom color u
 
 From about 1963 onward, Jazzmasters, Jaguars, and Jazz Basses in custom colors normally received headstocks painted to match the body. The very earliest custom color offsets (and most custom Strats, Teles, and Precisions of any year) kept the plain maple-face headstock. Matching headstocks on Strats and Teles exist, mostly special orders and export instruments, but they are rare enough that each one has to prove itself.
 
-On a genuine matching headstock the factory lamination order never varied: maple, then sealer, then the opaque custom color, then the water-slide decal, then clear nitrocellulose over everything. That final clear coat is the verification layer. It sealed the decal in, and as it ambers over the decades it draws a soft yellow halo around the gold or silver borders of the logo that only time can produce. A decal sitting fully on top of the clear coat, with no lacquer sealing it, was applied after the finish was done. A modern vinyl decal with raised, hard-cut edges instead of the feathered, tapered edge of a water-slide is a replacement no matter where it sits in the stack. Either one means the headstock finish is not what it claims to be.
+On a genuine matching headstock the factory order never varied: maple, then sealer, then the opaque custom color, then the clear nitrocellulose, and then the water-slide decal applied on top of the clear. The decal going on last is the detail to burn into memory, because refinishers get it wrong in both directions. A period water-slide sits on the surface with a feathered, tapered edge you can barely catch with a fingernail, and it has aged right along with the lacquer under it. A decal buried underneath the clear coat means the headstock was resprayed and re-decaled in the wrong order. A modern vinyl decal with raised, hard-cut edges instead of the feathered edge of a water-slide is a replacement no matter where it sits. Either one means the headstock finish is not what it claims to be.
 
 ![Matching painted headstock of a 1966 Fender Jaguar in Lake Placid Blue, showing the gold transition logo reading Fender Jaguar with patent numbers, single string tree, and Kluson tuners, photographed in front of a wall of vintage amplifiers.](../../assets/blog/fender-custom-color-authentication-guide/1966-fender-jaguar-lake-placid-blue-matching-headstock.jpg)
 
-The matching headstock on a 1966 Lake Placid Blue Jaguar, with the gold transition logo sitting on top of the blue and under the clear. The decal order matters: color, then decal, then clear. A decal floating on top of the clear coat, or a headstock color that does not match the body's aging, means the headstock has been redone.
+The matching headstock on a 1966 Lake Placid Blue Jaguar, with the gold transition logo applied over the clear coat exactly as the factory did it: color, then clear, then decal on top. A decal buried under the lacquer, or a headstock color that does not match the body's aging, means the headstock has been redone.
 
 ![Matching painted headstock of a 1966 Fender Jazz Bass in Lake Placid Blue that has aged toward teal green, showing the gold Fender Jazz Bass transition logo, heavy lacquer checking, and edge wear through to the wood.](../../assets/blog/fender-custom-color-authentication-guide/1966-fender-jazz-bass-lake-placid-blue-matching-headstock.jpg)
 
@@ -262,14 +307,30 @@ A 1965 Olympic White Stratocaster wearing a seldom-seen tortoise guard. The body
 
 Fender topped most custom colors with clear nitrocellulose, and clear nitro does two things over sixty years: it turns amber and it shrinks. Both are your friends, because both are nearly impossible to fake coherently across a whole instrument. The color coat underneath behaves by its own chemistry: Lucite acrylic colors are stable and slightly elastic, so they resist checking and hold their hue, which means on an acrylic color nearly all the visible aging is happening in the clear coat above it.
 
-The amber shift changes the apparent color, and knowing the shifts keeps you from misidentifying a real color or getting talked into a fake one:
+The amber shift changes the apparent color, and knowing the shifts keeps you from misidentifying a real color or getting talked into a fake one. Here is how every chart color moves:
 
+-   **Blonde** ambers from near-white to the honeyed butterscotch everyone associates with fifties Telecasters, and it grows more transparent as it thins, so the ash grain reads stronger every decade.
+-   **Black** is the most stable color on the chart. It has no hue to shift, so its aging is all texture: checking, dulling gloss, and edge wear.
 -   **Olympic White** goes cream, ivory, or full butterscotch depending on light exposure, and every bit of that amber lives in the nitro clear, because the white beneath is a stable acrylic. Case queens stay whiter, players' guitars go golden, and the 1962 and 1963 bodies that skipped the clear coat never yellow at all. A stark white, check-free Olympic White from those years can be completely original.
+-   **Fiesta Red** holds its hue well, warming slightly toward orange under aged clear, and hard sun can soften it toward coral. Calling a warmed Fiesta a Dakota, or the reverse, is a weekly mistake in online listings.
+-   **Dakota Red** deepens with age, and under heavily ambered clear it can read maroon or almost brownish.
+-   **Shell Pink** is the most fugitive color Fender ever offered. The pink fades toward beige and off-white while the amber clear pushes what survives toward peach, and plenty of honest Shell Pink guitars get dismissed as bad refins because nobody believes the color.
+-   **Daphne Blue** takes on a greenish hue as the clear ambers, sliding toward a pale seafoam that gets confused with Sonic and Surf.
+-   **Sonic Blue** does the same one shade lighter, though case-kept examples stay a soft, whitish baby blue.
 -   **Lake Placid Blue** shifts green, sometimes far enough to pass for teal or to be mistaken for Sherwood Green or Ocean Turquoise. The bass below is a textbook case.
--   **Sonic Blue and Daphne Blue** pick up a green cast the same way.
+-   **Sherwood Green** darkens toward olive and can read nearly black in dim light, with the metallic flake the only giveaway.
+-   **Foam Green** warms toward sage and olive as the yellow builds up over it.
+-   **Surf Green** famously warms from mint toward a yellowed seafoam green. A Surf that looks "too green" is often just an honest one.
+-   **Burgundy Mist** is doubly unstable: the clear ambers over it while the purple itself fades in UV, so old examples drift toward a brownish, root-beer gray.
+-   **Shoreline Gold** deepens and reads brassier with age.
+-   **Inca Silver** under ambering clear reads champagne, and aged Inca gets mislabeled as Shoreline Gold or Firemist Gold constantly.
+-   **Candy Apple Red** deepens and darkens as the clear ambers over the translucent red, with early silver-base examples staying brighter than the warmer gold-base versions that followed.
+-   **Blue Ice** ambers from icy silver-blue toward a pale green-champagne that gets called everything except its real name.
 -   **Charcoal Frost** drifts toward gray-green and gets misnamed constantly.
--   **Candy Apple Red** deepens and darkens as the clear ambers over the translucent red.
--   **Blonde** ambers from near-white to the honeyed butterscotch everyone associates with fifties Telecasters.
+-   **Ocean Turquoise** deepens and leans greener with age, closing the gap on Teal Green.
+-   **Teal Green** darkens toward forest green, and separating an aged Teal from an aged Ocean Turquoise usually takes a protected-area comparison.
+-   **Firemist Gold** deepens toward bronze.
+-   **Firemist Silver** ambers toward pale champagne, and telling it from Inca Silver or a light Firemist Gold from across the room is a fool's errand. Check the protected areas.
 
 ![Back of a 1966 Fender Jazz Bass in Lake Placid Blue that has aged heavily toward green, with very large areas of finish worn through to bare wood, white undercoat visible at the borders of the wear, and the serial number neck plate reading L62465.](../../assets/blog/fender-custom-color-authentication-guide/1966-fender-jazz-bass-lake-placid-blue-back-wear-white-undercoat.jpg)
 
@@ -347,7 +408,7 @@ Here is the sequence we actually run when a custom color Fender hits the bench, 
 5.  **Cavity shadows and debris.** Confirm the color thins to dusty spray shadows and exposed yellow sealer inside the guard footprint and routes, and look for pin router tooling scars and torn wood fibers sealed under the original paint.
 6.  **Paint stack stratigraphy.** Inspect chips and wear spots under 10x magnification and confirm the layers transition in factory order: bare wood, then the dye dip, then clear sealer, then the correct undercoat for the color and year, then color, then clear nitro.
 7.  **Dowel hole verification.** Locate the pin router template dowels on the body, and the one on the headstock face under the G and D tuners, and check under raking light for the telegraphed circular outlines and the natural shrinkage lines breaking the topcoat at their edges.
-8.  **Headstock lamination check.** On matching headstocks, confirm the water-slide decal sits under the clear coat and carries the aged yellow halo around the logo's gold or silver borders.
+8.  **Headstock lamination check.** On matching headstocks, confirm the water-slide decal sits on top of the clear coat with the feathered, tapered edge of a period decal, not buried under the lacquer and not a hard-edged vinyl reproduction.
 9.  **Diagnostic synthesis.** Weigh the cumulative evidence. Individual factory anomalies happen on real guitars, but missing multiple core handling marks (sanded-smooth routes, a fully painted neck pocket, filled nail holes, grey auto primer in the stack) points one direction, and it is not toward Fullerton.
 
 ![Extreme close-up of a pickguard screw hole on a 1965 Fender Stratocaster in Candy Apple Red, with a chip at the hole revealing the silver undercoat ring beneath the red and a pickup route with yellow sealed wood visible at the upper right.](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-candy-apple-red-screw-hole-chip-with-undercoat.jpg)
@@ -386,7 +447,7 @@ From late 1962, Fender held bodies during spraying with a wooden stick bolted in
 
 **Do custom color Fenders have matching headstocks?**
 
-The offsets usually do: custom color Jazzmasters, Jaguars, and Jazz Basses from about 1963 on normally came with headstocks painted to match, decal under the clear coat. Stratocasters and Telecasters almost never did, so a matching headstock on those models needs strong proof, and a missing matching headstock on a mid-sixties custom offset needs an explanation.
+The offsets usually do: custom color Jazzmasters, Jaguars, and Jazz Basses from about 1963 on normally came with headstocks painted to match, with the decal applied over the clear coat. Stratocasters and Telecasters almost never did, so a matching headstock on those models needs strong proof, and a missing matching headstock on a mid-sixties custom offset needs an explanation.
 
 **Is a tortoiseshell pickguard wrong on a custom color Fender?**
 
@@ -450,7 +511,7 @@ No. A worn original custom color is worth far more than a freshly refinished one
       "name": "Do custom color Fenders have matching headstocks?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The offsets usually do: custom color Jazzmasters, Jaguars, and Jazz Basses from about 1963 on normally came with headstocks painted to match, decal under the clear coat. Stratocasters and Telecasters almost never did, so a matching headstock on those models needs strong proof, and a missing matching headstock on a mid-sixties custom offset needs an explanation."
+        "text": "The offsets usually do: custom color Jazzmasters, Jaguars, and Jazz Basses from about 1963 on normally came with headstocks painted to match, with the decal applied over the clear coat. Stratocasters and Telecasters almost never did, so a matching headstock on those models needs strong proof, and a missing matching headstock on a mid-sixties custom offset needs an explanation."
       }
     },
     {
@@ -479,4 +540,84 @@ No. A worn original custom color is worth far more than a freshly refinished one
     }
   ]
 }
+</script>
+
+<style>
+  /* Floating in-page nav for this post (fcc-nav), ported from the serial-guide jvg-nav pattern. */
+  .fcc-nav-btn { display: none; position: fixed; left: 24px; bottom: 1.5rem; top: auto; right: auto; z-index: 9999; background: #b93c15; color: #fff; border: none; border-radius: 50px; padding: 13px 22px; font-family: var(--font-display, Oswald), sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; cursor: pointer; box-shadow: 0 4px 20px rgba(185,60,21,.45); align-items: center; gap: 8px; transition: background .2s, box-shadow .2s, transform .2s; }
+  .fcc-nav-btn:hover { background: #9a3010; box-shadow: 0 6px 28px rgba(185,60,21,.55); transform: translateY(-2px); }
+  .fcc-nav-btn.open { background: #7b1d1d; }
+  .fcc-nav-icon { font-size: 15px; line-height: 1; transition: transform .3s; }
+  .fcc-nav-btn.open .fcc-nav-icon { transform: rotate(45deg); }
+  .fcc-nav-sidebar { position: fixed; top: 170px; right: 24px; z-index: 25; width: 260px; max-height: calc(100vh - 200px); overflow-y: auto; background: #fff; border: 1px solid #e0dacc; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.12); display: none; flex-direction: column; transition: opacity .25s; }
+  .fcc-nav-sidebar.fcc-nav-hidden { opacity: 0; pointer-events: none; }
+  .fcc-nav-panel { position: fixed; left: 24px; bottom: 5rem; top: auto; right: auto; z-index: 9998; width: 300px; max-height: 70vh; overflow-y: auto; background: #fff; border: 1px solid #e0dacc; border-radius: 14px; box-shadow: 0 12px 40px rgba(0,0,0,.18); flex-direction: column; display: none; }
+  .fcc-nav-panel.open { display: flex; }
+  .fcc-nav-header { background: #7b1d1d; padding: 16px 18px; border-radius: 10px 10px 0 0; flex-shrink: 0; }
+  .fcc-nav-header strong { display: block; color: #fff; font-family: var(--font-display, Oswald), sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }
+  .fcc-nav-label { background: #f4f0e8; padding: 7px 18px; font-family: var(--font-display, Oswald), sans-serif; font-size: 10px; font-weight: 700; color: #7a6b5d; text-transform: uppercase; letter-spacing: .1em; border-bottom: 1px solid #e0dacc; flex-shrink: 0; }
+  .blog-prose .fcc-nav-link, .blog-prose .fcc-nav-link:link, .blog-prose .fcc-nav-link:visited { display: flex; padding: 10px 18px; font-family: var(--font-display, Oswald), sans-serif; font-size: 12px; font-weight: 700; color: #4a3427 !important; text-decoration: none !important; text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid #f0ebe3; transition: background .15s, color .15s; align-items: center; gap: 8px; }
+  .blog-prose .fcc-nav-link:last-child { border-bottom: none; }
+  .blog-prose .fcc-nav-link:focus, .blog-prose .fcc-nav-link:hover { background: #f9f7f2; color: #b93c15 !important; text-decoration: none !important; }
+  .blog-prose .fcc-nav-link.top, .blog-prose .fcc-nav-link.top:link, .blog-prose .fcc-nav-link.top:visited { background: #fff8f0; color: #b93c15 !important; border-bottom: 2px solid #e0dacc; text-decoration: none !important; }
+  .blog-prose .fcc-nav-link.top:hover { background: #fef0e6; }
+  .fcc-nav-dot { width: 6px; height: 6px; border-radius: 50%; background: #b93c15; flex-shrink: 0; }
+  @media (min-width: 1100px) {
+    .fcc-nav-sidebar { display: flex; }
+    .fcc-nav-btn { display: none !important; }
+    .fcc-nav-panel { display: none !important; }
+    body.blog-post-page article.bpost { padding-right: 320px; }
+    body.blog-post-page aside[aria-label="Quick contact"] { display: none; }
+  }
+  @media (max-width: 1099.98px) {
+    .fcc-nav-sidebar { display: none !important; }
+    .fcc-nav-btn { display: flex; }
+  }
+  @media (max-width: 480px) {
+    .fcc-nav-panel { left: 16px; bottom: 5rem; width: calc(100vw - 32px); max-width: 320px; }
+  }
+
+  /* Photo captions: the paragraph right after an image reads as a caption. */
+  .blog-prose p:has(> img) + p { margin-top: -0.6em; font-size: 0.85rem; color: var(--color-brand-brown-muted, #7a6a52); font-style: italic; text-align: center; }
+
+  /* Color chart swatches (screen approximations). */
+  .fcc-swatch { display: inline-block; width: 1em; height: 1em; border-radius: 3px; border: 1px solid rgba(62,42,20,.35); vertical-align: -0.15em; margin-right: 0.5em; }
+
+  /* Anchored headings clear the sticky header. */
+  .blog-prose h2[id] { scroll-margin-top: 96px; }
+</style>
+
+<script>
+  function toggleFccNav() {
+    var btn = document.getElementById('fccNavBtn');
+    var panel = document.getElementById('fccNavPanel');
+    if (!btn || !panel) return;
+    if (panel.classList.contains('open')) { closeFccNav(); }
+    else { panel.classList.add('open'); btn.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
+  }
+  function closeFccNav() {
+    var btn = document.getElementById('fccNavBtn');
+    var panel = document.getElementById('fccNavPanel');
+    if (!btn || !panel) return;
+    panel.classList.remove('open'); btn.classList.remove('open'); btn.setAttribute('aria-expanded', 'false');
+  }
+  document.addEventListener('click', function (e) {
+    var btn = document.getElementById('fccNavBtn');
+    var panel = document.getElementById('fccNavPanel');
+    if (!btn || !panel) return;
+    if (!btn.contains(e.target) && !panel.contains(e.target)) closeFccNav();
+  });
+  (function () {
+    function initFccFade() {
+      var contact = document.getElementById('contact');
+      var sidebar = document.getElementById('fccNavSidebar');
+      if (contact && sidebar && 'IntersectionObserver' in window) {
+        new IntersectionObserver(function (entries) {
+          sidebar.classList.toggle('fcc-nav-hidden', entries[0].isIntersecting);
+        }).observe(contact);
+      }
+    }
+    if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initFccFade); }
+    else { initFccFade(); }
+  })();
 </script>
