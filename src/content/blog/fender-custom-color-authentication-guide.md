@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-candy-apple-red-front-of-body.jpg"
 heroImageAlt: "Front of a 1965 Fender Stratocaster in Candy Apple Red Metallic with a white three-ply pickguard, standing in front of a blackface Fender amplifier and other vintage Fender guitars, including a Sonic Blue Stratocaster."
-metaDescription: "Authenticate a Fender custom color finish: undercoats, paint stick shadows, nail holes, matching headstocks, blacklight, and the refin tells we check first."
+metaDescription: "Authenticate a vintage Fender custom color finish: the full color chart, undercoats, paint stick shadows, nail holes, and the refinish tells we check first."
 ogImage: "/images/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-candy-apple-red-front-of-body.jpg"
 ---
 <nav class="fcc-nav-sidebar" id="fccNavSidebar" aria-label="Article section navigation">
