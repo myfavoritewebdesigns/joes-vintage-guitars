@@ -16,7 +16,7 @@ ogImage: "/images/blog/fender-custom-color-authentication-guide/1965-fender-stra
 3.  [A Short History of Fender Custom Colors](#fcc-history)
 4.  [The Custom Color Charts, Year by Year](#fcc-chart)
 5.  [How Fender Built a Custom Color Finish](#fcc-stack)
-6.  [Undercoats Through the Years: Desert Sand, White, Gold, and Silver](#fcc-undercoats)
+6.  [Undercoats Through the Years: Desert Sand, White, Silver, and Gold](#fcc-undercoats)
 7.  [Custom Color Over Sunburst](#fcc-sunburst)
 8.  [Nail Holes and the Paint Stick](#fcc-nails)
 9.  [Pin Router Dowel Holes: Tooling Fingerprints](#fcc-dowels)
@@ -94,7 +94,7 @@ Here is the working reference we use: every chart color with its DuPont paint co
 | Burgundy Mist Metallic | Metallic Acrylic (Lucite) | 2936-L | 1959 Oldsmobile | 1960-1965 |
 | Shoreline Gold Metallic | Metallic Acrylic (Lucite) | 2935-L | 1959-1960 Pontiac | 1960-1965 |
 | Inca Silver Metallic | Metallic Acrylic (Lucite) | 2436-L | 1957-1959 Chevrolet Corvette | 1960-1965 |
-| Candy Apple Red Metallic | Translucent Nitro | In-house | Fender proprietary formulation (gold/silver base) | 1963-1973 |
+| Candy Apple Red Metallic | Translucent Nitro | In-house | Fender proprietary formulation (silver, then gold base) | 1963-1973 |
 | Blue Ice Metallic | Metallic Acrylic (Lucite) | 4692L | 1965-1966 Ford | 1965-1969 |
 | Charcoal Frost Metallic | Metallic Acrylic (Lucite) | 4618L | 1965-1966 Lincoln Continental | 1965-1969 |
 | Ocean Turquoise Metallic | Metallic Acrylic (Lucite) | 4607L | 1965 Mercury | 1965-1971 |
@@ -130,7 +130,7 @@ The Charcoal Frost Jazzmaster with its neck off. The pale stripe up the middle o
 
 Two big-picture points about this stack. First, Fender sprayed bodies fast and hung them to dry; runs, dust, light orange peel, and lazy coverage in hidden areas are all normal and even reassuring. Second, the stack is a sequence, and the sequence is the fingerprint. Silver showing under red at a chip is a story that makes sense on a 1965 Candy Apple Red guitar. Red sitting directly on bare wood is not.
 
-<h2 id="fcc-undercoats">Undercoats Through the Years: Desert Sand, White, Gold, and Silver</h2>
+<h2 id="fcc-undercoats">Undercoats Through the Years: Desert Sand, White, Silver, and Gold</h2>
 
 Ask any longtime dealer where they look first on a custom color Fender and most will say the same thing: find a chip and read the layers. The undercoat under the color is the hardest thing for a refinisher to fake correctly because it changed over the years, it varied by color, and most refinishers do not even know it should be there.
 
@@ -138,13 +138,13 @@ Here is the timeline we work from:
 
 -   **Late 1950s:** the paint department frequently primed custom bodies with whatever suitable opaque paint was on hand, and on many late-fifties Fiesta Red and other custom bodies that meant Desert Sand, the beige stock color of the Musicmaster and Duo-Sonic line. A 1958 to 1960 Fiesta Red guitar chipping to a beige undercoat is textbook.
 -   **Early 1960s onward:** white becomes the standard undercoat under most custom colors. Lake Placid Blue, Dakota Red, Fiesta Red, and most of the chart colors of the sixties typically sit on an opaque white base. On light colors like Olympic White, the color coat and undercoat are both white, which produces a wear pattern we cover in the aging section.
--   **Candy Apple Red, 1963 to about 1964:** Fender's recipe called for a metallic base under the translucent red, and the earliest CAR guitars used a **gold** metallic base. Chips on a 1963 or 1964 CAR instrument show warm gold under the red.
--   **Candy Apple Red, about 1965 onward:** the base switches to **silver**, and the red reads slightly cooler and brighter. Chips on a 1965 and later CAR instrument show silver. A "1963" CAR guitar chipping to silver, or a "1966" chipping to gold, has a date problem somewhere.
+-   **Candy Apple Red, 1963 to 1965:** Fender's recipe called for a metallic base under the translucent red, and the original process used a **silver** metallic base, typically Inca Silver, the Chevrolet color already sitting on Fender's shelf. Transparent red over silver is what gives early CAR its vibrant, light-reflecting quality. Chips on an early example show bright silver under the red.
+-   **Candy Apple Red, after the 1965 CBS transition through 1973:** the base shifts to **gold** metallic, and the red reads slightly darker, warmer, sometimes almost brownish next to an early silver-base example. Chips on later CAR instruments show gold. A "1963" CAR guitar chipping to gold, or a late-sixties CAR chipping to silver, has a date problem somewhere.
 -   **All eras:** exceptions exist, and they run in both directions. Some bodies got color straight over the sealer with no undercoat at all, especially in the rushed CBS ramp-up of 1964 to 1966. Missing an undercoat is a yellow flag, not a death sentence, and we show a real example below.
 
 ![Close-up of chips on the back of the upper horn of a 1965 Fender Stratocaster in Candy Apple Red, with small chips in the red revealing a bright silver metallic undercoat beneath.](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-candy-apple-red-chip-silver-undercoat.jpg)
 
-Chips on the horn of the 1965 Candy Apple Red Strat break to bright silver, exactly right for a CAR instrument from 1965 on. On a 1963 or 1964 example we would expect gold here instead. One small chip just told us the paint recipe, and the recipe has a date.
+Chips on the horn of the 1965 Candy Apple Red Strat break to bright silver, correct for the original silver-base recipe that ran from 1963 into 1965. On a later CBS-era example we would expect gold here instead, and the red itself would carry a warmer, browner cast. One small chip just told us the paint recipe, and the recipe has a date.
 
 ![Extreme close-up of a pickguard screw hole on a 1966 Fender Jazzmaster in Lake Placid Blue next to a bridge post thimble, with the chipped edge of the screw hole revealing a bright white undercoat beneath the blue.](../../assets/blog/fender-custom-color-authentication-guide/1966-fender-jazzmaster-lake-placid-blue-pickguard-screw-hole-chip-white-undercoat.jpg)
 
