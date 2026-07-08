@@ -19,17 +19,18 @@ ogImage: "/images/blog/fender-custom-color-authentication-guide/1965-fender-stra
 6.  [Undercoats Through the Years: Desert Sand, White, Gold, and Silver](#fcc-undercoats)
 7.  [Custom Color Over Sunburst](#fcc-sunburst)
 8.  [Nail Holes and the Paint Stick](#fcc-nails)
-9.  [Reading the Neck Pocket](#fcc-pocket)
-10.  [What Belongs Under the Pickguard](#fcc-guard)
-11.  [Matching Headstocks](#fcc-headstock)
-12.  [Pickguards and Plastic on Custom Colors](#fcc-plastics)
-13.  [How Custom Colors Age](#fcc-aging)
-14.  [The Blacklight Test](#fcc-blacklight)
-15.  [Telltale Signs of a Refinish](#fcc-refin)
-16.  [Factory Refinishes and the Soldering Iron Mark](#fcc-factory-refin)
-17.  [The Full Authentication Checklist](#fcc-checklist)
-18.  [What a Real Custom Color Is Worth](#fcc-value)
-19.  [Frequently Asked Questions](#fcc-faq)
+9.  [Pin Router Dowel Holes: Tooling Fingerprints](#fcc-dowels)
+10.  [Reading the Neck Pocket](#fcc-pocket)
+11.  [What Belongs Under the Pickguard](#fcc-guard)
+12.  [Matching Headstocks and Decal Sequencing](#fcc-headstock)
+13.  [Pickguards and Plastic on Custom Colors](#fcc-plastics)
+14.  [How Custom Colors Age](#fcc-aging)
+15.  [The Blacklight Test](#fcc-blacklight)
+16.  [Telltale Signs of a Refinish](#fcc-refin)
+17.  [Factory Refinishes and the Repair Department's Marks](#fcc-factory-refin)
+18.  [The Nine-Step Bench Protocol](#fcc-checklist)
+19.  [What a Real Custom Color Is Worth](#fcc-value)
+20.  [Frequently Asked Questions](#fcc-faq)
 
 <h2 id="fcc-why">Why Custom Color Authentication Matters</h2>
 
@@ -51,7 +52,7 @@ That definition has two consequences people miss. First, blonde is a custom colo
 
 A 1964 Stratocaster in Fiesta Red, the color that started the custom color craze. Note the correct greenish "mint" nitrate pickguard of the pre-CBS years. Everything on a custom color guitar has to agree: the color, the plastic, the hardware, and the wear all belong to the same era.
 
-The colors themselves were not exotic. Almost every named Fender custom color was pulled straight off an automotive paint chart, mostly DuPont colors mixed for Cadillac, Ford, Chevrolet, Oldsmobile, and Pontiac. Lake Placid Blue was a Cadillac color. Fiesta Red came from the Ford Thunderbird line. Surf Green was a Chevrolet color. Leo Fender ran a lean operation, and buying paint that the local automotive supplier already stocked was exactly his style.
+The colors themselves were not exotic. Almost every named Fender custom color was pulled straight off an automotive paint chart, DuPont colors mixed for Cadillac, Ford, Chevrolet, Buick, Mercury, Lincoln, Oldsmobile, Pontiac, and even DeSoto. Lake Placid Blue was a 1958 Cadillac color. Fiesta Red came off the 1956 Ford Thunderbird. Surf Green was a 1957 Chevrolet color. Leo Fender ran a lean operation, and buying paint that the local automotive supplier already stocked was exactly his style. The full sourcing table below lists the DuPont code and donor car for every chart color.
 
 <h2 id="fcc-history">A Short History of Fender Custom Colors</h2>
 
@@ -62,10 +63,9 @@ The late 1950s turned an option into a phenomenon. The story goes that George Fu
 The first official custom color chart arrived in 1960: a printed card of fourteen named colors plus blonde, each keyed to a DuPont paint code. From then on the offering was standardized, and the chart itself was revised in documented steps that are extremely useful for authentication:
 
 -   **1960:** the first chart. Fourteen colors plus Blonde, listed in the table below.
--   **1961 to 1962:** Shell Pink quietly disappears, making original Shell Pink instruments extraordinarily rare.
--   **1963:** Candy Apple Red Metallic joins the chart, the first color Fender created rather than borrowed, built from a metallic base coat under translucent red.
--   **1965:** the first CBS-era revision. Most of the softer early-sixties colors disappear around this time (Shoreline Gold, Burgundy Mist, Daphne Blue, Sherwood Green, Surf Green, Foam Green, and Inca Silver) and six new metallics arrive: Blue Ice, Charcoal Frost, Firemist Gold, Firemist Silver, Ocean Turquoise, and Teal Green.
--   **1969 to the early 1970s:** the chart shrinks to a handful of survivors, and by the mid seventies the classic custom color program is effectively over, replaced by thick polyester-era standard finishes.
+-   **1963:** Candy Apple Red Metallic joins the chart, the first color Fender mixed in-house rather than borrowed from Detroit, built from a metallic base coat under translucent red. Slow-selling Shell Pink drops off the menu around the same time, which is why original Shell Pink instruments are extraordinarily rare.
+-   **1965:** the first CBS-era revision. Six colors are dropped (Shoreline Gold, Burgundy Mist, Daphne Blue, Sherwood Green, Surf Green, and Inca Silver) and six new metallics take their place: Blue Ice, Charcoal Frost, Firemist Gold, Firemist Silver, Ocean Turquoise, and Teal Green.
+-   **1969 into the 1970s:** the chart shrinks to a handful of survivors. Lake Placid Blue and Candy Apple Red hold on until about 1973, the Firemists and Ocean Turquoise to about 1971, and only Olympic White and Black carry the custom color banner deep into the following decade as the thick polyester era takes over.
 
 ![Front of a 1966 Fender Jazzmaster in Lake Placid Blue with a white pickguard, photographed in a vintage guitar shop with a blue sparkle guitar visible behind it.](../../assets/blog/fender-custom-color-authentication-guide/1966-fender-jazzmaster-lake-placid-blue-front.jpg)
 
@@ -75,34 +75,36 @@ Why does the chart history matter? Because a color has to exist in the year the 
 
 <h2 id="fcc-chart">The Custom Color Charts, Year by Year</h2>
 
-Here is the working reference we use. Years are approximate to the chart revisions, since Fender used up old paint stock and honored odd requests, but they are accurate to within a year in almost every case.
+Here is the working reference we use: every chart color with its DuPont paint code, its chemical binder type, the automobile it was mixed for, and its active years. Chart years mark when a color was officially offered; Fender used up old stock and honored odd requests, so real guitars straggle a year or so past the edges.
 
-| Color | Type | On the charts | Notes |
-| --- | --- | --- | --- |
-| Blonde | Translucent solid | 1950s through the 1970s | Standard on Telecaster and Esquire, custom on everything else |
-| Black | Solid | 1960 into the 1970s | Rarer in the early sixties than most people expect |
-| Olympic White | Solid | 1960 into the 1970s | Ages to cream or butterscotch as the clear coat ambers |
-| Fiesta Red | Solid | About 1958 to 1969 | Pre-dates the first chart; the classic export color |
-| Dakota Red | Solid | 1960 to 1969 | Deeper and darker than Fiesta |
-| Shell Pink | Solid | 1960 to about 1961 | Dropped almost immediately; genuinely rare |
-| Daphne Blue | Solid | 1960 to 1965 | Dropped in the 1965 revision |
-| Sonic Blue | Solid | 1960 into the early 1970s | Often confused with Daphne; slightly whiter and colder |
-| Lake Placid Blue Metallic | Metallic | 1960 to the early 1970s | Borrowed from Cadillac; shifts green as the clear ambers |
-| Sherwood Green Metallic | Metallic | 1960 to 1965 | Deep forest metallic |
-| Foam Green | Solid | 1960 to 1965 | Softer and greener than Surf |
-| Surf Green | Solid | 1960 to 1965 | Chevrolet color; pale mint |
-| Burgundy Mist Metallic | Metallic | 1960 to 1965 | Oldsmobile color; a top-tier rarity on any model |
-| Shoreline Gold Metallic | Metallic | 1960 to 1965 | Pontiac color; fine metallic gold |
-| Inca Silver Metallic | Metallic | 1960 to 1965 | Fine silver metallic |
-| Candy Apple Red Metallic | Metallic over base | 1963 to the early 1970s | Fender's own recipe; gold base early, silver base later |
-| Blue Ice Metallic | Metallic | 1965 to about 1969 | 1965 addition |
-| Charcoal Frost Metallic | Metallic | 1965 to about 1969 | 1965 addition; often misread once the clear ambers |
-| Ocean Turquoise Metallic | Metallic | 1965 into the late 1960s | 1965 addition |
-| Teal Green Metallic | Metallic | 1965 to about 1969 | 1965 addition |
-| Firemist Gold Metallic | Metallic | 1965 to the early 1970s | 1965 addition; Cadillac Firemist paint |
-| Firemist Silver Metallic | Metallic | 1965 to the early 1970s | 1965 addition |
+| Color | Type | DuPont Code | Car Year, Make & Model Source | Active Years |
+| --- | --- | --- | --- | --- |
+| Blonde | Translucent Nitro | In-house | Fender proprietary formulation | 1950s-1970s |
+| Black | Solid Nitro (Duco) | 1711 | Universal Automotive Black (All Makes) | 1960-1984 |
+| Olympic White | Solid Acrylic (Lucite) | 2818-L | 1958-1962 Cadillac | 1960-1980 |
+| Fiesta Red | Solid Nitro (Duco) | 2219-H | 1956 Ford Thunderbird | 1960-1969 |
+| Dakota Red | Solid Nitro (Duco) | 2590-H | 1958 Cadillac | 1960-1969 |
+| Shell Pink | Solid Nitro (Duco) | 2371 | 1956 DeSoto | 1960-1963 |
+| Daphne Blue | Solid Nitro (Duco) | 2804 | 1958 Cadillac | 1960-1965 |
+| Sonic Blue | Solid Nitro (Duco) | 2295 | 1956 Cadillac | 1960-1972 |
+| Lake Placid Blue Metallic | Metallic Acrylic (Lucite) | 2876-L | 1958 Cadillac | 1960-1973 |
+| Sherwood Green Metallic | Metallic Nitro (Duco) | 2526-H | 1957 Mercury | 1960-1965 |
+| Foam Green | Solid Nitro (Duco) | 2253 | 1956 Buick | 1960-1969 |
+| Surf Green | Solid Nitro (Duco) | 2461 | 1957 Chevrolet | 1960-1965 |
+| Burgundy Mist Metallic | Metallic Acrylic (Lucite) | 2936-L | 1959 Oldsmobile | 1960-1965 |
+| Shoreline Gold Metallic | Metallic Acrylic (Lucite) | 2935-L | 1959-1960 Pontiac | 1960-1965 |
+| Inca Silver Metallic | Metallic Acrylic (Lucite) | 2436-L | 1957-1959 Chevrolet Corvette | 1960-1965 |
+| Candy Apple Red Metallic | Translucent Nitro | In-house | Fender proprietary formulation (gold/silver base) | 1963-1973 |
+| Blue Ice Metallic | Metallic Acrylic (Lucite) | 4692L | 1965-1966 Ford | 1965-1969 |
+| Charcoal Frost Metallic | Metallic Acrylic (Lucite) | 4618L | 1965-1966 Lincoln Continental | 1965-1969 |
+| Ocean Turquoise Metallic | Metallic Acrylic (Lucite) | 4607L | 1965 Mercury | 1965-1971 |
+| Teal Green Metallic | Metallic Acrylic (Lucite) | 4297L | 1965-1968 Lincoln | 1965-1969 |
+| Firemist Gold Metallic | Metallic Acrylic (Lucite) | 4579L | 1964-1965 Cadillac Eldorado | 1965-1971 |
+| Firemist Silver Metallic | Metallic Acrylic (Lucite) | 4576L | 1964 Cadillac Eldorado | 1965-1971 |
 
-As a general rule the solid colors were DuPont Duco nitrocellulose lacquers and the metallics were DuPont Lucite acrylic lacquers, with Fender spraying its own clear nitrocellulose topcoats over either kind. There are exceptions, and paint batches varied, but that split explains a lot of how these finishes wear and check, which we will get to below.
+Now a warning about reading that Type column, because it kills a myth that gets repeated everywhere. People say Fender's solid colors were DuPont Duco nitrocellulose and the metallics were DuPont Lucite acrylic, as if it were a rule. It was not. The paint department picked formulations by what was available and what dried on schedule, and the chart proves it: Olympic White, a solid pastel, is an acrylic (Lucite 2818-L), while Sherwood Green Metallic, as metallic as they come, is a nitrocellulose Duco.
+
+This chemistry matters on the bench. Acrylic lacquer has a stable, slightly elastic polymer structure, so it resists checking and it does not yellow under light on its own. On an acrylic color, the aging you see is happening almost entirely in the clear nitrocellulose topcoat Fender sprayed over it. And when the factory skipped that clear coat to move bodies out the door faster, which was common in 1962 and 1963, the acrylic color underneath had nothing to amber and nothing to crack. A stark white, check-free 1962 Olympic White body is not an automatic aftermarket refinish. Read the layers before you read the verdict.
 
 ![Front of a 1965 Fender Jazzmaster in Charcoal Frost Metallic in its original black hardshell case with orange lining, showing a white pickguard and rosewood fingerboard.](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-jazzmaster-charcoal-frost-front.jpg)
 
@@ -113,10 +115,10 @@ A 1965 Jazzmaster in Charcoal Frost Metallic, one of the six metallics added in 
 To authenticate the finish you need to know how it went on, layer by layer, because every layer is checkable at chips, screw holes, and cavity edges. On a 1960s custom color body the full stack, from the wood up, looks like this:
 
 1.  **The body blank.** Alder for most custom colors, ash for blonde and some early bodies. Ash got a grain filler; alder did not need one.
-2.  **Stain and sealer.** Sunburst-bound bodies were stained yellow first. From about 1963, bodies were sealed with Fullerplast, a catalyzed clear sealer that reads as a glassy, pale yellow film wherever you see raw-looking wood in pockets and routes. Before Fullerplast, Fender used simpler lacquer sealer coats.
+2.  **Stain dip and sealer.** Fender dipped alder and ash bodies in a yellow aniline dye stain, then sealed them. From 1955 to about mid-1962 the sealer was Sherwin-Williams Homoclad, a clear penetrating oil-based sealer. From roughly mid-1962 on it was Fullerplast, a catalyzed reactive poly-vinyl sealer from Fuller-O'Brien. Get this straight, because it is misstated constantly: both sealers are chemically transparent and colorless. The yellow-amber surface you see in neck pockets and cavities is the dye stain under the clear sealer, not the sealer itself.
 3.  **Undercoat.** Most custom colors got an opaque undercoat, and the undercoat color changed over the years. This is such a useful tell that it gets its own section below.
-4.  **Color coats.** Duco nitro for the solids, Lucite acrylic for the metallics, and for Candy Apple Red a metallic base followed by translucent red.
-5.  **Clear coats.** Clear nitrocellulose over everything, including over the metallics and over the headstock decal on matching headstocks. The clear is what ambers with age and shifts the apparent color.
+4.  **Color coats.** A DuPont color coat, Duco nitrocellulose or Lucite acrylic depending on the color and the batch (see the chart section for why the tidy solids-versus-metallics rule is wrong), and for Candy Apple Red a metallic base followed by translucent red.
+5.  **Clear coats.** Clear nitrocellulose over the color on most instruments, including over the decal on matching headstocks. The clear is what ambers with age and shifts the apparent color, and Fender sometimes skipped it entirely to speed production, especially in 1962 and 1963.
 
 ![Top of a 1965 Fender Stratocaster body in Candy Apple Red with the pickguard removed and the loaded guard folded to the side, showing full red coverage in the pickguard footprint, dusty overspray in the pickup routes, and yellow showing through in the neck pocket.](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-candy-apple-red-under-pickguard.jpg)
 
@@ -124,7 +126,7 @@ The same 1965 Candy Apple Red Strat from the top of this page with its guard off
 
 ![Close-up of the neck pocket of a 1965 Fender Jazzmaster in Charcoal Frost with the neck removed, showing a masked stripe of bare yellow sealed wood down the pocket with factory pencil markings, dark color coats surrounding it, and a Vintage Guitar Price Guide visible in the background.](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-jazzmaster-charcoal-frost-neck-pocket-paint-stick-shadow.jpg)
 
-The Charcoal Frost Jazzmaster with its neck off. The pale stripe up the middle of the pocket is the shadow of the factory paint stick, and the glassy yellow surface inside it is Fullerplast sealer over raw alder, complete with factory pencil scribbles. Color creeps in from the edges only. This is the anatomy lesson refinishers fail.
+The Charcoal Frost Jazzmaster with its neck off. The pale stripe up the middle of the pocket is the shadow of the factory paint stick, and the glassy yellow surface inside it is the aniline dye stain under clear Fullerplast sealer, complete with factory pencil scribbles. Color creeps in from the edges only. This is the anatomy lesson refinishers fail.
 
 Two big-picture points about this stack. First, Fender sprayed bodies fast and hung them to dry; runs, dust, light orange peel, and lazy coverage in hidden areas are all normal and even reassuring. Second, the stack is a sequence, and the sequence is the fingerprint. Silver showing under red at a chip is a story that makes sense on a 1965 Candy Apple Red guitar. Red sitting directly on bare wood is not.
 
@@ -158,13 +160,17 @@ Here is a fact that surprises owners constantly: some factory custom color Fende
 
 So sunburst under a custom color is not automatically a refinish, and a refinisher who strips a body "back to original sunburst" may in fact be destroying a factory custom color story. Direction matters, though. Factory work is custom color over sunburst, sprayed before the guitar was assembled, with the same aged clear over everything. Custom color over a WORN sunburst, with color bridging weather checks or filling belt-buckle scars, is paint applied decades after the fact, and the blacklight section below will catch it.
 
+There is a dating wrinkle buried inside this practice, and it is worth knowing cold. In mid-1964 Fender changed its sunburst recipe to the opaque, sharply defined "target" burst, with hard-edged color bands designed to hide grain flaws in CBS-era wood, and that burst was built on a semi-transparent white primer coat sprayed over the yellow stain. So when you chip-check a mid-sixties custom color that went over stock sunburst, the burst peeking out at route edges has to be the right burst: opaque red and dark bands over a whitish primer, the target profile. A soft, fully transparent fifties-style burst hiding under a "1966" Candy Apple Red is a timeline that does not add up, and timelines that do not add up are how resprays get caught.
+
 <h2 id="fcc-nails">Nail Holes and the Paint Stick</h2>
 
-Fender had to hold a wet body somehow, and how they held it changed in one well-documented shift that splits the vintage era in two.
+Fender had to hold a wet body somehow, and how they held it changed in well-documented steps that split the vintage era into three readable periods.
 
-**The nail era, 1950 to about 1963.** Freshly sprayed bodies were rested on small finishing nails driven into the face and back so they could dry without touching anything. When the guitar was assembled the nails came out, leaving three or four small bare holes in places the hardware would cover: under the pickguard (commonly near the neck pocket), under the bridge or trem plate, and around the control area. On an original pre-1963 finish, you must find open, unfilled nail holes with finish flowing up to their rims. No nail holes on a fifties or early sixties body means the surface has been sanded and resprayed. It is one of the fastest refin checks there is.
+**The nail era, 1950 to late 1962.** Freshly sprayed bodies were rested on small finishing nails driven into the face and back so they could dry flat on racks without touching anything. When the guitar was assembled the nails came out, leaving three or four small bare holes in places the hardware would cover: under the pickguard (commonly near the neck pocket), under the bridge or trem plate, and around the control area. On an original finish from this era, you must find open, unfilled nail holes with finish flowing up to their rims. No nail holes on a fifties or early-sixties body means the surface has been sanded and resprayed. It is one of the fastest refin checks there is.
 
-**The paint stick era, about 1963 onward.** The factory switched to bolting a wooden stick into the neck pocket screw holes and holding the body by the stick while spraying. The stick masked the pocket, which is why mid-sixties and later Fenders show the "pocket shadow" we cover in the next section. As with everything Fender, the transition was not a clean line. Bodies with nail holes show up into 1964 and 1965, and our Candy Apple Red Strat below is one of them. A nail hole on a 1965 body is normal. A 1958 body with no nail holes is not.
+**The transition, late 1962 to late 1964.** Around December 1962 the factory started bolting a wooden stick into the neck pocket screw holes and holding the body by the stick while spraying, which is what created the pocket shadow covered in the next section. Here is the detail almost everyone gets wrong: the stick did not retire the nails. The spray room did not yet have vertical hanging trees to dry stick-mounted bodies, so freshly sprayed bodies still went flat onto nail-supported drying racks. That overlap is a gift to authenticators. A factory-original 1963 or early-to-mid 1964 body should show BOTH marks: a paint stick shadow in the neck pocket and open, paint-free nail holes on the body face. A 1963 body with a beautiful stick shadow and no nail holes anywhere is a major refinish warning, no matter how good the pocket looks.
+
+**The hanging era, late 1964 onward.** Once the drying trees arrived, the nails faded out and bodies dried hanging by their sticks. Stragglers with nail holes show up well into 1965, and our Candy Apple Red Strat below is one of them. A nail hole on a 1965 body is normal. A 1958 body with no nail holes is not.
 
 ![Extreme close-up under the pickguard of a 1965 Fender Stratocaster in Candy Apple Red showing a small factory nail hole with a chip at its rim revealing silver undercoat, a faint scribed arc in the finish, and the edge of a pickup route with yellow and dark sunburst-era color visible inside.](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-candy-apple-red-nail-hole.jpg)
 
@@ -174,12 +180,20 @@ A factory nail hole hiding under the guard of the 1965 Candy Apple Red Strat, ch
 
 The same guitar's neck pocket at an angle. The floor is sealed yellow wood, the red arrives only as feathered overspray from the edges, and the corners hold their original grime. A refinished pocket looks painted; a factory pocket looks masked, because it was.
 
+<h2 id="fcc-dowels">Pin Router Dowel Holes: Tooling Fingerprints</h2>
+
+Before a body ever saw paint, it saw the pin router. Fender shaped body blanks by clamping a metal template to the raw wood and running the pair against a manual pin router, and the template's alignment pins seated in small holes drilled into the blank. When shaping was done, those pin holes were plugged with wooden dowels, sanded flush, and finished right over. Every vintage Fender body carries them, and they are among the least-known and hardest-to-fake originality marks on the instrument.
+
+Where to look on a Stratocaster: one dowel sits near the neck plate, up toward the upper horn cutaway, and a second sits slightly off center along the bottom edge of the body near the strap button. Factory tremolo-equipped Stratocasters also show telegraphed dowels on the front face, while hardtails carry them on the back only. The neck got the same treatment: look for a template dowel on the headstock face directly beneath the footprint of the G and D tuner housings, hiding in plain sight under the hardware.
+
+The reason dowels matter for authentication is how they age. A dowel is a separate plug of wood with its own grain, and it shrinks at a different rate than the body around it. Over decades, the circular boundary of the plug telegraphs through Fender's thin lacquer as a faint ring you can catch under raking light, sometimes with fine shrinkage lines breaking the topcoat right at the edge. Original finish, original dowel, visible ring. An aftermarket sanding job flattens the telegraphed outline, and a thick modern refinish, polyester especially, buries or distorts it entirely. When the dowels have vanished under glass-smooth paint on a "factory original custom color," the finish went on long after the factory.
+
 <h2 id="fcc-pocket">Reading the Neck Pocket</h2>
 
 Pull the neck on a sixties custom color Fender (carefully, and only if you are comfortable doing so) and the pocket reads like a build sheet. Here is what belongs there:
 
--   **The stick shadow.** From about 1963 on, a bare or sealer-only zone where the paint stick blocked the color, with overspray feathering in from the sides. The shadow is often a crisp stripe.
--   **Fullerplast yellow.** The bare zone is not raw white wood; it is wood under a glassy, pale yellow sealer film.
+-   **The stick shadow.** From late 1962 on, a bare or sealer-only zone where the paint stick blocked the color, with overspray feathering in from the sides. The shadow is often a crisp stripe.
+-   **The yellow floor.** The bare zone is not raw white wood; it is wood that took the factory's yellow dye dip, sitting under a water-clear sealer film, Homoclad before mid-1962 and Fullerplast after. The gloss is the sealer; the yellow is the dye.
 -   **Factory markings.** Pencil or marker model codes ("JM" for Jazzmaster below), scribbled numbers, date stamps or pencil dates in various spots through the years. Refinishers sand these away, so their presence is worth a lot.
 -   **Shims.** Fender fitted rust-red fiberboard shims at the pocket end of many instruments, offsets especially, to set neck angle. An untouched shim sitting in undisturbed finish is another good sign nobody has been in there with sandpaper.
 
@@ -201,10 +215,10 @@ The pickguard is a time capsule lid. The factory knew the guard would cover the 
 
 -   **Spray shadows.** Color that is thick and even out where the world could see it, going thin, dusty, or missing entirely in the middle of the guard footprint, with sealed yellow wood showing around the routes.
 -   **Factory rough routing.** Fender's routers tore and chattered, and the crumbs and fuzz they left were sprayed over, not cleaned up. Debris locked under paint at route edges is one of the best originality signs on any Fender.
--   **Nail holes** on pre-1963 (and some later) bodies, as covered above.
+-   **Nail holes** on bodies through late 1964, plus stragglers after, as covered above.
 -   **Undisturbed grime.** Sixty years of dust has a look. A spotless, uniformly glossy surface under a guard is a surface somebody has been improving.
 
-![Under the pickguard of a 1966 Fender Jazzmaster in Lake Placid Blue, showing bright blue in the exposed areas transitioning to thin dusty coverage and large patches of exposed yellow Fullerplast-sealed wood around the pickup routes, with original wiring visible.](../../assets/blog/fender-custom-color-authentication-guide/1966-fender-jazzmaster-lake-placid-blue-shadow-under-pickguard.jpg)
+![Under the pickguard of a 1966 Fender Jazzmaster in Lake Placid Blue, showing bright blue in the exposed areas transitioning to thin dusty coverage and large patches of exposed yellow-stained sealed wood around the pickup routes, with original wiring visible.](../../assets/blog/fender-custom-color-authentication-guide/1966-fender-jazzmaster-lake-placid-blue-shadow-under-pickguard.jpg)
 
 Guard off the 1966 Lake Placid Blue Jazzmaster. Out at the edge, full wet color. Under the guard, the blue goes thin and the yellow sealed body shows through around the routes. The sprayer covered what showed and moved on to the next body, exactly as the line demanded. A refinisher, working on one precious guitar with the guard off, covers everything evenly, and that evenness is the tell.
 
@@ -216,11 +230,13 @@ Same lesson on the 1965 Charcoal Frost Jazzmaster: lift the guard and the "finis
 
 The worm route beside the bridge pickup on the 1965 Candy Apple Red Strat. The factory router tore this channel out and the sprayer painted right over the wreckage, sealing the debris under the color. This is what you want to see. A refinisher sands the routes smooth before spraying, and smooth, clean-edged routes on a "factory" custom color are a serious problem.
 
-<h2 id="fcc-headstock">Matching Headstocks</h2>
+<h2 id="fcc-headstock">Matching Headstocks and Decal Sequencing</h2>
 
 Fender's rule of thumb, and ours: on the offset models, a sixties custom color usually came with a matching painted headstock; on Stratocasters and Telecasters it almost never did.
 
-From roughly 1962-63 onward, Jazzmasters, Jaguars, and Jazz Basses in custom colors normally received headstocks painted to match the body, with the decal applied on top of the color and clear nitro sprayed over the decal. The very earliest custom color offsets (and most custom Strats, Teles, and Precisions of any year) kept the plain maple-face headstock. Matching headstocks on Strats and Teles exist, mostly special orders and export instruments, but they are rare enough that each one has to prove itself.
+From about 1963 onward, Jazzmasters, Jaguars, and Jazz Basses in custom colors normally received headstocks painted to match the body. The very earliest custom color offsets (and most custom Strats, Teles, and Precisions of any year) kept the plain maple-face headstock. Matching headstocks on Strats and Teles exist, mostly special orders and export instruments, but they are rare enough that each one has to prove itself.
+
+On a genuine matching headstock the factory lamination order never varied: maple, then sealer, then the opaque custom color, then the water-slide decal, then clear nitrocellulose over everything. That final clear coat is the verification layer. It sealed the decal in, and as it ambers over the decades it draws a soft yellow halo around the gold or silver borders of the logo that only time can produce. A decal sitting fully on top of the clear coat, with no lacquer sealing it, was applied after the finish was done. A modern vinyl decal with raised, hard-cut edges instead of the feathered, tapered edge of a water-slide is a replacement no matter where it sits in the stack. Either one means the headstock finish is not what it claims to be.
 
 ![Matching painted headstock of a 1966 Fender Jaguar in Lake Placid Blue, showing the gold transition logo reading Fender Jaguar with patent numbers, single string tree, and Kluson tuners, photographed in front of a wall of vintage amplifiers.](../../assets/blog/fender-custom-color-authentication-guide/1966-fender-jaguar-lake-placid-blue-matching-headstock.jpg)
 
@@ -234,21 +250,21 @@ On a matching headstock, check that the face shows the same checking pattern and
 
 <h2 id="fcc-plastics">Pickguards and Plastic on Custom Colors</h2>
 
-Custom color guitars shipped with the standard pickguard for the model and year: greenish mint nitrate three-ply guards on early sixties Strats giving way to white plastic around 1965, white or pearloid guards on the offsets, and so on. The plastic is a supporting witness. If the guard is wrong for the year, or its screw holes do not line up with the body's, or its footprint does not match the spray shadow underneath, the guitar is telling you it has been apart and altered.
+Custom color guitars shipped with the standard pickguard for the model and year, and the guard material is datable all by itself. Early-sixties Stratocasters wore three-ply nitrate celluloid guards, the famous "mint green" guards, and nitrate ages like the unstable film stock it is related to: the guards shrink, curl at the edges, turn greener with the decades, and give off a faint camphor smell when rubbed warm. In mid-1965 Fender switched to three-ply non-nitrate white vinyl plastic, which stays flat, stays white, and smells of nothing. A crisp flat white guard on a "1962" body, or a shrunken mint guard on a 1967, is the parts bin talking. The plastic is a supporting witness: if the guard is wrong for the year, or its screw holes do not line up with the body's, or its footprint does not match the spray shadow underneath, the guitar has been apart and altered.
 
-Tortoiseshell deserves its own paragraph, because it trips up buyers constantly. Tortoise guards belong on sunburst and blonde instruments. On custom colors they are almost never correct, with one soft exception: they do turn up on genuine custom color guitars now and then, and Olympic White wears the combination more than any other color. We have handled real Olympic White instruments with factory tortoise guards, including the two below. So treat tortoise on a custom color as a question to answer, not a verdict. On some colors, though, the odds are so long that the question usually answers itself, and the refinished Jazz Bass in the refinish section is a perfect example.
+Tortoiseshell deserves its own paragraph, because it trips up buyers constantly. Tortoise was the standard dress for sunburst and blonde offsets and basses. On the factory line it was never paired with a custom color, with one sole exception: Olympic White. We have handled genuine Olympic White instruments wearing factory tortoise, including the Stratocaster below and the Jaguar whose neck pocket appears earlier in this guide. Every other pairing, a Fiesta Red or Lake Placid Blue body under a tortoise guard, signals swapped parts or an aftermarket respray until proven otherwise, and the refinished Jazz Bass in the refinish section shows how that story usually ends.
 
 ![A 1965 Fender Stratocaster in Olympic White, aged to a warm cream, with a tortoiseshell pickguard, in its original case with orange lining.](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-olympic-white-tortoise-pickguard.jpg)
 
-A 1965 Olympic White Stratocaster wearing a seldom-seen tortoise guard. The body has ambered to cream, the guard is correct to the period, and the rest of the guitar agrees with both. Tortoise over a custom color should always slow you down, and Olympic White is the color where it most often turns out to be right.
+A 1965 Olympic White Stratocaster wearing a seldom-seen tortoise guard. The body has ambered to cream, the guard is correct to the period, and the rest of the guitar agrees with both. Tortoise over a custom color should always slow you down, and Olympic White is the one factory exception where it can turn out to be right.
 
 <h2 id="fcc-aging">How Custom Colors Age</h2>
 
-Fender topped its custom colors with clear nitrocellulose, and clear nitro does two things over sixty years: it turns amber and it shrinks. Both are your friends, because both are nearly impossible to fake coherently across a whole instrument.
+Fender topped most custom colors with clear nitrocellulose, and clear nitro does two things over sixty years: it turns amber and it shrinks. Both are your friends, because both are nearly impossible to fake coherently across a whole instrument. The color coat underneath behaves by its own chemistry: Lucite acrylic colors are stable and slightly elastic, so they resist checking and hold their hue, which means on an acrylic color nearly all the visible aging is happening in the clear coat above it.
 
 The amber shift changes the apparent color, and knowing the shifts keeps you from misidentifying a real color or getting talked into a fake one:
 
--   **Olympic White** goes cream, ivory, or full butterscotch depending on light exposure. Case queens stay whiter; players' guitars go golden.
+-   **Olympic White** goes cream, ivory, or full butterscotch depending on light exposure, and every bit of that amber lives in the nitro clear, because the white beneath is a stable acrylic. Case queens stay whiter, players' guitars go golden, and the 1962 and 1963 bodies that skipped the clear coat never yellow at all. A stark white, check-free Olympic White from those years can be completely original.
 -   **Lake Placid Blue** shifts green, sometimes far enough to pass for teal or to be mistaken for Sherwood Green or Ocean Turquoise. The bass below is a textbook case.
 -   **Sonic Blue and Daphne Blue** pick up a green cast the same way.
 -   **Charcoal Frost** drifts toward gray-green and gets misnamed constantly.
@@ -263,7 +279,7 @@ The back of a 1966 Lake Placid Blue Jazz Bass, worn to the wood across half the 
 
 The back of the 1965 Olympic White Strat teaches the subtlest version of the layer lesson. The exposed top surface has ambered to butterscotch, but where wear cuts through, the paint gets whiter, because the undercoat never saw the sun and never had clear coat over it. White under cream sounds backwards until you understand the stack, and refinishers routinely get it backwards.
 
-Shrinking is the other half. As nitro shrinks it cracks into the fine web collectors call checking, and on a sixties Fender some checking is close to inevitable. On metallic colors, where acrylic color sits under nitro clear, the checking often reads as fine parallel lines you feel with a fingernail more than see head-on.
+Shrinking is the other half. As nitro shrinks it cracks into the fine web collectors call checking, and on a sixties Fender some checking is close to inevitable. On acrylic color coats under nitro clear (most of the metallics, plus acrylic solids like Olympic White) the checking lives mainly in the clear layer and often reads as fine parallel lines you feel with a fingernail more than see head-on. On all-nitro finishes the checking runs deeper, through color and clear together.
 
 ![Extreme close-up of Candy Apple Red finish beside the neck plate of a 1965 Fender Stratocaster, showing fine vertical lacquer checking lines running through the deep red metallic finish.](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-candy-apple-red-checking.jpg)
 
@@ -303,11 +319,16 @@ A 1961 stack-knob Jazz Bass, refinished in black. Count the problems: the wear b
 
 **The process marks are missing.** This is the deepest tell, because it cannot be faked backwards. Sanding a body for respray erases nail holes, erases pocket shadows, erases pencil marks, and cleans out route debris, and the refinisher then has to not paint the pocket (they always paint the pocket), leave the routes torn (they always smooth them), and reproduce dusty spray shadows under the guard (they never do). When the hidden zones of a "custom color" Fender look tidier than the visible zones, the finish is new. The factory's laziness is your best friend.
 
-<h2 id="fcc-factory-refin">Factory Refinishes and the Soldering Iron Mark</h2>
+<h2 id="fcc-factory-refin">Factory Refinishes and the Repair Department's Marks</h2>
 
 There is a third category between original and refinished, and it is the trickiest one on the bench: the factory refinish. Fender operated a repair and refinish service for dealers and customers, and a steady stream of guitars went back to Fullerton over the years for new finishes, custom colors included. Those guitars were done by the same paint department, with the same materials, the same undercoats, and the same process marks as new production. A factory refin can pass the stack test, the process test, and the blacklight test, because it is a factory finish. It just is not the guitar's first one.
 
-What gives them away are Fender's own bookkeeping marks. When the factory disassembled a guitar for service work, it needed the neck and body to end up back together, so workers burned the guitar's serial number into the wood with a soldering iron, most famously on the back of the neck heel, sometimes in the body cavities. A serial number branded into the heel means factory work, and in our experience that work was almost always finish work.
+What gives them away is that the repair department kept books, and it kept them in wood. When the factory disassembled a guitar for service work, it needed the right neck back on the right body after stripping and spraying, so parts got marked. Any of the following means factory hands touched the guitar after it first shipped:
+
+-   **Soldering iron serial brands.** The guitar's serial number burned into raw wood with a hot soldering iron or branding stamp, most famously on the back of the neck heel, sometimes in the neck pocket or body cavities. In our experience this mark almost always means finish work.
+-   **Matching batch stamps.** A four-digit tracking number stamped into the flat butt of the neck heel and again into the neck pocket floor. The same four digits in both places is a factory service pairing, stamped so the two parts found each other on the way back through the shop.
+-   **Color abbreviation stamps.** The paint department often stamped the new color's abbreviated name straight into bare cavity wood as a guide for the spray booth: C.A.R., B. MIST, O.W., L.P.B., and so on. A color code stamped under the finish it describes is a refinish work order written by Fender itself.
+-   **R&R and FRR stamps.** Mid-sixties factory service work often carries a black ink R&R stamp, for Repair and Refinish. By the late seventies and eighties this had evolved into a circled FRR stamp with a four-digit date code reading week-week-year-day, so a mark like 0304 decodes as the third week of the year, 1980, Thursday.
 
 ![Close-up of the back of the neck heel of a 1956 Fender Stratocaster with the neck removed from the blonde body beside it, showing a serial number burned into the maple heel with a soldering iron along with a circled factory mark, with the pickguard assembly lying nearby.](../../assets/blog/fender-custom-color-authentication-guide/1956-fender-stratocaster-blonde-factory-refin-serial-number-neck-heel.jpg)
 
@@ -315,25 +336,23 @@ The back of the neck heel on a 1956 Stratocaster, with the serial number burned 
 
 How do you catch a factory refin beyond the burn mark? Anachronisms. The finish is factory quality but its details belong to the year of the REFINISH, not the year of the guitar: a 1956 body wearing a paint recipe or undercoat that did not exist until 1959, a color that postdates the neck date, or process marks from the wrong era. Factory refins are honorable guitars with real collector interest, worth more than an aftermarket repaint and less than an untouched original, and they must be represented as exactly what they are.
 
-<h2 id="fcc-checklist">The Full Authentication Checklist</h2>
+<h2 id="fcc-checklist">The Nine-Step Bench Protocol</h2>
 
-Here is the sequence we actually run when a custom color Fender hits the bench. You can do most of it with a screwdriver, a flashlight, and patience.
+Here is the sequence we actually run when a custom color Fender hits the bench, in the order we run it. You can do most of it with a screwdriver, a flashlight, a 10x loupe, and patience.
 
-1.  **Date the guitar first.** Serial number, neck date, pot codes. The color must be possible for the build year per the chart above. Our [Fender serial number guide](/fender-guitars-serial-number-guide/) walks through the dating side.
-2.  **Identify the color honestly.** Compare protected areas, not exposed ones, against known originals, and account for amber shift before naming the color.
-3.  **Find chips and read the stack.** Sealer, undercoat, color, clear, in the right order with the right undercoat for the color and year. Gold under early CAR, silver under later CAR, white under most sixties colors, Desert Sand under late-fifties reds.
-4.  **Check the era handling marks.** Nail holes before about 1963; paint stick pocket shadow after. Factory pencil, marker, or stamp markings in the pocket and cavities.
-5.  **Pull the guard.** Spray shadows, sealed yellow wood at the routes, debris under paint, undisturbed grime, brighter protected color.
-6.  **Judge the headstock.** Matching on custom offsets from about 1963 on, decal under the clear, aging that agrees with the body.
-7.  **Check the plastic.** Correct guard material and construction for the year, screw holes that line up, tortoise only where tortoise belongs.
-8.  **Read the aging.** Amber shift, checking through all layers, wear that exposes layers in the right order, protected zones younger than exposed ones.
-9.  **Blacklight everything.** Even warm fluorescence, no dead patches, edges and headstock especially.
-10.  **Look for factory refin marks.** Burned serial numbers on the heel and in cavities, and date-impossible combinations of factory-correct details.
-11.  **Weigh the whole guitar.** Single anomalies happen on real guitars, and single correct details happen on fakes. Authentication is the totality, never one test.
+1.  **Component dating.** Record the neck plate serial, the neck heel date stamp, the potentiometer codes, and the pickup markings, and cross-reference them against each other. The color has to be possible for the build date per the chart above, and our [Fender serial number guide](/fender-guitars-serial-number-guide/) covers this side of the work.
+2.  **Blacklight before disassembly.** Evaluate the whole instrument under 365nm UV in a darkened room while it is still together. Map the warm amber and greenish-yellow fluorescence of original clear coat, and note every dark patch of touch-up or repair for closer inspection once it is apart.
+3.  **Controlled disassembly.** Remove the neck, lift the pickguard and fold it to the side rather than pulling it, so the original solder joints never take strain, and remove the tremolo assembly on trem models. Nothing gets forced and nothing gets cleaned.
+4.  **Neck pocket archaeology.** Verify the paint stick shadow and its boundaries, the factory crayon and marker codes, intact sealer of the right era (Homoclad before mid-1962, Fullerplast after) over the yellow dye, and the original fiberboard shim where the model calls for one.
+5.  **Cavity shadows and debris.** Confirm the color thins to dusty spray shadows and exposed yellow sealer inside the guard footprint and routes, and look for pin router tooling scars and torn wood fibers sealed under the original paint.
+6.  **Paint stack stratigraphy.** Inspect chips and wear spots under 10x magnification and confirm the layers transition in factory order: bare wood, then the dye dip, then clear sealer, then the correct undercoat for the color and year, then color, then clear nitro.
+7.  **Dowel hole verification.** Locate the pin router template dowels on the body, and the one on the headstock face under the G and D tuners, and check under raking light for the telegraphed circular outlines and the natural shrinkage lines breaking the topcoat at their edges.
+8.  **Headstock lamination check.** On matching headstocks, confirm the water-slide decal sits under the clear coat and carries the aged yellow halo around the logo's gold or silver borders.
+9.  **Diagnostic synthesis.** Weigh the cumulative evidence. Individual factory anomalies happen on real guitars, but missing multiple core handling marks (sanded-smooth routes, a fully painted neck pocket, filled nail holes, grey auto primer in the stack) points one direction, and it is not toward Fullerton.
 
 ![Extreme close-up of a pickguard screw hole on a 1965 Fender Stratocaster in Candy Apple Red, with a chip at the hole revealing the silver undercoat ring beneath the red and a pickup route with yellow sealed wood visible at the upper right.](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-candy-apple-red-screw-hole-chip-with-undercoat.jpg)
 
-Step 3 in practice: one pickguard screw hole on the 1965 Candy Apple Red Strat, and the whole stack answers at once. Silver ringing the chip, red over it, sealed yellow wood in the route beyond. Ten seconds with a flashlight, and the guitar has already survived the test most refinishes fail.
+Step 6 in practice: one pickguard screw hole on the 1965 Candy Apple Red Strat, and the whole stack answers at once. Silver ringing the chip, red over it, sealed yellow wood in the route beyond. Ten seconds with a loupe and a flashlight, and the guitar has already survived the test most refinishes fail.
 
 <h2 id="fcc-value">What a Real Custom Color Is Worth</h2>
 
@@ -355,7 +374,7 @@ Compare a protected area, like the finish under the pickguard or a control plate
 
 **Is sunburst under my custom color a sign of a refinish?**
 
-Not by itself. In the mid 1960s Fender regularly pulled sunburst bodies from stock and sprayed custom colors over them, so factory guitars can show sunburst in the neck pocket and under the guard. It becomes a refinish tell only when the color sits over wear, damage, or checking, which means it was applied years later.
+Not by itself. In the mid 1960s Fender regularly pulled sunburst bodies from stock and sprayed custom colors over them, so factory guitars can show sunburst in the neck pocket and under the guard. On bodies from mid-1964 on, that hidden burst should be the opaque target style over a whitish primer. It becomes a refinish tell only when the color sits over wear, damage, or checking, which means it was applied years later.
 
 **Does a missing undercoat mean my Fender is refinished?**
 
@@ -363,7 +382,7 @@ No single missing step condemns a guitar. Fender skipped undercoats and even sea
 
 **What is the paint stick shadow in the neck pocket?**
 
-From about 1963, Fender held bodies during spraying with a wooden stick bolted into the neck pocket screw holes. The stick masked the pocket, leaving a bare, sealer-yellow zone with color only feathering in at the edges, often with factory pencil or marker model codes on it. Before the stick era, bodies rested on nails instead, which left small nail holes under the pickguard and bridge.
+From late 1962, Fender held bodies during spraying with a wooden stick bolted into the neck pocket screw holes. The stick masked the pocket, leaving a bare, sealer-yellow zone with color only feathering in at the edges, often with factory pencil or marker model codes on it. Nail holes from the drying racks continued alongside the stick shadow into late 1964, so a 1963 body should show both marks. Before the stick era, bodies rested on nails alone.
 
 **Do custom color Fenders have matching headstocks?**
 
@@ -371,7 +390,7 @@ The offsets usually do: custom color Jazzmasters, Jaguars, and Jazz Basses from 
 
 **Is a tortoiseshell pickguard wrong on a custom color Fender?**
 
-Usually. Tortoise belongs with sunburst and blonde, and on most custom colors it signals swapped parts or a refinished body. The soft exception is Olympic White, where factory tortoise pairings genuinely exist. Treat tortoise on a custom color as a reason to look closer, not an automatic verdict.
+Usually, yes. Tortoise was standard dress for sunburst and blonde, and the factory line never paired it with a custom color, with one sole exception: Olympic White. On any other custom color, a tortoise guard signals swapped parts or an aftermarket respray until the guitar proves otherwise.
 
 **What does a burned-in serial number on the neck heel mean?**
 
@@ -407,7 +426,7 @@ No. A worn original custom color is worth far more than a freshly refinished one
       "name": "Is sunburst under my custom color a sign of a refinish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not by itself. In the mid 1960s Fender regularly pulled sunburst bodies from stock and sprayed custom colors over them, so factory guitars can show sunburst in the neck pocket and under the guard. It becomes a refinish tell only when the color sits over wear, damage, or checking, which means it was applied years later."
+        "text": "Not by itself. In the mid 1960s Fender regularly pulled sunburst bodies from stock and sprayed custom colors over them, so factory guitars can show sunburst in the neck pocket and under the guard. On bodies from mid-1964 on, that hidden burst should be the opaque target style over a whitish primer. It becomes a refinish tell only when the color sits over wear, damage, or checking, which means it was applied years later."
       }
     },
     {
@@ -423,7 +442,7 @@ No. A worn original custom color is worth far more than a freshly refinished one
       "name": "What is the paint stick shadow in the neck pocket?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "From about 1963, Fender held bodies during spraying with a wooden stick bolted into the neck pocket screw holes. The stick masked the pocket, leaving a bare, sealer-yellow zone with color only feathering in at the edges, often with factory pencil or marker model codes on it. Before the stick era, bodies rested on nails instead, which left small nail holes under the pickguard and bridge."
+        "text": "From late 1962, Fender held bodies during spraying with a wooden stick bolted into the neck pocket screw holes. The stick masked the pocket, leaving a bare, sealer-yellow zone with color only feathering in at the edges, often with factory pencil or marker model codes on it. Nail holes from the drying racks continued alongside the stick shadow into late 1964, so a 1963 body should show both marks. Before the stick era, bodies rested on nails alone."
       }
     },
     {
@@ -439,7 +458,7 @@ No. A worn original custom color is worth far more than a freshly refinished one
       "name": "Is a tortoiseshell pickguard wrong on a custom color Fender?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Usually. Tortoise belongs with sunburst and blonde, and on most custom colors it signals swapped parts or a refinished body. The soft exception is Olympic White, where factory tortoise pairings genuinely exist. Treat tortoise on a custom color as a reason to look closer, not an automatic verdict."
+        "text": "Usually, yes. Tortoise was standard dress for sunburst and blonde, and the factory line never paired it with a custom color, with one sole exception: Olympic White. On any other custom color, a tortoise guard signals swapped parts or an aftermarket respray until the guitar proves otherwise."
       }
     },
     {
