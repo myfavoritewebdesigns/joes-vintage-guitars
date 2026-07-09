@@ -6,10 +6,10 @@ excerpt: "A 1957 Gibson Byrdland that came to us from one family, bought new by 
 category: "museum-original-owners"
 categoryName: "Museum & Original Owners"
 tags: []
-heroImage: "/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-front-body.jpg"
-heroImageAlt: "1957 Gibson Byrdland thinline archtop, sunburst finish, gold hardware and engraved Byrdland tailpiece, front view"
+heroImage: "/images/blog/one-owner-1957-gibson-byrdland/don-majure-with-1957-gibson-byrdland.jpg"
+heroImageAlt: "Don Majure as a teenager in 1957, holding the Gibson Byrdland he bought new with paper-route money"
 metaDescription: "A one-owner 1957 Gibson Byrdland bought new by a 16-year-old with paper-route money. The guitar, the history of the year, and the owner's story, from Joe's Vintage Guitars."
-ogImage: "/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-front-body.jpg"
+ogImage: "/images/blog/one-owner-1957-gibson-byrdland/don-majure-with-1957-gibson-byrdland.jpg"
 ---
 We get a lot of guitars through the shop. Every now and then one arrives carrying something that money cannot add later: a story that never left the family. This 1957 Gibson Byrdland is one of those.
 
@@ -29,8 +29,6 @@ It came to us from the family of a man named Don Majure. He was its only owner. 
 Don grew up in Peoria, Illinois. In 1957 he was sixteen, and the guitar he wanted was a Gibson Byrdland. Not a starter guitar. One of the fanciest, most expensive electrics Gibson built.
 
 So he went and earned it. He saved money from paper routes and odd jobs until he had enough. In 1957 a Byrdland listed for $550. To put that in perspective, that was roughly a quarter of the price of a brand-new car, and north of $6,000 in today's money. It was a serious sum for a grown adult to lay out on a guitar, let alone a teenager funding it a few dollars at a time on a paper route. His family still calls it "a BIG purchase for a 16-year-old," and they are not exaggerating.
-
-<figure><img alt="Black and white photo of a young Don Majure holding his 1957 Gibson Byrdland archtop guitar" width="1470" height="1091" src="/images/blog/one-owner-1957-gibson-byrdland/don-majure-with-1957-gibson-byrdland.jpg" loading="lazy" decoding="async"><figcaption>Don Majure with the Byrdland not long after he bought it. Peoria, Illinois, around 1957.</figcaption></figure>
 
 He played all the way through high school, and for a while he taught other students. He was never in a band. As his family put it, playing "was for his interest and enjoyment." His hero was Chet Atkins. Years later one of his kids introduced him to the guitarist Lawson Rollins, and he loved it, mostly because it made him laugh. He was so tickled, they said, because "this guy does things on the guitar that are just impossible."
 
