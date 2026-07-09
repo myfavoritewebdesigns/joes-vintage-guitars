@@ -24,7 +24,7 @@ It came to us from the family of a man named Don Majure. He was its only owner. 
 3.  [A Closer Look at This One](#a-closer-look-at-this-one)
 4.  [Why the Story Is the Point](#why-the-story-is-the-point)
 
-## The 16-year-old who saved for it
+## The 16-Year-Old Who Saved for It
 
 Don grew up in Peoria, Illinois. In 1957 he was sixteen, and the guitar he wanted was a Gibson Byrdland. Not a starter guitar. One of the fanciest, most expensive electrics Gibson built.
 
@@ -44,7 +44,7 @@ Don is gone now. His wife is in an assisted living facility, where the guitar no
 
 That last line is really the whole reason we wanted to write this up.
 
-## What 1957 meant at Gibson, and why the Byrdland is special
+## What 1957 Meant at Gibson, and Why the Byrdland Is Special
 
 To understand why a sixteen-year-old would work that hard for this particular guitar, it helps to know what it was.
 
@@ -62,7 +62,7 @@ Here is a small thing we love about it. Don idolized Chet Atkins, a Peoria kid's
 
 If you want the full breakdown of how to date and identify any Byrdland, we put together a separate [Gibson Byrdland authentication guide](/post/gibson-byrdland-authentication-guide/) that walks through it year by year.
 
-## A closer look at this one
+## A Closer Look at This One
 
 <figure><img alt="Orange oval Gibson label inside the f-hole of a 1957 Byrdland reading Byrdland, serial number A 25589" width="2000" height="1333" src="/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-orange-label-a25589.jpg" loading="lazy" decoding="async"><figcaption>The orange oval label inside the body: Gibson Byrdland, serial A 25589. The A-series number dates it to 1957, exactly when Don said he bought it.</figcaption></figure>
 
@@ -94,7 +94,7 @@ The gold plating has worn through in the spots a right hand and a set of fingers
 
 If you want to read these numbers yourself, our [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) explains the A-series orange labels and how to date one.
 
-## Why the story is the point
+## Why the Story Is the Point
 
 We handle a lot of vintage guitars, and after a while the spec sheets start to blur together. What never gets old is a guitar that still has its life attached to it.
 
