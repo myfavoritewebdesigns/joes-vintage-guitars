@@ -11,6 +11,12 @@ heroImageAlt: "A 1984 Gibson Aldo Nova Les Paul XPL in cherry sunburst, a single
 metaDescription: "The Gibson Aldo Nova Les Paul XPL is a mid-1980s rarity: a flame-top Les Paul Standard with an Explorer headstock. History, specs, and how to spot a real one."
 ogImage: "/images/blog/gibson-aldo-nova-les-paul-xpl-guide/gibson-aldo-nova-les-paul-xpl-1984-cherry-sunburst.jpg"
 ---
+<style>
+  /* Pipeline images render as <p><img></p> inside <figure>; drop the paragraph
+     margin so the figcaption sits tight under the photo like a real caption. */
+  .blog-prose figure p { margin: 0; }
+</style>
+
 Collector's Reference · Gibson Nashville, Mid-1980s
 
 The full story of Gibson's Explorer-headstock Les Paul Standard,
@@ -39,9 +45,13 @@ Because so few were made and so little was documented, this model has collected 
 
 Here is the single most useful thing to understand about this guitar, because it clears up most of the confusion online. "XPL" is not a model. It is Gibson's shorthand for the Explorer headstock, and in the mid-1980s Gibson put that headstock on more than one guitar. When people say "Les Paul XPL," they could be talking about any of a few very different instruments.
 
+<figure>
+
 ![Front of the pointed Explorer-style headstock on a Gibson Les Paul XPL, with a black face, a gold Gibson logo, a blank bell-shaped truss rod cover, and six chrome tuners in a row.](../../assets/blog/gibson-aldo-nova-les-paul-xpl-guide/gibson-les-paul-xpl-explorer-headstock-front.jpg)
 
-*The feature that names the guitar. The Explorer, or XPL, headstock replaces the usual open-book Gibson shape with the sharp, drooping profile taken from the Explorer and Firebird. Black face, gold Gibson logo, blank bell truss rod cover, six tuners in a line.*
+<figcaption>The feature that names the guitar. The Explorer, or XPL, headstock replaces the usual open-book Gibson shape with the sharp, drooping profile taken from the Explorer and Firebird. Black face, gold Gibson logo, blank bell truss rod cover, six tuners in a line.</figcaption>
+
+</figure>
 
 The **single-cutaway Standard**, the guitar in these photos, is the one collectors call the Aldo Nova. It is a normal Les Paul Standard body, carved flamed-maple top, single cutaway, wearing the Explorer headstock. It carries a "Custom Shop Edition" mark on the back of the headstock and was built in very small numbers. This is the rare and valuable one.
 
@@ -63,9 +73,13 @@ There is more to his career than one hit. Nova went on to a long life as a write
 
 To understand why a pointed headstock ended up on a Les Paul, you have to remember where Gibson was in 1984. The company was near the end of the Norlin era, its longest stretch of corporate ownership and, by most accounts, its most troubled. Sales were down, the historic Kalamazoo, Michigan plant closed for good in June 1984, and in January 1986 Norlin sold Gibson to the investor group led by Henry Juszkiewicz that runs it to this day.
 
+<figure>
+
 ![The pointed tip of a Gibson Les Paul XPL Explorer headstock in translucent cherry, resting in a blue-lined case.](../../assets/blog/gibson-aldo-nova-les-paul-xpl-guide/gibson-les-paul-xpl-explorer-headstock-point.jpg)
 
-*The drooping point of the Explorer headstock. In 1984 this was Gibson chasing the pointed, hot-rodded look that was selling for the California builders.*
+<figcaption>The drooping point of the Explorer headstock. In 1984 this was Gibson chasing the pointed, hot-rodded look that was selling for the California builders.</figcaption>
+
+</figure>
 
 At the same time, the market had moved. Kramer, Jackson, and Charvel were selling every pointy, locking-tremolo superstrat they could build, and a traditional single-cutaway Les Paul was starting to look old-fashioned to a teenager watching MTV. Gibson's answer was a wave of modernized designs meant to look tougher and more current: hot ceramic Dirty Fingers pickups, Kahler tremolos, and pointed Explorer headstocks bolted onto familiar bodies. The XPL treatment was part of that push. The Explorer headstock also let Gibson lean on one of its own shapes, the same silhouette used on the Explorer and Firebird, rather than borrowing from anyone else.
 
@@ -105,21 +119,33 @@ Because so few were made and guitars like this were built to order, you should t
 
 A few of these deserve a closer look.
 
+<figure>
+
 ![Bound rosewood fingerboard of a Gibson Aldo Nova Les Paul XPL, showing pearloid trapezoid inlays and cream binding.](../../assets/blog/gibson-aldo-nova-les-paul-xpl-guide/gibson-aldo-nova-xpl-rosewood-fingerboard-trapezoid-inlays.jpg)
 
-*From the nut down, this is a Les Paul Standard. Bound rosewood board, pearloid trapezoid inlays, and the rounded 1980s Gibson neck. Nothing about the playing surface tells you the headstock is unusual.*
+<figcaption>From the nut down, this is a Les Paul Standard. Bound rosewood board, pearloid trapezoid inlays, and the rounded 1980s Gibson neck. Nothing about the playing surface tells you the headstock is unusual.</figcaption>
+
+</figure>
 
 The **top** is the giveaway that this is a Standard underneath, not a stripped-down model. It is a carved, figured maple cap with real flame, finished in a cherry sunburst that fades from cherry-red edges to an amber center. The back, sides, and neck are a translucent cherry that lets the mahogany grain show through, which is a common Gibson look for the period and reads very differently from an opaque finish.
 
+<figure>
+
 ![Gold Rhythm and Treble poker chip around the pickup selector toggle of a Gibson Aldo Nova Les Paul XPL, with an amber toggle tip and amber top-hat knobs.](../../assets/blog/gibson-aldo-nova-les-paul-xpl-guide/gibson-aldo-nova-xpl-rhythm-treble-poker-chip.jpg)
 
-*The control area is classic Les Paul: a three-way toggle with a gold Rhythm and Treble ring, an amber toggle tip, and amber top-hat knobs with numbered skirts. Two volumes and two tones, wired the traditional way.*
+<figcaption>The control area is classic Les Paul: a three-way toggle with a gold Rhythm and Treble ring, an amber toggle tip, and amber top-hat knobs with numbered skirts. Two volumes and two tones, wired the traditional way.</figcaption>
+
+</figure>
 
 The **hardware on this example is chrome**, not gold, and it wears two chrome-covered humbuckers with cream rings. This matters because you will read descriptions of gold hardware, three pickups, or a Kahler tremolo on "the" Aldo Nova. Some of those descriptions are real, but they belong to other examples or to the related XPL models: the three-pickup Studio Custom, or the double-cut DC that usually shipped with a Kahler. There was no single fixed spec, so the safe move is to describe the guitar in front of you rather than the guitar on the internet. Under the chrome covers, the humbuckers on a Gibson of this period are typically the Tim Shaw-designed reissues that collectors prize, which is worth confirming on any example you are appraising.
 
+<figure>
+
 ![Side profile of a Gibson Aldo Nova Les Paul XPL showing the carved figured maple top, cream body binding, and translucent cherry mahogany back.](../../assets/blog/gibson-aldo-nova-les-paul-xpl-guide/gibson-aldo-nova-xpl-carved-flame-top-binding.jpg)
 
-*The profile shows the carved maple cap sitting on the mahogany body, with a single-ply cream binding around the top. This is standard Les Paul construction, which is a large part of why the guitar plays and sounds like a Les Paul rather than an oddity.*
+<figcaption>The profile shows the carved maple cap sitting on the mahogany body, with a single-ply cream binding around the top. This is standard Les Paul construction, which is a large part of why the guitar plays and sounds like a Les Paul rather than an oddity.</figcaption>
+
+</figure>
 
 ## How to Identify a Genuine Example
 
@@ -127,15 +153,23 @@ The Aldo Nova is rare enough, and valuable enough, that it is worth knowing what
 
 **Start with the back of the headstock.** A genuine example carries a gold "Custom Shop Edition" decal, a "Made in U.S.A." stamp, and an impressed eight-digit serial number. One point worth clearing up: that decal predates Gibson's formal Custom Shop division, which did not open until 1993. In the mid-1980s Gibson used the "Custom Shop Edition" mark for special and limited runs that were still built on the regular Nashville line, which is why these guitars carry ordinary Nashville serial numbers rather than a separate Custom Shop format. The decal is still the fastest confirmation that you are looking at the real special run and not a later parts guitar or a converted production model.
 
+<figure>
+
 ![Back of a Gibson Les Paul XPL headstock in translucent cherry, showing the gold Custom Shop Edition decal, an impressed eight-digit serial number, Made in U.S.A. stamp, and chrome Gibson tuners.](../../assets/blog/gibson-aldo-nova-les-paul-xpl-guide/gibson-les-paul-xpl-custom-shop-edition-decal.jpg)
 
-*The provenance is on the back of the headstock: the gold "Custom Shop Edition" script, the impressed serial, and "Made in U.S.A." Chrome enclosed tuners with Gibson-stamped covers finish the picture.*
+<figcaption>The provenance is on the back of the headstock: the gold "Custom Shop Edition" script, the impressed serial, and "Made in U.S.A." Chrome enclosed tuners with Gibson-stamped covers finish the picture.</figcaption>
+
+</figure>
 
 **Read the serial number.** Gibson's eight-digit format from this era encodes the date. The first and fifth digits together give the year, and the middle three give the day of that year. On our example the serial reads as a 1984 Nashville number, which lines up with the finish, the hardware, and the known production window. Documented examples cluster in late 1984, so a period-correct serial is part of a consistent story. If you want to work through the format yourself, our [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) walks through it step by step.
 
+<figure>
+
 ![Close-up of the impressed eight-digit serial number and Made in U.S.A. stamp on the back of a Gibson Les Paul XPL headstock in cherry finish.](../../assets/blog/gibson-aldo-nova-les-paul-xpl-guide/gibson-les-paul-xpl-serial-number-made-in-usa.jpg)
 
-*The impressed eight-digit serial and "Made in U.S.A." stamp. Read together with the finish and hardware, the number places this guitar in 1984.*
+<figcaption>The impressed eight-digit serial and "Made in U.S.A." stamp. Read together with the finish and hardware, the number places this guitar in 1984.</figcaption>
+
+</figure>
 
 **Confirm the body is a single cutaway.** A double-cutaway body means you have the production DC XPL, not the single-cut Standard. It is the most common mix-up, and the difference in value is large.
 
@@ -149,21 +183,33 @@ The Aldo Nova is rare enough, and valuable enough, that it is worth knowing what
 
 The guitar photographed throughout this guide is a 1984 that came through the shop, and it is a clean, honest example of everything described above. It is finished in cherry sunburst over a nicely flamed maple top, with the translucent cherry back, sides, and neck that are correct for the period.
 
+<figure>
+
 ![Full front of a 1984 Gibson Aldo Nova Les Paul XPL in cherry sunburst, showing the flamed maple top, two chrome humbuckers, cream pickguard, amber knobs, and the Explorer headstock at the top of the neck.](../../assets/blog/gibson-aldo-nova-les-paul-xpl-guide/gibson-aldo-nova-les-paul-xpl-full-front.jpg)
 
-*The whole guitar in one look. A cherry sunburst Les Paul Standard from the binding down, with the Explorer headstock up top. That combination is the entire idea of the model.*
+<figcaption>The whole guitar in one look. A cherry sunburst Les Paul Standard from the binding down, with the Explorer headstock up top. That combination is the entire idea of the model.</figcaption>
+
+</figure>
 
 It is a two-pickup guitar with chrome-covered humbuckers and cream rings, a cream pickguard, amber top-hat knobs, and the gold Rhythm and Treble poker chip around the toggle. The bridge is a Nashville Tune-o-Matic with a separate stopbar. All of the hardware is chrome, including the enclosed Gibson-stamped tuners on the Explorer headstock. The bound rosewood board carries the trapezoid inlays of a Les Paul Standard, which is exactly what belongs on this guitar.
 
+<figure>
+
 ![Upper body of a 1984 Gibson Aldo Nova Les Paul XPL showing two chrome humbuckers with cream rings, cream pickguard, amber top-hat knobs, and a Tune-o-Matic bridge with stopbar tailpiece over a flamed cherry sunburst top.](../../assets/blog/gibson-aldo-nova-les-paul-xpl-guide/gibson-aldo-nova-xpl-humbuckers-controls.jpg)
 
-*Two chrome humbuckers, cream rings, a cream guard, and the amber knobs. Wired as a normal Les Paul, this guitar sounds like one, which is the quiet surprise of the model.*
+<figcaption>Two chrome humbuckers, cream rings, a cream guard, and the amber knobs. Wired as a normal Les Paul, this guitar sounds like one, which is the quiet surprise of the model.</figcaption>
+
+</figure>
 
 The back tells the same story as the front: translucent cherry over mahogany, with the usual Les Paul control cavity and switch covers. There is light play wear and some finish scratches consistent with a guitar that was owned and enjoyed for forty years, along with a worn spot on the back of the neck, but nothing that changes what it is.
 
+<figure>
+
 ![Back of a 1984 Gibson Aldo Nova Les Paul XPL showing the translucent cherry mahogany body, black control cavity cover, and switch cavity cover, lying in a blue-lined hardshell case.](../../assets/blog/gibson-aldo-nova-les-paul-xpl-guide/gibson-aldo-nova-xpl-cherry-mahogany-back.jpg)
 
-*The translucent cherry back over mahogany. Standard Les Paul cavities and covers, with the honest wear of a guitar that spent forty years being played.*
+<figcaption>The translucent cherry back over mahogany. Standard Les Paul cavities and covers, with the honest wear of a guitar that spent forty years being played.</figcaption>
+
+</figure>
 
 Guitars like this one are the reason the shop exists. It is a real piece of Gibson's strangest and most interesting decade, it is genuinely rare, and it has a story that people actually recognize the moment you say the name.
 
