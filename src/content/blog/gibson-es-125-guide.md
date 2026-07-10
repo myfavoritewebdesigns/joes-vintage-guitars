@@ -14,8 +14,6 @@ wpId: 20765
 ---
 The **Gibson ES-125** was on the bandstand for almost thirty years, and for most of that time nobody was looking at it. The flashier names in the Gibson catalog were the ES-175, the [ES-335](/post/complete-dot-neck-es-330-guide-1959-1962/), and the L-5. The ES-125 just kept showing up: jazz combos, Chicago blues clubs, country sidemen, rockabilly players who needed something that could survive a tour. It cost less than its stablemates, it carried the same P-90 pickups that made the rest of Gibson's 50s lineup what it was, and right now it's one of the harder vintage semi-hollows to find at a fair price.
 
-<figure><img alt="1954 Gibson ES-125 in sunburst finish" width="2560" height="1707" src="/images/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg" loading="lazy" decoding="async"><figcaption>1954 Gibson ES-125 in sunburst, a textbook example of the Golden Era full-depth model.</figcaption></figure>
-
 Contents
 
 1.  [Origins & History](#es125-origins)

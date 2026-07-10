@@ -12,8 +12,6 @@ metaDescription: "Thinking of selling a vintage Gretsch 6120? This guide covers 
 ogImage: "/images/blog/gretsch-6120-history-value/gretsch-6120-market-value-scaled.jpg"
 wpId: 18154
 ---
-![Pristine 1960 Gretsch 6120 Chet Atkins with 2.5-inch body depth and Filter'Tron pickups. Get a professional nationwide appraisal and cash offer from Joe's Vintage Guitars.](../../assets/blog/gretsch-6120-history-value/gretsch-6120-market-value-1024x683.jpg)
-
 The 1960 model year was an important refinement for the 6120, featuring the slimmed-down 2.5-inch body and the introduction of the zero fret. Instruments in this ‘Collector Grade’ condition are in strong demand in the vintage market right now.
 
 Few instruments are as tied to the ‘Golden Era’ of rock ‘n’ roll as the **Gretsch 6120**. From its ‘Western Orange’ finish to its ‘Filter’Tron’ twang, the 6120 is a high-value piece of American history. **At Joe’s Vintage Guitars, we are currently looking to add original 1950s and 60s 6120s to our collection. If you have an instrument you’re considering selling, we provide expert [nationwide appraisals](/free-appraisal/) and offer [top-dollar payouts](/) for well-preserved examples.** If you’re a collector or have recently inherited one, knowing its specific history is what tells you its real market value.

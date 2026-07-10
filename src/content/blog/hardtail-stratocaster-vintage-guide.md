@@ -12,8 +12,6 @@ metaDescription: "Think of it as a “Telecaster on steroids.” The Fender Hard
 ogImage: "/images/blog/hardtail-stratocaster-vintage-guide/1960-fender-stratocaster-hardtail-sunburst-scaled.jpg"
 wpId: 19372
 ---
-![Rear view of a vintage Fender Stratocaster hardtail body showing the solid wood construction with six chrome string-through-body ferrules and the absence of a tremolo spring cavity or plastic backplate.](../../assets/blog/hardtail-stratocaster-vintage-guide/1960-fender-stratocaster-hardtail-sunburst-1024x683.jpg)
-
 The “clean” look of a hardtail: Notice the solid wood back and the six chrome string-through-body ferrules. Because there is no large tremolo cavity routed out, the body retains more mass, contributing to the “Telecaster-on-steroids” punch and resonance I love in these instruments.
 
 The Fender Stratocaster is almost synonymous with the synchronized tremolo bridge. For many, that’s the “soul” of the guitar. But there is a leaner, meaner version of the Strat that has been quietly winning over players for decades: the **Hardtail**.

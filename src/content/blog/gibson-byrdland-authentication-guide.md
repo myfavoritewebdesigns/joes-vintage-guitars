@@ -17,8 +17,6 @@ Collector's Reference · Gibson Electric Archtop
 A complete year-by-year reference to features, construction changes,  
 and dating criteria, 1955 to the Custom Shop era
 
-<figure><img alt="1967 Gibson Byrdland thinline archtop electric guitar body, Florentine cutaway, sunburst nitrocellulose finish, gold hardware" width="2560" height="1707" src="/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1967 Gibson Byrdland.</strong> A prime example from the Florentine cutaway era (1961 to 1968), showing the original sunburst nitrocellulose lacquer finish, gold-plated hardware, and the sharply pointed cutaway horn that distinguishes this period from the rounded Venetian style used before and after.</figcaption></figure>
-
 -   [Overview & Origin](#overview)
 -   [Baseline Specifications](#specs)
 -   [Cutaway Shape Changes](#cutaway)
@@ -33,7 +31,7 @@ and dating criteria, 1955 to the Custom Shop era
 -   [Authentication Checklist](#checklist)
 -   [Related Resources](#links)
 
-## Overview & Origin
+<h2 id="overview">Overview & Origin</h2>
 
 The Gibson Byrdland is the instrument that invented the thinline electric archtop. Its name is a portmanteau of Nashville session guitarists **Billy Byrd** and **Hank Garland**, the two players who co-designed it with Gibson president Ted McCarty in 1955. Both men were frustrated by the bulk of traditional archtops (the standard L-5CES was over 3⅜ inches deep) and wanted something that combined acoustic resonance with the ease of a solidbody. What they got was a guitar 2¼ inches deep, with a shortened 23½-inch scale, a narrower-than-standard nut, and all the premium appointments of Gibson's flagship L-5CES.
 
@@ -43,13 +41,13 @@ The Byrdland remained a standard production model through 1993, when it moved to
 
 The correct spelling is **Byrdland**, not "Birdland." The guitar is named after Billy *Byrd*. The Birdland jazz club in New York actually sued Gibson for trademark infringement over the name, and Gibson successfully argued the spelling was sufficiently distinct. You will often see the misspelling "Birdland" in listings. Always check the actual headstock logo and tailpiece engraving.
 
-## Baseline Specifications
+<h2 id="specs">Baseline Specifications</h2>
 
 These are the *original* 1955 to 1957 specifications. All subsequent sections document deviations from this baseline. Note that several of these specs changed over the decades. The table below reflects the original configuration only.
 
 Key changes are noted in each cell above. Full details on each change are in the relevant sections below.
 
-## Cutaway Shape Changes
+<h2 id="cutaway">Cutaway Shape Changes</h2>
 
 The cutaway profile is the single most dramatic visual change in the Byrdland's history, and it cycles. Knowing which shape is correct for a given year is fundamental to authentication.
 
@@ -106,7 +104,7 @@ Pickup swaps are extremely common on vintage Byrdlands. Original gold-plated PAF
 
 <figure><img alt="Gibson T-Top humbucker pickup example, used on Gibson Byrdland from approximately 1967 to 1975" width="655" height="490" src="/images/blog/gibson-byrdland-authentication-guide/gibson-t-top-pickup-example.jpg" loading="lazy" decoding="async"><figcaption><strong>T-Top humbucker (c.1967 to 1975).</strong> Identifiable by the raised "T"-shaped ridge visible on the inside of the bobbins. Consistent, automated-wound construction at approximately 7.5k ohms. Gold-plated on all Byrdland examples.</figcaption></figure>
 
-## Body Construction & Woods
+<h2 id="body">Body Construction & Woods</h2>
 
 ### Top, Always Carved Solid Spruce
 
@@ -132,7 +130,7 @@ Look inside through the f-holes with a light. A laminated back shows thin glue l
 
 The body dimensions of the Byrdland remained essentially constant throughout production: 17 inches wide, 21 inches long (same as the L-5), and 2¼ inches deep. This depth is roughly 40% shallower than a standard L-5CES (3⅜ inches). The reduced depth was the central design request from Byrd and Garland and has never changed.
 
-## Neck Construction & Volute
+<h2 id="neck">Neck Construction & Volute</h2>
 
 ### A Neck That Doesn't Taper
 
@@ -176,7 +174,7 @@ The presence of a volute on a Byrdland indicates **Norlin-era production, approx
 
 The Byrdland's **23½-inch scale length never changed**. It is a constant throughout all eras and one of the instrument's most defining characteristics. Neck profiles varied somewhat by era. Pre-Norlin necks generally have a slim, comfortable "D" profile. The ebony fingerboard was maintained throughout the production run on all authentic instruments.
 
-## Hardware & Controls
+<h2 id="hardware">Hardware & Controls</h2>
 
 ### Tailpiece
 
@@ -232,7 +230,7 @@ The pickguard is tortoiseshell celluloid with 5-ply white/black/white/black/whit
 
 Gibson used CTS and Centralab potentiometers. The code stamped on the pots, typically in the format **XXYYWW** (manufacturer code, year, week), is one of the most reliable dating tools available. CTS pots carry manufacturer code 137; Centralab pots carry 134. A pot stamped "137 64 42" was made by CTS in 1964, week 42 (mid-October). The guitar cannot have been completed *before* that date. Cross-reference pot codes with serial number and physical features for a triangulated date. See our full [Gibson serial number and dating guide](/how-to-read-gibson-serial-numbers/) for more on reading pot codes.
 
-## Labels & Serial Numbers
+<h2 id="labels">Labels & Serial Numbers</h2>
 
 The Byrdland used two distinct interior label types over its production history. Unlike many Gibson models, it did not go through the white label or cream label eras that appear on some other instruments. Byrdlands moved directly from the orange label to the Norlin-era label.
 
@@ -272,7 +270,7 @@ Gibson reused 6-digit serial numbers multiple times during the 1960s, the same n
 
 From 1955 to 1961, Gibson also used a Factory Order Number system on higher-grade models. FONs use a letter prefix indicating the year the batch entered production. The codes for the Byrdland's first era: **W=1955, V=1956, U=1957, T=1958, S=1959, R=1960, Q=1961**. The FON reflects when that production batch *started*, which can be weeks or months before shipping, so a guitar with an R (1960) FON might carry a 1961 serial number. When both a FON and an orange-label serial are present and agree, it strengthens authenticity considerably.
 
-## Headstock & Logo Changes
+<h2 id="headstock">Headstock & Logo Changes</h2>
 
 ### The "Flowerpot" (Torch) Inlay
 
@@ -298,7 +296,7 @@ The "Gibson" script logo on the headstock was always a **pearl inlay** throughou
 
 The Byrdland uses the same long-headstock template as the L-5 throughout its history. The headstock angle changed in the mid-1960s across most Gibson models, earlier instruments have a steeper pitch; later ones a shallower angle. Binding on the headstock has been consistently 5-ply. The **back of the headstock is black-painted** on authentic examples throughout all eras.
 
-## Finishes & Colors
+<h2 id="finishes">Finishes & Colors</h2>
 
 Finish availability expanded over time. Understanding what colors were offered in a given year helps authenticate claimed dates.
 
@@ -310,7 +308,7 @@ Finish availability expanded over time. Understanding what colors were offered i
 
 All Byrdlands through the 1990s were finished in **nitrocellulose lacquer**. Authentic vintage finishes show characteristic aging: fine lacquer checking (crazing), slight amber patina on clear-finished maple, and a satin-matte quality in worn areas rather than the plastic-smooth feel of modern polyurethane. A Byrdland with a thick, plastic-feeling finish showing no checking or patina after 40+ years has likely been refinished. Refinished examples can still be excellent players, but command significantly less collector value.
 
-## Full Year-by-Year Timeline
+<h2 id="timeline">Full Year-by-Year Timeline</h2>
 
 #### Introduction, First Production
 
@@ -384,7 +382,7 @@ Byrdland removed from standard catalog and placed in the Gibson Historic Collect
 
 The Byrdland continues as a Gibson Custom Shop instrument. Modern examples feature high-grade figured maple backs and sides, solid carved spruce tops, ebony fingerboards, and period-correct hardware. A 12-string Byrdland variant was offered in a limited run of approximately 20 instruments in 1976.
 
-## Authentication Checklist
+<h2 id="checklist">Authentication Checklist</h2>
 
 Use this checklist when examining any Byrdland. Not all items apply to all eras, cross-reference with the timeline and feature sections above.
 
@@ -447,7 +445,7 @@ Use this checklist when examining any Byrdland. Not all items apply to all eras,
 
 For any Byrdland with a claimed value above $10,000, obtain a written assessment from a recognized vintage Gibson specialist who has physically examined the instrument. Cross-reference the three most reliable dating tools simultaneously: **(1) pot codes, (2) pickup type and sticker, and (3) serial number range**. If all three agree and align with the physical features described in this guide, you can proceed with confidence. If any two disagree, investigate further before purchasing. For a free online appraisal inquiry, visit our [free appraisal page](/free-appraisal/).
 
-## Related Resources
+<h2 id="links">Related Resources</h2>
 
 Expand your knowledge of vintage Gibson authentication and valuation with these detailed guides.
 

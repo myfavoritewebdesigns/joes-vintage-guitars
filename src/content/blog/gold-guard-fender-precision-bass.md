@@ -12,8 +12,6 @@ metaDescription: "Defined by its gold anodized pickguard and split-coil pickup, 
 ogImage: "/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-scaled.jpg"
 wpId: 20887
 ---
-<figure><img alt="1959 Fender Precision Bass with gold anodized pickguard, front body shot" width="2560" height="1707" src="/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-scaled.jpg" loading="lazy" decoding="async"><figcaption>1959 Fender Precision Bass: Gold Anodized Guard</figcaption></figure>
-
 The 1957 to 1959 Fender Precision Bass is what most collectors mean when they talk about the **Golden Era** of the electric bass. This three-year window, defined by the gold anodized aluminum pickguard, marked the P-Bass's transition from its Tele-style roots into the silhouette that still sets the industry standard.
 
 What follows is a full breakdown: the engineering choices behind the gold guard, the year-by-year construction changes, the authenticity markers serious collectors look for, and why a clean example can run anywhere from the price of a mid-size sedan to a small house.

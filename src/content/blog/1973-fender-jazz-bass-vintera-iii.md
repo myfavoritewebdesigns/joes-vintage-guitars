@@ -14,8 +14,6 @@ wpId: 20965
 ---
 In the late '60s, a kid named Jim wore the grooves off his records chasing one thing: that low-end voice. The growl under "Foxy Lady." The melodic ache under "Ramble On." That rubber-band snap that turned a Sly Stone hook into a moving target. He didn't just want a bass. He wanted the bass those guys played. So in late 1973, his parents put a brand-new Fender Jazz Bass under the Christmas tree. 3-color sunburst, maple fingerboard, black block inlays, the works. Fifty-plus years later, that same bass tells you most of what you need to know about CBS-era Fender. And, as it turns out, it tells you something surprising about Fender's brand-new Vintera III series, too.
 
-<figure><img alt="Jim with his 1973 Fender Jazz Bass, the same bass his parents bought him new in 1973, still in his hands more than fifty years later" width="1920" height="2560" src="/images/blog/1973-fender-jazz-bass-vintera-iii/jim-with-1972-fender-jazz-bass-scaled.jpeg" loading="lazy" decoding="async"><figcaption>Jim with his '73 Jazz Bass. Same hands, same bass, fifty-plus years on.</figcaption></figure>
-
 #### On this page
 
 1.  [The Bass Heroes That Sealed the Deal](#bass-heroes)

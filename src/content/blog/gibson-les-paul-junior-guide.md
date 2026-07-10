@@ -35,8 +35,6 @@ wpId: 20543
 21.  [Further Reading](#lpj-resources)
 22.  [FAQ](#lpj-faq)
 
-<figure><img width="2560" height="1707" src="/images/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-1-scaled.jpg" alt="1955 Gibson Les Paul Junior, original single-cutaway slab body in sunburst finish" loading="lazy" decoding="async"></figure>
-
 <h2 id="lpj-intro">Introduction: The Guitar That Outgrew Its Ambitions</h2>
 
 Gibson built the Les Paul Junior in 1954 as a student instrument. The brief was simple: drop the price, drop the appointments, keep the construction honest. No binding, no carved top, no neck pickup. A single P-90 wired to a volume and tone. The list price came in at $99.50 against $225 for the Goldtop, and the entire point was getting a real Gibson solidbody into the hands of beginners who couldn't afford the better instruments.
@@ -55,7 +53,7 @@ Fender was eating Gibson's lunch on the entry-level end. The Telecaster sat at a
 
 The Junior didn't sit alone in the budget lineup for long. By 1955 Gibson had added the Les Paul TV (essentially a Junior in a different finish) and the Les Paul Special (a Junior with two pickups and binding). The result was a tiered budget catalog that gave teachers, school programs, and parents buying first guitars several options at different price points. Every spec on the Junior that's been simplified relative to a Standard or Custom was a cost decision rather than a tonal one, which is worth keeping in mind when somebody tries to sell you on the idea that Gibson set out to build a "pure" instrument. They set out to build a cheap one. The fact that the result has held up for seventy years is partly luck and partly the construction methods Gibson used on everything they made at the time.
 
-## The First Les Paul Juniors
+<h2 id="lpj-1954">The First Les Paul Juniors</h2>
 
 The earliest 1954 Juniors are messier than most reference books admit. Production records from the first half of the year are patchy. The guitars themselves vary in ways that strongly suggest Gibson was still working out which specs would stick. If you handle enough of them you start to see the variation. Body wood that shouldn't be there. Pickup positions that drift by a couple of millimeters. None of this is documented in the original catalogs because most of these changes happened on the factory floor between print cycles.
 
@@ -97,7 +95,7 @@ Bonnet-style knobs (taller, barrel-shaped) on a guitar being sold as a 1954 or e
 
 Standard 1954 finish is a two-tone sunburst in nitrocellulose lacquer. Amber-yellow center fading out to dark brown or near-black at the edges. The very earliest examples sometimes show a deeper, redder burst that's closer to Gibson's acoustic-guitar "Cremona" finish, which suggests the early Juniors were getting sprayed in the same booth as the archtops. By mid-1954 the burst had settled into what most collectors think of as the Junior sunburst: bright yellow center, translucent edges that let the mahogany grain show through clearly. The lacquer ages by checking (those fine spider-web cracks you see on old finishes) and by yellowing as the lacquer oxidizes. Both are normal and expected on an honest 70-year-old guitar.
 
-## Consolidation and the TV Model
+<h2 id="lpj-1955-1956">Consolidation and the TV Model</h2>
 
 ### Introduction of the TV Model
 
@@ -123,7 +121,7 @@ Second, the knobs changed shape. Out went the low, flat "speed" knobs. In came t
 
 Across 1956 and 1957, Gibson moved most P-90 production to Alnico 5 magnets, leaving the Alnico 3 magnets of the earliest run behind. Alnico 5 has a stronger field, which increases output and adds some edge to the attack. Gibson wasn't consistent about magnet sourcing during this period and pickups with either magnet type can show up legitimately in a 1956 or 1957 Junior, so finding one or the other isn't on its own diagnostic. That said, an Alnico 3 magnet in a late-1956 or 1957 instrument is unusual enough to warrant a careful look at the rest of the components before signing the check.
 
-## Final Years of the Single-Cutaway
+<h2 id="lpj-1957-1958">Final Years of the Single-Cutaway</h2>
 
 By 1957 the Junior had settled. Three years of production at Kalamazoo had refined the build process, and instruments from this period vary less from one to the next than the early-1954 batch. If you're looking for a single-cutaway with the fewest authentication question marks, late 1957 through early 1958 is where to start.
 
@@ -139,7 +137,7 @@ The sunburst itself shifted across the same window. Less of the intense yellow c
 
 The list price moved up in 1957 from $99.50 to $120. Material costs were climbing and Gibson had started to figure out that working players, not just students, were buying Juniors. The simplicity the catalog framed as a limitation was being treated as a feature by the people actually using these guitars on stage.
 
-## The Double-Cutaway Redesign
+<h2 id="lpj-1958-1960">The Double-Cutaway Redesign</h2>
 
 The 1958 double-cutaway redesign is the single biggest change in the Junior's history. The single-cutaway slab had a real limitation that nobody at Gibson seemed willing to admit until 1958: you couldn't actually reach the top frets. The double-cut fixed that without sacrificing anything else worth keeping.
 
@@ -165,7 +163,7 @@ One additional pickguard detail worth knowing: black pickguards aren't exclusive
 
 Most collectors and players land on the 1958 to 1960 double-cutaway as the sweet spot of the Junior's evolution. You get the slab mahogany body and everything that delivers tonally, plus the upper-fret access the single-cutaway lacked. TV Yellow double-cutaways command the highest prices of any standard-production Junior in most market conditions.
 
-## The SG Transition Era
+<h2 id="lpj-1961-1962">The SG Transition Era</h2>
 
 In 1961 Gibson redesigned its entire solidbody line. The new shape, what we now call the SG, was thinner, lighter, and more aggressively contoured than any earlier Gibson solidbody. The double cutaway got sharper, with the pointed horns that became the SG signature. Overall body thickness dropped from roughly 1¾ inches to about 1⅜.
 
@@ -185,7 +183,7 @@ The SG body design has one well-known weakness. The thinner neck heel and the de
 
 All through 1961 and 1962, these guitars still wore "Les Paul Junior" on the headstock silk screen. Gibson's relationship with Les Paul had been deteriorating across the late 1950s and early 1960s over financial and contractual disputes, and in 1963 Gibson dropped the Les Paul name from the SG line entirely. That gives the 1961 and 1962 instruments a peculiar status. They have the SG body and the Les Paul branding, and the collector market treats them as Juniors for valuation purposes.
 
-## The P-90 "Dog Ear" Pickup: Technical Analysis
+<h2 id="lpj-p90">The P-90 "Dog Ear" Pickup: Technical Analysis</h2>
 
 The P-90 is the entire sonic identity of the Les Paul Junior. Every P-90 shares the same basic architecture. A flat coil wound around a bobbin. Six adjustable polepieces (steel screws) running through the coil. Two bar magnets underneath, oriented with opposite poles facing each other. The coil is wound with 42-gauge plain enamel wire, usually 9,500 to 10,500 turns. DC resistance on a vintage example reads in the 7.5K to 9.5K ohm range.
 
@@ -213,7 +211,7 @@ Measurements given as distance from the bottom of the string (fretted at the hig
 
 Individual polepiece height is the setup detail most players ignore and most need to address. Wound strings (low E, A, D) vibrate at higher amplitude than the plain strings (G, B, high E), and they generally want lower polepieces. Adjust a quarter-turn at a time. Plug into a clean amp between adjustments. That's the only way to dial in real string-to-string balance on a specific instrument.
 
-## The Wraparound Bridge: Design, Evolution, and Authentication
+<h2 id="lpj-bridge">The Wraparound Bridge: Design, Evolution, and Authentication</h2>
 
 The wraparound combines bridge and tailpiece functions in a single piece that loops back over a metal anchor bar attached to the body. It's one of the things people argue about. The argument has merit. Direct coupling of strings to body produces the kind of sustain that more elaborate bridge systems can't quite match, and a lot of builders and players prefer the result.
 
@@ -231,7 +229,7 @@ Original 1954 to 1958 wraparounds are nickel-plated pot metal (zinc alloy). They
 
 A small number of Juniors left the factory with compensated saddles. These have a stepped or angled saddle bar that approximates per-string intonation correction without going to fully individual saddles. You'll find them mostly on later single-cutaway and early double-cutaway examples. Their presence isn't a red flag. They're period-correct components. Their absence isn't either.
 
-## Finish Analysis: Reading the Lacquer for Dating and Authentication
+<h2 id="lpj-finish">Finish Analysis: Reading the Lacquer for Dating and Authentication</h2>
 
 The lacquer on a vintage Junior is one of your best authentication and dating tools. Gibson's nitrocellulose ages in predictable ways but never perfectly uniformly. The specific pattern on any given guitar tells you a lot about its history if you know what you're looking at.
 
@@ -257,7 +255,7 @@ Cherry Red on double-cutaway and SG-style Juniors is famous for fading, sometime
 -   **Absence of period-correct checking**: A 60-year-old nitro finish kept in reasonable conditions should show some checking. A guitar with perfectly intact, uncracked finish across its entire surface warrants scrutiny.
 -   **Finish thickness**: Refinished guitars often have noticeably thicker lacquer, especially around the body contours and edges. Running a fingertip along these areas can sometimes reveal subtle bulging consistent with a new coat sprayed over the original.
 
-## Authentication: Era-by-Era Checklists
+<h2 id="lpj-authentication">Authentication: Era-by-Era Checklists</h2>
 
 No single feature on its own proves or disproves authenticity. Authentication is an accumulation of evidence. Serial number, pot date codes, component styles, finish characteristics, construction details. Each of these in isolation can mislead. Taken together they either support or undermine the instrument's claimed identity. Always cross-reference.
 
@@ -311,7 +309,7 @@ No single feature on its own proves or disproves authenticity. Authentication is
 
 Pots from this period came primarily from CTS (manufacturer code 137) and Centralab (code 134). The standard stamp reads: **manufacturer code, two-digit year, two-digit week**. A pot stamped "137 5634" is a CTS pot built in the 34th week of 1956. Important caveat: pots were manufactured and then warehoused before going into a guitar, so pot codes establish the *earliest possible* date of manufacture, not the exact build year. Codes from a year or two before the claimed production date are normal and expected. Codes from several years earlier are a flag worth following up on.
 
-## Serial Numbers, FONs, and Dating Your Junior
+<h2 id="lpj-serial-numbers">Serial Numbers, FONs, and Dating Your Junior</h2>
 
 Gibson's serial number system and Factory Order Numbers apply across the whole Junior production run, 1954 through 1962. Knowing how to read them and how to cross-reference one against the other is one of the most useful dating tools you have.
 
@@ -325,7 +323,7 @@ Gibson used an ink-stamped serial number system on the back of the headstock dur
 
 The principle behind all of this: always cross-reference the headstock serial number with the FON from the control cavity or neck joint. If the two codes suggest inconsistent production dates, that's not necessarily a deal-breaker, but it warrants investigation of components and construction details before you draw any conclusions about the instrument's authenticity.
 
-## Tonal Characteristics: Era-by-Era Comparison
+<h2 id="lpj-tone">Tonal Characteristics: Era-by-Era Comparison</h2>
 
 | Era | Bass | Midrange | Treble | Sustain | Overall Character |
 | --- | --- | --- | --- | --- | --- |
@@ -346,7 +344,7 @@ The Goldtop is a fundamentally different instrument. The carved maple top adds c
 
 Gibson introduced the Melody Maker in 1959 as an even cheaper alternative. Thinner body, shorter scale length, a smaller single-coil pickup rather than a P-90. The result is a softer, thinner tone with very little of the aggressive midrange that defines the Junior. Melody Makers have their own following, especially among players who want a light, snappy guitar for specific applications, but as a player's instrument the Junior is the substantially more capable guitar.
 
-## Rare Variants, Special Orders, and Production Anomalies
+<h2 id="lpj-rare">Rare Variants, Special Orders, and Production Anomalies</h2>
 
 ### Three-Quarter Scale Junior
 
@@ -364,7 +362,7 @@ The black double-cutaway Juniors are the most famous of the non-standard finish 
 
 The most common modification you'll see on a surviving Junior is the addition of a second pickup to give it the functionality of a Les Paul Special. A converted Junior carries diminished collector value compared to an unmodified factory original, though the resulting guitar can play and sound very well if the conversion was done by someone competent. The primary tell is evidence of a filled or modified pickup route under the pickguard. Pop the guard and look.
 
-## Famous Players and the Junior's Cultural Trajectory
+<h2 id="lpj-players">Famous Players and the Junior's Cultural Trajectory</h2>
 
 ### Early Professional Adoption
 
@@ -378,7 +376,7 @@ The Junior's biggest cultural moment came in the mid-to-late 1970s, when the New
 
 Through the 1980s, 1990s, and into the 2000s, players across multiple genres kept developing the Junior's range. Warren Haynes's use of Juniors in blues-rock contexts established the model well outside punk and hard rock. Billie Joe Armstrong of Green Day brought the Junior to mainstream visibility through both his own use of vintage examples and his Gibson signature model, which introduced the guitar to a generation of younger players who otherwise wouldn't have known it existed. The downstream effect on vintage market demand is measurable. Prices on the configurations Armstrong plays publicly climbed noticeably in the years following his signature deal.
 
-## Valuation: Understanding What Drives the Market
+<h2 id="lpj-valuation">Valuation: Understanding What Drives the Market</h2>
 
 The vintage Les Paul Junior market is active and well-developed. Specific dollar figures move constantly with market conditions, so this section maps the structural factors that determine where any given Junior sits in the value hierarchy rather than quoting prices that will be wrong by the time you read this.
 
@@ -398,7 +396,7 @@ Documented provenance pulls real premiums. Original receipts, owner history, pho
 
 <figure><img width="2560" height="1707" src="/images/blog/gibson-les-paul-junior-guide/1958-gibson-les-paul-junior-chipboard-case-scaled.jpg" alt="Original brown chipboard case for a 1958 Gibson Les Paul Junior, period-correct case candy adds meaningful value to any vintage Junior" loading="lazy" decoding="async"></figure>
 
-## Modern Reissues: How They Compare to the Originals
+<h2 id="lpj-reissues">Modern Reissues: How They Compare to the Originals</h2>
 
 | Feature | Vintage Original | Gibson USA Reissue | Gibson Custom Shop | Epiphone |
 | --- | --- | --- | --- | --- |
@@ -411,7 +409,7 @@ Documented provenance pulls real premiums. Original receipts, owner history, pho
 
 Gibson Custom Shop Juniors require a significant investment but still fall well below the prices commanded by original vintage examples in good condition. For players who want the genuine vintage feel and sound without the authentication risk and provenance anxiety that come with an original, Custom Shop reissues are worth real consideration. For players who just want the visual look and basic playability of the Junior design at an accessible price, the Epiphone versions do their job. They're a different category of instrument, not a substitute for the original, and they're priced accordingly.
 
-## Setup, Maintenance, and Preservation
+<h2 id="lpj-setup">Setup, Maintenance, and Preservation</h2>
 
 ### Fretwork
 
@@ -431,7 +429,7 @@ Never put a vintage Junior on a rubber guitar stand or hanger. Rubber reacts che
 
 The ideal storage range is 45 to 55 percent relative humidity with stable temperature and small swings. Long-term storage in a hard case with a two-way humidity control system like Boveda packs is best practice. Never store a vintage guitar in a car trunk, an attic, or a basement. Wild temperature and humidity swings cause glue joint failures, finish damage, and cracked wood in instruments that have survived 65+ years in better conditions. Don't be the owner who undoes decades of luck in a single hot summer week.
 
-## A Practical Buying Guide
+<h2 id="lpj-buying">A Practical Buying Guide</h2>
 
 ### Define Your Priorities First
 
@@ -449,7 +447,7 @@ No photograph, however well shot, substitutes for hands-on examination. The crit
 
 The price of a vintage Junior covers more than the physical instrument. It covers its story, its rarity, and its place in guitar history. When you buy an all-original 1958 Cherry Red double-cutaway in excellent condition, you're buying something that cannot be reproduced. A genuine artifact from a specific moment in instrument-making and a specific moment in cultural history. The fact that it can't be reproduced is part of what you're paying for. If that doesn't matter to you, a high-quality reissue will serve your musical needs at a fraction of the cost.
 
-## Conclusion: The Junior's Enduring Legacy
+<h2 id="lpj-conclusion">Conclusion: The Junior's Enduring Legacy</h2>
 
 The Gibson Les Paul Junior is one of the great unlikely success stories in electric guitar history. The 1954 to 1962 production run shows continuous refinement broken up by two major redesigns, and each redesign produced a genuinely different instrument while preserving what made the model a Junior in the first place. Slab mahogany body. Single bridge-position P-90. Minimal hardware. No sonic compromise.
 
@@ -457,7 +455,7 @@ For the collector, the Junior is a long study. Specific evolution of specs, fini
 
 The Junior's journey from student model to cultural icon shows something that keeps proving true: great tone isn't a function of complexity or cost. Sometimes the stripped-down, elemental choice (one pickup, one volume, one tone, one idea) turns out to be the most powerful choice of all.
 
-## Further Reading and Research Resources
+<h2 id="lpj-resources">Further Reading and Research Resources</h2>
 
 ### Reference Books
 
@@ -476,7 +474,7 @@ The Junior's journey from student model to cultural icon shows something that ke
 -   The Les Paul Forum. One of the longest-running and most knowledgeable online communities focused specifically on vintage Gibson Les Paul instruments, with extensive documented example archives and experienced authenticators.
 -   Vintage Guitar Magazine. Publishes regular features on specific models and production years with authentication guidance from recognized experts in the field.
 
-## Frequently Asked Questions
+<h2 id="lpj-faq">Frequently Asked Questions</h2>
 
 Both are P-90 pickups with the same coil construction. They differ in cover design and how they mount. The dog ear, used on the Junior, has extended mounting tabs on its long sides that screw directly into the guitar top. No separate mounting ring needed. The soapbar, used on the Special, Goldtop, and others, has a flush rectangular cover and mounts through a separate frame or directly into the body. The electrical and magnetic specs are essentially identical. Any tonal differences between them come from mounting position and body routing differences, not from the pickup design itself.
 

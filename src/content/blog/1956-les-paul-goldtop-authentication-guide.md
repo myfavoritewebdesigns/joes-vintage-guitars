@@ -12,8 +12,6 @@ metaDescription: "The 1956 Les Paul Goldtop is a transition-year guitar: the onl
 ogImage: "/images/blog/1956-les-paul-goldtop-authentication-guide/1956-gibson-les-paul-standard-goldtop-scaled.jpg"
 wpId: 18898
 ---
-![1956 Gibson Les Paul Goldtop with P-90 pickups and no-wire ABR-1 bridge leaning against a vintage 1950s Gibson Les Paul GA-40 amplifier.](../../assets/blog/1956-les-paul-goldtop-authentication-guide/1956-gibson-les-paul-standard-goldtop-1024x683.jpg)
-
 A stunning example of the 1956 Les Paul Goldtop leaning against its companion Gibson Les Paul amplifier from the same era. This year is the only one where you’ll find the P-90 “Soapbar” pickups paired with the first full-production run of the ABR-1 Tune-o-matic bridge, a combination that many purists consider the best of Gibson’s “Golden Era” engineering.
 
 The 1956 Goldtop is a favorite among players because it’s the only full production year to combine the grit of P-90 pickups with the precision of the ABR-1 bridge. If you’re evaluating one of these guitars, every tiny detail matters. Below is the technical breakdown. If you need help dating your Gibson, check out our [Gibson serial number lookup](/how-to-read-gibson-serial-numbers/). If you’d like to [sell your Gibson](/sell-my-gibson-guitar/), feel free to reach out for a competitive and hassle-free offer!

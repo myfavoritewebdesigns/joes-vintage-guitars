@@ -12,8 +12,6 @@ metaDescription: "A look at the rare “Electric” version of Martin’s most f
 ogImage: "/images/blog/martin-d18e-vs-d28e-authentication-guide/1959-martin-d-28-e-1-scaled.jpg"
 wpId: 18939
 ---
-![1959 Martin D-28E vintage acoustic-electric guitar frontal body shot featuring dual DeArmond pickups, Brazilian Rosewood, and gold hardware.](../../assets/blog/martin-d18e-vs-d28e-authentication-guide/1959-martin-d-28-e-1-1024x683.jpg)
-
 A rare factory-original 1959 Martin D-28E. Note the distinctive dual DeArmond pickups and the iconic gold-plated hardware that set this Brazilian Rosewood guitar apart.
 
 In the late 1950s, the acoustic world was facing a “volume crisis.” As rock and roll took over, acoustic guitars were being drowned out by drums and electric amps. Martin’s response was the “E” series: the D-18E and D-28E. Produced only between 1958 and 1959, these guitars were initially considered a commercial failure, with only a few hundred made. Today, they are among the most discussed and polarizing vintage Martins in existence, thanks to a mix of quirky engineering and a massive surge in pop-culture relevance. This guide will take you through the similarities and differenced between the D-18e and the D-28e. In addition, we will ocver authentication tips and model specifications. If you need help finding the year of your Martin, check out our [Martin serial number lookup](/martin-serial-and-model-numbers/). If you’d like to sell a guitar, visit our [“sell my Martin”](/sell-my-martin-guitar/) page.

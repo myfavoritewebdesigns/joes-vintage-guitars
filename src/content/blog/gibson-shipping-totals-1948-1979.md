@@ -12,8 +12,6 @@ metaDescription: "A look at the official Kalamazoo records on how rare your inst
 ogImage: "/images/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-serial-number-scaled.jpg"
 wpId: 18430
 ---
-![Detailed view of the back of a 1958 Gibson Les Paul Special headstock featuring the original black ink-stamped serial number. The Five-digit sequence is applied on top of the "TV Yellow" nitrocellulose finish, showing a distinct, slightly fuzzy edge characteristic of 1950s factory stamping rather than a modern impression into the wood.](../../assets/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-serial-number-1024x683.jpg)
-
 -   [Les Paul Standard (1952-1961)](#lp-std-52-61)
 -   [Les Paul Custom (1955-1961)](#lp-cust-55-61)
 -   [Les Paul Junior & TV Model](#lp-jr-tv-54-61)
@@ -91,6 +89,8 @@ Because the TV Model, known for its **limed mahogany look**, shipped in much low
 | LP Jr 3/4 DC '60 | \-\-\- | 96 | \-\-\- |
 | LP Jr DC '61 | \-\-\- | 2,513 | 29 |
 | LP Jr 3/4 DC '61 | \-\-\- | 71 | \-\-\- |
+
+<h2 id="lp-spec-55-61">Les Paul Special Shipping Totals (1955-1961)</h2>
 
 The shipping totals for the Gibson Les Paul Special from **1955 to 1961** trace the production history of the high-trim, dual-pickup sibling to the Junior. These figures are vital for collectors tracking the rarity of the mid-fifties **“single-cut” Special** compared to the double-cutaway transition that occurred in late 1958.
 
