@@ -33,7 +33,13 @@ The complete year-specific reference for dating and authenticating a genuine 196
 -   [Original Case & Accessories](#case)
 -   [Related Resources](#links)
 
-<figure><img alt="1962 Fender Stratocaster 3-color sunburst, alder body, slab rosewood neck, 3-ply white pickguard, synchronized tremolo, pre-CBS Fullerton production" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1962 Fender Stratocaster, 3-color sunburst.</strong> A prime example of pre-CBS Fullerton production at its peak. This example shows the characteristic 3-color sunburst with its yellow-to-orange-to-dark-brown graduation, the 3-ply white pickguard (note the slight mint aging of the outer layer), and the synchronized tremolo. The slab rosewood fingerboard is visible at the headstock end, one of the most desirable specifications on any 1962 example.</figcaption></figure>
+<figure>
+
+![1962 Fender Stratocaster 3-color sunburst, alder body, slab rosewood neck, 3-ply white pickguard, synchronized tremolo, pre-CBS Fullerton production](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg)
+
+<figcaption><strong>1962 Fender Stratocaster, 3-color sunburst.</strong> A prime example of pre-CBS Fullerton production at its peak. This example shows the characteristic 3-color sunburst with its yellow-to-orange-to-dark-brown graduation, the 3-ply white pickguard (note the slight mint aging of the outer layer), and the synchronized tremolo. The slab rosewood fingerboard is visible at the headstock end, one of the most desirable specifications on any 1962 example.</figcaption>
+
+</figure>
 
 ## Why 1962 Is a Benchmark Year
 
@@ -71,7 +77,13 @@ The most reliable single dating reference on a pre-CBS Fender is the **penciled 
 
 On a genuine 1962, the stamp ink will have aged and partially absorbed into the wood grain. Fresh-looking stamps on wood that shows other signs of age are suspicious. The stamp is always on the butt end of the heel, never on the face of the heel or on the side.
 
-<figure><img alt="1962 Fender Stratocaster neck heel showing rubber-stamped month-year date on butt end of neck, most reliable single dating source for pre-CBS Fender" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-neck-heel-date-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Neck heel date stamp on a 1962 Fender Stratocaster.</strong> The rubber-stamped month-year code on the butt end of the neck heel is the single most reliable dating reference on any pre-CBS Fender. The ink has aged and partially absorbed into the wood grain, consistent with a genuine 60-year-old stamp. The neck must be removed from the body to view this date. Always cross-reference with the body date and pot codes to triangulate the assembly period.</figcaption></figure>
+<figure>
+
+![1962 Fender Stratocaster neck heel showing rubber-stamped month-year date on butt end of neck, most reliable single dating source for pre-CBS Fender](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-neck-heel-date-scaled.jpg)
+
+<figcaption><strong>Neck heel date stamp on a 1962 Fender Stratocaster.</strong> The rubber-stamped month-year code on the butt end of the neck heel is the single most reliable dating reference on any pre-CBS Fender. The ink has aged and partially absorbed into the wood grain, consistent with a genuine 60-year-old stamp. The neck must be removed from the body to view this date. Always cross-reference with the body date and pot codes to triangulate the assembly period.</figcaption>
+
+</figure>
 
 ### The Body Date
 
@@ -89,7 +101,13 @@ The pot code gives you the **earliest possible assembly date**. Always read all 
 
 Remove the 11 pickguard screws and lift the guard carefully. The wiring harness is attached. The three pots are soldered to the pickguard. The date code is stamped on the back of the pot casing. A flashlight and a magnifier make reading them much easier without fully removing the harness.
 
-<figure><img alt="1962 Fender Stratocaster Stackpole pot date code 304-6242 stamped on back of potentiometer casing, confirms 1962 week 42 manufacture" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-pot-close-up-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Stackpole pot date code on a 1962 Fender Stratocaster.</strong> This pot reads <strong>304 6242</strong>, Stackpole (manufacturer code 304), year 1962, week 42. That places assembly no earlier than approximately mid-October 1962. Always read all three pots and use the latest date code as your earliest possible assembly floor. A single pot reading years later than the others indicates a replacement.</figcaption></figure>
+<figure>
+
+![1962 Fender Stratocaster Stackpole pot date code 304-6242 stamped on back of potentiometer casing, confirms 1962 week 42 manufacture](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-pot-close-up-scaled.jpg)
+
+<figcaption><strong>Stackpole pot date code on a 1962 Fender Stratocaster.</strong> This pot reads <strong>304 6242</strong>, Stackpole (manufacturer code 304), year 1962, week 42. That places assembly no earlier than approximately mid-October 1962. Always read all three pots and use the latest date code as your earliest possible assembly floor. A single pot reading years later than the others indicates a replacement.</figcaption>
+
+</figure>
 
 ## The Neck: Slab vs. Veneer Rosewood
 
@@ -111,9 +129,21 @@ The replacement introduced in mid-1962, used on all rosewood-board Stratocasters
 -   **Value:** Still a desirable pre-CBS example, but lower than slab
 -   **Note:** Does not affect playability, purely a collector distinction
 
-<figure><img alt="1962 Fender Stratocaster slab rosewood fingerboard nut area, approximately 4.8mm thick flat-bottom board showing deep rosewood depth at headstock end" width="1268" height="847" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-slab-board-example.jpg" loading="lazy" decoding="async"><figcaption><strong>Slab rosewood board (early 1962).</strong> Looking at the headstock end at the nut, the rosewood occupies a visibly substantial depth, approximately 4.8mm. The glue line between rosewood and maple sits well below the fretboard surface. This is the flat-bottom slab configuration used from 1959 through mid-1962 and is the more desirable and valuable specification.</figcaption></figure>
+<figure>
 
-<figure><img alt="1962 Fender Stratocaster veneer rosewood fingerboard nut area, approximately 2mm thin curved-bottom board showing shallow rosewood depth at headstock end" width="1442" height="959" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-slab-board-example.jpg" loading="lazy" decoding="async"><figcaption><strong>Veneer rosewood board (mid to late 1962).</strong> At the same vantage point, the rosewood is noticeably thinner, only about 2mm. The glue line sits close to the fretboard surface and the maple neck wood is visible much higher up. This curved-bottom veneer replaced the slab in mid-1962 and is still a genuine pre-CBS specification.</figcaption></figure>
+![1962 Fender Stratocaster slab rosewood fingerboard nut area, approximately 4.8mm thick flat-bottom board showing deep rosewood depth at headstock end](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-slab-board-example.jpg)
+
+<figcaption><strong>Slab rosewood board (early 1962).</strong> Looking at the headstock end at the nut, the rosewood occupies a visibly substantial depth, approximately 4.8mm. The glue line between rosewood and maple sits well below the fretboard surface. This is the flat-bottom slab configuration used from 1959 through mid-1962 and is the more desirable and valuable specification.</figcaption>
+
+</figure>
+
+<figure>
+
+![1962 Fender Stratocaster veneer rosewood fingerboard nut area, approximately 2mm thin curved-bottom board showing shallow rosewood depth at headstock end](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-slab-board-example.jpg)
+
+<figcaption><strong>Veneer rosewood board (mid to late 1962).</strong> At the same vantage point, the rosewood is noticeably thinner, only about 2mm. The glue line sits close to the fretboard surface and the maple neck wood is visible much higher up. This curved-bottom veneer replaced the slab in mid-1962 and is still a genuine pre-CBS specification.</figcaption>
+
+</figure>
 
 ### How to Identify Slab vs. Veneer
 
@@ -159,15 +189,33 @@ One of the most compelling authentication details on an original-finish pre-CBS 
 
 When you remove the neck plate, you should see a clearly defined area of *less aged* or protected finish underneath exactly matching the plate's shape. More tellingly, any finish chips or checking that cross the plate boundary should **match up perfectly**. A chip that starts on the exposed body and continues under the plate, or checking patterns that continue across the boundary, confirm the plate has never been removed or swapped. If the finish under the plate looks dramatically different (fresher, differently checked, or if chips along the edge don't align), the plate may not be original to this body.
 
-<figure><img alt="1962 Fender Stratocaster neck plate removed showing puzzle piece finish pattern, lacquer chips and wear along plate edge match the finish underneath confirming original unswapped plate" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-puzzle-piece-neck-plate-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>The "puzzle piece" test on a 1962 Fender Stratocaster neck plate.</strong> With the plate removed, the finish chips and wear patterns at the plate's edge align precisely with the finish underneath. The chips that are visible on the exposed body continue under the plate's boundary in a matching pattern. This interlocking of wear and checking across the plate edge confirms the plate has never been swapped. A replacement plate, or a refinished body, would show a clean break at the edge rather than this continuous pattern.</figcaption></figure>
+<figure>
+
+![1962 Fender Stratocaster neck plate removed showing puzzle piece finish pattern, lacquer chips and wear along plate edge match the finish underneath confirming original unswapped plate](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-puzzle-piece-neck-plate-scaled.jpg)
+
+<figcaption><strong>The "puzzle piece" test on a 1962 Fender Stratocaster neck plate.</strong> With the plate removed, the finish chips and wear patterns at the plate's edge align precisely with the finish underneath. The chips that are visible on the exposed body continue under the plate's boundary in a matching pattern. This interlocking of wear and checking across the plate edge confirms the plate has never been swapped. A replacement plate, or a refinished body, would show a clean break at the edge rather than this continuous pattern.</figcaption>
+
+</figure>
 
 ### Nail Holes
 
 Fender suspended bodies from nails during the finishing process. The nail was driven in first, then the body was sprayed. On a 1962 Stratocaster the nail holes are on the **face of the body**, hidden under the pickguard. The key authentication point: because the nail was in place during spraying, it *masked the inside of the hole* from the finish. A genuine original nail hole should have **bare, unfinished wood inside**. The lacquer never reached it. If the inside walls of a nail hole show finish coating, the body was refinished *after* the nail was removed, with lacquer flowing into the now-empty hole. On a genuine 1962, lift the pickguard and look inside the nail holes with a light. Bare wood inside is correct.
 
-<figure><img alt="1962 Fender Stratocaster body face nail hole under pickguard area, finishing suspension point hidden beneath the pickguard on the body face" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-paint-hole-1-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Nail hole on the body face of a 1962 Fender Stratocaster.</strong> The nail was in place during spraying, masking the interior from lacquer. A genuine original nail hole has <strong>bare unfinished wood inside</strong>, correct and expected. Finish coating the inside walls is the red flag: it means the body was refinished after the nail was removed, with lacquer flowing into the empty hole. Inspect with the pickguard removed and a light angled into the hole.</figcaption></figure>
+<figure>
 
-<figure><img alt="Second finishing nail hole on 1962 Fender Stratocaster body face, under pickguard, confirming original Fullerton body finishing method" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-paint-hole-2-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Second nail hole on the same 1962 body face.</strong> Check both holes: both should show <strong>bare wood inside</strong>, no finish on the interior walls. If both holes have bare interiors, that supports an original unfinished body. If finish is visible inside either hole, the body has been refinished after the nails were pulled. Consistent bare-wood interiors across multiple nail holes is a strong positive authentication indicator.</figcaption></figure>
+![1962 Fender Stratocaster body face nail hole under pickguard area, finishing suspension point hidden beneath the pickguard on the body face](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-paint-hole-1-scaled.jpg)
+
+<figcaption><strong>Nail hole on the body face of a 1962 Fender Stratocaster.</strong> The nail was in place during spraying, masking the interior from lacquer. A genuine original nail hole has <strong>bare unfinished wood inside</strong>, correct and expected. Finish coating the inside walls is the red flag: it means the body was refinished after the nail was removed, with lacquer flowing into the empty hole. Inspect with the pickguard removed and a light angled into the hole.</figcaption>
+
+</figure>
+
+<figure>
+
+![Second finishing nail hole on 1962 Fender Stratocaster body face, under pickguard, confirming original Fullerton body finishing method](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-paint-hole-2-scaled.jpg)
+
+<figcaption><strong>Second nail hole on the same 1962 body face.</strong> Check both holes: both should show <strong>bare wood inside</strong>, no finish on the interior walls. If both holes have bare interiors, that supports an original unfinished body. If finish is visible inside either hole, the body has been refinished after the nails were pulled. Consistent bare-wood interiors across multiple nail holes is a strong positive authentication indicator.</figcaption>
+
+</figure>
 
 ## Pickguard & Controls Layout
 
@@ -177,7 +225,13 @@ The 1962 Stratocaster uses a **3-ply white/black/white pickguard**, the three la
 
 The original 1962 pickguard will show visible aging, slight warping or cupping from decades under string tension. Importantly, the outer white layer of genuine pre-CBS 3-ply guards ages to a distinctive **mint green** color over time, caused by the off-gassing of the celluloid material. This mint green aging is a hallmark of an original period guard and is very difficult to replicate convincingly on a reproduction. A guard that remains bright white after 60+ years is more likely a replacement. The screw holes should show the same chrome oxidation as the hardware.
 
-<figure><img alt="1962 Fender Stratocaster 3-ply pickguard edge close-up showing white-black-white layers with characteristic mint green aging of outer layer and slight warping" width="1428" height="2143" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-black-white-black-mint-pickguard.jpg" loading="lazy" decoding="async"><figcaption><strong>Original 3-ply pickguard edge detail, 1962 Fender Stratocaster.</strong> The white-black-white laminate sandwich is clearly visible at the edge. Note the characteristic <strong>mint green tint</strong> of the outer white layer. This is caused by off-gassing of the celluloid material over decades and is a hallmark of an original pre-CBS guard. A replacement guard will be noticeably whiter. The slight warping of the guard along its edge is also typical of original 60-year-old celluloid.</figcaption></figure>
+<figure>
+
+![1962 Fender Stratocaster 3-ply pickguard edge close-up showing white-black-white layers with characteristic mint green aging of outer layer and slight warping](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-black-white-black-mint-pickguard.jpg)
+
+<figcaption><strong>Original 3-ply pickguard edge detail, 1962 Fender Stratocaster.</strong> The white-black-white laminate sandwich is clearly visible at the edge. Note the characteristic <strong>mint green tint</strong> of the outer white layer. This is caused by off-gassing of the celluloid material over decades and is a hallmark of an original pre-CBS guard. A replacement guard will be noticeably whiter. The slight warping of the guard along its edge is also typical of original 60-year-old celluloid.</figcaption>
+
+</figure>
 
 The Stratocaster pickguard is one of the most frequently replaced parts on vintage examples. Players crack them, break screw ears, or swap them for different colors. A replacement guard is not automatically a red flag, but if the replacement doesn't match the period spec (wrong ply count, wrong screw count, wrong material), note it. More importantly, the screw holes in the body should show their original patina. Fresh holes suggest the guard was removed and replaced repeatedly or the body was refinished.
 
@@ -221,7 +275,13 @@ This is one of the most widely misunderstood details in vintage Strat collecting
 -   Switch**3-way CRL switch**, original Stratocaster switches are marked "CRL" (Chicago Roller Skate) on the housing. A 5-way switch is a post-1977 replacement. An original 3-way that has been modified with toothpick wedges (to hold in-between positions) is a very common period modification that does not diminish authenticity.
 -   Output jack**Switchcraft 1/4" jack** recessed into an angled chrome jack cup on the lower side of the body. The cup is secured by two screws. All lead wiring to the jack should be cloth-covered.
 
-<figure><img alt="1962 Fender Stratocaster electronics showing black fiber flatwork on all three pickup bobbins, original wiring harness with undisturbed masking tape, cloth-covered wire, and period-correct 3-way CRL switch" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-black-back-pickups-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Original electronics on a 1962 Fender Stratocaster.</strong> All three pickups show correct <strong>black fiber flatwork</strong> on the bobbin bottoms. Gray flatwork would indicate later production (~1964+). The wiring harness remains in original condition: cloth-covered hookup wire throughout, the undisturbed factory masking tape on the pots is still present (a strong indicator of an unmodified instrument), and the black and white cloth-covered lead wires from the pickups are visible. The 3-way CRL switch sits at the upper left.</figcaption></figure>
+<figure>
+
+![1962 Fender Stratocaster electronics showing black fiber flatwork on all three pickup bobbins, original wiring harness with undisturbed masking tape, cloth-covered wire, and period-correct 3-way CRL switch](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-black-back-pickups-scaled.jpg)
+
+<figcaption><strong>Original electronics on a 1962 Fender Stratocaster.</strong> All three pickups show correct <strong>black fiber flatwork</strong> on the bobbin bottoms. Gray flatwork would indicate later production (~1964+). The wiring harness remains in original condition: cloth-covered hookup wire throughout, the undisturbed factory masking tape on the pots is still present (a strong indicator of an unmodified instrument), and the black and white cloth-covered lead wires from the pickups are visible. The 3-way CRL switch sits at the upper left.</figcaption>
+
+</figure>
 
 ## The Synchronized Tremolo Bridge
 
@@ -268,7 +328,13 @@ The 1962 Stratocaster headstock carries the classic **"spaghetti" Fender logo**,
 -   Model name"Stratocaster" appears below the Fender name in smaller script, with "WITH SYNCHRONIZED TREMOLO" on a separate line below that, correct for standard tremolo models. The text stack is distinctive and differs from later logo treatments.
 -   Color agingThe silver/chrome of the spaghetti logo ages over decades. A very bright, fresh-looking logo on a claimed 1962 may indicate headstock refinish or decal replacement. Some yellowing or oxidation of the silver is expected and normal.
 
-<figure><img alt="1962 Fender Stratocaster headstock showing silver spaghetti logo with three patent numbers, Kluson Deluxe tuners, and butterfly string tree, pre-CBS Fullerton" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-spaghetti-logo-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1962 Fender Stratocaster headstock.</strong> The classic silver spaghetti logo is applied on top of the finish and protected by a clear topcoat. Three patent numbers appear below the model name, correct for 1962 production. The "WITH SYNCHRONIZED TREMOLO" text is visible below "Stratocaster." Note the butterfly/wing string tree guiding the high B and E strings, and the all-metal Kluson Deluxe single-line tuner buttons.</figcaption></figure>
+<figure>
+
+![1962 Fender Stratocaster headstock showing silver spaghetti logo with three patent numbers, Kluson Deluxe tuners, and butterfly string tree, pre-CBS Fullerton](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-spaghetti-logo-headstock-scaled.jpg)
+
+<figcaption><strong>1962 Fender Stratocaster headstock.</strong> The classic silver spaghetti logo is applied on top of the finish and protected by a clear topcoat. Three patent numbers appear below the model name, correct for 1962 production. The "WITH SYNCHRONIZED TREMOLO" text is visible below "Stratocaster." Note the butterfly/wing string tree guiding the high B and E strings, and the all-metal Kluson Deluxe single-line tuner buttons.</figcaption>
+
+</figure>
 
 ### Kluson Deluxe "Single Line" Tuners
 
@@ -276,7 +342,13 @@ The 1962 Stratocaster uses **Kluson Deluxe "single line" tuners**, named for the
 
 Modern Grover Rotomatics, enclosed, circular-housing tuners, are the most common replacement on vintage Strats and are immediately identifiable. When Klusons are replaced with Grovers, the original mounting holes remain but additional screw holes from the Grover's three-point mounting are added. Three mounting screw holes per tuner (instead of one or two) indicates Grover replacement.
 
-<figure><img alt="Back of 1962 Fender Stratocaster headstock showing Kluson Deluxe single-line tuners with Kluson Deluxe stamp on all-metal chrome gear housing backs" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-single-line-kluson-tuners-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Kluson Deluxe single-line tuners on a 1962 Fender Stratocaster.</strong> The single vertical line of text reading "Kluson Deluxe" stamped on the back of each gear housing is the defining identifier for this era. The buttons are <strong>all metal</strong>, chrome-plated with no plastic component. All six housings and buttons should show consistent chrome aging and patina. A replacement tuner will often be identifiable by mismatched chrome wear or a different sheen.</figcaption></figure>
+<figure>
+
+![Back of 1962 Fender Stratocaster headstock showing Kluson Deluxe single-line tuners with Kluson Deluxe stamp on all-metal chrome gear housing backs](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-single-line-kluson-tuners-scaled.jpg)
+
+<figcaption><strong>Kluson Deluxe single-line tuners on a 1962 Fender Stratocaster.</strong> The single vertical line of text reading "Kluson Deluxe" stamped on the back of each gear housing is the defining identifier for this era. The buttons are <strong>all metal</strong>, chrome-plated with no plastic component. All six housings and buttons should show consistent chrome aging and patina. A replacement tuner will often be identifiable by mismatched chrome wear or a different sheen.</figcaption>
+
+</figure>
 
 ## Dating From the Inside Out
 

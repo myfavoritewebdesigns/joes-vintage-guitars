@@ -27,7 +27,13 @@ In this guide
 
 If you own a vintage guitar worth real money, picking the wrong online platform can cost you four figures before the box ships. The number on a marketplace's pricing page is almost never what lands in your account after a sale clears, and the spread between the old default channels and the curated platforms has gotten wider every year I've been doing this. Here's what each of the major channels actually charges, plus where the failure modes live.
 
-<figure><img alt="A 1954 Gibson Les Paul goldtop, the kind of vintage instrument where choosing the right online selling platform can change the seller's net by thousands of dollars." width="2560" height="1707" src="/images/blog/best-online-platforms-sell-vintage-guitars/1954-gibson-les-paul-goldtop-scaled.jpg" loading="lazy" decoding="async"><figcaption>A piece like this 1954 Gibson Les Paul goldtop sits in the price range where platform fees stop being a rounding error. On a $25,000 sale, the gap between 0 percent and 15 percent commission buys another vintage guitar.</figcaption></figure>
+<figure>
+
+![A 1954 Gibson Les Paul goldtop, the kind of vintage instrument where choosing the right online selling platform can change the seller's net by thousands of dollars.](../../assets/blog/best-online-platforms-sell-vintage-guitars/1954-gibson-les-paul-goldtop-scaled.jpg)
+
+<figcaption>A piece like this 1954 Gibson Les Paul goldtop sits in the price range where platform fees stop being a rounding error. On a $25,000 sale, the gap between 0 percent and 15 percent commission buys another vintage guitar.</figcaption>
+
+</figure>
 
 Anyone who has moved an expensive instrument online in the last few years already knows the listed commission is the start of a longer math problem, not the end of one. You also pay processing fees. Sometimes cross-border fees. Promoted-listing spend, if you actually want the listing to surface in a crowded category. Then chargebacks, "item not as described" claims, your own photo time, return shipping you eat when the buyer ghosts, and a steady drumbeat of scammers aimed at high-value gear. The platforms that look cheap on the homepage can wind up being the most expensive once the dust settles.
 
@@ -152,7 +158,13 @@ That's a real zero, not a marketing zero. No selling fee, no listing fee, no pay
 
 **What the trajectory looks like.** StringTree launched in late 2024 with six partner dealers and a single proof-of-concept auction. Less than a year later, the company is reporting a waitlist of over 100 stores wanting on, bid counts climbing on every successive cycle, and a feature set that's expanded from a single auction format to include Showrooms for collection display and asynchronous offers. *Vintage Guitar Magazine* covered the launch. Established vintage dealers like J. Rieck Music list there publicly. This isn't a sleepy auction site that's going to disappear next quarter. It's where a meaningful chunk of the serious vintage dealer community is moving inventory.
 
-<figure><img alt="Live StringTree auction listing for a 1964 Epiphone, showing the bid count, time remaining, and curated listing format the platform uses." width="1428" height="473" src="/images/blog/best-online-platforms-sell-vintage-guitars/Screenshot-2026-05-12-103618.png" loading="lazy" decoding="async"><figcaption>A live StringTree auction for a 1964 Epiphone, showing the bid activity, time remaining, and curated listing layout the platform uses for every consignment.</figcaption></figure>
+<figure>
+
+![Live StringTree auction listing for a 1964 Epiphone, showing the bid count, time remaining, and curated listing format the platform uses.](../../assets/blog/best-online-platforms-sell-vintage-guitars/Screenshot-2026-05-12-103618.png)
+
+<figcaption>A live StringTree auction for a 1964 Epiphone, showing the bid activity, time remaining, and curated listing layout the platform uses for every consignment.</figcaption>
+
+</figure>
 
 **The math, on the same $5,000 instrument used above:**
 

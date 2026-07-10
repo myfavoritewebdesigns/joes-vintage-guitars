@@ -16,7 +16,13 @@ Contents
 
 Contents
 
-<figure><img alt="A large vintage guitar collection purchased by Joe's Vintage Guitars, hundreds of instruments evaluated and acquired in a single visit" width="988" height="730" src="/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/large-vintage-guitar-collection.jpg" loading="lazy" decoding="async"><figcaption>A real collection we purchased. Instruments evaluated, documented, and acquired in a single visit by Joe's Vintage Guitars.</figcaption></figure>
+<figure>
+
+![A large vintage guitar collection purchased by Joe's Vintage Guitars, hundreds of instruments evaluated and acquired in a single visit](../../assets/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/large-vintage-guitar-collection.jpg)
+
+<figcaption>A real collection we purchased. Instruments evaluated, documented, and acquired in a single visit by Joe's Vintage Guitars.</figcaption>
+
+</figure>
 
 Maybe you spent years (decades, even) putting it together yourself. Or maybe a parent or grandparent just left you a room full of guitars, and you're staring at cases you can't identify, instruments you can't price, and paperwork that may or may not exist. Either way, the same question lands on your shoulders that lands on thousands of people every year: **how do you actually sell all of this?**
 
@@ -40,7 +46,13 @@ That uncertainty is normal. Nobody expects you to know any of this. But it does 
 -   **Mixed-quality collections.** Most serious collectors accumulate instruments across a wide value range. Trophy pieces next to player guitars, boutique builds next to production models. Selling all of it the same way, in the same place, is rarely the right strategy.
 -   **Emotional weight.** These were someone's prized possessions. There's real pressure to handle them responsibly, get fair value, and not make decisions you'll regret. That pressure is legitimate, and it deserves a process that takes it seriously.
 
-<figure><img alt="A large guitar collection stored in cases on a rack, the kind of inherited collection Joe's Vintage Guitars evaluates and purchases" width="2560" height="1920" src="/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/photo-of-guitar-collection-in-cases-scaled.jpeg" loading="lazy" decoding="async"><figcaption>A guitar collection in cases. Exactly the kind of situation we're built to handle. We come to you, open every case, and tell you what's there.</figcaption></figure>
+<figure>
+
+![A large guitar collection stored in cases on a rack, the kind of inherited collection Joe's Vintage Guitars evaluates and purchases](../../assets/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/photo-of-guitar-collection-in-cases-scaled.jpeg)
+
+<figcaption>A guitar collection in cases. Exactly the kind of situation we're built to handle. We come to you, open every case, and tell you what's there.</figcaption>
+
+</figure>
 
 **You don't need to figure this out alone.** When you [reach out to us](/sell-a-guitar-collection/), we can come to you, look at what's there, identify the instruments, give you honest context about values, and walk you through your options. No charge, no obligation. You can also [request a free appraisal](/free-appraisal/) if you want a professional valuation before making any decisions. Most families find that one conversation with us saves them weeks of research and uncertainty.
 

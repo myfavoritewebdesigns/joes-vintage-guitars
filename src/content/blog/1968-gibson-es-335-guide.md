@@ -50,7 +50,13 @@ Authentication on a 1968 ES-335 means looking well past the finish. The componen
 
 Nickel plating was gone from Gibson's parts list by 1968. Every piece of hardware should be **chrome**: pickup covers, trapeze tailpiece, ABR-1 bridge. Nickel hardware on a supposedly original 1968 is a flag. Something's been swapped, or "restored."
 
-<figure><img alt="1968 Gibson ES-335 ABR-1 Patent Number bridge, back view showing chrome hardware" width="2560" height="1707" src="/images/blog/1968-gibson-es-335-guide/1968-gibson-es-335-pat-no-bridge-scaled.jpg" loading="lazy" decoding="async"><figcaption>Back of the ABR-1 bridge on a 1968 ES-335. Note the chrome plating and Patent Number stamping.</figcaption></figure>
+<figure>
+
+![1968 Gibson ES-335 ABR-1 Patent Number bridge, back view showing chrome hardware](../../assets/blog/1968-gibson-es-335-guide/1968-gibson-es-335-pat-no-bridge-scaled.jpg)
+
+<figcaption>Back of the ABR-1 bridge on a 1968 ES-335. Note the chrome plating and Patent Number stamping.</figcaption>
+
+</figure>
 
 ### Potentiometer Codes: The Birth Certificate
 
@@ -68,7 +74,13 @@ By 1968 Gibson had moved past the hand-wound PAFs and early Patent Number pickup
 
 T-tops don't have the mystique of PAFs. They've got their own following anyway. The output is consistent and articulate, which is exactly what a lot of jazz and blues players want, since the warmer bloom of a PAF can blur certain voicings.
 
-<figure><img alt="Gibson Patent Number T-top pickup, back view showing Patent No. sticker" width="2560" height="1707" src="/images/blog/1968-gibson-es-335-guide/gibson-patent-no-pickup-scaled.jpg" loading="lazy" decoding="async"><figcaption>Back of a 1968 Gibson Patent Number pickup showing the "Patent No." sticker. This is the key identifier distinguishing T-tops from earlier PAF and transitional examples.</figcaption></figure>
+<figure>
+
+![Gibson Patent Number T-top pickup, back view showing Patent No. sticker](../../assets/blog/1968-gibson-es-335-guide/gibson-patent-no-pickup-scaled.jpg)
+
+<figcaption>Back of a 1968 Gibson Patent Number pickup showing the "Patent No." sticker. This is the key identifier distinguishing T-tops from earlier PAF and transitional examples.</figcaption>
+
+</figure>
 
 On the cap side, you'll typically see either **Black Beauty Spragues** or the rounder "pancake" style disc caps paired with these pickups. Both feed into the cleaner, more articulate voice of the T-top era.
 
@@ -76,15 +88,33 @@ On the cap side, you'll typically see either **Black Beauty Spragues** or the ro
 
 Two small details separate a correct 1968 from a later example: the **witch hat knobs** and the **white switch tip**. The witch hat knob (also called "top hat" or "reflector") was Gibson's standard for the era. Conical plastic with a reflective silver inset ring. The toggle switch tip on an original 1968 will be **white plastic**. Not amber, not black. Replacement tips in amber or later-style materials are a cheap swap and still get missed by buyers who aren't paying close attention.
 
-<figure><img alt="Gibson witch hat knobs on a 1968 ES-335" width="2560" height="1707" src="/images/blog/1968-gibson-es-335-guide/gibson-witch-hat-knobs-scaled.jpg" loading="lazy" decoding="async"><figcaption>Original witch hat (top hat) knobs, the correct style for a 1968 ES-335.</figcaption></figure>
+<figure>
 
-<figure><img alt="White toggle switch tip on a 1968 Gibson ES-335" width="2560" height="1707" src="/images/blog/1968-gibson-es-335-guide/1968-gibson-es-335-white-switch-tip-scaled.jpg" loading="lazy" decoding="async"><figcaption>White toggle switch tip, an often-overlooked originality indicator. Amber or black tips indicate a replacement.</figcaption></figure>
+![Gibson witch hat knobs on a 1968 ES-335](../../assets/blog/1968-gibson-es-335-guide/gibson-witch-hat-knobs-scaled.jpg)
+
+<figcaption>Original witch hat (top hat) knobs, the correct style for a 1968 ES-335.</figcaption>
+
+</figure>
+
+<figure>
+
+![White toggle switch tip on a 1968 Gibson ES-335](../../assets/blog/1968-gibson-es-335-guide/1968-gibson-es-335-white-switch-tip-scaled.jpg)
+
+<figcaption>White toggle switch tip, an often-overlooked originality indicator. Amber or black tips indicate a replacement.</figcaption>
+
+</figure>
 
 ### Tuners
 
 Factory tuners were **Kluson Deluxe** units with double-ring plastic buttons and double-line text. The words *Kluson* and *Deluxe* appear in two vertical lines on the back of the tuner. Single-line Klusons or later-style replacements are a flag that the originals are gone.
 
-<figure><img alt="Back of headstock on a 1968 Gibson ES-335 showing original Kluson double-line tuners" width="2560" height="1707" src="/images/blog/1968-gibson-es-335-guide/gibson-es-335-kluson-double-line-tuners-scaled.jpg" loading="lazy" decoding="async"><figcaption>Back of the headstock showing original Kluson Deluxe double-line tuners with double-ring plastic buttons. Correct factory spec for a 1968 ES-335.</figcaption></figure>
+<figure>
+
+![Back of headstock on a 1968 Gibson ES-335 showing original Kluson double-line tuners](../../assets/blog/1968-gibson-es-335-guide/gibson-es-335-kluson-double-line-tuners-scaled.jpg)
+
+<figcaption>Back of the headstock showing original Kluson Deluxe double-line tuners with double-ring plastic buttons. Correct factory spec for a 1968 ES-335.</figcaption>
+
+</figure>
 
 **Authentication note:** One hardware inconsistency on its own doesn't make a guitar a forgery. Wrong pot codes, nickel plating, single-line Klusons, an amber switch tip: any of these means the guitar has been partially parted out or restored at some point. Price accordingly and document everything. If you're unsure, a [free appraisal from a specialist](/free-appraisal/) is the fastest way to get clarity before you buy or sell.
 

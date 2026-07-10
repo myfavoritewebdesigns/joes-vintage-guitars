@@ -17,7 +17,13 @@ Collector's Reference · Gibson Electric Archtop
 A complete year-by-year reference to features, construction changes,  
 and dating criteria, 1955 to the Custom Shop era
 
-<figure><img alt="1967 Gibson Byrdland thinline archtop electric guitar body, Florentine cutaway, sunburst nitrocellulose finish, gold hardware" width="2560" height="1707" src="/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1967 Gibson Byrdland.</strong> A prime example from the Florentine cutaway era (1961 to 1968), showing the original sunburst nitrocellulose lacquer finish, gold-plated hardware, and the sharply pointed cutaway horn that distinguishes this period from the rounded Venetian style used before and after.</figcaption></figure>
+<figure>
+
+![1967 Gibson Byrdland thinline archtop electric guitar body, Florentine cutaway, sunburst nitrocellulose finish, gold hardware](../../assets/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-scaled.jpg)
+
+<figcaption><strong>1967 Gibson Byrdland.</strong> A prime example from the Florentine cutaway era (1961 to 1968), showing the original sunburst nitrocellulose lacquer finish, gold-plated hardware, and the sharply pointed cutaway horn that distinguishes this period from the rounded Venetian style used before and after.</figcaption>
+
+</figure>
 
 -   [Overview & Origin](#overview)
 -   [Baseline Specifications](#specs)
@@ -80,9 +86,21 @@ The Florentine period (1961 to 1968) lines up with the PAF and Patent Number hum
 | 1961 to 1968 | **Florentine** (pointed) | Shorter | Phased in during 1960; most 1961 examples are Florentine |
 | 1969 to present | **Venetian** (rounded) | Long | Returned alongside wider nut width |
 
-<figure><img alt="Gibson Byrdland Venetian rounded cutaway close-up, original 1955 to 1960 and post-1969 body style" width="1894" height="1263" src="/images/blog/gibson-byrdland-authentication-guide/gibson-byrdland-venetian-cutaway.jpg" loading="lazy" decoding="async"><figcaption><strong>Venetian cutaway</strong>, the soft, rounded horn used 1955 to 1960 and again from 1969 onward. Note the generous curve with no sharp point at the tip.</figcaption></figure>
+<figure>
 
-<figure><img alt="1967 Gibson Byrdland Florentine pointed cutaway close-up, sharp horn style used 1961 to 1968" width="1654" height="1100" src="/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-florentine-cutaway.jpg" loading="lazy" decoding="async"><figcaption><strong>Florentine cutaway</strong>, the sharp, knife-edged horn introduced in 1961 and used through 1968. This pointed style is rarer and highly sought by collectors.</figcaption></figure>
+![Gibson Byrdland Venetian rounded cutaway close-up, original 1955 to 1960 and post-1969 body style](../../assets/blog/gibson-byrdland-authentication-guide/gibson-byrdland-venetian-cutaway.jpg)
+
+<figcaption><strong>Venetian cutaway</strong>, the soft, rounded horn used 1955 to 1960 and again from 1969 onward. Note the generous curve with no sharp point at the tip.</figcaption>
+
+</figure>
+
+<figure>
+
+![1967 Gibson Byrdland Florentine pointed cutaway close-up, sharp horn style used 1961 to 1968](../../assets/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-florentine-cutaway.jpg)
+
+<figcaption><strong>Florentine cutaway</strong>, the sharp, knife-edged horn introduced in 1961 and used through 1968. This pointed style is rarer and highly sought by collectors.</figcaption>
+
+</figure>
 
 ## Pickups, Era by Era
 
@@ -100,11 +118,29 @@ Post-T-Top Byrdlands received later-era Gibson humbuckers that evolved through t
 
 Pickup swaps are extremely common on vintage Byrdlands. Original gold-plated PAFs and Patent Number pickups have been harvested for decades and transplanted into Les Paul Standards. Always look for signs of re-routing or screw-hole misalignment, check that the pickup covers are gold (not nickel or chrome), verify narrow neck pole spacing, and use DC resistance readings to help date the pickup. Original pickup covers should show appropriate uniform age, not polished-new gold.
 
-<figure><img alt="Gibson PAF humbucker pickup showing Patent Applied For sticker, used on Gibson Byrdland 1957 to 1962" width="1920" height="2560" src="/images/blog/gibson-byrdland-authentication-guide/gibson-paf-pickup-sticker-scaled.jpeg" loading="lazy" decoding="async"><figcaption><strong>PAF humbucker (1957 to 1962).</strong> The "Patent Applied For" decal on the baseplate identifies this as an original PAF. Byrdland examples are gold-plated and carry narrow neck pole spacing.</figcaption></figure>
+<figure>
 
-<figure><img alt="Gibson Patent Number humbucker pickup showing Pat No 2737842 sticker, used on Gibson Byrdland from 1962" width="1941" height="1247" src="/images/blog/gibson-byrdland-authentication-guide/gibson-pat-no-pickup-gibson-sg.jpeg" loading="lazy" decoding="async"><figcaption><strong>Patent Number humbucker (1962 to c.1975).</strong> The "Patent No. 2,737,842" sticker replaced the PAF decal from mid-1962. Despite the number referring to the trapeze tailpiece, these are outstanding-sounding pickups.</figcaption></figure>
+![Gibson PAF humbucker pickup showing Patent Applied For sticker, used on Gibson Byrdland 1957 to 1962](../../assets/blog/gibson-byrdland-authentication-guide/gibson-paf-pickup-sticker-scaled.jpeg)
 
-<figure><img alt="Gibson T-Top humbucker pickup example, used on Gibson Byrdland from approximately 1967 to 1975" width="655" height="490" src="/images/blog/gibson-byrdland-authentication-guide/gibson-t-top-pickup-example.jpg" loading="lazy" decoding="async"><figcaption><strong>T-Top humbucker (c.1967 to 1975).</strong> Identifiable by the raised "T"-shaped ridge visible on the inside of the bobbins. Consistent, automated-wound construction at approximately 7.5k ohms. Gold-plated on all Byrdland examples.</figcaption></figure>
+<figcaption><strong>PAF humbucker (1957 to 1962).</strong> The "Patent Applied For" decal on the baseplate identifies this as an original PAF. Byrdland examples are gold-plated and carry narrow neck pole spacing.</figcaption>
+
+</figure>
+
+<figure>
+
+![Gibson Patent Number humbucker pickup showing Pat No 2737842 sticker, used on Gibson Byrdland from 1962](../../assets/blog/gibson-byrdland-authentication-guide/gibson-pat-no-pickup-gibson-sg.jpeg)
+
+<figcaption><strong>Patent Number humbucker (1962 to c.1975).</strong> The "Patent No. 2,737,842" sticker replaced the PAF decal from mid-1962. Despite the number referring to the trapeze tailpiece, these are outstanding-sounding pickups.</figcaption>
+
+</figure>
+
+<figure>
+
+![Gibson T-Top humbucker pickup example, used on Gibson Byrdland from approximately 1967 to 1975](../../assets/blog/gibson-byrdland-authentication-guide/gibson-t-top-pickup-example.jpg)
+
+<figcaption><strong>T-Top humbucker (c.1967 to 1975).</strong> Identifiable by the raised "T"-shaped ridge visible on the inside of the bobbins. Consistent, automated-wound construction at approximately 7.5k ohms. Gold-plated on all Byrdland examples.</figcaption>
+
+</figure>
 
 ## Body Construction & Woods
 
@@ -162,9 +198,21 @@ The 1969 to early 1970 transition is not clean. Always physically measure a clai
 
 Note that these are multi-piece glued constructions for structural stability, not thin veneers as in a budget instrument. The strips are full-thickness lengths of solid lumber. The 5-piece neck continues to the present day in Custom Shop production.
 
-<figure><img alt="Gibson Byrdland 3-piece maple neck with walnut center strip, original neck construction 1955 to 1962" width="1708" height="2560" src="/images/blog/gibson-byrdland-authentication-guide/gibson-byrdland-3-piece-neck-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>3-piece maple neck with walnut center strip (1955 to 1962).</strong> The darker walnut center strip is visible running down the back of the neck. This is the correct original specification for all pre-1962 Byrdlands.</figcaption></figure>
+<figure>
 
-<figure><img alt="Gibson Byrdland 5-piece maple and mahogany laminated neck, construction used from 1962 onward" width="1707" height="2560" src="/images/blog/gibson-byrdland-authentication-guide/gibson-byrdland-5-piece-neck-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>5-piece maple/mahogany neck (1962 to present).</strong> Alternating maple and mahogany strips produce the contrasting stripe pattern visible on the back of the neck. Standard on all Byrdlands from 1962 onward.</figcaption></figure>
+![Gibson Byrdland 3-piece maple neck with walnut center strip, original neck construction 1955 to 1962](../../assets/blog/gibson-byrdland-authentication-guide/gibson-byrdland-3-piece-neck-scaled.jpg)
+
+<figcaption><strong>3-piece maple neck with walnut center strip (1955 to 1962).</strong> The darker walnut center strip is visible running down the back of the neck. This is the correct original specification for all pre-1962 Byrdlands.</figcaption>
+
+</figure>
+
+<figure>
+
+![Gibson Byrdland 5-piece maple and mahogany laminated neck, construction used from 1962 onward](../../assets/blog/gibson-byrdland-authentication-guide/gibson-byrdland-5-piece-neck-scaled.jpg)
+
+<figcaption><strong>5-piece maple/mahogany neck (1962 to present).</strong> Alternating maple and mahogany strips produce the contrasting stripe pattern visible on the back of the neck. Standard on all Byrdlands from 1962 onward.</figcaption>
+
+</figure>
 
 ### The Volute
 
@@ -182,7 +230,13 @@ The Byrdland's **23½-inch scale length never changed**. It is a constant throug
 
 The Byrdland's tailpiece is a distinctive **three-loop trapeze design** with the word **"Byrdland" engraved on the crossbar**. This engraving is present throughout production and is one of the quickest authentication points, both for confirming the model and for checking the spelling. All hardware on authentic Byrdlands is gold-plated from day one. A Byrdland with nickel or chrome hardware has had parts replaced.
 
-<figure><img alt="1967 Gibson Byrdland engraved tailpiece, three-loop trapeze style with Byrdland name engraved on crossbar, gold plated" width="2560" height="1707" src="/images/blog/gibson-byrdland-authentication-guide/gibson-byrdland-tailpiece-1967-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Gibson Byrdland engraved tailpiece (1967).</strong> The three-loop trapeze design with "Byrdland" engraved on the crossbar is present on all authentic examples throughout the production run. Check both the spelling and the gold plating, nickel or chrome hardware indicates replacement parts.</figcaption></figure>
+<figure>
+
+![1967 Gibson Byrdland engraved tailpiece, three-loop trapeze style with Byrdland name engraved on crossbar, gold plated](../../assets/blog/gibson-byrdland-authentication-guide/gibson-byrdland-tailpiece-1967-scaled.jpg)
+
+<figcaption><strong>Gibson Byrdland engraved tailpiece (1967).</strong> The three-loop trapeze design with "Byrdland" engraved on the crossbar is present on all authentic examples throughout the production run. Check both the spelling and the gold plating, nickel or chrome hardware indicates replacement parts.</figcaption>
+
+</figure>
 
 ### Bridge
 
@@ -192,7 +246,13 @@ The Byrdland uses an **ABR-1 Tune-o-Matic bridge** throughout the pre-Norlin per
 
 The Byrdland was fitted with **Kluson Sealfast tuners with tulip-shaped buttons** throughout the vintage production era. These tuners have become quite scarce, and an original set is one of the hardware details collectors look for on a vintage Byrdland. Grover Rotomatic tuners are a common replacement and are an immediate sign of modification. Original Kluson Sealfast tuners on a vintage Byrdland should show consistent patina across all six units. Mismatched aging is suspicious.
 
-<figure><img alt="Gibson Byrdland back of headstock showing original Kluson Sealfast tuners with tulip buttons, vintage authentication" width="2560" height="1707" src="/images/blog/gibson-byrdland-authentication-guide/gibson-byrdland-tuners-kluson-sealfast-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Original Kluson Sealfast tuners on a vintage Gibson Byrdland.</strong> The tulip-shaped metal buttons and sealed gear housing are the identifying features. All six units should show even, consistent aging. Grover Rotomatics, a very common swap, have a round, enclosed housing that looks entirely different.</figcaption></figure>
+<figure>
+
+![Gibson Byrdland back of headstock showing original Kluson Sealfast tuners with tulip buttons, vintage authentication](../../assets/blog/gibson-byrdland-authentication-guide/gibson-byrdland-tuners-kluson-sealfast-scaled.jpg)
+
+<figcaption><strong>Original Kluson Sealfast tuners on a vintage Gibson Byrdland.</strong> The tulip-shaped metal buttons and sealed gear housing are the identifying features. All six units should show even, consistent aging. Grover Rotomatics, a very common swap, have a round, enclosed housing that looks entirely different.</figcaption>
+
+</figure>
 
 ### Truss Rod Cover
 
@@ -205,9 +265,21 @@ This is a simple but useful dating check. The truss rod cover changed once:
 
 A pre-1970 Byrdland with a "Byrdland" truss rod cover has had the cover replaced (or is misdated). Conversely, a 1970s example with a "Custom" cover is similarly suspicious.
 
-<figure><img alt="1967 Gibson Byrdland headstock showing Custom truss rod cover, correct pre-1970 configuration with pearl flowerpot inlay" width="2560" height="1707" src="/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Pre-1970 headstock with "Custom" truss rod cover.</strong> The black/white two-layer cover reading "Custom" is correct for all Byrdlands produced before 1970. Also note the pearl flowerpot inlay and the open-letter pearl "Gibson" logo.</figcaption></figure>
+<figure>
 
-<figure><img alt="1970s Gibson Byrdland headstock showing Byrdland truss rod cover and Made in USA stamp, Norlin era identification" width="2560" height="1707" src="/images/blog/gibson-byrdland-authentication-guide/1970s-gibson-byrdland-headsotck-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Post-1970 headstock with "Byrdland" truss rod cover.</strong> The all-black cover reading "Byrdland" replaced the "Custom" cover from 1970 onward. Also note the "Made in USA" stamp below the serial number, a definitive post-1969 indicator on any Gibson.</figcaption></figure>
+![1967 Gibson Byrdland headstock showing Custom truss rod cover, correct pre-1970 configuration with pearl flowerpot inlay](../../assets/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-headstock-scaled.jpg)
+
+<figcaption><strong>Pre-1970 headstock with "Custom" truss rod cover.</strong> The black/white two-layer cover reading "Custom" is correct for all Byrdlands produced before 1970. Also note the pearl flowerpot inlay and the open-letter pearl "Gibson" logo.</figcaption>
+
+</figure>
+
+<figure>
+
+![1970s Gibson Byrdland headstock showing Byrdland truss rod cover and Made in USA stamp, Norlin era identification](../../assets/blog/gibson-byrdland-authentication-guide/1970s-gibson-byrdland-headsotck-scaled.jpg)
+
+<figcaption><strong>Post-1970 headstock with "Byrdland" truss rod cover.</strong> The all-black cover reading "Byrdland" replaced the "Custom" cover from 1970 onward. Also note the "Made in USA" stamp below the serial number, a definitive post-1969 indicator on any Gibson.</figcaption>
+
+</figure>
 
 ### Control Knobs
 
@@ -218,11 +290,29 @@ A pre-1970 Byrdland with a "Byrdland" truss rod cover has had the cover replaced
 | 1967 to c.1975 | **Witch-hat / bell knobs**, gold with metal top |
 | 1970s to 1980s | Bell-shaped gold plastic knobs; some late examples have black variants |
 
-<figure><img alt="Gibson bonnet knob gold example on 1956 Les Paul Goldtop, same style used on Gibson Byrdland 1955 to 1960" width="2560" height="1707" src="/images/blog/gibson-byrdland-authentication-guide/1956-gibson-les-paul-standard-knob-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Bonnet knob (1955 to 1960)</strong>, shown here on a 1956 Les Paul Goldtop, but identical to those used on Byrdlands of the same period. The low dome profile is the key identifier.</figcaption></figure>
+<figure>
 
-<figure><img alt="1967 Gibson Byrdland top-hat reflector knobs close-up, gold control knobs with metallic reflector insert, 1960 to 1967" width="1790" height="1191" src="/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-reflector-knobs.jpg" loading="lazy" decoding="async"><figcaption><strong>Top-hat reflector knobs (1960 to 1967)</strong>, shown on a 1967 Byrdland. The metallic reflector disc set into the top of the knob is the defining feature. Gold versions are correct for the Byrdland.</figcaption></figure>
+![Gibson bonnet knob gold example on 1956 Les Paul Goldtop, same style used on Gibson Byrdland 1955 to 1960](../../assets/blog/gibson-byrdland-authentication-guide/1956-gibson-les-paul-standard-knob-scaled.jpg)
 
-<figure><img alt="Gibson witch hat bell knob example, gold style used on Gibson Byrdland from approximately 1967 to 1975" width="1920" height="2560" src="/images/blog/gibson-byrdland-authentication-guide/gibson-witch-hat-knob-1967-1975-scaled.jpeg" loading="lazy" decoding="async"><figcaption><strong>Witch-hat / bell knob (c.1967 to 1975).</strong> The taller, tapered silhouette with a metal top replaces the reflector style from around 1967. Gold versions are correct for Byrdlands of this period.</figcaption></figure>
+<figcaption><strong>Bonnet knob (1955 to 1960)</strong>, shown here on a 1956 Les Paul Goldtop, but identical to those used on Byrdlands of the same period. The low dome profile is the key identifier.</figcaption>
+
+</figure>
+
+<figure>
+
+![1967 Gibson Byrdland top-hat reflector knobs close-up, gold control knobs with metallic reflector insert, 1960 to 1967](../../assets/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-reflector-knobs.jpg)
+
+<figcaption><strong>Top-hat reflector knobs (1960 to 1967)</strong>, shown on a 1967 Byrdland. The metallic reflector disc set into the top of the knob is the defining feature. Gold versions are correct for the Byrdland.</figcaption>
+
+</figure>
+
+<figure>
+
+![Gibson witch hat bell knob example, gold style used on Gibson Byrdland from approximately 1967 to 1975](../../assets/blog/gibson-byrdland-authentication-guide/gibson-witch-hat-knob-1967-1975-scaled.jpeg)
+
+<figcaption><strong>Witch-hat / bell knob (c.1967 to 1975).</strong> The taller, tapered silhouette with a metal top replaces the reflector style from around 1967. Gold versions are correct for Byrdlands of this period.</figcaption>
+
+</figure>
 
 ### Pickguard
 
@@ -251,7 +341,13 @@ Post-1969 labels reflect the Norlin corporate ownership. The headstock now carri
 -   1977 onward: modern 8-digit serial format impressed into the headstock back
 -   The interior label was updated to reflect Norlin-era branding and address information
 
-<figure><img alt="Gibson Byrdland orange oval label inside body showing A-series serial number, used 1955 to 1969 pre-Norlin era" width="2560" height="1707" src="/images/blog/gibson-byrdland-authentication-guide/gibson-byrdland-orange-label-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Gibson Byrdland orange oval label.</strong> The orange label with A-prefix serial number (format: A-XXXXX) identifies pre-Norlin Kalamazoo production from 1955 through 1969. The label reads "Style: Byrdland" alongside the serial. These are the most collectible Byrdlands. All PAF and Patent Number humbucker examples carry this label.</figcaption></figure>
+<figure>
+
+![Gibson Byrdland orange oval label inside body showing A-series serial number, used 1955 to 1969 pre-Norlin era](../../assets/blog/gibson-byrdland-authentication-guide/gibson-byrdland-orange-label-scaled.jpg)
+
+<figcaption><strong>Gibson Byrdland orange oval label.</strong> The orange label with A-prefix serial number (format: A-XXXXX) identifies pre-Norlin Kalamazoo production from 1955 through 1969. The label reads "Style: Byrdland" alongside the serial. These are the most collectible Byrdlands. All PAF and Patent Number humbucker examples carry this label.</figcaption>
+
+</figure>
 
 ### Serial Number Decoder by Era
 

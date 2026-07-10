@@ -14,7 +14,13 @@ wpId: 20765
 ---
 The **Gibson ES-125** was on the bandstand for almost thirty years, and for most of that time nobody was looking at it. The flashier names in the Gibson catalog were the ES-175, the [ES-335](/post/complete-dot-neck-es-330-guide-1959-1962/), and the L-5. The ES-125 just kept showing up: jazz combos, Chicago blues clubs, country sidemen, rockabilly players who needed something that could survive a tour. It cost less than its stablemates, it carried the same P-90 pickups that made the rest of Gibson's 50s lineup what it was, and right now it's one of the harder vintage semi-hollows to find at a fair price.
 
-<figure><img alt="1954 Gibson ES-125 in sunburst finish" width="2560" height="1707" src="/images/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg" loading="lazy" decoding="async"><figcaption>1954 Gibson ES-125 in sunburst, a textbook example of the Golden Era full-depth model.</figcaption></figure>
+<figure>
+
+![1954 Gibson ES-125 in sunburst finish](../../assets/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg)
+
+<figcaption>1954 Gibson ES-125 in sunburst, a textbook example of the Golden Era full-depth model.</figcaption>
+
+</figure>
 
 Contents
 
@@ -56,9 +62,21 @@ No other Gibson generated quite this many suffix variants. Each letter at the en
 
 **Decoder key:** **T** = Thinline body  ·  **D** = Dual pickups  ·  **C** = Cutaway  ·  **3/4** = Short scale. Stack them: *TDC* means Thinline, Dual pickup, Cutaway.
 
-<figure><img alt="Gibson ES-125D with dual P-90 pickups" width="1200" height="1600" src="/images/blog/gibson-es-125-guide/gibson-es-125-d-dual-pickup.jpg" loading="lazy" decoding="async"><figcaption>Gibson ES-125D, the dual P-90 configuration on a full-depth non-cutaway body.</figcaption></figure>
+<figure>
 
-<figure><img alt="Gibson ES-125 3/4 short-scale student model showing the shorter neck and smaller body compared to a full-size ES-125" width="1707" height="2560" src="/images/blog/gibson-es-125-guide/gibson-es125-3-4-scaled.jpg" loading="lazy" decoding="async"><figcaption>Gibson ES-125 3/4, the short-scale student model. Note the compressed body length and reduced scale neck.</figcaption></figure>
+![Gibson ES-125D with dual P-90 pickups](../../assets/blog/gibson-es-125-guide/gibson-es-125-d-dual-pickup.jpg)
+
+<figcaption>Gibson ES-125D, the dual P-90 configuration on a full-depth non-cutaway body.</figcaption>
+
+</figure>
+
+<figure>
+
+![Gibson ES-125 3/4 short-scale student model showing the shorter neck and smaller body compared to a full-size ES-125](../../assets/blog/gibson-es-125-guide/gibson-es125-3-4-scaled.jpg)
+
+<figcaption>Gibson ES-125 3/4, the short-scale student model. Note the compressed body length and reduced scale neck.</figcaption>
+
+</figure>
 
 <h2 id="es125-construction">Body & Construction: Era by Era</h2>
 
@@ -98,9 +116,21 @@ From 1950 on, pole pieces became **individually adjustable** through slot-head s
 
 **Hum sensitivity:** The P-90 is a single coil, and it picks up 60-cycle hum from electrical interference. You'll notice it more with higher-gain amp settings or when you're playing near dimmer switches and fluorescent lighting. This isn't a defect. It's how single-coils work. Players who want hum cancellation in the neck position often use a shielded cable and pay attention to where they stand, or swap in modern noiseless replacements (though most owners just learn to live with the hum, because it goes away the moment you start playing).
 
-<figure><img alt="Gibson ES-125 P-90 pickup with black dog-ear cover" width="1951" height="1303" src="/images/blog/gibson-es-125-guide/gibson-es-125-p-90-black-cover.jpg" loading="lazy" decoding="async"><figcaption>P-90 dog-ear with black plastic cover, typical of the 1950s and early 1960s.</figcaption></figure>
+<figure>
 
-<figure><img alt="Gibson ES-125 P-90 pickup with chrome cover" width="1606" height="1070" src="/images/blog/gibson-es-125-guide/gibson-es-125-p-90-chrome-cover.jpg" loading="lazy" decoding="async"><figcaption>P-90 dog-ear with chrome cover, found on some later examples and on replacement pickups.</figcaption></figure>
+![Gibson ES-125 P-90 pickup with black dog-ear cover](../../assets/blog/gibson-es-125-guide/gibson-es-125-p-90-black-cover.jpg)
+
+<figcaption>P-90 dog-ear with black plastic cover, typical of the 1950s and early 1960s.</figcaption>
+
+</figure>
+
+<figure>
+
+![Gibson ES-125 P-90 pickup with chrome cover](../../assets/blog/gibson-es-125-guide/gibson-es-125-p-90-chrome-cover.jpg)
+
+<figcaption>P-90 dog-ear with chrome cover, found on some later examples and on replacement pickups.</figcaption>
+
+</figure>
 
 <h2 id="es125-hardware">Hardware & Aesthetics: The Dating Details</h2>
 
@@ -144,7 +174,13 @@ Sunburst is what almost every ES-125 left the factory in. It isn't one color, th
 -   **1950s Sunburst:** Warmer, more amber-dominant in the center, with cleaner transitions out to the dark edge. The most "classic" of the vintage looks.
 -   **Cherry Sunburst (1960 onward):** Introduced first on the cutaway models. Cherry Sunburst adds a red intermediate layer between the amber center and the dark edge. Decades of UV exposure tend to fade the red dyes, leaving a finish people call *Tea Burst* or *Honey Burst*: a golden tone with no real red left in it. Original strong Cherry Sunbursts that haven't faded are getting harder to find and they look striking when you see one.
 
-<figure><img alt="1960s Gibson ES-125 TDC in Cherry Sunburst finish, thinline body, dual pickups, Florentine cutaway" width="1600" height="1200" src="/images/blog/gibson-es-125-guide/1960s-gibson-es-125-tdc-cherry-sunburst.jpg" loading="lazy" decoding="async"><figcaption>1960s Gibson ES-125 TDC in Cherry Sunburst, thinline body, dual P-90s, Florentine cutaway. This finish has held its color well. Most go to Tea Burst over time.</figcaption></figure>
+<figure>
+
+![1960s Gibson ES-125 TDC in Cherry Sunburst finish, thinline body, dual pickups, Florentine cutaway](../../assets/blog/gibson-es-125-guide/1960s-gibson-es-125-tdc-cherry-sunburst.jpg)
+
+<figcaption>1960s Gibson ES-125 TDC in Cherry Sunburst, thinline body, dual P-90s, Florentine cutaway. This finish has held its color well. Most go to Tea Burst over time.</figcaption>
+
+</figure>
 
 ### The "Dark Back" or Walnut Stain
 
@@ -201,7 +237,13 @@ Valuations move constantly with the vintage market, so treat this as framework r
 -   **Pickup integrity:** Original P-90s should read in the correct resistance range and the pole-piece screws should still adjust freely. Check the dog-ear covers for cracks, and look for replacement pickups. A period-correct replacement is a much smaller hit to value than a modern aftermarket pickup.
 -   **Tuner functionality:** The original Klusons are often worn or replaced by now. Working originals are a plus. Period-correct replacement Klusons are acceptable. Modern lock tuners are a value drag if you're a collector.
 
-<figure><img alt="Back of neck on a 1954 Gibson ES-125 showing natural play wear through the lacquer finish" width="1707" height="2560" src="/images/blog/gibson-es-125-guide/1954-gibson-es-125-back-of-neck-wear-scaled.jpg" loading="lazy" decoding="async"><figcaption>Back of neck on a 1954 ES-125. Honest play wear through the nitrocellulose lacquer. Wear like this is expected and won't move the value much on a player-grade instrument.</figcaption></figure>
+<figure>
+
+![Back of neck on a 1954 Gibson ES-125 showing natural play wear through the lacquer finish](../../assets/blog/gibson-es-125-guide/1954-gibson-es-125-back-of-neck-wear-scaled.jpg)
+
+<figcaption>Back of neck on a 1954 ES-125. Honest play wear through the nitrocellulose lacquer. Wear like this is expected and won't move the value much on a player-grade instrument.</figcaption>
+
+</figure>
 
 **Common modifications to watch for:** Replaced tuners, refretted necks, swapped pickups, replaced pots or caps, refinished bodies. All of it is common on working-musician instruments from this era. None of it necessarily disqualifies a guitar as a player. Each one affects collector value, though, and the price should reflect it.
 

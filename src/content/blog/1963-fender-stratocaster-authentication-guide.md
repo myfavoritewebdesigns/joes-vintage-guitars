@@ -12,7 +12,13 @@ metaDescription: "Pre-CBS 1963 Fender Stratocasters sit at the top of every coll
 ogImage: "/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-sunburst-front-of-body-scaled.jpg"
 wpId: 20995
 ---
-<figure><img alt="1963 Fender Stratocaster in three-tone sunburst, full front body shot" width="2560" height="1707" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-sunburst-front-of-body-scaled.jpg" loading="lazy" decoding="async"><figcaption>A clean 1963 Fender Stratocaster in three-tone sunburst.</figcaption></figure>
+<figure>
+
+![1963 Fender Stratocaster in three-tone sunburst, full front body shot](../../assets/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-sunburst-front-of-body-scaled.jpg)
+
+<figcaption>A clean 1963 Fender Stratocaster in three-tone sunburst.</figcaption>
+
+</figure>
 
 Pre-CBS Strats are why a lot of us got into this business. The '63s sit in the sweet spot of that era. Fender had the design dialed in by then, and nobody from CBS had walked through the door yet to start cutting corners. They feel different than '64s and '65s. They sound different too. When one shows up at the shop with the right paperwork, that's a good day for me.
 
@@ -38,7 +44,13 @@ There's a basic order of operations I follow with any Strat someone's calling a 
 
 A real 1963 Stratocaster wears an L-series serial on a four-bolt chrome neck plate. The L-series ran from late 1962 into early 1965, so the L by itself doesn't pin a guitar to a specific year. For '63 production you're looking at roughly the L20000s through the L40000s, give or take. Fender wasn't pulling serials in strict order back then either. I've seen two guitars from the same week of '63 with plates four hundred apart. [See our full Fender serial number guide](/fender-guitars-serial-number-guide/) for the complete L-series reference.
 
-<figure><img alt="L-series neck plate serial number on a 1963 Fender Stratocaster" width="2560" height="1707" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-neck-plate-scaled.jpg" loading="lazy" decoding="async"><figcaption>L-series neck plate stamp on a 1963 Stratocaster. The L prefix puts it in the late 1962 through early 1965 window. Pot codes confirm the actual year.</figcaption></figure>
+<figure>
+
+![L-series neck plate serial number on a 1963 Fender Stratocaster](../../assets/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-neck-plate-scaled.jpg)
+
+<figcaption>L-series neck plate stamp on a 1963 Stratocaster. The L prefix puts it in the late 1962 through early 1965 window. Pot codes confirm the actual year.</figcaption>
+
+</figure>
 
 **The early '63 holdover.** One quirk to know about. Guitars built in January and very early 1963 sometimes still wear the older six-digit numeric serials in the 80000 or 90000 range, left over from late '62 production. If you're holding a Strat with an 80000 or 90000 plate and the pot codes say 1963, don't assume it's a misdated '62. Sometimes it really is an early '63. Cross-check against the pots before making the call. I see one or two of these come through every year, and the phone call to the seller is always a fun one.
 
@@ -46,7 +58,13 @@ A real 1963 Stratocaster wears an L-series serial on a four-bolt chrome neck pla
 
 Pots are the part of the guitar I trust most when I'm dating it. Three of them sit in the control cavity, two volume and one tone, all 250k audio taper. Each has a six- or seven-digit code stamped into the side of the metal can. The first three digits tell you who made the pot. **137 is CTS, 304 is Stackpole, 134 is Centralab**. The next four digits are year and week.
 
-<figure><img alt="Stackpole 304 6347 pot code on a 1963 Fender Stratocaster, decoding to 1963 week 47" width="2503" height="1669" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-potentiometer-code.jpg" loading="lazy" decoding="async"><figcaption>Stackpole pot code 304 6347 on this 1963 Strat. 304 is the Stackpole manufacturer code. 6347 means 1963, week 47 (late November).</figcaption></figure>
+<figure>
+
+![Stackpole 304 6347 pot code on a 1963 Fender Stratocaster, decoding to 1963 week 47](../../assets/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-potentiometer-code.jpg)
+
+<figcaption>Stackpole pot code 304 6347 on this 1963 Strat. 304 is the Stackpole manufacturer code. 6347 means 1963, week 47 (late November).</figcaption>
+
+</figure>
 
 For a real '63, you want pots dated late 1962 through mid-1963. Most of the '63 Strats that have come across my bench show pot codes somewhere between week 30 of '62 and week 35 of '63. Find a pot dated 1968 or 1972 sitting in there, and you know somebody pulled the originals out.
 
@@ -54,7 +72,13 @@ For a real '63, you want pots dated late 1962 through mid-1963. Most of the '63 
 
 Take the strings off, pull the four neck bolts, lift the neck out of the pocket. On the flat butt of the heel there's a date stamped in **black ink**. The format reads something like *2 MAR 63 B*. The 2 is Fender's product code for Stratocaster. MAR 63 is the month and year the neck was finished. The letter at the end is the nut width. B (1 5/8") is standard. A (1 1/2") shows up occasionally. C and D were available on order but rare.
 
-<figure><img alt="Black ink date stamp on the heel of a 1963 Fender Stratocaster neck" width="2560" height="1707" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-neck-heel-stamp-scaled.jpg" loading="lazy" decoding="async"><figcaption>Black ink date stamp on the neck heel of a 1963 Stratocaster. Stratocaster product code, month, year, and nut width letter.</figcaption></figure>
+<figure>
+
+![Black ink date stamp on the heel of a 1963 Fender Stratocaster neck](../../assets/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-neck-heel-stamp-scaled.jpg)
+
+<figcaption>Black ink date stamp on the neck heel of a 1963 Stratocaster. Stratocaster product code, month, year, and nut width letter.</figcaption>
+
+</figure>
 
 The heel stamp should agree with the pot codes within a few months. Necks were generally finished and assembled within weeks of the pots being stamped. If the heel says March '63 and the pots say September '64, somebody bolted the wrong neck to the wrong body.
 
@@ -66,7 +90,13 @@ Some '63 bodies have a date penciled inside the neck pocket or in the bottom of 
 
 If the trinity checks out, time to pull the pickguard. Slowly. Pickup leads on a sixty-year-old Strat go stiff and brittle, and the cloth insulation will crack if you flex it too hard. Once the guard is off, this is where you find out what you've actually got.
 
-<figure><img alt="Back of the pickguard on a 1963 Fender Stratocaster showing aluminum shield, black bobbin pickups, and original wiring" width="2560" height="1707" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-electronics-scaled.jpg" loading="lazy" decoding="async"><figcaption>Back of the pickguard on a 1963 Strat. Aluminum shield plate, three black bobbin pickups, original cloth-covered leads, and aged solder joints.</figcaption></figure>
+<figure>
+
+![Back of the pickguard on a 1963 Fender Stratocaster showing aluminum shield, black bobbin pickups, and original wiring](../../assets/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-electronics-scaled.jpg)
+
+<figcaption>Back of the pickguard on a 1963 Strat. Aluminum shield plate, three black bobbin pickups, original cloth-covered leads, and aged solder joints.</figcaption>
+
+</figure>
 
 ### Pickups, Cap, and Solder Joints
 
@@ -82,21 +112,45 @@ Then the solder joints. This is the check I trust most of all. Original Fender s
 
 With the guard off, look at the body itself. There should be three or four small **nail holes** in the wood, each with bare wood inside, no finish. Standard locations are one near the output jack, one near the neck pickup, and one or two near the bridge or down in the bottom of the bridge pickup cavity. These are leftovers from the painting process. Fender drove finishing nails into the body to hold it during spraying, then pulled them out after the finish dried.
 
-<figure><img alt="Nail hole near the neck pickup cavity of a 1963 Fender Stratocaster, bare wood inside, leftover from the painting process" width="2483" height="1655" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-nail-hole.jpg" loading="lazy" decoding="async"><figcaption>Original nail hole near the neck pickup cavity. Bare wood inside the hole means the finish was sprayed before the nail came out, exactly as it should be on an original '63.</figcaption></figure>
+<figure>
+
+![Nail hole near the neck pickup cavity of a 1963 Fender Stratocaster, bare wood inside, leftover from the painting process](../../assets/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-nail-hole.jpg)
+
+<figcaption>Original nail hole near the neck pickup cavity. Bare wood inside the hole means the finish was sprayed before the nail came out, exactly as it should be on an original '63.</figcaption>
+
+</figure>
 
 By 1963, Fender had mostly transitioned to the **paint stick** method, where a wooden rod screwed into the neck pocket so the body could be held during spraying instead of nailed. The paint stick leaves a faint shadow or witness mark in the bottom of the neck pocket where the wood was masked from the finish. So on a real '63 you might see leftover nail holes from earlier in the year, or a paint stick shadow in the pocket, or both. What you don't want to see is nail holes with finish inside them, no shadow in the pocket, and no nail holes anywhere. That combination almost always means a refinish.
 
-<figure><img alt="Paint stick shadow visible in the neck pocket of a 1963 Fender Stratocaster" width="2560" height="1707" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-sunburst-paint-stick-shadow-scaled.jpg" loading="lazy" decoding="async"><figcaption>Paint stick shadow in the neck pocket of a 1963 Strat. The lighter rectangular area is where the wooden rod masked the wood while the body was being sprayed.</figcaption></figure>
+<figure>
+
+![Paint stick shadow visible in the neck pocket of a 1963 Fender Stratocaster](../../assets/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-sunburst-paint-stick-shadow-scaled.jpg)
+
+<figcaption>Paint stick shadow in the neck pocket of a 1963 Strat. The lighter rectangular area is where the wooden rod masked the wood while the body was being sprayed.</figcaption>
+
+</figure>
 
 While you're in there, look at the bottom edges of the bridge pickup cavity. On a factory '63, the router that cut the cavity left a rough channel with torn-out edges and small **wood flakes** still hanging off the corners. Fender wasn't sanding the inside of pickup cavities. They were rough-routed, the body got finished, and the chip-out stayed. If you look in there and the cavity is smooth and rounded over, somebody sanded it. That's about as clean a refinish tell as you'll find.
 
-<figure><img alt="Rough router channel in the bridge pickup cavity of a 1963 Fender Stratocaster with original wood flakes still on the edges" width="2560" height="1707" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-router-channel-bridge-pickup-scaled.jpg" loading="lazy" decoding="async"><figcaption>Rough router channel in the bridge pickup cavity. Notice the torn-out wood flakes still hanging off the corners. A sanded-smooth cavity means a refinish.</figcaption></figure>
+<figure>
+
+![Rough router channel in the bridge pickup cavity of a 1963 Fender Stratocaster with original wood flakes still on the edges](../../assets/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-router-channel-bridge-pickup-scaled.jpg)
+
+<figcaption>Rough router channel in the bridge pickup cavity. Notice the torn-out wood flakes still hanging off the corners. A sanded-smooth cavity means a refinish.</figcaption>
+
+</figure>
 
 ### The Puzzle Piece: Neck Plate Meets Shadow
 
 This is one of my favorite authentication checks, and I don't see it talked about enough in the hobbyist forums or buyer guides. After sixty years bolted to the same body, the neck plate leaves a distinct **shadow or witness outline in the finish** where its edges sat. The plate itself picks up its own pattern of wear, dings, and oxidation on the back side. When you pull the original neck plate off and lay it down next to the shadow it left in the body, the irregular outline of the plate matches the shadow exactly. The dings, the dents, the slight asymmetry from sixty years of pressure all line up. Like a puzzle piece.
 
-<figure><img alt="Back of the neck plate on a 1963 Fender Stratocaster matching the shadow it left in the body finish like a puzzle piece" width="2560" height="1707" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-neck-plate-puzzle-piece-shadow-scaled.jpg" loading="lazy" decoding="async"><figcaption>Back of the original neck plate placed next to the shadow it left in the finish on the body. Sixty years of contact created a perfect outline match.</figcaption></figure>
+<figure>
+
+![Back of the neck plate on a 1963 Fender Stratocaster matching the shadow it left in the body finish like a puzzle piece](../../assets/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-neck-plate-puzzle-piece-shadow-scaled.jpg)
+
+<figcaption>Back of the original neck plate placed next to the shadow it left in the finish on the body. Sixty years of contact created a perfect outline match.</figcaption>
+
+</figure>
 
 What this check tells you is two things at once. A genuine, untouched '63 will have a perfect plate-to-shadow match. If the body was refinished at any point, the original shadow is gone (it got sanded out and resprayed over), and the plate sits on fresh-looking finish with no witness mark behind it. If the neck plate was swapped for a different one, the new plate won't line up with the existing shadow. The outline is off, the proportions don't match, the corners don't sit where the shadow says they should.
 
@@ -114,7 +168,13 @@ Behind the guard, sandwiched against the body, is a thin **aluminum shielding pl
 
 Tuners on a real '63 are **Kluson Deluxe single-line**. Six on a side, "KLUSON DELUXE" stamped down the back of each shell in a single line. They have slotted string posts (you push the string straight down into the post) and they wear **oval metal buttons**. Quick warning here. If you see plastic "tulip" or "double-ring" buttons on a claimed '63 Strat, those are Gibson-style Kluson buttons or cheap modern replacements. Fender Klusons in 1963 used the metal oval exclusively. The single-line stamping stayed until late 1964, when Fender went to double-line.
 
-<figure><img alt="Back of the headstock on a 1963 Fender Stratocaster showing Kluson Deluxe single-line tuners with oval metal buttons" width="2560" height="1707" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-back-of-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption>Back of the headstock on a 1963 Strat showing Kluson Deluxe single-line tuners with oval metal buttons. Single-line KLUSON DELUXE stamp visible on each shell.</figcaption></figure>
+<figure>
+
+![Back of the headstock on a 1963 Fender Stratocaster showing Kluson Deluxe single-line tuners with oval metal buttons](../../assets/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-back-of-headstock-scaled.jpg)
+
+<figcaption>Back of the headstock on a 1963 Strat showing Kluson Deluxe single-line tuners with oval metal buttons. Single-line KLUSON DELUXE stamp visible on each shell.</figcaption>
+
+</figure>
 
 Bridge saddles are bent steel, chrome plated, each one stamped **FENDER FENDER PAT. PEND.** in raised letters. Six saddles total, all stamped. Fender kept this stamping from 1954 right up until 1965, when they finally got the patent and the marking changed to PAT. with a number. On an original set, the wear and oxidation on all six saddles should look like they've lived together for sixty years. If five look weathered and one looks suspiciously clean, that's a tell. Saddles are easy to swap.
 
@@ -136,7 +196,13 @@ The position markers on the board are **clay dots**. Not pearl, not plastic, not
 
 The headstock wears the **spaghetti logo**. Thin gold script with a black drop shadow, reading "Fender" with "STRATOCASTER" stenciled below. The transition to the bolder Fender logo happened in late 1964, so every '63 still wears the old script. Below the model name you'll see three patent numbers: 2,573,254 / 2,741,146 / 2,968,204. The 3,143,028 patent isn't on Strats yet in '63.
 
-<figure><img alt="Front of the headstock on a 1963 Fender Stratocaster showing the gold spaghetti logo and three patent numbers" width="2560" height="1707" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-front-of-headstock-with-logo-scaled.jpg" loading="lazy" decoding="async"><figcaption>Spaghetti logo on a 1963 Strat headstock with three patent numbers stenciled below the model name.</figcaption></figure>
+<figure>
+
+![Front of the headstock on a 1963 Fender Stratocaster showing the gold spaghetti logo and three patent numbers](../../assets/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-front-of-headstock-with-logo-scaled.jpg)
+
+<figcaption>Spaghetti logo on a 1963 Strat headstock with three patent numbers stenciled below the model name.</figcaption>
+
+</figure>
 
 The whole guitar is finished in nitro, which is what Fender used until they switched to polyester and polyurethane in the late '60s. Real '63 nitro checks. Hairline cracks in the finish from sixty years of expansion and contraction in different climates. The checking should look natural and follow the wood grain in places. If the finish is glassy and uncracked on a claimed '63, you're looking at a refinish or a reissue.
 

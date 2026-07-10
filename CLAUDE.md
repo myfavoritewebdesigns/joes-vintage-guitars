@@ -501,6 +501,27 @@ Pre-launch image checklist (per image):
 
 **Current status of JVG hot-links: RESOLVED (verified 2026-06-20).** The built `dist/` has **zero** `wp-content`/old-domain image references and **zero** broken local image refs (757 distinct local image refs, 0 missing). Every image serves from `/images/*` (originals) or `/_astro/*.webp` (Astro-optimized). Source is clean: `wp-content` appears only in `reference/` snapshots, never in `src/`. The earlier ~63 fender-SN hot-links were localized.
 
+### Blog post images MUST go through Astro's pipeline (src/assets, NOT public/images)
+
+**Rule for every post in `src/content/blog/`:** image files live in **`src/assets/blog/<slug>/`** and are referenced so Astro optimizes them. NEVER author a post with content images in `public/images/blog/` + a raw `<img src="/images/...">` tag — that ships the full-size original (no responsive `srcset`, no WebP, no intrinsic width/height → CLS) and bypasses the pipeline entirely. Astro does NOT optimize raw `<img>` in Markdown; it DOES optimize a Markdown `![]()` that points at a relative `src/assets` path.
+
+- **Body image (captioned):** blank-line-separated Markdown image inside the `<figure>` so the pipeline picks it up:
+  ```
+  <figure>
+
+  ![Descriptive alt text](../../assets/blog/<slug>/<file>.jpg)
+
+  <figcaption><strong>Lead.</strong> Caption text.</figcaption>
+
+  </figure>
+  ```
+  Uncaptioned: just `![alt](../../assets/blog/<slug>/<file>.jpg)` on its own line. The relative path from a post file is always `../../assets/blog/…`.
+- **`heroImage` / `ogImage` frontmatter:** keep the STRING form `"/images/blog/<slug>/<file>.jpg"`, but the FILE must live in **`src/assets/blog/<slug>/`**. `src/lib/images.ts` `resolveImage()` maps that string to the optimized asset (responsive `<Image>` hero, hashed `_astro` og). If the file only exists in `public/`, it silently falls back to the raw original.
+
+**Verify before "done" (must be 0):** `grep -rlE '(src="/images/blog/|\]\(/images/blog/)' src/content/blog/` — any hit is a post bypassing the pipeline. There should be no `public/images/blog/` directory; all blog image files belong under `src/assets/blog/`.
+
+History: WP→Astro migration + Fable-authored posts flip-flopped between the two methods. The **2026-07 pass** (`chore/blog-images-astro-native`) relocated 227 files and rewrote 21 posts (224 body images) onto this convention; heroes auto-upgraded via `resolveImage`. Keep new posts on it so it does not regress.
+
 ## Legacy image URLs — retain them at cutover (do NOT let `/wp-content/uploads/*` 404)
 
 **The mistake to avoid:** after the domain cutover, the old WordPress media URLs (`/wp-content/uploads/YYYY/MM/<file>.jpg`) 404 on the new static site, because Astro serves images from `/images/*` (originals) and `/_astro/*.<hash>.webp` (optimized). Letting them 404 silently discards two things that matter — especially for an image-heavy niche like vintage guitars:
