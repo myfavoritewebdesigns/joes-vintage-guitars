@@ -107,7 +107,7 @@ The earliest Duo Jets are the collector's prize, and they are easy to spot once 
 
 <h3>1954 to 1957: The DeArmond Years</h3>
 
-In 1954 the Jet took the form most people picture. The streamlined block "Gretsch" logo appears on the headstock, a matching logo goes on the pickguard, the knobs gain the little arrow pointer and "G" that collectors call G-arrow knobs, and a block marker fills in at the first fret. The pickups through this whole stretch are DeArmond Dynasonics, and the bridge is the Melita Synchro-Sonic.
+In 1954 the Jet took the form most people picture. The streamlined block "Gretsch" logo appears on the headstock, a matching logo goes on the pickguard, the knobs are the Gretsch arrow style, a metal knob with an engraved pointer, and a block marker fills in at the first fret. The pickups through this whole stretch are DeArmond Dynasonics, and the bridge is the Melita Synchro-Sonic.
 
 ![Close-up of a DeArmond Dynasonic single-coil pickup on a vintage Gretsch Jet, showing the single row of adjustable pole pieces.](../../assets/blog/gretsch-duo-jet-history-value/gretsch-dearmond-dynasonic-pickup.jpg)
 
@@ -133,9 +133,9 @@ Two Filter'Trons on a single-cut Duo Jet, with the covers reading "Patent Applie
 
 By 1958 the Jet settled into the form that many players consider the classic: Filter'Tron humbuckers, the bar bridge, and Neo-Classic "thumbnail" inlays, the half-moon markers set into the edge of the fingerboard. The control layout also matured. Gretsch put the master volume up on the cutaway bout, a signature Gretsch touch, with the other controls on the lower bout, and in 1958 dropped one knob and added a tone switch. A zero fret sits up at the nut on the late-decade guitars. Everything about a good 1958 to 1961 single-cut says "finished design," and these are wonderful guitars to own and to play.
 
-![Close-up of two G-arrow control knobs on the silver sparkle top of a vintage Gretsch Jet.](../../assets/blog/gretsch-duo-jet-history-value/gretsch-g-arrow-control-knobs.jpg)
+![Close-up of two Gretsch arrow control knobs with engraved pointers and no G logo, on the silver sparkle top of a vintage Silver Jet.](../../assets/blog/gretsch-duo-jet-history-value/gretsch-arrow-control-knobs.jpg)
 
-The G-arrow knobs, standard from 1954 on. The little pointer and the "G" are correct; a plain, unmarked knob belongs only on a 1953 first-batch guitar. Small parts like these carry real dating weight, which is exactly why they get swapped to dress up a guitar.
+The arrow knobs on this Silver Jet: a metal knob with an engraved pointer and no "G" on the cap. This plain arrow style is correct for a 1950s Jet, while the first-batch 1953 guitars wore plain knobs with no arrow at all. Small parts like these carry real dating weight, which is exactly why they get swapped to dress up a guitar.
 
 <h3>1961 Onward: The Double-Cut</h3>
 
@@ -218,7 +218,7 @@ Here is the short version you can run through with a screwdriver and a flashligh
 2. **Pickups.** DeArmond single coils (one row of poles, and they hum) point to 1953 through 1957. Filter'Trons (two rows, quiet) point to 1958 and later. Are the cavities un-routed and the mounting holes unfilled?
 3. **Bridge.** Melita with individually adjustable saddles for the early years, Space Control or bar bridge from 1958 on. Correct for the year?
 4. **Tailpiece.** The "G" trapeze is standard. Any Bigsby means you look for extra or filled screw holes.
-5. **Logo, knobs, inlays.** Script logo, blank knobs, and no first-fret inlay is a 1953 first batch. Block logo, G-arrow knobs, and a first-fret marker is 1954 and later. Half-moon thumbnail inlays are mid-1958 and later.
+5. **Logo, knobs, inlays.** Script logo, blank knobs, and no first-fret inlay is a 1953 first batch. Block logo, arrow knobs, and a first-fret marker is 1954 and later. Half-moon thumbnail inlays are mid-1958 and later.
 6. **Pot codes and solder.** Do the pot date codes agree with the serial, and is the solder original and undisturbed?
 7. **Finish.** Check the cavity and under the pickup mounts for overspray, and look for age-appropriate checking on the top.
 8. **Structure.** Binding condition, headstock cracks, neck angle, and the bound top.
