@@ -12,8 +12,6 @@ metaDescription: "Is a brass nut a sustain upgrade or a vintage value killer? We
 ogImage: "/images/blog/brass-nut-vintage-guitar-tone/brass-nut-at-joes-vintage-guitars.jpg"
 wpId: 19200
 ---
-## ![Close-up of a vintage guitar headstock featuring a 1970s era brass nut modification at Joe’s Vintage Guitars](../../assets/blog/brass-nut-vintage-guitar-tone/brass-nut-at-joes-vintage-guitars.jpg)
-
 If you spend enough time looking at guitars from the late 70s and early 80s, you’re going to run into it: that gleaming, heavy piece of brass sitting at the top of the neck. For some, it’s a nostalgic badge of honor from the “sustain at all costs” era. For others, especially collectors, it’s the first thing that makes them reach for a bottle of wood glue and a bone blank to fix it.
 
 At **Joe’s Vintage Guitars**, we see plenty of these come through. Whether it’s an old Strat that’s been heavily modded or a factory-original Gretsch, the brass nut tells a specific story about where guitar tech has been.

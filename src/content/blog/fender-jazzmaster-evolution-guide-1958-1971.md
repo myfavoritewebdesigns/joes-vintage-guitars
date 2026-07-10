@@ -16,8 +16,6 @@ Evolution & Reference Guide · Fender Offset · 1958 to 1971
 
 Every specification change documented year by year: gold guard to tort, slab to veneer, clay to pearl to blocks, spaghetti to transition logo, Klusons to F-tuners, and the custom color and pickguard reference
 
-<figure><img alt="1960s Fender Jazzmaster in Charcoal Frost Metallic custom color, white pickguard, matching headstock, offset waist body, floating tremolo, pre-CBS Fullerton production" width="2560" height="1707" src="/images/blog/fender-jazzmaster-evolution-guide-1958-1971/1960s-jazzmaster-charcoal-frost._-10-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1960s Fender Jazzmaster, Charcoal Frost Metallic.</strong> A clean example of the Jazzmaster in one of its less common custom colors. The white pickguard is correct for all custom color Jazzmasters. Sunburst models received the tortoiseshell guard. The matching painted headstock was standard on all custom colors except Blonde from approximately spring 1962 onward. The offset waist body, floating tremolo, and rhythm circuit upper plate are all clearly visible.</figcaption></figure>
-
 -   [Introduction & Context](#intro)
 -   [Body, Finish & Controls](#body)
 -   [Neck, Fingerboard & Inlays](#neck)
@@ -27,12 +25,8 @@ Every specification change documented year by year: gold guard to tort, slab to 
 -   [Bridge, Tremolo & Hardware](#bridge)
 -   [Logos, Tuners & Knobs](#logos)
 -   [Serial Numbers & Dating](#serial)
--   [Year-by-Year Reference: 1958 to 1971](#years)
--   [Master Specification Table](#master)
--   [Dating Checklist](#checklist)
--   [Related Resources](#links)
 
-## Introduction & Context
+<h2 id="intro">Introduction & Context</h2>
 
 The Fender Jazzmaster debuted in late 1958 as the most expensive and feature-rich guitar in the Fender lineup, a deliberate attempt by Leo Fender to capture the jazz market with a guitar that felt different from the Telecaster and Stratocaster in every meaningful way. It was the first Fender production guitar with a rosewood fingerboard, the first with an offset-waist body, and the first with the elaborate dual-circuit rhythm/lead switching system that remains one of the most distinctive electronics setups in electric guitar history.
 
@@ -44,7 +38,7 @@ This guide documents every specification change the Jazzmaster underwent between
 
 **CBS Era (January 1965 to 1971):** CBS Corporation acquired Fender on January 5, 1965. Changes began immediately but were gradual. The first truly CBS-influenced guitars didn't appear until mid-to-late 1965. By 1967 to 1968 the character of the instrument had shifted substantially.
 
-## Body, Finish & Controls
+<h2 id="body">Body, Finish & Controls</h2>
 
 ### Body Construction
 
@@ -81,7 +75,7 @@ The Jazzmaster's electronics are its most complex feature, and the one most like
 
 <figure><img alt="Fender Jazzmaster witch hat knobs close-up, white plastic with chrome domed top, CBS era indicator introduced mid-1965 replacing Strat-style dome knobs" width="1053" height="701" src="/images/blog/fender-jazzmaster-evolution-guide-1958-1971/jazzmaster-witch-hat-knobs.jpg" loading="lazy" decoding="async"><figcaption><strong>Witch hat knobs (mid 1965 to 1971).</strong> Taller, narrower white plastic with a chrome domed top, a Jazzmaster-specific design introduced mid-1965. Their arrival is one of the clearest CBS-era markers on the instrument. Any Jazzmaster with witch hat knobs was built after mid-1965.</figcaption></figure>
 
-## Neck, Fingerboard & Inlays
+<h2 id="neck">Neck, Fingerboard & Inlays</h2>
 
 ### A Historic First: The Jazzmaster and the Rosewood Fingerboard
 
@@ -130,7 +124,7 @@ Necks are dated directly on the wood at the heel. The method changed over the pr
 -   1958 to 1962**Pencil-written** month and year at the heel butt, handwritten by the neck builder. Format: "2-59" for February 1959. Note: many mid-1959 to 1960 necks have no date at all.
 -   Mid 1962 onward**Rubber-stamped code** with more information. Format: "4JAN63B" where 4 = Jazzmaster model number, JAN = January, 63 = 1963, B = standard nut width (1-5/8").
 
-## Pickguards: The Full Story
+<h2 id="pickguard">Pickguards: The Full Story</h2>
 
 The Jazzmaster pickguard is one of the guitar's most visually distinctive and historically interesting features. Its large size, covering most of the body top, integrates the rhythm circuit controls as part of an aluminum-shielded upper plate, making it unlike any other Fender pickguard. The material and style changed three times between 1958 and 1971.
 
@@ -169,7 +163,7 @@ Collectors generally consider the plastic guard less visually attractive than th
 | **Late 1961 to late 1964** | Celluloid tortoiseshell (4-ply) | 13 | Tortoiseshell | White celluloid (mint green aging) |
 | **Late 1964 to 1971** | Plastic tortoiseshell (3-ply) | 13 | Tortoiseshell | White plastic |
 
-## Custom Colors & Pickguard Pairing
+<h2 id="customcolors">Custom Colors & Pickguard Pairing</h2>
 
 Custom colors were available on the Jazzmaster from its introduction, at a 5% premium over the standard list price. The lineup expanded and contracted over the years, and the correct pickguard for a given color changed depending on production period. This section provides a complete reference.
 
@@ -200,7 +194,7 @@ When custom color Jazzmasters were painted at the Fullerton factory, the body wa
 
 Many Fender custom colors fade dramatically with age. Sonic Blue, Seafoam Green, and Surf Green are among the most extreme faders. A heavily played example may look almost white or pale gray today. Daphne Blue fades toward a chalky gray-blue. Lake Placid Blue is more stable but can shift. When evaluating a faded guitar, UV light examination and checking unfaded areas under the pickguard or at the neck pocket help assess the original color and confirm the finish is original.
 
-## Pickups & Electronics
+<h2 id="pickups">Pickups & Electronics</h2>
 
 ### The Jazzmaster Pickup, Design & Concept
 
@@ -233,7 +227,7 @@ Checking for and replacing deteriorated foam (with appropriate modern open-cell 
 
 The body date on a Jazzmaster is **penciled** in the **bridge pickup cavity**, visible through the pickguard route. This date reflects when the body was routed and is a valuable independent dating reference, particularly for 1958 to 1965 guitars. Cross-reference with neck date and pot codes for a complete picture.
 
-## Bridge, Tremolo & Hardware
+<h2 id="bridge">Bridge, Tremolo & Hardware</h2>
 
 ### The Floating Bridge
 
@@ -253,7 +247,7 @@ The tremolo is a separate unit from the bridge, a vibrato tailpiece that anchors
 
 <figure><img alt="Fender Jazzmaster floating tremolo close-up, trem-lock button, chrome tremolo body, and tremolo arm socket showing period-correct Jazzmaster vibrato hardware" width="2503" height="1669" src="/images/blog/fender-jazzmaster-evolution-guide-1958-1971/jazzmaster-tremolo-close-up.jpg" loading="lazy" decoding="async"><figcaption><strong>Fender Jazzmaster floating tremolo.</strong> The tremolo body, trem-lock thumb button, and arm socket are all visible here. The trem-lock button mechanically freezes the tremolo in position, a practical feature allowing the player to continue in tune after a string break. Early examples have "Pat. Pend." stamped on the tremolo body; later units show the full patent number.</figcaption></figure>
 
-## Logos, Tuners & Knobs
+<h2 id="logos">Logos, Tuners & Knobs</h2>
 
 ### Headstock Logo Evolution
 
@@ -301,7 +295,7 @@ The Jazzmaster headstock shape remained essentially consistent from 1958 through
 
 <figure><img alt="1966 Fender Jazzmaster in original black Tolex hardshell case with orange interior, CBS-era case correct for mid-1960s Fender production" width="2560" height="1707" src="/images/blog/fender-jazzmaster-evolution-guide-1958-1971/1966-fender-jazzmaster-in-hard-case-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1966 Fender Jazzmaster in original black Tolex case with orange interior.</strong> Black Tolex replaced brown as the standard Fender case from approximately 1964 to 1965. The orange interior is correct for mid-1960s examples. The guitar-body shaped cavity, neck rest, and accessory compartment all show period-correct construction.</figcaption></figure>
 
-## Serial Numbers & Dating
+<h2 id="serial">Serial Numbers & Dating</h2>
 
 Jazzmaster serial numbers are located on the **neck plate** on the back of the guitar, not on the headstock as on Gibson. The neck plate is a four-bolt chrome plate securing the neck to the body. Serial number formats changed over the production run.
 

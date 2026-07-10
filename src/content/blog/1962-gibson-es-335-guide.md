@@ -12,8 +12,6 @@ metaDescription: "The 1962 Gibson ES-335 is a “transitional” model that sits
 ogImage: "/images/blog/1962-gibson-es-335-guide/1962-gibson-es-335-cherry-scaled.jpg"
 wpId: 19065
 ---
-![Vintage 1962 Gibson ES-335TD in Cherry Red finish featuring original cellulose nitrate block inlays, Mickey Mouse ear body shape, and nickel-plated ABR-1 bridge.](../../assets/blog/1962-gibson-es-335-guide/1962-gibson-es-335-cherry-1024x683.jpg)
-
 A pristine 1962 Gibson ES-335 showing the transition to block inlays while retaining the classic ‘Mickey Mouse’ ear cutaways and original Cherry nitrocellulose finish.
 
 The **1962 Gibson ES-335** is a “sweet spot” year for collectors. It marks the point where Gibson moved from the 1950s “dot neck” era into the **block inlay** look. This guide walks through the **1962 ES-335 specifications**, including the shift from **PAF humbuckers** to early **Patent Number pickups** and the final full year of the **“Mickey Mouse” ear** body shape. Whether you are trying to verify the **originality of a 1962 ES-335** or want a **vintage guitar appraisal**, these 1962-specific details are what determine the market value of the guitar.

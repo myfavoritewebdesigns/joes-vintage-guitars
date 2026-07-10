@@ -16,8 +16,6 @@ Authentication Guide · Gibson Solid Body · 1954
 
 A year-specific reference for identifying, dating, and authenticating a genuine 1954 Gibson Les Paul Goldtop
 
-<figure><img alt="1954 Gibson Les Paul Goldtop full body shot, bullion gold nitrocellulose finish, wrap tail bridge, cream P-90 pickups, single cutaway mahogany body" width="2560" height="1707" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1954 Gibson Les Paul Goldtop.</strong> The first full production year combining the corrected 4° neck pitch with the wrap tail bridge, the two changes that made the Les Paul genuinely great to play. Note the barrel-shaped amber knobs, cream P-90 covers, and the characteristic bronze-gold finish that will develop green oxidation at wear points over time.</figcaption></figure>
-
 -   [Why 1954 Is Special](#why1954)
 -   [At-a-Glance Specifications](#specs)
 -   [Serial Numbers & Dating](#serial)
@@ -33,7 +31,7 @@ A year-specific reference for identifying, dating, and authenticating a genuine 
 -   [The Original Case](#case)
 -   [Related Resources](#links)
 
-## Why 1954 Is Special
+<h2 id="why1954">Why 1954 Is Special</h2>
 
 The 1954 Gibson Les Paul Goldtop holds a specific spot in the instrument's history. It is the **first full production year** of the wrap tail bridge combined with the corrected neck pitch, the two engineering fixes that turned the Les Paul from a flawed debut instrument into something genuinely great to play. And it does that without the Tune-o-Matic bridge that would arrive in late 1955 and define the later goldtops. So the 1954 is the original wrap-tail concept at its best.
 
@@ -45,11 +43,11 @@ If you're evaluating a 1954, the most important things to confirm are the **wrap
 
 **vs. 1956:** The 1956 guide on this site covers the ABR-1 Tune-o-Matic bridge, bonnet (top-hat) knobs, and Bumblebee capacitors. None of those belong on a 1954. If you see any of them on a "1954," something is wrong. The two guitars share the P-90 pickups and Kalamazoo build quality but are otherwise quite different in their hardware and electronics.
 
-## At-a-Glance Specifications
+<h2 id="specs">At-a-Glance Specifications</h2>
 
 All specifications listed here are correct for **1954 production only**. Items noted with a change year are features that were different before or after this year.
 
-## Serial Numbers & Dating
+<h2 id="serial">Serial Numbers & Dating</h2>
 
 Gibson used an ink-stamped serial number on the back of the headstock for all solid-body guitars from 1953 onward. The system is straightforward for the 1950s: the **first digit indicates the last digit of the production year**, followed by a space and then a 4- or 5-digit consecutive number.
 
@@ -65,7 +63,7 @@ A genuine 1954 Les Paul Goldtop serial number starts with **"4"**, followed by a
 
 Gibson's Custom Shop reissues of the 1954 Les Paul use the **same "4 XXXX" format** as the originals, making them potentially confusing at a glance. The reissue font is noticeably thinner and more uniform. More importantly, reissues carry a Certificate of Authenticity and have modern construction details (Nashville bridge inserts, modern pickup cavities, polyurethane or VOS lacquer). Always verify with physical features; the serial alone is never sufficient. For detailed help decoding serial numbers, see our [complete Gibson serial number guide](/how-to-read-gibson-serial-numbers/).
 
-## Headstock & Neck
+<h2 id="headstock">Headstock & Neck</h2>
 
 ### The Gibson Logo
 
@@ -112,7 +110,7 @@ The inlays are **Cellulose Nitrate trapezoids** with sharp corners and a distinc
 
 <figure><img alt="1954 Gibson Les Paul Goldtop trapezoid inlays on Brazilian rosewood fingerboard, Cellulose Nitrate with marbled texture and sharp corners" width="2560" height="1707" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-inlays-2-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1954 Les Paul Goldtop trapezoid inlays on Brazilian rosewood.</strong> The Cellulose Nitrate material produces a characteristic swirling, marbled internal pattern that no modern plastic replicates. Note the very dark, tight-grained Brazilian rosewood, significantly darker than the Indian rosewood used from the mid-1960s onward. Slight gaps at the inlay edges from 70 years of off-gassing are an authenticity indicator, not a defect.</figcaption></figure>
 
-## Body, Top & Finish
+<h2 id="body">Body, Top & Finish</h2>
 
 ### Construction
 
@@ -164,7 +162,7 @@ Many 1954 goldtops have had their wrap tail bridges replaced with ABR-1 Tune-o-M
 
 <figure><img alt="1954 Gibson Les Paul Goldtop wrap tail bridge close-up, nickel-plated stud bar bridge with threaded posts and original shorter bushings" width="2445" height="1628" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-bridge.jpg" loading="lazy" decoding="async"><figcaption><strong>1954 Les Paul Goldtop wrap tail bridge.</strong> The single nickel-plated bar sits at a proper height off the top, made possible by the 4° neck pitch introduced in 1954. Note that the posts are not bottomed out against the maple, confirming correct neck geometry. The two threaded studs anchor directly into the maple cap with the shorter bushings typical of 1954 production. No retainer wire, no saddle adjustment, intonation is set via bar height and the two rear set screws.</figcaption></figure>
 
-## P-90 Pickups
+<h2 id="pickups">P-90 Pickups</h2>
 
 The 1954 Les Paul uses two **P-90 "soapbar" single-coil pickups** with cream plastic covers, the same pickup specification used on goldtops from 1952 through 1956, before PAF humbuckers arrived in 1957. The P-90 is a broad, flat single-coil design with two large bar magnets underneath the coil, producing a warm, punchy tone with more midrange complexity than a Fender-style pickup.
 
@@ -179,7 +177,7 @@ The 1954 Les Paul uses two **P-90 "soapbar" single-coil pickups** with cream pla
 
 Original 1954 P-90s in a 1954 body produce a vocal, midrange-forward tone, warm and thick in the neck position, with a cutting, slightly nasal quality at the bridge. The combination of these pickups with the wrap tail bridge (which some players believe transfers string energy more directly to the body than a separate bridge/tailpiece combination) gives the 1954 a very specific character. This is why players like Freddie King, Alan Wilson of Canned Heat, and later Jeff Beck specifically sought out these instruments.
 
-## Electronics & Wiring
+<h2 id="electronics">Electronics & Wiring</h2>
 
 The internal electronics of the 1954 give you a lot of authentication evidence, and are often easier to judge than cosmetic features, since they either match the period or they don't. Access the control cavity by removing the two back cover plates (both secured with slotted screws).
 
@@ -211,7 +209,7 @@ The 3-way toggle switch is a **Switchcraft unit**, the same as used throughout t
 
 Around the switch is the **cream plastic "poker chip"** rhythm/treble indicator with gold-embossed lettering. The lettering is pressed into the plastic and filled with gold paint, on originals the paint often shows slight softening or bleeding at the edges of the letters, a detail that modern laser-etched versions cannot replicate.
 
-## Hardware & Plastics
+<h2 id="hardware">Hardware & Plastics</h2>
 
 ### Control Knobs, Barrel Style, Not Bonnet
 
@@ -255,7 +253,7 @@ Inside the neck pickup cavity, the **long tenon of the neck joint** is visible a
 
 The body is one-piece mahogany (or occasionally two-piece) with a carved maple cap. On an original 1954, the seam between the mahogany back and the maple cap should be visible at the edge binding channel as a clear line between two distinct wood colors. The maple carve is modest compared to later archtops, a gentle, relatively shallow arch that nonetheless creates the carved-top aesthetic Les Paul and McCarty wanted as a departure from Fender's flat slab bodies.
 
-## Reissues, Fakes & What to Watch For
+<h2 id="fakes">Reissues, Fakes & What to Watch For</h2>
 
 The 1954 Les Paul Goldtop is among the most frequently misrepresented vintage guitars on the market. The combination of high value, recognizable appearance, and the fact that a compelling fake needs to get dozens of details right simultaneously means there is a real market for deceptive examples. Here are the most common scenarios:
 
@@ -290,7 +288,7 @@ Many genuine 1954 goldtops have been modified over 70 years. Common modification
 
 Modifications do not make a guitar worthless, but they must be disclosed and will significantly affect value. An all-original 1954 goldtop commands a very substantial premium over a modified example.
 
-## Authentication Checklist
+<h2 id="checklist">Authentication Checklist</h2>
 
 Work through this checklist systematically when evaluating any claimed 1954 Les Paul Goldtop. Each item that checks out adds to confidence; any item that contradicts the claimed year demands investigation.
 
@@ -340,7 +338,7 @@ Work through this checklist systematically when evaluating any claimed 1954 Les 
 
 For any 1954 Les Paul Goldtop transaction above $20,000, insist on a physical examination by a recognized vintage Gibson specialist. The three most reliable triangulating data points are: **(1) pot codes (side rim of pots in 1954), (2) Grey Tiger capacitors, and (3) the "no line" Kluson tuners**. If all three are period-correct and agree with a "4"-prefix serial, you have a strong case for a genuine 1954. For a free appraisal inquiry, visit our [free appraisal page](/free-appraisal/).
 
-## The Original Case
+<h2 id="case">The Original Case</h2>
 
 A 1954 Les Paul Goldtop that still has its original case is meaningfully more desirable to collectors, both because the case confirms provenance and because it protects the guitar from the humidity and light exposure that cause the most damage to vintage instruments over time. Knowing what the correct case looks like is also a useful cross-check: a guitar claiming to be a 1954 accompanied by a completely wrong-era case prompts questions about the guitar's history.
 
@@ -357,7 +355,7 @@ A 1954 Les Paul Goldtop that still has its original case is meaningfully more de
 
 An all-original 1954 in its original Lifton case in good condition commands a premium over the same guitar without a case. More importantly, a case with provenance documentation, original receipt, owner's name, purchase date, is a great find that adds both historical value and authentication confidence. If a 1954 comes with paperwork, treat that paperwork as carefully as the guitar itself.
 
-## Related Resources
+<h2 id="links">Related Resources</h2>
 
 Dig deeper into vintage Gibson authentication and valuation with these guides.
 

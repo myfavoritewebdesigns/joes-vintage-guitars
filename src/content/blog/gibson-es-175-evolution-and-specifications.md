@@ -12,8 +12,6 @@ metaDescription: "Since its debut, the Gibson ES-175 has been one of the most re
 ogImage: "/images/blog/gibson-es-175-evolution-and-specifications/sell-vintage-gibson-es-175-value-guide-scaled.jpg"
 wpId: 18166
 ---
-![A vintage Gibson ES-175 hollow-body electric guitar in a classic Sunburst finish, showcasing the iconic Florentine cutaway and double-parallelogram fingerboard inlays.](../../assets/blog/gibson-es-175-evolution-and-specifications/sell-vintage-gibson-es-175-value-guide-1024x683.jpg)
-
 A 1950s Gibson ES-175 with the Florentine cutaway and Sunburst finish, the kind of instrument that shaped the sound of jazz for generations.
 
 If there is one guitar that truly defines the “workhorse” era of Gibson’s golden years, it’s the ES-175. While the high-end carved-top models like the L-5 were getting all the glory in the late 40s, the 175 was quietly becoming the most recorded jazz guitar in history. At Joe’s Vintage Guitars, we’ve handled our fair share of these instruments, and honestly, no two are exactly alike. If you’re sitting on one, maybe it was your father’s or you found it at an estate sale, you’re looking at a piece of history that has a very specific “DNA” that determines its value. As always, if you need help [appraising your guitar](/free-appraisal/), we are happy to help with a valuation, as well as a competitive cash offer to [buy your Gibson](/sell-my-gibson-guitar/) if you are in the market to sell.

@@ -18,8 +18,6 @@ CBS bought Fender in January 1965, but the factory didn't flip a switch the day 
 
 That in-between status is why so many players and collectors love these guitars. A clean original 1966 still has the nitrocellulose lacquer, the hand-wound staggered pickups, the thin C-shape neck, and the comfortable pre-CBS body. It just wears the bolder headstock and the new visual identity on top. This guide walks through every authentication detail, every spec worth verifying, and the quiet little tells that point to a real, untouched 1966.
 
-<figure><img width="2560" height="1707" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-scaled.jpg" alt="1966 Fender Stratocaster front view in sunburst finish" loading="lazy" decoding="async"><figcaption>A correct 1966 Stratocaster in three-tone sunburst</figcaption></figure>
-
 <h2 id="overview">Quick Reference: 1966 Stratocaster Specs</h2>
 
 <h2 id="body">The Body, Finish, and the CBS Color Question</h2>

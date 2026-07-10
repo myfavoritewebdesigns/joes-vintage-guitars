@@ -12,8 +12,6 @@ metaDescription: "The Gibson LG series packs a lot of guitar into a small body. 
 ogImage: "/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1950s-gibson-lg-2-vintage-acoustic-guitar-scaled.jpg"
 wpId: 18194
 ---
-![Vintage 1950s Gibson LG-2 acoustic guitar with large pickguard and original small rectangular rosewood bridge](../../assets/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1950s-gibson-lg-2-vintage-acoustic-guitar-1024x683.jpg)
-
 A prime example of a late 1950s Gibson LG-2. This model features the transition-era large pointed pickguard while retaining the highly desirable small rectangular bridge and X-braced construction.
 
 ## How to Identify a Gibson LG-0, LG-1, LG-2, and LG-3

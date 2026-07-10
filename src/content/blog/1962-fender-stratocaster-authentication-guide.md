@@ -33,9 +33,7 @@ The complete year-specific reference for dating and authenticating a genuine 196
 -   [Original Case & Accessories](#case)
 -   [Related Resources](#links)
 
-<figure><img alt="1962 Fender Stratocaster 3-color sunburst, alder body, slab rosewood neck, 3-ply white pickguard, synchronized tremolo, pre-CBS Fullerton production" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1962 Fender Stratocaster, 3-color sunburst.</strong> A prime example of pre-CBS Fullerton production at its peak. This example shows the characteristic 3-color sunburst with its yellow-to-orange-to-dark-brown graduation, the 3-ply white pickguard (note the slight mint aging of the outer layer), and the synchronized tremolo. The slab rosewood fingerboard is visible at the headstock end, one of the most desirable specifications on any 1962 example.</figcaption></figure>
-
-## Why 1962 Is a Benchmark Year
+<h2 id="why1962">Why 1962 Is a Benchmark Year</h2>
 
 The 1962 Fender Stratocaster sits at an important point in the model's history. It comes right at the end of what collectors consider the pre-CBS golden age of Stratocaster production, pre-CBS, pre-veneer, and built at the Fullerton factory at the peak of Leo Fender's quality control. CBS acquired Fender in January 1965, and while the guitars didn't change overnight, the slow drift toward cost-cutting had already begun by 1964. A genuine 1962 Stratocaster predates all of that.
 
@@ -49,11 +47,11 @@ The year's defining authentication challenge is the **slab-to-veneer rosewood fi
 
 **4\. Is the finish original?** Refinished Stratocasters are extremely common. The value difference between an original-finish and refinished pre-CBS Strat is enormous. A sunburst should show the characteristic three-tone fade; custom colors should show the correct aging and checking pattern for nitrocellulose.
 
-## At-a-Glance Specifications
+<h2 id="specs">At-a-Glance Specifications</h2>
 
 These specifications reflect standard 1962 production. Where the slab/veneer transition creates a split, both variants are noted. All changes from 1961 are marked.
 
-## Serial Numbers & Dating
+<h2 id="serial">Serial Numbers & Dating</h2>
 
 Like all pre-CBS Fender instruments, the 1962 Stratocaster serial number is an unreliable standalone dating tool. Neck plates were produced in batches and stored, then assigned by assemblers who grabbed from bins without regard for sequence. The serial number places a guitar in a broad era. It does not confirm the year.
 
@@ -91,7 +89,7 @@ Remove the 11 pickguard screws and lift the guard carefully. The wiring harness 
 
 <figure><img alt="1962 Fender Stratocaster Stackpole pot date code 304-6242 stamped on back of potentiometer casing, confirms 1962 week 42 manufacture" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-pot-close-up-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Stackpole pot date code on a 1962 Fender Stratocaster.</strong> This pot reads <strong>304 6242</strong>, Stackpole (manufacturer code 304), year 1962, week 42. That places assembly no earlier than approximately mid-October 1962. Always read all three pots and use the latest date code as your earliest possible assembly floor. A single pot reading years later than the others indicates a replacement.</figcaption></figure>
 
-## The Neck: Slab vs. Veneer Rosewood
+<h2 id="neckboard">The Neck: Slab vs. Veneer Rosewood</h2>
 
 The transition from slab to veneer rosewood fingerboard is the single most important feature distinction in 1962 Stratocaster authentication. It affects value, desirability, and historical placement within the year's production. Understanding it in detail is essential.
 
@@ -131,7 +129,7 @@ A slab-board 1962 Stratocaster can be worth substantially more than a veneer-boa
 
 By 1962 Fender had settled into what collectors call the **slim "C" profile**, a comfortable oval-to-C cross-section that is thinner front-to-back than the chunky "V" profiles of 1954 to 1957. The 1962 neck is not as thin as the very narrow profiles that appeared on some CBS-era Strats, but it is distinctly slimmer than any 1950s example. Players accustomed to vintage Telecasters sometimes find the 1962 Strat neck slightly thinner than expected. This is correct and period-authentic.
 
-## Body, Wood & Finish
+<h2 id="body">Body, Wood & Finish</h2>
 
 ### Body Wood
 
@@ -169,7 +167,7 @@ Fender suspended bodies from nails during the finishing process. The nail was dr
 
 <figure><img alt="Second finishing nail hole on 1962 Fender Stratocaster body face, under pickguard, confirming original Fullerton body finishing method" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-paint-hole-2-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Second nail hole on the same 1962 body face.</strong> Check both holes: both should show <strong>bare wood inside</strong>, no finish on the interior walls. If both holes have bare interiors, that supports an original unfinished body. If finish is visible inside either hole, the body has been refinished after the nails were pulled. Consistent bare-wood interiors across multiple nail holes is a strong positive authentication indicator.</figcaption></figure>
 
-## Pickguard & Controls Layout
+<h2 id="pickguard">Pickguard & Controls Layout</h2>
 
 ### The 3-Ply Pickguard
 
@@ -193,7 +191,7 @@ The 1962 Stratocaster uses **white plastic "dome" knobs**, round-topped with a f
 
 The knobs fit push-on over a splined shaft. Original knobs should fit snugly without wobble. Replacement knobs (if not correct period parts) may fit loosely or show different aging.
 
-## Pickups & Wiring
+<h2 id="pickups">Pickups & Wiring</h2>
 
 ### Black-Bottom Pickups, The Key Authentication Detail
 
@@ -223,7 +221,7 @@ This is one of the most widely misunderstood details in vintage Strat collecting
 
 <figure><img alt="1962 Fender Stratocaster electronics showing black fiber flatwork on all three pickup bobbins, original wiring harness with undisturbed masking tape, cloth-covered wire, and period-correct 3-way CRL switch" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-black-back-pickups-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Original electronics on a 1962 Fender Stratocaster.</strong> All three pickups show correct <strong>black fiber flatwork</strong> on the bobbin bottoms. Gray flatwork would indicate later production (~1964+). The wiring harness remains in original condition: cloth-covered hookup wire throughout, the undisturbed factory masking tape on the pots is still present (a strong indicator of an unmodified instrument), and the black and white cloth-covered lead wires from the pickups are visible. The 3-way CRL switch sits at the upper left.</figcaption></figure>
 
-## The Synchronized Tremolo Bridge
+<h2 id="bridge">The Synchronized Tremolo Bridge</h2>
 
 The Fender Synchronized Tremolo, introduced on the Stratocaster in 1954, is one of Leo Fender's most significant engineering contributions. Unlike the Bigsby and Kaufman vibratos that preceded it, the synchronized tremolo maintains relative tuning across all six strings by pivoting on six screws and returning to the same position. The 1962 bridge is unchanged from the original design in all essential respects.
 
@@ -243,7 +241,7 @@ The spring cavity is covered by a **single-ply white plastic back plate** secure
 
 Many 1962 Stratocasters were set up with the tremolo "decked", the back of the bridge plate resting flat on the body rather than floating above it. This was a common player modification for improved tuning stability at the cost of down-only tremolo travel. Evidence of decking (screw marks on the body from the six pivot screws being tightened down) is period-authentic and does not affect authenticity.
 
-## Hardware, Knobs & Jack
+<h2 id="hardware">Hardware, Knobs & Jack</h2>
 
 ### Neck Plate
 
@@ -257,7 +255,7 @@ The Stratocaster has **two chrome barrel-style strap buttons**, one on the lower
 
 The 1962 Stratocaster has a **single butterfly/wing string tree** on the headstock that guides the B and high-E strings to maintain adequate break angle over the nut. A round-button string tree predates 1955 and is incorrect for 1962. Some 1962 examples may show a second string tree added for the G and D strings. This is a period player modification and is not uncommon.
 
-## Headstock, Logo & Tuners
+<h2 id="headstock">Headstock, Logo & Tuners</h2>
 
 ### The "Spaghetti" Logo
 
@@ -278,7 +276,7 @@ Modern Grover Rotomatics, enclosed, circular-housing tuners, are the most common
 
 <figure><img alt="Back of 1962 Fender Stratocaster headstock showing Kluson Deluxe single-line tuners with Kluson Deluxe stamp on all-metal chrome gear housing backs" width="2560" height="1707" src="/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-single-line-kluson-tuners-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Kluson Deluxe single-line tuners on a 1962 Fender Stratocaster.</strong> The single vertical line of text reading "Kluson Deluxe" stamped on the back of each gear housing is the defining identifier for this era. The buttons are <strong>all metal</strong>, chrome-plated with no plastic component. All six housings and buttons should show consistent chrome aging and patina. A replacement tuner will often be identifiable by mismatched chrome wear or a different sheen.</figcaption></figure>
 
-## Dating From the Inside Out
+<h2 id="dating">Dating From the Inside Out</h2>
 
 Because the 1962 serial number is unreliable as a standalone tool, triangulating from multiple internal sources is essential. The methodology for a 1962 Stratocaster:
 
@@ -298,7 +296,7 @@ Because the 1962 serial number is unreliable as a standalone tool, triangulating
 
 **Late 1962:** Veneer rosewood board + black-bottom pickups + pot codes late 1962 + serial 90000s + neck date late 1962. Still 100% pre-CBS and highly desirable.
 
-## Custom Colors
+<h2 id="colors">Custom Colors</h2>
 
 Fender offered optional custom colors on the Stratocaster from 1956, but they remained a small fraction of production through the pre-CBS era. A genuine 1962 Stratocaster in a custom color is significantly rarer and more valuable than a sunburst example with otherwise identical specifications. Custom color Strats also have a much higher rate of refinishing. The value difference between original and refinished is enormous.
 
@@ -314,7 +312,7 @@ Refinished Stratocasters in custom colors are extremely common, and identifying 
 
 All custom color 1962 Stratocasters use **alder bodies**. Blonde Stratocasters use **ash**, the grain is part of the look under the semi-transparent blonde finish. Blonde and custom color are distinct categories with different body wood. Custom color guitars are painted with an opaque lacquer, so the body wood species does not affect the appearance, but it is a consistent specification.
 
-## Reissues, Fakes & Modifications
+<h2 id="fakes">Reissues, Fakes & Modifications</h2>
 
 ### Fender American Vintage 1962 Reissues
 
@@ -351,7 +349,7 @@ Modifications that reduce value but don't disqualify authenticity:
 -   **Refinish:** The most value-destructive modification. A refinished pre-CBS Strat can lose 50 to 70% of its value compared to an original-finish example. Refinishes are very common, always check under the pickguard and in cavities for original finish traces.
 -   **Neck plate modification:** Swapped neck plates are common. A mismatched serial number that doesn't match the neck/body dates indicates a plate swap.
 
-## Authentication Checklist
+<h2 id="checklist">Authentication Checklist</h2>
 
 Use this checklist as a starting framework. No single item is definitive. Authentication requires the full picture. Items in **bold** are the highest-priority checks.
 
@@ -422,7 +420,7 @@ Headstock
 -   Kluson Deluxe "single line" tuners, "Kluson Deluxe" stamped vertically on gear housing back
 -   Single butterfly/wing string tree, NOT round button (pre-1955)
 
-## Original Case & Accessories
+<h2 id="case">Original Case & Accessories</h2>
 
 By 1962, Fender had completed its transition from the late-1950s tweed case to a new case design. The correct original case for a 1962 Stratocaster is distinctly different from both the tweed case of 1959 and the black tolex cases that came later.
 
@@ -436,7 +434,7 @@ By 1962, Fender had completed its transition from the late-1950s tweed case to a
 
 A 1962 Stratocaster with its original brown Tolex case, original case key, original tremolo arm, and any surviving paperwork (hang tags, owner's manual, warranty card) represents a complete and historically intact instrument. These accessories are increasingly rare as decades pass and original cases wear out or get separated. A complete original package can add meaningfully to both value and authentication confidence, an unbroken chain of custody from the Fullerton factory is the most compelling authentication available.
 
-## Related Resources
+<h2 id="links">Related Resources</h2>
 
 Further reading and tools for dating and valuing your vintage Fender.
 

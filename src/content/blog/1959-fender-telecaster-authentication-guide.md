@@ -16,8 +16,6 @@ Authentication Guide · Fender Solid Body · 1959
 
 A year-specific reference for identifying, dating, and authenticating a genuine 1959 Fender Telecaster, covering the transitional details that make this one of the trickiest years in Tele history
 
-<figure><img alt="1959 Fender Telecaster blonde front view, white blond nitrocellulose finish, single-ply white pickguard, slab rosewood neck, pre-CBS Fullerton production" width="2560" height="1707" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-blonde-1-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1959 Fender Telecaster Blonde.</strong> A good example of the most transitional year in Telecaster history. This mid-to-late 1959 example shows the slab rosewood neck, single-ply white pickguard, and white blond nitrocellulose finish over an ash body. Note the threaded steel saddles and the characteristic slim profile that distinguished 1959 necks from the thicker profiles of 1957 to 1958.</figcaption></figure>
-
 -   [Why 1959 Is the Most Complex Year](#why1959)
 -   [At-a-Glance Specifications](#specs)
 -   [Serial Numbers & Dating](#serial)
@@ -34,7 +32,7 @@ A year-specific reference for identifying, dating, and authenticating a genuine 
 -   [Original Case & Accessories](#case)
 -   [Related Resources](#links)
 
-## Why 1959 Is the Most Complex Year
+<h2 id="why1959">Why 1959 Is the Most Complex Year</h2>
 
 No other year in the Telecaster's history packs as many simultaneous changes as 1959. It is the year Leo Fender introduced the slab rosewood fretboard, reversed the controversial top-loading bridge back to string-through-body stringing, introduced an entirely new model (the Telecaster Custom), and navigated a mid-year transition during which employees were specifically instructed not to write dates on neck heels, creating a narrow window where necks have no date at all. Any of those changes alone would make 1959 noteworthy. Together, they make it the most transition-dense year the instrument ever saw.
 
@@ -46,11 +44,11 @@ The result is that **a genuine 1959 Telecaster can look dramatically different d
 
 **3\. Is the body ash or alder?** Standard blond Telecasters used ash bodies throughout the 1950s. 1959 models with custom colors or sunburst (including the Telecaster Custom) used alder.
 
-## At-a-Glance Specifications
+<h2 id="specs">At-a-Glance Specifications</h2>
 
 These specifications reflect the **majority of 1959 production**, mid-to-late year slab rosewood examples. Early 1959 maple-neck variants are noted separately. All changes from 1958 are marked.
 
-## Serial Numbers & Dating
+<h2 id="serial">Serial Numbers & Dating</h2>
 
 Fender's serial number system in 1959 is unreliable as a standalone dating tool. Serial number plates were produced in large batches and stored in bins; assemblers grabbed plates at random, meaning a guitar's serial number does not necessarily correspond to when it was built. The neck heel date and internal pot codes are far more accurate.
 
@@ -84,7 +82,7 @@ The control cavity pots carry manufacturer-stamped date codes in the format **XX
 
 Access by removing the chrome control plate (two screws on the Telecaster). The two pots, one volume, one tone, should both read from the same general period. A pot reading several years later than the neck date indicates a replacement.
 
-## The Neck: Maple vs. Slab Rosewood
+<h2 id="neckboard">The Neck: Maple vs. Slab Rosewood</h2>
 
 The introduction of the rosewood fingerboard is the defining change of 1959, the reason this year is remembered and sought out by collectors. Understanding the distinction between a maple-neck 1959 and a slab rosewood 1959, and how to verify which you have, is fundamental to authentication.
 
@@ -124,7 +122,7 @@ The 1959 neck profile is a **slim "D" shape**, the result of a progressive thinn
 
 The nut width is the standard Fender specification of **1 5/8"**, not widened to 1 11/16" as on vintage Gibsons of the same period. This remained constant throughout the 1950s Telecaster production.
 
-## Body, Wood & Finish
+<h2 id="body">Body, Wood & Finish</h2>
 
 ### Ash vs. Alder, Which Is Correct?
 
@@ -194,7 +192,7 @@ Original threaded saddles show consistent chrome plating and period-appropriate 
 
 <figure><img alt="1959 Fender Telecaster bridge close-up showing threaded steel saddles, chrome ashtray bridge plate, and period-correct hardware" width="2560" height="1707" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-blonde-bridge-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1959 Fender Telecaster bridge detail.</strong> The three paired threaded steel saddles, introduced in 1958, replacing the earlier smooth saddles, are the correct bridge hardware for all 1959 production. Each saddle adjusts for height via a single screw and can be moved fore and aft for approximate intonation. Chrome plating with appropriate age patina is correct; rust pitting on the saddles is authentic and expected on original examples after 65+ years.</figcaption></figure>
 
-## Pickups & Wiring
+<h2 id="pickups">Pickups & Wiring</h2>
 
 ### Bridge Pickup
 
@@ -224,7 +222,7 @@ Remove the control plate and examine the wiring. Original 1959 wiring uses **clo
 
 <figure><img alt="1959 Fender Telecaster wiring harness showing cloth-covered wire, Stackpole or Centralab pots, and brown chicklet paper tone capacitor" width="2048" height="1536" src="/images/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-wiring-2048x1536.jpg" loading="lazy" decoding="async"><figcaption><strong>1959 Fender Telecaster wiring cavity.</strong> Every wire should be cloth-covered, plastic insulation is not period-correct. The tone capacitor for 1959 is the distinctive brown rectangular "chicklet" paper cap (visible here), which replaced the earlier round brown paper cap in 1959. Pot codes on the volume and tone pots (Stackpole 304 or Centralab 134) give the earliest possible assembly date. All wiring that matches this configuration strongly supports an unmodified, original 1959 instrument.</figcaption></figure>
 
-## Hardware, Controls & Plastics
+<h2 id="hardware">Hardware, Controls & Plastics</h2>
 
 ### Control Knobs
 
@@ -254,7 +252,7 @@ The neck pocket, the routed cavity in the body that receives the neck, should fi
 
 The output jack is a standard **Switchcraft 1/4" jack** mounted on the side of the body in a barrel-style chrome jack cup. The jack cup is secured by two screws. All wiring from the jack to the control cavity should be cloth-covered. The jack itself should show the characteristic single-ring construction of a Switchcraft unit from this era.
 
-## Headstock, Logo & Tuners
+<h2 id="headstock">Headstock, Logo & Tuners</h2>
 
 ### The "Spaghetti" Logo
 
@@ -281,7 +279,7 @@ The single-line Kluson Deluxe is consistent across late-1950s Fender production 
 
 The 1959 Telecaster headstock carries a **"butterfly" or "wing" string tree**, a small stamped metal guide that keeps the B and high-E strings seated in their nut slots under appropriate break angle. This is the same string tree introduced in approximately 1955, replacing the earlier round-button style. A round-button string tree on a claimed 1959 is incorrect; a butterfly/wing tree is correct.
 
-## Dating From the Inside Out
+<h2 id="dating">Dating From the Inside Out</h2>
 
 Because the 1959 serial number is so unreliable as a standalone tool, building a triangulated date from multiple internal sources is essential. Here is the complete methodology for dating a 1959 Telecaster accurately.
 
@@ -296,7 +294,7 @@ Because the 1959 serial number is so unreliable as a standalone tool, building a
 
 Early 1959: maple neck + likely top-loader bridge + serial ~30000 to 33000. Mid-1959: blank neck heel + slab rosewood appearing + serial ~32000 to 36000. Late 1959: slab rosewood + date stamp or blank heel + slim D profile + serial ~35000 to 40000. Bridge configuration (top loader, dual hole, or string-through) overlaps throughout the year and is a supporting detail, not a defining one, use neck date, body date, and pot codes as the primary sources.
 
-## The Telecaster Custom, New for 1959
+<h2 id="custom">The Telecaster Custom, New for 1959</h2>
 
 1959 also saw the introduction of an entirely new Telecaster variant: the **Telecaster Custom** (note: the official name was "Custom Telecaster", the reverse order "Telecaster Custom" was used on later models). This was a dressed-up version of the standard Telecaster aimed at players who wanted a more premium aesthetic, and it represents Fender's first bound-body production Telecaster.
 
@@ -312,7 +310,7 @@ Early 1959: maple neck + likely top-loader bridge + serial ~30000 to 33000. Mid-
 
 Because the Telecaster Custom is relatively more valuable than the standard model (rarity + bound body + sunburst + gold logo), there is an incentive to present a stripped and refinished standard as a Custom, or to add binding and a gold decal to an otherwise standard guitar. Check that: the binding is original (no paint bleed under the binding; correct binding profile throughout); the alder body is consistent with the sunburst finish; the gold decal shows authentic aging and is protected by a clear topcoat; and the pickguard is original 3-ply mint green with correct screw-hole count and positions.
 
-## Reissues, Fakes & Modifications
+<h2 id="fakes">Reissues, Fakes & Modifications</h2>
 
 ### Fender American Vintage / AVRI Reissues
 
@@ -344,7 +342,7 @@ Many genuine 1959 Telecasters have been modified. None of these disqualify the g
 -   **Refinish:** Look for overspray in the neck pocket, under the bridge plate, and in the control and pickup cavities. Original finishes show grain telegraphing through the lacquer and age-appropriate checking
 -   **Bridge modification:** Removal or addition of through-body holes inconsistent with the claimed production date; non-original bridge plates
 
-## Authentication Checklist
+<h2 id="checklist">Authentication Checklist</h2>
 
 Work through each item systematically. Every confirmation adds confidence; any contradiction demands investigation before purchase.
 
@@ -404,7 +402,7 @@ Work through each item systematically. Every confirmation adds confidence; any c
 
 For any 1959 Telecaster valued above $15,000, insist on removing the neck and reading the heel date, reading all pot codes, and examining the bridge configuration against the body and neck dates. The four-source triangulation (neck date + body date + pot codes + physical features) should all point to the same narrow window. If any source contradicts the others, dig deeper before purchasing. For a free appraisal inquiry, see our [free appraisal page](/free-appraisal/).
 
-## Original Case & Accessories
+<h2 id="case">Original Case & Accessories</h2>
 
 A 1959 Telecaster accompanied by its original case and paperwork is significantly more valuable and historically compelling than one without. Fender's case changed in 1960, which makes the case itself a useful dating cross-check: a correct original tweed case confirms pre-1960 shipping.
 
@@ -414,7 +412,7 @@ A 1959 Telecaster accompanied by its original case and paperwork is significantl
 
 If a 1959 Telecaster comes with a receipt, warranty card, or any documentation showing the original purchase, dealer name, date, and price, that paperwork is irreplaceable. It establishes an unbroken chain of ownership from the factory and eliminates much of the uncertainty that makes authentication necessary in the first place. Store such documents separately from the guitar, in a cool, dry, dark environment, and photograph them at high resolution before handling.
 
-## Related Resources
+<h2 id="links">Related Resources</h2>
 
 **1959 Fender Telecaster Authentication Guide**
 

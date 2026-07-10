@@ -23,8 +23,6 @@ wpId: 18916
 -   [1956 vs. 1957: Key Technical Differences](#technical-differences)
 -   [Professional Authentication: The Joe’s Vintage Advantage](#joe-advantage)
 
-![A detailed look at an original 1957 Gibson Les Paul Standard, highlighting the iconic bullion gold top and dual PAF humbucking pickups.](../../assets/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-1024x683.jpg)
-
 his 1957 Standard sits at the big transition point in Gibson history. While it keeps the classic single-cutaway mahogany body and maple cap, the move to Seth Lover’s PAF humbuckers changed the sound of the instrument for good. This particular example features an incredibly deep “Dark Back” stain, perhaps the darkest I’ve ever seen, creating a strong contrast against the metallic gold top. From the “no-wire” ABR-1 bridge to the aged nickel covers, this is a clean example of 1950s Kalamazoo work.
 
 If 1956 was the year Gibson sorted out the hardware, 1957 was the year they got the sound right. This is the point where the P-90 was set aside in favor of Seth Lover’s “Patent Applied For” (PAF) humbucking pickups. Because the 1957 Goldtop brings such a big jump in market value, knowing the small “tells” of a genuine ’57 is the difference between a sound investment and a costly mistake.

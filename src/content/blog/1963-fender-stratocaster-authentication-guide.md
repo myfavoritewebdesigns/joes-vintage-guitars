@@ -12,8 +12,6 @@ metaDescription: "Pre-CBS 1963 Fender Stratocasters sit at the top of every coll
 ogImage: "/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-sunburst-front-of-body-scaled.jpg"
 wpId: 20995
 ---
-<figure><img alt="1963 Fender Stratocaster in three-tone sunburst, full front body shot" width="2560" height="1707" src="/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-sunburst-front-of-body-scaled.jpg" loading="lazy" decoding="async"><figcaption>A clean 1963 Fender Stratocaster in three-tone sunburst.</figcaption></figure>
-
 Pre-CBS Strats are why a lot of us got into this business. The '63s sit in the sweet spot of that era. Fender had the design dialed in by then, and nobody from CBS had walked through the door yet to start cutting corners. They feel different than '64s and '65s. They sound different too. When one shows up at the shop with the right paperwork, that's a good day for me.
 
 What follows is the long version of the conversation I have with sellers when they bring a '63 in or send me photos. If you've inherited one, if you're looking at buying one, or if you're trying to figure out whether to [sell your vintage Stratocaster](/sell-my-fender-guitar/), the details below matter. Vintage Strats don't really have any small details. Every part of the guitar tells you something about whether it is what the seller says it is.

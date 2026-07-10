@@ -12,8 +12,6 @@ metaDescription: "Ever wondered why your vintage Gibson acoustic doesn’t have 
 ogImage: "/images/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-scaled.jpg"
 wpId: 18220
 ---
-![A vintage 1950s Gibson J-45 "Workhorse" acoustic guitar with a sunburst finish and original teardrop pickguard resting in its case at Joe's Vintage Guitars](../../assets/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-1024x683.jpg)
-
 A stunning 1950s Gibson J-45 “Workhorse” featuring a classic sunburst finish, resting in its original hardshell case at Joe’s Vintage Guitars in Mesa, AZ. Identifying these unlabeled vintage acoustics requires a close look at the specific 1950s specs and Factory Order Numbers.
 
 Among vintage acoustics, few are harder to pin down than the mid-century Gibson flat-top. At Joe’s Vintage Guitars, we’ve helped countless collectors and families identify instruments that have been sitting in cases for fifty years without a single label to identify them.

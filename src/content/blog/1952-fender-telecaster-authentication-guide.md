@@ -25,11 +25,9 @@ The **1952 Fender Telecaster** is one of the classic “Blackguard” years and 
 
 Whether you are an heir looking to value an inherited instrument or a collector verifying a potential purchase, distinguishing a factory-original 1952 Telecaster from a high-end reproduction requires looking at specific, microscopic tooling marks and internal components. This guide gives a technical breakdown of the 1952 specifications, from Tadeo Gomez neck shapes to period-correct electronics, to help you determine the [true value and authenticity of your vintage Fender.](/vintage-fender-telecaster-value-guide/) If you want to know the year of your vintage Fender, use our handy [Fender serial number lookup](/fender-guitars-serial-number-guide/) tool. If you have a [vintage Fender you’d like to sell](/), please don’t hesitate to reach out to Joe’s Vintage Guitars.
 
-![1952 Fender Telecaster body in Butterscotch Blonde finish featuring black phenolic pickguard and brass bridge saddles.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-body-1024x683.jpg)
-
 A prime example of the “Blackguard” era. This 1952 body features a premium ash grain visible through its aged nitrocellulose finish. Key features include the original black phenolic pickguard, solid brass bridge saddles, and the factory serial number stamped into the bridge plate.
 
-<h2 id="the-body">I. The Body: Ash, Paint, and Factory “Scars”</h2>
+<h2 id="body-section">I. The Body: Ash, Paint, and Factory “Scars”</h2>
 
 In 1952, Fender used **Premium Ash** for the bodies. Ash is a beautiful, durable wood with a very prominent grain that you can usually see through the paint.
 
@@ -66,7 +64,7 @@ The famous yellow color of a ’52 Tele is actually an accident of time. Origina
 
 This image highlights “ghosting,” showing the original pale blonde finish preserved under the pickguard. The surrounding butterscotch color is the result of seven decades of UV exposure on the nitrocellulose lacquer. This contrast is a key indicator of an original, non-refinished body.
 
-<h2 id="the-neck">II. The Neck: Hand-Shaped History</h2>
+<h2 id="neck-section">II. The Neck: Hand-Shaped History</h2>
 
 The neck is a single piece of maple wood. In 1952, these were shaped by a well-known craftsman named **Tadeo Gomez**.
 
@@ -109,7 +107,7 @@ A telltale detail of the early 50s headstock. The 1952 Telecaster uses a small, 
 
 To authenticate a ’52, you have to look where the neck meets the body. When you remove the neck, the flat end (the “heel”) should have a handwritten date in pencil. These were often signed by the craftsman who shaped the neck, the most desirable being the **“TG”** initials for **Tadeo Gomez**. The format usually looks like a month and year (e.g., *TG 6-52*). If the date is stamped with ink or missing entirely, it is a major red flag for a 1952 model.
 
-<h2 id="the-hardware">III. Hardware: Screws and Steel</h2>
+<h2 id="hardware-section">III. Hardware: Screws and Steel</h2>
 
 The hardware (the metal parts) underwent a huge change in 1952, which makes it easy to spot fakes.
 
@@ -162,7 +160,7 @@ A cosmetic detail to check on a 1952 Blackguard. In this era, the pickup selecto
 
 This image shows the surface wear found on an original 1952 black phenolic pickguard. Unlike modern plastic guards, these early “Blackguards” were clear-coated with lacquer at the factory, which wears and dulls over decades of play. This kind of patina is hard to fake and is a good indicator of the guitar’s age and history.
 
-<h2 id="the-electronics">IV. Electronics: The “Guts” of the Guitar</h2>
+<h2 id="electronics-section">IV. Electronics: The “Guts” of the Guitar</h2>
 
 If you open the control plate, the electronics offer the final proof.
 
@@ -210,7 +208,7 @@ A characteristic feature of the early ’50s bridge pickup is this copper-plated
 -   **Authentication Tip:** Authentic pickups from this era will show wax-potting and period-correct plain enamel 42 AWG wire.
     
 
-<h2 id="the-checklist">V. Authentication Checklist</h2>
+<h2 id="checklist-section">V. Authentication Checklist</h2>
 
 If you are inspecting a guitar to see if it is a true 1952 Blackguard, use this checklist to verify every major component:
 
@@ -229,6 +227,6 @@ If you are inspecting a guitar to see if it is a true 1952 Blackguard, use this 
 7.  **Electronics Check:** Confirm the presence of **Clarostat** pots with blue ink codes starting with “1402” and the **CRL 1452** 3-way switch. Capacitors should be either the “phone book” wax style or the blue and white paper-in-oil style.
     
 
-<h2 id="the-buying">Verify Your Vintage Legacy: Professional Authentication & Buying</h2>
+<h2 id="buying-section">Verify Your Vintage Legacy: Professional Authentication & Buying</h2>
 
 Whether you have inherited a family heirloom or have spent years hunting for the right “Blackguard,” knowing these details is the best way to value a 1952 Telecaster. With as much money as changes hands in the vintage market, professional verification is worth it. If you want clarity on your instrument’s history and current market value, take advantage of our **[free vintage guitar appraisal](/free-appraisal/)** service. And if the time has come to pass your instrument on to its next owner, we are actively buying. Visit our **[sell my Fender guitar](/sell-my-fender-guitar/)** page to see how we provide a straightforward, expert-led selling experience.

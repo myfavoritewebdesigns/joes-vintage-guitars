@@ -12,8 +12,6 @@ metaDescription: "In the ‘Golden Era’ of Gibson production, few instruments 
 ogImage: "/images/blog/1955-1958-tv-yellow-les-paul-special-guide/1958-gibson-les-paul-special-tv-yellow-24-scaled.jpg"
 wpId: 18997
 ---
-![Front body view of an authentic 1958 Gibson Les Paul Special in original TV Yellow limed mahogany finish. Detail shows two black P-90 soapbar pickups, a nickel-plated short-seam wraparound tailpiece with original intonation Allen screws, 5-ply black pickguard, and four black top-hat knobs. The mahogany wood grain is visible through the translucent nitrocellulose lacquer with natural weather checking.](../../assets/blog/1955-1958-tv-yellow-les-paul-special-guide/1958-gibson-les-paul-special-tv-yellow-24-1024x683.jpg)
-
 1958 Gibson Les Paul Special in original TV Yellow. This high-value vintage guitar showcases the iconic translucent “limed mahogany” finish and dual P-90 soapbar pickups. Note the short-seam wraparound tailpiece and black top-hat knobs, the hallmarks of a “Golden Era” piece.
 
 In the golden age of Gibson craftsmanship, the **1955 to 1958 Single Cut Les Paul Special** was the “sweet spot” of the catalog. Positioned between the student-grade Junior and the high-end Goldtop, it offered the dual-pickup versatility of a professional instrument with a simplified, “slab” mahogany design. Today, it is a high-value vintage guitar that collectors want for its “limed mahogany” look and aggressive P-90 growl.

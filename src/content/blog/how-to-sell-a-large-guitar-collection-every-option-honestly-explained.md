@@ -16,8 +16,6 @@ Contents
 
 Contents
 
-<figure><img alt="A large vintage guitar collection purchased by Joe's Vintage Guitars, hundreds of instruments evaluated and acquired in a single visit" width="988" height="730" src="/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/large-vintage-guitar-collection.jpg" loading="lazy" decoding="async"><figcaption>A real collection we purchased. Instruments evaluated, documented, and acquired in a single visit by Joe's Vintage Guitars.</figcaption></figure>
-
 Maybe you spent years (decades, even) putting it together yourself. Or maybe a parent or grandparent just left you a room full of guitars, and you're staring at cases you can't identify, instruments you can't price, and paperwork that may or may not exist. Either way, the same question lands on your shoulders that lands on thousands of people every year: **how do you actually sell all of this?**
 
 Short answer: selling a real collection is a real job. Not a side project. Not something you knock out in a weekend. Depending on the size of the collection and what's in it, you're looking at anywhere from a couple weeks of steady work to several months of active management. We've worked on collections of **700 instruments and up**. At that scale you aren't selling a few guitars, you're running a full inventory liquidation, with months of photography, listing, messaging, packing, and shipping ahead of you, all while trying to price accurately in a market that moves week to week. And that's assuming you already know what you've got.
