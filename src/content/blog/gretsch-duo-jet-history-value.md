@@ -85,7 +85,7 @@ A 1956 Jet Fire Bird 6131, the red-topped sibling. Under the color it is the sam
 
 <h2 id="gdj-built">How It Was Built</h2>
 
-Here is the fact that surprises most owners, and the one that separates people who know these guitars from people who do not: the Duo Jet is not a solid body. It looks like a slab, but the mahogany body is routed and chambered inside, with hollow pockets left in the wood before the arched top goes on. Gretsch built it this way for a reason. The chambering makes the guitar lighter and more comfortable than a Les Paul, and it gives the Jet its own voice, a more open, resonant, semi-hollow tone rather than the dense sustain of a true solidbody.
+Here is the fact that surprises most owners, and the one that separates people who know these guitars from people who do not: the Duo Jet is not a solidbody. It looks like a slab, but the mahogany body is routed and chambered inside, with hollow pockets left in the wood before the arched top goes on. Gretsch built it this way for a reason. The chambering makes the guitar lighter and more comfortable than a Les Paul, and it gives the Jet its own voice, a more open, resonant, semi-hollow tone rather than the dense sustain of a true solidbody.
 
 The top is a bound, slightly arched cap over that chambered body. On the standard Duo Jet it is gloss black. On the Silver Jet, the Jet Fire Bird, and the sparkle-finish Jets, the top is that drum-wrap celluloid, which is why those finishes have a depth and a texture that paint cannot copy. The back, sides, and neck are mahogany.
 
@@ -119,11 +119,11 @@ The Melita Synchro-Sonic bridge, stamped MELITA right on the base. Johnny Melita
 
 ![Close-up of pearloid block inlays on the bound rosewood fingerboard of a vintage Gretsch Jet Fire Bird.](../../assets/blog/gretsch-duo-jet-history-value/gretsch-jet-pearloid-block-inlays.jpg)
 
-Pearloid block inlays on a bound board, correct for the mid-1950s Jets. The markers changed later in the decade, so the inlay shape is another quick year check. These blocks say 1950s; the half-moon "thumbnail" markers below say later.
+Pearloid block inlays on a bound board, correct for the mid-1950s Jets. Gretsch refined the plain block into a hump-topped version by around 1957, then switched to the Neo-Classic thumbnail markers in 1958, so the inlay shape is a quick year check. These plain blocks say mid-1950s; the half-moon thumbnail markers below say 1958 and later.
 
-<h3>1957 to 1958: The Filter'Tron Arrives</h3>
+<h3>1958: Filter'Trons Reach the Jet</h3>
 
-The biggest change in the Jet's tone came at the end of the 1950s. Working with Chet Atkins, Ray Butts designed the Filter'Tron, a humbucking pickup that was quiet where the single coils hummed, and Gretsch patented it. It reached the top of the line first and became standard on the Duo Jet generally around 1958, so expect some transitional guitars in 1957 and 1958 that can go either way. Around the same time the Space Control bar bridge started to replace the Melita. Call the Filter'Tron one of the first humbuckers rather than the first, because Gibson was developing its own on the same timeline, but there is no argument about the sound: the Filter'Tron is the classic Gretsch twang.
+The biggest change in the Jet's tone came at the end of the 1950s. Working with Chet Atkins, Ray Butts designed the Filter'Tron, a humbucking pickup that was quiet where the single coils hummed, and Gretsch patented it. It reached the top of the Gretsch line first, in 1957, and became standard on the Duo Jet in 1958. That timing matters for authentication: a 1957 Duo Jet should wear DeArmond single coils, so Filter'Trons on a guitar sold as a 1957 point to a later modification, not a factory transitional guitar, because Filter'Trons are taller and have to be routed into a body built for DeArmonds. Around the same time the Space Control bar bridge started to replace the Melita. Call the Filter'Tron one of the first humbuckers rather than the first, because Gibson was developing its own on the same timeline, but there is no argument about the sound: the Filter'Tron is the classic Gretsch twang.
 
 ![Close-up of two Filter'Tron humbucker pickups with Patent Applied For covers and the controls of a black Gretsch Duo Jet.](../../assets/blog/gretsch-duo-jet-history-value/gretsch-duo-jet-filtertron-pickups-controls.jpg)
 
@@ -139,7 +139,7 @@ The arrow knobs on this Silver Jet: a metal knob with an engraved pointer and no
 
 <h3>1961 Onward: The Double-Cut</h3>
 
-Late in 1961, and into 1962, Gretsch redrew the Jet as a symmetrical double-cutaway, giving up the single-cut shape that had defined it since 1953. The restyle brought other changes over the next couple of years, including a gold pickguard with a black block logo, gold hardware on some examples, a slightly different scale, and a factory vibrato. The double-cut Jets are the more affordable way into a real 1960s Gretsch today, and they have their own following, but the single-cut is the shape most collectors chase.
+Late in 1961, and into 1962, Gretsch redrew the Jet as a symmetrical double-cutaway, giving up the single-cut shape that had defined it since 1953. The restyle brought other changes over the next couple of years, including a gold pickguard with a black block logo, gold hardware on some examples, a restyled neck joint, and a factory vibrato. The double-cut Jets are the more affordable way into a real 1960s Gretsch today, and they have their own following, but the single-cut is the shape most collectors chase.
 
 The original Duo Jet ran until about 1971, when the Baldwin era and a move away from Brooklyn brought the classic run to a close. We will come back to what happened next in the reissue section.
 
@@ -175,7 +175,7 @@ Here are rough serial ranges for the single-cut years. Treat them as approximate
 | 1960 | 34000 to 39000 |
 | 1961 | 39000 to 45000 |
 
-There is one famous trap every Gretsch buyer should know. Around 1957 a batch of roughly a thousand serial labels went missing, then turned up and got used again in 1965. That means a serial in the low-to-mid 20,000s can be either a 1957 or a 1965 guitar, and the only way to settle it is by the features. George Harrison's Duo Jet, serial 21947, sits right in that band and is confirmed a 1957 by its parts. For a deeper walk through Gretsch numbers, use our [Gretsch serial number lookup](/gretsch-serial-number-lookup/), and you can cross-check against the factory [dating information on the Gretsch website](https://www.gretschguitars.com/support/product-dating).
+There is one famous trap every Gretsch buyer should know. Around 1957 a batch of roughly a thousand serial labels went missing, then turned up and got used again in 1965. That means a serial in the low-to-mid 20,000s can be either a 1957 or a 1965 guitar, and the only way to settle it is by the features. George Harrison's own Duo Jet sits in that ambiguous band, and it is dated to 1957 by its features, the DeArmond pickups and hump-block inlays, not by the serial number alone. For a deeper walk through Gretsch numbers, use our [Gretsch serial number lookup](/gretsch-serial-number-lookup/), and you can cross-check against the factory [dating information on the Gretsch website](https://www.gretschguitars.com/support/product-dating).
 
 <h2 id="gdj-authenticate">Reading a Duo Jet Like a Dealer</h2>
 
