@@ -1,0 +1,573 @@
+---
+/**
+ * Fender serial-number lookup, v2.
+ *
+ * Data-first rebuild of the ported WP widget: the dating logic lives in
+ * src/data/fender-serials.ts (parity-proven against the original tool by
+ * scripts/verify-fsn-parity.mjs), this component renders the interactive
+ * decoder AND the full crawlable reference tables from that same data, and a
+ * small bundled script wires the interactivity. Without JavaScript the form
+ * jumps to the reference tables, which contain every range the decoder knows.
+ */
+import { Image } from "astro:assets";
+import { STEPS, REFERENCE_SECTIONS } from "../../data/fender-serials";
+import { resolveImage } from "../../lib/images";
+
+const stepList = Object.values(STEPS);
+const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split("/").pop()!);
+---
+
+<section class="fsn2" id="fender-serial-tool" data-fsn2>
+  <header class="fsn2-header">
+    <p class="fsn2-eyebrow">Free Tool · Joe's Vintage Guitars</p>
+    <h2>Fender Serial Number Lookup</h2>
+    <p class="fsn2-lede">
+      Decode any Fender guitar or bass serial number. American, Mexican, Japanese, and Custom
+      Shop, 1950 to present.
+    </p>
+    <span class="fsn2-badge">Last reviewed by Joe, May 2026</span>
+  </header>
+
+  <form class="fsn2-form" action="#fsn2-tables" method="get" data-fsn2-form>
+    <div class="fsn2-input-wrap">
+      <label for="fsn2-input">Enter your serial number</label>
+      <input
+        id="fsn2-input"
+        type="text"
+        name="serial"
+        placeholder="e.g. S812345 or CZ123456"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+        spellcheck="false"
+        inputmode="text"
+      />
+    </div>
+    <button type="submit" class="fsn2-btn-search">Look Up <span aria-hidden="true">→</span></button>
+    <button type="button" class="fsn2-btn-reset" data-fsn2-reset hidden>← New search</button>
+  </form>
+
+  <noscript>
+    <p class="fsn2-noscript">
+      The interactive decoder needs JavaScript. No problem: every serial range it knows is
+      published in the <a href="#fsn2-tables">reference tables below</a>.
+    </p>
+  </noscript>
+
+  {
+    stepList.map((step) => (
+      <fieldset class="fsn2-step" id={`fsn2-step-${step.id}`} data-fsn2-step={step.id} hidden tabindex="-1">
+        <legend class="fsn2-step-label">{step.label}</legend>
+        <p class="fsn2-step-note" data-fsn2-note hidden></p>
+        <div class="fsn2-cards" data-count={step.cards.length}>
+          {step.cards.map((card) => {
+            const img = card.image ? cardImage(card.image.src) : null;
+            return (
+              <button type="button" class="fsn2-card" data-fsn2-choice={card.value}>
+                {img && card.image && (
+                  <Image
+                    src={img}
+                    alt=""
+                    width={card.image.width}
+                    height={card.image.height}
+                    loading="lazy"
+                  />
+                )}
+                <span class="fsn2-card-label">{card.label}</span>
+              </button>
+            );
+          })}
+        </div>
+      </fieldset>
+    ))
+  }
+
+  <div aria-live="polite">
+    <div class="fsn2-result" data-fsn2-result hidden tabindex="-1">
+      <div class="fsn2-result-head">
+        <span class="fsn2-result-icon" aria-hidden="true">🎸</span>
+        <h3>Serial Number Decoded</h3>
+      </div>
+      <p class="fsn2-serial-pill" data-fsn2-serial></p>
+      <p class="fsn2-year">
+        <span class="fsn2-year-label">Approximate Year</span>
+        <span class="fsn2-year-value" data-fsn2-year></span>
+      </p>
+      <p class="fsn2-result-note">
+        Serial number ranges are estimates. Fender production was rarely perfectly sequential.
+        For a precise appraisal or help selling your guitar, contact
+        <a href="/">Joe's Vintage Guitars</a>. Call or text
+        <a href="tel:+16029006635">602-900-6635</a>, or
+        <a href="/contact-me/">contact us online</a>.
+      </p>
+      <div class="fsn2-warning" data-fsn2-warning hidden>
+        <strong>⚠️ R-Prefix Warning:</strong> R-prefix serial numbers are
+        <strong>not a reliable dating method</strong> for Fender Custom Shop guitars. The R number
+        is stamped when the neck blank is cut, not when the guitar is completed, so it can be years
+        off from the actual build date. The only reliable sources are the
+        <strong>Certificate of Authenticity (COA)</strong> or contacting the Fender Custom Shop
+        directly.
+        <a href="/fender-guitars-serial-number-guide/#custom-shop">Read more about R-prefix serials →</a>
+      </div>
+      <div class="fsn2-crossdate">
+        <p class="fsn2-crossdate-title">🔍 Cross-date your guitar for a more precise year</p>
+        <ul>
+          <li><a href="/fender-guitars-serial-number-guide/#adv-pot-codes">Pot codes (most reliable)</a></li>
+          <li><a href="/fender-guitars-serial-number-guide/#adv-neck-heel">Neck heel date stamp</a></li>
+          <li><a href="/fender-guitars-serial-number-guide/#adv-body-dates">Body cavity stamp</a></li>
+          <li><a href="/fender-guitars-serial-number-guide/#adv-pickup-dates">Pickup bobbin dating</a></li>
+          <li><a href="/fender-guitars-serial-number-guide/#adv-tuners">Tuner dating</a></li>
+          <li><a href="/fender-guitars-serial-number-guide/#adv-finish">Finish dating</a></li>
+          <li><a href="/fender-guitars-serial-number-guide/#advanced-dating">Neck profile dating</a></li>
+          <li><a href="/fender-guitars-serial-number-guide/#logo-evolution">Logo & decal dating</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fsn2-fallback" data-fsn2-fallback hidden tabindex="-1">
+      <p>
+        We couldn't automatically decode that serial number. Some older or rare Fenders need a
+        hands-on look. <a href="/">Joe's Vintage Guitars</a> can help. Call or text
+        <a href="tel:+16029006635">602-900-6635</a>, or
+        <a href="/contact-me/">contact us online</a>.
+      </p>
+      <div class="fsn2-crossdate">
+        <p class="fsn2-crossdate-title">🔍 Try cross-dating manually</p>
+        <ul>
+          <li><a href="/fender-guitars-serial-number-guide/#adv-pot-codes">Pot codes</a></li>
+          <li><a href="/fender-guitars-serial-number-guide/#adv-neck-heel">Neck heel stamp</a></li>
+          <li><a href="/fender-guitars-serial-number-guide/#adv-body-dates">Body cavity stamp</a></li>
+          <li><a href="/fender-guitars-serial-number-guide/#adv-pickup-dates">Pickup dating</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fsn2-tables" id="fsn2-tables" aria-labelledby="fsn2-tables-h">
+  <h2 id="fsn2-tables-h">Every Serial Range the Tool Knows</h2>
+  <p class="fsn2-tables-lede">
+    The decoder above answers from these tables. They are published in full so you can read the
+    ranges directly, link to any era, and check the tool's work.
+  </p>
+  <nav class="fsn2-tables-toc" aria-label="Serial table sections">
+    <ul>
+      {REFERENCE_SECTIONS.map((s) => (
+        <li><a href={`#${s.id}`}>{s.title}</a></li>
+      ))}
+    </ul>
+  </nav>
+
+  {
+    REFERENCE_SECTIONS.map((section) => (
+      <div class="fsn2-tablesec">
+        <div class="fsn2-anchor" id={section.id}></div>
+        <h3>{section.title}</h3>
+        <p>{section.intro}</p>
+        <div class="fsn2-tablewrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Serial</th>
+                <th scope="col">Years</th>
+                <th scope="col">Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              {section.rows.map((row) => (
+                <tr>
+                  <td>{row.serial}</td>
+                  <td>{row.years}</td>
+                  <td>{row.notes}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    ))
+  }
+</section>
+
+<script>
+  import { decodeSerial, answerStep, type Outcome, type StepId } from "../../data/fender-serials";
+
+  const root = document.querySelector<HTMLElement>("[data-fsn2]");
+  if (root) {
+    const form = root.querySelector<HTMLFormElement>("[data-fsn2-form]")!;
+    const input = root.querySelector<HTMLInputElement>("#fsn2-input")!;
+    const resetBtn = root.querySelector<HTMLButtonElement>("[data-fsn2-reset]")!;
+    const resultBox = root.querySelector<HTMLElement>("[data-fsn2-result]")!;
+    const fallbackBox = root.querySelector<HTMLElement>("[data-fsn2-fallback]")!;
+    const serialPill = root.querySelector<HTMLElement>("[data-fsn2-serial]")!;
+    const yearValue = root.querySelector<HTMLElement>("[data-fsn2-year]")!;
+    const warning = root.querySelector<HTMLElement>("[data-fsn2-warning]")!;
+    const steps = Array.from(root.querySelectorAll<HTMLFieldSetElement>("[data-fsn2-step]"));
+
+    let serial = "";
+
+    const hideAll = () => {
+      for (const s of steps) s.hidden = true;
+      resultBox.hidden = true;
+      fallbackBox.hidden = true;
+    };
+
+    const render = (outcome: Outcome) => {
+      hideAll();
+      resetBtn.hidden = false;
+      if (outcome.kind === "ask") {
+        const stepEl = steps.find((s) => s.dataset.fsn2Step === outcome.step)!;
+        const note = stepEl.querySelector<HTMLElement>("[data-fsn2-note]")!;
+        note.textContent = outcome.note ?? "";
+        note.hidden = !outcome.note;
+        stepEl.hidden = false;
+        stepEl.focus();
+        return;
+      }
+      if (outcome.kind === "result") {
+        serialPill.textContent = serial.toUpperCase();
+        yearValue.textContent = outcome.year;
+        warning.hidden = !outcome.warn;
+        resultBox.hidden = false;
+        resultBox.focus();
+        return;
+      }
+      fallbackBox.hidden = false;
+      fallbackBox.focus();
+    };
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const raw = input.value.trim();
+      if (!raw) {
+        input.classList.add("fsn2-error");
+        input.focus();
+        return;
+      }
+      input.classList.remove("fsn2-error");
+      serial = raw;
+      render(decodeSerial(raw));
+    });
+
+    for (const stepEl of steps) {
+      stepEl.addEventListener("click", (e) => {
+        const card = (e.target as HTMLElement).closest<HTMLElement>("[data-fsn2-choice]");
+        if (!card) return;
+        render(answerStep(serial, stepEl.dataset.fsn2Step as StepId, card.dataset.fsn2Choice!));
+      });
+    }
+
+    resetBtn.addEventListener("click", () => {
+      serial = "";
+      input.value = "";
+      hideAll();
+      resetBtn.hidden = true;
+      input.focus();
+    });
+  }
+</script>
+
+<style>
+  /* ── Decoder card ─────────────────────────────────────────────────────── */
+  .fsn2 {
+    max-width: 820px;
+    margin: 0 auto;
+    background: #f5f0e8;
+    border: 1px solid #d9cdb8;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(74, 53, 32, 0.12);
+    overflow: hidden;
+  }
+  .fsn2-header {
+    background: linear-gradient(135deg, var(--color-brand-rust-dark) 0%, var(--color-brand-rust) 100%);
+    color: var(--color-brand-cream);
+    padding: 28px 28px 24px;
+    text-align: center;
+  }
+  .fsn2-eyebrow {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.75rem;
+    color: var(--color-brand-gold);
+    margin: 0 0 6px;
+  }
+  .fsn2-header h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(1.5rem, 3.4vw, 2rem);
+    color: #fff;
+    margin: 0 0 8px;
+  }
+  .fsn2-lede {
+    margin: 0 auto 12px;
+    max-width: 52ch;
+    font-size: 0.95rem;
+  }
+  .fsn2-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    background: rgba(0, 0, 0, 0.22);
+    border: 1px solid rgba(238, 223, 192, 0.4);
+    border-radius: 999px;
+    padding: 4px 12px;
+  }
+
+  /* ── Form ─────────────────────────────────────────────────────────────── */
+  .fsn2-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 12px;
+    padding: 24px 28px 8px;
+  }
+  .fsn2-input-wrap {
+    flex: 1 1 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .fsn2-input-wrap label {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-brand-brown);
+  }
+  #fsn2-input {
+    border: 2px solid #d9cdb8;
+    border-radius: 8px;
+    background: #fff;
+    padding: 12px 14px;
+    font-size: 1.05rem;
+    font-family: inherit;
+    color: var(--color-brand-brown);
+  }
+  #fsn2-input:focus {
+    outline: 3px solid var(--color-brand-gold);
+    outline-offset: 1px;
+    border-color: var(--color-brand-rust);
+  }
+  #fsn2-input.fsn2-error {
+    border-color: var(--color-brand-rust-bright);
+    outline: 3px solid rgba(190, 75, 37, 0.35);
+  }
+  .fsn2-btn-search {
+    font-family: var(--font-display);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    background: var(--color-brand-rust);
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding: 13px 22px;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  .fsn2-btn-search:hover { background: var(--color-brand-rust-bright); }
+  .fsn2-btn-reset {
+    background: none;
+    border: 0;
+    color: var(--color-brand-rust);
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 13px 6px;
+    text-decoration: underline;
+  }
+  .fsn2-noscript {
+    margin: 8px 28px 20px;
+    padding: 12px 14px;
+    background: #fff;
+    border-left: 4px solid var(--color-brand-gold);
+    font-size: 0.92rem;
+  }
+
+  /* ── Question steps ───────────────────────────────────────────────────── */
+  .fsn2-step {
+    border: 0;
+    margin: 8px 0 0;
+    padding: 16px 28px 24px;
+  }
+  .fsn2-step:focus { outline: none; }
+  .fsn2-step-label {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--color-brand-brown);
+    padding: 0 0 4px;
+  }
+  .fsn2-step-note {
+    margin: 4px 0 10px;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--color-brand-brown-muted, #6b4f2e);
+  }
+  .fsn2-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 14px;
+    max-width: 640px;
+  }
+  .fsn2-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 2px solid #d9cdb8;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+    cursor: pointer;
+    font: inherit;
+    text-align: center;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .fsn2-card:hover { border-color: var(--color-brand-rust); transform: translateY(-2px); }
+  .fsn2-card:focus-visible { outline: 3px solid var(--color-brand-gold); outline-offset: 2px; }
+  .fsn2-card img { width: 100%; height: 130px; object-fit: cover; display: block; }
+  .fsn2-card-label {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-brand-brown);
+    padding: 10px 8px;
+  }
+
+  /* ── Result / fallback ────────────────────────────────────────────────── */
+  .fsn2-result, .fsn2-fallback { margin: 8px 28px 28px; }
+  .fsn2-result:focus, .fsn2-fallback:focus { outline: none; }
+  .fsn2-result {
+    background: #fff;
+    border: 2px solid var(--color-brand-gold);
+    border-radius: 10px;
+    padding: 20px 22px;
+  }
+  .fsn2-result-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .fsn2-result-head h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--color-brand-brown);
+    margin: 0;
+  }
+  .fsn2-serial-pill {
+    display: inline-block;
+    background: var(--color-brand-brown);
+    color: var(--color-brand-cream);
+    font-family: var(--font-display);
+    letter-spacing: 0.12em;
+    border-radius: 999px;
+    padding: 5px 16px;
+    margin: 0 0 10px;
+    font-size: 0.9rem;
+  }
+  .fsn2-year { margin: 0 0 12px; display: flex; flex-direction: column; }
+  .fsn2-year-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-brand-brown-muted, #6b4f2e);
+  }
+  .fsn2-year-value {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--color-brand-rust);
+    line-height: 1.25;
+  }
+  .fsn2-result-note { font-size: 0.88rem; margin: 0 0 12px; }
+  .fsn2-warning {
+    background: #fdf3e7;
+    border-left: 4px solid var(--color-brand-rust-bright);
+    padding: 12px 14px;
+    font-size: 0.85rem;
+    margin: 0 0 12px;
+  }
+  .fsn2-warning a { display: block; margin-top: 6px; }
+  .fsn2-fallback {
+    background: #fdf3e7;
+    border: 2px solid #e4cfa8;
+    border-radius: 10px;
+    padding: 18px 20px;
+    font-size: 0.92rem;
+  }
+  .fsn2-crossdate-title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--color-brand-brown);
+    margin: 0 0 6px;
+  }
+  .fsn2-crossdate ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 4px 16px;
+    font-size: 0.85rem;
+  }
+  .fsn2 a { color: var(--color-brand-rust); }
+
+  /* ── Reference tables ─────────────────────────────────────────────────── */
+  .fsn2-tables { max-width: 860px; margin: 48px auto 0; padding: 0 8px; }
+  .fsn2-tables h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    color: var(--color-brand-brown);
+    margin: 0 0 8px;
+  }
+  .fsn2-tables-lede { margin: 0 0 16px; max-width: 68ch; }
+  .fsn2-tables-toc ul {
+    list-style: none;
+    margin: 0 0 8px;
+    padding: 14px 16px;
+    background: #f5f0e8;
+    border: 1px solid #d9cdb8;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 4px 18px;
+    font-size: 0.9rem;
+  }
+  .fsn2-tables-toc a { color: var(--color-brand-rust); }
+  .fsn2-anchor { position: relative; top: -110px; }
+  .fsn2-tablesec h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-brand-brown);
+    margin: 30px 0 6px;
+  }
+  .fsn2-tablesec > p { margin: 0 0 12px; max-width: 72ch; font-size: 0.95rem; }
+  .fsn2-tablewrap { overflow-x: auto; }
+  .fsn2-tablesec table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    background: #fff;
+    border: 1px solid #d9cdb8;
+  }
+  .fsn2-tablesec th, .fsn2-tablesec td {
+    border: 1px solid #e2d7c2;
+    padding: 8px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  .fsn2-tablesec th {
+    background: var(--color-brand-brown);
+    color: var(--color-brand-cream);
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .fsn2-tablesec tbody tr:nth-child(even) { background: #faf6ee; }
+
+  @media (max-width: 600px) {
+    .fsn2-form, .fsn2-step, .fsn2-header { padding-left: 18px; padding-right: 18px; }
+    .fsn2-result, .fsn2-fallback { margin-left: 18px; margin-right: 18px; }
+  }
+</style>

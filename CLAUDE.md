@@ -325,6 +325,16 @@ Open the live URL and look at the top 600px:
 6. **Never hard-code phone/email/address/social URLs in a component.** Always `import { contact, hrefs, socials } from "../config/site"`. Updating `site.ts` should propagate everywhere.
 7. Save the live HTML to `reference/<route>-raw.html` (use `curl -sL <url> > reference/<route>-raw.html`) so you can grep it later without re-fetching.
 
+## Fender serial tool v2 (data-first rewrite) — test page
+
+The `?raw`-ported Fender decoder is being rebuilt data-first. Live guide page is UNCHANGED; the v2 preview lives at **`/fender-serial-tool-v2/`** (noIndex + sitemap-excluded + X-Robots-Tag; not linked anywhere) for Josh + Joe to iterate on.
+
+- **`src/data/fender-serials.ts`** — single source of truth: every serial range/prefix as typed data, a pure `decodeSerial()`/`answerStep()` resolver, step metadata, and `REFERENCE_SECTIONS` (the crawlable tables). The interactive tool and the visible tables render from the SAME data, so they cannot drift.
+- **PARITY CONTRACT:** the resolver reproduces the original widget's behavior EXACTLY (result strings included, en-dashes and all — ported widget internals are copy-gate exempt via SKIP_ROUTES). `node scripts/verify-fsn-parity.mjs` drives the ORIGINAL tool headlessly across a ~440-case boundary corpus and diffs it against the resolver; golden file at `reports/fsn-parity/golden.json`. **Run it after ANY edit to `fender-serials.ts` or `public/scripts/fsn-tool.js`; it must exit 0.** Dating-logic content changes are Joe's call and should update BOTH the data module and (until retired) the original JS, or retire the original and drop the gate deliberately.
+- **`src/components/tools/FenderSerialTool.astro`** — semantic rebuild: real `<form>`, `<fieldset>`/`<button>` question steps (keyboard-native), `aria-live` result, focus management, pipeline images via `resolveImage`, and the generated reference tables. No-JS fallback = form jumps to the tables.
+- The original tool's dead code paths (DB.bridge/DB.neck via lookupNum, the L-location step, `_numericMatches`) are intentionally NOT ported — unreachable in the original flow.
+- **Swap plan (later, Josh's call):** replace the `set:html` widget on `/fender-guitars-serial-number-guide/` with `<FenderSerialTool />`, retire `reference/fsn-tool-html.html` + `public/scripts/fsn-tool.js`, and consider generating that page's 11 hand-authored tables from `REFERENCE_SECTIONS`.
+
 ## Porting WordPress widgets (interactive components)
 
 The live site has interactive widgets — the Fender serial decoder is the first one; the Gibson / Martin / Rickenbacker SN pages likely have similar. When you encounter one, follow this file convention:

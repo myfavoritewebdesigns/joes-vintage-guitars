@@ -1,0 +1,92 @@
+---
+/**
+ * INTERNAL TEST PAGE — v2 Fender serial tool preview.
+ *
+ * A working, unlinked sandbox for iterating on the data-first rebuild of the
+ * serial decoder with Joe before it replaces the widget on
+ * /fender-guitars-serial-number-guide/. Hidden from search engines three ways:
+ * Layout noIndex prop (meta robots), X-Robots-Tag in public/_headers, and the
+ * SITEMAP_EXCLUDE list in astro.config.mjs. Not linked from any nav.
+ */
+import Layout from "../layouts/Layout.astro";
+import FenderSerialTool from "../components/tools/FenderSerialTool.astro";
+---
+
+<Layout
+  title="Fender Serial Tool v2 (Internal Test) | Joe's Vintage Guitars"
+  description="Internal test build of the rewritten Fender serial-number lookup. Not linked or indexed."
+  noIndex={true}
+>
+  <div class="fsnv2p-backdrop" aria-hidden="true">
+    <div class="fsnv2p-backdrop__dark"></div>
+    <div class="fsnv2p-backdrop__cream"></div>
+  </div>
+
+  <div class="fsnv2p-wrap">
+    <p class="fsnv2p-banner">
+      <strong>Internal test page.</strong> This is the v2 rebuild of the serial lookup: same
+      answers as the live tool (verified against it case by case), now with the full serial
+      knowledge published on the page. Compare with the
+      <a href="/fender-guitars-serial-number-guide/">live guide</a>. Not linked anywhere and not
+      indexed.
+    </p>
+
+    <h1 class="fsnv2p-h1">Fender Serial Number Lookup, v2 Preview</h1>
+
+    <FenderSerialTool />
+  </div>
+</Layout>
+
+<script is:inline>document.body.classList.add("fender-sn-page");</script>
+
+<style>
+  .fsnv2p-backdrop { position: relative; isolation: isolate; z-index: 0; }
+  .fsnv2p-backdrop__dark { background: var(--color-brand-brown, #3e2a14); height: 54px; }
+  .fsnv2p-backdrop__cream {
+    background: #fff;
+    height: 56px;
+    border-bottom: 6px solid var(--color-brand-brown-tan, #d2b48c);
+  }
+  .fsnv2p-wrap { max-width: 900px; margin: 0 auto; padding: 28px 16px 72px; }
+  .fsnv2p-banner {
+    background: #fff8e6;
+    border: 1px dashed var(--color-brand-gold);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    margin: 0 0 22px;
+  }
+  .fsnv2p-h1 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    color: var(--color-brand-brown);
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  @media (max-width: 900px) {
+    .fsnv2p-backdrop__dark { height: 70px; }
+    .fsnv2p-backdrop__cream { height: 60px; }
+    .fsnv2p-wrap { padding-top: 64px; }
+  }
+  @media (max-width: 600px) {
+    .fsnv2p-backdrop__dark { height: 64px; }
+    .fsnv2p-backdrop__cream { height: 0; border-bottom: none; }
+    .fsnv2p-wrap { padding-top: 84px; }
+  }
+</style>
+
+<style is:global>
+  /* Same secondary-nav color flip the live guide page uses (its rules are
+     scoped to that page's own global block, so they are replicated here). */
+  body.fender-sn-page header nav.border-b-\[6px\] ul { color: var(--color-brand-brown); }
+  body.fender-sn-page header nav.border-b-\[6px\] a,
+  body.fender-sn-page header nav.border-b-\[6px\] summary {
+    color: var(--color-brand-brown) !important;
+  }
+  body.fender-sn-page header nav.border-b-\[6px\] a:hover,
+  body.fender-sn-page header nav.border-b-\[6px\] summary:hover {
+    color: var(--color-brand-rust) !important;
+    background: rgba(160, 58, 30, 0.08) !important;
+  }
+</style>

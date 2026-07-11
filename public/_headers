@@ -31,3 +31,8 @@
 # Decoder tool scripts: not content-hashed, so keep staleness to an hour.
 /scripts/*
   Cache-Control: public, max-age=3600
+
+# Internal v2 serial-tool test page: keep out of search engines at the edge
+# too (the page also sets meta robots noindex and is sitemap-excluded).
+/fender-serial-tool-v2/
+  X-Robots-Tag: noindex
