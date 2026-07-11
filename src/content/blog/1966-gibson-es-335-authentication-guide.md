@@ -60,7 +60,13 @@ The impressed serial can be difficult to read on darker-lacquered headstocks bec
 
 Angling a flashlight across the headstock back at a low angle (raking light) often makes a faint stamp dramatically more readable. The stamp sits on the lacquer surface and may be partially filled with finish overspray from subsequent coats. A side-lighting technique reveals the physical impression in the finish even when the ink has faded significantly.
 
-<figure><img alt="1966 Gibson ES-335 serial number ink stamp on back of headstock, 6-digit number showing period-correct fading and aging on cherry lacquer" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-serial-number-close-up-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Serial number on the back of a 1966 Gibson ES-335 headstock.</strong> The number is physically impressed (stamped) into the wood beneath the finish. It can be difficult to read when finish has filled the impression, raking a light across the surface reveals the indentation. The same serial number appears inked on the orange oval label inside the body.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 serial number ink stamp on back of headstock, 6-digit number showing period-correct fading and aging on cherry lacquer](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-serial-number-close-up-scaled.jpg)
+
+<figcaption><strong>Serial number on the back of a 1966 Gibson ES-335 headstock.</strong> The number is physically impressed (stamped) into the wood beneath the finish. It can be difficult to read when finish has filled the impression, raking a light across the surface reveals the indentation. The same serial number appears inked on the orange oval label inside the body.</figcaption>
+
+</figure>
 
 ### 1966 Serial Ranges
 
@@ -84,7 +90,13 @@ On an original 1966, the crown inlay should sit flush with the headstock surface
 
 The 1966 ES-335 carries a **pearloid "Gibson" logo** on the headstock face, set into the holly veneer. This is an important authentication distinction: the pearloid logo sits flush with the headstock surface, with the surrounding finish flowing over it. Under a loupe, the logo and its inlay channel are visible. A decal logo on a claimed 1966 indicates either a later instrument or a headstock that has been altered.
 
-<figure><img alt="1966 Gibson ES-335 headstock showing pearloid Gibson logo, crown inlay, blank bell-shaped truss rod cover, and Kluson double-line tuners" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1966 Gibson ES-335 headstock.</strong> The pearloid Gibson logo and crown inlay are clearly visible, along with the blank bell-shaped truss rod cover with its narrow bezel. The six Kluson Deluxe double-line tuner buttons and the butterfly string trees are also correct for this year.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 headstock showing pearloid Gibson logo, crown inlay, blank bell-shaped truss rod cover, and Kluson double-line tuners](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-headstock-scaled.jpg)
+
+<figcaption><strong>1966 Gibson ES-335 headstock.</strong> The pearloid Gibson logo and crown inlay are clearly visible, along with the blank bell-shaped truss rod cover with its narrow bezel. The six Kluson Deluxe double-line tuner buttons and the butterfly string trees are also correct for this year.</figcaption>
+
+</figure>
 
 ### Truss Rod Cover
 
@@ -121,7 +133,13 @@ Fret nibs are present on all factory-original Gibson necks from this era. Their 
 
 If a claimed 1966 ES-335 has intact, well-defined fret nibs at every fret position, the frets are almost certainly original. This is one of the fastest and most reliable single checks for fret originality. Worn nibs (from normal playing) are fine and expected, *absent* nibs strongly suggest a refret. Some partial nib loss from wear at the most-played positions (first through fifth frets) is normal on a played guitar.
 
-<figure><img alt="1966 Gibson ES-335 fret nibs close-up, binding material extending over fret ends confirming original unrefretted neck on pre-Norlin Kalamazoo instrument" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-fret-nibs-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Fret nibs on a 1966 Gibson ES-335.</strong> The small projections of binding material extending over each fret end are the clearest single indicator of original, unrefretted frets. Because Gibson bound the fingerboard before installing the frets, the binding nibs remain intact as long as the frets have never been pulled. Refrets almost always destroy these nibs during the leveling and dressing process. Present fret nibs across all positions, as seen here, confirm original frets with a high degree of confidence.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 fret nibs close-up, binding material extending over fret ends confirming original unrefretted neck on pre-Norlin Kalamazoo instrument](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-fret-nibs-scaled.jpg)
+
+<figcaption><strong>Fret nibs on a 1966 Gibson ES-335.</strong> The small projections of binding material extending over each fret end are the clearest single indicator of original, unrefretted frets. Because Gibson bound the fingerboard before installing the frets, the binding nibs remain intact as long as the frets have never been pulled. Refrets almost always destroy these nibs during the leveling and dressing process. Present fret nibs across all positions, as seen here, confirm original frets with a high degree of confidence.</figcaption>
+
+</figure>
 
 ### Block Inlays
 
@@ -129,7 +147,13 @@ The 1966 ES-335 has **small rectangular block inlays** in the fingerboard, not d
 
 Genuine pearl inlays show a layered, iridescent quality that catches light differently at different angles. Plastic or epoxy replacement inlays are typically more uniform in appearance and don't show the same depth. At the headstock end of the neck (first position), look at the blocks under raking light, original pearl should show natural layering and variation across the block's surface.
 
-<figure><img alt="1966 Gibson ES-335 fingerboard block inlay close-up, mother-of-pearl rectangular block inlay showing natural iridescence and period-correct aging" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-block-inlay-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Mother-of-pearl block inlay on a 1966 Gibson ES-335.</strong> The block inlays on a 1966 ES-335 are mother-of-pearl, a natural material with a characteristic layered iridescence that catches light differently at different angles. Genuine pearl shows depth and natural variation across the face of each block. Plastic or epoxy reproduction inlays are more uniform in their reflectivity and don't show the same natural layering under close inspection.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 fingerboard block inlay close-up, mother-of-pearl rectangular block inlay showing natural iridescence and period-correct aging](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-block-inlay-scaled.jpg)
+
+<figcaption><strong>Mother-of-pearl block inlay on a 1966 Gibson ES-335.</strong> The block inlays on a 1966 ES-335 are mother-of-pearl, a natural material with a characteristic layered iridescence that catches light differently at different angles. Genuine pearl shows depth and natural variation across the face of each block. Plastic or epoxy reproduction inlays are more uniform in their reflectivity and don't show the same natural layering under close inspection.</figcaption>
+
+</figure>
 
 ### Side Dot Inlays, Tortoise, Not White
 
@@ -137,7 +161,13 @@ This is one of the most consistently overlooked details on mid-1960s Gibsons: th
 
 A claimed 1966 ES-335 with white side dots has either a replacement neck or has had the side dots replaced. The tortoise color is subtle and can appear darker or lighter depending on how much the plastic has aged, but it should never be the bright white of a modern replacement. Under a flashlight, genuine tortoise dots show a dark reddish swirling pattern, the characteristic tortoise shell appearance.
 
-<figure><img alt="1966 Gibson ES-335 tortoise side dot position marker close-up, dark reddish swirl tortoise pattern confirming mid-1960s Kalamazoo neck, not white" width="2560" height="1706" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-side-dot-tortoise-inlay-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Tortoise-colored side dot on a 1966 Gibson ES-335.</strong> The amber/brown tortoise color of the side position markers is one of the most commonly overlooked authentication details on mid-1960s Gibsons, and one of the most reliable. A claimed 1966 with white side dots has either a replacement neck or replaced side dots. Under a flashlight the genuine tortoise plastic shows a dark reddish swirl pattern distinctly different from the bright white of a modern replacement.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 tortoise side dot position marker close-up, dark reddish swirl tortoise pattern confirming mid-1960s Kalamazoo neck, not white](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-side-dot-tortoise-inlay-scaled.jpg)
+
+<figcaption><strong>Tortoise-colored side dot on a 1966 Gibson ES-335.</strong> The amber/brown tortoise color of the side position markers is one of the most commonly overlooked authentication details on mid-1960s Gibsons, and one of the most reliable. A claimed 1966 with white side dots has either a replacement neck or replaced side dots. Under a flashlight the genuine tortoise plastic shows a dark reddish swirl pattern distinctly different from the bright white of a modern replacement.</figcaption>
+
+</figure>
 
 <h2 id="body">Body, Horns & Binding</h2>
 
@@ -153,7 +183,13 @@ The cutaway horn shape on the ES-335 evolved gradually over the instrument's pro
 
 This is not a dramatic visual difference and should not be the only basis for dating or authentication, but it is a consistent period indicator. A claimed 1966 with noticeably round, blunt horn tips may warrant a closer look at whether the body is actually from an earlier period.
 
-<figure><img alt="1966 Gibson ES-335 cutaway horn shape, slightly pointed horn tips characteristic of mid-1960s production, more angular than 1958-1961 dot-neck examples" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-horn-shape-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Cutaway horn on a 1966 Gibson ES-335.</strong> The horn tips on a 1966 ES-335 are visibly more pointed than the rounder, blunter horns of the 1958 to 1961 dot-neck era. This gradual evolution in body geometry is a supporting dating indicator, not dramatic enough to date a guitar on its own, but consistent and detectable when you know what to look for.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 cutaway horn shape, slightly pointed horn tips characteristic of mid-1960s production, more angular than 1958-1961 dot-neck examples](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-horn-shape-scaled.jpg)
+
+<figcaption><strong>Cutaway horn on a 1966 Gibson ES-335.</strong> The horn tips on a 1966 ES-335 are visibly more pointed than the rounder, blunter horns of the 1958 to 1961 dot-neck era. This gradual evolution in body geometry is a supporting dating indicator, not dramatic enough to date a guitar on its own, but consistent and detectable when you know what to look for.</figcaption>
+
+</figure>
 
 ### Binding
 
@@ -169,9 +205,21 @@ The 1966 ES-335 pickguard is a **multi-layer laminated unit**, the layered const
 
 Original 1966 pickguards will show age-appropriate warping, shrinkage, and checking of the laminate at the edges. The guard may have pulled slightly away from its original flat shape. A perfectly flat, crisp-edged, multi-layer guard on a claimed 1966 is more likely a replacement than an original.
 
-<figure><img alt="1966 Gibson ES-335 multi-layer pickguard edge close-up showing laminated layers, authentic period construction with visible layer sandwich at cut edge" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-pickguard-material-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Multi-layer pickguard edge detail, 1966 Gibson ES-335.</strong> The laminated construction of the period-correct pickguard is clearly visible at the cut edge, alternating layers of material creating a distinctive sandwich. This layered construction is unique to the multi-ply guard; a single-ply replacement shows a uniform edge without layering.</figcaption></figure>
+<figure>
 
-<figure><img alt="1966 Gibson ES-335 chrome pickguard bracket close-up, metal mounting bracket attaching pickguard to body, showing period-correct chrome aging" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-pickguard-bracket-close-up-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Chrome pickguard mounting bracket on a 1966 Gibson ES-335.</strong> The pickguard is mounted on a chrome metal bracket that attaches to the body rather than screwing directly into the top. The bracket hardware should show chrome aging consistent with the rest of the instrument. A replacement bracket with fresh chrome on an otherwise aged guitar is a quick tell.</figcaption></figure>
+![1966 Gibson ES-335 multi-layer pickguard edge close-up showing laminated layers, authentic period construction with visible layer sandwich at cut edge](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-pickguard-material-scaled.jpg)
+
+<figcaption><strong>Multi-layer pickguard edge detail, 1966 Gibson ES-335.</strong> The laminated construction of the period-correct pickguard is clearly visible at the cut edge, alternating layers of material creating a distinctive sandwich. This layered construction is unique to the multi-ply guard; a single-ply replacement shows a uniform edge without layering.</figcaption>
+
+</figure>
+
+<figure>
+
+![1966 Gibson ES-335 chrome pickguard bracket close-up, metal mounting bracket attaching pickguard to body, showing period-correct chrome aging](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-pickguard-bracket-close-up-scaled.jpg)
+
+<figcaption><strong>Chrome pickguard mounting bracket on a 1966 Gibson ES-335.</strong> The pickguard is mounted on a chrome metal bracket that attaches to the body rather than screwing directly into the top. The bracket hardware should show chrome aging consistent with the rest of the instrument. A replacement bracket with fresh chrome on an otherwise aged guitar is a quick tell.</figcaption>
+
+</figure>
 
 ### Controls Layout
 
@@ -183,7 +231,13 @@ The "bumblebee" capacitors associated with late-1950s Gibsons were phased out by
 
 <h2 id="pickups">Patent Number Pickups</h2>
 
-<figure><img alt="1966 Gibson ES-335 Patent Number humbucker pickup with chrome cover, correct pre-T-top Patent Number humbucker showing period-correct chrome aging" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-pickup-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Patent Number humbucker on a 1966 Gibson ES-335.</strong> The chrome-covered humbucker pickup is one of the ES-335's defining visual elements. On a 1966, this is a pre-T-top Patent Number humbucker, not a PAF, not a T-top. The chrome cover aging, the adjustable and non-adjustable pole piece rows, and the base plate sticker are all key authentication points covered in detail below.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 Patent Number humbucker pickup with chrome cover, correct pre-T-top Patent Number humbucker showing period-correct chrome aging](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-pickup-scaled.jpg)
+
+<figcaption><strong>Patent Number humbucker on a 1966 Gibson ES-335.</strong> The chrome-covered humbucker pickup is one of the ES-335's defining visual elements. On a 1966, this is a pre-T-top Patent Number humbucker, not a PAF, not a T-top. The chrome cover aging, the adjustable and non-adjustable pole piece rows, and the base plate sticker are all key authentication points covered in detail below.</figcaption>
+
+</figure>
 
 The pickups on a 1966 ES-335 are among the most important and scrutinized authentication points on the guitar. Understanding exactly what they are, and what they are not, is essential.
 
@@ -208,9 +262,21 @@ Pickup swaps are extremely common on vintage Gibsons, PAFs especially are highly
 -   Cover solderThe pickup cover is **held by solder**, not screws. The cover is soldered to the base plate at two points. Undisturbed original factory solder at these joints is a strong indicator the cover has never been removed. Re-flowed or disturbed solder is not automatically disqualifying but should be noted, as it indicates the cover has been off at some point.
 -   T-top checkThe T-top coil former (visible from the adjustable-pole side with the cover removed) indicates 1967 or later production. However, **you do not need to remove the cover** to make this assessment, and on an original unplayed example you should avoid disturbing the solder. If you have suspicions about pickup replacement, check instead whether the pickup aging and wiring condition matches the rest of the guitar. Mismatched wear, different lead wire style, or solder that looks re-flowed are more practical tells than pulling the cover.
 
-<figure><img alt="1966 Gibson ES-335 pickup cover undisturbed solder close-up, original factory solder joints on pickup cover confirming cover has never been removed" width="1413" height="942" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-undisturbed-pickup-cover-solder.jpg" loading="lazy" decoding="async"><figcaption><strong>Undisturbed factory solder on a 1966 Gibson ES-335 pickup cover.</strong> The solder joints that secure the chrome pickup cover to the base plate are original and undisturbed. The cover is held by solder at two points, not screws. Factory solder from 1966 shows a characteristic texture distinct from fresh or re-flowed work. Undisturbed solder strongly suggests the pickup is all-original and the cover has never been removed.</figcaption></figure>
+<figure>
 
-<figure><img alt="1966 Gibson ES-335 Patent Number humbucker base plate close-up showing Patent No 2737842 sticker, confirming pre-T-top Patent Number era pickup not PAF" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-patent-no-pickup-close-up-of-sticker-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Patent Number sticker on a 1966 Gibson ES-335 humbucker base plate.</strong> The black sticker reading "Patent No 2,737,842" is the defining identifier of the Patent Number era pickup. The sticker replaced the gold PAF label of the late 1950s to early 1960s. Its condition and aging should be consistent with the age of the pickup and guitar.</figcaption></figure>
+![1966 Gibson ES-335 pickup cover undisturbed solder close-up, original factory solder joints on pickup cover confirming cover has never been removed](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-undisturbed-pickup-cover-solder.jpg)
+
+<figcaption><strong>Undisturbed factory solder on a 1966 Gibson ES-335 pickup cover.</strong> The solder joints that secure the chrome pickup cover to the base plate are original and undisturbed. The cover is held by solder at two points, not screws. Factory solder from 1966 shows a characteristic texture distinct from fresh or re-flowed work. Undisturbed solder strongly suggests the pickup is all-original and the cover has never been removed.</figcaption>
+
+</figure>
+
+<figure>
+
+![1966 Gibson ES-335 Patent Number humbucker base plate close-up showing Patent No 2737842 sticker, confirming pre-T-top Patent Number era pickup not PAF](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-patent-no-pickup-close-up-of-sticker-scaled.jpg)
+
+<figcaption><strong>Patent Number sticker on a 1966 Gibson ES-335 humbucker base plate.</strong> The black sticker reading "Patent No 2,737,842" is the defining identifier of the Patent Number era pickup. The sticker replaced the gold PAF label of the late 1950s to early 1960s. Its condition and aging should be consistent with the age of the pickup and guitar.</figcaption>
+
+</figure>
 
 Because PAF pickups are significantly more valuable than Patent Number units, there is an active market in misrepresenting Patent Number pickups as PAFs, removing the patent number sticker and replacing it with a gold PAF sticker. Always verify the sticker type, the magnet type, and the coil former before accepting any pickup identification claim.
 
@@ -224,7 +290,13 @@ The 1966 ES-335 uses the **ABR-1 Tune-o-matic bridge**, the original Gibson adju
 -   Retainer wireA thin metal retainer wire runs through the saddle adjustment screws, holding the saddles in position on the bridge chassis. This wire is **present on all authentic ABR-1 bridges through approximately 1975** and is one of the fastest ways to confirm an original or period-correct bridge. A bridge without the retainer wire on a claimed 1966 is either a replacement or has had the wire removed.
 -   Posts and anchorsThe bridge posts on a 1966 ES-335 have **thumbwheel adjusters** that allow height adjustment by hand. The posts thread into anchors set into the maple top. Original posts and anchors will show consistent aging and chrome wear with the rest of the hardware.
 
-<figure><img alt="1966 Gibson ES-335 ABR-1 bridge back showing ABR-1 stamp, original Tune-o-matic bridge with period casting mark confirming correct bridge type" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-back-of-abr-1-bridge-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Back of the ABR-1 Tune-o-matic bridge on a 1966 Gibson ES-335.</strong> The "ABR-1" stamp on the back of the bridge is a key authentication point, the original narrow-post ABR-1 bridge differs dimensionally from the later Nashville-style Tune-o-matic. A Nashville bridge requires different post spacing and leaves evidence of re-drilling if it has replaced an ABR-1. This stamp, visible on the tailpiece-facing side of the bridge, confirms the original bridge type.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 ABR-1 bridge back showing ABR-1 stamp, original Tune-o-matic bridge with period casting mark confirming correct bridge type](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-back-of-abr-1-bridge-scaled.jpg)
+
+<figcaption><strong>Back of the ABR-1 Tune-o-matic bridge on a 1966 Gibson ES-335.</strong> The "ABR-1" stamp on the back of the bridge is a key authentication point, the original narrow-post ABR-1 bridge differs dimensionally from the later Nashville-style Tune-o-matic. A Nashville bridge requires different post spacing and leaves evidence of re-drilling if it has replaced an ABR-1. This stamp, visible on the tailpiece-facing side of the bridge, confirms the original bridge type.</figcaption>
+
+</figure>
 
 ### Bridge Saddles, The 1966 Transition
 
@@ -232,13 +304,25 @@ The 1966 ES-335 uses **nylon/plastic saddles** on the ABR-1 bridge. Gibson used 
 
 Nylon saddles can show string contact grooves and occasional cracking or chipping over time, this is period-authentic aging. Check that all six saddles are the same type; a mix of nylon and metal saddles indicates a partial replacement.
 
-<figure><img alt="1966 Gibson ES-335 ABR-1 Tune-o-matic bridge with original nylon saddles and retainer wire, correct period bridge hardware showing authentic chrome aging" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-bridge-nylon-saddles-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>ABR-1 Tune-o-matic bridge with nylon saddles on a 1966 Gibson ES-335.</strong> Nylon/plastic saddles are correct for all 1966 production, Gibson did not switch to chrome-plated saddles until approximately 1969 to 1970. The thin metal retainer wire threading through the saddle adjustment screws is also present and correct. "ABR-1" is stamped on the reverse side of this bridge.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 ABR-1 Tune-o-matic bridge with original nylon saddles and retainer wire, correct period bridge hardware showing authentic chrome aging](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-bridge-nylon-saddles-scaled.jpg)
+
+<figcaption><strong>ABR-1 Tune-o-matic bridge with nylon saddles on a 1966 Gibson ES-335.</strong> Nylon/plastic saddles are correct for all 1966 production, Gibson did not switch to chrome-plated saddles until approximately 1969 to 1970. The thin metal retainer wire threading through the saddle adjustment screws is also present and correct. "ABR-1" is stamped on the reverse side of this bridge.</figcaption>
+
+</figure>
 
 ### Trapeze Tailpiece
 
 The 1966 ES-335 uses a **trapeze tailpiece**, a hinged, bracket-style tailpiece that attaches to the strap button on the end of the body and angles up to anchor the strings above the top. This is the correct tailpiece for the ES-335 in 1966.
 
-<figure><img alt="1966 Gibson ES-335 trapeze tailpiece, correct hinged bracket-style tailpiece for 1966 ES-335 production" width="1707" height="2560" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-tailpiece-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Trapeze tailpiece on a 1966 Gibson ES-335.</strong> The trapeze tailpiece is the correct configuration for the ES-335 in 1966. It attaches at the end strap button and angles up to anchor the strings above the top. The hardware condition should be consistent with the rest of the instrument.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 trapeze tailpiece, correct hinged bracket-style tailpiece for 1966 ES-335 production](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-tailpiece-scaled.jpg)
+
+<figcaption><strong>Trapeze tailpiece on a 1966 Gibson ES-335.</strong> The trapeze tailpiece is the correct configuration for the ES-335 in 1966. It attaches at the end strap button and angles up to anchor the strings above the top. The hardware condition should be consistent with the rest of the instrument.</figcaption>
+
+</figure>
 
 The trapeze tailpiece hardware and finish should show aging consistent with the rest of the instrument. The hinge mechanism and string bar should move freely and show no evidence of replacement or non-original hardware.
 
@@ -250,9 +334,21 @@ The 1966 ES-335 is fitted with **Kluson Deluxe "double-line" tuners**, named for
 
 The tuner buttons on this era of Kluson are the **"double-ring" style**, buttons with two concentric raised rings visible on the face of the button, giving them a distinctive appearance also sometimes called "double-ring" or "tulip" in collector terminology. These are all-metal buttons, not plastic, with a chrome plating that shows age-consistent patina.
 
-<figure><img alt="1966 Gibson ES-335 Kluson Deluxe double-line tuner back close-up, KLUSON on first line DELUXE on second line confirming double-line mid-1960s tuner" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-tuner-back-close-up-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Back of a Kluson Deluxe double-line tuner on a 1966 Gibson ES-335.</strong> "KLUSON" on the first line and "DELUXE" on the second line stamped on the gear housing back is the defining identifier for this era of tuner. The single-line Kluson (all text on one line) is a Fender-era tuner; the double-line is correct for mid-1960s Gibsons. Chrome aging on the housing should be consistent with the rest of the hardware.</figcaption></figure>
+<figure>
 
-<figure><img alt="1966 Gibson ES-335 Kluson Deluxe double-ring tuner button close-up, all-metal button with two concentric raised rings, correct for mid-1960s Gibson" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-tuner-button-close-up-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Double-ring tuner button on a 1966 Gibson ES-335 Kluson Deluxe.</strong> The two concentric raised rings visible on the face of the all-metal tuner button are the defining feature of the "double-ring" style correct for this era. These are all-metal chrome-plated buttons, there is no plastic component. All six buttons should show consistent matched chrome aging.</figcaption></figure>
+![1966 Gibson ES-335 Kluson Deluxe double-line tuner back close-up, KLUSON on first line DELUXE on second line confirming double-line mid-1960s tuner](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-tuner-back-close-up-scaled.jpg)
+
+<figcaption><strong>Back of a Kluson Deluxe double-line tuner on a 1966 Gibson ES-335.</strong> "KLUSON" on the first line and "DELUXE" on the second line stamped on the gear housing back is the defining identifier for this era of tuner. The single-line Kluson (all text on one line) is a Fender-era tuner; the double-line is correct for mid-1960s Gibsons. Chrome aging on the housing should be consistent with the rest of the hardware.</figcaption>
+
+</figure>
+
+<figure>
+
+![1966 Gibson ES-335 Kluson Deluxe double-ring tuner button close-up, all-metal button with two concentric raised rings, correct for mid-1960s Gibson](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-tuner-button-close-up-scaled.jpg)
+
+<figcaption><strong>Double-ring tuner button on a 1966 Gibson ES-335 Kluson Deluxe.</strong> The two concentric raised rings visible on the face of the all-metal tuner button are the defining feature of the "double-ring" style correct for this era. These are all-metal chrome-plated buttons, there is no plastic component. All six buttons should show consistent matched chrome aging.</figcaption>
+
+</figure>
 
 Gibson began transitioning some models to Grover Rotomatic tuners in the mid-1960s, and some 1966 ES-335s left the factory with Grovers rather than Klusons. If your example has Grover Rotomatics, the enclosed, oval-housing tuners, and they appear original (no added mounting holes, consistent aging, no evidence of Kluson holes being filled), this can be a correct factory specification rather than a modification. The double-line Klusons with double-ring buttons described here are the more common 1966 tuner, but Grovers are not automatically a red flag.
 
@@ -260,7 +356,13 @@ Gibson began transitioning some models to Grover Rotomatic tuners in the mid-196
 
 The volume and tone controls on the 1966 ES-335 use **"top hat" knobs**, also called "reflector knobs." These have a two-part construction: a reflector "hat" top sitting in a metal skirt. The top color varies by finish, **black tops on cherry-finish guitars, amber/gold tops on sunburst guitars**. The example shown in the photos has black tops, correct for a cherry-finish instrument.
 
-<figure><img alt="1966 Gibson ES-335 top hat reflector knob close-up, black reflector top with metal skirt, correct for cherry-finish mid-1960s Gibson ES-335" width="2560" height="1706" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-top-hat-knob-close-up-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Top hat / reflector knob on a 1966 Gibson ES-335 (cherry finish).</strong> The black reflector top is correct for cherry-finish ES-335s, amber/gold tops appear on sunburst examples. All four knobs on a genuine all-original instrument should show matching tops and consistent skirt condition.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 top hat reflector knob close-up, black reflector top with metal skirt, correct for cherry-finish mid-1960s Gibson ES-335](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-top-hat-knob-close-up-scaled.jpg)
+
+<figcaption><strong>Top hat / reflector knob on a 1966 Gibson ES-335 (cherry finish).</strong> The black reflector top is correct for cherry-finish ES-335s, amber/gold tops appear on sunburst examples. All four knobs on a genuine all-original instrument should show matching tops and consistent skirt condition.</figcaption>
+
+</figure>
 
 All four knobs should match in both top color and skirt condition. A mismatched top color or one knob with a noticeably different appearance suggests a replacement.
 
@@ -270,7 +372,13 @@ Earlier ES-335s used "speed knobs", a different, more dome-shaped style. The top
 
 The pickup selector toggle switch tip on the 1966 ES-335 is **white plastic with a visible mold seam running around the top portion** of the tip. This seam is a characteristic of the injection-molded plastic tip used in the mid-1960s. It's where the two halves of the mold met during manufacturing, leaving a slight raised line that is visible and can be felt. This mold seam is a period-authentic manufacturing artifact.
 
-<figure><img alt="1966 Gibson ES-335 white plastic toggle switch tip close-up, visible mold seam around upper portion confirming period-correct injection-molded tip" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-switch-tip-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Toggle switch tip on a 1966 Gibson ES-335.</strong> The white plastic switch tip shows the characteristic mold seam, a slight raised line running around the upper portion of the tip where the two halves of the injection mold met during manufacturing. This seam is a period-authentic manufacturing artifact. The white plastic should show consistent aging with the nut and any other white plastic components on the guitar, not bright white after 60 years.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 white plastic toggle switch tip close-up, visible mold seam around upper portion confirming period-correct injection-molded tip](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-switch-tip-scaled.jpg)
+
+<figcaption><strong>Toggle switch tip on a 1966 Gibson ES-335.</strong> The white plastic switch tip shows the characteristic mold seam, a slight raised line running around the upper portion of the tip where the two halves of the injection mold met during manufacturing. This seam is a period-authentic manufacturing artifact. The white plastic should show consistent aging with the nut and any other white plastic components on the guitar, not bright white after 60 years.</figcaption>
+
+</figure>
 
 Replacement switch tips, which are widely available and commonly swapped, may or may not have the same seam. Compare the color and aging of the tip to the nut and any other white plastic components on the guitar. All white plastics on an all-original guitar should show consistent, matched aging: they should not be blindingly white after 60 years, but neither should they be drastically different from each other.
 
@@ -278,7 +386,13 @@ Replacement switch tips, which are widely available and commonly swapped, may or
 
 The strap buttons on the 1966 ES-335 are **aluminum with a chrome screw**. The aluminum button itself is noticeably less shiny than the chrome hardware elsewhere on the guitar. Do not expect them to match the bridge or tuner chrome. One button is on the lower bout end pin and one is on the upper shoulder.
 
-<figure><img alt="1966 Gibson ES-335 aluminum strap button at upper shoulder, correct aluminum button with chrome screw, less shiny than chrome hardware on the guitar" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-strap-button-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Strap button at the upper shoulder of a 1966 Gibson ES-335.</strong> The aluminum button is intentionally less shiny than the chrome bridge and tuner hardware, this is correct and not an indication of a replacement. The button is secured with a chrome screw. Do not expect the strap buttons to match the reflectivity of the other chrome hardware on the instrument.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 aluminum strap button at upper shoulder, correct aluminum button with chrome screw, less shiny than chrome hardware on the guitar](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-strap-button-scaled.jpg)
+
+<figcaption><strong>Strap button at the upper shoulder of a 1966 Gibson ES-335.</strong> The aluminum button is intentionally less shiny than the chrome bridge and tuner hardware, this is correct and not an indication of a replacement. The button is secured with a chrome screw. Do not expect the strap buttons to match the reflectivity of the other chrome hardware on the instrument.</figcaption>
+
+</figure>
 
 <h2 id="label">Orange Label & Interior</h2>
 
@@ -292,7 +406,13 @@ Inside the body of the 1966 ES-335, visible through the bass-side f-hole, is the
 -   Serial numberThe serial number is printed on the label and should match the ink stamp on the back of the headstock. A mismatch between label and headstock serial is a significant red flag.
 -   Kalamazoo, MichiganThe label reads "Made in Kalamazoo, Michigan, U.S.A.", correct for all pre-1984 Gibson electric guitars. Nashville production began in 1974 for some models; by 1984 Kalamazoo had closed. A 1966 label should read Kalamazoo.
 
-<figure><img alt="1966 Gibson ES-335 orange oval label visible through f-hole, STYLE ES-335 TDC Kalamazoo Michigan serial number confirming 1966 Kalamazoo production" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-orange-label-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Orange oval label inside a 1966 Gibson ES-335, visible through the bass-side f-hole.</strong> The orange oval reads "STYLE ES-335 TDC" with the serial number printed below. "Made in Kalamazoo, Michigan, U.S.A." confirms pre-1984 production. The serial number on this label should match the number impressed into the back of the headstock, a mismatch between the two is a significant red flag. The label's aging, adhesion, and flatness against the interior are all authentication indicators.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 orange oval label visible through f-hole, STYLE ES-335 TDC Kalamazoo Michigan serial number confirming 1966 Kalamazoo production](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-orange-label-scaled.jpg)
+
+<figcaption><strong>Orange oval label inside a 1966 Gibson ES-335, visible through the bass-side f-hole.</strong> The orange oval reads "STYLE ES-335 TDC" with the serial number printed below. "Made in Kalamazoo, Michigan, U.S.A." confirms pre-1984 production. The serial number on this label should match the number impressed into the back of the headstock, a mismatch between the two is a significant red flag. The label's aging, adhesion, and flatness against the interior are all authentication indicators.</figcaption>
+
+</figure>
 
 Orange labels can be removed and reinserted through the f-hole, and labels from scrapped or parts guitars are sometimes used to give fraudulent credibility to a different body. A label that appears too clean, too flat, or shows evidence of being re-glued is suspicious. The label should show age-consistent yellowing, slight adhesive bleed, and should lie flat against the interior of the body in a way consistent with having been there since 1966.
 
@@ -304,7 +424,13 @@ The ES-335's neck is attached to the body with Gibson's **long tenon mortise-and
 
 The long tenon is visible by removing the neck pickup, it can be seen extending into the body cavity from the neck pickup route. A tight, gap-free joint with no evidence of shimming or re-setting is correct. A neck that sits oddly, requires a dramatically lowered bridge, or shows evidence of shimming or re-setting may have been removed and reset at some point, which is not disqualifying but should be disclosed.
 
-<figure><img alt="1966 Gibson ES-335 neck tenon visible under neck pickup cavity, long tenon mortise and tenon joint showing Gibson's period construction method" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-neck-tennon-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Neck tenon visible through the neck pickup cavity of a 1966 Gibson ES-335.</strong> With the neck pickup removed, the long tenon extending from the neck heel into the body cavity is clearly visible. This long gluing surface is a structural hallmark of Kalamazoo-era Gibson construction. A tight, gap-free joint with no evidence of shimming confirms the original neck-body relationship.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 neck tenon visible under neck pickup cavity, long tenon mortise and tenon joint showing Gibson's period construction method](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-neck-tennon-scaled.jpg)
+
+<figcaption><strong>Neck tenon visible through the neck pickup cavity of a 1966 Gibson ES-335.</strong> With the neck pickup removed, the long tenon extending from the neck heel into the body cavity is clearly visible. This long gluing surface is a structural hallmark of Kalamazoo-era Gibson construction. A tight, gap-free joint with no evidence of shimming confirms the original neck-body relationship.</figcaption>
+
+</figure>
 
 ### Pickup Routing, The Deeper Humbucker Channel
 
@@ -312,7 +438,13 @@ One of the more technically specific authentication details on the 1966 ES-335 i
 
 When a humbucker pickup is installed in the ES-335, the adjustable pole piece screws extend down through the pickup baseplate. The routing on the sides of the pickup cavity includes deeper channels that allow the pickup height adjustment screws to travel their full range without the mounting ring contacting the wood. This deeper routing channel is visible through the pickup route when the pickup is removed.
 
-<figure><img alt="1966 Gibson ES-335 pickup route close-up showing side channels for pickup height adjustment screws, period-correct factory routing confirming original ES-335 body" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-pickup-route-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Pickup route on a 1966 Gibson ES-335 showing the side channels for pickup height adjustment screws.</strong> The main pickup cavity is visible along with the additional channels cut into the sides, these allow the pickup mounting ring height adjustment screws to travel their full range. This factory routing pattern is specific to the ES-335 humbucker configuration and confirms original construction.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 pickup route close-up showing side channels for pickup height adjustment screws, period-correct factory routing confirming original ES-335 body](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-pickup-route-scaled.jpg)
+
+<figcaption><strong>Pickup route on a 1966 Gibson ES-335 showing the side channels for pickup height adjustment screws.</strong> The main pickup cavity is visible along with the additional channels cut into the sides, these allow the pickup mounting ring height adjustment screws to travel their full range. This factory routing pattern is specific to the ES-335 humbucker configuration and confirms original construction.</figcaption>
+
+</figure>
 
 The presence of these side channels in the correct locations confirms factory-original ES-335 body routing. Bodies that have been improperly modified will show evidence of non-standard routing or filled channels.
 
@@ -337,11 +469,29 @@ The correct original case for a 1966 ES-335 is a **black hardshell case** with t
 
 This yellow interior is a very specific detail. It is **not crushed velvet** (which appeared on later cases) and not the purple, red, or green interiors of other periods. The yellow/gold plush is correct for mid-1960s Gibson cases and is one of the fastest case authentication checks. The color should be unmistakably yellow-to-gold. Mint examples will retain a brighter yellow; played examples may show compression and deepening of the color over time.
 
-<figure><img alt="1966 Gibson ES-335 original black hardshell case exterior, correct mid-1960s black tolex case with Gibson badge, chrome latches and handle hardware" width="1707" height="2560" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-case-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Exterior of the original 1966 Gibson ES-335 hardshell case.</strong> The correct case for a 1966 ES-335 is a black hardshell with the Gibson logo badge on the lid, chrome-plated latch and handle hardware, and a contoured shape following the ES-335's double-cutaway body. The exterior covering, badge design, and hardware all age in period-consistent ways, a case that looks significantly newer or older than the guitar it accompanies warrants a closer look at whether the pairing is original.</figcaption></figure>
+<figure>
 
-<figure><img alt="1966 Gibson ES-335 case exterior showing Gibson logo plaque, correct black hardshell case with period Gibson badge confirming mid-1960s case" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-case-plaque-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Gibson logo plaque on the exterior of a 1966 ES-335 case.</strong> The black hardshell case carries a Gibson logo badge on the exterior lid. The badge design and overall case construction are period-specific, a matching original case is a strong provenance indicator.</figcaption></figure>
+![1966 Gibson ES-335 original black hardshell case exterior, correct mid-1960s black tolex case with Gibson badge, chrome latches and handle hardware](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-case-scaled.jpg)
 
-<figure><img alt="1966 Gibson ES-335 original case open showing yellow gold plush interior, correct mid-1960s Gibson case with warm yellow lining not crushed velvet" width="1707" height="2560" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-case-interior-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Interior of an original 1966 Gibson ES-335 case.</strong> The warm yellow/gold plush lining is the defining interior detail for mid-1960s Gibson cases. This is not crushed velvet (which appeared on earlier cases) and not the purple or red interiors of other periods, it is unmistakably yellow/gold. The plush should show compression and aging consistent with 60 years of use. The neck rest, body cavity, and accessory compartment all carry this same yellow interior.</figcaption></figure>
+<figcaption><strong>Exterior of the original 1966 Gibson ES-335 hardshell case.</strong> The correct case for a 1966 ES-335 is a black hardshell with the Gibson logo badge on the lid, chrome-plated latch and handle hardware, and a contoured shape following the ES-335's double-cutaway body. The exterior covering, badge design, and hardware all age in period-consistent ways, a case that looks significantly newer or older than the guitar it accompanies warrants a closer look at whether the pairing is original.</figcaption>
+
+</figure>
+
+<figure>
+
+![1966 Gibson ES-335 case exterior showing Gibson logo plaque, correct black hardshell case with period Gibson badge confirming mid-1960s case](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-case-plaque-scaled.jpg)
+
+<figcaption><strong>Gibson logo plaque on the exterior of a 1966 ES-335 case.</strong> The black hardshell case carries a Gibson logo badge on the exterior lid. The badge design and overall case construction are period-specific, a matching original case is a strong provenance indicator.</figcaption>
+
+</figure>
+
+<figure>
+
+![1966 Gibson ES-335 original case open showing yellow gold plush interior, correct mid-1960s Gibson case with warm yellow lining not crushed velvet](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-case-interior-scaled.jpg)
+
+<figcaption><strong>Interior of an original 1966 Gibson ES-335 case.</strong> The warm yellow/gold plush lining is the defining interior detail for mid-1960s Gibson cases. This is not crushed velvet (which appeared on earlier cases) and not the purple or red interiors of other periods, it is unmistakably yellow/gold. The plush should show compression and aging consistent with 60 years of use. The neck rest, body cavity, and accessory compartment all carry this same yellow interior.</figcaption>
+
+</figure>
 
 A matching-period case with consistent aging, the correct interior color, and a Gibson logo badge is strong supporting evidence of an unbroken chain of custody from the factory. Cases can be swapped, but a case that matches the guitar in age, interior condition, and period-correct fittings is significantly more compelling than a guitar presented without a case or with an obviously mismatched one.
 
@@ -349,7 +499,13 @@ A matching-period case with consistent aging, the correct interior color, and a 
 
 The ES-335 was shipped from Gibson with a collection of accompanying literature and accessories, collectively known as "case candy", stored in the case's accessory compartment. A complete original set of case candy for a 1966 ES-335 is exceptionally rare and represents the guitar as it left the Kalamazoo factory in 1966. Each piece is an individual authentication point as well as a piece of Gibson's manufacturing and commercial history.
 
-<figure><img alt="1966 Gibson ES-335 complete case candy collection, Tune-o-matic instructions, humbucking pickup sheet, attention guitarists tag, Sonomatic strings, Gibson booklet, adjustment tag, original key and price tag" width="2560" height="1707" src="/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-paperword-case-candy-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Complete original case candy for a 1966 Gibson ES-335.</strong> All eight pieces of the original factory documentation and accessories are present here, an extraordinarily rare survival after nearly 60 years. From left to right: the Tune-o-matic instructions, humbucking pickup instruction sheet, "Attention Guitarists" electrical ground tag, Gibson Sonomatic strings hang tag, Gibson instruction booklet, the "adjusted for professional usage, light pick action" tag, the original case key in its envelope, and the original dealer price tag. Each piece is documented individually in the sections below.</figcaption></figure>
+<figure>
+
+![1966 Gibson ES-335 complete case candy collection, Tune-o-matic instructions, humbucking pickup sheet, attention guitarists tag, Sonomatic strings, Gibson booklet, adjustment tag, original key and price tag](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-paperword-case-candy-scaled.jpg)
+
+<figcaption><strong>Complete original case candy for a 1966 Gibson ES-335.</strong> All eight pieces of the original factory documentation and accessories are present here, an extraordinarily rare survival after nearly 60 years. From left to right: the Tune-o-matic instructions, humbucking pickup instruction sheet, "Attention Guitarists" electrical ground tag, Gibson Sonomatic strings hang tag, Gibson instruction booklet, the "adjusted for professional usage, light pick action" tag, the original case key in its envelope, and the original dealer price tag. Each piece is documented individually in the sections below.</figcaption>
+
+</figure>
 
 ### Tune-o-matic Instructions Sheet
 

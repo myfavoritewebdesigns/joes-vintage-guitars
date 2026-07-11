@@ -92,7 +92,13 @@ The back of the gear housing should carry a **"Patent Applied"** stamp, not "Pat
 
 Flip the headstock over and look at the back of any tuner gear cover. If you see "Kluson Deluxe" stamped vertically, those are single-line tuners, correct for 1955 to 1960 but *not* for 1954. Original 1954 covers are plain. This is one of the most commonly overlooked authentication points on early goldtops.
 
-<figure><img alt="1954 Gibson Les Paul Goldtop back of headstock showing no-line Kluson single-ring tuners with plain gear covers and cream tulip buttons" width="2560" height="1707" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-back-of-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Back of the 1954 Les Paul Goldtop headstock showing original "no line" Kluson tuners.</strong> The plain, unmarked gear housing covers, with no "Kluson Deluxe" text, are the defining tuner identification for 1954. Single-line Kluson Deluxe tuners (with vertical text on the cover) arrived during the 1955 to 1956 transition. Also visible here is the ink-stamped serial number beginning with "4" and the "Patent Applied" stamp on the gear housings.</figcaption></figure>
+<figure>
+
+![1954 Gibson Les Paul Goldtop back of headstock showing no-line Kluson single-ring tuners with plain gear covers and cream tulip buttons](../../assets/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-back-of-headstock-scaled.jpg)
+
+<figcaption><strong>Back of the 1954 Les Paul Goldtop headstock showing original "no line" Kluson tuners.</strong> The plain, unmarked gear housing covers, with no "Kluson Deluxe" text, are the defining tuner identification for 1954. Single-line Kluson Deluxe tuners (with vertical text on the cover) arrived during the 1955 to 1956 transition. Also visible here is the ink-stamped serial number beginning with "4" and the "Patent Applied" stamp on the gear housings.</figcaption>
+
+</figure>
 
 ### Neck Profile & Nut
 
@@ -108,7 +114,13 @@ The fingerboard is **Brazilian rosewood**, a dense, dark, tight-grained wood wit
 
 The inlays are **Cellulose Nitrate trapezoids** with sharp corners and a distinctive swirling, marbled internal texture. Over 70 years, Cellulose Nitrate off-gasses and shrinks slightly, creating hairline gaps or subtle separation between the inlay edge and the rosewood. This is authentic evidence of age, not damage. Modern reissue inlays are typically acrylic or plastic and will not show this characteristic shrinkage.
 
-<figure><img alt="1954 Gibson Les Paul Goldtop trapezoid inlays on Brazilian rosewood fingerboard, Cellulose Nitrate with marbled texture and sharp corners" width="2560" height="1707" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-inlays-2-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1954 Les Paul Goldtop trapezoid inlays on Brazilian rosewood.</strong> The Cellulose Nitrate material produces a characteristic swirling, marbled internal pattern that no modern plastic replicates. Note the very dark, tight-grained Brazilian rosewood, significantly darker than the Indian rosewood used from the mid-1960s onward. Slight gaps at the inlay edges from 70 years of off-gassing are an authenticity indicator, not a defect.</figcaption></figure>
+<figure>
+
+![1954 Gibson Les Paul Goldtop trapezoid inlays on Brazilian rosewood fingerboard, Cellulose Nitrate with marbled texture and sharp corners](../../assets/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-inlays-2-scaled.jpg)
+
+<figcaption><strong>1954 Les Paul Goldtop trapezoid inlays on Brazilian rosewood.</strong> The Cellulose Nitrate material produces a characteristic swirling, marbled internal pattern that no modern plastic replicates. Note the very dark, tight-grained Brazilian rosewood, significantly darker than the Indian rosewood used from the mid-1960s onward. Slight gaps at the inlay edges from 70 years of off-gassing are an authenticity indicator, not a defect.</figcaption>
+
+</figure>
 
 <h2 id="body">Body, Top & Finish</h2>
 
@@ -116,7 +128,13 @@ The inlays are **Cellulose Nitrate trapezoids** with sharp corners and a distinc
 
 The 1954 body is a **solid mahogany back and sides with a carved maple cap**, identical in material specification to every goldtop Les Paul of the 1950s. The mahogany back is typically finished in a warm brown stain. However, a notable subset of 1954 production was built as **"all-gold" guitars**, with the gold nitrocellulose finish applied to the back, sides, and neck in addition to the top. These are rarer than the standard brown-back examples and are visually striking, though the gold finish tends to oxidize and green more obviously on the back of the neck and other high-contact areas. An all-gold finish that has turned green on the neck is still authentic and original. That greening is simply the bronze powder in the lacquer oxidizing from skin contact and humidity over 70 years.
 
-<figure><img alt="1954 Gibson Les Paul Goldtop back of body showing mahogany construction, brown stain finish, and dual control cavity cover plates" width="2560" height="1707" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-back-of-body-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Back of a 1954 Gibson Les Paul Goldtop.</strong> The solid mahogany back carries a warm brown stain finish, standard for most 1954 production. The two cream plastic back cover plates (secured with original slotted screws) provide access to the control cavity and its period-correct Grey Tiger capacitors and side-coded potentiometers. Unbound back edges are correct for this model throughout the 1950s.</figcaption></figure>
+<figure>
+
+![1954 Gibson Les Paul Goldtop back of body showing mahogany construction, brown stain finish, and dual control cavity cover plates](../../assets/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-back-of-body-scaled.jpg)
+
+<figcaption><strong>Back of a 1954 Gibson Les Paul Goldtop.</strong> The solid mahogany back carries a warm brown stain finish, standard for most 1954 production. The two cream plastic back cover plates (secured with original slotted screws) provide access to the control cavity and its period-correct Grey Tiger capacitors and side-coded potentiometers. Unbound back edges are correct for this model throughout the 1950s.</figcaption>
+
+</figure>
 
 ### The Goldtop Finish, "Bullion Gold"
 
@@ -132,7 +150,13 @@ If a 1954 shows no greening whatsoever in any player-contact area after 70 years
 
 The body is bound with a single ply of cream plastic binding on the top edge only. The back is unbound. The binding on the Florentine (single, pointed) cutaway of the 1954 is relatively thin. If the binding is thick enough to completely hide the maple cap edge at the cutaway, that is worth noting. Authentic 1950s binding allows a sliver of the maple to be visible where the carve meets the binding.
 
-<figure><img alt="1954 Gibson Les Paul Goldtop maple top visible at cutaway edge behind cream binding, authentication detail showing carved maple cap beneath gold finish" width="2560" height="1707" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-maple-top-at-cutaway-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Maple cap visible at the cutaway, an important 1950s authentication detail.</strong> On an authentic 1954, the cream binding is thin enough that the edge of the carved maple cap is visible as a sliver of light-colored wood peeking behind the binding at the cutaway. If the binding is so thick that it completely conceals the maple/mahogany seam, that warrants closer inspection. It may indicate a refinish, replaced binding, or a later instrument.</figcaption></figure>
+<figure>
+
+![1954 Gibson Les Paul Goldtop maple top visible at cutaway edge behind cream binding, authentication detail showing carved maple cap beneath gold finish](../../assets/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-maple-top-at-cutaway-scaled.jpg)
+
+<figcaption><strong>Maple cap visible at the cutaway, an important 1950s authentication detail.</strong> On an authentic 1954, the cream binding is thin enough that the edge of the carved maple cap is visible as a sliver of light-colored wood peeking behind the binding at the cutaway. If the binding is so thick that it completely conceals the maple/mahogany seam, that warrants closer inspection. It may indicate a refinish, replaced binding, or a later instrument.</figcaption>
+
+</figure>
 
 At the cutaway, look closely at the junction of the binding and the body edge. On original 1950s Les Pauls, the relatively thin single-ply binding leaves the edge of the maple cap partially exposed. This thin line of natural maple wood visible between the gold top finish and the cream binding is one of those small but reliable tells that separates Kalamazoo original from modern reconstruction.
 
@@ -160,7 +184,13 @@ On a 1954, the bridge should sit at a **proper height off the top**, typically w
 
 Many 1954 goldtops have had their wrap tail bridges replaced with ABR-1 Tune-o-Matic setups at some point, either by a previous owner seeking better intonation, or as part of a Gibson factory update in the late 1950s or 1960s. If a claimed 1954 has a Tune-o-Matic, look for the **plugged stud holes** under the bridge, two filled holes ahead of the bridge post holes confirm an original wrap tail was present. Also check for a third hole between the two pickups where the wrap tail's center mounting screw (if any) was located. A bridge swap significantly affects collector value but does not disqualify a guitar from being a genuine 1954.
 
-<figure><img alt="1954 Gibson Les Paul Goldtop wrap tail bridge close-up, nickel-plated stud bar bridge with threaded posts and original shorter bushings" width="2445" height="1628" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-bridge.jpg" loading="lazy" decoding="async"><figcaption><strong>1954 Les Paul Goldtop wrap tail bridge.</strong> The single nickel-plated bar sits at a proper height off the top, made possible by the 4° neck pitch introduced in 1954. Note that the posts are not bottomed out against the maple, confirming correct neck geometry. The two threaded studs anchor directly into the maple cap with the shorter bushings typical of 1954 production. No retainer wire, no saddle adjustment, intonation is set via bar height and the two rear set screws.</figcaption></figure>
+<figure>
+
+![1954 Gibson Les Paul Goldtop wrap tail bridge close-up, nickel-plated stud bar bridge with threaded posts and original shorter bushings](../../assets/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-bridge.jpg)
+
+<figcaption><strong>1954 Les Paul Goldtop wrap tail bridge.</strong> The single nickel-plated bar sits at a proper height off the top, made possible by the 4° neck pitch introduced in 1954. Note that the posts are not bottomed out against the maple, confirming correct neck geometry. The two threaded studs anchor directly into the maple cap with the shorter bushings typical of 1954 production. No retainer wire, no saddle adjustment, intonation is set via bar height and the two rear set screws.</figcaption>
+
+</figure>
 
 <h2 id="pickups">P-90 Pickups</h2>
 
@@ -195,7 +225,13 @@ The Grey Tiger was replaced by the **Sprague "Bumblebee" capacitor** (black with
 
 Grey Tiger capacitors inside = strong evidence for pre-1956 production (could be 1952 to 1955). Bumblebee capacitors inside = 1956 or later. This one detail resolves more "is it really a '54 or a '56?" debates than almost anything else. Never buy a high-value early goldtop without verifying the capacitors in person.
 
-<figure><img alt="1954 Gibson Les Paul Goldtop control cavity showing original Grey Tiger capacitors, Stackpole potentiometers, and cloth-covered wiring" width="1707" height="2560" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-electronics-cavity-wiring-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>1954 Les Paul Goldtop control cavity with original electronics.</strong> The Sprague Grey Tiger capacitors, the brown/tan tubular components, are the single most decisive internal dating marker for pre-1956 production. Also visible are the original potentiometers (note that date codes may be on the side rim, not the back face) and period-correct cloth-covered wiring throughout. The clean rectangular cavity route confirms post-1953 production, the trapeze tailpiece ground channel is absent.</figcaption></figure>
+<figure>
+
+![1954 Gibson Les Paul Goldtop control cavity showing original Grey Tiger capacitors, Stackpole potentiometers, and cloth-covered wiring](../../assets/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-electronics-cavity-wiring-scaled.jpg)
+
+<figcaption><strong>1954 Les Paul Goldtop control cavity with original electronics.</strong> The Sprague Grey Tiger capacitors, the brown/tan tubular components, are the single most decisive internal dating marker for pre-1956 production. Also visible are the original potentiometers (note that date codes may be on the side rim, not the back face) and period-correct cloth-covered wiring throughout. The clean rectangular cavity route confirms post-1953 production, the trapeze tailpiece ground channel is absent.</figcaption>
+
+</figure>
 
 ### Wiring & Cloth Wire
 
@@ -219,7 +255,13 @@ On an original 1954 the four knobs are gold-colored, with the amber plastic body
 
 If a claimed 1954 has dome-shaped bonnet knobs, those are either replacements or the guitar is a 1955 or later. The barrel knob was standard on goldtops through most of 1955, when bonnet knobs phased in. A 1954 with four original barrel knobs is highly desirable and significantly more valuable than one with replaced hardware.
 
-<figure><img alt="1954 Gibson Les Paul Goldtop original barrel-style amber speed knobs with metal finger bleeder pointer washers, not bonnet or top-hat style" width="1910" height="1272" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-knobs.jpg" loading="lazy" decoding="async"><figcaption><strong>Original 1954 Les Paul Goldtop barrel knobs.</strong> The short, cylindrical barrel (speed) knob in amber-aged gold is the correct control knob for 1954. These are fundamentally different in profile from the dome-shaped bonnet knobs that arrived in 1955. The thin metal "finger bleeder" pointer washers beneath each knob are original and period-correct. Aged originals will have taken on a warm caramel tone, bright gold or plastic-looking knobs are replacements.</figcaption></figure>
+<figure>
+
+![1954 Gibson Les Paul Goldtop original barrel-style amber speed knobs with metal finger bleeder pointer washers, not bonnet or top-hat style](../../assets/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-knobs.jpg)
+
+<figcaption><strong>Original 1954 Les Paul Goldtop barrel knobs.</strong> The short, cylindrical barrel (speed) knob in amber-aged gold is the correct control knob for 1954. These are fundamentally different in profile from the dome-shaped bonnet knobs that arrived in 1955. The thin metal "finger bleeder" pointer washers beneath each knob are original and period-correct. Aged originals will have taken on a warm caramel tone, bright gold or plastic-looking knobs are replacements.</figcaption>
+
+</figure>
 
 ### Jack Plate & Back Covers
 
@@ -227,7 +269,13 @@ The output jack plate on a 1954 is **cream-colored plastic**, not black, not chr
 
 The two back control cavity cover plates are also cream-colored plastic with a slightly off-white, warm aging patina on originals. Both attach with slotted screws.
 
-<figure><img alt="1954 Gibson Les Paul Goldtop original cream plastic output jack plate, correct mid-1950s color and material for authentication" width="2560" height="1707" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-back-cover-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Original cream plastic output jack plate on a 1954 Les Paul Goldtop.</strong> The cream-colored plastic jack plate is correct for all 1954 production, not black, not chrome. Because cream plastic is brittle and prone to cracking, this is one of the most commonly replaced parts on vintage goldtops. An intact, uncracked original in this warm off-white tone is a meaningful indicator of an unmolested instrument.</figcaption></figure>
+<figure>
+
+![1954 Gibson Les Paul Goldtop original cream plastic output jack plate, correct mid-1950s color and material for authentication](../../assets/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-back-cover-scaled.jpg)
+
+<figcaption><strong>Original cream plastic output jack plate on a 1954 Les Paul Goldtop.</strong> The cream-colored plastic jack plate is correct for all 1954 production, not black, not chrome. Because cream plastic is brittle and prone to cracking, this is one of the most commonly replaced parts on vintage goldtops. An intact, uncracked original in this warm off-white tone is a meaningful indicator of an unmolested instrument.</figcaption>
+
+</figure>
 
 ### Neck Joint, The Long Tenon
 
@@ -342,7 +390,13 @@ For any 1954 Les Paul Goldtop transaction above $20,000, insist on a physical ex
 
 A 1954 Les Paul Goldtop that still has its original case is meaningfully more desirable to collectors, both because the case confirms provenance and because it protects the guitar from the humidity and light exposure that cause the most damage to vintage instruments over time. Knowing what the correct case looks like is also a useful cross-check: a guitar claiming to be a 1954 accompanied by a completely wrong-era case prompts questions about the guitar's history.
 
-<figure><img alt="1954 Gibson Les Paul Goldtop original Lifton hardshell case, brown exterior with pink or orange plush lining, four latches" width="1707" height="2560" src="/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-2case-scaled.jpg" loading="lazy" decoding="async"><figcaption><strong>Original Lifton hardshell case for the 1954 Gibson Les Paul Goldtop.</strong> Gibson shipped 1954 Les Pauls in a Lifton-made hardshell case with a brown exterior and a distinctive pink or salmon-toned interior plush lining, often described as "pink" though the actual color varies with age and fading. The case has a curved lid that echoes the carved maple top of the guitar, four latches, and a handle on the long edge. This case style is correct for 1952 to 1956 production.</figcaption></figure>
+<figure>
+
+![1954 Gibson Les Paul Goldtop original Lifton hardshell case, brown exterior with pink or orange plush lining, four latches](../../assets/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-2case-scaled.jpg)
+
+<figcaption><strong>Original Lifton hardshell case for the 1954 Gibson Les Paul Goldtop.</strong> Gibson shipped 1954 Les Pauls in a Lifton-made hardshell case with a brown exterior and a distinctive pink or salmon-toned interior plush lining, often described as "pink" though the actual color varies with age and fading. The case has a curved lid that echoes the carved maple top of the guitar, four latches, and a handle on the long edge. This case style is correct for 1952 to 1956 production.</figcaption>
+
+</figure>
 
 ### Case Authentication Details
 

@@ -50,7 +50,13 @@ Casady's playing on *Surrealistic Pillow* and *After Bathing at Baxter's* is bas
 
 All four of these guys reached for a Jazz Bass for the reasons Jim wanted one. The narrower nut. The dual-pickup palette. The articulation. The look of it. By 1973, a Jazz Bass wasn't just a Fender. It was a statement of intent.
 
-<figure><img alt="Front of the 1973 Fender Jazz Bass headstock showing the bold black CBS-era Fender decal and Fender-stamped tuning machines" width="2560" height="1707" src="/images/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-front-of-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption>The CBS-era headstock that announced you weren't holding a '60s Fender anymore.</figcaption></figure>
+<figure>
+
+![Front of the 1973 Fender Jazz Bass headstock showing the bold black CBS-era Fender decal and Fender-stamped tuning machines](../../assets/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-front-of-headstock-scaled.jpg)
+
+<figcaption>The CBS-era headstock that announced you weren't holding a '60s Fender anymore.</figcaption>
+
+</figure>
 
 <h2 id="christmas-1973">Christmas Morning, 1973</h2>
 
@@ -62,7 +68,13 @@ Jim's parents had been listening for years. They'd heard the records playing thr
 
 The maple-board, blocks-and-binding Jazz Bass had only been available for a few years by 1973. Fender introduced bound, blocked Jazz fingerboards in 1966, and the all-maple variant followed not long after. The **black-block-on-maple** combination, high contrast, bold, completely unlike the dot-on-rosewood look of the '60s Jazz Basses, became one of the defining visuals of CBS-era Fender. To a player who came up watching his heroes through 1969, this was the version of the Jazz Bass that *looked* like the future.
 
-<figure><img alt="Close-up of the 1973 Fender Jazz Bass body in 3-color sunburst showing both single-coil pickups, the chrome control plate with period-correct knobs, and tortoise pickguard" width="2560" height="1707" src="/images/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-front-body-shot-scaled.jpg" loading="lazy" decoding="async"><figcaption>Two single-coil pickups, three knobs, and the period-correct knob set we sourced for Jim's bass.</figcaption></figure>
+<figure>
+
+![Close-up of the 1973 Fender Jazz Bass body in 3-color sunburst showing both single-coil pickups, the chrome control plate with period-correct knobs, and tortoise pickguard](../../assets/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-front-body-shot-scaled.jpg)
+
+<figcaption>Two single-coil pickups, three knobs, and the period-correct knob set we sourced for Jim's bass.</figcaption>
+
+</figure>
 
 <h2 id="why-a-73">Why a 1973 Jazz Bass Hits Different</h2>
 
@@ -70,7 +82,13 @@ To get why a '73 is its own animal, and not just "an old Jazz Bass," you have to
 
 Here's the thing, though. For the Jazz Bass, that era produced an instrument that punches in a way nothing else does. The bodies tend toward heavier alder (occasionally ash), which gives you a percussive low-mid thump that pre-CBS Jazz Basses don't always have. The pickups of the period are voiced for cut and growl, and that signature Jazz Bass *bark* you hear when you favor the bridge pickup is essentially a 1970s sonic invention, even though the instrument itself dates back to 1960. Visually, with the bound maple board and the blocks, the '73 is the year that Fender's Jazz Bass finally caught up to its own swagger.
 
-<figure><img alt="Close-up of the 1973 Fender Jazz Bass maple fingerboard showing white binding, bold black block inlays, and the warm amber tone the maple has developed under the lacquer" width="1161" height="774" src="/images/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-block-inlays.jpg" loading="lazy" decoding="async"><figcaption>Black blocks on maple, framed by white binding. A classic '70s Fender look.</figcaption></figure>
+<figure>
+
+![Close-up of the 1973 Fender Jazz Bass maple fingerboard showing white binding, bold black block inlays, and the warm amber tone the maple has developed under the lacquer](../../assets/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-block-inlays.jpg)
+
+<figcaption>Black blocks on maple, framed by white binding. A classic '70s Fender look.</figcaption>
+
+</figure>
 
 <h2 id="specs">The Specs That Make a '73</h2>
 
@@ -108,9 +126,21 @@ Fender-stamped open-gear tuning machines. Big, smooth, basically indestructible.
 
 3-ply or 4-ply, often tortoiseshell or black/white/black, with the period-correct screw pattern.
 
-<figure><img alt="Close-up of the 1973 Fender Jazz Bass vintage 4-saddle bridge with steel saddles" width="630" height="424" src="/images/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-bridge.jpg" loading="lazy" decoding="async"><figcaption>Vintage 4-saddle bridge, original steel saddles.</figcaption></figure>
+<figure>
 
-<figure><img alt="Back of the 1973 Fender Jazz Bass headstock showing the Fender-stamped open-gear tuning machines" width="2560" height="1707" src="/images/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-back-of-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption>Fender-stamped open-gear tuners. Big, smooth, basically indestructible.</figcaption></figure>
+![Close-up of the 1973 Fender Jazz Bass vintage 4-saddle bridge with steel saddles](../../assets/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-bridge.jpg)
+
+<figcaption>Vintage 4-saddle bridge, original steel saddles.</figcaption>
+
+</figure>
+
+<figure>
+
+![Back of the 1973 Fender Jazz Bass headstock showing the Fender-stamped open-gear tuning machines](../../assets/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-back-of-headstock-scaled.jpg)
+
+<figcaption>Fender-stamped open-gear tuners. Big, smooth, basically indestructible.</figcaption>
+
+</figure>
 
 <h2 id="how-it-plays">How It Plays, How It Sounds</h2>
 
@@ -120,7 +150,13 @@ Roll back to the neck pickup and you get warmth. Round, woody, almost upright-li
 
 The neck is the other story. By '73 the C-profile had filled out a bit from its slimmer '60s shape. There's something to grab onto, especially up the neck, but it never feels like a baseball bat. The 7.25" radius wants you to play with a vintage touch (string-bending demands relief), and the vintage frets give you just enough height to dig in without choking out. It's a bass that *asks* to be played with the side of your thumb on the pickup cover and a deliberate right hand. You play it the way the records sound.
 
-<figure><img alt="Original 4-bolt neck plate of the 1973 Fender Jazz Bass with the period-correct Fender stamping and serial number" width="2560" height="1707" src="/images/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-neck-plate-scaled.jpg" loading="lazy" decoding="async"><figcaption>The neck plate. The artifact that anchors a vintage Fender's date and authenticity.</figcaption></figure>
+<figure>
+
+![Original 4-bolt neck plate of the 1973 Fender Jazz Bass with the period-correct Fender stamping and serial number](../../assets/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-neck-plate-scaled.jpg)
+
+<figcaption>The neck plate. The artifact that anchors a vintage Fender's date and authenticity.</figcaption>
+
+</figure>
 
 <h2 id="authenticating">Authenticating a 1973 Jazz Bass</h2>
 
@@ -186,9 +222,21 @@ None of this means the Vintera III replaces the original. A 1973 in honest, all-
 
 Jim still has the bass. He never gigged it. Never wanted to. He played it for himself, in living rooms and dens and quiet evenings, across more than half a century. The result is one of the most remarkable original-condition '73 Jazz Basses we've ever had through the shop. The poly is intact. The original frets are still under the strings. The maple board has darkened to a warm amber under the lacquer, throwing the black blocks into even sharper relief than they had back in 1973. The headstock decal is crisp. The pickguard isn't shrunk or yellowed past where it should be at this age. In nearly every way that matters, it's still the instrument his parents bought him.
 
-<figure><img alt="1973 Fender Jazz Bass in 3-color sunburst, full front view showing the maple fingerboard with black block inlays, two single-coil pickups, and chrome control plate" width="1707" height="2560" src="/images/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-full-shot-of-front-scaled.jpg" loading="lazy" decoding="async"><figcaption>The bass today, front. Sunburst still vibrant, board aged into a warm amber.</figcaption></figure>
+<figure>
 
-<figure><img alt="Back view of the 1973 Fender Jazz Bass showing the original 4-bolt neck plate and pristine sunburst finish on the body" width="1707" height="2560" src="/images/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-full-shot-of-back-scaled.jpg" loading="lazy" decoding="async"><figcaption>And back. Original poly, original neck plate, fifty-plus years on.</figcaption></figure>
+![1973 Fender Jazz Bass in 3-color sunburst, full front view showing the maple fingerboard with black block inlays, two single-coil pickups, and chrome control plate](../../assets/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-full-shot-of-front-scaled.jpg)
+
+<figcaption>The bass today, front. Sunburst still vibrant, board aged into a warm amber.</figcaption>
+
+</figure>
+
+<figure>
+
+![Back view of the 1973 Fender Jazz Bass showing the original 4-bolt neck plate and pristine sunburst finish on the body](../../assets/blog/1973-fender-jazz-bass-vintera-iii/1973-fender-jazz-bass-sunburst-full-shot-of-back-scaled.jpg)
+
+<figcaption>And back. Original poly, original neck plate, fifty-plus years on.</figcaption>
+
+</figure>
 
 The only change Jim ever made was a small one. At some point in the early years, he swapped the stock control knobs for a set of knurled metal ones, a common period-appropriate tweak among bassists who liked a different feel under their fingertips. When the bass came through our shop, we sourced a period-correct set of original-style knobs and returned it to factory configuration. Other than that, this is the bass exactly as it left Fullerton in 1973.
 
