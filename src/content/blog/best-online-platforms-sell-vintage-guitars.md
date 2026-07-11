@@ -150,7 +150,13 @@ That's a real zero, not a marketing zero. No selling fee, no listing fee, no pay
 
 **What the trajectory looks like.** StringTree launched in late 2024 with six partner dealers and a single proof-of-concept auction. Less than a year later, the company is reporting a waitlist of over 100 stores wanting on, bid counts climbing on every successive cycle, and a feature set that's expanded from a single auction format to include Showrooms for collection display and asynchronous offers. *Vintage Guitar Magazine* covered the launch. Established vintage dealers like J. Rieck Music list there publicly. This isn't a sleepy auction site that's going to disappear next quarter. It's where a meaningful chunk of the serious vintage dealer community is moving inventory.
 
-<figure><img alt="Live StringTree auction listing for a 1964 Epiphone, showing the bid count, time remaining, and curated listing format the platform uses." width="1428" height="473" src="/images/blog/best-online-platforms-sell-vintage-guitars/Screenshot-2026-05-12-103618.png" loading="lazy" decoding="async"><figcaption>A live StringTree auction for a 1964 Epiphone, showing the bid activity, time remaining, and curated listing layout the platform uses for every consignment.</figcaption></figure>
+<figure>
+
+![Live StringTree auction listing for a 1964 Epiphone, showing the bid count, time remaining, and curated listing format the platform uses.](../../assets/blog/best-online-platforms-sell-vintage-guitars/Screenshot-2026-05-12-103618.png)
+
+<figcaption>A live StringTree auction for a 1964 Epiphone, showing the bid activity, time remaining, and curated listing layout the platform uses for every consignment.</figcaption>
+
+</figure>
 
 **The math, on the same $5,000 instrument used above:**
 

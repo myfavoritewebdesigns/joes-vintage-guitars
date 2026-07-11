@@ -32,13 +32,25 @@ Finishes are sprayed in **nitrocellulose lacquer**. Polyester didn't arrive on S
 
 Here's a factory detail worth knowing if you've never seen it. Pull the pickguard off an original sunburst 1966 and you'll often find that the red band of the three-tone wasn't sprayed under the guard at all. The factory cut a corner that nobody was ever going to see, skipping the red on the masked-off area to save paint and shave time off the finishing line. The area under the pickguard reads as a two-tone yellow-to-brown burst instead of the full three-tone you see on the exposed top of the body. It's one of the cleanest tells of an honest factory finish. A refinished body sprayed by a pro will almost always have the red band carried all the way through, since nobody refinishing a guitar today is trying to replicate a 1960s production shortcut. Pop the pickguard, see what's underneath, and you'll know.
 
-<figure><img width="2560" height="1707" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-under-pickguard-fading-scaled.jpg" alt="Original 1966 Stratocaster sunburst showing the unsprayed area under the pickguard - the red band of the three-tone was never sprayed in the masked-off section, leaving a two-tone yellow-to-brown burst" loading="lazy" decoding="async"><figcaption>Two-tone under the pickguard: the red band was never sprayed where the guard would cover it</figcaption></figure>
+<figure>
+
+![Original 1966 Stratocaster sunburst showing the unsprayed area under the pickguard - the red band of the three-tone was never sprayed in the masked-off section, leaving a two-tone yellow-to-brown burst](../../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-under-pickguard-fading-scaled.jpg)
+
+<figcaption>Two-tone under the pickguard: the red band was never sprayed where the guard would cover it</figcaption>
+
+</figure>
 
 #### The Paint Stick Shadow
 
 One of the most important authentication tells on a 1966 Stratocaster lives inside the neck pocket. During finishing, bodies were mounted on a wooden paint stick screwed into the neck pocket. When the body was sprayed, the area beneath that paint stick stayed masked from overspray. Pull the neck off an original 1966 and you should see a clean shadow or silhouette in the neck pocket where the stick sat. Usually it's a roughly rectangular bare-wood area on an otherwise sealed and color-coated pocket. A body that's been refinished in the pocket, or one that's been routed or modified, won't show this shadow.
 
-<figure><img width="2560" height="1707" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-stratocaster-neck-pocket-scaled.jpg" alt="1966 Stratocaster neck pocket showing the paint stick shadow and the original dark red vulcanized fiber shim under the neck heel" loading="lazy" decoding="async"><figcaption>Paint stick shadow in the neck pocket, with the dark red fiber shim sitting in place</figcaption></figure>
+<figure>
+
+![1966 Stratocaster neck pocket showing the paint stick shadow and the original dark red vulcanized fiber shim under the neck heel](../../assets/blog/1966-fender-stratocaster-authentication-guide/1966-stratocaster-neck-pocket-scaled.jpg)
+
+<figcaption>Paint stick shadow in the neck pocket, with the dark red fiber shim sitting in place</figcaption>
+
+</figure>
 
 ### Dark Red Shims in the Neck Pocket
 
@@ -52,7 +64,13 @@ The fretboard is rosewood **veneer** over maple. The slab board era ended in mid
 
 The frets are vintage thin, with a narrower crown than the medium-jumbo wire that became common decades later. Original frets on a clean 1966 will show wear patterns at the first few positions and at the third, fifth, and seventh, where players spend most of their time. A 1966 with bone-flat, unworn frets has almost certainly been refretted at some point.
 
-<figure><img width="1707" height="2560" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-pearloid-side-dots-scaled.jpg" alt="Pearloid side dots on a 1966 Fender Stratocaster neck" loading="lazy" decoding="async"><figcaption>Pearloid side dots, standard on a 1966 neck</figcaption></figure>
+<figure>
+
+![Pearloid side dots on a 1966 Fender Stratocaster neck](../../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-pearloid-side-dots-scaled.jpg)
+
+<figcaption>Pearloid side dots, standard on a 1966 neck</figcaption>
+
+</figure>
 
 ### The Back of the Neck
 
@@ -64,7 +82,13 @@ Flip the neck off the body and look at the heel. By 1966, Fender was stamping th
 
 13 MAR 66 B
 
-<figure><img width="2560" height="1707" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-neck-heel-scaled.jpg" alt="1966 Fender Stratocaster neck heel ink stamp reading 13 MAR 66 B" loading="lazy" decoding="async"><figcaption>Real neck heel stamp: 13 MAR 66 B (model 13, March, 1966, 1 5/8" nut)</figcaption></figure>
+<figure>
+
+![1966 Fender Stratocaster neck heel ink stamp reading 13 MAR 66 B](../../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-neck-heel-scaled.jpg)
+
+<figcaption>Real neck heel stamp: 13 MAR 66 B (model 13, March, 1966, 1 5/8" nut)</figcaption>
+
+</figure>
 
 The first two digits are the model code. On a Stratocaster from this window (late 1965 through late 1967) the correct code is **13**. Don't let anyone tell you a "3" leading the stamp is correct for a Strat in this era. That single-digit "3" was used for the Telecaster and Esquire. A 1966 Stratocaster neck heel should read 13. The middle three letters are the month abbreviated. The next two digits are the year. The final letter is the neck shape and nut-width profile code. The vintage Fender width codes are fixed and worth memorizing:
 
@@ -83,7 +107,13 @@ This is where the 1966 Stratocaster announces itself visually. By the time 1966 
 
 The logo on a 1966 Stratocaster is the gold "transition" decal. It's gold with a thin black drop shadow, reading *FENDER* in script with *STRATOCASTER* beneath it. Just below that, in smaller text, you should see the patent number block and "WITH SYNCHRONIZED TREMOLO." This is the same logo that started in late 1964 and ran until the CBS "Bold" black logo replaced it around late 1967 to 1968. The 1966 logo should be gold, applied under the finish, showing some yellowing or aging consistent with the rest of the neck. A pristine, untextured logo on a guitar with otherwise heavy wear is a red flag.
 
-<figure><img width="1707" height="2560" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-headstock-scaled.jpg" alt="1966 Fender Stratocaster headstock with the gold transition logo and large CBS-style outline" loading="lazy" decoding="async"><figcaption>Large CBS headstock with the gold transition logo</figcaption></figure>
+<figure>
+
+![1966 Fender Stratocaster headstock with the gold transition logo and large CBS-style outline](../../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-headstock-scaled.jpg)
+
+<figcaption>Large CBS headstock with the gold transition logo</figcaption>
+
+</figure>
 
 ### Tuners
 
@@ -103,7 +133,13 @@ Underneath the pickguard is where a 1966 Stratocaster shows most of its personal
 
 The staggered pole pattern on a 1966 follows the original Fender staggering with the G-string pole sitting noticeably taller than the others. That staggering was designed for the wound G strings that were standard at the time. The pole magnets themselves are AlNiCo V and they should look slightly oxidized or matte gray, not shiny or bright.
 
-<figure><img width="2560" height="1707" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-pickups-grey-bobbin-scaled.jpg" alt="Gray-bottom 1966 Stratocaster pickup with the winder's date written on the bobbin in blue marker" loading="lazy" decoding="async"><figcaption>Factory-correct gray bobbin with the winder's date in blue marker</figcaption></figure>
+<figure>
+
+![Gray-bottom 1966 Stratocaster pickup with the winder's date written on the bobbin in blue marker](../../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-pickups-grey-bobbin-scaled.jpg)
+
+<figcaption>Factory-correct gray bobbin with the winder's date in blue marker</figcaption>
+
+</figure>
 
 ### The Three-Way Switch
 
@@ -124,7 +160,13 @@ The potentiometers on a 1966 Strat are 250k audio taper, made by either CTS or S
 -   **CTS code:** begins with 137. So a CTS pot from the 14th week of 1966 reads 1376614 or 137 6614.
 -   **Stackpole code:** begins with 304. So a Stackpole pot from the 36th week of 1966 reads 3046636 or 304 6636.
 
-<figure><img width="2560" height="1707" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-pot-codes-scaled.jpg" alt="CTS potentiometer on a 1966 Fender Stratocaster stamped with the source-date code 1376624" loading="lazy" decoding="async"><figcaption>CTS pot stamped 1376624: manufacturer 137, year 66, week 24</figcaption></figure>
+<figure>
+
+![CTS potentiometer on a 1966 Fender Stratocaster stamped with the source-date code 1376624](../../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-pot-codes-scaled.jpg)
+
+<figcaption>CTS pot stamped 1376624: manufacturer 137, year 66, week 24</figcaption>
+
+</figure>
 
 Read the code as MANUFACTURER (3 digits) + YEAR (last digit or last 2 digits) + WEEK (2 digits). On 1966 pots you're looking for codes that read 66XX in the year-week section, where XX is between 01 and 52. Pots are sometimes a slightly different vintage than the body and neck since Fender bought them in batches, but they should generally land in the same window or slightly earlier than the guitar's neck date. A pot dated 1968 on an otherwise 1966 guitar means someone replaced the harness.
 
@@ -140,7 +182,13 @@ If your guitar has the gray-bottom pickups, the cloth pushback wiring, the .1 mf
 
 The bridge saddles on a 1966 Stratocaster are individual stamped steel saddles, plated in nickel chrome, with **"FENDER PAT. PEND."** stamped on the top of each one. These are the same threaded, formed-steel saddles Fender had been using since the 1950s. The patent pending stamp persisted on Stratocaster saddles well into the late 1960s before being phased out. By the very late 1960s and into the 1970s, Fender saddles became unmarked, then eventually went to the heavier diecast block saddles. So on a 1966 you should see "FENDER PAT. PEND." on every saddle. The stamp is small, but it's clearly visible under good light. Reproduction saddles exist but they're usually distinguishable on close inspection.
 
-<figure><img width="2560" height="1707" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-bridge-saddles-scaled.jpg" alt="Bridge saddles on a 1966 Fender Stratocaster stamped FENDER PAT. PEND." loading="lazy" decoding="async"><figcaption>FENDER PAT. PEND. stamping on every original 1966 saddle</figcaption></figure>
+<figure>
+
+![Bridge saddles on a 1966 Fender Stratocaster stamped FENDER PAT. PEND.](../../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-bridge-saddles-scaled.jpg)
+
+<figcaption>FENDER PAT. PEND. stamping on every original 1966 saddle</figcaption>
+
+</figure>
 
 ### Tremolo Block and Springs
 
@@ -154,7 +202,13 @@ The tremolo arm is a threaded steel rod with a tone-matched **aged white** plast
 
 The chrome bridge cover, sometimes called the "ashtray," is a separate piece from the trem cover on the back of the body. It clips over the bridge saddles on top of the guitar. Stratocasters shipped with one from the factory in 1966, but the cover was so universally removed by players (it blocks palm muting and gets in the way of right-hand technique) that finding a 1966 with its original bridge cover still in the case is unusual. Most 1966 Strats lost theirs decades ago. When one does turn up, the chrome should match the rest of the hardware in patina and the inside of the cover often shows the same paint shadow on the body underneath as the rest of the masked finish areas.
 
-<figure><img width="2560" height="1707" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-bridge-cover-scaled.jpg" alt="Chrome bridge cover (ashtray) clipped over the bridge of a 1966 Fender Stratocaster" loading="lazy" decoding="async"><figcaption>The original chrome bridge cover, rarely seen still with the guitar</figcaption></figure>
+<figure>
+
+![Chrome bridge cover (ashtray) clipped over the bridge of a 1966 Fender Stratocaster](../../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-bridge-cover-scaled.jpg)
+
+<figcaption>The original chrome bridge cover, rarely seen still with the guitar</figcaption>
+
+</figure>
 
 ### Tremolo Cover Plate
 
@@ -164,7 +218,13 @@ The trem cover on the back of the body is a single-ply white plastic plate with 
 
 The four-bolt neck plate on a 1966 is the **F-plate**, the plate with the large "F" Fender logo stamped into it and the serial number stamped above the F. Serial numbers on a 1966 generally land in the **110000 to 200000** range, but Fender wasn't strict about pulling plates in order. Plates were grabbed out of bins as guitars were built, so you'll see 1966 guitars with serials a little lower or a little higher than that window, and the same serial range overlaps with both 1965 and 1967 production. The serial number alone is never the answer. Use the neck heel date, the pot codes, and the rest of the components together to land on a year. For a full breakdown of how Fender serials track to production years across every Fender model, see our [complete Fender serial number guide](/fender-guitars-serial-number-guide/).
 
-<figure><img width="2560" height="1707" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-neck-plate-serial-numbers-scaled.jpg" alt="F-stamped four-bolt neck plate on a 1966 Fender Stratocaster with serial number 169025" loading="lazy" decoding="async"><figcaption>F-plate with serial 169025, squarely inside the 1966 range</figcaption></figure>
+<figure>
+
+![F-stamped four-bolt neck plate on a 1966 Fender Stratocaster with serial number 169025](../../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-neck-plate-serial-numbers-scaled.jpg)
+
+<figcaption>F-plate with serial 169025, squarely inside the 1966 range</figcaption>
+
+</figure>
 
 <h2 id="pickguard">Pickguard, Knobs, and Plastics</h2>
 
@@ -218,7 +278,13 @@ Inside the lid you usually find a small printed cardboard "Fender Fine Electric 
 
 Far less commonly, a 1966 Stratocaster will turn up in what collectors call a **Bulwin** case, sometimes misspelled "Bolewin." This is a distinctive case style with a contoured, rounded profile shaped a little like a pair of eyeglasses or a peanut, upholstered in black Tolex with a different interior plush than the rectangular cases. Bulwin cases are scarce in 1966 Stratocaster country, and finding a 1966 still in its original Bulwin case is a real rarity. They show up more frequently with Jazzmasters and Jaguars, but a small number of Strats were cased this way too. A correct Bulwin case adds meaningful value to a clean 1966.
 
-<figure><img width="1707" height="2560" src="/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-eyeglass-case-scaled.jpg" alt="Rare Bulwin eyeglass-style case for a 1966 Fender Stratocaster" loading="lazy" decoding="async"><figcaption>The contoured Bulwin "eyeglass" case, rarely paired with a Strat</figcaption></figure>
+<figure>
+
+![Rare Bulwin eyeglass-style case for a 1966 Fender Stratocaster](../../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-eyeglass-case-scaled.jpg)
+
+<figcaption>The contoured Bulwin "eyeglass" case, rarely paired with a Strat</figcaption>
+
+</figure>
 
 ### Tweed
 

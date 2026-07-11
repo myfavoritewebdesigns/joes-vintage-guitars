@@ -15,7 +15,13 @@ We get a lot of guitars through the shop. Every now and then one arrives carryin
 
 It came to us from the family of a man named Don Majure. He was its only owner. He bought it new in 1957, when he was sixteen years old, and it stayed with him for the rest of his life. The guitar is a beautiful thing on its own. But what makes it special is everything that happened around it for the last sixty-eight years, and the fact that his family was kind enough to write it all down for us. With their blessing, we want to pass it along.
 
-<figure><img alt="Full front of a 1957 Gibson Byrdland thinline archtop in sunburst with gold hardware, standing upright" width="1333" height="2000" src="/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-full-front.jpg" loading="lazy" decoding="async"><figcaption>The 1957 Gibson Byrdland, one owner from new. Sunburst over a carved spruce top, solid flamed maple back and sides, gold hardware throughout.</figcaption></figure>
+<figure>
+
+![Full front of a 1957 Gibson Byrdland thinline archtop in sunburst with gold hardware, standing upright](../../assets/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-full-front.jpg)
+
+<figcaption>The 1957 Gibson Byrdland, one owner from new. Sunburst over a carved spruce top, solid flamed maple back and sides, gold hardware throughout.</figcaption>
+
+</figure>
 
 #### On this page
 
@@ -52,7 +58,13 @@ The Byrdland was still nearly new when Don bought his. Gibson had introduced it 
 
 What McCarty's team built for them was essentially a slimmed-down L-5. The body was cut down to about two and a quarter inches deep. The scale was shortened to 23½ inches and the neck was made narrower than standard, both changes meant to make fast chord work and stretchy single-note runs easier. Then Gibson gave it every premium feature it had: a hand-carved solid spruce top, solid flamed maple back and sides, gold hardware, an ebony fingerboard with pearl block inlays, and the pearl "flowerpot" inlay on the headstock. They named it by splicing the two players' names together. Byrd plus Garland became Byrdland.
 
-<figure><img alt="Headstock of a 1957 Gibson Byrdland showing the pearl flowerpot inlay and pearl Gibson script logo, gold tuners" width="1333" height="2000" src="/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-flowerpot-headstock.jpg" loading="lazy" decoding="async"><figcaption>The pearl "flowerpot" inlay and pearl Gibson script, shared with the L-5 and Super 400 at the very top of Gibson's line.</figcaption></figure>
+<figure>
+
+![Headstock of a 1957 Gibson Byrdland showing the pearl flowerpot inlay and pearl Gibson script logo, gold tuners](../../assets/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-flowerpot-headstock.jpg)
+
+<figcaption>The pearl "flowerpot" inlay and pearl Gibson script, shared with the L-5 and Super 400 at the very top of Gibson's line.</figcaption>
+
+</figure>
 
 It sat right at the top of Gibson's electric line, just below the [L-5CES](/post/gibson-l5-ces-value-guide/) and the Super 400CES, and it was priced to match. This was not a guitar most people owned. It was a professional's instrument, or a serious enthusiast's.
 
@@ -64,11 +76,23 @@ If you want the full breakdown of how to date and identify any Byrdland, we put 
 
 ## A Closer Look at This One
 
-<figure><img alt="Orange oval Gibson label inside the f-hole of a 1957 Byrdland reading Byrdland, serial number A 25589" width="2000" height="1333" src="/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-orange-label-a25589.jpg" loading="lazy" decoding="async"><figcaption>The orange oval label inside the body: Gibson Byrdland, serial A 25589. The A-series number dates it to 1957, exactly when Don said he bought it.</figcaption></figure>
+<figure>
+
+![Orange oval Gibson label inside the f-hole of a 1957 Byrdland reading Byrdland, serial number A 25589](../../assets/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-orange-label-a25589.jpg)
+
+<figcaption>The orange oval label inside the body: Gibson Byrdland, serial A 25589. The A-series number dates it to 1957, exactly when Don said he bought it.</figcaption>
+
+</figure>
 
 The story checks out against the guitar. The orange oval label inside the body reads Byrdland, serial number A 25589. That A-series number places it firmly in 1957. It even still carries an old paper hang tag stamped "BYRDLAND A25589."
 
-<figure><img alt="Old paper hang tag on a 1957 Gibson Byrdland stamped BYRDLAND A25589, resting on the sunburst top near the bridge" width="2000" height="1333" src="/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-hang-tag.jpg" loading="lazy" decoding="async"><figcaption>The old hang tag, still stamped with the model and serial: BYRDLAND, A25589.</figcaption></figure>
+<figure>
+
+![Old paper hang tag on a 1957 Gibson Byrdland stamped BYRDLAND A25589, resting on the sunburst top near the bridge](../../assets/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-hang-tag.jpg)
+
+<figcaption>The old hang tag, still stamped with the model and serial: BYRDLAND, A25589.</figcaption>
+
+</figure>
 
 Everything else is right for the year and the grade:
 
@@ -80,17 +104,47 @@ Everything else is right for the year and the grade:
 - Hardware: all gold, including the engraved "Byrdland" tailpiece, the no-wire ABR-1 bridge on its fitted rosewood base, and Kluson Sealfast tuners with tulip buttons
 - Headstock: pearl flowerpot inlay and the pearl "Gibson" script
 
-<figure><img alt="Solid flamed maple back of a 1957 Gibson Byrdland in original sunburst finish" width="1333" height="2000" src="/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-flame-maple-back.jpg" loading="lazy" decoding="async"><figcaption>Solid, tightly flamed maple back, still wearing its original sunburst.</figcaption></figure>
+<figure>
 
-<figure><img alt="Side profile of a 1957 Gibson Byrdland showing the shallow thinline body depth" width="2000" height="1333" src="/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-thinline-profile.jpg" loading="lazy" decoding="async"><figcaption>The thinline body, about 2¼ inches deep. This shallow depth is the whole reason the Byrdland exists.</figcaption></figure>
+![Solid flamed maple back of a 1957 Gibson Byrdland in original sunburst finish](../../assets/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-flame-maple-back.jpg)
 
-<figure><img alt="Close-up of a gold Alnico staple pickup on a 1957 Gibson Byrdland, showing the six rectangular staple magnets" width="2000" height="1333" src="/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-alnico-staple-pickup.jpg" loading="lazy" decoding="async"><figcaption>The Alnico "staple" pickup, named for the rectangular magnet poles. Gibson used these on its finest archtops through 1957, right up until the humbucker took over.</figcaption></figure>
+<figcaption>Solid, tightly flamed maple back, still wearing its original sunburst.</figcaption>
 
-<figure><img alt="Gold engraved Byrdland tailpiece on a 1957 Gibson Byrdland, plating worn from decades of playing" width="2000" height="1333" src="/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-engraved-tailpiece.jpg" loading="lazy" decoding="async"><figcaption>The engraved "Byrdland" tailpiece, its gold worn thin from decades of a real right hand.</figcaption></figure>
+</figure>
+
+<figure>
+
+![Side profile of a 1957 Gibson Byrdland showing the shallow thinline body depth](../../assets/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-thinline-profile.jpg)
+
+<figcaption>The thinline body, about 2¼ inches deep. This shallow depth is the whole reason the Byrdland exists.</figcaption>
+
+</figure>
+
+<figure>
+
+![Close-up of a gold Alnico staple pickup on a 1957 Gibson Byrdland, showing the six rectangular staple magnets](../../assets/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-alnico-staple-pickup.jpg)
+
+<figcaption>The Alnico "staple" pickup, named for the rectangular magnet poles. Gibson used these on its finest archtops through 1957, right up until the humbucker took over.</figcaption>
+
+</figure>
+
+<figure>
+
+![Gold engraved Byrdland tailpiece on a 1957 Gibson Byrdland, plating worn from decades of playing](../../assets/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-engraved-tailpiece.jpg)
+
+<figcaption>The engraved "Byrdland" tailpiece, its gold worn thin from decades of a real right hand.</figcaption>
+
+</figure>
 
 The gold plating has worn through in the spots a right hand and a set of fingers naturally land, which is exactly what you want to see. That is not damage. That is sixty-eight years of a real person playing a real guitar. Under the honest wear it is remarkably clean and original, right down to that brown case with the pink lining his kids still talk about.
 
-<figure><img alt="Original brown hardshell case for a 1957 Gibson Byrdland, closed, showing decades of honest wear" width="1333" height="2000" src="/images/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-original-case.jpg" loading="lazy" decoding="async"><figcaption>The original case, brown outside and lined in the soft pink plush Don's kids still remember running their fingers over.</figcaption></figure>
+<figure>
+
+![Original brown hardshell case for a 1957 Gibson Byrdland, closed, showing decades of honest wear](../../assets/blog/one-owner-1957-gibson-byrdland/1957-gibson-byrdland-original-case.jpg)
+
+<figcaption>The original case, brown outside and lined in the soft pink plush Don's kids still remember running their fingers over.</figcaption>
+
+</figure>
 
 If you want to read these numbers yourself, our [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) explains the A-series orange labels and how to date one.
 

@@ -158,7 +158,13 @@ The Jaguar arrived in 1962 after the spaghetti logo era had already ended on mos
 
 This is the logo the Jaguar launched with and wore for the first six years of production. Heavier rounded script "Fender" in gold with a thin black outline, larger and more prominent on the headstock than the spaghetti logo that preceded it on Stratocasters and Telecasters. The word "Jaguar" appears below in matching gold script, with "Offset Contour Body" and patent text beneath. The earliest 1962 examples carry "PAT. PEND." while 1963 onward shows the actual patent numbers (covered in the section below).
 
-<figure><img alt="Gold transition headstock logo on a 1965 Fender Jaguar" width="2560" height="1707" src="/images/blog/vintage-fender-jaguar-guide/1965-fender-jaguar-logo-scaled.jpg" loading="lazy" decoding="async"><figcaption>Gold transition logo on a 1965 Jaguar headstock. This was the only factory logo style on the Jaguar from launch in 1962 through about mid 1968, when the black TV logo took over.</figcaption></figure>
+<figure>
+
+![Gold transition headstock logo on a 1965 Fender Jaguar](../../assets/blog/vintage-fender-jaguar-guide/1965-fender-jaguar-logo-scaled.jpg)
+
+<figcaption>Gold transition logo on a 1965 Jaguar headstock. This was the only factory logo style on the Jaguar from launch in 1962 through about mid 1968, when the black TV logo took over.</figcaption>
+
+</figure>
 
 Because this same logo style ran on the Jaguar from launch through both the pre-CBS and early-CBS years, the headstock decal by itself does not tell you whether a guitar is pre-CBS or CBS. A 1963 and a 1967 Jaguar both wear the gold transition logo. The decal needs to be cross-referenced with neck date, body date, pot codes, fingerboard binding, inlay style, and pickguard material to place the guitar correctly.
 
@@ -207,9 +213,21 @@ Look at the underside of the fingerboard where it meets the maple neck. Easiest 
 
 Clay dots ran from 1962 to late 1964. They are not actually clay but a plastic compound that ages to a tan or cream color, with a slightly matte appearance and visible age cracking under magnification in many examples. Pearloid dots replaced them in late 1964 and continued through 1965 and into early 1966, with a brighter, more reflective surface that catches light differently. **Pearloid block inlays began in mid 1966** (not late 1965) and ran on rosewood fingerboards through the end of production in 1975. The blocks are larger pearloid rectangles set into the bound fingerboard. On 1970s maple cap fingerboards, the blocks are often black rather than pearloid, paired with black binding instead of white.
 
-<figure><img alt="Close up view of clay dot fingerboard inlays on a 1960s Fender Jaguar" width="2560" height="1707" src="/images/blog/vintage-fender-jaguar-guide/1960s-fender-jaguar-with-clay-dots-scaled.jpg" loading="lazy" decoding="async"><figcaption>Clay dot inlays on a 1960s Jaguar fingerboard. Note the slightly matte, off-white surface that ages to tan or cream. Clay dots are one of the fastest visual tells for a 1962 to late 1964 build.</figcaption></figure>
+<figure>
 
-<figure><img alt="Pearloid block fingerboard inlays on a 1966 Fender Jaguar in Olympic White" width="1707" height="2560" src="/images/blog/vintage-fender-jaguar-guide/1966-fender-jaguar-olympic-white-block-inlays-scaled.jpg" loading="lazy" decoding="async"><figcaption>Pearloid block inlays on a 1966 Jaguar in Olympic White. Blocks took over from dots around mid 1966 and ran on rosewood fingerboards through the end of production in 1975.</figcaption></figure>
+![Close up view of clay dot fingerboard inlays on a 1960s Fender Jaguar](../../assets/blog/vintage-fender-jaguar-guide/1960s-fender-jaguar-with-clay-dots-scaled.jpg)
+
+<figcaption>Clay dot inlays on a 1960s Jaguar fingerboard. Note the slightly matte, off-white surface that ages to tan or cream. Clay dots are one of the fastest visual tells for a 1962 to late 1964 build.</figcaption>
+
+</figure>
+
+<figure>
+
+![Pearloid block fingerboard inlays on a 1966 Fender Jaguar in Olympic White](../../assets/blog/vintage-fender-jaguar-guide/1966-fender-jaguar-olympic-white-block-inlays-scaled.jpg)
+
+<figcaption>Pearloid block inlays on a 1966 Jaguar in Olympic White. Blocks took over from dots around mid 1966 and ran on rosewood fingerboards through the end of production in 1975.</figcaption>
+
+</figure>
 
 ### Brazilian Versus Indian Rosewood
 
@@ -231,7 +249,13 @@ Every era has its expected screw count and pattern. Pulling the pickguard shows 
 
 The Jaguar pickup is what makes the guitar sound the way it does. They are single coils, similar in dimensions to a Stratocaster pickup but housed in a distinctive notched metal claw shielding plate that wraps around three sides of each pickup. The claw plates were part of Leo Fender's effort to reduce single coil noise on the Jaguar without sacrificing brightness, and they are a reliable visual identifier.
 
-<figure><img alt="Pair of single coil pickups on a 1964 Fender Jaguar showing the notched metal claw shielding" width="2560" height="1707" src="/images/blog/vintage-fender-jaguar-guide/1964-fender-jaguar-pickups-scaled.jpg" loading="lazy" decoding="async"><figcaption>Pickups on a 1964 Jaguar showing the distinctive notched metal claw shielding that wraps around three sides of each pickup. This shielding pattern is one of the most reliable visual identifiers of a Jaguar pickup.</figcaption></figure>
+<figure>
+
+![Pair of single coil pickups on a 1964 Fender Jaguar showing the notched metal claw shielding](../../assets/blog/vintage-fender-jaguar-guide/1964-fender-jaguar-pickups-scaled.jpg)
+
+<figcaption>Pickups on a 1964 Jaguar showing the distinctive notched metal claw shielding that wraps around three sides of each pickup. This shielding pattern is one of the most reliable visual identifiers of a Jaguar pickup.</figcaption>
+
+</figure>
 
 ### Pickup Specifications
 
@@ -256,7 +280,13 @@ The Jaguar's switching is the most complex Fender designed in the 1960s. Two com
 
 **Rhythm Circuit** (upper bout controls): activated by sliding the upper bout circuit selector forward. This routes only the neck pickup through its own dedicated volume and tone roller, with a fixed high-cut tone shaping designed for jazz comping. The pots in this circuit are different values: a 50k volume and 1 megohm tone in the original Fender wiring. The bass-heavy preset comes from the combination of the smaller volume pot and a fixed capacitor in the signal path.
 
-<figure><img alt="Upper bout rhythm circuit slider switch and volume and tone roller knobs on a 1965 Fender Jaguar" width="2560" height="1707" src="/images/blog/vintage-fender-jaguar-guide/1965-fender-jaguar-rhythm-circuit-scaled.jpg" loading="lazy" decoding="async"><figcaption>The upper bout rhythm circuit on a 1965 Jaguar: the slider switch toggles between the lead and rhythm circuits, and the two roller knobs are the dedicated volume and tone for the neck-pickup-only jazz preset.</figcaption></figure>
+<figure>
+
+![Upper bout rhythm circuit slider switch and volume and tone roller knobs on a 1965 Fender Jaguar](../../assets/blog/vintage-fender-jaguar-guide/1965-fender-jaguar-rhythm-circuit-scaled.jpg)
+
+<figcaption>The upper bout rhythm circuit on a 1965 Jaguar: the slider switch toggles between the lead and rhythm circuits, and the two roller knobs are the dedicated volume and tone for the neck-pickup-only jazz preset.</figcaption>
+
+</figure>
 
 Pull the lead circuit control plate (four screws) and inspect the pot codes, the cap, and the solder joints. Original Fender solder joints from the 60s have a duller, almost frosted appearance compared to modern leaded solder, and the joints themselves should look unmolested. A rewire or pot replacement is not necessarily a value killer on a player grade guitar but on a collector grade Jaguar, originality of the harness matters. Look for the cloth-covered push-back wire on 1962 through 1968 to 1969 examples (typically yellow and black insulation), with plastic insulated wire appearing on builds from the end of the 1960s onward.
 
@@ -321,7 +351,13 @@ Remove the neck (four bolts on the neck plate) and you will find the neck date o
 
 The neck date is the most defensible "manufactured date" for the guitar because it represents the actual carving and finishing of the neck. The body date (stamped in the neck pocket or under the pickguard) can be earlier or later because bodies sat in the warehouse before being matched to necks for assembly. The pot dates are downstream of both, since the potentiometer was made before the guitar was wired.
 
-<figure><img alt="Inked neck heel date stamp on a 1965 Fender Jaguar neck" width="2560" height="1707" src="/images/blog/vintage-fender-jaguar-guide/1965-fender-jaguar-neck-heel-scaled.jpg" loading="lazy" decoding="async"><figcaption>Inked neck heel stamp on a 1965 Jaguar. Reading left to right: model code (1 for Jaguar), month and year of neck shaping, and the nut width letter at the end.</figcaption></figure>
+<figure>
+
+![Inked neck heel date stamp on a 1965 Fender Jaguar neck](../../assets/blog/vintage-fender-jaguar-guide/1965-fender-jaguar-neck-heel-scaled.jpg)
+
+<figcaption>Inked neck heel stamp on a 1965 Jaguar. Reading left to right: model code (1 for Jaguar), month and year of neck shaping, and the nut width letter at the end.</figcaption>
+
+</figure>
 
 ### Triangulating the Date
 
@@ -351,7 +387,13 @@ This is the single most common reason we recommend a professional appraisal befo
 
 One specific transition inside the serial number story matters more than most. In **late 1965**, Fender switched from the small "L-prefix" stamped neck plate to the larger "F-stamped" plate that became the standard for the rest of the CBS era. The L plate is a smaller piece of metal with the L-series number stamped in a smaller typeface, while the F plate is physically larger, with a bold stylized "F" stamped above the number.
 
-<figure><img alt="L-prefix serial number stamped neck plate on a 1965 Fender Jaguar" width="2560" height="1707" src="/images/blog/vintage-fender-jaguar-guide/1965-fender-jaguar-L-series-serial-number-scaled.jpg" loading="lazy" decoding="async"><figcaption>L-series neck plate on a 1965 Jaguar. The L plate was the standard from 1963 through late 1965, when the larger F-stamped plate took over for the rest of the CBS era.</figcaption></figure>
+<figure>
+
+![L-prefix serial number stamped neck plate on a 1965 Fender Jaguar](../../assets/blog/vintage-fender-jaguar-guide/1965-fender-jaguar-L-series-serial-number-scaled.jpg)
+
+<figcaption>L-series neck plate on a 1965 Jaguar. The L plate was the standard from 1963 through late 1965, when the larger F-stamped plate took over for the rest of the CBS era.</figcaption>
+
+</figure>
 
 The transition happened mid-to-late 1965, with the actual changeover floating across the production line over weeks. The result is a small window where you can find genuine factory anomalies that are real collector finds:
 
@@ -365,7 +407,13 @@ An L-prefix plate on a 1967, 1968, or later Jaguar is a major red flag. The L-se
 
 The Jaguar was offered in Fender's full custom color palette through the 60s, and original custom color Jaguars are among the most valuable instruments in the lineup. Pre-CBS custom colors were sprayed in DuPont Duco lacquer, applied over the Fullerplast sealer layer that gives bare alder its yellowish appearance in chips and cavities. The most desirable colors include Fiesta Red, Sonic Blue, Lake Placid Blue, Olympic White, Daphne Blue, Burgundy Mist, Surf Green, Foam Green, and Shoreline Gold (later replaced by Firemist Gold in 1965 for the CBS-era catalog).
 
-<figure><img alt="1966 Fender Jaguar finished in Lake Placid Blue custom color with matching painted headstock" width="1707" height="2560" src="/images/blog/vintage-fender-jaguar-guide/1966-fender-jaguar-lake-placid-blue-with-matching-headstock-scaled.jpg" loading="lazy" decoding="async"><figcaption>1966 Jaguar in Lake Placid Blue custom color with matching painted headstock. The matching headstock option was available on many factory custom colors and adds collector value when authenticated as original.</figcaption></figure>
+<figure>
+
+![1966 Fender Jaguar finished in Lake Placid Blue custom color with matching painted headstock](../../assets/blog/vintage-fender-jaguar-guide/1966-fender-jaguar-lake-placid-blue-with-matching-headstock-scaled.jpg)
+
+<figcaption>1966 Jaguar in Lake Placid Blue custom color with matching painted headstock. The matching headstock option was available on many factory custom colors and adds collector value when authenticated as original.</figcaption>
+
+</figure>
 
 ### Undercoats and the Fullerplast Misconception
 
