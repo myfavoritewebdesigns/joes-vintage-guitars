@@ -270,7 +270,10 @@ function titleCaseViolations(text) {
 // reviews page renders 2,191 real buyer reviews: emoji, dashes, and non-Title-Case
 // item names the customers wrote, none of which is our copy. Allowlisting 2,191
 // phrases is impractical, so the whole route is skipped.
-const SKIP_ROUTES = new Set(["/reverb-reviews/"]);
+// fender-serial-tool-v2 is the internal noindex test page whose tables and
+// results carry the ORIGINAL serial tool's strings verbatim (parity contract);
+// ported widget internals are exempt per the copy policy.
+const SKIP_ROUTES = new Set(["/reverb-reviews/", "/fender-serial-tool-v2/"]);
 
 function checkPage(file) {
   const route = routeOf(file);

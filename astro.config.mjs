@@ -12,6 +12,7 @@ const SITEMAP_EXCLUDE = [
   '/jvg-shipping-process/',
   '/jvg-shipping-process-2/',
   '/404/',
+  '/fender-serial-tool-v2/', // internal test page for the v2 serial tool (noIndex)
 ];
 
 // https://astro.build/config

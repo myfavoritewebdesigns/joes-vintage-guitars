@@ -1,0 +1,4203 @@
+[
+ {
+  "serial": "100",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "100",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "100",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "100",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "100",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1952 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "101",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "101",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "101",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "101",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "101",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1952 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "350",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "350",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "350",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "350",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "350",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1952 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "351",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "351",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "351",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "351",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "351",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1952 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "500",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "500",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "500",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "500",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "500",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1952 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "501",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "501",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "501",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "501",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "501",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1952 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "600",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "600",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "600",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "600",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "600",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1952 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "601",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "601",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "601",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "601",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "601",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "699",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "699",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "699",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "699",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "699",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "700",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "700",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "700",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "700",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "700",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "701",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "701",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "701",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "701",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "701",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "899",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "899",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "899",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "899",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "899",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "900",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "900",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "900",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "900",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "900",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "901",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "901",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "901",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "901",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "901",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "999",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "999",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "999",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "999",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "999",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1000",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "1000",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1000",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "1000",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1000",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1299",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "1299",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1299",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "1299",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1299",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1300",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "1300",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1300",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "1300",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1300",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1301",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "1301",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1301",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "1301",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1954 (Bridge plate, Telecaster name established ~mid-1951)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1301",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1999",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "1999",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1999",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "1999",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1954 (Bridge plate, Telecaster name established ~mid-1951)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1999",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2000",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "2000",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2000",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "2000",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1954 (Bridge plate, Telecaster name established ~mid-1951)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2000",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2001",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "2001",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2001",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "2001",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1954 (Bridge plate, Telecaster name established ~mid-1951)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2001",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "2500",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "2500",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2500",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "2500",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1954 (Bridge plate, Telecaster name established ~mid-1951)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2500",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "2501",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "2501",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2501",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "2501",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1954 (Bridge plate, Telecaster name established ~mid-1951)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2501",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "2999",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "2999",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2999",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "2999",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1954 (Bridge plate, Telecaster name established ~mid-1951)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "2999",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "3000",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "3000",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "3000",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "3000",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1951–1954 (Bridge plate, Telecaster name established ~mid-1951)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "3000",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "3001",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "3001",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "3001",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "3001",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1952–1954 (Bridge plate, Transition to neck plate approaching)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "3001",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "4500",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "4500",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "4500",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "4500",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1952–1954 (Bridge plate, Transition to neck plate approaching)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "4500",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "4501",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "4501",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "4501",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "4501",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1952–1954 (Bridge plate, Transition to neck plate approaching)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "4501",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "5999",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "5999",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "5999",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "5999",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1952–1954 (Bridge plate, Transition to neck plate approaching)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "5999",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "6000",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "6000",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954–1955 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "6000",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "6000",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "6000",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "6001",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "6001",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954–1955 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "6001",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "6001",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "6001",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "7999",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "7999",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954–1955 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "7999",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "7999",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "7999",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "8000",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "8000",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954–1955 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "8000",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "8000",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "8000",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0100",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "0100",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0100",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0100",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0100",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1952–1953 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0301",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "0301",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0301",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0301",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0301",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1952–1953 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0455",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "0455",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0455",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0455",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0455",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1952–1953 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0600",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "0600",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0600",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0600",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0600",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1952–1953 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0601",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "0601",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0601",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0601",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0601",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1952–1953 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0899",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "0899",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0899",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0899",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0899",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1952–1953 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0900",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "0900",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0900",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0900",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0900",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1952–1953 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0901",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "0901",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0901",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0901",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0901",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0999",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "location"
+  }
+ },
+ {
+  "serial": "0999",
+  "answers": [
+   "neck"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0999",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0999",
+  "answers": [
+   "bridge",
+   "guitar"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1950–1952 (Bridge plate, Broadcaster/No-Caster/Early Telecaster)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "0999",
+  "answers": [
+   "bridge",
+   "bass"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1954 (Bridge plate, Precision Bass)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "1",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "50",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "99",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "8001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1955 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "8999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1955 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "9000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1955–1956 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "9999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1955–1956 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "10000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1955–1956 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "10001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1956 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "15999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1956 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "16000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1956–1957 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "16001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1957 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "24999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1957 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "25000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1957–1958 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "25001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1958 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "29999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1958 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "30000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1958–1959 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "30001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1959 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "39999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1959 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "40000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1959–1960 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "40001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1960 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "54999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1960 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "55000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1960–1961 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "55001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1960–1961 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "57999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1960–1961 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "58000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1960–1961 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "58001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1961 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "71999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1961 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "72000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1961–1962 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "72001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1962 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "92999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1962 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "93000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1962–1963 (Neck plate serial, overlapping production run; cross-date with pot codes)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "93001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1963 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "99998",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1963 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "99999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1963 (Neck plate serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "100000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1965 (F-plate serial (CBS Transition))",
+   "warn": false
+  }
+ },
+ {
+  "serial": "100001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1965 (F-plate serial (CBS Transition))",
+   "warn": false
+  }
+ },
+ {
+  "serial": "109999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1965 (F-plate serial (CBS Transition))",
+   "warn": false
+  }
+ },
+ {
+  "serial": "110000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1965 (F-plate serial (CBS Transition))",
+   "warn": false
+  }
+ },
+ {
+  "serial": "110001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1966 (F-plate serial (CBS Era))",
+   "warn": false
+  }
+ },
+ {
+  "serial": "149999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1966 (F-plate serial (CBS Era))",
+   "warn": false
+  }
+ },
+ {
+  "serial": "150000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1966 (F-plate serial (CBS Era))",
+   "warn": false
+  }
+ },
+ {
+  "serial": "199999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1966 (F-plate serial (CBS Era))",
+   "warn": false
+  }
+ },
+ {
+  "serial": "200000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1967 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "209999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1967 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "210000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1967 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "210001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1968 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "249999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1968 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "250000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1968 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "250001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1969 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "280000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1969 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "280001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1970 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "299999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1970 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "300000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1970 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "300001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1971 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "330000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1971 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "330001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1972 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "369999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1972 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "370000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1972 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "370001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1973 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "499999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1973 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "500000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1973 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "500001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1973 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "510000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1973 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "519999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1973 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "520000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1973 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "520001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1974 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "579999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1974 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "580000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1974 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "580001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1975 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "689999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1975 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "690000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1975 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "690001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1976 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "749999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1976 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "750000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1976 (F-plate serial, CBS Era)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "750001",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "999999",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "7500001",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0001",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0050",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "0099",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "R1",
+  "answers": [
+   "neckplate"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "Unknown. R-prefix Custom Shop dating is unreliable.",
+   "warn": true
+  }
+ },
+ {
+  "serial": "R1",
+  "answers": [
+   "neckheel"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "2004–2005 (Crafted in Japan, back of neck heel serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "R1",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "rneck"
+  }
+ },
+ {
+  "serial": "R123456",
+  "answers": [
+   "neckplate"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "Unknown. R-prefix Custom Shop dating is unreliable.",
+   "warn": true
+  }
+ },
+ {
+  "serial": "R123456",
+  "answers": [
+   "neckheel"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "2004–2005 (Crafted in Japan, back of neck heel serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "R12X",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "CN0123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1990 (Custom Shop, CN prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CN1123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1991 (Custom Shop, CN prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CN2123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1992 (Custom Shop, CN prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CN3123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1993 (Custom Shop, CN prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CN4123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1994 (Custom Shop, CN prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CN5123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1995 (Custom Shop, CN prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CN6123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1996 (Custom Shop, CN prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CN7123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1997 (Custom Shop, CN prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CN8123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1998 (Custom Shop, CN prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CN9123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1999 (Custom Shop, CN prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CNX12",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "cn5x",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1995 (Custom Shop, CN prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CZ0123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2000 (Custom Shop, CZ prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CZ51",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2005 (Custom Shop, CZ prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CZ99999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2009 (Custom Shop, CZ prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "cz3456",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2003 (Custom Shop, CZ prefix)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MX10",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2010 (Made in Mexico)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MX21123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2021 (Made in Mexico)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MX30",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2030 (Made in Mexico)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MX31",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "Made in Mexico (2010s–2020s). Could not determine exact year.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MX09",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "Made in Mexico (2010s–2020s). Could not determine exact year.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MX99",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "Made in Mexico (2010s–2020s). Could not determine exact year.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MX1",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "Made in Mexico (2010s–2020s). Could not determine exact year.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MX1A23",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "Made in Mexico (2010s–2020s). Could not determine exact year.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "mx15234",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2015 (Made in Mexico)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MN0123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1990 (Made in Mexico)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MN11",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1991 (Made in Mexico)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MN2",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1992 (Made in Mexico)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MN9999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1999 (Made in Mexico)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MZ0",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2000 (Made in Mexico)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MZ51234",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2005 (Made in Mexico)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MZ9",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2009 (Made in Mexico)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "JD10123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2010 (Japan Dyna, back of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "JD24",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2024 (Japan Dyna, back of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "JD30",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2030 (Japan Dyna, back of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "JD31",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2010s (Japan Dyna, back of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "JD09",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2010s (Japan Dyna, back of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "JD9",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2010s (Japan Dyna, back of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "jd15123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2015 (Japan Dyna, back of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "T1234",
+  "answers": [
+   "mij"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1994–1995 (Made in Japan, back of neck heel serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "T1234",
+  "answers": [
+   "cij"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "2007–2010 (Crafted in Japan, back of neck heel serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "T1234",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "tuneck"
+  }
+ },
+ {
+  "serial": "U987",
+  "answers": [
+   "mij"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1995–1996 (Made in Japan, back of neck heel serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "U987",
+  "answers": [
+   "cij"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "2010–2011 (Crafted in Japan, back of neck heel serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "TA12",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "U",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "N4123",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1994 (Made in USA, back of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "N4123",
+  "answers": [
+   "neckheel"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1995–1996 (Made in Japan, back of neck heel serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "N4123",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "nloc"
+  }
+ },
+ {
+  "serial": "N0",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1990 (Made in USA, back of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "N9999",
+  "answers": [
+   "neckheel"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1995–1996 (Made in Japan, back of neck heel serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "S8123",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1978 (Made in USA, front of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "S8123",
+  "answers": [
+   "neckheel",
+   "mij"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1994–1995 (Made in Japan, back of neck heel serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "S8123",
+  "answers": [
+   "neckheel",
+   "cij"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "2006–2008 (Crafted in Japan, back of neck heel serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "S8123",
+  "answers": [
+   "neckheel"
+  ],
+  "outcome": {
+   "kind": "ask",
+   "step": "sjapan"
+  }
+ },
+ {
+  "serial": "S0",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1970 (Made in USA, front of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "s7123",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1977 (Made in USA, front of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "  S8123  ",
+  "answers": [
+   "headstock"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1978 (Made in USA, front of headstock serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "A12345",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "Mid-1980s (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "A123456",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1997–1998 (Crafted in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "A1234",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "Could not determine year. A-prefix MIJ serials have 5 digits after the A; CIJ serials have 6. Please make sure you entered the correct number of digits.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "A1234567",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "Could not determine year. A-prefix MIJ serials have 5 digits after the A; CIJ serials have 6. Please make sure you entered the correct number of digits.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "A12B45",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "B123456",
+  "answers": [
+   "mij"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1985–1986 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "B123456",
+  "answers": [
+   "cij"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1997–1999 (Crafted in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "B123456",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "bjapan"
+  }
+ },
+ {
+  "serial": "B12",
+  "answers": [
+   "mij"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1985–1986 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "L1",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "Could not determine year. L-series neck plate serials have 5 digits after the L; Japanese MIJ serials have 6. Please recount your digits and try again.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "L12345",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1963 (L-series neck plate serial). Note: make sure you entered the correct number of digits. L-series neck plate serials have 5 digits after the L.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "L00001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1963 (L-series neck plate serial). Note: make sure you entered the correct number of digits. L-series neck plate serials have 5 digits after the L.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "L20000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1963 (L-series neck plate serial). Note: make sure you entered the correct number of digits. L-series neck plate serials have 5 digits after the L.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "L20001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1964 (L-series neck plate serial). Note: make sure you entered the correct number of digits. L-series neck plate serials have 5 digits after the L.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "L55000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1964 (L-series neck plate serial). Note: make sure you entered the correct number of digits. L-series neck plate serials have 5 digits after the L.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "L55001",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1965 (L-series neck plate serial). Note: make sure you entered the correct number of digits. L-series neck plate serials have 5 digits after the L.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "L99999",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1965 (L-series neck plate serial). Note: make sure you entered the correct number of digits. L-series neck plate serials have 5 digits after the L.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "L00000",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "L123456",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1991–1992 (Made in Japan, back of neck heel serial). Note: make sure you entered the correct number of digits. Japanese MIJ L-serials have 6 digits after the L.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "L1234",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "Could not determine year. L-series neck plate serials have 5 digits after the L; Japanese MIJ serials have 6. Please recount your digits and try again.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "l67890",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1965 (L-series neck plate serial). Note: make sure you entered the correct number of digits. L-series neck plate serials have 5 digits after the L.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "E0123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1980",
+   "warn": false
+  }
+ },
+ {
+  "serial": "E51234",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1985",
+   "warn": false
+  }
+ },
+ {
+  "serial": "E9",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1989",
+   "warn": false
+  }
+ },
+ {
+  "serial": "e81234",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1988",
+   "warn": false
+  }
+ },
+ {
+  "serial": "E",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "Z01",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2000",
+   "warn": false
+  }
+ },
+ {
+  "serial": "Z51234",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2005",
+   "warn": false
+  }
+ },
+ {
+  "serial": "Z9",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2009",
+   "warn": false
+  }
+ },
+ {
+  "serial": "US10123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2010",
+   "warn": false
+  }
+ },
+ {
+  "serial": "US18",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2018",
+   "warn": false
+  }
+ },
+ {
+  "serial": "US26",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2026",
+   "warn": false
+  }
+ },
+ {
+  "serial": "US27",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "US09",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "us22345",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2022",
+   "warn": false
+  }
+ },
+ {
+  "serial": "US1",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "76",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1976",
+   "warn": false
+  }
+ },
+ {
+  "serial": "761234",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1976",
+   "warn": false
+  }
+ },
+ {
+  "serial": "7612345",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1976",
+   "warn": false
+  }
+ },
+ {
+  "serial": "76000",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1976",
+   "warn": false
+  }
+ },
+ {
+  "serial": "760",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1976",
+   "warn": false
+  }
+ },
+ {
+  "serial": "7600",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1976",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CA123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1981–1983 (Gold Series, see serial charts)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CB99",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1981–1983 (P-Bass Special, see serial charts)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "CE1",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1981–1983 (Black & Gold Tele, see serial charts)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "JV123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1982–1984 (Made in Japan, see serial charts)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "SQ456",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1983–1984 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "F123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1986–1987 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "G1",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1987–1988 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "H2",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1988–1989 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "I3",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1989–1990 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "J4",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1989–1990 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "K5",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1990–1991 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "M6",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1992–1993 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "O7",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1997 (Crafted in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "P8",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1999 (Crafted in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "Q9",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2002 (Crafted in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "f123",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1986–1987 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "q12",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "2002 (Crafted in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "V123",
+  "answers": [
+   "neckplate"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "Vintage Reissue (1982 to present), V-prefix neck plate serial. Serial alone cannot date V-prefix guitars; cross-date with neck heel stamp and pot codes.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "V123",
+  "answers": [
+   "neckheel"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "1996–1997 (Made in Japan, back of neck heel serial)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "V123",
+  "answers": [],
+  "outcome": {
+   "kind": "ask",
+   "step": "vneck"
+  }
+ },
+ {
+  "serial": "V123456",
+  "answers": [
+   "neckplate"
+  ],
+  "outcome": {
+   "kind": "result",
+   "year": "Vintage Reissue (1982 to present), V-prefix neck plate serial. Serial alone cannot date V-prefix guitars; cross-date with neck heel stamp and pot codes.",
+   "warn": false
+  }
+ },
+ {
+  "serial": "V12X",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "HELLO",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1988–1989 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "XYZ 123",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "12AB34",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "US",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "MX",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1992–1993 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MZ",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1992–1993 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "MN",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1992–1993 (Made in Japan)",
+   "warn": false
+  }
+ },
+ {
+  "serial": "T",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "B",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "A",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "L",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "N",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "S",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "R",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "V",
+  "answers": [],
+  "outcome": {
+   "kind": "fallback"
+  }
+ },
+ {
+  "serial": "E5X",
+  "answers": [],
+  "outcome": {
+   "kind": "result",
+   "year": "1985",
+   "warn": false
+  }
+ }
+]
