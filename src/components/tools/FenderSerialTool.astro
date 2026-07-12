@@ -4,14 +4,25 @@
  *
  * Data-first rebuild of the ported WP widget: the dating logic lives in
  * src/data/fender-serials.ts (parity-proven against the original tool by
- * scripts/verify-fsn-parity.mjs), this component renders the interactive
- * decoder AND the full crawlable reference tables from that same data, and a
- * small bundled script wires the interactivity. Without JavaScript the form
- * jumps to the reference tables, which contain every range the decoder knows.
+ * scripts/verify-fsn-parity.mjs) and a small bundled script wires the
+ * interactivity. The decoder ships ALONE (Option A: it can sit on the live
+ * guide page next to its existing hand-written tables); the same dataset's
+ * crawlable tables live in <FenderSerialTables /> for a later generated pass.
  */
 import { Image } from "astro:assets";
-import { STEPS, REFERENCE_SECTIONS } from "../../data/fender-serials";
+import { STEPS } from "../../data/fender-serials";
 import { resolveImage } from "../../lib/images";
+
+interface Props {
+  /**
+   * Where the no-JS form submit and the noscript note send people. Defaults to
+   * the live guide page, which publishes the full serial tables. When the tool
+   * sits on a page that renders <FenderSerialTables /> itself, pass its anchor
+   * ("#fsn2-tables") instead.
+   */
+  tablesHref?: string;
+}
+const { tablesHref = "/fender-guitars-serial-number-guide/" } = Astro.props;
 
 const stepList = Object.values(STEPS);
 const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split("/").pop()!);
@@ -28,7 +39,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     <span class="fsn2-badge">Last reviewed by Joe, May 2026</span>
   </header>
 
-  <form class="fsn2-form" action="#fsn2-tables" method="get" data-fsn2-form>
+  <form class="fsn2-form" action={tablesHref} method="get" data-fsn2-form>
     <div class="fsn2-input-wrap">
       <label for="fsn2-input">Enter your serial number</label>
       <input
@@ -50,7 +61,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
   <noscript>
     <p class="fsn2-noscript">
       The interactive decoder needs JavaScript. No problem: every serial range it knows is
-      published in the <a href="#fsn2-tables">reference tables below</a>.
+      published in <a href={tablesHref}>the serial number tables</a>.
     </p>
   </noscript>
 
@@ -144,50 +155,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
   </div>
 </section>
 
-<section class="fsn2-tables" id="fsn2-tables" aria-labelledby="fsn2-tables-h">
-  <h2 id="fsn2-tables-h">Every Serial Range the Tool Knows</h2>
-  <p class="fsn2-tables-lede">
-    The decoder above answers from these tables. They are published in full so you can read the
-    ranges directly, link to any era, and check the tool's work.
-  </p>
-  <nav class="fsn2-tables-toc" aria-label="Serial table sections">
-    <ul>
-      {REFERENCE_SECTIONS.map((s) => (
-        <li><a href={`#${s.id}`}>{s.title}</a></li>
-      ))}
-    </ul>
-  </nav>
 
-  {
-    REFERENCE_SECTIONS.map((section) => (
-      <div class="fsn2-tablesec">
-        <div class="fsn2-anchor" id={section.id}></div>
-        <h3>{section.title}</h3>
-        <p>{section.intro}</p>
-        <div class="fsn2-tablewrap">
-          <table>
-            <thead>
-              <tr>
-                <th scope="col">Serial</th>
-                <th scope="col">Years</th>
-                <th scope="col">Notes</th>
-              </tr>
-            </thead>
-            <tbody>
-              {section.rows.map((row) => (
-                <tr>
-                  <td>{row.serial}</td>
-                  <td>{row.years}</td>
-                  <td>{row.notes}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
-    ))
-  }
-</section>
 
 <script>
   import { decodeSerial, answerStep, type Outcome, type StepId } from "../../data/fender-serials";
@@ -510,61 +478,6 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     font-size: 0.85rem;
   }
   .fsn2 a { color: var(--color-brand-rust); }
-
-  /* ── Reference tables ─────────────────────────────────────────────────── */
-  .fsn2-tables { max-width: 860px; margin: 48px auto 0; padding: 0 8px; }
-  .fsn2-tables h2 {
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: clamp(1.4rem, 3vw, 1.9rem);
-    color: var(--color-brand-brown);
-    margin: 0 0 8px;
-  }
-  .fsn2-tables-lede { margin: 0 0 16px; max-width: 68ch; }
-  .fsn2-tables-toc ul {
-    list-style: none;
-    margin: 0 0 8px;
-    padding: 14px 16px;
-    background: #f5f0e8;
-    border: 1px solid #d9cdb8;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 4px 18px;
-    font-size: 0.9rem;
-  }
-  .fsn2-tables-toc a { color: var(--color-brand-rust); }
-  .fsn2-anchor { position: relative; top: -110px; }
-  .fsn2-tablesec h3 {
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: 1.2rem;
-    color: var(--color-brand-brown);
-    margin: 30px 0 6px;
-  }
-  .fsn2-tablesec > p { margin: 0 0 12px; max-width: 72ch; font-size: 0.95rem; }
-  .fsn2-tablewrap { overflow-x: auto; }
-  .fsn2-tablesec table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9rem;
-    background: #fff;
-    border: 1px solid #d9cdb8;
-  }
-  .fsn2-tablesec th, .fsn2-tablesec td {
-    border: 1px solid #e2d7c2;
-    padding: 8px 12px;
-    text-align: left;
-    vertical-align: top;
-  }
-  .fsn2-tablesec th {
-    background: var(--color-brand-brown);
-    color: var(--color-brand-cream);
-    font-family: var(--font-display);
-    font-weight: 600;
-    letter-spacing: 0.04em;
-  }
-  .fsn2-tablesec tbody tr:nth-child(even) { background: #faf6ee; }
 
   @media (max-width: 600px) {
     .fsn2-form, .fsn2-step, .fsn2-header { padding-left: 18px; padding-right: 18px; }

@@ -1,0 +1,114 @@
+---
+/**
+ * The v2 serial tool's knowledge rendered as crawlable HTML tables, generated
+ * from the same dataset the decoder answers from (src/data/fender-serials.ts)
+ * so the two can never drift. Split from FenderSerialTool.astro so the tool
+ * can ship alone (Option A: swap the tool onto the live guide page, keep its
+ * existing hand-written tables) while this stays available for a later
+ * generated-tables pass (Option B).
+ */
+import { REFERENCE_SECTIONS } from "../../data/fender-serials";
+---
+
+<section class="fsn2-tables" id="fsn2-tables" aria-labelledby="fsn2-tables-h">
+  <h2 id="fsn2-tables-h">Every Serial Range the Tool Knows</h2>
+  <p class="fsn2-tables-lede">
+    The decoder above answers from these tables. They are published in full so you can read the
+    ranges directly, link to any era, and check the tool's work.
+  </p>
+  <nav class="fsn2-tables-toc" aria-label="Serial table sections">
+    <ul>
+      {REFERENCE_SECTIONS.map((s) => (
+        <li><a href={`#${s.id}`}>{s.title}</a></li>
+      ))}
+    </ul>
+  </nav>
+
+  {
+    REFERENCE_SECTIONS.map((section) => (
+      <div class="fsn2-tablesec">
+        <div class="fsn2-anchor" id={section.id}></div>
+        <h3>{section.title}</h3>
+        <p>{section.intro}</p>
+        <div class="fsn2-tablewrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Serial</th>
+                <th scope="col">Years</th>
+                <th scope="col">Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              {section.rows.map((row) => (
+                <tr>
+                  <td>{row.serial}</td>
+                  <td>{row.years}</td>
+                  <td>{row.notes}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    ))
+  }
+</section>
+
+<style>
+  /* ── Reference tables ─────────────────────────────────────────────────── */
+  .fsn2-tables { max-width: 860px; margin: 48px auto 0; padding: 0 8px; }
+  .fsn2-tables h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    color: var(--color-brand-brown);
+    margin: 0 0 8px;
+  }
+  .fsn2-tables-lede { margin: 0 0 16px; max-width: 68ch; }
+  .fsn2-tables-toc ul {
+    list-style: none;
+    margin: 0 0 8px;
+    padding: 14px 16px;
+    background: #f5f0e8;
+    border: 1px solid #d9cdb8;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 4px 18px;
+    font-size: 0.9rem;
+  }
+  .fsn2-tables-toc a { color: var(--color-brand-rust); }
+  .fsn2-anchor { position: relative; top: -110px; }
+  .fsn2-tablesec h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-brand-brown);
+    margin: 30px 0 6px;
+  }
+  .fsn2-tablesec > p { margin: 0 0 12px; max-width: 72ch; font-size: 0.95rem; }
+  .fsn2-tablewrap { overflow-x: auto; }
+  .fsn2-tablesec table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    background: #fff;
+    border: 1px solid #d9cdb8;
+  }
+  .fsn2-tablesec th, .fsn2-tablesec td {
+    border: 1px solid #e2d7c2;
+    padding: 8px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  .fsn2-tablesec th {
+    background: var(--color-brand-brown);
+    color: var(--color-brand-cream);
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .fsn2-tablesec tbody tr:nth-child(even) { background: #faf6ee; }
+
+</style>
