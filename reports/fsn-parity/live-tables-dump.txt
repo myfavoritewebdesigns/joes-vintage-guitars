@@ -1,0 +1,105 @@
+### [0] Fender Broadcaster, Esquire & Telecaster
+  Serial Range || Year(s) || Notes
+  0001 to 1300 || 1950 to 1952 || Broadcaster / No-Caster / Early Tele
+  1300 to 3000 || 1951 to 1954 || Telecaster name established ~mid-1951
+  3000 to 5000s || 1952 to 1954 || Transition to neck plate approaching
+
+### [1] Fender Precision Bass
+  Serial Range || Year(s)
+  100 to 600 || 1951 to 1952
+  0001 to 0900 || 1952 to 1953
+  0900 to 2000 || 1954
+
+### [2] 4- and 5-Digit Neck Plate Serials (1954 to 1963)
+  Serial Range || Year(s) || Era
+  0001 to 8000 || 1954 || Pre-CBS
+  6000 to 10000 || 1955 || Pre-CBS
+  9000 to 16000 || 1956 || Pre-CBS
+  16000 to 25000 || 1957 || Pre-CBS
+  25000 to 30000 || 1958 || Pre-CBS
+  30000 to 40000 || 1959 || Pre-CBS
+  40000 to 58000 || 1960 || Pre-CBS
+  55000 to 72000 || 1961 || Pre-CBS
+  72000 to 93000 || 1962 || Pre-CBS
+  93000 to 99999 || 1963 || Pre-CBS
+
+### [3] Fender L-Series Serial Numbers (1963 to 1965)
+  Serial Range || Year(s) || Era
+  L00001 to L20000 || 1963 || Pre-CBS
+  L20000 to L55000 || 1964 || Pre-CBS
+  L55000 to L99999 || 1965 || Transition
+
+### [4] Fender 6-Digit F-Plate Serial Numbers (1965 to 1976)
+  Serial Range || Year(s) || Era
+  100000 to 110000 || 1965 || Transition
+  110000 to 200000 || 1966 || CBS Era
+  180000 to 210000 || 1967 || CBS Era
+  210000 to 250000 || 1968 || CBS Era
+  250000 to 280000 || 1969 || CBS Era
+  280000 to 300000 || 1970 || CBS Era
+  300000 to 330000 || 1971 || CBS Era
+  330000 to 370000 || 1972 || CBS Era
+  370000 to 520000 || 1973 || CBS Era
+  500000 to 580000 || 1974 || CBS Era
+  580000 to 690000 || 1975 || CBS Era
+  690000 to 750000 || 1976 || CBS Era
+
+### [5] Fender Custom Shop Neck Plate Serials (CN, CZ & R Prefix)
+  Prefix || How to Decode || Notes
+  CN || Read the same as a standard N-prefix serial: C = Custom Shop, N = 1990s, first digit after CN = year || Custom Shop production from the 1990s
+  CZ || Read the same as a standard Z-prefix serial: C = Custom Shop, Z = 2000s, first digit after CZ = year || Custom Shop production from the 2000s
+  R || No reliable decode. See below || ⚠ Widely misunderstood: does NOT mean Relic or Reissue
+
+### [6] USA Front-of-Headstock (1976 to 1995)
+  Prefix || Decade || How to Decode || Example
+  76XXXXX || 1976 || Starts "76": overlap with early S-prefix || 76XXXXX = 1976
+  S + digit || 1970s || S = 70s; 1st digit = year || S8XXXXX = 1978
+  E + digit || 1980s || E = 80s; 1st digit = year || E4XXXXX = 1984
+  N + digit || 1990s || N = 90s; 1st digit = year || N2XXXXX = 1992
+
+### [7] USA Back-of-Headstock (1996 to Present)
+  Prefix || Digits || Era || How to Decode
+  N || 6 || 1990s || 1st digit after N = year. N2XXXXXX = 1992
+  Z || 6 || 2000s || 1st digit after Z = year. Z2XXXXXX = 2002
+  US || 8 || 2010s to 2020s || First 2 digits after US = year. US10XXXXXX = 2010
+  JD || 8 || 2010s Japan || JD = Japan Dyna; 1st 2 digits = year. JD11XXXXXX = 2011
+
+### [8] Mexican Fender Serials (MN, MZ, MX)
+  Prefix || Era || How to Decode
+  MN || 1990s || M = Mexico; N = 90s; 1st digit = year. MN0XXXXX = 1990
+  MZ || 2000s || M = Mexico; Z = 2000s; 1st digit = year. MZ0XXXXX = 2000
+  MX || 2010s to 2020s || M = Mexico; X = 2010s to 2020s; digits 1 to 2 after MX = year. MX12XXXXXX = 2012, MX23XXXXXX = 2023
+
+### [9] Japanese: Marked "Made in Japan"
+  Code || Digits || Year Range
+  JV || 5 digits || 1982 to 1984
+  SQ || 5 digits || 1983 to 1984
+  A || 5 digits || Mid-1980s
+  B || 6 digits || 1985 to 1986
+  F || 6 digits || 1986 to 1987
+  H || 6 digits || 1988 to 1989
+  I || 6 digits || 1989 to 1990
+  J || 6 digits || 1989 to 1990
+  K || 6 digits || 1990 to 1991
+  L || 6 digits || 1991 to 1992
+  M || 6 digits || 1992 to 1993
+  O || 6 digits || 1993 to 1994
+  P || 6 digits || 1993 to 1994
+  Q || 6 digits || 1993 to 1994
+  S || 6 digits || 1994 to 1995
+  T || 6 digits || 1994 to 1995
+  U || 6 digits || 1995 to 1996
+  V || 6 digits || 1996 to 1997
+  N || 6 digits || 1995 to 1996
+
+### [10] Japanese: Marked "Crafted in Japan"
+  Code || Digits || Year Range
+  A || 6 digits || 1997 to 1998
+  B || 6 digits || 1997 to 1999
+  O || 6 digits || 1997 to 2000
+  P || 6 digits || 1999 to 2002
+  Q || 6 digits || 2002 to 2004
+  R || 6 digits || 2004 to 2005
+  S || 6 digits || 2006 to 2008
+  T || 6 digits || 2007 to 2010
+  U || 6 digits || 2010 to 2011
