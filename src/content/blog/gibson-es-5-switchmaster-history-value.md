@@ -6,10 +6,10 @@ excerpt: "The Gibson ES-5 was the first production Spanish electric with three p
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
-heroImage: "/images/blog/gibson-es-5-switchmaster-history-value/1958-gibson-es-5-switchmaster-sunburst-front.jpg"
-heroImageAlt: "Front of a 1958 Gibson ES-5 Switchmaster in sunburst with three humbuckers, the four-way Switchmaster selector, and six gold knobs, lying in its original case. We buy vintage Gibson archtops nationwide at Joe's Vintage Guitars."
+heroImage: "/images/blog/gibson-es-5-switchmaster-history-value/1953-gibson-es-5-sunburst-front.jpg"
+heroImageAlt: "Front of a 1953 Gibson ES-5 in sunburst with three dog-ear P-90 pickups and its original finish, resting in its pink-lined case. We buy vintage Gibson archtops nationwide at Joe's Vintage Guitars."
 metaDescription: "The complete vintage Gibson ES-5 and ES-5 Switchmaster guide: three-P-90 versus PAF humbucker eras, the four-way switch, serial and FON dating, refinish and mod red flags, and what each version is worth."
-ogImage: "/images/blog/gibson-es-5-switchmaster-history-value/1958-gibson-es-5-switchmaster-sunburst-front.jpg"
+ogImage: "/images/blog/gibson-es-5-switchmaster-history-value/1953-gibson-es-5-sunburst-front.jpg"
 ---
 <nav class="es5-nav-sidebar" id="es5NavSidebar" aria-label="Article section navigation">
   <div class="es5-nav-header"><strong>ES-5 Guide</strong></div>
@@ -67,11 +67,11 @@ ogImage: "/images/blog/gibson-es-5-switchmaster-history-value/1958-gibson-es-5-s
 
 The Gibson ES-5 is one of the great overlooked archtops. It was the top of Gibson's electric line when it arrived in 1949, a full-size, single-cutaway jazz box dressed in the cosmetics of the acoustic L-5 and carrying something no production Spanish electric had offered before: three pickups. Gibson called it the instrument of a thousand voices, and the pitch was that with three pickups and a fistful of controls you could dial in any tone you wanted. A few years later Gibson fixed the one thing players complained about, added a four-way switch, and renamed it the ES-5 Switchmaster. Later still it traded its P-90s for three PAF humbuckers, which is the version collectors chase hardest today.
 
-At Joe's Vintage Guitars we buy and sell these guitars, and we are always glad to get one on the bench. This guide is the same walk-through we do in the shop: where the ES-5 came from, how it changed from the original three-P-90 guitar to the Switchmaster to the humbucker era, how we date one, how we tell an original from a modified one, and what each version is really worth. We are lucky enough to show you two of them below. One is an early 1953 ES-5 in sunburst, wearing its original finish, the original no-switch design. The other is a 1958 ES-5 Switchmaster with three humbuckers, and we will be straight with you about it from the start: that guitar has been refinished. We are showing a refinished guitar on purpose, so that next to the original-finish 1953 you can see for yourself what a refinish looks like and what it does to value. Between them, these two tell almost the whole story, the eras, the pickups, and the single biggest condition question of all.
+At Joe's Vintage Guitars we buy and sell these guitars, and we are always glad to get one on the bench. This guide is the same walk-through we do in the shop: where the ES-5 came from, how it changed from the original three-P-90 guitar to the Switchmaster to the humbucker era, how we date one, how we tell an original from a modified one, and what each version is really worth. We are lucky enough to show you real examples throughout, and one point matters enough to put right at the top. Of the guitars in this guide, only the 1958 Switchmaster has been refinished. Our 1953 ES-5, and the natural, or blonde, ES-5 you will also see, both wear their original finish. We show the refinished 1958 on purpose, so that next to the original-finish guitars you can see for yourself what a refinish looks like and what it does to value. The 1953 is the original no-switch design and the 1958 is the three-humbucker Switchmaster, and between them they tell almost the whole story: the eras, the pickups, and the single biggest condition question of all.
 
-![Front of a 1953 Gibson ES-5 in sunburst with three dog-ear P-90 pickups, resting in its original pink-lined case.](../../assets/blog/gibson-es-5-switchmaster-history-value/1953-gibson-es-5-sunburst-front.jpg)
+![Front of a 1958 Gibson ES-5 Switchmaster in sunburst with three humbuckers, the four-way selector, and six gold knobs, in its case.](../../assets/blog/gibson-es-5-switchmaster-history-value/1958-gibson-es-5-switchmaster-sunburst-front.jpg)
 
-Our 1953 ES-5 in sunburst. Three dog-ear P-90s, four knobs, and no pickup selector switch. This is the original design, the one that started the line, and it is where the whole story begins.
+Our 1958 ES-5 Switchmaster, the fully evolved model: three humbuckers, the four-way selector, and six gold knobs. This is also the one guitar in this guide that has been refinished, which is why we lean on it as our before-and-after case study on finish later on. It is a stunning instrument, and we will come back to it often.
 
 <h2 id="es5-history">The First Three-Pickup Gibson</h2>
 
