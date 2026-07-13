@@ -242,7 +242,7 @@ Small molded letters inside a ring underside. Mold cavity and inspection marks l
 
 ![Single stamped figure on the underside of a vintage Gibson pickup ring.](../../assets/blog/gibson-paf-patent-number-pickup-guide/stamped-figure-pickup-ring.jpg)
 
-A single stamped figure on a ring underside, reading as a 7 from this side. Individual cavity numbers vary ring to ring, and that variety is normal. What should not vary is the aging: the plastic, the stamps, and the screw holes should all look like they have spent the same sixty years together.
+A single stamped figure on a ring underside, reading as a 7 from this side. The aging is what to read: the plastic, the stamps, and the screw holes should all look like they have spent the same sixty years together.
 
 Beyond the markings, read the rings the way you read the covers. Butyrate shrinks and goes brittle with age, so original rings often show shrink cracks at the corners and around the screw holes, and their cream color deepens unevenly. Old butyrate also fluoresces differently under a blacklight than modern plastic, which is one of the quiet tools of the expert trade. Bright, uniform, flexible rings on a claimed 1959 guitar deserve a question. So do ring screws: originals age like every other screw on the guitar, and a ring full of bright screws has been off recently, which is not damning but belongs in the story the seller tells you.
 
