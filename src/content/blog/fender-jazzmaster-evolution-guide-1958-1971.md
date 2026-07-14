@@ -11,10 +11,22 @@ heroImageAlt: "A 1966 Fender Jazzmaster in custom Charcoal Frost finish."
 metaDescription: "The Fender Jazzmaster changed more times in its first 14 years than almost any other model in the Fender lineup. This guide documents every spec change year by year: gold guard to tortoiseshell, slab to veneer, clay dots to pearl to blocks, spaghetti to CBS black logo, Klusons to F-tuners, and a complete custom color reference with the correct pickguard pairing for every finish."
 ogImage: "/images/blog/fender-jazzmaster-evolution-guide-1958-1971/1960s-jazzmaster-charcoal-frost._-10-scaled.jpg"
 wpId: 20376
+toc:
+  - { href: "#intro", label: "Introduction & Context" }
+  - { href: "#body", label: "Body, Finish & Controls" }
+  - { href: "#neck", label: "Neck, Fingerboard & Inlays" }
+  - { href: "#pickguard", label: "Pickguards: The Full Story" }
+  - { href: "#customcolors", label: "Custom Colors & Pickguard Pairing" }
+  - { href: "#pickups", label: "Pickups & Electronics" }
+  - { href: "#bridge", label: "Bridge, Tremolo & Hardware" }
+  - { href: "#logos", label: "Logos, Tuners & Knobs" }
+  - { href: "#serial", label: "Serial Numbers & Dating" }
 ---
 Evolution & Reference Guide · Fender Offset · 1958 to 1971
 
 Every specification change documented year by year: gold guard to tort, slab to veneer, clay to pearl to blocks, spaghetti to transition logo, Klusons to F-tuners, and the custom color and pickguard reference
+
+<nav class="post-toc-inline" aria-label="Table of contents">
 
 -   [Introduction & Context](#intro)
 -   [Body, Finish & Controls](#body)
@@ -25,6 +37,8 @@ Every specification change documented year by year: gold guard to tort, slab to 
 -   [Bridge, Tremolo & Hardware](#bridge)
 -   [Logos, Tuners & Knobs](#logos)
 -   [Serial Numbers & Dating](#serial)
+
+</nav>
 
 <h2 id="intro">Introduction & Context</h2>
 
@@ -178,7 +192,31 @@ Guitars with the original gold anodized guard are known among collectors as **"g
 
 </figure>
 
+<figure>
+
+![1959 Fender Jazzmaster in 3-color sunburst with its original gold anodized aluminum pickguard, full front view of a gold guard era example](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-gold-guard-full-front-scaled.jpg)
+
+<figcaption><strong>A complete, original 1959 gold guard Jazzmaster.</strong> The full guitar shows the gold anodized aluminum guard against 3-color sunburst, with clay dot inlays, an amber switch tip, and a spaghetti logo, all correct for a first-year example. The gold guard shipped for only about six to nine months, from late 1958 through mid-1959, so an all-original example like this is the rarest and most collectible version of the model.</figcaption>
+
+</figure>
+
+<figure>
+
+![Underside of a 1959 Fender Jazzmaster gold anodized aluminum pickguard lifted from the body, showing the metal shielding plate and the rhythm circuit assembly with cloth wiring](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-gold-anodized-guard-underside-scaled.jpg)
+
+<figcaption><strong>The gold guard lifted away from the body.</strong> The gold anodized aluminum was functional, not just decorative: the full plate acts as electromagnetic shielding for the wide, hum-sensitive Jazzmaster pickups, working alongside the reverse-wound, reverse-polarity pickup pair. The rhythm-circuit roller wheels, slide switch, pots, and tone cap all mount to the guard, and the cloth-covered wiring and gold-sprayed control cavity are correct for the era.</figcaption>
+
+</figure>
+
 Because gold guard Jazzmasters command substantial premiums, replacement gold anodized guards (available from parts suppliers) are sometimes fitted to later guitars. Verify the guard with the neck heel date, pot codes, and body date. All must be consistent with 1958 to early 1959 production for a genuine gold guard example.
+
+<figure>
+
+![1959 Fender Jazzmaster neck heel with the pencil date 1-59 handwritten on the butt end, confirming January 1959 production of a gold guard example](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-neck-heel-pencil-date-1-59-scaled.jpg)
+
+<figcaption><strong>The neck date that confirms the guard: a penciled "1-59."</strong> The neck butt end on this guitar is penciled "1-59," January 1959, exactly the window when the gold guard was still in production. This is the cross-check that matters: a genuine gold guard example should carry a neck heel date, body cavity date, and pot codes that all line up with late 1958 to early 1959. The body-end truss rod nut, visible here, is correct for the entire 1958 to 1971 run.</figcaption>
+
+</figure>
 
 ### Era 2: Celluloid Tortoiseshell (Mid 1959 to Late 1964)
 
@@ -284,6 +322,14 @@ The color of the pickup base (bobbin bottom) changed during production and is a 
 
 -   1958 to ~1964**Black fiber flatwork** on the bobbin bottom. Consistent with pre-CBS and early transition production. Visible when the pickup is removed from the pickguard route.
 -   ~1964 onwardFender began switching to gray bobbin bottoms starting around 1964, though the transition was gradual and both black and gray bottoms can appear on instruments from this period.
+
+<figure>
+
+![Underside of a 1959 Fender Jazzmaster neck pickup showing black fiber flatwork with six pole pieces and its cloth lead wire, the pre-CBS bobbin bottom, next to the original height-adjustment foam](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-pickup-black-flatwork-bottom-scaled.jpg)
+
+<figcaption><strong>Black fiber flatwork on a 1959 pickup bottom.</strong> Removed and flipped over, the neck pickup shows the black fiber flatwork used from 1958 to roughly 1964, a useful pre-CBS dating indicator, along with cloth lead wire and the six pole pieces. The dark block beside it is the open-cell foam that spring-loads the pickup upward against the strings, the same foam that decomposes into "foam rot" on most surviving examples.</figcaption>
+
+</figure>
 
 ### Foam Under Pickups, The "Foam Rot" Problem
 
@@ -410,6 +456,22 @@ The Jazzmaster headstock shape remained essentially consistent from 1958 through
 ![Fender Jazzmaster brown Tolex hardshell case, correct pre-CBS era case used through early 1960s, brown exterior with period-correct interior](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/jazzmaster-brown-tolex-case-scaled.jpg)
 
 <figcaption><strong>Brown Tolex Jazzmaster case.</strong> The correct case for 1958 through approximately 1963 to 1964. Brown exterior Tolex with period-appropriate interior lining. Tweed cases also appear on the very earliest 1958 to 1959 examples before brown Tolex became standard.</figcaption>
+
+</figure>
+
+<figure>
+
+![1959 Fender Jazzmaster with gold anodized guard lying in its original tweed case with orange plush lining, a complete first-year gold guard example](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-in-original-tweed-case-scaled.jpg)
+
+<figcaption><strong>A 1959 gold guard Jazzmaster in its original tweed case.</strong> The earliest Jazzmasters shipped in a tweed case with orange plush lining before brown Tolex became standard around 1960. Finding a gold guard example still with its correct tweed case, like this one, adds real weight to the guitar's originality and provenance. The gold guard, clay dots, and amber switch tip are all visible and period correct.</figcaption>
+
+</figure>
+
+<figure>
+
+![Original tan tweed hardshell case exterior for a 1959 Fender Jazzmaster, the case covering correct for the earliest 1958 to 1959 examples](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-tweed-case-exterior-scaled.jpg)
+
+<figcaption><strong>The tweed case exterior.</strong> Tan tweed with leather ends and a leather handle, the correct case for the earliest 1958 to 1959 Jazzmasters. Brown Tolex replaced tweed around 1960, so an original tweed case is itself a dating clue and is increasingly hard to find intact.</figcaption>
 
 </figure>
 
