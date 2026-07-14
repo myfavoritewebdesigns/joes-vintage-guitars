@@ -13,24 +13,51 @@ ogImage: "/images/blog/gibson-es-345-history-value/1963-gibson-es-345-stereo-ful
 ---
 <style>.blog-prose figure p{margin:0}</style>
 
+<nav class="es345-nav-sidebar" id="es345NavSidebar" aria-label="Article section navigation">
+  <div class="es345-nav-header"><strong>ES-345 Guide</strong></div>
+  <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="es345-nav-link top">&uarr; Top of Page</a>
+  <div class="es345-nav-label">The Model</div>
+  <a href="#history" class="es345-nav-link"><span class="es345-nav-dot"></span>History &amp; the ES Line</a>
+  <a href="#varitone" class="es345-nav-link"><span class="es345-nav-dot"></span>Varitone &amp; Stereo</a>
+  <div class="es345-nav-label">Dating &amp; Serials</div>
+  <a href="#dating" class="es345-nav-link"><span class="es345-nav-dot"></span>Dating by Features</a>
+  <a href="#serial-numbers" class="es345-nav-link"><span class="es345-nav-dot"></span>Serial Numbers</a>
+  <div class="es345-nav-label">The Two Guitars</div>
+  <a href="#our-1963" class="es345-nav-link"><span class="es345-nav-dot"></span>The 1963 Sunburst</a>
+  <a href="#our-1966" class="es345-nav-link"><span class="es345-nav-dot"></span>The 1966 Cherry</a>
+  <a href="#specifications" class="es345-nav-link"><span class="es345-nav-dot"></span>Specifications</a>
+  <div class="es345-nav-label">Value &amp; Buying</div>
+  <a href="#authentication" class="es345-nav-link"><span class="es345-nav-dot"></span>Authentication</a>
+  <a href="#value" class="es345-nav-link"><span class="es345-nav-dot"></span>What It's Worth</a>
+  <a href="#players" class="es345-nav-link"><span class="es345-nav-dot"></span>Notable Players</a>
+</nav>
+
+<button class="es345-nav-btn" id="es345NavBtn" onclick="toggleEs345Nav()" aria-expanded="false" aria-controls="es345NavPanel" type="button">
+  <span class="es345-nav-icon">&#9776;</span> Jump To Section
+</button>
+
+<div class="es345-nav-panel" id="es345NavPanel" role="navigation" aria-label="Article section navigation">
+  <div class="es345-nav-header"><strong>ES-345 Guide</strong></div>
+  <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});closeEs345Nav();return false;" class="es345-nav-link top">&uarr; Top of Page</a>
+  <div class="es345-nav-label">The Model</div>
+  <a href="#history" onclick="closeEs345Nav()" class="es345-nav-link"><span class="es345-nav-dot"></span>History &amp; the ES Line</a>
+  <a href="#varitone" onclick="closeEs345Nav()" class="es345-nav-link"><span class="es345-nav-dot"></span>Varitone &amp; Stereo</a>
+  <div class="es345-nav-label">Dating &amp; Serials</div>
+  <a href="#dating" onclick="closeEs345Nav()" class="es345-nav-link"><span class="es345-nav-dot"></span>Dating by Features</a>
+  <a href="#serial-numbers" onclick="closeEs345Nav()" class="es345-nav-link"><span class="es345-nav-dot"></span>Serial Numbers</a>
+  <div class="es345-nav-label">The Two Guitars</div>
+  <a href="#our-1963" onclick="closeEs345Nav()" class="es345-nav-link"><span class="es345-nav-dot"></span>The 1963 Sunburst</a>
+  <a href="#our-1966" onclick="closeEs345Nav()" class="es345-nav-link"><span class="es345-nav-dot"></span>The 1966 Cherry</a>
+  <a href="#specifications" onclick="closeEs345Nav()" class="es345-nav-link"><span class="es345-nav-dot"></span>Specifications</a>
+  <div class="es345-nav-label">Value &amp; Buying</div>
+  <a href="#authentication" onclick="closeEs345Nav()" class="es345-nav-link"><span class="es345-nav-dot"></span>Authentication</a>
+  <a href="#value" onclick="closeEs345Nav()" class="es345-nav-link"><span class="es345-nav-dot"></span>What It's Worth</a>
+  <a href="#players" onclick="closeEs345Nav()" class="es345-nav-link"><span class="es345-nav-dot"></span>Notable Players</a>
+</div>
+
 The **Gibson ES-345** is the guitar that gets overlooked in its own family. It has the same body and the same golden-era build as the famous ES-335, it is dressed up nicer than the 335 with gold hardware and fancy inlays, and it carries a feature neither of its siblings started with: onboard stereo wiring and the six-position **Varitone** tone circuit. For some players that circuit is the whole appeal. For others it is the first thing they rip out. Either way, it is the reason a vintage 345 reads, prices, and authenticates differently from a 335, and it is the reason so many people get the two mixed up.
 
 I buy and sell these regularly, so this guide walks through the whole story: where the ES-345 came from, how to date one by its features, what the stereo and Varitone circuit actually does, and what a vintage example is worth today. To keep it concrete I am using two real guitars that came through the shop, a **1963 ES-345TD in sunburst** and a **1966 ES-345TDC in cherry**, so you can see the details on actual instruments instead of a spec sheet. If you want to date your own guitar as you read, keep our [Gibson Serial Number Decoder](/how-to-read-gibson-serial-numbers/) open in another tab, and if you want to know what yours is worth, reach out for a [free appraisal](/free-appraisal/).
-
-## Jump to a Section
-
-### Gibson ES-345 Guide Contents
-
--   [01. History:](#history) Where the ES-345 Fits in the Line
--   [02. The Varitone:](#varitone) Stereo Wiring and Six-Position Tone
--   [03. Dating:](#dating) Reading an ES-345 by Its Features
--   [04. Serial Numbers:](#serial-numbers) Labels, Stamps, and Why They Lie
--   [05. The 1963:](#our-1963) A Sunburst ES-345TD Up Close
--   [06. The 1966:](#our-1966) A Cherry ES-345TDC With Bigsby
--   [07. Specifications:](#specifications) The Full ES-345 Spec Chart
--   [08. Authentication:](#authentication) Checklist and Red Flags
--   [09. Value:](#value) What a Vintage ES-345 Is Worth
--   [10. Players:](#players) Who Actually Played One
 
 <h2 id="history">History: Where the ES-345 Fits in the Line</h2>
 
@@ -386,4 +413,77 @@ If you are ready to sell, my [Sell My Gibson Guitar](/sell-my-gibson-guitar/) pa
     }
   ]
 }
+</script>
+
+<style>
+  /* Floating in-page nav for this post (es345-nav), ported from the es5-nav pattern. */
+  .es345-nav-btn { display: none; position: fixed; left: 24px; bottom: 1.5rem; top: auto; right: auto; z-index: 9999; background: #b93c15; color: #fff; border: none; border-radius: 50px; padding: 13px 22px; font-family: var(--font-display, Oswald), sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; cursor: pointer; box-shadow: 0 4px 20px rgba(185,60,21,.45); align-items: center; gap: 8px; transition: background .2s, box-shadow .2s, transform .2s; }
+  .es345-nav-btn:hover { background: #9a3010; box-shadow: 0 6px 28px rgba(185,60,21,.55); transform: translateY(-2px); }
+  .es345-nav-btn.open { background: #7b1d1d; }
+  .es345-nav-icon { font-size: 15px; line-height: 1; transition: transform .3s; }
+  .es345-nav-btn.open .es345-nav-icon { transform: rotate(45deg); }
+  .es345-nav-sidebar { position: fixed; top: 170px; right: 24px; z-index: 25; width: 260px; max-height: calc(100vh - 200px); overflow-y: auto; background: #fff; border: 1px solid #e0dacc; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.12); display: none; flex-direction: column; transition: opacity .25s; }
+  .es345-nav-sidebar.es345-nav-hidden { opacity: 0; pointer-events: none; }
+  .es345-nav-panel { position: fixed; left: 24px; bottom: 5rem; top: auto; right: auto; z-index: 9998; width: 300px; max-height: 70vh; overflow-y: auto; background: #fff; border: 1px solid #e0dacc; border-radius: 14px; box-shadow: 0 12px 40px rgba(0,0,0,.18); flex-direction: column; display: none; }
+  .es345-nav-panel.open { display: flex; }
+  .es345-nav-header { background: #7b1d1d; padding: 16px 18px; border-radius: 10px 10px 0 0; flex-shrink: 0; }
+  .es345-nav-header strong { display: block; color: #fff; font-family: var(--font-display, Oswald), sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }
+  .es345-nav-label { background: #f4f0e8; padding: 7px 18px; font-family: var(--font-display, Oswald), sans-serif; font-size: 10px; font-weight: 700; color: #7a6b5d; text-transform: uppercase; letter-spacing: .1em; border-bottom: 1px solid #e0dacc; flex-shrink: 0; }
+  .blog-prose .es345-nav-link, .blog-prose .es345-nav-link:link, .blog-prose .es345-nav-link:visited { display: flex; padding: 10px 18px; font-family: var(--font-display, Oswald), sans-serif; font-size: 12px; font-weight: 700; color: #4a3427 !important; text-decoration: none !important; text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid #f0ebe3; transition: background .15s, color .15s; align-items: center; gap: 8px; }
+  .blog-prose .es345-nav-link:last-child { border-bottom: none; }
+  .blog-prose .es345-nav-link:focus, .blog-prose .es345-nav-link:hover { background: #f9f7f2; color: #b93c15 !important; text-decoration: none !important; }
+  .blog-prose .es345-nav-link.top, .blog-prose .es345-nav-link.top:link, .blog-prose .es345-nav-link.top:visited { background: #fff8f0; color: #b93c15 !important; border-bottom: 2px solid #e0dacc; text-decoration: none !important; }
+  .blog-prose .es345-nav-link.top:hover { background: #fef0e6; }
+  .es345-nav-dot { width: 6px; height: 6px; border-radius: 50%; background: #b93c15; flex-shrink: 0; }
+  @media (min-width: 1100px) {
+    .es345-nav-sidebar { display: flex; }
+    .es345-nav-btn { display: none !important; }
+    .es345-nav-panel { display: none !important; }
+    body.blog-post-page article.bpost { padding-right: 320px; }
+    body.blog-post-page aside[aria-label="Quick contact"] { display: none; }
+  }
+  @media (max-width: 1099.98px) {
+    .es345-nav-sidebar { display: none !important; }
+    .es345-nav-btn { display: flex; }
+  }
+  @media (max-width: 480px) {
+    .es345-nav-panel { left: 16px; bottom: 5rem; width: calc(100vw - 32px); max-width: 320px; }
+  }
+  /* Anchored headings clear the sticky header. */
+  .blog-prose h2[id] { scroll-margin-top: 96px; }
+</style>
+
+<script>
+  function toggleEs345Nav() {
+    var btn = document.getElementById('es345NavBtn');
+    var panel = document.getElementById('es345NavPanel');
+    if (!btn || !panel) return;
+    if (panel.classList.contains('open')) { closeEs345Nav(); }
+    else { panel.classList.add('open'); btn.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
+  }
+  function closeEs345Nav() {
+    var btn = document.getElementById('es345NavBtn');
+    var panel = document.getElementById('es345NavPanel');
+    if (!btn || !panel) return;
+    panel.classList.remove('open'); btn.classList.remove('open'); btn.setAttribute('aria-expanded', 'false');
+  }
+  document.addEventListener('click', function (e) {
+    var btn = document.getElementById('es345NavBtn');
+    var panel = document.getElementById('es345NavPanel');
+    if (!btn || !panel) return;
+    if (!btn.contains(e.target) && !panel.contains(e.target)) closeEs345Nav();
+  });
+  (function () {
+    function initEs345Fade() {
+      var contact = document.getElementById('contact');
+      var sidebar = document.getElementById('es345NavSidebar');
+      if (contact && sidebar && 'IntersectionObserver' in window) {
+        new IntersectionObserver(function (entries) {
+          sidebar.classList.toggle('es345-nav-hidden', entries[0].isIntersecting);
+        }).observe(contact);
+      }
+    }
+    if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initEs345Fade); }
+    else { initEs345Fade(); }
+  })();
 </script>
