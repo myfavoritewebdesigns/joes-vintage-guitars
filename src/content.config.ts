@@ -20,6 +20,18 @@ const blog = defineCollection({
     author: z.string().default("Joe Dampt"),
     draft: z.boolean().default(false),
     wpId: z.number().optional(),
+    // Opt-in floating table of contents. When non-empty, the post layout renders
+    // a fixed sidebar (desktop) + "Sections" button/sheet (mobile). Each entry
+    // points at an in-page anchor; set sub:true for an indented (H3-level) item.
+    toc: z
+      .array(
+        z.object({
+          href: z.string(),
+          label: z.string(),
+          sub: z.boolean().default(false),
+        })
+      )
+      .default([]),
   }),
 });
 
