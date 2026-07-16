@@ -29,7 +29,8 @@ export type StepId =
   | "sneck"      // S-prefix: front of headstock vs neck heel
   | "sjapan"     // S-prefix on neck heel: MIJ vs CIJ
   | "tuneck"     // T/U-prefix: MIJ vs CIJ
-  | "nloc"       // N-prefix: back of headstock vs neck heel
+  | "nloc"       // N-prefix: headstock vs neck heel
+  | "opqjapan"   // O/P/Q-prefix: MIJ vs CIJ (letters reused across both eras)
   | "bjapan";    // B-prefix: MIJ vs CIJ
 
 export type Outcome =
@@ -68,10 +69,25 @@ export const NECK_FULL: Range[] = [
   { min: 150000, max: 199999, year: "1964 (L-series)" },
 ];
 
-/** 100000–199999 without an L prefix = F-plate CBS transition. */
+/**
+ * 100000–199999 without an L prefix = F-plate CBS transition.
+ *
+ * JOE-CONFIRMED DIVERGENCE (2026-07-15 call): 180000–200000 is a known 1966/1967
+ * serial overlap and must return BOTH years, not a flat 1966. The guide page's own
+ * F-plate table already encodes it — 1966 runs "110000 to 200000" and 1967 runs
+ * "180000 to 210000" — so the overlap was always in the data; only the tool
+ * flattened it. The original widget answers a flat "1966" here, so this is an
+ * intentional break from parity (see EXPECTED_DIVERGENCES in verify-fsn-parity.mjs).
+ */
 export const F_PLATE_TRANSITION: Range[] = [
   { min: 100000, max: 110000, year: "1965", note: "F-plate serial (CBS Transition)" },
-  { min: 110001, max: 199999, year: "1966", note: "F-plate serial (CBS Era)" },
+  { min: 110001, max: 179999, year: "1966", note: "F-plate serial (CBS Era)" },
+  {
+    min: 180000,
+    max: 199999,
+    year: "1966 or 1967",
+    note: "F-plate serial, CBS Era. Known serial overlap in this range. Cross-date with the features below to confirm the year",
+  },
 ];
 
 /** 200000–750000 F-plate CBS era. */
@@ -117,6 +133,9 @@ export const PREFIXES: Array<[string, string]> = [
   ["US15", "2015"], ["US16", "2016"], ["US17", "2017"], ["US18", "2018"], ["US19", "2019"],
   ["US20", "2020"], ["US21", "2021"], ["US22", "2022"], ["US23", "2023"], ["US24", "2024"],
   ["US25", "2025"], ["US26", "2026"],
+  // US27+ is handled open-ended in decodeSerial so the tool does not dead-end each
+  // January. These literal rows stay only so the sorted-prefix lookup keeps its
+  // original shape; the regex rule runs first and answers identically for US10-US26.
   ["CA", "1981–1983 (Gold Series, see serial charts)"],
   ["CB", "1981–1983 (P-Bass Special, see serial charts)"],
   ["CE", "1981–1983 (Black & Gold Tele, see serial charts)"],
@@ -129,9 +148,10 @@ export const PREFIXES: Array<[string, string]> = [
   ["J", "1989–1990 (Made in Japan)"],
   ["K", "1990–1991 (Made in Japan)"],
   ["M", "1992–1993 (Made in Japan)"],
-  ["O", "1997 (Crafted in Japan)"],
-  ["P", "1999 (Crafted in Japan)"],
-  ["Q", "2002 (Crafted in Japan)"],
+  // O/P/Q are NOT listed here on purpose. Each letter was reused across both
+  // Japanese eras, so decodeSerial asks MIJ-vs-CIJ before answering (Joe confirmed
+  // 2026-07-15: "it needs to, because they were reused"). Leaving them in this flat
+  // table is what made the tool answer CIJ for an early-90s MIJ guitar.
 ];
 
 const PREFIX_KEYS_SORTED: Array<[string, string]> = [...PREFIXES].sort(
@@ -251,6 +271,19 @@ export function decodeSerial(rawInput: string): Outcome {
       "Could not determine year. L-series neck plate serials have 5 digits after the L; Japanese MIJ serials have 6. Please recount your digits and try again."
     );
   }
+
+  // US + 2 digits — 2010 onward. Open-ended (Joe, 2026-07-15: "throw in US27, why
+  // not"), so it does not dead-end every January the way the literal US10-US26 table
+  // did. Bounded at >= 10 because 2000s-era guitars use the Z prefix, not US00-US09.
+  const usMatch = /^US(\d{2})/i.exec(raw);
+  if (usMatch) {
+    const yy = parseInt(usMatch[1], 10);
+    if (yy >= 10) return result(`20${usMatch[1]}`);
+  }
+
+  // O/P/Q — reused across BOTH Japanese eras, so the printed neck-heel wording is
+  // the only way to tell them apart. Must ask before answering.
+  if (/^[OPQ]\d/i.test(raw)) return ask("opqjapan");
 
   // Standard prefix table
   const pm = lookupPrefix(raw);
@@ -375,9 +408,27 @@ export function answerStep(rawInput: string, step: StepId, choice: string): Outc
     case "nloc": {
       if (choice === "headstock") {
         const d = raw.replace(/^N/i, "").charAt(0);
-        return result(`199${d} (Made in USA, back of headstock serial)`);
+        // Match the guide page: front of the headstock through 1995, back from 1996.
+        // The original widget said "back" for every N serial (Joe, 2026-07-15: "just
+        // have it match" the page).
+        const loc = parseInt(d, 10) <= 5 ? "front of headstock" : "back of headstock";
+        return result(`199${d} (Made in USA, ${loc} serial)`);
       }
       return result("1995–1996 (Made in Japan, back of neck heel serial)");
+    }
+
+    case "opqjapan": {
+      const p = raw.charAt(0).toUpperCase();
+      // Both branches mirror the guide page's own tables. MIJ is 1993 to 1994 for all
+      // three letters; CIJ differs per letter.
+      if (choice === "mij")
+        return result("1993–1994 (Made in Japan, back of neck heel serial)");
+      const cij: Record<string, string> = {
+        O: "1997–2000",
+        P: "1999–2002",
+        Q: "2002–2004",
+      };
+      return result(`${cij[p]} (Crafted in Japan, back of neck heel serial)`);
     }
 
     case "tuneck": {
@@ -490,8 +541,19 @@ export const STEPS: Record<StepId, StepDef> = {
     id: "nloc",
     label: "Where is the N-prefix serial located?",
     cards: [
-      { value: "headstock", label: "Back of Headstock", image: IMG.headstock },
+      // "Headstock" (not "Back of Headstock"): on N0-N5 the serial is on the FRONT.
+      // The old label offered only "Back", so an owner of a 1990-1995 guitar could
+      // not answer truthfully and was pushed down the neck-heel branch.
+      { value: "headstock", label: "Front or Back of Headstock", image: IMG.headstock },
       { value: "neckheel", label: "Back of Neck Heel", image: IMG.neckHeel },
+    ],
+  },
+  opqjapan: {
+    id: "opqjapan",
+    label: "What does the back of the neck heel say?",
+    cards: [
+      { value: "mij", label: '"Made in Japan"' },
+      { value: "cij", label: '"Crafted in Japan"' },
     ],
   },
   bjapan: {

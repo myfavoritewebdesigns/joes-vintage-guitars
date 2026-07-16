@@ -192,15 +192,54 @@ const newOutcomes = cases.map((c) => {
 });
 
 // ── 5. Diff ──────────────────────────────────────────────────────────────────
+
+/**
+ * Intentional, Joe-approved breaks from the original widget (2026-07-15 call).
+ *
+ * The gate's whole job is to prove the rewrite reproduces the original. Once we
+ * deliberately FIX the original's mistakes, some cases must differ — but the gate
+ * still has to catch the ones that differ by ACCIDENT. So every intentional break
+ * is listed here with a reason, and anything else still fails.
+ *
+ * Keep this list short. It is the only thing separating "we changed it on purpose"
+ * from "we broke it and didn't notice". Do not add an entry to silence a surprise;
+ * work out why the surprise happened first.
+ */
+const EXPECTED_DIVERGENCES = [
+  {
+    why: "F-plate 180000-199999 returns the 1966/1967 overlap instead of a flat 1966 (matches the guide page's own table)",
+    match: (c) => /^\d+$/.test(c.serial) && +c.serial >= 180000 && +c.serial <= 199999,
+  },
+  {
+    why: "O/P/Q ask Made-in-Japan vs Crafted-in-Japan; the letters were reused across both eras, so the flat CIJ answer was wrong for early-90s guitars",
+    match: (c) => /^[OPQ]\d/i.test(c.serial),
+  },
+  {
+    why: "US-prefix answers open-ended (US27+) instead of dead-ending after US26",
+    match: (c) => /^US\d{2}/i.test(c.serial),
+  },
+  {
+    why: "N-prefix reports front of headstock through 1995 and back from 1996, matching the page; the original said 'back' for all of them",
+    match: (c) => /^N\d/i.test(c.serial),
+  },
+];
+
 let mismatches = 0;
+let expected = 0;
 const lines = [];
+const expectedLines = [];
 cases.forEach((c, i) => {
   const a = JSON.stringify(oldOutcomes[i]);
   const b = JSON.stringify(newOutcomes[i]);
-  if (a !== b) {
-    mismatches++;
-    lines.push(`✗ "${c.serial}" answers=[${c.answers.join(",")}]\n    old: ${a}\n    new: ${b}`);
+  if (a === b) return;
+  const allow = EXPECTED_DIVERGENCES.find((d) => d.match(c));
+  if (allow) {
+    expected++;
+    expectedLines.push(`~ "${c.serial}" answers=[${c.answers.join(",")}] — ${allow.why}`);
+    return;
   }
+  mismatches++;
+  lines.push(`✗ "${c.serial}" answers=[${c.answers.join(",")}]\n    old: ${a}\n    new: ${b}`);
 });
 
 const golden = cases.map((c, i) => ({ serial: c.serial, answers: c.answers, outcome: oldOutcomes[i] }));
@@ -211,6 +250,8 @@ fs.writeFileSync(
 );
 
 console.log(`cases: ${cases.length}`);
+console.log(`expected divergences (Joe-approved fixes): ${expected}`);
+if (expectedLines.length) console.log(expectedLines.slice(0, 30).join("\n"));
 console.log(`mismatches: ${mismatches}`);
 if (lines.length) console.log(lines.slice(0, 30).join("\n"));
 console.log(`golden file: reports/fsn-parity/golden.json`);
