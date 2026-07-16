@@ -23,6 +23,14 @@
  * decorative/UI SVG icons, the Reverb mark, favicons, CSS background art, or any
  * third-party/manufacturer image.
  *
+ * `licensed={false}` — renders the identical <img> but emits NO ImageObject.
+ * Use it for an image on the page that is NOT Joe's. The default (true) asserts
+ * Joe is the creator AND grants everyone a reuse licence, so leaving it on for a
+ * third-party photo publishes a false copyright claim and hands strangers rights
+ * we do not hold. When in doubt about provenance, pass licensed={false}: an
+ * unlicensed image loses only a Google "Licensable" badge; a wrongly-licensed one
+ * is a false claim on someone else's work.
+ *
  * Emits a standalone (loose) ImageObject node — correct for the Licensable-images
  * feature, which Google reads from loose ImageObject nodes.
  */
@@ -44,9 +52,21 @@ interface Props {
   class?: string;
   /** Inline style passthrough (matches what some converted <Image> tags set). */
   style?: string;
+  /** false = render the image but emit NO ImageObject. For photos that are not Joe's. */
+  licensed?: boolean;
 }
 
-const { src, alt, width, height, loading, decoding, class: className, style } = Astro.props;
+const {
+  src,
+  alt,
+  width,
+  height,
+  loading,
+  decoding,
+  class: className,
+  style,
+  licensed = true,
+} = Astro.props;
 
 // One getImage() call drives BOTH the <img> below and the contentUrl. They share
 // `built.src`, so they cannot diverge.
@@ -86,8 +106,12 @@ const imgAttrs = {
 ---
 
 <img {...imgAttrs} />
-<script
-  is:inline
-  type="application/ld+json"
-  set:html={JSON.stringify(imageObject)}
-/>
+{
+  licensed && (
+    <script
+      is:inline
+      type="application/ld+json"
+      set:html={JSON.stringify(imageObject)}
+    />
+  )
+}

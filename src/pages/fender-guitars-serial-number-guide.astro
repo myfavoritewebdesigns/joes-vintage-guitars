@@ -938,13 +938,20 @@ const breadcrumbSchema = {
         </table>
       </div>
 
+      {/*
+        NOT Joe's photos. Joe confirmed on the 2026-07-15 call that every image on
+        this page is his EXCEPT these two Mexico prefix shots — guitars he did not
+        own good photos of. They are ~301px web-sized (his own are 2560px camera
+        originals), consistent with being saved off a web page. licensed={false}
+        until Joe supplies replacements he shot; then drop the prop.
+      */}
       <div class="jvg-img2">
         <div class="jvg-imgwc">
-          <LicensedImage src={fsnMeta("mn-prefix.jpg")} alt="MN prefix serial on Mexican Fender Stratocaster" width={550} />
+          <LicensedImage src={fsnMeta("mn-prefix.jpg")} alt="MN prefix serial on Mexican Fender Stratocaster" width={550} licensed={false} />
           <p class="jvg-cap">MN Prefix = Mexico 1990s</p>
         </div>
         <div class="jvg-imgwc">
-          <LicensedImage src={fsnMeta("mz-prefix.jpg")} alt="MZ prefix serial on Mexican Fender Precision Bass" width={550} />
+          <LicensedImage src={fsnMeta("mz-prefix.jpg")} alt="MZ prefix serial on Mexican Fender Precision Bass" width={550} licensed={false} />
           <p class="jvg-cap">MZ Prefix = Mexico 2000s</p>
         </div>
       </div>
