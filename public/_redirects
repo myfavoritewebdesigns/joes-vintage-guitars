@@ -52,20 +52,34 @@
 /local-sitemap.xml     /sitemap-index.xml   301
 
 # Cutover: serial + value guides live at top level, not under /post/
+# Both slash shapes are listed for every rule: _redirects matches the request path
+# literally, so a slash-only rule leaves the no-slash URL to fall through to a 404
+# instead of redirecting. None of these old slugs has a live page, so neither shape
+# can loop.
+/post/how-to-read-gibson-serial-numbers    /how-to-read-gibson-serial-numbers/   301
 /post/how-to-read-gibson-serial-numbers/   /how-to-read-gibson-serial-numbers/   301
+/post/fender-guitars-serial-number-guide   /fender-guitars-serial-number-guide/  301
 /post/fender-guitars-serial-number-guide/  /fender-guitars-serial-number-guide/  301
+/post/martin-serial-and-model-numbers      /martin-serial-and-model-numbers/     301
 /post/martin-serial-and-model-numbers/     /martin-serial-and-model-numbers/     301
 
 # Cutover stragglers found via the GSC "Not found (404)" sweep (2026-06-16).
 # Old slugs / dead links that map cleanly to a current page.
+/gretsch-serial-numbers                                          /gretsch-serial-number-lookup/        301
 /gretsch-serial-numbers/                                         /gretsch-serial-number-lookup/        301
+/sell-my-collection                                              /sell-a-guitar-collection/            301
 /sell-my-collection/                                             /sell-a-guitar-collection/            301
 /sell-my-vintage-guitar                                          /                                     301
 /sell-my-vintage-guitar/                                         /                                     301
+/vintage-guitar-appraisal                                        /free-appraisal/                      301
 /vintage-guitar-appraisal/                                       /free-appraisal/                      301
+/vintage-guitar-resource-center                                  /blog/                                301
 /vintage-guitar-resource-center/                                 /blog/                                301
 /vintage-guitar-resource-center/*                                /blog/                                301
+/post/1968-gibson-es335-guide                                    /post/1968-gibson-es-335-guide/       301
 /post/1968-gibson-es335-guide/                                   /post/1968-gibson-es-335-guide/       301
+/post/how-to-identify-the-manufacture-date-of-a-gretsch-guitar   /gretsch-serial-number-lookup/        301
 /post/how-to-identify-the-manufacture-date-of-a-gretsch-guitar/  /gretsch-serial-number-lookup/        301
 # Base post no longer exists; send the old AMP URL to the Gibson serial guide (covers Les Paul dating).
+/post/dating-a-les-paul-with-serial-numbers/amp                  /how-to-read-gibson-serial-numbers/   301
 /post/dating-a-les-paul-with-serial-numbers/amp/                 /how-to-read-gibson-serial-numbers/   301
