@@ -72,27 +72,30 @@ export const NECK_FULL: Range[] = [
 /**
  * 100000–199999 without an L prefix = F-plate CBS transition.
  *
- * JOE-CONFIRMED DIVERGENCE (2026-07-15 call): 180000–200000 is a known 1966/1967
- * serial overlap and must return BOTH years, not a flat 1966. The guide page's own
- * F-plate table already encodes it — 1966 runs "110000 to 200000" and 1967 runs
- * "180000 to 210000" — so the overlap was always in the data; only the tool
- * flattened it. The original widget answers a flat "1966" here, so this is an
- * intentional break from parity (see EXPECTED_DIVERGENCES in verify-fsn-parity.mjs).
+ * JOE-CONFIRMED DIVERGENCE (2026-07-15 call, boundary confirmed 2026-07-17):
+ * 180000–200000 INCLUSIVE is a known 1966/1967 serial overlap and must return
+ * BOTH years, not a flat 1966. The guide page's own F-plate table already encodes
+ * it — 1966 runs "110000 to 200000" and 1967 runs "180000 to 210000" — so the
+ * overlap was always in the data; only the tool flattened it. Serial 200000 itself
+ * sits in the overlap (Joe's call: the ranges are approximate, so the shared edge
+ * reports both years); 200001+ is a clean 1967. The original widget answers a flat
+ * "1966" across the overlap and a flat "1967" at 200000, so this is an intentional
+ * break from parity (see EXPECTED_DIVERGENCES in verify-fsn-parity.mjs).
  */
 export const F_PLATE_TRANSITION: Range[] = [
   { min: 100000, max: 110000, year: "1965", note: "F-plate serial (CBS Transition)" },
   { min: 110001, max: 179999, year: "1966", note: "F-plate serial (CBS Era)" },
   {
     min: 180000,
-    max: 199999,
+    max: 200000,
     year: "1966 or 1967",
     note: "F-plate serial, CBS Era. Known serial overlap in this range. Cross-date with the features below to confirm the year",
   },
 ];
 
-/** 200000–750000 F-plate CBS era. */
+/** 200001–750000 F-plate CBS era (200000 sits in the 1966/1967 overlap above). */
 export const F_PLATE: Range[] = [
-  { min: 200000, max: 210000, year: "1967" },
+  { min: 200001, max: 210000, year: "1967" },
   { min: 210001, max: 250000, year: "1968" },
   { min: 250001, max: 280000, year: "1969" },
   { min: 280001, max: 300000, year: "1970" },
@@ -327,14 +330,15 @@ export function decodeSerial(rawInput: string): Outcome {
       return fallback();
     }
 
-    // 100000–199999 without L prefix: F-plate CBS transition
-    if (num >= 100000 && num <= 199999) {
+    // 100000–200000 without L prefix: F-plate CBS transition (200000 is the
+    // shared edge of the 1966/1967 overlap, so it routes here, not to F_PLATE)
+    if (num >= 100000 && num <= 200000) {
       const hit = F_PLATE_TRANSITION.find((r) => num >= r.min && num <= r.max);
       return hit ? result(`${hit.year} (${hit.note})`) : fallback();
     }
 
-    // 200000–750000: F-plate CBS era
-    if (num >= 200000 && num <= 750000) {
+    // 200001–750000: F-plate CBS era
+    if (num >= 200001 && num <= 750000) {
       const hit = F_PLATE.find((r) => num >= r.min && num <= r.max);
       return hit ? result(`${hit.year} (F-plate serial, CBS Era)`) : fallback();
     }
