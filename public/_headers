@@ -36,3 +36,8 @@
 # too (the page also sets meta robots noindex and is sitemap-excluded).
 /fender-serial-tool-v2/
   X-Robots-Tag: noindex
+
+# Condensed serial-page rebuild preview: noindex at the edge as well
+# (meta robots noindex + sitemap-excluded on the page too).
+/fender-serial-hub-preview/
+  X-Robots-Tag: noindex

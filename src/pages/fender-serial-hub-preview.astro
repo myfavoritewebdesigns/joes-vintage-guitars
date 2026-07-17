@@ -1,0 +1,730 @@
+---
+/**
+ * Fender Serial Number hub, CONDENSED REBUILD, preview build.
+ *
+ * Noindex + sitemap-excluded + X-Robots-Tag (see astro.config.mjs and
+ * public/_headers), same pattern as /fender-serial-tool-v2/. Renders inside the
+ * real Layout (site Header, Footer, FloatingCTAs, global JSON-LD) so Joe can see
+ * exactly how the condensed page looks in production chrome before it swaps into
+ * the live /fender-guitars-serial-number-guide/ route.
+ *
+ * Content facts trace to VG_FACTS.md (joes-vintage-databases) per the writing
+ * system; new Joe-sourced facts land in that registry via PR #1 (VG-0113..0116).
+ */
+import Layout from "../layouts/Layout.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import { resolveImage, assetSrc } from "../lib/images";
+import { contact, hrefs, SITE_URL } from "../config/site";
+
+const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
+const img = (file: string) => assetSrc("images/fender-sn/" + file);
+
+const PAGE_PATH = "/fender-serial-hub-preview/";
+
+// ---- Chart data ----
+const bridgeRows = [
+  ["Telecaster / Esquire", "0001 to 1300", "1950 to 1952", "Broadcaster, No-Caster, and early Tele"],
+  ["Telecaster", "1300 to 3000", "1951 to 1954", "Telecaster name established around mid-1951"],
+  ["Telecaster", "3000 to 5000s", "1952 to 1954", "Transition toward the neck plate"],
+  ["Precision Bass", "100 to 600", "1951 to 1952", "Earliest P-Basses, serial on the bridge"],
+  ["Precision Bass", "0001 to 0900", "1952 to 1953", "Second P-Bass sequence"],
+  ["Precision Bass", "0900 to 2000", "1954", "Redesign year approaching"],
+];
+const neckPlateRows = [
+  ["0001 to 8000", "1954"], ["6000 to 10000", "1955"], ["9000 to 16000", "1956"],
+  ["16000 to 25000", "1957"], ["25000 to 30000", "1958"], ["30000 to 40000", "1959"],
+  ["40000 to 58000", "1960"], ["55000 to 72000", "1961"], ["72000 to 93000", "1962"],
+  ["93000 to 99999", "1963"],
+];
+const lSeriesRows = [
+  ["L00001 to L20000", "1963", "Pre-CBS"], ["L20000 to L55000", "1964", "Pre-CBS"],
+  ["L55000 to L99999", "1965", "Transition to CBS"],
+];
+const fPlateRows = [
+  ["100000 to 110000", "1965", "Transition"], ["110000 to 200000", "1966", "CBS"],
+  ["180000 to 210000", "1967", "CBS"], ["210000 to 250000", "1968", "CBS"],
+  ["250000 to 280000", "1969", "CBS"], ["280000 to 300000", "1970", "CBS"],
+  ["300000 to 330000", "1971", "CBS"], ["330000 to 370000", "1972", "CBS"],
+  ["370000 to 520000", "1973", "CBS"], ["500000 to 580000", "1974", "CBS"],
+  ["580000 to 690000", "1975", "CBS"], ["690000 to 750000", "1976", "CBS"],
+];
+const modernRows = [
+  ["76XXXXX", "1976", "Starts with 76, overlaps the early S prefix", "76XXXXX = 1976"],
+  ["S + digit", "1970s", "S means the 70s, next digit is the year", "S8XXXXX = 1978"],
+  ["E + digit", "1980s", "E means the 80s, next digit is the year", "E4XXXXX = 1984"],
+  ["N + digit", "1990s", "N means the 90s, next digit is the year", "N2XXXXXX = 1992"],
+  ["Z + digit", "2000s", "Z means the 2000s, next digit is the year", "Z2XXXXXX = 2002"],
+  ["US + digits", "2010s onward", "First two digits after US are the year", "US10XXXXXX = 2010"],
+];
+const rare80sRows = [
+  ["CA", "Gold Stratocasters, the limited-run gold-hardware Strat from the early 1980s"],
+  ["CB", "Precision Bass Specials and Gold Jazz Basses, both active-electronics basses with gold hardware"],
+  ["CE", "Precision Bass Specials and Black & Gold Telecasters, another limited CBS-era run"],
+];
+const customShopRows = [
+  ["CN + digit", "C means Custom Shop, N means the 90s, and the next digit is the year", "1990s", "CN6XXXXX = 1996"],
+  ["CZ + digit", "C means Custom Shop, Z means the 2000s, and the next digit is the year", "2000s", "CZ3XXXXX = 2003"],
+  ["R + digits", "No reliable decode", "See the tip below", "No year encoded"],
+];
+const mexicoRows = [
+  ["MN", "1990s", "M means Mexico, N means the 90s; next digit is the year. MN0 = 1990"],
+  ["MZ", "2000s", "M means Mexico, Z means the 2000s; next digit is the year. MZ0 = 2000"],
+  ["MX", "2010s to 20s", "The one or two digits after MX are the year. MX12 = 2012, MX23 = 2023"],
+  ["JV / SQ", "Japan, 1982 to 1984", "The earliest Made in Japan export models"],
+  ["JD", "Japan, 2010s", "Japan Dyna, first two digits are the year. JD11XXXXXX = 2011"],
+];
+const mijRows = [
+  ["JV", "5", "1982 to 1984"], ["SQ", "5", "1983 to 1984"], ["A", "5", "mid-1980s"],
+  ["B", "6", "1985 to 1986"], ["F", "6", "1986 to 1987"], ["H", "6", "1988 to 1989"],
+  ["I or J", "6", "1989 to 1990"], ["K", "6", "1990 to 1991"], ["L", "6", "1991 to 1992"],
+  ["M", "6", "1992 to 1993"], ["O, P, or Q", "6", "1993 to 1994"], ["S or T", "6", "1994 to 1995"],
+  ["U or N", "6", "1995 to 1996"], ["V", "6", "1996 to 1997"],
+];
+const cijRows = [
+  ["A", "6", "1997 to 1998"], ["B", "6", "1997 to 1999"], ["O", "6", "1997 to 2000"],
+  ["P", "6", "1999 to 2002"], ["Q", "6", "2002 to 2004"], ["R", "6", "2004 to 2005"],
+  ["S", "6", "2006 to 2008"], ["T", "6", "2007 to 2010"], ["U", "6", "2010 to 2011"],
+];
+
+const spokeSlugs = [
+  "/fender-pot-codes/", "/fender-neck-dates/", "/fender-physical-dating/",
+  "/fender-pickup-dates/", "/fender-fretboard-inlays/", "/fender-bridge-saddles/",
+  "/fender-tuner-evolution/", "/fender-logo-evolution/", "/fender-pickguards/",
+  "/fender-finish-dating/",
+];
+
+const tocItems: [string, string, number][] = [
+  ["#lookup", "Serial Number Lookup", 2],
+  ["#locate", "Where To Find Your Serial #", 2],
+  ["#cross-check", "Cross-Check Dating Features", 2],
+  ["#charts", "Serial Numbers By Year", 2],
+  ["#bridge-plate", "Bridge Plate (1950 To 1954)", 3],
+  ["#neck-plate-serials", "4 & 5 Digit Neck Plate (1954 To 1963)", 3],
+  ["#l-series", "L-Series (1963 To 1965)", 3],
+  ["#f-plate", "F-Plate (1965 To 1976)", 3],
+  ["#v-prefix", "V-Prefix Reissues", 3],
+  ["#custom-shop", "Custom Shop (CN, CZ, R)", 3],
+  ["#headstock-serials", "Headstock (1976 To Present)", 3],
+  ["#import-serials", "Made In Mexico & Japan", 3],
+  ["#appraisal", "Free Expert Appraisal", 2],
+  ["#about-joe", "About Joe", 2],
+];
+
+const faqs = [
+  { q: "Where Exactly Is My Fender's Serial Number?", a: "One of six spots depending on the year: the neck plate, the headstock, the bridge plate, or the neck heel. On 1954 Stratocasters only, it is stamped into the plastic tremolo cover." },
+  { q: "Can The Serial Alone Tell Me The Exact Year?", a: "It gives a range, not a single year. Fender pulled plates from bins out of order, so ranges overlap. Confirm the exact year with the neck heel date and pot codes." },
+  { q: "My Serial Isn't In Fender's Official Lookup. Is It Fake?", a: "Almost never. Official lookups only track roughly the last 30 years, and plenty of real serials never match a tidy pattern. Cross-date it by hand instead." },
+  { q: "Are Custom Shop R Numbers A Reliable Date?", a: "No. R doesn't stand for Relic or Reissue, and there's no reliable dating scheme for it. Reference the Certificate of Authenticity, or check the neck heel dates and pot codes." },
+  { q: "Do You Appraise Or Buy Vintage Fenders?", a: "Both. Free appraisals, and I buy outright with same-day payment. Send me three photos and I'll tell you the real story." },
+];
+
+const YT_ID = "PIRoB0KHEg0";
+const YT_TITLE = "Where to Find Fender Serial Numbers, Neck Heel Dates & Pot Codes (Identification Guide)";
+
+// ---- Schema ----
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Fender Serial Number Lookup: Free Decoder & Dating Guide",
+  description: "Decode any Fender serial number, then confirm the year with neck heel dates and pot codes. Free lookup plus complete year-by-year charts from a vintage Fender appraiser.",
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+  image: img("fender-bridge-plate-serial-number-scaled.jpg"),
+  inLanguage: "en-US",
+  mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
+  hasPart: spokeSlugs.map((s) => ({ "@type": "WebPage", "@id": `${SITE_URL}${s}` })),
+  video: { "@id": `${SITE_URL}${PAGE_PATH}#video` },
+};
+const videoSchema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "@id": `${SITE_URL}${PAGE_PATH}#video`,
+  name: YT_TITLE,
+  description: "Learn how to locate and decode vintage Fender serial numbers, neck heel dates, and potentiometer date codes to accurately date your vintage guitar.",
+  thumbnailUrl: `https://img.youtube.com/vi/${YT_ID}/maxresdefault.jpg`,
+  uploadDate: "2026-01-13",
+  embedUrl: `https://www.youtube.com/embed/${YT_ID}`,
+  contentUrl: `https://www.youtube.com/watch?v=${YT_ID}`,
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+};
+const toolSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Fender Serial Number Lookup Tool",
+  description: "Free interactive tool to decode any Fender guitar or bass serial number.",
+  url: `${SITE_URL}${PAGE_PATH}`,
+  applicationCategory: "ReferenceApplication",
+  operatingSystem: "Any",
+  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+    { "@type": "ListItem", position: 2, name: "Fender Serial Number Lookup", item: `${SITE_URL}${PAGE_PATH}` },
+  ],
+};
+---
+
+<Layout
+  title="Fender Serial Number Lookup: Free Decoder & Dating Guide (Preview)"
+  description="Decode any Fender serial number, then confirm the year with neck heel dates and pot codes. Free lookup plus complete year-by-year charts from a vintage Fender appraiser."
+  canonical={PAGE_PATH}
+  ogImage={`${SITE_URL}${img("fender-bridge-plate-serial-number-1024x683.jpg")}`}
+  ogImageAlt="The bridge plate serial number on a 1952 Fender Telecaster"
+  ogType="article"
+  noIndex={true}
+  structuredData={[articleSchema, videoSchema, faqSchema, toolSchema, breadcrumbSchema]}
+>
+  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
+  <script slot="head" defer src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js"></script>
+
+  <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
+  <div class="fshub-header-backdrop" aria-hidden="true">
+    <div class="fshub-header-backdrop__dark"></div>
+    <div class="fshub-header-backdrop__cream"></div>
+  </div>
+
+  <p class="fshub-preview-note">Internal preview of the condensed serial page rebuild. Noindexed and not linked. Spoke links point at planned slugs that do not exist yet.</p>
+
+  <div class="fshub">
+    <!-- BLOCK 1: HERO + TOOL -->
+    <section class="hero" id="lookup">
+      <div class="measure stack">
+        <span class="eyebrow">Fender Serial Number Lookup</span>
+        <h1>Fender Serial Number Lookup: Free Decoder &amp; Dating Guide</h1>
+        <p class="lead">Type your serial for an instant read on era and factory. Most lookups stop there. This page tells you what the number can and cannot prove, then walks you through the cross-checks that confirm the year, the same way I do it at the bench.</p>
+        <div class="trust">
+          <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span><span>All 50 states</span>
+        </div>
+
+        <div class="plate" role="group" aria-label="Fender serial number decoder">
+          <span class="bolt tl"></span><span class="bolt tr"></span><span class="bolt bl"></span><span class="bolt br"></span>
+          <div class="stamp">Enter Serial As Stamped</div>
+          <form class="decoder" id="decoder" autocomplete="off">
+            <input id="serial" name="serial" type="text" inputmode="text" placeholder="Example: L54321, E812345, MN604321" aria-label="Fender serial number" />
+            <button class="btn" type="submit">Decode</button>
+          </form>
+          <div class="result" id="result" aria-live="polite">
+            <div class="verdict" id="verdict"></div>
+            <div class="note" id="note"></div>
+          </div>
+
+          <details class="locate" id="locate">
+            <summary>I Need Help Finding My Serial Number</summary>
+            <div class="locimg">
+              <LicensedImage src={meta("fender-serial-number-locator-chart.jpg")} alt="Fender serial number locator chart showing the neck heel, headstock, neck plate, bridge plate, and tremolo cover locations" width={760} />
+              <p class="cap">Six possible spots: the neck plate, the bridge plate, the front or back of the headstock, the neck heel, and, on 1954 Strats only, stamped into the plastic tremolo cover. Where it sits already narrows the era.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOCK 2: E-E-A-T BADGES -->
+    <section class="pt0">
+      <div class="measure">
+        <div class="badges">
+          <div class="badge">
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none"><path d="M2 8.5 6 12.5 14 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span class="t">Verified Vintage Fender Appraiser<small>Joe Dampt, Mesa AZ</small></span>
+          </div>
+          <div class="badge">
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M8 1.6l1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.4l-3.8 2 .7-4.3-3.1-3 4.3-.6z" fill="currentColor"/></svg></span>
+            <span class="t">10,000+ Instruments Valued<small>Personally, over 12 years full-time</small></span>
+          </div>
+          <div class="badge">
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M2 3h12v8H9.2L6 13.8V11H2z" fill="currentColor"/></svg></span>
+            <span class="t">2,100+ Five-Star Reverb Reviews<small>Verified buyer and seller feedback</small></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- BLOCK 3: CROSS-CHECK -->
+    <section id="cross-check">
+      <div class="measure stack">
+        <span class="eyebrow">The Serial Number Is Just Part Of The Story</span>
+        <h2>Cross-Check With Other Dating Features</h2>
+        <p class="note-sm">A serial gets you close, and official lookups only track roughly the last 30 years of production. The parts pin the real date. Start with the three heavy hitters, each a full step-by-step guide:</p>
+        <div class="cards3">
+          <a class="mcard" href="/fender-pot-codes/">
+            <span class="num">Path 1: Electronics</span>
+            <h3>Potentiometer Date Codes</h3>
+            <p>Decode the EIA codes on your volume and tone pots. A pot code sets the earliest date your guitar could've been built, a strong cross-check against the serial.</p>
+            <span class="go">Decode Pot Codes</span>
+          </a>
+          <a class="mcard" href="/fender-neck-dates/">
+            <span class="num">Path 2: The Neck</span>
+            <h3>Neck-Heel Date Stamps</h3>
+            <p>Locate the handwritten pencil dates and rubber-stamped codes on the butt end of the neck, the most reliable single tell.</p>
+            <span class="go">Read Neck Dates</span>
+          </a>
+          <a class="mcard" href="/fender-physical-dating/">
+            <span class="num">Path 3: The Body</span>
+            <h3>Body Dates</h3>
+            <p>Locate the date markings Fender left on the body itself and what they look like from era to era.</p>
+            <span class="go">Read Body Dates</span>
+          </a>
+        </div>
+
+        <div class="videopanel">
+          <h3>Serial Number Not Giving You The Full Picture?</h3>
+          <p>Vintage Fender serial numbers are notoriously non-sequential because factory workers grabbed plates out of mixed bins. To close in on the real build date, you need the secondary indicators on this page.</p>
+          <div class="videowrap">
+            <lite-youtube videoid={YT_ID} params="rel=0&modestbranding=1" title={YT_TITLE}></lite-youtube>
+          </div>
+          <p class="vcap">Watch Joe walk through where the serial lives, how to check the neck heel date, and how to read potentiometer codes.</p>
+        </div>
+
+        <p class="note-sm mt">Then tighten the date with the parts themselves. The <a class="spoke" href="/fender-pickup-dates/">pickups</a> under the covers, the <a class="spoke" href="/fender-fretboard-inlays/">fretboard inlays</a>, the <a class="spoke" href="/fender-bridge-saddles/">bridge saddles</a>, the <a class="spoke" href="/fender-tuner-evolution/">tuners</a>, the <a class="spoke" href="/fender-logo-evolution/">headstock logo</a>, the <a class="spoke" href="/fender-pickguards/">pickguard</a> material, and even the <a class="spoke" href="/fender-finish-dating/">finish</a> all changed in documented steps over the years, and each one gets its own step-by-step guide:</p>
+        <div class="chips">
+          <a href="/fender-pickup-dates/">Pickup Dates</a>
+          <a href="/fender-fretboard-inlays/">Fretboard Inlays</a>
+          <a href="/fender-bridge-saddles/">Bridge Saddles</a>
+          <a href="/fender-tuner-evolution/">Tuner Evolution</a>
+          <a href="/fender-logo-evolution/">Logo Evolution</a>
+          <a href="/fender-pickguards/">Pickguards</a>
+          <a href="/fender-finish-dating/">Finish Dating</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- BLOCK 4: CHARTS -->
+    <section id="charts">
+      <div class="measure stack">
+        <span class="eyebrow">The Full Charts</span>
+        <h2>Fender Serial Numbers By Year</h2>
+        <p class="note-sm">The complete year-by-year ranges, right on this page. Serial number ranges are estimates, and Fender production was rarely perfectly sequential. Treat them as a starting point, then confirm with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> and <a class="spoke" href="/fender-pot-codes/">pot codes</a> above.</p>
+      </div>
+
+      <div class="measure mt2">
+        <h3 class="tbl" id="bridge-plate"><span class="tag">A</span> Bridge-Plate Serials</h3>
+        <p class="sub">1950 to 1954</p>
+        <p class="secintro">On Fender's earliest electric instruments, the serial was stamped right onto the bridge plate. That covers the original Broadcaster, No-Caster, Telecaster, Esquire, and early Precision Bass, the rarest and most valuable Fenders ever made. Dating one from the bridge plate serial alone is difficult, so cross-reference the <a class="spoke" href="/fender-neck-dates/">neck heel dates</a>, <a class="spoke" href="/fender-pot-codes/">pot codes</a>, and <a class="spoke" href="/fender-physical-dating/">hardware features</a>.</p>
+        <div class="figrow">
+          <figure class="sfig"><LicensedImage src={meta("fender-bridge-plate-serial-number-scaled.jpg")} alt="Fender Telecaster bridge plate serial number, 1950 to 1954" width={420} /><figcaption>Telecaster bridge plate, stamped where the strings anchor</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-precision-bass-bridge-plate-serial-number-scaled.jpg")} alt="Fender Precision Bass bridge plate serial number, 1951 to 1954" width={420} /><figcaption>Precision Bass bridge plate, its own sequence</figcaption></figure>
+        </div>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Model</th><th>Serial range</th><th>Year</th><th>Production details</th></tr></thead>
+          <tbody>{bridgeRows.map((r) => (<tr><td data-label="Model">{r[0]}</td><td data-label="Serial range" class="code">{r[1]}</td><td data-label="Year" class="yr">{r[2]}</td><td data-label="Details">{r[3]}</td></tr>))}</tbody>
+        </table></div>
+
+        <h3 class="tbl" id="neck-plate-serials"><span class="tag">B</span> 4 And 5 Digit Neck Plate Serial Numbers</h3>
+        <p class="sub">1954 to 1963, no letter prefix</p>
+        <p class="secintro">From the mid-1950s into the early 1960s, Fender stamped 4 and 5 digit serial numbers onto the metal neck plate. This window covers nearly every landmark model: the original Stratocaster (1954), Jazzmaster (1958), Jazz Bass (1960), and Jaguar (1962). Fender pre-stamped large batches of neck plates and pulled them off the stack in no particular order during assembly, so a guitar carrying serial 58,000 could legitimately be a 1960 or a 1961. The <a class="spoke" href="/fender-neck-dates/">neck heel pencil date</a> is far more reliable for pinning down a specific year.</p>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("1957-fender-esquire-blonde.jpg")} alt="1957 Fender Esquire blonde neck plate showing the serial number stamped at the top edge" width={540} /><figcaption>A 1957 Esquire, five digits stamped into the plate</figcaption></figure>
+        </div>
+        <div class="tablewrap compact"><table>
+          <thead><tr><th>Serial range</th><th>Year</th></tr></thead>
+          <tbody>{neckPlateRows.map((r) => (<tr><td data-label="Serial range" class="code">{r[0]}</td><td data-label="Year" class="yr">{r[1]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="tip">
+          <p>This 1960 Stratocaster carries its serial along the <b>bottom edge of the neck plate</b>. The location makes people doubt the serial is authentic, but Fender really did stamp some plates this way. I have watched original guitars get called fakes over exactly this.</p>
+          <div class="tipimg"><LicensedImage src={meta("1957-fender-esquire-blonde-code.jpg")} alt="1960 Fender Stratocaster neck plate with the serial number stamped along the bottom edge" width={540} /></div>
+        </div>
+
+        <h3 class="tbl" id="l-series"><span class="tag">C</span> L-Series Transition Plates</h3>
+        <p class="sub">1963 to 1965, capital L prefix</p>
+        <p class="secintro">When Fender's sequential neck plate numbers got close to 99999, the factory tacked on an L prefix instead of rolling over to a 6 digit number. These guitars, built from late 1962 through 1965, cover the final years of the pre-CBS era and rank among the most collectible Fenders ever made. The L-Series straddles the CBS acquisition in January 1965, which means some L prefix instruments are true pre-CBS and others are early CBS.</p>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("fender-l-plate-serial-number-guide-1-scaled-1.jpg")} alt="Fender L-series neck plate serial number, 1963 to 1965" width={540} /><figcaption>The L stamp is the giveaway, still a pre-CBS guitar</figcaption></figure>
+        </div>
+        <div class="tablewrap compact"><table>
+          <thead><tr><th>Serial range</th><th>Year</th><th>Era</th></tr></thead>
+          <tbody>{lSeriesRows.map((r) => (<tr><td data-label="Serial range" class="code">{r[0]}</td><td data-label="Year" class="yr">{r[1]}</td><td data-label="Era">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+
+        <h3 class="tbl" id="f-plate"><span class="tag">D</span> CBS 6-Digit F-Plates</h3>
+        <p class="sub">1965 to 1976, embossed F on the plate</p>
+        <p class="secintro">After the CBS acquisition in early 1965, Fender brought in a new neck plate with a large stylized F logo and a 6 digit serial number. This system stayed in place until 1976, when Fender moved serials to the headstock. F-plate guitars are easy to spot: big headstocks on the Strats from 1966 onward, CBS-era styling throughout, and models like the Thinline Telecaster and Coronado that only existed in this period.</p>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("1967-fender-f-plate-serial-number.jpg")} alt="Serial number 204663 on the F plate of a 1967 Fender" width={540} /><figcaption>A 1967 F plate, serial 204663 above the big F</figcaption></figure>
+        </div>
+        <div class="tablewrap compact"><table>
+          <thead><tr><th>Serial range</th><th>Year</th><th>Era</th></tr></thead>
+          <tbody>{fPlateRows.map((r) => (<tr><td data-label="Serial range" class="code">{r[0]}</td><td data-label="Year" class="yr">{r[1]}</td><td data-label="Era">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <p class="expert"><b>Serial numbers aren't always reliable, especially on vintage instruments.</b> Confirm the year with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> and <a class="spoke" href="/fender-pot-codes/">pot codes</a>, or send me photos below and I will confirm it for you.</p>
+
+        <h3 class="tbl" id="v-prefix"><span class="tag">E</span> V-Prefix Serial Numbers</h3>
+        <p class="sub">American Vintage reissues, 1982 onward</p>
+        <p class="secintro">When Fender launched its Vintage Reissue series in 1982, faithful recreations of classic 1950s and 1960s Strats, Teles, and Precision Basses, it put a separate V prefix serial on the neck plate. These aren't vintage instruments. They're modern reissues built to replicate the original specs.</p>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("fender-v-prefix-serial-number-reissue-scaled.jpg")} alt="Fender V prefix serial number on the neck plate of a Vintage Reissue guitar" width={540} /><figcaption>V prefix on a Vintage Reissue neck plate</figcaption></figure>
+        </div>
+        <p class="expert"><b>V prefix numbers have no reliable dating scheme.</b> Date a V-prefix guitar by the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>, usually written in pencil.</p>
+
+        <h3 class="tbl" id="custom-shop"><span class="tag">F</span> Custom Shop Serial Numbers</h3>
+        <p class="sub">CN, CZ, and R prefixes on the neck plate</p>
+        <p class="secintro">The Fender Custom Shop, established in 1987, runs its own neck plate serial number system. Three prefixes show up most often, and one of them gets widely misunderstood across forums and listings.</p>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("fender-cn-prefix-serial-number.jpg")} alt="Fender Custom Shop CN prefix serial number on a neck plate" width={540} /><figcaption>CN prefix on a Custom Shop neck plate</figcaption></figure>
+        </div>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Prefix</th><th>How to decode</th><th>Era</th><th>Example</th></tr></thead>
+          <tbody>{customShopRows.map((r) => (<tr><td data-label="Prefix" class="code">{r[0]}</td><td data-label="How to decode" class={r[0].startsWith("R") ? "warntxt" : ""}>{r[1]}</td><td data-label="Era">{r[2]}</td><td data-label="Example" class="code">{r[3]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="tip">
+          <p><b>R doesn't stand for Relic, and it doesn't stand for Reissue.</b> That is one of the most repeated myths in Fender Custom Shop collecting, and even a circulating Fender customer service email gets it wrong. The R prefix turned up on Custom Shop instruments with no consistent logic behind its assignment, and there's no reliable dating scheme for it. To date or authenticate one, reference the COA, which lists the model, construction date, specs, and builder, or check the <a class="spoke" href="/fender-neck-dates/">neck heel dates</a> and <a class="spoke" href="/fender-pot-codes/">pot codes</a>. If a seller leans on R = Relic as a selling point, that's a red flag about the seller, not the guitar. Always ask for the COA.</p>
+          <p class="tipafter">The COA below is the proof: an R prefix Custom Deluxe Stratocaster that's neither a Relic nor a Reissue.</p>
+          <div class="tipimg"><LicensedImage src={meta("fender-coa-proving-r-prefix-unreliability.jpg")} alt="Fender Custom Shop COA for a Custom Deluxe Stratocaster with an R prefix serial. Not a Relic, not a Reissue." width={540} /></div>
+        </div>
+
+        <h3 class="tbl" id="headstock-serials"><span class="tag">G</span> Alphanumeric Headstock Decals</h3>
+        <p class="sub">1976 to present</p>
+        <p class="secintro">In 1976 Fender moved serial numbers off the neck plate and onto a headstock decal, where the letter encodes the decade and the digit after it encodes the year. Some guitars from the final months of 1976 carry S prefix headstock serials even though the neck plate was still in use on certain models. An F-plate paired with an S prefix headstock serial marks a transition-period instrument, so confirm with <a class="spoke" href="/fender-pot-codes/">pot codes</a> and <a class="spoke" href="/fender-neck-dates/">neck stamps</a>.</p>
+        <div class="figrow">
+          <figure class="sfig"><LicensedImage src={meta("fender-76-prefix-serial-number.jpg")} alt="Fender 76 prefix serial number on the front of the headstock, 1976" width={300} /><figcaption>76 prefix, 1976</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-s-prefix-serial-number.jpg")} alt="Fender S prefix serial number on the front of the headstock, 1970s" width={300} /><figcaption>S prefix, the 1970s</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-e-prefix-serial-number.jpg")} alt="Fender E prefix serial number on the front of the headstock, 1980s" width={300} /><figcaption>E prefix, the 1980s</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-n-prefix-serial-number.jpg")} alt="Fender N prefix serial number on the front of the headstock, 1990s" width={300} /><figcaption>N prefix, the 1990s</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-z-prefix-serial-number.jpg")} alt="Fender Z prefix serial number on the back of the headstock, 2000s" width={300} /><figcaption>Z prefix, the 2000s, back of the headstock</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-us-prefix-serial-number.jpg")} alt="Fender US prefix serial number on the back of the headstock, 2010s onward" width={300} /><figcaption>US prefix, 2010s onward, back of the headstock</figcaption></figure>
+        </div>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Prefix</th><th>Decade</th><th>How to read it</th><th>Example</th></tr></thead>
+          <tbody>{modernRows.map((r) => (<tr><td data-label="Prefix" class="code">{r[0]}</td><td data-label="Decade" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td><td data-label="Example" class="code">{r[3]}</td></tr>))}</tbody>
+        </table></div>
+        <h3 class="tbl sub-h">Rare 1980s Prefixes</h3>
+        <p class="note-sm">A small number of limited-edition CBS-era models used two-letter prefixes starting with C instead of the standard E. They follow the same decode formula (the first digit after the prefix equals the year), but each one ties to specific collectible models:</p>
+        <div class="tablewrap compact"><table>
+          <thead><tr><th>Prefix</th><th>Ties to</th></tr></thead>
+          <tbody>{rare80sRows.map((r) => (<tr><td data-label="Prefix" class="code">{r[0]}</td><td data-label="Ties to">{r[1]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("fender-ca-prefix-serial-number.jpg")} alt="Fender CA prefix serial number on a limited edition Gold Stratocaster headstock, early 1980s" width={540} /><figcaption>CA prefix on a Gold Stratocaster, early 1980s</figcaption></figure>
+        </div>
+
+        <h3 class="tbl" id="import-serials"><span class="tag">H</span> Made In Mexico And Made In Japan Serial Numbers</h3>
+        <p class="sub">MIM, MIJ, and CIJ</p>
+        <p class="secintro">Mexican-built Fenders from the Ensenada plant start with M plus a decade letter, the same decade logic as the American serials. Japanese Fenders work differently: the letter corresponds to a production year range rather than a specific year digit, so it narrows the window instead of naming the year. The Crafted in Japan label replaced Made in Japan in the late 1990s, and the letter codes were reused between the two eras, so always read the Made in Japan or Crafted in Japan wording on the guitar, not just the letter. The earliest JV-series guitars, built from 1982 to 1984, are serious collector pieces in their own right.</p>
+        <div class="figrow">
+          <figure class="sfig"><img src={img("mn-prefix.jpg")} alt="MN prefix serial number on a Mexican Fender Stratocaster" loading="lazy" decoding="async" /><figcaption>MN prefix, Mexico in the 1990s</figcaption></figure>
+          <figure class="sfig"><img src={img("mz-prefix.jpg")} alt="MZ prefix serial number on a Mexican Fender Jazz Bass" loading="lazy" decoding="async" /><figcaption>MZ prefix, Mexico in the 2000s</figcaption></figure>
+        </div>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Prefix</th><th>Made in</th><th>Formula</th></tr></thead>
+          <tbody>{mexicoRows.map((r) => (<tr><td data-label="Prefix" class="code">{r[0]}</td><td data-label="Made in">{r[1]}</td><td data-label="Formula">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <details class="more"><summary>Show The Complete Japan MIJ And CIJ Letter Codes</summary>
+          <div class="japan-grid">
+            <div class="tablewrap compact m0"><table>
+              <caption>Made in Japan (MIJ)</caption>
+              <thead><tr><th>Code</th><th>Digits</th><th>Year range</th></tr></thead>
+              <tbody>{mijRows.map((r) => (<tr><td data-label="Code" class="code">{r[0]}</td><td data-label="Digits">{r[1]}</td><td data-label="Year range" class="yr">{r[2]}</td></tr>))}</tbody>
+            </table></div>
+            <div class="tablewrap compact m0"><table>
+              <caption>Crafted in Japan (CIJ)</caption>
+              <thead><tr><th>Code</th><th>Digits</th><th>Year range</th></tr></thead>
+              <tbody>{cijRows.map((r) => (<tr><td data-label="Code" class="code">{r[0]}</td><td data-label="Digits">{r[1]}</td><td data-label="Year range" class="yr">{r[2]}</td></tr>))}</tbody>
+            </table></div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- BLOCK 5: APPRAISAL -->
+    <section>
+      <div class="measure">
+        <div class="appraise" id="appraisal">
+          <span class="eyebrow">Free Expert Appraisal</span>
+          <h2>Still Not Sure? Have Joe Confirm It</h2>
+          <p>Vintage Fender serial numbers are notoriously non-sequential and overlap across years. If you want to confirm your guitar is 100% original, send Joe three clear photos (front, back, and headstock) for a free, expert appraisal within 24 hours.</p>
+          <div class="row">
+            <a class="call" href={hrefs.tel}>Call Or Text Joe: {contact.phone}</a>
+            <a class="send" href="/free-appraisal/">Or Send Photos Online</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt0">
+      <div class="measure"><div class="bio" id="about-joe">
+        <LicensedImage src={meta("about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars, holding a vintage guitar" width={150} />
+        <div>
+          <div class="who"><a href="/about-me/">Joe Dampt</a></div>
+          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ five-star reviews</div>
+          <p class="biotext">Joe Dampt is the owner of Joe's Vintage Guitars in Mesa, Arizona, where he's spent more than twelve years buying, appraising, and authenticating vintage instruments full-time. He's personally valued over 10,000 guitars for sellers in all 50 states, served as a traveling appraiser for the Treasure Seekers Roadshow, and sourced instruments for Grammy Award-winning artists. Every chart and method on this page comes from that bench work.</p>
+        </div>
+      </div></div>
+    </section>
+  </div>
+
+  <!-- Floating TOC (sidebar + mobile FAB + sheet), matches the live serial page pattern -->
+  <aside class="fshub-toc" id="fshub-toc" aria-label="Table of contents">
+    <p class="fshub-toc__label">Table Of Contents</p>
+    <ul class="fshub-toc__list">
+      {tocItems.map(([href, label, lvl]) => (<li><a href={href} class={`fshub-toc__h${lvl}`}>{label}</a></li>))}
+    </ul>
+  </aside>
+  <button class="fshub-toc-fab" id="fshub-toc-fab" type="button" aria-expanded="false" aria-controls="fshub-toc-sheet"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>Jump To A Section</button>
+  <div class="fshub-toc-sheet" id="fshub-toc-sheet" role="dialog" aria-label="Jump to a section" aria-modal="false">
+    <div class="fshub-toc-sheet__head"><span>Jump To A Section</span><button class="fshub-toc-sheet__close" id="fshub-toc-sheet-close" type="button" aria-label="Close section list">&times;</button></div>
+    <div class="fshub-toc-sheet__body" id="fshub-toc-sheet-body"></div>
+  </div>
+</Layout>
+
+<style>
+  .fshub-preview-note{background:var(--color-brand-charcoal,#2a2d33);color:#f4efe4;font-family:var(--font-display),sans-serif;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;text-align:center;padding:.5rem 1rem;position:relative;z-index:3;}
+  .fshub-header-backdrop{position:relative;isolation:isolate;z-index:0;}
+  .fshub-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
+  .fshub-header-backdrop__cream{background:#fff;height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}
+
+  .fshub{
+    --paper:#f5efe3; --panel:#ffffff; --panel-2:#f3ead6; --inset:#fffdf8;
+    --ink:var(--color-brand-brown,#3e2a14); --ink-strong:var(--color-brand-brown,#3e2a14);
+    --muted:var(--color-brand-brown-muted,#7a6a54); --line:#ddd0b6;
+    --gold:var(--color-brand-gold,#c8983a); --gold-deep:#8c6a24;
+    --rust:var(--color-brand-rust,#a03a1e); --rust-bright:var(--color-brand-rust-bright,#be4b25);
+    --amber:#f3e3c2; --amber-line:#e3c88a; --darkbrown:#3a2a18; --darkbrown-2:#4a3520;
+    --shadow:0 1px 2px rgba(58,40,23,.06), 0 10px 30px rgba(58,40,23,.08);
+    --fd:var(--font-display), "Oswald", system-ui, sans-serif;
+    --fm:ui-monospace,"SF Mono",Consolas,"Liberation Mono",monospace;
+    --measure:min(92vw,820px);
+    background:var(--paper); color:var(--ink); font-size:17px; line-height:1.6;
+    padding-bottom:1rem;
+  }
+  .fshub [id]{scroll-margin-top:90px;}
+  .fshub h1,.fshub h2,.fshub h3{font-family:var(--fd);font-weight:600;line-height:1.12;margin:0;color:var(--ink-strong);text-wrap:balance;}
+  .fshub h1{font-size:clamp(2rem,4.6vw,2.9rem);letter-spacing:.005em;text-transform:uppercase;}
+  .fshub h2{font-size:clamp(1.5rem,3.1vw,2rem);letter-spacing:.01em;}
+  .fshub h3{font-size:1.12rem;}
+  .fshub p{margin:0;}
+  .fshub a{color:var(--gold-deep);text-underline-offset:2px;}
+  .fshub a:hover{color:var(--rust);}
+  .fshub .measure{width:var(--measure);margin-inline:auto;}
+  .fshub section{padding-block:clamp(2rem,4.5vw,3rem);}
+  .fshub .pt0{padding-top:0;}
+  .fshub .mt{margin-top:.4rem;} .fshub .mt2{margin-top:1.2rem;}
+  .fshub .rule{height:1px;background:var(--line);width:min(94vw,1080px);margin-inline:auto;}
+  .fshub .stack{display:flex;flex-direction:column;gap:1rem;}
+  .fshub .note-sm{font-size:.95rem;color:var(--muted);}
+  .fshub .eyebrow{font-family:var(--fd);font-weight:600;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);display:inline-flex;align-items:center;gap:.6em;}
+  .fshub .eyebrow::before{content:"";width:24px;height:3px;background:var(--gold);}
+  .fshub a.spoke{color:var(--gold-deep);text-decoration:none;border-bottom:1.5px dotted var(--gold);font-weight:600;}
+  .fshub a.spoke:hover{color:var(--rust);border-bottom-color:var(--rust);}
+
+  .fshub .hero{padding-top:clamp(1.6rem,4vw,2.6rem);padding-bottom:1.4rem;}
+  .fshub .lead{font-size:1.16rem;color:var(--muted);margin-top:.2rem;}
+  .fshub .trust{display:flex;flex-wrap:wrap;gap:.4rem .9rem;font-family:var(--fm);font-size:.76rem;color:var(--muted);}
+  .fshub .trust span{display:inline-flex;align-items:center;gap:.45rem;}
+  .fshub .trust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--rust);}
+
+  .fshub .plate{position:relative;margin-top:1.4rem;background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:clamp(1.1rem,3vw,1.7rem);box-shadow:var(--shadow);}
+  .fshub .bolt{position:absolute;width:11px;height:11px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fdf9f0,#b39a6a 62%,#7a6540);box-shadow:inset 0 0 0 1px rgba(0,0,0,.15);}
+  .fshub .bolt.tl{top:10px;left:10px}.fshub .bolt.tr{top:10px;right:10px}.fshub .bolt.bl{bottom:10px;left:10px}.fshub .bolt.br{bottom:10px;right:10px}
+  .fshub .stamp{font-family:var(--fm);font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:.6rem;}
+  .fshub .decoder{display:flex;gap:.55rem;flex-wrap:wrap;}
+  .fshub .decoder input{flex:1 1 220px;min-width:0;font-family:var(--fm);font-size:1.15rem;letter-spacing:.12em;text-transform:uppercase;padding:.85rem 1rem;border-radius:7px;border:1px solid var(--line);background:var(--inset);color:var(--ink);}
+  .fshub .decoder input::placeholder{color:var(--muted);letter-spacing:.04em;text-transform:none;opacity:.7;}
+  .fshub .btn{font-family:var(--fd);font-weight:600;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;border:1px solid var(--rust);background:var(--rust);color:#fff;padding:.8rem 1.4rem;border-radius:7px;}
+  .fshub .btn:hover{background:var(--rust-bright);}
+  .fshub .result{margin-top:.9rem;border-top:1px dashed var(--line);padding-top:.9rem;display:none;}
+  .fshub .result.show{display:block;}
+  .fshub .verdict{font-family:var(--fd);font-weight:500;font-size:1.25rem;color:var(--ink-strong);}
+  .fshub .verdict b{color:var(--rust);}
+  .fshub .result .note{font-size:.92rem;color:var(--muted);margin-top:.45rem;}
+  .fshub .cta-inline{display:inline-block;margin-top:.55rem;font-family:var(--fd);font-weight:600;text-transform:uppercase;font-size:.8rem;letter-spacing:.04em;color:var(--rust);text-decoration:none;border-bottom:2px solid var(--gold);}
+  .fshub details.locate{margin-top:.9rem;border:1px solid var(--line);border-radius:8px;background:var(--inset);overflow:hidden;}
+  .fshub details.locate>summary{cursor:pointer;list-style:none;padding:.7rem .9rem;font-family:var(--fd);font-weight:500;font-size:.95rem;color:var(--ink);display:flex;align-items:center;gap:.5rem;}
+  .fshub details.locate>summary::-webkit-details-marker{display:none;}
+  .fshub details.locate>summary::before{content:"?";display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:var(--gold);color:#2f2011;font-family:var(--fd);font-weight:700;font-size:.8rem;}
+  .fshub details.locate .locimg{padding:.9rem;border-top:1px solid var(--line);}
+  .fshub details.locate img{display:block;width:100%;height:auto;border-radius:6px;}
+  .fshub details.locate .cap{margin-top:.5rem;font-size:.82rem;color:var(--muted);}
+
+  .fshub .badges{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.7rem;}
+  .fshub .badge{display:flex;align-items:center;gap:.7rem;border:1px solid var(--line);background:var(--panel);border-radius:9px;padding:.75rem .9rem;}
+  .fshub .badge .ic{flex:0 0 auto;width:34px;height:34px;border-radius:50%;background:var(--panel-2);border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;color:var(--rust);}
+  .fshub .badge .ic svg{width:16px;height:16px;display:block;}
+  .fshub .badge .t{font-family:var(--fd);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.03em;color:var(--ink-strong);line-height:1.25;}
+  .fshub .badge .t small{display:block;font-family:var(--font-sans),sans-serif;font-weight:400;text-transform:none;letter-spacing:0;font-size:.78rem;color:var(--muted);}
+
+  .fshub .cards3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;}
+  .fshub a.mcard{display:flex;flex-direction:column;gap:.5rem;text-decoration:none;color:inherit;border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:10px;padding:1.2rem;background:var(--panel);transition:transform .12s,box-shadow .12s;}
+  .fshub a.mcard:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-top-color:var(--rust);}
+  .fshub a.mcard .num{font-family:var(--fm);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--rust);}
+  .fshub a.mcard p{font-size:.92rem;color:var(--muted);flex:1;}
+  .fshub a.mcard .go{font-family:var(--fd);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em;color:var(--gold-deep);}
+  .fshub a.mcard .go::after{content:" \2192";}
+  .fshub a.mcard:hover .go{color:var(--rust);}
+  .fshub .chips{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:.2rem;}
+  .fshub .chips a{font-family:var(--fd);font-weight:500;font-size:.9rem;text-decoration:none;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:.45rem .85rem;border-radius:999px;}
+  .fshub .chips a:hover{border-color:var(--gold);color:var(--rust);}
+
+  .fshub .videopanel{background:var(--darkbrown);color:#f0e1c1;border-radius:14px;padding:clamp(1.2rem,3vw,1.7rem);margin:.5rem 0 .4rem;box-shadow:var(--shadow);background:linear-gradient(135deg,var(--darkbrown-2),var(--darkbrown));}
+  .fshub .videopanel h3{color:var(--gold);font-size:1.35rem;margin-bottom:.45rem;}
+  .fshub .videopanel>p{color:#e6dcc8;font-size:.98rem;margin-bottom:1rem;}
+  .fshub .videowrap{border:1px solid rgba(200,152,58,.35);border-radius:10px;overflow:hidden;background:#000;line-height:0;}
+  .fshub .videowrap lite-youtube{max-width:none;width:100%;}
+  .fshub .vcap{background:rgba(255,255,255,.06);border:1px solid rgba(244,239,228,.15);border-radius:8px;padding:.7rem .9rem;font-size:.85rem;font-style:italic;text-align:center;color:#cfc4ac;margin-top:.9rem;}
+
+  .fshub .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);margin-bottom:1.4rem;}
+  .fshub .tablewrap.m0{margin:0;}
+  .fshub table{border-collapse:collapse;width:100%;min-width:520px;background:var(--panel);}
+  .fshub .tablewrap.compact table{min-width:0;}
+  .fshub caption{text-align:left;font-family:var(--fd);font-weight:600;text-transform:uppercase;letter-spacing:.04em;padding:.7rem 1rem;background:var(--panel-2);color:var(--ink-strong);border-bottom:1px solid var(--line);font-size:1rem;}
+  .fshub th,.fshub td{text-align:left;padding:.6rem 1rem;border-bottom:1px solid var(--line);vertical-align:top;font-size:.94rem;}
+  .fshub thead th{font-family:var(--fm);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);background:var(--panel-2);}
+  .fshub tbody tr:last-child td{border-bottom:0;}
+  .fshub tbody tr:nth-child(even){background:color-mix(in srgb,var(--panel-2) 45%,transparent);}
+  .fshub .code{font-family:var(--fm);font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap;}
+  .fshub .yr{font-family:var(--fm);color:var(--rust);font-weight:600;white-space:nowrap;}
+  .fshub .warntxt{color:var(--rust);font-weight:600;}
+  .fshub h3.tbl{margin:1.6rem 0 .15rem;font-size:1.18rem;display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;}
+  .fshub h3.tbl.sub-h{margin-top:1.4rem;}
+  .fshub h3.tbl .tag{font-family:var(--fm);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--gold-deep);padding:.12rem .45rem;border-radius:4px;}
+  .fshub .sub{margin:0 0 .5rem;font-size:.9rem;color:var(--muted);}
+  .fshub .secintro{margin:.15rem 0 .8rem;font-size:.97rem;max-width:70ch;color:var(--ink);}
+  .fshub .expert{border-left:3px solid var(--gold);padding-left:.9rem;font-size:.94rem;color:var(--muted);margin-bottom:1.4rem;}
+  .fshub .expert b{color:var(--ink);}
+  .fshub details.more{border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden;margin-bottom:1.4rem;}
+  .fshub details.more>summary{cursor:pointer;padding:.8rem 1rem;font-family:var(--fd);font-weight:600;text-transform:uppercase;letter-spacing:.03em;list-style:none;color:var(--ink-strong);background:var(--panel-2);}
+  .fshub details.more>summary::-webkit-details-marker{display:none;}
+  .fshub .japan-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;padding:1rem;}
+  .fshub .japan-grid th,.fshub .japan-grid td{padding:.5rem .7rem;}
+
+  .fshub .figrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin:.2rem 0 1rem;}
+  .fshub .figrow.single{grid-template-columns:minmax(230px,540px);}
+  .fshub figure.sfig{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow);}
+  .fshub figure.sfig img{display:block;width:100%;height:auto;background:var(--panel-2);}
+  .fshub figure.sfig figcaption{padding:.55rem .8rem;font-family:var(--fm);font-size:.7rem;color:var(--muted);border-top:1px solid var(--line);}
+  .fshub .tip{background:linear-gradient(135deg,var(--darkbrown-2),var(--darkbrown));color:#f0e1c1;border-radius:10px;padding:1rem 1.15rem;margin:.2rem 0 1.4rem;font-size:.95rem;}
+  .fshub .tip::before{content:"JOE'S TIP";display:block;font-family:var(--fd);font-weight:600;letter-spacing:.14em;color:var(--gold);font-size:.78rem;margin-bottom:.4rem;}
+  .fshub .tip b{color:#e0be79;} .fshub .tip a{color:#e0be79;border-bottom:1.5px dotted #e0be79;text-decoration:none;}
+  .fshub .tip .tipafter{margin-top:.5rem;}
+  .fshub .tip .tipimg{margin-top:.75rem;border-radius:8px;overflow:hidden;max-width:540px;}
+  .fshub .tip .tipimg img{display:block;width:100%;height:auto;}
+
+  .fshub .appraise{background:var(--amber);border:1px solid var(--amber-line);border-left:5px solid var(--rust);border-radius:12px;padding:clamp(1.4rem,3.5vw,2rem);box-shadow:var(--shadow);}
+  .fshub .appraise h2{margin-bottom:.5rem;}
+  .fshub .appraise p{color:var(--ink);font-size:1.02rem;}
+  .fshub .appraise .row{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.1rem;align-items:center;}
+  .fshub .appraise .call{font-family:var(--fd);font-weight:700;font-size:1.15rem;letter-spacing:.02em;color:#fff;background:var(--rust);text-decoration:none;padding:.7rem 1.3rem;border-radius:8px;}
+  .fshub .appraise .call:hover{background:var(--rust-bright);}
+  .fshub .appraise .send{font-family:var(--fd);font-weight:600;text-transform:uppercase;font-size:.86rem;letter-spacing:.04em;color:var(--rust);text-decoration:none;border-bottom:2px solid var(--gold);}
+
+  .fshub .bio{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.3rem;background:var(--panel);}
+  .fshub .bio img{flex:0 0 auto;width:76px;height:76px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);}
+  .fshub .bio .who{font-family:var(--fd);font-weight:600;font-size:1.2rem;text-transform:uppercase;letter-spacing:.02em;}
+  .fshub .bio .who a{color:var(--ink-strong);text-decoration:none;border-bottom:2px solid var(--gold);}
+  .fshub .bio .cred{font-family:var(--fm);font-size:.72rem;color:var(--muted);margin-top:.2rem;}
+  .fshub .bio .biotext{margin-top:.55rem;font-size:.95rem;color:var(--muted);}
+
+  /* mobile card tables */
+  @media (max-width:719px){
+    .fshub .tablewrap{overflow:visible;border:0;border-radius:0;box-shadow:none;}
+    .fshub .tablewrap table{min-width:0;width:100%;display:block;background:transparent;}
+    .fshub .tablewrap thead{display:none;}
+    .fshub .tablewrap caption{display:block;background:transparent;border:0;padding:.2rem 0 .5rem;}
+    .fshub .tablewrap tbody{display:grid;grid-template-columns:1fr;gap:.65rem;}
+    .fshub .tablewrap.compact tbody{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));}
+    .fshub .tablewrap tr{display:block;border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:.7rem .85rem;box-shadow:var(--shadow);}
+    .fshub .tablewrap tbody tr:nth-child(even){background:var(--panel);}
+    .fshub .tablewrap td{display:block;border:0;padding:.25rem 0;font-size:.95rem;}
+    .fshub .tablewrap td::before{content:attr(data-label);display:block;font-family:var(--fm);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.1rem;}
+    .fshub .tablewrap .code,.fshub .tablewrap .yr{white-space:normal;}
+  }
+
+  /* floating TOC */
+  .fshub-toc{display:none;z-index:25;background:#fff;border:1px solid var(--color-brand-brown-tan,#d2b48c);border-radius:10px;width:280px;max-height:calc(100vh - 160px);padding:16px 18px;position:fixed;top:120px;right:24px;overflow-y:auto;box-shadow:0 2px 12px rgba(0,0,0,.08);}
+  @media (min-width:1440px){.fshub-toc{display:block;}}
+  .fshub-toc__label{font-family:var(--font-display),sans-serif;text-transform:uppercase;letter-spacing:.13em;color:var(--color-brand-brown,#3e2a14);border-bottom:1px solid #a03a1e2e;margin:0 0 10px;padding-bottom:8px;font-size:12px;font-weight:700;}
+  .fshub-toc__list{margin:0;padding:0;font-size:12.5px;line-height:1.4;list-style:none;}
+  .fshub-toc__list li{margin:0;}
+  .fshub-toc__list a{color:var(--color-brand-brown-muted,#6c5238);border-radius:4px;padding:4px 6px;text-decoration:none;display:block;}
+  .fshub-toc__list a:hover{background:var(--color-brand-cream-warm,#f5ead4);color:var(--color-brand-rust,#a03a1e);}
+  .fshub-toc__h2{margin-top:6px;font-weight:700;color:var(--color-brand-brown,#3e2a14);}
+  .fshub-toc__h3{font-size:12px;padding-left:14px;}
+  .fshub-toc-fab{display:none;}
+  .fshub-toc-sheet{display:none;}
+  @media (max-width:1439.98px){
+    .fshub-toc-fab{z-index:45;background:var(--color-brand-rust-bright,#be4b25);color:#fff;font-family:var(--font-display),sans-serif;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;border:none;border-radius:999px;align-items:center;gap:8px;padding:11px 18px;font-size:13px;font-weight:600;display:inline-flex;position:fixed;bottom:1.5rem;left:16px;box-shadow:0 4px 16px rgba(0,0,0,.28);}
+    .fshub-toc-fab svg{width:18px;height:18px;}
+    .fshub-toc-fab[aria-expanded="true"]{background:var(--color-brand-rust-dark,#682412);}
+    .fshub-toc-sheet{z-index:46;opacity:0;visibility:hidden;background:#fff;border:1px solid #a03a1e33;border-radius:12px;flex-direction:column;width:min(340px,100vw - 32px);max-height:60vh;transition:opacity .2s,transform .2s,visibility .2s;display:flex;position:fixed;bottom:5rem;left:16px;overflow-y:auto;transform:translateY(12px);box-shadow:0 10px 34px rgba(0,0,0,.28);}
+    .fshub-toc-sheet.fshub-toc-sheet--open{opacity:1;visibility:visible;transform:translateY(0);}
+  }
+  .fshub-toc-sheet__head{font-family:var(--font-display),sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--color-brand-rust-dark,#682412);background:#fff;border-bottom:1px solid #a03a1e26;justify-content:space-between;align-items:center;padding:12px 16px;font-size:13px;font-weight:700;display:flex;position:sticky;top:0;}
+  .fshub-toc-sheet__close{color:var(--color-brand-brown-muted,#6c5238);cursor:pointer;background:none;border:none;padding:0 4px;font-size:24px;line-height:1;}
+  .fshub-toc-sheet__body{padding:8px 10px;}
+  .fshub-toc-sheet__body .fshub-toc__list{font-size:14px;}
+  .fshub-toc-sheet__body .fshub-toc__list a{padding:8px 6px;}
+</style>
+
+<script is:inline>
+  (function () {
+    var V = [
+      {re:/^L\d{4,6}$/i, y:"L-series: 1963 to 1965", vint:1, n:"Pre-CBS, straddling the CBS takeover. Confirm with the neck heel date."},
+      {re:/^F?\d{6}$/i, y:"Big F-plate era: 1965 to 1976", vint:1, n:"CBS-era six-digit plate. The year ranges are estimates, so cross-check the neck date."},
+      {re:/^\d{4,5}$/, y:"Neck-plate era: likely 1954 to 1963", vint:1, n:"Pre-CBS four or five digit plate, or a later reissue reusing the format. The neck heel date settles it."},
+      {re:/^S\d{4,6}$/i, y:"S-prefix: 1970s", vint:0, n:"Headstock decal era. The digit after S is the year within the decade."},
+      {re:/^E\d{4,6}$/i, y:"E-prefix: 1980s", vint:0, n:"Headstock decal era. Confirm the exact year with the neck heel date."},
+      {re:/^N\d{4,7}$/i, y:"N-prefix: 1990s", vint:0, n:"N means the nineties. The next digit is the year."},
+      {re:/^Z\d{4,7}$/i, y:"Z-prefix: 2000s USA", vint:0, n:"Z means the 2000s. The next digit is the year."},
+      {re:/^US\d{4,}$/i, y:"US-prefix: 2010s onward", vint:0, n:"The first two digits after US are the year. US10 means 2010."},
+      {re:/^JD\d{4,}$/i, y:"JD: Japan Dyna, 2010s", vint:0, n:"The first two digits are the year."},
+      {re:/^(CA|CB|CE)\d{4,6}$/i, y:"Rare 1980s prefix", vint:0, n:"A limited-edition CBS-era run. Same formula as the standard decals, the first digit after the prefix is the year. CA ties to Gold Stratocasters, CB and CE to Precision Bass Specials, Gold Jazz Basses, and Black and Gold Telecasters."},
+      {re:/^MN\d{4,6}$/i, y:"MN: Made in Mexico, 1990s", vint:0, n:"M means Mexico, N means the nineties. The next digit is the year. MN0 means 1990."},
+      {re:/^MZ\d{4,6}$/i, y:"MZ: Made in Mexico, 2000s", vint:0, n:"M means Mexico, Z means the 2000s. The next digit is the year in the decade."},
+      {re:/^MX\d{5,}$/i, y:"MX: Made in Mexico, 2010 onward", vint:0, n:"The one or two digits after MX are the year. MX12 means 2012."},
+      {re:/^(JV|SQ)\d+$/i, y:"Early Made in Japan: 1982 to 1984", vint:0, n:"Read these off the Japan table, not the US logic."},
+      {re:/^CN\d+$/i, y:"Custom Shop: CN, 1990s", vint:0, n:"C means Custom Shop, N means the 90s, and the next digit is the year."},
+      {re:/^CZ\d+$/i, y:"Custom Shop: CZ, 2000s", vint:0, n:"C means Custom Shop, Z means the 2000s, and the next digit is the year."},
+      {re:/^R\d+$/i, y:"Custom Shop: R-prefix", vint:1, n:"R doesn't stand for Relic or Reissue, and there's no reliable dating scheme for it. Reference the COA, or check the neck heel dates and pot codes."},
+      {re:/^V\d{4,7}$/i, y:"V-prefix: American Vintage reissue", vint:1, n:"A reissue, never a vintage original. Fender skipped any clean year formula here, so use the neck heel date."}
+    ];
+    var f = document.getElementById('decoder'), inp = document.getElementById('serial'),
+        res = document.getElementById('result'), ver = document.getElementById('verdict'), note = document.getElementById('note');
+    if (f) f.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var s = (inp.value || '').trim().replace(/\s+/g, '').toUpperCase();
+      if (!s) { res.classList.remove('show'); return; }
+      var hit = null;
+      for (var i = 0; i < V.length; i++) { if (V[i].re.test(s)) { hit = V[i]; break; } }
+      if (hit) {
+        ver.innerHTML = '<b>' + s + '</b> → ' + hit.y;
+        if (hit.vint) {
+          note.innerHTML = hit.n + ' Vintage Fenders never made it into any official database, so treat this as a starting point. Cross-date it with <a class="spoke" href="/fender-pot-codes/">pot codes</a>, the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>, and <a class="spoke" href="/fender-physical-dating/">body dates</a>. <a class="cta-inline" href="#cross-check">See all dating methods</a>';
+        } else {
+          note.innerHTML = hit.n + ' <a class="spoke" href="#charts">See the full chart</a>. Confirm the exact year with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>.';
+        }
+      } else {
+        ver.innerHTML = '<b>' + s + '</b> → no automatic match';
+        note.innerHTML = 'That’s common and usually fine. Official lookups only track roughly the last 30 years, and plenty of real serials never match a tidy pattern. Cross-date it with <a class="spoke" href="/fender-pot-codes/">pot codes</a>, the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>, and <a class="spoke" href="/fender-physical-dating/">body dates</a>. <a class="cta-inline" href="#cross-check">See all dating methods</a>';
+      }
+      res.classList.add('show');
+    });
+
+    // Floating TOC: clone list into the mobile sheet, wire FAB
+    var list = document.querySelector('#fshub-toc .fshub-toc__list');
+    var body = document.getElementById('fshub-toc-sheet-body');
+    if (list && body) body.appendChild(list.cloneNode(true));
+    var fab = document.getElementById('fshub-toc-fab'),
+        sheet = document.getElementById('fshub-toc-sheet'),
+        closeBtn = document.getElementById('fshub-toc-sheet-close');
+    function setOpen(o) { if (!sheet) return; sheet.classList.toggle('fshub-toc-sheet--open', o); if (fab) fab.setAttribute('aria-expanded', o ? 'true' : 'false'); }
+    if (fab) fab.addEventListener('click', function () { setOpen(!sheet.classList.contains('fshub-toc-sheet--open')); });
+    if (closeBtn) closeBtn.addEventListener('click', function () { setOpen(false); });
+    document.addEventListener('click', function (e) { if (sheet && fab && !sheet.contains(e.target) && !fab.contains(e.target)) setOpen(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+    if (sheet) sheet.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a[href="#locate"]');
+      if (a) { var d = document.getElementById('locate'); if (d && d.tagName === 'DETAILS') d.open = true; }
+    });
+  })();
+</script>
