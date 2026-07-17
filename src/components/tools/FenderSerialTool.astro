@@ -111,6 +111,14 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
         <a href="tel:+16029006635">602-900-6635</a>, or
         <a href="/contact-me/">contact us online</a>.
       </p>
+      <a class="fsn2-appraisal" href="/free-appraisal/">
+        <span class="fsn2-appraisal-icon" aria-hidden="true">💰</span>
+        <span class="fsn2-appraisal-text">
+          <strong>Curious what your Fender is worth?</strong>
+          Get Joe's free, no-obligation appraisal
+        </span>
+        <span class="fsn2-appraisal-arrow" aria-hidden="true">→</span>
+      </a>
       <div class="fsn2-warning" data-fsn2-warning hidden>
         <strong>⚠️ R-Prefix Warning:</strong> R-prefix serial numbers are
         <strong>not a reliable dating method</strong> for Fender Custom Shop guitars. The R number
@@ -138,6 +146,33 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
           <li><a href="/fender-guitars-serial-number-guide/#logo-evolution">Logo & decal dating</a></li>
         </ul>
       </div>
+
+      <form class="fsn2-emailcap" data-fsn2-emailcap novalidate>
+        <p class="fsn2-emailcap-title">📩 Email me this dating report</p>
+        <p class="fsn2-emailcap-lede">
+          We'll send your serial, its approximate year, the cross-dating checklist, and what drives
+          the value — plus a quick way to get it appraised. No spam.
+        </p>
+        <div class="fsn2-emailcap-row">
+          <label class="fsn2-visually-hidden" for="fsn2-email">Your email address</label>
+          <input
+            id="fsn2-email"
+            type="email"
+            name="email"
+            placeholder="you@example.com"
+            autocomplete="email"
+            data-fsn2-email
+            required
+          />
+          <button type="submit" class="fsn2-emailcap-btn" data-fsn2-email-submit>Email it to me</button>
+        </div>
+        <label class="fsn2-emailcap-consent">
+          <input type="checkbox" name="consent" data-fsn2-consent />
+          <span>Email me my dating report and it's OK for Joe's Vintage Guitars to follow up. You can opt out anytime.</span>
+        </label>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="fsn2-visually-hidden" aria-hidden="true" data-fsn2-hp />
+        <p class="fsn2-emailcap-status" data-fsn2-email-status role="status" aria-live="polite" hidden></p>
+      </form>
     </div>
 
     <div class="fsn2-fallback" data-fsn2-fallback hidden tabindex="-1">
@@ -177,7 +212,39 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     const warning = root.querySelector<HTMLElement>("[data-fsn2-warning]")!;
     const steps = Array.from(root.querySelectorAll<HTMLFieldSetElement>("[data-fsn2-step]"));
 
+    // Email-capture elements (optional — the card lives inside the result box)
+    const emailForm = root.querySelector<HTMLFormElement>("[data-fsn2-emailcap]");
+    const emailInput = root.querySelector<HTMLInputElement>("[data-fsn2-email]");
+    const consentInput = root.querySelector<HTMLInputElement>("[data-fsn2-consent]");
+    const honeypot = root.querySelector<HTMLInputElement>("[data-fsn2-hp]");
+    const emailStatus = root.querySelector<HTMLElement>("[data-fsn2-email-status]");
+    const emailSubmit = root.querySelector<HTMLButtonElement>("[data-fsn2-email-submit]");
+
     let serial = "";
+
+    /** Fire a dataLayer event for GA4/Zaraz/GTM. No-ops until a tag is live. */
+    const track = (event: string, data: Record<string, unknown> = {}) => {
+      try {
+        const w = window as unknown as { dataLayer?: unknown[] };
+        (w.dataLayer = w.dataLayer || []).push({ event, ...data });
+      } catch {
+        /* analytics must never break the tool */
+      }
+    };
+
+    /** "MZ0123" -> "MZ", "S812345" -> "S", "200000" -> "numeric". */
+    const serialPrefix = (s: string) => (s.match(/^[A-Za-z]+/)?.[0].toUpperCase() ?? "numeric");
+
+    const resetEmailCard = () => {
+      if (!emailForm) return;
+      emailForm.reset();
+      if (emailStatus) {
+        emailStatus.hidden = true;
+        emailStatus.textContent = "";
+        emailStatus.classList.remove("is-error", "is-ok");
+      }
+      if (emailSubmit) emailSubmit.disabled = false;
+    };
 
     const hideAll = () => {
       for (const s of steps) s.hidden = true;
@@ -201,12 +268,19 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
         serialPill.textContent = serial.toUpperCase();
         yearValue.textContent = outcome.year;
         warning.hidden = !outcome.warn;
+        resetEmailCard();
         resultBox.hidden = false;
         resultBox.focus();
+        track("fender_serial_decode", {
+          outcome: "result",
+          serial_prefix: serialPrefix(serial),
+          decoded_year: outcome.year,
+        });
         return;
       }
       fallbackBox.hidden = false;
       fallbackBox.focus();
+      track("fender_serial_decode", { outcome: "fallback", serial_prefix: serialPrefix(serial) });
     };
 
     form.addEventListener("submit", (e) => {
@@ -234,9 +308,74 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
       serial = "";
       input.value = "";
       hideAll();
+      resetEmailCard();
       resetBtn.hidden = true;
       input.focus();
     });
+
+    if (emailForm && emailInput && emailStatus && emailSubmit) {
+      const showStatus = (msg: string, ok: boolean) => {
+        emailStatus.textContent = msg;
+        emailStatus.classList.toggle("is-ok", ok);
+        emailStatus.classList.toggle("is-error", !ok);
+        emailStatus.hidden = false;
+      };
+
+      emailForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        // Honeypot: a filled hidden field means a bot — silently "succeed".
+        if (honeypot && honeypot.value.trim() !== "") {
+          showStatus("Thanks! Check your inbox shortly.", true);
+          return;
+        }
+        const email = emailInput.value.trim();
+        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+          showStatus("Please enter a valid email address.", false);
+          emailInput.focus();
+          return;
+        }
+        if (consentInput && !consentInput.checked) {
+          showStatus("Please check the box so we can email your report.", false);
+          consentInput.focus();
+          return;
+        }
+        const year = yearValue.textContent?.trim() ?? "";
+        if (!serial || !year) {
+          showStatus("Decode a serial number first, then request the report.", false);
+          return;
+        }
+
+        emailSubmit.disabled = true;
+        showStatus("Sending your report…", true);
+        try {
+          const res = await fetch("/api/serial-report", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({
+              email,
+              serial,
+              year,
+              consent: true,
+              _gotcha: honeypot?.value ?? "",
+            }),
+          });
+          const data = (await res.json().catch(() => ({}))) as { ok?: boolean; error?: string };
+          if (res.ok && data.ok) {
+            showStatus("Sent! Check your inbox for your Fender dating report.", true);
+            track("fender_serial_report_request", {
+              serial_prefix: serialPrefix(serial),
+              decoded_year: year,
+            });
+          } else {
+            emailSubmit.disabled = false;
+            showStatus(data.error || "Something went wrong. Please try again.", false);
+          }
+        } catch {
+          emailSubmit.disabled = false;
+          showStatus("Network error. Please try again.", false);
+        }
+      });
+    }
   }
 </script>
 
@@ -467,6 +606,93 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     margin: 0 0 12px;
     color: var(--color-brand-brown);
   }
+
+  /* ── Appraisal value bridge ───────────────────────────────────────────── */
+  .fsn2-appraisal {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, var(--color-brand-rust-dark) 0%, var(--color-brand-rust) 100%);
+    color: var(--color-brand-cream);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 0 0 12px;
+    transition: filter 0.15s, transform 0.15s;
+  }
+  .fsn2-appraisal:hover { filter: brightness(1.08); transform: translateY(-1px); }
+  .fsn2-appraisal:focus-visible { outline: 3px solid var(--color-brand-gold); outline-offset: 2px; }
+  .fsn2-appraisal-icon { font-size: 1.5rem; line-height: 1; }
+  .fsn2-appraisal-text { flex: 1; font-size: 0.9rem; line-height: 1.35; }
+  .fsn2-appraisal-text strong { display: block; font-family: var(--font-display); font-size: 1rem; color: #fff; }
+  .fsn2-appraisal-arrow { font-size: 1.3rem; color: var(--color-brand-gold); }
+
+  /* ── Email-me-this-report capture ─────────────────────────────────────── */
+  .fsn2-visually-hidden {
+    position: absolute !important;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0);
+    white-space: nowrap; border: 0;
+  }
+  .fsn2-emailcap {
+    margin: 16px 0 0;
+    padding: 16px 18px;
+    background: #fbf7ef;
+    border: 1px dashed #d9cdb8;
+    border-radius: 10px;
+  }
+  .fsn2-emailcap-title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--color-brand-brown);
+    margin: 0 0 4px;
+  }
+  .fsn2-emailcap-lede { font-size: 0.82rem; color: var(--color-brand-brown-muted, #6b4f2e); margin: 0 0 12px; }
+  .fsn2-emailcap-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .fsn2-emailcap-row input[type="email"] {
+    flex: 1 1 200px;
+    border: 2px solid #d9cdb8;
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    color: var(--color-brand-brown);
+  }
+  .fsn2-emailcap-row input[type="email"]:focus {
+    outline: 3px solid var(--color-brand-gold);
+    outline-offset: 1px;
+    border-color: var(--color-brand-rust);
+  }
+  .fsn2-emailcap-btn {
+    font-family: var(--font-display);
+    font-weight: 600;
+    background: var(--color-brand-rust);
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .fsn2-emailcap-btn:hover { background: var(--color-brand-rust-bright); }
+  .fsn2-emailcap-btn:disabled { opacity: 0.6; cursor: default; }
+  .fsn2-emailcap-consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 10px 0 0;
+    font-size: 0.78rem;
+    color: var(--color-brand-brown-muted, #6b4f2e);
+    line-height: 1.35;
+  }
+  .fsn2-emailcap-consent input { margin-top: 2px; }
+  .fsn2-emailcap-status { margin: 10px 0 0; font-size: 0.85rem; font-weight: 600; }
+  .fsn2-emailcap-status.is-ok { color: #2e6b3e; }
+  .fsn2-emailcap-status.is-error { color: var(--color-brand-rust-bright); }
+
   .fsn2-fallback {
     background: #fdf3e7;
     border: 2px solid #e4cfa8;
