@@ -1,0 +1,447 @@
+---
+/**
+ * Fender pot codes spoke, CONDENSED REBUILD, preview build.
+ *
+ * First of the hub-and-spoke method pages behind the condensed Fender serial
+ * rebuild (see fender-serial-hub-preview.astro). Deep-dives the potentiometer
+ * date-code method the hub only summarizes, so the hub's "/fender-pot-codes/"
+ * card now resolves.
+ *
+ * Noindex + sitemap-excluded + X-Robots-Tag (astro.config.mjs SITEMAP_EXCLUDE
+ * and public/_headers), same preview pattern as the hub and /fender-serial-tool-v2/.
+ * Content facts trace to Joe's live serial page and VG_FACTS.md (joes-vintage-
+ * databases): VG-0047, VG-0048, VG-0099, VG-0100, VG-0101, VG-0102.
+ *
+ * MAKER-CODE NOTE: the live serial page's maker-code text LIST transposes
+ * Centralab and Stackpole (it reads 304 = Centralab, 134 = Stackpole). Joe's OWN
+ * annotated photos on that same page, VG_FACTS (VG-0047/0101), and the EIA
+ * standard all give 134 = Centralab and 304 = Stackpole, which is what this page
+ * uses. Live-page text flagged for a fix.
+ */
+import Layout from "../layouts/Layout.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import { resolveImage, assetSrc } from "../lib/images";
+import { contact, hrefs, SITE_URL } from "../config/site";
+
+const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
+const img = (file: string) => assetSrc("images/fender-sn/" + file);
+
+const PAGE_PATH = "/fender-pot-codes/";
+const HUB_PATH = "/fender-guitars-serial-number-guide/";
+
+// ---- Data ----
+const makerRows = [
+  ["106", "Clarostat"],
+  ["134", "Centralab"],
+  ["137", "CTS (Chicago Telephone Supply)"],
+  ["304", "Stackpole"],
+];
+const dateRows = [
+  ["3-Digit Date Code", "First digit is the last digit of the year. The next two digits are the week.", "137 8 25", "CTS, week 25 of 1958"],
+  ["4-Digit Date Code", "First two digits are the last two of the year. The next two digits are the week.", "304 64 03", "Stackpole, week 3 of 1964"],
+];
+
+const tocItems: [string, string][] = [
+  ["#what", "What A Pot Code Is"],
+  ["#find", "Where To Find The Code"],
+  ["#step1", "Step 1: The Maker Code"],
+  ["#step2", "Step 2: The Date Code"],
+  ["#golden", "The Golden Rule"],
+  ["#limits", "What It Can't Prove"],
+  ["#cross", "Cross-Check The Date"],
+  ["#faq", "Common Questions"],
+  ["#appraisal", "Free Expert Appraisal"],
+  ["#about-joe", "About Joe"],
+];
+
+const faqs = [
+  {
+    q: "Do I Have To Take My Guitar Apart To Read The Pot Codes?",
+    a: "You need to see the back or the side of the potentiometers, which usually means removing the pickguard or a back control cover. If you aren't comfortable doing that, don't force it. Send me clear photos and I'll read the codes for you, or bring the guitar by.",
+  },
+  {
+    q: "My Pot Code Is Older Than My Serial Number Suggests. Is That A Problem?",
+    a: "Usually not. A pot code dates the pot, and the guitar was assembled on or after that date, so a pot slightly older than the build is exactly what you want to see. A pot dated years newer than the rest of the guitar is the real red flag.",
+  },
+  {
+    q: "What If My Fender Has Two Different Pot Dates?",
+    a: "That's common and fine when the dates sit within a few weeks or months of each other. Majority rules. If three pots read early 1962 and one reads late 1963, the odd one out is almost certainly a replacement, not the build date.",
+  },
+  {
+    q: "Can A Pot Code Fake A Vintage Date?",
+    a: "Not without swapping the whole pot, and a replaced pot gives itself away with fresh solder and a date that breaks from the others. That difficulty is exactly why original pots are one of the most reliable dating tools you have.",
+  },
+  {
+    q: "Does A Correct Pot Code Prove My Guitar Is All Original?",
+    a: "No. It dates that one pot. Originality is a whole-guitar judgment that weighs the neck date, the pickups, the tuners, the hardware, and the finish together. Send me three photos and I'll give you the real story for free.",
+  },
+];
+
+// ---- Schema ----
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "How To Read Fender Pot Codes And Date Your Guitar",
+  description:
+    "Read the maker and date code stamped on your Fender's potentiometers to date the guitar to the week, then cross-check it against the neck date. A step-by-step pot-code guide from a vintage Fender appraiser.",
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+  image: img("cts-pot-code-for-fender-guitars-rotated.jpg"),
+  inLanguage: "en-US",
+  mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
+  isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+    { "@type": "ListItem", position: 2, name: "Fender Serial Number Guide", item: `${SITE_URL}${HUB_PATH}` },
+    { "@type": "ListItem", position: 3, name: "Fender Pot Codes", item: `${SITE_URL}${PAGE_PATH}` },
+  ],
+};
+---
+
+<Layout
+  title="How To Read Fender Pot Codes: Potentiometer Dating Guide (Preview)"
+  description="Read the maker and date code stamped on your Fender's pots to date the guitar to the week. A step-by-step potentiometer dating guide from a vintage Fender appraiser."
+  canonical={PAGE_PATH}
+  ogImage={`${SITE_URL}${img("cts-pot-code-for-fender-guitars-rotated.jpg")}`}
+  ogImageAlt="A CTS potentiometer on a vintage Fender with the maker code 137 and date code visible"
+  ogType="article"
+  noIndex={true}
+  structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
+>
+  <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
+  <div class="fspot-header-backdrop" aria-hidden="true">
+    <div class="fspot-header-backdrop__dark"></div>
+    <div class="fspot-header-backdrop__cream"></div>
+  </div>
+
+  <p class="fspot-preview-note">Internal preview of a Fender serial guide spoke. Noindexed and not linked. Sibling spoke links point at planned slugs that do not exist yet.</p>
+
+  <div class="fspot">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="measure stack">
+        <a class="back" href={HUB_PATH}>Back To The Full Fender Serial Guide</a>
+        <span class="eyebrow">Fender Dating Methods</span>
+        <h1>Fender Pot Codes: How To Date A Fender By Its Potentiometers</h1>
+        <p class="lead">The serial number gets you a range. The pot codes get you a week. Here's how to read the maker and date code stamped on your Fender's volume and tone pots, and how to turn that into a real build date.</p>
+        <div class="trust">
+          <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- WHAT -->
+    <section id="what">
+      <div class="measure stack">
+        <span class="eyebrow">Start Here</span>
+        <h2>What A Pot Code Is</h2>
+        <p>Every potentiometer, the volume and tone controls under your pickguard, carries a stamped code from the company that made it. That code has two parts: a maker code that names the supplier, and a date code that gives the year and the exact week the pot was built. Read them together and you have a part dated to the week.</p>
+        <p>Pot codes are one of the most reliable dating tools on a vintage Fender, because they're almost impossible to fake without replacing the whole pot. The catch is what they date. The code dates the potentiometer, not the guitar. The two line up only when the pots are original to the instrument.</p>
+      </div>
+    </section>
+
+    <!-- FIND -->
+    <section id="find" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Before You Start</span>
+        <h2>Where To Find The Code</h2>
+        <p>The code is stamped on the side or the back of the pot's metal casing, so you have to see the pots to read them. On most Fenders that means taking off the pickguard on a Stratocaster or most Telecasters, or a back control cover on other models. The stamp is small and often grimy, so a phone photo you can zoom into beats squinting at it in the cavity.</p>
+        <p>If you aren't comfortable opening the guitar up, don't force it. A stripped screw or a cracked pickguard costs more than the answer. Send me three clear photos and I'll read the codes for you.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- STEP 1 -->
+    <section id="step1">
+      <div class="measure stack">
+        <span class="eyebrow">Step 1</span>
+        <h2>Read The Manufacturer Code</h2>
+        <p>The first three digits are the EIA source code, an industry number that names the company that made the pot. Four suppliers show up on vintage Fenders:</p>
+        <div class="tablewrap compact"><table>
+          <thead><tr><th>Maker code</th><th>Manufacturer</th></tr></thead>
+          <tbody>{makerRows.map((r) => (<tr><td data-label="Maker code" class="code">{r[0]}</td><td data-label="Manufacturer">{r[1]}</td></tr>))}</tbody>
+        </table></div>
+        <p class="secintro">Fender never made its own pots. It bought them from these suppliers, so the maker code tells you who supplied the part, not that the guitar is a Fender. CTS, code 137, is the one you'll see most often on vintage Fenders.</p>
+        <div class="figrow">
+          <figure class="sfig"><LicensedImage src={meta("cts-pot-code-for-fender-guitars-rotated.jpg")} alt="A CTS potentiometer on a vintage Fender, maker code 137, with the date code showing 1958" width={460} /><figcaption>A CTS pot. Maker code 137, dated to 1958.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-stackpole-potentiometer-decoder.jpg")} alt="A Stackpole potentiometer on a vintage Fender, maker code 304, with the date code showing 1958" width={460} /><figcaption>A Stackpole pot. Maker code 304, dated to 1958.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 2 -->
+    <section id="step2" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Step 2</span>
+        <h2>Decode The Date</h2>
+        <p>The digits after the maker code are the date code. They read as year, then week. There are two formats, depending on the era:</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Format</th><th>How to read it</th><th>Example</th><th>What it means</th></tr></thead>
+          <tbody>{dateRows.map((r) => (<tr><td data-label="Format">{r[0]}</td><td data-label="How to read it">{r[1]}</td><td data-label="Example" class="code">{r[2]}</td><td data-label="What it means" class="yr">{r[3]}</td></tr>))}</tbody>
+        </table></div>
+        <p class="secintro"><b>Worked example.</b> A pot stamped 3046403 breaks down as 304 for Stackpole, 64 for 1964, and 03 for the third week. So that pot was made in the third week of 1964, and the guitar was built no earlier than that.</p>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("stackpole-potentiometer-decoder.jpg")} alt="A Stackpole potentiometer code 3046403 decoded: maker 304, year 1964, week 3" width={540} /><figcaption>Stackpole code 3046403: maker 304, year 1964, week 3.</figcaption></figure>
+        </div>
+        <div class="tip">
+          <p><b>Watch the decade on short codes.</b> A three-digit date code gives only one year digit, so it tells you the year within a decade but not which decade. In practice a single year digit points to the 1950s, because Fender's suppliers moved to the two-digit year format with the 1960s. Confirm the decade against the rest of the guitar rather than assuming it.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- GOLDEN RULE -->
+    <section id="golden">
+      <div class="measure stack">
+        <span class="eyebrow">The One Rule That Matters</span>
+        <h2>Pot Codes Give The Earliest Possible Date</h2>
+        <p>Here's the rule every appraiser works by. A pot code tells you the earliest the guitar could have been built, never the exact day. Fender bought pots in bulk and pulled them from a parts bin, so a pot could sit for weeks or months before it went into a guitar. A pot dated to the 32nd week of 1959 means the guitar was assembled no earlier than August 1959. It could just as easily be late 1959 or early 1960.</p>
+        <p>That gap gets wider in the CBS years. Fender bought a huge batch of pots in 1966 and kept using them for years, so a late-1960s guitar can carry pots dated well before it. The guitar can be newer than its pots. It can never be older than its latest original pot.</p>
+        <p>When the pots disagree, majority rules. If three pots read early 1962 and one reads late 1963, the late 1963 pot is a replacement, not the build date. Read all of them, not just one.</p>
+      </div>
+    </section>
+
+    <!-- LIMITS -->
+    <section id="limits" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Keep It Honest</span>
+        <h2>What A Pot Code Can't Prove</h2>
+        <p>A pot code dates the pot and nothing else. It only speaks for the guitar when the pots are original, so look for fresh solder or a code that sits ten or more years off from the others. Either one points to a replaced pot.</p>
+        <p>A correct pot code also doesn't prove a guitar is all original. That's a whole-instrument call that weighs the neck date, the pickups, the tuners, the hardware, and the finish together. Treat the pot code as one strong input, then line it up with everything else.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- CROSS-CHECK -->
+    <section id="cross">
+      <div class="measure stack">
+        <span class="eyebrow">Put It All Together</span>
+        <h2>Cross-Check With The Other Methods</h2>
+        <p>Pot codes are strongest next to the other dating clues. Pair them with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> for the single best two-part check on a vintage Fender, then confirm with the <a class="spoke" href="/fender-pickup-dates/">pickup date codes</a> and the <a class="spoke" href="/fender-physical-dating/">body dates</a>. When all of them agree, you have a build date you can stand behind.</p>
+        <p class="note-sm">This guide is one of the dating methods behind the <a class="spoke" href={HUB_PATH}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Expert Questions</span>
+        <h2>Common Questions About Fender Pot Codes</h2>
+        <div class="faqs">
+          {faqs.map((f) => (
+            <details class="faq">
+              <summary>{f.q}</summary>
+              <div class="faqbody"><p>{f.a}</p></div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- APPRAISAL -->
+    <section>
+      <div class="measure">
+        <div class="appraise" id="appraisal">
+          <span class="eyebrow">Free Expert Appraisal</span>
+          <h2>Not Sure What Your Pots Are Telling You?</h2>
+          <p>A pot can sit in a parts bin for months, and a single replaced pot can throw off the whole read. If you want a definite build date, send Joe three clear photos, the front, the back, and the control cavity, for a free, expert appraisal within 24 hours.</p>
+          <div class="row">
+            <a class="call" href={hrefs.tel}>Call Or Text Joe: {contact.phone}</a>
+            <a class="send" href="/free-appraisal/">Or Send Photos Online</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIO -->
+    <section class="pt0">
+      <div class="measure"><div class="bio" id="about-joe">
+        <LicensedImage src={meta("about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars, holding a vintage guitar" width={150} />
+        <div>
+          <div class="who"><a href="/about-me/">Joe Dampt</a></div>
+          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ five-star reviews</div>
+          <p class="biotext">Joe Dampt is the owner of Joe's Vintage Guitars in Mesa, Arizona, where he's spent more than twelve years buying, appraising, and authenticating vintage instruments full-time. He's personally valued over 10,000 guitars for sellers in all 50 states, served as a traveling appraiser for the Treasure Seekers Roadshow, and sourced instruments for Grammy Award-winning artists. Every method on this page comes from that bench work.</p>
+        </div>
+      </div></div>
+    </section>
+  </div>
+
+  <!-- Floating TOC (sidebar + mobile FAB + sheet), matches the hub pattern -->
+  <aside class="fspot-toc" id="fspot-toc" aria-label="Table of contents">
+    <p class="fspot-toc__label">On This Page</p>
+    <ul class="fspot-toc__list">
+      {tocItems.map(([href, label]) => (<li><a href={href}>{label}</a></li>))}
+    </ul>
+  </aside>
+  <button class="fspot-toc-fab" id="fspot-toc-fab" type="button" aria-expanded="false" aria-controls="fspot-toc-sheet"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>Jump To A Section</button>
+  <div class="fspot-toc-sheet" id="fspot-toc-sheet" role="dialog" aria-label="Jump to a section" aria-modal="false">
+    <div class="fspot-toc-sheet__head"><span>Jump To A Section</span><button class="fspot-toc-sheet__close" id="fspot-toc-sheet-close" type="button" aria-label="Close section list">&times;</button></div>
+    <div class="fspot-toc-sheet__body" id="fspot-toc-sheet-body"></div>
+  </div>
+</Layout>
+
+<style>
+  .fspot-preview-note{background:var(--color-brand-charcoal,#2a2d33);color:#f4efe4;font-family:var(--font-display),sans-serif;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;text-align:center;padding:.5rem 1rem;position:relative;z-index:3;}
+  .fspot-header-backdrop{position:relative;isolation:isolate;z-index:0;}
+  .fspot-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
+  .fspot-header-backdrop__cream{background:#fff;height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}
+
+  .fspot{
+    --paper:#f5efe3; --panel:#ffffff; --panel-2:#f3ead6; --inset:#fffdf8;
+    --ink:var(--color-brand-brown,#3e2a14); --ink-strong:var(--color-brand-brown,#3e2a14);
+    --muted:var(--color-brand-brown-muted,#7a6a54); --line:#ddd0b6;
+    --gold:var(--color-brand-gold,#c8983a); --gold-deep:#8c6a24;
+    --rust:var(--color-brand-rust,#a03a1e); --rust-bright:var(--color-brand-rust-bright,#be4b25);
+    --amber:#f3e3c2; --amber-line:#e3c88a; --darkbrown:#3a2a18; --darkbrown-2:#4a3520;
+    --shadow:0 1px 2px rgba(58,40,23,.06), 0 10px 30px rgba(58,40,23,.08);
+    --fd:var(--font-display), "Oswald", system-ui, sans-serif;
+    --fm:ui-monospace,"SF Mono",Consolas,"Liberation Mono",monospace;
+    --measure:min(92vw,820px);
+    background:var(--paper); color:var(--ink); font-size:17px; line-height:1.6;
+    padding-bottom:1rem;
+  }
+  .fspot [id]{scroll-margin-top:90px;}
+  .fspot h1,.fspot h2,.fspot h3{font-family:var(--fd);font-weight:600;line-height:1.12;margin:0;color:var(--ink-strong);text-wrap:balance;}
+  .fspot h1{font-size:clamp(2rem,4.6vw,2.9rem);letter-spacing:.005em;text-transform:uppercase;}
+  .fspot h2{font-size:clamp(1.5rem,3.1vw,2rem);letter-spacing:.01em;}
+  .fspot p{margin:0;}
+  .fspot a{color:var(--gold-deep);text-underline-offset:2px;}
+  .fspot a:hover{color:var(--rust);}
+  .fspot .measure{width:var(--measure);margin-inline:auto;}
+  .fspot section{padding-block:clamp(1.7rem,4vw,2.6rem);}
+  .fspot .pt0{padding-top:0;}
+  .fspot .rule{height:1px;background:var(--line);width:min(94vw,1080px);margin-inline:auto;}
+  .fspot .stack{display:flex;flex-direction:column;gap:1rem;}
+  .fspot .note-sm{font-size:.95rem;color:var(--muted);}
+  .fspot .eyebrow{font-family:var(--fd);font-weight:600;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);display:inline-flex;align-items:center;gap:.6em;}
+  .fspot .eyebrow::before{content:"";width:24px;height:3px;background:var(--gold);}
+  .fspot a.spoke{color:var(--gold-deep);text-decoration:none;border-bottom:1.5px dotted var(--gold);font-weight:600;}
+  .fspot a.spoke:hover{color:var(--rust);border-bottom-color:var(--rust);}
+  .fspot a.back{font-family:var(--fd);font-weight:600;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--rust);text-decoration:none;display:inline-flex;align-items:center;gap:.4rem;}
+  .fspot a.back::before{content:"\2190";font-size:1rem;}
+  .fspot a.back:hover{color:var(--rust-bright);}
+
+  .fspot .hero{padding-top:clamp(1.6rem,4vw,2.6rem);padding-bottom:1.4rem;}
+  .fspot .lead{font-size:1.16rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .trust{display:flex;flex-wrap:wrap;gap:.4rem .9rem;font-family:var(--fm);font-size:.76rem;color:var(--muted);}
+  .fspot .trust span{display:inline-flex;align-items:center;gap:.45rem;}
+  .fspot .trust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--rust);}
+
+  .fspot .secintro{font-size:.97rem;max-width:70ch;color:var(--ink);}
+  .fspot .secintro b{color:var(--ink-strong);}
+
+  .fspot .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);}
+  .fspot table{border-collapse:collapse;width:100%;min-width:520px;background:var(--panel);}
+  .fspot .tablewrap.compact table{min-width:0;}
+  .fspot th,.fspot td{text-align:left;padding:.6rem 1rem;border-bottom:1px solid var(--line);vertical-align:top;font-size:.94rem;}
+  .fspot thead th{font-family:var(--fm);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);background:var(--panel-2);}
+  .fspot tbody tr:last-child td{border-bottom:0;}
+  .fspot tbody tr:nth-child(even){background:color-mix(in srgb,var(--panel-2) 45%,transparent);}
+  .fspot .code{font-family:var(--fm);font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap;}
+  .fspot .yr{font-family:var(--fm);color:var(--rust);font-weight:600;}
+
+  .fspot .figrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
+  .fspot .figrow.single{grid-template-columns:minmax(230px,540px);}
+  .fspot figure.sfig{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow);}
+  .fspot figure.sfig img{display:block;width:100%;height:auto;background:var(--panel-2);}
+  .fspot figure.sfig figcaption{padding:.55rem .8rem;font-family:var(--fm);font-size:.7rem;color:var(--muted);border-top:1px solid var(--line);}
+
+  .fspot .tip{background:linear-gradient(135deg,var(--darkbrown-2),var(--darkbrown));color:#f0e1c1;border-radius:10px;padding:1rem 1.15rem;font-size:.95rem;}
+  .fspot .tip::before{content:"JOE'S TIP";display:block;font-family:var(--fd);font-weight:600;letter-spacing:.14em;color:var(--gold);font-size:.78rem;margin-bottom:.4rem;}
+  .fspot .tip b{color:#e0be79;}
+
+  .fspot .faqs{display:flex;flex-direction:column;gap:.6rem;}
+  .fspot details.faq{border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden;box-shadow:var(--shadow);}
+  .fspot details.faq>summary{cursor:pointer;list-style:none;padding:.85rem 1.05rem;font-family:var(--fd);font-weight:600;font-size:1rem;color:var(--ink-strong);display:flex;justify-content:space-between;align-items:center;gap:.8rem;}
+  .fspot details.faq>summary::-webkit-details-marker{display:none;}
+  .fspot details.faq>summary::after{content:"+";font-family:var(--fm);font-size:1.2rem;color:var(--rust);flex:0 0 auto;}
+  .fspot details.faq[open]>summary::after{content:"\2212";}
+  .fspot details.faq .faqbody{padding:0 1.05rem 1rem;font-size:.96rem;color:var(--muted);}
+
+  .fspot .appraise{background:var(--amber);border:1px solid var(--amber-line);border-left:5px solid var(--rust);border-radius:12px;padding:clamp(1.4rem,3.5vw,2rem);box-shadow:var(--shadow);}
+  .fspot .appraise h2{margin-bottom:.5rem;}
+  .fspot .appraise p{color:var(--ink);font-size:1.02rem;}
+  .fspot .appraise .row{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.1rem;align-items:center;}
+  .fspot .appraise .call{font-family:var(--fd);font-weight:700;font-size:1.15rem;letter-spacing:.02em;color:#fff;background:var(--rust);text-decoration:none;padding:.7rem 1.3rem;border-radius:8px;}
+  .fspot .appraise .call:hover{background:var(--rust-bright);}
+  .fspot .appraise .send{font-family:var(--fd);font-weight:600;text-transform:uppercase;font-size:.86rem;letter-spacing:.04em;color:var(--rust);text-decoration:none;border-bottom:2px solid var(--gold);}
+
+  .fspot .bio{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.3rem;background:var(--panel);}
+  .fspot .bio img{flex:0 0 auto;width:76px;height:76px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);}
+  .fspot .bio .who{font-family:var(--fd);font-weight:600;font-size:1.2rem;text-transform:uppercase;letter-spacing:.02em;}
+  .fspot .bio .who a{color:var(--ink-strong);text-decoration:none;border-bottom:2px solid var(--gold);}
+  .fspot .bio .cred{font-family:var(--fm);font-size:.72rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .bio .biotext{margin-top:.55rem;font-size:.95rem;color:var(--muted);}
+
+  /* mobile card tables */
+  @media (max-width:719px){
+    .fspot .tablewrap{overflow:visible;border:0;border-radius:0;box-shadow:none;}
+    .fspot .tablewrap table{min-width:0;width:100%;display:block;background:transparent;}
+    .fspot .tablewrap thead{display:none;}
+    .fspot .tablewrap tbody{display:grid;grid-template-columns:1fr;gap:.65rem;}
+    .fspot .tablewrap tr{display:block;border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:.7rem .85rem;box-shadow:var(--shadow);}
+    .fspot .tablewrap tbody tr:nth-child(even){background:var(--panel);}
+    .fspot .tablewrap td{display:block;border:0;padding:.25rem 0;font-size:.95rem;}
+    .fspot .tablewrap td::before{content:attr(data-label);display:block;font-family:var(--fm);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.1rem;}
+    .fspot .tablewrap .code,.fspot .tablewrap .yr{white-space:normal;}
+  }
+
+  /* floating TOC */
+  .fspot-toc{display:none;z-index:25;background:#fff;border:1px solid var(--color-brand-brown-tan,#d2b48c);border-radius:10px;width:260px;max-height:calc(100vh - 160px);padding:16px 18px;position:fixed;top:120px;right:24px;overflow-y:auto;box-shadow:0 2px 12px rgba(0,0,0,.08);}
+  @media (min-width:1440px){.fspot-toc{display:block;}}
+  .fspot-toc__label{font-family:var(--font-display),sans-serif;text-transform:uppercase;letter-spacing:.13em;color:var(--color-brand-brown,#3e2a14);border-bottom:1px solid #a03a1e2e;margin:0 0 10px;padding-bottom:8px;font-size:12px;font-weight:700;}
+  .fspot-toc__list{margin:0;padding:0;font-size:12.5px;line-height:1.4;list-style:none;}
+  .fspot-toc__list li{margin:0;}
+  .fspot-toc__list a{color:var(--color-brand-brown-muted,#6c5238);border-radius:4px;padding:5px 6px;text-decoration:none;display:block;}
+  .fspot-toc__list a:hover{background:var(--color-brand-cream-warm,#f5ead4);color:var(--color-brand-rust,#a03a1e);}
+  .fspot-toc-fab{display:none;}
+  .fspot-toc-sheet{display:none;}
+  @media (max-width:1439.98px){
+    .fspot-toc-fab{z-index:45;background:var(--color-brand-rust-bright,#be4b25);color:#fff;font-family:var(--font-display),sans-serif;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;border:none;border-radius:999px;align-items:center;gap:8px;padding:11px 18px;font-size:13px;font-weight:600;display:inline-flex;position:fixed;bottom:1.5rem;left:16px;box-shadow:0 4px 16px rgba(0,0,0,.28);}
+    .fspot-toc-fab svg{width:18px;height:18px;}
+    .fspot-toc-fab[aria-expanded="true"]{background:var(--color-brand-rust-dark,#682412);}
+    .fspot-toc-sheet{z-index:46;opacity:0;visibility:hidden;background:#fff;border:1px solid #a03a1e33;border-radius:12px;flex-direction:column;width:min(340px,100vw - 32px);max-height:60vh;transition:opacity .2s,transform .2s,visibility .2s;display:flex;position:fixed;bottom:5rem;left:16px;overflow-y:auto;transform:translateY(12px);box-shadow:0 10px 34px rgba(0,0,0,.28);}
+    .fspot-toc-sheet.fspot-toc-sheet--open{opacity:1;visibility:visible;transform:translateY(0);}
+  }
+  .fspot-toc-sheet__head{font-family:var(--font-display),sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--color-brand-rust-dark,#682412);background:#fff;border-bottom:1px solid #a03a1e26;justify-content:space-between;align-items:center;padding:12px 16px;font-size:13px;font-weight:700;display:flex;position:sticky;top:0;}
+  .fspot-toc-sheet__close{color:var(--color-brand-brown-muted,#6c5238);cursor:pointer;background:none;border:none;padding:0 4px;font-size:24px;line-height:1;}
+  .fspot-toc-sheet__body{padding:8px 10px;}
+  .fspot-toc-sheet__body .fspot-toc__list{font-size:14px;}
+  .fspot-toc-sheet__body .fspot-toc__list a{padding:8px 6px;}
+</style>
+
+<script is:inline>
+  (function () {
+    // Floating TOC: clone list into the mobile sheet, wire the FAB
+    var list = document.querySelector('#fspot-toc .fspot-toc__list');
+    var body = document.getElementById('fspot-toc-sheet-body');
+    if (list && body) body.appendChild(list.cloneNode(true));
+    var fab = document.getElementById('fspot-toc-fab'),
+        sheet = document.getElementById('fspot-toc-sheet'),
+        closeBtn = document.getElementById('fspot-toc-sheet-close');
+    function setOpen(o) { if (!sheet) return; sheet.classList.toggle('fspot-toc-sheet--open', o); if (fab) fab.setAttribute('aria-expanded', o ? 'true' : 'false'); }
+    if (fab) fab.addEventListener('click', function () { setOpen(!sheet.classList.contains('fspot-toc-sheet--open')); });
+    if (closeBtn) closeBtn.addEventListener('click', function () { setOpen(false); });
+    document.addEventListener('click', function (e) { if (sheet && fab && !sheet.contains(e.target) && !fab.contains(e.target)) setOpen(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+    if (sheet) sheet.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+  })();
+</script>

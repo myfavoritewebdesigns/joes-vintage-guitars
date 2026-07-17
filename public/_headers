@@ -41,3 +41,8 @@
 # (meta robots noindex + sitemap-excluded on the page too).
 /fender-serial-hub-preview/
   X-Robots-Tag: noindex
+
+# Fender serial guide spoke (pot codes) preview: noindex at the edge too
+# (meta robots noindex + sitemap-excluded on the page too).
+/fender-pot-codes/
+  X-Robots-Tag: noindex
