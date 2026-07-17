@@ -181,10 +181,6 @@ const breadcrumbSchema = {
           <tbody>{makerRows.map((r) => (<tr><td data-label="Maker code" class="code">{r[0]}</td><td data-label="Manufacturer">{r[1]}</td></tr>))}</tbody>
         </table></div>
         <p class="secintro">Fender never made its own pots. It bought them from these suppliers, so the maker code tells you who made the part, not that the guitar is a Fender. The maker is also a rough dating clue: Fender used mostly Stackpole through the 1950s and switched to CTS around early 1963, with Centralab and Clarostat turning up on some earlier guitars. CTS, code 137, is the one you'll see most often. A few rarer codes such as 106 for Allen-Bradley exist too, but they seldom appear in a Fender's guitar controls.</p>
-        <div class="figrow">
-          <figure class="sfig"><LicensedImage src={meta("cts-pot-code-for-fender-guitars-rotated.jpg")} alt="A CTS potentiometer on a vintage Fender, maker code 137, with the date code showing 1958" width={460} /><figcaption>A CTS pot. Maker code 137, dated to 1958.</figcaption></figure>
-          <figure class="sfig"><LicensedImage src={meta("fender-stackpole-potentiometer-decoder.jpg")} alt="A Stackpole potentiometer on a vintage Fender, maker code 304, with the date code showing 1958" width={460} /><figcaption>A Stackpole pot. Maker code 304, dated to 1958.</figcaption></figure>
-        </div>
       </div>
     </section>
 
@@ -198,9 +194,11 @@ const breadcrumbSchema = {
           <thead><tr><th>Format</th><th>How to read it</th><th>Example</th><th>What it means</th></tr></thead>
           <tbody>{dateRows.map((r) => (<tr><td data-label="Format">{r[0]}</td><td data-label="How to read it">{r[1]}</td><td data-label="Example" class="code">{r[2]}</td><td data-label="What it means" class="yr">{r[3]}</td></tr>))}</tbody>
         </table></div>
-        <p class="secintro"><b>Worked example.</b> A pot stamped 3046403 breaks down as 304 for Stackpole, 64 for 1964, and 03 for the third week. So that pot was made in the third week of 1964, and the guitar was built no earlier than that.</p>
-        <div class="figrow single">
-          <figure class="sfig"><LicensedImage src={meta("stackpole-potentiometer-decoder.jpg")} alt="A Stackpole potentiometer code 3046403 decoded: maker 304, year 1964, week 3" width={540} /><figcaption>Stackpole code 3046403: maker 304, year 1964, week 3.</figcaption></figure>
+        <p class="secintro"><b>Worked example.</b> A pot stamped 3046403 breaks down as 304 for Stackpole, 64 for 1964, and 03 for the third week. So that pot was made in the third week of 1964, and the guitar was built no earlier than that. Here are real pots showing the maker and date codes up close:</p>
+        <div class="figrow gallery">
+          <figure class="sfig"><LicensedImage src={meta("stackpole-potentiometer-decoder.jpg")} alt="A Stackpole potentiometer code 3046403 decoded: maker 304, year 1964, week 3" width={1280} /><figcaption>Stackpole code 3046403: maker 304, year 1964, week 3.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("cts-pot-code-for-fender-guitars-rotated.jpg")} alt="A CTS potentiometer on a vintage Fender, maker code 137, with the date code showing 1958" width={1280} /><figcaption>A CTS pot. Maker code 137, dated to 1958.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-stackpole-potentiometer-decoder.jpg")} alt="A Stackpole potentiometer on a vintage Fender, maker code 304, with the date code showing 1958" width={1024} /><figcaption>A Stackpole pot. Maker code 304, dated to 1958.</figcaption></figure>
         </div>
         <div class="tip">
           <p><b>Watch the decade on short codes.</b> A three-digit date code gives only one year digit, so it tells you the year within a decade but not which decade. In practice a single year digit points to the 1950s, because Fender's suppliers moved to the two-digit year format with the 1960s. Confirm the decade against the rest of the guitar rather than assuming it.</p>
@@ -363,6 +361,7 @@ const breadcrumbSchema = {
 
   .fspot .figrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
   .fspot .figrow.single{grid-template-columns:minmax(230px,540px);}
+  .fspot .figrow.gallery{grid-template-columns:1fr;gap:1.4rem;max-width:680px;margin-inline:auto;}
   .fspot figure.sfig{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow);}
   .fspot figure.sfig img{display:block;width:100%;height:auto;background:var(--panel-2);}
   .fspot figure.sfig figcaption{padding:.55rem .8rem;font-family:var(--fm);font-size:.7rem;color:var(--muted);border-top:1px solid var(--line);}
