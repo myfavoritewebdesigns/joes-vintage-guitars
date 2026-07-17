@@ -60,7 +60,7 @@ const tocItems: [string, string][] = [
 const faqs = [
   {
     q: "Do I Have To Take My Guitar Apart To Read The Pot Codes?",
-    a: "You need to see the back or the side of the potentiometers, which usually means removing the pickguard or a back control cover. If you aren't comfortable doing that, don't force it. Send me clear photos and I'll read the codes for you, or bring the guitar by.",
+    a: "You need to see the back or the side of the potentiometers, which usually means removing the pickguard or a back control cover. If you aren't comfortable doing that, don't force it. Get in touch and I'll help, or bring the guitar by and I'll read the codes for you.",
   },
   {
     q: "My Pot Code Is Older Than My Serial Number Suggests. Is That A Problem?",
@@ -150,6 +150,16 @@ const breadcrumbSchema = {
       </div>
     </section>
 
+    <!-- SAFETY WARNING (top of page) -->
+    <section class="pt0" aria-label="Safety warning">
+      <div class="measure">
+        <div class="warnbox" role="note">
+          <span class="warnbox__head"><svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>Read This First</span>
+          <p>Do not take a vintage instrument apart unless you have done it before. Vintage screws, plastics, and finishes strip and crack easily, and one slip can cost far more than the answer. If you have not done this before, contact me first and I'll help.</p>
+        </div>
+      </div>
+    </section>
+
     <div class="rule"></div>
 
     <!-- WHAT -->
@@ -168,7 +178,7 @@ const breadcrumbSchema = {
         <span class="eyebrow">Before You Start</span>
         <h2>Where To Find The Code</h2>
         <p>The code is stamped on the side or the back of the pot's metal casing, so you have to see the pots to read them. On most Fenders that means taking off the pickguard on a Stratocaster or most Telecasters, or a back control cover on other models. The stamp is small and often grimy, so a phone photo you can zoom into beats squinting at it in the cavity.</p>
-        <p>If you aren't comfortable opening the guitar up, don't force it. A stripped screw or a cracked pickguard costs more than the answer. Send me three clear photos and I'll read the codes for you.</p>
+        <p>If you aren't comfortable opening the guitar up, don't force it. A stripped screw or a cracked pickguard costs more than the answer. Get in touch before you take anything apart and I'll help, or read the codes for you if you bring the guitar by.</p>
       </div>
     </section>
 
@@ -375,6 +385,10 @@ const breadcrumbSchema = {
   .fspot .tip{background:linear-gradient(135deg,var(--darkbrown-2),var(--darkbrown));color:#f0e1c1;border-radius:10px;padding:1rem 1.15rem;font-size:.95rem;}
   .fspot .tip::before{content:"JOE'S TIP";display:block;font-family:var(--fd);font-weight:600;letter-spacing:.14em;color:var(--gold);font-size:.78rem;margin-bottom:.4rem;}
   .fspot .tip b{color:#e0be79;}
+  .fspot .warnbox{background:#fbe9e6;border:1px solid #e4a99d;border-left:6px solid var(--rust);border-radius:10px;padding:1rem 1.2rem;box-shadow:var(--shadow);}
+  .fspot .warnbox__head{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--fd);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--rust);font-size:.85rem;margin-bottom:.4rem;}
+  .fspot .warnbox__head svg{flex:0 0 auto;}
+  .fspot .warnbox p{margin:0;color:var(--ink);font-size:.97rem;}
 
   .fspot .faqs{display:flex;flex-direction:column;gap:.6rem;}
   .fspot details.faq{border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden;box-shadow:var(--shadow);}
