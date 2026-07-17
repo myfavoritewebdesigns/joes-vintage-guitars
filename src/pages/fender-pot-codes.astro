@@ -143,6 +143,10 @@ const breadcrumbSchema = {
         <div class="trust">
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
         </div>
+        <figure class="sfig herofig">
+          <LicensedImage src={meta("fender-1965-potentiometer.jpg")} alt="A CTS potentiometer inside a 1965 Fender, its casing stamped with the code 137 6518" width={1600} loading="eager" />
+          <figcaption>A pot in a 1965 Fender, stamped 137 6518. That reads as maker 137 for CTS, then 65 for 1965 and 18 for the 18th week.</figcaption>
+        </figure>
       </div>
     </section>
 
@@ -365,6 +369,8 @@ const breadcrumbSchema = {
   .fspot figure.sfig{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow);}
   .fspot figure.sfig img{display:block;width:100%;height:auto;background:var(--panel-2);}
   .fspot figure.sfig figcaption{padding:.55rem .8rem;font-family:var(--fm);font-size:.7rem;color:var(--muted);border-top:1px solid var(--line);}
+  .fspot .herofig{margin-top:.3rem;}
+  .fspot .herofig figcaption{font-size:.78rem;color:var(--ink);}
 
   .fspot .tip{background:linear-gradient(135deg,var(--darkbrown-2),var(--darkbrown));color:#f0e1c1;border-radius:10px;padding:1rem 1.15rem;font-size:.95rem;}
   .fspot .tip::before{content:"JOE'S TIP";display:block;font-family:var(--fd);font-weight:600;letter-spacing:.14em;color:var(--gold);font-size:.78rem;margin-bottom:.4rem;}
