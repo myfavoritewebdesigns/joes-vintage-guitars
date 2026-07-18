@@ -16,11 +16,13 @@
  * base of the pickup; two systems, a pencil or ink date pre-1969 (month/year or
  * just the year) and a 3 to 6 digit numeric stamp from 1969 whose last one or
  * two digits are the year (1139 -> 1969, 161377 -> 1977). Pickup dates are less
- * consistent than pot codes but corroborate them. The three photos are the same
- * ones the live page uses (fender-pickup-date-ink.jpg, fender-pickup-pencil-
- * dates.jpg, fender-1970s-pickup-code.jpg); they carry Joe's baked-in call-out
- * annotations (9-8-65, 1-27-66, 1140 = 1970), louder than the clean decoder
- * shots on the sibling spokes. Flagged to Joe to confirm or swap for clean art.
+ * consistent than pot codes but corroborate them. The hero is Joe's clean shot
+ * of a 1966 Stratocaster pickguard underside, all three pickups dated on the
+ * base within a day of each other in November 1966 (1966-fender-stratocaster-
+ * pickup-dates.jpg, resized to 2560px). The three live-page example photos
+ * (fender-pickup-date-ink.jpg 9-8-65, fender-pickup-pencil-dates.jpg 1-27-66,
+ * fender-1970s-pickup-code.jpg 1140 = 1970) carry Joe's baked-in call-out
+ * annotations and are grouped in one examples gallery; Joe kept them as-is.
  *
  * No walkthrough video here: the lite-youtube clip the pot-codes and neck-dates
  * spokes embed does not cover pickup dating.
@@ -91,7 +93,7 @@ const articleSchema = {
     "Read the pencil, ink, or numeric date on the base of your Fender's pickups to date the guitar, then cross-check it against the pot codes. A step-by-step pickup dating guide from a vintage Fender appraiser.",
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
-  image: img("fender-pickup-date-ink.jpg"),
+  image: img("1966-fender-stratocaster-pickup-dates.jpg"),
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
@@ -120,8 +122,8 @@ const breadcrumbSchema = {
   title="How To Read Fender Pickup Date Codes: Pickup Dating Guide (Preview)"
   description="Read the pencil, ink, or numeric date on the base of your Fender's pickups to date the guitar. A step-by-step pickup dating guide from a vintage Fender appraiser."
   canonical={PAGE_PATH}
-  ogImage={`${SITE_URL}${img("fender-pickup-date-ink.jpg")}`}
-  ogImageAlt="The base of a vintage Fender single-coil pickup, handwritten with the date 9-8-65"
+  ogImage={`${SITE_URL}${img("1966-fender-stratocaster-pickup-dates.jpg")}`}
+  ogImageAlt="The underside of a 1966 Fender Stratocaster pickguard with all three pickups dated November 1966 on the base"
   ogType="article"
   noIndex={true}
   structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
@@ -146,8 +148,8 @@ const breadcrumbSchema = {
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
         </div>
         <figure class="sfig herofig">
-          <LicensedImage src={meta("fender-pickup-date-ink.jpg")} alt="The base of a vintage Fender single-coil pickup, handwritten with the date 9-8-65 for September 8, 1965" width={1600} loading="eager" />
-          <figcaption>The base of a 1965 Fender pickup, dated 9-8-65 for September 8, 1965. Fender's winders wrote the date right on the bottom.</figcaption>
+          <LicensedImage src={meta("1966-fender-stratocaster-pickup-dates.jpg")} alt="The underside of a 1966 Fender Stratocaster pickguard, its three pickups each dated on the base in November 1966" width={1600} loading="eager" />
+          <figcaption>The underside of a 1966 Stratocaster pickguard. All three pickups are dated on the base within a day of each other, November 1966, just what an original, untouched set should show.</figcaption>
         </figure>
       </div>
     </section>
@@ -193,9 +195,6 @@ const breadcrumbSchema = {
         <h2>Pencil And Ink Dates</h2>
         <p>On Fenders up to 1969, the winder wrote the date on the base by hand, in pencil or ink. The format is the plain kind, either the month and the year or just the year, so 9-8-65 reads as September 8, 1965. There's no code to crack; once you find the mark, it reads straight off.</p>
         <p>The trouble is reading it at all. These marks are small, they sit on a dark fiber base, and decades of grime and handling wear them down, so a real date can be faint to the point of almost gone. A raking-light photo you can zoom into beats squinting at it in the guitar.</p>
-        <div class="figrow single portrait">
-          <figure class="sfig"><LicensedImage src={meta("fender-pickup-pencil-dates.jpg")} alt="A faint pencil date reading 1-27-66 on the base of a vintage Fender pickup" width={1200} /><figcaption>A penciled pickup base, 1-27-66 for January 27, 1966. Penciled dates like this are often faint and hard to make out.</figcaption></figure>
-        </div>
       </div>
     </section>
 
@@ -210,11 +209,14 @@ const breadcrumbSchema = {
           <tbody>{codeRows.map((r) => (<tr><td data-label="Stamp code" class="code">{r[0]}</td><td data-label="The year digits">{r[1]}</td><td data-label="Year" class="yr">{r[2]}</td></tr>))}</tbody>
         </table></div>
         <p class="secintro">So a base stamped 1140 dates to 1970, and 161377 dates to 1977. The leading digits are a factory code, not the date; the year is always at the tail end.</p>
-        <div class="figrow single">
-          <figure class="sfig"><LicensedImage src={meta("fender-1970s-pickup-code.jpg")} alt="The base of a 1970s Fender pickup stamped with the numeric code 1140" width={1280} /><figcaption>A 1970s pickup stamped 1140. The final digit, 0, dates it to 1970.</figcaption></figure>
-        </div>
         <div class="tip">
           <p><b>Watch the decade on a single digit.</b> When the code ends in just one year digit, it names the year within a decade but not which decade, so a trailing 0 could read 1970 or 1980. The rest of the guitar settles it. Line the pickup year up with the pot codes and the neck date before you commit to a decade.</p>
+        </div>
+        <p class="secintro">Here's each format on a real pickup base, up close, a pre-1969 pencil date, an inked one, and a 1970s numeric code:</p>
+        <div class="figrow gallery">
+          <figure class="sfig"><LicensedImage src={meta("fender-pickup-pencil-dates.jpg")} alt="A faint pencil date reading 1-27-66 on the base of a vintage Fender pickup" width={1200} /><figcaption>A penciled pickup base, 1-27-66 for January 27, 1966. Penciled dates are often faint and hard to make out.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-pickup-date-ink.jpg")} alt="The base of a vintage Fender single-coil pickup, an inked date reading 9-8-65 for September 8, 1965" width={1280} /><figcaption>An inked date on a 1960s pickup base, 9-8-65 for September 8, 1965.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-1970s-pickup-code.jpg")} alt="The base of a 1970s Fender pickup stamped with the numeric code 1140" width={1280} /><figcaption>A 1970s pickup stamped 1140. The final digit, 0, dates it to 1970.</figcaption></figure>
         </div>
       </div>
     </section>
