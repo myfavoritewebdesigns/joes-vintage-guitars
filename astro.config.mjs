@@ -17,6 +17,7 @@ const SITEMAP_EXCLUDE = [
   '/fender-pot-codes/', // Fender serial guide spoke, pot codes (preview, noIndex)
   '/fender-neck-dates/', // Fender serial guide spoke, neck dates (preview, noIndex)
   '/fender-body-dates/', // Fender serial guide spoke, body dates (preview, noIndex)
+  '/fender-pickup-dates/', // Fender serial guide spoke, pickup dates (preview, noIndex)
 ];
 
 // https://astro.build/config
