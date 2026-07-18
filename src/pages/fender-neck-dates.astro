@@ -20,8 +20,11 @@
  * (ggjaguar.com/neckcode.htm): green ink, 6-8 digits read outside-in as model,
  * batch, month, year, width; runs alongside the plain date stamp; hard to read.
  * The Neck Stamp Model Codes table (the model prefix, 1 to 28) is Joe-supplied
- * CBS-era reference data. The green stamp, the model-code table, and the 1980s
- * Reissue note (AVRI pencil dates, 1982 on) are not yet in VG_FACTS; flagged to log.
+ * CBS-era reference data, refined per Joe: code 2 = Strat into early 1968 (not to
+ * 1965), code 13 = Telecaster (1967-1968), code 3 = mainly Esquire. The 1980s
+ * Reissue note reflects Joe's split: Fullerton ink stamps (1982-1984) then Corona
+ * pencil dates (1986 on). Green stamp, model codes, and reissue detail are not yet
+ * in VG_FACTS; flagged to log.
  */
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
@@ -46,9 +49,9 @@ const stampParts = [
   ["Final letter", "Neck width. A narrow, B standard, C wide, D extra wide.", "B"],
 ];
 const modelRows = [
-  ["1", "Jaguar, 1962 to 1965"],
-  ["2", "Stratocaster, 1962 to 1965"],
-  ["3", "Telecaster"],
+  ["1", "Jaguar, 1962 to early 1968"],
+  ["2", "Stratocaster, 1962 to early 1968. A 1966 or 1967 Strat still starts with 2, like 2MAR67B"],
+  ["3", "Esquire, mainly. Early Telecasters shared code 2 or 3 through the mid 1960s, then moved to 13"],
   ["4", "Jazzmaster, 1962 to 1965"],
   ["5", "Precision Bass"],
   ["6", "Bass VI"],
@@ -58,7 +61,7 @@ const modelRows = [
   ["10", "Coronado 1 and 2, and the occasional 1966 Jazzmaster and Stratocaster neck"],
   ["11", "Bass V"],
   ["12", "Electric 12, and Maverick / Custom"],
-  ["13", "Stratocaster, 1966 to 1968, also 1966 Jazzmasters"],
+  ["13", "Telecaster, 1967 to 1968"],
   ["14", "Coronado 12"],
   ["15", "Jaguar, 1966 to 1972"],
   ["16", "Musicmaster II, Mustang, Duo-Sonic II, and Bronco"],
@@ -279,7 +282,7 @@ const breadcrumbSchema = {
           <thead><tr><th scope="col">Code</th><th scope="col">Model</th></tr></thead>
           <tbody>{modelRows.map((r) => (<tr><td data-label="Code" class="code">{r[0]}</td><td data-label="Model">{r[1]}</td></tr>))}</tbody>
         </table></div>
-        <p class="note-sm">These come from CBS-era neck stamps. Gaps in the run are models Fender never assigned a number, or codes not yet documented.</p>
+        <p class="note-sm">These come from CBS-era neck stamps, and Fender was not always consistent. The codes overlapped and shifted over the years, so read the model prefix next to the other dating clues, not on its own. Gaps in the run are models Fender never assigned a number, or codes not yet documented.</p>
       </div>
     </section>
 
@@ -287,11 +290,11 @@ const breadcrumbSchema = {
     <section id="reissue" class="pt0">
       <div class="measure stack">
         <span class="eyebrow">Watch Out</span>
-        <h2>The 1980s Reissues Went Back To Pencil</h2>
-        <p>In 1982 Fender launched the American Vintage Reissue series, US-made copies of the 1950s and 1960s classics, and it brought back the old habits, including a penciled date on the neck heel. So a pencil date by itself does not prove a guitar is pre-CBS.</p>
-        <p>The giveaway is in the detail. A reissue pencil date often includes the day, not just the month and year, and the rest of the guitar, the serial number, the pot codes, and the hardware, will point to the 1980s or later. Read the pencil date, then confirm the era with everything else.</p>
+        <h2>The 1980s Reissues Have Heel Dates Too</h2>
+        <p>In 1982 Fender launched the American Vintage Reissue series, US-made copies of the 1950s and 1960s classics, and it brought the heel date back. The early Fullerton reissues, 1982 to 1984, carry a handwritten date stamp, often in red, yellow, or grey ink in a cursive or block hand, like 11-18-82. When production moved to Corona in 1986, the graphite pencil date returned. Either way, a reissue date does not prove a guitar is pre-CBS.</p>
+        <p>The giveaway is in the detail. A reissue date often includes the day, not just the month and year, and the rest of the guitar, the serial number, the pot codes, and the hardware, will point to the 1980s or later. Read the heel date, then confirm the era with everything else.</p>
         <div class="figrow single">
-          <figure class="sfig"><LicensedImage src={meta("1986-fender-avri-strat-pencil-neck-heel.jpg")} alt="The neck heel of a 1986 Fender American Vintage Reissue Stratocaster with a pencil date reading 4-24-86" width={1280} /><figcaption>A 1986 American Vintage Reissue Stratocaster, penciled 4-24-86 for April 24, 1986. Reissues use a vintage-style pencil date, often with the day too.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("1986-fender-avri-strat-pencil-neck-heel.jpg")} alt="The neck heel of a 1986 Fender American Vintage Reissue Stratocaster with a pencil date reading 4-24-86" width={1280} /><figcaption>A 1986 Corona American Vintage Reissue Stratocaster, penciled 4-24-86 for April 24, 1986. The Corona reissues went back to a graphite pencil date.</figcaption></figure>
         </div>
       </div>
     </section>
