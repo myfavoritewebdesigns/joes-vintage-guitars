@@ -26,6 +26,12 @@
  * fender-1970s-pickup-code.jpg 1140 = 1970) carry Joe's baked-in call-out
  * annotations and are grouped in one examples gallery; Joe kept them as-is.
  *
+ * A "How The Pickups Changed Over The Years" section expands the live page's
+ * "Pickup Specifications by Era" content: flat vs staggered poles by model
+ * (Tele flat to mid-1955; Jazzmaster always flat; Jaguar staggered ~1964),
+ * black-vs-grey bobbin/back color, and Strat Alnico 3 vs 5, with the Telecaster
+ * flat-pole transition photo (telecaster-pickup-transition.jpg, native 988px).
+ *
  * No walkthrough video here: the lite-youtube clip the pot-codes and neck-dates
  * spokes embed does not cover pickup dating.
  *
@@ -49,12 +55,20 @@ const codeRows = [
   ["1140", "Last digit, 0", "1970"],
   ["161377", "Last two digits, 77", "1977"],
 ];
+const featureRows = [
+  ["Telecaster poles", "Flat and even up to mid-1955, staggered after with the D-string pole the tallest", "Flat poles point to a pre-mid-1955 Telecaster"],
+  ["Jazzmaster poles", "Flush and flat for the whole run, Fender never staggered them", "Staggered poles on a Jazzmaster mean a replacement"],
+  ["Jaguar poles", "Flat from 1962 to about 1964, staggered after", "Staggered poles put a Jaguar at about 1964 or later"],
+  ["Bobbin and back color", "Black on the earlier pickups, grey on the later ones, on every model", "Grey on a claimed mid-1950s pickup is a red flag"],
+  ["Stratocaster magnet", "Alnico 3 on the earliest Strats, Alnico 5 from about 1956 on", "Alnico 3 points to a 1954 to 1956 Strat"],
+];
 
 const tocItems: [string, string][] = [
   ["#what", "What A Pickup Date Is"],
   ["#find", "Where To Find It"],
   ["#pencil", "Handwritten And Stamped Dates"],
   ["#codes", "Numeric Codes"],
+  ["#features", "How The Pickups Changed"],
   ["#golden", "The Golden Rule"],
   ["#limits", "What It Can't Prove"],
   ["#cross", "Cross-Check The Date"],
@@ -220,6 +234,28 @@ const breadcrumbSchema = {
           <figure class="sfig"><LicensedImage src={meta("fender-pickup-date-ink.jpg")} alt="The base of a vintage Fender single-coil pickup, an inked date reading 9-8-65 for September 8, 1965" width={1280} /><figcaption>An inked date on a 1960s pickup base, 9-8-65 for September 8, 1965.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("fender-1970s-pickup-code.jpg")} alt="The base of a 1970s Fender pickup stamped with the numeric code 1140" width={1280} /><figcaption>A 1970s pickup stamped 1140. The final digit, 0, dates it to 1970.</figcaption></figure>
         </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- FEATURES BY ERA -->
+    <section id="features">
+      <div class="measure stack">
+        <span class="eyebrow">Beyond The Date</span>
+        <h2>How The Pickups Changed Over The Years</h2>
+        <p>A pickup that's lost its date isn't a dead end. Fender changed how the pickups were built as the years went on, and those changes narrow the era on their own. The pole pieces, the bobbin color, and the magnets all shifted at known points, so the pickup's own build backs up the date, or stands in for it when the date is gone.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th scope="col">Feature</th><th scope="col">What to look for</th><th scope="col">What it tells you</th></tr></thead>
+          <tbody>{featureRows.map((r) => (<tr><td data-label="Feature">{r[0]}</td><td data-label="What to look for">{r[1]}</td><td data-label="What it tells you">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("telecaster-pickup-transition.jpg")} alt="An early Fender Telecaster bridge pickup with flat, even pole pieces on a brass-saddle bridge" width={960} /><figcaption>An early Telecaster bridge pickup with flat, even pole pieces. Fender staggered the poles in the summer of 1955, so a flat set like this points to an earlier build.</figcaption></figure>
+        </div>
+        <div class="tip">
+          <p><b>Measure the D-string pole.</b> On a genuine staggered set from the mid-1950s into the 1960s, the D-string magnet stands the tallest. If a staggered pickup has the D pole level with the rest, it's a replacement or a reproduction. Put a ruler on it and compare the D to the others, a check most people never bother to make.</p>
+        </div>
+        <p class="note-sm">Bobbin color changed on a different schedule for each model, so use it to confirm an era, not to pin an exact year on its own.</p>
       </div>
     </section>
 
