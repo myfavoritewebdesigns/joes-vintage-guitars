@@ -46,3 +46,6 @@
 # (meta robots noindex + sitemap-excluded on the page too).
 /fender-pot-codes/
   X-Robots-Tag: noindex
+
+/fender-neck-dates/
+  X-Robots-Tag: noindex

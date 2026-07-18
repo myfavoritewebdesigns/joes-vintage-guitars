@@ -15,6 +15,7 @@ const SITEMAP_EXCLUDE = [
   '/fender-serial-tool-v2/', // internal test page for the v2 serial tool (noIndex)
   '/fender-serial-hub-preview/', // condensed serial-page rebuild preview (noIndex)
   '/fender-pot-codes/', // Fender serial guide spoke, pot codes (preview, noIndex)
+  '/fender-neck-dates/', // Fender serial guide spoke, neck dates (preview, noIndex)
 ];
 
 // https://astro.build/config
