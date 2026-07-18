@@ -19,8 +19,9 @@
  * The Green Stamp section draws on GGJaguar's 1969-1971 CBS neck-code reference
  * (ggjaguar.com/neckcode.htm): green ink, 6-8 digits read outside-in as model,
  * batch, month, year, width; runs alongside the plain date stamp; hard to read.
- * The 1980s Reissue note (AVRI pencil dates, 1982 on) is not yet in VG_FACTS;
- * flagged to log.
+ * The Neck Stamp Model Codes table (the model prefix, 1 to 28) is Joe-supplied
+ * CBS-era reference data. The green stamp, the model-code table, and the 1980s
+ * Reissue note (AVRI pencil dates, 1982 on) are not yet in VG_FACTS; flagged to log.
  */
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
@@ -44,6 +45,31 @@ const stampParts = [
   ["Next 2 digits", "Year, the last two digits. 63 means 1963.", "63"],
   ["Final letter", "Neck width. A narrow, B standard, C wide, D extra wide.", "B"],
 ];
+const modelRows = [
+  ["1", "Jaguar, 1962 to 1965"],
+  ["2", "Stratocaster, 1962 to 1965"],
+  ["3", "Telecaster"],
+  ["4", "Jazzmaster, 1962 to 1965"],
+  ["5", "Precision Bass"],
+  ["6", "Bass VI"],
+  ["7", "Jazz Bass"],
+  ["8", "Musicmaster II, Mustang, Duo-Sonic II, 1964 to 1965, 22 fret 24 inch scale"],
+  ["9", "Musicmaster II, Mustang, Duo-Sonic II, 1964 to 1966, 21 fret 22 1/4 inch scale"],
+  ["10", "Coronado 1 and 2, and the occasional 1966 Jazzmaster and Stratocaster neck"],
+  ["11", "Bass V"],
+  ["12", "Electric 12, and Maverick / Custom"],
+  ["13", "Stratocaster, 1966 to 1968, also 1966 Jazzmasters"],
+  ["14", "Coronado 12"],
+  ["15", "Jaguar, 1966 to 1972"],
+  ["16", "Musicmaster II, Mustang, Duo-Sonic II, and Bronco"],
+  ["17", "Mustang Bass and Musicmaster Bass"],
+  ["18", "Coronado Bass"],
+  ["19", "Jazzmaster and Coronado 2"],
+  ["22", "Stratocaster, 1968 to 1972"],
+  ["23", "Telecaster Bass"],
+  ["27", "Villager 12"],
+  ["28", "Shenandoah 12"],
+];
 
 const tocItems: [string, string][] = [
   ["#what", "What A Neck Date Is"],
@@ -51,6 +77,7 @@ const tocItems: [string, string][] = [
   ["#step1", "Read A Pencil Date"],
   ["#step2", "Read An Ink Stamp"],
   ["#green", "The Green Stamp"],
+  ["#models", "Model Codes"],
   ["#reissue", "1980s Reissues"],
   ["#golden", "The Golden Rule"],
   ["#limits", "What It Can't Prove"],
@@ -239,6 +266,20 @@ const breadcrumbSchema = {
         <div class="tip">
           <p><b>Green codes are the cryptic ones.</b> They are harder to read than the clear month-year stamps, they wear off easily, and the data behind them is still being pieced together. If a green code is faint or does not add up, lean on the pot codes to pin the year.</p>
         </div>
+      </div>
+    </section>
+
+    <!-- MODEL CODES -->
+    <section id="models" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Reference</span>
+        <h2>Neck Stamp Model Codes</h2>
+        <p>The first one or two digits of an ink stamp or a green code are the model number. Here is what those numbers mean. The same model can carry different codes across the years, which is a dating clue in itself.</p>
+        <div class="tablewrap compact"><table>
+          <thead><tr><th scope="col">Code</th><th scope="col">Model</th></tr></thead>
+          <tbody>{modelRows.map((r) => (<tr><td data-label="Code" class="code">{r[0]}</td><td data-label="Model">{r[1]}</td></tr>))}</tbody>
+        </table></div>
+        <p class="note-sm">These come from CBS-era neck stamps. Gaps in the run are models Fender never assigned a number, or codes not yet documented.</p>
       </div>
     </section>
 
