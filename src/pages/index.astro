@@ -81,8 +81,8 @@ const faqSchema = {
       iframe on click, so the player stays off the initial-load critical path.
       The CSS is loaded non-render-blocking (media=print swap) and the JS is
       deferred, so neither blocks the home-page render. */}
-  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" media="print" onload="this.media='all'" />
-  <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+  <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+  <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
   <Hero />
   <ValueProp />
   <AboutJoe />

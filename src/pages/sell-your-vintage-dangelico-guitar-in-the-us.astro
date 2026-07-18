@@ -71,8 +71,8 @@ const structuredData = [
   ogImage={`${SITE_URL}${assetSrc("images/sell-dangelico/dangelico-excel-archtop.jpg")}`}
   structuredData={structuredData}
 >
-  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
-  <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+  <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+  <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
 
   <section class="smd-hero">
     <div class="smd-inner">
