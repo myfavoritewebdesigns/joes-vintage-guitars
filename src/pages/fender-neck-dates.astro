@@ -10,11 +10,17 @@
  * and public/_headers), same preview pattern as the hub, /fender-pot-codes/,
  * and /fender-serial-tool-v2/.
  *
- * Content and photos come from Joe's live serial page (the "Neck Heel Dates"
- * section of /fender-guitars-serial-number-guide/). Facts trace to VG_FACTS.md
- * (joes-vintage-databases): VG-0051 (neck date = penciled/stamped on the heel,
- * marked until ~1976, penciled until March 1962) and VG-0055 (the neck heel
- * date is the single most reliable dating clue).
+ * Core content and photos come from Joe's live serial page (the "Neck Heel
+ * Dates" section of /fender-guitars-serial-number-guide/). Facts trace to
+ * VG_FACTS.md (joes-vintage-databases): VG-0051 (neck date = penciled/stamped
+ * on the heel, marked until ~1976, penciled until March 1962) and VG-0055 (the
+ * neck heel date is the single most reliable dating clue).
+ *
+ * The Green Stamp section draws on GGJaguar's 1969-1971 CBS neck-code reference
+ * (ggjaguar.com/neckcode.htm): green ink, 6-8 digits read outside-in as model,
+ * batch, month, year, width; runs alongside the plain date stamp; hard to read.
+ * The 1980s Reissue note (AVRI pencil dates, 1982 on) is not yet in VG_FACTS;
+ * flagged to log.
  */
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
@@ -44,6 +50,8 @@ const tocItems: [string, string][] = [
   ["#find", "Where To Find It"],
   ["#step1", "Read A Pencil Date"],
   ["#step2", "Read An Ink Stamp"],
+  ["#green", "The Green Stamp"],
+  ["#reissue", "1980s Reissues"],
   ["#golden", "The Golden Rule"],
   ["#limits", "What It Can't Prove"],
   ["#cross", "Cross-Check The Date"],
@@ -218,6 +226,37 @@ const breadcrumbSchema = {
 
     <div class="rule"></div>
 
+    <!-- GREEN STAMP -->
+    <section id="green">
+      <div class="measure stack">
+        <span class="eyebrow">Format 3</span>
+        <h2>The Green Stamp</h2>
+        <p>Starting in 1969, CBS Fender added a new neck stamp in green ink, a run of six to eight digits. For a few years it ran alongside the old month-year stamp, so a Fender from 1969 to 1971 might carry the plain date, the green code, or neither. A neck has one or the other, not both.</p>
+        <p>The green code reads from the outside in: the first two digits are the model, the next few are a batch number, then a digit or two for the month, one digit for the year, and a letter for the neck width. A Stratocaster starts with 22. For example, 22 384 10 9 B is a Strat, batch 384, October, 1969, standard width.</p>
+        <div class="figrow single portrait">
+          <figure class="sfig"><LicensedImage src={meta("1969-fender-neck-heel.jpg")} alt="A green ink neck stamp reading 22 447 1198 on a 1969 Fender Stratocaster neck heel" width={1000} /><figcaption>A green stamp on a 1969 Stratocaster neck. It starts with 22, the Stratocaster code.</figcaption></figure>
+        </div>
+        <div class="tip">
+          <p><b>Green codes are the cryptic ones.</b> They are harder to read than the clear month-year stamps, they wear off easily, and the data behind them is still being pieced together. If a green code is faint or does not add up, lean on the pot codes to pin the year.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- REISSUES -->
+    <section id="reissue" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Watch Out</span>
+        <h2>The 1980s Reissues Went Back To Pencil</h2>
+        <p>In 1982 Fender launched the American Vintage Reissue series, US-made copies of the 1950s and 1960s classics, and it brought back the old habits, including a penciled date on the neck heel. So a pencil date by itself does not prove a guitar is pre-CBS.</p>
+        <p>The giveaway is in the detail. A reissue pencil date often includes the day, not just the month and year, and the rest of the guitar, the serial number, the pot codes, and the hardware, will point to the 1980s or later. Read the pencil date, then confirm the era with everything else.</p>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("1986-fender-avri-strat-pencil-neck-heel.jpg")} alt="The neck heel of a 1986 Fender American Vintage Reissue Stratocaster with a pencil date reading 4-24-86" width={1280} /><figcaption>A 1986 American Vintage Reissue Stratocaster, penciled 4-24-86 for April 24, 1986. Reissues use a vintage-style pencil date, often with the day too.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
     <!-- GOLDEN RULE -->
     <section id="golden">
       <div class="measure stack">
@@ -370,6 +409,7 @@ const breadcrumbSchema = {
 
   .fspot .figrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
   .fspot .figrow.single{grid-template-columns:minmax(230px,680px);margin-inline:auto;}
+  .fspot .figrow.single.portrait{grid-template-columns:minmax(230px,500px);}
   .fspot .figrow.gallery{grid-template-columns:1fr;gap:1.4rem;max-width:680px;margin-inline:auto;}
   .fspot figure.sfig{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow);}
   .fspot figure.sfig img{display:block;width:100%;height:auto;background:var(--panel-2);}
