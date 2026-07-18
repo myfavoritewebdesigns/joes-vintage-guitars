@@ -20,13 +20,18 @@
  * before final assembly, and the Stratocaster example (a claimed 1959 Strat
  * should read 1958 or early 1959; a 1962 body date means a swapped body).
  *
- * Photos are three Joe supplied for this page (resized to 2560px into
- * images/fender-sn/): the neck pocket of an early-1950s Precision Bass penciled
- * 3-10-53 with the initials T.G. (hero), a 1956 Stratocaster pickup route
- * penciled 6-56, and the rear spring cavity of a 1955 Stratocaster with the date
- * hidden behind the tremolo springs. The builder-name detail (a name like
- * "Eddie" or "Davis" in place of a date) traces to Joe's 1952 Telecaster
- * authentication guide.
+ * Photos: three Joe supplied for this page (resized to 2560px into
+ * images/fender-sn/) plus the two the live serial page's Body Date Codes section
+ * already uses. Joe's set: the neck pocket of an early-1950s Precision Bass
+ * penciled 3-10-53 with the initials T.G. (hero), a 1956 Stratocaster pickup
+ * route penciled 6-56, and the rear spring cavity of a 1955 Stratocaster with
+ * the date hidden behind the tremolo springs. The live-page pair: the 1956
+ * Telecaster neck-pocket ink stamp and the 1956 Telecaster control-cavity pencil
+ * dates. The builder-name detail (a name like "Eddie" or "Davis" in place of a
+ * date) traces to Joe's 1952 Telecaster authentication guide.
+ *
+ * No walkthrough video on this page, per Joe; the pot-codes and neck-dates
+ * spokes embed the lite-youtube clip, this one does not.
  *
  * Body-date facts are not yet carried in VG_FACTS with VG-#### ids; flagged to
  * log, same as the neck-dates green-stamp and model-code detail.
@@ -114,20 +119,6 @@ const faqSchema = {
     acceptedAnswer: { "@type": "Answer", text: f.a },
   })),
 };
-const YT_ID = "PIRoB0KHEg0";
-const YT_TITLE = "Where to Find Fender Serial Numbers, Neck Heel Dates & Pot Codes (Identification Guide)";
-const videoSchema = {
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "@id": `${SITE_URL}${PAGE_PATH}#video`,
-  name: YT_TITLE,
-  description: "A vintage Fender appraiser takes a vintage Fender apart to reach its dating marks, including lifting the neck out of the pocket where the body date usually sits.",
-  thumbnailUrl: `https://img.youtube.com/vi/${YT_ID}/maxresdefault.jpg`,
-  uploadDate: "2026-01-13",
-  embedUrl: `https://www.youtube.com/embed/${YT_ID}?start=114`,
-  contentUrl: `https://www.youtube.com/watch?v=${YT_ID}&t=114s`,
-  author: { "@id": `${SITE_URL}/about-me/#person` },
-};
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -147,11 +138,8 @@ const breadcrumbSchema = {
   ogImageAlt="The neck pocket of an early 1950s Fender Precision Bass penciled 3-10-53 with the initials T.G. above the date"
   ogType="article"
   noIndex={true}
-  structuredData={[articleSchema, videoSchema, faqSchema, breadcrumbSchema]}
+  structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
 >
-  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
-  <script slot="head" defer src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js"></script>
-
   <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
   <div class="fspot-header-backdrop" aria-hidden="true">
     <div class="fspot-header-backdrop__dark"></div>
@@ -210,14 +198,11 @@ const breadcrumbSchema = {
           <thead><tr><th scope="col">Location</th><th scope="col">What you'll see</th><th scope="col">What comes off</th></tr></thead>
           <tbody>{locationRows.map((r) => (<tr><td data-label="Location">{r[0]}</td><td data-label="What you'll see">{r[1]}</td><td data-label="What comes off" class="yr">{r[2]}</td></tr>))}</tbody>
         </table></div>
-        <div class="figrow single">
-          <figure class="sfig"><LicensedImage src={meta("1955-fender-stratocaster-body-date.jpg")} alt="The rear spring cavity of a 1955 Fender Stratocaster with the back plate removed, the body date on the bare wood behind the tremolo springs" width={1280} /><figcaption>The rear spring cavity of a 1955 Stratocaster, back plate off. The body date hides on the bare wood behind the tremolo springs, easy to miss.</figcaption></figure>
+        <p class="secintro">The neck pocket is the first place to look, and taking the neck off shows you the neck heel date at the same time, so one job reads both. The rest hide in the routed cavities, on the bare wood the finish never reached.</p>
+        <div class="figrow">
+          <figure class="sfig"><LicensedImage src={meta("1955-fender-stratocaster-body-date.jpg")} alt="The rear spring cavity of a 1955 Fender Stratocaster with the back plate removed, the body date on the bare wood behind the tremolo springs" width={1280} /><figcaption>The rear spring cavity of a 1955 Stratocaster, back plate off. The date hides on the bare wood behind the tremolo springs, easy to miss.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("1956-fender-telecaster-blonde-24.jpg")} alt="Inside the control cavity of a 1956 Fender Telecaster, period wiring and penciled dates on the bare wood" width={1280} /><figcaption>The control cavity of a 1956 Telecaster. Penciled dates sit on the bare wood alongside the period wiring.</figcaption></figure>
         </div>
-        <p class="secintro">The neck pocket is the first place to look, and it means taking the neck off, the same step that shows you the neck heel date. Watch that step here:</p>
-        <div class="videowrap">
-          <lite-youtube videoid={YT_ID} params="rel=0&modestbranding=1&start=114" title={YT_TITLE} style={`background-image:url('${img("fender-neck-heel-video-poster.jpg")}')`}></lite-youtube>
-        </div>
-        <p class="note-sm">The moment the neck lifts out, the neck pocket is right there, so one job reads both the neck date and the body date under it.</p>
         <p>If you aren't comfortable opening the guitar up, don't force it. A stripped screw or a chipped finish costs more than the answer. Get in touch before you take anything apart and I'll help, or read the date for you if you bring the guitar by.</p>
       </div>
     </section>
@@ -235,8 +220,9 @@ const breadcrumbSchema = {
           <thead><tr><th scope="col">Form</th><th scope="col">What it looks like</th></tr></thead>
           <tbody>{formRows.map((r) => (<tr><td data-label="Form">{r[0]}</td><td data-label="What it looks like">{r[1]}</td></tr>))}</tbody>
         </table></div>
-        <div class="figrow single">
-          <figure class="sfig"><LicensedImage src={meta("1956-fender-stratocaster-body-date-neck-pickup-cavity.jpg")} alt="A penciled date reading 6-56 on the bare wood inside a 1956 Fender Stratocaster pickup route" width={1280} /><figcaption>A Stratocaster pickup route, penciled 6-56 for June 1956 on the bare wood. The routed cavities are a common spot for the date.</figcaption></figure>
+        <div class="figrow">
+          <figure class="sfig"><LicensedImage src={meta("1956-fender-stratocaster-body-date-neck-pickup-cavity.jpg")} alt="A penciled date reading 6-56 on the bare wood inside a 1956 Fender Stratocaster pickup route" width={1280} /><figcaption>A Stratocaster pickup route, penciled 6-56 for June 1956. Most body dates are penciled like this.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("1956-fender-telecaster-blonde-21.jpg")} alt="An ink-stamped body date in the neck pocket of a 1956 Fender Telecaster" width={1280} /><figcaption>A 1956 Telecaster neck pocket, this date ink-stamped instead of penciled. Both forms turn up on Fender bodies.</figcaption></figure>
         </div>
         <div class="tip">
           <p><b>A name is not a date.</b> Now and then the mark is a worker's name or initials instead of a date, like the T.G. penciled above the date on the Precision Bass at the top of this page, or a name like Eddie or Davis. That's an assembly or inspection mark, not the year. When that's all the body gives you, lean on the neck date and the pot codes to pin the build.</p>
