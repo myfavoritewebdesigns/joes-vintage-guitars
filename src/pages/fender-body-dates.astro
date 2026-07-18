@@ -1,25 +1,35 @@
 ---
 /**
- * Fender pot codes spoke, CONDENSED REBUILD, preview build.
+ * Fender body dates spoke, CONDENSED REBUILD, preview build.
  *
- * First of the hub-and-spoke method pages behind the condensed Fender serial
- * rebuild (see fender-serial-hub-preview.astro). Deep-dives the potentiometer
- * date-code method the hub only summarizes, so the hub's "/fender-pot-codes/"
- * card now resolves.
+ * Hub-and-spoke method page behind the condensed Fender serial rebuild
+ * (see fender-serial-hub-preview.astro). Deep-dives the body-date method the
+ * hub only summarizes, so the hub's "/fender-body-dates/" card resolves. This
+ * is the specific slug Joe wants for the body-date page; it replaces the earlier
+ * placeholder "/fender-physical-dating/" the sibling spokes linked to (that slug
+ * is now retired across the hub, /fender-pot-codes/, and /fender-neck-dates/).
  *
  * Noindex + sitemap-excluded + X-Robots-Tag (astro.config.mjs SITEMAP_EXCLUDE
- * and public/_headers), same preview pattern as the hub and /fender-serial-tool-v2/.
- * Content facts trace to Joe's live serial page and VG_FACTS.md (joes-vintage-
- * databases): VG-0047, VG-0048, VG-0099, VG-0100, VG-0101, VG-0102, plus new
- * VG-0113 (full EIA maker-code roster) and VG-0114 (Fender supplier timeline +
- * CBS bulk-buy lag), added in joes-vintage-databases PR #2.
+ * and public/_headers), same preview pattern as the hub, /fender-pot-codes/,
+ * and /fender-neck-dates/.
  *
- * MAKER-CODE NOTE: two fixes vs the live serial page's maker-code text LIST.
- * (1) It transposes Centralab and Stackpole (reads 304 = Centralab, 134 =
- * Stackpole); the correct pairing is 134 = Centralab, 304 = Stackpole. (2) It
- * lists 106 = Clarostat, but 106 is Allen-Bradley and Clarostat is 140
- * (guitarhq.com roster, VG-0113). This page uses the corrected values; the live
- * page text is flagged for a separate fix.
+ * Core content and photos come from Joe's live serial page (the "Body Date
+ * Codes" section of /fender-guitars-serial-number-guide/): the four body-date
+ * locations (neck pocket, pickup cavities, rear tremolo cavity, control cavity),
+ * the rule that the date records when the BODY was completed weeks to months
+ * before final assembly, and the Stratocaster example (a claimed 1959 Strat
+ * should read 1958 or early 1959; a 1962 body date means a swapped body).
+ *
+ * Photos are three Joe supplied for this page (resized to 2560px into
+ * images/fender-sn/): the neck pocket of an early-1950s Precision Bass penciled
+ * 3-10-53 with the initials T.G. (hero), a 1956 Stratocaster pickup route
+ * penciled 6-56, and the rear spring cavity of a 1955 Stratocaster with the date
+ * hidden behind the tremolo springs. The builder-name detail (a name like
+ * "Eddie" or "Davis" in place of a date) traces to Joe's 1952 Telecaster
+ * authentication guide.
+ *
+ * Body-date facts are not yet carried in VG_FACTS with VG-#### ids; flagged to
+ * log, same as the neck-dates green-stamp and model-code detail.
  */
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
@@ -29,26 +39,27 @@ import { contact, hrefs, SITE_URL } from "../config/site";
 const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
 const img = (file: string) => assetSrc("images/fender-sn/" + file);
 
-const PAGE_PATH = "/fender-pot-codes/";
+const PAGE_PATH = "/fender-body-dates/";
 const HUB_PATH = "/fender-guitars-serial-number-guide/";
 
 // ---- Data ----
-const makerRows = [
-  ["134", "Centralab"],
-  ["137", "CTS (Chicago Telephone Supply)"],
-  ["140", "Clarostat"],
-  ["304", "Stackpole"],
+const locationRows = [
+  ["Neck pocket", "The most common spot. A pencil or ink date on the bare wood, sometimes on a strip of masking tape stuck in the pocket.", "The neck"],
+  ["Pickup cavities", "A pencil date on the raw wood inside a routed pickup cavity.", "The pickguard"],
+  ["Rear tremolo cavity", "On a Stratocaster, the bare wood in the spring cavity, hidden under the back plate.", "The back plate"],
+  ["Control cavity", "Behind the metal control plate on a Telecaster, or under the pickguard on a Stratocaster.", "The plate or guard"],
 ];
-const dateRows = [
-  ["3-Digit Date Code", "First digit is the last digit of the year. The next two digits are the week.", "137 8 25", "CTS, week 25 of 1958"],
-  ["4-Digit Date Code", "First two digits are the last two of the year. The next two digits are the week.", "304 64 03", "Stackpole, week 3 of 1964"],
+const formRows = [
+  ["Pencil date", "A handwritten month and year in graphite, the most common form on a Fender body."],
+  ["Ink stamp", "A rubber-stamped date pressed into the wood, like the neck-pocket stamp on many 1950s Telecasters."],
+  ["Masking-tape date", "A date written on a strip of masking tape stuck inside the neck pocket."],
+  ["A name or initials", "Sometimes a worker wrote a name or initials, like Eddie or Davis, next to the date or in place of one."],
 ];
 
 const tocItems: [string, string][] = [
-  ["#what", "What A Pot Code Is"],
-  ["#find", "Where To Find The Code"],
-  ["#step1", "Step 1: The Maker Code"],
-  ["#step2", "Step 2: The Date Code"],
+  ["#what", "What A Body Date Is"],
+  ["#find", "Where To Find It"],
+  ["#read", "How To Read It"],
   ["#golden", "The Golden Rule"],
   ["#limits", "What It Can't Prove"],
   ["#cross", "Cross-Check The Date"],
@@ -59,24 +70,24 @@ const tocItems: [string, string][] = [
 
 const faqs = [
   {
-    q: "Do I Have To Take My Guitar Apart To Read The Pot Codes?",
-    a: "You need to see the back or the side of the potentiometers, which usually means taking off the pickguard or the metal control plate the knobs are mounted on. If you aren't comfortable doing that, don't force it. Get in touch and I'll help, or bring the guitar by and I'll read the codes for you.",
+    q: "Do I Have To Take My Fender Apart To Find The Body Date?",
+    a: "Usually yes. The most common spot is the neck pocket, which means taking the neck off, and the other dates sit in cavities you reach by pulling the pickguard, the control plate, or the tremolo back plate. Vintage screws and finishes chip easily, so if you aren't comfortable doing that, don't force it. Get in touch and I'll help, or bring the guitar by and I'll read it for you.",
   },
   {
-    q: "My Pot Code Is Older Than My Serial Number Suggests. Is That A Problem?",
-    a: "Usually not. A pot code dates the pot, and the guitar was assembled on or after that date, so a pot slightly older than the build is exactly what you want to see. A pot dated years newer than the rest of the guitar is the real red flag.",
+    q: "My Body Date Doesn't Match My Neck Date. Is That A Problem?",
+    a: "A small gap is normal and original. Fender made bodies and necks in separate batches and pulled both from bins, so a body and neck a few months apart is exactly what you'd expect. A body dated well after the rest of the guitar is the red flag, because that usually means the body was replaced.",
   },
   {
-    q: "What If My Fender Has Two Different Pot Dates?",
-    a: "That's common and fine when the dates sit within a few weeks or months of each other. Majority rules. If three pots read early 1962 and one reads late 1963, the odd one out is almost certainly a replacement, not the build date.",
+    q: "There's No Date In My Neck Pocket. Why?",
+    a: "Body dating was never as consistent as neck dating, so plenty of real Fenders never got one, and the practice tapered off through the mid to late 1960s. A pencil mark can also wear off or get sanded away in a refinish, or the date is in a different cavity. Check the pickup routes and, on a Strat, the spring cavity before you decide it's missing.",
   },
   {
-    q: "Can A Pot Code Fake A Vintage Date?",
-    a: "Not without swapping the whole pot, and a replaced pot gives itself away with fresh solder and a date that breaks from the others. That difficulty is exactly why original pots are one of the most reliable dating tools you have.",
+    q: "The Body Date Is Older Than My Serial Number. Is That Right?",
+    a: "That's the normal direction. Fender prepped and dated bodies weeks or months before final assembly, so the body date sitting a little earlier than the build is exactly what you want to see. A body date that lands later than the rest of the guitar is the one to question.",
   },
   {
-    q: "Does A Correct Pot Code Prove My Guitar Is All Original?",
-    a: "No. It dates that one pot. Originality is a whole-guitar judgment that weighs the neck date, the pickups, the tuners, the hardware, and the finish together. Send me three photos and I'll give you the real story for free.",
+    q: "Does The Body Date Prove My Guitar Is All Original?",
+    a: "No. It dates the body. Originality is a whole-guitar judgment that weighs the neck date, the pot codes, the pickups, the hardware, and the finish together. Send me three photos and I'll give you the real story for free.",
   },
 ];
 
@@ -84,12 +95,12 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "How To Read Fender Pot Codes And Date Your Guitar",
+  headline: "How To Read Fender Body Dates And Date Your Guitar",
   description:
-    "Read the maker and date code stamped on your Fender's potentiometers to date the guitar to the week, then cross-check it against the neck date. A step-by-step pot-code guide from a vintage Fender appraiser.",
+    "Find the pencil or ink date Fender wrote inside your guitar's body, in the neck pocket or the cavities, and turn it into a real build date, then cross-check it against the neck date. A step-by-step body-date guide from a vintage Fender appraiser.",
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
-  image: img("cts-pot-code-for-fender-guitars-rotated.jpg"),
+  image: img("1952-fender-precision-bass-body-date.jpg"),
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
@@ -110,11 +121,11 @@ const videoSchema = {
   "@type": "VideoObject",
   "@id": `${SITE_URL}${PAGE_PATH}#video`,
   name: YT_TITLE,
-  description: "A vintage Fender appraiser shows where to find the potentiometer date codes and how to read them, including getting to the pots inside the control cavity.",
+  description: "A vintage Fender appraiser takes a vintage Fender apart to reach its dating marks, including lifting the neck out of the pocket where the body date usually sits.",
   thumbnailUrl: `https://img.youtube.com/vi/${YT_ID}/maxresdefault.jpg`,
   uploadDate: "2026-01-13",
-  embedUrl: `https://www.youtube.com/embed/${YT_ID}?start=254`,
-  contentUrl: `https://www.youtube.com/watch?v=${YT_ID}&t=254s`,
+  embedUrl: `https://www.youtube.com/embed/${YT_ID}?start=114`,
+  contentUrl: `https://www.youtube.com/watch?v=${YT_ID}&t=114s`,
   author: { "@id": `${SITE_URL}/about-me/#person` },
 };
 const breadcrumbSchema = {
@@ -123,17 +134,17 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
     { "@type": "ListItem", position: 2, name: "Fender Serial Number Guide", item: `${SITE_URL}${HUB_PATH}` },
-    { "@type": "ListItem", position: 3, name: "Fender Pot Codes", item: `${SITE_URL}${PAGE_PATH}` },
+    { "@type": "ListItem", position: 3, name: "Fender Body Dates", item: `${SITE_URL}${PAGE_PATH}` },
   ],
 };
 ---
 
 <Layout
-  title="How To Read Fender Pot Codes: Potentiometer Dating Guide (Preview)"
-  description="Read the maker and date code stamped on your Fender's pots to date the guitar to the week. A step-by-step potentiometer dating guide from a vintage Fender appraiser."
+  title="How To Read Fender Body Dates: Neck-Pocket Dating Guide (Preview)"
+  description="Find the pencil or ink date Fender wrote inside your guitar's body, in the neck pocket or the cavities, and turn it into a real build date. A step-by-step body-date guide from a vintage Fender appraiser."
   canonical={PAGE_PATH}
-  ogImage={`${SITE_URL}${img("cts-pot-code-for-fender-guitars-rotated.jpg")}`}
-  ogImageAlt="A CTS potentiometer on a vintage Fender with the maker code 137 and date code visible"
+  ogImage={`${SITE_URL}${img("1952-fender-precision-bass-body-date.jpg")}`}
+  ogImageAlt="The neck pocket of an early 1950s Fender Precision Bass penciled 3-10-53 with the initials T.G. above the date"
   ogType="article"
   noIndex={true}
   structuredData={[articleSchema, videoSchema, faqSchema, breadcrumbSchema]}
@@ -147,7 +158,7 @@ const breadcrumbSchema = {
     <div class="fspot-header-backdrop__cream"></div>
   </div>
 
-  <p class="fspot-preview-note">Internal preview of a Fender serial guide spoke. Noindexed and not linked. Sibling spoke links point at planned slugs that do not exist yet.</p>
+  <p class="fspot-preview-note">Internal preview of a Fender serial guide spoke. Noindexed and not linked. Some sibling spoke links point at planned slugs that do not exist yet.</p>
 
   <div class="fspot">
     <!-- HERO -->
@@ -155,14 +166,14 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <a class="back" href={HUB_PATH}>Back To The Full Fender Serial Guide</a>
         <span class="eyebrow">Fender Dating Methods</span>
-        <h1>Fender Pot Codes: How To Date A Fender By Its Potentiometers</h1>
-        <p class="lead">The serial number gets you a range. The pot codes get you a week. Here's how to read the maker and date code stamped on your Fender's volume and tone pots, and how to turn that into a real build date.</p>
+        <h1>Fender Body Dates: How To Date A Fender By Its Body</h1>
+        <p class="lead">The serial number gets you a range. The neck date dates the neck. The body date tells you when the body itself was made, penciled or stamped inside the wood where almost nobody looks. Here's how to find it and turn it into a real build date.</p>
         <div class="trust">
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
         </div>
         <figure class="sfig herofig">
-          <LicensedImage src={meta("fender-1965-potentiometer.jpg")} alt="A CTS potentiometer inside a 1965 Fender, its casing stamped with the code 137 6518" width={1600} loading="eager" />
-          <figcaption>A pot in a 1965 Fender, stamped 137 6518. That reads as maker 137 for CTS, then 65 for 1965 and 18 for the 18th week.</figcaption>
+          <LicensedImage src={meta("1952-fender-precision-bass-body-date.jpg")} alt="The neck pocket of an early 1950s Fender Precision Bass, penciled 3-10-53 with a worker's initials T.G. above the date and a stamped D" width={1600} loading="eager" />
+          <figcaption>The neck pocket of a slab-body Fender Precision Bass, penciled 3-10-53 for March 10, 1953. The T.G. above it is a worker's initials, not part of the date.</figcaption>
         </figure>
       </div>
     </section>
@@ -183,9 +194,9 @@ const breadcrumbSchema = {
     <section id="what">
       <div class="measure stack">
         <span class="eyebrow">Start Here</span>
-        <h2>What A Pot Code Is</h2>
-        <p>Every potentiometer, the volume and tone controls under your pickguard, carries a stamped code from the company that made it. That code has two parts: a maker code that names the supplier, and a date code that gives the year and the exact week the pot was built. Read them together and you have a part dated to the week.</p>
-        <p>Pot codes are one of the most reliable dating tools on a vintage Fender, because they're almost impossible to fake without replacing the whole pot. The catch is what they date. The code dates the potentiometer, not the guitar. The two line up only when the pots are original to the instrument.</p>
+        <h2>What A Body Date Is</h2>
+        <p>The body date is a date written or stamped on the body itself, put there by the worker who routed the wood or sprayed the finish. It records when the body was finished, which on a Fender was usually weeks or months before the guitar was put together. Fenders from the 1950s and the early to mid 1960s often carry one, tucked in a spot you only see with the guitar apart.</p>
+        <p>Like the neck date, it dates one part, not the whole guitar. The body date dates the body. It speaks for the instrument only when the body is original to it, so read it next to the neck date and the serial, not on its own.</p>
       </div>
     </section>
 
@@ -193,51 +204,42 @@ const breadcrumbSchema = {
     <section id="find" class="pt0">
       <div class="measure stack">
         <span class="eyebrow">Before You Start</span>
-        <h2>Where To Find The Code</h2>
-        <p>The code is stamped on the side or the back of the pot's metal casing, so you have to see the pots to read them. On a vintage Fender the controls are mounted on the pickguard, like a Stratocaster, or on a metal control plate, like a Telecaster, so you reach the pots by taking off whichever one the knobs sit on. The stamp is small and often grimy, so a phone photo you can zoom into beats squinting at it in the cavity.</p>
-        <div class="videowrap">
-          <lite-youtube videoid={YT_ID} params="rel=0&modestbranding=1&start=254" title={YT_TITLE} style={`background-image:url('${img("fender-pot-codes-video-poster.jpg")}')`}></lite-youtube>
+        <h2>Where To Find The Body Date</h2>
+        <p>The body date hides in the routed and pocketed areas of the body, so you have to open the guitar up to see it. It can sit in any of a few places, and some Fenders were marked in more than one. Here is where to look and what you take off to get there.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th scope="col">Location</th><th scope="col">What you'll see</th><th scope="col">What comes off</th></tr></thead>
+          <tbody>{locationRows.map((r) => (<tr><td data-label="Location">{r[0]}</td><td data-label="What you'll see">{r[1]}</td><td data-label="What comes off" class="yr">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("1955-fender-stratocaster-body-date.jpg")} alt="The rear spring cavity of a 1955 Fender Stratocaster with the back plate removed, the body date on the bare wood behind the tremolo springs" width={1280} /><figcaption>The rear spring cavity of a 1955 Stratocaster, back plate off. The body date hides on the bare wood behind the tremolo springs, easy to miss.</figcaption></figure>
         </div>
-        <p class="note-sm">Watch Joe get to the pots and read the codes. The clip starts right at that step.</p>
-        <p>If you aren't comfortable opening the guitar up, don't force it. A stripped screw or a cracked pickguard costs more than the answer. Get in touch before you take anything apart and I'll help, or read the codes for you if you bring the guitar by.</p>
+        <p class="secintro">The neck pocket is the first place to look, and it means taking the neck off, the same step that shows you the neck heel date. Watch that step here:</p>
+        <div class="videowrap">
+          <lite-youtube videoid={YT_ID} params="rel=0&modestbranding=1&start=114" title={YT_TITLE} style={`background-image:url('${img("fender-neck-heel-video-poster.jpg")}')`}></lite-youtube>
+        </div>
+        <p class="note-sm">The moment the neck lifts out, the neck pocket is right there, so one job reads both the neck date and the body date under it.</p>
+        <p>If you aren't comfortable opening the guitar up, don't force it. A stripped screw or a chipped finish costs more than the answer. Get in touch before you take anything apart and I'll help, or read the date for you if you bring the guitar by.</p>
       </div>
     </section>
 
     <div class="rule"></div>
 
-    <!-- STEP 1 -->
-    <section id="step1">
+    <!-- READ -->
+    <section id="read">
       <div class="measure stack">
-        <span class="eyebrow">Step 1</span>
-        <h2>Read The Manufacturer Code</h2>
-        <p>The first three digits are the EIA source code, an industry number that names the company that made the pot. Four suppliers show up on vintage Fenders:</p>
+        <span class="eyebrow">Read It</span>
+        <h2>How To Read A Body Date</h2>
+        <p>Body dates are the plain kind. There's no model code or supplier code to decode, just a date in someone's handwriting or a stamp. A Stratocaster pickup route penciled 6-56 reads as June 1956. Some carry the day as well: a neck pocket penciled 3-10-53 reads as March 10, 1953, the month, the day, then the year. Once you find the mark, it usually reads straight off.</p>
+        <p>What changes is the form the mark takes. Here is what you'll run into:</p>
         <div class="tablewrap compact"><table>
-          <thead><tr><th>Maker code</th><th>Manufacturer</th></tr></thead>
-          <tbody>{makerRows.map((r) => (<tr><td data-label="Maker code" class="code">{r[0]}</td><td data-label="Manufacturer">{r[1]}</td></tr>))}</tbody>
+          <thead><tr><th scope="col">Form</th><th scope="col">What it looks like</th></tr></thead>
+          <tbody>{formRows.map((r) => (<tr><td data-label="Form">{r[0]}</td><td data-label="What it looks like">{r[1]}</td></tr>))}</tbody>
         </table></div>
-        <p class="secintro">Fender never made its own pots. It bought them from these suppliers, so the maker code tells you who made the part, not that the guitar is a Fender. The maker is also a rough dating clue: Fender used mostly Stackpole through the 1950s and switched to CTS around early 1963, with Centralab and Clarostat turning up on some earlier guitars. CTS, code 137, is the one you'll see most often. A few rarer codes such as 106 for Allen-Bradley exist too, but they seldom appear in a Fender's guitar controls.</p>
-        <p>That first code matters for more than naming the maker. It always comes first on the casing, so the digits stamped right after it are the date. Find the maker code and it points you straight to the numbers that give the year and the week.</p>
-      </div>
-    </section>
-
-    <!-- STEP 2 -->
-    <section id="step2" class="pt0">
-      <div class="measure stack">
-        <span class="eyebrow">Step 2</span>
-        <h2>Decode The Date</h2>
-        <p>The digits after the maker code are the date code. They read as year, then week. There are two formats, depending on the era:</p>
-        <div class="tablewrap"><table>
-          <thead><tr><th>Format</th><th>How to read it</th><th>Example</th><th>What it means</th></tr></thead>
-          <tbody>{dateRows.map((r) => (<tr><td data-label="Format">{r[0]}</td><td data-label="How to read it">{r[1]}</td><td data-label="Example" class="code">{r[2]}</td><td data-label="What it means" class="yr">{r[3]}</td></tr>))}</tbody>
-        </table></div>
-        <p class="secintro"><b>Worked example.</b> A pot stamped 3046403 breaks down as 304 for Stackpole, 64 for 1964, and 03 for the third week. So that pot was made in the third week of 1964, and the guitar was built no earlier than that. Here are real pots showing the maker and date codes up close:</p>
-        <div class="figrow gallery">
-          <figure class="sfig"><LicensedImage src={meta("stackpole-potentiometer-decoder.jpg")} alt="A Stackpole potentiometer code 3046403 decoded: maker 304, year 1964, week 3" width={1280} /><figcaption>Stackpole code 3046403: maker 304, year 1964, week 3.</figcaption></figure>
-          <figure class="sfig"><LicensedImage src={meta("cts-pot-code-for-fender-guitars-rotated.jpg")} alt="A CTS potentiometer on a vintage Fender, maker code 137, with the date code showing 1958" width={1280} /><figcaption>A CTS pot. Maker code 137, dated to 1958.</figcaption></figure>
-          <figure class="sfig"><LicensedImage src={meta("fender-stackpole-potentiometer-decoder.jpg")} alt="A Stackpole potentiometer on a vintage Fender, maker code 304, with the date code showing 1958" width={1024} /><figcaption>A Stackpole pot. Maker code 304, dated to 1958.</figcaption></figure>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("1956-fender-stratocaster-body-date-neck-pickup-cavity.jpg")} alt="A penciled date reading 6-56 on the bare wood inside a 1956 Fender Stratocaster pickup route" width={1280} /><figcaption>A Stratocaster pickup route, penciled 6-56 for June 1956 on the bare wood. The routed cavities are a common spot for the date.</figcaption></figure>
         </div>
         <div class="tip">
-          <p><b>Watch the decade on short codes.</b> A three-digit date code gives only one year digit, so it tells you the year within a decade but not which decade. In practice a single year digit points to the 1950s, because Fender's suppliers moved to the two-digit year format with the 1960s. Confirm the decade against the rest of the guitar rather than assuming it.</p>
+          <p><b>A name is not a date.</b> Now and then the mark is a worker's name or initials instead of a date, like the T.G. penciled above the date on the Precision Bass at the top of this page, or a name like Eddie or Davis. That's an assembly or inspection mark, not the year. When that's all the body gives you, lean on the neck date and the pot codes to pin the build.</p>
         </div>
       </div>
     </section>
@@ -248,10 +250,9 @@ const breadcrumbSchema = {
     <section id="golden">
       <div class="measure stack">
         <span class="eyebrow">The One Rule That Matters</span>
-        <h2>Pot Codes Give The Earliest Possible Date</h2>
-        <p>Here's the rule every appraiser works by. A pot code tells you the earliest the guitar could have been built, never the exact day. Fender bought pots in bulk and pulled them from a parts bin, so a pot could sit for weeks or months before it went into a guitar. A pot dated to the 32nd week of 1959 means the guitar was assembled no earlier than August 1959. It could just as easily be late 1959 or early 1960.</p>
-        <p>That gap gets wider in the CBS years. Fender bought a colossal surplus of CTS pots in 1966 and kept pulling from that exact batch for years. Because of this, it's completely normal for a guitar built as late as 1972 or 1973 to leave the factory with original 1966 pots. The guitar can be newer than its pots. It can never be older than its latest original pot.</p>
-        <p>When the pots disagree, majority rules. If three pots read early 1962 and one reads late 1963, the late 1963 pot is a replacement, not the build date. Read all of them, not just one.</p>
+        <h2>The Body Date Dates The Body</h2>
+        <p>Here's the rule every appraiser works by. The body date tells you when the body was made, not when the guitar was assembled. Fender prepped bodies ahead of the line, so the body date lands at the build or a little before it. On an original, unmodified Fender the body date, the neck date, and the serial all sit within a few months of each other.</p>
+        <p>Body dates on Stratocasters get overlooked all the time, because they hide in the spring cavity under the tremolo back plate. On a guitar sold as a 1959 Strat, the body date should read sometime in 1958 or early 1959, since the body was prepped ahead of assembly. If the body date reads 1962, the body was replaced at some point. That doesn't make it a bad guitar, but it's a different guitar than a 100% original 1959, and the price should reflect that.</p>
       </div>
     </section>
 
@@ -259,14 +260,9 @@ const breadcrumbSchema = {
     <section id="limits" class="pt0">
       <div class="measure stack">
         <span class="eyebrow">Keep It Honest</span>
-        <h2>What A Pot Code Can't Prove</h2>
-        <p>A pot code dates the pot and nothing else. It only speaks for the guitar when the pots are original, so look for fresh solder or a code that sits ten or more years off from the others. Either one points to a replaced pot.</p>
-        <p>It helps to know what original looks like too. On an untouched harness the solder joints sit clean and a little dull, usually with a ring of flux still around the edge, and the cloth wire and capacitor wear honest age rather than a fresh repair.</p>
-        <figure class="sfig">
-          <LicensedImage src={meta("1965-fender-jaguar-wiring-harness.jpg")} alt="The original wiring harness of a 1965 Fender Jaguar, showing clean factory solder joints with flux around the edges, cloth covered wire, and a period capacitor" width={1600} />
-          <figcaption>An original, untouched 1965 Fender Jaguar harness. The solder joints are clean with flux still around the edges, the wire is cloth covered, and nothing has been resoldered or swapped.</figcaption>
-        </figure>
-        <p>A correct pot code also doesn't prove a guitar is all original. That's a whole-instrument call that weighs the neck date, the pickups, the tuners, the hardware, and the finish together. Treat the pot code as one strong input, then line it up with everything else.</p>
+        <h2>What A Body Date Can't Prove</h2>
+        <p>A body date dates the body and nothing else. It only speaks for the guitar when the body is original, so line the body date up with the neck date and the serial. When one of them sits years off from the other two, that's your sign a part was swapped, most often the body or the neck.</p>
+        <p>A correct body date also doesn't prove a guitar is all original. That's a whole-instrument call that weighs the neck date, the pot codes, the pickups, the hardware, and the finish together. Treat the body date as one solid clue, then line it up with everything else.</p>
       </div>
     </section>
 
@@ -277,7 +273,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Put It All Together</span>
         <h2>Cross-Check With The Other Methods</h2>
-        <p>Pot codes are strongest next to the other dating clues. Pair them with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> for the single best two-part check on a vintage Fender, then confirm with the <a class="spoke" href="/fender-pickup-dates/">pickup date codes</a> and the <a class="spoke" href="/fender-body-dates/">body dates</a>. When all of them agree, you have a build date you can stand behind.</p>
+        <p>The body date is strongest next to the other clues. Pair it with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> right above it in the pocket, then confirm the year with the <a class="spoke" href="/fender-pot-codes/">pot codes</a> and the <a class="spoke" href="/fender-pickup-dates/">pickup date codes</a>. When the body date, the neck date, and the serial all agree, you have a build date you can stand behind.</p>
         <p class="note-sm">This guide is one of the dating methods behind the <a class="spoke" href={HUB_PATH}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
       </div>
     </section>
@@ -286,7 +282,7 @@ const breadcrumbSchema = {
     <section id="faq" class="pt0">
       <div class="measure stack">
         <span class="eyebrow">Expert Questions</span>
-        <h2>Common Questions About Fender Pot Codes</h2>
+        <h2>Common Questions About Fender Body Dates</h2>
         <div class="faqs">
           {faqs.map((f) => (
             <details class="faq">
@@ -303,8 +299,8 @@ const breadcrumbSchema = {
       <div class="measure">
         <div class="appraise" id="appraisal">
           <span class="eyebrow">Free Expert Appraisal</span>
-          <h2>Not Sure What Your Pots Are Telling You?</h2>
-          <p>A pot can sit in a parts bin for months, and a single replaced pot can throw off the whole read. If you want a definite build date, send Joe three clear photos, the front, the back, and the control cavity, for a free, expert appraisal within 24 hours.</p>
+          <h2>Not Sure What The Date In Your Body Is Telling You?</h2>
+          <p>A body can be swapped, and a date tucked in a cavity is easy to misread. If you want a definite build date, send Joe three clear photos, the front, the back, and the date inside the body, for a free, expert appraisal within 24 hours.</p>
           <div class="row">
             <a class="call" href={hrefs.tel}>Call Or Text Joe: {contact.phone}</a>
             <a class="send" href="/free-appraisal/">Or Send Photos Online</a>
@@ -401,7 +397,8 @@ const breadcrumbSchema = {
   .fspot .yr{font-family:var(--fm);color:var(--rust);font-weight:600;}
 
   .fspot .figrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
-  .fspot .figrow.single{grid-template-columns:minmax(230px,540px);}
+  .fspot .figrow.single{grid-template-columns:minmax(230px,680px);margin-inline:auto;}
+  .fspot .figrow.single.portrait{grid-template-columns:minmax(230px,500px);}
   .fspot .figrow.gallery{grid-template-columns:1fr;gap:1.4rem;max-width:680px;margin-inline:auto;}
   .fspot figure.sfig{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow);}
   .fspot figure.sfig img{display:block;width:100%;height:auto;background:var(--panel-2);}

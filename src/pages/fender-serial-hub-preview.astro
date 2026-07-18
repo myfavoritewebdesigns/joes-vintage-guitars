@@ -87,7 +87,7 @@ const cijRows = [
 ];
 
 const spokeSlugs = [
-  "/fender-pot-codes/", "/fender-neck-dates/", "/fender-physical-dating/",
+  "/fender-pot-codes/", "/fender-neck-dates/", "/fender-body-dates/",
   "/fender-pickup-dates/", "/fender-fretboard-inlays/", "/fender-bridge-saddles/",
   "/fender-tuner-evolution/", "/fender-logo-evolution/", "/fender-pickguards/",
   "/fender-finish-dating/",
@@ -268,7 +268,7 @@ const breadcrumbSchema = {
             <p>Locate the handwritten pencil dates and rubber-stamped codes on the butt end of the neck, the most reliable single tell.</p>
             <span class="go">Read Neck Dates</span>
           </a>
-          <a class="mcard" href="/fender-physical-dating/">
+          <a class="mcard" href="/fender-body-dates/">
             <span class="num">Path 3: The Body</span>
             <h3>Body Dates</h3>
             <p>Locate the date markings Fender left on the body itself and what they look like from era to era.</p>
@@ -311,7 +311,7 @@ const breadcrumbSchema = {
       <div class="measure mt2">
         <h3 class="tbl" id="bridge-plate"><span class="tag">A</span> Bridge-Plate Serials</h3>
         <p class="sub">1950 to 1954</p>
-        <p class="secintro">On Fender's earliest electric instruments, the serial was stamped right onto the bridge plate. That covers the original Broadcaster, No-Caster, Telecaster, Esquire, and early Precision Bass, the rarest and most valuable Fenders ever made. Dating one from the bridge plate serial alone is difficult, so cross-reference the <a class="spoke" href="/fender-neck-dates/">neck heel dates</a>, <a class="spoke" href="/fender-pot-codes/">pot codes</a>, and <a class="spoke" href="/fender-physical-dating/">hardware features</a>.</p>
+        <p class="secintro">On Fender's earliest electric instruments, the serial was stamped right onto the bridge plate. That covers the original Broadcaster, No-Caster, Telecaster, Esquire, and early Precision Bass, the rarest and most valuable Fenders ever made. Dating one from the bridge plate serial alone is difficult, so cross-reference the <a class="spoke" href="/fender-neck-dates/">neck heel dates</a>, <a class="spoke" href="/fender-pot-codes/">pot codes</a>, and <a class="spoke" href="/fender-body-dates/">body dates</a>.</p>
         <div class="figrow">
           <figure class="sfig"><LicensedImage src={meta("fender-bridge-plate-serial-number-scaled.jpg")} alt="Fender Telecaster bridge plate serial number, 1950 to 1954" width={420} /><figcaption>Telecaster bridge plate, stamped where the strings anchor</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("fender-precision-bass-bridge-plate-serial-number-scaled.jpg")} alt="Fender Precision Bass bridge plate serial number, 1951 to 1954" width={420} /><figcaption>Precision Bass bridge plate, its own sequence</figcaption></figure>
@@ -698,13 +698,13 @@ const breadcrumbSchema = {
       if (hit) {
         ver.innerHTML = '<b>' + s + '</b> → ' + hit.y;
         if (hit.vint) {
-          note.innerHTML = hit.n + ' Vintage Fenders never made it into any official database, so treat this as a starting point. Cross-date it with <a class="spoke" href="/fender-pot-codes/">pot codes</a>, the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>, and <a class="spoke" href="/fender-physical-dating/">body dates</a>. <a class="cta-inline" href="#cross-check">See all dating methods</a>';
+          note.innerHTML = hit.n + ' Vintage Fenders never made it into any official database, so treat this as a starting point. Cross-date it with <a class="spoke" href="/fender-pot-codes/">pot codes</a>, the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>, and <a class="spoke" href="/fender-body-dates/">body dates</a>. <a class="cta-inline" href="#cross-check">See all dating methods</a>';
         } else {
           note.innerHTML = hit.n + ' <a class="spoke" href="#charts">See the full chart</a>. Confirm the exact year with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>.';
         }
       } else {
         ver.innerHTML = '<b>' + s + '</b> → no automatic match';
-        note.innerHTML = 'That’s common and usually fine. Official lookups only track roughly the last 30 years, and plenty of real serials never match a tidy pattern. Cross-date it with <a class="spoke" href="/fender-pot-codes/">pot codes</a>, the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>, and <a class="spoke" href="/fender-physical-dating/">body dates</a>. <a class="cta-inline" href="#cross-check">See all dating methods</a>';
+        note.innerHTML = 'That’s common and usually fine. Official lookups only track roughly the last 30 years, and plenty of real serials never match a tidy pattern. Cross-date it with <a class="spoke" href="/fender-pot-codes/">pot codes</a>, the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>, and <a class="spoke" href="/fender-body-dates/">body dates</a>. <a class="cta-inline" href="#cross-check">See all dating methods</a>';
       }
       res.classList.add('show');
     });
