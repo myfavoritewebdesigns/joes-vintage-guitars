@@ -141,8 +141,8 @@ const structuredData = [
   ogImage={OG_IMAGE}
   structuredData={structuredData}
 >
-  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
-  <script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+  <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+  <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
 
   <!-- 1. Hero -->
   <section class="smgu-hero">
