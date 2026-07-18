@@ -84,7 +84,7 @@ const articleSchema = {
     "Read the pencil date or ink stamp on your Fender's neck heel to date the guitar to the month, then cross-check it against the pot codes. A step-by-step neck-date guide from a vintage Fender appraiser.",
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
-  image: img("fender-neck-heel-ink-stamp-decoder-scaled-1.jpg"),
+  image: img("1959-fender-jazzmaster-neck-heel.jpg"),
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
@@ -113,8 +113,8 @@ const breadcrumbSchema = {
   title="How To Read Fender Neck Dates: Neck Heel Dating Guide (Preview)"
   description="Read the pencil date or ink stamp on your Fender's neck heel to date the guitar to the month. A step-by-step neck-date guide from a vintage Fender appraiser."
   canonical={PAGE_PATH}
-  ogImage={`${SITE_URL}${img("fender-neck-heel-ink-stamp-decoder-scaled-1.jpg")}`}
-  ogImageAlt="A Fender neck heel ink stamp decoder showing the model code, month, year, and neck width"
+  ogImage={`${SITE_URL}${img("1959-fender-jazzmaster-neck-heel.jpg")}`}
+  ogImageAlt="The neck heel of a 1959 Fender Jazzmaster with a pencil date reading 1-59 for January 1959"
   ogType="article"
   noIndex={true}
   structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
@@ -139,8 +139,8 @@ const breadcrumbSchema = {
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
         </div>
         <figure class="sfig herofig">
-          <LicensedImage src={meta("fender-neck-heel-ink-stamp-decoder-scaled-1.jpg")} alt="A Fender neck heel ink stamp decoder showing the model code, month, year, and neck width" width={1600} loading="eager" />
-          <figcaption>A Fender neck heel ink stamp. The format runs a model code, then the month, the year, and a final letter for the neck width.</figcaption>
+          <LicensedImage src={meta("1959-fender-jazzmaster-neck-heel.jpg")} alt="The neck heel of a 1959 Fender Jazzmaster with a pencil date reading 1-59 for January 1959, the neck lifted out of the body" width={1600} loading="eager" />
+          <figcaption>The neck heel of a 1959 Fender Jazzmaster, penciled 1-59 for January 1959. The neck is lifted out of the body to reach it.</figcaption>
         </figure>
       </div>
     </section>
@@ -206,7 +206,10 @@ const breadcrumbSchema = {
           <thead><tr><th>Part of the stamp</th><th>What it means</th><th>Example</th></tr></thead>
           <tbody>{stampParts.map((r) => (<tr><td data-label="Part of the stamp">{r[0]}</td><td data-label="What it means">{r[1]}</td><td data-label="Example" class="code">{r[2]}</td></tr>))}</tbody>
         </table></div>
-        <p class="secintro"><b>Worked example.</b> 1APR63B reads as April 1963 on a standard B-width neck. The stamp at the top of the page shows this same format. Ignore the model code for dating; the month and the year are what you are after, and the letter is just the nut width.</p>
+        <p class="secintro"><b>Worked example.</b> 1APR63B reads as April 1963 on a standard B-width neck. Ignore the model code for dating; the month and the year are what you are after, and the letter is just the nut width. Here is the stamp broken down:</p>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("fender-neck-heel-ink-stamp-decoder-scaled-1.jpg")} alt="A Fender neck heel ink stamp decoder showing the model code, month, year, and neck width" width={1280} /><figcaption>The ink stamp broken down: a model code, then the month, the year, and a final letter for neck width.</figcaption></figure>
+        </div>
         <div class="tip">
           <p><b>The letter is a spec, not a date.</b> That final letter is the nut width: A narrow, B standard, C wide, D extra wide. It won't date the neck, but it is a quick way to confirm the neck matches the guitar it is bolted to.</p>
         </div>
