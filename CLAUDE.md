@@ -704,6 +704,7 @@ When we hit launch prep, run through this list before pointing the production do
 
 ## Open work
 
+- **SEO roadmap — schema + social share cards:** see [`docs/schema-and-share-card-roadmap.md`](docs/schema-and-share-card-roadmap.md). Sitewide audit (2026-07-17) of JSON-LD schema, OpenGraph/Twitter tags, and featured/share images. Prioritized (P1/P2/P3) with owner tags; parts are being delegated back to Joe. P1: auto-generate BreadcrumbList sitewide, add VideoObject everywhere a video embeds, fix the broken contact-me `@id`, ship a real 1200×630 default share card (most share cards are wrongly square 1200×1200), and fix two broken page cards (sell-my-fender OG is a 339×386 PNG, sell-my-rickenbacker is 250×148).
 - **Other pages:** about-me, blog index + posts, sell-my-fender/gibson/martin/etc., free-appraisal, contact-me, sell-a-guitar-collection, instrument repair, consignment, sitemap, privacy-policy, refund_returns
 - **Mailgun wire-up:** see section above
 - **Cloudflare Pages deploy:** create CF account, point at GitHub repo, configure build (`npm run build` → `dist`), add env vars
