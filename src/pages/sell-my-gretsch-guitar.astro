@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import { assetSrc, resolveImage } from "../lib/images";
+import { assetSrc, resolveImage, ogCardSize } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import LeadForm from "../components/LeadForm.astro";
@@ -85,6 +85,7 @@ const structuredData = [
   description="Looking to sell or just appraise your Gretsch guitar? Joe's Vintage Guitars is buying! We'll buy your acoustic, bass, hollow, & semi-hollow Gretsch guitars!"
   canonical="/sell-my-gretsch-guitar/"
   ogImage={`${SITE_URL}${assetSrc("images/sell-gretsch/1960-gretsch-6120-orange.jpg")}`}
+  {...ogCardSize("images/sell-gretsch/1960-gretsch-6120-orange.jpg")}
   structuredData={structuredData}
 >
   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />

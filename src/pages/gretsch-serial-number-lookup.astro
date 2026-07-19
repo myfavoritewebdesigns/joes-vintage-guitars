@@ -1,6 +1,6 @@
 ---
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { assetSrc, resolveImage } from "../lib/images";
+import { assetSrc, resolveImage, ogCardSize } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { SITE_URL, hrefs, contact } from "../config/site";
 // Decoder widget markup (handlers live in /scripts/grsn-tool.js, on window.jvgDecode / jvgTry)
@@ -11,6 +11,12 @@ import grsnToolCss from "../../reference/grsn-tool.css?raw";
 const imgMeta = (file: string) => resolveImage("images/gretsch-sn/" + file)!;
 const PAGE_URL = `${SITE_URL}/gretsch-serial-number-lookup/`;
 const OG_IMG = `${SITE_URL}${assetSrc("images/gretsch-sn/1969-gretsch-serial-number-1024x680.jpg")}`;
+// Declared explicitly rather than via ogCardSize(): this asks for the WP-era
+// `-1024x680` variant, which only exists in public/ (src/assets has the
+// un-suffixed original under a different name), so assetSrc() falls back to the
+// public path and resolveImage() returns null. Measured live 2026-07-19.
+const OG_IMG_W = 1024;
+const OG_IMG_H = 680;
 
 const navParts = [
   { href: "#gretsch-history-overview", label: "History & Ownership" },
@@ -201,6 +207,8 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
   description="Free Gretsch serial number lookup tool + complete dating guide. Decode every era from 1939 to present: pre-Baldwin, Baldwin, Japan, and Fender era."
   canonical="/gretsch-serial-number-lookup/"
   ogImage={OG_IMG}
+  ogImageWidth={OG_IMG_W}
+  ogImageHeight={OG_IMG_H}
   ogType="article"
   publishedTime="2026-04-13T00:00:00+00:00"
   structuredData={structuredData}

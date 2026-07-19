@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import { assetSrc, resolveImage } from "../lib/images";
+import { assetSrc, resolveImage, ogCardSize } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import LeadForm from "../components/LeadForm.astro";
@@ -130,6 +130,7 @@ const structuredData = [
   description="Sell your vintage Rickenbacker bass or guitar to a trusted nationwide buyer. Fair cash offers, expert appraisals, and an easy process from coast to coast."
   canonical="/sell-my-rickenbacker-guitar/"
   ogImage={`${SITE_URL}${img("find-rare-unique-classic-rickenbacker.jpg")}`}
+  {...ogCardSize("images/sell-rickenbacker/find-rare-unique-classic-rickenbacker.jpg")}
   structuredData={structuredData}
 >
   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />

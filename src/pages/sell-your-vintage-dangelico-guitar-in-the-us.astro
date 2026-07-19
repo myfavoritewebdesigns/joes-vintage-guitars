@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import { assetSrc, resolveImage } from "../lib/images";
+import { assetSrc, resolveImage, ogCardSize } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import LeadForm from "../components/LeadForm.astro";
@@ -69,6 +69,7 @@ const structuredData = [
   description="Ready to sell your vintage D’Angelico guitar? I buy D'Angelico electrics and acoustics like the New Yorker, Excel, and more. Get a free appraisal."
   canonical="/sell-your-vintage-dangelico-guitar-in-the-us/"
   ogImage={`${SITE_URL}${assetSrc("images/sell-dangelico/dangelico-excel-archtop.jpg")}`}
+  {...ogCardSize("images/sell-dangelico/dangelico-excel-archtop.jpg")}
   structuredData={structuredData}
 >
   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
