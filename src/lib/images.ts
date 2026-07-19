@@ -46,3 +46,39 @@ export function assetSrc(path: string): string {
   if (meta) return meta.src;
   return path.startsWith("/") || path.startsWith("http") ? path : `/${path}`;
 }
+
+/** Layout's og-dimension props, ready to spread. */
+export interface OgCardSize {
+  ogImageWidth?: number;
+  ogImageHeight?: number;
+}
+
+/**
+ * Read an image's REAL dimensions from the pipeline instead of hand-declaring
+ * them next to the `ogImage` prop.
+ *
+ * Why this exists: `Layout.astro` defaults `ogImageWidth`/`ogImageHeight` to
+ * 1200x1200, and only 2 of 43 page files ever overrode them. A live sweep on
+ * 2026-07-19 found **13 pages declaring 1200x1200 for files that are actually
+ * anywhere from 250x148 to 6240x4160** — including `/guild-serial-number-lookup/`,
+ * the site's second-highest-traffic page. Platforms use the declared size to lay
+ * out the card slot BEFORE fetching the image, so declaring square and delivering
+ * 3:2 yields a cropped or letterboxed card.
+ *
+ * Deriving beats declaring: swap the source file and the tags follow. Pass the
+ * SAME string path you pass to `assetSrc()` and spread the result:
+ *
+ *   const OG = "images/sell-gretsch/1960-gretsch-6120-orange.jpg";
+ *   <Layout ogImage={`${SITE_URL}${assetSrc(OG)}`} {...ogCardSize(OG)} />
+ *
+ * Returns an EMPTY object for paths that are not pipeline assets (images served
+ * straight from public/, e.g. the hand-built cards in public/images/og/). Those
+ * pages must still declare dimensions explicitly, because nothing knows the file
+ * size at build time — spreading `{}` just leaves Layout's defaults in place, so
+ * always pass real numbers alongside it there.
+ */
+export function ogCardSize(path: string): OgCardSize {
+  const meta = resolveImage(path);
+  if (!meta) return {};
+  return { ogImageWidth: meta.width, ogImageHeight: meta.height };
+}

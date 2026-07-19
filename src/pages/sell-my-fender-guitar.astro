@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { assetSrc, resolveImage } from "../lib/images";
+import { assetSrc, resolveImage, ogCardSize } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import ContactSection from "../components/ContactSection.astro";
 import LeadForm from "../components/LeadForm.astro";
@@ -201,6 +201,7 @@ const structuredData = [
   description="Sell your vintage Fender guitar to a trusted specialist. Expert appraisals, top-dollar cash offers, and stress-free nationwide shipping for Stratocasters, Telecasters, Jazzmasters, Precision Basses and more."
   canonical="/sell-my-fender-guitar/"
   ogImage={`${SITE_URL}${smfImg("Guitar.png")}`}
+  {...ogCardSize("images/sell-fender/Guitar.png")}
   structuredData={structuredData}
 >
   <!-- lite-youtube web component (paulirish/lite-youtube-embed) — matches live's
