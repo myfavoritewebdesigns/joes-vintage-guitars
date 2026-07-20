@@ -241,6 +241,79 @@ if (structuredData) {
     </script>
     <!-- End Google Tag Manager -->
 
+    <!-- WhatConverts form capture. The site's fetch() forms match no selector
+         WhatConverts auto-captures, so we post each lead ourselves. Do NOT
+         "simplify" this to $wc_leads.track.form() — that silently captures
+         ZERO leads here. Full rationale + live proof: CLAUDE.md decision log,
+         2026-07-20 "WhatConverts form capture". -->
+    <script is:inline>
+      (function () {
+        var WC_PROFILE_ID = "97950";   // Form Tracking (NOT 97949 = Phone)
+        var WC_FORM_SET_ID = "65952";  // the one form set on profile 97950
+        var WC_ENDPOINT = "https://p.ksrndkehqnwntyxlhgto.com/lead/form";
+        var PROD_HOST = "joesvintageguitarsaz.com";
+        /** Field-name prettifier: WC shows these labels in the lead detail. */
+        var NICE = {
+          "your-name": "Name", name: "Name", "last-name": "Last Name",
+          "your-email": "Email", email: "Email",
+          "your-phone": "Phone", phone: "Phone",
+          "your-message": "Message", message: "Message", comments: "Message",
+          instrument: "Instrument Make/Model", model: "Model", year: "Year",
+          "serial-number": "Serial Number Format",
+          "appraisal-type": "Appraisal Type", "best-reply": "Best Reply Method",
+        };
+        var SKIP = {
+          _gotcha: 1, formId: 1, submittedAt: 1,
+          "h-captcha-response": 1, "g-recaptcha-response": 1,
+        };
+        function cookie(name) {
+          var m = document.cookie.match(new RegExp("(?:^|; )" + name + "=([^;]*)"));
+          return m ? decodeURIComponent(m[1]) : "";
+        }
+        window.jvgWcTrack = function (payload, formLabel) {
+          try {
+            var host = window.location.hostname;
+            if (host !== PROD_HOST && host.indexOf("." + PROD_HOST) === -1) return;
+
+            var enc = encodeURIComponent;
+            var kv = [enc("Form") + "=" + enc(formLabel)];
+            for (var k in payload) {
+              // Underscore-prefixed keys are plumbing, never lead content.
+              if (SKIP[k] || k.charAt(0) === "_") continue;
+              var v = payload[k];
+              if (typeof v === "string" && v.trim()) {
+                kv.push(enc(NICE[k] || k) + "=" + enc(v.trim()));
+              }
+            }
+            if (kv.length < 2) return; // nothing but the label — not a lead
+
+            var wcClient = cookie("wc_client");
+            kv.push("wc_profile_id=" + WC_PROFILE_ID);
+            kv.push("wc_form_set_id=" + WC_FORM_SET_ID);
+            kv.push("wc_client=" + enc(wcClient));
+            kv.push("wc_client_current=" + enc(wcClient));
+            kv.push("wc_page=" + enc(window.location.href));
+            var body = kv.join("&");
+
+            // sendBeacon survives the immediate navigation to /thank-you/;
+            // fetch+keepalive is the fallback where it is unavailable.
+            if (navigator.sendBeacon) {
+              var blob = new Blob([body], {
+                type: "application/x-www-form-urlencoded; charset=UTF-8",
+              });
+              if (navigator.sendBeacon(WC_ENDPOINT, blob)) return;
+            }
+            fetch(WC_ENDPOINT, {
+              method: "POST",
+              keepalive: true,
+              headers: { "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8" },
+              body: body,
+            }).catch(function () {});
+          } catch (e) { /* tracking must never break a submit */ }
+        };
+      })();
+    </script>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
