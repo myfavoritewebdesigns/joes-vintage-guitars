@@ -21,10 +21,35 @@
  * batch, month, year, width; runs alongside the plain date stamp; hard to read.
  * The Neck Stamp Model Codes table (the model prefix, 1 to 28) is Joe-supplied
  * CBS-era reference data, refined per Joe: code 2 = Strat into early 1968 (not to
- * 1965), code 13 = Telecaster (1967-1968), code 3 = mainly Esquire. The 1980s
- * Reissue note reflects Joe's split: Fullerton ink stamps (1982-1984) then Corona
- * pencil dates (1986 on). Green stamp, model codes, and reissue detail are not yet
- * in VG_FACTS; flagged to log.
+ * 1965), code 13 = Telecaster (1967-1968), code 3 = mainly Esquire. Green stamp,
+ * model codes, and reissue detail are not yet in VG_FACTS; flagged to log.
+ *
+ * MODEL CODES, CORRECTED 2026-07-20 (Joe approved after seeing the evidence).
+ * THE KEY FACT: Fender RENUMBERED the model codes at the end of 1965, so one
+ * model has different codes in different years. Strat = 2 (1962-65) -> 13
+ * (1966-68) -> 22 (1968-72); Jaguar = 1 (1962-65) -> 15 (1966-72). The old table
+ * had 13 = Telecaster and stretched codes 1 and 2 to "early 1968", which made
+ * Jaguar appear at BOTH 1 and 15 for 1966-68 (a self-contradiction) and left no
+ * code for a 1966-67 Strat. guitarhq's 1966 Strat page states the 2 -> 13 change
+ * verbatim with the 2MAY65B / 13MAY66B example; a photographed Jan 1967 Strat
+ * heel begins 13; no documented "2"-prefix stamp with a 66/67 year was found.
+ * 13 = Telecaster ONLY in the separate 1972-1980 8-digit system - that cross-era
+ * collision is the likely origin of the old error. Code 3 necessarily became
+ * "Telecaster and Esquire" since Teles could no longer "move to 13".
+ * The rest of Joe's 24-code table (5 = P-Bass, 6 = Bass VI, 8/9 = student
+ * models, 10-28) was independently CONFIRMED and must be kept.
+ *
+ * REISSUE MARKINGS, CORRECTED 2026-07-20 (Joe approved after seeing the
+ * evidence). Supersedes BOTH the earlier "Fullerton ink 1982-84 then Corona
+ * pencil 1986 on" split AND an intermediate "1982 = black ink stamp" edit.
+ * Fullerton AVRI necks (1982 to the plant closing end of 1984) carry a GRAPHITE
+ * PENCIL date in numeric M-D-YY; pencil ran to ~1988, when black ink stamps with
+ * 3-letter months began. Photographed examples: 5-11-82, 12-24-82, 5-27-82,
+ * 1-14-83, 11-03-83; earliest Corona-era 11-1-85 (Corona opened Oct 1985, NOT
+ * 1986). The ink stamps genuinely present on Fullerton heels are the BUILDER /
+ * INSPECTOR NAME (e.g. H. Gastelum, J. Torres) and the word VINTAGE, neither of
+ * which is a date - that is what makes people call these necks ink-stamped.
+ * Some 1982 necks carry no date at all.
  */
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
@@ -49,26 +74,26 @@ const stampParts = [
   ["Final letter", "Neck width. A narrow, B standard, C wide, D extra wide.", "B"],
 ];
 const modelRows = [
-  ["1", "Jaguar, 1962 to early 1968"],
-  ["2", "Stratocaster, 1962 to early 1968. A 1966 or 1967 Strat still starts with 2, like 2MAR67B"],
-  ["3", "Esquire, mainly. Early Telecasters shared code 2 or 3 through the mid 1960s, then moved to 13"],
-  ["4", "Jazzmaster, 1962 to 1965"],
+  ["1", "Jaguar, 1962 to 1965. It becomes 15 from 1966"],
+  ["2", "Stratocaster, 1962 to 1965. It becomes 13 from 1966, so a 1965 neck reads 2MAY65B and a 1966 one reads 13MAY66B"],
+  ["3", "Telecaster and Esquire, which shared this code, and the Custom Telecaster from 1959"],
+  ["4", "Jazzmaster, 1962 to 1965. It moves to 19 in late 1965 or 1966, and turns up as 10 or 13 now and then"],
   ["5", "Precision Bass"],
   ["6", "Bass VI"],
   ["7", "Jazz Bass"],
   ["8", "Musicmaster II, Mustang, Duo-Sonic II, 1964 to 1965, 22 fret 24 inch scale"],
-  ["9", "Musicmaster II, Mustang, Duo-Sonic II, 1964 to 1966, 21 fret 22 1/4 inch scale"],
+  ["9", "Musicmaster II, Mustang, Duo-Sonic II, 1964 to 1966, 21 fret 22 1/2 inch scale"],
   ["10", "Coronado 1 and 2, and the occasional 1966 Jazzmaster and Stratocaster neck"],
   ["11", "Bass V"],
   ["12", "Electric 12, and Maverick / Custom"],
-  ["13", "Telecaster, 1967 to 1968"],
+  ["13", "Stratocaster, 1966 to 1968, and many 1966 Jazzmasters. This is the code that replaced 2"],
   ["14", "Coronado 12"],
   ["15", "Jaguar, 1966 to 1972"],
   ["16", "Musicmaster II, Mustang, Duo-Sonic II, and Bronco"],
   ["17", "Mustang Bass and Musicmaster Bass"],
   ["18", "Coronado Bass"],
   ["19", "Jazzmaster and Coronado 2"],
-  ["22", "Stratocaster, 1968 to 1972"],
+  ["22", "Stratocaster, 1968 to about 1973"],
   ["23", "Telecaster Bass"],
   ["27", "Villager 12"],
   ["28", "Shenandoah 12"],
@@ -101,7 +126,7 @@ const faqs = [
   },
   {
     q: "There's No Date On My Neck Heel. Why?",
-    a: "A few reasons. The neck may be from after about 1976, when Fender stopped dating necks. A pencil date can wear off or get sanded away in a refret or refinish. Or the date is there but faint. Send me a clear photo of the heel in raking light and I'll tell you what's there.",
+    a: "A few reasons, and one of them isn't a fault at all. Fender deliberately stopped penciling heel dates for a window in mid to late 1959, around the time the slab rosewood board arrived, and resumed in 1960, so a genuine 1959 neck can come out blank. Beyond that, heel marking got patchy through the mid 1970s as serial numbers moved to the headstock decal. A pencil date can also wear off or get sanded away in a refret or refinish, or it's there but too faint to see. Send me a clear photo of the heel in raking light and I'll tell you what's there.",
   },
   {
     q: "What Does The Letter On The Ink Stamp Mean?",
@@ -217,7 +242,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Start Here</span>
         <h2>What A Neck Date Is</h2>
-        <p>The neck date is a production date written or stamped on the heel of the neck, the flat end that bolts into the body. A Fender worker marked it by hand as they finished the neck, so it records the actual month that neck was made. Almost every Fender built before about 1976 has one.</p>
+        <p>The neck date is a production date written or stamped on the heel of the neck, the flat end that bolts into the body. A Fender worker marked it by hand as they finished the neck, so it records the actual month that neck was made. Almost every Fender built through the early 1970s has one.</p>
         <p>It's the single most reliable way to date a vintage Fender, because it was applied at the bench, not assigned from an office. The catch is what it dates. The neck date dates the neck, not the whole guitar. The two line up only when the neck is original to the body.</p>
       </div>
     </section>
@@ -232,6 +257,12 @@ const breadcrumbSchema = {
           <lite-youtube videoid={YT_ID} params="rel=0&modestbranding=1&start=114" title={YT_TITLE} style={`background-image:url('${img("fender-neck-heel-video-poster.jpg")}')`}></lite-youtube>
         </div>
         <p class="note-sm">Watch Joe take the neck off and read the heel date. The clip starts right at that step.</p>
+
+        <h3 id="safely">Taking The Neck Off Without Hurting The Guitar</h3>
+        <p>Slack the strings right off first. Taking them off entirely is better, because it drops all the forward pull across the joint before anything moves. Work on a padded surface that holds up the body and the neck at the same height, and keep a hand on both once the screws start coming out.</p>
+        <p>Use a screwdriver that actually fills the screw head. A number 2 Phillips is usually right, and a loose fit is how you round out a sixty-year-old screw slot. Back the four screws out slowly and evenly rather than running one all the way out first.</p>
+        <p>If the neck sits tight in the pocket, and after decades of lacquer many of them do, do not lever it sideways. The pocket walls are thin and that is exactly how they crack. Ease it straight up from the heel instead and let the seal break on its own.</p>
+        <p>Faint marks are normal. Old graphite goes silvery and ink can fade almost into the wood, so try raking a light across the heel at a low angle, and a magnifier or a UV light will often pull up a date your eye reads as blank. Photograph the heel before you bolt it back together, so you never have to take it apart twice.</p>
         <p>If you aren't comfortable taking the neck off, don't force it. A stripped screw or a chipped finish costs more than the answer. Get in touch before you take anything apart and I'll help, or read the date for you if you bring the guitar by.</p>
       </div>
     </section>
@@ -249,6 +280,15 @@ const breadcrumbSchema = {
           <tbody>{pencilRows.map((r) => (<tr><td data-label="Pencil date" class="code">{r[0]}</td><td data-label="Reads as" class="yr">{r[1]}</td></tr>))}</tbody>
         </table></div>
         <p class="secintro">So 5-57 reads as May 1957. That is the whole method for a penciled neck. The only trap is a faint or half-erased pencil mark, which is why a raking-light photo beats a quick glance in the pocket.</p>
+
+        <h3 id="early-day">Early 1950s Necks Often Carry The Day As Well</h3>
+        <p>Month and year is the format you'll meet most, but it isn't the earliest one. On Broadcasters, Nocasters, early Telecasters, and Stratocasters from 1950 into early 1955, the worker frequently wrote the exact day too, so you get something like 6-4-52 or 10-12-54 instead of a bare 6-52. Three numbers on an early neck is normal. It does not mean somebody has written on it since.</p>
+        <p>Those early necks often carry initials in front of the date, and on a 1950s Fender that's a detail worth knowing rather than a smudge to ignore. TG is Tadeo Gomez, who shaped necks at Fender through most of the 1950s, and his necks carry a premium with collectors for exactly that reason. XA is Xavier Armenta, seen mostly around 1956. You'll also run into a lone D stamp on necks from roughly mid-1951 to 1954. Nobody has ever established what it meant, so treat it as a period marking and not as a date.</p>
+
+        <h3 id="gap-1959">The 1959 Gap, When Fender Stopped Dating Necks</h3>
+        <p>There's a window in 1959 that catches people out. Around March or April, close to when the slab rosewood board came in, Fender stopped penciling dates on neck heels. The practice came back in 1960. In between, a genuine, untouched, correct 1959 neck can come out of the pocket with nothing written on it at all.</p>
+        <p>The story on the bench is that a customer complained about something profane a worker had penciled on a heel. It's a good story, and it may well be true, but it has never been documented, so treat it as shop legend rather than history. The gap itself is real and is the part that matters.</p>
+        <p>The practical upshot: on a suspected 1959, a blank heel is not evidence of a refinish or a swapped neck. Date it from the body date, the pot codes, and the hardware instead. Not every neck in the window is blank either, so a dated late-1959 neck is not a problem in itself.</p>
         <div class="figrow single">
           <figure class="sfig"><LicensedImage src={meta("fender-neck-heel-pencil-date-decoder.jpg")} alt="A Fender neck heel with a pencil date marking in month-year format" width={1280} /><figcaption>A penciled neck heel date. Month first, then the year.</figcaption></figure>
         </div>
@@ -290,6 +330,10 @@ const breadcrumbSchema = {
         <div class="tip">
           <p><b>Green codes are the cryptic ones.</b> They are harder to read than the clear month-year stamps, they wear off easily, and the data behind them is still being pieced together. If a green code is faint or does not add up, lean on the pot codes to pin the year.</p>
         </div>
+
+        <h3 id="wind-down">Where Heel Dating Trails Off</h3>
+        <p>Heel dating doesn't stop on a date you can point to, it just gets less reliable. Consistency falls off sharply after 1973, and through the middle of the decade the marking wanders: the green eight-digit codes give way to red ink stamps, and to printed stickers stuck on the heel or in the neck pocket rather than anything written on the wood. Around 1976 the serial number moves to the headstock decal, and after that the heel stops being where a Fender gets dated.</p>
+        <p>So treat the mid to late 1970s as the point where this method runs out. On a guitar from that stretch, expect the heel to be inconsistent, and date it from the headstock serial, the pot codes, and the body instead.</p>
       </div>
     </section>
 
@@ -299,6 +343,9 @@ const breadcrumbSchema = {
         <span class="eyebrow">Reference</span>
         <h2>Neck Stamp Model Codes</h2>
         <p>The first one or two digits of an ink stamp or a green code are the model number. Here is what those numbers mean. The same model can carry different codes across the years, which is a dating clue in itself.</p>
+        <div class="tip">
+          <p><b>Fender renumbered the models at the end of 1965.</b> This is the part that trips people up, and it is worth more than any single code in the table. A model does not keep one number for the whole era. The Stratocaster runs 2 through 1965, then 13 from 1966 to 1968, then 22 from 1968 to about 1973. The Jaguar runs 1 through 1965, then 15 from 1966. So a 1965 Strat heel reads 2MAY65B and a 1966 one reads 13MAY66B, and the guitar in front of you has not changed model, only the year has. If you are working from an old code list that stops at 1965, it will tell you a 1966 Stratocaster is something it is not.</p>
+        </div>
         <div class="tablewrap compact"><table>
           <thead><tr><th scope="col">Code</th><th scope="col">Model</th></tr></thead>
           <tbody>{modelRows.map((r) => (<tr><td data-label="Code" class="code">{r[0]}</td><td data-label="Model">{r[1]}</td></tr>))}</tbody>
@@ -312,10 +359,12 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Watch Out</span>
         <h2>The 1980s Reissues Have Heel Dates Too</h2>
-        <p>In 1982 Fender launched the American Vintage Reissue series, US-made copies of the 1950s and 1960s classics, and it brought the heel date back. The early Fullerton reissues, 1982 to 1984, carry a handwritten date stamp, often in red, yellow, or grey ink in a cursive or block hand, like 11-18-82. When production moved to Corona in 1986, the graphite pencil date returned. Either way, a reissue date does not prove a guitar is pre-CBS.</p>
+        <p>In 1982 Fender launched the American Vintage Reissue series, US-made copies of the 1950s and 1960s classics, and it brought the heel date back. The Fullerton reissues, 1982 until the plant closed at the end of 1984, carry a graphite pencil date written numerically, like 12-15-83. Documented examples run from 5-11-82 onward, and pencil stayed the method until about 1988, when Fender moved to a black ink stamp using three-letter months.</p>
+        <p>There is a catch that sends people the wrong way here. Many Fullerton heels also carry a black ink stamp of the builder or inspector name, and some carry the word VINTAGE stamped on. Neither of those is the date, and it's easy to see one, call the neck ink-stamped, and date it to the wrong end of the 1980s. The pencil date is the date. Some 1982 necks left the factory with no date on them at all, which is its own known quirk rather than a sign of a problem.</p>
+        <p>Either way, a reissue date does not prove a guitar is pre-CBS.</p>
         <p>The giveaway is in the detail. A reissue date often includes the day, not just the month and year, and the rest of the guitar, the serial number, the pot codes, and the hardware, will point to the 1980s or later. Read the heel date, then confirm the era with everything else.</p>
         <div class="figrow single">
-          <figure class="sfig"><LicensedImage src={meta("1986-fender-avri-strat-pencil-neck-heel.jpg")} alt="The neck heel of a 1986 Fender American Vintage Reissue Stratocaster with a pencil date reading 4-24-86" width={1280} /><figcaption>A 1986 Corona American Vintage Reissue Stratocaster, penciled 4-24-86 for April 24, 1986. The Corona reissues went back to a graphite pencil date.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("1986-fender-avri-strat-pencil-neck-heel.jpg")} alt="The neck heel of a 1986 Fender American Vintage Reissue Stratocaster with a pencil date reading 4-24-86" width={1280} /><figcaption>A 1986 American Vintage Reissue Stratocaster, penciled 4-24-86 for April 24, 1986. Pencil had been the reissue method since the series launched in 1982, and carried on past the move to Corona.</figcaption></figure>
         </div>
       </div>
     </section>
@@ -436,6 +485,7 @@ const breadcrumbSchema = {
   .fspot h1,.fspot h2,.fspot h3{font-family:var(--fd);font-weight:600;line-height:1.12;margin:0;color:var(--ink-strong);text-wrap:balance;}
   .fspot h1{font-size:clamp(2rem,4.6vw,2.9rem);letter-spacing:.005em;text-transform:uppercase;}
   .fspot h2{font-size:clamp(1.5rem,3.1vw,2rem);letter-spacing:.01em;}
+  .fspot h3{font-size:clamp(1.21rem,2.1vw,1.34rem);letter-spacing:.015em;margin-top:.8rem;color:var(--rust);}
   .fspot p{margin:0;}
   .fspot a{color:var(--gold-deep);text-underline-offset:2px;}
   .fspot a:hover{color:var(--rust);}
