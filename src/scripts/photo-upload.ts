@@ -77,11 +77,29 @@ function init() {
   const submit = document.getElementById("pu-submit") as HTMLButtonElement;
   const status = document.getElementById("pu-status") as HTMLElement;
 
-  // Pre-fill from the URL params the main form passes on redirect.
-  const params = new URLSearchParams(location.search);
+  // Pre-fill from the sessionStorage handoff the main form writes on redirect.
+  // PII deliberately does NOT travel in the URL (it would leak into GA4,
+  // Cloudflare logs, browser history, and outbound Referer headers). The
+  // query-string fallback only covers visitors mid-flow across this deploy and
+  // can be deleted once it has been live a day; nothing writes those params now.
+  const handoff: Record<string, string> = (() => {
+    try {
+      const raw = sessionStorage.getItem("jvg:lead-handoff");
+      if (raw) return JSON.parse(raw) as Record<string, string>;
+    } catch {
+      // Malformed or unavailable storage: fall through to the URL fallback.
+    }
+    const params = new URLSearchParams(location.search);
+    return {
+      name: params.get("name") ?? "",
+      email: params.get("email") ?? "",
+      phone: params.get("phone") ?? "",
+    };
+  })();
+
   for (const key of ["name", "email", "phone"] as const) {
     const el = $<HTMLInputElement>(`pu-${key}`);
-    const val = params.get(key);
+    const val = handoff[key];
     if (el && val) el.value = val;
   }
 

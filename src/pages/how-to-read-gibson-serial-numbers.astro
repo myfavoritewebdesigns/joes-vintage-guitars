@@ -113,6 +113,8 @@ const toolSchema = {
   description="Decode any Gibson serial number free. Plus date your Gibson by era, hardware, knobs, tuners, pot codes, volute, neck construction, cases and more."
   canonical="/how-to-read-gibson-serial-numbers/"
   ogImage={`${SITE_URL}/images/og/1955-gibson-les-paul-custom-ink-stamp-serial-number-scaled.jpg`}
+  ogImageWidth={2560}
+  ogImageHeight={1707}
   ogType="article"
   publishedTime="2026-03-12T20:06:33+00:00"
   modifiedTime="2026-05-08T23:44:24+00:00"
@@ -1523,8 +1525,8 @@ const toolSchema = {
 </Layout>
 
 <!-- lite-youtube web component (matches live's embed loader) -->
-<link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
-<script slot="head" is:inline src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js" defer></script>
+<link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+<script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
 
 <!-- Decoder tool logic (handlers attach to window.*) -->
 <script src="/scripts/gsn-tool.js" is:inline></script>

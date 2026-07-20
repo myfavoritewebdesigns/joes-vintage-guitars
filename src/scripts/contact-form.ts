@@ -14,6 +14,25 @@ import { contact, hcaptchaSiteKey } from "../config/site";
 
 type FormState = "idle" | "submitting" | "success" | "error";
 
+/**
+ * sessionStorage key carrying the seller's basics to /thank-you/ so part two
+ * can pre-fill them. This used to be a URL query string, which leaked the
+ * lead's name/email/phone into GA4, Cloudflare logs, browser history, and any
+ * outbound Referer header. Never put PII back in the URL.
+ */
+const HANDOFF_KEY = "jvg:lead-handoff";
+
+/**
+ * Report the lead to WhatConverts via the inline `jvgWcTrack` global that
+ * Layout.astro defines (NOT an import — see the comment there for why, and for
+ * why a manual push is required at all). Because WhatConverts' own script
+ * captured this visitor's session, pushing from the browser keeps the lead's
+ * source / medium / campaign attribution intact.
+ */
+function wcCapture(payload: Record<string, unknown>, label: string): void {
+  window.jvgWcTrack?.(payload, label);
+}
+
 /** Minimal shape of the global hCaptcha API we rely on (explicit-render mode). */
 interface HCaptcha {
   render(el: HTMLElement, opts: { sitekey: string }): string;
@@ -24,6 +43,8 @@ declare global {
   interface Window {
     hcaptcha?: HCaptcha;
     onJvgHcaptchaLoad?: () => void;
+    /** WhatConverts capture helper, defined inline in Layout.astro. */
+    jvgWcTrack?: (payload: Record<string, unknown>, formLabel: string) => void;
   }
 }
 
@@ -120,9 +141,13 @@ async function handleSubmit(e: SubmitEvent) {
     });
     // On success (or the 404 dev-stub), restore the original two-step flow:
     // send the seller to /thank-you/, where they can optionally upload photos.
-    // Carry the basics as URL params so part two pre-fills them.
+    // The basics ride in sessionStorage (same-tab, same-origin, never sent over
+    // the wire) so part two can pre-fill them without exposing PII in the URL.
+    // 404 = the CF Pages Function isn't wired (astro dev). The visitor is shown
+    // success either way, so capture in both cases; jvgWcTrack no-ops off the
+    // production hostname, so dev submissions never reach Joe's lead data.
     if (res.ok || res.status === 404) {
-      const params = new URLSearchParams();
+      wcCapture(payload, String(payload.formId ?? "contact"));
       const pick = (...keys: string[]) => {
         for (const k of keys) {
           const v = payload[k];
@@ -130,14 +155,17 @@ async function handleSubmit(e: SubmitEvent) {
         }
         return "";
       };
-      const name = pick("name", "your-name");
-      const email = pick("email", "your-email");
-      const phone = pick("phone", "your-phone");
-      if (name) params.set("name", name);
-      if (email) params.set("email", email);
-      if (phone) params.set("phone", phone);
-      const qs = params.toString();
-      window.location.assign(`/thank-you/${qs ? `?${qs}` : ""}`);
+      const handoff = {
+        name: pick("name", "your-name"),
+        email: pick("email", "your-email"),
+        phone: pick("phone", "your-phone"),
+      };
+      try {
+        sessionStorage.setItem(HANDOFF_KEY, JSON.stringify(handoff));
+      } catch {
+        // Private-browsing or storage-disabled: part two just starts empty.
+      }
+      window.location.assign("/thank-you/");
       return;
     }
     setState(form, "error", `Something went wrong. Please call ${contact.phone}.`);

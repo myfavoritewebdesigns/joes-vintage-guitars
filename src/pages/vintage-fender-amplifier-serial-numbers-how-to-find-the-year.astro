@@ -1,6 +1,6 @@
 ---
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { assetSrc, resolveImage } from "../lib/images";
+import { assetSrc, resolveImage, ogCardSize } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { contact, hrefs, SITE_URL } from "../config/site";
 
@@ -85,6 +85,7 @@ const structuredData = [
   description="Wondering how old your vintage Fender amplifier is? Learn to date it using tube chart codes, transformer details, and era-specific features."
   canonical="/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
   ogImage={`${SITE_URL}${img("champ.jpg")}`}
+  {...ogCardSize("images/fender-amp-serial/champ.jpg")}
   structuredData={structuredData}
 >
   <!-- Band the (absolute) site Header sits over, so the nav reads on the dark backdrop -->

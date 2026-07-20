@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { assetSrc, resolveImage } from "../lib/images";
+import { assetSrc, resolveImage, ogCardSize } from "../lib/images";
 import Button from "../components/primitives/Button.astro";
 import ContactSection from "../components/ContactSection.astro";
 import { contact, hrefs, SITE_URL } from "../config/site";
@@ -402,6 +402,7 @@ const breadcrumbSchema = {
   description="Free Fender serial number lookup - decode any American, Mexican, Japanese, or Custom Shop serial from 1950 to present. Expert dating guide."
   canonical="/fender-guitars-serial-number-guide/"
   ogImage={`${SITE_URL}${fsnImg("fender-bridge-plate-serial-number-1024x683.jpg")}`}
+  {...ogCardSize("images/fender-sn/fender-bridge-plate-serial-number-1024x683.jpg")}
   ogImageAlt="The bridge plate serial number on an iconic 1952 Fender Telecaster"
   ogType="article"
   publishedTime="2026-03-12T20:42:57+00:00"

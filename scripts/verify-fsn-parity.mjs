@@ -207,8 +207,8 @@ const newOutcomes = cases.map((c) => {
  */
 const EXPECTED_DIVERGENCES = [
   {
-    why: "F-plate 180000-199999 returns the 1966/1967 overlap instead of a flat 1966 (matches the guide page's own table)",
-    match: (c) => /^\d+$/.test(c.serial) && +c.serial >= 180000 && +c.serial <= 199999,
+    why: "F-plate 180000-200000 returns the 1966/1967 overlap instead of a flat 1966/1967 (matches the guide page's own table; 200000 is the shared edge, Joe-confirmed 2026-07-17)",
+    match: (c) => /^\d+$/.test(c.serial) && +c.serial >= 180000 && +c.serial <= 200000,
   },
   {
     why: "O/P/Q ask Made-in-Japan vs Crafted-in-Japan; the letters were reused across both eras, so the flat CIJ answer was wrong for early-90s guitars",
