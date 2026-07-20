@@ -51,16 +51,30 @@ const HUB_PATH = "/fender-guitars-serial-number-guide/";
 
 // ---- Data ----
 const codeRows = [
-  ["1139", "Last digit, 9", "1969"],
-  ["1140", "Last digit, 0", "1970"],
-  ["161377", "Last two digits, 77", "1977"],
+  ["115 9", "Trailing 9", "1969"],
+  ["1139", "Trailing 9", "1969"],
+  ["1140", "Trailing 0", "1970"],
+  ["161377", "Trailing 77", "1977"],
+  ["1715 78", "Trailing 78", "1978"],
+  ["202378", "Trailing 78", "1978"],
+];
+const eraRows = [
+  ["1950 to early 1964", "No date at all", "Fender did not date pickups in this era"],
+  ["Early 1964", "A rubber stamp in yellow ink, month spelled out", "JAN 11 64, APR 11 64"],
+  ["Mid-1964 into the late 1960s", "Handwritten in pencil or black marker, numbers only", "1-15-64, 12-6-65"],
+  ["About 1969 to 1979", "A black stamped code, three to six digits", "1139, 161377"],
+  ["1980 on", "No date. A one-piece black plastic bobbin carrying a part number", "016730"],
 ];
 const featureRows = [
-  ["Telecaster poles", "Flat and even up to mid-1955, staggered after with the D-string pole the tallest", "Flat poles point to a pre-mid-1955 Telecaster"],
-  ["Jazzmaster poles", "Flush and flat for the whole run, Fender never staggered them", "Staggered poles on a Jazzmaster mean a replacement"],
-  ["Jaguar poles", "Flat from 1962 to about 1964, staggered after", "Staggered poles put a Jaguar at about 1964 or later"],
-  ["Bobbin and back color", "Black on the earlier pickups, grey on the later ones, on every model", "Grey on a claimed mid-1950s pickup is a red flag"],
-  ["Stratocaster magnet", "Alnico 3 on the earliest Strats, Alnico 5 from about 1956 on", "Alnico 3 points to a 1954 to 1956 Strat"],
+  ["Telecaster poles", "Flush and even from 1950 until late 1955, when Fender raised the D and G poles together", "Flat poles mean either a pre-late-1955 Telecaster or a 1981 and later reissue"],
+  ["Stratocaster poles", "Staggered from 1954, flat from about 1974, with 1972 to 1974 mixed", "Flat poles on a claimed 1960s Strat are wrong"],
+  ["Jazzmaster poles", "Never staggered at the factory, sitting level or very slightly curved", "The cover has no pole holes, so this one needs the pickup lifted out"],
+  ["Jaguar poles", "Flat in 1962 and 1963, staggered from 1964, settled by 1965", "The 1963 to 1964 window is genuinely mixed, so a flat-pole 1964 is not wrong on its own"],
+  ["Flatwork color", "Black from 1950, light grey from March 1964, darker grey from about 1968, then black again through 1973 and 1974", "Grey on a claimed 1950s pickup is a red flag. Black on its own proves nothing"],
+  ["Coil wire color", "Formvar, a golden orange, until 1964. Plain enamel, a dark burgundy, from 1964 on", "Readable at the edge of the coil without taking anything apart"],
+  ["Magnet tops", "Sand cast, rough and pitted, with a bevelled top edge until about 1965. Smoother and squarer after", "A crisp, clean, unbevelled magnet on a claimed 1950s pickup is wrong"],
+  ["Lead wire", "Cloth covered pushback until about 1967, plastic from about 1968", "Cloth leads run well into 1968, so a cloth-lead 1968 pickup is fine"],
+  ["Potting", "Dipped in hot wax early on, lacquered from the late 1960s, back to wax in late 1981", "A hard, shiny, lacquer-set coil on a claimed 1950s pickup is wrong"],
 ];
 
 const tocItems: [string, string][] = [
@@ -209,8 +223,17 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Before 1969</span>
         <h2>Handwritten And Stamped Dates</h2>
-        <p>On Fenders up to 1969, the date went on the base of the pickup, either written by hand or pressed on with a rubber stamp. The stamp was inked in yellow around 1964, then Fender moved to a black ink stamp later in the decade, and alongside the stamps plenty of pickups were simply penciled or inked by hand, sometimes with the winder's initials beside the date. However it got there, the format is the plain kind, a month and year or a full month-day-year, so 9-8-65 reads as September 8, 1965. There's no code to crack; once you find the mark, it reads straight off.</p>
-        <p>The trouble is reading it at all. These marks are small, they sit on a dark fiber base, and decades of grime and handling wear them down, so a real date can be faint to the point of almost gone. A raking-light photo you can zoom into beats squinting at it in the guitar.</p>
+        <p>Start with the thing that surprises people: <b>Fender did not date pickups at all before 1964.</b> Not in 1954, not in 1959, not in 1963. The practice begins in early 1964 and not a day sooner, which turns the usual logic on its head. An undated pickup in a 1950s Fender is exactly what should be there. A date on a pickup in a guitar sold to you as a 1957 is a reason to slow down, not a reassurance.</p>
+        <p>From 1964 on, the marking method changes every few years, and knowing which method belongs to which era is half the work:</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th scope="col">Years</th><th scope="col">How the date was applied</th><th scope="col">What you'll see</th></tr></thead>
+          <tbody>{eraRows.map((r) => (<tr><td data-label="Years" class="yr">{r[0]}</td><td data-label="How the date was applied">{r[1]}</td><td data-label="What you'll see" class="code">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <p>The handwritten and stamped dates read straight off with no code to crack, so 9-8-65 is September 8, 1965. Sometimes the winder's initials sit beside the date.</p>
+        <div class="tip">
+          <p><b>Don't expect every pickup to be dated.</b> On a three-pickup Stratocaster, normally only one of the three carries a date, and there's no rule about which. Telecaster neck pickups usually have no date at all, because the base is too narrow with the magnets coming through. A blank pickup next to a dated one is normal, and an undated Tele neck pickup is not evidence of a replacement.</p>
+        </div>
+        <p>The other trouble is reading it at all. These marks are small, they sit on a dark fiber base, and decades of grime and handling wear them down, so a real date can be faint to the point of almost gone. A raking-light photo you can zoom into beats squinting at it in the guitar.</p>
       </div>
     </section>
 
@@ -224,7 +247,9 @@ const breadcrumbSchema = {
           <thead><tr><th scope="col">Stamp code</th><th scope="col">The year digits</th><th scope="col">Year</th></tr></thead>
           <tbody>{codeRows.map((r) => (<tr><td data-label="Stamp code" class="code">{r[0]}</td><td data-label="The year digits">{r[1]}</td><td data-label="Year" class="yr">{r[2]}</td></tr>))}</tbody>
         </table></div>
-        <p class="secintro">So a base stamped 1140 dates to 1970, and 161377 dates to 1977. The leading digits are a factory code, not the date; the year is always at the tail end.</p>
+        <p class="secintro">So a base stamped 1140 dates to 1970, and 161377 dates to 1977. The year is always at the tail end.</p>
+        <p>Resist the urge to decode the leading digits. They carry a week number and an operator number, because every winder on the line had a number of her own, but the order those two sit in is genuinely disputed. Abigail Ybarra, who wound Fender pickups from the late 1950s, remembered the formula as week, then operator, then year. Other published readings put the operator first. Her own caveat settles why nobody can pin it down: the formula changed from time to time. Read the year off the end, and leave the rest alone.</p>
+        <p>Dating also stops here. From 1980 Fender moved to a one-piece black plastic bobbin that carries a part number, 016730, and no date at all. If your pickup has a moulded plastic body rather than two fiber plates, there is no date to find.</p>
         <div class="tip">
           <p><b>Watch the decade on a single digit.</b> When the code ends in just one year digit, it names the year within a decade but not which decade, so a trailing 0 could read 1970 or 1980. The rest of the guitar settles it. Line the pickup year up with the pot codes and the neck date before you commit to a decade.</p>
         </div>
@@ -250,12 +275,26 @@ const breadcrumbSchema = {
           <tbody>{featureRows.map((r) => (<tr><td data-label="Feature">{r[0]}</td><td data-label="What to look for">{r[1]}</td><td data-label="What it tells you">{r[2]}</td></tr>))}</tbody>
         </table></div>
         <div class="figrow single">
-          <figure class="sfig"><LicensedImage src={meta("telecaster-pickup-transition.jpg")} alt="An early Fender Telecaster bridge pickup with flat, even pole pieces on a brass-saddle bridge" width={960} /><figcaption>An early Telecaster bridge pickup with flat, even pole pieces. Fender staggered the poles in the summer of 1955, so a flat set like this points to an earlier build.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("telecaster-pickup-transition.jpg")} alt="An early Fender Telecaster bridge pickup with flat, even pole pieces on a brass-saddle bridge" width={960} /><figcaption>An early Telecaster bridge pickup with flat, even pole pieces. Fender raised the D and G poles in late 1955, so a flat set like this points to an earlier build.</figcaption></figure>
         </div>
         <div class="tip">
-          <p><b>Measure the D-string pole.</b> On a genuine staggered set from the mid-1950s into the 1960s, the D-string magnet stands the tallest. If a staggered pickup has the D pole level with the rest, it's a replacement or a reproduction. Put a ruler on it and compare the D to the others, a check most people never bother to make.</p>
+          <p><b>Look at the D and the G together.</b> On a genuine staggered set it's those two poles that stand proud of the other four, not the D on its own. Fender raised them because the third string was still wound in the 1950s and the pair needed balancing against it. If only one pole is high, or the stagger sits on different strings, you're looking at a replacement or a reproduction.</p>
         </div>
-        <p class="note-sm">Bobbin color changed on a different schedule for each model, so use it to confirm an era, not to pin an exact year on its own.</p>
+
+        <h3 id="coilwire">The Color Of The Coil Wire</h3>
+        <p>This is the single most useful thing on an undated pickup, and you can see it without taking anything apart. Look at the outside edge of the coil, through the gaps in the string that holds it.</p>
+        <p>Until 1964 Fender wound with Formvar-insulated wire, which reads <b>golden orange, a warm copper color</b>. In 1964 it changed to plain enamel, which reads <b>dark burgundy, almost purple</b>. That was a plant-wide change hitting every model at once, which is exactly what makes it useful: it splits pre-1964 from post-1964 on any Fender single coil you pick up.</p>
+        <p>Two cautions. Plenty of people have this backwards and will tell you Formvar is the purple one, so check the guitar rather than the forum post. And the earliest Telecaster bridge pickups from 1950 and 1951 used plain enamel before Fender moved to Formvar, so on a Tele a burgundy coil does not automatically mean post-1964.</p>
+        <p>What the color proves is an era, not originality. Modern replacement wire is sold tinted to imitate both, so a rewind can look perfectly right. Read it next to the flatwork color: golden wire on grey flatwork, or burgundy wire on black, is a contradiction worth chasing.</p>
+
+        <h3 id="handwound">Hand-Wound Is The Wrong Word</h3>
+        <p>You'll see vintage Fender pickups described as hand-wound. They weren't, not in the way that phrase suggests. A machine turned the bobbin and a person guided the wire onto it by hand, which is why the winding looks irregular compared to a modern pickup. Winding a coil entirely by hand would take about a week. From 1965 the guiding was automated too.</p>
+        <p>Worth knowing because of what people build on it. Nobody has ever demonstrated hearing the difference between a hand-guided and a machine-guided coil, and the operators were tracked by number rather than name, so a vintage pickup will not tell you who wound it. The signed pickups that carry a premium are Fender Custom Shop items from the late 1980s onward, a modern product with a modern signing convention. That premium does not travel backwards onto a 1962 pickup.</p>
+
+        <div class="tip">
+          <p><b>A resistance reading dates nothing.</b> People put meters on vintage pickups and try to work backwards to a year. It cannot be done. Fender wound to a target output on a meter with roughly a twenty percent tolerance, not to a turn count, so two pickups off the same bench on the same day can read noticeably differently. The spread between decades is smaller than the spread within a single year. Use resistance to check a pickup is plausibly a Fender single coil at all, then put the meter away.</p>
+        </div>
+        <p class="note-sm">The flatwork color change was plant-wide rather than model by model, so it dates any Fender single coil the same way. Use it to confirm an era rather than to pin an exact year.</p>
       </div>
     </section>
 
@@ -373,6 +412,7 @@ const breadcrumbSchema = {
   }
   .fspot [id]{scroll-margin-top:90px;}
   .fspot h1,.fspot h2,.fspot h3{font-family:var(--fd);font-weight:600;line-height:1.12;margin:0;color:var(--ink-strong);text-wrap:balance;}
+  .fspot h3{font-size:clamp(1.21rem,2.1vw,1.34rem);letter-spacing:.015em;margin-top:.8rem;color:var(--rust);}
   .fspot h1{font-size:clamp(2rem,4.6vw,2.9rem);letter-spacing:.005em;text-transform:uppercase;}
   .fspot h2{font-size:clamp(1.5rem,3.1vw,2rem);letter-spacing:.01em;}
   .fspot p{margin:0;}
