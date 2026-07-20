@@ -88,9 +88,7 @@ const cijRows = [
 
 const spokeSlugs = [
   "/fender-pot-codes/", "/fender-neck-dates/", "/fender-body-dates/",
-  "/fender-pickup-dates/", "/fender-fretboard-inlays/", "/fender-bridge-saddles/",
-  "/fender-tuner-evolution/", "/fender-logo-evolution/", "/fender-pickguards/",
-  "/fender-finish-dating/",
+  "/fender-pickup-dates/", "/fender-physical-features/",
 ];
 
 const tocItems: [string, string, number][] = [
@@ -285,15 +283,15 @@ const breadcrumbSchema = {
           <p class="vcap">Watch Joe walk through where the serial lives, how to check the neck heel date, and how to read potentiometer codes.</p>
         </div>
 
-        <p class="note-sm mt">Then tighten the date with the parts themselves. The <a class="spoke" href="/fender-pickup-dates/">pickups</a> under the covers, the <a class="spoke" href="/fender-fretboard-inlays/">fretboard inlays</a>, the <a class="spoke" href="/fender-bridge-saddles/">bridge saddles</a>, the <a class="spoke" href="/fender-tuner-evolution/">tuners</a>, the <a class="spoke" href="/fender-logo-evolution/">headstock logo</a>, the <a class="spoke" href="/fender-pickguards/">pickguard</a> material, and even the <a class="spoke" href="/fender-finish-dating/">finish</a> all changed in documented steps over the years, and each one gets its own step-by-step guide:</p>
+        <p class="note-sm mt">Then tighten the date with the parts themselves. The <a class="spoke" href="/fender-pickup-dates/">pickups</a> under the covers, and on the outside the <a class="spoke" href="/fender-physical-features/#inlays">fretboard inlays</a>, the <a class="spoke" href="/fender-physical-features/#saddles">bridge saddles</a>, the <a class="spoke" href="/fender-physical-features/#tuners">tuners</a>, the <a class="spoke" href="/fender-physical-features/#logo">headstock logo</a>, the <a class="spoke" href="/fender-physical-features/#pickguards">pickguard</a> material, and even the <a class="spoke" href="/post/fender-custom-color-authentication-guide/">finish</a> all changed in documented steps over the years:</p>
         <div class="chips">
           <a href="/fender-pickup-dates/">Pickup Dates</a>
-          <a href="/fender-fretboard-inlays/">Fretboard Inlays</a>
-          <a href="/fender-bridge-saddles/">Bridge Saddles</a>
-          <a href="/fender-tuner-evolution/">Tuner Evolution</a>
-          <a href="/fender-logo-evolution/">Logo Evolution</a>
-          <a href="/fender-pickguards/">Pickguards</a>
-          <a href="/fender-finish-dating/">Finish Dating</a>
+          <a href="/fender-physical-features/#logo">Logo Evolution</a>
+          <a href="/fender-physical-features/#pickguards">Pickguards</a>
+          <a href="/fender-physical-features/#tuners">Tuner Evolution</a>
+          <a href="/fender-physical-features/#saddles">Bridge Saddles</a>
+          <a href="/fender-physical-features/#inlays">Fretboard Inlays</a>
+          <a href="/post/fender-custom-color-authentication-guide/">Custom Colors And Finish</a>
         </div>
       </div>
     </section>
@@ -451,6 +449,44 @@ const breadcrumbSchema = {
       </div>
     </section>
 
+    <!-- WHERE TO GO NEXT -->
+    <section id="next" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Where To Go Next</span>
+        <h2>Once You Know The Year</h2>
+
+        <h3>Find Out What It's Worth</h3>
+        <p>Dating a guitar is usually the first half of the question. The second half is what it's actually worth now, and that depends on the model, the year, the originality, and the finish far more than on the serial number.</p>
+        <div class="chips">
+          <a href="/vintage-fender-stratocaster-value-guide/">Stratocaster Value Guide</a>
+          <a href="/vintage-fender-telecaster-value-guide/">Telecaster Value Guide</a>
+          <a href="/free-appraisal/">Free Appraisal</a>
+        </div>
+
+        <h3>Go Deeper On Your Exact Guitar</h3>
+        <p>If you've narrowed the year down, these go year by year through what a correct example should have, with photographs of the real thing.</p>
+        <div class="chips">
+          <a href="/post/1952-fender-telecaster-authentication-guide/">1952 Telecaster</a>
+          <a href="/post/1959-fender-telecaster-authentication-guide/">1959 Telecaster</a>
+          <a href="/post/1962-fender-stratocaster-authentication-guide/">1962 Stratocaster</a>
+          <a href="/post/1963-fender-stratocaster-authentication-guide/">1963 Stratocaster</a>
+          <a href="/post/1966-fender-stratocaster-authentication-guide/">1966 Stratocaster</a>
+          <a href="/post/1967-fender-stratocaster-authentication-guide/">1967 Stratocaster</a>
+          <a href="/post/1952-fender-precision-bass-guide/">1952 Precision Bass</a>
+          <a href="/post/fender-jazzmaster-evolution-guide-1958-1971/">Jazzmaster, 1958 To 1971</a>
+          <a href="/post/fender-custom-color-authentication-guide/">Custom Colors And Finish</a>
+        </div>
+
+        <h3>Thinking About Selling</h3>
+        <p>Joe buys vintage Fenders outright, pays on the spot, and covers shipping. No consignment wait and no auction fees.</p>
+        <div class="chips">
+          <a href="/sell-my-fender-guitar/">Sell My Fender Guitar</a>
+          <a href="/sell-a-guitar-collection/">Sell A Collection</a>
+          <a href="/sell-an-amplifier-or-effect/">Sell An Amp Or Effect</a>
+        </div>
+      </div>
+    </section>
+
     <section class="pt0">
       <div class="measure"><div class="bio" id="about-joe">
         <LicensedImage src={meta("about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars, holding a vintage guitar" width={150} />
@@ -561,6 +597,7 @@ const breadcrumbSchema = {
   .fshub a.mcard .go{font-family:var(--fd);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em;color:var(--gold-deep);}
   .fshub a.mcard .go::after{content:" \2192";}
   .fshub a.mcard:hover .go{color:var(--rust);}
+  .fshub #next h3{font-size:1.2rem;letter-spacing:.015em;color:var(--rust);margin-top:1.1rem;}
   .fshub .chips{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:.2rem;}
   .fshub .chips a{font-family:var(--fd);font-weight:500;font-size:.9rem;text-decoration:none;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:.45rem .85rem;border-radius:999px;}
   .fshub .chips a:hover{border-color:var(--gold);color:var(--rust);}
