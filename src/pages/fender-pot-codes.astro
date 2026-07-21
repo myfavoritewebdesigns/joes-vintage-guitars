@@ -49,6 +49,12 @@ const img = (file: string) => assetSrc("images/fender-sn/" + file);
 
 const PAGE_PATH = "/fender-pot-codes/";
 const HUB_PATH = "/fender-guitars-serial-number-guide/";
+// PREVIEW-ONLY. The condensed hub currently lives at its own preview URL, so the
+// visible back/cross-check links point THERE and the spoke set clicks through end
+// to end. HUB_PATH above stays canonical and still feeds the schema + breadcrumb.
+// TODO(launch): set HUB_HREF = HUB_PATH and delete this comment, once the
+// condensed hub replaces the live guide at /fender-guitars-serial-number-guide/.
+const HUB_HREF = "/fender-serial-hub-preview/";
 
 // ---- Data ----
 const makerRows = [
@@ -190,8 +196,8 @@ const breadcrumbSchema = {
   noIndex={true}
   structuredData={[articleSchema, videoSchema, faqSchema, breadcrumbSchema]}
 >
-  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
-  <script slot="head" defer src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js"></script>
+  <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+  <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
 
   <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
   <div class="fspot-header-backdrop" aria-hidden="true">
@@ -205,10 +211,10 @@ const breadcrumbSchema = {
     <!-- HERO -->
     <section class="hero" id="top">
       <div class="measure stack">
-        <a class="back" href={HUB_PATH}>Back To The Full Fender Serial Guide</a>
+        <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
         <span class="eyebrow">Fender Dating Methods</span>
         <h1>Fender Pot Codes: How To Date A Fender By Its Potentiometers</h1>
-        <p class="lead">The serial number gets you a range. The pot codes get you a week. Here's how to read the maker and date code stamped on your Fender's volume and tone pots, and how to turn that into a real build date.</p>
+        <p class="lead">There is a code stamped into the side of your volume pot, and it dates that pot to the week it was made. Not the year. The week. Read it properly and it is the tightest date anywhere on the guitar, as long as you know what it can and cannot tell you.</p>
         <div class="trust">
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
         </div>
@@ -434,7 +440,7 @@ const breadcrumbSchema = {
         <span class="eyebrow">Put It All Together</span>
         <h2>Cross-Check With The Other Methods</h2>
         <p>Pot codes are strongest next to the other dating clues. Pair them with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> for the single best two-part check on a vintage Fender, then confirm with the <a class="spoke" href="/fender-pickup-dates/">pickup date codes</a> and the <a class="spoke" href="/fender-body-dates/">body dates</a>. When all of them agree, you have a build date you can stand behind.</p>
-        <p class="note-sm">This guide is one of the dating methods behind the <a class="spoke" href={HUB_PATH}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
+        <p class="note-sm">This guide is one of the dating methods behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
       </div>
     </section>
 
@@ -534,7 +540,7 @@ const breadcrumbSchema = {
   .fspot .eyebrow::before{content:"";width:24px;height:3px;background:var(--gold);}
   .fspot a.spoke{color:var(--gold-deep);text-decoration:none;border-bottom:1.5px dotted var(--gold);font-weight:600;}
   .fspot a.spoke:hover{color:var(--rust);border-bottom-color:var(--rust);}
-  .fspot a.back{font-family:var(--fd);font-weight:600;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--rust);text-decoration:none;display:inline-flex;align-items:center;gap:.4rem;}
+  .fspot a.back{position:relative;z-index:31;font-family:var(--fd);font-weight:600;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--rust);text-decoration:none;display:inline-flex;align-items:center;gap:.4rem;}
   .fspot a.back::before{content:"\2190";font-size:1rem;}
   .fspot a.back:hover{color:var(--rust-bright);}
 

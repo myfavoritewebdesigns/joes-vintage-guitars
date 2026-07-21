@@ -12,6 +12,7 @@
  * system; new Joe-sourced facts land in that registry via PR #1 (VG-0113..0116).
  */
 import Layout from "../layouts/Layout.astro";
+import FenderSerialTool from "../components/tools/FenderSerialTool.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { resolveImage, assetSrc } from "../lib/images";
 import { contact, hrefs, SITE_URL } from "../config/site";
@@ -180,8 +181,8 @@ const breadcrumbSchema = {
   noIndex={true}
   structuredData={[articleSchema, videoSchema, faqSchema, toolSchema, breadcrumbSchema]}
 >
-  <link slot="head" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.css" />
-  <script slot="head" defer src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.2/src/lite-yt-embed.js"></script>
+  <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+  <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
 
   <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
   <div class="fshub-header-backdrop" aria-hidden="true">
@@ -202,18 +203,13 @@ const breadcrumbSchema = {
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span><span>All 50 states</span>
         </div>
 
-        <div class="plate" role="group" aria-label="Fender serial number decoder">
+        <div class="toolplate">
           <span class="bolt tl"></span><span class="bolt tr"></span><span class="bolt bl"></span><span class="bolt br"></span>
-          <div class="stamp">Enter Serial As Stamped</div>
-          <form class="decoder" id="decoder" autocomplete="off">
-            <input id="serial" name="serial" type="text" inputmode="text" placeholder="Example: L54321, E812345, MN604321" aria-label="Fender serial number" />
-            <button class="btn" type="submit">Decode</button>
-          </form>
-          <div class="result" id="result" aria-live="polite">
-            <div class="verdict" id="verdict"></div>
-            <div class="note" id="note"></div>
-          </div>
+          <FenderSerialTool tablesHref="#charts" />
+        </div>
 
+        <div class="plate plate--locate" role="group" aria-label="Serial number locations">
+          <span class="bolt tl"></span><span class="bolt tr"></span><span class="bolt bl"></span><span class="bolt br"></span>
           <details class="locate" id="locate">
             <summary>I Need Help Finding My Serial Number</summary>
             <div class="locimg">
@@ -252,7 +248,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">The Serial Number Is Just Part Of The Story</span>
         <h2>Cross-Check With Other Dating Features</h2>
-        <p class="note-sm">A serial gets you close, and official lookups only track roughly the last 30 years of production. The parts pin the real date. Start with the three heavy hitters, each a full step-by-step guide:</p>
+        <p class="note-sm">A serial gets you close, and official lookups only track roughly the last 30 years of production. The parts pin the real date. There are five ways in, and each one is a full step-by-step guide:</p>
         <div class="cards3">
           <a class="mcard" href="/fender-pot-codes/">
             <span class="num">Path 1: Electronics</span>
@@ -272,6 +268,18 @@ const breadcrumbSchema = {
             <p>Locate the date markings Fender left on the body itself and what they look like from era to era.</p>
             <span class="go">Read Body Dates</span>
           </a>
+          <a class="mcard" href="/fender-pickup-dates/">
+            <span class="num">Path 4: The Pickups</span>
+            <h3>Pickup Date Codes</h3>
+            <p>Read the date on the base of a pickup, then use the pickup's own build, the pole pieces, the flatwork color, and the coil wire, to place it in an era.</p>
+            <span class="go">Read Pickup Dates</span>
+          </a>
+          <a class="mcard" href="/fender-physical-features/">
+            <span class="num">Path 5: The Parts</span>
+            <h3>Logos, Guards, Saddles And Tuners</h3>
+            <p>Everything you can check without picking up a screwdriver. The headstock logo, the pickguard material, the bridge saddles, the tuners, and the fretboard inlays all changed at known points.</p>
+            <span class="go">Date It By Its Parts</span>
+          </a>
         </div>
 
         <div class="videopanel">
@@ -283,16 +291,7 @@ const breadcrumbSchema = {
           <p class="vcap">Watch Joe walk through where the serial lives, how to check the neck heel date, and how to read potentiometer codes.</p>
         </div>
 
-        <p class="note-sm mt">Then tighten the date with the parts themselves. The <a class="spoke" href="/fender-pickup-dates/">pickups</a> under the covers, and on the outside the <a class="spoke" href="/fender-physical-features/#inlays">fretboard inlays</a>, the <a class="spoke" href="/fender-physical-features/#saddles">bridge saddles</a>, the <a class="spoke" href="/fender-physical-features/#tuners">tuners</a>, the <a class="spoke" href="/fender-physical-features/#logo">headstock logo</a>, the <a class="spoke" href="/fender-physical-features/#pickguards">pickguard</a> material, and even the <a class="spoke" href="/post/fender-custom-color-authentication-guide/">finish</a> all changed in documented steps over the years:</p>
-        <div class="chips">
-          <a href="/fender-pickup-dates/">Pickup Dates</a>
-          <a href="/fender-physical-features/#logo">Logo Evolution</a>
-          <a href="/fender-physical-features/#pickguards">Pickguards</a>
-          <a href="/fender-physical-features/#tuners">Tuner Evolution</a>
-          <a href="/fender-physical-features/#saddles">Bridge Saddles</a>
-          <a href="/fender-physical-features/#inlays">Fretboard Inlays</a>
-          <a href="/post/fender-custom-color-authentication-guide/">Custom Colors And Finish</a>
-        </div>
+        <p class="note-sm mt">No single one of these is the answer on its own. Read two or three and look for agreement, because a guitar whose neck date, pot codes, and parts all point at the same stretch of months is telling you something a serial number never can. If the guitar wears a custom color, the <a class="spoke" href="/post/fender-custom-color-authentication-guide/">finish itself</a> is worth reading too.</p>
       </div>
     </section>
 
@@ -476,13 +475,13 @@ const breadcrumbSchema = {
           <a href="/post/fender-jazzmaster-evolution-guide-1958-1971/">Jazzmaster, 1958 To 1971</a>
           <a href="/post/fender-custom-color-authentication-guide/">Custom Colors And Finish</a>
         </div>
+        <p class="note-sm mt">That's a selection rather than the whole shelf. There are more Fender guides on <a class="spoke" href="/blog/">the blog</a>, covering models and years not listed here, and I add to them as guitars come across the bench. If you can't find yours, <a class="spoke" href={hrefs.tel}>call or text me</a> and I'll point you at the right one.</p>
 
         <h3>Thinking About Selling</h3>
         <p>Joe buys vintage Fenders outright, pays on the spot, and covers shipping. No consignment wait and no auction fees.</p>
         <div class="chips">
           <a href="/sell-my-fender-guitar/">Sell My Fender Guitar</a>
           <a href="/sell-a-guitar-collection/">Sell A Collection</a>
-          <a href="/sell-an-amplifier-or-effect/">Sell An Amp Or Effect</a>
         </div>
       </div>
     </section>
@@ -560,6 +559,8 @@ const breadcrumbSchema = {
   .fshub .trust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--rust);}
 
   .fshub .plate{position:relative;margin-top:1.4rem;background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:clamp(1.1rem,3vw,1.7rem);box-shadow:var(--shadow);}
+  .fshub .toolplate{position:relative;margin-top:1.4rem;}
+  .fshub .toolplate .bolt{z-index:2;}
   .fshub .bolt{position:absolute;width:11px;height:11px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fdf9f0,#b39a6a 62%,#7a6540);box-shadow:inset 0 0 0 1px rgba(0,0,0,.15);}
   .fshub .bolt.tl{top:10px;left:10px}.fshub .bolt.tr{top:10px;right:10px}.fshub .bolt.bl{bottom:10px;left:10px}.fshub .bolt.br{bottom:10px;right:10px}
   .fshub .stamp{font-family:var(--fm);font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:.6rem;}
@@ -663,6 +664,11 @@ const breadcrumbSchema = {
 
   /* mobile card tables */
   @media (max-width:719px){
+    /* On narrow screens the tool is short enough that the Look Up button's
+       bottom-left corner lands on the bottom-left plate screw. Nudge it clear.
+       Scoped to .toolplate so the standalone /fender-serial-tool-v2/ page,
+       which has no screws, is unaffected. */
+    .fshub .toolplate :global(.fsn2-btn-search){margin-left:16px;}
     .fshub .tablewrap{overflow:visible;border:0;border-radius:0;box-shadow:none;}
     .fshub .tablewrap table{min-width:0;width:100%;display:block;background:transparent;}
     .fshub .tablewrap thead{display:none;}
