@@ -1,14 +1,12 @@
 ---
 /**
- * Fender pot codes spoke, CONDENSED REBUILD, preview build.
+ * Fender pot codes spoke, CONDENSED REBUILD.
  *
  * First of the hub-and-spoke method pages behind the condensed Fender serial
- * rebuild (see fender-serial-hub-preview.astro). Deep-dives the potentiometer
+ * rebuild (see fender-guitars-serial-number-guide.astro). Deep-dives the potentiometer
  * date-code method the hub only summarizes, so the hub's "/fender-pot-codes/"
  * card now resolves.
  *
- * Noindex + sitemap-excluded + X-Robots-Tag (astro.config.mjs SITEMAP_EXCLUDE
- * and public/_headers), same preview pattern as the hub and /fender-serial-tool-v2/.
  * Content facts trace to Joe's live serial page and VG_FACTS.md (joes-vintage-
  * databases): VG-0047, VG-0048, VG-0099, VG-0100, VG-0101, VG-0102, plus new
  * VG-0113 (full EIA maker-code roster) and VG-0114 (Fender supplier timeline +
@@ -49,14 +47,7 @@ const img = (file: string) => assetSrc("images/fender-sn/" + file);
 
 const PAGE_PATH = "/fender-pot-codes/";
 const HUB_PATH = "/fender-guitars-serial-number-guide/";
-// PREVIEW-ONLY. The condensed hub currently lives at its own preview URL, so the
-// visible back/cross-check links point THERE and the spoke set clicks through end
-// to end. HUB_PATH above stays canonical and still feeds the schema + breadcrumb.
-// TODO(launch): (1) set HUB_HREF = HUB_PATH and delete this comment; (2) strip
-// "(Preview)" from the <Layout title>; (3) set noIndex={false}; (4) remove the
-// .fspot-preview-note banner, once the condensed hub replaces the live guide at
-// /fender-guitars-serial-number-guide/.
-const HUB_HREF = "/fender-serial-hub-preview/";
+const HUB_HREF = HUB_PATH;
 
 // ---- Data ----
 const makerRows = [
@@ -150,8 +141,8 @@ const articleSchema = {
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
   image: `${SITE_URL}${img("cts-pot-code-for-fender-guitars-rotated.jpg")}`,
-  datePublished: "2026-07-22",
-  dateModified: "2026-07-22",
+  datePublished: "2026-07-23",
+  dateModified: "2026-07-23",
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
@@ -191,14 +182,14 @@ const breadcrumbSchema = {
 ---
 
 <Layout
-  title="How To Read Fender Pot Codes: Potentiometer Dating Guide (Preview)"
+  title="How To Read Fender Pot Codes: Potentiometer Dating Guide"
   description="Read the maker and date code on your Fender's pots to date the guitar to the week. A step-by-step potentiometer dating guide from a vintage Fender appraiser."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${img("cts-pot-code-for-fender-guitars-rotated.jpg")}`}
   {...ogCardSize("images/fender-sn/cts-pot-code-for-fender-guitars-rotated.jpg")}
   ogImageAlt="A CTS potentiometer on a vintage Fender with the maker code 137 and date code visible"
   ogType="article"
-  noIndex={true}
+  noIndex={false}
   structuredData={[articleSchema, videoSchema, faqSchema, breadcrumbSchema]}
 >
   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
@@ -210,7 +201,6 @@ const breadcrumbSchema = {
     <div class="fspot-header-backdrop__cream"></div>
   </div>
 
-  <p class="fspot-preview-note">Internal preview of a Fender serial guide spoke. Noindexed and not linked. Sibling spoke links point at planned slugs that do not exist yet.</p>
 
   <div class="fspot">
     <!-- HERO -->
@@ -504,7 +494,6 @@ const breadcrumbSchema = {
 </Layout>
 
 <style>
-  .fspot-preview-note{background:var(--color-brand-charcoal,#2a2d33);color:#f4efe4;font-family:var(--font-display),sans-serif;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;text-align:center;padding:.5rem 1rem;position:relative;z-index:3;}
   .fspot-header-backdrop{position:relative;isolation:isolate;z-index:0;}
   .fspot-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
   .fspot-header-backdrop__cream{background:#fff;height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}

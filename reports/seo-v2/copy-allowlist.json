@@ -232,32 +232,32 @@
       "note": "Same eBay brand-casing false positive (Selling on eBay heading)."
     },
     {
-      "url": "/fender-serial-hub-preview/",
+      "url": "/fender-guitars-serial-number-guide/",
       "phrase": "🔍",
       "note": "Tool UI marker, cross-dating prompt. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
     },
     {
-      "url": "/fender-serial-hub-preview/",
+      "url": "/fender-guitars-serial-number-guide/",
       "phrase": "🎸",
       "note": "Tool UI marker. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
     },
     {
-      "url": "/fender-serial-hub-preview/",
+      "url": "/fender-guitars-serial-number-guide/",
       "phrase": "💰",
       "note": "Tool UI marker, value prompt. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
     },
     {
-      "url": "/fender-serial-hub-preview/",
+      "url": "/fender-guitars-serial-number-guide/",
       "phrase": "⚠",
       "note": "Tool warning marker, R-prefix and counterfeit notes. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
     },
     {
-      "url": "/fender-serial-hub-preview/",
+      "url": "/fender-guitars-serial-number-guide/",
       "phrase": "📩",
       "note": "Tool UI marker, email-me-this-report CTA. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
     },
     {
-      "url": "/fender-serial-hub-preview/",
+      "url": "/fender-guitars-serial-number-guide/",
       "phrase": "—",
       "note": "Em dash inside the tool's email-report blurb. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
     }

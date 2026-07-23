@@ -13,12 +13,6 @@ const SITEMAP_EXCLUDE = [
   '/jvg-shipping-process-2/',
   '/404/',
   '/fender-serial-tool-v2/', // internal test page for the v2 serial tool (noIndex)
-  '/fender-serial-hub-preview/', // condensed serial-page rebuild preview (noIndex)
-  '/fender-pot-codes/', // Fender serial guide spoke, pot codes (preview, noIndex)
-  '/fender-neck-dates/', // Fender serial guide spoke, neck dates (preview, noIndex)
-  '/fender-body-dates/', // Fender serial guide spoke, body dates (preview, noIndex)
-  '/fender-pickup-dates/', // Fender serial guide spoke, pickup dates (preview, noIndex)
-  '/fender-physical-features/', // Fender serial guide spoke, parts and features (preview, noIndex)
 ];
 
 // https://astro.build/config

@@ -1,9 +1,9 @@
 ---
 /**
- * Fender physical features spoke, preview build.
+ * Fender physical features spoke.
  *
  * Hub-and-spoke method page behind the condensed Fender serial rebuild
- * (see fender-serial-hub-preview.astro). Covers the visual/parts checks the
+ * (see fender-guitars-serial-number-guide.astro). Covers the visual/parts checks the
  * hub only summarizes, so the hub's feature chips resolve.
  *
  * MERGE DECISION 2026-07-20 (Joe's call): this ONE page replaces the five
@@ -20,9 +20,6 @@
  * "logo-evolution" bundled control knobs, switch tips and string trees, and
  * "adv-pickguards" bundled slab-vs-veneer fretboard construction. Those are
  * regrouped under the features they actually belong to.
- *
- * Noindex + sitemap-excluded + X-Robots-Tag (astro.config.mjs SITEMAP_EXCLUDE
- * and public/_headers), same preview pattern as the other spokes.
  *
  * TWO FACTS TAKEN FROM JOE OVER THE LIVE PAGE:
  * (1) Nitrate "mint" pickguards run to MID-1965, not "late 1964" as the live
@@ -45,14 +42,7 @@ const img = (file: string) => assetSrc("images/fender-sn/" + file);
 
 const PAGE_PATH = "/fender-physical-features/";
 const HUB_PATH = "/fender-guitars-serial-number-guide/";
-// PREVIEW-ONLY. The condensed hub currently lives at its own preview URL, so the
-// visible back/cross-check links point THERE and the spoke set clicks through end
-// to end. HUB_PATH above stays canonical and still feeds the schema + breadcrumb.
-// TODO(launch): (1) set HUB_HREF = HUB_PATH and delete this comment; (2) strip
-// "(Preview)" from the <Layout title>; (3) set noIndex={false}; (4) remove the
-// .fspot-preview-note banner, once the condensed hub replaces the live guide at
-// /fender-guitars-serial-number-guide/.
-const HUB_HREF = "/fender-serial-hub-preview/";
+const HUB_HREF = HUB_PATH;
 
 // ---- Data ----
 const logoRows = [
@@ -149,8 +139,8 @@ const articleSchema = {
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
   image: `${SITE_URL}${img("1967-fender-stratocaster-bridge-saddles.jpg")}`,
-  datePublished: "2026-07-22",
-  dateModified: "2026-07-22",
+  datePublished: "2026-07-23",
+  dateModified: "2026-07-23",
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
@@ -176,14 +166,14 @@ const breadcrumbSchema = {
 ---
 
 <Layout
-  title="Dating A Fender By Its Parts: Logo, Pickguard, Saddles, Tuners (Preview)"
+  title="Dating A Fender By Its Parts: Logo, Pickguard, Saddles, Tuners"
   description="Date a vintage Fender from the parts you can see. Logo styles, inlays, pickguard materials, bridge saddles, tuners and string trees, with the year each one changed."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${img("1967-fender-stratocaster-bridge-saddles.jpg")}`}
   {...ogCardSize("images/fender-sn/1967-fender-stratocaster-bridge-saddles.jpg")}
   ogImageAlt="The bridge of a 1967 Fender Stratocaster showing stamped steel saddles marked FENDER PAT. PEND."
   ogType="article"
-  noIndex={true}
+  noIndex={false}
   structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
 >
   <!-- Archetype B header backdrop -->
@@ -192,7 +182,6 @@ const breadcrumbSchema = {
     <div class="fspot-header-backdrop__cream"></div>
   </div>
 
-  <p class="fspot-preview-note">Internal preview of a Fender serial guide spoke. Noindexed and not linked.</p>
 
   <div class="fspot">
     <!-- HERO -->
@@ -516,7 +505,6 @@ const breadcrumbSchema = {
 </Layout>
 
 <style>
-  .fspot-preview-note{background:var(--color-brand-charcoal,#2a2d33);color:#f4efe4;font-family:var(--font-display),sans-serif;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;text-align:center;padding:.5rem 1rem;position:relative;z-index:3;}
   .fspot-header-backdrop{position:relative;isolation:isolate;z-index:0;}
   .fspot-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
   .fspot-header-backdrop__cream{background:#fff;height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}

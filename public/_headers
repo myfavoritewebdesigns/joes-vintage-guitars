@@ -36,25 +36,3 @@
 # too (the page also sets meta robots noindex and is sitemap-excluded).
 /fender-serial-tool-v2/
   X-Robots-Tag: noindex
-
-# Condensed serial-page rebuild preview: noindex at the edge as well
-# (meta robots noindex + sitemap-excluded on the page too).
-/fender-serial-hub-preview/
-  X-Robots-Tag: noindex
-
-# Fender serial guide spoke (pot codes) preview: noindex at the edge too
-# (meta robots noindex + sitemap-excluded on the page too).
-/fender-pot-codes/
-  X-Robots-Tag: noindex
-
-/fender-neck-dates/
-  X-Robots-Tag: noindex
-
-/fender-body-dates/
-  X-Robots-Tag: noindex
-
-/fender-pickup-dates/
-  X-Robots-Tag: noindex
-
-/fender-physical-features/
-  X-Robots-Tag: noindex

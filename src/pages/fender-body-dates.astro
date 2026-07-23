@@ -1,17 +1,13 @@
 ---
 /**
- * Fender body dates spoke, CONDENSED REBUILD, preview build.
+ * Fender body dates spoke, CONDENSED REBUILD.
  *
  * Hub-and-spoke method page behind the condensed Fender serial rebuild
- * (see fender-serial-hub-preview.astro). Deep-dives the body-date method the
+ * (see fender-guitars-serial-number-guide.astro). Deep-dives the body-date method the
  * hub only summarizes, so the hub's "/fender-body-dates/" card resolves. This
  * is the specific slug Joe wants for the body-date page; it replaces the earlier
  * placeholder "/fender-physical-dating/" the sibling spokes linked to (that slug
  * is now retired across the hub, /fender-pot-codes/, and /fender-neck-dates/).
- *
- * Noindex + sitemap-excluded + X-Robots-Tag (astro.config.mjs SITEMAP_EXCLUDE
- * and public/_headers), same preview pattern as the hub, /fender-pot-codes/,
- * and /fender-neck-dates/.
  *
  * Core content and photos come from Joe's live serial page (the "Body Date
  * Codes" section of /fender-guitars-serial-number-guide/): the four body-date
@@ -47,14 +43,7 @@ const img = (file: string) => assetSrc("images/fender-sn/" + file);
 
 const PAGE_PATH = "/fender-body-dates/";
 const HUB_PATH = "/fender-guitars-serial-number-guide/";
-// PREVIEW-ONLY. The condensed hub currently lives at its own preview URL, so the
-// visible back/cross-check links point THERE and the spoke set clicks through end
-// to end. HUB_PATH above stays canonical and still feeds the schema + breadcrumb.
-// TODO(launch): (1) set HUB_HREF = HUB_PATH and delete this comment; (2) strip
-// "(Preview)" from the <Layout title>; (3) set noIndex={false}; (4) remove the
-// .fspot-preview-note banner, once the condensed hub replaces the live guide at
-// /fender-guitars-serial-number-guide/.
-const HUB_HREF = "/fender-serial-hub-preview/";
+const HUB_HREF = HUB_PATH;
 
 // ---- Data ----
 const locationRows = [
@@ -118,8 +107,8 @@ const articleSchema = {
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
   image: `${SITE_URL}${img("1952-fender-precision-bass-body-date.jpg")}`,
-  datePublished: "2026-07-22",
-  dateModified: "2026-07-22",
+  datePublished: "2026-07-23",
+  dateModified: "2026-07-23",
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
@@ -145,14 +134,14 @@ const breadcrumbSchema = {
 ---
 
 <Layout
-  title="How To Read Fender Body Dates: Neck-Pocket Dating Guide (Preview)"
+  title="How To Read Fender Body Dates: Neck-Pocket Dating Guide"
   description="Find the pencil or ink date Fender wrote inside your guitar's body, in the neck pocket or the cavities, and read it as a build date, from a vintage Fender appraiser."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${img("1952-fender-precision-bass-body-date.jpg")}`}
   {...ogCardSize("images/fender-sn/1952-fender-precision-bass-body-date.jpg")}
   ogImageAlt="The neck pocket of an early 1950s Fender Precision Bass penciled 3-17-53 with the initials T.G. above the date"
   ogType="article"
-  noIndex={true}
+  noIndex={false}
   structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
 >
   <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
@@ -161,7 +150,6 @@ const breadcrumbSchema = {
     <div class="fspot-header-backdrop__cream"></div>
   </div>
 
-  <p class="fspot-preview-note">Internal preview of a Fender serial guide spoke. Noindexed and not linked. Some sibling spoke links point at planned slugs that do not exist yet.</p>
 
   <div class="fspot">
     <!-- HERO -->
@@ -400,7 +388,6 @@ const breadcrumbSchema = {
 </Layout>
 
 <style>
-  .fspot-preview-note{background:var(--color-brand-charcoal,#2a2d33);color:#f4efe4;font-family:var(--font-display),sans-serif;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;text-align:center;padding:.5rem 1rem;position:relative;z-index:3;}
   .fspot-header-backdrop{position:relative;isolation:isolate;z-index:0;}
   .fspot-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
   .fspot-header-backdrop__cream{background:#fff;height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}
