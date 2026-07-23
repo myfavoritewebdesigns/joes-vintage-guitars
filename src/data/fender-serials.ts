@@ -31,7 +31,9 @@ export type StepId =
   | "tuneck"     // T/U-prefix: MIJ vs CIJ
   | "nloc"       // N-prefix: headstock vs neck heel
   | "opqjapan"   // O/P/Q-prefix: MIJ vs CIJ (letters reused across both eras)
-  | "bjapan";    // B-prefix: MIJ vs CIJ
+  | "bjapan"     // B-prefix: MIJ vs CIJ
+  | "plate76"    // 76-prefix: 1976 headstock decal vs an early-1960s neck plate
+  | "ajapan";    // A-prefix: MIJ vs CIJ (reused across both eras)
 
 export type Outcome =
   | { kind: "result"; year: string; warn?: boolean }
@@ -240,15 +242,10 @@ export function decodeSerial(rawInput: string): Outcome {
   // S-prefix — 1970s American headstock vs Japanese neck heel
   if (/^S\d/i.test(raw)) return ask("sneck");
 
-  // A-prefix — digit count decides MIJ vs CIJ
-  if (/^A\d+$/i.test(raw)) {
-    const digits = raw.replace(/^A/i, "");
-    if (digits.length === 5) return result("Mid-1980s (Made in Japan)");
-    if (digits.length === 6) return result("1997–1998 (Crafted in Japan)");
-    return result(
-      "Could not determine year. A-prefix MIJ serials have 5 digits after the A; CIJ serials have 6. Please make sure you entered the correct number of digits."
-    );
-  }
+  // A-prefix — reused across the MIJ (1985 to 1986) and CIJ (1997 to 1998) eras.
+  // Digit count is NOT a reliable tell (both eras used 6 digits), so ask for the
+  // "Made in Japan" vs "Crafted in Japan" decal instead. (Joe, 2026-07-22.)
+  if (/^A\d+$/i.test(raw)) return ask("ajapan");
 
   // B-prefix — appears in both MIJ and CIJ; must ask
   if (/^B\d+$/i.test(raw)) return ask("bjapan");
@@ -287,6 +284,19 @@ export function decodeSerial(rawInput: string): Outcome {
   // O/P/Q — reused across BOTH Japanese eras, so the printed neck-heel wording is
   // the only way to tell them apart. Must ask before answering.
   if (/^[OPQ]\d/i.test(raw)) return ask("opqjapan");
+
+  // 76-prefix — ambiguous between a 1976 headstock decal serial and an early-1960s
+  // neck plate that happens to start with 76 (a 5-digit 76xxx sits in the 1962
+  // neck-plate range). A 7+ digit 76... is too long to be a plate, so it is a clean
+  // 1976; a 2 to 3 digit 76... is too short to be a plate. In between, ask the
+  // location. (Joe, 2026-07-22.)
+  if (/^76\d+$/.test(raw)) {
+    if (raw.length >= 7 || raw.length <= 3) return result("1976");
+    return ask(
+      "plate76",
+      `Serial ${raw} could be a 1976 headstock serial or a neck plate from the early 1960s. Where is the serial located?`
+    );
+  }
 
   // Standard prefix table
   const pm = lookupPrefix(raw);
@@ -457,6 +467,18 @@ export function answerStep(rawInput: string, step: StepId, choice: string): Outc
             "Vintage Reissue (1982 to present), V-prefix neck plate serial. Serial alone cannot date V-prefix guitars; cross-date with neck heel stamp and pot codes."
           )
         : result("1996–1997 (Made in Japan, back of neck heel serial)");
+
+    case "ajapan":
+      return choice === "mij"
+        ? result("1985 to 1986 (Made in Japan)")
+        : result("1997 to 1998 (Crafted in Japan)");
+
+    case "plate76":
+      // "Headstock" is the 1976 decal; anything else is a neck plate, so route the
+      // serial through the neck-plate resolution (a 76xxx plate lands on 1962).
+      return choice === "headstock"
+        ? result("1976 (headstock decal serial)")
+        : answerStep(raw, "location", "neck");
   }
 }
 
@@ -568,6 +590,22 @@ export const STEPS: Record<StepId, StepDef> = {
       { value: "cij", label: '"Crafted in Japan"' },
     ],
   },
+  plate76: {
+    id: "plate76",
+    label: "Where is the serial located?",
+    cards: [
+      { value: "headstock", label: "Front of Headstock", image: IMG.headstock },
+      { value: "neck", label: "Neck Plate", image: IMG.neckPlate },
+    ],
+  },
+  ajapan: {
+    id: "ajapan",
+    label: "What does the country-of-origin decal say?",
+    cards: [
+      { value: "mij", label: '"Made in Japan"' },
+      { value: "cij", label: '"Crafted in Japan"' },
+    ],
+  },
 };
 
 // ─── Crawlable reference tables (rendered as static HTML) ────────────────────
@@ -653,7 +691,7 @@ export const REFERENCE_SECTIONS: RefSection[] = [
       { serial: "76 + digits", years: "1976", notes: "Transition year" },
       { serial: "S + digit", years: "1970s", notes: "S7 = 1977, S8 = 1978, S9 = 1979 (front of headstock). An S on the neck heel is Japanese; the tool asks" },
       { serial: "E + digit", years: "1980s", notes: "E0 = 1980 through E9 = 1989" },
-      { serial: "N + digit", years: "1990s", notes: "N0 = 1990 through N9 = 1999 (back of headstock). An N on the neck heel is Japanese, 1995 to 1996" },
+      { serial: "N + digit", years: "1990s", notes: "N0 = 1990 through N9 = 1999. Front of the headstock through 1995, back from 1996. An N on the neck heel is Japanese, 1995 to 1996" },
       { serial: "Z + digit", years: "2000s", notes: "Z0 = 2000 through Z9 = 2009" },
       { serial: "US + 2 digits", years: "2010 to today", notes: "US10 = 2010, US22 = 2022, and so on" },
       { serial: "CA / CB / CE + digits", years: "1981–1983", notes: "Gold Series, P-Bass Special, Black and Gold Telecaster" },

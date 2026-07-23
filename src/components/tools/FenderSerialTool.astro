@@ -12,6 +12,7 @@
 import { Image } from "astro:assets";
 import { STEPS } from "../../data/fender-serials";
 import { resolveImage } from "../../lib/images";
+import { contact, hrefs } from "../../config/site";
 
 interface Props {
   /**
@@ -36,7 +37,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
       Decode any Fender guitar or bass serial number. American, Mexican, Japanese, and Custom
       Shop, 1950 to present.
     </p>
-    <span class="fsn2-badge">Last reviewed by Joe, May 2026</span>
+    <span class="fsn2-badge">Last reviewed by Joe, July 2026</span>
   </header>
 
   <form class="fsn2-form" action={tablesHref} method="get" data-fsn2-form>
@@ -96,7 +97,6 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
   <div aria-live="polite">
     <div class="fsn2-result" data-fsn2-result hidden tabindex="-1">
       <div class="fsn2-result-head">
-        <span class="fsn2-result-icon" aria-hidden="true">🎸</span>
         <h3>Serial Number Decoded</h3>
       </div>
       <p class="fsn2-serial-pill" data-fsn2-serial></p>
@@ -108,11 +108,10 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
         Serial number ranges are estimates. Fender production was rarely perfectly sequential.
         For a precise appraisal or help selling your guitar, contact
         <a href="/">Joe's Vintage Guitars</a>. Call or text
-        <a href="tel:+16029006635">602-900-6635</a>, or
+        <a href={hrefs.tel}>{contact.phone}</a>, or
         <a href="/contact-me/">contact us online</a>.
       </p>
       <a class="fsn2-appraisal" href="/free-appraisal/">
-        <span class="fsn2-appraisal-icon" aria-hidden="true">💰</span>
         <span class="fsn2-appraisal-text">
           <strong>Curious what your Fender is worth?</strong>
           Get Joe's free, no-obligation appraisal
@@ -134,21 +133,19 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
         pot codes, and pickups before you buy or sell, or <a href="/contact-me/">have Joe verify it</a>.
       </div>
       <div class="fsn2-crossdate">
-        <p class="fsn2-crossdate-title">🔍 Cross-date your guitar for a more precise year</p>
+        <p class="fsn2-crossdate-title">Cross-date your guitar for a more precise year</p>
         <ul>
-          <li><a href="/fender-guitars-serial-number-guide/#adv-pot-codes">Pot codes (most reliable)</a></li>
-          <li><a href="/fender-guitars-serial-number-guide/#adv-neck-heel">Neck heel date stamp</a></li>
-          <li><a href="/fender-guitars-serial-number-guide/#adv-body-dates">Body cavity stamp</a></li>
-          <li><a href="/fender-guitars-serial-number-guide/#adv-pickup-dates">Pickup bobbin dating</a></li>
-          <li><a href="/fender-guitars-serial-number-guide/#adv-tuners">Tuner dating</a></li>
-          <li><a href="/fender-guitars-serial-number-guide/#adv-finish">Finish dating</a></li>
-          <li><a href="/fender-guitars-serial-number-guide/#advanced-dating">Neck profile dating</a></li>
-          <li><a href="/fender-guitars-serial-number-guide/#logo-evolution">Logo & decal dating</a></li>
+          <li><a href="/fender-pot-codes/">Pot codes</a></li>
+          <li><a href="/fender-neck-dates/">Neck heel date stamp</a></li>
+          <li><a href="/fender-body-dates/">Body cavity stamp</a></li>
+          <li><a href="/fender-pickup-dates/">Pickup date codes</a></li>
+          <li><a href="/fender-physical-features/#tuners">Tuner dating</a></li>
+          <li><a href="/fender-physical-features/#logo">Logo & decal dating</a></li>
         </ul>
       </div>
 
       <form class="fsn2-emailcap" data-fsn2-emailcap novalidate>
-        <p class="fsn2-emailcap-title">📩 Email me this dating report</p>
+        <p class="fsn2-emailcap-title">Email me this dating report</p>
         <p class="fsn2-emailcap-lede">
           We'll send your serial, its approximate year, the cross-dating checklist, and what drives
           the value — plus a quick way to get it appraised. No spam.
@@ -179,16 +176,16 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
       <p>
         We couldn't automatically decode that serial number. Some older or rare Fenders need a
         hands-on look. <a href="/">Joe's Vintage Guitars</a> can help. Call or text
-        <a href="tel:+16029006635">602-900-6635</a>, or
+        <a href={hrefs.tel}>{contact.phone}</a>, or
         <a href="/contact-me/">contact us online</a>.
       </p>
       <div class="fsn2-crossdate">
-        <p class="fsn2-crossdate-title">🔍 Try cross-dating manually</p>
+        <p class="fsn2-crossdate-title">Try cross-dating manually</p>
         <ul>
-          <li><a href="/fender-guitars-serial-number-guide/#adv-pot-codes">Pot codes</a></li>
-          <li><a href="/fender-guitars-serial-number-guide/#adv-neck-heel">Neck heel stamp</a></li>
-          <li><a href="/fender-guitars-serial-number-guide/#adv-body-dates">Body cavity stamp</a></li>
-          <li><a href="/fender-guitars-serial-number-guide/#adv-pickup-dates">Pickup dating</a></li>
+          <li><a href="/fender-pot-codes/">Pot codes</a></li>
+          <li><a href="/fender-neck-dates/">Neck heel stamp</a></li>
+          <li><a href="/fender-body-dates/">Body cavity stamp</a></li>
+          <li><a href="/fender-pickup-dates/">Pickup date codes</a></li>
         </ul>
       </div>
     </div>
@@ -397,7 +394,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     text-align: center;
   }
   .fsn2-eyebrow {
-    font-family: var(--font-display);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.14em;
     font-size: 0.75rem;
@@ -405,7 +402,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     margin: 0 0 6px;
   }
   .fsn2-header h2 {
-    font-family: var(--font-display);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-weight: 600;
     font-size: clamp(1.5rem, 3.4vw, 2rem);
     color: #fff;
@@ -440,7 +437,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     gap: 6px;
   }
   .fsn2-input-wrap label {
-    font-family: var(--font-display);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -465,11 +462,11 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     outline: 3px solid rgba(190, 75, 37, 0.35);
   }
   .fsn2-btn-search {
-    font-family: var(--font-display);
-    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    background: var(--color-brand-rust);
+    background: linear-gradient(135deg, #c0392b, #922b21);
     color: #fff;
     border: 0;
     border-radius: 8px;
@@ -477,7 +474,8 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     font-size: 0.95rem;
     cursor: pointer;
   }
-  .fsn2-btn-search:hover { background: var(--color-brand-rust-bright); }
+  .fsn2-btn-search:hover { background: linear-gradient(135deg, #d0442f, #a33227); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(74, 53, 32, 0.18); }
+  .fsn2-btn-search:active { transform: translateY(0); }
   .fsn2-btn-reset {
     background: none;
     border: 0;
@@ -503,7 +501,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
   }
   .fsn2-step:focus { outline: none; }
   .fsn2-step-label {
-    font-family: var(--font-display);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-weight: 600;
     font-size: 1.05rem;
     color: var(--color-brand-brown);
@@ -525,7 +523,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     display: flex;
     flex-direction: column;
     background: #fff;
-    border: 2px solid #d9cdb8;
+    border: 1px solid #d9cdb8;
     border-radius: 10px;
     overflow: hidden;
     padding: 0;
@@ -534,11 +532,11 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     text-align: center;
     transition: border-color 0.15s, transform 0.15s;
   }
-  .fsn2-card:hover { border-color: var(--color-brand-rust); transform: translateY(-2px); }
+  .fsn2-card:hover { border-color: #c0392b; transform: translateY(-2px); box-shadow: 0 6px 18px rgba(74, 53, 32, 0.12); }
   .fsn2-card:focus-visible { outline: 3px solid var(--color-brand-gold); outline-offset: 2px; }
   .fsn2-card img { width: 100%; height: 130px; object-fit: cover; display: block; }
   .fsn2-card-label {
-    font-family: var(--font-display);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-weight: 600;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -552,13 +550,13 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
   .fsn2-result:focus, .fsn2-fallback:focus { outline: none; }
   .fsn2-result {
     background: #fff;
-    border: 2px solid var(--color-brand-gold);
+    border: 1px solid #d9cdb8;
     border-radius: 10px;
     padding: 20px 22px;
   }
   .fsn2-result-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
   .fsn2-result-head h3 {
-    font-family: var(--font-display);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
     color: var(--color-brand-brown);
@@ -568,7 +566,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     display: inline-block;
     background: var(--color-brand-brown);
     color: var(--color-brand-cream);
-    font-family: var(--font-display);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     letter-spacing: 0.12em;
     border-radius: 999px;
     padding: 5px 16px;
@@ -583,7 +581,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     color: var(--color-brand-brown-muted, #6b4f2e);
   }
   .fsn2-year-value {
-    font-family: var(--font-display);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-weight: 600;
     font-size: 1.6rem;
     color: var(--color-brand-rust);
@@ -622,9 +620,15 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
   }
   .fsn2-appraisal:hover { filter: brightness(1.08); transform: translateY(-1px); }
   .fsn2-appraisal:focus-visible { outline: 3px solid var(--color-brand-gold); outline-offset: 2px; }
-  .fsn2-appraisal-icon { font-size: 1.5rem; line-height: 1; }
-  .fsn2-appraisal-text { flex: 1; font-size: 0.9rem; line-height: 1.35; }
-  .fsn2-appraisal-text strong { display: block; font-family: var(--font-display); font-size: 1rem; color: #fff; }
+  /* Colour is set on the SPAN, not the <a>. A host page's link rule (the hub's
+     .fshub a) out-specifies the .fsn2-appraisal declaration and was painting
+     this line #a03a1e — the exact rust at the light end of its own gradient —
+     so it rendered invisible. A declaration on the element itself beats any
+     inherited value regardless of the ancestor rule's specificity.
+     #f2d9a0 is 4.88:1 on the rust end and 8.22:1 on the dark end (passes AA).
+     Brand gold #c8983a would only reach 2.57:1 and fail. */
+  .fsn2-appraisal-text { flex: 1; font-size: 0.9rem; line-height: 1.35; color: #f2d9a0; }
+  .fsn2-appraisal-text strong { display: block; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 1rem; color: #fff; }
   .fsn2-appraisal-arrow { font-size: 1.3rem; color: var(--color-brand-gold); }
 
   /* ── Email-me-this-report capture ─────────────────────────────────────── */
@@ -643,7 +647,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     border-radius: 10px;
   }
   .fsn2-emailcap-title {
-    font-family: var(--font-display);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-weight: 600;
     font-size: 0.95rem;
     color: var(--color-brand-brown);
@@ -667,7 +671,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     border-color: var(--color-brand-rust);
   }
   .fsn2-emailcap-btn {
-    font-family: var(--font-display);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-weight: 600;
     background: var(--color-brand-rust);
     color: #fff;
@@ -701,7 +705,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
     font-size: 0.92rem;
   }
   .fsn2-crossdate-title {
-    font-family: var(--font-display);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-weight: 600;
     font-size: 0.85rem;
     color: var(--color-brand-brown);

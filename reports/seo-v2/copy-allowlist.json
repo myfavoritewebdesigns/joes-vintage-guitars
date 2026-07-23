@@ -1,51 +1,265 @@
 {
   "_doc": "Adjudicated exceptions for scripts/check-copy.mjs. Each entry: { url, phrase, note }. url is the page route ('/free-appraisal/') or '*' for every page. phrase is compared case-insensitively against the exact matched text. Add entries only after a human judges the finding to be a real brand term, product name, or verbatim quoted material, and say why in note.",
   "entries": [
-    { "url": "/fender-guitars-serial-number-guide/", "phrase": "🔍", "note": "Live decoder tool UI marker; verified present on the live WP page 2026-06-10." },
-    { "url": "/fender-guitars-serial-number-guide/", "phrase": "🎸", "note": "Live decoder tool UI marker; verified present on live." },
-    { "url": "/fender-guitars-serial-number-guide/", "phrase": "⚠", "note": "Live decoder tool warning marker; verified present on live." },
-    { "url": "/fender-guitars-serial-number-guide/", "phrase": "📞", "note": "Live tool contact CTA marker; verified present on live." },
-    { "url": "/fender-guitars-serial-number-guide/", "phrase": "🏅", "note": "Live content section marker; verified present on live." },
-    { "url": "/fender-guitars-serial-number-guide/", "phrase": "🔗", "note": "Live content link marker; verified present on live." },
-    { "url": "/gretsch-serial-number-lookup/", "phrase": "💡", "note": "Live content tip marker; verified present on live." },
-    { "url": "/gretsch-serial-number-lookup/", "phrase": "⚠", "note": "Live decoder tool warning marker; verified present on live." },
-    { "url": "/how-to-read-gibson-serial-numbers/", "phrase": "💡", "note": "Live content marker; the live Gibson page carries the same emoji set, verified 2026-06-10." },
-    { "url": "/how-to-read-gibson-serial-numbers/", "phrase": "📖", "note": "Live content marker; verified present on live." },
-    { "url": "/how-to-read-gibson-serial-numbers/", "phrase": "✅", "note": "Live content marker; verified present on live." },
-    { "url": "/how-to-read-gibson-serial-numbers/", "phrase": "⚠", "note": "Live content marker; verified present on live." },
-    { "url": "/how-to-read-gibson-serial-numbers/", "phrase": "📋", "note": "Live content marker; verified present on live." },
-    { "url": "/how-to-read-gibson-serial-numbers/", "phrase": "🔍", "note": "Live content marker; verified present on live." },
-    { "url": "/post/1952-fender-precision-bass-guide/", "phrase": "©", "note": "Copyright sign in an image credit, standard typography. Unicode classes it Extended_Pictographic, so the emoji check false-positives on it. Verified on live. Candidate detector refinement for a later prompt: exempt © ® ™." },
-    { "url": "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/", "phrase": "📧", "note": "Live post contact-info marker; verified present on live." },
-    { "url": "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/", "phrase": "📱", "note": "Live post contact-info marker; verified present on live." },
-    { "url": "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/", "phrase": "📍", "note": "Live post contact-info marker; verified present on live." },
-    { "url": "/sell-a-guitar-collection/", "phrase": "📞", "note": "Live page contact marker; verified present on live." },
-    { "url": "/sell-a-guitar-collection/", "phrase": "📧", "note": "Live page contact marker; verified present on live." },
-    { "url": "/sell-my-national-guitar/", "phrase": "🥺", "note": "Verbatim customer review; reviews are never edited. Verified on live." },
-    { "url": "/sell-my-national-guitar/", "phrase": "😌", "note": "Verbatim customer review; verified on live." },
-    { "url": "/sell-my-national-guitar/", "phrase": "🙏", "note": "Verbatim customer review; verified on live." },
-    { "url": "/sell-my-national-guitar/", "phrase": "😇", "note": "Verbatim customer review; verified on live." },
-    { "url": "/sell-my-rickenbacker-guitar/", "phrase": "✊", "note": "Verbatim customer review; verified on live." },
-    { "url": "/sell-your-vintage-dangelico-guitar-in-the-us/", "phrase": "👍", "note": "Verbatim customer review; verified on live." },
-    { "url": "/", "phrase": "—", "note": "ClientStories customer-authored story text (Homer's hand-written history, Patti and Howard, Linda Gayle). Stories are quoted material and stay verbatim. Page-scoped em dash exception: every other em dash on the homepage is fixed, so a NEW one would be masked; revisit if homepage copy changes." },
-    { "url": "/", "phrase": "not only can't believe i'm typing this but", "note": "Verbatim Jessica Hammond Google review (Testimonials component)." },
-    { "url": "/", "phrase": "whether you're a musician or ", "note": "Verbatim Caleb King Google review (Testimonials component)." },
-    { "url": "/", "phrase": "whether you're a musician or", "note": "Same Caleb King review; variant without trailing space in case of report trimming." },
-    { "url": "/sell-my-fender-guitar/", "phrase": "not only can't believe i'm typing this but", "note": "Same Jessica Hammond review, from reference/testimonials.json." },
-    { "url": "/sell-my-fender-guitar/", "phrase": "whether you're a musician or ", "note": "Same Caleb King review." },
-    { "url": "/sell-my-fender-guitar/", "phrase": "whether you're a musician or", "note": "Same Caleb King review; no-trailing-space variant." },
-    { "url": "/sell-my-gibson-guitar/", "phrase": "not only can't believe i'm typing this but", "note": "Same Jessica Hammond review." },
-    { "url": "/sell-my-gibson-guitar/", "phrase": "whether you're a musician or ", "note": "Same Caleb King review." },
-    { "url": "/sell-my-gibson-guitar/", "phrase": "whether you're a musician or", "note": "Same Caleb King review; no-trailing-space variant." },
-    { "url": "/sell-a-guitar-collection/", "phrase": "–", "note": "En dash inside a verbatim customer review (collection testimonials). Page-scoped dash exception; all editable dashes on this page are fixed." },
-    { "url": "/sell-my-martin-guitar/", "phrase": "–", "note": "Three en dashes inside one verbatim customer review (martin testimonials). Page-scoped dash exception." },
-    { "url": "/sell-my-gretsch-guitar/", "phrase": "—", "note": "Em dash inside the verbatim Debra Parsons Google review. Page-scoped dash exception." },
-    { "url": "/how-to-read-gibson-serial-numbers/", "phrase": "–", "note": "En dashes render from reference/gsn-tool-html.html (decoder widget ported verbatim from live; reference/ is hands-off). Page-scoped dash exception; all editable dashes fixed." },
-    { "url": "/gretsch-serial-number-lookup/", "phrase": "—", "note": "Em dashes render from reference/grsn-tool-html.html (live-verbatim decoder widget copy). Page-scoped dash exception." },
-    { "url": "/rickenbacker-serial-numbers/", "phrase": "—", "note": "Em dashes in FAQ JSON-LD from reference/rsn-jsonld-page.json (ported verbatim from live; hands-off). Page-scoped dash exception." },
-    { "url": "/rickenbacker-serial-numbers/", "phrase": "–", "note": "En dashes in the same ported FAQ JSON-LD (pickup and hardware date ranges)." },
-    { "url": "/guild-serial-number-lookup/", "phrase": "–", "note": "En dash renders from reference/gsl-tool-html.html (live-verbatim decoder widget). Page-scoped dash exception." },
-    { "url": "/post/best-online-platforms-sell-vintage-guitars/", "phrase": "eBay", "note": "Brand trademark casing; capitalizing the e would corrupt the brand name. Title Case check false positive." },
-    { "url": "/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/", "phrase": "eBay", "note": "Same eBay brand-casing false positive (Selling on eBay heading)." }
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "🔍",
+      "note": "Live decoder tool UI marker; verified present on the live WP page 2026-06-10."
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "🎸",
+      "note": "Live decoder tool UI marker; verified present on live."
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "⚠",
+      "note": "Live decoder tool warning marker; verified present on live."
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "📞",
+      "note": "Live tool contact CTA marker; verified present on live."
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "🏅",
+      "note": "Live content section marker; verified present on live."
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "🔗",
+      "note": "Live content link marker; verified present on live."
+    },
+    {
+      "url": "/gretsch-serial-number-lookup/",
+      "phrase": "💡",
+      "note": "Live content tip marker; verified present on live."
+    },
+    {
+      "url": "/gretsch-serial-number-lookup/",
+      "phrase": "⚠",
+      "note": "Live decoder tool warning marker; verified present on live."
+    },
+    {
+      "url": "/how-to-read-gibson-serial-numbers/",
+      "phrase": "💡",
+      "note": "Live content marker; the live Gibson page carries the same emoji set, verified 2026-06-10."
+    },
+    {
+      "url": "/how-to-read-gibson-serial-numbers/",
+      "phrase": "📖",
+      "note": "Live content marker; verified present on live."
+    },
+    {
+      "url": "/how-to-read-gibson-serial-numbers/",
+      "phrase": "✅",
+      "note": "Live content marker; verified present on live."
+    },
+    {
+      "url": "/how-to-read-gibson-serial-numbers/",
+      "phrase": "⚠",
+      "note": "Live content marker; verified present on live."
+    },
+    {
+      "url": "/how-to-read-gibson-serial-numbers/",
+      "phrase": "📋",
+      "note": "Live content marker; verified present on live."
+    },
+    {
+      "url": "/how-to-read-gibson-serial-numbers/",
+      "phrase": "🔍",
+      "note": "Live content marker; verified present on live."
+    },
+    {
+      "url": "/post/1952-fender-precision-bass-guide/",
+      "phrase": "©",
+      "note": "Copyright sign in an image credit, standard typography. Unicode classes it Extended_Pictographic, so the emoji check false-positives on it. Verified on live. Candidate detector refinement for a later prompt: exempt © ® ™."
+    },
+    {
+      "url": "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+      "phrase": "📧",
+      "note": "Live post contact-info marker; verified present on live."
+    },
+    {
+      "url": "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+      "phrase": "📱",
+      "note": "Live post contact-info marker; verified present on live."
+    },
+    {
+      "url": "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+      "phrase": "📍",
+      "note": "Live post contact-info marker; verified present on live."
+    },
+    {
+      "url": "/sell-a-guitar-collection/",
+      "phrase": "📞",
+      "note": "Live page contact marker; verified present on live."
+    },
+    {
+      "url": "/sell-a-guitar-collection/",
+      "phrase": "📧",
+      "note": "Live page contact marker; verified present on live."
+    },
+    {
+      "url": "/sell-my-national-guitar/",
+      "phrase": "🥺",
+      "note": "Verbatim customer review; reviews are never edited. Verified on live."
+    },
+    {
+      "url": "/sell-my-national-guitar/",
+      "phrase": "😌",
+      "note": "Verbatim customer review; verified on live."
+    },
+    {
+      "url": "/sell-my-national-guitar/",
+      "phrase": "🙏",
+      "note": "Verbatim customer review; verified on live."
+    },
+    {
+      "url": "/sell-my-national-guitar/",
+      "phrase": "😇",
+      "note": "Verbatim customer review; verified on live."
+    },
+    {
+      "url": "/sell-my-rickenbacker-guitar/",
+      "phrase": "✊",
+      "note": "Verbatim customer review; verified on live."
+    },
+    {
+      "url": "/sell-your-vintage-dangelico-guitar-in-the-us/",
+      "phrase": "👍",
+      "note": "Verbatim customer review; verified on live."
+    },
+    {
+      "url": "/",
+      "phrase": "—",
+      "note": "ClientStories customer-authored story text (Homer's hand-written history, Patti and Howard, Linda Gayle). Stories are quoted material and stay verbatim. Page-scoped em dash exception: every other em dash on the homepage is fixed, so a NEW one would be masked; revisit if homepage copy changes."
+    },
+    {
+      "url": "/",
+      "phrase": "not only can't believe i'm typing this but",
+      "note": "Verbatim Jessica Hammond Google review (Testimonials component)."
+    },
+    {
+      "url": "/",
+      "phrase": "whether you're a musician or ",
+      "note": "Verbatim Caleb King Google review (Testimonials component)."
+    },
+    {
+      "url": "/",
+      "phrase": "whether you're a musician or",
+      "note": "Same Caleb King review; variant without trailing space in case of report trimming."
+    },
+    {
+      "url": "/sell-my-fender-guitar/",
+      "phrase": "not only can't believe i'm typing this but",
+      "note": "Same Jessica Hammond review, from reference/testimonials.json."
+    },
+    {
+      "url": "/sell-my-fender-guitar/",
+      "phrase": "whether you're a musician or ",
+      "note": "Same Caleb King review."
+    },
+    {
+      "url": "/sell-my-fender-guitar/",
+      "phrase": "whether you're a musician or",
+      "note": "Same Caleb King review; no-trailing-space variant."
+    },
+    {
+      "url": "/sell-my-gibson-guitar/",
+      "phrase": "not only can't believe i'm typing this but",
+      "note": "Same Jessica Hammond review."
+    },
+    {
+      "url": "/sell-my-gibson-guitar/",
+      "phrase": "whether you're a musician or ",
+      "note": "Same Caleb King review."
+    },
+    {
+      "url": "/sell-my-gibson-guitar/",
+      "phrase": "whether you're a musician or",
+      "note": "Same Caleb King review; no-trailing-space variant."
+    },
+    {
+      "url": "/sell-a-guitar-collection/",
+      "phrase": "–",
+      "note": "En dash inside a verbatim customer review (collection testimonials). Page-scoped dash exception; all editable dashes on this page are fixed."
+    },
+    {
+      "url": "/sell-my-martin-guitar/",
+      "phrase": "–",
+      "note": "Three en dashes inside one verbatim customer review (martin testimonials). Page-scoped dash exception."
+    },
+    {
+      "url": "/sell-my-gretsch-guitar/",
+      "phrase": "—",
+      "note": "Em dash inside the verbatim Debra Parsons Google review. Page-scoped dash exception."
+    },
+    {
+      "url": "/how-to-read-gibson-serial-numbers/",
+      "phrase": "–",
+      "note": "En dashes render from reference/gsn-tool-html.html (decoder widget ported verbatim from live; reference/ is hands-off). Page-scoped dash exception; all editable dashes fixed."
+    },
+    {
+      "url": "/gretsch-serial-number-lookup/",
+      "phrase": "—",
+      "note": "Em dashes render from reference/grsn-tool-html.html (live-verbatim decoder widget copy). Page-scoped dash exception."
+    },
+    {
+      "url": "/rickenbacker-serial-numbers/",
+      "phrase": "—",
+      "note": "Em dashes in FAQ JSON-LD from reference/rsn-jsonld-page.json (ported verbatim from live; hands-off). Page-scoped dash exception."
+    },
+    {
+      "url": "/rickenbacker-serial-numbers/",
+      "phrase": "–",
+      "note": "En dashes in the same ported FAQ JSON-LD (pickup and hardware date ranges)."
+    },
+    {
+      "url": "/guild-serial-number-lookup/",
+      "phrase": "–",
+      "note": "En dash renders from reference/gsl-tool-html.html (live-verbatim decoder widget). Page-scoped dash exception."
+    },
+    {
+      "url": "/post/best-online-platforms-sell-vintage-guitars/",
+      "phrase": "eBay",
+      "note": "Brand trademark casing; capitalizing the e would corrupt the brand name. Title Case check false positive."
+    },
+    {
+      "url": "/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/",
+      "phrase": "eBay",
+      "note": "Same eBay brand-casing false positive (Selling on eBay heading)."
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "🔍",
+      "note": "Tool UI marker, cross-dating prompt. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "🎸",
+      "note": "Tool UI marker. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "💰",
+      "note": "Tool UI marker, value prompt. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "⚠",
+      "note": "Tool warning marker, R-prefix and counterfeit notes. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "📩",
+      "note": "Tool UI marker, email-me-this-report CTA. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "phrase": "—",
+      "note": "Em dash inside the tool's email-report blurb. Fender serial tool v2 widget internals (FenderSerialTool.astro). Same markers already adjudicated for the live guide route; the v2 tool is now rendered on the condensed hub too. Tool result strings are under the parity contract with the original widget, so they must not be reworded."
+    }
   ]
 }

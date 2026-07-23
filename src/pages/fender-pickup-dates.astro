@@ -1,0 +1,549 @@
+---
+/**
+ * Fender pickup dates spoke, CONDENSED REBUILD.
+ *
+ * Hub-and-spoke method page behind the condensed Fender serial rebuild
+ * (see fender-guitars-serial-number-guide.astro). Deep-dives the pickup-date method the
+ * hub only summarizes, so the hub's "/fender-pickup-dates/" card resolves. The
+ * pot-codes and body-dates spokes already cross-link to this slug.
+ *
+ * Content and photos come from Joe's live serial page (the "Pickup Dates &
+ * Codes" section of /fender-guitars-serial-number-guide/): the date sits on the
+ * base of the pickup; two systems, a handwritten or stamped date pre-1969
+ * (rubber stamp in yellow ink around 1964 then black ink later, or penciled or
+ * inked by hand; month/year or just the year) and a 3 to 6 digit numeric stamp
+ * from 1969 whose last one or
+ * two digits are the year (1139 -> 1969, 161377 -> 1977). Pickup dates are less
+ * consistent than pot codes but corroborate them. The hero is Joe's clean shot
+ * of a 1966 Stratocaster pickguard underside, all three pickups dated on the
+ * base within a day of each other in November 1966 (1966-fender-stratocaster-
+ * pickup-dates.jpg, resized to 2560px). The three live-page example photos
+ * (fender-pickup-date-ink.jpg 9-8-65, fender-pickup-pencil-dates.jpg 1-27-66,
+ * fender-1970s-pickup-code.jpg 1140 = 1970) carry Joe's baked-in call-out
+ * annotations and are grouped in one examples gallery; Joe kept them as-is.
+ *
+ * A "How The Pickups Changed Over The Years" section expands the live page's
+ * "Pickup Specifications by Era" content: flat vs staggered poles by model
+ * (Tele flat to mid-1955; Jazzmaster always flat; Jaguar staggered ~1964),
+ * black-vs-grey bobbin/back color, and Strat Alnico 3 vs 5, with the Telecaster
+ * flat-pole transition photo (telecaster-pickup-transition.jpg, native 988px).
+ *
+ * No walkthrough video here: the lite-youtube clip the pot-codes and neck-dates
+ * spokes embed does not cover pickup dating.
+ *
+ * Pickup-date facts are not yet carried in VG_FACTS with VG-#### ids; flagged
+ * to log.
+ */
+import Layout from "../layouts/Layout.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
+import { contact, hrefs, SITE_URL } from "../config/site";
+
+const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
+const img = (file: string) => assetSrc("images/fender-sn/" + file);
+
+const PAGE_PATH = "/fender-pickup-dates/";
+const HUB_PATH = "/fender-guitars-serial-number-guide/";
+const HUB_HREF = HUB_PATH;
+
+// ---- Data ----
+const codeRows = [
+  ["1159", "Trailing 9", "1969"],
+  ["1139", "Trailing 9", "1969"],
+  ["1140", "Trailing 0", "1970"],
+  ["161377", "Trailing 77", "1977"],
+  ["171578", "Trailing 78", "1978"],
+  ["202378", "Trailing 78", "1978"],
+];
+const eraRows = [
+  ["1950 to early 1964", "No date at all", "Fender did not date pickups in this era"],
+  ["Early 1964", "A rubber stamp in yellow ink, month spelled out", "JAN 11 64, APR 11 64"],
+  ["Mid-1964 into the late 1960s", "Handwritten in pencil or marker, numbers only", "1-15-64, 12-6-65"],
+  ["About 1969 to 1979", "A black stamped code, three to six digits", "1139, 161377"],
+  ["1980 on", "No date. A one-piece black plastic bobbin carrying a part number", "016730"],
+];
+const featureRows = [
+  ["Telecaster poles", "Flush and even from 1950 until late 1955, when Fender raised the D and G poles together", "Flat poles mean either a pre-late-1955 Telecaster or a 1981 and later reissue"],
+  ["Stratocaster poles", "Staggered from 1954, flat from about 1974, with 1972 to 1974 mixed", "Flat poles on a claimed 1960s Strat are wrong"],
+  ["Jazzmaster poles", "Never staggered at the factory, sitting level or very slightly curved", "The cover has no pole holes, so this one needs the pickup lifted out", "/post/fender-jazzmaster-evolution-guide-1958-1971/"],
+  ["Jaguar poles", "Flat in 1962 and 1963, staggered from 1964, settled by 1965", "The 1963 to 1964 window is genuinely mixed, so a flat-pole 1964 is not wrong on its own", "/post/vintage-fender-jaguar-guide/"],
+  ["Bobbin color", "Black from 1950, light grey from March 1964, darker grey from about 1968, then black again through 1973 and 1974", "Grey on a claimed 1950s pickup is a red flag. Black on its own proves nothing"],
+  ["Coil wire color", "Formvar, a golden orange, until 1964. Plain enamel, a dark burgundy, from 1964 on", "Readable at the edge of the coil without taking anything apart"],
+  ["Magnet tops", "Sand cast, rough and pitted early on, smoother and squarer from the mid-1960s. The bevelled top edge on the staggered poles runs until the flat-pole change around 1974", "A crisp, clean, unbevelled magnet on a claimed 1950s pickup is wrong"],
+  ["Lead wire", "Cloth covered pushback until about 1967, plastic from about 1968", "Cloth leads run well into 1968, so a cloth-lead 1968 pickup is fine"],
+  ["Potting", "Dipped in hot wax early on, lacquered from the late 1960s, back to wax in late 1981", "A hard, shiny, lacquer-set coil on a claimed 1950s pickup is wrong"],
+];
+
+const tocItems: [string, string][] = [
+  ["#what", "What A Pickup Date Is"],
+  ["#find", "Where To Find It"],
+  ["#pencil", "Handwritten And Stamped Dates"],
+  ["#codes", "Numeric Codes"],
+  ["#features", "How The Pickups Changed"],
+  ["#golden", "The Golden Rule"],
+  ["#limits", "What It Can't Prove"],
+  ["#cross", "Cross-Check The Date"],
+  ["#faq", "Common Questions"],
+  ["#appraisal", "Free Expert Appraisal"],
+  ["#about-joe", "About Joe"],
+];
+
+const faqs = [
+  {
+    q: "Do I Have To Take The Pickups Out To Read The Date?",
+    a: "Yes. The date is on the base of the pickup, the flat bottom, so the pickup has to come out to see it. That means pulling the pickguard or the control plate the pickup hangs from and lifting the pickup clear. The coil is wound with hair-thin wire and the cloth leads go brittle with age, so go slow. If you aren't comfortable doing that, don't force it. Get in touch and I'll help, or bring the guitar by and I'll read it for you.",
+  },
+  {
+    q: "My Pickup Has No Date. Does That Mean It Isn't Original?",
+    a: "Not on its own. Pickup dating was never as consistent as the pot codes, so plenty of original pickups never got a clear date, and a faint pencil mark can be almost impossible to read. A rewind can also wipe the old date off. Treat a missing date as no information, not as proof of anything, and lean on the pot codes and the neck date instead.",
+  },
+  {
+    q: "My Pickup Date Is Older Than My Serial Number. Is That A Problem?",
+    a: "Usually not. Like a pot, a pickup was made on or before the day the guitar was assembled, so a pickup dated a little earlier than the build is exactly right. A pickup dated well after the rest of the guitar is the red flag, because that points to a replacement or a rewind.",
+  },
+  {
+    q: "One Of My Pickups Reads A Different Date. What Does That Mean?",
+    a: "On a two or three pickup guitar the pickups should date within a few months of each other. When one sits well off from the others, that odd one out is usually a replacement or a rewind, not the build date. Majority rules, the same way it does with the pot codes.",
+  },
+  {
+    q: "Does A Pickup Date Prove My Guitar Is All Original?",
+    a: "No. It dates that pickup. Originality is a whole-guitar judgment that weighs the pot codes, the neck date, the body date, the hardware, and the finish together. Send me three photos and I'll give you the real story for free.",
+  },
+];
+
+// ---- Schema ----
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "How To Read Fender Pickup Date Codes And Date Your Guitar",
+  description:
+    "Read the pencil, ink, or numeric date on the base of your Fender's pickups to date the guitar, then cross-check it against the pot codes. A step-by-step pickup dating guide from a vintage Fender appraiser.",
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+  image: `${SITE_URL}${img("1966-fender-stratocaster-pickup-dates.jpg")}`,
+  datePublished: "2026-07-23",
+  dateModified: "2026-07-23",
+  inLanguage: "en-US",
+  mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
+  isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+    { "@type": "ListItem", position: 2, name: "Fender Serial Number Guide", item: `${SITE_URL}${HUB_PATH}` },
+    { "@type": "ListItem", position: 3, name: "Fender Pickup Dates", item: `${SITE_URL}${PAGE_PATH}` },
+  ],
+};
+---
+
+<Layout
+  title="How To Read Fender Pickup Date Codes: A Dating Guide"
+  description="Read the pencil, ink, or numeric date on the base of your Fender's pickups to date the guitar. A step-by-step pickup dating guide from a vintage Fender appraiser."
+  canonical={PAGE_PATH}
+  ogImage={`${SITE_URL}${img("1966-fender-stratocaster-pickup-dates.jpg")}`}
+  {...ogCardSize("images/fender-sn/1966-fender-stratocaster-pickup-dates.jpg")}
+  ogImageAlt="The underside of a 1966 Fender Stratocaster pickguard with all three pickups dated November 1966 on the base"
+  ogType="article"
+  noIndex={false}
+  structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
+>
+  <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
+  <div class="fspot-header-backdrop" aria-hidden="true">
+    <div class="fspot-header-backdrop__dark"></div>
+    <div class="fspot-header-backdrop__cream"></div>
+  </div>
+
+
+  <div class="fspot">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="measure stack">
+        <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
+        <span class="eyebrow">Fender Dating Methods</span>
+        <h1>Fender Pickup Dates: How To Date A Fender By Its Pickups</h1>
+        <p class="lead">Before 1964, Fender did not date its pickups at all. From then on it did, in three different ways across about fifteen years, and working out which method you are looking at narrows the era before you decode a single digit.</p>
+        <div class="trust">
+          <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
+        </div>
+        <figure class="sfig herofig">
+          <LicensedImage src={meta("1966-fender-stratocaster-pickup-dates.jpg")} alt="The underside of a 1966 Fender Stratocaster pickguard, its three pickups each dated on the base in November 1966" width={1600} loading="eager" />
+          <figcaption>The underside of a 1966 Stratocaster pickguard. This set happens to carry a date on all three pickups, within a day of each other in November 1966. How many pickups get a date varies from guitar to guitar, sometimes one, sometimes some, sometimes all, and any of those is right on an original set.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- SAFETY WARNING (top of page) -->
+    <section class="pt0" aria-label="Safety warning">
+      <div class="measure">
+        <div class="warnbox" role="note">
+          <span class="warnbox__head"><svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>Read This First</span>
+          <p>Do not take a vintage instrument apart unless you have done it before. Vintage screws, plastics, and finishes strip and crack easily, pickup coils are wound with hair-thin wire, and one slip can cost far more than the answer. If you have not done this before, contact me first and I'll help.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- WHAT -->
+    <section id="what">
+      <div class="measure stack">
+        <span class="eyebrow">Start Here</span>
+        <h2>What A Pickup Date Is</h2>
+        <p>The pickup date is a date the winder wrote or stamped on the base of the pickup, the flat underside the coil is built on. It records when that pickup was made, so it works like the pot codes: another dated part that helps pin down when the guitar came together.</p>
+        <p>The catch is consistency. Pickup dating was never as regular as the pot codes, so some original pickups carry a clear date and others carry a faint one or none at all. When a date is there and readable, it's strong corroborating evidence. Like every other part, it dates the pickup, not the whole guitar.</p>
+        <p>This guide covers Fender single-coil guitar pickups, and the same base date works on Fender bass pickups too: the Precision and Jazz Bass pickups read the same way. The one thing that does not follow this story is the 1970s Fender Wide Range humbucker on the Telecaster Deluxe, Custom, and Thinline. It is built differently and does not carry the single-coil bobbin and code marks.</p>
+      </div>
+    </section>
+
+    <!-- FIND -->
+    <section id="find" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Before You Start</span>
+        <h2>Where To Find The Pickup Date</h2>
+        <p>The date is on the base of the pickup, the flat bottom, so you have to lift the pickup out to see it. On a Stratocaster the pickups hang from the pickguard; on a Telecaster the bridge pickup sits in the bridge plate and the neck pickup under its cover. Take off whichever one holds the pickup, then ease the pickup up far enough to read the bottom.</p>
+        <p>Go gently. The coil is wound with wire finer than a hair, and the cloth-covered leads get stiff and brittle with age, so they snap if you tug them. If you aren't comfortable getting a pickup out, don't force it. Get in touch before you take anything apart and I'll help, or read the date for you if you bring the guitar by.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- PENCIL & INK (pre-1969) -->
+    <section id="pencil">
+      <div class="measure stack">
+        <span class="eyebrow">Before 1969</span>
+        <h2>Handwritten And Stamped Dates</h2>
+        <p>Start with the thing that surprises people: <b>Fender did not date pickups at all before 1964.</b> Not in 1954, not in 1959, not in 1963. The practice begins in early 1964 and not a day sooner, which turns the usual logic on its head. An undated pickup in a 1950s Fender is exactly what should be there. A date on a pickup in a guitar sold to you as a 1957 is a reason to slow down, not a reassurance.</p>
+        <p>From 1964 on, the marking method changes every few years, and knowing which method belongs to which era is half the work:</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th scope="col">Years</th><th scope="col">How the date was applied</th><th scope="col">What you'll see</th></tr></thead>
+          <tbody>{eraRows.map((r) => (<tr><td data-label="Years" class="yr">{r[0]}</td><td data-label="How the date was applied">{r[1]}</td><td data-label="What you'll see" class="code">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <p>The handwritten and stamped dates read straight off with no code to crack, so 9-8-65 is September 8, 1965. Sometimes the winder's initials sit beside the date.</p>
+        <div class="tip">
+          <p><b>Don't expect every pickup to be dated.</b> On a three-pickup Stratocaster the number that carry a date varies, sometimes one, sometimes all three, with no rule about which, so any of those can be original. Telecaster neck pickups usually have no date at all, because the base is too narrow with the magnets coming through. A blank pickup next to a dated one is normal, and an undated Tele neck pickup is not evidence of a replacement.</p>
+        </div>
+        <p>The other trouble is reading it at all. These marks are small, they sit on a dark fiber base, and decades of grime and handling wear them down, so a real date can be faint to the point of almost gone. A raking-light photo you can zoom into beats squinting at it in the guitar.</p>
+        <div class="figrow gallery">
+          <figure class="sfig"><LicensedImage src={meta("fender-pickup-pencil-dates.jpg")} alt="A faint pencil date reading 1-27-66 on the base of a vintage Fender pickup" width={1200} /><figcaption>A penciled pickup base, 1-27-66 for January 27, 1966. Penciled dates are often faint and hard to make out.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-pickup-date-ink.jpg")} alt="The base of a vintage Fender single-coil pickup, an inked date reading 9-8-65 for September 8, 1965" width={1280} /><figcaption>An inked date on a 1960s pickup base, 9-8-65 for September 8, 1965.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUMERIC CODES (post-1969) -->
+    <section id="codes" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">1969 And After</span>
+        <h2>Numeric Codes</h2>
+        <p>Starting in 1969, Fender moved to a stamped numeric code on the base, three to six digits. You read the year off the end: the last one or two digits are the last one or two digits of the year.</p>
+        <div class="tablewrap compact"><table>
+          <thead><tr><th scope="col">Stamp code</th><th scope="col">The year digits</th><th scope="col">Year</th></tr></thead>
+          <tbody>{codeRows.map((r) => (<tr><td data-label="Stamp code" class="code">{r[0]}</td><td data-label="The year digits">{r[1]}</td><td data-label="Year" class="yr">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <p class="secintro">So a base stamped 1140 dates to 1970, and 161377 dates to 1977. The year is always at the tail end.</p>
+        <p>Resist the urge to decode the leading digits. They carry a week number and an operator number, because every winder on the line had a number of her own, but the order those two sit in is genuinely disputed. Abigail Ybarra, who wound Fender pickups from the late 1950s, remembered the formula as week, then operator, then year. Other published readings put the operator first. Her own caveat settles why nobody can pin it down: the formula changed from time to time. Read the year off the end, and leave the rest alone.</p>
+        <p>Dating also stops here. From 1980 Fender moved to a one-piece black plastic bobbin that carries a part number, 016730, and no date at all. If your pickup has a moulded plastic body rather than two fiber plates, there is no date to find.</p>
+        <div class="tip">
+          <p><b>Watch the decade on a single digit.</b> When the code ends in just one year digit, it names the year within a decade but not which decade, so a trailing 0 could read 1970 or 1980. The rest of the guitar settles it. Line the pickup year up with the pot codes and the neck date before you commit to a decade.</p>
+        </div>
+        <p class="secintro">Here's a 1970s numeric code on a real pickup base, the year stamped at the tail end:</p>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("fender-1970s-pickup-code.jpg")} alt="The base of a 1970s Fender pickup stamped with the numeric code 1140" width={1280} /><figcaption>A 1970s pickup stamped 1140. The final digit, 0, dates it to 1970.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- FEATURES BY ERA -->
+    <section id="features">
+      <div class="measure stack">
+        <span class="eyebrow">Beyond The Date</span>
+        <h2>How The Pickups Changed Over The Years</h2>
+        <p>A pickup that's lost its date isn't a dead end. Fender changed how the pickups were built as the years went on, and those changes narrow the era on their own. The pole pieces, the bobbin color, and the magnets all shifted at known points, so the pickup's own build backs up the date, or stands in for it when the date is gone. The earliest Stratocaster pickups used Alnico 3 magnets, with Alnico 5 becoming the standard.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th scope="col">Feature</th><th scope="col">What to look for</th><th scope="col">What it tells you</th></tr></thead>
+          <tbody>{featureRows.map((r) => (<tr><td data-label="Feature">{r[3] ? (<a class="spoke" href={r[3]}>{r[0]}</a>) : r[0]}</td><td data-label="What to look for">{r[1]}</td><td data-label="What it tells you">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("telecaster-pickup-transition.jpg")} alt="An early Fender Telecaster bridge pickup with flat, even pole pieces on a brass-saddle bridge" width={960} /><figcaption>An early Telecaster bridge pickup with flat, even pole pieces. Fender raised the D and G poles in late 1955, so a flat set like this points to an earlier build.</figcaption></figure>
+        </div>
+        <div class="tip">
+          <p><b>Look at the D and the G together.</b> On a genuine staggered set it's those two poles that stand proud of the other four, not the D on its own. Fender raised them because the third string was still wound in the 1950s and the pair needed balancing against it. If only one pole is high, or the stagger sits on different strings, you're looking at a replacement or a reproduction.</p>
+        </div>
+
+        <h3 id="coilwire">The Color Of The Coil Wire</h3>
+        <p>This is the single most useful thing on an undated pickup, and you can see it without taking anything apart. Look at the outside edge of the coil, through the gaps in the string that holds it.</p>
+        <p>Until 1964 Fender wound with Formvar-insulated wire, which reads <b>golden orange, a warm copper color</b>. In 1964 it changed to plain enamel, which reads <b>dark burgundy, almost purple</b>. That was a plant-wide change hitting every model at once, which is exactly what makes it useful: it splits pre-1964 from post-1964 on any Fender single coil you pick up.</p>
+        <p>Two cautions. Plenty of people have this backwards and will tell you Formvar is the purple one, so check the guitar rather than the forum post. And the earliest Telecaster bridge pickups from 1950 and 1951 used plain enamel before Fender moved to Formvar, so on a Tele a burgundy coil does not automatically mean post-1964.</p>
+        <p>What the color proves is an era, not originality. Modern replacement wire is sold tinted to imitate both, so a rewind can look perfectly right. Read it next to the bobbin color: golden wire on a grey bobbin, or burgundy wire on black, is a contradiction worth chasing. The bobbin color changed plant-wide the same way, so it confirms an era rather than pinning an exact year.</p>
+
+        <h3 id="handwound">Hand-Wound Is The Wrong Word</h3>
+        <p>You'll see vintage Fender pickups described as hand-wound. They weren't, not in the way that phrase suggests. A machine turned the bobbin and a person guided the wire onto it by hand, which is why the winding looks irregular compared to a modern pickup. Winding a coil entirely by hand would take about a week. From 1965 the guiding was automated too.</p>
+        <p>Worth knowing because of what people build on it. Nobody has ever demonstrated hearing the difference between a hand-guided and a machine-guided coil, and the operators were tracked by number rather than name, so a vintage pickup will not tell you who wound it. The signed pickups that carry a premium are Fender Custom Shop items from the late 1980s onward, a modern product with a modern signing convention. That premium does not travel backwards onto a 1962 pickup.</p>
+
+        <div class="tip">
+          <p><b>A resistance reading dates nothing.</b> People put meters on vintage pickups and try to work backwards to a year. It cannot be done. Fender wound to a target output on a meter with roughly a twenty percent tolerance, not to a turn count, so two pickups off the same bench on the same day can read noticeably differently. The spread between decades is smaller than the spread within a single year. Use resistance to check a pickup is plausibly a Fender single coil at all, then put the meter away.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- GOLDEN RULE -->
+    <section id="golden">
+      <div class="measure stack">
+        <span class="eyebrow">The One Rule That Matters</span>
+        <h2>The Pickup Date Dates The Pickup</h2>
+        <p>Here's the rule every appraiser works by. A pickup date tells you when that pickup was made, which is the earliest the guitar could have been built, never the exact day. Fender wound pickups in batches and pulled them from a bin, so a pickup can predate the finished guitar by weeks or months. On an original Fender the pickup date, the pot codes, and the neck date all sit within a few months of each other.</p>
+        <p>Pickups are also the part most likely to have been changed, because a dead coil gets rewound and a hot original gets swapped out and sold. So a pickup date is at its strongest next to the others. When it lines up with the pot codes and the neck date, it confirms the story. When it sits years off, it's telling you that pickup has been replaced or rewound, not that the guitar is the wrong year.</p>
+      </div>
+    </section>
+
+    <!-- LIMITS -->
+    <section id="limits" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Keep It Honest</span>
+        <h2>What A Pickup Date Can't Prove</h2>
+        <p>A pickup date dates the pickup and nothing else, and it's the least consistent of the dated parts, so treat it as corroboration rather than proof. A missing or unreadable date is common on a completely original pickup, and a rewind can erase the mark entirely, so absence tells you little on its own.</p>
+        <p>A correct pickup date also doesn't prove a guitar is all original. That's a whole-instrument call that weighs the pot codes, the neck date, the body date, the hardware, and the finish together. Read the pickup date as one more input, then line it up with everything else.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- CROSS-CHECK -->
+    <section id="cross">
+      <div class="measure stack">
+        <span class="eyebrow">Put It All Together</span>
+        <h2>Cross-Check With The Other Methods</h2>
+        <p>The pickup date is strongest next to the other clues. Pair it with the <a class="spoke" href="/fender-pot-codes/">pot codes</a>, the other dated electronics under the pickguard, then confirm with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> and the <a class="spoke" href="/fender-body-dates/">body date</a>. Line all of that up with the <a class="spoke" href="/fender-physical-features/">physical features that changed year to year</a>. When the pickup date, the pot codes, and the neck date all agree, you have a build date you can stand behind.</p>
+        <p class="note-sm">This guide is one of the dating methods behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Expert Questions</span>
+        <h2>Common Questions About Fender Pickup Dates</h2>
+        <div class="faqs">
+          {faqs.map((f) => (
+            <details class="faq">
+              <summary>{f.q}</summary>
+              <div class="faqbody"><p>{f.a}</p></div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- APPRAISAL -->
+    <section>
+      <div class="measure">
+        <div class="appraise" id="appraisal">
+          <span class="eyebrow">Free Expert Appraisal</span>
+          <h2>Not Sure What Your Pickups Are Telling You?</h2>
+          <p>A pickup date can be faint, and a rewound or swapped pickup can throw off the whole read. If you want a definite build date, send Joe three clear photos, the front, the back, and the base of a pickup, for a free, expert appraisal within 24 hours.</p>
+          <p>Once you have the year, see what the guitar is worth in the <a class="spoke" href="/vintage-fender-stratocaster-value-guide/">Stratocaster value guide</a> or the <a class="spoke" href="/vintage-fender-telecaster-value-guide/">Telecaster value guide</a>, or read how to <a class="spoke" href="/sell-my-fender-guitar/">sell your vintage Fender</a> when you're ready to move it.</p>
+          <div class="row">
+            <a class="call" href={hrefs.tel}>Call Or Text Joe: {contact.phone}</a>
+            <a class="send" href="/free-appraisal/">Or Send Photos Online</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIO -->
+    <section class="pt0">
+      <div class="measure"><div class="bio" id="about-joe">
+        <LicensedImage src={meta("about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars, holding a vintage guitar" width={150} />
+        <div>
+          <div class="who"><a href="/about-me/">Joe Dampt</a></div>
+          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ five-star reviews</div>
+          <p class="biotext">Joe Dampt is the owner of Joe's Vintage Guitars in Mesa, Arizona, where he's spent more than twelve years buying, appraising, and authenticating vintage instruments full-time. He's personally valued over 10,000 guitars for sellers in all 50 states, served as a traveling appraiser for the Treasure Seekers Roadshow, and sourced instruments for Grammy Award-winning artists. Every method on this page comes from that bench work.</p>
+        </div>
+      </div></div>
+    </section>
+  </div>
+
+  <!-- Floating TOC (sidebar + mobile FAB + sheet), matches the hub pattern -->
+  <aside class="fspot-toc" id="fspot-toc" aria-label="Table of contents">
+    <p class="fspot-toc__label">On This Page</p>
+    <ul class="fspot-toc__list">
+      {tocItems.map(([href, label]) => (<li><a href={href}>{label}</a></li>))}
+    </ul>
+  </aside>
+  <button class="fspot-toc-fab" id="fspot-toc-fab" type="button" aria-expanded="false" aria-controls="fspot-toc-sheet"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>Jump To A Section</button>
+  <div class="fspot-toc-sheet" id="fspot-toc-sheet" role="dialog" aria-label="Jump to a section" aria-modal="false">
+    <div class="fspot-toc-sheet__head"><span>Jump To A Section</span><button class="fspot-toc-sheet__close" id="fspot-toc-sheet-close" type="button" aria-label="Close section list">&times;</button></div>
+    <div class="fspot-toc-sheet__body" id="fspot-toc-sheet-body"></div>
+  </div>
+</Layout>
+
+<style>
+  .fspot-header-backdrop{position:relative;isolation:isolate;z-index:0;}
+  .fspot-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
+  .fspot-header-backdrop__cream{background:#fff;height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}
+
+  .fspot{
+    --paper:#f5efe3; --panel:#ffffff; --panel-2:#f3ead6; --inset:#fffdf8;
+    --ink:var(--color-brand-brown,#3e2a14); --ink-strong:var(--color-brand-brown,#3e2a14);
+    --muted:var(--color-brand-brown-muted,#7a6a54); --line:#ddd0b6;
+    --gold:var(--color-brand-gold,#c8983a); --gold-deep:#8c6a24;
+    --rust:var(--color-brand-rust,#a03a1e); --rust-bright:var(--color-brand-rust-bright,#be4b25);
+    --amber:#f3e3c2; --amber-line:#e3c88a; --darkbrown:#3a2a18; --darkbrown-2:#4a3520;
+    --shadow:0 1px 2px rgba(58,40,23,.06), 0 10px 30px rgba(58,40,23,.08);
+    --fd:var(--font-display), "Oswald", system-ui, sans-serif;
+    --fm:ui-monospace,"SF Mono",Consolas,"Liberation Mono",monospace;
+    --measure:min(92vw,820px);
+    background:var(--paper); color:var(--ink); font-size:17px; line-height:1.6;
+    padding-bottom:1rem;
+  }
+  .fspot [id]{scroll-margin-top:90px;}
+  .fspot h1,.fspot h2,.fspot h3{font-family:var(--fd);font-weight:600;line-height:1.12;margin:0;color:var(--ink-strong);text-wrap:balance;}
+  .fspot h3{font-size:clamp(1.21rem,2.1vw,1.34rem);letter-spacing:.015em;margin-top:.8rem;color:var(--rust);}
+  .fspot h1{font-size:clamp(2rem,4.6vw,2.9rem);letter-spacing:.005em;text-transform:uppercase;}
+  .fspot h2{font-size:clamp(1.5rem,3.1vw,2rem);letter-spacing:.01em;}
+  .fspot p{margin:0;}
+  .fspot a{color:var(--gold-deep);text-underline-offset:2px;}
+  .fspot a:hover{color:var(--rust);}
+  .fspot .measure{width:var(--measure);margin-inline:auto;}
+  .fspot section{padding-block:clamp(1.7rem,4vw,2.6rem);}
+  .fspot .pt0{padding-top:0;}
+  .fspot .rule{height:1px;background:var(--line);width:min(94vw,1080px);margin-inline:auto;}
+  .fspot .stack{display:flex;flex-direction:column;gap:1rem;}
+  .fspot .note-sm{font-size:.95rem;color:var(--muted);}
+  .fspot .eyebrow{font-family:var(--fd);font-weight:600;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);display:inline-flex;align-items:center;gap:.6em;}
+  .fspot .eyebrow::before{content:"";width:24px;height:3px;background:var(--gold);}
+  .fspot a.spoke{color:var(--gold-deep);text-decoration:none;border-bottom:1.5px dotted var(--gold);font-weight:600;}
+  .fspot a.spoke:hover{color:var(--rust);border-bottom-color:var(--rust);}
+  .fspot a.back{position:relative;z-index:31;font-family:var(--fd);font-weight:600;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--rust);text-decoration:none;display:inline-flex;align-items:center;gap:.4rem;}
+  .fspot a.back::before{content:"\2190";font-size:1rem;}
+  .fspot a.back:hover{color:var(--rust-bright);}
+
+  .fspot .hero{padding-top:clamp(1.6rem,4vw,2.6rem);padding-bottom:1.4rem;}
+  .fspot .lead{font-size:1.16rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .trust{display:flex;flex-wrap:wrap;gap:.4rem .9rem;font-family:var(--fm);font-size:.76rem;color:var(--muted);}
+  .fspot .trust span{display:inline-flex;align-items:center;gap:.45rem;}
+  .fspot .trust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--rust);}
+
+  .fspot .secintro{font-size:.97rem;max-width:70ch;color:var(--ink);}
+  .fspot .secintro b{color:var(--ink-strong);}
+
+  .fspot .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);}
+  .fspot table{border-collapse:collapse;width:100%;min-width:520px;background:var(--panel);}
+  .fspot .tablewrap.compact table{min-width:0;}
+  .fspot th,.fspot td{text-align:left;padding:.6rem 1rem;border-bottom:1px solid var(--line);vertical-align:top;font-size:.94rem;}
+  .fspot thead th{font-family:var(--fm);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);background:var(--panel-2);}
+  .fspot tbody tr:last-child td{border-bottom:0;}
+  .fspot tbody tr:nth-child(even){background:color-mix(in srgb,var(--panel-2) 45%,transparent);}
+  .fspot .code{font-family:var(--fm);font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap;}
+  .fspot .yr{font-family:var(--fm);color:var(--rust);font-weight:600;}
+
+  .fspot .figrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
+  .fspot .figrow.single{grid-template-columns:minmax(230px,680px);margin-inline:auto;}
+  .fspot .figrow.single.portrait{grid-template-columns:minmax(230px,500px);}
+  .fspot .figrow.gallery{grid-template-columns:1fr;gap:1.4rem;max-width:680px;margin-inline:auto;}
+  .fspot figure.sfig{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow);}
+  .fspot figure.sfig img{display:block;width:100%;height:auto;background:var(--panel-2);}
+  .fspot figure.sfig figcaption{padding:.55rem .8rem;font-family:var(--fm);font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);}
+  .fspot .herofig{margin-top:.3rem;}
+  .fspot .herofig figcaption{font-size:.82rem;color:var(--ink);}
+
+  .fspot .tip{background:linear-gradient(135deg,var(--darkbrown-2),var(--darkbrown));color:#f0e1c1;border-radius:10px;padding:1rem 1.15rem;font-size:.95rem;}
+  .fspot .tip::before{content:"JOE'S TIP";display:block;font-family:var(--fd);font-weight:600;letter-spacing:.14em;color:var(--gold);font-size:.78rem;margin-bottom:.4rem;}
+  .fspot .tip b{color:#e0be79;}
+  .fspot .warnbox{background:#fbe9e6;border:1px solid #e4a99d;border-left:6px solid var(--rust);border-radius:10px;padding:1rem 1.2rem;box-shadow:var(--shadow);}
+  .fspot .warnbox__head{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--fd);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--rust);font-size:.85rem;margin-bottom:.4rem;}
+  .fspot .warnbox__head svg{flex:0 0 auto;}
+  .fspot .warnbox p{margin:0;color:var(--ink);font-size:.97rem;}
+
+  .fspot .faqs{display:flex;flex-direction:column;gap:.6rem;}
+  .fspot details.faq{border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden;box-shadow:var(--shadow);}
+  .fspot details.faq>summary{cursor:pointer;list-style:none;padding:.85rem 1.05rem;font-family:var(--fd);font-weight:600;font-size:1rem;color:var(--ink-strong);display:flex;justify-content:space-between;align-items:center;gap:.8rem;}
+  .fspot details.faq>summary::-webkit-details-marker{display:none;}
+  .fspot details.faq>summary::after{content:"+";font-family:var(--fm);font-size:1.2rem;color:var(--rust);flex:0 0 auto;}
+  .fspot details.faq[open]>summary::after{content:"\2212";}
+  .fspot details.faq .faqbody{padding:0 1.05rem 1rem;font-size:.96rem;color:var(--muted);}
+
+  .fspot .appraise{background:var(--amber);border:1px solid var(--amber-line);border-left:5px solid var(--rust);border-radius:12px;padding:clamp(1.4rem,3.5vw,2rem);box-shadow:var(--shadow);}
+  .fspot .appraise h2{margin-bottom:.5rem;}
+  .fspot .appraise p{color:var(--ink);font-size:1.02rem;}
+  .fspot .appraise .row{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.1rem;align-items:center;}
+  .fspot .appraise .call{font-family:var(--fd);font-weight:700;font-size:1.15rem;letter-spacing:.02em;color:#fff;background:var(--rust);text-decoration:none;padding:.7rem 1.3rem;border-radius:8px;}
+  .fspot .appraise .call:hover{background:var(--rust-bright);}
+  .fspot .appraise .send{font-family:var(--fd);font-weight:600;text-transform:uppercase;font-size:.86rem;letter-spacing:.04em;color:var(--rust);text-decoration:none;border-bottom:2px solid var(--gold);}
+
+  .fspot .bio{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.3rem;background:var(--panel);}
+  .fspot .bio img{flex:0 0 auto;width:76px;height:76px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);}
+  .fspot .bio .who{font-family:var(--fd);font-weight:600;font-size:1.2rem;text-transform:uppercase;letter-spacing:.02em;}
+  .fspot .bio .who a{color:var(--ink-strong);text-decoration:none;border-bottom:2px solid var(--gold);}
+  .fspot .bio .cred{font-family:var(--fm);font-size:.72rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .bio .biotext{margin-top:.55rem;font-size:.95rem;color:var(--muted);}
+
+  /* mobile card tables */
+  @media (max-width:719px){
+    .fspot .tablewrap{overflow:visible;border:0;border-radius:0;box-shadow:none;}
+    .fspot .tablewrap table{min-width:0;width:100%;display:block;background:transparent;}
+    .fspot .tablewrap thead{display:none;}
+    .fspot .tablewrap tbody{display:grid;grid-template-columns:1fr;gap:.65rem;}
+    .fspot .tablewrap tr{display:block;border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:.7rem .85rem;box-shadow:var(--shadow);}
+    .fspot .tablewrap tbody tr:nth-child(even){background:var(--panel);}
+    .fspot .tablewrap td{display:block;border:0;padding:.25rem 0;font-size:.95rem;}
+    .fspot .tablewrap td::before{content:attr(data-label);display:block;font-family:var(--fm);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.1rem;}
+    .fspot .tablewrap .code,.fspot .tablewrap .yr{white-space:normal;}
+  }
+
+  /* floating TOC */
+  .fspot-toc{display:none;z-index:25;background:#fff;border:1px solid var(--color-brand-brown-tan,#d2b48c);border-radius:10px;width:260px;max-height:calc(100vh - 160px);padding:16px 18px;position:fixed;top:120px;right:24px;overflow-y:auto;box-shadow:0 2px 12px rgba(0,0,0,.08);}
+  @media (min-width:1440px){.fspot-toc{display:block;}}
+  .fspot-toc__label{font-family:var(--font-display),sans-serif;text-transform:uppercase;letter-spacing:.13em;color:var(--color-brand-brown,#3e2a14);border-bottom:1px solid #a03a1e2e;margin:0 0 10px;padding-bottom:8px;font-size:12px;font-weight:700;}
+  .fspot-toc__list{margin:0;padding:0;font-size:12.5px;line-height:1.4;list-style:none;}
+  .fspot-toc__list li{margin:0;}
+  .fspot-toc__list a{color:var(--color-brand-brown-muted,#6c5238);border-radius:4px;padding:5px 6px;text-decoration:none;display:block;}
+  .fspot-toc__list a:hover{background:var(--color-brand-cream-warm,#f5ead4);color:var(--color-brand-rust,#a03a1e);}
+  .fspot-toc-fab{display:none;}
+  .fspot-toc-sheet{display:none;}
+  @media (max-width:1439.98px){
+    .fspot-toc-fab{z-index:45;background:var(--color-brand-rust-bright,#be4b25);color:#fff;font-family:var(--font-display),sans-serif;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;border:none;border-radius:999px;align-items:center;gap:8px;padding:11px 18px;font-size:13px;font-weight:600;display:inline-flex;position:fixed;bottom:1.5rem;left:16px;box-shadow:0 4px 16px rgba(0,0,0,.28);}
+    .fspot-toc-fab svg{width:18px;height:18px;}
+    .fspot-toc-fab[aria-expanded="true"]{background:var(--color-brand-rust-dark,#682412);}
+    .fspot-toc-sheet{z-index:46;opacity:0;visibility:hidden;background:#fff;border:1px solid #a03a1e33;border-radius:12px;flex-direction:column;width:min(340px,100vw - 32px);max-height:60vh;transition:opacity .2s,transform .2s,visibility .2s;display:flex;position:fixed;bottom:5rem;left:16px;overflow-y:auto;transform:translateY(12px);box-shadow:0 10px 34px rgba(0,0,0,.28);}
+    .fspot-toc-sheet.fspot-toc-sheet--open{opacity:1;visibility:visible;transform:translateY(0);}
+  }
+  .fspot-toc-sheet__head{font-family:var(--font-display),sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--color-brand-rust-dark,#682412);background:#fff;border-bottom:1px solid #a03a1e26;justify-content:space-between;align-items:center;padding:12px 16px;font-size:13px;font-weight:700;display:flex;position:sticky;top:0;}
+  .fspot-toc-sheet__close{color:var(--color-brand-brown-muted,#6c5238);cursor:pointer;background:none;border:none;padding:0 4px;font-size:24px;line-height:1;}
+  .fspot-toc-sheet__body{padding:8px 10px;}
+  .fspot-toc-sheet__body .fspot-toc__list{font-size:14px;}
+  .fspot-toc-sheet__body .fspot-toc__list a{padding:8px 6px;}
+</style>
+
+<script is:inline>
+  (function () {
+    // Floating TOC: clone list into the mobile sheet, wire the FAB
+    var list = document.querySelector('#fspot-toc .fspot-toc__list');
+    var body = document.getElementById('fspot-toc-sheet-body');
+    if (list && body) body.appendChild(list.cloneNode(true));
+    var fab = document.getElementById('fspot-toc-fab'),
+        sheet = document.getElementById('fspot-toc-sheet'),
+        closeBtn = document.getElementById('fspot-toc-sheet-close');
+    function setOpen(o) { if (!sheet) return; sheet.classList.toggle('fspot-toc-sheet--open', o); if (fab) fab.setAttribute('aria-expanded', o ? 'true' : 'false'); }
+    if (fab) fab.addEventListener('click', function () { setOpen(!sheet.classList.contains('fspot-toc-sheet--open')); });
+    if (closeBtn) closeBtn.addEventListener('click', function () { setOpen(false); });
+    document.addEventListener('click', function (e) { if (sheet && fab && !sheet.contains(e.target) && !fab.contains(e.target)) setOpen(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+    if (sheet) sheet.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+  })();
+</script>

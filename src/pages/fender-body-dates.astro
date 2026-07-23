@@ -1,0 +1,546 @@
+---
+/**
+ * Fender body dates spoke, CONDENSED REBUILD.
+ *
+ * Hub-and-spoke method page behind the condensed Fender serial rebuild
+ * (see fender-guitars-serial-number-guide.astro). Deep-dives the body-date method the
+ * hub only summarizes, so the hub's "/fender-body-dates/" card resolves. This
+ * is the specific slug Joe wants for the body-date page; it replaces the earlier
+ * placeholder "/fender-physical-dating/" the sibling spokes linked to (that slug
+ * is now retired across the hub, /fender-pot-codes/, and /fender-neck-dates/).
+ *
+ * Core content and photos come from Joe's live serial page (the "Body Date
+ * Codes" section of /fender-guitars-serial-number-guide/): the four body-date
+ * locations (neck pocket, pickup cavities, rear tremolo cavity, control cavity),
+ * the rule that the date records when the BODY was completed weeks to months
+ * before final assembly, and the Stratocaster example (a claimed 1959 Strat
+ * should read 1958 or early 1959; a 1962 body date means a swapped body).
+ *
+ * Photos: three Joe supplied for this page (resized to 2560px into
+ * images/fender-sn/) plus the two the live serial page's Body Date Codes section
+ * already uses. Joe's set: the neck pocket of an early-1950s Precision Bass
+ * penciled 3-17-53 with the initials T.G. (hero), a 1956 Stratocaster pickup
+ * route penciled 6-56, and the rear spring cavity of a 1955 Stratocaster with
+ * the date hidden behind the tremolo springs. The live-page pair: a 1956
+ * Telecaster with the date penciled in the bridge pickup route, and one with the
+ * date on a masking-tape strip (next to a worker's name) in the control cavity.
+ * The builder-name detail (a name like "Eddie" or "Davis" in place of a date)
+ * traces to Joe's 1952 Telecaster authentication guide.
+ *
+ * No walkthrough video on this page, per Joe; the pot-codes and neck-dates
+ * spokes embed the lite-youtube clip, this one does not.
+ *
+ * Body-date facts are not yet carried in VG_FACTS with VG-#### ids; flagged to
+ * log, same as the neck-dates green-stamp and model-code detail.
+ */
+import Layout from "../layouts/Layout.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
+import { contact, hrefs, SITE_URL } from "../config/site";
+
+const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
+const img = (file: string) => assetSrc("images/fender-sn/" + file);
+
+const PAGE_PATH = "/fender-body-dates/";
+const HUB_PATH = "/fender-guitars-serial-number-guide/";
+const HUB_HREF = HUB_PATH;
+
+// ---- Data ----
+const locationRows = [
+  ["Neck pocket", "The most common spot. A pencil or ink date on the body, sometimes on a strip of masking tape stuck in the pocket.", "The neck"],
+  ["Pickup cavities", "A pencil date on the raw wood inside a routed pickup cavity.", "The pickguard"],
+  ["Rear tremolo cavity", "On a Stratocaster, on the body in the spring cavity, hidden under the back plate.", "The back plate"],
+  ["Control cavity", "Behind the metal control plate on a Telecaster, Jaguar, or Jazz Bass, or under the pickguard on a Stratocaster, Precision Bass, or Jazzmaster.", "The plate or guard"],
+];
+const formRows = [
+  ["Pencil date", "A handwritten month and year in graphite, the most common form on a Fender body."],
+  ["Ink stamp", "A date pressed into the body with a rubber stamp instead of written by hand."],
+  ["Masking-tape date", "On 1950s Fenders, a date, sometimes with a worker's name, written on a strip of masking tape stuck inside a cavity."],
+  ["A name or initials", "Sometimes a worker wrote a name or initials, like Eddie or Davis, next to the date or in place of one."],
+];
+
+const tocItems: [string, string][] = [
+  ["#what", "What A Body Date Is"],
+  ["#find", "Where To Find It"],
+  ["#read", "How To Read It"],
+  ["#stops", "Why It Stops In 1963"],
+  ["#stamps", "Cavity Stamps"],
+  ["#tape", "Masking Tape Names"],
+  ["#golden", "The Golden Rule"],
+  ["#limits", "What It Can't Prove"],
+  ["#cross", "Cross-Check The Date"],
+  ["#faq", "Common Questions"],
+  ["#appraisal", "Free Expert Appraisal"],
+  ["#about-joe", "About Joe"],
+];
+
+const faqs = [
+  {
+    q: "Do I Have To Take My Fender Apart To Find The Body Date?",
+    a: "Usually yes. The most common spot is the neck pocket, which means taking the neck off, and the other dates sit in cavities you reach by pulling the pickguard, the control plate, or the tremolo back plate. Vintage screws and finishes chip easily, so if you aren't comfortable doing that, don't force it. Get in touch and I'll help, or bring the guitar by and I'll read it for you.",
+  },
+  {
+    q: "My Body Date Doesn't Match My Neck Date. Is That A Problem?",
+    a: "A small gap is normal and original. Fender made bodies and necks in separate batches and pulled both from bins, so a body and neck a few months apart is exactly what you'd expect. A body dated well after the rest of the guitar is the red flag, because that usually means the body was replaced.",
+  },
+  {
+    q: "There's No Date In My Neck Pocket. Why?",
+    a: "Body dating was never as consistent as neck dating, so plenty of real Fenders never got one, and systematic body dating tailed off through late 1963 and was essentially gone by 1964, so most 1964-and-later original bodies simply have no pencil date at all. A pencil mark can also wear off or get sanded away in a refinish, or the date is in a different cavity. Check the pickup routes and, on a Strat, the spring cavity before you decide it's missing.",
+  },
+  {
+    q: "The Body Date Is Older Than My Serial Number. Is That Right?",
+    a: "That's the normal direction. Fender prepped and dated bodies weeks or months before final assembly, so the body date sitting a little earlier than the build is exactly what you want to see. A body date that lands later than the rest of the guitar is the one to question.",
+  },
+  {
+    q: "Does The Body Date Prove My Guitar Is All Original?",
+    a: "No. It dates the body. Originality is a whole-guitar judgment that weighs the neck date, the pot codes, the pickups, the hardware, and the finish together. Send me three photos and I'll give you the real story for free.",
+  },
+];
+
+// ---- Schema ----
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "How To Read Fender Body Dates And Date Your Guitar",
+  description:
+    "Find the pencil or ink date Fender wrote inside your guitar's body, in the neck pocket or the cavities, and turn it into a real build date, then cross-check it against the neck date. A step-by-step body-date guide from a vintage Fender appraiser.",
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+  image: `${SITE_URL}${img("1952-fender-precision-bass-body-date.jpg")}`,
+  datePublished: "2026-07-23",
+  dateModified: "2026-07-23",
+  inLanguage: "en-US",
+  mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
+  isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+    { "@type": "ListItem", position: 2, name: "Fender Serial Number Guide", item: `${SITE_URL}${HUB_PATH}` },
+    { "@type": "ListItem", position: 3, name: "Fender Body Dates", item: `${SITE_URL}${PAGE_PATH}` },
+  ],
+};
+---
+
+<Layout
+  title="How To Read Fender Body Dates: Neck-Pocket Dating Guide"
+  description="Find the pencil or ink date Fender wrote inside your guitar's body, in the neck pocket or the cavities, and read it as a build date, from a vintage Fender appraiser."
+  canonical={PAGE_PATH}
+  ogImage={`${SITE_URL}${img("1952-fender-precision-bass-body-date.jpg")}`}
+  {...ogCardSize("images/fender-sn/1952-fender-precision-bass-body-date.jpg")}
+  ogImageAlt="The neck pocket of an early 1950s Fender Precision Bass penciled 3-17-53 with the initials T.G. above the date"
+  ogType="article"
+  noIndex={false}
+  structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
+>
+  <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
+  <div class="fspot-header-backdrop" aria-hidden="true">
+    <div class="fspot-header-backdrop__dark"></div>
+    <div class="fspot-header-backdrop__cream"></div>
+  </div>
+
+
+  <div class="fspot">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="measure stack">
+        <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
+        <span class="eyebrow">Fender Dating Methods</span>
+        <h1>Fender Body Dates: How To Date A Fender By Its Body</h1>
+        <p class="lead">Fender dated the body too, in pencil, down in a routed cavity you have to take the guitar apart to reach. On plenty of Fenders you will find nothing at all, and knowing when that is normal matters as much as reading the date does.</p>
+        <div class="trust">
+          <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
+        </div>
+        <figure class="sfig herofig">
+          <LicensedImage src={meta("1952-fender-precision-bass-body-date.jpg")} alt="The neck pocket of an early 1950s Fender Precision Bass, penciled 3-17-53 with a worker's initials T.G. above the date and a stamped D" width={1600} loading="eager" />
+          <figcaption>The neck pocket of an early Fender Precision Bass with the original non-contoured slab body, from before Fender added body contours in 1954. Penciled 3-17-53 for March 17, 1953. The T.G. above it is a worker's initials, not part of the date.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- SAFETY WARNING (top of page) -->
+    <section class="pt0" aria-label="Safety warning">
+      <div class="measure">
+        <div class="warnbox" role="note">
+          <span class="warnbox__head"><svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>Read This First</span>
+          <p>Do not take a vintage instrument apart unless you have done it before. Vintage screws, plastics, and finishes strip and crack easily, and one slip can cost far more than the answer. If you have not done this before, contact me first and I'll help.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- WHAT -->
+    <section id="what">
+      <div class="measure stack">
+        <span class="eyebrow">Start Here</span>
+        <h2>What A Body Date Is</h2>
+        <p>The body date is a date written or stamped on the body itself, put there by the worker who routed the wood or sprayed the finish. It records when the body was finished, which on a Fender was usually weeks or months before the guitar was put together. Fenders from the 1950s and the early to mid 1960s often carry one, tucked in a spot you only see with the guitar apart.</p>
+        <p>Like the neck date, it dates one part, not the whole guitar. The body date dates the body. It speaks for the instrument only when the body is original to it, so read it next to the neck date and the serial, not on its own.</p>
+      </div>
+    </section>
+
+    <!-- FIND -->
+    <section id="find" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Before You Start</span>
+        <h2>Where To Find The Body Date</h2>
+        <p>The body date hides in the routed and pocketed areas of the body, so you have to open the guitar up to see it. It can sit in any of a few places, and some Fenders were marked in more than one. Here is where to look and what you take off to get there.</p>
+        <p>The spot also shifted over the decade. On early 1950s instruments the date sits in the neck pocket, then it moves to the body under the neck or lead pickup and becomes standard there by about 1956, so match where you look to the guitar's era.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th scope="col">Location</th><th scope="col">What you'll see</th><th scope="col">What comes off</th></tr></thead>
+          <tbody>{locationRows.map((r) => (<tr><td data-label="Location">{r[0]}</td><td data-label="What you'll see">{r[1]}</td><td data-label="What comes off" class="yr">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <p class="secintro">The neck pocket is the first place to look, and taking the neck off shows you the neck heel date at the same time, so one job reads both. The rest hide in the routed cavities. On 1950s Fenders the date is usually penciled right on the body, but you'll also find it on a scrap of masking tape stuck inside, now and then next to a worker's name.</p>
+        <div class="figrow">
+          <figure class="sfig"><LicensedImage src={meta("1955-fender-stratocaster-body-date.jpg")} alt="The rear spring cavity of a 1955 Fender Stratocaster with the back plate removed, the body date behind the tremolo springs" width={1280} /><figcaption>The rear spring cavity of a 1955 Stratocaster, back plate off. The date hides on the body behind the tremolo springs, easy to miss.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("1956-fender-telecaster-blonde-24.jpg")} alt="A strip of masking tape inside the control cavity of a 1956 Fender Telecaster, handwritten with a worker's name and the date" width={1280} /><figcaption>The control cavity of a 1956 Telecaster. Here the date is on a strip of masking tape, next to the worker's name, a common find inside 1950s Fenders.</figcaption></figure>
+        </div>
+        <p>If you aren't comfortable opening the guitar up, don't force it. A stripped screw or a chipped finish costs more than the answer. Get in touch before you take anything apart and I'll help, or read the date for you if you bring the guitar by.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- READ -->
+    <section id="read">
+      <div class="measure stack">
+        <span class="eyebrow">Read It</span>
+        <h2>How To Read A Body Date</h2>
+        <p>Body dates are the plain kind. There's no model code or supplier code to decode, just a date in someone's handwriting or a stamp. A Stratocaster pickup route penciled 6-56 reads as June 1956. Some carry the day as well: a neck pocket penciled 3-17-53 reads as March 17, 1953, the month, the day, then the year. Once you find the mark, it usually reads straight off.</p>
+        <p>What changes is the form the mark takes. Here is what you'll run into:</p>
+        <div class="tablewrap compact"><table>
+          <thead><tr><th scope="col">Form</th><th scope="col">What it looks like</th></tr></thead>
+          <tbody>{formRows.map((r) => (<tr><td data-label="Form">{r[0]}</td><td data-label="What it looks like">{r[1]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="figrow">
+          <figure class="sfig"><LicensedImage src={meta("1956-fender-stratocaster-body-date-neck-pickup-cavity.jpg")} alt="A penciled date reading 6-56 on the body inside a 1956 Fender Stratocaster pickup route" width={1280} /><figcaption>A Stratocaster pickup route, penciled 6-56 for June 1956. Pickup routes are a common spot for the date.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("1956-fender-telecaster-blonde-21.jpg")} alt="A body date written on the body inside the bridge pickup cavity of a 1956 Fender Telecaster" width={1280} /><figcaption>A 1956 Telecaster with the date written on the body in the bridge pickup cavity, under where the pickup sits.</figcaption></figure>
+        </div>
+        <div class="tip">
+          <p><b>A name is not a date.</b> Now and then the mark is a worker's name or initials instead of a date, like the T.G. penciled above the date on the Precision Bass at the top of this page, or a name like Eddie or Davis. That's an assembly or inspection mark, not the year. When that's all the body gives you, lean on the neck date and the pot codes to pin the build.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- STOPS -->
+    <section id="stops">
+      <div class="measure stack">
+        <span class="eyebrow">The Big Gap</span>
+        <h2>Why The Body Date Stops In Late 1963</h2>
+        <p>Systematic body dating ends in late 1963. Volume was climbing, custom color orders were pouring in, and the practice simply stopped. That means a genuine, original, untouched body from 1964 through most of the 1970s normally has no date written in it anywhere, and that is correct rather than suspicious.</p>
+        <p>Two things stop this from being a clean rule, and both matter more than the rule does.</p>
+        <p>The practice decayed rather than stopping on a date. Scattered 1964 bodies still carry dates, so a dated early 1964 is not automatically wrong. And well before 1963, solid custom color bodies frequently went out with no body date at all. Sunburst and blonde bodies got dated far more reliably than a Fiesta Red or a Lake Placid Blue did.</p>
+        <div class="tip">
+          <p><b>This is why a missing body date proves nothing.</b> It's weak evidence in both directions. Overall, a Fender with no body date is a common thing to see, even on standard sunburst and blonde finishes and especially from 1964 on, so a blank cavity should never condemn a guitar by itself. On a solid custom color from the 1950s or early 1960s the absence is even more expected, and those are the most valuable guitars in the room, so a rule of thumb that treats a blank cavity as a red flag will fail you exactly where the money is. Date those bodies from the <a class="spoke" href="/fender-neck-dates/">neck date</a> and the <a class="spoke" href="/fender-pot-codes/">pot codes</a> instead, and read the finish evidence with my <a class="spoke" href="/post/fender-custom-color-authentication-guide/">Fender custom color guide</a>.</p>
+        </div>
+        <p>The body is not blank in these years either, it just has no date. Round numbered inspector stamps run through the late 1960s, the ES stamp turns up in 1966, and the circled inspection stamps start in the 1970s. Read those instead, and see the sections below.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- STAMPS -->
+    <section id="stamps">
+      <div class="measure stack">
+        <span class="eyebrow">Read The Marks</span>
+        <h2>Stamps You'll Find In The Cavities</h2>
+        <p>Dates are not the only ink in there. Most of these marks are factory workflow rather than anything meant for you, but they pin an era, and two of them tell you the guitar went back to Fender.</p>
+
+        <h3 id="insp">Inspector Stamps</h3>
+        <p>Round numbered ink stamps, usually green, appear in neck pockets from about 1966 into the early 1970s. They are inspection marks and the number is an inspector code, not a date. Don't confuse this round green body inspector stamp with the coded green CBS neck date stamp used from 1969 onward, which is a genuine date stamped on the neck heel and is explained on the <a class="spoke" href="/fender-neck-dates/">Fender neck dates page</a>, so you don't wave off a real neck date as a meaningless inspector code. From the mid 1970s these give way to a circled FRR stamp, often alongside INSP. FRR is usually read as Fender, Rogers, and Rhodes, the CBS-era Musical Instruments divisions, though collectors expand it other ways, and it ran into the early 1980s.</p>
+
+        <h3 id="es">The ES Stamp</h3>
+        <p>A block-letter ES turns up under the pickguard and in the control routes of 1966 instruments. The usual story is that it stands for Entered Special, and that it marks something out of the ordinary: a special order for a dealer, a guitar built for an artist, or one of Fender's own show pieces for a NAMM booth. It's a good story, and it might be part of the truth. What ES does not mean, either way, is a factory refinish.</p>
+        <p>I'd be careful leaning on that story too hard, though, because it doesn't match what I see on the bench. I've found the ES stamp on plenty of perfectly ordinary 1966 Fenders, standard finishes, standard specs, nothing special about them at all. That doesn't prove those guitars were never show models. But if ES really flagged custom orders and NAMM pieces, I'd expect to find it mostly on the odd finishes and the custom colors, and I don't. It shows up about as readily on a plain sunburst as on anything rare. To me that says it was more likely a routine factory tracking mark for 1966 production than a badge for special instruments.</p>
+        <p>So treat ES as a genuine 1966 body mark and a nice confirmation of the year, but don't let anyone tell you it makes the guitar special on its own. Nobody has ever actually demonstrated what the two letters stood for, and my own experience says it's more common and more ordinary than the legend around it suggests.</p>
+
+        <h3 id="rr">R and R, The Factory Refinish Mark</h3>
+        <p>This is the one that changes an appraisal. A black ink R&amp;R stamp, sometimes just RR, means repair and refinish. Fender ran a factory refinishing service into the late 1960s, and this marks a guitar that went back to Fullerton for it. The mechanism is neat: a four-digit number stamped into the flat butt of the neck heel and again into the neck pocket floor, so the right neck and body found each other again after the body was stripped. Matching four-digit numbers in both places is a factory service pairing.</p>
+        <p>The ink stamp isn't the only sign a guitar came back, though, and the mark takes more than one form. This is the same repair-department system, and it covers all of Fender's factory service work, not just custom colors. Sometimes it's a clean stamp. Sometimes it's clearly done freehand with a hot soldering iron, the serial number burned in as a little run of dots. And sometimes it spells out R&amp;R along with the color the guitar was going back to be sprayed. Whatever the form, you'll find it worked into the wood on the butt of the neck heel, in the neck pocket, or down inside a cavity, and it means the same thing: at some point that instrument went back to Fender for repair and refinish work.</p>
+        <p>It's easy to tell from a plain date, because it's stamped or scorched down into the grain rather than sitting on the surface the way pencil or ink does. And it isn't a red flag. A factory refinish or repair is not a fake, and it is not the same as a later amateur respray, which is the thing that really hurts a vintage guitar. It still leaves the guitar a refinished one rather than all original, so it does move the value, but it moves it far less than an undocumented respray would, and it explains a finish that doesn't match the date. Worth knowing rather than guessing at.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- MASKING TAPE -->
+    <section id="tape">
+      <div class="measure stack">
+        <span class="eyebrow">The Human Record</span>
+        <h2>Masking Tape And The Names On It</h2>
+        <p>On Fenders built from about 1954 to 1956 you will sometimes find a strip of cream masking tape stuck to the floor or the wall of a cavity, with a date and a first name written on it in pencil. It marks the point where the wiring harness went into the finished body, which makes it the closest thing on the whole guitar to a record of the day it was actually assembled.</p>
+        <p>The names belong to the women who did final assembly at Fullerton. Gloria Fuentes and Mary Lemus are the two you meet most, and Mary started in 1954 and is said to have gone on to supervise final assembly. There is also a Virginia, one of the earliest women Leo Fender hired, whose surname nobody has ever recovered.</p>
+        <p>That tape is why Eric Johnson's 1954 Stratocaster is called Virginia. He pulled the guard, found a masking tape label with the name on it, and the guitar has been called that ever since.</p>
+        <div class="tip">
+          <p><b>Read the tape for what it is.</b> These are records of who ran final assembly on a given day, not the signatures of individual makers. Nobody at Fullerton built a guitar alone, and the collector habit of treating a name on a strip of tape as a maker's mark says more about the market than about how the factory ran. Tape also lifts and moves between bodies far too easily to stand on its own. Genuinely old tape with genuinely old pencil proves the tape is old. It does not prove it started life in that guitar.</p>
+        </div>
+        <p>One thing not to misread while you are in there. The amber color in a neck pocket or cavity is the yellow dye stain Fender put down under the sealer, not aged glue and not the wood darkening with time. It belongs there.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- GOLDEN RULE -->
+    <section id="golden">
+      <div class="measure stack">
+        <span class="eyebrow">The One Rule That Matters</span>
+        <h2>The Body Date Dates The Body</h2>
+        <p>Here's the rule every appraiser works by. The body date tells you when the body was made, not when the guitar was assembled. Fender prepped bodies ahead of the line, so the body date lands at the build or a little before it. On an original, unmodified Fender the body date, the neck date, and the serial all sit within a few months of each other.</p>
+        <p>Body dates on Stratocasters get overlooked all the time, because they hide in the spring cavity under the tremolo back plate. On a guitar sold as a 1959 Strat, the body date should read sometime in 1958 or early 1959, since the body was prepped ahead of assembly. If the body date reads 1962, the body was replaced at some point. That doesn't make it a bad guitar, but it's a different guitar than a 100% original 1959, and the price should reflect that.</p>
+        <p>When the body date, the neck date, and the serial all line up, you can see what a clean example is worth in my <a class="spoke" href="/vintage-fender-stratocaster-value-guide/">Stratocaster value guide</a> and <a class="spoke" href="/vintage-fender-telecaster-value-guide/">Telecaster value guide</a>, and when you're ready to move it, here is how to <a class="spoke" href="/sell-my-fender-guitar/">sell a vintage Fender</a>.</p>
+        <div class="tip">
+          <p><b>A date can be added.</b> A pencil or ink date can be written into a reproduction or partscaster body, and modern reissues reproduce these cavity marks cosmetically, so a date on its own is not proof of anything. Corroborate it with the neck date, the pot codes, and the overall build before you trust it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIMITS -->
+    <section id="limits" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Keep It Honest</span>
+        <h2>What A Body Date Can't Prove</h2>
+        <p>A body date dates the body and nothing else. A correct body date doesn't prove a guitar is all original. That's a whole-instrument call that weighs the neck date, the pot codes, the pickups, the hardware, and the finish together. Treat the body date as one solid clue, then line it up with everything else.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- CROSS-CHECK -->
+    <section id="cross">
+      <div class="measure stack">
+        <span class="eyebrow">Put It All Together</span>
+        <h2>Cross-Check With The Other Methods</h2>
+        <p>The body date is strongest next to the other clues. Pair it with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> right above it in the pocket, then confirm the year with the <a class="spoke" href="/fender-pot-codes/">pot codes</a> and the <a class="spoke" href="/fender-pickup-dates/">pickup date codes</a>. For a fuller picture, line those up with the <a class="spoke" href="/fender-physical-features/">physical feature dating</a> on the hardware and finish. When the body date, the neck date, and the serial all agree, you have a build date you can stand behind.</p>
+        <p class="note-sm">This guide is one of the dating methods behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Expert Questions</span>
+        <h2>Common Questions About Fender Body Dates</h2>
+        <div class="faqs">
+          {faqs.map((f) => (
+            <details class="faq">
+              <summary>{f.q}</summary>
+              <div class="faqbody"><p>{f.a}</p></div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- APPRAISAL -->
+    <section>
+      <div class="measure">
+        <div class="appraise" id="appraisal">
+          <span class="eyebrow">Free Expert Appraisal</span>
+          <h2>Not Sure What The Date In Your Body Is Telling You?</h2>
+          <p>A body can be swapped, and a date tucked in a cavity is easy to misread. If you want a definite build date, send Joe three clear photos, the front, the back, and the date inside the body, for a free, expert appraisal within 24 hours.</p>
+          <div class="row">
+            <a class="call" href={hrefs.tel}>Call Or Text Joe: {contact.phone}</a>
+            <a class="send" href="/free-appraisal/">Or Send Photos Online</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIO -->
+    <section class="pt0">
+      <div class="measure"><div class="bio" id="about-joe">
+        <LicensedImage src={meta("about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars, holding a vintage guitar" width={150} />
+        <div>
+          <div class="who"><a href="/about-me/">Joe Dampt</a></div>
+          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ five-star reviews</div>
+          <p class="biotext">Joe Dampt is the owner of Joe's Vintage Guitars in Mesa, Arizona, where he's spent more than twelve years buying, appraising, and authenticating vintage instruments full-time. He's personally valued over 10,000 guitars for sellers in all 50 states, served as a traveling appraiser for the Treasure Seekers Roadshow, and sourced instruments for Grammy Award-winning artists. Every method on this page comes from that bench work.</p>
+        </div>
+      </div></div>
+    </section>
+  </div>
+
+  <!-- Floating TOC (sidebar + mobile FAB + sheet), matches the hub pattern -->
+  <aside class="fspot-toc" id="fspot-toc" aria-label="Table of contents">
+    <p class="fspot-toc__label">On This Page</p>
+    <ul class="fspot-toc__list">
+      {tocItems.map(([href, label]) => (<li><a href={href}>{label}</a></li>))}
+    </ul>
+  </aside>
+  <button class="fspot-toc-fab" id="fspot-toc-fab" type="button" aria-expanded="false" aria-controls="fspot-toc-sheet"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>Jump To A Section</button>
+  <div class="fspot-toc-sheet" id="fspot-toc-sheet" role="dialog" aria-label="Jump to a section" aria-modal="false">
+    <div class="fspot-toc-sheet__head"><span>Jump To A Section</span><button class="fspot-toc-sheet__close" id="fspot-toc-sheet-close" type="button" aria-label="Close section list">&times;</button></div>
+    <div class="fspot-toc-sheet__body" id="fspot-toc-sheet-body"></div>
+  </div>
+</Layout>
+
+<style>
+  .fspot-header-backdrop{position:relative;isolation:isolate;z-index:0;}
+  .fspot-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
+  .fspot-header-backdrop__cream{background:#fff;height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}
+
+  .fspot{
+    --paper:#f5efe3; --panel:#ffffff; --panel-2:#f3ead6; --inset:#fffdf8;
+    --ink:var(--color-brand-brown,#3e2a14); --ink-strong:var(--color-brand-brown,#3e2a14);
+    --muted:var(--color-brand-brown-muted,#7a6a54); --line:#ddd0b6;
+    --gold:var(--color-brand-gold,#c8983a); --gold-deep:#8c6a24;
+    --rust:var(--color-brand-rust,#a03a1e); --rust-bright:var(--color-brand-rust-bright,#be4b25);
+    --amber:#f3e3c2; --amber-line:#e3c88a; --darkbrown:#3a2a18; --darkbrown-2:#4a3520;
+    --shadow:0 1px 2px rgba(58,40,23,.06), 0 10px 30px rgba(58,40,23,.08);
+    --fd:var(--font-display), "Oswald", system-ui, sans-serif;
+    --fm:ui-monospace,"SF Mono",Consolas,"Liberation Mono",monospace;
+    --measure:min(92vw,820px);
+    background:var(--paper); color:var(--ink); font-size:17px; line-height:1.6;
+    padding-bottom:1rem;
+  }
+  .fspot [id]{scroll-margin-top:90px;}
+  .fspot h1,.fspot h2,.fspot h3{font-family:var(--fd);font-weight:600;line-height:1.12;margin:0;color:var(--ink-strong);text-wrap:balance;}
+  .fspot h1{font-size:clamp(2rem,4.6vw,2.9rem);letter-spacing:.005em;text-transform:uppercase;}
+  .fspot h2{font-size:clamp(1.5rem,3.1vw,2rem);letter-spacing:.01em;}
+  .fspot h3{font-size:clamp(1.21rem,2.1vw,1.34rem);letter-spacing:.015em;margin-top:.8rem;color:var(--rust);}
+  .fspot p{margin:0;}
+  .fspot a{color:var(--gold-deep);text-underline-offset:2px;}
+  .fspot a:hover{color:var(--rust);}
+  .fspot .measure{width:var(--measure);margin-inline:auto;}
+  .fspot section{padding-block:clamp(1.7rem,4vw,2.6rem);}
+  .fspot .pt0{padding-top:0;}
+  .fspot .rule{height:1px;background:var(--line);width:min(94vw,1080px);margin-inline:auto;}
+  .fspot .stack{display:flex;flex-direction:column;gap:1rem;}
+  .fspot .note-sm{font-size:.95rem;color:var(--muted);}
+  .fspot .eyebrow{font-family:var(--fd);font-weight:600;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);display:inline-flex;align-items:center;gap:.6em;}
+  .fspot .eyebrow::before{content:"";width:24px;height:3px;background:var(--gold);}
+  .fspot a.spoke{color:var(--gold-deep);text-decoration:none;border-bottom:1.5px dotted var(--gold);font-weight:600;}
+  .fspot a.spoke:hover{color:var(--rust);border-bottom-color:var(--rust);}
+  .fspot a.back{position:relative;z-index:31;font-family:var(--fd);font-weight:600;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--rust);text-decoration:none;display:inline-flex;align-items:center;gap:.4rem;}
+  .fspot a.back::before{content:"\2190";font-size:1rem;}
+  .fspot a.back:hover{color:var(--rust-bright);}
+
+  .fspot .hero{padding-top:clamp(1.6rem,4vw,2.6rem);padding-bottom:1.4rem;}
+  .fspot .lead{font-size:1.16rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .trust{display:flex;flex-wrap:wrap;gap:.4rem .9rem;font-family:var(--fm);font-size:.76rem;color:var(--muted);}
+  .fspot .trust span{display:inline-flex;align-items:center;gap:.45rem;}
+  .fspot .trust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--rust);}
+
+  .fspot .secintro{font-size:.97rem;max-width:70ch;color:var(--ink);}
+  .fspot .secintro b{color:var(--ink-strong);}
+
+  .fspot .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);}
+  .fspot table{border-collapse:collapse;width:100%;min-width:520px;background:var(--panel);}
+  .fspot .tablewrap.compact table{min-width:0;}
+  .fspot th,.fspot td{text-align:left;padding:.6rem 1rem;border-bottom:1px solid var(--line);vertical-align:top;font-size:.94rem;}
+  .fspot thead th{font-family:var(--fm);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);background:var(--panel-2);}
+  .fspot tbody tr:last-child td{border-bottom:0;}
+  .fspot tbody tr:nth-child(even){background:color-mix(in srgb,var(--panel-2) 45%,transparent);}
+  .fspot .code{font-family:var(--fm);font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap;}
+  .fspot .yr{font-family:var(--fm);color:var(--rust);font-weight:600;}
+
+  .fspot .figrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
+  .fspot .figrow.single{grid-template-columns:minmax(230px,680px);margin-inline:auto;}
+  .fspot .figrow.single.portrait{grid-template-columns:minmax(230px,500px);}
+  .fspot .figrow.gallery{grid-template-columns:1fr;gap:1.4rem;max-width:680px;margin-inline:auto;}
+  .fspot figure.sfig{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow);}
+  .fspot figure.sfig img{display:block;width:100%;height:auto;background:var(--panel-2);}
+  .fspot figure.sfig figcaption{padding:.55rem .8rem;font-family:var(--fm);font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);}
+  .fspot .herofig{margin-top:.3rem;}
+  .fspot .herofig figcaption{font-size:.82rem;color:var(--ink);}
+
+  .fspot .videowrap{border:1px solid rgba(200,152,58,.35);border-radius:10px;overflow:hidden;background:#000;line-height:0;}
+  .fspot .videowrap lite-youtube{max-width:none;width:100%;}
+  .fspot .tip{background:linear-gradient(135deg,var(--darkbrown-2),var(--darkbrown));color:#f0e1c1;border-radius:10px;padding:1rem 1.15rem;font-size:.95rem;}
+  .fspot .tip::before{content:"JOE'S TIP";display:block;font-family:var(--fd);font-weight:600;letter-spacing:.14em;color:var(--gold);font-size:.78rem;margin-bottom:.4rem;}
+  .fspot .tip b{color:#e0be79;}
+  .fspot .warnbox{background:#fbe9e6;border:1px solid #e4a99d;border-left:6px solid var(--rust);border-radius:10px;padding:1rem 1.2rem;box-shadow:var(--shadow);}
+  .fspot .warnbox__head{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--fd);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--rust);font-size:.85rem;margin-bottom:.4rem;}
+  .fspot .warnbox__head svg{flex:0 0 auto;}
+  .fspot .warnbox p{margin:0;color:var(--ink);font-size:.97rem;}
+
+  .fspot .faqs{display:flex;flex-direction:column;gap:.6rem;}
+  .fspot details.faq{border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden;box-shadow:var(--shadow);}
+  .fspot details.faq>summary{cursor:pointer;list-style:none;padding:.85rem 1.05rem;font-family:var(--fd);font-weight:600;font-size:1rem;color:var(--ink-strong);display:flex;justify-content:space-between;align-items:center;gap:.8rem;}
+  .fspot details.faq>summary::-webkit-details-marker{display:none;}
+  .fspot details.faq>summary::after{content:"+";font-family:var(--fm);font-size:1.2rem;color:var(--rust);flex:0 0 auto;}
+  .fspot details.faq[open]>summary::after{content:"\2212";}
+  .fspot details.faq .faqbody{padding:0 1.05rem 1rem;font-size:.96rem;color:var(--muted);}
+
+  .fspot .appraise{background:var(--amber);border:1px solid var(--amber-line);border-left:5px solid var(--rust);border-radius:12px;padding:clamp(1.4rem,3.5vw,2rem);box-shadow:var(--shadow);}
+  .fspot .appraise h2{margin-bottom:.5rem;}
+  .fspot .appraise p{color:var(--ink);font-size:1.02rem;}
+  .fspot .appraise .row{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.1rem;align-items:center;}
+  .fspot .appraise .call{font-family:var(--fd);font-weight:700;font-size:1.15rem;letter-spacing:.02em;color:#fff;background:var(--rust);text-decoration:none;padding:.7rem 1.3rem;border-radius:8px;}
+  .fspot .appraise .call:hover{background:var(--rust-bright);}
+  .fspot .appraise .send{font-family:var(--fd);font-weight:600;text-transform:uppercase;font-size:.86rem;letter-spacing:.04em;color:var(--rust);text-decoration:none;border-bottom:2px solid var(--gold);}
+
+  .fspot .bio{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.3rem;background:var(--panel);}
+  .fspot .bio img{flex:0 0 auto;width:76px;height:76px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);}
+  .fspot .bio .who{font-family:var(--fd);font-weight:600;font-size:1.2rem;text-transform:uppercase;letter-spacing:.02em;}
+  .fspot .bio .who a{color:var(--ink-strong);text-decoration:none;border-bottom:2px solid var(--gold);}
+  .fspot .bio .cred{font-family:var(--fm);font-size:.72rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .bio .biotext{margin-top:.55rem;font-size:.95rem;color:var(--muted);}
+
+  /* mobile card tables */
+  @media (max-width:719px){
+    .fspot .tablewrap{overflow:visible;border:0;border-radius:0;box-shadow:none;}
+    .fspot .tablewrap table{min-width:0;width:100%;display:block;background:transparent;}
+    .fspot .tablewrap thead{display:none;}
+    .fspot .tablewrap tbody{display:grid;grid-template-columns:1fr;gap:.65rem;}
+    .fspot .tablewrap tr{display:block;border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:.7rem .85rem;box-shadow:var(--shadow);}
+    .fspot .tablewrap tbody tr:nth-child(even){background:var(--panel);}
+    .fspot .tablewrap td{display:block;border:0;padding:.25rem 0;font-size:.95rem;}
+    .fspot .tablewrap td::before{content:attr(data-label);display:block;font-family:var(--fm);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.1rem;}
+    .fspot .tablewrap .code,.fspot .tablewrap .yr{white-space:normal;}
+  }
+
+  /* floating TOC */
+  .fspot-toc{display:none;z-index:25;background:#fff;border:1px solid var(--color-brand-brown-tan,#d2b48c);border-radius:10px;width:260px;max-height:calc(100vh - 160px);padding:16px 18px;position:fixed;top:120px;right:24px;overflow-y:auto;box-shadow:0 2px 12px rgba(0,0,0,.08);}
+  @media (min-width:1440px){.fspot-toc{display:block;}}
+  .fspot-toc__label{font-family:var(--font-display),sans-serif;text-transform:uppercase;letter-spacing:.13em;color:var(--color-brand-brown,#3e2a14);border-bottom:1px solid #a03a1e2e;margin:0 0 10px;padding-bottom:8px;font-size:12px;font-weight:700;}
+  .fspot-toc__list{margin:0;padding:0;font-size:12.5px;line-height:1.4;list-style:none;}
+  .fspot-toc__list li{margin:0;}
+  .fspot-toc__list a{color:var(--color-brand-brown-muted,#6c5238);border-radius:4px;padding:5px 6px;text-decoration:none;display:block;}
+  .fspot-toc__list a:hover{background:var(--color-brand-cream-warm,#f5ead4);color:var(--color-brand-rust,#a03a1e);}
+  .fspot-toc-fab{display:none;}
+  .fspot-toc-sheet{display:none;}
+  @media (max-width:1439.98px){
+    .fspot-toc-fab{z-index:45;background:var(--color-brand-rust-bright,#be4b25);color:#fff;font-family:var(--font-display),sans-serif;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;border:none;border-radius:999px;align-items:center;gap:8px;padding:11px 18px;font-size:13px;font-weight:600;display:inline-flex;position:fixed;bottom:1.5rem;left:16px;box-shadow:0 4px 16px rgba(0,0,0,.28);}
+    .fspot-toc-fab svg{width:18px;height:18px;}
+    .fspot-toc-fab[aria-expanded="true"]{background:var(--color-brand-rust-dark,#682412);}
+    .fspot-toc-sheet{z-index:46;opacity:0;visibility:hidden;background:#fff;border:1px solid #a03a1e33;border-radius:12px;flex-direction:column;width:min(340px,100vw - 32px);max-height:60vh;transition:opacity .2s,transform .2s,visibility .2s;display:flex;position:fixed;bottom:5rem;left:16px;overflow-y:auto;transform:translateY(12px);box-shadow:0 10px 34px rgba(0,0,0,.28);}
+    .fspot-toc-sheet.fspot-toc-sheet--open{opacity:1;visibility:visible;transform:translateY(0);}
+  }
+  .fspot-toc-sheet__head{font-family:var(--font-display),sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--color-brand-rust-dark,#682412);background:#fff;border-bottom:1px solid #a03a1e26;justify-content:space-between;align-items:center;padding:12px 16px;font-size:13px;font-weight:700;display:flex;position:sticky;top:0;}
+  .fspot-toc-sheet__close{color:var(--color-brand-brown-muted,#6c5238);cursor:pointer;background:none;border:none;padding:0 4px;font-size:24px;line-height:1;}
+  .fspot-toc-sheet__body{padding:8px 10px;}
+  .fspot-toc-sheet__body .fspot-toc__list{font-size:14px;}
+  .fspot-toc-sheet__body .fspot-toc__list a{padding:8px 6px;}
+</style>
+
+<script is:inline>
+  (function () {
+    // Floating TOC: clone list into the mobile sheet, wire the FAB
+    var list = document.querySelector('#fspot-toc .fspot-toc__list');
+    var body = document.getElementById('fspot-toc-sheet-body');
+    if (list && body) body.appendChild(list.cloneNode(true));
+    var fab = document.getElementById('fspot-toc-fab'),
+        sheet = document.getElementById('fspot-toc-sheet'),
+        closeBtn = document.getElementById('fspot-toc-sheet-close');
+    function setOpen(o) { if (!sheet) return; sheet.classList.toggle('fspot-toc-sheet--open', o); if (fab) fab.setAttribute('aria-expanded', o ? 'true' : 'false'); }
+    if (fab) fab.addEventListener('click', function () { setOpen(!sheet.classList.contains('fspot-toc-sheet--open')); });
+    if (closeBtn) closeBtn.addEventListener('click', function () { setOpen(false); });
+    document.addEventListener('click', function (e) { if (sheet && fab && !sheet.contains(e.target) && !fab.contains(e.target)) setOpen(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+    if (sheet) sheet.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+  })();
+</script>

@@ -222,6 +222,14 @@ const EXPECTED_DIVERGENCES = [
     why: "N-prefix reports front of headstock through 1995 and back from 1996, matching the page; the original said 'back' for all of them",
     match: (c) => /^N\d/i.test(c.serial),
   },
+  {
+    why: "A-prefix asks Made-in-Japan vs Crafted-in-Japan; the letter was reused across both eras (MIJ 1985-86, CIJ 1997-98) and digit count is not a reliable tell, so the original's flat digit-count answer could misdate a guitar (Joe, 2026-07-22)",
+    match: (c) => /^A\d+$/i.test(c.serial),
+  },
+  {
+    why: "76-prefix asks headstock (1976) vs neck plate (a 76xxx plate is a 1962-era serial); the original flatly returned 1976 for any 76..., misdating early-1960s neck plates by 14 years (Joe, 2026-07-22)",
+    match: (c) => /^76\d+$/.test(c.serial) && c.serial.length >= 4 && c.serial.length <= 6,
+  },
 ];
 
 let mismatches = 0;
