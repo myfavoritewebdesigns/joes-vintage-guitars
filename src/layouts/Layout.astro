@@ -231,15 +231,73 @@ if (structuredData) {
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager -->
+    <!-- WhatConverts, loaded directly instead of through GTM.
+         GTM-TKN5P7S was a ~420 KB container parsed on every page load before a
+         single tag fired. GA4, Google Ads, Meta Pixel and Bing UET all move to
+         Cloudflare Zaraz (edge-side, zero browser cost). WhatConverts is the one
+         tag that cannot: no Zaraz component exists, and it needs the real browser
+         session to set wc_client / wc_visitor. So it loads here, at idle.
+
+         ⚠️ ORDER OF OPERATIONS — retiring GTM has two prerequisites:
+           1. Meta Pixel (934500208412401) added to Zaraz. JVG's Zaraz already has
+              GA4 + Google Ads + Bing; Meta is the gap. Retire GTM before that and
+              Meta stops firing entirely.
+           2. This block deployed, and the WhatConverts tags removed from the GTM
+              container. Do the GTM removal FIRST: a brief gap is far safer than a
+              brief overlap, because WhatConverts loading twice risks double-binding
+              and duplicate leads. The guard below makes an overlap a no-op, but do
+              not rely on it to win a race.
+
+         `dataLayer` is kept alive as a no-op array because FenderSerialTool.astro
+         pushes guarded analytics events into it (fender_serial_decode /
+         fender_serial_report_request). Zaraz reads dataLayer, so those keep working.
+
+         Attribution note: idle-deferral is SAFE here — we still fire on the landing
+         page with the gclid in the URL and the real referrer, so `wc_client` records
+         the correct source. Do NOT move these to a first-interaction trigger: that
+         can fire on page 2, where the gclid is gone and the referrer is internal. -->
     <script is:inline>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-TKN5P7S');
+      (function () {
+        window.dataLayer = window.dataLayer || [];
+        var PROD_HOST = "joesvintageguitarsaz.com";
+        var host = window.location.hostname;
+        if (host !== PROD_HOST && host.indexOf("." + PROD_HOST) === -1) return;
+
+        // ONLY WhatConverts lives here. Everything else that GTM used to fire —
+        // GA4, Google Ads, Meta Pixel, Bing UET — belongs in Zaraz, where it runs
+        // edge-side at zero browser cost. WhatConverts cannot move: it has no Zaraz
+        // component and needs the real browser session to set wc_client/wc_visitor.
+        //
+        // Do NOT "complete the set" by adding fbevents.js / bat.js here. Loading
+        // those libraries without their init snippets means they download and fire
+        // NOTHING — presence without capture, the same trap as the form selector.
+        var TAGS = [
+          // Phone profile, then form profile. LOAD-BEARING: 97950 is what captures
+          // every web-form lead (see the CLAUDE.md decision log, 2026-07-20).
+          "https://scripts.iconnode.com/97949.js",
+          "https://scripts.iconnode.com/97950.js",
+        ];
+
+        function load() {
+          TAGS.forEach(function (src) {
+            // Skip anything GTM already put on the page, so an overlap window
+            // degrades to "no change" rather than a double-load.
+            if (document.querySelector('script[src="' + src + '"]')) return;
+            var s = document.createElement("script");
+            s.async = true;
+            s.src = src;
+            document.head.appendChild(s);
+          });
+        }
+        // After load, then at idle: never competes with render or LCP.
+        var start = function () {
+          if (window.requestIdleCallback) requestIdleCallback(load, { timeout: 3000 });
+          else setTimeout(load, 1200);
+        };
+        if (document.readyState === "complete") start();
+        else window.addEventListener("load", start, { once: true });
+      })();
     </script>
-    <!-- End Google Tag Manager -->
 
     <!-- WhatConverts form capture. The site's fetch() forms match no selector
          WhatConverts auto-captures, so we post each lead ourselves. Do NOT
@@ -370,15 +428,8 @@ if (structuredData) {
     <slot name="head" />
   </head>
   <body class="min-h-screen overflow-x-hidden">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-TKN5P7S"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden"></iframe></noscript
-    >
-    <!-- End Google Tag Manager (noscript) -->
+    <!-- The GTM <noscript> iframe was removed with the container. It only ever
+         served no-JS visitors, and every tag it fronted is JS-dependent anyway. -->
 
     <!-- Skip to content link for keyboard / screen reader users -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
