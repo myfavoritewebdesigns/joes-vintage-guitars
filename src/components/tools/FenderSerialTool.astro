@@ -12,6 +12,7 @@
 import { Image } from "astro:assets";
 import { STEPS } from "../../data/fender-serials";
 import { resolveImage } from "../../lib/images";
+import { contact, hrefs } from "../../config/site";
 
 interface Props {
   /**
@@ -36,7 +37,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
       Decode any Fender guitar or bass serial number. American, Mexican, Japanese, and Custom
       Shop, 1950 to present.
     </p>
-    <span class="fsn2-badge">Last reviewed by Joe, May 2026</span>
+    <span class="fsn2-badge">Last reviewed by Joe, July 2026</span>
   </header>
 
   <form class="fsn2-form" action={tablesHref} method="get" data-fsn2-form>
@@ -107,7 +108,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
         Serial number ranges are estimates. Fender production was rarely perfectly sequential.
         For a precise appraisal or help selling your guitar, contact
         <a href="/">Joe's Vintage Guitars</a>. Call or text
-        <a href="tel:+16029006635">602-900-6635</a>, or
+        <a href={hrefs.tel}>{contact.phone}</a>, or
         <a href="/contact-me/">contact us online</a>.
       </p>
       <a class="fsn2-appraisal" href="/free-appraisal/">
@@ -175,7 +176,7 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
       <p>
         We couldn't automatically decode that serial number. Some older or rare Fenders need a
         hands-on look. <a href="/">Joe's Vintage Guitars</a> can help. Call or text
-        <a href="tel:+16029006635">602-900-6635</a>, or
+        <a href={hrefs.tel}>{contact.phone}</a>, or
         <a href="/contact-me/">contact us online</a>.
       </p>
       <div class="fsn2-crossdate">
@@ -619,7 +620,6 @@ const cardImage = (src: string) => resolveImage("images/fender-sn/" + src.split(
   }
   .fsn2-appraisal:hover { filter: brightness(1.08); transform: translateY(-1px); }
   .fsn2-appraisal:focus-visible { outline: 3px solid var(--color-brand-gold); outline-offset: 2px; }
-  .fsn2-appraisal-icon { font-size: 1.5rem; line-height: 1; }
   /* Colour is set on the SPAN, not the <a>. A host page's link rule (the hub's
      .fshub a) out-specifies the .fsn2-appraisal declaration and was painting
      this line #a03a1e — the exact rust at the light end of its own gradient —

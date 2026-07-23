@@ -41,7 +41,7 @@
  */
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { resolveImage, assetSrc } from "../lib/images";
+import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
 import { contact, hrefs, SITE_URL } from "../config/site";
 
 const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
@@ -52,8 +52,10 @@ const HUB_PATH = "/fender-guitars-serial-number-guide/";
 // PREVIEW-ONLY. The condensed hub currently lives at its own preview URL, so the
 // visible back/cross-check links point THERE and the spoke set clicks through end
 // to end. HUB_PATH above stays canonical and still feeds the schema + breadcrumb.
-// TODO(launch): set HUB_HREF = HUB_PATH and delete this comment, once the
-// condensed hub replaces the live guide at /fender-guitars-serial-number-guide/.
+// TODO(launch): (1) set HUB_HREF = HUB_PATH and delete this comment; (2) strip
+// "(Preview)" from the <Layout title>; (3) set noIndex={false}; (4) remove the
+// .fspot-preview-note banner, once the condensed hub replaces the live guide at
+// /fender-guitars-serial-number-guide/.
 const HUB_HREF = "/fender-serial-hub-preview/";
 
 // ---- Data ----
@@ -77,7 +79,7 @@ const supplierRows = [
 const valueRows = [
   ["250K", "The Fender standard on single-coil guitars from 1950 on. Rolls a little top end off and keeps a single coil from turning harsh."],
   ["1 Meg", "The Jazzmaster carried 1 Meg from its debut, the Telecaster moved to it around 1969, and the 1970s Wide Range humbucker models used it too. Much brighter and more cutting, because far less signal bleeds off."],
-  ["100K", "The earliest 1954 Stratocasters, on a solid brass shaft, before Fender settled on 250K around that October. Rare, and worth a second look if you find one."],
+  ["100K", "The earliest 1954 Stratocasters, on a solid brass shaft, before Fender settled on 250K around that September. Rare, and worth a second look if you find one."],
 ];
 const capRows = [
   ["1949", "Prototypes", "Assorted paper and wax", "Whatever radio-grade parts Leo had on the bench. The control plate has no toggle switch yet."],
@@ -147,7 +149,9 @@ const articleSchema = {
     "Read the maker and date code stamped on your Fender's potentiometers to date the guitar to the week, then cross-check it against the neck date. A step-by-step pot-code guide from a vintage Fender appraiser.",
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
-  image: img("cts-pot-code-for-fender-guitars-rotated.jpg"),
+  image: `${SITE_URL}${img("cts-pot-code-for-fender-guitars-rotated.jpg")}`,
+  datePublished: "2026-07-22",
+  dateModified: "2026-07-22",
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
@@ -188,9 +192,10 @@ const breadcrumbSchema = {
 
 <Layout
   title="How To Read Fender Pot Codes: Potentiometer Dating Guide (Preview)"
-  description="Read the maker and date code stamped on your Fender's pots to date the guitar to the week. A step-by-step potentiometer dating guide from a vintage Fender appraiser."
+  description="Read the maker and date code on your Fender's pots to date the guitar to the week. A step-by-step potentiometer dating guide from a vintage Fender appraiser."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${img("cts-pot-code-for-fender-guitars-rotated.jpg")}`}
+  {...ogCardSize("images/fender-sn/cts-pot-code-for-fender-guitars-rotated.jpg")}
   ogImageAlt="A CTS potentiometer on a vintage Fender with the maker code 137 and date code visible"
   ogType="article"
   noIndex={true}
@@ -214,7 +219,7 @@ const breadcrumbSchema = {
         <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
         <span class="eyebrow">Fender Dating Methods</span>
         <h1>Fender Pot Codes: How To Date A Fender By Its Potentiometers</h1>
-        <p class="lead">There is a code stamped into the side of your volume pot, and it dates that pot to the week it was made. Not the year. The week. Read it properly and it is the tightest date anywhere on the guitar, as long as you know what it can and cannot tell you.</p>
+        <p class="lead">There is a code stamped into the side of the back of your volume pot, and it dates that pot to the week it was made. Not the year. The week. Read it properly and it is the tightest date anywhere on the guitar, as long as you know what it can and cannot tell you.</p>
         <div class="trust">
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
         </div>
@@ -259,7 +264,7 @@ const breadcrumbSchema = {
         <p class="note-sm">Watch Joe get to the pots and read the codes. The clip starts right at that step.</p>
 
         <p>The knobs stay put through all of this. The pots are mounted to the pickguard or the control plate, so they lift out with it and you read the codes off the backs with the knobs still on. Nobody needs to pull a knob to date a Fender.</p>
-        <p>If you aren't comfortable opening the guitar up, don't force it. A stripped screw or a cracked pickguard costs more than the answer. Get in touch before you take anything apart and I'll help, or read the codes for you if you bring the guitar by.</p>
+        <p>If you aren't comfortable opening the guitar up, don't force it. Get in touch before you take anything apart and I'll help, or read the codes for you if you bring the guitar by.</p>
       </div>
     </section>
 
@@ -269,13 +274,13 @@ const breadcrumbSchema = {
     <section id="step1">
       <div class="measure stack">
         <span class="eyebrow">Step 1</span>
-        <h2>Read The Manufacturer Code</h2>
+        <h2>Read The Maker Code</h2>
         <p>The first three digits are the EIA source code, an industry number that names the company that made the pot. Four suppliers show up on vintage Fenders:</p>
         <div class="tablewrap compact"><table>
           <thead><tr><th>Maker code</th><th>Manufacturer</th></tr></thead>
           <tbody>{makerRows.map((r) => (<tr><td data-label="Maker code" class="code">{r[0]}</td><td data-label="Manufacturer">{r[1]}</td></tr>))}</tbody>
         </table></div>
-        <p class="secintro">Fender never made its own pots. It bought them from these suppliers, so the maker code tells you who made the part, not that the guitar is a Fender. CTS, code 137, is the one you'll see most often. A few rarer codes such as 106 for Allen-Bradley exist too, but they seldom appear in a Fender's guitar controls.</p>
+        <p class="secintro">Fender never made its own pots. It bought them from these suppliers, so the maker code names the company that built the pot, such as CTS or Stackpole, not Fender, since Fender never made its own. CTS, code 137, is the one you'll see most often. A few rarer codes such as 106 for Allen-Bradley exist too, but they seldom appear in a Fender's guitar controls.</p>
         <p>That first code matters for more than naming the maker. It always comes first on the casing, so the digits stamped right after it are the date. Find the maker code and it points you straight to the numbers that give the year and the week.</p>
 
         <h3 id="supplier-eras">Which Maker Points To Which Years</h3>
@@ -325,7 +330,7 @@ const breadcrumbSchema = {
         <span class="eyebrow">The One Rule That Matters</span>
         <h2>Pot Codes Give The Earliest Possible Date</h2>
         <p>Here's the rule every appraiser works by. A pot code tells you the earliest the guitar could have been built, never the exact day. Fender bought pots in bulk and pulled them from a parts bin, so a pot could sit for weeks or months before it went into a guitar. A pot dated to the 32nd week of 1959 means the guitar was assembled no earlier than August 1959. It could just as easily be late 1959 or early 1960.</p>
-        <p>That gap gets much wider in the CBS years. CBS bought pots the way a corporation buys anything, and somewhere in the mid-1960s Fender took delivery of an enormous lot of CTS pots. Sources put that purchase in 1966 and in 1967 and the exact year is genuinely disputed, but they agree on what matters: the supply lasted around five years. That makes 1966 codes routine in guitars built through about 1971, and 1967 codes have been reported in guitars as late as 1973. The guitar can be newer than its pots. It can never be older than its latest original pot.</p>
+        <p>That gap gets much wider in the CBS years. CBS bought pots the way a corporation buys anything, and somewhere in the mid-1960s Fender took delivery of an enormous lot of CTS pots. The bulk of that purchase was 1966, and the supply lasted around five years. That makes 1966 codes routine in guitars built through about 1971, and 1967 codes have been reported in guitars as late as 1973. The guitar can be newer than its pots. It can never be older than its latest original pot.</p>
         <p>This is the single most common reason a good guitar gets called a fake. Someone reads a 1966 date code inside a 1970 Stratocaster, decides the pots must have been swapped in from an older guitar, and walks away from something completely correct. On a CBS-era Fender, pots several years older than the build are the expected result, not the warning sign.</p>
         <p>When the pots disagree, majority rules. If three pots read early 1962 and one reads late 1963, the late 1963 pot is a replacement, not the build date. Read all of them, not just one.</p>
       </div>
@@ -346,11 +351,11 @@ const breadcrumbSchema = {
           <thead><tr><th>Value</th><th>Where it belongs</th></tr></thead>
           <tbody>{valueRows.map((r) => (<tr><td data-label="Value" class="code">{r[0]}</td><td data-label="Where it belongs">{r[1]}</td></tr>))}</tbody>
         </table></div>
-        <p>A 250K pot sitting in a Jazzmaster is the version of this you'll meet most often. It isn't a fake guitar, it's a guitar somebody wanted to sound warmer. It still costs you originality.</p>
+        <p>A 250K pot sitting in a <a class="spoke" href="/post/fender-jazzmaster-evolution-guide-1958-1971/">Jazzmaster</a> is the version of this you'll meet most often. It isn't a fake guitar, it's a guitar somebody wanted to sound warmer. It still costs you originality.</p>
 
         <h3 id="tapers">Audio Taper And Linear Taper</h3>
         <p>Taper is how the resistance changes as you turn the knob. An audio taper, marked A or AUD, is shaped to match how your ear actually hears loudness, so the sweep feels even the whole way from 10 down to 0. A linear taper, marked B or LIN, changes in a straight line, which sounds reasonable on paper and feels like an on-off switch in practice, with most of the volume dropping away in the last part of the turn.</p>
-        <p>Don't jump to conclusions on a linear pot, though. Fender fitted them in the 1950s: the 1956 Stratocaster further down this page still wears its original pot stamped 250K LIN, with a Stackpole date code that matches the guitar. Audio taper became the norm later on. Taper is a clue to read next to the date code and the rest of the harness, not a verdict by itself.</p>
+        <p>Don't jump to conclusions on a linear pot, though. Fender fitted them in the 1950s: the <a class="spoke" href="/vintage-fender-stratocaster-value-guide/1956/">1956 Stratocaster</a> further down this page still wears its original pot stamped 250K LIN, with a Stackpole date code that matches the guitar. Audio taper became the norm later on. Taper is a clue to read next to the date code and the rest of the harness, not a verdict by itself.</p>
 
         <h3 id="shafts">Solid Shaft And Split Shaft</h3>
         <p>You can read this one off the knob without touching anything. A tiny set screw in the side of the knob means a solid shaft underneath, smooth all the way round. No set screw means a push-on knob gripping a knurled split shaft. Telecasters, Precision Basses, and Jazz Basses use solid shafts. Stratocasters use split shafts.</p>
@@ -397,16 +402,11 @@ const breadcrumbSchema = {
         </div>
         <p>Before you judge an old cap by ear, know that paper-in-oil caps drift as they age. The moisture barrier breaks down, the wax and oil dry out, and the measured value climbs, so a 0.05 can read 0.07 or higher after sixty years. That's a real part of why two 1957 Stratocasters that look identical can sound noticeably different. A drifted cap is age, not damage, and it is not a reason to replace an original one in a collectable guitar.</p>
         <p>A cap marked 0.047 is not a later part sneaking in either. 0.047 and 0.05 are the same nominal value, written first in Fender's old labeling and then in the modern standard series. In a guitar circuit they behave identically.</p>
-        <p>One caution on the later rows. From 1954 those describe the Stratocaster, because that's the guitar these questions get asked about. The Telecaster kept running a more involved circuit with more than one capacitor in it, so a Tele with two caps in the cavity is not a modified guitar, it's a Tele. Check one against Telecaster wiring for its year rather than against the Strat rows.</p>
+        <p>One caution on the later rows. From 1954 those describe the Stratocaster, because that's the guitar these questions get asked about. The Telecaster kept running a more involved circuit with more than one capacitor in it, so a Tele with two caps in the cavity is not a modified guitar, it's a Tele. Check one against <a class="spoke" href="/post/1952-fender-telecaster-authentication-guide/">Telecaster wiring for its year</a> rather than against the Strat rows.</p>
 
         <h3 id="wire">Cloth Wire And Plastic Wire</h3>
         <p>This is one of the easiest era tells in the whole cavity, and you can see it without touching anything. Through late 1967, Fender used stranded wire in a woven cotton braid. The color scheme goes back to the start of production: black for ground, white for the neck pickup's hot lead, and yellow for the bridge pickup's. You don't strip that wire, you just push the braid back and solder.</p>
         <p>Under CBS, Fender changed to plastic-insulated wire to save time and money. The changeover ran through 1968 while the old cloth stock got used up, so a 1968 guitar can honestly have either one, or both. Cloth wire in a 1972 guitar is the combination that should stop you. Color is weaker evidence than the insulation itself here, because odd colors like green and blue show up as ground wires on some cloth-era guitars too.</p>
-
-        <h3 id="hardware">Washers And The Ground Wire</h3>
-        <p>Two small assembly details survive on untouched harnesses. Fender put serrated lock washers between the pot casing and the underside of the pickguard, where the teeth bite in and stop the pot turning when you turn the knob. If those washers are missing, or somebody has put them on the outside where you can see them, the harness has been apart.</p>
-        <p>Fender also left the visible side of the pickguard bare, with no flat dress washer under the nut. A flat washer sitting on top is a sign somebody has had the controls out.</p>
-        <p>On a Stratocaster you should also find a bare solid ground wire, roughly 18 to 20 gauge, soldered across the backs of all three pots. It grounds them, and it braces them, so a pot that works loose can't spin and tear its own wires off.</p>
 
         <h3 id="solder">Solder Joints</h3>
         <p>Original factory joints are neat and small, and after sixty years they carry an even, settled patina with flux still dried around the edge. What you're looking for is not shine, it's consistency. Every joint in an untouched harness aged in the same room for the same number of years, so they should all look like each other.</p>
@@ -426,7 +426,7 @@ const breadcrumbSchema = {
         <p>It helps to know what original looks like too. On an untouched harness everything ages together: the solder joints sit clean and a little dull with a ring of flux still around the edge, and the wire and capacitor match the era the pots point to. That's the whole reason to read <a class="spoke" href="#cavity">the rest of the cavity</a> before you decide.</p>
         <figure class="sfig">
           <LicensedImage src={meta("1965-fender-jaguar-wiring-harness.jpg")} alt="The original wiring harness of a 1965 Fender Jaguar, showing clean factory solder joints with flux around the edges, cloth covered wire, and a period capacitor" width={1600} />
-          <figcaption>An original, untouched 1965 Fender Jaguar harness. The solder joints are clean with flux still around the edges, the wire is cloth covered, and nothing has been resoldered or swapped.</figcaption>
+          <figcaption>An original, untouched <a class="spoke" href="/post/vintage-fender-jaguar-guide/">1965 Fender Jaguar</a> harness. The solder joints are clean with flux still around the edges, the wire is cloth covered, and nothing has been resoldered or swapped.</figcaption>
         </figure>
         <p>A correct pot code also doesn't prove a guitar is all original. That's a whole-instrument call that weighs the neck date, the pickups, the tuners, the hardware, and the finish together. Treat the pot code as one strong input, then line it up with everything else.</p>
       </div>
@@ -439,7 +439,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Put It All Together</span>
         <h2>Cross-Check With The Other Methods</h2>
-        <p>Pot codes are strongest next to the other dating clues. Pair them with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> for the single best two-part check on a vintage Fender, then confirm with the <a class="spoke" href="/fender-pickup-dates/">pickup date codes</a> and the <a class="spoke" href="/fender-body-dates/">body dates</a>. When all of them agree, you have a build date you can stand behind.</p>
+        <p>Pot codes are strongest next to the other dating clues. Pair them with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> for the single best two-part check on a vintage Fender, then confirm with the <a class="spoke" href="/fender-pickup-dates/">pickup date codes</a> and the <a class="spoke" href="/fender-body-dates/">body dates</a>, and read the whole guitar against <a class="spoke" href="/fender-physical-features/">the physical features, the logo, hardware, and plastics</a>. When all of them agree, you have a build date you can stand behind.</p>
         <p class="note-sm">This guide is one of the dating methods behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
       </div>
     </section>
@@ -471,6 +471,7 @@ const breadcrumbSchema = {
             <a class="call" href={hrefs.tel}>Call Or Text Joe: {contact.phone}</a>
             <a class="send" href="/free-appraisal/">Or Send Photos Online</a>
           </div>
+          <p class="note-sm">Curious what a clean example is worth, or thinking about selling? See the <a class="spoke" href="/vintage-fender-stratocaster-value-guide/">Stratocaster value guide</a> or read how to <a class="spoke" href="/sell-my-fender-guitar/">sell your Fender</a>.</p>
         </div>
       </div>
     </section>

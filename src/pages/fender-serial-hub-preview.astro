@@ -14,12 +14,18 @@
 import Layout from "../layouts/Layout.astro";
 import FenderSerialTool from "../components/tools/FenderSerialTool.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { resolveImage, assetSrc } from "../lib/images";
+import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
 import { contact, hrefs, SITE_URL } from "../config/site";
 
 const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
 const img = (file: string) => assetSrc("images/fender-sn/" + file);
 
+// TODO(launch): this page is the condensed rebuild of /fender-guitars-serial-number-guide/.
+// To go live, in ONE pass: (1) set PAGE_PATH to "/fender-guitars-serial-number-guide/"
+// (PAGE_PATH is the single source for canonical + every schema self-reference below,
+// so this one line flips them all); (2) set noIndex={false} on <Layout>; (3) strip
+// " (Preview)" from the <Layout title>; (4) remove the .fshub-preview-note banner;
+// (5) confirm `grep -rn "fender-serial-hub-preview" src/` returns nothing.
 const PAGE_PATH = "/fender-serial-hub-preview/";
 
 // ---- Chart data ----
@@ -76,7 +82,7 @@ const mexicoRows = [
 ];
 const mijRows = [
   ["JV", "5", "1982 to 1984"], ["SQ", "5", "1983 to 1984"], ["A", "5", "mid-1980s"],
-  ["B", "6", "1985 to 1986"], ["F", "6", "1986 to 1987"], ["H", "6", "1988 to 1989"],
+  ["B", "6", "1985 to 1986"], ["F", "6", "1986 to 1987"], ["G", "6", "1987 to 1988"], ["H", "6", "1988 to 1989"],
   ["I or J", "6", "1989 to 1990"], ["K", "6", "1990 to 1991"], ["L", "6", "1991 to 1992"],
   ["M", "6", "1992 to 1993"], ["O, P, or Q", "6", "1993 to 1994"], ["S or T", "6", "1994 to 1995"],
   ["U or N", "6", "1995 to 1996"], ["V", "6", "1996 to 1997"],
@@ -106,13 +112,14 @@ const tocItems: [string, string, number][] = [
   ["#headstock-serials", "Headstock (1976 To Present)", 3],
   ["#import-serials", "Made In Mexico & Japan", 3],
   ["#appraisal", "Free Expert Appraisal", 2],
+  ["#next", "Once You Know The Year", 2],
   ["#about-joe", "About Joe", 2],
 ];
 
 const faqs = [
-  { q: "Where Exactly Is My Fender's Serial Number?", a: "One of six spots depending on the year: the neck plate, the headstock, the bridge plate, or the neck heel. On 1954 Stratocasters only, it is stamped into the plastic tremolo cover." },
+  { q: "Where Exactly Is My Fender's Serial Number?", a: "One of six spots depending on the year: the neck plate, the front or back of the headstock, the bridge plate, or the neck heel. On 1954 Stratocasters only, it is stamped into the plastic tremolo cover." },
   { q: "Can The Serial Alone Tell Me The Exact Year?", a: "It gives a range, not a single year. Fender pulled plates from bins out of order, so ranges overlap. Confirm the exact year with the neck heel date and pot codes." },
-  { q: "My Serial Isn't In Fender's Official Lookup. Is It Fake?", a: "Almost never. Official lookups only track roughly the last 30 years, and plenty of real serials never match a tidy pattern. Cross-date it by hand instead." },
+  { q: "My Serial Isn't In Fender's Official Lookup. Is It Fake?", a: "Almost never. Fender's official lookup only covers recent production, and plenty of genuine vintage serials never match a tidy pattern. Cross-date it by hand instead." },
   { q: "Are Custom Shop R Numbers A Reliable Date?", a: "No. R doesn't stand for Relic or Reissue, and there's no reliable dating scheme for it. Reference the Certificate of Authenticity, or check the neck heel dates and pot codes." },
   { q: "Do You Appraise Or Buy Vintage Fenders?", a: "Both. Free appraisals, and I buy outright with same-day payment. Send me three photos and I'll tell you the real story." },
 ];
@@ -125,10 +132,12 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "Fender Serial Number Lookup: Free Decoder & Dating Guide",
-  description: "Decode any Fender serial number, then confirm the year with neck heel dates and pot codes. Free lookup plus complete year-by-year charts from a vintage Fender appraiser.",
+  description: "Decode any Fender serial number, then confirm the year with neck heel dates and pot codes. Free lookup plus year-by-year charts from a vintage Fender appraiser.",
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
-  image: img("fender-bridge-plate-serial-number-scaled.jpg"),
+  image: `${SITE_URL}${img("fender-bridge-plate-serial-number-scaled.jpg")}`,
+  datePublished: "2026-07-22",
+  dateModified: "2026-07-22",
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   hasPart: spokeSlugs.map((s) => ({ "@type": "WebPage", "@id": `${SITE_URL}${s}` })),
@@ -173,9 +182,10 @@ const breadcrumbSchema = {
 
 <Layout
   title="Fender Serial Number Lookup: Free Decoder & Dating Guide (Preview)"
-  description="Decode any Fender serial number, then confirm the year with neck heel dates and pot codes. Free lookup plus complete year-by-year charts from a vintage Fender appraiser."
+  description="Decode any Fender serial number, then confirm the year with neck heel dates and pot codes. Free lookup plus year-by-year charts from a vintage Fender appraiser."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${img("fender-bridge-plate-serial-number-1024x683.jpg")}`}
+  {...ogCardSize("images/fender-sn/fender-bridge-plate-serial-number-1024x683.jpg")}
   ogImageAlt="The bridge plate serial number on a 1952 Fender Telecaster"
   ogType="article"
   noIndex={true}
@@ -248,7 +258,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">The Serial Number Is Just Part Of The Story</span>
         <h2>Cross-Check With Other Dating Features</h2>
-        <p class="note-sm">A serial gets you close, and official lookups only track roughly the last 30 years of production. The parts pin the real date. There are five ways in, and each one is a full step-by-step guide:</p>
+        <p class="note-sm">A serial gets you close, but serial numbers are not 100% reliable, so you have to cross-check to land on an exact year. The parts pin down the real date. There are five ways in, and each one is a full step-by-step guide:</p>
         <div class="cards3">
           <a class="mcard" href="/fender-pot-codes/">
             <span class="num">Path 1: Electronics</span>
@@ -271,7 +281,7 @@ const breadcrumbSchema = {
           <a class="mcard" href="/fender-pickup-dates/">
             <span class="num">Path 4: The Pickups</span>
             <h3>Pickup Date Codes</h3>
-            <p>Read the date on the base of a pickup, then use the pickup's own build, the pole pieces, the flatwork color, and the coil wire, to place it in an era.</p>
+            <p>Read the date on the base of a pickup, then use the pickup's own build, the pole pieces, the bobbin color, and the coil wire, to place it in an era.</p>
             <span class="go">Read Pickup Dates</span>
           </a>
           <a class="mcard" href="/fender-physical-features/">
@@ -330,7 +340,7 @@ const breadcrumbSchema = {
         </table></div>
         <div class="tip">
           <p>This 1960 Stratocaster carries its serial along the <b>bottom edge of the neck plate</b>. The location makes people doubt the serial is authentic, but Fender really did stamp some plates this way. I have watched original guitars get called fakes over exactly this.</p>
-          <div class="tipimg"><LicensedImage src={meta("1957-fender-esquire-blonde-code.jpg")} alt="1960 Fender Stratocaster neck plate with the serial number stamped along the bottom edge" width={540} /></div>
+          <div class="tipimg"><LicensedImage src={meta("1960-fender-stratocaster-neck-plate-code.jpg")} alt="1960 Fender Stratocaster neck plate with the serial number stamped along the bottom edge" width={540} /></div>
         </div>
 
         <h3 class="tbl" id="l-series"><span class="tag">C</span> L-Series Transition Plates</h3>
@@ -710,48 +720,6 @@ const breadcrumbSchema = {
 
 <script is:inline>
   (function () {
-    var V = [
-      {re:/^L\d{4,6}$/i, y:"L-series: 1963 to 1965", vint:1, n:"Pre-CBS, straddling the CBS takeover. Confirm with the neck heel date."},
-      {re:/^F?\d{6}$/i, y:"Big F-plate era: 1965 to 1976", vint:1, n:"CBS-era six-digit plate. The year ranges are estimates, so cross-check the neck date."},
-      {re:/^\d{4,5}$/, y:"Neck-plate era: likely 1954 to 1963", vint:1, n:"Pre-CBS four or five digit plate, or a later reissue reusing the format. The neck heel date settles it."},
-      {re:/^S\d{4,6}$/i, y:"S-prefix: 1970s", vint:0, n:"Headstock decal era. The digit after S is the year within the decade."},
-      {re:/^E\d{4,6}$/i, y:"E-prefix: 1980s", vint:0, n:"Headstock decal era. Confirm the exact year with the neck heel date."},
-      {re:/^N\d{4,7}$/i, y:"N-prefix: 1990s", vint:0, n:"N means the nineties. The next digit is the year."},
-      {re:/^Z\d{4,7}$/i, y:"Z-prefix: 2000s USA", vint:0, n:"Z means the 2000s. The next digit is the year."},
-      {re:/^US\d{4,}$/i, y:"US-prefix: 2010s onward", vint:0, n:"The first two digits after US are the year. US10 means 2010."},
-      {re:/^JD\d{4,}$/i, y:"JD: Japan Dyna, 2010s", vint:0, n:"The first two digits are the year."},
-      {re:/^(CA|CB|CE)\d{4,6}$/i, y:"Rare 1980s prefix", vint:0, n:"A limited-edition CBS-era run. Same formula as the standard decals, the first digit after the prefix is the year. CA ties to Gold Stratocasters, CB and CE to Precision Bass Specials, Gold Jazz Basses, and Black and Gold Telecasters."},
-      {re:/^MN\d{4,6}$/i, y:"MN: Made in Mexico, 1990s", vint:0, n:"M means Mexico, N means the nineties. The next digit is the year. MN0 means 1990."},
-      {re:/^MZ\d{4,6}$/i, y:"MZ: Made in Mexico, 2000s", vint:0, n:"M means Mexico, Z means the 2000s. The next digit is the year in the decade."},
-      {re:/^MX\d{5,}$/i, y:"MX: Made in Mexico, 2010 onward", vint:0, n:"The one or two digits after MX are the year. MX12 means 2012."},
-      {re:/^(JV|SQ)\d+$/i, y:"Early Made in Japan: 1982 to 1984", vint:0, n:"Read these off the Japan table, not the US logic."},
-      {re:/^CN\d+$/i, y:"Custom Shop: CN, 1990s", vint:0, n:"C means Custom Shop, N means the 90s, and the next digit is the year."},
-      {re:/^CZ\d+$/i, y:"Custom Shop: CZ, 2000s", vint:0, n:"C means Custom Shop, Z means the 2000s, and the next digit is the year."},
-      {re:/^R\d+$/i, y:"Custom Shop: R-prefix", vint:1, n:"R doesn't stand for Relic or Reissue, and there's no reliable dating scheme for it. Reference the COA, or check the neck heel dates and pot codes."},
-      {re:/^V\d{4,7}$/i, y:"V-prefix: American Vintage reissue", vint:1, n:"A reissue, never a vintage original. Fender skipped any clean year formula here, so use the neck heel date."}
-    ];
-    var f = document.getElementById('decoder'), inp = document.getElementById('serial'),
-        res = document.getElementById('result'), ver = document.getElementById('verdict'), note = document.getElementById('note');
-    if (f) f.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var s = (inp.value || '').trim().replace(/\s+/g, '').toUpperCase();
-      if (!s) { res.classList.remove('show'); return; }
-      var hit = null;
-      for (var i = 0; i < V.length; i++) { if (V[i].re.test(s)) { hit = V[i]; break; } }
-      if (hit) {
-        ver.innerHTML = '<b>' + s + '</b> → ' + hit.y;
-        if (hit.vint) {
-          note.innerHTML = hit.n + ' Vintage Fenders never made it into any official database, so treat this as a starting point. Cross-date it with <a class="spoke" href="/fender-pot-codes/">pot codes</a>, the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>, and <a class="spoke" href="/fender-body-dates/">body dates</a>. <a class="cta-inline" href="#cross-check">See all dating methods</a>';
-        } else {
-          note.innerHTML = hit.n + ' <a class="spoke" href="#charts">See the full chart</a>. Confirm the exact year with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>.';
-        }
-      } else {
-        ver.innerHTML = '<b>' + s + '</b> → no automatic match';
-        note.innerHTML = 'That’s common and usually fine. Official lookups only track roughly the last 30 years, and plenty of real serials never match a tidy pattern. Cross-date it with <a class="spoke" href="/fender-pot-codes/">pot codes</a>, the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>, and <a class="spoke" href="/fender-body-dates/">body dates</a>. <a class="cta-inline" href="#cross-check">See all dating methods</a>';
-      }
-      res.classList.add('show');
-    });
-
     // Floating TOC: clone list into the mobile sheet, wire FAB
     var list = document.querySelector('#fshub-toc .fshub-toc__list');
     var body = document.getElementById('fshub-toc-sheet-body');

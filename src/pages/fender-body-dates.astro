@@ -39,7 +39,7 @@
  */
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { resolveImage, assetSrc } from "../lib/images";
+import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
 import { contact, hrefs, SITE_URL } from "../config/site";
 
 const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
@@ -50,20 +50,22 @@ const HUB_PATH = "/fender-guitars-serial-number-guide/";
 // PREVIEW-ONLY. The condensed hub currently lives at its own preview URL, so the
 // visible back/cross-check links point THERE and the spoke set clicks through end
 // to end. HUB_PATH above stays canonical and still feeds the schema + breadcrumb.
-// TODO(launch): set HUB_HREF = HUB_PATH and delete this comment, once the
-// condensed hub replaces the live guide at /fender-guitars-serial-number-guide/.
+// TODO(launch): (1) set HUB_HREF = HUB_PATH and delete this comment; (2) strip
+// "(Preview)" from the <Layout title>; (3) set noIndex={false}; (4) remove the
+// .fspot-preview-note banner, once the condensed hub replaces the live guide at
+// /fender-guitars-serial-number-guide/.
 const HUB_HREF = "/fender-serial-hub-preview/";
 
 // ---- Data ----
 const locationRows = [
-  ["Neck pocket", "The most common spot. A pencil or ink date on the bare wood, sometimes on a strip of masking tape stuck in the pocket.", "The neck"],
+  ["Neck pocket", "The most common spot. A pencil or ink date on the body, sometimes on a strip of masking tape stuck in the pocket.", "The neck"],
   ["Pickup cavities", "A pencil date on the raw wood inside a routed pickup cavity.", "The pickguard"],
-  ["Rear tremolo cavity", "On a Stratocaster, the bare wood in the spring cavity, hidden under the back plate.", "The back plate"],
+  ["Rear tremolo cavity", "On a Stratocaster, on the body in the spring cavity, hidden under the back plate.", "The back plate"],
   ["Control cavity", "Behind the metal control plate on a Telecaster, Jaguar, or Jazz Bass, or under the pickguard on a Stratocaster, Precision Bass, or Jazzmaster.", "The plate or guard"],
 ];
 const formRows = [
   ["Pencil date", "A handwritten month and year in graphite, the most common form on a Fender body."],
-  ["Ink stamp", "A date pressed into the wood with a rubber stamp instead of written by hand."],
+  ["Ink stamp", "A date pressed into the body with a rubber stamp instead of written by hand."],
   ["Masking-tape date", "On 1950s Fenders, a date, sometimes with a worker's name, written on a strip of masking tape stuck inside a cavity."],
   ["A name or initials", "Sometimes a worker wrote a name or initials, like Eddie or Davis, next to the date or in place of one."],
 ];
@@ -94,7 +96,7 @@ const faqs = [
   },
   {
     q: "There's No Date In My Neck Pocket. Why?",
-    a: "Body dating was never as consistent as neck dating, so plenty of real Fenders never got one, and pencil dating was largely phased out by 1965, when the CBS-era factory moved to color-coded inspection stamps or no body mark at all. A pencil mark can also wear off or get sanded away in a refinish, or the date is in a different cavity. Check the pickup routes and, on a Strat, the spring cavity before you decide it's missing.",
+    a: "Body dating was never as consistent as neck dating, so plenty of real Fenders never got one, and systematic body dating tailed off through late 1963 and was essentially gone by 1964, so most 1964-and-later original bodies simply have no pencil date at all. A pencil mark can also wear off or get sanded away in a refinish, or the date is in a different cavity. Check the pickup routes and, on a Strat, the spring cavity before you decide it's missing.",
   },
   {
     q: "The Body Date Is Older Than My Serial Number. Is That Right?",
@@ -115,7 +117,9 @@ const articleSchema = {
     "Find the pencil or ink date Fender wrote inside your guitar's body, in the neck pocket or the cavities, and turn it into a real build date, then cross-check it against the neck date. A step-by-step body-date guide from a vintage Fender appraiser.",
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
-  image: img("1952-fender-precision-bass-body-date.jpg"),
+  image: `${SITE_URL}${img("1952-fender-precision-bass-body-date.jpg")}`,
+  datePublished: "2026-07-22",
+  dateModified: "2026-07-22",
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
@@ -142,9 +146,10 @@ const breadcrumbSchema = {
 
 <Layout
   title="How To Read Fender Body Dates: Neck-Pocket Dating Guide (Preview)"
-  description="Find the pencil or ink date Fender wrote inside your guitar's body, in the neck pocket or the cavities, and turn it into a real build date. A step-by-step body-date guide from a vintage Fender appraiser."
+  description="Find the pencil or ink date Fender wrote inside your guitar's body, in the neck pocket or the cavities, and read it as a build date, from a vintage Fender appraiser."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${img("1952-fender-precision-bass-body-date.jpg")}`}
+  {...ogCardSize("images/fender-sn/1952-fender-precision-bass-body-date.jpg")}
   ogImageAlt="The neck pocket of an early 1950s Fender Precision Bass penciled 3-17-53 with the initials T.G. above the date"
   ogType="article"
   noIndex={true}
@@ -204,13 +209,14 @@ const breadcrumbSchema = {
         <span class="eyebrow">Before You Start</span>
         <h2>Where To Find The Body Date</h2>
         <p>The body date hides in the routed and pocketed areas of the body, so you have to open the guitar up to see it. It can sit in any of a few places, and some Fenders were marked in more than one. Here is where to look and what you take off to get there.</p>
+        <p>The spot also shifted over the decade. On early 1950s instruments the date sits in the neck pocket, then it moves to the body under the neck or lead pickup and becomes standard there by about 1956, so match where you look to the guitar's era.</p>
         <div class="tablewrap"><table>
           <thead><tr><th scope="col">Location</th><th scope="col">What you'll see</th><th scope="col">What comes off</th></tr></thead>
           <tbody>{locationRows.map((r) => (<tr><td data-label="Location">{r[0]}</td><td data-label="What you'll see">{r[1]}</td><td data-label="What comes off" class="yr">{r[2]}</td></tr>))}</tbody>
         </table></div>
-        <p class="secintro">The neck pocket is the first place to look, and taking the neck off shows you the neck heel date at the same time, so one job reads both. The rest hide in the routed cavities. On 1950s Fenders the date is usually penciled right on the bare wood, but you'll also find it on a scrap of masking tape stuck inside, now and then next to a worker's name.</p>
+        <p class="secintro">The neck pocket is the first place to look, and taking the neck off shows you the neck heel date at the same time, so one job reads both. The rest hide in the routed cavities. On 1950s Fenders the date is usually penciled right on the body, but you'll also find it on a scrap of masking tape stuck inside, now and then next to a worker's name.</p>
         <div class="figrow">
-          <figure class="sfig"><LicensedImage src={meta("1955-fender-stratocaster-body-date.jpg")} alt="The rear spring cavity of a 1955 Fender Stratocaster with the back plate removed, the body date on the bare wood behind the tremolo springs" width={1280} /><figcaption>The rear spring cavity of a 1955 Stratocaster, back plate off. The date hides on the bare wood behind the tremolo springs, easy to miss.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("1955-fender-stratocaster-body-date.jpg")} alt="The rear spring cavity of a 1955 Fender Stratocaster with the back plate removed, the body date behind the tremolo springs" width={1280} /><figcaption>The rear spring cavity of a 1955 Stratocaster, back plate off. The date hides on the body behind the tremolo springs, easy to miss.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("1956-fender-telecaster-blonde-24.jpg")} alt="A strip of masking tape inside the control cavity of a 1956 Fender Telecaster, handwritten with a worker's name and the date" width={1280} /><figcaption>The control cavity of a 1956 Telecaster. Here the date is on a strip of masking tape, next to the worker's name, a common find inside 1950s Fenders.</figcaption></figure>
         </div>
         <p>If you aren't comfortable opening the guitar up, don't force it. A stripped screw or a chipped finish costs more than the answer. Get in touch before you take anything apart and I'll help, or read the date for you if you bring the guitar by.</p>
@@ -231,7 +237,7 @@ const breadcrumbSchema = {
           <tbody>{formRows.map((r) => (<tr><td data-label="Form">{r[0]}</td><td data-label="What it looks like">{r[1]}</td></tr>))}</tbody>
         </table></div>
         <div class="figrow">
-          <figure class="sfig"><LicensedImage src={meta("1956-fender-stratocaster-body-date-neck-pickup-cavity.jpg")} alt="A penciled date reading 6-56 on the bare wood inside a 1956 Fender Stratocaster pickup route" width={1280} /><figcaption>A Stratocaster pickup route, penciled 6-56 for June 1956. Pickup routes are a common spot for the date.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("1956-fender-stratocaster-body-date-neck-pickup-cavity.jpg")} alt="A penciled date reading 6-56 on the body inside a 1956 Fender Stratocaster pickup route" width={1280} /><figcaption>A Stratocaster pickup route, penciled 6-56 for June 1956. Pickup routes are a common spot for the date.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("1956-fender-telecaster-blonde-21.jpg")} alt="A body date written on the body inside the bridge pickup cavity of a 1956 Fender Telecaster" width={1280} /><figcaption>A 1956 Telecaster with the date written on the body in the bridge pickup cavity, under where the pickup sits.</figcaption></figure>
         </div>
         <div class="tip">
@@ -251,7 +257,7 @@ const breadcrumbSchema = {
         <p>Two things stop this from being a clean rule, and both matter more than the rule does.</p>
         <p>The practice decayed rather than stopping on a date. Scattered 1964 bodies still carry dates, so a dated early 1964 is not automatically wrong. And well before 1963, solid custom color bodies frequently went out with no body date at all. Sunburst and blonde bodies got dated far more reliably than a Fiesta Red or a Lake Placid Blue did.</p>
         <div class="tip">
-          <p><b>This is why a missing body date proves nothing.</b> It's weak evidence in both directions. On a solid custom color from the 1950s or early 1960s the absence is normal, and those are the most valuable guitars in the room, so a rule of thumb that treats a blank cavity as a red flag will fail you exactly where the money is. Date those bodies from the <a class="spoke" href="/fender-neck-dates/">neck date</a> and the <a class="spoke" href="/fender-pot-codes/">pot codes</a> instead, and read the finish evidence with my <a class="spoke" href="/post/fender-custom-color-authentication-guide/">Fender custom color guide</a>.</p>
+          <p><b>This is why a missing body date proves nothing.</b> It's weak evidence in both directions. Overall, a Fender with no body date is a common thing to see, even on standard sunburst and blonde finishes and especially from 1964 on, so a blank cavity should never condemn a guitar by itself. On a solid custom color from the 1950s or early 1960s the absence is even more expected, and those are the most valuable guitars in the room, so a rule of thumb that treats a blank cavity as a red flag will fail you exactly where the money is. Date those bodies from the <a class="spoke" href="/fender-neck-dates/">neck date</a> and the <a class="spoke" href="/fender-pot-codes/">pot codes</a> instead, and read the finish evidence with my <a class="spoke" href="/post/fender-custom-color-authentication-guide/">Fender custom color guide</a>.</p>
         </div>
         <p>The body is not blank in these years either, it just has no date. Round numbered inspector stamps run through the late 1960s, the ES stamp turns up in 1966, and the circled inspection stamps start in the 1970s. Read those instead, and see the sections below.</p>
       </div>
@@ -267,7 +273,7 @@ const breadcrumbSchema = {
         <p>Dates are not the only ink in there. Most of these marks are factory workflow rather than anything meant for you, but they pin an era, and two of them tell you the guitar went back to Fender.</p>
 
         <h3 id="insp">Inspector Stamps</h3>
-        <p>Round numbered ink stamps, usually green, appear in neck pockets from about 1966 into the early 1970s. They are inspection marks and the number is an inspector code, not a date. From the mid 1970s these give way to a circled FRR stamp, often alongside INSP. FRR stands for Fender, Rogers, and Rhodes, the CBS-era divisions, and it ran into the early 1980s.</p>
+        <p>Round numbered ink stamps, usually green, appear in neck pockets from about 1966 into the early 1970s. They are inspection marks and the number is an inspector code, not a date. Don't confuse this round green body inspector stamp with the coded green CBS neck date stamp used from 1969 onward, which is a genuine date stamped on the neck heel and is explained on the <a class="spoke" href="/fender-neck-dates/">Fender neck dates page</a>, so you don't wave off a real neck date as a meaningless inspector code. From the mid 1970s these give way to a circled FRR stamp, often alongside INSP. FRR is usually read as Fender, Rogers, and Rhodes, the CBS-era Musical Instruments divisions, though collectors expand it other ways, and it ran into the early 1980s.</p>
 
         <h3 id="es">The ES Stamp</h3>
         <p>A block-letter ES turns up under the pickguard and in the control routes of 1966 instruments. The usual story is that it stands for Entered Special, and that it marks something out of the ordinary: a special order for a dealer, a guitar built for an artist, or one of Fender's own show pieces for a NAMM booth. It's a good story, and it might be part of the truth. What ES does not mean, either way, is a factory refinish.</p>
@@ -307,6 +313,10 @@ const breadcrumbSchema = {
         <h2>The Body Date Dates The Body</h2>
         <p>Here's the rule every appraiser works by. The body date tells you when the body was made, not when the guitar was assembled. Fender prepped bodies ahead of the line, so the body date lands at the build or a little before it. On an original, unmodified Fender the body date, the neck date, and the serial all sit within a few months of each other.</p>
         <p>Body dates on Stratocasters get overlooked all the time, because they hide in the spring cavity under the tremolo back plate. On a guitar sold as a 1959 Strat, the body date should read sometime in 1958 or early 1959, since the body was prepped ahead of assembly. If the body date reads 1962, the body was replaced at some point. That doesn't make it a bad guitar, but it's a different guitar than a 100% original 1959, and the price should reflect that.</p>
+        <p>When the body date, the neck date, and the serial all line up, you can see what a clean example is worth in my <a class="spoke" href="/vintage-fender-stratocaster-value-guide/">Stratocaster value guide</a> and <a class="spoke" href="/vintage-fender-telecaster-value-guide/">Telecaster value guide</a>, and when you're ready to move it, here is how to <a class="spoke" href="/sell-my-fender-guitar/">sell a vintage Fender</a>.</p>
+        <div class="tip">
+          <p><b>A date can be added.</b> A pencil or ink date can be written into a reproduction or partscaster body, and modern reissues reproduce these cavity marks cosmetically, so a date on its own is not proof of anything. Corroborate it with the neck date, the pot codes, and the overall build before you trust it.</p>
+        </div>
       </div>
     </section>
 
@@ -315,8 +325,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Keep It Honest</span>
         <h2>What A Body Date Can't Prove</h2>
-        <p>A body date dates the body and nothing else. It only speaks for the guitar when the body is original, so line the body date up with the neck date and the serial. When one of them sits years off from the other two, that's your sign a part was swapped, most often the body or the neck.</p>
-        <p>A correct body date also doesn't prove a guitar is all original. That's a whole-instrument call that weighs the neck date, the pot codes, the pickups, the hardware, and the finish together. Treat the body date as one solid clue, then line it up with everything else.</p>
+        <p>A body date dates the body and nothing else. A correct body date doesn't prove a guitar is all original. That's a whole-instrument call that weighs the neck date, the pot codes, the pickups, the hardware, and the finish together. Treat the body date as one solid clue, then line it up with everything else.</p>
       </div>
     </section>
 
@@ -327,7 +336,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Put It All Together</span>
         <h2>Cross-Check With The Other Methods</h2>
-        <p>The body date is strongest next to the other clues. Pair it with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> right above it in the pocket, then confirm the year with the <a class="spoke" href="/fender-pot-codes/">pot codes</a> and the <a class="spoke" href="/fender-pickup-dates/">pickup date codes</a>. When the body date, the neck date, and the serial all agree, you have a build date you can stand behind.</p>
+        <p>The body date is strongest next to the other clues. Pair it with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> right above it in the pocket, then confirm the year with the <a class="spoke" href="/fender-pot-codes/">pot codes</a> and the <a class="spoke" href="/fender-pickup-dates/">pickup date codes</a>. For a fuller picture, line those up with the <a class="spoke" href="/fender-physical-features/">physical feature dating</a> on the hardware and finish. When the body date, the neck date, and the serial all agree, you have a build date you can stand behind.</p>
         <p class="note-sm">This guide is one of the dating methods behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
       </div>
     </section>

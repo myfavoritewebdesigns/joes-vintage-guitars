@@ -53,7 +53,7 @@
  */
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { resolveImage, assetSrc } from "../lib/images";
+import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
 import { contact, hrefs, SITE_URL } from "../config/site";
 
 const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
@@ -64,19 +64,21 @@ const HUB_PATH = "/fender-guitars-serial-number-guide/";
 // PREVIEW-ONLY. The condensed hub currently lives at its own preview URL, so the
 // visible back/cross-check links point THERE and the spoke set clicks through end
 // to end. HUB_PATH above stays canonical and still feeds the schema + breadcrumb.
-// TODO(launch): set HUB_HREF = HUB_PATH and delete this comment, once the
-// condensed hub replaces the live guide at /fender-guitars-serial-number-guide/.
+// TODO(launch): (1) set HUB_HREF = HUB_PATH and delete this comment; (2) strip
+// "(Preview)" from the <Layout title>; (3) set noIndex={false}; (4) remove the
+// .fspot-preview-note banner, once the condensed hub replaces the live guide at
+// /fender-guitars-serial-number-guide/.
 const HUB_HREF = "/fender-serial-hub-preview/";
 
 // ---- Data ----
 const pencilRows = [
   ["5-57", "May 1957"],
-  ["11-62", "November 1962"],
+  ["9-60", "September 1960"],
 ];
 const stampParts = [
-  ["First 1 to 2 digits", "Model code. Ignore it for dating.", "1"],
-  ["Next 1 to 2 digits", "Month, 01 to 12.", "APR"],
-  ["Next 2 digits", "Year, the last two digits. 63 means 1963.", "63"],
+  ["First 1 to 2 digits", "Model code. Ignore it for dating.", "13"],
+  ["Next 3 letters", "Month, a three-letter abbreviation such as JAN for January.", "JAN"],
+  ["Next 2 digits", "Year, the last two digits. 66 means 1966.", "66"],
   ["Final letter", "Neck width. A narrow, B standard, C wide, D extra wide.", "B"],
 ];
 const modelRows = [
@@ -132,7 +134,7 @@ const faqs = [
   },
   {
     q: "There's No Date On My Neck Heel. Why?",
-    a: "A few reasons, and one of them isn't a fault at all. Fender deliberately stopped penciling heel dates for a window in mid to late 1959, around the time the slab rosewood board arrived, and resumed in 1960, so a genuine 1959 neck can come out blank. Beyond that, heel marking got patchy through the mid 1970s as serial numbers moved to the headstock decal. A pencil date can also wear off or get sanded away in a refret or refinish, or it's there but too faint to see. Send me a clear photo of the heel in raking light and I'll tell you what's there.",
+    a: "A few reasons, and one of them isn't a fault at all. Fender deliberately stopped penciling heel dates for a window in the spring of 1959, around the time the slab rosewood board arrived, and resumed in 1960, so a genuine 1959 neck can come out blank. Beyond that, heel marking got patchy through the mid 1970s as serial numbers moved to the headstock decal. A pencil date can also wear off or get sanded away in a refret or refinish, or it's there but too faint to see. Send me a clear photo of the heel in raking light and I'll tell you what's there.",
   },
   {
     q: "What Does The Letter On The Ink Stamp Mean?",
@@ -153,7 +155,9 @@ const articleSchema = {
     "Read the pencil date or ink stamp on your Fender's neck heel to date the guitar to the month, then cross-check it against the pot codes. A step-by-step neck-date guide from a vintage Fender appraiser.",
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
-  image: img("1959-fender-jazzmaster-neck-heel.jpg"),
+  image: `${SITE_URL}${img("1959-fender-jazzmaster-neck-heel.jpg")}`,
+  datePublished: "2026-07-22",
+  dateModified: "2026-07-22",
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
@@ -197,6 +201,7 @@ const breadcrumbSchema = {
   description="Read the pencil date or ink stamp on your Fender's neck heel to date the guitar to the month. A step-by-step neck-date guide from a vintage Fender appraiser."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${img("1959-fender-jazzmaster-neck-heel.jpg")}`}
+  {...ogCardSize("images/fender-sn/1959-fender-jazzmaster-neck-heel.jpg")}
   ogImageAlt="The neck heel of a 1959 Fender Jazzmaster with a pencil date reading 1-59 for January 1959"
   ogType="article"
   noIndex={true}
@@ -286,6 +291,9 @@ const breadcrumbSchema = {
           <tbody>{pencilRows.map((r) => (<tr><td data-label="Pencil date" class="code">{r[0]}</td><td data-label="Reads as" class="yr">{r[1]}</td></tr>))}</tbody>
         </table></div>
         <p class="secintro">So 5-57 reads as May 1957. That is the whole method for a penciled neck. The only trap is a faint or half-erased pencil mark, which is why a raking-light photo beats a quick glance in the pocket.</p>
+        <div class="figrow single">
+          <figure class="sfig"><LicensedImage src={meta("fender-neck-heel-pencil-date-decoder.jpg")} alt="A Fender neck heel with a pencil date marking in month-year format" width={1280} /><figcaption>A penciled neck heel date. Month first, then the year.</figcaption></figure>
+        </div>
 
         <h3 id="early-day">Early 1950s Necks Often Carry The Day As Well</h3>
         <p>Month and year is the format you'll meet most, but it isn't the earliest one. On Broadcasters, Nocasters, early Telecasters, and Stratocasters from 1950 into early 1955, the worker frequently wrote the exact day too, so you get something like 6-4-52 or 10-12-54 instead of a bare 6-52. Three numbers on an early neck is normal. It does not mean somebody has written on it since.</p>
@@ -294,10 +302,7 @@ const breadcrumbSchema = {
         <h3 id="gap-1959">The 1959 Gap, When Fender Stopped Dating Necks</h3>
         <p>There's a window in 1959 that catches people out. Around March or April, close to when the slab rosewood board came in, Fender stopped penciling dates on neck heels. The practice came back in 1960. In between, a genuine, untouched, correct 1959 neck can come out of the pocket with nothing written on it at all.</p>
         <p>The story on the bench is that a customer complained about something profane a worker had penciled on a heel. It's a good story, and it may well be true, but it has never been documented, so treat it as shop legend rather than history. The gap itself is real and is the part that matters.</p>
-        <p>The practical upshot: on a suspected 1959, a blank heel is not evidence of a refinish or a swapped neck. Date it from the body date, the pot codes, and the hardware instead. Not every neck in the window is blank either, so a dated late-1959 neck is not a problem in itself.</p>
-        <div class="figrow single">
-          <figure class="sfig"><LicensedImage src={meta("fender-neck-heel-pencil-date-decoder.jpg")} alt="A Fender neck heel with a pencil date marking in month-year format" width={1280} /><figcaption>A penciled neck heel date. Month first, then the year.</figcaption></figure>
-        </div>
+        <p>The practical upshot: on a suspected 1959, a blank heel is not evidence of a refinish or a swapped neck. Date it from the body date, the pot codes, and the hardware instead. Not every neck in the window is blank either, so a dated late-1959 neck is not a problem in itself. Our <a class="spoke" href="/post/1959-fender-telecaster-authentication-guide/">1959 Telecaster authentication guide</a> walks a genuine 1959 Fender through this same reasoning.</p>
       </div>
     </section>
 
@@ -311,7 +316,7 @@ const breadcrumbSchema = {
           <thead><tr><th>Part of the stamp</th><th>What it means</th><th>Example</th></tr></thead>
           <tbody>{stampParts.map((r) => (<tr><td data-label="Part of the stamp">{r[0]}</td><td data-label="What it means">{r[1]}</td><td data-label="Example" class="code">{r[2]}</td></tr>))}</tbody>
         </table></div>
-        <p class="secintro"><b>Worked example.</b> 1APR63B reads as April 1963 on a standard B-width neck. Ignore the model code for dating; the month and the year are what you are after, and the letter is just the nut width. Here is the stamp broken down:</p>
+        <p class="secintro"><b>Worked example.</b> 13JAN66B reads as January 1966 on a standard B-width neck. Ignore the model code for dating; the month and the year are what you are after, and the letter is just the nut width. Here is the stamp broken down:</p>
         <div class="figrow single">
           <figure class="sfig"><LicensedImage src={meta("fender-neck-heel-ink-stamp-decoder-scaled-1.jpg")} alt="A Fender neck heel ink stamp decoder showing the model code, month, year, and neck width" width={1280} /><figcaption>The ink stamp broken down: a model code, then the month, the year, and a final letter for neck width.</figcaption></figure>
         </div>
@@ -348,7 +353,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Reference</span>
         <h2>Neck Stamp Model Codes</h2>
-        <p>The first one or two digits of an ink stamp or a green code are the model number. Here is what those numbers mean. The same model can carry different codes across the years, which is a dating clue in itself.</p>
+        <p>The first one or two digits of an ink stamp or a green code are the model number. Here is what those numbers mean. The same model can carry different codes across the years, which is a dating clue in itself. The Stratocaster is the clearest case, and our <a class="spoke" href="/post/1962-fender-stratocaster-authentication-guide/">1962 Stratocaster authentication guide</a> works a real early example through the details.</p>
         <div class="tip">
           <p><b>Fender renumbered the models at the end of 1965.</b> This is the part that trips people up, and it is worth more than any single code in the table. A model does not keep one number for the whole era. The Stratocaster runs 2 through 1965, then 13 from 1966 to 1968, then 22 from 1968 to about 1973. The Jaguar runs 1 through 1965, then 15 from 1966. So a 1965 Strat heel reads 2MAY65B and a 1966 one reads 13MAY66B, and the guitar in front of you has not changed model, only the year has. If you are working from an old code list that stops at 1965, it will tell you a 1966 Stratocaster is something it is not.</p>
         </div>
@@ -394,6 +399,7 @@ const breadcrumbSchema = {
         <h2>What A Neck Date Can't Prove</h2>
         <p>A neck date dates the neck and nothing else. It only speaks for the guitar when the neck is original, so make sure the neck date, the body date, and the serial all tell a consistent story. A neck date that sits years off from everything else points to a swapped neck.</p>
         <p>A correct neck date also doesn't prove a guitar is all original. That's a whole-instrument call that weighs the body date, the pot codes, the pickups, the hardware, and the finish together. Treat the neck date as your strongest single clue, then line it up with everything else.</p>
+        <p>One more honest caveat: a heel stamp itself can be faked or re-applied, and a refinished or reproduction neck can wear a date that looks right. A plausible date is not proof on its own. Judge the character of the ink or graphite and the patina around it, then cross-check the pots, the pickups, and the hardware before you trust it.</p>
       </div>
     </section>
 
@@ -404,8 +410,9 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Put It All Together</span>
         <h2>Cross-Check With The Other Methods</h2>
-        <p>The neck date is strongest next to the other clues. Pair it with the <a class="spoke" href="/fender-pot-codes/">pot codes</a> for the single best two-part check on a vintage Fender, then confirm with the <a class="spoke" href="/fender-body-dates/">body date</a> in the neck pocket and the serial number. On an original guitar the neck date, the body date, and the serial all land within a few months of each other.</p>
+        <p>The neck date is strongest next to the other clues. Pair it with the <a class="spoke" href="/fender-pot-codes/">pot codes</a> for the single best two-part check on a vintage Fender, then confirm with the <a class="spoke" href="/fender-body-dates/">body date</a> in the neck pocket and the serial number. Read it alongside <a class="spoke" href="/fender-pickup-dates/">the pickup date codes</a> and <a class="spoke" href="/fender-physical-features/">the visible parts, the logo, pickguard, saddles and tuners</a> for the full picture. On an original guitar the neck date, the body date, and the serial all land within a few months of each other.</p>
         <p class="note-sm">This guide is one of the dating methods behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
+        <p class="note-sm">Once you have the year, see what a correct example is worth in the <a class="spoke" href="/vintage-fender-stratocaster-value-guide/">Stratocaster</a> and <a class="spoke" href="/vintage-fender-telecaster-value-guide/">Telecaster</a> value guides, or head to <a class="spoke" href="/sell-my-fender-guitar/">sell your Fender</a> when you are ready.</p>
       </div>
     </section>
 

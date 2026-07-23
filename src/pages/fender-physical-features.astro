@@ -37,7 +37,7 @@
  */
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { resolveImage, assetSrc } from "../lib/images";
+import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
 import { contact, hrefs, SITE_URL } from "../config/site";
 
 const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
@@ -48,8 +48,10 @@ const HUB_PATH = "/fender-guitars-serial-number-guide/";
 // PREVIEW-ONLY. The condensed hub currently lives at its own preview URL, so the
 // visible back/cross-check links point THERE and the spoke set clicks through end
 // to end. HUB_PATH above stays canonical and still feeds the schema + breadcrumb.
-// TODO(launch): set HUB_HREF = HUB_PATH and delete this comment, once the
-// condensed hub replaces the live guide at /fender-guitars-serial-number-guide/.
+// TODO(launch): (1) set HUB_HREF = HUB_PATH and delete this comment; (2) strip
+// "(Preview)" from the <Layout title>; (3) set noIndex={false}; (4) remove the
+// .fspot-preview-note banner, once the condensed hub replaces the live guide at
+// /fender-guitars-serial-number-guide/.
 const HUB_HREF = "/fender-serial-hub-preview/";
 
 // ---- Data ----
@@ -57,6 +59,15 @@ const logoRows = [
   ["Spaghetti", "1950 to early 1964", "Thin, elegant script with a fine black outline. The one everybody wants"],
   ["Transition", "Mid-1964 to 1967", "Thicker and bolder, gold foil with a heavier black outline"],
   ["CBS, or TV", "1968 into the 1980s", "Heavy black script with a thin gold outline, drawn to read on television. Usually on the large headstock"],
+];
+const patentRows = [
+  ["No patent numbers", "1954 to about 1960", "The earliest Stratocasters carry no numbers under the logo, only the Original Contour Body line. The blank block is itself the tell."],
+  ["Two numbers, 2,573,254 and 2,741,146", "About 1960 to 1961", "The bridge and pickup patent and the synchronized tremolo patent, the first block to appear."],
+  ["Three numbers, adds 2,960,900", "About 1962 to 1964", "The contour body patent joins the first two. This is the classic spaghetti-logo block."],
+  ["Four numbers, adds 3,143,028", "About late 1964 to 1965", "The neck patent joins, arriving with the transition logo. It was granted in August 1964, so any decal carrying it has to be a 1964 or later guitar."],
+  ["Five numbers, adds 2,817,261", "About 1965 to 1967", "A hum-cancelling twin-coil pickup patent joins on the enlarged CBS headstock. Five is as high as the block ever went."],
+  ["Back down to two, 2,741,146 and 3,143,028", "About 1967 to 1971", "The CBS black-logo era. The list shrinks rather than grows, which is a late-1960s tell on its own."],
+  ["One number, then none", "About 1971 to 1976", "The block dwindles to a single number, then Fender drops it by 1976, when the serial moved to the front of the headstock."],
 ];
 const boardRows = [
   ["One-piece maple", "1950 to mid-1959, and again from the early 1970s", "No separate fretboard at all. The frets go straight into the neck, and a dark walnut skunk stripe runs down the back"],
@@ -70,8 +81,8 @@ const inlayRows = [
   ["Block inlays", "1966 on. Jazzmaster, Jaguar, and the Jazz Bass", "Large rectangular pearloid blocks on a bound neck. The fastest way to call a post-1966 offset from across a room"],
 ];
 const guardRows = [
-  ["Single-ply black Bakelite", "1950 to mid-1954, Telecaster and Esquire", "Thick, heavy, and hard, with no layers visible at the edge. This is the guard the blackguard is named after"],
-  ["Single-ply white vinyl", "Mid-1954 to 1959. Telecaster, Esquire, and the Stratocaster from its 1954 launch", "Smooth white styrene, still a single ply. On a Stratocaster it takes eight screws. This is the whiteguard era"],
+  ["Single-ply black Bakelite", "1950 to mid-1954, Telecaster and Esquire", "Thick, heavy, and hard, with no layers visible at the edge. It is really a fiber-reinforced phenolic, and collectors call it both Bakelite and phenolic. This is the guard the blackguard is named after"],
+  ["Single-ply white vinyl", "Mid-1954 to 1959. Telecaster, Esquire, and the Stratocaster from its 1954 launch", "Smooth white vinyl, still a single ply. On a Stratocaster it takes eight screws. This is the whiteguard era"],
   ["Cellulose nitrate, three-ply", "1959 to mid-1965", "White when it left the factory, and eleven screws on a Stratocaster. The mint green arrives over decades as the nitrate breaks down"],
   ["White PVC, three-ply", "Mid-1965 onward", "Chemically stable. It may go slightly cream, but it never reaches nitrate's mint green"],
 ];
@@ -87,7 +98,7 @@ const tunerRows = [
   ["Kluson, no line", "1950 to mid-1956", "The back of the housing is completely smooth, with no text at all"],
   ["Kluson, single line", "Mid-1956 to mid-1964", "KLUSON DELUXE stamped in one vertical line"],
   ["Kluson, double line", "Mid-1964 to late 1967", "The same words split across two parallel lines"],
-  ["F-style, by Schaller", "Late 1965 to 1983", "Chrome plated, with a large stylized F stamped on the back. Not standard across the main lines until mid to late 1967"],
+  ["F-style", "Late 1965 to 1983", "Chrome plated, with a large stylized F stamped on the back. Not standard across the main lines until mid to late 1967. Schaller became the maker around the mid-1970s"],
 ];
 
 const tocItems: [string, string][] = [
@@ -137,7 +148,9 @@ const articleSchema = {
     "Date a vintage Fender from the parts you can see. Logo styles, fretboard and inlay changes, pickguard materials, bridge saddles, tuners, knobs, and string trees, with the year each one changed.",
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
-  image: img("1967-fender-stratocaster-bridge-saddles.jpg"),
+  image: `${SITE_URL}${img("1967-fender-stratocaster-bridge-saddles.jpg")}`,
+  datePublished: "2026-07-22",
+  dateModified: "2026-07-22",
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
@@ -163,10 +176,11 @@ const breadcrumbSchema = {
 ---
 
 <Layout
-  title="Dating A Fender By Its Parts: Logos, Pickguards, Saddles And Tuners (Preview)"
+  title="Dating A Fender By Its Parts: Logo, Pickguard, Saddles, Tuners (Preview)"
   description="Date a vintage Fender from the parts you can see. Logo styles, inlays, pickguard materials, bridge saddles, tuners and string trees, with the year each one changed."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${img("1967-fender-stratocaster-bridge-saddles.jpg")}`}
+  {...ogCardSize("images/fender-sn/1967-fender-stratocaster-bridge-saddles.jpg")}
   ogImageAlt="The bridge of a 1967 Fender Stratocaster showing stamped steel saddles marked FENDER PAT. PEND."
   ogType="article"
   noIndex={true}
@@ -228,11 +242,24 @@ const breadcrumbSchema = {
           <figure class="sfig"><LicensedImage src={meta("transition-logo-64.jpg")} alt="Fender transition logo, mid-1964 to 1967, thicker bolder gold foil" width={1100} /><figcaption>Transition, mid-1964 to 1967. Thicker and bolder, in gold foil.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("fender-cbs-tv-logo-1968-1980s-on-vintage-stratocaster-headstock.jpg")} alt="Fender CBS or TV logo, 1968 into the 1980s, heavy black script" width={1100} /><figcaption>CBS, or TV, 1968 into the 1980s. Heavy black script drawn to read on camera.</figcaption></figure>
         </div>
-        <div class="tip">
-          <p><b>Read the patent numbers, not just the font.</b> The patent numbers printed under the logo changed almost year to year on pre-CBS Fenders, which makes them far more precise than the logo style above them. A guitar sold to you as a 1962 should carry the numbers Fender was printing in 1962. This is the check that catches a good reproduction decal, because getting the script right is easy and getting the patent list right for one specific year is not.</p>
-        </div>
         <p><b>The models didn't change together, and this catches people.</b> The Stratocaster moved to the transition logo in mid-1964, but the Telecaster and Esquire held onto the spaghetti logo about a year longer, into the middle or end of 1965. So a spaghetti logo on a 1965 Telecaster is correct and original. Read the Stratocaster timeline onto a Tele and you'll date the guitar a year or more too early, which is the kind of mistake that turns into a bad offer in either direction.</p>
         <p class="note-sm">One more trap: the transition logo sits on plenty of guitars that are otherwise pre-CBS in spec. A transition logo does not make a guitar a CBS guitar, and those crossover instruments are often underpriced because people read the logo and stop.</p>
+        <p><b>The headstock grew, too.</b> On the Stratocaster the headstock enlarged from about late 1965, arriving alongside the transition and CBS logos, so the big CBS headstock is a dating tell you can read from across a room. The Telecaster headstock kept its shape, so this one is a Stratocaster check.</p>
+
+        <h3 id="patents">The Patent Numbers Under The Logo</h3>
+        <p>Under the logo, Fender printed a block of patent numbers, and that block grew as the company's patents were granted, then shrank again in the CBS years. Because the list changed over time, the numbers on a headstock help place the guitar, and they are hard for a faker to reproduce exactly. The Stratocaster block is the fullest and the easiest to read, so it leads here, with the Telecaster and the basses after it and the offset guitars at the end. Each family ran its own set of numbers, so always read a decal against the right model.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>What You See</th><th>Years</th><th>What It Tells You</th></tr></thead>
+          <tbody>{patentRows.map((r) => (<tr><td data-label="What you see">{r[0]}</td><td data-label="Years" class="yr">{r[1]}</td><td data-label="What it tells you">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <p>Read this as a bracket, not a birthday. Each block sat on the headstock for two to four years, so the patent list narrows a Stratocaster to a window while the logo style and the headstock size do the finer year-by-year work. Anyone who tells you the numbers change every single year is overselling it.</p>
+        <div class="tip">
+          <p><b>The one rule you can lean on is a floor, not a date.</b> A decal cannot predate the newest patent printed on it. The most useful of them is 3,143,028, the neck patent, granted in August 1964. If it sits under the logo, the guitar is 1964 or later whatever the seller says, because the number did not exist before then. A single patent's own grant date is not the guitar's date, but the newest number on the decal sets the earliest that decal could have been printed.</p>
+        </div>
+        <p>This is also the check that catches a good reproduction decal. Getting the script right is easy. Getting the exact list right for one specific window, with the correct numbers and none that don't belong, is not, and reproductions often carry a number that was never there. One that turns up in fakes and in careless online lists is 2,592,783, which is not a Fender patent at all. It belongs to a heat exchanger, so a headstock wearing it is wrong on its face.</p>
+        <p><b>The Telecaster and Esquire ran a different block.</b> For their first decade they wore no headstock patents at all, so a blank Tele headstock points to 1950 through 1961. Late in 1961 a three-number block turns up under the model name: DES 164,227, the Telecaster body design granted back in 1951, then 2,573,254 for the bridge and pickup, and 2,784,631, a lead-and-rhythm tone circuit that never became a standard feature. The Esquire took the same three on in 1963. When the transition logo arrived in 1965 the block dropped to two, 2,573,254 and 3,143,028, and the CBS black logo in 1967 kept those two but shifted them below the Fender name.</p>
+        <p><b>The Precision Bass is where the online lists usually go wrong.</b> Its block is built around two patents a guitar never wears: 2,976,755, the split-coil bass pickup, and DES 187,001, the design patent for the Precision Bass body. You will see 2,573,254 and 2,968,204 alongside them, and from 1964 the neck patent 3,143,028 joins in. The common slip is to reach for the Jazzmaster's DES 186,826 on a bass decal, which is the wrong design number. The Precision uses DES 187,001.</p>
+        <p><b>The offset guitars keep their own block.</b> A Jazzmaster or Jaguar carries the floating tremolo patent 2,972,923 and the offset body design DES 186,826, neither of which a Stratocaster ever wears. On an offset it works in reverse: the absence of 2,972,923 is the red flag, and its presence is part of what confirms the decal belongs there. The exact block on a Jaguar or a Mustang shifted around more than the record fully pins down, so date those from the logo and the neck first and treat the patent list as backup.</p>
       </div>
     </section>
 
@@ -284,7 +311,7 @@ const breadcrumbSchema = {
         </div>
         <p>The blocks weren't only a guitar thing. The Jazz Bass got them in the middle of 1966 as well, on a bound neck, and for bass collectors that changeover is every bit the anchor the offset guitars are.</p>
         <div class="tip">
-          <p><b>The side dots changed first.</b> In early 1964 Fender switched the little dots on the edge of the neck from clay to pearloid before it switched the ones on the face. So a neck from the first half of 1964 can show dull clay dots on top and bright pearloid dots on the side. That mismatch looks wrong to anyone who hasn't met it before, and it's one of the sharpest tells for the transition period there is.</p>
+          <p><b>The face dots changed first.</b> In late 1964 Fender switched the dots on the face of the board from clay to pearloid while the small dots on the edge of the neck stayed clay into 1965. So a transition neck can show bright pearloid dots on the face and dull clay dots on the side. That mismatch looks wrong to anyone who hasn't met it before, and it's one of the sharpest tells for the transition period there is.</p>
         </div>
       </div>
     </section>
@@ -298,7 +325,7 @@ const breadcrumbSchema = {
         <h2>Pickguard Materials</h2>
         <p>Four materials across the vintage era, and one of them ages in a way nothing else does, which is why the pickguard is often the first thing a dealer looks at.</p>
         <p>The first two matter enormously on a Telecaster, because collectors name whole eras after them. A <b>blackguard</b> is a Telecaster or Esquire from 1950 to the middle of 1954, wearing the thick single-ply black Bakelite guard. In mid-1954 Fender changed to a single-ply white guard, and everything from then to 1959 is a <b>whiteguard</b>. Those aren't nicknames for a color, they're the two halves of the early Telecaster, and the changeover is one of the sharpest value lines on the model. Get it the wrong way round and you've misdated the guitar by years.</p>
-        <p><b>On a Stratocaster there's a faster version of the same check: count the screws.</b> The single-ply white guard the Strat wore from its 1954 launch takes eight of them. The three-ply nitrate guard that replaced it in 1959 takes eleven. You can do that from a photograph. Better still, count the holes in the body rather than the guard, because a guard can be swapped and the holes underneath it cannot. Eleven holes on a guitar sold as a 1956 means the body has worn a later guard, whatever is bolted to it now.</p>
+        <p><b>On a Stratocaster there's a faster version of the same check: count the screws.</b> The single-ply white guard the Strat wore from its 1954 launch takes eight of them. The three-ply nitrate guard that replaced it in 1959 takes eleven. You can do that from a photograph. Better still, count the holes in the body rather than the guard, because a guard can be swapped and the holes underneath it cannot. Eleven holes on a guitar sold as a <a class="spoke" href="/vintage-fender-stratocaster-value-guide/1956/">1956</a> means the body has worn a later guard, whatever is bolted to it now.</p>
         <div class="tablewrap"><table>
           <thead><tr><th>Material</th><th>Years</th><th>What to look for</th></tr></thead>
           <tbody>{guardRows.map((r) => (<tr><td data-label="Material">{r[0]}</td><td data-label="Years" class="yr">{r[1]}</td><td data-label="What to look for">{r[2]}</td></tr>))}</tbody>
@@ -315,7 +342,7 @@ const breadcrumbSchema = {
 
         <h3 id="gold">Gold Anodized Guards</h3>
         <p>The other guard worth knowing is not plastic at all. Fender also made pickguards from anodized aluminum, finished in a warm brushed gold, and they look like nothing else the company built.</p>
-        <p>You'll meet them mainly on Precision Basses and Jazzmasters. They turn up very occasionally on other Fender models too, and when they do it's usually because somebody ordered one that way rather than because the model ever shipped with them as standard. So a gold guard on an unexpected model isn't automatically wrong, it just needs the rest of the guitar to back it up.</p>
+        <p>You'll meet them mainly on <a class="spoke" href="/post/gold-guard-fender-precision-bass/">Precision Basses</a> and Jazzmasters. They turn up very occasionally on other Fender models too, and when they do it's usually because somebody ordered one that way rather than because the model ever shipped with them as standard. So a gold guard on an unexpected model isn't automatically wrong, it just needs the rest of the guitar to back it up.</p>
         <div class="figrow gallery">
           <figure class="sfig"><LicensedImage src={meta("1959-fender-jazzmaster-gold-pickguard.jpg")} alt="A 1959 Fender Jazzmaster in sunburst with a gold anodized aluminum pickguard" width={1600} /><figcaption>A 1959 Jazzmaster with its gold anodized guard, and a clean one. The brushed grain runs the length of the metal and shifts as the light moves across it, which is how anodized aluminum reads next to plastic.</figcaption></figure>
         </div>
@@ -356,7 +383,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">The Tuners</span>
         <h2>Tuners</h2>
-        <p>Fender fitted Kluson Deluxe tuners from 1950 until the CBS years, then moved to F-style tuners made by Schaller. The back of the housing tells you which era you're in.</p>
+        <p>Fender fitted Kluson Deluxe tuners from 1950 until the CBS years, then moved to its own F-stamped tuners. The back of the housing tells you which era you're in.</p>
         <div class="tablewrap"><table>
           <thead><tr><th>Tuner</th><th>Years</th><th>What to look for</th></tr></thead>
           <tbody>{tunerRows.map((r) => (<tr><td data-label="Tuner">{r[0]}</td><td data-label="Years" class="yr">{r[1]}</td><td data-label="What to look for">{r[2]}</td></tr>))}</tbody>
@@ -365,13 +392,13 @@ const breadcrumbSchema = {
           <figure class="sfig"><LicensedImage src={meta("kluson-deluxe-no-line-tuner.jpg")} alt="A no-line Kluson Deluxe tuner with a completely smooth housing back" width={1100} /><figcaption>No line. The housing back is smooth, with nothing stamped on it.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("kluson-deluxe-single-line-tuner-1956-1964-on-vintage-fender-telecaster.jpg")} alt="A single-line Kluson Deluxe tuner on a vintage Fender Telecaster" width={1100} /><figcaption>Single line. KLUSON DELUXE runs down the housing in one column.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("kluson-deluxe-double-line-tuner-1964-1967-on-fender-telecaster.jpg")} alt="A double-line Kluson Deluxe tuner on a Fender Telecaster" width={1100} /><figcaption>Double line. The same words, split into two columns.</figcaption></figure>
-          <figure class="sfig"><LicensedImage src={meta("vintage-kluson-deluxe-tuner-casing-underside-showing-pat.jpg")} alt="The underside of a vintage Kluson Deluxe tuner casing stamped PAT. APPLD." width={1100} /><figcaption>The underside of a no-line Kluson, stamped PAT. APPLD. That marking gives way to a full patent number in 1954.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("vintage-kluson-deluxe-tuner-casing-underside-showing-pat.jpg")} alt="The underside of a vintage Kluson Deluxe tuner casing stamped PAT. APPLD." width={1100} /><figcaption>The underside of a no-line Kluson, stamped PAT. APPLD. That marking gives way to a full patent number around 1958.</figcaption></figure>
         </div>
         <div class="tip">
           <p><b>Don't hang a year on a Kluson stamp.</b> The single-line to double-line changeover is genuinely disputed among researchers, with published dates ranging from the late 1950s to about 1964, and no one has settled it. Double lines on a claimed 1962 are a reason to check the neck date and the pot codes, not a reason to walk away. Anybody who quotes you a single confident year for that change is quoting one source and not telling you the others exist.</p>
         </div>
-        <p><b>The F-style changeover was slow, and the dates in the table overlap for a reason.</b> Fender took the Schaller tuners on around late 1965, and they showed up first on the smaller models, the Mustang and Duo-Sonic. The Stratocaster and Telecaster carried on with double-line Klusons well into 1966 and early 1967, and F-tuners only became the standard across the main electric lines in the middle to end of 1967. So double-line Klusons on a 1966 Strat are correct, and F-tuners on one are the thing worth questioning.</p>
-        <p>Two things that are not in dispute. PAT. APPLD. on the underside of a no-line Kluson points to a pre-1954 build, because a full patent number replaced it that year. And Klusons are nickel plated while the F-style Schallers are chrome, so Klusons tarnish to a soft silver grey with age and the Schallers keep a brighter, faintly blue shine. A set that looks too bright to be sixty years old usually is.</p>
+        <p><b>The F-style changeover was slow, and the dates in the table overlap for a reason.</b> Fender took the F tuners on around late 1965, and they showed up first on the smaller models, the Mustang and Duo-Sonic. The Stratocaster and Telecaster carried on with double-line Klusons well into 1966 and early 1967, and F-tuners only became the standard across the main electric lines in the middle to end of 1967. So double-line Klusons on a 1966 Strat are correct, and F-tuners on one are the thing worth questioning.</p>
+        <p>Two things that are not in dispute. PAT. APPLD. on the underside of a Kluson points to a pre-1958 build, because a full patent number replaced it around then. And Klusons are nickel plated while the F-style tuners are chrome, so Klusons tarnish to a soft silver grey with age and the F-tuners keep a brighter, faintly blue shine. A set that looks too bright to be sixty years old usually is.</p>
       </div>
     </section>
 
@@ -385,7 +412,7 @@ const breadcrumbSchema = {
         <p>The cheapest parts on the guitar are also the ones nobody thinks to fake, which is exactly what makes them useful.</p>
 
         <h3 id="knobs">Round Top And Flat Top Knobs</h3>
-        <p>Up to the middle of 1956, Telecasters, Esquires, and early Precision Basses wore round-top Bakelite knobs with a domed crown and coarse, heavy knurling. From mid-1956 Fender moved to the flat-top skirted knob with finer knurling that most people picture. The switch tip changed in the same era: a plain round barrel tip until the end of 1954, then the top hat shape still fitted to Telecasters today.</p>
+        <p>Up to the middle of 1956, Telecasters, Esquires, and early Precision Basses wore round-top Bakelite knobs with a domed crown and coarse, heavy knurling. From mid-1956 Fender moved to the flat-top skirted knob with finer knurling that most people picture. The switch tip changed in the same era: a plain round barrel tip into the mid-1950s, then the top hat shape still fitted to Telecasters today.</p>
         <div class="figrow gallery">
           <figure class="sfig"><LicensedImage src={meta("fender-telecaster-round-top-control-knob-.jpg")} alt="A round-top Bakelite control knob on a vintage Fender Telecaster, used before mid-1956" width={1100} /><figcaption>Round top, before mid-1956. Domed crown, coarse knurling, Bakelite.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("top-hat.jpg")} alt="A top hat style switch tip on a vintage Fender Telecaster, from late 1954 onward" width={1100} /><figcaption>The top hat switch tip, from late 1954. The round barrel tip came before it.</figcaption></figure>
@@ -413,6 +440,7 @@ const breadcrumbSchema = {
         <p>Every part on this page can be unscrewed. That's the limit of the whole method, and it cuts both ways.</p>
         <p>A correct part doesn't prove a guitar is original, because correct parts are exactly what somebody assembling a convincing guitar would fit. A wrong part doesn't prove a guitar is fake either, because sixty-year-old instruments get played, and tuners, string trees, and pickguards wear out and get changed by people who were just keeping a guitar working.</p>
         <p>What features do well is establish a floor and catch contradictions. A pearloid-dot neck cannot be from 1959. A guitar wearing a spaghetti logo, clay dots, and stamped steel saddles has three parts all pointing at the same stretch of years, and that agreement is worth far more than any one of them alone. When one part disagrees with the other four, that part is the story, not the guitar.</p>
+        <p>One more limit worth stating plainly: correct features don't separate an original from a good reissue. The American Vintage and Custom Shop lines deliberately reproduce clay dots, nitrate-style guards, spaghetti logos, and stamped PAT. PEND. saddles, so on a reissue every part can read right. The neck date, the serial, and the pot codes are what tell an original from a faithful reissue.</p>
       </div>
     </section>
 
@@ -425,6 +453,7 @@ const breadcrumbSchema = {
         <h2>Cross-Check With The Other Methods</h2>
         <p>Features get you the era without a screwdriver. To close it down to a date, pair them with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> and the <a class="spoke" href="/fender-pot-codes/">pot codes</a>, then confirm with the <a class="spoke" href="/fender-body-dates/">body date</a> and the <a class="spoke" href="/fender-pickup-dates/">pickup dates</a>. When the parts and the dates agree, you have a build you can stand behind.</p>
         <p class="note-sm">This guide is one of the dating methods behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
+        <p class="note-sm">Once the year is settled, the <a class="spoke" href="/vintage-fender-stratocaster-value-guide/">Stratocaster</a> and <a class="spoke" href="/vintage-fender-telecaster-value-guide/">Telecaster</a> value guides show what a correct example is worth, and if you are thinking about selling, Joe <a class="spoke" href="/sell-my-fender-guitar/">buys vintage Fenders outright</a>.</p>
       </div>
     </section>
 

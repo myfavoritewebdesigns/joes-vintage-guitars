@@ -40,7 +40,7 @@
  */
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { resolveImage, assetSrc } from "../lib/images";
+import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
 import { contact, hrefs, SITE_URL } from "../config/site";
 
 const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
@@ -51,34 +51,36 @@ const HUB_PATH = "/fender-guitars-serial-number-guide/";
 // PREVIEW-ONLY. The condensed hub currently lives at its own preview URL, so the
 // visible back/cross-check links point THERE and the spoke set clicks through end
 // to end. HUB_PATH above stays canonical and still feeds the schema + breadcrumb.
-// TODO(launch): set HUB_HREF = HUB_PATH and delete this comment, once the
-// condensed hub replaces the live guide at /fender-guitars-serial-number-guide/.
+// TODO(launch): (1) set HUB_HREF = HUB_PATH and delete this comment; (2) strip
+// "(Preview)" from the <Layout title>; (3) set noIndex={false}; (4) remove the
+// .fspot-preview-note banner, once the condensed hub replaces the live guide at
+// /fender-guitars-serial-number-guide/.
 const HUB_HREF = "/fender-serial-hub-preview/";
 
 // ---- Data ----
 const codeRows = [
-  ["115 9", "Trailing 9", "1969"],
+  ["1159", "Trailing 9", "1969"],
   ["1139", "Trailing 9", "1969"],
   ["1140", "Trailing 0", "1970"],
   ["161377", "Trailing 77", "1977"],
-  ["1715 78", "Trailing 78", "1978"],
+  ["171578", "Trailing 78", "1978"],
   ["202378", "Trailing 78", "1978"],
 ];
 const eraRows = [
   ["1950 to early 1964", "No date at all", "Fender did not date pickups in this era"],
   ["Early 1964", "A rubber stamp in yellow ink, month spelled out", "JAN 11 64, APR 11 64"],
-  ["Mid-1964 into the late 1960s", "Handwritten in pencil or black marker, numbers only", "1-15-64, 12-6-65"],
+  ["Mid-1964 into the late 1960s", "Handwritten in pencil or marker, numbers only", "1-15-64, 12-6-65"],
   ["About 1969 to 1979", "A black stamped code, three to six digits", "1139, 161377"],
   ["1980 on", "No date. A one-piece black plastic bobbin carrying a part number", "016730"],
 ];
 const featureRows = [
   ["Telecaster poles", "Flush and even from 1950 until late 1955, when Fender raised the D and G poles together", "Flat poles mean either a pre-late-1955 Telecaster or a 1981 and later reissue"],
   ["Stratocaster poles", "Staggered from 1954, flat from about 1974, with 1972 to 1974 mixed", "Flat poles on a claimed 1960s Strat are wrong"],
-  ["Jazzmaster poles", "Never staggered at the factory, sitting level or very slightly curved", "The cover has no pole holes, so this one needs the pickup lifted out"],
-  ["Jaguar poles", "Flat in 1962 and 1963, staggered from 1964, settled by 1965", "The 1963 to 1964 window is genuinely mixed, so a flat-pole 1964 is not wrong on its own"],
-  ["Flatwork color", "Black from 1950, light grey from March 1964, darker grey from about 1968, then black again through 1973 and 1974", "Grey on a claimed 1950s pickup is a red flag. Black on its own proves nothing"],
+  ["Jazzmaster poles", "Never staggered at the factory, sitting level or very slightly curved", "The cover has no pole holes, so this one needs the pickup lifted out", "/post/fender-jazzmaster-evolution-guide-1958-1971/"],
+  ["Jaguar poles", "Flat in 1962 and 1963, staggered from 1964, settled by 1965", "The 1963 to 1964 window is genuinely mixed, so a flat-pole 1964 is not wrong on its own", "/post/vintage-fender-jaguar-guide/"],
+  ["Bobbin color", "Black from 1950, light grey from March 1964, darker grey from about 1968, then black again through 1973 and 1974", "Grey on a claimed 1950s pickup is a red flag. Black on its own proves nothing"],
   ["Coil wire color", "Formvar, a golden orange, until 1964. Plain enamel, a dark burgundy, from 1964 on", "Readable at the edge of the coil without taking anything apart"],
-  ["Magnet tops", "Sand cast, rough and pitted, with a bevelled top edge until about 1965. Smoother and squarer after", "A crisp, clean, unbevelled magnet on a claimed 1950s pickup is wrong"],
+  ["Magnet tops", "Sand cast, rough and pitted early on, smoother and squarer from the mid-1960s. The bevelled top edge on the staggered poles runs until the flat-pole change around 1974", "A crisp, clean, unbevelled magnet on a claimed 1950s pickup is wrong"],
   ["Lead wire", "Cloth covered pushback until about 1967, plastic from about 1968", "Cloth leads run well into 1968, so a cloth-lead 1968 pickup is fine"],
   ["Potting", "Dipped in hot wax early on, lacquered from the late 1960s, back to wax in late 1981", "A hard, shiny, lacquer-set coil on a claimed 1950s pickup is wrong"],
 ];
@@ -129,7 +131,9 @@ const articleSchema = {
     "Read the pencil, ink, or numeric date on the base of your Fender's pickups to date the guitar, then cross-check it against the pot codes. A step-by-step pickup dating guide from a vintage Fender appraiser.",
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
-  image: img("1966-fender-stratocaster-pickup-dates.jpg"),
+  image: `${SITE_URL}${img("1966-fender-stratocaster-pickup-dates.jpg")}`,
+  datePublished: "2026-07-22",
+  dateModified: "2026-07-22",
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
   isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
@@ -155,10 +159,11 @@ const breadcrumbSchema = {
 ---
 
 <Layout
-  title="How To Read Fender Pickup Date Codes: Pickup Dating Guide (Preview)"
+  title="How To Read Fender Pickup Date Codes: A Dating Guide (Preview)"
   description="Read the pencil, ink, or numeric date on the base of your Fender's pickups to date the guitar. A step-by-step pickup dating guide from a vintage Fender appraiser."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${img("1966-fender-stratocaster-pickup-dates.jpg")}`}
+  {...ogCardSize("images/fender-sn/1966-fender-stratocaster-pickup-dates.jpg")}
   ogImageAlt="The underside of a 1966 Fender Stratocaster pickguard with all three pickups dated November 1966 on the base"
   ogType="article"
   noIndex={true}
@@ -185,7 +190,7 @@ const breadcrumbSchema = {
         </div>
         <figure class="sfig herofig">
           <LicensedImage src={meta("1966-fender-stratocaster-pickup-dates.jpg")} alt="The underside of a 1966 Fender Stratocaster pickguard, its three pickups each dated on the base in November 1966" width={1600} loading="eager" />
-          <figcaption>The underside of a 1966 Stratocaster pickguard. All three pickups are dated on the base within a day of each other, November 1966, just what an original, untouched set should show.</figcaption>
+          <figcaption>The underside of a 1966 Stratocaster pickguard. This set happens to carry a date on all three pickups, within a day of each other in November 1966. How many pickups get a date varies from guitar to guitar, sometimes one, sometimes some, sometimes all, and any of those is right on an original set.</figcaption>
         </figure>
       </div>
     </section>
@@ -209,6 +214,7 @@ const breadcrumbSchema = {
         <h2>What A Pickup Date Is</h2>
         <p>The pickup date is a date the winder wrote or stamped on the base of the pickup, the flat underside the coil is built on. It records when that pickup was made, so it works like the pot codes: another dated part that helps pin down when the guitar came together.</p>
         <p>The catch is consistency. Pickup dating was never as regular as the pot codes, so some original pickups carry a clear date and others carry a faint one or none at all. When a date is there and readable, it's strong corroborating evidence. Like every other part, it dates the pickup, not the whole guitar.</p>
+        <p>This guide covers Fender single-coil guitar pickups, and the same base date works on Fender bass pickups too: the Precision and Jazz Bass pickups read the same way. The one thing that does not follow this story is the 1970s Fender Wide Range humbucker on the Telecaster Deluxe, Custom, and Thinline. It is built differently and does not carry the single-coil bobbin and code marks.</p>
       </div>
     </section>
 
@@ -237,9 +243,13 @@ const breadcrumbSchema = {
         </table></div>
         <p>The handwritten and stamped dates read straight off with no code to crack, so 9-8-65 is September 8, 1965. Sometimes the winder's initials sit beside the date.</p>
         <div class="tip">
-          <p><b>Don't expect every pickup to be dated.</b> On a three-pickup Stratocaster, normally only one of the three carries a date, and there's no rule about which. Telecaster neck pickups usually have no date at all, because the base is too narrow with the magnets coming through. A blank pickup next to a dated one is normal, and an undated Tele neck pickup is not evidence of a replacement.</p>
+          <p><b>Don't expect every pickup to be dated.</b> On a three-pickup Stratocaster the number that carry a date varies, sometimes one, sometimes all three, with no rule about which, so any of those can be original. Telecaster neck pickups usually have no date at all, because the base is too narrow with the magnets coming through. A blank pickup next to a dated one is normal, and an undated Tele neck pickup is not evidence of a replacement.</p>
         </div>
         <p>The other trouble is reading it at all. These marks are small, they sit on a dark fiber base, and decades of grime and handling wear them down, so a real date can be faint to the point of almost gone. A raking-light photo you can zoom into beats squinting at it in the guitar.</p>
+        <div class="figrow gallery">
+          <figure class="sfig"><LicensedImage src={meta("fender-pickup-pencil-dates.jpg")} alt="A faint pencil date reading 1-27-66 on the base of a vintage Fender pickup" width={1200} /><figcaption>A penciled pickup base, 1-27-66 for January 27, 1966. Penciled dates are often faint and hard to make out.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-pickup-date-ink.jpg")} alt="The base of a vintage Fender single-coil pickup, an inked date reading 9-8-65 for September 8, 1965" width={1280} /><figcaption>An inked date on a 1960s pickup base, 9-8-65 for September 8, 1965.</figcaption></figure>
+        </div>
       </div>
     </section>
 
@@ -259,10 +269,8 @@ const breadcrumbSchema = {
         <div class="tip">
           <p><b>Watch the decade on a single digit.</b> When the code ends in just one year digit, it names the year within a decade but not which decade, so a trailing 0 could read 1970 or 1980. The rest of the guitar settles it. Line the pickup year up with the pot codes and the neck date before you commit to a decade.</p>
         </div>
-        <p class="secintro">Here's each format on a real pickup base, up close, a pre-1969 pencil date, an inked one, and a 1970s numeric code:</p>
-        <div class="figrow gallery">
-          <figure class="sfig"><LicensedImage src={meta("fender-pickup-pencil-dates.jpg")} alt="A faint pencil date reading 1-27-66 on the base of a vintage Fender pickup" width={1200} /><figcaption>A penciled pickup base, 1-27-66 for January 27, 1966. Penciled dates are often faint and hard to make out.</figcaption></figure>
-          <figure class="sfig"><LicensedImage src={meta("fender-pickup-date-ink.jpg")} alt="The base of a vintage Fender single-coil pickup, an inked date reading 9-8-65 for September 8, 1965" width={1280} /><figcaption>An inked date on a 1960s pickup base, 9-8-65 for September 8, 1965.</figcaption></figure>
+        <p class="secintro">Here's a 1970s numeric code on a real pickup base, the year stamped at the tail end:</p>
+        <div class="figrow single">
           <figure class="sfig"><LicensedImage src={meta("fender-1970s-pickup-code.jpg")} alt="The base of a 1970s Fender pickup stamped with the numeric code 1140" width={1280} /><figcaption>A 1970s pickup stamped 1140. The final digit, 0, dates it to 1970.</figcaption></figure>
         </div>
       </div>
@@ -275,10 +283,10 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Beyond The Date</span>
         <h2>How The Pickups Changed Over The Years</h2>
-        <p>A pickup that's lost its date isn't a dead end. Fender changed how the pickups were built as the years went on, and those changes narrow the era on their own. The pole pieces, the bobbin color, and the magnets all shifted at known points, so the pickup's own build backs up the date, or stands in for it when the date is gone.</p>
+        <p>A pickup that's lost its date isn't a dead end. Fender changed how the pickups were built as the years went on, and those changes narrow the era on their own. The pole pieces, the bobbin color, and the magnets all shifted at known points, so the pickup's own build backs up the date, or stands in for it when the date is gone. The earliest Stratocaster pickups used Alnico 3 magnets, with Alnico 5 becoming the standard.</p>
         <div class="tablewrap"><table>
           <thead><tr><th scope="col">Feature</th><th scope="col">What to look for</th><th scope="col">What it tells you</th></tr></thead>
-          <tbody>{featureRows.map((r) => (<tr><td data-label="Feature">{r[0]}</td><td data-label="What to look for">{r[1]}</td><td data-label="What it tells you">{r[2]}</td></tr>))}</tbody>
+          <tbody>{featureRows.map((r) => (<tr><td data-label="Feature">{r[3] ? (<a class="spoke" href={r[3]}>{r[0]}</a>) : r[0]}</td><td data-label="What to look for">{r[1]}</td><td data-label="What it tells you">{r[2]}</td></tr>))}</tbody>
         </table></div>
         <div class="figrow single">
           <figure class="sfig"><LicensedImage src={meta("telecaster-pickup-transition.jpg")} alt="An early Fender Telecaster bridge pickup with flat, even pole pieces on a brass-saddle bridge" width={960} /><figcaption>An early Telecaster bridge pickup with flat, even pole pieces. Fender raised the D and G poles in late 1955, so a flat set like this points to an earlier build.</figcaption></figure>
@@ -291,7 +299,7 @@ const breadcrumbSchema = {
         <p>This is the single most useful thing on an undated pickup, and you can see it without taking anything apart. Look at the outside edge of the coil, through the gaps in the string that holds it.</p>
         <p>Until 1964 Fender wound with Formvar-insulated wire, which reads <b>golden orange, a warm copper color</b>. In 1964 it changed to plain enamel, which reads <b>dark burgundy, almost purple</b>. That was a plant-wide change hitting every model at once, which is exactly what makes it useful: it splits pre-1964 from post-1964 on any Fender single coil you pick up.</p>
         <p>Two cautions. Plenty of people have this backwards and will tell you Formvar is the purple one, so check the guitar rather than the forum post. And the earliest Telecaster bridge pickups from 1950 and 1951 used plain enamel before Fender moved to Formvar, so on a Tele a burgundy coil does not automatically mean post-1964.</p>
-        <p>What the color proves is an era, not originality. Modern replacement wire is sold tinted to imitate both, so a rewind can look perfectly right. Read it next to the flatwork color: golden wire on grey flatwork, or burgundy wire on black, is a contradiction worth chasing.</p>
+        <p>What the color proves is an era, not originality. Modern replacement wire is sold tinted to imitate both, so a rewind can look perfectly right. Read it next to the bobbin color: golden wire on a grey bobbin, or burgundy wire on black, is a contradiction worth chasing. The bobbin color changed plant-wide the same way, so it confirms an era rather than pinning an exact year.</p>
 
         <h3 id="handwound">Hand-Wound Is The Wrong Word</h3>
         <p>You'll see vintage Fender pickups described as hand-wound. They weren't, not in the way that phrase suggests. A machine turned the bobbin and a person guided the wire onto it by hand, which is why the winding looks irregular compared to a modern pickup. Winding a coil entirely by hand would take about a week. From 1965 the guiding was automated too.</p>
@@ -300,7 +308,6 @@ const breadcrumbSchema = {
         <div class="tip">
           <p><b>A resistance reading dates nothing.</b> People put meters on vintage pickups and try to work backwards to a year. It cannot be done. Fender wound to a target output on a meter with roughly a twenty percent tolerance, not to a turn count, so two pickups off the same bench on the same day can read noticeably differently. The spread between decades is smaller than the spread within a single year. Use resistance to check a pickup is plausibly a Fender single coil at all, then put the meter away.</p>
         </div>
-        <p class="note-sm">The flatwork color change was plant-wide rather than model by model, so it dates any Fender single coil the same way. Use it to confirm an era rather than to pin an exact year.</p>
       </div>
     </section>
 
@@ -333,7 +340,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Put It All Together</span>
         <h2>Cross-Check With The Other Methods</h2>
-        <p>The pickup date is strongest next to the other clues. Pair it with the <a class="spoke" href="/fender-pot-codes/">pot codes</a>, the other dated electronics under the pickguard, then confirm with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> and the <a class="spoke" href="/fender-body-dates/">body date</a>. When the pickup date, the pot codes, and the neck date all agree, you have a build date you can stand behind.</p>
+        <p>The pickup date is strongest next to the other clues. Pair it with the <a class="spoke" href="/fender-pot-codes/">pot codes</a>, the other dated electronics under the pickguard, then confirm with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a> and the <a class="spoke" href="/fender-body-dates/">body date</a>. Line all of that up with the <a class="spoke" href="/fender-physical-features/">physical features that changed year to year</a>. When the pickup date, the pot codes, and the neck date all agree, you have a build date you can stand behind.</p>
         <p class="note-sm">This guide is one of the dating methods behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
       </div>
     </section>
@@ -361,6 +368,7 @@ const breadcrumbSchema = {
           <span class="eyebrow">Free Expert Appraisal</span>
           <h2>Not Sure What Your Pickups Are Telling You?</h2>
           <p>A pickup date can be faint, and a rewound or swapped pickup can throw off the whole read. If you want a definite build date, send Joe three clear photos, the front, the back, and the base of a pickup, for a free, expert appraisal within 24 hours.</p>
+          <p>Once you have the year, see what the guitar is worth in the <a class="spoke" href="/vintage-fender-stratocaster-value-guide/">Stratocaster value guide</a> or the <a class="spoke" href="/vintage-fender-telecaster-value-guide/">Telecaster value guide</a>, or read how to <a class="spoke" href="/sell-my-fender-guitar/">sell your vintage Fender</a> when you're ready to move it.</p>
           <div class="row">
             <a class="call" href={hrefs.tel}>Call Or Text Joe: {contact.phone}</a>
             <a class="send" href="/free-appraisal/">Or Send Photos Online</a>
