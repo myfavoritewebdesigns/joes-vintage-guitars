@@ -60,11 +60,11 @@ Fender neck plates were not assigned in strict production order. A plate with se
 
 ### The Neck Heel Date, and the 1959 Gap
 
-The most reliable single dating reference on a pre-CBS Fender is the **penciled or stamped date on the butt end of the neck heel**, visible only when the neck is removed from the body. On pre-1959 Telecasters, a Fender employee penciled a date in month-year format directly on the wood, for example, "9 58" for September 1958.
+The most reliable single dating reference on a pre-CBS Fender is the **date on the butt end of the neck heel**, visible only when the neck is removed from the body. On pre-1959 Telecasters, a Fender employee penciled a date in month-year format directly on the wood, for example, "9 58" for September 1958.
 
-In 1959, something unusual happened: a Fender employee had been writing obscene words on neck heels, and when management discovered this, they issued an order to stop writing on necks entirely. The replacement rubber date stamps were not distributed immediately, creating a **window of approximately mid-1959** during which Fender necks carry *no date whatsoever*. A completely blank neck heel on a claimed 1959 Telecaster is therefore not a red flag. It is in fact a period-specific authenticating characteristic for instruments built during that transitional window.
+In 1959, something unusual happened: a Fender employee had been writing obscene words on neck heels, and when management discovered this, they issued an order to stop writing on necks entirely. As a result, some 1959 necks carry *no date whatsoever*. A completely blank neck heel on a claimed 1959 Telecaster is therefore not a red flag. It is in fact a period-specific authenticating characteristic for genuine 1959 production.
 
-From approximately late 1959, date stamps in a similar month-year format replaced the handwritten pencil dates.
+On a genuine 1959 Telecaster, then, the neck heel date is always either penciled in month-year format or absent entirely. Fender did not stamp neck heel dates this early, so a stamped heel date points to a later guitar, not a 1959.
 
 If you remove the neck from a claimed 1959 and find no date at all on the heel, that is consistent with, and actually somewhat confirmatory of, genuine mid-1959 production. A blank heel that also has a slab rosewood board, clay dots, threaded saddles, and period-correct pot codes is strong evidence of authentic mid-1959 Fullerton production. Confirm with the body date and pot codes.
 
@@ -72,7 +72,7 @@ If you remove the neck from a claimed 1959 and find no date at all on the heel, 
 
 ![1959 Fender Telecaster neck heel showing penciled date or blank heel, most reliable dating method for pre-CBS Fender guitars](../../assets/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-neck-heel-1536x2048.jpg)
 
-<figcaption><strong>1959 Fender Telecaster neck heel.</strong> The neck heel is the single most reliable dating source on any pre-CBS Fender. On 1959 examples the date may be penciled (early year), rubber stamped (late year), or completely absent. A blank heel is a hallmark of mid-1959 production, when Fender employees were ordered to stop writing on necks but stamps had not yet been issued. Always remove the neck to check this.</figcaption>
+<figcaption><strong>1959 Fender Telecaster neck heel.</strong> The neck heel is the single most reliable dating source on any pre-CBS Fender. On a 1959 example the date is either penciled in month-year format or absent entirely; 1959 neck heels are not stamped. A completely blank heel is period-correct for 1959, not a red flag: it reflects the year Fender employees were ordered to stop writing dates on necks. Always remove the neck to check this.</figcaption>
 
 </figure>
 
@@ -363,14 +363,14 @@ Because the 1959 serial number is so unreliable as a standalone tool, building a
 
 | Source | Where to Find It | What It Tells You | Reliability |
 | --- | --- | --- | --- |
-| **Neck heel date** | Butt end of neck, visible when neck is removed | Month and year neck was manufactured. May be penciled (pre-mid-1959), stamped (late 1959+), or absent (mid-1959 transition) | Very high, single most reliable reference when present |
+| **Neck heel date** | Butt end of neck, visible when neck is removed | Month and year the neck was made, penciled in month-year format or absent entirely (a blank heel is period-correct for 1959) | Very high, single most reliable reference when present |
 | **Body date** | Bridge pickup cavity, under bridge plate | Month and year body was routed/prepared. Format: M-YY (e.g., "4-59") | High, but body and neck dates can differ by months |
 | **Pot codes** | Back of volume and tone pots, remove control plate | Earliest possible assembly date. Format: MFRYYWW (manufacturer, year, week) | High, gives earliest assembly floor |
 | **Pickup date** | Bottom of pickup, may be stamped or written on cloth tape | Approximate manufacture date of the pickup; not always present | Moderate, corroborating evidence |
 | **Neck plate serial** | Metal plate on back, neck-body junction | Approximate era only, ~30000 to 40000 is 1959 range | Low standalone, use only for broad era confirmation |
 | **Physical features** | Bridge type, board type, dot material, knobs, logo | Which part of 1959 based on feature transitions | High when features align |
 
-Early 1959: maple neck + likely top-loader bridge + serial ~30000 to 33000. Mid-1959: blank neck heel + slab rosewood appearing + serial ~32000 to 36000. Late 1959: slab rosewood + date stamp or blank heel + slim D profile + serial ~35000 to 40000. Bridge configuration (top loader, dual hole, or string-through) overlaps throughout the year and is a supporting detail, not a defining one, use neck date, body date, and pot codes as the primary sources.
+Early 1959: maple neck + likely top-loader bridge + serial ~30000 to 33000. Mid-1959: blank neck heel + slab rosewood appearing + serial ~32000 to 36000. Late 1959: slab rosewood + penciled or blank neck heel + slim D profile + serial ~35000 to 40000. Bridge configuration (top loader, dual hole, or string-through) overlaps throughout the year and is a supporting detail, not a defining one, use neck date, body date, and pot codes as the primary sources.
 
 <h2 id="custom">The Telecaster Custom, New for 1959</h2>
 
@@ -427,7 +427,7 @@ Work through each item systematically. Every confirmation adds confidence; any c
 ### Serial & Dating Sources
 
 -   Serial number is on the neck plate (not the bridge or headstock), 5 digits, no prefix, range ~30000 to 40000
--   Neck heel date present (penciled or stamped) and reads 1959, OR heel is blank (consistent with mid-1959 transition window)
+-   Neck heel date is penciled and reads 1959, OR the heel is blank (both are period-correct for 1959)
 -   Body date in bridge pickup cavity reads 1959
 -   Pot codes read 1959 (Stackpole 304 or Centralab 134 manufacturer codes)
 -   All dating sources agree, no single component date dramatically later than the others
