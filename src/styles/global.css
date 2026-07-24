@@ -224,3 +224,13 @@
 @media (max-width: 600px) {
   .jvg-comp-grid { grid-template-columns: 1fr; }
 }
+
+/* Fender serial cluster (hub + spokes, Archetype B): the secondary-nav band is
+   white (fshub/fspot-header-backdrop__cream), so its links — the dropdown
+   triggers (summary) and the Free Appraisal link — must be brown, not the white
+   the shared header defaults to over dark-hero (Archetype A) pages. Scoped to the
+   body class those pages set, so no other page is affected. */
+body.fender-sn-page header nav.border-b-\[6px\] a,
+body.fender-sn-page header nav.border-b-\[6px\] summary {
+  color: var(--color-brand-brown) !important;
+}
