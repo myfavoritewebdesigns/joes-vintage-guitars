@@ -106,6 +106,7 @@ const tocItems: [string, string, number][] = [
   ["#import-serials", "Made In Mexico & Japan", 3],
   ["#appraisal", "Free Expert Appraisal", 2],
   ["#next", "Once You Know The Year", 2],
+  ["#faq", "Common Questions", 2],
   ["#about-joe", "About Joe", 2],
 ];
 
@@ -168,7 +169,7 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
-    { "@type": "ListItem", position: 2, name: "Fender Serial Number Lookup", item: `${SITE_URL}${PAGE_PATH}` },
+    { "@type": "ListItem", position: 2, name: "Fender Serial Number Guide", item: `${SITE_URL}${PAGE_PATH}` },
   ],
 };
 ---
@@ -186,6 +187,7 @@ const breadcrumbSchema = {
 >
   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
   <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
+  <script slot="head" is:inline>(function(){var m={"#adv-pot-codes":"/fender-pot-codes/","#adv-neck-heel":"/fender-neck-dates/","#adv-body-dates":"/fender-body-dates/","#adv-pickup-dates":"/fender-pickup-dates/","#logo-evolution":"/fender-physical-features/#logo"};function g(){var t=m[location.hash];if(t)location.replace(t);}g();window.addEventListener("hashchange",g);})();</script>
 
   <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
   <div class="fshub-header-backdrop" aria-hidden="true">
@@ -237,7 +239,7 @@ const breadcrumbSchema = {
           </div>
           <div class="badge">
             <span class="ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M2 3h12v8H9.2L6 13.8V11H2z" fill="currentColor"/></svg></span>
-            <span class="t">2,100+ Five-Star Reverb Reviews<small>Verified buyer and seller feedback</small></span>
+            <span class="t">2,100+ Positive Reverb Reviews<small>Verified buyer and seller feedback</small></span>
           </div>
         </div>
       </div>
@@ -348,7 +350,7 @@ const breadcrumbSchema = {
 
         <h3 class="tbl" id="f-plate"><span class="tag">D</span> CBS 6-Digit F-Plates</h3>
         <p class="sub">1965 to 1976, embossed F on the plate</p>
-        <p class="secintro">After the CBS acquisition in early 1965, Fender brought in a new neck plate with a large stylized F logo and a 6 digit serial number. This system stayed in place until 1976, when Fender moved serials to the headstock. F-plate guitars are easy to spot: big headstocks on the Strats from 1966 onward, CBS-era styling throughout, and models like the Thinline Telecaster and Coronado that only existed in this period.</p>
+        <p class="secintro">After the CBS acquisition in early 1965, Fender brought in a new neck plate with a large stylized F logo and a 6 digit serial number. This system stayed in place until 1976, when Fender moved serials to the headstock. F-plate guitars are easy to spot: big headstocks on the Strats from about late 1965 onward, CBS-era styling throughout, and models like the Thinline Telecaster and Coronado that only existed in this period.</p>
         <div class="figrow single">
           <figure class="sfig"><LicensedImage src={meta("1967-fender-f-plate-serial-number.jpg")} alt="Serial number 204663 on the F plate of a 1967 Fender" width={540} /><figcaption>A 1967 F plate, serial 204663 above the big F</figcaption></figure>
         </div>
@@ -488,12 +490,27 @@ const breadcrumbSchema = {
       </div>
     </section>
 
+    <section id="faq" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Expert Questions</span>
+        <h2>Common Questions About Fender Serial Numbers</h2>
+        <div class="faqs">
+          {faqs.map((f) => (
+            <details class="faq">
+              <summary>{f.q}</summary>
+              <div class="faqbody"><p>{f.a}</p></div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <section class="pt0">
       <div class="measure"><div class="bio" id="about-joe">
         <LicensedImage src={meta("about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars, holding a vintage guitar" width={150} />
         <div>
           <div class="who"><a href="/about-me/">Joe Dampt</a></div>
-          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ five-star reviews</div>
+          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ positive reviews</div>
           <p class="biotext">Joe Dampt is the owner of Joe's Vintage Guitars in Mesa, Arizona, where he's spent more than twelve years buying, appraising, and authenticating vintage instruments full-time. He's personally valued over 10,000 guitars for sellers in all 50 states, served as a traveling appraiser for the Treasure Seekers Roadshow, and sourced instruments for Grammy Award-winning artists. Every chart and method on this page comes from that bench work.</p>
         </div>
       </div></div>
@@ -583,6 +600,13 @@ const breadcrumbSchema = {
   .fshub details.locate .locimg{padding:.9rem;border-top:1px solid var(--line);}
   .fshub details.locate img{display:block;width:100%;height:auto;border-radius:6px;}
   .fshub details.locate .cap{margin-top:.5rem;font-size:.82rem;color:var(--muted);}
+  .fshub .faqs{display:flex;flex-direction:column;gap:.6rem;margin-top:.4rem;}
+  .fshub details.faq{border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden;box-shadow:var(--shadow);}
+  .fshub details.faq>summary{cursor:pointer;list-style:none;padding:.85rem 1.05rem;font-family:var(--fd);font-weight:600;font-size:1rem;color:var(--ink-strong);display:flex;justify-content:space-between;align-items:center;gap:.8rem;}
+  .fshub details.faq>summary::-webkit-details-marker{display:none;}
+  .fshub details.faq>summary::after{content:"+";font-family:var(--fm);font-size:1.2rem;color:var(--rust);flex:0 0 auto;}
+  .fshub details.faq[open]>summary::after{content:"\2212";}
+  .fshub details.faq .faqbody{padding:0 1.05rem 1rem;font-size:.96rem;color:var(--muted);}
 
   .fshub .badges{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.7rem;}
   .fshub .badge{display:flex;align-items:center;gap:.7rem;border:1px solid var(--line);background:var(--panel);border-radius:9px;padding:.75rem .9rem;}
