@@ -138,7 +138,7 @@ The position markers on an early Precision Bass fretboard are small **black dot 
 
 <h3 id="stamps">Body Stamps, Neck Heel Dates & the D Stamp</h3>
 
-The neck pocket will often contain an **ink stamp** indicating the month and year the body was completed (e.g., "7-52" for July 1952). The underside of the neck heel carries a **pencil date written by the factory worker** who assembled the neck, handwritten and entirely consistent with genuine Fender production practice. As discussed above, the neck date and body date will frequently be a few months apart on an all-original instrument.
+The neck pocket will often contain an **ink stamp** indicating the month and year the body was completed (e.g., "7-52" for July 1952). The underside of the neck heel carries a **pencil date written by the factory worker** who assembled the neck, handwritten and entirely consistent with genuine Fender production practice. As discussed above, the neck date and body date will frequently be a few months apart on an all-original instrument. Our [Fender body date guide](/fender-body-dates/) covers reading the neck-pocket cavity stamp and its M-YY format.
 
 ![Body date stamp in the neck pocket of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-body-date-scaled.jpg)![Pencil date on the neck heel of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-neck-heel-scaled.jpg)
 

@@ -76,7 +76,7 @@ The heel stamp should agree with the pot codes within a few months. Necks were g
 
 ### Body Date: Don't Panic If It's Missing
 
-Some '63 bodies have a date penciled inside the neck pocket or in the bottom of the trem cavity. Plenty of them don't. Body stamping was inconsistent during this period, and a blank pocket on a genuine '63 isn't unusual. The serial, neck stamp, and pots carry the load. If the body date is there and agrees with everything else, great. If it's missing, that's not a deal-breaker.
+Some '63 bodies have a date penciled inside the neck pocket or in the bottom of the trem cavity. Plenty of them don't. Body stamping was inconsistent during this period, and a blank pocket on a genuine '63 isn't unusual. The serial, neck stamp, and pots carry the load. Our [Fender body date guide](/fender-body-dates/) covers where the body date hides and why a blank one is not a red flag. If the body date is there and agrees with everything else, great. If it's missing, that's not a deal-breaker.
 
 <h2 id="under-hood">Under the Hood: Where the Truth Lives</h2>
 

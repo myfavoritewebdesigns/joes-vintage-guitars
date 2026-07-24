@@ -60,7 +60,7 @@ Fender neck plates were not assigned in strict production order. A plate with se
 
 ### The Neck Heel Date, and the 1959 Gap
 
-The most reliable single dating reference on a pre-CBS Fender is the **date on the butt end of the neck heel**, visible only when the neck is removed from the body. On pre-1959 Telecasters, a Fender employee penciled a date in month-year format directly on the wood, for example, "9 58" for September 1958.
+The most reliable single dating reference on a pre-CBS Fender is the **date on the butt end of the neck heel**, visible only when the neck is removed from the body. Our [Fender neck date guide](/fender-neck-dates/) walks through reading the heel date across every era. On pre-1959 Telecasters, a Fender employee penciled a date in month-year format directly on the wood, for example, "9 58" for September 1958.
 
 In 1959, something unusual happened: a Fender employee had been writing obscene words on neck heels, and when management discovered this, they issued an order to stop writing on necks entirely. As a result, some 1959 necks carry *no date whatsoever*. A completely blank neck heel on a claimed 1959 Telecaster is therefore not a red flag. It is in fact a period-specific authenticating characteristic for genuine 1959 production.
 

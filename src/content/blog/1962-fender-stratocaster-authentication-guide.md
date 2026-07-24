@@ -65,7 +65,7 @@ Fender serial plates from this era are notoriously unreliable for precise dating
 
 ### The Neck Heel Date
 
-The most reliable single dating reference on a pre-CBS Fender is the **penciled or stamped date on the butt end of the neck heel**, visible only when the neck is removed from the body. By 1962, Fender had resumed rubber-stamping dates after the mid-1959 pencil moratorium. The date appears in a month-year format (e.g., "3-62" for March 1962 or "9-62" for September 1962) stamped into the wood.
+The most reliable single dating reference on a pre-CBS Fender is the **penciled or stamped date on the butt end of the neck heel**, visible only when the neck is removed from the body. Our [Fender neck date guide](/fender-neck-dates/) breaks down the heel stamp, its model-code prefix, and the width letter. By 1962, Fender had resumed rubber-stamping dates after the mid-1959 pencil moratorium. The date appears in a month-year format (e.g., "3-62" for March 1962 or "9-62" for September 1962) stamped into the wood.
 
 On a genuine 1962, the stamp ink will have aged and partially absorbed into the wood grain. Fresh-looking stamps on wood that shows other signs of age are suspicious. The stamp is always on the butt end of the heel, never on the face of the heel or on the side.
 

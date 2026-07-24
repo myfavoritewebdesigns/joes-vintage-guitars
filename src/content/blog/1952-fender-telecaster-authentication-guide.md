@@ -77,7 +77,7 @@ The neck is a single piece of maple wood. In 1952, these were shaped by a well-k
 
 ![Close-up of a 1952 Fender Telecaster neck heel featuring a period-correct flat-head (slot-head) truss rod adjustment screw.](../../assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-neck-heel-date-and-truss-rod-screw-1024x683.jpg)
 
-An important authentication point for any “Blackguard.” In 1952, the truss rod adjustment screw located at the heel of the neck was a flat-head (slot-head) variety. Finding a Phillips-head screw in this position usually points to a replacement part or a later-era neck. This detail, combined with the handwritten Tadeo Gomez initials often found nearby, confirms the neck’s early 50s origin.
+An important authentication point for any “Blackguard.” In 1952, the truss rod adjustment screw located at the heel of the neck was a flat-head (slot-head) variety. Finding a Phillips-head screw in this position usually points to a replacement part or a later-era neck. This detail, combined with the handwritten Tadeo Gomez initials often found nearby, confirms the neck’s early 50s origin. The penciled date on the neck-heel butt end is the single most reliable dating reference on a pre-CBS Fender; [how to read a Fender neck date](/fender-neck-dates/) walks through reading it.
 
 ### Dots and the “Skunk Stripe”
 

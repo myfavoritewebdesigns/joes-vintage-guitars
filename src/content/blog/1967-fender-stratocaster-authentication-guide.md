@@ -223,7 +223,7 @@ All the internal wiring is **cloth-covered pushback** wire. Hot leads are typica
 
 ### Pot Codes
 
-The pots are 250k audio taper, made by CTS or Stackpole, with a six or seven digit source-date code stamped on the can.
+The pots are 250k audio taper, made by CTS or Stackpole, with a six or seven digit source-date code stamped on the can. Our [Fender pot code guide](/fender-pot-codes/) explains how to read the maker and date digits.
 
 -   **CTS** codes begin with 137. A CTS pot from the 14th week of 1967 reads 137 6714.
 -   **Stackpole** codes begin with 304. A Stackpole pot from the 36th week of 1967 reads 304 6736.

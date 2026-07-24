@@ -385,6 +385,8 @@ The tremolo is a separate unit from the bridge, a vibrato tailpiece that anchors
 
 <h2 id="logos">Logos, Tuners & Knobs</h2>
 
+The logo, tuners, and knobs each changed on their own schedule, so read together they help pin down a Jazzmaster's era. The same visual checks across the whole Fender line, including the headstock patent numbers, are collected in [dating a Fender by its parts](/fender-physical-features/).
+
 ### Headstock Logo Evolution
 
 -   1958 to mid 1964  
@@ -485,7 +487,7 @@ The Jazzmaster headstock shape remained essentially consistent from 1958 through
 
 <h2 id="serial">Serial Numbers & Dating</h2>
 
-Jazzmaster serial numbers are located on the **neck plate** on the back of the guitar, not on the headstock as on Gibson. The neck plate is a four-bolt chrome plate securing the neck to the body. Serial number formats changed over the production run.
+Jazzmaster serial numbers are located on the **neck plate** on the back of the guitar, not on the headstock as on Gibson. The neck plate is a four-bolt chrome plate securing the neck to the body. Serial number formats changed over the production run. For the complete year-by-year charts, see the [full Fender serial number guide](/fender-guitars-serial-number-guide/); to read the neck heel date itself, penciled through spring 1962 and rubber-stamped after, see [how to date a Fender neck](/fender-neck-dates/).
 
 <figure>
 

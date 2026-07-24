@@ -145,7 +145,7 @@ The three standard colors in this era were Dakota Red, Daphne Blue, and Olympic 
 
 ![Headstock of a vintage Fender Mustang showing the gold transition Fender logo above the Mustang model name on a maple face.](../../assets/blog/fender-mustang-history-value/vintage-fender-mustang-transition-logo-headstock.jpg)
 
-The headstock decal reads "Fender" in script with "Mustang" beneath it. This is the gold transition logo, which ran from the mid-1960s until the bold black CBS logo took over around 1967 to 1968. On the earliest examples you will also find a small "Offset Contour Body" line and a block of patent numbers under the logo, and Fender dropped the "Offset Contour Body" line around 1967. That single line is a handy pre-1967 versus post-1967 tell before you even pull the neck.
+The headstock decal reads "Fender" in script with "Mustang" beneath it. This is the gold transition logo, which ran from the mid-1960s until the bold black CBS logo took over around 1967 to 1968. On the earliest examples you will also find a small "Offset Contour Body" line and a block of patent numbers under the logo, and Fender dropped the "Offset Contour Body" line around 1967. That single line is a handy pre-1967 versus post-1967 tell before you even pull the neck. Our guide to [dating a Fender by its parts](/fender-physical-features/) covers the logo styles and the headstock patent numbers in full.
 
 <h3>The CBS Years: 1966 to Early 1970s</h3>
 
