@@ -291,7 +291,7 @@ The matching headstock on a 1966 Lake Placid Blue Jaguar, with the gold transiti
 
 The matching headstock on a 1966 Lake Placid Blue Jazz Bass. Two things to study: the checking runs through color and clear together, and the whole headstock has shifted toward teal exactly as far as the body has. Matching means matching in age, not just in color.
 
-On a matching headstock, check that the face shows the same checking pattern and the same amber shift as the body, that wear at the edges breaks through the same layer stack, and that the logo is the correct style for the year (gold transition logos in the mid sixties, for example). A refinished body with an original matching headstock, or the reverse, will disagree with itself under close light.
+On a matching headstock, check that the face shows the same checking pattern and the same amber shift as the body, that wear at the edges breaks through the same layer stack, and that the logo is the correct style for the year (gold transition logos in the mid sixties, for example). The full logo timeline, and the headstock patent numbers that set the earliest a decal could have been printed, live in [dating a Fender by its parts](/fender-physical-features/). A refinished body with an original matching headstock, or the reverse, will disagree with itself under close light.
 
 <h2 id="fcc-plastics">Pickguards and Plastic on Custom Colors</h2>
 

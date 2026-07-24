@@ -92,7 +92,7 @@ Date stamps were applied in **black ink** for 1968 and through early 1969. Mid-t
 
 ### The CBS Black Logo
 
-The headstock carries the CBS-era "black logo": "Fender" in large black letters with a gold outline, "Telecaster" in bold black block lettering below, and patent numbers underneath that. This is distinct from the pre-CBS gold transition logos and the later 1970s decals. If the logo doesn't look right, the neck probably isn't right either.
+The headstock carries the CBS-era "black logo": "Fender" in large black letters with a gold outline, "Telecaster" in bold black block lettering below, and patent numbers underneath that. This is distinct from the pre-CBS gold transition logos and the later 1970s decals. Our guide to [dating a Fender by its parts](/fender-physical-features/) lays out the logo styles and patent-number blocks by era. If the logo doesn't look right, the neck probably isn't right either.
 
 ![CBS-era black logo on the headstock of a 1969 Fender Paisley Telecaster](../../assets/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-fender-logo-scaled.jpg)
 

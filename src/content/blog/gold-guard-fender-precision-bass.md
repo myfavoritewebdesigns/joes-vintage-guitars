@@ -26,7 +26,7 @@ What follows is a full breakdown: the engineering choices behind the gold guard,
 
 <h2 id="historical-context">1. The Historical Context: The 1957 Transition</h2>
 
-In 1957, Leo Fender rebuilt the Precision Bass from the ground up. The [original *slab* body](/post/1952-fender-precision-bass-guide/) with its single-coil pickup gave way to a contoured body and a hum-canceling split-coil pickup. The gold anodized guard was the visual centerpiece of that redesign, and it only lasted until mid-1959.
+In 1957, Leo Fender rebuilt the Precision Bass from the ground up. The [original *slab* body](/post/1952-fender-precision-bass-guide/) with its single-coil pickup gave way to a contoured body and a hum-canceling split-coil pickup. The gold anodized guard was the visual centerpiece of that redesign, and it only lasted until mid-1959. As a dating feature, the anodized guard is one of several visual tells; see our guide to [dating a Fender by its parts](/fender-physical-features/).
 
 ### Why Gold Aluminum?
 
