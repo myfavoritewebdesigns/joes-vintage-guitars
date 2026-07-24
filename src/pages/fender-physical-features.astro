@@ -46,7 +46,7 @@ const HUB_HREF = HUB_PATH;
 
 // ---- Data ----
 const logoRows = [
-  ["Spaghetti", "1950 to early 1964", "Thin, elegant script with a fine black outline. The one everybody wants"],
+  ["Spaghetti", "1950 to mid-1964", "Thin, elegant script with a fine black outline. The one everybody wants"],
   ["Transition", "Mid-1964 to 1967", "Thicker and bolder, gold foil with a heavier black outline"],
   ["CBS, or TV", "1968 into the 1980s", "Heavy black script with a thin gold outline, drawn to read on television. Usually on the large headstock"],
 ];
@@ -93,6 +93,7 @@ const tunerRows = [
 
 const tocItems: [string, string][] = [
   ["#top", "Start Here"],
+  ["#why", "Why Parts Beat The Serial"],
   ["#logo", "Logo Evolution"],
   ["#inlays", "Neck And Fretboard"],
   ["#pickguards", "Pickguards"],
@@ -166,8 +167,8 @@ const breadcrumbSchema = {
 ---
 
 <Layout
-  title="Dating A Fender By Its Parts: Logo, Pickguard, Saddles, Tuners"
-  description="Date a vintage Fender from the parts you can see. Logo styles, inlays, pickguard materials, bridge saddles, tuners and string trees, with the year each one changed."
+  title="Dating A Fender By Its Parts: Logo, Pickguard, Saddles"
+  description="Date a vintage Fender from the parts you can see: logo, inlays, pickguards, saddles, tuners, and string trees, with the year each one changed."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${img("1967-fender-stratocaster-bridge-saddles.jpg")}`}
   {...ogCardSize("images/fender-sn/1967-fender-stratocaster-bridge-saddles.jpg")}
@@ -227,7 +228,7 @@ const breadcrumbSchema = {
           <tbody>{logoRows.map((r) => (<tr><td data-label="Logo">{r[0]}</td><td data-label="Years" class="yr">{r[1]}</td><td data-label="What it looks like">{r[2]}</td></tr>))}</tbody>
         </table></div>
         <div class="figrow gallery">
-          <figure class="sfig"><LicensedImage src={meta("fender-spaghetti-logo-1950-1964-on-vintage-stratocaster-headstock.jpg")} alt="Fender spaghetti logo, 1950 to early 1964, thin elegant script" width={1100} /><figcaption>Spaghetti, 1950 to early 1964. Thin, elegant, with a fine black outline.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-spaghetti-logo-1950-1964-on-vintage-stratocaster-headstock.jpg")} alt="Fender spaghetti logo, 1950 to mid-1964, thin elegant script" width={1100} /><figcaption>Spaghetti, 1950 to mid-1964. Thin, elegant, with a fine black outline.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("transition-logo-64.jpg")} alt="Fender transition logo, mid-1964 to 1967, thicker bolder gold foil" width={1100} /><figcaption>Transition, mid-1964 to 1967. Thicker and bolder, in gold foil.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("fender-cbs-tv-logo-1968-1980s-on-vintage-stratocaster-headstock.jpg")} alt="Fender CBS or TV logo, 1968 into the 1980s, heavy black script" width={1100} /><figcaption>CBS, or TV, 1968 into the 1980s. Heavy black script drawn to read on camera.</figcaption></figure>
         </div>
@@ -483,7 +484,7 @@ const breadcrumbSchema = {
         <LicensedImage src={meta("about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars, holding a vintage guitar" width={150} />
         <div>
           <div class="who"><a href="/about-me/">Joe Dampt</a></div>
-          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ five-star reviews</div>
+          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ positive reviews</div>
           <p class="biotext">Joe Dampt is the owner of Joe's Vintage Guitars in Mesa, Arizona, where he's spent more than twelve years buying, appraising, and authenticating vintage instruments full-time. He's personally valued over 10,000 guitars for sellers in all 50 states, served as a traveling appraiser for the Treasure Seekers Roadshow, and sourced instruments for Grammy Award-winning artists. Every method on this page comes from that bench work.</p>
         </div>
       </div></div>
