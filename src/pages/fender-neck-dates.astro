@@ -200,7 +200,6 @@ const breadcrumbSchema = {
   <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
 
   <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
-  <script is:inline>document.body.classList.add("fender-sn-page");</script>
   <div class="fspot-header-backdrop" aria-hidden="true">
     <div class="fspot-header-backdrop__dark"></div>
     <div class="fspot-header-backdrop__cream"></div>
@@ -466,7 +465,7 @@ const breadcrumbSchema = {
 <style>
   .fspot-header-backdrop{position:relative;isolation:isolate;z-index:0;}
   .fspot-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
-  .fspot-header-backdrop__cream{background:#fff;height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}
+  .fspot-header-backdrop__cream{background:var(--color-brand-brown,#3e2a14);height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}
 
   .fspot{
     --paper:#f5efe3; --panel:#ffffff; --panel-2:#f3ead6; --inset:#fffdf8;
