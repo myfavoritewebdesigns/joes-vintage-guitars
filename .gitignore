@@ -54,6 +54,10 @@ reports/**/audit-screenshots-raw/
 reports/screenshots/**/*.png
 reports/screenshots/**/*.jpg
 
+# Copy-gate reports: check-copy writes a fresh timestamped .md on every
+# audit:copy run (no canonical single-file companion), so they accumulate.
+reports/seo-v2/check-copy-*.md
+
 # OS junk
 Thumbs.db
 .Spotlight-V100
