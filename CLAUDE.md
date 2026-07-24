@@ -1,5 +1,28 @@
 # Joe's Vintage Guitars — Astro Rebuild
 
+> **Audit and checklist work does not live in this repo. Read the canonical methodology in `mfwd-debug-tooling` first.**
+> This is a build and delivery repo. It does not own audit methodology, and a plausible-sounding
+> self-invented checklist is the failure mode this pointer exists to stop. Do not free-hand one
+> from general SEO knowledge, and do not infer it from the shape of a prior client's output file.
+>
+> - **Specialist methodology** (on-site SEO, GMB, backlinks, extended presence, content, social):
+>   `C:\Users\noahj\projects\mfwd-debug-tooling\projects\<specialist>\PROJECT_INSTRUCTIONS.md`.
+>   On-site SEO is `projects/onsite_seo/PROJECT_INSTRUCTIONS.md` (A1-A13 technical, B1-B7 on-page),
+>   plus `AI_ANSWER_ENGINE_CHECKLIST.md` for Part C and `AUTHOR_AUTHORITY_CHECKLIST.md` for Part D.
+>   Ads is the differently-named `projects/ads/google_ads_manager_v1_2.md`.
+> - **Existing client data and conclusions:**
+>   `mfwd-debug-tooling\projects\<specialist>\clients\<slug>\`. Use what is already on file before
+>   proposing a fresh scrape. Re-scraping data we own is billable waste.
+> - **Client relationship context:** `mfwd-debug-tooling\projects\manager\clients\<slug>\CONTEXT.md`
+>   and the data-floor gate at `projects\intake\clients\<slug>\INTAKE.md`.
+> - **WP to Astro launch checklist:** `C:\Users\noahj\projects\wp-to-astro-kit\AI_LAUNCH_CHECKLIST.md` and
+>   `docs/playbook/launch-audit-checklist.md`.
+> - **Session start:** the `boot` skill in `mfwd-debug-tooling` runs this load explicitly.
+>
+> If a methodology expects an input you do not have (a GSC export, a DataForSEO crawl, a Lighthouse
+> run), run it in its own quick-check mode and mark what is `unknown` for lack of that input.
+> A missing input is not permission to substitute a generic pass.
+
 Project handoff doc. Read this first when picking up the project in a new session.
 
 ## What this is
