@@ -45,8 +45,16 @@ const { heading, intro, posts, current, total, basePath, categories, activeCateg
 
     {posts.length > 0 ? (
       <div class="barch__grid">
+        {/* Only the FIRST card loads eagerly. The grid is 3-up on desktop but
+            stacks 1-up on mobile, so cards 2 and 3 sit at ~1217px and ~1717px
+            on a 375x812 screen — far below the fold — and eager-loading them
+            pulled ~150KB of off-screen imagery into contention with the LCP
+            element on exactly the connection that can least afford it.
+            Cards 2 and 3 stay in the desktop first row, where an in-viewport
+            lazy image is still fetched during initial layout, so this costs
+            desktop nothing. Measured live 2026-07-26. */}
         {posts.map((post, i) => (
-          <PostCard post={post} eager={current === 1 && i < 3} />
+          <PostCard post={post} eager={current === 1 && i < 1} />
         ))}
       </div>
     ) : (
