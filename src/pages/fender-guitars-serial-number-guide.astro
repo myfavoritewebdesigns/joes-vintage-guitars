@@ -412,9 +412,17 @@ const breadcrumbSchema = {
         <h3 class="tbl" id="import-serials"><span class="tag">H</span> Made In Mexico And Made In Japan Serial Numbers</h3>
         <p class="sub">MIM, MIJ, and CIJ</p>
         <p class="secintro">Mexican-built Fenders from the Ensenada plant start with M plus a decade letter, the same decade logic as the American serials. Japanese Fenders work differently: the letter corresponds to a production year range rather than a specific year digit, so it narrows the window instead of naming the year. The Crafted in Japan label replaced Made in Japan in the late 1990s, and the letter codes were reused between the two eras, so always read the Made in Japan or Crafted in Japan wording on the guitar, not just the letter. The earliest JV-series guitars, built from 1982 to 1984, are serious collector pieces in their own right.</p>
+        {/*
+          These two ARE Joe's, so they license normally. The original pair were
+          third-party web-scrapes (~301px); Joe shot and committed replacements in
+          `3ebaaad` on 2026-07-15, the same day that came up on the call. The 07-23
+          hub rebuild then wired them as a raw <img>, which shipped the untouched
+          1200x1600 originals (257KB + 294KB, no srcset, no intrinsic dimensions)
+          while every sibling in this figrow served an optimised WebP.
+        */}
         <div class="figrow">
-          <figure class="sfig"><img src={img("mn-prefix.jpg")} alt="MN prefix serial number on a Mexican Fender Stratocaster" loading="lazy" decoding="async" /><figcaption>MN prefix, Mexico in the 1990s</figcaption></figure>
-          <figure class="sfig"><img src={img("mz-prefix.jpg")} alt="MZ prefix serial number on a Mexican Fender Jazz Bass" loading="lazy" decoding="async" /><figcaption>MZ prefix, Mexico in the 2000s</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("mn-prefix.jpg")} alt="MN prefix serial number on a Mexican Fender Stratocaster" width={540} loading="lazy" decoding="async" /><figcaption>MN prefix, Mexico in the 1990s</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("mz-prefix.jpg")} alt="MZ prefix serial number on a Mexican Fender Jazz Bass" width={540} loading="lazy" decoding="async" /><figcaption>MZ prefix, Mexico in the 2000s</figcaption></figure>
         </div>
         <div class="tablewrap"><table>
           <thead><tr><th>Prefix</th><th>Made in</th><th>Formula</th></tr></thead>
