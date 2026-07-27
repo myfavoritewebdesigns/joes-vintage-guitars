@@ -28,6 +28,14 @@ const catUrl = `/category/${data.category}/`;
 // shim returns pipeline metadata (hashed /_astro/ URL); otherwise the original
 // public path passes through unchanged.
 const ogMeta = data.ogImage ? resolveImage(data.ogImage) : null;
+
+// Author-box portrait. The file is 587x587 / 79.7KB and renders in a 120px slot,
+// so serving it raw from public/ wasted ~70KB on EVERY blog post (57 pages). It
+// already exists under src/assets, so route it through the pipeline instead.
+// The asset lives in the fender-sn folder for historical reasons (identical
+// copies also sit in gibson-serial/ and public/); it is a shared site asset, not
+// a Fender-specific one. Falls back to the raw public path if it ever moves.
+const authorPhoto = resolveImage("images/fender-sn/about-me-joe-1.jpg");
 // Hero: pipeline metadata when relocated (responsive <Image>), public path
 // fallback otherwise (raw <img>, the 15 raw-HTML-blocked heroes).
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
@@ -199,7 +207,11 @@ const articleSchema = {
 
       <!-- Author box -->
       <aside class="bpost__author" aria-label="About the author">
-        <img class="bpost__author-photo" src={assetSrc("images/about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars" width="120" height="120" loading="lazy" decoding="async" />
+        {authorPhoto ? (
+          <Image class="bpost__author-photo" src={authorPhoto} alt="Joe Dampt, owner of Joe's Vintage Guitars" width={120} height={120} loading="lazy" decoding="async" />
+        ) : (
+          <img class="bpost__author-photo" src={assetSrc("images/about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars" width="120" height="120" loading="lazy" decoding="async" />
+        )}
         <div class="bpost__author-body">
           <p class="bpost__author-eyebrow">About the Author</p>
           <h2 class="bpost__author-name">{data.author}</h2>

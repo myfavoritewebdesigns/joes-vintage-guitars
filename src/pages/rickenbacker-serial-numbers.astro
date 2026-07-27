@@ -2,7 +2,6 @@
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { buildImageGraph } from "../lib/imageLicense";
 import { SITE_URL } from "../config/site";
 // Cohesive .jvg-rick design system + decoder/TOC machinery ported verbatim from live.
 import rsnCss from "../../reference/rsn-content.css?raw";
@@ -24,15 +23,14 @@ const breadcrumbSchema = {
   ],
 };
 
-// The 4005 Azureglo full-bleed photo renders as a raw <img> via img() (public-
-// passthrough src), so it is licensed here with its exact rendered src. The other
-// content photos self-license via <LicensedImage>.
-const licensedImages = await buildImageGraph([
-  {
-    renderedSrc: img("1968-rickenbacker-4005-azureglo-1-scaled.jpg"),
-    alt: "Rare 1968 Rickenbacker 4005 hollowbody bass in Azureglo, one of the most desirable Rickenbacker basses ever produced",
-  },
-]);
+// The 4005 Azureglo photo now self-licenses via <LicensedImage> like every other
+// content photo on this page, so it no longer needs a hand-built graph entry.
+// It used to render as a raw <img> from public/, which shipped the untouched
+// 2560x1707 / 729KB original into a slot that is 860px on desktop and 343px on
+// mobile. The pipeline copy lives at src/assets/images/ (unprefixed, and named
+// without the "-1" the public/ copy carries), so imgMeta() cannot reach it —
+// resolve it directly.
+const azureglo = resolveImage("images/1968-rickenbacker-4005-azureglo-scaled.jpg");
 ---
 
 <Layout
@@ -44,7 +42,7 @@ const licensedImages = await buildImageGraph([
   ogImageHeight={1707}
   ogType="article"
   publishedTime="2026-04-02T21:17:20+00:00"
-  structuredData={[breadcrumbSchema, ...licensedImages]}
+  structuredData={[breadcrumbSchema]}
 >
   <!-- Page-specific structured data (TechArticle), verbatim from live -->
   <script type="application/ld+json" slot="head" is:inline set:html={rsnPageJsonLd} />
@@ -422,7 +420,11 @@ const licensedImages = await buildImageGraph([
 
       <h2>Tailpieces</h2>
       <figure class="jvg-figure">
-        <img loading="lazy" decoding="async" width="2560" height="1707" alt="Rare 1968 Rickenbacker 4005 hollowbody bass in Azureglo, one of the most desirable Rickenbacker basses ever produced" src={img("1968-rickenbacker-4005-azureglo-1-scaled.jpg")} />
+        {azureglo ? (
+          <LicensedImage src={azureglo} alt="Rare 1968 Rickenbacker 4005 hollowbody bass in Azureglo, one of the most desirable Rickenbacker basses ever produced" width={860} loading="lazy" decoding="async" />
+        ) : (
+          <img loading="lazy" decoding="async" width="2560" height="1707" alt="Rare 1968 Rickenbacker 4005 hollowbody bass in Azureglo, one of the most desirable Rickenbacker basses ever produced" src={img("1968-rickenbacker-4005-azureglo-1-scaled.jpg")} />
+        )}
         <figcaption>A rare 1968 Rickenbacker 4005 hollowbody bass in Azureglo. The 4005 was the first semi-hollow Rickenbacker bass and one of the brand’s most collectible instruments. It features the brass R tailpiece introduced in 1964 to 1965.</figcaption>
       </figure>
       <h3>Trapeze Tailpiece: 1958 to 1965</h3>
