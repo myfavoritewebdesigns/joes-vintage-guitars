@@ -59,4 +59,21 @@ const breadcrumbSchema = {
     text-transform: uppercase; font-size: 0.95rem;
   }
   .reverb-reviews-page :global(.rv-cta-btn:hover) { background: var(--color-brand-rust-bright, #be4b25); }
+
+  /* Skip layout + paint for the off-screen review cards.
+     This page deliberately renders all 2,191 Reverb reviews so search and AI
+     engines can read them (Reverb's own data is not crawlable), which means a
+     ~18,000-element DOM. `content-visibility: auto` keeps every card in the DOM
+     and in the accessibility tree, it only defers rendering work until a card
+     is near the viewport, so crawlability is unaffected.
+
+     `contain-intrinsic-size: auto <fallback>` is what stops this from causing
+     scroll jump: `auto` makes the browser remember each card's real rendered
+     height after it is first laid out, so the fallback only applies to the very
+     first paint. Fallback measured live on 2,052 cards: mean 146px at 390px
+     wide, 120px at 1920px, so 140px sits between the two. */
+  .reverb-reviews-page :global(article.rv) {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 140px;
+  }
 </style>
