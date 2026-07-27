@@ -80,6 +80,42 @@
 /post/1968-gibson-es335-guide/                                   /post/1968-gibson-es-335-guide/       301
 /post/how-to-identify-the-manufacture-date-of-a-gretsch-guitar   /gretsch-serial-number-lookup/        301
 /post/how-to-identify-the-manufacture-date-of-a-gretsch-guitar/  /gretsch-serial-number-lookup/        301
-# Base post no longer exists; send the old AMP URL to the Gibson serial guide (covers Les Paul dating).
+# The migration prefixed this one post's slug with the domain name. The post is
+# live under the prefixed slug, so the original WP slug is the URL that broke.
+/post/identify-gibson-lg-series                                  /post/joesvintageguitarsaz-com-identify-gibson-lg-series/  301
+/post/identify-gibson-lg-series/                                 /post/joesvintageguitarsaz-com-identify-gibson-lg-series/  301
+
+# ---------------------------------------------------------------------------
+# AMP retirement (GSC 404 sweep 2026-07-27).
+# The old WordPress AMP plugin published TWO URL shapes, and Google still crawls
+# both: "/<path>/amp/" (suffix) and "/amp/<path>/" (prefix, confirmed live on
+# the homepage and /free-appraisal/). Every one of these has a live canonical
+# page, so these are true 301s, not the soft-404 pattern we deliberately avoid
+# for the query-string and /wp-content 404s.
+#
+# ORDER MATTERS, first match wins. The rule above for dating-a-les-paul stays
+# ahead of everything here because that post has no live base page. The three
+# guides below moved OUT of /post/ at cutover, so each needs an explicit rule
+# ahead of the generic /post/:slug/amp rule; without it they would land on
+# /post/<slug>/ and take a second hop.
 /post/dating-a-les-paul-with-serial-numbers/amp                  /how-to-read-gibson-serial-numbers/   301
 /post/dating-a-les-paul-with-serial-numbers/amp/                 /how-to-read-gibson-serial-numbers/   301
+/post/how-to-read-gibson-serial-numbers/amp                      /how-to-read-gibson-serial-numbers/   301
+/post/how-to-read-gibson-serial-numbers/amp/                     /how-to-read-gibson-serial-numbers/   301
+/post/fender-guitars-serial-number-guide/amp                     /fender-guitars-serial-number-guide/  301
+/post/fender-guitars-serial-number-guide/amp/                    /fender-guitars-serial-number-guide/  301
+/post/martin-serial-and-model-numbers/amp                        /martin-serial-and-model-numbers/     301
+/post/martin-serial-and-model-numbers/amp/                       /martin-serial-and-model-numbers/     301
+
+# Generic suffix form: a post's AMP twin belongs on the post itself.
+/post/:slug/amp                                                  /post/:slug/                          301
+/post/:slug/amp/                                                 /post/:slug/                          301
+
+# Homepage AMP. Listed before the /amp/* splat so it cannot resolve to an
+# empty splat.
+/amp                                                             /                                     301
+/amp/                                                            /                                     301
+
+# Prefix form. The AMP plugin mirrored the real site structure, so the splat is
+# the live path (e.g. /amp/free-appraisal/ -> /free-appraisal/).
+/amp/*                                                           /:splat                               301
