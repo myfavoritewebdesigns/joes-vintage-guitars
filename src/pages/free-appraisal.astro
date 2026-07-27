@@ -219,6 +219,10 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
        mobile LCP fix. -->
   <link slot="head" rel="preload" as="image" href="/images/hero-background.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high" />
   <link slot="head" rel="preload" as="image" href="/images/hero-background-mobile.webp" media="(max-width: 768px)" fetchpriority="high" />
+  {/* lite-youtube-embed (paulirish) assets, vendored to public/ in PR #74. Same
+      wiring as index.astro and the sell-my-* pages. */}
+  <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+  <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
   <!-- Mobile serves an 828w WebP of the same hero photo (52KB vs 275KB);
        must be is:global with !important to beat PageHero's inline style. -->
   <style is:global>
@@ -243,13 +247,20 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
     <div class="fa-intro__inner">
       <div class="fa-intro__video">
         <div class="fa-intro__video-wrap">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/uSu-Ld-xgnI"
+          <!-- lite-youtube facade, matching the other 19 video pages. This was the
+               last raw <iframe> on the site: it booted the full YouTube player on
+               load (~811 KiB JS + 107 KiB CSS, and all 4 of the page's long
+               main-thread tasks), which is what held this page at PSI 57 while the
+               rest of the site sat in the 90s. loading="lazy" did NOT prevent it —
+               the embed is high on the page, so it was always in the load window.
+               The facade shows the thumbnail + play button and only swaps in the
+               real iframe on click. -->
+          <lite-youtube
+            videoid="uSu-Ld-xgnI"
+            params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1"
             title="Joe explains the free vintage guitar appraisal"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+            class="fa-lite-yt"
+          ></lite-youtube>
         </div>
       </div>
       <div class="fa-intro__copy">
@@ -582,13 +593,19 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
     background: #000;
   }
-  .fa-intro__video-wrap iframe {
+  /* Covers BOTH the lite-youtube facade and the real <iframe> it swaps in on
+     click, so the video keeps filling the 16/9 wrapper either way. The facade
+     replaced a raw iframe here; leaving the iframe selector in place matters
+     because lite-youtube injects a plain <iframe> as its child on activation. */
+  .fa-intro__video-wrap iframe,
+  .fa-intro__video-wrap lite-youtube {
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
     border: 0;
     display: block;
+    max-width: none;
   }
   .fa-intro__copy {
     padding-left: 18px;
