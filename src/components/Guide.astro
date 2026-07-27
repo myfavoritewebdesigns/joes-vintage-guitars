@@ -1,4 +1,24 @@
 ---
+import { SITE_URL } from "../config/site";
+
+// VideoObject for the guitar-packing/shipping video embedded below (homepage).
+// uploadDate pulled from the video's YouTube page; author points at the shared
+// /about-me/#person node, matching the other pages' video schema.
+const SHIP_VIDEO_ID = "XrlMW385NMM";
+const shipVideoSchema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "@id": `${SITE_URL}/#shipping-video`,
+  name: "How to Pack a Guitar for Shipping (Step-by-Step Guide)",
+  description:
+    "Joe Dampt demonstrates how to safely pack a vintage guitar for shipping, from detuning and bracing the headstock to boxing, insuring, and choosing a carrier.",
+  thumbnailUrl: `https://img.youtube.com/vi/${SHIP_VIDEO_ID}/maxresdefault.jpg`,
+  uploadDate: "2026-03-16T13:34:43-07:00",
+  embedUrl: `https://www.youtube.com/embed/${SHIP_VIDEO_ID}`,
+  contentUrl: `https://www.youtube.com/watch?v=${SHIP_VIDEO_ID}`,
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+};
+
 const prepareSelf = [
   { strong: "Research the market value.", body: "Spend time on Reverb, eBay sold listings, and guitar forums to understand what comparable instruments have actually sold for, not what sellers are asking." },
   { strong: "Take a full set of high-quality photos.", body: "Buyers expect 15 to 25 clear images covering the front, back, headstock, serial number, frets, tuners, pickups, electronics, case, and any wear or repairs. Poor photos kill sales." },
@@ -175,6 +195,7 @@ const chartRows: Row[] = [
         style="background-image: url('https://i.ytimg.com/vi/XrlMW385NMM/hqdefault.jpg');"
         class="jvg-guide__video"
       ></lite-youtube>
+      <script type="application/ld+json" set:html={JSON.stringify(shipVideoSchema)} />
 
       <div class="jvg-guide__contrast">
         <div class="jvg-guide__col">

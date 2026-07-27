@@ -165,7 +165,40 @@ const howToSchema = {
   ],
 };
 
-structuredData.push(toolSchema, howToSchema, faqSchema);
+// VideoObject for "Where to Find the Serial Number on a Martin Guitar" (embedded
+// twice on the page: the intro embed and the deep-linked clip in the location
+// section). uploadDate + chapters pulled from the video's YouTube page.
+const MARTIN_YT_ID = "WGF-pL6GB38";
+const MARTIN_PAGE = "/martin-serial-and-model-numbers/";
+// [name, startOffset, endOffset]; final chapter ends at the video length (60s).
+const MARTIN_CHAPTERS: [string, number, number][] = [
+  ["Intro", 0, 20],
+  ["Serial Number Location 1", 20, 60],
+];
+const videoSchema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "@id": `${SITE_URL}${MARTIN_PAGE}#video`,
+  name: "Where to Find the Serial Number on a Martin Guitar",
+  description:
+    "A vintage guitar expert shows where to find the serial number on a Martin guitar, stamped on the neck block inside the body and visible through the soundhole.",
+  thumbnailUrl: `https://img.youtube.com/vi/${MARTIN_YT_ID}/maxresdefault.jpg`,
+  uploadDate: "2026-01-13T13:11:42-08:00",
+  embedUrl: `https://www.youtube.com/embed/${MARTIN_YT_ID}`,
+  contentUrl: `https://www.youtube.com/watch?v=${MARTIN_YT_ID}`,
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  // Key Moments: explicit chapter signal (Google may also derive these itself for
+  // YouTube-hosted video). One Clip per chapter, url deep-links the page with ?t=.
+  hasPart: MARTIN_CHAPTERS.map(([name, startOffset, endOffset]) => ({
+    "@type": "Clip",
+    name,
+    startOffset,
+    endOffset,
+    url: `${SITE_URL}${MARTIN_PAGE}?t=${startOffset}`,
+  })),
+};
+
+structuredData.push(toolSchema, howToSchema, faqSchema, videoSchema);
 ---
 
 <Layout
@@ -250,6 +283,15 @@ structuredData.push(toolSchema, howToSchema, faqSchema);
           width={1096}
         />
       </figure>
+      <div class="msn-locate-video">
+        <lite-youtube
+          videoid={MARTIN_YT_ID}
+          params="rel=0&modestbranding=1&start=20"
+          title="Watch: where the serial number is on a Martin neck block"
+          style={`background-image:url('${img("Model-Name-Serial-Number-Martin.jpg")}')`}
+        ></lite-youtube>
+        <p class="msn-locate-video__cap">Watch Joe find it on the neck block (0:20).</p>
+      </div>
     </div>
   </section>
 
@@ -938,6 +980,10 @@ structuredData.push(toolSchema, howToSchema, faqSchema);
   .msn-section strong { color: var(--color-brand-rust-dark); }
 
   .msn-figure { text-align: center; margin: 24px 0; }
+  /* Deep-linked clip in the "where is the serial number" section (jumps to 0:20). */
+  .msn-locate-video { max-width: 560px; margin: 20px auto 0; }
+  .msn-locate-video lite-youtube { border-radius: 10px; overflow: hidden; display: block; }
+  .msn-locate-video__cap { margin: 8px 0 0; font-size: 14px; color: var(--color-brand-brown-muted, #6c5238); text-align: center; }
   .msn-figure img {
     max-width: 100%;
     height: auto;

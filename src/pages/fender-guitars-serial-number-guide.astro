@@ -120,6 +120,19 @@ const faqs = [
 
 const YT_ID = "PIRoB0KHEg0";
 const YT_TITLE = "Where to Find Fender Serial Numbers, Neck Heel Dates & Pot Codes (Identification Guide)";
+// YouTube chapters (verified from the video), rendered as VideoObject Key Moments (Clip).
+// Tuple shape: [name, startOffset seconds, endOffset seconds]. endOffset = next chapter's
+// start; the final chapter ends at the video length (345s).
+const YT_CHAPTERS: [string, number, number][] = [
+  ["Intro", 0, 9],
+  ["Serial Number Location 1", 9, 22],
+  ["Serial Number Location 2", 22, 45],
+  ["Serial Numbers are not always accurate", 45, 77],
+  ["Disassembling Guitar (Advanced Dating)", 77, 125],
+  ["Neck Date", 125, 184],
+  ["Checking Pots", 184, 295],
+  ["Conclusion", 295, 345],
+];
 
 // ---- Schema ----
 const articleSchema = {
@@ -148,6 +161,15 @@ const videoSchema = {
   embedUrl: `https://www.youtube.com/embed/${YT_ID}`,
   contentUrl: `https://www.youtube.com/watch?v=${YT_ID}`,
   author: { "@id": `${SITE_URL}/about-me/#person` },
+  // Key Moments: explicit chapter signal (Google may also derive these itself for
+  // YouTube-hosted video). One Clip per chapter, url deep-links the page with ?t=.
+  hasPart: YT_CHAPTERS.map(([name, startOffset, endOffset]) => ({
+    "@type": "Clip",
+    name,
+    startOffset,
+    endOffset,
+    url: `${SITE_URL}${PAGE_PATH}?t=${startOffset}`,
+  })),
 };
 const faqSchema = {
   "@context": "https://schema.org",
