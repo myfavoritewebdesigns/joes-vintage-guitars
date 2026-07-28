@@ -4,7 +4,7 @@ import PageHero from "../components/primitives/PageHero.astro";
 import SectionHeader from "../components/primitives/SectionHeader.astro";
 import Button from "../components/primitives/Button.astro";
 import LeadForm from "../components/LeadForm.astro";
-import { contact, hrefs } from "../config/site";
+import { contact, hrefs, SITE_URL } from "../config/site";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { resolveImage } from "../lib/images";
 
@@ -20,6 +20,23 @@ const faqSchema = {
     { "@type": "Question", name: "Can You Help With Appraisals For An Estate Or Probate Court?", acceptedAnswer: { "@type": "Answer", text: "Yes. Settling an estate takes accurate numbers and clean paperwork. I write official appraisals that hold up for legal, tax, and probate purposes, so the family isn't left guessing." } },
     { "@type": "Question", name: "Will You Buy My Guitar After You Appraise It?", acceptedAnswer: { "@type": "Answer", text: "Absolutely. If you decide to sell, I'll make a fair cash offer based on that same value. There's never any pressure, but the option is there if you'd rather sell quick than deal with tire-kickers online." } },
   ],
+};
+
+// VideoObject for the intro appraisal video. uploadDate pulled from the video's
+// YouTube page; author points at the shared /about-me/#person node.
+const VIDEO_ID = "uSu-Ld-xgnI";
+const videoSchema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "@id": `${SITE_URL}/free-appraisal/#video`,
+  name: "Free Vintage Guitar Appraisal",
+  description:
+    "Joe Dampt explains how to get a free vintage guitar appraisal from Joe's Vintage Guitars: send a few photos to get a fair market value and an honest authentication.",
+  thumbnailUrl: `https://img.youtube.com/vi/${VIDEO_ID}/maxresdefault.jpg`,
+  uploadDate: "2026-02-11T09:18:38-08:00",
+  embedUrl: `https://www.youtube.com/embed/${VIDEO_ID}`,
+  contentUrl: `https://www.youtube.com/watch?v=${VIDEO_ID}`,
+  author: { "@id": `${SITE_URL}/about-me/#person` },
 };
 
 const steps = [
@@ -213,7 +230,7 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
   ogType="article"
   publishedTime="2022-05-11T21:17:00+00:00"
   modifiedTime="2026-04-24T19:29:25+00:00"
-  structuredData={faqSchema}
+  structuredData={[faqSchema, videoSchema]}
 >
   <!-- Preload the CSS-background hero (late-discovered otherwise); Prompt 8
        mobile LCP fix. -->

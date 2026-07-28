@@ -42,6 +42,18 @@ const structuredData = [
   { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q.replace(/’/g, "'").replace(/&/g, "&"), acceptedAnswer: { "@type": "Answer", text: f.a.replace(/’/g, "'").replace(/—/g, "—") } })) },
   { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [ { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" }, { "@type": "ListItem", position: 2, name: "Sell My National Guitar", item: "https://www.joesvintageguitarsaz.com/sell-my-national-guitar/" } ] },
   { "@context": "https://schema.org", "@type": "Article", headline: "Sell Your Vintage National Guitar In The US", author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" }, publisher: { "@id": "https://www.joesvintageguitarsaz.com/" }, mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-national-guitar/" },
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "@id": "https://www.joesvintageguitarsaz.com/sell-my-national-guitar/#video",
+    name: "Meet Vintage Guitar Expert, Joe Dampt",
+    description: "Meet Joe Dampt of Joe's Vintage Guitars and see how selling your vintage National resonator guitar to a specialist buyer works.",
+    thumbnailUrl: "https://img.youtube.com/vi/zMd6IJ-6e-8/maxresdefault.jpg",
+    uploadDate: "2023-11-20T09:28:04-08:00",
+    embedUrl: "https://www.youtube.com/embed/zMd6IJ-6e-8",
+    contentUrl: "https://www.youtube.com/watch?v=zMd6IJ-6e-8",
+    author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
+  },
 ];
 ---
 
