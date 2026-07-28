@@ -1,6 +1,6 @@
 ---
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { resolveImage, assetSrc } from "../lib/images";
+import { resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { contact, hrefs, SITE_URL } from "../config/site";
 // Interactive Gibson serial/FON decoder — markup imported at build time (Vite ?raw),
@@ -16,20 +16,6 @@ import gsnToolHtml from "../../reference/gsn-tool-html.html?raw";
    ============================================================ */
 
 const imgMeta = (file: string) => resolveImage("images/gibson-serial/" + file)!;
-// String URL for CSS poster backgrounds on the deep-linked lite-youtube embeds.
-const posterSrc = (file: string) => assetSrc("images/gibson-serial/" + file);
-
-const GIB_YT_ID = "oxvMHi23bZc";
-const GIB_PAGE = "/how-to-read-gibson-serial-numbers/";
-// YouTube chapters (verified from the video; Joe confirmed 0:12 = interior label,
-// 0:28 = back of the headstock). [name, startOffset, endOffset]; endOffset = next
-// chapter's start, final chapter ends at the video length (108s).
-const GIB_CHAPTERS: [string, number, number][] = [
-  ["Intro", 0, 12],
-  ["Serial Number Location 1", 12, 28],
-  ["Serial Number Location 2", 28, 57],
-  ["Other Tips for Dating a Gibson Guitar", 57, 108],
-];
 
 // Floating in-page nav (matches live's jvg-nav). Two labeled groups + a top link.
 const navEras = [
@@ -118,29 +104,6 @@ const toolSchema = {
   offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
 };
 
-const videoSchema = {
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "@id": `${SITE_URL}${GIB_PAGE}#video`,
-  name: "Where to Find the Serial Number on a Gibson Guitar",
-  description:
-    "A vintage guitar expert shows where to find the serial number on a Gibson electric or acoustic guitar, on the interior label and stamped on the back of the headstock.",
-  thumbnailUrl: `https://img.youtube.com/vi/${GIB_YT_ID}/maxresdefault.jpg`,
-  uploadDate: "2026-01-13T13:25:56-08:00",
-  embedUrl: `https://www.youtube.com/embed/${GIB_YT_ID}`,
-  contentUrl: `https://www.youtube.com/watch?v=${GIB_YT_ID}`,
-  author: { "@id": `${SITE_URL}/about-me/#person` },
-  // Key Moments: explicit chapter signal (Google may also derive these itself for
-  // YouTube-hosted video). One Clip per chapter, url deep-links the page with ?t=.
-  hasPart: GIB_CHAPTERS.map(([name, startOffset, endOffset]) => ({
-    "@type": "Clip",
-    name,
-    startOffset,
-    endOffset,
-    url: `${SITE_URL}${GIB_PAGE}?t=${startOffset}`,
-  })),
-};
-
 // The page-level Person node moved to Layout.astro as the global shared node
 // (SEO v2 Prompt 6); the Article author above references it by @id.
 ---
@@ -155,7 +118,7 @@ const videoSchema = {
   ogType="article"
   publishedTime="2026-03-12T20:06:33+00:00"
   modifiedTime="2026-05-08T23:44:24+00:00"
-  structuredData={[breadcrumbSchema, articleSchema, howToSchema, faqSchema, toolSchema, videoSchema]}
+  structuredData={[breadcrumbSchema, articleSchema, howToSchema, faqSchema, toolSchema]}
 >
   <!-- Body class drives the Archetype-B secondary-nav color override (white → brown). -->
   <script is:inline>document.body.classList.add("gibson-sn-page");</script>
@@ -203,10 +166,6 @@ const videoSchema = {
               <h3>On the Interior Label</h3>
               <p>Found on acoustic and hollow-body electrics. Look through the soundhole or f-holes for a paper label, white oval on early models, orange oval from 1947 onward. The serial number is handwritten or stamped directly on this label.</p>
               <span class="gsn-tag">Acoustics & Hollow Bodies</span>
-              <div class="gsn-locate-video">
-                <lite-youtube videoid={GIB_YT_ID} params="rel=0&modestbranding=1&start=12" title="Watch: where the serial number is on a Gibson interior label" style={`background-image:url('${posterSrc("gibson-serial-number-location-on-label-scaled.jpg")}')`}></lite-youtube>
-                <p class="gsn-locate-video__cap">Watch Joe find it on the interior label (0:12).</p>
-              </div>
             </div>
           </article>
           <article class="gsn-locate-card">
@@ -215,10 +174,6 @@ const videoSchema = {
               <h3>Back of the Headstock</h3>
               <p>On solid body and semi-hollow electrics, the number is ink-stamped, silkscreened, or die-stamped into the wood depending on the era. Post-1970 models also have a “MADE IN USA” stamp directly below the serial number.</p>
               <span class="gsn-tag">Solid Bodies & Semi-Hollow Electrics</span>
-              <div class="gsn-locate-video">
-                <lite-youtube videoid={GIB_YT_ID} params="rel=0&modestbranding=1&start=28" title="Watch: where the serial number is on the back of a Gibson headstock" style={`background-image:url('${posterSrc("1958-gibson-les-paul-special-serial-number-scaled.jpg")}')`}></lite-youtube>
-                <p class="gsn-locate-video__cap">Watch Joe find it on the back of the headstock (0:28).</p>
-              </div>
             </div>
           </article>
         </div>
@@ -1849,10 +1804,6 @@ const videoSchema = {
   /* Video */
   .gsn-video { max-width: 600px; margin: 24px auto; }
   .gsn-video lite-youtube { border-radius: 10px; overflow: hidden; }
-  /* Deep-linked clip inside each "where to locate" card (jumps to that chapter). */
-  .gsn-locate-video { margin-top: 16px; }
-  .gsn-locate-video lite-youtube { border-radius: 8px; overflow: hidden; }
-  .gsn-locate-video__cap { margin: 8px 0 0; font-size: 13px; color: var(--color-brand-brown-muted, #6c5238); text-align: center; }
 
   /* Jump-to nav */
   .gsn-jumpnav { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 18px 0 28px; padding: 16px 18px; background: #faf6ee; border: 1px solid #e0dacc; border-radius: 10px; }
