@@ -233,6 +233,55 @@ if (structuredData) {
   <head>
     <meta charset="UTF-8" />
 
+    <!-- CallRail dynamic number insertion. Company 480262361.
+
+         RESTORED 2026-07-31. CallRail was never hard-coded here — GTM-TKN5P7S
+         loaded it (container tag_id 9). When the Google Tag Gateway was switched
+         off at the Cloudflare ACCOUNT level on 2026-07-26, the container died and
+         took CallRail with it. From 07-26 until this shipped, every call that
+         started on the website was unattributed. Calls still reached Joe the whole
+         time — the un-swapped number is his real line — so nothing was dropped;
+         what was lost was knowing where the call came from.
+
+         The snippet below was recovered from the still-published container
+         (https://www.googletagmanager.com/gtm.js?id=GTM-TKN5P7S), not guessed, and
+         the account was confirmed live first: swap.js returns 200 with a current
+         build, so it has been billing this whole time while doing nothing.
+
+         ⚠️ LOAD-BEARING: this must load EARLY and must NOT be idle-deferred.
+         The swap has to finish before a fast visitor dials, or they call the
+         un-swapped number and the lead lands untracked. That is precisely why it
+         does NOT belong in the idle-deferred WhatConverts block below, and why it
+         is not a Zaraz tool — Zaraz runs edge-side and cannot rewrite the DOM.
+         The 2026-07-01 remediation plan called this out explicitly: "Do NOT defer
+         CallRail." Async is fine and correct; deferred is not.
+
+         ⚠️ NOT redundant with WhatConverts. WhatConverts' tracking numbers are
+         configured inside the Google Business Profiles and the Bing call extension,
+         so it only ever sees calls from those surfaces. CallRail is the only thing
+         that has ever tracked calls originating on the website. Removing it does
+         not fall back to WhatConverts, it goes dark.
+
+         Host-gated to production so preview branches and localhost never consume
+         numbers from the swap pool. -->
+    <script is:inline>
+      (function () {
+        var PROD_HOST = "joesvintageguitarsaz.com";
+        var host = window.location.hostname;
+        if (host !== PROD_HOST && host.indexOf("." + PROD_HOST) === -1) return;
+
+        var SRC =
+          "https://cdn.callrail.com/companies/480262361/8fb5e204c75f1140c560/12/swap.js";
+        // Guard against a double-load if CallRail is ever also restored upstream.
+        if (document.querySelector('script[src="' + SRC + '"]')) return;
+
+        var s = document.createElement("script");
+        s.async = true;
+        s.src = SRC;
+        document.head.appendChild(s);
+      })();
+    </script>
+
     <!-- WhatConverts, loaded directly instead of through GTM.
          GTM-TKN5P7S was a ~420 KB container parsed on every page load before a
          single tag fired. GA4, Google Ads, Meta Pixel and Bing UET all move to
