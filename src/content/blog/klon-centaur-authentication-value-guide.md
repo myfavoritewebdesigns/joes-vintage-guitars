@@ -260,7 +260,7 @@ If you've inherited one, or you're clearing out a collection that has one in it,
 
 Now the part that matters to most players, because most players are not going to spend five thousand dollars on an overdrive pedal.
 
-The Centaur circuit has been public for years. There are dozens of pedals built on it, and a fair number of them get genuinely close. ToneIsland put together a solid roundup of the leading options, and rather than duplicate their work we'd point you at it directly: [9 Best Klon Centaur Clones For 2026](https://toneisland.com/best-klon-centaur-clones-pedals/). Below is our take on the same nine pedals, with the emphasis on how each one relates to the original.
+The Centaur circuit has been public for years. There are dozens of pedals built on it, and a fair number of them get genuinely close. ToneIsland put together a solid roundup of the leading options, and rather than duplicate their work we'd point you at it directly: [their guide to the best Klon Centaur clones](https://toneisland.com/best-klon-centaur-clones-pedals/). Below is our take on the same nine pedals, with the emphasis on how each one relates to the original.
 
 | Pedal | Rough street price | How it relates to a real Centaur |
 | --- | --- | --- |
