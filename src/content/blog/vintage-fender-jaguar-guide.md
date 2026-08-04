@@ -331,9 +331,9 @@ Verify with any "all original" vintage Jaguar that the bridge currently installe
 
 | Era | Tuner Type | Stamp | Button |
 | --- | --- | --- | --- |
-| 1962 to late 1964 | Kluson Deluxe single line | Single "Kluson Deluxe" stamp running down the center of the back plate | Stamped oval metal |
-| Late 1964 to late 1967 | Kluson Deluxe double line | "Kluson Deluxe / Kluson Deluxe" stacked on two lines | Stamped oval metal |
-| Late 1967 to 1975 | Fender "F" stamped tuners (Schaller made) | Large stylized "F" on back plate | Stamped octagonal metal |
+| 1962 to late 1964 | Kluson Deluxe single line | Single "Kluson Deluxe" stamp running down the center of the back plate | Oval metal |
+| Late 1964 to late 1967 | Kluson Deluxe double line | "Kluson Deluxe / Kluson Deluxe" stacked on two lines | Oval metal |
+| Late 1967 to 1975 | Fender "F" stamped tuners (Schaller made) | Large stylized "F" on back plate | Octagonal metal |
 
 Tuner replacement is one of the most common modifications on vintage Fenders, usually because the original Klusons developed slop in the gears after fifty years of use. Replacement is reversible and not always a dealbreaker, but you want to see the original tuner peg holes intact with no enlargement or filled secondary holes from a different gear ratio replacement set. Sperzels or Gotohs installed in original Kluson holes leave a tight, period correct looking exterior but you can spot them by the modern stamping and the post diameter.
 

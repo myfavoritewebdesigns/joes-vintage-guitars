@@ -117,7 +117,7 @@ The logo on a 1966 Stratocaster is the gold "transition" decal. It's gold with a
 
 ### Tuners
 
-1966 Strats use **Kluson Deluxe** tuners with the double-line "Kluson Deluxe / Kluson Deluxe" stamping running down the back of the housing. Single-line Klusons were phased out by mid-1964, so by 1966 the double-line stamp is universal. The tuners are all metal, with stamped oval metal buttons. Shafts and gears should turn smoothly. Replacement tuners are one of the most common modifications on these guitars, so check the back of the headstock for plug marks or extra screw holes that might indicate Schaller or Grover replacements at some point in the guitar's history.
+1966 Strats use **Kluson Deluxe** tuners with the double-line "Kluson Deluxe / Kluson Deluxe" stamping running down the back of the housing. Single-line Klusons were phased out by mid-1964, so by 1966 the double-line stamp is universal. The tuner buttons are metal. Shafts and gears should turn smoothly. Replacement tuners are one of the most common modifications on these guitars, so check the back of the headstock for plug marks or extra screw holes that might indicate Schaller or Grover replacements at some point in the guitar's history.
 
 ### String Tree
 
