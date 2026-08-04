@@ -84,7 +84,7 @@ When the Mustang launched in 1964, Fender redesigned the Duo-Sonic and Musicmast
 
 The Mustang is a solid-body electric with a compact offset waist, a bolt-on maple neck, and a rosewood fingerboard. The body is a solid slab (poplar on most examples, with other hardwoods turning up across the long production run), routed for two pickups and finished in nitrocellulose lacquer through the vintage era. It is a real Fullerton-built Fender, not a corner-cut import, and that is the point buyers sometimes miss.
 
-Two things about the build matter most for authentication. The first is scale length. The Mustang was offered in two: a 22.5 inch short scale and a 24 inch medium scale. The 24 inch quickly became the standard and the far more common seller, so a genuine 22.5 inch example is the less usual find. Fender also specified nut width with a letter code that shows up in the neck stamp, where "A" is the narrow 1 and 7/16 inch nut and "B" is the wider and generally more desirable 1 and 5/8 inch nut.
+Two things about the build matter most for authentication. The first is scale length. The Mustang was offered in two: a 22.5 inch short scale and a 24 inch medium scale. The 24 inch quickly became the standard and the far more common seller, so a genuine 22.5 inch example is the less usual find. Fender also specified nut width with a letter code that shows up in the neck stamp, where "A" is the narrow 1 and 1/2 inch nut and "B" is the wider and generally more desirable 1 and 5/8 inch nut.
 
 ![Rosewood fingerboard of a vintage Fender Mustang showing pearloid dot inlays and a bolt-on maple neck.](../../assets/blog/fender-mustang-history-value/fender-mustang-rosewood-fingerboard-pearl-dots.jpg)
 
