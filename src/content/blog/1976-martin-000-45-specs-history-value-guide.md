@@ -1,8 +1,8 @@
 ---
 title: "1976 Martin 000-45: Specs, History, Authentication, and Value"
 pubDate: "2026-08-03T10:00:00"
-modified: "2026-08-03T10:00:00"
-excerpt: "The 000-45 is the rarest thing Martin puts a catalog number on. Only 341 were built between 1906 and 2005, and in the 1970s the factory made them one and two at a time. Here is the full spec sheet for a 1976 example, the history of how Style 45 came back after the war, how to tell an original from an upgraded 000-28, and what one is honestly worth today."
+modified: "2026-08-03T21:30:00"
+excerpt: "The 000-45 is the rarest thing Martin puts a catalog number on. Just 341 were built across the whole span from 1906 to 2005, post-1970 reissues included, and in the 1970s the factory made them one and two at a time. Here is the full spec sheet for a 1976 example, the history of how Style 45 came back after the war, how to tell an original from an upgraded 000-28, and what one is honestly worth today."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
@@ -30,7 +30,9 @@ toc:
 ---
 <style>.blog-prose figure p{margin:0}</style>
 
-Martin has been building the 000-45 since 1906, and in almost 120 years the factory has made fewer of them than a popular dreadnought model gets through in a slow month. From the first one in 1906 through 2005, the total came to **341 guitars**. That is the whole run, every year combined.
+Martin has been building the 000-45 since 1906, and in almost 120 years the factory has made fewer of them than a popular dreadnought model gets through in a slow month. Martin's own archives put the count at **341 guitars from 1906 through 2005**. That figure is the whole span, not just the pre-war years, and it already includes every reissue built after the model came back in 1970.
+
+Worth splitting apart, because the two eras get confused constantly. Mike Longworth's production records put the original pre-war run at roughly 265 guitars, which leaves somewhere in the neighborhood of 76 built across the thirty-five years after the reissue. Either way you cut it, this is a model Martin has made in ones and twos for most of its life.
 
 The 1970s were the thinnest part of that run. Style 45 had been dead since 1942, and when Martin brought it back it came back cautiously, a few instruments at a time, usually against a specific order. Dealers who handle these routinely describe single years in the middle 1970s as one-guitar and three-guitar years.
 
@@ -61,7 +63,8 @@ If you only read one part of this, read the table.
 | **Headstock** | Rosewood face with the vertical pearl C.F. Martin inlay |
 | **Tuners** | Gold Grover |
 | **1976 serial range** | 371,829 to 388,800 |
-| **Total ever built (1906 to 2005)** | 341 |
+| **Total ever built (1906 to 2005)** | 341, reissues included |
+| **Of those, pre-war (1906 to 1942)** | Roughly 265, leaving about 76 post-1970 |
 | **Rough value, clean and original** | Low to middle five figures. See the [value section](#value) |
 
 <h2 id="what-it-is">What A 000-45 Is</h2>
@@ -104,7 +107,7 @@ That is the context a 1976 example lives in. The same year, Martin introduced th
 | Top | Solid Sitka spruce, natural gloss |
 | Bracing | X-braced, non-scalloped for this year |
 | Back and sides | Solid East Indian rosewood |
-| Neck | Mahogany, with a hollow square steel tube reinforcement |
+| Neck | Mahogany, with a hollow square steel tube reinforcement, non-adjustable |
 | Fingerboard | Ebony, bound |
 | Inlays | Abalone hexagons at frets 1, 3, 5, 7, 9, 12, 15, 17 |
 | Top trim | Abalone pearl border around the full perimeter, abalone rosette |
@@ -119,11 +122,13 @@ That is the context a 1976 example lives in. The same year, Martin introduced th
 | Tuners | Gold Grover, enclosed |
 | Serial location | Stamped on the neck block, visible through the soundhole |
 
-A note on two of those rows, because they are the ones people query.
+A note on three of those rows, because they are the ones people query.
 
 **Non-scalloped bracing** is correct for 1976 and is not a defect. Martin stopped scalloping in late 1944 and did not put it back on a production model until the HD-28 arrived in 1976. A 000-45 from this year should have straight-profile braces. If yours has scalloped braces, either it left the factory as a special order or somebody has been inside it.
 
 **East Indian rosewood** is also correct and is also not a defect. Martin moved off Brazilian rosewood in late 1969, somewhere around serial 254498. Every 1970s rosewood Martin is Indian. Any 1976 guitar advertised as Brazilian deserves a hard look and a second opinion.
+
+**The neck rod does not adjust.** Martin replaced the steel T-bar with a hollow square tube in 1967 and used that tube until 1985, when the modern adjustable rod arrived. There is no nut to turn on a 1976 guitar, and no amount of hunting inside the soundhole will find one. This matters when you go to buy: the square tube is less stiff than the T-bar it replaced, so guitars from this window have a reputation for pulling into an up-bow and staying there. Sight the neck before you commit, because the fix is a neck reset rather than a quarter turn of a wrench.
 
 <h2 id="details">Reading This One Detail By Detail</h2>
 
@@ -212,25 +217,31 @@ Here is what an upgrade looks like against the real thing:
 | Fingerboard | Bound ebony, hexagons from the 1st fret | Unbound, dots at 5, 7, 9, 12, 15 |
 | Headstock | Bound rosewood face, vertical pearl logo | Unbound, decal or gold Martin logo |
 | Neck block stamp | 000-45 | 000-28 |
-| Binding | Grained ivoroid | Grained ivoroid on both, so this proves nothing |
+| Outer binding | Grained ivoroid | Grained ivoroid on both, so the binding material alone proves nothing |
+| Purfling inside the binding | Abalone strips in routed channels, with multi-ply black and ivoroid borders | Plain black and white lines, or pearl dropped into a recut channel |
 | Finish under the pearl | Uniform, no witness lines | Sanded-through edges, mismatched sheen, overspray |
 
-The neck block stamp and the side pearl together will settle nearly every case. We walked through the same logic for the other Martin that gets converted constantly in our [Martin D-18E and D-28E authentication guide](/post/martin-d18e-vs-d28e-authentication-guide/), where the giveaway is bracing rather than trim.
+Two rows there deserve to be read together, because people mix them up. The **binding** is the outer strip you can see from the edge, and a 1970s 000-28 and 000-45 both use grained ivoroid, so it settles nothing. The **purfling** is the layered material sitting inside the binding, and that is where the two models genuinely part ways. A 000-28 has plain black and white lines. A 000-45 has real abalone strips laid into routed channels with multi-ply black and ivoroid borders around them, on the top, the back, and the sides.
+
+That distinction is what makes a conversion visible. To fake a 45 you have to widen or recut the purfling channel to take pearl, and that work leaves traces: uneven channel width, filled router lines, binding that reads too narrow or too wide against the pearl, purfling layers that do not match from the top to the back. Run a magnifier along the channel in raking light and follow it around the whole guitar. Factory work stays consistent the entire way around. Aftermarket work almost never does, and it usually gets sloppiest at the waist and the end block, where the bend is hardest.
+
+The neck block stamp and the side pearl together will settle nearly every case, and the purfling channel settles the rest. We walked through the same logic for the other Martin that gets converted constantly in our [Martin D-18E and D-28E authentication guide](/post/martin-d18e-vs-d28e-authentication-guide/), where the giveaway is bracing rather than trim.
 
 <h3 id="checklist">Bench Checklist</h3>
 
-Run these in order. It takes about ten minutes with a mirror and a flashlight.
+Run these in order. It takes about ten minutes with a mirror, a flashlight, and a magnifier.
 
 1. **Read the neck block.** Serial and model number. Confirm the year against a serial chart and confirm the model says 000-45.
 2. **Confirm the pearl goes all the way around.** Top, back, and sides. Missing side pearl is the loudest single red flag.
-3. **Count the fingerboard inlays.** Eight positions starting at the first fret, in hexagons for this era.
-4. **Check the headstock.** Bound rosewood face, inlaid vertical pearl logo, not a decal.
-5. **Check the saddle.** Drop-in, not long. A long saddle on a 1976 means a replaced bridge.
-6. **Look at the bracing through the soundhole.** X-braced, straight profile. Scalloping is not standard for this year.
-7. **Sight the neck and check the bridge.** A 50-year-old Martin with a bellied top or a lifting bridge is common and repairable, but it moves the price.
-8. **Blacklight the finish.** Original 1970s lacquer fluoresces differently from later overspray, and a refinish takes a big bite out of value on a pearl guitar.
+3. **Follow the purfling channel with a magnifier.** All the way around, in raking light. Even channel width, consistent layer count, no filled router lines. This is the step that catches a good conversion.
+4. **Count the fingerboard inlays.** Eight positions starting at the first fret, in hexagons for this era.
+5. **Check the headstock.** Bound rosewood face, inlaid vertical pearl logo, not a decal.
+6. **Check the saddle.** Drop-in, not long. A long saddle on a 1976 means a replaced bridge.
+7. **Look at the bracing through the soundhole.** X-braced, straight profile. Scalloping is not standard for this year.
+8. **Sight the neck and check the bridge.** Remember there is no adjustable rod in a 1976. A bellied top, a lifting bridge, or an up-bow neck is common and repairable, but it moves the price.
+9. **Blacklight the finish.** Original 1970s lacquer fluoresces differently from later overspray, and a refinish takes a big bite out of value on a pearl guitar.
 
-If steps 1 and 2 both check out, the guitar is real. The rest of the list is about condition, and condition is where the number gets decided.
+If steps 1, 2, and 3 all check out, the guitar is real. The rest of the list is about condition, and condition is where the number gets decided.
 
 <h2 id="value">What It Is Worth</h2>
 
@@ -285,7 +296,7 @@ The pattern worth noticing: the jump from a 000-28 to a 000-45 in the same year 
 
 **How many Martin 000-45s were made in 1976?**
 
-Martin has not published a public year-by-year figure for this model, and the dealers who handle them cite single-digit numbers for the mid-1970s: one guitar in 1974, three in 1975. The reliable figure is the total. From 1906 through 2005, Martin built 341 000-45s of all years combined.
+Martin has not published a public year-by-year figure for this model, and the dealers who handle them cite single-digit numbers for the mid-1970s: one guitar in 1974, three in 1975. The reliable figure is the total. Martin's archives put it at 341 000-45s built between 1906 and 2005, and that number covers everything, pre-war and reissue alike. Since Longworth's records place the pre-war run at roughly 265, the entire post-1970 reissue era accounts for something like 76 guitars spread over thirty-five years. Single-digit years are exactly what you would expect from that math.
 
 **Is a 1976 000-45 Brazilian rosewood?**
 
@@ -315,4 +326,4 @@ We buy vintage Martins outright and we look at them properly, which on a model l
 
 If it is one piece of a bigger estate, we have written up every option honestly in [how to sell a large guitar collection](/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/), and the general ground rules are in [what to consider when selling a vintage guitar](/post/what-to-consider-when-selling-a-vintage-guitar/). Either way, feel free to just [get in touch](/contact-me/) and ask. We answer questions about guitars we are not buying all the time.
 
-**Sources and further reading:** the Style 45 history and the 341-guitar production total come from [Guitar Player's history of Martin's 45-series](https://www.guitarplayer.com/gear/martin-45-series-acoustic-guitars), which draws on Martin archivist Jason Ahner. The dated spec changes, including the Brazilian to Indian rosewood switch and the 1965 saddle change, are documented on [Vintage Guitars Info's Martin reference](https://guitarhq.com/martin.html). Serial ranges are from Martin's published records, mirrored on our own [Martin serial number lookup](/martin-serial-and-model-numbers/).
+**Sources and further reading:** the Style 45 history and the 341-guitar total come from [Guitar Player's history of Martin's 45-series](https://www.guitarplayer.com/gear/martin-45-series-acoustic-guitars), quoting Martin archivist Jason Ahner reading the factory's own production totals: from the first 000-45 in 1906 up to 2005, Martin built 341 of them. The roughly 265 figure for the pre-war run traces to Mike Longworth's *Martin Guitars: A History*, the standard reference for Martin production records. The dated spec changes, including the Brazilian to Indian rosewood switch, the 1965 saddle change, and the 1967 to 1985 square tube neck rod, are documented on [Vintage Guitars Info's Martin reference](https://guitarhq.com/martin.html). Serial ranges are from Martin's published records, mirrored on our own [Martin serial number lookup](/martin-serial-and-model-numbers/).
