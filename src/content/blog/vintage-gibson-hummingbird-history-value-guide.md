@@ -151,7 +151,7 @@ The guard change is subtle and hard to call from a photo. Comparing a 1961 to a 
 
 ![A mid 1960s Gibson Hummingbird in cherry sunburst sitting in its original gold plush lined hardshell case, showing the engraved pickguard and adjustable bridge.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1960s-gibson-hummingbird-cherry-sunburst-in-case.jpg)
 
-<figcaption><strong>The best preserved of the five.</strong> A mid sixties example, serial 150277, in its original case. The burst still runs a hard red at the edge into a clean yellow center, which is how they left Kalamazoo and how few of them look now.</figcaption>
+<figcaption><strong>The best preserved finish of the five.</strong> A mid sixties example, serial 150277, in its original case. The burst still runs a hard red at the edge into a clean yellow center, which is how they left Kalamazoo and how few of them look now. The bridge on this one is a replacement, which we come back to further down.</figcaption>
 </figure>
 
 <h3 id="sixtyfive">1965: The Nut Gets Narrow</h3>
@@ -220,14 +220,14 @@ What we tell people: **do not convert a clean, original, early Hummingbird.** A 
 
 ![Close up of the adjustable rosewood bridge on a 1960s Gibson Hummingbird showing the rosewood saddle riding on two slotted height adjustment screws.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1960s-gibson-hummingbird-adjustable-rosewood-saddle-bridge.jpg)
 
-<figcaption><strong>Rosewood saddle version.</strong> The two slotted screws at either end are the height adjusters. This guitar has the rosewood saddle rather than the white ceramic one, and both are correct for the period. Players tend to prefer the rosewood.</figcaption>
+<figcaption><strong>Rosewood saddle version, and a replaced bridge.</strong> The two slotted screws at either end are the height adjusters, and the saddle here is rosewood rather than ceramic. Both saddle materials are correct for the period. The bridge itself is not original to this guitar. We know that from having it on the bench, and once you are told, the lighter and straighter grained rosewood and the crisp unworn edges against a sixty year old top are hard to unsee.</figcaption>
 </figure>
 
 <figure>
 
 ![Close up of the adjustable bridge on a 1964 Gibson Hummingbird with a white ceramic saddle sitting on two brass adjustment screws, surrounded by heavy finish checking on the spruce top.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1964-gibson-hummingbird-adjustable-ceramic-saddle-bridge.jpg)
 
-<figcaption><strong>Ceramic saddle version, on a well used 1964.</strong> Same hardware, different saddle material. Look past the bridge at the top: that web of fine lines is finish checking, and on a Kalamazoo nitro finish from 1964 it is normal, expected, and not a value problem on its own.</figcaption>
+<figcaption><strong>Ceramic saddle version, on a well used 1964.</strong> This is the one to use as your reference for a period correct adjustable bridge: original to the guitar, white ceramic saddle up on two brass adjusters, aged into the top around it. Look past the bridge at the web of fine lines. That is finish checking, and on a Kalamazoo nitro finish from 1964 it is normal, expected, and not a value problem on its own.</figcaption>
 </figure>
 
 <h2 id="dating">How to Date a Hummingbird</h2>
@@ -355,6 +355,8 @@ In rough order of how much damage each one does.
 
 **A bridge that is not original.** Check the footprint. A bridge that does not sit exactly on the original glue outline, or one in the wrong shape for the year, is a red flag on an expensive guitar. Gibson bridges do come off, so a correct replacement done well is survivable. A modern belly bridge glued onto a 1963 is not.
 
+The mid sixties guitar in these photos is the honest example. It has the prettiest burst of the five, its original case, and its case candy, and its bridge is a replacement. That does not make it a bad guitar. It makes it a guitar that has to be described accurately, and it is the reason the first thing we do with any Hummingbird is look hard at the bridge before we look at anything else.
+
 **A converted adjustable bridge.** On a player grade guitar, minor. On an otherwise all original early sixties example, real money. The tell is a filled slot where the adjuster posts used to be, visible if you look straight down the saddle line.
 
 **A neck reset that has not been done.** Not fatal, and most sixties Gibsons are due for one by now, but it is a $700 to $1,200 job and a buyer will price it in.
@@ -380,7 +382,7 @@ For the record, since every photo above is one of these:
 
 **The 1961, serial 35384.** Two word HUMMING BIRD label matching the headstock stamp, gold Klusons with white buttons, deep original cherry on the mahogany. The bridge on this one has a rosewood saddle sitting in the slot with no adjuster screws present, so at some point somebody dealt with the adjustable hardware. Worth knowing about, and exactly the kind of thing to check before you agree a price.
 
-**The mid sixties example, serial 150277.** Two word label, gold tuners, adjustable bridge with the rosewood saddle, and the best preserved burst of the five. Complete with its case, the case key, and an unopened box of Gibson strings.
+**The mid sixties example, serial 150277.** Two word label matching the headstock stamp, gold tuners, and the best preserved burst of the five, complete with its case, the case key, and an unopened box of Gibson strings. The adjustable bridge with the rosewood saddle is a replacement, which we mention because a guitar this clean is exactly the kind where a buyer assumes everything is original and nobody thinks to ask.
 
 **The 1964.** The player of the group. Ceramic adjustable saddle, heavy checking, a faded top that has gone amber in the middle, and the original blue lined case. This is what a Hummingbird looks like when somebody actually used it for sixty years.
 
