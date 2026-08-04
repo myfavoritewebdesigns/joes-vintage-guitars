@@ -23,6 +23,8 @@ toc:
   - { href: "#seventies", label: "1971 to 1979", sub: true }
   - { href: "#bridge", label: "The Adjustable Bridge" }
   - { href: "#dating", label: "How to Date One" }
+  - { href: "#serials", label: "Serial Numbers and FONs", sub: true }
+  - { href: "#features", label: "Reading the Features", sub: true }
   - { href: "#sound", label: "How They Sound" }
   - { href: "#versus", label: "Hummingbird vs J-45 vs Dove" }
   - { href: "#value", label: "What One Is Worth" }
@@ -55,8 +57,8 @@ If you only read one section, read this one.
 | **Built where** | Kalamazoo, Michigan |
 | **List price** | $250 in 1962, with the plush lined case another $50 |
 | **Body** | Spruce top, mahogany back and sides, 16 1/4 inch lower bout |
-| **Scale** | 24 3/4 inches, the short Gibson scale |
-| **Bridge** | Adjustable rosewood bridge with a ceramic or rosewood saddle |
+| **Scale** | Measure it. Sixties examples turn up at both 24 3/4 and 25 1/2 inches |
+| **Bridge** | Fixed saddle at first, adjustable rosewood bridge standard from 1961 |
 | **Fretboard** | Bound rosewood with double parallelogram inlays |
 | **Finish** | Cherry sunburst only until natural arrived in 1963 |
 | **First year output** | 156 guitars shipped in 1960 |
@@ -83,14 +85,14 @@ It found the right decade. Within a few years the Hummingbird was on stages and 
 
 <h2 id="specs">The 1960 Spec Sheet</h2>
 
-What Gibson actually built in the first three years, before any of it started moving around:
+What Gibson actually built at the start, before the specs began drifting:
 
 - **Top.** Solid spruce, X braced, in cherry sunburst. No other finish was offered.
 - **Back and sides.** Honduras mahogany, finished in cherry.
-- **Neck.** One piece Honduras mahogany with an adjustable truss rod, 24 3/4 inch scale, 1 11/16 inch nut.
+- **Neck.** One piece Honduras mahogany with an adjustable truss rod and a 1 11/16 inch nut.
 - **Fretboard.** Bound rosewood, 20 frets, large split parallelogram pearl inlays.
-- **Headstock.** Gibson logo in gold, crown inlay below it, gold single line Kluson tuners with white plastic buttons.
-- **Bridge.** Rectangular rosewood with an adjustable saddle. Early ones ran ceramic saddles, and rosewood saddles show up through the sixties as well.
+- **Headstock.** Gibson logo in gold, crown inlay below it, gold single line Kluson tuners with white plastic buttons, pitched back 17 degrees.
+- **Bridge.** Rectangular rosewood. The first ones had a fixed saddle. The adjustable saddle became standard during 1961, with ceramic and rosewood saddles both in use.
 - **Guard.** Large engraved plastic guard with the hummingbird, trumpet flower vine, and butterfly.
 - **Binding.** Multi ply on the top, single ply on the back, bound neck.
 
@@ -101,22 +103,24 @@ What Gibson actually built in the first three years, before any of it started mo
 <figcaption><strong>Mahogany, finished in cherry.</strong> The back and sides on every standard Hummingbird are mahogany, not maple. That is the single most common spec mix up on this model, because the Dove that followed in 1962 is a maple guitar and the two get talked about together.</figcaption>
 </figure>
 
-One line on that list deserves more attention than it gets. The 24 3/4 inch scale is short by dreadnought standards, and it is a big part of why a Hummingbird feels loose and easy under the left hand compared to a Martin. Lower string tension at pitch, a shorter reach between frets, and a top that gives up a little punch in exchange for warmth. If you have played a D-28 and found a Hummingbird strangely forgiving, that is why.
+You will notice one spec missing from that list, and its absence is deliberate. **Scale length on a vintage Hummingbird is the one number you should never assume.** The modern one is a 24 3/4 inch short scale and Gibson standardized on that in 1976, so most spec sheets you find online just repeat 24 3/4 back at you for the sixties guitars too. The dealer listings do not agree with that. Measured sixties examples turn up at 24 3/4 and at 25 1/2, sometimes a year or two apart, and a few land in between.
+
+So measure the guitar in front of you. Nut to the center of the twelfth fret, doubled. It takes fifteen seconds and it changes what strings you buy, how the thing feels under your hand, and what you tell a buyer. A short scale Hummingbird is looser and warmer with less tension at pitch. A long scale one is tighter and louder and asks more of your fretting hand. Both left Kalamazoo.
 
 <h2 id="evolution">Year by Year: What Changed and When</h2>
 
 | Year | What changed |
 | --- | --- |
-| **1960** | Introduced. Cherry sunburst only. 156 shipped. |
-| **1961** | 595 shipped. |
+| **1960** | Introduced. Cherry sunburst only. Fixed saddle bridge. Factory order number inked on the neck block, no headstock serial. 156 shipped. |
+| **1961** | Headstock serial numbers begin. The adjustable saddle bridge becomes standard during the year. 595 shipped. |
 | **1962** | List price $250. 503 shipped. |
 | **1963** | Maple back and sides offered as an option. Pickguard shrinks slightly. Natural finish appears. 1,461 shipped, 97 of them natural. |
 | **1964** | 991 shipped. |
 | **1965** | Nut width narrows. 1,161 shipped. |
-| **1966** | 794 shipped. |
+| **1966** | Headstock pitch changes from 17 degrees to 14. 794 shipped. |
 | **1967** | 884 shipped. |
-| **1968** | Bridge squares off, bracing gets heavier. 1,311 shipped. |
-| **1969** | 1,024 shipped. |
+| **1968** | Bridge starts moving from belly up to belly down, bracing gets heavier. 1,311 shipped. |
+| **1969** | Belly down bridge becomes the norm. 1,024 shipped. |
 | **1970** | Norlin era. Adjustable saddle dropped. Chrome replaces gold. Neck becomes three piece laminated mahogany. 879 shipped. |
 | **1971** | Double X bracing comes in and stays until the mid eighties. 848 shipped. |
 | **early 1970s** | Label changes to Hummingbird Custom with no change to the guitar. |
@@ -152,7 +156,7 @@ The guard change is subtle and hard to call from a photo. Comparing a 1961 to a 
 
 <h3 id="sixtyfive">1965: The Nut Gets Narrow</h3>
 
-The most consequential year in the whole run for value. In 1965 Gibson narrowed the nut on its flat-tops from 1 11/16 inches down to roughly 1 5/8, and some run narrower than that. Fingerstyle players hate it. Strummers with average hands often do not notice. But the market has decided, and a 1965 is worth meaningfully less than a 1964 that is otherwise identical.
+The most consequential year in the whole run for value. In 1965 Gibson narrowed the nut on its flat-tops from 1 11/16 inches down to somewhere between 1 5/8 and 1 9/16, depending on the guitar. Players call the narrow ones pencil necks. Fingerstyle players hate them. Strummers with average hands often do not notice. But the market has decided, and a 1965 is worth meaningfully less than a 1964 that is otherwise identical.
 
 This is also where you learn to stop trusting anything but a ruler. The change did not happen on January 1. Late 1964 guitars with narrow nuts exist, and so do early 1965s with the wide one. Measure it.
 
@@ -197,7 +201,9 @@ Then in 1973 the parallelogram inlays were replaced with plain rectangular block
 
 More argument surrounds this part than any other on the guitar, so here is what is actually going on.
 
-Gibson's adjustable bridge is a rosewood bridge with a saddle that rides on two threaded posts. Turn the screws and the action goes up or down without touching the neck or filing anything. Gibson used ceramic saddles and rosewood saddles both, and you find each of them on sixties Hummingbirds. It ran from the introduction of the model until 1970.
+Gibson's adjustable bridge is a rosewood bridge with a saddle that rides on two threaded posts. Turn the screws and the action goes up or down without touching the neck or filing anything. Gibson used ceramic saddles and rosewood saddles both, and you find each of them on sixties Hummingbirds.
+
+One thing to get straight, because plenty of sources get it wrong: **the Hummingbird did not launch with the adjustable bridge.** The first ones had a fixed saddle. Gibson brought the adjustable saddle in and made it standard across the flat-top line during 1961, and it stayed until the fixed saddle came back in 1970. Gibson's own Custom Shop still builds the 1960 reissue in both configurations, which tells you how real the split is. If you have a 1960 or a very early 1961 with a plain fixed saddle, do not let anybody tell you the bridge has been swapped.
 
 The complaint is that it costs you volume and low end, because instead of the strings driving the top through a solid saddle glued into a solid bridge, the energy passes through two little metal posts. There is something to that. Whether it is a problem depends on the guitar and on what you want from it.
 
@@ -207,7 +213,7 @@ What we tell people: **do not convert a clean, original, early Hummingbird.** A 
 
 ![Close up of the rectangular rosewood bridge on a 1961 Gibson Hummingbird, showing a rosewood saddle set into the routed slot with no height adjustment screws present.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-rosewood-bridge-detail.jpg)
 
-<figcaption><strong>Here is what to look for.</strong> The 1961 has the routed adjustable saddle slot but no adjuster screws in it, just a rosewood saddle sitting down in the channel. Something happened to the original hardware. On a guitar at this price point that is a question you ask before you agree a number, not after.</figcaption>
+<figcaption><strong>Here is what to look for.</strong> The 1961 has a wide routed saddle channel with a rosewood saddle sitting down in it and no adjuster screws at either end. Given that 1961 is the exact year the adjustable saddle came in, this one could be a transitional guitar or it could be an adjustable bridge that lost its hardware. That is a question worth settling with the guitar in your hands before you agree a number.</figcaption>
 </figure>
 
 <figure>
@@ -226,7 +232,9 @@ What we tell people: **do not convert a clean, original, early Hummingbird.** A 
 
 <h2 id="dating">How to Date a Hummingbird</h2>
 
-<h3 id="serials">Serial Numbers</h3>
+<h3 id="serials">Serial Numbers and Factory Order Numbers</h3>
+
+**If there is no number on the headstock, look inside.** A 1960 Hummingbird will not have a headstock serial, because Gibson had not started stamping them on flat-tops yet. What it has instead is a factory order number inked onto the neck block, visible through the soundhole with a light and a mirror. The letter in front is the year code: **R is 1960 and Q is 1961.** Gibson retired the FON system during 1961, so a Q number is genuinely uncommon. If you find an R, you are holding a first year guitar and it should be priced like one.
 
 From 1961 through 1969 Gibson stamped the serial into the back of the headstock and wrote the same number on the label inside. Those numbers are a starting point and nothing more. Gibson duplicated numbers in this period, ran them out of sequence, and reused blocks. Two guitars built four years apart can carry the same serial. Anybody who dates a sixties Gibson off the number alone and stops there is guessing.
 
@@ -276,17 +284,19 @@ Check that the number on the label matches the stamp on the headstock. On the 19
 This is how you actually date one, and it takes about a minute:
 
 1. **Look at the fretboard inlays.** Blocks means 1973 to about 1980. Parallelograms means everything else.
-2. **Look at the bridge.** Adjustable saddle on two screws means 1960 to 1969. Plain fixed saddle means 1970 or later.
-3. **Look at the tuner plating.** Gold means the sixties. Chrome means 1970 or later.
-4. **Look at the back of the neck.** One piece mahogany, no glue lines, means the sixties. Two visible glue lines means 1970 or later.
-5. **Measure the nut.** 1 11/16 inches points to 1964 or earlier. About 1 5/8 points to 1965 or later.
-6. **Read the label.** Two word HUMMING BIRD, one word HUMMINGBIRD, or rectangular CUSTOM.
+2. **Look at the bridge.** Adjustable saddle on two screws means 1961 to 1969. Plain fixed saddle means either a first year guitar or 1970 and later, and the rest of the list tells you which.
+3. **Look at the bridge shape.** Belly up through most of the sixties, moving to belly down across 1968 and 1969.
+4. **Look at the tuner plating.** Gold means the sixties. Chrome means 1970 or later.
+5. **Look at the back of the neck.** One piece mahogany, no glue lines, means the sixties. Two visible glue lines means 1970 or later.
+6. **Measure the nut.** 1 11/16 inches points to 1964 or earlier. Anything from 1 5/8 down to 1 9/16 points to 1965 or later.
+7. **Sight the headstock pitch.** A steep 17 degree tilt back is 1965 and earlier. A shallower 14 degrees is 1966 through 1972.
+8. **Read the label.** Handwritten HUMMING BIRD on an orange oval is the sixties. Printed HUMMINGBIRD CUSTOM on a rectangle is the seventies.
 
-Run all six and the answer usually converges on a two or three year window. Then use the serial to narrow it, not the other way around.
+Run all eight and the answer usually converges on a two or three year window. Then use the serial to narrow it, not the other way around.
 
 <h2 id="sound">How a Vintage Hummingbird Actually Sounds</h2>
 
-Mahogany back and sides, a short scale, and a big square shouldered box. That combination gives you a warm midrange, a soft top end, and a bass that is round rather than tight. It is not a flat-picking guitar and it never claimed to be. Put a D-28 next to it and the Martin will out-project it and out-define it on single notes.
+Mahogany back and sides and a big square shouldered box. That combination gives you a warm midrange, a soft top end, and a bass that is round rather than tight. It is not a flat-picking guitar and it never claimed to be. Put a D-28 next to it and the Martin will out-project it and out-define it on single notes.
 
 What the Hummingbird does that the Martin does not is sit under a voice without fighting it. Strum it and the whole thing blooms into a chord instead of six separate strings. That is exactly what Gibson advertised in 1960 and it is still the reason people buy them.
 
@@ -300,7 +310,7 @@ The three questions we get asked most, answered together.
 | --- | --- | --- | --- |
 | **Shoulders** | Square | Round | Square |
 | **Back and sides** | Mahogany | Mahogany | Maple |
-| **Scale** | 24 3/4 in | 24 3/4 in | 25 1/2 in |
+| **Scale** | 24 3/4 in modern, but measure a vintage one | 24 3/4 in | 25 1/2 in |
 | **Trim** | Bound neck, parallelograms, engraved guard | Plain, dot inlays | Bound neck, engraved guard, dove bridge |
 | **Voice** | Warm, mid forward, blooms | Woodier, drier, more compressed | Brighter, tighter bass, more cut |
 | **Best at** | Singing over it | Recording, roots, anything | Big strumming, cutting through a band |
@@ -313,7 +323,7 @@ Ballpark retail for a clean, all original, structurally sound guitar in 2026. Th
 
 | Era | What you have | Typical retail |
 | --- | --- | --- |
-| **1960 to 1962** | Cherry sunburst, adjustable saddle, first run scarcity | $8,000 to $12,000 |
+| **1960 to 1962** | Cherry sunburst, wide nut, first run scarcity | $8,000 to $12,000 |
 | **1963 to 1964** | Cherry sunburst, wide nut, adjustable saddle | $6,500 to $9,750 |
 | **1965** | Narrow nut, otherwise unchanged | $5,000 to $6,750 |
 | **1966 to 1968** | Heavier build from 1968 on | $3,750 to $5,500 |
@@ -411,7 +421,15 @@ Anywhere from about $1,600 to $12,000 depending almost entirely on year and orig
 
 **How do I tell what year my Hummingbird is?**
 
-Read the features before the serial. Fretboard inlays, bridge type, tuner plating, neck construction, nut width, and label style will get you to a two or three year window. Gibson's sixties serial numbers were duplicated and run out of order, so the number confirms your answer rather than producing it.
+Read the features before the serial. Fretboard inlays, bridge type and shape, tuner plating, neck construction, nut width, headstock pitch, and label style will get you to a two or three year window. Gibson's sixties serial numbers were duplicated and run out of order, so the number confirms your answer rather than producing it. If there is no headstock number at all, look for an inked factory order number on the neck block: R is 1960, Q is 1961.
+
+**What is the scale length of a vintage Gibson Hummingbird?**
+
+Measure yours. Gibson settled on the 24 3/4 inch short scale in 1976 and every modern spec sheet repeats that number, but sixties examples are documented at both 24 3/4 and 25 1/2 inches. Nut to the center of the twelfth fret, doubled, and you have your answer in fifteen seconds.
+
+**Did the first Hummingbirds have an adjustable bridge?**
+
+No. The earliest ones have a fixed saddle. Gibson made the adjustable saddle standard during 1961 and it ran until 1970. So a plain fixed saddle on a 1960 is correct and original, while a plain fixed saddle on a 1965 usually means somebody converted it.
 
 **Is the adjustable bridge bad? Should I convert mine?**
 
@@ -419,7 +437,7 @@ It gives up some volume and low end compared to a fixed saddle. On a guitar that
 
 **What is the difference between a Hummingbird and a J-45?**
 
-Square shoulders versus round, and trim. Both are mahogany with a spruce top on a 24 3/4 inch scale. The Hummingbird is dressier and blooms more under a voice. The J-45 is plainer, drier, and the better all around recording guitar.
+Square shoulders versus round, and trim. Both are mahogany with a spruce top. The Hummingbird is dressier and blooms more under a voice. The J-45 is plainer, drier, and the better all around recording guitar. One warning on the spec sheets: the J-45 is a reliable 24 3/4 inch short scale, while sixties Hummingbirds turn up at both 24 3/4 and 25 1/2. Measure before you assume they play the same.
 
 **Are seventies Hummingbirds any good?**
 
@@ -449,7 +467,7 @@ Ask first. A clean repair by a good luthier usually pays for itself. A cheap rep
 
 The Hummingbird is one of the few guitars where the decorative version turned out to be the serious one. Gibson dressed up a dreadnought to compete with Martin on looks, and accidentally built an instrument that does something specific and does it better than anything else in the catalog.
 
-If you own one, spend ten minutes with the six checks above before you talk to anybody about value. Know the year, know whether the bridge is original, know whether the nut is wide or narrow, and take photos of the label, the headstock stamp, the bridge, and the back of the neck. Those four photos answer most of what a serious buyer is going to ask, and having them ready is the difference between a straight offer and three weeks of back and forth.
+If you own one, spend ten minutes with the eight checks above before you talk to anybody about value. Know the year, know whether the bridge is original, know whether the nut is wide or narrow, and take photos of the label, the headstock stamp, the bridge, and the back of the neck. Those four photos answer most of what a serious buyer is going to ask, and having them ready is the difference between a straight offer and three weeks of back and forth.
 
 If you inherited one and have no idea what it is, that is fine too. Send us the photos and we will tell you what you have.
 
