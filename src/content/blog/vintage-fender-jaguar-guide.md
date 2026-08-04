@@ -132,7 +132,7 @@ The Jaguar's commercial trajectory dropped through the late 60s. By 1969 the sur
 -   The "CBS" black logo replacing the transition style around 1968
 -   Pickguard material standardized on cheaper 3 ply stock, often with pearl plastic in place of tortoise on some builds
 -   Less consistent fretwork and nut work compared to earlier production
--   Cost-driven parts sourcing leading to occasional swaps in pot manufacturers, tuner button materials, and bridge hardware
+-   Cost-driven parts sourcing leading to occasional swaps in pot manufacturers, tuner suppliers, and bridge hardware
 
 This does not mean these guitars are bad. Plenty of 1970s Jaguars play and sound great, and as the last of the original-run instruments they have their own following. But the build is materially different from a 1962 or 1963 example and the market reflects that. The Jaguar was officially discontinued in 1975. Production tapered through 1974 and the last units shipped in 1975, with serial numbers running into the seven digit range and prefixes that overlap with other models of the period.
 
@@ -329,11 +329,11 @@ Verify with any "all original" vintage Jaguar that the bridge currently installe
 
 <h2 id="tuners-hardware">Tuners and Hardware Authentication</h2>
 
-| Era | Tuner Type | Stamp | Button Color |
+| Era | Tuner Type | Stamp | Button |
 | --- | --- | --- | --- |
-| 1962 to late 1964 | Kluson Deluxe single line | Single "Kluson Deluxe" stamp running down the center of the back plate | Off white, ages to ivory |
-| Late 1964 to late 1967 | Kluson Deluxe double line | "Kluson Deluxe / Kluson Deluxe" stacked on two lines | Off white, ages to ivory |
-| Late 1967 to 1975 | Fender "F" stamped tuners (Schaller made) | Large stylized "F" on back plate | White or aged white |
+| 1962 to late 1964 | Kluson Deluxe single line | Single "Kluson Deluxe" stamp running down the center of the back plate | Stamped oval metal |
+| Late 1964 to late 1967 | Kluson Deluxe double line | "Kluson Deluxe / Kluson Deluxe" stacked on two lines | Stamped oval metal |
+| Late 1967 to 1975 | Fender "F" stamped tuners (Schaller made) | Large stylized "F" on back plate | Stamped octagonal metal |
 
 Tuner replacement is one of the most common modifications on vintage Fenders, usually because the original Klusons developed slop in the gears after fifty years of use. Replacement is reversible and not always a dealbreaker, but you want to see the original tuner peg holes intact with no enlargement or filled secondary holes from a different gear ratio replacement set. Sperzels or Gotohs installed in original Kluson holes leave a tight, period correct looking exterior but you can spot them by the modern stamping and the post diameter.
 
@@ -527,7 +527,7 @@ Run this list every time before you make an offer on a vintage Jaguar.
 -   Verify the neck plate type matches the era (L plate to late 1965, F plate from late 1965 onward) and watch for L plates on later-era guitars
 -   Inspect the tremolo plate for two small drilled holes from a Buzz Stop installation (a value-killer for collector grade)
 -   Verify the bridge currently installed is the period correct Fender piece, not a Mastery, Staytrem, or reissue replacement
--   Confirm tuner stamps and button material match the era
+-   Confirm the tuner stamps and button shape match the era
 -   Check the original case if present: brown Tolex (1962 to 1963), black Tolex no logo (1964 to early 1965), or chrome logo black Tolex (late 1965 onward)
 -   Pull the neck and inspect the heel for date, finish under the heel, and any signs of removal or refit
 -   Inspect under blacklight for finish overspray and decal placement
