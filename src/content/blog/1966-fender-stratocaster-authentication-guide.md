@@ -117,7 +117,7 @@ The logo on a 1966 Stratocaster is the gold "transition" decal. It's gold with a
 
 ### Tuners
 
-1966 Strats use **Kluson Deluxe** tuners with the double-line "Kluson Deluxe / Kluson Deluxe" stamping running down the back of the housing. Single-line Klusons were phased out by mid-1964, so by 1966 the double-line stamp is universal. The buttons should be aged ivory or cream, not bright white. Shafts and gears should turn smoothly. Replacement tuners are one of the most common modifications on these guitars, so check the back of the headstock for plug marks or extra screw holes that might indicate Schaller or Grover replacements at some point in the guitar's history.
+1966 Strats use **Kluson Deluxe** tuners with the double-line "Kluson Deluxe / Kluson Deluxe" stamping running down the back of the housing. Single-line Klusons were phased out by mid-1964, so by 1966 the double-line stamp is universal. The buttons are **metal, not plastic**. A Fender-spec Kluson is metal all the way through, from the gear housing to the stamped oval button, so there is no cream or ivory plastic anywhere on the tuner. Plastic tulip and keystone buttons belong on Gibsons of the same period, and finding them on a Strat means the tuners came off another guitar. Shafts and gears should turn smoothly. Replacement tuners are one of the most common modifications on these guitars, so check the back of the headstock for plug marks or extra screw holes that might indicate Schaller or Grover replacements at some point in the guitar's history.
 
 ### String Tree
 
@@ -246,7 +246,7 @@ Authenticating a 1966 Stratocaster comes down to confirming that every datable c
 -   Pots dated in 1966 or very late 1965 (CTS 137 66XX or Stackpole 304 66XX)
 -   Pickup bobbins, if openable, dated in 1965 or 1966
 -   Large CBS headstock with transition logo (gold, patent numbers visible)
--   Double-line Kluson Deluxe tuners
+-   Double-line Kluson Deluxe tuners with metal buttons, no plastic
 -   Pearloid dots and pearloid side dots
 -   East Indian rosewood veneer fretboard
 -   Gray-bottom staggered pickups with plain enamel wire
