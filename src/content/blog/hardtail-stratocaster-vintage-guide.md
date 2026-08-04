@@ -43,7 +43,7 @@ The most striking difference is the **resonance**. If you’ve ever played a Str
 
 ### Lightweight and Reliable
 
-One of the most practical reasons to love a hardtail is the weight. Because a hardtail isn’t missing a giant chunk of wood for the tremolo route and doesn’t require a heavy steel or brass inertia block, they are typically **significantly lighter** than their tremolo-equipped siblings.
+One of the most practical reasons to love a hardtail is the weight. The extra wood where the tremolo route would be adds a little mass, but the missing part is the one that counts: there is no heavy steel inertia block hanging under the bridge. That block outweighs the wood the trem route removes, so hardtails typically come in **noticeably lighter** than their tremolo-equipped siblings.
 
 In the vintage world, where 1970s Strats can sometimes lean into the “boat anchor” weight category, a hardtail version is often the saving grace that keeps the guitar under 8 pounds. For players who do long sets or have back issues, that pound of difference is a lifesaver.
 

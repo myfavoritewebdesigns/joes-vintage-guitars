@@ -237,9 +237,9 @@ The control pots inside the back cavity act as a “time stamp” for the guitar
 
 -   **The Manufacturer**: Most Specials from this era use **Centralab (CRL)** pots, identified by the small diamond logo and “USA” stamp.
     
--   **The Code**: Look for a 7-digit source code beginning with **134** (the manufacturer code for Centralab).
+-   **The Code**: Look for a 6-digit source code beginning with **134** (the manufacturer code for Centralab).
     
--   **Reading the Date**: The 4th and 5th digits represent the year, and the 6th and 7th digits represent the week of that year.
+-   **Reading the Date**: On a 1950s pot the 4th digit is the last digit of the year, and the 5th and 6th digits represent the week of that year.
     
 -   **Example**: A code reading **134812** indicates the pot was manufactured in the **12th week of 1958**.
     
@@ -256,11 +256,13 @@ While the serial number identifies the finished instrument, the Factory Order Nu
     
     -   **W** = 1955
         
-    -   **X** = 1956
+    -   **V** = 1956
         
-    -   **Y** = 1957
+    -   **U** = 1957
         
-    -   **U/V** = 1958
+    -   **T** = 1958
+        
+    The letters run backward through the alphabet, so the sequence continues S = 1959, R = 1960, and Q = 1961.
         
 -   **The Batch**: The four digits following the letter represent the specific production batch, helping to confirm that the body and neck were manufactured in the same timeframe as the final assembly.
     
@@ -273,11 +275,11 @@ The 1955 to 1958 Les Paul Special has a sound of its own that has made it a favo
 
 -   **Keith Richards (The Rolling Stones):** Perhaps the most famous user, “Keef” has used TV Yellow Specials extensively throughout his career to achieve that biting, mid-focused Stones crunch.
     
--   **Mick Jones (The Clash):** A pillar of the punk-rock sound, Jones frequently relied on the slab-body mahogany Special for its aggressive attack and reliability on stage.
+-   **Mick Jones (The Clash):** A pillar of the punk-rock sound. Worth being precise here: Jones is most associated with a Les Paul **Junior**, the single-pickup sibling, rather than the two-pickup Special.
     
--   **Bob Marley:** While famous for his modified Junior, Marley also used Specials; his well-known “Mesa-style” setup often highlighted the natural resonance of 1950s mahogany.
+-   **Bob Marley:** Marley’s best-known Gibson was a Les Paul **Special**, and it is the guitar most often pictured with him on stage in the 1970s.
     
--   **Johnny Thunders (New York Dolls):** Thunders made the TV Yellow finish synonymous with the gritty, raw energy of the 70s glam and punk scenes.
+-   **Johnny Thunders (New York Dolls):** Thunders did more than anyone to make the TV Yellow finish synonymous with 70s glam and punk, though his signature instrument was a TV Yellow **Junior**, not a Special. The finish is shared; the model is not.
     
 
 ### Blues & Roots Masters

@@ -26,7 +26,7 @@ Solid spruce is beautiful, but it’s a feedback nightmare when you plug into a 
 
 If you’re trying to figure out what your guitar is worth, look at the pickups first. From 1949 to 1956, they had P-90 single-coils. These sound incredible: clear, punchy, and a bit raw. But 1957 changed everything.
 
-That was the year Gibson introduced the “Patent Applied For” (PAF) humbucker. If you have a 1957, 1958, or 1959 ES-175 with its original PAFs, you are looking at the peak of the vintage market. These pickups have a warmth and harmonic complexity that modern reissues just can’t quite capture. A “Natural” or “Blonde” finish from this era is even rarer; because the wood had to be flawless to not be hidden under a Sunburst finish, Gibson only made a handful of them. If yours is a “Blonde” with PAFs, you’re holding one of the most valuable 175s out there.
+That was the year Gibson introduced the “Patent Applied For” (PAF) humbucker. If you have a 1957, 1958, or 1959 ES-175 with its original PAFs, you are looking at the peak of the vintage market. These pickups have a warmth and harmonic complexity that modern reissues just can’t quite capture. A “Natural” or “Blonde” finish from this era is even rarer; because the wood had to be flawless to not be hidden under a Sunburst finish, Gibson shipped them in far smaller numbers, and they are considerably rarer than the Sunbursts. If yours is a “Blonde” with PAFs, you’re holding one of the most valuable 175s out there.
 
 ![Full body view of a 1962 Gibson ES-175D hollow-body guitar in Sunburst finish, featuring two original PAF humbucking pickups, a Florentine cutaway, and a zig-zag trapeze tailpiece.](../../assets/blog/gibson-es-175-evolution-and-specifications/1962-gibson-es-175d-paf-pickups-vintage-value-683x1024.jpg)
 
@@ -83,7 +83,7 @@ The electronics under the hood are the secondary price pillar.
 
 ### Condition vs. “Player Grade”
 
-A “museum-grade” instrument, one with the original frets, no modifications, and the original hard-shell case, commands a big premium. However, the ES-175 was a working man’s guitar. You will often find them with “player mods” like replaced tuners (look for the “footprints” of old Grover or Schaller tuners on the back of the headstock) or swapped bridges. While these make the guitar more functional for a gigging musician, they do detract from the **c**ollector value.
+A “museum-grade” instrument, one with the original frets, no modifications, and the original hard-shell case, commands a big premium. However, the ES-175 was a working man’s guitar. You will often find them with “player mods” like replaced tuners (look for the “footprints” of old Grover or Schaller tuners on the back of the headstock) or swapped bridges. While these make the guitar more functional for a gigging musician, they do detract from the collector value.
 
 The most critical condition factor is the headstock. Like many Gibsons, a 175 is vulnerable to neck cracks. A professionally repaired headstock crack usually results in a 40% to 50% drop in market value, even if the repair is stable and invisible to the ear.
 

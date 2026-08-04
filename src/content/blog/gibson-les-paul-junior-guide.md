@@ -85,7 +85,7 @@ Pickup position on 1954 Juniors sits closer to the bridge than on any later year
 
 ### Electronics and Hardware
 
-Controls are about as minimal as electric guitar wiring gets: one master volume, one master tone, both running 500K audio-taper potentiometers with "speed" or "hatbox" style knobs. The tone cap is a "Grey Tiger" waxed-paper capacitor. Pull the control cavity cover on a 1954 Junior and you should see one of these. They look like small striped cylinders. If you see anything else, especially a yellow-and-black banded Bumblebee or a modern orange-drop, the electronics have been worked on. The bridge and tailpiece are a single nickel-plated pot-metal wraparound. Strings load through the back of the bar, wrap up and over the saddle ridge, then run to the tuners. That direct coupling between strings and body is where a big part of the sustain comes from.
+Controls are about as minimal as electric guitar wiring gets: one master volume, one master tone, both running 500K audio-taper potentiometers with "speed" or "hatbox" style knobs. The tone cap is a "Grey Tiger" waxed-paper capacitor. Pull the control cavity cover on a 1954 Junior and you should see one of these. They look like small striped cylinders. If you see anything else, especially a black Bumblebee with its colored stripes or a modern orange-drop, the electronics have been worked on. The bridge and tailpiece are a single nickel-plated lightweight aluminium wraparound. Strings load through the back of the bar, wrap up and over the saddle ridge, then run to the tuners. That direct coupling between strings and body is where a big part of the sustain comes from.
 
 <figure>![Grey Tiger waxed-paper capacitor on a 1955 Gibson Les Paul Junior](../../assets/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-grey-tiger.jpg)</figure>
 
@@ -113,7 +113,7 @@ Second, the knobs changed shape. Out went the low, flat "speed" knobs. In came t
 
 ### The Bumblebee Capacitor
 
-1956 also saw the tone capacitor change from the Grey Tiger waxed-paper unit to the "Bumblebee," named for its yellow-and-black banded body. Original Bumblebees are valuable to collectors for two separate reasons. The obvious one is authentication. The less obvious one is that a meaningful number of players prefer how a Bumblebee responds across the tone control's sweep compared to modern replacement caps. Whether that preference is measurable or psychological is debated, but the demand is real and the parts trade for significant money on their own.
+1956 also saw the tone capacitor change from the Grey Tiger waxed-paper unit to the "Bumblebee," a black-bodied capacitor named for the colored stripes banded around it. Original Bumblebees are valuable to collectors for two separate reasons. The obvious one is authentication. The less obvious one is that a meaningful number of players prefer how a Bumblebee responds across the tone control's sweep compared to modern replacement caps. Whether that preference is measurable or psychological is debated, but the demand is real and the parts trade for significant money on their own.
 
 <figure>![Bumblebee capacitors on a 1958 Gibson Les Paul Special, same cap used on Juniors from 1956](../../assets/blog/gibson-les-paul-junior-guide/1958-les-paul-special-bumblebee-capacitors-scaled.jpg)</figure>
 

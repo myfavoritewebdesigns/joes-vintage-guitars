@@ -33,7 +33,7 @@ In 1957, Leo Fender rebuilt the Precision Bass from the ground up. The [original
 Switching to anodized aluminum wasn't a cosmetic decision. It solved several engineering problems at once.
 
 -   **Shielding:** The metal guard worked as a shield against 60-cycle hum and radio frequency interference, which was a real problem in the early days of tube amplification.
--   **Durability:** The early white plastic (PVC/nitrate) guards warped, shrank, and cracked over time. Anodized aluminum stayed flat and rigid for decades.
+-   **Durability:** The single-ply black plastic guards of the slab-body years warped, shrank, and cracked over time. Anodized aluminum stayed flat and rigid for decades.
 -   **Wear character:** Over time the gold anodization wears off where the player's thumb rests, revealing the silver aluminum underneath. That worn-through patch is impossible to fake convincingly, and serious buyers look for it.
 
 <figure>

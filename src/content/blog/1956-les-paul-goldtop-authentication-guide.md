@@ -58,7 +58,7 @@ A detailed look at the 1956-correct Kluson Deluxe tuner. Authentication begins w
 
 -   **“Bullion Gold” Nitro:** Gibson used actual bronze powder in the lacquer. Over 70 years, this metal oxidizes, causing the finish to turn green in areas of arm wear or within the weather checking.
     
--   **“Thin” Cutaway Binding:** Look into the Florentine cutaway. In 1956, the binding is thin enough that you can see a sliver of the maple cap edge below it. If the binding is thick and hides the maple/mahogany seam, be suspicious.
+-   **“Thin” Cutaway Binding:** Look into the Venetian cutaway. In 1956, the binding is thin enough that you can see a sliver of the maple cap edge below it. If the binding is thick and hides the maple/mahogany seam, be suspicious.
     
 -   **Cellulose Nitrate Inlays:** These trapezoid inlays should have a “swirly,” marbled texture and very sharp corners. Modern reissues often get the corners too rounded.
     
@@ -125,7 +125,7 @@ A close look at the legendary Sprague .022uF 400V “Bumblebee” capacitor. The
 
 ![Macro close-up of the small metal Lifton brand plate on the exterior of a 1956 "California Girl" hardshell case.](../../assets/blog/1956-les-paul-goldtop-authentication-guide/1956-gibson-lifton-california-girl-case-1024x683.jpg)
 
-A detailed view of the original metal brand plate found on the “California Girl” case. While many believe the name refers to the tan-and-pink color scheme, the nickname actually stems from the specific hourglass “curvy” silhouette of the case itself. On an original 1956 case, look for this small, weathered badge near the handle. It’s the mark of the Lifton construction that protected these Goldtops when they left the factory in Kalamazoo.
+A detailed view of the original metal brand plate found on the “California Girl” case. The nickname comes from the color scheme: a tanned brown exterior over a bright pink interior. On an original 1956 case, look for this small, weathered badge near the handle. It’s the mark of the Lifton construction that protected these Goldtops when they left the factory in Kalamazoo.
 
 -   **Headstock Pitch:** A true 1950s Gibson has a **17-degree** headstock angle.
     

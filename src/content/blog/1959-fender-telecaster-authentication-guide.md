@@ -62,7 +62,7 @@ Fender neck plates were not assigned in strict production order. A plate with se
 
 The most reliable single dating reference on a pre-CBS Fender is the **date on the butt end of the neck heel**, visible only when the neck is removed from the body. Our [Fender neck date guide](/fender-neck-dates/) walks through reading the heel date across every era. On pre-1959 Telecasters, a Fender employee penciled a date in month-year format directly on the wood, for example, "9 58" for September 1958.
 
-In 1959, something unusual happened: a Fender employee had been writing obscene words on neck heels, and when management discovered this, they issued an order to stop writing on necks entirely. As a result, some 1959 necks carry *no date whatsoever*. A completely blank neck heel on a claimed 1959 Telecaster is therefore not a red flag. It is in fact a period-specific authenticating characteristic for genuine 1959 production.
+In 1959 that stopped for a stretch. Rumor has it that a Fender employee had been writing obscene words on neck heels and management responded by ordering the crew to stop writing on necks entirely. Whatever the reason, the result is well documented: some 1959 necks carry *no date whatsoever*. A completely blank neck heel on a claimed 1959 Telecaster is therefore not a red flag. It is in fact a period-specific authenticating characteristic for genuine 1959 production.
 
 On a genuine 1959 Telecaster, then, the neck heel date is always either penciled in month-year format or absent entirely. Fender did not stamp neck heel dates this early, so a stamped heel date points to a later guitar, not a 1959.
 
@@ -136,7 +136,7 @@ The slab rosewood board (1959 to mid-1962) and the veneer rosewood board (mid-19
 -   Slab board undersideThe underside of a slab board is **completely flat**. It was milled flat to glue directly onto the flat top of the neck blank. On veneer boards the underside follows the curve of the neck radius.
 -   Veneer board thicknessMuch thinner, approximately 2 to 2.5mm. The rosewood contributes less visual depth at the headstock end, and the neck wood is visible much higher relative to the fretboard surface.
 -   Truss rod accessBoth slab and veneer boards adjust at the **neck heel** (not the headstock). The truss rod slot opening on a slab board's headstock end shows the rosewood slightly intruding into the slot opening. This was noted as a period-correct detail.
--   Skunk stripeBoth maple-neck and slab-board necks have a **walnut skunk stripe** on the back of the neck, the channel for the truss rod, routed from the back and filled with a contrasting wood strip. Absence of a skunk stripe suggests a non-original neck.
+-   Skunk stripeThis one splits by board type. A **one-piece maple neck** has a **walnut skunk stripe** on the back, the truss rod channel routed from behind and filled with a contrasting strip, plus a walnut plug behind the nut. A **slab rosewood neck does not**: the truss rod went in from the front of the blank and the rosewood was glued over it, leaving a clean, unbroken maple back. A skunk stripe on a rosewood-board 1959 means the neck is not original, and a maple 1959 without one means the same.
 
 All 1959 rosewood-board Telecasters use **clay dot inlays**, a dull, slightly chalky material that ages to an off-white or yellowish tone with a matte finish. They are never shiny or pearlescent. Pearloid (plastic) dots replaced clay in early 1965, so bright, shiny dots on a claimed pre-1965 Fender are an immediate mismatch. The 12th fret clay dots on 1959 instruments are also positioned slightly *closer to the edge* of the neck than on later examples, a small but documented detail specific to this era.
 
@@ -246,7 +246,7 @@ Original threaded saddles show consistent chrome plating and period-appropriate 
 
 The 1959 Telecaster bridge pickup is a **single-coil unit mounted to the bridge plate**, not to the body or pickguard. It sits in a chrome baseplate that is part of the ashtray bridge assembly. The pickup cover is **chrome-plated steel**, the characteristic look of the Telecaster bridge pickup. The poles are flush to the cover or barely protruding.
 
-Original 1959 bridge pickups use **formvar-coated wire** and typically read approximately **6.5 to 7.5k ohms** DC resistance. The bridge pickup carries the staggered pole pieces introduced in 1955, the bass strings (E, A, D) have slightly taller poles than the treble strings (G, B, E) to compensate for the imbalanced output of wound vs. plain strings. A bridge pickup without staggered poles is earlier (pre-1955) or a replacement.
+Original 1959 bridge pickups use **formvar-coated wire** and typically read approximately **6.5 to 7.5k ohms** DC resistance. The bridge pickup carries staggered pole pieces in Fender's vintage pattern: the G pole is the tallest, the D and A sit high, and the low E, B and high E sit lower, matching the 7.25 inch radius and the wound G string of the period. A bridge pickup without staggered poles is earlier (pre-1955) or a replacement.
 
 <figure>
 
@@ -326,7 +326,7 @@ The 1959 Telecaster headstock carries the classic **"spaghetti" Fender logo**, a
 
 The spaghetti logo was used through approximately 1964 to 1965, when it was replaced by the thicker "transition" logo and then the bold CBS-era logo. Key authenticity points:
 
--   MaterialWater-slide decal applied **on top of the finish**, not a silkscreen. On an original 1959, the decal sits on the lacquer surface and is protected by a clear topcoat. The logo may show very slight edge relief but should not feel raised in a way that suggests a fresh re-application. A logo that sits well above the surface with no clear topcoat over it has likely been replaced.
+-   MaterialWater-slide decal applied **on top of the finish**, not a silkscreen, with no clear coat sprayed over it. On an original 1959 the decal sits on the lacquer surface and you can catch its edge with a fingernail at a low angle. A logo buried under a layer of clear lacquer means the headstock has been resprayed and re-decaled.
 -   Patent numbersThe 1959 Telecaster headstock decal includes **two patent numbers** below the model name: "2,573,254" and "2,784,631." The presence of both patent numbers is correct for 1959. Note that the second patent number was added in 1959, earlier examples have only one. A claimed 1959 with only one patent number may be from early 1959 or earlier.
 -   Logo positionThe spaghetti logo sits relatively high on the headstock face, close to the nut. The exact vertical position varied slightly from example to example.
 -   ColorSilver/chrome, sometimes with slight yellowing or patina after decades under lacquer. A bright, fresh-looking logo on a claimed 1959 may indicate headstock refinish or decal replacement.
@@ -335,7 +335,7 @@ The spaghetti logo was used through approximately 1964 to 1965, when it was repl
 
 ![1959 Fender Telecaster blonde headstock showing spaghetti logo with two patent numbers, Kluson Deluxe single-line tuners, and butterfly string tree](../../assets/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-blonde-headstock-scaled.jpg)
 
-<figcaption><strong>1959 Fender Telecaster headstock.</strong> The classic silver "spaghetti" logo is a water-slide decal applied on top of the finish and protected by a clear topcoat. Two patent numbers (2,573,254 and 2,784,631) appear below the model name "Telecaster"; 1959 is the first year both numbers appear, so a single-patent-number decal indicates earlier production. Note the butterfly/wing string tree and the Kluson Deluxe single-line tuners, correct for 1959.</figcaption>
+<figcaption><strong>1959 Fender Telecaster headstock.</strong> The classic silver "spaghetti" logo is a water-slide decal applied on top of the finish, with no clear coat over it. Two patent numbers (2,573,254 and 2,784,631) appear below the model name "Telecaster"; 1959 is the first year both numbers appear, so a single-patent-number decal indicates earlier production. Note the butterfly/wing string tree and the Kluson Deluxe single-line tuners, correct for 1959.</figcaption>
 
 </figure>
 
@@ -355,7 +355,7 @@ The single-line Kluson Deluxe is consistent across late-1950s Fender production 
 
 ### String Tree
 
-The 1959 Telecaster headstock carries a **"butterfly" or "wing" string tree**, a small stamped metal guide that keeps the B and high-E strings seated in their nut slots under appropriate break angle. This is the same string tree introduced in approximately 1955, replacing the earlier round-button style. A round-button string tree on a claimed 1959 is incorrect; a butterfly/wing tree is correct.
+The 1959 Telecaster headstock carries a **"butterfly" or "wing" string tree**, a small stamped metal guide that keeps the B and high-E strings seated in their nut slots under appropriate break angle. This is the same string tree Fender introduced at the beginning of 1956, replacing the earlier round-button style. A round-button string tree on a claimed 1959 is incorrect; a butterfly/wing tree is correct.
 
 <h2 id="dating">Dating From the Inside Out</h2>
 
@@ -386,7 +386,7 @@ Early 1959: maple neck + likely top-loader bridge + serial ~30000 to 33000. Mid-
 -   NeckSame slab rosewood board as the late-1959 standard model. Clay dots, slim D profile.
 -   Hardware/electronicsOtherwise identical to the standard 1959 Telecaster, same pickups, same bridge options (top loader or transitional depending on date), same controls.
 
-Because the Telecaster Custom is relatively more valuable than the standard model (rarity + bound body + sunburst + gold logo), there is an incentive to present a stripped and refinished standard as a Custom, or to add binding and a gold decal to an otherwise standard guitar. Check that: the binding is original (no paint bleed under the binding; correct binding profile throughout); the alder body is consistent with the sunburst finish; the gold decal shows authentic aging and is protected by a clear topcoat; and the pickguard is original 3-ply mint green with correct screw-hole count and positions.
+Because the Telecaster Custom is relatively more valuable than the standard model (rarity + bound body + sunburst + gold logo), there is an incentive to present a stripped and refinished standard as a Custom, or to add binding and a gold decal to an otherwise standard guitar. Check that: the binding is original (no paint bleed under the binding; correct binding profile throughout); the alder body is consistent with the sunburst finish; the gold decal shows authentic aging and sits on top of the finish rather than under a coat of clear; and the pickguard is original 3-ply mint green with correct screw-hole count and positions.
 
 <h2 id="fakes">Reissues, Fakes & Modifications</h2>
 
@@ -397,7 +397,7 @@ Fender has produced numerous reissues of the 1959 Telecaster, including the Amer
 -   **Serial number location and format:** Modern reissues typically carry the serial on the headstock face (not the neck plate), with a letter prefix (e.g., "V" for vintage reissues)
 -   **Modern construction details:** Graphite nut, compound radius fretboard, modern truss rod access; Custom Shop versions use traditional heel adjust
 -   **Pot codes:** Modern pots with current dates
--   **Polyurethane finish** on standard American Vintage (not nitro), feels thicker and plastic; nitro on Custom Shop versions
+-   **Finish:** American Vintage reissues are nitrocellulose, so finish chemistry alone will not separate them from an original. Judge the aging instead: sixty-five years of checking, ambering and honest wear against a finish that has been on the guitar for a few decades at most
 -   **No authentic aging:** Even "relic" models have applied aging that looks and feels different from 65 years of natural use
 
 ### Date-Shifted Late-1950s Fenders
@@ -436,7 +436,7 @@ Work through each item systematically. Every confirmation adds confidence; any c
 
 -   Early 1959: one-piece maple neck, no visible glue line, lacquered playing surface, dot inlays are black on the maple board
 -   Mid-to-late 1959: thick slab rosewood (~4.8mm) with flat-milled underside; visible glue line at headstock end
--   Skunk stripe present on back of neck regardless of board type
+-   Skunk stripe present on a maple neck, absent on a slab rosewood neck (rosewood necks were routed from the front)
 -   Dot inlays are clay, dull, matte, off-white/tan (NOT shiny pearloid)
 -   12th fret dots are positioned relatively close to the neck edge (period-specific detail)
 -   Neck profile is slim D, thinner than 1957 to 1958 examples
@@ -469,7 +469,7 @@ Work through each item systematically. Every confirmation adds confidence; any c
 
 ### Headstock & Hardware
 
--   Spaghetti logo in silver (standard) or gold (Custom model), under lacquer, not on top of it
+-   Spaghetti logo in silver (standard) or gold (Custom model), sitting on top of the finish with no clear coat over it
 -   Two patent numbers below "Telecaster" on the decal: 2,573,254 and 2,784,631
 -   Tuners are Kluson Deluxe "single line", "Kluson Deluxe" stamped vertically on gear housing back
 -   String tree is butterfly/wing style, NOT round button (that's pre-1955)

@@ -114,7 +114,7 @@ The 1967 Stratocaster neck is a thin, comfortable C shape. It feels meaningfully
 
 The fingerboard on this guitar is rosewood **veneer** over maple. The thick slab board ended back in mid 1962, so by 1967 you are firmly in the thin veneer era, and the rosewood is **East Indian**, not Brazilian. Fender finished the switch away from Brazilian in mid 1965, so an Indian board is exactly what a stock 1967 should have. If a seller is leaning hard on "Brazilian rosewood" as a selling point on a stock 1967, treat it with skepticism unless they can prove it.
 
-One thing that is new for 1967: Fender brought back the maple fingerboard as an option in the middle of the year. A 1967 with the **maple cap** board is a real factory configuration, not a red flag. This example is the standard rosewood board, which is what the great majority of 1967s wear, but if you run into a maple 1967 do not assume it is wrong. Just know that a maple cap neck is built differently, which matters for the skunk stripe question below.
+One thing that is new for 1967: Fender brought back the maple fingerboard as an option in the middle of the year. A 1967 with the **maple cap** board is a real factory configuration, not a red flag. This example is the standard rosewood board, which is what the great majority of 1967s wear, but if you run into a maple 1967 do not assume it is wrong. Note that a maple cap neck is built the same way underneath, which matters for the skunk stripe question below.
 
 The frets are vintage thin, narrower than the medium jumbo wire that came later. Original frets on a played 1967 will show wear in the first few positions and around the third, fifth, and seventh frets where hands spend most of their time. A 1967 with tall, flat, unworn frets has probably been refretted.
 
@@ -128,7 +128,7 @@ The frets are vintage thin, narrower than the medium jumbo wire that came later.
 
 ### The Back of the Neck
 
-This detail gets misreported constantly. A 1967 Stratocaster with a **rosewood** board does **not** have a skunk stripe on the back of the neck, and there is no walnut plug above the nut. In this era Fender installed the truss rod from the front of the neck blank and then glued the rosewood veneer over the top to cover it, so the back is a clean, unbroken piece of maple from heel to headstock. The skunk stripe did not come back to rosewood-board necks until 1971, when Fender moved to the bullet truss rod and loaded the rod from the back again. The one exception in 1967 is a maple cap neck: because the maple board is glued on top and the rod goes in from behind, a maple cap 1967 does have a skunk stripe and a walnut plug. On a rosewood 1967 like this one, a skunk stripe means the neck is not what it should be.
+This detail gets misreported constantly. A 1967 Stratocaster with a **rosewood** board does **not** have a skunk stripe on the back of the neck, and there is no walnut plug above the nut. In this era Fender installed the truss rod from the front of the neck blank and then glued the rosewood veneer over the top to cover it, so the back is a clean, unbroken piece of maple from heel to headstock. The skunk stripe did not come back to rosewood-board necks until 1971, when Fender moved to the bullet truss rod and loaded the rod from the back again. The maple cap option is built the same way, so it makes no difference here: a maple cap neck has the rod loaded from the front under a glued-on board, which means **no skunk stripe and no walnut plug on a maple cap 1967 either**. On any 1967, rosewood or maple cap, a skunk stripe means the neck is not what it should be.
 
 ### The Neck Heel Date Stamp
 
@@ -163,7 +163,7 @@ So the "B" on this heel means a 1 5/8" nut, exactly. If you see a 1967 advertise
 
 <h2 id="headstock">The Headstock and the CBS Transition</h2>
 
-This is where the 1967 announces itself. By 1967 the small headstock was gone from the line, so essentially every Stratocaster shipped that year has the larger, more upright CBS-style headstock. If you want the side-by-side with the small-headstock guitar that came just before this, our [1966 Stratocaster guide](/post/1966-fender-stratocaster-authentication-guide/) covers the exact moment the outline changed.
+This is where the 1967 announces itself. By 1967 the small headstock was gone from the line, so essentially every Stratocaster shipped that year has the larger, more upright CBS-style headstock. The small headstock was already gone from 1966 production, so for a genuine side-by-side against a small-headstock guitar, our [1963 Stratocaster guide](/post/1963-fender-stratocaster-authentication-guide/) covers the pre-CBS outline. Our [1966 Stratocaster guide](/post/1966-fender-stratocaster-authentication-guide/) covers the year the large headstock became universal.
 
 ### The Transition Logo
 
@@ -199,7 +199,7 @@ Under the pickguard is where a 1967 Stratocaster shows most of its personality, 
 
 ### The Pickups
 
-By 1967 the pickups are staggered AlNiCo V single coils on gray vulcanized fiber bobbins. The wire is dark plain enamel, hand wound, with DC resistance generally between about 5.8k and 6.2k ohms. Fender was finishing the change from black-bottom to gray-bottom flatwork through late 1967, so a guitar built in this window can turn up with either, and neither is wrong on its own. The staggered pole pattern has the G-string pole standing taller than the rest, which was set up for the wound G strings of the day. The magnets should look slightly matte or oxidized, not bright and shiny.
+By 1967 the pickups are staggered AlNiCo V single coils on gray vulcanized fiber bobbins. The wire is dark plain enamel, hand wound, with DC resistance generally between about 5.8k and 6.2k ohms. Fender ran black fiber bobbins from 1950 and began moving to light grey material in March 1964, so grey bottoms are what a 1967 should have. The grey darkens noticeably through the late 1960s and stays standard across the 1970s. The staggered pole pattern has the G-string pole standing taller than the rest, which was set up for the wound G strings of the day. The magnets should look slightly matte or oxidized, not bright and shiny.
 
 <figure>
 
@@ -240,7 +240,7 @@ If your guitar has staggered gray-bottom pickups, cloth pushback wire, a .1 mfd 
 
 ### Saddles
 
-The bridge saddles are individual stamped steel saddles, nickel chrome plated, each stamped **"FENDER PAT. PEND."** on top. These are the same threaded formed-steel saddles Fender had used since the 1950s. The patent pending stamp ran on Stratocaster saddles well into the late 1960s before it was dropped, so a 1967 should show it on every saddle. The stamp is small but clear under good light. Repro saddles exist and are usually distinguishable up close.
+The bridge saddles are individual stamped steel saddles, nickel chrome plated, each stamped **"FENDER PAT. PEND."** on top. These are the same bent, formed-steel saddles Fender had used since the 1950s. Stratocaster saddles are stamped steel, never threaded barrels; threaded saddles are Telecaster hardware. The patent pending stamp ran on Stratocaster saddles well into the late 1960s before it was dropped, so a 1967 should show it on every saddle. The stamp is small but clear under good light. Repro saddles exist and are usually distinguishable up close.
 
 <figure>
 
@@ -316,7 +316,7 @@ Authenticating a 1967 comes down to confirming that every datable part lands in 
 -   Large CBS headstock with the gold transition logo and patent numbers
 -   Fender "F" tuners on a later 1967 build, or double-line Klusons on an earlier one
 -   East Indian rosewood veneer board, or the correct maple cap option
--   Seamless maple neck back with no skunk stripe (on a rosewood-board neck)
+-   Seamless maple neck back with no skunk stripe and no walnut plug (rosewood board or maple cap alike)
 -   Staggered gray-bottom pickups with plain enamel wire
 -   Original .1 mfd ceramic disc cap
 -   Cloth-covered pushback wiring
@@ -349,7 +349,7 @@ Inside you often find the case candy: a printed "Fender Musical Instruments" pol
 
 <h2 id="colors">Custom Colors</h2>
 
-Sunburst was the standard finish in 1967. Any non-sunburst color was a paid option, usually a five percent upcharge over list. CBS kept the custom color program running, and the 1967 chart was wide: Lake Placid Blue, Candy Apple Red, Fiesta Red, Olympic White, Sonic Blue, Daphne Blue, Dakota Red, Foam Green, Surf Green, black, and the metallics like Burgundy Mist, Inca Silver, Shoreline Gold, and the Firemists.
+Sunburst was the standard finish in 1967. Any non-sunburst color was a paid option, usually a five percent upcharge over list. CBS kept the custom color program running, and the 1967 chart was wide: Lake Placid Blue, Candy Apple Red, Fiesta Red, Olympic White, Sonic Blue, Dakota Red, Foam Green, black, and the metallics added in the 1965 revision, Blue Ice, Charcoal Frost, Ocean Turquoise, Teal Green, and the Firemists. Note what is *not* on it: Daphne Blue, Surf Green, Burgundy Mist, Inca Silver, Shoreline Gold and Sherwood Green all left the chart in the 1965 revision, so any of those on a claimed 1967 needs explaining.
 
 Custom color 1967s bring serious money, and that money brings fakery. The usual scams are a sunburst stripped and refinished into a desirable color, or a real color oversprayed to hide wear. Check for a paint stick shadow in the pocket that matches the body color, look for color in the pickup routes that matches the top, check the pickguard screw holes for original color inside, and pull the trem cover to look for overspray in the cavity. A real factory color was sprayed before assembly, so paint ends up in places you cannot recreate without taking the guitar apart and refinishing it. When custom color money is on the table, get a knowledgeable second opinion. Our [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/) walks through the finish forensics in depth.
 
@@ -391,7 +391,7 @@ Yes, on a later 1967 guitar. Fender switched from double-line Kluson Deluxe tune
 
 ### Does a 1967 have a skunk stripe?
 
-Not on a rosewood-board neck. The truss rod went in from the front and the rosewood veneer covered it, so the maple back is smooth and unbroken. The one exception is the maple cap option that returned in mid 1967: those necks are built with the board glued on top and the rod loaded from behind, so they do have a skunk stripe and a walnut plug. A skunk stripe on a rosewood 1967 is wrong.
+No. The truss rod went in from the front and the board was glued over it, so the maple back is smooth and unbroken. That holds for the maple cap option that returned in mid 1967 as well, since those necks are built the same way. A skunk stripe on any 1967 Stratocaster is wrong; the stripe does not come back until 1971 and the bullet truss rod.
 
 ### Is the serial number enough to date it?
 

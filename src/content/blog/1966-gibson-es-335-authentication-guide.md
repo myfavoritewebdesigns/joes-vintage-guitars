@@ -40,9 +40,9 @@ The 1966 Gibson ES-335 sits in an often misunderstood spot in the model's histor
 
 CBS acquired Fender in 1965; Gibson's ownership change, to Norlin through Chicago Musical Instruments (CMI), came later, in 1969. So a 1966 ES-335 is still a **pre-Norlin Kalamazoo guitar**, built by the same craftsmen and to fundamentally the same standards as the early 1960s examples, just with hardware and materials that were already evolving. The pickups are no longer PAFs but are excellent Patent Number humbuckers; the bridge saddles are in transition; the tuners may still be Klusons. It's a genuine vintage guitar with real collector value, and one that takes attention to specific year-defining details to authenticate correctly.
 
-**1\. Are the bridge saddles nylon or chrome-plated?** 1966 is precisely the transition year. Both are correct; knowing which your example has and confirming it matches the bridge casting is important.
+**1\. Are the bridge saddles nylon?** They should be. Nylon saddles are correct for a 1966, and chrome saddles point to a replaced bridge or a later guitar.
 
-**2\. Are the pickups pre-T-top Patent Number humbuckers?** The T-top design came in approximately 1967 to 1968. A genuine 1966 should have earlier Patent Number pickups, authenticating these is covered in detail in Section 08.
+**2\. Are the pickups pre-T-top Patent Number humbuckers?** Gibson moved to the T-top bobbin gradually between 1965 and 1967, so a 1966 can turn up either way and neither is automatically wrong. Most 1966s carry the earlier Patent Number pickups; authenticating these is covered in detail in Section 08.
 
 **3\. Does the serial number confirm 1966?** Gibson's 1960s serial system has quirks and overlaps. Knowing what a genuine 1966 number looks like, and why it can appear faint, helps a lot.
 
@@ -94,7 +94,7 @@ The 1966 ES-335 carries a **pearloid "Gibson" logo** on the headstock face, set 
 
 ![1966 Gibson ES-335 headstock showing pearloid Gibson logo, crown inlay, blank bell-shaped truss rod cover, and Kluson double-line tuners](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-headstock-scaled.jpg)
 
-<figcaption><strong>1966 Gibson ES-335 headstock.</strong> The pearloid Gibson logo and crown inlay are clearly visible, along with the blank bell-shaped truss rod cover with its narrow bezel. The six Kluson Deluxe double-line tuner buttons and the butterfly string trees are also correct for this year.</figcaption>
+<figcaption><strong>1966 Gibson ES-335 headstock.</strong> The pearloid Gibson logo and crown inlay are clearly visible, along with the blank bell-shaped truss rod cover with its narrow bezel. The six Kluson Deluxe double-line tuners with their plastic tulip buttons are also correct for this year.</figcaption>
 
 </figure>
 
@@ -143,7 +143,7 @@ If a claimed 1966 ES-335 has intact, well-defined fret nibs at every fret positi
 
 ### Block Inlays
 
-The 1966 ES-335 has **small rectangular block inlays** in the fingerboard, not dots. Gibson switched the ES-335 from dot inlays to block inlays in 1962; the dot-neck ES-335s of 1958 to 1961 are a separate and generally more valuable category. All 1962 and later ES-335s through this era use the block inlay format. The blocks are mother-of-pearl (MOP), set flush with the fingerboard surface.
+The 1966 ES-335 has **small rectangular block inlays** in the fingerboard, not dots. Gibson switched the ES-335 from dot inlays to block inlays in 1962; the dot-neck ES-335s of 1958 to 1961 are a separate and generally more valuable category. All 1962 and later ES-335s through this era use the block inlay format. The blocks are cellulose nitrate plastic, usually called pearloid or celluloid, set flush with the fingerboard surface. They are not real mother-of-pearl, and a listing claiming solid pearl blocks on a 1960s ES-335 has the material wrong.
 
 Genuine pearl inlays show a layered, iridescent quality that catches light differently at different angles. Plastic or epoxy replacement inlays are typically more uniform in appearance and don't show the same depth. At the headstock end of the neck (first position), look at the blocks under raking light, original pearl should show natural layering and variation across the block's surface.
 
@@ -227,7 +227,7 @@ The ES-335 has a standard layout of **four controls (two volume, two tone) and a
 
 Potentiometers (pots) carry manufacturer date codes. CTS was the most common supplier for 1966 Gibson guitars. A pot code reading "137 6625" indicates CTS (code 137), made in 1966, week 25, approximately mid-June 1966. Read all four pots (three controls plus the toggle switch wafer if accessible) and confirm they all read from approximately the same period. A pot reading significantly later than the others indicates a replacement.
 
-The "bumblebee" capacitors associated with late-1950s Gibsons were phased out by approximately 1962. By 1966, Gibson was using a variety of capacitor types including ceramic disc caps and early "Vitamin Q" style caps. The specific capacitor type on a 1966 ES-335 is less diagnostic than on a late-1950s instrument, what matters is that it's not a modern orange drop cap or other obviously anachronistic component.
+The "bumblebee" capacitors associated with late-1950s Gibsons gave way to the Sprague "Black Beauty," which ran through to about 1969, so a Black Beauty is period-correct in a 1966. Ceramic disc caps and "Vitamin Q" style units also turn up. The specific capacitor type on a 1966 ES-335 is less diagnostic than on a late-1950s instrument, what matters is that it's not a modern orange drop cap or other obviously anachronistic component.
 
 <h2 id="pickups">Patent Number Pickups</h2>
 
@@ -248,7 +248,7 @@ Gibson's humbucker pickup went through three distinct phases in the first decade
 -   PAF Era**~1957 to 1962.** "Patent Applied For" sticker on the base plate. The gold label. Hand-wound with varying specifications. Generally considered the most tonally complex and desirable. NOT present on 1966 instruments.
 -   Patent Sticker Era**~1962 to 1965.** The PAF sticker replaced with a black sticker reading the patent number. Still largely hand-wound with similar specs to late PAFs. Transitional era. NOT present on 1966.
 -   Patent Number Era**~1962 to late 1960s.** A **black sticker reading "Patent No 2,737,842"** on the base plate. This is what a genuine 1966 ES-335 has. Pre-T-top winding and construction. Genuinely excellent pickups that are often underrated.
--   T-Top Era**~1967 to 1975.** Named for the T-shaped coil former visible from the adjustable-pole side. More consistent winding, different sonic character. NOT present on 1966.
+-   T-Top Era**Phased in gradually between 1965 and 1967, standard through about 1975.** Named for the raised T moulded into the top of each bobbin, visible from the adjustable-pole side with the cover off. More consistent winding, different sonic character. Most 1966s predate it, but the changeover overlaps the year.
 
 ### Authenticating 1966 Patent Number Pickups
 
@@ -300,7 +300,7 @@ The 1966 ES-335 uses the **ABR-1 Tune-o-matic bridge**, the original Gibson adju
 
 ### Bridge Saddles, The 1966 Transition
 
-The 1966 ES-335 uses **nylon/plastic saddles** on the ABR-1 bridge. Gibson used nylon saddles on the ABR-1 from its introduction through approximately 1969 to 1970, when they switched to chrome-plated saddles. A 1966 should always have nylon saddles, chrome saddles on a claimed 1966 indicate either a bridge replacement or a later instrument.
+The 1966 ES-335 uses **nylon/plastic saddles** on the ABR-1 bridge. The ABR-1 arrived in 1954 with metal saddles; Gibson moved to nylon around 1961 to 1962 and ran nylon through approximately 1969 to 1970, when they switched to chrome-plated saddles. A 1966 should always have nylon saddles, chrome saddles on a claimed 1966 indicate either a bridge replacement or a later instrument.
 
 Nylon saddles can show string contact grooves and occasional cracking or chipping over time, this is period-authentic aging. Check that all six saddles are the same type; a mix of nylon and metal saddles indicates a partial replacement.
 
@@ -330,15 +330,15 @@ The trapeze tailpiece hardware and finish should show aging consistent with the 
 
 ### Kluson Deluxe Double-Line Tuners with Double-Ring Buttons
 
-The 1966 ES-335 is fitted with **Kluson Deluxe "double-line" tuners**, named for the two lines of text stamped on the back of each gear housing: "KLUSON" on the first line and "DELUXE" on the second. This distinguishes them from the single-line Klusons used on contemporary Fender instruments and from the no-text versions used on earlier guitars.
+The 1966 ES-335 is fitted with **Kluson Deluxe "double-line" tuners**, named for the fact that "KLUSON DELUXE" is stamped **twice**, in two parallel vertical columns down the back of each gear housing. This distinguishes them from the single-line Klusons Gibson used through the 1950s and into the early 1960s, where the same words appear once, and from the earlier no-text housings. Gibson moved to double-line stampings around 1964.
 
-The tuner buttons on this era of Kluson are the **"double-ring" style**, buttons with two concentric raised rings visible on the face of the button, giving them a distinctive appearance also sometimes called "double-ring" or "tulip" in collector terminology. These are all-metal buttons, not plastic, with a chrome plating that shows age-consistent patina.
+The tuner buttons on this era of Kluson are **plastic tulip buttons** in the **"double-ring" style**, named for the two concentric raised rings moulded into the collar. Gibson switched from single-ring to double-ring buttons around the middle of 1960. These are plastic, not metal: metal oval buttons are the Fender-fitted Kluson style, not the Gibson one. Old tulip buttons shrink, crack and yellow with age, and that ageing is what you want to see.
 
 <figure>
 
 ![1966 Gibson ES-335 Kluson Deluxe double-line tuner back close-up, KLUSON on first line DELUXE on second line confirming double-line mid-1960s tuner](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-tuner-back-close-up-scaled.jpg)
 
-<figcaption><strong>Back of a Kluson Deluxe double-line tuner on a 1966 Gibson ES-335.</strong> "KLUSON" on the first line and "DELUXE" on the second line stamped on the gear housing back is the defining identifier for this era of tuner. The single-line Kluson (all text on one line) is a Fender-era tuner; the double-line is correct for mid-1960s Gibsons. Chrome aging on the housing should be consistent with the rest of the hardware.</figcaption>
+<figcaption><strong>Back of a Kluson Deluxe double-line tuner on a 1966 Gibson ES-335.</strong> "KLUSON DELUXE" stamped twice, in two parallel columns down the gear housing back, is the defining identifier for this era of tuner. The single-line version, where the same words appear once, is what Gibson used through the 1950s and into the early 1960s before the change around 1964. Chrome aging on the housing should be consistent with the rest of the hardware.</figcaption>
 
 </figure>
 
@@ -346,7 +346,7 @@ The tuner buttons on this era of Kluson are the **"double-ring" style**, buttons
 
 ![1966 Gibson ES-335 Kluson Deluxe double-ring tuner button close-up, all-metal button with two concentric raised rings, correct for mid-1960s Gibson](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-tuner-button-close-up-scaled.jpg)
 
-<figcaption><strong>Double-ring tuner button on a 1966 Gibson ES-335 Kluson Deluxe.</strong> The two concentric raised rings visible on the face of the all-metal tuner button are the defining feature of the "double-ring" style correct for this era. These are all-metal chrome-plated buttons, there is no plastic component. All six buttons should show consistent matched chrome aging.</figcaption>
+<figcaption><strong>Double-ring tuner button on a 1966 Gibson ES-335 Kluson Deluxe.</strong> The two concentric raised rings moulded into the collar are the defining feature of the "double-ring" style correct for this era. These are plastic tulip buttons, not metal; Gibson went from single-ring to double-ring around mid-1960. All six should show consistent, matched ageing, with the shrinkage and yellowing old tulip plastic always develops.</figcaption>
 
 </figure>
 
@@ -545,7 +545,7 @@ The original dealer price tag from the point of sale. Unlike the factory documen
 
 Gibson has produced numerous ES-335 reissues, including the Memphis-era ES-335s, the Custom Shop 1964 ES-335 reissues, and various Historic Collection examples. These are well-made instruments but are not 1966 originals. For comparison with earlier ES-335 specifications, see our [1959 ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and [1962 ES-335 authentication guide](/post/1962-gibson-es-335-guide/). Key differentiators from all reissues include:
 
--   **Serial number format:** All post-1977 Gibson serials have a letter prefix and specific format, "YYDDDNNN" or similar. A genuine 1966 has a plain 6-digit number on the headstock back.
+-   **Serial number format:** From 1977 Gibson used an 8-digit impressed serial with no letter prefix, where digits 1 and 5 give the year, digits 2 to 4 the day of the year, and digits 6 to 8 the production rank. A genuine 1966 has a plain 6-digit number on the headstock back.
 -   **Orange label:** Reissue labels use modern printing and modern paper, visible under UV light and to a trained eye. The Kalamazoo address only appears on genuine pre-1984 instruments.
 -   **Headstock logo:** A genuine 1966 has a pearloid logo set flush into the veneer. Reissues use printed or waterslide logos that may approximate the period look but show modern application techniques under magnification.
 -   **Pickup stickers:** Genuine Patent Number stickers show age-consistent yellowing and adhesion. Reissue pickup base plates use different markings entirely.
@@ -593,7 +593,7 @@ Neck & Fingerboard
 
 -   **Fret nibs present at all fret positions, confirms original frets**
 -   Block inlays (rectangular), NOT dots (dots = pre-1962)
--   Block inlays are mother-of-pearl with natural iridescence, not plastic
+-   Block inlays are cellulose nitrate pearloid, the correct 1960s material, not solid mother-of-pearl
 -   **Side dots are tortoise/amber-brown colored, NOT white**
 -   Fingerboard binding is single-ply cream/white
 -   Rosewood fingerboard shows period-consistent grain and color
@@ -634,7 +634,7 @@ Bridge & Tailpiece
 Tuners, Knobs & Hardware
 
 -   Kluson Deluxe double-line tuners ("KLUSON" / "DELUXE" on two lines on gear back)
--   Double-ring all-metal buttons, consistent chrome aging
+-   Double-ring plastic tulip buttons, consistent matched ageing across all six
 -   Top hat / reflector knobs, amber top, chrome skirt, all four match
 -   White plastic switch tip with mold seam visible around top portion
 -   Aluminum strap buttons with chrome screw, noticeably less shiny than chrome hardware; this is correct

@@ -98,7 +98,7 @@ A good marker for early 50s authentication. On an original 1952 Telecaster, the 
 
 ![Close-up of a 1952 Fender Telecaster headstock featuring the original circular button-style string tree.](../../assets/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-vintage-round-string-tree-1024x683.jpg)
 
-A telltale detail of the early 50s headstock. The 1952 Telecaster uses a small, round metal button to hold the E and B strings in place. Fender did not switch to the more common “butterfly” or “wing” style string tree until mid-1954, so this hardware piece is a good indicator of a period-correct Blackguard.
+A telltale detail of the early 50s headstock. The 1952 Telecaster uses a small, round metal button to hold the E and B strings in place. Fender did not switch to the more common “butterfly” or “wing” style string tree until the beginning of 1956, so this hardware piece is a good indicator of a period-correct Blackguard.
 
 -   **The Logo:** The “Fender” logo is a thin silver decal. In 1952, these were applied **on top** of the finish, not under it. You should be able to feel a slight edge if you run your finger over it very gently.
     
