@@ -174,7 +174,7 @@ If the 1959 ES-335 is the “Holy Grail,” the **PAF (Patent Applied For)** pic
 
 The 1959 PAF is defined by its internal components, which differ significantly from the “T-Top” or “Patent Number” pickups that followed in the 1960s:
 
--   **Alnico Magnets:** 1959 was the peak of the **“Long Magnet”** era (roughly 2.5 inches). These magnets, typically Alnico 2, 4, or 5, provide a stronger magnetic field than the “short magnets” introduced in late 1960. This results in more sustain and a “bloom” to the notes.
+-   **Alnico Magnets:** 1959 was the peak of the **“Long Magnet”** era (roughly 2.5 inches). These magnets, typically Alnico 2, 4, or 5, provide a stronger magnetic field than the “short magnets” Gibson introduced in July 1961. This results in more sustain and a “bloom” to the notes.
 -   **Purple Enamel Wire:** The coils were hand-wound with **42 AWG plain enamel wire**, recognizable by its distinct dark purple or deep maroon hue. Because the winding machines were stopped by “feel” or a timer rather than a digital counter, 1959 PAFs vary in output (usually ranging from **7.5k Ohms** to **8.9k Ohms**), giving each guitar a unique voice.
 -   **The Tone:** The bridge pickup in a ’59 ES-335 is often described as a **“Telecaster on Steroids.”** It possesses the clarity and “snap” of a single-coil but with the thickness and hum-cancellation of a humbucker.
 
@@ -216,7 +216,7 @@ To the uninitiated, the numbers inside a 1959 ES-335 look like random bookkeepin
 Visible through the upper (bass-side) f-hole, the **Orange Oval Label** is the most recognizable internal marking of a Golden Era Gibson.
 
 -   **The Serial Number:** For a 1959 ES-335, the serial number will typically fall within the **A28881 to A32285** range.
--   **The “A” Prefix:** The “A” stands for “Artist,” a prefix Gibson used for its high-end models from 1947 until early 1961.
+-   **The “A” Prefix:** Gibson used the “A” prefix on its label serial numbers from 1947 until early 1961. It is a series prefix and nothing more; the popular claim that it stands for “Artist” has no Gibson documentation behind it.
 -   **The Handwriting:** On an authentic ’59, the serial number and model name (“ES-335TD” or “ES-335TDN” for Natural) were handwritten in black ink. Over time, this ink can fade or “bleed” into the orange paper, a sign of genuine aging that is difficult to replicate with modern printers.
 
 > Note: The serial number and FON can tell you the year, but if you want to know how rare your specific year, model and finish is, check out out [**Gibson Shipping Totals**](/post/gibson-shipping-totals-1948-1979/) guide.

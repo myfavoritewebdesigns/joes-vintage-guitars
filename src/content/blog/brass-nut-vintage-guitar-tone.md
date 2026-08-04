@@ -43,11 +43,11 @@ I’ll be blunt: If you have a 1950s or 60s “Golden Era” guitar, a brass nut
 
 When I’m looking at an instrument to buy, a brass nut is a “red flag” for a few reasons. First, the installation often leaves scars: chips in the headstock finish or an oversized nut slot. Second, it tells me the guitar was owned by a “modder,” which means I have to look twice as hard at the pickups, pots, and wiring to see what else was messed with.
 
-For a collector, originality is everything. While a nut replacement is reversible, the work required to put a period-correct bone nut back in, and potentially fix finish chips, is a cost that comes right off the top of the guitar’s value.
+For a collector, originality is everything. While a nut replacement is reversible, the work required to put a period-correct nut back in, nylon on a 1950s or 60s Gibson, and potentially fix finish chips, is a cost that comes right off the top of the guitar’s value.
 
 ### The Bottom Line
 
-If you’ve got a 70s “player” guitar and you love that bright, metallic snap, keep the brass. It’s part of that guitar’s history. But if you’re holding a pristine vintage piece, think twice before modifying it. In the vintage world, original bone or nylon almost always beats aftermarket brass.
+If you’ve got a 70s “player” guitar and you love that bright, metallic snap, keep the brass. It’s part of that guitar’s history. But if you’re holding a pristine vintage piece, think twice before modifying it. In the vintage world the original material almost always beats aftermarket brass, and on a Golden Era Gibson that original material is nylon, not bone.
 
 ### Why Experience Matters at Joe’s Vintage Guitars
 

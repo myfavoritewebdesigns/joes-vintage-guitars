@@ -48,7 +48,7 @@ A real 1963 Stratocaster wears an L-series serial on a four-bolt chrome neck pla
 
 ### Pot Codes: The One Thing That's Hard to Fake
 
-Pots are the part of the guitar I trust most when I'm dating it. Three of them sit in the control cavity, two volume and one tone, all 250k audio taper. Each has a six- or seven-digit code stamped into the side of the metal can. The first three digits tell you who made the pot. **137 is CTS, 304 is Stackpole, 134 is Centralab**. The next four digits are year and week.
+Pots are the part of the guitar I trust most when I'm dating it. Three of them sit in the control cavity, one master volume and two tones, all 250k audio taper. Each has a six- or seven-digit code stamped into the side of the metal can. The first three digits tell you who made the pot. **137 is CTS, 304 is Stackpole, 134 is Centralab**. The next four digits are year and week.
 
 <figure>
 
@@ -150,7 +150,7 @@ So this one check verifies two things at the same time. The body has its origina
 
 ### The Pickguard and the Shield
 
-1963 pickguards are three-ply nitro, mint green being standard, with tortoise showing up occasionally on custom-color orders. The "mint green" was actually closer to white when it left the factory in '63. Sixty years of UV and the natural yellowing of nitro is what turned them the color collectors love now. Original pickguards age uniformly. A swap stands out either as too white (modern repro) or too uniformly aged in a way that doesn't match the rest of the guitar.
+1963 pickguards are three-ply nitro, mint green being standard. Tortoise was the standard dress for sunburst and blonde offsets and basses, and on the factory line it was never paired with a custom colour with one exception: Olympic White. A tortoise guard on a Fiesta Red or Lake Placid Blue body means swapped parts until proven otherwise. The "mint green" was actually closer to white when it left the factory in '63. Sixty years of UV and the natural yellowing of nitro is what turned them the color collectors love now. Original pickguards age uniformly. A swap stands out either as too white (modern repro) or too uniformly aged in a way that doesn't match the rest of the guitar.
 
 Behind the guard, sandwiched against the body, is a thin **aluminum shielding plate**. Original Fender aluminum, not copper foil. Copper foil shielding was a popular mod in the seventies and eighties, so seeing copper under the pickguard of a claimed '63 means somebody added it later.
 
@@ -182,7 +182,7 @@ Brazilian is the real attraction here. It has a tighter, finer grain than the In
 
 The CITES situation is what it is. Brazilian rosewood has been on CITES Appendix I since 1992, so international shipping requires paperwork, and US-to-US sales are fine but international buyers have hoops to jump through. That scarcity is part of what drives the premium on a pre-CBS Brazilian-board Strat over the Indian-board guitars that came after.
 
-The position markers on the board are **clay dots**. Not pearl, not plastic, not pearloid. The compound is a clay-and-resin mix with a slightly off-white, almost grey tone, and it ages and yellows in a way reproductions don't. Genuine clay dots feel slightly porous when you run your thumb across them. Modern reproductions look too clean and too uniform. Clay dots stayed on Strats until they were replaced by pearloid in mid-1964.
+The position markers on the board are **clay dots**. Not pearl, not plastic, not pearloid. The compound is a clay-and-resin mix with a slightly off-white, almost grey tone, and it ages and yellows in a way reproductions don't. Genuine clay dots feel slightly porous when you run your thumb across them. Modern reproductions look too clean and too uniform. Clay dots stayed on Strats until pearloid replaced them across the changeover from late 1964 into early 1965.
 
 ### Spaghetti Logo and the Old Finish
 

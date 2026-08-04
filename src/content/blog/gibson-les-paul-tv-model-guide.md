@@ -152,7 +152,7 @@ One P-90 sits in the bridge position, in the "dog-ear" cover with two flat mount
 
 ### The Wraparound Bridge
 
-The bridge and tailpiece are a single piece of metal that the strings wrap over and around, anchored to the body by two studs. This direct coupling of string to bridge to body is another major source of the Junior and TV sustain and percussive attack. Early bars are nickel-plated pot metal; aluminum wraparounds show up later in the decade.
+The bridge and tailpiece are a single piece of metal that the strings wrap over and around, anchored to the body by two studs. This direct coupling of string to bridge to body is another major source of the Junior and TV sustain and percussive attack. These bars were lightweight aluminium from the start, nickel plated; the heavier zinc castings are a later part, so a noticeably heavy wraparound on a 1950s guitar is a replacement.
 
 ### Kluson Strip Tuners
 
@@ -200,7 +200,7 @@ The pots inside the control cavity carry their own date stamp. Most are Centrala
 
 ### The Factory Order Number
 
-The Factory Order Number, or FON, is Gibson's internal batch code, usually inked inside the control cavity or under a pickup. In this era the FON often carries a letter prefix that maps to the year: W for 1955, X for 1956, Y for 1957, and U or V for 1958. Cross-referencing the FON against the serial number is the best way to confirm the body and neck came together in the same window.
+The Factory Order Number, or FON, is Gibson's internal batch code, usually inked inside the control cavity or under a pickup. In this era the FON often carries a letter prefix that maps to the year, running backward through the alphabet: W for 1955, V for 1956, U for 1957, T for 1958, then S for 1959, R for 1960 and Q for 1961. Cross-referencing the FON against the serial number is the best way to confirm the body and neck came together in the same window.
 
 For a full walk through all of these systems, with the year charts laid out, our [how to read Gibson serial numbers](/how-to-read-gibson-serial-numbers/) guide is the companion piece to this article.
 

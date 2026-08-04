@@ -180,7 +180,7 @@ If your guitar has the gray-bottom pickups, the cloth pushback wiring, the .1 mf
 
 ### Saddles
 
-The bridge saddles on a 1966 Stratocaster are individual stamped steel saddles, plated in nickel chrome, with **"FENDER PAT. PEND."** stamped on the top of each one. These are the same threaded, formed-steel saddles Fender had been using since the 1950s. The patent pending stamp persisted on Stratocaster saddles well into the late 1960s before being phased out. By the very late 1960s and into the 1970s, Fender saddles became unmarked, then eventually went to the heavier diecast block saddles. So on a 1966 you should see "FENDER PAT. PEND." on every saddle. The stamp is small, but it's clearly visible under good light. Reproduction saddles exist but they're usually distinguishable on close inspection.
+The bridge saddles on a 1966 Stratocaster are individual stamped steel saddles, plated in nickel chrome, with **"FENDER PAT. PEND."** stamped on the top of each one. These are the same bent, formed-steel saddles Fender had been using since the 1950s. Stratocaster saddles are stamped steel, never threaded barrels; threaded saddles are Telecaster hardware. The patent pending stamp persisted on Stratocaster saddles well into the late 1960s before being phased out. By the very late 1960s and into the 1970s, Fender saddles became unmarked, then eventually went to the heavier diecast block saddles. So on a 1966 you should see "FENDER PAT. PEND." on every saddle. The stamp is small, but it's clearly visible under good light. Reproduction saddles exist but they're usually distinguishable on close inspection.
 
 <figure>
 
@@ -294,9 +294,9 @@ Tweed cases (Strat-style, with red lining) were a 1950s and very early 1960s thi
 
 1966 is one of the great custom color years for Stratocasters. CBS continued the custom color program Leo had been running, and while the color chart shifted slightly each year, the menu in 1966 was wide. Sunburst was the standard finish. Any non-sunburst color was a paid option, typically a five percent upcharge over the standard list price.
 
-A few notes on individual colors. Lake Placid Blue is the rich, slightly purple-tinted dark blue metallic. It fades to a lighter, greenish blue over decades. Candy Apple Red has a gold or silver undercoat depending on the year, with red translucent lacquer over the top. The 1966 Candy Apples were over silver more often than gold, but variation exists. Fiesta Red is the famous bright orange-red that fades to a salmon or coral over time. Olympic White yellows to a cream or even a buttery ivory. Surf Green is a mint-tinged sea-foam green, lighter and cooler than Foam Green, which leans more yellow and opaque. The two get confused sometimes, but they're distinct entries on the chart.
+A few notes on individual colors. Lake Placid Blue is the rich, slightly purple-tinted dark blue metallic. It fades to a lighter, greenish blue over decades. Candy Apple Red has a gold or silver undercoat depending on the year, with red translucent lacquer over the top. Fender used a silver base from 1963 until mid-1965 and switched to gold after that, so a 1966 should chip to gold and read slightly warmer and browner than an early silver-base example. Fiesta Red is the famous bright orange-red that fades to a salmon or coral over time. Olympic White yellows to a cream or even a buttery ivory. Foam Green leans yellow and opaque, and gets confused constantly with Surf Green, but Surf Green left the chart in the 1965 revision, so on a 1966 the green you are looking at should be Foam.
 
-The metallic colors (Lake Placid Blue, Candy Apple Red, Burgundy Mist, Inca Silver, Shoreline Gold, the Firemists, Blue Ice, Charcoal Frost) were applied with a metallic basecoat, color coat, and clear lacquer top coat. They're typically more fragile and more prone to flaking and clearcoat issues than the solid colors. The solid colors (Dakota Red, Fiesta Red, Olympic White, Daphne Blue, Sonic Blue, Black, Foam Green, Surf Green) were sprayed directly over a yellow or white primer.
+The metallic colors on the 1966 chart (Lake Placid Blue, Candy Apple Red, the Firemists, Blue Ice, Charcoal Frost, Ocean Turquoise, Teal Green) were applied with a metallic basecoat, color coat, and clear lacquer top coat. They're typically more fragile and more prone to flaking and clearcoat issues than the solid colors. The solid colors (Dakota Red, Fiesta Red, Olympic White, Sonic Blue, Black, Foam Green) were sprayed directly over a yellow or white primer. Burgundy Mist, Inca Silver, Shoreline Gold, Daphne Blue, Surf Green and Sherwood Green had all come off the chart in the 1965 revision.
 
 #### Refins, overspray, and color fraud
 
@@ -314,7 +314,7 @@ The reason the 1966 has stayed relevant for so long is that the guitar is a well
 
 Three things drive the offer on any 1966 Stratocaster: factory finish, condition, and originality of components. Here's how the market generally sorts them.
 
-Documented factory custom colors (Lake Placid Blue, Candy Apple Red, Fiesta Red, Olympic White, Sonic Blue, Daphne Blue, Burgundy Mist, the Firemists) with 100% original finish, untouched solder joints, original pickups, original frets, original pickguard, and original case. These are the guitars that bring the strongest offers, and they're the ones we're most actively looking for.
+Documented factory custom colors (Lake Placid Blue, Candy Apple Red, Fiesta Red, Olympic White, Sonic Blue, Foam Green, the Firemists) with 100% original finish, untouched solder joints, original pickups, original frets, original pickguard, and original case. These are the guitars that bring the strongest offers, and they're the ones we're most actively looking for.
 
 Original Sunburst finishes with honest player wear, original hardware, original electronics, original neck and body, and a matching case. The bread and butter of the vintage Fender market. Strong demand, strong offers, easy transactions.
 
@@ -342,7 +342,7 @@ No. The case is a meaningful detail and adds value, but cases get separated from
 
 ### What is the difference between the 1966 transition logo and the later CBS logo?
 
-The transition logo is gold with black trim and includes patent numbers and the "WITH SYNCHRONIZED TREMOLO" line. The CBS "bold" logo that replaced it around late 1967 is solid black with a thicker outline and no gold. The 1966 will always wear the gold transition logo unless it's been replaced.
+The transition logo is gold with black trim and includes patent numbers and the "WITH SYNCHRONIZED TREMOLO" line. The CBS "bold" logo that replaced it around late 1967 is bold black with a thin gold outline and none of the transition logo's gold fill. The 1966 will always wear the gold transition logo unless it's been replaced.
 
 ### Why does my 1966 Strat weigh less than a modern Strat?
 

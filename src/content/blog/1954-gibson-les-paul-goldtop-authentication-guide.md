@@ -51,7 +51,7 @@ All specifications listed here are correct for **1954 production only**. Items n
 
 Gibson used an ink-stamped serial number on the back of the headstock for all solid-body guitars from 1953 onward. The system is straightforward for the 1950s: the **first digit indicates the last digit of the production year**, followed by a space and then a 4- or 5-digit consecutive number.
 
-A genuine 1954 Les Paul Goldtop serial number starts with **"4"**, followed by a space, followed by 4 or 5 digits. Example: **4 2891** or **4 31472**. The ink is black, the typeface is distinctly blocky and mid-century in character, and it is stamped, not impressed into the wood. Impressed numbers indicate post-1961 production.
+A genuine 1954 Les Paul Goldtop serial number starts with **"4"**, followed by a space, followed by 4 or 5 digits. Example: **4 2891** or **4 31472**. The ink can be black or yellow, both factory-correct, the typeface is distinctly blocky and mid-century in character, and it is stamped, not impressed into the wood. Impressed numbers indicate post-1961 production.
 
 ### Reading the Serial, What to Look For
 
@@ -110,7 +110,7 @@ The neck is bound with single-ply cream binding on both the top edge of the neck
 
 ### Fingerboard
 
-The fingerboard is **Brazilian rosewood**, a dense, dark, tight-grained wood with a characteristic rich chocolate-to-black color and occasional black streaking. Brazilian rosewood was replaced by Indian rosewood on Gibson guitars in the mid-1960s when export restrictions made Brazilian increasingly scarce. An original 1954 fingerboard should have the visual character of Brazilian: very dark, very tight grain, almost glassy surface.
+The fingerboard is **Brazilian rosewood**, a dense, dark, tight-grained wood with a characteristic rich chocolate-to-black color and occasional black streaking. Gibson transitioned from Brazilian rosewood to Indian rosewood during 1966, with the change fully complete by 1967, as export restrictions made Brazilian increasingly scarce. An original 1954 fingerboard should have the visual character of Brazilian: very dark, very tight grain, almost glassy surface.
 
 The inlays are **Cellulose Nitrate trapezoids** with sharp corners and a distinctive swirling, marbled internal texture. Over 70 years, Cellulose Nitrate off-gasses and shrinks slightly, creating hairline gaps or subtle separation between the inlay edge and the rosewood. This is authentic evidence of age, not damage. Modern reissue inlays are typically acrylic or plastic and will not show this characteristic shrinkage.
 
@@ -148,7 +148,7 @@ If a 1954 shows no greening whatsoever in any player-contact area after 70 years
 
 ### Binding & Cutaway
 
-The body is bound with a single ply of cream plastic binding on the top edge only. The back is unbound. The binding on the Florentine (single, pointed) cutaway of the 1954 is relatively thin. If the binding is thick enough to completely hide the maple cap edge at the cutaway, that is worth noting. Authentic 1950s binding allows a sliver of the maple to be visible where the carve meets the binding.
+The body is bound with a single ply of cream plastic binding on the top edge only. The back is unbound. The binding on the Venetian (single, rounded) cutaway of the 1954 is relatively thin. If the binding is thick enough to completely hide the maple cap edge at the cutaway, that is worth noting. Authentic 1950s binding allows a sliver of the maple to be visible where the carve meets the binding.
 
 <figure>
 
@@ -170,7 +170,7 @@ The wrap tail bridge, also called the stud bridge, stopbar bridge, or wrap-aroun
 
 ### Why the Bridge Looks the Way It Does
 
-The wrap tail design came from Les Paul himself. It was his solution to the chronically unstable trapeze tailpiece of the 1952 models, which had strings wrapping *under* a bar that was pressure-mounted to the top (no studs, just friction). The new design anchored the bridge solidly to the top via threaded bushings, dramatically improving tuning stability and string-to-body contact.
+The wrap tail design came from Les Paul himself. It was his solution to the chronically unstable trapeze tailpiece of the 1952 models, a hinged bracket anchored at the tail end of the body and running forward under the bridge, with the strings wrapping *under* the bar. The new design anchored the bridge solidly to the top via threaded bushings, dramatically improving tuning stability and string-to-body contact.
 
 On a 1954, the bridge should sit at a **proper height off the top**, typically with visible clearance between the bridge bar and the maple. If the bridge is completely flat against the top with the posts screwed all the way down, that indicates a neck pitch problem (often associated with 1953 instruments). The increased 4° pitch of the 1954 neck allows the bridge to sit at an appropriate height with adjustment to spare.
 
@@ -213,7 +213,7 @@ The internal electronics of the 1954 give you a lot of authentication evidence, 
 
 ### Potentiometers
 
-The 1954 uses four potentiometers, two volume, two tone, wired in the standard Gibson 50s configuration. Correct manufacturers for 1954 are **Stackpole (code 304)** and **Centralab (code 134)**. The date code format is XXYYWW (manufacturer, year, week).
+The 1954 uses four potentiometers, two volume, two tone, wired in the standard Gibson 50s configuration. Correct manufacturers for 1954 are **Stackpole (code 304)** and **Centralab (code 134)**. The maker code is three digits, followed by the year and the week. On a 1950s pot that reads as six digits in total, for example 304 4 32 for Stackpole, 1954, week 32.
 
 An important detail specific to 1954: **the date codes on these pots are frequently stamped on the side rim of the pot body**, not on the back face as on most later Gibson pots. This means you may need to remove the back plate and angle the pots slightly to read the codes. They will not be visible with the plate simply removed and the cavity viewed straight-on. A guitar presented as a 1954 where the seller "couldn't find the pot codes" may simply need a closer inspection of the side rims.
 

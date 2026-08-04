@@ -59,7 +59,7 @@ While the “Dark Back” became a signature look in 1957, this particular examp
 
 A detailed view of the bullion gold finish on a 1957 Standard. The network of weather checking, the fine lines in the nitrocellulose, occurs naturally as the wood expands and contracts over decades. Looking closely at the top of the frame, you can see the distinctive “greening” effect. This is caused by the real bronze powder in the original lacquer formula reacting to moisture and skin contact, oxidizing into a dark copper or green hue. It’s a chemical signature of a true mid-50s Gibson that modern metallic paints simply cannot replicate.
 
--   **Thin Cutaway Binding:** Look into the Florentine cutaway. You should clearly see the maple cap “peek” through the thin binding, a hallmark of mid-50s Kalamazoo construction.
+-   **Thin Cutaway Binding:** Look into the Venetian cutaway. You should clearly see the maple cap “peek” through the thin binding, a hallmark of mid-50s Kalamazoo construction.
     
 -   **Cellulose Nitrate Inlays:** These trapezoid markers often show **noticeable shrinkage**. If you see a slight gap or “dirt line” around the sharp corners of the inlay, that’s actually a great sign of an original, gassing-off 1950s part.
     
@@ -121,7 +121,7 @@ To truly verify a ’57, you have to look “under the hood” at the electronic
 
 <h2 id="serial-numbers">Serial Numbers & The “California Girl” Case</h2>
 
-The serial number should be a **yellow or black ink stamp** starting with a “**7**” (e.g., 7 1234). The font is a specific, blocky mid-50s typeface. This guitar typically paired with the **“California Girl” case**, so named for its curvy, hourglass silhouette.
+The serial number should be a **yellow or black ink stamp** starting with a “**7**” (e.g., 7 1234). The font is a specific, blocky mid-50s typeface. This guitar typically paired with the **“California Girl” case**, so named for its color scheme: a tanned brown exterior over a bright pink interior.
 
 <h2 id="technical-differences">1956 vs. 1957: Key Technical Differences</h2>
 

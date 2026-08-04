@@ -194,7 +194,7 @@ The specific electronics used in 1962 are fundamental to the guitar’s “vocal
 
 -   **PAF and Early Patent Number Humbuckers:** Whether sporting the “Patent Applied For” or early “Patent Number” decal, these pickups utilized the same 42-gauge purple enamel wire and winding patterns. This results in a clear, uncompressed tone with a “chimey” top end and a woody, articulate low end that never becomes muddy.
     
--   **Alnico Magnets:** The transition to Alnico V short magnets during this era provided a slightly punchier, more focused magnetic field compared to the softer Alnico II magnets of the late 50s, giving the ’62 a bit more “cut” in a mix.
+-   **Alnico Magnets:** Gibson moved to the shorter magnet in July 1961, so a 1962 carries a short Alnico V bar rather than the 2.5 inch long magnet of the late 1950s. That gives a slightly punchier, more focused magnetic field than the mixed Alnico grades of the PAF years and a bit more “cut” in a mix.
     
 -   **“Black Beauty” Capacitors:** These .022mfd capacitors are famous for their smooth treble roll-off. When you back down the tone knob, the guitar retains its clarity rather than becoming muffled, allowing for “woman tone” or dark jazz textures.
     
@@ -242,7 +242,7 @@ Beyond the electronics and hardware, the physical aging process of a 1962 ES-335
 
 ### The Modern Masters
 
--   **Keith Urban:** One of the most prominent current users, Urban plays his original **1962 Cherry ES-335** (fitted with a Bigsby) almost every night, specifically on the song “Sweet Thing”.
+-   **Keith Urban:** A prominent current user of a vintage cherry ES-335 fitted with a Bigsby, which he brings out most nights. Reports of the exact year vary, with 1964 cited as often as 1962, so treat the specific year as unconfirmed.
     
 -   **Chris Buck:** The Cardinal Black guitarist is frequently seen with a beautiful **1962 Sunburst ES-335** that he describes as one of the best-sounding guitars he has ever played.
     

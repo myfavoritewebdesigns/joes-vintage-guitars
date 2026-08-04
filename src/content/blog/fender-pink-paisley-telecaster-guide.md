@@ -150,11 +150,11 @@ By late 1968, **PVC plastic-coated wire** had become the factory standard, repla
 
 ### Tuners
 
-Both years use **chrome "F"-stamped tuning machines**. These are Kluson-style single-line tuners with the Fender "F" logo stamped into the metal button. They're specific to the CBS era and were used across many Fender models in this period.
+Both years use **chrome "F"-stamped tuning machines**. These are Fender's own units, with the big "F" stamped into the back of each chrome housing, not into the button. They're specific to the CBS era and were used across many Fender models in this period.
 
 ![Chrome F-stamped Kluson-style tuning machines on 1969 Fender Paisley Telecaster headstock](../../assets/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-tuners-scaled.jpg)
 
-Chrome "F"-stamped tuning machines on the 1969. The "F" stamp on the button is the CBS-era identifier, correct on both 1968 and 1969 examples.
+Chrome "F"-stamped tuning machines on the 1969. The "F" stamp on the back of the housing is the CBS-era identifier, correct on both 1968 and 1969 examples.
 
 ## 5\. The "Puzzle Piece": The Single Most Important Authentication Test
 
@@ -236,7 +236,7 @@ The "puzzle piece" shadow on the 1969 with the neck plate removed. The protected
 
 ## 9\. Rarity, Survival Rate, and Market Context
 
-Production numbers were extremely limited. Conservative estimates put the **1968 run at roughly 75 to 100 units**. By the mid-1970s the psychedelic aesthetic had fallen completely out of fashion, and **a significant percentage of original Paisleys were stripped or refinished** into plain sunburst or solid-color guitars during that period. Truly original, unmodified examples are now scarce, and the market price reflects that.
+Production numbers were extremely limited. Fender never officially documented them, but vintage specialists generally place total production at somewhere **between 300 and 400 units**. By the mid-1970s the psychedelic aesthetic had fallen completely out of fashion, and **a significant percentage of original Paisleys were stripped or refinished** into plain sunburst or solid-color guitars during that period. Truly original, unmodified examples are now scarce, and the market price reflects that.
 
 **Market Note:** Fender has produced reissues over the decades, most notably through the Japanese Fender catalog since the 1980s. The reissues are excellent guitars in their own right, but they're not the same collector proposition as an original CBS-era example. Verify production era before any significant purchase.
 

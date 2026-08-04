@@ -66,7 +66,7 @@ While the three years of early slab-body production share the same fundamental d
 
 **1952:** The most commonly discussed year in the slab-body era, 1952 production saw a transition mid-year from slotted to Phillips-head screws in some hardware positions. The serial number range expands considerably. Construction details remain consistent with late 1951 production in most respects, though very minor variations in body contouring and hardware sourcing appear across the year.
 
-**1953:** By 1953 the instrument was well established and production was more consistent. Phillips-head screws are more uniformly present by this point in production. The finish, hardware, and electronics remain largely the same as 1952. Some 1953 instruments show a slightly more contoured body than the earliest examples; Fender was beginning to experiment with ergonomic refinements that would culminate in the fully contoured Stratocaster body of 1954. The "Patent Pending" language begins transitioning to an actual patent number on some late 1953 examples.
+**1953:** By 1953 the instrument was well established and production was more consistent. Phillips-head screws are more uniformly present by this point in production. The finish, hardware, and electronics remain largely the same as 1952. Some 1953 instruments show noticeably softer, more rounded perimeter edges than the sharp-edged 1951 and 1952 slabs, the result of more generous hand sanding on the line as Fender began experimenting with ergonomics ahead of the Stratocaster. Be precise about what that means: this is edge softening, not contouring. The deep forearm bevel and rear belly cut borrowed from the Stratocaster did not reach the Precision Bass until mid-1954. A 1953 bass with true Stratocaster-style contours is not a 1953. The "Patent Pending" language begins transitioning to an actual patent number on some late 1953 examples.
 
 <h2 id="mismatched-dates">Mismatched Neck & Body Dates: What It Means</h2>
 
@@ -122,7 +122,7 @@ The neck on an early Fender Precision Bass is a **one-piece maple neck**, the fr
 
 <h3 id="truss-rod">The Truss Rod: Flat-Head Access Only</h3>
 
-The truss rod on an early Precision Bass is adjusted via a slot in the headstock that accepts a **flat-head screwdriver, not Phillips, not hex/Allen key**. This is a critical authentication point. If you encounter a bass represented as early 1950s production with a Phillips-head or hex-key truss rod adjustment, that neck is not correct for the instrument.
+The truss rod on an early Precision Bass is adjusted at the **butt end of the neck heel**, at the body end of the neck, not at the headstock. The neck has to come off to reach it. The adjustment accepts a **flat-head screwdriver, not Phillips, not hex/Allen key**. This is a critical authentication point. If you encounter a bass represented as early 1950s production with a Phillips-head or hex-key truss rod adjustment, or with an adjustment at the headstock, that neck is not correct for the instrument. Headstock truss rod access is a 1970s Fender feature.
 
 <h3 id="walnut-plug">The Walnut Plug on the Headstock</h3>
 
@@ -158,19 +158,21 @@ The **tuning machines** are individual open-gear units, one per string, each sec
 
 <h2 id="pickup">The Pickup: Construction, Details & Specs</h2>
 
-The pickup on an early Fender Precision Bass is the **earlier single-coil style**, predating the larger rectangular pickup that came later in the production run. This is not the familiar split-coil humbucking pickup Fender introduced in 1957, and it is not the later rectangular single-coil either. The pickup housing and pole piece arrangement are distinctive to this early period and are one of the clearest visual dating markers on the instrument.
+The pickup on an early Fender Precision Bass is a **single-coil unit**, the design Fender used from the model's launch until the split-coil humbucking pickup replaced it in 1957. The pickup housing and pole piece arrangement are distinctive to this early period and are one of the clearest visual dating markers on the instrument.
 
 ![Original early-style single-coil pickup on a 1952 Fender Precision Bass showing white string wrapping over the coil windings](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-pickup-scaled.jpg)
 
 The coil wire is wrapped in **white string or thread**, a cotton or fiber wrapping applied over the coil windings for protection. This white string wrapping is one of the most immediately distinguishing visual characteristics of the original pickup. The leads exiting the pickup are insulated in **yellow and black cloth braid**. If the leads are modern plastic-insulated wire, the pickup has been rewound or replaced.
 
-There is **no pickup cover** on these early instruments; the pickup sits exposed in its mounting position, visible in the body. This is unlike some later production where a chrome cover was fitted. The pickup is secured by **two long slotted screws with springs**; the springs sit between the pickup housing and the body, allowing height adjustment by tightening or loosening the mounting screws.
+The word "cover" causes real confusion on these basses, so it is worth separating the two things it can mean. The pickup itself is a **bare bobbin**: there is no cover built into the pickup's own construction the way there is on a Telecaster neck pickup or a later split-coil. Sitting above it, though, is a large chrome **pickup cover** that bridges over the pickup and mounts to the body, the same way the bridge cover does. That large cover is factory equipment and belongs on the instrument. Later Precision Basses have both: a cover as part of the pickup's construction *and* the large chrome cover over the top. On these early basses, only the large chrome cover is present.
+
+The pickup is secured by **two long slotted screws with springs**; the springs sit between the pickup housing and the body, allowing height adjustment by tightening or loosening the mounting screws.
 
 ![Pickup mounting screws and springs on a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-pickup-screws-and-springs-scaled.jpg)
 
-These early instruments do **not** have a pickup cover. The pickup sits fully exposed in its routed cavity. A chrome cover fitted over the pickup on one of these basses has been added after the fact and is not original to the instrument.
+With the large chrome cover lifted off, the pickup underneath is a bare bobbin sitting in its routed cavity. That is correct and expected; it is not a sign that a cover has gone missing from the pickup itself.
 
-The pickup typically measures in the range of **10,000 to 13,000 ohms (10k to 13k Ω) DC resistance**. A reading of infinite resistance indicates a broken coil. Significantly out-of-range readings suggest the coil has been rewound.
+The pickup typically measures in the range of **6,000 to 7,500 ohms (6k to 7.5k Ω) DC resistance**, with original vintage units ranging more broadly from roughly 5.7k to 8k. A reading of infinite resistance indicates a broken coil. Readings well outside that spread suggest the coil has been rewound.
 
 <h2 id="finger-rest">The Finger Rest (Tug Bar)</h2>
 
@@ -190,11 +192,11 @@ The **bridge cover** is a large elongated chrome-plated metal cover that snaps o
 
 ![Bridge and saddles on a 1953 Fender Precision Bass showing the pressed fiber barrel saddles, serial number stamp, and Patent Pending marking](../../assets/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-bridge-and-saddles-scaled.jpg)
 
-The bridge on an early Fender Precision Bass is a pressed steel plate, chrome plated, with individual saddles for each string. The bridge plate carries the instrument's **serial number stamped directly into the chrome plate**, a critical authentication detail. On early Fender instruments, the serial number is found on the bridge plate, not the neck plate. In addition, the bridge plate carries the marking **"PATENT PENDING"**, stamped into the plate and consistent with the headstock decal language.
+The bridge on an early Fender Precision Bass is a pressed steel plate, chrome plated, carrying **two saddles**, each one supporting a pair of strings. Four individual saddles, one per string, did not arrive until the 1957 redesign, so a four-saddle bridge on a slab-body bass is not original. The bridge plate carries the instrument's **serial number stamped directly into the chrome plate**, a critical authentication detail. On early Fender instruments, the serial number is found on the bridge plate, not the neck plate. In addition, the bridge plate carries the marking **"PATENT PENDING"**, stamped into the plate and consistent with the headstock decal language.
 
 For more detail on reading and interpreting Fender serial numbers, see our [complete Fender serial number guide](/fender-guitars-serial-number-guide/).
 
-The saddles on these early Precision Basses are individual **barrel-shaped pieces of pressed fiber**, not steel, not brass. The pressed fiber material has a distinctive matte, slightly grainy appearance and typically a tan to dark tan color after decades. Original fiber saddles should show **consistent, uniform aging** across all four. Replacement saddles of a different material, steel, brass, or synthetic, are immediately identifiable and indicate the bridge has been modified.
+The saddles on these early Precision Basses are **barrel-shaped pieces of pressed fiber**, not steel, not brass. The pressed fiber material has a distinctive matte, slightly grainy appearance and typically a tan to dark tan color after decades. Both saddles should show **consistent, uniform aging**. Replacement saddles of a different material, steel, brass, or synthetic, are immediately identifiable and indicate the bridge has been modified.
 
 <h3 id="screws">Slotted vs. Phillips Screws: Dating Within the Production Run</h3>
 
@@ -248,9 +250,9 @@ The early Precision Bass found its way into recording studios almost immediately
 
 **Monk Montgomery**, the bassist for Lionel Hampton's orchestra, is widely credited as the first professional musician to play the Fender Precision Bass in a touring and recording context, adopting one in 1953. His endorsement was enormously influential.
 
-**Bill Black**, Elvis Presley's original bassist, played a Fender Precision Bass on the foundational Sun Records recordings that defined early rock and roll. The sound of Black's P-Bass on tracks like "Heartbreak Hotel" is embedded in the sonic DNA of popular music.
+**Bill Black**, Elvis Presley's original bassist, played an upright on the Sun Records sides and on "Heartbreak Hotel." He picked up a Fender Precision Bass around 1957, and the switch is audible across the later RCA sessions. He is worth knowing about here precisely because he marks the moment a working rhythm section traded the doghouse for a Fender.
 
-**Roy Johnson** and **Lloyd Trotman** were among the early New York session bassists who adopted the instrument, helping to establish the electric bass as a studio staple. **James Jamerson**, though more closely associated with the later split-coil P-Bass, developed his foundational technique on early Fender instruments, and his Motown recordings demonstrated what the instrument was capable of in virtuoso hands.
+**Roy Johnson** played bass in Lionel Hampton's band before Monk Montgomery and is generally credited as the first of Hampton's players handed a Fender bass. **James Jamerson** came up on upright and is most associated with his 1962 split-coil P-Bass, the "Funk Machine," but his Motown recordings are the clearest demonstration of what the instrument could do in virtuoso hands.
 
 #### Own a Vintage Fender Bass?
 
@@ -271,7 +273,7 @@ Joe buys vintage Fender instruments **nationwide**, free same-day appraisal, fai
 | Fret Markers | Black dot inlays (not white, not pearl) |
 | Number of Frets | 20 |
 | Fret Size | Small/vintage, narrow and low |
-| Truss Rod Adjustment | Flat-head screwdriver slot at headstock face |
+| Truss Rod Adjustment | Flat-head screwdriver slot at the butt end of the neck heel (neck must be removed) |
 | Truss Rod Cover | Walnut plug, headstock face behind nut |
 | Headstock Logo | Silver foil decal, Fender script, "Patent Pending" (early) / patent number (late 1953) |
 | String Tree | Circular (round disc) style |
@@ -279,11 +281,11 @@ Joe buys vintage Fender instruments **nationwide**, free same-day appraisal, fai
 | Tuner Underside | Individual housing plates, patinated chrome, visible string post and thread hole |
 | Finger Rest | Small piece of wood painted black, mounted on pickguard below strings |
 | Pickup Type | Early single-coil style, earlier and smaller than the later rectangular pickup |
-| Pickup Cover | None, pickup is exposed; no cover on these early instruments |
+| Pickup Cover | Pickup itself is a bare bobbin with no integral cover; a large chrome cover bridges over it and mounts to the body |
 | Pickup Wrapping | White string/cotton thread over coil windings |
 | Pickup Leads | Yellow and black cloth braid |
 | Pickup Mounting | 2 long slotted screws with springs (height-adjustable) |
-| Pickup DC Resistance | Approx. 10,000 to 13,000 ohms (10k to 13k Ω) |
+| Pickup DC Resistance | Approx. 6,000 to 7,500 ohms (6k to 7.5k Ω); vintage units range roughly 5.7k to 8k |
 | Bridge Cover | Chrome-plated metal, snaps/screws over bridge |
 | Controls | 1 Volume, 1 Tone |
 | Control Knobs | Domed knurled chrome ("dome" / "bonnet" knobs) |
@@ -291,7 +293,7 @@ Joe buys vintage Fender instruments **nationwide**, free same-day appraisal, fai
 | Capacitor | Paper-in-oil capacitor (cylindrical/tubular form factor) |
 | Pickguard | Single-ply black plastic |
 | Bridge Plate | Pressed steel, chrome plated |
-| Bridge Saddles | Individual barrel-shaped pressed fiber, tan to dark tan, not metal |
+| Bridge Saddles | Two barrel-shaped pressed fiber saddles, each carrying two strings, tan to dark tan, not metal |
 | Serial Number Location | Stamped on bridge plate (not neck plate) |
 | Bridge Plate Stamp | "Patent Pending" in addition to serial number |
 | String Anchoring | String-through-body |
@@ -323,7 +325,7 @@ Authentication is the sum of all details being consistent with each other and wi
 -   **Black dot position markers**, not white, not pearl
 -   **Small, low vintage frets**
 -   **Walnut plug clearly visible** on headstock face behind nut
--   Truss rod is **flat-head slot**, not Phillips, not hex/Allen
+-   Truss rod adjusts at the **butt end of the neck heel**, not the headstock, and is a **flat-head slot**, not Phillips, not hex/Allen
 -   Silver foil logo with **"Patent Pending"** (or patent number on late 1953)
 -   **Circular (round disc) string tree**
 -   Original open-gear tuners with **large flat metal buttons** (not plastic) secured with **4 slotted screws** each
@@ -334,19 +336,19 @@ Authentication is the sum of all details being consistent with each other and wi
 
 -   **Serial number on bridge plate**, not on neck plate
 -   **"Patent Pending" stamp on bridge plate**
--   Saddles are **individual barrel-shaped pressed fiber**, tan/dark tan color, not metal
+-   **Two** barrel-shaped pressed fiber saddles, each carrying two strings, tan/dark tan color, not metal
 -   Screws: **slotted (early)** or **Phillips (later)**, consistent across instrument
 -   Four original chrome **ferrules on back of body**, firmly seated
 -   Plain chrome **neck plate with no model name or serial number**
 
 ### Pickup & Electronics
 
--   **No pickup cover**, pickup is exposed; a chrome cover is a post-factory addition
+-   Pickup is a **bare bobbin** with no integral cover; the large chrome cover that bridges over it is factory equipment
 -   Pickup is the **early single-coil style**, earlier and smaller than the later rectangular version
 -   Pickup coil wrapped in **white string/thread**
 -   Pickup leads are **yellow and black cloth braid**
 -   Pickup mounting uses **two long slotted screws with springs**
--   DC resistance in range of **10k to 13k Ω**
+-   DC resistance in range of **6k to 7.5k Ω** (roughly 5.7k to 8k across surviving examples)
 -   **Pot date codes ink-stamped on back** of pot bodies; manufacturer should be **Clarostat** for this era, consistent with production year
 -   **Paper-in-oil capacitor** in tone circuit, not ceramic disc, not orange flat "chicklet"
 -   **Domed knurled chrome knobs**, correct dome profile, fine knurling

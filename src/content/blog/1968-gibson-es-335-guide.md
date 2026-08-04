@@ -44,7 +44,7 @@ Authentication on a 1968 ES-335 means looking well past the finish. The componen
 
 ### The "No-i-Dot" Logo
 
-1968 is when Gibson started dropping the dot over the *i* in the headstock script inlay. The change wasn't immediate or universal. Early 1968 guitars still carry the dot. Later ones don't. So you can't use a dot-less logo as definitive proof of a 1968 on its own. Pair it with a 1⅝″ nut, one-piece neck, and correct pot codes, though, and the picture comes together fast. Treat the no-dot logo as a supporting detail, not a smoking gun.
+1968 is when Gibson started dropping the dot over the *i* in the headstock script inlay. The change wasn't immediate or universal. Early 1968 guitars still carry the dot. Later ones don't. So you can't use a dot-less logo as definitive proof of a 1968 on its own. Pair it with a 1 9/16″ nut, one-piece neck, and correct pot codes, though, and the picture comes together fast. Treat the no-dot logo as a supporting detail, not a smoking gun.
 
 ### Chrome Hardware Throughout
 
@@ -70,7 +70,7 @@ Four pots with matching codes pointing to the same week of 1968 is about as clea
 
 ### T-Top Pickups and Capacitors
 
-By 1968 Gibson had moved past the hand-wound PAFs and early Patent Number pickups of the late 1950s and early '60s. What you'll find in a 1968 ES-335 are **Patent Number T-tops**, named for the T-shaped bobbin visible on the underside of the pickup. They carry a "Patent No" sticker on the back cover instead of the hand-stamped "PAF" label of the earlier units.
+By 1968 Gibson had moved past the hand-wound PAFs and early Patent Number pickups of the late 1950s and early '60s. What you'll find in a 1968 ES-335 are **Patent Number T-tops**, named for the raised T moulded into the **top** of each bobbin, visible from the adjustable-pole side with the cover off. They carry a "Patent No" sticker on the baseplate instead of the "Patent Applied For" decal of the earlier units.
 
 T-tops don't have the mystique of PAFs. They've got their own following anyway. The output is consistent and articulate, which is exactly what a lot of jazz and blues players want, since the warmer bloom of a PAF can blur certain voicings.
 
@@ -86,13 +86,13 @@ On the cap side, you'll typically see either **Black Beauty Spragues** or the ro
 
 ### Controls and Knobs
 
-Two small details separate a correct 1968 from a later example: the **witch hat knobs** and the **white switch tip**. The witch hat knob (also called "top hat" or "reflector") was Gibson's standard for the era. Conical plastic with a reflective silver inset ring. The toggle switch tip on an original 1968 will be **white plastic**. Not amber, not black. Replacement tips in amber or later-style materials are a cheap swap and still get missed by buyers who aren't paying close attention.
+Two small details separate a correct 1968 from a later example: the **witch hat knobs** and the **white switch tip**. The witch hat, sometimes called a bell knob, was Gibson's standard from around 1967: a taller, tapered cone with a metal top. It is a different part from the top hat / reflector knob that ran from 1960 to 1967, and the two get conflated constantly. The toggle switch tip on an original 1968 will be **white plastic**. Not amber, not black. Replacement tips in amber or later-style materials are a cheap swap and still get missed by buyers who aren't paying close attention.
 
 <figure>
 
 ![Gibson witch hat knobs on a 1968 ES-335](../../assets/blog/1968-gibson-es-335-guide/gibson-witch-hat-knobs-scaled.jpg)
 
-<figcaption>Original witch hat (top hat) knobs, the correct style for a 1968 ES-335.</figcaption>
+<figcaption>Original witch hat knobs, the correct style for a 1968 ES-335. Not to be confused with the earlier top hat / reflector knob.</figcaption>
 
 </figure>
 
@@ -106,7 +106,7 @@ Two small details separate a correct 1968 from a later example: the **witch hat 
 
 ### Tuners
 
-Factory tuners were **Kluson Deluxe** units with double-ring plastic buttons and double-line text. The words *Kluson* and *Deluxe* appear in two vertical lines on the back of the tuner. Single-line Klusons or later-style replacements are a flag that the originals are gone.
+Factory tuners were **Kluson Deluxe** units with double-ring plastic buttons and double-line text. "KLUSON DELUXE" appears **twice**, in two parallel vertical columns down the back of the housing; Gibson made that change around 1964. Single-line Klusons, where the words appear once, or later-style replacements are a flag that the originals are gone.
 
 <figure>
 
@@ -138,7 +138,7 @@ Start with the full lineage. The earliest examples, covered in our [1959 ES-335 
 
 ### The "Narrow Neck" Factor
 
-The 1968 nut width of 1⅝″ is narrower than the 1 11/16″ on 1958 to 1964 examples. That does suppress value relative to the earlier instruments. The 1968 neck profile is often **round and deep**, though, which a lot of modern players prefer over the flatter "blade" necks Gibson started shipping in 1966. The narrower width matters less than the depth once you're actually playing the thing.
+The 1968 nut width of 1 9/16″ is narrower than the 1 11/16″ on 1958 to 1964 examples. That does suppress value relative to the earlier instruments. The 1968 neck profile is often **round and deep**, though, which a lot of modern players prefer over the flatter "blade" necks Gibson started shipping in 1966. The narrower width matters less than the depth once you're actually playing the thing.
 
 ### The Last-of-Its-Kind Premium
 
@@ -178,6 +178,6 @@ Start with an accurate appraisal from someone who actively buys and sells vintag
 
 How does the 1968 ES-335 compare to the 1959 or 1962 models?
 
-The 1958 to 1964 ES-335s, covered in detail in our [1959 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and our [1962 guide](/post/1962-gibson-es-335-guide/), have the wider 1 11/16″ nut, PAF or early Patent Number pickups, and the long tenon. The 1968 keeps the long tenon and one-piece neck but has a narrower 1⅝″ nut and T-top pickups instead of PAFs. On playability, the 1968 neck is often rounder and deeper than the flatter mid-60s profiles, which is part of why players gravitate to it. On price, a 1968 typically sells for a fraction of a comparable 1959 or 1962.
+The 1958 to 1964 ES-335s, covered in detail in our [1959 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and our [1962 guide](/post/1962-gibson-es-335-guide/), have the wider 1 11/16″ nut, PAF or early Patent Number pickups, and the long tenon. The 1968 keeps the long tenon and one-piece neck but has a narrower 1 9/16″ nut and T-top pickups instead of PAFs. On playability, the 1968 neck is often rounder and deeper than the flatter mid-60s profiles, which is part of why players gravitate to it. On price, a 1968 typically sells for a fraction of a comparable 1959 or 1962.
 
 We deal in authenticated, properly documented vintage Gibsons. If you're looking to add to a collection or want a fair appraisal on something you already own, give us a call.

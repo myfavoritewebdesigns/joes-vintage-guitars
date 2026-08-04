@@ -98,9 +98,9 @@ The Florentine period (1961 to 1968) lines up with the PAF and Patent Number hum
 
 The Byrdland has used four distinct pickup types over its history. Because of its narrow 1⅝" nut and short scale, the neck-position pickup on early Byrdlands required **custom narrow pole spacing**. The distance between the two outer "E" pole pieces is 1 13/16" on a Byrdland neck pickup, versus the standard 1 15/16" on other Gibson models. This is critical for authentication: a replaced neck pickup with standard spacing is immediately apparent.
 
-The earliest Byrdlands received a special version of the high-end archtop single-coil pickup, called "staple" or "Alnico" pickups, featuring six individually adjustable rectangular magnet poles projecting through a flat cover. These are distinct from the P-90 dog-ear style used on more affordable Gibson models. They were gold-plated to match the rest of the hardware and produce a warm, transparent, vocal tone that players still like today. These pickups were shared with the L-5CES and Super 400CES of the same period. The presence of humbuckers on a claimed "1955 to 1957" guitar is an immediate red flag.
+The earliest Byrdlands received a special version of the high-end archtop single-coil pickup, called "staple" or "Alnico" pickups, featuring six individually adjustable rectangular magnet poles projecting through a flat cover. These are distinct from the P-90 dog-ear style used on more affordable Gibson models. They were gold-plated to match the rest of the hardware and produce a warm, transparent, vocal tone that players still like today. These pickups were shared with the L-5CES and Super 400CES of the same period. They are correct for 1955 and 1956, and for early 1957 before the humbucker arrived.
 
-In early 1958, Gibson replaced the Alnico staple pickups with the newly developed humbucking pickup, the same PAF appearing simultaneously on the Les Paul Standard. Byrdland PAFs carry the narrow pole spacing at the neck position and are gold-plated. From 1957 to 1961, PAFs used long (2.5") Alnico 2, 3, 4, or 5 magnets assigned essentially at random, wound with #42 plain enamel wire. The "Patent Applied For" sticker appears on the underside from late 1957 onward. DC resistance typically varies from 7k to over 9k ohms due to manual-stop winding. This variation is authentic and expected. Double-white-bobbin PAFs (both coils cream-colored) are extremely rare and command significant premiums. After 1959 to 1960, one bobbin became black again, so "zebra" (one black, one cream) or all-black bobbins are standard for most PAF Byrdlands.
+In early 1957, Gibson replaced the Alnico staple pickups with the newly developed humbucking pickup, the same PAF that reached the Les Paul and the rest of the Spanish electric line that year. A 1957 Byrdland with humbuckers is therefore correct, not a red flag. Byrdland PAFs carry the narrow pole spacing at the neck position and are gold-plated. From 1957 to 1961, PAFs used long (2.5") Alnico 2, 3, 4, or 5 magnets assigned essentially at random, wound with #42 plain enamel wire. The "Patent Applied For" sticker appears on the underside from late 1957 onward. DC resistance typically varies from 7k to over 9k ohms due to manual-stop winding. This variation is authentic and expected. Double-white-bobbin PAFs (both coils cream-colored) are extremely rare and command significant premiums. After 1959 to 1960, one bobbin became black again, so "zebra" (one black, one cream) or all-black bobbins are standard for most PAF Byrdlands.
 
 By mid-1962, the "Patent Applied For" sticker was replaced by one reading "Patent No. 2,737,842". Notably, this patent number refers to the Les Paul trapeze tailpiece design, not the humbucker itself. Construction remained similar to the PAF through approximately 1964 to 1965, using plain enamel wire. Around 1963, Gibson switched to polyurethane-coated wire, and by 1965 automated winding standardized DC resistance to approximately 7.5k ohms. They retain gold plating and narrow neck spacing on the Byrdland and are highly regarded, though generally valued slightly below PAFs on the collector market.
 
@@ -158,7 +158,7 @@ Look inside through the f-holes with a light. A laminated back shows thin glue l
 
 ### Body Dimensions
 
-The body dimensions of the Byrdland remained essentially constant throughout production: 17 inches wide, 21 inches long (same as the L-5), and 2¼ inches deep. This depth is roughly 40% shallower than a standard L-5CES (3⅜ inches). The reduced depth was the central design request from Byrd and Garland and has never changed.
+The body dimensions of the Byrdland remained essentially constant throughout production: 17 inches wide, 21 inches long (same as the L-5), and 2¼ inches deep. This depth is roughly a third shallower than a standard L-5CES (3⅜ inches). The reduced depth was the central design request from Byrd and Garland and has never changed.
 
 <h2 id="neck">Neck Construction & Volute</h2>
 
@@ -208,9 +208,9 @@ Note that these are multi-piece glued constructions for structural stability, no
 
 ### The Volute
 
-The **volute** is a small reinforcing ridge of extra wood at the back of the headstock/neck junction, added to reduce headstock breakage, a common failure point on set-neck Gibson instruments. On the Byrdland, it appears around **1976**. It was removed in the early 1980s as Gibson moved away from Norlin-era construction choices.
+The **volute** is a small reinforcing ridge of extra wood at the back of the headstock/neck junction, added to reduce headstock breakage, a common failure point on set-neck Gibson instruments. Gibson introduced it across the line around **1969 to 1970** and removed it in the early 1980s as the company moved away from Norlin-era construction choices.
 
-The presence of a volute on a Byrdland indicates **Norlin-era production, approximately 1976 to 1981**. Its absence is correct for all pre-1976 examples and all post-1981 examples. A guitar presented as a 1964 Byrdland with a volute has either been misdated or has had a neck replacement.
+The presence of a volute on a Byrdland indicates **Norlin-era production, roughly 1970 to 1981**. Its absence is correct for all pre-1970 examples and all post-1981 examples. A guitar presented as a 1964 Byrdland with a volute has either been misdated or has had a neck replacement.
 
 ### Scale Length & Profile
 
@@ -512,7 +512,7 @@ Use this checklist when examining any Byrdland. Not all items apply to all eras,
 -   Scale length is 23½", measure from nut to 12th fret (should be exactly 11¾") and double it
 -   Nut width: 1⅝" (narrow) for pre-1969; 1 11/16" for 1969 and later, always measure, don't estimate
 -   Neck seam(s) on back of neck match claimed era: thin walnut center strip = pre-1962 (3-piece); alternating maple/mahogany stripes = 1962 onward (5-piece)
--   Volute is present only if claimed era is approximately 1976 to 1981
+-   Volute is present only if claimed era is roughly 1970 to 1981
 -   Gibson logo: open-letter pearl inlay pre-1967; closed-letter 1967 onward, always pearl inlay, never a decal
 -   Neck joins at 14th fret for all but the very earliest (1955) examples
 -   Neck does not taper conventionally, width is nearly uniform from nut to body
