@@ -7,7 +7,7 @@ category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/Is-Your-Vintage-Guitar-Valuable-7-Factors-That-Determine-Its-Value-1-1.jpg"
-heroImageAlt: "Top Mistakes To Avoid When Selling A Vintage Guitar"
+heroImageAlt: "Title card reading Is Your Vintage Guitar Valuable? 7 Factors That Determine Its Value, set over a darkened close up of an acoustic guitar headstock and tuners, with the Joe's Vintage Guitars logo in the top corner."
 metaDescription: "The 7 factors that affect your vintage guitar’s value when you’re buying or selling."
 ogImage: "/images/blog/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/Is-Your-Vintage-Guitar-Valuable-7-Factors-That-Determine-Its-Value-1-1.jpg"
 wpId: 2254

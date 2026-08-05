@@ -51,6 +51,26 @@ The year's defining authentication challenge is the **slab-to-veneer rosewood fi
 
 These specifications reflect standard 1962 production. Where the slab/veneer transition creates a split, both variants are noted. All changes from 1961 are marked.
 
+-   **Serial number:** Five digits on a plain chrome 4-bolt neck plate, roughly 80000 to 99999, no "L" prefix. The L series begins in 1963.
+-   **Neck, early 1962:** Slab rosewood fingerboard, about 4.8mm deep at the headstock end, flat underside.
+-   **Neck, mid to late 1962:** Veneer rosewood fingerboard, about 2mm at the headstock end, curved underside.
+-   **Back of the neck:** No skunk stripe and no walnut plug on a rosewood-board neck. The stripe returns in 1971.
+-   **Inlays:** Clay dots, dull and matte, never shiny pearloid.
+-   **Neck profile:** Slim C, not the chunky V of the 1950s. Truss rod adjusts at the neck heel, not at the headstock.
+-   **Body:** Alder under sunburst and custom colors, ash under blonde. Deep forearm and belly contours.
+-   **Finish:** Nitrocellulose lacquer. A 3-color sunburst reads yellow in the center, orange through the middle, dark at the outer edge.
+-   **Nail holes:** On the body face under the pickguard, with bare unfinished wood inside the hole. Finish inside the hole points to a refinish.
+-   **Pickguard:** 3-ply white, black, white, 11 screws.
+-   **Pickups:** Black fiber flatwork on all three bobbins, staggered poles, formvar wire, white covers. Neck reads roughly 5.5k to 6.5k ohms, middle and bridge 5.8k to 6.8k ohms. Gray flatwork means about 1964 or later.
+-   **Controls:** Three white dome knobs for master volume, neck tone, and middle tone. No tone control on the bridge pickup.
+-   **Switch:** CRL 3-way. The 5-way did not become standard until 1977.
+-   **Electronics:** 250k pots by Stackpole (304), CTS (137), or Centralab (134), ceramic disc tone capacitors, cloth-covered hookup wire throughout.
+-   **Bridge:** Synchronized tremolo, six bent steel saddles stamped FENDER PAT. PEND., heavy steel block, six chrome pivot screws, five springs as shipped.
+-   **Back plate:** Single-ply white, five screws, over a spring cavity of bare wood with no shielding paint.
+-   **Headstock:** Silver spaghetti logo applied on top of the finish with no clear coat over it, "WITH SYNCHRONIZED TREMOLO" below the model name, and three patent numbers: 2,573,254, 2,960,900, and Des. 164,227. Very early 1962 decals may carry only two.
+-   **Tuners:** All-metal Kluson Deluxe "single line," stamped vertically on the back of the gear housing. One butterfly string tree.
+-   **Fasteners and plating:** Phillips-head neck screws rather than slot-head, with a plating electrode mark visible on the neck plate chrome.
+
 <h2 id="serial">Serial Numbers & Dating</h2>
 
 Like all pre-CBS Fender instruments, the 1962 Stratocaster serial number is an unreliable standalone dating tool. Neck plates were produced in batches and stored, then assigned by assemblers who grabbed from bins without regard for sequence. The serial number places a guitar in a broad era. It does not confirm the year.
@@ -368,9 +388,26 @@ Fender offered optional custom colors on the Stratocaster from 1956, but they re
 
 ### Period Colors Available in 1962
 
-Fender used automotive lacquers from **DuPont** and **Ditzler** for all custom colors. The colors were drawn from current automotive paint charts and changed periodically as automakers updated their palettes. Colors available and used in 1962 production include:
+Fender used automotive lacquers from **DuPont** and **Ditzler** for all custom colors. The colors were drawn from current automotive paint charts and changed periodically as automakers updated their palettes. Fender printed its first custom color chart in 1960, and every one of those fourteen colors was still on the menu in 1962:
 
-Note: Color swatches above are approximations for reference. Original custom colors have aged significantly and vary by example. Always consult authenticated reference guitars or original Fender color chip charts for precise color matching.
+-   **Black**
+-   **Olympic White**
+-   **Fiesta Red**
+-   **Dakota Red**
+-   **Shell Pink**
+-   **Daphne Blue**
+-   **Sonic Blue**
+-   **Lake Placid Blue Metallic**
+-   **Sherwood Green Metallic**
+-   **Foam Green**
+-   **Surf Green**
+-   **Burgundy Mist Metallic**
+-   **Shoreline Gold Metallic**
+-   **Inca Silver Metallic**
+
+One color that does **not** belong on a 1962 is **Candy Apple Red Metallic**. Fender mixed that one in house rather than buying it off an automotive chart, and it did not join the lineup until 1963. A guitar presented as a 1962 in Candy Apple Red is wearing a color the factory was not spraying yet, so the burden of proof sits squarely on the guitar. Shell Pink went the other way, dropping off the chart around 1963, which is why original Shell Pink instruments of any model are so scarce. For the full chart history, the DuPont codes, and the donor cars each color came from, see our [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/).
+
+Note: original custom colors have aged significantly and vary from example to example, so a color name is a starting point rather than a match. Always compare against authenticated reference guitars or original Fender color chip charts before calling a finish.
 
 Refinished Stratocasters in custom colors are extremely common, and identifying an original custom color finish requires expertise. Key indicators: the color should be under the pickguard and in body cavities, not just on exposed surfaces; the finish should show appropriate aging and checking in the nitrocellulose; the color should match known period examples (not modern re-issues); UV light can reveal original vs. later finishes. For any high-value custom color purchase, a hands-on expert appraisal is strongly recommended.
 

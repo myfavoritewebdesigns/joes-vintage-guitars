@@ -7,7 +7,7 @@ category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/How-The-Year-Of-Manufacture-Of-Your-Vintage-Gibson-Guitar-Affects-Its-Price-1.jpg"
-heroImageAlt: "How To Read Gibson Serial Numbers"
+heroImageAlt: "Title card reading How The Year Of Manufacture Of Your Vintage Gibson Guitar Affects Its Price, set over a darkened close up of a sunburst Les Paul showing its humbucker, bridge, and stop bar tailpiece, with the Joe's Vintage Guitars logo in the top corner."
 metaDescription: "Curious about your vintage Gibson guitar’s value? Learn how its year of manufacture impacts its price."
 ogImage: "/images/blog/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/How-The-Year-Of-Manufacture-Of-Your-Vintage-Gibson-Guitar-Affects-Its-Price-1.jpg"
 wpId: 3980

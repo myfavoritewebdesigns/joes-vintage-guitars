@@ -7,7 +7,7 @@ category: "uncategorized"
 categoryName: "Uncategorized"
 tags: []
 heroImage: "/images/blog/best-online-platforms-sell-vintage-guitars/1954-gibson-les-paul-goldtop-scaled.jpg"
-heroImageAlt: "A Gibson Les Paul Goldtop from 1954"
+heroImageAlt: "A 1954 Gibson Les Paul Goldtop with cream P-90 pickups and a cream pickguard, resting upright in its original brown hardshell case with worn pink lining."
 metaDescription: "A 5% selling fee can quietly become 12% by the time you get paid. Here is what every major online platform actually costs vintage guitar sellers in 2026, four platforms compared side by side."
 ogImage: "/images/blog/best-online-platforms-sell-vintage-guitars/1954-gibson-les-paul-goldtop-scaled.jpg"
 wpId: 21047

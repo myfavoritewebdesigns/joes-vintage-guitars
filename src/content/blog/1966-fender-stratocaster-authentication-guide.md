@@ -20,6 +20,21 @@ That in-between status is why so many players and collectors love these guitars.
 
 <h2 id="overview">Quick Reference: 1966 Stratocaster Specs</h2>
 
+Here is the short version before we get into the detail. A factory-correct 1966 Stratocaster should show most or all of the following:
+
+-   **Body:** Alder on sunburst and almost every custom color, ash under blonde. Nitrocellulose finish.
+-   **Weight:** Typically 7 lb 4 oz to 7 lb 12 oz.
+-   **Neck:** Thin C profile maple neck, roughly .80" at the first fret and .88" to .92" at the twelfth.
+-   **Back of the neck:** Seamless maple, no skunk stripe and no butterfly plug behind the nut.
+-   **Fingerboard:** East Indian rosewood veneer over maple, pearloid dots and pearloid side dots.
+-   **Headstock:** Large CBS outline, gold transition logo with the patent number block.
+-   **Tuners:** Double-line Kluson Deluxe with metal buttons, one butterfly string tree.
+-   **Pickups:** Staggered AlNiCo V single coils, gray fiberboard bobbins, plain enamel wire, roughly 5.8k to 6.2k ohms.
+-   **Electronics:** Three-way Centralab switch, .1 mfd ceramic disc cap, 250k pots, cloth pushback wire.
+-   **Bridge:** Steel synchronized tremolo on a solid steel block, "FENDER PAT. PEND." stamped saddles.
+-   **Neck plate:** Four-bolt F plate, serials generally in the 110000 to 200000 range.
+-   **Pickguard:** Three-ply white ABS, 11 screws, aged to cream.
+
 <h2 id="body">The Body, Finish, and the CBS Color Question</h2>
 
 The 1966 Stratocaster body is alder on sunbursts and almost every custom color. Blonde finishes were sometimes ash. Bodies are typically two or three pieces, well matched, with wood that's noticeably lighter than what you find on later 70s Strats. A clean 1966 usually weighs between 7 lb 4 oz and 7 lb 12 oz. Anything north of 8 lbs should raise an eyebrow on a guitar this old.

@@ -1,5 +1,5 @@
 ---
-title: "The Original 1968 & 1969 Pink Paisely Telecaster"
+title: "The Original 1968 & 1969 Pink Paisley Telecaster"
 pubDate: "2026-04-07T21:52:45"
 modified: "2026-05-14T16:53:13"
 excerpt: "An original 1968 or 1969 Fender Pink Paisley Telecaster takes some careful checking to authenticate. This guide covers the Cling-Foil finish chemistry, neck dating, CBS-era hardware, and the “puzzle piece” test every serious buyer needs to know."

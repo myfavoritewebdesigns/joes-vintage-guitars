@@ -48,6 +48,27 @@ The result is that **a genuine 1959 Telecaster can look dramatically different d
 
 These specifications reflect the **majority of 1959 production**, mid-to-late year slab rosewood examples. Early 1959 maple-neck variants are noted separately. All changes from 1958 are marked.
 
+-   **Serial number:** Stamped on the 4-bolt neck plate, five digits, no prefix letter, roughly 30000 to 40000.
+-   **Neck, early 1959:** One-piece maple with a lacquered playing surface, black dot inlays, and a skunk stripe down the back. Runs January to approximately March or April.
+-   **Neck, mid to late 1959:** Thick slab rosewood board of about 4.8mm with a flat-milled underside and a visible glue line at the headstock end. No skunk stripe, because these necks were routed from the front.
+-   **Inlays:** Clay dots, dull and matte in off-white to tan, never shiny pearloid. The 12th fret dots sit relatively close to the edge of the board.
+-   **Neck profile and nut:** Slim D, thinner than 1957 and 1958. Nut width 1 5/8".
+-   **Truss rod:** Adjusts at the neck heel, not at the headstock.
+-   **Neck heel date:** Penciled in month and year format, or completely blank. Both are correct for 1959, and a blank heel is a documented mid-1959 characteristic rather than a red flag.
+-   **Body:** Ash under the blond finish. Alder under sunburst and custom colors, including the new Telecaster Custom, which is bound on the top and the back.
+-   **Finish:** Nitrocellulose lacquer showing checking, crazing, and age-appropriate wear.
+-   **Pickguard:** Single-ply white on the standard model, 3-ply mint green on the Custom.
+-   **Bridge:** Top loader through mid-1959, then the transitional dual-hole plate or string-through body with ferrules. Plate stamped "Pat. Pending" or "Pat. Pend."
+-   **Saddles:** Three threaded steel saddles. Not smooth steel, not brass.
+-   **Pickups:** Formvar-wound single coils with staggered poles under chrome-plated steel covers. Bridge reads roughly 6.5k to 7.5k ohms, neck 5.5k to 6.5k ohms.
+-   **Electronics:** Cloth-covered hookup wire throughout, Stackpole (304) or Centralab (134) pots, and the brown rectangular "chicklet" paper tone capacitor that replaced the round brown paper cap used through 1958.
+-   **Wiring scheme:** The original Fender three-position layout of bass-heavy neck, plain neck, then bridge with tone. Not the modern neck, both, bridge arrangement.
+-   **Headstock:** Spaghetti logo sitting on top of the finish with no clear coat over it, silver on the standard model and gold on the Custom, with patent numbers 2,573,254 and 2,784,631 below "Telecaster."
+-   **Tuners:** Kluson Deluxe "single line," stamped vertically on the back of the gear housing.
+-   **String tree:** Butterfly (wing) style. The round button retainer is pre-1955.
+-   **Controls and plates:** Chrome flat-top knobs with knurled skirts, top-hat switch tip, plain chrome 4-bolt neck plate carrying only the serial number. Both the control plate and the neck plate should show a plating electrode mark.
+-   **Shipped with:** Chrome ashtray bridge cover and a chrome neck pickup cover, both very often long gone.
+
 <h2 id="serial">Serial Numbers & Dating</h2>
 
 Fender's serial number system in 1959 is unreliable as a standalone dating tool. Serial number plates were produced in large batches and stored in bins; assemblers grabbed plates at random, meaning a guitar's serial number does not necessarily correspond to when it was built. The neck heel date and internal pot codes are far more accurate.

@@ -16,7 +16,7 @@ wpId: 18997
 
 In the golden age of Gibson craftsmanship, the **1955 to 1958 Single Cut Les Paul Special** was the “sweet spot” of the catalog. Positioned between the student-grade Junior and the high-end Goldtop, it offered the dual-pickup versatility of a professional instrument with a simplified, “slab” mahogany design. Today, it is a high-value vintage guitar that collectors want for its “limed mahogany” look and aggressive P-90 growl.
 
-If you are looking to buy or [sell a vintage Les Paul](/), understanding these authentication specifications is critical. At **Joe’s Vintage Guitars**, we’ve seen how even small parts swaps can impact the market value of a vintage instrument by thousands of dollars. If you are wonderinf what your guitar is worth, don’t hesitate to reach out to us for a [free appraisal.](/free-appraisal/)
+If you are looking to buy or [sell a vintage Les Paul](/), understanding these authentication specifications is critical. At **Joe’s Vintage Guitars**, we’ve seen how even small parts swaps can impact the market value of a vintage instrument by thousands of dollars. If you are wondering what your guitar is worth, don’t hesitate to reach out to us for a [free appraisal.](/free-appraisal/)
 
 Below is a complete guide to authenticating your single cut Les Paul Special from 1955-1958.
 
@@ -212,7 +212,7 @@ Trust the technical expertise of Joe’s Vintage Guitars in Mesa, AZ.
 
 ## Dating Your “Golden Era” Les Paul Special
 
-To accurately date a 1955 to 1958 Les Paul Special, professional appraisers look for a convergence of three specific codes: the serial number, the potentiometer codes, and the Factory Order Number (FON). If you need helpo dating your Gibson, check out our [Gibson serial number lookup.](/how-to-read-gibson-serial-numbers/)
+To accurately date a 1955 to 1958 Les Paul Special, professional appraisers look for a convergence of three specific codes: the serial number, the potentiometer codes, and the Factory Order Number (FON). If you need help dating your Gibson, check out our [Gibson serial number lookup.](/how-to-read-gibson-serial-numbers/)
 
 ### 1\. Dating by Serial Number
 
