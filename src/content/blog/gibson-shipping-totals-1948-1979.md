@@ -21,17 +21,17 @@ wpId: 18430
 -   [SG Junior & Special (1962-1978)](#sg-jr-spec-62-78)
 -   [TV Yellow SG Special & Junior](#tv-yellow-sg-62-68)
 -   [ES-335, 345 & 355 (1958-1969)](#es-semi-58-69)
--   [L5ces, Super 400ces & L-7](#premier-arch-48-69)
+-   [L-5CES, Super 400CES & L-7](#premier-arch-48-69)
 -   [ES-175, 225, 295 & ES-5](#es-arch-49-79)
 -   [ES-300, 330, 350 & Byrdland](#thinline-arch-48-79)
--   [Acoustic L-4, L-5, L-7 & S-400](#acoustic-arch-48-79)
+-   [Acoustic L-4, L-5, L-7 & Super 400](#acoustic-arch-48-79)
 -   [Firebird (1963-1969)](#firebird-63-69)
 -   [Flying V, Explorer & Moderne](#modern-59-79)
 -   [Conclusion & Appraisals](#conclusion)
 
 Pinning down the market value of an instrument takes more than a quick look; it takes a read through the official shipping records that show how rare a model really is. If you are looking to [**sell your guitar**](/) or just want to document its history, our **[free appraisal](/free-appraisal/)** service pairs these production totals with years of hands-on experience to give you an accurate valuation. Before you get into the production numbers below, visit our **[Gibson serial number guide](/how-to-read-gibson-serial-numbers/)** to date your instrument and make sure you are referencing the correct era of Kalamazoo production.
 
-> Note: Please bear in mind that these shipping totals are not necessarily the exact production numbers. Gibson made other instruments that were not necessarily included in the shippping totals. Additionally, there are some slight inaccuracies reflected in the totals. For example, there is no mention of white SG Juniors, which we know exist in fairly large numbers. Still, these are the best indication we have of Gibson guitar production totals.
+> Note: Please bear in mind that these shipping totals are not necessarily the exact production numbers. Gibson made other instruments that were not necessarily included in the shipping totals. Additionally, there are some slight inaccuracies reflected in the totals. For example, there is no mention of white SG Juniors, which we know exist in fairly large numbers. Still, these are the best indication we have of Gibson guitar production totals.
 
 <h2 id="lp-std-52-61">Les Paul Standard Shipping Totals (1952-1961)</h2>
 
@@ -295,7 +295,7 @@ Because high-trim models like the 345 and 355, with VariTone circuits and gold h
 | ES-355 '68 | \-\-\- | 318 | \-\-\- |
 | ES-355 '69 | \-\-\- | 214 | \-\-\- |
 
-<h2 id="premier-arch-48-69">Gibson L5ces, Super 400ces & L-7 McCarty (1948-1969)</h2>
+<h2 id="premier-arch-48-69">Gibson L-5CES, Super 400CES & L-7 McCarty (1948-1969)</h2>
 
 The 1948 to 1969 shipping totals for the **L-5CES, Super 400CES, and L-7 McCarty** cover Gibson’s top-of-the-line archtops. Because these were the most expensive models in the catalog, production stayed very low, so the data matters to collectors. Whether you are tracking a rare **L-7 McCarty assembly** or a 1950s “non-cutaway” example, these Kalamazoo ledger totals are the basis for an appraisal and the proof of scarcity that backs up premium prices.
 
@@ -303,44 +303,44 @@ The 1948 to 1969 shipping totals for the **L-5CES, Super 400CES, and L-7 McCarty
 
 | Model/Year | Sunburst | Natural |
 | --- | --- | --- |
-| L5-CES '51 | 31 | 8 |
-| L5-CES '52 | 29 | 17 |
-| L5-CES '53 | 25 | 18 |
-| L5-CES '54 | 30 | 20 |
-| L5-CES '55 | 19 | 31 |
-| L5-CES '56 | 23 | 32 |
-| L5-CES '57 | 22 | 15 |
-| L5-CES '58 | 21 | 27 |
-| L5-CES '59 | 26 | 12 |
-| L5-CES '60 | 45 | 17 |
-| L5-CES '61 | 22 | 13 |
-| L5-CES '62 | 30 | 11 |
-| L5-CES '63 | 51 | 21 |
-| L5-CES '64 | 42 | 10 |
-| L5-CES '65 | 34 | 10 |
-| L5-CES '66 | 23 | 1 |
-| L5-CES '67 | 102 | 5 |
-| L5-CES '68 | 189 | 11 |
-| L5-CES '69 | 170 | 55 |
-| S-400ces '51 | 2 | \-\-\- |
-| S-400ces '52 | 7 | 11 |
-| S-400ces '53 | 16 | 11 |
-| S-400ces '54 | 17 | 6 |
-| S-400ces '55 | 5 | 16 |
-| S-400ces '56 | 20 | 19 |
-| S-400ces '57 | 24 | 15 |
-| S-400ces '58 | 15 | 15 |
-| S-400ces '59 | 22 | 8 |
-| S-400ces '60 | 24 | 7 |
-| S-400ces '61 | 30 | 15 |
-| S-400ces '62 | 24 | 16 |
-| S-400ces '63 | 29 | 14 |
-| S-400ces '64 | 29 | 13 |
-| S-400ces '65 | 31 | 1 |
-| S-400ces '66 | 24 | 4 |
-| S-400ces '67 | 28 | 22 |
-| S-400ces '68 | 52 | 11 |
-| S-400ces '69 | 120 | 45 |
+| L-5CES '51 | 31 | 8 |
+| L-5CES '52 | 29 | 17 |
+| L-5CES '53 | 25 | 18 |
+| L-5CES '54 | 30 | 20 |
+| L-5CES '55 | 19 | 31 |
+| L-5CES '56 | 23 | 32 |
+| L-5CES '57 | 22 | 15 |
+| L-5CES '58 | 21 | 27 |
+| L-5CES '59 | 26 | 12 |
+| L-5CES '60 | 45 | 17 |
+| L-5CES '61 | 22 | 13 |
+| L-5CES '62 | 30 | 11 |
+| L-5CES '63 | 51 | 21 |
+| L-5CES '64 | 42 | 10 |
+| L-5CES '65 | 34 | 10 |
+| L-5CES '66 | 23 | 1 |
+| L-5CES '67 | 102 | 5 |
+| L-5CES '68 | 189 | 11 |
+| L-5CES '69 | 170 | 55 |
+| Super 400CES '51 | 2 | \-\-\- |
+| Super 400CES '52 | 7 | 11 |
+| Super 400CES '53 | 16 | 11 |
+| Super 400CES '54 | 17 | 6 |
+| Super 400CES '55 | 5 | 16 |
+| Super 400CES '56 | 20 | 19 |
+| Super 400CES '57 | 24 | 15 |
+| Super 400CES '58 | 15 | 15 |
+| Super 400CES '59 | 22 | 8 |
+| Super 400CES '60 | 24 | 7 |
+| Super 400CES '61 | 30 | 15 |
+| Super 400CES '62 | 24 | 16 |
+| Super 400CES '63 | 29 | 14 |
+| Super 400CES '64 | 29 | 13 |
+| Super 400CES '65 | 31 | 1 |
+| Super 400CES '66 | 24 | 4 |
+| Super 400CES '67 | 28 | 22 |
+| Super 400CES '68 | 52 | 11 |
+| Super 400CES '69 | 120 | 45 |
 | L-7e '48 | 126 | \-\-\- |
 | L-7e '49 | 224 | \-\-\- |
 | L-7e '50 | 138 | 18 |

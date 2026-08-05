@@ -7,7 +7,7 @@ category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/How-To-Determine-The-Value-of-Your-Old-Martin-Acoustic-Guitar.jpg"
-heroImageAlt: "How To Read Gibson Serial Numbers"
+heroImageAlt: "Title card reading How To Determine The Value Of Your Old Martin Acoustic Guitar, set over a darkened close up of a hand fretting an acoustic guitar, with the Joe's Vintage Guitars logo in the top corner."
 metaDescription: "Want to sell your old Martin acoustic guitar? Learn from experts how to determine its value and get a great price."
 ogImage: "/images/blog/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/How-To-Determine-The-Value-of-Your-Old-Martin-Acoustic-Guitar.jpg"
 wpId: 3815

@@ -234,7 +234,7 @@ While the orange label was applied when the guitar was completed and ready to sh
     -   **S** = 1959 (1958 used “T”, 1960 used “R”).
     -   **1234** = The Batch Number (usually 3 or 4 digits).
     -   **5** = The Ranking Number (the specific guitar within that batch).
--   **The “Cross-Over” Rareity:** Occasionally, you may find a guitar with a 1958 “T” FON but a 1959 serial number. This indicates the body was built in late ’58 but didn’t leave the factory until 1959, often resulting in the desirable “Mickey Mouse” ears but perhaps a slightly thinner ’58-spec top.
+-   **The “Cross-Over” Rarity:** Occasionally, you may find a guitar with a 1958 “T” FON but a 1959 serial number. This indicates the body was built in late ’58 but didn’t leave the factory until 1959, often resulting in the desirable “Mickey Mouse” ears but perhaps a slightly thinner ’58-spec top.
 
 ![1958 Factory Order Number (FON) visible through the f-hole of a 1959 Gibson ES-335 with rare 1958-spec thin top construction.](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-FON-1024x673.jpg)
 

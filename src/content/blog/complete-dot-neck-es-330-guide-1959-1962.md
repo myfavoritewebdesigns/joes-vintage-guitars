@@ -7,7 +7,7 @@ category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-scaled.jpg"
-heroImageAlt: "A sunburst 1959 gibson ES-335 in near mint condition."
+heroImageAlt: "Front of a sunburst 1959 Gibson ES-330 showing its two black dogear P-90 pickups, black pickguard, dot inlay rosewood fingerboard, gold bonnet knobs, and trapeze tailpiece, photographed in front of a vintage Fender amplifier."
 metaDescription: "The dot-neck Gibson ES-330 is one of the more misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret (not the 17th, not the 19th), it’s a very different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959 to 1962 dot-neck era in detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and the other details that separate an original example from a modified one, and a 1959 from a 1962."
 ogImage: "/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-scaled.jpg"
 wpId: 20616

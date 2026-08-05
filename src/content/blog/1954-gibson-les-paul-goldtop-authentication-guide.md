@@ -47,6 +47,23 @@ If you're evaluating a 1954, the most important things to confirm are the **wrap
 
 All specifications listed here are correct for **1954 production only**. Items noted with a change year are features that were different before or after this year.
 
+-   **Serial number:** Ink stamped on the back of the headstock, "4" followed by a space and 4 or 5 digits. Impressed numbers are 1961 or later.
+-   **Body:** Solid mahogany back with a carved maple cap, single Venetian cutaway, unbound back.
+-   **Finish:** Bullion Gold nitrocellulose with bronze powder suspended in the lacquer, over a brown-stained mahogany back. An all-gold subset with gold on the back, sides, and neck is rarer and equally original.
+-   **Binding:** Single-ply cream on the top edge only, thin enough to leave a sliver of the maple cap visible at the cutaway.
+-   **Neck pitch:** 4°, increased from the roughly 3° pitch of late 1953.
+-   **Neck profile:** Chunky C to soft D, roughly .88" to .92" deep at the first fret and .98" to 1.02" at the twelfth.
+-   **Nut:** Nylon 6/6 at the mid-1950s Gibson width of 1 11/16". Gibson did not narrow the nut to 1 9/16" until 1965.
+-   **Fingerboard:** Brazilian rosewood with Cellulose Nitrate trapezoid inlays. Indian rosewood takes over during 1966.
+-   **Headstock:** Mother-of-pearl Gibson logo with open letter counters and a dot over the "i", gold "Les Paul Model" silkscreen below it, bell-shaped 2-ply black and white truss rod cover.
+-   **Tuners:** "No line" Kluson single-ring with plain, unstamped gear covers and a "Patent Applied" stamp on the back. Single-line Kluson Deluxe arrives in the 1955 to 1956 transition.
+-   **Bridge:** Nickel-plated wrap tail (stud) bridge on the shorter 1954 post bushings, sitting clear of the top. The ABR-1 Tune-o-Matic arrives in late 1955.
+-   **Pickups:** Two cream-covered P-90 soapbars, two black lead wires per coil, typically 7.2k to 8.0k ohms. One black and one white lead means 1960 or later.
+-   **Electronics:** Four pots by Stackpole (304) or Centralab (134), often coded on the side rim rather than the back face. Sprague Grey Tiger capacitors, cloth-covered wire, Switchcraft 3-way toggle with an amber Catalin tip. Bumblebee capacitors arrive in late 1955 to early 1956.
+-   **Knobs:** Four gold and amber barrel (speed) knobs with metal "finger bleeder" pointer washers. Bonnet knobs phase in during 1955.
+-   **Plastics:** Cream pickguard in the longer mid-1950s outline, cream jack plate, cream back cover plates, cream poker chip with gold lettering.
+-   **Neck joint:** Long tenon, visible running under the neck pickup route.
+
 <h2 id="serial">Serial Numbers & Dating</h2>
 
 Gibson used an ink-stamped serial number on the back of the headstock for all solid-body guitars from 1953 onward. The system is straightforward for the 1950s: the **first digit indicates the last digit of the production year**, followed by a space and then a 4- or 5-digit consecutive number.
