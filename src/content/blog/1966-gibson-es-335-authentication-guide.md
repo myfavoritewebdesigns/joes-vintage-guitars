@@ -255,7 +255,7 @@ The "bumblebee" capacitors associated with late-1950s Gibsons gave way to the Sp
 
 ![1966 Gibson ES-335 Patent Number humbucker pickup with chrome cover, correct pre-T-top Patent Number humbucker showing period-correct chrome aging](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-pickup-scaled.jpg)
 
-<figcaption><strong>Patent Number humbucker on a 1966 Gibson ES-335.</strong> The chrome-covered humbucker pickup is one of the ES-335's defining visual elements. On a 1966, this is a pre-T-top Patent Number humbucker, not a PAF, not a T-top. The chrome cover aging, the adjustable and non-adjustable pole piece rows, and the base plate sticker are all key authentication points covered in detail below.</figcaption>
+<figcaption><strong>Patent Number humbucker on a 1966 Gibson ES-335.</strong> The chrome-covered humbucker pickup is one of the ES-335's defining visual elements. This is a pre-T-top Patent Number humbucker, not a PAF, which is what most 1966 examples carry. The chrome cover aging, the adjustable and non-adjustable pole piece rows, and the base plate sticker are all key authentication points covered in detail below.</figcaption>
 
 </figure>
 
@@ -280,7 +280,7 @@ Pickup swaps are extremely common on vintage Gibsons, PAFs especially are highly
 -   DC resistanceTypically **7.5k to 8.5k ohms** per pickup on period-correct examples. Readings significantly outside this range suggest a rewind. Both pickups should read in roughly the same range, a dramatic mismatch indicates one may be a replacement.
 -   Lead wires**Coaxial lead wires with a metal braid outer shield** over a cloth-covered inner conductor. Plastic-insulated lead wires indicate a replacement pickup or a rewound unit.
 -   Cover solderThe pickup cover is **held by solder**, not screws. The cover is soldered to the base plate at two points. Undisturbed original factory solder at these joints is a strong indicator the cover has never been removed. Re-flowed or disturbed solder is not automatically disqualifying but should be noted, as it indicates the cover has been off at some point.
--   T-top checkThe T-top coil former (visible from the adjustable-pole side with the cover removed) indicates 1967 or later production. However, **you do not need to remove the cover** to make this assessment, and on an original unplayed example you should avoid disturbing the solder. If you have suspicions about pickup replacement, check instead whether the pickup aging and wiring condition matches the rest of the guitar. Mismatched wear, different lead wire style, or solder that looks re-flowed are more practical tells than pulling the cover.
+-   T-top checkThe T-top coil former (visible from the adjustable-pole side with the cover removed) points to the later end of the changeover. Gibson phased the T-top in gradually between 1965 and 1967, so most 1966 ES-335s predate it, but a genuine late-1966 guitar can carry them and a T-top on its own does not condemn the instrument. However, **you do not need to remove the cover** to make this assessment, and on an original unplayed example you should avoid disturbing the solder. If you have suspicions about pickup replacement, check instead whether the pickup aging and wiring condition matches the rest of the guitar. Mismatched wear, different lead wire style, or solder that looks re-flowed are more practical tells than pulling the cover.
 
 <figure>
 
@@ -641,7 +641,7 @@ Pickups
 -   Adjustable and non-adjustable pole piece rows both present
 -   DC resistance approximately 7.5k to 8.5k ohms per pickup
 -   Braid-covered coaxial lead wires
--   **NOT T-tops, no T-shaped coil former visible from adjustable-pole side**
+-   **Most 1966s are pre-T-top, with no T-shaped coil former visible from the adjustable-pole side.** The T-top phased in gradually between 1965 and 1967, so T-tops on a late 1966 are not automatically wrong; cross-check that the pickups age and wire like the rest of the guitar
 
 Bridge & Tailpiece
 
