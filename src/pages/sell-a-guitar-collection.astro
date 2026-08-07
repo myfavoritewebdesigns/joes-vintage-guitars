@@ -859,6 +859,10 @@ const structuredData = [
     .smc-nationwide__cols { grid-template-columns: 1fr; gap: 30px; }
     .smc-nationwide__title::before,
     .smc-nationwide__title::after { display: none; }
+    /* Mobile overflow fix (2026-08-07): "Purchase & Appraisals" is a nowrap
+       span, so on a 375px phone it could not break and pushed the page 60px
+       sideways. It only needs to stay unbroken where there is room for it. */
+    .smc-nationwide__title span { white-space: normal; }
   }
 
   /* 5. Testimonials --------------------------------------------- */
