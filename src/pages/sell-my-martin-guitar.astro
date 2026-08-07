@@ -1467,6 +1467,29 @@ const structuredData = [
       width: 100%;
       margin-left: 0;
     }
+    /* Mobile cleanup (2026-08-07, per Joe): the left-edge rust triangle and
+       the offset video frame are desktop decorations sized for a short
+       two-column row. Stacked into one tall column they became a huge dark
+       wedge behind the text and a stray outline above the video, so both go
+       away on phones and the white card hugs the content instead. */
+    .smm-meet__row::after {
+      content: none;
+    }
+    .smm-meet__video::before {
+      content: none;
+    }
+    .smm-meet__row::before {
+      top: -24px;
+      bottom: -24px;
+      left: -12px;
+      right: -12px;
+    }
+    .smm-meet__video {
+      padding-top: 0;
+    }
+    .smm-meet {
+      padding: 60px 30px 70px;
+    }
     .smm-split__grid--reverse .smm-split__photo { order: -1; }
     .smm-process__grid { grid-template-columns: 1fr; }
     .smm-banner__left,
