@@ -408,7 +408,7 @@ const structuredData = [
   <section id="how-to-sell-your-guitar" class="smm-split">
     <div class="smm-inner smm-split__grid">
       <div class="smm-split__text">
-        <h2 class="smm-h3">How To Sell Your Vintage<br /> Martin Guitar</h2>
+        <h2 class="smm-h3">How To Sell Your Vintage Martin Guitar</h2>
         <p>
           I travel all over the country buying acoustic guitars, which often means I can come to you and buy yours in person. I want selling a vintage Martin to be as easy and safe as possible, so I handle all the logistics for you. Here is the whole process:
         </p>
@@ -451,7 +451,7 @@ const structuredData = [
         <!-- Retitled from "Discover The Value Of Your Martin Guitar" (2026-08-07):
              the old heading matched no real query; this one matches the worth
              searches the page targets and the section's own anchor id. -->
-        <h2 class="smm-h3">How Much Is My<br /> Martin Guitar Worth?</h2>
+        <h2 class="smm-h3">How Much Is My Martin Guitar Worth?</h2>
         <p>
           It depends on the model, the year, the condition, and how original it is. Send me a few photos and I’ll give you a <a href="/free-appraisal/" class="smm-link"><strong>free appraisal</strong></a> with a clear answer. It’s quick, accurate, and there’s no obligation to sell. To give you a feel for the market, here are the broad ranges from my <a href="/martin-d-28-d-18-d-45-dreadnought-value-guide/" class="smm-link"><strong>Martin D-28, D-18 and D-45 value guide</strong></a>, current as of August 2026:
         </p>
@@ -508,7 +508,7 @@ const structuredData = [
   <section id="best-way-to-sell" class="smm-split">
     <div class="smm-inner smm-split__grid">
       <div class="smm-split__text">
-        <h2 class="smm-h3">Where To Sell Your Martin Guitar<br /> For The Best Price</h2>
+        <h2 class="smm-h3">Where To Sell Your Martin Guitar For The Best Price</h2>
         <p>
           It’s worth understanding the trade-offs between selling privately and selling to a Martin collector or dealer. <strong>A private sale can work out, but I wouldn’t recommend it for a first-time seller with a high-end acoustic worth over $4,000.</strong> There’s real liability in it, especially around shipping and buyer disputes. Martins react to temperature and humidity, so shipping one is tricky and takes know-how to avoid damaging the guitar.
         </p>
@@ -543,7 +543,7 @@ const structuredData = [
         </div>
         <div class="smm-process__card">
           <img src={img("Fair-Cash-2.svg")} alt="Joe’s Vintage Guitars: A Safe Home for Your Beloved Guitar" class="smm-process__icon" />
-          <h4>A Trusted Home For<br /> Your Beloved Martin</h4>
+          <h4>A Trusted Home For Your Beloved Martin</h4>
           <hr class="smm-rule" />
           <p>Over the years I’ve bought a lot of heirlooms and historic acoustics that weren’t being played anymore. When you sell me a vintage Martin, I promise it’ll be appreciated, well cared for, and played the way it should be. I take being a caretaker for these ‘Golden Era’ instruments seriously, and I make sure they go to a good home.</p>
         </div>
@@ -642,7 +642,7 @@ const structuredData = [
   <section id="consider-selling-your-guitar" class="smm-case">
     <div class="smm-inner smm-case__grid">
       <div class="smm-case__text">
-        <h2 class="smm-h3">Looking To Sell?<br /> Joe’s Vintage Guitars Is Ready to Buy</h2>
+        <h2 class="smm-h3">Looking To Sell? Joe’s Vintage Guitars Is Ready to Buy</h2>
         <hr class="smm-rule" />
         <p>
           I love these guitars, and I want them to keep being cherished and played. Whether I keep one myself or pass it to someone who’ll appreciate it as much as I do, I want to honor its history. The stories behind these guitars matter to me as much as the guitars. When I buy one, I hang onto photos of the original owner and the history that comes with it. I write those stories up, print them, fold them, and put them in the case, so the players of the past live on through their instruments.
@@ -713,12 +713,79 @@ const structuredData = [
          not a headstock serial number like Fender, so no dropdown choice)
        - 8 model cards (Fender has 7) — adds Martin Electric Models card
        - Case study uses TWO photos (Copy-of-IMG_1620 + Linda B&W historical)
-       - No "Table of Contents" widget (Fender has one; Martin live doesn't)
+
+     VISUAL SYSTEM (2026-08-07 revamp, per Joe: "more structured and
+     attractive", using the What I Have Paid section as the north star).
+     Copy is untouched; this is presentation only. The rules:
+       - One spacing scale (--smm-section-y) so every band breathes alike
+       - One card treatment (--smm-radius / --smm-shadow) shared by the
+         purchases, process, and model-grid cards
+       - Section headings all get the same centered rule-under-heading
+         treatment; hard <br /> breaks removed so headings wrap naturally
+       - Body copy is left-aligned everywhere (justify caused rivers on
+         narrow columns and phones)
      ============================================================ */
+  .smm-hero,
+  .smm-intro,
+  .smm-meet,
+  .smm-split,
+  .smm-paid,
+  .smm-process,
+  .smm-testi,
+  .smm-banner,
+  .smm-case,
+  .smm-grid {
+    --smm-section-y: 84px;
+    --smm-radius: 6px;
+    --smm-shadow: 0 6px 24px rgba(62, 42, 20, 0.16);
+    --smm-shadow-sm: 0 2px 10px rgba(62, 42, 20, 0.1);
+  }
+  @media (max-width: 900px) {
+    .smm-hero,
+    .smm-intro,
+    .smm-meet,
+    .smm-split,
+    .smm-paid,
+    .smm-process,
+    .smm-testi,
+    .smm-banner,
+    .smm-case,
+    .smm-grid {
+      --smm-section-y: 56px;
+    }
+  }
+
   .smm-inner {
     max-width: 1144px;
     margin: 0 auto;
     padding: 0 24px;
+  }
+
+  /* Shared card treatment — the What I Have Paid card, generalized. */
+  .smm-paid__card,
+  .smm-process__card,
+  .smm-grid__card {
+    background: #fff;
+    border-radius: var(--smm-radius);
+    box-shadow: var(--smm-shadow-sm);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .smm-paid__card:hover,
+  .smm-process__card:hover,
+  .smm-grid__card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--smm-shadow);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .smm-paid__card,
+    .smm-process__card,
+    .smm-grid__card { transition: none; }
+    .smm-paid__card:hover,
+    .smm-process__card:hover,
+    .smm-grid__card:hover { transform: none; }
   }
 
   /* 1. Hero — solid linear-gradient (NO photo, unlike Fender).
@@ -726,7 +793,11 @@ const structuredData = [
   .smm-hero {
     position: relative;
     isolation: isolate;
-    background: linear-gradient(180deg, #612211 0%, #682412 100%);
+    /* Radial highlight over the flat brand gradient gives the hero some
+       depth without introducing a photo. */
+    background:
+      radial-gradient(120% 90% at 50% 15%, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0) 60%),
+      linear-gradient(180deg, #612211 0%, #682412 100%);
     color: #fff;
     padding: 250px 24px 60px;
     text-align: center;
@@ -759,13 +830,14 @@ const structuredData = [
   }
   .smm-hero__subtitle {
     font-family: var(--font-display);
-    font-size: clamp(32px, 4.5vw, 56px);
+    font-size: clamp(30px, 4.2vw, 54px);
     font-weight: 600;
     color: #fff;
-    margin: 0 auto 24px;
+    margin: 0 auto 28px;
     max-width: 1000px;
     line-height: 1.18;
     letter-spacing: 0.01em;
+    text-wrap: balance;
   }
   .smm-hero__rule {
     height: 3px;
@@ -778,7 +850,7 @@ const structuredData = [
   /* 2. Intro + Form ------------------------------------------- */
   .smm-intro {
     background: var(--color-brand-cream-warm, #f5e7c8);
-    padding: 60px 0;
+    padding: var(--smm-section-y) 0;
     color: var(--color-brand-brown);
   }
   .smm-intro__grid {
@@ -795,8 +867,7 @@ const structuredData = [
   }
   .smm-intro__lede {
     margin: 0;
-    line-height: 1.7;
-    text-align: justify;
+    line-height: 1.75;
     color: var(--color-brand-brown);
   }
   .smm-intro__lede strong { color: var(--color-brand-rust-dark); }
@@ -868,7 +939,7 @@ const structuredData = [
   /* Same "white card + rust triangle" structural pattern as Fender. */
   .smm-meet {
     background: var(--color-brand-cream, #eedfc0);
-    padding: 100px 30px 120px;
+    padding: calc(var(--smm-section-y) + 30px) 30px calc(var(--smm-section-y) + 40px);
   }
   .smm-meet__row {
     position: relative;
@@ -947,8 +1018,7 @@ const structuredData = [
   }
   .smm-meet__panel p {
     margin: 0 0 12px;
-    line-height: 1.7;
-    text-align: justify;
+    line-height: 1.75;
     color: var(--color-brand-brown);
   }
   .smm-meet__panel a { color: var(--color-brand-rust-dark); text-decoration: underline; font-weight: 600; }
@@ -962,62 +1032,95 @@ const structuredData = [
   }
 
   /* 4-6. Text + image splits --------------------------------- */
-  .smm-split { background: #fff; padding: 60px 0; }
+  .smm-split { background: #fff; padding: var(--smm-section-y) 0; }
   .smm-split--alt { background: var(--color-brand-cream-light, #f6e9cf); }
   .smm-split__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 56px;
     align-items: center;
   }
-  .smm-split__text p { line-height: 1.7; margin: 0 0 14px; text-align: justify; color: var(--color-brand-brown); }
+  .smm-split__text p {
+    line-height: 1.75;
+    margin: 0 0 16px;
+    color: var(--color-brand-brown);
+  }
+  .smm-split__text p:last-child { margin-bottom: 0; }
+  /* Photo frame — the offset rust outline gives split photos the same
+     deliberate framing the card sections have. */
+  .smm-split__photo {
+    position: relative;
+    isolation: isolate;
+  }
+  .smm-split__photo::before {
+    content: "";
+    position: absolute;
+    inset: 18px -18px -18px 18px;
+    border: 3px solid var(--color-brand-rust-bright);
+    border-radius: var(--smm-radius);
+    z-index: -1;
+  }
   .smm-split__photo img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 4px;
-    box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
+    border-radius: var(--smm-radius);
+    box-shadow: var(--smm-shadow);
+  }
+  @media (max-width: 900px) {
+    /* The offset frame would hang off the viewport edge once stacked. */
+    .smm-split__photo::before { content: none; }
   }
 
-  /* Worth-range table (mirrors the dreadnought value guide) ----- */
+  /* Worth-range table — a defined data panel, not a bare table ---- */
   .smm-worth {
     width: 100%;
     border-collapse: collapse;
-    margin: 0 0 14px;
+    margin: 0 0 18px;
     font-size: 15px;
+    background: #fff;
+    border-radius: var(--smm-radius);
+    overflow: hidden;
+    box-shadow: var(--smm-shadow-sm);
   }
+  .smm-split--alt .smm-worth { background: #fff; }
   .smm-worth td {
-    padding: 8px 10px;
-    border-bottom: 1px solid rgba(104, 36, 18, 0.18);
+    padding: 11px 16px;
+    border-bottom: 1px solid rgba(104, 36, 18, 0.12);
     color: var(--color-brand-brown);
     text-align: left;
   }
-  .smm-worth tr:first-child td {
-    border-top: 1px solid rgba(104, 36, 18, 0.18);
-  }
+  .smm-worth tr:last-child td { border-bottom: none; }
+  .smm-worth tr:nth-child(odd) td { background: rgba(104, 36, 18, 0.035); }
   .smm-worth td:last-child {
     text-align: right;
     font-family: var(--font-display);
-    font-weight: 600;
+    font-weight: 700;
     color: var(--color-brand-rust-dark);
     white-space: nowrap;
   }
   .smm-worth__note {
     font-size: 14px;
+    line-height: 1.7;
   }
   @media (max-width: 400px) {
     /* Under heavy font scaling the nowrap price column could overflow; let
        the prices wrap when space truly runs out. */
     .smm-worth td:last-child { white-space: normal; }
+    .smm-worth td { padding: 10px 12px; }
   }
 
-  /* 4-step process list ---------------------------------------- */
+  /* 4-step process list — a defined panel so the steps read as a unit --- */
   .smm-steps {
     counter-reset: smm-step;
     list-style: none;
-    margin: 0 0 18px;
-    padding: 0;
+    margin: 0 0 20px;
+    padding: 24px 24px 10px;
+    background: var(--color-brand-cream-light, #f6e9cf);
+    border-radius: var(--smm-radius);
+    border-left: 4px solid var(--color-brand-rust-bright);
   }
+  .smm-split--alt .smm-steps { background: #fff; }
   .smm-steps li {
     counter-increment: smm-step;
     position: relative;
@@ -1047,17 +1150,32 @@ const structuredData = [
     color: var(--color-brand-rust-dark);
   }
 
-  /* Shared H3 */
+  /* Shared section heading — every section title gets the same treatment:
+     display face, rust, and a short accent rule underneath so the page
+     reads as a set of clearly separated blocks. */
   .smm-h3 {
     font-family: var(--font-display);
     font-size: clamp(28px, 3vw, 38px);
     font-weight: 600;
     color: var(--color-brand-rust-dark);
-    margin: 0 0 18px;
+    margin: 0 0 20px;
     line-height: 1.2;
     letter-spacing: 0.01em;
+    text-wrap: balance;
+  }
+  .smm-h3::after {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 3px;
+    margin-top: 14px;
+    background: var(--color-brand-rust-bright);
+    border-radius: 2px;
   }
   .smm-h3--center { text-align: center; }
+  .smm-h3--center::after { margin-left: auto; margin-right: auto; }
+  /* On the dark bands the accent reads better in gold. */
+  .smm-paid__heading::after { background: var(--color-brand-gold, #c8983a); }
   .smm-rule {
     border: none;
     border-top: 3px solid var(--color-brand-rust-bright);
@@ -1071,7 +1189,7 @@ const structuredData = [
   .smm-paid {
     background: var(--color-brand-rust-dark);
     color: var(--color-brand-cream);
-    padding: 70px 0 80px;
+    padding: var(--smm-section-y) 0;
   }
   .smm-paid__heading {
     color: var(--color-brand-cream);
@@ -1089,13 +1207,14 @@ const structuredData = [
     gap: 28px;
     align-items: stretch;
   }
+  /* Cream (not white) on the dark rust band is what makes these pop; the
+     rest of the card treatment comes from the shared rule. */
   .smm-paid__card {
     background: var(--color-brand-cream, #eedfc0);
-    border-radius: 4px;
-    overflow: hidden;
+    border-radius: var(--smm-radius);
     text-align: center;
-    padding-bottom: 16px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    padding-bottom: 18px;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.2);
   }
   .smm-paid__card img {
     width: 100%;
@@ -1160,40 +1279,44 @@ const structuredData = [
   }
   @media (max-width: 600px) {
     .smm-paid__grid { grid-template-columns: 1fr; }
-    .smm-paid { padding: 50px 0; }
   }
 
   /* 7. Buying Process ---------------------------------------- */
-  .smm-process { background: var(--color-brand-cream-light, #f6e9cf); padding: 70px 0; }
+  .smm-process { background: var(--color-brand-cream-light, #f6e9cf); padding: var(--smm-section-y) 0; }
   .smm-process__grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    align-items: start;
-    margin-top: 36px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    align-items: stretch;
+    margin-top: 40px;
   }
-  .smm-process__card { text-align: center; }
+  /* Card shell comes from the shared rule; this is the inner layout. */
+  .smm-process__card {
+    text-align: center;
+    padding: 34px 26px 30px;
+  }
   .smm-process__icon {
-    width: 130px;
-    height: 121px;
+    width: 104px;
+    height: 97px;
     margin: 0 auto 18px;
     display: block;
   }
   .smm-process__card h4 {
     font-family: var(--font-display);
-    font-size: clamp(20px, 2.2vw, 26px);
+    font-size: clamp(19px, 2vw, 23px);
     color: var(--color-brand-rust-dark);
     margin: 0 0 8px;
     line-height: 1.25;
+    text-wrap: balance;
   }
-  .smm-process__card .smm-rule { margin: 8px auto 16px; }
-  .smm-process__card p { line-height: 1.7; color: var(--color-brand-brown); margin: 0; }
+  .smm-process__card .smm-rule { margin: 10px auto 16px; }
+  .smm-process__card p { line-height: 1.7; color: var(--color-brand-brown); margin: 0; font-size: 15px; }
 
   /* 8. Testimonials ------------------------------------------ */
   .smm-testi {
     background: var(--color-brand-rust-dark);
     color: var(--color-brand-cream);
-    padding: 70px 0 80px;
+    padding: var(--smm-section-y) 0;
     position: relative;
   }
   .smm-testi__title {
@@ -1368,7 +1491,7 @@ const structuredData = [
   .smm-banner__left {
     background: #dc4a1e;
     color: #fff;
-    padding: 30px 8% 30px 3%;
+    padding: 44px 8% 44px 3%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -1381,6 +1504,7 @@ const structuredData = [
     margin: 0;
     line-height: 1.25;
     max-width: 660px;
+    text-wrap: balance;
   }
   .smm-banner__right {
     background: var(--color-brand-cream);
@@ -1391,7 +1515,7 @@ const structuredData = [
   }
 
   /* 10. Case study + Linda's photos --------------------------- */
-  .smm-case { background: #fff; padding: 70px 0 60px; }
+  .smm-case { background: #fff; padding: var(--smm-section-y) 0; }
   .smm-case__grid {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -1400,7 +1524,10 @@ const structuredData = [
   }
   .smm-case__text p { line-height: 1.7; margin: 0 0 14px; color: var(--color-brand-brown); }
   .smm-case__text strong { color: var(--color-brand-rust-dark); }
-  .smm-case__sub { font-size: clamp(20px, 2.2vw, 26px); margin-top: 24px; }
+  /* Sub-heading inside the case study — no accent rule, so the section's
+     own heading stays visually dominant. */
+  .smm-case__sub { font-size: clamp(20px, 2.2vw, 26px); margin-top: 28px; }
+  .smm-case__sub::after { content: none; }
   /* Linda case study has TWO photos stacked vertically (Martin owner + historic Linda) */
   .smm-case__photos {
     display: flex;
@@ -1411,18 +1538,20 @@ const structuredData = [
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 4px;
-    box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
+    border-radius: var(--smm-radius);
+    box-shadow: var(--smm-shadow);
   }
 
   /* 11. Top Dollar grid (8 cards) ---------------------------- */
-  .smm-grid { background: var(--color-brand-cream-light, #f6e9cf); padding: 70px 0 80px; }
+  .smm-grid { background: var(--color-brand-cream-light, #f6e9cf); padding: var(--smm-section-y) 0; }
   .smm-grid__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 36px 28px;
     margin-top: 36px;
   }
+  /* Card shell comes from the shared rule (matches the purchases cards);
+     the image sits flush to the card edge and the copy is padded. */
   .smm-grid__card { text-align: center; }
   .smm-grid__card img {
     width: 100%;
@@ -1430,17 +1559,22 @@ const structuredData = [
     aspect-ratio: 3 / 2;
     object-fit: cover;
     display: block;
-    border-radius: 4px;
-    margin-bottom: 14px;
+    margin-bottom: 0;
   }
   .smm-grid__card h4 {
     font-family: var(--font-display);
     font-size: clamp(18px, 1.8vw, 22px);
     color: var(--color-brand-rust-dark);
     text-transform: uppercase;
-    margin: 0 0 8px;
+    margin: 16px 18px 8px;
+    line-height: 1.25;
   }
-  .smm-grid__card p { font-size: 14px; line-height: 1.6; color: var(--color-brand-brown); margin: 0; }
+  .smm-grid__card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--color-brand-brown);
+    margin: 0 18px 20px;
+  }
   .smm-grid__card p a { color: var(--color-brand-rust-dark); text-decoration: underline; }
   .smm-grid__card p strong { color: var(--color-brand-rust-dark); }
 
@@ -1488,20 +1622,26 @@ const structuredData = [
       padding-top: 0;
     }
     .smm-meet {
-      padding: 60px 30px 70px;
+      padding: var(--smm-section-y) 24px;
     }
+    .smm-split__grid { gap: 36px; }
     .smm-split__grid--reverse .smm-split__photo { order: -1; }
-    .smm-process__grid { grid-template-columns: 1fr; }
+    /* Stacked cards get a capped measure so they do not stretch the full
+       tablet width with centered copy. */
+    .smm-process__grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin: 30px auto 0;
+      max-width: 560px;
+    }
     .smm-banner__left,
-    .smm-banner__right { justify-content: center; padding: 30px 24px; }
+    .smm-banner__right { justify-content: center; padding: 34px 24px; }
     .smm-banner__left h2 { text-align: center; }
     .smm-grid__cards { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 600px) {
-    .smm-hero { padding: 180px 16px 40px; }
-    .smm-intro { padding: 40px 0; }
-    .smm-meet, .smm-split, .smm-process, .smm-testi, .smm-case, .smm-grid { padding: 50px 0; }
-    .smm-meet__panel { padding: 24px; }
-    .smm-grid__cards { grid-template-columns: 1fr; }
+    .smm-hero { padding: 180px 16px 44px; }
+    .smm-meet__panel { padding: 22px 20px; }
+    .smm-grid__cards { grid-template-columns: 1fr; gap: 20px; }
   }
 </style>
