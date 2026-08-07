@@ -1,4 +1,5 @@
 ---
+import type { ImageMetadata } from "astro";
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
@@ -135,6 +136,61 @@ const models = [
     alt: "Martin GPC Acoustic Guitar with Rich Tone and Smooth Playability",
     title: "Martin Electric Models",
     body: "Looking for <a href=\"/post/martin-d18e-vs-d28e-authentication-guide/\" class=\"smm-link\">rare 1960s Martin electrics</a> and thin-line hollow bodies. These models have an unusual place in Martin’s history, and I appreciate them.",
+  },
+];
+
+// Seven documented purchases with the prices Joe actually paid — the fact record
+// is VG-0117 in joes-vintage-databases (PR #3 pending). Photos are Joe's own
+// purchase shots from Downloads, resized to 800x1200 JPEG via sharp this session.
+// Two entries were adjusted from Joe's list pending his confirmation:
+//   - Joe wrote "1945 Martin D-19"; the photo shows a D-18 and Martin did not
+//     introduce the D-19 until the late 1970s, so it renders as D-18.
+//   - Joe wrote "19312" for the 0-18K year; renders as "Early 1930s" until Joe
+//     pins 1931 or 1932.
+// Sorted by price descending so the D-28 leads.
+const purchases: { img: ImageMetadata; alt: string; title: string; price: string; note?: string }[] = [
+  {
+    img: imgMeta("1947-martin-d-28-purchase-800x1200.jpg"),
+    alt: "Vintage 1947 Martin D-28 Acoustic Guitar Purchased by Joe's Vintage Guitars",
+    title: "1947 Martin D-28",
+    price: "$28,000",
+  },
+  {
+    img: imgMeta("1945-martin-d-18-purchase-800x1200.jpg"),
+    alt: "Vintage 1945 Martin D-18 Acoustic Guitar Purchased by Joe's Vintage Guitars",
+    title: "1945 Martin D-18",
+    price: "$13,000",
+  },
+  {
+    img: imgMeta("1949-martin-000-28-purchase-800x1200.jpg"),
+    alt: "Vintage 1949 Martin 000-28 Acoustic Guitar Purchased by Joe's Vintage Guitars",
+    title: "1949 Martin 000-28",
+    price: "$11,000",
+  },
+  {
+    img: imgMeta("1976-martin-000-45-purchase-800x1200.jpg"),
+    alt: "Rare 1976 Martin 000-45 Acoustic Guitar Purchased by Joe's Vintage Guitars",
+    title: "1976 Martin 000-45",
+    price: "$8,900",
+    note: 'Read the <a href="/post/1976-martin-000-45-specs-history-value-guide/" class="smm-link">full story of this rare 000-45</a>.',
+  },
+  {
+    img: imgMeta("1947-martin-00-21-purchase-800x1200.jpg"),
+    alt: "Vintage 1947 Martin 00-21 Acoustic Guitar Purchased by Joe's Vintage Guitars",
+    title: "1947 Martin 00-21",
+    price: "$7,500",
+  },
+  {
+    img: imgMeta("1960-martin-000-18-purchase-800x1200.jpg"),
+    alt: "Vintage 1960 Martin 000-18 Acoustic Guitar Purchased by Joe's Vintage Guitars",
+    title: "1960 Martin 000-18",
+    price: "$6,700",
+  },
+  {
+    img: imgMeta("1930s-martin-0-18k-purchase-800x1200.jpg"),
+    alt: "Early 1930s Martin 0-18K Koa Acoustic Guitar Purchased by Joe's Vintage Guitars",
+    title: "Early 1930s Martin 0-18K",
+    price: "$5,000",
   },
 ];
 
@@ -319,6 +375,34 @@ const structuredData = [
         <p>
           The big question for any owner is what the guitar is actually worth. Send me a few photos and I’ll give you a <a href="/free-appraisal/" class="smm-link"><strong>free appraisal</strong></a> with a clear answer. It’s quick, accurate, and there’s no obligation to sell. I’ve also written a guide on <a href="/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/" class="smm-link"><strong>how to determine the value of your old Martin acoustic guitar</strong></a> if you want to dig in. And you can research the history yourself: a good place to start is my <a href="/martin-serial-and-model-numbers/" class="smm-link"><strong>Martin Serial Number Guide</strong></a>, which helps you pin down the exact year and production details. You might be just curious, or you might be ready to sell. Either way, I’ll make sure you have what you need.
         </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5b. What I Have Paid — seven documented purchases with the real cash
+       prices Joe paid (fact record VG-0117, joes-vintage-databases PR #3).
+       NEW section (not on live) — dark rust background so the proof pops
+       between the cream value section and the white Where To Sell split. -->
+  <section id="what-i-have-paid-for-vintage-martin-guitars" class="smm-paid">
+    <div class="smm-inner">
+      <h3 class="smm-h3 smm-h3--center smm-paid__heading">What I Have Paid For Vintage Martin Guitars</h3>
+      <p class="smm-paid__lede">
+        Sellers always want to know what a dealer will really pay. Here are seven vintage Martins I bought, along with the actual cash price I paid for each one. Every guitar is different, so what I pay for yours depends on its year, condition, and originality.
+      </p>
+      <div class="smm-paid__grid">
+        {purchases.map((g) => (
+          <div class="smm-paid__card">
+            <LicensedImage src={g.img} alt={g.alt} width={400} />
+            <h4>{g.title}</h4>
+            <p class="smm-paid__price"><span class="smm-paid__label">I Paid</span>{g.price}</p>
+            {g.note && <p class="smm-paid__note" set:html={g.note} />}
+          </div>
+        ))}
+        <div class="smm-paid__card smm-paid__card--cta">
+          <h4>Your Martin Could Be Next</h4>
+          <p>Send me a few photos and I will tell you what your Martin is worth. The appraisal is free, and there is no obligation to sell.</p>
+          <a href="/free-appraisal/" class="smm-btn smm-btn--rust">Get A Free Appraisal</a>
+        </div>
       </div>
     </div>
   </section>
@@ -857,6 +941,102 @@ const structuredData = [
   }
   .smm-link { color: var(--color-brand-rust-dark); text-decoration: underline; }
   .smm-link:hover { color: var(--color-brand-rust-bright); }
+
+  /* 5b. What I Have Paid — dark rust proof section ------------ */
+  .smm-paid {
+    background: var(--color-brand-rust-dark);
+    color: var(--color-brand-cream);
+    padding: 70px 0 80px;
+  }
+  .smm-paid__heading {
+    color: var(--color-brand-cream);
+  }
+  .smm-paid__lede {
+    max-width: 780px;
+    margin: 0 auto 40px;
+    text-align: center;
+    line-height: 1.7;
+    color: var(--color-brand-cream);
+  }
+  .smm-paid__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+    align-items: stretch;
+  }
+  .smm-paid__card {
+    background: var(--color-brand-cream, #eedfc0);
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  }
+  .smm-paid__card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    display: block;
+  }
+  .smm-paid__card h4 {
+    font-family: var(--font-display);
+    font-size: clamp(17px, 1.7vw, 21px);
+    color: var(--color-brand-rust-dark);
+    text-transform: uppercase;
+    line-height: 1.25;
+    margin: 14px 12px 6px;
+  }
+  .smm-paid__price {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 2.3vw, 30px);
+    font-weight: 700;
+    color: var(--color-brand-rust-bright);
+    margin: 0 12px;
+    line-height: 1.1;
+  }
+  .smm-paid__label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-brand-brown);
+    margin-bottom: 2px;
+  }
+  .smm-paid__note {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--color-brand-brown);
+    margin: 8px 14px 0;
+  }
+  .smm-paid__card--cta {
+    background: transparent;
+    border: 2px solid var(--color-brand-cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 28px 20px;
+  }
+  .smm-paid__card--cta h4 {
+    color: var(--color-brand-cream);
+    margin: 0;
+  }
+  .smm-paid__card--cta p {
+    color: var(--color-brand-cream);
+    line-height: 1.6;
+    margin: 0;
+    font-size: 14px;
+  }
+  @media (max-width: 1024px) {
+    .smm-paid__grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .smm-paid__grid { grid-template-columns: 1fr; }
+    .smm-paid { padding: 50px 0; }
+  }
 
   /* 7. Buying Process ---------------------------------------- */
   .smm-process { background: var(--color-brand-cream-light, #f6e9cf); padding: 70px 0; }
