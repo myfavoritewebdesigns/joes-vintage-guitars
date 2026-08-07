@@ -63,7 +63,7 @@ const background = [
   },
   {
     title: "Specializations",
-    body: "Pre-War <strong>Martin Guitars</strong> (Herringbone/Scalloped Bracing eras), Golden Era <strong>Gibson Electrics and Archtops</strong> (1920s-1960s), and Vintage <strong>Fender</strong> Custom Color guitars.",
+    body: "<a href=\"/sell-my-martin-guitar/\">Pre-War <strong>Martin Guitars</strong></a> (Herringbone/Scalloped Bracing eras), Golden Era <strong>Gibson Electrics and Archtops</strong> (1920s-1960s), and Vintage <strong>Fender</strong> Custom Color guitars.",
   },
 ];
 
@@ -635,6 +635,17 @@ const licensedImages = await buildImageGraph([
     z-index: 1;
   }
   .about-card__body { padding-top: 8px; }
+  /* set:html card bodies can carry inline links (e.g. the Specializations
+     card links the Martin sell page); scoped selectors miss injected HTML,
+     hence :global(). */
+  .about-card__body :global(a) {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .about-card__body :global(a:hover) {
+    color: var(--color-brand-rust-bright);
+  }
   .about-card h4 {
     font-family: var(--font-script);
     font-weight: 500;
