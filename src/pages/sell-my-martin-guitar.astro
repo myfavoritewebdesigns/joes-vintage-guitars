@@ -10,14 +10,17 @@ import { buildImageGraph } from "../lib/imageLicense";
 import { SITE_URL, contact } from "../config/site";
 import testimonialsRaw from "../../reference/martin-testimonials.json";
 
-// Reviews — sourced from reference/martin-testimonials.json (3 Martin-specific
-// reviews scraped from the live page's ProfessionalService JSON-LD and rendered
-// testimonial cards). All 5-star; stars are rendered uniformly by the template
-// — no need to store rating per review.
+// Reviews — sourced from reference/martin-testimonials.json. All 5-star;
+// stars are rendered uniformly by the template — no need to store rating
+// per review. Review bodies are VERBATIM quoted material and must never be
+// edited (dash/pattern exceptions live in reports/seo-v2/copy-allowlist.json).
 //
-// Note: Fender's page v10 (2026-05-26) bumped from 3 -> 6 reviews per user
-// request. Martin starts at 3 to match live exactly; can be bumped later if
-// the same pattern is desired here.
+// v2 (2026-08-07, per Joe): bumped 3 -> 6 to match Fender's v10 pattern.
+// The Scott Wolfe repair review was dropped (repair intent on a selling
+// page); the only two Martin-naming Google reviews in the corpus (Adrienne
+// Young, Tony Michaud) lead, then four brand-neutral SELLING reviews from
+// reference/testimonials.json fill out the set, exactly as Joe asked:
+// Martin-specific first, brand-neutral where we run out.
 const reviews: { name: string; link: string; body: string }[] = testimonialsRaw;
 
 // Instagram reels — exact post permalinks from live's sell-my-martin page.
