@@ -342,6 +342,31 @@ const structuredData = [
                what Joe will ask for before they ever hit the form. -->
           <p class="smm-intro__caption">The model and serial number are stamped on the neck block, visible through the soundhole. Include both in your message if you can.</p>
         </div>
+
+        <!-- Table of contents (2026-08-07, per Joe) — same details widget the
+             Fender page carries. Labels match the section h2s; anchors are the
+             page's stable section IDs, which feed jump-to sitelinks. -->
+        <details class="smm-toc">
+          <summary>
+            <span class="smm-toc__title">Table Of Contents</span>
+            <svg class="smm-toc__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </summary>
+          <ul class="smm-toc__list">
+            <li><a href="#meet-connoisseur-joe-dampt">Introducing Joe Dampt, A Martin Guitar Connoisseur</a></li>
+            <li><a href="#how-to-sell-your-guitar">How To Sell Your Vintage Martin Guitar</a></li>
+            <li><a href="#how-much-is-my-martin-guitar">How Much Is My Martin Guitar Worth?</a></li>
+            <li><a href="#what-i-have-paid-for-vintage-martin-guitars">What I Have Paid For Vintage Martin Guitars</a></li>
+            <li><a href="#best-way-to-sell">Where To Sell Your Martin Guitar For The Best Price</a></li>
+            <li><a href="#my-guitar-buying-process">My Guitar Buying Process</a></li>
+            <li><a href="#our-clients-testimonials">Our Clients’ Testimonials</a></li>
+            <li><a href="#find-out-martin-really-worth">Identify Your Martin Guitar’s Model &amp; Value</a></li>
+            <li><a href="#consider-selling-your-guitar">Looking To Sell? Joe’s Vintage Guitars Is Ready to Buy</a></li>
+            <li><a href="#receive-the-highest-payout">Receive The Best Cash Deal for Your Vintage Martin Guitars</a></li>
+            <li><a href="#faqs-about-martin">FAQs About Vintage Martin Guitars</a></li>
+          </ul>
+        </details>
       </div>
 
       <!-- RIGHT: shared lead form -->
@@ -789,6 +814,40 @@ const structuredData = [
     border-radius: 4px;
   }
   .smm-underline { text-decoration: underline; }
+  /* Table of contents — same details widget pattern as the Fender page */
+  .smm-toc {
+    margin-top: 18px;
+    border-radius: 6px;
+    background: var(--color-brand-rust-dark);
+    color: #fff;
+    overflow: hidden;
+  }
+  .smm-toc summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    font-family: var(--font-display);
+  }
+  .smm-toc summary::-webkit-details-marker { display: none; }
+  .smm-toc__title { font-size: 16px; }
+  .smm-toc__icon { color: #fff; }
+  .smm-toc[open] .smm-toc__icon { transform: rotate(90deg); transition: transform 0.2s; }
+  .smm-toc__list {
+    margin: 0;
+    padding: 0 18px 14px 36px;
+    list-style: disc;
+    color: var(--color-brand-cream);
+  }
+  .smm-toc__list li { margin: 6px 0; font-size: 14px; line-height: 1.4; }
+  .smm-toc__list a {
+    color: var(--color-brand-cream);
+    text-decoration: none;
+  }
+  .smm-toc__list a:hover { text-decoration: underline; }
   .smm-intro__caption {
     margin: 10px auto 0;
     font-size: 13px;
