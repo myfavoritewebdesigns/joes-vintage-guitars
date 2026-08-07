@@ -7,8 +7,7 @@ import LeadForm from "../components/LeadForm.astro";
 import InstagramEmbeds from "../components/InstagramEmbeds.astro";
 import FAQ from "../components/FAQ.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { buildImageGraph } from "../lib/imageLicense";
-import { SITE_URL, contact } from "../config/site";
+import { SITE_URL, contact, hrefs } from "../config/site";
 import testimonialsRaw from "../../reference/martin-testimonials.json";
 
 // Reviews — sourced from reference/martin-testimonials.json. All 5-star;
@@ -59,8 +58,14 @@ const imgMeta = (file: string) => resolveImage("images/sell-martin/" + file)!;
 // Featured image — used for ogImage + intro section's serial-number-locator photo.
 const FEATURED_IMG = img("sell-my-martin-guitar-featured-image.jpg");
 
-// FAQs sourced from live JSON-LD (reference/sell-my-martin-jsonld.json, FAQPage entity).
-// Toggle IDs match live's `panel-` / `toggle_` IDs so anchor links from external pages still work.
+// FAQs — v2 (2026-08-07, per Joe): 5 -> 9. The original five came from the live
+// JSON-LD (reference/sell-my-martin-jsonld.json); kept questions keep their live
+// toggle_ IDs so external anchor links still work. The old documentation
+// question (toggle_2ebbbd8a61ddcff50) was a near-duplicate of the paperwork one
+// and is folded into it (grep confirmed no inbound links to that id). New
+// answers reuse only published claims: payment methods from the homepage FAQ,
+// same-day payment from about-me, neck-block stamp location per VG-0077, and
+// the originality ordering per VG-0112.
 const faqs = [
   {
     id: "toggle_15bcac79451840ec9",
@@ -68,9 +73,9 @@ const faqs = [
     a: "Work with someone who specializes in vintage and high-end acoustics. I’ve handled a lot of Martins and I know the details that actually move the value: model variations, serial numbers, tonewoods, and original parts. I base every evaluation on current market trends and years of hands-on work, so you get a clear, honest read on what your guitar is worth.",
   },
   {
-    id: "toggle_667a03873c0f1b397",
-    q: "Can I Sell My Vintage Martin Guitar Without Original Paperwork?",
-    a: "Yes, you can sell a vintage Martin without the original paperwork. A bill of sale or warranty card helps, but it’s not required to confirm authenticity or value. I inspect each guitar closely to verify its originality and condition. I’ve bought and appraised plenty of valuable Martins with no paperwork at all. What matters is the guitar itself.",
+    id: "toggle_martin_worth_01",
+    q: "How Much Is My Vintage Martin Guitar Worth?",
+    a: "It depends on the model, the year, the condition, and how original it is. Pre-war models and Brazilian rosewood guitars sit at the top of the market, and clean, all-original examples bring the most. The fastest way to a real answer is to send me a few photos for a free appraisal. I’ll tell you exactly what you have and what it’s worth in today’s market, with no obligation to sell.",
   },
   {
     id: "toggle_30d237965adcb2a03",
@@ -83,9 +88,35 @@ const faqs = [
     a: "Yes. A few Martin models are always in demand with collectors and players: pre-war D-28s and D-18s, 1930s OM and 000 models, and anything with Brazilian rosewood. Limited editions and clean, well-kept vintage instruments draw strong interest too. I know how to spot these high-value models and can tell you exactly what you have and where it sits in today’s market.",
   },
   {
-    id: "toggle_2ebbbd8a61ddcff50",
-    q: "What Documentation Is Needed To Accurately Value A Vintage Martin Guitar?",
-    a: "Documentation adds context, but it’s not required to assess a vintage Martin accurately. My process covers the serial number, the tonewoods and hardware, and the guitar’s originality and condition. Clear photos and any history you know help, but even with no paperwork I can give you a reliable, well-documented appraisal.",
+    id: "toggle_martin_clean_02",
+    q: "Should I Clean Or Repair My Martin Before Selling It?",
+    a: "No, please don’t. Leave it exactly as it is. A well-meant cleaning or a quick repair can actually hurt the value of a vintage Martin, because collectors pay for originality, right down to the dust and the worn spots. Don’t polish it and don’t have anything fixed. Send me photos of the guitar as it sits and let me take a look first.",
+  },
+  {
+    id: "toggle_martin_damage_03",
+    q: "Do You Buy Martins With Cracks, Repairs, Or A Refinish?",
+    a: "Yes. Old Martins have usually lived a little, and cracks, repairs, and even refinishes don’t scare me off. Condition and originality change the offer, not my interest. A worn guitar with its original finish is often worth more than one that’s been made pretty again, so don’t assume yours is too rough to sell. Send photos and I’ll give you a straight answer.",
+  },
+  {
+    id: "toggle_martin_inherited_04",
+    q: "How Do I Sell An Inherited Martin Guitar?",
+    a: "Start with photos, even if you don’t know what the guitar is. The model and serial number are stamped on the neck block inside the body, visible through the soundhole, so include a shot of that stamp if you can. I’ll identify the guitar, tell you what year it was made, and give you a free appraisal so your family knows its fair value. No paperwork is needed, and I make a point of preserving the story that comes with the guitar.",
+  },
+  {
+    id: "toggle_667a03873c0f1b397",
+    q: "Can I Sell My Vintage Martin Guitar Without Original Paperwork?",
+    a: "Yes, you can sell a vintage Martin without the original paperwork. A bill of sale or warranty card adds context, but it’s not required to confirm authenticity or value. I inspect each guitar closely to verify its originality and condition, and I’ve bought and appraised plenty of valuable Martins with no paperwork at all. Clear photos and any history you know help, but what matters is the guitar itself.",
+  },
+  {
+    id: "toggle_martin_payment_05",
+    q: "How And How Fast Do I Get Paid?",
+    a: "Fast. My average turnaround for payment is the same day. I can often travel to you and pay cash in person, and if we ship instead I can pay by money order, Venmo, PayPal, Cashapp, Zelle, or bank transfer. More than one seller has had the money in their account before leaving the FedEx parking lot.",
+  },
+  {
+    // Answer follows VG-0079's approved wording (pre-war definition + premium).
+    id: "toggle_martin_prewar_06",
+    q: "What Does Pre-War Mean For Martin Guitars?",
+    a: "Collectors use pre-war for Martins built before the WWII era spec changes, roughly 1944 and earlier, with 1930s examples the most coveted. These typically carry a meaningful premium over comparable post-war guitars, though actual value still depends on the model, condition, and originality. If you’re not sure where yours lands, send me photos and I’ll tell you.",
   },
 ];
 
@@ -134,8 +165,9 @@ const models = [
     body: "Buying high-trim Martin dreadnoughts. I know the original abalone pearl inlay and the rare early production numbers.",
   },
   {
-    // Stays a public/ string path — this file only exists in public/images/sell-martin/.
-    img: img("1959-martin-d-28-e-1-1024x683.jpg"),
+    // Migrated into the image pipeline 2026-08-07 (was a raw 122 KB public/ JPEG;
+    // the public/ copy stays in place so any indexed image URL keeps resolving).
+    img: imgMeta("1959-martin-d-28-e-1-1024x683.jpg"),
     alt: "1959 Martin D-28E Electric Acoustic Guitar at Joe's Vintage Guitars",
     title: "Martin Electric Models",
     body: "Looking for <a href=\"/post/martin-d18e-vs-d28e-authentication-guide/\" class=\"smm-link\">rare 1960s Martin electrics</a> and thin-line hollow bodies. These models have an unusual place in Martin’s history, and I appreciate them.",
@@ -196,16 +228,6 @@ const purchases: { img: ImageMetadata; alt: string; title: string; price: string
   },
 ];
 
-// One model card (the Martin Electric / d-28-e) only exists in public/ and renders
-// as a raw <img> via img() (string src), so it is licensed here with its exact
-// rendered src. Every other content photo self-licenses via <LicensedImage>.
-const licensedImages = await buildImageGraph([
-  {
-    renderedSrc: img("1959-martin-d-28-e-1-1024x683.jpg"),
-    alt: "1959 Martin D-28E Electric Acoustic Guitar at Joe's Vintage Guitars",
-  },
-]);
-
 // Page-specific JSON-LD: FAQPage + BreadcrumbList + Article.
 // Mirrors live JSON-LD blocks 1 (BreadcrumbList + Article), 4 (FAQPage).
 const structuredData = [
@@ -217,12 +239,7 @@ const structuredData = [
       name: f.q,
       acceptedAnswer: {
         "@type": "Answer",
-        text: f.a
-          .replace(/’/g, "’")
-          .replace(/‘/g, "‘")
-          .replace(/—/g, "—")
-          .replace(/–/g, "–")
-          .replace(/<[^>]+>/g, ""),
+        text: f.a.replace(/<[^>]+>/g, ""),
       },
     })),
   },
@@ -235,12 +252,21 @@ const structuredData = [
     ],
   },
   {
+    // WebPage replaces the live site's Article node (2026-08-07): this is a
+    // service page, not editorial content, and the Article carried no dates or
+    // image so it could never earn a rich result. Dates are real: datePublished
+    // is the live WP page's original publish date (reference/sell-my-martin-jsonld.json),
+    // dateModified tracks the last substantive content change.
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "Sell Your Vintage Martin Guitar",
+    "@type": "WebPage",
+    "@id": "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/",
+    name: "Sell My Martin Guitar",
+    url: "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/",
+    datePublished: "2022-05-11T22:05:20+00:00",
+    dateModified: "2026-08-07T00:00:00+00:00",
+    about: { "@id": "https://www.joesvintageguitarsaz.com/" },
+    primaryImageOfPage: { "@type": "ImageObject", contentUrl: `${SITE_URL}${FEATURED_IMG}` },
     author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
-    publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
-    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/",
   },
   {
     "@context": "https://schema.org",
@@ -258,7 +284,6 @@ const structuredData = [
     contentUrl: "https://www.youtube.com/watch?v=fTpIquyV-j8",
     author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
   },
-  ...licensedImages,
 ];
 ---
 
@@ -267,6 +292,9 @@ const structuredData = [
   description="Wondering what your Martin is worth? Joe buys vintage Martins nationwide, from Pre-War D-28s to 000s and OMs. Free appraisal and top cash offers."
   canonical="/sell-my-martin-guitar/"
   ogImage={`${SITE_URL}${FEATURED_IMG}`}
+  ogImageAlt="Sell My Martin Guitar banner from Joe's Vintage Guitars"
+  publishedTime="2022-05-11T22:05:20+00:00"
+  modifiedTime="2026-08-07T00:00:00+00:00"
   structuredData={structuredData}
 >
   <!-- lite-youtube web component — matches live's Meet Joe video element.
@@ -293,15 +321,19 @@ const structuredData = [
       <!-- LEFT: intro copy + serial-number locator photo -->
       <div class="smm-intro__copy">
         <p class="smm-intro__lede">
-          There’s something special about a Martin acoustic. <strong>Martins mean a lot to me, and I’m always looking to buy vintage ones.</strong> I want Martin D-18s, D-28s, 0-18s, 00-18s, 000-18s, 000-28s, D-45s, and just about any other vintage Martin. If you’re looking for someone to buy your Martin, you’ve come to the right place. I’ll make you a fair cash offer, then play it myself or make sure it goes to someone who will. And if you just want to know what your Martin is worth, I can tell you. If you’ve got a vintage Martin you’d like to sell, call or text me at <a href={`tel:${contact.tel}`} class="smm-underline"><strong>{contact.phone}</strong></a> or email me at <a href={`mailto:${contact.email}`} class="smm-underline"><strong>{contact.email}</strong></a>.
+          There’s something special about a Martin acoustic. <strong>Martins mean a lot to me, and I’m always looking to buy vintage ones.</strong> I want Martin D-18s, D-28s, 0-18s, 00-18s, 000-18s, 000-28s, D-45s, and just about any other vintage Martin, and I’ll consider any Martin built before 1970. If you’re looking for someone to buy your Martin, you’ve come to the right place. I’m based in Mesa, Arizona, and I buy vintage Martins in all 50 states. I’ll make you a fair cash offer, then play it myself or make sure it goes to someone who will. And if you just want to know what your Martin is worth, I can tell you. If you’ve got a vintage Martin you’d like to sell, call or text me at <a href={`tel:${contact.tel}`} class="smm-underline"><strong>{contact.phone}</strong></a> or email me at <a href={`mailto:${contact.email}`} class="smm-underline"><strong>{contact.email}</strong></a>.
         </p>
         <div class="smm-intro__photo">
           <LicensedImage
             src={imgMeta("Model-Name-Serial-Number-Martin-1024x683.jpg")}
             alt="Model Name and Serial Number on a Martin Acoustic Guitar"
             loading="eager"
+            fetchpriority="high"
             width={500}
           />
+          <!-- Serial-location caption (VG-0077): tells the seller where to find
+               what Joe will ask for before they ever hit the form. -->
+          <p class="smm-intro__caption">The model and serial number are stamped on the neck block, visible through the soundhole. Include both in your message if you can.</p>
         </div>
       </div>
 
@@ -346,8 +378,16 @@ const structuredData = [
       <div class="smm-split__text">
         <h3 class="smm-h3">How To Sell Your Vintage<br /> Martin Guitar</h3>
         <p>
-          I travel all over the country buying acoustic guitars, which often means I can come to you and buy yours in person. I want selling a vintage Martin to be as easy and safe as possible, so I handle all the logistics for you.
+          I travel all over the country buying acoustic guitars, which often means I can come to you and buy yours in person. I want selling a vintage Martin to be as easy and safe as possible, so I handle all the logistics for you. Here is the whole process:
         </p>
+        <!-- 4-step process (2026-08-07) — the same facts the prose carried, made
+             scannable. Same-day payment claim mirrors about-me. -->
+        <ol class="smm-steps">
+          <li><strong>Send Photos And The Serial Number.</strong> Text or email a few photos, plus the neck block stamp through the soundhole if you can get it.</li>
+          <li><strong>Get My Offer.</strong> I look at every guitar personally and come back fast with a fair cash number.</li>
+          <li><strong>Pickup Or Insured Shipping.</strong> I come to you when I can. Otherwise I arrange prepaid, fully insured packing and shipping at no cost to you.</li>
+          <li><strong>Get Paid, Same Day On Average.</strong> Cash in person, or your choice of transfer the moment we have a deal.</li>
+        </ol>
         <p>
           If we can’t meet in person, I set up prepaid packing and shipping with no risk to you. <strong>I cover the cost and provide the right materials for a fragile vintage acoustic.</strong> From the moment it’s packed to the moment it arrives, it’s fully insured and handled by me. You get paid quickly and safely, with no packing headaches, no shipping risk, and no lost boxes. <a href="/contact-me/" class="smm-link"><strong>Contact me</strong></a> today to get top dollar for your vintage Martin without the stress.
         </p>
@@ -363,11 +403,10 @@ const structuredData = [
   </section>
 
   <!-- 5. Discover The Value — photo left, text right.
-       LIVE-SITE QUIRK: anchor ID is `#how-much-is-my-gibson-guitar` (leftover from
-       when the Martin page was cloned from the Gibson page and never renamed).
-       Per project's "exact visual parity" rule we preserve it for inbound-link parity.
-       Revisit this if/when live's anchor gets fixed — track in decision log. -->
-  <section id="how-much-is-my-gibson-guitar" class="smm-split smm-split--alt">
+       Anchor renamed from the Gibson-clone leftover `#how-much-is-my-gibson-guitar`
+       (2026-08-07): repo-wide grep found zero inbound links to the old fragment,
+       so the rename is safe. -->
+  <section id="how-much-is-my-martin-guitar" class="smm-split smm-split--alt">
     <div class="smm-inner smm-split__grid smm-split__grid--reverse">
       <div class="smm-split__photo">
         <LicensedImage
@@ -377,9 +416,27 @@ const structuredData = [
         />
       </div>
       <div class="smm-split__text">
-        <h3 class="smm-h3">Discover The Value Of<br /> Your Martin Guitar</h3>
+        <!-- Retitled from "Discover The Value Of Your Martin Guitar" (2026-08-07):
+             the old heading matched no real query; this one matches the worth
+             searches the page targets and the section's own anchor id. -->
+        <h3 class="smm-h3">How Much Is My<br /> Martin Guitar Worth?</h3>
         <p>
-          The big question for any owner is what the guitar is actually worth. Send me a few photos and I’ll give you a <a href="/free-appraisal/" class="smm-link"><strong>free appraisal</strong></a> with a clear answer. It’s quick, accurate, and there’s no obligation to sell. I’ve also written a guide on <a href="/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/" class="smm-link"><strong>how to determine the value of your old Martin acoustic guitar</strong></a> if you want to dig in. And you can research the history yourself: a good place to start is my <a href="/martin-serial-and-model-numbers/" class="smm-link"><strong>Martin Serial Number Guide</strong></a>, which helps you pin down the exact year and production details. You might be just curious, or you might be ready to sell. Either way, I’ll make sure you have what you need.
+          It depends on the model, the year, the condition, and how original it is. Send me a few photos and I’ll give you a <a href="/free-appraisal/" class="smm-link"><strong>free appraisal</strong></a> with a clear answer. It’s quick, accurate, and there’s no obligation to sell. To give you a feel for the market, here are the broad ranges from my <a href="/martin-d-28-d-18-d-45-dreadnought-value-guide/" class="smm-link"><strong>Martin D-28, D-18 and D-45 value guide</strong></a>:
+        </p>
+        <!-- Ranges MIRROR the dreadnought value guide (the single source of truth
+             for these numbers) — update the guide first, then this table. -->
+        <table class="smm-worth">
+          <tbody>
+            <tr><td>Pre-War D-45 (1936 to 1942)</td><td>$450,000 to $675,000</td></tr>
+            <tr><td>Pre-War D-28 (1931 to 1944)</td><td>$80,000 to $300,000</td></tr>
+            <tr><td>Pre-War D-18 (1931 to 1944)</td><td>$25,000 to $110,000</td></tr>
+            <tr><td>D-28 (1950 to 1959)</td><td>$12,000 to $19,000</td></tr>
+            <tr><td>D-28 (1960 to 1969)</td><td>$6,000 to $11,500</td></tr>
+            <tr><td>D-18 (1950 to 1959)</td><td>$7,000 to $11,000</td></tr>
+          </tbody>
+        </table>
+        <p class="smm-worth__note">
+          Condition, originality, and repairs move every one of these numbers, so treat them as the map, not the appraisal. If you want to dig deeper, I’ve written a guide on <a href="/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/" class="smm-link"><strong>how to determine the value of your old Martin acoustic guitar</strong></a>, and my <a href="/martin-serial-and-model-numbers/" class="smm-link"><strong>Martin Serial Number Guide</strong></a> helps you pin down the exact year and production details. You might be just curious, or you might be ready to sell. Either way, I’ll make sure you have what you need.
         </p>
       </div>
     </div>
@@ -425,7 +482,7 @@ const structuredData = [
           I take the worry out of it with nationwide shipping and proper packing. Unlike a private seller who might be underinsured, I carry high-value insurance made for vintage instruments, so the guitar’s covered from the moment it leaves your door.
         </p>
         <p>
-          If you do sell privately, platforms like <a href="https://reverb.com/" target="_blank" rel="noopener" class="smm-link"><strong>Reverb.com</strong></a> offer some protection, but watch out for the high selling fees, and remember marketplaces usually side with the buyer in a dispute. Sell to me and you skip the shipping stress and the risk of a forced return. I handle the logistics, the insurance, and the packing, so you can focus on getting top dollar for your Martin.
+          If you do sell privately, platforms like <a href="https://reverb.com/" target="_blank" rel="noopener" class="smm-link"><strong>Reverb.com</strong></a> offer some protection, but watch out for the high selling fees, and remember marketplaces usually side with the buyer in a dispute. Sell to me and you skip the shipping stress and the risk of a forced return. I handle the logistics, the insurance, and the packing, so you can focus on getting top dollar for your Martin. And if you would rather chase the highest sale price than sell outright, ask me about <a href="/consignment/" class="smm-link"><strong>consignment</strong></a>.
         </p>
       </div>
       <div class="smm-split__photo">
@@ -518,8 +575,11 @@ const structuredData = [
       </div>
 
       <div class="smm-testi__more-wrap">
+        <!-- Stable CID link from site config (2026-08-07) — the old hardcoded
+             /maps/place/ URL with embedded coordinates breaks when Google
+             changes Maps URL structure. -->
         <a
-          href="https://www.google.com/maps/place/Joe%27s+Vintage+Guitars+-+We+Buy+Guitars!/@33.4165697,-111.8105476,15z/data=!4m8!3m7!1s0x872ba7d2937937d9:0x69728d089b8a764!8m2!3d33.4165697!4d-111.8105476!9m1!1b1!16s%2Fg%2F11cs6lnym7?hl=en&entry=ttu"
+          href={hrefs.googleReviews}
           target="_blank"
           rel="noopener noreferrer"
           class="smm-btn smm-btn--rust"
@@ -531,9 +591,8 @@ const structuredData = [
   </section>
 
   <!-- 9. Identify Your Martin banner.
-       LIVE-SITE QUIRK: anchor ID is `#find-out-gibson-really-worth` (leftover from Gibson page clone).
-       Preserved for inbound-link parity per "exact visual parity" rule. -->
-  <section id="find-out-gibson-really-worth" class="smm-banner">
+       Anchor renamed from the Gibson-clone leftover (2026-08-07); no inbound links existed. -->
+  <section id="find-out-martin-really-worth" class="smm-banner">
     <div class="smm-banner__left">
       <h3>Identify Your Martin Guitar’s Model & Value Today at Joe’s Vintage Guitars</h3>
     </div>
@@ -596,11 +655,12 @@ const structuredData = [
   </section>
 
   {/* 12. FAQs — shared <FAQ /> component (wood-textured cream box pattern matches site-wide).
-       LIVE-SITE QUIRK: anchor `#faqs-about-gibson` (leftover from Gibson clone). Preserved. */}
+       Anchor renamed from the Gibson-clone leftover `#faqs-about-gibson` (2026-08-07);
+       no inbound links existed. */}
   <FAQ
     faqs={faqs}
     subTitle="Vintage Martin Guitars"
-    sectionId="faqs-about-gibson"
+    sectionId="faqs-about-martin"
     openFirst={true}
   />
 
@@ -724,6 +784,15 @@ const structuredData = [
     border-radius: 4px;
   }
   .smm-underline { text-decoration: underline; }
+  .smm-intro__caption {
+    margin: 10px auto 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--color-brand-brown);
+    font-style: italic;
+    max-width: 460px;
+    text-align: center;
+  }
 
   /* Form panel — INVERTED dark-rust bg with cream text/inputs (matches Fender) */
   .smm-intro__formwrap {
@@ -940,6 +1009,69 @@ const structuredData = [
     display: block;
     border-radius: 4px;
     box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
+  }
+
+  /* Worth-range table (mirrors the dreadnought value guide) ----- */
+  .smm-worth {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 14px;
+    font-size: 15px;
+  }
+  .smm-worth td {
+    padding: 8px 10px;
+    border-bottom: 1px solid rgba(104, 36, 18, 0.18);
+    color: var(--color-brand-brown);
+    text-align: left;
+  }
+  .smm-worth tr:first-child td {
+    border-top: 1px solid rgba(104, 36, 18, 0.18);
+  }
+  .smm-worth td:last-child {
+    text-align: right;
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--color-brand-rust-dark);
+    white-space: nowrap;
+  }
+  .smm-worth__note {
+    font-size: 14px;
+  }
+
+  /* 4-step process list ---------------------------------------- */
+  .smm-steps {
+    counter-reset: smm-step;
+    list-style: none;
+    margin: 0 0 18px;
+    padding: 0;
+  }
+  .smm-steps li {
+    counter-increment: smm-step;
+    position: relative;
+    padding: 0 0 14px 46px;
+    line-height: 1.6;
+    color: var(--color-brand-brown);
+    text-align: left;
+  }
+  .smm-steps li::before {
+    content: counter(smm-step);
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--color-brand-rust-bright);
+    color: #fff;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .smm-steps strong {
+    color: var(--color-brand-rust-dark);
   }
 
   /* Shared H3 */

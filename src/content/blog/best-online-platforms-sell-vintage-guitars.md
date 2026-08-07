@@ -262,7 +262,7 @@ Submissions go through a review process before they're approved for listing. The
 
 ### What kinds of instruments are a fit for StringTree?
 
-Vintage, collectible, and high-value pieces are the core inventory. That covers pre-CBS Fenders, golden-era Gibsons, pre-war Martins through the 50s and 60s Martin line, vintage Gretsch, Rickenbacker, vintage tube amps, rare pedals and effects, and similar gear with real collector interest. Modern off-the-shelf production guitars are usually a better fit for Reverb or eBay.
+Vintage, collectible, and high-value pieces are the core inventory. That covers pre-CBS Fenders, golden-era Gibsons, [pre-war Martins](/sell-my-martin-guitar/) through the 50s and 60s Martin line, vintage Gretsch, Rickenbacker, vintage tube amps, rare pedals and effects, and similar gear with real collector interest. Modern off-the-shelf production guitars are usually a better fit for Reverb or eBay.
 
 ### What if my instrument does not sell at auction?
 
