@@ -68,7 +68,7 @@ Cardinal buys the same instruments we are always looking for at Joe's. In broad 
 
 -   **Vintage Gibson:** Les Paul, SG, ES-335 and the rest of the ES line, Flying V, Explorer, Firebird, J-45, Hummingbird, and the prewar and 1950s archtops.
 -   **Vintage Fender:** Stratocaster, Telecaster, Jazzmaster, Jaguar, Precision and Jazz Bass, and pre-CBS examples in particular.
--   **Vintage Martin:** the 000, OM, D-18, D-28, D-45, and the small body prewar flattops.
+-   **[Vintage Martin](/sell-my-martin-guitar/):** the 000, OM, D-18, D-28, D-45, and the small body prewar flattops.
 -   **Other desirable makes:** Gretsch, Rickenbacker, Epiphone, National, Guild, and quality vintage amplifiers.
 
 As a general rule the older and more original, the more interesting it is to us, but we buy well beyond the 1950s. Clean 1960s and 1970s instruments, and desirable later pieces, are all fair game. If you are not sure whether what you have is collectible, that is exactly the kind of question Cardinal is happy to answer.

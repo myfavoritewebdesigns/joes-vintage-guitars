@@ -244,17 +244,16 @@ export const footerTopMenu: NavLink[] = [
   { label: "Contact", href: "/contact-me/" },
 ];
 
-/** Extended footer link shape: optional iconSrc, optional dropdown indicator, optional "pill" style. */
+/** Extended footer link shape: optional iconSrc, optional "pill" style. */
 export interface FooterLink extends NavLink {
-  /** Show a small `▾` indicator after the label (e.g. "Sell My Guitar ▾"). */
-  hasDropdown?: boolean;
   /** Render as a white pill button with the Reverb "R" badge after the label. */
   isReverbPill?: boolean;
 }
 
-/** Footer's main menu (services). */
+/** Footer's main menu (services). The brand sell pages render as their own
+ *  row under this menu (Footer.astro sellChildren), not as a dropdown. */
 export const footerMainMenu: FooterLink[] = [
-  { label: "Sell My Guitar", href: "/", hasDropdown: true },
+  { label: "Sell My Guitar", href: "/" },
   { label: "Instrument Repair", href: "/repair/" },
   { label: "Free Appraisal", href: "/free-appraisal/" },
   { label: "Consignment", href: "/consignment/" },

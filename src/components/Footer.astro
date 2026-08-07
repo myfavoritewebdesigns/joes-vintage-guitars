@@ -1,7 +1,13 @@
 ---
 import { Image } from "astro:assets";
 import footerLogo from "../assets/images/Logo-Footer-1-1-300x300.png";
-import { contact, hrefs, footerSocials, footerTopMenu, footerMainMenu, footerLegal, phoneIconPath } from "../config/site";
+import { contact, hrefs, footerSocials, footerTopMenu, footerMainMenu, footerLegal, phoneIconPath, sellMenu } from "../config/site";
+
+// Brand sell pages rendered under the "Sell My Guitar" footer item
+// (2026-08-07): the hasDropdown flag used to render only a decorative
+// chevron with no links, so the brand hubs had zero footer links site-wide.
+// The first sellMenu child duplicates the parent "/" link and is skipped.
+const sellChildren = sellMenu.children.filter((c) => c.href !== "/");
 ---
 
 <footer class="jvgft">
@@ -50,10 +56,16 @@ import { contact, hrefs, footerSocials, footerTopMenu, footerMainMenu, footerLeg
                 class:list={[m.isReverbPill && "jvgft__pill"]}
               >
                 {m.label}
-                {m.hasDropdown && <span class="jvgft__chev" aria-hidden="true">▾</span>}
                 {m.isReverbPill && <span class="jvgft__rev-badge" aria-hidden="true">R</span>}
               </a>
             </li>
+          ))}
+        </ul>
+        <!-- Brand sell pages row — keeps the main row on its single spec line
+             while giving every brand hub a real footer link. -->
+        <ul class="jvgft__menu jvgft__menu--sell">
+          {sellChildren.map((c) => (
+            <li><a href={c.href}>{c.label}</a></li>
           ))}
         </ul>
       </div>
@@ -240,14 +252,17 @@ import { contact, hrefs, footerSocials, footerTopMenu, footerMainMenu, footerLeg
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
-  /* Dropdown chevron after "Sell My Guitar" */
-  .jvgft__chev {
-    display: inline-block;
-    margin-left: 4px;
-    font-size: 10px;
-    line-height: 1;
-    color: var(--color-brand-charcoal);
-    vertical-align: middle;
+  /* Brand sell pages row under the main services row */
+  .jvgft__menu--sell {
+    gap: 10px 18px;
+    margin-top: 10px;
+  }
+  .jvgft__menu--sell a {
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: rgba(42, 45, 51, 0.75);
   }
 
   /* Inventory pill — white rounded button with "INVENTORY" + Reverb "R" badge */

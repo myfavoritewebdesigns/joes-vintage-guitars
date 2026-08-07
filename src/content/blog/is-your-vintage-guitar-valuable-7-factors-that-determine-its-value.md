@@ -86,7 +86,7 @@ A fret buzz may be significant or minor depending on the cause. If the neck is s
 
 <h4 id="rare-materials">5. Rare Materials</h4>
 
-Martin stopped using Brazilian rosewood around 1969 to 1970, mainly because of supply shortages that made good wood hard to get. Today Brazilian rosewood is also a protected, endangered species with trade limited under CITES, but the original reason builders moved away from it was the shortage, not the protected status that came later. The same happens with ivory, tortoiseshell, ebony inlays, and embellishments. Their presence signifies a quality instrument, which usually impacts the guitar’s value.
+Martin stopped using [Brazilian rosewood](/martin-d-28-d-18-d-45-dreadnought-value-guide/) around 1969 to 1970, mainly because of supply shortages that made good wood hard to get. Today Brazilian rosewood is also a protected, endangered species with trade limited under CITES, but the original reason builders moved away from it was the shortage, not the protected status that came later. The same happens with ivory, tortoiseshell, ebony inlays, and embellishments. Their presence signifies a quality instrument, which usually impacts the guitar’s value.
 
 <h4 id="research-properly">6. Research Properly</h4>
 

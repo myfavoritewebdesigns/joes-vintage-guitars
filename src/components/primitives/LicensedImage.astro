@@ -41,12 +41,14 @@ interface Props {
   height?: number;
   loading?: "eager" | "lazy";
   decoding?: "async" | "sync" | "auto";
+  /** Resource priority hint — pass "high" for the LCP-candidate image. */
+  fetchpriority?: "high" | "low" | "auto";
   class?: string;
   /** Inline style passthrough (matches what some converted <Image> tags set). */
   style?: string;
 }
 
-const { src, alt, width, height, loading, decoding, class: className, style } = Astro.props;
+const { src, alt, width, height, loading, decoding, fetchpriority, class: className, style } = Astro.props;
 
 // One getImage() call drives BOTH the <img> below and the contentUrl. They share
 // `built.src`, so they cannot diverge.
@@ -80,6 +82,7 @@ const imgAttrs = {
   alt,
   ...(loading ? { loading } : {}),
   ...(decoding ? { decoding } : {}),
+  ...(fetchpriority ? { fetchpriority } : {}),
   ...(className ? { class: className } : {}),
   ...(style ? { style } : {}),
 };
