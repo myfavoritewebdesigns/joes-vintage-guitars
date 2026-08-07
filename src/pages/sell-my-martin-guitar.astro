@@ -1,6 +1,6 @@
 ---
 import type { ImageMetadata } from "astro";
-import { assetSrc, resolveImage } from "../lib/images";
+import { assetSrc, resolveImage, ogCardSize } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import LeadForm from "../components/LeadForm.astro";
@@ -55,10 +55,10 @@ const img = (file: string) => assetSrc("images/sell-martin/" + file);
 // Metadata twin — only for files verified to exist under src/assets/images/sell-martin/.
 const imgMeta = (file: string) => resolveImage("images/sell-martin/" + file)!;
 
-// Featured image — used for ogImage + intro section's serial-number-locator photo.
+// Featured image — used for ogImage and the WebPage schema's primaryImageOfPage.
 const FEATURED_IMG = img("sell-my-martin-guitar-featured-image.jpg");
 
-// FAQs — v2 (2026-08-07, per Joe): 5 -> 9. The original five came from the live
+// FAQs — v2 (2026-08-07, per Joe): 5 -> 10. The original five came from the live
 // JSON-LD (reference/sell-my-martin-jsonld.json); kept questions keep their live
 // toggle_ IDs so external anchor links still work. The old documentation
 // question (toggle_2ebbbd8a61ddcff50) was a near-duplicate of the paperwork one
@@ -280,6 +280,7 @@ const structuredData = [
     description: "Joe Dampt introduces himself and explains how selling your vintage guitar to Joe's Vintage Guitars works.",
     thumbnailUrl: "https://img.youtube.com/vi/fTpIquyV-j8/maxresdefault.jpg",
     uploadDate: "2024-06-04T19:55:33-07:00",
+    duration: "PT1M45S",
     embedUrl: "https://www.youtube.com/embed/fTpIquyV-j8",
     contentUrl: "https://www.youtube.com/watch?v=fTpIquyV-j8",
     author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
@@ -292,6 +293,7 @@ const structuredData = [
   description="Wondering what your Martin is worth? Joe buys vintage Martins nationwide, from Pre-War D-28s to 000s and OMs. Free appraisal and top cash offers."
   canonical="/sell-my-martin-guitar/"
   ogImage={`${SITE_URL}${FEATURED_IMG}`}
+  {...ogCardSize("images/sell-martin/sell-my-martin-guitar-featured-image.jpg")}
   ogImageAlt="Sell My Martin Guitar banner from Joe's Vintage Guitars"
   publishedTime="2022-05-11T22:05:20+00:00"
   modifiedTime="2026-08-07T00:00:00+00:00"
@@ -309,7 +311,12 @@ const structuredData = [
   <section class="smm-hero">
     <div class="smm-hero__inner">
       <h1>Sell Your Vintage Martin Guitar</h1>
-      <h2 class="smm-hero__subtitle">Expert Buyer and Collector Specializing in Vintage Martin Acoustic Guitars</h2>
+      <!-- Rendered as a <p> (2026-08-07): the visual headline was an h2 above
+           ten h3 sections, inverting the outline. The h1 carries the query;
+           sections are now the h2 level. Class keeps the styling identical.
+           Reworded so the page's most prominent line carries the contiguous
+           phrase "Martin Guitar Buyer" (it appeared nowhere on the page). -->
+      <p class="smm-hero__subtitle">Expert Martin Guitar Buyer and Collector Specializing in Vintage Acoustic Guitars</p>
       <div class="smm-hero__rule" aria-hidden="true"></div>
     </div>
   </section>
@@ -321,7 +328,7 @@ const structuredData = [
       <!-- LEFT: intro copy + serial-number locator photo -->
       <div class="smm-intro__copy">
         <p class="smm-intro__lede">
-          There’s something special about a Martin acoustic. <strong>Martins mean a lot to me, and I’m always looking to buy vintage ones.</strong> I want Martin D-18s, D-28s, 0-18s, 00-18s, 000-18s, 000-28s, D-45s, and just about any other vintage Martin, and I’ll consider any Martin built before 1970. If you’re looking for someone to buy your Martin, you’ve come to the right place. I’m based in Mesa, Arizona, and I buy vintage Martins in all 50 states. I’ll make you a fair cash offer, then play it myself or make sure it goes to someone who will. And if you just want to know what your Martin is worth, I can tell you. If you’ve got a vintage Martin you’d like to sell, call or text me at <a href={`tel:${contact.tel}`} class="smm-underline"><strong>{contact.phone}</strong></a> or email me at <a href={`mailto:${contact.email}`} class="smm-underline"><strong>{contact.email}</strong></a>.
+          There’s something special about a Martin acoustic. <strong>Martins mean a lot to me, and I’m always looking to buy vintage ones.</strong> I want Martin D-18s, D-28s, 0-18s, 00-18s, 000-18s, 000-28s, D-45s, and just about any other vintage Martin, and I’ll consider any Martin built before 1970. If you’re looking for a trusted Martin guitar buyer, you’ve come to the right place. I’m based in Mesa, Arizona, and I buy vintage Martins in all 50 states. I’ll make you a fair cash offer, then play it myself or make sure it goes to someone who will. And if you just want to know what your Martin is worth, I can tell you. If you’ve got a vintage Martin you’d like to sell, call or text me at <a href={`tel:${contact.tel}`} class="smm-underline"><strong>{contact.phone}</strong></a> or email me at <a href={`mailto:${contact.email}`} class="smm-underline"><strong>{contact.email}</strong></a>.
         </p>
         <div class="smm-intro__photo">
           <LicensedImage
@@ -362,7 +369,7 @@ const structuredData = [
           ></lite-youtube>
         </div>
         <div class="smm-meet__panel">
-          <h3 class="smm-meet__title">Introducing Joe Dampt, <span class="smm-meet__name">A Martin Guitar Connoisseur</span></h3>
+          <h2 class="smm-meet__title">Introducing Joe Dampt, <span class="smm-meet__name">A Martin Guitar Connoisseur</span></h2>
           <hr class="smm-meet__sep" />
           <p>
             <a href="/about-me/"><strong>My name is Joe</strong></a>, and I’m in this to keep musical history alive, one guitar at a time. To me a vintage Martin isn’t just an instrument; <strong>it’s a piece of American history</strong>. Whether you have a pre-war Dreadnought or a classic 000, I treat every Martin with real respect. I grew up on the players who defined the Martin sound, <strong>Doc Watson, Merle Travis, and Ernest Tubb</strong>, and I keep that in mind on every guitar I look at. If you want to sell a vintage Martin, or just want to know what it’s worth, I can help. The evaluation is free, and the process is honest and gets you top dollar. I’d love to hear your guitar’s history and help you figure out the next step. Call me at <a href={`tel:${contact.tel}`}><strong>{contact.phone}</strong></a> or email <a href={`mailto:${contact.email}`} class="smm-underline"><strong>{contact.email}</strong></a> today.
@@ -376,7 +383,7 @@ const structuredData = [
   <section id="how-to-sell-your-guitar" class="smm-split">
     <div class="smm-inner smm-split__grid">
       <div class="smm-split__text">
-        <h3 class="smm-h3">How To Sell Your Vintage<br /> Martin Guitar</h3>
+        <h2 class="smm-h3">How To Sell Your Vintage<br /> Martin Guitar</h2>
         <p>
           I travel all over the country buying acoustic guitars, which often means I can come to you and buy yours in person. I want selling a vintage Martin to be as easy and safe as possible, so I handle all the logistics for you. Here is the whole process:
         </p>
@@ -419,12 +426,14 @@ const structuredData = [
         <!-- Retitled from "Discover The Value Of Your Martin Guitar" (2026-08-07):
              the old heading matched no real query; this one matches the worth
              searches the page targets and the section's own anchor id. -->
-        <h3 class="smm-h3">How Much Is My<br /> Martin Guitar Worth?</h3>
+        <h2 class="smm-h3">How Much Is My<br /> Martin Guitar Worth?</h2>
         <p>
-          It depends on the model, the year, the condition, and how original it is. Send me a few photos and I’ll give you a <a href="/free-appraisal/" class="smm-link"><strong>free appraisal</strong></a> with a clear answer. It’s quick, accurate, and there’s no obligation to sell. To give you a feel for the market, here are the broad ranges from my <a href="/martin-d-28-d-18-d-45-dreadnought-value-guide/" class="smm-link"><strong>Martin D-28, D-18 and D-45 value guide</strong></a>:
+          It depends on the model, the year, the condition, and how original it is. Send me a few photos and I’ll give you a <a href="/free-appraisal/" class="smm-link"><strong>free appraisal</strong></a> with a clear answer. It’s quick, accurate, and there’s no obligation to sell. To give you a feel for the market, here are the broad ranges from my <a href="/martin-d-28-d-18-d-45-dreadnought-value-guide/" class="smm-link"><strong>Martin D-28, D-18 and D-45 value guide</strong></a>, current as of August 2026:
         </p>
         <!-- Ranges MIRROR the dreadnought value guide (the single source of truth
-             for these numbers) — update the guide first, then this table. -->
+             for these numbers) — update the guide first, then this table, then
+             bump the visible "current as of" date above AND the dateModified in
+             the WebPage schema and Layout props. -->
         <table class="smm-worth">
           <tbody>
             <tr><td>Pre-War D-45 (1936 to 1942)</td><td>$450,000 to $675,000</td></tr>
@@ -448,7 +457,7 @@ const structuredData = [
        between the cream value section and the white Where To Sell split. -->
   <section id="what-i-have-paid-for-vintage-martin-guitars" class="smm-paid">
     <div class="smm-inner">
-      <h3 class="smm-h3 smm-h3--center smm-paid__heading">What I Have Paid For Vintage Martin Guitars</h3>
+      <h2 class="smm-h3 smm-h3--center smm-paid__heading">What I Have Paid For Vintage Martin Guitars</h2>
       <p class="smm-paid__lede">
         Sellers always want to know what a dealer will really pay. Here are seven vintage Martins I bought, along with the actual cash price I paid for each one. Every guitar is different, so what I pay for yours depends on its year, condition, and originality.
       </p>
@@ -474,7 +483,7 @@ const structuredData = [
   <section id="best-way-to-sell" class="smm-split">
     <div class="smm-inner smm-split__grid">
       <div class="smm-split__text">
-        <h3 class="smm-h3">Where To Sell Your Martin Guitar<br /> For The Best Price</h3>
+        <h2 class="smm-h3">Where To Sell Your Martin Guitar<br /> For The Best Price</h2>
         <p>
           It’s worth understanding the trade-offs between selling privately and selling to a Martin collector or dealer. <strong>A private sale can work out, but I wouldn’t recommend it for a first-time seller with a high-end acoustic worth over $4,000.</strong> There’s real liability in it, especially around shipping and buyer disputes. Martins react to temperature and humidity, so shipping one is tricky and takes know-how to avoid damaging the guitar.
         </p>
@@ -499,7 +508,7 @@ const structuredData = [
        Card headings/copy are Martin-specific; icons are the shared Fair-Cash SVGs. -->
   <section id="my-guitar-buying-process" class="smm-process">
     <div class="smm-inner">
-      <h3 class="smm-h3 smm-h3--center">My Guitar Buying Process</h3>
+      <h2 class="smm-h3 smm-h3--center">My Guitar Buying Process</h2>
       <div class="smm-process__grid">
         <div class="smm-process__card">
           <img src={img("Fair-Cash-1.svg")} alt="Accurate Guitar Dating and Value Assessment at Joe’s Vintage Guitars" class="smm-process__icon" />
@@ -523,11 +532,12 @@ const structuredData = [
     </div>
   </section>
 
-  {/* 8. Testimonials — 3 Martin-specific Google reviews + 3 IG reels.
-       Pinterest masonry layout via CSS columns (same pattern as Fender v10). */}
+  {/* 8. Testimonials — 6 Google reviews (2 Martin-naming + 4 brand-neutral
+       selling) + 3 IG reels. Pinterest masonry layout via CSS columns (same
+       pattern as Fender v10). */}
   <section id="our-clients-testimonials" class="smm-testi">
     <div class="smm-inner">
-      <h3 class="smm-testi__title">Our Clients’ Testimonials</h3>
+      <h2 class="smm-testi__title">Our Clients’ Testimonials</h2>
 
       <!-- Proof strip (2026-08-07) — every claim is the about page's published
            number; src/pages/about-me.astro is the single source of truth, so
@@ -594,7 +604,7 @@ const structuredData = [
        Anchor renamed from the Gibson-clone leftover (2026-08-07); no inbound links existed. -->
   <section id="find-out-martin-really-worth" class="smm-banner">
     <div class="smm-banner__left">
-      <h3>Identify Your Martin Guitar’s Model & Value Today at Joe’s Vintage Guitars</h3>
+      <h2>Identify Your Martin Guitar’s Model & Value Today at Joe’s Vintage Guitars</h2>
     </div>
     <div class="smm-banner__right">
       <a href="/martin-serial-and-model-numbers/" class="smm-btn smm-btn--rust">Look Up My Martin Serial Number</a>
@@ -607,13 +617,13 @@ const structuredData = [
   <section id="consider-selling-your-guitar" class="smm-case">
     <div class="smm-inner smm-case__grid">
       <div class="smm-case__text">
-        <h3 class="smm-h3">Looking To Sell?<br /> Joe’s Vintage Guitars Is Ready to Buy</h3>
+        <h2 class="smm-h3">Looking To Sell?<br /> Joe’s Vintage Guitars Is Ready to Buy</h2>
         <hr class="smm-rule" />
         <p>
           I love these guitars, and I want them to keep being cherished and played. Whether I keep one myself or pass it to someone who’ll appreciate it as much as I do, I want to honor its history. The stories behind these guitars matter to me as much as the guitars. When I buy one, I hang onto photos of the original owner and the history that comes with it. I write those stories up, print them, fold them, and put them in the case, so the players of the past live on through their instruments.
         </p>
         <!-- Live renders this as an <h2> (not h3) — match for heading-inventory parity. -->
-        <h2 class="smm-h3 smm-case__sub"><strong>Linda’s 1950s Martin 0-18</strong></h2>
+        <h3 class="smm-h3 smm-case__sub"><strong>Linda’s 1950s Martin 0-18</strong></h3>
         <p>
           <strong>I got to meet Linda, a musician who spent years sharing her music, including playing this very 1950s Martin 0-18 on the radio years ago.</strong> For her this guitar wasn’t just wood and wire; it was a companion through a lifetime of broadcasts and songs. When she decided she was ready to pass it on, <strong>I took that history seriously and wrote her story down so the next player knows what this guitar has been part of</strong>. Moments like that, keeping the connection between a player like Linda and her Martin alive, are why I do this.
         </p>
@@ -637,15 +647,11 @@ const structuredData = [
        Anchor `#receive-the-highest-payout` matches live. -->
   <section id="receive-the-highest-payout" class="smm-grid">
     <div class="smm-inner">
-      <h3 class="smm-h3 smm-h3--center">Receive The Best Cash Deal for Your Vintage Martin Guitars</h3>
+      <h2 class="smm-h3 smm-h3--center">Receive The Best Cash Deal for Your Vintage Martin Guitars</h2>
       <div class="smm-grid__cards">
         {models.map((m) => (
           <div class="smm-grid__card">
-            {typeof m.img === "string" ? (
-              <img src={m.img} alt={m.alt} loading="lazy" />
-            ) : (
-              <LicensedImage src={m.img} alt={m.alt} width={260} />
-            )}
+            <LicensedImage src={m.img} alt={m.alt} width={260} />
             <h4>{m.title}</h4>
             <p set:html={m.body} />
           </div>
@@ -683,7 +689,6 @@ const structuredData = [
        - 8 model cards (Fender has 7) — adds Martin Electric Models card
        - Case study uses TWO photos (Copy-of-IMG_1620 + Linda B&W historical)
        - No "Table of Contents" widget (Fender has one; Martin live doesn't)
-       - Different anchor IDs (some still say "gibson" — live-site leftover quirk)
      ============================================================ */
   .smm-inner {
     max-width: 1144px;
@@ -794,107 +799,11 @@ const structuredData = [
     text-align: center;
   }
 
-  /* Form panel — INVERTED dark-rust bg with cream text/inputs (matches Fender) */
-  .smm-intro__formwrap {
-    background: var(--color-brand-rust-dark);
-    color: var(--color-brand-cream);
-    border-radius: 6px;
-    padding: 28px 28px 24px;
-  }
-  .smm-form-head h3 {
-    font-family: var(--font-display);
-    font-size: clamp(22px, 2.4vw, 30px);
-    font-weight: 600;
-    color: #fff;
-    margin: 0 0 8px;
-    text-transform: uppercase;
-    line-height: 1.2;
-  }
-  .smm-form-head__lede {
-    color: var(--color-brand-gold, #c8983a);
-    font-style: italic;
-    text-transform: none;
-    font-weight: 400;
-  }
-  .smm-form-head h4 {
-    font-family: var(--font-display);
-    font-weight: 400;
-    font-size: 15px;
-    color: var(--color-brand-cream);
-    margin: 0 0 18px;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-  .smm-form { display: block; }
-  .smm-field { margin-bottom: 14px; }
-  .smm-field label {
-    display: block;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--color-brand-cream);
-    margin-bottom: 4px;
-    line-height: 1.4;
-  }
-  .smm-field input,
-  .smm-field textarea {
-    width: 100%;
-    border: 1px solid rgba(255,255,255,0.2);
-    background: rgba(255,255,255,0.95);
-    border-radius: 4px;
-    padding: 8px 10px;
-    font: inherit;
-    font-size: 14px;
-    color: var(--color-brand-brown);
-    box-sizing: border-box;
-  }
-  .smm-field textarea { resize: vertical; min-height: 120px; }
-  .smm-field input:focus,
-  .smm-field textarea:focus {
-    outline: 2px solid var(--color-brand-gold, #c8983a);
-    outline-offset: 1px;
-    border-color: var(--color-brand-gold, #c8983a);
-  }
-  .smm-reply {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 8px 14px;
-    margin: 6px 0 16px;
-    color: var(--color-brand-cream);
-  }
-  .smm-reply__label {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--color-brand-cream);
-  }
-  .smm-reply__opt { font-size: 13px; cursor: pointer; color: var(--color-brand-cream); }
-  .smm-submit {
-    background: var(--color-brand-rust-bright);
-    color: #fff;
-    border: none;
-    font-family: var(--font-display);
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    padding: 14px 32px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background 0.2s;
-    width: 100%;
-  }
-  .smm-submit:hover { background: var(--color-brand-rust-dark); }
-  .smm-form__note {
-    font-size: 12px;
-    color: rgba(255,255,255,0.75);
-    margin: 10px 0 0;
-    line-height: 1.4;
-  }
-
-  /* Intro responsive collapse */
-  @media (max-width: 950px) {
-    .smm-intro__grid { grid-template-columns: 1fr; gap: 28px; }
-  }
+  /* Note (2026-08-07): ~95 lines of dead form CSS (.smm-intro__formwrap,
+     .smm-form-*, .smm-field, .smm-reply, .smm-submit) from a pre-LeadForm
+     draft were removed here; the form is the shared <LeadForm /> component
+     with its own styles. A redundant 950px intro collapse (superseded by the
+     1024px rule at the bottom of this block) went with them. */
 
   /* 3. Meet Joe ----------------------------------------------- */
   /* Same "white card + rust triangle" structural pattern as Fender. */
@@ -1036,6 +945,11 @@ const structuredData = [
   }
   .smm-worth__note {
     font-size: 14px;
+  }
+  @media (max-width: 400px) {
+    /* Under heavy font scaling the nowrap price column could overflow; let
+       the prices wrap when space truly runs out. */
+    .smm-worth td:last-child { white-space: normal; }
   }
 
   /* 4-step process list ---------------------------------------- */
@@ -1281,6 +1195,9 @@ const structuredData = [
   @media (max-width: 640px) {
     .smm-proof {
       flex-direction: column;
+      /* baseline falls back to flex-start in a column container, which
+         left-aligns the items — center them explicitly. */
+      align-items: center;
       gap: 8px;
     }
     .smm-proof li + li::before {
@@ -1397,7 +1314,7 @@ const structuredData = [
     align-items: center;
     justify-content: flex-end;
   }
-  .smm-banner__left h3 {
+  .smm-banner__left h2 {
     font-family: var(--font-display);
     font-size: clamp(22px, 2.6vw, 32px);
     color: #fff;
@@ -1480,11 +1397,22 @@ const structuredData = [
     .smm-banner {
       grid-template-columns: 1fr;
     }
+    /* Fix (2026-08-07, pre-existing on live): the 600px lite-youtube forced
+       the single grid track to 580px on phones, making the whole page scroll
+       sideways. Cap the video to the container and zero its desktop offset. */
+    .smm-meet__video,
+    .smm-meet__panel {
+      min-width: 0;
+    }
+    .smm-lite-yt {
+      width: 100%;
+      margin-left: 0;
+    }
     .smm-split__grid--reverse .smm-split__photo { order: -1; }
     .smm-process__grid { grid-template-columns: 1fr; }
     .smm-banner__left,
     .smm-banner__right { justify-content: center; padding: 30px 24px; }
-    .smm-banner__left h3 { text-align: center; }
+    .smm-banner__left h2 { text-align: center; }
     .smm-grid__cards { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 600px) {
@@ -1492,7 +1420,6 @@ const structuredData = [
     .smm-intro { padding: 40px 0; }
     .smm-meet, .smm-split, .smm-process, .smm-testi, .smm-case, .smm-grid { padding: 50px 0; }
     .smm-meet__panel { padding: 24px; }
-    .smm-intro__formwrap { padding: 22px 18px; }
     .smm-grid__cards { grid-template-columns: 1fr; }
   }
 </style>
