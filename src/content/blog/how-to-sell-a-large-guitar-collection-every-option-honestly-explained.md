@@ -310,7 +310,7 @@ If you're managing a parent's or grandparent's collection and feel completely lo
 ### What We Actively Look For
 
 -   Vintage American electric guitars: Fender, Gibson, Gretsch, Rickenbacker, Guild, and more
--   Pre-war and vintage acoustic guitars: Martin, Gibson, and similar makers
+-   Pre-war and vintage acoustic guitars: [Martin](/sell-my-martin-guitar/), Gibson, and similar makers
 -   Boutique and small-builder instruments with documented provenance
 -   Vintage amplifiers: Fender, Marshall, Vox, Ampeg, and comparable
 -   Complete collections from estates or retiring collectors. We evaluate the whole and make one offer, which simplifies the process enormously.
