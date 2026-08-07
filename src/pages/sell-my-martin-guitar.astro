@@ -113,13 +113,13 @@ const models = [
   },
   {
     img: imgMeta("1956-martin-000-21-1-1024x683.jpg"),
-    alt: "Martin 000-18 Guitar in Excellent Vintage Condition",
+    alt: "Martin 000-21 Guitar in Excellent Vintage Condition",
     title: "Martin 000-18, 21, 28",
     body: "Buying vintage 000 ‘Auditorium’ models. I pay top dollar for Pre-War examples and clean, original 000-28 guitars.",
   },
   {
     img: imgMeta("martin-om-42-1024x682.jpg"),
-    alt: "Authentic Martin 000-28 Guitar in Excellent Condition",
+    alt: "Martin OM-42 with Abalone Trim in Excellent Condition",
     title: "Martin OM Models",
     body: "Looking for original Orchestra Model (OM) Martins. I know how rare the 1929 to 1933 era is and pay a premium for authentic examples.",
   },
@@ -132,7 +132,7 @@ const models = [
   {
     // Stays a public/ string path — this file only exists in public/images/sell-martin/.
     img: img("1959-martin-d-28-e-1-1024x683.jpg"),
-    alt: "Martin GPC Acoustic Guitar with Rich Tone and Smooth Playability",
+    alt: "1959 Martin D-28E Electric Acoustic Guitar at Joe's Vintage Guitars",
     title: "Martin Electric Models",
     body: "Looking for <a href=\"/post/martin-d18e-vs-d28e-authentication-guide/\" class=\"smm-link\">rare 1960s Martin electrics</a> and thin-line hollow bodies. These models have an unusual place in Martin’s history, and I appreciate them.",
   },
@@ -144,7 +144,7 @@ const models = [
 const licensedImages = await buildImageGraph([
   {
     renderedSrc: img("1959-martin-d-28-e-1-1024x683.jpg"),
-    alt: "Martin GPC Acoustic Guitar with Rich Tone and Smooth Playability",
+    alt: "1959 Martin D-28E Electric Acoustic Guitar at Joe's Vintage Guitars",
   },
 ]);
 
@@ -188,8 +188,12 @@ const structuredData = [
     "@context": "https://schema.org",
     "@type": "VideoObject",
     "@id": "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/#video",
-    name: "Introducing Joe Dampt, A Martin Guitar Connoisseur",
-    description: "Joe Dampt introduces himself and explains how selling your vintage Martin guitar to Joe's Vintage Guitars works.",
+    // Honest metadata (2026-08-07): fTpIquyV-j8 is the same general intro video
+    // the Gibson page embeds (YouTube title is Gibson-flavored), so the schema
+    // must not claim a Martin-specific video. Swap name/description back to a
+    // Martin-specific form only when Joe records a Martin intro.
+    name: "Meet Joe Dampt of Joe's Vintage Guitars",
+    description: "Joe Dampt introduces himself and explains how selling your vintage guitar to Joe's Vintage Guitars works.",
     thumbnailUrl: "https://img.youtube.com/vi/fTpIquyV-j8/maxresdefault.jpg",
     uploadDate: "2024-06-04T19:55:33-07:00",
     embedUrl: "https://www.youtube.com/embed/fTpIquyV-j8",
@@ -263,7 +267,7 @@ const structuredData = [
           <lite-youtube
             videoid="fTpIquyV-j8"
             params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1"
-            title="Introducing Joe Dampt, A Martin Guitar Connoisseur"
+            title="Meet Joe Dampt of Joe's Vintage Guitars"
             class="smm-lite-yt"
           ></lite-youtube>
         </div>
@@ -381,6 +385,20 @@ const structuredData = [
   <section id="our-clients-testimonials" class="smm-testi">
     <div class="smm-inner">
       <h3 class="smm-testi__title">Our Clients’ Testimonials</h3>
+
+      <!-- Proof strip (2026-08-07) — every claim is the about page's published
+           number; src/pages/about-me.astro is the single source of truth, so
+           update there first and mirror here. -->
+      <ul class="smm-proof" aria-label="Joe's Vintage Guitars Track Record">
+        <li><strong>400+</strong> Five Star Google Reviews</li>
+        <li><strong>2,000+</strong> Five Star Reverb Reviews</li>
+        <li><strong>12+</strong> Years of Professional Experience</li>
+        <li>Guitars Bought in <strong>All 50 States</strong></li>
+        <li><strong>Same Day</strong> Payment</li>
+      </ul>
+      <p class="smm-proof__feature">
+        A Pre-War Martin specialist, featured by <a href="https://www.kjzz.org/the-show/see-inside-joes-vintage-guitars-in-mesa" target="_blank" rel="noopener noreferrer">KJZZ 91.5, Phoenix’s NPR affiliate</a>
+      </p>
 
       <div class="smm-testi__masonry">
         {reviews.map((r) => (
@@ -899,6 +917,63 @@ const structuredData = [
     text-align: center;
     margin: 0 0 32px;
   }
+  /* Proof strip — about-page numbers surfaced above the reviews ------ */
+  .smm-proof {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 6px 0;
+    margin: 0 auto 10px;
+    padding: 0;
+    max-width: 980px;
+    text-align: center;
+    color: var(--color-brand-cream);
+    font-size: 15px;
+  }
+  .smm-proof li {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    white-space: nowrap;
+  }
+  .smm-proof li + li::before {
+    content: "\00B7";
+    color: var(--color-brand-gold, #c8983a);
+    font-weight: 700;
+    margin: 0 12px;
+  }
+  .smm-proof strong {
+    color: var(--color-brand-gold, #c8983a);
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .smm-proof__feature {
+    text-align: center;
+    color: var(--color-brand-cream);
+    font-size: 14px;
+    font-style: italic;
+    margin: 0 0 34px;
+  }
+  .smm-proof__feature a {
+    color: var(--color-brand-gold, #c8983a);
+    text-decoration: underline;
+  }
+  .smm-proof__feature a:hover {
+    color: var(--color-brand-brown-tan);
+  }
+  @media (max-width: 640px) {
+    .smm-proof {
+      flex-direction: column;
+      gap: 8px;
+    }
+    .smm-proof li + li::before {
+      content: none;
+    }
+  }
+
   /* Pinterest masonry via CSS columns — same pattern as Fender v10 */
   .smm-testi__masonry {
     column-count: 3;
