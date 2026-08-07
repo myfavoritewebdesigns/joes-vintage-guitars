@@ -192,6 +192,11 @@
       "note": "Three en dashes inside one verbatim customer review (martin testimonials). Page-scoped dash exception."
     },
     {
+      "url": "/sell-my-martin-guitar/",
+      "phrase": "not only can't believe i'm typing this but",
+      "note": "Verbatim Jessica Hammond Google review, added to the Martin testimonials 2026-08-07 per Joe (6-review set). Same phrase already adjudicated for /, /sell-my-fender-guitar/, and /sell-my-gibson-guitar/."
+    },
+    {
       "url": "/sell-my-gretsch-guitar/",
       "phrase": "—",
       "note": "Em dash inside the verbatim Debra Parsons Google review. Page-scoped dash exception."
