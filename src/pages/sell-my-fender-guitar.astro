@@ -1223,11 +1223,40 @@ const structuredData = [
     .smf-grid__cards { grid-template-columns: repeat(3, 1fr); }
   }
   @media (max-width: 900px) {
-    .smf-meet__grid,
+    /* Mobile overflow fix (2026-08-07). Two bugs compounded here:
+       1. This rule listed `.smf-meet__grid`, which does not exist — the
+          element is `.smf-meet__row` — so the Meet Joe section never
+          collapsed to one column on phones at all.
+       2. The 600px lite-youtube plus its negative margin then pushed the
+          page 443px wider than a 375px viewport.
+       Fixed by correcting the selector and applying the same treatment
+       already shipped on the Martin page. */
+    .smf-meet__row,
     .smf-split__grid,
     .smf-case__grid,
     .smf-banner {
       grid-template-columns: 1fr;
+    }
+    .smf-meet__video,
+    .smf-meet__panel {
+      min-width: 0;
+    }
+    .smf-lite-yt {
+      width: 100%;
+      margin-left: 0;
+    }
+    .smf-meet__video { padding-top: 0; }
+    /* Desktop-only decorations: the offset video frame and the rust triangle
+       are sized for a short two-column row and become a wedge once stacked. */
+    .smf-meet__video::before,
+    .smf-meet__row::after {
+      content: none;
+    }
+    .smf-meet__row::before {
+      top: -24px;
+      bottom: -24px;
+      left: -12px;
+      right: -12px;
     }
     .smf-split__grid--reverse .smf-split__photo { order: -1; }
     .smf-process__grid { grid-template-columns: 1fr; }
