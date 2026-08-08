@@ -64,6 +64,6 @@ Condition is the factor that moves a **Crestwood valuation** the most. Because t
 
 ## 4\. Why an Expert Appraisal Helps
 
-The market for vintage Epiphones is specific. Unlike a mass-produced modern guitar, a **vintage Crestwood valuation** takes knowing the 1960s Kalamazoo factory details and a physical inspection of the electronics and solder joints.
+The market for vintage Epiphones is specific. Unlike a mass-produced modern guitar, a **vintage Crestwood valuation** takes knowing the 1960s Kalamazoo factory details and a physical inspection of the electronics and solder joints. Kalamazoo-era Epiphones were serialized alongside Gibsons, so our [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) will get you to the year.
 
 If you are looking for an [**accurate appraisal for insurance**](/free-appraisal/) or are considering [**selling your vintage Epiphone**](/), leaning on forum hearsay or generic price guides often means leaving money on the table. The best way to know what your instrument is worth is to have it inspected by someone who knows the difference between a New York leftover and a Seth Lover original.

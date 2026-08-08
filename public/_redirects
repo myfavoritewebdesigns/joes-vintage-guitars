@@ -28,6 +28,12 @@
 # --- Tag archives: never rebuilt. Send to the blog index. ---
 /tag/*  /blog/  301
 
+# --- Uncategorized: a WordPress leftover. Its one post moved to
+#     value-evaluation (2026-08-07), so the route no longer builds. ---
+/category/uncategorized     /blog/  301
+/category/uncategorized/    /blog/  301
+/category/uncategorized/*   /blog/  301
+
 # --- Author archive: single-author site. Send to About Joe. ---
 /author/*  /about-me/  301
 

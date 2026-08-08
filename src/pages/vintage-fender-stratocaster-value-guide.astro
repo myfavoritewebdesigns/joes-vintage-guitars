@@ -33,10 +33,12 @@ const drivers = [
 ];
 
 // Year/era, sunburst range, custom-color range. 1954 has no separate custom-color listing.
+// `guide` points at that year's own deep-dive page; the year cell renders as a
+// link when one exists, so new year pages only need this one field added.
 const prices = [
   { era: "1954 (transitional)", sunburst: "$85,000 to $275,000", custom: "No separate listing" },
   { era: "1955", sunburst: "$50,000 to $80,000", custom: "$100,000 to $200,000" },
-  { era: "1956", sunburst: "$45,000 to $75,000", custom: "$50,000 to $200,000" },
+  { era: "1956", sunburst: "$45,000 to $75,000", custom: "$50,000 to $200,000", guide: "/vintage-fender-stratocaster-value-guide/1956/" },
   { era: "1957", sunburst: "$40,000 to $60,000", custom: "$50,000 to $200,000" },
   { era: "1958", sunburst: "$35,000 to $45,000", custom: "$45,000 to $180,000" },
   { era: "1959", sunburst: "$25,000 to $35,000", custom: "$40,000 to $160,000" },
@@ -139,11 +141,20 @@ structuredData.push(faqSchema);
           </thead>
           <tbody>
             {prices.map((p) => (
-              <tr><td>{p.era}</td><td>{p.sunburst}</td><td>{p.custom}</td></tr>
+              <tr>
+                <td>{p.guide ? <a href={p.guide}>{p.era}</a> : p.era}</td>
+                <td>{p.sunburst}</td>
+                <td>{p.custom}</td>
+              </tr>
             ))}
           </tbody>
         </table>
       </div>
+      <p class="vg-note vg-note--years">
+        Some years have a guide of their own that goes deeper on that year’s specs, features, and market:
+        <a href="/vintage-fender-stratocaster-value-guide/1956/">1956 Stratocaster value guide</a>. More years
+        are on the way.
+      </p>
     </div>
   </section>
 
@@ -281,5 +292,10 @@ structuredData.push(faqSchema);
     font-size: 14px;
   }
   .vg-table td:first-child { font-weight: 700; color: var(--color-brand-rust-dark); }
+  /* Year cells linking to that year's own guide inherit the cell's bold
+     rust-dark rather than the lighter `.vg-section a` rust, so the linked and
+     unlinked years still read as one column. */
+  .vg-table td:first-child a { color: inherit; font-weight: inherit; }
+  .vg-note--years { margin-top: 14px; }
   .vg-table tbody tr:nth-child(odd) { background: var(--color-brand-cream-light, #f9f1de); }
 </style>
