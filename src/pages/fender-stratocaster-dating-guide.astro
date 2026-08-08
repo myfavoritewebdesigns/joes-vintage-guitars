@@ -74,8 +74,8 @@ const OG = `images/blog/${G62}/1962-fender-stratocaster-sunburst-8-scaled.jpg`;
 const yearRows: [string, string, string][] = [
   [
     "1954",
-    "Launch year. Single-ply white pickguard with eight screws, a one-piece maple neck with a skunk stripe down the back, a two-color sunburst, and a small round string guide. The spring guitars went out with 100K solid-shaft pots and brittle polystyrene knobs that cracked, sometimes while being pushed on at the factory. By about September Fender had moved to 250K split-shaft pots and a knob redesigned with support spokes under the skirt.",
-    "Count the pickguard screws. Eight is 1954 to 1959.",
+    "Launch year. Single-ply white pickguard with eight screws, a one-piece maple neck with a skunk stripe down the back, a two-color sunburst, and a small round string guide. The very earliest examples carry the serial number stamped into the plastic tremolo cavity cover on the back rather than on the neck plate, which is a first-year-only quirk. The spring guitars went out with 100K solid-shaft pots and brittle polystyrene knobs that cracked, sometimes while being pushed on at the factory. By about September Fender had moved to 250K split-shaft pots and a knob redesigned with support spokes under the skirt.",
+    "Count the pickguard screws. Eight is 1954 to 1959. Then turn the guitar over and look at the tremolo cover.",
   ],
   [
     "1955",
@@ -124,8 +124,8 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1964",
-    "Two changes that get read wrong constantly. Around mid-year the silver spaghetti logo gives way to the gold transition logo. Late in the year the clay dots on the face of the board give way to pearloid, while the small dots on the edge of the neck stay clay into 1965. The coil wire changes from Formvar to plain enamel, and the pickup bobbins begin moving from black to grey. The neck patent 3,143,028 is granted in August, so it appears on decals from then on.",
-    "A gold logo with a black drop shadow. This is a Stratocaster change; a Telecaster kept the spaghetti logo about a year longer.",
+    "Two changes that get read wrong constantly. Around mid-year the thin spaghetti logo gives way to the thicker transition logo. Both are gold on a Stratocaster, so the tell is the weight of the script and not the color. Late in the year the clay dots on the face of the board give way to pearloid, while the small dots on the edge of the neck stay clay into 1965. The coil wire changes from Formvar to plain enamel, and the pickup bobbins begin moving from black to grey. The neck patent 3,143,028 is granted in August, so it appears on decals from then on.",
+    "A noticeably thicker, bolder logo. Read it on a Strat only: a Telecaster kept the spaghetti logo about a year longer.",
   ],
   [
     "1965",
@@ -159,11 +159,26 @@ const yearRows: [string, string, string][] = [
   ],
 ];
 
-// The five checks that place a Strat in an era before you touch a screwdriver.
+// The five checks that place a Strat in an ERA before you touch a screwdriver.
+// Per Joe 2026-08-08: features give a WINDOW, often a broader one than the serial
+// does. They corroborate the serial rather than beating it. Only the neck heel
+// date and the body date are genuinely tight. Nothing here may imply otherwise.
+//
+// HEADSTOCK ROW, per Joe: do NOT call the enlargement "Stratocaster-specific".
+// Other Fender models took enlarged headstocks in the CBS years too. The
+// Telecaster is the notable holdout, so this is a read-it-against-the-right-model
+// check, not a Strat-only one. Same fix in the tip below, the headstock section,
+// the FAQ, and fender-physical-features.astro.
+//
+// LOGO ROW, per Joe and confirmed against Joe's own two photos: on a STRATOCASTER
+// the spaghetti logo is GOLD, not silver, and so is the transition logo. Color
+// does not separate them, script weight does. (Note the standard Telecaster
+// spaghetti logo IS described as silver on the 1959 Tele guide, and its Custom
+// as gold, so this looks model-dependent. Only the Strat claim is corrected here.)
 const fastRows: [string, string, string][] = [
-  ["Headstock size", "Small through 1965, large from late 1965", "The only one you can read from across a room, and the only one on this list that is Stratocaster-specific. The Telecaster headstock never grew."],
-  ["The logo", "Spaghetti to mid-1964, gold transition mid-1964 to 1967, heavy black CBS from 1968", "Thin silver script, then thicker gold with a black drop shadow, then heavy black."],
-  ["The fingerboard", "Maple with a skunk stripe to mid-1959, slab rosewood to August 1962, veneer rosewood after", "Look at the depth of the rosewood at the nut, and at the back of the neck for the stripe."],
+  ["Headstock size", "Small through 1965, large from late 1965", "The one you can read from across a room. Read it against the right model though: the Telecaster headstock never grew, so this check does not carry over to a Tele."],
+  ["The logo", "Spaghetti to mid-1964, transition mid-1964 to 1967, heavy black CBS from 1968", "On a Stratocaster the first two are both gold, so go by the weight of the script rather than the color. Spaghetti is thin and delicate, transition is thicker and bolder, CBS is heavy black."],
+  ["The fingerboard", "Maple with a skunk stripe to mid-1959, slab rosewood to August 1962, veneer rosewood after, and a maple cap option back from mid-1967", "Look at the depth of the rosewood at the nut, and at the back of the neck for the stripe. Maple with no stripe is the late-1960s cap, not a 1950s neck."],
   ["The dots", "Clay to late 1964, pearloid after", "Clay is dull, matte, and usually discolored. Pearloid is bright and visibly swirled."],
   ["The pickguard", "One-ply with eight screws to 1959, three-ply nitrate with eleven to mid-1965, three-ply plastic after", "Count the screw holes in the body rather than in the guard. A guard can be swapped; the holes cannot."],
 ];
@@ -180,7 +195,7 @@ const codeRows: [string, string][] = [
 const plateRows: [string, string, string][] = [
   ["Plain chrome four-bolt plate", "1954 to late 1962", "Four or five digits, no letter. Fender pre-stamped plates in batches and pulled them off the stack in no order, so these overlap heavily year to year."],
   ["L-prefix plate", "Late 1962 to late 1965", "An L in front of five digits. The last of the pre-CBS plates."],
-  ["Big-F plate", "About the third quarter of 1965 to 1976", "Six digits under a large stylized F. The CBS plate."],
+  ["Big-F plate", "About the third quarter of 1965 to 1976", "Six digits stamped above a large stylized F. The CBS plate."],
 ];
 
 const tocItems: [string, string][] = [
@@ -190,7 +205,8 @@ const tocItems: [string, string][] = [
   ["#headstock", "Headstock And Logo"],
   ["#neck", "The Neck And The Board"],
   ["#guard", "Pickguard And Pickups"],
-  ["#code", "The Stratocaster Model Code"],
+  ["#heel", "The Neck Heel Date"],
+  ["#body", "Body Dates"],
   ["#serial", "What The Serial Number Adds"],
   ["#limits", "What Features Can't Prove"],
   ["#cross", "Confirm It From The Inside"],
@@ -202,15 +218,15 @@ const tocItems: [string, string][] = [
 const faqs = [
   {
     q: "What Year Is My Stratocaster?",
-    a: "Work it in three passes. Read the headstock first, because the size and the logo style put the guitar in a five-year window from across the room. Then read the board, the dots, and the pickguard screws to narrow that to a year or two. Then confirm it with the dated parts inside: the neck heel stamp, the pot codes, and the body date. The serial number is the last thing to look at, not the first.",
+    a: "Work it in three passes and expect each one to give you a window rather than an answer. Read the headstock first, because the size and the logo style put the guitar in a five-year window from across the room. Then read the board, the dots, the pickguard screws, and the serial number together, treating the serial as one vote among several. Then open it up for the parts Fender actually dated: the neck heel stamp and the body date, backed up by the pot codes. Those last two are the only things on the guitar that will give you a month.",
   },
   {
     q: "Can I Date A Stratocaster From The Serial Number Alone?",
-    a: "No, and this is the single most common mistake. Fender pre-stamped neck plates in large batches and assemblers grabbed them off the stack in no particular order, so a plate can sit for months before it goes on a guitar. The published serial ranges also overlap year to year and disagree between sources. A serial gives you an era. The features and the dated parts give you the year.",
+    a: "No. Fender pre-stamped neck plates in large batches and assemblers grabbed them off the stack in no particular order, so a plate can sit for months before it goes on a guitar, and the published ranges overlap year to year and disagree between sources. That said, do not swing too far the other way. The features are not sharper than the serial, and several of them are blunter: a large headstock covers everything from late 1965 on. The serial is one vote, the features are more votes, and only the neck heel date and the body date will actually hand you a month.",
   },
   {
     q: "My Stratocaster Has A Big Headstock. What Year Does That Make It?",
-    a: "Late 1965 or later. Fender widened the Stratocaster headstock late in 1965 and it stayed wide, so the large outline is a hard floor rather than a window. It is worth knowing this is a Stratocaster check only. The Telecaster headstock kept its shape throughout, so a Tele tells you nothing here.",
+    a: "Late 1965 or later. Fender widened the Stratocaster headstock late in 1965 and it stayed wide, so the large outline is a floor rather than a window. Two things to keep straight. The Stratocaster was not the only Fender to take a bigger headstock in the CBS years, so a large headstock is not by itself a Strat tell. And the Telecaster headstock kept its shape throughout, so this check does not transfer to a Tele at all.",
   },
   {
     q: "Is My Strat Pre-CBS?",
@@ -294,7 +310,7 @@ const breadcrumbSchema = {
         <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
         <span class="eyebrow">Fender Dating By Model</span>
         <h1>How To Date A Fender Stratocaster</h1>
-        <p class="lead">The serial number will get you an era and no further. What actually pins a Stratocaster to a year is the guitar itself: how big the headstock is, which logo is on it, what the board is made of, and how many screws hold the pickguard down. Here is what changed and when, from the 1954 launch through 1971.</p>
+        <p class="lead">Almost nothing on a Stratocaster gives you a year on its own. The serial number gives you an era, and the features give you a window that is often wider than that. What they do is corroborate each other, and when enough of them agree you can trust the answer. The two exceptions are the dates Fender actually wrote on the guitar, on the neck heel and inside the body, and those are tight. Here is what changed and when, from the 1954 launch through 1971, and how to line it all up.</p>
         <div class="trust">
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
         </div>
@@ -312,11 +328,11 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Start Here</span>
         <h2>Read The Guitar In Three Passes</h2>
-        <p>Almost everyone starts with the serial number, and it is the wrong end of the problem. Fender pre-stamped neck plates in batches and assemblers pulled them off the stack in no particular order, so the number tells you roughly which era the plate came from and very little about the day the guitar was built. Work the other way round instead.</p>
+        <p>Nothing in the first two passes below will hand you a single year, and it helps to know that going in. A large headstock only tells you the guitar is late 1965 or later, which is a wider answer than the serial number gives you. Clay dots only say 1964 or earlier. Each feature is a window, and several of them are broader than the serial. Their value is in agreeing with each other and with the number on the plate, because a guitar where six independent things all point at the same stretch of months is a guitar you can be confident about.</p>
         <p><b>First pass, across the room.</b> Headstock size and logo style. Between them those two put a Stratocaster inside a five-year window in about two seconds, and neither can be changed without the guitar telling on itself.</p>
-        <p><b>Second pass, in your hands.</b> The fingerboard, the dots, and the pickguard. These narrow the window to a year or two, and you can read every one of them with the guitar fully assembled.</p>
-        <p><b>Third pass, inside.</b> The neck heel stamp, the pot codes, and the body date. These are the parts Fender actually dated, and they turn a two-year window into a month. This is also the only pass that needs tools, which is why it comes last.</p>
-        <p>The three passes should agree. When they do, you have a build date you can stand behind. When they don't, the disagreement is the interesting part, and it usually means a replaced neck, a swapped plate, or a guitar being sold as something it isn't.</p>
+        <p><b>Second pass, in your hands.</b> The fingerboard, the dots, the pickguard, and the serial number on the neck plate. Take the serial as one vote among several rather than the answer, and read the plate style along with the digits. Together these narrow the window, and you can read every one of them with the guitar fully assembled.</p>
+        <p><b>Third pass, inside.</b> The neck heel stamp, the body date, and the pot codes. These are the only places Fender wrote an actual date, and they are the only things on the guitar that will give you a month rather than a window. This is also the only pass that needs tools, which is why it comes last.</p>
+        <p><b>The three passes should agree.</b> When they do, you have a build date you can stand behind. When they don't, the disagreement is the interesting part, and it usually means a replaced neck, a swapped plate, or a guitar being sold as something it isn't.</p>
       </div>
     </section>
 
@@ -337,13 +353,13 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">The Short Version</span>
         <h2>The Five Fastest Checks</h2>
-        <p>If you read nothing else on this page, read these five. Each one is a different decade boundary, they are all visible with the guitar strung up and hanging on a wall, and together they will place almost any vintage Stratocaster inside a couple of years.</p>
+        <p>If you read nothing else on this page, read these five. Each one is a different decade boundary and they are all visible with the guitar strung up and hanging on a wall. Read them together rather than one at a time: no single row here narrows anything to a year, but five rows overlapping do.</p>
         <div class="tablewrap"><table>
           <thead><tr><th>What to look at</th><th>What it tells you</th><th>How to read it</th></tr></thead>
           <tbody>{fastRows.map((r) => (<tr><td data-label="What to look at"><b>{r[0]}</b></td><td data-label="What it tells you" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
         </table></div>
         <div class="tip">
-          <p><b>Two of these are Stratocaster-only, and that matters.</b> The headstock growing in late 1965 and the pickguard screw count are Strat checks. Read the Stratocaster logo timeline onto a Telecaster and you will date the Tele a year or more too early, because the Tele kept the spaghetti logo into 1965 while the Strat moved to the transition logo in mid-1964. That mistake turns into a bad offer in one direction or the other, every time.</p>
+          <p><b>Read every one of these against the right model.</b> The screw count is a Stratocaster check. The headstock and the logo are Stratocaster timelines, and they are not the Telecaster's: the Tele headstock never grew at all, and the Tele kept its spaghetti logo into 1965 while the Strat moved to the transition logo in mid-1964. Read the Strat timeline onto a Tele and you will date it a year or more too early, which turns into a bad offer in one direction or the other, every time. Several other Fender models did take a bigger headstock in the CBS years, so the enlargement is not unique to the Stratocaster either. It just is not universal.</p>
         </div>
       </div>
     </section>
@@ -371,19 +387,29 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Pass One</span>
         <h2>Headstock And Logo</h2>
-        <p>The Stratocaster headstock did something no other Fender headstock did: it got bigger. Fender widened the outline late in 1965, and it stayed wide. That makes it a hard floor rather than a window, and it is the single most useful thing on the guitar for a first look, because you can read it from a photograph taken across a room.</p>
+        <p>Two things live on the headstock and they change on different schedules, which is exactly why reading them together is worth more than reading either one alone.</p>
+
+        <h3 id="hs-size">The Outline</h3>
+        <p>Fender widened the Stratocaster headstock late in 1965 and it stayed wide, so the large outline is a floor: late 1965 or later, full stop. It is the single most useful thing on the guitar for a first look, because you can read it from a photograph taken across a room. Two cautions. The Stratocaster was not the only model to take a bigger headstock in the CBS years, so this is not a Strat-only tell, and the Telecaster never grew at all, so the check does not transfer to a Tele.</p>
         <div class="figrow gallery">
           <figure class="sfig">
-            <LicensedImage src={bmeta(G62, "1962-fender-stratocaster-sunburst-spaghetti-logo-headstock-scaled.jpg")} alt="The small headstock of a 1962 Fender Stratocaster with the thin silver spaghetti logo and three patent numbers" width={1280} />
-            <figcaption>A 1962. The small pre-CBS outline, and the thin silver spaghetti logo sitting on top of the finish with no clear coat over it, so you can catch its edge with a fingernail.</figcaption>
+            <LicensedImage src={bmeta(G62, "1962-fender-stratocaster-sunburst-spaghetti-logo-headstock-scaled.jpg")} alt="The small headstock of a 1962 Fender Stratocaster with the thin gold spaghetti logo and three patent numbers" width={1280} />
+            <figcaption>A 1962. The small pre-CBS outline, and the spaghetti logo sitting on top of the finish with no clear coat over it, so you can catch its edge with a fingernail.</figcaption>
           </figure>
           <figure class="sfig">
             <LicensedImage src={bmeta(G66, "1966-fender-stratocaster-headstock-scaled.jpg")} alt="The large CBS headstock of a 1966 Fender Stratocaster with the gold transition logo" width={1280} />
-            <figcaption>A 1966, and the same view four years later. Wider, more upright, and wearing the gold transition logo with its thin black drop shadow.</figcaption>
+            <figcaption>A 1966, and the same view four years later. Wider, more upright, and wearing the transition logo.</figcaption>
           </figure>
         </div>
-        <p>The logo runs on its own clock, and on a Stratocaster it moves in mid-1964, a year and a half before the headstock grows. That gap is real and it catches people out. A guitar with a gold transition logo on a small headstock is a genuine late-1964 or 1965 Stratocaster, not a parts guitar, and those crossover instruments are often underpriced because somebody read the logo, decided it was a CBS guitar, and stopped looking.</p>
-        <p>A transition logo does not make a guitar a CBS guitar. Plenty of instruments wearing one are pre-CBS in every other respect.</p>
+
+        <h3 id="hs-logo">The Logo</h3>
+        <p>The logo runs on its own clock and on a Stratocaster it moves in mid-1964, a year and a half before the headstock grows. That gap is real and it catches people out. A guitar with a transition logo on a small headstock is a genuine late-1964 or 1965 Stratocaster rather than a parts guitar, and those crossover instruments are often underpriced because somebody read the logo, decided it was a CBS guitar, and stopped looking. A transition logo does not make a guitar a CBS guitar.</p>
+        <p><b>Go by the weight of the script, not the color.</b> On a Stratocaster the spaghetti and the transition logos are both gold, so anybody telling you to look for the change from silver to gold is describing a different model. Spaghetti is thin, fine, and delicate. Transition is the same gold in a noticeably heavier hand. The CBS logo that follows is the easy one, because it is black and much bolder than either.</p>
+        <div class="figrow gallery">
+          <figure class="sfig"><LicensedImage src={meta("fender-spaghetti-logo-1950-1964-on-vintage-stratocaster-headstock.jpg")} alt="The gold spaghetti logo on a vintage Fender Stratocaster headstock, used from 1950 to mid-1964" width={1100} /><figcaption>Spaghetti, 1950 to mid-1964. Thin gold script with a fine dark outline, and the patent numbers stacked beside the model name.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("transition-logo-64.jpg")} alt="The gold transition logo on a vintage Fender Stratocaster headstock, used from mid-1964 to 1967" width={1100} /><figcaption>Transition, mid-1964 to 1967. The same gold, drawn much heavier. Put it next to the one above and the weight is the whole difference.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("fender-cbs-tv-logo-1968-1980s-on-vintage-stratocaster-headstock.jpg")} alt="The heavy black CBS or TV logo on a vintage Fender Stratocaster headstock, used from 1968 into the 1980s" width={1100} /><figcaption>CBS, also called the TV logo, 1968 into the 1980s. Heavy black script drawn thick enough to read on camera.</figcaption></figure>
+        </div>
         <div class="tip">
           <p><b>The patent numbers under the logo are the check that catches a good fake decal.</b> Getting the script right is easy. Getting the exact patent list right for one specific window is not, and reproductions routinely carry a number that was never there. The most useful of them is 3,143,028, the neck patent granted in August 1964: if it sits under the logo, the guitar is 1964 or later whatever the seller says, because the number did not exist before then. There is a full breakdown of the blocks by model and era on the <a class="spoke" href="/fender-physical-features/">physical features guide</a>.</p>
         </div>
@@ -399,8 +425,8 @@ const breadcrumbSchema = {
         <h2>The Neck And The Board</h2>
         <p>The Stratocaster fingerboard changed twice in ways you can see at a glance, and the dots in it changed again on a different schedule. Between them they cut the vintage era into slices.</p>
 
-        <h3 id="board">Maple, Slab, And Veneer</h3>
-        <p>Through mid-1959 the neck is one piece of maple with the frets cut straight into it. Around the middle of 1959 Fender went to a rosewood fingerboard glued on top, and the first of those boards are thick flat-bottomed slabs about 4.8mm deep at the nut. Partway through August 1962 the slab gives way to a thin curved veneer, roughly 2mm, whose underside follows the radius of the neck.</p>
+        <h3 id="board">Maple, Slab, Veneer, And The Maple Cap</h3>
+        <p>Four boards across the years, in this order. Through mid-1959 the neck is one piece of maple with the frets cut straight into it. Around the middle of 1959 Fender went to a rosewood fingerboard glued on top, and the first of those are thick flat-bottomed slabs about 4.8mm deep at the nut. Partway through August 1962 the slab gives way to a thin curved veneer, roughly 2mm, whose underside follows the radius of the neck. Then around the middle of 1967 maple comes back, but built the other way round as a separate cap glued over the truss rod rather than a one-piece neck.</p>
         <div class="figrow gallery">
           <figure class="sfig"><LicensedImage src={meta("slabboard.jpg")} alt="A Fender slab rosewood fretboard, 1959 to mid-1962, showing a thick rosewood band at the headstock" width={1100} /><figcaption>Slab, 1959 to August 1962. At the nut the rosewood reads as a thick band and the glue line sits well down the neck.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("veneer-board.jpg")} alt="A Fender veneer rosewood fretboard, mid-1962 onward, showing a thin rosewood line at the headstock" width={1100} /><figcaption>Veneer, August 1962 onward. Same view, and the rosewood is a thin line with maple visible much higher up.</figcaption></figure>
@@ -408,16 +434,22 @@ const breadcrumbSchema = {
         <div class="tip">
           <p><b>August 1962 is the month to know on a Stratocaster.</b> Fender changed over partway through it, so both boards turn up on necks stamped August 1962. A slab board with an August 1962 neck date is a genuine transition guitar and worth more than either side of the change. A slab example is worth a real premium over a veneer one from the same year with otherwise identical specs, so if a seller describing an early 1962 has not mentioned which it is, look before you buy.</p>
         </div>
-        <p><b>The back of the neck settles the maple question.</b> A maple board on its own tells you almost nothing, because Fender used maple twice. A one-piece 1950s neck has to carry a dark walnut skunk stripe down the back, since the truss rod went in from behind and the stripe caps the channel. The maple cap that returned around mid-1967 has a separate board glued over the rod, so the back is clean unbroken maple with no stripe and no plug. A stripe on a claimed 1960s maple-board Strat is wrong, and no stripe on a claimed 1950s one is equally wrong.</p>
+        <p><b>The back of the neck settles the maple question.</b> A maple board on its own tells you almost nothing, because Fender used maple twice and the two look identical from the playing side. A one-piece 1950s neck has to carry a dark walnut skunk stripe down the back, since the truss rod went in from behind and the stripe is the lid on that channel, with a small walnut plug at the headstock end where the rod was fed in. The maple cap that returned around mid-1967 has a separate board glued over the rod, so nothing needs filling from behind and the back is clean unbroken maple with no stripe and no plug. Flip the neck over and the answer takes a second.</p>
+        <div class="figrow gallery">
+          <figure class="sfig"><LicensedImage src={meta("1959-fender-telecaster-skunk-stripe.jpg")} alt="The back of a one-piece maple Fender neck showing the dark walnut skunk stripe running down the center" width={1280} /><figcaption>A one-piece maple neck, photographed on a 1959 Telecaster because the construction is identical across the models. The dark walnut stripe runs the length of the back, capping the truss rod channel.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("1970-fender-telecaster-maple-cap.jpg")} alt="The back of a maple cap Fender neck, clean unbroken maple with no skunk stripe" width={1100} /><figcaption>A maple cap neck, here on a 1970 Telecaster. Same wood, same look from the front, and no stripe at all, because the truss rod went in from the other side.</figcaption></figure>
+        </div>
+        <p>So a stripe on a claimed late-1960s maple-board Strat is wrong, and no stripe on a claimed 1950s one is equally wrong. This is one of the few checks on the page where the two answers point at genuinely different decades. Worth knowing that the stripe comes back for good in 1971 with the bullet truss rod, so from then on a maple Strat neck has one again.</p>
 
         <h3 id="dots">Clay Dots And Pearloid</h3>
         <p>Clay dots run from 1959 to late 1964. They are dull, matte, slightly chalky, and by now usually discolored to an off-white. Pearloid took over from late 1964 and is bright, shiny, and visibly swirled. Shiny dots on a claimed pre-1965 Stratocaster are a problem.</p>
         <div class="figrow gallery">
-          <figure class="sfig"><LicensedImage src={meta("clay-dots-1959-1964.jpg")} alt="Fender clay dot fretboard inlays, 1959 to late 1964, dull and matte" width={1100} /><figcaption>Clay, 1959 to late 1964. Dull and matte.</figcaption></figure>
-          <figure class="sfig"><LicensedImage src={bmeta(G66, "1966-fender-stratocaster-pearloid-side-dots-scaled.jpg")} alt="Pearloid side dots on the edge of a 1966 Fender Stratocaster neck" width={1280} /><figcaption>Pearloid side dots on a 1966. Bright and swirled, on the face and the edge alike by this point.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("clay-dots-1959-1964.jpg")} alt="Fender clay dot fretboard inlays, 1959 to late 1964, dull and matte" width={1100} /><figcaption>Clay, 1959 to late 1964. Dull, matte, and usually discolored to an off-white by now.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("pearloid-dots-1964-1970.jpg")} alt="Fender pearloid dot fretboard inlays from late 1964 onward, bright and marbled" width={1100} /><figcaption>Pearloid, late 1964 onward. Bright, shiny, and visibly swirled. Next to a clay board there is no mistaking them.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={bmeta(G66, "1966-fender-stratocaster-pearloid-side-dots-scaled.jpg")} alt="Pearloid side dots on the edge of a 1966 Fender Stratocaster neck" width={1280} /><figcaption>The side dots on a 1966, pearloid too by this point. On a late-1964 or 1965 transition neck these can still be clay while the face has changed over.</figcaption></figure>
         </div>
         <div class="tip">
-          <p><b>The face changed before the edge.</b> In late 1964 Fender switched the dots on the face of the board to pearloid while the small dots on the side of the neck stayed clay into 1965. So a transition neck can show bright pearloid on the face and dull clay on the edge, which looks wrong to anybody meeting it for the first time and is one of the sharpest tells for the transition period there is. There is one more Stratocaster-only quirk worth knowing: during 1963 the pair of dots at the twelfth fret moved from wide spacing to narrow, and both are correct for the year depending on the month.</p>
+          <p><b>The face changed before the edge.</b> In late 1964 Fender switched the dots on the face of the board to pearloid while the small dots on the side of the neck stayed clay into 1965. So a transition neck can show bright pearloid on the face and dull clay on the edge, which looks wrong to anybody meeting it for the first time and is one of the sharpest tells for the transition period there is. One more quirk worth knowing: during 1963 the pair of dots at the twelfth fret moved from wide spacing to narrow, and both are correct for the year depending on the month.</p>
         </div>
       </div>
     </section>
@@ -458,24 +490,52 @@ const breadcrumbSchema = {
 
     <div class="rule"></div>
 
-    <!-- MODEL CODE -->
-    <section id="code">
+    <!-- NECK HEEL DATE -->
+    <section id="heel">
       <div class="measure stack">
-        <span class="eyebrow">Stratocaster Only</span>
-        <h2>The Stratocaster Model Code</h2>
-        <p>This is the most model-specific dating tool on the guitar and hardly anybody uses it. When Fender stamped the date on the neck heel it usually stamped a model code in front of it, and that code is different for each model. The Stratocaster's own number changed twice, which means the code alone brackets the guitar before you even read the date next to it.</p>
+        <span class="eyebrow">Pass Three</span>
+        <h2>The Neck Heel Date</h2>
+        <p>This is the single most reliable dating reference on a pre-CBS Fender, and unlike everything above it, it is a date rather than a window. Fender wrote the month and year on the butt end of the neck heel, so you have to take the neck off the body to see it. On a genuine old one the ink has aged and partly absorbed into the grain. A fresh-looking stamp on wood that shows its age everywhere else is worth questioning.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(G62, "1962-fender-stratocaster-sunburst-neck-heel-date-scaled.jpg")} alt="The neck heel of a 1962 Fender Stratocaster with a rubber-stamped month and year date on the butt end" width={1280} />
+            <figcaption>A 1962 heel stamp. The ink has aged into the grain, which is what a sixty-year-old stamp should look like.</figcaption>
+          </figure>
+        </div>
+        <p>Read it next to the body date rather than on its own. The neck and the body were made separately and married at assembly, so a gap of weeks or a few months between the two is completely normal and is not a sign of anything wrong.</p>
+
+        <h3 id="code">The Stratocaster Model Code</h3>
+        <p>Here is the part hardly anybody uses. The heel stamp usually opens with a model code, and that number is different for each model, so it brackets the guitar before you even read the date next to it. The Stratocaster's own number changed twice.</p>
         <div class="tablewrap compact"><table>
           <thead><tr><th>Code on the heel</th><th>Stratocaster years</th></tr></thead>
           <tbody>{codeRows.map((r) => (<tr><td data-label="Code" class="code">{r[0]}</td><td data-label="Years" class="yr">{r[1]}</td></tr>))}</tbody>
         </table></div>
         <p>So a heel stamp opening with 22 is a Stratocaster neck from 1968 or later, and a 2 puts it at 1965 or earlier, whatever the plate on the back says. Because the number names the model as well as the era, it is also the fastest way to catch a neck that came off something else: a Jaguar ran code 1 through 1965 and 15 from 1966, so a 15 on a guitar sold to you as a Stratocaster is not a Stratocaster neck.</p>
+        <p class="note-sm">The full decoder for the heel stamp, including the width letter, the pencil and ink eras, and the green stamp, is on the <a class="spoke" href="/fender-neck-dates/">neck date guide</a>.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- BODY DATES -->
+    <section id="body">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Three</span>
+        <h2>Body Dates</h2>
+        <p>The other place Fender wrote a real date. Somebody penciled the day the body was routed and prepped straight onto the bare wood inside a cavity, and on a Stratocaster it is worth knowing exactly where to look, because the Strat does not put it where a Telecaster does.</p>
+        <p><b>Check the pickup cavities first, then the tremolo spring cavity.</b> The middle and neck pickup routes are the usual spots. If it is not there, take the back plate off and look in the spring cavity. What a Stratocaster body date is usually not is in the neck pocket, which is where people look first and come away thinking the guitar has no date at all.</p>
         <div class="figrow gallery">
           <figure class="sfig">
-            <LicensedImage src={bmeta(G62, "1962-fender-stratocaster-sunburst-neck-heel-date-scaled.jpg")} alt="The neck heel of a 1962 Fender Stratocaster with a rubber-stamped month and year date on the butt end" width={1280} />
-            <figcaption>A 1962 heel stamp. The ink has aged into the grain, which is what a sixty-year-old stamp should look like. The neck has to come off to read it, which is why this belongs in the third pass.</figcaption>
+            <LicensedImage src={meta("1956-fender-stratocaster-body-date-neck-pickup-cavity.jpg")} alt="A penciled body date inside the neck pickup cavity of a 1956 Fender Stratocaster" width={1280} />
+            <figcaption>A 1956 Stratocaster with the date penciled inside a pickup route. This is the first place to look on a Strat.</figcaption>
+          </figure>
+          <figure class="sfig">
+            <LicensedImage src={meta("1955-fender-stratocaster-body-date.jpg")} alt="A penciled body date on the bare wood of the rear tremolo spring cavity of a 1955 Fender Stratocaster" width={1600} />
+            <figcaption>A 1955, and the second place to look. The date is penciled on the bare wood of the spring cavity, hidden under the tremolo back plate. Note the cavity is natural wood with no shielding paint, which is correct for the era.</figcaption>
           </figure>
         </div>
-        <p class="note-sm">The full decoder for the heel stamp, including the width letter, the pencil and ink eras, and the green stamp, is on the <a class="spoke" href="/fender-neck-dates/">neck date guide</a>.</p>
+        <p>The body date is a corroborating date rather than the build date. It records when the body was routed, which can precede final assembly by weeks or several months, so read it as a floor the same way you read a pot code. A body date and a neck date a few months apart is the normal, correct result on an untouched guitar.</p>
+        <p class="note-sm">Where the date hides on every other Fender model, and what the ink stamps and masking-tape markings look like, is on the <a class="spoke" href="/fender-body-dates/">body date guide</a>.</p>
       </div>
     </section>
 
@@ -486,7 +546,8 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Pass Three, Last</span>
         <h2>What The Serial Number Adds</h2>
-        <p>Less than people expect, and that is worth understanding rather than resenting. Fender serial numbers are not model-specific in the first place: a 1963 neck plate reads exactly the same whether it ended up under a Stratocaster, a Jazzmaster, or a Jazz Bass. The plates were pre-stamped in batches, stored, and pulled off the stack in no order, and the published ranges overlap year to year and disagree between sources. What the plate does tell you reliably is which era it came from, and the plate style does that better than the digits do.</p>
+        <p>A useful vote, and a better one than it usually gets credit for. The number will not give you a year on its own, because the plates were pre-stamped in batches, stored, and pulled off the stack in no order, and the published ranges overlap year to year and disagree between sources. But it is no worse than most of the features, and it is sharper than some of them. Read it alongside them rather than instead of them. What the plate tells you most reliably is which era it came from, and the plate style does that better than the digits do.</p>
+        <p class="note-sm">Worth knowing why there is no Stratocaster serial chart on this page: Fender serials are not model-specific. A 1963 neck plate reads exactly the same whether it ended up under a Stratocaster, a Jazzmaster, or a Jazz Bass, so the charts live once on the hub rather than being copied onto every model page.</p>
         <div class="tablewrap"><table>
           <thead><tr><th>Plate</th><th>Years</th><th>What it looks like</th></tr></thead>
           <tbody>{plateRows.map((r) => (<tr><td data-label="Plate"><b>{r[0]}</b></td><td data-label="Years" class="yr">{r[1]}</td><td data-label="What it looks like">{r[2]}</td></tr>))}</tbody>
@@ -494,7 +555,7 @@ const breadcrumbSchema = {
         <div class="figrow gallery">
           <figure class="sfig"><LicensedImage src={meta("1960-fender-stratocaster-neck-plate-code.jpg")} alt="The plain chrome four-bolt neck plate of a 1960 Fender Stratocaster with a five-digit serial number" width={1280} /><figcaption>A 1960 Stratocaster. This one carries its serial along the bottom edge of the plate, which is correct and makes people doubt an honest guitar.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("fender-l-plate-serial-number-guide-1-scaled-1.jpg")} alt="An L-series Fender neck plate serial number from 1963 to 1965" width={1280} /><figcaption>The L plate, late 1962 to late 1965. The L is the giveaway and it is the last of the pre-CBS plates.</figcaption></figure>
-          <figure class="sfig"><LicensedImage src={meta("1967-fender-f-plate-serial-number.jpg")} alt="A 1967 Fender big-F neck plate with a six-digit serial number under a large stylized F" width={1280} /><figcaption>The big-F plate, from about the third quarter of 1965. Six digits under a large stylized F.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("1967-fender-f-plate-serial-number.jpg")} alt="A 1967 Fender big-F neck plate with a six-digit serial number stamped above a large stylized F" width={1280} /><figcaption>The big-F plate, from about the third quarter of 1965. The six digits sit above the large stylized F, not below it.</figcaption></figure>
         </div>
         <p>Use the plate to sanity-check the features rather than the other way round. An L plate on a guitar with a large headstock is worth a hard look, because the headstock did not grow until after the L series was most of the way through. The <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a> has the year-by-year charts, the free lookup, and every prefix from the 1950s through the modern reissues and imports.</p>
       </div>
@@ -521,7 +582,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Put It All Together</span>
         <h2>Confirm It From The Inside</h2>
-        <p>Once the features have you inside a year or two, the dated parts close it out. Start with the <a class="spoke" href="/fender-neck-dates/">neck heel date</a>, which is the single most reliable reference on a pre-CBS Fender, then read the <a class="spoke" href="/fender-pot-codes/">pot codes</a> for a date good to the week. Confirm with the <a class="spoke" href="/fender-body-dates/">body date</a>, which on a Stratocaster hides in a pickup cavity or under the tremolo back plate rather than in the neck pocket, and the <a class="spoke" href="/fender-pickup-dates/">pickup dates</a> on the base of the bobbins. For the parts view across every Fender model rather than this one, work through <a class="spoke" href="/fender-physical-features/">dating a Fender by its parts</a>.</p>
+        <p>The <a class="spoke" href="#heel">neck heel date</a> and the <a class="spoke" href="#body">body date</a> above are the two that give you a month. Two more parts inside the guitar back them up. The <a class="spoke" href="/fender-pot-codes/">pot codes</a> date a potentiometer to the week, which is the tightest number anywhere on the guitar, though it is a floor rather than a build date because pots sat in bins. The <a class="spoke" href="/fender-pickup-dates/">pickup dates</a> on the base of the bobbins corroborate, when they are there at all. For the parts view across every Fender model rather than this one, work through <a class="spoke" href="/fender-physical-features/">dating a Fender by its parts</a>.</p>
         <p>If you have already narrowed the year down, these go deeper on one specific Stratocaster and show the real thing photographed up close: <a class="spoke" href="/post/1962-fender-stratocaster-authentication-guide/">1962</a>, <a class="spoke" href="/post/1963-fender-stratocaster-authentication-guide/">1963</a>, <a class="spoke" href="/post/1966-fender-stratocaster-authentication-guide/">1966</a>, and <a class="spoke" href="/post/1967-fender-stratocaster-authentication-guide/">1967</a>. There is also a guide to <a class="spoke" href="/post/fender-custom-color-authentication-guide/">authenticating a custom color finish</a>, which is where the largest premiums and the largest mistakes both live.</p>
         <p class="note-sm">This guide is one of the model pages behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
       </div>
