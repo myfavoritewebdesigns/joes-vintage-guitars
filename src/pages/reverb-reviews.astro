@@ -43,23 +43,6 @@ const breadcrumbSchema = {
   <div class="sn-header-backdrop" aria-hidden="true"></div>
   <div class="reverb-reviews-page" set:html={body} />
 
-  {/* The review body is a raw scrape, so the page's internal links live here
-      rather than inside `reference/reverb-reviews-body.html`. Without them the
-      page is a dead end: nothing carries a reader from the social proof to the
-      pages that act on it. */}
-  <section class="rvnext">
-    <div class="rvnext__inner">
-      <h2 class="rvnext__title">Ready To Sell Yours?</h2>
-      <p>
-        These reviews are from buyers. If you are on the other side of the deal and have a vintage
-        instrument to sell, start with a <a href="/free-appraisal/">free appraisal</a> or read more
-        <a href="/about-me/">about Joe</a> first. I buy <a href="/sell-my-fender-guitar/">Fender</a>,
-        <a href="/sell-my-gibson-guitar/">Gibson</a>, <a href="/sell-my-martin-guitar/">Martin</a>, and
-        <a href="/sell-a-guitar-collection/">whole collections</a> nationwide.
-      </p>
-    </div>
-  </section>
-
   <ContactSection />
 </Layout>
 
@@ -93,23 +76,4 @@ const breadcrumbSchema = {
     content-visibility: auto;
     contain-intrinsic-size: auto 140px;
   }
-
-  .rvnext { background: var(--color-brand-cream-light, #f9f1de); padding: 44px 0; margin-top: 32px; }
-  .rvnext__inner { max-width: 900px; margin: 0 auto; padding: 0 20px; text-align: center; }
-  .rvnext__title {
-    font-family: var(--font-display, Oswald), sans-serif;
-    font-weight: 700;
-    font-size: clamp(24px, 3vw, 34px);
-    color: var(--color-brand-rust-dark, #682412);
-    margin: 0 0 14px;
-  }
-  .rvnext p {
-    font-family: var(--font-sans);
-    font-size: 16px;
-    line-height: 1.75;
-    color: var(--color-brand-charcoal, #2a2d33);
-    margin: 0;
-  }
-  .rvnext a { color: var(--color-brand-rust-dark, #682412); text-decoration: underline; font-weight: 600; }
-  .rvnext a:hover { color: var(--color-brand-rust-bright, #be4b25); }
 </style>
