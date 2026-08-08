@@ -416,7 +416,10 @@ const structuredData = [
     align-items: start;
   }
   @media (max-width: 760px) {
-    .fas-tool__body { grid-template-columns: 1fr; gap: 22px; }
+    /* minmax(0, 1fr) not 1fr: a plain 1fr track is floored at min-content,
+       so the input-plus-Decode-button row blew past the container and the
+       button lost 36px off the right edge of a 375px phone. */
+    .fas-tool__body { grid-template-columns: minmax(0, 1fr); gap: 22px; }
   }
   .fas-tool__label {
     display: block;

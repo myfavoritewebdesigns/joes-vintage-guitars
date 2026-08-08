@@ -690,6 +690,12 @@ const articleSchema = {
   }
   .blog-prose tbody tr:nth-child(even) { background: #faf4e6; }
   .blog-prose hr { border: none; border-top: 1px solid #e3d4b4; margin: 2em 0; }
+  /* Long unbroken strings (raw URLs pasted as link text) cannot wrap and get
+     clipped on phones, since body carries overflow-x: hidden site-wide. Two
+     Instagram reel URLs in the collection post were losing their tails this
+     way. Applies to every post, so future pasted URLs are safe too. */
+  .blog-prose a,
+  .blog-prose code { overflow-wrap: anywhere; }
   @media (max-width: 640px) {
     .blog-prose { font-size: 1rem; }
     .blog-prose table { display: block; overflow-x: auto; white-space: nowrap; }
