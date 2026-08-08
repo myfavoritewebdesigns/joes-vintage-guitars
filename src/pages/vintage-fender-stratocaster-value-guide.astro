@@ -55,7 +55,7 @@ const dating = [
 const faqs = [
   { q: "How much is a vintage Fender Stratocaster worth?", a: "It depends on the year, finish, and originality. An all-original 1954 to 1965 sunburst Stratocaster runs from about $15,000 to $275,000, and original custom-color finishes can be worth more than twice a sunburst from the same year." },
   { q: "What year Stratocaster is the most valuable?", a: "The 1954 debut year sits at the top of the market, and pre-CBS examples made before early 1965 bring the most. Values step down year by year from 1954, and a rare original custom color can outrun any sunburst of the same year." },
-  { q: "How do I tell what year my Stratocaster is?", a: "Start with the serial number and where it sits on the guitar, then confirm with the neck date and pot codes. You can run your number through my <a href=\"/fender-guitars-serial-number-guide/\">Fender serial number guide</a>." },
+  { q: "How do I tell what year my Stratocaster is?", a: "Read the guitar before you read the serial. The headstock size and the logo put a Strat in a five-year window on sight, then the fingerboard, the dots, and the pickguard screw count narrow it to a year or two. My <a href=\"/fender-stratocaster-dating-guide/\">Stratocaster dating guide</a> runs all of it year by year. Confirm the answer with the neck date and pot codes, and run the number itself through my <a href=\"/fender-guitars-serial-number-guide/\">Fender serial number guide</a>." },
   { q: "Does a refinish or replaced parts hurt the value?", a: "Yes. A refinish drops a Stratocaster to roughly half of its all-original value, and replaced parts such as pickups, tuners, or the pickguard can each cost up to 50% depending on what was changed." },
   { q: "What is a pre-CBS Stratocaster?", a: "Pre-CBS means a Stratocaster built before CBS bought Fender in early 1965. Collectors prize the pre-CBS years for their materials and build quality, and those guitars sit at the top of the value range." },
 ];
@@ -149,16 +149,23 @@ structuredData.push(faqSchema);
 
   <section class="vg-section vg-section--alt">
     <div class="vg-inner">
-      <h2 class="vg-head">Dating Your Stratocaster</h2>
+      <h2 class="vg-head">Not Sure Which Year Yours Is?</h2>
       <div class="vg-rule" aria-hidden="true"></div>
-      <p>The fastest way to narrow down the year is where the serial number sits and how it’s formatted:</p>
+      <p>
+        Every number in the table above turns on the year, so it pays to be sure of it. The quickest check is
+        the headstock: a small outline with a thin silver logo is 1964 or earlier, and a large one is late 1965
+        or later. My <a href="/fender-stratocaster-dating-guide/">Stratocaster dating guide</a> takes that year
+        by year from 1954 to 1971, through the board, the dots, the pickguard, and the pickups, with photos of
+        each change.
+      </p>
+      <p>Where the serial sits and how it’s formatted narrows the era too:</p>
       <ul class="vg-list">
         {dating.map((d) => <li set:html={d}></li>)}
       </ul>
       <p>
-        For the full breakdown with photos, work through my
+        For the full serial breakdown with photos, work through my
         <a href="/fender-guitars-serial-number-guide/">Fender serial number guide</a>. Serial numbers only get
-        you a window, though, so the physical features matter too.
+        you a window, though, so the physical features matter more.
       </p>
     </div>
   </section>
