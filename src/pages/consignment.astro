@@ -76,6 +76,13 @@ const why = [
         instruments, that also means a proper demo video that shows the guitar off in the hands of a good player.
         You keep ownership until it sells; I do the work to sell it right.
       </p>
+      <p>
+        Consignment is not the right answer for everyone. If you would rather take cash today and be done with it,
+        I buy outright too: <a href="/sell-my-fender-guitar/">Fender</a>, <a href="/sell-my-gibson-guitar/">Gibson</a>,
+        <a href="/sell-my-martin-guitar/">Martin</a>, and <a href="/sell-a-guitar-collection/">whole collections</a>.
+        Either way, start with a <a href="/free-appraisal/">free appraisal</a> so you know what the guitar is worth
+        before you choose.
+      </p>
     </div>
   </section>
 
@@ -191,6 +198,10 @@ const why = [
     line-height: 1.2;
   }
   .con-rule { width: 80px; height: 3px; background: var(--color-brand-rust); margin: 14px 0 22px; }
+  /* No global `a` rule exists, so prose links here need their own brand styling
+     or they fall back to the browser default blue. */
+  .con-section p a { color: var(--color-brand-rust-dark); text-decoration: underline; font-weight: 600; }
+  .con-section p a:hover { color: var(--color-brand-rust-bright); }
   .con-section p {
     font-family: var(--font-sans);
     font-size: 16px;

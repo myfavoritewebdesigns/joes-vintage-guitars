@@ -83,4 +83,6 @@ Their original price was around $280, but they now regularly go to auction for m
 
 <h3 id="find-your-vintage-guitar-with-a-top-rated-specialist">Find Your Vintage Guitar With A Top-Rated Specialist</h3>
 
-Are you ready to sell a vintage guitar? Do you simply want to know what your guitar is worth? Luckily, you can count on [Joe’s Vintage Guitar](/). At Joe’s Vintage Guitar, you won’t need more than a few minutes to determine your instrument’s current value. You’ll also be able to choose the best vintage guitar for your collection or your hobby. [Visit our website to get started!](/contact-me)
+Before you commit to any of these routes, it is worth reading the [mistakes to avoid when selling a vintage guitar](/post/mistakes-to-avoid-when-selling-a-vintage-guitar/) and comparing what each of the [best online platforms for selling vintage guitars](/post/best-online-platforms-sell-vintage-guitars/) actually costs you in fees.
+
+Are you ready to sell a vintage guitar? Do you simply want to know what your guitar is worth? Luckily, you can count on [Joe’s Vintage Guitar](/). At Joe’s Vintage Guitar, you won’t need more than a few minutes to determine your instrument’s current value. You’ll also be able to choose the best vintage guitar for your collection or your hobby. [Visit our website to get started!](/contact-me/)

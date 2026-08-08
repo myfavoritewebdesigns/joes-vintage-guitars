@@ -311,7 +311,7 @@ Pots from this period came primarily from CTS (manufacturer code 137) and Centra
 
 <h2 id="lpj-serial-numbers">Serial Numbers, FONs, and Dating Your Junior</h2>
 
-Gibson's serial number system and Factory Order Numbers apply across the whole Junior production run, 1954 through 1962. Knowing how to read them and how to cross-reference one against the other is one of the most useful dating tools you have.
+Gibson's serial number system and Factory Order Numbers apply across the whole Junior production run, 1954 through 1962. Knowing how to read them and how to cross-reference one against the other is one of the most useful dating tools you have. Our free [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) has the full charts and a decoder tool for every era.
 
 ### Serial Numbers and Dating
 

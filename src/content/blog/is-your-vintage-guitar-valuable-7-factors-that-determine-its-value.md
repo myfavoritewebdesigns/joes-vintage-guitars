@@ -55,7 +55,7 @@ Now that you know the basics to sell your guitar, check below the seven factors 
 
 It is hard to tell the difference between a highly desirable 1960s model and a recent reissue by a glance unless someone is looking for those subtle differences. In short, only experts can notice those differences. You need to identify the origin of any given instrument. 
 
-Hardware, finishes, electronics, woods, and other materials will provide useful clues when determining the age and value of the instrument.
+Hardware, finishes, electronics, woods, and other materials will provide useful clues when determining the age and value of the instrument. The serial number is the fastest starting point, and we publish free decoders for [Fender](/fender-guitars-serial-number-guide/), [Gibson](/how-to-read-gibson-serial-numbers/), and [Martin](/martin-serial-and-model-numbers/).
 
 A guitar price guide is a great tool for research. It also tracks down the origins of any vintage guitar, so consider that. 
 
@@ -96,4 +96,4 @@ You can also consult The Blue Book of Guitar Values and Vintage Guitar Magazine�
 
 <h4 id="sell-your-guitar-at-a-trusted-guitar-expert">7. Sell Your Guitar At A Trusted Guitar Expert</h4>
 
-If your initial research leads you to believe you have found a genuine treasure, getting a nice offer from a reputable buyer may be the wisest decision. At [**Joe’s Vintage Guitars**](/ "Joe Vintage Guitar") we can help! We have the best offers to give you a reasonable price. Plus, you can also find out the best guitars in our online store. **[Contact us](/contact-me "Contact Me")** for more information!
+If your initial research leads you to believe you have found a genuine treasure, getting a nice offer from a reputable buyer may be the wisest decision. At [**Joe’s Vintage Guitars**](/ "Joe Vintage Guitar") we can help! We have the best offers to give you a reasonable price. Plus, you can also find out the best guitars in our online store. **[Contact us](/contact-me/ "Contact Me")** for more information!
