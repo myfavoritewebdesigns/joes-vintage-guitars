@@ -1097,7 +1097,9 @@ const faqs = faqSchema.mainEntity.map((q) => ({ q: q.name, a: q.acceptedAnswer.t
     padding-bottom: 8px;
     border-bottom: 3px solid var(--color-brand-rust-bright);
   }
-  .fa-fakes__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; }
+  /* min(340px, 100%) so the 340px floor cannot exceed a narrow phone
+     container and push the card past the screen edge. */
+  .fa-fakes__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 24px; }
   .fa-fakes__card {
     background: #fff;
     padding: 22px 24px;
