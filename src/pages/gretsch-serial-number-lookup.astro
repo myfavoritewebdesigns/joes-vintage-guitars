@@ -536,11 +536,12 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
         <h2 id="gretsch-appraisal-phoenix">Need a Professional Opinion? Bring It to Joe’s.</h2>
         <p>Serial number guides are a starting point, but correctly dating and valuing a vintage Gretsch takes a hands-on look. Original finish, correct hardware, period-accurate electronics, and the original case all affect value in ways no chart can capture.</p>
         <p>At <strong>Joe’s Vintage Guitars in Phoenix, Arizona</strong>, this kind of detective work is what I do, whether it’s confirming a real 1957 versus a 1965 anomaly, decoding a faded Baldwin-era serial, or getting you a fair appraisal before you buy or sell.</p>
-        <p><strong>Ready to sell your Gretsch?</strong> I buy vintage Gretsch guitars and pay top dollar for correct, original examples, from a worn pre-war Synchromatic to a clean single-cutaway White Falcon. No pressure, no lowballing.</p>
+        <p><strong>Ready to sell your Gretsch?</strong> I buy vintage Gretsch guitars and pay top dollar for correct, original examples, from a worn pre-war Synchromatic to a clean single-cutaway White Falcon. No pressure, no lowballing. Send me photos for a <a href="/free-appraisal/">free appraisal</a> and I’ll tell you what it’s worth in today’s market.</p>
         <div class="grsn-cta__btns">
           <a class="grsn-btn grsn-btn--rust" href="/sell-my-gretsch-guitar/">Sell My Gretsch Guitar</a>
           <a class="grsn-btn grsn-btn--outline" href={hrefs.tel}>Call {contact.phone}</a>
         </div>
+        <p class="grsn-cta__more">Dating another brand? I’ve also published free serial number guides for <a href="/fender-guitars-serial-number-guide/">Fender</a>, <a href="/how-to-read-gibson-serial-numbers/">Gibson</a>, <a href="/martin-serial-and-model-numbers/">Martin</a>, <a href="/rickenbacker-serial-numbers/">Rickenbacker</a>, and <a href="/guild-serial-number-lookup/">Guild</a>.</p>
       </section>
 
       <!-- FAQ -->
@@ -717,6 +718,13 @@ const structuredData = [breadcrumbSchema, articleSchema, toolSchema, faqSchema];
   .grsn-cta a.grsn-btn--rust:hover { background: #fff; color: var(--color-brand-rust-dark, #682412); }
   .grsn-cta a.grsn-btn--outline { background: transparent; color: #fff; border: 1px solid var(--color-brand-brown-tan, #d2b48c); }
   .grsn-cta a.grsn-btn--outline:hover { background: rgba(255,255,255,0.1); }
+  /* Prose links inside the dark CTA: `.grsn-inner a` would paint them rust on
+     rust. Scoped to `p` so the buttons keep their own rules. */
+  .grsn-cta p a { color: #fff; text-decoration-color: rgba(255, 255, 255, 0.55); }
+  .grsn-cta p a:hover { color: var(--color-brand-brown-tan, #d2b48c); }
+  /* Needs the `.grsn-cta` qualifier to outrank `.grsn-inner p`, which would
+     otherwise zero out the top margin and butt this line against the buttons. */
+  .grsn-cta p.grsn-cta__more { margin-top: 18px; font-size: 0.92rem; }
 
   /* FAQ */
   .grsn-faq { margin: 0 0 1.6em; }

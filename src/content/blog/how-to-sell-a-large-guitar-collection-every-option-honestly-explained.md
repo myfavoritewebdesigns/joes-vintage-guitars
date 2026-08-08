@@ -52,7 +52,7 @@ That uncertainty is normal. Nobody expects you to know any of this. But it does 
 
 -   **Don't throw anything away.** Cases, straps, hang tags, tremolo arms, documentation, original receipts, even empty string packages. All of it can matter. Accessories that look like junk can be meaningful to a collector or help authenticate an instrument.
 -   **Don't "clean" the guitars.** Well-meaning polishing with the wrong products will damage vintage finishes. A guitar with original patina and wear is often worth more than one that's been polished up. Leave them as-is until someone who knows what they're doing has looked at them.
--   **Don't list anything until you know what it is.** Mislabeling a vintage guitar, or underpricing it, is a mistake you can't undo once it's sold. Take the time to get proper identification before you commit to a price.
+-   **Don't list anything until you know what it is.** Mislabeling a vintage guitar, or underpricing it, is a mistake you can't undo once it's sold. Take the time to get proper identification before you commit to a price. I've written up the [mistakes to avoid when selling a vintage guitar](/post/mistakes-to-avoid-when-selling-a-vintage-guitar/) separately, and every one of them applies double at collection scale.
 -   **Do photograph everything where it sits.** A quick walk-through with your phone, one shot of each instrument and case, gives anyone you consult something to work from before they show up in person.
 -   **Do locate any paperwork you can find.** Look for receipts, insurance documents, old appraisals, anything the collector kept with the instruments. Even partial records help.
 

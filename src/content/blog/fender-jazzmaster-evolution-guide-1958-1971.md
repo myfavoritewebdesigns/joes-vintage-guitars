@@ -365,7 +365,7 @@ The Jazzmaster uses a **floating bridge**, a chrome unit with six individual thr
 
 </figure>
 
-The barrel saddles are individually adjustable for intonation and are threaded cylinders, quite different from the flat saddles of a Telecaster or the ABR-1 of a Gibson. The floating bridge is notorious for allowing strings to slip out of saddle grooves, particularly with aggressive playing or light string gauges. Many players address this with aftermarket saddle replacements or by substituting a Mustang bridge.
+The barrel saddles are individually adjustable for intonation and are threaded cylinders, quite different from the flat saddles of a Telecaster or the ABR-1 of a Gibson. The floating bridge is notorious for allowing strings to slip out of saddle grooves, particularly with aggressive playing or light string gauges. Many players address this with aftermarket saddle replacements or by substituting a [Mustang](/post/fender-mustang-history-value/) bridge.
 
 ### The Floating Tremolo System
 

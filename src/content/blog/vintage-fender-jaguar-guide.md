@@ -138,7 +138,7 @@ This does not mean these guitars are bad. Plenty of 1970s Jaguars play and sound
 
 <h2 id="scale-length">The 24 Inch Scale Length and What It Means</h2>
 
-Most authentication guides skip this, which is odd because it drives the largest share of "Jaguar vs Jazzmaster" search traffic. The Jaguar's **24 inch scale length** is a defining spec and the main reason it feels different in your hands than any other classic Fender. The Stratocaster, Telecaster, and Jazzmaster all run a **25.5 inch scale**. The Mustang and Duo-Sonic share the Jaguar's 24 inch scale (or the even shorter 22.5 inch on the original Mustang and Duo-Sonic). Anyone who switches between a Jaguar and a Jazzmaster feels that inch and a half difference right away.
+Most authentication guides skip this, which is odd because it drives the largest share of "Jaguar vs Jazzmaster" search traffic. The Jaguar's **24 inch scale length** is a defining spec and the main reason it feels different in your hands than any other classic Fender. The Stratocaster, Telecaster, and Jazzmaster all run a **25.5 inch scale**. The [Mustang](/post/fender-mustang-history-value/) and Duo-Sonic share the Jaguar's 24 inch scale (or the even shorter 22.5 inch on the original Mustang and Duo-Sonic). Anyone who switches between a Jaguar and a Jazzmaster feels that inch and a half difference right away.
 
 ### Jaguar vs Jazzmaster Scale Length: The Practical Differences
 
