@@ -125,7 +125,7 @@ const FEDEX_ACCT = "541950800";
           <tr><th>FedEx Account #</th><td>{FEDEX_ACCT}</td></tr>
           <tr><th>Charge to Account</th><td>Packaging + Shipping (you won’t pay a cent)</td></tr>
           <tr><th>Ship To</th><td>{SHIP_TO}</td></tr>
-          <tr><th>Return Address</th><td>Your own address</td></tr>
+          <tr><th>Return Address</th><td>Your own address, or the address of the FedEx Office Print &amp; Ship Center you’re standing in. Either one works.</td></tr>
           <tr><th>Shipping Speed</th><td>Cheapest option, unless I’ve told you otherwise</td></tr>
           <tr><th>Insurance</th><td>None. See the note below.</td></tr>
         </tbody>
@@ -197,11 +197,6 @@ const FEDEX_ACCT = "541950800";
         <li>Drop-off receipt photo texted to me</li>
         <li>Payment method confirmed in advance</li>
       </ul>
-
-      <p class="ship-reviews__inline">
-        Still deciding? <a href={hrefs.googleReviews} target="_blank" rel="noopener noreferrer">Read the
-        reviews from sellers who shipped their guitars exactly this way</a>.
-      </p>
 
       <div class="ship-contact">
         <p><strong>Questions? Text me anytime.</strong></p>
@@ -312,12 +307,6 @@ const FEDEX_ACCT = "541950800";
   .ship-body .ship-reviews__btn:focus-visible {
     background: #fff;
     text-decoration: underline;
-  }
-  .ship-reviews__inline {
-    background: var(--color-brand-cream-light, #f9f1de);
-    border-left: 4px solid var(--color-brand-rust-bright);
-    padding: 14px 18px;
-    margin: 24px 0 0 !important;
   }
   .ship-callout {
     background: var(--color-brand-cream-light, #f9f1de);
