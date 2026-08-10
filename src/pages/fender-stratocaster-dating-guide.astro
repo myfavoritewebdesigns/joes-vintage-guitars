@@ -170,6 +170,19 @@ const yearRows: [string, string, string][] = [
 // check, not a Strat-only one. Same fix in the tip below, the headstock section,
 // the FAQ, and fender-physical-features.astro.
 //
+// WHICH other models, resolved 2026-08-10 from Joe's OWN live pages (the earlier
+// "several models" hedge is retired; do not reintroduce a vague count):
+//   - Stratocaster: enlarged late 1965.
+//   - Mustang: enlarged CBS headstock late 1965 into 1966
+//     (fender-mustang-history-value.md, the year table and the checklist).
+//   - Jazzmaster: NOT an enlargement. Reshaped around mid-1967 to the post-1965
+//     Strat outline, and that guide calls it "not as dramatic as the
+//     Stratocaster's well-known headstock enlargement"
+//     (fender-jazzmaster-evolution-guide-1958-1971.md).
+//   - Telecaster: never changed.
+// The Jaguar guide and the bass guides make NO headstock-size claim, so no other
+// model is named. Do not add one without a source on Joe's own pages.
+//
 // LOGO ROW, per Joe and confirmed against Joe's own two photos: on a STRATOCASTER
 // the spaghetti logo is GOLD, not silver, and so is the transition logo. Color
 // does not separate them, script weight does. (Note the standard Telecaster
@@ -226,7 +239,7 @@ const faqs = [
   },
   {
     q: "My Stratocaster Has A Big Headstock. What Year Does That Make It?",
-    a: "Late 1965 or later. Fender widened the Stratocaster headstock late in 1965 and it stayed wide, so the large outline is a floor rather than a window. Two things to keep straight. The Stratocaster was not the only Fender to take a bigger headstock in the CBS years, so a large headstock is not by itself a Strat tell. And the Telecaster headstock kept its shape throughout, so this check does not transfer to a Tele at all.",
+    a: "Late 1965 or later. Fender widened the Stratocaster headstock late in 1965 and it stayed wide, so the large outline is a floor rather than a window. Two things to keep straight. The Mustang took the enlarged CBS headstock over the same stretch, late 1965 into 1966, so a large headstock is not by itself a Strat tell. And the Telecaster headstock kept its shape throughout, so this check does not transfer to a Tele at all.",
   },
   {
     q: "Is My Strat Pre-CBS?",
@@ -359,7 +372,7 @@ const breadcrumbSchema = {
           <tbody>{fastRows.map((r) => (<tr><td data-label="What to look at"><b>{r[0]}</b></td><td data-label="What it tells you" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
         </table></div>
         <div class="tip">
-          <p><b>Read every one of these against the right model.</b> The screw count is a Stratocaster check. The headstock and the logo are Stratocaster timelines, and they are not the Telecaster's: the Tele headstock never grew at all, and the Tele kept its spaghetti logo into 1965 while the Strat moved to the transition logo in mid-1964. Read the Strat timeline onto a Tele and you will date it a year or more too early, which turns into a bad offer in one direction or the other, every time. Several other Fender models did take a bigger headstock in the CBS years, so the enlargement is not unique to the Stratocaster either. It just is not universal.</p>
+          <p><b>Read every one of these against the right model.</b> The screw count is a Stratocaster check. The headstock and the logo are Stratocaster timelines, and they are not the Telecaster's: the Tele headstock never grew at all, and the Tele kept its spaghetti logo into 1965 while the Strat moved to the transition logo in mid-1964. Read the Strat timeline onto a Tele and you will date it a year or more too early, which turns into a bad offer in one direction or the other, every time. The Mustang took a bigger headstock over the same stretch, so the enlargement is not unique to the Stratocaster either. It just is not universal.</p>
         </div>
       </div>
     </section>
@@ -390,7 +403,7 @@ const breadcrumbSchema = {
         <p>Two things live on the headstock and they change on different schedules, which is exactly why reading them together is worth more than reading either one alone.</p>
 
         <h3 id="hs-size">The Outline</h3>
-        <p>Fender widened the Stratocaster headstock late in 1965 and it stayed wide, so the large outline is a floor: late 1965 or later, full stop. It is the single most useful thing on the guitar for a first look, because you can read it from a photograph taken across a room. Two cautions. The Stratocaster was not the only model to take a bigger headstock in the CBS years, so this is not a Strat-only tell, and the Telecaster never grew at all, so the check does not transfer to a Tele.</p>
+        <p>Fender widened the Stratocaster headstock late in 1965 and it stayed wide, so the large outline is a floor: late 1965 or later, full stop. It is the single most useful thing on the guitar for a first look, because you can read it from a photograph taken across a room. Two cautions. The Mustang took the enlarged CBS headstock across the same stretch, late 1965 into 1966, so this is not a Strat-only tell. And the Telecaster never grew at all, so the check does not transfer to a Tele. The Jazzmaster is a third case: its outline was reshaped around mid-1967 to match the post-1965 Strat, but it never really got bigger, and you only catch that one side by side.</p>
         <div class="figrow gallery">
           <figure class="sfig">
             <LicensedImage src={bmeta(G62, "1962-fender-stratocaster-sunburst-spaghetti-logo-headstock-scaled.jpg")} alt="The small headstock of a 1962 Fender Stratocaster with the thin gold spaghetti logo and three patent numbers" width={1280} />
