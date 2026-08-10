@@ -10,6 +10,12 @@ import { contact, hrefs } from "../config/site";
    is a 6th step, and the Fair-Play Guarantee section spells out
    the renegotiate-or-return terms. Keep the FedEx account number
    and Fraser Drive shipping address EXACTLY as on live.
+
+   Copy is deliberately short: sellers read this on a phone, often
+   standing in a FedEx parking lot. Every fact from the longer
+   original is still here (private Heritage policy, why loose cases
+   cause damage, the no-official-center fallback, the full return
+   package), just in fewer words. Don't pad it back out.
    ============================================================ */
 
 const SHIP_TO = "47 North Fraser Drive East, Mesa, AZ 85203";
@@ -29,157 +35,174 @@ const FEDEX_ACCT = "541950800";
   <section class="ship-body">
     <div class="ship-inner">
       <p class="ship-lede">
-        Selling your guitar to me from out of state is simple, secure, and backed by a fair-play guarantee. Your
-        guitar ships fully insured, is inspected the same day it arrives, and payment goes out to you immediately
-        after. If anything unexpected turns up during inspection, you’re still protected. More on that below.
+        Shipping me your guitar from out of state is simple, secure, and backed by a fair-play
+        guarantee. Here is exactly how it works, start to finish.
       </p>
 
+      <div class="ship-reviews">
+        <p class="ship-reviews__lead">Hundreds of sellers have already done this.</p>
+        <p>Click below to read reviews from people who sold me a guitar using this same process.</p>
+        <a
+          class="ship-reviews__btn"
+          href={hrefs.googleReviews}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read Reviews From People Who Sold Me Their Guitar
+        </a>
+      </div>
+
       <h2>The Process at a Glance</h2>
-      <p>Six simple steps. Your part is done once the guitar is at FedEx; everything after that is on me.</p>
+      <p>Six steps. Your part is done once the guitar is at FedEx; everything after that is on me.</p>
       <div class="ship-callout">
         <ul>
-          <li>I cover all packing and shipping costs. Nothing out of your pocket.</li>
-          <li>Your guitar is fully insured in transit under our private Heritage Musical Instrument policy, better coverage than FedEx offers.</li>
-          <li>Your guitar is inspected the same day it arrives, and payment is sent immediately after.</li>
-          <li>If the guitar’s originality or condition differs from what we discussed, we renegotiate fairly, or I ship it back at my cost with a free professional setup, free photographs, and a signed authentication letter.</li>
+          <li><strong>You pay nothing.</strong> All packing and shipping costs are mine.</li>
+          <li><strong>Fully insured</strong> in transit under our private Heritage Musical Instrument policy, which is better coverage than FedEx offers.</li>
+          <li><strong>Same-day inspection and payment.</strong> Your guitar is inspected the day it arrives and payment is sent immediately after.</li>
+          <li><strong>Fair-Play Guarantee.</strong> If the guitar’s originality or condition differs from what we discussed, we renegotiate fairly, or I ship it back at my cost with a free professional setup, free photographs, and a signed authentication letter.</li>
         </ul>
       </div>
 
       <h2><span class="ship-step">Step 1</span> Send Me Your Info</h2>
       <p>
         Text or email me a photo of your driver’s license along with your preferred email address. The
-        license photo is strictly for fraud prevention; it confirms the sale on both sides and protects both of
-        us. Your information is kept private and is never shared.
+        license photo is strictly for fraud prevention; it confirms the sale on both sides and protects
+        us both. Your information stays private and is never shared.
       </p>
 
       <h2><span class="ship-step">Step 2</span> Pack the Inside of the Case</h2>
       <p>
-        This is the single most important thing you’ll do. Before heading to FedEx, open the case and fill
-        every bit of empty space so the guitar cannot move at all inside it. Use soft materials you have on hand:
-        newspaper, old t-shirts, towels, paper towels, or foam. Close the case and shake it vigorously in every
-        direction. If you hear or feel any shifting, add more padding.
+        This is the most important thing you’ll do. Fill every empty space in the case so the guitar
+        can’t move at all. Newspaper, old t-shirts, towels, paper towels, and foam all work. Then close
+        the case and shake it hard in every direction. Hear or feel anything shift? Add more padding.
       </p>
       <div class="ship-warn">
-        <strong>Do not use bubble wrap inside the case.</strong> Bubble wrap can react with the nitrocellulose
-        lacquer used on vintage guitar finishes and leave permanent marks or stick to the finish over time. Soft
-        cloth, newspaper, and paper towels are all safe. Bubble wrap is fine on the outside of the case, just not
+        <strong>No bubble wrap inside the case.</strong> It can react with the nitrocellulose lacquer on
+        vintage finishes and leave permanent marks or stick to the finish over time. Soft cloth,
+        newspaper, and paper towels are all safe. Bubble wrap outside the case is fine, just never
         touching the guitar.
       </div>
-      <p>
-        Why this matters: a loose guitar inside a case is the number-one cause of shipping damage. Even with
-        perfect outer packing, a guitar rattling around inside its own case can crack a headstock or dent the
-        body. Two minutes of stuffing t-shirts around the neck and body prevents almost every shipping issue
-        I’ve ever seen.
+      <p class="ship-note">
+        Why it matters: a loose guitar inside its case is the number one cause of shipping damage. Even
+        with perfect outer packing, a guitar rattling around inside its own case can crack a headstock
+        or dent the body. Two minutes of stuffing t-shirts around the neck and body prevents almost
+        every shipping problem I’ve seen.
       </p>
 
       <h2><span class="ship-step">Step 3</span> Take It to FedEx</h2>
+      <div class="ship-exact">
+        <p class="ship-exact__label">It has to be this, word for word:</p>
+        <p class="ship-exact__name">FedEx Office Print &amp; Ship Center</p>
+        <p class="ship-exact__note">
+          If the sign on the building says anything else, it is the wrong place. A
+          “FedEx Authorized ShipCenter,” a plain “FedEx Ship Center,” or any pack-and-ship store with
+          a FedEx sign in the window is a different business and cannot do this. Not sure? Text me the
+          name before you hand over the guitar.
+        </p>
+      </div>
       <p>
-        This needs to be a genuine <strong>FedEx Print & Ship Center</strong>, not a third-party
-        pack-and-ship store that carries a FedEx sign. The real locations have the staff, materials, and
-        guitar-sized boxes I need them to use. It’s a good idea to call ahead and ask if they have a guitar
-        box in stock; most do, but a quick call saves a wasted trip. Phone tip: when the automated menu picks up,
-        just press 7 and it puts you straight through to a staff member at that location.
+        Only the real locations have the staff, the materials, and the guitar-sized boxes I need them
+        to use. Call ahead to confirm they have a guitar box in stock; most do, and the call saves you
+        a wasted trip. Phone tip: when the automated menu picks up, press 7 to go straight through to a
+        person at that location.
       </p>
-      <p>
-        If there isn’t an official FedEx Print & Ship Center near you, let me know before you head out
-        and I’ll arrange a pickup or an alternative for you.
-      </p>
+      <div class="ship-callout">
+        <p>
+          <strong>No FedEx Office Print &amp; Ship Center near you?</strong> Let me know before you head
+          out and we’ll make other arrangements, such as a pickup. Don’t use a different store just
+          because it’s closer.
+        </p>
+      </div>
 
       <h2><span class="ship-step">Step 4</span> At the Counter</h2>
       <p>
-        Snap a photo of the guitar on the counter and text it to me; that’s my signal that everything is on
-        track. Then hand the guitar to a FedEx employee, ask them to pack it very tightly (no movement inside the
-        box when shaken), and give them this information:
+        Text me a photo of the guitar on the counter; that’s my signal everything is on track. Then hand
+        it to a FedEx employee, ask them to pack it very tightly so nothing moves inside the box when
+        shaken, and give them this:
       </p>
       <table class="ship-table">
         <tbody>
           <tr><th>FedEx Account #</th><td>{FEDEX_ACCT}</td></tr>
           <tr><th>Charge to Account</th><td>Packaging + Shipping (you won’t pay a cent)</td></tr>
           <tr><th>Ship To</th><td>{SHIP_TO}</td></tr>
-          <tr><th>Return Address</th><td>Your own address</td></tr>
+          <tr><th>Return Address</th><td>Your own address, or the address of the FedEx Office Print &amp; Ship Center you’re standing in. Either one works.</td></tr>
           <tr><th>Shipping Speed</th><td>Cheapest option, unless I’ve told you otherwise</td></tr>
           <tr><th>Insurance</th><td>None. See the note below.</td></tr>
         </tbody>
       </table>
       <p class="ship-note">
-        About insurance: we decline FedEx’s insurance on purpose. Every guitar we buy is covered under our
-        private Heritage Musical Instrument insurance policy, which offers broader coverage and a much smoother
-        claims process than FedEx’s shipping insurance. Your guitar is fully insured from the moment it
-        leaves your hands until it arrives at my shop.
+        We decline FedEx’s insurance on purpose. Every guitar we buy is covered under our private
+        Heritage Musical Instrument policy, which offers broader coverage and a far smoother claims
+        process. Your guitar is insured from the moment it leaves your hands until it reaches my shop.
       </p>
 
       <h2><span class="ship-step">Step 5</span> Scan, Drop Off, and You’re Done</h2>
       <p>
-        After the guitar is packed and labeled, have the FedEx employee scan in the label and hand you the
-        drop-off receipt. Take a photo of that receipt and text it to me. That’s it, your part is done. The
-        guitar is now insured, tracked, and on its way. You can watch the tracking number, or just wait for my
-        text when it arrives.
+        Once it’s packed and labeled, have the FedEx employee scan the label and hand you the drop-off
+        receipt. Text me a photo of that receipt and your part is finished. The guitar is now insured,
+        tracked, and on its way. Follow the tracking number, or just wait for my text when it lands.
       </p>
 
       <h2><span class="ship-step">Step 6</span> Arrival, Inspection, Payment</h2>
       <p>
-        The moment your guitar arrives at my shop, I inspect it the same day. No sitting around for a week
-        waiting for a dealer to “get to it.” If the guitar matches what we discussed, payment is sent
-        to you the same day via your preferred method. Most sellers have the money in their account within hours
-        of the guitar hitting my shop.
+        I inspect your guitar the same day it arrives. No sitting around for a week waiting on a dealer
+        to get to it. If it matches what we discussed, payment goes out that same day by your preferred
+        method. Most sellers have the money in their account within hours of the guitar reaching my shop.
       </p>
 
       <h2>Our Fair-Play Guarantee</h2>
       <p>
-        Vintage guitars have long histories. Sometimes a pickup was swapped decades ago, a tuner was replaced, or
-        a finish was touched up, and sometimes even the current owner doesn’t know. If the guitar’s
-        condition or originality differs from what we discussed, here’s exactly how it’s handled:
-        I’ll call you the same day to walk through what I found, explain how it affects value, and propose
-        a fair revised price. From there, you have two choices:
+        Vintage guitars have long histories. A pickup was swapped decades ago, a tuner was replaced, a
+        finish was touched up, and sometimes even the current owner has no idea. If what I find differs
+        from what we discussed, I call you that same day, walk you through it, explain how it affects
+        value, and propose a fair revised price. From there it’s your call:
       </p>
       <div class="ship-callout">
         <ul>
-          <li><strong>Accept the new price.</strong> Payment sent the same day, transaction complete. No hassle, no delays.</li>
-          <li><strong>Take the guitar back.</strong> I ship it back to you at my cost, fully insured, along with everything listed below.</li>
+          <li><strong>Accept the new price.</strong> Payment goes out the same day. No hassle, no delays.</li>
+          <li><strong>Take the guitar back.</strong> I ship it home at my cost, fully insured, with everything below included.</li>
         </ul>
       </div>
-      <p>If you choose to take the guitar back, it comes home with:</p>
+      <p>Send it back and it returns to you with:</p>
       <ul class="ship-check">
-        <li>A complimentary professional setup: intonation, action, and neck relief dialed in by a working luthier.</li>
-        <li>A set of free professional photographs of the instrument, for insurance, a future sale, or your own records.</li>
-        <li>A free written and signed authentication letter detailing the guitar’s originality, modifications, and historical context. The same kind of letter normally costs hundreds of dollars from an outside appraiser.</li>
+        <li>A free professional setup: intonation, action, and neck relief dialed in by a working luthier.</li>
+        <li>A set of free professional photographs, for insurance, a future sale, or your own records.</li>
+        <li>A free written and signed authentication letter covering the guitar’s originality, modifications, and historical context. That letter normally costs hundreds of dollars from an outside appraiser.</li>
       </ul>
       <p>
-        You lose nothing. Most sellers who go this route end up with a better-playing, better-documented guitar
-        than they sent, at zero cost to them.
+        You lose nothing. Most sellers who go this route end up with a better playing, better documented
+        guitar than the one they sent, at zero cost.
       </p>
 
       <h2>Payment Options</h2>
       <p>
-        I keep payment flexible so you can use whatever you already trust: PayPal, Venmo, Zelle, Cash App, wire
-        transfer, or a mailed check.
+        Use whatever you already trust: PayPal, Venmo, Zelle, Cash App, wire transfer, or a mailed check.
       </p>
       <p class="ship-note">
-        One quick note on limits: some apps (Venmo, Zelle, Cash App, PayPal) have daily or per-transfer limits
-        depending on your account. For higher-dollar sales, let me know your preferred payment method in advance
-        so we can confirm it’ll go through in one shot, or plan a quick wire transfer instead.
+        One note on limits: Venmo, Zelle, Cash App, and PayPal all cap how much you can receive per day
+        or per transfer. On a higher-dollar sale, tell me your preferred method in advance so we can
+        confirm it’ll clear in one shot, or plan a quick wire transfer instead.
       </p>
 
       <h2>Quick Reference Checklist</h2>
       <ul class="ship-check">
-        <li>Sent email address and driver’s license photo</li>
-        <li>Packed the inside of the case tightly, soft materials only, no bubble wrap</li>
+        <li>Email address and driver’s license photo sent</li>
+        <li>Case packed tight with soft materials only, no bubble wrap</li>
         <li>Called ahead about a guitar box (press 7 if you get the robot)</li>
-        <li>Located an official FedEx Print & Ship Center (not a third party)</li>
-        <li>Texted a photo of the guitar on the counter</li>
-        <li>Gave FedEx account #{FEDEX_ACCT} and the Mesa, AZ address</li>
-        <li>Chose the cheapest shipping option (unless I specified otherwise)</li>
-        <li>Declined FedEx insurance</li>
-        <li>Texted a photo of the drop-off receipt</li>
-        <li>Confirmed preferred payment method in advance</li>
+        <li>Sign checked: it reads FedEx Office Print &amp; Ship Center, word for word</li>
+        <li>Photo of the guitar on the counter texted to me</li>
+        <li>FedEx account #{FEDEX_ACCT} and the Mesa, AZ address given</li>
+        <li>Cheapest shipping selected, unless I specified otherwise</li>
+        <li>FedEx insurance declined</li>
+        <li>Drop-off receipt photo texted to me</li>
+        <li>Payment method confirmed in advance</li>
       </ul>
 
       <div class="ship-contact">
         <p><strong>Questions? Text me anytime.</strong></p>
         <p>
-          If anything feels unclear before, during, or after your trip to FedEx, reach out. I’d rather
-          answer ten questions than have you guess on anything. This process has worked smoothly for hundreds of
-          sellers across the country, and I’ll make sure it works smoothly for you.
+          If anything is unclear before, during, or after your trip to FedEx, reach out. I’d rather
+          answer ten questions than have you guess at any of it.
         </p>
         <p>
           Phone/Text: <a href={hrefs.tel}>{contact.phone}</a><br />
@@ -246,6 +269,45 @@ const FEDEX_ACCT = "541950800";
     border-radius: 4px;
     white-space: nowrap;
   }
+  /* Reviews CTA. Dark rust so it reads as the one clickable thing up top and
+     doesn't blend into the cream callouts used elsewhere on the page. */
+  .ship-reviews {
+    background: var(--color-brand-rust-dark, #682412);
+    border-radius: 6px;
+    padding: 22px 24px;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  .ship-body .ship-reviews p {
+    color: var(--color-brand-cream, #eedfc0);
+    margin: 0 0 6px;
+  }
+  .ship-reviews__lead {
+    font-family: var(--font-display) !important;
+    font-weight: 700;
+    font-size: 20px !important;
+    letter-spacing: 0.01em;
+  }
+  .ship-body .ship-reviews__btn {
+    display: inline-block;
+    margin-top: 12px;
+    background: var(--color-brand-cream, #eedfc0);
+    color: var(--color-brand-rust-dark, #682412);
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 13px 24px;
+    border-radius: 4px;
+    line-height: 1.3;
+  }
+  .ship-body .ship-reviews__btn:hover,
+  .ship-body .ship-reviews__btn:focus-visible {
+    background: #fff;
+    text-decoration: underline;
+  }
   .ship-callout {
     background: var(--color-brand-cream-light, #f9f1de);
     border-left: 4px solid var(--color-brand-rust-bright);
@@ -254,6 +316,8 @@ const FEDEX_ACCT = "541950800";
   }
   .ship-callout ul { margin: 0; padding-left: 20px; }
   .ship-callout li { margin-bottom: 6px; }
+  /* Kills the inherited 16px bottom margin when a callout holds prose, not a list. */
+  .ship-body .ship-callout p { margin: 0; }
   .ship-warn {
     background: #f6e0da;
     border-left: 4px solid #842012;
@@ -263,6 +327,40 @@ const FEDEX_ACCT = "541950800";
     font-size: 15px;
     line-height: 1.6;
     color: #5a1a0d;
+  }
+  /* Exact-name callout. The store name is the single easiest thing for a seller
+     to get wrong, so it gets its own block with the name set large and literal.
+     Do NOT shorten it to "FedEx Print & Ship Center" — the word "Office" is what
+     separates the real store from a FedEx Authorized ShipCenter. */
+  .ship-exact {
+    background: #f6e0da;
+    border: 2px solid #842012;
+    border-radius: 6px;
+    padding: 18px 20px;
+    margin: 0 0 16px;
+    text-align: center;
+  }
+  .ship-body .ship-exact p { color: #5a1a0d; margin: 0; }
+  .ship-body .ship-exact__label {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  /* p.<class> so the name beats the `.ship-body .ship-exact p` colour above it. */
+  .ship-body .ship-exact p.ship-exact__name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(21px, 3.4vw, 30px);
+    line-height: 1.2;
+    color: #842012;
+    margin: 8px 0 10px;
+  }
+  .ship-body .ship-exact__note {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
   }
   .ship-table {
     width: 100%;
@@ -309,5 +407,7 @@ const FEDEX_ACCT = "541950800";
   @media (max-width: 700px) {
     .ship-title-bar { padding: 120px 16px 36px; }
     .ship-table th { white-space: normal; width: 40%; }
+    .ship-reviews { padding: 20px 16px; }
+    .ship-body .ship-reviews__btn { font-size: 14px; padding: 12px 18px; }
   }
 </style>
