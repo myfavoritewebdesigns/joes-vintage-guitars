@@ -90,16 +90,25 @@ const FEDEX_ACCT = "541950800";
       </p>
 
       <h2><span class="ship-step">Step 3</span> Take It to FedEx</h2>
+      <div class="ship-exact">
+        <p class="ship-exact__label">It has to be this, word for word:</p>
+        <p class="ship-exact__name">FedEx Office Print &amp; Ship Center</p>
+        <p class="ship-exact__note">
+          If the sign on the building says anything else, it is the wrong place. A
+          “FedEx Authorized ShipCenter,” a plain “FedEx Ship Center,” or any pack-and-ship store with
+          a FedEx sign in the window is a different business and cannot do this. Not sure? Text me the
+          name before you hand over the guitar.
+        </p>
+      </div>
       <p>
-        This needs to be a genuine <strong>FedEx Print & Ship Center</strong>, not a third-party
-        pack-and-ship store that carries a FedEx sign. The real locations have the staff, the materials,
-        and the guitar-sized boxes I need them to use. Call ahead to confirm they have a guitar box in
-        stock; most do, and the call saves you a wasted trip. Phone tip: when the automated menu picks
-        up, press 7 to go straight through to a person at that location.
+        Only the real locations have the staff, the materials, and the guitar-sized boxes I need them
+        to use. Call ahead to confirm they have a guitar box in stock; most do, and the call saves you
+        a wasted trip. Phone tip: when the automated menu picks up, press 7 to go straight through to a
+        person at that location.
       </p>
       <p>
-        No official FedEx Print & Ship Center near you? Tell me before you head out and I’ll arrange a
-        pickup or an alternative.
+        No FedEx Office Print &amp; Ship Center near you? Tell me before you head out and I’ll arrange
+        a pickup or an alternative.
       </p>
 
       <h2><span class="ship-step">Step 4</span> At the Counter</h2>
@@ -177,7 +186,7 @@ const FEDEX_ACCT = "541950800";
         <li>Email address and driver’s license photo sent</li>
         <li>Case packed tight with soft materials only, no bubble wrap</li>
         <li>Called ahead about a guitar box (press 7 if you get the robot)</li>
-        <li>Official FedEx Print & Ship Center, not a third-party store</li>
+        <li>Sign checked: it reads FedEx Office Print &amp; Ship Center, word for word</li>
         <li>Photo of the guitar on the counter texted to me</li>
         <li>FedEx account #{FEDEX_ACCT} and the Mesa, AZ address given</li>
         <li>Cheapest shipping selected, unless I specified otherwise</li>
@@ -324,6 +333,40 @@ const FEDEX_ACCT = "541950800";
     font-size: 15px;
     line-height: 1.6;
     color: #5a1a0d;
+  }
+  /* Exact-name callout. The store name is the single easiest thing for a seller
+     to get wrong, so it gets its own block with the name set large and literal.
+     Do NOT shorten it to "FedEx Print & Ship Center" — the word "Office" is what
+     separates the real store from a FedEx Authorized ShipCenter. */
+  .ship-exact {
+    background: #f6e0da;
+    border: 2px solid #842012;
+    border-radius: 6px;
+    padding: 18px 20px;
+    margin: 0 0 16px;
+    text-align: center;
+  }
+  .ship-body .ship-exact p { color: #5a1a0d; margin: 0; }
+  .ship-body .ship-exact__label {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  /* p.<class> so the name beats the `.ship-body .ship-exact p` colour above it. */
+  .ship-body .ship-exact p.ship-exact__name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(21px, 3.4vw, 30px);
+    line-height: 1.2;
+    color: #842012;
+    margin: 8px 0 10px;
+  }
+  .ship-body .ship-exact__note {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
   }
   .ship-table {
     width: 100%;
