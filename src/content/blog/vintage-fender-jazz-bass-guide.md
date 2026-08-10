@@ -33,6 +33,8 @@ This guide covers every meaningful change from the 1960 launch through 1975, in 
 
 One warning before you start, because it sends more people wrong on this model than any other single thing: **do not start at the headstock**. Covered below.
 
+If you want the compact version, our [guide to dating a Fender Jazz Bass](/fender-jazz-bass-dating-guide/) runs the same timeline as a single year-by-year table with the fastest visual check for each change.
+
 1.  [Why the Year Matters](#why-the-year-matters)
 2.  [Year by Year Quick Reference](#year-by-year)
 3.  [The Stack Knob Years: 1960 to 1962](#stack-knob)
