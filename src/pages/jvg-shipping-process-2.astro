@@ -106,10 +106,13 @@ const FEDEX_ACCT = "541950800";
         a wasted trip. Phone tip: when the automated menu picks up, press 7 to go straight through to a
         person at that location.
       </p>
-      <p>
-        No FedEx Office Print &amp; Ship Center near you? Tell me before you head out and I’ll arrange
-        a pickup or an alternative.
-      </p>
+      <div class="ship-callout">
+        <p>
+          <strong>No FedEx Office Print &amp; Ship Center near you?</strong> Let me know before you head
+          out and we’ll make other arrangements, such as a pickup. Don’t use a different store just
+          because it’s closer.
+        </p>
+      </div>
 
       <h2><span class="ship-step">Step 4</span> At the Counter</h2>
       <p>
@@ -324,6 +327,8 @@ const FEDEX_ACCT = "541950800";
   }
   .ship-callout ul { margin: 0; padding-left: 20px; }
   .ship-callout li { margin-bottom: 6px; }
+  /* Kills the inherited 16px bottom margin when a callout holds prose, not a list. */
+  .ship-body .ship-callout p { margin: 0; }
   .ship-warn {
     background: #f6e0da;
     border-left: 4px solid #842012;
