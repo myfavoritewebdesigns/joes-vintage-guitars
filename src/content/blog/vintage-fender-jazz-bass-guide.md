@@ -72,6 +72,14 @@ The orientation table. Every row is unpacked in detail below.
 | **1972 to 1974** | Three knob | Bound rosewood or one piece maple | Pearloid or black blocks | 3 ply | Maple with black blocks becomes common from 1972 |
 | **1975** | Three knob | Bound rosewood or maple | Pearloid or black blocks | 3 ply | Three bolt neck and bullet truss rod, from late 1974 |
 
+<figure>
+
+![The original owner of a 1964 Fender Jazz Bass holding it after selling to Joe's Vintage Guitars, showing the sunburst body, tortoiseshell pickguard, unbound rosewood fingerboard with dot inlays, and the three knob chrome control plate.](../../assets/blog/vintage-fender-jazz-bass-guide/1964-fender-jazz-bass-original-owner-scaled.jpg)
+
+<figcaption><strong>A 1964, with the man who bought it new.</strong> The mid 1960s spec set in one photograph: four ply tortoiseshell guard, unbound rosewood board with dots, the three knob plate that replaced the stack knobs, and reverse wind Klusons on the headstock. Provenance like this is worth having in writing, because an original owner story is the one thing a parts guitar can never assemble.</figcaption>
+
+</figure>
+
 Two things to hold in mind reading down that table. Fender never made a clean cutover, so a change dated to mid year means both versions turn up on instruments from that year and a transition example is genuinely correct either way. And parts sat in bins before they went into an instrument, so a feature dates the part rather than the bass, which makes the bass that year **or later**.
 
 <h2 id="stack-knob">The Stack Knob Years: 1960 to 1962</h2>
