@@ -1,7 +1,7 @@
 ---
 title: "Fender Jazzmaster Evolution Guide: Every Spec Change From 1958 to 1971"
 pubDate: "2026-03-17T22:49:07"
-modified: "2026-03-24T18:47:49"
+modified: "2026-08-10T00:00:00"
 excerpt: "The Fender Jazzmaster changed more times in its first 14 years than almost any other model in the Fender lineup. This guide documents every spec change year by year: gold guard to tortoiseshell, slab to veneer, clay dots to pearl to blocks, spaghetti to CBS black logo, Klusons to F-tuners, and a complete custom color reference with the correct pickguard pairing for every finish."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -62,7 +62,7 @@ Body dimensions remained essentially constant throughout 1958 to 1971. The body 
 
 ### Standard Finish
 
-The standard production finish throughout the entire run was **3-color sunburst**, yellow center transitioning to orange then dark brown/black at the edges. The sunburst always received a white pickguard (see Section 04). Custom colors were available at an additional charge of 5% over list price; these are covered in detail in Section 05.
+The standard production finish throughout the entire run was **3-color sunburst**, yellow center transitioning to orange then dark brown/black at the edges. The sunburst received the gold anodized aluminum guard on the earliest examples and the tortoiseshell guard from mid-1959 onward; the white guard is the custom color pairing, not the sunburst one (see Section 04). Custom colors were available at an additional charge of 5% over list price; these are covered in detail in Section 05.
 
 The finish medium was **nitrocellulose lacquer** throughout the pre-CBS era. CBS-era guitars transitioned to **polyester finish** starting approximately 1967 to 1968. Poly finishes are thicker, more resistant to checking, and have a distinctly different aging character than nitro, a meaningful dating and authenticity indicator.
 
@@ -390,7 +390,7 @@ The logo, tuners, and knobs each changed on their own schedule, so read together
 ### Headstock Logo Evolution
 
 -   1958 to mid 1964  
-    "Spaghetti" logoThe classic thin, flowing cursive "Fender" script in silver/chrome. Named for its resemblance to wet spaghetti noodles. Applied as a water-slide decal on top of the finish, protected by a clear topcoat. The most collectible logo era. Early 1958 examples have no patent numbers on the decal; patent numbers were added gradually through 1959 to 1960.
+    "Spaghetti" logoThe classic thin, flowing cursive "Fender" script in gold with a fine dark outline. Named for its resemblance to wet spaghetti noodles. The transition logo that follows it is the same gold drawn much heavier, so the two are told apart by the weight of the script rather than by color. Applied as a water-slide decal on top of the finish, protected by a clear topcoat. The most collectible logo era. Early 1958 examples have no patent numbers on the decal; patent numbers were added gradually through 1959 to 1960.
 -   Mid 1964 to 1967  
     "Transition" logoA heavier, thicker gold Fender logo, wider letterforms than the spaghetti logo, with a slightly different feel. Applied in gold with black outline. Named for its association with the CBS transition period. Applied to guitars from approximately mid-1964 through 1967.
 -   Late 1967 to 1971  
@@ -426,9 +426,9 @@ The logo, tuners, and knobs each changed on their own schedule, so read together
 
 <figure>
 
-![1960s Fender Jazzmaster headstock with spaghetti logo, pre-CBS thin flowing cursive Fender script in silver chrome, clay dot fingerboard, single-line Kluson tuners](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1960s-jazzmaster-headstock-scaled.jpg)
+![1960s Fender Jazzmaster headstock with spaghetti logo, pre-CBS thin flowing cursive Fender script in gold, clay dot fingerboard, single-line Kluson tuners](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1960s-jazzmaster-headstock-scaled.jpg)
 
-<figcaption><strong>1960s Fender Jazzmaster headstock with spaghetti logo.</strong> The thin, flowing cursive "Fender" script in silver/chrome is the defining pre-CBS logo. It runs from 1958 through approximately mid-1964. The logo is applied as a water-slide decal <strong>on top of the finish</strong>, then protected by a clear topcoat over it. Clay dots, single-line Kluson tuners, and the unbound fingerboard are also visible here, a complete pre-CBS specification.</figcaption>
+<figcaption><strong>1960s Fender Jazzmaster headstock with spaghetti logo.</strong> The thin, flowing cursive "Fender" script in gold is the defining pre-CBS logo. It runs from 1958 through approximately mid-1964. The logo is applied as a water-slide decal <strong>on top of the finish</strong>, then protected by a clear topcoat over it. Clay dots, single-line Kluson tuners, and the unbound fingerboard are also visible here, a complete pre-CBS specification.</figcaption>
 
 </figure>
 

@@ -35,19 +35,25 @@
  *   - Keep a photo caption on the one thing the photo is for.
  *   - Open the photo before repeating any color or layout claim about it.
  *
- * LOGO COLOR. The Jazzmaster evolution guide describes the spaghetti logo on
- * this model as silver/chrome, so that is what this page says. NOTE this is a
- * THIRD answer in the cluster: Joe confirmed the Stratocaster spaghetti logo is
- * GOLD, the 1959 Telecaster guide splits standard-silver from Custom-gold, and
- * this model's guide says silver. Flagged to Joe for confirmation rather than
- * silently harmonised, because guessing across models is how the wrong color
- * got onto the Strat pages in the first place.
+ * LOGO COLOR: GOLD. Joe ruled 2026-08-10 that the Jazzmaster spaghetti logo is
+ * GOLD, the same as the Stratocaster, and the evolution guide's silver/chrome
+ * wording was corrected in the same pass. Do NOT put silver back on this model.
+ * The cluster now reads: Stratocaster gold, Jazzmaster gold, and the Telecaster
+ * alone splits silver on the standard model from gold on the Custom, which the
+ * 1959 Telecaster guide states directly. That Telecaster split is deliberate.
  *
- * KNOWN ERROR IN THE SOURCE, deliberately NOT propagated: the evolution guide's
- * "Standard Finish" section says "The sunburst always received a white
- * pickguard", which contradicts its own pickguard summary table further down
- * (sunburst = tortoiseshell, custom colors = white celluloid) and the
- * custom-color section. The table is right. Flagged to Joe as a live-page fix.
+ * The knock-on, same as on the Strat page: because the spaghetti AND the
+ * transition logos are both gold here, COLOR CANNOT SEPARATE THEM. The tell is
+ * the WEIGHT of the script, thin and delicate versus noticeably heavier. Never
+ * write the change as silver-to-gold on this model.
+ *
+ * SOURCE ERROR, now FIXED at the source (2026-08-10, Joe's go-ahead): the
+ * evolution guide's "Standard Finish" section used to say "The sunburst always
+ * received a white pickguard", contradicting its own pickguard summary table
+ * (sunburst = tortoiseshell, custom colors = white celluloid) and its
+ * custom-color section. The table was right and the sentence has been corrected
+ * on the live guide, so the guide and this page now agree. If a future edit
+ * reintroduces "sunburst = white guard" anywhere, it is the error coming back.
  *
  * Content facts trace to Joe's own live pages and VG_FACTS.md: VG-0053,
  * VG-0056 / VG-0057 (pickup dating and era), VG-0066 to VG-0068 (serial eras,
@@ -148,7 +154,7 @@ const fastRows: [string, string, string][] = [
   ["The inlays", "Clay dots to late 1964, pearloid dots to mid-1966, block inlays after", "Three eras rather than two. Blocks also mean a bound board, so those two always travel together."],
   ["The knobs", "Strat-style dome knobs to mid-1965, witch hat knobs after", "The cleanest CBS line on the instrument, and readable from a photograph."],
   ["The fingerboard", "Slab rosewood to spring 1962, veneer after", "Look at the rosewood depth at the nut. The Jazzmaster made this change before the Stratocaster did."],
-  ["The logo", "Spaghetti to mid-1964, gold transition to 1967, black CBS after", "Thin flowing script, then a heavier gold one, then black. The headstock outline barely changes, so the decal does the work."],
+  ["The logo", "Spaghetti to mid-1964, transition to 1967, black CBS after", "The first two are both gold, so go by the weight of the script and not the color. Thin and delicate, then the same gold drawn much heavier, then black. The headstock outline barely changes, so the decal does the work."],
 ];
 
 // Jazzmaster neck-heel model code. Sourced for the STAMPED era only.
@@ -490,7 +496,7 @@ const breadcrumbSchema = {
         <p>Four small parts, four different schedules. Read together they are the most precise thing on the guitar short of opening it up.</p>
 
         <h3 id="logo">The Logo And The Headstock</h3>
-        <p>The spaghetti logo runs from 1958 to about mid-1964, the heavier gold transition logo from mid-1964 to 1967, and the black CBS logo from about late 1967, arriving with a bolder block-letter model name beside it. The headstock outline is close to constant: around mid-1967 it was reshaped to match the post-1965 Stratocaster outline, but that is a subtle change you really only catch in a direct comparison, so treat the decal as the primary clue rather than the shape. Early 1958 examples carry no patent numbers on the decal at all, with the numbers arriving gradually through 1959 into 1960.</p>
+        <p>The spaghetti logo runs from 1958 to about mid-1964, the transition logo from mid-1964 to 1967, and the black CBS logo from about late 1967, arriving with a bolder block-letter model name beside it. <b>The first two are both gold, so the change between them is a change in weight and not in color</b>: spaghetti is thin, fine, and delicate, and the transition logo is that same gold drawn in a noticeably heavier hand. Anybody telling you to watch for silver turning to gold on a Jazzmaster is describing a Telecaster, where the standard model did wear a silver logo. The headstock outline is close to constant: around mid-1967 it was reshaped to match the post-1965 Stratocaster outline, but that is a subtle change you really only catch in a direct comparison, so treat the decal as the primary clue rather than the shape. Early 1958 examples carry no patent numbers on the decal at all, with the numbers arriving gradually through 1959 into 1960.</p>
         <div class="tip">
           <p><b>The offsets have their own patent block, and on this model the check runs backwards.</b> A Jazzmaster carries the floating tremolo patent <b>2,972,923</b> and the offset body design <b>DES 186,826</b>, neither of which a Stratocaster ever wears. So rather than hunting for a wrong number, look for a missing one: the <i>absence</i> of 2,972,923 on a decal that should have it is the flag, and its presence is part of what confirms the decal belongs on an offset at all. A reproduction decal borrowed from Stratocaster artwork gives itself away here immediately. There is a full breakdown by model and era on the <a class="spoke" href="/fender-physical-features/">physical features guide</a>.</p>
         </div>
