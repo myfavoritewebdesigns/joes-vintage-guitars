@@ -1,0 +1,852 @@
+---
+/**
+ * Fender Jaguar dating guide. FOURTH OF THE MODEL-AXIS SPOKES.
+ *
+ * Sibling of fender-stratocaster-dating-guide.astro,
+ * fender-telecaster-dating-guide.astro and fender-jazzmaster-dating-guide.astro.
+ * Built on joe/jaguar-dating-spoke, stacked on joe/jazzmaster-dating-spoke,
+ * because every model page edits the hub's "Go Deeper" chips and the sitemap
+ * list and would otherwise conflict. Joe is holding the model set to go live
+ * together.
+ *
+ * WHAT MAKES THE JAGUAR PAGE DIFFERENT. Do not clone the structure of the other
+ * three. This model inverts the central move of all of them:
+ *   - ON EVERY OTHER MODEL PAGE THE DECAL IS A PRIMARY DATING TOOL. ON A JAGUAR
+ *     IT IS NOT. The gold transition logo ran from the 1962 launch through about
+ *     mid-1968, spanning the pre-CBS years AND the early CBS years, so the logo
+ *     alone cannot tell you which side of CBS a Jaguar sits on. That is the
+ *     page's hook and it is why the logo is deliberately LEFT OUT of the five
+ *     fastest checks and given its own "why this won't help" section instead.
+ *   - THE JAGUAR NEVER WORE A SPAGHETTI LOGO. It arrived after that era ended.
+ *     A listing claiming one is describing the headstock wrong or showing a
+ *     replaced decal.
+ *   - The PATENT BLOCK does what the logo cannot, and its count DROPS from 5 or
+ *     6 to 2 at the 1968 CBS decal, which is counter-intuitive and is the single
+ *     best test against a counterfeit decal.
+ *   - The BOUND-DOT WINDOW: binding arrives about September 1965, blocks not
+ *     until mid-1966, so bound board + pearloid dots is a correct factory build.
+ *   - FULLERPLAST is the cleanest refinish tell on any 1963 or later Jaguar, and
+ *     it gets its own section. Note the misconception the guide corrects:
+ *     Fullerplast is CLEAR. The yellow amber is the aniline dye stain UNDER it,
+ *     not a colored sealer and not an undercoat.
+ *   - The BUZZ STOP drills two permanent holes in the original tremolo plate.
+ *     That is an authentication check no other model page needs.
+ *   - 24 inch scale, the mute, and the dual circuit are all Jaguar ground.
+ *
+ * JOE'S REVIEW RULES, carried over from the three sibling pages:
+ *   - Features give a WINDOW, often a wider one than the serial. They
+ *     corroborate the serial rather than beating it. Only the neck heel date
+ *     and the body date give a month.
+ *   - The serial belongs in the second pass, read as one vote among several.
+ *   - Never call a feature "model-specific" without checking it.
+ *   - Never say "bare wood" about a body date. Say the date is written
+ *     directly on the body. (NOTE: "bare wood" IS correct and is KEPT in the
+ *     Fullerplast and nail-hole sections, where it is the actual authentication
+ *     point, matching how the 1962/1963 Strat and 1952 P-Bass guides use it.)
+ *   - Keep a photo caption on the one thing the photo is for.
+ *   - Open the photo before repeating any color or layout claim about it.
+ *
+ * LOGO COLOR. Not an issue on this model and do not import the argument from the
+ * sibling pages. The Jaguar's only pre-CBS logo IS the gold transition logo, so
+ * there is no spaghetti-era silver-or-gold question here at all. (For reference:
+ * Joe ruled the Stratocaster and Jazzmaster spaghetti logos GOLD; the Telecaster
+ * splits silver on the standard model from gold on the Custom.)
+ *
+ * NECK HEEL MODEL CODE, cross-checked against fender-neck-dates.astro, whose
+ * code table is Joe-supplied and Joe-corrected (2026-07-20): the Jaguar is
+ * code 1 from 1962 to 1965, and it becomes 15 from 1966 in the end-of-1965
+ * renumber. Joe's Jaguar guide gives the same code 1 and the example 1FEB63B.
+ * So unlike the Telecaster (code 3, which never moved) the Jaguar code DID move,
+ * which makes it a real dating tool on this model.
+ *
+ * CONTRADICTION IN THE SOURCE, flagged to Joe, NOT propagated: the Jaguar guide
+ * says in its pre-CBS section that neck dates were "rubber-stamped on the heel,
+ * which is what Fender had moved to by the time the Jaguar launched" and that a
+ * penciled name on a Jaguar heel "is a reason to look harder", but its Neck Date
+ * Stamps section then says "Pre-CBS necks usually have a penciled date written
+ * by the shaper". Those cannot both be true for a model that launched in 1962.
+ * The neck-dates spoke puts the ink stamp at "from about 1962", which agrees
+ * with the first version, so this page says Jaguars are stamped and does not
+ * repeat the penciled-pre-CBS sentence.
+ *
+ * Content facts trace to Joe's own live pages: primarily the Jaguar
+ * authentication guide (vintage-fender-jaguar-guide), plus
+ * fender-neck-dates.astro (the model code table), fender-pot-codes.astro,
+ * fender-body-dates.astro, fender-physical-features.astro and the custom color
+ * authentication guide (the neck pocket photo). General Fender context from
+ * VG_FACTS.md: VG-0066 to VG-0068 (serial eras, ranges NOT asserted),
+ * VG-0071 (CBS-era tells), VG-0072 (pre-CBS definition), VG-0073 / VG-0074
+ * (custom color and refinish value).
+ *
+ * NOT YET IN VG_FACTS, flagged for a joes-vintage-databases PR: the Jaguar
+ * patent-count progression and the counter-intuitive 1968 drop to 2; the
+ * Bound-Dot window dates; the black-to-gray pickup bottom change at mid-1964;
+ * the flat-to-staggered pole piece transition; the mute discontinuation around
+ * 1964; the Buzz Stop drilled-plate tell; and the Jaguar model code 1 to 15
+ * renumber. There are NO Jaguar-specific entries in VG_FACTS today.
+ *
+ * NO YEAR-TO-SERIAL-NUMBER TABLE, same as the three sibling pages. Fender
+ * serials are not model-specific, so the charts live once, on the hub.
+ */
+import Layout from "../layouts/Layout.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
+import { contact, hrefs, SITE_URL } from "../config/site";
+
+const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
+const bmeta = (slug: string, file: string) => resolveImage(`images/blog/${slug}/${file}`)!;
+
+const JG = "vintage-fender-jaguar-guide";
+const CC = "fender-custom-color-authentication-guide";
+
+const PAGE_PATH = "/fender-jaguar-dating-guide/";
+const HUB_PATH = "/fender-guitars-serial-number-guide/";
+const HUB_HREF = HUB_PATH;
+const OG = `images/blog/${JG}/1966-fender-jaguar-olympic-white-1-scaled.jpg`;
+
+// ---- Data ----
+const yearRows: [string, string, string][] = [
+  [
+    "1962",
+    "Production starts in the late spring at the top of the Fender price list. Slab Brazilian rosewood board with clay dots to about July, then the veneer board. Four ply nitrate tortoise pickguard, gold transition logo with a three patent block, black bottom pickups with flat pole pieces, single line Kluson tuners, and the hinged string mute behind the bridge. Serials run in the 80000 and 90000 ranges shared with other models, moving to the L prefix late in the year.",
+    "A slab board with clay dots, and a mute still bolted behind the bridge.",
+  ],
+  [
+    "1963",
+    "The specification settles into its pre-CBS shape and stays there. Veneer Brazilian rosewood, clay dots, four ply nitrate guard, single line Klusons. The patent block gains a fourth number. Fullerplast sealer is in use under the finish from around now, which becomes the cleanest refinish test on the guitar. The mute is dropped from most production during the year.",
+    "Nothing visual changed from late 1962. Go to the heel stamp and the pots.",
+  ],
+  [
+    "1964",
+    "The transition starts before the ownership change does. Pearloid dots begin appearing late in the year with clay running through most of production. The pickup bottoms move from black to gray around the middle of the year, and the Kluson stamp goes from one line to two late in the year. The four ply nitrate guard continues.",
+    "Pull a pickup. Black bottom is early 1964 or before, gray is late 1964 or after.",
+  ],
+  [
+    "1965",
+    "The year collectors argue about hardest. CBS completes the purchase on January 5 but the floor keeps building from existing parts, so an early 1965 with clay dots and a nitrate guard is a pre-CBS guitar in everything but the calendar. Across the year the guard goes to three ply, white fingerboard binding arrives around September, and the L plate gives way to the big F plate late in the year.",
+    "Binding on the board. It arrives around September and nothing before it has any.",
+  ],
+  [
+    "1966",
+    "Indian rosewood replaces Brazilian. Early 1966 production is mostly the bound board with pearloid dots still fitted, and the pearloid block inlays arrive around the middle of the year, with a few weeks where both leave the line. From mid-1966 the bound and blocked board is the standard build to the end.",
+    "Bound board with dots is early 1966. Bound board with blocks is mid-1966 or later.",
+  ],
+  [
+    "1967",
+    "Build quality is still high. The maple cap fingerboard appears as an option, a separate maple board glued to a maple neck with a visible seam at the headstock rather than the one piece neck of the 1950s. Late in the year the F tuners replace the Klusons. Nitro starts giving way to a thin polyester on some production.",
+    "A seam across the headstock face means a maple cap, and that is 1967 or later.",
+  ],
+  [
+    "1968",
+    "Two separate changes that did not land together, which is the source of most 1968 confusion. Polyester rolls in across the first half of the year, and the black CBS logo replaces the gold transition decal around the middle of the year. The factory kept using up old gold decal stock afterward, so a late 1968 with a polyester finish and a gold transition logo is a legitimate factory build.",
+    "A thick glassy finish under an old gold decal is a real combination, not a fake.",
+  ],
+  [
+    "1969 to 1972",
+    "The cost cutting shows. Thick polyester throughout, the black logo with its two patent block, three ply guards often in pearl rather than tortoise, and less consistent fret and nut work. Maple cap and bound rosewood run alongside each other.",
+    "Nothing new to separate these years. The heel stamp and the pot codes do the work.",
+  ],
+  [
+    "1973 to 1975",
+    "The last of the run. Maple boards frequently carry black block inlays with black binding rather than pearloid blocks with white, which is a factory 1970s look rather than a replacement neck. Parts mixes get more common as the model wound down. The Jaguar was discontinued in 1975.",
+    "Black blocks in black binding on a maple board. Correct here, wrong before it.",
+  ],
+];
+
+// The checks that place a Jaguar in an era without tools. These give a WINDOW.
+// THE LOGO IS DELIBERATELY ABSENT. On this model it does not date the guitar,
+// which is the point of the #headstock section. Do not "helpfully" add it here.
+const fastRows: [string, string, string][] = [
+  ["The inlays", "Clay dots to late 1964, pearloid dots to mid-1966, pearloid blocks after", "Clay is matte and ages tan or cream. Pearloid is bright and catches the light. Blocks are the CBS neck."],
+  ["The fingerboard binding", "None to about September 1965, white binding after", "A single white line down each edge of the board. The cleanest CBS marker on the guitar, and readable from a photo."],
+  ["The pickguard", "Four ply nitrate to mid-1965, three ply after", "Hold the edge to a strong light and count the layers. The nitrate one also shrinks, cracks, and smells of vinegar."],
+  ["The pickup bottoms", "Black Forbon to about mid-1964, gray after", "The one check worth a screwdriver early, because black bottoms carry a real premium on a 1962 to early 1964 guitar."],
+  ["The tuners", "Single line Kluson to late 1964, double line to late 1967, F tuners after", "Read the stamp on the back plate. One line of text, two stacked lines, or a large stylized F."],
+];
+
+// Jaguar neck-heel model code. Cross-checked against fender-neck-dates.astro.
+const codeRows: [string, string][] = [
+  ["1", "Jaguar, 1962 to 1965, in the rubber-stamped heel codes (for example 1FEB63B)"],
+  ["15", "Jaguar from 1966, after Fender renumbered the model codes at the end of 1965"],
+];
+
+// Patent block by era. This is what the logo cannot do on a Jaguar.
+const patentRows: [string, string, string][] = [
+  ["1962", "3 patents", "2,960,900 offset body, 2,972,923 vibrato, and 2,741,146. PAT. PEND. text may sit alongside the numbers on the earliest examples."],
+  ["1963 to 1964", "4 patents", "The 1962 three plus 3,143,028. Already a bigger block than a same-year Stratocaster decal. PAT. PEND. often lingers on early 1963 as old stock was used up."],
+  ["1965 to 1967", "5 to 6 patents", "The earlier numbers plus DES 186,826 and others. The block becomes a thick multi-line paragraph, the largest patent text a Jaguar headstock ever carried."],
+  ["1968 to 1975", "2 patents", "2,972,923 and 3,143,028 only. The count DROPS at the black CBS decal, which is the opposite of what most people expect."],
+];
+
+// Serial plate eras. Named, NOT charted. Charts live on the hub.
+const plateRows: [string, string, string][] = [
+  ["Plain chrome four-bolt plate", "1962", "Five digits in the 80000 and 90000 ranges, no letter, shared with Stratocasters and other models of the moment."],
+  ["L-prefix plate", "Late 1962 to late 1965", "A smaller plate with an L in front of five digits in a smaller typeface. The last of the pre-CBS plates."],
+  ["Big-F plate", "Late 1965 to 1975", "A physically larger plate with the digits stamped above a bold stylized F. The CBS plate."],
+];
+
+const tocItems: [string, string][] = [
+  ["#start", "Start Here"],
+  ["#fast", "The Five Fastest Checks"],
+  ["#years", "Jaguar Year By Year"],
+  ["#headstock", "Why The Logo Won't Help"],
+  ["#neck", "The Board And The Binding"],
+  ["#guard", "The Pickguard"],
+  ["#electronics", "Pickups And The Dual Circuit"],
+  ["#bridge", "Bridge, Tremolo And Mute"],
+  ["#heel", "The Neck Heel Date"],
+  ["#body", "Body Dates"],
+  ["#serial", "What The Serial Number Adds"],
+  ["#finish", "Fullerplast And Refinishes"],
+  ["#limits", "What Features Can't Prove"],
+  ["#cross", "Confirm It From The Inside"],
+  ["#faq", "Common Questions"],
+  ["#appraisal", "Free Expert Appraisal"],
+  ["#about-joe", "About Joe"],
+];
+
+const faqs = [
+  {
+    q: "What Year Is My Jaguar?",
+    a: "Work it in three passes and expect each to give you a window rather than an answer. Start with the inlays and the fingerboard binding, because between them they cut the whole run into slices from across the room. Then read the pickguard, the tuners, and the serial number together, treating the serial as one vote among several. Then open it up for the parts Fender actually dated: the neck heel stamp and the body date, backed up by the pot codes. Those last two are the only things on the guitar that will give you a month. One warning specific to this model: do not start with the headstock. On a Jaguar the decal covers six years and will not tell you which side of CBS you are on.",
+  },
+  {
+    q: "Why Doesn't The Logo Tell Me If My Jaguar Is Pre-CBS?",
+    a: "Because the same decal ran straight through the changeover. The gold transition logo went on Jaguars from the 1962 launch until about the middle of 1968, so a 1963 and a 1967 wear the same logo and the decal by itself separates neither from the other. This is the opposite of a Stratocaster, where the logo is one of the fastest era checks on the guitar, and it is the single most common reason people misdate a Jaguar. What does work on the headstock is the patent block underneath the model name, because the number of patents changed by era. Everything else has to come from the board, the guard, the hardware, and the dates inside.",
+  },
+  {
+    q: "Did The Jaguar Ever Have A Spaghetti Logo?",
+    a: "No, never from the factory. The Jaguar arrived in 1962, after the spaghetti era had already ended on most Fender production, so it launched on the gold transition logo and never wore the thin script at all. A listing that describes a spaghetti logo on a Jaguar is either using the wrong name for the transition decal, which is a common slip even among experienced sellers, or showing a guitar wearing a decal that did not come on it. Worth checking rather than assuming, because a replaced decal raises questions about the whole neck.",
+  },
+  {
+    q: "What Is A Bound-Dot Jaguar?",
+    a: "A factory build from the window between two changes. White fingerboard binding arrived around September 1965 but the pearloid block inlays did not follow until about the middle of 1966, so for those months Fender fitted bound boards that still carried pearloid dots. Bound-Dot necks are mostly 1966 production with a small tail into very late 1965, and they are correct rather than odd. The changeover to blocks was messy too, so a Bound-Dot neck dated a week or two after blocks officially arrived is still factory original. They are not rare, but they are a little less common than the longer running builds either side of them and some buyers seek the look out.",
+  },
+  {
+    q: "Is My Jaguar Pre-CBS?",
+    a: "Pre-CBS means built before CBS completed the purchase in January 1965, but the guitars did not change on that date and the Jaguar is the model where that matters most. The useful markers cluster later than the calendar: the guard goes to three ply during 1965, binding arrives around September 1965, and blocks arrive mid-1966. An unbound board with clay dots, a four ply nitrate guard, and black bottom pickups is comfortably pre-CBS. An early 1965 with those same features is a pre-CBS guitar in everything but the paperwork, and it is worth substantially more than a late 1965 that has the binding and the three ply guard. Look at the parts, not the year on the listing.",
+  },
+  {
+    q: "My Jaguar Buzzes And The Strings Keep Popping Out Of The Saddles. Is Something Wrong With It?",
+    a: "Almost certainly not. It is the design. The 24 inch scale means lower string tension at concert pitch than a Stratocaster's 25.5 inch, the bridge has a shallow break angle behind the saddles, and the factory saddle grooves are narrow and shallow. Fender expected the heavy flatwound strings that were standard in the early 60s. Put modern 9s or 10s on an unmodified vintage Jaguar and you get exactly the buzzing and popping you are describing. A heavier string set usually fixes it. So does a Mastery or Staytrem bridge, which drops into the original thimbles and pulls straight back out. Be careful with the other common fix though, because a Buzz Stop has to be drilled into the tremolo plate and those holes are permanent.",
+  },
+  {
+    q: "How Do I Know If My Jaguar Pickups Are Original?",
+    a: "Start with the bottoms, because that is the check serious buyers make first. Fender used black Forbon flatwork from 1962 to about the middle of 1964, then switched to gray for the rest of the run. Original black bottoms in a 1962 to early 1964 Jaguar are a collector premium and a clean pair is worth real money on its own. A guitar sold as a 1963 with gray bottom pickups is a replacement pair, a parts mix, or misdated, and none of those should carry full pre-CBS money. While the pickup is out, look at the pole pieces too: flat poles are correct on 1962 production, the change to staggered runs across 1963 and 1964 with mixed examples throughout, and flat poles on a 1965 or later guitar point at a swap.",
+  },
+  {
+    q: "Should I Take My Jaguar Apart To Date It?",
+    a: "Only as far as you need to and only if you have done it before. Everything in the first pass reads with the guitar assembled, which is deliberate. Pulling a pickup to read the bottom color is worth it on an early guitar, and pulling the control plates to read pot codes is standard, but old nitrate pickguards are brittle and crack at the screw ears if you rush them. The Jaguar also has more small parts under the guard than any other Fender of the period, including the brass shielding and the two separate circuits, so it is an easy guitar to put back together slightly wrong. If the outside checks leave you stuck between two years, send me photos before you reach for a screwdriver.",
+  },
+];
+
+// ---- Schema ----
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "How To Date A Fender Jaguar, Year By Year",
+  description:
+    "Date a vintage Fender Jaguar from the features you can see: the inlays, the fingerboard binding, the pickguard, and the patent block, year by year from 1962 to 1975, and why the headstock logo will not help.",
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+  image: `${SITE_URL}${assetSrc(OG)}`,
+  datePublished: "2026-08-10",
+  dateModified: "2026-08-10",
+  inLanguage: "en-US",
+  mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
+  isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+    { "@type": "ListItem", position: 2, name: "Fender Serial Number Guide", item: `${SITE_URL}${HUB_PATH}` },
+    { "@type": "ListItem", position: 3, name: "Jaguar Dating Guide", item: `${SITE_URL}${PAGE_PATH}` },
+  ],
+};
+---
+
+<Layout
+  title="How To Date A Fender Jaguar: Year By Year Guide"
+  description="Date a vintage Fender Jaguar from what you can see: the inlays, the binding, the pickguard, and the patent block, year by year from 1962 to 1975, and why the logo will not help."
+  canonical={PAGE_PATH}
+  ogImage={`${SITE_URL}${assetSrc(OG)}`}
+  {...ogCardSize(OG)}
+  ogImageAlt="A 1966 Fender Jaguar in original Olympic White finish"
+  ogType="article"
+  noIndex={false}
+  structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
+>
+  <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
+  <div class="fspot-header-backdrop" aria-hidden="true">
+    <div class="fspot-header-backdrop__dark"></div>
+    <div class="fspot-header-backdrop__cream"></div>
+  </div>
+
+  <div class="fspot">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="measure stack">
+        <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
+        <span class="eyebrow">Fender Dating By Model</span>
+        <h1>How To Date A Fender Jaguar</h1>
+        <p class="lead">Start anywhere except the headstock. On a Stratocaster the logo is one of the first things you read, but the Jaguar wore the same gold transition decal from its 1962 launch until about the middle of 1968, straight through the CBS changeover, so it will not tell you which side of 1965 your guitar is on. What does work is the board, the binding, the pickguard, and the small block of patent numbers under the model name. Here is what changed and when, from the 1962 launch to the end of the run in 1975.</p>
+        <div class="trust">
+          <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
+        </div>
+        <figure class="sfig herofig">
+          <LicensedImage src={bmeta(JG, "1966-fender-jaguar-olympic-white-1-scaled.jpg")} alt="A 1966 Fender Jaguar in original Olympic White finish with a bound rosewood fingerboard and chrome control plates" width={1600} loading="eager" />
+          <figcaption>A 1966 Jaguar in Olympic White. The bound board puts it after about September 1965 before you read anything else on the guitar.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- START HERE -->
+    <section id="start">
+      <div class="measure stack">
+        <span class="eyebrow">Start Here</span>
+        <h2>Read The Guitar In Three Passes</h2>
+        <p>Nothing in the first two passes will hand you a single year, and it helps to know that going in. Binding only says late 1965 or later. Block inlays only say mid-1966 or later. Each feature is a window, and several of them are wider than the serial number is. What the Jaguar takes away on the headstock it gives back on the neck, because the board went through more distinct stages than any other Fender of the period.</p>
+        <p><b>First pass, across the room.</b> The inlays and the fingerboard binding. Clay dots, pearloid dots, or blocks, and a bound or unbound board. Those two questions alone put a Jaguar in a narrow band of the run.</p>
+        <p><b>Second pass, in your hands.</b> The pickguard layers, the tuner stamp, the patent block under the logo, and the serial number. Take the serial as one vote among several rather than the answer, and read the plate style along with the digits.</p>
+        <p><b>Third pass, inside.</b> The neck heel stamp, the body date, and the pot codes, plus a pickup pulled to read the bottom color on an early guitar. These are the only places Fender wrote an actual date, and the only things that will give you a month rather than a window.</p>
+        <p><b>The three passes should agree.</b> When they do, you have a build date you can stand behind. When they don't, the disagreement is the interesting part, and on this model it usually means a replaced neck, a later decal, or a guitar being sold a year or two earlier than it was built.</p>
+        <p class="note-sm">One spec worth knowing before you start, because it is the thing people ask about most: the Jaguar runs a <b>24 inch scale</b>, not the 25.5 inch of a Stratocaster, Telecaster, or Jazzmaster. It is the reason the guitar feels looser under the fingers, and it is also the root of the setup complaints covered further down.</p>
+      </div>
+    </section>
+
+    <!-- SAFETY -->
+    <section class="pt0" aria-label="Safety warning">
+      <div class="measure">
+        <div class="warnbox" role="note">
+          <span class="warnbox__head"><svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>Read This First</span>
+          <p>The whole first pass reads with the guitar assembled. If you do go in, be careful with this one in particular: sixty year old nitrate pickguards are brittle and crack at the screw ears, and there is more under a Jaguar guard than under any other Fender of the period, including brass shielding and two separate circuits. If the outside checks leave you stuck, contact me before you take anything apart.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- FIVE FASTEST -->
+    <section id="fast">
+      <div class="measure stack">
+        <span class="eyebrow">The Short Version</span>
+        <h2>The Five Fastest Checks</h2>
+        <p>If you read nothing else on this page, read these five. Read them together rather than one at a time: no single row narrows anything to a year, but five rows overlapping do.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>What to look at</th><th>What it tells you</th><th>How to read it</th></tr></thead>
+          <tbody>{fastRows.map((r) => (<tr><td data-label="What to look at"><b>{r[0]}</b></td><td data-label="What it tells you" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="tip">
+          <p><b>Notice what is not on that list.</b> On the Stratocaster, Telecaster, and Jazzmaster pages the logo is one of the five fastest checks. Here it is missing on purpose, because the Jaguar wore one decal from 1962 to mid-1968 and it cannot separate a pre-CBS guitar from a CBS one. Stack the five above instead. A guitar with pearloid dots, an unbound board, a four ply guard, gray bottom pickups, and double line Klusons is telling you late 1964 to mid-1965 without the headstock contributing anything at all.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- YEAR BY YEAR -->
+    <section id="years">
+      <div class="measure stack">
+        <span class="eyebrow">The Whole Timeline</span>
+        <h2>Jaguar Year By Year, 1962 To 1975</h2>
+        <p>What changed each year, and the quickest way to see it. Two things to keep in mind while you read down the table. Fender never made a clean cutover, so a change dated to mid-year means both versions turn up on guitars from that year and a transition example is genuinely correct either way. And parts went into a bin before they went into a guitar, so a feature dates the part, and the guitar is that year or later.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Year</th><th>What changed</th><th>Fastest tell</th></tr></thead>
+          <tbody>{yearRows.map((r) => (<tr><td data-label="Year" class="yr">{r[0]}</td><td data-label="What changed">{r[1]}</td><td data-label="Fastest tell">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <p class="note-sm">For the deep dive on any one of these changes, including the full custom color list, the shielding, and the value drivers, the <a class="spoke" href="/post/vintage-fender-jaguar-guide/">Jaguar authentication guide</a> runs the whole model in detail.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- HEADSTOCK: THE HOOK -->
+    <section id="headstock">
+      <div class="measure stack">
+        <span class="eyebrow">The Jaguar Difference</span>
+        <h2>Why The Headstock Won't Date Your Jaguar</h2>
+        <p>Every other Fender model page on this site treats the logo as a fast era check, because on those guitars it is one. The Jaguar is the exception, and it is worth understanding why before you read a decal and draw a conclusion from it.</p>
+        <p>Only <b>two</b> factory logo styles ever appeared on a Jaguar across the entire 1962 to 1975 run. The <b>gold transition logo</b> went on from the launch and stayed until about the middle of 1968. The <b>black CBS logo</b>, the blocky one collectors call the TV logo, ran from then to the end. That is it. So the decal splits the run at 1968 and nowhere else, and 1968 is not the split anybody cares about. A 1963 Jaguar and a 1967 Jaguar wear the same logo.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JG, "1965-fender-jaguar-logo-scaled.jpg")} alt="The gold transition headstock logo on a 1965 Fender Jaguar, showing the heavier rounded gold Fender script with the Jaguar model name below it" width={1600} />
+            <figcaption>The gold transition logo on a 1965. The same decal went on Jaguars from 1962 until about mid-1968, so on its own it places this guitar only inside a six year window.</figcaption>
+          </figure>
+        </div>
+        <p><b>The Jaguar never wore a spaghetti logo.</b> It arrived in 1962, after that era had already ended on most Fender production, so the thin script never went on this model at the factory. Listings claim it fairly often, usually because the seller is using the wrong name for the transition decal. Occasionally it means the neck is wearing a decal it did not leave with, which is a much bigger problem than a naming slip.</p>
+
+        <h3 id="patents">What The Patent Block Does Instead</h3>
+        <p>The fine print under the model name is the part of the headstock that actually earns its place. The number of patents listed changed by era, and it is the one thing counterfeiters routinely get wrong: a fake decal usually nails the big Fender script and then botches the block underneath it.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Era</th><th>Count</th><th>What should be there</th></tr></thead>
+          <tbody>{patentRows.map((r) => (<tr><td data-label="Era" class="yr">{r[0]}</td><td data-label="Count" class="code">{r[1]}</td><td data-label="What should be there">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="tip">
+          <p><b>The count going down in 1968 is the useful part.</b> Everybody expects a patent block to grow over time, and on a Jaguar it grows from three to six and then collapses to two when the black CBS decal arrives. A CBS-era black-logo Jaguar carrying five or six patents is wrong, and so is a pre-1968 gold transition logo carrying only two. Those two mistakes are exactly what a counterfeiter makes when they assume patents only ever accumulate.</p>
+        </div>
+        <p>Other things worth checking on the block: PAT. PEND. text on its own with no numbers is wrong on anything built after early 1963, a four patent block is wrong on a 1962 because the fourth number was not added until 1963, and <b>2,972,923</b>, the vibrato patent, should appear somewhere on every decal across the whole run. If it is missing, the decal is not right.</p>
+        <p>Read the decal itself as well as the numbers on it. On an original the ink sits <b>under</b> the clear coat, and a reproduction applied over the finish sits on the surface with crisper edges and often a slightly different ink color. Under a black light an aged original fluoresces differently from a fresh reproduction.</p>
+        <p class="note-sm">The logo styles and patent blocks for every other Fender model, which do date those guitars, are on the <a class="spoke" href="/fender-physical-features/#logo">parts and features guide</a>.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- NECK -->
+    <section id="neck">
+      <div class="measure stack">
+        <span class="eyebrow">Pass One</span>
+        <h2>The Board, The Inlays And The Binding</h2>
+        <p>This is where a Jaguar gives up its year. The fingerboard went through more distinct stages than the headstock ever did, and three of them are readable from a photograph.</p>
+        <p><b>Slab or veneer.</b> Look along the side of the neck at fret level, where the rosewood meets the maple. A slab board shows a flat seam, with rosewood of even thickness glued to a flat topped neck. A veneer board shows a curved seam, thinner rosewood following the radius of the maple beneath it. Slab boards ran from the 1962 launch to roughly July 1962, so the window is only a few months and a slab board carries real value. A slab board on a guitar with a 1963 or later neck date is a red flag rather than a bonus.</p>
+
+        <h3 id="inlays">Three Inlay Eras</h3>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JG, "1960s-fender-jaguar-with-clay-dots-scaled.jpg")} alt="Close up of clay dot fingerboard inlays on a 1960s Fender Jaguar, showing the matte off-white surface" width={1600} />
+            <figcaption>Clay dots, 1962 to late 1964. Matte, off-white, and ageing toward tan or cream. The absence of any sheen is the identifier.</figcaption>
+          </figure>
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JG, "1966-fender-jaguar-olympic-white-block-inlays-scaled.jpg")} alt="Pearloid block inlays on the bound rosewood fingerboard of a 1966 Fender Jaguar in Olympic White" width={1600} />
+            <figcaption>Pearloid blocks on a bound board, mid-1966 onward. This is the standard CBS-era Jaguar neck and it ran to the end of production in 1975.</figcaption>
+          </figure>
+        </div>
+        <p>Between those two sits the <b>pearloid dot</b> era, from late 1964 through 1965 and into early 1966. Pearloid is brighter and more reflective than clay and catches the light in a way clay never does. Clay dots are not actually clay, they are a plastic compound, and many show fine age cracking under magnification.</p>
+
+        <h3 id="bounddot">The Bound-Dot Window</h3>
+        <p>Here is the combination that confuses people, and it is factory correct. White fingerboard binding arrived around <b>September 1965</b>. Pearloid block inlays did not arrive until about <b>mid-1966</b>. That leaves a window of several months where Fender fitted bound boards that still carried pearloid dots, and collectors call those <b>Bound-Dot</b> Jaguars.</p>
+        <p>They are mostly 1966 production with a small tail running back into very late 1965. The changeover to blocks was untidy as well, with dot stock being used up while block production ramped, so a Bound-Dot neck dated a week or two after blocks officially arrived is still original. They are not rare, but they are less common than the longer running builds on either side and the look has its followers.</p>
+        <p>The fake version of this exists: a bound 1967 or 1968 block-inlay neck with dots swapped in. It is detectable, but it takes a close look at how the inlays are seated and how the binding runs around the inlay cuts, so treat a Bound-Dot as something to confirm against the neck date and the pots rather than take at face value.</p>
+
+        <h3 id="rosewood">Brazilian, Indian And Maple</h3>
+        <p><b>Brazilian rosewood</b> ran from 1962 to roughly 1965 and sometimes into early 1966 as old stock ran out, with <b>Indian rosewood</b> from 1966 onward. Brazilian tends darker, more chocolate with red undertones and prominent figure, while Indian tends lighter and straighter grained, but the difference is not absolute and a well played Brazilian board under fingerboard oil can read like a clean Indian one. It matters beyond dating: Brazilian rosewood has been CITES restricted since 1992, so confirm the species before taking one of these across a border.</p>
+        <p>The <b>maple cap</b> option appears around 1967. It is a separate maple board glued onto a maple neck, so there is a visible seam at the headstock, which is what separates it from the one piece maple necks of the 1950s. Late 60s maple caps usually carry pearloid blocks with white binding. On 1970s maple boards, <b>black blocks with black binding</b> are common and are factory correct, matching what Fender was doing on maple board Strats and Teles at the time.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- PICKGUARD -->
+    <section id="guard">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Two</span>
+        <h2>The Pickguard, And The One Test You Do With Your Nose</h2>
+        <p>Hold the guard edge up to a strong light and count the layers. <b>Four ply nitrate</b> runs from 1962 to about the middle of 1965, and <b>three ply</b> from then to the end of the run as the older sheets were used up.</p>
+        <p>The nitrate guards do something no reproduction manages: they outgas as they age, and the smell is unmistakable. Sniff the underside of the guard, or open a case that has been shut for a while, and there is a sharp vinegar tang. That is a real authentication tool rather than folklore. The PVC and ABS guards that replaced nitrate do not shrink, do not smell, and have no mint green underlayer.</p>
+        <div class="tip">
+          <p><b>A 1965 nuance worth money.</b> If a 1965 Jaguar has a heavily shrunken, vinegar-smelling guard with a mint green underside, you are most likely looking at leftover 1964 nitrate stock fitted to an early 1965 build. That is factory original and a desirable detail on a transitional guitar, not a red flag. It is one of the small things that separates an early 1965, which is a pre-CBS guitar in all but name, from a late one.</p>
+        </div>
+        <p><b>Pull the guard and look at the screw holes.</b> Every hole should line up with a factory drill point. Extra holes, missing holes, or a guard outline that does not sit cleanly against the body finish means the guard has been replaced, the body has been routed for a different shape, or both. It is one of the highest yield single inspections on the whole instrument, and it takes a screwdriver and two minutes.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- ELECTRONICS -->
+    <section id="electronics">
+      <div class="measure stack">
+        <span class="eyebrow">Under The Guard</span>
+        <h2>Pickups, Bottoms And The Dual Circuit</h2>
+        <p>The Jaguar pickup is close to a Stratocaster pickup in its dimensions but sits inside a distinctive <b>notched metal claw</b> shielding plate that wraps around three sides of it. Leo Fender put those there to cut single coil noise without losing brightness, and they are one of the most reliable ways to recognise a Jaguar pickup at a glance.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JG, "1964-fender-jaguar-pickups-scaled.jpg")} alt="A pair of single coil pickups on a 1964 Fender Jaguar showing the notched metal claw shielding plates wrapping around three sides of each pickup" width={1600} />
+            <figcaption>The notched claw shielding on a 1964. It wraps three sides of each pickup and is the fastest way to identify a Jaguar pickup.</figcaption>
+          </figure>
+        </div>
+
+        <h3 id="bottoms">Black Bottoms Versus Gray</h3>
+        <p>This is the check serious buyers make first on an early Jaguar, and it is worth pulling a pickup for. Fender used <b>black Forbon flatwork</b> from 1962 to about the middle of 1964, then switched to <b>gray</b> for the rest of the run. Original black bottoms in a 1962 to early 1964 guitar carry a real premium, and a clean original pair is worth serious money on its own.</p>
+        <p>So a guitar being sold as a 1963 with gray bottom pickups is one of three things: a replacement pair, a parts mix, or misdated. None of them should be priced at full pre-CBS money. While the pickup is out, read the pole pieces as well. <b>Flat poles are correct on 1962 production</b>, the change to staggered runs across 1963 and 1964 with mixed examples right through the transition, and fully staggered from 1965. Flat poles on a 1965 or later guitar suggest replacements.</p>
+        <p>Other dating detail inside: the lead wire is <b>cloth covered push-back</b>, typically yellow and black, from 1962 through the 1968 to 1969 window, with plastic insulated wire taking over by the end of the decade. Many pre-1965 pickups also carry a date pencilled or stamped on the bottom flatwork.</p>
+
+        <h3 id="circuit">The Dual Circuit</h3>
+        <p>The most complicated switching Fender designed in the 1960s, and two entirely separate circuits rather than one with options. The slide switch on the upper bout picks between them.</p>
+        <p>The <b>lead circuit</b> lives on the lower bout: three slider switches near the bridge plus volume and tone rollers. Two sliders bring in the neck and bridge pickups individually, and the third switches in the strangle capacitor, a 0.003 microfarad cap in series that cuts the bass hard and pushes the guitar into thin treble. This circuit runs <b>1 megohm</b> pots.</p>
+        <p>The <b>rhythm circuit</b> lives on the upper bout and runs the neck pickup alone through its own volume and tone rollers with a fixed high cut, meant for jazz comping. Its pots are different values again, a 50k volume with a 1 megohm tone in the original Fender wiring.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JG, "1965-fender-jaguar-rhythm-circuit-scaled.jpg")} alt="The upper bout rhythm circuit slider switch and the two roller knobs for volume and tone on a 1965 Fender Jaguar" width={1600} />
+            <figcaption>The rhythm circuit on a 1965. The slider selects between the two circuits and the rollers are its own dedicated volume and tone.</figcaption>
+          </figure>
+          <figure class="sfig">
+            <LicensedImage src={meta("1965-fender-jaguar-wiring-harness.jpg")} alt="The original wiring harness of a 1965 Fender Jaguar showing factory solder joints, cloth covered wire, and a period capacitor" width={1600} />
+            <figcaption>An original 1965 harness. Period solder joints look duller and more frosted than modern leaded solder, and the cloth wire should be undisturbed.</figcaption>
+          </figure>
+        </div>
+
+        <h3 id="shielding">Brass Shielding Tubs</h3>
+        <p>Most guides skip this and it is one of the loudest tells on the guitar. Jaguar bodies left the factory with <b>brass shielding tubs</b>, thin folded brass sheets lining the control and pickup routes, with ground wires soldered to the brass and the pickguard's aluminum plate making contact across the top.</p>
+        <p>Pull the plates on anything sold as all original and you should find brass in the cavities, oxidised to a dull amber or olive, with a ground wire physically soldered to it, and no fresh solder, no copper foil tape, and no empty routes. When a body is stripped for a refinish the brass has to come out, and amateur refinishers and parts builders almost never put it back properly. An untouched cavity with no brass in it, on a guitar claimed to be original, is telling you what happened to it.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- BRIDGE -->
+    <section id="bridge">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Two</span>
+        <h2>Bridge, Tremolo And The Mute</h2>
+        <p>The Jaguar shares its <b>floating tremolo</b> with the Jazzmaster: a long plate on the lower bout with a locking button that lets you keep playing in tune through a broken string, which mattered more in 1962 than it does now. Early plates carry a Pat. Pend. stamp and later ones a full patent number. The bridge is separate from the trem, sitting in two thimbles with six individually adjustable saddles, and the threaded barrel saddles are shared with the Jazzmaster and nothing else in the line.</p>
+        <p>The bridge is also the Jaguar's most criticised part. The factory saddle grooves are narrow and shallow, and combined with the 24 inch scale's lower string tension and the shallow break angle behind the saddles, that is why so many of these buzz, rattle, and pop strings out of the slots. Fender expected the heavy flatwounds that were standard in the early 60s. Put 9s or 10s on an unmodified vintage Jaguar and the problems are immediate.</p>
+
+        <h3 id="mute">The Mute</h3>
+        <p>All of 1962 and most early to mid 1963 production carried a <b>hinged string mute</b> behind the bridge: a foam pad on a metal plate that a thumb lever dropped onto the strings. Players hated it, it interfered with right hand technique, and most were taken off almost immediately. By 1964 the factory had stopped fitting it to most production, though the mounting holes stayed in the bodies a while longer.</p>
+        <p>A 1962 with the mute still in place and the foam not yet crumbled is a genuine find and adds value. A missing mute does not disqualify anything, but check that the original screw holes are present and unaltered.</p>
+
+        <h3 id="buzzstop">The Buzz Stop Holes</h3>
+        <div class="tip">
+          <p><b>Look at the tremolo plate before you believe the word stock.</b> The Buzz Stop, a roller bar that presses the strings down to steepen the break angle, was the default fix for Jaguar buzz through the 1990s and 2000s. Fitting one requires <b>drilling two small holes directly into the original tremolo plate</b>, and those holes are permanent. Take the Buzz Stop off, sell the guitar as untouched, and the holes are still there between the bridge thimbles and the trem mechanism. On a collector grade vintage Jaguar a drilled plate is a 500 to 2,000 dollar hit.</p>
+        </div>
+        <p>The <b>Mastery</b> bridge and its competitors like the Staytrem are the opposite case. They drop into the original thimbles, need no drilling, and pull straight back out, so plenty of vintage Jaguars play with a Mastery fitted and the original bridge in the case pocket. That is not a value problem as long as the original bridge still exists. A missing original bridge is. Mastery bridges carry their name engraved on the saddle block, so check what is actually on the guitar rather than what the listing says.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- NECK HEEL -->
+    <section id="heel">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Three</span>
+        <h2>The Neck Heel Date</h2>
+        <p>Take the four neck plate bolts out and the heel carries a date. On a Jaguar this is an <b>ink stamp</b> rather than a pencilled date, because the model launched in 1962, right as Fender was moving from handwriting to the stamp. A typical Jaguar heel reads something like <b>1FEB63B</b>: a model code, then the month, then the year, then a letter for the nut width.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JG, "1965-fender-jaguar-neck-heel-scaled.jpg")} alt="The inked neck heel date stamp on a 1965 Fender Jaguar neck" width={1600} />
+            <figcaption>An inked heel stamp on a 1965 Jaguar. Left to right: the model code, the month and year the neck was shaped, then the nut width letter.</figcaption>
+          </figure>
+        </div>
+        <p>Ignore the model code for dating, because the month and year are what you are after. It is worth knowing anyway, because on this model it moved:</p>
+        <div class="tablewrap compact"><table>
+          <thead><tr><th>Code</th><th>What it means</th></tr></thead>
+          <tbody>{codeRows.map((r) => (<tr><td data-label="Code" class="code">{r[0]}</td><td data-label="What it means">{r[1]}</td></tr>))}</tbody>
+        </table></div>
+        <p>Fender renumbered the model codes at the end of 1965, so a Jaguar neck from 1965 opens with a 1 and one from 1966 opens with a 15. That makes the code a genuine cross-check here, unlike on a Telecaster where the code never moved at all.</p>
+        <p>The neck date is the most defensible build date on the guitar, because it records the actual shaping and finishing of the neck. Read it as the anchor and let the body date and the pot codes agree with it.</p>
+        <p class="note-sm">How the stamp format changed across the whole Fender line, and the full model code table, are on the <a class="spoke" href="/fender-neck-dates/">neck date guide</a>.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- BODY -->
+    <section id="body">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Three</span>
+        <h2>Body Dates</h2>
+        <p>The other place Fender wrote a real date, written directly on the body. On a Jaguar look in the <b>neck pocket</b> or under the pickguard.</p>
+        <p>The body date corroborates rather than decides. It records when the body was routed and prepped, and bodies sat in the warehouse before being matched to necks, so it can sit weeks or several months either side of the neck date without anything being wrong. A body date and a neck date a few months apart is the normal result on an untouched guitar. What you do not want to see is paint sitting <b>over</b> the date stamp instead of under it, which means the body has been refinished.</p>
+        <p class="note-sm">Where the date hides on every other Fender model, and what the pencil, ink, and tape markings look like, is on the <a class="spoke" href="/fender-body-dates/">body date guide</a>.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- SERIAL -->
+    <section id="serial">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Two, One Vote</span>
+        <h2>What The Serial Number Adds</h2>
+        <p>A useful vote, and no more than that. Fender stamped neck plates in batches and pulled them off the stack in no particular order, so a plate could sit on a shelf for months and a higher number could go on a guitar built before a lower one. The number gets you roughly the right production year within a wide window. It will not give you the month, the week, or reliably even the half of the year. The plate style tells you more than the digits do.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Plate</th><th>Years</th><th>What it looks like</th></tr></thead>
+          <tbody>{plateRows.map((r) => (<tr><td data-label="Plate"><b>{r[0]}</b></td><td data-label="Years" class="yr">{r[1]}</td><td data-label="What it looks like">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JG, "1965-fender-jaguar-L-series-serial-number-scaled.jpg")} alt="The L-prefix serial number stamped into the neck plate of a 1965 Fender Jaguar" width={1600} />
+            <figcaption>An L-series plate on a 1965 Jaguar. The L plate was standard from late 1962 until the larger F plate took over late in 1965.</figcaption>
+          </figure>
+        </div>
+        <p><b>The L to F changeover in late 1965 produces real factory anomalies</b>, and they are worth money rather than suspicion. A late 1965 F plate on a guitar with pre-CBS features, meaning dot inlays, an unbound board, and a four ply nitrate guard, is a genuine transition guitar and one of the more sought after Jaguars there is. A mid-1965 L plate with bound board and CBS features is the same thing running the other way, less rare but still distinctive.</p>
+        <p>What is not a transition guitar is an <b>L plate on a 1967 or later Jaguar</b>. The L series ran out by mid to late 1965, so an L plate above a bound block-inlay neck, a polyester finish, and 1968 pot codes is a plate swap, usually a salvaged pre-CBS plate fitted to a later guitar to lift the apparent value. Triangulating the dates and features catches it every time, but the plate on its own will fool a hurried buyer.</p>
+        <p class="note-sm">Worth knowing why there is no Jaguar serial chart on this page: Fender serials are not model-specific. A 1963 neck plate reads exactly the same whether it ended up under a Jaguar, a Stratocaster, or a Jazz Bass, so the charts live once on the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a> rather than being copied onto every model page.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- FULLERPLAST -->
+    <section id="finish">
+      <div class="measure stack">
+        <span class="eyebrow">Where The Money Moves</span>
+        <h2>Fullerplast, And The Cleanest Refinish Tell On The Guitar</h2>
+        <p>From around 1963 Fender sprayed <b>Fullerplast</b>, a clear chemically cured sealer, onto the bare alder before any color went on. It cures hard, it sits between the wood and the color, and it stays put for the life of the finish. You cannot reproduce it in a home shop, which is what makes it so useful.</p>
+        <div class="tip">
+          <p><b>Get this straight before you go looking, because it is misstated constantly.</b> Fullerplast itself is transparent and colorless. The yellow amber you see in a neck pocket or a cavity is the aniline dye stain Fender dipped the body in, sitting under the clear sealer. It is not a colored sealer and it is not an undercoat. An undercoat, when Fender used one, is a colored primer sprayed over the Fullerplast and under the final color, and it varied: white under lighter and metallic colors, desert sand under others, sometimes none at all. A refinish that tries to fake a yellow undercoat beneath a custom color is wrong from the first coat.</p>
+        </div>
+        <p>Look for it on the lower pickup cavity walls with the guard and pickup out, on the neck pocket walls and floor, and at any small chip on the body edge. You want that glassy dye-stained surface under clear sealer sitting between the bare wood and the color. On a sunburst it hides under the yellow center and is hard to read; on a custom color body it sits between the alder and the paint and is obvious. <b>No Fullerplast on a 1963 or later Jaguar means refinished</b>, whatever else the guitar has going for it.</p>
+
+        <h3 id="customcolor">Custom Colors And The Neck Pocket</h3>
+        <p>Original custom color Jaguars are among the most valuable instruments in the lineup, and a refinish costs a large share of that value, so this is where careful checking pays for itself. If you do one thing on a custom color Jaguar, <b>pull the neck</b>. The pocket gives you four reads in a single inspection: the body date present and not painted over, the paint stick shadow, the color continuing cleanly into the pocket walls, and the Fullerplast visible at the edges and floor.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(CC, "1966-fender-jaguar-olympic-white-neck-pocket-shadow.jpg")} alt="The neck pocket of a 1966 Fender Jaguar in Olympic White showing factory crayon markings, a fiber shim, and a whiter band of paint at one edge where the clear coat has ambered elsewhere" width={1600} />
+            <figcaption>The pocket on a 1966 Olympic White Jaguar. The whiter band at the pocket edge is paint sitting under clear coat that has ambered to cream everywhere it was exposed.</figcaption>
+          </figure>
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JG, "1966-fender-jaguar-lake-placid-blue-with-matching-headstock-scaled.jpg")} alt="A 1966 Fender Jaguar in Lake Placid Blue custom color with a matching painted headstock" width={1600} />
+            <figcaption>A 1966 in Lake Placid Blue with a matching painted headstock. Matching headstocks were a factory option and add value when the color is confirmed original.</figcaption>
+          </figure>
+        </div>
+        <p>The <b>paint stick shadow</b> is the one refinishers rarely reproduce. From late 1962 Fender's finishers pushed a wooden stick into the neck pocket to hold the body while spraying, and it blocked paint from a specific area, leaving a distinctive shadow where the bare wood or sealer shows against the surrounding color. An original finish 1963 to 1965 custom color Jaguar should show it.</p>
+        <p>On a 1962 to 1964 custom color body, also pull the pickguard and the bridge and look at the <b>Fender nail holes</b>. They should be present and unpainted, with bare alder visible inside. A refinish fills them, sands over them, or removes them entirely, so painted nail holes on a pre-1965 custom color guitar is a refinish, full stop. And confirm that any matching headstock color sits under the lacquer rather than over it, with the decal under the clear coat too.</p>
+        <p class="note-sm">The full finish forensics, including the DuPont color codes and how the binder chemistry separates a real custom color from a respray, are in the <a class="spoke" href="/post/fender-custom-color-authentication-guide/">Fender custom color authentication guide</a>.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- LIMITS -->
+    <section id="limits">
+      <div class="measure stack">
+        <span class="eyebrow">Keep It Honest</span>
+        <h2>What The Features Can't Prove</h2>
+        <p>Every feature on this page dates a part. None of them dates the guitar, and the difference matters most on exactly the instruments where the money is.</p>
+        <p><b>The neck plate is four screws away from being somebody else's.</b> That is not a theoretical worry on a Jaguar, it is the specific fraud the model attracts, because a salvaged L plate on a later body buys a seller several thousand dollars of apparent value. The plate is one input among many and it is the easiest one to move.</p>
+        <p><b>A correct feature set is not proof of originality.</b> Originality is a whole-instrument judgment that weighs the neck date, the body date, the pots, the pickup bottoms, the brass shielding, the Fullerplast, the guard material, and the decal patents against each other and asks whether they tell one story. A well done parts assembly passes any single check on this page.</p>
+        <p><b>Transition dates are approximate, and honest guitars break them.</b> Fender phased changes in as bins emptied, so a guitar from a changeover year can legitimately carry either spec or one of each. On a Jaguar that lands hardest on 1965, where an early build and a late build are genuinely different guitars carrying genuinely different money, and on 1968, where a polyester finish under an old gold decal is a real factory combination rather than a fake.</p>
+        <p>The finish is where the most value moves, and it is the hardest thing to judge from a photograph. Treat any finish call as a job for hands, a black light, and a neck off the body.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- CROSS -->
+    <section id="cross">
+      <div class="measure stack">
+        <span class="eyebrow">Put It All Together</span>
+        <h2>Confirm It From The Inside</h2>
+        <p>The <a class="spoke" href="#heel">neck heel date</a> and the <a class="spoke" href="#body">body date</a> above are the two that give you a month. Two more parts back them up. The <a class="spoke" href="/fender-pot-codes/">pot codes</a> date a potentiometer to the week, which is the tightest number anywhere on the guitar, though it is a floor rather than a build date because pots sat in bins before they were fitted. Two pots more than about six months apart from each other deserve a second look. The <a class="spoke" href="/fender-pickup-dates/">pickup dates</a> corroborate when they are present, and on a Jaguar the pickup bottom color does real work alongside them. For the parts view across every Fender model rather than this one, work through <a class="spoke" href="/fender-physical-features/">dating a Fender by its parts</a>.</p>
+        <p>For the full history of this model, including the complete custom color list and the value drivers, the <a class="spoke" href="/post/vintage-fender-jaguar-guide/">Jaguar authentication guide</a> is the long version of everything here. Its close relative gets the same treatment in the <a class="spoke" href="/post/fender-jazzmaster-evolution-guide-1958-1971/">Jazzmaster evolution guide</a>, which shares the floating tremolo and the barrel saddles. The sibling model pages built the same way as this one are the <a class="spoke" href="/fender-stratocaster-dating-guide/">Stratocaster</a>, <a class="spoke" href="/fender-telecaster-dating-guide/">Telecaster</a>, and <a class="spoke" href="/fender-jazzmaster-dating-guide/">Jazzmaster</a> dating guides.</p>
+        <p class="note-sm">This guide is one of the model pages behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Expert Questions</span>
+        <h2>Common Questions About Dating A Jaguar</h2>
+        <div class="faqs">
+          {faqs.map((f) => (
+            <details class="faq">
+              <summary>{f.q}</summary>
+              <div class="faqbody"><p>{f.a}</p></div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- APPRAISAL -->
+    <section>
+      <div class="measure">
+        <div class="appraise" id="appraisal">
+          <span class="eyebrow">Free Expert Appraisal</span>
+          <h2>Not Sure Which Side Of 1965 Yours Is On?</h2>
+          <p>That is the question worth thousands on a Jaguar, and it is the one the headstock will not answer. Send Joe three clear photos, the front, the back, and the fingerboard, for a free expert appraisal within 24 hours. No obligation, and no screwdriver required.</p>
+          <div class="row">
+            <a class="call" href={hrefs.tel}>Call Or Text Joe: {contact.phone}</a>
+            <a class="send" href="/free-appraisal/">Or Send Photos Online</a>
+          </div>
+          <p class="note-sm">Thinking about selling? Read how to <a class="spoke" href="/sell-my-fender-guitar/">sell your Fender</a>, or see the <a class="spoke" href="/vintage-fender-stratocaster-value-guide/">Stratocaster</a> and <a class="spoke" href="/vintage-fender-telecaster-value-guide/">Telecaster</a> value guides for a sense of how the vintage market runs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIO -->
+    <section class="pt0">
+      <div class="measure"><div class="bio" id="about-joe">
+        <LicensedImage src={meta("about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars, holding a vintage guitar" width={150} />
+        <div>
+          <div class="who"><a href="/about-me/">Joe Dampt</a></div>
+          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ positive reviews</div>
+          <p class="biotext">Joe Dampt is the owner of Joe's Vintage Guitars in Mesa, Arizona, where he's spent more than twelve years buying, appraising, and authenticating vintage instruments full-time. He's personally valued over 10,000 guitars for sellers in all 50 states, served as a traveling appraiser for the Treasure Seekers Roadshow, and sourced instruments for Grammy Award-winning artists. Every check on this page comes from that bench work.</p>
+        </div>
+      </div></div>
+    </section>
+  </div>
+
+  <!-- Floating TOC (sidebar + mobile FAB + sheet), matches the hub pattern -->
+  <aside class="fspot-toc" id="fspot-toc" aria-label="Table of contents">
+    <p class="fspot-toc__label">On This Page</p>
+    <ul class="fspot-toc__list">
+      {tocItems.map(([href, label]) => (<li><a href={href}>{label}</a></li>))}
+    </ul>
+  </aside>
+  <button class="fspot-toc-fab" id="fspot-toc-fab" type="button" aria-expanded="false" aria-controls="fspot-toc-sheet"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>Jump To A Section</button>
+  <div class="fspot-toc-sheet" id="fspot-toc-sheet" role="dialog" aria-label="Jump to a section" aria-modal="false">
+    <div class="fspot-toc-sheet__head"><span>Jump To A Section</span><button class="fspot-toc-sheet__close" id="fspot-toc-sheet-close" type="button" aria-label="Close section list">&times;</button></div>
+    <div class="fspot-toc-sheet__body" id="fspot-toc-sheet-body"></div>
+  </div>
+</Layout>
+
+<style>
+  .fspot-header-backdrop{position:relative;isolation:isolate;z-index:0;}
+  .fspot-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
+  .fspot-header-backdrop__cream{background:var(--color-brand-brown,#3e2a14);height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}
+
+  .fspot{
+    --paper:#f5efe3; --panel:#ffffff; --panel-2:#f3ead6; --inset:#fffdf8;
+    --ink:var(--color-brand-brown,#3e2a14); --ink-strong:var(--color-brand-brown,#3e2a14);
+    --muted:var(--color-brand-brown-muted,#7a6a54); --line:#ddd0b6;
+    --gold:var(--color-brand-gold,#c8983a); --gold-deep:#8c6a24;
+    --rust:var(--color-brand-rust,#a03a1e); --rust-bright:var(--color-brand-rust-bright,#be4b25);
+    --amber:#f3e3c2; --amber-line:#e3c88a; --darkbrown:#3a2a18; --darkbrown-2:#4a3520;
+    --shadow:0 1px 2px rgba(58,40,23,.06), 0 10px 30px rgba(58,40,23,.08);
+    --fd:var(--font-display), "Oswald", system-ui, sans-serif;
+    --fm:ui-monospace,"SF Mono",Consolas,"Liberation Mono",monospace;
+    --measure:min(92vw,820px);
+    background:var(--paper); color:var(--ink); font-size:17px; line-height:1.6;
+    padding-bottom:1rem;
+  }
+  .fspot [id]{scroll-margin-top:90px;}
+  .fspot h1,.fspot h2,.fspot h3{font-family:var(--fd);font-weight:600;line-height:1.12;margin:0;color:var(--ink-strong);text-wrap:balance;}
+  .fspot h1{font-size:clamp(2rem,4.6vw,2.9rem);letter-spacing:.005em;text-transform:uppercase;}
+  .fspot h2{font-size:clamp(1.5rem,3.1vw,2rem);letter-spacing:.01em;}
+  .fspot h3{font-size:clamp(1.21rem,2.1vw,1.34rem);letter-spacing:.015em;margin-top:.8rem;color:var(--rust);}
+  .fspot p{margin:0;}
+  .fspot a{color:var(--gold-deep);text-underline-offset:2px;}
+  .fspot a:hover{color:var(--rust);}
+  .fspot .measure{width:var(--measure);margin-inline:auto;}
+  .fspot section{padding-block:clamp(1.7rem,4vw,2.6rem);}
+  .fspot .pt0{padding-top:0;}
+  .fspot .rule{height:1px;background:var(--line);width:min(94vw,1080px);margin-inline:auto;}
+  .fspot .stack{display:flex;flex-direction:column;gap:1rem;}
+  .fspot .note-sm{font-size:.95rem;color:var(--muted);}
+  .fspot .eyebrow{font-family:var(--fd);font-weight:600;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);display:inline-flex;align-items:center;gap:.6em;}
+  .fspot .eyebrow::before{content:"";width:24px;height:3px;background:var(--gold);}
+  .fspot a.spoke{color:var(--gold-deep);text-decoration:none;border-bottom:1.5px dotted var(--gold);font-weight:600;}
+  .fspot a.spoke:hover{color:var(--rust);border-bottom-color:var(--rust);}
+  .fspot a.back{position:relative;z-index:31;font-family:var(--fd);font-weight:600;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--rust);text-decoration:none;display:inline-flex;align-items:center;gap:.4rem;}
+  .fspot a.back::before{content:"\2190";font-size:1rem;}
+  .fspot a.back:hover{color:var(--rust-bright);}
+
+  .fspot .hero{padding-top:clamp(1.6rem,4vw,2.6rem);padding-bottom:1.4rem;}
+  .fspot .lead{font-size:1.16rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .trust{display:flex;flex-wrap:wrap;gap:.4rem .9rem;font-family:var(--fm);font-size:.76rem;color:var(--muted);}
+  .fspot .trust span{display:inline-flex;align-items:center;gap:.45rem;}
+  .fspot .trust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--rust);}
+
+  .fspot .secintro{font-size:.97rem;max-width:70ch;color:var(--ink);}
+  .fspot .secintro b{color:var(--ink-strong);}
+
+  .fspot .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);}
+  .fspot table{border-collapse:collapse;width:100%;min-width:520px;background:var(--panel);}
+  .fspot .tablewrap.compact table{min-width:0;}
+  .fspot th,.fspot td{text-align:left;padding:.6rem 1rem;border-bottom:1px solid var(--line);vertical-align:top;font-size:.94rem;}
+  .fspot thead th{font-family:var(--fm);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);background:var(--panel-2);}
+  .fspot tbody tr:last-child td{border-bottom:0;}
+  .fspot tbody tr:nth-child(even){background:color-mix(in srgb,var(--panel-2) 45%,transparent);}
+  .fspot .code{font-family:var(--fm);font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap;}
+  .fspot .yr{font-family:var(--fm);color:var(--rust);font-weight:600;}
+
+  .fspot .figrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
+  .fspot .figrow.single{grid-template-columns:minmax(230px,540px);}
+  .fspot .figrow.gallery{grid-template-columns:1fr;gap:1.4rem;max-width:680px;margin-inline:auto;}
+  .fspot figure.sfig{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow);}
+  .fspot figure.sfig img{display:block;width:100%;height:auto;background:var(--panel-2);}
+  .fspot figure.sfig figcaption{padding:.55rem .8rem;font-family:var(--fm);font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);}
+  .fspot .herofig{margin-top:.3rem;}
+  .fspot .herofig figcaption{font-size:.82rem;color:var(--ink);}
+
+  .fspot .tip{background:linear-gradient(135deg,var(--darkbrown-2),var(--darkbrown));color:#f0e1c1;border-radius:10px;padding:1rem 1.15rem;font-size:.95rem;}
+  .fspot .tip::before{content:"JOE'S TIP";display:block;font-family:var(--fd);font-weight:600;letter-spacing:.14em;color:var(--gold);font-size:.78rem;margin-bottom:.4rem;}
+  .fspot .tip b{color:#e0be79;}
+  .fspot .warnbox{background:#fbe9e6;border:1px solid #e4a99d;border-left:6px solid var(--rust);border-radius:10px;padding:1rem 1.2rem;box-shadow:var(--shadow);}
+  .fspot .warnbox__head{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--fd);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--rust);font-size:.85rem;margin-bottom:.4rem;}
+  .fspot .warnbox__head svg{flex:0 0 auto;}
+  .fspot .warnbox p{margin:0;color:var(--ink);font-size:.97rem;}
+
+  .fspot .faqs{display:flex;flex-direction:column;gap:.6rem;}
+  .fspot details.faq{border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden;box-shadow:var(--shadow);}
+  .fspot details.faq>summary{cursor:pointer;list-style:none;padding:.85rem 1.05rem;font-family:var(--fd);font-weight:600;font-size:1rem;color:var(--ink-strong);display:flex;justify-content:space-between;align-items:center;gap:.8rem;}
+  .fspot details.faq>summary::-webkit-details-marker{display:none;}
+  .fspot details.faq>summary::after{content:"+";font-family:var(--fm);font-size:1.2rem;color:var(--rust);flex:0 0 auto;}
+  .fspot details.faq[open]>summary::after{content:"\2212";}
+  .fspot details.faq .faqbody{padding:0 1.05rem 1rem;font-size:.96rem;color:var(--muted);}
+
+  .fspot .appraise{background:var(--amber);border:1px solid var(--amber-line);border-left:5px solid var(--rust);border-radius:12px;padding:clamp(1.4rem,3.5vw,2rem);box-shadow:var(--shadow);}
+  .fspot .appraise h2{margin-bottom:.5rem;}
+  .fspot .appraise p{color:var(--ink);font-size:1.02rem;}
+  .fspot .appraise .row{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.1rem;align-items:center;}
+  .fspot .appraise .call{font-family:var(--fd);font-weight:700;font-size:1.15rem;letter-spacing:.02em;color:#fff;background:var(--rust);text-decoration:none;padding:.7rem 1.3rem;border-radius:8px;}
+  .fspot .appraise .call:hover{background:var(--rust-bright);}
+  .fspot .appraise .send{font-family:var(--fd);font-weight:600;text-transform:uppercase;font-size:.86rem;letter-spacing:.04em;color:var(--rust);text-decoration:none;border-bottom:2px solid var(--gold);}
+
+  .fspot .bio{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.3rem;background:var(--panel);}
+  .fspot .bio img{flex:0 0 auto;width:76px;height:76px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);}
+  .fspot .bio .who{font-family:var(--fd);font-weight:600;font-size:1.2rem;text-transform:uppercase;letter-spacing:.02em;}
+  .fspot .bio .who a{color:var(--ink-strong);text-decoration:none;border-bottom:2px solid var(--gold);}
+  .fspot .bio .cred{font-family:var(--fm);font-size:.72rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .bio .biotext{margin-top:.55rem;font-size:.95rem;color:var(--muted);}
+
+  /* mobile card tables */
+  @media (max-width:719px){
+    .fspot .tablewrap{overflow:visible;border:0;border-radius:0;box-shadow:none;}
+    .fspot .tablewrap table{min-width:0;width:100%;display:block;background:transparent;}
+    .fspot .tablewrap thead{display:none;}
+    .fspot .tablewrap tbody{display:grid;grid-template-columns:1fr;gap:.65rem;}
+    .fspot .tablewrap tr{display:block;border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:.7rem .85rem;box-shadow:var(--shadow);}
+    .fspot .tablewrap tbody tr:nth-child(even){background:var(--panel);}
+    .fspot .tablewrap td{display:block;border:0;padding:.25rem 0;font-size:.95rem;}
+    .fspot .tablewrap td::before{content:attr(data-label);display:block;font-family:var(--fm);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.1rem;}
+    .fspot .tablewrap .code,.fspot .tablewrap .yr{white-space:normal;}
+  }
+
+  /* floating TOC */
+  .fspot-toc{display:none;z-index:25;background:#fff;border:1px solid var(--color-brand-brown-tan,#d2b48c);border-radius:10px;width:260px;max-height:calc(100vh - 160px);padding:16px 18px;position:fixed;top:120px;right:24px;overflow-y:auto;box-shadow:0 2px 12px rgba(0,0,0,.08);}
+  @media (min-width:1440px){.fspot-toc{display:block;}}
+  .fspot-toc__label{font-family:var(--font-display),sans-serif;text-transform:uppercase;letter-spacing:.13em;color:var(--color-brand-brown,#3e2a14);border-bottom:1px solid #a03a1e2e;margin:0 0 10px;padding-bottom:8px;font-size:12px;font-weight:700;}
+  .fspot-toc__list{margin:0;padding:0;font-size:12.5px;line-height:1.4;list-style:none;}
+  .fspot-toc__list li{margin:0;}
+  .fspot-toc__list a{color:var(--color-brand-brown-muted,#6c5238);border-radius:4px;padding:5px 6px;text-decoration:none;display:block;}
+  .fspot-toc__list a:hover{background:var(--color-brand-cream-warm,#f5ead4);color:var(--color-brand-rust,#a03a1e);}
+  .fspot-toc-fab{display:none;}
+  .fspot-toc-sheet{display:none;}
+  @media (max-width:1439.98px){
+    .fspot-toc-fab{z-index:45;background:var(--color-brand-rust-bright,#be4b25);color:#fff;font-family:var(--font-display),sans-serif;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;border:none;border-radius:999px;align-items:center;gap:8px;padding:11px 18px;font-size:13px;font-weight:600;display:inline-flex;position:fixed;bottom:1.5rem;left:16px;box-shadow:0 4px 16px rgba(0,0,0,.28);}
+    .fspot-toc-fab svg{width:18px;height:18px;}
+    .fspot-toc-fab[aria-expanded="true"]{background:var(--color-brand-rust-dark,#682412);}
+    .fspot-toc-sheet{z-index:46;opacity:0;visibility:hidden;background:#fff;border:1px solid #a03a1e33;border-radius:12px;flex-direction:column;width:min(340px,100vw - 32px);max-height:60vh;transition:opacity .2s,transform .2s,visibility .2s;display:flex;position:fixed;bottom:5rem;left:16px;overflow-y:auto;transform:translateY(12px);box-shadow:0 10px 34px rgba(0,0,0,.28);}
+    .fspot-toc-sheet.fspot-toc-sheet--open{opacity:1;visibility:visible;transform:translateY(0);}
+  }
+  .fspot-toc-sheet__head{font-family:var(--font-display),sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--color-brand-rust-dark,#682412);background:#fff;border-bottom:1px solid #a03a1e26;justify-content:space-between;align-items:center;padding:12px 16px;font-size:13px;font-weight:700;display:flex;position:sticky;top:0;}
+  .fspot-toc-sheet__close{color:var(--color-brand-brown-muted,#6c5238);cursor:pointer;background:none;border:none;padding:0 4px;font-size:24px;line-height:1;}
+  .fspot-toc-sheet__body{padding:8px 10px;}
+  .fspot-toc-sheet__body .fspot-toc__list{font-size:14px;}
+  .fspot-toc-sheet__body .fspot-toc__list a{padding:8px 6px;}
+</style>
+
+<script is:inline>
+  (function () {
+    // Floating TOC: clone list into the mobile sheet, wire the FAB
+    var list = document.querySelector('#fspot-toc .fspot-toc__list');
+    var body = document.getElementById('fspot-toc-sheet-body');
+    if (list && body) body.appendChild(list.cloneNode(true));
+    var fab = document.getElementById('fspot-toc-fab'),
+        sheet = document.getElementById('fspot-toc-sheet'),
+        closeBtn = document.getElementById('fspot-toc-sheet-close');
+    function setOpen(o) { if (!sheet) return; sheet.classList.toggle('fspot-toc-sheet--open', o); if (fab) fab.setAttribute('aria-expanded', o ? 'true' : 'false'); }
+    if (fab) fab.addEventListener('click', function () { setOpen(!sheet.classList.contains('fspot-toc-sheet--open')); });
+    if (closeBtn) closeBtn.addEventListener('click', function () { setOpen(false); });
+    document.addEventListener('click', function (e) { if (sheet && fab && !sheet.contains(e.target) && !fab.contains(e.target)) setOpen(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+    if (sheet) sheet.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+  })();
+</script>
