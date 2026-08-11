@@ -560,8 +560,8 @@ window.updateCSHint = function() {
     var model = document.getElementById('cs-model-select').value;
     var hints = {
         cs_prefix:   'Enter the full serial as-is, including the CS prefix. Example: CS91234',
-        lp_reissue:  'Enter the full number. First digit = model year reissued (4=\'54, 9=\'59 etc). Example: 991234 = 1959 reissue built in 1999.',
-        sg_reissue:  'Enter the full impressed number. First digit = build year, last digit = model code. Example: 9RRRR3 = built 1999, 1963 reissue.',
+        lp_reissue:  'For reissues of 1954 to 1960 models, INK STAMPED on top of the finish. Enter the full number. First digit = model year reissued (4=\'54, 9=\'59 etc). Example: 991234 = 1959 reissue built in 1999. If your number is pressed INTO the wood, use the impressed option instead.',
+        sg_reissue:  'For reissues of 1961 to 1968 models, IMPRESSED (pressed into the wood), including the 1968 Les Paul Custom and Standard. Enter the full number. First digit = build year, last digit = model code. Example: 9RRRR3 = built 1999, 1963 reissue.',
         es_61_64:    'Enter the 6-digit number from the headstock or f-hole label. Format: 1YRRRR.',
         es_58:       'Enter the number from the f-hole label including A8 prefix. Format: A8YRRRR.',
         es_59:       'Enter the number from the f-hole label including A9 prefix. Format: A9YRRRR.',
