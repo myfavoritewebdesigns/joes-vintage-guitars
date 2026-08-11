@@ -1,7 +1,7 @@
 ---
 title: "The Fender Mustang: History, Authentication, and Value"
 pubDate: "2026-07-10T12:00:00"
-modified: "2026-07-10T12:00:00"
+modified: "2026-08-11T00:00:00"
 excerpt: "The Fender Mustang went from a 1964 student guitar to a collector and indie-rock icon, and the gap between an all-original example and a modified project comes down to details most sellers miss. This guide covers the whole short-scale family, the year-by-year changes from 1964 to 1982, the Competition finishes, how we authenticate the pickups, switching, Dynamic Vibrato, and serial numbers, and what a vintage Mustang is really worth today. Every photo is a real guitar from our shop."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -68,6 +68,8 @@ ogImage: "/images/blog/fender-mustang-history-value/1971-fender-mustang-competit
 The Fender Mustang arrived in 1964 as the top of Fender's student line, and for years that was all anyone thought it was: a cheap, short-scale guitar for kids and beginners. That reputation is exactly why it is now one of the most interesting vintage Fenders to buy and sell. A student guitar in 1964 is a genuine pre-CBS or early CBS Fender in 2026, built in the same Fullerton factory as the Stratocaster, with a switching system nothing else in the catalog had and a floating vibrato that was designed for this model and no other. Then punk and indie rock got hold of it, Kurt Cobain made a Competition Mustang the most famous guitar of the 1990s, and the prices followed.
 
 At Joe's Vintage Guitars we buy and sell vintage Mustangs, and we are always looking to add clean 1960s and early 1970s examples to the collection. If you have one you are thinking about selling, we give straight [nationwide appraisals](/free-appraisal/) and pay top dollar for original guitars. This guide is the same walk-through we do on the bench: what the short-scale family is, how the Mustang changed from year to year, what the Competition finishes are, how we tell an original from a modified one, how to read the serial number, and what a real Mustang is worth in today's market. Every photo below is a guitar that came through our shop in Mesa.
+
+If you want the compact version, our [guide to dating a Fender Mustang](/fender-mustang-dating-guide/) runs the whole 1964 to 1982 timeline as a single year-by-year table with the fastest visual check for each change.
 
 <h2 id="fmg-family">Fender's Student Line</h2>
 

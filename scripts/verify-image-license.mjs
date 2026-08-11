@@ -28,6 +28,7 @@ const DEFAULT_SLUGS = [
   "fender-jaguar-dating-guide",
   "fender-jazz-bass-dating-guide",
   "fender-precision-bass-dating-guide",
+  "fender-mustang-dating-guide",
 ];
 
 const slugs = process.argv.slice(2).length ? process.argv.slice(2) : DEFAULT_SLUGS;
