@@ -1,7 +1,7 @@
 ---
 title: "Fender Precision Bass 1957 to 1959: Identification, Specs & Value"
 pubDate: "2026-04-17T19:25:51"
-modified: "2026-05-14T16:10:26"
+modified: "2026-08-11T00:00:00"
 excerpt: "Defined by its gold anodized pickguard and split-coil pickup, the 1957 to 1959 Fender Precision Bass marked the start of the modern electric bass. Here’s a full breakdown of specs, authenticity markers, and market values, year by year."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -16,6 +16,8 @@ The 1957 to 1959 Fender Precision Bass is what most collectors mean when they ta
 
 What follows is a full breakdown: the engineering choices behind the gold guard, the year-by-year construction changes, the authenticity markers serious collectors look for, and why a clean example can run anywhere from the price of a mid-size sedan to a small house.
 
+If you want the compact version, our [guide to dating a Fender Precision Bass](/fender-precision-bass-dating-guide/) sets these years inside the full 1951 to 1975 timeline as a single year-by-year table with the fastest visual check for each change.
+
 1.  [The Historical Context: The 1957 Transition](#historical-context)
 2.  [Technical Specifications & Construction](#specs-construction)
 3.  [Hardware & Appointments](#hardware)
@@ -26,7 +28,7 @@ What follows is a full breakdown: the engineering choices behind the gold guard,
 
 <h2 id="historical-context">1. The Historical Context: The 1957 Transition</h2>
 
-In 1957, Leo Fender rebuilt the Precision Bass from the ground up. The [original *slab* body](/post/1952-fender-precision-bass-guide/) with its single-coil pickup gave way to a contoured body and a hum-canceling split-coil pickup. The gold anodized guard was the visual centerpiece of that redesign, and it only lasted until mid-1959. As a dating feature, the anodized guard is one of several visual tells; see our guide to [dating a Fender by its parts](/fender-physical-features/).
+In 1957, Leo Fender rebuilt the Precision Bass from the ground up. The single-coil pickup of the [original *slab* body](/post/1952-fender-precision-bass-guide/) era gave way to a hum-canceling split-coil pickup, and the headstock took its new larger shape. The body contours were not part of this redesign: the Stratocaster-style forearm bevel and belly cut had already arrived in **mid-1954**, three years earlier. The gold anodized guard was the visual centerpiece of that redesign, and it only lasted until mid-1959. As a dating feature, the anodized guard is one of several visual tells; see our guide to [dating a Fender by its parts](/fender-physical-features/).
 
 ### Why Gold Aluminum?
 
