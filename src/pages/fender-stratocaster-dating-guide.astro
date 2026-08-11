@@ -74,12 +74,12 @@ const OG = `images/blog/${G62}/1962-fender-stratocaster-sunburst-8-scaled.jpg`;
 const yearRows: [string, string, string][] = [
   [
     "1954",
-    "Launch year. Single-ply white pickguard with eight screws, a one-piece maple neck with a skunk stripe down the back, a two-color sunburst, and a small round string guide. The very earliest examples carry the serial number stamped into the plastic tremolo cavity cover on the back rather than on the neck plate, which is a first-year-only quirk. The spring guitars went out with 100K solid-shaft pots and brittle polystyrene knobs that cracked, sometimes while being pushed on at the factory. By about September Fender had moved to 250K split-shaft pots and a knob redesigned with support spokes under the skirt.",
+    "Launch year. Single-ply white pickguard with eight screws, a one-piece maple neck with a skunk stripe down the back, a two-color sunburst, and a small round string guide. The very earliest examples carry the serial number stamped into the plastic tremolo cavity cover on the back rather than on the neck plate, and that window is narrower than most listings suggest: roughly the first hundred instruments, built between March and May, running about 0100 to 0207. From May to September the number moved onto a four-digit neck plate that started again at 0001 and ran into the 09xx range, and full regular production began in October. The two sequences overlap numerically, so a low neck-plate number is not the same series as a low cover number. The spring guitars went out with 100K solid-shaft pots and brittle polystyrene knobs that cracked, sometimes while being pushed on at the factory. By about September Fender had moved to 250K split-shaft pots and a knob redesigned with support spokes under the skirt.",
     "Count the pickguard screws. Eight is 1954 to 1959. Then turn the guitar over and look at the tremolo cover.",
   ],
   [
     "1955",
-    "No headline change. A 1955 carries the same spec as a late 1954, so nothing on the outside separates the two.",
+    "No change. A 1955 carries the same spec as a late 1954, so nothing on the outside separates the two.",
     "Nothing visual. Go straight to the neck stamp and the pots.",
   ],
   [
@@ -104,7 +104,7 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1960",
-    "No headline change. Worth knowing that some 1960 neck plates carry the serial along the bottom edge rather than in the middle, which is correct and makes people doubt an honest guitar.",
+    "No change. Some 1960 neck plates carry the serial along the bottom edge rather than in the middle, which is correct and makes people doubt an honest guitar.",
     "Nothing new to see. The neck stamp does the work this year.",
   ],
   [
@@ -119,7 +119,7 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1963",
-    "The L-prefix neck plate is the norm, though some January and February guitars still wear the older five-digit numbers. During the year the two clay dots at the twelfth fret move from wide spacing to narrow, and both are correct for 1963 depending on the month.",
+    "The L-prefix neck plate is the norm, though some January and February guitars still wear the older five-digit numbers. During the year the two clay dots at the twelfth fret move from wide spacing to narrow, and both are correct for 1963 depending on the month. Around mid-year Fender also moved one pickguard screw: the count stays at eleven, but the screw between the neck and middle pickups shifts closer to the middle pickup to stop the celluloid warping.",
     "An L in front of the serial on the neck plate.",
   ],
   [
@@ -134,7 +134,7 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1966",
-    "The large CBS headstock is effectively universal, and the handful of small-headstock 1966 guitars are leftover blanks being finished out. Grey-bottom pickups with plain enamel wire, double-line Klusons, and a three-ply white plastic guard that ages cream rather than mint.",
+    "The large CBS headstock is effectively universal, and the handful of small-headstock 1966 guitars are leftover blanks being finished out. Grey-bottom pickups with plain enamel wire, double-line Klusons, and a three-ply white plastic guard that ages cream rather than mint. Fender also bought a huge lot of CTS 250k pots in the middle of the year, and those 137 66XX date codes were drawn from the bins for five full years, turning up in untouched factory harnesses right through 1971.",
     "A big headstock with a gold transition logo, and a guard that never went green.",
   ],
   [
@@ -144,12 +144,12 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1968",
-    "The heavy black CBS logo is standard, polyester finish arrives, and the cloth-covered wire in the cavity gives way to plastic-insulated wire as the old stock runs out. A 1968 can honestly have either, or both. The green Nissei chicklet capacitor appears this year only.",
+    "The heavy black CBS logo is standard, polyester finish arrives, and the cloth-covered wire in the cavity gives way to plastic-insulated wire as the old stock runs out. A 1968 can honestly have either, or both. The green Nissei chicklet capacitor appears this year only, and the 0.05 ceramic disc arrives alongside it rather than after it, so a 1968 can legitimately carry the 0.1 Nissei or the 0.05 disc.",
     "The thick black logo, drawn heavy enough to read on camera.",
   ],
   [
     "1969 to 1970",
-    "Mostly settled. The tone capacitor drops from 0.1 to 0.05, so the tone control rolls off less. Maple cap necks are common alongside rosewood.",
+    "Mostly settled. The 0.05 ceramic disc becomes the sole factory tone capacitor, having run alongside the 0.1 through 1968, so the tone control rolls off less. Maple cap necks are common alongside rosewood.",
     "Read the neck stamp. The Stratocaster model code changes inside this window.",
   ],
   [
@@ -188,12 +188,35 @@ const yearRows: [string, string, string][] = [
 // does not separate them, script weight does. (Note the standard Telecaster
 // spaghetti logo IS described as silver on the 1959 Tele guide, and its Custom
 // as gold, so this looks model-dependent. Only the Strat claim is corrected here.)
-const fastRows: [string, string, string][] = [
-  ["Headstock size", "Small through 1965, large from late 1965", "The one you can read from across a room. Read it against the right model though: the Telecaster headstock never grew, so this check does not carry over to a Tele."],
-  ["The logo", "Spaghetti to mid-1964, transition mid-1964 to 1967, heavy black CBS from 1968", "On a Stratocaster the first two are both gold, so go by the weight of the script rather than the color. Spaghetti is thin and delicate, transition is thicker and bolder, CBS is heavy black."],
-  ["The fingerboard", "Maple with a skunk stripe to mid-1959, slab rosewood to August 1962, veneer rosewood after, and a maple cap option back from mid-1967", "Look at the depth of the rosewood at the nut, and at the back of the neck for the stripe. Maple with no stripe is the late-1960s cap, not a 1950s neck."],
-  ["The dots", "Clay to late 1964, pearloid after", "Clay is dull, matte, and usually discolored. Pearloid is bright and visibly swirled."],
-  ["The pickguard", "One-ply with eight screws to 1959, three-ply nitrate with eleven to mid-1965, three-ply plastic after", "Count the screw holes in the body rather than in the guard. A guard can be swapped; the holes cannot."],
+// Fourth element is the section this check is explained in, so the table doubles as navigation.
+const fastRows: [string, string, string, string][] = [
+  ["Headstock size", "Small through 1965, large from late 1965", "The one you can read from across a room. Read it against the right model though: the Telecaster headstock never grew, so this check does not carry over to a Tele.", "#headstock"],
+  ["The logo", "Spaghetti to mid-1964, transition mid-1964 to 1967, heavy black CBS from 1968", "On a Stratocaster the first two are both gold, so go by the weight of the script rather than the color. Spaghetti is thin and delicate, transition is thicker and bolder, CBS is heavy black.", "#headstock"],
+  ["The fingerboard", "Maple with a skunk stripe to mid-1959, slab rosewood to August 1962, veneer rosewood after, and a maple cap option back from mid-1967", "Look at the depth of the rosewood at the nut, and at the back of the neck for the stripe. Maple with no stripe is the late-1960s cap, not a 1950s neck.", "#neck"],
+  ["The dots", "Clay to late 1964, pearloid after", "Clay is dull, matte, and usually discolored. Pearloid is bright and visibly swirled.", "#neck"],
+  ["The pickguard", "One-ply with eight screws to 1959, three-ply nitrate with eleven to mid-1965, three-ply plastic after", "Count the screw holes in the body rather than in the guard. A guard can be swapped; the holes cannot.", "#guard"],
+];
+
+// Jump targets under the year table, so a reader can go straight to the detail they care about.
+// The patent block under the logo, era by era. Note the count RISES to five and then FALLS,
+// which is the part reproductions get wrong. Joe's sequence, 2026-08-11.
+const patentRows: [string, string, string][] = [
+  ["None", "1954 to late 1960", "No patent numbers under the logo at all. An early guitar wearing a block is wrong."],
+  ["Two", "Late 1960 to early 1962", "2,573,254 and 2,741,146, the bridge and pickup patent and the synchronized tremolo patent."],
+  ["Three", "Early 1962 to mid-1964", "2,960,900 joins. The classic spaghetti-logo block."],
+  ["Four", "Mid-1964 to late 1965", "3,143,028 joins, the neck patent granted in August 1964."],
+  ["Five", "Late 1965", "2,817,261 joins briefly, on large headstocks. Five is as high as the block ever goes and the window is short."],
+  ["Three", "1966 to 1967", "The list shrinks: 2,741,146, 3,143,028 and DES 169,062."],
+  ["Two", "Mid-1967 to early 1971", "2,741,146 and 3,143,028 only, under the black CBS logo."],
+];
+
+const detailJumps: [string, string][] = [
+  ["#headstock", "Headstock And Logo"],
+  ["#neck", "The Neck And The Board"],
+  ["#guard", "Pickguard And Pickups"],
+  ["#heel", "The Neck Heel Date"],
+  ["#body", "Body Dates"],
+  ["#serial", "The Serial Number"],
 ];
 
 // Strat neck-heel model code. This is the most model-specific dating tool there
@@ -323,9 +346,13 @@ const breadcrumbSchema = {
         <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
         <span class="eyebrow">Fender Dating By Model</span>
         <h1>How To Date A Fender Stratocaster</h1>
-        <p class="lead">Almost nothing on a Stratocaster gives you a year on its own. The serial number gives you an era, and the features give you a window that is often wider than that. What they do is corroborate each other, and when enough of them agree you can trust the answer. The two exceptions are the dates Fender actually wrote on the guitar, on the neck heel and inside the body, and those are tight. Here is what changed and when, from the 1954 launch through 1971, and how to line it all up.</p>
+        <p class="lead">Almost nothing on a Stratocaster gives you a year on its own. The serial number gives you an era, and the features give you a window that is often wider than that. What they do is corroborate each other, and when enough of them agree you can trust the answer. The two exceptions are the dates Fender actually wrote on the guitar, on the neck heel and inside the body, and those are accurate. Here is what changed and when, from the 1954 launch through 1971, and how to line it all up.</p>
         <div class="trust">
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
+        </div>
+        <div class="hubcta">
+          <p class="hubcta__t"><b>Just after the serial number?</b> The full charts and the lookup tool that decodes a number for you are on the main guide.</p>
+          <a class="hubcta__b" href={HUB_HREF}>Look Up A Serial Number</a>
         </div>
         <figure class="sfig herofig">
           <LicensedImage src={bmeta(G62, "1962-fender-stratocaster-sunburst-8-scaled.jpg")} alt="A 1962 Fender Stratocaster in three-color sunburst with a small pre-CBS headstock and a rosewood fingerboard" width={1600} loading="eager" />
@@ -342,9 +369,37 @@ const breadcrumbSchema = {
         <span class="eyebrow">Start Here</span>
         <h2>Read The Guitar In Three Passes</h2>
         <p>Nothing in the first two passes below will hand you a single year, and it helps to know that going in. A large headstock only tells you the guitar is late 1965 or later, which is a wider answer than the serial number gives you. Clay dots only say 1964 or earlier. Each feature is a window, and several of them are broader than the serial. Their value is in agreeing with each other and with the number on the plate, because a guitar where six independent things all point at the same stretch of months is a guitar you can be confident about.</p>
-        <p><b>First pass, across the room.</b> Headstock size and logo style. Between them those two put a Stratocaster inside a five-year window in about two seconds, and neither can be changed without the guitar telling on itself.</p>
-        <p><b>Second pass, in your hands.</b> The fingerboard, the dots, the pickguard, and the serial number on the neck plate. Take the serial as one vote among several rather than the answer, and read the plate style along with the digits. Together these narrow the window, and you can read every one of them with the guitar fully assembled.</p>
-        <p><b>Third pass, inside.</b> The neck heel stamp, the body date, and the pot codes. These are the only places Fender wrote an actual date, and they are the only things on the guitar that will give you a month rather than a window. This is also the only pass that needs tools, which is why it comes last.</p>
+        <div class="passes">
+          <div class="pass">
+            <span class="pass__n">Pass One</span>
+            <h3>Across The Room</h3>
+            <p>Headstock size and logo style. Between them those two put a Stratocaster inside a five-year window in about two seconds, and neither can be changed without the guitar telling on itself.</p>
+            <div class="pass__go">
+              <a href="#headstock">Headstock size</a>
+              <a href="#headstock">The logo</a>
+            </div>
+          </div>
+          <div class="pass">
+            <span class="pass__n">Pass Two</span>
+            <h3>In Your Hands</h3>
+            <p>The fingerboard, the dots, the pickguard, and the serial number on the neck plate. Take the serial as one vote among several rather than the answer, and read the plate style along with the digits. Every one of these reads with the guitar fully assembled.</p>
+            <div class="pass__go">
+              <a href="#neck">The board and dots</a>
+              <a href="#guard">The pickguard</a>
+              <a href="#serial">The serial number</a>
+            </div>
+          </div>
+          <div class="pass">
+            <span class="pass__n">Pass Three</span>
+            <h3>Inside The Guitar</h3>
+            <p>The neck heel stamp, the body date, and the pot codes. These are the only places Fender wrote an actual date, and the only things that will give you a month rather than a window. This is also the only pass that needs tools, which is why it comes last.</p>
+            <div class="pass__go">
+              <a href="#heel">The neck heel date</a>
+              <a href="#body">Body dates</a>
+              <a href="/fender-pot-codes/">Pot codes</a>
+            </div>
+          </div>
+        </div>
         <p><b>The three passes should agree.</b> When they do, you have a build date you can stand behind. When they don't, the disagreement is the interesting part, and it usually means a replaced neck, a swapped plate, or a guitar being sold as something it isn't.</p>
       </div>
     </section>
@@ -369,7 +424,7 @@ const breadcrumbSchema = {
         <p>If you read nothing else on this page, read these five. Each one is a different decade boundary and they are all visible with the guitar strung up and hanging on a wall. Read them together rather than one at a time: no single row here narrows anything to a year, but five rows overlapping do.</p>
         <div class="tablewrap"><table>
           <thead><tr><th>What to look at</th><th>What it tells you</th><th>How to read it</th></tr></thead>
-          <tbody>{fastRows.map((r) => (<tr><td data-label="What to look at"><b>{r[0]}</b></td><td data-label="What it tells you" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
+          <tbody>{fastRows.map((r) => (<tr><td data-label="What to look at"><a class="rowjump" href={r[3]}>{r[0]}</a></td><td data-label="What it tells you" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
         </table></div>
         <div class="tip">
           <p><b>Read every one of these against the right model.</b> The screw count is a Stratocaster check. The headstock and the logo are Stratocaster timelines, and they are not the Telecaster's: the Tele headstock never grew at all, and the Tele kept its spaghetti logo into 1965 while the Strat moved to the transition logo in mid-1964. Read the Strat timeline onto a Tele and you will date it a year or more too early, which turns into a bad offer in one direction or the other, every time. The Mustang took a bigger headstock over the same stretch, so the enlargement is not unique to the Stratocaster either. It just is not universal.</p>
@@ -389,6 +444,10 @@ const breadcrumbSchema = {
           <thead><tr><th>Year</th><th>What changed</th><th>Fastest tell</th></tr></thead>
           <tbody>{yearRows.map((r) => (<tr><td data-label="Year" class="yr">{r[0]}</td><td data-label="What changed">{r[1]}</td><td data-label="Fastest tell">{r[2]}</td></tr>))}</tbody>
         </table></div>
+        <div class="jumps">
+          <span class="jumps__l">Jump To The Detail</span>
+          {detailJumps.map(([href, label]) => (<a href={href}>{label}</a>))}
+        </div>
         <p class="note-sm">Past 1971 the guitar starts dating itself. From 1976 Fender moved the serial to a headstock decal with the year built into the prefix, and the <a class="spoke" href={HUB_HREF}>full serial guide</a> carries those charts along with the reissue and import prefixes.</p>
       </div>
     </section>
@@ -424,7 +483,12 @@ const breadcrumbSchema = {
           <figure class="sfig"><LicensedImage src={meta("fender-cbs-tv-logo-1968-1980s-on-vintage-stratocaster-headstock.jpg")} alt="The heavy black CBS or TV logo on a vintage Fender Stratocaster headstock, used from 1968 into the 1980s" width={1100} /><figcaption>CBS, also called the TV logo, 1968 into the 1980s. Heavy black script drawn thick enough to read on camera.</figcaption></figure>
         </div>
         <div class="tip">
-          <p><b>The patent numbers under the logo are the check that catches a good fake decal.</b> Getting the script right is easy. Getting the exact patent list right for one specific window is not, and reproductions routinely carry a number that was never there. The most useful of them is 3,143,028, the neck patent granted in August 1964: if it sits under the logo, the guitar is 1964 or later whatever the seller says, because the number did not exist before then. There is a full breakdown of the blocks by model and era on the <a class="spoke" href="/fender-physical-features/">physical features guide</a>.</p>
+          <p><b>The patent numbers under the logo are the check that catches a good fake decal.</b> Getting the script right is easy. Getting the exact patent list right for one specific window is not, and reproductions routinely carry a number that was never there. The most useful of them is 3,143,028, the neck patent granted in August 1964: if it sits under the logo, the guitar is 1964 or later whatever the seller says, because the number did not exist before then.</p>
+          <div class="tablewrap"><table>
+            <thead><tr><th>How many</th><th>Years</th><th>Which numbers</th></tr></thead>
+            <tbody>{patentRows.map((r) => (<tr><td data-label="How many"><b>{r[0]}</b></td><td data-label="Years" class="yr">{r[1]}</td><td data-label="Which numbers">{r[2]}</td></tr>))}</tbody>
+          </table></div>
+          <p><b>Count them before you read them.</b> The block grows to five and then shrinks back to two, so a high count is a mid-1960s marker rather than a late one, and a 1969 guitar carrying four or five numbers has the wrong decal. The count alone will not date a guitar to a year, but it narrows the decal quickly and it is the part a reproduction is most likely to get wrong. There is a wider breakdown across every model on the <a class="spoke" href="/fender-physical-features/">physical features guide</a>.</p>
         </div>
       </div>
     </section>
@@ -485,7 +549,7 @@ const breadcrumbSchema = {
         <p><b>Mint green is a date, not a color option.</b> Only cellulose nitrate ages that way, and Fender used nitrate until around the middle of 1965. From then the guards are plastic, and plastic ages to cream at most and never to green. So a genuinely mint guard means a pre-1965 guitar, and a cream one on a claimed 1962 means the guard has been replaced. A guard that is still bright white after sixty years is a reproduction.</p>
 
         <h3 id="pickups">Black Bottoms And Grey Bottoms</h3>
-        <p>Turn a pickup over and the color of the fibre flatwork on the bottom splits pre-CBS from CBS. Black is correct for every pre-CBS Stratocaster. Grey came in around 1964 and ran on through the CBS years. This one is widely believed backwards, and the assumption that grey bottoms mean an early guitar has cost people real money, so it is worth saying plainly: grey indicates a later instrument, not an earlier one.</p>
+        <p>Turn a pickup over and the color of the fibre flatwork on the bottom splits pre-CBS from CBS. Black is correct for every pre-CBS Stratocaster. Grey came in around 1964 and ran on through the CBS years, so a grey bottom indicates a later instrument rather than an earlier one.</p>
         <div class="figrow gallery">
           <figure class="sfig">
             <LicensedImage src={bmeta(G62, "1962-fender-stratocaster-sunburst-black-back-pickups-scaled.jpg")} alt="The three black-bottom pickups under the pickguard of a 1962 Fender Stratocaster with cloth-covered wiring" width={1280} />
@@ -709,6 +773,39 @@ const breadcrumbSchema = {
 
   .fspot .secintro{font-size:.97rem;max-width:70ch;color:var(--ink);}
   .fspot .secintro b{color:var(--ink-strong);}
+
+  /* Straight-to-the-hub CTA in the hero, for readers who only want a serial number */
+  .fspot .hubcta{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem 1.1rem;justify-content:space-between;
+    background:var(--inset);border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:10px;
+    padding:.9rem 1.1rem;box-shadow:var(--shadow);}
+  .fspot .hubcta__t{font-size:.95rem;color:var(--muted);flex:1 1 20rem;}
+  .fspot .hubcta__t b{color:var(--ink-strong);}
+  .fspot .hubcta__b{flex:0 0 auto;font-family:var(--fd);font-weight:600;text-transform:uppercase;letter-spacing:.04em;
+    font-size:.85rem;color:#fff;background:var(--rust);text-decoration:none;padding:.6rem 1.1rem;border-radius:8px;white-space:nowrap;}
+  .fspot .hubcta__b:hover{background:var(--rust-bright);color:#fff;}
+
+  /* The three passes, as three cards rather than three paragraphs */
+  .fspot .passes{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
+  .fspot .pass{display:flex;flex-direction:column;gap:.5rem;background:var(--panel);border:1px solid var(--line);
+    border-top:4px solid var(--rust);border-radius:10px;padding:1rem 1.1rem 1.1rem;box-shadow:var(--shadow);}
+  .fspot .pass__n{font-family:var(--fm);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  .fspot .pass h3{margin-top:0;font-size:1.15rem;}
+  .fspot .pass p{font-size:.95rem;color:var(--muted);}
+  .fspot .pass__go{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:auto;padding-top:.5rem;}
+  .fspot .pass__go a{font-family:var(--fd);font-size:.78rem;font-weight:600;letter-spacing:.02em;color:var(--gold-deep);
+    text-decoration:none;background:var(--panel-2);border:1px solid var(--line);border-radius:999px;padding:.28rem .7rem;}
+  .fspot .pass__go a:hover{color:#fff;background:var(--rust);border-color:var(--rust);}
+
+  /* Jump chips under the year table */
+  .fspot .jumps{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem .5rem;}
+  .fspot .jumps__l{font-family:var(--fm);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-right:.2rem;}
+  .fspot .jumps a{font-family:var(--fd);font-size:.8rem;font-weight:600;color:var(--gold-deep);text-decoration:none;
+    background:var(--panel-2);border:1px solid var(--line);border-radius:999px;padding:.3rem .75rem;}
+  .fspot .jumps a:hover{color:#fff;background:var(--rust);border-color:var(--rust);}
+
+  /* Row label in the fastest-checks table doubles as a jump link */
+  .fspot a.rowjump{font-weight:700;color:var(--ink-strong);text-decoration:none;border-bottom:1.5px dotted var(--gold);}
+  .fspot a.rowjump:hover{color:var(--rust);border-bottom-color:var(--rust);}
 
   .fspot .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);}
   .fspot table{border-collapse:collapse;width:100%;min-width:520px;background:var(--panel);}
