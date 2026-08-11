@@ -783,10 +783,10 @@ const breadcrumbSchema = {
     text-decoration:none;background:var(--panel-2);border:1px solid var(--line);border-radius:999px;padding:.28rem .7rem;}
   .fspot .pass__go a:hover{color:#fff;background:var(--rust);border-color:var(--rust);}
 
-  /* Inline jump links inside the year table prose, so a reader can go
-     straight to the detail for whatever they are reading about */
-  .fspot a.il{color:var(--gold-deep);text-decoration:none;border-bottom:1px dotted var(--gold);font-weight:600;}
-  .fspot a.il:hover{color:var(--rust);border-bottom-color:var(--rust);border-bottom-style:solid;}
+  /* NOTE: the inline year-table links (a.il) are styled in the is:global block
+     BELOW, not here. They are injected with set:html, so they never receive the
+     data-astro-cid attribute a scoped rule requires and a scoped rule silently
+     does not match them. See CLAUDE.md, "Scoped vs. global CSS for widget HTML". */
 
   /* Row label in the fastest-checks table doubles as a jump link */
   .fspot a.rowjump{font-weight:700;color:var(--ink-strong);text-decoration:none;border-bottom:1.5px dotted var(--gold);}
@@ -877,6 +877,18 @@ const breadcrumbSchema = {
   .fspot-toc-sheet__body{padding:8px 10px;}
   .fspot-toc-sheet__body .fspot-toc__list{font-size:14px;}
   .fspot-toc-sheet__body .fspot-toc__list a{padding:8px 6px;}
+</style>
+
+<!--
+  GLOBAL, and it has to be. The inline jump links in the year table are injected
+  with set:html, so Astro never stamps them with the data-astro-cid attribute
+  that a scoped rule compiles into its selector. A scoped rule here matches
+  nothing and fails silently: the links render, they just look like plain text.
+  Both selectors stay prefixed with .fspot so nothing leaks off this page.
+-->
+<style is:global>
+  .fspot a.il{color:var(--gold-deep,#8c6a24);text-decoration:none;border-bottom:1px dotted var(--gold,#c8983a);font-weight:600;}
+  .fspot a.il:hover{color:var(--rust,#a03a1e);border-bottom-color:var(--rust,#a03a1e);border-bottom-style:solid;}
 </style>
 
 <script is:inline>
