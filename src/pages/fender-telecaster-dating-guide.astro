@@ -186,8 +186,8 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1970 to 1971",
-    "<a class='il' href='#neck'>Maple boards</a> are common again, but as a cap glued on top rather than a one-piece neck, so the back stays clean. In 1971 the skunk stripe returns along with the bullet truss rod.",
-    "Maple with no stripe is the cap. Maple with a stripe is either the 1950s or 1971 on.",
+    "In 1969 Fender goes back to the one-piece <a class='il' href='#neck'>maple neck</a> with a walnut skunk stripe, routing the truss rod channel from behind the way it did in the 1950s, and standardises that tooling across the line so rosewood-board necks carry a stripe from 1969 too. A one-piece maple neck with a stripe is correct from 1969 onward. The bullet truss rod follows in late 1971 and moves the adjustment to the headstock.",
+    "A stripe on a 1969 or later neck is correct, not a red flag. Maple with no stripe is the cap, roughly 1965 to 1968.",
   ],
 ];
 
@@ -197,7 +197,7 @@ const fastRows: [string, string, string, string][] = [
   ["The pickguard", "Black phenolic to mid-1954, then single-ply white: five screws to mid-1959, eight after", "The blackguard line is the one that moves the money, and the screw count splits the white-guard years. Three-ply mint green nitrate belongs to the Custom and the custom colours rather than to a standard blonde.", "#guard"],
   ["The bridge", "Strings through the body, except from about mid-1958 to mid-1959 when they anchored at the back of the plate", "Turn the guitar over and look for string ferrules. A 1959 transition plate can carry both sets of holes at once.", "#bridge"],
   ["The saddles", "Brass to mid-1954, smooth steel to 1958, threaded barrels to 1968, smooth with grooves after", "Four stages, and more changes than any other single part on the guitar. The brass window is the shortest of the four.", "#bridge"],
-  ["The fingerboard", "Maple with a skunk stripe to about April 1959, slab rosewood to August 1962, veneer rosewood after, maple cap back in the late 1960s", "Look at the rosewood depth at the nut, and at the back of the neck for the stripe.", "#neck"],
+  ["The fingerboard", "Maple with a skunk stripe to about April 1959, slab rosewood to August 1962, veneer rosewood after, maple cap from about 1965, one-piece maple with the stripe back from 1969", "Look at the rosewood depth at the nut, and at the back of the neck for the stripe. A stripe is correct in the 1950s and again from 1969, so its absence points at roughly 1965 to 1968.", "#neck"],
   ["The logo", "Spaghetti into 1965, transition 1965 to 1967, heavy black CBS from 1967", "On a standard Telecaster the spaghetti logo is silver. The headstock outline never changed size, so unlike a Stratocaster there is no shape clue here at all.", "#headstock"],
 ];
 
@@ -214,7 +214,7 @@ const stampRows: [string, string, string][] = [
   ["Pencil, M-D-YY", "1950 to 1954", "Hand written on the butt of the heel, month, day and year."],
   ["Pencil, M-YY", "1954 to 1959", "Same place, now just month and year."],
   ["Nothing at all", "A window in early to mid-1959", "Fender told staff to stop writing dates. A blank heel here is correct."],
-  ["Ink stamp, XX MMM-YY W", "From March 1962", "Dark blue or red. XX is the model code, MMM-YY is the month and year, and W is a nut width letter from A to D."],
+  ["Ink stamp, XX MMM-YY W", "From March 1962", "Black ink. XX is the model code, MMM-YY is the month and year, and W is a nut width letter from A to D."],
   ["Green ink numerical code", "From 1969", "A run of digits and a letter, such as 529129B, alongside the traditional stamp."],
 ];
 
@@ -272,7 +272,7 @@ const faqs = [
   },
   {
     q: "My Telecaster Has A Maple Neck. Does That Make It A 1950s Guitar?",
-    a: "Not on its own. Look at the back. A one-piece maple neck from the 1950s has to carry a dark walnut skunk stripe, because the truss rod went in from behind and the stripe caps the channel, with a walnut plug above the nut. The maple cap Fender offered from about 1965 has a separate board glued over the rod, so the back is clean unbroken maple with no stripe. Same wood, same look from the playing side, and about a decade apart. The stripe comes back in 1969, when Fender reintroduced the one-piece maple neck and reverted to the 1950s method of routing the channel from behind. In that same year Fender standardised its truss rod tooling across the line, so rosewood-board necks built from 1969 also carry a walnut stripe on the back. That is two years before the bullet truss rod, which arrived on the Thinline in late 1971 and adjusts at the headstock instead of the heel. So a stripe on its own does not mean 1971, and it does not mean the 1950s either.",
+    a: "Not on its own. Look at the back. A one-piece maple neck from the 1950s has to carry a dark walnut skunk stripe, because the truss rod went in from behind and the stripe caps the channel, with a walnut plug above the nut. The maple cap Fender offered from about 1965 has a separate board glued over the rod, so the back is clean unbroken maple with no stripe. Same wood, same look from the playing side, and about a decade apart. The stripe comes back in 1969, when Fender reintroduced the one-piece maple neck and reverted to the 1950s method of routing the channel from behind. In that same year Fender standardised its truss rod tooling across the line, so rosewood-board necks built from 1969 also carry a walnut stripe on the back. A one-piece maple neck with a stripe is correct from 1969 onward, so finding one on a 1970s Telecaster is what you should expect rather than a sign of a swapped neck. That is two years before the bullet truss rod, which arrived on the Thinline in late 1971 and adjusts at the headstock instead of the heel. A stripe on its own rules out roughly 1965 to 1968 and nothing more.",
   },
   {
     q: "Why Does My Telecaster Have Two Capacitors In The Control Cavity?",
@@ -344,7 +344,7 @@ const breadcrumbSchema = {
         <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
         <span class="eyebrow">Fender Dating By Model</span>
         <h1>How To Date A Fender Telecaster</h1>
-        <p class="lead">The Telecaster is harder to date than a Stratocaster for one reason: the headstock never changed shape, so the clue you can read from across a room does not exist. What you get instead is a guitar that changed its pickguard, its bridge, its saddles, its board, and even its name, each on a different schedule. Here is what changed and when, from the 1950 Esquire through 1971.</p>
+        <p class="lead">The Telecaster changed its pickguard, its bridge, its saddles, its board, and even its name, each on its own schedule. Several of those read from across a room, starting with the guard: black or white puts the guitar either side of the summer of 1954 before you have picked it up. Here is what changed and when, from the 1950 Esquire through 1971.</p>
         <div class="trust">
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
         </div>
@@ -552,7 +552,8 @@ const breadcrumbSchema = {
           <figure class="sfig"><LicensedImage src={meta("1959-fender-telecaster-skunk-stripe.jpg")} alt="The back of a 1959 Fender Telecaster one-piece maple neck showing the dark walnut skunk stripe running down the center" width={1280} /><figcaption>A 1959 Telecaster, one-piece maple. The dark walnut stripe runs the length of the back, capping the truss rod channel.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("1970-fender-telecaster-maple-cap.jpg")} alt="The back of a 1970 Fender Telecaster maple cap neck, clean maple with no skunk stripe" width={1100} /><figcaption>A 1970 Telecaster, maple cap. Same wood, same look from the front, and no stripe at all because the truss rod went in from the other side.</figcaption></figure>
         </div>
-        <p>So a stripe on a claimed late-1960s maple-board Tele is wrong, and no stripe on a claimed 1950s one is equally wrong. The stripe returns for good in 1971 with the bullet truss rod, so from then on a maple Telecaster neck has one again.</p>
+        <p>So a stripe on a claimed 1965 to 1968 maple-board Tele is wrong, and no stripe on a claimed 1950s one is equally wrong.</p>
+        <p><b>The stripe comes back in 1969, and a striped neck from 1969 onward is correct.</b> Fender returned to the one-piece maple neck that year and went back to routing the truss rod channel from behind, then standardised that tooling across the line, so rosewood-board necks built from 1969 carry a walnut stripe as well. Plenty of people date the return to 1971 and the bullet truss rod instead. The bullet is two years later and adjusts at the headstock rather than the heel, so it is a separate change that happens to need the same rear channel. The practical effect is that a stripe rules out roughly 1965 to 1968 and nothing else.</p>
         <p>Two more neck details worth a look. The truss rod adjusts at the <b>heel</b> rather than the headstock throughout this era, and on the earliest guitars that adjustment screw is a <b>slot head</b>, not a Phillips. And the dots at the twelfth fret sat wide apart in the early 1950s and moved inward later, so their spacing is a rough era clue on its own.</p>
       </div>
     </section>
