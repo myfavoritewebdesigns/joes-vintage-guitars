@@ -140,7 +140,7 @@ const yearRows: [string, string, string][] = [
   [
     "1967",
     "A <a class='il' href='#neck'>maple cap fingerboard</a> returns as an option around mid-year, glued on top rather than cut into the neck, so the back stays clean. Fender's own F-stamped tuners phase in across the year and are standard by 1968. The bold black CBS <a class='il' href='#headstock'>logo</a> starts appearing late in the year.",
-    "A maple board with no skunk stripe. That pairing is a late-1960s guitar, never a 1950s one.",
+    "A maple board with no skunk stripe. That pairing is a 1967 or 1968 guitar, never a 1950s one, and the stripe is back from 1969.",
   ],
   [
     "1968",
@@ -149,12 +149,12 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1969 to 1970",
-    "Mostly settled. The 0.05 ceramic disc becomes the sole factory <a class='il' href='/fender-pot-codes/'>tone capacitor</a>, having run alongside the 0.1 through 1968, so the tone control rolls off less. <a class='il' href='#neck'>Maple cap necks</a> are common alongside rosewood.",
+    "Mostly settled. The 0.05 ceramic disc becomes the sole factory <a class='il' href='/fender-pot-codes/'>tone capacitor</a>, having run alongside the 0.1 through 1968, so the tone control rolls off less. <a class='il' href='#neck'>Maple cap necks</a> are common alongside rosewood. In 1969 Fender goes back to routing the truss rod channel from behind and standardises the tooling across the line, so the walnut skunk stripe returns from this year, on rosewood-board necks as well as maple.",
     "Read the <a class='il' href='#heel'>neck stamp</a>. The Stratocaster model code changes inside this window.",
   ],
   [
     "1971",
-    "The four-bolt <a class='il' href='#serial'>neck plate</a> gives way to the three-bolt Micro-Tilt plate, the <a class='il' href='#neck'>skunk stripe</a> returns with the bullet truss rod, and late in the year the stamped steel saddles give way to die-cast zinc.",
+    "The four-bolt <a class='il' href='#serial'>neck plate</a> gives way to the three-bolt Micro-Tilt plate, the bullet truss rod arrives and moves the adjustment to the headstock, and late in the year the stamped steel saddles give way to die-cast zinc. The <a class='il' href='#neck'>skunk stripe</a> is already there, having returned in 1969, so it is not what dates a 1971.",
     "Count the bolts in the neck plate. Three means 1971 or later.",
   ],
 ];
@@ -192,7 +192,7 @@ const yearRows: [string, string, string][] = [
 const fastRows: [string, string, string, string][] = [
   ["Headstock size", "Small through 1965, large from late 1965", "The one you can read from across a room. Read it against the right model though: the Telecaster headstock never grew, so this check does not carry over to a Tele.", "#headstock"],
   ["The logo", "Spaghetti to mid-1964, transition mid-1964 to 1967, heavy black CBS from 1968", "On a Stratocaster the first two are both gold, so go by the weight of the script rather than the color. Spaghetti is thin and delicate, transition is thicker and bolder, CBS is heavy black.", "#headstock"],
-  ["The fingerboard", "Maple with a skunk stripe to mid-1959, slab rosewood to August 1962, veneer rosewood after, and a maple cap option back from mid-1967", "Look at the depth of the rosewood at the nut, and at the back of the neck for the stripe. Maple with no stripe is the late-1960s cap, not a 1950s neck.", "#neck"],
+  ["The fingerboard", "Maple with a skunk stripe to mid-1959, slab rosewood to August 1962, veneer rosewood after, and a maple cap option back from mid-1967", "Look at the depth of the rosewood at the nut, and at the back of the neck for the stripe. Maple with no stripe is the 1967 to 1968 cap, not a 1950s neck. The stripe returns in 1969.", "#neck"],
   ["The dots", "Clay to late 1964, pearloid after", "Clay is dull, matte, and usually discolored. Pearloid is bright and visibly swirled.", "#neck"],
   ["The pickguard", "One-ply with eight screws to 1959, three-ply nitrate with eleven to mid-1965, three-ply plastic after", "Count the screw holes in the body rather than in the guard. A guard can be swapped; the holes cannot.", "#guard"],
 ];
@@ -503,7 +503,8 @@ const breadcrumbSchema = {
           <figure class="sfig"><LicensedImage src={meta("1959-fender-telecaster-skunk-stripe.jpg")} alt="The back of a one-piece maple Fender neck showing the dark walnut skunk stripe running down the center" width={1280} /><figcaption>A one-piece maple neck, photographed on a 1959 Telecaster because the construction is identical across the models. The dark walnut stripe runs the length of the back, capping the truss rod channel.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("1970-fender-telecaster-maple-cap.jpg")} alt="The back of a maple cap Fender neck, clean unbroken maple with no skunk stripe" width={1100} /><figcaption>A maple cap neck, here on a 1970 Telecaster. Same wood, same look from the front, and no stripe at all, because the truss rod went in from the other side.</figcaption></figure>
         </div>
-        <p>So a stripe on a claimed late-1960s maple-board Strat is wrong, and no stripe on a claimed 1950s one is equally wrong. This is one of the few checks on the page where the two answers point at genuinely different decades. Worth knowing that the stripe comes back for good in 1971 with the bullet truss rod, so from then on a maple Strat neck has one again.</p>
+        <p>So a stripe on a claimed 1967 or 1968 maple-board Strat is wrong, and no stripe on a claimed 1950s one is equally wrong. This is one of the few checks on the page where the two answers point at genuinely different decades.</p>
+        <p><b>The stripe comes back in 1969, and that is earlier than most people place it.</b> Fender returned to routing the truss rod channel from behind that year and standardised the tooling across the line, so from 1969 a maple neck carries a stripe again and rosewood-board necks built from then on carry one too. It is a common mistake to date the return to 1971 and the bullet truss rod. The bullet arrived two years later and adjusts at the headstock instead of the heel, so it is a separate change that happens to need the same rear channel. Practically: no stripe narrows a maple-board Strat to roughly 1967 and 1968, not to the whole late-1960s stretch, and a stripe on a rosewood-board neck is normal from 1969 rather than evidence of a replacement.</p>
 
         <h3 id="dots">Clay Dots And Pearloid</h3>
         <p>Clay dots run from 1959 to late 1964. They are dull, matte, slightly chalky, and by now usually discolored to an off-white. Pearloid took over from late 1964 and is bright, shiny, and visibly swirled. Shiny dots on a claimed pre-1965 Stratocaster are a problem.</p>
