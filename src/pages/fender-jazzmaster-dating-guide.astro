@@ -128,7 +128,7 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1965",
-    "CBS completes the purchase in January and the guitar changes in stages. Around the middle of the year the Stratocaster-style dome knobs give way to witch hat knobs, which is the clearest single CBS marker on the instrument. Late in the year the fingerboard gains white binding and the Kluson tuners give way to Fender's own F tuners. The big-F neck plate arrives around the third quarter.",
+    "CBS completes the purchase in January and the guitar changes in stages. Around the middle of the year the white skirted Stratocaster knobs give way to witch hat knobs, which is the clearest single CBS marker on the instrument. Late in the year the fingerboard gains white binding and the Kluson tuners give way to Fender's own F tuners. The big-F neck plate arrives around the third quarter.",
     "Witch hat <a class='il' href='#electronics'>knobs</a>. Any Jazzmaster wearing them was built after the middle of 1965.",
   ],
   [
@@ -153,7 +153,7 @@ const yearRows: [string, string, string][] = [
 const fastRows: [string, string, string, string][] = [
   ["The pickguard", "Gold anodized aluminum to mid-1959, celluloid tortoiseshell to late 1964, plastic tortoiseshell after. White instead of tortoiseshell on custom colors", "The screw count comes with it: nine on the gold guard, thirteen from mid-1959 on. Both the material and the count read from a photograph.", "#guard"],
   ["The inlays", "Clay dots to late 1964, pearloid dots to mid-1966, block inlays after", "Three eras rather than two. Blocks also mean a bound board, so those two always travel together.", "#neck"],
-  ["The knobs", "Strat-style dome knobs to mid-1965, witch hat knobs after", "The cleanest CBS line on the instrument, and readable from a photograph.", "#electronics"],
+  ["The knobs", "White skirted Stratocaster knobs to mid-1965, witch hat knobs after", "The cleanest CBS line on the instrument, and readable from a photograph.", "#electronics"],
   ["The fingerboard", "Slab rosewood to spring 1962, veneer after", "Look at the rosewood depth at the nut. The Jazzmaster made this change before the Stratocaster did.", "#neck"],
   ["The logo", "Spaghetti to mid-1964, transition to 1967, black CBS after", "The first two are both gold, so go by the weight of the script and not the color. Thin and delicate, then the same gold drawn much heavier, then black. The headstock outline barely changes, so the decal does the work.", "#headstock"],
 ];
@@ -196,7 +196,7 @@ const faqs = [
   },
   {
     q: "What Is A Gold Guard Jazzmaster?",
-    a: "One of the first ones. Fender fitted a gold anodized aluminum pickguard from the 1958 launch to about the middle of 1959, roughly six to nine months of production, before switching to celluloid tortoiseshell. Gold guard examples are the rarest and most valuable Jazzmasters there are. The aluminum was not decoration either: it shielded the wide, hum-sensitive pickups, working alongside the reverse-wound pickup pair. Because they carry such a premium, replacement gold guards do get fitted to later guitars, so confirm any gold guard against the neck heel date, the body date, and the pot codes before you believe it.",
+    a: "One of the first ones. Fender fitted a gold anodized aluminum pickguard from the 1958 launch to about the middle of 1959, roughly twelve to fourteen months of production, before switching to celluloid tortoiseshell. Gold guard examples are the rarest and most valuable Jazzmasters there are. The aluminum was not decoration either: it shielded the wide, hum-sensitive pickups, working alongside the reverse-wound pickup pair. Because they carry such a premium, replacement gold guards do get fitted to later guitars, so confirm any gold guard against the neck heel date, the body date, and the pot codes before you believe it.",
   },
   {
     q: "How Many Screws Should My Jazzmaster Pickguard Have?",
@@ -204,11 +204,11 @@ const faqs = [
   },
   {
     q: "Why Does My Custom Color Jazzmaster Have A White Pickguard Instead Of Tortoiseshell?",
-    a: "Because that is correct. Once the tortoiseshell era began in mid-1959, sunburst guitars got tortoiseshell and custom color guitars got white. It is not a later replacement and it is not somebody's taste, it is how they left the factory. On the celluloid ones that white ages toward mint green, the same way a nitrate Stratocaster guard does.",
+    a: "Because that is correct. Once the tortoiseshell era began in mid-1959, tortoiseshell went on the standard finishes and white went on the custom colors. It is not a later replacement and it is not somebody's taste, it is how they left the factory. Watch the line between the two, because Blonde sits on the standard side: it was a regular production finish sprayed over ash rather than an extra-cost custom color over alder, so a factory Blonde Jazzmaster wears tortoiseshell like a sunburst does. Flagging an original Blonde with a tortoiseshell guard as altered is a common and expensive mistake. On the celluloid guards that white ages toward mint green, the same way a nitrate Stratocaster guard does, but only on the celluloid ones: Fender moved to inert PVC vinyl in late 1964 into early 1965, and a white PVC guard from 1965 onward stays bright white or drifts slightly to cream. It never goes green, and expecting it to is how genuine late-1960s guards get rejected.",
   },
   {
     q: "Is My Jazzmaster Pre-CBS?",
-    a: "Pre-CBS means built before CBS completed the purchase in January 1965, but the guitars did not change on that date. On a Jazzmaster the useful markers cluster slightly later: witch hat knobs from mid-1965, binding and F tuners from late 1965, block inlays from mid-1966. A guitar with none of those and clay dots is comfortably pre-CBS. One with pearloid dots, Kluson tuners, and dome knobs is sitting right in the transition, which is exactly where the calendar stops helping and the features take over.",
+    a: "Pre-CBS means built before CBS completed the purchase in January 1965, but the guitars did not change on that date. On a Jazzmaster the useful markers cluster slightly later: witch hat knobs from mid-1965, binding and F tuners from late 1965, block inlays from mid-1966. A guitar with none of those and clay dots is comfortably pre-CBS. One with pearloid dots, Kluson tuners, and skirted knobs is sitting right in the transition, which is exactly where the calendar stops helping and the features take over.",
   },
   {
     q: "My Jazzmaster Sounds Weak And The Pickups Sit Low. What's Wrong?",
@@ -366,7 +366,7 @@ const breadcrumbSchema = {
           <tbody>{fastRows.map((r) => (<tr><td data-label="What to look at"><a class="rowjump" href={r[3]}>{r[0]}</a></td><td data-label="What it tells you" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
         </table></div>
         <div class="tip">
-          <p><b>The Jazzmaster rewards stacking these more than any other Fender.</b> Take a guitar with a tortoiseshell celluloid guard, clay dots, dome knobs, and single-line Klusons. The guard says mid-1959 or later, the dots say late 1964 or earlier, the knobs say mid-1965 or earlier, and the tuners say roughly 1960 to 1964. Overlap them and you are looking at about 1960 to 1964 without having read a single date. Then the heel stamp closes it out.</p>
+          <p><b>The Jazzmaster rewards stacking these more than any other Fender.</b> Take a guitar with a tortoiseshell celluloid guard, clay dots, skirted knobs, and single-line Klusons. The guard says mid-1959 or later, the dots say late 1964 or earlier, the knobs say mid-1965 or earlier, and the tuners say roughly 1960 to 1964. Overlap them and you are looking at about 1960 to 1964 without having read a single date. Then the heel stamp closes it out.</p>
         </div>
       </div>
     </section>
@@ -398,7 +398,7 @@ const breadcrumbSchema = {
 
         <h3 id="gold">Gold Anodized Aluminum, 1958 To Mid-1959</h3>
         <p>The first Jazzmasters wore a <b>gold anodized aluminum</b> guard, carried over from the material Fender had been using on the Musicmaster and Duo-Sonic since 1956. It was functional as well as striking: the full aluminum plate shields the wide, hum-sensitive pickups, working alongside the reverse-wound, reverse-polarity pickup pair. It is held on by <b>nine screws</b>.</p>
-        <p>Collectors call these <b>gold guard</b> Jazzmasters and they are the rarest and most valuable version of the model. The window was roughly the last quarter of 1958 through the middle of 1959, so about six to nine months of production. Most are sunburst, though some early custom colors wore one too.</p>
+        <p>Collectors call these <b>gold guard</b> Jazzmasters and they are the rarest and most valuable version of the model. The window runs from the summer of 1958, when commercial production got going after the mid-1958 NAMM launch, to the changeover in about July or August 1959, so roughly twelve to fourteen months of production rather than the six to nine people often assume. Output climbed steeply through late 1958 and early 1959, so a fair number of nine-hole gold guard guitars were built and shipped. Most are sunburst, though some early custom colors wore one too.</p>
         <div class="figrow gallery">
           <figure class="sfig">
             <LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-gold-pickguard-scaled.jpg")} alt="The gold anodized aluminum pickguard on a 1959 Fender Jazzmaster, showing its nine-screw attachment pattern" width={1600} />
@@ -430,7 +430,7 @@ const breadcrumbSchema = {
         <p>Here is the one that catches people. Once the tortoiseshell era began, the guard color depended on the finish. <b>Sunburst got tortoiseshell. Custom colors got white.</b> That was factory practice, not a special order, so a white guard on a custom color Jazzmaster is correct and original rather than a later swap. On the celluloid ones that white ages toward mint green in exactly the way a nitrate Stratocaster guard does.</p>
         <div class="figrow gallery">
           <figure class="sfig">
-            <LicensedImage src={bmeta(JM, "1960s-jazzmaster-charcoal-frost._-10-scaled.jpg")} alt="A 1960s Fender Jazzmaster in Charcoal Frost Metallic with a white pickguard, rosewood board, dome knobs and floating bridge" width={1600} />
+            <LicensedImage src={bmeta(JM, "1960s-jazzmaster-charcoal-frost._-10-scaled.jpg")} alt="A 1960s Fender Jazzmaster in Charcoal Frost Metallic with a white pickguard, rosewood board, skirted knobs and floating bridge" width={1600} />
             <figcaption>A 1960s Jazzmaster in Charcoal Frost Metallic, wearing the white guard that came with a custom color rather than tortoiseshell. Dome knobs and a white switch tip put it before the middle of 1965.</figcaption>
           </figure>
         </div>
@@ -549,9 +549,9 @@ const breadcrumbSchema = {
         </div>
 
         <h3 id="knobs">Knobs And The Switch Tip</h3>
-        <p>The knobs are the cleanest CBS line on the instrument. Through mid-1965 the lead circuit wears the same <b>white skirted dome knobs</b> as a Stratocaster or Telecaster of the era. From mid-1965 it wears <b>witch hat</b> knobs, taller and narrower with a chrome domed top, and those are Jazzmaster-flavored enough that you can call them from a photograph. Any Jazzmaster with witch hats was built after the middle of 1965. The rhythm circuit rollers, meanwhile, never changed at all.</p>
+        <p>The knobs are the cleanest CBS line on the instrument. Through mid-1965 the lead circuit wears the same <b>white skirted plastic knobs</b> as a Stratocaster of the era, numbered 1 to 10. Not a Telecaster: those take knurled metal knobs, and Fender's own term "dome knob" belongs to those rather than to anything a Jazzmaster ever wore. From mid-1965 it wears <b>witch hat</b> knobs, taller and narrower with a chrome domed top, and those are Jazzmaster-flavored enough that you can call them from a photograph. Any Jazzmaster with witch hats was built after the middle of 1965. The rhythm circuit rollers, meanwhile, never changed at all.</p>
         <div class="figrow gallery">
-          <figure class="sfig"><LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-white-skirted-knob-scaled.jpg")} alt="A white skirted dome knob on a 1959 Fender Jazzmaster lead circuit control" width={1600} /><figcaption>The dome knob, 1958 to mid-1965. Shared with the Stratocaster and Telecaster of the era.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-white-skirted-knob-scaled.jpg")} alt="A white skirted plastic knob on a 1959 Fender Jazzmaster lead circuit control" width={1600} /><figcaption>The skirted knob, 1958 to mid-1965. Shared with the Stratocaster and Telecaster of the era.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={bmeta(JM, "jazzmaster-witch-hat-knobs.jpg")} alt="Witch hat knobs on a Fender Jazzmaster, white plastic with a chrome domed top" width={1280} /><figcaption>The witch hat, mid-1965 onward. Taller, narrower, chrome on top, and unmistakable once you have seen one.</figcaption></figure>
         </div>
         <p>The switch tip is the smallest clue here and one of the best for the earliest guitars. From 1958 to about 1960 it is a warm translucent <b>amber</b>. From about 1961 it is a whiter plastic, and it stays that way to the end. An intact original amber tip is a strong sign of a genuinely early example, which also makes it a part worth checking rather than assuming.</p>
