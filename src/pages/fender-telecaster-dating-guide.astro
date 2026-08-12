@@ -151,23 +151,23 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1963",
-    "The Esquire takes on the same three-number <a class='il' href='#headstock'>patent block</a> the Telecaster got in late 1961.",
-    "Nothing on a Telecaster. This one is an Esquire marker.",
+    "The Esquire takes on the same three-number <a class='il' href='#headstock'>patent block</a> the Telecaster got in late 1961. The CRL three-way switch also takes a round spring-loaded plastic base this year, having carried two patent numbers from 1950 to 1953 and three from 1953. Around mid-year the pair of dots at the twelfth fret move back closer together.",
+    "Nothing on the Telecaster decal. This one is an Esquire marker, but the switch base and the dot spacing both moved.",
   ],
   [
     "1964",
-    "The neck <a class='il' href='#headstock'>patent 3,143,028</a> is granted in August, so it appears on decals printed after that. The coil wire changes from Formvar to plain enamel, which was plant-wide, and the Kluson stamp goes from a single line to a double line.",
+    "The neck <a class='il' href='#headstock'>patent 3,143,028</a> is granted in August, so it appears on decals printed after that. The coil wire changes from Formvar to plain enamel, which was plant-wide, and the Kluson stamp goes from a single line to a double line. Late in the year the pickup bottom plates begin moving from black vulcanised fibreboard to grey, a change that runs into early 1965, and the grey ones often carry a stamped or handwritten date.",
     "Coil wire that reads dark burgundy rather than golden orange.",
   ],
   [
     "1965",
-    "CBS completes the purchase in January and the guitar changes in stages. The Telecaster held onto the spaghetti <a class='il' href='#headstock'>logo</a> into 1965, about a year longer than the Stratocaster did, then took the transition logo, and the patent block dropped from three numbers to two. The <a class='il' href='#guard'>pickguard material</a> moves from cellulose nitrate to white plastic around mid-year, and the <a class='il' href='#serial'>big-F neck plate</a> arrives around the third quarter.",
+    "CBS completes the purchase in January and the guitar changes in stages. The Telecaster held onto the spaghetti <a class='il' href='#headstock'>logo</a> into 1965, about a year longer than the Stratocaster did, then took the transition logo, and the patent block dropped from three numbers to two. On the Custom and the custom-colour guitars the three-ply <a class='il' href='#guard'>guard material</a> moves from cellulose nitrate to white plastic around mid-year, which is why a later three-ply guard never goes mint green. The <a class='il' href='#serial'>big-F neck plate</a> arrives around the third quarter.",
     "A spaghetti logo on a 1965 Telecaster is correct and original. Do not read the Strat's timeline onto it.",
   ],
   [
     "1966",
-    "Double-line <a class='il' href='#headstock'>Klusons</a> are standard, and the three-ply <a class='il' href='#guard'>guard</a> is now the stable white plastic that ages cream rather than the nitrate that goes mint green.",
-    "A guard that never went green on an otherwise honest 1960s guitar.",
+    "Double-line <a class='il' href='#headstock'>Klusons</a> are standard. On a Custom the three-ply <a class='il' href='#guard'>guard</a> is now the stable white plastic that ages cream rather than the nitrate that goes mint green, while a standard blonde is still wearing a single-ply white guard.",
+    "A three-ply guard that never went green on an otherwise honest 1960s Custom.",
   ],
   [
     "1967",
@@ -176,7 +176,7 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1968",
-    "The <a class='il' href='#bridge'>saddles</a> change for the fourth and last time in the vintage era, back to a smooth barrel but with a groove cut for each string. Polyester finish arrives, and the cloth-covered wire in the cavity gives way to plastic-insulated wire as the old stock runs out, so a 1968 can honestly have either. This is also the year of the Paisley Red and Blue Flower finishes.",
+    "The <a class='il' href='#bridge'>saddles</a> change for the fourth and last time in the vintage era, back to a smooth barrel but with a groove cut for each string. Polyester finish arrives, and the wax-treated cloth pushback wire in the cavity gives way to coloured PVC plastic-insulated wire, a change that began in late 1967 as the old stock ran out, so a 1968 can honestly have either. The string ferrules on the back of the body change from flush to a lip-edged type that stands slightly proud. This is also the year of the Paisley Red and Blue Flower finishes.",
     "Smooth saddles with a groove cut into each one.",
   ],
   [
@@ -194,11 +194,28 @@ const yearRows: [string, string, string][] = [
 // The checks that place a Tele in an era without tools. These give a WINDOW.
 // Fourth element is the section this check is explained in, so the table doubles as navigation.
 const fastRows: [string, string, string, string][] = [
-  ["The pickguard", "Black to mid-1954, single-ply white to 1959, three-ply nitrate to mid-1965, white plastic after", "The blackguard line is the one that moves the money. Nitrate ages mint green; the plastic that replaced it only ever goes cream.", "#guard"],
+  ["The pickguard", "Black phenolic to mid-1954, then single-ply white: five screws to mid-1959, eight after", "The blackguard line is the one that moves the money, and the screw count splits the white-guard years. Three-ply mint green nitrate belongs to the Custom and the custom colours rather than to a standard blonde.", "#guard"],
   ["The bridge", "Strings through the body, except from about mid-1958 to mid-1959 when they anchored at the back of the plate", "Turn the guitar over and look for string ferrules. A 1959 transition plate can carry both sets of holes at once.", "#bridge"],
   ["The saddles", "Brass to mid-1954, smooth steel to 1958, threaded barrels to 1968, smooth with grooves after", "Four stages, and more changes than any other single part on the guitar. The brass window is the shortest of the four.", "#bridge"],
   ["The fingerboard", "Maple with a skunk stripe to about April 1959, slab rosewood to August 1962, veneer rosewood after, maple cap back in the late 1960s", "Look at the rosewood depth at the nut, and at the back of the neck for the stripe.", "#neck"],
   ["The logo", "Spaghetti into 1965, transition 1965 to 1967, heavy black CBS from 1967", "On a standard Telecaster the spaghetti logo is silver. The headstock outline never changed size, so unlike a Stratocaster there is no shape clue here at all.", "#headstock"],
+];
+
+// Tuner housings, four eras. Readable without removing anything.
+const tunerRows: [string, string, string][] = [
+  ["Nothing stamped at all", "1950 to about 1956", "The no-line Kluson Deluxe. A smooth housing back. Late in 1951 a second hole was added to the side of the shell, which splits the earliest examples from the rest."],
+  ["KLUSON DELUXE in one vertical line", "About 1956 to late 1964", "Single line, running down the housing back."],
+  ["KLUSON and DELUXE in two parallel lines", "Late 1964 to about autumn 1967", "The same two words split across two vertical rows."],
+  ["Fender F keys", "Autumn 1967 onward", "Fender's own tuners take over: chrome buttons, octagonal metal casings, and an F on the back plate."],
+];
+
+// Neck heel stamp FORMATS by era. The full decoder lives on the neck-dates page.
+const stampRows: [string, string, string][] = [
+  ["Pencil, M-D-YY", "1950 to 1954", "Hand written on the butt of the heel, month, day and year."],
+  ["Pencil, M-YY", "1954 to 1959", "Same place, now just month and year."],
+  ["Nothing at all", "A window in early to mid-1959", "Fender told staff to stop writing dates. A blank heel here is correct."],
+  ["Ink stamp, XX MMM-YY W", "From March 1962", "Dark blue or red. XX is the model code, MMM-YY is the month and year, and W is a nut width letter from A to D."],
+  ["Green ink numerical code", "From 1969", "A run of digits and a letter, such as 529129B, alongside the traditional stamp."],
 ];
 
 // Telecaster neck-heel model code. Unlike the Strat's 2/13/22 this never moved.
@@ -255,11 +272,11 @@ const faqs = [
   },
   {
     q: "My Telecaster Has A Maple Neck. Does That Make It A 1950s Guitar?",
-    a: "Not on its own. Look at the back. A one-piece maple neck from the 1950s has to carry a dark walnut skunk stripe, because the truss rod went in from behind and the stripe caps the channel. The maple cap that came back in the late 1960s has a separate board glued over the rod, so the back is clean unbroken maple with no stripe. Same wood, same look from the playing side, and about a decade apart. The stripe returns for good in 1971 with the bullet truss rod.",
+    a: "Not on its own. Look at the back. A one-piece maple neck from the 1950s has to carry a dark walnut skunk stripe, because the truss rod went in from behind and the stripe caps the channel, with a walnut plug above the nut. The maple cap Fender offered from about 1965 has a separate board glued over the rod, so the back is clean unbroken maple with no stripe. Same wood, same look from the playing side, and about a decade apart. The stripe comes back in 1969, when Fender reintroduced the one-piece maple neck and reverted to the 1950s method of routing the channel from behind. In that same year Fender standardised its truss rod tooling across the line, so rosewood-board necks built from 1969 also carry a walnut stripe on the back. That is two years before the bullet truss rod, which arrived on the Thinline in late 1971 and adjusts at the headstock instead of the heel. So a stripe on its own does not mean 1971, and it does not mean the 1950s either.",
   },
   {
     q: "Why Does My Telecaster Have Two Capacitors In The Control Cavity?",
-    a: "Because it is a Telecaster. The Tele ran a more involved circuit than the Stratocaster did, and from late 1952 the dark circuit put a flat rectangular phone book capacitor in alongside a round tubular one. Two caps in a Tele cavity is not a modified guitar. Check it against the wiring for its year rather than against a Strat, where one cap is normal.",
+    a: "Because it is a Telecaster. The Tele ran a more involved circuit than the Stratocaster did, and from late 1952 the dark circuit put a flat rectangular phone book capacitor in alongside a round tubular one. Two caps in a Tele cavity is not a modified guitar. That circuit ran until late 1967, and knowing which side of it you are on tells you what the switch should do. On the dark circuit the forward position runs the neck pickup through a 0.1 capacitor to ground for a bass-heavy sound with no tone control, the middle position runs the neck pickup through the tone control, and the rear position runs the bridge pickup on its own with the tone control bypassed. From late 1967 Fender dropped the extra capacitor and moved to modern switching: neck alone, both pickups together in parallel, bridge alone, with the tone control live in all three. So a Telecaster that blends both pickups in the middle position is 1967 or later, and one that cannot is earlier. Check it against the wiring for its own year rather than against a Strat, where one cap is normal.",
   },
   {
     q: "Should I Take My Telecaster Apart To Date It?",
@@ -463,6 +480,13 @@ const breadcrumbSchema = {
             <figcaption>Ghosting on a 1952. The wood the guard covered is a pale cream against the butterscotch of the rest of the body, which is what six decades of light does to an original finish.</figcaption>
           </figure>
         </div>
+        <p><b>Count the screws to split the whiteguard years.</b> The single-ply white guard arrives around the summer of 1954 with five mounting holes, and in mid-1959 the count goes up to eight. That is a check you can make from a photograph of the front of the guitar, and it divides the whiteguard era in half without touching anything.</p>
+        <div class="tip">
+          <p><b>A mint green three-ply guard on a standard blonde Telecaster is not what most people assume.</b> The three-ply cellulose nitrate guard that ages mint green belongs to the <b>Custom Telecaster</b>, introduced in mid-1959 with body binding, and to selected custom-colour guitars. A standard blonde kept a thick single-ply white guard right through the 1960s. So if a blonde Tele is wearing a three-ply guard, that is either a Custom, a custom-colour guitar, or a swapped guard, and it is worth working out which before it sets the price.</p>
+        </div>
+        <p><b>Two body details worth turning the guitar over for.</b> The string ferrules on the back sat flush with the wood from 1950 through 1967, and from 1968 Fender used a lip-edged ferrule that stands slightly proud of the surface. And in late 1967, short of lightweight swamp ash, Fender routed large weight-relief cavities into heavy ash bodies under the pickguard area. Those are the guitars collectors call <b>Smugglers</b>. The routs are invisible with the guard on, so the only clues from outside are a body that feels lighter than it should for the year and, if the guard ever comes off, the cavities themselves.</p>
+        <p><b>The dots move too.</b> On the twelfth fret the pair of position markers sit closest together on the earliest necks, spread further apart in 1953, and move back closer together again in mid-1963. On rosewood boards the dots are cellulose nitrate clay until late 1964, when white pearloid takes over.</p>
+
         <h3 id="names">Esquire, Broadcaster, Nocaster, Telecaster</h3>
         <p>No other Fender changed its name this often. The single-pickup <b>Esquire</b> arrives in 1950 and stays in the line for decades. The two-pickup version follows late in 1950 as the <b>Broadcaster</b>. Gretsch already had a Broadkaster drum kit and objected, so Fender simply cut the model name off the decal and kept shipping, leaving guitars wearing nothing but the Fender script. Those are the <b>Nocasters</b>, they exist only across 1951, and they are among the most valuable guitars the company ever built. Later in 1951 the name settles as <b>Telecaster</b>.</p>
         <p>Which means that on an early guitar the decal is a dating tool in itself. Read what is printed beside the Fender script, and if there is nothing there at all, look very carefully at everything else.</p>
@@ -552,11 +576,18 @@ const breadcrumbSchema = {
         </div>
         <p><b>The patent numbers are the better clue, because they changed more often.</b> For its first decade the Telecaster headstock carried <b>no patent numbers at all</b>, so a blank headstock under the model name points at 1950 through 1961. Late in 1961 a block of three appears: DES 164,227 for the body design, 2,573,254 for the bridge and pickup, and 2,784,631 for a lead and rhythm tone circuit that never became a standard feature. When the transition logo arrives in 1965 the block drops to two, 2,573,254 and 3,143,028, and the black CBS logo of 1967 keeps those two but shifts them below the Fender name.</p>
         <div class="tip">
+          <p><b>A yellowed, checked headstock face on a clear, uncheckered neck is factory on a 1968.</b> Polyester arrived that year and it reacted badly with the decal film, so Fender sprayed a localised coat of nitrocellulose on the peghead face alone to carry the decal, and put polyester on the rest of the neck. Nitrocellulose ambers and checks with age; polyester does not. Sixty years on, that leaves a 1968 with a visibly yellower, finely checked headstock face against a back that still looks clear. It reads like a refinished or touched-up headstock and it is neither. Look for the two finishes meeting at the edge of the peghead rather than at a repair line.</p>
+        </div>
+        <div class="tip">
           <p><b>Read the block against the right model.</b> The Telecaster and the Stratocaster ran completely different patent numbers, and a reproduction decal that borrowed the wrong list is a common tell. One number that turns up in fakes and in careless online lists is 2,592,783, which is not a Fender patent at all. It belongs to a heat exchanger, so a headstock wearing it is wrong on its face. There is a full breakdown by model and era on the <a class="spoke" href="/fender-physical-features/">physical features guide</a>.</p>
         </div>
 
         <h3 id="tuners">Tuners And The String Tree</h3>
-        <p>Kluson made the tuners until the CBS years and the back of the housing tells you which era you are in: no text at all on the earliest, then KLUSON DELUXE in one vertical line from about mid-1956, then the same words split across two lines from about mid-1964. Fender's own F-stamped tuners became standard across the main lines in the middle to end of 1967.</p>
+        <p>Kluson made the tuners until the CBS years, and the back of the housing tells you which era you are in. Four stages, and the stamp is readable without taking anything off the guitar.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>What the housing says</th><th>Years</th><th>How to read it</th></tr></thead>
+          <tbody>{tunerRows.map((r) => (<tr><td data-label="What the housing says"><b>{r[0]}</b></td><td data-label="Years" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
+        </table></div>
         <div class="figrow gallery">
           <figure class="sfig"><LicensedImage src={bmeta(T52, "1952-fender-telecaster-kluson-no-line-tuners-1024x683.jpg")} alt="No-line Kluson tuners on a 1952 Fender Telecaster, with completely smooth housing backs" width={1024} /><figcaption>No line, on a 1952. The housing back is smooth, with nothing stamped on it at all.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("kluson-deluxe-single-line-tuner-1956-1964-on-vintage-fender-telecaster.jpg")} alt="A single-line Kluson Deluxe tuner on a vintage Fender Telecaster" width={1100} /><figcaption>Single line, from about mid-1956. KLUSON DELUXE runs down the housing in one column.</figcaption></figure>
@@ -590,6 +621,12 @@ const breadcrumbSchema = {
         <div class="tip">
           <p><b>A blank heel is correct for the middle of 1959.</b> Fender told staff not to write dates on neck heels during a window that year, so a genuine mid-1959 Telecaster can have nothing there at all. That is a documented characteristic rather than a red flag, so a blank heel is not grounds for writing off an honest guitar. Date one of those from the body date and the pot codes instead.</p>
         </div>
+
+        <p>What the stamp looks like narrows the era on its own, before you read the date inside it.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>What is on the heel</th><th>Years</th><th>How to read it</th></tr></thead>
+          <tbody>{stampRows.map((r) => (<tr><td data-label="What is on the heel"><b>{r[0]}</b></td><td data-label="Years" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
+        </table></div>
 
         <h3 id="code">The Model Code, And Why It Doesn't Help Here</h3>
         <p>The heel stamp usually opens with a model code, and on some Fenders that number is a strong dating clue on its own. Not on a Telecaster.</p>
