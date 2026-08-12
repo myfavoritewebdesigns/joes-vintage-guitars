@@ -1,7 +1,7 @@
 ---
 title: "Fender Jazzmaster Evolution Guide: Every Spec Change From 1958 to 1971"
 pubDate: "2026-03-17T22:49:07"
-modified: "2026-03-24T18:47:49"
+modified: "2026-08-12T00:00:00"
 excerpt: "The Fender Jazzmaster changed more times in its first 14 years than almost any other model in the Fender lineup. This guide documents every spec change year by year: gold guard to tortoiseshell, slab to veneer, clay dots to pearl to blocks, spaghetti to CBS black logo, Klusons to F-tuners, and a complete custom color reference with the correct pickguard pairing for every finish."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -308,13 +308,13 @@ The two pickups are **reverse-wound and reverse-polarity** relative to each othe
 
 <figure>
 
-![Fender Jazzmaster pickup close-up, wide flat single-coil pickup with chrome cover flush-mounted to pickguard, no exposed pole pieces, 1966 CBS-era example](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1966-jazzmaster-pickup-close-up.jpg)
+![Fender Jazzmaster pickup close-up, wide flat single-coil pickup with white plastic cover flush-mounted to pickguard, six level pole pieces visible from above, 1966 CBS-era example](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1966-jazzmaster-pickup-close-up.jpg)
 
-<figcaption><strong>Fender Jazzmaster pickup, 1966.</strong> The wide, flat pickup has a <strong>plastic cover</strong>, not chrome, that mounts to the body and sits flush with the pickguard surface. No pole pieces are visible from above. Pickup height is adjusted via screws through the body. The large aperture of the pickup coil is what gives the Jazzmaster its characteristic warm, wide-sensing tone.</figcaption>
+<figcaption><strong>Fender Jazzmaster pickup, 1966.</strong> The wide, flat pickup has a <strong>plastic cover</strong>, not chrome, that mounts to the body and sits flush with the pickguard surface. The pole pieces are visible from above, sitting flush rather than standing proud of the cover, and they are level rather than staggered. Pickup height is adjusted via screws through the body. The large aperture of the pickup coil is what gives the Jazzmaster its characteristic warm, wide-sensing tone.</figcaption>
 
 </figure>
 
-The pickup covers are **plastic** (not chrome) and mount directly to the body, not to the pickguard. The covers are flush with the pickguard surface, giving a clean integrated appearance with no exposed pole pieces visible from above. Pickup height is adjusted via screws that go through the body from below.
+The pickup covers are **plastic** (not chrome) and mount directly to the body, not to the pickguard. The covers are flush with the pickguard surface, giving a clean integrated appearance. The pole pieces are visible from above and sit flush with the cover rather than standing proud of it. Pickup height is adjusted via screws that go through the body from below.
 
 ### Pickup Bottom Color, A Dating Indicator
 
