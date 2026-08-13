@@ -1,7 +1,7 @@
 ---
 title: "Fender Jazzmaster Evolution Guide: Every Spec Change From 1958 to 1971"
 pubDate: "2026-03-17T22:49:07"
-modified: "2026-08-10T00:00:00"
+modified: "2026-08-13T00:00:00"
 excerpt: "The Fender Jazzmaster changed more times in its first 14 years than almost any other model in the Fender lineup. This guide documents every spec change year by year: gold guard to tortoiseshell, slab to veneer, clay dots to pearl to blocks, spaghetti to CBS black logo, Klusons to F-tuners, and a complete custom color reference with the correct pickguard pairing for every finish."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -87,21 +87,21 @@ The Jazzmaster's electronics are its most complex feature, and the one most like
 
 ### Knob Evolution
 
--   1958 to mid 1965**Stratocaster-style knobs**, the standard white dome knobs used across the Fender line, with a flat top and chrome-tipped set screw. Used on the lead circuit volume and tone controls.
--   Mid 1965 onward**"Witch hat" knobs**, a distinctive Jazzmaster-specific knob style: white plastic with a chrome domed top, taller and thinner than the Strat-style dome knob. Introduced mid-1965 and immediately identifiable as a CBS-era indicator. The name comes from their silhouette resemblance to a witch's hat.
+-   1958 to mid 1965**Stratocaster-style knobs**, the same white skirted plastic knobs a Stratocaster of the era wore, numbered 1 to 10 around the skirt. Used on the lead circuit volume and tone controls. Fender's own term "dome knob" belongs to the knurled metal knobs on Telecasters, Esquires and Precision Basses, not to anything a Jazzmaster ever wore.
+-   Mid 1965 onward**"Witch hat" knobs**, a distinctive Jazzmaster-specific knob style: white plastic with a chrome domed top, taller and thinner than the skirted Strat-style knob. Introduced mid-1965 and immediately identifiable as a CBS-era indicator. The name comes from their silhouette resemblance to a witch's hat.
 -   Rhythm rollersThe tone and volume roller wheels on the upper bout remained **consistent throughout production**, a chrome-edged roller design unchanged from 1958 to 1971.
 
 <figure>
 
-![1959 Fender Jazzmaster Stratocaster-style white skirted dome knob, original pre-CBS lead circuit knob used 1958 through mid-1965 on Fender Jazzmaster](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-white-skirted-knob-scaled.jpg)
+![1959 Fender Jazzmaster Stratocaster-style white skirted knob, original pre-CBS lead circuit knob used 1958 through mid-1965 on Fender Jazzmaster](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-white-skirted-knob-scaled.jpg)
 
-<figcaption><strong>Strat-style skirted dome knob (1958 to mid 1965).</strong> The white dome knob with flat top and set screw was the original Jazzmaster lead circuit knob, shared with the Stratocaster and Telecaster of the era. Present on all pre-CBS Jazzmasters and early CBS examples through mid-1965.</figcaption>
+<figcaption><strong>Strat-style skirted knob (1958 to mid 1965).</strong> The white skirted plastic knob, numbered 1 to 10 around the skirt, was the original Jazzmaster lead circuit knob, the same part a Stratocaster of the era wore. Present on all pre-CBS Jazzmasters and early CBS examples through mid-1965.</figcaption>
 
 </figure>
 
 <figure>
 
-![Fender Jazzmaster witch hat knobs close-up, white plastic with chrome domed top, CBS era indicator introduced mid-1965 replacing Strat-style dome knobs](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/jazzmaster-witch-hat-knobs.jpg)
+![Fender Jazzmaster witch hat knobs close-up, white plastic with chrome domed top, CBS era indicator introduced mid-1965 replacing the skirted Strat-style knobs](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/jazzmaster-witch-hat-knobs.jpg)
 
 <figcaption><strong>Witch hat knobs (mid 1965 to 1971).</strong> Taller, narrower white plastic with a chrome domed top, a Jazzmaster-specific design introduced mid-1965. Their arrival is one of the clearest CBS-era markers on the instrument. Any Jazzmaster with witch hat knobs was built after mid-1965.</figcaption>
 
@@ -308,13 +308,13 @@ The two pickups are **reverse-wound and reverse-polarity** relative to each othe
 
 <figure>
 
-![Fender Jazzmaster pickup close-up, wide flat single-coil pickup with chrome cover flush-mounted to pickguard, no exposed pole pieces, 1966 CBS-era example](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1966-jazzmaster-pickup-close-up.jpg)
+![Fender Jazzmaster pickup close-up, wide flat single-coil pickup with white plastic cover flush-mounted to pickguard, six level pole pieces visible from above, 1966 CBS-era example](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1966-jazzmaster-pickup-close-up.jpg)
 
-<figcaption><strong>Fender Jazzmaster pickup, 1966.</strong> The wide, flat pickup has a <strong>plastic cover</strong>, not chrome, that mounts to the body and sits flush with the pickguard surface. No pole pieces are visible from above. Pickup height is adjusted via screws through the body. The large aperture of the pickup coil is what gives the Jazzmaster its characteristic warm, wide-sensing tone.</figcaption>
+<figcaption><strong>Fender Jazzmaster pickup, 1966.</strong> The wide, flat pickup has a <strong>plastic cover</strong>, not chrome, that mounts to the body and sits flush with the pickguard surface. The pole pieces are visible from above, sitting flush rather than standing proud of the cover, and they are level rather than staggered. Pickup height is adjusted via screws through the body. The large aperture of the pickup coil is what gives the Jazzmaster its characteristic warm, wide-sensing tone.</figcaption>
 
 </figure>
 
-The pickup covers are **plastic** (not chrome) and mount directly to the body, not to the pickguard. The covers are flush with the pickguard surface, giving a clean integrated appearance with no exposed pole pieces visible from above. Pickup height is adjusted via screws that go through the body from below.
+The pickup covers are **plastic** (not chrome) and mount directly to the body, not to the pickguard. The covers are flush with the pickguard surface, giving a clean integrated appearance. The pole pieces are visible from above and sit flush with the cover rather than standing proud of it. Pickup height is adjusted via screws that go through the body from below.
 
 ### Pickup Bottom Color, A Dating Indicator
 

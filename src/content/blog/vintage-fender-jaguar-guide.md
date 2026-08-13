@@ -1,7 +1,7 @@
 ---
 title: "Fender Jaguar Authentication Guide 1962-1975: Year-by-Year Specs, Dating, and Value"
 pubDate: "2026-05-14T15:52:34"
-modified: "2026-05-14T15:52:34"
+modified: "2026-08-13T00:00:00"
 excerpt: "If you have inherited or are looking to sell a vintage Fender Jaguar, the details on this page are the same ones a serious buyer will use to value the guitar. Year-by-year specs from 1962 to 1975, pot codes, custom color verification, and the refinish tells that move valuations by thousands."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -72,7 +72,7 @@ Everything that drives the high water Jaguar valuations comes out of this era. T
 
 Production began in late spring of 1962. The earliest examples wear serial numbers in the 80000 and 90000 ranges (shared with Stratocasters and other models of the era), with a switch to the L prefix series late in the year. A first year Jaguar should carry a slab rosewood fingerboard, which is to say the rosewood is flat across its underside where it meets the maple neck. Fender phased that out around July 1962 in favor of the curved or "veneer" board, which has a radius on the back side to match the maple. The slab to veneer transition is the pre-CBS detail collectors argue about most, and a slab board on a Jaguar built in the first half of 1962 carries real value.
 
-The 1962 mute system also stands apart from later years. Earliest Jaguars have a string mute behind the bridge, controlled by a lever that drops a foam pad onto the strings. Players hated it. Most got removed or set aside in a case pocket somewhere, and finding a fully intact mute with the original foam (which crumbles to dust on its own timeline) is a real find. Mute hardware present adds value. Original foam present adds more. A missing mute does not disqualify a guitar, but check that the original screw holes are present and unaltered.
+The string mute sits behind the bridge, controlled by a lever that drops a foam pad onto the strings. Finding a fully intact mute with the original foam (which crumbles to dust on its own timeline) is a real find. Mute hardware present adds value. Original foam present adds more. Check that the mute screw holes are present and unaltered.
 
 ### 1963: The Refinement Year
 
@@ -262,7 +262,7 @@ The Jaguar pickup is what makes the guitar sound the way it does. They are singl
 -   DC resistance typically 6.2k to 7.4k ohms per pickup
 -   Alnico V magnets
 -   Forbon (fish paper) bobbin construction throughout the run
--   Pole piece profile: **flat (level) pole pieces on 1962 production**, transitioning to staggered pole pieces across 1963 and 1964 with mixed examples throughout the transition window, and fully staggered by 1965 onward. Flat poles on a 1962 Jaguar are factory original; flat poles on a 1965 or later guitar suggest replacement pickups
+-   Pole piece profile: **flat (level) pole pieces on 1962 production**, transitioning to staggered pole pieces across 1963 and 1964 with mixed examples throughout the transition window, and fully staggered from 1965. **Flush poles then return as the factory specification in mid-1974** and run to the end of production. So flat poles are correct at both ends of the Jaguar's life, and they only raise a question on a guitar built between 1965 and mid-1974
 -   Cloth-covered push-back wire on lead connections from 1962 through 1968 to 1969, typically yellow and black insulation, with plastic insulated wire taking over by the end of the 1960s
 -   Date codes pencilled or stamped on the bottom flatwork in many pre-1965 pickups
 
@@ -276,9 +276,9 @@ Original black bottom pickups in a 1962 to mid-1964 Jaguar are a collector premi
 
 The Jaguar's switching is the most complex Fender designed in the 1960s. Two completely separate circuits run side by side, selected by a slide switch on the upper bout.
 
-**Lead Circuit** (lower bout controls): three slider switches near the bridge, plus volume and tone rollers on the lower bout chrome control plate. The first two sliders select neck and bridge pickups individually. The third slider activates the "strangle" capacitor, a 0.003 microfarad cap in series with the signal that aggressively rolls off the bass and pushes the tone into thin treble territory. Volume and tone in this circuit use 1 megohm potentiometers.
+**Lead Circuit** (lower bout controls): three slider switches near the bridge, plus volume and tone rollers on the lower bout chrome control plate. The first two sliders select neck and bridge pickups individually. The third slider activates the "strangle" capacitor, a 0.003 microfarad cap in series with the signal that aggressively rolls off the bass and pushes the tone into thin treble territory. Volume and tone in this circuit use 1 megohm potentiometers, a linear taper on the volume and an audio taper on the tone.
 
-**Rhythm Circuit** (upper bout controls): activated by sliding the upper bout circuit selector forward. This routes only the neck pickup through its own dedicated volume and tone roller, with a fixed high-cut tone shaping designed for jazz comping. The pots in this circuit are different values: a 50k volume and 1 megohm tone in the original Fender wiring. The bass-heavy preset comes from the combination of the smaller volume pot and a fixed capacitor in the signal path.
+**Rhythm Circuit** (upper bout controls): activated by sliding the upper bout circuit selector forward. This routes only the neck pickup through its own dedicated volume and tone roller, with a fixed high-cut tone shaping designed for jazz comping. The pots in this circuit are linear taper mini pots: a 1 megohm volume and a 50k tone in the original Fender wiring. The bass-heavy preset comes from the combination of the smaller tone pot and a fixed capacitor in the signal path.
 
 <figure>
 
@@ -315,7 +315,7 @@ The Jaguar bridge is its most criticized component. Two thimble-mounted posts ho
 
 ### The Mute
 
-The hinged mute system was installed on all 1962 and most early to mid 1963 production. A foam pad mounted to a metal plate sat behind the bridge, dropped onto the strings via a thumb lever, and dampened sustain for a more upright-bass-like sound. Players removed the assembly almost immediately because it interfered with right hand technique. By 1964 the factory had stopped including the mute on most production, though the mounting holes for the mute plate continued on the bodies for a while longer. A factory original 1962 with the mute intact and the foam not crumbled adds collector value.
+The hinged mute is a foam pad mounted to a metal plate behind the bridge, dropped onto the strings via a thumb lever to dampen sustain for a more upright-bass-like sound. The Jazzmaster never had one, so it is also a quick visual separator between the two offsets. A factory original example with the mute intact and the foam not crumbled adds collector value.
 
 ### Buzz Stop and Mastery Bridge: The Common Modifications
 
@@ -347,9 +347,9 @@ Two pots from two different years on the same guitar means one of the following:
 
 <h2 id="neck-date-stamps">Neck Date Stamps</h2>
 
-Remove the neck (four bolts on the neck plate) and you will find the neck date on the heel. Pre-CBS necks usually have a penciled date written by the shaper, sometimes with initials. From the early 1960s into the late 1960s, the factory transitioned to an inked stamp format that encodes more information in a compact string. A typical Jaguar neck stamp from this era looks like **1FEB63B**, which decodes to:
+Remove the neck (four bolts on the neck plate) and you will find the neck date on the heel. On a Jaguar that date is a **rubber stamp**: the model launched in 1962, by which point Fender had moved to an inked stamp format that encodes more information in a compact string. A typical Jaguar neck stamp looks like **1FEB63B**, which decodes to:
 
-The neck date is the most defensible "manufactured date" for the guitar because it represents the actual carving and finishing of the neck. The body date (stamped in the neck pocket or under the pickguard) can be earlier or later because bodies sat in the warehouse before being matched to necks for assembly. The pot dates are downstream of both, since the potentiometer was made before the guitar was wired.
+The neck date is the most defensible "manufactured date" for the guitar because it represents the actual carving and finishing of the neck. The body date (stamped on the body in the tremolo cavity, or under the pickguard) can be earlier or later because bodies sat in the warehouse before being matched to necks for assembly. The pot dates are downstream of both, since the potentiometer was made before the guitar was wired.
 
 <figure>
 
@@ -458,7 +458,6 @@ Headstock color matching to the body was an option on many factory custom colors
 ### Refinish Detection
 
 -   Overspray in pickup routes, body cavities, or the neck pocket
--   Paint over the body date stamp instead of under it
 -   No Fullerplast yellow amber sealer layer visible at chips or in cavities on any 1963 or later guitar
 -   On 1962 to 1964 guitars, nail holes filled with paint or sanded smooth and refilled rather than left as clean unpainted holes
 -   Finish that fluoresces uniformly under black light rather than showing the mottled aging pattern of original nitrocellulose
@@ -498,7 +497,7 @@ Fender started reissuing the Jaguar in 1986 with the Japanese MIJ Jaguar series.
 -   Polyurethane finishes throughout, including under hardware
 -   Pickup base plates lack pencil dates and use modern, uniform construction
 -   Pot codes use modern manufacturers and date formats inconsistent with the 1960s system
--   Neck dates use modern stamp formats rather than the pencil or ink stamps of vintage production
+-   Neck dates use modern stamp formats rather than the inked stamps of vintage production
 
 ### Outright Counterfeits
 
@@ -510,7 +509,7 @@ Run this list every time before you make an offer on a vintage Jaguar.
 
 -   Confirm the neck date stamp matches the claimed build year and starts with the model code "1" for Jaguar
 -   Read the nut width code at the end of the neck stamp (B for 1 5/8" standard, A for narrow, C for wider, D for widest)
--   Confirm the body date stamp (under pickguard or in neck pocket) is consistent with the neck date
+-   Confirm the body date stamp (in the tremolo cavity or under the pickguard) is consistent with the neck date
 -   Read at least two pot codes and verify they fall within 8 weeks of the build date
 -   Verify the headstock logo style matches the era (gold transition for 1962 to mid 1968, CBS black for mid 1968 to 1975)
 -   Read the patent number block under magnification and confirm it matches the year
@@ -519,7 +518,7 @@ Run this list every time before you make an offer on a vintage Jaguar.
 -   Confirm the pickguard layer count and material match the era
 -   Inspect pickguard screw holes for matches to factory drill points
 -   Pull a pickup and verify the bottom color (black on 1962 to mid-1964, gray after)
--   Check pole piece profile: flat poles on 1962, transitional through 1963 to 1964, fully staggered from 1965 onward
+-   Check pole piece profile: flat poles on 1962, transitional through 1963 to 1964, fully staggered from 1965, and flush again from mid-1974
 -   Verify pickup base plate construction and date codes if present
 -   Pull the control plates and inspect for brass shielding tubs with original ground wires soldered in place
 -   Check finish chips and pickup cavities for the yellow amber Fullerplast sealer layer (1963 onward)
