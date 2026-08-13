@@ -82,38 +82,38 @@ const OG = `images/blog/${MUS}/1971-fender-mustang-competition-blue-front.jpg`;
 const yearRows: [string, string, string][] = [
   [
     "1964 to 1965",
-    "Launch. Small headstock, gold transition logo, and an Offset Contour Body line on the decal. Three standard colours only: Dakota Red, Daphne Blue and Olympic White, in nitrocellulose. The vibrato plate reads Pat. Pend.",
-    "A small headstock with a gold logo. Serials run L-series into the earliest F plates.",
+    "Launch. Small headstock, gold transition <a class='il' href='#headstock'>logo</a>, and an Offset Contour Body line on the decal. <a class='il' href='#guard'>Three standard colours</a> only: Dakota Red, Daphne Blue and Olympic White, in nitrocellulose. The vibrato plate reads <a class='il' href='#vibrato'>Pat. Pend.</a>",
+    "A small headstock with a gold logo. Serials run <a class='il' href='#serial'>L-series</a> into the earliest F plates.",
   ],
   [
     "Late 1965 to 1966",
-    "Fender enlarges the headstock, the same change that hit the Stratocaster on the same timeline. The logo is still the gold transition script and the vibrato still reads Pat. Pend.",
+    "Fender enlarges the <a class='il' href='#headstock'>headstock</a>, the same change that hit the Stratocaster on the same timeline. The logo is still the gold transition script and the vibrato still reads Pat. Pend.",
     "A large headstock still wearing a gold logo. That combination is a narrow window.",
   ],
   [
     "1967",
-    "The logo turns over to the bold black CBS script, the Offset Contour Body line comes off the decal, and the vibrato engraving changes from Pat. Pend. to a patent number.",
+    "The <a class='il' href='#headstock'>logo</a> turns over to the bold black CBS script, the Offset Contour Body line comes off the decal, and the <a class='il' href='#vibrato'>vibrato engraving</a> changes from Pat. Pend. to a patent number.",
     "Three separate changes land close together, which makes 1967 easier to catch than most years.",
   ],
   [
     "1968",
-    "The Competition finish package arrives with a diagonal racing stripe and a pearloid guard. On the earliest examples the stripe wraps around the body, and from late in the year it is on the front only.",
+    "The <a class='il' href='#competition'>Competition finish package</a> arrives with a diagonal racing stripe and a pearloid <a class='il' href='#guard'>guard</a>. On the earliest examples the stripe wraps around the body, and from late in the year it is on the front only.",
     "A stripe that continues around the edge of the body points at early 1968.",
   ],
   [
     "1969",
-    "Competition Red, Competition Blue and Competition Orange, with a matching painted headstock. Standard colours continue alongside.",
+    "Competition Red, Competition Blue and Competition Orange, with a matching <a class='il' href='#competition'>painted headstock</a>. Standard colours continue alongside.",
     "A headstock painted to match the body is an early Competition feature, not a late one.",
   ],
   [
     "1970 to 1971",
-    "The painted headstock gives way to a natural, unpainted maple face on Competition guitars. Stripes and the black logo continue.",
+    "The painted headstock gives way to a natural, unpainted maple face on <a class='il' href='#competition'>Competition guitars</a>. Stripes and the black logo continue.",
     "Competition finish plus a natural headstock puts you after the painted-headstock years.",
   ],
   [
     "1972 to 1973",
-    "The Competition option winds down and is gone by about 1973. Sunburst and the standard colours carry the model.",
-    "A sunburst Mustang with a pearloid guard is squarely in this stretch.",
+    "The <a class='il' href='#competition'>Competition option</a> winds down and is gone by about 1973. Sunburst and the standard colours carry the model.",
+    "A sunburst Mustang with a pearloid <a class='il' href='#guard'>guard</a> is squarely in this stretch.",
   ],
   [
     "1974 to 1982",
@@ -123,12 +123,12 @@ const yearRows: [string, string, string][] = [
 ];
 
 // Readable across a room or from a photograph. These give a WINDOW.
-const fastRows: [string, string, string][] = [
-  ["Headstock size and logo colour", "Small and gold is 1964 to 1965, large and gold is late 1965 to 1967, large and black is 1967 to 1968 onward", "Read the two together. Either one alone leaves you with several years."],
-  ["The Offset Contour Body line", "Present before about 1967, gone after", "A small line of text under the logo on the decal. Its absence dates the decal, not the guitar, so pair it with the logo."],
-  ["The vibrato engraving", "Pat. Pend. is about 1964 to 1966, a patent number is 1967 and later", "Engraved on the plate at the bridge. This part exists on no other vintage Fender."],
-  ["Pickguard colour against body colour", "Not a date. An originality check", "Tortoiseshell belongs on Olympic White, white pearloid on Dakota Red and Daphne Blue, pearloid on Competition. A mismatch means a swapped guard or a refinish."],
-  ["Competition stripe and headstock", "Wrap-around stripe is 1968, painted headstock runs to about 1969 or 1970, natural headstock after", "Two features that move independently, so together they narrow a Competition guitar to a couple of years."],
+const fastRows: [string, string, string, string][] = [
+  ["Headstock size and logo colour", "Small and gold is 1964 to 1965, large and gold is late 1965 to 1967, large and black is 1967 to 1968 onward", "Read the two together. Either one alone leaves you with several years.", "#headstock"],
+  ["The Offset Contour Body line", "Present before about 1967, gone after", "A small line of text under the logo on the decal. Its absence dates the decal, not the guitar, so pair it with the logo.", "#headstock"],
+  ["The vibrato engraving", "Pat. Pend. is about 1964 to 1966, a patent number is 1967 and later", "Engraved on the plate at the bridge. This part exists on no other vintage Fender.", "#vibrato"],
+  ["Pickguard colour against body colour", "Not a date. An originality check", "Tortoiseshell belongs on Olympic White, white pearloid on Dakota Red and Daphne Blue, pearloid on Competition. A mismatch means a swapped guard or a refinish.", "#guard"],
+  ["Competition stripe and headstock", "Wrap-around stripe is 1968, painted headstock runs to about 1969 or 1970, natural headstock after", "Two features that move independently, so together they narrow a Competition guitar to a couple of years.", "#competition"],
 ];
 
 // What the standard pre-CBS checklist gets wrong here.
@@ -298,6 +298,10 @@ const breadcrumbSchema = {
         <div class="trust">
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
         </div>
+        <div class="hubcta">
+          <p class="hubcta__t"><b>Just after the serial number?</b> The full charts and the lookup tool that decodes a number for you are on the main guide.</p>
+          <a class="hubcta__b" href={HUB_HREF}>Look Up A Serial Number</a>
+        </div>
         <figure class="sfig herofig">
           <LicensedImage src={bmeta(MUS, "1971-fender-mustang-competition-blue-front.jpg")} alt="Full front view of a 1971 Fender Competition Mustang in Competition Blue with a diagonal racing stripe and a pearloid pickguard" width={1400} loading="eager" />
           <figcaption>A Competition Mustang in Competition Blue. The stripe, the pearloid guard and the headstock finish together place a Competition guitar inside a couple of years.</figcaption>
@@ -313,9 +317,38 @@ const breadcrumbSchema = {
         <span class="eyebrow">Start Here</span>
         <h2>Read The Guitar In Three Passes</h2>
         <p>Work outside in. Each pass narrows the last, and the useful information is in whether they agree.</p>
-        <p><b>First pass, across the room.</b> Headstock size, logo colour, body colour and pickguard colour. Those four place most Mustangs inside a few years and tell you straight away whether the guard belongs to the finish.</p>
-        <p><b>Second pass, in your hands.</b> The engraving on the vibrato plate, the line of text under the logo, the fingerboard, the scale length, and the serial number on the neck plate. Take the serial as one vote among several rather than an answer.</p>
-        <p><b>Third pass, inside.</b> The neck heel date and the pot codes. These are the only places Fender wrote something close to a real date.</p>
+        <div class="passes">
+          <div class="pass">
+            <span class="pass__n">Pass One</span>
+            <h3>Across The Room</h3>
+            <p>Headstock size, logo colour, body colour and pickguard colour. Those four place most Mustangs inside a few years and tell you straight away whether the guard belongs to the finish.</p>
+            <div class="pass__go">
+              <a href="#headstock">Headstock and logo</a>
+              <a href="#guard">The pickguard pairing</a>
+              <a href="#competition">Competition finishes</a>
+            </div>
+          </div>
+          <div class="pass">
+            <span class="pass__n">Pass Two</span>
+            <h3>In Your Hands</h3>
+            <p>The engraving on the vibrato plate, the line of text under the logo, the fingerboard, the scale length, and the serial number on the neck plate. Take the serial as one vote among several rather than an answer.</p>
+            <div class="pass__go">
+              <a href="#vibrato">The vibrato engraving</a>
+              <a href="#board">The board</a>
+              <a href="#scale">The scale</a>
+              <a href="#serial">The serial number</a>
+            </div>
+          </div>
+          <div class="pass">
+            <span class="pass__n">Pass Three</span>
+            <h3>Inside The Guitar</h3>
+            <p>The neck heel date and the pot codes. These are the only places Fender wrote something close to a real date.</p>
+            <div class="pass__go">
+              <a href="#heel">The neck heel date</a>
+              <a href="/fender-pot-codes/">Pot codes</a>
+            </div>
+          </div>
+        </div>
         <p><b>The three passes should agree.</b> When they don't, the disagreement is the interesting part. On a Mustang it most often means a swapped pickguard, a replaced vibrato, or a neck from another guitar.</p>
       </div>
     </section>
@@ -359,7 +392,7 @@ const breadcrumbSchema = {
         <p>If you read nothing else on this page, read these five. Read them together rather than one at a time, because no single row narrows anything to a year and five overlapping rows usually do.</p>
         <div class="tablewrap"><table>
           <thead><tr><th>What to look at</th><th>What it tells you</th><th>How to read it</th></tr></thead>
-          <tbody>{fastRows.map((r) => (<tr><td data-label="What to look at"><b>{r[0]}</b></td><td data-label="What it tells you" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
+          <tbody>{fastRows.map((r) => (<tr><td data-label="What to look at"><a class="rowjump" href={r[3]}>{r[0]}</a></td><td data-label="What it tells you" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
         </table></div>
       </div>
     </section>
@@ -374,7 +407,7 @@ const breadcrumbSchema = {
         <p>Treat every boundary here as approximate. Fender used up parts already in the bins, so transitions overlap and a guitar built either side of a change can carry features from both.</p>
         <div class="tablewrap"><table>
           <thead><tr><th>Years</th><th>What changed</th><th>The fastest check</th></tr></thead>
-          <tbody>{yearRows.map((r) => (<tr><td data-label="Years" class="yr"><b>{r[0]}</b></td><td data-label="What changed">{r[1]}</td><td data-label="The fastest check">{r[2]}</td></tr>))}</tbody>
+          <tbody>{yearRows.map((r) => (<tr><td data-label="Years" class="yr"><b>{r[0]}</b></td><td data-label="What changed" set:html={r[1]}></td><td data-label="The fastest check" set:html={r[2]}></td></tr>))}</tbody>
         </table></div>
         <div class="figrow gallery">
           <figure class="sfig">
@@ -701,6 +734,37 @@ const breadcrumbSchema = {
   .fspot .trust span{display:inline-flex;align-items:center;gap:.45rem;}
   .fspot .trust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--rust);}
 
+  /* Straight-to-the-hub CTA in the hero, for readers who only want a serial number */
+  .fspot .hubcta{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem 1.1rem;justify-content:space-between;
+    background:var(--inset);border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:10px;
+    padding:.9rem 1.1rem;box-shadow:var(--shadow);}
+  .fspot .hubcta__t{font-size:.95rem;color:var(--muted);flex:1 1 20rem;}
+  .fspot .hubcta__t b{color:var(--ink-strong);}
+  .fspot .hubcta__b{flex:0 0 auto;font-family:var(--fd);font-weight:600;text-transform:uppercase;letter-spacing:.04em;
+    font-size:.85rem;color:#fff;background:var(--rust);text-decoration:none;padding:.6rem 1.1rem;border-radius:8px;white-space:nowrap;}
+  .fspot .hubcta__b:hover{background:var(--rust-bright);color:#fff;}
+
+  /* The three passes, as three cards rather than three paragraphs */
+  .fspot .passes{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
+  .fspot .pass{display:flex;flex-direction:column;gap:.5rem;background:var(--panel);border:1px solid var(--line);
+    border-top:4px solid var(--rust);border-radius:10px;padding:1rem 1.1rem 1.1rem;box-shadow:var(--shadow);}
+  .fspot .pass__n{font-family:var(--fm);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  .fspot .pass h3{margin-top:0;font-size:1.15rem;}
+  .fspot .pass p{font-size:.95rem;color:var(--muted);}
+  .fspot .pass__go{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:auto;padding-top:.5rem;}
+  .fspot .pass__go a{font-family:var(--fd);font-size:.78rem;font-weight:600;letter-spacing:.02em;color:var(--gold-deep);
+    text-decoration:none;background:var(--panel-2);border:1px solid var(--line);border-radius:999px;padding:.28rem .7rem;}
+  .fspot .pass__go a:hover{color:#fff;background:var(--rust);border-color:var(--rust);}
+
+  /* Row label in the fastest-checks table doubles as a jump link */
+  .fspot a.rowjump{font-weight:700;color:var(--ink-strong);text-decoration:none;border-bottom:1.5px dotted var(--gold);}
+  .fspot a.rowjump:hover{color:var(--rust);border-bottom-color:var(--rust);}
+
+  /* NOTE: the inline year-table links (a.il) are styled in the is:global block
+     BELOW, not here. They are injected with set:html, so they never receive the
+     data-astro-cid attribute a scoped rule requires and a scoped rule silently
+     does not match them. See CLAUDE.md, "Scoped vs. global CSS for widget HTML". */
+
   .fspot .secintro{font-size:.97rem;max-width:70ch;color:var(--ink);}
   .fspot .secintro b{color:var(--ink-strong);}
 
@@ -790,6 +854,18 @@ const breadcrumbSchema = {
   .fspot-toc-sheet__body{padding:8px 10px;}
   .fspot-toc-sheet__body .fspot-toc__list{font-size:14px;}
   .fspot-toc-sheet__body .fspot-toc__list a{padding:8px 6px;}
+</style>
+
+<!--
+  GLOBAL, and it has to be. The inline jump links in the year table are injected
+  with set:html, so Astro never stamps them with the data-astro-cid attribute
+  that a scoped rule compiles into its selector. A scoped rule here matches
+  nothing and fails silently: the links render, they just look like plain text.
+  Both selectors stay prefixed with .fspot so nothing leaks off this page.
+-->
+<style is:global>
+  .fspot a.il{color:var(--gold-deep,#8c6a24);text-decoration:none;border-bottom:1px dotted var(--gold,#c8983a);font-weight:600;}
+  .fspot a.il:hover{color:var(--rust,#a03a1e);border-bottom-color:var(--rust,#a03a1e);border-bottom-style:solid;}
 </style>
 
 <script is:inline>
