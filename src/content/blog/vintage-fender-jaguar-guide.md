@@ -458,7 +458,6 @@ Headstock color matching to the body was an option on many factory custom colors
 ### Refinish Detection
 
 -   Overspray in pickup routes, body cavities, or the neck pocket
--   Paint over the body date stamp instead of under it
 -   No Fullerplast yellow amber sealer layer visible at chips or in cavities on any 1963 or later guitar
 -   On 1962 to 1964 guitars, nail holes filled with paint or sanded smooth and refilled rather than left as clean unpainted holes
 -   Finish that fluoresces uniformly under black light rather than showing the mottled aging pattern of original nitrocellulose
