@@ -1,7 +1,7 @@
 ---
 title: "Fender Jaguar Authentication Guide 1962-1975: Year-by-Year Specs, Dating, and Value"
 pubDate: "2026-05-14T15:52:34"
-modified: "2026-05-14T15:52:34"
+modified: "2026-08-13T00:00:00"
 excerpt: "If you have inherited or are looking to sell a vintage Fender Jaguar, the details on this page are the same ones a serious buyer will use to value the guitar. Year-by-year specs from 1962 to 1975, pot codes, custom color verification, and the refinish tells that move valuations by thousands."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -276,9 +276,9 @@ Original black bottom pickups in a 1962 to mid-1964 Jaguar are a collector premi
 
 The Jaguar's switching is the most complex Fender designed in the 1960s. Two completely separate circuits run side by side, selected by a slide switch on the upper bout.
 
-**Lead Circuit** (lower bout controls): three slider switches near the bridge, plus volume and tone rollers on the lower bout chrome control plate. The first two sliders select neck and bridge pickups individually. The third slider activates the "strangle" capacitor, a 0.003 microfarad cap in series with the signal that aggressively rolls off the bass and pushes the tone into thin treble territory. Volume and tone in this circuit use 1 megohm potentiometers.
+**Lead Circuit** (lower bout controls): three slider switches near the bridge, plus volume and tone rollers on the lower bout chrome control plate. The first two sliders select neck and bridge pickups individually. The third slider activates the "strangle" capacitor, a 0.003 microfarad cap in series with the signal that aggressively rolls off the bass and pushes the tone into thin treble territory. Volume and tone in this circuit use 1 megohm potentiometers, a linear taper on the volume and an audio taper on the tone.
 
-**Rhythm Circuit** (upper bout controls): activated by sliding the upper bout circuit selector forward. This routes only the neck pickup through its own dedicated volume and tone roller, with a fixed high-cut tone shaping designed for jazz comping. The pots in this circuit are different values: a 50k volume and 1 megohm tone in the original Fender wiring. The bass-heavy preset comes from the combination of the smaller volume pot and a fixed capacitor in the signal path.
+**Rhythm Circuit** (upper bout controls): activated by sliding the upper bout circuit selector forward. This routes only the neck pickup through its own dedicated volume and tone roller, with a fixed high-cut tone shaping designed for jazz comping. The pots in this circuit are linear taper mini pots: a 1 megohm volume and a 50k tone in the original Fender wiring. The bass-heavy preset comes from the combination of the smaller tone pot and a fixed capacitor in the signal path.
 
 <figure>
 
