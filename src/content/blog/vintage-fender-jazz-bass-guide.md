@@ -1,7 +1,7 @@
 ---
 title: "Fender Jazz Bass Guide 1960-1975: Year-by-Year Specs, Dating, and Value"
 pubDate: "2026-08-10T09:00:00"
-modified: "2026-08-10T09:00:00"
+modified: "2026-08-13T00:00:00"
 excerpt: "The stack knob years, the bound-dot window, and the 1970s bridge pickup move. Every dating change on the vintage Fender Jazz Bass from the 1960 launch to 1975, and why the headstock logo will not tell you whether yours is pre-CBS."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -213,7 +213,7 @@ The number stamped in the neck plate gets you a rough production year and nothin
 
 ![The neck plate of a 1973 Fender Jazz Bass showing the stamped serial number on chrome.](../../assets/blog/vintage-fender-jazz-bass-guide/1973-fender-jazz-bass-sunburst-neck-plate-scaled.jpg)
 
-<figcaption><strong>The neck plate on a 1973.</strong> Read the plate as one vote among several. The style of plate tells you more than the digits do, and it is four screws away from being somebody else's.</figcaption>
+<figcaption><strong>The neck plate on a 1973.</strong> Read the plate as one vote among several. The style of the plate and the digits stamped in it should agree with each other, and either way it is four screws away from being somebody else's.</figcaption>
 
 </figure>
 
