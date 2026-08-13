@@ -62,7 +62,7 @@ Body dimensions remained essentially constant throughout 1958 to 1971. The body 
 
 ### Standard Finish
 
-The standard production finish throughout the entire run was **3-color sunburst**, yellow center transitioning to orange then dark brown/black at the edges. The sunburst always received a white pickguard (see Section 04). Custom colors were available at an additional charge of 5% over list price; these are covered in detail in Section 05.
+The standard production finish throughout the entire run was **3-color sunburst**, yellow center transitioning to orange then dark brown/black at the edges. The sunburst received the gold anodized aluminum guard on the earliest examples and the tortoiseshell guard from mid-1959 onward; the white guard is the custom color pairing, not the sunburst one (see Section 04). Custom colors were available at an additional charge of 5% over list price; these are covered in detail in Section 05.
 
 The finish medium was **nitrocellulose lacquer** throughout the pre-CBS era. CBS-era guitars transitioned to **polyester finish** starting approximately 1967 to 1968. Poly finishes are thicker, more resistant to checking, and have a distinctly different aging character than nitro, a meaningful dating and authenticity indicator.
 
@@ -87,21 +87,21 @@ The Jazzmaster's electronics are its most complex feature, and the one most like
 
 ### Knob Evolution
 
--   1958 to mid 1965**Stratocaster-style knobs**, the standard white dome knobs used across the Fender line, with a flat top and chrome-tipped set screw. Used on the lead circuit volume and tone controls.
--   Mid 1965 onward**"Witch hat" knobs**, a distinctive Jazzmaster-specific knob style: white plastic with a chrome domed top, taller and thinner than the Strat-style dome knob. Introduced mid-1965 and immediately identifiable as a CBS-era indicator. The name comes from their silhouette resemblance to a witch's hat.
+-   1958 to mid 1965**Stratocaster-style knobs**, the same white skirted plastic knobs a Stratocaster of the era wore, numbered 1 to 10 around the skirt. Used on the lead circuit volume and tone controls. Fender's own term "dome knob" belongs to the knurled metal knobs on Telecasters, Esquires and Precision Basses, not to anything a Jazzmaster ever wore.
+-   Mid 1965 onward**"Witch hat" knobs**, a distinctive Jazzmaster-specific knob style: white plastic with a chrome domed top, taller and thinner than the skirted Strat-style knob. Introduced mid-1965 and immediately identifiable as a CBS-era indicator. The name comes from their silhouette resemblance to a witch's hat.
 -   Rhythm rollersThe tone and volume roller wheels on the upper bout remained **consistent throughout production**, a chrome-edged roller design unchanged from 1958 to 1971.
 
 <figure>
 
-![1959 Fender Jazzmaster Stratocaster-style white skirted dome knob, original pre-CBS lead circuit knob used 1958 through mid-1965 on Fender Jazzmaster](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-white-skirted-knob-scaled.jpg)
+![1959 Fender Jazzmaster Stratocaster-style white skirted knob, original pre-CBS lead circuit knob used 1958 through mid-1965 on Fender Jazzmaster](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-white-skirted-knob-scaled.jpg)
 
-<figcaption><strong>Strat-style skirted dome knob (1958 to mid 1965).</strong> The white dome knob with flat top and set screw was the original Jazzmaster lead circuit knob, shared with the Stratocaster and Telecaster of the era. Present on all pre-CBS Jazzmasters and early CBS examples through mid-1965.</figcaption>
+<figcaption><strong>Strat-style skirted knob (1958 to mid 1965).</strong> The white skirted plastic knob, numbered 1 to 10 around the skirt, was the original Jazzmaster lead circuit knob, the same part a Stratocaster of the era wore. Present on all pre-CBS Jazzmasters and early CBS examples through mid-1965.</figcaption>
 
 </figure>
 
 <figure>
 
-![Fender Jazzmaster witch hat knobs close-up, white plastic with chrome domed top, CBS era indicator introduced mid-1965 replacing Strat-style dome knobs](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/jazzmaster-witch-hat-knobs.jpg)
+![Fender Jazzmaster witch hat knobs close-up, white plastic with chrome domed top, CBS era indicator introduced mid-1965 replacing the skirted Strat-style knobs](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/jazzmaster-witch-hat-knobs.jpg)
 
 <figcaption><strong>Witch hat knobs (mid 1965 to 1971).</strong> Taller, narrower white plastic with a chrome domed top, a Jazzmaster-specific design introduced mid-1965. Their arrival is one of the clearest CBS-era markers on the instrument. Any Jazzmaster with witch hat knobs was built after mid-1965.</figcaption>
 
