@@ -1,0 +1,890 @@
+---
+/**
+ * Fender Mustang dating guide. SEVENTH OF THE MODEL-AXIS SPOKES.
+ *
+ * Sibling of the Stratocaster, Telecaster, Jazzmaster, Jaguar, Jazz Bass and
+ * Precision Bass dating guides. Built on joe/mustang-dating-spoke, stacked on
+ * joe/precision-bass-dating-spoke.
+ *
+ * WHAT MAKES THE MUSTANG PAGE DIFFERENT. Do not clone the other six:
+ *   - THE MUSTANG ARRIVED IN 1964, AFTER MOST OF THE TELLS. Slab boards ended
+ *     mid-1962, the spaghetti logo era had closed, and clay dots were nearly
+ *     out. So the standard pre-CBS checklist a reader brings from a Strat or a
+ *     Tele mostly does not apply here, and several of its items are red flags
+ *     rather than dates. That absence is the page's spine and it comes right
+ *     after the three passes.
+ *   - WHAT DATES IT INSTEAD IS MUSTANG-ONLY HARDWARE. The Dynamic Vibrato was
+ *     built for this model and appears on no other vintage Fender, and the word
+ *     engraved on it ("Pat. Pend." versus a patent number) splits 1964-66 from
+ *     1967 on. No other model page can use a part that exists nowhere else.
+ *   - THE COMPETITION FINISHES ARE A SECOND, PARALLEL DATING AXIS, in four
+ *     steps (wrap-around stripes, matching painted headstock, front-only
+ *     stripes plus natural headstock, then gone). No sibling page has a
+ *     sub-series that dates itself.
+ *   - THE PICKGUARD COLOUR IS PAIRED TO THE BODY COLOUR, which makes guard
+ *     versus finish an originality check rather than a date. Jazzmaster
+ *     territory in spirit, but the pairing rule itself is Mustang-specific.
+ *
+ * CONTRAST WITH THE JAGUAR, STATED BRIEFLY AND NOT EXPANDED: on a Jaguar the
+ * logo does not date the guitar. On a Mustang it does, in two steps. The Jaguar
+ * page owns the logo-trap framing; this page states the inversion in one line
+ * and cross-references, the same way the Jazz Bass page does.
+ *
+ * JOE'S REVIEW RULES, carried over from the six sibling pages:
+ *   - Features give a WINDOW. Only the neck heel date and the body date give a
+ *     month.
+ *   - The serial belongs in the second pass, read as one vote among several.
+ *   - Never call a feature "model-specific" without checking it.
+ *   - Never say "bare wood" about a body date.
+ *   - Keep a photo caption on the one thing the photo is for.
+ *
+ * FACT SOURCING. Every dated claim traces to the Mustang fact set added to
+ * joes-vintage-databases as VG-0147 to VG-0161. Numbered from 0147 because main
+ * is at VG-0117 and the open PRs already claim 0113-0114 (#1/#2, an unresolved
+ * collision), 0118-0130 (#4, Jazz Bass) and 0131-0146 (#5, Precision Bass).
+ * Before this set there were ZERO Mustang entries in the registry.
+ *
+ * COMPETITION STRIPE, RESOLVED BY JOE 2026-08-13. The live Mustang guide used
+ * to date the change two ways, its year table putting front-only stripes at
+ * 1970 to 1971 while its Competition section said from late 1968. Joe's
+ * ruling: the design changed from wrapping all the way around the body to
+ * appearing on the front only STARTING IN LATE 1968 THROUGH MID-1969, so it is
+ * a window rather than a single date and 1970 to 1971 is too late. Both this
+ * page and the live guide now say that. Do not re-tighten it to a single year.
+ *
+ * NO YEAR-TO-SERIAL-NUMBER TABLE, same as the six sibling pages. The Mustang
+ * guide itself carries an F-plate range table; that belongs to the hub, where
+ * the charts live once, and VG-0066..0068 are KEEP FLAGGED on numeric ranges.
+ *
+ * VOICE. Written against the 2026-08-11 VOICE_GUIDE additions: No Self-Ranked
+ * Importance (no sentence whose only job is to say something matters, no
+ * "worth knowing" preambles, no "the single most X") and Do Not Repeat A
+ * Section Template (every heading names its own content; none repeats).
+ */
+import Layout from "../layouts/Layout.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
+import { contact, hrefs, SITE_URL } from "../config/site";
+
+const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
+const bmeta = (slug: string, file: string) => resolveImage(`images/blog/${slug}/${file}`)!;
+
+const MUS = "fender-mustang-history-value";
+
+const PAGE_PATH = "/fender-mustang-dating-guide/";
+const HUB_PATH = "/fender-guitars-serial-number-guide/";
+const HUB_HREF = HUB_PATH;
+const OG = `images/blog/${MUS}/1971-fender-mustang-competition-blue-front.jpg`;
+
+// ---- Data ----
+// The whole run. Boundaries are approximate: Fender emptied parts bins.
+const yearRows: [string, string, string][] = [
+  [
+    "1964 to 1965",
+    "Launch. Small headstock, gold transition <a class='il' href='#headstock'>logo</a>, and an Offset Contour Body line on the decal. <a class='il' href='#guard'>Three standard colours</a> only: Dakota Red, Daphne Blue and Olympic White, in nitrocellulose. The vibrato plate reads <a class='il' href='#vibrato'>Pat. Pend.</a>",
+    "A small headstock with a gold logo. Serials run <a class='il' href='#serial'>L-series</a> into the earliest F plates.",
+  ],
+  [
+    "Late 1965 to 1966",
+    "Fender enlarges the <a class='il' href='#headstock'>headstock</a>, the same change that hit the Stratocaster on the same timeline. The logo is still the gold transition script and the vibrato still reads Pat. Pend.",
+    "A large headstock still wearing a gold logo. That combination is a narrow window.",
+  ],
+  [
+    "1967",
+    "The <a class='il' href='#headstock'>logo</a> turns over to the bold black CBS script, the Offset Contour Body line comes off the decal, and the <a class='il' href='#vibrato'>vibrato engraving</a> changes from Pat. Pend. to a patent number.",
+    "Three separate changes land close together, which makes 1967 easier to catch than most years.",
+  ],
+  [
+    "1968",
+    "The <a class='il' href='#competition'>Competition finish package</a> arrives with a diagonal racing stripe and a pearloid <a class='il' href='#guard'>guard</a>. On the earliest examples the stripe wraps around the body, and the change to a front-only stripe runs from late this year through mid-1969.",
+    "A stripe that continues around the edge of the body points at early 1968.",
+  ],
+  [
+    "1969",
+    "Competition Red, Competition Blue and Competition Orange, with a matching <a class='il' href='#competition'>painted headstock</a>. Standard colours continue alongside.",
+    "A headstock painted to match the body is an early Competition feature, not a late one.",
+  ],
+  [
+    "1970 to 1971",
+    "The painted headstock gives way to a natural, unpainted maple face on <a class='il' href='#competition'>Competition guitars</a>. Stripes and the black logo continue.",
+    "Competition finish plus a natural headstock puts you after the painted-headstock years.",
+  ],
+  [
+    "1972 to 1973",
+    "The <a class='il' href='#competition'>Competition option</a> winds down and is gone by about 1973. Sunburst and the standard colours carry the model.",
+    "A sunburst Mustang with a pearloid <a class='il' href='#guard'>guard</a> is squarely in this stretch.",
+  ],
+  [
+    "1974 to 1982",
+    "The final run. Plainer specifications and thicker finishes, in sunburst, natural and the standard colours.",
+    "These are the lowest-valued vintage Mustangs, and the easiest to buy honestly.",
+  ],
+];
+
+// Readable across a room or from a photograph. These give a WINDOW.
+const fastRows: [string, string, string, string][] = [
+  ["Headstock size and logo colour", "Small and gold is 1964 to 1965, large and gold is late 1965 to 1967, large and black is 1967 to 1968 onward", "Read the two together. Either one alone leaves you with several years.", "#headstock"],
+  ["The Offset Contour Body line", "Present before about 1967, gone after", "A small line of text under the logo on the decal. Its absence dates the decal, not the guitar, so pair it with the logo.", "#headstock"],
+  ["The vibrato engraving", "Pat. Pend. is about 1964 to 1966, a patent number is 1967 and later", "Engraved on the plate at the bridge. This part exists on no other vintage Fender.", "#vibrato"],
+  ["Pickguard colour against body colour", "Not a date. An originality check", "Tortoiseshell belongs on Olympic White, white pearloid on Dakota Red and Daphne Blue, pearloid on Competition. A mismatch means a swapped guard or a refinish.", "#guard"],
+  ["Competition stripe and headstock", "Wrap-around stripe is the earliest 1968 build, front only from late 1968 through mid-1969, painted headstock runs to about 1969 or 1970, natural headstock after", "Two features that move independently, so together they narrow a Competition guitar to a couple of years.", "#competition"],
+];
+
+// What the standard pre-CBS checklist gets wrong here.
+const tooLateRows: [string, string][] = [
+  [
+    "A slab fingerboard",
+    "Fender moved from the flat slab board to the curved veneer board in mid-1962, two years before the Mustang existed. Every vintage Mustang board is the veneer type, so a slab board means the neck came off something else.",
+  ],
+  [
+    "A spaghetti logo",
+    "That era had closed by the launch. The Mustang wore the gold transition logo from day one and the bold black script from about 1967. A spaghetti logo on a Mustang is wrong for the model.",
+  ],
+  [
+    "Clay dots",
+    "Pearloid dots are correct on effectively every Mustang. Clay is a possibility only on the very earliest 1964 examples, which makes it a narrow claim rather than a general pre-CBS tell.",
+  ],
+  [
+    "The custom colour chart",
+    "The Mustang was a student model with three standard colours: Dakota Red, Daphne Blue and Olympic White. The wider Fender custom colour list does not apply, and the Competition finishes are their own package rather than custom colours.",
+  ],
+];
+
+const competitionRows: [string, string, string][] = [
+  ["The stripe", "Wraps around the body on the earliest 1968 examples, changing to front only across late 1968 through mid-1969", "Check the edge of the body, not the face."],
+  ["The headstock", "Painted to match from the introduction into about 1969 or 1970, natural afterwards", "The painted one is the early one, which catches people out."],
+  ["The colours", "Competition Red, Competition Blue and Competition Orange", "Fender's catalogue called the blue one Competition Burgundy. The guitars are blue, so that is a catalogue label rather than a fourth colour."],
+  ["The guard", "Pearloid throughout the Competition run", "A tortoiseshell guard on a Competition body is a swap."],
+];
+
+const reissueRows: [string, string][] = [
+  [
+    "Japanese reissues, from 1990",
+    "Modelled on the 1969 Competition look and built in 24 inch scale only, with names like MG-69 and MG-73. The neck or serial carries Made in Japan or Crafted in Japan, and the pots and serial format are modern.",
+  ],
+  [
+    "Kurt Cobain Signature Mustang, 2012",
+    "An alder body, an angled single coil at the neck and a Seymour Duncan humbucker direct-mounted at the bridge, an Adjusto-Matic bridge over the Dynamic Vibrato, and Cobain's journal art on the neck plate, usually in Fiesta Red.",
+  ],
+  [
+    "Jag-Stang",
+    "Cobain's early-1990s hybrid of the Jaguar and the Mustang, reissued since. A basswood body, a Jaguar-ish outline, a single coil at the neck and a humbucker at the bridge. A separate model rather than a Mustang.",
+  ],
+  [
+    "Modern American and Mexican lines",
+    "American Performer, Player and Player II, and Vintera. Modern fingerboard radii, updated switching and current serial formats set all of them apart at a glance.",
+  ],
+];
+
+const tocItems: [string, string][] = [
+  ["#start", "Start Here"],
+  ["#toolate", "Born After The Tells"],
+  ["#fast", "The Five Fastest Checks"],
+  ["#years", "Mustang Year By Year"],
+  ["#headstock", "The Headstock And The Logo"],
+  ["#vibrato", "The Dynamic Vibrato"],
+  ["#guard", "Guard Against Finish"],
+  ["#competition", "The Competition Finishes"],
+  ["#scale", "Two Scales And A Nut Code"],
+  ["#board", "The Board And The Dots"],
+  ["#switches", "The Slide Switches"],
+  ["#heel", "The Neck Heel Date"],
+  ["#serial", "What The Serial Number Adds"],
+  ["#reissue", "Vintage Or Reissue"],
+  ["#limits", "What Features Can't Prove"],
+  ["#cross", "Confirm It From The Inside"],
+  ["#faq", "Common Questions"],
+  ["#appraisal", "Free Expert Appraisal"],
+  ["#about-joe", "About Joe"],
+];
+
+const faqs = [
+  {
+    q: "What Year Is My Fender Mustang?",
+    a: "Start at the headstock and the bridge together. A small headstock with a gold transition logo is 1964 or 1965. A large headstock still wearing that gold logo is late 1965 to 1967. A large headstock with the bold black logo is 1967 or 1968 onward. Then read the vibrato plate: Pat. Pend. is roughly 1964 to 1966 and a patent number is 1967 and later. Those two checks together usually get you inside a couple of years, and the neck heel date and the pot codes close it from there.",
+  },
+  {
+    q: "Why Doesn't My Mustang Have A Slab Fingerboard?",
+    a: "Because it never should. Fender moved from the flat slab board to the curved veneer board in the middle of 1962, and the Mustang did not arrive until 1964, so a slab board was never a factory configuration on this model. Every vintage Mustang has the veneer board, which is curved on its underside where it meets the maple. If a Mustang in front of you genuinely has a slab board, the likeliest explanation is that the neck came from a different guitar.",
+  },
+  {
+    q: "Is A Painted Headstock On A Competition Mustang Original?",
+    a: "It can be, and on an early one it should be. The matching painted headstock ran from the introduction of the Competition finish into about 1969 or 1970, after which a natural, unpainted maple face became standard. So a painted headstock points at the early Competition years and a natural one points later. People often assume the painted headstock is the later, fancier option and it runs the other way, which is also why a 1969 with its original painted headstock sits above a later natural-headstock guitar on value.",
+  },
+  {
+    q: "What Is A Competition Mustang Worth Compared To A Standard One?",
+    a: "Quite a lot more, and the finish is the reason. In honest all-original condition a Competition guitar from 1969 to 1973 runs roughly $4,500 to $9,000, against roughly $2,200 to $3,800 for a CBS-era standard colour and $2,800 to $5,000 for a pre-CBS 1964 or 1965. Competition Orange is the rarest of the three colours and can run above that, and Competition Blue carries extra weight from the Nirvana association. Because the buyer is paying for the finish, a refinished Competition guitar loses most of the premium, which is a bigger gap than a refinish costs on a plain Mustang.",
+  },
+  {
+    q: "Did Fender Make A Competition Burgundy Mustang?",
+    a: "Not really. Fender's own catalogue listed the blue Competition finish as Competition Burgundy, but the guitars themselves are blue rather than burgundy. Treat it as a catalogue label attached to the blue one, not as a fourth colour to hunt for. The three Competition finishes are red, blue and orange.",
+  },
+  {
+    q: "My Mustang Sounds Thin And Hollow On One Setting. Is Something Broken?",
+    a: "Probably not. Each of the two slide switches has an on position, an off position in the middle, and a second on position that flips that pickup's phase. Throw the two switches in opposite directions and the pickups run out of phase with each other, which produces a thin, nasal honk by design. Put both switches the same way for the full sound, or centre one of them to run a single pickup. What is not stock is a series or humbucking mode, so a Mustang that does that has been rewired.",
+  },
+  {
+    q: "How Do I Tell A Vintage Mustang From A Japanese Reissue?",
+    a: "Look for a country-of-origin marking first. Fender's Japanese factory reissued the Mustang from around 1990, modelled on the 1969 Competition look, and those carry Made in Japan or Crafted in Japan on the neck or the serial, along with a modern serial format and modern pots. A vintage American guitar has a plain stamped serial on an F neck plate or an L-series plate and no country marking. The reissues were also built in 24 inch scale only, so a 22.5 inch short scale points at a vintage guitar. The price gap between the two is large enough to be worth the two minutes.",
+  },
+  {
+    q: "Should I Take My Mustang Apart To Date It?",
+    a: "Only as far as you need to. Everything in the first two passes reads with the guitar assembled, which is deliberate. The neck heel date and the pot codes are worth going after if the outside checks leave you between two years. Two cautions on this model: the vibrato is under spring tension, so do not unbolt it casually, and sixty-year-old celluloid guards crack at the screw ears. Send me photos before you reach for a screwdriver.",
+  },
+];
+
+// ---- Schema ----
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "How To Date A Fender Mustang, Year By Year",
+  description:
+    "Date a vintage Fender Mustang from what you can see: headstock size, logo colour, the Dynamic Vibrato engraving, the pickguard pairing and the Competition finishes, 1964 to 1982.",
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+  image: `${SITE_URL}${assetSrc(OG)}`,
+  datePublished: "2026-08-11",
+  dateModified: "2026-08-11",
+  inLanguage: "en-US",
+  mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
+  isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+    { "@type": "ListItem", position: 2, name: "Fender Serial Number Guide", item: `${SITE_URL}${HUB_PATH}` },
+    { "@type": "ListItem", position: 3, name: "Mustang Dating Guide", item: `${SITE_URL}${PAGE_PATH}` },
+  ],
+};
+---
+
+<Layout
+  title="How To Date A Fender Mustang: Year By Year Guide"
+  description="Date a vintage Fender Mustang from what you can see: headstock size, logo colour, the Dynamic Vibrato engraving, the pickguard pairing, and the Competition finishes, 1964 to 1982."
+  canonical={PAGE_PATH}
+  ogImage={`${SITE_URL}${assetSrc(OG)}`}
+  {...ogCardSize(OG)}
+  ogImageAlt="A 1971 Fender Competition Mustang in Competition Blue with a racing stripe and a pearloid pickguard"
+  ogType="article"
+  noIndex={false}
+  structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
+>
+  <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
+  <div class="fspot-header-backdrop" aria-hidden="true">
+    <div class="fspot-header-backdrop__dark"></div>
+    <div class="fspot-header-backdrop__cream"></div>
+  </div>
+
+  <div class="fspot">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="measure stack">
+        <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
+        <span class="eyebrow">Fender Dating By Model</span>
+        <h1>How To Date A Fender Mustang</h1>
+        <p class="lead">The Mustang landed in 1964, which is late enough that most of the checks people bring from a Stratocaster or a Telecaster do not apply to it. Slab boards were two years gone, the spaghetti logo era had closed, and clay dots were nearly out. What dates a Mustang instead is a set of parts that exist on no other Fender, plus a colour rule that tells you in one glance whether the pickguard belongs to the body. Here is the whole run, from the 1964 launch to the end in 1982.</p>
+        <div class="trust">
+          <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
+        </div>
+        <div class="hubcta">
+          <p class="hubcta__t"><b>Just after the serial number?</b> The full charts and the lookup tool that decodes a number for you are on the main guide.</p>
+          <a class="hubcta__b" href={HUB_HREF}>Look Up A Serial Number</a>
+        </div>
+        <figure class="sfig herofig">
+          <LicensedImage src={bmeta(MUS, "1971-fender-mustang-competition-blue-front.jpg")} alt="Full front view of a 1971 Fender Competition Mustang in Competition Blue with a diagonal racing stripe and a pearloid pickguard" width={1400} loading="eager" />
+          <figcaption>A Competition Mustang in Competition Blue. The stripe, the pearloid guard and the headstock finish together place a Competition guitar inside a couple of years.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- START HERE -->
+    <section id="start">
+      <div class="measure stack">
+        <span class="eyebrow">Start Here</span>
+        <h2>Read The Guitar In Three Passes</h2>
+        <p>Work outside in. Each pass narrows the last, and the useful information is in whether they agree.</p>
+        <div class="passes">
+          <div class="pass">
+            <span class="pass__n">Pass One</span>
+            <h3>Across The Room</h3>
+            <p>Headstock size, logo colour, body colour and pickguard colour. Those four place most Mustangs inside a few years and tell you straight away whether the guard belongs to the finish.</p>
+            <div class="pass__go">
+              <a href="#headstock">Headstock and logo</a>
+              <a href="#guard">The pickguard pairing</a>
+              <a href="#competition">Competition finishes</a>
+            </div>
+          </div>
+          <div class="pass">
+            <span class="pass__n">Pass Two</span>
+            <h3>In Your Hands</h3>
+            <p>The engraving on the vibrato plate, the line of text under the logo, the fingerboard, the scale length, and the serial number on the neck plate. Take the serial as one vote among several rather than an answer.</p>
+            <div class="pass__go">
+              <a href="#vibrato">The vibrato engraving</a>
+              <a href="#board">The board</a>
+              <a href="#scale">The scale</a>
+              <a href="#serial">The serial number</a>
+            </div>
+          </div>
+          <div class="pass">
+            <span class="pass__n">Pass Three</span>
+            <h3>Inside The Guitar</h3>
+            <p>The neck heel date and the pot codes. These are the only places Fender wrote something close to a real date.</p>
+            <div class="pass__go">
+              <a href="#heel">The neck heel date</a>
+              <a href="/fender-pot-codes/">Pot codes</a>
+            </div>
+          </div>
+        </div>
+        <p><b>The three passes should agree.</b> When they don't, the disagreement is the interesting part. On a Mustang it most often means a swapped pickguard, a replaced vibrato, or a neck from another guitar.</p>
+      </div>
+    </section>
+
+    <!-- SAFETY -->
+    <section class="pt0" aria-label="Safety warning">
+      <div class="measure">
+        <div class="warnbox" role="note">
+          <span class="warnbox__head"><svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>Read This First</span>
+          <p>Both of the first two passes read with the guitar assembled. Two cautions on this model if you do go further: the Dynamic Vibrato is a sprung assembly under tension, so it is not something to unbolt casually, and sixty-year-old celluloid guards crack at the screw ears. If the outside checks leave you stuck between two years, contact me before you take anything apart.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- THE HOOK: BORN AFTER THE TELLS -->
+    <section id="toolate">
+      <div class="measure stack">
+        <span class="eyebrow">The Mustang Difference</span>
+        <h2>Born After The Tells</h2>
+        <p>Most Fender dating knowledge is built on transitions that happened between 1954 and 1963. The Mustang arrived in 1964, after nearly all of them, so a checklist that works on a Stratocaster will send you wrong here. Four items in particular either never applied to this model or applied for a matter of months.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>What people look for</th><th>Why it does not work on a Mustang</th></tr></thead>
+          <tbody>{tooLateRows.map((r) => (<tr><td data-label="What people look for"><b>{r[0]}</b></td><td data-label="Why it does not work on a Mustang">{r[1]}</td></tr>))}</tbody>
+        </table></div>
+        <p>What fills the gap is hardware that belongs to this model alone. The Dynamic Vibrato was designed for the Mustang and fitted to no other vintage Fender, and the word engraved on its plate splits the run in two. Alongside it, Fender paired each pickguard colour to a body colour, which turns the guard into a fast originality check.</p>
+        <div class="tip">
+          <p><b>The logo does date a Mustang, which is not true everywhere.</b> On a <a class="spoke" href="/fender-jaguar-dating-guide/">Jaguar</a> a single decal ran from 1962 to about mid-1968 and tells you almost nothing about the year. The Mustang logo changes once, from the gold transition script to the bold black CBS script around 1967, and the headstock changes size in late 1965, so the two together are the first thing to read here.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- FIVE FASTEST -->
+    <section id="fast">
+      <div class="measure stack">
+        <span class="eyebrow">The Short Version</span>
+        <h2>The Five Fastest Checks</h2>
+        <p>If you read nothing else on this page, read these five. Read them together rather than one at a time, because no single row narrows anything to a year and five overlapping rows usually do.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>What to look at</th><th>What it tells you</th><th>How to read it</th></tr></thead>
+          <tbody>{fastRows.map((r) => (<tr><td data-label="What to look at"><a class="rowjump" href={r[3]}>{r[0]}</a></td><td data-label="What it tells you" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- YEAR BY YEAR -->
+    <section id="years">
+      <div class="measure stack">
+        <span class="eyebrow">The Whole Timeline</span>
+        <h2>Mustang Year By Year, 1964 To 1982</h2>
+        <p>Treat every boundary here as approximate. Fender used up parts already in the bins, so transitions overlap and a guitar built either side of a change can carry features from both.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Years</th><th>What changed</th><th>The fastest check</th></tr></thead>
+          <tbody>{yearRows.map((r) => (<tr><td data-label="Years" class="yr"><b>{r[0]}</b></td><td data-label="What changed" set:html={r[1]}></td><td data-label="The fastest check" set:html={r[2]}></td></tr>))}</tbody>
+        </table></div>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(MUS, "1972-fender-mustang-sunburst-pearloid-pickguard.jpg")} alt="Front of a 1972 Fender Mustang in three-colour sunburst with a pearloid pickguard and the Dynamic Vibrato" width={1400} />
+            <figcaption>A 1972 in three-colour sunburst. By the early 1970s the model had settled into its final form, and honest examples like this are the affordable way into a real vintage Fender.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- HEADSTOCK -->
+    <section id="headstock">
+      <div class="measure stack">
+        <span class="eyebrow">First Thing To Read</span>
+        <h2>The Headstock And The Logo</h2>
+        <p>Two independent changes happen up here about eighteen months apart, which is what makes the headstock the place to start. Fender enlarged the headstock in late 1965, the same change that hit the Stratocaster on the same timeline. The gold transition logo then gave way to the bold black CBS script around 1967 into 1968.</p>
+        <p>Because the two moved separately, the combination narrows things further than either alone. A small headstock with a gold logo is 1964 or 1965. A large headstock still wearing a gold logo is the late 1965 to 1967 window. A large headstock with a black logo is 1967 or 1968 onward.</p>
+        <div class="figrow">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(MUS, "vintage-fender-mustang-transition-logo-headstock.jpg")} alt="Headstock of a vintage Fender Mustang showing the gold transition Fender logo above the Mustang model name on a maple face" width={700} />
+            <figcaption>The gold transition logo, with the model name beneath it.</figcaption>
+          </figure>
+          <figure class="sfig">
+            <LicensedImage src={bmeta(MUS, "1971-fender-mustang-cbs-headstock-logo.jpg")} alt="Headstock of a 1971 Fender Mustang showing the large CBS-era headstock with the bold black Fender logo and Mustang model name" width={700} />
+            <figcaption>The larger CBS headstock on a 1971, wearing the bold black logo over a natural maple face.</figcaption>
+          </figure>
+        </div>
+        <p><b>The Offset Contour Body line.</b> On the earliest examples the decal also carries a small Offset Contour Body line and a block of patent numbers under the logo. Fender dropped that line around 1967. It is a clean pre-1967 versus post-1967 check that costs nothing to make, with one caveat: a decal can be replaced, so it dates the decal and belongs alongside the logo rather than instead of it. The <a class="spoke" href="/fender-physical-features/">parts view across every Fender model</a> covers the logo styles and the headstock patent numbers in full.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- VIBRATO -->
+    <section id="vibrato">
+      <div class="measure stack">
+        <span class="eyebrow">A Part No Other Fender Has</span>
+        <h2>The Dynamic Vibrato</h2>
+        <p>Fender built the Dynamic Vibrato for the Mustang and fitted it to no other vintage model. It is a floating unit: the tailpiece is sprung and the bridge rocks on the same baseplate, so the bridge travels with the strings when you use the arm. The theory was truer intonation than a fixed bridge with a moving tailpiece. In practice players complain about tuning stability and about the bridge rocking out of position, which is why so many vintage Mustangs turn up blocked, swapped, or wearing an aftermarket bridge.</p>
+        <p><b>The engraving on the plate is the dating check.</b> The earliest units read Fender Dynamic Vibrato Pat. Pend. Around 1967 the engraving changed to carry a patent number instead. So Pat. Pend. points at roughly 1964 to 1966, and a patent number points at 1967 and later.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(MUS, "fender-mustang-dynamic-vibrato-pat-pend.jpg")} alt="Close view of the Dynamic Vibrato plate on a 1965 Fender Mustang engraved Fender Dynamic Vibrato Pat. Pend." width={1000} />
+            <figcaption>Pat. Pend. on the plate of a 1965. On a guitar being sold as 1967 or later, this wording is the thing to ask about.</figcaption>
+          </figure>
+        </div>
+        <p>Whether the unit is complete changes the number. The threaded arm goes missing constantly, springs get swapped, and whole assemblies get replaced with reissue or aftermarket parts. The chrome bridge cover, the ashtray, was a smooth unmarked piece and is usually long gone. A correct period vibrato with its original arm adds real money over one that is missing pieces or wearing a modern bridge.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- PICKGUARD -->
+    <section id="guard">
+      <div class="measure stack">
+        <span class="eyebrow">Not A Date, An Originality Check</span>
+        <h2>Reading The Guard Against The Finish</h2>
+        <p>Fender paired the pickguard colour to the body colour on vintage Mustangs, and the pairing was not loose. Tortoiseshell celluloid went on Olympic White guitars. White pearloid went on Dakota Red and Daphne Blue. Pearloid went on the Competition finishes.</p>
+        <p>That gives you a check you can make from a photograph. A tortoise guard on a red or a blue body, or a white guard on an Olympic White body, is telling you either that the guard has been swapped or that the guitar has been refinished into a colour it did not start as. Neither is fatal, and both change the price.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(MUS, "1960s-fender-mustang-olympic-white-tortoiseshell-pickguard.jpg")} alt="Early 1960s Fender Mustang in Olympic White with a tortoiseshell celluloid pickguard leaning against a vintage Fender amplifier" width={1200} />
+            <figcaption>Olympic White with a tortoiseshell guard, which is the correct pairing. The same guard on a Dakota Red body would not be.</figcaption>
+          </figure>
+        </div>
+        <p>The material carries information too. Vintage celluloid guards shrink and warp with age and reproductions do not, so a guard that sits flat and perfect on an otherwise sixty-year-old guitar is worth a second look. A flat modern plastic guard standing in for layered vintage celluloid is a swap.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- COMPETITION -->
+    <section id="competition">
+      <div class="measure stack">
+        <span class="eyebrow">A Second Timeline</span>
+        <h2>The Competition Finishes Date Themselves</h2>
+        <p>From around 1968 Fender offered the Mustang in a Competition finish package built on the muscle-car look of the period: a diagonal racing stripe across the body, a matching painted headstock on the early guitars, and a pearloid guard. The option ran until roughly 1973. Because its features changed on their own schedule, a Competition guitar carries a second dating axis alongside the headstock and the vibrato.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Feature</th><th>How it moved</th><th>How to read it</th></tr></thead>
+          <tbody>{competitionRows.map((r) => (<tr><td data-label="Feature"><b>{r[0]}</b></td><td data-label="How it moved" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(MUS, "fender-competition-mustang-red-racing-stripes.jpg")} alt="Body of a vintage Fender Competition Mustang in Competition Red showing the diagonal racing stripes across the front" width={1200} />
+            <figcaption>Competition Red, the most common of the three finishes and the most attainable way into a Competition guitar.</figcaption>
+          </figure>
+          <figure class="sfig">
+            <LicensedImage src={bmeta(MUS, "fender-competition-mustang-red-back-player-wear.jpg")} alt="The back of a Competition Red Fender Mustang showing plain red with no racing stripe, heavy player wear, and an F neck plate stamped 340349" width={1600} />
+            <figcaption>The same check from behind. This back is plain, so the stripe is front only, which puts the guitar after the earliest wrap-around examples. The wear is honest playwear rather than a refinish tell.</figcaption>
+          </figure>
+        </div>
+        <p><b>The value ladder inside the family</b> runs Competition Orange at the top for rarity, then Competition Blue for rarity plus the Nirvana association, then Competition Red. A 1969 with its original matching painted headstock sits above a later natural-headstock guitar, all else equal.</p>
+        <div class="tip">
+          <p><b>A refinished Competition guitar has lost the thing that made it a Competition guitar.</b> On a plain Mustang a respray costs value like it costs value anywhere. Here the finish is the entire premium, so the gap between original and refinished is far wider. Check the cavities and the pickguard edges for overspray and look for the fine checking an old nitrocellulose finish should show. Honest playwear is a different matter: buckle rash and checking on an original finish are the marks of a guitar that got used.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- SCALE -->
+    <section id="scale">
+      <div class="measure stack">
+        <span class="eyebrow">Two Sizes, One Model</span>
+        <h2>Two Scales And A Nut Code</h2>
+        <p>Fender offered the Mustang in two scale lengths, a 22.5 inch short scale and a 24 inch medium scale. The 24 inch quickly became the standard and far outsold the other, so a genuine 22.5 inch example is the less usual find and can draw its own interest from buyers.</p>
+        <p>Nut width came with a letter code that appears in the neck stamp. <b>A</b> is the narrow 1 and 1/2 inch nut and <b>B</b> is the wider 1 and 5/8 inch, which is generally the more desirable of the two. Neither code dates the guitar, but a neck whose scale does not match the model is one of the signs that it came from somewhere else, or that the guitar was assembled from parts.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- BOARD -->
+    <section id="board">
+      <div class="measure stack">
+        <span class="eyebrow">Always The Same Answer</span>
+        <h2>The Board And The Dots</h2>
+        <p>The Mustang board is the round-laminate type, usually called the veneer board, curved on its underside where it meets the maple. It is that way on every vintage example, because Fender had already moved off the flat slab board in mid-1962 and the model did not exist until 1964. If someone describes a Mustang board as a slab, either the word is being used loosely or the neck is not original to the model.</p>
+        <p>The dots are pearloid on effectively every Mustang. Clay dots are a possibility only on the very earliest 1964 guitars, which makes them a narrow claim to check rather than a general early-Fender tell.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(MUS, "fender-mustang-rosewood-fingerboard-pearl-dots.jpg")} alt="The rosewood fingerboard of a vintage Fender Mustang showing pearloid dot inlays on the veneer board" width={1200} />
+            <figcaption>The veneer board with pearloid dots, correct across the whole run.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- SWITCHES -->
+    <section id="switches">
+      <div class="measure stack">
+        <span class="eyebrow">Identity, Not Date</span>
+        <h2>The Slide Switches</h2>
+        <p>Two three-position slide switches sit on the pickguard above the neck pickup, one for each of the two angled single coils. The switches do not date the guitar, because they ran the length of the model's life, but what they are wired to do is an authentication check.</p>
+        <p>Each switch has an on position, an off position in the middle, and a second on position that flips that pickup's phase. Both switches thrown the same way runs the pickups together in phase, which is the full sound. Thrown opposite ways they run out of phase and produce a thin, hollow, nasal honk. One switch centred leaves you on a single pickup.</p>
+        <p><b>The stock circuit is parallel, in phase or out of phase, and it does not offer a series or humbucking mode from the factory.</b> A Mustang that does has been rewired, which is a common modification rather than an original feature. So has one with replaced switches. Neither is automatically a problem, and both are things to price.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(MUS, "1965-fender-mustang-dakota-red-front.jpg")} alt="Front of a 1965 Fender Mustang in Dakota Red showing the two angled single-coil pickups, the two slide switches, the control plate and the Dynamic Vibrato" width={1400} />
+            <figcaption>A 1965 in Dakota Red with the standard layout: two angled single coils, the two slide switches above them, and the white pearloid guard that belongs on a red body.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- NECK HEEL -->
+    <section id="heel">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Three, A Real Date</span>
+        <h2>The Neck Heel Date</h2>
+        <p>Pulling the neck and reading the heel gives the closest thing to an actual date on the guitar, and on a Mustang it is the check that settles a disagreement between the headstock and the vibrato. Take the four bolts out with the strings slack, lift the neck away, and read what is written on the end of the heel.</p>
+        <p>What it dates is the neck, not the guitar. A neck and a body from a few months apart is normal factory behaviour, and a neck date years away from everything else means the neck came from another instrument. Cross it against the <a class="spoke" href="/fender-neck-dates/">full neck date guide</a>, which covers how the stamp is laid out and what the model code in it means.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- SERIAL -->
+    <section id="serial">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Two, One Vote</span>
+        <h2>What The Serial Number Adds</h2>
+        <p>A useful vote, and no more. Fender stamped plates in batches and pulled them off the stack in no order, so the number gets you a rough production year rather than a month, and the plate is four screws away from being somebody else's.</p>
+        <p>On a Mustang the plate itself carries information before you read the digits. A pre-CBS guitar from 1964 or 1965 wears the L-series plate, an L followed by five digits. From late 1965 Fender moved to the large plate with an embossed F below the serial, and that F plate ran through the rest of the vintage era.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(MUS, "fender-mustang-f-neck-plate-serial-number.jpg")} alt="Back of a mid-1960s Fender Mustang neck showing the large F neck plate stamped with serial number 108216" width={1200} />
+            <figcaption>An F plate reading 108216, on a guitar whose gold logo, Pat. Pend. vibrato and white pearloid guard on a red body all agree with it.</figcaption>
+          </figure>
+        </div>
+        <p class="note-sm">There is no Mustang serial chart on this page because Fender serials are not model-specific. A 1966 plate reads the same whether it ended up under a Mustang, a Stratocaster or a Jaguar, so the charts live once on the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- REISSUE -->
+    <section id="reissue">
+      <div class="measure stack">
+        <span class="eyebrow">Before Anything Else</span>
+        <h2>Vintage Or Reissue</h2>
+        <p>Fender never let the Mustang die, so a guitar sold as a Mustang today can be any of several very different instruments, and the price gap between a reissue and a real 1960s guitar is large. This is the one check worth making before the dating checks, because none of the rest of this page applies to a guitar built in 1995.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>What it might be</th><th>How it gives itself away</th></tr></thead>
+          <tbody>{reissueRows.map((r) => (<tr><td data-label="What it might be"><b>{r[0]}</b></td><td data-label="How it gives itself away">{r[1]}</td></tr>))}</tbody>
+        </table></div>
+        <p>A country-of-origin marking on the neck or the serial settles most of these in seconds. A vintage American Mustang carries a plain stamped serial on an L-series or F neck plate and no country marking at all.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- LIMITS -->
+    <section id="limits">
+      <div class="measure stack">
+        <span class="eyebrow">Keep It Honest</span>
+        <h2>What The Features Can't Prove</h2>
+        <p>Every feature on this page dates a part. None of them dates the guitar, and on a Mustang the parts that carry the most value are also the easiest to move.</p>
+        <p><b>The finish and the vibrato are the two worth faking</b>, for opposite reasons. A Competition finish carries the premium and can be sprayed. A Dynamic Vibrato is a bolt-on assembly with reissue units freely available. Confirm both against the neck heel date and the pot codes before either sets the price.</p>
+        <p><b>A correct feature set is not proof of originality.</b> Originality is a whole-guitar judgment that weighs the neck date, the pots, the pickups, the hardware and the finish against each other and asks whether they tell one story. One outlier is a question. Several outliers is a modified or an assembled guitar.</p>
+        <p><b>Some changes are permanent and some are not.</b> A blocked vibrato and a swapped guard reverse. A bridge humbucker rout, the Cobain-style conversion people ask about most, does not, and neither do the extra holes left by a completely different bridge.</p>
+        <p><b>Transition dates are approximate, and honest guitars break them.</b> On this model that lands hardest on 1967, where the logo, the decal line and the vibrato engraving all changed within months of each other, and on 1968, where the Competition stripe moved from wrapping around the body to sitting on the front only.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- CROSS -->
+    <section id="cross">
+      <div class="measure stack">
+        <span class="eyebrow">Put It All Together</span>
+        <h2>Confirm It From The Inside</h2>
+        <p>The <a class="spoke" href="#heel">neck heel date</a> above is the one that gives you a month. Two more parts back it up. The <a class="spoke" href="/fender-pot-codes/">pot codes</a> date a potentiometer to the week, the tightest number anywhere on the guitar, though it is a floor rather than a build date because pots sat in bins. The <a class="spoke" href="/fender-pickup-dates/">pickup dates</a> corroborate when they are present. Original factory solder is even and consistent, so fresh or re-melted joints on a pickup lead, a pot or the jack say someone has been inside. For the parts view across every Fender model, work through <a class="spoke" href="/fender-physical-features/">dating a Fender by its parts</a>.</p>
+        <p>For the long version of this model, including the Competition colours, the Cobain chapter and the value ranges, the <a class="spoke" href="/post/fender-mustang-history-value/">vintage Fender Mustang guide</a> covers everything here at length. The sibling model pages built the same way as this one are the <a class="spoke" href="/fender-stratocaster-dating-guide/">Stratocaster</a>, <a class="spoke" href="/fender-telecaster-dating-guide/">Telecaster</a>, <a class="spoke" href="/fender-jazzmaster-dating-guide/">Jazzmaster</a>, <a class="spoke" href="/fender-jaguar-dating-guide/">Jaguar</a>, <a class="spoke" href="/fender-jazz-bass-dating-guide/">Jazz Bass</a> and <a class="spoke" href="/fender-precision-bass-dating-guide/">Precision Bass</a> dating guides.</p>
+        <p class="note-sm">This guide is one of the model pages behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Expert Questions</span>
+        <h2>Common Questions About Dating A Mustang</h2>
+        <div class="faqs">
+          {faqs.map((f) => (
+            <details class="faq">
+              <summary>{f.q}</summary>
+              <div class="faqbody"><p>{f.a}</p></div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- APPRAISAL -->
+    <section>
+      <div class="measure">
+        <div class="appraise" id="appraisal">
+          <span class="eyebrow">Free Expert Appraisal</span>
+          <h2>Think You Have A Competition Mustang?</h2>
+          <p>That is the one where the finish carries the money, and it is worth confirming properly before anybody makes you an offer. Send Joe three clear photos, the front, the back and the headstock, for a free expert appraisal within 24 hours. No obligation, and no screwdriver required.</p>
+          <div class="row">
+            <a class="call" href={hrefs.tel}>Call Or Text Joe: {contact.phone}</a>
+            <a class="send" href="/free-appraisal/">Or Send Photos Online</a>
+          </div>
+          <p class="note-sm">Thinking about selling? Read how to <a class="spoke" href="/sell-my-fender-guitar/">sell your Fender</a>, or see the <a class="spoke" href="/vintage-fender-stratocaster-value-guide/">Stratocaster</a> and <a class="spoke" href="/vintage-fender-telecaster-value-guide/">Telecaster</a> value guides for a sense of how the vintage market runs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIO -->
+    <section class="pt0">
+      <div class="measure"><div class="bio" id="about-joe">
+        <LicensedImage src={meta("about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars, holding a vintage guitar" width={150} />
+        <div>
+          <div class="who"><a href="/about-me/">Joe Dampt</a></div>
+          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ positive reviews</div>
+          <p class="biotext">Joe Dampt is the owner of Joe's Vintage Guitars in Mesa, Arizona, where he's spent more than twelve years buying, appraising, and authenticating vintage instruments full-time. He's personally valued over 10,000 guitars for sellers in all 50 states, served as a traveling appraiser for the Treasure Seekers Roadshow, and sourced instruments for Grammy Award-winning artists. Every check on this page comes from that bench work.</p>
+        </div>
+      </div></div>
+    </section>
+  </div>
+
+  <!-- Floating TOC (sidebar + mobile FAB + sheet), matches the hub pattern -->
+  <aside class="fspot-toc" id="fspot-toc" aria-label="Table of contents">
+    <p class="fspot-toc__label">On This Page</p>
+    <ul class="fspot-toc__list">
+      {tocItems.map(([href, label]) => (<li><a href={href}>{label}</a></li>))}
+    </ul>
+  </aside>
+  <button class="fspot-toc-fab" id="fspot-toc-fab" type="button" aria-expanded="false" aria-controls="fspot-toc-sheet"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>Jump To A Section</button>
+  <div class="fspot-toc-sheet" id="fspot-toc-sheet" role="dialog" aria-label="Jump to a section" aria-modal="false">
+    <div class="fspot-toc-sheet__head"><span>Jump To A Section</span><button class="fspot-toc-sheet__close" id="fspot-toc-sheet-close" type="button" aria-label="Close section list">&times;</button></div>
+    <div class="fspot-toc-sheet__body" id="fspot-toc-sheet-body"></div>
+  </div>
+</Layout>
+
+<style>
+  .fspot-header-backdrop{position:relative;isolation:isolate;z-index:0;}
+  .fspot-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
+  .fspot-header-backdrop__cream{background:var(--color-brand-brown,#3e2a14);height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}
+
+  .fspot{
+    --paper:#f5efe3; --panel:#ffffff; --panel-2:#f3ead6; --inset:#fffdf8;
+    --ink:var(--color-brand-brown,#3e2a14); --ink-strong:var(--color-brand-brown,#3e2a14);
+    --muted:var(--color-brand-brown-muted,#7a6a54); --line:#ddd0b6;
+    --gold:var(--color-brand-gold,#c8983a); --gold-deep:#8c6a24;
+    --rust:var(--color-brand-rust,#a03a1e); --rust-bright:var(--color-brand-rust-bright,#be4b25);
+    --amber:#f3e3c2; --amber-line:#e3c88a; --darkbrown:#3a2a18; --darkbrown-2:#4a3520;
+    --shadow:0 1px 2px rgba(58,40,23,.06), 0 10px 30px rgba(58,40,23,.08);
+    --fd:var(--font-display), "Oswald", system-ui, sans-serif;
+    --fm:ui-monospace,"SF Mono",Consolas,"Liberation Mono",monospace;
+    --measure:min(92vw,820px);
+    background:var(--paper); color:var(--ink); font-size:17px; line-height:1.6;
+    padding-bottom:1rem;
+  }
+  .fspot [id]{scroll-margin-top:90px;}
+  .fspot h1,.fspot h2,.fspot h3{font-family:var(--fd);font-weight:600;line-height:1.12;margin:0;color:var(--ink-strong);text-wrap:balance;}
+  .fspot h1{font-size:clamp(2rem,4.6vw,2.9rem);letter-spacing:.005em;text-transform:uppercase;}
+  .fspot h2{font-size:clamp(1.5rem,3.1vw,2rem);letter-spacing:.01em;}
+  .fspot h3{font-size:clamp(1.21rem,2.1vw,1.34rem);letter-spacing:.015em;margin-top:.8rem;color:var(--rust);}
+  .fspot p{margin:0;}
+  .fspot a{color:var(--gold-deep);text-underline-offset:2px;}
+  .fspot a:hover{color:var(--rust);}
+  .fspot .measure{width:var(--measure);margin-inline:auto;}
+  .fspot section{padding-block:clamp(1.7rem,4vw,2.6rem);}
+  .fspot .pt0{padding-top:0;}
+  .fspot .rule{height:1px;background:var(--line);width:min(94vw,1080px);margin-inline:auto;}
+  .fspot .stack{display:flex;flex-direction:column;gap:1rem;}
+  .fspot .note-sm{font-size:.95rem;color:var(--muted);}
+  .fspot .eyebrow{font-family:var(--fd);font-weight:600;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);display:inline-flex;align-items:center;gap:.6em;}
+  .fspot .eyebrow::before{content:"";width:24px;height:3px;background:var(--gold);}
+  .fspot a.spoke{color:var(--gold-deep);text-decoration:none;border-bottom:1.5px dotted var(--gold);font-weight:600;}
+  .fspot a.spoke:hover{color:var(--rust);border-bottom-color:var(--rust);}
+  .fspot a.back{position:relative;z-index:31;font-family:var(--fd);font-weight:600;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--rust);text-decoration:none;display:inline-flex;align-items:center;gap:.4rem;}
+  .fspot a.back::before{content:"\2190";font-size:1rem;}
+  .fspot a.back:hover{color:var(--rust-bright);}
+
+  .fspot .hero{padding-top:clamp(1.6rem,4vw,2.6rem);padding-bottom:1.4rem;}
+  .fspot .lead{font-size:1.16rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .trust{display:flex;flex-wrap:wrap;gap:.4rem .9rem;font-family:var(--fm);font-size:.76rem;color:var(--muted);}
+  .fspot .trust span{display:inline-flex;align-items:center;gap:.45rem;}
+  .fspot .trust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--rust);}
+
+  /* Straight-to-the-hub CTA in the hero, for readers who only want a serial number */
+  .fspot .hubcta{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem 1.1rem;justify-content:space-between;
+    background:var(--inset);border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:10px;
+    padding:.9rem 1.1rem;box-shadow:var(--shadow);}
+  .fspot .hubcta__t{font-size:.95rem;color:var(--muted);flex:1 1 20rem;}
+  .fspot .hubcta__t b{color:var(--ink-strong);}
+  .fspot .hubcta__b{flex:0 0 auto;font-family:var(--fd);font-weight:600;text-transform:uppercase;letter-spacing:.04em;
+    font-size:.85rem;color:#fff;background:var(--rust);text-decoration:none;padding:.6rem 1.1rem;border-radius:8px;white-space:nowrap;}
+  .fspot .hubcta__b:hover{background:var(--rust-bright);color:#fff;}
+
+  /* The three passes, as three cards rather than three paragraphs */
+  .fspot .passes{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
+  .fspot .pass{display:flex;flex-direction:column;gap:.5rem;background:var(--panel);border:1px solid var(--line);
+    border-top:4px solid var(--rust);border-radius:10px;padding:1rem 1.1rem 1.1rem;box-shadow:var(--shadow);}
+  .fspot .pass__n{font-family:var(--fm);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  .fspot .pass h3{margin-top:0;font-size:1.15rem;}
+  .fspot .pass p{font-size:.95rem;color:var(--muted);}
+  .fspot .pass__go{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:auto;padding-top:.5rem;}
+  .fspot .pass__go a{font-family:var(--fd);font-size:.78rem;font-weight:600;letter-spacing:.02em;color:var(--gold-deep);
+    text-decoration:none;background:var(--panel-2);border:1px solid var(--line);border-radius:999px;padding:.28rem .7rem;}
+  .fspot .pass__go a:hover{color:#fff;background:var(--rust);border-color:var(--rust);}
+
+  /* Row label in the fastest-checks table doubles as a jump link */
+  .fspot a.rowjump{font-weight:700;color:var(--ink-strong);text-decoration:none;border-bottom:1.5px dotted var(--gold);}
+  .fspot a.rowjump:hover{color:var(--rust);border-bottom-color:var(--rust);}
+
+  /* NOTE: the inline year-table links (a.il) are styled in the is:global block
+     BELOW, not here. They are injected with set:html, so they never receive the
+     data-astro-cid attribute a scoped rule requires and a scoped rule silently
+     does not match them. See CLAUDE.md, "Scoped vs. global CSS for widget HTML". */
+
+  .fspot .secintro{font-size:.97rem;max-width:70ch;color:var(--ink);}
+  .fspot .secintro b{color:var(--ink-strong);}
+
+  .fspot .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);}
+  .fspot table{border-collapse:collapse;width:100%;min-width:520px;background:var(--panel);}
+  .fspot .tablewrap.compact table{min-width:0;}
+  .fspot th,.fspot td{text-align:left;padding:.6rem 1rem;border-bottom:1px solid var(--line);vertical-align:top;font-size:.94rem;}
+  .fspot thead th{font-family:var(--fm);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);background:var(--panel-2);}
+  .fspot tbody tr:last-child td{border-bottom:0;}
+  .fspot tbody tr:nth-child(even){background:color-mix(in srgb,var(--panel-2) 45%,transparent);}
+  .fspot .code{font-family:var(--fm);font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap;}
+  .fspot .yr{font-family:var(--fm);color:var(--rust);font-weight:600;}
+
+  .fspot .figrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
+  .fspot .figrow.single{grid-template-columns:minmax(230px,540px);}
+  .fspot .figrow.gallery{grid-template-columns:1fr;gap:1.4rem;max-width:680px;margin-inline:auto;}
+  .fspot figure.sfig{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow);}
+  .fspot figure.sfig img{display:block;width:100%;height:auto;background:var(--panel-2);}
+  .fspot figure.sfig figcaption{padding:.55rem .8rem;font-family:var(--fm);font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);}
+  .fspot .herofig{margin-top:.3rem;}
+  .fspot .herofig figcaption{font-size:.82rem;color:var(--ink);}
+
+  .fspot .tip{background:linear-gradient(135deg,var(--darkbrown-2),var(--darkbrown));color:#f0e1c1;border-radius:10px;padding:1rem 1.15rem;font-size:.95rem;}
+  .fspot .tip::before{content:"JOE'S TIP";display:block;font-family:var(--fd);font-weight:600;letter-spacing:.14em;color:var(--gold);font-size:.78rem;margin-bottom:.4rem;}
+  .fspot .tip b{color:#e0be79;}
+  .fspot .tip a{color:#e0be79;}
+  .fspot .warnbox{background:#fbe9e6;border:1px solid #e4a99d;border-left:6px solid var(--rust);border-radius:10px;padding:1rem 1.2rem;box-shadow:var(--shadow);}
+  .fspot .warnbox__head{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--fd);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--rust);font-size:.85rem;margin-bottom:.4rem;}
+  .fspot .warnbox__head svg{flex:0 0 auto;}
+  .fspot .warnbox p{margin:0;color:var(--ink);font-size:.97rem;}
+
+  .fspot .faqs{display:flex;flex-direction:column;gap:.6rem;}
+  .fspot details.faq{border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden;box-shadow:var(--shadow);}
+  .fspot details.faq>summary{cursor:pointer;list-style:none;padding:.85rem 1.05rem;font-family:var(--fd);font-weight:600;font-size:1rem;color:var(--ink-strong);display:flex;justify-content:space-between;align-items:center;gap:.8rem;}
+  .fspot details.faq>summary::-webkit-details-marker{display:none;}
+  .fspot details.faq>summary::after{content:"+";font-family:var(--fm);font-size:1.2rem;color:var(--rust);flex:0 0 auto;}
+  .fspot details.faq[open]>summary::after{content:"\2212";}
+  .fspot details.faq .faqbody{padding:0 1.05rem 1rem;font-size:.96rem;color:var(--muted);}
+
+  .fspot .appraise{background:var(--amber);border:1px solid var(--amber-line);border-left:5px solid var(--rust);border-radius:12px;padding:clamp(1.4rem,3.5vw,2rem);box-shadow:var(--shadow);}
+  .fspot .appraise h2{margin-bottom:.5rem;}
+  .fspot .appraise p{color:var(--ink);font-size:1.02rem;}
+  .fspot .appraise .row{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.1rem;align-items:center;}
+  .fspot .appraise .call{font-family:var(--fd);font-weight:700;font-size:1.15rem;letter-spacing:.02em;color:#fff;background:var(--rust);text-decoration:none;padding:.7rem 1.3rem;border-radius:8px;}
+  .fspot .appraise .call:hover{background:var(--rust-bright);}
+  .fspot .appraise .send{font-family:var(--fd);font-weight:600;text-transform:uppercase;font-size:.86rem;letter-spacing:.04em;color:var(--rust);text-decoration:none;border-bottom:2px solid var(--gold);}
+
+  .fspot .bio{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.3rem;background:var(--panel);}
+  .fspot .bio img{flex:0 0 auto;width:76px;height:76px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);}
+  .fspot .bio .who{font-family:var(--fd);font-weight:600;font-size:1.2rem;text-transform:uppercase;letter-spacing:.02em;}
+  .fspot .bio .who a{color:var(--ink-strong);text-decoration:none;border-bottom:2px solid var(--gold);}
+  .fspot .bio .cred{font-family:var(--fm);font-size:.72rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .bio .biotext{margin-top:.55rem;font-size:.95rem;color:var(--muted);}
+
+  /* mobile card tables */
+  @media (max-width:719px){
+    .fspot .tablewrap{overflow:visible;border:0;border-radius:0;box-shadow:none;}
+    .fspot .tablewrap table{min-width:0;width:100%;display:block;background:transparent;}
+    .fspot .tablewrap thead{display:none;}
+    .fspot .tablewrap tbody{display:grid;grid-template-columns:1fr;gap:.65rem;}
+    .fspot .tablewrap tr{display:block;border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:.7rem .85rem;box-shadow:var(--shadow);}
+    .fspot .tablewrap tbody tr:nth-child(even){background:var(--panel);}
+    .fspot .tablewrap td{display:block;border:0;padding:.25rem 0;font-size:.95rem;}
+    .fspot .tablewrap td::before{content:attr(data-label);display:block;font-family:var(--fm);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.1rem;}
+    .fspot .tablewrap .code,.fspot .tablewrap .yr{white-space:normal;}
+  }
+
+  /* floating TOC */
+  .fspot-toc{display:none;z-index:25;background:#fff;border:1px solid var(--color-brand-brown-tan,#d2b48c);border-radius:10px;width:260px;max-height:calc(100vh - 160px);padding:16px 18px;position:fixed;top:120px;right:24px;overflow-y:auto;box-shadow:0 2px 12px rgba(0,0,0,.08);}
+  @media (min-width:1440px){.fspot-toc{display:block;}}
+  .fspot-toc__label{font-family:var(--font-display),sans-serif;text-transform:uppercase;letter-spacing:.13em;color:var(--color-brand-brown,#3e2a14);border-bottom:1px solid #a03a1e2e;margin:0 0 10px;padding-bottom:8px;font-size:12px;font-weight:700;}
+  .fspot-toc__list{margin:0;padding:0;font-size:12.5px;line-height:1.4;list-style:none;}
+  .fspot-toc__list li{margin:0;}
+  .fspot-toc__list a{color:var(--color-brand-brown-muted,#6c5238);border-radius:4px;padding:5px 6px;text-decoration:none;display:block;}
+  .fspot-toc__list a:hover{background:var(--color-brand-cream-warm,#f5ead4);color:var(--color-brand-rust,#a03a1e);}
+  .fspot-toc-fab{display:none;}
+  .fspot-toc-sheet{display:none;}
+  @media (max-width:1439.98px){
+    .fspot-toc-fab{z-index:45;background:var(--color-brand-rust-bright,#be4b25);color:#fff;font-family:var(--font-display),sans-serif;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;border:none;border-radius:999px;align-items:center;gap:8px;padding:11px 18px;font-size:13px;font-weight:600;display:inline-flex;position:fixed;bottom:1.5rem;left:16px;box-shadow:0 4px 16px rgba(0,0,0,.28);}
+    .fspot-toc-fab svg{width:18px;height:18px;}
+    .fspot-toc-fab[aria-expanded="true"]{background:var(--color-brand-rust-dark,#682412);}
+    .fspot-toc-sheet{z-index:46;opacity:0;visibility:hidden;background:#fff;border:1px solid #a03a1e33;border-radius:12px;flex-direction:column;width:min(340px,100vw - 32px);max-height:60vh;transition:opacity .2s,transform .2s,visibility .2s;display:flex;position:fixed;bottom:5rem;left:16px;overflow-y:auto;transform:translateY(12px);box-shadow:0 10px 34px rgba(0,0,0,.28);}
+    .fspot-toc-sheet.fspot-toc-sheet--open{opacity:1;visibility:visible;transform:translateY(0);}
+  }
+  .fspot-toc-sheet__head{font-family:var(--font-display),sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--color-brand-rust-dark,#682412);background:#fff;border-bottom:1px solid #a03a1e26;justify-content:space-between;align-items:center;padding:12px 16px;font-size:13px;font-weight:700;display:flex;position:sticky;top:0;}
+  .fspot-toc-sheet__close{color:var(--color-brand-brown-muted,#6c5238);cursor:pointer;background:none;border:none;padding:0 4px;font-size:24px;line-height:1;}
+  .fspot-toc-sheet__body{padding:8px 10px;}
+  .fspot-toc-sheet__body .fspot-toc__list{font-size:14px;}
+  .fspot-toc-sheet__body .fspot-toc__list a{padding:8px 6px;}
+</style>
+
+<!--
+  GLOBAL, and it has to be. The inline jump links in the year table are injected
+  with set:html, so Astro never stamps them with the data-astro-cid attribute
+  that a scoped rule compiles into its selector. A scoped rule here matches
+  nothing and fails silently: the links render, they just look like plain text.
+  Both selectors stay prefixed with .fspot so nothing leaks off this page.
+-->
+<style is:global>
+  .fspot a.il{color:var(--gold-deep,#8c6a24);text-decoration:none;border-bottom:1px dotted var(--gold,#c8983a);font-weight:600;}
+  .fspot a.il:hover{color:var(--rust,#a03a1e);border-bottom-color:var(--rust,#a03a1e);border-bottom-style:solid;}
+</style>
+
+<script is:inline>
+  (function () {
+    // Floating TOC: clone list into the mobile sheet, wire the FAB
+    var list = document.querySelector('#fspot-toc .fspot-toc__list');
+    var body = document.getElementById('fspot-toc-sheet-body');
+    if (list && body) body.appendChild(list.cloneNode(true));
+    var fab = document.getElementById('fspot-toc-fab'),
+        sheet = document.getElementById('fspot-toc-sheet'),
+        closeBtn = document.getElementById('fspot-toc-sheet-close');
+    function setOpen(o) { if (!sheet) return; sheet.classList.toggle('fspot-toc-sheet--open', o); if (fab) fab.setAttribute('aria-expanded', o ? 'true' : 'false'); }
+    if (fab) fab.addEventListener('click', function () { setOpen(!sheet.classList.contains('fspot-toc-sheet--open')); });
+    if (closeBtn) closeBtn.addEventListener('click', function () { setOpen(false); });
+    document.addEventListener('click', function (e) { if (sheet && fab && !sheet.contains(e.target) && !fab.contains(e.target)) setOpen(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+    if (sheet) sheet.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+  })();
+</script>

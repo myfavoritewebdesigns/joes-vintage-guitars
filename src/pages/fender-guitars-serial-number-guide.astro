@@ -91,10 +91,49 @@ const spokeSlugs = [
   "/fender-pickup-dates/", "/fender-physical-features/",
 ];
 
+// The model axis. The five spokes above read any Fender by method; these read one
+// model year by year. Each hook is that page's own fastest check, taken from its
+// lede so the card and the page agree.
+type ModelGuide = { name: string; years: string; href: string; hook: string };
+const modelGuitars: ModelGuide[] = [
+  {
+    name: "Stratocaster", years: "1954 to 1971", href: "/fender-stratocaster-dating-guide/",
+    hook: "Almost nothing on a Stratocaster gives you a year on its own. The two dates Fender actually wrote, on the neck heel and inside the body, are the accurate ones, and the rest of the guitar is there to corroborate them.",
+  },
+  {
+    name: "Telecaster", years: "1950 to 1971", href: "/fender-telecaster-dating-guide/",
+    hook: "A black guard or a white one puts the guitar either side of the summer of 1954 before you have picked it up. The bridge, the saddles, the board, and even the name each changed on their own schedule.",
+  },
+  {
+    name: "Jazzmaster", years: "1958 to 1971", href: "/fender-jazzmaster-dating-guide/",
+    hook: "The pickguard cuts the run into three and the inlays cut it into three again, so most examples date to a couple of years from a photograph. Includes the gold anodized guard that shipped for about nine months.",
+  },
+  {
+    name: "Jaguar", years: "1962 to 1975", href: "/fender-jaguar-dating-guide/",
+    hook: "Start anywhere except the headstock. One gold decal ran from the 1962 launch to about the middle of 1968, straight through the CBS changeover, so the patent block under it does the dating instead.",
+  },
+  {
+    name: "Mustang", years: "1964 to 1982", href: "/fender-mustang-dating-guide/",
+    hook: "It arrived after most of the transitions the Fender checklist is built on, so a slab board or a spaghetti logo is a red flag rather than a date. What dates it instead is hardware no other Fender wore.",
+  },
+];
+const modelBasses: ModelGuide[] = [
+  {
+    name: "Precision Bass", years: "1951 to 1975", href: "/fender-precision-bass-dating-guide/",
+    hook: "Ask which one before you ask which year. Three genuinely different instruments wear this name, and sorting out which of them you are holding gets you most of the way to the year.",
+  },
+  {
+    name: "Jazz Bass", years: "1960 to 1975", href: "/fender-jazz-bass-dating-guide/",
+    hook: "Count the knobs. Two stacked concentric knobs to late 1961, three separate ones after, and you can answer that from any photograph of the body.",
+  },
+];
+const modelSlugs = [...modelGuitars, ...modelBasses].map((m) => m.href);
+
 const tocItems: [string, string, number][] = [
   ["#lookup", "Serial Number Lookup", 2],
   ["#locate", "Where To Find Your Serial #", 2],
   ["#cross-check", "Cross-Check Dating Features", 2],
+  ["#by-model", "Date It By Model", 2],
   ["#charts", "Serial Numbers By Year", 2],
   ["#bridge-plate", "Bridge Plate (1950 To 1954)", 3],
   ["#neck-plate-serials", "4 & 5 Digit Neck Plate (1954 To 1963)", 3],
@@ -147,7 +186,7 @@ const articleSchema = {
   dateModified: "2026-07-23",
   inLanguage: "en-US",
   mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
-  hasPart: spokeSlugs.map((s) => ({ "@type": "WebPage", "@id": `${SITE_URL}${s}` })),
+  hasPart: [...spokeSlugs, ...modelSlugs].map((s) => ({ "@type": "WebPage", "@id": `${SITE_URL}${s}` })),
   video: { "@id": `${SITE_URL}${PAGE_PATH}#video` },
 };
 const videoSchema = {
@@ -318,6 +357,47 @@ const breadcrumbSchema = {
         </div>
 
         <p class="note-sm mt">No single one of these is the answer on its own. Read two or three and look for agreement, because a guitar whose neck date, pot codes, and parts all point at the same stretch of months is telling you something a serial number never can. If the guitar wears a custom color, the <a class="spoke" href="/post/fender-custom-color-authentication-guide/">finish itself</a> is worth reading too.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- BLOCK 3B: THE MODEL AXIS -->
+    <section id="by-model">
+      <div class="measure stack">
+        <span class="eyebrow">The Other Way In</span>
+        <h2>Date It By Model, Year By Year</h2>
+        <p class="note-sm">The five paths above read any Fender by method, across every model. These read one model through everything that changed on it, from its launch to the end of its vintage run, as a single year-by-year table. If you already know what you have, start here.</p>
+
+        <div class="mdlgroup">
+          <span class="grouplab">Guitars</span>
+          <div class="cards3">
+            {modelGuitars.map((m) => (
+              <a class="mcard" href={m.href}>
+                <span class="num">{m.years}</span>
+                <h3>{m.name}</h3>
+                <p>{m.hook}</p>
+                <span class="go">Date A {m.name}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div class="mdlgroup">
+          <span class="grouplab">Basses</span>
+          <div class="cards3">
+            {modelBasses.map((m) => (
+              <a class="mcard" href={m.href}>
+                <span class="num">{m.years}</span>
+                <h3>{m.name}</h3>
+                <p>{m.hook}</p>
+                <span class="go">Date A {m.name}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <p class="note-sm mt">Serial number charts are not on those pages, because a serial does not know what model it was stamped for. The full ranges live here, <a class="spoke" href="#charts">further down this page</a>, and every model guide points back to them.</p>
       </div>
     </section>
 
@@ -497,7 +577,7 @@ const breadcrumbSchema = {
         </div>
 
         <h3>Go Deeper On Your Exact Guitar</h3>
-        <p>If you've narrowed the year down, these go year by year through what a correct example should have, with photographs of the real thing.</p>
+        <p>If you know the model, the <a class="spoke" href="#by-model">seven model guides above</a> run it year by year in one table. If you've narrowed the year down as well, these go through what one correct example should have, with photographs of the real thing.</p>
         <div class="chips">
           <a href="/post/1952-fender-telecaster-authentication-guide/">1952 Telecaster</a>
           <a href="/post/1959-fender-telecaster-authentication-guide/">1959 Telecaster</a>
@@ -653,6 +733,14 @@ const breadcrumbSchema = {
   .fshub a.mcard .go{font-family:var(--fd);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em;color:var(--gold-deep);}
   .fshub a.mcard .go::after{content:" \2192";}
   .fshub a.mcard:hover .go{color:var(--rust);}
+
+  /* Model axis. Same card as the method spokes, grouped guitars then basses so
+     the seven read as two sets rather than one uneven grid. */
+  .fshub .mdlgroup{display:flex;flex-direction:column;gap:.6rem;}
+  .fshub .grouplab{font-family:var(--fm);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:.7rem;}
+  .fshub .grouplab::after{content:"";flex:1;height:1px;background:var(--line);}
+  .fshub #by-model a.mcard h3{font-size:1.25rem;}
+
   .fshub #next h3{font-size:1.2rem;letter-spacing:.015em;color:var(--rust);margin-top:1.1rem;}
   .fshub .chips{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:.2rem;}
   .fshub .chips a{font-family:var(--fd);font-weight:500;font-size:.9rem;text-decoration:none;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:.45rem .85rem;border-radius:999px;}

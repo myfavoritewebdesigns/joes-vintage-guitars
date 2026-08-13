@@ -1,7 +1,7 @@
 ---
 title: "1962 Fender Stratocaster Authentication Guide: Slab Board, Black Pickups & Pre-CBS Details"
 pubDate: "2026-03-16T19:26:24"
-modified: "2026-03-24T20:51:02"
+modified: "2026-08-08T14:00:00"
 excerpt: "The 1962 Fender Stratocaster comes from the end of the pre-CBS golden age of Fullerton production: pre-CBS, pre-veneer on early examples, and built to a standard Fender rarely hit again. The main challenge in authenticating a 1962 is the mid-year slab-to-veneer rosewood transition, but there’s more to it: black-bottom pickups, pot codes, the puzzle-piece finish test, nail holes with bare wood inside, and a mint-green pickguard that only original celluloid produces. This guide covers every detail."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -67,7 +67,7 @@ These specifications reflect standard 1962 production. Where the slab/veneer tra
 -   **Electronics:** 250k pots by Stackpole (304), CTS (137), or Centralab (134), ceramic disc tone capacitors, cloth-covered hookup wire throughout.
 -   **Bridge:** Synchronized tremolo, six bent steel saddles stamped FENDER PAT. PEND., heavy steel block, six chrome pivot screws, five springs as shipped.
 -   **Back plate:** Single-ply white, five screws, over a spring cavity of bare wood with no shielding paint.
--   **Headstock:** Silver spaghetti logo applied on top of the finish with no clear coat over it, "WITH SYNCHRONIZED TREMOLO" below the model name, and three patent numbers: 2,573,254, 2,960,900, and Des. 164,227. Very early 1962 decals may carry only two.
+-   **Headstock:** Gold spaghetti logo applied on top of the finish with no clear coat over it, "WITH SYNCHRONIZED TREMOLO" below the model name, and three patent numbers: 2,573,254, 2,960,900, and Des. 164,227. Very early 1962 decals may carry only two.
 -   **Tuners:** All-metal Kluson Deluxe "single line," stamped vertically on the back of the gear housing. One butterfly string tree.
 -   **Fasteners and plating:** Phillips-head neck screws rather than slot-head, with a plating electrode mark visible on the neck plate chrome.
 
@@ -333,18 +333,18 @@ The 1962 Stratocaster has a **single butterfly/wing string tree** on the headsto
 
 ### The "Spaghetti" Logo
 
-The 1962 Stratocaster headstock carries the classic **"spaghetti" Fender logo**, the thin, flowing cursive script in silver/chrome that was used from the early 1950s through approximately 1964 to 1965. The logo is a water-slide decal applied **on top of the headstock finish**, with no clear coat sprayed over it. Key authentication points:
+The 1962 Stratocaster headstock carries the classic **"spaghetti" Fender logo**, the thin, flowing cursive script in gold that was used from the early 1950s through approximately 1964 to 1965. On a Stratocaster this decal is gold, not silver. The silver/chrome description belongs to the standard Telecaster, and applying it to a Strat sends people looking for the wrong thing. The logo is a water-slide decal applied **on top of the headstock finish**, with no clear coat sprayed over it. Key authentication points:
 
 -   ApplicationThe decal sits directly on top of the finish with nothing sprayed over it, so you can catch its edge with a fingernail at a low angle. A logo buried under a layer of clear lacquer means the headstock has been resprayed and re-decaled.
 -   Patent numbersMost 1962 Stratocaster decals include **three patent numbers**: "2,573,254," "2,960,900," and "Des. 164,227." Very early 1962 examples transitioning from the previous decal version may show two patent numbers, but three is correct for the majority of 1962 production. Note that the Stratocaster patent numbers differ from the Telecaster's, a claimed 1962 Strat showing only Telecaster patent numbers has a non-original decal. Count the numbers and match them to known 1962 reference examples.
 -   Model name"Stratocaster" appears below the Fender name in smaller script, with "WITH SYNCHRONIZED TREMOLO" on a separate line below that, correct for standard tremolo models. The text stack is distinctive and differs from later logo treatments.
--   Color agingThe silver/chrome of the spaghetti logo ages over decades. A very bright, fresh-looking logo on a claimed 1962 may indicate headstock refinish or decal replacement. Some yellowing or oxidation of the silver is expected and normal.
+-   Color agingThe gold of the spaghetti logo darkens over decades, often reading closer to a dark bronze against aged amber maple than to bright metallic gold. A very bright, fresh-looking logo on a claimed 1962 may indicate headstock refinish or decal replacement. Some darkening and dulling of the gold is expected and normal.
 
 <figure>
 
-![1962 Fender Stratocaster headstock showing silver spaghetti logo with three patent numbers, Kluson Deluxe tuners, and butterfly string tree, pre-CBS Fullerton](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-spaghetti-logo-headstock-scaled.jpg)
+![1962 Fender Stratocaster headstock showing the gold spaghetti logo with three patent numbers, Kluson Deluxe tuners, and butterfly string tree, pre-CBS Fullerton](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-spaghetti-logo-headstock-scaled.jpg)
 
-<figcaption><strong>1962 Fender Stratocaster headstock.</strong> The classic silver spaghetti logo is applied on top of the finish with no clear coat over it. Three patent numbers appear below the model name, correct for 1962 production. The "WITH SYNCHRONIZED TREMOLO" text is visible below "Stratocaster." Note the butterfly/wing string tree guiding the high B and E strings, and the all-metal Kluson Deluxe single-line tuner buttons.</figcaption>
+<figcaption><strong>1962 Fender Stratocaster headstock.</strong> The classic gold spaghetti logo is applied on top of the finish with no clear coat over it. Sixty years of aging have darkened it toward bronze against the amber of the maple, which is normal. Three patent numbers appear below the model name, correct for 1962 production. The "WITH SYNCHRONIZED TREMOLO" text is visible below "Stratocaster." Note the butterfly/wing string tree guiding the high B and E strings, and the all-metal Kluson Deluxe single-line tuner buttons.</figcaption>
 
 </figure>
 
@@ -516,7 +516,7 @@ Bridge & Tremolo
 
 Headstock
 
--   Spaghetti logo, silver/chrome cursive with appropriate age patina
+-   Spaghetti logo, gold cursive with appropriate age patina (gold on a Strat, not silver)
 -   Three patent numbers on decal: 2,573,254 · 2,960,900 · Des. 164,227 (very early 1962 may show two, three is correct for most of the year)
 -   "WITH SYNCHRONIZED TREMOLO" text on decal
 -   Logo applied on top of finish, with no clear coat sprayed over it

@@ -49,7 +49,7 @@ CBS purchased Fender on January 5, 1965, but the changeover on the production fl
 
 <h2 id="year-by-year-quick-reference">Year by Year Quick Reference</h2>
 
-This is the high level orientation table. Every cell here is unpacked in detail further down the page.
+This is the high level orientation table. Every cell here is unpacked in detail further down the page. If you want the compact version of this timeline with the fastest visual check for each change, our [guide to dating a Fender Jaguar](/fender-jaguar-dating-guide/) covers the year-by-year in one table.
 
 | Year | Fingerboard | Inlays | Logo | Pickguard | Finish |
 | --- | --- | --- | --- | --- | --- |

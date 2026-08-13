@@ -69,6 +69,8 @@ The Fender Mustang arrived in 1964 as the top of Fender's student line, and for 
 
 At Joe's Vintage Guitars we buy and sell vintage Mustangs, and we are always looking to add clean 1960s and early 1970s examples to the collection. If you have one you are thinking about selling, we give straight [nationwide appraisals](/free-appraisal/) and pay top dollar for original guitars. This guide is the same walk-through we do on the bench: what the short-scale family is, how the Mustang changed from year to year, what the Competition finishes are, how we tell an original from a modified one, how to read the serial number, and what a real Mustang is worth in today's market. Every photo below is a guitar that came through our shop in Mesa.
 
+If you want the compact version, our [guide to dating a Fender Mustang](/fender-mustang-dating-guide/) runs the whole 1964 to 1982 timeline as a single year-by-year table with the fastest visual check for each change.
+
 <h2 id="fmg-family">Fender's Student Line</h2>
 
 The Mustang did not arrive alone, and understanding where it sat in Fender's lineup is the first step to valuing one correctly. Fender built a family of short-scale, entry-level guitars, and they get confused for one another constantly. A Duo-Sonic gets sold as a Mustang, a Musicmaster gets called a Mustang, and the price differences are real.

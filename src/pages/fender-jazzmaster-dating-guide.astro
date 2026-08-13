@@ -1,0 +1,919 @@
+---
+/**
+ * Fender Jazzmaster dating guide. THIRD OF THE MODEL-AXIS SPOKES.
+ *
+ * Sibling of fender-stratocaster-dating-guide.astro and
+ * fender-telecaster-dating-guide.astro. Built on joe/jazzmaster-dating-spoke,
+ * stacked on joe/tele-dating-spoke, because every model page edits the hub's
+ * "Go Deeper" chips and the sitemap list and would otherwise conflict. Joe is
+ * holding the whole model set to go live at once.
+ *
+ * WHAT MAKES THE JAZZMASTER PAGE DIFFERENT. Do not clone the Strat or Tele
+ * structure; this model's story is its own:
+ *   - The PICKGUARD is the spine of the page (Joe asked for all types called
+ *     out, gold included). Four combinations across three materials, and the
+ *     screw count changes with them: 9 screws on the gold anodized guard,
+ *     13 from mid-1959 on. Custom colors got WHITE, not tortoiseshell.
+ *   - It was the FIRST Fender production guitar with a rosewood fingerboard
+ *     (1958, a year ahead of the Tele and Strat), and also the first to move
+ *     OFF the slab board (spring 1962, ahead of the Strat's August).
+ *   - Three inlay eras, not two: clay, then pearloid, then BLOCK inlays on a
+ *     bound board from mid-1966. Neither the Strat nor the Tele page has that.
+ *   - The dual-circuit electronics, the floating bridge and separate floating
+ *     tremolo with its trem-lock button, and the witch hat knobs are all
+ *     Jazzmaster-specific.
+ *   - Foam rot under the pickups is a condition issue unique to this model.
+ *
+ * JOE'S REVIEW RULES, carried over from the Strat and Tele pages:
+ *   - Features give a WINDOW, often a wider one than the serial. They
+ *     corroborate the serial rather than beating it. Only the neck heel date
+ *     and the body date give a month.
+ *   - The serial belongs in the second pass, read as one vote among several.
+ *   - Never call a feature "model-specific" without checking it.
+ *   - Never say "bare wood" about a body date. Say the date is written
+ *     directly on the body.
+ *   - Keep a photo caption on the one thing the photo is for.
+ *   - Open the photo before repeating any color or layout claim about it.
+ *
+ * LOGO COLOR: GOLD. Joe ruled 2026-08-10 that the Jazzmaster spaghetti logo is
+ * GOLD, the same as the Stratocaster, and the evolution guide's silver/chrome
+ * wording was corrected in the same pass. Do NOT put silver back on this model.
+ * The cluster now reads: Stratocaster gold, Jazzmaster gold, and the Telecaster
+ * alone splits silver on the standard model from gold on the Custom, which the
+ * 1959 Telecaster guide states directly. That Telecaster split is deliberate.
+ *
+ * The knock-on, same as on the Strat page: because the spaghetti AND the
+ * transition logos are both gold here, COLOR CANNOT SEPARATE THEM. The tell is
+ * the WEIGHT of the script, thin and delicate versus noticeably heavier. Never
+ * write the change as silver-to-gold on this model.
+ *
+ * SOURCE ERROR, now FIXED at the source (2026-08-10, Joe's go-ahead): the
+ * evolution guide's "Standard Finish" section used to say "The sunburst always
+ * received a white pickguard", contradicting its own pickguard summary table
+ * (sunburst = tortoiseshell, custom colors = white celluloid) and its
+ * custom-color section. The table was right and the sentence has been corrected
+ * on the live guide, so the guide and this page now agree. If a future edit
+ * reintroduces "sunburst = white guard" anywhere, it is the error coming back.
+ *
+ * Content facts trace to Joe's own live pages and VG_FACTS.md: VG-0053,
+ * VG-0056 / VG-0057 (pickup dating and era), VG-0066 to VG-0068 (serial eras,
+ * ranges NOT asserted), VG-0070 (the slab and veneer rosewood context),
+ * VG-0071 (CBS-era tells including bound boards with block inlays circa 1966),
+ * VG-0072 (pre-CBS definition), VG-0073 / VG-0074 (custom color and refinish
+ * value). Primary on-site source is the Jazzmaster evolution guide, plus
+ * fender-physical-features.astro, fender-pot-codes.astro (1 Meg from the
+ * Jazzmaster's debut), fender-pickup-dates.astro (Jazzmaster poles were never
+ * staggered at the factory) and fender-neck-dates.astro.
+ *
+ * NOT YET IN VG_FACTS, flagged for a joes-vintage-databases PR: the gold
+ * anodized guard window and its 9-screw count; the 13-screw change; the
+ * custom-color white-guard rule; the spring-1962 slab-to-veneer date being
+ * ahead of the Stratocaster; the amber-to-white switch tip change; the witch
+ * hat knob date; and the Pat. Pend. to full-patent tremolo marking.
+ *
+ * NO YEAR-TO-SERIAL-NUMBER TABLE, same as the sibling pages. The charts live
+ * once, on the hub.
+ */
+import Layout from "../layouts/Layout.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
+import { contact, hrefs, SITE_URL } from "../config/site";
+
+const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
+const bmeta = (slug: string, file: string) => resolveImage(`images/blog/${slug}/${file}`)!;
+
+const JM = "fender-jazzmaster-evolution-guide-1958-1971";
+
+const PAGE_PATH = "/fender-jazzmaster-dating-guide/";
+const HUB_PATH = "/fender-guitars-serial-number-guide/";
+const HUB_HREF = HUB_PATH;
+const OG = `images/blog/${JM}/1959-fender-jazzmaster-gold-guard-full-front-scaled.jpg`;
+
+// ---- Data ----
+const yearRows: [string, string, string][] = [
+  [
+    "1958",
+    "Launch year, and the Jazzmaster arrives as the most expensive guitar Fender made. It is the first Fender production guitar with a rosewood fingerboard, a full year ahead of the Telecaster and Stratocaster, and that board is a thick flat-bottomed slab with clay dots. The pickguard is gold anodized aluminum held on by nine screws. Alder body, three-color sunburst as standard, amber switch tip, no-line Kluson tuners, and a spaghetti logo that on the earliest examples carries no patent numbers at all.",
+    "A gold anodized <a class='il' href='#guard'>guard</a> with nine screws. Nothing else in the line looked like it.",
+  ],
+  [
+    "1959",
+    "The gold guard ends around the middle of the year and the four-layer celluloid tortoiseshell guard replaces it. The screw count goes from nine to thirteen at the same time, because celluloid warps and Fender added fixings to hold it flat. From here custom color guitars take a white celluloid guard rather than tortoiseshell.",
+    "Count the <a class='il' href='#guard'>screws</a>. Nine is the gold guard window, thirteen is everything after it.",
+  ],
+  [
+    "1960",
+    "The Kluson <a class='il' href='#headstock'>tuners</a> move from a blank housing back to a single line of text around now. Many <a class='il' href='#heel'>necks</a> from the middle of 1959 into 1960 carry no date at all.",
+    "A completely blank neck heel in this window is normal rather than suspicious.",
+  ],
+  [
+    "1961",
+    "The amber <a class='il' href='#electronics'>switch tip</a> gives way to a whiter plastic, which stays for the rest of the run. Around here the <a class='il' href='#bridge'>tremolo plate</a> also stops being marked Pat. Pend. and starts carrying a full patent number.",
+    "An amber tip is 1958 to about 1960. Anything whiter is 1961 or later.",
+  ],
+  [
+    "1962",
+    "In the spring the slab rosewood board gives way to the thin curved veneer, and the Jazzmaster gets there several months before the Stratocaster does. From the middle of the year the neck heel changes from a penciled date to a rubber-stamped code that opens with the model number.",
+    "Rosewood depth at the nut, plus a stamp rather than pencil handwriting on the <a class='il' href='#heel'>heel</a>.",
+  ],
+  [
+    "1963",
+    "No change. A 1963 carries the same specification as a late 1962, so this is a year to date from the <a class='il' href='#heel'>neck stamp</a> and the <a class='il' href='/fender-pot-codes/'>pots</a>.",
+    "Nothing visual. Go to the <a class='il' href='#heel'>heel stamp</a>.",
+  ],
+  [
+    "1964",
+    "Four changes land within months of each other, which makes this the busiest year on the model. Around the middle of the year the spaghetti logo gives way to the heavier gold transition logo. Late in the year the clay dots give way to pearloid, and the celluloid tortoiseshell guard gives way to a more stable plastic one. The Kluson stamp goes from one line to two, the coil wire changes from Formvar to plain enamel, and the pickup bottoms begin moving from black to grey.",
+    "Bright <a class='il' href='#neck'>dots</a> and a heavier gold <a class='il' href='#headstock'>logo</a>. If you see one you should see the other.",
+  ],
+  [
+    "1965",
+    "CBS completes the purchase in January and the guitar changes in stages. Around the middle of the year the white skirted Stratocaster knobs give way to witch hat knobs, which is the clearest single CBS marker on the instrument. Late in the year the fingerboard gains white binding and the Kluson tuners give way to Fender's own F tuners. The big-F neck plate arrives around the third quarter.",
+    "Witch hat <a class='il' href='#electronics'>knobs</a>. Any Jazzmaster wearing them was built after the middle of 1965.",
+  ],
+  [
+    "1966",
+    "Around the middle of the year the pearloid dots give way to large rectangular pearloid block inlays on the now-bound board. That pairing is the standard CBS-era Jazzmaster neck and it runs to the end of this page's range.",
+    "<a class='il' href='#neck'>Block inlays</a> on a bound board mean mid-1966 or later, with no exceptions worth arguing about.",
+  ],
+  [
+    "1967",
+    "Around the middle of the year the headstock shape is modified to the outline used on post-1965 Stratocasters. It is a subtle change rather than the Stratocaster's obvious enlargement, and it shows best in a direct comparison. Late in the year the black CBS logo arrives and the Jazzmaster model name changes to a bolder block-letter style. Polyester finish comes in around 1967 into 1968.",
+    "A black <a class='il' href='#headstock'>logo</a> with a blockier model name beside it.",
+  ],
+  [
+    "1968 to 1971",
+    "The specification holds. Bound board, <a class='il' href='#neck'>block inlays</a>, witch hat <a class='il' href='#electronics'>knobs</a>, F tuners, black <a class='il' href='#headstock'>logo</a>, polyester finish.",
+    "Nothing new to separate these years. The <a class='il' href='#heel'>neck stamp</a> and the <a class='il' href='/fender-pot-codes/'>pot codes</a> do the work.",
+  ],
+];
+
+// The checks that place a Jazzmaster in an era without tools. These give a WINDOW.
+// Fourth element is the section this check is explained in, so the table doubles as navigation.
+const fastRows: [string, string, string, string][] = [
+  ["The pickguard", "Gold anodized aluminum to mid-1959, celluloid tortoiseshell to late 1964, plastic tortoiseshell after. White instead of tortoiseshell on custom colors", "The screw count comes with it: nine on the gold guard, thirteen from mid-1959 on. Both the material and the count read from a photograph.", "#guard"],
+  ["The inlays", "Clay dots to late 1964, pearloid dots to mid-1966, block inlays after", "Three eras rather than two. Blocks also mean a bound board, so those two always travel together.", "#neck"],
+  ["The knobs", "White skirted Stratocaster knobs to mid-1965, witch hat knobs after", "The cleanest CBS line on the instrument, and readable from a photograph.", "#electronics"],
+  ["The fingerboard", "Slab rosewood to spring 1962, veneer after", "Look at the rosewood depth at the nut. The Jazzmaster made this change before the Stratocaster did.", "#neck"],
+  ["The logo", "Spaghetti to mid-1964, transition to 1967, black CBS after", "The first two are both gold, so go by the weight of the script and not the color. Thin and delicate, then the same gold drawn much heavier, then black. The headstock outline barely changes, so the decal does the work.", "#headstock"],
+];
+
+// Jazzmaster neck-heel model code. Sourced for the STAMPED era only.
+const codeRows: [string, string][] = [
+  ["4", "Jazzmaster, in the rubber-stamped heel codes used from mid-1962 (for example 4JAN63B)"],
+];
+
+// Serial plate eras. Named, NOT charted. Charts live on the hub.
+const plateRows: [string, string, string][] = [
+  ["Plain chrome four-bolt plate", "1958 to late 1962", "Four or five digits, no letter. Fender pre-stamped plates in batches and pulled them off the stack in no order, so these overlap heavily year to year."],
+  ["L-prefix plate", "Late 1962 to late 1965", "An L in front of five digits. The last of the pre-CBS plates."],
+  ["Big-F plate", "About the third quarter of 1965 to 1976", "Six digits stamped above a large stylized F. The CBS plate."],
+];
+
+const tocItems: [string, string][] = [
+  ["#start", "Start Here"],
+  ["#fast", "The Five Fastest Checks"],
+  ["#years", "Jazzmaster Year By Year"],
+  ["#guard", "The Pickguards, All Of Them"],
+  ["#neck", "The Neck, Board And Inlays"],
+  ["#electronics", "Pickups And The Dual Circuit"],
+  ["#bridge", "Bridge, Tremolo And Hardware"],
+  ["#headstock", "Logo, Tuners, Knobs And Tip"],
+  ["#heel", "The Neck Heel Date"],
+  ["#body", "Body Dates"],
+  ["#serial", "What The Serial Number Adds"],
+  ["#limits", "What Features Can't Prove"],
+  ["#cross", "Confirm It From The Inside"],
+  ["#faq", "Common Questions"],
+  ["#appraisal", "Free Expert Appraisal"],
+  ["#about-joe", "About Joe"],
+];
+
+const faqs = [
+  {
+    q: "What Year Is My Jazzmaster?",
+    a: "Work it in three passes and expect each to give you a window rather than an answer. Start with the pickguard and the inlays, because between them they cut the whole run into slices from across the room. Then read the knobs, the tuners, the board, and the serial number together, treating the serial as one vote among several. Then open it up for the parts Fender actually dated: the neck heel stamp and the body date, backed up by the pot codes. Those last two are the only things that will give you a month.",
+  },
+  {
+    q: "What Is A Gold Guard Jazzmaster?",
+    a: "One of the first ones. Fender fitted a gold anodized aluminum pickguard from the 1958 launch to about the middle of 1959, roughly twelve to fourteen months of production, before switching to celluloid tortoiseshell. Gold guard examples are the rarest and most valuable Jazzmasters there are. The aluminum was not decoration either: it shielded the wide, hum-sensitive pickups, working alongside the reverse-wound pickup pair. Because they carry such a premium, replacement gold guards do get fitted to later guitars, so confirm any gold guard against the neck heel date, the body date, and the pot codes before you believe it.",
+  },
+  {
+    q: "How Many Screws Should My Jazzmaster Pickguard Have?",
+    a: "Nine if it is a gold anodized guard from 1958 to mid-1959, and thirteen from then to the end of the run. Fender added the extra fixings when it moved to celluloid, because celluloid warps and shrinks and needed holding flat. It is one of the quickest checks on the guitar, and a thirteen-screw body wearing a nine-screw gold guard is telling you something.",
+  },
+  {
+    q: "Why Does My Custom Color Jazzmaster Have A White Pickguard Instead Of Tortoiseshell?",
+    a: "Because that is correct. Once the tortoiseshell era began in mid-1959, tortoiseshell went on the standard finishes and white went on the custom colors. It is not a later replacement and it is not somebody's taste, it is how they left the factory. Watch the line between the two, because Blonde sits on the standard side: it was a regular production finish sprayed over ash rather than an extra-cost custom color over alder, so a factory Blonde Jazzmaster wears tortoiseshell like a sunburst does. Flagging an original Blonde with a tortoiseshell guard as altered is a common and expensive mistake. On the celluloid guards that white ages toward mint green, the same way a nitrate Stratocaster guard does, but only on the celluloid ones: Fender moved to inert PVC vinyl in late 1964 into early 1965, and a white PVC guard from 1965 onward stays bright white or drifts slightly to cream. It never goes green, and expecting it to is how genuine late-1960s guards get rejected.",
+  },
+  {
+    q: "Is My Jazzmaster Pre-CBS?",
+    a: "Pre-CBS means built before CBS completed the purchase in January 1965, but the guitars did not change on that date. On a Jazzmaster the useful markers cluster slightly later: witch hat knobs from mid-1965, binding and F tuners from late 1965, block inlays from mid-1966. A guitar with none of those and clay dots is comfortably pre-CBS. One with pearloid dots, Kluson tuners, and skirted knobs is sitting right in the transition, which is exactly where the calendar stops helping and the features take over.",
+  },
+  {
+    q: "My Jazzmaster Sounds Weak And The Pickups Sit Low. What's Wrong?",
+    a: "Almost certainly foam rot, and it is not damage. Fender spring-loaded each pickup upward on a block of open-cell foam rather than screws and springs, and after fifty or sixty years that foam collapses, hardens, or crumbles away entirely. The pickups then drop into their routes, which costs output and dulls the tone. Replacing it with modern open-cell foam cut to size is standard maintenance rather than a modification, and evidence that the original foam was there is a point in the guitar's favor.",
+  },
+  {
+    q: "Do Jazzmaster Pickups Have Staggered Pole Pieces?",
+    a: "No. Fender never staggered them at the factory on this model, so the poles sit level or very slightly curved. You can see them from above without taking anything apart, sitting flush rather than standing proud of the cover. That differs from a Stratocaster, where staggered poles are correct from 1954 and flat poles on a 1960s guitar are wrong.",
+  },
+  {
+    q: "Should I Take My Jazzmaster Apart To Date It?",
+    a: "Only if you have done it before. Everything in the first two passes reads with the guitar assembled, which is deliberate. Old celluloid is brittle and an original tortoiseshell guard cracks at the screw ears if you rush it, and a gold anodized guard scratches if you so much as slip with a screwdriver. If the outside checks leave you stuck between two years, send me photos before you reach for a tool.",
+  },
+];
+
+// ---- Schema ----
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "How To Date A Fender Jazzmaster, Year By Year",
+  description:
+    "Date a vintage Fender Jazzmaster from the features you can see: the pickguard including the gold anodized guard, the inlays, the knobs, and the logo, year by year from 1958 to 1971.",
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+  image: `${SITE_URL}${assetSrc(OG)}`,
+  datePublished: "2026-08-08",
+  dateModified: "2026-08-08",
+  inLanguage: "en-US",
+  mainEntityOfPage: `${SITE_URL}${PAGE_PATH}`,
+  isPartOf: { "@type": "WebPage", "@id": `${SITE_URL}${HUB_PATH}` },
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+    { "@type": "ListItem", position: 2, name: "Fender Serial Number Guide", item: `${SITE_URL}${HUB_PATH}` },
+    { "@type": "ListItem", position: 3, name: "Jazzmaster Dating Guide", item: `${SITE_URL}${PAGE_PATH}` },
+  ],
+};
+---
+
+<Layout
+  title="How To Date A Fender Jazzmaster: Year By Year Guide"
+  description="Date a vintage Fender Jazzmaster from what you can see: the pickguard including the gold anodized guard, the inlays, the knobs, and the logo, year by year from 1958 to 1971."
+  canonical={PAGE_PATH}
+  ogImage={`${SITE_URL}${assetSrc(OG)}`}
+  {...ogCardSize(OG)}
+  ogImageAlt="A 1959 Fender Jazzmaster in three-color sunburst with its original gold anodized aluminum pickguard"
+  ogType="article"
+  noIndex={false}
+  structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
+>
+  <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
+  <div class="fspot-header-backdrop" aria-hidden="true">
+    <div class="fspot-header-backdrop__dark"></div>
+    <div class="fspot-header-backdrop__cream"></div>
+  </div>
+
+  <div class="fspot">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="measure stack">
+        <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
+        <span class="eyebrow">Fender Dating By Model</span>
+        <h1>How To Date A Fender Jazzmaster</h1>
+        <p class="lead">The Jazzmaster is the easiest vintage Fender to place in an era and one of the harder ones to pin to a year. The pickguard alone cuts the run into three, the inlays cut it into three again, and between them you can date most examples to a couple of years from a photograph. Here is what changed and when, from the 1958 launch through 1971, including all four pickguard combinations and the gold anodized guard that only shipped for about nine months.</p>
+        <div class="trust">
+          <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
+        </div>
+        <div class="hubcta">
+          <p class="hubcta__t"><b>Just after the serial number?</b> The full charts and the lookup tool that decodes a number for you are on the main guide.</p>
+          <a class="hubcta__b" href={HUB_HREF}>Look Up A Serial Number</a>
+        </div>
+        <figure class="sfig herofig">
+          <LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-gold-guard-full-front-scaled.jpg")} alt="A 1959 Fender Jazzmaster in three-color sunburst with its original gold anodized aluminum pickguard, clay dot inlays, and amber switch tip" width={1600} loading="eager" />
+          <figcaption>A 1959 gold guard Jazzmaster. Gold anodized aluminum guard, clay dots, amber switch tip, spaghetti logo. Four features, and all four of them stop by 1965.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- START HERE -->
+    <section id="start">
+      <div class="measure stack">
+        <span class="eyebrow">Start Here</span>
+        <h2>Read The Guitar In Three Passes</h2>
+        <p>Nothing in the first two passes will hand you a single year, and it helps to know that going in. A tortoiseshell guard only says mid-1959 or later. Block inlays only say mid-1966 or later. Each feature is a window, and several are wider than the serial number is. What makes the Jazzmaster friendlier than most is that its windows overlap so tightly: stack the guard against the inlays against the knobs and you are usually inside two or three years before you touch a screwdriver.</p>
+        <div class="passes">
+          <div class="pass">
+            <span class="pass__n">Pass One</span>
+            <h3>Across The Room</h3>
+            <p>The pickguard and the inlays. Gold, tortoiseshell, or white, and dots or blocks. Those two questions alone put a Jazzmaster in a narrow band of the run.</p>
+            <div class="pass__go">
+              <a href="#guard">The pickguard</a>
+              <a href="#neck">The inlays</a>
+            </div>
+          </div>
+          <div class="pass">
+            <span class="pass__n">Pass Two</span>
+            <h3>In Your Hands</h3>
+            <p>The knobs, the tuners, the switch tip, the board, and the serial number. Take the serial as one vote among several rather than the answer, and read the plate style along with the digits.</p>
+            <div class="pass__go">
+              <a href="#electronics">Knobs and switch tip</a>
+              <a href="#headstock">Tuners and logo</a>
+              <a href="#neck">The board</a>
+              <a href="#serial">The serial number</a>
+            </div>
+          </div>
+          <div class="pass">
+            <span class="pass__n">Pass Three</span>
+            <h3>Inside The Guitar</h3>
+            <p>The neck heel stamp, the body date, and the pot codes. These are the only places Fender wrote an actual date, and the only things that will give you a month rather than a window. This is also the only pass that needs tools, which is why it comes last.</p>
+            <div class="pass__go">
+              <a href="#heel">The neck heel date</a>
+              <a href="#body">Body dates</a>
+              <a href="/fender-pot-codes/">Pot codes</a>
+            </div>
+          </div>
+        </div>
+        <p><b>The three passes should agree.</b> When they do, you have a build date you can stand behind. When they don't, the disagreement is the interesting part, and it usually means a replaced neck, a swapped guard, or a guitar being sold as something it isn't.</p>
+      </div>
+    </section>
+
+    <!-- SAFETY -->
+    <section class="pt0" aria-label="Safety warning">
+      <div class="measure">
+        <div class="warnbox" role="note">
+          <span class="warnbox__head"><svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>Read This First</span>
+          <p>Everything in the first two passes can be read with the guitar assembled. Be especially careful with this model if you do go in: sixty-year-old celluloid is brittle and cracks at the screw ears, and an anodized gold guard marks if a screwdriver slips off a screw head. If the outside checks leave you stuck, contact me before you take anything apart.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- FIVE FASTEST -->
+    <section id="fast">
+      <div class="measure stack">
+        <span class="eyebrow">The Short Version</span>
+        <h2>The Five Fastest Checks</h2>
+        <p>If you read nothing else on this page, read these five. Read them together rather than one at a time: no single row narrows anything to a year, but five rows overlapping do.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>What to look at</th><th>What it tells you</th><th>How to read it</th></tr></thead>
+          <tbody>{fastRows.map((r) => (<tr><td data-label="What to look at"><a class="rowjump" href={r[3]}>{r[0]}</a></td><td data-label="What it tells you" class="yr">{r[1]}</td><td data-label="How to read it">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="tip">
+          <p><b>The Jazzmaster rewards stacking these more than any other Fender.</b> Take a guitar with a tortoiseshell celluloid guard, clay dots, skirted knobs, and single-line Klusons. The guard says mid-1959 or later, the dots say late 1964 or earlier, the knobs say mid-1965 or earlier, and the tuners say roughly 1960 to 1964. Overlap them and you are looking at about 1960 to 1964 without having read a single date. Then the heel stamp closes it out.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- YEAR BY YEAR -->
+    <section id="years">
+      <div class="measure stack">
+        <span class="eyebrow">The Whole Timeline</span>
+        <h2>Jazzmaster Year By Year, 1958 To 1971</h2>
+        <p>What changed each year, and the quickest way to see it. Two things to keep in mind while you read down the table. Fender never made a clean cutover, so a change dated to mid-year means both versions turn up on guitars from that year and a transition example is genuinely correct either way. And parts went into a bin before they went into a guitar, so a feature dates the part, and the guitar is that year or later.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Year</th><th>What changed</th><th>Fastest tell</th></tr></thead>
+          <tbody>{yearRows.map((r) => (<tr><td data-label="Year" class="yr">{r[0]}</td><td data-label="What changed" set:html={r[1]}></td><td data-label="Fastest tell" set:html={r[2]}></td></tr>))}</tbody>
+        </table></div>
+        <p class="note-sm">For the deep dive on any one of these changes, including the custom color chart and the case history, the <a class="spoke" href="/post/fender-jazzmaster-evolution-guide-1958-1971/">Jazzmaster evolution guide</a> runs the whole model in detail.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- PICKGUARDS -->
+    <section id="guard">
+      <div class="measure stack">
+        <span class="eyebrow">The Spine Of The Guitar</span>
+        <h2>The Pickguards, All Of Them</h2>
+        <p>The Jazzmaster guard is unlike any other Fender's. It covers most of the body top and carries the rhythm circuit controls as part of a shielded upper plate, so it is structural to the electronics rather than just a cover. It also changed material three times, and the finish it was paired with changed the color, which gives you four combinations to know rather than three.</p>
+
+        <h3 id="gold">Gold Anodized Aluminum, 1958 To Mid-1959</h3>
+        <p>The first Jazzmasters wore a <b>gold anodized aluminum</b> guard, carried over from the material Fender had been using on the Musicmaster and Duo-Sonic since 1956. It was functional as well as striking: the full aluminum plate shields the wide, hum-sensitive pickups, working alongside the reverse-wound, reverse-polarity pickup pair. It is held on by <b>nine screws</b>.</p>
+        <p>Collectors call these <b>gold guard</b> Jazzmasters and they are the rarest and most valuable version of the model. The window runs from the summer of 1958, when commercial production got going after the mid-1958 NAMM launch, to the changeover in about July or August 1959, so roughly twelve to fourteen months of production rather than the six to nine people often assume. Output climbed steeply through late 1958 and early 1959, so a fair number of nine-hole gold guard guitars were built and shipped. Most are sunburst, though some early custom colors wore one too.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-gold-guard-nine-screws.jpg")} alt="The complete gold anodized aluminum pickguard on a 1959 Fender Jazzmaster, with all nine mounting screws in view" width={980} />
+            <figcaption>The gold anodized guard on a 1959. Count the screws: nine here, against thirteen on every guard that followed.</figcaption>
+          </figure>
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-gold-anodized-guard-underside-scaled.jpg")} alt="The underside of a 1959 Fender Jazzmaster gold anodized guard lifted from the body, showing the shielding plate and the rhythm circuit assembly with cloth wiring" width={1600} />
+            <figcaption>The same guard lifted away. The whole plate is the shield, and the rhythm circuit rollers, slide switch, pots, and tone cap all mount to it.</figcaption>
+          </figure>
+        </div>
+        <div class="tip">
+          <p><b>A gold guard is the one part on this guitar most worth doubting.</b> Reproduction gold anodized guards are sold openly, and the premium on a genuine gold guard example is large enough to make fitting one tempting. The guard cannot vouch for itself. Confirm it against the neck heel date, the body date, and the pot codes, and expect all three to land in late 1958 to early 1959. If they don't, you have a later Jazzmaster wearing an early guard.</p>
+        </div>
+
+        <h3 id="tort">Celluloid Tortoiseshell, Mid-1959 To Late 1964</h3>
+        <p>From the middle of 1959 the gold guard gives way to a <b>four-layer celluloid tortoiseshell</b> guard: tortoiseshell on top, then white, black, and white. This is the classic 1960s Jazzmaster look. The screw count goes from nine to <b>thirteen</b> at the same time, and that is not decoration either. Celluloid shrinks and warps, and the extra fixings were there to hold it flat.</p>
+        <p>Which means original celluloid guards are very often cracked, cupped, or visibly shrunken away from the edge of the route. That is the material behaving normally after sixty years, not a fault and not evidence of abuse. A tortoiseshell guard from this era sitting perfectly flat and uncracked is worth a second look.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "1966-fender-jazzmaster-pickguard-layers.jpg")} alt="The cut edge of a multi-ply tortoiseshell Fender Jazzmaster pickguard showing tortoiseshell, white, black and white layers" width={1280} />
+            <figcaption>The layers at the cut edge: tortoiseshell, then white, black, white. The layering is shared by the celluloid and plastic versions, so the edge tells you the construction rather than the material.</figcaption>
+          </figure>
+        </div>
+
+        <h3 id="plastic">Plastic Tortoiseshell, Late 1964 To 1971</h3>
+        <p>Around late 1964 Fender moved from celluloid to a stable <b>plastic</b> tortoiseshell guard. The reasons were practical: celluloid was a fire hazard in the factory and unstable in the field. The look is close but not identical, and the plastic does not warp or shrink the way celluloid does. Collectors generally find the plastic pattern flatter and more uniform, with less of the rich depth the celluloid had, and the pattern shifted again in the late 1960s toward more brown-red with black swirls and fewer pale chunks.</p>
+
+        <h3 id="white">The Custom Color Rule</h3>
+        <p>Here is the one that catches people. Once the tortoiseshell era began, the guard color depended on the finish. <b>Sunburst got tortoiseshell. Custom colors got white.</b> That was factory practice, not a special order, so a white guard on a custom color Jazzmaster is correct and original rather than a later swap. On the celluloid ones that white ages toward mint green in exactly the way a nitrate Stratocaster guard does.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "1960s-jazzmaster-charcoal-frost._-10-scaled.jpg")} alt="A 1960s Fender Jazzmaster in Charcoal Frost Metallic with a white pickguard, rosewood board, skirted knobs and floating bridge" width={1600} />
+            <figcaption>A 1960s Jazzmaster in Charcoal Frost Metallic, wearing the white guard that came with a custom color rather than tortoiseshell. Dome knobs and a white switch tip put it before the middle of 1965.</figcaption>
+          </figure>
+        </div>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Period</th><th>Material</th><th>Screws</th><th>Sunburst</th><th>Custom colors</th></tr></thead>
+          <tbody>
+            <tr><td data-label="Period" class="yr">1958 to mid-1959</td><td data-label="Material">Gold anodized aluminum</td><td data-label="Screws" class="code">9</td><td data-label="Sunburst">Gold guard</td><td data-label="Custom colors">Gold guard on early examples</td></tr>
+            <tr><td data-label="Period" class="yr">Mid-1959 to late 1964</td><td data-label="Material">Celluloid tortoiseshell, four ply</td><td data-label="Screws" class="code">13</td><td data-label="Sunburst">Tortoiseshell</td><td data-label="Custom colors">White celluloid, ages toward mint green</td></tr>
+            <tr><td data-label="Period" class="yr">Late 1964 to 1971</td><td data-label="Material">Plastic tortoiseshell</td><td data-label="Screws" class="code">13</td><td data-label="Sunburst">Tortoiseshell</td><td data-label="Custom colors">White plastic</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- NECK -->
+    <section id="neck">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Two</span>
+        <h2>The Neck, Board And Inlays</h2>
+        <p>The Jazzmaster has a genuine claim to a first here: it was the <b>first Fender production guitar with a rosewood fingerboard</b>, in 1958, a year before the Telecaster and Stratocaster got theirs. It was also the first to move off the slab board again, in the spring of 1962, several months ahead of the Stratocaster's August changeover. So on this model the board is both an era clue and a reminder that Fender's plant-wide dates do not all land on the same day.</p>
+        <p>Slab boards run from 1958 to spring 1962: a thick flat-bottomed piece of rosewood about 4.8mm at the nut, usually Brazilian, glued to a flat-milled neck. Veneer boards run from spring 1962 onward: roughly 2mm, with the underside curved to follow the neck radius. Slab examples carry a real premium.</p>
+
+        <h3 id="inlays">Three Inlay Eras</h3>
+        <p>This is where the Jazzmaster gives you more than a Stratocaster does, because there are three stages rather than two.</p>
+        <div class="figrow gallery">
+          <figure class="sfig"><LicensedImage src={bmeta(JM, "fender-jazzmaster-clay-dot-inlay-scaled.jpg")} alt="A clay dot inlay on a Fender Jazzmaster fingerboard, light brown and completely matte" width={1600} /><figcaption>Clay, 1958 to late 1964. Light brown, chalky, and completely non-reflective. The absence of any sheen is the identifier.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={bmeta(JM, "fender-jazzmaster-pearloid-dot-inlay-scaled.jpg")} alt="A pearloid dot inlay on a Fender Jazzmaster fingerboard, bright white and reflective" width={1600} /><figcaption>Pearloid, late 1964 to mid-1966. Bright, white, and reflective. This is the transition-era neck.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={bmeta(JM, "fender-jazzmaster-block-inlay-scaled.jpg")} alt="Large rectangular pearloid block inlays on a bound Fender Jazzmaster fingerboard" width={1600} /><figcaption>Blocks, mid-1966 onward, on a bound board. This is the standard CBS-era Jazzmaster neck.</figcaption></figure>
+        </div>
+        <p><b>Binding and blocks travel together, but not quite.</b> White fingerboard binding arrives in <b>late 1965</b>, and the block inlays follow in <b>mid-1966</b>. That leaves a short window where a Jazzmaster has a bound board and still wears pearloid dots, which is correct and is one of the tighter feature combinations on the model. An unbound board is right for every pre-CBS example and for CBS guitars through late 1965.</p>
+        <p>The truss rod adjusts at the <b>heel</b> for the whole of this range, never at the headstock. Headstock adjustment did not arrive on Fenders until 1971, so a claimed pre-1971 Jazzmaster with a headstock truss rod nut has a neck from somewhere else.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- ELECTRONICS -->
+    <section id="electronics">
+      <div class="measure stack">
+        <span class="eyebrow">Under The Guard</span>
+        <h2>Pickups And The Dual Circuit</h2>
+        <p>The Jazzmaster pickup looks like a P90 to people meeting one for the first time and is neither that nor a Stratocaster pickup. It is a <b>wide, flat, low-inductance single coil</b> with a large aperture, so it senses the string over a broader zone and comes out warmer and rounder with more midrange. The two are reverse-wound and reverse-polarity to each other, so the middle position partly cancels hum, which Fender advertised hard in 1958.</p>
+        <p>Two things about the covers surprise people. They are <b>plastic, not chrome</b>, and they mount to the <b>body rather than the pickguard</b>, sitting flush with the guard surface. Height is set with screws that come through from below. The pole pieces are visible from the playing side, sitting flush rather than standing proud of the cover, so you can check that they are level without pulling the pickup.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-pickup-black-flatwork-bottom-scaled.jpg")} alt="The underside of a 1959 Fender Jazzmaster neck pickup showing black fiber flatwork, six pole pieces, cloth lead wire, and the original height-adjustment foam" width={1600} />
+            <figcaption>A 1959 pickup flipped over. Black fiber flatwork, cloth lead wire, and the block of open-cell foam that spring-loads it upward against the strings.</figcaption>
+          </figure>
+        </div>
+        <p><b>Bobbin color dates the pickup</b> the same way it does on the other models: black fiber flatwork from 1958 to roughly 1964, then grey from about 1964, with a gradual changeover where both turn up. Unlike a Stratocaster, though, the poles were <b>never staggered</b> at the factory on a Jazzmaster, so level or very slightly curved poles are correct throughout and a staggered set means somebody has been in there.</p>
+
+        <h3 id="foam">Foam Rot</h3>
+        <p>Worth its own heading because it affects nearly every surviving example. Fender did not spring the pickups on screws and springs; it sat each one on a block of <b>open-cell foam</b> that pushes it up toward the strings. After fifty or sixty years that foam collapses, hardens, or crumbles to nothing, the pickups sink into their routes, and the guitar goes quiet and dull. Most vintage Jazzmasters that sound disappointing are doing exactly this, and new foam fixes it.</p>
+        <p>Replacing it with modern open-cell foam cut to size is maintenance, not modification, and it does not cost the guitar anything. Finding the original foam still in place, even in pieces, is a small point in favor of an untouched guitar.</p>
+
+        <h3 id="circuit">The Dual Circuit</h3>
+        <p>The slide switch on the upper horn selects between two entirely separate circuits. Pushed toward the neck, the <b>rhythm circuit</b> runs the neck pickup alone through its own volume and tone roller wheels and bypasses everything on the lower bout. Pushed away, the <b>lead circuit</b> uses the lower-bout volume and tone knobs and the three-way toggle. The lead circuit runs <b>1 Meg pots</b>, which is unusually high and a large part of why the guitar sounds bright and open.</p>
+        <div class="figrow gallery">
+          <figure class="sfig"><LicensedImage src={bmeta(JM, "fender-jazzmaster-rhythm-circuit-volume-scaled.jpg")} alt="The chrome-edged rhythm circuit roller wheel on a Fender Jazzmaster upper bout" width={1600} /><figcaption>The rhythm circuit rollers are one of the few things that never changed, running unaltered from 1958 to 1971. Useful to know precisely because they date nothing.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={bmeta(JM, "1966-fender-jazzmaster-wiring-scaled.jpg")} alt="The wiring behind the pickguard of a 1966 Fender Jazzmaster, showing aluminum shielding and the dual-circuit layout" width={1600} /><figcaption>Behind the guard on a 1966. The aluminum shielding that lines the cavities is the descendant of the gold guard's shielding job, and it stayed after the guard material changed.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- BRIDGE -->
+    <section id="bridge">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Two</span>
+        <h2>Bridge, Tremolo And Hardware</h2>
+        <p>The bridge and the tremolo are two separate units on a Jazzmaster, which is unusual and is the root of both its character and its reputation. The <b>bridge floats</b>: it sits in two posts but is not anchored to them, held down by string tension and gravity alone, so it rocks slightly as the tremolo moves. Six individual <b>threaded barrel saddles</b> handle intonation, and they are shared with the Jaguar and found on nothing else in the line.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-bridge-scaled.jpg")} alt="The floating bridge of a 1959 Fender Jazzmaster with six individual threaded barrel saddles in a rocking chrome base" width={1600} />
+            <figcaption>The floating bridge on a 1959, with its six threaded barrel saddles. Strings slipping out of the saddle grooves is a known trait of the design rather than a fault with this guitar.</figcaption>
+          </figure>
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "jazzmaster-tremolo-close-up.jpg")} alt="The floating tremolo of a Fender Jazzmaster showing the trem-lock thumb button and the arm socket" width={1280} />
+            <figcaption>The floating tremolo, with the trem-lock button that freezes it in place so a broken string does not pull the rest out of tune.</figcaption>
+          </figure>
+        </div>
+        <p><b>The tremolo plate carries a dating clue.</b> Early units, from 1958 to about 1961, are stamped <b>Pat. Pend.</b> Later ones carry a full patent number. It is a small thing and easy to photograph, and it sits nicely alongside the switch tip as a way of separating the very early guitars from the merely early ones.</p>
+        <p>The arm <b>pushes in</b> rather than threading, so it is a press fit, and vintage arms go missing constantly. A missing or replaced arm costs very little and tells you nothing about the rest of the guitar.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- HEADSTOCK -->
+    <section id="headstock">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Two</span>
+        <h2>Logo, Tuners, Knobs And Tip</h2>
+        <p>Four small parts, four different schedules. Read together they are the most precise thing on the guitar short of opening it up.</p>
+
+        <h3 id="logo">The Logo And The Headstock</h3>
+        <p>The spaghetti logo runs from 1958 to about mid-1964, the transition logo from mid-1964 to 1967, and the black CBS logo from about late 1967, arriving with a bolder block-letter model name beside it. <b>The first two are both gold, so the change between them is a change in weight and not in color</b>: spaghetti is thin, fine, and delicate, and the transition logo is that same gold drawn in a noticeably heavier hand. Anybody telling you to watch for silver turning to gold on a Jazzmaster is describing a Telecaster, where the standard model did wear a silver logo. The headstock outline is close to constant: around mid-1967 it was reshaped to match the post-1965 Stratocaster outline, but that is a subtle change you really only catch in a direct comparison, so treat the decal as the primary clue rather than the shape. Early 1958 examples carry no patent numbers on the decal at all, with the numbers arriving gradually through 1959 into 1960.</p>
+        <div class="tip">
+          <p><b>The offsets have their own patent block, and on this model the check runs backwards.</b> A Jazzmaster carries the floating tremolo patent <b>2,972,923</b> and the offset body design <b>DES 186,826</b>, neither of which a Stratocaster ever wears. So rather than hunting for a wrong number, look for a missing one: the <i>absence</i> of 2,972,923 on a decal that should have it is the flag, and its presence is part of what confirms the decal belongs on an offset at all. A reproduction decal borrowed from Stratocaster artwork gives itself away here immediately. There is a full breakdown by model and era on the <a class="spoke" href="/fender-physical-features/">physical features guide</a>.</p>
+        </div>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "1960s-jazzmaster-headstock-scaled.jpg")} alt="A 1960s Fender Jazzmaster headstock with the spaghetti logo, clay dot fingerboard, and single-line Kluson tuners" width={1600} />
+            <figcaption>A 1960s Jazzmaster headstock with the spaghetti logo, clay dots, single-line Klusons, and an unbound board. A complete pre-CBS set in one photograph.</figcaption>
+          </figure>
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "fender-jazzmaster-custom-color-matching-headstock-scaled.jpg")} alt="A Fender Jazzmaster custom color matching painted headstock with the gold transition logo and patent numbers on the decal" width={1600} />
+            <figcaption>The gold transition logo, mid-1964 to 1967, here on a custom color matching headstock. Same gold as the spaghetti, visibly heavier script, with the patent numbers under the model name.</figcaption>
+          </figure>
+        </div>
+
+        <h3 id="tuners">Tuners</h3>
+        <p>Kluson made them until the CBS years and the housing back gives the era away: <b>no text at all</b> from 1958 to about 1959, <b>one line</b> of KLUSON DELUXE from about 1960 to 1964, <b>two lines</b> from about 1964 to late 1965, and then Fender's own <b>F tuners</b> from late 1965 to the end of the run. That last change is the most visible single swap on the guitar, because the open-back Kluson and the enclosed F tuner look nothing alike.</p>
+        <div class="figrow gallery">
+          <figure class="sfig"><LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-sinlge-line-klusons-scaled.jpg")} alt="Single-line Kluson Deluxe tuners on a 1959 Fender Jazzmaster" width={1600} /><figcaption>Single line, KLUSON DELUXE across the housing back in one row.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={bmeta(JM, "jazzmaster-double-line-kluson-tuners-scaled.jpg")} alt="Double-line Kluson Deluxe tuners on a Fender Jazzmaster, KLUSON on the first line and DELUXE on the second" width={1600} /><figcaption>Double line, KLUSON on the first row and DELUXE on the second. A brief specification, roughly 1964 to late 1965.</figcaption></figure>
+        </div>
+
+        <h3 id="knobs">Knobs And The Switch Tip</h3>
+        <p>The knobs are the cleanest CBS line on the instrument. Through mid-1965 the lead circuit wears the same <b>white skirted plastic knobs</b> as a Stratocaster of the era, numbered 1 to 10. Not a Telecaster: those take knurled metal knobs, and Fender's own term "dome knob" belongs to those rather than to anything a Jazzmaster ever wore. From mid-1965 it wears <b>witch hat</b> knobs, taller and narrower with a chrome domed top, and those are Jazzmaster-flavored enough that you can call them from a photograph. Any Jazzmaster with witch hats was built after the middle of 1965. The rhythm circuit rollers, meanwhile, never changed at all.</p>
+        <div class="figrow gallery">
+          <figure class="sfig"><LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-white-skirted-knob-scaled.jpg")} alt="A white skirted plastic knob on a 1959 Fender Jazzmaster lead circuit control" width={1600} /><figcaption>The skirted knob, 1958 to mid-1965. The same knob a Stratocaster of the era wore.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={bmeta(JM, "jazzmaster-witch-hat-knobs.jpg")} alt="Witch hat knobs on a Fender Jazzmaster, white plastic with a chrome domed top" width={1280} /><figcaption>The witch hat, mid-1965 onward. Taller, narrower, chrome on top, and unmistakable once you have seen one.</figcaption></figure>
+        </div>
+        <p>The switch tip is the smallest clue here and one of the best for the earliest guitars. From 1958 to about 1960 it is a warm translucent <b>amber</b>. From about 1961 it is a whiter plastic, and it stays that way to the end. An intact original amber tip is a strong sign of a genuinely early example, which also makes it a part worth checking rather than assuming.</p>
+        <div class="figrow gallery">
+          <figure class="sfig"><LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-switch-tip-scaled.jpg")} alt="The amber switch tip on a 1959 Fender Jazzmaster lead circuit selector" width={1600} /><figcaption>The amber tip on a 1959. Warm and translucent, and specific to roughly 1958 to 1960.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- NECK HEEL -->
+    <section id="heel">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Three</span>
+        <h2>The Neck Heel Date</h2>
+        <p>The most reliable dating reference on a pre-CBS Fender, and unlike everything above it, a date rather than a window. The neck has to come off the body to read it. On a Jazzmaster the method itself changed partway through, which is useful in its own right.</p>
+        <p><b>1958 to 1962: penciled by hand.</b> A month and year written on the butt end by the neck builder, so "2-59" is February 1959. <b>Mid-1962 onward: a rubber stamp</b> carrying more information, in the form 4JAN63B, which reads as model 4, January, 1963, and B for the standard nut width. So handwriting versus a stamp is itself a rough date.</p>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-neck-heel-pencil-date-1-59-scaled.jpg")} alt="The neck heel of a 1959 Fender Jazzmaster penciled 1-59, with the body-end truss rod nut visible" width={1600} />
+            <figcaption>A 1959 heel penciled 1-59, January 1959. On a gold guard guitar this is the cross-check that matters, because the guard alone cannot prove its own age.</figcaption>
+          </figure>
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "1966-fender-jazzmaster-neck-heel-ink-stamp-scaled.jpg")} alt="The rubber-stamped ink code on the neck heel of a 1966 Fender Jazzmaster" width={1600} />
+            <figcaption>The stamped code that replaced it, here on a 1966. More information than the pencil dates carried, and easier to read sixty years on.</figcaption>
+          </figure>
+        </div>
+        <div class="tip">
+          <p><b>A blank heel is common on this model.</b> Many necks from the middle of 1959 into 1960 carry no date at all, so an empty butt end in that window is normal rather than a red flag. If yours is blank, date it from the body date and the pot codes instead and let the features bracket it.</p>
+        </div>
+
+        <h3 id="code">The Model Code</h3>
+        <div class="tablewrap compact"><table>
+          <thead><tr><th>Code on the heel</th><th>What it means</th></tr></thead>
+          <tbody>{codeRows.map((r) => (<tr><td data-label="Code" class="code">{r[0]}</td><td data-label="What it means">{r[1]}</td></tr>))}</tbody>
+        </table></div>
+        <p>The code names the model, so it is the fastest way to catch a neck that came off something else. Read it as confirmation that you are holding a Jazzmaster neck rather than as a way of narrowing the year, and note that Fender renumbered its model codes at the end of 1965, so codes on later necks need checking against the <a class="spoke" href="/fender-neck-dates/">neck date guide</a> rather than assumed.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- BODY DATES -->
+    <section id="body">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Three</span>
+        <h2>Body Dates</h2>
+        <p>The other place Fender wrote a real date, written directly on the body inside a cavity. On a Jazzmaster it is straightforward: <b>the bridge pickup cavity</b>, penciled, and visible through the pickguard route once the guard is off. You do not have to go hunting through several cavities the way you do on a Stratocaster.</p>
+        <p>The body date is a corroborating date rather than the build date. It records when the body was routed and prepped, which can precede final assembly by weeks or several months, so read it as a floor. A body date and a neck date a few months apart is the normal, correct result on an untouched guitar. On a gold guard example it is one of the three dates that has to agree before the guard is believable.</p>
+        <p class="note-sm">Where the date hides on every other Fender model, and what the pencil, ink, and tape markings look like, is on the <a class="spoke" href="/fender-body-dates/">body date guide</a>.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- SERIAL -->
+    <section id="serial">
+      <div class="measure stack">
+        <span class="eyebrow">Pass Two, One Vote</span>
+        <h2>What The Serial Number Adds</h2>
+        <p>A useful vote, and no more than that. The number will not give you a year on its own, because Fender pre-stamped neck plates in batches, stored them, and pulled them off the stack in no order, and the published ranges overlap year to year and disagree between sources. Read it alongside the features rather than instead of them. What the plate tells you most reliably is which era it came from, and its style does that better than the digits do.</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Plate</th><th>Years</th><th>What it looks like</th></tr></thead>
+          <tbody>{plateRows.map((r) => (<tr><td data-label="Plate"><b>{r[0]}</b></td><td data-label="Years" class="yr">{r[1]}</td><td data-label="What it looks like">{r[2]}</td></tr>))}</tbody>
+        </table></div>
+        <div class="figrow gallery">
+          <figure class="sfig">
+            <LicensedImage src={bmeta(JM, "1966-fender-jazzmaster-f-plate-serial.jpg")} alt="The big-F neck plate on a 1966 Fender Jazzmaster with a six-digit serial number stamped above a large stylized F" width={1600} />
+            <figcaption>The big-F plate on a 1966 Jazzmaster. The six digits sit above the large stylized F, not below it.</figcaption>
+          </figure>
+        </div>
+        <p>Use the plate to sanity-check the features rather than the other way round. An L plate on a guitar with block inlays is worth a hard look, because the L series had finished well before the blocks arrived in mid-1966.</p>
+        <p class="note-sm">There is no Jazzmaster serial chart on this page because Fender serials are not model-specific. A 1963 neck plate reads exactly the same whether it ended up under a Jazzmaster, a Stratocaster, or a Jazz Bass, so the charts live once on the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a> rather than being copied onto every model page.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- LIMITS -->
+    <section id="limits">
+      <div class="measure stack">
+        <span class="eyebrow">Keep It Honest</span>
+        <h2>What The Features Can't Prove</h2>
+        <p>Every feature on this page dates a part. None of them dates the guitar, and the gap between those two things is widest on a gold guard, which is where the money is.</p>
+        <p><b>The pickguard is the loudest feature and the easiest to move.</b> It is four screws and a solder joint away from being somebody else's, which is precisely why the gold guard needs three internal dates behind it before it means anything. Treat the guard as the thing that starts the conversation rather than the thing that settles it.</p>
+        <p><b>A correct feature set is not proof of originality.</b> Originality is a whole-instrument judgment that weighs the neck date, the body date, the pots, the pickups, the hardware, and the finish against each other and asks whether they tell one story.</p>
+        <p><b>Transition dates are approximate, and honest guitars break them.</b> Fender phased changes in as parts bins emptied, so a guitar from a changeover year can legitimately carry either spec, or one of each. 1959 and 1964 are where this happens most on a Jazzmaster, and both are years where a transitional example is correct rather than suspect.</p>
+        <p>The finish is where the real money moves, and a refinished custom color loses a large share of its value against an original, so treat any finish call as a job for hands and UV rather than a photograph.</p>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <!-- CROSS -->
+    <section id="cross">
+      <div class="measure stack">
+        <span class="eyebrow">Put It All Together</span>
+        <h2>Confirm It From The Inside</h2>
+        <p>The <a class="spoke" href="#heel">neck heel date</a> and the <a class="spoke" href="#body">body date</a> above are the two that give you a month. Two more parts back them up. The <a class="spoke" href="/fender-pot-codes/">pot codes</a> date a potentiometer to the week, which is the tightest number anywhere on the guitar, though it is a floor rather than a build date because pots sat in bins. The <a class="spoke" href="/fender-pickup-dates/">pickup dates</a> corroborate when they are present. For the parts view across every Fender model rather than this one, work through <a class="spoke" href="/fender-physical-features/">dating a Fender by its parts</a>.</p>
+        <p>For the full history of this model, including the custom color chart, the matching headstocks, and the case timeline, the <a class="spoke" href="/post/fender-jazzmaster-evolution-guide-1958-1971/">Jazzmaster evolution guide</a> is the long version of everything here. Its close relative shares the floating bridge, the barrel saddles, and much of the timeline, and has both a <a class="spoke" href="/fender-jaguar-dating-guide/">Jaguar dating guide</a> built like this page and a longer <a class="spoke" href="/post/vintage-fender-jaguar-guide/">Jaguar authentication guide</a> behind it. The other sibling model pages are the <a class="spoke" href="/fender-stratocaster-dating-guide/">Stratocaster</a>, <a class="spoke" href="/fender-telecaster-dating-guide/">Telecaster</a>, <a class="spoke" href="/fender-jazz-bass-dating-guide/">Jazz Bass</a>, <a class="spoke" href="/fender-precision-bass-dating-guide/">Precision Bass</a>, and <a class="spoke" href="/fender-mustang-dating-guide/">Mustang</a> dating guides.</p>
+        <p class="note-sm">This guide is one of the model pages behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="pt0">
+      <div class="measure stack">
+        <span class="eyebrow">Expert Questions</span>
+        <h2>Common Questions About Dating A Jazzmaster</h2>
+        <div class="faqs">
+          {faqs.map((f) => (
+            <details class="faq">
+              <summary>{f.q}</summary>
+              <div class="faqbody"><p>{f.a}</p></div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- APPRAISAL -->
+    <section>
+      <div class="measure">
+        <div class="appraise" id="appraisal">
+          <span class="eyebrow">Free Expert Appraisal</span>
+          <h2>Think You Have A Gold Guard?</h2>
+          <p>They only shipped for about nine months, and reproduction guards are easy to buy, so the early ones are worth checking properly. Send Joe three clear photos, the front, the back, and the headstock, for a free expert appraisal within 24 hours. No obligation, and no screwdriver required.</p>
+          <div class="row">
+            <a class="call" href={hrefs.tel}>Call Or Text Joe: {contact.phone}</a>
+            <a class="send" href="/free-appraisal/">Or Send Photos Online</a>
+          </div>
+          <p class="note-sm">Thinking about selling? Read how to <a class="spoke" href="/sell-my-fender-guitar/">sell your Fender</a>, or see the <a class="spoke" href="/vintage-fender-stratocaster-value-guide/">Stratocaster</a> and <a class="spoke" href="/vintage-fender-telecaster-value-guide/">Telecaster</a> value guides for a sense of how the vintage market runs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIO -->
+    <section class="pt0">
+      <div class="measure"><div class="bio" id="about-joe">
+        <LicensedImage src={meta("about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars, holding a vintage guitar" width={150} />
+        <div>
+          <div class="who"><a href="/about-me/">Joe Dampt</a></div>
+          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ positive reviews</div>
+          <p class="biotext">Joe Dampt is the owner of Joe's Vintage Guitars in Mesa, Arizona, where he's spent more than twelve years buying, appraising, and authenticating vintage instruments full-time. He's personally valued over 10,000 guitars for sellers in all 50 states, served as a traveling appraiser for the Treasure Seekers Roadshow, and sourced instruments for Grammy Award-winning artists. Every check on this page comes from that bench work.</p>
+        </div>
+      </div></div>
+    </section>
+  </div>
+
+  <!-- Floating TOC (sidebar + mobile FAB + sheet), matches the hub pattern -->
+  <aside class="fspot-toc" id="fspot-toc" aria-label="Table of contents">
+    <p class="fspot-toc__label">On This Page</p>
+    <ul class="fspot-toc__list">
+      {tocItems.map(([href, label]) => (<li><a href={href}>{label}</a></li>))}
+    </ul>
+  </aside>
+  <button class="fspot-toc-fab" id="fspot-toc-fab" type="button" aria-expanded="false" aria-controls="fspot-toc-sheet"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>Jump To A Section</button>
+  <div class="fspot-toc-sheet" id="fspot-toc-sheet" role="dialog" aria-label="Jump to a section" aria-modal="false">
+    <div class="fspot-toc-sheet__head"><span>Jump To A Section</span><button class="fspot-toc-sheet__close" id="fspot-toc-sheet-close" type="button" aria-label="Close section list">&times;</button></div>
+    <div class="fspot-toc-sheet__body" id="fspot-toc-sheet-body"></div>
+  </div>
+</Layout>
+
+<style>
+  .fspot-header-backdrop{position:relative;isolation:isolate;z-index:0;}
+  .fspot-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
+  .fspot-header-backdrop__cream{background:var(--color-brand-brown,#3e2a14);height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}
+
+  .fspot{
+    --paper:#f5efe3; --panel:#ffffff; --panel-2:#f3ead6; --inset:#fffdf8;
+    --ink:var(--color-brand-brown,#3e2a14); --ink-strong:var(--color-brand-brown,#3e2a14);
+    --muted:var(--color-brand-brown-muted,#7a6a54); --line:#ddd0b6;
+    --gold:var(--color-brand-gold,#c8983a); --gold-deep:#8c6a24;
+    --rust:var(--color-brand-rust,#a03a1e); --rust-bright:var(--color-brand-rust-bright,#be4b25);
+    --amber:#f3e3c2; --amber-line:#e3c88a; --darkbrown:#3a2a18; --darkbrown-2:#4a3520;
+    --shadow:0 1px 2px rgba(58,40,23,.06), 0 10px 30px rgba(58,40,23,.08);
+    --fd:var(--font-display), "Oswald", system-ui, sans-serif;
+    --fm:ui-monospace,"SF Mono",Consolas,"Liberation Mono",monospace;
+    --measure:min(92vw,820px);
+    background:var(--paper); color:var(--ink); font-size:17px; line-height:1.6;
+    padding-bottom:1rem;
+  }
+  .fspot [id]{scroll-margin-top:90px;}
+  .fspot h1,.fspot h2,.fspot h3{font-family:var(--fd);font-weight:600;line-height:1.12;margin:0;color:var(--ink-strong);text-wrap:balance;}
+  .fspot h1{font-size:clamp(2rem,4.6vw,2.9rem);letter-spacing:.005em;text-transform:uppercase;}
+  .fspot h2{font-size:clamp(1.5rem,3.1vw,2rem);letter-spacing:.01em;}
+  .fspot h3{font-size:clamp(1.21rem,2.1vw,1.34rem);letter-spacing:.015em;margin-top:.8rem;color:var(--rust);}
+  .fspot p{margin:0;}
+  .fspot a{color:var(--gold-deep);text-underline-offset:2px;}
+  .fspot a:hover{color:var(--rust);}
+  .fspot .measure{width:var(--measure);margin-inline:auto;}
+  .fspot section{padding-block:clamp(1.7rem,4vw,2.6rem);}
+  .fspot .pt0{padding-top:0;}
+  .fspot .rule{height:1px;background:var(--line);width:min(94vw,1080px);margin-inline:auto;}
+  .fspot .stack{display:flex;flex-direction:column;gap:1rem;}
+  .fspot .note-sm{font-size:.95rem;color:var(--muted);}
+  .fspot .eyebrow{font-family:var(--fd);font-weight:600;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);display:inline-flex;align-items:center;gap:.6em;}
+  .fspot .eyebrow::before{content:"";width:24px;height:3px;background:var(--gold);}
+  .fspot a.spoke{color:var(--gold-deep);text-decoration:none;border-bottom:1.5px dotted var(--gold);font-weight:600;}
+  .fspot a.spoke:hover{color:var(--rust);border-bottom-color:var(--rust);}
+  .fspot a.back{position:relative;z-index:31;font-family:var(--fd);font-weight:600;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--rust);text-decoration:none;display:inline-flex;align-items:center;gap:.4rem;}
+  .fspot a.back::before{content:"\2190";font-size:1rem;}
+  .fspot a.back:hover{color:var(--rust-bright);}
+
+  .fspot .hero{padding-top:clamp(1.6rem,4vw,2.6rem);padding-bottom:1.4rem;}
+  .fspot .lead{font-size:1.16rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .trust{display:flex;flex-wrap:wrap;gap:.4rem .9rem;font-family:var(--fm);font-size:.76rem;color:var(--muted);}
+  .fspot .trust span{display:inline-flex;align-items:center;gap:.45rem;}
+  .fspot .trust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--rust);}
+
+  .fspot .secintro{font-size:.97rem;max-width:70ch;color:var(--ink);}
+  .fspot .secintro b{color:var(--ink-strong);}
+
+  /* Straight-to-the-hub CTA in the hero, for readers who only want a serial number */
+  .fspot .hubcta{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem 1.1rem;justify-content:space-between;
+    background:var(--inset);border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:10px;
+    padding:.9rem 1.1rem;box-shadow:var(--shadow);}
+  .fspot .hubcta__t{font-size:.95rem;color:var(--muted);flex:1 1 20rem;}
+  .fspot .hubcta__t b{color:var(--ink-strong);}
+  .fspot .hubcta__b{flex:0 0 auto;font-family:var(--fd);font-weight:600;text-transform:uppercase;letter-spacing:.04em;
+    font-size:.85rem;color:#fff;background:var(--rust);text-decoration:none;padding:.6rem 1.1rem;border-radius:8px;white-space:nowrap;}
+  .fspot .hubcta__b:hover{background:var(--rust-bright);color:#fff;}
+
+  /* The three passes, as three cards rather than three paragraphs */
+  .fspot .passes{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
+  .fspot .pass{display:flex;flex-direction:column;gap:.5rem;background:var(--panel);border:1px solid var(--line);
+    border-top:4px solid var(--rust);border-radius:10px;padding:1rem 1.1rem 1.1rem;box-shadow:var(--shadow);}
+  .fspot .pass__n{font-family:var(--fm);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  .fspot .pass h3{margin-top:0;font-size:1.15rem;}
+  .fspot .pass p{font-size:.95rem;color:var(--muted);}
+  .fspot .pass__go{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:auto;padding-top:.5rem;}
+  .fspot .pass__go a{font-family:var(--fd);font-size:.78rem;font-weight:600;letter-spacing:.02em;color:var(--gold-deep);
+    text-decoration:none;background:var(--panel-2);border:1px solid var(--line);border-radius:999px;padding:.28rem .7rem;}
+  .fspot .pass__go a:hover{color:#fff;background:var(--rust);border-color:var(--rust);}
+
+  /* Row label in the fastest-checks table doubles as a jump link */
+  .fspot a.rowjump{font-weight:700;color:var(--ink-strong);text-decoration:none;border-bottom:1.5px dotted var(--gold);}
+  .fspot a.rowjump:hover{color:var(--rust);border-bottom-color:var(--rust);}
+
+  /* NOTE: the inline year-table links (a.il) are styled in the is:global block
+     BELOW, not here. They are injected with set:html, so they never receive the
+     data-astro-cid attribute a scoped rule requires and a scoped rule silently
+     does not match them. See CLAUDE.md, "Scoped vs. global CSS for widget HTML". */
+
+  .fspot .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);}
+  .fspot table{border-collapse:collapse;width:100%;min-width:520px;background:var(--panel);}
+  .fspot .tablewrap.compact table{min-width:0;}
+  .fspot th,.fspot td{text-align:left;padding:.6rem 1rem;border-bottom:1px solid var(--line);vertical-align:top;font-size:.94rem;}
+  .fspot thead th{font-family:var(--fm);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);background:var(--panel-2);}
+  .fspot tbody tr:last-child td{border-bottom:0;}
+  .fspot tbody tr:nth-child(even){background:color-mix(in srgb,var(--panel-2) 45%,transparent);}
+  .fspot .code{font-family:var(--fm);font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap;}
+  .fspot .yr{font-family:var(--fm);color:var(--rust);font-weight:600;}
+
+  .fspot .figrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
+  .fspot .figrow.single{grid-template-columns:minmax(230px,540px);}
+  .fspot .figrow.gallery{grid-template-columns:1fr;gap:1.4rem;max-width:680px;margin-inline:auto;}
+  .fspot figure.sfig{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow);}
+  .fspot figure.sfig img{display:block;width:100%;height:auto;background:var(--panel-2);}
+  .fspot figure.sfig figcaption{padding:.55rem .8rem;font-family:var(--fm);font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);}
+  .fspot .herofig{margin-top:.3rem;}
+  .fspot .herofig figcaption{font-size:.82rem;color:var(--ink);}
+
+  .fspot .tip{background:linear-gradient(135deg,var(--darkbrown-2),var(--darkbrown));color:#f0e1c1;border-radius:10px;padding:1rem 1.15rem;font-size:.95rem;}
+  .fspot .tip::before{content:"JOE'S TIP";display:block;font-family:var(--fd);font-weight:600;letter-spacing:.14em;color:var(--gold);font-size:.78rem;margin-bottom:.4rem;}
+  .fspot .tip b{color:#e0be79;}
+  .fspot .warnbox{background:#fbe9e6;border:1px solid #e4a99d;border-left:6px solid var(--rust);border-radius:10px;padding:1rem 1.2rem;box-shadow:var(--shadow);}
+  .fspot .warnbox__head{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--fd);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--rust);font-size:.85rem;margin-bottom:.4rem;}
+  .fspot .warnbox__head svg{flex:0 0 auto;}
+  .fspot .warnbox p{margin:0;color:var(--ink);font-size:.97rem;}
+
+  .fspot .faqs{display:flex;flex-direction:column;gap:.6rem;}
+  .fspot details.faq{border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden;box-shadow:var(--shadow);}
+  .fspot details.faq>summary{cursor:pointer;list-style:none;padding:.85rem 1.05rem;font-family:var(--fd);font-weight:600;font-size:1rem;color:var(--ink-strong);display:flex;justify-content:space-between;align-items:center;gap:.8rem;}
+  .fspot details.faq>summary::-webkit-details-marker{display:none;}
+  .fspot details.faq>summary::after{content:"+";font-family:var(--fm);font-size:1.2rem;color:var(--rust);flex:0 0 auto;}
+  .fspot details.faq[open]>summary::after{content:"\2212";}
+  .fspot details.faq .faqbody{padding:0 1.05rem 1rem;font-size:.96rem;color:var(--muted);}
+
+  .fspot .appraise{background:var(--amber);border:1px solid var(--amber-line);border-left:5px solid var(--rust);border-radius:12px;padding:clamp(1.4rem,3.5vw,2rem);box-shadow:var(--shadow);}
+  .fspot .appraise h2{margin-bottom:.5rem;}
+  .fspot .appraise p{color:var(--ink);font-size:1.02rem;}
+  .fspot .appraise .row{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.1rem;align-items:center;}
+  .fspot .appraise .call{font-family:var(--fd);font-weight:700;font-size:1.15rem;letter-spacing:.02em;color:#fff;background:var(--rust);text-decoration:none;padding:.7rem 1.3rem;border-radius:8px;}
+  .fspot .appraise .call:hover{background:var(--rust-bright);}
+  .fspot .appraise .send{font-family:var(--fd);font-weight:600;text-transform:uppercase;font-size:.86rem;letter-spacing:.04em;color:var(--rust);text-decoration:none;border-bottom:2px solid var(--gold);}
+
+  .fspot .bio{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.3rem;background:var(--panel);}
+  .fspot .bio img{flex:0 0 auto;width:76px;height:76px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);}
+  .fspot .bio .who{font-family:var(--fd);font-weight:600;font-size:1.2rem;text-transform:uppercase;letter-spacing:.02em;}
+  .fspot .bio .who a{color:var(--ink-strong);text-decoration:none;border-bottom:2px solid var(--gold);}
+  .fspot .bio .cred{font-family:var(--fm);font-size:.72rem;color:var(--muted);margin-top:.2rem;}
+  .fspot .bio .biotext{margin-top:.55rem;font-size:.95rem;color:var(--muted);}
+
+  /* mobile card tables */
+  @media (max-width:719px){
+    .fspot .tablewrap{overflow:visible;border:0;border-radius:0;box-shadow:none;}
+    .fspot .tablewrap table{min-width:0;width:100%;display:block;background:transparent;}
+    .fspot .tablewrap thead{display:none;}
+    .fspot .tablewrap tbody{display:grid;grid-template-columns:1fr;gap:.65rem;}
+    .fspot .tablewrap tr{display:block;border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:.7rem .85rem;box-shadow:var(--shadow);}
+    .fspot .tablewrap tbody tr:nth-child(even){background:var(--panel);}
+    .fspot .tablewrap td{display:block;border:0;padding:.25rem 0;font-size:.95rem;}
+    .fspot .tablewrap td::before{content:attr(data-label);display:block;font-family:var(--fm);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.1rem;}
+    .fspot .tablewrap .code,.fspot .tablewrap .yr{white-space:normal;}
+  }
+
+  /* floating TOC */
+  .fspot-toc{display:none;z-index:25;background:#fff;border:1px solid var(--color-brand-brown-tan,#d2b48c);border-radius:10px;width:260px;max-height:calc(100vh - 160px);padding:16px 18px;position:fixed;top:120px;right:24px;overflow-y:auto;box-shadow:0 2px 12px rgba(0,0,0,.08);}
+  @media (min-width:1440px){.fspot-toc{display:block;}}
+  .fspot-toc__label{font-family:var(--font-display),sans-serif;text-transform:uppercase;letter-spacing:.13em;color:var(--color-brand-brown,#3e2a14);border-bottom:1px solid #a03a1e2e;margin:0 0 10px;padding-bottom:8px;font-size:12px;font-weight:700;}
+  .fspot-toc__list{margin:0;padding:0;font-size:12.5px;line-height:1.4;list-style:none;}
+  .fspot-toc__list li{margin:0;}
+  .fspot-toc__list a{color:var(--color-brand-brown-muted,#6c5238);border-radius:4px;padding:5px 6px;text-decoration:none;display:block;}
+  .fspot-toc__list a:hover{background:var(--color-brand-cream-warm,#f5ead4);color:var(--color-brand-rust,#a03a1e);}
+  .fspot-toc-fab{display:none;}
+  .fspot-toc-sheet{display:none;}
+  @media (max-width:1439.98px){
+    .fspot-toc-fab{z-index:45;background:var(--color-brand-rust-bright,#be4b25);color:#fff;font-family:var(--font-display),sans-serif;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;border:none;border-radius:999px;align-items:center;gap:8px;padding:11px 18px;font-size:13px;font-weight:600;display:inline-flex;position:fixed;bottom:1.5rem;left:16px;box-shadow:0 4px 16px rgba(0,0,0,.28);}
+    .fspot-toc-fab svg{width:18px;height:18px;}
+    .fspot-toc-fab[aria-expanded="true"]{background:var(--color-brand-rust-dark,#682412);}
+    .fspot-toc-sheet{z-index:46;opacity:0;visibility:hidden;background:#fff;border:1px solid #a03a1e33;border-radius:12px;flex-direction:column;width:min(340px,100vw - 32px);max-height:60vh;transition:opacity .2s,transform .2s,visibility .2s;display:flex;position:fixed;bottom:5rem;left:16px;overflow-y:auto;transform:translateY(12px);box-shadow:0 10px 34px rgba(0,0,0,.28);}
+    .fspot-toc-sheet.fspot-toc-sheet--open{opacity:1;visibility:visible;transform:translateY(0);}
+  }
+  .fspot-toc-sheet__head{font-family:var(--font-display),sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--color-brand-rust-dark,#682412);background:#fff;border-bottom:1px solid #a03a1e26;justify-content:space-between;align-items:center;padding:12px 16px;font-size:13px;font-weight:700;display:flex;position:sticky;top:0;}
+  .fspot-toc-sheet__close{color:var(--color-brand-brown-muted,#6c5238);cursor:pointer;background:none;border:none;padding:0 4px;font-size:24px;line-height:1;}
+  .fspot-toc-sheet__body{padding:8px 10px;}
+  .fspot-toc-sheet__body .fspot-toc__list{font-size:14px;}
+  .fspot-toc-sheet__body .fspot-toc__list a{padding:8px 6px;}
+</style>
+
+<!--
+  GLOBAL, and it has to be. The inline jump links in the year table are injected
+  with set:html, so Astro never stamps them with the data-astro-cid attribute
+  that a scoped rule compiles into its selector. A scoped rule here matches
+  nothing and fails silently: the links render, they just look like plain text.
+  Both selectors stay prefixed with .fspot so nothing leaks off this page.
+-->
+<style is:global>
+  .fspot a.il{color:var(--gold-deep,#8c6a24);text-decoration:none;border-bottom:1px dotted var(--gold,#c8983a);font-weight:600;}
+  .fspot a.il:hover{color:var(--rust,#a03a1e);border-bottom-color:var(--rust,#a03a1e);border-bottom-style:solid;}
+</style>
+
+<script is:inline>
+  (function () {
+    // Floating TOC: clone list into the mobile sheet, wire the FAB
+    var list = document.querySelector('#fspot-toc .fspot-toc__list');
+    var body = document.getElementById('fspot-toc-sheet-body');
+    if (list && body) body.appendChild(list.cloneNode(true));
+    var fab = document.getElementById('fspot-toc-fab'),
+        sheet = document.getElementById('fspot-toc-sheet'),
+        closeBtn = document.getElementById('fspot-toc-sheet-close');
+    function setOpen(o) { if (!sheet) return; sheet.classList.toggle('fspot-toc-sheet--open', o); if (fab) fab.setAttribute('aria-expanded', o ? 'true' : 'false'); }
+    if (fab) fab.addEventListener('click', function () { setOpen(!sheet.classList.contains('fspot-toc-sheet--open')); });
+    if (closeBtn) closeBtn.addEventListener('click', function () { setOpen(false); });
+    document.addEventListener('click', function (e) { if (sheet && fab && !sheet.contains(e.target) && !fab.contains(e.target)) setOpen(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+    if (sheet) sheet.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+  })();
+</script>

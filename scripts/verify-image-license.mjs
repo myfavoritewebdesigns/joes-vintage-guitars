@@ -22,6 +22,13 @@ const DEFAULT_SLUGS = [
   "gretsch-serial-number-lookup",
   "guild-serial-number-lookup",
   "vintage-fender-amplifier-serial-numbers-how-to-find-the-year",
+  "fender-stratocaster-dating-guide",
+  "fender-telecaster-dating-guide",
+  "fender-jazzmaster-dating-guide",
+  "fender-jaguar-dating-guide",
+  "fender-jazz-bass-dating-guide",
+  "fender-precision-bass-dating-guide",
+  "fender-mustang-dating-guide",
 ];
 
 const slugs = process.argv.slice(2).length ? process.argv.slice(2) : DEFAULT_SLUGS;
