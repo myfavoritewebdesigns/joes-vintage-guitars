@@ -70,9 +70,9 @@ The orientation table. Every row is unpacked in detail below.
 | **1964** | Three knob | Veneer rosewood | Clay to pearloid, late in the year | 4 ply tortoiseshell | Pickup bottoms go black to grey mid year |
 | **1965** | Three knob | Veneer rosewood, binding late in the year | Pearloid dots | Nitrate to vinyl, early to mid year | CBS completes the purchase in January |
 | **1966** | Three knob | Bound rosewood | Dots to pearloid blocks, mid year | 3 ply | The bound-dot window runs into mid year |
-| **1967 to 1971** | Three knob | Bound rosewood, maple option | Pearloid blocks | 3 ply | Black CBS logo from 1968, F tuners from 1968 |
-| **1972 to 1974** | Three knob | Bound rosewood or one piece maple | Pearloid or black blocks | 3 ply | Maple with black blocks becomes common from 1972 |
-| **1975** | Three knob | Bound rosewood or maple | Pearloid or black blocks | 3 ply | Three bolt neck and bullet truss rod, from late 1974 |
+| **1967 to 1971** | Three knob | Bound rosewood, maple option | Pearloid blocks | 3 ply | Black CBS logo from 1968, F tuners from 1968, black bound black blocked maple option from 1969 |
+| **1972 to 1974** | Three knob | Bound rosewood or one piece maple | Pearloid or black blocks | 3 ply | Black blocked maple standard from 1972; back to white binding and pearloid blocks by mid-to-late 1973 or 1974 |
+| **1975** | Three knob | Bound rosewood or maple | Pearloid blocks | 3 ply | Three bolt neck and bullet truss rod, from late 1974 |
 
 <figure>
 
@@ -140,7 +140,7 @@ Those "bound-dot" necks are correct. They are not parts guitars, they are not re
 
 <figure>
 
-![Close up of the maple fingerboard on a 1973 Fender Jazz Bass showing white binding, bold black block inlays, and amber toned maple under the lacquer.](../../assets/blog/vintage-fender-jazz-bass-guide/1973-fender-jazz-bass-block-inlays.jpg)
+![Close up of the maple fingerboard on a 1973 Fender Jazz Bass showing bold black block inlays and amber toned maple under the lacquer.](../../assets/blog/vintage-fender-jazz-bass-guide/1973-fender-jazz-bass-block-inlays.jpg)
 
 <figcaption><strong>Blocks and binding on a 1973 maple board.</strong> Pearloid blocks on bound rosewood arrived mid 1966. This black-block-on-maple combination is the later look, rare as an option in the late 1960s and common from 1972 once one piece maple necks arrived.</figcaption>
 
@@ -223,7 +223,7 @@ Read it alongside the features rather than instead of them, and treat a mismatch
 
 Three changes define the last stretch of the original run.
 
-**One piece maple necks arrived in 1972**, and with them the look most people picture on a 1970s Jazz Bass: a maple board with **black block inlays and black binding**. That combination existed earlier as a rare maple cap option, from about 1967 to 1968, but it was uncommon until 1972. From then it is the defining early to mid 1970s appearance, and it is factory correct rather than a later refinish or a replacement neck.
+Fender first introduced the maple fingerboard with **black binding and black block inlays** as an option in **1969**. **One piece maple necks arrived in 1972**, and the black-on-maple look most people picture on a 1970s Jazz Bass became a standard production option. It did not run to the end of the decade: by **mid-to-late 1973 or 1974** Fender transitioned back to **white binding and pearloid block inlays** across all necks. So the trim itself dates the neck. Black blocks on maple sit inside 1969 to about 1974, pearloid blocks on maple run from the transition onward, and both are factory correct rather than a later refinish or a replacement neck.
 
 **The three bolt Micro-Tilt neck joint arrived in late 1974**, for the 1975 model year, together with the **bullet truss rod** adjuster at the headstock. Fender went back to a four bolt joint in 1983. A handful of 1975 and 1976 basses did leave with four bolt necks from leftover stock, so a four bolt bass from those two years is not automatically wrong, just worth checking against the neck date.
 
@@ -233,7 +233,7 @@ The three bolt joint has a reputation it only partly deserves. Early collectors 
 
 ![Full front view of a 1973 Fender Jazz Bass in sunburst with a maple neck, black block inlays, and a black pickguard.](../../assets/blog/vintage-fender-jazz-bass-guide/1973-fender-jazz-bass-sunburst-full-shot-of-front-scaled.jpg)
 
-<figcaption><strong>A 1973 Jazz Bass.</strong> Maple board, black blocks, black binding, and the four bolt neck that ran until late 1974. This is the look that carried the model through the decade.</figcaption>
+<figcaption><strong>A 1973 Jazz Bass.</strong> Maple board, black blocks, black binding, and the four bolt neck that ran until late 1974. The black trim window runs from its 1969 introduction to about 1974, when every neck went back to white binding and pearloid blocks.</figcaption>
 
 </figure>
 

@@ -76,6 +76,14 @@ const HUB_HREF = HUB_PATH;
 const OG = `images/blog/${JB}/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg`;
 
 // ---- Data ----
+/* JOE'S RULING 2026-08-13, supersedes the 1967-68 maple-cap black-trim dating
+   that shipped in the first build AND refines VG-0130: the black bound, black
+   blocked maple board was INTRODUCED AS AN OPTION IN 1969, became a standard
+   production option in the early 1970s, and by MID-TO-LATE 1973 OR 1974 Fender
+   transitioned back to white binding and pearloid block inlays across all
+   necks. Black or pearloid blocks on a 1970s maple board are both factory
+   (his photo ruling, same day). VG-0130 and the JB registry set need this
+   revision when the next joes-vintage-databases PR goes in. */
 const yearRows: [string, string, string][] = [
   [
     "1960",
@@ -114,7 +122,7 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1967",
-    "The specification holds through the year. The <a class='il' href='#seventies'>maple cap board</a> appears as a rare option, sometimes with black blocks and black binding, though it stays uncommon until the next decade.",
+    "The specification holds through the year. The <a class='il' href='#seventies'>maple cap board</a> appears as a rare option, though it stays uncommon until the next decade.",
     "Nothing new. The <a class='il' href='#heel'>heel stamp</a> and the <a class='il' href='/fender-pot-codes/'>pots</a> do the work.",
   ],
   [
@@ -124,17 +132,17 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1969 to 1971",
-    "The specification holds. Bound rosewood, pearloid blocks, black logo, F tuners, polyester finishes.",
-    "Nothing to separate these years without the <a class='il' href='#heel'>internal dates</a>.",
+    "The rosewood specification holds: bound board, pearloid blocks, black logo, F tuners, polyester finishes. In 1969 the maple board with <a class='il' href='#seventies'>black binding and black block inlays</a> appears as an option.",
+    "Black blocks on a maple board start here. On rosewood, nothing separates these years without the <a class='il' href='#heel'>internal dates</a>.",
   ],
   [
     "1972 to 1974",
-    "One piece <a class='il' href='#seventies'>maple necks</a> arrive in 1972 and the maple board with black block inlays and black binding becomes the look of the decade. Somewhere in the early 1970s the <a class='il' href='#spacing'>bridge pickup moves</a> about 0.4 inch closer to the bridge.",
-    "Black blocks in black binding on maple. Correct here, and rare before it.",
+    "One piece <a class='il' href='#seventies'>maple necks</a> arrive in 1972 and the black bound, black blocked maple board becomes a standard production option. By mid-to-late 1973 or 1974 the maple boards transition back to white binding and pearloid blocks across the line. Somewhere in the early 1970s the <a class='il' href='#spacing'>bridge pickup moves</a> about 0.4 inch closer to the bridge.",
+    "Black blocks in black binding on maple sit inside 1969 to about 1974.",
   ],
   [
     "1975",
-    "The <a class='il' href='#seventies'>three-bolt Micro-Tilt</a> neck joint and the bullet truss rod arrive, from late 1974 for the 1975 model year. A few basses still leave with four-bolt necks from leftover stock.",
+    "The <a class='il' href='#seventies'>three-bolt Micro-Tilt</a> neck joint and the bullet truss rod arrive, from late 1974 for the 1975 model year. A few basses still leave with four-bolt necks from leftover stock, and maple boards now wear white binding and pearloid blocks.",
     "Count the neck bolts, then look for the bullet at the headstock.",
   ],
 ];
@@ -145,7 +153,7 @@ const yearRows: [string, string, string][] = [
 const fastRows: [string, string, string, string][] = [
   ["The controls", "Stack knob to late 1961, three knob after", "Two stacked concentric knobs or three separate ones. Stack knob basses carry the biggest premiums on the model, and the answer reads from any photograph of the body.", "#controls"],
   ["The fingerboard binding", "None to late 1965, white binding after", "A white line down each edge of the board. The cleanest CBS marker here, same as on the offsets.", "#bounddot"],
-  ["The inlays", "Clay dots to late 1964, pearloid dots to mid-1966, pearloid blocks after", "Clay is matte and chalky. Pearloid is bright and reflective. Blocks mean a bound board too.", "#neck"],
+  ["The inlays", "Clay dots to late 1964, pearloid dots to mid-1966, pearloid blocks after", "Clay is matte and chalky. Pearloid is bright and reflective. Blocks mean a bound board too. Black blocks on maple run 1969 to about 1974.", "#neck"],
   ["The pickguard", "Four ply nitrate to early or mid 1965, three ply after", "Hold the edge to a strong light and count the layers. Nitrate also shrinks, cracks and smells of vinegar.", "#guard"],
   ["The pickup bottoms", "Black fibreboard to about mid-1964, grey after", "Worth the screwdriver on an early bass. Expect a mixed pair on a 1964, which is correct rather than a swap.", "#bottoms"],
 ];
@@ -459,8 +467,8 @@ const breadcrumbSchema = {
         <p>The same binding-before-blocks gap turns up on the <a class="spoke" href="/fender-jaguar-dating-guide/#bounddot">Jaguar</a> and the <a class="spoke" href="/fender-jazzmaster-dating-guide/#inlays">Jazzmaster</a>, so it is a Fender-wide pattern rather than a quirk of this model. Anybody telling you a bound board must have blocks is working from a rule that skipped a step.</p>
         <div class="figrow gallery">
           <figure class="sfig">
-            <LicensedImage src={bmeta(JB, "1973-fender-jazz-bass-block-inlays.jpg")} alt="Close up of the maple fingerboard on a 1973 Fender Jazz Bass showing white binding, bold black block inlays, and amber toned maple under the lacquer" width={1400} />
-            <figcaption>Blocks and binding on a 1973 maple board. Pearloid blocks on bound rosewood arrived mid-1966; this black-on-maple version is the 1970s look.</figcaption>
+            <LicensedImage src={bmeta(JB, "1973-fender-jazz-bass-block-inlays.jpg")} alt="Close up of the maple fingerboard on a 1973 Fender Jazz Bass showing bold black block inlays and amber toned maple under the lacquer" width={1400} />
+            <figcaption>Blocks on a 1973 maple board. Pearloid blocks on bound rosewood arrived mid-1966; the black-on-maple combination ran from its 1969 introduction to about 1974.</figcaption>
           </figure>
         </div>
       </div>
@@ -584,7 +592,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">The Last Stretch</span>
         <h2>The 1970s Changes</h2>
-        <p><b>One piece maple necks arrived in 1972</b>, and with them the look most people picture on a 1970s Jazz Bass: a maple board with <b>black block inlays and black binding</b>. That combination existed earlier as a rare maple cap option, from about 1967 to 1968, but it stayed uncommon until 1972. From then it is factory correct and it is the defining appearance of the decade, not a replacement neck. The block colour is not a red flag either way: 1970s maple boards left the factory with black blocks or pearloid blocks, and both are correct.</p>
+        <p>Fender first offered a maple fingerboard with <b>black binding and black block inlays</b> as an option in <b>1969</b>. <b>One piece maple necks arrived in 1972</b> and the black-on-maple look most people picture on a 1970s Jazz Bass became a standard production option. It did not run to the end of the decade: by <b>mid-to-late 1973 or 1974</b> Fender transitioned back to <b>white binding and pearloid block inlays</b> across all necks. So the trim dates the neck rather than flagging it. Black blocks on maple say 1969 to about 1974, pearloid blocks on maple say the transition onward, and both left the factory this way.</p>
         <p><b>The three-bolt Micro-Tilt neck joint arrived in late 1974</b>, for the 1975 model year, together with the <b>bullet truss rod</b> adjuster at the headstock. Fender went back to a four-bolt joint in 1983. A handful of 1975 and 1976 basses did leave with four-bolt necks from leftover stock, so a four-bolt bass from those two years is not automatically wrong, just worth checking against the neck date.</p>
         <p>The three-bolt joint has a reputation it only partly deserves. It earned that reputation from neglected examples with worn neck pockets, where three bolts hold a sloppy fit worse than four would. A well maintained one is stable, and the 1970s basses have their own following now, helped along by the brighter bridge pickup placement covered above.</p>
         <div class="figrow gallery">
@@ -594,7 +602,7 @@ const breadcrumbSchema = {
           </figure>
           <figure class="sfig">
             <LicensedImage src={bmeta(JB, "1976-fender-jazz-bass-maple-board-pearloid-blocks-scaled.jpg")} alt="Close up of the maple fingerboard on a 1976 Fender Jazz Bass with white pearloid block inlays, in a red lined case" width={1600} />
-            <figcaption>The other factory block colour: pearloid on maple, on a 1976. Black or pearl, both left Fullerton this way.</figcaption>
+            <figcaption>Pearloid blocks on maple, on a 1976. After the mid-to-late 1973 or 1974 transition every neck wore white binding and pearloid blocks again, so this is the standard later look rather than an oddity.</figcaption>
           </figure>
         </div>
       </div>
