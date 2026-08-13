@@ -1,7 +1,7 @@
 ---
 title: "The Fender Mustang: History, Authentication, and Value"
 pubDate: "2026-07-10T12:00:00"
-modified: "2026-07-10T12:00:00"
+modified: "2026-08-13T00:00:00"
 excerpt: "The Fender Mustang went from a 1964 student guitar to a collector and indie-rock icon, and the gap between an all-original example and a modified project comes down to details most sellers miss. This guide covers the whole short-scale family, the year-by-year changes from 1964 to 1982, the Competition finishes, how we authenticate the pickups, switching, Dynamic Vibrato, and serial numbers, and what a vintage Mustang is really worth today. Every photo is a real guitar from our shop."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -123,9 +123,9 @@ The Mustang changed in small, datable steps across its 1964 to 1982 run. Here is
 | 1964 to 1965 | Small headstock, gold transition logo, "Offset Contour Body" decal | Dakota Red, Daphne Blue, Olympic White; guard color paired to the finish | Pre-CBS feel, L-series or early F-plate serials, Pat. Pend. vibrato |
 | Late 1965 to 1966 | Enlarged CBS headstock, transition logo | Same three standard colors | F-plate serials, still Pat. Pend. vibrato |
 | 1967 | CBS headstock, transition into black logo | Same colors | Vibrato changes to a patent number, "Offset Contour Body" decal dropped |
-| 1968 | CBS headstock, black logo | Competition racing stripes arrive; standard colors continue | Earliest Competition stripes wrap around the body |
-| 1969 | CBS headstock, black logo | Competition Red, Blue, and Orange with matching painted headstocks | Matching headstock is an early Competition feature |
-| 1970 to 1971 | CBS headstock, black logo, natural headstock face | Competition finishes continue, now stripes on the front only | Natural (unpainted) headstock becomes standard |
+| 1968 | CBS headstock, black logo | Competition racing stripes arrive; standard colors continue | Earliest Competition stripes wrap around the body, changing to front only from late this year |
+| 1969 | CBS headstock, black logo | Competition Red, Blue, and Orange with matching painted headstocks | Stripes finish changing to front only by mid year; matching headstock is an early Competition feature |
+| 1970 to 1971 | CBS headstock, black logo, natural headstock face | Competition finishes continue with front-only stripes | Natural (unpainted) headstock becomes standard |
 | 1972 to 1973 | CBS headstock, black logo | Competition finishes winding down, sunburst and standard colors | Competition option gone by about 1973 |
 | 1974 to 1982 | CBS headstock, black logo | Sunburst, natural, and standard colors, thicker finishes | Final run, plainer specs, lowest vintage values |
 
