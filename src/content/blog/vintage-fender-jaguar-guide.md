@@ -262,7 +262,7 @@ The Jaguar pickup is what makes the guitar sound the way it does. They are singl
 -   DC resistance typically 6.2k to 7.4k ohms per pickup
 -   Alnico V magnets
 -   Forbon (fish paper) bobbin construction throughout the run
--   Pole piece profile: **flat (level) pole pieces on 1962 production**, transitioning to staggered pole pieces across 1963 and 1964 with mixed examples throughout the transition window, and fully staggered by 1965 onward. Flat poles on a 1962 Jaguar are factory original; flat poles on a 1965 or later guitar suggest replacement pickups
+-   Pole piece profile: **flat (level) pole pieces on 1962 production**, transitioning to staggered pole pieces across 1963 and 1964 with mixed examples throughout the transition window, and fully staggered from 1965. **Flush poles then return as the factory specification in mid-1974** and run to the end of production. So flat poles are correct at both ends of the Jaguar's life, and they only raise a question on a guitar built between 1965 and mid-1974
 -   Cloth-covered push-back wire on lead connections from 1962 through 1968 to 1969, typically yellow and black insulation, with plastic insulated wire taking over by the end of the 1960s
 -   Date codes pencilled or stamped on the bottom flatwork in many pre-1965 pickups
 
@@ -347,7 +347,7 @@ Two pots from two different years on the same guitar means one of the following:
 
 <h2 id="neck-date-stamps">Neck Date Stamps</h2>
 
-Remove the neck (four bolts on the neck plate) and you will find the neck date on the heel. Pre-CBS necks usually have a penciled date written by the shaper, sometimes with initials. From the early 1960s into the late 1960s, the factory transitioned to an inked stamp format that encodes more information in a compact string. A typical Jaguar neck stamp from this era looks like **1FEB63B**, which decodes to:
+Remove the neck (four bolts on the neck plate) and you will find the neck date on the heel. On a Jaguar that date is a **rubber stamp**: the model launched in 1962, by which point Fender had moved to an inked stamp format that encodes more information in a compact string. A typical Jaguar neck stamp looks like **1FEB63B**, which decodes to:
 
 The neck date is the most defensible "manufactured date" for the guitar because it represents the actual carving and finishing of the neck. The body date (stamped on the body in the tremolo cavity, or under the pickguard) can be earlier or later because bodies sat in the warehouse before being matched to necks for assembly. The pot dates are downstream of both, since the potentiometer was made before the guitar was wired.
 
@@ -497,7 +497,7 @@ Fender started reissuing the Jaguar in 1986 with the Japanese MIJ Jaguar series.
 -   Polyurethane finishes throughout, including under hardware
 -   Pickup base plates lack pencil dates and use modern, uniform construction
 -   Pot codes use modern manufacturers and date formats inconsistent with the 1960s system
--   Neck dates use modern stamp formats rather than the pencil or ink stamps of vintage production
+-   Neck dates use modern stamp formats rather than the inked stamps of vintage production
 
 ### Outright Counterfeits
 
@@ -518,7 +518,7 @@ Run this list every time before you make an offer on a vintage Jaguar.
 -   Confirm the pickguard layer count and material match the era
 -   Inspect pickguard screw holes for matches to factory drill points
 -   Pull a pickup and verify the bottom color (black on 1962 to mid-1964, gray after)
--   Check pole piece profile: flat poles on 1962, transitional through 1963 to 1964, fully staggered from 1965 onward
+-   Check pole piece profile: flat poles on 1962, transitional through 1963 to 1964, fully staggered from 1965, and flush again from mid-1974
 -   Verify pickup base plate construction and date codes if present
 -   Pull the control plates and inspect for brass shielding tubs with original ground wires soldered in place
 -   Check finish chips and pickup cavities for the yellow amber Fullerplast sealer layer (1963 onward)
