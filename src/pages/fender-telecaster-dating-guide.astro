@@ -34,10 +34,16 @@
  *     something specific and different.)
  *   - Keep a photo caption on the one thing the photo is for.
  *
- * LOGO COLOR. On a STANDARD Telecaster the spaghetti logo is SILVER. This is
- * NOT the same as the Stratocaster, where Joe confirmed it is gold. The 1959
- * Telecaster guide states the split directly: "silver on the standard model and
- * gold on the Custom." Do not "correct" silver to gold on this page.
+ * LOGO COLOR. Joe's full ruling, do not change without him:
+ *   Stratocaster       = GOLD
+ *   Jazzmaster         = GOLD
+ *   Telecaster         = SILVER
+ *   Esquire            = GOLD
+ *   Telecaster Custom  = GOLD
+ * So the STANDARD Telecaster is the odd one out across the whole line, and
+ * silver is NOT the default Fender color. Do not "correct" silver to gold on a
+ * standard Tele, and do not carry silver across onto the Esquire, which shares
+ * almost everything else with the Telecaster but not this.
  *
  * Content facts trace to Joe's own live pages and VG_FACTS.md: VG-0053 (dating
  * methodology), VG-0056 / VG-0057 (pickup dating and era), VG-0066 (1950s
@@ -198,7 +204,7 @@ const fastRows: [string, string, string, string][] = [
   ["The bridge", "Strings through the body, except from about mid-1958 to mid-1959 when they anchored at the back of the plate", "Turn the guitar over and look for string ferrules. A 1959 transition plate can carry both sets of holes at once.", "#bridge"],
   ["The saddles", "Brass to mid-1954, smooth steel to 1958, threaded barrels to 1968, smooth with grooves after", "Four stages, and more changes than any other single part on the guitar. The brass window is the shortest of the four.", "#bridge"],
   ["The fingerboard", "Maple with a skunk stripe to about April 1959, slab rosewood to August 1962, veneer rosewood after, maple cap from about 1965, one-piece maple with the stripe back from 1969", "Look at the rosewood depth at the nut, and at the back of the neck for the stripe. A stripe is correct in the 1950s and again from 1969, so its absence points at roughly 1965 to 1968.", "#neck"],
-  ["The logo", "Spaghetti into 1965, transition 1965 to 1967, heavy black CBS from 1967", "On a standard Telecaster the spaghetti logo is silver. The headstock outline never changed size, so unlike a Stratocaster there is no shape clue here at all.", "#headstock"],
+  ["The logo", "Spaghetti into 1965, transition 1965 to 1967, heavy black CBS from 1967", "The standard Telecaster is the one Fender wearing a silver spaghetti decal; an Esquire or a Telecaster Custom wears gold. The headstock outline never changed size either, so unlike a Stratocaster there is no shape clue here at all.", "#headstock"],
 ];
 
 // Tuner housings, four eras. Readable without removing anything.
@@ -568,7 +574,8 @@ const breadcrumbSchema = {
         <p>Start with what the Telecaster does not give you. The outline never changed size. Fender widened the Stratocaster headstock in late 1965, and the Mustang took the enlarged CBS headstock across late 1965 into 1966, but the Telecaster kept its shape from 1950 onward, so the fastest check on a Strat is simply unavailable here. Everything on this headstock has to be read from the decal and the tuners instead.</p>
 
         <h3 id="logo">The Logo And The Patent Numbers</h3>
-        <p>The spaghetti logo, thin and flowing, runs from 1950 <b>into 1965</b> on a Telecaster. That is about a year longer than on a Stratocaster, which moved to the transition logo in mid-1964, and it is the single most common way a Telecaster gets misdated. On a standard Telecaster the spaghetti decal is silver. The Telecaster Custom, introduced in 1959, wears a gold one instead, so the color separates the two models rather than two eras.</p>
+        <p>The spaghetti logo, thin and flowing, runs from 1950 <b>into 1965</b> on a Telecaster. That is about a year longer than on a Stratocaster, which moved to the transition logo in mid-1964, and it is the single most common way a Telecaster gets misdated.</p>
+        <p><b>Color separates the models here, not the eras, and the standard Telecaster is the odd one out.</b> A standard Tele wears a <b>silver</b> spaghetti decal. The <b>Esquire</b> and the <b>Telecaster Custom</b> both wear <b>gold</b> ones, as do the Stratocaster and the Jazzmaster. So silver is specific to the standard Telecaster rather than being the normal Fender color, and gold on an Esquire is correct rather than a sign somebody has fitted a Custom's decal. Read the color as naming the model and the weight of the script as naming the era.</p>
         <div class="figrow gallery">
           <figure class="sfig">
             <LicensedImage src={bmeta(T59, "1959-fender-telecaster-blonde-headstock-scaled.jpg")} alt="The headstock of a 1959 Fender Telecaster with the silver spaghetti logo and two patent numbers below the model name" width={1600} />
@@ -680,7 +687,7 @@ const breadcrumbSchema = {
         </table></div>
         <div class="figrow gallery">
           <figure class="sfig"><LicensedImage src={meta("fender-bridge-plate-serial-number-scaled.jpg")} alt="A Fender Telecaster bridge plate with the serial number stamped into the metal, 1950 to 1954" width={1280} /><figcaption>The bridge plate serial, 1950 to about 1954. This is where the number lives on the earliest and most valuable Telecasters and Esquires.</figcaption></figure>
-          <figure class="sfig"><LicensedImage src={meta("1957-fender-esquire-blonde.jpg")} alt="The neck plate of a 1957 Fender Esquire with the serial number stamped at the top edge" width={1280} /><figcaption>A 1957 Esquire, after the number moved to the neck plate. The Esquire and the Telecaster share their serial scheme, their model code, and most of their timeline.</figcaption></figure>
+          <figure class="sfig"><LicensedImage src={meta("1957-fender-esquire-blonde.jpg")} alt="The neck plate of a 1957 Fender Esquire with the serial number stamped at the top edge" width={1280} /><figcaption>A 1957 Esquire, after the number moved to the neck plate. The Esquire and the Telecaster share their serial scheme, their model code, and most of their timeline. The headstock decal is one of the few places they part company, since an Esquire's is gold where a standard Telecaster's is silver.</figcaption></figure>
           <figure class="sfig"><LicensedImage src={meta("1967-fender-f-plate-serial-number.jpg")} alt="A 1967 Fender big-F neck plate with a six-digit serial number stamped above a large stylized F" width={1280} /><figcaption>The big-F plate, from about the third quarter of 1965. The six digits sit above the large stylized F, not below it.</figcaption></figure>
         </div>
         <p class="note-sm">There is no Telecaster serial chart on this page because Fender serials are not model-specific. A 1963 neck plate reads exactly the same whether it ended up under a Telecaster, a Stratocaster, or a Jazz Bass, so the charts live once on the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a> rather than being copied onto every model page. The free lookup and every prefix from the 1950s through the modern reissues and imports are there too.</p>
