@@ -32,6 +32,24 @@ const blog = defineCollection({
         })
       )
       .default([]),
+    // Opt-in YouTube video. When set, the post layout loads the lite-yt-embed
+    // assets and emits a VideoObject (plus a Clip per chapter, which is what
+    // Google reads for key moments). The player itself is placed in the body
+    // markdown wherever it belongs, as <lite-youtube videoid="...">.
+    video: z
+      .object({
+        id: z.string(),
+        title: z.string(),
+        description: z.string(),
+        // Full ISO timestamp from the watch page, never invented.
+        uploadDate: z.string(),
+        // Runtime in seconds, from the watch page's lengthSeconds.
+        seconds: z.number(),
+        chapters: z
+          .array(z.object({ start: z.number(), name: z.string() }))
+          .default([]),
+      })
+      .optional(),
   }),
 });
 

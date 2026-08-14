@@ -94,6 +94,38 @@ const imageSchema = heroAbs
     }
   : undefined;
 
+// Optional VideoObject for posts that embed one of Joe's YouTube videos. The
+// chapter list becomes a Clip array, which is the shape Google reads for key
+// moments; each Clip's endOffset is the next chapter's start, and the last one
+// runs to the end of the video. All metadata comes from the watch page.
+const vid = data.video;
+const videoSchema = vid
+  ? {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "@id": `${postUrl}#video`,
+      name: vid.title,
+      description: vid.description,
+      thumbnailUrl: `https://i.ytimg.com/vi/${vid.id}/maxresdefault.jpg`,
+      uploadDate: vid.uploadDate,
+      duration: `PT${Math.floor(vid.seconds / 60)}M${vid.seconds % 60}S`,
+      embedUrl: `https://www.youtube.com/embed/${vid.id}`,
+      contentUrl: `https://www.youtube.com/watch?v=${vid.id}`,
+      author: { "@id": `${SITE_URL}/about-me/#person` },
+      ...(vid.chapters.length
+        ? {
+            hasPart: vid.chapters.map((c, i) => ({
+              "@type": "Clip",
+              name: c.name,
+              startOffset: c.start,
+              endOffset: vid.chapters[i + 1]?.start ?? vid.seconds,
+              url: `${postUrl}#video`,
+            })),
+          }
+        : {}),
+    }
+  : null;
+
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -121,8 +153,15 @@ const articleSchema = {
   ogType="article"
   publishedTime={data.pubDate.toISOString()}
   modifiedTime={data.modified.toISOString()}
-  structuredData={[breadcrumbSchema, articleSchema]}
+  structuredData={videoSchema ? [breadcrumbSchema, articleSchema, videoSchema] : [breadcrumbSchema, articleSchema]}
 >
+  {vid && (
+    <>
+      <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+      <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
+    </>
+  )}
+
   <div class="bpost-header-backdrop" aria-hidden="true"></div>
 
   {data.toc.length > 0 && (
@@ -696,6 +735,22 @@ const articleSchema = {
      way. Applies to every post, so future pasted URLs are safe too. */
   .blog-prose a,
   .blog-prose code { overflow-wrap: anywhere; }
+  /* Video embeds (posts with `video` frontmatter). lite-youtube sizes itself
+     from its own stylesheet; this just gives it the same framing the photos
+     get, plus the small caption line underneath. */
+  .blog-prose .bpost-video {
+    margin: 1.8em 0 0.6em;
+    border: 1px solid #e0cfa9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  }
+  .blog-prose .bpost-video lite-youtube { max-width: 100%; width: 100%; }
+  .blog-prose .bpost-video-note {
+    margin: 0 0 1.8em;
+    font-size: 0.88rem;
+    color: #6b5c45;
+  }
   @media (max-width: 640px) {
     .blog-prose { font-size: 1rem; }
     .blog-prose table { display: block; overflow-x: auto; white-space: nowrap; }
