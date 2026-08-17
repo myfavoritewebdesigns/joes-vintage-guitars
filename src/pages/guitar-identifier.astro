@@ -1,0 +1,222 @@
+---
+/**
+ * AI guitar identifier — conversational front end for /api/identify.
+ *
+ * A guided flow, not a general chatbot: photo → brand/era ID → "here's where
+ * your serial number is" → serial → dated via Joe's decoder (Fender) or Joe's
+ * brand guides (Gibson/Gretsch/Guild/Martin/Rickenbacker) → free-appraisal CTA.
+ * All model responses are grounded to Joe's own guide content server-side.
+ */
+import Layout from "../layouts/Layout.astro";
+
+const title = "Vintage Guitar Identifier | Joe's Vintage Guitars";
+const description =
+  "Upload a photo or enter a serial number and identify your vintage guitar. Built on Joe's own Fender, Gibson, Gretsch, Guild, Martin, and Rickenbacker dating guides.";
+---
+
+<Layout title={title} description={description}>
+  <main class="gid-wrap">
+    <h1 class="gid-h1">Vintage Guitar Identifier</h1>
+    <p class="gid-intro">
+      Not sure what year, or even what model, your guitar is? Upload a photo or type in the
+      serial number, and this assistant will walk you through identifying it using the same
+      dating references as our
+      <a href="/fender-guitars-serial-number-guide/">Fender</a>,
+      <a href="/how-to-read-gibson-serial-numbers/">Gibson</a>,
+      <a href="/gretsch-serial-number-lookup/">Gretsch</a>,
+      <a href="/guild-serial-number-lookup/">Guild</a>,
+      <a href="/martin-serial-and-model-numbers/">Martin</a>, and
+      <a href="/rickenbacker-serial-numbers/">Rickenbacker</a> serial guides.
+    </p>
+
+    <section class="gid-chat" aria-label="Guitar identification chat">
+      <div class="gid-log" id="gid-log" role="log" aria-live="polite" aria-label="Conversation">
+        <div class="gid-msg gid-msg--bot">
+          <p>
+            Hi! I can help you figure out what your vintage guitar is and when it was made. You
+            can <strong>upload a photo</strong> of it (the headstock helps most), or if you
+            already know the serial number, just type it in along with the brand.
+          </p>
+        </div>
+      </div>
+
+      <p class="gid-status" id="gid-status" role="status" aria-live="polite" hidden>
+        Thinking&hellip;
+      </p>
+
+      <form class="gid-form" id="gid-form">
+        <label class="gid-attach" for="gid-photo" title="Attach a photo">
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+            <circle cx="12" cy="13" r="4"></circle>
+          </svg>
+          <span class="gid-visually-hidden">Attach a photo of your guitar</span>
+          <input type="file" id="gid-photo" accept="image/*,.heic,.heif" hidden />
+        </label>
+        <label class="gid-visually-hidden" for="gid-input">Your message</label>
+        <textarea
+          id="gid-input"
+          rows="1"
+          placeholder="Type a serial number or describe your guitar…"
+          maxlength="2000"
+          required></textarea>
+        <button type="submit" class="gid-send" id="gid-send">Send</button>
+      </form>
+      <p class="gid-note">
+        Photos stay between you and the identifier: they're analyzed, not stored. For a
+        definitive answer on any guitar, <a href="/free-appraisal/">Joe's appraisal is free</a>.
+      </p>
+    </section>
+  </main>
+</Layout>
+
+<script>
+  import "../scripts/guitar-identifier";
+</script>
+
+<style>
+  .gid-wrap {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 2rem 1rem 4rem;
+  }
+  .gid-h1 {
+    color: var(--color-brand-brown, #3e2a14);
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .gid-intro {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  .gid-intro a {
+    color: var(--color-brand-brown, #3e2a14);
+    text-decoration: underline;
+  }
+  .gid-chat {
+    border: 1px solid var(--color-brand-brown-tan, #d2b48c);
+    border-radius: 0.75rem;
+    background: #fffdf8;
+    padding: 1rem;
+  }
+  .gid-log {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    min-height: 14rem;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-bottom: 0.5rem;
+  }
+  .gid-msg {
+    max-width: 85%;
+    padding: 0.6rem 0.9rem;
+    border-radius: 0.75rem;
+    line-height: 1.55;
+  }
+  .gid-msg :global(p + p) {
+    margin-top: 0.5em;
+  }
+  .gid-msg :global(a) {
+    text-decoration: underline;
+    color: inherit;
+  }
+  .gid-msg--bot {
+    background: #f3e9d8;
+    color: #2b1d0e;
+    align-self: flex-start;
+    border-bottom-left-radius: 0.2rem;
+  }
+  .gid-msg--user {
+    background: var(--color-brand-brown, #3e2a14);
+    color: #fff;
+    align-self: flex-end;
+    border-bottom-right-radius: 0.2rem;
+  }
+  .gid-msg--error {
+    background: #fbeaea;
+    color: #7a1f1f;
+    align-self: flex-start;
+  }
+  .gid-msg :global(img) {
+    width: 12rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    display: block;
+  }
+  .gid-status {
+    color: #6b5638;
+    font-style: italic;
+    margin: 0.25rem 0 0;
+  }
+  .gid-form {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    border-top: 1px solid var(--color-brand-brown-tan, #d2b48c);
+    padding-top: 0.75rem;
+  }
+  .gid-attach {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: var(--color-brand-brown, #3e2a14);
+    padding: 0.55rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-brand-brown-tan, #d2b48c);
+    background: #fff;
+  }
+  .gid-attach:hover {
+    background: #f3e9d8;
+  }
+  #gid-input {
+    flex: 1;
+    resize: none;
+    border: 1px solid var(--color-brand-brown-tan, #d2b48c);
+    border-radius: 0.5rem;
+    padding: 0.55rem 0.75rem;
+    font: inherit;
+    line-height: 1.4;
+    background: #fff;
+  }
+  #gid-input:focus {
+    outline: 2px solid var(--color-brand-brown, #3e2a14);
+    outline-offset: 1px;
+  }
+  .gid-send {
+    background: var(--color-brand-brown, #3e2a14);
+    color: #fff;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1.1rem;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .gid-send:hover {
+    background: #59401f;
+  }
+  .gid-send:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  .gid-note {
+    margin: 0.75rem 0 0;
+    font-size: 0.85rem;
+    color: #6b5638;
+  }
+  .gid-note a {
+    color: inherit;
+    text-decoration: underline;
+  }
+  .gid-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+</style>

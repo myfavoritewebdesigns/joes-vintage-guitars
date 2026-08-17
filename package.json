@@ -15,9 +15,11 @@
     "extract:html-first": "node scripts/extract-html-first.mjs",
     "audit:a11y": "node scripts/audit-a11y.mjs",
     "audit:copy": "node scripts/check-copy.mjs",
+    "gen:knowledge": "node scripts/gen-serial-knowledge.mjs",
     "verify": "pnpm run build && pnpm exec astro check && pnpm run audit:copy"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.116.0",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
     "@tailwindcss/vite": "^4.3.2",
