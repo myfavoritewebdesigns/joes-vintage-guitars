@@ -15,18 +15,22 @@ const description =
 ---
 
 <Layout title={title} description={description}>
+  <div class="gid-backdrop" aria-hidden="true">
+    <div class="gid-backdrop__dark"></div>
+    <div class="gid-backdrop__cream"></div>
+  </div>
+
   <main class="gid-wrap">
     <h1 class="gid-h1">Vintage Guitar Identifier</h1>
     <p class="gid-intro">
       Not sure what year, or even what model, your guitar is? Upload a photo or type in the
       serial number, and this assistant will walk you through identifying it using the same
-      dating references as our
-      <a href="/fender-guitars-serial-number-guide/">Fender</a>,
-      <a href="/how-to-read-gibson-serial-numbers/">Gibson</a>,
-      <a href="/gretsch-serial-number-lookup/">Gretsch</a>,
-      <a href="/guild-serial-number-lookup/">Guild</a>,
-      <a href="/martin-serial-and-model-numbers/">Martin</a>, and
-      <a href="/rickenbacker-serial-numbers/">Rickenbacker</a> serial guides.
+      dating references as our <a href="/fender-guitars-serial-number-guide/">Fender</a>, <a
+        href="/how-to-read-gibson-serial-numbers/">Gibson</a>, <a
+        href="/gretsch-serial-number-lookup/">Gretsch</a>, <a
+        href="/guild-serial-number-lookup/">Guild</a>, <a
+        href="/martin-serial-and-model-numbers/">Martin</a>, and <a
+        href="/rickenbacker-serial-numbers/">Rickenbacker</a> serial guides.
     </p>
 
     <section class="gid-chat" aria-label="Guitar identification chat">
@@ -74,7 +78,33 @@ const description =
   import "../scripts/guitar-identifier";
 </script>
 
+<script is:inline>document.body.classList.add("gid-page");</script>
+
+<style is:global>
+  /* Same secondary-nav color flip the serial tool pages use: the transparent
+     header sits on our light backdrop here, so its light nav text needs the
+     brown variant to stay readable. */
+  body.gid-page header nav.border-b-\[6px\] ul { color: var(--color-brand-brown); }
+  body.gid-page header nav.border-b-\[6px\] a,
+  body.gid-page header nav.border-b-\[6px\] summary {
+    color: var(--color-brand-brown) !important;
+  }
+  body.gid-page header nav.border-b-\[6px\] a:hover,
+  body.gid-page header nav.border-b-\[6px\] summary:hover {
+    color: var(--color-brand-rust) !important;
+    background: rgba(160, 58, 30, 0.08) !important;
+  }
+</style>
+
 <style>
+  .gid-backdrop { position: relative; isolation: isolate; z-index: 0; }
+  .gid-backdrop__dark { background: var(--color-brand-brown, #3e2a14); height: 54px; }
+  .gid-backdrop__cream {
+    background: #fff;
+    height: 56px;
+    border-bottom: 6px solid var(--color-brand-brown-tan, #d2b48c);
+  }
+
   .gid-wrap {
     max-width: 46rem;
     margin: 0 auto;
