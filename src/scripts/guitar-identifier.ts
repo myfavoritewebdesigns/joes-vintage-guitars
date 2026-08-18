@@ -239,6 +239,14 @@ async function submit(): Promise<void> {
   }
 }
 
+// PWA: register the identifier's service worker, scoped to this page's path
+// only so it can never intercept (or stale-cache) the rest of the site.
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/gid-sw.js", { scope: "/guitar-identifier/" }).catch(() => {
+    /* unsupported or blocked: the page works identically without it */
+  });
+}
+
 form?.addEventListener("submit", (e) => {
   e.preventDefault();
   void submit();

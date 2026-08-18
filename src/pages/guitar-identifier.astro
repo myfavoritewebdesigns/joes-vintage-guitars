@@ -15,6 +15,11 @@ const description =
 ---
 
 <Layout title={title} description={description}>
+  <link slot="head" rel="manifest" href="/guitar-identifier.webmanifest" />
+  <meta slot="head" name="theme-color" content="#3e2a14" />
+  <meta slot="head" name="apple-mobile-web-app-capable" content="yes" />
+  <meta slot="head" name="apple-mobile-web-app-status-bar-style" content="default" />
+
   <div class="gid-backdrop" aria-hidden="true">
     <div class="gid-backdrop__dark"></div>
     <div class="gid-backdrop__cream"></div>

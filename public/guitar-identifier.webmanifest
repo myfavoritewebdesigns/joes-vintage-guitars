@@ -1,0 +1,14 @@
+{
+  "name": "Vintage Guitar Identifier by Joe's Vintage Guitars",
+  "short_name": "Guitar ID",
+  "description": "Identify your vintage guitar from a photo or serial number, using Joe's own dating guides.",
+  "start_url": "/guitar-identifier/?source=pwa",
+  "scope": "/guitar-identifier/",
+  "display": "standalone",
+  "background_color": "#fffdf8",
+  "theme_color": "#3e2a14",
+  "icons": [
+    { "src": "/images/pwa/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/images/pwa/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
