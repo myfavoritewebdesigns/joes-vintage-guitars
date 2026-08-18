@@ -100,11 +100,39 @@ Where serial numbers live, by brand (summarized from Joe's guides):
 - Rickenbacker: on the jack plate (two-letter date code) or bridge on most models.
 - Fender amps: tube chart date stamp inside the cabinet, transformer EIA codes, and chassis serial.`;
 
+/** Reference photos the model can attach to a reply, by key. The model only
+ *  ever names a key; paths come from this whitelist, so it cannot invent or
+ *  leak URLs. All images are Joe's own, already published on the guide pages
+ *  (the non-Fender ones are copied to public/images/serial-locate/ because
+ *  src/assets URLs are content-hashed and unstable). */
+interface Photo {
+  src: string;
+  alt: string;
+}
+const PHOTOS: Record<string, Photo> = {
+  fender_neck_plate: { src: "/images/fender-sn/neck-plate-tool.jpg", alt: "Fender neck plate serial number" },
+  fender_bridge_plate: { src: "/images/fender-sn/bridge-plate-tool.jpg", alt: "Fender bridge plate serial number" },
+  fender_headstock: { src: "/images/fender-sn/headstock.jpg", alt: "Fender headstock serial number" },
+  fender_neck_heel: { src: "/images/fender-sn/fender-back-of-neck-serial-number-scaled.jpg", alt: "Serial number on the back of a Fender neck heel" },
+  gibson_headstock_stamp: { src: "/images/serial-locate/gibson-headstock-ink-stamp.jpg", alt: "Gibson ink-stamped serial number on the back of the headstock" },
+  gibson_body_label: { src: "/images/serial-locate/gibson-label-inside-body.jpg", alt: "Gibson serial number on the label inside the body" },
+  gretsch_headstock: { src: "/images/serial-locate/gretsch-headstock-serial.jpg", alt: "Gretsch serial number on the headstock" },
+  gretsch_hyphenated: { src: "/images/serial-locate/gretsch-hyphenated-serial.jpg", alt: "1970s Gretsch hyphenated serial number" },
+  gretsch_body_label: { src: "/images/serial-locate/gretsch-label-inside-body.jpg", alt: "Gretsch serial number on the label inside the body" },
+  guild_locations: { src: "/images/serial-locate/guild-serial-locations.jpg", alt: "Where Guild serial numbers are located" },
+  martin_neck_block: { src: "/images/serial-locate/martin-neck-block-serial.jpg", alt: "Martin serial and model number on the neck block" },
+  rickenbacker_jack_plate: { src: "/images/serial-locate/rickenbacker-jack-plate-serial.jpg", alt: "Rickenbacker two-letter date code on the jack plate" },
+  rickenbacker_bridge: { src: "/images/serial-locate/rickenbacker-bridge-serial.jpg", alt: "Rickenbacker serial number on the bridge" },
+};
+const PHOTO_KEYS = Object.keys(PHOTOS);
+const MAX_REPLY_PHOTOS = 4;
+
 const SYSTEM_PROMPT = `You are the vintage guitar identification assistant on ${BUSINESS.name}'s website (${BUSINESS.site}). Joe is a vintage guitar dealer in Mesa, Arizona who buys vintage guitars and offers free appraisals.
 
 Your job is a guided identification flow:
 1. Offer the visitor two paths: upload a photo of the guitar, or enter a serial number directly.
 2. If they send a photo: identify the brand, likely model, and era from what you can see (headstock shape, logo style, body, hardware). Say what you're confident about and what you're not. Then tell them exactly where to find the serial number on that guitar, using the brand guidance below, and ask them to type it in.
+   Whenever you tell a visitor where to look for a serial number, also call attach_photos with the matching photo keys. Joe's reference photos then appear under your message, and you can point to them ("like the photo below"). Follow-up questions from the Fender decoder attach their own photos automatically.
 3. When you have a serial number: for FENDER guitars and basses, you MUST call decode_fender_serial — never date a Fender serial yourself, the decoder is Joe's verified logic. If it asks a follow-up (returned in the tool result), relay that question conversationally with its choices, then call answer_fender_step with their answer. For other brands, call get_brand_guide and date the serial only from what Joe's guide says, quoting ranges from the guide. If the guide shows a serial is ambiguous (very common for Gibson), say so plainly and point to cross-dating (pot codes, neck stamps) — ambiguity is exactly why Joe offers a free appraisal.
 4. After a successful identification, wrap up warmly: suggest Joe's free appraisal at ${BUSINESS.appraisal} (or calling ${BUSINESS.phone}) if they're curious what it's worth or thinking of selling.
 
@@ -147,6 +175,22 @@ const TOOLS: Anthropic.Messages.ToolUnion[] = [
     },
   },
   {
+    name: "attach_photos",
+    description:
+      "Attach Joe's reference photos to your reply, shown to the visitor under your message. Use when telling someone where to find a serial number. Pass the keys matching the locations you mention.",
+    input_schema: {
+      type: "object",
+      properties: {
+        keys: {
+          type: "array",
+          items: { type: "string", enum: PHOTO_KEYS },
+          description: "Photo keys to attach, matching the locations mentioned in your reply",
+        },
+      },
+      required: ["keys"],
+    },
+  },
+  {
     name: "get_brand_guide",
     description:
       "Fetch the full text of Joe's serial-number guide for a brand (serial ranges, dating tables, cross-dating advice). Call this before dating any non-Fender serial, and when you need detail beyond the summary — e.g. Gibson's overlapping ranges or Rickenbacker letter codes.",
@@ -165,8 +209,10 @@ const TOOLS: Anthropic.Messages.ToolUnion[] = [
 ];
 
 /** Serialize a decoder Outcome for the model, expanding ask-steps with the
- *  actual question and choices from STEPS so the model can relay them. */
-function outcomeForModel(outcome: Outcome): string {
+ *  actual question and choices from STEPS so the model can relay them. Ask
+ *  steps auto-attach their choice photos (neck plate vs bridge plate etc.) so
+ *  the visitor sees what they're being asked about without model cooperation. */
+function outcomeForModel(outcome: Outcome, attach: (p: Photo) => void): string {
   if (outcome.kind === "result") {
     return JSON.stringify({
       kind: "result",
@@ -178,6 +224,9 @@ function outcomeForModel(outcome: Outcome): string {
   }
   if (outcome.kind === "ask") {
     const def = STEPS[outcome.step];
+    for (const card of def.cards) {
+      if (card.image) attach({ src: card.image.src, alt: card.image.alt });
+    }
     return JSON.stringify({
       kind: "ask",
       step: outcome.step,
@@ -193,14 +242,19 @@ function outcomeForModel(outcome: Outcome): string {
   });
 }
 
-function runTool(name: string, input: Record<string, unknown>): string {
+function runTool(name: string, input: Record<string, unknown>, attach: (p: Photo) => void): string {
   switch (name) {
     case "decode_fender_serial":
-      return outcomeForModel(decodeSerial(String(input.serial ?? "")));
+      return outcomeForModel(decodeSerial(String(input.serial ?? "")), attach);
     case "answer_fender_step": {
       const step = String(input.step ?? "");
       if (!(step in STEPS)) return JSON.stringify({ error: `Unknown step "${step}"` });
-      return outcomeForModel(answerStep(String(input.serial ?? ""), step as StepId, String(input.choice ?? "")));
+      return outcomeForModel(answerStep(String(input.serial ?? ""), step as StepId, String(input.choice ?? "")), attach);
+    }
+    case "attach_photos": {
+      const keys = (Array.isArray(input.keys) ? input.keys : []).map(String).filter((k) => k in PHOTOS);
+      keys.forEach((k) => attach(PHOTOS[k]));
+      return JSON.stringify({ attached: keys });
     }
     case "get_brand_guide": {
       const brand = String(input.brand ?? "") as BrandKey;
@@ -279,9 +333,21 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
   if (typeof messages === "string") return json({ ok: false, error: messages }, 400);
 
   const client = new Anthropic({ apiKey });
+  // Model override so Opus vs Haiku can be A/B tested from the dashboard
+  // without a code change. Haiku 4.5 does not accept the effort parameter.
+  const model = envStr(env, "ANTHROPIC_MODEL") ?? "claude-opus-5";
+
+  // Reference photos accumulated across this turn's tool calls (deduped,
+  // capped), returned alongside the reply for the client to render.
+  const attachments: Photo[] = [];
+  const attach = (p: Photo): void => {
+    if (attachments.length < MAX_REPLY_PHOTOS && !attachments.some((a) => a.src === p.src)) {
+      attachments.push(p);
+    }
+  };
 
   try {
-    let response = await createMessage(client, messages);
+    let response = await createMessage(client, model, messages);
 
     // Server-side tool loop: run decoder/guide tools locally, feed results back.
     for (let i = 0; i < MAX_TOOL_ITERATIONS && response.stop_reason === "tool_use"; i++) {
@@ -290,11 +356,11 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
         .map((b) => ({
           type: "tool_result",
           tool_use_id: b.id,
-          content: runTool(b.name, b.input as Record<string, unknown>),
+          content: runTool(b.name, b.input as Record<string, unknown>, attach),
         }));
       messages.push({ role: "assistant", content: response.content });
       messages.push({ role: "user", content: toolResults });
-      response = await createMessage(client, messages);
+      response = await createMessage(client, model, messages);
     }
 
     // Opus 5 safety classifiers can decline (HTTP 200, stop_reason "refusal") —
@@ -312,7 +378,11 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
       .join("\n")
       .trim();
 
-    return json({ ok: true, reply: reply || "Sorry, I lost my train of thought. Could you say that again?" });
+    return json({
+      ok: true,
+      reply: reply || "Sorry, I lost my train of thought. Could you say that again?",
+      ...(attachments.length ? { images: attachments } : {}),
+    });
   } catch (err) {
     console.error("[identify] API error", err);
     const status = err instanceof Anthropic.APIError && err.status === 429 ? 429 : 502;
@@ -329,13 +399,14 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
   }
 };
 
-function createMessage(client: Anthropic, messages: Anthropic.Messages.MessageParam[]) {
+function createMessage(client: Anthropic, model: string, messages: Anthropic.Messages.MessageParam[]) {
   return client.messages.create({
-    model: "claude-opus-5",
+    model,
     max_tokens: 1024,
     // Balance chat latency against vision/dating judgment; raise to "high" if
     // photo IDs come back sloppy, lower to "low" if Joe finds it too slow.
-    output_config: { effort: "medium" },
+    // Haiku models don't support the effort parameter, so omit it there.
+    ...(model.includes("haiku") ? {} : { output_config: { effort: "medium" } }),
     tools: TOOLS,
     // Cache tools+system (render order: tools → system → messages), so every
     // turn after the first reads the prefix at ~10% price. Well over the

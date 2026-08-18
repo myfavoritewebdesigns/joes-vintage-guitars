@@ -175,6 +175,16 @@ const description =
     border-radius: 0.5rem;
     display: block;
   }
+  .gid-msg :global(.gid-photos) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.6rem;
+  }
+  .gid-msg :global(.gid-photos img) {
+    width: 10rem;
+    border: 1px solid var(--color-brand-brown-tan, #d2b48c);
+  }
   .gid-status {
     color: #6b5638;
     font-style: italic;

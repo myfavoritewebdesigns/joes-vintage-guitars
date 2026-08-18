@@ -58,10 +58,16 @@ function bubble(cls: string): HTMLDivElement {
   return div;
 }
 
+interface ReplyImage {
+  src: string;
+  alt: string;
+}
+
 /** Assistant text → paragraphs, with Joe's site links made clickable. Built
  *  with createElement/textContent throughout — model output is never given to
- *  innerHTML. */
-function renderReply(text: string): void {
+ *  innerHTML. Reference photos come as a server-validated whitelist and render
+ *  as clickable thumbnails under the text. */
+function renderReply(text: string, images?: ReplyImage[]): void {
   const div = bubble("gid-msg--bot");
   for (const para of text.split(/\n{2,}/)) {
     const p = document.createElement("p");
@@ -79,6 +85,24 @@ function renderReply(text: string): void {
       }
     }
     div.appendChild(p);
+  }
+  if (images?.length) {
+    const strip = document.createElement("div");
+    strip.className = "gid-photos";
+    for (const img of images) {
+      if (!/^\/images\//.test(img.src)) continue;
+      const a = document.createElement("a");
+      a.href = img.src;
+      a.target = "_blank";
+      a.rel = "noopener";
+      const el = document.createElement("img");
+      el.src = img.src;
+      el.alt = img.alt;
+      el.loading = "lazy";
+      a.appendChild(el);
+      strip.appendChild(a);
+    }
+    div.appendChild(strip);
   }
 }
 
@@ -196,7 +220,7 @@ async function submit(): Promise<void> {
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ messages }),
     });
-    const data = (await res.json()) as { ok: boolean; reply?: string; error?: string };
+    const data = (await res.json()) as { ok: boolean; reply?: string; error?: string; images?: ReplyImage[] };
     if (!res.ok || !data.ok || !data.reply) {
       // Drop the failed turn so a retry re-sends it cleanly.
       messages.pop();
@@ -204,7 +228,7 @@ async function submit(): Promise<void> {
       return;
     }
     messages.push({ role: "assistant", content: [{ type: "text", text: data.reply }] });
-    renderReply(data.reply);
+    renderReply(data.reply, data.images);
     track("guitar_id_reply", { turn: Math.ceil(messages.length / 2) });
   } catch {
     messages.pop();
