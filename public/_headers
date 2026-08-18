@@ -36,3 +36,17 @@
 # too (the page also sets meta robots noindex and is sitemap-excluded).
 /fender-serial-tool-v2/
   X-Robots-Tag: noindex
+
+# Vintage Guitar AI, installable-app files.
+# The service worker must never be served stale: a cached sw.js is how an
+# installed app gets pinned to an old build. no-cache still allows a 304, it
+# just forces the revalidation.
+/guitar-identifier/sw.js
+  Cache-Control: no-cache
+  Service-Worker-Allowed: /guitar-identifier/
+
+# Some CDNs guess text/plain for .webmanifest, and a browser that does not see
+# a manifest content type silently declines to install with no error.
+/guitar-identifier/manifest.webmanifest
+  Content-Type: application/manifest+json; charset=utf-8
+  Cache-Control: public, max-age=3600
