@@ -127,12 +127,32 @@ const PHOTOS: Record<string, Photo> = {
 const PHOTO_KEYS = Object.keys(PHOTOS);
 const MAX_REPLY_PHOTOS = 4;
 
+/** Joe's videos the model can attach, by key. Same whitelist principle as
+ *  PHOTOS: the model names a key, the ids live here. The timestamped entries
+ *  deep-link into the moment of the dating video that demonstrates the
+ *  technique being recommended. */
+interface Video {
+  youtubeId: string;
+  start?: number;
+  title: string;
+}
+const VIDEOS: Record<string, Video> = {
+  fender_dating_video: { youtubeId: "PIRoB0KHEg0", title: "Joe's guide to dating a vintage Fender" },
+  fender_pot_codes_video: { youtubeId: "PIRoB0KHEg0", start: 184, title: "How to read Fender pot codes" },
+  fender_neck_date_video: { youtubeId: "PIRoB0KHEg0", start: 125, title: "Finding the neck date stamp" },
+  martin_serial_video: { youtubeId: "WGF-pL6GB38", title: "Dating a Martin by serial number" },
+  free_appraisal_video: { youtubeId: "uSu-Ld-xgnI", title: "How Joe's free appraisal works" },
+};
+const VIDEO_KEYS = Object.keys(VIDEOS);
+const MAX_REPLY_VIDEOS = 2;
+
 const SYSTEM_PROMPT = `You are the vintage guitar identification assistant on ${BUSINESS.name}'s website (${BUSINESS.site}). Joe is a vintage guitar dealer in Mesa, Arizona who buys vintage guitars and offers free appraisals.
 
 Your job is a guided identification flow:
 1. Offer the visitor two paths: upload a photo of the guitar, or enter a serial number directly.
 2. If they send a photo: identify the brand, likely model, and era from what you can see (headstock shape, logo style, body, hardware). Say what you're confident about and what you're not. Then tell them exactly where to find the serial number on that guitar, using the brand guidance below, and ask them to type it in.
    Whenever you tell a visitor where to look for a serial number, also call attach_photos with the matching photo keys. Joe's reference photos then appear under your message, and you can point to them ("like the photo below"). Follow-up questions from the Fender decoder attach their own photos automatically.
+   Joe also has videos you can attach with attach_videos when they genuinely fit: the pot codes video when you recommend pot-code cross-dating, the neck date video for neck-stamp checks, the Martin serial video for Martin dating, the appraisal video when someone is thinking of selling. At most one or two per reply, only when relevant.
 3. When you have a serial number: for FENDER guitars and basses, you MUST call decode_fender_serial — never date a Fender serial yourself, the decoder is Joe's verified logic. If it asks a follow-up (returned in the tool result), relay that question conversationally with its choices, then call answer_fender_step with their answer. For other brands, call get_brand_guide and date the serial only from what Joe's guide says, quoting ranges from the guide. If the guide shows a serial is ambiguous (very common for Gibson), say so plainly and point to cross-dating (pot codes, neck stamps) — ambiguity is exactly why Joe offers a free appraisal.
 4. After a successful identification, wrap up warmly: suggest Joe's free appraisal at ${BUSINESS.appraisal} (or calling ${BUSINESS.phone}) if they're curious what it's worth or thinking of selling.
 
@@ -191,6 +211,22 @@ const TOOLS: Anthropic.Messages.ToolUnion[] = [
     },
   },
   {
+    name: "attach_videos",
+    description:
+      "Attach Joe's how-to videos to your reply, shown as playable embeds under your message. Use when a video demonstrates what you're recommending (pot codes, neck dates, Martin serials, the appraisal process).",
+    input_schema: {
+      type: "object",
+      properties: {
+        keys: {
+          type: "array",
+          items: { type: "string", enum: VIDEO_KEYS },
+          description: "Video keys to attach",
+        },
+      },
+      required: ["keys"],
+    },
+  },
+  {
     name: "get_brand_guide",
     description:
       "Fetch the full text of Joe's serial-number guide for a brand (serial ranges, dating tables, cross-dating advice). Call this before dating any non-Fender serial, and when you need detail beyond the summary — e.g. Gibson's overlapping ranges or Rickenbacker letter codes.",
@@ -242,7 +278,12 @@ function outcomeForModel(outcome: Outcome, attach: (p: Photo) => void): string {
   });
 }
 
-function runTool(name: string, input: Record<string, unknown>, attach: (p: Photo) => void): string {
+function runTool(
+  name: string,
+  input: Record<string, unknown>,
+  attach: (p: Photo) => void,
+  attachVideo: (v: Video) => void,
+): string {
   switch (name) {
     case "decode_fender_serial":
       return outcomeForModel(decodeSerial(String(input.serial ?? "")), attach);
@@ -254,6 +295,11 @@ function runTool(name: string, input: Record<string, unknown>, attach: (p: Photo
     case "attach_photos": {
       const keys = (Array.isArray(input.keys) ? input.keys : []).map(String).filter((k) => k in PHOTOS);
       keys.forEach((k) => attach(PHOTOS[k]));
+      return JSON.stringify({ attached: keys });
+    }
+    case "attach_videos": {
+      const keys = (Array.isArray(input.keys) ? input.keys : []).map(String).filter((k) => k in VIDEOS);
+      keys.forEach((k) => attachVideo(VIDEOS[k]));
       return JSON.stringify({ attached: keys });
     }
     case "get_brand_guide": {
@@ -345,6 +391,15 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
       attachments.push(p);
     }
   };
+  const videoAttachments: Video[] = [];
+  const attachVideo = (v: Video): void => {
+    if (
+      videoAttachments.length < MAX_REPLY_VIDEOS &&
+      !videoAttachments.some((a) => a.youtubeId === v.youtubeId && a.start === v.start)
+    ) {
+      videoAttachments.push(v);
+    }
+  };
 
   try {
     let response = await createMessage(client, model, messages);
@@ -356,7 +411,7 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
         .map((b) => ({
           type: "tool_result",
           tool_use_id: b.id,
-          content: runTool(b.name, b.input as Record<string, unknown>, attach),
+          content: runTool(b.name, b.input as Record<string, unknown>, attach, attachVideo),
         }));
       messages.push({ role: "assistant", content: response.content });
       messages.push({ role: "user", content: toolResults });
@@ -382,6 +437,7 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
       ok: true,
       reply: reply || "Sorry, I lost my train of thought. Could you say that again?",
       ...(attachments.length ? { images: attachments } : {}),
+      ...(videoAttachments.length ? { videos: videoAttachments } : {}),
     });
   } catch (err) {
     console.error("[identify] API error", err);
