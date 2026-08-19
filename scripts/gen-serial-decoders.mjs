@@ -109,14 +109,20 @@ const strip = (h) =>
     .replace(/\\s+/g, " ")
     .trim();
 
-/** More than one year named in the answer means the widget is telling us the
- *  serial genuinely spans eras. Surfacing that is the whole point: asked to
- *  read this out of prose, the model collapsed these to a single year. */
-const isAmbiguous = (t) => new Set(t.match(/\\b(19|20)\\d{2}\\b/g) || []).size > 1;
-const wrap = (html) => {
-  const text = strip(html);
-  return { text, ambiguous: isAmbiguous(text) };
+/** Ambiguity has to come from the decoder's CLAIM, never from counting years in
+ *  the whole answer. Rickenbacker names its format's era ("1961-1986 two-letter
+ *  code") in the same sentence as a precise date, and Gretsch prints era
+ *  boundaries, so a naive year count flags a confident answer as uncertain and
+ *  makes the tool hedge when it should not.
+ *
+ *  Every widget puts its actual claim in the first <strong>, so that is what
+ *  gets counted. */
+const claimYears = (html) => {
+  const m = String(html).match(/<strong>([\\s\\S]*?)<\\/strong>/);
+  const claim = m ? m[1] : "";
+  return new Set(claim.match(/\\b(18|19|20)\\d{2}\\b/g) || []);
 };
+const wrap = (html) => ({ text: strip(html), ambiguous: claimYears(html).size > 1 });
 
 // Each brand keeps its own scope. Three of the four widgets declare MONTHS, and
 // two declare decode(), so concatenating them into one module scope collides.
@@ -174,7 +180,8 @@ export function decodeGretsch(serial) {
   const text = strip(
     (parts.length > 1 ? "This serial has " + parts.length + " possible readings. " : "") + parts.join(" | "),
   );
-  return { text, ambiguous: parts.length > 1 || isAmbiguous(text) };
+  // The widget returning several result objects IS the ambiguity signal.
+  return { text, ambiguous: parts.length > 1 };
 }
 
 // ---------------------------------------------------------------------------
@@ -188,8 +195,10 @@ ${RICK}
 export function decodeRickenbacker(serial) {
   const r = RICKENBACKER.decode(String(serial || ""));
   if (r && r.err) return { text: strip(r.err), ambiguous: false };
+  // Rickenbacker resolves to a single month and year or to an error; the era
+  // range in its detail string is the format's span, not a second candidate.
   const text = strip([r && r.date, r && r.detail].filter(Boolean).join(". "));
-  return { text: text || "No match in Joe's Rickenbacker data.", ambiguous: isAmbiguous(text) };
+  return { text: text || "No match in Joe's Rickenbacker data.", ambiguous: false };
 }
 
 // ---------------------------------------------------------------------------
