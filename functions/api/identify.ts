@@ -163,7 +163,9 @@ Grounding rules — these are hard limits:
 - Never present a guess as a fact. Confidence language matters: "the L-series plate suggests", not "this is".
 ${SERIAL_LOCATIONS}
 
-Style: warm, plain-spoken, concise. This is a chat window, so keep replies to a few short paragraphs at most. No markdown headers or bullet walls; write like Joe's knowledgeable shop assistant. One question at a time. House copy rules: never use em dashes (use commas, periods, or parentheses instead) and never use emoji.`;
+Style: warm, plain-spoken, concise. This is a chat window, so keep replies to a few short paragraphs at most. No markdown headers or bullet walls; write like Joe's knowledgeable shop assistant. One question at a time. House copy rules: never use em dashes (use commas, periods, or parentheses instead) and never use emoji.
+
+Answering: lead with the answer. Do not write a "let me look that up" preamble before calling a tool, and never claim you attached a photo or video unless the attach tool reported that exact key under "attached".`;
 
 // ─── Tools ───────────────────────────────────────────────────────────────────
 
@@ -293,14 +295,41 @@ function runTool(
       return outcomeForModel(answerStep(String(input.serial ?? ""), step as StepId, String(input.choice ?? "")), attach);
     }
     case "attach_photos": {
-      const keys = (Array.isArray(input.keys) ? input.keys : []).map(String).filter((k) => k in PHOTOS);
-      keys.forEach((k) => attach(PHOTOS[k]));
-      return JSON.stringify({ attached: keys });
+      // Rejected keys used to be dropped silently and reported as success, so
+      // the model would tell the visitor "I attached a photo below" when
+      // nothing had been attached. Name the rejects and the valid set instead.
+      const asked = (Array.isArray(input.keys) ? input.keys : []).map(String);
+      const ok = asked.filter((k) => k in PHOTOS);
+      const rejected = asked.filter((k) => !(k in PHOTOS));
+      ok.forEach((k) => attach(PHOTOS[k]));
+      return JSON.stringify({
+        attached: ok,
+        ...(rejected.length
+          ? {
+              rejected,
+              valid_keys: PHOTO_KEYS,
+              warning:
+                "The rejected keys do not exist and nothing was attached for them. Do NOT tell the visitor you attached them. Retry with a key from valid_keys, or say nothing about a photo.",
+            }
+          : {}),
+      });
     }
     case "attach_videos": {
-      const keys = (Array.isArray(input.keys) ? input.keys : []).map(String).filter((k) => k in VIDEOS);
-      keys.forEach((k) => attachVideo(VIDEOS[k]));
-      return JSON.stringify({ attached: keys });
+      const asked = (Array.isArray(input.keys) ? input.keys : []).map(String);
+      const ok = asked.filter((k) => k in VIDEOS);
+      const rejected = asked.filter((k) => !(k in VIDEOS));
+      ok.forEach((k) => attachVideo(VIDEOS[k]));
+      return JSON.stringify({
+        attached: ok,
+        ...(rejected.length
+          ? {
+              rejected,
+              valid_keys: VIDEO_KEYS,
+              warning:
+                "The rejected keys do not exist and nothing was attached for them. Do NOT tell the visitor you attached them. Retry with a key from valid_keys, or say nothing about a video.",
+            }
+          : {}),
+      });
     }
     case "get_brand_guide": {
       const brand = String(input.brand ?? "") as BrandKey;
@@ -402,10 +431,28 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
   };
 
   try {
+    // Text the model emits IN THE SAME TURN as a tool call. Claude routinely
+    // writes the actual answer ("Your Gibson dates to 1964...") alongside an
+    // attach_photos / attach_videos call, and that turn's response object is
+    // replaced on the next loop iteration. Collecting as we go is what keeps
+    // the answer; reading only the final response throws it away.
+    const textParts: string[] = [];
+    const collectText = (r: Anthropic.Messages.Message): void => {
+      const t = r.content
+        .filter((b): b is Anthropic.Messages.TextBlock => b.type === "text")
+        .map((b) => b.text)
+        .join("\n")
+        .trim();
+      // The model sometimes restates its preamble after a tool result; keep the
+      // first occurrence only so the reply does not read double.
+      if (t && !textParts.includes(t)) textParts.push(t);
+    };
+
     let response = await createMessage(client, model, messages);
 
     // Server-side tool loop: run decoder/guide tools locally, feed results back.
     for (let i = 0; i < MAX_TOOL_ITERATIONS && response.stop_reason === "tool_use"; i++) {
+      collectText(response);
       const toolResults: Anthropic.Messages.ToolResultBlockParam[] = response.content
         .filter((b): b is Anthropic.Messages.ToolUseBlock => b.type === "tool_use")
         .map((b) => ({
@@ -427,11 +474,8 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
       });
     }
 
-    const reply = response.content
-      .filter((b): b is Anthropic.Messages.TextBlock => b.type === "text")
-      .map((b) => b.text)
-      .join("\n")
-      .trim();
+    collectText(response);
+    const reply = textParts.join("\n\n").trim();
 
     return json({
       ok: true,
