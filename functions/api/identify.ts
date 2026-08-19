@@ -25,6 +25,12 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { decodeSerial, answerStep, STEPS, type Outcome, type StepId } from "../../src/data/fender-serials";
 import knowledge from "./_serial-knowledge.json";
+// Joe's own Gibson / Gretsch / Guild / Rickenbacker decoders, sliced verbatim
+// from the browser widgets by scripts/gen-serial-decoders.mjs and gated by
+// scripts/verify-decoder-parity.mjs. Fender has always had a decoder here; these
+// four brands were previously left to the model to read out of guide prose,
+// which is where it under-reported multi-year serials.
+import { decodeGibson, decodeGretsch, decodeGuild, decodeRickenbacker } from "./_decoders.generated";
 
 interface Env {
   ANTHROPIC_API_KEY?: string;
@@ -153,7 +159,12 @@ Your job is a guided identification flow:
 2. If they send a photo: identify the brand, likely model, and era from what you can see (headstock shape, logo style, body, hardware). Say what you're confident about and what you're not. Then tell them exactly where to find the serial number on that guitar, using the brand guidance below, and ask them to type it in.
    Whenever you tell a visitor where to look for a serial number, also call attach_photos with the matching photo keys. Joe's reference photos then appear under your message, and you can point to them ("like the photo below"). Follow-up questions from the Fender decoder attach their own photos automatically.
    Joe also has videos you can attach with attach_videos when they genuinely fit: the pot codes video when you recommend pot-code cross-dating, the neck date video for neck-stamp checks, the Martin serial video for Martin dating, the appraisal video when someone is thinking of selling. At most one or two per reply, only when relevant.
-3. When you have a serial number: for FENDER guitars and basses, you MUST call decode_fender_serial — never date a Fender serial yourself, the decoder is Joe's verified logic. If it asks a follow-up (returned in the tool result), relay that question conversationally with its choices, then call answer_fender_step with their answer. For other brands, call get_brand_guide and date the serial only from what Joe's guide says, quoting ranges from the guide. If the guide shows a serial is ambiguous (very common for Gibson), say so plainly and point to cross-dating (pot codes, neck stamps) — ambiguity is exactly why Joe offers a free appraisal.
+3. When you have a serial number, you MUST date it with the decoder for that brand. NEVER date a serial from memory or by reading ranges out of a guide: the decoders are Joe's own verified logic and the guides are supporting reference, not the calculation.
+   - Fender: decode_fender_serial. If it asks a follow-up, relay that question conversationally with its choices, then call answer_fender_step.
+   - Gibson: decode_gibson_serial. Ask where the number is first (stamped in the wood, on a label inside the body, or ink-stamped), and answer its follow-up (MADE IN USA stamp, or label colour) when one applies.
+   - Gretsch: decode_gretsch_serial. Guild: decode_guild_serial. Rickenbacker: decode_rickenbacker_serial.
+   - Martin and Fender amps have no decoder: for those, and only those, call get_brand_guide and quote ranges from Joe's guide.
+   When a decoder returns ambiguous, report EVERY year it lists. Do not pick one and do not summarize the set. Gibson genuinely reused numbers across years, so "1965, 1967, or 1968" is the correct answer, not a hedge, and it is exactly why Joe offers a free appraisal. Point to cross-dating (pot codes, neck stamps) to narrow it.
 4. After a successful identification, wrap up warmly: suggest Joe's free appraisal at ${BUSINESS.appraisal} (or calling ${BUSINESS.phone}) if they're curious what it's worth or thinking of selling.
 
 Grounding rules — these are hard limits:
@@ -229,6 +240,60 @@ const TOOLS: Anthropic.Messages.ToolUnion[] = [
     },
   },
   {
+    name: "decode_gibson_serial",
+    description:
+      "Date a GIBSON serial using Joe's verified decoder. Always use this for Gibson, never date one yourself: Gibson reused the same numbers across years and the reliable table is non-contiguous. Ask the visitor WHERE the number is and, when relevant, the follow-up below, then call this. Returns the year or the exact set of years the number could be.",
+    input_schema: {
+      type: "object",
+      properties: {
+        serial: { type: "string", description: "The serial exactly as the visitor gave it" },
+        location: {
+          type: "string",
+          enum: ["wood", "label", "ink_headstock"],
+          description:
+            "Where the number is: 'wood' = stamped or impressed into the back of the headstock; 'label' = on a paper label inside the body; 'ink_headstock' = ink-stamped on the headstock (1950s).",
+        },
+        stamp_type: {
+          type: "string",
+          enum: ["usa_yes", "usa_no", "white_label", "orange_label", "decal"],
+          description:
+            "The follow-up answer, when one applies. For a 6-digit number stamped in the wood, ask whether there is a 'MADE IN USA' stamp below it (usa_yes / usa_no). For a 4 or 5 digit number on a label, ask the label colour (white_label = pre-1947, orange_label = 1947 onward). Use 'decal' for a mid-70s gold or silver decal. Omit when none applies.",
+        },
+      },
+      required: ["serial", "location"],
+    },
+  },
+  {
+    name: "decode_gretsch_serial",
+    description:
+      "Date a GRETSCH serial using Joe's verified decoder. Always use this for Gretsch. It knows the sequential, date-coded, hyphenated Baldwin, Japan and Fender-era formats, and will report when a serial has more than one valid reading.",
+    input_schema: {
+      type: "object",
+      properties: { serial: { type: "string", description: "The serial exactly as given" } },
+      required: ["serial"],
+    },
+  },
+  {
+    name: "decode_guild_serial",
+    description:
+      "Date a GUILD serial using Joe's verified decoder. Always use this for Guild. It covers the 1953-1979 sequential range, the modern Julian (2005+) format, and model-specific letter-prefix serials.",
+    input_schema: {
+      type: "object",
+      properties: { serial: { type: "string", description: "The serial exactly as given" } },
+      required: ["serial"],
+    },
+  },
+  {
+    name: "decode_rickenbacker_serial",
+    description:
+      "Date a RICKENBACKER serial using Joe's verified decoder. Always use this for Rickenbacker. It covers the 1961-1986 two-letter codes, the 1987-1996 format, and the 1999-present year-plus-week format.",
+    input_schema: {
+      type: "object",
+      properties: { serial: { type: "string", description: "The serial exactly as given" } },
+      required: ["serial"],
+    },
+  },
+  {
     name: "get_brand_guide",
     description:
       "Fetch the full text of Joe's serial-number guide for a brand (serial ranges, dating tables, cross-dating advice). Call this before dating any non-Fender serial, and when you need detail beyond the summary — e.g. Gibson's overlapping ranges or Rickenbacker letter codes.",
@@ -277,6 +342,20 @@ function outcomeForModel(outcome: Outcome, attach: (p: Photo) => void): string {
     kind: "fallback",
     guidance:
       "Serial not found in the reference data. Suggest double-checking the digits, then cross-dating via pot codes or neck stamps, and offer Joe's free appraisal for a definitive answer.",
+  });
+}
+
+/** Serialize a brand decoder result. `ambiguous` is passed through explicitly
+ *  because collapsing a multi-year answer to one year is the exact failure the
+ *  decoders were wired in to stop: the widget says "1965, 1967, or 1968" and
+ *  that whole set has to reach the visitor. */
+function decoderResult(r: { text: string; ambiguous: boolean }): string {
+  return JSON.stringify({
+    answer: r.text,
+    ambiguous: r.ambiguous,
+    instruction: r.ambiguous
+      ? "This serial does NOT resolve to one year. Give the visitor EVERY year listed, do not pick one, and offer cross-dating (pot codes, neck stamps) plus Joe's free appraisal."
+      : "State this year plainly, then note that a serial alone is not proof of originality.",
   });
 }
 
@@ -331,6 +410,16 @@ function runTool(
           : {}),
       });
     }
+    case "decode_gibson_serial":
+      return decoderResult(
+        decodeGibson(String(input.serial ?? ""), String(input.location ?? ""), String(input.stamp_type ?? "")),
+      );
+    case "decode_gretsch_serial":
+      return decoderResult(decodeGretsch(String(input.serial ?? "")));
+    case "decode_guild_serial":
+      return decoderResult(decodeGuild(String(input.serial ?? "")));
+    case "decode_rickenbacker_serial":
+      return decoderResult(decodeRickenbacker(String(input.serial ?? "")));
     case "get_brand_guide": {
       const brand = String(input.brand ?? "") as BrandKey;
       const guide = knowledge.brands[brand];

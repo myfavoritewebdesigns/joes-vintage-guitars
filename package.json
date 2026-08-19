@@ -16,7 +16,9 @@
     "audit:a11y": "node scripts/audit-a11y.mjs",
     "audit:copy": "node scripts/check-copy.mjs",
     "gen:knowledge": "node scripts/gen-serial-knowledge.mjs",
-    "verify": "pnpm run build && pnpm exec astro check && pnpm run audit:copy"
+    "verify": "pnpm run build && pnpm exec astro check && pnpm run audit:copy",
+    "gen:decoders": "node scripts/gen-serial-decoders.mjs",
+    "verify:decoders": "node scripts/gen-serial-decoders.mjs --check && node scripts/verify-decoder-parity.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.116.0",
