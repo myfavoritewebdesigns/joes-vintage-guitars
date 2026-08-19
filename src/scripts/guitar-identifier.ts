@@ -32,6 +32,8 @@ const input = $<HTMLTextAreaElement>("gid-input");
 const send = $<HTMLButtonElement>("gid-send");
 const statusEl = $("gid-status");
 const photoInput = $<HTMLInputElement>("gid-photo");
+const installBtn = $<HTMLButtonElement>("gid-install");
+const iosHint = $("gid-ios-hint");
 
 const messages: Msg[] = [];
 let pendingPhoto: { data: string; preview: string } | null = null;
@@ -232,7 +234,7 @@ photoInput?.addEventListener("change", async () => {
   }
   pendingPhoto = resized;
   input?.focus();
-  if (input && !input.value) input.placeholder = "Photo attached. Add a note or just hit Send";
+  if (input && !input.value) input.placeholder = "Photo attached, add a note or send";
 });
 
 // ─── Conversation loop ───────────────────────────────────────────────────────
@@ -260,7 +262,11 @@ async function submit(): Promise<void> {
 
   pendingPhoto = null;
   input.value = "";
-  input.placeholder = "Type a serial number or describe your guitar…";
+  // Keep in sync with the placeholder in guitar-identifier.astro. It is kept
+  // short deliberately: at 390px anything longer wraps to two lines and is
+  // clipped by the input's resting height.
+  input.placeholder = "Serial number, or describe it…";
+  autoGrow();
   setBusy(true);
 
   try {
@@ -294,14 +300,6 @@ async function submit(): Promise<void> {
   }
 }
 
-// PWA: register the identifier's service worker, scoped to this page's path
-// only so it can never intercept (or stale-cache) the rest of the site.
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/gid-sw.js", { scope: "/guitar-identifier/" }).catch(() => {
-    /* unsupported or blocked: the page works identically without it */
-  });
-}
-
 form?.addEventListener("submit", (e) => {
   e.preventDefault();
   void submit();
@@ -314,3 +312,85 @@ input?.addEventListener("keydown", (e) => {
     void submit();
   }
 });
+
+// ─── Input auto-grow ─────────────────────────────────────────────────────────
+
+/** Grow the textarea with its content up to a cap, so a long serial or a
+ *  paragraph of description is readable while typing on a phone.
+ *
+ *  GOTCHA: an EMPTY textarea reports the wrapped height of its PLACEHOLDER in
+ *  scrollHeight, not one line. Measured here at 375px: empty reports 72px while
+ *  a single line of real text reports 48px, because the placeholder wraps to
+ *  two lines. Measuring while empty therefore leaves the field permanently
+ *  oversized after every send. So when there is no value we set no inline
+ *  height at all and let the stylesheet's min-height own the resting size. */
+function autoGrow(): void {
+  if (!input) return;
+  input.style.height = "";
+  if (!input.value) return;
+  const max = Math.round(window.innerHeight * 0.3);
+  input.style.height = "auto";
+  input.style.height = `${Math.min(input.scrollHeight, max)}px`;
+}
+
+input?.addEventListener("input", autoGrow);
+
+// ─── Installable app (PWA) ───────────────────────────────────────────────────
+
+interface InstallPromptEvent extends Event {
+  prompt(): Promise<void>;
+  userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
+}
+
+let deferredInstall: InstallPromptEvent | null = null;
+
+const isStandalone = (): boolean =>
+  window.matchMedia("(display-mode: standalone)").matches ||
+  (navigator as Navigator & { standalone?: boolean }).standalone === true;
+
+// Chrome/Edge/Android: the browser tells us when it is installable.
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  deferredInstall = e as InstallPromptEvent;
+  if (installBtn) installBtn.hidden = false;
+});
+
+installBtn?.addEventListener("click", async () => {
+  if (!deferredInstall) return;
+  installBtn.hidden = true;
+  try {
+    await deferredInstall.prompt();
+    const { outcome } = await deferredInstall.userChoice;
+    track("guitar_id_install_prompt", { outcome });
+  } catch {
+    /* the prompt can only be used once; failing is not worth surfacing */
+  }
+  deferredInstall = null;
+});
+
+window.addEventListener("appinstalled", () => {
+  if (installBtn) installBtn.hidden = true;
+  deferredInstall = null;
+  track("guitar_id_installed");
+});
+
+// iOS Safari never fires beforeinstallprompt and installs only via the Share
+// sheet, so it gets a short instruction instead of a button.
+if (!isStandalone() && iosHint) {
+  const ua = navigator.userAgent;
+  const iOS = /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && "ontouchend" in document);
+  const webkit = /Safari/.test(ua) && !/CriOS|FxiOS|EdgiOS|Chrome/.test(ua);
+  if (iOS && webkit) iosHint.hidden = false;
+}
+
+// Register the scoped service worker. It only ever controls /guitar-identifier/
+// and deliberately never caches /api/identify.
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("/guitar-identifier/sw.js", { scope: "/guitar-identifier/" })
+      .catch(() => {
+        /* the tool works fine uninstalled; a failed registration is not fatal */
+      });
+  });
+}

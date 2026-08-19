@@ -9,33 +9,58 @@
  */
 import Layout from "../layouts/Layout.astro";
 
-const title = "Vintage Guitar Identifier | Joe's Vintage Guitars";
+const title = "Vintage Guitar AI | Joe's Vintage Guitars";
 const description =
-  "Upload a photo or enter a serial number and identify your vintage guitar. Built on Joe's own Fender, Gibson, Gretsch, Guild, Martin, and Rickenbacker dating guides.";
+  "Vintage Guitar AI identifies and dates your guitar from a photo or serial number. Created by Joe Dampt and built on his own Fender, Gibson, Gretsch, Guild, Martin, and Rickenbacker dating references.";
 ---
 
 <Layout title={title} description={description}>
-  <link slot="head" rel="manifest" href="/guitar-identifier.webmanifest" />
+  {/* Installable-app metadata, scoped to this page only: the manifest's own
+      `scope` is /guitar-identifier/, so installing it adds Vintage Guitar AI
+      rather than the whole website. */}
+  <link slot="head" rel="manifest" href="/guitar-identifier/manifest.webmanifest" />
   <meta slot="head" name="theme-color" content="#3e2a14" />
+  {/* Layout ships a site-wide apple-touch-icon; declaring sizes here (and
+      later in the head) makes WebKit's choice deterministic rather than
+      leaving two undifferentiated candidates. */}
+  <link slot="head" rel="apple-touch-icon" sizes="180x180" href="/guitar-identifier/apple-touch-icon.png" />
+  <meta slot="head" name="mobile-web-app-capable" content="yes" />
   <meta slot="head" name="apple-mobile-web-app-capable" content="yes" />
   <meta slot="head" name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta slot="head" name="apple-mobile-web-app-title" content="Vintage Guitar AI" />
 
   <div class="gid-backdrop" aria-hidden="true">
     <div class="gid-backdrop__dark"></div>
     <div class="gid-backdrop__cream"></div>
   </div>
 
-  <main class="gid-wrap">
-    <h1 class="gid-h1">Vintage Guitar Identifier</h1>
+  {/* A div, not <main>: Layout already renders <main id="main-content"> around
+      this slot, and nesting a second one is invalid HTML that hands assistive
+      tech two competing "main" landmarks. Every other page here uses a plain
+      wrapper. */}
+  <div class="gid-wrap">
+    <h1 class="gid-h1">Vintage Guitar AI</h1>
     <p class="gid-intro">
-      Not sure what year, or even what model, your guitar is? Upload a photo or type in the
-      serial number, and this assistant will walk you through identifying it using the same
-      dating references as our <a href="/fender-guitars-serial-number-guide/">Fender</a>, <a
-        href="/how-to-read-gibson-serial-numbers/">Gibson</a>, <a
+      The first guitar identifier built on one dealer's own research. Created by Joe Dampt at
+      Joe's Vintage Guitars, it reads from the <a href="/fender-guitars-serial-number-guide/"
+        >Fender</a
+      >, <a href="/how-to-read-gibson-serial-numbers/">Gibson</a>, <a
         href="/gretsch-serial-number-lookup/">Gretsch</a>, <a
         href="/guild-serial-number-lookup/">Guild</a>, <a
         href="/martin-serial-and-model-numbers/">Martin</a>, and <a
-        href="/rickenbacker-serial-numbers/">Rickenbacker</a> serial guides.
+        href="/rickenbacker-serial-numbers/">Rickenbacker</a> references Joe wrote and corrected
+      himself, and it illustrates its answers with his own photographs. Upload a photo or type in
+      a serial number to start.
+    </p>
+
+    <button type="button" class="gid-install" id="gid-install" hidden>
+      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3v12"></path><path d="m7 12 5 5 5-5"></path><path d="M5 21h14"></path>
+      </svg>
+      Install Vintage Guitar AI
+    </button>
+    <p class="gid-ios-hint" id="gid-ios-hint" hidden>
+      Add Vintage Guitar AI to your home screen: tap Share, then Add to Home Screen.
     </p>
 
     <section class="gid-chat" aria-label="Guitar identification chat">
@@ -66,17 +91,44 @@ const description =
         <textarea
           id="gid-input"
           rows="1"
-          placeholder="Type a serial number or describe your guitar…"
+          placeholder="Serial number, or describe it…"
           maxlength="2000"
           required></textarea>
         <button type="submit" class="gid-send" id="gid-send">Send</button>
       </form>
       <p class="gid-note">
-        Photos stay between you and the identifier: they're analyzed, not stored. For a
-        definitive answer on any guitar, <a href="/free-appraisal/">Joe's appraisal is free</a>.
+        For a definitive answer on any guitar, <a href="/free-appraisal/">Joe's appraisal is free</a>.
       </p>
     </section>
-  </main>
+
+    <section class="gid-about">
+      <h2>How This One Is Different</h2>
+      <p class="gid-about__lede">
+        Most guitar dating tools recycle the same charts as each other. This one works from Joe's.
+      </p>
+
+      <h3>Built On Joe's Own Records</h3>
+      <p>
+        The dating tables behind every answer come from the guides Joe wrote himself and has
+        corrected over years of buying, selling, and handling these instruments. Where the widely
+        published charts disagreed with the guitars in front of him, Joe went with the guitars.
+      </p>
+
+      <h3>It Shows You Joe's Photographs</h3>
+      <p>
+        When it tells you where to find your serial number, the reference pictures underneath the
+        answer are Joe's own, shot off guitars that came through the shop.
+      </p>
+
+      <h3>It Will Not Guess</h3>
+      <p>
+        Fender serials are dated by Joe's verified decoder rather than by a language model's
+        recollection. Where the factory records are ambiguous, and with Gibson they often are, it
+        says so and points you toward cross-dating. Anything it cannot settle, Joe can:
+        <a href="/free-appraisal/">his appraisals are free</a>.
+      </p>
+    </section>
+  </div>
 </Layout>
 
 <script>
@@ -98,6 +150,17 @@ const description =
   body.gid-page header nav.border-b-\[6px\] summary:hover {
     color: var(--color-brand-rust) !important;
     background: rgba(160, 58, 30, 0.08) !important;
+  }
+
+  /* Installed as an app: drop the website chrome. These live in Layout, not in
+     this component, so they have to be targeted globally rather than from the
+     scoped block below. */
+  @media (display-mode: standalone) {
+    body.gid-page header,
+    body.gid-page footer,
+    body.gid-page aside.fixed {
+      display: none !important;
+    }
   }
 </style>
 
@@ -312,5 +375,129 @@ const description =
     overflow: hidden;
     clip: rect(0 0 0 0);
     white-space: nowrap;
+  }
+
+  /* Install affordance. Hidden until the browser says the app is installable
+     (or, on iOS, until we detect Safari can only do it via the Share sheet). */
+  .gid-install {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+    padding: 0.6rem 1rem;
+    font: inherit;
+    font-weight: 600;
+    color: var(--color-brand-brown, #3e2a14);
+    background: #fff;
+    border: 1px solid var(--color-brand-brown-tan, #d2b48c);
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .gid-install:hover {
+    background: #f3e9d8;
+  }
+  .gid-install[hidden],
+  .gid-ios-hint[hidden] {
+    display: none;
+  }
+  .gid-ios-hint {
+    margin: 0 0 1.25rem;
+    font-size: 0.85rem;
+    color: #6b5638;
+  }
+
+  /* "How This One Is Different" */
+  .gid-about {
+    margin-top: 2.5rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid var(--color-brand-brown-tan, #d2b48c);
+  }
+  .gid-about h2 {
+    color: var(--color-brand-brown, #3e2a14);
+    font-size: 1.4rem;
+    margin: 0 0 0.5rem;
+  }
+  .gid-about h3 {
+    color: var(--color-brand-brown, #3e2a14);
+    font-size: 1.05rem;
+    margin: 1.5rem 0 0.4rem;
+  }
+  .gid-about p {
+    margin: 0;
+    line-height: 1.65;
+  }
+  .gid-about__lede {
+    font-size: 1.05rem;
+    color: #6b5638;
+  }
+  .gid-about a {
+    color: var(--color-brand-brown, #3e2a14);
+    text-decoration: underline;
+  }
+
+  /* Mobile: the input was being squeezed to ~180px between the two buttons.
+     Give it the full width on its own row and lift every control to the 44px
+     minimum tap target. */
+  @media (max-width: 600px) {
+    .gid-wrap {
+      padding-left: 0.85rem;
+      padding-right: 0.85rem;
+    }
+    .gid-chat {
+      padding: 0.85rem;
+    }
+    .gid-form {
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+    #gid-input {
+      order: -1;
+      flex: 1 1 100%;
+      min-height: 3.5rem;
+      font-size: 1.0625rem;
+      padding: 0.75rem 0.85rem;
+      border-radius: 0.6rem;
+    }
+    .gid-attach {
+      min-width: 2.9rem;
+      min-height: 2.9rem;
+      justify-content: center;
+    }
+    /* The site's floating contact widget (aside.fixed, bottom-6 right-4,
+       z-index 40) owns the bottom-right ~64px of the viewport and sits ABOVE
+       this form, so a flush-right Send button is partly untappable. Measured at
+       375px: the widget spans x 311-359 and Send ended at x 347. Reserve the
+       gutter so Send always clears it. This collision predates the app work,
+       it is just easier to see now the input has its own row. */
+    .gid-send {
+      min-height: 2.9rem;
+      margin-left: auto;
+      margin-right: 2.75rem;
+      padding: 0.7rem 1.5rem;
+    }
+    .gid-msg {
+      max-width: 92%;
+    }
+  }
+
+  /* Installed (standalone) mode: the site header/footer are chrome the app
+     does not need, and the page should fill the window. */
+  @media (display-mode: standalone) {
+    .gid-backdrop,
+    .gid-install,
+    .gid-ios-hint {
+      display: none !important;
+    }
+    .gid-wrap {
+      padding-top: 1rem;
+    }
+    .gid-log {
+      max-height: none;
+    }
+    /* The floating contact widget is hidden in app mode, so Send no longer
+       needs to reserve a gutter for it. */
+    .gid-send {
+      margin-right: 0;
+    }
   }
 </style>

@@ -240,8 +240,15 @@ export function decodeGuild(serial) {
 
 if (process.argv.includes("--check")) {
   const existing = fs.existsSync(OUT) ? fs.readFileSync(OUT, "utf8") : "";
-  const want = fingerprints;
-  const have = existing.split("\n").filter((l) => l.includes("sha256:")).join("\n");
+  // Normalize line endings before comparing. Git checks this file out with CRLF
+  // on Windows, so a naive split leaves a trailing \r on every line and the gate
+  // reports STALE against fingerprints that are byte-identical.
+  const norm = (s) => s.replace(/\r/g, "");
+  const want = norm(fingerprints);
+  const have = norm(existing)
+    .split("\n")
+    .filter((l) => l.includes("sha256:"))
+    .join("\n");
   if (want !== have) {
     console.error("[decoders] STALE: a widget under public/scripts/ changed since generation.");
     console.error("expected:\n" + want);
