@@ -31,6 +31,7 @@ import knowledge from "./_serial-knowledge.json";
 // four brands were previously left to the model to read out of guide prose,
 // which is where it under-reported multi-year serials.
 import { decodeGibson, decodeGretsch, decodeGuild, decodeRickenbacker } from "./_decoders.generated";
+import { checkRateLimit, clientId, IDENTIFY_RULES, IDENTIFY_GLOBAL } from "./_rate-limit";
 
 interface Env {
   ANTHROPIC_API_KEY?: string;
@@ -48,16 +49,26 @@ const json = (body: unknown, status = 200) =>
     headers: { "content-type": "application/json" },
   });
 
-/** Allow requests only from our own site (and the CF Pages preview). Empty
- *  Origin (some same-origin posts) is allowed; a present, foreign Origin is not. */
-function originAllowed(origin: string | null): boolean {
-  if (!origin) return true;
-  try {
-    const host = new URL(origin).hostname;
-    return /(^|\.)joesvintageguitarsaz\.com$/.test(host) || /\.pages\.dev$/.test(host);
-  } catch {
-    return false;
+/**
+ * Allow requests only from our own site (or a CF Pages preview).
+ *
+ * This used to return true for a MISSING Origin, which meant a plain script
+ * sending no headers at all was treated as same-origin and reached Claude
+ * freely. Browsers always attach Origin to a POST, including a same-origin one,
+ * so requiring it costs real visitors nothing. Sec-Fetch-Site is accepted as an
+ * alternative for any client that sends it without an Origin.
+ */
+function originAllowed(request: Request): boolean {
+  const origin = request.headers.get("Origin");
+  if (origin) {
+    try {
+      const host = new URL(origin).hostname;
+      return /(^|\.)joesvintageguitarsaz\.com$/.test(host) || /\.pages\.dev$/.test(host);
+    } catch {
+      return false;
+    }
   }
+  return request.headers.get("Sec-Fetch-Site") === "same-origin";
 }
 
 /** CF Pages env vars have bitten us before with invisible characters pasted
@@ -478,8 +489,24 @@ function toApiMessages(raw: unknown): Anthropic.Messages.MessageParam[] | string
 // ─── Handler ─────────────────────────────────────────────────────────────────
 
 export const onRequestPost = async ({ request, env }: PagesContext): Promise<Response> => {
-  if (!originAllowed(request.headers.get("Origin"))) {
+  if (!originAllowed(request)) {
     return json({ ok: false, error: "Request blocked." }, 403);
+  }
+
+  // Before the API key is even read, so a throttled request costs nothing.
+  const verdict = await checkRateLimit(request, IDENTIFY_RULES, { globalRule: IDENTIFY_GLOBAL });
+  if (!verdict.allowed) {
+    console.warn(`[identify] rate limited (${verdict.rule}) ip=${clientId(request)}`);
+    return new Response(
+      JSON.stringify({
+        ok: false,
+        error: "The identifier is busy right now. Give it a minute and try again, or call Joe at " + BUSINESS.phone + ".",
+      }),
+      {
+        status: 429,
+        headers: { "content-type": "application/json", "retry-after": String(verdict.retryAfter) },
+      },
+    );
   }
   const apiKey = envStr(env, "ANTHROPIC_API_KEY");
   if (!apiKey) {
