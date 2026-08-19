@@ -3,14 +3,18 @@
   "short_name": "Guitar AI",
   "description": "Identify and date a vintage guitar from a photo or a serial number, using Joe Dampt's own dating references at Joe's Vintage Guitars.",
   "id": "/guitar-identifier/",
-  "start_url": "/guitar-identifier/",
+  "start_url": "/guitar-identifier/?source=pwa",
   "scope": "/guitar-identifier/",
   "display": "standalone",
   "background_color": "#fffdf8",
   "theme_color": "#3e2a14",
   "lang": "en-US",
   "dir": "ltr",
-  "categories": ["utilities", "music", "education"],
+  "categories": [
+    "utilities",
+    "music",
+    "education"
+  ],
   "icons": [
     {
       "src": "/guitar-identifier/icon-192.png",

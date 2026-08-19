@@ -65,11 +65,56 @@ interface ReplyImage {
   alt: string;
 }
 
+interface ReplyVideo {
+  youtubeId: string;
+  start?: number;
+  title: string;
+}
+
+const YT_ID_RE = /^[A-Za-z0-9_-]{6,20}$/;
+
+/** Click-to-play facade: poster + play button, iframe only after a tap, so
+ *  replies stay light (same lite-embed approach as the guide pages). */
+function videoFacade(v: ReplyVideo): HTMLElement | null {
+  if (!YT_ID_RE.test(v.youtubeId)) return null;
+  const wrap = document.createElement("div");
+  wrap.className = "gid-video";
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "gid-video__facade";
+  btn.setAttribute("aria-label", `Play video: ${v.title}`);
+  const poster = document.createElement("img");
+  poster.src = `https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`;
+  poster.alt = "";
+  poster.loading = "lazy";
+  const play = document.createElement("span");
+  play.className = "gid-video__play";
+  play.setAttribute("aria-hidden", "true");
+  play.textContent = "▶";
+  btn.append(poster, play);
+  const caption = document.createElement("p");
+  caption.className = "gid-video__title";
+  caption.textContent = v.title;
+  btn.addEventListener("click", () => {
+    const params = new URLSearchParams({ rel: "0", modestbranding: "1", autoplay: "1" });
+    if (v.start && Number.isFinite(v.start)) params.set("start", String(Math.floor(v.start)));
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://www.youtube-nocookie.com/embed/${v.youtubeId}?${params}`;
+    iframe.title = v.title;
+    iframe.allow = "autoplay; encrypted-media; picture-in-picture";
+    iframe.allowFullscreen = true;
+    btn.replaceWith(iframe);
+    track("guitar_id_video_play", { video: v.youtubeId });
+  });
+  wrap.append(btn, caption);
+  return wrap;
+}
+
 /** Assistant text → paragraphs, with Joe's site links made clickable. Built
  *  with createElement/textContent throughout — model output is never given to
  *  innerHTML. Reference photos come as a server-validated whitelist and render
  *  as clickable thumbnails under the text. */
-function renderReply(text: string, images?: ReplyImage[]): void {
+function renderReply(text: string, images?: ReplyImage[], videos?: ReplyVideo[]): void {
   const div = bubble("gid-msg--bot");
   for (const para of text.split(/\n{2,}/)) {
     const p = document.createElement("p");
@@ -105,6 +150,10 @@ function renderReply(text: string, images?: ReplyImage[]): void {
       strip.appendChild(a);
     }
     div.appendChild(strip);
+  }
+  for (const v of videos ?? []) {
+    const el = videoFacade(v);
+    if (el) div.appendChild(el);
   }
 }
 
@@ -226,7 +275,13 @@ async function submit(): Promise<void> {
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ messages }),
     });
-    const data = (await res.json()) as { ok: boolean; reply?: string; error?: string; images?: ReplyImage[] };
+    const data = (await res.json()) as {
+      ok: boolean;
+      reply?: string;
+      error?: string;
+      images?: ReplyImage[];
+      videos?: ReplyVideo[];
+    };
     if (!res.ok || !data.ok || !data.reply) {
       // Drop the failed turn so a retry re-sends it cleanly.
       messages.pop();
@@ -234,7 +289,7 @@ async function submit(): Promise<void> {
       return;
     }
     messages.push({ role: "assistant", content: [{ type: "text", text: data.reply }] });
-    renderReply(data.reply, data.images);
+    renderReply(data.reply, data.images, data.videos);
     track("guitar_id_reply", { turn: Math.ceil(messages.length / 2) });
   } catch {
     messages.pop();

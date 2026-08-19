@@ -25,6 +25,13 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { decodeSerial, answerStep, STEPS, type Outcome, type StepId } from "../../src/data/fender-serials";
 import knowledge from "./_serial-knowledge.json";
+// Joe's own Gibson / Gretsch / Guild / Rickenbacker decoders, sliced verbatim
+// from the browser widgets by scripts/gen-serial-decoders.mjs and gated by
+// scripts/verify-decoder-parity.mjs. Fender has always had a decoder here; these
+// four brands were previously left to the model to read out of guide prose,
+// which is where it under-reported multi-year serials.
+import { decodeGibson, decodeGretsch, decodeGuild, decodeRickenbacker } from "./_decoders.generated";
+import { checkRateLimit, clientId, IDENTIFY_RULES, IDENTIFY_GLOBAL } from "./_rate-limit";
 
 interface Env {
   ANTHROPIC_API_KEY?: string;
@@ -42,16 +49,26 @@ const json = (body: unknown, status = 200) =>
     headers: { "content-type": "application/json" },
   });
 
-/** Allow requests only from our own site (and the CF Pages preview). Empty
- *  Origin (some same-origin posts) is allowed; a present, foreign Origin is not. */
-function originAllowed(origin: string | null): boolean {
-  if (!origin) return true;
-  try {
-    const host = new URL(origin).hostname;
-    return /(^|\.)joesvintageguitarsaz\.com$/.test(host) || /\.pages\.dev$/.test(host);
-  } catch {
-    return false;
+/**
+ * Allow requests only from our own site (or a CF Pages preview).
+ *
+ * This used to return true for a MISSING Origin, which meant a plain script
+ * sending no headers at all was treated as same-origin and reached Claude
+ * freely. Browsers always attach Origin to a POST, including a same-origin one,
+ * so requiring it costs real visitors nothing. Sec-Fetch-Site is accepted as an
+ * alternative for any client that sends it without an Origin.
+ */
+function originAllowed(request: Request): boolean {
+  const origin = request.headers.get("Origin");
+  if (origin) {
+    try {
+      const host = new URL(origin).hostname;
+      return /(^|\.)joesvintageguitarsaz\.com$/.test(host) || /\.pages\.dev$/.test(host);
+    } catch {
+      return false;
+    }
   }
+  return request.headers.get("Sec-Fetch-Site") === "same-origin";
 }
 
 /** CF Pages env vars have bitten us before with invisible characters pasted
@@ -127,13 +144,38 @@ const PHOTOS: Record<string, Photo> = {
 const PHOTO_KEYS = Object.keys(PHOTOS);
 const MAX_REPLY_PHOTOS = 4;
 
+/** Joe's videos the model can attach, by key. Same whitelist principle as
+ *  PHOTOS: the model names a key, the ids live here. The timestamped entries
+ *  deep-link into the moment of the dating video that demonstrates the
+ *  technique being recommended. */
+interface Video {
+  youtubeId: string;
+  start?: number;
+  title: string;
+}
+const VIDEOS: Record<string, Video> = {
+  fender_dating_video: { youtubeId: "PIRoB0KHEg0", title: "Joe's guide to dating a vintage Fender" },
+  fender_pot_codes_video: { youtubeId: "PIRoB0KHEg0", start: 184, title: "How to read Fender pot codes" },
+  fender_neck_date_video: { youtubeId: "PIRoB0KHEg0", start: 125, title: "Finding the neck date stamp" },
+  martin_serial_video: { youtubeId: "WGF-pL6GB38", title: "Dating a Martin by serial number" },
+  free_appraisal_video: { youtubeId: "uSu-Ld-xgnI", title: "How Joe's free appraisal works" },
+};
+const VIDEO_KEYS = Object.keys(VIDEOS);
+const MAX_REPLY_VIDEOS = 2;
+
 const SYSTEM_PROMPT = `You are the vintage guitar identification assistant on ${BUSINESS.name}'s website (${BUSINESS.site}). Joe is a vintage guitar dealer in Mesa, Arizona who buys vintage guitars and offers free appraisals.
 
 Your job is a guided identification flow:
 1. Offer the visitor two paths: upload a photo of the guitar, or enter a serial number directly.
 2. If they send a photo: identify the brand, likely model, and era from what you can see (headstock shape, logo style, body, hardware). Say what you're confident about and what you're not. Then tell them exactly where to find the serial number on that guitar, using the brand guidance below, and ask them to type it in.
    Whenever you tell a visitor where to look for a serial number, also call attach_photos with the matching photo keys. Joe's reference photos then appear under your message, and you can point to them ("like the photo below"). Follow-up questions from the Fender decoder attach their own photos automatically.
-3. When you have a serial number: for FENDER guitars and basses, you MUST call decode_fender_serial — never date a Fender serial yourself, the decoder is Joe's verified logic. If it asks a follow-up (returned in the tool result), relay that question conversationally with its choices, then call answer_fender_step with their answer. For other brands, call get_brand_guide and date the serial only from what Joe's guide says, quoting ranges from the guide. If the guide shows a serial is ambiguous (very common for Gibson), say so plainly and point to cross-dating (pot codes, neck stamps) — ambiguity is exactly why Joe offers a free appraisal.
+   Joe also has videos you can attach with attach_videos when they genuinely fit: the pot codes video when you recommend pot-code cross-dating, the neck date video for neck-stamp checks, the Martin serial video for Martin dating, the appraisal video when someone is thinking of selling. At most one or two per reply, only when relevant.
+3. When you have a serial number, you MUST date it with the decoder for that brand. NEVER date a serial from memory or by reading ranges out of a guide: the decoders are Joe's own verified logic and the guides are supporting reference, not the calculation.
+   - Fender: decode_fender_serial. If it asks a follow-up, relay that question conversationally with its choices, then call answer_fender_step.
+   - Gibson: decode_gibson_serial. Ask where the number is first (stamped in the wood, on a label inside the body, or ink-stamped), and answer its follow-up (MADE IN USA stamp, or label colour) when one applies.
+   - Gretsch: decode_gretsch_serial. Guild: decode_guild_serial. Rickenbacker: decode_rickenbacker_serial.
+   - Martin and Fender amps have no decoder: for those, and only those, call get_brand_guide and quote ranges from Joe's guide.
+   When a decoder returns ambiguous, report EVERY year it lists. Do not pick one and do not summarize the set. Gibson genuinely reused numbers across years, so "1965, 1967, or 1968" is the correct answer, not a hedge, and it is exactly why Joe offers a free appraisal. Point to cross-dating (pot codes, neck stamps) to narrow it.
 4. After a successful identification, wrap up warmly: suggest Joe's free appraisal at ${BUSINESS.appraisal} (or calling ${BUSINESS.phone}) if they're curious what it's worth or thinking of selling.
 
 Grounding rules — these are hard limits:
@@ -143,7 +185,9 @@ Grounding rules — these are hard limits:
 - Never present a guess as a fact. Confidence language matters: "the L-series plate suggests", not "this is".
 ${SERIAL_LOCATIONS}
 
-Style: warm, plain-spoken, concise. This is a chat window, so keep replies to a few short paragraphs at most. No markdown headers or bullet walls; write like Joe's knowledgeable shop assistant. One question at a time. House copy rules: never use em dashes (use commas, periods, or parentheses instead) and never use emoji.`;
+Style: warm, plain-spoken, concise. This is a chat window, so keep replies to a few short paragraphs at most. No markdown headers or bullet walls; write like Joe's knowledgeable shop assistant. One question at a time. House copy rules: never use em dashes (use commas, periods, or parentheses instead) and never use emoji.
+
+Answering: lead with the answer. Do not write a "let me look that up" preamble before calling a tool, and never claim you attached a photo or video unless the attach tool reported that exact key under "attached".`;
 
 // ─── Tools ───────────────────────────────────────────────────────────────────
 
@@ -188,6 +232,76 @@ const TOOLS: Anthropic.Messages.ToolUnion[] = [
         },
       },
       required: ["keys"],
+    },
+  },
+  {
+    name: "attach_videos",
+    description:
+      "Attach Joe's how-to videos to your reply, shown as playable embeds under your message. Use when a video demonstrates what you're recommending (pot codes, neck dates, Martin serials, the appraisal process).",
+    input_schema: {
+      type: "object",
+      properties: {
+        keys: {
+          type: "array",
+          items: { type: "string", enum: VIDEO_KEYS },
+          description: "Video keys to attach",
+        },
+      },
+      required: ["keys"],
+    },
+  },
+  {
+    name: "decode_gibson_serial",
+    description:
+      "Date a GIBSON serial using Joe's verified decoder. Always use this for Gibson, never date one yourself: Gibson reused the same numbers across years and the reliable table is non-contiguous. Ask the visitor WHERE the number is and, when relevant, the follow-up below, then call this. Returns the year or the exact set of years the number could be.",
+    input_schema: {
+      type: "object",
+      properties: {
+        serial: { type: "string", description: "The serial exactly as the visitor gave it" },
+        location: {
+          type: "string",
+          enum: ["wood", "label", "ink_headstock"],
+          description:
+            "Where the number is: 'wood' = stamped or impressed into the back of the headstock; 'label' = on a paper label inside the body; 'ink_headstock' = ink-stamped on the headstock (1950s).",
+        },
+        stamp_type: {
+          type: "string",
+          enum: ["usa_yes", "usa_no", "white_label", "orange_label", "decal"],
+          description:
+            "The follow-up answer, when one applies. For a 6-digit number stamped in the wood, ask whether there is a 'MADE IN USA' stamp below it (usa_yes / usa_no). For a 4 or 5 digit number on a label, ask the label colour (white_label = pre-1947, orange_label = 1947 onward). Use 'decal' for a mid-70s gold or silver decal. Omit when none applies.",
+        },
+      },
+      required: ["serial", "location"],
+    },
+  },
+  {
+    name: "decode_gretsch_serial",
+    description:
+      "Date a GRETSCH serial using Joe's verified decoder. Always use this for Gretsch. It knows the sequential, date-coded, hyphenated Baldwin, Japan and Fender-era formats, and will report when a serial has more than one valid reading.",
+    input_schema: {
+      type: "object",
+      properties: { serial: { type: "string", description: "The serial exactly as given" } },
+      required: ["serial"],
+    },
+  },
+  {
+    name: "decode_guild_serial",
+    description:
+      "Date a GUILD serial using Joe's verified decoder. Always use this for Guild. It covers the 1953-1979 sequential range, the modern Julian (2005+) format, and model-specific letter-prefix serials.",
+    input_schema: {
+      type: "object",
+      properties: { serial: { type: "string", description: "The serial exactly as given" } },
+      required: ["serial"],
+    },
+  },
+  {
+    name: "decode_rickenbacker_serial",
+    description:
+      "Date a RICKENBACKER serial using Joe's verified decoder. Always use this for Rickenbacker. It covers the 1961-1986 two-letter codes, the 1987-1996 format, and the 1999-present year-plus-week format.",
+    input_schema: {
+      type: "object",
+      properties: { serial: { type: "string", description: "The serial exactly as given" } },
+      required: ["serial"],
     },
   },
   {
@@ -242,7 +356,26 @@ function outcomeForModel(outcome: Outcome, attach: (p: Photo) => void): string {
   });
 }
 
-function runTool(name: string, input: Record<string, unknown>, attach: (p: Photo) => void): string {
+/** Serialize a brand decoder result. `ambiguous` is passed through explicitly
+ *  because collapsing a multi-year answer to one year is the exact failure the
+ *  decoders were wired in to stop: the widget says "1965, 1967, or 1968" and
+ *  that whole set has to reach the visitor. */
+function decoderResult(r: { text: string; ambiguous: boolean }): string {
+  return JSON.stringify({
+    answer: r.text,
+    ambiguous: r.ambiguous,
+    instruction: r.ambiguous
+      ? "This serial does NOT resolve to one year. Give the visitor EVERY year listed, do not pick one, and offer cross-dating (pot codes, neck stamps) plus Joe's free appraisal."
+      : "State this year plainly, then note that a serial alone is not proof of originality.",
+  });
+}
+
+function runTool(
+  name: string,
+  input: Record<string, unknown>,
+  attach: (p: Photo) => void,
+  attachVideo: (v: Video) => void,
+): string {
   switch (name) {
     case "decode_fender_serial":
       return outcomeForModel(decodeSerial(String(input.serial ?? "")), attach);
@@ -252,10 +385,52 @@ function runTool(name: string, input: Record<string, unknown>, attach: (p: Photo
       return outcomeForModel(answerStep(String(input.serial ?? ""), step as StepId, String(input.choice ?? "")), attach);
     }
     case "attach_photos": {
-      const keys = (Array.isArray(input.keys) ? input.keys : []).map(String).filter((k) => k in PHOTOS);
-      keys.forEach((k) => attach(PHOTOS[k]));
-      return JSON.stringify({ attached: keys });
+      // Rejected keys used to be dropped silently and reported as success, so
+      // the model would tell the visitor "I attached a photo below" when
+      // nothing had been attached. Name the rejects and the valid set instead.
+      const asked = (Array.isArray(input.keys) ? input.keys : []).map(String);
+      const ok = asked.filter((k) => k in PHOTOS);
+      const rejected = asked.filter((k) => !(k in PHOTOS));
+      ok.forEach((k) => attach(PHOTOS[k]));
+      return JSON.stringify({
+        attached: ok,
+        ...(rejected.length
+          ? {
+              rejected,
+              valid_keys: PHOTO_KEYS,
+              warning:
+                "The rejected keys do not exist and nothing was attached for them. Do NOT tell the visitor you attached them. Retry with a key from valid_keys, or say nothing about a photo.",
+            }
+          : {}),
+      });
     }
+    case "attach_videos": {
+      const asked = (Array.isArray(input.keys) ? input.keys : []).map(String);
+      const ok = asked.filter((k) => k in VIDEOS);
+      const rejected = asked.filter((k) => !(k in VIDEOS));
+      ok.forEach((k) => attachVideo(VIDEOS[k]));
+      return JSON.stringify({
+        attached: ok,
+        ...(rejected.length
+          ? {
+              rejected,
+              valid_keys: VIDEO_KEYS,
+              warning:
+                "The rejected keys do not exist and nothing was attached for them. Do NOT tell the visitor you attached them. Retry with a key from valid_keys, or say nothing about a video.",
+            }
+          : {}),
+      });
+    }
+    case "decode_gibson_serial":
+      return decoderResult(
+        decodeGibson(String(input.serial ?? ""), String(input.location ?? ""), String(input.stamp_type ?? "")),
+      );
+    case "decode_gretsch_serial":
+      return decoderResult(decodeGretsch(String(input.serial ?? "")));
+    case "decode_guild_serial":
+      return decoderResult(decodeGuild(String(input.serial ?? "")));
+    case "decode_rickenbacker_serial":
+      return decoderResult(decodeRickenbacker(String(input.serial ?? "")));
     case "get_brand_guide": {
       const brand = String(input.brand ?? "") as BrandKey;
       const guide = knowledge.brands[brand];
@@ -314,8 +489,24 @@ function toApiMessages(raw: unknown): Anthropic.Messages.MessageParam[] | string
 // ─── Handler ─────────────────────────────────────────────────────────────────
 
 export const onRequestPost = async ({ request, env }: PagesContext): Promise<Response> => {
-  if (!originAllowed(request.headers.get("Origin"))) {
+  if (!originAllowed(request)) {
     return json({ ok: false, error: "Request blocked." }, 403);
+  }
+
+  // Before the API key is even read, so a throttled request costs nothing.
+  const verdict = await checkRateLimit(request, IDENTIFY_RULES, { globalRule: IDENTIFY_GLOBAL });
+  if (!verdict.allowed) {
+    console.warn(`[identify] rate limited (${verdict.rule}) ip=${clientId(request)}`);
+    return new Response(
+      JSON.stringify({
+        ok: false,
+        error: "The identifier is busy right now. Give it a minute and try again, or call Joe at " + BUSINESS.phone + ".",
+      }),
+      {
+        status: 429,
+        headers: { "content-type": "application/json", "retry-after": String(verdict.retryAfter) },
+      },
+    );
   }
   const apiKey = envStr(env, "ANTHROPIC_API_KEY");
   if (!apiKey) {
@@ -345,18 +536,45 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
       attachments.push(p);
     }
   };
+  const videoAttachments: Video[] = [];
+  const attachVideo = (v: Video): void => {
+    if (
+      videoAttachments.length < MAX_REPLY_VIDEOS &&
+      !videoAttachments.some((a) => a.youtubeId === v.youtubeId && a.start === v.start)
+    ) {
+      videoAttachments.push(v);
+    }
+  };
 
   try {
+    // Text the model emits IN THE SAME TURN as a tool call. Claude routinely
+    // writes the actual answer ("Your Gibson dates to 1964...") alongside an
+    // attach_photos / attach_videos call, and that turn's response object is
+    // replaced on the next loop iteration. Collecting as we go is what keeps
+    // the answer; reading only the final response throws it away.
+    const textParts: string[] = [];
+    const collectText = (r: Anthropic.Messages.Message): void => {
+      const t = r.content
+        .filter((b): b is Anthropic.Messages.TextBlock => b.type === "text")
+        .map((b) => b.text)
+        .join("\n")
+        .trim();
+      // The model sometimes restates its preamble after a tool result; keep the
+      // first occurrence only so the reply does not read double.
+      if (t && !textParts.includes(t)) textParts.push(t);
+    };
+
     let response = await createMessage(client, model, messages);
 
     // Server-side tool loop: run decoder/guide tools locally, feed results back.
     for (let i = 0; i < MAX_TOOL_ITERATIONS && response.stop_reason === "tool_use"; i++) {
+      collectText(response);
       const toolResults: Anthropic.Messages.ToolResultBlockParam[] = response.content
         .filter((b): b is Anthropic.Messages.ToolUseBlock => b.type === "tool_use")
         .map((b) => ({
           type: "tool_result",
           tool_use_id: b.id,
-          content: runTool(b.name, b.input as Record<string, unknown>, attach),
+          content: runTool(b.name, b.input as Record<string, unknown>, attach, attachVideo),
         }));
       messages.push({ role: "assistant", content: response.content });
       messages.push({ role: "user", content: toolResults });
@@ -372,16 +590,14 @@ export const onRequestPost = async ({ request, env }: PagesContext): Promise<Res
       });
     }
 
-    const reply = response.content
-      .filter((b): b is Anthropic.Messages.TextBlock => b.type === "text")
-      .map((b) => b.text)
-      .join("\n")
-      .trim();
+    collectText(response);
+    const reply = textParts.join("\n\n").trim();
 
     return json({
       ok: true,
       reply: reply || "Sorry, I lost my train of thought. Could you say that again?",
       ...(attachments.length ? { images: attachments } : {}),
+      ...(videoAttachments.length ? { videos: videoAttachments } : {}),
     });
   } catch (err) {
     console.error("[identify] API error", err);

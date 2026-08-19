@@ -253,6 +253,55 @@ const description =
     width: 10rem;
     border: 1px solid var(--color-brand-brown-tan, #d2b48c);
   }
+  .gid-msg :global(.gid-video) {
+    margin-top: 0.6rem;
+    width: 100%;
+    max-width: 24rem;
+  }
+  .gid-msg :global(.gid-video__facade) {
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    padding: 0;
+    border: 1px solid var(--color-brand-brown-tan, #d2b48c);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+    background: #000;
+  }
+  .gid-msg :global(.gid-video__facade img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+    border: 0;
+  }
+  .gid-msg :global(.gid-video__play) {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    color: #fff;
+    background: rgba(62, 42, 20, 0.45);
+    transition: background 0.15s;
+  }
+  .gid-msg :global(.gid-video__facade:hover .gid-video__play) {
+    background: rgba(62, 42, 20, 0.65);
+  }
+  .gid-msg :global(.gid-video iframe) {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    border-radius: 0.5rem;
+  }
+  .gid-msg :global(.gid-video__title) {
+    font-size: 0.85rem;
+    color: #6b5638;
+    margin: 0.3rem 0 0;
+  }
   .gid-status {
     color: #6b5638;
     font-style: italic;
