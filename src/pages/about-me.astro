@@ -30,12 +30,26 @@ const profileSchema = {
     knowsAbout: [
       "Vintage Guitars",
       "Guitar Appraisal",
+      "Guitar Authentication",
       "Pre-War Martin Guitars",
       "Golden Era Gibson Guitars",
       "Vintage Fender Guitars",
       "Guitar Repair",
       "Music History",
     ],
+    // Joe's bylined guest essay on Vintage Verified; the author back-ref
+    // marks it as written by him, tying the Person entity to the byline there.
+    subjectOf: {
+      "@type": "Article",
+      headline: "What happens to a market that can't tell the difference?",
+      url: "https://www.vintageverified.com/joes-vintage",
+      author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
+      publisher: {
+        "@type": "Organization",
+        name: "Vintage Verified",
+        url: "https://www.vintageverified.com/",
+      },
+    },
   },
 };
 
@@ -161,7 +175,7 @@ const licensedImages = await buildImageGraph([
   ogImageAlt="Joe Dampt, owner of Joe's Vintage Guitars"
   ogType="article"
   publishedTime="2026-02-04T15:38:15+00:00"
-  modifiedTime="2026-05-06T16:59:02+00:00"
+  modifiedTime="2026-08-25T18:00:00+00:00"
   structuredData={[profileSchema, ...licensedImages]}
 >
   <PageHero
@@ -319,6 +333,10 @@ const licensedImages = await buildImageGraph([
         <div class="about-media__copy">
           <div class="about-media__item">
             <h4>Press:</h4>
+            <p>
+              Joe wrote a featured guest essay for <strong>Vintage Verified</strong>, the independent Nashville laboratory bringing scientific materials analysis to vintage guitar authentication. Drawing on lessons from the art world, Joe examines what third-party authentication changes for everyone who buys, sells, or collects vintage instruments.
+              <a href="https://www.vintageverified.com/joes-vintage" target="_blank" rel="noopener noreferrer">Read the essay here.</a>
+            </p>
             <p>
               Joe’s Vintage Guitars was featured by <strong>KJZZ 91.5 FM</strong>, Phoenix’s NPR affiliate, in an in-depth photo story showcasing the shop’s rare collection and the passion behind it. The feature highlights Joe’s lifelong love of vintage instruments and the unique buying-and-selling philosophy that keeps rare guitars in players’ hands.
               <a href="https://www.kjzz.org/the-show/see-inside-joes-vintage-guitars-in-mesa" target="_blank" rel="noopener noreferrer">Read the full story here.</a>
