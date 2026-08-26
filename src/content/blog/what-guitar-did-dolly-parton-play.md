@@ -89,7 +89,7 @@ Don't guess from a photo of the front alone. Look through the soundhole. Martin 
 
 <h2 id="worth">What A Vintage 5-18 Is Worth</h2>
 
-Vintage 5-18s trade in a thinner market than 0-18s and 00-18s. Originality, cracks, a neck reset, and a proper small case move the number more than the year does. A player-grade 5-18 with typical cracks, a later case, or a neck reset still to do usually sits around $2,800 to $4,000 in public asking and sold-out dealer pages. A clean original that is playing, with original finish and preferably an original case, is more like $4,000 to $5,800. That is public-market language, not an offer on your guitar.
+Vintage 5-18s trade in a thinner market than 0-18s and 00-18s. Originality, cracks, a neck reset, and a proper small case move the number more than the year does. A player-grade 5-18 with typical cracks, a later case, or a neck reset still to do usually sits around $2,800 to $4,000 in public asking and sold-out dealer pages. A clean original that is playing, with original finish and preferably an original case, is more like $4,000 to $5,800.
 
 A worn original finish usually beats a pretty refinish. Cracks and old repairs don't make it unsellable. Don't clean it, don't polish it, and don't have anyone touch it up before you send photos. I wrote the same thing on the [Martin buying page](/sell-my-martin-guitar/) because I mean it.
 
