@@ -6,10 +6,10 @@ excerpt: "The Super 400 is Gibson's 18 inch carved archtop, named for its $400 l
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
-heroImage: ""
-heroImageAlt: "A vintage Gibson Super 400 from the Joe's Vintage Guitars shop photo archive."
+heroImage: "/images/blog/gibson-super-400-ces-history-authentication-value/1964-gibson-super-400-sunburst-front.jpg"
+heroImageAlt: "Sunburst Gibson Super 400 from the shop photo set labeled 1964, with two pickups in the carved top, a pointed cutaway, and a Super 400 tailpiece, photographed in an orange-lined case."
 metaDescription: "Date a Gibson Super 400 CES by cutaway, pickups, and serials. Kalamazoo shipping totals and 2026 dealer value ranges from Joe's Vintage Guitars."
-ogImage: ""
+ogImage: "/images/blog/gibson-super-400-ces-history-authentication-value/gibson-super-400-ces-history-authentication-value-og.jpg"
 author: "Joe Dampt"
 draft: false
 toc:
@@ -35,8 +35,12 @@ The Gibson Super 400 is an 18 inch carved archtop, named for its $400 list price
 
 I buy Super 400s, L-5s, and ES-355s on purpose. The [Sell My Gibson Guitar](/sell-my-gibson-guitar/) page says so because these carved-tops are the top of the catalog I actually want in Mesa. This post stays on the Super 400 and Super 400 CES: history, year-by-year changes, how to date one, how to check yours, and dealer value as ranges. The photos below are shop photo sets labeled by year. Confirm the exact guitar (CES vs acoustic cutaway vs non-cutaway) against the instrument in hand before you publish a caption as a spec sheet.
 
-<!-- PHOTO PLACEHOLDER: Drive folder 1938, file 1938-gibson-super-400-1.jpg. Featured 1200x675, no baked text. Folder ID 1FHZw0-bL4soOOi3MpzB7MM64tvaGmhnL -->
-**Shop photo set, 1938 Super 400.** Pull from the 1938 Drive folder. This is a pre-CES acoustic year. Confirm cutaway vs non-cutaway on the actual guitar before the caption claims a body style.
+<figure>
+
+![Sunburst Gibson Super 400 in a brown case with magenta lining, from the shop photo set labeled 1938. Non-cutaway body, floating pickup at the end of the board, engraved Super 400 tailpiece.](../../assets/blog/gibson-super-400-ces-history-authentication-value/1938-gibson-super-400-sunburst-front.jpg)
+
+<figcaption><strong>Shop photo set labeled 1938 Super 400.</strong> Sunburst, non-cutaway body, engraved Super 400 tailpiece, magenta case lining. A floating pickup sits at the end of the board with a small control box. That is not a factory CES ring in the top. 1938 is a pre-CES acoustic year.</figcaption>
+</figure>
 
 If you want a year on the guitar in front of you while you read, keep the [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) open. If you want a number on yours, send photos through the [free appraisal](/free-appraisal/) form.
 
@@ -68,8 +72,12 @@ Gibson paused Super 400 production during World War II. Our Kalamazoo shipping l
 
 The Super 400 sits one inch wider than the [L-5 CES](/post/gibson-l5-ces-value-guide/), which is a 17 inch carved archtop with block inlays and a flowerpot headstock. That one-inch gap, plus split-block fingerboard markers and a split-diamond headstock inlay, is how you tell the two flagships apart across a room.
 
-<!-- PHOTO PLACEHOLDER: Drive folder 1938, detail files 1938-gibson-super-400-12.jpg through 1938-gibson-super-400-14.jpg. Folder ID 1FHZw0-bL4soOOi3MpzB7MM64tvaGmhnL -->
-**1938 details from the same shop set.** Use a headstock and a tailpiece close-up from the 1938 folder. Pre-CES Super 400s have no factory pickup rings in the top.
+<figure>
+
+![Figured maple back of a sunburst Gibson Super 400 from the shop photo set labeled 1938, with a Super 400 heel cap and magenta case lining.](../../assets/blog/gibson-super-400-ces-history-authentication-value/1938-gibson-super-400-maple-back.jpg)
+
+<figcaption><strong>Same 1938 shop set, maple back.</strong> Figured maple, sunburst, Super 400 on the heel cap. No pickups are visible from this angle. Pre-CES Super 400s have no factory pickup rings in the top.</figcaption>
+</figure>
 
 <h2 id="ces-1951">The Super 400 CES Arrives In 1951</h2>
 
@@ -81,8 +89,19 @@ Gibson Custom describes a slightly thicker CES top than the acoustic, built to c
 
 The CES never dropped out of the line the way the non-cutaway acoustic did in 1955. Our CES shipping table runs through 1969. Gibson Custom still builds a late-1950s-style Super 400 CES (Venetian cutaway, two humbuckers, 18 x 21 3/4 x 3 3/8 inches, 25 1/2 inch scale, five-piece maple neck with walnut center strips). Wikipedia states the full acoustic Super 400 is no longer in the catalog.
 
-<!-- PHOTO PLACEHOLDER: Drive folder 1957, file 1957 gibson super 400-1.jpg. Folder ID 1kIwLiFZh9Hv0cOE8kyvL241iVMkCFF60 -->
-**Shop photo set labeled 1957 Super 400.** Pull from the 1957 Drive folder. 1957 is the Alnico-to-humbucker window. Confirm CES vs Super 400c, and confirm pickup type, before the caption names either.
+<figure>
+
+![Sunburst Gibson Super 400 from the shop photo set labeled 1957, in a magenta-lined case. Two gold-covered pickups are mounted in the top, with four knobs, a toggle, a rounded cutaway, and a case tag that reads 1958 Super 400.](../../assets/blog/gibson-super-400-ces-history-authentication-value/1957-gibson-super-400-sunburst-front.jpg)
+
+<figcaption><strong>Shop photo set labeled 1957 Super 400.</strong> The guitar in the photo has two gold-covered pickups in the top, four knobs, a toggle, a rounded cutaway, and a Super 400 tailpiece. A case tag in the shot reads 1958 Super 400. The folder name is 1957. Gold covers do not tell Alnico leftover vs humbucker. Confirm year and CES vs cutaway acoustic on the actual guitar.</figcaption>
+</figure>
+
+<figure>
+
+![Headstock from the shop photo set labeled 1957 Super 400, with a pearl Gibson logo, split-diamond inlay, gold tuners, and a truss rod cover that reads STEREO, in a magenta-lined case.](../../assets/blog/gibson-super-400-ces-history-authentication-value/1957-gibson-super-400-headstock.jpg)
+
+<figcaption><strong>Headstock from the same 1957-labeled set.</strong> Split-diamond inlay, gold tuners, magenta case lining. The truss rod cover in this photo reads STEREO. I am not dating the guitar from the cover alone.</figcaption>
+</figure>
 
 <h2 id="evolution">Year By Year: What Changed And When</h2>
 
@@ -209,8 +228,19 @@ In 1960 Gibson pointed the cutaway on the Super 400 CES, the L-5 CES, the [Byrdl
 
 Kenny Burrell's well-photographed 1964 Super 400 CES is a Florentine. Vintage Guitar notes that guitar had PAFs, a laminated back, and a factory refinish in a teardrop black and yellow sunburst. That is one documented 1964. I won't mark every 1964 CES as laminated or refinished off that one example.
 
-<!-- PHOTO PLACEHOLDER: Drive folder 1964, file 1964-gibson-super-400-sunburst-1.jpg. Folder ID 1Un1Penkb1vlD-XwX7kCVjC3uBr03YgBn -->
-**Shop photo set, 1964 Super 400 sunburst.** Pull from the 1964 Drive folder. 1964 CES shipping is 29 sunburst and 13 natural. Super 400c shipping that year is 12 sunburst and 2 natural. Confirm CES vs acoustic cutaway on the guitar.
+<figure>
+
+![Sunburst Gibson Super 400 from the shop photo set labeled 1964, in an orange-lined case. Two pickups in the carved top, pointed cutaway, four knobs, a toggle, and a Super 400 tailpiece.](../../assets/blog/gibson-super-400-ces-history-authentication-value/1964-gibson-super-400-sunburst-front.jpg)
+
+<figcaption><strong>Shop photo set labeled 1964 Super 400 sunburst.</strong> Two pickups in the carved top, four knobs, a toggle, a pointed cutaway, and Super 400 on the tailpiece. Orange case lining. 1964 CES shipping is 29 sunburst and 13 natural. Super 400c that year is 12 sunburst and 2 natural. Confirm CES vs acoustic cutaway on the guitar in hand.</figcaption>
+</figure>
+
+<figure>
+
+![Figured maple back of a sunburst Gibson Super 400 from the shop photo set labeled 1964, showing a pointed cutaway and orange case lining.](../../assets/blog/gibson-super-400-ces-history-authentication-value/1964-gibson-super-400-sunburst-maple-back.jpg)
+
+<figcaption><strong>Same 1964 shop set, maple back.</strong> Figured maple, sunburst, pointed cutaway. No pickups are visible from this angle.</figcaption>
+</figure>
 
 <h3 id="nineteen-sixty-nine">1969 To The Custom Shop: Venetian Returns, Output Peaks, Then Norlin Tells</h3>
 
@@ -218,8 +248,12 @@ Kenny Burrell's well-photographed 1964 Super 400 CES is a Florentine. Vintage Gu
 
 Thomas A. Van Hoose wrote that the Super 400 CES was Gibson's flagship until the Citation arrived in 1969 (quoted in Guitar Player). The Super 400 CES stayed in production after that. Gibson Custom's current recreation is the late-1950s Venetian, two-humbucker spec.
 
-<!-- PHOTO PLACEHOLDER: Drive folder 1969, file 1969-gibson-super-400-sunburst-1.jpg. Folder ID 1vXC3Ab-u49tmhrBHR9Z8Z-rtOtJOqU2w -->
-**Shop photo set, 1969 Super 400 sunburst.** Pull from the 1969 Drive folder. 1969 is both the CES volume peak and the Venetian-return window. Confirm cutaway shape and CES vs Super 400c (33 sunburst, 22 natural acoustic cutaways that year).
+<figure>
+
+![Sunburst Gibson Super 400 from the shop photo set labeled 1969, in an orange-lined case. Rounded cutaway, Super 400 tailpiece, and a single pickup at the end of the board with two knobs on the pickguard.](../../assets/blog/gibson-super-400-ces-history-authentication-value/1969-gibson-super-400-sunburst-front.jpg)
+
+<figcaption><strong>Shop photo set labeled 1969 Super 400 sunburst.</strong> Rounded cutaway, sunburst, Super 400 on the tailpiece, orange case lining. One pickup sits at the end of the board with two knobs on the pickguard. That is not two factory rings in the top. Confirm CES vs Super 400c on the actual guitar. 1969 CES shipping is 120 sunburst and 45 natural. Super 400c that year is 33 sunburst and 22 natural.</figcaption>
+</figure>
 
 <h2 id="dating">How To Date A Super 400 Or Super 400 CES</h2>
 
@@ -288,8 +322,12 @@ Classic CES spec, with the year windows from the dating section. Acoustic Super 
 | **Finishes in the shipping tables** | Sunburst and natural. Other colors exist in shop photos and in later Custom Shop runs. See shop examples and the open questions in the notes file |
 | **Case (typical vintage, from our L-5 CES notes)** | 1950s Lifton brown with pink or maroon lining. 1960s black with orange or gold lining |
 
-<!-- PHOTO PLACEHOLDER: Drive folder Thinline, file gibson super 400 thinline.jpg. Folder ID 1B19tL-95a1jgJMPHVDWxNuu-z7ip5ALx -->
-**Shop photo set labeled Super 400 thinline.** Pull from the Thinline Drive folder. I don't have a factory year or a shipping-table row for a thinline Super 400 CES on our site. Caption the folder name and wait for a measured rim depth and a date before calling it a catalog variant.
+<figure>
+
+![Red Gibson Super 400 from the shop photo set labeled Super 400 thinline, in a green-lined case. Two gold-covered pickups in the top, four knobs, a toggle, rounded cutaway, and a Super 400 tailpiece.](../../assets/blog/gibson-super-400-ces-history-authentication-value/gibson-super-400-thinline-front.jpg)
+
+<figcaption><strong>Shop photo set labeled Super 400 thinline.</strong> Red finish, two gold-covered pickups in the top, four knobs, a toggle, rounded cutaway, Super 400 on the tailpiece, green case lining. I don't have a factory year or a shipping-table row for a thinline Super 400 CES on our site. Wait for a measured rim depth and a date before calling it a catalog variant.</figcaption>
+</figure>
 
 <h2 id="check">How To Check Yours: Cutaway, Pickups, Label, And Hardware</h2>
 
@@ -384,19 +422,26 @@ I don't guarantee a future price. I don't call a Super 400 an investment. Send p
 
 <h2 id="shop">Shop Examples In These Photos</h2>
 
-Every photo in this draft is a placeholder pointing at a Drive folder of guitars that came through the shop. I'm not inventing serials, pickup types, or a CES vs acoustic ID from the folder name alone.
+Every photo on this page is a guitar that came through the shop. Captions follow the Drive folder labels. I am not inventing serials, or a CES vs acoustic ID from the folder name alone. If pickups, cutaway shape, or a case tag are visible in the frame, the caption says so.
 
-**1938 Super 400.** Drive folder 1938. Acoustic year, five years before the CES. Use as the pre-war body, split-diamond headstock, and tailpiece reference.
+**1938 Super 400.** Shop set labeled 1938. Non-cutaway sunburst with a floating pickup. Acoustic year, five years before the CES.
 
-**1957 Super 400.** Drive folder 1957. 1957 CES shipping is 24 sunburst and 15 natural. 1957 Super 400c shipping is 11 sunburst and 14 natural. Pickup type on this guitar is the caption question: Alnico leftover vs November 1957 humbucker.
+**1957 Super 400.** Shop set labeled 1957. The guitar in those photos has two gold-covered pickups in the top and a rounded cutaway. A case tag in the front shot reads 1958 Super 400. 1957 CES shipping is 24 sunburst and 15 natural. 1957 Super 400c shipping is 11 sunburst and 14 natural. Gold covers do not settle Alnico leftover vs November 1957 humbucker.
 
-**1964 Super 400 sunburst.** Drive folder 1964. Florentine window if it is a CES.
+**1964 Super 400 sunburst.** Shop set labeled 1964. Two pickups in the top and a pointed cutaway in the photos. That is the Florentine window if the guitar is a CES.
 
-**1969 Super 400 sunburst.** Drive folder 1969. Peak CES shipping year, Venetian-return window.
+**1969 Super 400 sunburst.** Shop set labeled 1969. Rounded cutaway and one pickup at the end of the board in the photo. Peak CES shipping year, Venetian-return window. Confirm CES vs Super 400c on the actual guitar.
 
-**Thinline Super 400.** Drive folder Thinline. Shop photos exist. Factory year, rim depth, and catalog status need a bench measurement and a date from Joe before this is more than a caption.
+**Thinline Super 400.** Shop set labeled Super 400 thinline. Red finish, two gold-covered pickups in the top. Factory year, rim depth, and catalog status need a bench measurement and a date from Joe before this is more than a caption.
 
-**Black Super 400.** Drive folder Black. Shop photos exist. Sunburst and natural are the finishes in the vintage shipping tables. A black example needs a year and a factory-vs-refinish call before anyone prices it as a custom color.
+**Black Super 400.** Shop set labeled black Super 400. Black finish, two gold-covered pickups in the top.
+
+<figure>
+
+![Black Gibson Super 400 from the shop photo set labeled black Super 400, in a magenta-lined case. Two gold-covered pickups in the top, four knobs, a toggle, rounded cutaway, and a Super 400 tailpiece.](../../assets/blog/gibson-super-400-ces-history-authentication-value/gibson-super-400-black-front.jpg)
+
+<figcaption><strong>Shop photo set labeled black Super 400.</strong> Black finish, two gold-covered pickups in the top, four knobs, a toggle, rounded cutaway, Super 400 on the tailpiece. Sunburst and natural are the finishes in the vintage shipping tables. A black example needs a year and a factory-vs-refinish call before anyone prices it as a custom color.</figcaption>
+</figure>
 
 **Chet Atkins Super 4000.** Drive folder "gibson super 4000". The certificate in that set reads as a limited run of 25 Chet Atkins Super 4000 guitars from Gibson Custom, Art, and Historic in Nashville, with a certificate number 7099714 visible in the photo OCR. That is a related limited run, not a vintage Kalamazoo Super 400 CES. One sentence is the right amount of space here.
 
