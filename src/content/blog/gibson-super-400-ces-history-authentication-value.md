@@ -37,9 +37,9 @@ I buy Super 400s, L-5s, and ES-355s on purpose. The [Sell My Gibson Guitar](/sel
 
 <figure>
 
-![Sunburst Gibson Super 400 in a brown case with magenta lining, from the shop photo set labeled 1938. Non-cutaway body, floating pickup at the end of the board, engraved Super 400 tailpiece.](../../assets/blog/gibson-super-400-ces-history-authentication-value/1938-gibson-super-400-sunburst-front.jpg)
+![A 1938 Gibson Super 400 in sunburst with a non-factory floating DeArmond pickup, in a brown case with magenta lining.](../../assets/blog/gibson-super-400-ces-history-authentication-value/1938-gibson-super-400-sunburst-front.jpg)
 
-<figcaption><strong>Shop photo set labeled 1938 Super 400.</strong> Sunburst, non-cutaway body, engraved Super 400 tailpiece, magenta case lining. A floating pickup sits at the end of the board with a small control box. That is not a factory CES ring in the top. 1938 is a pre-CES acoustic year.</figcaption>
+<figcaption><strong>A 1938 Super 400</strong> with a non-factory floating DeArmond pickup. Those were popular in the early days of electric guitars, when players wanted to amplify an acoustic.</figcaption>
 </figure>
 
 If you want a year on the guitar in front of you while you read, keep the [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) open. If you want a number on yours, send photos through the [free appraisal](/free-appraisal/) form.
@@ -424,7 +424,7 @@ I don't guarantee a future price. I don't call a Super 400 an investment. Send p
 
 Every photo on this page is a guitar that came through the shop. Captions follow the Drive folder labels. I am not inventing serials, or a CES vs acoustic ID from the folder name alone. If pickups, cutaway shape, or a case tag are visible in the frame, the caption says so.
 
-**1938 Super 400.** Shop set labeled 1938. Non-cutaway sunburst with a floating pickup. Acoustic year, five years before the CES.
+**1938 Super 400.** Non-cutaway sunburst with a non-factory floating DeArmond. Players added those pickups in the early electric years to amplify acoustics.
 
 **1957 Super 400.** Shop set labeled 1957. The guitar in those photos has two gold-covered pickups in the top and a rounded cutaway. A case tag in the front shot reads 1958 Super 400. 1957 CES shipping is 24 sunburst and 15 natural. 1957 Super 400c shipping is 11 sunburst and 14 natural. Gold covers do not settle Alnico leftover vs November 1957 humbucker.
 
