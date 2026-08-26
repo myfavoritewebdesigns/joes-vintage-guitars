@@ -1,15 +1,15 @@
 ---
 title: "What A Serial Number Can't Tell You: How A Dealer Actually Checks A Vintage Guitar"
 pubDate: "2026-08-26T12:00:00"
-modified: "2026-08-26T12:00:00"
+modified: "2026-08-26T18:10:00"
 excerpt: "A serial number dates a guitar. It cannot prove the finish, the parts, or whether the instrument is original. A real number can sit on the wrong guitar. I treat the serial as a claim, then I check whether the rest of the guitar agrees with it."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: []
-heroImage: ""
-heroImageAlt: ""
+heroImage: "/images/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-sunburst-front.jpg"
+heroImageAlt: "1963 Fender Stratocaster in sunburst, with player wear through the finish on the horns and edges."
 metaDescription: "A serial number dates a vintage guitar. It cannot prove the finish, the parts, or originality. Here's the bench check I run, plus a free photo appraisal."
-ogImage: ""
+ogImage: "/images/blog/what-a-serial-number-cant-tell-you/what-a-serial-number-cant-tell-you-og.jpg"
 author: "Joe Dampt"
 draft: false
 toc:
@@ -27,6 +27,8 @@ toc:
   - { href: "#frequently-asked-questions", label: "Frequently Asked Questions" }
   - { href: "#send-me-photos-and-i-will-read-the-guitar", label: "Send Me Photos And I Will Read The Guitar" }
 ---
+<style>.blog-prose figure p{margin:0}</style>
+
 A serial number dates a guitar. It cannot prove the finish, the parts, or whether the instrument is original. A real number can sit on the wrong guitar. I treat the serial as a claim, then I check whether the rest of the guitar agrees with it. The longer argument is in my [Vintage Verified essay](https://www.vintageverified.com/joes-vintage).
 
 <nav class="post-toc-inline" aria-label="Table of contents">
@@ -48,6 +50,15 @@ A serial number is a factory tracking mark. On a good day it points at a year ra
 Each brand asks the number to do a different job, and none of them ask it to certify originality.
 
 On a vintage Fender, the serial is a rough guide, not an exact date. Before the mid-1970s, Fender mixed stockpiled parts, so the number only narrows the window. Neck-heel stamps and pot codes are tighter clues, and even those date the part, not the finished guitar. I wrote that out in the [Fender serial number guide](/fender-guitars-serial-number-guide/).
+
+<figure>
+
+![L-series neck plate serial L17163 on a 1963 Fender Stratocaster](../../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-neck-plate.jpg)
+
+<figcaption>L-series neck plate on this 1963 Strat. The L prefix is a late 1962 through early 1965 window. The heel stamp and pots have to close the year.</figcaption>
+
+</figure>
+
 
 On a Gibson from about 1961 to 1969, the serial is weaker still. The company reused and duplicated ranges, so one number can point at two, three, or even four years. You corroborate with pot codes, pickups, tuners, logo, and hardware. The [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) is the lookup. The guitar in your hands is the proof.
 
@@ -101,6 +112,15 @@ Hardware leaves a footprint. Extra screw holes around the tuners, a neck plate t
 
 On a 1962 Gibson ES-335 I appraised in person, I checked that the single-line, double-ring Kluson tuners were original with no added or enlarged holes. That is a typical pass: the tuners are period-correct, and the wood has not been opened up for a later set. The reverse is also useful. Extra holes behind modern tuners usually mean someone converted from Klusons, or converted back.
 
+<figure>
+
+![Single-line Kluson Deluxe tuners on the back of a 1963 Fender Stratocaster headstock](../../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-back-of-headstock.jpg)
+
+<figcaption>Single-line Kluson Deluxe tuners on this 1963 Strat. No extra or enlarged screw holes behind them. A typical pass: period tuners, wood not opened up.</figcaption>
+
+</figure>
+
+
 A correct-era tuner does not prove the guitar is all original. It proves the tuners are the right vintage for the claim. Pair them with the rest of the guitar or they are just good parts.
 
 <h3 id="cavities-routes-and-pot-codes">Cavities, Routes, And Pot Codes</h3>
@@ -111,11 +131,37 @@ A pot code is the EIA stamp on the back of a potentiometer. The first three digi
 
 A pot date only tells you the earliest the guitar could have been built. Factories bought pots in bulk. Fender bought a large batch in 1966 and used them for years, so a guitar can be newer than its pots. It cannot be older than its latest original part. If one pot is ten years off from the others, that pot is the story. Read the [Fender pot code guide](/fender-pot-codes/) for the decoder. The same EIA logic is how I read Gibson pots when a 1960s serial is sitting on two possible years.
 
+<figure>
+
+![Control cavity of a 1963 Fender Stratocaster with pickguard flipped, cloth wire, and three pots](../../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-electronics.jpg)
+
+<figcaption>Pickguard flipped on this 1963 Strat. Cloth wire, three 250k pots, and the codes on the back of the cans. This is where the serial stops being the whole story.</figcaption>
+
+</figure>
+
+<figure>
+
+![Stackpole 304 6347 pot code on a 1963 Fender Stratocaster](../../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-potentiometer-code.jpg)
+
+<figcaption>Stackpole code 304 6347 on this guitar. 304 is Stackpole. 6347 is 1963, week 47. That dates the pot, not the finished Strat.</figcaption>
+
+</figure>
+
+
 Paint in a route, overspray that stops at a later pickguard line, or a cavity that has been opened up with a different bit than the factory used: those are finish and routing questions. On Fender custom colors, the factory paint in the cavities is part of the color check, and that procedure stays on the custom color page.
 
 <h3 id="solder-that-has-not-been-moved">Solder That Has Not Been Moved</h3>
 
 Untouched solder is dull and grey. Rework is usually shinier, and it often sits on a joint that already has a blob underneath it. I am not going to write a tutorial on how to fake age into solder. I will tell you what I look for.
+
+<figure>
+
+![Dull grey factory solder joint with aged amber flux on vintage guitar electronics](../../assets/blog/what-a-serial-number-cant-tell-you/aged-factory-solder-joint.jpg)
+
+<figcaption>Factory solder that has sat for decades is dull grey, with old flux around the joint. Later work is usually shinier and sits on top of an older blob.</figcaption>
+
+</figure>
+
 
 On Fender, untouched solder joints are one of the checks I use when a custom color is on the table. On a 1966 Jaguar in Lake Placid Blue, I asked for electronics photos specifically to read the solder, alongside the paint-stick mark in the neck pocket. The solder was not the whole proof. It was one more check that the harness had not been pulled for a refin.
 
@@ -124,6 +170,15 @@ On a Gibson PAF-era guitar, factory cover solder is grey. Fresh solder anywhere 
 <h3 id="pickups-and-whether-they-belong">Pickups And Whether They Belong</h3>
 
 Pickups have to match the guitar's claimed year, and they have to look like they have lived in that guitar. A PAF is Gibson's original Patent Applied For humbucker, fitted from 1957, with the small PATENT APPLIED FOR decal on the baseplate from late 1957 until the patent-number sticker around 1962. A pickup from the wrong decade, a baseplate that is too clean for the covers, or a harness that has been fished and put back, is a parts story.
+
+<figure>
+
+![PAF humbucker baseplate with PATENT APPLIED FOR sticker and oxidized cover solder](../../assets/blog/what-a-serial-number-cant-tell-you/gibson-paf-sticker-oxidized-solder-joints.jpg)
+
+<figcaption>PAF baseplate with the PATENT APPLIED FOR sticker still on it, and grey oxidized cover solder. Fresh solder anywhere in that path raises the burden of proof on the pickup.</figcaption>
+
+</figure>
+
 
 A swapped pickup leaves tracks at the rings, the height screws, the cavity, and the solder. On a 335-style guitar, ask whether the harness has ever been pulled through an f-hole.
 
@@ -134,6 +189,15 @@ A correct pickup date still does not prove the guitar is all original. It proves
 The serial is one date. The neck is another. The pots are another. The pickups, the tuners, the logo, and the hardware are more. I want those dates to tell the same story, or I want a reason they do not.
 
 On a Fender, the [neck date](/fender-neck-dates/) is a production mark on the heel of the bolt-on neck, under the truss-rod nut. Fender marked them from the earliest solidbodies until about 1976, penciled until March 1962. The neck date dates the neck. It can differ from the body date by weeks or months on a perfectly original guitar, because Fender pulled finished necks from a bin. A neck dated well after the rest of the guitar is the usual red flag for a swap. A neck a year older than the body is often leftover stock.
+
+<figure>
+
+![Black ink neck heel stamp 2NOV63 B on a 1963 Fender Stratocaster](../../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-neck-heel-stamp.jpg)
+
+<figcaption>Heel stamp 2 NOV 63 B on the same Strat as the L-series plate and the Stackpole pots. The 2 is Stratocaster. NOV 63 is the neck. B is the nut width. This dates the neck, not the whole guitar.</figcaption>
+
+</figure>
+
 
 On a Gibson from 1961 to 1969, you already know the serial will not pin a single year. The pots, the pickup type, the tuner stamp (no-line, single-line, double-line), the logo, and the presence or absence of a volute have to close the range. No Gibson should be dated on the serial alone in any era, because numbers can be re-stamped, refinished over, or faked.
 
