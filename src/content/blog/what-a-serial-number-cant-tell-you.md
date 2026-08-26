@@ -1,7 +1,7 @@
 ---
 title: "What A Serial Number Can't Tell You: How A Dealer Actually Checks A Vintage Guitar"
 pubDate: "2026-08-26T12:00:00"
-modified: "2026-08-26T23:30:00"
+modified: "2026-08-26T23:45:00"
 excerpt: "On this 1965 Candy Apple Red Strat the silver under the red and the checking off the neck plate do the work a serial can't. A 1966 Lake Placid Blue Jazzmaster shows the same gap on an offset."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
@@ -131,7 +131,7 @@ On a 1962 Gibson ES-335 I appraised in person, I checked that the single-line, d
 
 Open the control cavity when you can do it without fighting vintage screws. On a suspected counterfeit Gibson, the cavity is one of the better tells: factory instruments usually show clean routing, neat solder, full-size CTS or Gibson-branded pots, and braided pickup wire, while a lot of fakes show rough routing, messy solder, tiny generic pots, and plastic-coated colored wire. Those are warning signs. I still want the rest of the guitar.
 
-A pot code is the EIA stamp on the back of a potentiometer. The first three digits name the maker: 137 is CTS, 134 is Centralab, 304 is Stackpole. The digits after that are year and week of the pot, so a code like 137 76 24 is a CTS pot from week 24 of 1976, and that date is terminus post quem, the earliest the guitar could have been built. Factories bought pots in bulk. Fender bought a large batch in 1966 and used them for years, so a guitar can be newer than its pots. It can't be older than its latest original part. If one pot is ten years off from the others, that pot is the story. Read the [Fender pot code guide](/fender-pot-codes/) for the decoder. The same EIA logic is how I read Gibson pots when a 1960s serial is sitting on two possible years.
+Pots are the part I trust most when the serial is only a window. Three 250k cans sit under that guard, and the stamp on the side of each can dates the part. Fender bought them in bulk, including a 1966 batch they used for years, so a guitar can be newer than its pots. It can't be older than its latest original part. If one can is ten years off from the others, that can is the story. The [Fender pot code guide](/fender-pot-codes/) is the decoder, including on a 1960s Gibson when the serial is sitting on two possible years.
 
 <figure>
 
