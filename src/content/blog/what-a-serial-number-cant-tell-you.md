@@ -1,14 +1,14 @@
 ---
 title: "What A Serial Number Can't Tell You: How A Dealer Actually Checks A Vintage Guitar"
 pubDate: "2026-08-26T12:00:00"
-modified: "2026-08-26T19:15:00"
-excerpt: "This Strat's L-series plate only gets you a window. The heel stamp and the pots close the year. None of that tells me whether the nitro is original. I check the guitar, then I treat the serial as a claim."
+modified: "2026-08-26T22:00:00"
+excerpt: "This 1965 Candy Apple Red Strat's serial only gets you a window. The silver under the red and the checking off the neck plate are the guitar. A 1966 Lake Placid Blue Jazzmaster shows the same gap on an offset. I check the film, then I treat the serial as a claim."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: []
-heroImage: "/images/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-sunburst-front.jpg"
-heroImageAlt: "1963 Fender Stratocaster in sunburst, with player wear through the finish on the horns and edges."
-metaDescription: "A serial dates the claim on a vintage guitar. Heel stamps, pot codes, solder, and wear have to agree. Here's the bench check I run, plus a free photo appraisal."
+heroImage: "/images/blog/what-a-serial-number-cant-tell-you/1965-fender-stratocaster-candy-apple-red-front.jpg"
+heroImageAlt: "1965 Fender Stratocaster in Candy Apple Red Metallic with a white three-ply pickguard, standing in a shop in front of a blackface Fender amp and other vintage Fenders."
+metaDescription: "A Fender serial dates the claim, not the nitro. On this 1965 Candy Apple Red Strat the silver undercoat and pocket do the work. Plus a free photo appraisal."
 ogImage: "/images/blog/what-a-serial-number-cant-tell-you/what-a-serial-number-cant-tell-you-og.jpg"
 author: "Joe Dampt"
 draft: false
@@ -29,7 +29,7 @@ toc:
 ---
 <style>.blog-prose figure p{margin:0}</style>
 
-This Strat wears L17163 on the neck plate. That L only gets you late 1962 into early 1965. The heel is stamped 2 NOV 63 B, and the Stackpole pots are 6347, week 47 of 1963. I called it a '63 from those two, not from the plate. The serial still doesn't tell me whether the nitro on those horns is the nitro that left Fullerton. The longer argument is in my [Vintage Verified essay](https://www.vintageverified.com/joes-vintage).
+This Strat is Candy Apple Red, a 1965. A Fender serial from that stretch only gets you a range (late L-series into the early F plates, VG-0050). I don't have this guitar's plate, heel stamp, or pot codes on this page. What I do have is the film: chips on the horn break to silver, checking runs off the neck plate, and the pocket still shows the paint-stick yellow. That is the guitar. The serial, when you have it, is a claim those facts have to survive. The longer argument is in my [Vintage Verified essay](https://www.vintageverified.com/joes-vintage).
 
 <nav class="post-toc-inline" aria-label="Table of contents">
 
@@ -47,13 +47,13 @@ This Strat wears L17163 on the neck plate. That L only gets you late 1962 into e
 
 A serial number is a factory tracking mark. On a good day it points at a year range.
 
-This Strat's plate is the Fender version of that. Before the mid-1970s, Fender mixed stockpiled parts, so the number only narrows the window. The heel stamp and the pot codes are tighter, and even those date the part. I wrote the lookup in the [Fender serial number guide](/fender-guitars-serial-number-guide/).
+Before the mid-1970s, Fender mixed stockpiled parts, so the number only narrows the window. Heel stamps and pot codes date the part. I wrote the lookup in the [Fender serial number guide](/fender-guitars-serial-number-guide/).
 
 <figure>
 
-![L-series neck plate serial L17163 on a 1963 Fender Stratocaster](../../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-neck-plate.jpg)
+![Extreme close-up of Candy Apple Red finish beside the neck plate of a 1965 Fender Stratocaster, showing fine vertical lacquer checking.](../../assets/blog/what-a-serial-number-cant-tell-you/1965-fender-stratocaster-candy-apple-red-checking.jpg)
 
-<figcaption>L17163 on this Strat's four-bolt plate. The L prefix runs late 1962 into early 1965. I needed the heel and the pots to call it 1963.</figcaption>
+<figcaption>Checking running off the neck plate on this 1965 Candy Apple Red Strat. The plate is a tracking mark. The film is what I trust.</figcaption>
 
 </figure>
 
@@ -79,7 +79,7 @@ Listings use "all original" like a switch. On a guitar that's been played sixty 
 
 **Untouched electronics.** The solder, the cloth or braid, the pots, and the pickup leads still sitting where a factory iron left them. A pickup can be swapped in half an hour. The trip leaves tracks at the pots, the switch, and the cavity.
 
-This Strat can be original nitro with later tuners. It can be original pickups with a refin. Write what it actually is. Don't flatten that into "all original" because L17163 decoded.
+This Strat can be original nitro with later tuners. It can be original pickups with a refin. On this Candy Apple Red Strat I can show the silver under the red and a factory-looking pocket. Write what it actually is. Don't flatten that into "all original" because a 1965 serial decoded.
 
 The original hard-shell case (OHSC in listings) is a nice extra. I've seen original cases on refinished guitars.
 
@@ -89,29 +89,51 @@ This is the order I run when a guitar is in front of me. Eyes first, screwdriver
 
 <h3 id="finish-and-wear">Finish And Wear</h3>
 
-I look at the film before I trust the number. Nitrocellulose was the standard on most vintage Fender and Gibson electrics in the 1950s and 1960s. It checks as it ages. On this Strat the wear is on the horns and the edges, where an arm and a belt actually land. Wear that's even all the way around, or copied onto edges that never see a shirt, is a question.
+I look at the film before I trust the number. Nitrocellulose was the standard on most vintage Fender and Gibson electrics in the 1950s and 1960s. It checks as it ages. On this 1965 Candy Apple Red Strat the wear is at the horn chip and in the checking that runs off the neck plate.
+
+Candy Apple Red from 1963 into 1965 sat on a metallic silver base, typically Inca Silver, under translucent red. Chips on this 1965 break to bright silver. After the 1965 CBS transition through 1973 the base shifts to gold. This guitar is a 1965 and chips to silver, which matches the silver-base recipe that ran 1963 into 1965.
+
+<figure>
+
+![Close-up of chips on the back of the upper horn of a 1965 Fender Stratocaster in Candy Apple Red, with small chips in the red revealing a bright silver metallic undercoat beneath.](../../assets/blog/what-a-serial-number-cant-tell-you/1965-fender-stratocaster-candy-apple-red-chip-silver-undercoat.jpg)
+
+<figcaption>Chips on the horn of this 1965 Candy Apple Red Strat break to bright silver, the silver-base recipe that ran 1963 into 1965.</figcaption>
+
+</figure>
+
+Lake Placid Blue was a 1958 Cadillac color, on the Fender chart from 1960 to 1973. The full color chart and factory tells live on the [custom color guide](/post/fender-custom-color-authentication-guide/).
+
+<figure>
+
+![Front of a 1966 Fender Jazzmaster in Lake Placid Blue with a white pickguard, photographed in a vintage guitar shop with a blue sparkle guitar visible behind it.](../../assets/blog/what-a-serial-number-cant-tell-you/1966-fender-jazzmaster-lake-placid-blue-front.jpg)
+
+<figcaption>A 1966 Jazzmaster in Lake Placid Blue with a white pickguard.</figcaption>
+
+</figure>
+
+White undercoat sat under most sixties custom colors.
+
+<figure>
+
+![Extreme close-up of a pickguard screw hole on a 1966 Fender Jazzmaster in Lake Placid Blue next to a bridge post thimble, with the chipped edge of the screw hole revealing a bright white undercoat beneath the blue.](../../assets/blog/what-a-serial-number-cant-tell-you/1966-fender-jazzmaster-lake-placid-blue-pickguard-screw-hole-chip-white-undercoat.jpg)
+
+<figcaption>A pickguard screw hole on this 1966 Lake Placid Blue Jazzmaster. The chipped rim breaks to white, the standard undercoat under sixties Lake Placid Blue.</figcaption>
+
+</figure>
 
 Relic'ing is the intentional aging of a new guitar: worn finish, lacquer checking, tarnished hardware, dents. A relic is distressed on purpose. A convincing one still has to survive pot codes, neck dates, and cavity paint.
 
 Under UV blacklight, aged original nitro usually glows greenish or yellowish, so touch-ups and overspray can show as dark or contrasting patches. I use it as a screen. The downside is real: old refinishes can hide, poly and a lot of later paints glow inconsistently, and fresh nitro hasn't aged enough to glow yet. I wouldn't call a finish original from a blacklight photo alone.
 
-On a Fender custom color, the factory tells (nail holes, paint-stick shadow, Fullerplast, the blacklight procedure) live on the [custom color authentication guide](/post/fender-custom-color-authentication-guide/). If the money is in the color, read that guide, then send photos.
+If the money is in the color, read the custom color guide, then send photos.
 
 <h3 id="hardware-footprints-and-extra-holes">Hardware Footprints And Extra Holes</h3>
 
 Hardware leaves a footprint. Extra screw holes around the tuners, a neck plate that doesn't sit in old lacquer witness lines, a bridge post that's been opened up, a pickguard with a later screw pattern: those are records of work.
 
-On a 1962 Gibson ES-335 I appraised in person, I checked that the single-line, double-ring Kluson tuners were original, with no added or enlarged holes. I don't have a clean extra-hole photo for this page, so you're looking at a pass on this Strat instead.
+On a 1962 Gibson ES-335 I appraised in person, I checked that the single-line, double-ring Kluson tuners were original, with no added or enlarged holes. I don't have a clean extra-hole photo for this page, so that check is copy only.
 
-<figure>
-
-![Single-line Kluson Deluxe tuners on the back of a 1963 Fender Stratocaster headstock](../../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-back-of-headstock.jpg)
-
-<figcaption>Single-line Kluson Deluxe tuners on this 1963 Strat, in the original holes. Extra holes behind modern tuners usually mean someone converted from Klusons, or converted back.</figcaption>
-
-</figure>
-
-I'd still open the cavity before I called the guitar original. Period tuners are period tuners.
+Tuners come off with four screws. A period stamp dates the tuners. It only helps when it agrees with the headstock, the finish, the pots, and the serial. I'd still open the cavity before I called the guitar original. Period tuners are period tuners.
 
 <h3 id="cavities-routes-and-pot-codes">Cavities, Routes, And Pot Codes</h3>
 
@@ -123,17 +145,19 @@ A pot date tells you the earliest the guitar could have been built. Factories bo
 
 <figure>
 
-![Control cavity of a 1963 Fender Stratocaster with pickguard flipped, cloth wire, and three pots](../../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-electronics.jpg)
+![Top of a 1965 Fender Stratocaster body in Candy Apple Red with the pickguard removed and the loaded guard folded to the side, showing full red coverage in the pickguard footprint, dusty overspray in the pickup routes, and yellow showing through in the neck pocket.](../../assets/blog/what-a-serial-number-cant-tell-you/1965-fender-stratocaster-candy-apple-red-under-pickguard.jpg)
 
-<figcaption>Pickguard flipped on this 1963 Strat. Cloth wire, three 250k pots, and the codes on the back of the cans.</figcaption>
+<figcaption>Guard off this 1965 Candy Apple Red Strat. Color coats cover the face, get thin and dusty in the routes, and the neck pocket goes yellow where the paint stick sat.</figcaption>
 
 </figure>
 
+I have the cavity in the photo. I don't have a readable EIA stamp from this guitar on this page.
+
 <figure>
 
-![Stackpole 304 6347 pot code on a 1963 Fender Stratocaster](../../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-potentiometer-code.jpg)
+![Close-up of the neck pocket area of a 1965 Fender Stratocaster in Candy Apple Red, showing the yellow-sealed pocket floor with red overspray feathering across it and heavy dust and shadow at the pocket edge.](../../assets/blog/what-a-serial-number-cant-tell-you/1965-fender-stratocaster-candy-apple-red-neck-pocket-shadow.jpg)
 
-<figcaption>Stackpole code 304 6347 on this guitar. 304 is Stackpole. 6347 is 1963, week 47. That dates this pot. The heel stamp is how the year held.</figcaption>
+<figcaption>Neck pocket of the same 1965 Candy Apple Red Strat. Yellow-sealed floor, red overspray feathering across it, dust at the edge.</figcaption>
 
 </figure>
 
@@ -151,7 +175,15 @@ The joint in the photo is dull grey, with old amber flux crazed around it. That'
 
 </figure>
 
-On Fender, those joints are one of the checks I use when a custom color is on the table. On a 1966 Jaguar in Lake Placid Blue, I asked for electronics photos so I could read the solder next to the paint-stick mark in the neck pocket. The solder didn't close the guitar. It was one more check that the harness hadn't been pulled for a refin.
+On Fender, I read solder when a custom color is on the table so I know the harness wasn't pulled for a refin. On this 1966 Lake Placid Blue Jazzmaster, the pocket is the color check: paint-stick yellow stripe, JM in marker, original red-brown fiber shim. I don't have a solder close-up from this Jazzmaster on this page. The pocket is what I can show.
+
+<figure>
+
+![Neck pocket of a 1966 Fender Jazzmaster in Lake Placid Blue with the neck removed, showing a masked yellow stripe down the center of the pocket with JM written in black marker, blue overspray on either side, bubbly finish texture at the pocket edge, and a rust-red fiberboard factory shim at the end of the pocket.](../../assets/blog/what-a-serial-number-cant-tell-you/1966-fender-jazzmaster-lake-placid-blue-neck-pocket-shadow.jpg)
+
+<figcaption>Neck pocket of the 1966 Lake Placid Blue Jazzmaster. Paint-stick yellow down the center, JM in marker, blue overspray at the edges, original fiber shim at the end of the pocket.</figcaption>
+
+</figure>
 
 On a Gibson PAF-era guitar, factory cover solder is grey. Fresh solder anywhere in the signal path raises the burden of proof on the pickups. The [PAF and patent-number pickup guide](/post/gibson-paf-patent-number-pickup-guide/) is the spoke for that. Charlie from es-335.com has written for years that original solder got turned into a stand-in for "the pickups never came out," and that a carefully redone ground can be hard to call. I agree with the caution. ([Take Off A Buck](https://www.es-335.com/2015/10/26/take-off-a-buck/), es-335.com.)
 
@@ -171,17 +203,9 @@ A swapped pickup leaves tracks at the rings, the height screws, the cavity, and 
 
 <h3 id="cross-dating-every-date-has-to-agree">Cross-Dating: Every Date Has To Agree</h3>
 
-On this Strat the plate, the heel, and the pots agree on 1963. That's the job. If they'd disagreed, I wouldn't average them. I'd ask which part moved.
-
 On a Fender, the [neck date](/fender-neck-dates/) is a production mark on the heel of the bolt-on neck, under the truss-rod nut. Fender marked them from the earliest solidbodies until about 1976, penciled until March 1962. The neck date dates the neck. It can differ from the body date by weeks or months on a perfectly original guitar, because Fender pulled finished necks from a bin. A neck dated well after the rest of the guitar is the usual red flag for a swap. A neck a year older than the body is often leftover stock.
 
-<figure>
-
-![Black ink neck heel stamp 2NOV63 B on a 1963 Fender Stratocaster](../../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-neck-heel-stamp.jpg)
-
-<figcaption>Heel stamp 2 NOV 63 B on the same Strat as the L-series plate and the Stackpole pots. The 2 is Stratocaster. NOV 63 is the neck. B is the nut width.</figcaption>
-
-</figure>
+From spring 1962 onward a Jazzmaster heel is a rubber stamp like 4JAN63B, where 4 is the Jazzmaster model code. I don't have the heel of this Candy Apple Red Strat or this Jazzmaster on this page. On the Jazzmaster, the body side of that match is the pocket already shown.
 
 On a Gibson from 1961 to 1969, you already know the serial won't pin a single year. The pots, the pickup type, the tuner stamp (no-line, single-line, double-line), the logo, and the presence or absence of a volute have to close the range. I don't date any Gibson from the serial alone, in any era. Numbers get re-stamped, refinished over, or faked.
 
@@ -213,11 +237,11 @@ This is an estimate of market value, not an offer to buy and not a promise. Mark
 
 <h3 id="can-a-guitar-serial-number-be-faked">Can A Guitar Serial Number Be Faked?</h3>
 
-Yes. Numbers get re-stamped, and neck plates get swapped. This Strat's L17163 looks like a real L-series stamp. I believe the year because the heel and the pots agree with it. If the serial and the features disagree, trust the features and get a hands-on read before you pay vintage money.
+Yes. Numbers get re-stamped, and neck plates get swapped. I believe a year when the heel, the pots, and the film agree with the plate. This Candy Apple Red Strat is the film half of that job.
 
 <h3 id="if-the-serial-number-checks-out-is-the-guitar-original">If The Serial Number Checks Out, Is The Guitar Original?</h3>
 
-The serial on this Strat only gave me a window. Originality is finish, parts, solder, pots, pickups, and whether those dates agree. Fender serials before the mid-1970s and Gibson serials from 1961 to 1969 often can't even pin a single year. A clean decode is where I start.
+A serial that decodes is a tracking mark that survived. Originality is whether the film and the parts still belong to that year. I treat a clean plate as a claim to test.
 
 <h3 id="what-does-all-original-mean-on-a-vintage-guitar">What Does All Original Mean On A Vintage Guitar?</h3>
 
@@ -249,7 +273,7 @@ The joint in the photo on this page is dull grey, with old flux around it. Later
 
 <h3 id="what-if-the-pot-codes-do-not-match-the-serial">What If The Pot Codes Do Not Match The Serial?</h3>
 
-A pot code dates the pot. It's the earliest the guitar could have been built, not the build day. This Strat's 6347 agrees with the NOV 63 heel. Pots a few months older than the serial are normal. One pot years later than the others usually means a replacement. If the latest original pot is newer than the year the serial claims, the serial claim is wrong or the pot isn't original. Read all of them.
+A pot code dates the pot. It's the earliest the guitar could have been built, not the build day. Pots a few months older than the serial are normal. One pot years later than the others usually means a replacement. I don't have a readable EIA stamp from this Candy Apple Red Strat on this page. Read every can you can see.
 
 <h3 id="what-if-the-neck-date-and-the-body-date-do-not-match">What If The Neck Date And The Body Date Do Not Match?</h3>
 
@@ -261,7 +285,7 @@ A certificate is paperwork. It's only as strong as the inspection behind it and 
 
 <h2 id="send-me-photos-and-i-will-read-the-guitar">Send Me Photos And I Will Read The Guitar</h2>
 
-If you want the short version on your guitar, send photos. Front, back, headstock, and anything inside you can shoot without forcing screws: pots, solder, neck heel if the neck is already off. I'll date it, tell you what the parts are doing, and give you a current market read. Use the [free appraisal form](/free-appraisal/), or text me at (602) 900-6635.
+If you want the short version on your guitar, send photos. Front, back, headstock, and anything inside you can shoot without forcing screws: pots, solder, neck heel if the neck is already off. I'll date it, say what the parts are doing, and give you a current market read. Use the [free appraisal form](/free-appraisal/), or text me at (602) 900-6635.
 
 I'm Joe Dampt. I buy, sell, and appraise vintage instruments in Mesa, Arizona. I've been doing this full-time for more than twelve years. The serial guide is where the year starts. This page is what I do after that. If you want the market argument for third-party lab work, that's the [Vintage Verified essay](https://www.vintageverified.com/joes-vintage). If you want me to look at the guitar in the case, that's the appraisal form.
 
@@ -285,7 +309,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "Can A Guitar Serial Number Be Faked?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Numbers get re-stamped, and neck plates get swapped. This Strat's L17163 looks like a real L-series stamp. I believe the year because the heel and the pots agree with it. If the serial and the features disagree, trust the features and get a hands-on read before you pay vintage money."
+        "text": "Yes. Numbers get re-stamped, and neck plates get swapped. I believe a year when the heel, the pots, and the film agree with the plate. This Candy Apple Red Strat is the film half of that job."
       }
     },
     {
@@ -293,7 +317,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "If The Serial Number Checks Out, Is The Guitar Original?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The serial on this Strat only gave me a window. Originality is finish, parts, solder, pots, pickups, and whether those dates agree. Fender serials before the mid-1970s and Gibson serials from 1961 to 1969 often can't even pin a single year. A clean decode is where I start."
+        "text": "A serial that decodes is a tracking mark that survived. Originality is whether the film and the parts still belong to that year. I treat a clean plate as a claim to test."
       }
     },
     {
@@ -357,7 +381,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "What If The Pot Codes Do Not Match The Serial?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A pot code dates the pot. It's the earliest the guitar could have been built, not the build day. This Strat's 6347 agrees with the NOV 63 heel. Pots a few months older than the serial are normal. One pot years later than the others usually means a replacement. If the latest original pot is newer than the year the serial claims, the serial claim is wrong or the pot isn't original. Read all of them."
+        "text": "A pot code dates the pot. It's the earliest the guitar could have been built, not the build day. Pots a few months older than the serial are normal. One pot years later than the others usually means a replacement. I don't have a readable EIA stamp from this Candy Apple Red Strat on this page. Read every can you can see."
       }
     },
     {
@@ -408,7 +432,15 @@ Who I am and how I work is on the [about page](/about-me/).
 | A pot code is the earliest the guitar could have been built, not the build date. Fender 1966 stockpile example. | VG-0100 | Vintage Guitar and Bass; guitarhq.com | GLOBAL | true | false | 2026-06-21 | OK |
 | Pot codes are terminus post quem; parts stockpiled or later replaced. | VG-0048 | EIA source-date practice | GLOBAL | true | false | 2026-06-21 | OK |
 | To resolve an ambiguous Gibson year, read pot codes; pots slightly older than the build, not years older. | VG-0009 | Still Kickin Music; Vintage Guitar and Bass | GLOBAL | true | false | 2026-06-21 | OK |
-| Untouched Fender solder as a finish/harness check on a 1966 Jaguar. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/free-appraisal/ | GLOBAL | true | n/a | live | OK |
+| 1965 CAR Strat chips to silver metallic undercoat (1963-1965 silver-base recipe). | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
+| 1966 LPB Jazzmaster pickguard screw hole chips to white undercoat. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
+| 1966 LPB Jazzmaster neck pocket: paint-stick stripe, JM marker, fiber shim. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
+| 1965 CAR under pickguard: full red on the face, thin/dusty in routes, yellow pocket. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
+| 1965 CAR neck pocket: yellow-sealed floor, red overspray feathering, dust at the edge. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
+| Checking on this 1965 CAR Strat runs off the neck plate. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
+| Lake Placid Blue was a 1958 Cadillac color, on the Fender chart 1960-1973. White undercoat under most sixties custom colors. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
+| Candy Apple Red after the 1965 CBS transition through 1973 uses a gold metallic base. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
+| Jazzmaster heel from spring 1962 onward is a rubber-stamped code like 4JAN63B (model, month, year, nut width). | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-jazzmaster-evolution-guide-1958-1971/ | GLOBAL | true | n/a | live | OK |
 | PAF-era grey factory solder; fresh solder raises burden of proof. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/ | GLOBAL | true | n/a | live | OK |
 | PAF: Patent Applied For humbucker, fitted 1957, decal late 1957 until patent-number sticker around 1962. | VG-0003 | Wikipedia PAF; Guitar HQ | GLOBAL | true | false | 2026-06-21 | OK |
 | Fender neck date: heel mark, earliest solidbodies to about 1976, penciled until March 1962; dates the neck only; can differ from body by weeks or months. | VG-0051 | Fender neck-date practice | GLOBAL | true | false | 2026-06-21 | OK |
@@ -421,5 +453,4 @@ Who I am and how I work is on the [about page](/about-me/).
 | A refret is normal maintenance; removes strict all-original status. | VG-0110 | Premier Guitar Vintage Vault; Reverb FAQ | GLOBAL | true | false | 2026-06-21 | OK |
 | Joe Dampt, Mesa, more than twelve years full-time. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/about-me/ | GLOBAL | true | n/a | live | OK |
 | I do most appraisals remotely from photos. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/free-appraisal/ | GLOBAL | true | n/a | live | OK |
-| This Strat neck plate L17163; heel 2 NOV 63 B; Stackpole 304 6347 (1963 week 47). | LIVE-PAGE | 1963 Fender Stratocaster authentication guide on this site | GLOBAL | true | n/a | live | OK |
 -->
