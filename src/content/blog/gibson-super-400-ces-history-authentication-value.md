@@ -1,7 +1,7 @@
 ---
 title: "Gibson Super 400 CES History, Dating, Specs, And Value"
 pubDate: "2026-08-26T12:00:00"
-modified: "2026-08-26T12:00:00"
+modified: "2026-08-26T16:00:00"
 excerpt: "The Super 400 is Gibson's 18 inch carved archtop, named for its $400 list in 1934. The Super 400 CES followed in 1951. Here is how to date one from the cutaway, pickups, label, and our Kalamazoo shipping totals, plus 2026 dealer value as ranges. Shown on shop photo sets from 1938, 1957, 1964, and 1969."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -33,7 +33,7 @@ toc:
 
 The Gibson Super 400 is an 18 inch carved archtop, named for its $400 list price when Kalamazoo introduced the acoustic in 1934. The Super 400 CES (Cutaway Electric Spanish) followed in 1951 with two factory pickups, and our [Gibson shipping totals](/post/gibson-shipping-totals-1948-1979/) show how scarce that first electric year was: 2 sunburst Super 400CES guitars, and no natural.
 
-I buy Super 400s, L-5s, and ES-355s on purpose. The [Sell My Gibson Guitar](/sell-my-gibson-guitar/) page says so because these carved-tops are the top of the catalog I actually want in Mesa. This post stays on the Super 400 and Super 400 CES: history, year-by-year changes, how to date one, how to check yours, and dealer value as ranges. The photos below are shop photo sets labeled by year. Confirm the exact guitar (CES vs acoustic cutaway vs non-cutaway) against the instrument in hand before you publish a caption as a spec sheet.
+I buy Super 400s, L-5s, and ES-355s on purpose. The [Sell My Gibson Guitar](/sell-my-gibson-guitar/) page says so because these carved-tops are the top of the catalog, from anywhere in the country. This post stays on the Super 400 and Super 400 CES: history, year-by-year changes, how to date one, how to check yours, and dealer value as ranges. The photos below are shop photo sets labeled by year. Confirm the exact guitar (CES vs acoustic cutaway vs non-cutaway) against the instrument in hand before you publish a caption as a spec sheet.
 
 <figure>
 
