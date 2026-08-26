@@ -29,7 +29,7 @@ toc:
 ---
 <style>.blog-prose figure p{margin:0}</style>
 
-This Strat is Candy Apple Red, a 1965. A Fender serial from that stretch only gets you a range (late L-series into the early F plates, VG-0050). I don't have this guitar's plate, heel stamp, or pot codes on this page. What I do have is the film: chips on the horn break to silver, checking runs off the neck plate, and the pocket still shows the paint-stick yellow. That is the guitar. The serial, when you have it, is a claim those facts have to survive. The longer argument is in my [Vintage Verified essay](https://www.vintageverified.com/joes-vintage).
+This Strat is Candy Apple Red, a 1965. A Fender serial from that stretch only gets you a range (late L-series into the early F plates). I don't have this guitar's plate, heel stamp, or pot codes on this page. What I do have is the film: chips on the horn break to silver, checking runs off the neck plate, and the pocket still shows the paint-stick yellow. That is the guitar. The serial, when you have it, is a claim those facts have to survive. The longer argument is in my [Vintage Verified essay](https://www.vintageverified.com/joes-vintage).
 
 <nav class="post-toc-inline" aria-label="Table of contents">
 
