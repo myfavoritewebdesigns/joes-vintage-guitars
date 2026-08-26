@@ -1,7 +1,7 @@
 ---
 title: "What A Serial Number Can't Tell You: How A Dealer Actually Checks A Vintage Guitar"
 pubDate: "2026-08-26T12:00:00"
-modified: "2026-08-26T23:45:00"
+modified: "2026-08-26T17:00:00"
 excerpt: "On this 1965 Candy Apple Red Strat the silver under the red and the checking off the neck plate do the work a serial can't. A 1966 Lake Placid Blue Jazzmaster shows the same gap on an offset."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
@@ -29,7 +29,7 @@ toc:
 ---
 <style>.blog-prose figure p{margin:0}</style>
 
-This Strat is Candy Apple Red, a 1965, and a Fender serial from that stretch only gets you a range, late L-series into the early F plates. Chips on the horn break to silver, and checking runs off the neck plate into a pocket that still shows the paint-stick yellow. When a serial shows up, those facts have to survive it. The longer argument is in my [Vintage Verified essay](https://www.vintageverified.com/joes-vintage).
+This Strat is Candy Apple Red, a 1965, and a Fender serial from that stretch only gets you a range, late L-series into the early F plates. Chips on the horn break to silver, and checking runs off the neck plate into a pocket that still shows the paint-stick yellow. If a serial shows up on a listing, those are the facts I still have to see. The longer argument is in my [Vintage Verified essay](https://www.vintageverified.com/joes-vintage).
 
 <nav class="post-toc-inline" aria-label="Table of contents">
 
@@ -45,19 +45,19 @@ This Strat is Candy Apple Red, a 1965, and a Fender serial from that stretch onl
 
 <h2 id="what-a-serial-number-actually-proves">What A Serial Number Actually Proves</h2>
 
-A serial number is a factory tracking mark that, on a good day, points at a year range. Before the mid-1970s, Fender mixed stockpiled parts, so the number only narrows the window, and you close it with heel stamps and pot codes that date the part. I wrote the lookup in the [Fender serial number guide](/fender-guitars-serial-number-guide/).
+A Fender serial from the mid-sixties only gets you a window. Before the mid-1970s they mixed stockpiled parts, so the number on the plate is late L-series into the early F plates, and the heel stamp and the pots are what close the year. The year ranges live in the [Fender serial number guide](/fender-guitars-serial-number-guide/).
 
 <figure>
 
 ![Extreme close-up of Candy Apple Red finish beside the neck plate of a 1965 Fender Stratocaster, showing fine vertical lacquer checking.](../../assets/blog/what-a-serial-number-cant-tell-you/1965-fender-stratocaster-candy-apple-red-checking.jpg)
 
-<figcaption>Checking running off the neck plate on this 1965 Candy Apple Red Strat. The plate is a tracking mark.</figcaption>
+<figcaption>Checking in the Candy Apple Red coming off the neck plate on this 1965 Strat.</figcaption>
 
 </figure>
 
-On a Gibson from about 1961 to 1969, the serial is weaker. The company reused and duplicated ranges, so one number can point at two, three, or even four years. You close it with pot codes, pickups, tuners, logo, and hardware. The [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) is the chart.
+Gibson, from about 1961 to 1969, reused serial ranges, so one number can land on two, three, or four years. You finish it with pots, pickups, tuners, logo, and hardware. I walk those overlapping years in the [Gibson serial number guide](/how-to-read-gibson-serial-numbers/).
 
-Martin is the cleanest of the three on year. Since 1898 the company has used one continuous serial run, and the number alone pins the production year against the published year-end chart. Look through the soundhole: the serial is stamped on the neck block, with the model stamp above it on most guitars after 1930. A correct Martin serial still sits on a refinished top or a swapped bridge. The [Martin serial and model number guide](/martin-serial-and-model-numbers/) gets you the year.
+Martin is the cleanest of the three on year. Since 1898 the company has used one continuous serial run, and the number alone pins the production year against the published year-end chart. Look through the soundhole: the serial is stamped on the neck block, with the model stamp above it on most guitars after 1930. A correct Martin serial still sits on a refinished top or a swapped bridge. Look it up on the [Martin serial and model number guide](/martin-serial-and-model-numbers/).
 
 > A real serial number is not proof of a real guitar. Numbers get re-stamped, and neck plates get swapped.
 
@@ -73,7 +73,7 @@ Listings use "all original" like a switch. On a guitar that's been played sixty 
 
 The nitrocellulose that left the spray booth is what collectors pay for. It dries thin and glossy, then yellows and checks into fine hairline cracks, and a later paint job, even a careful one, is a refin. Tuners, pickups, bridge, pots, knobs, pickguard, and tailpiece get the same test: a period-correct replacement is still a replacement. Untouched electronics means the solder, the cloth or braid, the pots, and the pickup leads still sitting where a factory iron left them, because a pickup can be swapped in half an hour and the trip leaves tracks at the pots, the switch, and the cavity.
 
-This Strat can be original nitro with later tuners, or original pickups with a refin. On this Candy Apple Red Strat the chips break to silver and the pocket still looks factory, which is the start of an originality argument, not the whole list. Write what it actually is. Don't flatten that into "all original" because a 1965 serial decoded.
+This Strat can be original nitro with later tuners, or original pickups with a refin. On this Candy Apple Red Strat the chips break to silver and the pocket still looks factory, which is the start of an originality argument, not the whole list. Don't flatten that into "all original" because a 1965 serial decoded.
 
 The original hard-shell case (OHSC in listings) is a nice extra. I've seen original cases on refinished guitars.
 
@@ -83,9 +83,9 @@ This is the order I run when a guitar is in front of me, eyes first and screwdri
 
 <h3 id="finish-and-wear">Finish And Wear</h3>
 
-I look at the film before I trust the number. Nitrocellulose was the standard on most vintage Fender and Gibson electrics in the 1950s and 1960s, and it checks as it ages, which on this 1965 Candy Apple Red Strat means the horn chip and the checking that runs off the neck plate.
+I look at the finish before I trust the number. Nitrocellulose was the standard on most vintage Fender and Gibson electrics in the 1950s and 1960s, and it checks as it ages, which on this 1965 Candy Apple Red Strat means the horn chip and the checking that runs off the neck plate.
 
-Candy Apple Red from 1963 into 1965 sat on a metallic silver base, typically Inca Silver, under translucent red. Chips on this 1965 break to bright silver, the pre-CBS recipe; after the 1965 CBS transition through 1973 the base shifts to gold.
+Candy Apple Red from 1963 into 1965 sat on a metallic silver base, typically Inca Silver, under translucent red. Chips on this 1965 break to bright silver, the pre-CBS recipe. After the 1965 CBS transition through 1973 the base shifts to gold.
 
 <figure>
 
@@ -95,7 +95,7 @@ Candy Apple Red from 1963 into 1965 sat on a metallic silver base, typically Inc
 
 </figure>
 
-Lake Placid Blue was a 1958 Cadillac color, on the Fender chart from 1960 to 1973. The full color chart and factory tells live on the [custom color guide](/post/fender-custom-color-authentication-guide/).
+Lake Placid Blue was a 1958 Cadillac color, on the Fender chart from 1960 to 1973. The rest of the color chart and the factory tells are in the [custom color guide](/post/fender-custom-color-authentication-guide/).
 
 <figure>
 
@@ -115,11 +115,11 @@ White undercoat sat under most sixties custom colors.
 
 </figure>
 
-Relic'ing is the intentional aging of a new guitar: worn finish, lacquer checking, tarnished hardware, dents. A relic is distressed on purpose. A convincing one still has to survive pot codes, neck dates, and cavity paint.
+Relic'ing is the intentional aging of a new guitar: worn finish, lacquer checking, tarnished hardware, dents. A convincing relic still has to survive pot codes, neck dates, and cavity paint.
 
 Under UV blacklight, aged original nitro usually glows greenish or yellowish, so touch-ups and overspray can show as dark or contrasting patches. I use it as a screen. The downside is real: old refinishes can hide, poly and a lot of later paints glow inconsistently, and fresh nitro hasn't aged enough to glow yet. I wouldn't call a finish original from a blacklight photo alone.
 
-If the money is in the color, read the custom color guide, then send photos.
+If the money is in the color, the factory tells are in the [custom color guide](/post/fender-custom-color-authentication-guide/). Send photos if you want a second set of eyes.
 
 <h3 id="hardware-footprints-and-extra-holes">Hardware Footprints And Extra Holes</h3>
 
@@ -129,9 +129,9 @@ On a 1962 Gibson ES-335 I appraised in person, I checked that the single-line, d
 
 <h3 id="cavities-routes-and-pot-codes">Cavities, Routes, And Pot Codes</h3>
 
-Open the control cavity when you can do it without fighting vintage screws. On a suspected counterfeit Gibson, the cavity is one of the better tells: factory instruments usually show clean routing, neat solder, full-size CTS or Gibson-branded pots, and braided pickup wire, while a lot of fakes show rough routing, messy solder, tiny generic pots, and plastic-coated colored wire. Those are warning signs. I still want the rest of the guitar.
+Open the control cavity when you can do it without fighting vintage screws. On a suspected counterfeit Gibson, the cavity is one of the better tells: factory instruments usually show clean routing, neat solder, full-size CTS or Gibson-branded pots, and braided pickup wire, while a lot of fakes show rough routing, messy solder, tiny generic pots, and plastic-coated colored wire. Those are warning signs, and I still want the rest of the guitar before I hang a conclusion on the cavity alone.
 
-Pots are the part I trust most when the serial is only a window. Three 250k cans sit under that guard, and the stamp on the side of each can dates the part. Fender bought them in bulk, including a 1966 batch they used for years, so a guitar can be newer than its pots. It can't be older than its latest original part. If one can is ten years off from the others, that can is the story. The [Fender pot code guide](/fender-pot-codes/) is the decoder, including on a 1960s Gibson when the serial is sitting on two possible years.
+Pots are the part I trust most when the serial is only a window. Three 250k cans sit under that guard, and the stamp on the side of each can dates the part. Fender bought them in bulk, including a 1966 batch they used for years, so a guitar can be newer than its pots. It can't be older than its latest original part. If one can is ten years off from the others, that can is usually a replacement. How to read the stamp is in the [Fender pot code guide](/fender-pot-codes/). The same stamp is useful on a 1960s Gibson when the serial is sitting on two possible years.
 
 <figure>
 
@@ -149,7 +149,7 @@ Pots are the part I trust most when the serial is only a window. Three 250k cans
 
 </figure>
 
-Paint in a route, overspray that stops at a later pickguard line, or a cavity that's been opened up with a different bit than the factory used: those are finish and routing questions. On Fender custom colors, the factory paint in the cavities is part of the color check, and that procedure stays on the [custom color guide](/post/fender-custom-color-authentication-guide/).
+Paint in a route, overspray that stops at a later pickguard line, or a cavity that's been opened up with a different bit than the factory used: those are finish and routing questions. On Fender custom colors, the factory paint in the cavities is part of the color check. The [custom color guide](/post/fender-custom-color-authentication-guide/) covers how that paint should sit in the routes.
 
 <h3 id="solder-that-has-not-been-moved">Solder That Has Not Been Moved</h3>
 
@@ -173,7 +173,7 @@ On Fender, I read solder when a custom color is on the table so I know the harne
 
 </figure>
 
-On a Gibson PAF-era guitar, factory cover solder is grey. Fresh solder anywhere in the signal path raises the burden of proof on the pickups. The [PAF and patent-number pickup guide](/post/gibson-paf-patent-number-pickup-guide/) is the spoke for that. Charlie from es-335.com has written for years that original solder got turned into a stand-in for "the pickups never came out," and that a carefully redone ground can be hard to call. I agree with the caution. ([Take Off A Buck](https://www.es-335.com/2015/10/26/take-off-a-buck/), es-335.com.)
+On a Gibson PAF-era guitar, factory cover solder is grey. Fresh solder anywhere in the signal path raises the burden of proof on the pickups. I wrote that up in the [PAF and patent-number pickup guide](/post/gibson-paf-patent-number-pickup-guide/). Charlie from es-335.com has written for years that original solder got turned into a stand-in for "the pickups never came out," and that a carefully redone ground can be hard to call. I agree with the caution. ([Take Off A Buck](https://www.es-335.com/2015/10/26/take-off-a-buck/), es-335.com.)
 
 <h3 id="pickups-and-whether-they-belong">Pickups And Whether They Belong</h3>
 
@@ -197,9 +197,9 @@ On a Gibson from 1961 to 1969, the pots, the pickup type, the tuner stamp (no-li
 
 <h2 id="the-escalation-ladder">The Escalation Ladder</h2>
 
-You can decode a serial from a chart, but you can't finish a six-figure burst from one.
+You can decode a serial from a published chart in a couple of minutes. Finishing a six-figure burst, or even calling the nitro on this Candy Apple Red Strat, takes the rest of the guitar.
 
-**Free self-check.** Decode the serial with the brand guide. Read the pots if you can see them. Compare the logo, tuners, and hardware to the claimed year. If the dates agree and the money is modest, that may be the whole job. If you want a second set of eyes, send me photos through the [free appraisal](/free-appraisal/). That's a photo read and a market number. It isn't a laminated certificate, and it misses whatever isn't in the frame.
+**Free self-check.** Decode the serial with the brand guide. Read the pots if you can see them. Compare the logo, tuners, and hardware to the claimed year. If the dates agree and the money is modest, that may be the whole job. If you want a second set of eyes, send me photos through the [free appraisal](/free-appraisal/). That's a photo read and a market number, not a laminated certificate, and it misses whatever isn't in the frame.
 
 **Paid dealer appraisal.** This is a written valuation, sometimes with an originality opinion attached, and those are two different documents. [Carter Vintage](https://cartervintage.com/appraisals) publishes two packages: $150 for an online-only appraisal from photos, and $250 for an in-person appraisal. Carter's own page says they don't recommend an online appraisal as a certification of originality, because issues that aren't in the photos can undo the write-up. I'll say the same about any photo job, including mine. A hands-on inspection can change the conclusion.
 
@@ -209,13 +209,13 @@ Don't pay lab money to answer a serial-chart question, and don't treat a free ph
 
 <h2 id="what-changes-hands-with-the-answer">What Changes Hands With The Answer</h2>
 
-Originality is the biggest value factor in this market. As a general ordering, all-original instruments tend to bring the most, then correct-period replacement parts, then refinished, then modified or worn-out player examples. A faded original finish often beats a perfect modern refinish on the same model. Any specific dollar figure should be checked against the actual guitar.
+Originality is the biggest value factor in this market. All-original instruments tend to bring the most, then correct-period replacement parts, then refinished, then modified or worn-out player examples. A faded original finish often beats a perfect modern refinish on the same model. Any specific dollar figure should be checked against the actual guitar.
 
-A refin is a guitar that has been repainted after the factory. Even excellent refinish work commonly reduces a vintage guitar's value by roughly 40 to 50 percent versus the same model with its original finish, because collectors put real weight on original nitro and patina. That's a range. On the [free appraisal](/free-appraisal/) FAQ I have also described a golden-era Fender or Gibson refin as cutting collector value by about half, with a clean headstock repair in the same 40 to 50 percent neighborhood. Player-grade demand can soften those hits. It doesn't erase them.
+A refin is a guitar that has been repainted after the factory. Even excellent refinish work commonly reduces a vintage guitar's value by roughly 40 to 50 percent versus the same model with its original finish, because collectors put real weight on original nitro and patina. That's a range. On the [free appraisal](/free-appraisal/) FAQ I have also described a golden-era Fender or Gibson refin as cutting collector value by about half, with a clean headstock repair in the same 40 to 50 percent neighborhood. Player-grade demand can soften those hits without erasing them.
 
 A refret replaces worn frets. It's normal, often essential maintenance. Because the original frets are gone, it still takes the guitar off the strict all-original list. It doesn't ruin the instrument.
 
-Replaced pickups, tuners, and a refin don't all cost the same. Model, year, and how clean the work is all move the number, which is why there isn't a universal percentage table. The [seven factors that determine vintage guitar value](/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/) is the value spoke. If you're selling, read [mistakes to avoid when selling a vintage guitar](/post/mistakes-to-avoid-when-selling-a-vintage-guitar/) before you write "all original" in a listing.
+Replaced pickups, tuners, and a refin don't all cost the same. Model, year, and how clean the work is all move the number, which is why there isn't a universal percentage table. I go through those pieces in [seven factors that determine vintage guitar value](/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/). If you're selling, read [mistakes to avoid when selling a vintage guitar](/post/mistakes-to-avoid-when-selling-a-vintage-guitar/) before you write "all original" in a listing.
 
 This is an estimate of market value, not an offer to buy and not a promise. Market values fluctuate. Have your specific guitar appraised.
 
@@ -223,11 +223,11 @@ This is an estimate of market value, not an offer to buy and not a promise. Mark
 
 <h3 id="can-a-guitar-serial-number-be-faked">Can A Guitar Serial Number Be Faked?</h3>
 
-Yes. Re-stamped numbers and swapped neck plates show up often enough that I only believe a year when the heel, the pots, and the film agree with the plate.
+Yes. Re-stamped numbers and swapped neck plates show up often enough that I only believe a year when the heel, the pots, and the finish agree with the plate.
 
 <h3 id="if-the-serial-number-checks-out-is-the-guitar-original">If The Serial Number Checks Out, Is The Guitar Original?</h3>
 
-No. A serial that decodes is a tracking mark that survived. I treat a clean plate as a claim to test against the film and the parts.
+No. A serial that decodes is not originality. Check the finish and the parts.
 
 <h3 id="what-does-all-original-mean-on-a-vintage-guitar">What Does All Original Mean On A Vintage Guitar?</h3>
 
@@ -235,7 +235,7 @@ Use it only when nothing has been replaced or refinished, including the frets. O
 
 <h3 id="how-do-you-tell-if-a-vintage-guitar-has-been-refinished">How Do You Tell If A Vintage Guitar Has Been Refinished?</h3>
 
-Start with wear, checking, cavity paint, and blacklight as a screen. On a Fender custom color, the factory tells live on the [custom color guide](/post/fender-custom-color-authentication-guide/). When the money is in the film, send photos or take the guitar to a bench. I can't call a film from one photo.
+Start with wear, checking, cavity paint, and blacklight as a screen. On a Fender custom color, the factory tells are in the [custom color guide](/post/fender-custom-color-authentication-guide/). When the money is in the finish, send photos or take the guitar to a bench. I can't call a finish from one photo.
 
 <h3 id="does-a-blacklight-prove-a-finish-is-original">Does A Blacklight Prove A Finish Is Original?</h3>
 
@@ -251,7 +251,7 @@ A replaced tuner, a pickup swap, extra routing, and a refin don't share a percen
 
 <h3 id="does-a-refret-take-a-guitar-off-all-original-status">Does A Refret Take A Guitar Off All Original Status?</h3>
 
-Yes, on the strict definition. Disclose it. A clean, necessary refret is still a refret.
+Yes, on the strict definition. Disclose it, because a clean, necessary refret is still a refret.
 
 <h3 id="what-does-untouched-solder-look-like">What Does Untouched Solder Look Like?</h3>
 
@@ -295,7 +295,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "Can A Guitar Serial Number Be Faked?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Re-stamped numbers and swapped neck plates show up often enough that I only believe a year when the heel, the pots, and the film agree with the plate."
+        "text": "Yes. Re-stamped numbers and swapped neck plates show up often enough that I only believe a year when the heel, the pots, and the finish agree with the plate."
       }
     },
     {
@@ -303,7 +303,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "If The Serial Number Checks Out, Is The Guitar Original?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. A serial that decodes is a tracking mark that survived. I treat a clean plate as a claim to test against the film and the parts."
+        "text": "No. A serial that decodes is not originality. Check the finish and the parts."
       }
     },
     {
@@ -319,7 +319,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "How Do You Tell If A Vintage Guitar Has Been Refinished?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Start with wear, checking, cavity paint, and blacklight as a screen. On a Fender custom color, the factory tells live on the custom color guide. When the money is in the film, send photos or take the guitar to a bench. I can't call a film from one photo."
+        "text": "Start with wear, checking, cavity paint, and blacklight as a screen. On a Fender custom color, the factory tells are in the custom color guide. When the money is in the finish, send photos or take the guitar to a bench. I can't call a finish from one photo."
       }
     },
     {
@@ -351,7 +351,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "Does A Refret Take A Guitar Off All Original Status?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, on the strict definition. Disclose it. A clean, necessary refret is still a refret."
+        "text": "Yes, on the strict definition. Disclose it, because a clean, necessary refret is still a refret."
       }
     },
     {
@@ -395,9 +395,9 @@ Who I am and how I work is on the [about page](/about-me/).
 
 | Claim (As Written In Draft) | FactID | Authority | Jurisdiction | publicFacingSafe | verifyWithExpert | lastVerified | Status |
 |---|---|---|---|---|---|---|---|
-| A vintage Fender serial number is a rough guide, not an exact date. Before the mid-1970s, Fender mixed stockpiled parts, so the number only narrows the window. | VG-0050 | Vintage Guitars Info / standard Fender dating | GLOBAL | true | false | 2026-06-21 | OK |
-| Neck-heel stamps and pot codes date the part, not necessarily the finished guitar. | VG-0050 | Vintage Guitars Info | GLOBAL | true | false | 2026-06-21 | OK |
-| Gibson serials from about 1961 to 1969 were reused and duplicated; one number can point at two, three, or four years. | VG-0011 | Gruhn's Guide; Reverb dating reference | GLOBAL | true | false | 2026-06-21 | OK |
+| A Fender serial from the mid-sixties only gets you a window. Before the mid-1970s they mixed stockpiled parts, so the number on the plate is late L-series into the early F plates. | VG-0050 | Vintage Guitars Info / standard Fender dating | GLOBAL | true | false | 2026-06-21 | OK |
+| The heel stamp and the pots close the year; they date the part, not necessarily the finished guitar. | VG-0050 | Vintage Guitars Info | GLOBAL | true | false | 2026-06-21 | OK |
+| Gibson, from about 1961 to 1969, reused serial ranges, so one number can land on two, three, or four years. | VG-0011 | Gruhn's Guide; Reverb dating reference | GLOBAL | true | false | 2026-06-21 | OK |
 | For Gibsons made roughly 1961 to 1969, the serial alone usually cannot pin an exact year; dating relies on specs, pot codes, and hardware. Expect a range. | VG-0033 | Standard Gibson 1960s serial references | GLOBAL | true | false | 2026-06-21 | OK |
 | Gibson 1961-1969 serials were widely duplicated and most Fender serials run out of order, so neither usually pins down one year alone. | VG-0111 | guitarhq.com; Gruhn / Duchossoir | GLOBAL | true | false | 2026-06-21 | OK |
 | No Gibson should be dated on the serial alone. Confirm with features, pot codes, pickups, tuners, logo, volute, and hardware. Numbers can be re-stamped, refinished over, or faked. | VG-0014 | Reverb News; Mahar's; Gruhn's Guide | GLOBAL | true | true | 2026-06-21 | PENDING SIGN-OFF |
@@ -423,7 +423,7 @@ Who I am and how I work is on the [about page](/about-me/).
 | 1966 LPB Jazzmaster neck pocket: paint-stick stripe, JM marker, fiber shim. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
 | 1965 CAR under pickguard: full red on the face, thin/dusty in routes, yellow pocket. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
 | 1965 CAR neck pocket: yellow-sealed floor, red overspray feathering, dust at the edge. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
-| Checking on this 1965 CAR Strat runs off the neck plate. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
+| Checking in the Candy Apple Red coming off the neck plate on this 1965 Strat. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
 | Lake Placid Blue was a 1958 Cadillac color, on the Fender chart 1960-1973. White undercoat under most sixties custom colors. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
 | Candy Apple Red after the 1965 CBS transition through 1973 uses a gold metallic base. | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/ | GLOBAL | true | n/a | live | OK |
 | Jazzmaster heel from spring 1962 onward is a rubber-stamped code like 4JAN63B (model, month, year, nut width). | LIVE-PAGE | https://www.joesvintageguitarsaz.com/post/fender-jazzmaster-evolution-guide-1958-1971/ | GLOBAL | true | n/a | live | OK |
