@@ -1,14 +1,14 @@
 ---
 title: "What Guitar Did Dolly Parton Play? The Martin 5-18 \"Baby Martin\""
 pubDate: "2026-08-26T15:00:00"
-modified: "2026-08-26T15:00:00"
+modified: "2026-08-26T16:20:00"
 excerpt: "A 1950 Martin 5-18, serial 115817, is on my bench in Mesa: Size 5, Style 18, the baby Martin. Guitar World and Guitar Player both put Dolly Parton on a 5-18 Terz, and Martin listed her among Size 5 players in July 2026."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/what-guitar-did-dolly-parton-play/1950-martin-5-18-featured.jpg"
 heroImageAlt: "1950 Martin 5-18 solid peghead with the gold C.F. Martin and Co. Est. 1833 decal, resting in a red-lined hardshell case."
-metaDescription: "What Guitar Did Dolly Parton Play? The Martin 5-18 baby Martin, how to date one from the neck-block stamp, and a public $3,000 to $5,500 asking range."
+metaDescription: "What Guitar Did Dolly Parton Play? The Martin 5-18 baby Martin, how to date one from the neck-block stamp, and public asking from $2,800 to $5,800."
 ogImage: "/images/blog/what-guitar-did-dolly-parton-play/what-guitar-did-dolly-parton-play-og.jpg"
 author: "Joe Dampt"
 draft: false
@@ -89,7 +89,7 @@ Don't guess from a photo of the front alone. Look through the soundhole. Martin 
 
 <h2 id="worth">What A Vintage 5-18 Is Worth</h2>
 
-Vintage 5-18s trade in a thinner market than 0-18s and 00-18s. Originality, cracks, a neck reset, and a proper small case move the number more than the year does. Public listings and sold chatter often land about $3,000 to $5,500. That range is chatter, not an offer from this shop and not a number on your guitar.
+Vintage 5-18s trade in a thinner market than 0-18s and 00-18s. Originality, cracks, a neck reset, and a proper small case move the number more than the year does. A player-grade 5-18 with typical cracks, a later case, or a neck reset still to do usually sits around $2,800 to $4,000 in public asking and sold-out dealer pages. A clean original that is playing, with original finish and preferably an original case, is more like $4,000 to $5,800. That is public-market language, not an offer on your guitar.
 
 A worn original finish usually beats a pretty refinish. Cracks and old repairs don't make it unsellable. Don't clean it, don't polish it, and don't have anyone touch it up before you send photos. I wrote the same thing on the [Martin buying page](/sell-my-martin-guitar/) because I mean it.
 
@@ -145,7 +145,7 @@ Who I am and how I work is on the [about page](/about-me/).
 
 <h3 id="disclaimer">Disclaimer</h3>
 
-**Value estimate.** This is an estimate of market value, not an offer to buy and not a guarantee. Market values fluctuate. Have your specific item appraised. The $3,000 to $5,500 figure above is public chatter on vintage 5-18s, not a bid on your guitar.
+**Value estimate.** This is an estimate of market value, not an offer to buy and not a guarantee. Market values fluctuate. Have your specific item appraised. The $2,800 to $5,800 figures above are public-market asking and sold ranges on vintage 5-18s, not a bid on your guitar.
 
 **Originality judgment.** Originality is assessed from the information provided. A hands-on inspection can change the conclusion. A photo read is not a certificate that a guitar belonged to a named player.
 
@@ -229,7 +229,7 @@ Scope Firewall: Martin 5-18 / Size 5 terz only. No Strat, no Gibson, no Fender f
 | This shop 5-18 is the same model family, not Dolly's loft guitar. | LIVE-PHOTO | Reverb 2017 (loft burned; she kept the neck) plus shop serial 115817 | GLOBAL | true | false | 2026-08-26 | OK |
 | Little Martin LX: modern Mexico-made travel guitar, different serial sequence. | LIVE-PAGE | /martin-serial-and-model-numbers/ | GLOBAL | true | false | 2026-08-26 | OK |
 | 0-18 is concert size; ID a 5-18 by measuring the lower bout or reading the neck-block stamp. | VG-0077 | Neck-block stamp; Size 5 vs Size 0 | GLOBAL | true | false | 2026-08-26 | OK |
-| Public chatter on vintage 5-18s often about $3,000 to $5,500. Not a shop offer. Not a number on a specific guitar. | PUBLIC-CHATTER | Public listings / sold chatter; YMYL | GLOBAL | true | true | 2026-08-26 | RANGE, NOT A BID |
+| Player-grade vintage 5-18s about $2,800 to $4,000; clean original playing examples about $4,000 to $5,800 in public asking and sold-out dealer pages. Not a shop offer. | PUBLIC-MARKET | Public listings / sold dealer pages; Joe-checked 2026-08-26 | GLOBAL | true | true | 2026-08-26 | RANGE, NOT A BID |
 | Don't clean, polish, or touch up before photos. | LIVE-PAGE | /sell-my-martin-guitar/ | GLOBAL | true | false | 2026-08-26 | OK |
 | Joe buys vintage Martins nationwide / all 50 states from Mesa, packing and insured shipping. | LIVE-PAGE | /sell-my-martin-guitar/ | GLOBAL | true | false | 2026-08-26 | OK |
 | Joe Dampt, Mesa, more than twelve years full-time. | LIVE-PAGE | /about-me/ | GLOBAL | true | n/a | live | OK |
