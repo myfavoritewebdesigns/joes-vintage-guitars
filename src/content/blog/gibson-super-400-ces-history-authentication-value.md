@@ -55,7 +55,7 @@ If you only read one section, read this one.
 | **Body** | 18 inch lower bout. Gibson Custom lists 18 x 21 3/4 x 3 3/8 inches. Carved spruce top, maple back and sides. |
 | **Scale** | 25 1/2 inches on Gibson Custom spec sheets and on a measured 1956 CES. |
 | **Cutaway** | Non-cutaway acoustic last appears in our 1955 shipping column. Venetian (rounded) into about 1960. Florentine (pointed) from 1960. Venetian returns about 1969. |
-| **CES pickups** | P-90s in 1951. Alnico V staple pickups about 1953 to 1954. Humbuckers from November 1957. |
+| **CES pickups** | P-90s in 1951. Alnico V staple pickups from about 1953 until November 1957, when humbuckers start. |
 | **Bridge** | Tune-o-matic first appears on the Super 400 CES in 1953 on Gibson Custom's history page. Some 1956 examples still left with a preset rosewood bridge. |
 | **First year CES output** | 2 sunburst Super 400CES shipped in 1951. |
 | **The year to know** | 1960, when the pointed Florentine cutaway lands on the Super 400 CES (same change as the L-5 CES, Byrdland, and ES-5 Switchmaster). |
@@ -202,9 +202,9 @@ Copied from the same live page. Super 400 is the non-cutaway column through 1955
 
 1953: Gibson Custom dates the Tune-o-matic's first appearance on the Super 400 CES to this year, and dates the Alnico pickup upgrade to about two years after the 1951 launch, with leftover P-90s used until stock ran out.
 
-<h3 id="alnico">1954 To Mid 1958: Alnico V Staple Pickups</h3>
+<h3 id="alnico">1953 To November 1957: Alnico V Staple Pickups</h3>
 
-Late 1953 into 1954, Gibson put the Alnico V "staple" pickup on the top archtops: Super 400 CES, L-5 CES, and the new Les Paul Custom. Rectangular pole pieces through a flat cover are the tell. Our [PAF pickup guide](/post/gibson-paf-patent-number-pickup-guide/) covers the humbucker that replaced them. Fretted Americana, citing Thomas A. Van Hoose, counts 126 sixth-model Super 400 CES guitars with Alnico V pickups from 1954 through mid 1958 (73 golden sunburst, 53 natural). That 126 is a pickup-specific count. It won't match our year-by-year shipping table, because 1954 to 1958 CES shipping adds to 152 and because leftover P-90s and early humbuckers sit in the same years.
+Late 1953 into 1954, Gibson put the Alnico V "staple" pickup on the top archtops: Super 400 CES, L-5 CES, and the new Les Paul Custom. Rectangular pole pieces through a flat cover are the tell. Staples stay the CES pickup until November 1957, when humbuckers start. Our [PAF pickup guide](/post/gibson-paf-patent-number-pickup-guide/) covers the humbucker that replaced them. Fretted Americana, citing Thomas A. Van Hoose, counts 126 sixth-model Super 400 CES guitars with Alnico V pickups from 1954 through mid 1958 (73 golden sunburst, 53 natural). That 126 includes leftover Alnico guitars after humbuckers started, not a staple era that runs past November 1957. It won't match our year-by-year shipping table, because 1954 to 1958 CES shipping adds to 152.
 
 1956 list prices on a documented CES: $650 golden sunburst, $675 natural, plus $60 for the case (Fretted Americana). A 1956 example they described still had (or had replaced) a preset rosewood bridge, so don't assume every 1954 to 1956 CES wears a Tune-o-matic.
 
@@ -275,7 +275,7 @@ Pointed Florentine: about 1960 through 1968, with 1960 to 1961 and 1968 to 1969 
 
 P-90 soapbar covers: 1951 into the Alnico change, with leftovers after.
 
-Alnico V staple poles: about 1954 through mid 1958, with mixed P-90 and Alnico guitars documented on sister models.
+Alnico V staple poles: about 1953 until November 1957, when humbuckers start. Mixed leftover P-90s and leftover staples exist around the change.
 
 Gold-covered humbuckers: from November 1957. PAF stickers into the early 1960s (later possible on gold stock). Patent No. 2,737,842 stickers from late 1962. T-top construction from about 1965 to 1967. Leave the covers on. Send photos. The [PAF guide](/post/gibson-paf-patent-number-pickup-guide/) is the pickup-level checklist.
 
@@ -313,7 +313,7 @@ Classic CES spec, with the year windows from the dating section. Acoustic Super 
 | **Fingerboard** | Ebony, split-block pearl inlays, pointed extension, bound |
 | **Headstock** | Bound, pearl Gibson logo, pearl split-diamond inlay (five-piece on documented 1950s CES examples) |
 | **Cutaway** | None (non-cutaway acoustic to 1955). Venetian to about 1960 and from about 1969. Florentine about 1960 to 1968 |
-| **Pickups (CES)** | Two P-90s (1951), Alnico V staples (about 1954 to mid 1958), two gold-covered humbuckers from November 1957 |
+| **Pickups (CES)** | Two P-90s (1951), Alnico V staples (about 1953 until November 1957), two gold-covered humbuckers from November 1957 |
 | **Controls (CES)** | Two volume, two tone, three-way toggle |
 | **Bridge** | Preset rosewood into the mid 1950s on some. Tune-o-matic (ABR-1) from 1953 per Gibson Custom, on an ebony or rosewood base |
 | **Tailpiece** | Engraved Super 400 tailpiece, gold-plated on CES examples. Postwar examples can include a mechanical adjuster at the end of the tailpiece. That is a tailpiece part, separate from the six-position Varitone circuit on an [ES-345](/post/gibson-es-345-history-value/) |
@@ -470,7 +470,7 @@ Cutaway shape, pickup type, label, FON, pot codes, nut width, and headstock pitc
 
 **Did the Super 400 CES use P-90s, staples, or humbuckers?**
 
-All three, in that order. P-90s from 1951, Alnico V staples from about 1954, humbuckers from November 1957. Mixed leftover stock exists.
+All three, in that order. P-90s from 1951, Alnico V staples from about 1953 until November 1957, then humbuckers. Mixed leftover stock exists.
 
 **When did the cutaway go from rounded to pointed?**
 
