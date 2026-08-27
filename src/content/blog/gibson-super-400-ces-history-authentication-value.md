@@ -210,7 +210,7 @@ Late 1953 into 1954, Gibson put the Alnico V "staple" pickup on the top archtops
 
 <h3 id="humbuckers">November 1957 To 1960: Humbuckers, Still Venetian</h3>
 
-Gibson Custom dates humbuckers on the Super 400 CES to November 1957. Early CES humbuckers are [PAF](/post/gibson-paf-patent-number-pickup-guide/) units under gold covers. Gold-cover PAF stock moved slowly on low-volume models, so a PAF sticker can show up later on a gold-hardware archtop than on a nickel Les Paul. Do not pull the covers to chase a decal. Photograph the guitar, the label, and the solder you can see, then send pictures.
+Gibson Custom dates humbuckers on the Super 400 CES to November 1957. Early CES humbuckers are [PAF](/post/gibson-paf-patent-number-pickup-guide/) units under gold covers. Gold-cover PAF stock moved slowly on low-volume models, so a PAF sticker can show up later on a gold-hardware archtop than on a nickel Les Paul. You don't need to pull the covers to chase other authentication features. Photograph the guitar, the label, and the solder you can see, then send pictures.
 
 Venetian (rounded) cutaway remains the CES shape through 1959 and into 1960.
 
