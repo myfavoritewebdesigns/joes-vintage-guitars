@@ -1,7 +1,7 @@
 ---
 title: "What Guitar Did Dolly Parton Play? The Martin 5-18 \"Baby Martin\""
 pubDate: "2026-08-26T15:00:00"
-modified: "2026-08-26T17:15:00"
+modified: "2026-08-27T18:40:00"
 excerpt: "A 1950 Martin 5-18, serial 115817, is on my bench in Mesa: Size 5, Style 18, the baby Martin. Guitar World and Guitar Player both put Dolly Parton on a 5-18 Terz, and Martin listed her among Size 5 players in July 2026."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
@@ -16,7 +16,6 @@ toc:
   - { href: "#short-answer", label: "The Short Answer" }
   - { href: "#first-guitar", label: "Dolly's First Guitar" }
   - { href: "#loft-fire", label: "What Happened To It" }
-  - { href: "#coat", label: "Coat Of Many Colors" }
   - { href: "#what-it-is", label: "What A Martin 5-18 Actually Is" }
   - { href: "#vs-0-18", label: "How To Tell A 5-18 From A 0-18" }
   - { href: "#worth", label: "What A Vintage 5-18 Is Worth" }
@@ -35,7 +34,6 @@ Dolly Parton died August 25, 2026. This post is for the guitar people are search
 -   [The Short Answer](#short-answer)
 -   [Dolly's First Guitar](#first-guitar)
 -   [What Happened To It](#loft-fire)
--   [Coat Of Many Colors](#coat)
 -   [What A Martin 5-18 Actually Is](#what-it-is)
 -   [How To Tell A 5-18 From A 0-18](#vs-0-18)
 -   [What A Vintage 5-18 Is Worth](#worth)
@@ -76,12 +74,6 @@ When she left home at 18, she put that little Martin in the loft because it was 
 "I only have the neck of that one," she told Reverb.
 
 She collected baby Martins for years after that. The 1950 on my bench, serial 115817, is that same Size 5 family. It is a shop guitar, not the instrument from the loft.
-
-<h2 id="coat">Coat Of Many Colors</h2>
-
-She wrote Coat of Many Colors in 1969 on Porter Wagoner's tour bus. She didn't have paper, so she wrote the lyric on a dry-cleaning receipt for one of his suits. [Rolling Stone](https://www.rollingstone.com/music/music-country/dolly-parton-coat-of-many-colors-500-greatest-albums-podcast-1267273/) and her memoir, *My Life and Other Unfinished Business*, both tell it that way.
-
-The song is about the scrap coat mama sewed from leftover cloth. She didn't write it on the Martin. The guitar from that same childhood is the little baby Martin Uncle Lewis gave her, the one she left in the loft.
 
 <h2 id="what-it-is">What A Martin 5-18 Actually Is</h2>
 
@@ -161,9 +153,6 @@ She left it in the loft at 18 because it was beat up. The loft burned. She kept 
 
 She called it a little Martin. She didn't publish a serial number. Guitar World, Guitar Player, and Martin all connect her to Size 5 / 5-18 guitars as a player. Treat the loft guitar as a likely 5-18 match, not a factory letter on that specific instrument.
 
-<h3 id="did-she-write-coat-of-many-colors-on-a-guitar">Did She Write Coat Of Many Colors On A Guitar?</h3>
-
-No. She wrote it in 1969 on a dry-cleaning receipt on Porter Wagoner's tour bus. The song is about the scrap coat mama sewed.
 
 <h3 id="what-is-a-baby-martin">What Is A Baby Martin?</h3>
 
@@ -236,14 +225,6 @@ Who I am and how I work is on the [about page](/about-me/).
     },
     {
       "@type": "Question",
-      "name": "Did She Write Coat Of Many Colors On A Guitar?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. She wrote it in 1969 on a dry-cleaning receipt on Porter Wagoner's tour bus. The song is about the scrap coat mama sewed."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "What Is A Baby Martin?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -306,5 +287,4 @@ Scope Firewall: Martin 5-18 / Size 5 / Dolly's little Martin story only. No Stra
 | Dolly Parton died August 25, 2026. | AP-2026-08-25 | AP News, August 25, 2026; publicist statement | GLOBAL | true | false | 2026-08-26 | OK |
 | Two uncles: Uncle Bill Owens helped her into the business (Cas Walker Show, Nashville doors). Uncle Lewis gave her his little Martin. Reverb names Lewis as the gift. Some secondary sources mix them. | UNCLE-SPLIT | Reverb 2017 (Lewis gift; Bill helped me get into the business); Dolly on Bill getting the Cas Walker job and walking Nashville doors | GLOBAL | true | false | 2026-08-26 | OK |
 | Songteller: loved that little baby Martin like a piece of her body, a piece of her soul; made friends with it; blisters and calluses from learning. | SONGTELLER-2020 | Dolly Parton, Songteller: My Life in Lyrics (2020) | GLOBAL | true | false | 2026-08-26 | OK |
-| Coat of Many Colors written 1969 on the Porter Wagoner tour bus on a dry-cleaning receipt. Song is about the scrap coat mama sewed, not a guitar. | COAT-1969 | Rolling Stone; Dolly Parton, My Life and Other Unfinished Business (1994) | GLOBAL | true | false | 2026-08-26 | OK |
 -->
