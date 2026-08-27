@@ -1,7 +1,7 @@
 ---
 title: "What Guitar Did Johnny Marr Play? The Smiths ES-355, The 330, And The Rest"
 pubDate: "2026-08-27T19:30:00"
-modified: "2026-08-27T20:20:00"
+modified: "2026-08-27T21:15:00"
 excerpt: "A 1959 cherry Gibson ES-355 is on my bench in Mesa. Same model family as the one Seymour Stein bought Johnny Marr. Christie's sells Marr's collection in London on 17 September 2026. Here is which guitar is which, and what a regular one brings without his name on it."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
@@ -47,9 +47,9 @@ Johnny Marr did not play one guitar. He played a handful, and people mash them t
 
 The cherry ES-355 is the one that matches the guitar on my bench. Seymour Stein bought it for him in New York in 1984. Marr wrote Heaven Knows I'm Miserable Now on it that afternoon. [Christie's](https://www.christies.com/en/events/marrs-guitars-the-johnny-marr-collection) has it estimated at £100,000 to £150,000.
 
-The guitar most people hear first is not that 355. It is the intro to This Charming Man. That riff is mostly a 1950s Telecaster that belonged to the producer, tracked with a Rickenbacker 330 that belonged to Marr.
+Most people hear This Charming Man first, and that riff is a different guitar. It is mostly a 1950s Telecaster that belonged to the producer, tracked with a Rickenbacker 330 that belonged to Marr.
 
-There is also a 1971 Martin D-28, a six-string, on There Is a Light That Never Goes Out. The Jaguar you see him with now is a modern Fender signature, not a 1960s offset from a closet.
+There is also a 1971 Martin D-28, a six-string, on There Is a Light That Never Goes Out. The Jaguar you see him with now is a modern Fender signature. A 1960s offset from a closet is a different guitar.
 
 If the case in your house is one of those models, keep reading. If you think you have his actual guitar, you almost certainly do not. The sale is his collection. Yours is a cousin. Cousins still have value.
 
@@ -61,7 +61,7 @@ In early 1984 Marr joked that The Smiths would sign to Sire if Seymour Stein bou
 
 That is the guitar in the sale. Estimate £100,000 to £150,000. Press copy calls it a 1960. The lot card says 1959-60 TDSV. I am not picking a year from a headline. A late 1959 and an early 1960 355 can look the same from across a room. Dating takes the orange label inside the bass f-hole and the factory order number. I already wrote that walk-through on the [1959 ES-355 guide](/post/1959-gibson-es-355-history-value/).
 
-TDSV is the stereo Vari-tone version: two channels, a six-position rotary, extra wiring in the body. The 355 on my bench is a 1959 cherry mono. Four knobs, a toggle, no rotary. On a regular 355, mono is the configuration people pay more for. On Marr's lot, the name is doing the money work, not the wiring.
+TDSV is the stereo Vari-tone version: two channels, a six-position rotary, extra wiring in the body. The 355 on my bench is a 1959 cherry mono. Four knobs, a toggle, no rotary. On a regular 355, people pay more for mono. On Marr's lot they are paying because it is his. Stereo does not knock that number down.
 
 <figure>
 
@@ -83,7 +83,7 @@ TDSV is the stereo Vari-tone version: two channels, a six-position rotary, extra
 
 ![Neck pickup, ebony board, and pearl block inlays on a 1959 Gibson ES-355 in cherry, in a pink-lined case.](../../assets/blog/what-guitar-did-johnny-marr-play/1959-gibson-es-355-cherry-neck.jpg)
 
-<figcaption>Ebony board and pearl blocks. Those cosmetics are 355, not 335. Dating still takes the label, which I cover on the 1959 guide.</figcaption>
+<figcaption>Ebony board and pearl blocks. That is how a 355 looks. A 335 is rosewood and dots. Dating still takes the label, which I cover on the 1959 guide.</figcaption>
 
 </figure>
 
@@ -91,13 +91,13 @@ TDSV is the stereo Vari-tone version: two channels, a six-position rotary, extra
 
 The 355 is the one that looks like my bench guitar. The song everybody air-guitars is a different story.
 
-The intro to This Charming Man is not "the Rickenbacker." [The Guardian](https://www.theguardian.com/music/2026/jun/22/johnny-marr-auction-guitars-smiths-this-charming-man-christies-london) said it when the sale was announced: the opening riff was played on a 1950s Telecaster. [Guitar World](https://www.guitarworld.com/features/johnny-marr-telecasters) has Marr saying the first Tele he ever used was the day he recorded that song, a '54, maybe a '53, that belonged to producer John Porter, tracked with a Rickenbacker. "The sound of that intro was always assumed that it was a Rickenbacker because that is what I was most known for at the time."
+People call the intro "the Rickenbacker." [The Guardian](https://www.theguardian.com/music/2026/jun/22/johnny-marr-auction-guitars-smiths-this-charming-man-christies-london) said it when the sale was announced: the opening riff was played on a 1950s Telecaster. [Guitar World](https://www.guitarworld.com/features/johnny-marr-telecasters) has Marr saying the first Tele he ever used was the day he recorded that song, a '54, maybe a '53, that belonged to producer John Porter, tracked with a Rickenbacker. "The sound of that intro was always assumed that it was a Rickenbacker because that is what I was most known for at the time."
 
 Both things can be true. The 1982 Rickenbacker 330 in Jetglo is on the record. It is the look. Marr bought it after the first publishing deal and used it on This Charming Man, What Difference Does It Make?, Still Ill, and Accept Yourself. He later lent it to Noel Gallagher. It is on the cover of Oasis's Supersonic. Christie's has that 330 estimated at £60,000 to £80,000.
 
 Porter's Tele is not in the sale. I do not have it either. I have a 1958 Telecaster in the shop, same model family, wrong year. Marr said Porter's was a refinished '53 or '54.
 
-The green Tele that is in the sale is a third guitar. Roger Giffin built it around 1984. Angie bought it as an engagement gift. It is the one on Top of the Pops in May 1984, and on Meat Is Murder. It is not the Charming Man intro. Estimate £20,000 to £30,000.
+The green Tele that is in the sale is a third guitar. Roger Giffin built it around 1984. Angie bought it as an engagement gift. It is the one on Top of the Pops in May 1984, and on Meat Is Murder. Charming Man used Porter's Tele. Estimate £20,000 to £30,000.
 
 <figure>
 
@@ -111,7 +111,7 @@ If you inherited a Rickenbacker and you need the year, start with the [Rickenbac
 
 <h2 id="the-others">The Martin And The Jaguar</h2>
 
-Two more guitars keep coming up in the same search. They are not the 355 and they are not the Charming Man mixup.
+Two more guitars keep coming up in the same search.
 
 The 1971 Martin D-28 is a six-string. Marr used it as the main Smiths acoustic: There Is a Light That Never Goes Out, Well I Wonder, Cemetry Gates. Estimate £30,000 to £50,000. There is a 12-string in the sale too, a 1976 D-12-28, estimated £4,000 to £6,000. People mash those together because both say D-28 on the headstock. Count the tuning pegs.
 
@@ -125,7 +125,7 @@ The Martin in my photos is a 1959 D-28. Brazilian rosewood, earlier guitar. Marr
 
 </figure>
 
-The Jaguar people picture him with now is a Fender Johnny Marr Signature in Comet Sparkle, the one on No Time To Die. Estimate £8,000 to £12,000. Christie's press kit dates it 2017. The [event page](https://www.christies.com/en/events/marrs-guitars-the-johnny-marr-collection) says 2018. Either way it is a modern signature, not a 1962-75 Jaguar.
+The Jaguar people picture him with now is a Fender Johnny Marr Signature in Comet Sparkle, the one on No Time To Die. Estimate £8,000 to £12,000. Christie's press kit dates it 2017. The [event page](https://www.christies.com/en/events/marrs-guitars-the-johnny-marr-collection) says 2018. Either way it is a modern signature. The vintage guitar is a 1962-75 Jaguar.
 
 I have a 1965 sunburst Jaguar in the shop. Offset body, rhythm circuit on the upper horn, claw pickups, floating trem. That is the vintage family. I wrote the [vintage Fender Jaguar guide](/post/vintage-fender-jaguar-guide/) for that guitar, not for the signature.
 
@@ -147,7 +147,7 @@ A 1959 ES-355TD mono in cherry, all-original, sits about **$30,000 to $45,000** 
 
 A 1960s Rickenbacker 330 is asking about **$4,500 to $8,500** right now. Chicago Music Exchange had a 1966 Fireglo at $4,700. Fretted Americana had a near-mint 1966 at $8,500. An 1980s 330 with no provenance is more like **$2,000 to $4,000**. Thin comps. Do not price a 1982 like a 1966.
 
-A 1960s Jaguar in sunburst is about **$4,000 to $8,000** off 1965 Reverb comps. Custom color runs higher. That is the vintage guitar, not the signature.
+A 1960s Jaguar in sunburst is about **$4,000 to $8,000** off 1965 Reverb comps. Custom color runs higher. That range is the vintage guitar. The signature is a different market.
 
 An early-1970s D-28 in Indian rosewood is asking about **$3,500 to $7,500**. I am not using the 1960-69 Brazilian D-28 table on that guitar. Different wood, different window, different number.
 
@@ -175,11 +175,11 @@ Call or text (602) 900-6635 or email joesvintageguitars94@gmail.com.
 
 <h3 id="what-guitar-did-johnny-marr-play">What Guitar Did Johnny Marr Play?</h3>
 
-A handful, not one. The Stein cherry ES-355 wrote Heaven Knows I'm Miserable Now. The 1982 Rickenbacker 330 is the early-Smiths 330. The 1971 Martin D-28 is the six-string acoustic on There Is a Light. The Jaguar most people picture now is his signature model. The green Giffin is the Top of the Pops Tele, not the Charming Man Tele.
+He played a handful. The Stein cherry ES-355 wrote Heaven Knows I'm Miserable Now. The 1982 Rickenbacker 330 is the early-Smiths 330. The 1971 Martin D-28 is the six-string acoustic on There Is a Light. The Jaguar most people picture now is his signature model. The green Giffin is the Top of the Pops Tele. Charming Man used Porter's.
 
 <h3 id="was-this-charming-man-played-on-a-rickenbacker">Was This Charming Man Played On A Rickenbacker?</h3>
 
-Partly. The intro is mostly John Porter's 1950s Telecaster tracked with a Rickenbacker. Marr said so in Guitar World. The Guardian repeated it when the sale was announced. The 1982 330 is on the record. It is not the intro guitar.
+Partly. The intro is mostly John Porter's 1950s Telecaster tracked with a Rickenbacker. Marr said so in Guitar World. The Guardian repeated it when the sale was announced. The 1982 330 is on the record. The intro was Porter's Tele tracked with a Rick.
 
 <h3 id="is-johnny-marrs-es-355-a-1959-or-a-1960">Is Johnny Marr's ES-355 A 1959 Or A 1960?</h3>
 
@@ -195,7 +195,7 @@ No. Charming Man used Porter's '53 or '54 Tele. The Giffin is a mid-80s one-off,
 
 <h3 id="what-is-a-vintage-es-355-worth-without-johnny-marr-provenance">What Is A Vintage ES-355 Worth Without Johnny Marr Provenance?</h3>
 
-On my 1959 page, a clean original mono 1959 is about $30,000 to $45,000 in public asking. Stereo is lower. Christie's £100,000 to £150,000 estimate is provenance, not that market.
+On my 1959 page, a clean original mono 1959 is about $30,000 to $45,000 in public asking. Stereo is lower. Christie's £100,000 to £150,000 is what his guitar might bring. A regular 1959 sits in a different market.
 
 <h3 id="will-you-buy-a-1971-d-28-or-a-1982-330-or-a-signature-jaguar">Will You Buy A 1971 D-28, A 1982 330, Or A Signature Jaguar?</h3>
 
@@ -231,7 +231,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "What Guitar Did Johnny Marr Play?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A handful, not one. The Stein cherry ES-355 wrote Heaven Knows I'm Miserable Now. The 1982 Rickenbacker 330 is the early-Smiths 330. The 1971 Martin D-28 is the six-string acoustic on There Is a Light. The Jaguar most people picture now is his signature model. The green Giffin is the Top of the Pops Tele, not the Charming Man Tele."
+        "text": "He played a handful. The Stein cherry ES-355 wrote Heaven Knows I'm Miserable Now. The 1982 Rickenbacker 330 is the early-Smiths 330. The 1971 Martin D-28 is the six-string acoustic on There Is a Light. The Jaguar most people picture now is his signature model. The green Giffin is the Top of the Pops Tele. Charming Man used Porter's."
       }
     },
     {
@@ -239,7 +239,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "Was This Charming Man Played On A Rickenbacker?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Partly. The intro is mostly John Porter's 1950s Telecaster tracked with a Rickenbacker. Marr said so in Guitar World. The Guardian repeated it when the sale was announced. The 1982 330 is on the record. It is not the intro guitar."
+        "text": "Partly. The intro is mostly John Porter's 1950s Telecaster tracked with a Rickenbacker. Marr said so in Guitar World. The Guardian repeated it when the sale was announced. The 1982 330 is on the record. The intro was Porter's Tele tracked with a Rick."
       }
     },
     {
@@ -271,7 +271,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "What Is A Vintage ES-355 Worth Without Johnny Marr Provenance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "On my 1959 page, a clean original mono 1959 is about $30,000 to $45,000 in public asking. Stereo is lower. Christie's £100,000 to £150,000 estimate is provenance, not that market."
+        "text": "On my 1959 page, a clean original mono 1959 is about $30,000 to $45,000 in public asking. Stereo is lower. Christie's £100,000 to £150,000 is what his guitar might bring. A regular 1959 sits in a different market."
       }
     },
     {
