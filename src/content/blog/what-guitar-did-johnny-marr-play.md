@@ -45,19 +45,19 @@ The guitar in the photos is a shop 1959, cherry, mono, gold Bigsby, pink-lined b
 
 When people ask what guitar Johnny Marr played, they usually mean four or five instruments, not the whole closet.
 
-The cherry Gibson ES-355 Seymour Stein bought him in early 1984 is the one that wrote [Heaven Knows I'm Miserable Now](https://press.christies.com/wp-content/uploads/2026/06/6c7d2a4700a9977f095fab77370d60df.pdf) and Girl Afraid the same day. Christie's marketing calls it a 1960. The lot card says 1959–60 TDSV. I am not flattening that to one year from a press photo.
+The cherry Gibson ES-355 Seymour Stein bought him in early 1984 is the one that wrote [Heaven Knows I'm Miserable Now](https://press.christies.com/wp-content/uploads/2026/06/6c7d2a4700a9977f095fab77370d60df.pdf) and Girl Afraid the same day. Christie's marketing calls it a 1960. The lot card says 1959-60 TDSV. I am not flattening that to one year from a press photo.
 
 The 1982 Rickenbacker 330 in Jetglo is the Smiths-era 330, the one on This Charming Man, What Difference Does It Make?, Still Ill, and Accept Yourself. Marr lent it to Noel Gallagher. It is on the cover of Oasis's Supersonic.
 
 The 1971 Martin D-28 is a six-string. There Is a Light That Never Goes Out, Well I Wonder, Cemetry Gates. It is not a 12-string. The 12-string in the sale is a separate 1976 D-12-28.
 
-The Jaguar people picture him with now is a Fender Johnny Marr Signature in Comet Sparkle, the one on No Time To Die. That is a modern signature, not a 1962–75 Jaguar.
+The Jaguar people picture him with now is a Fender Johnny Marr Signature in Comet Sparkle, the one on No Time To Die. That is a modern signature, not a 1962-75 Jaguar.
 
 The green Giffin Tele is the Top of the Pops guitar from May 1984. It is not the Charming Man Tele.
 
-Christie's sale is [Marr's Guitars](https://www.christies.com/en/events/marrs-guitars-the-johnny-marr-collection), London, Thursday 17 September 2026, 2pm BST, lots 1–112. Press copy has said about 80 guitars plus amps. The sale list is lots 1 through 112. London viewing runs 9–16 September. The New York viewing already happened.
+Christie's sale is [Marr's Guitars](https://www.christies.com/en/events/marrs-guitars-the-johnny-marr-collection), London, Thursday 17 September 2026, 2pm BST, lots 1-112. Press copy has said about 80 guitars plus amps. The sale list is lots 1 through 112. London viewing runs 9-16 September. The New York viewing already happened.
 
-A 1984 Les Paul Standard is in there too, estimated £80,000–£120,000. I'm not leading with it.
+A 1984 Les Paul Standard is in there too, estimated £80,000 to £120,000. I'm not leading with it.
 
 The 1959 cherry 355 on my bench is the model. It is not his.
 
@@ -85,9 +85,9 @@ I'm not cataloging 112 lots. These are the ones the search is actually about.
 
 <h3 id="es-355">The cherry ES-355</h3>
 
-Seymour Stein bought it for Marr on 48th Street in early 1984 after Marr joked that The Smiths would sign to Sire if Stein got him a new guitar. [Christie's press kit](https://press.christies.com/wp-content/uploads/2026/06/6c7d2a4700a9977f095fab77370d60df.pdf) says the 355 inspired Heaven Knows I'm Miserable Now and Girl Afraid that same day. Estimate £100,000–£150,000.
+Seymour Stein bought it for Marr on 48th Street in early 1984 after Marr joked that The Smiths would sign to Sire if Stein got him a new guitar. [Christie's press kit](https://press.christies.com/wp-content/uploads/2026/06/6c7d2a4700a9977f095fab77370d60df.pdf) says the 355 inspired Heaven Knows I'm Miserable Now and Girl Afraid that same day. Estimate £100,000 to £150,000.
 
-Marketing copy says 1960 cherry. The lot card says 1959–60 TDSV. TDSV is the stereo Vari-tone version: two channels, the six-position rotary, the choke in the body. The 355 on my bench is a 1959 cherry mono. Four knobs, a toggle, no Vari-tone. I wrote on the [1959 ES-355 guide](/post/1959-gibson-es-355-history-value/) that mono is the more desirable vintage configuration. On Marr's lot, provenance is doing the money work, not the wiring diagram.
+Marketing copy says 1960 cherry. The lot card says 1959-60 TDSV. TDSV is the stereo Vari-tone version: two channels, the six-position rotary, the choke in the body. The 355 on my bench is a 1959 cherry mono. Four knobs, a toggle, no Vari-tone. I wrote on the [1959 ES-355 guide](/post/1959-gibson-es-355-history-value/) that mono is the more desirable vintage configuration. On Marr's lot, provenance is doing the money work, not the wiring diagram.
 
 <figure>
 
@@ -107,15 +107,15 @@ Marketing copy says 1960 cherry. The lot card says 1959–60 TDSV. TDSV is the s
 
 <h3 id="rickenbacker-330">The 1982 Rickenbacker 330</h3>
 
-Jetglo, 1982. Estimate £60,000–£80,000. Acquired after the first publishing deal, used hard on the debut album and the early tours, then lent to Noel. I do not have a 330 photo to put here, and I am not going to dress up a 360 or a 4005 bass as one.
+Jetglo, 1982. Estimate £60,000 to £80,000. Acquired after the first publishing deal, used hard on the debut album and the early tours, then lent to Noel. I do not have a 330 photo to put here, and I am not going to dress up a 360 or a 4005 bass as one.
 
 If you inherited a Rickenbacker and you need the year, start with the [Rickenbacker serial number guide](/rickenbacker-serial-numbers/). A 1960s 330 and a 1982 330 are not the same market.
 
 <h3 id="martin-d-28">The 1971 Martin D-28, and the 12-string that isn't it</h3>
 
-The 1971 D-28 is a six-string. Estimate £30,000–£50,000. Principal acoustic in the Smiths years: There Is a Light That Never Goes Out, Well I Wonder, Cemetry Gates.
+The 1971 D-28 is a six-string. Estimate £30,000 to £50,000. Principal acoustic in the Smiths years: There Is a Light That Never Goes Out, Well I Wonder, Cemetry Gates.
 
-The 12-string in the sale is a 1976 Martin D-12-28, estimated £4,000–£6,000, a separate lot. People mash those together because both say D-28 on the headstock. Count the tuning pegs.
+The 12-string in the sale is a 1976 Martin D-12-28, estimated £4,000 to £6,000, a separate lot. People mash those together because both say D-28 on the headstock. Count the tuning pegs.
 
 The Martin on my bench is a 1959 D-28. Brazilian-rosewood-era shop guitar. Marr's is 1971 Indian rosewood. Caption that and move on.
 
@@ -129,7 +129,7 @@ The Martin on my bench is a 1959 D-28. Brazilian-rosewood-era shop guitar. Marr'
 
 <h3 id="jaguar">The Jaguar: signature vs vintage</h3>
 
-The Jaguar in the sale is a Fender Johnny Marr Signature in Comet Sparkle, used on No Time To Die. Estimate £8,000–£12,000. Christie's press kit dates that guitar 2017. The [event page](https://www.christies.com/en/events/marrs-guitars-the-johnny-marr-collection) says 2018. The copy disagrees. Either way it is a modern signature, not a vintage 1962–75 Jaguar.
+The Jaguar in the sale is a Fender Johnny Marr Signature in Comet Sparkle, used on No Time To Die. Estimate £8,000 to £12,000. Christie's press kit dates that guitar 2017. The [event page](https://www.christies.com/en/events/marrs-guitars-the-johnny-marr-collection) says 2018. The copy disagrees. Either way it is a modern signature, not a vintage 1962-75 Jaguar.
 
 I have a 1965 sunburst Jaguar in the shop. That is the vintage family: offset body, rhythm circuit on the upper horn, lead switches, claw pickups, floating trem. I wrote the [vintage Fender Jaguar guide](/post/vintage-fender-jaguar-guide/) for that guitar, not for the signature.
 
@@ -137,19 +137,19 @@ I have a 1965 sunburst Jaguar in the shop. That is the vintage family: offset bo
 
 ![1965 Fender Jaguar in three-tone sunburst with a tortoise pickguard and a woven strap, in the shop.](../../assets/blog/what-guitar-did-johnny-marr-play/1965-fender-jaguar-sunburst.jpg)
 
-<figcaption>A 1965 Fender Jaguar from the shop. Vintage 1962–75 family. Not Marr's Comet Sparkle signature, and not a guitar from the sale.</figcaption>
+<figcaption>A 1965 Fender Jaguar from the shop. Vintage 1962-75 family. Not Marr's Comet Sparkle signature, and not a guitar from the sale.</figcaption>
 
 </figure>
 
 <h3 id="giffin-tele">The Giffin Tele</h3>
 
-Roger Giffin korina Tele, green burst, about 1984. Estimate £20,000–£30,000. One-off, brass hardware, the Top of the Pops look. Heard on Meat Is Murder, The Headmaster Ritual, Nowhere Fast. Not the Porter Tele. Not in my shop.
+Roger Giffin korina Tele, green burst, about 1984. Estimate £20,000 to £30,000. One-off, brass hardware, the Top of the Pops look. Heard on Meat Is Murder, The Headmaster Ritual, Nowhere Fast. Not the Porter Tele. Not in my shop.
 
 <h2 id="1959-vs-1960">1959 vs 1960</h2>
 
 A late-1959 ES-355 and an early-1960 ES-355 can look identical from across the room. Serials in that window still live on the orange label inside the bass f-hole, A-prefix, and the factory order number can read a year earlier than the serial. That is normal, and it is why I will not call Marr's guitar a definite 1959 or a definite 1960 from a marketing headline.
 
-Christie's says 1960 in the press. The lot card says 1959–60 TDSV. Believe the lot card until you have the guitar in your hands.
+Christie's says 1960 in the press. The lot card says 1959-60 TDSV. Believe the lot card until you have the guitar in your hands.
 
 The bigger split on a regular 355 is mono versus stereo Vari-tone, not 1959 versus 1960. I already wrote that walk-through on the [1959 Gibson ES-355 history and value guide](/post/1959-gibson-es-355-history-value/). I am not duplicating it here. The shop guitar in these photos is a 1959 cherry mono. Marr's lot is the stereo Vari-tone configuration. Provenance is what turns a £-estimate like that into a different market from the 355 on my bench.
 
@@ -171,9 +171,9 @@ A 1960s Rickenbacker 330 is asking about **$4,500 to $8,500** right now. Chicago
 
 A 1960s Jaguar in sunburst is about **$4,000 to $8,000** off 1965 Reverb comps. Custom color runs higher. That is the vintage guitar, not the signature.
 
-An early-1970s D-28 in Indian rosewood is asking about **$3,500 to $7,500**. I am not using the 1960–69 Brazilian D-28 table on that guitar. Different wood, different window, different number.
+An early-1970s D-28 in Indian rosewood is asking about **$3,500 to $7,500**. I am not using the 1960-69 Brazilian D-28 table on that guitar. Different wood, different window, different number.
 
-Christie's estimates on the named lots are £100,000–£150,000 for the 355, £60,000–£80,000 for the 1982 330, £30,000–£50,000 for the 1971 D-28, £20,000–£30,000 for the Giffin, and £8,000–£12,000 for the Comet Sparkle Jag. That is provenance money in pounds. It is not what a regular 1959 355 or a 1960s 330 trades for, and it is not a bid.
+Christie's estimates on the named lots are £100,000 to £150,000 for the 355, £60,000 to £80,000 for the 1982 330, £30,000 to £50,000 for the 1971 D-28, £20,000 to £30,000 for the Giffin, and £8,000 to £12,000 for the Comet Sparkle Jag. That is provenance money in pounds. It is not what a regular 1959 355 or a 1960s 330 trades for, and it is not a bid.
 
 If you want a number on the guitar in your closet, send photos. The [appraisal is free](/free-appraisal/) and there is no obligation to sell.
 
@@ -185,7 +185,7 @@ If it is a vintage ES-355, ES-345, or ES-335, I buy those. Start on the [Gibson 
 
 If it is a 1960s Rickenbacker 330, I buy vintage Rickenbackers. Use the [Rickenbacker serial number guide](/rickenbacker-serial-numbers/) and the [Rickenbacker buying page](/sell-my-rickenbacker-guitar/). A 1982 330 is outside the vintage window I advertise. I will still look at photos. I am not going to talk about it like it is a 1966.
 
-If it is a 1962–75 Jaguar, or a 1950s Telecaster, I buy vintage Fenders. The [Jaguar guide](/post/vintage-fender-jaguar-guide/) and the [Fender buying page](/sell-my-fender-guitar/) are the right doors. A Johnny Marr signature Jaguar is not a vintage Jaguar. I do not buy 2017/2018 signatures as vintage.
+If it is a 1962-75 Jaguar, or a 1950s Telecaster, I buy vintage Fenders. The [Jaguar guide](/post/vintage-fender-jaguar-guide/) and the [Fender buying page](/sell-my-fender-guitar/) are the right doors. A Johnny Marr signature Jaguar is not a vintage Jaguar. I do not buy 2017/2018 signatures as vintage.
 
 If it is a vintage Martin dreadnought, I buy those from the [Martin buying page](/sell-my-martin-guitar/). A 1971 D-28 is outside the vintage window I advertise. It is not the 1960s Brazilian-rosewood table. I will still date it from the neck-block stamp if you send the photo.
 
@@ -205,7 +205,7 @@ Partly. The intro is mostly John Porter's 1950s Telecaster tracked with a Ricken
 
 <h3 id="is-johnny-marrs-es-355-a-1959-or-a-1960">Is Johnny Marr's ES-355 A 1959 Or A 1960?</h3>
 
-Christie's marketing says 1960. The lot card says 1959–60 TDSV. I am not picking one from a headline. The shop guitar in these photos is a 1959 cherry mono. His is the stereo Vari-tone configuration.
+Christie's marketing says 1960. The lot card says 1959-60 TDSV. I am not picking one from a headline. The shop guitar in these photos is a 1959 cherry mono. His is the stereo Vari-tone configuration.
 
 <h3 id="is-the-1971-d-28-a-12-string">Is The 1971 D-28 A 12-String?</h3>
 
@@ -217,15 +217,15 @@ No. Charming Man used Porter's '53 or '54 Tele. The Giffin is a mid-80s one-off,
 
 <h3 id="what-is-a-vintage-es-355-worth-without-johnny-marr-provenance">What Is A Vintage ES-355 Worth Without Johnny Marr Provenance?</h3>
 
-On my 1959 page, a clean original mono 1959 is about $30,000 to $45,000 in public asking. Stereo is lower. Christie's £100,000–£150,000 estimate is provenance, not that market.
+On my 1959 page, a clean original mono 1959 is about $30,000 to $45,000 in public asking. Stereo is lower. Christie's £100,000 to £150,000 estimate is provenance, not that market.
 
 <h3 id="will-you-buy-a-1971-d-28-or-a-1982-330-or-a-signature-jaguar">Will You Buy A 1971 D-28, A 1982 330, Or A Signature Jaguar?</h3>
 
-Those three sit outside the vintage windows I advertise. Send photos anyway if you want a read. I buy vintage ES-355s, 1960s Rickenbacker 330s, 1962–75 Jaguars, 1950s Teles, and vintage Martins.
+Those three sit outside the vintage windows I advertise. Send photos anyway if you want a read. I buy vintage ES-355s, 1960s Rickenbacker 330s, 1962-75 Jaguars, 1950s Teles, and vintage Martins.
 
 <h3 id="when-is-the-christies-johnny-marr-auction">When Is The Christie's Johnny Marr Auction?</h3>
 
-Thursday 17 September 2026, 2pm BST, Christie's London, lots 1–112. London viewing 9–16 September. New York viewing is over.
+Thursday 17 September 2026, 2pm BST, Christie's London, lots 1-112. London viewing 9-16 September. New York viewing is over.
 
 <h2 id="send-me-photos">Send Me Photos</h2>
 
@@ -293,7 +293,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "What Is A Vintage ES-355 Worth Without Johnny Marr Provenance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "On my 1959 page, a clean original mono 1959 is about $30,000 to $45,000 in public asking. Stereo is lower. Christie's £100,000-£150,000 estimate is provenance, not that market."
+        "text": "On my 1959 page, a clean original mono 1959 is about $30,000 to $45,000 in public asking. Stereo is lower. Christie's £100,000 to £150,000 estimate is provenance, not that market."
       }
     },
     {
