@@ -1,7 +1,7 @@
 ---
 title: "What Guitar Did Dolly Parton Play? The Martin 5-18 \"Baby Martin\""
 pubDate: "2026-08-26T15:00:00"
-modified: "2026-08-26T16:20:00"
+modified: "2026-08-26T17:15:00"
 excerpt: "A 1950 Martin 5-18, serial 115817, is on my bench in Mesa: Size 5, Style 18, the baby Martin. Guitar World and Guitar Player both put Dolly Parton on a 5-18 Terz, and Martin listed her among Size 5 players in July 2026."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
@@ -14,25 +14,33 @@ author: "Joe Dampt"
 draft: false
 toc:
   - { href: "#short-answer", label: "The Short Answer" }
+  - { href: "#first-guitar", label: "Dolly's First Guitar" }
+  - { href: "#loft-fire", label: "What Happened To It" }
+  - { href: "#coat", label: "Coat Of Many Colors" }
   - { href: "#what-it-is", label: "What A Martin 5-18 Actually Is" }
   - { href: "#vs-0-18", label: "How To Tell A 5-18 From A 0-18" }
   - { href: "#worth", label: "What A Vintage 5-18 Is Worth" }
   - { href: "#inherited", label: "If You Inherited One" }
-  - { href: "#frequently-asked-questions", label: "Frequently Asked Questions" }
+  - { href: "#faq", label: "Frequently Asked Questions" }
   - { href: "#send-me-photos", label: "Send Me Photos" }
 ---
 <style>.blog-prose figure p{margin:0}</style>
 
 I'm Joe Dampt. I buy vintage Martins nationwide from Mesa, Arizona, and I have a 1950 Martin 5-18 Terz on the bench. The neck block is stamped 5-18 over serial 115817. Martin's year-end chart, the same one on my [Martin serial and model number guide](/martin-serial-and-model-numbers/), puts 112962 through 117961 in 1950. Size 5 is the smallest guitar Martin put in the catalog, the one people mean when they say baby Martin.
 
+Dolly Parton died August 25, 2026. This post is for the guitar people are searching, the little Martin she started on, and the 1950 5-18 on my bench.
+
 <nav class="post-toc-inline" aria-label="Table of contents">
 
 -   [The Short Answer](#short-answer)
+-   [Dolly's First Guitar](#first-guitar)
+-   [What Happened To It](#loft-fire)
+-   [Coat Of Many Colors](#coat)
 -   [What A Martin 5-18 Actually Is](#what-it-is)
 -   [How To Tell A 5-18 From A 0-18](#vs-0-18)
 -   [What A Vintage 5-18 Is Worth](#worth)
 -   [If You Inherited One](#inherited)
--   [Frequently Asked Questions](#frequently-asked-questions)
+-   [Frequently Asked Questions](#faq)
 -   [Send Me Photos](#send-me-photos)
 
 </nav>
@@ -41,13 +49,39 @@ I'm Joe Dampt. I buy vintage Martins nationwide from Mesa, Arizona, and I have a
 
 This 5-18 is the guitar in the photos: Size 5 terz, Style 18 spruce and mahogany, solid peghead, serial 115817.
 
-Uncle Lewis gave Dolly Parton a small Martin when he saw she was serious. "It was my treasure," she told Reverb in 2017. She left it in the loft when she went to Nashville at 18, planning to have it fixed. The loft burned. She kept the neck. That interview never names a catalog number. She said she spent years collecting baby Martins.
+Uncle Lewis gave Dolly Parton a small Martin when he saw she was serious. "It was my treasure," she told Reverb in 2017. That interview never names a catalog number.
 
 [Guitar World](https://www.guitarworld.com/lessons/dolly-parton-guitar-style) and [Guitar Player](https://www.guitarplayer.com/guitarists/dolly-parton-on-the-little-martin-that-launched-her-music-career-and-the-country-star-behind-her-big-break) both say she performed with a Martin 5-18 Terz. In July 2026, [Martin listed Dolly Parton](https://www.martinguitar.com/blog-categories/from-the-factory/blog-071626-four-new-martin-guitars-arrive-5-28-terz-OM-35-Inception-custom-shop-0-18-0-28.html) among the players who have used Size 5 Martins, the same family as this 5-18.
 
 On later stages she often used a small, heavily decorated [Taylor GS Mini](https://www.taylorguitars.com/guitars/acoustic/gs-mini).
 
 Little Martin LX guitars are modern Mexico-made travel instruments with their own serial sequence. LX dating lives on the [Martin serial number guide](/martin-serial-and-model-numbers/).
+
+<h2 id="first-guitar">Dolly's First Guitar</h2>
+
+Dolly told Reverb in 2017 that all of mama's people were musical. They played some sort of instrument, and she plucked whatever they left lying around because she loved the guitar.
+
+She had two uncles who played. Uncle Bill Owens helped her get on the Cas Walker Show in Knoxville and walked Nashville doors with her. Uncle Lewis was a guitar player with a little Martin she loved, and when he saw how serious she was about her music he gave it to her.
+
+"It was my treasure."
+
+Some write-ups give that Martin to Bill. Reverb names Lewis as the gift and Bill as the uncle who helped her get into the business.
+
+In *Songteller* she wrote, "I remember loving that thing like it was a piece of my body, a piece of my soul. I just made friends with it." She got deep blisters and calluses learning to play.
+
+<h2 id="loft-fire">What Happened To It</h2>
+
+When she left home at 18, she put that little Martin in the loft because it was beat up. She planned to have it fixed when she got money, when she got rich and famous. The loft burned out of the house.
+
+"I only have the neck of that one," she told Reverb.
+
+She collected baby Martins for years after that. The 1950 on my bench, serial 115817, is that same Size 5 family. It is a shop guitar, not the instrument from the loft.
+
+<h2 id="coat">Coat Of Many Colors</h2>
+
+She wrote Coat of Many Colors in 1969 on Porter Wagoner's tour bus. She didn't have paper, so she wrote the lyric on a dry-cleaning receipt for one of his suits. [Rolling Stone](https://www.rollingstone.com/music/music-country/dolly-parton-coat-of-many-colors-500-greatest-albums-podcast-1267273/) and her memoir, *My Life and Other Unfinished Business*, both tell it that way.
+
+The song is about the scrap coat mama sewed from leftover cloth. She didn't write it on the Martin. The guitar from that same childhood is the little baby Martin Uncle Lewis gave her, the one she left in the loft.
 
 <h2 id="what-it-is">What A Martin 5-18 Actually Is</h2>
 
@@ -109,15 +143,27 @@ Call or text (602) 900-6635 or email joesvintageguitars94@gmail.com.
 
 </figure>
 
-<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h2 id="faq">Frequently Asked Questions</h2>
 
 <h3 id="what-guitar-did-dolly-parton-play">What Guitar Did Dolly Parton Play?</h3>
 
 Small acoustics, almost always. Her first was a little Martin her uncle Lewis gave her. Later she collected baby Martins and performed with a Martin 5-18 Terz and a custom Taylor GS Mini.
 
+<h3 id="who-gave-dolly-parton-her-first-guitar">Who Gave Dolly Parton Her First Guitar?</h3>
+
+Uncle Lewis. He gave her his little Martin when he saw she was serious. Uncle Bill Owens helped her get into the business. He didn't give her that Martin.
+
+<h3 id="what-happened-to-dolly-partons-first-guitar">What Happened To Dolly Parton's First Guitar?</h3>
+
+She left it in the loft at 18 because it was beat up. The loft burned. She kept the neck.
+
 <h3 id="was-dolly-partons-first-guitar-a-martin-5-18">Was Dolly Parton's First Guitar A Martin 5-18?</h3>
 
-She called it a little Martin. She didn't publish a serial number. Guitar World, Guitar Player, and Martin all connect her to Size 5 / 5-18 guitars as a player. Treat "the loft guitar was a 5-18" as the likely match, not a factory letter on that specific instrument.
+She called it a little Martin. She didn't publish a serial number. Guitar World, Guitar Player, and Martin all connect her to Size 5 / 5-18 guitars as a player. Treat the loft guitar as a likely 5-18 match, not a factory letter on that specific instrument.
+
+<h3 id="did-she-write-coat-of-many-colors-on-a-guitar">Did She Write Coat Of Many Colors On A Guitar?</h3>
+
+No. She wrote it in 1969 on a dry-cleaning receipt on Porter Wagoner's tour bus. The song is about the scrap coat mama sewed.
 
 <h3 id="what-is-a-baby-martin">What Is A Baby Martin?</h3>
 
@@ -166,10 +212,34 @@ Who I am and how I work is on the [about page](/about-me/).
     },
     {
       "@type": "Question",
+      "name": "Who Gave Dolly Parton Her First Guitar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Uncle Lewis. He gave her his little Martin when he saw she was serious. Uncle Bill Owens helped her get into the business. He didn't give her that Martin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Happened To Dolly Parton's First Guitar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "She left it in the loft at 18 because it was beat up. The loft burned. She kept the neck."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Was Dolly Parton's First Guitar A Martin 5-18?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "She called it a little Martin. She didn't publish a serial number. Guitar World, Guitar Player, and Martin all connect her to Size 5 / 5-18 guitars as a player. Treat "the loft guitar was a 5-18" as the likely match, not a factory letter on that specific instrument."
+        "text": "She called it a little Martin. She didn't publish a serial number. Guitar World, Guitar Player, and Martin all connect her to Size 5 / 5-18 guitars as a player. Treat the loft guitar as a likely 5-18 match, not a factory letter on that specific instrument."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Did She Write Coat Of Many Colors On A Guitar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. She wrote it in 1969 on a dry-cleaning receipt on Porter Wagoner's tour bus. The song is about the scrap coat mama sewed."
       }
     },
     {
@@ -211,7 +281,7 @@ Who I am and how I work is on the [about page](/about-me/).
 <!--
 ## Citation Ledger
 
-Scope Firewall: Martin 5-18 / Size 5 terz only. No Strat, no Gibson, no Fender facts on this post.
+Scope Firewall: Martin 5-18 / Size 5 / Dolly's little Martin story only. No Strat, no Gibson, no Fender facts on this post.
 
 | Claim (As Written In Draft) | FactID | Authority | Jurisdiction | publicFacingSafe | verifyWithExpert | lastVerified | Status |
 |---|---|---|---|---|---|---|---|
@@ -233,4 +303,8 @@ Scope Firewall: Martin 5-18 / Size 5 terz only. No Strat, no Gibson, no Fender f
 | Don't clean, polish, or touch up before photos. | LIVE-PAGE | /sell-my-martin-guitar/ | GLOBAL | true | false | 2026-08-26 | OK |
 | Joe buys vintage Martins nationwide / all 50 states from Mesa, packing and insured shipping. | LIVE-PAGE | /sell-my-martin-guitar/ | GLOBAL | true | false | 2026-08-26 | OK |
 | Joe Dampt, Mesa, more than twelve years full-time. | LIVE-PAGE | /about-me/ | GLOBAL | true | n/a | live | OK |
+| Dolly Parton died August 25, 2026. | AP-2026-08-25 | AP News, August 25, 2026; publicist statement | GLOBAL | true | false | 2026-08-26 | OK |
+| Two uncles: Uncle Bill Owens helped her into the business (Cas Walker Show, Nashville doors). Uncle Lewis gave her his little Martin. Reverb names Lewis as the gift. Some secondary sources mix them. | UNCLE-SPLIT | Reverb 2017 (Lewis gift; Bill helped me get into the business); Dolly on Bill getting the Cas Walker job and walking Nashville doors | GLOBAL | true | false | 2026-08-26 | OK |
+| Songteller: loved that little baby Martin like a piece of her body, a piece of her soul; made friends with it; blisters and calluses from learning. | SONGTELLER-2020 | Dolly Parton, Songteller: My Life in Lyrics (2020) | GLOBAL | true | false | 2026-08-26 | OK |
+| Coat of Many Colors written 1969 on the Porter Wagoner tour bus on a dry-cleaning receipt. Song is about the scrap coat mama sewed, not a guitar. | COAT-1969 | Rolling Stone; Dolly Parton, My Life and Other Unfinished Business (1994) | GLOBAL | true | false | 2026-08-26 | OK |
 -->
