@@ -7,7 +7,7 @@ category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/what-guitar-did-johnny-marr-play/1959-gibson-es-355-cherry-featured.jpg"
-heroImageAlt: "1959 Gibson ES-355 in cherry with gold hardware and a Bigsby, in a brown case with pink lining at Joe's Vintage Guitars in Mesa."
+heroImageAlt: "1959 Gibson ES-355 in cherry, its gold hardware worn with age, with a Bigsby, in a brown case with pink lining at Joe's Vintage Guitars in Mesa."
 metaDescription: "What guitar did Johnny Marr play? The Rickenbacker 330, the cherry ES-355, a 1984 Les Paul, and a 1971 D-28, all selling at Christie's on 17 September 2026."
 ogImage: "/images/blog/what-guitar-did-johnny-marr-play/what-guitar-did-johnny-marr-play-og.jpg"
 author: "Joe Dampt"
@@ -79,9 +79,9 @@ Porter's Tele isn't in the auction. So if you came here from a headline about "t
 
 <figure>
 
-![1958 Fender Telecaster with a white pickguard and worn blonde finish, standing on the floor at Joe's Vintage Guitars.](../../assets/blog/what-guitar-did-johnny-marr-play/1958-fender-telecaster.jpg)
+![1958 Fender Telecaster with a white pickguard, maple neck, and a worn red finish showing the ash grain, at Joe's Vintage Guitars.](../../assets/blog/what-guitar-did-johnny-marr-play/1958-fender-telecaster.jpg)
 
-<figcaption>A 1958 Telecaster from my shop. Porter's was a refinished '53 or '54, per Marr, so picture this one a few years earlier and a lot less original.</figcaption>
+<figcaption>A 1958 Telecaster from my shop, worn red over ash. Marr remembered Porter's as a refinished '53 or '54, a few years older than this one.</figcaption>
 
 </figure>
 
@@ -93,7 +93,7 @@ The guitar in these photos is the shop 355, a 1959 in cherry. Same model, same c
 
 <figure>
 
-![1959 Gibson ES-355 in cherry with a gold Bigsby, standing in its brown case with pink plush lining.](../../assets/blog/what-guitar-did-johnny-marr-play/1959-gibson-es-355-cherry-in-case.jpg)
+![1959 Gibson ES-355 in cherry with a worn gold Bigsby, standing in its brown case with pink plush lining.](../../assets/blog/what-guitar-did-johnny-marr-play/1959-gibson-es-355-cherry-in-case.jpg)
 
 <figcaption>The shop 1959 ES-355 in its brown case. Cherry was the standard finish, which is why Marr's, mine, and every copycat 355 all wear the same red.</figcaption>
 
@@ -143,9 +143,9 @@ A signature Jaguar is a modern guitar with a famous name on it. The vintage Jagu
 
 <figure>
 
-![1965 Fender Jaguar in three-tone sunburst with a tortoise pickguard, standing in the shop.](../../assets/blog/what-guitar-did-johnny-marr-play/1965-fender-jaguar-sunburst.jpg)
+![1960s Fender Jaguar in sunburst with clay dot inlays, chrome control plates, and a tortoise pickguard, in its case.](../../assets/blog/what-guitar-did-johnny-marr-play/1960s-fender-jaguar-clay-dots.jpg)
 
-<figcaption>A 1965 Jaguar in sunburst from my shop. This is the vintage family; Marr's signature model borrows the shape, not the year.</figcaption>
+<figcaption>A 1960s Jaguar from my shop, clay dots and chrome switch plates. This is the vintage family; Marr's signature model borrows the shape, not the year.</figcaption>
 
 </figure>
 
@@ -169,9 +169,9 @@ One more thing his lots have that yours needs too: proof. Ownership is the one t
 
 <figure>
 
-![Worn gold-covered humbuckers and four control knobs on a 1959 Gibson ES-355 in cherry.](../../assets/blog/what-guitar-did-johnny-marr-play/1959-gibson-es-355-cherry-pickups.jpg)
+![Two humbuckers with gold covers worn to the nickel on a 1959 Gibson ES-355 in cherry.](../../assets/blog/what-guitar-did-johnny-marr-play/1959-gibson-es-355-cherry-pickups.jpg)
 
-<figcaption>Worn gold covers on the shop 1959. Four knobs, a toggle, and no Vari-tone rotary: mono wiring, the version players pay more for on a no-name 355.</figcaption>
+<figcaption>Covers on the shop 1959, factory gold worn down to the nickel underneath. This guitar has the mono wiring, the version players pay more for on a no-name 355.</figcaption>
 
 </figure>
 
@@ -324,6 +324,6 @@ Scope Firewall: Johnny Marr auction lots + the shop comparison guitars only. Auc
 | All-original 1959 mono about $30,000 to $45,000; stereo Vari-tone about $22,000 to $38,000; stereo electronics unpopular with players, many converted. | LIVE-PAGE | /post/1959-gibson-es-355-history-value/ | GLOBAL | true | true | 2026-08-28 | RANGE, NOT A BID |
 | Vintage Jaguar window 1962 to 1975. | LIVE-PAGE | /post/vintage-fender-jaguar-guide/ | GLOBAL | true | false | 2026-08-28 | OK |
 | Collectible D-28s = earlier Brazilian-rosewood era; 1971 = Indian rosewood. | LIVE-PAGE | Joe's Martin value content; shop 1959 D-28 | GLOBAL | true | true | 2026-08-28 | OK |
-| Shop comparison guitars: 1958 Telecaster, 1959 D-28, 1965 sunburst Jaguar, none Marr's. | LIVE-PHOTO | Shop photos on this post | GLOBAL | true | false | 2026-08-28 | OK |
+| Shop comparison guitars: 1958 Telecaster (worn red over ash), 1959 D-28, 1960s clay-dot Jaguar (photo shared with the Jaguar guide), none Marr's. All six inline photos viewed and matched to captions this session; the original photo set's "1965 Jaguar" file was a Jazzmaster and was replaced. | LIVE-PHOTO | Shop photos on this post | GLOBAL | true | false | 2026-08-28 | OK |
 | Joe buys in all 50 states from Mesa; packing + insured shipping; twelve-plus years full-time. | LIVE-PAGE | /about-me/ + sell pages | GLOBAL | true | n/a | live | OK |
 -->
