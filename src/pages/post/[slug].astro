@@ -5,6 +5,7 @@ import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
+import MartinSmallBodyGuide from "../../components/MartinSmallBodyGuide.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
 import { getPublishedPosts, getRelated, categoryName, formatDate } from "../../lib/blog";
 import { resolveImage, assetSrc } from "../../lib/images";
@@ -20,6 +21,7 @@ export const getStaticPaths = (async () => {
 const { entry, related } = Astro.props;
 const { Content } = await render(entry);
 const { data } = entry;
+const isMartinSmallBodyGuide = entry.id === "martin-0-00-000-history-authentication-value-guide";
 
 const postUrl = `${SITE_URL}/post/${entry.id}/`;
 const catName = categoryName(data.category, data.categoryName);
@@ -162,6 +164,10 @@ const articleSchema = {
     </>
   )}
 
+  {isMartinSmallBodyGuide ? (
+    <MartinSmallBodyGuide />
+  ) : (
+    <>
   <div class="bpost-header-backdrop" aria-hidden="true"></div>
 
   {data.toc.length > 0 && (
@@ -277,6 +283,8 @@ const articleSchema = {
         </div>
       </div>
     </section>
+  )}
+    </>
   )}
 
   <ContactSection />
