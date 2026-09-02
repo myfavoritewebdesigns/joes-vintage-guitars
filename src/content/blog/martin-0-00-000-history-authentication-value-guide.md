@@ -1,5 +1,5 @@
 ---
-title: "Martin 0, 00, and 000 Guitars: History, Models, Authentication, and Value"
+title: "Vintage Martin 0, 00 & 000 Guitars: Models, Dating & Value"
 pubDate: "2026-09-02T10:00:00"
 modified: "2026-09-02T10:00:00"
 excerpt: "A detailed collector’s guide to Martin 0, 00, and 000 guitars, including body sizes, 12-fret and 14-fret construction, woods, trim, bracing, tuners, authentication, and the eras collectors value most."
@@ -9,7 +9,7 @@ tags: ["Martin", "Martin 0", "Martin 00", "Martin 000", "Vintage Martin", "Guita
 heroImage: "/images/blog/martin-0-00-000-history-authentication-value-guide/martin-00-18-1920s.jpg"
 heroImageAlt: "Vintage 1920s Martin 00-18 acoustic guitar from the Joe's Vintage Guitars archive"
 metaDescription: "An in-depth guide to Martin 0, 00, and 000 guitars: history, models, woods, trim, 12-fret versus 14-fret construction, bracing, tuners, authentication, eras, and value."
-ogImage: "/images/blog/martin-0-00-000-history-authentication-value-guide/martin-00-18-1920s.jpg"
+ogImage: "/images/blog/martin-0-00-000-history-authentication-value-guide/martin-0-00-000-social.jpg"
 author: "Joe Dampt"
 draft: false
 toc:

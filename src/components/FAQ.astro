@@ -23,6 +23,7 @@ interface Props {
   subTitle?: string;
   sectionId?: string;
   openFirst?: boolean;
+  headingLevel?: "h2" | "h3";
 }
 
 const DEFAULT_FAQS: FAQItem[] = [
@@ -66,16 +67,18 @@ const {
   subTitle = "Our Guitar Buying Services",
   sectionId = "faq",
   openFirst = false,
+  headingLevel = "h3",
 } = Astro.props;
+const Heading = headingLevel;
 ---
 
 <section id={sectionId} class="faqr-sct">
   <div class="faqr-sct__inner">
     <div class="faqr-col">
       <div class="faqr-col__inner">
-        <h3 class="faqr-sct__h3">
+        <Heading class="faqr-sct__h3">
           {mainTitle} <span class="sub-t">{subTitle}</span>
-        </h3>
+        </Heading>
 
         <div class="faqr-accordion">
           {faqs.map((item, i) => (

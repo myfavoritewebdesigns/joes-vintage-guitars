@@ -68,7 +68,7 @@ Be careful with the headline numbers you see quoted, because they usually descri
 
 To find the model and serial number, look through the soundhole at the neck block. Both are stamped into the wood, with the model number sitting just above the serial. If you cannot find them there, the guitar may not be a Martin at all, and it is worth having someone check before you go any further.
 
-If you need help with your serial number, don’t worry, you can ask the experts. A vintage guitar expert is the best person to tell you what you have. If you're looking to **[sell your Martin guitar](/sell-my-martin-guitar/)**, we make the process simple and straightforward.
+If you need help with your serial number, don’t worry, you can ask the experts. A vintage guitar expert is the best person to tell you what you have. If the stamp begins with 0, 00, or 000, use the [vintage Martin 0, 00, and 000 guide](/post/martin-0-00-000-history-authentication-value-guide/) to compare its body size, style, bracing era, woods, and hardware. If you're looking to **[sell your Martin guitar](/sell-my-martin-guitar/)**, we make the process simple and straightforward.
 
 <h3 id="why-are-pre-war-martin-guitars-so-exorbitantly-priced">Why Are Pre-War Martin Guitars So Exorbitantly Priced?</h3>
 

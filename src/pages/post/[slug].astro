@@ -63,6 +63,13 @@ const heroAbs = data.ogImage
       ? data.ogImage
       : `${SITE_URL}${data.ogImage}`
   : undefined;
+const articleHeroAbs = data.heroImage
+  ? heroMeta
+    ? `${SITE_URL}${heroMeta.src}`
+    : data.heroImage.startsWith("http")
+      ? data.heroImage
+      : `${SITE_URL}${data.heroImage}`
+  : heroAbs;
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -85,8 +92,12 @@ const breadcrumbSchema = {
 const imageSchema = heroAbs
   ? {
       "@type": "ImageObject",
-      url: heroAbs,
-      ...(ogDims ? { width: ogDims.width, height: ogDims.height } : {}),
+      url: articleHeroAbs,
+      ...(heroMeta
+        ? { width: heroMeta.width, height: heroMeta.height }
+        : ogDims
+          ? { width: ogDims.width, height: ogDims.height }
+          : {}),
       ...(data.heroImageAlt ? { caption: data.heroImageAlt } : {}),
       license: imageLicense.photoLicenseUrl,
       acquireLicensePage: imageLicense.photoLicenseUrl,
@@ -137,6 +148,7 @@ const martinGuideFaqs = [
   { q: "Which vintage Martin 0, 00, and 000 guitars are most collectible?", a: "Demand is strongest for original prewar steel-string examples, especially pearl-trimmed Styles 42 and 45, pre-1947 herringbone Style 28 guitars, and lightly built scalloped-brace instruments from the late 1920s through the early 1940s. Scarcity and condition can change the hierarchy." },
   { q: "Can I put steel strings on a 1920s Martin?", a: "Do not choose string tension from the year or model name alone. Some were built for gut, some for Hawaiian steel, and some were converted later. A qualified repair specialist should inspect the top, bridge, bridge plate, bracing, neck angle, and previous repairs first." },
   { q: "How much is an old Martin 0, 00, or 000 worth?", a: "Value starts with recent sold examples of the same model, year band, and condition. It is then adjusted for originality, structural health, repairs, wood, bracing period, rarity, provenance, sound, and current demand. An appraisal requires photographs and inspection details from the individual guitar." },
+  { q: "Are Martin 0 and 00 guitars considered parlor guitars?", a: "Sellers often use parlor guitar as a broad search term for small acoustics, but Martin's traditional names are more precise: size 0 is Concert and size 00 is Grand Concert. Dimensions, scale, and neck joint are better identification evidence than the informal parlor label." },
 ];
 
 const martinFaqSchema = {
