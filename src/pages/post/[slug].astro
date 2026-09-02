@@ -5,6 +5,7 @@ import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
+import MartinSmallBodyGuide from "../../components/MartinSmallBodyGuide.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
 import { getPublishedPosts, getRelated, categoryName, formatDate } from "../../lib/blog";
 import { resolveImage, assetSrc } from "../../lib/images";
@@ -20,6 +21,7 @@ export const getStaticPaths = (async () => {
 const { entry, related } = Astro.props;
 const { Content } = await render(entry);
 const { data } = entry;
+const isMartinSmallBodyGuide = entry.id === "martin-0-00-000-history-authentication-value-guide";
 
 const postUrl = `${SITE_URL}/post/${entry.id}/`;
 const catName = categoryName(data.category, data.categoryName);
@@ -61,6 +63,13 @@ const heroAbs = data.ogImage
       ? data.ogImage
       : `${SITE_URL}${data.ogImage}`
   : undefined;
+const articleHeroAbs = data.heroImage
+  ? heroMeta
+    ? `${SITE_URL}${heroMeta.src}`
+    : data.heroImage.startsWith("http")
+      ? data.heroImage
+      : `${SITE_URL}${data.heroImage}`
+  : heroAbs;
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -83,8 +92,12 @@ const breadcrumbSchema = {
 const imageSchema = heroAbs
   ? {
       "@type": "ImageObject",
-      url: heroAbs,
-      ...(ogDims ? { width: ogDims.width, height: ogDims.height } : {}),
+      url: articleHeroAbs,
+      ...(heroMeta
+        ? { width: heroMeta.width, height: heroMeta.height }
+        : ogDims
+          ? { width: ogDims.width, height: ogDims.height }
+          : {}),
       ...(data.heroImageAlt ? { caption: data.heroImageAlt } : {}),
       license: imageLicense.photoLicenseUrl,
       acquireLicensePage: imageLicense.photoLicenseUrl,
@@ -126,6 +139,29 @@ const videoSchema = vid
     }
   : null;
 
+const martinGuideFaqs = [
+  { q: "What is the difference between a Martin 0, 00, and 000?", a: "The number identifies the body-size family. A size 0 is the smallest of the three, a 00 is the middle Grand Concert size, and a 000 is the larger Auditorium body. Exact dimensions and tone also depend on the year and whether the guitar has a 12-fret or 14-fret neck joint." },
+  { q: "How do I date a vintage Martin 0, 00, or 000?", a: "Begin with the serial number and complete model stamp, then compare the neck joint, headstock, frets, neck reinforcement, bracing, bridge, bridge plate, tuners, woods, and trim with the expected features for that production period. No single feature should be used by itself." },
+  { q: "Where is the serial number on a vintage Martin guitar?", a: "On many later vintage Martins, the model and serial number are stamped on the neck block inside the body. Earlier instruments may use a serial stamp, backstrip stamp, headstock stamp, or label, so the location depends on the period." },
+  { q: "Is a 12-fret Martin more valuable than a 14-fret Martin?", a: "Not automatically. Early 12-fret Martins can be scarce and highly desirable, while golden-era 14-fret steel-string examples also command strong prices. Model, year, construction, originality, condition, repairs, and sound determine the market." },
+  { q: "What is the difference between a Martin OM and a 000?", a: "The classic OM and 14-fret 000 share the same basic body outline. A traditional OM uses a long scale near 25.4 inches and early orchestra-model specifications, while most later standard 000 models use a shorter scale near 24.9 inches. Special editions can mix these features." },
+  { q: "Which vintage Martin 0, 00, and 000 guitars are most collectible?", a: "Demand is strongest for original prewar steel-string examples, especially pearl-trimmed Styles 42 and 45, pre-1947 herringbone Style 28 guitars, and lightly built scalloped-brace instruments from the late 1920s through the early 1940s. Scarcity and condition can change the hierarchy." },
+  { q: "Can I put steel strings on a 1920s Martin?", a: "Do not choose string tension from the year or model name alone. Some were built for gut, some for Hawaiian steel, and some were converted later. A qualified repair specialist should inspect the top, bridge, bridge plate, bracing, neck angle, and previous repairs first." },
+  { q: "How much is an old Martin 0, 00, or 000 worth?", a: "Value starts with recent sold examples of the same model, year band, and condition. It is then adjusted for originality, structural health, repairs, wood, bracing period, rarity, provenance, sound, and current demand. An appraisal requires photographs and inspection details from the individual guitar." },
+  { q: "Are Martin 0 and 00 guitars considered parlor guitars?", a: "Sellers often use parlor guitar as a broad search term for small acoustics, but Martin's traditional names are more precise: size 0 is Concert and size 00 is Grand Concert. Dimensions, scale, and neck joint are better identification evidence than the informal parlor label." },
+];
+
+const martinFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${postUrl}#faq-schema`,
+  mainEntity: martinGuideFaqs.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -139,6 +175,16 @@ const articleSchema = {
   publisher: { "@id": `${SITE_URL}/` },
   mainEntityOfPage: postUrl,
   articleSection: catName,
+  inLanguage: "en-US",
+  isAccessibleForFree: true,
+  ...(isMartinSmallBodyGuide ? {
+    keywords: ["Martin 0", "Martin 00", "Martin 000", "vintage Martin guitars", "Martin serial numbers", "Martin guitar value", "Martin guitar authentication"],
+    about: [
+      { "@type": "Thing", name: "C. F. Martin & Company" },
+      { "@type": "Thing", name: "Vintage acoustic guitars" },
+      { "@type": "Thing", name: "Guitar authentication" },
+    ],
+  } : {}),
 };
 ---
 
@@ -153,7 +199,11 @@ const articleSchema = {
   ogType="article"
   publishedTime={data.pubDate.toISOString()}
   modifiedTime={data.modified.toISOString()}
-  structuredData={videoSchema ? [breadcrumbSchema, articleSchema, videoSchema] : [breadcrumbSchema, articleSchema]}
+  structuredData={isMartinSmallBodyGuide
+    ? [breadcrumbSchema, articleSchema, martinFaqSchema]
+    : videoSchema
+      ? [breadcrumbSchema, articleSchema, videoSchema]
+      : [breadcrumbSchema, articleSchema]}
 >
   {vid && (
     <>
@@ -162,6 +212,10 @@ const articleSchema = {
     </>
   )}
 
+  {isMartinSmallBodyGuide ? (
+    <MartinSmallBodyGuide faqs={martinGuideFaqs} />
+  ) : (
+    <>
   <div class="bpost-header-backdrop" aria-hidden="true"></div>
 
   {data.toc.length > 0 && (
@@ -277,6 +331,8 @@ const articleSchema = {
         </div>
       </div>
     </section>
+  )}
+    </>
   )}
 
   <ContactSection />

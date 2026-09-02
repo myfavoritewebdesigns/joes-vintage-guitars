@@ -77,6 +77,8 @@ Martin model names are two facts stuck together. The part before the hyphen is t
 
 Put those together and a 000-45 is the most decorated version of a mid-size Martin. It has never been a volume product. It was expensive when it was new and it was ordered by people who wanted the best thing on the wall.
 
+For the wider family context, compare this pearl-trim flagship with the Style 15, 17, 18, 21, 28, 40, 42, and 45 instruments in the [vintage Martin 0, 00, and 000 guitar guide](/post/martin-0-00-000-history-authentication-value-guide/).
+
 <figure>
 
 ![Full front view of a 1976 Martin 000-45 acoustic guitar standing upright in a vintage guitar shop, showing the natural spruce top, abalone trim, ebony fingerboard with hexagon inlays, and rosewood headstock.](../../assets/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-full-front.jpg)

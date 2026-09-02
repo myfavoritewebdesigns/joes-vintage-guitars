@@ -175,7 +175,7 @@ I'd point you somewhere else on this one. A dovetail reset means getting steam o
 
 Run the test, take a photo down the length of the straightedge so the bridge is in frame, and send it over. I look at vintage acoustics all day and I'll tell you what I see. That goes for a guitar you inherited and can't place, and for one you're weighing up before you buy it.
 
-If it's the value side you're after, our [free appraisal](/free-appraisal/) covers Martin, Gibson, Guild, and the rest, and [the seven factors that drive a vintage guitar's value](/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/) explains where a repair like this actually sits in the picture.
+If it's the value side you're after, our [free appraisal](/free-appraisal/) covers Martin, Gibson, Guild, and the rest, and [the seven factors that drive a vintage guitar's value](/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/) explains where a repair like this actually sits in the picture. Owners of smaller Martins can also use the [vintage Martin 0, 00, and 000 guide](/post/martin-0-00-000-history-authentication-value-guide/) to identify the model family and understand how a neck reset fits into the guitar's larger condition story.
 
 <script type="application/ld+json">
 {
