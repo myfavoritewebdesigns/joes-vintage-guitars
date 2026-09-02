@@ -57,7 +57,7 @@ A Fender serial from the mid-sixties only gets you a window. Before the mid-1970
 
 Gibson, from about 1961 to 1969, reused serial ranges, so one number can land on two, three, or four years. You finish it with pots, pickups, tuners, logo, and hardware. I walk those overlapping years in the [Gibson serial number guide](/how-to-read-gibson-serial-numbers/).
 
-Martin is the cleanest of the three on year. Since 1898 the company has used one continuous serial run, and the number alone pins the production year against the published year-end chart. Look through the soundhole: the serial is stamped on the neck block, with the model stamp above it on most guitars after 1930. A correct Martin serial still sits on a refinished top or a swapped bridge. Look it up on the [Martin serial and model number guide](/martin-serial-and-model-numbers/).
+Martin is the cleanest of the three on year. Since 1898 the company has used one continuous serial run, and the number alone pins the production year against the published year-end chart. Look through the soundhole: the serial is stamped on the neck block, with the model stamp above it on most guitars after 1930. A correct Martin serial still sits on a refinished top or a swapped bridge. Look it up on the [Martin serial and model number guide](/martin-serial-and-model-numbers/), then use the [vintage Martin 0, 00, and 000 authentication guide](/post/martin-0-00-000-history-authentication-value-guide/) to check the construction details on a small-body guitar.
 
 > A real serial number is not proof of a real guitar. Numbers get re-stamped, and neck plates get swapped.
 

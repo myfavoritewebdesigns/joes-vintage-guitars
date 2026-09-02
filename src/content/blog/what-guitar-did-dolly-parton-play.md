@@ -93,7 +93,7 @@ Style 18 is a spruce top, mahogany back and sides, simple dot inlays, and a tort
 
 <h2 id="vs-0-18">How To Tell A 5-18 From A 0-18</h2>
 
-A 0-18 is concert size. It looks small next to a dreadnought, and next to a 5-18 it looks huge. If it looks like a toy until you pick it up, you might have a 5. If you inherited a small Martin, the [Martin buying page](/sell-my-martin-guitar/) is where I take 0-18s and 5-18s alike.
+A 0-18 is concert size. It looks small next to a dreadnought, and next to a 5-18 it looks huge. My [vintage Martin 0, 00, and 000 guide](/post/martin-0-00-000-history-authentication-value-guide/) compares those larger small-body sizes, neck joints, woods, and model stamps. If it looks like a toy until you pick it up, you might have a 5. If you inherited a small Martin, the [Martin buying page](/sell-my-martin-guitar/) is where I take 0-18s and 5-18s alike.
 
 Don't guess from a photo of the front alone. Look through the soundhole. Martin stamps the model and serial number on the neck block. You should see 5-18 over the serial, or the serial under the model, depending on the year. That stamp is the ID. Use the [Martin serial number lookup](/martin-serial-and-model-numbers/) to date it.
 
