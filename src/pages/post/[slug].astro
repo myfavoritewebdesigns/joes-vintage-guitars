@@ -6,6 +6,7 @@ import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
 import MartinSmallBodyGuide from "../../components/MartinSmallBodyGuide.astro";
+import MartinD18Guide from "../../components/MartinD18Guide.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
 import { getPublishedPosts, getRelated, categoryName, formatDate } from "../../lib/blog";
 import { resolveImage, assetSrc } from "../../lib/images";
@@ -22,6 +23,8 @@ const { entry, related } = Astro.props;
 const { Content } = await render(entry);
 const { data } = entry;
 const isMartinSmallBodyGuide = entry.id === "martin-0-00-000-history-authentication-value-guide";
+const isMartinD18Guide = entry.id === "martin-d18-history-specs-authentication-value-guide";
+const isCustomMartinGuide = isMartinSmallBodyGuide || isMartinD18Guide;
 
 const postUrl = `${SITE_URL}/post/${entry.id}/`;
 const catName = categoryName(data.category, data.categoryName);
@@ -151,11 +154,24 @@ const martinGuideFaqs = [
   { q: "Are Martin 0 and 00 guitars considered parlor guitars?", a: "Sellers often use parlor guitar as a broad search term for small acoustics, but Martin's traditional names are more precise: size 0 is Concert and size 00 is Grand Concert. Dimensions, scale, and neck joint are better identification evidence than the informal parlor label." },
 ];
 
+const martinD18Faqs = [
+  { q: "What years are the most valuable Martin D-18 guitars?", a: "Original 1930s D-18s, especially forward-braced examples from 1934 through the 1938 transition, generally lead the market. Later prewar and wartime scalloped-brace guitars are also highly collectible. Condition, originality, repairs, and sound can change the order." },
+  { q: "When did Martin stop scalloping D-18 braces?", a: "The factory transition occurs during late 1944 rather than at a perfectly clean model-year boundary. A 1944 D-18 should be inspected internally because serial number and brace carving together establish which construction it has." },
+  { q: "When did Martin change the D-18 from Adirondack to Sitka spruce?", a: "Red spruce, commonly called Adirondack in the vintage market, continued through the wartime period and into the postwar transition. Sitka spruce became normal during 1946. Transitional guitars should be evaluated individually." },
+  { q: "What is the difference between a Martin D-18 and D-28?", a: "A traditional D-18 has mahogany back and sides with restrained Style 18 trim. A D-28 has rosewood back and sides and Style 28 appointments. Players often describe the D-18 as dry and direct and the D-28 as overtone-rich, but individual guitars vary." },
+  { q: "How can I tell if a vintage Martin D-18 is original?", a: "Start with the neck-block model and serial stamps, then inspect the woods, X-brace location, brace carving, neck reinforcement, bridge, bridge plate, pickguard, finish, tuners, frets, and repair history. The features must agree with one another and the production period." },
+  { q: "Does a neck reset reduce the value of a Martin D-18?", a: "A professionally executed neck reset is accepted maintenance on many old Martins and can improve usability. Poor workmanship, heel damage, finish disturbance, or altered geometry can reduce value. A shaved bridge used to postpone a reset is usually a larger concern." },
+  { q: "How much is a vintage Martin D-18 worth?", a: "Joe's broad published ranges run from about $3,000 to $6,000 for many 1960s examples up to $25,000 to $110,000 for prewar guitars. Those are orientation ranges, not an offer. Year, bracing, originality, condition, repairs, provenance, and sound determine an individual value." },
+  { q: "What do D-18S, D-18E, D-18V, D-18GE, and D-18 Authentic mean?", a: "They identify materially different variants: 12-fret or special construction, factory electronics, Vintage Series, Golden Era, and historically targeted Authentic recreations. The complete suffix and production year are essential because these models do not share one specification or value range." },
+];
+
+const activeMartinFaqs = isMartinD18Guide ? martinD18Faqs : martinGuideFaqs;
+
 const martinFaqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "@id": `${postUrl}#faq-schema`,
-  mainEntity: martinGuideFaqs.map((item) => ({
+  mainEntity: activeMartinFaqs.map((item) => ({
     "@type": "Question",
     name: item.q,
     acceptedAnswer: { "@type": "Answer", text: item.a },
@@ -177,8 +193,10 @@ const articleSchema = {
   articleSection: catName,
   inLanguage: "en-US",
   isAccessibleForFree: true,
-  ...(isMartinSmallBodyGuide ? {
-    keywords: ["Martin 0", "Martin 00", "Martin 000", "vintage Martin guitars", "Martin serial numbers", "Martin guitar value", "Martin guitar authentication"],
+  ...(isCustomMartinGuide ? {
+    keywords: isMartinD18Guide
+      ? ["Martin D-18", "vintage Martin D-18", "Martin D-18 value", "Martin D-18 specifications", "Martin D-18 authentication", "Martin D-18 bracing"]
+      : ["Martin 0", "Martin 00", "Martin 000", "vintage Martin guitars", "Martin serial numbers", "Martin guitar value", "Martin guitar authentication"],
     about: [
       { "@type": "Thing", name: "C. F. Martin & Company" },
       { "@type": "Thing", name: "Vintage acoustic guitars" },
@@ -199,7 +217,7 @@ const articleSchema = {
   ogType="article"
   publishedTime={data.pubDate.toISOString()}
   modifiedTime={data.modified.toISOString()}
-  structuredData={isMartinSmallBodyGuide
+  structuredData={isCustomMartinGuide
     ? [breadcrumbSchema, articleSchema, martinFaqSchema]
     : videoSchema
       ? [breadcrumbSchema, articleSchema, videoSchema]
@@ -212,7 +230,9 @@ const articleSchema = {
     </>
   )}
 
-  {isMartinSmallBodyGuide ? (
+  {isMartinD18Guide ? (
+    <MartinD18Guide faqs={martinD18Faqs} />
+  ) : isMartinSmallBodyGuide ? (
     <MartinSmallBodyGuide faqs={martinGuideFaqs} />
   ) : (
     <>
