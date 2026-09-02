@@ -1,5 +1,5 @@
 ---
-title: "Vintage Martin D-18: History, Specs, Dating & Value"
+title: "Vintage Martin D-18 Guide: History, Specs & Value"
 pubDate: "2026-09-02T14:00:00-07:00"
 modified: "2026-09-02T14:00:00-07:00"
 excerpt: "A detailed guide to Martin D-18 history, specifications, year-by-year construction changes, bracing, authentication, variants, collectibility, and vintage values."
