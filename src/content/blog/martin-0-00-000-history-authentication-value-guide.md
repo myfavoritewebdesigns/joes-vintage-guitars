@@ -226,8 +226,6 @@ I then adjust for:
 
 A refinish, retop, oversized bridge plate, shaved bridge, changed pearl, or serious structural distortion can create a substantial discount. A correct-looking replacement is still a replacement. The right way to describe one is plainly, without hiding behind words such as “restored” or “period correct.”
 
-![A vintage Martin 000-28 from the Joe's Vintage Guitars archive.](../../assets/blog/martin-0-00-000-history-authentication-value-guide/martin-000-28.jpg)
-
 The model name gets you into the right neighborhood. The year, structure, originality, repairs, and sound determine the address.
 
 ## The Rule I Come Back To
