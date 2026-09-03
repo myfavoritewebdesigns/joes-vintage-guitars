@@ -15,6 +15,7 @@ const blog = defineCollection({
     tags: z.array(z.string()).default([]),
     heroImage: z.string().default(""),
     heroImageAlt: z.string().default(""),
+    heroImageLicensed: z.boolean().default(true),
     metaDescription: z.string().default(""),
     ogImage: z.string().default(""),
     author: z.string().default("Joe Dampt"),
