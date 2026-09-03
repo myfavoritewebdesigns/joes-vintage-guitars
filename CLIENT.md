@@ -30,7 +30,7 @@ A normal session looks like this:
 2. **Your Claude** reads the project's CLAUDE.md (design rules), reads the existing `sell-my-fender-guitar.astro` and `sell-my-gibson-guitar.astro` as patterns, fetches the live page for content, drafts the new file on a feature branch, and opens a pull request.
 3. **Your Claude tells you** (a) the PR number, (b) the preview URL Cloudflare will generate (looks like `joe-sell-martin.joes-vintage-guitars.pages.dev`), (c) what to look at.
 4. **You click the preview URL** to see the new page rendered in real-time. If it looks wrong, you say so — your Claude will adjust the PR.
-5. **When it looks good, you ask Josh to merge.** Josh reviews on GitHub mobile or laptop, merges, production preview rebuilds in ~2 min.
+5. **When it looks good, merge it.** Merge the PR yourself on GitHub (mobile or laptop works), and the production preview rebuilds in ~2 min.
 
 ---
 
@@ -66,7 +66,7 @@ Your Claude will figure it out and ask follow-up questions.
 
 ## The preview URL is your best friend
 
-Every time your Claude opens a pull request, Cloudflare automatically builds a preview of that exact change at a unique URL. **Always click it before asking Josh to merge.** That's how you see what you actually got, not what Claude thinks it built.
+Every time your Claude opens a pull request, Cloudflare automatically builds a preview of that exact change at a unique URL. **Always click it before merging.** That's how you see what you actually got, not what Claude thinks it built.
 
 The URL pattern is: `joe-<branch-name>.joes-vintage-guitars.pages.dev`
 
@@ -97,7 +97,7 @@ If the preview URL shows something off:
 1. **Tell your Claude what's wrong, in plain words.** Examples: *"the hero photo is too dark, can you use the brighter one?"*, *"the buttons are blue, they should be rust"*, *"the page is missing the testimonials section."*
 2. Your Claude will push a fix to the same PR branch. Cloudflare rebuilds the preview within ~2 min. Refresh the URL to see the update.
 3. Repeat until you're happy with it.
-4. Then ask Josh to merge.
+4. Then merge the PR.
 
 If your Claude can't figure out what you mean after 2 tries, it'll ask you for more detail — a screenshot, a more specific description, etc. Don't get frustrated, just give it the extra context. AI is good at building from clear specs but terrible at guessing.
 
@@ -105,7 +105,7 @@ If your Claude can't figure out what you mean after 2 tries, it'll ask you for m
 
 ## When you're done
 
-After Josh merges a PR:
+After a PR merges:
 - The change goes live at **https://joes-vintage-guitars.pages.dev/** within ~2 min
 - The PR is closed (you can't merge it twice — that's normal)
 - The feature branch is auto-deleted (also normal — the change is now in `main`)
