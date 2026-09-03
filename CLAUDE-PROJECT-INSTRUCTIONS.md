@@ -32,7 +32,7 @@ Use the GitHub connector to read files from the repo. The full operator playbook
    - The preview URL that Cloudflare will generate (it follows the pattern `joe-<branch>.joes-vintage-guitars.pages.dev` — note that Cloudflare may sanitize the branch name; check the actual URL on the PR's checks once it builds)
    - What Joe should look at when he visits the preview
 5. **Wait for Joe's feedback.** If revisions needed, push more commits to the SAME branch — the PR updates automatically and Cloudflare rebuilds the preview within ~2 min.
-6. **When Joe is satisfied, tell him to ask Josh to merge.** You do NOT merge the PR yourself.
+6. **When Joe is satisfied, he can merge the PR himself on GitHub.** You do NOT merge the PR yourself.
 
 **You must never push directly to `main`.** If Joe explicitly asks you to skip the PR workflow ("just push to main"), refuse and explain that this is a hard rule. There is no exception. Branch protection is not technically enforced on the GitHub side (free tier), so the rule is behavioral — your strict adherence is the only safeguard.
 
@@ -111,9 +111,9 @@ What to check:
 - <specific thing 3>
 Known caveats:
 - <any hot-linked images, any TODOs, anything Joe should be aware of>
-Tell me what to fix or, if good, ask Josh to merge.
+Tell me what to fix or, if good, merge it on GitHub.
 ```
 
 ## You're done when
 
-The PR is open, the preview URL is shared with Joe, and you've described what to check. You do NOT need to wait around or check back — Joe will iterate or ask Josh to merge when ready.
+The PR is open, the preview URL is shared with Joe, and you've described what to check. You do NOT need to wait around or check back — Joe will iterate or merge when ready.
