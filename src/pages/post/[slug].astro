@@ -8,6 +8,7 @@ import ContactSection from "../../components/ContactSection.astro";
 import MartinSmallBodyGuide from "../../components/MartinSmallBodyGuide.astro";
 import MartinD18Guide from "../../components/MartinD18Guide.astro";
 import DennisHiattLesPaulStory from "../../components/DennisHiattLesPaulStory.astro";
+import BobDentonJ200Story from "../../components/BobDentonJ200Story.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
 import { getPublishedPosts, getRelated, categoryName, formatDate } from "../../lib/blog";
 import { resolveImage, assetSrc } from "../../lib/images";
@@ -27,6 +28,7 @@ const isMartinSmallBodyGuide = entry.id === "martin-0-00-000-history-authenticat
 const isMartinD18Guide = entry.id === "martin-d18-history-specs-authentication-value-guide";
 const isCustomMartinGuide = isMartinSmallBodyGuide || isMartinD18Guide;
 const isDennisHiattStory = entry.id === "one-owner-1983-gibson-les-paul-custom";
+const isBobDentonJ200Story = entry.id === "bob-denton-1957-gibson-j200";
 
 const postUrl = `${SITE_URL}/post/${entry.id}/`;
 const catName = categoryName(data.category, data.categoryName);
@@ -236,7 +238,9 @@ const articleSchema = {
     </>
   )}
 
-  {isDennisHiattStory ? (
+  {isBobDentonJ200Story ? (
+    <BobDentonJ200Story />
+  ) : isDennisHiattStory ? (
     <DennisHiattLesPaulStory />
   ) : isMartinD18Guide ? (
     <MartinD18Guide faqs={martinD18Faqs} />

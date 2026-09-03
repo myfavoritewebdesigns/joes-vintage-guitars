@@ -1,0 +1,120 @@
+---
+import { Image } from "astro:assets";
+import hero from "../assets/blog/bob-denton-1957-gibson-j200/bob-denton-j200.jpg";
+import guitarBack from "../assets/blog/bob-denton-1957-gibson-j200/j200-back.jpg";
+import headstock from "../assets/blog/bob-denton-1957-gibson-j200/j200-headstock.jpg";
+import label from "../assets/blog/bob-denton-1957-gibson-j200/j200-gibson-label.jpg";
+import neckHeel from "../assets/blog/bob-denton-1957-gibson-j200/j200-neck-heel.jpg";
+import performing from "../assets/blog/bob-denton-1957-gibson-j200/bob-denton-performing.jpg";
+import portrait from "../assets/blog/bob-denton-1957-gibson-j200/bob-denton-portrait.jpg";
+import band from "../assets/blog/bob-denton-1957-gibson-j200/bob-denton-band.jpg";
+import record from "../assets/blog/bob-denton-1957-gibson-j200/bob-denton-playboy-record.jpg";
+import cover from "../assets/blog/bob-denton-1957-gibson-j200/bob-denton-playboy-cover.jpg";
+
+const details = [
+  ["Model", "Gibson J-200"],
+  ["Year", "1957"],
+  ["Finish", "Natural"],
+  ["Provenance", "Attributed to Bob Denton"],
+];
+const tracks = [
+  ["On My Mind Again", "Bob+Denton+On+My+Mind+Again+1957"],
+  ["Always Late", "Bob+Denton+Always+Late+1957"],
+  ["Love Me, So I’ll Know", "Bob+Denton+Love+Me+So+I%27ll+Know"],
+  ["I’m Sending You This Record", "Bob+Denton+I%27m+Sending+You+This+Record"],
+  ["Thinkin’ About You", "Bob+Denton+Eddie+Cochran+Thinkin%27+About+You"],
+  ["Sick & Tired", "Bob+Denton+Eddie+Cochran+Sick+and+Tired"],
+];
+---
+
+<article class="bd" id="top">
+  <header class="bd-hero">
+    <Image class="bd-hero__photo" src={hero} alt="Natural 1957 Gibson J-200 attributed to singer and guitarist Bob Denton" width={1600} priority />
+    <div class="bd-hero__shade"></div>
+    <div class="bd-hero__copy">
+      <p class="bd-script">Every Guitar Has A Story</p>
+      <p class="bd-eyebrow">Bob Denton and Eddie Cochran</p>
+      <h1>A 1957 Gibson J-200 With A Rockabilly Story</h1>
+      <p class="bd-dek">This J-200 is attributed to Bob Denton, the singer and guitarist who helped a teenage Eddie Cochran get his first professional start.</p>
+    </div>
+  </header>
+
+  <section class="bd-intro">
+    <aside class="bd-facts">
+      <p>The Guitar</p>
+      <dl>{details.map(([term, value]) => <div><dt>{term}</dt><dd>{value}</dd></div>)}</dl>
+    </aside>
+    <div class="bd-story">
+      <p class="bd-lead">This 1957 Gibson J-200 came to me with a name attached to it: Bob Denton.</p>
+      <p>Denton sang and played guitar in the country and rockabilly scene around Phoenix and Southern California. He was also one of Eddie Cochran's early friends. The important part of their story is not a vague “associated with” claim. Denton helped Eddie get started, and Eddie later played guitar on Denton's records.</p>
+      <blockquote>The guitar dates to the same year Denton and Cochran recorded together for Dot.</blockquote>
+      <p>I have not seen a dated stage photo or session sheet that puts this exact J-200 on a named recording. I am not going to turn the family or ownership history into more than the evidence can carry. The guitar is attributed to Denton. The recording connection between Denton and Cochran is documented.</p>
+      <p>If you are working on a Gibson from this period, my <a href="/how-to-read-gibson-serial-numbers/">guide to dating Gibson guitars by serial number and Factory Order Number</a> explains where to look and why the number is only the starting point.</p>
+    </div>
+  </section>
+
+  <figure class="bd-feature">
+    <Image src={hero} alt="Front of the natural 1957 Gibson J-200 in its pink-lined case beside Bob Denton artwork" width={1200} />
+    <figcaption>The natural-finish 1957 J-200, shown with Bob Denton artwork. The Denton ownership is attributed provenance.</figcaption>
+  </figure>
+
+  <section class="bd-guitar-grid" aria-label="Details of the 1957 Gibson J-200">
+    <figure class="bd-wide"><Image src={guitarBack} alt="Figured maple back of the 1957 Gibson J-200" width={1280} /><figcaption>The figured maple back, with wear and finish checking visible in the supplied photograph.</figcaption></figure>
+    <figure><Image src={headstock} alt="Bound Gibson J-200 headstock with crown inlay and gold-colored tuners" width={900} /><figcaption>The bound headstock, pearl crown, and gold-colored tuners.</figcaption></figure>
+    <figure><Image src={label} alt="Orange Gibson label inside the 1957 J-200" width={900} /><figcaption>The orange Gibson label inside the body.</figcaption></figure>
+    <figure class="bd-wide"><Image src={neckHeel} alt="Rear neck joint and heel of the 1957 Gibson J-200" width={1280} /><figcaption>The rear of the neck joint and heel, photographed in the pink-lined case.</figcaption></figure>
+  </section>
+
+  <section class="bd-chapter">
+    <p class="bd-eyebrow">The Connection</p>
+    <h2>Bob Denton Helped Eddie Cochran Get Started</h2>
+    <p>Denton was leading the Shamrock Valley Boys when a teenage Eddie Cochran approached the band and asked to play. Denton introduced him to Hank Cochran, a country singer and songwriter. Eddie and Hank were not related, but the shared last name gave them an act: the Cochran Brothers.</p>
+    <p>Denton and Eddie became close friends. They also shared manager Jerry Capehart. When Denton landed a deal with Dot Records in 1957, Eddie played guitar on the first session at Gold Star Studios. “On My Mind Again” and “Always Late” came out together as Dot 15573.</p>
+    <p>Eddie helped again on “Love Me, So I'll Know” and “I'm Sending You This Record.” Denton and Cochran later sang together on “Thinkin' About You,” and an informal “Sick & Tired” catches the two of them sounding like what they were: friends making a record.</p>
+  </section>
+
+  <section class="bd-archive">
+    <div class="bd-archive__heading">
+      <p class="bd-eyebrow">From the Archive</p>
+      <h2>Bob Denton in Photographs and on Record</h2>
+      <p>These scans came with the guitar photographs. They show Denton performing, a portrait, Denton playing alongside Eddie Cochran, the Dot pressing of “Playboy,” and later “Playboy” collection artwork.</p>
+    </div>
+    <div class="bd-archive__grid">
+      <figure><Image src={performing} alt="Bob Denton singing and playing guitar at a microphone" width={500} /><figcaption>Bob Denton singing and playing guitar at a microphone.</figcaption></figure>
+      <figure><Image src={portrait} alt="Young Bob Denton in a color portrait" width={500} /><figcaption>A young Bob Denton.</figcaption></figure>
+      <figure class="bd-wide"><Image src={band} alt="Bob Denton at far right playing alongside Eddie Cochran at far left" width={900} /><figcaption>Bob Denton, far right, playing alongside Eddie Cochran, far left.</figcaption></figure>
+      <figure><Image src={record} alt="Dot Records label for Bob Denton's single Playboy, catalog number 45-15833" width={500} /><figcaption>Bob Denton's “Playboy” on Dot, 45-15833.</figcaption></figure>
+      <figure><Image src={cover} alt="Bob Denton Playboy collection cover artwork" width={500} /><figcaption>“Playboy” collection artwork featuring Bob Denton with an acoustic guitar.</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="bd-listen">
+    <div>
+      <p class="bd-eyebrow">Listen</p>
+      <h2>Hear the Records</h2>
+      <p>These links open YouTube searches for the original Bob Denton sides and the recordings he made with Eddie Cochran.</p>
+    </div>
+    <ol>{tracks.map(([title, query], index) => <li><span>{String(index + 1).padStart(2, "0")}</span><a href={`https://www.youtube.com/results?search_query=${query}`}>{title}<b aria-hidden="true">↗</b></a></li>)}</ol>
+  </section>
+
+  <section class="bd-closing">
+    <p class="bd-eyebrow">What I See</p>
+    <h2>A Flagship Gibson With a Life Behind It</h2>
+    <p>The top has aged into a warm amber. The floral pickguard, graduated crown inlays, gold-colored tuners, moustache bridge, and wide super-jumbo body are all visible in the photographs. The maple back shows strong figure. There is finish checking and honest playwear across the guitar.</p>
+    <p>Those are observations from photographs. They are not a hands-on originality report. I would want the guitar on the bench before making claims about finish, repairs, replaced parts, or structural condition. That is why I use a <a href="/post/what-a-serial-number-cant-tell-you/">complete vintage-guitar inspection beyond the serial number</a> before making an originality call.</p>
+    <p>The part I can say with confidence is that the story fits the year. This J-200 was built in 1957, during <a href="/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/">Gibson's highly collectible postwar period</a>. That is the same year Eddie Cochran played on Denton's first Dot session. The guitar does not need a made-up studio story. Bob Denton's real place in Eddie's early career is interesting enough.</p>
+  </section>
+
+  <section class="bd-cta">
+    <p class="bd-script">Every Guitar Has A Story</p>
+    <h2>Have a Vintage Gibson With a Story?</h2>
+    <p>I would be glad to take a look and give you a straightforward assessment.</p>
+    <a href="/free-appraisal/">Free Appraisal</a>
+  </section>
+</article>
+
+<style>
+  .bd{--bd-paper:#f5efe3;--bd-cream:#eedfc0;--bd-rust:#a03a1e;--bd-rust-bright:#be4b25;--bd-rust-dark:#682412;--bd-brown:#3e2a14;--bd-tan:#d2b48c;--bd-gold:#c8983a;--bd-charcoal:#2a2d33;color:var(--bd-charcoal);background:#fff;overflow:hidden}.bd *{box-sizing:border-box}.bd-hero{min-height:860px;height:100vh;position:relative;background:#171717;color:#fff;overflow:hidden}.bd-hero__photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.bd-hero__shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,12,12,.88) 0%,rgba(12,12,12,.58) 43%,rgba(12,12,12,.12) 73%),linear-gradient(0deg,rgba(0,0,0,.6),transparent 50%)}.bd-hero__copy{position:absolute;z-index:2;left:max(5vw,42px);bottom:8vh;width:min(790px,66vw)}.bd-script{margin:0 0 8px;color:var(--bd-cream);font-family:var(--font-script,Georgia),serif;font-size:clamp(28px,4vw,56px);line-height:1}.bd-eyebrow{margin:0 0 14px;color:var(--bd-gold);font:600 14px/1.3 var(--font-display,Oswald),sans-serif;letter-spacing:.16em;text-transform:uppercase}.bd h1,.bd h2{font-family:var(--font-display,Oswald),sans-serif;font-weight:600;text-transform:uppercase}.bd h1{max-width:850px;margin:0;font-size:clamp(50px,6.5vw,96px);line-height:.94;letter-spacing:-.02em}.bd-dek{max-width:700px;margin:24px 0 15px;font-size:clamp(18px,2vw,24px);line-height:1.45}.bd-intro{width:min(1100px,calc(100% - 44px));margin:auto;display:grid;grid-template-columns:255px minmax(0,690px);gap:clamp(50px,8vw,120px);padding:100px 0;justify-content:center}.bd-facts{border-top:5px solid var(--bd-rust);border-bottom:1px solid var(--bd-tan);padding:18px 0 8px;align-self:start}.bd-facts>p{margin:0 0 14px;color:var(--bd-rust-dark);font:600 17px/1 var(--font-display,Oswald),sans-serif;text-transform:uppercase;letter-spacing:.08em}.bd-facts dl{margin:0}.bd-facts dl div{display:flex;justify-content:space-between;gap:15px;padding:11px 0;border-top:1px solid #dbcbb2}.bd-facts dt{font:600 11px/1.3 var(--font-display,Oswald),sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#786b5b}.bd-facts dd{margin:0;text-align:right;font-size:14px}.bd-story{max-width:720px}.bd-story p,.bd-chapter p,.bd-closing p{font-size:19px;line-height:1.72;margin:0 0 1.35em}.bd-lead{font-size:24px!important;line-height:1.55!important;color:var(--bd-brown)}.bd-lead:first-letter{float:left;margin:9px 10px 0 0;color:var(--bd-rust);font:600 77px/.68 var(--font-display,Oswald),sans-serif}.bd blockquote{margin:50px -5vw;padding:34px 5vw;border-block:1px solid var(--bd-gold);color:var(--bd-rust-dark);font:600 clamp(27px,3vw,41px)/1.22 var(--font-display,Oswald),sans-serif;text-transform:uppercase}.bd a{color:var(--bd-rust-dark);font-weight:700;text-decoration-color:var(--bd-gold);text-decoration-thickness:2px;text-underline-offset:3px}.bd figure{margin:0}.bd-feature,.bd-guitar-grid figure,.bd-archive figure{background:var(--bd-charcoal)}.bd-feature :global(img){width:100%;max-height:78vh;object-fit:contain}.bd figcaption{padding:12px 18px;background:var(--bd-charcoal);color:#eee;font-size:13px;text-align:center}.bd-guitar-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--bd-charcoal)}.bd-guitar-grid figure{display:flex;flex-direction:column}.bd-guitar-grid figure :global(img){width:100%;height:540px;object-fit:cover}.bd-guitar-grid .bd-wide{grid-column:1/-1}.bd-guitar-grid .bd-wide :global(img){height:min(72vh,760px);object-fit:contain}.bd-chapter,.bd-closing{width:min(760px,calc(100% - 44px));margin:auto;padding:95px 0}.bd h2{margin:0 0 28px;color:var(--bd-brown);font-size:clamp(38px,5vw,68px);line-height:1;letter-spacing:-.015em}.bd-archive{padding:90px max(5vw,22px);background:var(--bd-charcoal);color:#fff}.bd-archive__heading{width:min(820px,100%);margin:0 auto 45px}.bd-archive h2{color:#fff}.bd-archive__heading>p:last-child{font-size:18px;line-height:1.65}.bd-archive__grid{width:min(940px,100%);margin:auto;display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.bd-archive__grid figure{display:flex;flex-direction:column}.bd-archive__grid figure :global(img){width:100%;height:390px;object-fit:contain;background:#151515}.bd-archive__grid .bd-wide{grid-column:1/-1}.bd-archive__grid .bd-wide :global(img){height:500px}.bd-listen{display:grid;grid-template-columns:.75fr 1.25fr;gap:70px;padding:90px max(5vw,22px);background:var(--bd-paper);border-block:1px solid var(--bd-tan)}.bd-listen>div{justify-self:end;max-width:380px}.bd-listen p{font-size:18px;line-height:1.6}.bd-listen ol{width:min(620px,100%);margin:0;padding:0;list-style:none}.bd-listen li{display:grid;grid-template-columns:42px 1fr;align-items:center;border-bottom:1px solid #d8c7aa}.bd-listen li span{font:600 11px var(--font-display,Oswald),sans-serif;color:var(--bd-rust)}.bd-listen li a{display:flex;justify-content:space-between;padding:17px 0;text-decoration:none;font:600 21px var(--font-display,Oswald),sans-serif;text-transform:uppercase}.bd-listen li a:hover{color:var(--bd-rust-bright)}.bd-cta{text-align:center;padding:80px 22px;background:var(--bd-rust-dark);color:#fff}.bd-cta .bd-script{font-size:42px}.bd-cta h2{color:#fff;font-size:clamp(38px,5vw,60px);margin-bottom:16px}.bd-cta>p:not(.bd-script){font-size:18px}.bd-cta>a{display:inline-block;margin-top:18px;padding:13px 28px;background:var(--bd-cream);color:var(--bd-rust-dark);font:600 16px/1 var(--font-display,Oswald),sans-serif;text-decoration:none;text-transform:uppercase}
+  @media(max-width:900px){.bd-hero__copy{width:min(760px,85vw)}.bd-intro{grid-template-columns:1fr;padding:75px 0;gap:45px}.bd-listen{grid-template-columns:1fr;gap:25px;padding-block:70px}.bd-listen>div{justify-self:start}}
+  @media(max-width:760px){.bd-hero{height:auto;min-height:880px}.bd-hero__photo{object-position:center}.bd-hero__shade{background:linear-gradient(0deg,rgba(10,10,10,.95) 0%,rgba(10,10,10,.66) 56%,rgba(10,10,10,.1) 85%)}.bd-hero__copy{left:22px;bottom:45px;width:calc(100% - 44px)}.bd h1{font-size:clamp(44px,13vw,70px)}.bd-dek{font-size:18px}.bd blockquote{margin:45px 0;padding:30px 0}.bd-chapter,.bd-closing{padding:75px 0}.bd-guitar-grid,.bd-archive__grid{grid-template-columns:1fr}.bd-guitar-grid .bd-wide,.bd-archive__grid .bd-wide{grid-column:auto}.bd-guitar-grid figure :global(img),.bd-guitar-grid .bd-wide :global(img),.bd-archive__grid figure :global(img),.bd-archive__grid .bd-wide :global(img){height:auto;max-height:72vh}}
+</style>
