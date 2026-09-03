@@ -1,0 +1,69 @@
+---
+import { Image } from "astro:assets";
+import hero from "../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-scaled.jpg";
+import finish from "../assets/blog/1959-gibson-es-335-authentication-guide/gibson-nitrocellulose-lacquer-1959-sunburst-1024x683.jpg";
+import neck from "../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-neck-shape-1024x683.jpg";
+import daughter from "../assets/blog/sylvias-1959-gibson-es-335/sylvias-daughter-airport.jpeg";
+import receipt from "../assets/blog/sylvias-1959-gibson-es-335/original-1959-receipt.jpeg";
+import sylviaYoung from "../assets/blog/sylvias-1959-gibson-es-335/sylvia-young.jpeg";
+import sylviaLater from "../assets/blog/sylvias-1959-gibson-es-335/sylvia-later.jpeg";
+---
+
+<article class="bd" id="top">
+  <header class="bd-hero">
+    <Image class="bd-hero__photo" src={hero} alt="Sylvia’s sunburst 1959 Gibson ES-335 in its pink-lined case" width={1600} priority />
+    <div class="bd-hero__shade"></div>
+    <div class="bd-hero__copy">
+      <p class="bd-script">Every Guitar Has A Story</p>
+      <p class="bd-eyebrow">Sylvia and Her 1959 Gibson</p>
+      <h1>One Owner From New: Sylvia’s 1959 Gibson ES-335</h1>
+      <p class="bd-dek">I bought this guitar from Sylvia’s daughter. It came with the 1959 receipt, its original case, family photographs and a handwritten note about the woman who played it.</p>
+    </div>
+  </header>
+
+  <section class="bd-intro">
+    <aside class="bd-facts"><p>The Guitar</p><dl><div><dt>Model</dt><dd>Gibson ES-335T</dd></div><div><dt>Year</dt><dd>1959</dd></div><div><dt>Finish</dt><dd>Sunburst</dd></div><div><dt>Provenance</dt><dd>Original owner: Sylvia</dd></div></dl></aside>
+    <div class="bd-story">
+      <p class="bd-lead">We get a lot of guitars through the shop. Every now and then, one arrives with the part of its history that usually gets lost. This 1959 Gibson ES-335 is one of those guitars.</p>
+      <blockquote>I bought it from Sylvia’s daughter with the original receipt, family photographs and a note about Sylvia’s life with music.</blockquote>
+      <p>The documents do not tell us everything that happened during the guitar’s long life. They do give us a direct connection to its original owner, the store where it was sold and the family that kept its story.</p>
+    </div>
+  </section>
+
+  <section class="bd-guitar-grid" aria-label="Details of Sylvia’s 1959 Gibson ES-335">
+    <figure class="bd-wide"><Image src={finish} alt="Original sunburst finish on Sylvia’s 1959 Gibson ES-335" width={1280} /><figcaption>The original sunburst finish.</figcaption></figure>
+    <figure><Image src={hero} alt="Sylvia’s 1959 Gibson ES-335 in its pink-lined case" width={900} /><figcaption>The 1959 ES-335 in its pink-lined case.</figcaption></figure>
+    <figure><Image src={neck} alt="Back of the neck on Sylvia’s 1959 Gibson ES-335" width={900} /><figcaption>The back of the neck and its original finish.</figcaption></figure>
+  </section>
+
+  <section class="bd-chapter">
+    <p class="bd-eyebrow">The Original Owner</p><h2>Sylvia’s Guitar</h2>
+    <p>The receipt tells us when and where the guitar was sold. A family note signed by Dawn tells us about the woman who owned it.</p>
+    <p>Sylvia was a seamstress who loved music. Dawn remembers that she sang, played guitar and taught guitar for extra money. She also sang in nightclubs. When the family visited, Sylvia made sure they sang together. Sometimes she played this ES-335 while they sang.</p>
+    <p>Those memories are the important part of the story. This was not just a valuable guitar kept in a case. It was Sylvia’s instrument, and music was part of the life she shared with her family.</p>
+  </section>
+
+  <section class="bd-archive">
+    <div class="bd-archive__heading"><p class="bd-eyebrow">From the Family Archive</p><h2>The Photographs and Receipt That Came With It</h2><p>These records stayed with the guitar. There is a photograph of Sylvia’s daughter holding it at the airport, two photographs of Sylvia and the original 1959 sales receipt.</p></div>
+    <div class="bd-archive__grid">
+      <figure><Image src={daughter} alt="Sylvia’s daughter holding the 1959 Gibson ES-335 at the airport" width={700} /><figcaption>Sylvia’s daughter with the 1959 ES-335 and its open pink-lined case.</figcaption></figure>
+      <figure><Image src={receipt} alt="Original August 18, 1959 Hall’s Music Store receipt for Sylvia’s Gibson ES-335" width={700} /><figcaption>The original Hall’s Music Store receipt, dated August 18, 1959.</figcaption></figure>
+      <figure><Image src={sylviaYoung} alt="Early portrait of Sylvia, original owner of the 1959 Gibson ES-335" width={700} /><figcaption>An early portrait of Sylvia.</figcaption></figure>
+      <figure><Image src={sylviaLater} alt="Later family photograph of Sylvia" width={700} /><figcaption>Sylvia in a later family photograph.</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="bd-closing">
+    <p class="bd-eyebrow">What the Paperwork Tells Us</p><h2>Bought New on August 18, 1959</h2>
+    <p>The receipt is from Hall’s Music Store at 169 North Main Street in Fall River, Massachusetts. It is dated August 18, 1959 and lists a Gibson ES-335T, <a href="/how-to-read-gibson-serial-numbers/">serial number <strong>A-30305</strong></a>, along with a case.</p>
+    <p>That is the part of the history the paperwork can prove. The receipt connects the guitar to a dealer, a date and the case sold with it. The photographs and family note carry the story forward from there.</p>
+    <p>This guitar also appears in my <a href="/post/1959-gibson-es-335-authentication-guide/">1959 Gibson ES-335 Authentication Guide</a>. That guide is about how a 1959 ES-335 was made. This page is about Sylvia and the life attached to this one.</p>
+    <p>You can find more guitars with documented family histories in the <a href="/category/museum-original-owners/">JVG Museum and Original Owners archive</a>.</p>
+  </section>
+
+  <section class="bd-cta"><p class="bd-script">Every Guitar Has A Story</p><h2>Have a Vintage Gibson With a Story?</h2><p>See <a href="/sell-my-gibson-guitar/">how I buy vintage Gibson guitars</a>, or send me the details for a straightforward assessment.</p><a href="/free-appraisal/">Free Appraisal</a></section>
+</article>
+
+<style>
+  .bd{--paper:#f5efe3;--cream:#eedfc0;--rust:#a03a1e;--rust-dark:#682412;--brown:#3e2a14;--tan:#d2b48c;--gold:#c8983a;--charcoal:#2a2d33;color:var(--charcoal);background:#fff;overflow:hidden}.bd *{box-sizing:border-box}.bd-hero{min-height:860px;height:100vh;position:relative;background:#171717;color:#fff;overflow:hidden}.bd-hero__photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.bd-hero__shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,12,12,.88),rgba(12,12,12,.58) 43%,rgba(12,12,12,.12) 73%),linear-gradient(0deg,rgba(0,0,0,.6),transparent 50%)}.bd-hero__copy{position:absolute;z-index:2;left:max(5vw,42px);bottom:8vh;width:min(830px,70vw)}.bd-script{margin:0 0 8px;color:var(--cream);font-family:var(--font-script,Georgia),serif;font-size:clamp(28px,4vw,56px);line-height:1}.bd-eyebrow{margin:0 0 14px;color:var(--gold);font:600 14px/1.3 var(--font-display,Oswald),sans-serif;letter-spacing:.16em;text-transform:uppercase}.bd h1,.bd h2{font-family:var(--font-display,Oswald),sans-serif;font-weight:600;text-transform:uppercase}.bd h1{margin:0;font-size:clamp(48px,6vw,90px);line-height:.94;letter-spacing:-.02em}.bd-dek{max-width:720px;margin:24px 0 15px;font-size:clamp(18px,2vw,24px);line-height:1.45}.bd-intro{width:min(1100px,calc(100% - 44px));margin:auto;display:grid;grid-template-columns:255px minmax(0,690px);gap:clamp(50px,8vw,120px);padding:100px 0;justify-content:center}.bd-facts{border-top:5px solid var(--rust);border-bottom:1px solid var(--tan);padding:18px 0 8px;align-self:start}.bd-facts>p{margin:0 0 14px;color:var(--rust-dark);font:600 17px/1 var(--font-display,Oswald),sans-serif;text-transform:uppercase;letter-spacing:.08em}.bd-facts dl{margin:0}.bd-facts dl div{display:flex;justify-content:space-between;gap:15px;padding:11px 0;border-top:1px solid #dbcbb2}.bd-facts dt{font:600 11px/1.3 var(--font-display,Oswald),sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#786b5b}.bd-facts dd{margin:0;text-align:right;font-size:14px}.bd-story p,.bd-chapter p,.bd-closing p{font-size:19px;line-height:1.72;margin:0 0 1.35em}.bd-lead{font-size:24px!important;line-height:1.55!important;color:var(--brown)}.bd-lead:first-letter{float:left;margin:9px 10px 0 0;color:var(--rust);font:600 77px/.68 var(--font-display,Oswald),sans-serif}.bd blockquote{margin:50px -5vw;padding:34px 5vw;border-block:1px solid var(--gold);color:var(--rust-dark);font:600 clamp(25px,3vw,39px)/1.22 var(--font-display,Oswald),sans-serif;text-transform:uppercase}.bd a{color:var(--rust-dark);font-weight:700;text-decoration-color:var(--gold);text-decoration-thickness:2px;text-underline-offset:3px}.bd figure{margin:0}.bd-guitar-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--charcoal)}.bd-guitar-grid figure{display:flex;flex-direction:column;background:var(--charcoal)}.bd-guitar-grid figure :global(img){width:100%;height:540px;object-fit:cover}.bd-guitar-grid .bd-wide{grid-column:1/-1}.bd-guitar-grid .bd-wide :global(img){height:min(72vh,760px);object-fit:contain}.bd figcaption{padding:12px 18px;background:var(--charcoal);color:#eee;font-size:13px;text-align:center}.bd-chapter,.bd-closing{width:min(760px,calc(100% - 44px));margin:auto;padding:95px 0}.bd h2{margin:0 0 28px;color:var(--brown);font-size:clamp(38px,5vw,68px);line-height:1;letter-spacing:-.015em}.bd-archive{padding:90px max(5vw,22px);background:var(--charcoal);color:#fff}.bd-archive__heading{width:min(820px,100%);margin:0 auto 45px}.bd-archive h2{color:#fff}.bd-archive__heading>p:last-child{font-size:18px;line-height:1.65}.bd-archive__grid{width:min(940px,100%);margin:auto;display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.bd-archive__grid figure{display:flex;flex-direction:column;background:var(--charcoal)}.bd-archive__grid figure :global(img){width:100%;height:500px;object-fit:contain;background:#151515}.bd-cta{text-align:center;padding:80px 22px;background:var(--rust-dark);color:#fff}.bd-cta .bd-script{font-size:42px}.bd-cta h2{color:#fff;font-size:clamp(38px,5vw,60px);margin-bottom:16px}.bd-cta>p:not(.bd-script){font-size:18px}.bd-cta>p a{color:#fff}.bd-cta>a{display:inline-block;margin-top:18px;padding:13px 28px;background:var(--cream);color:var(--rust-dark);font:600 16px/1 var(--font-display,Oswald),sans-serif;text-decoration:none;text-transform:uppercase}@media(max-width:900px){.bd-hero__copy{width:min(760px,85vw)}.bd-intro{grid-template-columns:1fr;padding:75px 0;gap:45px}}@media(max-width:760px){.bd-hero{height:auto;min-height:820px}.bd-hero__shade{background:linear-gradient(0deg,rgba(10,10,10,.95),rgba(10,10,10,.66) 56%,rgba(10,10,10,.1) 85%)}.bd-hero__copy{left:22px;bottom:45px;width:calc(100% - 44px)}.bd h1{font-size:clamp(42px,12vw,66px)}.bd-dek{font-size:18px}.bd blockquote{margin:45px 0;padding:30px 0}.bd-chapter,.bd-closing{padding:75px 0}.bd-guitar-grid,.bd-archive__grid{grid-template-columns:1fr}.bd-guitar-grid .bd-wide{grid-column:auto}.bd-guitar-grid figure :global(img),.bd-guitar-grid .bd-wide :global(img),.bd-archive__grid figure :global(img){height:auto;max-height:72vh}}
+</style>
