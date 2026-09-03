@@ -1,0 +1,79 @@
+---
+import { Image } from "astro:assets";
+import ownerPhoto from "../assets/blog/one-family-1959-gibson-es-355/1959-gibson-es-355-original-owners-son.jpg";
+import detail2 from "../assets/blog/one-family-1959-gibson-es-355/1959-gibson-es-355-detail-2.jpg";
+import detail3 from "../assets/blog/one-family-1959-gibson-es-355/1959-gibson-es-355-detail-3.jpg";
+import detail4 from "../assets/blog/one-family-1959-gibson-es-355/1959-gibson-es-355-detail-4.jpg";
+import detail5 from "../assets/blog/one-family-1959-gibson-es-355/1959-gibson-es-355-detail-5.jpg";
+import detail6 from "../assets/blog/one-family-1959-gibson-es-355/1959-gibson-es-355-detail-6.jpg";
+import detail7 from "../assets/blog/one-family-1959-gibson-es-355/1959-gibson-es-355-detail-7.jpg";
+import detail8 from "../assets/blog/one-family-1959-gibson-es-355/1959-gibson-es-355-detail-8.jpg";
+
+const details = [detail2, detail3, detail4, detail5, detail6, detail7, detail8];
+---
+
+<article class="es-story" id="top">
+  <header class="es-hero">
+    <div class="es-hero__copy">
+      <p class="es-kicker">JVG Museum · Original Owners Blog · 1959 Gibson ES-355</p>
+      <h1>One Guitar.<br /><em>One Family.</em><br />Sixty-Seven Years.</h1>
+      <p class="es-dek">A 1959 Gibson ES-355, played for decades and passed from father to son.</p>
+      <a class="es-read" href="#story">Read the Story</a>
+    </div>
+    <figure class="es-hero__figure">
+      <Image src={ownerPhoto} alt="The original owner's son holding the family's 1959 Gibson ES-355" width={1400} priority />
+      <figcaption><strong>The Handoff</strong><span>The original owner's son with the guitar his family kept and played since 1959.</span></figcaption>
+    </figure>
+    <div class="es-year" aria-hidden="true">1959</div>
+  </header>
+
+  <section class="es-facts" aria-label="Guitar facts">
+    <div><span>Model</span><strong>ES-355</strong></div>
+    <div><span>Year</span><strong>1959</strong></div>
+    <div><span>Finish</span><strong>Cherry</strong></div>
+    <div><span>Provenance</span><strong>One Family</strong></div>
+    <div><span>Wiring</span><strong>Mono Converted</strong></div>
+  </section>
+
+  <section class="es-story-copy" id="story">
+    <aside><span>The Story</span><p>Words and photographs<br />from the JVG archive</p></aside>
+    <div class="es-prose">
+      <p class="es-lead">We get a lot of guitars through the shop. Every now and then, one arrives with its whole life still attached to it. This <a href="/post/1959-gibson-es-355-history-value/">1959 Gibson ES-355</a> is one of those guitars.</p>
+      <p>I bought it from the son of the original owner. His father purchased it new and gave it to him when he was a teenager. He did what a good guitar owner is supposed to do. He played it regularly and kept it in the family.</p>
+      <p>The checking, wear and softened gold plating tell the same story. None of it was added later to make the guitar look old. These are the marks left by one family playing the same instrument for decades.</p>
+      <blockquote>“He got it from his father as a teenager and played it regularly ever since.”</blockquote>
+      <p>The factory stereo wiring was converted to mono at some point, a practical change that made the guitar easier to use with a standard amplifier. The <a href="/post/1959-gibson-es-355-history-value/#es355-mono-stereo">guide to mono and stereo ES-355 wiring</a> explains the two factory setups. Other than that conversion, this guitar has stayed original. The finish, hardware and character are still here.</p>
+      <p>That direct ownership history is what makes this one special. A father bought it new. His son grew up playing it. Now the guitar has come to us with the story intact, and we will keep that story with it.</p>
+    </div>
+  </section>
+
+  <section class="es-gallery" aria-labelledby="es-gallery-title">
+    <div class="es-gallery__head">
+      <div><span>Look Closer</span><h2 id="es-gallery-title">Evidence of a<br /><em>Life in Music.</em></h2></div>
+      <p>Original finish. Original hardware. Original character.<br />The mono conversion is the only known change.</p>
+    </div>
+    <div class="es-mosaic">
+      {details.map((src, index) => (
+        <figure>
+          <Image src={src} alt={`Detail view ${index + 1} of the 1959 Gibson ES-355`} width={1200} />
+          <span>{String(index + 1).padStart(2, "0")}</span>
+        </figure>
+      ))}
+    </div>
+  </section>
+
+  <section class="es-notes">
+    <p class="es-kicker">Collector's Notes</p>
+    <h2>Why This One Matters.</h2>
+    <div class="es-note-grid">
+      <div><strong>01</strong><h3>Golden-Year Gibson</h3><p>The ES-355 was Gibson's top semi-hollow electric in 1959, one of the most closely watched years in the company's history.</p></div>
+      <div><strong>02</strong><h3>One-Family History</h3><p>The guitar came directly from the original owner's son. That clear line of ownership is rare and worth preserving.</p></div>
+      <div><strong>03</strong><h3>Original Where It Counts</h3><p>The stereo wiring was changed to mono. The rest of the guitar has stayed original, including its finish and hardware.</p></div>
+    </div>
+    <a class="es-archive" href="/category/museum-original-owners/">Explore the JVG Museum and Original Owners Archive</a>
+  </section>
+</article>
+
+<style>
+  .es-story{--es-ink:#191714;--es-cream:#eee8db;--es-paper:#f7f3ea;--es-red:#682412;color:var(--es-ink);background:var(--es-paper);overflow:hidden}.es-story *{box-sizing:border-box}.es-hero{min-height:760px;display:grid;grid-template-columns:46% 54%;position:relative;background:var(--es-cream);overflow:hidden}.es-hero__copy{padding:clamp(80px,10vw,150px) 4vw 7vw;position:relative;z-index:2;align-self:center}.es-kicker,.es-gallery__head span,.es-story-copy aside>span{font:700 10px/1.4 var(--font-display,Oswald),sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--es-red)}.es-hero h1,.es-gallery h2,.es-notes h2,.es-note-grid h3{font-family:var(--font-display,Oswald),sans-serif;text-transform:uppercase;font-style:normal;font-weight:600;letter-spacing:-.025em}.es-hero h1{font-size:clamp(58px,7vw,108px);line-height:.86;margin:28px 0}.es-hero h1 em,.es-gallery h2 em{color:var(--es-red);font-style:normal}.es-dek{font-size:clamp(18px,1.7vw,24px);line-height:1.5;max-width:520px;margin:38px 0;color:#4c463d}.es-read{display:inline-block;background:var(--es-red);color:#fff;text-decoration:none;padding:14px 21px;font:700 11px var(--font-display,Oswald),sans-serif;text-transform:uppercase;letter-spacing:.12em}.es-hero__figure{margin:0;align-self:center;position:relative;background:#29231c}.es-hero__figure :global(img){display:block;width:100%;height:auto}.es-hero__figure figcaption{position:absolute;right:24px;bottom:24px;width:min(250px,calc(100% - 48px));padding:15px;background:rgba(247,243,234,.94);font-size:11px;line-height:1.45}.es-hero__figure figcaption strong{display:block;color:var(--es-red);text-transform:uppercase;letter-spacing:.16em;margin-bottom:5px}.es-year{position:absolute;bottom:-35px;left:2.7vw;color:rgba(104,36,18,.08);font:700 clamp(120px,15vw,200px)/1 var(--font-display,Oswald),sans-serif;pointer-events:none}.es-facts{display:grid;grid-template-columns:repeat(5,1fr);padding:0 4vw;background:#3e2a14;color:#fff}.es-facts div{padding:28px 20px;border-right:1px solid rgba(255,255,255,.14)}.es-facts span{display:block;color:#b9aa95;font:700 9px var(--font-display,Oswald),sans-serif;text-transform:uppercase;letter-spacing:.18em;margin-bottom:8px}.es-facts strong{font-size:17px}.es-story-copy{display:grid;grid-template-columns:25% 75%;max-width:1200px;margin:0 auto;padding:120px 4vw}.es-story-copy aside{border-right:1px solid #c8c0b1;padding-top:12px}.es-story-copy aside p{font:italic 13px/1.6 Georgia,serif;color:#756e63;margin-top:22px}.es-prose{max-width:720px;padding-left:8vw}.es-prose p{font-size:18px;line-height:1.8;color:#403b34}.es-prose a{color:var(--es-red);font-weight:700;text-decoration-color:#b77a52;text-underline-offset:4px}.es-lead{font-size:32px!important;line-height:1.35!important;color:var(--es-ink)!important;margin-top:0}.es-lead:first-letter{float:left;font:600 94px/.7 var(--font-display,Oswald),sans-serif;color:var(--es-red);padding:15px 12px 0 0}.es-prose blockquote{font-size:clamp(27px,3vw,36px);font-style:italic;line-height:1.28;color:var(--es-red);border-top:1px solid;border-bottom:1px solid;margin:55px 0;padding:35px 0}.es-gallery{background:#2a2d33;color:#f7f3ea;padding:110px 4vw}.es-gallery__head{display:flex;justify-content:space-between;align-items:end;margin-bottom:60px}.es-gallery h2,.es-notes h2{font-size:clamp(46px,6vw,82px);line-height:.98;margin:16px 0 0}.es-gallery__head span{color:#c79b52}.es-gallery__head p{font:14px/1.6 Georgia,serif;color:#aaa296}.es-mosaic{column-count:3;column-gap:12px}.es-mosaic figure{display:inline-block;width:100%;margin:0 0 12px;position:relative;break-inside:avoid;background:#423b32}.es-mosaic :global(img){display:block;width:100%;height:auto}.es-mosaic figure span{position:absolute;right:10px;bottom:8px;background:var(--es-red);padding:5px 7px;font-size:9px;color:#fff}.es-notes{padding:120px 4vw;background:#d2b48c}.es-note-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:5vw;margin-top:70px;border-top:1px solid #a99578;padding-top:40px}.es-note-grid>div>strong{color:var(--es-red)}.es-note-grid h3{font-size:26px;margin:22px 0 12px}.es-note-grid p{color:#51493f;line-height:1.7;font-size:14px}.es-archive{display:inline-block;margin-top:54px;color:#fff;background:var(--es-red);padding:15px 20px;text-decoration:none;font:700 11px var(--font-display,Oswald),sans-serif;text-transform:uppercase;letter-spacing:.1em}@media(max-width:800px){.es-hero{display:block;min-height:0}.es-hero__copy{padding:70px 6vw}.es-hero h1{font-size:62px}.es-hero__figure figcaption{position:static;width:100%}.es-year{display:none}.es-facts{grid-template-columns:repeat(2,1fr)}.es-story-copy{display:block;padding:80px 6vw}.es-story-copy aside{border:0;border-bottom:1px solid #c8c0b1;padding-bottom:25px;margin-bottom:40px}.es-prose{padding:0}.es-lead{font-size:28px!important}.es-gallery{padding:80px 5vw}.es-gallery__head{display:block}.es-gallery__head p{margin-top:28px}.es-mosaic{column-count:2}.es-note-grid{grid-template-columns:1fr}.es-notes{padding:80px 6vw}}@media(max-width:520px){.es-mosaic{column-count:1}.es-facts{grid-template-columns:1fr 1fr}}
+</style>
