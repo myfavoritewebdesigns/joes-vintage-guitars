@@ -102,11 +102,15 @@ const imageSchema = heroAbs
           ? { width: ogDims.width, height: ogDims.height }
           : {}),
       ...(data.heroImageAlt ? { caption: data.heroImageAlt } : {}),
-      license: imageLicense.photoLicenseUrl,
-      acquireLicensePage: imageLicense.photoLicenseUrl,
-      creditText: imageLicense.creditText,
-      creator: { "@id": `${SITE_URL}/about-me/#person` },
-      copyrightNotice: imageLicense.copyrightNotice,
+      ...(data.heroImageLicensed
+        ? {
+            license: imageLicense.photoLicenseUrl,
+            acquireLicensePage: imageLicense.photoLicenseUrl,
+            creditText: imageLicense.creditText,
+            creator: { "@id": `${SITE_URL}/about-me/#person` },
+            copyrightNotice: imageLicense.copyrightNotice,
+          }
+        : {}),
     }
   : undefined;
 
