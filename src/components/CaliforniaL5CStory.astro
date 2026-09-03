@@ -1,0 +1,91 @@
+---
+import { Image } from "astro:assets";
+import owner from "../assets/blog/1954-gibson-l5c-california-session-musician/original-owner-with-1954-gibson-l5c.jpg";
+import guitarFront from "../assets/blog/1954-gibson-l5c-california-session-musician/1954-gibson-l5c-1.jpg";
+import guitarBack from "../assets/blog/1954-gibson-l5c-california-session-musician/1954-gibson-l5c-2.jpg";
+import guitarCase from "../assets/blog/1954-gibson-l5c-california-session-musician/1954-gibson-l5c-3.jpg";
+import headstock from "../assets/blog/1954-gibson-l5c-california-session-musician/1954-gibson-l5c-4.jpg";
+import tuners from "../assets/blog/1954-gibson-l5c-california-session-musician/1954-gibson-l5c-5.jpg";
+
+const details = [
+  ["Model", "Gibson L-5C"],
+  ["Year", "1954"],
+  ["Finish", "Sunburst"],
+  ["Story", "Original-owner family"],
+];
+---
+
+<article class="l5story" id="top">
+  <header class="l5story-hero">
+    <Image class="l5story-hero__photo" src={owner} alt="The original owner's daughter holding her father's 1954 Gibson L-5C" width={1800} priority />
+    <div class="l5story-hero__shade"></div>
+    <div class="l5story-hero__copy">
+      <p class="l5story-script">Every Guitar Has A Story</p>
+      <p class="l5story-eyebrow">An Original-Owner Family Story</p>
+      <h1>A California Session Musician's 1954 Gibson L-5C</h1>
+      <p class="l5story-dek">His daughter preserved the guitar, the family history, and the story of the musician who first owned it.</p>
+      <p class="l5story-private">The owner asked that her name remain private.</p>
+    </div>
+  </header>
+
+  <section class="l5story-intro">
+    <aside class="l5story-facts">
+      <p>The Guitar</p>
+      <dl>{details.map(([term, value]) => <div><dt>{term}</dt><dd>{value}</dd></div>)}</dl>
+    </aside>
+    <div class="l5story-story">
+      <p class="l5story-lead">The first picture says more than a <a href="/how-to-read-gibson-serial-numbers/">Gibson serial number</a> ever could. She is smiling, seated in her home, with her father's 1954 Gibson L-5C across her lap.</p>
+      <p>She asked me not to use her name, and I am honoring that request. What she did want to share was the guitar's story. Her father worked as a session musician in California. According to his daughter, he was friends with Les Paul and Chet Atkins.</p>
+      <blockquote>It was my dad's guitar. He was a California session musician, and he was friends with Les Paul and Chet Atkins.</blockquote>
+      <p>That is the story she shared with me. The honest details are already enough.</p>
+    </div>
+  </section>
+
+  <figure class="l5story-feature">
+    <Image src={guitarCase} alt="A 1954 Gibson L-5C displayed in its pink-lined hardshell case" width={1400} />
+    <figcaption>The 1954 Gibson L-5C in its fitted hardshell case with pink lining.</figcaption>
+  </figure>
+
+  <section class="l5story-chapter">
+    <p class="l5story-eyebrow">The Guitar</p>
+    <h2>A Professional Archtop From the Top of Gibson's Line</h2>
+    <p>The L-5 was already one of Gibson's most important professional archtops by 1954. The acoustic L-5C paired a full-depth carved body with a graceful Florentine cutaway, giving a player better access to the upper frets without turning the guitar into an electric model.</p>
+    <p>This was a serious working musician's instrument. The large carved spruce top, figured maple back, ebony fingerboard, pearl block inlays, elaborate headstock, and gold-plated hardware all placed it near the top of Gibson's line. The appointments were luxurious, but the point was still to make music.</p>
+    <p>The model name matters here. An L-5C is the cutaway acoustic version of the L-5, while the L-5CES is the factory electric model with pickups. My <a href="/post/gibson-l5-ces-value-guide/">Gibson L-5 guide</a> explains how the model developed and which features changed over time.</p>
+  </section>
+
+  <section class="l5story-gallery" aria-label="Details of the 1954 Gibson L-5C">
+    <figure class="l5story-wide"><Image src={guitarFront} alt="Full front of the sunburst 1954 Gibson L-5C" width={1280} /><figcaption>The sunburst carved top, Florentine cutaway, block inlays, and gold hardware.</figcaption></figure>
+    <figure class="l5story-wide"><Image src={guitarBack} alt="Figured maple back of the sunburst 1954 Gibson L-5C" width={1280} /><figcaption>Strong figure across the maple back.</figcaption></figure>
+    <figure><Image src={headstock} alt="Bound Gibson L-5C headstock with pearl logo and flowerpot inlay" width={900} /><figcaption>The bound headstock, pearl flowerpot inlay, and gold hardware.</figcaption></figure>
+    <figure><Image src={tuners} alt="Back of the Gibson L-5C headstock showing six gold tuners" width={900} /><figcaption>The back of the headstock and its six gold-plated tuners.</figcaption></figure>
+  </section>
+
+  <section class="l5story-chapter l5story-chapter--paper">
+    <p class="l5story-eyebrow">What I See</p>
+    <h2>A Guitar That Was Played, Not Displayed</h2>
+    <p>The first thing that catches my eye is the sunburst. It opens into warm amber at the center of the top and moves to a dark brown edge that follows the body shape. The pointed Florentine cutaway, bound f-holes, large tortoise-style pickguard, pearl block inlays, and flowerpot headstock inlay give it the unmistakable look of a top-grade Gibson archtop.</p>
+    <p>The maple back has broad figuring that becomes more visible as the light moves across it. I also see normal age and use. There are fine marks in the finish, wear on the hardware, and small signs that this guitar was handled rather than stored as decoration. Confirming finish, repairs, replaced parts, and structural condition requires an in-person inspection.</p>
+  </section>
+
+  <section class="l5story-closing">
+    <p class="l5story-eyebrow">Why It Matters</p>
+    <h2>The Story Stayed With the Guitar</h2>
+    <p>The most valuable part of an original-owner guitar is not always something you can photograph. It is knowing where the instrument came from and who played it before it reached you.</p>
+    <p>This L-5C belonged to a working California musician. Decades later, his daughter could still sit with it across her lap and tell us whose guitar it was. That continuity is rare. It turns an already impressive 1954 Gibson into one family's piece of musical history.</p>
+    <p>I am grateful she trusted me with the story and allowed me to share her photograph while keeping her name private.</p>
+  </section>
+
+  <section class="l5story-cta">
+    <p class="l5story-script">Every Guitar Has A Story</p>
+    <h2>Have a Vintage Gibson With a Story?</h2>
+    <p>I would be glad to take a look and give you a straightforward assessment.</p>
+    <div><a href="/free-appraisal/">Free Appraisal</a><a href="/sell-my-gibson-guitar/">Sell My Gibson</a></div>
+  </section>
+</article>
+
+<style>
+  .l5story{--l5-paper:#f5efe3;--l5-cream:#eedfc0;--l5-rust:#a03a1e;--l5-rust-dark:#682412;--l5-brown:#3e2a14;--l5-tan:#d2b48c;--l5-gold:#c8983a;--l5-charcoal:#2a2d33;color:var(--l5-charcoal);background:#fff;overflow:hidden}.l5story *{box-sizing:border-box}.l5story-hero{height:calc(100vh - 120px);min-height:720px;position:relative;background:#171717;color:#fff;overflow:hidden}.l5story-hero__photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}.l5story-hero__shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,12,12,.92) 0%,rgba(12,12,12,.62) 44%,rgba(12,12,12,.12) 76%),linear-gradient(0deg,rgba(0,0,0,.65),transparent 52%)}.l5story-hero__copy{position:absolute;z-index:2;left:max(5vw,42px);bottom:8vh;width:min(820px,68vw)}.l5story-script{margin:0 0 10px;color:var(--l5-cream);font-family:var(--font-script,Georgia),serif;font-size:clamp(30px,4vw,58px);line-height:1}.l5story-eyebrow{margin:0 0 14px;color:var(--l5-gold);font:600 14px/1.3 var(--font-display,Oswald),sans-serif;letter-spacing:.16em;text-transform:uppercase}.l5story h1,.l5story h2{font-family:var(--font-display,Oswald),sans-serif;font-weight:600;text-transform:uppercase}.l5story h1{max-width:900px;margin:0;font-size:clamp(54px,6.8vw,100px);line-height:.94;letter-spacing:-.025em}.l5story-dek{max-width:720px;margin:25px 0 12px;font-size:clamp(18px,2vw,24px);line-height:1.45}.l5story-private{margin:0;color:#ddd;font-size:14px}.l5story-intro{width:min(1100px,calc(100% - 44px));margin:auto;display:grid;grid-template-columns:255px minmax(0,690px);gap:clamp(50px,8vw,120px);padding:100px 0;justify-content:center}.l5story-facts{border-top:5px solid var(--l5-rust);border-bottom:1px solid var(--l5-tan);padding:18px 0 8px;align-self:start}.l5story-facts>p{margin:0 0 14px;color:var(--l5-rust-dark);font:600 17px/1 var(--font-display,Oswald),sans-serif;text-transform:uppercase;letter-spacing:.08em}.l5story-facts dl{margin:0}.l5story-facts dl div{display:flex;justify-content:space-between;gap:15px;padding:11px 0;border-top:1px solid #dbcbb2}.l5story-facts dt{font:600 11px/1.3 var(--font-display,Oswald),sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#786b5b}.l5story-facts dd{margin:0;text-align:right;font-size:14px}.l5story-story{max-width:720px}.l5story-story p,.l5story-chapter p,.l5story-closing p{font-size:19px;line-height:1.72;margin:0 0 1.35em}.l5story-lead{font-size:24px!important;line-height:1.55!important;color:var(--l5-brown)}.l5story-lead:first-letter{float:left;margin:9px 10px 0 0;color:var(--l5-rust);font:600 77px/.68 var(--font-display,Oswald),sans-serif}.l5story blockquote{margin:50px -5vw;padding:34px 5vw;border-block:1px solid var(--l5-gold);color:var(--l5-rust-dark);font:600 clamp(27px,3vw,41px)/1.22 var(--font-display,Oswald),sans-serif;text-transform:uppercase}.l5story a{color:var(--l5-rust-dark);font-weight:700;text-decoration-color:var(--l5-gold);text-decoration-thickness:2px;text-underline-offset:3px}.l5story figure{margin:0}.l5story-feature,.l5story-gallery figure{background:var(--l5-charcoal)}.l5story-feature :global(img){width:100%;height:min(78vh,820px);object-fit:contain}.l5story figcaption{padding:13px 18px;background:var(--l5-charcoal);color:#eee;font-size:13px;text-align:center}.l5story-chapter,.l5story-closing{width:min(780px,calc(100% - 44px));margin:auto;padding:100px 0}.l5story h2{margin:0 0 28px;color:var(--l5-brown);font-size:clamp(40px,5vw,70px);line-height:1;letter-spacing:-.015em}.l5story-gallery{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--l5-charcoal)}.l5story-gallery figure{display:flex;flex-direction:column}.l5story-gallery figure :global(img){width:100%;height:560px;object-fit:cover}.l5story-gallery .l5story-wide{grid-column:1/-1}.l5story-gallery .l5story-wide :global(img){height:min(76vh,820px);object-fit:contain}.l5story-chapter--paper{width:100%;padding-inline:max(calc((100% - 780px)/2),22px);background:var(--l5-paper);border-block:1px solid var(--l5-tan)}.l5story-closing{padding-block:105px}.l5story-cta{text-align:center;padding:85px 22px;background:var(--l5-rust-dark);color:#fff}.l5story-cta .l5story-script{font-size:44px}.l5story-cta h2{color:#fff;font-size:clamp(40px,5vw,62px);margin-bottom:16px}.l5story-cta>p:not(.l5story-script){font-size:18px}.l5story-cta>div{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin-top:25px}.l5story-cta a{display:inline-block;padding:14px 28px;background:var(--l5-cream);color:var(--l5-rust-dark);font:600 16px/1 var(--font-display,Oswald),sans-serif;text-decoration:none;text-transform:uppercase}.l5story-cta a:last-child{background:transparent;color:#fff;border:2px solid var(--l5-cream);padding:12px 26px}
+  @media(max-width:900px){.l5story-hero{height:auto;min-height:780px}.l5story-hero__copy{width:min(760px,85vw)}.l5story-intro{grid-template-columns:1fr;padding:75px 0;gap:45px}}
+  @media(max-width:760px){.l5story-hero{min-height:760px}.l5story-hero__photo{object-position:62% center}.l5story-hero__shade{background:linear-gradient(0deg,rgba(10,10,10,.97) 0%,rgba(10,10,10,.7) 58%,rgba(10,10,10,.08) 88%)}.l5story-hero__copy{left:22px;bottom:42px;width:calc(100% - 44px)}.l5story h1{font-size:clamp(43px,12vw,68px)}.l5story-dek{font-size:17px}.l5story blockquote{margin:45px 0;padding:30px 0}.l5story-chapter,.l5story-closing{padding-block:75px}.l5story-gallery{grid-template-columns:1fr}.l5story-gallery .l5story-wide{grid-column:auto}.l5story-gallery figure :global(img),.l5story-gallery .l5story-wide :global(img),.l5story-feature :global(img){height:auto;max-height:76vh}}
+</style>
