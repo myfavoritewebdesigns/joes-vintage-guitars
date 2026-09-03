@@ -7,6 +7,7 @@ import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
 import MartinSmallBodyGuide from "../../components/MartinSmallBodyGuide.astro";
 import MartinD18Guide from "../../components/MartinD18Guide.astro";
+import DennisHiattLesPaulStory from "../../components/DennisHiattLesPaulStory.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
 import { getPublishedPosts, getRelated, categoryName, formatDate } from "../../lib/blog";
 import { resolveImage, assetSrc } from "../../lib/images";
@@ -25,6 +26,7 @@ const { data } = entry;
 const isMartinSmallBodyGuide = entry.id === "martin-0-00-000-history-authentication-value-guide";
 const isMartinD18Guide = entry.id === "martin-d18-history-specs-authentication-value-guide";
 const isCustomMartinGuide = isMartinSmallBodyGuide || isMartinD18Guide;
+const isDennisHiattStory = entry.id === "one-owner-1983-gibson-les-paul-custom";
 
 const postUrl = `${SITE_URL}/post/${entry.id}/`;
 const catName = categoryName(data.category, data.categoryName);
@@ -234,7 +236,9 @@ const articleSchema = {
     </>
   )}
 
-  {isMartinD18Guide ? (
+  {isDennisHiattStory ? (
+    <DennisHiattLesPaulStory />
+  ) : isMartinD18Guide ? (
     <MartinD18Guide faqs={martinD18Faqs} />
   ) : isMartinSmallBodyGuide ? (
     <MartinSmallBodyGuide faqs={martinGuideFaqs} />
