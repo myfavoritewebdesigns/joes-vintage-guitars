@@ -1,0 +1,424 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { SITE_URL, imageLicense } from "../../config/site";
+
+const canonicalPath = "/gibson-guides/gibson-es-335-345-355-guide/";
+const pageUrl = `${SITE_URL}${canonicalPath}`;
+const pageTitle = "Gibson ES-335 vs ES-345 vs ES-355: The Differences";
+const heading = "Gibson ES-335 vs. ES-345 vs. ES-355: What’s The Difference?";
+const description = "Compare the Gibson ES-335, ES-345 and ES-355 with real photographs, identification clues, model history and links to Joe’s detailed Gibson guides.";
+const published = "2026-09-04T12:00:00-07:00";
+const heroImage = `${SITE_URL}/images/es-comparison/1959-es-355-full.webp`;
+
+const heroPhotos = [
+  { label: "1965 ES-335", src: "/images/es-comparison/1965-es-335-full.webp", alt: "Full front view of a sunburst 1965 Gibson ES-335 standing in its case", width: 1067, height: 1600 },
+  { label: "1963 ES-345", src: "/images/es-comparison/1963-es-345-full.webp", alt: "Sunburst 1963 Gibson ES-345 standing in its case", width: 1200, height: 1800 },
+  { label: "1959 ES-355", src: "/images/es-comparison/1959-es-355-full.webp", alt: "Cherry 1959 Gibson ES-355 with gold hardware and Bigsby vibrato", width: 1200, height: 1800 },
+];
+
+const comparisonGroups = [
+  {
+    id: "fingerboards-and-inlays",
+    heading: "Fingerboards And Inlays",
+    description: "The fingerboard is one of the quickest visual clues. An individual year can change the details, but each model has its own basic treatment.",
+    photos: [
+      { label: "ES-335", src: "/images/es-comparison/1959-es-335-dot-inlays.webp", alt: "Rosewood fingerboard and dot inlays on a 1959 Gibson ES-335", width: 1024, height: 683, caption: "Rosewood with dots on this 1959 ES-335. Small blocks replaced the dots during 1962." },
+      { label: "ES-345", src: "/images/es-comparison/1963-es-345-split-parallelogram-inlays.webp", alt: "Split-parallelogram inlays on a 1963 Gibson ES-345", width: 2000, height: 1333, caption: "The split-parallelogram inlays are the clearest fingerboard clue on an ES-345." },
+      { label: "ES-355", src: "/images/es-comparison/1959-es-355-block-inlays.webp", alt: "Ebony fingerboard with pearl block inlays on a 1959 Gibson ES-355", width: 2000, height: 1333, caption: "The ES-355 uses an ebony board with large pearl blocks and more elaborate binding." },
+    ],
+  },
+  {
+    id: "controls-and-tailpieces",
+    heading: "Controls And Tailpieces",
+    description: "Tailpieces can vary by year and option, so the controls and surrounding evidence need to be read with them.",
+    photos: [
+      { label: "ES-335", src: "/images/es-comparison/1962-es-335-bridge-tailpiece.webp", alt: "Nickel ABR-1 bridge and stop tailpiece from a 1962 Gibson ES-335", width: 1024, height: 683, caption: "A straightforward mono ES-335 has no Varitone. This 1962 example has nickel hardware and a stop tailpiece." },
+      { label: "ES-345", src: "/images/es-comparison/1963-es-345-varitone-controls.webp", alt: "Varitone controls and gold stop tailpiece on a 1963 Gibson ES-345", width: 2000, height: 1333, caption: "The six-position Varitone, stereo jack and gold hardware identify the ES-345 configuration." },
+      { label: "ES-355", src: "/images/es-comparison/1959-es-355-bigsby-controls.webp", alt: "Gold Bigsby and controls on a mono 1959 Gibson ES-355", width: 2000, height: 1333, caption: "This 1959 ES-355 is the mono version: four knobs and a toggle, with no Varitone switch." },
+    ],
+  },
+  {
+    id: "headstock-and-trim",
+    heading: "Headstock And Trim",
+    description: "The level of ornament rises from the ES-335 through the ES-355. Changed hardware is common, but the original woodwork and binding usually remain visible.",
+    photos: [
+      { label: "ES-335", src: "/images/es-comparison/1966-es-335-horn.webp", alt: "Cutaway horn and simple body trim on a 1966 Gibson ES-335", width: 2560, height: 1707, caption: "The ES-335 carries the simplest body trim. This 1966 also shows the more pointed mid-1960s horn shape." },
+      { label: "ES-345", src: "/images/es-comparison/1966-es-345-headstock.webp", alt: "Crown headstock inlay and Stereo truss-rod cover on a 1966 Gibson ES-345", width: 2000, height: 1333, caption: "The ES-345 uses the Gibson crown inlay; this example also has its Stereo truss-rod cover." },
+      { label: "ES-355", src: "/images/es-comparison/1959-es-355-headstock.webp", alt: "Bound ES-355 headstock with split-diamond inlay and gold tuners", width: 1200, height: 1600, caption: "The bound headstock and large split-diamond inlay mark the ES-355 as the top model." },
+    ],
+  },
+];
+
+const realExamples = [
+  { label: "1959 ES-335 Finish", src: "/images/es-comparison/1959-es-335-finish.webp", alt: "Original sunburst nitrocellulose finish on a 1959 Gibson ES-335", width: 1024, height: 683, caption: "Original sunburst lacquer on a 1959 dot-neck ES-335.", href: "/post/1959-gibson-es-335-authentication-guide/" },
+  { label: "1962 ES-335", src: "/images/es-comparison/1962-es-335-full.webp", alt: "Cherry 1962 Gibson ES-335", width: 1200, height: 800, caption: "A cherry 1962 ES-335 from the dot-to-block transition.", href: "/post/1962-gibson-es-335-guide/" },
+  { label: "1965 ES-335", src: "/images/es-comparison/1965-es-335-full.webp", alt: "Sunburst 1965 Gibson ES-335 with factory short Maestro Vibrola", width: 1067, height: 1600, caption: "A 1965 ES-335 with an unusual factory short Maestro Vibrola.", href: "/post/1965-gibson-es-335-short-maestro-vibrola/" },
+  { label: "1968 ES-335", src: "/images/es-comparison/1968-es-335-full.webp", alt: "Near-mint sunburst 1968 Gibson ES-335", width: 1200, height: 800, caption: "A near-mint 1968 ES-335 showing the later 1960s appearance.", href: "/post/1968-gibson-es-335-guide/" },
+  { label: "1966 ES-345", src: "/images/es-comparison/1966-es-345-full.webp", alt: "Cherry 1966 Gibson ES-345 with gold hardware", width: 1333, height: 2000, caption: "A cherry 1966 ES-345 with its gold hardware and Varitone.", href: "/post/gibson-es-345-history-value/" },
+  { label: "ES-345 Bigsby And Varitone", src: "/images/es-comparison/1966-es-345-bigsby-varitone.webp", alt: "Gold Bigsby and Varitone dial on a 1966 Gibson ES-345", width: 2000, height: 1333, caption: "The gold Bigsby and six-position Varitone on the 1966 ES-345.", href: "/post/gibson-es-345-history-value/" },
+  { label: "ES-355 Binding", src: "/images/es-comparison/1959-es-355-binding.webp", alt: "Multi-ply binding and bound f-hole on a 1959 Gibson ES-355", width: 2000, height: 1333, caption: "Multi-ply body binding and a bound f-hole on the 1959 ES-355.", href: "/post/1959-gibson-es-355-history-value/" },
+  { label: "ES-355 Pickups", src: "/images/es-comparison/1959-es-355-paf-pickups.webp", alt: "Gold-cover PAF humbuckers on a 1959 Gibson ES-355", width: 2000, height: 1333, caption: "Gold-cover PAF humbuckers with natural plating wear.", href: "/post/1959-gibson-es-355-history-value/" },
+  { label: "1959 ES-355 Back", src: "/images/es-comparison/1959-es-355-back.webp", alt: "Back of a cherry 1959 Gibson ES-355 in its original case", width: 1333, height: 2000, caption: "The back of the 1959 ES-355, including the neck and headstock.", href: "/post/1959-gibson-es-355-history-value/" },
+];
+
+const furtherReading = [
+  { label: "Gibson ES-345 History, Authentication And Value Guide", href: "/post/gibson-es-345-history-value/", description: "The complete model guide to the stereo Varitone ES-345.", action: "Read The ES-345 Guide" },
+  { label: "Gibson PAF And Patent Number Pickup Guide", href: "/post/gibson-paf-patent-number-pickup-guide/", description: "How I distinguish PAF, Patent Number and later Gibson humbuckers without risking an original pickup.", action: "Read The Pickup Guide" },
+  { label: "Gibson Production And Shipping Totals, 1948-1979", href: "/post/gibson-shipping-totals-1948-1979/", description: "Factory shipping figures that provide useful production context for vintage Gibson models.", action: "See Gibson Production Totals" },
+];
+
+const ownerStories = [
+  { label: "Sylvia’s One-Owner 1959 Gibson ES-335", href: "/post/sylvias-1959-gibson-es-335/", description: "Sylvia’s daughter kept the original receipt, family photographs and the story of her mother’s life with music.", action: "Read Sylvia’s Story" },
+  { label: "One-Owner 1966 Gibson ES-345 From Connecticut", href: "/post/one-owner-1966-gibson-es-345/", description: "I bought this near-mint ES-345 directly from the man who purchased it new and played it in local bands.", action: "Read The ES-345 Story" },
+  { label: "One-Family 1959 Gibson ES-355", href: "/post/one-family-1959-gibson-es-355/", description: "A cherry ES-355 that remained with one family from the time it was new.", action: "Read The ES-355 Story" },
+];
+
+const faqs = [
+  { q: "What’s The Difference Between A Gibson ES-335, ES-345 And ES-355?", a: "The ES-335 is the simplest of the three. The ES-345 adds split-parallelogram inlays, gold hardware, stereo wiring and a Varitone. The ES-355 adds an ebony fingerboard, large pearl blocks, a split-diamond headstock and more elaborate binding." },
+  { q: "Which Gibson ES Models Have A Varitone?", a: "The ES-345 was built with a six-position Varitone and stereo wiring. ES-355s were made in both mono and stereo Varitone versions. A standard ES-335 doesn’t have a Varitone." },
+  { q: "How Can I Tell An ES-355 From An ES-345?", a: "Look first at the fingerboard and headstock. An ES-345 usually has split-parallelogram inlays and a crown headstock inlay. An ES-355 has an ebony fingerboard with large pearl blocks, a bound headstock with a split-diamond inlay and more elaborate body binding." },
+  { q: "Is An ES-355 Better Than An ES-335?", a: "The ES-355 was the more expensive and highly appointed model, but that doesn’t automatically make it the better guitar for every player. Originality, condition, year, wiring and personal preference all matter." },
+  { q: "Which Is More Valuable: An ES-335, ES-345 Or ES-355?", a: "The model name alone doesn’t determine value. The year, finish, originality, condition, factory hardware, wiring, repairs and ownership history all matter. A desirable, original ES-335 can be worth more than a later or heavily changed ES-355." },
+  { q: "Are The ES-335, ES-345 And ES-355 The Same Size?", a: "They belong to the same center-block thinline family and generally share the same body shape and dimensions. Their fingerboards, inlays, binding, hardware and electronics are different, and some construction details changed during production." },
+  { q: "Can An ES-345 Or ES-355 Be Converted From Stereo To Mono?", a: "Yes. Many stereo ES-345s and ES-355s were converted to mono so they’d be easier to use with a standard amplifier. A conversion can affect originality and collector value, so keep the original harness and every removed part with the guitar." },
+];
+
+const imageSchema = {
+  "@type": "ImageObject",
+  url: heroImage,
+  width: 1200,
+  height: 1800,
+  caption: "Cherry 1959 Gibson ES-355 with gold hardware and Bigsby vibrato",
+  license: imageLicense.photoLicenseUrl,
+  acquireLicensePage: imageLicense.photoLicenseUrl,
+  creditText: imageLicense.creditText,
+  creator: { "@id": `${SITE_URL}/about-me/#person` },
+  copyrightNotice: imageLicense.copyrightNotice,
+};
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": `${pageUrl}#article`,
+  headline: heading,
+  description,
+  image: imageSchema,
+  datePublished: published,
+  dateModified: published,
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+  mainEntityOfPage: pageUrl,
+  inLanguage: "en-US",
+  isAccessibleForFree: true,
+  about: ["Gibson ES-335", "Gibson ES-345", "Gibson ES-355", "Vintage Gibson guitars"],
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Gibson ES-335, ES-345 And ES-355 Guide", item: pageUrl },
+  ],
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${pageUrl}#faq-schema`,
+  mainEntity: faqs.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+---
+
+<Layout
+  bodyClass="esf-guide-page"
+  title={pageTitle}
+  description={description}
+  canonical={canonicalPath}
+  ogImage={heroImage}
+  ogImageAlt="Cherry 1959 Gibson ES-355 with gold hardware and Bigsby vibrato"
+  ogImageWidth={1200}
+  ogImageHeight={1800}
+  ogType="article"
+  publishedTime={published}
+  modifiedTime={published}
+  structuredData={[breadcrumbSchema, articleSchema, faqSchema]}
+>
+  <article class="esf-page">
+    <header class="esf-hero">
+      <div class="esf-shell esf-hero__copy">
+        <nav class="esf-crumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span><span>Gibson Guides</span>
+        </nav>
+        <p class="esf-eyebrow">ES Family Guide</p>
+        <h1>{heading}</h1>
+        <p class="esf-deck">A clear comparison of Gibson’s three center-block thinline models, using guitars I’ve handled and photographed.</p>
+        <p class="esf-byline">By <a href="/about-me/">Joe Dampt</a> · Updated September 4, 2026</p>
+      </div>
+      <div class="esf-shell esf-hero__photos" aria-label="Full-body examples of the three Gibson ES models">
+        {heroPhotos.map((photo) => (
+          <figure>
+            <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} decoding="async" />
+            <figcaption>{photo.label}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </header>
+
+    <div class="esf-shell esf-content">
+      <section id="short-answer" class="esf-section esf-intro">
+        <p class="esf-eyebrow">The Short Answer</p>
+        <h2>The Three Models At A Glance</h2>
+        <p><strong>The ES-335 is the simpler model, the ES-345 adds gold hardware, split-parallelogram inlays, stereo wiring and a Varitone, and the ES-355 is the most highly appointed version.</strong> All three use Gibson’s semi-hollow construction with a solid center block.</p>
+        <p>Those are the broad differences. Production changes, repairs and converted wiring can blur the clues, so I identify the model from the complete guitar rather than one feature.</p>
+        <div class="esf-table-wrap">
+          <table>
+            <caption>The original features that most often separate the three models</caption>
+            <thead>
+              <tr><th scope="col">Model</th><th scope="col">Introduced</th><th scope="col">Fingerboard And Inlays</th><th scope="col">Hardware</th><th scope="col">Original Electronics</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">ES-335</th><td data-label="Introduced">1958</td><td data-label="Fingerboard And Inlays">Rosewood; dots, then blocks</td><td data-label="Hardware">Nickel or chrome</td><td data-label="Original Electronics">Mono; no Varitone</td></tr>
+              <tr><th scope="row">ES-345</th><td data-label="Introduced">1959</td><td data-label="Fingerboard And Inlays">Rosewood; split-parallelogram inlays</td><td data-label="Hardware">Gold</td><td data-label="Original Electronics">Stereo with Varitone</td></tr>
+              <tr><th scope="row">ES-355</th><td data-label="Introduced">1958</td><td data-label="Fingerboard And Inlays">Ebony; large pearl blocks</td><td data-label="Hardware">Gold</td><td data-label="Original Electronics">Mono without Varitone, or stereo with Varitone</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="side-by-side" class="esf-section">
+        <p class="esf-eyebrow">Visual Identification</p>
+        <h2>See The Differences Side By Side</h2>
+        <p>These are guitars I’ve handled and photographed. The close views show why the inlays, controls, headstock and trim are more useful than body color when you’re trying to separate the three models.</p>
+        {comparisonGroups.map((group) => (
+          <div class="esf-photo-group" id={group.id}>
+            <h3>{group.heading}</h3>
+            <p>{group.description}</p>
+            <div class="esf-photo-grid">
+              {group.photos.map((photo) => (
+                <figure class="esf-photo-card">
+                  <div class="esf-photo-card__image">
+                    <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" decoding="async" />
+                    <span>{photo.label}</span>
+                  </div>
+                  <figcaption>{photo.caption}</figcaption>
+                </figure>
+              ))}
+            </div>
+          </div>
+        ))}
+      </section>
+
+      <section id="shared-construction" class="esf-section esf-prose">
+        <h2>What The Three Models Share</h2>
+        <p>The ES-335, ES-345 and ES-355 have a laminated maple thinline body with a solid center block. The block reduces feedback and gives the bridge and pickups a firm mounting point while the hollow wings keep the guitar lighter and more resonant than a solid body.</p>
+        <p>Because the basic outline is so similar, a distant photograph can make the three models look nearly identical. My <a href="/post/1966-gibson-es-335-authentication-guide/">1966 Gibson ES-335 authentication guide</a> shows how body shape and appointments can place a guitar in its production period, while fingerboard inlays, headstock trim, hardware color and controls usually provide the fastest answer here.</p>
+      </section>
+
+      <section id="model-before-year" class="esf-section esf-prose">
+        <h2>Identify The Model Before The Year</h2>
+        <p>I first establish which model the guitar was built as. Then I compare its neck, body shape, serial number, pickups and hardware with the changes Gibson made during that model’s production. <a href="/post/gibson-shipping-totals-1948-1979/">Gibson production and shipping totals</a> provide useful context, but they can’t identify an individual guitar.</p>
+        <p>Pickup details can narrow the period and reveal expensive changes. My <a href="/post/gibson-paf-patent-number-pickup-guide/"><strong>Gibson PAF and Patent Number pickup guide</strong></a> explains the decals, covers, solder joints and other clues I check without taking a valuable pickup apart.</p>
+        <p>For the most highly appointed version, my <a href="/post/1959-gibson-es-355-history-value/">1959 Gibson ES-355 history and value guide</a> examines the mono version, gold hardware, Bigsby and trim.</p>
+        <ul>
+          <li>Dot or block inlays usually point toward an ES-335.</li>
+          <li>Split-parallelogram inlays, gold hardware and a Varitone are characteristic ES-345 features.</li>
+          <li>An ebony fingerboard, large pearl blocks, a split-diamond headstock and more elaborate binding point toward an ES-355.</li>
+          <li>A changed pickguard, tailpiece or wiring harness shouldn’t outweigh the construction and trim that remain.</li>
+        </ul>
+      </section>
+
+      <section id="wiring" class="esf-section esf-prose">
+        <h2>Wiring Is Part Of The Identity</h2>
+        <p>The ES-345 was built around a stereo Varitone circuit, which I cover in more detail in my <a href="/post/gibson-es-345-history-value/">in-depth Gibson ES-345 guide</a>. ES-355s were offered in both mono and stereo Varitone versions, while the ES-335 was the straightforward mono model without a Varitone.</p>
+        <p>Many stereo guitars were later converted to mono for easier use. A good conversion can make sense for a player, but the original harness and removed parts still matter when the guitar is appraised. I wouldn’t change the wiring simply to prepare a guitar for sale.</p>
+      </section>
+
+      <section id="real-examples" class="esf-section">
+        <p class="esf-eyebrow">From My Shop</p>
+        <h2>More Real Examples</h2>
+        <p>Year-to-year changes can be just as important as the model name. Each photograph opens the related year or model article.</p>
+        <div class="esf-example-grid">
+          {realExamples.map((photo) => (
+            <a class="esf-example-card" href={photo.href}>
+              <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" decoding="async" />
+              <span class="esf-example-card__body"><strong>{photo.label}</strong><span>{photo.caption}</span><small>Read The Related Article →</small></span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section id="further-reading" class="esf-section">
+        <p class="esf-eyebrow">Keep Researching</p>
+        <h2>Further Reading On Gibson ES Guitars</h2>
+        <p>I don’t yet have a full model guide for every ES model. The ES-345 has a complete model guide, and the photographs above link to the ES-335 and ES-355 year-specific articles I’ve finished.</p>
+        <div class="esf-link-grid">
+          {furtherReading.map((item) => (
+            <a class="esf-link-card" href={item.href}>
+              <strong>{item.label}</strong><span>{item.description}</span><small>{item.action} →</small>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section id="owner-stories" class="esf-section esf-section--tint">
+        <p class="esf-eyebrow">The People Behind The Guitars</p>
+        <h2>Original-Owner ES Guitar Stories</h2>
+        <p>Specifications tell me what a guitar is. Ownership stories explain where it has been. These ES guitars came to me with direct family history, period photographs or memories from the people who owned them.</p>
+        <div class="esf-link-grid">
+          {ownerStories.map((item) => (
+            <a class="esf-link-card" href={item.href}>
+              <strong>{item.label}</strong><span>{item.description}</span><small>{item.action} →</small>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section id="es-330" class="esf-section esf-prose">
+        <h2>Keep The ES-330 Separate</h2>
+        <p>The ES-330 shares the double-cutaway thinline appearance, but it’s fully hollow and doesn’t have the center block used in the ES-335, ES-345 and ES-355. Its neck joint, pickups and construction make it a different family for identification and valuation.</p>
+      </section>
+
+      <section id="photos-for-appraisal" class="esf-section esf-prose">
+        <h2>What To Photograph Before Asking For A Value</h2>
+        <p>You don’t need to take the guitar apart. Clear photographs of the visible features are enough to begin a <a href="/free-appraisal/">free vintage Gibson guitar appraisal</a>.</p>
+        <ul class="esf-checklist">
+          <li>Full front and back of the guitar</li><li>Front and back of the headstock</li><li>Serial number and the label inside the body</li><li>Fingerboard inlays, controls and output jack</li><li>Pickups, bridge, tailpiece and tuners</li><li>Case, tags, receipts and every loose or replaced part</li>
+        </ul>
+      </section>
+
+      <section id="sell-yours" class="esf-section esf-cta">
+        <div>
+          <p class="esf-eyebrow">Have One To Sell?</p>
+          <h2>Have An ES-335, ES-345 Or ES-355 To Sell?</h2>
+          <p>If you’re ready to <a href="/sell-my-gibson-guitar/">sell your vintage Gibson directly to me</a>, you don’t need to identify every detail before contacting me. Send clear photographs and anything you know about the guitar. I’ll examine it myself, explain what I see and let you decide whether an offer makes sense.</p>
+        </div>
+        <div class="esf-cta__actions">
+          <a class="esf-button esf-button--primary" href="/free-appraisal/">Get A Free Appraisal</a>
+          <a class="esf-button esf-button--secondary" href="/sell-my-gibson-guitar/">See How I Buy Gibsons</a>
+          <a class="esf-home-link" href="/">Visit Joe’s Vintage Guitars Home Page →</a>
+        </div>
+      </section>
+
+      <section id="faq" class="esf-section esf-faq">
+        <p class="esf-eyebrow">Common Questions</p>
+        <h2>Frequently Asked Questions</h2>
+        <div class="esf-faq__grid">
+          {faqs.map((item) => (
+            <article><h3>{item.q}</h3><p>{item.a}</p></article>
+          ))}
+        </div>
+      </section>
+    </div>
+  </article>
+</Layout>
+
+<style>
+  /* Page-local classes keep this guide aligned with the CLAUDE.md design tokens
+     without changing the shared shell or undoing approved sitewide decisions. */
+  .esf-page { background: #fff; color: var(--color-brand-charcoal); }
+  .esf-shell { width: min(1180px, calc(100% - 40px)); margin-inline: auto; }
+  .esf-hero { padding: 152px 0 70px; background: linear-gradient(150deg, #f7efe1 0%, #ead6b5 68%, #dcc094 100%); border-bottom: 5px solid var(--color-brand-rust-dark); }
+  .esf-hero__copy { max-width: 930px; text-align: center; }
+  .esf-crumbs { display: flex; justify-content: center; gap: 8px; margin-bottom: 28px; color: var(--color-brand-brown-muted); font-size: 14px; }
+  .esf-crumbs a { color: var(--color-brand-rust-dark); font-weight: 700; }
+  .esf-eyebrow { margin: 0 0 10px; color: var(--color-brand-rust); font: 600 14px/1.2 var(--font-display); letter-spacing: .13em; text-transform: uppercase; }
+  .esf-hero h1 { max-width: 900px; margin: 0 auto; color: var(--color-brand-brown); font: 600 clamp(42px, 6vw, 74px)/1.02 var(--font-display); letter-spacing: -.02em; }
+  .esf-deck { max-width: 750px; margin: 24px auto 0; color: var(--color-brand-brown-warm); font-size: clamp(18px, 2.2vw, 23px); line-height: 1.55; }
+  .esf-byline { margin: 18px 0 0; color: var(--color-brand-brown-muted); font-size: 14px; }
+  .esf-byline a { color: var(--color-brand-rust-dark); font-weight: 700; }
+  .esf-hero__photos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 46px; }
+  .esf-hero__photos figure { margin: 0; overflow: hidden; background: #fff; border: 1px solid rgba(104,36,18,.2); border-radius: 10px; box-shadow: 0 14px 30px rgba(62,42,20,.16); }
+  .esf-hero__photos img { display: block; width: 100%; aspect-ratio: 2/3; object-fit: cover; }
+  .esf-hero__photos figcaption { padding: 12px 14px; color: var(--color-brand-brown); font: 600 17px/1.2 var(--font-display); text-align: center; }
+  .esf-content { padding: 24px 0 96px; }
+  .esf-section { padding: 64px 0; border-bottom: 1px solid rgba(62,42,20,.15); scroll-margin-top: 96px; }
+  .esf-section > h2, .esf-section > div > h2 { margin: 0 0 18px; color: var(--color-brand-brown); font: 600 clamp(31px, 4vw, 47px)/1.12 var(--font-display); }
+  .esf-section > p, .esf-section > div > p, .esf-prose li { max-width: 850px; color: var(--color-brand-brown-warm); font-size: 18px; line-height: 1.75; }
+  .esf-section a { color: var(--color-brand-rust-dark); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .esf-section a:hover { color: var(--color-brand-rust-bright); }
+  .esf-intro { padding-top: 54px; }
+  .esf-intro > p { max-width: 930px; }
+  .esf-table-wrap { margin-top: 30px; border: 1px solid rgba(104,36,18,.25); border-radius: 10px; overflow: hidden; box-shadow: 0 8px 24px rgba(62,42,20,.08); }
+  .esf-table-wrap table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  .esf-table-wrap caption { padding: 12px 18px; background: var(--color-brand-brown-tan); color: var(--color-brand-brown); font-weight: 700; text-align: left; }
+  .esf-table-wrap th, .esf-table-wrap td { padding: 16px 14px; border-bottom: 1px solid rgba(62,42,20,.14); text-align: left; vertical-align: top; line-height: 1.45; }
+  .esf-table-wrap thead th { background: var(--color-brand-rust-dark); color: #fff; font: 600 15px/1.35 var(--font-display); }
+  .esf-table-wrap tbody th { color: var(--color-brand-rust-dark); font: 600 18px/1.4 var(--font-display); }
+  .esf-table-wrap tbody tr:nth-child(even) { background: #fbf6ed; }
+  .esf-table-wrap tbody tr:last-child > * { border-bottom: 0; }
+  .esf-photo-group { margin-top: 50px; }
+  .esf-photo-group h3 { margin: 0 0 8px; color: var(--color-brand-brown); font: 600 clamp(25px, 3vw, 33px)/1.2 var(--font-display); }
+  .esf-photo-group > p { max-width: 820px; margin: 0 0 20px; color: var(--color-brand-brown-warm); font-size: 17px; line-height: 1.65; }
+  .esf-photo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .esf-photo-card { margin: 0; overflow: hidden; background: #fff; border: 1px solid rgba(104,36,18,.18); border-radius: 9px; box-shadow: 0 6px 18px rgba(62,42,20,.09); }
+  .esf-photo-card__image { position: relative; }
+  .esf-photo-card img { display: block; width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+  .esf-photo-card__image span { position: absolute; left: 12px; bottom: 12px; padding: 5px 9px; background: rgba(42,45,51,.88); color: #fff; border-radius: 3px; font: 600 15px/1 var(--font-display); }
+  .esf-photo-card figcaption { padding: 15px; color: var(--color-brand-brown-warm); font-size: 15px; line-height: 1.55; }
+  .esf-prose ul { max-width: 850px; margin: 24px 0 0; padding-left: 24px; }
+  .esf-prose li { margin: 9px 0; }
+  .esf-example-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 26px; }
+  .esf-example-card { display: flex; flex-direction: column; overflow: hidden; background: #fff; border: 1px solid rgba(104,36,18,.2); border-radius: 9px; box-shadow: 0 6px 18px rgba(62,42,20,.08); text-decoration: none; transition: transform .2s, box-shadow .2s; }
+  .esf-example-card:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(62,42,20,.14); }
+  .esf-example-card > img { display: block; width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+  .esf-example-card__body { display: flex; flex: 1; flex-direction: column; gap: 8px; padding: 16px; }
+  .esf-example-card__body strong { color: var(--color-brand-brown); font: 600 20px/1.25 var(--font-display); }
+  .esf-example-card__body span { color: var(--color-brand-brown-warm); font-size: 15px; line-height: 1.55; }
+  .esf-example-card__body small, .esf-link-card small { margin-top: auto; color: var(--color-brand-rust); font: 600 13px/1.3 var(--font-display); letter-spacing: .04em; text-transform: uppercase; }
+  .esf-link-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 26px; }
+  .esf-link-card { display: flex; min-height: 210px; flex-direction: column; gap: 12px; padding: 24px; background: #fff; border: 1px solid rgba(104,36,18,.22); border-top: 4px solid var(--color-brand-rust); border-radius: 8px; box-shadow: 0 6px 18px rgba(62,42,20,.07); text-decoration: none; }
+  .esf-link-card strong { color: var(--color-brand-brown); font: 600 22px/1.25 var(--font-display); }
+  .esf-link-card > span { color: var(--color-brand-brown-warm); font-size: 15px; line-height: 1.6; }
+  .esf-section--tint { margin-inline: -24px; padding-inline: 24px; background: #f7efe1; border-radius: 12px; }
+  .esf-checklist { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 28px; padding: 0; list-style: none; }
+  .esf-checklist li { position: relative; margin: 0; padding: 12px 12px 12px 36px; background: #fbf6ed; border-radius: 6px; }
+  .esf-checklist li::before { content: "✓"; position: absolute; left: 13px; color: var(--color-brand-rust); font-weight: 800; }
+  .esf-cta { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(250px, .65fr); gap: 40px; align-items: center; margin-top: 64px; padding: 42px; background: var(--color-brand-rust-dark); border: 0; border-radius: 12px; }
+  .esf-cta .esf-eyebrow, .esf-cta h2, .esf-cta p, .esf-cta p a { color: #fff; }
+  .esf-cta p { margin-bottom: 0; }
+  .esf-cta p a { font-weight: 700; }
+  .esf-cta__actions { display: flex; flex-direction: column; gap: 10px; }
+  .esf-button { display: block; padding: 13px 18px; border: 2px solid #fff; border-radius: 5px; font: 600 15px/1.2 var(--font-display); text-align: center; text-decoration: none; text-transform: uppercase; letter-spacing: .04em; }
+  .esf-cta .esf-button--primary { background: #fff; color: var(--color-brand-rust-dark); }
+  .esf-cta .esf-button--secondary { background: transparent; color: #fff; }
+  .esf-cta .esf-home-link { margin-top: 6px; color: #fff; font-size: 14px; text-align: center; }
+  .esf-faq { border-bottom: 0; }
+  .esf-faq__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 28px; }
+  .esf-faq__grid article { padding: 24px; background: #fbf6ed; border: 1px solid rgba(104,36,18,.15); border-radius: 8px; }
+  .esf-faq__grid h3 { margin: 0 0 10px; color: var(--color-brand-brown); font: 600 21px/1.3 var(--font-display); }
+  .esf-faq__grid p { margin: 0; color: var(--color-brand-brown-warm); line-height: 1.65; }
+  .esf-page :focus-visible { outline: 3px solid var(--color-brand-gold); outline-offset: 3px; }
+
+  /* The table becomes labeled rows on small screens so readers never have to
+     side-scroll, matching the comparison-hub decision already approved by Joe. */
+  @media (max-width: 860px) {
+    .esf-hero { padding-top: 132px; }
+    .esf-photo-grid, .esf-example-grid, .esf-link-grid { grid-template-columns: repeat(2, 1fr); }
+    .esf-table-wrap { overflow: visible; border: 0; box-shadow: none; }
+    .esf-table-wrap table, .esf-table-wrap tbody, .esf-table-wrap tr, .esf-table-wrap th, .esf-table-wrap td { display: block; width: 100%; }
+    .esf-table-wrap caption { display: block; border-radius: 7px 7px 0 0; }
+    .esf-table-wrap thead { display: none; }
+    .esf-table-wrap tr { margin-bottom: 14px; overflow: hidden; border: 1px solid rgba(104,36,18,.22); border-radius: 8px; }
+    .esf-table-wrap tbody th { background: var(--color-brand-rust-dark); color: #fff; }
+    .esf-table-wrap td { display: grid; grid-template-columns: minmax(128px, 40%) 1fr; gap: 12px; }
+    .esf-table-wrap td::before { content: attr(data-label); color: var(--color-brand-brown); font-weight: 700; }
+    .esf-cta { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 620px) {
+    .esf-shell { width: min(100% - 28px, 1180px); }
+    .esf-hero { padding: 118px 0 48px; }
+    .esf-hero__photos { gap: 8px; margin-top: 30px; }
+    .esf-hero__photos figcaption { padding: 9px 4px; font-size: 13px; }
+    .esf-section { padding: 48px 0; }
+    .esf-photo-grid, .esf-example-grid, .esf-link-grid, .esf-faq__grid, .esf-checklist { grid-template-columns: 1fr; }
+    .esf-link-card { min-height: 0; }
+    .esf-section--tint { margin-inline: -10px; padding-inline: 14px; }
+    .esf-cta { margin-inline: -2px; padding: 28px 22px; }
+    .esf-table-wrap td { grid-template-columns: 1fr; gap: 3px; }
+  }
+</style>
