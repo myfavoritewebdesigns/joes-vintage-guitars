@@ -59,11 +59,9 @@ toc:
 
 The original Gibson ES-225 family was shipped from 1955 through 1959. Every version is a fully hollow, single-cutaway thinline with a bound rosewood fingerboard and one or two black P-90 pickups. The single-pickup ES-225T places its pickup in the middle of the body. The two-pickup ES-225TD joined it in 1956.
 
-Gibson introduced three thin-bodied electrics in 1955: the upscale Byrdland, the mid-priced ES-350T, and the ES-225T for what the 1956 catalog called the popular price field. The Byrdland reached prototype and serial production first, so the ES-225 should not be called Gibson's first thinline. It was the accessible member of that first-year group and the immediate sales leader. Gibson's ledger records 470 ES-225-family shipments in 1955, compared with three Byrdlands.
+Gibson introduced three thin-bodied electrics in 1955: the upscale [Byrdland](/post/gibson-byrdland-authentication-guide/), the mid-priced ES-350T, and the ES-225T for what the 1956 catalog called the popular price field. The Byrdland reached prototype and serial production first, so the ES-225 should not be called Gibson's first thinline. It was the accessible member of that first-year group and the immediate sales leader. Gibson's ledger records 470 ES-225-family shipments in 1955, compared with three Byrdlands.
 
-The ES-225 connects two Gibson eras. Its outline comes from the full-depth ES-175 family, while its shallow rim anticipates the ES-335 and ES-330. It also uses the long combined bridge and tailpiece associated with early Les Pauls. That mixture makes the model easy to recognize from across a room, but harder to authenticate from one photograph.
-
-For family context, compare the [complete Gibson ES-125 guide](/post/gibson-es-125-guide/), the [1959 to 1962 ES-330 guide](/post/complete-dot-neck-es-330-guide-1959-1962/), and the [Gibson Byrdland authentication guide](/post/gibson-byrdland-authentication-guide/). Those pages show where the ES-225 overlaps with neighboring models and where the physical construction separates them.
+The ES-225 connects two Gibson eras. Its outline comes from the full-depth [ES-175 family](/post/gibson-es-175-evolution-and-specifications/), while its shallow rim anticipates the [ES-335 family](/post/gibson-es-335-345-355-guide/) and the fully hollow [ES-330](/post/complete-dot-neck-es-330-guide-1959-1962/). It also uses the long combined bridge and tailpiece associated with early Les Pauls. That mixture makes the model easy to recognize from across a room, but harder to authenticate from one photograph.
 
 This guide treats originality as a chain of evidence. A factory order number can support a year. It cannot prove that the pickups, finish, or hardware left Kalamazoo together. A period-correct part can still be a later transplant. Conversely, a missing paper label or a late-1959 bridge is not automatically a problem. The whole guitar has to tell one coherent story.
 
@@ -232,7 +230,7 @@ Sunburst is standard. Natural carries the N suffix and is much less common in th
 
 ### The cutaway construction clue
 
-From the front, an ES-225 can be confused with an upgraded ES-125 thinline. At the cutaway, however, the 225's top does not simply curl down into the rim. The factory used a maple spacer to carry the top into the pointed cutaway. That detail, together with fingerboard binding, the pearl headstock logo, and individual tuners, is more persuasive than any one removable part.
+From the front, an ES-225 can be confused with an upgraded [ES-125 thinline](/post/gibson-es-125-guide/). At the cutaway, however, the 225's top does not simply curl down into the rim. The factory used a maple spacer to carry the top into the pointed cutaway. That detail, together with fingerboard binding, the pearl headstock logo, and individual tuners, is more persuasive than any one removable part.
 
 <h2 id="natural-finish">How to Read an Original Natural Finish</h2>
 
@@ -444,7 +442,7 @@ Useful A-prefix period ranges are:
 | 1958 | A26,821 to A28,880 |
 | 1959 | A28,881 to A32,285 |
 
-These ranges are period guides from [Joe's Gibson serial number reference](/how-to-read-gibson-serial-numbers/). Gibson numbering can overlap. Never date an ES-225 from one number alone.
+These ranges are period guides from [Joe's Gibson serial number reference](/how-to-read-gibson-serial-numbers/). Gibson numbering can overlap. [What a serial number cannot tell you](/post/what-a-serial-number-cant-tell-you/) is just as important: never date or authenticate an ES-225 from one number alone.
 
 <h2 id="red-flags">Common Changes, Conversions, and Red Flags</h2>
 
@@ -632,6 +630,8 @@ Natural finish and the two-pickup configuration usually command a premium, but o
 
 Evaluate in this order: structural health, original finish, unmodified body, original electronics, original hardware and plastics, then case and paper provenance. A stable repair or reversible player modification may be acceptable. It must be identified and priced honestly.
 
+For the broader appraisal framework, read the [seven factors that determine vintage guitar value](/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/) and [how year of manufacture affects vintage Gibson pricing](/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/). Those factors explain why two ES-225s with the same suffix can land far apart in the market.
+
 <h2 id="modern-reissue">The 2014 to 2016 Gibson Memphis '59 ES-225TD Reissue</h2>
 
 Gibson Memphis revived the shape in 2014 as a 1959-inspired ES-225TD with two P-90s and a VOS-style presentation. Dealer records show a short run extending into 2016. It is a legitimate Gibson model and can be an excellent player, but it is not authenticated with 1950s FON prefixes, old pot-code expectations, or vintage lacquer wear.
@@ -675,4 +675,4 @@ An original 1955 to 1959 guitar should show Kalamazoo-era body stamps, 1950s com
 
 Do not dismantle a clean vintage harness only to take a photograph. If access requires force, a repair professional should handle it.
 
-Have an ES-225 to identify or sell? [Request a free, evidence-based appraisal](/free-appraisal/) and send clear photographs plus everything you know about the guitar. Original parts, repairs, and uncertainty are all easier to evaluate when they are documented up front. You can also call Joe at [(602) 900-6635](tel:+16029006635).
+Have an ES-225 to identify or sell? [Request a free, evidence-based appraisal](/free-appraisal/) and send clear photographs plus everything you know about the guitar. Original parts, repairs, and uncertainty are all easier to evaluate when they are documented up front. If you are ready to sell, see [how Joe buys vintage Gibson guitars](/sell-my-gibson-guitar/), or call [(602) 900-6635](tel:+16029006635).
