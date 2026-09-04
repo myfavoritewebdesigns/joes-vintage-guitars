@@ -2,7 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import { SITE_URL, imageLicense } from "../../config/site";
 
-const canonicalPath = "/gibson-guides/gibson-es-335-345-355-guide/";
+const canonicalPath = "/post/gibson-es-335-345-355-guide/";
 const pageUrl = `${SITE_URL}${canonicalPath}`;
 const pageTitle = "Gibson ES-335 vs ES-345 vs ES-355: The Differences";
 const heading = "Gibson ES-335 vs. ES-345 vs. ES-355: What’s The Difference?";
@@ -98,7 +98,7 @@ const imageSchema = {
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "@id": `${pageUrl}#article`,
   headline: heading,
   description,
@@ -108,6 +108,7 @@ const articleSchema = {
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
   mainEntityOfPage: pageUrl,
+  articleSection: "Specific Model Highlights",
   inLanguage: "en-US",
   isAccessibleForFree: true,
   about: ["Gibson ES-335", "Gibson ES-345", "Gibson ES-355", "Vintage Gibson guitars"],
@@ -118,7 +119,8 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-    { "@type": "ListItem", position: 2, name: "Gibson ES-335, ES-345 And ES-355 Guide", item: pageUrl },
+    { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog/` },
+    { "@type": "ListItem", position: 3, name: "Gibson ES-335, ES-345 And ES-355 Guide", item: pageUrl },
   ],
 };
 
@@ -152,7 +154,7 @@ const faqSchema = {
     <header class="esf-hero">
       <div class="esf-shell esf-hero__copy">
         <nav class="esf-crumbs" aria-label="Breadcrumb">
-          <a href="/">Home</a><span aria-hidden="true">/</span><span>Gibson Guides</span>
+          <a href="/">Home</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a>
         </nav>
         <p class="esf-eyebrow">ES Family Guide</p>
         <h1>{heading}</h1>
