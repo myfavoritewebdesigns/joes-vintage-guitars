@@ -8,6 +8,7 @@ import ContactSection from "../../components/ContactSection.astro";
 import MartinSmallBodyGuide from "../../components/MartinSmallBodyGuide.astro";
 import MartinD18Guide from "../../components/MartinD18Guide.astro";
 import GibsonJ200Guide from "../../components/GibsonJ200Guide.astro";
+import GibsonES225Guide from "../../components/GibsonES225Guide.astro";
 import DennisHiattLesPaulStory from "../../components/DennisHiattLesPaulStory.astro";
 import BobDentonJ200Story from "../../components/BobDentonJ200Story.astro";
 import CaliforniaL5CStory from "../../components/CaliforniaL5CStory.astro";
@@ -357,7 +358,7 @@ const articleSchema = {
 ---
 
 <Layout
-  bodyClass={isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : "blog-post-page"}
+  bodyClass={isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : "blog-post-page"}
   title={`${data.title} | Joe's Vintage Guitars`}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
@@ -405,6 +406,8 @@ const articleSchema = {
     <DennisHiattLesPaulStory />
   ) : isGibsonJ200Guide ? (
     <GibsonJ200Guide faqs={j200Faqs} />
+  ) : isEs225Guide ? (
+    <GibsonES225Guide><Content /></GibsonES225Guide>
   ) : isMartinD18Guide ? (
     <MartinD18Guide faqs={martinD18Faqs} />
   ) : isMartinSmallBodyGuide ? (

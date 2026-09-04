@@ -43,20 +43,6 @@ toc:
   - href: "#faq"
     label: "FAQ"
 ---
-<style>
-  .blog-prose figure p { margin: 0; }
-  .blog-prose figcaption { color: #3e2a14; font-weight: 500; }
-  .blog-prose .es225-note { margin: 1.6em 0; padding: 1em 1.2em; border-left: 4px solid #a03a1e; background: #faf4e6; }
-  .blog-prose .es225-note strong { display: block; margin-bottom: .35rem; }
-  .blog-prose .es225-facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .9rem; margin: 1.5rem 0; }
-  .blog-prose .es225-facts > div { padding: 1rem; border: 1px solid #e0cfa9; border-radius: 6px; background: #fffaf0; }
-  .blog-prose .es225-facts span { display: block; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: #6c5238; }
-  .blog-prose .es225-facts strong { display: block; margin: .2rem 0; font-size: 1.12rem; }
-  .blog-prose details { border-top: 1px solid #e0cfa9; padding: .9rem 0; }
-  .blog-prose summary { cursor: pointer; font-weight: 700; color: #3e2a14; }
-  @media (max-width: 700px) { .blog-prose .es225-facts { grid-template-columns: 1fr; } }
-</style>
-
 The original Gibson ES-225 family was shipped from 1955 through 1959. Every version is a fully hollow, single-cutaway thinline with a bound rosewood fingerboard and one or two black P-90 pickups. The single-pickup ES-225T places its pickup in the middle of the body. The two-pickup ES-225TD joined it in 1956.
 
 Gibson introduced three thin-bodied electrics in 1955: the upscale [Byrdland](/post/gibson-byrdland-authentication-guide/), the mid-priced ES-350T, and the ES-225T for what the 1956 catalog called the popular price field. The Byrdland reached prototype and serial production first, so the ES-225 should not be called Gibson's first thinline. It was the accessible member of that first-year group and the immediate sales leader. Gibson's ledger records 470 ES-225-family shipments in 1955, compared with three Byrdlands.
