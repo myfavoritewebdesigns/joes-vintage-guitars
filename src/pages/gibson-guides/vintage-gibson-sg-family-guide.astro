@@ -1,0 +1,650 @@
+---
+import type { ImageMetadata } from "astro";
+import Layout from "../../layouts/Layout.astro";
+import LicensedImage from "../../components/primitives/LicensedImage.astro";
+import { SITE_URL, imageLicense } from "../../config/site";
+
+import heroPhoto from "../../assets/images/gibson-serial/gibson-nickel-hardware-1962-gibson-sg-standard-scaled.jpg";
+import customPhoto from "../../assets/images/gibson-serial/1972-gibson-sg-custom.jpg";
+import cherryPhoto from "../../assets/images/gibson-serial/gibson-sg-standard-cherry-finish-close-up.jpg";
+import pelhamPhoto from "../../assets/images/gibson-serial/gibson-pelham-blue-sg.jpg";
+import walnutPhoto from "../../assets/images/gibson-serial/gibson-sg-walnut-finish.jpg";
+import tobaccoPhoto from "../../assets/images/gibson-serial/1975-gibson-sg-tobacco-burst.jpg";
+import sidewaysPhoto from "../../assets/images/gibson-serial/gibson-sg-sideways-vibrola-example-scaled.jpg";
+import lyrePhoto from "../../assets/images/gibson-serial/gibson-sg-maestro-lyre-vibrola.jpg";
+import shortMaestroPhoto from "../../assets/images/gibson-serial/gibson-small-maestro-vibrola.jpg";
+import bigsbyPhoto from "../../assets/images/gibson-serial/gibson-sg-factory-bigsby-1972-sg-custom.jpg";
+import p90SpecialPhoto from "../../assets/images/gibson-serial/gibson-sg-special-soapbar-p-90-pickups.jpg";
+import miniSpecialPhoto from "../../assets/images/gibson-serial/1973-gibson-sg-special-with-mini-humbuckers.jpg";
+import juniorPhoto from "../../assets/images/gibson-sg-family-guide/1960s-gibson-sg-junior.webp";
+import juniorBridgePhoto from "../../assets/images/gibson-sg-family-guide/1960s-gibson-sg-junior-lightning-bridge.webp";
+import juniorBackPhoto from "../../assets/images/gibson-sg-family-guide/1964-gibson-sg-junior-full-body-back.webp";
+import juniorHeadstockPhoto from "../../assets/images/gibson-sg-family-guide/1964-gibson-sg-junior-headstock-back-tuners-serial.webp";
+import juniorFretboardPhoto from "../../assets/images/gibson-sg-family-guide/1964-gibson-sg-junior-neck-fretboard-detail.webp";
+import specialComparisonPhoto from "../../assets/images/gibson-sg-family-guide/1970-gibson-sg-special-comparison.webp";
+import standardComparisonPhoto from "../../assets/images/gibson-sg-family-guide/early-60s-gibson-sg-standard-comparison.webp";
+
+interface GuidePhoto {
+  src: ImageMetadata;
+  alt: string;
+}
+
+const canonicalPath = "/gibson-guides/vintage-gibson-sg-family-guide/";
+const pageUrl = `${SITE_URL}${canonicalPath}`;
+const pageTitle = "Vintage Gibson SG Models: History, Identification and Value Guide";
+const heading = "Vintage Gibson SG Models";
+const description = "Joe Dampt compares vintage Gibson SG Junior, Special, Standard and Custom models with original photographs, identification clues, history and value factors.";
+const published = "2026-09-04T13:30:00-07:00";
+const heroImage = `${SITE_URL}${heroPhoto.src}`;
+
+const models: Array<GuidePhoto & { name: string; signal: string; details: string; caption: string }> = [
+  {
+    name: "SG Junior",
+    signal: "One dog-ear P-90",
+    details: "I look for dot inlays, no fingerboard binding, one volume control, one tone control, and a wrapover bridge. Those details make the student model easy to identify.",
+    src: juniorPhoto,
+    alt: "1960s Gibson SG Junior body with one dog-ear P-90 pickup, two controls, and a wraparound bridge",
+    caption: "1960s SG Junior · one pickup, two knobs, dot markers",
+  },
+  {
+    name: "SG Special",
+    signal: "Two pickups, usually P-90s",
+    details: "I place the Special between the Junior and Standard. Early examples have two soapbar P-90s and dot markers. Some early 1970s Specials received mini-humbuckers.",
+    src: specialComparisonPhoto,
+    alt: "1970 Gibson SG Special in cherry with two P-90 pickups, large pickguard, and short vibrato",
+    caption: "1970 SG Special · two P-90s, large guard, simple trim",
+  },
+  {
+    name: "SG Standard",
+    signal: "Two humbuckers",
+    details: "I look for a bound rosewood fingerboard, crown inlays, four controls, and two full-size humbuckers. Gibson sold the earliest examples under the Les Paul name.",
+    src: standardComparisonPhoto,
+    alt: "Early 1960s Gibson SG Standard in cherry with two humbuckers, crown inlays, and Maestro vibrato",
+    caption: "Early 1960s SG Standard · two humbuckers and bound board",
+  },
+  {
+    name: "SG Custom",
+    signal: "Three humbuckers",
+    details: "I identify the top model by its three pickups, ebony fingerboard with block inlays, multi-ply binding, split-diamond headstock, and gold hardware.",
+    src: customPhoto,
+    alt: "1972 Gibson SG Custom with three humbuckers, block inlays, and gold hardware",
+    caption: "1972 SG Custom · three pickups, blocks, gold hardware",
+  },
+];
+
+const modelRows = [
+  ["SG Junior", "1 dog-ear P-90", "Dots; no binding", "Wrapover bridge", "Two knobs"],
+  ["SG Special", "2 soapbar P-90s; early 1970s minis", "Dots; simple trim", "Wrapover or vibrato", "Four knobs and switch"],
+  ["SG Standard", "2 humbuckers", "Bound board; crowns", "Stopbar or vibrato", "Four knobs and switch"],
+  ["SG Custom", "3 humbuckers", "Ebony; blocks; multi-ply trim", "Vibrato or later options", "Four knobs and switch"],
+];
+
+const eras = [
+  {
+    years: "1961 to 1962",
+    title: "The Les Paul/SG Transition",
+    copy: "The pointed double-cutaway body replaced the familiar single-cut Les Paul shape. Standards and Customs were sold as Les Paul models, and Juniors also retained Les Paul branding. These are the earliest and most sought-after SG-bodied instruments.",
+    tags: ["Small angel-wing guard", "22nd-fret neck joint", "Nickel hardware"],
+  },
+  {
+    years: "1963 to 1965",
+    title: "The Classic Small-Guard SG",
+    copy: "The SG name was established across the line. Maestro-style vibrolas became closely associated with Standards and Customs, while Juniors and Specials kept their direct P-90 character. Nut widths begin to narrow during 1965.",
+    tags: ["SG name established", "Small guard", "Early Patent Number pickups"],
+  },
+  {
+    years: "1966 to 1969",
+    title: "The Batwing Period",
+    copy: "The large pickguard moved around the pickups and became the fastest visual clue for a later 1960s SG. Narrow 1 9/16-inch nuts, T-Top humbuckers, chrome hardware, and a changed neck joint help separate these from the early small-guard instruments.",
+    tags: ["Large batwing guard", "Narrower nut", "T-Top era"],
+  },
+  {
+    years: "1969 to 1975",
+    title: "The Early Norlin Transition",
+    copy: "Three-piece mahogany necks and a volute became important construction clues. Walnut joined cherry in the finish palette, and the catalog briefly made room for the SG Deluxe, SG Pro, and the budget SG-100, SG-200, and SG-250 series.",
+    tags: ["Three-piece mahogany neck", "Volute", "Walnut option"],
+  },
+  {
+    years: "1971 to 1972",
+    title: "The Experimental Catalog",
+    copy: "Familiar names briefly gave way to SG Deluxe, SG Pro, SG-100, SG-200, and SG-250. Front-mounted control plates, altered pickup layouts, and unusual hardware make this short run visually distinct from both 1960s and later 1970s SGs.",
+    tags: ["Deluxe and Pro names", "Control plates", "Short production runs"],
+  },
+  {
+    years: "1975 to 1984",
+    title: "Mid- and Late-Norlin SGs",
+    copy: "Some necks moved to three-piece maple, hardware kept evolving, and the TP-6 fine-tuning tailpiece appeared from 1977. Standard, Custom, Special, and derivative model names overlap across a period best dated by construction plus electronics.",
+    tags: ["Some maple necks", "TP-6 from 1977", "Multiple variants"],
+  },
+];
+
+const valueFactors = [
+  ["Exact Model and Era", "I value an early SG/Les Paul Standard in a different market from a 1970s SG Standard, even when both guitars are original."],
+  ["Original Finish", "Natural cherry fade isn’t damage. I treat a refinish, overspray, or color change as a major value issue."],
+  ["Pickups and Electronics", "I look for original PAF, Patent Number, or P-90 pickups and an undisturbed wiring harness."],
+  ["Breaks and Repairs", "I see headstock and neck joint repairs often. The quality and visibility matter, but any break affects collector value."],
+  ["Hardware and Plastics", "I check that the tuners, bridge, vibrato, pickguard, knobs, and pickup rings match the claimed production period."],
+  ["Color, Case, and History", "I consider documented custom colors, the correct case, receipts, family photographs, and a clear ownership story."],
+];
+
+const faqs = [
+  {
+    question: "Is a 1961 Gibson SG Actually a Les Paul?",
+    answer: "Yes. The body is the design we now call the SG, but Gibson initially sold the Standard and Custom under the Les Paul name. Early Juniors also kept Les Paul branding. By 1963, the SG name was established across the family.",
+  },
+  {
+    question: "What Is the Difference Between an SG Junior and SG Special?",
+    answer: "A vintage SG Junior has one dog-ear P-90 at the bridge and two controls. A vintage SG Special has two soapbar P-90s, a selector switch, and four controls. Both are plainer than a Standard.",
+  },
+  {
+    question: "Does an SG Serial Number Prove the Year?",
+    answer: "No. Gibson reused and overlapped serial ranges during the 1960s. I check the number against the pickguard, neck joint, nut width, hardware, pickup codes, pot codes, and construction.",
+  },
+  {
+    question: "Does a Repaired Headstock Make a Vintage SG Worthless?",
+    answer: "No, but it changes the market. A clean, stable repair can make a good player’s guitar. I still value it below an otherwise equal unbroken example.",
+  },
+  {
+    question: "Which Vintage SG Models Are Worth the Most?",
+    answer: "Early Les Paul branded Standards and Customs usually sit near the top. I still judge each guitar by its originality, condition, finish, pickups, repairs, and history.",
+  },
+  {
+    question: "When Did Gibson Add a Volute to the SG?",
+    answer: "I start seeing volutes around the 1969 transition into early Norlin production. Gibson changes overlapped, so I compare the volute with the neck construction, Made in USA stamp, hardware, finish, and electronics.",
+  },
+  {
+    question: "Did Vintage SG Specials Come With Humbuckers?",
+    answer: "Yes, but the factory exception is the mini-humbucker version found on some early 1970s examples. The classic early SG Special has two soapbar P-90s. I still check that the pickup routes, pickguard, and the rest of the guitar agree with the claimed model and year.",
+  },
+  {
+    question: "Is Pelham Blue an Original Vintage SG Color?",
+    answer: "Yes. I see Pelham Blue on a small number of 1960s SGs, and it’s far less common than cherry. I check a valuable custom color claim under the guard and with ultraviolet light for original lacquer, fading, overspray, and finish work.",
+  },
+];
+
+const internalGuides = [
+  { title: "Gibson PAF and Patent Number Pickup Guide", copy: "Identify PAF, Patent Number, and T-Top pickups by their construction, decals, hardware, and era.", href: "/post/gibson-paf-patent-number-pickup-guide/" },
+  { title: "Gibson Serial Number Decoder", copy: "Use my decoder as a starting point, then verify the guitar’s physical features.", href: "/how-to-read-gibson-serial-numbers/" },
+  { title: "Gibson Production and Shipping Totals", copy: "Compare recorded SG Standard, Custom, Special, and Junior shipments by year.", href: "/post/gibson-shipping-totals-1948-1979/" },
+  { title: "Les Paul Junior Authentication Guide", copy: "Follow the Junior from the 1954 slab body through the 1961 SG transition.", href: "/post/gibson-les-paul-junior-guide/" },
+  { title: "How Gibson Year Affects Value", copy: "See where the 1960s transition and Norlin years fit in the larger Gibson market.", href: "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/" },
+];
+
+const articleImage = {
+  "@type": "ImageObject",
+  url: heroImage,
+  width: heroPhoto.width,
+  height: heroPhoto.height,
+  caption: "1962 Gibson SG Standard with original nickel hardware",
+  license: imageLicense.photoLicenseUrl,
+  acquireLicensePage: imageLicense.photoLicenseUrl,
+  creditText: imageLicense.creditText,
+  creator: { "@id": `${SITE_URL}/about-me/#person` },
+  copyrightNotice: imageLicense.copyrightNotice,
+};
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": `${pageUrl}#article`,
+  headline: pageTitle,
+  description,
+  image: articleImage,
+  datePublished: published,
+  dateModified: published,
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+  mainEntityOfPage: pageUrl,
+  inLanguage: "en-US",
+  isAccessibleForFree: true,
+  about: ["Gibson SG Junior", "Gibson SG Special", "Gibson SG Standard", "Gibson SG Custom", "Vintage Gibson guitars"],
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Vintage Gibson SG Family Guide", item: pageUrl },
+  ],
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${pageUrl}#faq-schema`,
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
+  })),
+};
+---
+
+<Layout
+  bodyClass="sgf-guide-page"
+  title={pageTitle}
+  description={description}
+  canonical={canonicalPath}
+  ogImage={heroImage}
+  ogImageAlt="1962 Gibson SG Standard with original nickel hardware"
+  ogImageWidth={heroPhoto.width}
+  ogImageHeight={heroPhoto.height}
+  ogType="article"
+  publishedTime={published}
+  modifiedTime={published}
+  structuredData={[breadcrumbSchema, articleSchema, faqSchema]}
+>
+  <article class="sgf-page">
+    <header class="sgf-hero">
+      <div class="sgf-hero__copy">
+        <nav class="sgf-breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span><a href="/blog/">Gibson Guides</a><span aria-hidden="true">/</span><span>Vintage Gibson SG</span>
+        </nav>
+        <p class="sgf-eyebrow">The Complete Collector’s Field Guide</p>
+        <h1>{heading}</h1>
+        <p class="sgf-hero__subtitle">Junior, Special, Standard and Custom</p>
+        <p class="sgf-hero__dek">In this photograph-led guide, I cover the SG family from the first Les Paul-branded guitars through the Norlin years. I’ll show you what defines each model, which parts fit each era, and what I inspect before I buy, sell, or value one.</p>
+        <div class="sgf-byline"><span>JD</span><p><strong>By <a href="/about-me/">Joe Dampt</a></strong><small>Vintage Gibson specialist</small></p></div>
+      </div>
+      <figure class="sgf-hero__image">
+        <LicensedImage src={heroPhoto} alt="1962 Gibson SG Standard with original nickel hardware" width={1400} loading="eager" fetchpriority="high" decoding="async" />
+        <figcaption>1962 SG/Les Paul Standard with nickel hardware.</figcaption>
+      </figure>
+    </header>
+
+    <section class="sgf-quick-answer" aria-labelledby="sgf-quick-answer-title">
+      <span class="sgf-answer-number">01</span>
+      <div>
+        <p class="sgf-eyebrow">Identify the Family First</p>
+        <h2 id="sgf-quick-answer-title">Four Core Models. Four Different Visual Signatures.</h2>
+        <p>I divide the vintage SG family into four core models: the <strong>Junior, Special, Standard, and Custom</strong>. I start with pickup count and type, confirm the fingerboard trim and controls, then date the guitar from its neck, pickguard, hardware, finish, serial number, and electronics. My <a href="/how-to-read-gibson-serial-numbers/">complete Gibson SG dating reference</a> provides the serial tables and model-by-model details for the final cross-check.</p>
+        <div class="sgf-fact-strip" aria-label="Guide coverage">
+          <span><strong>4</strong> core models</span><span><strong>6</strong> production eras</span><span><strong>19</strong> field photographs</span><span><strong>1961 to 1984</strong> field-guide range</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="sgf-article-grid">
+      <aside class="sgf-toc" aria-label="Table of contents">
+        <p>In This Guide</p>
+        <ol>
+          <li><a href="#models">Model Comparison</a></li><li><a href="#standard">SG Standard</a></li><li><a href="#custom">SG Custom</a></li><li><a href="#special">SG Special</a></li><li><a href="#junior">SG Junior</a></li><li><a href="#timeline">Production Timeline</a></li><li><a href="#hardware">Hardware Atlas</a></li><li><a href="#identify">Dating and Authentication</a></li><li><a href="#value">Value and Research</a></li><li><a href="#faq">Common Questions</a></li>
+        </ol>
+        <a class="sgf-toc__help" href="/sell-my-gibson-guitar/">Need Help Identifying Yours?</a>
+      </aside>
+
+      <div class="sgf-article-body">
+        <section id="models" class="sgf-section">
+          <p class="sgf-kicker">Start Here</p>
+          <h2>How to Tell the Four Vintage SG Models Apart</h2>
+          <p>I use Gibson’s familiar student-to-deluxe hierarchy to sort the thin double-cutaway models. The Junior is spare. The Special adds a second pickup. The Standard moves to humbuckers and dressier trim. The Custom sits at the top with three pickups, gold hardware, and the most elaborate appointments. Browse <a href="/blog/">my vintage Gibson model guides</a> for more instrument-by-instrument research.</p>
+          <div class="sgf-model-grid">
+            {models.map((model, index) => (
+              <article class="sgf-model-card">
+                <figure>
+                  <LicensedImage src={model.src} alt={model.alt} width={900} loading="lazy" decoding="async" />
+                  <figcaption>{model.caption}</figcaption>
+                </figure>
+                <div class="sgf-model-card__copy"><span>0{index + 1}</span><h3>{model.name}</h3><strong>{model.signal}</strong><p>{model.details}</p></div>
+              </article>
+            ))}
+          </div>
+          <div class="sgf-table-wrap">
+            <table>
+              <caption>Fast visual comparison of the core vintage SG family</caption>
+              <thead><tr><th scope="col">Model</th><th scope="col">Pickups</th><th scope="col">Fingerboard</th><th scope="col">Typical Tailpiece</th><th scope="col">Controls</th></tr></thead>
+              <tbody>{modelRows.map((row) => <tr>{row.map((cell, index) => index === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>)}</tr>)}</tbody>
+            </table>
+          </div>
+          <div class="sgf-note"><strong>1961 to 1963 Naming Trap</strong><p>Gibson still sold the earliest SG-shaped instruments as Les Paul models. An early guitar can have the body we call an SG without saying “SG” anywhere on it. My <a href="/post/gibson-les-paul-junior-guide/">Les Paul Junior evolution guide</a> documents that transition on the one-pickup model. I put more weight on construction and original features than the wording on a truss-rod cover.</p></div>
+        </section>
+
+        <section id="standard" class="sgf-section sgf-model-section">
+          <div class="sgf-dossier-heading"><span>01</span><div><p class="sgf-kicker">Two Humbuckers</p><h2>Gibson SG Standard</h2></div></div>
+          <p class="sgf-lead">The Standard is the guitar most players picture when someone says “vintage SG”: two full-size humbuckers, four controls, a bound rosewood fingerboard with crown inlays, and cherry-finished mahogany. I use the hardware and neck details to separate one decade from another, then compare them with my <a href="/how-to-read-gibson-serial-numbers/">SG Standard dating charts</a> before assigning a year.</p>
+          <div class="sgf-dossier-layout">
+            <div>
+              <h3>What Makes It a Standard</h3>
+              <ul class="sgf-feature-list">
+                <li><strong>Two full-size humbuckers.</strong> <a href="/post/gibson-paf-patent-number-pickup-guide/">PAFs and Patent Number pickups</a> can appear on the earliest 1961 to 1962 guitars, followed by T-Tops.</li>
+                <li><strong>Bound rosewood fingerboard.</strong> Crown or trapezoid-style inlays separate it from the dot-marker Junior and Special.</li>
+                <li><strong>Four knobs and a selector.</strong> The familiar two-volume, two-tone Gibson control layout remains a core clue.</li>
+                <li><strong>Model- and era-correct bridge.</strong> Stopbars, sideways units, Maestro vibratos, and later hardware must agree with the date.</li>
+              </ul>
+              <dl class="sgf-spec-ledger">
+                <div><dt>1961 to 1962</dt><dd>Les Paul/SG name, one-piece mahogany neck, 1 11/16-inch nut, no volute</dd></div>
+                <div><dt>1963 to 1964</dt><dd>SG name established; one-piece neck; early Patent Number pickup period</dd></div>
+                <div><dt>1965 to 1969</dt><dd>Narrower 1 9/16-inch nut; T-Top transition; large guard from the later 1960s</dd></div>
+                <div><dt>1969 to 1975</dt><dd>Three-piece mahogany neck, volute, and walnut finish option</dd></div>
+                <div><dt>1975 to 1984</dt><dd>Some three-piece maple necks; TP-6 fine-tuner tailpiece from 1977</dd></div>
+              </dl>
+            </div>
+            <figure class="sgf-model-photo"><LicensedImage src={cherryPhoto} alt="Vintage Gibson SG Standard cherry finish close-up" width={900} loading="lazy" decoding="async" /><figcaption><strong>Finish Evidence</strong> Transparent cherry lets the mahogany grain remain visible. Protected areas often retain the strongest red.</figcaption></figure>
+          </div>
+          <div class="sgf-subsection-heading"><p class="sgf-kicker">Finish Atlas</p><h3>Color Can Rule an Era In or Out</h3><p>Cherry spans the whole story, so it can’t date a guitar by itself. Rarer colors are more useful once I’ve confirmed the original lacquer.</p></div>
+          <div class="sgf-photo-grid sgf-photo-grid--three">
+            <figure class="sgf-evidence-photo"><LicensedImage src={pelhamPhoto} alt="Rare 1960s Gibson SG in Pelham Blue" width={700} loading="lazy" decoding="async" /><figcaption><strong>Pelham Blue</strong><span>A scarce 1960s factory color. Check fading, protected areas, and UV response before paying a custom-color premium.</span></figcaption></figure>
+            <figure class="sgf-evidence-photo"><LicensedImage src={walnutPhoto} alt="Norlin-era Gibson SG in walnut finish" width={700} loading="lazy" decoding="async" /><figcaption><strong>Walnut</strong><span>Closely associated with the early Norlin era; it immediately argues against a pre-1969 claim.</span></figcaption></figure>
+            <figure class="sgf-evidence-photo"><LicensedImage src={tobaccoPhoto} alt="1975 Gibson SG in Tobacco Burst finish" width={700} loading="lazy" decoding="async" /><figcaption><strong>Tobacco Burst</strong><span>An uncommon 1970s finish, shown here on a 1975 SG.</span></figcaption></figure>
+          </div>
+          <div class="sgf-two-tables">
+            <div class="sgf-table-wrap"><table><caption>Standard pickup framework</caption><thead><tr><th scope="col">Period</th><th scope="col">Expected Pickup Family</th></tr></thead><tbody><tr><th scope="row">1961 to 1962</th><td>PAF, with early Patent Number overlap</td></tr><tr><th scope="row">1962 to 1965</th><td>Patent Number humbuckers</td></tr><tr><th scope="row">1965 to 1975</th><td>T-Top era</td></tr></tbody></table></div>
+            <div class="sgf-table-wrap"><table><caption>Standard neck framework</caption><thead><tr><th scope="col">Period</th><th scope="col">Construction Clue</th></tr></thead><tbody><tr><th scope="row">1961 to 1969</th><td>One-piece mahogany; no volute</td></tr><tr><th scope="row">1969 to 1975</th><td>Three-piece mahogany; volute</td></tr><tr><th scope="row">1975 to 1984</th><td>Some three-piece maple necks</td></tr></tbody></table></div>
+          </div>
+        </section>
+
+        <section id="custom" class="sgf-section sgf-model-section">
+          <div class="sgf-dossier-heading"><span>02</span><div><p class="sgf-kicker">Three Humbuckers</p><h2>Gibson SG Custom</h2></div></div>
+          <div class="sgf-dossier-layout sgf-dossier-layout--reverse">
+            <figure class="sgf-model-photo sgf-model-photo--tall"><LicensedImage src={customPhoto} alt="1972 Gibson SG Custom with three pickups and gold hardware" width={900} loading="lazy" decoding="async" /><figcaption><strong>1972 SG Custom</strong> Three pickups, gold hardware, and deluxe trim identify the Custom before the serial number is read.</figcaption></figure>
+            <div>
+              <p>I identify the top-line SG by its three humbuckers, gold-plated hardware, ebony fingerboard with block inlays, multi-ply binding, and split-diamond headstock ornament. Gibson introduced it in 1961 as the Les Paul Custom. Early Polaris White examples are easy to recognize, while walnut and ebony appear later.</p>
+              <h3>The Fastest Custom Checks</h3>
+              <ul class="sgf-feature-list"><li><strong>Three pickups.</strong> That’s the clearest difference from the two-humbucker Standard.</li><li><strong>Gold hardware.</strong> Natural plating wear can expose nickel underneath. Uniform bright plating deserves a closer look.</li><li><strong>Deluxe trim.</strong> Ebony board, block inlays, multi-ply binding, and the headstock diamond should read as one coherent package.</li><li><strong>Original routing.</strong> Pull the guard before assuming a three-pickup conversion is a factory Custom.</li></ul>
+            </div>
+          </div>
+          <div class="sgf-era-cards"><article><span>1961 to 1963</span><h3>Les Paul Custom</h3><p>Three PAFs, a one-piece mahogany neck, gold hardware, deluxe binding, and typically Polaris White. These are the earliest and most collectible.</p></article><article><span>1963 to 1969</span><h3>SG Name, Evolving Hardware</h3><p>Patent Number pickups give way to T-Tops. The nut narrows after 1965, and Grover Rotomatics become common around the later 1960s.</p></article><article><span>1969 to 1980</span><h3>Norlin Construction</h3><p>Three-piece necks, volutes, walnut or ebony finish options, and later TP-6 hardware separate these from the early white Customs.</p></article></div>
+        </section>
+
+        <section id="special" class="sgf-section sgf-model-section">
+          <div class="sgf-dossier-heading"><span>03</span><div><p class="sgf-kicker">Two Pickups, Simpler Trim</p><h2>Gibson SG Special</h2></div></div>
+          <p class="sgf-lead">I place the classic SG Special between the Junior and Standard. It has two pickups and four controls, but it keeps dot inlays and simpler trim. Early examples use two soapbar P-90s. Some early 1970s Specials received mini-humbuckers, as documented in my <a href="/how-to-read-gibson-serial-numbers/">Gibson SG model guide</a>.</p>
+          <div class="sgf-photo-grid sgf-photo-grid--two">
+            <figure class="sgf-evidence-photo"><LicensedImage src={p90SpecialPhoto} alt="Vintage Gibson SG Special with two soapbar P-90 pickups" width={900} loading="lazy" decoding="async" /><figcaption><strong>The Classic Special</strong><span>Two soapbar P-90s, a selector switch, and four controls. The Junior uses one dog-ear P-90 instead.</span></figcaption></figure>
+            <figure class="sgf-evidence-photo"><LicensedImage src={miniSpecialPhoto} alt="1973 Gibson SG Special with black-cover mini-humbuckers" width={900} loading="lazy" decoding="async" /><figcaption><strong>1973 Transition</strong><span>Black-cover mini-humbuckers show why pickup type has to be read together with the pickguard, controls, neck, and serial evidence.</span></figcaption></figure>
+          </div>
+          <div class="sgf-era-cards"><article><span>1961 to 1963</span><h3>Les Paul Special / SG Body</h3><p>Two soapbar P-90s, thin one-piece mahogany neck, no volute, and cherry, white, or scarce TV Yellow finishes.</p></article><article><span>1963 to 1971</span><h3>The P-90 SG Special</h3><p>The SG name is established, while the two-soapbar layout remains the model’s strongest visual signature. Later guitars follow the larger-pickguard transition.</p></article><article><span>Early 1970s</span><h3>Mini-Humbucker Variation</h3><p>Mini-humbuckers appear on some early 1970s Specials. I don’t reject one by pickup type alone, but I inspect the routes because later pickup swaps are common.</p></article></div>
+        </section>
+
+        <section id="junior" class="sgf-section sgf-model-section">
+          <div class="sgf-dossier-heading"><span>04</span><div><p class="sgf-kicker">One Pickup, One Purpose</p><h2>Gibson SG Junior</h2></div></div>
+          <div class="sgf-junior-panel"><div><p class="sgf-kicker">The Quickest SG to Recognize</p><h3>One Dog-Ear P-90. Two Knobs. No Binding.</h3><p>Gibson’s student model entered the SG shape in 1961 but kept the Les Paul Junior name through 1962. In my <a href="/post/gibson-les-paul-junior-guide/">complete Gibson Les Paul Junior guide</a>, I follow that evolution from the 1954 slab body into the SG transition. I identify an SG Junior by its thin pointed body, single bridge-position dog-ear P-90, wrapover bridge, dot markers, and two-control layout.</p></div><div class="sgf-junior-facts"><span><strong>1961 to 1963</strong>Thinnest body, Les Paul-to-SG naming transition, one-piece mahogany neck</span><span><strong>1963 to 1965</strong>SG name established; some guitars use a small vibrato</span><span><strong>1966 to 1969</strong>Thicker neck feel; white joins cherry; still no volute</span><span><strong>1969 to 1971</strong>Three-piece mahogany neck and volute before discontinuation</span></div></div>
+          <div class="sgf-photo-grid sgf-photo-grid--two"><figure class="sgf-evidence-photo"><LicensedImage src={juniorPhoto} alt="1960s Gibson SG Junior body with one dog-ear P-90 and two controls" width={900} loading="lazy" decoding="async" /><figcaption><strong>The Junior Layout</strong><span>One bridge-position dog-ear P-90, one volume, and one tone control make the model readable before the serial number is checked.</span></figcaption></figure><figure class="sgf-evidence-photo"><LicensedImage src={juniorBridgePhoto} alt="1960s Gibson SG Junior dog-ear P-90 and compensated lightning-bolt wraparound bridge" width={900} loading="lazy" decoding="async" /><figcaption><strong>Pickup and Bridge Evidence</strong><span>The dog-ear pickup and compensated wraparound bridge belong to the Junior vocabulary; added Tune-o-matic posts would require an explanation.</span></figcaption></figure></div>
+          <div class="sgf-note"><strong>Junior Bridge Check</strong><p>A period SG Junior should make sense around a wrapover bridge. An ABR-1 or Tune-o-matic can indicate a conversion, altered body, or misidentified guitar. Look for post holes, plugs, and finish disturbance.</p></div>
+          <a class="sgf-inline-guide" href="/post/gibson-les-paul-junior-guide/">Follow the Junior from 1954 through the 1961 SG transition</a>
+        </section>
+
+        <section id="timeline" class="sgf-section">
+          <p class="sgf-kicker">The Whole Family</p><h2>Vintage Gibson SG Production Timeline</h2>
+          <p>Factory changes overlap, so I treat these as working eras rather than strict January-to-December rules. A transitional guitar can carry features from both sides of a date line. Pair this timeline with my <a href="/post/gibson-shipping-totals-1948-1979/">Gibson SG production and shipping totals</a> to see how Standard, Custom, Special, and Junior output changed by year.</p>
+          <div class="sgf-timeline">{eras.map((era) => <article><div class="sgf-timeline__year">{era.years}</div><div><h3>{era.title}</h3><p>{era.copy}</p><div class="sgf-tags">{era.tags.map((tag) => <span>{tag}</span>)}</div></div></article>)}</div>
+          <div class="sgf-offshoots"><h3>Short-Lived 1970s SG Offshoots</h3><p><strong>SG Deluxe and SG Pro:</strong> transitional models with hardware and control layouts that don’t follow the earlier Standard/Special template.</p><p><strong>SG-100, SG-200, and SG-250:</strong> budget models from the early 1970s; pickup count and front-mounted electronics help tell them apart.</p><p><strong>SG I, II, and III:</strong> later numbered variants that belong to the wider SG family. I wouldn’t represent one as a Standard, Special, Junior, or Custom.</p></div>
+        </section>
+
+        <section id="hardware" class="sgf-section">
+          <p class="sgf-kicker">Hardware Atlas</p><h2>Four SG Vibratos That Change the Identification</h2>
+          <p>Tailpiece type is one of the most visible dating clues. It’s also one of the easiest parts to replace. I study the unit’s footprint, screw holes, bridge, plating, and finish shadows to decide whether it has always been on that guitar. Then I compare the whole instrument with my <a href="/how-to-read-gibson-serial-numbers/">complete Gibson serial number guide</a>.</p>
+          <div class="sgf-photo-grid sgf-photo-grid--two">
+            <figure class="sgf-evidence-photo"><LicensedImage src={sidewaysPhoto} alt="1961 to 1962 Gibson SG sideways vibrola" width={900} loading="lazy" decoding="async" /><figcaption><strong>Sideways Vibrola · 1961 to 1962</strong><span>The ornate side-pull mechanism is a signature of the earliest high-trim SG/Les Paul period.</span></figcaption></figure>
+            <figure class="sgf-evidence-photo"><LicensedImage src={lyrePhoto} alt="1963 to 1966 Gibson SG Maestro Lyre vibrola" width={900} loading="lazy" decoding="async" /><figcaption><strong>Maestro Lyre · Commonly 1963 to 1966</strong><span>The long engraved cover became one of the defining visual details of a classic mid-1960s Standard or Custom.</span></figcaption></figure>
+            <figure class="sgf-evidence-photo"><LicensedImage src={shortMaestroPhoto} alt="1960s Gibson SG short Maestro vibrola" width={900} loading="lazy" decoding="async" /><figcaption><strong>Short Maestro · Commonly 1963 to 1966</strong><span>A compact factory vibrato whose screw pattern and finish shadow should match the body.</span></figcaption></figure>
+            <figure class="sgf-evidence-photo"><LicensedImage src={bigsbyPhoto} alt="1972 Gibson SG Custom with factory-fitted Bigsby vibrato" width={900} loading="lazy" decoding="async" /><figcaption><strong>Factory Bigsby · 1972 Example</strong><span>Documented on some Norlin-era SGs. Factory provenance matters because later Bigsby additions are common.</span></figcaption></figure>
+          </div>
+        </section>
+
+        <section id="identify" class="sgf-section">
+          <p class="sgf-kicker">Visual Dating</p><h2>How I Identify an Unknown SG</h2>
+          <p>I start with features that require permanent woodwork, then move toward parts that can be changed with a screwdriver. I check the serial number near the end of the sequence. Once the physical evidence agrees, I use my <a href="/how-to-read-gibson-serial-numbers/">free Gibson serial number decoder</a> to test the date.</p>
+          <div class="sgf-photo-grid sgf-photo-grid--three">
+            <figure class="sgf-evidence-photo"><LicensedImage src={juniorHeadstockPhoto} alt="Back of a 1964 Gibson SG Junior headstock showing serial number and strip tuners" width={700} loading="lazy" decoding="async" /><figcaption><strong>Serial and Tuner Footprint</strong><span>Read the stamped number alongside the tuner style, screw holes, lacquer texture, and any shadow left by earlier hardware.</span></figcaption></figure>
+            <figure class="sgf-evidence-photo"><LicensedImage src={juniorBackPhoto} alt="Back of a 1964 Gibson SG Junior showing the neck heel and mahogany body" width={700} loading="lazy" decoding="async" /><figcaption><strong>Neck Heel and Body</strong><span>The heel, neck joint, mahogany construction, bevels, and protected finish help test whether the claimed era is physically coherent.</span></figcaption></figure>
+            <figure class="sgf-evidence-photo"><LicensedImage src={juniorFretboardPhoto} alt="1964 Gibson SG Junior unbound rosewood fingerboard with dot markers" width={700} loading="lazy" decoding="async" /><figcaption><strong>Fingerboard Trim</strong><span>Dot markers and an unbound board support Junior identification. Wear or a missing inlay is a condition issue, not a different model.</span></figcaption></figure>
+          </div>
+          <div class="sgf-inspection-list">
+            <article><span>1</span><div><h3>Establish the Model</h3><p>Count the pickups, identify their type, and confirm the control layout, fingerboard markers, binding, and headstock trim.</p></div></article>
+            <article><span>2</span><div><h3>Read the Body and Pickguard</h3><p>Small guard, large batwing guard, control plate, bevel shape, and neck-joint position narrow the production era before a number is decoded.</p></div></article>
+            <article><span>3</span><div><h3>Measure the Nut and Study the Neck</h3><p>Early guitars are generally 1 11/16 inches at the nut. Many 1965 to 1969 examples narrow to about 1 9/16. One-piece versus three-piece construction and a volute are major clues.</p></div></article>
+            <article><span>4</span><div><h3>Match the Bridge and Vibrato</h3><p>Wrapover, sideways, Lyre, short Maestro, Bigsby, stopbar, and TP-6 systems belong to different models and periods. Extra or plugged holes record earlier hardware.</p></div></article>
+            <article><span>5</span><div><h3>Inspect the Pickups and Harness</h3><p>Baseplates, stickers, patent markings, lead wire, pot date codes, capacitors, and untouched solder should support the claimed era together.</p></div></article>
+            <article><span>6</span><div><h3>Look for Repairs and Finish Work</h3><p>Check the headstock, neck heel, pickup routes, tuner footprints, and protected finish under guards. UV light can expose overspray and touch-up.</p></div></article>
+            <article><span>7</span><div><h3>Cross-Check the Serial Number</h3><p>Only after the guitar has an evidence-based model and era should the headstock number, Made in USA stamp, and production references be used to test the conclusion.</p></div></article>
+          </div>
+          <a class="sgf-inline-guide" href="/how-to-read-gibson-serial-numbers/">Decode the number and compare the complete SG dating charts</a>
+        </section>
+
+        <section id="authentication" class="sgf-section">
+          <p class="sgf-kicker">Before Buying or Selling</p><h2>Vintage SG Authentication Checklist</h2>
+          <p>I’ve seen plenty of light, playable SGs with repairs or modifications earned through years of use. That history can still leave you with a wonderful instrument, but the description and price must reflect it. If the clues don’t line up, send me the photographs through my <a href="/free-appraisal/">free vintage guitar appraisal</a> for a second look.</p>
+          <div class="sgf-checklist">
+            <div><span aria-hidden="true">✓</span><p>Photograph the full front and back before removing any parts; document every screw and finish shadow as found.</p></div>
+            <div><span aria-hidden="true">✓</span><p>Inspect the back of the headstock and the neck heel under strong side light for glue lines, overspray, or a change in lacquer texture.</p></div>
+            <div><span aria-hidden="true">✓</span><p>Remove the pickguard when permission allows and look for enlarged pickup routes, plugged bridge holes, and added vibrato holes.</p></div>
+            <div><span aria-hidden="true">✓</span><p>Confirm that pickup baseplates, stickers, leads, solder joints, pot date codes, and capacitors agree with one another.</p></div>
+            <div><span aria-hidden="true">✓</span><p>Compare tuner footprints and screw holes. Replaced tuners are common even when vintage-looking replacements are installed.</p></div>
+            <div><span aria-hidden="true">✓</span><p>Check cherry or custom-color finish in protected areas. Original aging should make physical sense around guards and hardware.</p></div>
+            <div><span aria-hidden="true">✓</span><p>Record the case, paperwork, receipts, and old photographs. Provenance can support both authentication and value.</p></div>
+          </div>
+          <blockquote class="sgf-pullquote"><strong>A Serial Number Is Evidence, Not a Verdict.</strong><p>I expect the body, neck, finish, hardware, and electronics on a vintage Gibson to tell the same story.</p></blockquote>
+        </section>
+
+        <section id="value" class="sgf-section">
+          <p class="sgf-kicker">Collector Value</p><h2>What Makes One Vintage SG Worth More Than Another?</h2>
+          <p>I use the model and year to establish the market category. Finish, originality, condition, repairs, and documentation decide where an individual guitar sits inside it. My <a href="/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/">vintage Gibson value-by-year guide</a> explains the wider market context. If you’re ready for an offer, go directly to <a href="/sell-my-gibson-guitar/">Sell My Gibson</a>.</p>
+          <div class="sgf-value-grid">{valueFactors.map(([title, copy], index) => <article><span>0{index + 1}</span><h3>{title}</h3><p>{copy}</p></article>)}</div>
+          <div class="sgf-value-callout"><span aria-hidden="true">✓</span><div><h3>A Repaired SG Can Still Be a Very Good Guitar</h3><p>A stable professional repair and clear pricing can make a broken-and-repaired SG an excellent player. I don’t value it like an otherwise equivalent unbroken collector example.</p></div></div>
+        </section>
+
+        <section id="guides" class="sgf-section">
+          <p class="sgf-kicker">Use the Complete Research Set</p><h2>Keep Researching on Joe’s Vintage Guitars</h2>
+          <p>I use these resources from the <a href="/">Joe’s Vintage Guitars home page</a> to move from broad SG identification to pickup authentication, serial-number cross-checking, production context, year-based value, and the earlier Junior story.</p>
+          <div class="sgf-guide-grid">{internalGuides.map((guide) => <a href={guide.href}><strong>{guide.title}</strong><p>{guide.copy}</p><span>Read the Guide</span></a>)}</div>
+        </section>
+
+        <section id="faq" class="sgf-section">
+          <p class="sgf-kicker">Common Questions</p><h2>Vintage Gibson SG FAQ</h2>
+          <div class="sgf-faq-list">{faqs.map((faq, index) => <details open={index === 0}><summary>{faq.question}<span aria-hidden="true">+</span></summary><p>{faq.answer}</p></details>)}</div>
+        </section>
+
+        <section class="sgf-sources">
+          <h2>About the Photographs and Research</h2>
+          <p>The photographs come from guitars I’ve documented at <a href="/">Joe’s Vintage Guitars</a> and in my <a href="/how-to-read-gibson-serial-numbers/">Gibson serial number and dating guide</a>. I cross-check production context with my <a href="/post/gibson-shipping-totals-1948-1979/">Gibson shipping totals</a>. Factory changes overlap, so I don’t treat any single feature as proof of a production year.</p>
+        </section>
+      </div>
+    </div>
+
+    <section class="sgf-final-cta">
+      <div><p class="sgf-eyebrow">Have a Vintage SG?</p><h2>Let’s Figure Out Exactly What You Have.</h2><p>Send me clear photos of the front, back, headstock, serial number, pickups, controls, and case for a free appraisal. If you decide to move forward, I can also make a direct offer for your vintage Gibson.</p></div>
+      <div class="sgf-cta-actions"><a class="sgf-primary-button" href="/free-appraisal/">Get a Free Appraisal</a><a href="/sell-my-gibson-guitar/">Sell My Gibson</a><a href="tel:+16029006635">Call or Text (602) 900-6635</a><a href="mailto:joesvintageguitars94@gmail.com">Email Joe</a></div>
+    </section>
+  </article>
+</Layout>
+
+<style is:global>
+  body.sgf-guide-page { background: #f3efe6; color: #201b19; }
+  .sgf-page { --sgf-ink: #201b19; --sgf-paper: #f3efe6; --sgf-paper-deep: #e8e0d2; --sgf-white: #fffdf8; --sgf-oxblood: #6f101b; --sgf-oxblood-dark: #3e0810; --sgf-gold: #c59745; --sgf-line: #d8cec0; width: 100%; overflow: clip; font-family: var(--font-sans); font-size: 16px; line-height: 1.75; }
+  .sgf-page *, .sgf-page *::before, .sgf-page *::after { box-sizing: border-box; }
+  .sgf-page a { color: inherit; }
+  .sgf-page :is(.sgf-section, .sgf-quick-answer) a:not(.sgf-inline-guide) { color: var(--sgf-oxblood); font-weight: 700; text-decoration-color: var(--sgf-gold); text-decoration-thickness: 1.5px; text-underline-offset: .18em; }
+  .sgf-hero { display: grid; grid-template-columns: minmax(0, .93fr) minmax(420px, 1.07fr); min-height: 790px; overflow: hidden; background: var(--sgf-oxblood-dark); color: #fff; }
+  .sgf-hero__copy { display: flex; flex-direction: column; justify-content: flex-end; padding: 270px clamp(2.8rem, 6vw, 6rem) clamp(3.5rem, 6vw, 6rem); background: radial-gradient(circle at 0 0, rgba(197,151,69,.22), transparent 34%), linear-gradient(145deg, #5d0c16 0%, #36070d 100%); }
+  .sgf-breadcrumb { display: flex; align-items: center; flex-wrap: wrap; gap: .45rem; margin-bottom: 2rem; color: rgba(255,255,255,.66); font-size: .78rem; }
+  .sgf-breadcrumb a { text-decoration: none; }
+  .sgf-eyebrow, .sgf-kicker { margin: 0 0 .8rem; color: var(--sgf-gold); font-family: var(--font-display); font-size: .75rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+  .sgf-hero h1 { max-width: 620px; margin: 0; font-family: var(--font-display); font-size: clamp(3rem, 5.4vw, 6.3rem); font-weight: 600; letter-spacing: -.035em; line-height: .94; }
+  .sgf-hero__subtitle { margin: 1.35rem 0 0; color: #f1c77b; font-family: var(--font-display); font-size: clamp(1.25rem, 2vw, 1.9rem); font-weight: 600; }
+  .sgf-hero__dek { max-width: 630px; margin: 2rem 0; color: #e6d9d3; font-size: 1.04rem; line-height: 1.72; }
+  .sgf-byline { display: flex; align-items: center; gap: .75rem; margin-top: .5rem; }
+  .sgf-byline > span { display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid rgba(255,255,255,.34); border-radius: 50%; font-family: var(--font-display); font-size: .78rem; }
+  .sgf-byline p { margin: 0; }
+  .sgf-byline strong, .sgf-byline small { display: block; }
+  .sgf-byline strong { font-size: .84rem; }
+  .sgf-byline strong a { color: #fff; }
+  .sgf-byline small { color: #cbbab4; font-size: .75rem; }
+  .sgf-hero__image { position: relative; min-height: 540px; margin: 0; background: #1c0e0b; }
+  .sgf-hero__image > img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+  .sgf-hero__image::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(62,8,16,.22), transparent 26%), linear-gradient(0deg, rgba(18,7,5,.52), transparent 35%); pointer-events: none; }
+  .sgf-hero__image figcaption { position: absolute; z-index: 1; right: 1.2rem; bottom: 1rem; color: #eee2d5; font-size: .72rem; }
+  .sgf-quick-answer { display: grid; grid-template-columns: 90px 1fr; gap: 2rem; width: min(1260px, 92vw); margin: 0 auto; padding: 3.3rem 0; border-bottom: 1px solid var(--sgf-line); }
+  .sgf-answer-number { color: var(--sgf-oxblood); font-family: var(--font-display); font-size: 2.5rem; font-weight: 700; line-height: 1; }
+  .sgf-quick-answer h2 { margin: 0 0 .8rem; font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.8rem); font-weight: 600; line-height: 1.12; }
+  .sgf-quick-answer p:last-of-type { max-width: 910px; margin: 0; color: #514945; font-size: 1.03rem; }
+  .sgf-fact-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; max-width: 950px; margin-top: 1.8rem; border: 1px solid var(--sgf-line); background: var(--sgf-line); }
+  .sgf-fact-strip span { display: flex; flex-direction: column; padding: .9rem 1rem; background: var(--sgf-white); color: #665c56; font-size: .7rem; font-weight: 800; letter-spacing: .06em; line-height: 1.35; text-transform: uppercase; }
+  .sgf-fact-strip strong { color: var(--sgf-oxblood); font-family: var(--font-display); font-size: 1.35rem; letter-spacing: 0; text-transform: none; }
+  .sgf-article-grid { display: grid; grid-template-columns: 235px minmax(0, 925px); justify-content: center; gap: clamp(2.5rem, 6vw, 6rem); width: min(1260px, 92vw); margin: 0 auto; padding: 5rem 0 3rem; }
+  .sgf-toc { position: sticky; top: 110px; align-self: start; padding-top: .4rem; }
+  .sgf-toc > p { margin: 0 0 1rem; font-family: var(--font-display); font-size: .75rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+  .sgf-toc ol { margin: 0; padding: 0; border-top: 1px solid var(--sgf-line); list-style: none; counter-reset: guide; }
+  .sgf-toc li { border-bottom: 1px solid var(--sgf-line); counter-increment: guide; }
+  .sgf-toc li a { display: grid; grid-template-columns: 24px 1fr; gap: .45rem; padding: .76rem 0; color: #554b46; font-size: .78rem; line-height: 1.35; text-decoration: none; }
+  .sgf-toc li a::before { content: "0" counter(guide); color: var(--sgf-oxblood); font-family: var(--font-display); font-weight: 700; }
+  .sgf-toc__help { display: block; margin-top: 1.2rem; padding: .9rem; border-radius: 3px; background: var(--sgf-paper-deep); color: var(--sgf-oxblood); font-size: .77rem; font-weight: 800; line-height: 1.35; text-decoration: none; }
+  .sgf-article-body { min-width: 0; }
+  .sgf-section { padding: 0 0 5.8rem; scroll-margin-top: 100px; }
+  .sgf-section h2 { margin: 0 0 1.25rem; font-family: var(--font-display); font-size: clamp(2.25rem, 4.2vw, 4.25rem); font-weight: 600; letter-spacing: -.025em; line-height: 1.04; }
+  .sgf-section > p:not(.sgf-kicker) { color: #4d4541; font-size: 1.03rem; }
+  .sgf-section h3 { font-family: var(--font-display); }
+  .sgf-model-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; margin-top: 2rem; border: 1px solid var(--sgf-line); background: var(--sgf-line); }
+  .sgf-model-card { min-width: 0; overflow: hidden; background: var(--sgf-white); }
+  .sgf-model-card figure { position: relative; margin: 0; overflow: hidden; background: #271714; }
+  .sgf-model-card figure > img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .sgf-model-card figcaption { position: absolute; inset: auto 0 0; padding: 1.35rem 1rem .8rem; background: linear-gradient(0deg, rgba(24,11,8,.94), rgba(24,11,8,0)); color: #f4e7dc; font-size: .68rem; font-weight: 800; line-height: 1.4; }
+  .sgf-model-card__copy { padding: 1.5rem 1.75rem 1.75rem; }
+  .sgf-model-card__copy > span { color: var(--sgf-oxblood); font-family: var(--font-display); font-size: .8rem; font-weight: 700; }
+  .sgf-model-card h3 { margin: .65rem 0 .15rem; font-size: 1.45rem; }
+  .sgf-model-card strong { color: var(--sgf-oxblood); font-size: .77rem; letter-spacing: .05em; text-transform: uppercase; }
+  .sgf-model-card p { margin: .8rem 0 0; color: #665c56; font-size: .87rem; line-height: 1.65; }
+  .sgf-table-wrap { margin-top: 1.5rem; overflow-x: auto; border: 1px solid var(--sgf-line); background: var(--sgf-white); }
+  .sgf-table-wrap table { width: 100%; min-width: 560px; border-collapse: collapse; }
+  .sgf-table-wrap caption { padding: 1rem 1.1rem; border-bottom: 1px solid var(--sgf-line); color: var(--sgf-oxblood); font-size: .71rem; font-weight: 900; letter-spacing: .09em; text-align: left; text-transform: uppercase; }
+  .sgf-table-wrap th, .sgf-table-wrap td { padding: .85rem 1rem; border-right: 1px solid #e7ded2; border-bottom: 1px solid #e7ded2; color: #5c514c; font-size: .77rem; line-height: 1.45; text-align: left; vertical-align: top; }
+  .sgf-table-wrap thead th { background: #2b211e; color: #fff; font-size: .69rem; letter-spacing: .06em; text-transform: uppercase; }
+  .sgf-table-wrap tbody th { color: var(--sgf-oxblood); font-weight: 900; white-space: nowrap; }
+  .sgf-note { display: grid; grid-template-columns: 150px 1fr; gap: 1rem; margin-top: 1.5rem; padding: 1.5rem; border-left: 4px solid var(--sgf-gold); background: var(--sgf-paper-deep); }
+  .sgf-note strong { color: var(--sgf-oxblood); font-family: var(--font-display); }
+  .sgf-note p { margin: 0; color: #554b46; font-size: .9rem; }
+  .sgf-model-section { padding-top: 5.5rem; border-top: 1px solid var(--sgf-line); }
+  .sgf-dossier-heading { display: grid; grid-template-columns: 82px 1fr; gap: 1.3rem; align-items: start; margin-bottom: 1.25rem; }
+  .sgf-dossier-heading > span { color: var(--sgf-oxblood); font-family: var(--font-display); font-size: 2.8rem; font-weight: 700; line-height: .9; }
+  .sgf-dossier-heading .sgf-kicker { margin-bottom: .35rem; }
+  .sgf-dossier-heading h2 { margin-bottom: 0; }
+  .sgf-lead { max-width: 820px; font-size: 1.08rem !important; }
+  .sgf-dossier-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, .82fr); gap: clamp(2rem, 4vw, 3.5rem); align-items: start; margin-top: 2.3rem; }
+  .sgf-dossier-layout--reverse { grid-template-columns: minmax(300px, .86fr) minmax(0, 1fr); }
+  .sgf-dossier-layout h3 { margin: 0 0 .85rem; font-size: 1.55rem; }
+  .sgf-dossier-layout p { color: #584e49; font-size: .94rem; }
+  .sgf-feature-list { display: grid; gap: .8rem; margin: 0; padding: 0; list-style: none; }
+  .sgf-feature-list li { position: relative; padding-left: 1.15rem; color: #5e544f; font-size: .86rem; }
+  .sgf-feature-list li::before { content: ""; position: absolute; top: .72rem; left: 0; width: 5px; height: 5px; border-radius: 50%; background: var(--sgf-gold); }
+  .sgf-feature-list strong { color: #2c2522; }
+  .sgf-spec-ledger { margin: 1.6rem 0 0; border-top: 1px solid var(--sgf-line); }
+  .sgf-spec-ledger div { display: grid; grid-template-columns: 92px 1fr; gap: 1rem; padding: .72rem 0; border-bottom: 1px solid var(--sgf-line); }
+  .sgf-spec-ledger dt { color: var(--sgf-oxblood); font-size: .76rem; font-weight: 900; }
+  .sgf-spec-ledger dd { margin: 0; color: #655a54; font-size: .77rem; line-height: 1.5; }
+  .sgf-model-photo { position: relative; margin: 0; overflow: hidden; background: #271714; }
+  .sgf-model-photo > img { display: block; width: 100%; min-height: 520px; aspect-ratio: 4 / 5; object-fit: cover; }
+  .sgf-model-photo--tall > img { min-height: 590px; aspect-ratio: 4 / 5.5; }
+  .sgf-model-photo figcaption { position: absolute; inset: auto 0 0; padding: 1.3rem; background: linear-gradient(0deg, rgba(24,11,8,.94), rgba(24,11,8,.18)); color: #eee2d8; font-size: .72rem; line-height: 1.45; }
+  .sgf-model-photo figcaption strong { display: block; margin-bottom: .2rem; color: #f4c875; letter-spacing: .06em; text-transform: uppercase; }
+  .sgf-subsection-heading { max-width: 720px; margin-top: 4rem; }
+  .sgf-subsection-heading h3 { margin: 0 0 .5rem; font-size: 2rem; line-height: 1.1; }
+  .sgf-subsection-heading p:last-child { margin: 0; color: #625853; font-size: .9rem; }
+  .sgf-photo-grid { display: grid; gap: 1px; margin-top: 1.5rem; border: 1px solid var(--sgf-line); background: var(--sgf-line); }
+  .sgf-photo-grid--three { grid-template-columns: repeat(3, 1fr); }
+  .sgf-photo-grid--two { grid-template-columns: repeat(2, 1fr); }
+  .sgf-evidence-photo { display: flex; flex-direction: column; min-width: 0; margin: 0; background: var(--sgf-white); }
+  .sgf-evidence-photo > img { display: block; width: 100%; aspect-ratio: 4 / 3.2; object-fit: cover; background: #2b211e; }
+  .sgf-evidence-photo figcaption { display: flex; flex-direction: column; gap: .25rem; padding: 1rem; color: #665b55; font-size: .75rem; line-height: 1.45; }
+  .sgf-evidence-photo figcaption strong { color: var(--sgf-oxblood); font-family: var(--font-display); font-size: .83rem; }
+  .sgf-two-tables { display: grid; grid-template-columns: 1fr 1fr; gap: .9rem; margin-top: 1rem; }
+  .sgf-two-tables .sgf-table-wrap { margin-top: 0; }
+  .sgf-two-tables table { min-width: 0; }
+  .sgf-era-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 1.5rem; border: 1px solid var(--sgf-line); background: var(--sgf-line); }
+  .sgf-era-cards article { padding: 1.35rem; background: var(--sgf-white); }
+  .sgf-era-cards span { color: var(--sgf-gold); font-size: .72rem; font-weight: 900; }
+  .sgf-era-cards h3 { margin: .45rem 0; font-size: 1.05rem; line-height: 1.25; }
+  .sgf-era-cards p { margin: 0; color: #625852; font-size: .78rem; line-height: 1.55; }
+  .sgf-junior-panel { display: grid; grid-template-columns: 1fr .92fr; gap: 2rem; padding: clamp(2rem, 4vw, 3rem); background: var(--sgf-oxblood-dark); color: #fff; }
+  .sgf-junior-panel h3 { max-width: 530px; margin: 0 0 1rem; font-size: clamp(2rem, 4vw, 3.4rem); letter-spacing: -.025em; line-height: 1; }
+  .sgf-junior-panel p:not(.sgf-kicker) { margin: 0; color: #dec9c1; font-size: .9rem; }
+  .sgf-junior-panel a { color: #f1c77b; }
+  .sgf-junior-facts { display: grid; gap: .65rem; }
+  .sgf-junior-facts span { display: grid; grid-template-columns: 86px 1fr; gap: .75rem; padding: .85rem 0; border-bottom: 1px solid rgba(255,255,255,.16); color: #d6c4bd; font-size: .77rem; line-height: 1.45; }
+  .sgf-junior-facts strong { color: #f1c77b; }
+  .sgf-inline-guide { display: inline-flex; margin-top: 1.5rem; color: var(--sgf-oxblood); font-size: .84rem; font-weight: 900; text-underline-offset: 4px; }
+  .sgf-timeline { margin-top: 2.2rem; border-top: 1px solid var(--sgf-line); }
+  .sgf-timeline article { display: grid; grid-template-columns: 145px 1fr; gap: 2rem; padding: 2.2rem 0; border-bottom: 1px solid var(--sgf-line); }
+  .sgf-timeline__year { color: var(--sgf-oxblood); font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; }
+  .sgf-timeline h3 { margin: 0 0 .4rem; font-size: 1.3rem; }
+  .sgf-timeline p { margin: 0; color: #5d534e; font-size: .92rem; }
+  .sgf-tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: 1rem; }
+  .sgf-tags span { padding: .25rem .55rem; border: 1px solid #ccbfae; border-radius: 999px; color: #5d514b; font-size: .67rem; font-weight: 800; }
+  .sgf-offshoots { margin-top: 2rem; padding: 1.7rem; border: 1px solid var(--sgf-line); background: var(--sgf-white); }
+  .sgf-offshoots h3 { margin: 0 0 .85rem; font-size: 1.25rem; }
+  .sgf-offshoots p { margin: .55rem 0 0; color: #5e544f; font-size: .84rem; }
+  .sgf-inspection-list { margin-top: 2rem; }
+  .sgf-inspection-list article { display: grid; grid-template-columns: 52px 1fr; gap: 1rem; padding: 1.4rem 0; border-bottom: 1px solid var(--sgf-line); }
+  .sgf-inspection-list article > span { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: var(--sgf-oxblood); color: #fff; font-family: var(--font-display); font-weight: 700; }
+  .sgf-inspection-list h3 { margin: 0 0 .2rem; font-size: 1.15rem; }
+  .sgf-inspection-list p { margin: 0; color: #5f5550; font-size: .9rem; }
+  .sgf-checklist { display: grid; gap: .7rem; margin-top: 2rem; }
+  .sgf-checklist div { display: grid; grid-template-columns: 20px 1fr; gap: .75rem; padding: 1rem; border: 1px solid var(--sgf-line); background: var(--sgf-white); color: #544a45; font-size: .89rem; }
+  .sgf-checklist span { color: var(--sgf-oxblood); font-weight: 900; }
+  .sgf-checklist p { margin: 0; }
+  .sgf-pullquote { margin: 2.5rem 0 0; padding: 2rem 2.2rem; border: 0; background: var(--sgf-oxblood-dark); color: #fff; }
+  .sgf-pullquote strong { display: block; font-family: var(--font-display); font-size: clamp(1.35rem, 2.4vw, 2rem); font-weight: 600; line-height: 1.35; }
+  .sgf-pullquote p { margin: .8rem 0 0; color: #d6b9ad; font-size: .86rem; }
+  .sgf-value-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; margin-top: 2rem; border: 1px solid var(--sgf-line); background: var(--sgf-line); }
+  .sgf-value-grid article { padding: 1.6rem; background: var(--sgf-white); }
+  .sgf-value-grid span { color: var(--sgf-gold); font-family: var(--font-display); font-size: .78rem; font-weight: 700; }
+  .sgf-value-grid h3 { margin: .5rem 0 .35rem; font-size: 1.15rem; }
+  .sgf-value-grid p { margin: 0; color: #625853; font-size: .86rem; }
+  .sgf-value-callout { display: grid; grid-template-columns: 34px 1fr; gap: 1rem; margin-top: 1.5rem; padding: 1.5rem; background: var(--sgf-paper-deep); }
+  .sgf-value-callout > span { color: var(--sgf-oxblood); font-size: 1.4rem; font-weight: 900; }
+  .sgf-value-callout h3 { margin: 0 0 .3rem; font-size: 1.05rem; }
+  .sgf-value-callout p { margin: 0; color: #615650; font-size: .87rem; }
+  .sgf-guide-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin-top: 2rem; }
+  .sgf-guide-grid a { display: flex; flex-direction: column; min-height: 190px; padding: 1.4rem; border: 1px solid var(--sgf-line); background: var(--sgf-white); text-decoration: none; transition: transform .18s ease, border-color .18s ease; }
+  .sgf-guide-grid a:hover { transform: translateY(-3px); border-color: var(--sgf-oxblood); }
+  .sgf-guide-grid strong { color: var(--sgf-ink); font-family: var(--font-display); font-size: 1.2rem; line-height: 1.25; }
+  .sgf-guide-grid p { color: #675d57; font-size: .84rem; }
+  .sgf-guide-grid span { margin-top: auto; color: var(--sgf-oxblood); font-size: .78rem; font-weight: 900; text-transform: uppercase; }
+  .sgf-faq-list { margin-top: 2rem; border-top: 1px solid var(--sgf-line); }
+  .sgf-faq-list details { border-bottom: 1px solid var(--sgf-line); }
+  .sgf-faq-list summary { display: grid; grid-template-columns: 1fr auto; gap: 1rem; padding: 1.2rem 0; cursor: pointer; font-family: var(--font-display); font-size: 1.08rem; font-weight: 700; list-style: none; }
+  .sgf-faq-list summary::-webkit-details-marker { display: none; }
+  .sgf-faq-list summary span { color: var(--sgf-oxblood); font-size: 1.2rem; }
+  .sgf-faq-list details[open] summary span { transform: rotate(45deg); }
+  .sgf-faq-list details p { max-width: 700px; margin: -.3rem 0 1.35rem; color: #5e544f; font-size: .91rem; }
+  .sgf-sources { padding: 2rem 0 4rem; border-top: 1px solid var(--sgf-line); }
+  .sgf-sources h2 { font-family: var(--font-display); font-size: 1.2rem; }
+  .sgf-sources p { color: #756b65; font-size: .78rem; }
+  .sgf-sources a { color: var(--sgf-oxblood); }
+  .sgf-final-cta { display: grid; grid-template-columns: 1.2fr .8fr; gap: 5rem; align-items: center; padding: clamp(3rem, 7vw, 7rem) max(5vw, calc((100vw - 1180px) / 2)); background: var(--sgf-oxblood-dark); color: #fff; }
+  .sgf-final-cta h2 { max-width: 700px; margin: 0 0 1rem; font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 600; letter-spacing: -.03em; line-height: 1; }
+  .sgf-final-cta p:not(.sgf-eyebrow) { max-width: 700px; color: #d7c7c1; }
+  .sgf-cta-actions { display: flex; flex-direction: column; gap: .85rem; }
+  .sgf-cta-actions a { color: #eadfd9; font-size: .84rem; font-weight: 800; text-decoration: none; }
+  .sgf-cta-actions .sgf-primary-button { padding: 1rem 1.2rem; background: var(--sgf-gold); color: #24150f; text-align: center; }
+  @media (max-width: 1100px) {
+    .sgf-hero { grid-template-columns: 1fr; }
+    .sgf-hero__copy { min-height: 650px; padding-top: 240px; }
+    .sgf-hero__image { min-height: 540px; }
+    .sgf-article-grid { grid-template-columns: 1fr; }
+    .sgf-toc { position: static; display: none; }
+    .sgf-dossier-layout, .sgf-dossier-layout--reverse { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  }
+  @media (max-width: 760px) {
+    .sgf-hero__copy { min-height: 650px; padding: 190px 1.45rem 3.2rem; }
+    .sgf-hero h1 { font-size: clamp(3rem, 15vw, 4.6rem); }
+    .sgf-hero__dek { font-size: .95rem; }
+    .sgf-hero__image { min-height: 420px; }
+    .sgf-quick-answer { grid-template-columns: 1fr; gap: 1rem; width: calc(100% - 2rem); padding: 2.6rem .2rem; }
+    .sgf-fact-strip { grid-template-columns: 1fr 1fr; }
+    .sgf-article-grid { width: calc(100% - 2rem); padding: 3.5rem 0 1rem; }
+    .sgf-section { padding-bottom: 4.4rem; }
+    .sgf-model-grid, .sgf-value-grid, .sgf-guide-grid, .sgf-photo-grid--three, .sgf-photo-grid--two, .sgf-two-tables, .sgf-era-cards, .sgf-junior-panel { grid-template-columns: 1fr; }
+    .sgf-model-section { padding-top: 4rem; }
+    .sgf-dossier-heading { grid-template-columns: 52px 1fr; gap: .8rem; }
+    .sgf-dossier-heading > span { font-size: 2rem; }
+    .sgf-dossier-layout, .sgf-dossier-layout--reverse { grid-template-columns: 1fr; }
+    .sgf-dossier-layout--reverse .sgf-model-photo { order: 2; }
+    .sgf-model-photo > img, .sgf-model-photo--tall > img { min-height: 430px; aspect-ratio: 4 / 5; }
+    .sgf-two-tables table { min-width: 520px; }
+    .sgf-note { grid-template-columns: 1fr; }
+    .sgf-timeline article { grid-template-columns: 1fr; gap: .5rem; }
+    .sgf-final-cta { grid-template-columns: 1fr; gap: 2rem; padding: 4rem 1.25rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sgf-page * { transition: none !important; } }
+</style>
