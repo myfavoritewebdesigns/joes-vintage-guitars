@@ -1,7 +1,7 @@
 ---
-title: "Gibson J-200 Model Guide: History, Variations, Transitions, and Authentication"
+title: "Gibson J-200 Guide: 1937 to Today"
 pubDate: "2026-09-04T12:00:00"
-modified: "2026-09-04T12:00:00"
+modified: "2026-09-04T14:30:00"
 excerpt: "A detailed Gibson J-200 and SJ-200 guide covering model names, year changes, bridge and bracing transitions, related variations, serial numbers, labels, repairs, and authentication, illustrated with five guitars from Joe's archive."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
