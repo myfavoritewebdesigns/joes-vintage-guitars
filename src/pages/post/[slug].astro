@@ -1,7 +1,7 @@
 ---
 import type { GetStaticPaths } from "astro";
 import { render } from "astro:content";
-import { Image } from "astro:assets";
+import { getImage, Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
@@ -45,6 +45,7 @@ const isSylviaES335Story = entry.id === "sylvias-1959-gibson-es-335";
 const isOneOwnerES345Story = entry.id === "one-owner-1966-gibson-es-345";
 const isFirebirdGuide = entry.id === "gibson-firebird-history-authentication-value";
 const isGibsonJ200Guide = entry.id === "gibson-j200-model-history-authentication-guide";
+const isEs225Guide = entry.id === "gibson-es-225-guide";
 const isLesPaulFamilyGuide = entry.id === "vintage-gibson-les-paul-family-guide";
 const isGibsonSGFamilyGuide = entry.id === "vintage-gibson-sg-family-guide";
 
@@ -237,6 +238,87 @@ const j200FaqSchema = {
   })),
 };
 
+const es225FaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${postUrl}#faq-schema`,
+  mainEntity: [
+    { q: "Where does the ES-225 fit among Gibson's first thinlines?", a: "The ES-225T was one of three new Gibson thinlines in 1955, alongside the Byrdland and ES-350T. The Byrdland reached prototype and serial production earlier that year. The ES-225T was the popular-priced member of the group, and Gibson's shipment ledger records 470 ES-225-family shipments versus three Byrdlands in 1955." },
+    { q: "Is an ES-225 semi-hollow?", a: "No. The original ES-225 is fully hollow and has no solid center block. Thinline describes body depth, not internal construction." },
+    { q: "What is the difference between ES-225T and ES-225TD?", a: "The T has one P-90 in the middle position, one volume, and one tone. The TD has two P-90s, four knobs, and a three-way pickup selector. The D means double pickup." },
+    { q: "What does the N suffix mean?", a: "N means Natural finish. ES-225TN is a Natural single-pickup guitar. ES-225TDN is a Natural two-pickup guitar. Sunburst is the standard finish and normally does not add a suffix." },
+    { q: "Does every 1959 ES-225 need the short trapeze and separate bridge?", a: "No. The transition occurred during 1959, and the earlier long combined bridge and tailpiece remained in period use. Date and authenticate the guitar as a whole." },
+    { q: "Where is the factory order number?", a: "It is typically ink-stamped inside the body and visible through the treble-side f-hole. W, V, U, T, and S correspond to 1955 through 1959 for this era." },
+    { q: "How can I tell an ES-225 from an ES-125 thinline?", a: "Use a cluster of clues: bound fingerboard, pearl Gibson headstock logo, individual Kluson tuners, upgraded body binding, and the cutaway spacer construction. Removable parts alone are not enough." },
+    { q: "Should I replace the long tailpiece for better intonation?", a: "A reversible compensated unit can make a player more accurate. Avoid drilling, photograph the change, and keep every original part. For collector value, an original undisturbed assembly remains important." },
+    { q: "How many ES-225s were made?", a: "Gibson's surviving shipment totals record 7,517 ES-225-family shipments from 1955 through 1959: 6,555 sunburst and 962 Natural. The ledger does not break those totals into T and TD, and shipment counts are not the same as exact production or surviving examples." },
+  ].map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+
+const es225ImageFiles = [
+  "1956-gibson-es-225-10.jpg",
+  "1956-gibson-es-225-11.jpg",
+  "1956-gibson-es-225-2.jpg",
+  "1956-gibson-es-225-3.jpg",
+  "1956-gibson-es-225-4.jpg",
+  "1956-gibson-es-225-5.jpg",
+  "1956-gibson-es-225-6.jpg",
+  "1956-gibson-es-225-8.jpg",
+  "1956-gibson-es-225-9.jpg",
+  "1958-gibson-es-225-sunburst-12.jpg",
+  "1958-gibson-es-225-sunburst-14.jpg",
+  "1958-gibson-es-225-sunburst-17.jpg",
+  "1958-gibson-es-225-sunburst-2.jpg",
+  "1958-gibson-es-225-sunburst-3.jpg",
+  "1958-gibson-es-225-sunburst-4.jpg",
+  "1958-gibson-es-225-sunburst-5.jpg",
+  "1958-gibson-es-225-sunburst-6.jpg",
+  "1958-gibson-es-225-sunburst-7.jpg",
+  "1958-gibson-es-225-sunburst-9.jpg",
+  "1959-gibson-es-225-body-front-f-holes-pickguard.jpg",
+  "1959-gibson-es-225-full-body-back.jpg",
+  "1959-gibson-es-225-headstock-back-tuners.jpg",
+  "1959-gibson-es-225-headstock-front-gibson-logo.jpg",
+  "1959-gibson-es-225-headstock-front-with-hangtag.jpg",
+  "1959-gibson-es-225-neck-fretboard-dot-inlays.jpg",
+  "1959-gibson-es-225-neck-heel-back.jpg",
+  "gibson-es-225-1958-blonde-body-back-in-case.jpg",
+  "gibson-es-225-1958-blonde-f-hole-serial-number.jpg",
+  "gibson-es-225-1958-blonde-full-back-in-case.jpg",
+  "gibson-es-225-1958-blonde-full-front-in-case-02.jpg",
+  "gibson-es-225-1958-blonde-full-front-in-case.jpg",
+  "gibson-es-225-1958-blonde-headstock-back-tuners-02.jpg",
+  "gibson-es-225-1958-blonde-headstock-back-tuners.jpg",
+  "gibson-es-225-1958-blonde-headstock-front-tuners.jpg",
+  "gibson-es-225-1958-blonde-neck-joint-and-heel.jpg",
+  "gibson-es-225-1958-blonde-neck-side-profile.jpg",
+];
+
+const es225ImageSchemas = isEs225Guide
+  ? (await Promise.all(es225ImageFiles.map(async (file) => {
+      const asset = resolveImage(`/images/blog/gibson-es-225-guide/${file}`);
+      if (!asset) return null;
+      const built = await getImage({ src: asset, layout: "constrained", width: asset.width });
+      const contentUrl = `${SITE_URL}${built.src}`;
+      return {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        contentUrl,
+        url: contentUrl,
+        width: asset.width,
+        height: asset.height,
+        license: imageLicense.photoLicenseUrl,
+        acquireLicensePage: imageLicense.photoLicenseUrl,
+        creditText: imageLicense.creditText,
+        creator: { "@id": `${SITE_URL}/about-me/#person` },
+        copyrightNotice: imageLicense.copyrightNotice,
+      };
+    }))).filter((image) => image !== null)
+  : [];
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -292,6 +374,8 @@ const articleSchema = {
     ? [breadcrumbSchema, articleSchema, martinFaqSchema]
     : isFirebirdGuide
       ? [breadcrumbSchema, articleSchema, firebirdFaqSchema]
+      : isEs225Guide
+        ? [breadcrumbSchema, articleSchema, es225FaqSchema, ...es225ImageSchemas]
     : videoSchema
       ? [breadcrumbSchema, articleSchema, videoSchema]
       : [breadcrumbSchema, articleSchema]}
