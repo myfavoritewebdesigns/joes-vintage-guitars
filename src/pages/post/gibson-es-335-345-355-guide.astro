@@ -381,7 +381,10 @@ const faqSchema = {
   .esf-checklist li { position: relative; margin: 0; padding: 12px 12px 12px 36px; background: #fbf6ed; border-radius: 6px; }
   .esf-checklist li::before { content: "✓"; position: absolute; left: 13px; color: var(--color-brand-rust); font-weight: 800; }
   .esf-cta { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(250px, .65fr); gap: 40px; align-items: center; margin-top: 64px; padding: 42px; background: var(--color-brand-rust-dark); border: 0; border-radius: 12px; }
-  .esf-cta .esf-eyebrow, .esf-cta h2, .esf-cta p, .esf-cta p a { color: #fff; }
+  .esf-section.esf-cta > div > .esf-eyebrow,
+  .esf-section.esf-cta > div > h2,
+  .esf-section.esf-cta > div > p,
+  .esf-section.esf-cta > div > p a { color: #fff; }
   .esf-cta p { margin-bottom: 0; }
   .esf-cta p a { font-weight: 700; }
   .esf-cta__actions { display: flex; flex-direction: column; gap: 10px; }
