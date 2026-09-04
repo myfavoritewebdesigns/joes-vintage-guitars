@@ -1,7 +1,7 @@
 ---
 title: "The Gibson ES-345 Guide: History, Authentication, and Value of the Stereo Semi-Hollow"
 pubDate: "2026-07-14T12:00:00"
-modified: "2026-07-14T12:00:00"
+modified: "2026-09-04T10:30:00"
 excerpt: "The Gibson ES-345 added stereo wiring and the six-position Varitone to the ES line in 1959, sitting between the ES-335 and the ES-355. This guide covers the history, the specs, the year-by-year authentication tells, and what a vintage ES-345 is really worth, shown on a 1963 sunburst and a 1966 cherry from the shop."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -208,6 +208,8 @@ One detail I always call out honestly: the tuners. This guitar wears gold, singl
 <h2 id="our-1966">The 1966: A Cherry ES-345TDC With Bigsby</h2>
 
 Our second example is a **1966 ES-345TDC in cherry**, and putting it next to the 1963 shows how the model evolved across a few short years. Same gold-and-parallelogram deluxe package, same crown headstock, same "STEREO" truss-rod cover and Varitone circuit, but now in cherry red with the sharper, pointed mid-1960s horns.
+
+Another 1966 cherry ES-345 came directly from the Connecticut musician who bought it new and kept it with his same-year Ampeg. Read the [one-owner 1966 Gibson ES-345 story](/post/one-owner-1966-gibson-es-345/) for that guitar's photographs and ownership history.
 
 <figure>
 

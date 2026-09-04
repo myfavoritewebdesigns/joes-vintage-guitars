@@ -28,6 +28,10 @@
 # --- Tag archives: never rebuilt. Send to the blog index. ---
 /tag/*  /blog/  301
 
+# Corrected date: the published orange label reads A 20058, a 1955 serial.
+/post/bob-denton-1957-gibson-j200   /post/bob-denton-1955-gibson-j200/  301
+/post/bob-denton-1957-gibson-j200/  /post/bob-denton-1955-gibson-j200/  301
+
 # --- Uncategorized: a WordPress leftover. Its one post moved to
 #     value-evaluation (2026-08-07), so the route no longer builds. ---
 /category/uncategorized     /blog/  301

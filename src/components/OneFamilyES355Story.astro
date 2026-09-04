@@ -9,14 +9,22 @@ import detail6 from "../assets/blog/one-family-1959-gibson-es-355/1959-gibson-es
 import detail7 from "../assets/blog/one-family-1959-gibson-es-355/1959-gibson-es-355-detail-7.jpg";
 import detail8 from "../assets/blog/one-family-1959-gibson-es-355/1959-gibson-es-355-detail-8.jpg";
 
-const details = [detail2, detail3, detail4, detail5, detail6, detail7, detail8];
+const details = [
+  [detail2, "Cherry 1959 Gibson ES-355 with Bigsby beside a sunburst Gibson ES-335"],
+  [detail3, "Cherry 1959 Gibson ES-355 body with worn gold hardware and Bigsby vibrato"],
+  [detail4, "Back of the 1959 Gibson ES-355 neck showing playwear inside the pink-lined case"],
+  [detail5, "Worn brown hardshell case that stayed with the 1959 Gibson ES-355"],
+  [detail6, "Six gold Grover Rotomatic tuners on the back of the 1959 Gibson ES-355 headstock"],
+  [detail7, "Bound black Gibson ES-355 headstock with split-diamond inlay and worn gold tuners"],
+  [detail8, "Front of the cherry 1959 Gibson ES-355 in its pink-lined case with gold Bigsby"],
+] as const;
 ---
 
 <article class="es-story" id="top">
   <header class="es-hero">
     <div class="es-hero__copy">
       <p class="es-kicker">JVG Museum · Original Owners Blog · 1959 Gibson ES-355</p>
-      <h1>One Guitar.<br /><em>One Family.</em><br />Sixty-Seven Years.</h1>
+      <h1>One Family’s<br /><em>1959 Gibson</em><br />ES-355</h1>
       <p class="es-dek">A 1959 Gibson ES-355, played for decades and passed from father to son.</p>
       <a class="es-read" href="#story">Read the Story</a>
     </div>
@@ -38,12 +46,13 @@ const details = [detail2, detail3, detail4, detail5, detail6, detail7, detail8];
   <section class="es-story-copy" id="story">
     <aside><span>The Story</span><p>Words and photographs<br />from the JVG archive</p></aside>
     <div class="es-prose">
-      <p class="es-lead">We get a lot of guitars through the shop. Every now and then, one arrives with its whole life still attached to it. This <a href="/post/1959-gibson-es-355-history-value/">1959 Gibson ES-355</a> is one of those guitars.</p>
+      <p class="es-lead">This <a href="/post/1959-gibson-es-355-history-value/">1959 Gibson ES-355</a> came from the original owner's son with decades of family use still visible in its finish, hardware, and case.</p>
       <p>I bought it from the son of the original owner. His father purchased it new and gave it to him when he was a teenager. He did what a good guitar owner is supposed to do. He played it regularly and kept it in the family.</p>
       <p>The checking, wear and softened gold plating tell the same story. None of it was added later to make the guitar look old. These are the marks left by one family playing the same instrument for decades.</p>
-      <blockquote>“He got it from his father as a teenager and played it regularly ever since.”</blockquote>
+      <blockquote>He got it from his father as a teenager and played it regularly ever since.</blockquote>
       <p>The factory stereo wiring was converted to mono at some point, a practical change that made the guitar easier to use with a standard amplifier. The <a href="/post/1959-gibson-es-355-history-value/#es355-mono-stereo">guide to mono and stereo ES-355 wiring</a> explains the two factory setups. Other than that conversion, this guitar has stayed original. The finish, hardware and character are still here.</p>
-      <p>That direct ownership history is what makes this one special. A father bought it new. His son grew up playing it. Now the guitar has come to us with the story intact, and we will keep that story with it.</p>
+      <p>A father bought it new. His son grew up playing it. Now the guitar has come to us with that ownership history intact, and we will keep the record with it.</p>
+      <p>If your family has kept a vintage Gibson, send photographs through the <a href="/free-appraisal/">free appraisal</a> or read how I <a href="/sell-my-gibson-guitar/">buy vintage Gibson guitars</a>.</p>
     </div>
   </section>
 
@@ -53,9 +62,9 @@ const details = [detail2, detail3, detail4, detail5, detail6, detail7, detail8];
       <p>Original finish. Original hardware. Original character.<br />The mono conversion is the only known change.</p>
     </div>
     <div class="es-mosaic">
-      {details.map((src, index) => (
+      {details.map(([src, alt], index) => (
         <figure>
-          <Image src={src} alt={`Detail view ${index + 1} of the 1959 Gibson ES-355`} width={1200} />
+          <Image src={src} alt={alt} width={1200} />
           <span>{String(index + 1).padStart(2, "0")}</span>
         </figure>
       ))}
@@ -64,7 +73,7 @@ const details = [detail2, detail3, detail4, detail5, detail6, detail7, detail8];
 
   <section class="es-notes">
     <p class="es-kicker">Collector's Notes</p>
-    <h2>Why This One Matters.</h2>
+    <h2>The Guitar, the Changes, and the Family Record</h2>
     <div class="es-note-grid">
       <div><strong>01</strong><h3>Golden-Year Gibson</h3><p>The ES-355 was Gibson's top semi-hollow electric in 1959, one of the most closely watched years in the company's history.</p></div>
       <div><strong>02</strong><h3>One-Family History</h3><p>The guitar came directly from the original owner's son. That clear line of ownership is rare and worth preserving.</p></div>

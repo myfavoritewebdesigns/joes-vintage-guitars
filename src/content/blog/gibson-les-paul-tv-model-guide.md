@@ -42,7 +42,7 @@ A 1957 Les Paul TV Model in its original limed mahogany finish. One pickup, one 
 
 <h2 id="tvm-name">What "TV Model" Means: The Name and the Finish</h2>
 
-Gibson never printed the words "TV Yellow" in a 1950s catalog. The official finish name was limed mahogany. So where did "TV" come from, and why is it stamped right there on the headstock? There are three explanations that get repeated, and the honest answer is that the first two are both plausible and the truth is probably a blend of them.
+Gibson never printed the words "TV Yellow" in a 1950s catalog. The official finish name was limed mahogany. So where did "TV" come from, and why is it stamped right there on the headstock? Three explanations get repeated. The first two are both plausible, and the most likely explanation is a blend of them.
 
 The most popular story is about television itself. In the mid-1950s, network broadcasts were black and white, and studio lighting was harsh. A bright white guitar bloomed and glared on camera, while a dark sunburst disappeared into shadow. A pale, warm, slightly greenish off-white read as a clean, glare-free light gray on screen. In that telling, Gibson built a finish that photographed well under television lights and named the guitar accordingly.
 

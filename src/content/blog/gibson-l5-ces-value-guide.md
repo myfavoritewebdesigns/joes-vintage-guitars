@@ -1,7 +1,7 @@
 ---
 title: "The Gibson L-5 CES: A Guide to Gibson's Top Archtop"
 pubDate: "2026-03-05T21:12:06"
-modified: "2026-04-01T16:49:25"
+modified: "2026-09-04T10:30:00"
 excerpt: "A history of the Gibson L-5 CES, the electric archtop that set the standard. This guide covers its evolution from the 1920s acoustic work of Lloyd Loar to the “Staple” and PAF humbucker eras. Learn how to identify rare finishes, date your instrument using serial numbers and orange labels, and tell Venetian and Florentine cutaways apart. If you are looking for a professional appraisal or the full story of this guitar, here is what you need to know about the king of Gibson archtops."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -31,6 +31,8 @@ While it was primarily an acoustic guitar, many players, including Charlie Chris
 ![A vintage Gibson L-5C acoustic archtop guitar in a sunburst finish, featuring a 17-inch body with a Venetian cutaway and carved spruce top. The image highlights the clean, acoustic design without any mounted pickups or electronics, showcasing the original wood and craftsmanship.](../../assets/blog/gibson-l5-ces-value-guide/gibson-l-5-c-1954-1024x682.jpg)
 
 Before the dawn of the “CES” (Electric Spanish) era, the Gibson L-5 reigned supreme as a purely acoustic powerhouse. This L-5C is a good example of the instrument’s original DNA: a master-carved spruce and maple box designed for maximum projection and tonal clarity. Without the added weight of humbuckers or wiring, the top is free to vibrate, offering a glimpse into the acoustic heritage that laid the foundation for the electrified models that would eventually follow in the early 1950s.
+
+The same 1954 L-5C stayed with its original owner's family. Read the [1954 Gibson L-5C family story](/post/1954-gibson-l5c-california-session-musician/) for his daughter's account of the California session musician who played it.
 
 ### The Birth of the L-5 CES (1951)
 
