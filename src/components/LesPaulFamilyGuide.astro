@@ -460,7 +460,9 @@ const faqSchema = {
   .lpf article { margin: 0; }
   .lpf-kicker { margin: 0 0 .8rem; color: var(--gold); font-size: .72rem; font-weight: 900; letter-spacing: .15em; text-transform: uppercase; }
   .lpf-hero { display: grid; grid-template-columns: minmax(0, .92fr) minmax(430px, 1.08fr); min-height: 690px; background: var(--brown-dark); color: #fff; }
-  .lpf-hero__copy { display: flex; flex-direction: column; justify-content: flex-end; padding: clamp(5rem, 8vw, 8rem) clamp(2.5rem, 6vw, 6rem) clamp(3.5rem, 6vw, 6rem); background: radial-gradient(circle at 0 0, rgba(214,171,88,.32), transparent 38%), linear-gradient(145deg, #352610, #17110a); }
+  /* The site logo hangs below the absolute header. Reserve its full desktop
+     footprint so the breadcrumb and title never render underneath it. */
+  .lpf-hero__copy { display: flex; flex-direction: column; justify-content: flex-end; padding: 17.5rem clamp(2.5rem, 6vw, 6rem) clamp(3.5rem, 6vw, 6rem); background: radial-gradient(circle at 0 0, rgba(214,171,88,.32), transparent 38%), linear-gradient(145deg, #352610, #17110a); }
   .lpf-breadcrumb { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 2rem; color: rgba(255,255,255,.64); font-size: .76rem; }
   .lpf-breadcrumb a { text-decoration: none; }
   .lpf h1 { max-width: 620px; margin: 0; font-size: clamp(3rem, 5.4vw, 6.2rem); letter-spacing: -.045em; line-height: .94; }
@@ -580,14 +582,14 @@ const faqSchema = {
   .lpf-cta .lpf-cta__button { display: flex; justify-content: center; gap: .5rem; margin-bottom: .35rem; padding: 1rem 1.2rem; background: var(--gold); color: #24150f; }
   @media (max-width: 980px) {
     .lpf-hero { grid-template-columns: 1fr; }
-    .lpf-hero__copy { min-height: 590px; }
+    .lpf-hero__copy { min-height: 590px; padding-top: 13.5rem; }
     .lpf-hero__image { min-height: 500px; }
     .lpf-layout { grid-template-columns: 1fr; }
     .lpf-toc { display: none; }
     .lpf-evidence__body { grid-template-columns: 1fr; }
   }
   @media (max-width: 680px) {
-    .lpf-hero__copy { min-height: 570px; padding: 5rem 1.4rem 3.1rem; }
+    .lpf-hero__copy { min-height: 570px; padding: 13.5rem 1.4rem 3.1rem; }
     .lpf h1 { font-size: clamp(3rem, 15vw, 4.6rem); }
     .lpf-hero__image { min-height: 410px; }
     .lpf-answer { grid-template-columns: 1fr; gap: 1rem; width: calc(100% - 2.4rem); }
@@ -600,6 +602,9 @@ const faqSchema = {
     .lpf-evidence__photos figcaption { min-height: 0; }
     .lpf-timeline article { grid-template-columns: 1fr; gap: .45rem; }
     .lpf-cta { grid-template-columns: 1fr; gap: 2rem; padding: 4rem 1.25rem; }
+  }
+  @media (max-width: 639px) {
+    .lpf-hero__copy { padding-top: 10rem; }
   }
   @media (prefers-reduced-motion: reduce) { .lpf * { transition: none !important; } }
 </style>
