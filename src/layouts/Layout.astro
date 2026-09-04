@@ -6,6 +6,8 @@ import FloatingCTAs from "../components/FloatingCTAs.astro";
 import { SITE_URL, SITE_NAME, LEGAL_NAME, contact, socialSameAs, imageLicense } from "../config/site";
 
 interface Props {
+  /** Optional server-rendered body classes for page-specific layouts. */
+  bodyClass?: string;
   /** Page title (defaults to homepage title). Sets <title> and og:title. */
   title?: string;
   /** Meta description. Sets <meta name="description">, og:description, and twitter:description. */
@@ -36,6 +38,7 @@ interface Props {
 }
 
 const {
+  bodyClass = "",
   title = "Joe's Vintage Guitars | We Buy Vintage Guitars Nationwide",
   description = "Sell your vintage guitar the easy way with Joe's Vintage Guitars. Get a free evaluation and get top dollar for your guitar today! Same day payment!",
   canonical,
@@ -477,7 +480,7 @@ if (structuredData) {
          meta, etc.). Pages add via `<link slot="head" ...>` or `<script slot="head" ...>` -->
     <slot name="head" />
   </head>
-  <body class="min-h-screen overflow-x-hidden">
+  <body class={`min-h-screen overflow-x-hidden ${bodyClass}`.trim()}>
     <!-- The GTM <noscript> iframe was removed with the container. It only ever
          served no-JS visitors, and every tag it fronted is JS-dependent anyway. -->
 

@@ -37,6 +37,7 @@ const isCaliforniaL5CStory = entry.id === "1954-gibson-l5c-california-session-mu
 const isOneFamilyES355Story = entry.id === "one-family-1959-gibson-es-355";
 const isSylviaES335Story = entry.id === "sylvias-1959-gibson-es-335";
 const isOneOwnerES345Story = entry.id === "one-owner-1966-gibson-es-345";
+const isFirebirdGuide = entry.id === "gibson-firebird-history-authentication-value";
 
 const postUrl = `${SITE_URL}/post/${entry.id}/`;
 const catName = categoryName(data.category, data.categoryName);
@@ -194,6 +195,17 @@ const martinFaqSchema = {
   })),
 };
 
+const firebirdFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${postUrl}#faq-schema`,
+  mainEntity: [
+    { "@type": "Question", name: "How much is a vintage Gibson Firebird worth?", acceptedAnswer: { "@type": "Answer", text: "Broad 2026 retail-market guides range from about $5,500 for some Bicentennial examples to $28,000 to $50,000+ for reverse Firebird VIIs. Originality, condition, repairs, playability, provenance, color, and sold comparables determine the value of an individual guitar." } },
+    { "@type": "Question", name: "How do you date a Gibson Firebird?", acceptedAnswer: { "@type": "Answer", text: "Use the serial as one clue, then compare construction, potentiometer codes, pickup construction, hardware, finish, solder, and repair evidence. Overlapping serial ranges mean one number is not enough." } },
+    { "@type": "Question", name: "What separates a reverse Firebird from a non-reverse model?", acceptedAnswer: { "@type": "Answer", text: "The 1963 to 1965 reverse design has a raised neck-through center, attached wings, a reverse headstock, and banjo-style tuners. The non-reverse model introduced in 1965 has a flatter body, a glued-in neck, conventional tuners, and a large pickguard carrying much of the wiring." } },
+  ],
+};
+
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -223,6 +235,7 @@ const articleSchema = {
 ---
 
 <Layout
+  bodyClass={isFirebirdGuide ? "blog-post-page firebird-guide-page" : "blog-post-page"}
   title={`${data.title} | Joe's Vintage Guitars`}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
@@ -235,6 +248,8 @@ const articleSchema = {
   modifiedTime={data.modified.toISOString()}
   structuredData={isCustomMartinGuide
     ? [breadcrumbSchema, articleSchema, martinFaqSchema]
+    : isFirebirdGuide
+      ? [breadcrumbSchema, articleSchema, firebirdFaqSchema]
     : videoSchema
       ? [breadcrumbSchema, articleSchema, videoSchema]
       : [breadcrumbSchema, articleSchema]}
@@ -264,7 +279,7 @@ const articleSchema = {
     <MartinSmallBodyGuide faqs={martinGuideFaqs} />
   ) : (
     <>
-  <div class="bpost-header-backdrop" aria-hidden="true"></div>
+  {!isFirebirdGuide && <div class="bpost-header-backdrop" aria-hidden="true"></div>}
 
   {data.toc.length > 0 && (
     <>
@@ -303,7 +318,7 @@ const articleSchema = {
   )}
 
   <article class="bpost">
-    <div class="bpost__inner">
+    {!isFirebirdGuide && <div class="bpost__inner">
       <nav class="bpost__crumbs" aria-label="Breadcrumb">
         <a href="/">Home</a><span aria-hidden="true">/</span>
         <a href="/blog/">Blog</a><span aria-hidden="true">/</span>
@@ -317,9 +332,9 @@ const articleSchema = {
         <span aria-hidden="true">·</span>
         <time datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>
       </p>
-    </div>
+    </div>}
 
-    {data.heroImage && (
+    {!isFirebirdGuide && data.heroImage && (
       <figure class="bpost__hero">
         {heroMeta ? (
           <Image
@@ -385,8 +400,6 @@ const articleSchema = {
 
   <ContactSection />
 
-  <script is:inline>document.body.classList.add("blog-post-page");</script>
-
   <!-- Floating TOC behavior: hide the sidebar over the contact form, and power
        the mobile "Sections" button by cloning the sidebar links into the sheet.
        No-ops when the post has no `toc` (elements absent). -->
@@ -439,6 +452,65 @@ const articleSchema = {
   body.blog-post-page header nav.border-b-\[6px\] a { color: var(--color-brand-brown) !important; }
   body.blog-post-page header nav.border-b-\[6px\] > ul > li > a { color: #fff !important; }
   body.blog-post-page header nav.border-b-\[6px\] > ul > li > a:hover { color: var(--color-brand-cream) !important; }
+</style>
+
+<style is:global>
+  body.firebird-guide-page .bpost { padding-top: 0; }
+  body.firebird-guide-page .bpost > .bpost__hero { display: none; }
+  body.firebird-guide-page .bpost > .bpost__inner { max-width: none; padding: 0; }
+  body.firebird-guide-page .blog-prose { color: #2a2d33; font-size: 18px; line-height: 1.72; }
+  body.firebird-guide-page .blog-prose .hero { position: relative; min-height: 720px; width: 100%; overflow: hidden; display: grid; align-items: end; }
+  body.firebird-guide-page .blog-prose .hero > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+  body.firebird-guide-page .blog-prose .shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(22,22,22,.82), rgba(22,22,22,.2)); }
+  body.firebird-guide-page .blog-prose .heroCopy { position: relative; z-index: 2; width: min(1100px, calc(100% - 48px)); margin: 0 auto 8%; color: #fff; }
+  body.firebird-guide-page .blog-prose .heroCopy h1 { font-family: var(--font-display, Oswald), sans-serif; font-size: clamp(50px, 6.4vw, 92px); line-height: .94; margin: 12px 0 20px; color: #fff; }
+  body.firebird-guide-page .blog-prose .heroCopy h1 em { color: #d2b48c; font-style: normal; }
+  body.firebird-guide-page .blog-prose .kicker,
+  body.firebird-guide-page .blog-prose .eyebrow { color: #a03a1e; font: 600 14px var(--font-display, Oswald), sans-serif; letter-spacing: .05em; }
+  body.firebird-guide-page .blog-prose .hero .kicker { color: #d2b48c; }
+  body.firebird-guide-page .blog-prose .dek { font-size: clamp(19px, 1.7vw, 25px); line-height: 1.4; max-width: 760px; }
+  body.firebird-guide-page .blog-prose .section,
+  body.firebird-guide-page .blog-prose .intro { max-width: 1020px; margin: 0 auto; padding: 80px 32px; }
+  body.firebird-guide-page .blog-prose .intro aside,
+  body.firebird-guide-page .blog-prose .fieldNote,
+  body.firebird-guide-page .blog-prose .verdict { margin: 36px 0; padding: 26px 30px; border-left: 5px solid #a03a1e; background: #f2eadc; }
+  body.firebird-guide-page .blog-prose .wide { max-width: 1200px; margin: 0 auto; padding: 0 32px 70px; }
+  body.firebird-guide-page .blog-prose .wide img { width: 100%; max-height: 760px; object-fit: cover; }
+  body.firebird-guide-page .blog-prose .modelGrid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 24px; margin-top: 32px; }
+  body.firebird-guide-page .blog-prose .modelGrid > div,
+  body.firebird-guide-page .blog-prose .adjust { padding: 24px; background: #f7f0e4; border-top: 4px solid #a03a1e; }
+  body.firebird-guide-page .blog-prose .darkBand { background: #2a2d33; color: #fff; padding: 72px max(5vw, 32px); display: grid; grid-template-columns: 2fr 1fr; gap: 50px; align-items: center; }
+  body.firebird-guide-page .blog-prose .darkBand h2 { color: #fff; }
+  body.firebird-guide-page .blog-prose .bigStat b { display: block; color: #d2b48c; font: 700 clamp(52px,7vw,82px) var(--font-display, Oswald), sans-serif; }
+  body.firebird-guide-page .blog-prose .colorChart { margin-top: 34px; border-top: 1px solid #d9cdbd; }
+  body.firebird-guide-page .blog-prose .colorRow { display: grid; grid-template-columns: 34px 1fr 1fr; gap: 18px; align-items: center; padding: 14px 0; border-bottom: 1px solid #d9cdbd; }
+  body.firebird-guide-page .blog-prose .swatch { width: 28px; height: 28px; border-radius: 50%; border: 1px solid rgba(0,0,0,.2); }
+  body.firebird-guide-page .blog-prose .photoPair { display: grid; grid-template-columns: 1.4fr .6fr; background: #2a2d33; color: #fff; }
+  body.firebird-guide-page .blog-prose .photoPair figure { margin: 0; }
+  body.firebird-guide-page .blog-prose .photoPair img { width: 100%; height: 640px; object-fit: cover; border-radius: 0; }
+  body.firebird-guide-page .blog-prose .photoPair figcaption { padding: 24px 34px 34px; color: #eee7db; }
+  body.firebird-guide-page .blog-prose .valueGrid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1px; background: #d9cdbd; margin: 32px 0; }
+  body.firebird-guide-page .blog-prose .valueGrid > div { display: flex; justify-content: space-between; gap: 20px; padding: 18px; background: #fff; }
+  body.firebird-guide-page .blog-prose .timeline > div { display: grid; grid-template-columns: 130px 1fr; gap: 28px; border-top: 1px solid #d9cdbd; padding: 24px 0; }
+  body.firebird-guide-page .blog-prose .faq details { border-top: 1px solid #d9cdbd; padding: 20px 0; }
+  body.firebird-guide-page .blog-prose .faq summary { cursor: pointer; font: 700 19px var(--font-display, Oswald), sans-serif; }
+  body.firebird-guide-page .blog-prose .relatedLinks { margin-top: 38px; padding: 30px; background: #f2eadc; border-left: 5px solid #a03a1e; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px 28px; }
+  body.firebird-guide-page .blog-prose .relatedLinks h3 { grid-column: 1/-1; }
+  body.firebird-guide-page .blog-prose .cta { margin-top: 42px; padding: 34px; background: #2a2d33; color: #fff; }
+  body.firebird-guide-page .blog-prose .cta h3 { color: #fff; }
+  body.firebird-guide-page .blog-prose .cta a { display: inline-block; padding: 12px 18px; background: #d2b48c; color: #2a2d33; font-weight: 700; text-decoration: none; }
+  @media (max-width: 760px) {
+    body.firebird-guide-page .blog-prose .hero { min-height: 650px; }
+    body.firebird-guide-page .blog-prose .section,
+    body.firebird-guide-page .blog-prose .intro { padding: 58px 22px; }
+    body.firebird-guide-page .blog-prose .modelGrid,
+    body.firebird-guide-page .blog-prose .darkBand,
+    body.firebird-guide-page .blog-prose .photoPair,
+    body.firebird-guide-page .blog-prose .valueGrid,
+    body.firebird-guide-page .blog-prose .relatedLinks { grid-template-columns: 1fr; }
+    body.firebird-guide-page .blog-prose .photoPair img { height: auto; }
+    body.firebird-guide-page .blog-prose .timeline > div { grid-template-columns: 1fr; gap: 4px; }
+  }
 </style>
 
 <style>

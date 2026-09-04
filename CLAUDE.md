@@ -213,6 +213,7 @@ Living record of intentional design choices on this project. **Check this before
 
 | Date | Page / Area | Decision | Why |
 |---|---|---|---|
+| 2026-09 | Gibson Firebird history, authentication and value guide | Keep all article section headings in sentence case, including the H2 headings flagged by `audit:copy`; preserve the guide's custom editorial layout inside the shared production `Layout.astro` header and footer. | Joe explicitly rejected title-case headings and asked to keep the approved guide look while using the live JVG site chrome. |
 | 2026-05 | ContactSection | Solid `#aa3d1c` rust bg, no image | The 9KB `contact-form-bg.jpg` pixelates with `background-size: cover` |
 | 2026-05 | ValueProp / Homepage | "Every Guitar Has A Story" rendered as separate full-width banner, not inside ValueProp panel | User preference (see feedback file) |
 | 2026-05 | Footer | Inventory = white pill + Reverb "R" badge; chevron after "Sell My Guitar"; logo flush bottom, flat border, no drop shadow | User spec from Footer audit |
