@@ -1,7 +1,7 @@
 ---
 title: "How to Identify a Vintage Gibson J-45, J-50, and Southern Jumbo (SJ)"
 pubDate: "2026-02-17T23:13:28"
-modified: "2026-04-01T16:45:06"
+modified: "2026-09-04T14:30:00"
 excerpt: "Ever wondered why your vintage Gibson acoustic doesn’t have a model name inside? You aren’t alone. From the ‘Golden Era’ bracing shifts to the iconic ‘Banner’ headstocks, we break down the physical specs you need to identify a J-45, J-50, or Southern Jumbo. We walk through the history of the ‘Workhorse’ so you can see where your guitar fits in the Gibson timeline."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -17,6 +17,8 @@ A stunning 1950s Gibson J-45 “Workhorse” featuring a classic sunburst finish
 Among vintage acoustics, few are harder to pin down than the mid-century Gibson flat-top. At Joe’s Vintage Guitars, we’ve helped countless collectors and families identify instruments that have been sitting in cases for fifty years without a single label to identify them.
 
 Unlike their competitors at Martin, Gibson was notoriously inconsistent with interior labels. From the 1940s through the 1960s, many of these guitars were shipped without any model designation whatsoever. To know what you have, you must become a student of the specs. This guide will help you identify, date, and understand the “Workhorse” family of Gibson guitars. If you need some expert guidance, feel free to contact us for a [free appraisal](/free-appraisal/). If you’d like to [sell your guitar](/), we can make a competitive cash offer.
+
+If the guitar has a 17-inch lower bout, flowered pickguard, crown fingerboard inlays, and a moustache bridge, it may belong to the Super Jumbo family instead. Use the [Gibson J-200 model history and authentication guide](/post/gibson-j200-model-history-authentication-guide/) to identify those larger guitars and follow their construction changes from 1937 onward.
 
 ## Part 1: How to Tell the Models Apart (The Spec Checklist)
 

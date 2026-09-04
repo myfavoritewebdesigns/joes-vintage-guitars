@@ -7,6 +7,7 @@ import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
 import MartinSmallBodyGuide from "../../components/MartinSmallBodyGuide.astro";
 import MartinD18Guide from "../../components/MartinD18Guide.astro";
+import GibsonJ200Guide from "../../components/GibsonJ200Guide.astro";
 import DennisHiattLesPaulStory from "../../components/DennisHiattLesPaulStory.astro";
 import BobDentonJ200Story from "../../components/BobDentonJ200Story.astro";
 import CaliforniaL5CStory from "../../components/CaliforniaL5CStory.astro";
@@ -43,6 +44,7 @@ const isOneFamilyES355Story = entry.id === "one-family-1959-gibson-es-355";
 const isSylviaES335Story = entry.id === "sylvias-1959-gibson-es-335";
 const isOneOwnerES345Story = entry.id === "one-owner-1966-gibson-es-345";
 const isFirebirdGuide = entry.id === "gibson-firebird-history-authentication-value";
+const isGibsonJ200Guide = entry.id === "gibson-j200-model-history-authentication-guide";
 const isLesPaulFamilyGuide = entry.id === "vintage-gibson-les-paul-family-guide";
 const isGibsonSGFamilyGuide = entry.id === "vintage-gibson-sg-family-guide";
 
@@ -213,6 +215,28 @@ const firebirdFaqSchema = {
   ],
 };
 
+const j200Faqs = [
+  { q: "What is the difference between a Gibson SJ-200 and J-200?", a: "They are names Gibson has used for the same flagship Super Jumbo family. Catalogs, factory labels, and shipping records did not always change names together. The complete year, label, woods, bridge, bracing, and other construction details identify the specific version." },
+  { q: "When did Gibson change the SJ-200 from rosewood to maple?", a: "Maple became the normal back and side wood when postwar production resumed in 1947 and 1948. Prewar standard examples used rosewood, while later custom, J-250R, Western Classic, Custom, Pre-War, and rosewood-branded variants can use rosewood again." },
+  { q: "How do you date a vintage Gibson J-200?", a: "Record the serial number, factory order number, and label, then compare the woods, bracing, bridge, bridge plate, neck construction, tuners, pickguard, finish, and repairs with the expected period. Gibson serial ranges can overlap, so one number is not enough." },
+  { q: "When did the J-200 get an adjustable Tune-o-matic bridge?", a: "The closed moustache bridge and adjustable metal Tune-o-matic saddle arrived around 1961. The change also brought a larger bridge plate, bolts, an enlarged neck block, and added top-support hardware. Many guitars were converted later, so inspect for filled holes and missing braces." },
+  { q: "Is a J-200N a different model?", a: "The N normally identifies the natural-finish version in postwar factory records and price lists. The year still determines its bridge, bracing, neck, label, and other specifications." },
+  { q: "Is a J-200 Artist the same as a standard J-200?", a: "No. The Norlin-era J-200 Artist is a related Super Jumbo model with its own body, Dove-style bridge, trim, bracing, neck, and label specifications. It should be identified and valued as an Artist." },
+  { q: "How can you tell a real Gibson J-200 from a copy?", a: "Authenticate the full construction rather than the logo. Check body dimensions, neck joint, internal braces and tool marks, bridge and bridge plate, label, serial format, headstock, tuners, binding, finish, and repair evidence. A skilled copy can reproduce the visible decoration." },
+  { q: "Which vintage Gibson J-200 years are most collectible?", a: "Verified prewar rosewood Super Jumbos generally lead the market because production was tiny. Lightly braced 1947 to 1951 maple examples and original 1950s guitars also draw strong demand. Condition, originality, repairs, sound, provenance, and exact variant can reorder the market." },
+];
+
+const j200FaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${postUrl}#faq-schema`,
+  mainEntity: j200Faqs.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -238,6 +262,15 @@ const articleSchema = {
       { "@type": "Thing", name: "Guitar authentication" },
     ],
   } : {}),
+  ...(isGibsonJ200Guide ? {
+    keywords: ["Gibson J-200", "Gibson SJ-200", "vintage Gibson J-200", "Gibson J-200 history", "Gibson J-200 models", "Gibson J-200 authentication", "Gibson J-200 serial numbers"],
+    about: [
+      { "@type": "Thing", name: "Gibson J-200" },
+      { "@type": "Thing", name: "Gibson SJ-200" },
+      { "@type": "Thing", name: "Vintage acoustic guitars" },
+      { "@type": "Thing", name: "Guitar authentication" },
+    ],
+  } : {}),
 };
 ---
 
@@ -253,7 +286,9 @@ const articleSchema = {
   ogType="article"
   publishedTime={data.pubDate.toISOString()}
   modifiedTime={data.modified.toISOString()}
-  structuredData={isCustomMartinGuide
+  structuredData={isGibsonJ200Guide
+    ? [breadcrumbSchema, articleSchema, j200FaqSchema]
+    : isCustomMartinGuide
     ? [breadcrumbSchema, articleSchema, martinFaqSchema]
     : isFirebirdGuide
       ? [breadcrumbSchema, articleSchema, firebirdFaqSchema]
@@ -284,6 +319,8 @@ const articleSchema = {
     <BobDentonJ200Story />
   ) : isDennisHiattStory ? (
     <DennisHiattLesPaulStory />
+  ) : isGibsonJ200Guide ? (
+    <GibsonJ200Guide faqs={j200Faqs} />
   ) : isMartinD18Guide ? (
     <MartinD18Guide faqs={martinD18Faqs} />
   ) : isMartinSmallBodyGuide ? (
