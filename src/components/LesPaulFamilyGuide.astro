@@ -1,0 +1,610 @@
+---
+import type { ImageMetadata } from "astro";
+import LicensedImage from "./primitives/LicensedImage.astro";
+
+import heroPhoto from "../assets/blog/1956-les-paul-goldtop-authentication-guide/1956-gibson-les-paul-standard-goldtop-scaled.jpg";
+import juniorPhoto from "../assets/images/gibson-serial/1955-gibson-les-paul-junior-scaled.jpg";
+import tvPhoto from "../assets/blog/gibson-les-paul-tv-model-guide/1957-gibson-les-paul-tv-model-front-of-body.jpg";
+import specialPhoto from "../assets/images/gibson-serial/1958-gibson-les-paul-special-tv-yellow-24-scaled.jpg";
+import standardPhoto from "../assets/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-scaled.jpg";
+import customPhoto from "../assets/blog/gibson-shipping-totals-1948-1979/1958-les-paul-custom-bigsby-1024x683.jpg";
+import trapezePhoto from "../assets/images/gibson-serial/1952-gibson-les-paul-wrap-under-tailpiece.jpeg";
+import wraparoundPhoto from "../assets/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-bridge.jpg";
+import abrPhoto from "../assets/images/gibson-serial/no-wire-abr-1-bridge-neckel-scaled.jpg";
+import pafPhoto from "../assets/images/gibson-serial/1957-gibson-PAF-pickup-scaled.jpg";
+import customPickupPhoto from "../assets/images/gibson-serial/gibson-les-paul-custom-alnico-v-and-p-90-pickups-scaled.jpg";
+import customThreePickupPhoto from "../assets/images/gibson-serial/gibson-les-paul-custom-3-pickup-black-beauty.jpg";
+import wafflebackPhoto from "../assets/images/gibson-serial/1955-gibson-les-paul-custom-ink-stamp-serial-number-scaled.jpg";
+import specialDoubleCutPhoto from "../assets/images/gibson-serial/gibson-les-paul-special-double-cuaway-cherry-scaled.jpg";
+import fretNibsPhoto from "../assets/blog/1955-1958-tv-yellow-les-paul-special-guide/1958-gibson-les-paul-special-fret-nibs-1024x683.jpg";
+import juniorDoubleCutPhoto from "../assets/images/gibson-serial/1959-gibson-les-paul-junior-2-scaled.jpg";
+import bumblebeePhoto from "../assets/blog/gibson-les-paul-junior-guide/1958-les-paul-special-bumblebee-capacitors-scaled.jpg";
+import tvLogoPhoto from "../assets/blog/gibson-les-paul-tv-model-guide/1957-gibson-les-paul-tv-model-logo-close-up.jpg";
+import tvBackPhoto from "../assets/blog/gibson-les-paul-tv-model-guide/1957-gibson-les-paul-tv-model-back-of-body.jpg";
+import norlinCustomPhoto from "../assets/images/gibson-les-paul-family-guide/1972-les-paul-custom-body.jpg";
+import madeInUsaPhoto from "../assets/images/gibson-serial/gibson-made-in-usa-stamp-scaled.jpg";
+import goldDecalPhoto from "../assets/images/gibson-serial/1975-gibson-les-paul-custom-silkscreen-logo-gold-scaled.jpg";
+
+interface GuidePhoto {
+  src: ImageMetadata;
+  alt: string;
+  label: string;
+  copy: string;
+  contain?: boolean;
+}
+
+const heading = "Vintage Gibson Les Paul Models";
+
+const links = {
+  paf: "/post/gibson-paf-patent-number-pickup-guide/",
+  serial: "/how-to-read-gibson-serial-numbers/",
+  goldtop54: "/post/1954-gibson-les-paul-goldtop-authentication-guide/",
+  goldtop57: "/post/1957-les-paul-goldtop-guide/",
+  junior: "/post/gibson-les-paul-junior-guide/",
+  special: "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+  tv: "/post/gibson-les-paul-tv-model-guide/",
+  shipping: "/post/gibson-shipping-totals-1948-1979/",
+  inspection: "/post/what-a-serial-number-cant-tell-you/",
+  value: "/vintage-gibson-les-paul-market-value-guide/",
+};
+
+const models: Array<GuidePhoto & { name: string; signal: string; href: string }> = [
+  {
+    name: "Les Paul Junior",
+    signal: "One dog-ear P-90",
+    copy: "A flat mahogany body, dot inlays, wraparound bridge and two controls. The single-cut body came first, followed by the double-cut body during 1958.",
+    src: juniorPhoto,
+    alt: "Front body view of an original 1955 Gibson Les Paul Junior in sunburst",
+    label: "1955 Les Paul Junior · one pickup and two controls",
+    href: links.junior,
+    contain: true,
+  },
+  {
+    name: "Les Paul TV Model",
+    signal: "Junior construction and a limed finish",
+    copy: "Mechanically this is a Junior, but Gibson sold it as the TV Model in a pale limed mahogany finish during the rise of television.",
+    src: tvPhoto,
+    alt: "Front body view of a 1957 Gibson Les Paul TV Model with one P-90 pickup",
+    label: "1957 Les Paul TV Model · body and pickup layout",
+    href: links.tv,
+    contain: true,
+  },
+  {
+    name: "Les Paul Special",
+    signal: "Two soapbar P-90s",
+    copy: "A two-pickup step above the Junior with four controls, a selector switch, a bound fingerboard and a flat mahogany body.",
+    src: specialPhoto,
+    alt: "Straight-on body view of a 1958 Gibson Les Paul Special in TV Yellow",
+    label: "1958 Les Paul Special · straight-on body view",
+    href: links.special,
+    contain: true,
+  },
+  {
+    name: "Les Paul Model or Standard",
+    signal: "Carved maple top and two pickups",
+    copy: "The original professional model appeared as a Goldtop in 1952. P-90s gave way to PAF humbuckers in 1957, and Cherry Sunburst followed in 1958.",
+    src: standardPhoto,
+    alt: "Front body view of an original 1954 Gibson Les Paul Goldtop",
+    label: "1954 Les Paul Goldtop · carved maple cap and two P-90s",
+    href: links.goldtop54,
+    contain: true,
+  },
+  {
+    name: "Les Paul Custom",
+    signal: "Black finish and luxury trim",
+    copy: "The Black Beauty uses an ebony fingerboard, block inlays, multi-ply binding and gold hardware with two early pickups or three humbuckers from 1957.",
+    src: customPhoto,
+    alt: "Straight-on body view of a 1958 Gibson Les Paul Custom with three pickups and a Bigsby vibrato",
+    label: "1958 Les Paul Custom · straight-on body view",
+    href: links.shipping,
+    contain: true,
+  },
+];
+
+const evidenceGroups: Array<{
+  model: string;
+  era: string;
+  marker: string;
+  checks: string[];
+  caution: string;
+  href: string;
+  action: string;
+  photos: GuidePhoto[];
+}> = [
+  {
+    model: "Les Paul Model or Standard",
+    era: "1952 to 1960 originals",
+    marker: "Carved maple cap over a mahogany body",
+    checks: [
+      "The body has a carved maple cap, mahogany back and cream binding around the top. A thin sliver of maple remains visible inside the cutaway on a 1950s original.",
+      "The finish is bullion gold from 1952 into 1958, then Cherry Sunburst from 1958 through 1960. Greening, checking and fading should follow natural wear and protected areas.",
+      "Two soapbar P-90s are correct through 1956. Two PAF humbuckers arrived in 1957. Routes, rings, leads, decals and solder need to agree with that sequence.",
+      "The tailpiece changed from a wrap-under trapeze to a stud wraparound, then to a no-wire ABR-1 with a lightweight stopbar.",
+    ],
+    caution: "This tailpiece sequence belongs to the carved-top Les Paul Model and Standard branch. Do not use it to date a Junior, TV Model, Special or early Custom.",
+    href: links.goldtop54,
+    action: "Read More About the 1954 Wraparound Goldtop",
+    photos: [
+      { src: trapezePhoto, alt: "Wrap-under trapeze tailpiece on a 1952 Gibson Les Paul Goldtop", label: "1952 · Wrap-Under Trapeze", copy: "The strings pass under the crossbar on the earliest Goldtops. The shallow neck angle is part of this first-version setup." },
+      { src: wraparoundPhoto, alt: "Stud-mounted wraparound bridge on a 1954 Gibson Les Paul Goldtop", label: "1954 · Stud Wraparound", copy: "A corrected neck pitch and stud-mounted wrapover bar made the Les Paul easier to set up while keeping the hardware simple." },
+      { src: abrPhoto, alt: "No-wire ABR-1 bridge on a 1956 Gibson Les Paul Goldtop", label: "1956 · P-90s and ABR-1", copy: "The no-wire Tune-o-matic and separate stopbar arrived while the Goldtop still carried two cream soapbar P-90 pickups." },
+      { src: pafPhoto, alt: "Underside of a 1957 Gibson PAF humbucker with its decal", label: "1957 · PAF Humbuckers", copy: "The pickup changed while the ABR-1 and stopbar remained. The decal, feet, lead and ring provide more authentication evidence." },
+    ],
+  },
+  {
+    model: "Les Paul Custom",
+    era: "1954 to 1960 originals, returned in 1968",
+    marker: "Ebony Black Beauty trim and its own pickup history",
+    checks: [
+      "The 1950s Custom is all mahogany rather than a maple-cap Standard. Look for ebony finish, multi-ply binding, an ebony fingerboard, block inlays, a split-diamond headstock and gold hardware.",
+      "A 1954 to 1956 Custom uses an Alnico V staple pickup at the neck and a soapbar P-90 at the bridge.",
+      "A 1957 to 1960 Custom can have two or three PAF humbuckers. Confirm the factory routes, gold covers, switch wiring, pickup markings and solder.",
+      "The Custom used an ABR-1 and stopbar from its early run. Gold Waffleback tuners, black plastics, low original frets and age-consistent plating provide model-specific evidence.",
+    ],
+    caution: "Do not expect a 1954 to 1956 Custom to follow the Goldtop bridge chronology. Its early ABR-1 and staple-neck with P-90-bridge layout are Custom-specific evidence.",
+    href: links.paf,
+    action: "Read the PAF and Patent Number Pickup Guide",
+    photos: [
+      { src: customPickupPhoto, alt: "Early Les Paul Custom with an Alnico V staple neck pickup and P-90 bridge pickup", label: "1954 to 1956 · Staple and P-90", copy: "The rectangular staple polepieces belong at the neck. The black soapbar P-90 sits nearest the bridge." },
+      { src: customThreePickupPhoto, alt: "Three humbuckers on a vintage Gibson Les Paul Custom Black Beauty", label: "1957 to 1960 · Three Pickups", copy: "Three PAF humbuckers are a known Black Beauty configuration, but the routes and wiring still need to show factory work." },
+      { src: wafflebackPhoto, alt: "Six gold Kluson Waffleback tuners on a 1955 Gibson Les Paul Custom headstock", label: "1955 · Gold Waffleback Tuners", copy: "This Les Paul Custom headstock shows the grid-textured Kluson backs, aged gold plating and period buttons together." },
+    ],
+  },
+  {
+    model: "Les Paul Special",
+    era: "1955 to 1960 slab-body originals",
+    marker: "Two soapbar P-90s, four controls and a bound neck",
+    checks: [
+      "The layout has a flat mahogany body, two soapbar P-90s, four controls, a selector switch, a bound rosewood fingerboard and a multi-ply black pickguard.",
+      "Original TV Yellow is translucent enough to reveal mahogany grain and can age toward wheat, amber or ochre. Cherry appears on later double-cut examples.",
+      "The single-cut body comes before the late 1958 and 1959 double-cut transition. Match the silhouette, neck joint, serial, pot codes and hardware.",
+      "Look for a nickel short-seam wraparound, hand-guided pickup routes, visible tenon evidence, period capacitors, Centralab pots and original solder.",
+    ],
+    caution: "A wraparound bridge is normal Special hardware and continued after the carved-top Standard adopted an ABR-1. It does not make a Special a 1953 to 1955 Standard.",
+    href: links.special,
+    action: "Read the Les Paul Special Authentication Guide",
+    photos: [
+      { src: specialPhoto, alt: "Single-cutaway 1958 Gibson Les Paul Special in TV Yellow", label: "1958 · Single-Cut Special", copy: "Two soapbar P-90s, a flat body and bound fingerboard define the model.", contain: true },
+      { src: specialDoubleCutPhoto, alt: "Double-cutaway Gibson Les Paul Special in cherry", label: "1959 to 1960 · Double-Cut Special", copy: "The symmetrical double-cut body changed the silhouette and neck joint while the core electronics remained." , contain: true },
+      { src: fretNibsPhoto, alt: "Original binding nibs covering the fret ends on a 1958 Gibson Les Paul Special", label: "Original Fret Nibs", copy: "Binding that rises over the fret ends supports factory fretwork on a bound-neck Special." },
+    ],
+  },
+  {
+    model: "Les Paul Junior",
+    era: "1954 to 1960 slab-body originals",
+    marker: "One dog-ear P-90 and the simplest control layout",
+    checks: [
+      "The body is flat mahogany with one bridge-position dog-ear P-90, one volume control, one tone control, an unbound dot-inlay fingerboard and a single-ply black guard.",
+      "The single-cut body runs from 1954 into 1958. The symmetrical double-cut follows during 1958. The neck joint and serial should agree with the silhouette.",
+      "The pickup moved slightly farther from the bridge around 1956. Speed knobs changed to bonnet knobs, and Grey Tiger capacitors gave way to Bumblebee capacitors.",
+      "Inspect for humbucker routing, a replaced guard, refinishing, bridge conversions, headstock or heel repairs and disturbed solder.",
+    ],
+    caution: "Junior evidence is one pickup, two controls and no fingerboard binding. A two-pickup or bound-neck slab guitar belongs in the Special branch.",
+    href: links.junior,
+    action: "Read the Les Paul Junior Guide",
+    photos: [
+      { src: juniorPhoto, alt: "Single-cutaway 1955 Gibson Les Paul Junior in sunburst", label: "1955 · Single-Cut Junior", copy: "One dog-ear P-90, two knobs and an unbound dot-marker fingerboard.", contain: true },
+      { src: juniorDoubleCutPhoto, alt: "Double-cutaway 1959 Gibson Les Paul Junior in cherry", label: "1959 · Double-Cut Junior", copy: "The double-cut body arrived during 1958 and continued the one-pickup layout.", contain: true },
+      { src: bumblebeePhoto, alt: "Original Bumblebee capacitors in a 1958 Gibson control cavity", label: "1956 Onward · Bumblebee Capacitor", copy: "This striped black Sprague type appears on Juniors from 1956. Pot codes, lead dress and solder should support the same date." },
+    ],
+  },
+  {
+    model: "Les Paul TV Model",
+    era: "1954 to 1959 core production",
+    marker: "Junior construction plus a model-specific finish and logo",
+    checks: [
+      "The construction matches a Junior with one dog-ear P-90, two controls, an unbound dot-inlay fingerboard, a slab mahogany body and a wraparound bridge.",
+      "The gold headstock silk-screen reads TV MODEL. That line separates the model from a refinished Junior when the hardware is otherwise identical.",
+      "A true limed mahogany finish uses pale grain filler under translucent yellow lacquer. The mahogany grain remains visible in protected areas.",
+      "Single-cut and double-cut changes track the Junior. Confirm the body, knobs, pickup position, serial, factory order number, pot codes, routes and solder together.",
+    ],
+    caution: "TV Yellow is a finish description, not proof of the TV Model. A yellow guitar with two P-90s is a Les Paul Special.",
+    href: links.tv,
+    action: "Read the Les Paul TV Model Guide",
+    photos: [
+      { src: tvLogoPhoto, alt: "Gold Gibson and Les Paul TV Model silk-screen on a 1957 headstock", label: "Gold TV MODEL Silk-Screen", copy: "The words beneath the Les Paul script are the quickest model-specific distinction from a Junior." },
+      { src: tvBackPhoto, alt: "Back of a 1957 Les Paul TV Model showing grain through its limed finish", label: "Translucent Limed Mahogany", copy: "The pale lacquer allows the mahogany grain to remain visible on the back of the slab body." },
+    ],
+  },
+  {
+    model: "Les Paul Deluxe and Norlin Era Single-Cuts",
+    era: "1968 to 1979 focus",
+    marker: "Mini-humbuckers and later construction evidence",
+    checks: [
+      "Two narrow mini-humbuckers in P-90-size mounting surrounds define the Deluxe pickup layout. Full-size humbuckers can indicate a Standard, Custom, factory variation or later routing.",
+      "Many 1970s examples have layered pancake bodies, multi-piece necks and eventually maple necks. Read seams and wood species before comparing them with a 1950s body.",
+      "A volute develops from 1969 through the 1970s, and the Made in USA stamp appears from 1970. Both are normal period clues.",
+      "Impressed serials, the 1975 to 1977 gold decal, pot codes, pickup markings and the later Nashville bridge need to agree as one dating system.",
+    ],
+    caution: "Do not judge a 1970s Deluxe or Custom by 1950s ink-stamp, neck or bridge rules. Later construction is correct when all of its era markers agree.",
+    href: links.serial,
+    action: "Read the Norlin Era Dating Evidence",
+    photos: [
+      { src: norlinCustomPhoto, alt: "Straight-on body view of Joe's black 1972 Gibson Les Paul Custom with two humbuckers", label: "1972 · Two-Pickup Les Paul Custom", copy: "Joe's own photograph shows the full-size humbuckers, multi-ply binding, block inlays, black finish and gold hardware.", contain: true },
+      { src: madeInUsaPhoto, alt: "Close-up of the impressed Made in USA stamp on a vintage Gibson headstock", label: "1970 Onward · Made in USA Stamp", copy: "Compare the mark's depth and placement with the serial, volute and tuner evidence." },
+      { src: goldDecalPhoto, alt: "Gold serial number decal on a 1975 Gibson Les Paul Custom headstock", label: "1975 to 1977 · Gold Serial Decal", copy: "This waterslide format belongs to a narrow Norlin era window and differs from a 1950s ink stamp." },
+    ],
+  },
+];
+
+const eras = [
+  { years: "1952 to 1953", title: "The First Goldtop", copy: "Gibson's first solidbody electric arrived with two P-90s and a trapeze tailpiece. Its shallow neck angle and wrap-under strings identify the earliest examples.", tags: ["Trapeze tailpiece", "Two cream P-90s", "Gold top and natural back"] },
+  { years: "1954 to 1955", title: "The Family Takes Shape", copy: "A corrected neck angle and wraparound bridge transformed the Goldtop. Gibson added the Custom, Junior, TV Model and Special, which created the model ladder collectors still use.", tags: ["Wraparound bridge", "Junior and Custom debut", "Special follows"] },
+  { years: "1956", title: "P-90s Meet the Tune-o-Matic", copy: "The Goldtop gained the ABR-1 bridge and a separate stopbar while retaining twin P-90s. This core specification makes a 1956 visually and mechanically distinct.", tags: ["ABR-1 and stopbar", "Twin P-90s", "Goldtop"] },
+  { years: "1957", title: "PAF Humbuckers Arrive", copy: "Humbuckers replaced P-90s on the Goldtop. The Custom moved to a three-humbucker layout, although transitional two-pickup examples exist.", tags: ["PAF humbuckers", "M-69 rings", "Three-pickup Custom"] },
+  { years: "1958 to 1960", title: "The Burst and Double-Cut Years", copy: "The carved-top model became the Cherry Sunburst Les Paul Standard. Juniors, TV Models and Specials moved to double-cut bodies. Slimmer necks and reflector knobs help separate many late examples.", tags: ["Cherry Sunburst Standard", "Double-cut slabs", "Late 1960 details"] },
+  { years: "1961 to 1963", title: "The Name Moves to the SG Body", copy: "Gibson replaced the single-cut carved-top design with the thin pointed double-cut body now known as the SG. Early examples still carry Les Paul branding.", tags: ["SG-shaped Les Paul", "Sideways and Maestro vibratos", "Separate SG guide"] },
+  { years: "1968 to 1979", title: "Return, Deluxe and Norlin Expansion", copy: "The single-cut Les Paul returned with a Goldtop and Custom. The Deluxe followed with mini-humbuckers, and the 1970s brought Standards plus Personal, Professional and Recording models.", tags: ["Goldtop and Custom return", "Deluxe mini-humbuckers", "Changing construction"] },
+];
+
+const valueFactors = [
+  ["Exact Model and Year", "A 1957 humbucker Goldtop and a 1956 P-90 Goldtop look related, but they occupy different collector markets."],
+  ["Original Finish", "Goldtop oxidation and Burst fading can be natural. A refinish, overspray or color change is a major value issue."],
+  ["Pickups and Solder", "Original PAFs, P-90s, mini-humbuckers, untouched leads and factory solder joints can carry a large share of the guitar's value."],
+  ["Breaks and Conversions", "Headstock repairs, neck resets, routed pickup cavities, shaved heels and Goldtop to Burst conversions need full disclosure."],
+  ["Hardware and Plastics", "Tuners, ABR-1 bridges, wraptails, knobs, rings, guards, switch tips and covers should agree with the production period."],
+  ["Case and Provenance", "The correct case, receipts, family photographs, repair invoices and a continuous ownership story can strengthen an important guitar."],
+];
+
+const furtherReading = [
+  { title: "Gibson PAF and Patent Number Pickup Guide", copy: "Follow the PAF, Patent Number and T-Top timeline with the details that help authenticate each pickup.", href: links.paf },
+  { title: "Vintage Les Paul Market Value Guide", copy: "See current value ranges by model and year, plus the deductions that affect the final number.", href: links.value },
+  { title: "Gibson Serial Number Guide", copy: "Use the number as a starting point, then confirm the date with the physical features.", href: links.serial },
+  { title: "1957 Les Paul Goldtop Guide", copy: "Identify the first PAF Goldtops, M-69 rings, dark backs and correct hardware.", href: links.goldtop57 },
+  { title: "Les Paul Junior Guide", copy: "Follow the Junior from its 1954 single-cut body through the early SG transition.", href: links.junior },
+  { title: "TV Yellow Les Paul Special Guide", copy: "Inspect the finish, plastics, electronics and construction of 1955 to 1958 Specials.", href: links.special },
+  { title: "Les Paul TV Model Guide", copy: "Compare the TV Model's logo, finish and Junior-based construction.", href: links.tv },
+  { title: "Gibson Production and Shipping Totals", copy: "Compare recorded Les Paul shipments by model and year from 1952 through the 1970s.", href: links.shipping },
+];
+
+const faqs = [
+  { q: "What Are the Main Vintage Gibson Les Paul Models?", a: "The core 1950s family is the Les Paul Model or Standard, Custom, Special, Junior and TV Model. The single-cut line returned in 1968, followed by the Deluxe and several low-impedance variants during the 1970s." },
+  { q: "When Did a Goldtop Become a Les Paul Standard?", a: "Gibson introduced the Les Paul in gold in 1952. The transparent Cherry Sunburst version appeared in 1958 and was cataloged as the Les Paul Standard. Collectors also use Standard for the earlier professional Goldtops." },
+  { q: "What Is the Difference Between a Les Paul Junior and Special?", a: "A Junior has one dog-ear P-90, two controls and no fingerboard binding. A Special has two soapbar P-90s, a selector switch, four controls and a bound fingerboard." },
+  { q: "Is a 1961 Les Paul an SG?", a: "The body design is the thin double-cut shape now called the SG. Gibson applied the Les Paul name to this design before the SG name became established." },
+  { q: "Can a Gibson Serial Number Prove a Les Paul's Year?", a: "No. A serial number is one piece of evidence. Construction, finish, hardware, electronics and component date codes need to support the same period." },
+  { q: "Which Vintage Les Paul Is Worth the Most?", a: "Original 1958 to 1960 Sunburst Standards generally lead the market. Originality, repairs, color, figure, condition, pickups, documentation and ownership history can change an individual result." },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.q,
+    acceptedAnswer: { "@type": "Answer", text: faq.a },
+  })),
+};
+---
+
+<script is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+<main class="lpf">
+    <article>
+      <section class="lpf-hero">
+        <div class="lpf-hero__copy">
+          <nav class="lpf-breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a><span>/</span><a href="/blog/">Blog</a><span>/</span><span>Vintage Les Paul</span>
+          </nav>
+          <p class="lpf-kicker">The Collector's Field Guide</p>
+          <h1>{heading}</h1>
+          <p class="lpf-subtitle">Family, History and Identification Guide</p>
+          <p class="lpf-dek">Les Paul names an entire family. This guide separates the Standard, Custom, Special, Junior, TV and Deluxe, then follows the construction changes that distinguish a 1950s original from a 1960s reintroduction or a 1970s Norlin era guitar.</p>
+          <p class="lpf-byline"><strong>By Joe Dampt</strong><span>Vintage Gibson Specialist</span></p>
+        </div>
+        <figure class="lpf-hero__image">
+          <LicensedImage src={heroPhoto} alt="Original 1956 Gibson Les Paul Goldtop with P-90 pickups photographed with a vintage Gibson GA-40 amplifier" width={1100} loading="eager" decoding="async" fetchpriority="high" />
+          <figcaption>1956 Les Paul Goldtop · P-90s and a no-wire ABR-1</figcaption>
+        </figure>
+      </section>
+
+      <section class="lpf-answer" aria-labelledby="lpf-answer-heading">
+        <span>01</span>
+        <div>
+          <p class="lpf-kicker">The Short Answer</p>
+          <h2 id="lpf-answer-heading">What Belongs to the Vintage Les Paul Family?</h2>
+          <p>The original family is the <a href={links.goldtop54}>Les Paul Model or Standard</a>, Custom, <a href={links.special}>Special</a>, <a href={links.junior}>Junior</a> and <a href={links.tv}>TV Model</a>. The Junior and TV use one P-90. The Special uses two. The carved-top model moved from P-90s to humbuckers, while the Custom added luxury trim. The Deluxe and several low-impedance models widened the family after 1968.</p>
+        </div>
+      </section>
+
+      <div class="lpf-layout">
+        <aside class="lpf-toc" aria-label="Table of contents">
+          <p>In This Guide</p>
+          <ol>
+            <li><a href="#models">Five Core Models</a></li>
+            <li><a href="#evidence">Evidence by Model</a></li>
+            <li><a href="#timeline">Les Paul Timeline</a></li>
+            <li><a href="#identify">How to Identify One</a></li>
+            <li><a href="#authentication">Authentication Checklist</a></li>
+            <li><a href="#value">What Affects Value</a></li>
+            <li><a href="#faq">Common Questions</a></li>
+          </ol>
+          <a class="lpf-toc__help" href="/sell-my-gibson-guitar/">Need Help Identifying Yours?</a>
+        </aside>
+
+        <div class="lpf-content">
+          <section id="models" class="lpf-section">
+            <p class="lpf-kicker">Model Comparison</p>
+            <h2>The Five Core Vintage Gibson Les Paul Models</h2>
+            <p>Start with the body construction and pickup count. Then use the fingerboard trim, hardware and finish to confirm the exact model. A truss-rod cover can be changed quickly. A carved maple cap or factory pickup route cannot.</p>
+            <div class="lpf-models">
+              {models.map((model, index) => (
+                <article class="lpf-model">
+                  <a class="lpf-model__photo" href={model.href} aria-label={`Open the source guide for ${model.name}`}>
+                    <LicensedImage class={model.contain ? "is-contained" : undefined} src={model.src} alt={model.alt} width={760} loading="lazy" decoding="async" />
+                    <small>{model.label}</small>
+                  </a>
+                  <div class="lpf-model__copy">
+                    <span>0{index + 1}</span><h3>{model.name}</h3><strong>{model.signal}</strong><p>{model.copy}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+            <aside class="lpf-note"><strong>Collector's Note</strong><p>Goldtop and Burst describe finishes, but each name also points to a stage of the carved-top model. A Goldtop can have a trapeze, wraparound, P-90 and ABR-1 combination, or humbuckers. The year and hardware complete the identification.</p></aside>
+          </section>
+
+          <section id="evidence" class="lpf-section">
+            <p class="lpf-kicker">Model-Specific Evidence</p>
+            <h2>Authenticate the Les Paul Family One Model at a Time</h2>
+            <p>Les Paul specifications are not interchangeable. Identify the model first, then compare its body, pickups, hardware, finish and date codes with the correct branch. Joe's <a href={links.paf}>PAF and Patent Number pickup guide</a> covers the decal, baseplate, magnet, bobbin and T-Top sequence. Every photograph below comes from an actual guitar or component handled by Joe's Vintage Guitars.</p>
+            <div class="lpf-evidence">
+              {evidenceGroups.map((group, index) => (
+                <article class="lpf-evidence__group">
+                  <header class="lpf-evidence__heading">
+                    <span>{String(index + 1).padStart(2, "0")}</span>
+                    <div><p>{group.era}</p><h3>{group.model}</h3><strong>{group.marker}</strong></div>
+                  </header>
+                  <div class="lpf-evidence__body">
+                    <div class="lpf-evidence__checks">
+                      <ul>{group.checks.map((check) => <li>{check}</li>)}</ul>
+                      <aside><strong>Use This Model's Rules</strong><p>{group.caution}</p></aside>
+                      <a href={group.href}>{group.action}<span aria-hidden="true">→</span></a>
+                    </div>
+                    <div class="lpf-evidence__photos">
+                      {group.photos.map((photo) => (
+                        <figure>
+                          <LicensedImage class={photo.contain ? "is-contained" : undefined} src={photo.src} alt={photo.alt} width={720} loading="lazy" decoding="async" />
+                          <figcaption><strong>{photo.label}</strong><span>{photo.copy}</span></figcaption>
+                        </figure>
+                      ))}
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section id="timeline" class="lpf-section">
+            <p class="lpf-kicker">Year by Year Framework</p>
+            <h2>Vintage Gibson Les Paul Timeline</h2>
+            <p>Gibson changed specifications during production, sometimes inside the same calendar year. Use these periods as a framework, then confirm the individual guitar with its construction, finish, hardware, electronics and serial format.</p>
+            <div class="lpf-timeline">
+              {eras.map((era) => (
+                <article><div class="lpf-timeline__year">{era.years}</div><div><h3>{era.title}</h3><p>{era.copy}</p><div class="lpf-tags">{era.tags.map((tag) => <span>{tag}</span>)}</div></div></article>
+              ))}
+            </div>
+            <div class="lpf-link-row"><a href={links.goldtop54}>Read the 1954 Wraparound Goldtop Guide</a><a href={links.goldtop57}>Read the 1957 PAF Goldtop Guide</a><a href={links.shipping}>Compare Gibson Shipping Totals</a></div>
+          </section>
+
+          <section id="identify" class="lpf-section">
+            <p class="lpf-kicker">Visual Identification</p>
+            <h2>How to Identify a Vintage Gibson Les Paul</h2>
+            <p>Work from the large, expensive-to-alter features toward the small removable parts. The goal is to make every clue tell the same story.</p>
+            <div class="lpf-steps">
+              <article><span>1</span><div><h3>Read the Body First</h3><p>A carved maple cap points toward the professional Goldtop, Standard or many later Deluxe models. A flat slab mahogany body points toward a Junior, TV Model or Special.</p></div></article>
+              <article><span>2</span><div><h3>Count and Identify the Pickups</h3><p>One dog-ear P-90 indicates a Junior or TV Model. Two soapbar P-90s suggest a Special or early Goldtop. Full-size <a href={links.paf}>PAF and Patent Number humbuckers</a> and mini-humbuckers belong to different branches.</p></div></article>
+              <article><span>3</span><div><h3>Match the Bridge and Neck Angle</h3><p>A trapeze, wraparound, ABR-1 with stopbar or later Nashville bridge narrows the date. Extra holes, leaning studs and altered neck geometry can reveal repairs or conversions.</p></div></article>
+              <article><span>4</span><div><h3>Check Trim and Construction</h3><p>Binding, inlays, headstock decoration, neck tenon, body layers, volute, neck wood and the Made in USA stamp separate models and broad production periods.</p></div></article>
+              <article><span>5</span><div><h3>Decode the Serial and Parts</h3><p>Compare the number with pot codes, pickup markings, tuner style, plastics, finish shadows and solder. Joe's <a href={links.serial}>Gibson serial number guide</a> helps date the number, but does not replace the inspection.</p></div></article>
+            </div>
+          </section>
+
+          <section id="authentication" class="lpf-section">
+            <p class="lpf-kicker">Before Buying or Selling</p>
+            <h2>Les Paul Authentication Checklist</h2>
+            <p>Vintage Les Pauls have been played, repaired, refinished, parted out and copied for decades. A modified guitar can still be excellent, but its history needs to be identified before anyone assigns collector value. Joe's <a href={links.inspection}>dealer inspection guide</a> shows how the serial, hardware footprints, cavities, pickups and finish work together.</p>
+            <div class="lpf-checklist">
+              <div><b>✓</b><span>Inspect the headstock, neck heel and body seams under strong side light and UV when appropriate.</span></div>
+              <div><b>✓</b><span>Photograph pickup and control cavities before accepting a high-value guitar as original.</span></div>
+              <div><b>✓</b><span>Confirm that pickup baseplates, decals, leads, pot codes, capacitors, wire and solder agree with the claimed year.</span></div>
+              <div><b>✓</b><span>Compare tuner footprints, bridge posts, tailpiece studs and pickguard screw holes.</span></div>
+              <div><b>✓</b><span>Read finish color in protected areas around guards, rings, hardware and natural wear.</span></div>
+              <div><b>✓</b><span>Document the front, back, headstock, serial, neck joint, hardware, electronics, case, receipts and repairs.</span></div>
+            </div>
+            <blockquote><strong>A Serial Number Can Date the Story. It Cannot Authenticate the Whole Guitar.</strong><p>Construction, finish, parts and provenance need to agree. Before disturbing original solder, read the <a href={links.paf}>PAF and Patent Number pickup authentication guide</a>.</p></blockquote>
+          </section>
+
+          <section id="value" class="lpf-section">
+            <p class="lpf-kicker">Collector Value</p>
+            <h2>What Makes a Vintage Gibson Les Paul Valuable?</h2>
+            <p>The model and year establish a broad market. Originality, condition, repairs, finish, pickups and documentation determine where an individual guitar belongs inside it. The separate market guide carries current price ranges so this historical guide can stay focused on identification.</p>
+            <div class="lpf-values">
+              {valueFactors.map(([title, copy], index) => <article><span>0{index + 1}</span><h3>{title}</h3><p>{copy}</p></article>)}
+            </div>
+            <a class="lpf-primary-link" href={links.value}>Open the Vintage Les Paul Market Value Guide <span aria-hidden="true">→</span></a>
+          </section>
+
+          <section id="guides" class="lpf-section">
+            <p class="lpf-kicker">Go Deeper</p>
+            <h2>Related Les Paul Research From Joe's Vintage Guitars</h2>
+            <div class="lpf-guides">
+              {furtherReading.map((guide) => <a href={guide.href}><strong>{guide.title}</strong><p>{guide.copy}</p><small>Read the Guide <span aria-hidden="true">→</span></small></a>)}
+            </div>
+          </section>
+
+          <section id="faq" class="lpf-section">
+            <p class="lpf-kicker">Common Questions</p>
+            <h2>Vintage Gibson Les Paul FAQ</h2>
+            <div class="lpf-faq">
+              {faqs.map((faq, index) => <details open={index === 0}><summary>{faq.q}<span>+</span></summary><p>{faq.a}</p></details>)}
+            </div>
+          </section>
+
+          <section class="lpf-sources">
+            <h2>Research Notes</h2>
+            <p>This family overview connects model identification with Joe's year-specific field guides. Historical cross-checks include <a href="https://www.gibson.com/en-US/stories/gibson-les-paul-models-everything-you-need-to-know">Gibson's Les Paul model history</a>, <a href="https://www.gibson.com/en-US/stories/the-history-of-gibson-electric-guitar-pickups-from-the-p-90-to-the-humbucker-and-beyond">Gibson's pickup history</a>, the surviving <a href="https://www.vintageguitarandbass.com/gibson/catalogues/1958_index.php">1958 Gibson catalog</a> and <a href="https://reverb.com/news/a-timeline-of-les-pauls">Tony Bacon's Les Paul timeline</a>.</p>
+          </section>
+        </div>
+      </div>
+    </article>
+
+    <section class="lpf-cta">
+      <div><p class="lpf-kicker">Have a Vintage Les Paul?</p><h2>Let's Identify Your Vintage Les Paul</h2><p>Send clear photos of the front, back, headstock, serial number, pickups, controls, cavities and case. Joe will inspect the guitar and explain what stands out.</p></div>
+      <div><a class="lpf-cta__button" href="/sell-my-gibson-guitar/">Get a Free Appraisal <span aria-hidden="true">→</span></a><a href="tel:+16029006635">Call or Text (602) 900-6635</a><a href="mailto:joesvintageguitars94@gmail.com">Email Joe</a></div>
+    </section>
+</main>
+
+<style>
+  :global(body.lpf-page) { background: #f3efe6; color: #211d1a; }
+  .lpf { --paper: #f3efe6; --paper-deep: #e8e0d2; --white: #fffdf8; --ink: #211d1a; --brown: #682412; --brown-dark: #18120b; --gold: #c89a43; --line: #d8cec0; overflow: hidden; background: var(--paper); color: var(--ink); line-height: 1.7; }
+  .lpf a { color: inherit; text-underline-offset: 3px; }
+  .lpf article { margin: 0; }
+  .lpf-kicker { margin: 0 0 .8rem; color: var(--gold); font-size: .72rem; font-weight: 900; letter-spacing: .15em; text-transform: uppercase; }
+  .lpf-hero { display: grid; grid-template-columns: minmax(0, .92fr) minmax(430px, 1.08fr); min-height: 690px; background: var(--brown-dark); color: #fff; }
+  /* The site logo hangs below the absolute header. Reserve its full desktop
+     footprint so the breadcrumb and title never render underneath it. */
+  .lpf-hero__copy { display: flex; flex-direction: column; justify-content: flex-end; padding: 17.5rem clamp(2.5rem, 6vw, 6rem) clamp(3.5rem, 6vw, 6rem); background: radial-gradient(circle at 0 0, rgba(214,171,88,.32), transparent 38%), linear-gradient(145deg, #352610, #17110a); }
+  .lpf-breadcrumb { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 2rem; color: rgba(255,255,255,.64); font-size: .76rem; }
+  .lpf-breadcrumb a { text-decoration: none; }
+  .lpf h1 { max-width: 620px; margin: 0; font-size: clamp(3rem, 5.4vw, 6.2rem); letter-spacing: -.045em; line-height: .94; }
+  .lpf-subtitle { margin: 1.25rem 0 0; color: #f1c77b; font-size: clamp(1.2rem, 2vw, 1.75rem); font-weight: 650; }
+  .lpf-dek { max-width: 650px; margin: 1.8rem 0; color: #e6d9d3; font-size: 1.02rem; }
+  .lpf-byline { display: flex; gap: .7rem; align-items: center; margin: .2rem 0 0; }
+  .lpf-byline strong { font-size: .85rem; }
+  .lpf-byline span { color: #cbbab4; font-size: .74rem; }
+  .lpf-byline span::before { content: "·"; padding-right: .7rem; color: var(--gold); }
+  .lpf-hero__image { position: relative; min-height: 560px; margin: 0; background: #21140d; }
+  .lpf-hero__image :global(img) { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 52% center; }
+  .lpf-hero__image::after { position: absolute; inset: 0; content: ""; background: linear-gradient(90deg, rgba(24,18,11,.25), transparent 28%), linear-gradient(0deg, rgba(18,7,5,.5), transparent 36%); pointer-events: none; }
+  .lpf-hero__image figcaption { position: absolute; z-index: 1; right: 1.2rem; bottom: 1rem; color: #eee2d5; font-size: .7rem; }
+  .lpf-answer { display: grid; grid-template-columns: 90px 1fr; gap: 2rem; width: min(1180px, 92vw); margin: 0 auto; padding: 3.4rem 0; border-bottom: 1px solid var(--line); }
+  .lpf-answer > span { color: var(--brown); font-size: 2.5rem; font-weight: 800; line-height: 1; }
+  .lpf-answer h2 { margin: 0 0 .8rem; font-size: clamp(1.8rem, 3vw, 2.8rem); line-height: 1.12; }
+  .lpf-answer p:last-child { max-width: 930px; margin: 0; color: #514945; }
+  .lpf-answer a, .lpf-content a:not(.lpf-model__photo):not(.lpf-primary-link), .lpf-sources a { color: var(--brown); font-weight: 750; }
+  .lpf-layout { display: grid; grid-template-columns: 250px minmax(0, 840px); justify-content: center; gap: clamp(3rem, 7vw, 7rem); width: min(1180px, 92vw); margin: 0 auto; padding: 5rem 0 2rem; }
+  .lpf-toc { position: sticky; top: 110px; align-self: start; }
+  .lpf-toc > p { margin: 0 0 1rem; font-size: .72rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
+  .lpf-toc ol { margin: 0; padding: 0; list-style: none; counter-reset: lpf-toc; border-top: 1px solid var(--line); }
+  .lpf-toc li { counter-increment: lpf-toc; border-bottom: 1px solid var(--line); }
+  .lpf-toc li a { display: grid; grid-template-columns: 25px 1fr; gap: .45rem; padding: .78rem 0; color: #554b46; font-size: .78rem; line-height: 1.35; text-decoration: none; }
+  .lpf-toc li a::before { content: "0" counter(lpf-toc); color: var(--brown); font-weight: 800; }
+  .lpf-toc__help { display: block; margin-top: 1.25rem; padding: .95rem; background: var(--paper-deep); color: var(--brown); font-size: .78rem; font-weight: 850; text-decoration: none; }
+  .lpf-content { min-width: 0; }
+  .lpf-section { padding-bottom: 5.8rem; scroll-margin-top: 110px; }
+  .lpf-section > h2 { margin: 0 0 1.25rem; font-size: clamp(2.2rem, 4.2vw, 4.2rem); letter-spacing: -.035em; line-height: 1.04; }
+  .lpf-section > p:not(.lpf-kicker) { color: #4d4541; font-size: 1.02rem; }
+  .lpf-models { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 1px; margin-top: 2rem; border: 1px solid var(--line); background: var(--line); }
+  .lpf-model { grid-column: span 6; overflow: hidden; background: var(--white); }
+  .lpf-model:last-child:nth-child(odd) { grid-column: 4 / span 6; }
+  .lpf-model__photo { position: relative; display: block; overflow: hidden; aspect-ratio: 3 / 2; background: #24170f; color: #fff; text-decoration: none; }
+  .lpf-model__photo::after { position: absolute; inset: auto 0 0; height: 44%; content: ""; background: linear-gradient(transparent, rgba(20,13,7,.84)); }
+  .lpf-model__photo :global(img) { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform .3s ease; }
+  .lpf-model__photo :global(img.is-contained) { object-fit: contain; padding: .35rem; }
+  .lpf-model__photo:hover :global(img) { transform: scale(1.02); }
+  .lpf-model__photo small { position: absolute; z-index: 1; right: 1rem; bottom: .75rem; left: 1rem; font-size: .67rem; font-weight: 750; }
+  .lpf-model__copy { padding: 1.55rem 1.7rem 1.8rem; }
+  .lpf-model__copy > span { color: var(--brown); font-size: .8rem; font-weight: 800; }
+  .lpf-model h3 { margin: .55rem 0 .1rem; font-size: 1.42rem; }
+  .lpf-model__copy strong { color: var(--brown); font-size: .75rem; letter-spacing: .05em; text-transform: uppercase; }
+  .lpf-model__copy p { margin: .8rem 0 0; color: #665c56; font-size: .86rem; }
+  .lpf-note { display: grid; grid-template-columns: 150px 1fr; gap: 1rem; margin-top: 1.5rem; padding: 1.5rem; border-left: 4px solid var(--gold); background: var(--paper-deep); }
+  .lpf-note strong { color: var(--brown); }
+  .lpf-note p { margin: 0; color: #554b46; font-size: .9rem; }
+  .lpf-evidence { margin-top: 2.5rem; border-top: 1px solid var(--line); }
+  .lpf-evidence__group { padding: 3rem 0; border-bottom: 1px solid var(--line); }
+  .lpf-evidence__heading { display: grid; grid-template-columns: 56px 1fr; gap: 1rem; margin-bottom: 1.6rem; }
+  .lpf-evidence__heading > span { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid var(--gold); border-radius: 50%; color: var(--brown); font-size: .78rem; font-weight: 850; }
+  .lpf-evidence__heading p { margin: 0 0 .25rem; color: #72645d; font-size: .76rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+  .lpf-evidence__heading h3 { margin: 0; font-size: clamp(1.5rem, 3vw, 2.15rem); }
+  .lpf-evidence__heading strong { display: block; margin-top: .35rem; color: var(--brown); font-size: .88rem; }
+  .lpf-evidence__body { display: grid; grid-template-columns: minmax(255px, .9fr) minmax(0, 1.35fr); gap: 1.5rem; align-items: start; }
+  .lpf-evidence__checks { padding: 1.35rem; border-left: 3px solid var(--gold); background: var(--paper-deep); }
+  .lpf-evidence__checks ul { margin: 0; padding-left: 1.15rem; }
+  .lpf-evidence__checks li { padding: 0 0 .85rem .15rem; color: #514842; font-size: .88rem; }
+  .lpf-evidence__checks aside { margin-top: 1.1rem; padding: 1rem; background: var(--brown-dark); color: #fff; }
+  .lpf-evidence__checks aside strong { color: var(--gold); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+  .lpf-evidence__checks aside p { margin: .4rem 0 0; color: #f4e8e1; font-size: .8rem; }
+  .lpf-evidence__checks > a { display: inline-flex; gap: .4rem; margin-top: 1rem; font-size: .81rem; }
+  .lpf-evidence__photos { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; border: 1px solid var(--line); background: var(--line); }
+  .lpf-evidence__photos figure { margin: 0; overflow: hidden; background: var(--white); }
+  .lpf-evidence__photos :global(img) { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .lpf-evidence__photos :global(img.is-contained) { object-fit: contain; padding: .3rem; background: #24170f; }
+  .lpf-evidence__photos figcaption { display: block; min-height: 114px; padding: 1rem; }
+  .lpf-evidence__photos figcaption strong { display: block; color: var(--brown); font-size: .88rem; }
+  .lpf-evidence__photos figcaption span { display: block; margin-top: .3rem; color: #645a54; font-size: .75rem; }
+  .lpf-timeline { margin-top: 2.2rem; border-top: 1px solid var(--line); }
+  .lpf-timeline article { display: grid; grid-template-columns: 145px 1fr; gap: 2rem; padding: 2.1rem 0; border-bottom: 1px solid var(--line); }
+  .lpf-timeline__year { color: var(--brown); font-size: 1.2rem; font-weight: 800; }
+  .lpf-timeline h3 { margin: 0 0 .35rem; font-size: 1.28rem; }
+  .lpf-timeline p { margin: 0; color: #5d534e; font-size: .9rem; }
+  .lpf-tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: 1rem; }
+  .lpf-tags span { padding: .24rem .55rem; border: 1px solid #ccbfae; border-radius: 999px; color: #5d514b; font-size: .66rem; font-weight: 800; }
+  .lpf-link-row { display: flex; flex-wrap: wrap; gap: .8rem 1.25rem; margin-top: 1.5rem; font-size: .82rem; }
+  .lpf-steps { margin-top: 2rem; }
+  .lpf-steps article { display: grid; grid-template-columns: 52px 1fr; gap: 1rem; padding: 1.35rem 0; border-bottom: 1px solid var(--line); }
+  .lpf-steps article > span { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: var(--brown); color: #fff; font-weight: 800; }
+  .lpf-steps h3 { margin: 0 0 .2rem; font-size: 1.13rem; }
+  .lpf-steps p { margin: 0; color: #5f5550; font-size: .88rem; }
+  .lpf-checklist { display: grid; gap: .7rem; margin-top: 2rem; }
+  .lpf-checklist div { display: grid; grid-template-columns: 22px 1fr; gap: .7rem; padding: 1rem; border: 1px solid var(--line); background: var(--white); color: #544a45; font-size: .88rem; }
+  .lpf-checklist b { color: var(--brown); }
+  .lpf blockquote { margin: 2.4rem 0 0; padding: 2rem 2.2rem; background: var(--brown-dark); color: #fff; }
+  .lpf blockquote strong { display: block; font-size: clamp(1.3rem, 2.4vw, 2rem); line-height: 1.35; }
+  .lpf blockquote p { margin: .8rem 0 0; color: #d6b9ad; font-size: .85rem; }
+  .lpf blockquote a { color: #f1c77b !important; }
+  .lpf-values { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; margin-top: 2rem; border: 1px solid var(--line); background: var(--line); }
+  .lpf-values article { padding: 1.55rem; background: var(--white); }
+  .lpf-values span { color: var(--gold); font-size: .78rem; font-weight: 800; }
+  .lpf-values h3 { margin: .45rem 0 .3rem; font-size: 1.12rem; }
+  .lpf-values p { margin: 0; color: #625853; font-size: .84rem; }
+  .lpf-primary-link { display: inline-flex; gap: .45rem; margin-top: 1.5rem; padding: .85rem 1rem; background: var(--brown); color: #fff; font-size: .82rem; font-weight: 850; text-decoration: none; }
+  .lpf-guides { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin-top: 2rem; }
+  .lpf-guides a { display: flex; flex-direction: column; min-height: 185px; padding: 1.4rem; border: 1px solid var(--line); background: var(--white); text-decoration: none; transition: transform .18s ease, border-color .18s ease; }
+  .lpf-guides a:hover { transform: translateY(-3px); border-color: var(--brown); }
+  .lpf-guides strong { color: var(--ink); font-size: 1.14rem; line-height: 1.3; }
+  .lpf-guides p { color: #675d57; font-size: .83rem; }
+  .lpf-guides small { margin-top: auto; color: var(--brown); font-weight: 850; }
+  .lpf-faq { margin-top: 2rem; border-top: 1px solid var(--line); }
+  .lpf-faq details { border-bottom: 1px solid var(--line); }
+  .lpf-faq summary { display: grid; grid-template-columns: 1fr auto; gap: 1rem; padding: 1.2rem 0; cursor: pointer; font-size: 1.05rem; font-weight: 750; list-style: none; }
+  .lpf-faq summary::-webkit-details-marker { display: none; }
+  .lpf-faq summary span { color: var(--brown); font-size: 1.2rem; }
+  .lpf-faq details[open] summary span { transform: rotate(45deg); }
+  .lpf-faq details p { max-width: 700px; margin: -.2rem 0 1.3rem; color: #5e544f; font-size: .9rem; }
+  .lpf-sources { padding: 2rem 0 4rem; border-top: 1px solid var(--line); }
+  .lpf-sources h2 { font-size: 1.2rem; }
+  .lpf-sources p { color: #756b65; font-size: .78rem; }
+  .lpf-cta { display: grid; grid-template-columns: 1.2fr .8fr; gap: 5rem; align-items: center; padding: clamp(3rem, 7vw, 7rem) max(5vw, calc((100vw - 1180px) / 2)); background: var(--brown-dark); color: #fff; }
+  .lpf-cta h2 { max-width: 700px; margin: 0 0 1rem; font-size: clamp(2.5rem, 5vw, 5rem); letter-spacing: -.04em; line-height: 1; }
+  .lpf-cta p:not(.lpf-kicker) { color: #d7c7c1; }
+  .lpf-cta > div:last-child { display: flex; flex-direction: column; gap: .85rem; }
+  .lpf-cta a { color: #eadfd9; font-size: .84rem; font-weight: 800; text-decoration: none; }
+  .lpf-cta .lpf-cta__button { display: flex; justify-content: center; gap: .5rem; margin-bottom: .35rem; padding: 1rem 1.2rem; background: var(--gold); color: #24150f; }
+  @media (max-width: 980px) {
+    .lpf-hero { grid-template-columns: 1fr; }
+    .lpf-hero__copy { min-height: 590px; padding-top: 13.5rem; }
+    .lpf-hero__image { min-height: 500px; }
+    .lpf-layout { grid-template-columns: 1fr; }
+    .lpf-toc { display: none; }
+    .lpf-evidence__body { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 680px) {
+    .lpf-hero__copy { min-height: 570px; padding: 13.5rem 1.4rem 3.1rem; }
+    .lpf h1 { font-size: clamp(3rem, 15vw, 4.6rem); }
+    .lpf-hero__image { min-height: 410px; }
+    .lpf-answer { grid-template-columns: 1fr; gap: 1rem; width: calc(100% - 2.4rem); }
+    .lpf-layout { width: calc(100% - 2.4rem); padding-top: 3.5rem; }
+    .lpf-section { padding-bottom: 4.4rem; }
+    .lpf-models, .lpf-values, .lpf-guides { grid-template-columns: 1fr; }
+    .lpf-model, .lpf-model:last-child:nth-child(odd) { grid-column: 1 / -1; }
+    .lpf-note { grid-template-columns: 1fr; }
+    .lpf-evidence__photos { grid-template-columns: 1fr; }
+    .lpf-evidence__photos figcaption { min-height: 0; }
+    .lpf-timeline article { grid-template-columns: 1fr; gap: .45rem; }
+    .lpf-cta { grid-template-columns: 1fr; gap: 2rem; padding: 4rem 1.25rem; }
+  }
+  @media (max-width: 639px) {
+    .lpf-hero__copy { padding-top: 10rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .lpf * { transition: none !important; } }
+</style>
