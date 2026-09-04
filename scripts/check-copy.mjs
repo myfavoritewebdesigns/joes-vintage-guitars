@@ -91,6 +91,7 @@ const HARD_PATTERNS = [
   { name: "its-important-noting", re: /it'?s (important|worth) not(ing|e)/i },
   { name: "in-the-world-of", re: /in the world of/i },
   { name: "when-it-comes-to", re: /when it comes to/i },
+  { name: "self-certifying-candor", re: /\b(?:the|these|those|our|my) honest (?:details|truth|answer|assessment|take|view|opinion)\b/i },
 ];
 // Paragraph-initial only (anchored), checked against each block unit's start.
 const PARA_INITIAL = { name: "paragraph-initial-transition", re: /^(in conclusion|in summary|ultimately,|moreover,|furthermore,)/i };
@@ -109,7 +110,16 @@ const ALLOWED_PICTOGRAPHIC = new Set(["©", "®", "™", "℠"]);
 // WARN tier lexicon. Report only, never gates.
 const WARN_LEXICON = [
   "leverage", "seamless", "robust", "comprehensive", "holistic", "navigate",
-  "landscape", "journey", "crucial", "pivotal", "dive into",
+  "landscape", "journey", "crucial", "pivotal", "dive into", "honest", "genuine",
+];
+
+// 2026-08 voice-guide additions. These stay in review-tier while older
+// published pages still contain adjudicated examples; new copy should clear
+// them instead of adding more debt.
+const VOICE_WARN_PATTERNS = [
+  { name: "self-ranked-importance", re: /\bwhy (?:it|this|that|these|those) matters\b/i },
+  { name: "worth-knowing-preamble", re: /\bworth knowing\b/i },
+  { name: "single-most-superlative", re: /\bthe single most\b/i },
 ];
 
 const lexiconRe = (words) =>
@@ -281,6 +291,7 @@ function checkPage(file) {
   const html = readFileSync(file, "utf-8");
   const $ = cheerio.load(html);
   const units = extractUnits($);
+  const headingCounts = new Map();
   const hard = [];
   const warn = [];
   const add = (tier, check, unit, matched, ctx) => {
@@ -300,10 +311,16 @@ function checkPage(file) {
     // Heading units only carry the Title Case checks; their text is already
     // covered by the visible-text units, so skip the rest to avoid double counting.
     if (isHeading) {
+      const headingKey = norm.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+      if (headingKey) headingCounts.set(headingKey, (headingCounts.get(headingKey) ?? 0) + 1);
       const bad = titleCaseViolations(text);
       if (bad.length) {
         const tier = unit.surface === "heading-h3" ? "warn" : "hard";
         add(tier, `title-case-${unit.where}`, unit, bad.join(", "), text.slice(0, 120));
+      }
+      for (const { name, re } of VOICE_WARN_PATTERNS) {
+        const m = norm.match(re);
+        if (m) add("warn", name, unit, m[0], text.slice(0, 120));
       }
       continue;
     }
@@ -343,6 +360,16 @@ function checkPage(file) {
     for (const { word, re } of WARN_LEX) {
       for (const m of norm.matchAll(re)) add("warn", `lexicon:${word}`, unit, m[0], context(text, m.index, m[0].length));
     }
+    for (const { name, re } of VOICE_WARN_PATTERNS) {
+      const m = norm.match(re);
+      if (m) add("warn", name, unit, m[0], context(text, m.index ?? 0, m[0].length));
+    }
+  }
+
+  for (const [heading, count] of headingCounts) {
+    if (count < 2) continue;
+    const unit = { surface: "heading-repeat", where: "h1/h2/h3", text: heading, isBlockStart: false };
+    add("warn", "repeated-heading", unit, heading, `Repeated ${count} times on the same page`);
   }
   return { route, hard, warn };
 }

@@ -1,7 +1,7 @@
 ---
 title: "The 1959 Gibson ES-335 Authentication Guide: Identifying the “Holy Grail” Semi-Hollow"
 pubDate: "2026-03-05T18:13:59"
-modified: "2026-03-05T18:13:59"
+modified: "2026-09-04T10:30:00"
 excerpt: "A close look at the details that set the 1959 apart. From the rare 1958 ‘thin top’ construction and ‘mummified’ Kluson tuners to the ‘white bobbin’ PAF pickups hidden beneath original nickel covers, we go through an exceptionally preserved 1959 Gibson ES-335 ‘Dot Neck.’ If you are a collector looking to authenticate one or a seller trying to understand what your guitar is worth, this guide walks through the small things that tell you what you have. It also explains why the 1959 ES-335 is so highly regarded for its tone and build."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -13,6 +13,8 @@ ogImage: "/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-33
 wpId: 19215
 ---
 Among vintage electric guitars, few have the following of the **1959 Gibson ES-335TD**. Collectors and players often call it the “Holy Grail,” and 1959 was the year Ted McCarty’s semi-hollow design really came together. It was the year Gibson corrected the structural teething or “fragility” issues of the inaugural 1958 models while keeping the massive, hand-shaped neck profiles and the “Long-Magnet” PAF humbuckers that define the Golden Era sound. From the **“Mickey Mouse” ear** cutaways to the transition of the **4-ply maple top**, a ’59 was built for the harmonic “bloom” and sustain that modern CNC machines still struggle to match. Whether you are a “Tone Chaser” or an investor, knowing the details, from the **spring-loaded Stone cases** to the **tortoiseshell side dots**, is what tells you what you are looking at. If you need help dating your Gibson, check out our [**Gibson Serial Number Tool.**](/how-to-read-gibson-serial-numbers/) If you are curious about the value of your Gibson, reach out for a [**free appraisal!**](/free-appraisal/)
+
+The sunburst guitar shown throughout this guide came with its 1959 Hall's Music Store receipt and family photographs. Read [Sylvia's original-owner ES-335 story](/post/sylvias-1959-gibson-es-335/) for the history that stayed with this exact guitar.
 
 ## Jump to a Section
 

@@ -1,7 +1,7 @@
 ---
 title: "The 1959 Gibson ES-355: History, Authentication, and Value"
 pubDate: "2026-07-14T12:00:00"
-modified: "2026-07-14T12:00:00"
+modified: "2026-09-04T10:30:00"
 excerpt: "The ES-355 was the top of Gibson's thinline family, a cherry-red, gold-plated flagship that sat above the ES-335 and ES-345. This guide covers where it came from, how the mono ES-355TD and the stereo Vari-tone ES-355TD-SV differ, how we date and authenticate a 1959, and what one is really worth today, including the surprise that a fancy 355 usually sells for less than a plain 335 dot-neck. Every photo is a real 1959 ES-355 from our shop."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -74,6 +74,8 @@ At Joe's Vintage Guitars we buy and sell these guitars, and a clean 1959 355 is 
 ![Front of a 1959 Gibson ES-355 in cherry showing the Bigsby vibrato, two gold-cover humbuckers, four knobs, and a bound f-hole, in a pink-lined case.](../../assets/blog/1959-gibson-es-355-history-value/1959-gibson-es-355-cherry-bigsby-controls.jpg)
 
 Our 1959 ES-355. This is the mono version, with two volumes and two tones and no Vari-tone switch, and the gold Bigsby that was standard on a 355 in 1959. The gold plating has worn down to bare brass in the places a hand and a strap touch it, which is exactly what six decades of honest playing looks like.
+
+For a different guitar with a documented line from father to son, read the [one-family 1959 Gibson ES-355 story](/post/one-family-1959-gibson-es-355/). Its stereo-to-mono conversion and decades of family use make a useful companion to the model guide.
 
 <h2 id="es355-lineup">The Flagship of the 335 Family</h2>
 
