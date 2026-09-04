@@ -14,6 +14,7 @@ import OneFamilyES355Story from "../../components/OneFamilyES355Story.astro";
 import SylviaES335Story from "../../components/SylviaES335Story.astro";
 import OneOwnerES345Story from "../../components/OneOwnerES345Story.astro";
 import LesPaulFamilyGuide from "../../components/LesPaulFamilyGuide.astro";
+import GibsonSGFamilyGuide from "../../components/GibsonSGFamilyGuide.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
 import { getPublishedPosts, getRelated, categoryName, formatDate } from "../../lib/blog";
 import { resolveImage, assetSrc } from "../../lib/images";
@@ -43,6 +44,7 @@ const isSylviaES335Story = entry.id === "sylvias-1959-gibson-es-335";
 const isOneOwnerES345Story = entry.id === "one-owner-1966-gibson-es-345";
 const isFirebirdGuide = entry.id === "gibson-firebird-history-authentication-value";
 const isLesPaulFamilyGuide = entry.id === "vintage-gibson-les-paul-family-guide";
+const isGibsonSGFamilyGuide = entry.id === "vintage-gibson-sg-family-guide";
 
 const postUrl = `${SITE_URL}/post/${entry.id}/`;
 const catName = categoryName(data.category, data.categoryName);
@@ -240,7 +242,7 @@ const articleSchema = {
 ---
 
 <Layout
-  bodyClass={isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : "blog-post-page"}
+  bodyClass={isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : "blog-post-page"}
   title={`${data.title} | Joe's Vintage Guitars`}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
@@ -266,7 +268,9 @@ const articleSchema = {
     </>
   )}
 
-  {isLesPaulFamilyGuide ? (
+  {isGibsonSGFamilyGuide ? (
+    <GibsonSGFamilyGuide />
+  ) : isLesPaulFamilyGuide ? (
     <LesPaulFamilyGuide />
   ) : isSylviaES335Story ? (
     <SylviaES335Story />
@@ -405,7 +409,7 @@ const articleSchema = {
     </>
   )}
 
-  {!isLesPaulFamilyGuide && <ContactSection />}
+  {!isLesPaulFamilyGuide && !isGibsonSGFamilyGuide && <ContactSection />}
 
   <!-- Floating TOC behavior: hide the sidebar over the contact form, and power
        the mobile "Sections" button by cloning the sidebar links into the sheet.
