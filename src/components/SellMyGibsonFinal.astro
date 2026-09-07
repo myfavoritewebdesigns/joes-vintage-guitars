@@ -335,17 +335,28 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   <section class="smg-section smg-preservation">
     <figure><LicensedImage src={byrdlandPhoto} alt="Original owner Don Majure with his sunburst 1957 Gibson Byrdland" width={820} loading="lazy" /></figure>
     <div>
-      <p class="smg-eyebrow">Keeping the Story With the Guitar</p>
-      <h2>The Photographs and Names Matter Too</h2>
-      <p>When a guitar comes with family photos or a story about its owner, I keep those materials with it. I often print the story and place it inside the case so the next owner knows who played the guitar before them.</p>
-      <p>If you inherited a Gibson, don't worry if you don't know the model or year. Keep the case, old parts, receipts and photographs together, then send me what you have.</p>
+      <p class="smg-eyebrow">Provenance Matters</p>
+      <h2>Original Photos And Stories Can Add To My Offer</h2>
+      <p>When a Gibson comes with original-owner photographs, receipts or a well-documented family story, I put real value on that history. Meaningful provenance can increase what I'm willing to pay because the people and stories behind vintage guitars matter to me.</p>
+      <p>I keep those materials with the guitar. I often print the owner's story and place it inside the case so the next owner knows who played it before them.</p>
+      <p>If you inherited a Gibson, don't worry if you don't know its model or year. Keep the case, old parts, receipts and photographs together, then send me everything you have. I'll consider those details when making my offer.</p>
       <a class="smg-text-link" href="/post/one-owner-1957-gibson-byrdland/">Read the One-Owner Byrdland Story</a>
     </div>
   </section>
 
   <section class="smg-section smg-expertise">
-    <div><p class="smg-eyebrow">Research Your Guitar</p><h2>A Serial Number Is Only the Beginning</h2></div>
-    <div><p>The serial number should agree with the construction and parts on the guitar. When those clues don't match, I take a closer look.</p><p>Start with my <a href="/how-to-read-gibson-serial-numbers/">Gibson serial-number guide</a>, compare <a href="/post/gibson-paf-patent-number-pickup-guide/">PAF and Patent Number pickups</a>, or check the <a href="/post/gibson-shipping-totals-1948-1979/">Gibson production totals</a>.</p></div>
+    <div><p class="smg-eyebrow">For Sellers Who Want To Learn More</p><h2>Learn More About Your Gibson Before You Sell</h2></div>
+    <div>
+      <p>You don't need to research your guitar before contacting me. If you'd like to understand more about what you have, I've put together these Gibson resources to help.</p>
+      <p>I enjoy working with an educated seller. It makes it easier to talk through the guitar, explain my offer and make sure we're on the same page.</p>
+      <ul class="smg-resource-links">
+        <li><a href="/how-to-read-gibson-serial-numbers/">Date your guitar with my Gibson serial-number guide</a></li>
+        <li><a href="/post/what-a-serial-number-cant-tell-you/">Learn what a Gibson serial number can and can't tell you</a></li>
+        <li><a href="/post/gibson-paf-patent-number-pickup-guide/">Compare PAF and Patent Number pickups</a></li>
+        <li><a href="/post/gibson-shipping-totals-1948-1979/">Review Gibson production and shipping totals</a></li>
+        <li><a href="/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/">See how the year can affect vintage Gibson value</a></li>
+      </ul>
+    </div>
   </section>
 
   <section class="smg-section smg-options" id="best-way-to-sell">
@@ -366,7 +377,7 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   </section>
 
   <section class="smg-section smg-guides" id="guitar-families">
-    <header class="smg-heading"><p class="smg-eyebrow">Gibson Models I Know</p><h2>Start With the Family Your Guitar Belongs To</h2><p>These guides cover the solid-body, thinline, acoustic and Gibson archtop families owners contact me about most often.</p></header>
+    <header class="smg-heading"><p class="smg-eyebrow">Gibson Models I Buy</p><h2>Vintage Gibson Guitars I'm Interested In</h2><p>I buy vintage Gibson solid-body, thinline, acoustic and archtop guitars from owners across the country. Choose a family below to learn more about the models I buy. If you don't see your Gibson listed, send it anyway. I also buy unusual and less common models that may not have their own guide yet.</p></header>
     <div class="smg-guide-grid">
       {modelGuides.map((guide) => (
         <article class="smg-guide-card">
@@ -411,7 +422,7 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-page * { box-sizing: border-box; }
   .smg-page h1, .smg-page h2, .smg-page h3 { font-family: var(--font-display); font-weight: 600; }
   .smg-page a { text-underline-offset: 3px; }
-  .smg-header-collage { height: 138px; background: linear-gradient(rgba(9,9,8,.62), rgba(9,9,8,.72)), url('/images/sell-hero-background.jpg') center 42% / cover no-repeat; }
+  .smg-header-collage { height: clamp(190px, 16vw, 225px); background: linear-gradient(rgba(9,9,8,.45), rgba(9,9,8,.6)), url('/images/sell-hero-background.webp') center 42% / cover no-repeat; }
   .smg-anchor { display: block; position: relative; top: -120px; visibility: hidden; }
   .smg-eyebrow { margin: 0 0 20px; color: var(--color-brand-rust-dark); font: 700 13px/1.2 var(--font-display); letter-spacing: .15em; text-transform: uppercase; }
   .smg-photo-guide .smg-eyebrow, .smg-wanted .smg-eyebrow, .smg-appraisal .smg-eyebrow { color: var(--color-brand-brown-tan); }
@@ -532,6 +543,10 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-expertise > div:last-child { padding-left: 38px; border-left: 1px solid var(--color-brand-brown-tan); }
   .smg-expertise > div:last-child p { margin: 0 0 16px; color: var(--color-brand-brown-warm); font-size: 18px; line-height: 1.75; }
   .smg-expertise a { color: var(--color-brand-rust-dark); font-weight: 700; text-decoration: underline; }
+  .smg-resource-links { display: grid; gap: 0; margin: 26px 0 0; padding: 0; border-top: 1px solid var(--color-brand-brown-tan); list-style: none; }
+  .smg-resource-links li { border-bottom: 1px solid var(--color-brand-brown-tan); }
+  .smg-resource-links a { display: block; padding: 15px 34px 15px 0; position: relative; }
+  .smg-resource-links a::after { content: '\2192'; position: absolute; right: 4px; text-decoration: none; }
 
   .smg-options { background: #fff; }
   .smg-options__table { border: 1px solid var(--color-brand-cream-warm); }
@@ -606,9 +621,9 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   }
 
   @media (max-width: 650px) {
-    .smg-header-collage { height: 112px; }
+    .smg-header-collage { height: 140px; background-image: linear-gradient(rgba(9,9,8,.45), rgba(9,9,8,.6)), url('/images/sell-hero-background-mobile.webp'); }
     .smg-hero { min-height: 0; }
-    .smg-hero__copy { padding-top: 68px; }
+    .smg-hero__copy { padding-top: 88px; }
     .smg-hero h1 { font-size: 47px; }
     .smg-hero__image { min-height: 420px; }
     .smg-proof { padding: 28px 18px; }
