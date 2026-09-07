@@ -204,6 +204,12 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
     <div><strong>2,100+</strong><span>Positive Reviews</span></div>
   </section>
 
+  <span class="smg-anchor" id="receive-free-consultation"></span>
+  <section class="smg-appraisal" id="appraisal">
+    <div class="smg-appraisal__copy"><p class="smg-eyebrow">Talk With Me</p><h2>Tell Me About Your Gibson</h2><p>You don't need to know the model, year or value. Share what you know and send a few photos. I'll look at the guitar myself and get back to you.</p><a href={hrefs.tel}>Call or Text {contact.phone}</a></div>
+    <LeadForm formId="sell-my-gibson" instrumentMode="model-only" serial={{ label: "What does the serial number look like? Look on the back of the headstock or inside the body.", options: serialOptions }} submitLabel="Send" />
+  </section>
+
   <section class="smg-section smg-process" id="process">
     <span class="smg-anchor" id="how-to-sell-your-guitar"></span>
     <span class="smg-anchor" id="my-guitar-buying-process"></span>
@@ -347,8 +353,8 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   <section class="smg-section smg-expertise">
     <div><p class="smg-eyebrow">For Sellers Who Want To Learn More</p><h2>Learn More About Your Gibson Before You Sell</h2></div>
     <div>
-      <p>You don't need to research your guitar before contacting me. If you'd like to understand more about what you have, I've put together these Gibson resources to help.</p>
-      <p>I enjoy working with an educated seller. It makes it easier to talk through the guitar, explain my offer and make sure we're on the same page.</p>
+      <p>You don't have to research your guitar before contacting me. That's what I'm here to help with. Send me what you know, and I'll work through the details myself.</p>
+      <p>If you'd like to learn more before deciding whether to sell, these Gibson resources explain how serial numbers, parts, production totals and model years fit together. I enjoy working with sellers who've done some research because it makes it easier to talk through the guitar, explain my offer and make sure we're on the same page.</p>
       <ul class="smg-resource-links">
         <li><a href="/how-to-read-gibson-serial-numbers/">Date your guitar with my Gibson serial-number guide</a></li>
         <li><a href="/post/what-a-serial-number-cant-tell-you/">Learn what a Gibson serial number can and can't tell you</a></li>
@@ -370,8 +376,8 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
     </div>
   </section>
 
+  <span class="smg-anchor" id="receive-the-highest-payout"></span>
   <section class="smg-wanted">
-    <span class="smg-anchor" id="receive-the-highest-payout"></span>
     <div><p class="smg-eyebrow">Gibsons I Buy</p><h2>Vintage Electric, Acoustic and Carved-Top Gibsons</h2><p>I'm always looking for clean, original and unusual Gibsons. I also buy guitars with changed parts or old repairs, so please ask before ruling yours out.</p><a class="smg-text-link" href="#appraisal">Tell Me About Your Gibson</a></div>
     <ul>{wantedModels.map((model) => (<li>{model}</li>))}</ul>
   </section>
@@ -410,11 +416,6 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
     </div>
   </section>
 
-  <section class="smg-appraisal" id="appraisal">
-    <span class="smg-anchor" id="receive-free-consultation"></span>
-    <div class="smg-appraisal__copy"><p class="smg-eyebrow">Talk With Me</p><h2>Tell Me About Your Gibson</h2><p>Share what you know and send a few photos. I'll look at the guitar myself and get back to you.</p><a href={hrefs.tel}>Call or Text {contact.phone}</a></div>
-    <LeadForm formId="sell-my-gibson" instrumentMode="model-only" serial={{ label: "What does the serial number look like? Look on the back of the headstock or inside the body.", options: serialOptions }} submitLabel="Send" />
-  </section>
 </div>
 
 <style>
