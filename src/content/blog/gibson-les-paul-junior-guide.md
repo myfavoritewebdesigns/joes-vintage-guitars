@@ -455,6 +455,8 @@ For the collector, the Junior is a long study. Specific evolution of specs, fini
 
 The Junior's journey from student model to cultural icon shows something that keeps proving true: great tone isn't a function of complexity or cost. Sometimes the stripped-down, elemental choice (one pickup, one volume, one tone, one idea) turns out to be the most powerful choice of all.
 
+Have a Junior with the tells above? We [buy vintage Les Paul Juniors and other 1950s Gibsons](/sell-my-gibson-guitar/) outright and can arrange prepaid, insured shipping from anywhere in the country.
+
 <h2 id="lpj-resources">Further Reading and Research Resources</h2>
 
 ### Reference Books

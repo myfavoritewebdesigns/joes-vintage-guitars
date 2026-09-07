@@ -206,7 +206,7 @@ Critical Authentication Changes for the TV Yellow Les Paul Special
 
  | The rarest single-cut year. These final single-cut units are in demand for having the most evolved 1950s features. |
 
-Selling a "Golden Era" Gibson? [Here’s how I buy vintage Les Paul Specials](/sell-my-gibson-guitar/), or [get an expert appraisal](/free-appraisal/) first.
+Selling a "Golden Era" Gibson? [See how we buy vintage Les Paul Specials](/sell-my-gibson-guitar/), or [get an expert appraisal](/free-appraisal/) first.
 
 Trust the technical expertise of Joe’s Vintage Guitars in Mesa, AZ.
 

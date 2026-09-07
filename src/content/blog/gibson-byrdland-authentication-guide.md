@@ -533,7 +533,7 @@ Use this checklist when examining any Byrdland. Not all items apply to all eras,
 -   Knob style matches claimed era (bonnet 1955 to 1960; top-hat 1960 to 1967; witch-hat/bell 1967 to 1975)
 -   Pickguard shows appropriate celluloid aging, some crystallizing cracks expected on pre-1970 examples
 
-For any Byrdland with a claimed value above $10,000, obtain a written assessment from a recognized vintage Gibson specialist who has physically examined the instrument. Cross-reference the three most reliable dating tools simultaneously: **(1) pot codes, (2) pickup type and sticker, and (3) serial number range**. If all three agree and align with the physical features described in this guide, you can proceed with confidence. If any two disagree, investigate further before purchasing. For a free online appraisal inquiry, visit our [free appraisal page](/free-appraisal/).
+For any Byrdland with a claimed value above $10,000, obtain a written assessment from a recognized vintage Gibson specialist who has physically examined the instrument. Cross-reference the three most reliable dating tools simultaneously: **(1) pot codes, (2) pickup type and sticker, and (3) serial number range**. If all three agree and align with the physical features described in this guide, you can proceed with confidence. If any two disagree, investigate further before purchasing. For a free online appraisal inquiry, visit our [free appraisal page](/free-appraisal/). If you're thinking about selling, we [buy vintage Byrdlands and other Gibson archtops](/sell-my-gibson-guitar/) outright.
 
 <h2 id="links">Related Resources</h2>
 

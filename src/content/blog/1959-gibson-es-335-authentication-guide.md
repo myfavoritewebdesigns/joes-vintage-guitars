@@ -170,7 +170,7 @@ A subtle but vital detail for any 1959 ES-335 is the original white plastic stra
 
 <h2 id="paf-electronics">Electronics: The “Long-Magnet” PAF Humbuckers</h2>
 
-If the 1959 ES-335 is the “Holy Grail,” the **PAF (Patent Applied For)** pickups are the heart of it. In 1959, Gibson’s humbuckers were as good as they got, resulting in a pickup that many describe as having a “3D” harmonic richness, a sound that is both airy and aggressive. I am actively looking for PAF equipped Gibson guitars. If you have a [**guitar you’d like to sell**](/), please reach out!
+If the 1959 ES-335 is the “Holy Grail,” the **PAF (Patent Applied For)** pickups are the heart of it. In 1959, Gibson’s humbuckers were as good as they got, resulting in a pickup that many describe as having a “3D” harmonic richness, a sound that is both airy and aggressive. I am actively looking for PAF equipped Gibson guitars. If you have a [**PAF-equipped Gibson you’d like to sell**](/sell-my-gibson-guitar/), please reach out!
 
 ### The “Long-Magnet” Era and 42AWG Wire
 

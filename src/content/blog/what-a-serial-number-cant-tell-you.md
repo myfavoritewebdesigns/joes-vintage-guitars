@@ -271,7 +271,7 @@ A certificate is paperwork. It's only as strong as the inspection behind it and 
 
 <h2 id="send-me-photos-and-i-will-read-the-guitar">Send Me Photos And I Will Read The Guitar</h2>
 
-If you want the short version on your guitar, send photos. Front, back, headstock, and anything inside you can shoot without forcing screws: pots, solder, neck heel if the neck is already off. I'll date it, say what the parts are doing, and give you a current market read. Use the [free appraisal form](/free-appraisal/), or text me at (602) 900-6635.
+If you want the short version on your guitar, send photos. Front, back, headstock, and anything inside you can shoot without forcing screws: pots, solder, neck heel if the neck is already off. I'll date it, say what the parts are doing, and give you a current market read. Use the [free appraisal form](/free-appraisal/), or text me at (602) 900-6635. If it's a Gibson and you're thinking about selling, [here's how I buy vintage Gibsons](/sell-my-gibson-guitar/).
 
 I'm Joe Dampt. I buy, sell, and appraise vintage instruments in Mesa, Arizona. I've been doing this full-time for more than twelve years. If you want the market argument for third-party lab work, that's the [Vintage Verified essay](https://www.vintageverified.com/joes-vintage). If you want me to look at the guitar in the case, that's the appraisal form.
 
