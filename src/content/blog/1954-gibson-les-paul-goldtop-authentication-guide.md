@@ -401,7 +401,7 @@ Work through this checklist systematically when evaluating any claimed 1954 Les 
 -   Switch tip is amber Catalin (warm translucent amber, not bright white)
 -   Long tenon neck joint visible in neck pickup cavity
 
-For any 1954 Les Paul Goldtop transaction above $20,000, insist on a physical examination by a recognized vintage Gibson specialist. The three most reliable triangulating data points are: **(1) pot codes (side rim of pots in 1954), (2) Grey Tiger capacitors, and (3) the "no line" Kluson tuners**. If all three are period-correct and agree with a "4"-prefix serial, you have a strong case for a genuine 1954. For a free appraisal inquiry, visit our [free appraisal page](/free-appraisal/).
+For any 1954 Les Paul Goldtop transaction above $20,000, insist on a physical examination by a recognized vintage Gibson specialist. The three most reliable triangulating data points are: **(1) pot codes (side rim of pots in 1954), (2) Grey Tiger capacitors, and (3) the "no line" Kluson tuners**. If all three are period-correct and agree with a "4"-prefix serial, you have a strong case for a genuine 1954. For a free appraisal inquiry, visit our [free appraisal page](/free-appraisal/). If you'd rather sell it than just value it, we [buy 1950s Goldtops and other vintage Gibsons](/sell-my-gibson-guitar/) from anywhere in the country.
 
 <h2 id="case">The Original Case</h2>
 

@@ -18,7 +18,7 @@ A prime example of a late 1950s Gibson LG-2. This model features the transition-
 
 Among vintage acoustics, the **Gibson LG series** is a real “sleeper” guitar. While the J-45 gets the attention for its big volume, the LG models (the LG-0, LG-1, LG-2, and LG-3) are studio favorites. Their 14 1/8″ body size makes them comfortable, balanced, and very articulate.
 
-At **Joe’s Vintage Guitars**, we see many collectors and heirs who are unsure exactly which model they have. Knowing the differences between these models matters, both for your playing and for understanding the real market value of your instrument. Feel free to contact us at any time for a [free appraisal](/free-appraisal/) or to [sell your guitar.](/)
+At **Joe’s Vintage Guitars**, we see many collectors and heirs who are unsure exactly which model they have. Knowing the differences between these models matters, both for your playing and for understanding the real market value of your instrument. Feel free to contact us at any time for a [free appraisal](/free-appraisal/) or to [sell your Gibson](/sell-my-gibson-guitar/).
 
 ## Model Overviews: Specs & Tonal DNA
 

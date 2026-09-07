@@ -16,7 +16,7 @@ wpId: 18997
 
 In the golden age of Gibson craftsmanship, the **1955 to 1958 Single Cut Les Paul Special** was the “sweet spot” of the catalog. Positioned between the student-grade Junior and the high-end Goldtop, it offered the dual-pickup versatility of a professional instrument with a simplified, “slab” mahogany design. Today, it is a high-value vintage guitar that collectors want for its “limed mahogany” look and aggressive P-90 growl.
 
-If you are looking to buy or [sell a vintage Les Paul](/), understanding these authentication specifications is critical. At **Joe’s Vintage Guitars**, we’ve seen how even small parts swaps can impact the market value of a vintage instrument by thousands of dollars. If you are wondering what your guitar is worth, don’t hesitate to reach out to us for a [free appraisal.](/free-appraisal/)
+If you are looking to buy or [sell a vintage Les Paul](/sell-my-gibson-guitar/), understanding these authentication specifications is critical. At **Joe’s Vintage Guitars**, we’ve seen how even small parts swaps can impact the market value of a vintage instrument by thousands of dollars. If you are wondering what your guitar is worth, don’t hesitate to reach out to us for a [free appraisal.](/free-appraisal/)
 
 Below is a complete guide to authenticating your single cut Les Paul Special from 1955-1958.
 
@@ -206,7 +206,7 @@ Critical Authentication Changes for the TV Yellow Les Paul Special
 
  | The rarest single-cut year. These final single-cut units are in demand for having the most evolved 1950s features. |
 
-Selling a "Golden Era" Gibson? [Get an Expert Appraisal.](/free-appraisal/)
+Selling a "Golden Era" Gibson? [See how we buy vintage Les Paul Specials](/sell-my-gibson-guitar/), or [get an expert appraisal](/free-appraisal/) first.
 
 Trust the technical expertise of Joe’s Vintage Guitars in Mesa, AZ.
 
