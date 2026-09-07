@@ -682,3 +682,5 @@ Own a 1966 ES-335 you're thinking about letting go? We [buy vintage ES-335s dire
 This reference draws on A.R. Duchossoir's *Gibson Electrics*, Walter Carter's *Gibson Guitars: 100 Years of an American Icon*, documented production examples, collector forum research, and hands-on inspection of authenticated 1966 instruments. Feature transition dates are approximate, Gibson's production changes were phased, and transitional examples exist throughout all periods of change.
 
 Always verify against the physical instrument. Not a substitute for hands-on expert examination for high-value transactions.
+
+Own a 1966 ES-335 you’re thinking about letting go? [I buy vintage ES-335s directly](/sell-my-gibson-guitar/), with prepaid insured shipping.

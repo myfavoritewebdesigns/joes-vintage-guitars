@@ -51,7 +51,7 @@ declare global {
 const HCAPTCHA_SRC =
   "https://js.hcaptcha.com/1/api.js?render=explicit&onload=onJvgHcaptchaLoad";
 
-/** Render one widget per form, just above its submit button. Idempotent. */
+/** Render one widget per form in its reserved mount. Idempotent. */
 function renderCaptchas() {
   const hcaptcha = window.hcaptcha;
   if (!hcaptcha) return;
@@ -59,12 +59,14 @@ function renderCaptchas() {
     .querySelectorAll<HTMLFormElement>("form[data-jvg-contact-form]")
     .forEach((form) => {
       if (form.dataset.hcaptchaId) return; // already rendered
-      const mount = document.createElement("div");
-      mount.className = "h-captcha-mount";
-      mount.style.margin = "16px 0";
-      const submit = form.querySelector('button[type="submit"]');
-      if (submit) submit.before(mount);
-      else form.appendChild(mount);
+      let mount = form.querySelector<HTMLElement>(".h-captcha-mount");
+      if (!mount) {
+        mount = document.createElement("div");
+        mount.className = "h-captcha-mount";
+        const submit = form.querySelector('button[type="submit"]');
+        if (submit) submit.before(mount);
+        else form.appendChild(mount);
+      }
       try {
         form.dataset.hcaptchaId = hcaptcha.render(mount, { sitekey: hcaptchaSiteKey });
       } catch (err) {
@@ -96,11 +98,12 @@ function setState(form: HTMLFormElement, state: FormState, message?: string) {
     banner.className = "jvg-form-banner";
     banner.setAttribute("role", "status");
     banner.setAttribute("aria-live", "polite");
-    form.appendChild(banner);
+    form.prepend(banner);
   }
   if (banner) {
     banner.textContent = message ?? "";
     banner.dataset.state = state;
+    if (state === "error") banner.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 }
 
@@ -116,8 +119,13 @@ async function handleSubmit(e: SubmitEvent) {
 
   // Require a solved hCaptcha before we bother the server.
   const widgetId = form.dataset.hcaptchaId;
+  if (!widgetId) {
+    loadHcaptcha();
+    setState(form, "error", "The security check is still loading. Please wait a moment, tick “I'm human” and press Send again.");
+    return;
+  }
   const token = window.hcaptcha?.getResponse(widgetId) ?? "";
-  if (form.dataset.hcaptchaId && !token) {
+  if (!token) {
     setState(form, "error", "Please complete the “I'm human” check above.");
     return;
   }
@@ -166,6 +174,17 @@ async function handleSubmit(e: SubmitEvent) {
         // Private-browsing or storage-disabled: part two just starts empty.
       }
       window.location.assign("/thank-you/");
+      return;
+    }
+    let serverMessage = "";
+    try {
+      const body = await res.json() as { error?: string };
+      serverMessage = body.error ?? "";
+    } catch {
+      // Some upstream errors don't return JSON.
+    }
+    if (res.status === 400 && /captcha/i.test(serverMessage)) {
+      setState(form, "error", "Please tick the “I'm human” box and press Send again.");
       return;
     }
     setState(form, "error", `Something went wrong. Please call ${contact.phone}.`);
