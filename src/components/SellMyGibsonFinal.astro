@@ -181,11 +181,12 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
     <div class="smg-hero__copy">
       <p class="smg-eyebrow">Vintage Gibson Specialist</p>
       <h1>Sell Your Vintage Gibson to a Buyer Who Knows What It Is</h1>
-      <p class="smg-hero__lead">Send me a few photos and tell me what you know about the guitar. I'll look it over myself and, if it's a guitar I can buy, make you a cash offer with no obligation.</p>
+      <p class="smg-hero__lead">Vintage guitars have been at the center of my life for more than twelve years. I love learning where an old Gibson has been, who played it and the stories that stayed with it. Send me a few photos and tell me what you know. I'll look it over myself and, if it's a guitar I can buy, make you a cash offer with no obligation.</p>
       <div class="smg-hero__actions">
-        <Button href="#appraisal" variant="rust" size="lg">Get a Free Appraisal</Button>
+        <Button href="#appraisal" variant="rust" size="lg">Fill Out the Form</Button>
         <a class="smg-button-secondary" href={hrefs.tel}>Call or Text Joe</a>
       </div>
+      <a class="smg-hero__story-link" href="#owner-stories">Read Guitar Stories</a>
       <div class="smg-trust-row">
         <span>Insured Nationwide Shipping</span>
         <span>No Obligation</span>
@@ -206,7 +207,7 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
 
   <span class="smg-anchor" id="receive-free-consultation"></span>
   <section class="smg-appraisal" id="appraisal">
-    <div class="smg-appraisal__copy"><p class="smg-eyebrow">Talk With Me</p><h2>Tell Me About Your Gibson</h2><p>You don't need to know the model, year or value. Share what you know and send a few photos. I'll look at the guitar myself and get back to you.</p><a href={hrefs.tel}>Call or Text {contact.phone}</a></div>
+    <div class="smg-appraisal__copy"><p class="smg-eyebrow">Talk With Me</p><h2>Tell Me About Your Gibson</h2><p>You don't need to know the model, year or value. Send me whatever photos you have and tell me anything you know about the guitar. I'll look it over myself and get back to you.</p><p>If you'd like to know the ideal photos to send, <a href="#photo-guide">read the six-photo guide</a>.</p><a href={hrefs.tel}>Call or Text {contact.phone}</a></div>
     <LeadForm formId="sell-my-gibson" instrumentMode="model-only" serial={{ label: "What does the serial number look like? Look on the back of the headstock or inside the body.", options: serialOptions }} submitLabel="Send" />
   </section>
 
@@ -273,12 +274,11 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
     <p class="smg-section-link">For more detail, read how the <a href="/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/">year affects vintage Gibson value</a> or review <a href="/post/gibson-shipping-totals-1948-1979/">Gibson production totals</a>.</p>
   </section>
 
-  <section class="smg-section smg-photo-guide">
+  <section class="smg-section smg-photo-guide" id="photo-guide">
     <div>
       <p class="smg-eyebrow">What To Send</p>
       <h2>Six Photos That Help Me Make An Accurate Offer</h2>
       <p>Clear, straight-on photos help me evaluate your Gibson and determine what I can pay. Use natural light, and don't remove pickups, open the electronics or take anything apart.</p>
-      <a class="smg-text-link" href="/how-to-read-gibson-serial-numbers/">Check The Gibson Serial Number Guide</a>
     </div>
     <ol>
       <li><span>01</span><strong>Full Front</strong><small>Include the entire body and headstock.</small></li>
@@ -334,6 +334,7 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
       <h2>I'm Joe Dampt</h2>
       <p>I've spent more than twelve years buying vintage guitars full-time and have appraised more than 10,000 instruments. When you send a Gibson to Joe's Vintage Guitars, I'm the person who looks at it.</p>
       <p>I pay attention to the things that separate one Gibson from another: the finish, pickups, electronics, hardware, repairs and the story that came with it. If I can buy your guitar, I'll explain what I see and make you an offer.</p>
+      <div class="smg-credential"><strong>Published by Vintage Verified</strong><p>I wrote a featured guest essay on vintage-guitar authentication for Vintage Verified. It's an independent Nashville laboratory that regularly uses scientific materials analysis to authenticate high-value vintage instruments, including six-figure Gibsons.</p><a href="https://www.vintageverified.com/joes-vintage" target="_blank" rel="noopener noreferrer">Read My Vintage Verified Essay</a></div>
       <a class="smg-text-link" href="/about-me/">Learn More About Joe</a>
     </div>
   </section>
@@ -438,6 +439,7 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-hero h1 { max-width: 760px; margin: 0 0 28px; color: var(--color-brand-brown); font-size: clamp(46px, 5.5vw, 78px); line-height: .99; letter-spacing: -.045em; }
   .smg-hero__lead { max-width: 650px; margin: 0; color: var(--color-brand-brown-warm); font-size: clamp(18px, 1.6vw, 22px); line-height: 1.62; }
   .smg-hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 34px 0; }
+  .smg-hero__story-link { display: inline-block; margin: -12px 0 28px; color: var(--color-brand-rust-dark); font-size: 15px; font-weight: 700; text-decoration: underline; }
   .smg-button-secondary { min-height: 52px; display: inline-flex; align-items: center; justify-content: center; padding: 0 24px; border: 1px solid var(--color-brand-brown-muted); color: var(--color-brand-brown); font: 700 15px/1 var(--font-display); }
   .smg-button-secondary:hover { border-color: var(--color-brand-rust-bright); color: var(--color-brand-rust-dark); }
   .smg-trust-row { display: flex; flex-wrap: wrap; gap: 18px; padding-top: 24px; border-top: 1px solid var(--color-brand-brown-tan); color: var(--color-brand-brown-warm); font-size: 14px; }
@@ -537,6 +539,10 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-meet figure :global(img), .smg-preservation figure :global(img) { width: 100%; height: 100%; object-fit: cover; }
   .smg-meet p + p, .smg-preservation p + p { margin-top: 15px !important; }
   .smg-meet .smg-text-link, .smg-preservation .smg-text-link { display: inline-block; margin-top: 20px; }
+  .smg-credential { margin: 26px 0 22px; padding: 21px 23px; border-left: 4px solid var(--color-brand-rust-bright); background: var(--color-brand-cream-light); }
+  .smg-credential strong { display: block; margin-bottom: 8px; color: var(--color-brand-brown); font: 600 20px/1.25 var(--font-display); }
+  .smg-credential p { margin: 0 0 12px !important; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
+  .smg-credential a { color: var(--color-brand-rust-dark); font-size: 15px; font-weight: 700; text-decoration: underline; }
   .smg-preservation { grid-template-columns: 1fr 1fr; background: var(--color-brand-cream-light); }
   .smg-preservation figure { min-height: 460px; }
 
@@ -600,6 +606,7 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-appraisal { display: grid; grid-template-columns: .85fr 1.15fr; gap: 8vw; padding: clamp(70px, 9vw, 115px) clamp(24px, 7vw, 110px); background: var(--color-brand-rust-dark); color: #fff; }
   .smg-appraisal h2 { color: #fff; }
   .smg-appraisal__copy > p:not(.smg-eyebrow) { color: var(--color-brand-cream); font-size: 18px; line-height: 1.7; }
+  .smg-appraisal__copy p a { color: var(--color-brand-brown-tan); font-weight: 700; }
   .smg-appraisal__copy > a { display: inline-block; margin-top: 25px; color: var(--color-brand-brown-tan); font-size: 17px; font-weight: 700; text-decoration: underline; }
   .smg-appraisal :global(.lead-form) { background: var(--color-brand-cream-light); }
   :global(#appraisal .lead-form__opt) { color: var(--color-brand-rust-dark) !important; opacity: 1; }
