@@ -111,6 +111,7 @@ const cityStateZip = `${contact.address.city}, ${contact.address.region} ${conta
             </div>
           </div>
 
+          <div class="h-captcha-mount" aria-live="polite"></div>
           <button type="submit" class="jvgct__submit">
             <span class="jvgct__submit-text">Submit</span>
           </button>
@@ -288,7 +289,12 @@ const cityStateZip = `${contact.address.city}, ${contact.address.region} ${conta
   /* RIGHT: form sits bare on rust bg */
   .jvgct__form {
     color: #fff;
+    min-width: 0;
   }
+  .jvgct__form .h-captcha-mount { min-width: 0; min-height: 78px; margin: 2px 0 16px; overflow: hidden; }
+  .jvgct__form :global(.jvg-form-banner) { margin: 0 0 16px; padding: 12px 14px; border: 1px solid rgba(62,42,20,.28); background: #fffdf9; color: var(--color-brand-brown) !important; font-size: 14px; font-weight: 700; line-height: 1.45; }
+  .jvgct__form :global(.jvg-form-banner[data-state="error"]) { border-color: #a43826; background: #fff2ed; color: #6f1f15 !important; }
+  :global(body:has(.jvgct__form:focus-within) aside[aria-label="Quick contact"]) { display: none; }
   .jvgct__row {
     display: grid;
     grid-template-columns: 1fr 1fr;

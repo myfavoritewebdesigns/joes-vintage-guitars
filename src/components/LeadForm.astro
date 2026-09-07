@@ -16,7 +16,7 @@
  * Submission flows through the shared client handler
  * (src/scripts/contact-form.ts) and the /api/contact Mailgun function, which
  * forward every named field into Joe's lead email automatically. hCaptcha is
- * injected by that handler before the submit button, the same as the home form.
+ * rendered into a reserved mount before the submit button, the same as the home form.
  */
 import { replyMethods } from "../config/site";
 
@@ -145,6 +145,7 @@ const instrumentName = instrumentMode === "model-only" ? "model" : "instrument";
     </div>
   </fieldset>
 
+  <div class="h-captcha-mount" aria-live="polite"></div>
   <button type="submit" class="lead-form__submit">{submitLabel}</button>
   <p class="lead-form__note">*If you have photos, you will have the option to upload them after clicking submit</p>
 </form>
@@ -160,6 +161,8 @@ const instrumentName = instrumentMode === "model-only" ? "model" : "instrument";
     box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
     padding: 26px 26px 22px;
     font-family: var(--font-sans);
+    min-width: 0;
+    overflow: hidden;
   }
   .lead-form * { box-sizing: border-box; }
 
@@ -234,6 +237,38 @@ const instrumentName = instrumentMode === "model-only" ? "model" : "instrument";
   }
   .lead-form__radio input { width: auto; accent-color: var(--color-brand-rust-bright); }
 
+  .h-captcha-mount {
+    min-width: 0;
+    min-height: 78px;
+    margin: 2px 0;
+    overflow: hidden;
+  }
+
+  :global(.jvg-form-banner) {
+    order: -1;
+    margin: 0 0 2px;
+    padding: 12px 14px;
+    border: 1px solid rgba(62, 42, 20, 0.28);
+    background: #fffdf9;
+    color: var(--color-brand-brown) !important;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.45;
+  }
+  :global(.jvg-form-banner[data-state="error"]) {
+    border-color: #a43826;
+    background: #fff2ed;
+    color: #6f1f15 !important;
+  }
+  :global(.jvg-form-banner[data-state="submitting"]) {
+    border-color: var(--color-brand-brown-tan);
+    background: var(--color-brand-cream-warm);
+  }
+
+  :global(body:has(.lead-form:focus-within) aside[aria-label="Quick contact"]) {
+    display: none;
+  }
+
   .lead-form__submit {
     width: 100%;
     background: var(--color-brand-rust-bright);
@@ -257,5 +292,9 @@ const instrumentName = instrumentMode === "model-only" ? "model" : "instrument";
     font-weight: 600;
     text-align: center;
     color: var(--color-brand-rust-dark);
+  }
+
+  @media (max-width: 380px) {
+    .lead-form { padding-inline: 10px; }
   }
 </style>

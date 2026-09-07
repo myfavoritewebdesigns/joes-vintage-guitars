@@ -3,12 +3,12 @@ import Layout from "../layouts/Layout.astro";
 import SellMyGibsonFinal from "../components/SellMyGibsonFinal.astro";
 
 const pageUrl = "https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/";
-const description = "Sell your vintage Gibson directly to Joe Dampt. Send photos for a free appraisal and cash offer, with prepaid insured FedEx packing and shipping nationwide.";
+const description = "Sell your vintage Gibson to Joe Dampt. Free appraisal and a top-dollar cash offer for Les Pauls, SGs, ES-335s and acoustics. Prepaid insured FedEx shipping.";
 
 const faqs = [
   {
     q: "Should I Clean or Repair It First?",
-    a: "No. Please leave the guitar as you found it. Cleaning, polishing or repairing it can remove clues I use to judge originality, and some repairs can lower the value.",
+    a: "No. Please leave the guitar as you found it. Cleaning, polishing or repairing it can remove clues I use to judge originality, and modern polishes can react with old nitrocellulose finishes.",
   },
   {
     q: "How Can I Tell How Old My Gibson Is?",
@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "Do You Buy Guitars With Headstock Repairs or Refinishes?",
-    a: "Yes. A repair, refinish or changed part affects the value, but it doesn't automatically rule out a purchase. Show the area clearly in your photos and tell me anything you know about the work.",
+    a: "Yes. A headstock crack or full refinish usually takes 40 to 50 percent off a clean original example, but it doesn't automatically rule out a purchase. Show the area clearly in your photos and tell me anything you know about the work.",
   },
   {
     q: "Does the Original Case Increase the Value?",
@@ -39,8 +39,12 @@ const faqs = [
     a: "I explain the full process with the offer. Through my special FedEx account, the box, professional packing, fully insured shipping and tracking are provided at the FedEx location at no cost to you.",
   },
   {
-    q: "Do You Buy From Outside Arizona?",
-    a: "Yes. I buy vintage Gibsons nationwide and have worked with sellers in all 50 states. We can arrange an in-person meeting when practical or use the prepaid FedEx process.",
+    q: "How And How Fast Do I Get Paid?",
+    a: "Payment is usually completed the same day. I can pay cash when we meet in person, and shipped-guitar payment options include money order, Venmo, PayPal, Cash App, Zelle and bank transfer.",
+  },
+  {
+    q: "Do You Buy In Arizona And Nationwide?",
+    a: "Yes. Joe's Vintage Guitars is in Mesa, Arizona, where I meet sellers by appointment. I can meet many owners in the Phoenix area, and I buy vintage Gibsons nationwide from sellers in all 50 states using my prepaid FedEx process.",
   },
   {
     q: "Do You Buy Gibson Basses, Mandolins and Acoustics?",
@@ -115,6 +119,23 @@ const webPageSchema = {
     name: "Vintage Gibson guitars",
   },
 };
+
+const videoSchema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  name: "Meet Joe Dampt of Joe's Vintage Guitars",
+  description: "Joe Dampt explains how he works with owners who want to sell a vintage Gibson guitar.",
+  thumbnailUrl: "https://img.youtube.com/vi/fTpIquyV-j8/maxresdefault.jpg",
+  uploadDate: "2024-06-04T19:55:33-07:00",
+  duration: "PT1M45S",
+  contentUrl: "https://www.youtube.com/watch?v=fTpIquyV-j8",
+  embedUrl: "https://www.youtube.com/embed/fTpIquyV-j8",
+  author: {
+    "@type": "Person",
+    "@id": "https://www.joesvintageguitarsaz.com/#joe-dampt",
+    name: "Joe Dampt",
+  },
+};
 ---
 
 <Layout
@@ -123,7 +144,9 @@ const webPageSchema = {
   canonical="/sell-my-gibson-guitar/"
   ogType="website"
   ogImage="https://www.joesvintageguitarsaz.com/images/og/sell-my-gibson-guitar.jpg"
-  structuredData={[breadcrumbSchema, faqSchema, serviceSchema, webPageSchema]}
+  structuredData={[breadcrumbSchema, faqSchema, serviceSchema, webPageSchema, videoSchema]}
 >
+  <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+  <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
   <SellMyGibsonFinal faqs={faqs} />
 </Layout>

@@ -2,7 +2,7 @@
 import LicensedImage from "./primitives/LicensedImage.astro";
 import Button from "./primitives/Button.astro";
 import LeadForm from "./LeadForm.astro";
-import InstagramEmbeds from "./InstagramEmbeds.astro";
+import ContactSection from "./ContactSection.astro";
 import { resolveImage } from "../lib/images";
 import { contact, hrefs } from "../config/site";
 
@@ -127,52 +127,57 @@ const socialPosts = [
     id: "Cyl4kDNvL5x",
     title: "Edward's 1962 Gibson ES-335",
     story: "Edward and his wife were both musicians. She was friends with Roy Clark and could really play. Edward sang and played guitar. Their daughter brought me his 1962 Gibson ES-335 and shared some great stories about her parents.",
+    image: resolveImage("images/1962-gibson-335-cherry-red-semi-hollow-body-electric.jpg")!,
+    imageAlt: "Edward's cherry-red 1962 Gibson ES-335 in its case",
   },
   {
     id: "CxwRxtqPRDN",
     title: "The Cowboy Preacher's 1919 Gibson L-3",
     story: "This 1919 Gibson L-3 belonged to Homer and his wife, who traveled across the country as preachers. Homer took ranching jobs wherever they went and became known as the cowboy preacher. The guitar traveled right along with them.",
+    image: resolveImage("images/homer-02.jpg")!,
+    imageAlt: "Homer and his family with the 1919 Gibson L-3",
   },
   {
     id: "CyGejsbL2Iw",
     title: "A One-Owner 1966 Gibson ES-345",
     story: "I bought this 1966 Gibson ES-345 from its original owner in Greenwich, Connecticut. It stayed with the same person for nearly sixty years before coming to me.",
+    image: resolveImage("/images/blog/one-owner-1966-gibson-es-345/original-owner-with-es345.jpeg")!,
+    imageAlt: "The original owner holding his 1966 Gibson ES-345",
   },
 ];
 
 const values = [
-  { title: "Model and Year", body: "The exact model, production period and factory configuration establish the starting point.", icon: "M4 19.5V4.5A2.5 2.5 0 0 1 6.5 2H20v17H6.5A2.5 2.5 0 0 0 4 21.5v-2Z M8 6h8 M8 10h8 M8 14h5" },
-  { title: "Original Parts", body: "Pickups, electronics, tuners, bridge and other original hardware can make a large difference.", icon: "M14.7 6.3a1 1 0 0 0-1.4-1.4l-8 8a2 2 0 1 0 2.8 2.8l8-8a1 1 0 0 0-1.4-1.4Z M16 3l5 5 M3 21l4-1-3-3-1 4Z" },
-  { title: "Finish and Color", body: "I check whether the finish is original and whether the color or configuration was unusual for that model.", icon: "M12 3l1.7 4.3L18 9l-4.3 1.7L12 15l-1.7-4.3L6 9l4.3-1.7L12 3Z M5 15l.8 2.2L8 18l-2.2.8L5 21l-.8-2.2L2 18l2.2-.8L5 15Z" },
-  { title: "Condition and Repairs", body: "Wear is expected. A headstock repair, refinish or structural change affects the appraisal but doesn't rule out a sale.", icon: "M14.7 6.3a4 4 0 0 0-5-5L12 4l-3 3-2.7-2.7a4 4 0 0 0 5 5L4 16.6A2 2 0 1 0 6.8 19.4L14.7 11.5a4 4 0 0 0 5-5L17 9l-3-3 2.7-2.7Z" },
-  { title: "Case and Paperwork", body: "The original case, tags, receipts, replaced parts and repair records should stay with the guitar.", icon: "M6 2h9l3 3v17H6V2Z M14 2v4h4 M9 11h6 M9 15h6" },
-  { title: "Ownership History", body: "Family photos and a clear history help document where the guitar has been and who played it.", icon: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2 M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z M22 21v-2a4 4 0 0 0-3-3.9 M16 3.1a4 4 0 0 1 0 7.8" },
+  { title: "Model and Year", body: "A 1959 or 1960 Les Paul Standard starts in a different place than a later guitar, just as an early dot-neck ES-335 does.", icon: "M4 19.5V4.5A2.5 2.5 0 0 1 6.5 2H20v17H6.5A2.5 2.5 0 0 0 4 21.5v-2Z M8 6h8 M8 10h8 M8 14h5" },
+  { title: "Original Parts", body: "Pickups, electronics and hardware matter. My PAF and Patent Number pickup guide explains one of the details I check.", link: "/post/gibson-paf-patent-number-pickup-guide/", linkLabel: "Compare Gibson pickups", icon: "M14.7 6.3a1 1 0 0 0-1.4-1.4l-8 8a2 2 0 1 0 2.8 2.8l8-8a1 1 0 0 0-1.4-1.4Z M16 3l5 5 M3 21l4-1-3-3-1 4Z" },
+  { title: "Finish and Color", body: "An original custom color on a Firebird or SG can matter, as can original banjo tuners and other model-specific details.", icon: "M12 3l1.7 4.3L18 9l-4.3 1.7L12 15l-1.7-4.3L6 9l4.3-1.7L12 3Z M5 15l.8 2.2L8 18l-2.2.8L5 21l-.8-2.2L2 18l2.2-.8L5 15Z" },
+  { title: "Condition and Repairs", body: "Wear is expected. A headstock crack or full refinish usually takes 40 to 50 percent off a clean original example, but it doesn't rule out a sale.", icon: "M14.7 6.3a4 4 0 0 0-5-5L12 4l-3 3-2.7-2.7a4 4 0 0 0 5 5L4 16.6A2 2 0 1 0 6.8 19.4L14.7 11.5a4 4 0 0 0 5-5L17 9l-3-3 2.7-2.7Z" },
+  { title: "Case and Paperwork", body: "An original Lifton case, tags, receipts, replaced parts and repair records should stay with the guitar.", icon: "M6 2h9l3 3v17H6V2Z M14 2v4h4 M9 11h6 M9 15h6" },
+  { title: "Ownership History", body: "Family photos and a clear history can add to my offer. Sylvia's ES-335 shows what that kind of record can preserve.", link: "/post/sylvias-1959-gibson-es-335/", linkLabel: "Read Sylvia's ES-335 story", icon: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2 M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z M22 21v-2a4 4 0 0 0-3-3.9 M16 3.1a4 4 0 0 1 0 7.8" },
 ];
 
 const modelGuides = [
-  { title: "Vintage Gibson Les Paul", detail: "Goldtops, Bursts, Customs, Juniors and Specials", url: "/post/vintage-gibson-les-paul-family-guide/", action: "Read the Les Paul family guide" },
-  { title: "Vintage Gibson SG Models", detail: "Standards, Customs, Specials and Juniors", url: "/post/vintage-gibson-sg-family-guide/", action: "Read the SG family guide" },
-  { title: "Gibson Firebird I, III, V and VII", detail: "Reverse and non-reverse bodies", url: "/post/gibson-firebird-history-authentication-value/", action: "Read the Firebird guide" },
-  { title: "Gibson ES-335, ES-345 and ES-355", detail: "Thinline semi-hollow models", url: "/post/gibson-es-335-345-355-guide/", action: "Compare the three ES models" },
-  { title: "Hollow-Body Gibson ES Models", detail: "ES-5, ES-125, ES-175, ES-225 and related models", url: "/post/gibson-es-175-evolution-and-specifications/", action: "Start with the ES-175 guide", more: [
+  { title: "Vintage Gibson Les Paul", era: "1950s To Early 1960s", buying: "I'm most interested in 1950s Goldtops, Bursts and Customs, plus clean Juniors and Specials.", url: "/post/vintage-gibson-les-paul-family-guide/", action: "Read the Les Paul family guide", image: resolveImage("/images/blog/1956-les-paul-goldtop-authentication-guide/1956-gibson-les-paul-standard-goldtop-scaled.jpg")!, imageAlt: "Vintage Gibson Les Paul Goldtop", more: [["Les Paul value guide", "/vintage-gibson-les-paul-market-value-guide/"]] },
+  { title: "Vintage Gibson SG Models", era: "1961 Through The 1960s", buying: "I buy early SG Standards, Customs, Specials and Juniors, including guitars with original Vibrolas and custom colors.", url: "/post/vintage-gibson-sg-family-guide/", action: "Read the SG family guide", image: resolveImage("images/gibson-serial/gibson-nickel-hardware-1962-gibson-sg-standard-scaled.jpg")!, imageAlt: "Vintage 1962 Gibson SG Standard" },
+  { title: "Gibson Firebird I, III, V and VII", era: "1963 Through The 1970s", buying: "I buy reverse and non-reverse Firebirds, and I pay close attention to original banjo tuners, hardware and custom colors.", url: "/post/gibson-firebird-history-authentication-value/", action: "Read the Firebird guide", image: resolveImage("images/gibson-serial/gibson-nashville-bridge-on-firebird.jpg")!, imageAlt: "Vintage Gibson Firebird hardware" },
+  { title: "Gibson ES-335, ES-345 and ES-355", era: "1958 Through The 1960s", buying: "I'm especially interested in early dot-neck ES-335s, stereo Varitone ES-345s and gold-hardware ES-355s.", url: "/post/gibson-es-335-345-355-guide/", action: "Compare the three ES models", image: resolveImage("images/sell-gibson/1966-gibson-trini-lopez-cherry-finish-1024x683.jpg")!, imageAlt: "Vintage cherry Gibson thinline electric guitar" },
+  { title: "Hollow-Body Gibson ES Models", era: "1940s Through The 1960s", buying: "I buy hollow ES models including the ES-5, ES-125, ES-175 and ES-225 in original or well-preserved condition.", url: "/post/gibson-es-175-evolution-and-specifications/", action: "Start with the ES-175 guide", image: resolveImage("images/sell-gibson/1961-gibson-es-175-d-sunburst-1024x683.jpg")!, imageAlt: "Sunburst 1961 Gibson ES-175D", more: [
     ["ES-125", "/post/gibson-es-125-guide/"], ["ES-225", "/post/gibson-es-225-guide/"], ["ES-5", "/post/gibson-es-5-switchmaster-history-value/"]
   ] },
-  { title: "Vintage Gibson Acoustics", detail: "J-45, J-200, Hummingbird and LG models", url: "/post/gibson-j200-model-history-authentication-guide/", action: "Start with the J-200 guide", more: [
+  { title: "Vintage Gibson Acoustics", era: "1930s Through The 1960s", buying: "I buy J-45s, J-200s, Hummingbirds and LG models, including guitars that have stayed in one family.", url: "/post/gibson-j200-model-history-authentication-guide/", action: "Start with the J-200 guide", image: resolveImage("/images/blog/gibson-j200-model-history-authentication-guide/1948-sj200-sunburst-front.jpg")!, imageAlt: "Sunburst 1948 Gibson SJ-200 acoustic guitar", more: [
     ["J-45, J-50 and SJ", "/post/identify-vintage-gibson-j45-j50-sj/"], ["Hummingbird", "/post/vintage-gibson-hummingbird-history-value-guide/"], ["LG models", "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/"]
   ] },
-  { title: "Gibson L-5 Archtops", detail: "L-5, L-5C and L-5CES", url: "/post/gibson-l5-ces-value-guide/", action: "Read the L-5 guide" },
-  { title: "Gibson Super 400", detail: "Acoustic and CES models", url: "/post/gibson-super-400-ces-history-authentication-value/", action: "Read the Super 400 guide" },
-  { title: "Gibson Byrdland", detail: "Venetian and Florentine cutaways", url: "/post/gibson-byrdland-authentication-guide/", action: "Read the Byrdland guide" },
+  { title: "Gibson L-5 Archtops", era: "1930s Through The 1960s", buying: "I buy carved-top L-5, L-5C and L-5CES guitars with acoustic or electric configurations.", url: "/post/gibson-l5-ces-value-guide/", action: "Read the L-5 guide", image: resolveImage("/images/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-1969-scaled.jpg")!, imageAlt: "Vintage Gibson L-5CES archtop guitar" },
+  { title: "Gibson Super 400", era: "1930s Through The 1960s", buying: "I buy acoustic and electric Super 400 models, including original custom finishes and well-documented examples.", url: "/post/gibson-super-400-ces-history-authentication-value/", action: "Read the Super 400 guide", image: resolveImage("/images/blog/gibson-super-400-ces-history-authentication-value/1964-gibson-super-400-sunburst-front.jpg")!, imageAlt: "Full front of a sunburst 1964 Gibson Super 400" },
+  { title: "Gibson Byrdland", era: "1955 Through The 1960s", buying: "I buy Venetian and Florentine-cutaway Byrdlands, especially examples with original parts and owner history.", url: "/post/gibson-byrdland-authentication-guide/", action: "Read the Byrdland guide", image: resolveImage("/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-scaled.jpg")!, imageAlt: "Vintage 1967 Gibson Byrdland" },
+  { title: "Gibson Flying V", era: "1958, 1959, 1966 To 1971", buying: "I buy original 1958 and 1959 Flying Vs, the second version made from 1966 to 1970 and 1971 Medallion models.", url: "/post/gibson-flying-v-medallion-guide/", action: "Read the Flying V Medallion guide", image: resolveImage("/images/blog/gibson-flying-v-medallion-guide/1971-gibson-flying-v-medallion-cherry-front.jpg")!, imageAlt: "Cherry 1971 Gibson Flying V Medallion" },
+  { title: "Vintage Gibson Basses", era: "1950s Through The 1970s", buying: "I buy vintage Gibson basses including the EB-0, EB-3 and Thunderbird, even when there isn't a model guide for the instrument yet.", url: "#appraisal", action: "Tell me about your Gibson bass", image: resolveImage("images/large-vintage-guitar-collection.jpg")!, imageAlt: "A large collection of vintage Gibson guitars and basses" },
 ];
-
-const wantedModels = ["Les Paul", "SG", "ES-335, ES-345 and ES-355", "Firebird", "Flying V and Explorer", "Byrdland", "L-5 and Super 400", "J-45 and J-200", "Hummingbird", "Vintage Gibson basses"];
 
 const heroGuitar = resolveImage("/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-scaled.jpg")!;
 const joePhoto = resolveImage("images/fender-sn/about-me-joe-1.jpg")!;
 const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/don-majure-with-1957-gibson-byrdland.jpg")!;
+const lymanPhoto = resolveImage("images/sell-gibson/vintage-gibson-guitar-seller-768x1024.jpg")!;
 ---
-
-<InstagramEmbeds />
 
 <div class="smg-header-collage" aria-hidden="true"></div>
 
@@ -181,7 +186,7 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
     <div class="smg-hero__copy">
       <p class="smg-eyebrow">Vintage Gibson Specialist</p>
       <h1>Sell Your Vintage Gibson to a Buyer Who Knows What It Is</h1>
-      <p class="smg-hero__lead">Vintage guitars have been at the center of my life for more than twelve years. I love learning where an old Gibson has been, who played it and the stories that stayed with it. Send me a few photos and tell me what you know. I'll look it over myself and, if it's a guitar I can buy, make you a cash offer with no obligation.</p>
+      <p class="smg-hero__lead">Vintage guitars have been at the center of my life for more than twelve years. I love learning where an old Gibson has been, who played it and the stories that stayed with it. Whether it's a Les Paul, an SG, an ES-335 or an old flat-top, send me a few photos and tell me what you know. I'll look it over myself and, if it's a guitar I can buy, make you a cash offer with no obligation.</p>
       <div class="smg-hero__actions">
         <Button href="#appraisal" variant="rust" size="lg">Fill Out the Form</Button>
         <a class="smg-button-secondary" href={hrefs.tel}>Call or Text Joe</a>
@@ -223,7 +228,7 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
       <article><span>01</span><h3>Send Me Photos</h3><p>Take clear photos of the front, back, headstock, serial number and case. Please don't clean or repair the guitar first.</p></article>
       <article><span>02</span><h3>I'll Look It Over</h3><p>I'll identify the guitar and check the details that affect its value. There's no charge for the appraisal.</p></article>
       <article><span>03</span><h3>I'll Make an Offer</h3><p>If it's a guitar I can buy, I'll make you a cash offer. You're free to accept it or turn it down.</p></article>
-      <article><span>04</span><h3>Review the Complete Handoff</h3><p>If shipping is the best option, I explain it with the offer so you can consider the full process before deciding.</p></article>
+      <article><span>04</span><h3>Agree On Shipping And Payment</h3><p>If you decide to sell, we'll agree on the shipping and payment method before the guitar moves.</p></article>
     </div>
   </section>
 
@@ -231,13 +236,14 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
     <div class="smg-shipping__intro">
       <p class="smg-eyebrow">Nationwide Shipping</p>
       <h2>A Simple, Proven Way to Ship Your Vintage Gibson</h2>
+      <p>I'm on the road across the U.S. buying guitars and <a href="/sell-a-guitar-collection/">guitar collections</a>, so an in-person meeting may be possible. Otherwise, we can use the prepaid FedEx process.</p>
       <p>Sellers across the country have trusted me with valuable and sentimental guitars. If we can't meet in person, I explain the shipping process with the offer so you can consider everything before deciding.</p>
       <p>We agree on the shipping and payment details before the guitar moves, and I stay available throughout the process.</p>
       <div class="smg-shipping__included"><strong>There's no shipping cost to you.</strong> Through my special FedEx account, the box, professional packing, fully insured shipping and tracking are all provided at the FedEx location.</div>
     </div>
     <div class="smg-shipping__columns">
-      <article><h3>What You Receive With the Offer</h3><ul><li>A clear explanation of the process</li><li>Shipping and insurance details</li><li>Payment timing and options</li></ul></article>
-      <article><h3>What I Handle if You Decide to Sell</h3><ul><li>Prepaid shipping arrangements</li><li>Transit coverage and tracking</li><li>Communication through the handoff</li></ul></article>
+      <article><h3>What You Receive With the Offer</h3><ul><li>A clear explanation of the process</li><li>Shipping and insurance details</li><li>Your choice of payment method</li></ul></article>
+      <article><h3>What I Handle if You Decide to Sell</h3><ul><li>Prepaid shipping arrangements</li><li>Transit coverage and tracking</li><li>Same-day payment in most cases</li></ul></article>
     </div>
     <div class="smg-shipping__evidence">
       <header><p class="smg-eyebrow">From Sellers Who Used the Process</p><h3>Read What Sellers Said</h3><p>These comments come from people who shipped guitars to me. Each one links to the original Google review.</p></header>
@@ -259,8 +265,9 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
     <span class="smg-anchor" id="find-out-gibson-really-worth"></span>
     <header class="smg-heading">
       <p class="smg-eyebrow">What Goes Into My Offer</p>
-      <h2>What Affects My Offer for a Vintage Gibson?</h2>
-      <p>When I'm deciding what I can pay for a Gibson, I look at these six areas together. The serial number is a useful starting point, but it doesn't tell the whole story.</p>
+      <h2>How Much Will You Pay for My Vintage Gibson?</h2>
+      <p>My offers are among the highest you'll get from a dealer, but they'll sit a little below full retail because I take on the work and risk of reselling the guitar. Model and year, original parts, finish and color, condition and repairs, the case and paperwork, and ownership history all help determine what I can pay.</p>
+      <p>Send me a few photos and I'll tell you what I can pay. If you'd rather research first, the guides below will help you understand the details I look at.</p>
       <a class="smg-appraisal-route" href="/free-appraisal/"><strong>Looking for an appraisal instead?</strong><span>Visit the Free Appraisal Page</span></a>
     </header>
     <div class="smg-value__grid">
@@ -268,10 +275,11 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
         <article>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={item.icon}></path></svg>
           <h3>{item.title}</h3><p>{item.body}</p>
+          {item.link && <a class="smg-value-card__link" href={item.link}>{item.linkLabel}</a>}
         </article>
       ))}
     </div>
-    <p class="smg-section-link">For more detail, read how the <a href="/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/">year affects vintage Gibson value</a> or review <a href="/post/gibson-shipping-totals-1948-1979/">Gibson production totals</a>.</p>
+    <p class="smg-section-link">For more detail, use my <a href="/vintage-gibson-les-paul-market-value-guide/">vintage Les Paul market value guide</a>, read how the <a href="/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/">year affects vintage Gibson value</a> or review <a href="/post/gibson-shipping-totals-1948-1979/">Gibson production totals</a>.</p>
   </section>
 
   <section class="smg-section smg-photo-guide" id="photo-guide">
@@ -317,8 +325,12 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
       {socialPosts.map((post) => (
         <article class="smg-video-card">
           <div class="smg-video-card__story"><h3>{post.title}</h3><p>{post.story}</p></div>
-          <div class="smg-video-card__embed">
-            <blockquote class="instagram-media" data-instgrm-permalink={`https://www.instagram.com/reel/${post.id}/`} data-instgrm-version="14"></blockquote>
+          <div class="smg-video-card__embed" data-instagram-host>
+            <LicensedImage src={post.image} alt={post.imageAlt} width={620} loading="lazy" />
+            <button type="button" data-instagram-load data-permalink={`https://www.instagram.com/reel/${post.id}/`} aria-label={`Play ${post.title} on Instagram`}>
+              <span aria-hidden="true"></span>
+              Watch the Story
+            </button>
           </div>
           <a href={`https://www.instagram.com/reel/${post.id}/`} target="_blank" rel="noopener noreferrer">View This Video on Instagram</a>
         </article>
@@ -328,13 +340,18 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   </section>
 
   <section class="smg-section smg-meet" id="meet-connoisseur-joe-dampt">
-    <figure><LicensedImage src={joePhoto} alt="Joe Dampt playing a Gibson guitar" width={720} loading="lazy" /></figure>
+    <div class="smg-meet__media">
+      <figure><LicensedImage src={joePhoto} alt="Joe Dampt playing a Gibson guitar" width={720} loading="lazy" /></figure>
+      <div class="smg-meet__video"><lite-youtube videoid="fTpIquyV-j8" playlabel="Play Meet Joe Dampt of Joe's Vintage Guitars"></lite-youtube></div>
+    </div>
     <div>
       <p class="smg-eyebrow">Meet the Buyer</p>
       <h2>I'm Joe Dampt</h2>
-      <p>I've spent more than twelve years buying vintage guitars full-time and have appraised more than 10,000 instruments. When you send a Gibson to Joe's Vintage Guitars, I'm the person who looks at it.</p>
+      <p>I buy vintage Gibson electrics, acoustics, archtops and basses from owners in all 50 states. My offers are higher than a typical trade-in or local music-store offer, and every appraisal and cash offer is free with no obligation. When an in-person meeting makes sense, I can inspect the guitar and buy it on the spot.</p>
+      <p>I've spent more than twelve years buying vintage guitars full-time and have appraised more than 10,000 instruments. I own Joe's Vintage Guitars in Mesa, Arizona, where I meet sellers by appointment. I can meet many owners in the Phoenix area, and sellers elsewhere can use my prepaid FedEx process.</p>
       <p>I pay attention to the things that separate one Gibson from another: the finish, pickups, electronics, hardware, repairs and the story that came with it. If I can buy your guitar, I'll explain what I see and make you an offer.</p>
-      <div class="smg-credential"><strong>Published by Vintage Verified</strong><p>I wrote a featured guest essay on vintage-guitar authentication for Vintage Verified. It's an independent Nashville laboratory that regularly uses scientific materials analysis to authenticate high-value vintage instruments, including six-figure Gibsons.</p><a href="https://www.vintageverified.com/joes-vintage" target="_blank" rel="noopener noreferrer">Read My Vintage Verified Essay</a></div>
+      <div class="smg-credential"><strong>Published by Vintage Verified</strong><p>Vintage Verified is an independent Nashville lab that analyzes the finishes, plastics and hardware on vintage guitars and doesn't buy, sell or value them. I wrote a guest essay for them on authentication and have no affiliation with the lab.</p><a href="https://www.vintageverified.com/joes-vintage" target="_blank" rel="noopener">Read My Vintage Verified Essay</a></div>
+      <div class="smg-as-seen"><strong>As Seen In</strong><a href="https://www.kjzz.org/the-show/see-inside-joes-vintage-guitars-in-mesa" target="_blank" rel="noopener">KJZZ 91.5</a><a href="https://voyagephoenix.com/interview/exploring-life-business-with-joseph-dampt-of-joes-vintage-guitars-llc" target="_blank" rel="noopener">VoyagePhoenix</a><a href="https://www.vintageverified.com/joes-vintage" target="_blank" rel="noopener">Vintage Verified</a><a href="/reverb-reviews/">Reverb Top-Rated Seller</a></div>
       <a class="smg-text-link" href="/about-me/">Learn More About Joe</a>
     </div>
   </section>
@@ -367,39 +384,44 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   </section>
 
   <section class="smg-section smg-options" id="best-way-to-sell">
-    <header class="smg-heading"><p class="smg-eyebrow">Know Your Options</p><h2>Should You Sell to a Dealer, Consign It or Sell It Yourself?</h2><p>There's no single right answer. It depends on whether you care most about speed, convenience, control or the highest possible retail price.</p></header>
-    <div class="smg-options__table" role="table" aria-label="Ways to sell a vintage Gibson">
-      <div class="smg-options__row smg-options__head" role="row"><strong role="columnheader">Option</strong><strong role="columnheader">Why People Choose It</strong><strong role="columnheader">What to Consider</strong></div>
-      <div class="smg-options__row" role="row"><strong role="cell">Sell Directly to Me</strong><span role="cell">A cash offer, no public listing and help with the handoff.</span><span role="cell">I pay among the highest dealer prices, but my offer will still be a little below the guitar's full retail market value.</span></div>
-      <div class="smg-options__row" role="row"><strong role="cell">Consignment</strong><span role="cell">You may receive more if the guitar sells at the asking price.</span><span role="cell">You pay a commission and may wait weeks or months for a buyer.</span></div>
-      <div class="smg-options__row" role="row"><strong role="cell">Auction</strong><span role="cell">Several bidders can compete for a rare or well-known guitar.</span><span role="cell">The final price is uncertain, and seller fees, photography and shipping still matter.</span></div>
-      <div class="smg-options__row" role="row"><strong role="cell">Private Listing</strong><span role="cell">You control the asking price and speak directly with buyers.</span><span role="cell">You handle questions, negotiation, fraud risk, returns, packing and insurance.</span></div>
-    </div>
+    <header class="smg-heading"><p class="smg-eyebrow">Know Your Options</p><h2>The Best Way to Sell a Vintage Gibson: Dealer, Consignment, Auction or Reverb?</h2><p>Selling directly to me gets you a cash offer with no listing, fees or wait. Consignment or auction can bring more if the guitar sells, but you pay a commission and wait for a buyer. If you'd rather list it yourself, Reverb is where I'd point you. Just factor in the fees.</p></header>
+    <table class="smg-options__table">
+      <caption>Ways to sell a vintage Gibson</caption>
+      <thead><tr><th scope="col">Option</th><th scope="col">Why People Choose It</th><th scope="col">What to Consider</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Sell Directly to Me</th><td data-label="Why People Choose It">A cash offer, no public listing, no seller fees and help with the handoff.</td><td data-label="What to Consider">I pay among the highest dealer prices, but my offer will still be a little below the guitar's full retail market value.</td></tr>
+        <tr><th scope="row">Consignment</th><td data-label="Why People Choose It">You may receive more if the guitar sells at the asking price.</td><td data-label="What to Consider">You pay a commission and may wait weeks or months for a buyer.</td></tr>
+        <tr><th scope="row">Auction</th><td data-label="Why People Choose It">Several bidders can compete for a rare or well-known guitar.</td><td data-label="What to Consider">The final price is uncertain, and seller fees, photography and shipping still matter.</td></tr>
+        <tr><th scope="row">Reverb or eBay Listing</th><td data-label="Why People Choose It">You control the asking price and speak directly with buyers. Reverb also offers strong shipping protection.</td><td data-label="What to Consider">Factor in the fees and remember that disputes can favor the buyer. I wouldn't choose this for a first-time sale over $4,000.</td></tr>
+        <tr><th scope="row">Music-Store Trade-In</th><td data-label="Why People Choose It">You can finish the deal in a local store without shipping the guitar.</td><td data-label="What to Consider">Trade-in offers are typically well under market because the store needs room for resale costs and profit.</td></tr>
+      </tbody>
+    </table>
+    <p class="smg-options__insurance">If you compare dealers, ask how the guitar will be insured during the handoff. Most established dealers carry more than $100,000 in insurance.</p>
   </section>
 
   <span class="smg-anchor" id="receive-the-highest-payout"></span>
-  <section class="smg-wanted">
-    <div><p class="smg-eyebrow">Gibsons I Buy</p><h2>Vintage Electric, Acoustic and Carved-Top Gibsons</h2><p>I'm always looking for clean, original and unusual Gibsons. I also buy guitars with changed parts or old repairs, so please ask before ruling yours out.</p><a class="smg-text-link" href="#appraisal">Tell Me About Your Gibson</a></div>
-    <ul>{wantedModels.map((model) => (<li>{model}</li>))}</ul>
-  </section>
-
   <section class="smg-section smg-guides" id="guitar-families">
-    <header class="smg-heading"><p class="smg-eyebrow">Gibson Models I Buy</p><h2>Vintage Gibson Guitars I'm Interested In</h2><p>I buy vintage Gibson solid-body, thinline, acoustic and archtop guitars from owners across the country. Choose a family below to learn more about the models I buy. If you don't see your Gibson listed, send it anyway. I also buy unusual and less common models that may not have their own guide yet.</p></header>
-    <div class="smg-guide-grid">
+    <header class="smg-heading"><p class="smg-eyebrow">Gibson Models I Buy</p><h2>Vintage Gibson Guitars I Buy</h2><p>I buy vintage Gibson solid-body, thinline, acoustic and archtop guitars from owners across the country. The cards below show the eras and models I'm looking for. If you don't see your Gibson listed, send it anyway. I also buy unusual models, mandolins and guitars with old repairs or changed parts.</p><a class="smg-text-link" href="#appraisal">Tell Me About Your Gibson</a></header>
+    <ul class="smg-guide-grid">
       {modelGuides.map((guide) => (
-        <article class="smg-guide-card">
-          <span>{guide.detail}</span>
-          <h3><a href={guide.url}>{guide.title}</a></h3>
-          <a class="smg-guide-card__primary" href={guide.url}>{guide.action}</a>
-          {guide.more && <div class="smg-guide-card__more">{guide.more.map(([label, url]) => (<a href={url}>{label}</a>))}</div>}
-        </article>
+        <li class="smg-guide-card">
+          <div class="smg-guide-card__image"><LicensedImage src={guide.image} alt={guide.imageAlt} width={620} loading="lazy" /></div>
+          <div class="smg-guide-card__copy">
+            <span>{guide.era}</span>
+            <h3><a href={guide.url}>{guide.title}</a></h3>
+            <p>{guide.buying}</p>
+            <a class="smg-guide-card__primary" href={guide.url}>{guide.action}</a>
+            {guide.more && <div class="smg-guide-card__more">{guide.more.map(([label, url]) => (<a href={url}>{label}</a>))}</div>}
+          </div>
+        </li>
       ))}
-    </div>
+    </ul>
     <a class="smg-all-guides" href="/blog/">Browse All Guitar Articles</a>
   </section>
 
   <section class="smg-section smg-reviews" id="our-clients-testimonials">
     <header class="smg-heading"><p class="smg-eyebrow">Reviews From Sellers</p><h2>What People Say After Selling Me a Guitar</h2><p>These reviews are from people who sold guitars to me. Click any one to read the original review on Google.</p></header>
+    <figure class="smg-review-story"><LicensedImage src={lymanPhoto} alt="Happy client Lyman playing a 1948 Gibson L-50 acoustic guitar after selling it to Joe" width={520} loading="lazy" /><figcaption>Happy client Lyman playing a 1948 Gibson L-50 acoustic guitar after selling it to Joe</figcaption></figure>
     <div class="smg-review-grid">
       {reviews.map((review) => (
         <a class="smg-review-card" href={review.url} target="_blank" rel="noopener noreferrer">
@@ -417,7 +439,47 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
     </div>
   </section>
 
+  <section class="smg-closing-cta">
+    <div><p class="smg-eyebrow">Ready To Sell?</p><h2>Ready To Sell Your Gibson?</h2><p>Send a few photos for a same-day appraisal and a no-obligation cash offer from Joe.</p></div>
+    <div><Button href="#appraisal" variant="rust" size="lg">Fill Out the Form</Button><a class="smg-button-secondary" href={hrefs.tel}>Call or Text Joe</a></div>
+  </section>
+
 </div>
+
+<ContactSection />
+
+<script is:inline>
+  (() => {
+    const processEmbeds = () => window.instgrm?.Embeds?.process?.();
+    document.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-instagram-load]");
+      if (!button) return;
+      const host = button.closest("[data-instagram-host]");
+      const permalink = button.dataset.permalink;
+      if (!host || !permalink) return;
+
+      const blockquote = document.createElement("blockquote");
+      blockquote.className = "instagram-media";
+      blockquote.dataset.instgrmPermalink = permalink;
+      blockquote.dataset.instgrmVersion = "14";
+      host.replaceChildren(blockquote);
+
+      const existing = document.querySelector("script[data-sell-gibson-instagram]");
+      if (existing) {
+        if (window.instgrm) processEmbeds();
+        else existing.addEventListener("load", processEmbeds, { once: true });
+        return;
+      }
+
+      const script = document.createElement("script");
+      script.src = "https://www.instagram.com/embed.js";
+      script.async = true;
+      script.dataset.sellGibsonInstagram = "1";
+      script.addEventListener("load", processEmbeds, { once: true });
+      document.body.appendChild(script);
+    });
+  })();
+</script>
 
 <style>
   .smg-page { overflow: clip; background: #fffdf9; color: var(--color-brand-brown); font-family: var(--font-sans); }
@@ -427,10 +489,10 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-header-collage { height: clamp(190px, 16vw, 225px); background: linear-gradient(rgba(9,9,8,.45), rgba(9,9,8,.6)), url('/images/sell-hero-background.webp') center 42% / cover no-repeat; }
   .smg-anchor { display: block; position: relative; top: -120px; visibility: hidden; }
   .smg-eyebrow { margin: 0 0 20px; color: var(--color-brand-rust-dark); font: 700 13px/1.2 var(--font-display); letter-spacing: .15em; text-transform: uppercase; }
-  .smg-photo-guide .smg-eyebrow, .smg-wanted .smg-eyebrow, .smg-appraisal .smg-eyebrow { color: var(--color-brand-brown-tan); }
+  .smg-photo-guide .smg-eyebrow, .smg-appraisal .smg-eyebrow { color: var(--color-brand-brown-tan); }
   .smg-section { padding: clamp(78px, 9vw, 132px) clamp(24px, 7vw, 110px); }
   .smg-heading { max-width: 780px; margin-bottom: 50px; }
-  .smg-heading h2, .smg-meet h2, .smg-preservation h2, .smg-expertise h2, .smg-wanted h2, .smg-appraisal h2 { margin: 0 0 20px; color: var(--color-brand-brown); font-size: clamp(38px, 4.2vw, 59px); line-height: 1.04; letter-spacing: -.035em; }
+  .smg-heading h2, .smg-meet h2, .smg-preservation h2, .smg-expertise h2, .smg-appraisal h2 { margin: 0 0 20px; color: var(--color-brand-brown); font-size: clamp(38px, 4.2vw, 59px); line-height: 1.04; letter-spacing: -.035em; }
   .smg-heading > p:last-child, .smg-meet > div > p:not(.smg-eyebrow), .smg-preservation > div > p:not(.smg-eyebrow) { margin: 0; color: var(--color-brand-brown-warm); font-size: 18px; line-height: 1.7; }
   .smg-text-link, .smg-section-link a { color: var(--color-brand-rust-dark); font-weight: 700; text-decoration: underline; }
 
@@ -493,6 +555,7 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-value__grid svg { width: 27px; height: 27px; color: var(--color-brand-rust-bright); }
   .smg-value__grid h3 { margin: 24px 0 12px; color: var(--color-brand-brown); font-size: 23px; }
   .smg-value__grid p { margin: 0; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
+  .smg-value-card__link { display: inline-block; margin-top: 15px; color: var(--color-brand-rust-dark); font-size: 14px; font-weight: 700; text-decoration: underline; }
   .smg-appraisal-route { display: inline-flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; margin-top: 24px; padding: 15px 19px; border: 1px solid var(--color-brand-rust-dark); background: var(--color-brand-cream-light); color: var(--color-brand-brown); text-decoration: none; }
   .smg-appraisal-route strong { font: 600 17px/1.3 var(--font-display); }
   .smg-appraisal-route span { color: var(--color-brand-rust-dark); font-size: 15px; font-weight: 700; text-decoration: underline; }
@@ -529,12 +592,18 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-video-card__story { min-height: 250px; padding: 27px 25px 24px; border-bottom: 1px solid var(--color-brand-cream-warm); }
   .smg-video-card h3 { margin: 0 0 14px; color: var(--color-brand-brown); font-size: 25px; line-height: 1.16; }
   .smg-video-card p { margin: 0; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.7; }
-  .smg-video-card__embed { min-height: 590px; display: flex; justify-content: center; background: var(--color-brand-cream-light); }
+  .smg-video-card__embed { position: relative; aspect-ratio: 4 / 5; display: flex; justify-content: center; overflow: hidden; background: var(--color-brand-cream-light); }
+  .smg-video-card__embed :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .smg-video-card__embed button { position: absolute; inset: 0; display: flex; flex-direction: column; gap: 10px; align-items: center; justify-content: center; border: 0; background: linear-gradient(rgba(24,20,17,.12), rgba(24,20,17,.56)); color: #fff; cursor: pointer; font: 700 16px/1.2 var(--font-display); text-transform: uppercase; letter-spacing: .08em; }
+  .smg-video-card__embed button span { position: relative; width: 58px; height: 58px; display: grid; place-items: center; border: 2px solid #fff; border-radius: 50%; background: rgba(36,28,22,.68); }
+  .smg-video-card__embed button span::after { content: ''; width: 0; height: 0; margin-left: 4px; border-top: 9px solid transparent; border-bottom: 9px solid transparent; border-left: 14px solid #fff; }
+  .smg-video-card__embed button:hover { background: linear-gradient(rgba(24,20,17,.05), rgba(24,20,17,.45)); }
   .smg-video-card__embed :global(.instagram-media) { width: 100% !important; min-width: 0 !important; margin: 0 !important; }
   .smg-video-card > a { display: block; padding: 16px 20px; border-top: 1px solid var(--color-brand-cream-warm); color: var(--color-brand-rust-dark); text-align: center; font-size: 14px; font-weight: 700; }
   .smg-follow-link, .smg-all-guides { width: max-content; display: block; margin: 32px auto 0; padding: 15px 22px; border: 1px solid var(--color-brand-rust-dark); color: var(--color-brand-rust-dark); font: 700 15px/1.2 var(--font-display); }
 
   .smg-meet, .smg-preservation { display: grid; grid-template-columns: minmax(300px,.8fr) 1.2fr; gap: clamp(40px, 8vw, 110px); align-items: center; background: var(--color-brand-cream-warm); }
+  .smg-meet__media { display: grid; gap: 20px; min-width: 0; }
   .smg-meet figure, .smg-preservation figure { min-height: 500px; margin: 0; overflow: hidden; }
   .smg-meet figure :global(img), .smg-preservation figure :global(img) { width: 100%; height: 100%; object-fit: cover; }
   .smg-meet p + p, .smg-preservation p + p { margin-top: 15px !important; }
@@ -543,6 +612,11 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-credential strong { display: block; margin-bottom: 8px; color: var(--color-brand-brown); font: 600 20px/1.25 var(--font-display); }
   .smg-credential p { margin: 0 0 12px !important; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
   .smg-credential a { color: var(--color-brand-rust-dark); font-size: 15px; font-weight: 700; text-decoration: underline; }
+  .smg-meet__video { overflow: hidden; border: 1px solid var(--color-brand-brown-tan); background: var(--color-brand-charcoal); }
+  .smg-meet__video :global(lite-youtube) { width: 100%; max-width: none; }
+  .smg-as-seen { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 0 0 22px; padding: 16px 0; border-top: 1px solid var(--color-brand-brown-tan); border-bottom: 1px solid var(--color-brand-brown-tan); }
+  .smg-as-seen strong { width: 100%; color: var(--color-brand-brown); font: 600 17px/1.2 var(--font-display); }
+  .smg-as-seen a { color: var(--color-brand-rust-dark); font-size: 14px; font-weight: 700; text-decoration: underline; }
   .smg-preservation { grid-template-columns: 1fr 1fr; background: var(--color-brand-cream-light); }
   .smg-preservation figure { min-height: 460px; }
 
@@ -556,36 +630,37 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-resource-links a::after { content: '\2192'; position: absolute; right: 4px; text-decoration: none; }
 
   .smg-options { background: #fff; }
-  .smg-options__table { border: 1px solid var(--color-brand-cream-warm); }
-  .smg-options__row { display: grid; grid-template-columns: .65fr 1.2fr 1.2fr; border-bottom: 1px solid var(--color-brand-cream-warm); }
-  .smg-options__row:last-child { border-bottom: 0; }
-  .smg-options__row > * { padding: 22px 24px; }
-  .smg-options__row > * + * { border-left: 1px solid var(--color-brand-cream-warm); }
-  .smg-options__row strong { color: var(--color-brand-brown); font: 600 18px/1.35 var(--font-display); }
-  .smg-options__row span { color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.62; }
-  .smg-options__head { background: var(--color-brand-charcoal); color: #fff; }
-  .smg-options__head strong { color: #fff; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; }
-
-  .smg-wanted { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 9vw; margin: 0 clamp(24px, 7vw, 110px) clamp(78px, 9vw, 132px); padding: clamp(50px, 7vw, 86px); background: var(--color-brand-charcoal); color: #fff; }
-  .smg-wanted h2 { color: #fff; }
-  .smg-wanted > div > p:not(.smg-eyebrow) { color: var(--color-brand-cream-warm); font-size: 17px; line-height: 1.7; }
-  .smg-wanted .smg-text-link { color: var(--color-brand-brown-tan); }
-  .smg-wanted ul { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 24px; align-content: center; margin: 0; padding: 0; list-style: none; }
-  .smg-wanted li { padding: 0 0 13px 25px; border-bottom: 1px solid rgba(255,255,255,.18); color: #fff; font-size: 16px; position: relative; }
-  .smg-wanted li::before { content: '✓'; position: absolute; left: 0; color: var(--color-brand-brown-tan); font-weight: 800; }
+  .smg-options__table { width: 100%; border-collapse: collapse; table-layout: fixed; border: 1px solid var(--color-brand-cream-warm); }
+  .smg-options__table caption { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+  .smg-options__table th, .smg-options__table td { padding: 22px 24px; border-right: 1px solid var(--color-brand-cream-warm); border-bottom: 1px solid var(--color-brand-cream-warm); text-align: left; vertical-align: top; }
+  .smg-options__table tr > *:last-child { border-right: 0; }
+  .smg-options__table tbody tr:last-child > * { border-bottom: 0; }
+  .smg-options__table thead { background: var(--color-brand-charcoal); color: #fff; }
+  .smg-options__table thead th { color: #fff; font: 700 14px/1.35 var(--font-display); letter-spacing: .08em; text-transform: uppercase; }
+  .smg-options__table thead th:first-child { width: 22%; }
+  .smg-options__table tbody th { color: var(--color-brand-brown); font: 600 18px/1.35 var(--font-display); }
+  .smg-options__table td { color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.62; }
+  .smg-options__insurance { max-width: 850px; margin: 26px 0 0; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
 
   .smg-guides { background: #fff; }
-  .smg-guide-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px; }
-  .smg-guide-card { min-width: 0; padding: 29px; border: 1px solid var(--color-brand-cream-warm); background: #fffdf9; transition: transform .2s, border-color .2s; }
+  .smg-guide-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px; margin: 0; padding: 0; list-style: none; }
+  .smg-guide-card { min-width: 0; overflow: hidden; border: 1px solid var(--color-brand-cream-warm); background: #fffdf9; transition: transform .2s, border-color .2s; }
   .smg-guide-card:hover { transform: translateY(-3px); border-color: var(--color-brand-rust-bright); }
-  .smg-guide-card > span { color: var(--color-brand-brown-warm); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
-  .smg-guide-card h3 { margin: 15px 0 24px; color: var(--color-brand-brown); font-size: 26px; line-height: 1.2; }
+  .smg-guide-card__image { aspect-ratio: 16 / 10; overflow: hidden; background: var(--color-brand-cream-warm); }
+  .smg-guide-card__image :global(img) { width: 100%; height: 100%; object-fit: contain; }
+  .smg-guide-card__copy { padding: 26px; }
+  .smg-guide-card__copy > span { color: var(--color-brand-brown-warm); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+  .smg-guide-card h3 { margin: 13px 0 12px; color: var(--color-brand-brown); font-size: 26px; line-height: 1.2; }
+  .smg-guide-card p { margin: 0 0 20px; color: var(--color-brand-brown-warm); font-size: 15px; line-height: 1.62; }
   .smg-guide-card h3 a:hover { color: var(--color-brand-rust-dark); }
   .smg-guide-card__primary { color: var(--color-brand-rust-dark); font-size: 14px; font-weight: 700; text-decoration: underline; }
   .smg-guide-card__more { display: flex; flex-wrap: wrap; gap: 7px 12px; margin-top: 17px; padding-top: 15px; border-top: 1px solid var(--color-brand-cream-warm); }
   .smg-guide-card__more a { color: var(--color-brand-brown-warm); font-size: 13px; font-weight: 700; text-decoration: underline; }
 
   .smg-reviews { background: var(--color-brand-cream-light); }
+  .smg-review-story { max-width: 860px; display: grid; grid-template-columns: 220px 1fr; gap: 24px; align-items: center; margin: 0 0 34px; padding: 20px; border: 1px solid var(--color-brand-cream-warm); background: #fffdf9; }
+  .smg-review-story :global(img) { width: 220px; height: 220px; object-fit: cover; }
+  .smg-review-story figcaption { color: var(--color-brand-brown); font: 600 20px/1.45 var(--font-display); }
   .smg-review-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
   .smg-review-card { min-height: 305px; display: flex; flex-direction: column; padding: 28px; border: 1px solid var(--color-brand-cream-warm); background: #fffdf9; color: var(--color-brand-brown); transition: transform .2s, border-color .2s; }
   .smg-review-card:hover { transform: translateY(-3px); border-color: var(--color-brand-rust-bright); }
@@ -604,6 +679,7 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-faq details p { max-width: 800px; margin: 0; padding: 0 40px 25px 0; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.72; }
 
   .smg-appraisal { display: grid; grid-template-columns: .85fr 1.15fr; gap: 8vw; padding: clamp(70px, 9vw, 115px) clamp(24px, 7vw, 110px); background: var(--color-brand-rust-dark); color: #fff; }
+  .smg-appraisal > *, .smg-appraisal :global(.lead-form) { min-width: 0; }
   .smg-appraisal h2 { color: #fff; }
   .smg-appraisal__copy > p:not(.smg-eyebrow) { color: var(--color-brand-cream); font-size: 18px; line-height: 1.7; }
   .smg-appraisal__copy p a { color: var(--color-brand-brown-tan); font-weight: 700; }
@@ -611,6 +687,12 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
   .smg-appraisal :global(.lead-form) { background: var(--color-brand-cream-light); }
   :global(#appraisal .lead-form__opt) { color: var(--color-brand-rust-dark) !important; opacity: 1; }
   :global(.jvgft .jvgft__menu--sell a) { color: var(--color-brand-brown) !important; }
+
+  .smg-closing-cta { display: flex; gap: 35px; align-items: center; justify-content: space-between; padding: clamp(48px, 6vw, 74px) clamp(24px, 7vw, 110px); background: var(--color-brand-charcoal); color: #fff; }
+  .smg-closing-cta h2 { margin: 0 0 12px; color: #fff; font-size: clamp(34px, 4vw, 52px); }
+  .smg-closing-cta p:not(.smg-eyebrow) { max-width: 650px; margin: 0; color: var(--color-brand-cream-warm); font-size: 17px; line-height: 1.6; }
+  .smg-closing-cta > div:last-child { display: flex; flex-wrap: wrap; gap: 12px; min-width: 360px; }
+  .smg-closing-cta .smg-button-secondary { border-color: var(--color-brand-brown-tan); color: #fff; }
 
   @media (max-width: 950px) {
     .smg-hero { grid-template-columns: 1fr; }
@@ -622,10 +704,11 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
     .smg-owner-grid, .smg-guide-grid, .smg-review-grid { grid-template-columns: 1fr 1fr; }
     .smg-video-grid { grid-template-columns: 1fr 1fr; }
     .smg-video-card:last-child { grid-column: 1 / -1; max-width: calc(50% - 11px); }
-    .smg-meet, .smg-preservation, .smg-expertise, .smg-wanted, .smg-appraisal, .smg-photo-guide { grid-template-columns: 1fr; }
+    .smg-meet, .smg-preservation, .smg-expertise, .smg-appraisal, .smg-photo-guide { grid-template-columns: 1fr; }
     .smg-meet figure, .smg-preservation figure { min-height: 420px; }
     .smg-expertise > div:last-child { padding: 30px 0 0; border-left: 0; border-top: 1px solid var(--color-brand-brown-tan); }
-    .smg-wanted ul { margin-top: 15px; }
+    .smg-closing-cta { align-items: flex-start; flex-direction: column; }
+    .smg-closing-cta > div:last-child { min-width: 0; }
   }
 
   @media (max-width: 650px) {
@@ -640,14 +723,18 @@ const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/
     .smg-steps article { margin-right: 0; border-right: 0; border-bottom: 1px solid var(--color-brand-brown-tan); }
     .smg-video-card:last-child { grid-column: auto; max-width: none; }
     .smg-video-card__story { min-height: 0; }
-    .smg-video-card__embed { min-height: 560px; }
+    .smg-video-card__embed { min-height: 0; }
     .smg-meet figure, .smg-preservation figure { min-height: 330px; }
-    .smg-options__head { display: none; }
-    .smg-options__row { grid-template-columns: 1fr; }
-    .smg-options__row > * + * { border-left: 0; border-top: 1px solid var(--color-brand-cream-warm); }
-    .smg-options__row > * { padding: 16px 20px; }
-    .smg-wanted { margin-left: 0; margin-right: 0; }
-    .smg-wanted ul { grid-template-columns: 1fr; }
+    .smg-options__table, .smg-options__table tbody, .smg-options__table tr, .smg-options__table th, .smg-options__table td { display: block; width: 100%; }
+    .smg-options__table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+    .smg-options__table tr { padding: 18px 20px; border-bottom: 1px solid var(--color-brand-cream-warm); }
+    .smg-options__table tbody tr:last-child { border-bottom: 0; }
+    .smg-options__table th, .smg-options__table td { padding: 0; border: 0; }
+    .smg-options__table td { margin-top: 15px; padding-top: 15px; border-top: 1px solid var(--color-brand-cream-warm); }
+    .smg-options__table td::before { content: attr(data-label); display: block; margin-bottom: 5px; color: var(--color-brand-rust-dark); font-size: 12px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+    .smg-review-story { grid-template-columns: 1fr; }
+    .smg-review-story :global(img) { width: 100%; height: auto; max-height: 420px; object-fit: cover; }
+    .smg-closing-cta > div:last-child, .smg-closing-cta > div:last-child > * { width: 100%; }
     .smg-follow-link, .smg-all-guides { width: 100%; text-align: center; }
   }
 </style>
