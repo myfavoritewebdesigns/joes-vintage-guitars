@@ -1,0 +1,140 @@
+---
+import { Image } from 'astro:assets';
+import LicensedImage from './primitives/LicensedImage.astro';
+import owner from '../assets/blog/one-owner-1965-fender-stratocaster/owner-holding-stratocaster.jpg';
+import duo from '../assets/blog/one-owner-1965-fender-stratocaster/original-owner-duo.jpg';
+import pickguard from '../assets/blog/one-owner-1965-fender-stratocaster/tortoise-pickguard.jpg';
+import guitar from '../assets/blog/one-owner-1965-fender-stratocaster/stratocaster-full.jpg';
+
+// Joe approved this editorial layout and asked to publish it with the site's
+// shared fonts, header and footer. Preserve the uncropped original-owner hero.
+// The historic duo photograph is archival, so it does not receive Joe's license.
+---
+
+<article id="strat-story">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow"><a href="/category/museum-original-owners/">Original-owner stories</a> · Alexandria, Kentucky</p>
+            <h1>A Lifetime of Music.<br />One 1965 Stratocaster.</h1>
+            <p class="dek">A rare factory tortoise guard, decades of playwear, and the story of the husband-and-wife duo that kept this Olympic White Fender making music.</p>
+          </div>
+          <figure class="hero-image">
+            <LicensedImage src={owner} width={1600} loading="eager" fetchpriority="high" alt="The original owner holding his 1965 Olympic White Fender Stratocaster with its factory tortoise pickguard" />
+            <figcaption>The original owner with his 1965 Fender Stratocaster</figcaption>
+          </figure>
+        </section>
+        <section class="story-grid">
+          <aside class="facts" aria-label="Guitar highlights">
+            <p class="facts-title">At a glance</p>
+            <dl>
+              <div><dt>Year</dt><dd>1965</dd></div>
+              <div><dt>Finish</dt><dd>Olympic White</dd></div>
+              <div><dt>History</dt><dd>Original owner</dd></div>
+              <div><dt>Standout detail</dt><dd>Factory tortoise pickguard</dd></div>
+            </dl>
+          </aside>
+          <div class="story">
+            <p class="lead">Every vintage guitar has a history, but few arrive with a story as personal as this original-owner 1965 Fender Stratocaster.</p>
+            <p>We acquired the guitar in Alexandria, Kentucky, from the musician who had owned and played it since it was new. Over the decades, it accompanied him through numerous bands and countless performances. One of the most meaningful chapters came when he performed as a duo with his wife, who played keyboard alongside him.</p>
+            <figure class="archive-photo">
+              <Image src={duo} width={660} loading="lazy" decoding="async" alt="The original owner playing the Stratocaster beside his wife at a keyboard" />
+              <figcaption>The original owner and his wife performing together, guitar and keyboard, side by side.</figcaption>
+            </figure>
+            <p>That old photograph captures the Stratocaster where it belongs: not displayed as a collectible, but making music. The years have left their mark. Its Olympic White finish has aged into a warm, creamy color, with playwear across the body and neck. Every worn edge and exposed patch of wood was earned naturally through a lifetime of use.</p>
+            <p>These personal histories are a big part of <a href="/about-me/">why Joe collects vintage guitars</a>. A photograph of the musician who played an instrument can tell us something that a list of specifications never could.</p>
+            <div class="detail-row">
+              <LicensedImage src={pickguard} width={1200} loading="lazy" decoding="async" alt="Close-up of the rare tortoise-shell pickguard on the 1965 Stratocaster" />
+              <div>
+                <p class="eyebrow">The rare detail</p>
+                <h2>A Factory Tortoise Guard</h2>
+                <p>One feature makes this Stratocaster especially unusual: its factory-installed tortoise-shell pickguard. Tortoise guards are rarely encountered on Stratocasters from this era. Its deep red and amber pattern creates a striking contrast against the aged Olympic White body.</p>
+              </div>
+            </div>
+            <p>Researching a Fender of your own? Our <a href="/fender-guitars-serial-number-guide/">Fender serial number and dating guide</a> is a useful starting point. For help understanding your particular instrument and its history, you can also <a href="/free-appraisal/">request a free guitar appraisal</a>.</p>
+            <figure class="guitar-portrait">
+              <LicensedImage src={guitar} width={960} loading="lazy" decoding="async" alt="Full view of the 1965 Olympic White Stratocaster and its rare factory tortoise pickguard" />
+              <figcaption>Olympic White, a factory tortoise guard, and a lifetime of playwear.</figcaption>
+            </figure>
+            <h2>A New Player. Another Chapter.</h2>
+            <p>As remarkable as the instrument is, the story behind its transition to a new owner may be the best part. After spending a lifetime with the Stratocaster, its original owner decided that it was time to pass it along, to place it in the hands of someone who would continue to play it.</p>
+            <p>That sentiment captures what vintage guitars are truly about. We preserve their originality and history, but these instruments were made to be heard. This Stratocaster has already lived one extraordinary musical life, from Kentucky bandstands to performances shared by a husband and wife. Now it is ready for the next player to add another chapter.</p>
+            <p class="closing">Some guitars are survivors. Others are storytellers.<br />This rare 1965 Stratocaster is both.</p>
+            <nav class="related-links" aria-label="More from Joe's Vintage Guitars">
+              <p class="eyebrow">Explore Joe’s Vintage Guitars</p>
+              <h2>More for Vintage Fender Owners</h2>
+              <div>
+                <a href="/sell-my-fender-guitar/"><strong>Sell your vintage Fender <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" style="display:inline-block"><path d="M6 18 18 6M6 6h12v12" /></svg></strong><span>Talk with Joe about your guitar and its story.</span></a>
+                <a href="/fender-guitars-serial-number-guide/"><strong>Identify and date your Fender <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" style="display:inline-block"><path d="M6 18 18 6M6 6h12v12" /></svg></strong><span>Explore serial numbers and dating information.</span></a>
+                <a href="/free-appraisal/"><strong>Get a free appraisal <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" style="display:inline-block"><path d="M6 18 18 6M6 6h12v12" /></svg></strong><span>Learn more about what your instrument may be worth.</span></a>
+                <a href="/category/museum-original-owners/"><strong>Read more original-owner stories <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" style="display:inline-block"><path d="M6 18 18 6M6 6h12v12" /></svg></strong><span>Meet the people behind the guitars.</span></a>
+              </div>
+            </nav>
+          </div>
+        </section>
+      </article>
+
+<style is:global>
+#strat-story {
+  --story-ink: #17130f;
+  --story-paper: #f5f0e8;
+  --story-rust: #a03a1e;
+  --story-dark: #1c1713;
+}
+#strat-story { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif; color: var(--story-ink); background: var(--story-paper); }
+#strat-story h1, #strat-story h2, #strat-story .eyebrow, #strat-story .facts-title { font-family: Oswald, 'Helvetica Neue', system-ui, sans-serif; font-weight: 600; }
+#strat-story h1 { margin: 22px 0 28px; font-size: clamp(3.5rem, 5.7vw, 5.4rem); line-height: 1.06; letter-spacing: -.04em; }
+#strat-story h2 { font-size: clamp(2rem, 3.2vw, 3rem); line-height: 1.2; margin: 0 0 24px; }
+#strat-story .hero { display: grid; grid-template-columns: .85fr 1.15fr; align-items: center; gap: 4vw; padding: 288px 5vw 64px; background: var(--story-dark); color: white; }
+#strat-story .hero-copy { max-width: 650px; margin-left: auto; }
+#strat-story .eyebrow { font-size: .85rem; line-height: 1.5; letter-spacing: .13em; text-transform: uppercase; color: #c79557; }
+#strat-story .eyebrow a { color: inherit; }
+#strat-story .dek { max-width: 630px; font-size: clamp(1.1rem, 1.6vw, 1.5rem); line-height: 1.65; color: #d7cbbb; }
+#strat-story .hero-image { margin: 0; max-width: 1000px; width: 100%; }
+#strat-story .hero-image img { display: block; width: 100%; height: auto; aspect-ratio: 4/3; object-fit: contain; }
+#strat-story figcaption { margin-top: 12px; font-size: .8125rem; line-height: 1.6; color: #6b6056; }
+#strat-story .hero-image figcaption { color: #d7cbbb; }
+#strat-story .story-grid { display: grid; grid-template-columns: 210px minmax(0, 800px); gap: clamp(48px, 7vw, 110px); justify-content: center; padding: 96px 6vw 110px; }
+#strat-story .facts { align-self: start; border-top: 3px solid var(--story-rust); }
+#strat-story .facts-title { font-size: 1.5rem; padding: 20px 0; }
+#strat-story .facts dl div { border-top: 1px solid #d8ccbc; padding: 16px 0; }
+#strat-story .facts dt { font-size: .875rem; color: #6b6056; }
+#strat-story .facts dd { font-size: 1rem; font-weight: 600; margin-top: 5px; }
+#strat-story .story p { font-size: 1.125rem; line-height: 1.85; margin: 0 0 25px; }
+#strat-story .story .lead { font-size: clamp(1.35rem, 2vw, 1.7rem); line-height: 1.6; }
+#strat-story .story a:not(.related-links a) { color: var(--story-rust); text-decoration: underline; text-underline-offset: 4px; }
+#strat-story a:hover { text-decoration: underline; }
+#strat-story a:focus-visible { outline: 3px solid #c8983a; outline-offset: 4px; }
+#strat-story .archive-photo { margin: 42px 0; max-width: 660px; }
+#strat-story .archive-photo img { width: 100%; height: auto; }
+#strat-story .detail-row { margin: 52px 0; background: var(--story-dark); color: white; }
+#strat-story .detail-row img { width: 100%; height: auto; }
+#strat-story .detail-row > div { padding: 34px 38px 12px; }
+#strat-story .detail-row p { color: #d7cbbb; }
+#strat-story .detail-row .eyebrow { font-size: .85rem; color: #c79557; }
+#strat-story .guitar-portrait { max-width: 480px; margin: 50px auto; }
+#strat-story .guitar-portrait img { width: 100%; height: auto; }
+#strat-story .closing { border-top: 2px solid #c79557; padding-top: 32px; margin-top: 38px; font-size: 1.35rem; font-weight: 600; }
+#strat-story .related-links { margin-top: 70px; border-top: 1px solid #d8ccbc; padding-top: 30px; }
+#strat-story .related-links .eyebrow { color: var(--story-rust); font-size: .875rem; }
+#strat-story .related-links > div { display: grid; grid-template-columns: 1fr 1fr; gap: 0 30px; }
+#strat-story .related-links a { display: flex; flex-direction: column; gap: 8px; border-top: 1px solid #d8ccbc; padding: 22px 0; color: var(--story-ink); text-decoration: none; }
+#strat-story .related-links strong { font-size: 1.05rem; }
+#strat-story .related-links a > span { color: #6b6056; font-size: 1rem; line-height: 1.5; }
+@media (max-width: 1100px) and (min-width: 1024px) { #strat-story .hero { padding-top: 285px; } }
+@media (max-width: 1023px) {
+  #strat-story .hero { padding-top: 220px; grid-template-columns: 1fr; gap: 32px; }
+  #strat-story .hero-copy { margin: 0; max-width: 800px; }
+  #strat-story .hero-image { max-width: 100%; }
+  #strat-story .story-grid { grid-template-columns: 1fr; padding-top: 55px; }
+  #strat-story .facts dl { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  #strat-story .story { max-width: 800px; margin: auto; }
+}
+@media (max-width: 639px) {
+  #strat-story .hero { padding: 175px 6vw 36px; }
+  #strat-story h1 { font-size: clamp(2.9rem, 11vw, 4rem); }
+  #strat-story .facts dl { grid-template-columns: 1fr 1fr; }
+  #strat-story .story-grid { gap: 38px; padding-bottom: 65px; }
+  #strat-story .detail-row > div { padding: 26px 22px 7px; }
+  #strat-story .related-links > div { grid-template-columns: 1fr; }
+}
+</style>
