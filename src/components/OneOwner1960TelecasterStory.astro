@@ -1,0 +1,139 @@
+---
+import LicensedImage from "./primitives/LicensedImage.astro";
+import owner from "../assets/blog/one-owner-1960-fender-telecaster/original-owner-with-1960-telecaster.jpg";
+import front from "../assets/blog/one-owner-1960-fender-telecaster/1960-telecaster-front.jpg";
+import backWear from "../assets/blog/one-owner-1960-fender-telecaster/1960-telecaster-back-wear.jpg";
+import edgeWear from "../assets/blog/one-owner-1960-fender-telecaster/1960-telecaster-edge-wear.jpg";
+import headstock from "../assets/blog/one-owner-1960-fender-telecaster/1960-telecaster-headstock.jpg";
+import fullBack from "../assets/blog/one-owner-1960-fender-telecaster/1960-telecaster-full-back.jpg";
+
+const facts = [
+  ["Model", "Fender Telecaster"],
+  ["Year", "1960"],
+  ["Finish", "Blonde"],
+  ["Provenance", "Original Owner"],
+  ["Location", "Fountain Hills, Arizona"],
+  ["Weight", "6.58 Pounds"],
+] as const;
+---
+
+<article class="otele">
+  <section class="otele-hero">
+    <div class="otele-hero-copy">
+      <nav class="otele-eyebrow" aria-label="Article category"><a href="/category/museum-original-owners/">JVG Museum · Original Owners Blog</a> · 1960 Fender Telecaster</nav>
+      <h1>One Owner <span>1960 Fender</span> Telecaster From Fountain Hills</h1>
+      <p class="otele-dek">He played this Telecaster for decades. When acoustic guitar became his main instrument, he brought it to us so someone else could keep playing it.</p>
+      <div class="otele-meta"><span>Fountain Hills, Arizona</span><span>1960 Fender Telecaster</span></div>
+      <a class="otele-button" href="#story">Read the Story</a>
+    </div>
+    <figure class="otele-hero-photo">
+      <LicensedImage src={owner} alt="The original owner holding his worn 1960 Fender Telecaster in Fountain Hills, Arizona" width={Math.min(owner.width, 1600)} loading="eager" fetchpriority="high" />
+    </figure>
+  </section>
+
+  <div class="otele-article" id="story">
+    <p class="otele-lead otele-dropcap">This 1960 Fender Telecaster came to us in Fountain Hills, Arizona, from its original owner. He played it often throughout its life. These days he reaches primarily for an acoustic guitar, and he did not want the Telecaster sitting untouched. He wanted it back in the hands of a player.</p>
+
+    <dl class="otele-facts">
+      {facts.map(([label, value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}
+    </dl>
+
+    <h2>One Owner From New</h2>
+    <p>When a guitar stays with one person this long, its condition reads differently. The wear is not a mystery assembled from decades of dealers and collectors. It came from the same hands returning to the same instrument year after year.</p>
+    <p>He played it often, and the Telecaster shows it. The blonde finish has softened with age. The back carries broad areas of wear, the edges are chipped and rubbed, and the metal parts have lost their shine. None of that needs to be dressed up. It is direct evidence that this guitar did what it was built to do.</p>
+
+    <figure class="otele-wide">
+      <LicensedImage src={front} alt="Front of the blonde 1960 Fender Telecaster resting in its red lined hardshell case" width={1800} loading="lazy" decoding="async" />
+      <figcaption>The blonde body shows decades of handling and play.</figcaption>
+    </figure>
+
+    <h2>The Wear Tells the Story</h2>
+    <p>The photographs show the places a player touches without thinking about it: the lower edge of the body, the back against a shirt or belt, the control plate and selector, and the neck worn smooth by years of chords and lead lines.</p>
+    <p>The marks are individual, but together they tell one consistent story. This was a working guitar.</p>
+
+    <div class="otele-pair jvg-img2">
+      <figure class="jvg-imgwc"><LicensedImage src={backWear} alt="Back of the 1960 Fender Telecaster with broad finish wear from decades of playing" width={1600} loading="lazy" decoding="async" /><figcaption>Back wear from years against the player.</figcaption></figure>
+      <figure class="jvg-imgwc"><LicensedImage src={edgeWear} alt="Side profile of the blonde 1960 Fender Telecaster showing worn body edges" width={1600} loading="lazy" decoding="async" /><figcaption>The rounded edges show the same long use.</figcaption></figure>
+    </div>
+
+    <blockquote>He wanted the guitar played.</blockquote>
+
+    <p>The guitar came with its brown hardshell case, its red interior carrying signs of age. The bridge cover is pictured with the instrument, and the scale read 6.58 pounds during our photo session. Those details help record the guitar as it arrived, but the strongest piece of provenance is the photograph of the owner holding it again.</p>
+
+    <figure class="otele-wide otele-headstock">
+      <LicensedImage src={headstock} alt="Maple headstock on the 1960 Fender Telecaster showing the Fender logo and tuners" width={1800} loading="lazy" decoding="async" />
+      <figcaption>The maple headstock and Fender logo.</figcaption>
+    </figure>
+
+    <h2>Ready for the Next Player</h2>
+    <p>By the time we met him in Fountain Hills, electric guitar was no longer the center of his playing. He had moved primarily to acoustic. Letting the Telecaster go was a practical decision. He wanted the guitar played.</p>
+    <p>A one owner guitar can easily be treated as an artifact and put away. This one arrived with a simpler purpose: keep it moving. Whoever owns it next will be stepping into a guitar that has already been played for more than six decades.</p>
+
+    <figure class="otele-wide">
+      <LicensedImage src={fullBack} alt="Full back view of the blonde 1960 Fender Telecaster in its red lined hardshell case" width={1800} loading="lazy" decoding="async" />
+      <figcaption>A one owner Telecaster ready for its next player.</figcaption>
+    </figure>
+
+    <p>At Joe's Vintage Guitars, we document original owner instruments because the person matters as much as the serial number. We were grateful to meet this owner, photograph him with his Telecaster, and hear why he was ready to pass it on. The wear is visible. The reason is simple. He wanted another guitarist to play it.</p>
+  </div>
+
+  <section class="otele-closing"><div><p class="otele-eyebrow">Every Guitar Has a Story</p><h2>Have a Vintage Fender With a Story</h2><p>If you have an old Telecaster, Stratocaster or another vintage guitar you are thinking about selling, learn how to <a href="/sell-my-fender-guitar/">sell your vintage Fender to Joe</a> or start with a free appraisal.</p><a class="otele-button" href="/free-appraisal/">Get a Free Guitar Appraisal</a></div></section>
+</article>
+
+<style>
+  .otele { color:var(--color-brand-brown-warm); background:white; font:18px/1.8 var(--font-sans); overflow:hidden; }
+  .otele :global(img) { display:block; width:100%; height:auto; }
+  .otele figure { margin:0; }
+  .otele-hero { position:relative; display:grid; grid-template-columns:46% 54%; background:var(--color-brand-bone); }
+  .otele-hero::before { content:""; position:absolute; inset:0 0 auto; height:120px; background:var(--color-brand-brown); z-index:1; pointer-events:none; }
+  .otele-hero-copy { padding:304px 4vw 70px; min-width:0; }
+  .otele-eyebrow { color:var(--color-brand-rust-dark); font:600 13px/1.5 var(--font-display); letter-spacing:.13em; text-transform:uppercase; }
+  .otele-eyebrow a { text-decoration:none; }
+  .otele h1 { max-width:610px; margin:26px 0 28px; color:var(--color-brand-brown); font:600 clamp(3.8rem,7vw,6.3rem)/.94 var(--font-display); letter-spacing:-.025em; text-transform:uppercase; overflow-wrap:normal; }
+  .otele h1 span { display:block; color:var(--color-brand-rust-dark); }
+  .otele-dek { max-width:520px; font-size:1.34rem; line-height:1.5; }
+  .otele-hero-photo { min-height:712px; position:relative; background:var(--color-brand-brown); }
+  .otele-hero-photo :global(img) { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 34%; }
+  .otele-hero-photo::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(0,0,0,.65),transparent 40%); pointer-events:none; }
+  .otele-meta { display:flex; flex-wrap:wrap; gap:12px 28px; margin-top:34px; color:var(--color-brand-brown-muted); font:600 13px/1.5 var(--font-display); text-transform:uppercase; letter-spacing:.09em; }
+  .otele-button { display:inline-block; margin-top:30px; padding:15px 27px; color:white; background:var(--color-brand-rust-dark); text-decoration:none; font:600 14px/1.5 var(--font-display); letter-spacing:.1em; text-transform:uppercase; }
+  .otele-button:hover { background:var(--color-brand-rust-bright); }
+  .otele a:focus-visible { outline:3px solid var(--color-brand-rust-bright); outline-offset:5px; }
+  .otele-article { width:min(760px,88%); margin:90px auto; }
+  .otele-article p { margin:0 0 1.55em; }
+  .otele-article p a,.otele-closing p a { color:var(--color-brand-rust-dark); text-decoration:underline; text-underline-offset:3px; font-weight:600; }
+  .otele-lead { font-size:1.5rem; line-height:1.58; }
+  .otele h2 { margin:82px 0 24px; color:var(--color-brand-brown); font:600 clamp(2.6rem,5vw,4.8rem)/1.04 var(--font-display); letter-spacing:-.025em; text-transform:uppercase; }
+  .otele-dropcap::first-letter { float:left; color:var(--color-brand-rust-dark); font:600 5.4rem/.78 var(--font-display); padding:12px 12px 0 0; }
+  .otele-facts { margin:55px 0 70px; display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--color-brand-brown-tan); border-left:1px solid var(--color-brand-brown-tan); }
+  .otele-facts div { padding:18px 20px; border-right:1px solid var(--color-brand-brown-tan); border-bottom:1px solid var(--color-brand-brown-tan); background:var(--color-brand-bone); }
+  .otele-facts dt { color:var(--color-brand-rust-dark); font:600 12px/1.4 var(--font-display); letter-spacing:.1em; text-transform:uppercase; }
+  .otele-facts dd { margin:6px 0 0; font-size:16px; line-height:1.35; }
+  .otele .otele-wide { width:min(1180px,92vw); max-width:none; margin:64px 0 64px 50%; transform:translateX(-50%); }
+  .otele figcaption { margin:13px 0 0; color:var(--color-brand-brown-muted); font:italic 15px/1.6 Georgia,serif; }
+  .otele-wide figcaption { width:min(760px,88vw); margin:13px auto 0; }
+  .otele .otele-pair { width:min(1180px,88vw); margin:68px 0 68px 50%; transform:translateX(-50%); gap:16px; }
+  .otele .jvg-imgwc :global(img) { border-radius:0; box-shadow:none; height:auto; object-fit:contain; }
+  .otele blockquote { margin:72px -60px; padding:16px 0 16px 34px; border-left:5px solid var(--color-brand-rust); color:var(--color-brand-brown); font-size:1.85rem; line-height:1.45; font-style:italic; }
+  .otele-headstock { max-width:900px!important; }
+  .otele-closing { padding:100px 0 110px; background:var(--color-brand-brown-tan); text-align:center; }
+  .otele-closing > div { width:min(780px,88%); margin:auto; }
+  .otele-closing h2 { margin:20px 0 22px; }
+  @media(max-width:1023px) {
+    .otele-hero { grid-template-columns:1fr; }
+    .otele-hero::before { display:none; }
+    .otele-hero-copy { order:2; padding:64px 7vw 70px; }
+    .otele-hero-photo { order:1; min-height:560px; }
+    .otele h1 { font-size:clamp(3.4rem,10vw,6rem); }
+    .otele blockquote { margin:60px 0; }
+  }
+  @media(max-width:600px) {
+    .otele-hero-photo { min-height:500px; }
+    .otele .otele-pair { grid-template-columns:1fr; }
+    .otele h1 { font-size:clamp(2.6rem,10vw,3.8rem); }
+    .otele h2 { font-size:2.6rem; }
+    .otele-article { margin-top:60px; }
+    .otele-facts { grid-template-columns:1fr 1fr; }
+  }
+  @media(max-width:420px) { .otele-facts { grid-template-columns:1fr; } }
+</style>
