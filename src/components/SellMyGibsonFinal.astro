@@ -174,6 +174,7 @@ const modelGuides = [
 ];
 
 const heroGuitar = resolveImage("/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-scaled.jpg")!;
+const shippingPhoto = resolveImage("/images/sell-gibson/gibson-guitars-and-amps-at-fedex-counter.webp")!;
 const joePhoto = resolveImage("images/fender-sn/about-me-joe-1.jpg")!;
 const byrdlandPhoto = resolveImage("/images/blog/one-owner-1957-gibson-byrdland/don-majure-with-1957-gibson-byrdland.jpg")!;
 const lymanPhoto = resolveImage("images/sell-gibson/vintage-gibson-guitar-seller-768x1024.jpg")!;
@@ -233,12 +234,18 @@ const lymanPhoto = resolveImage("images/sell-gibson/vintage-gibson-guitar-seller
   </section>
 
   <section class="smg-section smg-shipping" id="shipping">
-    <div class="smg-shipping__intro">
-      <p class="smg-eyebrow">Nationwide Shipping</p>
-      <h2>A Simple, Proven Way to Ship Your Vintage Gibson</h2>
-      <p>Sellers across the country have trusted me with valuable and sentimental guitars. I explain the prepaid FedEx process with the offer so you can consider the shipping arrangements before deciding.</p>
-      <p>We agree on the shipping and payment details before the guitar moves, and I stay available throughout the process.</p>
-      <div class="smg-shipping__included"><strong>There's no shipping cost to you.</strong> Through my special FedEx account, the box, professional packing, fully insured shipping and tracking are all provided at the FedEx location.</div>
+    <div class="smg-shipping__lead">
+      <div class="smg-shipping__intro">
+        <p class="smg-eyebrow">Nationwide Shipping</p>
+        <h2>A Simple, Proven Way to Ship Your Vintage Gibson</h2>
+        <p>Sellers across the country have trusted me with valuable and sentimental guitars. I explain the prepaid FedEx process with the offer so you can consider the shipping arrangements before deciding.</p>
+        <p>We agree on the shipping and payment details before the guitar moves, and I stay available throughout the process.</p>
+        <div class="smg-shipping__included"><strong>There's no shipping cost to you.</strong> Through my special FedEx account, the box, professional packing, fully insured shipping and tracking are all provided at the FedEx location.</div>
+      </div>
+      <figure class="smg-shipping__photo">
+        <LicensedImage src={shippingPhoto} alt="Two Gibson guitars and two vintage amplifiers at a FedEx counter for packing and insured shipping" width={720} loading="lazy" />
+        <figcaption>Two Gibson guitars and two vintage amps at the FedEx counter.</figcaption>
+      </figure>
     </div>
     <div class="smg-shipping__columns">
       <article><h3>What You Receive With the Offer</h3><ul><li>A clear explanation of the process</li><li>Shipping and insurance details</li><li>Your choice of payment method</li></ul></article>
@@ -538,11 +545,15 @@ const lymanPhoto = resolveImage("images/sell-gibson/vintage-gibson-guitar-seller
   .smg-steps p { margin: 0; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
 
   .smg-shipping { background: var(--color-brand-cream-warm); }
-  .smg-shipping__intro { max-width: 850px; }
+  .smg-shipping__lead { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(300px, .75fr); gap: clamp(34px, 6vw, 72px); align-items: start; }
+  .smg-shipping__intro { max-width: none; }
   .smg-shipping__intro h2 { margin: 0 0 22px; color: var(--color-brand-brown); font-size: clamp(38px, 4.2vw, 59px); line-height: 1.04; letter-spacing: -.035em; }
   .smg-shipping__intro > p:not(.smg-eyebrow) { max-width: 780px; margin: 0 0 14px; color: var(--color-brand-brown-warm); font-size: 18px; line-height: 1.72; }
   .smg-shipping__included { margin-top: 30px; padding: 22px 24px; border-left: 4px solid var(--color-brand-rust-bright); background: var(--color-brand-cream-light); color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
   .smg-shipping__included strong { display: block; margin-bottom: 4px; color: var(--color-brand-brown); font: 600 20px/1.2 var(--font-display); }
+  .smg-shipping__photo { margin: 0; overflow: hidden; border: 1px solid var(--color-brand-brown-tan); background: #fffdf9; box-shadow: 0 14px 32px rgba(65,45,28,.12); }
+  .smg-shipping__photo :global(img) { width: 100%; height: auto; display: block; aspect-ratio: 3 / 4; object-fit: cover; }
+  .smg-shipping__photo figcaption { padding: 13px 16px; color: var(--color-brand-brown-warm); font-size: 13px; line-height: 1.45; }
   .smg-shipping__columns { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 45px; }
   .smg-shipping__columns article { padding: 30px; border: 1px solid var(--color-brand-brown-tan); background: #fffdf9; }
   .smg-shipping__columns h3 { margin: 0 0 18px; color: var(--color-brand-brown); font-size: 25px; }
@@ -728,7 +739,8 @@ const lymanPhoto = resolveImage("images/sell-gibson/vintage-gibson-guitar-seller
     .smg-owner-grid, .smg-guide-grid, .smg-review-grid { grid-template-columns: 1fr 1fr; }
     .smg-video-grid { grid-template-columns: 1fr 1fr; }
     .smg-video-card:last-child { grid-column: 1 / -1; max-width: calc(50% - 11px); }
-    .smg-meet, .smg-preservation, .smg-expertise, .smg-appraisal, .smg-photo-guide { grid-template-columns: 1fr; }
+    .smg-meet, .smg-preservation, .smg-expertise, .smg-appraisal, .smg-photo-guide, .smg-shipping__lead { grid-template-columns: 1fr; }
+    .smg-shipping__photo { width: min(100%, 620px); }
     .smg-meet figure, .smg-preservation figure { min-height: 420px; }
     .smg-expertise > div:last-child { padding: 30px 0 0; border-left: 0; border-top: 1px solid var(--color-brand-brown-tan); }
     .smg-closing-cta { align-items: flex-start; flex-direction: column; }
