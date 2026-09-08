@@ -1,0 +1,157 @@
+---
+import LicensedImage from "./primitives/LicensedImage.astro";
+import bill from "../assets/blog/bill-one-owner-1966-fender-jaguar/bill-with-1966-fender-jaguar-lake-placid-blue.jpeg";
+import front from "../assets/blog/bill-one-owner-1966-fender-jaguar/1966-fender-jaguar-lake-placid-blue-1.jpg";
+import headstock from "../assets/blog/bill-one-owner-1966-fender-jaguar/1966-fender-jaguar-lake-placid-blue-3.jpg";
+import fingerboard from "../assets/blog/bill-one-owner-1966-fender-jaguar/1966-fender-jaguar-lake-placid-blue-4.jpg";
+import fullBack from "../assets/blog/bill-one-owner-1966-fender-jaguar/1966-fender-jaguar-lake-placid-blue-6.jpg";
+import tunerBack from "../assets/blog/bill-one-owner-1966-fender-jaguar/1966-fender-jaguar-lake-placid-blue-7.jpg";
+import neckPlate from "../assets/blog/bill-one-owner-1966-fender-jaguar/1966-fender-jaguar-lake-placid-blue-9.jpg";
+import backWear from "../assets/blog/bill-one-owner-1966-fender-jaguar/1966-fender-jaguar-lake-placid-blue-10.jpg";
+import edgeFinish from "../assets/blog/bill-one-owner-1966-fender-jaguar/1966-fender-jaguar-lake-placid-blue-11.jpg";
+import cased from "../assets/blog/bill-one-owner-1966-fender-jaguar/1966-fender-jaguar-lake-placid-blue-12.jpg";
+
+const facts = [
+  ["Model", "Fender Jaguar"],
+  ["Year", "1966"],
+  ["Finish", "Lake Placid Blue"],
+  ["Provenance", "Original Owner"],
+  ["Location", "Williams, Arizona"],
+  ["Neck Plate", "189093"],
+] as const;
+---
+
+<article class="bjag">
+  <section class="bjag-hero">
+    <div class="bjag-hero-copy">
+      <nav class="bjag-eyebrow" aria-label="Article category"><a href="/category/museum-original-owners/">JVG Museum · Original Owners Blog</a> · 1966 Fender Jaguar</nav>
+      <h1>Bill's One-Owner <span>1966 Lake Placid Blue</span> Fender Jaguar</h1>
+      <p class="bjag-dek">His father bought it for him when he was young. Nearly six decades later, this rare custom-color Fender came to me from Williams, Arizona.</p>
+      <div class="bjag-meta"><span>Williams, Arizona</span><span>1966 Fender Jaguar</span></div>
+      <a class="bjag-button" href="#story">Read the Story</a>
+    </div>
+    <figure class="bjag-hero-photo">
+      <LicensedImage src={bill} alt="Bill holding the Lake Placid Blue 1966 Fender Jaguar his father bought for him when he was young" width={Math.min(bill.width, 1600)} loading="eager" fetchpriority="high" />
+    </figure>
+  </section>
+
+  <div class="bjag-article" id="story">
+    <p class="bjag-lead bjag-dropcap">This 1966 Fender Jaguar came to me from Bill in Williams, Arizona. Bill's father bought the guitar for him when he was young, and it remained with him for decades. By the time I saw it, the Jaguar was still in beautiful original condition. It is a rare custom-color Fender with the history to match.</p>
+
+    <dl class="bjag-facts">
+      {facts.map(([label, value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}
+    </dl>
+
+    <h2>A Gift From Bill's Father</h2>
+    <p>The most important part of this Jaguar's history is simple: Bill knew where it came from because he was there. His father bought it for him when he was young. The guitar did not pass anonymously through a chain of stores, dealers, and collections before reaching me. It stayed connected to the person who first received it.</p>
+    <p>That kind of provenance is hard to replace. Serial numbers and period details help identify an old Fender, but an original-owner history tells us how the instrument actually moved through the world. In this case, it began as a father's gift and stayed with his son into another era.</p>
+
+    <figure class="bjag-wide">
+      <LicensedImage src={front} alt="Close front view of the Lake Placid Blue body, white pickguard, chrome control plates, pickups, and vibrato on Bill's 1966 Fender Jaguar" width={1800} loading="lazy" decoding="async" />
+      <figcaption>The offset body, chrome control plates, white pickguard, and Lake Placid Blue finish.</figcaption>
+    </figure>
+
+    <h2>Lake Placid Blue From Body to Headstock</h2>
+    <p>Lake Placid Blue is one of the great Fender custom colors, and Bill's Jaguar wears it across both the body and the matching painted headstock. The photographs also show the bound rosewood fingerboard and pearloid block markers that give this mid-1960s Jaguar such a distinct look.</p>
+    <p>Custom-color Fenders from this era are significantly rarer than their sunburst siblings. Fewer were ordered in colors like this one, and surviving examples in beautiful original condition occupy a different place in the market. That scarcity is not just visual. It translates directly to price.</p>
+
+    <div class="bjag-pair jvg-img2">
+      <figure class="jvg-imgwc"><LicensedImage src={headstock} alt="Matching Lake Placid Blue headstock on Bill's 1966 Fender Jaguar with Fender logo" width={1600} loading="lazy" decoding="async" /><figcaption>The matching Lake Placid Blue headstock.</figcaption></figure>
+      <figure class="jvg-imgwc"><LicensedImage src={fingerboard} alt="Bound rosewood fingerboard with pearloid block inlays on Bill's 1966 Fender Jaguar" width={1600} loading="lazy" decoding="async" /><figcaption>Bound rosewood fingerboard with pearloid block markers.</figcaption></figure>
+    </div>
+
+    <h2>Beautiful Original Condition</h2>
+    <p>Old custom-color finishes often carry a complicated history. Some have been refinished, oversprayed, stripped, or heavily repaired. This Jaguar came to me in beautiful original condition. The blue still has its depth and metallic character, while the small marks visible in the close photographs belong to decades of careful ownership.</p>
+    <p>The original-style case frames the blue against a vivid orange lining. It is a striking combination, but it also records the guitar as it arrived: a complete instrument presented with the things that had stayed beside it.</p>
+
+    <figure class="bjag-wide">
+      <LicensedImage src={cased} alt="Bill's Lake Placid Blue 1966 Fender Jaguar resting in its orange-lined hardshell case" width={1800} loading="lazy" decoding="async" />
+      <figcaption>The Jaguar in its orange-lined hardshell case.</figcaption>
+    </figure>
+
+    <h2>The Details That Carry the History</h2>
+    <p>The closer views matter on a guitar like this. The neck plate is stamped 189093. The chrome plates, switches, pickups, vibrato assembly, painted headstock, and the finish itself can all be seen clearly in the photographs. Together, those details create a record of the Jaguar as it came from Bill.</p>
+
+    <div class="bjag-pair jvg-img2">
+      <figure class="jvg-imgwc"><LicensedImage src={neckPlate} alt="Fender neck plate stamped 189093 on Bill's 1966 Lake Placid Blue Jaguar" width={1600} loading="lazy" decoding="async" /><figcaption>The neck plate is stamped 189093.</figcaption></figure>
+      <figure class="jvg-imgwc"><LicensedImage src={tunerBack} alt="Back of the headstock and Fender tuners on Bill's 1966 Jaguar" width={1600} loading="lazy" decoding="async" /><figcaption>The back of the headstock and tuners.</figcaption></figure>
+    </div>
+
+    <p>The light marks on the back and edges do not overwhelm the finish. They make the instrument legible as something Bill owned and handled, not a guitar separated from its life. Its strong originality, natural age, and direct provenance are exactly what collectors hope to find.</p>
+
+    <div class="bjag-pair jvg-img2">
+      <figure class="jvg-imgwc"><LicensedImage src={backWear} alt="Close view of light handling marks in the original Lake Placid Blue finish on the back of Bill's Jaguar" width={1600} loading="lazy" decoding="async" /><figcaption>Light handling marks remain visible in the original finish.</figcaption></figure>
+      <figure class="jvg-imgwc"><LicensedImage src={edgeFinish} alt="Close view of the metallic Lake Placid Blue finish along the edge of Bill's 1966 Jaguar" width={1600} loading="lazy" decoding="async" /><figcaption>The metallic blue finish along the body edge.</figcaption></figure>
+    </div>
+
+    <blockquote>A father's gift, kept by his son for decades.</blockquote>
+
+    <h2>From Williams, Arizona</h2>
+    <p>Williams is where Bill and this Jaguar entered my story, but their history together began long before that. A father chose the guitar for his son. Bill kept it through the decades. Then it came to Joe's Vintage Guitars with its finish, its case, and its family connection intact.</p>
+    <p>That is why original-owner instruments matter to me. The model and color may explain why a guitar is collectible, but the person explains why it is memorable. Bill's 1966 Jaguar is both: a rare Lake Placid Blue Fender and a tangible piece of one family's history.</p>
+
+    <figure class="bjag-wide">
+      <LicensedImage src={fullBack} alt="Full back view of Bill's Lake Placid Blue 1966 Fender Jaguar showing the maple neck and matching blue body" width={1800} loading="lazy" decoding="async" />
+      <figcaption>Nearly six decades later, Bill's Jaguar still carries the gift, the color, and the history.</figcaption>
+    </figure>
+  </div>
+
+  <section class="bjag-closing"><div><p class="bjag-eyebrow">Every Guitar Has a Story</p><h2>Have a Vintage Fender With a Story</h2><p>If you have a vintage Jaguar, Jazzmaster, Stratocaster, Telecaster, or Fender bass, learn how to <a href="/sell-my-fender-guitar/">sell your vintage Fender to Joe</a> or start with a free appraisal.</p><a class="bjag-button" href="/free-appraisal/">Get a Free Guitar Appraisal</a></div></section>
+</article>
+
+<style>
+  .bjag { color:var(--color-brand-brown-warm); background:white; font:18px/1.8 var(--font-sans); overflow:hidden; }
+  .bjag :global(img) { display:block; width:100%; height:auto; }
+  .bjag figure { margin:0; }
+  .bjag-hero { position:relative; display:grid; grid-template-columns:46% 54%; background:var(--color-brand-bone); }
+  .bjag-hero::before { content:""; position:absolute; inset:0 0 auto; height:120px; background:var(--color-brand-brown); z-index:1; pointer-events:none; }
+  .bjag-hero-copy { padding:304px 4vw 70px; min-width:0; }
+  .bjag-eyebrow { color:var(--color-brand-rust-dark); font:600 13px/1.5 var(--font-display); letter-spacing:.13em; text-transform:uppercase; }
+  .bjag-eyebrow a { text-decoration:none; }
+  .bjag h1 { max-width:680px; margin:26px 0 28px; color:var(--color-brand-brown); font:600 clamp(3.8rem,7vw,6.3rem)/.94 var(--font-display); letter-spacing:-.025em; text-transform:uppercase; overflow-wrap:normal; }
+  .bjag h1 span { display:block; color:var(--color-brand-rust-dark); }
+  .bjag-dek { max-width:540px; font-size:1.34rem; line-height:1.5; }
+  .bjag-hero-photo { min-height:760px; position:relative; background:var(--color-brand-brown); }
+  .bjag-hero-photo :global(img) { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 32%; }
+  .bjag-hero-photo::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(0,0,0,.65),transparent 40%); pointer-events:none; }
+  .bjag-meta { display:flex; flex-wrap:wrap; gap:12px 28px; margin-top:34px; color:var(--color-brand-brown-muted); font:600 13px/1.5 var(--font-display); text-transform:uppercase; letter-spacing:.09em; }
+  .bjag-button { display:inline-block; margin-top:30px; padding:15px 27px; color:white; background:var(--color-brand-rust-dark); text-decoration:none; font:600 14px/1.5 var(--font-display); letter-spacing:.1em; text-transform:uppercase; }
+  .bjag-button:hover { background:var(--color-brand-rust-bright); }
+  .bjag a:focus-visible { outline:3px solid var(--color-brand-rust-bright); outline-offset:5px; }
+  .bjag-article { width:min(760px,88%); margin:90px auto; }
+  .bjag-article p { margin:0 0 1.55em; }
+  .bjag-article p a,.bjag-closing p a { color:var(--color-brand-rust-dark); text-decoration:underline; text-underline-offset:3px; font-weight:600; }
+  .bjag-lead { font-size:1.5rem; line-height:1.58; }
+  .bjag h2 { margin:82px 0 24px; color:var(--color-brand-brown); font:600 clamp(2.6rem,5vw,4.8rem)/1.04 var(--font-display); letter-spacing:-.025em; text-transform:uppercase; }
+  .bjag-dropcap::first-letter { float:left; color:var(--color-brand-rust-dark); font:600 5.4rem/.78 var(--font-display); padding:12px 12px 0 0; }
+  .bjag-facts { margin:55px 0 70px; display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--color-brand-brown-tan); border-left:1px solid var(--color-brand-brown-tan); }
+  .bjag-facts div { padding:18px 20px; border-right:1px solid var(--color-brand-brown-tan); border-bottom:1px solid var(--color-brand-brown-tan); background:var(--color-brand-bone); }
+  .bjag-facts dt { color:var(--color-brand-rust-dark); font:600 12px/1.4 var(--font-display); letter-spacing:.1em; text-transform:uppercase; }
+  .bjag-facts dd { margin:6px 0 0; font-size:16px; line-height:1.35; }
+  .bjag .bjag-wide { width:min(1180px,92vw); max-width:none; margin:64px 0 64px 50%; transform:translateX(-50%); }
+  .bjag figcaption { margin:13px 0 0; color:var(--color-brand-brown-muted); font:italic 15px/1.6 Georgia,serif; }
+  .bjag-wide figcaption { width:min(760px,88vw); margin:13px auto 0; }
+  .bjag .bjag-pair { width:min(1180px,88vw); margin:68px 0 68px 50%; transform:translateX(-50%); gap:16px; }
+  .bjag .jvg-imgwc :global(img) { border-radius:0; box-shadow:none; height:auto; object-fit:contain; }
+  .bjag blockquote { margin:72px -60px; padding:16px 0 16px 34px; border-left:5px solid var(--color-brand-rust); color:var(--color-brand-brown); font-size:1.85rem; line-height:1.45; font-style:italic; }
+  .bjag-closing { padding:100px 0 110px; background:var(--color-brand-brown-tan); text-align:center; }
+  .bjag-closing > div { width:min(780px,88%); margin:auto; }
+  .bjag-closing h2 { margin:20px 0 22px; }
+  @media(max-width:1023px) {
+    .bjag-hero { grid-template-columns:1fr; }
+    .bjag-hero::before { display:none; }
+    .bjag-hero-copy { order:2; padding:64px 7vw 70px; }
+    .bjag-hero-photo { order:1; min-height:620px; }
+    .bjag h1 { font-size:clamp(3.4rem,10vw,6rem); }
+    .bjag blockquote { margin:60px 0; }
+  }
+  @media(max-width:600px) {
+    .bjag-hero-photo { min-height:540px; }
+    .bjag .bjag-pair { grid-template-columns:1fr; }
+    .bjag h1 { font-size:clamp(2.6rem,10vw,3.8rem); }
+    .bjag h2 { font-size:2.6rem; }
+    .bjag-article { margin-top:60px; }
+    .bjag-facts { grid-template-columns:1fr 1fr; }
+  }
+  @media(max-width:420px) { .bjag-facts { grid-template-columns:1fr; } }
+</style>
