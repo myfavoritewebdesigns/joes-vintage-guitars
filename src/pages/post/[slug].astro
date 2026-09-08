@@ -16,6 +16,7 @@ import OneFamilyES355Story from "../../components/OneFamilyES355Story.astro";
 import SylviaES335Story from "../../components/SylviaES335Story.astro";
 import OneOwnerES345Story from "../../components/OneOwnerES345Story.astro";
 import JoshuaTelecasterStory from "../../components/JoshuaTelecasterStory.astro";
+import OneOwner1960TelecasterStory from "../../components/OneOwner1960TelecasterStory.astro";
 import LesPaulFamilyGuide from "../../components/LesPaulFamilyGuide.astro";
 import GibsonSGFamilyGuide from "../../components/GibsonSGFamilyGuide.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
@@ -46,6 +47,7 @@ const isOneFamilyES355Story = entry.id === "one-family-1959-gibson-es-355";
 const isSylviaES335Story = entry.id === "sylvias-1959-gibson-es-335";
 const isOneOwnerES345Story = entry.id === "one-owner-1966-gibson-es-345";
 const isJoshuaTelecasterStory = entry.id === "joshuas-1952-fender-telecaster";
+const isOneOwner1960TelecasterStory = entry.id === "one-owner-1960-fender-telecaster";
 const isFirebirdGuide = entry.id === "gibson-firebird-history-authentication-value";
 const isGibsonJ200Guide = entry.id === "gibson-j200-model-history-authentication-guide";
 const isEs225Guide = entry.id === "gibson-es-225-guide";
@@ -390,7 +392,9 @@ const articleSchema = {
     </>
   )}
 
-  {isJoshuaTelecasterStory ? (
+  {isOneOwner1960TelecasterStory ? (
+    <OneOwner1960TelecasterStory />
+  ) : isJoshuaTelecasterStory ? (
     <JoshuaTelecasterStory />
   ) : isGibsonSGFamilyGuide ? (
     <GibsonSGFamilyGuide />
