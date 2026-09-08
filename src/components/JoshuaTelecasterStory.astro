@@ -1,0 +1,148 @@
+---
+import LicensedImage from './primitives/LicensedImage.astro';
+import joshua from '../assets/images/joshua-with-1952-fender-telecaster.jpeg';
+import guitarAmps from '../assets/blog/joshuas-1952-fender-telecaster/1952-telecaster-with-tweed-amplifiers.jpg';
+import front from '../assets/blog/joshuas-1952-fender-telecaster/1952-telecaster-blonde-front.jpg';
+import back from '../assets/blog/joshuas-1952-fender-telecaster/1952-telecaster-worn-back.jpg';
+import serial from '../assets/blog/joshuas-1952-fender-telecaster/1952-telecaster-bridge-serial-4013.jpg';
+import neckDate from '../assets/blog/joshuas-1952-fender-telecaster/1952-telecaster-neck-heel-date.jpg';
+import wiring from '../assets/blog/joshuas-1952-fender-telecaster/1952-telecaster-capacitor-and-wiring.jpg';
+import pickup from '../assets/blog/joshuas-1952-fender-telecaster/1952-telecaster-flat-pole-pickup.jpg';
+import saddles from '../assets/blog/joshuas-1952-fender-telecaster/1952-telecaster-brass-saddles.jpg';
+
+const details = [
+  [serial, 'Bridge plate stamped with serial number 4013'],
+  [neckDate, 'Penciled date on the maple neck heel'],
+  [wiring, 'Capacitor, potentiometers and cloth-covered wiring beneath the control plate'],
+  [pickup, 'Flat-pole bridge pickup on the 1952 Telecaster'],
+  [saddles, 'Brass bridge saddles and adjustment screws'],
+] as const;
+---
+
+<article class="jtele">
+  <section class="jtele-hero">
+    <div class="jtele-hero-copy">
+      <nav class="jtele-eyebrow" aria-label="Article category"><a href="/category/museum-original-owners/">JVG Museum · Original Owners Blog</a> · 1952 Fender Telecaster</nav>
+      <h1>One Family’s <span>1952 Fender</span> Telecaster</h1>
+      <p class="jtele-dek">Joshua’s uncle was the original owner. After decades in one family, Joshua let the guitar go for two reasons: a house of his own, and the chance to see this Telecaster played again.</p>
+      <div class="jtele-meta"><span>Washington State</span><span>1952 Fender Telecaster</span></div>
+      <a class="jtele-button" href="#story">Read the Story</a>
+    </div>
+    <figure class="jtele-hero-photo">
+      <LicensedImage src={joshua} alt="Joshua holding his uncle’s 1952 Fender Telecaster in Washington" width={Math.min(joshua.width, 1600)} loading="eager" fetchpriority="high" />
+    </figure>
+  </section>
+
+  <div class="jtele-article" id="story">
+    <p class="jtele-lead jtele-dropcap">We get a lot of guitars through the shop. Every now and then, one arrives with its history still attached to it. This 1952 Fender Telecaster is one of those guitars, and one more chapter in our collection of <a href="/category/museum-original-owners/">original-owner guitar stories</a>.</p>
+    <p>It came to us from Joshua in Washington. The guitar had belonged to his uncle, its original owner, and stayed in the family for decades. Joshua did not want to see it sit untouched. He wanted it to be played, and the money from the sale would go toward a down payment on a house.</p>
+    <p>We picked up the guitar in Washington, where Joshua passed his uncle’s Telecaster on to us.</p>
+
+    <figure class="jtele-wide">
+      <LicensedImage src={guitarAmps} alt="Blonde 1952 Fender Telecaster displayed in front of tweed Fender amplifiers" width={2400} loading="lazy" decoding="async" />
+      <figcaption>The 1952 Fender Telecaster photographed in the shop with tweed Fender amplifiers.</figcaption>
+    </figure>
+
+    <h2>An Early Telecaster With a Life Behind It</h2>
+    <p>By 1952, the Telecaster had taken the form that would make it one of the most enduring electric guitars ever built: a blonde-finished slab body, one-piece maple neck, black pickguard, two single-coil pickups and a three-saddle bridge. Our <a href="/fender-telecaster-dating-guide/">year-by-year Telecaster dating guide</a> traces how those features changed across the model’s history.</p>
+    <p>This guitar shows its years of use. Finish checking runs across the blonde body, the edges are worn, and much of the finish has worn away from the back. The hardware and pickguard carry marks from years of handling.</p>
+
+    <div class="jtele-pair jvg-img2">
+      <figure class="jvg-imgwc"><LicensedImage src={front} alt="Front of the blonde 1952 Fender Telecaster with its black pickguard and brass saddles" width={1800} loading="lazy" decoding="async" /><figcaption>Blonde finish, black guard and the marks of a guitar that was played.</figcaption></figure>
+      <figure class="jvg-imgwc"><LicensedImage src={back} alt="Back of the Telecaster showing substantial finish wear and six string ferrules" width={1800} loading="lazy" decoding="async" /><figcaption>The back shows decades of playing wear.</figcaption></figure>
+    </div>
+
+    <blockquote>One piece of family history would help make room for the next.</blockquote>
+
+    <h2>The Details That Date an Early Fender</h2>
+    <p>An early Telecaster is authenticated by the way its details agree with one another. No single screw, stamp or pencil mark tells the whole story. The neck and body dates, bridge serial number, pickups, controls and hardware all have to make sense together. The full <a href="/post/1952-fender-telecaster-authentication-guide/">1952 Fender Telecaster authentication guide</a> explains each of those checkpoints in detail.</p>
+    <p>The photographs below show this guitar’s neck-heel date, bridge plate stamped 4013, capacitor and cloth-covered wiring, flat-pole bridge pickup, and brass saddles. For instruments from other Fender eras, the <a href="/fender-guitars-serial-number-guide/">Fender serial number and dating guide</a> is a useful place to begin.</p>
+
+    <section class="jtele-details">
+      <div class="jtele-details-inner">
+        <div><p class="jtele-eyebrow">Under the Guard</p><h2>The Evidence Is in the Details</h2><p>A closer look at the factory markings, bridge hardware and electronics.</p></div>
+        <div class="jtele-detail-grid jvg-img2">
+          {details.map(([src, alt]) => <figure class="jvg-imgwc"><LicensedImage src={src} alt={alt} width={1600} loading="lazy" decoding="async" /><figcaption>{alt}</figcaption></figure>)}
+        </div>
+      </div>
+    </section>
+
+    <h2>Why Joshua Let It Go</h2>
+    <p>Selling a family guitar is rarely just a financial decision. Joshua knew where the Telecaster had come from. His uncle had bought it new, and it had stayed in the family for decades.</p>
+    <p>He wanted his uncle’s guitar to end up with someone who would play it. At the same time, the sale could help him put money down on a house. One piece of family history would help make room for the next.</p>
+    <p>That is the kind of reason I respect. Guitars like this were made to make music. Careful preservation matters, but so does keeping them in the hands of a player.</p>
+
+    <h2>The Next Chapter</h2>
+    <p>Joshua’s story gives us a direct family connection to the original owner of this Telecaster. Alongside the photographs of the guitar, it records how the instrument came to us and why Joshua chose to sell it.</p>
+    <p>That connection between an instrument and the people who kept it is also at the heart of stories like <a href="/post/sylvias-1959-gibson-es-335/">Sylvia’s one-owner 1959 Gibson ES-335</a>.</p>
+    <p><strong>This 1952 Telecaster has already lived one long life. Now it gets to begin another.</strong></p>
+  </div>
+
+  <section class="jtele-closing"><div><p class="jtele-eyebrow">Every Guitar Has a Story</p><h2>Does Your Family Have a Vintage Fender?</h2><p>If you have an old Telecaster, Stratocaster or another vintage guitar you are thinking about selling, learn how to <a href="/sell-my-fender-guitar/">sell your vintage Fender to Joe</a> or start with a free appraisal.</p><a class="jtele-button" href="/free-appraisal/">Get a Free Guitar Appraisal</a></div></section>
+</article>
+
+<style>
+  /* Joe approved the split preview and requested the production site chrome.
+     Keep these rules scoped; leave the shared Layout, Header and Footer intact.
+     Desktop copy clears the 264px hanging logo plus 40px for its shadow. */
+  .jtele { color:var(--color-brand-brown-warm); background:white; font:18px/1.8 var(--font-sans); }
+  .jtele :global(img) { display:block; width:100%; height:auto; }
+  .jtele figure { margin:0; }
+  .jtele-hero { position:relative; display:grid; grid-template-columns:46% 54%; background:var(--color-brand-bone); }
+  /* The production navigation is wider than the preview mockup. Its full
+     two-row width needs a dark backdrop even where it crosses the cream panel. */
+  .jtele-hero::before { content:""; position:absolute; inset:0 0 auto; height:120px; background:var(--color-brand-brown); z-index:1; pointer-events:none; }
+  .jtele-hero-copy { padding:304px 4vw 70px; min-width:0; }
+  .jtele-eyebrow { color:var(--color-brand-rust-dark); font:600 13px/1.5 var(--font-display); letter-spacing:.13em; text-transform:uppercase; }
+  .jtele-eyebrow a { text-decoration:none; }
+  .jtele h1 { max-width:610px; margin:26px 0 28px; color:var(--color-brand-brown); font:600 clamp(3.8rem,7vw,6.3rem)/.94 var(--font-display); letter-spacing:-.025em; text-transform:uppercase; overflow-wrap:normal; }
+  .jtele h1 span { display:block; color:var(--color-brand-rust-dark); }
+  .jtele-dek { max-width:520px; font-size:1.34rem; line-height:1.5; }
+  .jtele-hero-photo { min-height:712px; position:relative; background:var(--color-brand-brown); }
+  .jtele-hero-photo :global(img) { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center; }
+  .jtele-hero-photo::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(0,0,0,.65),transparent 40%); pointer-events:none; }
+  .jtele-meta { display:flex; flex-wrap:wrap; gap:12px 28px; margin-top:34px; color:var(--color-brand-brown-muted); font:600 13px/1.5 var(--font-display); text-transform:uppercase; letter-spacing:.09em; }
+  .jtele-button { display:inline-block; margin-top:30px; padding:15px 27px; color:white; background:var(--color-brand-rust-dark); text-decoration:none; font:600 14px/1.5 var(--font-display); letter-spacing:.1em; text-transform:uppercase; }
+  .jtele-button:hover { background:var(--color-brand-rust-bright); }
+  .jtele a:focus-visible { outline:3px solid var(--color-brand-rust-bright); outline-offset:5px; }
+  .jtele-article { width:min(760px,88%); margin:90px auto; }
+  .jtele-article p { margin:0 0 1.55em; }
+  .jtele-article p a,.jtele-closing p a { color:var(--color-brand-rust-dark); text-decoration:underline; text-underline-offset:3px; font-weight:600; }
+  .jtele-article p a:hover { color:var(--color-brand-rust-bright); }
+  .jtele-lead { font-size:1.5rem; line-height:1.58; }
+  .jtele h2 { margin:82px 0 24px; color:var(--color-brand-brown); font:600 clamp(2.6rem,5vw,4.8rem)/1.04 var(--font-display); letter-spacing:-.025em; text-transform:uppercase; }
+  .jtele-dropcap::first-letter { float:left; color:var(--color-brand-rust-dark); font:600 5.4rem/.78 var(--font-display); padding:12px 12px 0 0; }
+  .jtele .jtele-wide { width:min(1440px,96vw); max-width:none; margin:64px 0 64px 50%; transform:translateX(-50%); }
+  .jtele figcaption { margin:13px 0 0; color:var(--color-brand-brown-muted); font:italic 15px/1.6 Georgia,serif; }
+  .jtele-wide figcaption { width:min(760px,88vw); margin:13px auto 0; }
+  .jtele .jtele-pair { width:min(1280px,88vw); margin:68px 0 68px 50%; transform:translateX(-50%); gap:16px; }
+  .jtele .jvg-imgwc :global(img) { border-radius:0; box-shadow:none; height:auto; object-fit:contain; }
+  .jtele blockquote { margin:72px -60px; padding:16px 0 16px 34px; border-left:5px solid var(--color-brand-rust); color:var(--color-brand-brown); font-size:1.85rem; line-height:1.45; font-style:italic; }
+  .jtele-details { width:min(1440px,96vw); margin:72px 0 72px 50%; transform:translateX(-50%); background:var(--color-brand-charcoal); color:white; padding:100px max(5vw,28px); }
+  .jtele-details-inner { max-width:1180px; margin:auto; display:grid; grid-template-columns:.8fr 1.2fr; gap:60px; align-items:start; }
+  .jtele-details h2 { margin:0 0 24px; color:white; }
+  .jtele-details p,.jtele-details figcaption { color:var(--color-brand-cream); }
+  .jtele-details .jtele-eyebrow { color:var(--color-brand-brown-tan); }
+  .jtele .jtele-detail-grid { margin:0; gap:28px 14px; }
+  .jtele-closing { padding:100px 0 110px; background:var(--color-brand-brown-tan); text-align:center; }
+  .jtele-closing > div { width:min(780px,88%); margin:auto; }
+  .jtele-closing h2 { margin:20px 0 22px; }
+  /* At tablet/mobile sizes the real site header switches to its compact menu. */
+  @media(max-width:1023px) {
+    .jtele-hero { grid-template-columns:1fr; }
+    .jtele-hero::before { display:none; }
+    .jtele-hero-copy { order:2; padding:64px 7vw 70px; }
+    .jtele-hero-photo { order:1; min-height:560px; }
+    .jtele h1 { font-size:clamp(3.4rem,10vw,6rem); }
+    .jtele-details-inner { grid-template-columns:1fr; gap:32px; }
+    .jtele blockquote { margin:60px 0; }
+  }
+  @media(max-width:600px) {
+    .jtele-hero-photo { min-height:500px; }
+    .jtele .jtele-pair,.jtele .jtele-detail-grid { grid-template-columns:1fr; }
+    .jtele h1 { font-size:clamp(2.6rem,10vw,3.8rem); }
+    .jtele h2 { font-size:2.6rem; }
+    .jtele-article { margin-top:60px; }
+    .jtele-details { padding:64px 6vw; }
+  }
+</style>
