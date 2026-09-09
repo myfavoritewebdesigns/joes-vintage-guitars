@@ -202,6 +202,10 @@ let pageMarkup = rawPageMarkup
   .replace(/<\/main>\s*$/, "")
   .replace(/<script type="application\/ld\+json">.*?<\/script>/, "")
   .replace(
+    /<header class="site-header">.*?<\/header>/,
+    '<div class="site-header" aria-hidden="true"><div class="header-collage"></div></div>',
+  )
+  .replace(
     '<form class="appraisal-form">',
     '<form class="appraisal-form" data-jvg-contact-form data-form-id="sell-fender-top">',
   )
@@ -245,10 +249,21 @@ const pageCss = rawPageCss.replace(/^@import 'tailwindcss';\s*/, "") + `
     --font-oswald: "Oswald", "Arial Narrow", sans-serif;
   }
 
-  body.smf-redesign-page > header.absolute,
   body.smf-redesign-page > footer.jvgft,
   body.smf-redesign-page > aside[aria-label="Quick contact"] {
     display: none !important;
+  }
+
+  body.smf-redesign-page > header.absolute {
+    font-family: var(--font-sans);
+  }
+
+  body.smf-redesign-page > header.absolute details[data-dropdown] > ul a {
+    color: var(--color-brand-charcoal);
+  }
+
+  body.smf-redesign-page > header.absolute details[data-dropdown] > ul a:hover {
+    color: var(--color-brand-rust-bright);
   }
 
   body.smf-redesign-page > main#main-content {
