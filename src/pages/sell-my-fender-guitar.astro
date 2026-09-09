@@ -1,1281 +1,292 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import LicensedImage from "../components/primitives/LicensedImage.astro";
-import { assetSrc, resolveImage, ogCardSize } from "../lib/images";
-import Button from "../components/primitives/Button.astro";
-import ContactSection from "../components/ContactSection.astro";
-import LeadForm from "../components/LeadForm.astro";
-import InstagramEmbeds from "../components/InstagramEmbeds.astro";
-import FAQ from "../components/FAQ.astro";
-import { SITE_URL, contact, hrefs } from "../config/site";
-import testimonialsRaw from "../../reference/testimonials.json";
+import { SITE_URL } from "../config/site";
+import { buildImageGraph } from "../lib/imageLicense";
+import rawPageMarkup from "../page-data/sell-fender-redesign.html?raw";
+import rawPageCss from "../styles/pages/sell-fender-redesign.css?raw";
 
-// Reviews — 6 cards, each linking directly to its review on Joe's Google
-// Business Profile. Stars render uniformly (all 5-star), so no per-review
-// rating is stored.
-//
-// v12 (2026-06-17): the page leads with general 5-star SELLING reviews. A
-// brand-matching pass tried the Fender-naming reviews, but the only reviews
-// that name Fender are about setup and repair work rather than selling a
-// Fender, so per Joe's call we keep the selling-focused set. Bodies are quoted
-// verbatim; all links carry the business CID 0x69728d089b8a764.
-const reviews: { name: string; link: string; body: string }[] = testimonialsRaw;
+const pageTitle = "Sell My Fender Guitar | Joe's Vintage Guitars";
+const pageDescription =
+  "Sell your vintage Fender guitar or bass directly to Joe Dampt for a free appraisal, a no-obligation cash offer and prepaid insured shipping.";
 
-// Instagram reels — exact post permalinks from live's sell-my-fender page.
-// The deferred <InstagramEmbeds /> component lazy-loads IG's embed script on
-// scroll and renders each .instagram-media blockquote as a styled iframe.
-//
-// v10 (2026-05-26): added per user request. Earlier decision-log row
-// ("IG embeds NOT replicated") superseded — user explicitly wants them now.
-const igPosts = [
-  {
-    permalink: "https://www.instagram.com/reel/DWCSaGtD4qS/",
-    headline: "1966 Fender Stratocaster",
-    subtitle: "Sacred Heart of Mary, not your typical Strat",
-    body: "This ’66 Stratocaster is one of a kind. A Sacred Heart of Mary painting on the body sets it apart from any other Strat. Watch it play and see the details for yourself.",
-  },
-  {
-    permalink: "https://www.instagram.com/reel/DUO_ZAqkq8F/",
-    headline: "1967 Fender Coronado in Antigua Finish",
-    subtitle: "Guitar pick of the week, and it sounds as good as it looks",
-    body: "Light, comfortable, and a great-sounding player. This ’67 Coronado in Antigua finish turns heads before you play a note.",
-  },
-  {
-    permalink: "https://www.instagram.com/reel/DT3vdFFkps8/",
-    headline: "Early 1960s Fender Blonde Cabinet",
-    subtitle: "Calling all Fender nerds: has anyone seen this before?",
-    body: "This early ’60s 3×10 blonde cabinet has all the signs of Fender construction, but it’s shorter and wider than a Dual Showman cab. We’re still digging into it. If you know what it is, we’d love to hear from you.",
-  },
-];
+const faqEntries = [
+  [
+    "Should I clean or repair my Fender before sending photos?",
+    "No. Leave it exactly as you found it. Cleaning, polishing, swapping parts or opening the guitar can remove clues I use to judge the finish and originality.",
+  ],
+  [
+    "How can I tell how old my Fender is?",
+    "The serial number is a starting point, but neck dates, body dates, pot codes, pickup markings, hardware and construction details often matter just as much. Send photos and I will work through those clues.",
+  ],
+  [
+    "Do you buy modified, refinished or player-grade Fenders?",
+    "Yes. A refinish, changed pickups, a refret or natural stage wear affects value, but it does not rule out a sale. Keep any original parts you still have with the guitar.",
+  ],
+  [
+    "Does the original case increase the value?",
+    "It can. Original tweed, brown, white or black tolex cases, tags, receipts, bridge covers and replaced parts should all stay together with the guitar.",
+  ],
+  [
+    "Can you appraise an inherited Fender from photographs?",
+    "Usually, yes. Clear photos of the front, back, headstock, neck plate or bridge serial number, controls and case are enough to begin. You do not need to know the model or year.",
+  ],
+  [
+    "How does shipping work if I decide to sell?",
+    "We agree on the offer, payment and shipping details before the guitar moves. I arrange prepaid professional packing, fully insured FedEx shipping and tracking at no cost to you.",
+  ],
+  [
+    "Do you buy Fender basses and amplifiers too?",
+    "Yes. I buy vintage Precision and Jazz Basses as well as collectible Fender tube amplifiers. Send the cabinet, chassis, transformer and speaker information you have.",
+  ],
+  [
+    "Do I have to accept the offer?",
+    "No. Every appraisal and offer is free and carries no obligation. If the guitar is one I can buy, I will explain what I see and what I can pay.",
+  ],
+] as const;
 
-// Live image base — kept hot-linked for first-pass parity. Swap to /images/sell-fender/ later.
-const smfImg = (file: string) => assetSrc("images/sell-fender/" + file);
-// Metadata twin of smfImg for <Image> conversions (SEO v2 responsive images).
-// Non-null assertion is safe only for files verified to exist under
-// src/assets/images/sell-fender/ — the page's SVG icons are public/-only
-// and stay on smfImg + raw <img>.
-const smfImgMeta = (file: string) => resolveImage("images/sell-fender/" + file)!;
-
-// 2026-05 audit fix v5: REVERTING the v3 "no photo" decision.
-// Live's hero is actually a B&W photo of vintage guitar collectors with a
-// dark vignette overlay (NOT a rust gradient — that was the wrong conclusion
-// from the v2 audit). Restoring the photo bg using live's exact image URL.
-// Verified via `getComputedStyle(.tp-bnr).backgroundImage` on the live page.
-const HERO_BG = assetSrc("images/sell-hero-background.jpg");
-
-// FAQs sourced from live JSON-LD (reference/sell-my-fender-jsonld.json, FAQPage entity).
-// IDs match live's wpcf7-generated `toggle_*` IDs so anchor links from external pages still work.
-const faqs = [
+const licensedImages = await buildImageGraph([
   {
-    id: "toggle_e5a80b5c1eab84219",
-    q: "What Factors Are Most Crucial in Determining The Value of a Vintage Fender Guitar?",
-    a: "Value comes down to condition, rarity, originality, and provenance. I go over each of those carefully so the appraisal reflects what your guitar is actually worth.",
+    renderedSrc: "/images/sell-fender-redesign/fender-hero.webp",
+    alt: "1956 Fender Stratocaster in its red-lined case",
   },
   {
-    id: "toggle_098b6f29162bd1430",
-    q: "What Documentation is Essential for Appraising a Vintage Fender Guitar?",
-    a: "Original purchase receipts, repair records, and anything that documents the guitar’s history all help. The more paperwork you have, the easier it is to authenticate and appraise your Fender accurately.",
+    renderedSrc: "/images/sell-fender-redesign/1962-fender-jazzmaster-fedex-counter.webp",
+    alt: "A 1962 Fender Jazzmaster Joe purchased resting in its open case on a FedEx counter",
   },
   {
-    id: "toggle_157b1d9a99dd3b7ee",
-    q: "Are There Specific Models Of Vintage Fender Guitars That Are Particularly Sought After?",
-    a: "Yes. Stratocasters and Telecasters from the ’50s and ’60s are the most sought after. I collect, buy, and appraise these models, so I know what separates a good one from a great one.",
+    renderedSrc: "/images/sell-fender-redesign/joshua-with-1952-fender-telecaster.jpeg",
+    alt: "Joshua holding his uncle's 1952 Fender Telecaster in Washington",
   },
   {
-    id: "toggle_e5bcf276f553f9570",
-    q: "Is There a Difference in Value Between Vintage Fender Stratocasters and Telecasters?",
-    a: "Yes. Value varies with age, condition, and rarity, and it can swing quite a bit between two guitars that look alike. I appraise each one on its own so the price reflects those differences.",
+    renderedSrc: "/images/sell-fender-redesign/one-owner-1965-stratocaster.webp",
+    alt: "The original owner holding his 1965 Olympic White Fender Stratocaster with its factory tortoise pickguard",
   },
   {
-    id: "toggle_a9d76fb4ce52b7088",
-    q: "What Should I Look for in an Appraiser When Getting My Vintage Fender Guitar Valued?",
-    a: "Look for someone who really knows vintage Fenders, has a solid reputation, and can point to references. I’ve spent years doing this and stand behind every valuation I give.",
-  },
-];
-
-// 7 model cards — content + photos from live's "I'm Currently Paying Top Dollar" grid
-const models = [
-  {
-    img: smfImgMeta("1956-fender-stratocaster-sunburst-800x533.jpg"),
-    alt: "Vintage 1956 sunburst Fender Stratocaster electric guitar",
-    title: "Fender Stratocaster",
-    body: "Buying 1950s and Pre-CBS 1960s Stratocasters. I pay a premium for all-original examples, Custom Color finishes, and early 'spaghetti' logo models.",
+    renderedSrc: "/images/sell-fender-redesign/one-owner-1960-telecaster.webp",
+    alt: "The original owner holding his worn 1960 Fender Telecaster in Fountain Hills, Arizona",
   },
   {
-    img: smfImgMeta("1960-fender-telecaster-blonde-800x533.jpg"),
-    alt: "Vintage 1960 blonde Fender Telecaster electric guitar",
-    title: "Fender Telecaster",
-    body: "Buying Fullerton-era Telecasters, Broadcasters, and No-casters. I know the Blackguard '50s models and early '60s slab-board guitars inside and out.",
+    renderedSrc: "/images/sell-fender-redesign/bill-one-owner-1966-jaguar.webp",
+    alt: "Bill holding the Lake Placid Blue 1966 Fender Jaguar his father bought for him when he was young",
   },
   {
-    img: smfImgMeta("1965-fender-jazzmaster-charcoal-frost-800x533.jpg"),
+    renderedSrc: "/images/sell-fender-redesign/jim-with-1972-fender-jazz-bass-scaled.jpeg",
+    alt: "Jim with the Fender Jazz Bass he owned for more than forty years",
+  },
+  {
+    renderedSrc: "/images/sell-fender-redesign/fender-stratocaster-dakota-red-768x1024.jpg",
+    alt: "Mary's 1963 Fender Stratocaster in Dakota Red with gold hardware",
+  },
+  {
+    renderedSrc: "/images/sell-fender-redesign/1956-fender-stratocaster-sunburst-800x533.jpg",
+    alt: "Vintage 1956 sunburst Fender Stratocaster",
+  },
+  {
+    renderedSrc: "/images/sell-fender-redesign/1960-fender-telecaster-blonde-800x533.jpg",
+    alt: "Vintage 1960 blonde Fender Telecaster",
+  },
+  {
+    renderedSrc: "/images/sell-fender-redesign/1965-fender-jazzmaster-charcoal-frost-800x533.jpg",
     alt: "Vintage 1965 charcoal frost Fender Jazzmaster",
-    title: "Fender Jazzmaster",
-    body: "Buying Pre-CBS Jazzmasters. I pay extra for clay-dot inlays, original anodized guards, and clean Custom Color finishes.",
   },
   {
-    img: smfImgMeta("1952-fender-precision-bass-800x533.jpg"),
+    renderedSrc: "/images/sell-fender-redesign/1952-fender-precision-bass-800x533.jpg",
     alt: "Vintage 1952 Fender Precision Bass",
-    title: "Fender Precision Bass",
-    body: "Buying vintage P-Basses, especially early 'slab-body' '50s designs and early '60s split-coil models with original hardware.",
   },
   {
-    img: smfImgMeta("1964-fender-jaguar-sunburst-800x533.jpg"),
+    renderedSrc: "/images/sell-fender-redesign/1964-fender-jaguar-sunburst-800x533.jpg",
     alt: "Vintage 1964 sunburst Fender Jaguar",
-    title: "Fender Jaguar",
-    body: "Looking for early 1960s Jaguars with original mutes and Pre-CBS specs. I pay cash for these chrome-heavy offsets.",
   },
   {
-    img: smfImgMeta("1972-fender-mustang-competition-blue-800x533.jpg"),
-    alt: "1972 Fender Mustang Competition in blue with green stripe",
-    title: "Fender Mustang",
-    body: "Buying 1960s and '70s Mustangs. I pay extra for original 'Competition' finishes and clean short-scale Fullerton models.",
+    renderedSrc: "/images/sell-fender-redesign/1972-fender-mustang-competition-blue-800x533.jpg",
+    alt: "1972 Fender Mustang Competition in blue",
   },
   {
-    img: smfImgMeta("1972-fender-jazz-bass-sunburst-800x533.jpg"),
+    renderedSrc: "/images/sell-fender-redesign/1972-fender-jazz-bass-sunburst-800x533.jpg",
     alt: "1972 sunburst Fender Jazz Bass",
-    title: "Fender Jazz Bass",
-    body: "Buying vintage J-Basses, especially early '60s 'stack-knob' versions and '70s models with original block inlays and binding.",
   },
-];
+]);
 
-// Serial-number dropdown options — direct port from live wpcf7 form
-const serialOptions = [
-  "I'm not sure",
-  "Four or five digits on BRIDGE plate (1950 - 1954)",
-  "Four or five digits on the NECK plate (1954 - 1963)",
-  "Serial numbers that start with the letter L on the NECK plate (1963-1965)",
-  "6 digit NECK plate serial numbers with large F logo underneath (1965 -1976)",
-  "Serial number on the front or back of the headstock (1977 - present)",
-  "Serial number on the NECK plate that starts with a V (1982 and up reissue models)",
-  "Import guitars made in Japan and Mexico",
-];
-
-// Page-specific JSON-LD: FAQPage + Article + BreadcrumbList
 const structuredData = [
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: faqs.map((f) => ({
+    mainEntity: faqEntries.map(([question, answer]) => ({
       "@type": "Question",
-      name: f.q,
-      acceptedAnswer: { "@type": "Answer", text: f.a.replace(/’/g, "'").replace(/<[^>]+>/g, "") },
+      name: question,
+      acceptedAnswer: { "@type": "Answer", text: answer },
     })),
   },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
-      { "@type": "ListItem", position: 2, name: "Sell My Fender Guitar", item: "https://www.joesvintageguitarsaz.com/sell-my-fender-guitar/" },
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Sell My Fender Guitar",
+        item: `${SITE_URL}/sell-my-fender-guitar/`,
+      },
     ],
   },
   {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Sell Your Vintage Fender Guitar",
-    author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
-    publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
-    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-my-fender-guitar/",
+    author: { "@id": `${SITE_URL}/about-me/#person` },
+    publisher: { "@id": `${SITE_URL}/` },
+    mainEntityOfPage: `${SITE_URL}/sell-my-fender-guitar/`,
+    image: `${SITE_URL}/images/sell-fender-redesign/fender-hero.webp`,
   },
-  // VideoObject for the Meet Joe embed. uploadDate and duration were looked up
-  // from YouTube on 2026-06-11 (89 seconds), never fabricated.
   {
     "@context": "https://schema.org",
     "@type": "VideoObject",
     name: "Meet Vintage Guitar Buyer Joe Dampt",
     description:
       "Joe Dampt introduces himself and explains how selling your vintage Fender guitar to Joe's Vintage Guitars works.",
-    thumbnailUrl: "https://i.ytimg.com/vi/U3eJgXLs4w8/hqdefault.jpg",
+    thumbnailUrl: `${SITE_URL}/images/sell-fender-redesign/meet-joe-youtube.webp`,
     uploadDate: "2024-06-04T20:04:06-07:00",
     duration: "PT1M29S",
     embedUrl: "https://www.youtube.com/embed/U3eJgXLs4w8",
     contentUrl: "https://www.youtube.com/watch?v=U3eJgXLs4w8",
-    publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
+    publisher: { "@id": `${SITE_URL}/` },
   },
+  ...licensedImages,
 ];
+
+const assetReplacements: Record<string, string> = {
+  "https://www.joesvintageguitarsaz.com/_astro/logo-joe-2.lTrGXLF-_28Y3Wl.webp":
+    "/images/logo-joe-2.png",
+  "https://www.joesvintageguitarsaz.com/_astro/Logo-Footer-1-1-300x300.BujTPpJc_Z1Sc90V.webp":
+    "/images/Logo-Footer-1-1-300x300.png",
+  "/images/fender-hero.webp":
+    "/images/sell-fender-redesign/fender-hero.webp",
+  "/images/1962-fender-jazzmaster-fedex-counter.webp":
+    "/images/sell-fender-redesign/1962-fender-jazzmaster-fedex-counter.webp",
+  "/images/meet-joe-youtube.webp":
+    "/images/sell-fender-redesign/meet-joe-youtube.webp",
+  "https://www.joesvintageguitarsaz.com/images/faq-bg.webp":
+    "/images/faq-bg.webp",
+  "/images/stories/one-owner-1965-stratocaster.webp":
+    "/images/sell-fender-redesign/one-owner-1965-stratocaster.webp",
+  "/images/stories/one-owner-1960-telecaster.webp":
+    "/images/sell-fender-redesign/one-owner-1960-telecaster.webp",
+  "/images/stories/bill-one-owner-1966-jaguar.webp":
+    "/images/sell-fender-redesign/bill-one-owner-1966-jaguar.webp",
+  "https://www.joesvintageguitarsaz.com/_astro/joshua-with-1952-fender-telecaster.uki_tDfX_ZC93Uw.webp":
+    "/images/sell-fender-redesign/joshua-with-1952-fender-telecaster.jpeg",
+  "https://www.joesvintageguitarsaz.com/_astro/jim-with-1972-fender-jazz-bass-scaled.9_8aNxlN_Z1HE95b.webp":
+    "/images/sell-fender-redesign/jim-with-1972-fender-jazz-bass-scaled.jpeg",
+  "https://www.joesvintageguitarsaz.com/_astro/fender-stratocaster-dakota-red-768x1024.C2ld4GN-_ZOiUi2.webp":
+    "/images/sell-fender-redesign/fender-stratocaster-dakota-red-768x1024.jpg",
+  "https://www.joesvintageguitarsaz.com/_astro/1956-fender-stratocaster-sunburst-800x533.mVj3ZAQt_Z1znJhC.webp":
+    "/images/sell-fender-redesign/1956-fender-stratocaster-sunburst-800x533.jpg",
+  "https://www.joesvintageguitarsaz.com/_astro/1960-fender-telecaster-blonde-800x533.CBMJ0I_L_Z2Y5UM.webp":
+    "/images/sell-fender-redesign/1960-fender-telecaster-blonde-800x533.jpg",
+  "https://www.joesvintageguitarsaz.com/_astro/1965-fender-jazzmaster-charcoal-frost-800x533.Dw85I3aH_ZSVVbt.webp":
+    "/images/sell-fender-redesign/1965-fender-jazzmaster-charcoal-frost-800x533.jpg",
+  "https://www.joesvintageguitarsaz.com/_astro/1952-fender-precision-bass-800x533.B9ys3MSL_FoJ1C.webp":
+    "/images/sell-fender-redesign/1952-fender-precision-bass-800x533.jpg",
+  "https://www.joesvintageguitarsaz.com/_astro/1964-fender-jaguar-sunburst-800x533.0GsYHbQ0_Ze26tq.webp":
+    "/images/sell-fender-redesign/1964-fender-jaguar-sunburst-800x533.jpg",
+  "https://www.joesvintageguitarsaz.com/_astro/1972-fender-mustang-competition-blue-800x533.DeXStnA-_1b0hI2.webp":
+    "/images/sell-fender-redesign/1972-fender-mustang-competition-blue-800x533.jpg",
+  "https://www.joesvintageguitarsaz.com/_astro/1972-fender-jazz-bass-sunburst-800x533.DlX_IW15_ASEdl.webp":
+    "/images/sell-fender-redesign/1972-fender-jazz-bass-sunburst-800x533.jpg",
+};
+
+let pageMarkup = rawPageMarkup
+  .replace(/^<link rel="preload"[^>]*\/><link rel="preload"[^>]*\/>/, "")
+  .replace(/^<main>/, "")
+  .replace(/<\/main>\s*$/, "")
+  .replace(/<script type="application\/ld\+json">.*?<\/script>/, "")
+  .replace(
+    '<form class="appraisal-form">',
+    '<form class="appraisal-form" data-jvg-contact-form data-form-id="sell-fender-top">',
+  )
+  .replace(
+    'class="full-field captcha-row"',
+    'class="full-field captcha-row h-captcha-mount"',
+  );
+
+for (const [from, to] of Object.entries(assetReplacements)) {
+  pageMarkup = pageMarkup.split(from).join(to);
+}
+
+pageMarkup = pageMarkup.replace(
+  '<img src="/images/logo-joe-2.png"',
+  '<img src="/images/logo-joe-2.png" width="296" height="355"',
+);
+
+const intrinsicImageDimensions: Record<string, [number, number]> = {
+  "/images/sell-fender-redesign/joshua-with-1952-fender-telecaster.jpeg": [1440, 1920],
+  "/images/sell-fender-redesign/one-owner-1965-stratocaster.webp": [1400, 1050],
+  "/images/sell-fender-redesign/one-owner-1960-telecaster.webp": [1050, 1400],
+  "/images/sell-fender-redesign/bill-one-owner-1966-jaguar.webp": [1050, 1400],
+  "/images/sell-fender-redesign/jim-with-1972-fender-jazz-bass-scaled.jpeg": [1920, 2560],
+};
+
+for (const [src, [width, height]] of Object.entries(intrinsicImageDimensions)) {
+  pageMarkup = pageMarkup.replace(
+    `<img src="${src}"`,
+    `<img src="${src}" width="${width}" height="${height}"`,
+  );
+}
+
+pageMarkup = pageMarkup.replace(
+  '<img class="faq-background" src="/images/faq-bg.webp"',
+  '<img class="faq-background" src="/images/faq-bg.webp" width="1920" height="765"',
+);
+
+const pageCss = rawPageCss.replace(/^@import 'tailwindcss';\s*/, "") + `
+  :root {
+    --font-open-sans: Arial, sans-serif;
+    --font-oswald: "Oswald", "Arial Narrow", sans-serif;
+  }
+
+  body.smf-redesign-page > header.absolute,
+  body.smf-redesign-page > footer.jvgft,
+  body.smf-redesign-page > aside[aria-label="Quick contact"] {
+    display: none !important;
+  }
+
+  body.smf-redesign-page > main#main-content {
+    min-height: 100vh;
+  }
+
+  .appraisal-form .jvg-form-banner {
+    grid-column: 1 / -1;
+    padding: 12px 14px;
+    border: 1px solid #b34220;
+    background: #fffdf8;
+    color: #8b2412;
+    font-size: 0.88rem;
+    font-weight: 700;
+  }
+`;
 ---
 
 <Layout
-  title="Sell My FENDER Guitar | Joe's Vintage Guitars"
-  description="Sell your vintage Fender guitar to a trusted specialist. Expert appraisals, top-dollar cash offers, and stress-free nationwide shipping for Stratocasters, Telecasters, Jazzmasters, Precision Basses and more."
+  bodyClass="smf-redesign-page"
+  title={pageTitle}
+  description={pageDescription}
   canonical="/sell-my-fender-guitar/"
-  ogImage={`${SITE_URL}${smfImg("Guitar.png")}`}
-  {...ogCardSize("images/sell-fender/Guitar.png")}
+  ogImage={`${SITE_URL}/images/sell-fender-redesign/fender-hero.webp`}
+  ogImageAlt="1956 Fender Stratocaster in its red-lined case"
+  ogImageWidth={2000}
+  ogImageHeight={1333}
+  ogImageType="image/webp"
   structuredData={structuredData}
 >
-  <!-- lite-youtube web component (paulirish/lite-youtube-embed) — matches live's
-       Meet Joe video element. Renders the YouTube thumbnail + red play button
-       instantly, swaps to iframe only on click. Same component live uses. -->
-  <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
-  <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
-
-  <InstagramEmbeds />
-
-  <!-- 1. Hero — B&W vintage-shop photo with dark vignette overlay
-       (matches live's .tp-bnr structure verified via DOM inspection) -->
-  <!-- Preload the CSS-background hero (late-discovered otherwise); Prompt 8
-       mobile LCP fix. -->
-  <link slot="head" rel="preload" as="image" href="/images/sell-hero-background.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high" />
-  <link slot="head" rel="preload" as="image" href="/images/sell-hero-background-mobile.webp" media="(max-width: 768px)" fetchpriority="high" />
-  <!-- Mobile serves an 828w WebP of the same hero photo (52KB vs 275KB). -->
-  <style>
-    @media (max-width: 768px) {
-      .smf-hero {
-        background-image: url("/images/sell-hero-background-mobile.webp") !important;
-      }
-    }
-  </style>
-  <section class="smf-hero" style={`background-image: url('${HERO_BG}'); background-image: image-set(url('/images/sell-hero-background.webp') type('image/webp'), url('${HERO_BG}') type('image/jpeg'));`}>
-    <div class="smf-hero__inner">
-      <h1>Sell Your Vintage Fender Guitar</h1>
-      <h2 class="smf-hero__subtitle">Expert Buyer & Collector Specializing in Rare & Vintage Fender Guitars</h2>
-      <div class="smf-hero__rule" aria-hidden="true"></div>
-    </div>
-  </section>
-
-  <!-- 2. Intro + serial-number form -->
-  <section class="smf-intro">
-    <div class="smf-inner smf-intro__grid">
-      <!-- LEFT: guitar photo + intro copy -->
-      <div class="smf-intro__copy">
-        <div class="smf-intro__photo">
-          <LicensedImage src={smfImgMeta("Guitar.png")} alt="Vintage Fender Stratocaster" loading="eager" width={240} />
-        </div>
-        <div class="smf-intro__text">
-          <p>
-            If you own a Pre-CBS Stratocaster or a vintage Fender you’ve had for years, I’d like to hear about it. I’ve been collecting Fenders and studying their history for a long time, and <strong>I appraise guitars from every era</strong>, from the early Telecaster & Precision Bass years through the collectible CBS-era and early reissue models.
-          </p>
-          <p>I buy all vintage Fender electrics for cash, including:</p>
-          <ul class="smf-intro__list">
-            <li><strong>Classic models:</strong> Stratocasters, Telecasters, and Precision Basses from every era.</li>
-            <li><strong>Offsets:</strong> Jazzmasters, Jaguars, Mustangs, and Musicmasters.</li>
-            <li><strong>Rare features:</strong> Custom Color finishes, unusual neck profiles, and original “spaghetti” or “transition” logos.</li>
-            <li><strong>Player-grade guitars:</strong> Even if yours has been modified, refretted, or shows heavy stage wear, <strong>it still has value and a history worth knowing.</strong></li>
-          </ul>
-          <p>The process is straightforward and the cash offer is fair, for a single guitar or a whole collection. Whatever you have, a rare prototype or a 1970s workhorse, <strong>I’ll take good care of it.</strong></p>
-          <p>Get a free evaluation for your Fender today. Call or text me at <strong>{contact.phone}</strong> or email <strong><span class="smf-underline">{contact.email}</span></strong>.</p>
-
-          <!-- Table of contents — mirrors live's <details class="table-of-contents"> widget.
-               Anchor IDs match this page's local section IDs (not live's slugs). -->
-          <details class="smf-toc">
-            <summary>
-              <span class="smf-toc__title">Table Of Contents</span>
-              <svg class="smf-toc__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </summary>
-            <ul class="smf-toc__list">
-              <li><a href="#meet-vintage-guitar-buyer-joe-dampt">Meet Classic Fender Guitar Specialist, Joe Dampt</a></li>
-              <li><a href="#how-to-sell">How To Sell Your Vintage Fender Guitar</a></li>
-              <li><a href="#how-much-worth">How Much Is My Fender Guitar Worth?</a></li>
-              <li><a href="#best-way">What Is the Best Way To Sell A Classic Fender Guitar?</a></li>
-              <li><a href="#buying-process">My Guitar Buying Process</a></li>
-              <li><a href="#testimonials">Our Clients' Testimonials</a></li>
-              <li><a href="#discover-value">Discover the Real Value of Your Fender Stratocaster at Joe’s Vintage Guitars</a></li>
-              <li><a href="#consider-selling">Consider Selling Your Vintage Guitar To Joe's Vintage Guitars</a></li>
-              <li><a href="#top-dollar">I'm Currently Paying Top Dollar for These Vintage Fender Guitars</a></li>
-              <li><a href="#faqs">FAQs About Vintage Fender Guitars</a></li>
-            </ul>
-          </details>
-        </div>
-      </div>
-
-      <!-- RIGHT: contact form with serial-number dropdown -->
-      <LeadForm
-        formId="sell-fender-top"
-        instrumentMode="model-only"
-        serial={{
-          label: "What information can the serial number tell us? Look on the back of the neck at the top or on the inside of the body.",
-          options: serialOptions,
-        }}
-        heading="Feel Free To Contact Joe’s Vintage Guitars"
-        subheading="For A Free Fender Guitar Consultation & Appraisal Today!"
-        submitLabel="Submit"
-      />
-    </div>
-  </section>
-
-  <!-- 3. Meet Joe — exact live structure (verified via DOM query):
-       outer .smf-meet (cream section bg)
-         > .smf-inner (max-width 1144px)
-           > .smf-meet__row (relative; z-index:10; has the WHITE CARD ::before
-             behind the columns + the DARK RUST TRIANGLE ::after overlapping
-             the left edge of the video — the "tasteful frame" effect)
-             > .smf-meet__video  (video column, sits above the white card)
-             > .smf-meet__panel  (text column, sits above the white card) -->
-  <section id="meet-vintage-guitar-buyer-joe-dampt" class="smf-meet">
-    {/* Backward-compat anchor — earlier revisions used #meet-joe as the local
-        identifier. Live uses #meet-vintage-guitar-buyer-joe-dampt (Avada's
-        fusion-container-anchor pattern); v9 audit caught the mismatch and
-        moved the canonical ID to match live for inbound-link parity. The
-        empty div below preserves any internal/external link still pointing
-        at the older slug. */}
-    <div id="meet-joe" class="smf-anchor" aria-hidden="true"></div>
-    <div class="smf-inner">
-      <div class="smf-meet__row">
-        <div class="smf-meet__video">
-          <!-- 2026-05 v7: lite-youtube web component (paulirish/lite-youtube-embed)
-               matches live's exact element. Shows the YouTube thumbnail + red play
-               button immediately, swaps to iframe only on click. Loaded via CDN.
-               v9 (2026-05-26): params unioned with live's set so clicking the
-               placeholder autoplays + enables the YT player API, while keeping
-               modest branding + rel=0 (no related-video distraction at end). -->
-          <lite-youtube
-            videoid="U3eJgXLs4w8"
-            params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1"
-            title="Meet Classic Fender Guitar Specialist, Joe Dampt"
-            class="smf-lite-yt"
-          ></lite-youtube>
-        </div>
-        <div class="smf-meet__panel">
-          <h3 class="smf-meet__title">Meet Classic Fender Guitar Specialist, <span class="smf-meet__name">Joe Dampt</span></h3>
-          <hr class="smf-meet__sep" />
-          <p>
-            Hi, <strong><a href="/about-me/">I’m Joe Dampt</a>.</strong> I’ve collected Fender guitars and basses my whole life, and I’d like to hear about yours. <strong>When you contact Joe’s Vintage Guitars, you deal with me directly, not a middleman.</strong> I give free evaluations and strong cash offers for Pre-CBS Stratocasters, Telecasters, Precision Basses, and rare Custom Color models. Whether it’s a clean heirloom or a well-worn 1970s player, <strong>I’ll treat it right.</strong>
-          </p>
-          <p><strong>Call or text me at {contact.phone} for a fair offer today.</strong></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 4. How To Sell — text left, photo right -->
-  <section id="how-to-sell" class="smf-split">
-    <div class="smf-inner smf-split__grid">
-      <div class="smf-split__text">
-        <h3 class="smf-h3">How To Sell Your Vintage<br /> Fender Guitar</h3>
-        <p>
-          I travel all over the country to meet collectors and families who are ready to sell. Since I’m on the road so much, I can usually come see your Fender in person and evaluate it on the spot. If we can’t meet face to face, selling remotely is easy. I’ll set up and pay for <strong>prepaid packing and shipping</strong>, so your guitar gets packed by people who do it for a living and stays fully insured in transit. You <a href="/" class="smf-link"><strong>get paid right away</strong></a>, and you never have to deal with packing it yourself, shipping liability, or a lost box.
-        </p>
-        <p><strong>Ready to get started? <a href="/contact-me/" class="smf-link">Contact me</a> today and I’ll walk you through it.</strong></p>
-      </div>
-      <div class="smf-split__photo">
-        <LicensedImage src={smfImgMeta("1964-fiesta-red-stratocaster-17-1-1024x683.jpg")} alt="Vintage 1964 fiesta red Fender Stratocaster" width={523} />
-      </div>
-    </div>
-  </section>
-
-  <!-- 5. How Much Worth — photo left, text right -->
-  <section id="how-much-worth" class="smf-split smf-split--alt">
-    <div class="smf-inner smf-split__grid smf-split__grid--reverse">
-      <div class="smf-split__photo">
-        <LicensedImage src={smfImgMeta("IMG_2424-1024x683.jpg")} alt="Vintage 1968 blonde Fender Telecaster electric guitar" width={523} />
-      </div>
-      <div class="smf-split__text">
-        <h3 class="smf-h3">How Much Is My Fender<br /> Guitar Worth?</h3>
-        <p>
-          The first thing most people want to know is what their Fender is worth. I give <a href="/free-appraisal/" class="smf-link"><strong>free appraisals</strong></a> to owners who want an honest, current read on value. They’re quick, there’s no pressure, and you’re never obligated to sell. If you’d rather dig into the history yourself, I’ve written plenty of Fender dating articles, and you can use my <a href="/fender-guitars-serial-number-guide/" class="smf-link"><strong>Fender Serial Number Guide</strong></a> to pin down the year your guitar was made and get a sense of what it’s worth to collectors.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- 6. Best Way To Sell — text left, photo right -->
-  <section id="best-way" class="smf-split">
-    <div class="smf-inner smf-split__grid">
-      <div class="smf-split__text">
-        <h3 class="smf-h3">What Is the Best Way To Sell<br /> A Classic Fender Guitar?</h3>
-        <p>
-          Selling a vintage Fender comes down to weighing the safety of a known buyer against the risk of the open market. Selling it yourself can be tempting, but it’s rarely a good idea for a first-time seller with a guitar worth $4,000 or more. Shipping a Pre-CBS Stratocaster or a rare Custom Color Telecaster carries real risk, and most private sellers don’t carry the kind of $100,000+ transit insurance I keep on every shipment. <strong>I take that risk off your plate. I travel the country to pay cash in person, and I handle the packing and shipping, fully insured.</strong> You get a fair price, and your Fender gets where it’s going safely.
-        </p>
-      </div>
-      <div class="smf-split__photo">
-        <LicensedImage src={smfImgMeta("IMG_0992-1024x683.jpg")} alt="Vintage 1964 Fender Telecaster solid body electric guitar" width={523} />
-      </div>
-    </div>
-  </section>
-
-  <!-- 7. My Buying Process -->
-  <section id="buying-process" class="smf-process">
-    <div class="smf-inner">
-      <h3 class="smf-h3 smf-h3--center">My Guitar Buying Process</h3>
-      <div class="smf-process__grid">
-        <div class="smf-process__card">
-          <img src={smfImg("Fair-Cash-1.svg")} alt="" class="smf-process__icon" />
-          <h4>Accurate Identification</h4>
-          <hr class="smf-rule" />
-          <p>After decades of doing this, I can date and identify your Fender from the details that matter, neck dates, pot codes, and hardware specs. <strong>I’m always happy to geek out over a guitar and tell you exactly when it was made, what makes it interesting, and what it’s worth today.</strong></p>
-        </div>
-        <div class="smf-process__card">
-          <img src={smfImg("Fair-Cash-2.svg")} alt="" class="smf-process__icon" />
-          <h4>A Caring Home<br /> For Your Cherished Guitar</h4>
-          <hr class="smf-rule" />
-          <p>I’ve bought plenty of family heirlooms and Fullerton-era Fenders that just weren’t being played anymore. Here’s my promise to every seller: the guitar you sell me will go on doing what Leo Fender built it to do, get <strong>played!</strong> I treat every one of them with respect.</p>
-        </div>
-        <div class="smf-process__card">
-          <img src={smfImg("Fair-Cash-3-1.svg")} alt="" class="smf-process__icon" />
-          <h4>Fair Cash Offer</h4>
-          <hr class="smf-rule" />
-          <p>I’m always ready to pay a premium for a clean, original vintage guitar. I work hard to be the buyer collectors trust, and my cash offers on Pre-CBS Fenders are among the highest you’ll find. When you want a straight valuation and a fair deal on your Fender or bass, <a href="/contact-me/" class="smf-link"><strong>contact me</strong></a> today.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {/* 8. Testimonials — v10 (2026-05-26) rebuild:
-       - 6 reviews sourced from reference/testimonials.json (Google Reviews scrape),
-         each linking directly to its individual review on the GMB profile
-       - Pinterest masonry layout via CSS columns so varying-length reviews
-         pack densely instead of leaving column-aligned dead space
-       - 3 Instagram reels added below the reviews (matches live), with
-         IG's embed.js loaded via the page head slot */}
-  <section id="testimonials" class="smf-testi">
-    <div class="smf-inner">
-      <h3 class="smf-testi__title">Our Clients’ Testimonials</h3>
-
-      <div class="smf-testi__masonry">
-        {reviews.map((r) => (
-          <article class="smf-testi__card">
-            <p class="smf-testi__name">
-              <a href={r.link} target="_blank" rel="noopener noreferrer">{r.name}</a>
-              <br />
-              <span class="smf-testi__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-            </p>
-            <p>{r.body}</p>
-          </article>
-        ))}
-      </div>
-
-      <div class="smf-testi__ig-grid">
-        {igPosts.map((post) => (
-          <div class="smf-testi__ig">
-            {/* Instagram embed.js (loaded in head) scans for `.instagram-media`
-                blockquotes and replaces them with rendered IG iframes. The
-                permalink + data-instgrm-version="14" attributes are the API. */}
-            <div class="instagram-wrapper">
-              <blockquote
-                class="instagram-media"
-                data-instgrm-permalink={post.permalink}
-                data-instgrm-version="14"
-              ></blockquote>
-            </div>
-            <div class="instagram-text">
-              <p><strong>{post.headline}</strong><br />{post.subtitle}</p>
-              <p>{post.body}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* v10.1: "More Reviews" button removed per user request — the 6 reviews
-          + 3 IG reels are sufficient social proof; an extra outbound link to
-          Google Maps was redundant with the per-review links on each card name. */}
-    </div>
-  </section>
-
-  <!-- 9. Discover Real Value banner -->
-  <section id="discover-value" class="smf-banner">
-    <div class="smf-banner__left">
-      <h3>Discover the Real Value of Your Fender Stratocaster at Joe’s Vintage Guitars</h3>
-    </div>
-    <div class="smf-banner__right">
-      <a href="/vintage-fender-stratocaster-value-guide/" class="smf-btn smf-btn--rust">Learn More</a>
-    </div>
-  </section>
-
-  <!-- 10. Consider Selling + Mary's Case Study -->
-  <section id="consider-selling" class="smf-case">
-    <div class="smf-inner smf-case__grid">
-      <div class="smf-case__text">
-        <h3 class="smf-h3">Consider Selling Your Vintage Guitar To Joe’s Vintage Guitars</h3>
-        <hr class="smf-rule" />
-        <p>I love these guitars, and I want them to keep being played. I either play them myself or find them a home with someone who will care for them the way I do. The stories that come with them mean a lot to me. When I buy a guitar, the thing I hang onto most is often a photo of the original owner or a few stories about their life. I type those up, print them, fold them, and tuck them into the case. I want the players who came before to live on through their instruments.</p>
-        <h3 class="smf-h3 smf-case__sub"><strong>How I Spotted the Value in Mary’s 1963 Stratocaster</strong></h3>
-        <p><strong>I met Mary in Wisconsin to look at her family’s 1963 Fender Stratocaster, one of the better stops on a recent trip.</strong> A lot of buyers would have seen an ordinary vintage guitar. I could see that the Dakota Red finish and factory gold hardware were original, and those Pre-CBS “Custom Color” features are rare and bring a real premium. I dated the neck, confirmed the parts were original, and offered Mary a price well above the lowball estimates she’d gotten elsewhere, which is what the guitar was actually worth. <strong>That’s how I like to do business: honest, straightforward, and good for the guitar.</strong></p>
-      </div>
-      <div class="smf-case__photo">
-        <LicensedImage src={smfImgMeta("fender-stratocaster-dakota-red-768x1024.jpg")} alt="Mary's vintage 1963 Fender Stratocaster in rare Dakota Red Custom Color with factory gold hardware" width={438} />
-      </div>
-    </div>
-  </section>
-
-  <!-- 11. Top Dollar — 7-card guitar grid -->
-  <section id="top-dollar" class="smf-grid">
-    <div class="smf-inner">
-      <h3 class="smf-h3 smf-h3--center">I’m Currently Paying Top Dollar for These Vintage Fender Guitars</h3>
-      <div class="smf-grid__cards">
-        {models.map((m) => (
-          <div class="smf-grid__card">
-            <LicensedImage src={m.img} alt={m.alt} width={253} />
-            <h4>{m.title}</h4>
-            <p>{m.body}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- 12. FAQs — uses the shared FAQ component for visual consistency
-       across the site (wood-textured cream box with arrow clip-path) -->
-  <FAQ
-    faqs={faqs}
-    subTitle="Vintage Fender Guitars"
-    sectionId="faqs"
-    openFirst={true}
+  <link
+    slot="head"
+    rel="preload"
+    as="image"
+    href="/images/sell-fender-redesign/fender-hero.webp"
+    type="image/webp"
+    fetchpriority="high"
   />
-
-  <!-- 13. Get In Touch — handled by shared ContactSection at page bottom -->
-  <ContactSection />
+  <style slot="head" is:inline set:html={pageCss}></style>
+  <Fragment set:html={pageMarkup} />
 </Layout>
-
-<style>
-  /* ============================================================
-     SELL MY FENDER (.smf-*) — Archetype A conversion page
-     ============================================================ */
-  .smf-inner {
-    max-width: 1144px;
-    margin: 0 auto;
-    padding: 0 24px;
-  }
-
-  /* 1. Hero ----------------------------------------------------- */
-  /* 2026-05 v5: B&W photo + dark vignette overlay (live exact match).
-     Photo URL set inline on the <section> via Astro. Overlay applied via
-     ::before to keep text in front. */
-  .smf-hero {
-    position: relative;
-    isolation: isolate;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 250px 24px 60px;
-    text-align: center;
-    overflow: hidden;
-  }
-  .smf-hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    background:
-      linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.3) 40%),
-      linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3) 40%);
-    pointer-events: none;
-  }
-  @media (max-width: 768px) {
-    .smf-hero { padding: 120px 16px 40px; }
-  }
-  /* 2026-05 audit fix v3/v4: invert visual hierarchy to match live.
-     v3: small overline H1 + large display H2.
-     v4 (header audit, Gemini-3-Pro): Title Case (not uppercase), gold/tan color,
-     decorative horizontal-bar flourishes on either side via ::before/::after.
-     Live's "sub-t" has these "vintage wings" — closest CSS-only equivalent is
-     small rule lines flanking the text. */
-  .smf-hero__inner h1 {
-    font-family: var(--font-display);
-    font-size: clamp(15px, 1.5vw, 20px);
-    font-weight: 500;
-    margin: 0 0 14px;
-    color: var(--color-brand-gold, #c8983a);
-    letter-spacing: 0.04em;
-    line-height: 1.3;
-    /* Flex layout to place decorative bars on each side of the text */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-  }
-  .smf-hero__inner h1::before,
-  .smf-hero__inner h1::after {
-    content: "";
-    flex: 0 0 auto;
-    width: 36px;
-    height: 1px;
-    background: currentColor;
-    opacity: 0.7;
-  }
-  .smf-hero__subtitle {
-    font-family: var(--font-display);
-    font-size: clamp(32px, 4.5vw, 56px);
-    font-weight: 600;
-    color: #fff;
-    margin: 0 auto 24px;
-    max-width: 1000px;
-    line-height: 1.18;
-    letter-spacing: 0.01em;
-  }
-  .smf-hero__rule {
-    height: 3px;
-    width: 100%;
-    background: var(--color-brand-cream);
-    margin: 0 auto;
-    max-width: 1144px;
-  }
-
-  /* 2. Intro + Form -------------------------------------------- */
-  /* 2026-05 audit fix: live has cream BG with dark form panel on right,
-     not the inverted dark-bg/cream-form we had before. */
-  .smf-intro {
-    background: var(--color-brand-cream-warm, #f5e7c8);
-    padding: 60px 0;
-    color: var(--color-brand-brown);
-  }
-  .smf-intro__grid {
-    display: grid;
-    grid-template-columns: 45% 55%;
-    gap: 32px;
-    align-items: stretch;
-  }
-  .smf-intro__copy {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    gap: 20px;
-    align-items: start;
-  }
-  .smf-intro__photo { text-align: center; }
-  .smf-intro__photo img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
-  .smf-intro__text { color: var(--color-brand-brown); }
-  .smf-intro__text p {
-    margin: 0 0 14px;
-    line-height: 1.65;
-    text-align: justify;
-  }
-  .smf-intro__text strong { color: var(--color-brand-rust-dark); }
-  .smf-intro__text a { color: var(--color-brand-rust-dark); text-decoration: underline; }
-  .smf-intro__list {
-    list-style: disc;
-    padding-left: 22px;
-    margin: 0 0 14px;
-  }
-  .smf-intro__list li { margin-bottom: 8px; line-height: 1.55; }
-  .smf-underline { text-decoration: underline; }
-
-  /* TOC widget — mirrors live's <details class="table-of-contents"> */
-  .smf-toc {
-    margin-top: 18px;
-    border-radius: 6px;
-    background: var(--color-brand-rust-dark);
-    color: #fff;
-    overflow: hidden;
-  }
-  .smf-toc summary {
-    cursor: pointer;
-    list-style: none;
-    padding: 12px 18px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    font-family: var(--font-display);
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-  .smf-toc summary::-webkit-details-marker { display: none; }
-  .smf-toc__title { font-size: 16px; }
-  .smf-toc__icon { color: #fff; }
-  .smf-toc[open] .smf-toc__icon { transform: rotate(90deg); transition: transform 0.2s; }
-  .smf-toc__list {
-    margin: 0;
-    padding: 0 18px 14px 36px;
-    list-style: disc;
-    color: var(--color-brand-cream);
-  }
-  .smf-toc__list li { margin: 6px 0; font-size: 14px; line-height: 1.4; }
-  .smf-toc__list a {
-    color: var(--color-brand-cream);
-    text-decoration: none;
-  }
-  .smf-toc__list a:hover { text-decoration: underline; }
-
-  /* Form panel — INVERTED: dark rust bg, light text/inputs (was: cream/brown) */
-  .smf-intro__formwrap {
-    background: var(--color-brand-rust-dark);
-    color: var(--color-brand-cream);
-    border-radius: 6px;
-    padding: 28px 28px 24px;
-  }
-  .smf-form-head h3 {
-    font-family: var(--font-display);
-    font-size: clamp(22px, 2.4vw, 30px);
-    font-weight: 600;
-    color: #fff;
-    margin: 0 0 8px;
-    text-transform: uppercase;
-    line-height: 1.2;
-  }
-  .smf-form-head__lede {
-    color: var(--color-brand-gold, #c8983a);
-    font-style: italic;
-    text-transform: none;
-    font-weight: 400;
-  }
-  .smf-form-head h4 {
-    font-family: var(--font-display);
-    font-weight: 400;
-    font-size: 15px;
-    color: var(--color-brand-cream);
-    margin: 0 0 18px;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-  .smf-form { display: block; }
-  .smf-field { margin-bottom: 14px; }
-  .smf-field label {
-    display: block;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--color-brand-cream);
-    margin-bottom: 4px;
-    line-height: 1.4;
-  }
-  .smf-field input,
-  .smf-field select,
-  .smf-field textarea {
-    width: 100%;
-    border: 1px solid rgba(255,255,255,0.2);
-    background: rgba(255,255,255,0.95);
-    border-radius: 4px;
-    padding: 8px 10px;
-    font: inherit;
-    font-size: 14px;
-    color: var(--color-brand-brown);
-    box-sizing: border-box;
-  }
-  .smf-field textarea { resize: vertical; min-height: 90px; }
-  .smf-field input:focus,
-  .smf-field select:focus,
-  .smf-field textarea:focus {
-    outline: 2px solid var(--color-brand-gold, #c8983a);
-    outline-offset: 1px;
-    border-color: var(--color-brand-gold, #c8983a);
-  }
-  .smf-opt { color: rgba(255,255,255,0.7); font-weight: 400; font-size: 12px; }
-  .smf-reply {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 8px 14px;
-    margin: 6px 0 16px;
-    color: var(--color-brand-cream);
-  }
-  .smf-reply__label {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--color-brand-cream);
-  }
-  .smf-reply__opt { font-size: 13px; cursor: pointer; color: var(--color-brand-cream); }
-  .smf-submit {
-    background: var(--color-brand-rust-bright);
-    color: #fff;
-    border: none;
-    font-family: var(--font-display);
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    padding: 14px 32px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background 0.2s;
-    width: 100%;
-  }
-  .smf-submit:hover { background: var(--color-brand-rust-dark); }
-  .smf-form__note {
-    font-size: 12px;
-    color: rgba(255,255,255,0.75);
-    margin: 10px 0 0;
-    line-height: 1.4;
-  }
-
-  /* Intro responsive collapse */
-  @media (max-width: 950px) {
-    .smf-intro__grid { grid-template-columns: 1fr; gap: 28px; }
-    .smf-intro__copy { grid-template-columns: 1fr; }
-  }
-  /* Meet Joe responsive collapse */
-  @media (max-width: 768px) {
-    .smf-meet__video { padding: 20px 20px 0; }
-  }
-
-  /* 3. Meet Joe ------------------------------------------------ */
-  /* 2026-05 audit fix v6 (exact DOM-verified match of live).
-     Structure:
-       .smf-meet (cream section bg)
-         .smf-inner (max-width 1144px wrapper)
-           .smf-meet__row  (position: relative; z-index: 10)
-             ::before — WHITE CARD behind both columns (inset -49 -11 -49 0)
-             .smf-meet__video  (column, position: relative — above white card)
-             .smf-meet__panel  (column, position: relative — above white card)
-             ::after  — DARK RUST TRIANGLE overlapping left edge of video
-                       (width 100px, left 0, top/bottom -49, clip-path triangle)
-     The natural stacking gives: white card (back) → columns (middle) → rust triangle (front).
-     Triangle visually peeks out top-left + bottom-left of card (extends 49px above/below row). */
-  .smf-meet {
-    background: var(--color-brand-cream, #eedfc0);
-    /* v9 (2026-05-26): padding bumped to match live exactly
-       (was 90px 0 110px — under by 10px top/bottom + 0 horizontal). */
-    padding: 100px 30px 120px;
-  }
-  /* Backward-compat anchor — see comment near <div id="meet-joe"> above.
-     scroll-margin-top compensates for the sticky header so legacy #meet-joe
-     links land below it, not buried underneath. */
-  .smf-anchor {
-    position: absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    scroll-margin-top: 100px;
-  }
-  .smf-meet__row {
-    position: relative;
-    z-index: 10;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
-    align-items: stretch;
-  }
-  /* WHITE CARD behind both columns */
-  .smf-meet__row::before {
-    content: "";
-    position: absolute;
-    top: -49px;
-    right: -11px;
-    bottom: -49px;
-    left: 0;
-    background: #fff;
-    z-index: -1;
-  }
-  /* DARK RUST TRIANGLE overlapping left edge — the "tasteful frame" */
-  .smf-meet__row::after {
-    content: "";
-    position: absolute;
-    top: -49px;
-    bottom: -49px;
-    left: 0;
-    width: 100px;
-    background: rgb(104, 36, 18);
-    clip-path: polygon(0 0, 0 100%, 100% 50%);
-    pointer-events: none;
-  }
-  .smf-meet__video,
-  .smf-meet__panel {
-    position: relative; /* sit ABOVE the white card ::before */
-    z-index: 1;
-  }
-  .smf-meet__video {
-    display: flex;
-    /* 2026-05 v8: top-aligned (was: center). Matches live where the video
-       sits in the upper portion of the column. */
-    align-items: flex-start;
-    justify-content: center;
-    padding-top: 24px;
-  }
-  /* 2026-05 v7: OUTLINED RUST FRAME — the decorative rectangle that peeks
-     out top-left and bottom-left of the white card (the "fun element" Joe
-     circled in the screenshot). Verified via getComputedStyle on
-     .vdo-col-l-p::before: 4px solid rgb(190, 75, 37), inset -24.5 494 -32.5 -30. */
-  .smf-meet__video::before {
-    content: "";
-    position: absolute;
-    top: -24px;
-    bottom: -32px;
-    left: -30px;
-    width: 108px;
-    border: 4px solid var(--color-brand-rust-bright, #be4b25);
-    z-index: -1;
-    pointer-events: none;
-  }
-  /* lite-youtube web component sizing.
-     Live's video is 600px wide in a 572px column with margin-left -68px
-     (overflows left of column). */
-  .smf-lite-yt {
-    width: 600px;
-    max-width: 100%;
-    margin-left: clamp(-70px, -5vw, -20px);
-    display: block;
-  }
-  .smf-meet__panel {
-    /* Sits on the white ::before card — no own bg needed.
-       17px inner padding mirrors live's .fusion-column-wrapper. */
-    padding: 17px 24px;
-    color: var(--color-brand-brown, #3e2a14);
-  }
-  .smf-meet__title {
-    font-family: var(--font-display);
-    font-size: clamp(22px, 2.4vw, 30px);
-    color: var(--color-brand-rust-dark);
-    font-weight: 700;
-    margin: 0 0 10px;
-    line-height: 1.25;
-  }
-  .smf-meet__name {
-    color: var(--color-brand-rust-bright);
-    white-space: nowrap;
-  }
-  .smf-meet__panel p {
-    margin: 0 0 12px;
-    line-height: 1.7;
-    text-align: justify;
-    color: var(--color-brand-brown);
-  }
-  .smf-meet__panel a { color: var(--color-brand-rust-dark); text-decoration: underline; font-weight: 600; }
-  .smf-meet__panel strong { color: var(--color-brand-rust-dark); }
-  .smf-meet__sep {
-    /* v9 (2026-05-26): matches live's `.main-sep` exactly — full-column-width
-       3px-tall rust-dark bar, no border. Replaces v8's mis-named `.smf-rule-cream`
-       which rendered as a small 80px tri-colored border-only accent. */
-    border: 0;
-    height: 3px;
-    width: 100%;
-    background-color: var(--color-brand-rust-dark);
-    margin: 12px 0 18px;
-  }
-
-  /* 4-6. Text + image splits ---------------------------------- */
-  .smf-split { background: #fff; padding: 60px 0; }
-  .smf-split--alt { background: var(--color-brand-cream-light, #f6e9cf); }
-  .smf-split__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    align-items: center;
-  }
-  .smf-split__grid--reverse { /* image-on-left variant — uses source order */ }
-  .smf-split__text p { line-height: 1.7; margin: 0 0 14px; text-align: justify; color: var(--color-brand-brown); }
-  .smf-split__photo img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 4px;
-    box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
-  }
-
-  /* Shared H3 */
-  .smf-h3 {
-    font-family: var(--font-display);
-    font-size: clamp(28px, 3vw, 38px);
-    font-weight: 600;
-    color: var(--color-brand-rust-dark);
-    /* 2026-05 audit fix v3: Title Case to match live (was: uppercase) */
-    margin: 0 0 18px;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
-  }
-  .smf-h3--center { text-align: center; }
-  .smf-rule {
-    border: none;
-    border-top: 3px solid var(--color-brand-rust-bright);
-    width: 80px;
-    margin: 8px 0 18px;
-  }
-  .smf-h3--center + .smf-rule { margin-left: auto; margin-right: auto; }
-  .smf-link { color: var(--color-brand-rust-dark); text-decoration: underline; }
-  .smf-link:hover { color: var(--color-brand-rust-bright); }
-
-  /* 7. Buying Process ----------------------------------------- */
-  .smf-process { background: var(--color-brand-cream-light, #f6e9cf); padding: 70px 0; }
-  .smf-process__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    align-items: start;
-    margin-top: 36px;
-  }
-  .smf-process__card { text-align: center; }
-  .smf-process__icon {
-    width: 130px;
-    height: 121px;
-    margin: 0 auto 18px;
-    display: block;
-  }
-  .smf-process__card h4 {
-    font-family: var(--font-display);
-    font-size: clamp(20px, 2.2vw, 26px);
-    color: var(--color-brand-rust-dark);
-    /* 2026-05 audit fix v3: Title Case to match live (was: uppercase) */
-    margin: 0 0 8px;
-    line-height: 1.25;
-  }
-  .smf-process__card .smf-rule { margin: 8px auto 16px; }
-  .smf-process__card p { line-height: 1.7; color: var(--color-brand-brown); margin: 0; }
-  .smf-process__card a { color: var(--color-brand-rust-dark); text-decoration: underline; }
-
-  /* 8. Testimonials -------------------------------------------- */
-  .smf-testi {
-    background: var(--color-brand-rust-dark);
-    color: var(--color-brand-cream);
-    padding: 70px 0 80px;
-    position: relative;
-  }
-  .smf-testi__title {
-    font-family: var(--font-script, "Margi"), serif;
-    font-size: clamp(35px, 3.5vw, 54px);
-    color: var(--color-brand-brown-tan);
-    font-weight: 400;
-    text-align: center;
-    margin: 0 0 32px;
-  }
-  /* v10 (2026-05-26): Pinterest masonry layout via CSS columns.
-     Reading order is column-then-row (acceptable for unordered review cards).
-     CSS Grid `masonry` was considered but isn't yet stable cross-browser.
-     `column-fill: balance` ensures the columns reach similar bottom heights
-     instead of one column running longer than the others. */
-  .smf-testi__masonry {
-    column-count: 3;
-    column-gap: 20px;
-    column-fill: balance;
-  }
-  .smf-testi__card {
-    /* `break-inside: avoid` (with vendor prefix fallback) keeps each card
-       intact across column breaks — the only CSS-columns rule that makes
-       Pinterest-style stacking actually work. */
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
-    display: inline-block;     /* needed for break-inside to apply in some engines */
-    width: 100%;                /* full column width */
-    background: #dcb58b;
-    color: var(--color-brand-brown);
-    padding: 22px 24px 24px;
-    border-radius: 0 0 20px 20px;
-    margin: 0 0 20px;           /* vertical gap between stacked cards */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  }
-  .smf-testi__name {
-    font-family: var(--font-display);
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--color-brand-rust-dark);
-    margin: 0 0 8px;
-    line-height: 1.2;
-  }
-  .smf-testi__name a { color: inherit; text-decoration: none; }
-  .smf-testi__name a:hover { text-decoration: underline; }
-  .smf-testi__stars { color: var(--color-brand-rust-bright); font-size: 16px; letter-spacing: 1px; }
-  .smf-testi__card > p:last-child { font-size: 14px; line-height: 1.6; margin: 0; color: var(--color-brand-brown); }
-  /* .smf-testi__more removed in v10.1 — the "More Reviews" button it styled
-     was deleted with the section rebuild. Block kept as a tombstone so the
-     class is grep-able if it surfaces in old commits. */
-
-  /* Tablet → 2 columns */
-  @media (max-width: 960px) {
-    .smf-testi__masonry { column-count: 2; }
-  }
-  /* Mobile → 1 column (cards stack normally) */
-  @media (max-width: 640px) {
-    .smf-testi__masonry { column-count: 1; }
-  }
-
-  /* Instagram reels — 3-up grid below reviews, matches live's `.instagram-wrapper`
-     + `.instagram-text` two-row layout. embed.js renders the blockquote into a
-     styled iframe; until it loads, the blockquote shows IG's placeholder. */
-  .smf-testi__ig-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
-    margin-top: 48px;
-  }
-  .smf-testi__ig {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-  }
-  .smf-testi__ig .instagram-wrapper {
-    /* IG's embed.js sets an explicit max-width on the rendered iframe.
-       The wrapper handles centering + a sensible min-height so the column
-       doesn't collapse before the iframe is rendered. */
-    min-height: 360px;
-    display: flex;
-    justify-content: center;
-  }
-  .smf-testi__ig .instagram-media {
-    margin: 0 !important;       /* IG's stylesheet sets 1px auto by default */
-    width: 100% !important;
-    max-width: 380px !important;
-  }
-  .smf-testi__ig .instagram-text {
-    /* v10.1: caption text reads on the dark-rust section bg. Previously set
-       to --color-brand-brown (#3e2a14) which is near-identical to the bg
-       (#682412) — failed WCAG AA contrast and was unreadable. Now cream
-       on dark-rust matches the rest of the section's body text.
-       Verified by `npm run audit:a11y` — color-contrast violation gone. */
-    color: var(--color-brand-cream);
-    font-size: 14px;
-    line-height: 1.6;
-  }
-  .smf-testi__ig .instagram-text p { margin: 0 0 8px; }
-  .smf-testi__ig .instagram-text p:last-child { margin-bottom: 0; }
-  .smf-testi__ig .instagram-text strong {
-    /* Same root cause as above — was --color-brand-rust-dark which equals
-       the section bg, making headlines invisible. brown-tan matches the
-       section title's accent color. */
-    color: var(--color-brand-brown-tan);
-  }
-
-  @media (max-width: 960px) {
-    .smf-testi__ig-grid { grid-template-columns: repeat(2, 1fr); }
-  }
-  @media (max-width: 640px) {
-    .smf-testi__ig-grid { grid-template-columns: 1fr; gap: 24px; }
-  }
-
-  .smf-btn {
-    display: inline-block;
-    padding: 14px 32px;
-    font-family: var(--font-display);
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background 0.2s, color 0.2s;
-  }
-  .smf-btn--rust { background: var(--color-brand-rust-bright); color: #fff; }
-  .smf-btn--rust:hover { background: #bf6344; color: #fff; }
-
-  /* 9. Discover Real Value banner ----------------------------- */
-  .smf-banner {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    align-items: stretch;
-  }
-  .smf-banner__left {
-    background: #dc4a1e;
-    color: #fff;
-    padding: 30px 8% 30px 3%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  .smf-banner__left h3 {
-    font-family: var(--font-display);
-    font-size: clamp(22px, 2.6vw, 32px);
-    color: #fff;
-    /* 2026-05 audit fix v3: Title Case to match live (was: uppercase) */
-    text-align: right;
-    margin: 0;
-    line-height: 1.25;
-    max-width: 660px;
-  }
-  .smf-banner__right {
-    background: var(--color-brand-cream);
-    padding: 30px 8%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-  /* 10. Case study --------------------------------------------- */
-  .smf-case { background: #fff; padding: 70px 0 60px; }
-  .smf-case__grid {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    gap: 50px;
-    align-items: start;
-  }
-  .smf-case__text p { line-height: 1.7; margin: 0 0 14px; color: var(--color-brand-brown); }
-  .smf-case__text a { color: var(--color-brand-rust-dark); text-decoration: underline; }
-  .smf-case__text strong { color: var(--color-brand-rust-dark); }
-  .smf-case__sub { font-size: clamp(20px, 2.2vw, 26px); margin-top: 24px; }
-  .smf-case__photo img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 4px;
-    box-shadow: 0 4px 18px rgba(62, 42, 20, 0.18);
-  }
-
-  /* 11. Top Dollar grid ---------------------------------------- */
-  .smf-grid { background: var(--color-brand-cream-light, #f6e9cf); padding: 70px 0 80px; }
-  .smf-grid__cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 36px 28px;
-    margin-top: 36px;
-  }
-  .smf-grid__card { text-align: center; }
-  .smf-grid__card img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
-    display: block;
-    border-radius: 4px;
-    margin-bottom: 14px;
-  }
-  .smf-grid__card h4 {
-    font-family: var(--font-display);
-    font-size: clamp(18px, 1.8vw, 22px);
-    color: var(--color-brand-rust-dark);
-    text-transform: uppercase;
-    margin: 0 0 8px;
-  }
-  .smf-grid__card p { font-size: 14px; line-height: 1.6; color: var(--color-brand-brown); margin: 0; }
-
-  /* 12. FAQs --------------------------------------------------- */
-  /* 2026-05 audit fix v3: section now uses the shared <FAQ /> component
-     (wood-textured cream box with arrow clip-path) for visual consistency
-     with the homepage. All .smf-faq* CSS deleted; styles live in FAQ.astro. */
-
-
-  /* ---- Responsive ------------------------------------------- */
-  @media (max-width: 1024px) {
-    .smf-intro__grid { grid-template-columns: 1fr; gap: 32px; }
-    .smf-intro__copy { grid-template-columns: 30% 70%; }
-    .smf-grid__cards { grid-template-columns: repeat(3, 1fr); }
-  }
-  @media (max-width: 900px) {
-    /* Mobile overflow fix (2026-08-07). Two bugs compounded here:
-       1. This rule listed `.smf-meet__grid`, which does not exist — the
-          element is `.smf-meet__row` — so the Meet Joe section never
-          collapsed to one column on phones at all.
-       2. The 600px lite-youtube plus its negative margin then pushed the
-          page 443px wider than a 375px viewport.
-       Fixed by correcting the selector and applying the same treatment
-       already shipped on the Martin page. */
-    .smf-meet__row,
-    .smf-split__grid,
-    .smf-case__grid,
-    .smf-banner {
-      grid-template-columns: 1fr;
-    }
-    .smf-meet__video,
-    .smf-meet__panel {
-      min-width: 0;
-    }
-    .smf-lite-yt {
-      width: 100%;
-      margin-left: 0;
-    }
-    .smf-meet__video { padding-top: 0; }
-    /* Desktop-only decorations: the offset video frame and the rust triangle
-       are sized for a short two-column row and become a wedge once stacked. */
-    .smf-meet__video::before,
-    .smf-meet__row::after {
-      content: none;
-    }
-    .smf-meet__row::before {
-      top: -24px;
-      bottom: -24px;
-      left: -12px;
-      right: -12px;
-    }
-    .smf-split__grid--reverse .smf-split__photo { order: -1; }
-    .smf-process__grid { grid-template-columns: 1fr; }
-    .smf-banner__left,
-    .smf-banner__right { justify-content: center; padding: 30px 24px; }
-    .smf-banner__left h3 { text-align: center; }
-    .smf-grid__cards { grid-template-columns: repeat(2, 1fr); }
-    /* v10: .smf-testi__grid replaced by .smf-testi__masonry (CSS columns) — see
-       per-breakpoint rules nearer the section's main styles. Kept this comment
-       so future searches for `smf-testi__grid` land somewhere informative. */
-    .smf-intro__copy { grid-template-columns: 1fr; text-align: center; }
-    .smf-intro__photo img { max-width: 240px; }
-  }
-  @media (max-width: 600px) {
-    .smf-hero { padding: 180px 16px 40px; }
-    .smf-intro { padding: 40px 0; }
-    .smf-meet, .smf-split, .smf-process, .smf-testi, .smf-case, .smf-grid { padding: 50px 0; }
-    .smf-meet__panel { padding: 24px; }
-    .smf-intro__formwrap { padding: 22px 18px; }
-    .smf-grid__cards { grid-template-columns: 1fr; }
-  }
-</style>
