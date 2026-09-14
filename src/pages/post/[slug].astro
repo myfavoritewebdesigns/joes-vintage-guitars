@@ -22,6 +22,7 @@ import OneOwner1960TelecasterStory from "../../components/OneOwner1960Telecaster
 import BillJaguarStory from "../../components/BillJaguarStory.astro";
 import OneOwner1949MartinStory from "../../components/OneOwner1949MartinStory.astro";
 import OneOwner1955MartinD28Story from "../../components/OneOwner1955MartinD28Story.astro";
+import OneOwner1956Martin00021Story from "../../components/OneOwner1956Martin00021Story.astro";
 import LesPaulFamilyGuide from "../../components/LesPaulFamilyGuide.astro";
 import GibsonSGFamilyGuide from "../../components/GibsonSGFamilyGuide.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
@@ -58,6 +59,7 @@ const isOneOwner1960TelecasterStory = entry.id === "one-owner-1960-fender-teleca
 const isBillJaguarStory = entry.id === "bill-one-owner-1966-fender-jaguar";
 const isOneOwner1949MartinStory = entry.id === "one-owner-1949-martin-0-18";
 const isOneOwner1955MartinD28Story = entry.id === "one-owner-1955-martin-d28";
+const isOneOwner1956Martin00021Story = entry.id === "one-owner-1956-martin-000-21";
 const isFirebirdGuide = entry.id === "gibson-firebird-history-authentication-value";
 const isGibsonJ200Guide = entry.id === "gibson-j200-model-history-authentication-guide";
 const isEs225Guide = entry.id === "gibson-es-225-guide";
@@ -372,7 +374,7 @@ const articleSchema = {
 ---
 
 <Layout
-  bodyClass={isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : "blog-post-page"}
+  bodyClass={isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : "blog-post-page"}
   title={`${data.title} | Joe's Vintage Guitars`}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
@@ -402,7 +404,9 @@ const articleSchema = {
     </>
   )}
 
-  {isMartinD28OwnerStory ? (
+  {isOneOwner1956Martin00021Story ? (
+    <OneOwner1956Martin00021Story />
+  ) : isMartinD28OwnerStory ? (
     <MartinD28OwnerStory />
   ) : isOneOwner1955MartinD28Story ? (
     <OneOwner1955MartinD28Story />
