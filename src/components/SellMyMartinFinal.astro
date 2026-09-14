@@ -1,0 +1,723 @@
+---
+import LicensedImage from "./primitives/LicensedImage.astro";
+import Button from "./primitives/Button.astro";
+import LeadForm from "./LeadForm.astro";
+import ContactSection from "./ContactSection.astro";
+import { resolveImage } from "../lib/images";
+import { contact, hrefs } from "../config/site";
+import martinTestimonials from "../../reference/martin-testimonials.json";
+
+interface FAQItem {
+  q: string;
+  a: string;
+}
+
+interface Props {
+  faqs: FAQItem[];
+}
+
+const { faqs } = Astro.props;
+const reviewUrl = (name: string) =>
+  martinTestimonials.find((review) => review.name === name)?.link ?? hrefs.googleReviews;
+
+const reviews = [
+  { name: "Adrienne Young", detail: "Sold a 1920s Martin", quote: "Fair, courteous, gracious and trustworthy.", url: reviewUrl("Adrienne Young") },
+  { name: "Tony Michaud", detail: "Received a Martin D-18 appraisal", quote: "They took the time to look at the photos of my Martin D18 and emailed back an appraisal.", url: reviewUrl("Tony Michaud") },
+  { name: "Larry Hattier", detail: "Sold a loved vintage guitar", quote: "He made a very fair offer immediately!", url: reviewUrl("Larry Hattier") },
+  { name: "Bobbie Jo Kelly Greene", detail: "Sold three inherited vintage guitars", quote: "He offered me an excellent price, & helped me through the process of getting them to him.", url: reviewUrl("Bobbie Jo Kelly Greene") },
+  { name: "Marie Coyle", detail: "Sold an inherited guitar collection", quote: "His offer was fair and we appreciated how quickly our brother's collection was moved from another state.", url: reviewUrl("Marie Coyle") },
+  { name: "Jessica Hammond", detail: "Compared several offers before selling", quote: "The entire process of selling/shipping is flawless, simple and time saving.", url: reviewUrl("Jessica Hammond") },
+];
+
+const shippingReviews = [
+  { name: "Jessica Hammond", quote: "The entire process of selling/shipping is flawless, simple and time saving.", url: reviewUrl("Jessica Hammond") },
+  { name: "Larry Hattier", quote: "The shipping process following was very straightforward.", url: reviewUrl("Larry Hattier") },
+  { name: "Bobbie Jo Kelly Greene", quote: "Within 20 minutes the guitar's were on there way to him & the money was in my account.", url: reviewUrl("Bobbie Jo Kelly Greene") },
+];
+
+const ownerStories = [
+  {
+    title: "One Family From New: A 1946 Martin D-28",
+    detail: "One Family, Apache Junction",
+    summary: "The original owner's grandson shared this herringbone D-28 and the family connection that stayed with it.",
+    url: "/post/one-family-1946-martin-d-28/",
+    image: resolveImage("/images/blog/one-family-1946-martin-d-28/1946-martin-d-28-original-owners-grandson.jpeg")!,
+    imageAlt: "The original owner's grandson holding the family's 1946 Martin D-28",
+  },
+  {
+    title: "Linda Gayle's One-Owner 1949 Martin 0-18",
+    detail: "One Owner, Iowa",
+    summary: "Linda toured Iowa, played on local radio and kept this small Martin through a lifetime of music.",
+    url: "/post/one-owner-1949-martin-0-18/",
+    image: resolveImage("/images/blog/one-owner-1949-martin-0-18/linda-gayle-family-with-1949-martin-0-18.jpg")!,
+    imageAlt: "Linda Gayle's family member holding the one-owner 1949 Martin 0-18",
+  },
+  {
+    title: "Bill Minnich's One-Owner 1955 Martin D-28",
+    detail: "One Owner, A Lifetime of Music",
+    summary: "Bill bought it new in 1955. It followed him through Navy service, disappeared for seven years and returned to his family.",
+    url: "/post/one-owner-1955-martin-d28/",
+    image: resolveImage("/images/blog/one-owner-1955-martin-d28/steve-minnich-1955-martin-d28.jpeg")!,
+    imageAlt: "Steve Minnich holding the worn 1955 Martin D-28 his father bought new",
+  },
+];
+
+const values = [
+  { title: "Model and Year", body: "A prewar D-28 starts in a different place than a 1960s D-28, just as an early 000 or OM can differ sharply from a later example.", icon: "M4 19.5V4.5A2.5 2.5 0 0 1 6.5 2H20v17H6.5A2.5 2.5 0 0 0 4 21.5v-2Z M8 6h8 M8 10h8 M8 14h5" },
+  { title: "Tonewoods and Bracing", body: "Brazilian rosewood, Adirondack spruce and original scalloped bracing can have a major effect on collector demand and value.", link: "/martin-d-28-d-18-d-45-dreadnought-value-guide/", linkLabel: "Read the Martin dreadnought value guide", icon: "M14.7 6.3a1 1 0 0 0-1.4-1.4l-8 8a2 2 0 1 0 2.8 2.8l8-8a1 1 0 0 0-1.4-1.4Z M16 3l5 5 M3 21l4-1-3-3-1 4Z" },
+  { title: "Original Finish and Parts", body: "The original finish, bridge, tuners, pickguard and internal work all matter. Keep every replaced part with the guitar.", icon: "M12 3l1.7 4.3L18 9l-4.3 1.7L12 15l-1.7-4.3L6 9l4.3-1.7L12 3Z M5 15l.8 2.2L8 18l-2.2.8L5 21l-.8-2.2L2 18l2.2-.8L5 15Z" },
+  { title: "Condition and Repairs", body: "Cracks, neck resets and bridge work are common on old acoustics. Good repairs can keep a guitar playable, but they still affect the offer.", icon: "M14.7 6.3a4 4 0 0 0-5-5L12 4l-3 3-2.7-2.7a4 4 0 0 0 5 5L4 16.6A2 2 0 1 0 6.8 19.4L14.7 11.5a4 4 0 0 0 5-5L17 9l-3-3 2.7-2.7Z" },
+  { title: "Case and Paperwork", body: "An original case, receipts, warranty papers, repair records and replaced parts should stay together with the guitar.", icon: "M6 2h9l3 3v17H6V2Z M14 2v4h4 M9 11h6 M9 15h6" },
+  { title: "Ownership History", body: "Family photographs and a clear original-owner story can add context and value that the serial number alone cannot show.", link: "/post/one-owner-1955-martin-d28/", linkLabel: "Read Bill Minnich's D-28 story", icon: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2 M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z M22 21v-2a4 4 0 0 0-3-3.9 M16 3.1a4 4 0 0 1 0 7.8" },
+];
+
+const valueRows = [
+  ["Pre-War D-45 (1936 to 1942)", "$450,000 to $675,000"],
+  ["Pre-War D-28 (1931 to 1944)", "$80,000 to $300,000"],
+  ["Pre-War D-18 (1931 to 1944)", "$25,000 to $110,000"],
+  ["D-28 (1950 to 1959)", "$12,000 to $19,000"],
+  ["D-28 (1960 to 1969)", "$6,000 to $11,500"],
+  ["D-18 (1950 to 1959)", "$7,000 to $11,000"],
+] as const;
+
+const purchases = [
+  { image: resolveImage("images/sell-martin/1947-martin-d-28-purchase-800x1200.jpg")!, alt: "Vintage 1947 Martin D-28 purchased by Joe's Vintage Guitars", title: "1947 Martin D-28", price: "$28,000" },
+  { image: resolveImage("images/sell-martin/1945-martin-d-18-purchase-800x1200.jpg")!, alt: "Vintage 1945 Martin D-18 purchased by Joe's Vintage Guitars", title: "1945 Martin D-18", price: "$13,000" },
+  { image: resolveImage("images/sell-martin/1949-martin-000-28-purchase-800x1200.jpg")!, alt: "Vintage 1949 Martin 000-28 purchased by Joe's Vintage Guitars", title: "1949 Martin 000-28", price: "$11,000" },
+  { image: resolveImage("images/sell-martin/1976-martin-000-45-purchase-800x1200.jpg")!, alt: "Rare 1976 Martin 000-45 purchased by Joe's Vintage Guitars", title: "1976 Martin 000-45", price: "$8,900", note: ["Read the full 1976 Martin 000-45 guide", "/post/1976-martin-000-45-specs-history-value-guide/"] },
+  { image: resolveImage("images/sell-martin/1947-martin-00-21-purchase-800x1200.jpg")!, alt: "Vintage 1947 Martin 00-21 purchased by Joe's Vintage Guitars", title: "1947 Martin 00-21", price: "$7,500" },
+  { image: resolveImage("images/sell-martin/1960-martin-000-18-purchase-800x1200.jpg")!, alt: "Vintage 1960 Martin 000-18 purchased by Joe's Vintage Guitars", title: "1960 Martin 000-18", price: "$6,700" },
+  { image: resolveImage("images/sell-martin/1931-martin-0-18k-purchase-800x1200.jpg")!, alt: "Vintage 1931 Martin 0-18K koa acoustic guitar purchased by Joe's Vintage Guitars", title: "1931 Martin 0-18K", price: "$5,000" },
+];
+
+const modelGuides = [
+  { title: "Martin D-18", era: "1930s Through The 1960s", buying: "I pay close attention to prewar examples, Adirondack spruce tops, scalloped bracing and clean postwar guitars.", url: "/post/martin-d18-history-specs-authentication-value-guide/", action: "Read the Martin D-18 guide", image: resolveImage("images/sell-martin/1953-martin-D-18-1-1024x682.jpg")!, imageAlt: "Vintage 1953 Martin D-18 acoustic guitar" },
+  { title: "Martin D-28", era: "1930s Through The 1960s", buying: "Herringbone D-28s and Brazilian rosewood examples from the 1930s through the late 1960s are always of interest.", url: "/martin-d-28-d-18-d-45-dreadnought-value-guide/", action: "Read the Martin dreadnought value guide", image: resolveImage("images/sell-martin/1959-martin-D-28-1024x683.jpg")!, imageAlt: "Vintage 1959 Martin D-28 acoustic guitar" },
+  { title: "Martin 0 Models", era: "1800s Through The 1960s", buying: "I buy 0-18, 0-21 and 0-28 guitars, including early 12-fret examples and well-played family instruments.", url: "/post/martin-0-00-000-history-authentication-value-guide/", action: "Compare Martin 0, 00 and 000 models", image: resolveImage("images/sell-martin/martin-acoustic-guitar-1024x682.jpg")!, imageAlt: "Vintage Martin 0-size acoustic guitar" },
+  { title: "Martin 00 Models", era: "1900s Through The 1960s", buying: "I buy Grand Concert 00-18, 00-21 and 00-28 guitars in both 12-fret and 14-fret configurations.", url: "/post/martin-0-00-000-history-authentication-value-guide/", action: "Read the small-body Martin guide", image: resolveImage("images/sell-martin/1920s-martin-00-18-1-1024x683.jpg")!, imageAlt: "Vintage 1920s Martin 00-18 acoustic guitar" },
+  { title: "Martin 000 Models", era: "1920s Through The 1970s", buying: "I buy vintage 000-18, 000-21, 000-28 and rare high-trim 000 models with original or well-documented features.", url: "/post/martin-0-00-000-history-authentication-value-guide/", action: "Compare vintage Martin 000 models", image: resolveImage("images/sell-martin/1956-martin-000-21-1-1024x683.jpg")!, imageAlt: "Vintage 1956 Martin 000-21 acoustic guitar" },
+  { title: "Martin OM Models", era: "1929 Through The 1930s", buying: "Original Orchestra Models are especially scarce. I look closely at body shape, scale length, neck joint and period-correct construction.", url: "/martin-serial-and-model-numbers/", action: "Use the Martin model and serial guide", image: resolveImage("images/sell-martin/martin-om-42-1024x682.jpg")!, imageAlt: "Vintage Martin OM-42 acoustic guitar" },
+  { title: "Martin Style 40, 41, 42 and 45", era: "Prewar Through The 1970s", buying: "I buy high-trim Martins with pearl inlay, from rare early examples through carefully documented later guitars.", url: "/martin-d-28-d-18-d-45-dreadnought-value-guide/", action: "Review vintage Martin values", image: resolveImage("images/sell-martin/martin-d-45-brazilian-rosewood-1024x682.jpg")!, imageAlt: "Vintage Martin D-45 with pearl inlay" },
+  { title: "Martin Electric Models", era: "Late 1950s Through The 1960s", buying: "I buy factory D-18E and D-28E guitars along with other unusual Martin electrics and thin-line models.", url: "/post/martin-d18e-vs-d28e-authentication-guide/", action: "Compare the Martin D-18E and D-28E", image: resolveImage("images/sell-martin/1959-martin-d-28-e-1-1024x683.jpg")!, imageAlt: "Rare 1959 Martin D-28E electric acoustic guitar" },
+];
+
+const heroGuitar = resolveImage("images/sell-martin/1959-martin-D-28-1024x683.jpg")!;
+const shippingPhoto = resolveImage("images/sell-martin/1929-martin-00-21-1-1024x683.jpg")!;
+const joePhoto = resolveImage("images/fender-sn/about-me-joe-1.jpg")!;
+const preservationPhoto = resolveImage("/images/blog/one-owner-1955-martin-d28/steve-minnich-1955-martin-d28.jpeg")!;
+const sellerPhoto = resolveImage("images/sell-martin/Copy-of-IMG_1620-600x800.jpg")!;
+---
+
+<div class="smm-header-collage" aria-hidden="true"></div>
+
+<div class="smm-page">
+  <section class="smm-hero" id="top">
+    <div class="smm-hero__copy">
+      <p class="smm-eyebrow">Vintage Martin Specialist</p>
+      <h1>Sell Your Vintage Martin to a Buyer Who Knows What It Is</h1>
+      <p class="smm-hero__lead">Vintage guitars have been at the center of my life for more than twelve years. I love learning where an old Martin has been, who played it and the stories that stayed with it. Send me a few photos of your D-18, D-28, 0, 00, 000, OM or other vintage Martin and tell me what you know. I'll look it over myself and, if it's a guitar I can buy, make you a cash offer with no obligation.</p>
+      <div class="smm-hero__actions">
+        <Button href="#appraisal" variant="rust" size="lg">Fill Out the Form</Button>
+        <a class="smm-button-secondary" href={hrefs.tel}>Call or Text Joe</a>
+      </div>
+      <a class="smm-hero__story-link" href="#owner-stories">Read Guitar Stories</a>
+      <div class="smm-trust-row">
+        <span>Insured Nationwide Shipping</span>
+        <span>No Obligation</span>
+        <span>Deal Directly With Joe</span>
+      </div>
+    </div>
+    <figure class="smm-hero__image">
+      <LicensedImage src={heroGuitar} alt="Vintage 1959 Martin D-28 acoustic guitar in its original case" width={950} loading="eager" fetchpriority="high" />
+    </figure>
+  </section>
+
+  <section class="smm-proof" aria-label="Joe's experience">
+    <div><strong>12+</strong><span>Years Buying Full-Time</span></div>
+    <div><strong>10,000+</strong><span>Instruments Appraised</span></div>
+    <div><strong>50</strong><span>States Bought From</span></div>
+    <div><strong>2,100+</strong><span>Positive Reviews</span></div>
+  </section>
+
+  <span class="smm-anchor" id="receive-free-consultation"></span>
+  <section class="smm-appraisal" id="appraisal">
+    <div class="smm-appraisal__copy"><p class="smm-eyebrow">Talk With Me</p><h2>Tell Me About Your Martin</h2><p>You don't need to know the model, year or value. Send me whatever photos you have and tell me anything you know about the guitar. I'll look it over myself and get back to you.</p><p>If you'd like to know the ideal photos to send, <a href="#photo-guide">read the six-photo guide</a>.</p><a href={hrefs.tel}>Call or Text {contact.phone}</a></div>
+    <LeadForm formId="sell-my-martin" instrumentMode="model-only" submitLabel="Send" />
+  </section>
+
+  <section class="smm-section smm-process" id="process">
+    <span class="smm-anchor" id="how-to-sell-your-guitar"></span>
+    <span class="smm-anchor" id="my-guitar-buying-process"></span>
+    <header class="smm-heading">
+      <p class="smm-eyebrow">How It Works</p>
+      <h2>Selling Your Martin Doesn't Have to Be Complicated</h2>
+      <p>You'll deal with me from the first message through payment. Here's what I need to get started.</p>
+    </header>
+    <div class="smm-steps">
+      <article><span>01</span><h3>Send Me Photos</h3><p>Take clear photos of the front, back, headstock, neck-block stamp and case. Please don't clean or repair the guitar first.</p></article>
+      <article><span>02</span><h3>I'll Look It Over</h3><p>I'll identify the model and year, then check the construction details, condition and repairs that affect its value. There's no charge for the appraisal.</p></article>
+      <article><span>03</span><h3>I'll Make an Offer</h3><p>If it's a guitar I can buy, I'll make you a cash offer. You're free to accept it or turn it down.</p></article>
+      <article><span>04</span><h3>Agree On Shipping And Payment</h3><p>If you decide to sell, we'll agree on the shipping and payment method before the guitar moves.</p></article>
+    </div>
+  </section>
+
+  <section class="smm-section smm-shipping" id="shipping">
+    <div class="smm-shipping__lead">
+      <div class="smm-shipping__intro">
+        <p class="smm-eyebrow">Nationwide Shipping</p>
+        <h2>A Simple, Proven Way to Ship Your Vintage Martin</h2>
+        <p>Sellers across the country have trusted me with valuable and sentimental guitars. I explain the prepaid FedEx process with the offer so you can consider the shipping arrangements before deciding.</p>
+        <p>We agree on the shipping and payment details before the guitar moves, and I stay available throughout the process.</p>
+        <div class="smm-shipping__included"><strong>There's no shipping cost to you.</strong> Through my special FedEx account, the box, professional packing, fully insured shipping and tracking are all provided at the FedEx location.</div>
+      </div>
+      <figure class="smm-shipping__photo">
+        <LicensedImage src={shippingPhoto} alt="Vintage 1929 Martin 00-21 resting in its purple-lined case" width={720} loading="lazy" />
+        <figcaption>A vintage Martin 00-21 resting in its case before the handoff.</figcaption>
+      </figure>
+    </div>
+    <div class="smm-shipping__columns">
+      <article><h3>What You Receive With the Offer</h3><ul><li>A clear explanation of the process</li><li>Shipping and insurance details</li><li>Your choice of payment method</li></ul></article>
+      <article><h3>What I Handle if You Decide to Sell</h3><ul><li>Prepaid shipping arrangements</li><li>Transit coverage and tracking</li><li>Same-day payment in most cases</li></ul></article>
+    </div>
+    <div class="smm-shipping__evidence">
+      <header><p class="smm-eyebrow">From Sellers Who Used the Process</p><h3>Read What Sellers Said</h3><p>These comments come from people who shipped guitars to me. Each one links to the original Google review.</p></header>
+      <div class="smm-shipping__reviews">
+        {shippingReviews.map((review) => (
+          <a href={review.url} target="_blank" rel="noopener noreferrer">
+            <span class="smm-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <blockquote>“{review.quote}”</blockquote>
+            <strong>{review.name}</strong>
+            <small>Read the Google Review</small>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="smm-section smm-value" id="value">
+    <span class="smm-anchor" id="how-much-is-my-martin-guitar"></span>
+    <span class="smm-anchor" id="find-out-martin-really-worth"></span>
+    <div class="smm-value__intro-grid">
+      <header class="smm-heading">
+        <p class="smm-eyebrow">Current Vintage Martin Values</p>
+        <h2>How Much Is My Martin Guitar Worth?</h2>
+        <p>It depends on the model, the year, the condition and how original it is. Send me a few photos and I'll give you a <a href="/free-appraisal/">free appraisal</a> with a clear answer. It's quick, accurate and there's no obligation to sell.</p>
+        <p>These broad ranges come from my <a href="/martin-d-28-d-18-d-45-dreadnought-value-guide/">Martin D-28, D-18 and D-45 value guide</a> and are current as of August 2026.</p>
+        <a class="smm-appraisal-route" href="/free-appraisal/"><strong>Want an appraisal for your guitar?</strong><span>Visit the Free Appraisal Page</span></a>
+      </header>
+      <div class="smm-worth-wrap">
+        <table class="smm-worth">
+          <caption>Broad market ranges for selected vintage Martin dreadnoughts</caption>
+          <tbody>
+            {valueRows.map(([model, price]) => (<tr><th scope="row">{model}</th><td>{price}</td></tr>))}
+          </tbody>
+        </table>
+        <p>Condition, originality and repairs move every one of these numbers, so treat them as a starting point, not an appraisal.</p>
+      </div>
+    </div>
+    <header class="smm-value-factors__heading">
+      <p class="smm-eyebrow">What Goes Into My Offer</p>
+      <h3>The Details I Check Before I Make an Offer</h3>
+    </header>
+    <div class="smm-value__grid">
+      {values.map((item) => (
+        <article>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={item.icon}></path></svg>
+          <h3>{item.title}</h3><p>{item.body}</p>
+          {item.link && <a class="smm-value-card__link" href={item.link}>{item.linkLabel}</a>}
+        </article>
+      ))}
+    </div>
+    <p class="smm-section-link">For more detail, read <a href="/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/">how I determine the value of an old Martin</a>, use the <a href="/martin-serial-and-model-numbers/">Martin serial-number guide</a> or compare <a href="/post/martin-0-00-000-history-authentication-value-guide/">Martin 0, 00 and 000 models</a>.</p>
+  </section>
+
+  <span class="smm-anchor" id="what-i-have-paid-for-vintage-martin-guitars"></span>
+  <section class="smm-section smm-paid" aria-labelledby="smm-paid-title">
+    <header class="smm-heading smm-paid__heading">
+      <p class="smm-eyebrow">Real Guitars, Real Prices</p>
+      <h2 id="smm-paid-title">What I Have Paid for Vintage Martin Guitars</h2>
+      <p>These are seven vintage Martins I bought and the actual cash price I paid for each one. Every guitar is different, so what I can pay for yours depends on its year, condition and originality.</p>
+    </header>
+    <div class="smm-paid__grid">
+      {purchases.map((guitar) => (
+        <article class="smm-paid__card">
+          <div class="smm-paid__image"><LicensedImage src={guitar.image} alt={guitar.alt} width={460} loading="lazy" /></div>
+          <div class="smm-paid__copy">
+            <h3>{guitar.title}</h3>
+            <p><span>I Paid</span><strong>{guitar.price}</strong></p>
+            {guitar.note && <a href={guitar.note[1]}>{guitar.note[0]}</a>}
+          </div>
+        </article>
+      ))}
+      <article class="smm-paid__card smm-paid__card--cta">
+        <div><p class="smm-eyebrow">Your Martin Could Be Next</p><h3>Send Me a Few Photos</h3><p>I'll tell you what your Martin is worth. The appraisal is free, and there's no obligation to sell.</p><Button href="#appraisal" variant="rust" size="lg">Tell Me About Your Martin</Button></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="smm-section smm-photo-guide" id="photo-guide">
+    <div>
+      <p class="smm-eyebrow">What To Send</p>
+      <h2>Six Photos That Help Me Make An Accurate Offer</h2>
+      <p>Clear, straight-on photos help me evaluate your Martin and determine what I can pay. Use natural light, and don't loosen strings or take the guitar apart.</p>
+    </div>
+    <ol>
+      <li><span>01</span><strong>Full Front</strong><small>Include the entire body and headstock.</small></li>
+      <li><span>02</span><strong>Full Back</strong><small>Show the neck, body and any wear or repairs.</small></li>
+      <li><span>03</span><strong>Headstock Front</strong><small>Keep the logo, tuners and nut in view.</small></li>
+      <li><span>04</span><strong>Neck-Block Stamp</strong><small>Photograph the model and serial number through the soundhole.</small></li>
+      <li><span>05</span><strong>Bridge and Top</strong><small>Show the bridge, pickguard, soundhole and any cracks or repairs.</small></li>
+      <li><span>06</span><strong>Case and Paperwork</strong><small>Include tags, receipts, old parts and family photos.</small></li>
+    </ol>
+  </section>
+
+  <section class="smm-section smm-owner-stories" id="owner-stories">
+    <span class="smm-anchor" id="consider-selling-your-guitar"></span>
+    <header class="smm-heading smm-owner-stories__heading">
+      <p class="smm-eyebrow">Guitars I've Bought</p>
+      <h2>Original Owners and the Stories Behind Their Martins</h2>
+      <p>These Martins arrived with the names, photographs and memories of the people who played them. I preserve those stories so they can travel with the instruments.</p>
+    </header>
+    <div class="smm-owner-grid">
+      {ownerStories.map((story) => (
+        <a class="smm-owner-card" href={story.url}>
+          <div class="smm-owner-card__image"><LicensedImage src={story.image} alt={story.imageAlt} width={620} loading="lazy" /></div>
+          <div class="smm-owner-card__copy"><span>{story.detail}</span><h3>{story.title}</h3><p>{story.summary}</p><small>Read the Complete Story</small></div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="smm-section smm-meet" id="meet-connoisseur-joe-dampt">
+    <div class="smm-meet__media">
+      <figure><LicensedImage src={joePhoto} alt="Joe Dampt playing a vintage guitar" width={720} loading="lazy" /></figure>
+      <div class="smm-meet__video"><lite-youtube videoid="fTpIquyV-j8" playlabel="Play Meet Joe Dampt of Joe's Vintage Guitars"></lite-youtube></div>
+    </div>
+    <div>
+      <p class="smm-eyebrow">Meet the Buyer</p>
+      <h2>I'm Joe Dampt</h2>
+      <p>I buy vintage Martin acoustic guitars from owners in all 50 states. My offers are higher than a typical trade-in or local music-store offer, and every appraisal and cash offer is free with no obligation. When an in-person meeting makes sense, I can inspect the guitar and buy it on the spot.</p>
+      <p>I've spent more than twelve years buying vintage guitars full-time and have appraised more than 10,000 instruments. I own Joe's Vintage Guitars in Mesa, Arizona, where I meet sellers by appointment. I can meet many owners in the Phoenix area, and sellers elsewhere can use my prepaid FedEx process.</p>
+      <p>I pay attention to the things that separate one Martin from another: the neck-block stamp, tonewoods, bracing, finish, bridge, tuners, repairs and the story that came with it. If I can buy your guitar, I'll explain what I see and make you an offer.</p>
+      <div class="smm-credential"><strong>Published by Vintage Verified</strong><p>Vintage Verified is an independent Nashville lab that analyzes the finishes, plastics and hardware on vintage guitars without buying, selling or valuing them. I enjoyed contributing a guest essay about the authentication lessons I've learned from years of handling vintage instruments.</p><a href="https://www.vintageverified.com/joes-vintage" target="_blank" rel="noopener">Read My Vintage Verified Essay</a></div>
+      <div class="smm-as-seen"><strong>As Seen In</strong><a href="https://www.kjzz.org/the-show/see-inside-joes-vintage-guitars-in-mesa" target="_blank" rel="noopener">KJZZ 91.5</a><a href="https://voyagephoenix.com/interview/exploring-life-business-with-joseph-dampt-of-joes-vintage-guitars-llc" target="_blank" rel="noopener">VoyagePhoenix</a><a href="https://www.vintageverified.com/joes-vintage" target="_blank" rel="noopener">Vintage Verified</a><a href="/reverb-reviews/">Reverb Top-Rated Seller</a></div>
+      <a class="smm-text-link" href="/about-me/">Learn More About Joe</a>
+    </div>
+  </section>
+
+  <section class="smm-section smm-preservation">
+    <figure><LicensedImage src={preservationPhoto} alt="Steve Minnich holding the 1955 Martin D-28 his father bought new" width={820} loading="lazy" /></figure>
+    <div>
+      <p class="smm-eyebrow">Provenance Matters</p>
+      <h2>Original Photos And Stories Can Add To My Offer</h2>
+      <p>When a Martin comes with original-owner photographs, receipts or a well-documented family story, I put real value on that history. Meaningful provenance can increase what I'm willing to pay because the people and stories behind vintage guitars matter to me.</p>
+      <p>I keep those materials with the guitar. I often print the owner's story and place it inside the case so the next owner knows who played it before them.</p>
+      <p>Bill Minnich bought this D-28 new in 1955. His son Steve later shared the guitar and its remarkable history with me. If you inherited a Martin, keep the case, old parts, receipts and photographs together, then send me everything you have.</p>
+      <a class="smm-text-link" href="/post/one-owner-1955-martin-d28/">Read Bill Minnich's D-28 Story</a>
+    </div>
+  </section>
+
+  <section class="smm-section smm-expertise">
+    <div><p class="smm-eyebrow">For Sellers Who Want To Learn More</p><h2>Learn More About Your Martin Before You Sell</h2></div>
+    <div>
+      <p>You don't have to research your guitar before contacting me. That's what I'm here to help with. Send me what you know, and I'll work through the details myself.</p>
+      <p>If you'd like to learn more before deciding whether to sell, these Martin resources explain how serial numbers, parts, production totals and model years fit together. I enjoy working with sellers who've done some research because it makes it easier to talk through the guitar, explain my offer and make sure we're on the same page.</p>
+      <ul class="smm-resource-links">
+        <li><a href="/martin-serial-and-model-numbers/">Date your guitar with my Martin serial and model guide</a></li>
+        <li><a href="/martin-d-28-d-18-d-45-dreadnought-value-guide/">Compare D-18, D-28 and D-45 values</a></li>
+        <li><a href="/post/martin-d18-history-specs-authentication-value-guide/">Identify a vintage Martin D-18</a></li>
+        <li><a href="/post/martin-0-00-000-history-authentication-value-guide/">Compare Martin 0, 00 and 000 models</a></li>
+        <li><a href="/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/">Learn how I evaluate an old Martin acoustic</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="smm-section smm-options" id="best-way-to-sell">
+    <header class="smm-heading"><p class="smm-eyebrow">Know Your Options</p><h2>The Best Way to Sell a Vintage Martin: Dealer, Consignment, Auction or Reverb?</h2><p>Selling directly to me gets you a cash offer with no listing, fees or wait. Consignment or auction can bring more if the guitar sells, but you pay a commission and wait for a buyer. If you'd rather list it yourself, Reverb is where I'd point you. Just factor in the fees.</p></header>
+    <table class="smm-options__table">
+      <caption>Ways to sell a vintage Martin</caption>
+      <thead><tr><th scope="col">Option</th><th scope="col">Why People Choose It</th><th scope="col">What to Consider</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Sell Directly to Me</th><td data-label="Why People Choose It">A cash offer, no public listing, no seller fees and help with the handoff.</td><td data-label="What to Consider">I pay among the highest dealer prices, but my offer will still be a little below the guitar's full retail market value.</td></tr>
+        <tr><th scope="row">Consignment</th><td data-label="Why People Choose It">You may receive more if the guitar sells at the asking price.</td><td data-label="What to Consider">You pay a commission, and finding the right buyer usually takes several months. Some guitars remain on consignment for a year or longer.</td></tr>
+        <tr><th scope="row">Auction</th><td data-label="Why People Choose It">Several bidders can compete for a rare or well-known guitar.</td><td data-label="What to Consider">The final price is uncertain, and seller fees, photography and shipping still matter.</td></tr>
+        <tr><th scope="row">Reverb or eBay Listing</th><td data-label="Why People Choose It">You control the asking price and speak directly with buyers. Reverb also offers strong shipping protection.</td><td data-label="What to Consider">Factor in the fees and remember that disputes can favor the buyer. I wouldn't choose this for a first-time sale over $4,000.</td></tr>
+        <tr><th scope="row">Music-Store Trade-In</th><td data-label="Why People Choose It">You can finish the deal in a local store without shipping the guitar.</td><td data-label="What to Consider">Trade-in offers are typically well under market because the store has overhead, resale costs and profit requirements.</td></tr>
+      </tbody>
+    </table>
+    <aside class="smm-shipping-note" aria-label="A note on shipping insurance">
+      <p class="smm-eyebrow">A Note On Shipping</p>
+      <h3>Make Sure the Guitar Is Fully Covered</h3>
+      <p>Whether you sell directly or consign the guitar, make sure the buyer or dealer carries the right insurance. Declared-value coverage from FedEx or UPS isn't enough for a high-dollar vintage instrument. My third-party Heritage insurance policy fully covers high-dollar shipments while they're in transit.</p>
+    </aside>
+    <div class="smm-selling-resources">
+      <h3>More Help Before You Choose</h3>
+      <ul>
+        <li><a href="/sell-a-guitar-collection/">Sell a complete guitar collection to Joe</a></li>
+        <li><a href="/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/">Compare ways to sell a large guitar collection</a></li>
+        <li><a href="/post/what-to-consider-when-selling-a-vintage-guitar/">What to consider before selling a vintage guitar</a></li>
+        <li><a href="/post/mistakes-to-avoid-when-selling-a-vintage-guitar/">Mistakes to avoid when selling a vintage guitar</a></li>
+        <li><a href="/post/best-online-platforms-sell-vintage-guitars/">Compare online platforms for selling a vintage guitar</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <span class="smm-anchor" id="receive-the-highest-payout"></span>
+  <section class="smm-section smm-guides" id="guitar-families">
+    <header class="smm-heading"><p class="smm-eyebrow">Martin Models I Buy</p><h2>Vintage Martin Guitars I Buy</h2><p>I buy vintage Martin dreadnoughts, 0, 00, 000 and OM guitars from owners across the country. The cards below show some of the eras and models I'm looking for. If you don't see your Martin listed, send it anyway. I also buy unusual models, mandolins, <a href="/sell-a-guitar-collection/">complete guitar collections</a> and guitars with old repairs or changed parts.</p><a class="smm-text-link" href="#appraisal">Tell Me About Your Martin</a></header>
+    <ul class="smm-guide-grid">
+      {modelGuides.map((guide) => (
+        <li class="smm-guide-card">
+          <div class="smm-guide-card__image"><LicensedImage src={guide.image} alt={guide.imageAlt} width={620} loading="lazy" /></div>
+          <div class="smm-guide-card__copy">
+            <span>{guide.era}</span>
+            <h3><a href={guide.url}>{guide.title}</a></h3>
+            <p>{guide.buying}</p>
+            <a class="smm-guide-card__primary" href={guide.url}>{guide.action}</a>
+          </div>
+        </li>
+      ))}
+    </ul>
+    <a class="smm-all-guides" href="/blog/">Browse All Guitar Articles</a>
+  </section>
+
+  <section class="smm-section smm-reviews" id="our-clients-testimonials">
+    <header class="smm-heading"><p class="smm-eyebrow">Reviews From Sellers</p><h2>What People Say After Selling Me a Guitar</h2><p>These reviews are from people who sold guitars to me. Click any one to read the original review on Google.</p></header>
+    <figure class="smm-review-story"><LicensedImage src={sellerPhoto} alt="A Martin owner holding her vintage acoustic guitar" width={520} loading="lazy" /><figcaption>A Martin owner with the vintage acoustic guitar she shared with Joe.</figcaption></figure>
+    <div class="smm-review-grid">
+      {reviews.map((review) => (
+        <a class="smm-review-card" href={review.url} target="_blank" rel="noopener noreferrer">
+          <span class="smm-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          <blockquote>“{review.quote}”</blockquote><strong>{review.name}</strong><span>{review.detail}</span><small>Read the Google Review</small>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="smm-section smm-faq" id="faqs-about-martin">
+    <header class="smm-heading"><p class="smm-eyebrow">Questions Martin Owners Ask Me</p><h2>Before You Sell a Vintage Martin</h2><p>You don't need to identify or clean the guitar before contacting me. Send what you know, and I'll help with the rest.</p></header>
+    <div class="smm-faq__list">
+      {faqs.map((item, index) => (<details open={index === 0}><summary>{item.q}</summary><p>{item.a}</p></details>))}
+    </div>
+  </section>
+
+  <section class="smm-closing-cta">
+    <div><p class="smm-eyebrow">Ready To Sell?</p><h2>Ready To Sell Your Martin?</h2><p>Send a few photos for a same-day appraisal and a no-obligation cash offer from Joe.</p></div>
+    <div><Button href="#appraisal" variant="rust" size="lg">Fill Out the Form</Button><a class="smm-button-secondary" href={hrefs.tel}>Call or Text Joe</a><a class="smm-closing-contact" href="/contact-me/">See Contact and Location Details</a></div>
+  </section>
+
+</div>
+
+<ContactSection />
+
+<style>
+  .smm-page { overflow: clip; background: #fffdf9; color: var(--color-brand-brown); font-family: var(--font-sans); }
+  .smm-page * { box-sizing: border-box; }
+  .smm-page h1, .smm-page h2, .smm-page h3 { font-family: var(--font-display); font-weight: 600; }
+  .smm-page a { text-underline-offset: 3px; }
+  .smm-header-collage { height: clamp(190px, 16vw, 225px); background: linear-gradient(rgba(9,9,8,.45), rgba(9,9,8,.6)), url('/images/sell-hero-background.webp') center 42% / cover no-repeat; }
+  .smm-anchor { display: block; position: relative; top: -120px; visibility: hidden; }
+  .smm-eyebrow { margin: 0 0 20px; color: var(--color-brand-rust-dark); font: 700 13px/1.2 var(--font-display); letter-spacing: .15em; text-transform: uppercase; }
+  .smm-photo-guide .smm-eyebrow, .smm-appraisal .smm-eyebrow { color: var(--color-brand-brown-tan); }
+  .smm-section { padding: clamp(78px, 9vw, 132px) clamp(24px, 7vw, 110px); }
+  .smm-heading { max-width: 780px; margin-bottom: 50px; }
+  .smm-heading h2, .smm-meet h2, .smm-preservation h2, .smm-expertise h2, .smm-appraisal h2 { margin: 0 0 20px; color: var(--color-brand-brown); font-size: clamp(38px, 4.2vw, 59px); line-height: 1.04; letter-spacing: -.035em; }
+  .smm-heading > p:last-child, .smm-meet > div > p:not(.smm-eyebrow), .smm-preservation > div > p:not(.smm-eyebrow) { margin: 0; color: var(--color-brand-brown-warm); font-size: 18px; line-height: 1.7; }
+  .smm-text-link, .smm-section-link a { color: var(--color-brand-rust-dark); font-weight: 700; text-decoration: underline; }
+
+  .smm-hero { min-height: 700px; display: grid; grid-template-columns: 1.02fr .98fr; background: var(--color-brand-cream-light); }
+  .smm-hero__copy { align-self: center; padding: clamp(70px, 8vw, 125px) clamp(30px, 7vw, 110px); }
+  .smm-hero h1 { max-width: 760px; margin: 0 0 28px; color: var(--color-brand-brown); font-size: clamp(46px, 5.5vw, 78px); line-height: .99; letter-spacing: -.045em; }
+  .smm-hero__lead { max-width: 650px; margin: 0; color: var(--color-brand-brown-warm); font-size: clamp(18px, 1.6vw, 22px); line-height: 1.62; }
+  .smm-hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 34px 0; }
+  .smm-hero__story-link { display: inline-block; margin: -12px 0 28px; color: var(--color-brand-rust-dark); font-size: 15px; font-weight: 700; text-decoration: underline; }
+  .smm-button-secondary { min-height: 52px; display: inline-flex; align-items: center; justify-content: center; padding: 0 24px; border: 1px solid var(--color-brand-brown-muted); color: var(--color-brand-brown); font: 700 15px/1 var(--font-display); }
+  .smm-button-secondary:hover { border-color: var(--color-brand-rust-bright); color: var(--color-brand-rust-dark); }
+  .smm-trust-row { display: flex; flex-wrap: wrap; gap: 18px; padding-top: 24px; border-top: 1px solid var(--color-brand-brown-tan); color: var(--color-brand-brown-warm); font-size: 14px; }
+  .smm-trust-row span::before { content: '✓'; margin-right: 7px; color: var(--color-brand-rust-bright); font-weight: 800; }
+  .smm-hero__image { min-height: 560px; margin: 0; overflow: hidden; background: var(--color-brand-charcoal); }
+  .smm-hero__image :global(img) { width: 100%; height: 100%; object-fit: cover; }
+
+  .smm-proof { display: grid; grid-template-columns: repeat(4, 1fr); padding: 32px clamp(25px, 7vw, 110px); background: var(--color-brand-charcoal); color: #fff; }
+  .smm-proof div { padding: 2px 30px; border-right: 1px solid rgba(255,255,255,.2); }
+  .smm-proof div:last-child { border: 0; }
+  .smm-proof strong, .smm-proof span { display: block; }
+  .smm-proof strong { color: var(--color-brand-brown-tan); font: 600 30px/1.1 var(--font-display); }
+  .smm-proof span { margin-top: 6px; color: #fff; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+
+  .smm-process { background: #fffdf9; }
+  .smm-steps { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--color-brand-brown-tan); }
+  .smm-steps article { padding: 32px 26px 10px 0; margin-right: 28px; border-right: 1px solid var(--color-brand-brown-tan); }
+  .smm-steps article:last-child { margin-right: 0; border: 0; }
+  .smm-steps article > span { color: var(--color-brand-rust-bright); font: italic 18px/1 Georgia, serif; }
+  .smm-steps h3 { margin: 34px 0 14px; color: var(--color-brand-brown); font-size: 24px; }
+  .smm-steps p { margin: 0; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
+
+  .smm-shipping { background: var(--color-brand-cream-warm); }
+  .smm-shipping__lead { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(300px, .75fr); gap: clamp(34px, 6vw, 72px); align-items: start; }
+  .smm-shipping__intro { max-width: none; }
+  .smm-shipping__intro h2 { margin: 0 0 22px; color: var(--color-brand-brown); font-size: clamp(38px, 4.2vw, 59px); line-height: 1.04; letter-spacing: -.035em; }
+  .smm-shipping__intro > p:not(.smm-eyebrow) { max-width: 780px; margin: 0 0 14px; color: var(--color-brand-brown-warm); font-size: 18px; line-height: 1.72; }
+  .smm-shipping__included { margin-top: 30px; padding: 22px 24px; border-left: 4px solid var(--color-brand-rust-bright); background: var(--color-brand-cream-light); color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
+  .smm-shipping__included strong { display: block; margin-bottom: 4px; color: var(--color-brand-brown); font: 600 20px/1.2 var(--font-display); }
+  .smm-shipping__photo { margin: 0; overflow: hidden; border: 1px solid var(--color-brand-brown-tan); background: #fffdf9; box-shadow: 0 14px 32px rgba(65,45,28,.12); }
+  .smm-shipping__photo :global(img) { width: 100%; height: auto; display: block; aspect-ratio: 3 / 4; object-fit: cover; }
+  .smm-shipping__photo figcaption { padding: 13px 16px; color: var(--color-brand-brown-warm); font-size: 13px; line-height: 1.45; }
+  .smm-shipping__columns { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 45px; }
+  .smm-shipping__columns article { padding: 30px; border: 1px solid var(--color-brand-brown-tan); background: #fffdf9; }
+  .smm-shipping__columns h3 { margin: 0 0 18px; color: var(--color-brand-brown); font-size: 25px; }
+  .smm-shipping__columns ul { margin: 0; padding: 0; list-style: none; }
+  .smm-shipping__columns li { position: relative; padding: 10px 0 10px 26px; border-top: 1px solid var(--color-brand-cream-warm); color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.5; }
+  .smm-shipping__columns li:first-child { border-top: 0; }
+  .smm-shipping__columns li::before { content: '✓'; position: absolute; left: 0; color: var(--color-brand-rust-bright); font-weight: 800; }
+  .smm-shipping__evidence { margin-top: 58px; padding-top: 46px; border-top: 1px solid var(--color-brand-brown-tan); }
+  .smm-shipping__evidence header { max-width: 720px; }
+  .smm-shipping__evidence h3 { margin: 0 0 14px; color: var(--color-brand-brown); font-size: 34px; }
+  .smm-shipping__evidence header > p:last-child { color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
+  .smm-shipping__reviews { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 28px; }
+  .smm-shipping__reviews a { min-height: 245px; display: flex; flex-direction: column; padding: 24px; border-top: 3px solid var(--color-brand-gold); background: var(--color-brand-charcoal); color: #fff; transition: transform .2s; }
+  .smm-shipping__reviews a:hover { transform: translateY(-3px); }
+  .smm-shipping__reviews blockquote { flex: 1; margin: 20px 0; color: var(--color-brand-cream); font-size: 17px; line-height: 1.62; }
+  .smm-shipping__reviews strong { font: 600 18px/1.2 var(--font-display); }
+  .smm-shipping__reviews small { margin-top: 16px; color: var(--color-brand-brown-tan); font-size: 13px; font-weight: 700; }
+  .smm-stars { color: var(--color-brand-gold); letter-spacing: .12em; font-size: 16px; }
+
+  .smm-value { background: #fff; }
+  .smm-value__intro-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, .8fr); gap: clamp(40px, 7vw, 90px); align-items: start; }
+  .smm-value__intro-grid .smm-heading { max-width: 760px; margin-bottom: 0; }
+  .smm-value__intro-grid .smm-heading > p { color: var(--color-brand-brown-warm); font-size: 17px; line-height: 1.7; }
+  .smm-value__intro-grid .smm-heading > p + p { margin-top: 14px; }
+  .smm-worth-wrap { padding: 26px; border-top: 5px solid var(--color-brand-rust-bright); background: var(--color-brand-cream-light); box-shadow: 0 14px 32px rgba(65,45,28,.1); }
+  .smm-worth { width: 100%; border-collapse: collapse; background: #fff; }
+  .smm-worth caption { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+  .smm-worth th, .smm-worth td { padding: 14px 15px; border-bottom: 1px solid var(--color-brand-cream-warm); text-align: left; }
+  .smm-worth tr:last-child th, .smm-worth tr:last-child td { border-bottom: 0; }
+  .smm-worth tr:nth-child(odd) > * { background: rgba(104,36,18,.035); }
+  .smm-worth th { color: var(--color-brand-brown); font-size: 14px; font-weight: 700; line-height: 1.4; }
+  .smm-worth td { color: var(--color-brand-rust-dark); font: 700 15px/1.4 var(--font-display); text-align: right; white-space: nowrap; }
+  .smm-worth-wrap > p { margin: 18px 0 0; color: var(--color-brand-brown-warm); font-size: 14px; line-height: 1.65; }
+  .smm-value-factors__heading { max-width: 780px; margin: 64px 0 30px; }
+  .smm-value-factors__heading h3 { margin: 0; color: var(--color-brand-brown); font-size: clamp(30px, 3.2vw, 43px); line-height: 1.08; letter-spacing: -.025em; }
+  .smm-value__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; border: 1px solid var(--color-brand-cream-warm); background: var(--color-brand-cream-warm); }
+  .smm-value__grid article { padding: 32px; background: #fffdf9; }
+  .smm-value__grid svg { width: 27px; height: 27px; color: var(--color-brand-rust-bright); }
+  .smm-value__grid h3 { margin: 24px 0 12px; color: var(--color-brand-brown); font-size: 23px; }
+  .smm-value__grid p { margin: 0; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
+  .smm-value-card__link { display: inline-block; margin-top: 15px; color: var(--color-brand-rust-dark); font-size: 14px; font-weight: 700; text-decoration: underline; }
+  .smm-appraisal-route { display: inline-flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; margin-top: 24px; padding: 15px 19px; border: 1px solid var(--color-brand-rust-dark); background: var(--color-brand-cream-light); color: var(--color-brand-brown); text-decoration: none; }
+  .smm-appraisal-route strong { font: 600 17px/1.3 var(--font-display); }
+  .smm-appraisal-route span { color: var(--color-brand-rust-dark); font-size: 15px; font-weight: 700; text-decoration: underline; }
+  .smm-appraisal-route:hover { border-color: var(--color-brand-rust-bright); background: var(--color-brand-cream-warm); }
+  .smm-section-link { max-width: 900px; margin: 30px 0 0; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.7; }
+
+  .smm-paid { background: var(--color-brand-rust-dark); color: #fff; }
+  .smm-paid__heading { max-width: 850px; }
+  .smm-paid__heading .smm-eyebrow { color: var(--color-brand-brown-tan); }
+  .smm-paid__heading h2 { color: #fff; }
+  .smm-paid__heading > p:last-child { color: var(--color-brand-cream-warm); }
+  .smm-paid__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+  .smm-paid__card { min-width: 0; overflow: hidden; border: 1px solid rgba(255,255,255,.22); background: #fffdf9; color: var(--color-brand-brown); }
+  .smm-paid__image { aspect-ratio: 2 / 3; overflow: hidden; background: var(--color-brand-cream-warm); }
+  .smm-paid__image :global(img) { width: 100%; height: 100%; display: block; object-fit: cover; }
+  .smm-paid__copy { padding: 22px; }
+  .smm-paid__copy h3 { margin: 0 0 18px; color: var(--color-brand-brown); font-size: 23px; line-height: 1.2; }
+  .smm-paid__copy p { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; margin: 0; padding-top: 14px; border-top: 1px solid var(--color-brand-cream-warm); }
+  .smm-paid__copy p span { color: var(--color-brand-brown-warm); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+  .smm-paid__copy p strong { color: var(--color-brand-rust-dark); font: 600 25px/1 var(--font-display); }
+  .smm-paid__copy > a { display: block; margin-top: 16px; color: var(--color-brand-rust-dark); font-size: 13px; font-weight: 700; line-height: 1.4; text-decoration: underline; }
+  .smm-paid__card--cta { display: grid; place-items: center; min-height: 100%; padding: 30px; border-color: var(--color-brand-brown-tan); background: var(--color-brand-charcoal); color: #fff; }
+  .smm-paid__card--cta .smm-eyebrow { color: var(--color-brand-brown-tan); }
+  .smm-paid__card--cta h3 { margin: 0 0 16px; color: #fff; font-size: 30px; line-height: 1.08; }
+  .smm-paid__card--cta > div > p:not(.smm-eyebrow) { margin: 0 0 24px; color: var(--color-brand-cream-warm); font-size: 16px; line-height: 1.65; }
+
+  .smm-photo-guide { display: grid; grid-template-columns: .8fr 1.2fr; gap: 7vw; background: var(--color-brand-charcoal); color: #fff; }
+  .smm-photo-guide h2 { margin: 0 0 22px; color: #fff; font-size: clamp(38px, 4.2vw, 59px); line-height: 1.04; letter-spacing: -.035em; }
+  .smm-photo-guide > div > p:not(.smm-eyebrow) { color: var(--color-brand-cream); font-size: 17px; line-height: 1.7; }
+  .smm-photo-guide .smm-text-link { display: inline-block; margin-top: 18px; color: var(--color-brand-brown-tan); }
+  .smm-photo-guide ol { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; margin: 0; padding: 0; border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.18); list-style: none; }
+  .smm-photo-guide li { display: grid; grid-template-columns: 40px 1fr; align-content: start; padding: 24px; background: #302a24; }
+  .smm-photo-guide li span { grid-row: 1 / 3; color: var(--color-brand-brown-tan); font: italic 16px Georgia, serif; }
+  .smm-photo-guide li strong { font: 600 19px/1.3 var(--font-display); }
+  .smm-photo-guide li small { margin-top: 7px; color: var(--color-brand-cream-warm); font-size: 14px; line-height: 1.5; }
+
+  .smm-owner-stories { background: #fffdf9; }
+  .smm-owner-stories__heading { max-width: 820px; }
+  .smm-owner-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+  .smm-owner-card { min-width: 0; display: flex; flex-direction: column; border: 1px solid var(--color-brand-cream-warm); background: #fff; color: var(--color-brand-brown); transition: transform .2s, box-shadow .2s; }
+  .smm-owner-card:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(65,45,28,.1); }
+  .smm-owner-card__image { aspect-ratio: 4 / 3; overflow: hidden; background: var(--color-brand-cream-warm); }
+  .smm-owner-card__image :global(img) { width: 100%; height: 100%; object-fit: cover; transition: transform .45s; }
+  .smm-owner-card:nth-child(1) .smm-owner-card__image :global(img), .smm-owner-card:nth-child(2) .smm-owner-card__image :global(img) { object-position: center top; }
+  .smm-owner-card:hover :global(img) { transform: scale(1.025); }
+  .smm-owner-card__copy { flex: 1; display: flex; flex-direction: column; padding: 24px; }
+  .smm-owner-card__copy > span { color: var(--color-brand-rust-bright); font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+  .smm-owner-card h3 { margin: 12px 0; color: var(--color-brand-brown); font-size: 24px; line-height: 1.16; }
+  .smm-owner-card p { margin: 0 0 22px; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
+  .smm-owner-card small { margin-top: auto; color: var(--color-brand-rust-dark); font-size: 14px; font-weight: 700; }
+
+  .smm-owner-videos { border-top: 1px solid var(--color-brand-cream-warm); background: #fff; }
+  .smm-video-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 22px; }
+  .smm-video-card { overflow: hidden; border: 1px solid var(--color-brand-cream-warm); background: #fff; box-shadow: 0 10px 28px rgba(65,45,28,.07); }
+  .smm-video-card__story { min-height: 250px; padding: 27px 25px 24px; border-bottom: 1px solid var(--color-brand-cream-warm); }
+  .smm-video-card h3 { margin: 0 0 14px; color: var(--color-brand-brown); font-size: 25px; line-height: 1.16; }
+  .smm-video-card p { margin: 0; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.7; }
+  .smm-video-card__embed { position: relative; aspect-ratio: 4 / 5; display: flex; justify-content: center; overflow: hidden; background: var(--color-brand-cream-light); }
+  .smm-video-card__embed :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .smm-video-card__embed button { position: absolute; inset: 0; display: flex; flex-direction: column; gap: 10px; align-items: center; justify-content: center; border: 0; background: linear-gradient(rgba(24,20,17,.12), rgba(24,20,17,.56)); color: #fff; cursor: pointer; font: 700 16px/1.2 var(--font-display); text-transform: uppercase; letter-spacing: .08em; }
+  .smm-video-card__embed button span { position: relative; width: 58px; height: 58px; display: grid; place-items: center; border: 2px solid #fff; border-radius: 50%; background: rgba(36,28,22,.68); }
+  .smm-video-card__embed button span::after { content: ''; width: 0; height: 0; margin-left: 4px; border-top: 9px solid transparent; border-bottom: 9px solid transparent; border-left: 14px solid #fff; }
+  .smm-video-card__embed button:hover { background: linear-gradient(rgba(24,20,17,.05), rgba(24,20,17,.45)); }
+  .smm-video-card__embed :global(.instagram-media) { width: 100% !important; min-width: 0 !important; margin: 0 !important; }
+  .smm-video-card > a { display: block; padding: 16px 20px; border-top: 1px solid var(--color-brand-cream-warm); color: var(--color-brand-rust-dark); text-align: center; font-size: 14px; font-weight: 700; }
+  .smm-follow-link, .smm-all-guides { width: max-content; display: block; margin: 32px auto 0; padding: 15px 22px; border: 1px solid var(--color-brand-rust-dark); color: var(--color-brand-rust-dark); font: 700 15px/1.2 var(--font-display); }
+
+  .smm-meet, .smm-preservation { display: grid; grid-template-columns: minmax(300px,.8fr) 1.2fr; gap: clamp(40px, 8vw, 110px); align-items: center; background: var(--color-brand-cream-warm); }
+  .smm-meet__media { display: grid; gap: 20px; min-width: 0; }
+  .smm-meet figure, .smm-preservation figure { min-height: 500px; margin: 0; overflow: hidden; }
+  .smm-meet figure :global(img), .smm-preservation figure :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .smm-meet p + p, .smm-preservation p + p { margin-top: 15px !important; }
+  .smm-meet .smm-text-link, .smm-preservation .smm-text-link { display: inline-block; margin-top: 20px; }
+  .smm-credential { margin: 26px 0 22px; padding: 21px 23px; border-left: 4px solid var(--color-brand-rust-bright); background: var(--color-brand-cream-light); }
+  .smm-credential strong { display: block; margin-bottom: 8px; color: var(--color-brand-brown); font: 600 20px/1.25 var(--font-display); }
+  .smm-credential p { margin: 0 0 12px !important; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.65; }
+  .smm-credential a { color: var(--color-brand-rust-dark); font-size: 15px; font-weight: 700; text-decoration: underline; }
+  .smm-meet__video { overflow: hidden; border: 1px solid var(--color-brand-brown-tan); background: var(--color-brand-charcoal); }
+  .smm-meet__video :global(lite-youtube) { width: 100%; max-width: none; }
+  .smm-as-seen { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 0 0 22px; padding: 16px 0; border-top: 1px solid var(--color-brand-brown-tan); border-bottom: 1px solid var(--color-brand-brown-tan); }
+  .smm-as-seen strong { width: 100%; color: var(--color-brand-brown); font: 600 17px/1.2 var(--font-display); }
+  .smm-as-seen a { color: var(--color-brand-rust-dark); font-size: 14px; font-weight: 700; text-decoration: underline; }
+  .smm-preservation { grid-template-columns: 1fr 1fr; background: var(--color-brand-cream-light); }
+  .smm-preservation figure { min-height: 460px; }
+
+  .smm-expertise { display: grid; grid-template-columns: 1fr 1fr; gap: 10vw; align-items: start; background: var(--color-brand-cream-warm); }
+  .smm-expertise > div:last-child { padding-left: 38px; border-left: 1px solid var(--color-brand-brown-tan); }
+  .smm-expertise > div:last-child p { margin: 0 0 16px; color: var(--color-brand-brown-warm); font-size: 18px; line-height: 1.75; }
+  .smm-expertise a { color: var(--color-brand-rust-dark); font-weight: 700; text-decoration: underline; }
+  .smm-resource-links { display: grid; gap: 0; margin: 26px 0 0; padding: 0; border-top: 1px solid var(--color-brand-brown-tan); list-style: none; }
+  .smm-resource-links li { border-bottom: 1px solid var(--color-brand-brown-tan); }
+  .smm-resource-links a { display: block; padding: 15px 34px 15px 0; position: relative; }
+  .smm-resource-links a::after { content: '\2192'; position: absolute; right: 4px; text-decoration: none; }
+
+  .smm-options { background: #fff; }
+  .smm-options__table { width: 100%; border-collapse: collapse; table-layout: fixed; border: 1px solid var(--color-brand-cream-warm); }
+  .smm-options__table caption { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+  .smm-options__table th, .smm-options__table td { padding: 22px 24px; border-right: 1px solid var(--color-brand-cream-warm); border-bottom: 1px solid var(--color-brand-cream-warm); text-align: left; vertical-align: top; }
+  .smm-options__table tr > *:last-child { border-right: 0; }
+  .smm-options__table tbody tr:last-child > * { border-bottom: 0; }
+  .smm-options__table thead { background: var(--color-brand-charcoal); color: #fff; }
+  .smm-options__table thead th { color: #fff; font: 700 14px/1.35 var(--font-display); letter-spacing: .08em; text-transform: uppercase; }
+  .smm-options__table thead th:first-child { width: 22%; }
+  .smm-options__table tbody th { color: var(--color-brand-brown); font: 600 18px/1.35 var(--font-display); }
+  .smm-options__table td { color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.62; }
+  .smm-shipping-note { max-width: 900px; margin: 34px 0 0; padding: 28px 30px; border-left: 5px solid var(--color-brand-gold); background: var(--color-brand-charcoal); color: #fff; }
+  .smm-shipping-note .smm-eyebrow { margin-bottom: 11px; color: var(--color-brand-brown-tan); }
+  .smm-shipping-note h3 { margin: 0 0 12px; color: #fff; font-size: 28px; }
+  .smm-shipping-note > p:last-child { margin: 0; color: var(--color-brand-cream-warm); font-size: 16px; line-height: 1.68; }
+  .smm-selling-resources { margin-top: 42px; padding-top: 32px; border-top: 1px solid var(--color-brand-cream-warm); }
+  .smm-selling-resources h3 { margin: 0 0 20px; color: var(--color-brand-brown); font-size: 27px; }
+  .smm-selling-resources ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 28px; margin: 0; padding: 0; list-style: none; }
+  .smm-selling-resources li { border-top: 1px solid var(--color-brand-cream-warm); }
+  .smm-selling-resources a { display: block; position: relative; padding: 16px 30px 16px 0; color: var(--color-brand-rust-dark); font-weight: 700; line-height: 1.45; text-decoration: underline; }
+  .smm-selling-resources a::after { content: '\2192'; position: absolute; right: 4px; text-decoration: none; }
+
+  .smm-guides { background: #fff; }
+  .smm-guide-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px; margin: 0; padding: 0; list-style: none; }
+  .smm-guide-card { min-width: 0; overflow: hidden; border: 1px solid var(--color-brand-cream-warm); background: #fffdf9; transition: transform .2s, border-color .2s; }
+  .smm-guide-card:hover { transform: translateY(-3px); border-color: var(--color-brand-rust-bright); }
+  .smm-guide-card__image { aspect-ratio: 16 / 10; overflow: hidden; background: var(--color-brand-cream-warm); }
+  .smm-guide-card__image :global(img) { width: 100%; height: 100%; object-fit: contain; }
+  .smm-guide-card__copy { padding: 26px; }
+  .smm-guide-card__copy > span { color: var(--color-brand-brown-warm); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+  .smm-guide-card h3 { margin: 13px 0 12px; color: var(--color-brand-brown); font-size: 26px; line-height: 1.2; }
+  .smm-guide-card p { margin: 0 0 20px; color: var(--color-brand-brown-warm); font-size: 15px; line-height: 1.62; }
+  .smm-guide-card h3 a:hover { color: var(--color-brand-rust-dark); }
+  .smm-guide-card__primary { color: var(--color-brand-rust-dark); font-size: 14px; font-weight: 700; text-decoration: underline; }
+  .smm-guide-card__more { display: flex; flex-wrap: wrap; gap: 7px 12px; margin-top: 17px; padding-top: 15px; border-top: 1px solid var(--color-brand-cream-warm); }
+  .smm-guide-card__more a { color: var(--color-brand-brown-warm); font-size: 13px; font-weight: 700; text-decoration: underline; }
+
+  .smm-reviews { background: var(--color-brand-cream-light); }
+  .smm-review-story { max-width: 860px; display: grid; grid-template-columns: 220px 1fr; gap: 24px; align-items: center; margin: 0 0 34px; padding: 20px; border: 1px solid var(--color-brand-cream-warm); background: #fffdf9; }
+  .smm-review-story :global(img) { width: 220px; height: 220px; object-fit: cover; }
+  .smm-review-story figcaption { color: var(--color-brand-brown); font: 600 20px/1.45 var(--font-display); }
+  .smm-review-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .smm-review-card { min-height: 305px; display: flex; flex-direction: column; padding: 28px; border: 1px solid var(--color-brand-cream-warm); background: #fffdf9; color: var(--color-brand-brown); transition: transform .2s, border-color .2s; }
+  .smm-review-card:hover { transform: translateY(-3px); border-color: var(--color-brand-rust-bright); }
+  .smm-review-card blockquote { flex: 1; margin: 24px 0; color: var(--color-brand-brown-warm); font-size: 18px; line-height: 1.58; }
+  .smm-review-card strong { font: 600 19px/1.3 var(--font-display); }
+  .smm-review-card > span:not(.smm-stars) { margin-top: 5px; color: var(--color-brand-brown-warm); font-size: 14px; }
+  .smm-review-card small { margin-top: 20px; color: var(--color-brand-rust-dark); font-size: 14px; font-weight: 700; }
+
+  .smm-faq { background: #fffdf9; }
+  .smm-faq__list { max-width: 940px; border-top: 1px solid var(--color-brand-cream-warm); }
+  .smm-faq details { border-bottom: 1px solid var(--color-brand-cream-warm); }
+  .smm-faq summary { position: relative; padding: 24px 48px 24px 0; color: var(--color-brand-brown); cursor: pointer; list-style: none; font: 600 22px/1.4 var(--font-display); }
+  .smm-faq summary::-webkit-details-marker { display: none; }
+  .smm-faq summary::after { content: '+'; position: absolute; top: 18px; right: 5px; color: var(--color-brand-rust-bright); font: 300 28px/1 Arial, sans-serif; }
+  .smm-faq details[open] summary::after { content: '−'; }
+  .smm-faq details p { max-width: 800px; margin: 0; padding: 0 40px 25px 0; color: var(--color-brand-brown-warm); font-size: 16px; line-height: 1.72; }
+
+  .smm-appraisal { display: grid; grid-template-columns: .85fr 1.15fr; gap: 8vw; padding: clamp(70px, 9vw, 115px) clamp(24px, 7vw, 110px); background: var(--color-brand-rust-dark); color: #fff; }
+  .smm-appraisal > *, .smm-appraisal :global(.lead-form) { min-width: 0; }
+  .smm-appraisal h2 { color: #fff; }
+  .smm-appraisal__copy > p:not(.smm-eyebrow) { color: var(--color-brand-cream); font-size: 18px; line-height: 1.7; }
+  .smm-appraisal__copy p a { color: var(--color-brand-brown-tan); font-weight: 700; }
+  .smm-appraisal__copy > a { display: inline-block; margin-top: 25px; color: var(--color-brand-brown-tan); font-size: 17px; font-weight: 700; text-decoration: underline; }
+  .smm-appraisal :global(.lead-form) { background: var(--color-brand-cream-light); }
+  :global(#appraisal .lead-form__opt) { color: var(--color-brand-rust-dark) !important; opacity: 1; }
+  :global(.jvgft .jvgft__menu--sell a) { color: var(--color-brand-brown) !important; }
+
+  .smm-closing-cta { display: flex; gap: 35px; align-items: center; justify-content: space-between; padding: clamp(48px, 6vw, 74px) clamp(24px, 7vw, 110px); background: var(--color-brand-charcoal); color: #fff; }
+  .smm-closing-cta .smm-eyebrow { color: var(--color-brand-brown-tan); }
+  .smm-closing-cta h2 { margin: 0 0 12px; color: #fff; font-size: clamp(34px, 4vw, 52px); }
+  .smm-closing-cta p:not(.smm-eyebrow) { max-width: 650px; margin: 0; color: var(--color-brand-cream-warm); font-size: 17px; line-height: 1.6; }
+  .smm-closing-cta > div:last-child { display: flex; flex-wrap: wrap; gap: 12px; min-width: 360px; }
+  .smm-closing-cta .smm-button-secondary { border-color: var(--color-brand-brown-tan); color: #fff; }
+  .smm-closing-contact { width: 100%; color: var(--color-brand-cream); font-size: 14px; font-weight: 700; text-align: center; text-decoration: underline; }
+
+  @media (max-width: 950px) {
+    .smm-hero { grid-template-columns: 1fr; }
+    .smm-hero__image { min-height: 520px; }
+    .smm-proof { grid-template-columns: 1fr 1fr; gap: 24px 0; }
+    .smm-proof div:nth-child(2) { border: 0; }
+    .smm-steps { grid-template-columns: 1fr 1fr; }
+    .smm-steps article:nth-child(2) { border-right: 0; }
+    .smm-owner-grid, .smm-guide-grid, .smm-review-grid, .smm-paid__grid { grid-template-columns: 1fr 1fr; }
+    .smm-video-grid { grid-template-columns: 1fr 1fr; }
+    .smm-video-card:last-child { grid-column: 1 / -1; max-width: calc(50% - 11px); }
+    .smm-meet, .smm-preservation, .smm-expertise, .smm-appraisal, .smm-photo-guide, .smm-shipping__lead, .smm-value__intro-grid { grid-template-columns: 1fr; }
+    .smm-shipping__photo { width: min(100%, 620px); }
+    .smm-meet figure, .smm-preservation figure { min-height: 420px; }
+    .smm-expertise > div:last-child { padding: 30px 0 0; border-left: 0; border-top: 1px solid var(--color-brand-brown-tan); }
+    .smm-closing-cta { align-items: flex-start; flex-direction: column; }
+    .smm-closing-cta > div:last-child { min-width: 0; }
+  }
+
+  @media (max-width: 650px) {
+    .smm-header-collage { height: 140px; background-image: linear-gradient(rgba(9,9,8,.45), rgba(9,9,8,.6)), url('/images/sell-hero-background-mobile.webp'); }
+    .smm-hero { min-height: 0; }
+    .smm-hero__copy { padding-top: 88px; padding-right: 72px; }
+    .smm-section, .smm-appraisal, .smm-closing-cta { padding-right: 72px; }
+    .smm-hero h1 { font-size: 47px; }
+    .smm-hero__image { min-height: 420px; }
+    .smm-proof { padding: 28px 18px; }
+    .smm-proof div { padding-left: 12px; }
+    .smm-steps, .smm-shipping__columns, .smm-shipping__reviews, .smm-value__grid, .smm-paid__grid, .smm-photo-guide ol, .smm-owner-grid, .smm-video-grid, .smm-guide-grid, .smm-review-grid { grid-template-columns: 1fr; }
+    .smm-steps article { margin-right: 0; border-right: 0; border-bottom: 1px solid var(--color-brand-brown-tan); }
+    .smm-video-card:last-child { grid-column: auto; max-width: none; }
+    .smm-video-card__story { min-height: 0; }
+    .smm-video-card__embed { min-height: 0; }
+    .smm-meet figure, .smm-preservation figure { min-height: 330px; }
+    .smm-options__table, .smm-options__table tbody, .smm-options__table tr, .smm-options__table th, .smm-options__table td { display: block; width: 100%; }
+    .smm-options__table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+    .smm-options__table tr { padding: 18px 20px; border-bottom: 1px solid var(--color-brand-cream-warm); }
+    .smm-options__table tbody tr:last-child { border-bottom: 0; }
+    .smm-options__table th, .smm-options__table td { padding: 0; border: 0; }
+    .smm-options__table td { margin-top: 15px; padding-top: 15px; border-top: 1px solid var(--color-brand-cream-warm); }
+    .smm-options__table td::before { content: attr(data-label); display: block; margin-bottom: 5px; color: var(--color-brand-rust-dark); font-size: 12px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+    .smm-selling-resources ul { grid-template-columns: 1fr; }
+    .smm-review-story { grid-template-columns: 1fr; }
+    .smm-review-story :global(img) { width: 100%; height: auto; max-height: 420px; object-fit: cover; }
+    .smm-closing-cta > div:last-child, .smm-closing-cta > div:last-child > * { width: 100%; }
+    .smm-follow-link, .smm-all-guides { width: 100%; text-align: center; }
+  }
+</style>
