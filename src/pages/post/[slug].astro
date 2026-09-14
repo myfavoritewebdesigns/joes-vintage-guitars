@@ -13,6 +13,7 @@ import DennisHiattLesPaulStory from "../../components/DennisHiattLesPaulStory.as
 import BobDentonJ200Story from "../../components/BobDentonJ200Story.astro";
 import CaliforniaL5CStory from "../../components/CaliforniaL5CStory.astro";
 import OneFamilyES355Story from "../../components/OneFamilyES355Story.astro";
+import MartinD28OwnerStory from "../../components/MartinD28OwnerStory.astro";
 import SylviaES335Story from "../../components/SylviaES335Story.astro";
 import OneOwnerES345Story from "../../components/OneOwnerES345Story.astro";
 import JoshuaTelecasterStory from "../../components/JoshuaTelecasterStory.astro";
@@ -49,6 +50,7 @@ const isDennisHiattStory = entry.id === "one-owner-1983-gibson-les-paul-custom";
 const isBobDentonJ200Story = entry.id === "bob-denton-1955-gibson-j200";
 const isCaliforniaL5CStory = entry.id === "1954-gibson-l5c-california-session-musician";
 const isOneFamilyES355Story = entry.id === "one-family-1959-gibson-es-355";
+const isMartinD28OwnerStory = entry.id === "one-family-1946-martin-d-28";
 const isSylviaES335Story = entry.id === "sylvias-1959-gibson-es-335";
 const isOneOwnerES345Story = entry.id === "one-owner-1966-gibson-es-345";
 const isJoshuaTelecasterStory = entry.id === "joshuas-1952-fender-telecaster";
@@ -404,6 +406,8 @@ const articleSchema = {
 
   {isOneOwner1956Martin00021Story ? (
     <OneOwner1956Martin00021Story />
+  ) : isMartinD28OwnerStory ? (
+    <MartinD28OwnerStory />
   ) : isOneOwner1955MartinD28Story ? (
     <OneOwner1955MartinD28Story />
   ) : isOneOwner1949MartinStory ? (
