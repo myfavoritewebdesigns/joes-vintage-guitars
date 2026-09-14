@@ -1,0 +1,364 @@
+---
+import { Image } from "astro:assets";
+import daughter from "../assets/blog/one-owner-1956-martin-000-21/original-owner-daughter-with-1956-martin-000-21.jpg";
+import front from "../assets/blog/one-owner-1956-martin-000-21/1956-martin-000-21-front-in-case.jpg";
+import top from "../assets/blog/one-owner-1956-martin-000-21/1956-martin-000-21-top.jpg";
+import headstock from "../assets/blog/one-owner-1956-martin-000-21/1956-martin-000-21-headstock.jpg";
+import rosewoodBack from "../assets/blog/one-owner-1956-martin-000-21/1956-martin-000-21-rosewood-back.jpg";
+import neckBlock from "../assets/blog/one-owner-1956-martin-000-21/1956-martin-000-21-neck-block-stamp.jpg";
+import bridge from "../assets/blog/one-owner-1956-martin-000-21/1956-martin-000-21-bridge-pickguard.jpg";
+import guitarCase from "../assets/blog/one-owner-1956-martin-000-21/1956-martin-000-21-case.jpg";
+
+const facts = [
+  { label: "Maker", value: "C. F. Martin & Co." },
+  { label: "Model", value: "000-21", href: "/post/martin-0-00-000-history-authentication-value-guide/" },
+  { label: "Year", value: "1956", href: "/martin-serial-and-model-numbers/" },
+  { label: "Serial Number", value: "152698" },
+  { label: "Provenance", value: "Original owner's family" },
+  { label: "Case", value: "Photographed with a brown hardshell case" },
+] as const;
+
+const resources = [
+  {
+    number: "01",
+    title: "Compare Martin 0, 00, and 000 Models",
+    description: "Read about the body sizes, styles, construction changes, and authentication points.",
+    href: "/post/martin-0-00-000-history-authentication-value-guide/",
+  },
+  {
+    number: "02",
+    title: "Look Up a Martin Serial Number",
+    description: "Find the production year and locate the neck-block stamps.",
+    href: "/martin-serial-and-model-numbers/",
+  },
+  {
+    number: "03",
+    title: "Understand Vintage Martin Value",
+    description: "See how condition, originality, repairs, and provenance affect an appraisal.",
+    href: "/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/",
+  },
+  {
+    number: "04",
+    title: "Read More Original Owner Stories",
+    description: "Meet more musicians, families, and instruments from the JVG archive.",
+    href: "/category/museum-original-owners/",
+  },
+] as const;
+---
+
+<article class="m56">
+  <section class="m56-hero">
+    <div class="m56-hero-copy">
+      <a class="m56-eyebrow" href="/category/museum-original-owners/">Museum and Original Owners</a>
+      <h1>One Owner 1956 Martin 000-21</h1>
+      <p class="m56-dek">I bought this well-played Martin directly from the original owner's daughter after it had spent decades with the same family.</p>
+    </div>
+    <figure class="m56-hero-photo">
+      <Image
+        src={daughter}
+        alt="The original owner's daughter holding the family's 1956 Martin 000-21"
+        width={Math.min(daughter.width, 960)}
+        priority
+      />
+      <figcaption>The original owner's daughter with the 1956 Martin 000-21 at the time it changed hands.</figcaption>
+    </figure>
+  </section>
+
+  <div class="m56-body" id="story">
+    <p class="m56-lead">I bought this <a href="/post/martin-0-00-000-history-authentication-value-guide/">1956 Martin 000-21</a> directly from the original owner's daughter. The guitar had stayed with the same family since it was new, and she let me photograph her holding it before the handoff.</p>
+
+    <dl class="m56-facts">
+      {facts.map((fact) => (
+        <div>
+          <dt>{fact.label}</dt>
+          <dd>{"href" in fact ? <a href={fact.href}>{fact.value}</a> : fact.value}</dd>
+        </div>
+      ))}
+    </dl>
+
+    <h2>From the Original Owner's Daughter</h2>
+    <p>The chain of ownership is unusually clear. The guitar did not pass through a string of shops, auctions, or collectors before it reached me. It came from the original owner's daughter.</p>
+    <p>I photographed her with the 000-21 before the handoff. That picture belongs with the guitar because it records the family connection in a way that a serial number cannot.</p>
+
+    <figure class="m56-wide">
+      <Image
+        src={front}
+        alt="Full front view of the 1956 Martin 000-21 in its burgundy-lined hardshell case"
+        width={Math.min(front.width, 1200)}
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>The 1956 000-21 as it arrived, resting in its brown hardshell case.</figcaption>
+    </figure>
+
+    <h2>The Marks of a Guitar That Was Played</h2>
+    <p>The spruce top has scratches, small dings, and broad areas where the color has softened. The headstock face shows finish wear around the tuners and beneath the Martin logo. The marks are consistent across the guitar and show decades of use.</p>
+
+    <div class="m56-diptych">
+      <figure>
+        <Image
+          src={top}
+          alt="Close front view of the aged spruce top, bridge, pickguard, and soundhole of the 1956 Martin 000-21"
+          width={Math.min(top.width, 1200)}
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>The top shows the small marks and softened color of long use.</figcaption>
+      </figure>
+      <figure>
+        <Image
+          src={headstock}
+          alt="Close view of the worn Martin headstock logo and tuners on the 1956 000-21"
+          width={Math.min(headstock.width, 1200)}
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>The headstock face wears its age openly.</figcaption>
+      </figure>
+    </div>
+
+    <p>This is a classic Style 21 Martin: a 000 Auditorium body, spruce top, rosewood back and sides, dot fingerboard markers, and restrained trim. My <a href="/post/martin-0-00-000-history-authentication-value-guide/">guide to vintage Martin 0, 00, and 000 models</a> explains how Style 21 fits into the small-body Martin line.</p>
+
+    <figure class="m56-wide">
+      <Image
+        src={rosewoodBack}
+        alt="Full back view of the 1956 Martin 000-21 showing its figured dark rosewood and decorative center seam"
+        width={Math.min(rosewoodBack.width, 1200)}
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>The rosewood back and narrow center strip are characteristic Style 21 details.</figcaption>
+    </figure>
+
+    <h2>The Model and Serial Number</h2>
+    <p>Martin stamped the model and serial number on the neck block inside the guitar. This one is marked <strong>000-21</strong> and <strong>152698</strong>. The serial number dates it to 1956. My <a href="/martin-serial-and-model-numbers/">Martin serial number guide</a> shows where to find these stamps and how to read them.</p>
+
+    <figure class="m56-wide">
+      <Image
+        src={neckBlock}
+        alt="The neck block inside the 1956 Martin showing model 000-21 and serial number 152698"
+        width={Math.min(neckBlock.width, 1200)}
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>The neck-block stamp: 000-21, serial number 152698.</figcaption>
+    </figure>
+
+    <h2>One Family From New</h2>
+    <p>Provenance does not replace a condition report, but it answers a question buyers always ask: where did the guitar come from? Here, the answer is simple. It stayed with the original owner and family until the owner's daughter sold it to me.</p>
+    <blockquote>I bought it from the original owner's daughter.</blockquote>
+    <p>The model and serial number identify the Martin. The photograph documents the family connection. Together, they preserve the part of the guitar's history that is usually lost.</p>
+
+    <div class="m56-diptych m56-diptych-last">
+      <figure>
+        <Image
+          src={bridge}
+          alt="Close view of the bridge, tortoise-pattern pickguard, and play marks on the 1956 Martin 000-21"
+          width={Math.min(bridge.width, 1200)}
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>Bridge, pickguard, and play wear across the top.</figcaption>
+      </figure>
+      <figure>
+        <Image
+          src={guitarCase}
+          alt="Exterior of the brown hardshell case photographed with the 1956 Martin 000-21"
+          width={Math.min(guitarCase.width, 1200)}
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>The brown hardshell case photographed with the guitar.</figcaption>
+      </figure>
+    </div>
+
+    <p>I document original-owner guitars because the person matters as much as the serial number. You can find more instruments with direct family histories in the <a href="/category/museum-original-owners/">JVG Museum and Original Owners archive</a>.</p>
+
+    <section class="m56-resources" aria-labelledby="m56-resources-title">
+      <p class="m56-eyebrow">Explore Joe's Vintage Guitars</p>
+      <h2 id="m56-resources-title">More for Martin Owners</h2>
+      <div class="m56-resource-grid">
+        {resources.map((resource) => (
+          <a class="m56-resource" href={resource.href}>
+            <b>{resource.number}</b>
+            <strong>{resource.title}</strong>
+            <small>{resource.description}</small>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="m56-cta">
+      <h2>Have a Vintage Martin With a Story?</h2>
+      <p>If your family has a vintage Martin, send me a few clear photographs and whatever history you know. I will help identify it and give you a straightforward assessment. You can also read <a href="/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/">how I determine the value of an old Martin acoustic guitar</a>.</p>
+      <div class="m56-buttons">
+        <a class="m56-button m56-button-primary" href="/free-appraisal/">Free Appraisal</a>
+        <a class="m56-button" href="/sell-my-martin-guitar/">Sell My Martin</a>
+      </div>
+    </section>
+  </div>
+</article>
+
+<style>
+  .m56 {
+    --m56-ink: #1d1b18;
+    --m56-cream: #fffdf8;
+    --m56-gold: #a56b2e;
+    --m56-muted: #6f675e;
+    --m56-line: #d9d0c1;
+    --m56-red: var(--color-brand-rust-dark, #682412);
+    background: #fff;
+    color: var(--m56-ink);
+    font: 17px/1.7 var(--font-sans, "Open Sans", Arial, sans-serif);
+    overflow: hidden;
+  }
+  :global(body.martin-1956-00021-story-page > header) {
+    position: relative;
+    background: var(--color-brand-black, #17130f);
+    border-bottom: 5px solid var(--color-brand-brown-tan, #c8a77a);
+  }
+  .m56 :global(img) { display: block; width: 100%; height: auto; }
+  .m56 figure { margin: 0; }
+  .m56 a { color: var(--m56-red); text-underline-offset: .18em; }
+  .m56 a:focus-visible { outline: 3px solid #f0b45f; outline-offset: 4px; }
+
+  .m56-hero {
+    display: grid;
+    grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr);
+    min-height: 78vh;
+    background: var(--m56-cream);
+    border-bottom: 1px solid var(--m56-line);
+  }
+  .m56-hero-copy {
+    padding: clamp(44px, 7vw, 104px) clamp(26px, 6vw, 88px);
+    align-self: center;
+  }
+  .m56-eyebrow {
+    display: block;
+    width: max-content;
+    max-width: 100%;
+    margin: 0 0 22px;
+    color: var(--m56-gold) !important;
+    font: 600 13px/1.2 var(--font-display, Oswald), sans-serif;
+    letter-spacing: .14em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .m56 h1 {
+    max-width: 760px;
+    margin: 0 0 28px;
+    color: var(--m56-ink);
+    font: 600 clamp(44px, 6vw, 82px)/.98 var(--font-display, Oswald), sans-serif;
+    letter-spacing: -.025em;
+  }
+  .m56-dek {
+    max-width: 640px;
+    margin: 0;
+    color: #4f4942;
+    font-size: clamp(20px, 2.1vw, 28px);
+    line-height: 1.38;
+  }
+  .m56-hero-photo { position: relative; min-height: 560px; overflow: hidden; background: #c8bcaa; }
+  .m56-hero-photo :global(img) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 28%; }
+  .m56 .m56-hero-photo figcaption {
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+    left: 20px;
+    margin: 0;
+    padding: 10px 13px;
+    background: rgba(18, 16, 14, .82);
+    color: #fff;
+    font: 13px/1.4 var(--font-sans, "Open Sans", Arial, sans-serif);
+  }
+
+  .m56-body { max-width: 850px; margin: 0 auto; padding: 64px 26px 100px; }
+  .m56-body p { margin: 0 0 24px; }
+  .m56-lead { font-size: 23px; line-height: 1.62; }
+  .m56 h2 {
+    margin: 76px 0 22px;
+    color: var(--m56-red);
+    font: 600 clamp(34px, 5vw, 50px)/1.04 var(--font-display, Oswald), sans-serif;
+    letter-spacing: -.015em;
+  }
+  .m56-facts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 44px 0 70px;
+    border-top: 1px solid var(--m56-line);
+    border-left: 1px solid var(--m56-line);
+    background: var(--m56-cream);
+  }
+  .m56-facts div { padding: 18px 20px; border-right: 1px solid var(--m56-line); border-bottom: 1px solid var(--m56-line); }
+  .m56-facts dt { color: var(--m56-muted); font: 600 12px/1.2 var(--font-display, Oswald), sans-serif; letter-spacing: .11em; text-transform: uppercase; }
+  .m56-facts dd { margin: 7px 0 0; font-size: 17px; line-height: 1.35; }
+  .m56-body > figure { margin: 44px 0 54px; }
+  .m56 figcaption { margin-top: 11px; color: var(--m56-muted); font: italic 14px/1.45 var(--font-sans, "Open Sans", Arial, sans-serif); }
+  .m56-wide :global(img) { background: #d2c4b2; }
+  .m56-diptych {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    box-sizing: border-box;
+    width: min(1180px, 92vw);
+    margin: 44px 0 54px 50%;
+    transform: translateX(-50%);
+  }
+  .m56-diptych-last { align-items: start; }
+  .m56 blockquote {
+    margin: 56px 0;
+    padding: 0 0 0 25px;
+    border-left: 4px solid var(--m56-gold);
+    color: #302c27;
+    font: 600 30px/1.35 var(--font-display, Oswald), sans-serif;
+  }
+
+  .m56-resources { margin-top: 72px; padding-top: 48px; border-top: 1px solid var(--m56-line); }
+  .m56-resources h2 { margin-top: 0; }
+  .m56-resource-grid { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--m56-line); }
+  .m56-resource {
+    display: grid;
+    grid-template-columns: 42px 1fr;
+    padding: 24px 16px;
+    color: var(--m56-ink) !important;
+    text-decoration: none;
+    border-bottom: 1px solid var(--m56-line);
+  }
+  .m56-resource:nth-child(odd) { border-right: 1px solid var(--m56-line); }
+  .m56-resource b { color: var(--m56-red); font: 600 14px/1.4 var(--font-display, Oswald), sans-serif; }
+  .m56-resource strong { font-size: 18px; line-height: 1.3; }
+  .m56-resource small { grid-column: 2; margin-top: 6px; color: var(--m56-muted); font-size: 14px; line-height: 1.45; }
+  .m56-resource:hover strong { text-decoration: underline; text-underline-offset: .18em; }
+
+  .m56-cta { margin-top: 72px; padding: 42px; background: #1e1c19; color: #fff; }
+  .m56-cta h2 { margin: 0 0 18px; color: #fff; font-size: 36px; }
+  .m56-cta p { color: #dfd7cc; }
+  .m56-cta p a { color: #f4c27f; font-weight: 700; }
+  .m56-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 25px; }
+  .m56-button {
+    display: inline-block;
+    padding: 12px 18px;
+    border: 1px solid #c8995e;
+    color: #fff !important;
+    font: 600 14px/1 var(--font-display, Oswald), sans-serif;
+    letter-spacing: .05em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .m56-button-primary { background: #c8995e; color: #1e1c19 !important; }
+
+  @media (max-width: 760px) {
+    :global(body.martin-1956-00021-story-page > header) { border-bottom-width: 3px; }
+    .m56-hero { grid-template-columns: 1fr; min-height: auto; }
+    .m56-hero-photo { min-height: 66vh; }
+    .m56-facts { grid-template-columns: 1fr 1fr; }
+    .m56-diptych { grid-template-columns: 1fr; width: auto; margin: 44px 0 54px; transform: none; }
+    .m56-resource-grid { grid-template-columns: 1fr; }
+    .m56-resource:nth-child(odd) { border-right: 0; }
+    .m56-cta { padding: 30px 24px; }
+  }
+  @media (max-width: 470px) {
+    .m56-body { padding-right: 20px; padding-left: 20px; }
+    .m56-facts { grid-template-columns: 1fr; }
+  }
+</style>
