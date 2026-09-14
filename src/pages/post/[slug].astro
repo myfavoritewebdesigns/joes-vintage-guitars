@@ -20,6 +20,7 @@ import JoshuaTelecasterStory from "../../components/JoshuaTelecasterStory.astro"
 import AlexandriaStratocasterStory from "../../components/AlexandriaStratocasterStory.astro";
 import OneOwner1960TelecasterStory from "../../components/OneOwner1960TelecasterStory.astro";
 import BillJaguarStory from "../../components/BillJaguarStory.astro";
+import OneOwner1949MartinStory from "../../components/OneOwner1949MartinStory.astro";
 import LesPaulFamilyGuide from "../../components/LesPaulFamilyGuide.astro";
 import GibsonSGFamilyGuide from "../../components/GibsonSGFamilyGuide.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
@@ -54,6 +55,7 @@ const isJoshuaTelecasterStory = entry.id === "joshuas-1952-fender-telecaster";
 const isAlexandriaStratocasterStory = entry.id === "one-owner-1965-fender-stratocaster";
 const isOneOwner1960TelecasterStory = entry.id === "one-owner-1960-fender-telecaster";
 const isBillJaguarStory = entry.id === "bill-one-owner-1966-fender-jaguar";
+const isOneOwner1949MartinStory = entry.id === "one-owner-1949-martin-0-18";
 const isFirebirdGuide = entry.id === "gibson-firebird-history-authentication-value";
 const isGibsonJ200Guide = entry.id === "gibson-j200-model-history-authentication-guide";
 const isEs225Guide = entry.id === "gibson-es-225-guide";
@@ -368,7 +370,7 @@ const articleSchema = {
 ---
 
 <Layout
-  bodyClass={isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : "blog-post-page"}
+  bodyClass={isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : "blog-post-page"}
   title={`${data.title} | Joe's Vintage Guitars`}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
@@ -400,6 +402,8 @@ const articleSchema = {
 
   {isMartinD28OwnerStory ? (
     <MartinD28OwnerStory />
+  ) : isOneOwner1949MartinStory ? (
+    <OneOwner1949MartinStory />
   ) : isBillJaguarStory ? (
     <BillJaguarStory />
   ) : isOneOwner1960TelecasterStory ? (
