@@ -1,0 +1,298 @@
+---
+import { Image } from "astro:assets";
+import steve from "../assets/blog/one-owner-1955-martin-d28/steve-minnich-1955-martin-d28.jpeg";
+import navy from "../assets/blog/one-owner-1955-martin-d28/bill-minnich-navy-martin-d28.jpg";
+import family from "../assets/blog/one-owner-1955-martin-d28/bill-minnich-family-music.jpg";
+import christmas from "../assets/blog/one-owner-1955-martin-d28/minnich-family-christmas-music.jpg";
+
+const facts = [
+  { label: "Model", value: "Martin D-28", href: "/martin-d-28-d-18-d-45-dreadnought-value-guide/" },
+  { label: "Year", value: "1955", href: "/martin-serial-and-model-numbers/" },
+  { label: "Original Owner", value: "Bill Minnich" },
+  { label: "Purchased", value: "New in 1955" },
+  { label: "Stolen", value: "1961" },
+  { label: "Recovered", value: "Seven years later" },
+] as const;
+
+const resources = [
+  { label: "Martin Serial Number Lookup and Guide", href: "/martin-serial-and-model-numbers/" },
+  { label: "Martin D-28, D-18, and D-45 Value Guide", href: "/martin-d-28-d-18-d-45-dreadnought-value-guide/" },
+  { label: "How to Determine the Value of an Old Martin Acoustic", href: "/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/" },
+  { label: "Free Vintage Guitar Appraisal", href: "/free-appraisal/" },
+  { label: "Sell My Martin Guitar", href: "/sell-my-martin-guitar/" },
+] as const;
+---
+
+<article class="m55">
+  <section class="m55-hero">
+    <div class="m55-hero-copy">
+      <a class="m55-eyebrow" href="/category/museum-original-owners/">Museum and Original Owners</a>
+      <h1>One Owner 1955 Martin D-28</h1>
+      <p class="m55-dek">Bill Minnich bought this D-28 new in 1955. It followed him through Navy service, disappeared for seven years, and returned to his family.</p>
+    </div>
+    <figure class="m55-hero-photo">
+      <Image
+        src={steve}
+        alt="Steve Minnich smiling while holding the worn 1955 Martin D-28 his father bought new"
+        width={Math.min(steve.width, 960)}
+        priority
+      />
+      <figcaption>Steve Minnich with the 1955 Martin D-28 his father, Bill, bought new.</figcaption>
+    </figure>
+  </section>
+
+  <div class="m55-body" id="story">
+    <p class="m55-lead">Steve Minnich showed me the <a href="/martin-d-28-d-18-d-45-dreadnought-value-guide/">1955 Martin D-28</a> his father, Bill, bought new. The guitar traveled during Bill's Navy years, was stolen in 1961, and came back seven years later. Steve still plays it today.</p>
+
+    <dl class="m55-facts">
+      {facts.map((fact) => (
+        <div>
+          <dt>{fact.label}</dt>
+          <dd>{"href" in fact ? <a href={fact.href}>{fact.value}</a> : fact.value}</dd>
+        </div>
+      ))}
+    </dl>
+
+    <p class="m55-timeline">Before 1955</p>
+    <h2>A Nashville Kid Who Had to Be Near the Music</h2>
+    <p>Bill grew up outside Nashville. At 16, he found his way onto the stage of the Grand Ole Opry. At 17, he enlisted in the Navy. Steve remembers his father playing guitar around the world during his years of service.</p>
+    <p>In 1955, Bill bought this Martin D-28 new. The guitar followed him across oceans and duty stations, then settled into family life. If you are trying to date a similar guitar, my <a href="/martin-serial-and-model-numbers/">Martin serial number lookup and guide</a> shows where to find the model and serial stamps inside the soundhole.</p>
+
+    <figure class="m55-portrait">
+      <Image
+        src={navy}
+        alt="Bill Minnich in his Navy uniform playing his Martin D-28"
+        width={Math.min(navy.width, 670)}
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>Bill Minnich in uniform with the Martin D-28 he bought new in 1955.</figcaption>
+    </figure>
+
+    <p class="m55-timeline">1961 to 1968</p>
+    <h2>The Seven Years It Was Gone</h2>
+    <p>Steve was born in 1961. The first time his parents went out after bringing him home, the Martin was stolen. For seven years, a guitar that had already traveled the world was simply gone.</p>
+    <blockquote>The guitar was stolen in 1961. Seven years later, it came home.</blockquote>
+    <p>The recovery put the D-28 back in Bill's hands. The family photographs matter because they preserve the part of the record that no factory stamp can supply. A serial number can establish a production year, but it cannot document the people who owned and played a guitar. I explain that difference in <a href="/post/what-a-serial-number-cant-tell-you/">What a Serial Number Can't Tell You</a>.</p>
+
+    <div class="m55-diptych">
+      <figure>
+        <Image
+          src={family}
+          alt="Bill Minnich seated and playing the 1955 Martin D-28 during a family gathering"
+          width={Math.min(family.width, 1200)}
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>Bill playing the D-28 at a family gathering.</figcaption>
+      </figure>
+      <figure>
+        <Image
+          src={christmas}
+          alt="Bill Minnich and family members playing guitars together at Christmas"
+          width={Math.min(christmas.width, 1200)}
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>The Martin at the center of a Christmas family music session.</figcaption>
+      </figure>
+    </div>
+
+    <p class="m55-timeline">Phoenix, 2001</p>
+    <h2>The Song at the End</h2>
+    <p>Bill died in Phoenix in 2001 from complications following heart surgery. While he was in intensive care, Steve's mother played a tape of Bill playing guitar for the nurses.</p>
+    <p>Bill passed away while “House of the Rising Sun” played on the recording. At his father's funeral, Steve chose the same song and played it on this 1955 D-28.</p>
+
+    <p class="m55-timeline">Today</p>
+    <h2>Still in Steve's Hands</h2>
+    <p>Steve ended his story by playing a short piece of “House of the Rising Sun” for me. Then he laughed that he made the guitar sound bad on purpose because he did not want to let it go.</p>
+    <p>The joke made the answer clear. This guitar is staying with him. Its dates, photographs, and wear document Bill's ownership, but the family record is what connects those facts.</p>
+    <p>I document <a href="/category/museum-original-owners/">original-owner guitars</a> because the owner can explain marks, repairs, photographs, and years of use that the instrument cannot explain by itself. I appreciate Steve sharing Bill's story and letting me record this D-28 while it remains in the family.</p>
+
+    <p>Ownership history does not replace a physical inspection. The <a href="/martin-serial-and-model-numbers/">Martin serial number</a> establishes the year. Original finish, bridge work, cracks, repairs, neck angle, and replaced parts help determine condition and market value. My <a href="/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/">guide to valuing an old Martin acoustic</a> covers those factors, and the <a href="/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/">acoustic neck reset guide</a> explains one of the major structural questions on an older flat-top.</p>
+
+    <section class="m55-resources" aria-labelledby="martin-resources-title">
+      <h2 id="martin-resources-title">More Martin Guitar Resources</h2>
+      <p>Use these pages to identify a Martin, check the factors that affect value, or contact me about selling one.</p>
+      <ul>
+        {resources.map((resource) => <li><a href={resource.href}>{resource.label}</a></li>)}
+      </ul>
+    </section>
+
+    <section class="m55-cta">
+      <h2>Have a Vintage Martin to Sell?</h2>
+      <p>If you have a vintage D-18, D-28, D-35, D-45, or another Martin, send me a few clear photographs. I will identify the guitar, explain the condition factors I can see, and give you a current assessment.</p>
+      <div class="m55-buttons">
+        <a class="m55-button m55-button-primary" href="/free-appraisal/">Free Appraisal</a>
+        <a class="m55-button" href="/sell-my-martin-guitar/">Sell My Martin</a>
+      </div>
+    </section>
+  </div>
+</article>
+
+<style>
+  .m55 {
+    --m55-ink: #2a2d33;
+    --m55-paper: #fff;
+    --m55-cream: #fffdf8;
+    --m55-gold: #a56b2e;
+    --m55-muted: #6f675e;
+    --m55-line: #d9d0c1;
+    --m55-red: var(--color-brand-rust-dark, #682412);
+    background: var(--m55-paper);
+    color: var(--m55-ink);
+    font: 17px/1.7 "Open Sans", var(--font-sans, Arial, sans-serif);
+    overflow: hidden;
+  }
+  :global(body.martin-1955-story-page > header) {
+    position: relative;
+    background: var(--color-brand-black, #17130f);
+    border-bottom: 5px solid var(--color-brand-brown-tan, #c8a77a);
+  }
+  .m55 :global(img) { display: block; width: 100%; height: auto; }
+  .m55 figure { margin: 0; }
+  .m55 a { color: var(--m55-red); text-underline-offset: .18em; }
+  .m55 a:focus-visible { outline: 3px solid #f0b45f; outline-offset: 4px; }
+
+  .m55-hero {
+    display: grid;
+    grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr);
+    min-height: 78vh;
+    background: var(--color-brand-black, #17130f);
+    border-bottom: 1px solid var(--m55-line);
+  }
+  .m55-hero-copy {
+    padding: clamp(44px, 7vw, 104px) clamp(26px, 6vw, 88px);
+    align-self: center;
+  }
+  .m55-eyebrow,
+  .m55-timeline {
+    color: var(--m55-gold) !important;
+    font: 600 13px/1.2 var(--font-display, Oswald), sans-serif;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .m55-eyebrow {
+    display: block;
+    width: max-content;
+    margin: 0 0 22px;
+    text-decoration: none;
+  }
+  .m55 h1 {
+    max-width: 760px;
+    margin: 0 0 28px;
+    color: #fff;
+    font: 600 clamp(44px, 6vw, 82px)/.98 var(--font-display, Oswald), sans-serif;
+    letter-spacing: -.025em;
+  }
+  .m55-dek {
+    max-width: 640px;
+    margin: 0;
+    color: #eee8de;
+    font-size: clamp(20px, 2.1vw, 28px);
+    line-height: 1.38;
+  }
+  .m55-hero-photo { position: relative; min-height: 640px; overflow: hidden; background: #342b23; }
+  .m55-hero-photo :global(img) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 36%; }
+  .m55 .m55-hero-photo figcaption {
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+    left: 20px;
+    margin: 0;
+    padding: 10px 13px;
+    background: rgba(18, 16, 14, .82);
+    color: #fff;
+    font: 13px/1.4 var(--font-sans, "Open Sans", Arial, sans-serif);
+  }
+
+  .m55-body { max-width: 900px; margin: 0 auto; padding: 64px 26px 100px; }
+  .m55-body p { margin: 0 0 24px; }
+  .m55-lead { font-size: 23px; line-height: 1.62; }
+  .m55 h2 {
+    margin: 76px 0 22px;
+    color: var(--m55-red);
+    font: 600 clamp(34px, 5vw, 50px)/1.04 var(--font-display, Oswald), sans-serif;
+    letter-spacing: -.015em;
+  }
+  .m55-facts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 44px 0 70px;
+    border-top: 1px solid var(--m55-line);
+    border-left: 1px solid var(--m55-line);
+    background: var(--m55-cream);
+  }
+  .m55-facts div { padding: 18px 20px; border-right: 1px solid var(--m55-line); border-bottom: 1px solid var(--m55-line); }
+  .m55-facts dt { color: var(--m55-muted); font: 600 12px/1.2 var(--font-display, Oswald), sans-serif; letter-spacing: .11em; text-transform: uppercase; }
+  .m55-facts dd { margin: 7px 0 0; font-size: 17px; line-height: 1.35; }
+  .m55-timeline { display: inline-flex; align-items: center; gap: 10px; margin: 0 0 14px !important; }
+  .m55-timeline::before { width: 36px; height: 2px; background: currentColor; content: ""; }
+  .m55-timeline + h2 { margin-top: 0; }
+  .m55-body > figure { margin: 44px 0 54px; }
+  .m55 figcaption { margin-top: 11px; color: var(--m55-muted); font: italic 14px/1.45 var(--font-sans, "Open Sans", Arial, sans-serif); }
+  .m55-portrait { max-width: 670px; margin: 44px auto 54px !important; padding: 12px; background: #fff; box-shadow: 0 12px 34px rgba(35, 27, 19, .14); }
+  .m55-portrait figcaption { padding: 0 4px 2px; }
+  .m55-diptych {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    box-sizing: border-box;
+    width: 100vw;
+    margin: 44px 0 54px 50%;
+    padding: 0 24px;
+    transform: translateX(-50%);
+  }
+  .m55-diptych :global(img) { height: 520px; object-fit: cover; }
+  .m55-diptych figure:first-child :global(img) { object-position: 52% center; }
+  .m55-diptych figure:last-child :global(img) { object-position: center 35%; }
+  .m55 blockquote {
+    margin: 56px 0;
+    padding: 0 0 0 25px;
+    border-left: 4px solid var(--m55-gold);
+    color: #302c27;
+    font: 600 30px/1.35 var(--font-display, Oswald), sans-serif;
+  }
+
+  .m55-resources {
+    margin-top: 64px;
+    padding: 34px 38px;
+    border: 1px solid var(--m55-line);
+    background: var(--m55-cream);
+  }
+  .m55-resources h2 { margin: 0 0 18px; font-size: 34px; }
+  .m55-resources p { margin-bottom: 16px; }
+  .m55-resources ul { margin: 0; padding-left: 22px; }
+  .m55-resources li { margin: 9px 0; }
+
+  .m55-cta { margin-top: 72px; padding: 42px; background: #1e1c19; color: #fff; }
+  .m55-cta h2 { margin: 0 0 18px; color: #fff; font-size: 36px; }
+  .m55-cta p { color: #dfd7cc; }
+  .m55-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 25px; }
+  .m55-button {
+    display: inline-block;
+    padding: 12px 18px;
+    border: 1px solid #c8995e;
+    color: #fff !important;
+    font: 600 14px/1 var(--font-display, Oswald), sans-serif;
+    letter-spacing: .05em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .m55-button-primary { background: #c8995e; color: #1e1c19 !important; }
+
+  @media (max-width: 760px) {
+    :global(body.martin-1955-story-page > header) { border-bottom-width: 3px; }
+    .m55-hero { grid-template-columns: 1fr; min-height: auto; }
+    .m55-hero-photo { min-height: 66vh; }
+    .m55-facts { grid-template-columns: 1fr 1fr; }
+    .m55-diptych { grid-template-columns: 1fr; width: auto; margin: 44px 0 54px; padding: 0; transform: none; }
+    .m55-diptych :global(img) { height: auto; }
+    .m55-cta { padding: 30px 24px; }
+  }
+  @media (max-width: 470px) {
+    .m55-body { padding-right: 20px; padding-left: 20px; }
+    .m55-facts { grid-template-columns: 1fr; }
+    .m55-resources { padding: 30px 24px; }
+  }
+</style>
