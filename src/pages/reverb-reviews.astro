@@ -60,6 +60,52 @@ const breadcrumbSchema = {
   }
   .reverb-reviews-page :global(.rv-cta-btn:hover) { background: var(--color-brand-rust-bright, #be4b25); }
 
+  .reverb-reviews-page :global(.rv-brand-links) {
+    max-width: 900px;
+    margin: 0 auto 2.5rem;
+    padding: 1.5rem 1.25rem;
+    border: 1px solid rgb(160 58 30 / 28%);
+    border-radius: 8px;
+    background: #fffaf3;
+    text-align: center;
+  }
+  .reverb-reviews-page :global(.rv-brand-links-eyebrow) {
+    margin: 0 0 0.35rem;
+    color: var(--color-brand-rust, #a03a1e);
+    font-family: "Oswald", sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .reverb-reviews-page :global(.rv-brand-links h2) {
+    margin: 0;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+  }
+  .reverb-reviews-page :global(.rv-brand-links > p:not(.rv-brand-links-eyebrow)) {
+    margin: 0.6rem 0 1rem;
+  }
+  .reverb-reviews-page :global(.rv-brand-links-list) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.65rem;
+  }
+  .reverb-reviews-page :global(.rv-brand-links-list a) {
+    display: inline-block;
+    padding: 0.65rem 0.9rem;
+    border: 1px solid var(--color-brand-rust, #a03a1e);
+    border-radius: 4px;
+    color: var(--color-brand-rust, #a03a1e);
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .reverb-reviews-page :global(.rv-brand-links-list a:hover) {
+    background: var(--color-brand-rust, #a03a1e);
+    color: #fff;
+  }
+
   /* Skip layout + paint for the off-screen review cards.
      This page deliberately renders all 2,191 Reverb reviews so search and AI
      engines can read them (Reverb's own data is not crawlable), which means a

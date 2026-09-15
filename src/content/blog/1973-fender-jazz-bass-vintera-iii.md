@@ -258,4 +258,4 @@ Whether you've inherited a CBS-era Fender, you're shopping for one, or you've ow
 
 Have a vintage Jazz Bass, Precision, Strat, or Tele? Send us photos and we'll walk you through what you have, what era it's from, and what it's worth in today's market.
 
-Looking for more like this? Read our [vintage guitar deep-dives](/blog/), or check our [Fender serial number guide](/fender-guitars-serial-number-guide/) to date your own bass or guitar.
+Looking for more like this? Read our [vintage guitar deep-dives](/blog/), check our [Fender serial number guide](/fender-guitars-serial-number-guide/) to date your own bass or guitar, or see [how to sell your vintage Fender directly to Joe](/sell-my-fender-guitar/).

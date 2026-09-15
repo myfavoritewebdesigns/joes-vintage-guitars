@@ -96,4 +96,4 @@ You should also choose the right shipping service (UPS, DHL, FedEx, or USPS) and
 
 ### Consult a Vintage Guitar Expert To Maximize Your Selling Price
 
-Before finalizing your sale, it’s important to consult with a trusted vintage guitar expert. At Joe’s Vintage Guitars, we offer [**free appraisals**](/free-appraisal/) and are always ready to purchase your vintage guitar. Our team can help verify authenticity, assess condition, and provide an accurate market valuation. By choosing us, you can ensure you don’t undervalue your guitar, make your listing more competitive, and connect with serious buyers. For a professional evaluation and free appraisal, [**contact us today**](/contact-me/).
+Before finalizing your sale, it’s important to consult with a trusted vintage guitar expert. I offer [free appraisals](/free-appraisal/) and buy vintage guitars directly from owners. Start with the guide for selling a [vintage Martin](/sell-my-martin-guitar/), [vintage Fender](/sell-my-fender-guitar/), or [vintage Gibson](/sell-my-gibson-guitar/) to see how evaluation, offers, payment, and insured shipping work. You can also [contact me directly](/contact-me/) with questions.
