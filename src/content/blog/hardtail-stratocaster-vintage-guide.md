@@ -111,6 +111,6 @@ A number of well-known players preferred the reliability and “thump” of the 
 
 ## Sell Your Vintage Hardtail Stratocaster
 
-If you own a vintage Fender and have been considering selling, we are always looking to add high-quality hardtail Stratocasters to our inventory. Whether it’s a rare 1950s ash-body model or a resonant player from the 1970s, we offer fair, expert evaluations and an easy selling process.
+If you own a vintage Fender and have been considering selling, I am always looking to buy high-quality hardtail Stratocasters. Whether it’s a rare 1950s ash-body model or a resonant player from the 1970s, you can review [how I buy vintage Fender guitars](/sell-my-fender-guitar/) and what to expect from the process.
 
-**[Click here to contact us](/contact-me/)** to get a free appraisal or to chat about your instrument.
+Use the [free appraisal form](/free-appraisal/) to send photos or [contact me](/contact-me/) to talk about your instrument.

@@ -541,6 +541,8 @@ A 1962 Stratocaster with its original brown Tolex case, original case key, origi
 
 Further reading and tools for dating and valuing your vintage Fender.
 
+If you are thinking about selling after you identify the guitar, see [how I evaluate and buy vintage Fender guitars](/sell-my-fender-guitar/).
+
 **1962 Fender Stratocaster Authentication Guide**
 
 This reference draws on A.R. Duchossoir's *The Fender Stratocaster*, Richard Smith's *Fender: The Sound Heard 'Round the World*, documented production examples, collector research, and hands-on inspection of authenticated 1962 instruments. Feature transition dates are approximate, Fender's production changes were phased, and transitional examples exist throughout all periods of change.

@@ -536,3 +536,7 @@ Fender serial numbers in the 1960s were batch-assigned and not strictly sequenti
 <figcaption><strong>1960s Fender Jazzmaster with original manual and period strap.</strong> Original paperwork (owner's manuals, hang tags, and case candy) adds meaningfully to the completeness and provenance of a vintage instrument. The presence of the original Fender manual dates the guitar's purchase to the 1960s and is increasingly rare to find intact.</figcaption>
 
 </figure>
+
+## Have a Vintage Jazzmaster?
+
+If you are trying to identify one, start with the [Fender serial number guide](/fender-guitars-serial-number-guide/) and a [free appraisal](/free-appraisal/). If you are ready to sell, see [how I buy vintage Fender guitars](/sell-my-fender-guitar/) directly from owners nationwide.

@@ -499,7 +499,7 @@ Work through each item systematically. Every confirmation adds confidence; any c
 -   Switch tip is top-hat style (NOT barrel, that's pre-1956)
 -   Knobs are chrome flat-top with knurled skirt
 
-For any 1959 Telecaster valued above $15,000, insist on removing the neck and reading the heel date, reading all pot codes, and examining the bridge configuration against the body and neck dates. The four-source triangulation (neck date + body date + pot codes + physical features) should all point to the same narrow window. If any source contradicts the others, dig deeper before purchasing. For a free appraisal inquiry, see our [free appraisal page](/free-appraisal/).
+For any 1959 Telecaster valued above $15,000, insist on removing the neck and reading the heel date, reading all pot codes, and examining the bridge configuration against the body and neck dates. The four-source triangulation (neck date + body date + pot codes + physical features) should all point to the same narrow window. If any source contradicts the others, dig deeper before purchasing. For a free appraisal inquiry, see our [free appraisal page](/free-appraisal/). If you are considering a sale, see [how I buy vintage Fender guitars](/sell-my-fender-guitar/).
 
 <h2 id="case">Original Case & Accessories</h2>
 

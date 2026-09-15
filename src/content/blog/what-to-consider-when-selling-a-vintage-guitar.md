@@ -85,4 +85,4 @@ Their original price was around $280, but they now regularly go to auction for m
 
 Before you commit to any of these routes, it is worth reading the [mistakes to avoid when selling a vintage guitar](/post/mistakes-to-avoid-when-selling-a-vintage-guitar/) and comparing what each of the [best online platforms for selling vintage guitars](/post/best-online-platforms-sell-vintage-guitars/) actually costs you in fees.
 
-Are you ready to sell a vintage guitar? Do you simply want to know what your guitar is worth? Luckily, you can count on [Joe’s Vintage Guitar](/). At Joe’s Vintage Guitar, you won’t need more than a few minutes to determine your instrument’s current value. You’ll also be able to choose the best vintage guitar for your collection or your hobby. [Visit our website to get started!](/contact-me/)
+Are you ready to sell a vintage guitar, or do you simply want to know what it is worth? Start with a [free appraisal](/free-appraisal/). Owners of a vintage [Martin](/sell-my-martin-guitar/), [Fender](/sell-my-fender-guitar/), or [Gibson](/sell-my-gibson-guitar/) can also review the brand-specific selling process before getting in touch.

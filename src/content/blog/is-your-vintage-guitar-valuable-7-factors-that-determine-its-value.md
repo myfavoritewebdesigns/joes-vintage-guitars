@@ -96,4 +96,4 @@ You can also consult The Blue Book of Guitar Values and Vintage Guitar Magazineâ
 
 <h4 id="sell-your-guitar-at-a-trusted-guitar-expert">7. Sell Your Guitar At A Trusted Guitar Expert</h4>
 
-If your initial research leads you to believe you have found a genuine treasure, getting a nice offer from a reputable buyer may be the wisest decision. At [**Joeâ€™s Vintage Guitars**](/ "Joe Vintage Guitar") we can help! We have the best offers to give you a reasonable price. Plus, you can also find out the best guitars in our online store. **[Contact us](/contact-me/ "Contact Me")** for more information!
+If your initial research leads you to believe you have found a genuine treasure, get a [free appraisal](/free-appraisal/) before deciding what to do next. If you are ready to sell, review how I buy [vintage Martin guitars](/sell-my-martin-guitar/), [vintage Fender guitars and basses](/sell-my-fender-guitar/), and [vintage Gibson guitars](/sell-my-gibson-guitar/) directly from owners nationwide.
