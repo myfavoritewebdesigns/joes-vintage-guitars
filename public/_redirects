@@ -98,6 +98,11 @@
 # live under the prefixed slug, so the original WP slug is the URL that broke.
 /post/identify-gibson-lg-series                                  /post/joesvintageguitarsaz-com-identify-gibson-lg-series/  301
 /post/identify-gibson-lg-series/                                 /post/joesvintageguitarsaz-com-identify-gibson-lg-series/  301
+# Retired Les Paul serial post. Only its /amp/ twins (below) ever got a rule, so the
+# base URL 404s. It earned 3,929 clicks in GSC, led by Les Paul serial lookups, before
+# it dropped out of search in March 2026; the Gibson guide's decoder is the closest match.
+/post/dating-a-les-paul-with-serial-numbers                      /how-to-read-gibson-serial-numbers/   301
+/post/dating-a-les-paul-with-serial-numbers/                     /how-to-read-gibson-serial-numbers/   301
 
 # ---------------------------------------------------------------------------
 # AMP retirement (GSC 404 sweep 2026-07-27).
