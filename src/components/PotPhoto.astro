@@ -1,0 +1,35 @@
+---
+import { getImage } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import { imageOrigin, imageLicense } from '../config/image-license';
+interface Props { src: ImageMetadata; id: string; title: string; alt: string; caption: string; }
+const { src, id, title, alt, caption } = Astro.props;
+const displayWidth = Math.min(src.width, 1080);
+const responsiveWidths = [...new Set([480, 720, 1080, 1440].filter(width => width < displayWidth).concat(displayWidth))].sort((a, b) => a - b);
+const photo = await getImage({ src, width: displayWidth, widths: responsiveWidths, format: 'webp', quality: 85 });
+const full = await getImage({ src, width: Math.min(src.width, 2400), format: 'webp', quality: 92 });
+const imageUrl = new URL(photo.src, imageOrigin).href;
+const schema = {
+  '@context': 'https://schema.org', '@type': 'ImageObject',
+  '@id': `${imageUrl}#image`, contentUrl: imageUrl, url: imageUrl,
+  width: photo.attributes.width, height: photo.attributes.height, caption: alt,
+  license: imageLicense.photoLicenseUrl, acquireLicensePage: imageLicense.photoLicenseUrl,
+  creditText: imageLicense.creditText, copyrightNotice: imageLicense.copyrightNotice,
+  creator: { '@type': 'Person', name: imageLicense.creatorName },
+};
+---
+<figure class="pot-photo" data-pot-photo={id}>
+  <a class="serial-photo-link" href={full.src} data-serial-photo data-photo-title={title} data-photo-caption={caption} aria-label={`Enlarge photo: ${title}`} aria-describedby={`${id}-caption`}>
+    <img {...photo.attributes} src={photo.src} srcset={photo.srcSet.attribute} sizes="(max-width: 799px) calc(100vw - 40px), 600px" alt={alt} loading="lazy" decoding="async" />
+    <span class="serial-photo-zoom" aria-hidden="true">Enlarge photo</span>
+  </a>
+  <figcaption id={`${id}-caption`}><strong>{title}</strong><p>{caption}</p></figcaption>
+</figure>
+<script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
+<style>
+  .pot-photo { margin: 0; border: 1px solid var(--color-rule); border-radius: .8rem; overflow: hidden; background: var(--color-cream); }
+  img { display: block; width: 100%; height: auto; }
+  figcaption { padding: 1rem 1.25rem; }
+  strong { display: block; font-family: var(--font-display); font-size: 1.25rem; line-height: 1.35; }
+  p { margin: .5rem 0 0; font-size: 1rem; line-height: 1.65; }
+</style>

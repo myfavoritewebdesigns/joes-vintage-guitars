@@ -1,0 +1,132 @@
+---
+import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
+import { getImage } from 'astro:assets';
+import '../styles/es-guide.css';
+import ESPhoto from '../components/ESPhoto.astro';
+import ESPhotoViewer from '../components/ESPhotoViewer.astro';
+import ES330Timeline from '../components/ES330Timeline.astro';
+import { imageOrigin, imageLicense } from '../config/image-license';
+import dot from '../assets/es-330/dot-neck-es-330.jpg';
+import block from '../assets/es-330/block-neck-es-330.jpg';
+import fon from '../assets/es-330/1959-s-prefix-fon.jpg';
+import modelStamp from '../assets/es-330/es-330td-model-stamp.jpg';
+
+const title = 'Gibson ES-330 Dating Guide: Features by Year';
+const description = 'Date a Gibson ES-330 with photos and a year-by-year guide to dot and block inlays, P-90 covers, neck joints, knobs, hardware, serial numbers and FONs.';
+const canonical = 'https://www.joesvintageguitarsaz.com/gibson-es-330-dating-guide/';
+const hero = await getImage({ src: dot, width: 1500, widths: [720, 1080, 1500, 1800], format: 'webp', quality: 88 });
+const eras = [
+  ['1959', 'Dot inlays, black P-90 covers, bonnet knobs, nickel hardware and the 16th-fret joint.', 'Look for an S-prefix FON. The trapeze is already part of the model.'],
+  ['1960 to 1961', 'Dots and black covers continue. Reflector knobs appear and neck profiles often become shallower.', 'R means a 1960 body batch; Q means 1961. Headstock serials begin in 1961.'],
+  ['1962 to 1964', 'Small blocks replace dots during 1962; metal covers follow around late 1962 into 1963.', 'Blocks with black covers can be transitional. Neither feature supplies an exact year alone.'],
+  ['1965 to 1967', 'Narrower nuts and chrome become common, with overlap. Double-line tuners and later knobs add clues.', 'Check nut width and plating individually. Do not borrow the ES-335’s 1965 trapeze cutoff.'],
+  ['Around 1968 to 1972', 'The later 19th-fret joint appears. Late construction details can include a laminated neck, volute and Made in USA.', 'Long neck describes the joint, not a longer scale. Cross-check the serial and original pots.'],
+  ['Later Production and Reissues', 'Dots, blocks, black or metal covers and vintage-style neck joints recur.', 'A reissue’s model year is the design being copied, not its manufacturing date.'],
+];
+const faqs = [
+  ['How Do I Date a Gibson ES-330?', 'Start with the serial number or early Factory Order Number, then compare the inlays, pickup covers, neck joint, nut width and original hardware. Use safely visible original pot codes and paperwork to narrow overlapping years. No single removable part proves the date.'],
+  ['Is an ES-330 Fully Hollow or Semi-Hollow?', 'The ES-330 is fully hollow, with internal bracing but no ES-335-style solid center block. Vintage originals use dogear P-90s, although some later factory versions have humbuckers. Similar body outlines do not make the 330 and 335 the same construction.'],
+  ['What Is the Difference Between ES-330T and ES-330TD?', 'The original ES-330T has one centrally placed P-90 and two controls. The ES-330TD has two P-90s, four controls and a pickup selector. T means thinline and D means double pickup; TD does not mean double cutaway.'],
+  ['When Did the ES-330 Change From Dots to Blocks?', 'The change happened during 1962. The move from black plastic to metal pickup covers was a separate transition around late 1962 into 1963. A block-neck guitar with black covers can be a correct transitional example.'],
+  ['When Did the ES-330 Get the Long Neck?', 'The later 19th-fret neck joint appears around 1968, replacing the earlier 16th-fret arrangement on later examples. Long neck refers to the body joint and upper-fret access, not a longer scale. Both layouts use a nominal 24 3/4-inch scale.'],
+  ['Can an Early ES-330 Have No Headstock Serial Number?', 'Yes. Early examples can have an internal Factory Order Number without a headstock serial or an interior paper label. Gibson introduced impressed headstock serials across its lines in 1961. Photograph all visible stamps rather than assuming a number is missing.'],
+  ['Does a Metal Pickup Cover Mean It Has Humbuckers?', 'No. The usual metal-covered ES-330 pickup is still a single-coil dogear P-90. PAF and Patent Number humbucker dating rules do not apply to it. Pickup covers can also be replaced.'],
+  ['Should I Remove ES-330 Pots to Read Their Dates?', 'I do not recommend pulling the pots yourself just to find a date. Wires, solder and metal dust-cover cans can hide the codes, and removing the harness through a hollow body risks damage. Ask a qualified repairer when the markings are not safely visible.'],
+];
+const related = [
+  ['Gibson Serial Decoder and Charts', '/', 'Check serial formats, repeated number ranges and Factory Order Numbers.'],
+  ['ES-335, ES-345 and ES-355', '/gibson-es-335-345-355-dating-guide/', 'Keep the semi-hollow models’ dating rules separate from the ES-330.'],
+  ['Gibson Pot Codes', '/gibson-pot-codes/', 'Read maker, year and week codes without treating a pot date as a build date.'],
+  ['Gibson Headstock Logos', '/gibson-headstock-logo-chronology/', 'Compare the logo lettering and headstock details.'],
+  ['Gibson Knob Dating Guide', '/gibson-knob-dating-guide/', 'Compare bonnet, reflector and witch-hat shapes.'],
+  ['Gibson Tuner Dating Guide', '/gibson-tuner-dating-guide/', 'Check tuner stamps, button shapes and replacement evidence.'],
+  ['Physical Features and Hardware', '/gibson-physical-features-hardware-guide/', 'Read neck construction, bridge details, plating and repair clues.'],
+  ['Gibson Shipping Totals', 'https://www.joesvintageguitarsaz.com/post/gibson-shipping-totals-1948-1979/', 'Compare recorded shipments for the single- and double-pickup models.'],
+  ['Dot-Neck ES-330 Photos', 'https://www.joesvintageguitarsaz.com/post/complete-dot-neck-es-330-guide-1959-1962/', 'See more photographs of an early ES-330 and its parts.'],
+];
+const schema = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'Article', headline: title, description, mainEntityOfPage: canonical,
+      author: { '@type': 'Person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
+      publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' },
+      datePublished: '2026-09-10', dateModified: '2026-09-10', image: new URL(hero.src, imageOrigin).href },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.joesvintageguitarsaz.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Gibson Serial Number Lookup', item: 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/' },
+      { '@type': 'ListItem', position: 3, name: title, item: canonical },
+    ] },
+    { '@type': 'FAQPage', mainEntity: faqs.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })) },
+    { '@type': 'ImageObject', contentUrl: new URL(hero.src, imageOrigin).href,
+      caption: 'Sunburst Gibson ES-330 with dot inlays, black dogear P-90s and a trapeze tailpiece',
+      license: imageLicense.photoLicenseUrl, acquireLicensePage: imageLicense.photoLicenseUrl,
+      creditText: imageLicense.creditText, copyrightNotice: imageLicense.copyrightNotice,
+      creator: { '@type': 'Person', name: imageLicense.creatorName } },
+  ],
+};
+---
+<GibsonGuideLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={new URL(hero.src, imageOrigin).href}
+  ogImageAlt="Sunburst dot-neck Gibson ES-330 with black P-90 covers"
+  ogImageWidth={hero.attributes.width}
+  ogImageHeight={hero.attributes.height}
+  publishedTime="2026-09-10"
+  modifiedTime="2026-09-10"
+  structuredData={schema}
+>
+    <a class="es-skip" href="#es-guide">Skip to the ES-330 guide</a>
+    <div id="es-guide">
+      <section class="es-hero">
+        <div class="es-hero__copy"><p class="es-eyebrow">Gibson Model Dating Guides</p>
+          <h1>Gibson ES-330 <span>Dating Guide</span></h1>
+          <p class="es-lede">Follow the ES-330’s changes from dot inlays and black P-90 covers to block inlays, metal covers and the later neck joint.</p>
+          <div class="es-hero__actions"><a class="es-button" href="/how-to-read-gibson-serial-numbers/">Use the Gibson Serial Number Decoder and Charts</a><a href="#dating-chart">Jump Straight to the ES-330 Dating Chart</a></div>
+          <p class="es-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 10, 2026</p>
+        </div>
+        <figure class="es-hero__photo"><img {...hero.attributes} src={hero.src} srcset={hero.srcSet.attribute} sizes="(min-width: 1024px) 53vw, 100vw" alt="Sunburst Gibson ES-330 with dot inlays, black dogear P-90s and a trapeze tailpiece" fetchpriority="high" decoding="async" /></figure>
+      </section>
+      <section class="es-answer"><div class="es-container es-answer__grid"><div><p class="es-eyebrow">Fully Hollow, Not a 335</p><h2>Start With ES-330 Features</h2><p>The ES-330 has a fully hollow body without the ES-335’s solid center block. Vintage originals use dogear P-90s, not humbuckers. Use the ES-330 timeline before applying a date from another Gibson model.</p></div><ol><li><strong>Identify the version.</strong> Count the pickups and check the inlays.</li><li><strong>Compare the construction.</strong> Look at the neck joint, hardware and controls.</li><li><strong>Confirm the year.</strong> Cross-check the serial, any FON and original pot codes.</li></ol></div></section>
+      <div class="es-container es-body">
+        <nav class="es-toc" aria-label="ES-330 guide sections"><a href="#identify">Identify the Model</a><a href="#dating-chart">Dating Chart</a><a href="#timeline">Timeline</a><a href="#long-neck">Long-Neck Change</a><a href="#neck-and-body">Neck and Body</a><a href="#pickups-and-hardware">Pickups and Hardware</a><a href="#serial-and-fon">Serials and FONs</a><a href="#reissues">Reissues</a><a href="#es330-faq">Questions</a></nav>
+        <section class="es-section" id="identify"><p class="es-eyebrow">Recognize the Main Styles</p><h2>Dot-Neck and Block-Neck ES-330s</h2>
+          <div class="es-families es330-families">
+            <article><ESPhoto src={dot} id="family-dot" title="Dot-Neck ES-330" alt="Sunburst dot-neck Gibson ES-330 representing the early style" showCaption={false} fit="cover" /><div><p class="es-eyebrow">Early Style</p><h3>Dot-Neck ES-330</h3><p>Small round fingerboard inlays, black dogear P-90 covers and the original shorter neck-to-body layout. Later reissues can repeat this appearance.</p><a href="#introduction">See the Early Changes</a></div></article>
+            <article><ESPhoto src={block} id="family-block" title="Block-Neck ES-330" alt="Sunburst block-neck Gibson ES-330 with metal dogear P-90 covers" showCaption={false} fit="cover" /><div><p class="es-eyebrow">Later Style</p><h3>Block-Neck ES-330</h3><p>Small rectangular inlays, usually paired with metal pickup covers. Transitional examples can retain black covers. Check the neck joint separately from the inlays.</p><a href="#blocks-and-covers">See the Block-Neck Changes</a></div></article>
+          </div>
+          <div class="es-checks"><article><h3>ES-330T: One Pickup</h3><p>The original single-pickup version has one P-90 near the middle of the body, one volume and one tone. It is not simply a TD with the neck or bridge pickup removed. The original T belongs to the 1959 to 1963 period.</p></article><article><h3>ES-330TD: Two Pickups</h3><p>The double-pickup version has neck and bridge P-90s, two volume controls, two tone controls and a selector. T means thinline; D means double pickup. A final C commonly denotes Cherry, N Natural and W Walnut.</p></article></div>
+          <p>A finish suffix is not a year code. Check for added pickup holes or altered controls before using a model stamp to interpret a modified guitar.</p>
+          <p>For the semi-hollow models, use the <a href="/gibson-es-335-345-355-dating-guide/">ES-335, ES-345 and ES-355 dating guide</a>.</p>
+        </section>
+        <section class="es-section" id="dating-chart"><p class="es-eyebrow">Quick Reference</p><h2>Gibson ES-330 Dating Chart</h2><p>These are overlapping production windows, not exact changeover dates. Read the chart alongside the photos, then confirm the date with the guitar’s own numbers.</p>
+          <div class="es-table" role="region" aria-label="ES-330 dating chart, scroll horizontally if needed" tabindex="0"><table><caption>Features to Compare Within Each Period</caption><thead><tr><th scope="col">Period</th><th scope="col">Typical Clues</th><th scope="col">How to Use Them</th></tr></thead><tbody>{eras.map(([period, clues, use]) => <tr><th scope="row">{period}</th><td>{clues}</td><td>{use}</td></tr>)}</tbody></table></div>
+        </section>
+        <ES330Timeline />
+        <section class="es-section" id="serial-and-fon"><p class="es-eyebrow">Confirm the Physical Clues</p><h2>ES-330 Serial Numbers and Factory Order Numbers</h2>
+          <p>On an early ES-330, look through the f-holes for an ink-stamped Factory Order Number on the bare wood. A separate ES-330T or ES-330TD stamp identifies the model. It is not the serial number, and the digits 330 do not encode a year.</p>
+          <div class="es-photos"><ESPhoto src={fon} id="s-prefix-fon" title="S-Prefix FON: 1959" alt="S2789 29 Factory Order Number stamped inside an ES-330" caption="S2789 29 reads as S for the 1959 batch year, 2789 for the batch and 29 for the instrument’s place within that batch. It does not give an exact completion day." /><ESPhoto src={modelStamp} id="model-stamp" title="ES-330TD Model Stamp" alt="Faint ES-330TD model designation stamped directly onto wood inside the guitar" caption="This faint stamp names the model. Record it separately from the letter-and-number FON or the headstock serial." /></div>
+          <div class="es-table es330-fon-table"><table><caption>FON Prefixes for the Early ES-330 Period</caption><thead><tr><th scope="col">Prefix</th><th scope="col">Body-Batch Year</th></tr></thead><tbody><tr><th scope="row">S</th><td>1959</td></tr><tr><th scope="row">R</th><td>1960</td></tr><tr><th scope="row">Q</th><td>1961</td></tr></tbody></table></div>
+          <p>The FON dates the production batch, which can precede completion or shipment. Gibson discontinued the regular FON system after 1961. Do not continue the alphabet forward to invent a 1962 code.</p>
+          <p>Early examples can have no headstock serial and no paper label. From 1961, impressed headstock serials become the main system, with reused ranges that need a physical cross-check. On a later instrument, photograph any label as well as the headstock; modern versions may use different identification arrangements.</p>
+          <p>Use the <a href="/how-to-read-gibson-serial-numbers/">Gibson serial number decoder and charts</a> and <a href="/how-to-read-gibson-serial-numbers/#serial-vs-fon">The Difference Between Serial Number and FON</a>. If a stamp is faint, try a light from another angle and photograph it. Do not scrape, sand or darken the wood to make it readable.</p>
+          <aside class="es-warning"><h3>Leave Hidden Pot Codes to a Repairer</h3><p>There is no rear control-cavity cover on a standard ES-330. Wires, solder and metal dust-cover cans can hide the pot codes. Reading them may require removing the pots and covers through the hollow body, which is a tricky process. I do not recommend doing it yourself. Ask a qualified repairer if the codes are not safely visible.</p></aside>
+          <p>An original pot’s date comes before its installation, sometimes well before the guitar shipped. A replacement pot dates only that component. See the <a href="/gibson-pot-codes/">Gibson pot-code guide</a> for examples and how to read the maker, year and week.</p>
+        </section>
+        <section class="es-section" id="reissues"><p class="es-eyebrow">Old Style Does Not Mean Old Guitar</p><h2>Later ES-330s and Historic Reissues</h2>
+          <p>Gibson has returned to the ES-330 in several later production runs, including Memphis models, long-neck ES-330L versions and Historic reissues. The Gibson USA ES-330 returned in 2024, followed by Gibson Custom 1959 and 1962 reissues in 2026. A guitar with dots, black covers and an aged finish can therefore be recently made.</p>
+          <aside class="es-note"><h3>Some Later ES-330s Have Factory Humbuckers</h3><p>The 2015 ES-330L Humbucker is a later factory variation with a 19th-fret joint and no center block. Humbuckers on that version do not mean someone converted a vintage P-90 guitar. Confirm the exact model before judging the pickups.</p></aside>
+          <div class="es-checks"><article><h3>Read the Actual Build Year</h3><p>“1959 ES-330” in a reissue name describes the target design. Use the complete serial, exact model and certificate or original paperwork to establish when that particular guitar was built.</p></article><article><h3>Do Not Borrow an ES-335 Formula</h3><p>Gibson has used different serial systems for different ES runs. A format documented for a 1959 ES-335 reissue is not automatically correct for a 1959 ES-330 reissue. A single year digit may also repeat every decade.</p></article><article><h3>Check the Neck Joint Yourself</h3><p>A long-neck description can refer to a vintage guitar or a modern ES-330L. A long neck tenon is an internal joint feature, not another name for the 19th-fret body join.</p></article><article><h3>Keep the Casino Separate</h3><p>The Epiphone Casino shares the hollowbody and P-90 concept but has its own model and production history. A Casino serial should not be entered as a Gibson ES-330 just because the guitars look similar.</p></article></div>
+          <p>If the exact ES-330 model is not supported by the decoder, keep the complete serial and seek individual confirmation. Do not force an uncertain number into another model’s format.</p>
+        </section>
+        <section class="es-section" id="related-guides"><p class="es-eyebrow">Keep Comparing</p><h2>Related Gibson Guides</h2><div class="es-related">{related.map(([name, href, copy]) => <a href={href}><h3>{name}</h3><p>{copy}</p><span>View Guide</span></a>)}</div><p>For more instruments and model guides, visit <a href="https://www.joesvintageguitarsaz.com/">Joe’s Vintage Guitars</a> or browse the <a href="https://www.joesvintageguitarsaz.com/blog/">JVG blog</a>.</p></section>
+        <section class="es-section es-faq" id="es330-faq"><h2>Gibson ES-330 Dating Questions</h2>{faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
+        <aside class="es-help"><div><p class="es-eyebrow">Need Help With Your ES-330?</p><h2>Send Joe Photos of Your Guitar</h2><p>Include the full front and back, both sides of the headstock, the neck joint from the front and back, pickup covers, bridge, tailpiece and any visible interior stamps. Add paperwork and pot codes only if they are safely accessible.</p></div><div><a class="es-button" href="https://www.joesvintageguitarsaz.com/free-appraisal/">Get a Free Appraisal</a><a href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/">Sell My Gibson</a></div></aside>
+      </div>
+    </div><ESPhotoViewer />
+  </GibsonGuideLayout>
+<style>
+  .es330-fon-table { max-width: 34rem; }
+  .es330-fon-table table { min-width: 0; }
+  @media (min-width: 700px) { .es330-families { grid-template-columns: 1fr 1fr; } }
+</style>

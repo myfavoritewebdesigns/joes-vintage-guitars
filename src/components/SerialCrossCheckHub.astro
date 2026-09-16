@@ -1,0 +1,96 @@
+---
+const live = 'https://www.joesvintageguitarsaz.com';
+
+const groups = [
+  {
+    id: 'model-dating',
+    title: 'Model Dating Guides',
+    copy: 'Follow the changes that belong to your exact Gibson family.',
+    links: [
+      { id: 'les-paul-dating', label: 'Les Paul', href: '/gibson-les-paul-dating-guide/' },
+      { id: 'sg-dating', label: 'SG', href: '/gibson-sg-dating-guide/' },
+      { id: 'es335-dating', label: 'ES-335, ES-345 and ES-355', href: '/gibson-es-335-345-355-dating-guide/' },
+      { id: 'es330-dating', label: 'ES-330', href: '/gibson-es-330-dating-guide/' },
+      { id: 'more-model-guides', label: 'More Model Guides', href: `${live}/category/specific-model-highlights/` },
+    ],
+  },
+  {
+    id: 'parts-dating',
+    title: 'Parts Dating Guides',
+    copy: 'Check original components that can support or challenge the serial result.',
+    links: [
+      { id: 'pots', label: 'Pot Codes', href: '/gibson-pot-codes/' },
+      { id: 'knobs', label: 'Knobs', href: '/gibson-knob-dating-guide/' },
+      { id: 'tuners', label: 'Tuners', href: '/gibson-tuner-dating-guide/' },
+      { id: 'pickup-dating', label: 'PAF and Patent Number Pickups', href: `${live}/post/gibson-paf-patent-number-pickup-guide/` },
+    ],
+  },
+  {
+    id: 'features-hardware',
+    title: 'Features And Hardware',
+    copy: 'Compare construction details that are harder to replace than a knob or tuner.',
+    links: [
+      { id: 'headstock', label: 'Headstock Logos', href: '/gibson-headstock-logo-chronology/' },
+      { id: 'volute', label: 'Volutes and Headstock Details', href: '/gibson-physical-features-hardware-guide/#headstock-clues' },
+      { id: 'neck', label: 'Neck Construction', href: '/gibson-physical-features-hardware-guide/#neck-construction' },
+      { id: 'bridge', label: 'Bridges and Tailpieces', href: '/gibson-physical-features-hardware-guide/#bridge-types' },
+      { id: 'cases', label: 'Case Identification', href: '/gibson-physical-features-hardware-guide/#cases' },
+      { id: 'physical-features', label: 'All Physical Features', href: '/gibson-physical-features-hardware-guide/' },
+    ],
+  },
+];
+---
+
+<section id="dating-hub" class="cross-check-hub border-b border-rule bg-white/35 py-14 lg:py-16" aria-labelledby="cross-check-heading">
+  <span id="advanced" class="legacy-anchor" aria-hidden="true"></span>
+  <div class="mx-auto max-w-[88rem] px-5 lg:px-10">
+    <div class="cross-check-hub__intro">
+      <div>
+        <p class="eyebrow">After the Serial Lookup</p>
+        <h2 id="cross-check-heading" class="section-title">Cross-Check Your Gibson By Model, Parts And Features</h2>
+      </div>
+      <div>
+        <p>A serial number is a good start, but identifying a guitar’s model changes, original parts and construction will allow you to form a more accurate picture of its origin.</p>
+        <a class="cross-check-hub__all" href="#more-gibson-resources">Browse More Gibson Resources <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+
+    <div class="cross-check-hub__grid">
+      {groups.map(group => (
+        <article id={group.id} class="cross-check-card">
+          <div class="cross-check-card__heading">
+            <h3>{group.title}</h3>
+          </div>
+          <p>{group.copy}</p>
+          <ul>
+            {group.links.map(link => <li id={link.id}><a href={link.href}>{link.label}<span aria-hidden="true">→</span></a></li>)}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .cross-check-hub { scroll-margin-top: 1rem; }
+  .cross-check-hub__intro { display: grid; gap: 1.25rem 3rem; align-items: end; }
+  .cross-check-hub__intro > div:last-child { max-width: 39rem; }
+  .cross-check-hub__intro p { font-size: 1.05rem; line-height: 1.7; color: color-mix(in srgb, var(--color-ink) 76%, transparent); }
+  .cross-check-hub__all { display: inline-flex; align-items: center; gap: .5rem; margin-top: .8rem; color: var(--color-wine-dark); font-weight: 800; text-decoration: underline; text-underline-offset: .25em; }
+  .cross-check-hub__grid { display: grid; gap: 1rem; margin-top: 2rem; }
+  .cross-check-card, .cross-check-card li { scroll-margin-top: 1.5rem; }
+  .cross-check-card { border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine); border-radius: 1rem; padding: 1.35rem; background: white; }
+  .cross-check-card__heading { display: flex; align-items: center; }
+  .cross-check-card h3 { color: var(--color-wine-dark); font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; }
+  .cross-check-card > p { margin-top: .9rem; font-size: 1rem; line-height: 1.6; color: color-mix(in srgb, var(--color-ink) 72%, transparent); }
+  .cross-check-card ul { display: grid; gap: .15rem; margin-top: 1rem; }
+  .cross-check-card a { display: flex; min-height: 2.75rem; align-items: center; justify-content: space-between; gap: .75rem; border-top: 1px solid var(--color-rule); color: var(--color-wine-dark); font-weight: 800; text-decoration: none; }
+  .cross-check-card a:hover { color: var(--color-wine); text-decoration: underline; text-underline-offset: .2em; }
+  .cross-check-card a span { color: var(--color-gold); }
+  @media (min-width: 760px) {
+    .cross-check-hub__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  @media (min-width: 1000px) {
+    .cross-check-hub__intro { grid-template-columns: minmax(0, 1.15fr) minmax(20rem, .85fr); }
+  }
+</style>

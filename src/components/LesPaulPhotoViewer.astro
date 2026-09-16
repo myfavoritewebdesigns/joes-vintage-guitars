@@ -1,0 +1,11 @@
+<dialog id="serial-photo-viewer" class="serial-photo-viewer" aria-labelledby="serial-photo-title" aria-describedby="serial-photo-caption">
+  <div class="serial-photo-viewer__bar">
+    <h2 id="serial-photo-title">Gibson Les Paul Photo</h2>
+    <form method="dialog"><button type="submit" autofocus aria-label="Close enlarged photo">Close <span aria-hidden="true">×</span></button></form>
+  </div>
+  <img id="serial-photo-large" alt="" />
+  <p id="serial-photo-caption"></p>
+  <p id="serial-photo-error" role="status" hidden>The photo could not load. Try opening the full-size image.</p>
+  <a id="serial-photo-original" target="_blank" rel="noopener">Open full-size image</a>
+</dialog>
+<script is:inline src="/scripts/photo-viewer.js" defer></script>

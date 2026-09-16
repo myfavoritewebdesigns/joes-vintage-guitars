@@ -1,0 +1,157 @@
+---
+import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
+import { getImage } from 'astro:assets';
+import '../styles/es-guide.css';
+import ESPhoto from '../components/ESPhoto.astro';
+import ESPhotoViewer from '../components/ESPhotoViewer.astro';
+import ESModelTimelines from '../components/ESModelTimelines.astro';
+import { imageOrigin, imageLicense } from '../config/image-license';
+import es335 from '../assets/es-family/1959-es-335-sunburst.jpg';
+import es345 from '../assets/es-family/1963-es-345-sunburst.jpg';
+import es355 from '../assets/es-family/1959-es-355-cherry.jpg';
+import label from '../assets/es-family/1966-es-335-orange-label.jpg';
+import fon from '../assets/es-family/1959-es-335-t-prefix-fon.jpg';
+import plaque from '../assets/es-family/es-custom-made-plaque.jpeg';
+
+const title = 'Gibson ES-335, ES-345 And ES-355 Dating Guide';
+const description = 'Date a Gibson ES-335, ES-345 or ES-355 using model-specific photos and timelines for inlays, pickups, bridges, necks, stereo wiring and Varitone controls.';
+const canonical = 'https://www.joesvintageguitarsaz.com/gibson-es-335-345-355-dating-guide/';
+const hero = await getImage({ src: es345, width: 1500, widths: [720, 1080, 1500, 1800], format: 'webp', quality: 88 });
+const heroUrl = new URL(hero.src, imageOrigin).href;
+const chartLabels = ['ES-335', 'ES-345', 'ES-355'];
+const families = [
+  { id: 'es-335', name: 'ES-335', src: es335, label: 'Dots or Small Blocks', alt: 'Sunburst Gibson ES-335 representing the ES-335 family', copy: 'Rosewood fingerboard, dots on early examples and small blocks from 1962. Usually nickel or chrome hardware, four knobs and no Varitone.' },
+  { id: 'es-345', name: 'ES-345', src: es345, label: 'Split-Parallelogram Inlays', alt: 'Sunburst Gibson ES-345 representing the ES-345 family', copy: 'Rosewood fingerboard, split-parallelogram inlays and gold hardware. The vintage model pairs a six-position Varitone with stereo wiring.' },
+  { id: 'es-355', name: 'ES-355', src: es355, label: 'Ebony and Pearl Blocks', alt: 'Cherry Gibson ES-355 representing the ES-355 family', copy: 'Ebony fingerboard, large pearl blocks, split-diamond headstock and elaborate binding. Factory mono and stereo Varitone versions both exist.' },
+];
+const eras = [
+  ['1958 to 1961', 'Dot inlays; long guard on the earliest examples; PAFs and usually a stopbar or Bigsby.', 'Introduced in 1959 with split-parallelograms, gold hardware and stereo Varitone.', 'Introduced in late 1958 with ebony, large blocks and gold hardware. Stereo Varitone joins the mono version in 1959.'],
+  ['1962 to 1964', 'Dots change to small blocks during 1962. Short guard, ABR-1 and stopbar remain familiar clues.', 'Split-parallelograms continue. Gold PAF stock can overlap later Patent Number pickups.', 'Large pearl blocks continue. Check mono or stereo wiring and the original vibrato arrangement.'],
+  ['1965 to 1968', 'Trapeze becomes the usual non-vibrato tailpiece around 1965. Narrower nuts and chrome appear during the transition.', 'Gold plating remains. Check nut width, tailpiece, pickup construction and original harness.', 'Gold plating and deluxe trim remain. Nut width and vibrato need to agree with the serial and pots.'],
+  ['Late 1960s Through the 1970s', 'Watch for laminated necks, a volute, Made in USA and later pickup construction.', 'Use the neck, serial and pots to narrow the year; inlays and Varitone alone span decades.', 'Construction and serial formats change while the recognizable trim continues. Gibson introduces the separate Lucille model in 1980.'],
+  ['Later Production and Reissues', 'Dots, blocks and stopbars recur on later guitars. Vintage styling doesn’t establish a vintage date.', 'Modern versions can have mono wiring or omit the Varitone. Identify the exact version.', 'Historic styling, Bigsbys and Maestros also appear on modern instruments. Check the actual build year.'],
+];
+const finishRows = [
+  ['ES-335', 'Natural or blonde is a 1958 to 1960 production finish. Cherry joins during 1960.', 'Sparkling Burgundy appears in 1967 and 1968. Walnut appears by 1968 and becomes a catalog finish by 1970.'],
+  ['ES-345', 'Natural is limited to 1959 and 1960. Cherry begins during 1960 alongside sunburst.', 'Walnut joins the cataloged finish choices in 1970.'],
+  ['ES-355', 'Cherry is the standard early finish. Sunburst and blonde examples are rare custom orders, not normal yearly options.', 'Walnut, wine red and other finishes appear in later production. Confirm them against the serial and factory period.'],
+];
+const tunerRows = [
+  ['ES-335', 'Single-line, single-ring Klusons from 1958 to mid-1960; single-line, double-ring from mid-1960 to late 1964; double-line, double-ring from late 1964 through 1968; Gibson Deluxe afterward.'],
+  ['ES-345', 'Gold single-ring tuners remain standard: single-line Klusons from 1959 through 1964, double-line from 1965 through 1969, then Gibson Deluxe.'],
+  ['ES-355', 'Gold PAT PEND Grover Rotomatics through late 1963, followed by gold Kluson wafflebacks for the rest of the original run.'],
+];
+const faqs = [
+  ['How Do I Find The Year Of My Gibson ES-335, ES-345 Or ES-355?', 'Identify the model, record the serial number and any Factory Order Number, then compare that model’s neck, inlays, guard, tailpiece and original electronics. Gibson reused serial ranges, and parts can be replaced. Several independent clues should agree before you assign a year.'],
+  ['When Did The ES-335 Change From Dots To Blocks?', 'Small block inlays replaced dots during 1962. Both styles occur in that transition year. Later Dot and Historic models brought the earlier appearance back, so dot inlays alone don’t prove a pre-1962 build.'],
+  ['Does A Trapeze Tailpiece Mean My ES-335 Is From 1965?', 'No. The trapeze became the usual non-vibrato tailpiece around 1965 and continued afterward. Use the nut width, hardware, serial and original pot codes to narrow the date. Tailpiece conversions are also common.'],
+  ['Does Every ES-345 Have A Varitone?', 'The classic vintage ES-345 was built with stereo wiring and a Varitone. Some later versions omit the Varitone or use mono wiring from the factory. On a vintage guitar, a missing or disconnected circuit calls for an originality check.'],
+  ['Can An ES-355 Without A Varitone Be Original?', 'Yes. Gibson made factory mono ES-355s as well as stereo Varitone versions. A converted stereo guitar may still have the selector or a plugged hole. The control layout and original harness help distinguish them.'],
+  ['Can A 1960s ES-345 Or ES-355 Have PAF Pickups?', 'Yes. Gold-covered PAF stock can appear later on these models than nickel-covered stock on ES-335s. A PAF decal is not proof that the guitar was built in the 1950s. Check both pickups and the rest of the instrument.'],
+  ['What Does A Custom Made Plaque Mean On An ES Guitar?', 'The plaque can cover the stopbar stud positions on a factory Bigsby-equipped ES. It isn’t a date code, and it doesn’t prove the guitar came from the modern Gibson Custom Shop. Reproduction plaques exist.'],
+  ['Should I Remove The Pots To Read Their Codes?', 'Don’t remove them just to get a date unless you have the necessary repair experience. Metal dust-cover cans can hide the stamps, and retrieving the pots through a semi-hollow body risks wiring, solder joints and finish. Ask a qualified repairer when the codes aren’t safely visible.'],
+];
+const related = [
+  ['Gibson ES-330 Dating Guide', '/gibson-es-330-dating-guide/', 'Follow the fully hollow model’s P-90, inlay and neck-joint changes.'],
+  ['Gibson Serial Decoder And Charts', 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/', 'Check serial formats, reused ranges and Factory Order Numbers.'],
+  ['Gibson Pot Codes', '/gibson-pot-codes/', 'Read the component date and understand what it can tell you.'],
+  ['PAF And Patent Number Pickups', 'https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/', 'Compare pickup construction, decals and later humbuckers.'],
+  ['Gibson Headstock Logos', '/gibson-headstock-logo-chronology/', 'Compare lettering and headstock details across the eras.'],
+  ['Gibson Knob Dating Guide', '/gibson-knob-dating-guide/', 'Separate bonnet, reflector and witch-hat styles.'],
+  ['Gibson Tuner Dating Guide', '/gibson-tuner-dating-guide/', 'Read Kluson and Grover details with the mounting evidence.'],
+  ['Physical Features And Hardware', '/gibson-physical-features-hardware-guide/', 'Check neck construction, bridges, vibratos and plating.'],
+  ['Gibson Les Paul Dating Guide', '/gibson-les-paul-dating-guide/', 'Follow the changes in each Les Paul family.'],
+  ['Gibson SG Dating Guide', '/gibson-sg-dating-guide/', 'Compare the SG Standard, Custom, Special and Junior.'],
+  ['ES-335 Vs. ES-345 Vs. ES-355', 'https://www.joesvintageguitarsaz.com/post/gibson-es-335-345-355-guide/', 'Compare the three models’ trim and electronic layouts.'],
+  ['Gibson Shipping Totals', 'https://www.joesvintageguitarsaz.com/post/gibson-shipping-totals-1948-1979/', 'Look up recorded shipping figures by model and year.'],
+  ['Sylvia’s 1959 ES-335', 'https://www.joesvintageguitarsaz.com/post/sylvias-1959-gibson-es-335/', 'See how family photographs and an original receipt add context.'],
+  ['1962 ES-335 Guide', 'https://www.joesvintageguitarsaz.com/post/1962-gibson-es-335-guide/', 'See the dot-to-block transition, no-wire bridge and nylon saddles on a real guitar.'],
+  ['1966 ES-335 Guide', 'https://www.joesvintageguitarsaz.com/post/1966-gibson-es-335-authentication-guide/', 'Compare a narrow nut, trapeze, double-line tuners and later-1960s hardware.'],
+  ['1968 ES-335 Guide', 'https://www.joesvintageguitarsaz.com/post/1968-gibson-es-335-guide/', 'Cross-check witch-hat knobs, finish, hardware and the reused serial range.'],
+  ['One-Owner 1966 ES-345', 'https://www.joesvintageguitarsaz.com/post/one-owner-1966-gibson-es-345/', 'Follow the original features and ownership history of a documented ES-345.'],
+  ['One-Family 1959 ES-355', 'https://www.joesvintageguitarsaz.com/post/one-family-1959-gibson-es-355/', 'See how wiring changes affect originality without changing the guitar’s build date.'],
+];
+const schema = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'Article', headline: title, description, mainEntityOfPage: canonical,
+      author: { '@type': 'Person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
+      publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' },
+      datePublished: '2026-09-10', dateModified: '2026-09-15', image: heroUrl },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.joesvintageguitarsaz.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Gibson Serial Number Lookup', item: 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/' },
+      { '@type': 'ListItem', position: 3, name: title, item: canonical },
+    ] },
+    { '@type': 'FAQPage', mainEntity: faqs.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })) },
+    { '@type': 'ImageObject', contentUrl: heroUrl, caption: 'Sunburst Gibson ES-345 with a stopbar, gold hardware and Varitone controls',
+      license: imageLicense.photoLicenseUrl, acquireLicensePage: imageLicense.photoLicenseUrl, creditText: imageLicense.creditText, copyrightNotice: imageLicense.copyrightNotice,
+      creator: { '@type': 'Person', name: imageLicense.creatorName } },
+  ],
+};
+---
+<GibsonGuideLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={heroUrl}
+  ogImageAlt="Sunburst Gibson ES-345 with gold hardware and Varitone controls"
+  ogImageWidth={hero.attributes.width}
+  ogImageHeight={hero.attributes.height}
+  publishedTime="2026-09-10"
+  modifiedTime="2026-09-15"
+  structuredData={schema}
+>
+    <a class="es-skip" href="#es-guide">Skip to the Gibson ES guide</a>
+    <div id="es-guide">
+      <section class="es-hero">
+        <div class="es-hero__copy"><p class="es-eyebrow">Gibson Model Dating Guides</p>
+          <h1>Gibson ES-335,<br />ES-345 And ES-355 <span>Dating Guide</span></h1>
+          <p class="es-lede">Find the year of your Gibson semi-hollow by following the changes for its model, from inlays and pickups to necks, tailpieces and wiring.</p>
+          <div class="es-hero__actions"><a class="es-button" href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/">Use the Gibson Serial Number Decoder And Charts</a><a href="#model-chart">Jump Straight to the ES Dating Chart</a></div>
+          <p class="es-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 15, 2026</p>
+        </div>
+        <figure class="es-hero__photo"><img {...hero.attributes} src={hero.src} srcset={hero.srcSet.attribute} sizes="(min-width: 1024px) 53vw, 100vw" alt="Sunburst Gibson ES-345 with a stopbar, gold hardware and Varitone controls" fetchpriority="high" decoding="async" /></figure>
+      </section>
+      <section class="es-answer"><div class="es-container es-answer__grid"><div><p class="es-eyebrow">Three Models, Different Clues</p><h2>Identify The Model Before The Year</h2><p>The ES-335, ES-345 and ES-355 share a semi-hollow body with a center block, but they don’t share every dating rule. Blocks mean something different on a 335 than on a 355, and gold hardware changes how you read the pickups.</p></div><ol><li><strong>Find the family.</strong> Check fingerboard inlays, headstock, trim and controls.</li><li><strong>Compare its changes.</strong> Read the neck, pickups and tailpiece within that model’s timeline.</li><li><strong>Confirm the year.</strong> Cross-check the serial, any FON, original pot codes and paperwork.</li></ol></div></section>
+      <div class="es-container es-body">
+        <nav class="es-toc" aria-label="ES guide sections"><a href="#families">Find Your Model</a><a href="#model-chart">Dating Chart</a>{families.map(family => <a href={`#${family.id}`}>{family.name}</a>)}<a href="#finish-and-tuners">Finishes And Tuners</a><a href="#body-and-neck">Body And Neck</a><a href="#stereo-and-varitone">Stereo And Varitone</a><a href="#tailpiece-changes">Changed Tailpieces</a><a href="#serial-and-reissues">Serials And Reissues</a><a href="#es-faq">Questions</a></nav>
+        <section class="es-section" id="families"><p class="es-eyebrow">Identify the Family</p><h2>Which Gibson ES Do You Have?</h2><p>These photos represent the three families. Use the inlays, trim and controls together; a changed tailpiece doesn’t change the model.</p>
+          <div class="es-families">{families.map(family => <article><ESPhoto src={family.src} id={`family-${family.id}`} title={family.name} alt={family.alt} showCaption={false} fit="cover" /><div><p class="es-eyebrow">{family.label}</p><h3>{family.name}</h3><p>{family.copy}</p><a href={`#${family.id}`}>See This Model’s Changes</a></div></article>)}</div>
+          <p>For a side-by-side identification comparison, see <a href="https://www.joesvintageguitarsaz.com/post/gibson-es-335-345-355-guide/">ES-335 vs. ES-345 vs. ES-355</a>.</p>
+        </section>
+        <section class="es-section" id="model-chart"><p class="es-eyebrow">Quick Reference</p><h2>ES-335, ES-345 And ES-355 Dating Chart</h2><p>These are production windows, not exact cutoffs. Gibson used up parts during transitions, and replacement parts or reissues can repeat an earlier appearance.</p>
+          <div class="es-table" role="region" aria-label="ES dating chart" tabindex="0"><table><caption>Read Each Change in the Correct Model Column</caption><thead><tr><th scope="col">Period</th><th scope="col">ES-335</th><th scope="col">ES-345</th><th scope="col">ES-355</th></tr></thead><tbody>{eras.map(([period, ...clues]) => <tr><th scope="row" data-label="Period">{period}</th>{clues.map((clue, index) => <td data-label={chartLabels[index]}>{clue}</td>)}</tr>)}</tbody></table></div>
+        </section>
+        <ESModelTimelines />
+        <section class="es-section" id="finish-and-tuners"><p class="es-eyebrow">Model-Specific Hardware And Color</p><h2>Gibson ES Finishes, Tuners And Knobs</h2>
+          <p>Finish and hardware clues only work when they are read within the correct model. Sunburst, cherry and gold-plated parts age differently, and tuners or knobs can be replaced without changing the guitar’s production year.</p>
+          <div class="es-table es-table--rows" role="region" aria-label="Gibson ES finish dating chart" tabindex="0"><table><caption>Finish Windows by ES Model</caption><thead><tr><th scope="col">Model</th><th scope="col">Early Production</th><th scope="col">Later Production</th></tr></thead><tbody>{finishRows.map(([model, early, later]) => <tr><th scope="row" data-label="Model">{model}</th><td data-label="Early Production">{early}</td><td data-label="Later Production">{later}</td></tr>)}</tbody></table></div>
+          <div class="es-table es-table--rows" role="region" aria-label="Gibson ES tuner dating chart" tabindex="0"><table><caption>Tuner Chronology by ES Model</caption><thead><tr><th scope="col">Model</th><th scope="col">Original Tuner Sequence</th></tr></thead><tbody>{tunerRows.map(([model, sequence]) => <tr><th scope="row" data-label="Model">{model}</th><td data-label="Original Tuner Sequence">{sequence}</td></tr>)}</tbody></table></div>
+          <aside class="es-note"><h3>Reflector Knob Colors Vary By Model And Finish</h3><p>A cherry ES-335 normally uses black reflector knobs with silver inserts. A sunburst ES-345 generally uses gold knobs with gold inserts, while a cherry ES-345 and an ES-355 generally use black knobs with gold inserts. Wear, reflections and replacements can confuse the color in a photograph, so use it as supporting evidence rather than proof.</p></aside>
+        </section>
+        <section class="es-section" id="stereo-and-varitone"><p class="es-eyebrow">Date And Originality Are Different Questions</p><h2>Stereo, Mono And The Varitone</h2>
+          <p>The Varitone is the six-position rotary selector beside the four volume and tone knobs. Position 1 bypasses its filter; the other positions select different frequency cuts. It doesn’t contain a date code.</p>
+          <div class="es-checks"><article><h3>Vintage ES-345</h3><p>The original stereo circuit sends the pickups to separate channels through one three-conductor stereo jack and a suitable cable. It doesn't use two separate output jacks. An ordinary mono cable may leave one pickup unheard.</p></article><article><h3>Visible Early Details</h3><p>The first ES-345s use a black Varitone ring; gold becomes normal around mid-1960. The “Stereo” truss-rod cover is absent on some early 1959 guitars and becomes standard by early 1960, although the cover can be replaced and occasionally appears on a mono ES-355.</p></article><article><h3>Factory Mono ES-355</h3><p>A factory mono model can have four knobs, one toggle and no Varitone hole. It shouldn't be called incomplete because a stereo model has another selector.</p></article><article><h3>Shielding Cans</h3><p>An untouched stereo ES-345 or ES-355 harness commonly has three metal pot cans, with the bridge-tone pot left uncovered because of rim clearance. A plain ES-335 doesn't use that stereo shielding arrangement. Missing cans can indicate service, but the cans themselves aren't a date code.</p></article><article><h3>Converted Stereo Guitar</h3><p>A disconnected Varitone, plugged selector hole, changed jack or replacement harness can show a conversion. Keep any removed original parts and document the work. A conversion changes originality, not the guitar’s manufacture year.</p></article><article><h3>Modern Factory Versions</h3><p>Later ES-345s and ES-355s can use mono circuits by design. Modern Lucille versions can also use a separate output arrangement. Check the exact factory specification instead of applying the vintage single-jack rule to every later model.</p></article></div>
+          <aside class="es-warning"><h3>Do Not Pull The Pots Just To Find A Date</h3><p>On these semi-hollow models, metal dust-cover “cans” can cover the pots and hide their stamped codes. Reading them may require removing the pots and covers. This is a tricky job through a small opening, with a risk of breaking solder joints or damaging the finish. I don’t recommend doing it yourself. Ask a qualified repairer if the codes aren’t safely visible.</p></aside>
+          <p>Use the <a href="/gibson-pot-codes/">Gibson pot-code guide</a> for the maker, year and week format. An original pot must have been made before it was installed, sometimes well before the guitar shipped. A replacement pot dates the replacement component.</p>
+        </section>
+        <section class="es-section" id="tailpiece-changes"><p class="es-eyebrow">Factory Option Or Later Conversion?</p><h2>Stopbars, Bigsbys And Custom Made Plaques</h2>
+          <p>A stopbar anchors into two studs in the top. A trapeze mounts at the body’s end, and a Bigsby or Maestro leaves its own mounting pattern. Check for plugged holes, extra screws, lacquer touch-ups and finish shadows. Do not remove hardware or pry off a plaque just to look underneath.</p>
+          <div class="es-photos es-photos--single"><ESPhoto src={plaque} id="custom-made-plaque" title="Custom Made Plaque" alt="Black Custom Made plaque between an ES guitar’s ABR-1 bridge and Bigsby" caption="Gibson used this plaque mainly from late 1960 through early 1965 on some factory Bigsby guitars, where it can cover the stopbar stud positions. It isn't a production date or a modern Custom Shop designation." /></div>
+          <p>A plaque supports a configuration only when the mounting and finish evidence agree. Reproduction plaques exist, not every factory Bigsby guitar has one, and it isn't a standard expectation on an ES-355. After the trapeze became normal, a factory vibrato guitar may have no stopbar holes to cover. A rare factory stopbar ES-355 also needs supporting evidence; its unusual configuration shouldn't be accepted or rejected from a single photo.</p>
+          <aside class="es-note"><h3>A Part Can Be Older Than The Guitar</h3><p>An original-era bridge or PAF can be installed on a later guitar. Look for agreement between the woodwork, neck, finish, serial and electronics before using an old part to assign the guitar’s age.</p></aside>
+        </section>
+        <section class="es-section" id="serial-and-reissues"><p class="es-eyebrow">Confirm the Date</p><h2>ES Serial Numbers, FONs And Reissues</h2>
+          <p>Start with the orange label inside the body and the back of the headstock. Early examples use Gibson’s A-prefix label serials; impressed headstock serials appear during 1961. An early 1961 guitar can legitimately have a label number that doesn't match its newer impressed headstock serial, so record both locations instead of choosing one.</p>
+          <div class="es-photos"><ESPhoto src={label} id="es-label-serial" title="Style And Serial Fields on the Label" alt="Partly obscured orange Gibson label inside a cherry ES-335 showing the style field and part of the serial field" caption="The printed fields read Style, Gibson and Number. This label shows ES-335 TDC in the Style field, but the serial is partly hidden by the body. Photograph every visible digit and compare it with any headstock stamp." /><ESPhoto src={fon} id="es-wood-fon" title="Factory Order Number on the Wood" alt="T-prefix Factory Order Number stamped directly onto bare wood inside a sunburst ES-335" caption="This T-prefix FON marks a 1958 assembly rack, while the guitar is documented as a 1959 example. Assembly can begin in one year and the finished guitar can ship in the next." /></div>
+          <p>A Factory Order Number marks the assembly rack and the guitar’s position within that rack; it isn't a serial number or a parts-manufacture date. On these guitars it is usually viewed through the treble-side f-hole. The letter sequence T, S, R and Q corresponds to 1958, 1959, 1960 and 1961, and the system ends during 1961. See <a href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/#serial-vs-fon">the difference between a serial number and a FON</a> and use the <a href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/">serial decoder and charts</a> for the actual number.</p>
+          <aside class="es-note"><h3>Read The Model Suffixes Separately</h3><p>On the label, T means thinline, D means two pickups, C means cherry, N means natural and SV means stereo Varitone. The ES-345 changes from T to TD during 1960. Some stereo guitars also have “STEREO VARITONE” stamped across the label or nearby bare wood. These marks identify configuration; they don't replace the serial or FON.</p></aside>
+          <div class="es-checks"><article><h3>1960s And Early 1970s Originals</h3><p>Gibson reused number ranges. An apparent 1960s serial can overlap a later year, so compare the neck, guard, hardware and original electronics before choosing a result.</p></article><article><h3>Later Gibson Production</h3><p>Use the serial system for the actual production line and year. Memphis, Nashville and Kalamazoo wording can provide context, but a factory name or label color alone doesn’t supply an exact year.</p></article><article><h3>Historic And Memphis Reissues</h3><p>Reissues can reproduce old label formats and omit a headstock stamp. Single production-year digits repeat every decade. Confirm the exact model, certificate and paperwork rather than guessing the decade from its vintage appearance.</p></article><article><h3>A Model Name Is Not A Build Date</h3><p>“1959 ES-335” or “1964 ES-345” in a reissue name identifies the design being copied. If the exact reissue model isn’t listed in the decoder, keep the complete number and seek individual confirmation. Don’t substitute another ES model’s serial formula.</p></article></div>
+          <p>Use <a href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/#special">special serial formats</a> for supported reissue and limited-run formats. This guide covers the six-string ES-335, ES-345 and ES-355 families. The fully hollow model has its own <a href="/gibson-es-330-dating-guide/">ES-330 dating guide</a>. ES-335-12, Trini Lopez, ES-347 and the Lucille model introduced in 1980 also need their own model checks.</p>
+        </section>
+        <section class="es-section" id="related-guides"><p class="es-eyebrow">Keep Comparing</p><h2>Related Gibson Guides And Real Examples</h2><div class="es-related">{related.map(([name, href, copy]) => <a href={href}><h3>{name}</h3><p>{copy}</p><span>View Guide</span></a>)}</div><p>Visit <a href="https://www.joesvintageguitarsaz.com/">Joe’s Vintage Guitars</a> or browse more instruments on the <a href="https://www.joesvintageguitarsaz.com/blog/">JVG blog</a>.</p></section>
+        <section class="es-section es-faq" id="es-faq"><h2>Gibson ES Dating Questions</h2>{faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
+        <aside class="es-help"><div><p class="es-eyebrow">Need Help With Your ES?</p><h2>Send Joe Photos Of Your Gibson</h2><p>Include the full front and back, both sides of the headstock, label, any visible FON, neck heel, pickups, bridge, tailpiece and controls. Add original paperwork and pot codes only if they are safely accessible. Leave the wiring and sealed pickup covers undisturbed.</p></div><div><a class="es-button" href="https://www.joesvintageguitarsaz.com/free-appraisal/">Get a Free Appraisal</a><a href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/">Sell My Gibson</a></div></aside>
+      </div>
+    </div><ESPhotoViewer />
+  </GibsonGuideLayout>

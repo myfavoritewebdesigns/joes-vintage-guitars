@@ -1,0 +1,281 @@
+---
+import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
+import { getImage } from 'astro:assets';
+import SGPhoto from '../components/SGPhoto.astro';
+import SGPhotoViewer from '../components/SGPhotoViewer.astro';
+import { imageOrigin, imageLicense } from '../config/image-license';
+import standard from '../assets/sg-family/early-60s-gibson-sg-standard-comparison.webp';
+import special from '../assets/sg-family/1970-gibson-sg-special-comparison.webp';
+import custom from '../assets/sg-family/1972-gibson-sg-custom.jpg';
+import junior from '../assets/sg-family/1960s-gibson-sg-junior.webp';
+import sideways from '../assets/sg-family/gibson-sg-sideways-vibrola-example-scaled.jpg';
+import lyre from '../assets/sg-family/late-1960s-sg-standard-lyre-vibrato.jpg';
+import largeGuard from '../assets/sg-family/late-1960s-sg-standard-large-pickguard.jpg';
+import shortVibrola from '../assets/sg-family/gibson-small-maestro-vibrola.jpg';
+import bigsby from '../assets/sg-family/gibson-sg-factory-bigsby-1972-sg-custom.jpg';
+import tobacco from '../assets/sg-family/1975-gibson-sg-tobacco-burst.jpg';
+import soapbars from '../assets/sg-family/gibson-sg-special-soapbar-p-90-pickups.jpg';
+import pelham from '../assets/sg-family/gibson-pelham-blue-sg.jpg';
+import juniorBack from '../assets/sg-family/1964-gibson-sg-junior-full-body-back.webp';
+import juniorHeadstock from '../assets/sg-family/1964-gibson-sg-junior-headstock-back-tuners-serial.webp';
+import lightning from '../assets/sg-family/1960s-gibson-sg-junior-lightning-bridge.webp';
+import nickel from '../assets/features-hardware/gibson-nickel-hardware-1962-gibson-sg-standard-scaled.jpg';
+import volute from '../assets/features-hardware/gibson-sg-custom-volute-1972-scaled.jpg';
+import wafflebacks from '../assets/tuners/1972-gibson-sg-custom-waffleback-klusons.jpg';
+import reissue from '../assets/serial-photos/gibson-sg-reissue-impressed-custom-shop-serial-number.jpg';
+import reflector from '../assets/knobs/gibson-reflector-knob-1960s.jpeg';
+import witchHat from '../assets/knobs/gibson-witch-hat-knob-1960s-1970s.jpeg';
+
+const title = 'Gibson SG Dating Guide: Standard, Custom and More';
+const description = 'Date a Gibson SG Standard, Custom, Special or Junior using model-specific changes to pickguards, pickups, bridges, vibratos, neck joints and serial numbers.';
+const canonical = 'https://www.joesvintageguitarsaz.com/gibson-sg-dating-guide/';
+const hero = await getImage({ src: standard, width: 1500, widths: [720, 1080, 1500, 1800], format: 'webp', quality: 88 });
+const families = [
+  { id: 'sg-standard', name: 'SG Standard', src: standard, alt: 'Cherry Gibson SG Standard representing the two-humbucker Standard family', label: 'Two Full-Size Humbuckers', copy: 'Bound rosewood fingerboard, trapezoid or later block inlays, four knobs and a selector. Read the bridge and vibrato inside the Standard timeline.' },
+  { id: 'sg-custom', name: 'SG Custom', src: custom, alt: 'Gibson SG Custom representing the three-pickup Custom family', label: 'Three Pickups and Gold Hardware', copy: 'The traditional Custom combines three humbuckers, an ebony fingerboard, block inlays and a split-diamond headstock. Later special editions can differ.' },
+  { id: 'sg-special', name: 'SG Special', src: special, alt: 'Cherry Gibson SG Special representing the two-P-90 Special family', label: 'Two Pickups, Simpler Trim', copy: 'The 1960s Special has two soapbar P-90s, dot inlays and a bound fingerboard. The 1970s mini-humbucker version follows a different set of clues.' },
+  { id: 'sg-junior', name: 'SG Junior', src: junior, alt: 'Cherry Gibson SG Junior representing the single-pickup Junior family', label: 'One Pickup and Two Controls', copy: 'A single bridge-position P-90, one volume, one tone and an unbound dot-inlay fingerboard. The guard and pickup mounting change during the 1960s.' },
+];
+const eras = [
+  ['1961 to 1962', 'Pointed body, small guard; Les Paul branding on Standard, Custom and Junior', 'Sideways vibrato on many Standards and Customs. Juniors and Specials use a wraparound-based bridge system.'],
+  ['1963 to 1965', 'SG name, small guard, evolving neck and vibrato', 'Long Maestro on many Standards and Customs; short units on some P-90 models. Nut width and plating begin changing during 1965.'],
+  ['About 1966 to 1971', 'Large batwing guard and revised neck joint', 'Compare pickup mounting, narrower necks and later knobs. Late examples can add a volute and Made in USA stamp.'],
+  ['1971 to 1972', 'Front control plates and short-lived model names', 'SG Deluxe and Pro replace Standard and Special briefly. The budget numbered models are separate designs.'],
+  ['1972 through the 1970s', 'Small guards return; different bridges, pickups and inlays', 'A small guard no longer means early 1960s. Use the exact model, construction, serial and pot codes together.'],
+  ['Later Production and Reissues', 'Earlier shapes and hardware return in new guitars', 'A 1961 or 1964 model name describes the design being copied. Establish the actual production year separately.'],
+];
+const faqs = [
+  ['How Do I Find the Year of My Gibson SG?', 'Read the serial on the back of the headstock, identify the model, then compare its pickguard, neck joint, bridge, pickups and original pot codes. Overlapping Gibson serial ranges can give more than one possible year. The physical features help choose between them.'],
+  ['Why Does My SG Say Les Paul?', 'Gibson introduced the pointed double-cutaway body in 1961 while retaining Les Paul branding on the Standard, Custom and Junior. The change to SG naming took place around 1963. The Special had already used the SG name before the pointed body arrived.'],
+  ['Does a Small Pickguard Mean an Early 1960s SG?', 'No. Small guards also appear on 1970s SGs and later reissues. Check the guard shape, original screw holes, pickup mounting, neck joint, bridge and serial before assigning a date.'],
+  ['When Did the SG Get the Large Batwing Pickguard?', 'The large batwing guard appeared during the 1966 transition. It is a useful clue for the later 1960s and early 1970s, but it has also been reproduced on later guitars. Factory changes did not all happen at once.'],
+  ['Did Early SG Juniors Use the Smooth Wraparound Bridge?', 'Yes. Early SG-shaped Juniors can retain the earlier smooth wraparound. The compensated lightning-bar bridge appeared around 1962. Its raised ridge changes where each string crosses the bridge to improve intonation.'],
+  ['Can an SG Special Have Factory Humbuckers?', 'Yes. The redesigned early 1970s Special used mini-humbuckers, and later Special versions can have full-size humbuckers. The classic 1960s Special uses two P-90s. Check the exact version and its pickup routes before calling it modified.'],
+  ['Does No Made in USA Stamp Prove an SG Is From the 1960s?', 'No. The stamp helps distinguish many original 1960s and 1970s guitars, but reissues can omit it. Finish work, repairs and an unclear impression can also complicate the reading.'],
+  ['Should I Remove the Pickups to Date My SG?', 'Start with exterior photos and accessible numbers. Do not unsolder a pickup cover or disturb old wiring to find a date. If you are not comfortable lifting a pickup or opening the control cavity without damage, have a qualified repairer do it.'],
+];
+const otherModels = [
+  ['SG Deluxe and SG Pro', 'Mainly 1971 to 1972', 'The Deluxe fills the two-humbucker Standard role; the Pro is the two-P-90 counterpart. Their front-mounted control plates and raised guards distinguish them from the earlier rear-routed models. A Deluxe name does not mean Les Paul-style mini-humbuckers.'],
+  ['SG-100, SG-200 and SG-250', 'Early 1970s', 'These lower-priced SG relatives use different pickups and front-mounted electronics. Do not identify an SG-100 as a Junior just because it has one pickup. Compare the whole control plate, pickup placement and original model documentation.'],
+  ['SG I, SG II and SG III', 'Early to Mid-1970s', 'The Roman-numeral models replace the earlier budget series. They have small humbucking pickups and simpler construction. SG III does not mean three pickups; it is a separate catalog designation.'],
+  ['The SG and Firebrand', 'Late 1970s and Early 1980s', 'The stripped-back The SG and Firebrand models belong to their own production family. Wood choice, branding, trim and factory model identification separate them from a Standard with its finish removed.'],
+  ['Melody Maker, EB Basses and EDS-1275', 'Related Body Shapes', 'An SG-shaped Melody Maker is not an SG Junior. The EB basses and EDS-1275 double-neck also need their own model histories. This guide’s six-string Standard, Custom, Special and Junior rules do not date those instruments.'],
+];
+const related = [
+  ['Gibson Serial Number Decoder and Charts', '/', 'Read the number after the model and physical era are established.'],
+  ['Gibson Pot Codes', '/gibson-pot-codes/', 'Read the maker, year and week on the original controls.'],
+  ['Gibson PAF and Patent Number Guide', 'https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/', 'Compare humbucker decals, baseplates and construction.'],
+  ['Gibson Headstock Logos', '/gibson-headstock-logo-chronology/', 'Compare logo details without treating one letter as a complete date.'],
+  ['Gibson Knob Dating Guide', '/gibson-knob-dating-guide/', 'Compare reflector, witch-hat and later knob styles.'],
+  ['Gibson Tuner Dating Guide', '/gibson-tuner-dating-guide/', 'Check Kluson stamps, wafflebacks and replacement footprints.'],
+  ['Physical Features and Hardware', '/gibson-physical-features-hardware-guide/', 'Inspect neck construction, volutes, bridges and hardware plating.'],
+  ['Gibson Les Paul Dating Guide', '/gibson-les-paul-dating-guide/', 'Trace the earlier model families before the SG body arrived.'],
+  ['Gibson ES-335, ES-345 and ES-355', '/gibson-es-335-345-355-dating-guide/', 'Compare model-specific dates, hardware and stereo wiring on the semi-hollow family.'],
+  ['Vintage Gibson SG Family Guide', 'https://www.joesvintageguitarsaz.com/post/vintage-gibson-sg-family-guide/', 'Read more about SG model history, identification and value factors.'],
+  ['Gibson Shipping Totals', 'https://www.joesvintageguitarsaz.com/post/gibson-shipping-totals-1948-1979/', 'Compare recorded production by model and year.'],
+  ['Free Guitar Appraisal', 'https://www.joesvintageguitarsaz.com/free-appraisal/', 'Send photos for help identifying and valuing your SG.'],
+  ['Sell My Gibson', 'https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/', 'Talk with Joe about selling a Gibson or a collection.'],
+];
+const schema = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'Article', '@id': `${canonical}#article`, headline: title, description, mainEntityOfPage: canonical,
+      author: { '@type': 'Person', '@id': 'https://www.joesvintageguitarsaz.com/about-me/#person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
+      publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' },
+      dateModified: '2026-09-10', image: new URL(hero.src, imageOrigin).href },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.joesvintageguitarsaz.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Gibson Serial Number Lookup', item: 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/' },
+      { '@type': 'ListItem', position: 3, name: 'Gibson SG Dating Guide', item: canonical },
+    ] },
+    { '@type': 'FAQPage', '@id': `${canonical}#sg-faq`, mainEntity: faqs.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })) },
+    { '@type': 'ImageObject', contentUrl: new URL(hero.src, imageOrigin).href, caption: 'Early Gibson SG Standard with a small pickguard, two humbuckers and sideways vibrato',
+      license: imageLicense.photoLicenseUrl, acquireLicensePage: imageLicense.photoLicenseUrl, creditText: imageLicense.creditText, copyrightNotice: imageLicense.copyrightNotice,
+      creator: { '@type': 'Person', name: imageLicense.creatorName } },
+  ],
+};
+---
+<GibsonGuideLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={new URL(hero.src, imageOrigin).href}
+  ogImageAlt="Early Gibson SG Standard with a small pickguard and sideways vibrato"
+  ogImageWidth={hero.attributes.width}
+  ogImageHeight={hero.attributes.height}
+  publishedTime="2026-09-10"
+  modifiedTime="2026-09-15"
+  structuredData={schema}
+>
+    <a class="sg-skip" href="#sg-guide">Skip to the Gibson SG guide</a>
+    <div id="sg-guide">
+      <section class="sg-hero">
+        <div class="sg-hero__copy">
+          <p class="sg-eyebrow">Gibson Model Dating Guides</p>
+          <h1>Gibson SG <span>Dating Guide</span></h1>
+          <p class="sg-lede">Find the year of your SG by checking the changes that belong to its model: Standard, Custom, Special or Junior.</p>
+          <div class="sg-hero__actions"><a class="sg-button" href="/how-to-read-gibson-serial-numbers/">Use the Gibson Serial Number Decoder and Charts</a><a href="#model-chart">Jump Straight to the SG Dating Chart</a></div>
+          <p class="sg-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 10, 2026</p>
+        </div>
+        <figure class="sg-hero__photo"><img {...hero.attributes} src={hero.src} srcset={hero.srcSet.attribute} sizes="(min-width: 1024px) 53vw, 100vw" alt="Early Gibson SG Standard with a small pickguard, two humbuckers and sideways vibrato" fetchpriority="high" decoding="async" /></figure>
+      </section>
+      <section class="sg-answer"><div class="sg-container sg-answer__grid">
+        <div><p class="sg-eyebrow">Start With the Guitar</p><h2>A Serial Number Needs a Model</h2><p>An SG Standard and an SG Special can have numbers from the same range but very different pickups and bridges. Identify the model first, then compare its features with the serial and original pot codes. A replaced part dates the replacement, not the guitar.</p></div>
+        <ol><li><strong>Identify the family.</strong> Count the pickups and controls; check inlays and binding.</li><li><strong>Place the physical era.</strong> Look at the guard, neck joint, bridge and vibrato.</li><li><strong>Cross-check the date.</strong> Make the serial, pots and original hardware agree.</li></ol>
+      </div></section>
+      <div class="sg-container sg-body">
+        <nav class="sg-toc" aria-label="SG guide sections"><a href="#families">Find Your Model</a><a href="#model-chart">Dating Chart</a><a href="#les-paul-name">Les Paul or SG?</a>{families.map(family => <a href={`#${family.id}`}>{family.name}</a>)}<a href="#other-models">1970s and Other Models</a><a href="#neck-and-hardware">Neck and Hardware</a><a href="#serial-and-reissues">Serials and Reissues</a><a href="#sg-faq">Questions</a></nav>
+
+        <section class="sg-section" id="families"><p class="sg-eyebrow">Identify the Family</p><h2>Which Gibson SG Do You Have?</h2><p>Use these photographs to recognize the model family. They are not a checklist of parts that every year should have.</p>
+          <div class="sg-families">{families.map(family => <article><SGPhoto src={family.src} id={`family-${family.id}`} title={family.name} alt={family.alt} showCaption={false} fit="cover" /><div><p class="sg-eyebrow">{family.label}</p><h3>{family.name}</h3><p>{family.copy}</p><a href={`#${family.id}`}>See This Model’s Changes</a></div></article>)}</div>
+        </section>
+
+        <section class="sg-section" id="model-chart"><p class="sg-eyebrow">Quick Reference</p><h2>Gibson SG Dating Chart</h2><p>These are overlapping production eras, not serial-number formulas. Gibson used up parts during transitions, and later models deliberately brought earlier features back.</p>
+          <div class="sg-table" role="region" aria-label="SG dating chart, scroll horizontally if needed" tabindex="0"><table><caption>Common SG Eras and the Features to Cross-Check</caption><thead><tr><th scope="col">Period</th><th scope="col">First Clue</th><th scope="col">What to Check Next</th></tr></thead><tbody>{eras.map(([period, clue, check]) => <tr><th scope="row">{period}</th><td>{clue}</td><td>{check}</td></tr>)}</tbody></table></div>
+          <aside class="sg-note"><h3>A Small Guard Is Not a Date</h3><p>The early 1960s, the redesigned 1970s models and modern reissues can all have small pickguards. The shape of the guard, the holes beneath it, the bridge and the neck joint need to tell the same story.</p></aside>
+        </section>
+
+        <section class="sg-section" id="les-paul-name"><p class="sg-eyebrow">The Naming Overlap</p><h2>Why an Early SG Can Say Les Paul</h2><p>The pointed double-cutaway design arrived in 1961. Gibson initially kept the Les Paul name on the Standard, Custom and Junior; the change to SG naming followed around 1963. That makes an early Les Paul-branded SG a normal part of the model’s history.</p><p>The Special needs a separate explanation: Gibson had already started using the SG Special name on the earlier rounded double-cutaway body. “SG Special” in an old description does not automatically mean the pointed 1961 body. Compare the shapes in the <a href="/gibson-les-paul-dating-guide/#les-paul-special">Les Paul Special timeline</a>.</p><aside class="sg-note"><h3>A Nameplate Can Be Replaced</h3><p>A Les Paul truss-rod cover or headstock marking can support an early date, but it cannot prove one. Reissues reproduce that branding, and original plates are easily moved between guitars.</p></aside></section>
+
+        <section class="sg-section" id="sg-standard"><p class="sg-eyebrow">Model-by-Model Dating</p><h2>Gibson SG Standard</h2><p>The traditional Standard has two full-size humbuckers, a bound rosewood fingerboard, four controls and a selector. Early trapezoid inlays give way to smaller block inlays on 1970s versions. Its bridge and vibrato history is different from the wraparound-equipped Junior and Special.</p>
+          <article class="sg-change"><p class="sg-years">1961 to 1962</p><h3>Small Guard, PAFs and Sideways Vibrato</h3><p>The first SG-shaped Standards combine a small guard, separate pickup rings, an ABR-1 bridge and often the large sideways vibrato. Look for nickel hardware, black reflector knobs, early humbuckers and a neck without a volute. The heel and body bevels also deserve close inspection because this area is vulnerable to repairs.</p><p class="sg-meaning"><strong>What It Means for a Standard:</strong> This combination supports an early Les Paul SG date. It does not prove that every visible part is original. A later stopbar conversion may leave holes or finish shadows from the original vibrato.</p><div class="sg-photos"><SGPhoto src={nickel} id="standard-early-hardware" title="Early Standard Hardware" alt="Nickel ABR-1, separate humbucker rings, small pickguard and black reflector knobs on a 1962 SG Standard" caption="The pickup rings sit outside the small pickguard. The ABR-1 and sideways unit work as separate bridge and tailpiece." /><SGPhoto src={sideways} id="standard-sideways" title="Sideways Vibrato" alt="Close-up of the long side-pull vibrato and folding arm on an early SG Standard" caption="The long mechanical housing and sideways-moving arm distinguish this from the simpler Maestro spring vibrato." /></div></article>
+          <article class="sg-change"><p class="sg-years">1963 to 1965</p><h3>Maestro Vibrato and the Mid-Decade Changes</h3><p>The long Maestro with its engraved lyre cover becomes the familiar Standard tailpiece around 1963, while the small guard and separate humbucker rings remain. Neck profiles can become fuller before the narrower nut-width transition during 1965. Nickel hardware gives way to chrome around the same time, with overlap.</p><p>PAF decals and Patent Number decals overlap in the early 1960s. The label alone cannot establish the guitar’s year. Use the <a href="https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/">PAF and Patent Number pickup guide</a> for the construction details, and leave sealed pickup covers intact.</p><p class="sg-meaning"><strong>What It Means for a Standard:</strong> A small guard with a Maestro can fit several years. Original pot codes, nut width, plating and the serial are more useful together than any one feature.</p></article>
+          <article class="sg-change"><p class="sg-years">About 1966 to 1971</p><h3>Batwing Guard, Revised Heel and Later Knobs</h3><p>The large batwing guard surrounds the pickups, which mount through the guard rather than in separate rings. The neck joint is revised during this period. Many examples have a narrower nut, chrome hardware and later Patent Number or T-Top humbuckers. Witch-hat knobs appear around 1967.</p><p class="sg-meaning"><strong>What It Means for a Standard:</strong> The later guard and neck joint are stronger clues than replacement knobs. A Patent Number sticker does not rule out a T-Top pickup beneath the cover.</p>
+            <div class="sg-photos"><SGPhoto src={largeGuard} id="standard-large-guard" title="Large Batwing Pickguard" alt="Cherry SG Standard with a large black batwing guard surrounding both humbuckers, without separate pickup rings" caption="The guard extends around both pickups and across both sides of the strings. Compare it with the small guard and separate pickup rings on the early Standard above." /><SGPhoto src={lyre} id="standard-lyre-vibrato" title="Long Maestro Lyre Vibrato" alt="Long Maestro vibrato and engraved Lyre cover on an SG Standard in a yellow-lined case" caption="The long engraved cover identifies the Lyre version of the Maestro. This later 1960s Standard shows it with the large guard. The yellow-gold color is a reflection of the case lining, not gold plating." /></div>
+            <div class="sg-photos"><SGPhoto src={reflector} id="standard-reflector-style" title="Black Reflector Knob Style" alt="Black Gibson reflector knob with a metal volume insert" caption="The lower reflector profile belongs to the earlier SG period. This close-up compares the part itself, not the date of the guitar beneath it." /><SGPhoto src={witchHat} id="standard-witch-hat-style" title="Later Witch-Hat Knob Style" alt="Black Gibson witch-hat tone knob with a tall ribbed center and wide skirt" caption="The tall ribbed center and broad skirt distinguish the later style. Compare all four knobs and the rest of the guitar." /></div>
+          </article>
+          <article class="sg-change"><p class="sg-years">1971 Through the 1970s</p><h3>Deluxe Interlude, Then the Standard Returns</h3><p>The SG Deluxe briefly takes the Standard’s place in 1971 to 1972. When the Standard returns during 1972, the small guard is back, but the guitar is not a return to every 1961 specification. Look for smaller block inlays, revised neck construction and the broad rectangular bridge often called a harmonica bridge. Stopbar and factory Bigsby versions exist.</p><p class="sg-meaning"><strong>What It Means for a Standard:</strong> A small guard with block inlays, a harmonica bridge and Made in USA stamp points toward the 1970s rather than an early Les Paul SG.</p><div class="sg-photos sg-photos--single"><SGPhoto src={tobacco} id="standard-seventies" title="1970s Standard Layout" alt="Tobacco Sunburst SG Standard with block inlays, a small pickguard, harmonica bridge, stopbar and black knobs" caption="This 1975 example shows how the small guard returns alongside a different bridge and fingerboard inlays." /></div></article>
+        </section>
+
+        <section class="sg-section" id="sg-custom"><p class="sg-eyebrow">Model-by-Model Dating</p><h2>Gibson SG Custom</h2><p>Start with the traditional Custom’s three humbuckers, ebony fingerboard, block inlays, multi-ply neck and headstock binding, split-diamond ornament and gold hardware. Three pickups alone are not enough: a routed Standard does not become a factory Custom.</p>
+          <article class="sg-change"><p class="sg-years">1961 to 1965</p><h3>Sideways Vibrato, Then the Long Maestro</h3><p>The earliest SG Customs retain Les Paul branding and commonly have a white finish. The sideways vibrato belongs to the early period. Around 1963, the long Maestro with its engraved Lyre cover appears on the Custom too; it was not limited to the Standard. Gold-plated PAF pickups can remain in use later than nickel-plated examples, so the Standard’s decal transition should not be treated as an exact Custom cutoff.</p><p class="sg-meaning"><strong>What It Means for a Custom:</strong> A long Maestro can be correct on a 1963 or later Custom. Match the vibrato type, mounting holes, gold hardware, trim and pickup construction with the serial and pot codes. An aged cream appearance can be white lacquer that has yellowed, not a different factory color.</p></article>
+          <article class="sg-change"><p class="sg-years">About 1966 to 1971</p><h3>The Large-Guard Custom</h3><p>The Custom follows the large-pickguard and neck-joint changes while keeping its upscale trim and three-pickup arrangement. Later 1960s and early 1970s construction can include a laminated neck, a volute and eventually a Made in USA stamp.</p><p class="sg-meaning"><strong>What It Means for a Custom:</strong> Do not apply the Standard’s nickel-to-chrome rule to gold-plated parts. Check the tuner type and its original mounting footprint; several tuner styles and later replacements can appear.</p></article>
+          <article class="sg-change"><p class="sg-years">Early 1970s and Later</p><h3>Small Guard, Bigsby and Norlin-Era Construction</h3><p>The Custom keeps its name through the short-lived Deluxe and Pro era. Later small-guard examples can have the broad harmonica bridge, a Bigsby or stopbar, different finish choices and revised neck construction.</p><p class="sg-meaning"><strong>What It Means for a Custom:</strong> A Bigsby is not automatically an aftermarket addition. The mounting holes, surrounding finish, exact model year and documentation determine whether it belongs.</p><div class="sg-photos"><SGPhoto src={custom} id="custom-seventies-layout" title="1970s Custom Layout" alt="Walnut Gibson SG Custom with three humbuckers, gold harmonica bridge, Bigsby and small guard" caption="This 1972 Custom combines the returning small guard with distinctly later hardware." /><SGPhoto src={bigsby} id="custom-bigsby" title="Factory Bigsby Example" alt="Gold Gibson-branded Bigsby on a 1972 SG Custom" caption="Read the Bigsby together with its original screw holes and the guitar’s other construction details." /><SGPhoto src={wafflebacks} id="custom-wafflebacks" title="Gold Waffleback Tuners" alt="Gold waffleback tuners, serial number and Made in USA stamp on a 1972 SG Custom" caption="The rear headstock puts three useful clues together: tuners, serial and Made in USA stamp." /><SGPhoto src={volute} id="custom-volute" title="The Volute Behind the Nut" alt="Raised volute behind the nut on a 1972 SG Custom neck" caption="The extra wood behind the nut is a construction clue. It is not a separate date code." /></div></article>
+          <p>Use the <a href="/gibson-tuner-dating-guide/">tuner guide</a> for casing details and the <a href="https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/">PAF and Patent Number guide</a> for the humbuckers.</p>
+        </section>
+
+        <section class="sg-section" id="sg-special"><p class="sg-eyebrow">Model-by-Model Dating</p><h2>Gibson SG Special</h2><p>The 1960s Special has two soapbar P-90s, four controls, a selector and a bound rosewood fingerboard with dot markers. That binding distinguishes it from a Junior even before the second pickup is counted.</p>
+          <article class="sg-change"><p class="sg-years">1961 to About 1965</p><h3>Small Guard and Two P-90s</h3><p>The pointed SG body replaces the earlier rounded double-cutaway Special. The bridge remains a wraparound-based system rather than the Standard’s ABR-1. Early SG-shaped examples can retain the smooth bridge before the compensated lightning-bar type becomes established around 1962. Some guitars have a short vibrato behind the bridge.</p><p class="sg-meaning"><strong>What It Means for a Special:</strong> An early Special does not need a long Lyre vibrato or humbuckers to be original. Check the bridge stud positions and any vibrato screw holes before judging a missing or changed tailpiece.</p><div class="sg-photos sg-photos--single"><SGPhoto src={shortVibrola} id="special-short-vibrola" title="Short Maestro Vibrato" alt="Compact Gibson Maestro spring vibrato mounted behind an SG bridge" caption="The short unit has no long decorative Lyre cover. It appears on P-90 SG models and continues beyond the small-guard period." /></div></article>
+          <article class="sg-change" id="special-batwing"><p class="sg-years">About 1966 to 1971</p><h3>Large Guard, Still Two Soapbar P-90s</h3><p>The large batwing guard extends around both pickups. The Special keeps its P-90 identity while the neck joint, nut width, knobs and later neck construction change. A short vibrato can remain part of the factory setup.</p><p class="sg-meaning"><strong>What It Means for a Special:</strong> A large guard and two P-90s can fit the later 1960s or early 1970s. Do not call it a Standard because its overall silhouette resembles one.</p><div class="sg-photos"><SGPhoto src={special} id="special-large-guard" title="Large-Guard Special" alt="1970 SG Special with two P-90 pickups, large batwing pickguard and short vibrato" caption="The guard reaches across both sides of the pickups. The two P-90s, dots and four controls still identify the Special." /><SGPhoto src={soapbars} id="special-p90-detail" title="Soapbar P-90 Mounting" alt="Two black soapbar P-90 pickups in a large SG Special pickguard" caption="The soapbar’s mounting screws pass through the cover between the pole screws. It is not a full-size humbucker under black plastic." /></div></article>
+          <article class="sg-change"><p class="sg-years">1971 Through the Mid-1970s</p><h3>SG Pro, Then a Mini-Humbucker Special</h3><p>The SG Pro briefly replaces the Special, retaining two P-90s but using the redesigned front control plate. The returning Special, introduced during 1972 and shown in the 1973 catalog, has smaller humbucking pickups. Fingerboard trim and bridge details also evolve during the run.</p><p class="sg-meaning"><strong>What It Means for a Special:</strong> Mini-humbuckers can be factory-correct for this version. Full-size pickups on a claimed 1960s Special require a different explanation. Inspect the original routes and mounting arrangement instead of relying on the pickup covers.</p></article>
+          <aside class="sg-note"><h3>A Later Special Can Be Different Again</h3><p>The Special name returns on later Gibson ranges, including humbucker-equipped versions and vintage-style P-90 models. Use the actual production year and full model designation. “Special” is not one unchanging set of specifications.</p></aside>
+        </section>
+
+        <section class="sg-section" id="sg-junior"><p class="sg-eyebrow">Model-by-Model Dating</p><h2>Gibson SG Junior</h2><p>The Junior keeps one bridge-position pickup, one volume control, one tone control, dot markers and no fingerboard binding. Its earliest SG-shaped version has a dog-ear P-90, with mounting tabs projecting from each end of the pickup cover.</p>
+          <article class="sg-change"><p class="sg-years">1961 to 1962</p><h3>SG Body With the Earlier Junior Bridge</h3><p>The pointed body arrives while the Les Paul Junior name is still in use. The small guard and dog-ear P-90 continue the simpler Junior layout. Early guitars can have the smooth wraparound bridge carried over from the previous design.</p><p class="sg-meaning"><strong>What It Means for a Junior:</strong> The SG shape does not require a lightning-bar bridge from day one. A smooth bridge can fit an early example, provided the stud spacing, finish, serial and other parts agree.</p></article>
+          <article class="sg-change"><p class="sg-years">About 1962 to 1965</p><h3>Lightning-Bar Bridge and Small-Guard Details</h3><p>The compensated lightning-bar bridge adds a raised, stepped string-contact ridge. This improves intonation compared with the earlier smooth bar. The small guard, dog-ear P-90 and two-control layout remain. Some guitars use a short vibrato; others anchor the strings at the wraparound bridge.</p><p class="sg-meaning"><strong>What It Means for a Junior:</strong> The bridge narrows the likely period but cannot establish a year alone. Reproduction bridges fit old studs, and a removed vibrato can leave a guitar looking like a factory non-vibrato example.</p><div class="sg-photos"><SGPhoto src={junior} id="junior-small-guard" title="Small-Guard Junior Layout" alt="SG Junior with a small guard, one dog-ear P-90, wraparound bridge and two black reflector knobs" caption="The dog-ear mounting tabs and two knobs identify the early Junior layout." /><SGPhoto src={lightning} id="junior-lightning" title="Compensated Lightning-Bar Bridge" alt="Raised compensation ridge on a Gibson SG Junior lightning-bar wraparound bridge" caption="The raised ridge is the feature to look for. The original pattern was designed around the string sets of its period." /></div></article>
+          <article class="sg-change"><p class="sg-years">About 1966 to 1971</p><h3>Large Guard and Revised Pickup Mounting</h3><p>The later Junior moves to a large guard with a soapbar-style P-90 mounted through it, rather than the earlier dog-ear arrangement. It still has one pickup and two controls. Later knobs, the revised heel and late-run neck construction should agree with the number.</p><p class="sg-meaning"><strong>What It Means for a Junior:</strong> A soapbar-style cover is not automatically wrong on a large-guard Junior. Do not mistake it for a Special with a pickup missing; check the original routing and control layout.</p></article>
+          <div class="sg-photos"><SGPhoto src={juniorBack} id="junior-back" title="Junior Neck Heel and Rear Cavity" alt="Back of a 1964 SG Junior showing its neck joint, bevels and small rear control cover" caption="The heel and original cavity layout are useful checks when a pickguard or pickup has been changed." /><SGPhoto src={juniorHeadstock} id="junior-headstock" title="Junior Serial and Strip Tuners" alt="Rear headstock of a 1964 SG Junior with impressed serial and white-button Kluson strip tuners" caption="Read the number beside the tuner mounting footprint and the neck construction. A single serial range is not enough." /></div>
+          <p>See the <a href="https://www.joesvintageguitarsaz.com/post/gibson-les-paul-junior-guide/">Les Paul Junior authentication guide</a> for the earlier single-cut and rounded double-cut models.</p>
+        </section>
+
+        <section class="sg-section" id="other-models"><p class="sg-eyebrow">Other SG Branches</p><h2>1970s Redesigns and Related Models</h2><p>If the controls, pickups or neck do not fit the four main families, establish the factory model name before trying to date it. Gibson’s short-lived names are easy to confuse with later models that reuse them.</p><div class="sg-branches">{otherModels.map(([name, years, copy]) => <article><p class="sg-years">{years}</p><h3>{name}</h3><p>{copy}</p></article>)}</div></section>
+
+        <section class="sg-section" id="neck-and-hardware"><p class="sg-eyebrow">Cross-Check the Parts</p><h2>SG Neck, Hardware and Finish Clues</h2><div class="sg-checks">
+          <article><h3>Neck Joint and Nut Width</h3><p>Early SGs expose most of the neck, with the body meeting near the end of the fingerboard. Later joints extend farther up the neck, around the 19th-fret area, with revised heels. Many early nuts are about 1 11/16 inches wide; many mid-1960s examples narrow toward 1 9/16. Measure the actual guitar and allow for transition periods.</p></article>
+          <article><h3>Volute and Made in USA</h3><p>The volute and laminated neck construction appear around the late-1960s transition into the 1970s. Made in USA becomes a common rear-headstock mark around 1970. These changes overlap rather than arriving together on every model. A missing stamp does not prove an early date.</p></article>
+          <article><h3>Knobs, Tuners and Plating</h3><p>Reflectors give way to witch-hat knobs around 1967 on many SGs. Nickel-to-chrome changes help on Standards and P-90 models; Customs need their gold hardware checked separately. Replacement parts are common, so use original holes and finish shadows as evidence.</p></article>
+          <article><h3>Pickups and Pot Codes</h3><p>Original pots can establish the earliest possible assembly date, not the day Gibson finished the guitar. Compare all readable codes and the solder. A PAF decal, a Patent Number sticker or an old pot can be transferred to another instrument.</p></article>
+        </div><p>Use the <a href="/gibson-physical-features-hardware-guide/">physical features and hardware guide</a>, <a href="/gibson-knob-dating-guide/">knob chronology</a> and <a href="/gibson-pot-codes/">pot-code guide</a> for close comparisons.</p>
+          <div class="sg-finish"><div><h3>Color Is Supporting Evidence</h3><p>Cherry can fade toward brown, white can yellow, and Pelham Blue can develop a green cast. Walnut and Tobacco Sunburst appear on later SGs, but modern reissues and refinishes repeat earlier colors. Check protected lacquer and the guitar’s construction before making a finish-based date claim.</p></div><SGPhoto src={pelham} id="sg-pelham-finish" title="Aged Pelham Blue" alt="Greenish aged Pelham Blue SG finish around black reflector knobs and a selector switch" caption="A green cast can come from aged clear lacquer over blue. The visible color alone does not identify a production year." /></div>
+          <aside class="sg-warning"><h3>Check the Neck for Repairs Before Dating It</h3><p>SG headstocks and neck joints are vulnerable to breaks. A repaired heel, replacement neck or refinished headstock can hide the very clues used to assign a year. Do not remove parts or disturb wiring unless you can do it safely. Never open a sealed pickup just to inspect its bobbins.</p></aside>
+        </section>
+
+        <section class="sg-section" id="serial-and-reissues"><p class="sg-eyebrow">Confirm the Year</p><h2>SG Serial Numbers and Reissue Dates</h2><p>The serial normally appears on the back of the headstock. Original 1960s and early 1970s numbers share Gibson’s reused ranges, so an SG does not have its own simple one-number, one-year chart. Use the <a href="/how-to-read-gibson-serial-numbers/">Gibson serial decoder and charts</a> and answer its format questions using the actual guitar.</p><div class="sg-checks"><article><h3>Original Vintage Production</h3><p>Use the guard, pickup mounting, neck joint and original pot dates to choose between possible serial years. A 1970s construction detail should not be ignored because the same number also appears in a 1960s range.</p></article><article><h3>Later Gibson USA Production</h3><p>Later SGs follow the applicable Gibson USA serial system, including year-specific exceptions. Keep the model’s serial format separate from its vintage styling; a small guard or P-90 does not override a modern production number.</p></article><article><h3>Custom Shop Historic Reissues</h3><p>Many SG Historics use an impressed reissue format with a production-year digit and a model-year code. That single year digit repeats each decade. Read the model, paperwork and certificate of authenticity with the number rather than guessing the decade.</p></article><article><h3>Signature and Limited Editions</h3><p>An artist name, edition number or certificate can be essential to identifying the run. A number that records a guitar’s position in an edition may not contain a production date. Do not force it into the regular SG serial system.</p></article></div>
+          <div class="sg-finish"><div><h3>“1961” on the Model Name Is Not Its Build Year</h3><p>An SG Standard ’61, a 1964 reissue or a Murphy Lab-aged guitar can look decades older than it is. The model name describes the inspiration. Modern aging, reproduction decals and vintage-style hardware cannot establish an original 1960s date.</p><p>See the <a href="/how-to-read-gibson-serial-numbers/#special">special serial formats</a> for the decoder’s reissue options.</p></div><SGPhoto src={reissue} id="sg-historic-serial" title="Impressed Historic Reissue Serial" alt="Impressed serial on a modern Gibson SG Historic reissue headstock" caption="A short impressed number is not automatically an original 1960s serial. Confirm the reissue model and its production decade." /></div>
+        </section>
+
+        <section class="sg-section" id="related-guides"><p class="sg-eyebrow">Keep Comparing</p><h2>Related Gibson Dating Guides</h2><div class="sg-related">{related.map(([name, href, copy]) => <a href={href}><h3>{name}</h3><p>{copy}</p><span>View Guide</span></a>)}</div><p class="sg-more">Find more model articles on the <a href="https://www.joesvintageguitarsaz.com/blog/">JVG blog</a> or visit <a href="https://www.joesvintageguitarsaz.com/">Joe’s Vintage Guitars</a>.</p></section>
+        <section class="sg-section sg-faq" id="sg-faq"><h2>Gibson SG Dating Questions</h2>{faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
+        <aside class="sg-help"><div><p class="sg-eyebrow">Need Help With an SG?</p><h2>Send Joe Photos of Your SG</h2><p>Include the full front and back, both sides of the headstock, serial, neck heel, pickups, bridge, vibrato and any repairs. Add readable pot codes if they are safely accessible. Pair each close-up with a photo showing where it sits on the guitar.</p></div><div><a class="sg-button" href="https://www.joesvintageguitarsaz.com/free-appraisal/">Get a Free Appraisal</a><a href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/">Sell My Gibson</a></div></aside>
+      </div>
+    </div><SGPhotoViewer />
+  </GibsonGuideLayout>
+
+<style>
+  .sg-container { width: min(100% - 2.5rem, 76rem); margin-inline: auto; }
+  .sg-skip { position: fixed; top: 1rem; left: 1rem; z-index: 200; transform: translateY(-200%); background: white; padding: .8rem; color: var(--color-wine-dark); }
+  .sg-skip:focus { transform: none; }
+  .sg-eyebrow { margin: 0 0 .7rem; color: var(--color-wine-dark); font-size: .875rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+  .sg-hero { display: grid; background: var(--color-ink); color: white; }
+  .sg-hero__copy { display: flex; min-height: 35rem; flex-direction: column; justify-content: flex-end; padding: 10rem max(1.25rem, calc((100vw - 76rem) / 2)) 3.5rem; background: radial-gradient(circle at 16% 24%, rgb(129 51 31 / .52), transparent 35%), linear-gradient(145deg, #2d241f, #18120f); }
+  .sg-hero .sg-eyebrow { color: var(--color-gold-light); }
+  h1 { margin: 0; font-family: var(--font-display); font-size: clamp(3.5rem, 7vw, 6.6rem); line-height: .98; letter-spacing: -.025em; }
+  h1 span { display: block; color: var(--color-gold-light); }
+  .sg-lede { max-width: 40rem; margin: 1.5rem 0 1rem; color: #eee4dd; font-size: 1.12rem; line-height: 1.75; }
+  .sg-hero__actions { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+  .sg-button { display: inline-flex; align-items: center; justify-content: center; border-radius: 2rem; background: var(--color-gold-light); padding: .85rem 1.2rem; color: var(--color-ink); font-size: .94rem; font-weight: 800; text-decoration: none; text-align: center; }
+  .sg-hero__actions > a:not(.sg-button), .sg-byline a { color: var(--color-gold-light); text-decoration: underline; text-underline-offset: 4px; font-weight: 700; }
+  .sg-byline { margin: 1.5rem 0 0; color: #d4c3b8; font-size: .875rem; }
+  .sg-hero__photo { position: relative; min-height: 25rem; margin: 0; background: #211610; overflow: hidden; }
+  .sg-hero__photo img { width: 100%; height: 100%; object-fit: cover; object-position: 53% center; }
+  .sg-answer { border-bottom: 1px solid var(--color-rule); background: var(--color-cream); padding: 3rem 0; }
+  .sg-answer__grid { display: grid; gap: 2rem; }
+  h2 { margin: 0 0 1rem; font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; }
+  .sg-answer p { margin-bottom: 0; font-size: 1.05rem; }
+  .sg-answer ol { margin: 0; padding-left: 1.5rem; display: grid; gap: 1rem; }
+  .sg-answer li { padding-left: .3rem; }
+  .sg-answer li::marker { color: var(--color-wine-dark); font-weight: 800; }
+  .sg-body { max-width: 70rem; padding-block: 1rem 4rem; }
+  .sg-toc { display: flex; flex-wrap: wrap; gap: .65rem 1.2rem; border-bottom: 1px solid var(--color-rule); padding: 1rem 0 1.5rem; }
+  .sg-toc a { font-size: .9rem; }
+  .sg-body a:not(.sg-button), .sg-answer a { color: var(--color-wine-dark); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .sg-section { padding-block: 3rem; scroll-margin-top: 1rem; }
+  .sg-section + .sg-section { border-top: 1px solid var(--color-rule); }
+  .sg-section > p { max-width: 58rem; font-size: 1.05rem; line-height: 1.8; margin: 0 0 1.25rem; }
+  .sg-families, .sg-photos, .sg-checks, .sg-related { display: grid; gap: 1.1rem; margin: 1.5rem 0; }
+  .sg-families article { border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine-dark); border-radius: .9rem; background: white; overflow: hidden; }
+  .sg-families article > div { padding: 1.3rem; }
+  :global(.sg-families .sg-photo) { border: 0; border-bottom: 1px solid var(--color-rule); border-radius: 0; }
+  .sg-families h3 { margin: .4rem 0 .65rem; font-family: var(--font-display); font-size: 1.65rem; }
+  .sg-families p:not(.sg-eyebrow) { margin: 0 0 1rem; color: #5f5149; line-height: 1.7; }
+  .sg-families .sg-eyebrow { font-size: .8rem; }
+  .sg-table { overflow-x: auto; margin: 1.5rem 0; border: 1px solid var(--color-rule); border-radius: .9rem; background: white; }
+  table { width: 100%; min-width: 46rem; border-collapse: collapse; text-align: left; }
+  caption { padding: 1rem; text-align: left; font-weight: 750; background: var(--color-cream); }
+  th, td { padding: 1rem; border-bottom: 1px solid #e8dfd2; vertical-align: top; }
+  thead th { background: #f5efe5; color: var(--color-wine-dark); font-size: .9rem; }
+  tbody th { width: 22%; color: var(--color-wine-dark); }
+  tr:last-child > * { border-bottom: 0; }
+  .sg-note, .sg-warning { margin: 1.5rem 0 0; border-left: 3px solid var(--color-wine-dark); background: var(--color-cream); padding: 1.2rem 1.4rem; }
+  .sg-warning { border-left-color: var(--color-gold); background: #f8f1df; }
+  .sg-note h3, .sg-warning h3, .sg-checks h3 { margin: 0 0 .6rem; font-family: var(--font-display); font-size: 1.4rem; }
+  .sg-note p, .sg-warning p, .sg-checks p { margin: 0; line-height: 1.75; }
+  .sg-change { padding: 2.2rem 0; border-top: 1px solid var(--color-rule); scroll-margin-top: 1rem; }
+  .sg-change > p { max-width: 58rem; line-height: 1.8; }
+  .sg-years { margin: 0 0 .4rem; color: var(--color-wine-dark); font-size: .875rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .sg-change h3, .sg-finish h3 { margin: .3rem 0 .8rem; font-family: var(--font-display); font-size: clamp(1.6rem, 3vw, 2rem); line-height: 1.2; }
+  .sg-meaning { border-left: 3px solid var(--color-wine-dark); padding-left: 1rem; color: #564940; }
+  .sg-meaning strong { color: var(--color-wine-dark); }
+  .sg-photos--single { max-width: 40rem; }
+  .sg-checks article { border: 1px solid var(--color-rule); border-radius: .75rem; padding: 1.3rem; background: var(--color-cream); }
+  .sg-branches { margin-top: 1.5rem; }
+  .sg-branches article { padding: 1.6rem 0; border-top: 1px solid var(--color-rule); }
+  .sg-branches h3 { margin: .3rem 0 .65rem; font-family: var(--font-display); font-size: 1.6rem; }
+  .sg-branches article > p:last-child { max-width: 58rem; margin: 0; line-height: 1.75; }
+  .sg-finish { display: grid; gap: 1.5rem; align-items: center; margin-block: 2rem; }
+  .sg-finish p { line-height: 1.8; }
+  .sg-related > a { display: flex; flex-direction: column; border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine-dark); border-radius: .85rem; padding: 1.3rem; text-decoration: none !important; }
+  .sg-related h3 { margin: 0 0 .65rem; font-family: var(--font-display); color: var(--color-ink); font-size: 1.35rem; }
+  .sg-related p { margin: 0 0 1rem; color: #5f5149; font-weight: 400; }
+  .sg-related span { margin-top: auto; text-decoration: underline; text-underline-offset: 3px; }
+  .sg-related a:hover, .sg-related a:focus-visible { background: var(--color-cream); }
+  .sg-faq details { padding: 1rem 0; border-bottom: 1px solid var(--color-rule); }
+  .sg-faq summary { cursor: pointer; font-weight: 750; }
+  .sg-faq p { max-width: 58rem; margin: .8rem 0 0; line-height: 1.75; }
+  .sg-help { display: grid; gap: 1.5rem; padding: clamp(1.4rem, 4vw, 2.5rem); border: 1px solid var(--color-rule); border-radius: 1rem; background: var(--color-cream); }
+  .sg-help p:not(.sg-eyebrow) { margin: 0; line-height: 1.75; }
+  .sg-help > div:last-child { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
+  .sg-help .sg-button { background: var(--color-wine-dark); color: white; }
+  @media (min-width: 700px) {
+    .sg-answer__grid { grid-template-columns: 1.2fr .8fr; }
+    .sg-families, .sg-photos:not(.sg-photos--single), .sg-checks, .sg-related { grid-template-columns: 1fr 1fr; }
+    .sg-finish { grid-template-columns: 1fr 1fr; }
+  }
+  @media (min-width: 1024px) {
+    .sg-hero { grid-template-columns: .94fr 1.06fr; min-height: 48rem; }
+    .sg-hero__copy { min-height: 48rem; padding-top: 18rem; padding-right: clamp(2.5rem, 5vw, 5rem); padding-bottom: 4.5rem; }
+    .sg-hero__photo { min-height: 48rem; }
+    .sg-hero__photo img { position: absolute; inset: 0; }
+    .sg-related { grid-template-columns: repeat(3, 1fr); }
+  }
+</style>

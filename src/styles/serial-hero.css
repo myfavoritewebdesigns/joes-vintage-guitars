@@ -1,0 +1,17 @@
+/* Serial-page-only layout: heading and lookup before supporting copy on phones. */
+.serial-hero-layout { row-gap: 1.75rem; }
+.serial-hero-heading { grid-area: heading; }
+.serial-hero-layout > .tool-card { grid-area: tool; }
+.serial-hero-intro { grid-area: intro; }
+.serial-hero-layout { grid-template-areas: 'heading' 'tool' 'intro'; }
+
+@media (max-width: 1023px) {
+  .serial-hero-heading > p { display: none; }
+  .serial-hero-heading h1 { font-size: clamp(2.25rem, 7vw, 3.5rem); line-height: 1.05; letter-spacing: -.025em; }
+}
+
+@media (min-width: 1024px) {
+  .serial-hero-layout { grid-template-areas: 'heading tool' 'intro tool'; grid-template-rows: 1fr 1fr; }
+  .serial-hero-heading { align-self: end; }
+  .serial-hero-intro { align-self: start; }
+}
