@@ -130,7 +130,7 @@ const schema = {
         </section>
 
         <section class="sg-section" id="model-chart"><p class="sg-eyebrow">Quick Reference</p><h2>Gibson SG Dating Chart</h2><p>These are overlapping production eras, not serial-number formulas. Gibson used up parts during transitions, and later models deliberately brought earlier features back.</p>
-          <div class="sg-table" role="region" aria-label="SG dating chart, scroll horizontally if needed" tabindex="0"><table><caption>Common SG Eras and the Features to Cross-Check</caption><thead><tr><th scope="col">Period</th><th scope="col">First Clue</th><th scope="col">What to Check Next</th></tr></thead><tbody>{eras.map(([period, clue, check]) => <tr><th scope="row">{period}</th><td>{clue}</td><td>{check}</td></tr>)}</tbody></table></div>
+          <div class="sg-table" role="region" aria-label="SG dating chart" tabindex="0"><table><caption>Common SG Eras and the Features to Cross-Check</caption><thead><tr><th scope="col">Period</th><th scope="col">First Clue</th><th scope="col">What to Check Next</th></tr></thead><tbody>{eras.map(([period, clue, check]) => <tr><th scope="row" data-label="Period">{period}</th><td data-label="First Clue">{clue}</td><td data-label="What To Check Next">{check}</td></tr>)}</tbody></table></div>
           <aside class="sg-note"><h3>A Small Guard Is Not a Date</h3><p>The early 1960s, the redesigned 1970s models and modern reissues can all have small pickguards. The shape of the guard, the holes beneath it, the bridge and the neck joint need to tell the same story.</p></aside>
         </section>
 
@@ -266,6 +266,17 @@ const schema = {
   .sg-help p:not(.sg-eyebrow) { margin: 0; line-height: 1.75; }
   .sg-help > div:last-child { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
   .sg-help .sg-button { background: var(--color-wine-dark); color: white; }
+  @media (max-width: 699px) {
+    .sg-table { overflow: visible; border: 0; border-radius: 0; background: transparent; }
+    .sg-table table, .sg-table tbody, .sg-table tr, .sg-table th, .sg-table td { display: block; width: 100%; min-width: 0; }
+    .sg-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .sg-table caption { display: block; box-sizing: border-box; width: 100%; border: 1px solid var(--color-rule); border-radius: .75rem .75rem 0 0; }
+    .sg-table tbody { display: grid; gap: 1rem; }
+    .sg-table tr { overflow: hidden; border: 1px solid var(--color-rule); border-radius: .75rem; background: white; }
+    .sg-table th, .sg-table td { box-sizing: border-box; padding: .8rem 1rem; border-bottom: 1px solid #e8dfd2; }
+    .sg-table th::before, .sg-table td::before { content: attr(data-label); display: block; margin-bottom: .25rem; color: var(--color-wine-dark); font-size: .72rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+    .sg-table tbody th { width: 100%; background: #f5efe5; }
+  }
   @media (min-width: 700px) {
     .sg-answer__grid { grid-template-columns: 1.2fr .8fr; }
     .sg-families, .sg-photos:not(.sg-photos--single), .sg-checks, .sg-related { grid-template-columns: 1fr 1fr; }

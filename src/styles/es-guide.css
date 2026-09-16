@@ -80,7 +80,7 @@
   .es-table { overflow: visible; border: 0; border-radius: 0; background: transparent; }
   .es-table table, .es-table tbody, .es-table tr, .es-table th, .es-table td { display: block; width: 100%; min-width: 0; }
   .es-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-  .es-table caption { border: 1px solid var(--color-rule); border-radius: .75rem .75rem 0 0; }
+  .es-table caption { display: block; box-sizing: border-box; width: 100%; border: 1px solid var(--color-rule); border-radius: .75rem .75rem 0 0; }
   .es-table tbody { display: grid; gap: 1rem; }
   .es-table tr { overflow: hidden; border: 1px solid var(--color-rule); border-radius: .75rem; background: white; }
   .es-table th, .es-table td { box-sizing: border-box; padding: .8rem 1rem; border-bottom: 1px solid #e8dfd2; }
