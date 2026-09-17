@@ -487,6 +487,37 @@ select {
   font-weight: 800;
 }
 
+.format-compare-actions {
+  min-width: 10.5rem;
+}
+
+.format-compare-link {
+  display: inline-flex;
+  min-height: 2.15rem;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--color-wine);
+  border-radius: 999px;
+  background: #f6eee2;
+  padding: 0.35rem 0.7rem;
+  color: var(--color-wine-dark);
+  font-size: 0.75rem;
+  font-weight: 850;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.format-compare-link + .format-compare-link { margin-left: 0.35rem; }
+.format-compare-link::after { content: "→"; color: var(--color-wine); font-size: 0.9rem; }
+.format-compare-link:hover {
+  border-color: var(--color-wine-dark);
+  background: var(--color-wine-dark);
+  color: white;
+  transform: translateY(-1px);
+}
+.format-compare-link:hover::after { color: var(--color-gold-light); }
+
 .dense-table {
   font-variant-numeric: tabular-nums;
 }
@@ -601,7 +632,20 @@ select {
 }
 
 .legacy-anchor { display: block; height: 0; scroll-margin-top: 1.5rem; }
-.chart-note a, #model-year-serials a { color: var(--color-wine-dark); font-weight: 700; text-decoration: underline; text-underline-offset: .2em; }
+.chart-note a, .chart-heading p a, #model-year-serials a { color: var(--color-wine-dark); font-weight: 700; text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: .2em; }
+
+.gibson-guide main :where(p, li, dd, figcaption) > a:not([class]) {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.2em;
+}
+
+.gibson-guide main a:focus-visible {
+  border-radius: 0.2rem;
+  outline: 3px solid var(--color-gold);
+  outline-offset: 3px;
+}
 
 .location-card div {
   position: relative;
@@ -933,6 +977,13 @@ select {
     letter-spacing: 0.075em;
     line-height: 1.35;
     text-transform: uppercase;
+  }
+  .format-compare-actions { min-width: 0; }
+  .format-compare-link {
+    min-height: 2.75rem;
+    margin-top: 0.2rem;
+    padding: 0.55rem 0.85rem;
+    font-size: 0.8rem;
   }
   .chart-heading > div { padding-left: 3rem; }
 }
