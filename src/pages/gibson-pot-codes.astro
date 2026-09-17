@@ -1,0 +1,283 @@
+---
+import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
+import { getImage } from 'astro:assets';
+import PotCodeDiagram from '../components/PotCodeDiagram.astro';
+import PotPhoto from '../components/PotPhoto.astro';
+import PotPhotoViewer from '../components/PotPhotoViewer.astro';
+import { imageOrigin, imageLicense } from '../config/image-license';
+import pot1972 from '../assets/pots/gibson-1972-cts-pot-code-solder.jpg';
+import pot1969 from '../assets/pots/gibson-1969-cts-pot-code.jpg';
+import sidePot from '../assets/pots/gibson-vintage-pot-side-code-location.jpg';
+
+const title = 'Gibson Pot Codes: How to Date a Gibson by Its Pots';
+const description = 'Read the maker and date code on a vintage Gibson’s pots: Centralab and CTS codes, where the stamp sits, and what a pot date can and can’t prove.';
+const canonical = 'https://www.joesvintageguitarsaz.com/gibson-pot-codes/';
+const serialGuide = 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/';
+const heroPhoto = await getImage({ src: pot1969, width: 1080, widths: [480, 720, 1080, 1440], format: 'webp', quality: 85 });
+const heroFull = await getImage({ src: pot1969, width: 2400, format: 'webp', quality: 92 });
+const socialPhoto = await getImage({ src: pot1969, width: 1200, height: 630, fit: 'cover', position: 'center', format: 'webp', quality: 88 });
+const { loading: _heroLoading, decoding: _heroDecoding, ...heroAttributes } = heroPhoto.attributes;
+const heroImageUrl = new URL(heroPhoto.src, imageOrigin).href;
+const socialImageUrl = new URL(socialPhoto.src, imageOrigin).href;
+const heroImageId = `${heroImageUrl}#image`;
+const faqs = [
+  ['Can A Pot Code Prove That The Electronics Are Original?', 'No. A replacement pot can be old, and an entire wiring assembly can be replaced with period parts. Matching dates support an assessment, but the solder joints, wiring, components and guitar’s history also need to agree.'],
+  ['How Long Before The Guitar Was Built Were Its Pots Made?', 'Often the gap is a few weeks to about a year, but one to two years or longer can occur when parts remain in stock. An original pot’s date sets an earliest possible assembly date, not an exact build date.'],
+  ['What If I Can Only Read 137?', '137 identifies CTS. Without the following year digits, it does not date the pot. Photograph the visible portion and check the other pots without disturbing the wiring.'],
+  ['What If The Pot Dates And Serial Number Disagree?', 'First check that you have read both formats correctly. Then consider replacement pots, an older wiring assembly or a reused serial-number range. Do not force a guitar date from one component.'],
+];
+const schema = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'Article', '@id': `${canonical}#article`, headline: title, description, mainEntityOfPage: canonical,
+      image: { '@id': heroImageId }, datePublished: '2026-09-08', dateModified: '2026-09-15',
+      author: { '@type': 'Person', '@id': 'https://www.joesvintageguitarsaz.com/about-me/#person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
+      publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' } },
+    { '@type': 'ImageObject', '@id': heroImageId, contentUrl: heroImageUrl, url: heroImageUrl,
+      width: heroPhoto.attributes.width, height: heroPhoto.attributes.height,
+      caption: '1969 Gibson control cavity with the maker and year portion of a CTS pot code visible',
+      license: imageLicense.photoLicenseUrl, acquireLicensePage: imageLicense.photoLicenseUrl,
+      creditText: imageLicense.creditText, copyrightNotice: imageLicense.copyrightNotice,
+      creator: { '@type': 'Person', name: imageLicense.creatorName } },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.joesvintageguitarsaz.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Gibson Serial Number Lookup', item: serialGuide },
+      { '@type': 'ListItem', position: 3, name: 'Gibson Pot Codes', item: canonical },
+    ] },
+    { '@type': 'FAQPage', '@id': `${canonical}#pot-faq`, mainEntity: faqs.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })) },
+  ],
+};
+---
+<GibsonGuideLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={socialImageUrl}
+  ogImageAlt="1969 Gibson CTS potentiometer code in a control cavity"
+  ogImageWidth={socialPhoto.attributes.width}
+  ogImageHeight={socialPhoto.attributes.height}
+  publishedTime="2026-09-08"
+  modifiedTime="2026-09-15"
+  structuredData={schema}
+>
+    <a href="#pot-guide" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-cream focus:px-4 focus:py-2">Skip to pot-code guide</a>
+    <div id="pot-guide">
+      <section class="pot-hero">
+        <div class="pot-container pot-hero__grid">
+          <div>
+            <p class="pot-eyebrow">Gibson Dating Guides</p>
+            <h1>Gibson <span>Pot Codes</span></h1>
+            <p class="pot-lede">A pot code tells you who made a volume or tone control and when it was made. It dates the part, not the guitar, but it can narrow down a Gibson’s age when the serial number gives more than one answer.</p>
+            <a class="pot-hero__jump" href="#read-pot-code">Jump Straight To The Pot-Code Formats</a>
+            <p class="pot-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 15, 2026</p>
+          </div>
+          <figure class="pot-hero__photo" data-pot-photo="pot-1969">
+            <a class="serial-photo-link" href={heroFull.src} data-serial-photo data-photo-title="1969 CTS Pot: 137 69" data-photo-caption="The maker and year are visible. The week code is partly hidden, and the same pot also carries a Gibson part number and 500K rating." aria-label="Enlarge photo: 1969 CTS pot code" aria-describedby="pot-1969-caption">
+              <img {...heroAttributes} src={heroPhoto.src} srcset={heroPhoto.srcSet.attribute} sizes="(max-width: 1023px) calc(100vw - 40px), 520px" alt="1969 Gibson control cavity with 13769 visible on a CTS pot" loading="eager" decoding="async" fetchpriority="high" />
+              <span class="serial-photo-zoom" aria-hidden="true">Enlarge photo</span>
+            </a>
+            <figcaption id="pot-1969-caption"><strong>1969 CTS Pot: 137 69</strong><span>The maker and year are visible. The week code is partly hidden.</span></figcaption>
+          </figure>
+        </div>
+      </section>
+      <div class="pot-container pot-body">
+        <nav class="pot-toc" aria-label="Pot-code guide sections">
+          <a href="#read-pot-code">Read The Code</a><a href="#pot-makers">Supplier Era Chart</a><a href="#find-pot-code">Where To Look</a><a href="#pot-photo-examples">Photo Examples</a><a href="#date-the-guitar">Date The Guitar</a><a href="#control-cavity-check">Check The Cavity</a><a href="#related-gibson-guides">Related Guides</a>
+        </nav>
+
+        <section class="pot-section" id="read-pot-code">
+          <p class="pot-eyebrow">Start With The Digits</p>
+          <h2>How To Read A Gibson Pot Code</h2>
+          <p>“Pot” is short for potentiometer, the component underneath a volume or tone knob. Many vintage pots have an EIA manufacturer-and-date code stamped into the metal casing. Read the maker first, then the year and week. The groups may run together or be separated by spaces, dots or hyphens.</p>
+          <div class="pot-format-grid">
+            <PotCodeDiagram title="Seven Digits: Two Year Digits" maker="137" year="YY" week="WW" makerMeaning="Maker: CTS" yearMeaning="Last two digits of the year" weekMeaning="Two-digit week number" note="For example, 137 69 02 means CTS, 1969, week 02." />
+            <PotCodeDiagram title="Six Digits: One Year Digit" maker="134" year="Y" week="WW" makerMeaning="Maker: Centralab" yearMeaning="Last digit of the year" weekMeaning="Two-digit week number" note="For example, 134701 means Centralab, a year ending in 7, week 01. The guitar must establish the decade." />
+          </div>
+          <p>In the Gibson period covered here, six-digit EIA source-date codes appear from 1947 through 1959. A year digit of 7, 8 or 9 can point to either the late 1940s or the late 1950s, so the guitar’s construction, serial number and other parts must settle the decade. Seven-digit codes begin appearing in late 1959 and use two year digits.</p>
+          <p>The final two digits are normally a week from 01 to 52. A number above 52 is not a valid week code. It may belong to a part number, value or another marking.</p>
+        </section>
+
+        <section class="pot-section" id="pot-makers">
+          <p class="pot-eyebrow">Use The Suppliers Gibson Actually Used</p>
+          <h2>Gibson Pot Suppliers By Era</h2>
+          <p>The first digits name the pot maker, not Gibson. Supplier history helps, but it is approximate because Gibson used stock on hand and changed vendors over time.</p>
+          <div class="table-card"><table><thead><tr><th scope="col">Approximate Period</th><th scope="col">Supplier And Marking</th><th scope="col">What To Read</th></tr></thead><tbody>
+            <tr><td data-label="Approximate Period">Early 1950s to late 1955</td><td data-label="Supplier And Marking">IRC, often marked <strong>615-0689</strong></td><td data-label="What To Read">The 615-0689 group identifies the IRC pot type seen on early Gibsons. A separate three-digit group supplies the one-digit year and two-digit week. For example, <strong>218</strong> means a year ending in 2, week 18.</td></tr>
+            <tr><td data-label="Approximate Period">About 1953 into the mid-1960s</td><td data-label="Supplier And Marking">Centralab, code <strong>134</strong></td><td data-label="What To Read">Centralab overlaps IRC in the 1950s and CTS during the early-1960s transition. Its date is usually stamped around the side of the casing, although bottom-stamped exceptions exist.</td></tr>
+            <tr><td data-label="Approximate Period">Early 1960s onward</td><td data-label="Supplier And Marking">CTS, code <strong>137</strong></td><td data-label="What To Read">CTS overlaps Centralab during the transition and becomes the usual supplier on many later-1960s and 1970s Gibsons. CTS means Chicago Telephone Supply before 1960 and CTS Corporation after the name change.</td></tr>
+          </tbody></table></div>
+          <h3>Codes That Usually Need A Replacement Check</h3>
+          <p>Stackpole <strong>304</strong>, Allen-Bradley <strong>106</strong> and Clarostat <strong>140</strong> are valid EIA maker codes, but they are not the normal factory suppliers in a 1950s or 1960s Gibson guitar. Their presence does not prove a replacement. Check the specific model, pot specifications, wiring and solder before deciding.</p>
+        </section>
+
+        <section class="pot-section" id="find-pot-code">
+          <p class="pot-eyebrow">Look Before Moving Anything</p>
+          <h2>Where To Find The Code On A Gibson Pot</h2>
+          <div class="pot-photo-row">
+            <PotPhoto src={sidePot} id="side-pot" title="The Date May Be Around The Side" alt="Back of a vintage Gibson Centralab pot with CRL diamond trademark, USA marking, braided wires and solder joints" caption="The CRL diamond trademark and USA marking identify the Centralab pot. Its date code is around the side of the casing and is not visible from this angle." />
+            <div class="pot-prose">
+              <p>The location follows the pot maker more closely than the guitar’s decade. Centralab dates are usually stamped around the side. CTS dates are usually on the flat back. Those are useful tendencies, not rules: some late-1950s Centralab pots are bottom stamped.</p>
+              <p>On a Les Paul, SG or another solid-body Gibson, look through the rear control cavity. The code can face a cavity wall, sit behind wires or disappear under solder. Start with a light, magnification, a camera and a small inspection mirror.</p>
+              <h3>Shielding Cans On Hollow And Semi-Hollow Gibsons</h3>
+              <p>Some full-depth archtops from the mid-1950s into the mid-1960s used metal shielding cans over the pots. Stereo and Varitone ES-345 and ES-355 harnesses often used three cans because the fourth pot sat too close to the rim. A standard mono ES-335 generally did not use them.</p>
+              <p>An intact factory can is evidence that the harness may be undisturbed. Do not pry it open or break its solder just to find a date. If there are no cans, try a light and mirror first. If the code remains hidden, let a repairer who knows vintage Gibson harnesses handle the removal.</p>
+              <aside class="pot-note"><h3>Joe’s Advice: Don’t Remove The Pots Yourself</h3><p>I don’t recommend removing the pots from a hollow or semi-hollow Gibson yourself. Working through an f-hole is tricky and can break original solder joints, damage the wiring or scratch the finish.</p></aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="pot-section" id="pot-photo-examples">
+          <p class="pot-eyebrow">Real Examples From Joe’s Photos</p>
+          <h2>1969 And 1972 Gibson Pot Codes</h2>
+          <p>The 1969 photo at the top of this page shows <strong>137 69</strong>: CTS and 1969. The remaining week digits are partly hidden. The same pot carries a Gibson part number and a 500K resistance marking, which are not part of the date.</p>
+          <div class="pot-code-findings">
+            <div><strong>137</strong><span>CTS, the manufacturer</span></div>
+            <div><strong>69</strong><span>1969, the pot’s year</span></div>
+            <div><strong>500K</strong><span>Resistance, not a date</span></div>
+          </div>
+          <div class="pot-photo-row">
+            <PotPhoto src={pot1972} id="pot-1972" title="1972 CTS Pot: Solder Covers The Week" alt="Faint 13772 code on a Gibson CTS pot with braided wiring and solder obscuring the final 20" caption="The full code was recorded as 137 72 20: CTS, 1972, week 20. In this photograph, 137 72 is barely visible and the final 20 runs into the solder joint. On the adjacent pot, solder hides almost the entire code." />
+            <div class="pot-prose"><h3>Read Only The Digits You Can See</h3><p>A photograph may support the maker and year without showing every week digit. Record each pot separately. Do not borrow missing digits from another pot because components in the same guitar can have different dates.</p><h3>Solder Can Cover The Entire Number</h3><p>Do not scrape, heat or remove solder just to expose a date. An unreadable code is a reason to use other dating clues, not a reason to disturb the controls.</p></div>
+          </div>
+        </section>
+
+        <section class="pot-section" id="date-the-guitar">
+          <p class="pot-eyebrow">From A Part Date To A Guitar Date</p>
+          <h2>What Pot Codes Tell You About A Gibson’s Age</h2>
+          <p>If a pot is original, the guitar could not have been completed with it before that pot was made. The date is an earliest possible assembly date, not a shipping date, sale date or guarantee of the build year.</p>
+          <p>A gap of a few weeks to about a year is common on many guitars. One to two years or longer can occur when Gibson had slower-moving parts or older stock on hand. Do not call an older pot a replacement without evidence from the solder, wiring and the rest of the harness.</p>
+          <div class="table-card"><table><thead><tr><th scope="col">What You Find</th><th scope="col">What You Can Conclude</th></tr></thead><tbody>
+            <tr><td data-label="What You Find">A 1969 pot believed to be original</td><td data-label="What You Can Conclude">The guitar could not have been assembled with that part before the pot’s 1969 production date. It may have been completed later.</td></tr>
+            <tr><td data-label="What You Find">A 1972 pot in a guitar claimed to be from 1965</td><td data-label="What You Can Conclude">Check for a replacement, a misread code or an incorrect guitar date. One newer pot does not automatically redate the whole guitar.</td></tr>
+            <tr><td data-label="What You Find">Several pots with matching or nearby dates</td><td data-label="What You Can Conclude">Consistent dates support originality, but do not prove it. The wiring, solder joints and other parts still need to agree.</td></tr>
+            <tr><td data-label="What You Find">An original-looking pot one or two years older than the guitar</td><td data-label="What You Can Conclude">The gap can reflect factory inventory. Inspect the joint and model-specific specifications before calling the pot a replacement.</td></tr>
+          </tbody></table></div>
+          <h3>Use The Serial Number And Pot Dates Together</h3>
+          <p>Pot codes are useful when a 1960s Gibson serial number fits more than one year. A serial that could be 1965 or 1968 paired with an original 1967 pot cannot support 1965 assembly. It supports the later possibility, but only after the pot’s originality has been checked.</p>
+          <p>Record each pot separately, then compare the dates with the <a href={serialGuide}>Gibson serial-number lookup and charts</a>, construction, hardware and documented history. The latest pot you can establish as original provides the earliest possible assembly date for that set of parts.</p>
+          <p>If the guitar has humbuckers, compare their labels and construction with the <a href="https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/">Gibson PAF and Patent Number pickup guide</a>. Pickup features do not replace the pot or serial evidence, but they can show whether the parts belong to the same period.</p>
+        </section>
+
+        <section class="pot-section" id="other-pot-markings">
+          <p class="pot-eyebrow">Not Every Number Is A Date</p>
+          <h2>Pot Date Codes, Part Numbers, Resistance And Taper</h2>
+          <p>A pot may carry several markings. Copy every line exactly as it appears before trying to decode it.</p>
+          <div class="pot-markings">
+            <div><h3>137 Or 134</h3><p>An EIA maker code. Look for the year and week digits that follow it.</p></div>
+            <div><h3>500K, 300K Or 250K</h3><p>A resistance value in thousands of ohms, not a year. 500K is common on vintage Gibsons. Some models used 250K, while later-1970s circuits can use 300K volume and 100K tone controls.</p></div>
+            <div><h3>Audio Or Linear Taper</h3><p>AT, AUD, A, LIN or similar markings describe how the control changes as the knob turns. The correct taper depends on the model and control position.</p></div>
+            <div><h3>Gibson Part Numbers</h3><p>Markings such as BA811-1053 or TX1158 identify a part or specification. On early IRC pots, 615-0689 is separate from the three-digit date group.</p></div>
+          </div>
+          <p>If the number does not fit a known date format, leave it unresolved instead of treating any convenient pair of digits as the year.</p>
+        </section>
+
+        <section class="pot-section" id="control-cavity-check">
+          <p class="pot-eyebrow">Check The Whole Harness</p>
+          <h2>Cross-Check The Gibson Control Cavity</h2>
+          <p>A date code is more useful when the rest of the electronics match the model and period. Read these clues together.</p>
+          <div class="pot-check-grid">
+            <article><h3>Resistance And Taper</h3><p>Match the printed value and taper to the model, year and control position. A correct date on the wrong electrical specification is a reason to look closer.</p></article>
+            <article><h3>Capacitors</h3><p>Grey Tiger capacitors are common on early-to-mid-1950s Gibsons. Sprague Black Beauty capacitors begin appearing around 1956. Types overlap, and an old capacitor can be moved, so the leads and solder must agree.</p></article>
+            <article><h3>Braided Wire</h3><p>Braided-shield wire belongs in many vintage Gibson harnesses, but similar wire is sold today. Check its routing, weave and connections instead of treating braid alone as proof.</p></article>
+            <article><h3>Solder Joints</h3><p>Undisturbed joints support originality. Reflowed or replaced joints show that work was done, but they do not tell you by themselves which component was changed.</p></article>
+            <article><h3>Shielding Cans</h3><p>An intact can on a model that used one can support an undisturbed harness. A missing can is not enough by itself to condemn the guitar.</p></article>
+            <article><h3>Part Numbers And Layout</h3><p>Compare Gibson part numbers, pot positions, capacitor layout and wiring path with the correct model. Gibson specifications changed, and one universal control-cavity pattern does not exist.</p></article>
+          </div>
+        </section>
+
+        <section class="pot-section" id="related-gibson-guides">
+          <p class="pot-eyebrow">Continue The Inspection</p>
+          <h2>Related Gibson Dating And Identification Guides</h2>
+          <p>Pot codes are one part of the evidence. These guides add pickup, production and model-specific checks.</p>
+          <div class="pot-related-grid">
+            <a class="pot-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/"><h3>Gibson PAF And Patent Number Pickup Guide</h3><p>Compare PAF decals, Patent Number stickers, T-tops and construction details before treating the pickups as dating evidence.</p><span>Read The Pickup Guide</span></a>
+            <a class="pot-related-card" href="https://www.joesvintageguitarsaz.com/post/what-a-serial-number-cant-tell-you/"><h3>What A Serial Number Can’t Tell You</h3><p>See how Joe checks electronics, hardware and construction when a serial number is incomplete or ambiguous.</p><span>Read The Inspection Guide</span></a>
+            <a class="pot-related-card" href="https://www.joesvintageguitarsaz.com/post/1968-gibson-es-335-guide/"><h3>1968 Gibson ES-335 Guide</h3><p>Follow a documented CTS pot-code example alongside pickups, knobs, hardware and construction.</p><span>Read The ES-335 Guide</span></a>
+            <a class="pot-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-les-paul-tv-model-guide/"><h3>Gibson Les Paul TV Model Guide</h3><p>Compare 1950s pot codes, capacitors, solder, serial numbers and model features.</p><span>Read The Les Paul TV Guide</span></a>
+            <a class="pot-related-card" href="https://www.joesvintageguitarsaz.com/post/1959-gibson-es-355-history-value/"><h3>1959 Gibson ES-355 Guide</h3><p>Use electronics, stereo wiring, Varitone parts and construction to check a first-year ES-355.</p><span>Read The ES-355 Guide</span></a>
+            <a class="pot-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-firebird-history-authentication-value/"><h3>Gibson Firebird Guide</h3><p>Compare pot codes with neck construction, pickups, hardware and model changes.</p><span>Read The Firebird Guide</span></a>
+            <a class="pot-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-shipping-totals-1948-1979/"><h3>1948 To 1979 Gibson Shipping Totals</h3><p>Check factory shipping totals after the model and likely year have been established.</p><span>View The Production Totals</span></a>
+            <a class="pot-related-card" href="https://www.joesvintageguitarsaz.com/fender-pot-codes/"><h3>Fender Pot Codes</h3><p>Read Fender supplier eras, date formats and control-cavity clues when the guitar is a Fender.</p><span>Read The Fender Guide</span></a>
+            <a class="pot-related-card pot-related-card--sell" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/"><h3>Sell My Gibson Guitar</h3><p>If you are ready to sell, Joe buys vintage Gibson guitars nationwide and provides a free evaluation.</p><span>Learn How To Sell Your Gibson</span></a>
+          </div>
+        </section>
+
+        <section class="pot-section" id="pot-faq">
+          <h2>Gibson Pot-Code Questions</h2>
+          <div class="pot-faq">{faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</div>
+        </section>
+        <aside class="pot-help"><p class="pot-eyebrow">Need A Second Set Of Eyes?</p><h2>Send Joe The Code And The Whole Guitar</h2><p>Send an overall electronics photo, close-ups of each visible pot code, the serial number and photos of the guitar’s front and back. Leave hidden codes hidden if exposing them would risk the wiring.</p><a href="https://www.joesvintageguitarsaz.com/free-appraisal/">Ask Joe For Help</a><a class="pot-help__secondary" href={serialGuide}>Back To The Gibson Serial Lookup</a></aside>
+      </div>
+    </div>
+    <PotPhotoViewer />
+  </GibsonGuideLayout>
+
+<style>
+  .pot-container { width: min(100% - 2.5rem, 76rem); margin-inline: auto; }
+  .pot-hero { padding: 10rem 0 3rem; background: var(--color-ink); color: white; }
+  .pot-hero__grid { display: grid; gap: 2.5rem; align-items: center; }
+  .pot-eyebrow { margin: 0 0 .7rem; font-size: .8rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--color-wine-dark); }
+  .pot-hero .pot-eyebrow { color: var(--color-gold-light); }
+  h1 { margin: 0; font-family: var(--font-display); font-size: clamp(3rem, 6vw, 5rem); line-height: 1.05; }
+  h1 span { color: var(--color-gold-light); }
+  .pot-lede { margin: 1.5rem 0 1rem; font-size: 1.125rem; line-height: 1.75; color: #ece3d9; }
+  .pot-hero__jump, .pot-byline a { color: var(--color-gold-light); text-decoration: underline; text-underline-offset: .25rem; }
+  .pot-hero__jump { display: inline-block; font-weight: 700; }
+  .pot-byline { margin: 1.5rem 0 0; font-size: .875rem; color: #d2bcb0; }
+  .pot-hero__photo { margin: 0; overflow: hidden; border: 1px solid #ffffff38; border-radius: 1rem; background: #2c211a; box-shadow: 0 1rem 2.5rem rgb(0 0 0 / .24); }
+  .pot-hero__photo img { display: block; width: 100%; height: auto; }
+  .pot-hero__photo figcaption { display: grid; gap: .2rem; padding: .9rem 1rem 1rem; color: #e7ded6; }
+  .pot-hero__photo figcaption strong { font-family: var(--font-display); font-size: 1.2rem; color: white; }
+  .pot-hero__photo figcaption span { font-size: .9rem; line-height: 1.5; }
+  .pot-body { max-width: 64rem; padding-block: 1rem 4rem; }
+  .pot-section { padding-block: 2.5rem; scroll-margin-top: 1rem; }
+  .pot-section + .pot-section { border-top: 1px solid var(--color-rule); }
+  h2 { margin: 0 0 1rem; font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.5rem); line-height: 1.2; }
+  .pot-section > p { max-width: 53rem; margin-bottom: 1.25rem; }
+  .pot-section > p:not(.pot-eyebrow) { font-size: 1.0625rem; line-height: 1.8; }
+  .pot-format-grid { display: grid; gap: 1.25rem; margin-block: 1.5rem; }
+  .pot-toc { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; border-bottom: 1px solid var(--color-rule); padding: 1rem 0 1.5rem; }
+  .pot-toc a, .pot-section a { color: var(--color-wine-dark); text-decoration: underline; text-underline-offset: 3px; font-weight: 650; }
+  .pot-toc a { font-size: .875rem; }
+  .pot-section h3 { margin: 1.25rem 0 .75rem; font-family: var(--font-display); font-size: 1.5rem; line-height: 1.3; }
+  .pot-section .pot-small { margin-top: 1rem; font-size: .9375rem; }
+  .pot-photo-row { display: grid; gap: 1.75rem; margin: 1.75rem 0; align-items: start; }
+  .pot-photo-row + .pot-photo-row { padding-top: 1.5rem; }
+  .pot-prose { font-size: 1.0625rem; line-height: 1.8; }
+  .pot-prose > p { margin: 0 0 1rem; }
+  .pot-prose > h3:first-child { margin-top: 0; }
+  .pot-note { margin-top: 1.5rem; padding: 1rem 1.25rem; border-left: 3px solid var(--color-wine-dark); background: var(--color-cream); }
+  .pot-note h3 { margin-top: 0; font-size: 1.25rem; }
+  .pot-note p { margin: 0; font-size: 1rem; }
+  .pot-code-findings { display: grid; gap: .75rem; margin: 1.25rem 0 2rem; }
+  .pot-code-findings > div { display: grid; gap: .15rem; padding: 1rem 1.15rem; border: 1px solid var(--color-rule); border-radius: .7rem; background: var(--color-cream); }
+  .pot-code-findings strong { font-family: var(--font-display); font-size: 1.5rem; color: var(--color-wine-dark); }
+  .pot-code-findings span { font-size: .95rem; }
+  .pot-markings, .pot-check-grid { display: grid; gap: 1rem; margin: 1.5rem 0; }
+  .pot-markings > div, .pot-check-grid > article { padding: 1.25rem; border: 1px solid var(--color-rule); border-radius: .7rem; background: var(--color-cream); }
+  .pot-markings h3, .pot-check-grid h3 { margin-top: 0; }
+  .pot-markings p, .pot-check-grid p { margin: 0; line-height: 1.65; }
+  .pot-related-grid { display: grid; gap: 1rem; margin-top: 1.5rem; }
+  .pot-section a.pot-related-card { display: flex; flex-direction: column; min-height: 100%; border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine-dark); border-radius: .8rem; padding: 1.25rem; background: white; color: var(--color-ink); text-decoration: none; transition: transform .18s ease, box-shadow .18s ease; }
+  .pot-section a.pot-related-card:hover, .pot-section a.pot-related-card:focus-visible { transform: translateY(-2px); box-shadow: 0 .6rem 1.4rem rgb(56 34 22 / .12); }
+  .pot-related-card h3 { margin: 0 0 .65rem; font-size: 1.3rem; }
+  .pot-related-card p { margin: 0 0 1rem; line-height: 1.65; color: #5f5149; }
+  .pot-related-card span { margin-top: auto; color: var(--color-wine-dark); font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
+  .pot-section a.pot-related-card--sell { border-top-color: var(--color-gold); background: var(--color-cream); }
+  .pot-faq details { border-bottom: 1px solid var(--color-rule); padding: 1rem 0; }
+  .pot-faq summary { font-weight: 700; cursor: pointer; }
+  .pot-faq p { max-width: 53rem; margin: .75rem 0 0; }
+  .pot-help { border-radius: 1rem; background: var(--color-cream); border: 1px solid var(--color-rule); padding: clamp(1.25rem, 4vw, 2.5rem); }
+  .pot-help > p:not(.pot-eyebrow) { max-width: 48rem; }
+  .pot-help > a { display: inline-block; margin: .75rem 1rem 0 0; background: var(--color-wine-dark); color: white; border-radius: 2rem; padding: .8rem 1.25rem; font-weight: 700; }
+  .pot-help > .pot-help__secondary { color: var(--color-wine-dark); background: transparent; padding-inline: 0; text-decoration: underline; text-underline-offset: 3px; }
+  @media (min-width: 650px) { .pot-code-findings { grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 700px) { .pot-format-grid, .pot-related-grid, .pot-check-grid { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 800px) { .pot-photo-row { grid-template-columns: 1.35fr 1fr; } .pot-markings { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1024px) { .pot-hero { padding-top: 18rem; padding-bottom: 4rem; } .pot-hero__grid { grid-template-columns: 1.05fr 1fr; gap: 4rem; } }
+  @media (min-width: 901px) and (max-width: 1250px) {
+    :global(.jvg-footer__main) { padding-inline: 24px; }
+    :global(.jvg-footer__box) { grid-template-columns: 180px 180px minmax(0, 1fr); gap: 20px; padding-inline: 24px; }
+    :global(.jvg-footer__logo img) { width: 190px; margin-inline: -20px; }
+    :global(.jvg-footer__primary) { flex-wrap: wrap !important; gap: 12px 16px !important; }
+  }
+</style>

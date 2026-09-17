@@ -1,0 +1,561 @@
+---
+import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
+import { getImage } from 'astro:assets';
+import FeatureHardwarePhoto from '../components/FeatureHardwarePhoto.astro';
+import FeatureHardwarePhotoViewer from '../components/FeatureHardwarePhotoViewer.astro';
+import { imageOrigin } from '../config/image-license';
+import volutePhoto from '../assets/features-hardware/gibson-sg-custom-volute-1972-scaled.jpg';
+import noVolutePhoto from '../assets/features-hardware/gibson-les-paul-neck-with-no-volute-scaled.jpg';
+import onePieceMahogany from '../assets/features-hardware/Gibson-one-piece-mahogany-neck.jpg';
+import threePieceMahogany from '../assets/features-hardware/gibson-3-piece-mahogany-neck.jpg';
+import threePieceMaple from '../assets/features-hardware/gibson-3-piece-maple-neck.jpg';
+import noWireAbr1 from '../assets/features-hardware/no-wire-abr-1-bridge-neckel-scaled.jpg';
+import wiredAbr1 from '../assets/features-hardware/wired-gibson-abr-1-bridge.jpg';
+import nashvilleBridge from '../assets/features-hardware/gibson-nashville-bridge-on-firebird.jpg';
+import nickelHardware from '../assets/features-hardware/gibson-nickel-hardware-1962-gibson-sg-standard-scaled.jpg';
+import chromeHardware from '../assets/features-hardware/gibson-chrome-finish-1969-gibson-scaled.jpg';
+import madeInUsaStamp from '../assets/features-hardware/gibson-made-in-usa-stamp-scaled.jpg';
+import wrapoverTailpiece from '../assets/features-hardware/gibson-wrap-over-tailpiece-example.jpg';
+import stopbarTailpiece from '../assets/features-hardware/gibson-es-335-tune-o-matic-and-stop-bar-tailpiece-scaled.jpg';
+import trapezeTailpiece from '../assets/features-hardware/gibson-es-335-trapeze-tailpiece-example.jpg';
+import wrapUnderTailpiece from '../assets/features-hardware/1952-gibson-les-paul-wrap-under-tailpiece.jpeg';
+import pancakeBodyPhoto from '../assets/features-hardware/gibson-les-paul-pancake-body-finish-line.jpg';
+import harmonicaBridge from '../assets/sg-family/1975-gibson-sg-tobacco-burst.jpg';
+import nylonSaddles from '../assets/es-330/nylon-bridge-saddles.jpg';
+import sidewaysVibrola from '../assets/sg-family/gibson-sg-sideways-vibrola-example-scaled.jpg';
+import shortMaestro from '../assets/sg-family/gibson-small-maestro-vibrola.jpg';
+import lyreVibrola from '../assets/sg-family/late-1960s-sg-standard-lyre-vibrato.jpg';
+import bigsbyVibrato from '../assets/es-family/1966-es-345-bigsby-varitone.jpg';
+import customMadePlaque from '../assets/es-family/es-custom-made-plaque.jpeg';
+
+const title = 'Dating a Gibson by Its Parts: Volute, Neck, Bridge';
+const description = 'Date a vintage Gibson from its parts: the volute and Made in USA stamp, neck wood, pancake body, bridge, tailpiece and plating, and the years each changed.';
+const canonical = 'https://www.joesvintageguitarsaz.com/gibson-physical-features-hardware-guide/';
+const articleImage = await getImage({ src: volutePhoto, width: 1080, widths: [480, 720, 1080], format: 'webp', quality: 86 });
+
+const quickChart = [
+  ['About 1970 Onward', 'Made in USA Stamp', 'A strong sign of regular post-1969 Gibson USA production. Historic reissues, Classics, Custom Shop guitars and special formats can be exceptions.'],
+  ['Late 1969 or 1970 to About 1981', 'Volute', 'Common on many solidbodies and ES thinlines. Some Customs retained it into 1982, while full-depth archtops adopted it later. Size alone does not give an exact year.'],
+  ['Common Through Early 1969', 'One-Piece Mahogany Neck', 'Typical on many Les Pauls and ES solidbody or thinline models before the Norlin construction changes. Later returns and model exceptions exist.'],
+  ['Mid-1969 to About 1975', 'Three-Piece Mahogany Neck', 'Two long glue seams can place many Les Pauls and ES-335s in the early Norlin transition. One-piece and laminated examples overlap.'],
+  ['About 1975 Into the Early 1980s', 'Three-Piece Maple Neck', 'Common on many Les Pauls, ES-335s and ES-175s. Do not apply the range automatically to SGs, Firebirds or Explorers.'],
+  ['Late 1969 Through 1977', 'Les Paul Pancake Body', 'Two thicker mahogany sections are separated by a thin maple crossband. Gibson phased out this Les Paul construction during 1977.'],
+  ['1954 Into 1962', 'No-Wire ABR-1', 'The early Tune-O-Matic has no saddle-retaining wire. The change to a retaining wire occurred across late 1962 and early 1963.'],
+  ['1962 Into the 1970s', 'Nylon Bridge Saddles', 'Nylon replaced metal saddles during 1962 on many models. Late 1962 and early 1963 examples can combine nylon saddles with a no-wire bridge.'],
+  ['Late 1962 or Early 1963 Onward', 'Wired ABR-1', 'A thin wire retains the saddle screws. The wired ABR-1 remained standard until wider bridge designs gradually replaced it on many models.'],
+  ['Late 1971 Into the Early 1980s', 'Harmonica Bridge', 'First seen on the Les Paul Recording in late 1971, then on SG models from 1973 and several later 1970s models.'],
+  ['Mid-1970s Onward', 'Nashville Bridge', 'A wider Tune-O-Matic with more intonation travel and larger posts. The exact introduction depends on the model.'],
+  ['Early 1965 Through 1967 Transition', 'Nickel to Chrome Plating', 'Nickel continued into early 1965. Mixed hardware appears in 1965 and 1966, and chrome was broadly established by 1967.'],
+];
+
+const neckExamples = [
+  {
+    id: 'one-piece-mahogany-neck', period: 'Common Through Early 1969', name: 'One-Piece Mahogany Neck', src: onePieceMahogany,
+    alt: 'Close view of an uninterrupted one-piece mahogany neck on a vintage Gibson guitar',
+    caption: 'The grain continues across the back of this neck without two long laminate seams.',
+    summary: 'On many Les Pauls and ES solidbody or thinline models, a one-piece mahogany neck supports a date before the mid-1969 construction transition. Look along the full length under raking light. A reflection, grain line or finish check is not automatically a glue seam.',
+    clues: ['Continuous grain', 'No two lengthwise seams', 'Common on earlier Les Paul and ES models'],
+    limitLabel: 'Where This Range Applies',
+    limit: 'Full-depth archtops used laminated necks earlier, and one-piece mahogany returned on later reissues and selected models. Identify the guitar before applying the range.'
+  },
+  {
+    id: 'three-piece-mahogany-neck', period: 'Mid-1969 to About 1975', name: 'Three-Piece Mahogany Neck', src: threePieceMahogany,
+    alt: 'Close view of a three-piece mahogany neck with visible long glue seams on a vintage Gibson guitar',
+    caption: 'Two subtle lengthwise seams divide this mahogany neck into three laminated sections.',
+    summary: 'Three-piece mahogany necks are an important early Norlin clue on many Les Pauls and ES-335s. The sections can be similar in color, so follow both seams from the heel toward the headstock instead of relying on one short mark.',
+    clues: ['Two long glue seams', 'Mahogany color and grain', 'Common early Norlin clue'],
+    limitLabel: 'Why the Date Is Approximate',
+    limit: 'One-piece and three-piece mahogany necks overlap during the transition, and Gibson did not change every model at once.'
+  },
+  {
+    id: 'three-piece-maple-neck', period: 'About 1975 Into the Early 1980s', name: 'Three-Piece Maple Neck', src: threePieceMaple,
+    alt: 'Back of a three-piece maple Gibson neck showing two vertical glue seams',
+    caption: 'Pale maple and two visible seams identify this three-piece laminated neck.',
+    summary: 'Many Les Pauls, ES-335s and ES-175s changed to three-piece maple necks around 1975. Natural or translucent finishes make the paler wood and seams easier to see. Dark finishes may hide both, especially after refinishing.',
+    clues: ['Paler maple color', 'Two long glue seams', 'Common on later Norlin Les Paul and ES models'],
+    limitLabel: 'Models Matter',
+    limit: 'This is not a universal SG, Firebird or Explorer rule. Mahogany and maple examples also overlap during the mid-1970s transition.'
+  },
+];
+
+const bridgeExamples = [
+  {
+    id: 'no-wire-abr-1', period: '1954 Into 1962', name: 'No-Wire ABR-1', src: noWireAbr1,
+    alt: 'Side view of a nickel no-wire Gibson ABR-1 Tune-O-Matic bridge',
+    caption: 'The early ABR-1 has no thin retaining wire running across the saddle screws.',
+    summary: 'The original ABR-1 Tune-O-Matic appeared in 1954. Early examples rely on string tension and the saddle screws without a retaining wire. Gibson moved to the wired version across late 1962 and early 1963, not on one clean factory-wide date.',
+    clues: ['Narrow bridge body', 'Small threaded posts', 'No wire across saddle screws'],
+    limitLabel: 'What the Bridge Proves',
+    limit: 'This dates the bridge style, not automatically the guitar. A wire can be lost, and complete bridges are commonly replaced.'
+  },
+  {
+    id: 'wired-abr-1', period: 'Late 1962 or Early 1963 Onward', name: 'Wired ABR-1', src: wiredAbr1,
+    alt: 'Top view of a wired Gibson ABR-1 bridge with a retaining wire across the saddle screws',
+    caption: 'The thin retaining wire is visible along the outside of the saddle screws on this later ABR-1.',
+    summary: 'Gibson added a retaining wire during the late 1962 to early 1963 transition so loose saddles and screws would not fall out during string changes. The wired ABR-1 remained standard on many models until wider designs gradually replaced it, and Gibson still uses ABR-1 bridges on selected guitars and reissues.',
+    clues: ['Thin saddle-retaining wire', 'Narrow ABR-1 body', 'Small posts without large bushings'],
+    limitLabel: 'Check for Replacement',
+    limit: 'The wire is a useful hardware-era clue, but it does not prove the bridge has stayed with the guitar since new.'
+  },
+  {
+    id: 'harmonica-bridge', period: 'Late 1971 Into the Early 1980s', name: 'Harmonica Bridge', src: harmonicaBridge,
+    alt: 'Wide harmonica bridge and stopbar on a 1975 Gibson SG Standard',
+    caption: 'This 1975 SG Standard shows the broad rectangular bridge often nicknamed the harmonica bridge.',
+    summary: 'Gibson first used this wide-travel bridge on the Les Paul Recording in late 1971. It appeared on the SG Custom, Standard and Special from 1973, spread to several other 1970s models and remained on instruments such as the L6-S, Marauder and S-1 into the early 1980s.',
+    clues: ['Very wide rectangular body', 'Long saddle travel', 'Body-mounted inserts'],
+    limitLabel: 'Do Not Date by the Inserts Alone',
+    limit: 'Large metal inserts also belong to the Nashville system and can be added during a conversion. Identify the bridge body and check the exact model.'
+  },
+  {
+    id: 'nashville-bridge', period: 'Mid-1970s Onward', name: 'Nashville Tune-O-Matic', src: nashvilleBridge,
+    alt: 'Gold Gibson Nashville Tune-O-Matic bridge on a black Firebird guitar',
+    caption: 'A Nashville bridge is wider than an ABR-1 and mounts on larger posts seated in metal body inserts.',
+    summary: 'The Nashville Tune-O-Matic gives the saddles more travel for intonation. Its wider body and larger threaded posts are the easiest visual differences from an ABR-1. It became common on many Gibson USA models in the mid-1970s.',
+    clues: ['Wider bridge body', 'Larger posts and metal inserts', 'More saddle travel'],
+    limitLabel: 'Check the Model First',
+    limit: 'Gibson continued using ABR-1 bridges on some models, and later owners often changed one bridge type for another.'
+  },
+];
+
+const faqs = [
+  ['Can Physical Features Date a Gibson Without a Serial Number?', 'They can usually narrow a guitar to a period, but rarely to one exact year. The model, serial number or Factory Order Number, pot codes, pickups, tuners, logo and construction should tell the same story.'],
+  ['Did Every 1970s Gibson Have a Volute?', 'No. Volute size and use varied by model and year. It is common on many Norlin-era Gibsons, but it should not be treated as a factory-wide rule without identifying the model.'],
+  ['Does a Made in USA Stamp Always Mean 1970 or Later?', 'It is a strong post-1969 clue on regular Gibson USA production, but not an absolute rule for reissues, Classics, Custom Shop instruments or special serial formats.'],
+  ['What Is a Gibson Pancake Body?', 'It is a layered Les Paul body with two thicker mahogany sections separated by a thin maple crossband. The narrow middle layer can often be seen as a line around the body edge.'],
+  ['What Is the Difference Between an ABR-1 and a Nashville Bridge?', 'An ABR-1 is narrower and normally sits on small threaded posts. A Nashville bridge is wider and normally uses larger posts mounted in metal inserts in the body.'],
+  ['What Is a Gibson Harmonica Bridge?', 'It is the wide rectangular bridge Gibson first used on the Les Paul Recording in late 1971. It appeared on SG models from 1973 and on several other 1970s instruments, with some uses continuing into the early 1980s.'],
+  ['Does a No-Wire ABR-1 Prove a Gibson Is From Before 1962?', 'No. It shows that the bridge follows the earlier style. Bridges are removable, retaining wires can be lost, and modern historic reissues deliberately use no-wire ABR-1 bridges.'],
+  ['Can Nickel and Chrome Hardware Be Distinguished From a Photo?', 'Sometimes, but lighting can mislead. Aged nickel is usually softer and grayer, while chrome stays brighter and bluer. Inspect several parts in the same light and check whether their wear matches.'],
+  ['Does a Refinish Change How I Date a Gibson?', 'A refinish does not change when the guitar was built, but it can soften an impressed serial number and hide finish, repair and hardware-shadow clues. Treat the serial as one clue and rely more heavily on construction, electronics and documented provenance.'],
+  ['How Can I Tell Whether a Gibson Is All Original?', 'Compare the exact model with its expected finish, hardware, electronics, solder joints, screw holes and wear. Replaced parts do not change the guitar’s build date, but they can remove useful dating evidence and affect value. A period-correct case supports provenance but can be switched between guitars.'],
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article', '@id': `${canonical}#article`, headline: title, description, mainEntityOfPage: canonical,
+      image: new URL(articleImage.src, imageOrigin).href,
+      author: { '@type': 'Person', '@id': 'https://www.joesvintageguitarsaz.com/about-me/#person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
+      publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' },
+      datePublished: '2026-09-09',
+      dateModified: '2026-09-16',
+    },
+    {
+      '@type': 'BreadcrumbList', itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.joesvintageguitarsaz.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Gibson Serial Number Lookup', item: 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/' },
+        { '@type': 'ListItem', position: 3, name: 'Gibson Physical Features and Hardware Guide', item: canonical },
+      ],
+    },
+    {
+      '@type': 'FAQPage', '@id': `${canonical}#feature-hardware-faq`,
+      mainEntity: faqs.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })),
+    },
+  ],
+};
+---
+
+<GibsonGuideLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={new URL(articleImage.src, imageOrigin).href}
+  ogImageAlt="Volute on the back of a vintage Gibson headstock"
+  ogImageWidth={articleImage.attributes.width}
+  ogImageHeight={articleImage.attributes.height}
+  publishedTime="2026-09-09"
+  modifiedTime="2026-09-16"
+  structuredData={schema}
+>
+    <a href="#feature-hardware-guide" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-cream focus:px-4 focus:py-2">Skip to the Gibson physical features and hardware guide</a>
+    <div id="feature-hardware-guide">
+      <section class="fh-hero">
+        <div class="fh-container fh-hero__grid">
+          <div>
+            <p class="fh-eyebrow">Gibson Dating Guides</p>
+            <h1>Gibson Physical Features <span>And Hardware</span></h1>
+            <p class="fh-lede">Use the headstock, neck, body, bridge, tailpiece and plating as a second dating system when a Gibson serial number covers more than one year.</p>
+            <a class="fh-hero__jump" href="#feature-chart">Jump Straight to the Feature Chart</a>
+            <p class="fh-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 16, 2026</p>
+          </div>
+          <aside class="fh-read-card" aria-labelledby="read-guitar-title">
+            <p class="fh-eyebrow">Start Here</p>
+            <h2 id="read-guitar-title">How to Read a Gibson’s Construction</h2>
+            <ul>
+              <li><p><strong>Identify the Model</strong> A feature matters only in the correct model family.</p></li>
+              <li><p><strong>Read the Headstock</strong> Check the stamp, volute and repair evidence.</p></li>
+              <li><p><strong>Follow the Neck</strong> Count pieces and identify the wood.</p></li>
+              <li><p><strong>Study the Body</strong> Look for layers, seams and altered holes.</p></li>
+              <li><p><strong>Name the Hardware</strong> Identify the bridge, tailpiece and plating.</p></li>
+              <li><p><strong>Cross-Check the Evidence</strong> Make the serial and component clues agree.</p></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <div class="fh-container fh-body">
+        <nav class="fh-toc" aria-label="Gibson physical features and hardware guide sections">
+          <a href="#feature-chart">At-a-Glance Chart</a>
+          <a href="#headstock-clues">Stamp And Volute</a>
+          <a href="#neck-construction">Neck Construction</a>
+          <a href="#neck-geometry">Neck Geometry</a>
+          <a href="#body-construction">Body Construction</a>
+          <a href="#bridge-types">Bridge Types</a>
+          <a href="#tailpiece-types">Tailpiece Types</a>
+          <a href="#vibrato-types">Vibrato Types</a>
+          <a href="#hardware-plating">Hardware Plating</a>
+          <a href="#cases">Case Identification</a>
+          <a href="#originality-checks">Originality Checks</a>
+          <a href="#related-gibson-guides">Related Guides</a>
+          <a href="#feature-hardware-faq">Questions</a>
+        </nav>
+
+        <section class="fh-section" id="feature-introduction">
+          <p class="fh-eyebrow">Corroborating Evidence</p>
+          <h2>What Physical Features Can and Cannot Tell You</h2>
+          <p>A Gibson serial number is the starting point, not the whole answer. Construction and hardware are most useful when a serial range repeats, a stamp is faint, or a reissue uses a vintage-looking number. Several independent features that agree can narrow the guitar to a practical production period.</p>
+          <p>The model comes first. A neck laminate that is normal on a high-end archtop can mean something different on a Les Paul. A trapeze tailpiece may be standard on one ES model and evidence of a change on another. Hardware is also removable, so a bridge or tailpiece may date only itself.</p>
+          <aside class="fh-note"><h3>Use a Convergence, Not a Single Clue</h3><p>A believable date should fit the <a href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/">serial number</a>, <a href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/#fon">Factory Order Number</a>, <a href="/gibson-pot-codes/">pot codes</a>, <a href="/gibson-headstock-logo-chronology/">headstock logo</a>, <a href="/gibson-tuner-dating-guide/">tuners</a>, neck and body construction, bridge and pickup evidence.</p></aside>
+        </section>
+
+        <section class="fh-section" id="feature-chart">
+          <p class="fh-eyebrow">Quick Reference</p>
+          <h2>Gibson Physical Feature and Hardware Timeline</h2>
+          <p>These are working ranges for common vintage Gibson electrics. Changes overlapped, old stock was used, and model-specific construction can fall outside the broad pattern.</p>
+          <div class="fh-table-card">
+            <table>
+              <thead><tr><th scope="col">Approximate Use</th><th scope="col">Feature</th><th scope="col">How to Read It</th></tr></thead>
+              <tbody>{quickChart.map(([period, feature, note]) => <tr><td data-label="Approximate Use">{period}</td><td data-label="Feature">{feature}</td><td data-label="How to Read It">{note}</td></tr>)}</tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="fh-section" id="headstock-clues">
+          <p class="fh-eyebrow">Back of the Headstock</p>
+          <h2>The Made in USA Stamp and Volute</h2>
+          <p>These two clues often appear together on 1970s Gibsons, but they answer different questions. The stamp is a factory marking. The volute is a raised area of wood behind the nut, intended to reinforce the headstock transition.</p>
+          <div class="fh-photo-grid fh-photo-grid--three">
+            <FeatureHardwarePhoto src={madeInUsaStamp} id="made-in-usa-stamp" title="1971 Flying V Made in USA Stamp" alt="Made in USA stamp pressed into the back of a red 1971 Gibson Flying V Medallion headstock" caption="The Made in USA stamp sits alone on the back of this 1971 Flying V Medallion headstock. The Grover tuners are later replacements and should not be used to date it." />
+            <FeatureHardwarePhoto src={volutePhoto} id="gibson-volute" title="1972 SG Custom Volute" alt="Raised volute behind the nut on a 1972 Gibson SG Custom" caption="The ridge between the neck and headstock is the volute. Its presence can support an era, but its size cannot identify one exact year." />
+            <FeatureHardwarePhoto src={noVolutePhoto} id="gibson-no-volute" title="Neck With No Volute" alt="Smooth neck-to-headstock transition with no volute on a vintage Gibson Les Paul" caption="This earlier-style neck flows into the headstock without the raised reinforcement seen on many Norlin-era guitars." />
+          </div>
+          <div class="fh-split-copy">
+            <div><h3>How to Read the Stamp</h3><p>A Made in USA stamp is strong evidence that a regular-production Gibson was made after 1969. It is not a universal rule. Les Paul Classics, historic reissues, Custom Shop instruments and other special formats can omit it or follow period-correct styling.</p></div>
+            <div><h3>How to Read the Volute</h3><p>Many Gibson solidbodies and ES thinlines added a volute around late 1969 or 1970 and retained it to about 1981. Some Customs continued into 1982, while full-depth archtops such as the ES-175 adopted it later. Use its presence with the model and other construction, not its size.</p></div>
+          </div>
+          <aside class="fh-note"><h3>Check for a Repaired or Replaced Neck</h3><p>A headstock repair, refinishing or replacement neck can change the apparent volute and stamp evidence. Look for finish breaks, sanding, overspray, disturbed binding and a color or wear pattern that changes at the repair.</p></aside>
+        </section>
+
+        <section class="fh-section" id="neck-construction">
+          <p class="fh-eyebrow">One Piece or Three</p>
+          <h2>Gibson Neck Construction by Era</h2>
+          <p>These three examples describe a common solidbody sequence. Use raking light across the back of the neck and follow suspected glue seams from the heel toward the headstock.</p>
+          <div class="fh-era-list">
+            {neckExamples.map(feature => (
+              <article class="fh-era" id={feature.id}>
+                <FeatureHardwarePhoto src={feature.src} id={`${feature.id}-photo`} title={`${feature.period}: ${feature.name}`} alt={feature.alt} caption={feature.caption} />
+                <div class="fh-era__copy">
+                  <p class="fh-era__period">{feature.period}</p>
+                  <h3>{feature.name}</h3>
+                  <p>{feature.summary}</p>
+                  <h4>{feature.name} Details</h4>
+                  <ul>{feature.clues.map(clue => <li>{clue}</li>)}</ul>
+                  <p class="fh-era__note"><strong>{feature.limitLabel}:</strong> {feature.limit}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section class="fh-section" id="neck-geometry">
+          <p class="fh-eyebrow">Measure Before You Generalize</p>
+          <h2>Gibson Neck Tenons, Nut Width And Headstock Angle</h2>
+          <p>Neck geometry can separate versions that look similar from the front, but these changes were model-specific. Use measurements and a known comparison guitar rather than judging them by eye.</p>
+          <div class="fh-tailpiece-grid">
+            <div><h3>Les Paul Neck Tenon</h3><p>Early 1969 Les Pauls can retain the 1950s-style long tenon. Transitional and shorter joints begin appearing from mid-1969 and vary through the 1970s. Reissues can deliberately return to a long tenon, and the joint is usually inspected beneath the neck pickup.</p></div>
+            <div><h3>Nut Width</h3><p>Many Gibson electrics narrowed from roughly 1 11/16 inches toward 1 9/16 inches during 1965, with transitional examples and model exceptions. Measure the nut instead of relying on how the neck feels.</p></div>
+            <div><h3>Headstock Angle</h3><p>A shallower or steeper headstock angle can support an identification when it matches the exact model and period. Refinishing, repairs and camera perspective make visual estimates unreliable, so treat the angle as supporting evidence.</p></div>
+            <div><h3>What the Measurements Mean</h3><p>Tenon, nut and headstock specifications can change at different times on different models. They are strongest when the serial number, neck wood, hardware and model-specific guide point to the same period.</p></div>
+          </div>
+        </section>
+
+        <section class="fh-section" id="body-construction">
+          <p class="fh-eyebrow">A Les Paul-Specific Clue</p>
+          <h2>How to Identify a Gibson Pancake Body</h2>
+          <p>A pancake body is not simply a body made from more than one piece of wood. From late 1969 through the 1977 phaseout, many Les Pauls used two thicker mahogany sections with a thin maple crossband between them. The narrow middle layer can appear as a light line around the body edge.</p>
+          <div class="fh-body-example">
+            <FeatureHardwarePhoto src={pancakeBodyPhoto} id="les-paul-pancake-body" title="Faint Pancake-Body Seam" alt="Black Gibson Les Paul-family body edge showing a faint horizontal line in the side finish" caption="Look closely at the body edge. The faint horizontal line is consistent with the thin crossband in a pancake body, though a cavity view gives stronger confirmation than finish evidence alone." />
+            <div class="fh-layer-card" role="img" aria-label="Simplified cross-section of a Les Paul pancake body showing the maple top, upper mahogany section, thin maple crossband and lower mahogany section">
+              <div class="fh-layer fh-layer--top"><span>Carved Maple Top</span></div>
+              <div class="fh-layer fh-layer--mahogany"><span>Upper Mahogany Section</span></div>
+              <div class="fh-layer fh-layer--crossband"><span>Thin Maple Crossband</span></div>
+              <div class="fh-layer fh-layer--mahogany"><span>Lower Mahogany Section</span></div>
+              <p>Simplified Les Paul body cross-section. Layer thickness and visibility vary.</p>
+            </div>
+          </div>
+          <div class="fh-split-copy">
+            <div><h3>Where to Look</h3><p>Inspect the rim near the strap button, jack plate and cutaway under bright side lighting. The thin crossband runs horizontally through the mahogany portion of the body. It is separate from the normal seam between the carved maple top and mahogany back.</p></div>
+            <div><h3>What Not to Mistake for It</h3><p>A multi-piece back joined side to side is not a pancake body. Neither is the visible maple cap on a Les Paul. Finish checking, binding lines and repaired cracks can also imitate a seam in one small area.</p></div>
+          </div>
+          <aside class="fh-note"><h3>Do Not Apply This Rule to Every Norlin Gibson</h3><p>Pancake construction is most useful for specific Les Paul models. Its absence on an SG, ES model or acoustic tells you nothing, and even Les Paul production changed by model and transition period.</p></aside>
+        </section>
+
+        <section class="fh-section" id="bridge-types">
+          <p class="fh-eyebrow">Tune-O-Matic Details</p>
+          <h2>No-Wire ABR-1, Wired ABR-1, Harmonica And Nashville Bridges</h2>
+          <p>First identify the bridge family. Then inspect the posts, inserts, saddle screws and finish underneath it for evidence that the original style has been replaced.</p>
+          <div class="fh-era-list">
+            {bridgeExamples.map(feature => (
+              <article class="fh-era" id={feature.id}>
+                <FeatureHardwarePhoto src={feature.src} id={`${feature.id}-photo`} title={`${feature.period}: ${feature.name}`} alt={feature.alt} caption={feature.caption} />
+                <div class="fh-era__copy">
+                  <p class="fh-era__period">{feature.period}</p>
+                  <h3>{feature.name}</h3>
+                  <p>{feature.summary}</p>
+                  <h4>{feature.name} Details</h4>
+                  <ul>{feature.clues.map(clue => <li>{clue}</li>)}</ul>
+                  <p class="fh-era__note"><strong>{feature.limitLabel}:</strong> {feature.limit}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+          <div class="fh-body-example" id="bridge-saddles">
+            <FeatureHardwarePhoto src={nylonSaddles} id="nylon-bridge-saddles" title="Gibson Nylon Bridge Saddles" alt="Close view of cream nylon saddles in a vintage Gibson ABR-1 bridge" caption="Gibson began changing from metal to nylon saddles during 1962. This saddle material continued on many models into the 1970s." />
+            <div class="fh-layer-card fh-layer-card--copy">
+              <h3>Metal And Nylon Saddles Can Overlap</h3>
+              <p>Metal saddles are typical before the 1962 transition. Nylon saddles begin appearing during 1962 and continued for years, so they are not a one-year feature. A small number of late 1962 and early 1963 bridges combine nylon saddles with the earlier no-wire body.</p>
+              <p>Replacement saddles are common. Check the screw wear, plating, fit and the rest of the hardware before treating the saddle material as original.</p>
+            </div>
+          </div>
+          <aside class="fh-note"><h3>Not Every Gibson Used a Tune-O-Matic</h3><p>Juniors, Specials, early Les Pauls, acoustics and many hollowbody models used other bridge systems. A missing ABR-1 or Nashville bridge is not a problem if that model was built with a wrapover, floating or model-specific bridge.</p></aside>
+        </section>
+
+        <section class="fh-section" id="tailpiece-types">
+          <p class="fh-eyebrow">Model Context Matters Most</p>
+          <h2>Gibson Tailpiece Types and What They Mean</h2>
+          <p>Tailpieces can separate versions within one model family, but there is no universal Gibson tailpiece chronology. A stopbar, trapeze or wrapover may remain correct for decades on one model while marking a short production period on another.</p>
+          <div class="fh-photo-grid fh-photo-grid--two">
+            <FeatureHardwarePhoto src={wrapUnderTailpiece} id="wrap-under-tailpiece" title="Early Les Paul Wrap-Under Tailpiece" alt="Early Gibson Les Paul combined bridge and tailpiece with strings passing underneath" caption="The first Les Paul arrangement sends the strings under the bar. It belongs to the original 1952 design and continued into early 1953 before the neck angle and bridge arrangement changed." />
+            <FeatureHardwarePhoto src={wrapoverTailpiece} id="wrapover-tailpiece" title="Plain Gibson Wrapover Tailpiece" alt="Close-up of a smooth one-piece Gibson wrapover bridge and tailpiece" caption="This is the smooth 1950s wrapover bar. Intonation is set by angling the entire tailpiece, not by a raised lightning-bolt ridge." />
+            <FeatureHardwarePhoto src={stopbarTailpiece} id="stopbar-tailpiece" title="ABR-1 With Stopbar" alt="Nickel Gibson ABR-1 bridge and stopbar tailpiece on a red ES-335" caption="A separate Tune-O-Matic bridge and stopbar is the familiar two-piece system. Its dates depend on the model." />
+            <FeatureHardwarePhoto src={trapezeTailpiece} id="trapeze-tailpiece" title="Gibson Trapeze Tailpiece" alt="Chrome trapeze tailpiece mounted to the rim of a red Gibson semi-hollow guitar" caption="A trapeze anchors at the body rim. It is normal on many archtops and replaced the stopbar on some ES models during the 1960s." />
+          </div>
+          <div class="fh-tailpiece-grid">
+            <div><h3>Wrap-Under</h3><p>A narrow 1952 into early 1953 Les Paul clue. Confirm the shallow neck angle and the first-version construction before treating it as original.</p></div>
+            <div><h3>Plain And Lightning-Bar Wrapovers</h3><p>The smooth wrapover appeared after the wrap-under design and continued on many lower-priced solidbodies. The raised, compensated lightning-bar version arrived on early 1960s models. Exact timing depends on the model.</p></div>
+            <div><h3>Stopbar</h3><p>Used with a Tune-O-Matic on many solidbodies and semi-hollows. Removed studs, plugged holes or a Custom Made plate can reveal a conversion or factory vibrato installation.</p></div>
+            <div><h3>Trapeze</h3><p>Common on hollowbody guitars and adopted by some semi-hollow models. Check the rim mounting holes and the model's original catalog specification.</p></div>
+          </div>
+        </section>
+
+        <section class="fh-section" id="vibrato-types">
+          <p class="fh-eyebrow">Factory Options And Model Clues</p>
+          <h2>Gibson Bigsby, Sideways, Maestro And Lyre Vibratos</h2>
+          <p>A vibrato can be a strong model-specific clue, but it does not follow one factory-wide timeline. Look for the correct unit, original mounting pattern and nearby finish before deciding whether it was factory installed.</p>
+          <div class="fh-photo-grid fh-photo-grid--two">
+            <FeatureHardwarePhoto src={sidewaysVibrola} id="sideways-vibrola" title="Sideways Vibrola" alt="Close view of a Gibson sideways Vibrola on an early SG-style guitar" caption="The elaborate sideways-pull unit belongs to a short early 1960s period on selected high-end solidbody models." />
+            <FeatureHardwarePhoto src={shortMaestro} id="short-maestro-vibrola" title="Short Maestro Vibrola" alt="Short Maestro Vibrola mounted behind a lightning-bar bridge on a vintage Gibson SG Junior" caption="The compact Maestro unit appears on selected 1960s SG models. Its screw pattern and the exact model matter more than the general decade." />
+            <FeatureHardwarePhoto src={lyreVibrola} id="lyre-maestro-vibrola" title="Lyre Maestro Vibrola" alt="Long chrome Lyre Maestro Vibrola on a late 1960s Gibson SG Standard" caption="The long engraved cover is closely associated with mid-to-late 1960s SG Standards, though the model guide gives the useful year-by-year context." />
+            <FeatureHardwarePhoto src={bigsbyVibrato} id="factory-bigsby" title="Factory Bigsby Example" alt="Factory Bigsby vibrato on a sunburst 1966 Gibson ES-345" caption="A Bigsby could be factory ordered on several Gibson models. Matching holes, finish shadows and paperwork help separate a factory installation from a later addition." />
+            <FeatureHardwarePhoto src={customMadePlaque} id="custom-made-plaque" title="Custom Made Plaque" alt="Gibson Custom Made plaque covering stopbar stud positions on a vintage ES guitar" caption="On some factory vibrato guitars, a Custom Made plaque covers the unused stopbar stud locations. It supports the original layout but should be checked with the model and surrounding finish." />
+          </div>
+          <aside class="fh-note"><h3>Use the Model-Specific Vibrato Timeline</h3><p>Compare SG vibratos in the <a href="/gibson-sg-dating-guide/">Gibson SG dating guide</a>. For Bigsby, Maestro and stopbar changes on thinline models, use the <a href="/gibson-es-335-345-355-dating-guide/">ES-335, ES-345 and ES-355 dating guide</a>.</p></aside>
+        </section>
+
+        <section class="fh-section" id="hardware-plating">
+          <p class="fh-eyebrow">Color, Wear and Model</p>
+          <h2>Nickel, Chrome and Gold Gibson Hardware</h2>
+          <p>Nickel-plated hardware continued into early 1965 on many Gibson models. The transition can produce mixed nickel and chrome parts during 1965 and 1966, and chrome was broadly established by 1967. Some nickel brackets lingered, and gold-plated models follow their own specifications.</p>
+          <div class="fh-photo-grid fh-photo-grid--two">
+            <FeatureHardwarePhoto src={nickelHardware} id="nickel-hardware" title="1962 SG Standard Nickel Hardware" alt="Aged nickel bridge and pickup covers on a cherry 1962 Gibson Les Paul SG Standard" caption="Aged nickel often develops a warm gray or slightly yellow-green cast. Compare the bridge and pickup covers rather than relying on one small screw." />
+            <FeatureHardwarePhoto src={chromeHardware} id="chrome-hardware" title="1969 Gibson Thinline Chrome Hardware" alt="Bright chrome bridge and pickup covers on a natural 1969 Gibson thinline guitar" caption="Chrome usually stays cooler, brighter and slightly blue in the same light. On this thinline example, judge the bridge and pickup covers rather than the Bigsby." />
+          </div>
+          <div class="fh-split-copy">
+            <div><h3>Compare More Than One Part</h3><p>Study the pickup covers, bridge, tailpiece, switch hardware and screws in the same light. One bright part among evenly dulled hardware is more likely to be a replacement than a new dating clue. Do not include Kluson tuner plating in this comparison because nickel tuners continued after other hardware changed to chrome.</p></div>
+            <div><h3>Gold Is a Model Specification</h3><p>Gold plating normally marks a Custom or another upscale model. It wears through quickly at contact points, so exposed nickel-colored metal beneath gold does not mean the guitar originally had nickel hardware.</p></div>
+          </div>
+        </section>
+
+        <section class="fh-section" id="cases">
+          <p class="fh-eyebrow">Supporting Provenance</p>
+          <h2>Gibson Case Identification: Geib, Harptone, Stone, Lifton and Chainsaw Cases</h2>
+          <p>A period-correct case can support the story told by a Gibson’s serial number, construction and hardware. It cannot date or authenticate the guitar by itself because cases were regularly separated from instruments and paired with other guitars. Use the exterior covering, lining, hardware, shape and maker details as supporting evidence.</p>
+          <div class="fh-case-grid">
+            <article class="fh-case-card"><p class="fh-case-card__period">1930s Into the 1940s</p><h3>Geib Red Line Case</h3><p>Look for a black Keratol exterior, a narrow red line around the edge and a deep red or purple plush interior. This is a useful prewar case clue when the size and fit also match the instrument.</p></article>
+            <article class="fh-case-card"><p class="fh-case-card__period">Mid-1930s</p><h3>Geib Tweed Case</h3><p>The vertical striped airplane-cloth covering resembles material used on early Gibson amplifiers. Confirm the case shape and construction instead of identifying it from the covering alone.</p></article>
+            <article class="fh-case-card"><p class="fh-case-card__period">1930s to 1950s</p><h3>Harptone Double Diamond Case</h3><p>Two raised diamond shapes on the interior accessory-pocket lid are the most recognizable clue. These well-built cases are commonly associated with higher-grade acoustic instruments.</p></article>
+            <article class="fh-case-card"><p class="fh-case-card__period">Late 1950s</p><h3>Stone Case Company</h3><p>Stone cases can resemble period Lifton cases from the outside. Lighter hardware, latch construction and the maker badge help separate them. They are seen with late-1950s ES-335, ES-345 and ES-355 models.</p></article>
+            <article class="fh-case-card"><p class="fh-case-card__period">Late 1950s</p><h3>Lifton Brown and Pink Case</h3><p>The brown exterior and pink or salmon plush lining are strongly associated with late-1950s Les Paul Goldtops and Standards. A Lifton badge may read “Built Like a Fortress.” The correct size and fit matter as much as the colors.</p></article>
+            <article class="fh-case-card"><p class="fh-case-card__period">Early to Mid-1950s</p><h3>Lifton Brown and Green Case</h3><p>Brown cases with green lining appear with models including the J-45, ES-175 and L-7. This can be a period-correct pairing even though it is less famous than the brown and pink version.</p></article>
+            <article class="fh-case-card"><p class="fh-case-card__period">1961 to About 1963</p><h3>Lifton Black and Yellow Case</h3><p>A black exterior with yellow lining is a transitional early-1960s style. It can be appropriate for early SG models and instruments from the Les Paul to SG transition.</p></article>
+            <article class="fh-case-card"><p class="fh-case-card__period">About 1977 to 1988</p><h3>Gibson Chainsaw Case</h3><p>Collectors use “chainsaw” for the boxy molded black case with squared corners. Interior colors vary, with red and black among the common versions. Check the generation, fit and hardware before calling one original to a specific guitar.</p></article>
+          </div>
+          <aside class="fh-note"><h3>What a Case Can Prove</h3><p>A matching case can strengthen provenance and show that the pairing is plausible for the period. It cannot prove the guitar left the factory in that case. A missing original case is common, while an incorrect case is a reason to ask more questions rather than reject the guitar automatically.</p></aside>
+        </section>
+
+        <section class="fh-section" id="originality-checks">
+          <p class="fh-eyebrow">Date the Installation, Not Just the Part</p>
+          <h2>How to Check Whether Gibson Hardware Is Original</h2>
+          <div class="fh-check-grid">
+            <div><span>1</span><p><strong>Look for extra holes.</strong> Plugged stopbar studs, unused screw holes or a second tuner footprint record earlier hardware.</p></div>
+            <div><span>2</span><p><strong>Inspect the finish shadow.</strong> Original hardware often leaves a matching outline in faded lacquer, dirt and compression.</p></div>
+            <div><span>3</span><p><strong>Compare plating and wear.</strong> Mixed colors, sharp new edges or wear that does not match neighboring parts deserve a closer look.</p></div>
+            <div><span>4</span><p><strong>Check the mounting system.</strong> Large inserts may be correct for a harmonica or Nashville bridge. They suggest a conversion only when the exact model and production period should have small ABR-1 posts.</p></div>
+            <div><span>5</span><p><strong>Read tool marks carefully.</strong> Disturbed solder, chewed screw slots and fresh witness marks show that a part has been removed, not necessarily replaced.</p></div>
+            <div><span>6</span><p><strong>Confirm the exact model.</strong> Catalog specification and documented original examples are more useful than a factory-wide rule.</p></div>
+          </div>
+          <h3>A Replacement Does Not Make the Guitar Bad</h3>
+          <p>Bridges, tailpieces and tuners are working parts. Players changed them to improve intonation, reliability or feel. Record the change honestly and stop using that part as date evidence. Original construction, electronics and untouched mounting areas may still provide a reliable answer.</p>
+        </section>
+
+        <section class="fh-section" id="related-gibson-guides">
+          <p class="fh-eyebrow">Continue the Inspection</p>
+          <h2>Related Gibson Dating and Identification Guides</h2>
+          <div class="fh-related-grid">
+            <a class="fh-related-card" href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/"><h3>Gibson Serial Number Lookup</h3><p>Decode the serial or FON, then test the result against the physical evidence.</p><span>Use the Lookup And Charts</span></a>
+            <a class="fh-related-card" href="/gibson-les-paul-dating-guide/"><h3>Gibson Les Paul Dating Guide</h3><p>Apply the neck, body, bridge and tailpiece changes to the correct Les Paul model.</p><span>Read the Les Paul Guide</span></a>
+            <a class="fh-related-card" href="/gibson-sg-dating-guide/"><h3>Gibson SG Dating Guide</h3><p>Compare SG body contours, guards, bridges, vibratos and family-specific transitions.</p><span>Read the SG Guide</span></a>
+            <a class="fh-related-card" href="/gibson-es-335-345-355-dating-guide/"><h3>ES-335, ES-345 And ES-355 Dating Guide</h3><p>Follow the thinline family’s guards, necks, hardware, tailpieces and electronics.</p><span>Read the ES Guide</span></a>
+            <a class="fh-related-card" href="/gibson-pot-codes/"><h3>Gibson Pot-Code Guide</h3><p>Read manufacturer, year and week codes from the controls.</p><span>Read the Pot-Code Guide</span></a>
+            <a class="fh-related-card" href="/gibson-headstock-logo-chronology/"><h3>Gibson Headstock Logo Guide</h3><p>Compare the logo construction and letterforms with the neck and hardware.</p><span>View the Logo Chronology</span></a>
+            <a class="fh-related-card" href="/gibson-knob-dating-guide/"><h3>Gibson Knob Dating Guide</h3><p>Identify the knob style and see whether it fits the same production period.</p><span>Read the Knob Guide</span></a>
+            <a class="fh-related-card" href="/gibson-tuner-dating-guide/"><h3>Gibson Tuner Dating Guide</h3><p>Read Kluson, Gibson Deluxe, waffleback, Sealfast and Grover tuner evidence.</p><span>Read the Tuner Guide</span></a>
+            <a class="fh-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/"><h3>Gibson PAF And Patent Number Pickup Guide</h3><p>Use pickup labels and construction as another independent dating clue.</p><span>Read the Pickup Guide</span></a>
+            <a class="fh-related-card" href="https://www.joesvintageguitarsaz.com/post/what-a-serial-number-cant-tell-you/"><h3>What A Serial Number Can’t Tell You</h3><p>See why construction and parts must agree with a stamped or labeled number.</p><span>Read the Inspection Guide</span></a>
+            <a class="fh-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-shipping-totals-1948-1979/"><h3>1948 to 1979 Gibson Shipping Totals</h3><p>Check factory shipping totals after the model and likely period are established.</p><span>View the Shipping Totals</span></a>
+            <a class="fh-related-card fh-related-card--sell" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/"><h3>Sell My Gibson Guitar</h3><p>Joe buys vintage Gibson guitars nationwide and can help identify what you have.</p><span>Learn How to Sell Your Gibson</span></a>
+          </div>
+        </section>
+
+        <section class="fh-section" id="feature-hardware-faq">
+          <p class="fh-eyebrow">Common Questions</p>
+          <h2>Gibson Physical Feature and Hardware Questions</h2>
+          <div class="fh-faq">
+            {faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
+          </div>
+        </section>
+
+        <aside class="fh-help">
+          <p class="fh-eyebrow">Need a Second Set of Eyes?</p>
+          <h2>Send Joe the Whole Guitar</h2>
+          <p>Send full front and back photos, the headstock front and back, serial number or label, both sides of the neck, the body edge, bridge, tailpiece and any visible extra holes. Close details are most useful when they are paired with a photo showing where they sit on the guitar.</p>
+          <a href="https://www.joesvintageguitarsaz.com/free-appraisal/">Ask Joe for Help</a>
+          <a class="fh-help__secondary" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/">Sell My Gibson</a>
+        </aside>
+      </div>
+    </div>
+    <FeatureHardwarePhotoViewer />
+  </GibsonGuideLayout>
+
+<style>
+  .fh-container { width: min(100% - 2.5rem, 76rem); margin-inline: auto; }
+  .fh-hero { padding: 10rem 0 3rem; background: var(--color-ink); color: white; }
+  .fh-hero__grid { display: grid; gap: 2.5rem; align-items: center; }
+  .fh-eyebrow { margin: 0 0 .7rem; color: var(--color-wine-dark); font-size: .8rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+  .fh-hero .fh-eyebrow, .fh-read-card .fh-eyebrow { color: var(--color-gold-light); }
+  h1 { margin: 0; font-family: var(--font-display); font-size: clamp(3rem, 6vw, 5rem); line-height: 1.02; }
+  h1 span { color: var(--color-gold-light); }
+  .fh-lede { margin: 1.5rem 0 1rem; max-width: 47rem; color: #ece3d9; font-size: 1.125rem; line-height: 1.75; }
+  .fh-hero__jump, .fh-byline a { color: var(--color-gold-light); font-weight: 700; text-decoration: underline; text-underline-offset: .25rem; }
+  .fh-byline { margin: 1.5rem 0 0; color: #d2bcb0; font-size: .875rem; }
+  .fh-read-card { border: 1px solid rgb(213 180 119 / .48); border-radius: 1rem; background: #2e2520; padding: 1.4rem; box-shadow: 0 1.5rem 4rem rgb(0 0 0 / .2); }
+  .fh-read-card h2 { margin: 0 0 1rem; color: white; font-family: var(--font-display); font-size: 1.8rem; line-height: 1.15; }
+  .fh-read-card ul { display: grid; gap: .68rem; margin: 0; padding: 0; list-style: none; }
+  .fh-read-card li { display: grid; grid-template-columns: .8rem 1fr; gap: .7rem; align-items: start; }
+  .fh-read-card li::before { content: ''; width: .52rem; height: .52rem; margin-top: .45rem; border: 1px solid var(--color-gold-light); border-radius: 50%; background: var(--color-gold-light); }
+  .fh-read-card p { margin: 0; color: #ded2c8; font-size: .9rem; line-height: 1.5; }
+  .fh-read-card strong { color: white; }
+  .fh-body { max-width: 68rem; padding-block: 1rem 4rem; }
+  .fh-toc { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; border-bottom: 1px solid var(--color-rule); padding: 1rem 0 1.5rem; }
+  .fh-toc a, .fh-section a { color: var(--color-wine-dark); font-weight: 650; text-decoration: underline; text-underline-offset: 3px; }
+  .fh-toc a { display: inline-flex; min-height: 2.75rem; align-items: center; font-size: .875rem; }
+  .fh-section { padding-block: 2.75rem; scroll-margin-top: 1rem; }
+  .fh-section + .fh-section { border-top: 1px solid var(--color-rule); }
+  .fh-section > h2, .fh-help h2 { margin: 0 0 1rem; font-family: var(--font-display); font-size: clamp(1.9rem, 3vw, 2.65rem); line-height: 1.15; }
+  .fh-section > h3 { margin: 2rem 0 1rem; font-family: var(--font-display); font-size: 1.65rem; line-height: 1.25; }
+  .fh-section > p { max-width: 56rem; margin: 0 0 1.25rem; font-size: 1.0625rem; line-height: 1.8; }
+  .fh-note { max-width: 56rem; margin-top: 1.5rem; border-left: 3px solid var(--color-wine-dark); background: var(--color-cream); padding: 1rem 1.25rem; }
+  .fh-note h3 { margin: 0 0 .45rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .fh-note p { margin: 0; line-height: 1.65; }
+  .fh-table-card { overflow-x: auto; border: 1px solid var(--color-rule); border-radius: .85rem; background: white; }
+  .fh-table-card table { width: 100%; min-width: 50rem; border-collapse: collapse; text-align: left; }
+  .fh-table-card th, .fh-table-card td { border-bottom: 1px solid #e7dfd2; padding: .8rem 1rem; vertical-align: top; }
+  .fh-table-card tr:last-child td { border-bottom: 0; }
+  .fh-table-card th { background: #f6f0e6; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+  .fh-table-card td:first-child { color: var(--color-wine-dark); font-weight: 800; white-space: nowrap; }
+  .fh-table-card td:nth-child(2) { font-weight: 700; }
+  .fh-photo-grid, .fh-split-copy, .fh-tailpiece-grid, .fh-check-grid, .fh-related-grid, .fh-case-grid { display: grid; gap: 1rem; margin-top: 1.5rem; }
+  .fh-split-copy > div, .fh-tailpiece-grid > div { border: 1px solid var(--color-rule); border-radius: .75rem; background: var(--color-cream); padding: 1.2rem; }
+  .fh-split-copy h3, .fh-tailpiece-grid h3 { margin: 0 0 .55rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .fh-split-copy p, .fh-tailpiece-grid p { margin: 0; line-height: 1.65; }
+  .fh-era-list { margin-top: 2rem; }
+  .fh-era { display: grid; gap: 1.5rem; padding: 2.5rem 0; scroll-margin-top: 1rem; }
+  .fh-era + .fh-era { border-top: 1px solid var(--color-rule); }
+  .fh-era__copy { align-self: center; }
+  .fh-era__number { margin: 0 0 .25rem; color: var(--color-gold); font-size: .72rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+  .fh-era__period { margin: 0; color: var(--color-wine-dark); font-weight: 800; }
+  .fh-era h3 { margin: .35rem 0 1rem; font-family: var(--font-display); font-size: clamp(1.7rem, 3vw, 2.35rem); line-height: 1.08; }
+  .fh-era__copy > p:not(.fh-era__number, .fh-era__period, .fh-era__note) { margin: 0 0 1rem; font-size: 1rem; line-height: 1.75; }
+  .fh-era h4 { margin: 1rem 0 .55rem; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; }
+  .fh-era ul { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+  .fh-era li { border: 1px solid var(--color-rule); border-radius: 999px; background: var(--color-cream); padding: .35rem .7rem; color: #4d4039; font-size: .8rem; font-weight: 700; }
+  .fh-era__note { margin: 1.2rem 0 0; border-left: 3px solid var(--color-gold); padding: .7rem 0 .7rem 1rem; color: #5f5149; font-size: .92rem; line-height: 1.65; }
+  .fh-body-example { display: grid; gap: 1rem; margin: 1.8rem 0; align-items: start; }
+  .fh-layer-card { margin: 0; overflow: hidden; border: 1px solid var(--color-rule); border-radius: .85rem; background: white; padding: 1rem; }
+  .fh-layer { display: grid; min-height: 3rem; place-items: center; border: 1px solid rgb(55 37 27 / .3); color: white; text-align: center; }
+  .fh-layer + .fh-layer { border-top: 0; }
+  .fh-layer span { border-radius: .25rem; background: rgb(30 22 18 / .65); padding: .3rem .6rem; font-size: .8rem; font-weight: 800; letter-spacing: .04em; }
+  .fh-layer--top { min-height: 4.4rem; border-radius: .6rem .6rem 0 0; background: linear-gradient(160deg, #d9aa62, #9c683a); }
+  .fh-layer--mahogany { background: linear-gradient(90deg, #71341f, #a35531 45%, #6b2f1e); }
+  .fh-layer--crossband { min-height: 2.2rem; background: #d2a367; }
+  .fh-layer--crossband span { padding-block: .15rem; font-size: .7rem; }
+  .fh-layer-card > p { margin: .8rem 0 0; color: #69584f; font-size: .8rem; line-height: 1.5; text-align: center; }
+  .fh-layer-card--copy { align-self: stretch; background: var(--color-cream); }
+  .fh-layer-card--copy h3 { margin: 0 0 .75rem; font-family: var(--font-display); font-size: 1.45rem; }
+  .fh-layer-card--copy p { margin: 0 0 .9rem; color: var(--color-ink); font-size: .95rem; line-height: 1.7; text-align: left; }
+  .fh-check-grid > div { display: grid; grid-template-columns: 2rem 1fr; gap: .75rem; border: 1px solid var(--color-rule); border-radius: .75rem; background: white; padding: 1.2rem; }
+  .fh-check-grid span { display: grid; width: 1.8rem; height: 1.8rem; place-items: center; border-radius: 50%; background: var(--color-wine-dark); color: white; font-family: var(--font-display); }
+  .fh-check-grid p { margin: 0; line-height: 1.65; }
+  .fh-case-card { border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine-dark); border-radius: .8rem; background: white; padding: 1.2rem; }
+  .fh-case-card__period { margin: 0 0 .35rem; color: var(--color-gold); font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .fh-case-card h3 { margin: 0 0 .6rem; font-family: var(--font-display); font-size: 1.35rem; }
+  .fh-case-card > p:last-child { margin: 0; color: #5f5149; line-height: 1.65; }
+  .fh-section a.fh-related-card { display: flex; min-height: 100%; flex-direction: column; border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine-dark); border-radius: .8rem; background: white; padding: 1.25rem; color: var(--color-ink); text-decoration: none; transition: transform .18s ease, box-shadow .18s ease; }
+  .fh-section a.fh-related-card:hover, .fh-section a.fh-related-card:focus-visible { transform: translateY(-2px); box-shadow: 0 .6rem 1.4rem rgb(56 34 22 / .12); }
+  .fh-related-card h3 { margin: 0 0 .65rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .fh-related-card p { margin: 0 0 1rem; color: #5f5149; line-height: 1.65; }
+  .fh-related-card span { margin-top: auto; color: var(--color-wine-dark); font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
+  .fh-section a.fh-related-card--sell { border-top-color: var(--color-gold); background: var(--color-cream); }
+  .fh-faq details { border-bottom: 1px solid var(--color-rule); padding: 1rem 0; }
+  .fh-faq summary { cursor: pointer; font-weight: 700; }
+  .fh-faq p { max-width: 56rem; margin: .75rem 0 0; line-height: 1.7; }
+  .fh-help { border: 1px solid var(--color-rule); border-radius: 1rem; background: var(--color-cream); padding: clamp(1.25rem, 4vw, 2.5rem); }
+  .fh-help > p:not(.fh-eyebrow) { max-width: 50rem; line-height: 1.7; }
+  .fh-help > a { display: inline-block; margin: .75rem 1rem 0 0; border-radius: 2rem; background: var(--color-wine-dark); padding: .8rem 1.25rem; color: white; font-weight: 700; }
+  .fh-help > .fh-help__secondary { background: transparent; padding-inline: 0; color: var(--color-wine-dark); text-decoration: underline; text-underline-offset: 3px; }
+  @media (max-width: 699px) {
+    .fh-table-card { overflow: visible; border: 0; background: transparent; }
+    .fh-table-card table, .fh-table-card tbody { display: block; width: 100%; min-width: 0; }
+    .fh-table-card thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .fh-table-card tr { display: block; margin-bottom: .8rem; overflow: hidden; border: 1px solid var(--color-rule); border-radius: .75rem; background: white; }
+    .fh-table-card td { display: grid; grid-template-columns: minmax(7.2rem, .72fr) minmax(0, 1.35fr); gap: .75rem; min-width: 0; border-bottom: 1px solid #e7dfd2; padding: .8rem .9rem; white-space: normal; overflow-wrap: anywhere; }
+    .fh-table-card td:first-child { white-space: normal; }
+    .fh-table-card td::before { content: attr(data-label); color: var(--color-wine-dark); font-size: .7rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; }
+  }
+  @media (min-width: 700px) {
+    .fh-photo-grid--two, .fh-split-copy, .fh-tailpiece-grid, .fh-check-grid, .fh-related-grid, .fh-case-grid { grid-template-columns: 1fr 1fr; }
+    .fh-photo-grid--three { grid-template-columns: 1fr 1fr; }
+  }
+  @media (min-width: 800px) {
+    .fh-era { grid-template-columns: minmax(0, 1.25fr) minmax(18rem, .9fr); gap: 2.5rem; }
+    .fh-era:nth-child(even) :global(.feature-photo) { order: 2; }
+    .fh-era:nth-child(even) .fh-era__copy { order: 1; }
+    .fh-body-example { grid-template-columns: minmax(0, 1.35fr) minmax(18rem, .8fr); }
+  }
+  @media (min-width: 1024px) {
+    .fh-hero { padding-top: 18rem; padding-bottom: 4rem; }
+    .fh-hero__grid { grid-template-columns: 1.25fr .8fr; gap: 4rem; }
+    .fh-photo-grid--three { grid-template-columns: repeat(3, 1fr); }
+  }
+</style>

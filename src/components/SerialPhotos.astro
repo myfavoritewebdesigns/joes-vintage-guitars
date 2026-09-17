@@ -1,0 +1,34 @@
+---
+import { getImage } from 'astro:assets';
+import LicensedImage from './LicensedImage.astro';
+import { chartPhotos } from '../photo-data';
+interface Props { section: string; }
+const { section } = Astro.props;
+// One metadata declaration per photograph. Repeated contextual examples still
+// keep their visible captions, but the chart occurrence owns the ImageObject.
+const schemaOwner = new Map(Object.entries(chartPhotos).flatMap(([group, items]) =>
+  items.map((photo, index) => [photo.image.src, `${group}-${index}`] as const)));
+const photos = await Promise.all(chartPhotos[section].map(async photo => ({
+  ...photo,
+  full: await getImage({ src: photo.image, width: Math.min(1800, photo.image.width), format: 'webp', quality: 90 }),
+})));
+---
+<div class:list={['serial-photos', photos.length === 1 ? 'serial-photos--single' : photos.length === 3 ? 'jvg-img3' : 'jvg-img2']} data-photo-section={section}>
+  {photos.map((photo, index) => {
+    const linkedCaption = photo.linkedCaption;
+    return <figure class="jvg-imgwc">
+      <a class="serial-photo-link" href={photo.full.src} data-serial-photo
+        data-photo-title={photo.title} data-photo-caption={photo.caption}
+        aria-label={`Enlarge photo: ${photo.title}`} aria-describedby={`${section}-photo-${index}`}>
+        <LicensedImage src={photo.image} alt={photo.alt} emitSchema={schemaOwner.get(photo.image.src) === `${section}-${index}`} />
+        <span class="serial-photo-zoom" aria-hidden="true">Enlarge photo</span>
+      </a>
+      <figcaption class="jvg-cap" id={`${section}-photo-${index}`}>
+        <strong>{photo.title}</strong>
+        {linkedCaption ? (
+          <p>{linkedCaption.before}{linkedCaption.links.map((link, linkIndex) => <>{linkIndex > 0 && (linkIndex === linkedCaption.links.length - 1 ? ' and ' : ', ')}<a href={link.href}>{link.label}</a></>)}{linkedCaption.after}</p>
+        ) : <p>{photo.caption}</p>}
+      </figcaption>
+    </figure>;
+  })}
+</div>

@@ -1,0 +1,791 @@
+---
+import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
+import { getImage } from 'astro:assets';
+import LesPaulPhoto from '../components/LesPaulPhoto.astro';
+import LesPaulPhotoViewer from '../components/LesPaulPhotoViewer.astro';
+import heroSource from '../assets/les-paul-family/1956-les-paul-goldtop.jpg';
+import goldtop1954 from '../assets/les-paul-family/1954-les-paul-goldtop.jpg';
+import junior1955 from '../assets/les-paul-family/1955-les-paul-junior.jpg';
+import tv1957 from '../assets/les-paul-family/1957-les-paul-tv-model.jpg';
+import special1958 from '../assets/les-paul-family/1958-les-paul-special.jpg';
+import custom1958 from '../assets/les-paul-family/1958-les-paul-custom.jpg';
+import junior1959 from '../assets/les-paul-family/1959-les-paul-junior-double-cut.jpg';
+import specialDoubleCut from '../assets/les-paul-family/les-paul-special-double-cut.jpg';
+import custom1972 from '../assets/les-paul-family/1972-les-paul-custom.jpg';
+import customStaple from '../assets/les-paul-family/les-paul-custom-staple-p90.jpg';
+import customThree from '../assets/les-paul-family/les-paul-custom-three-pickup.jpg';
+import pancakeBody from '../assets/features-hardware/gibson-les-paul-pancake-body-finish-line.jpg';
+import madeInUsa from '../assets/features-hardware/gibson-made-in-usa-stamp-scaled.jpg';
+import mahoganyNeck from '../assets/features-hardware/gibson-3-piece-mahogany-neck.jpg';
+import mapleNeck from '../assets/features-hardware/gibson-3-piece-maple-neck.jpg';
+import volute from '../assets/features-hardware/gibson-sg-custom-volute-1972-scaled.jpg';
+import nashvilleBridge from '../assets/features-hardware/gibson-nashville-bridge-on-firebird.jpg';
+import trapeze1952 from '../assets/features-hardware/1952-gibson-les-paul-wrap-under-tailpiece.jpeg';
+import goldReflectorKnobs from '../assets/les-paul-family/feature-details/1960s-gibson-gold-reflector-knobs.jpg';
+import witchHatKnob from '../assets/knobs/gibson-witch-hat-knob-1960s-1970s.jpeg';
+import classicSerial from '../assets/serial-photos/les-paul-classic-ink-serial-number.jpg';
+import historicSerial from '../assets/serial-photos/gibson-r-9-historic-ink-stamp-serial.jpg';
+import custom1955Serial from '../assets/serial-photos/1955-gibson-les-paul-custom-ink-stamp-serial-number-scaled.jpg';
+import goldDecal from '../assets/serial-photos/1975-gibson-les-paul-custom-silkscreen-logo-gold-scaled.jpg';
+import goldtop1954Bridge from '../assets/les-paul-family/feature-details/1954-gibson-les-paul-goldtop-bridge.jpg';
+import goldtop1954Knobs from '../assets/les-paul-family/feature-details/1954-gibson-les-paul-goldtop-knobs.jpg';
+import goldtopMapleCap from '../assets/les-paul-family/feature-details/1954-gibson-les-paul-goldtop-maple-top-at-cutaway-scaled.jpg';
+import goldtop1954Electronics from '../assets/les-paul-family/feature-details/1954-gibson-les-paul-goldtop-electronics-cavity-wiring-scaled.jpg';
+import goldtop1956Bridge from '../assets/les-paul-family/feature-details/1956-gibson-no-wire-nickel-abr-1-bridge-1024x683.jpg';
+import goldtop1956Knob from '../assets/les-paul-family/feature-details/1956-gibson-les-paul-standard-knob-1024x683.jpg';
+import goldtop1956P90 from '../assets/les-paul-family/feature-details/1956-gibson-les-paul-standard-neck-pickup-p-90-1024x683.jpg';
+import goldtop1956Tuner from '../assets/les-paul-family/feature-details/1956-gibson-les-paul-standard-kluson-tuner-1024x683.jpg';
+import goldtop1956Serial from '../assets/les-paul-family/feature-details/1956-les-paul-serial-number-yellow-ink-1024x683.jpg';
+import goldtop1957Paf from '../assets/les-paul-family/feature-details/1957-gibson-PAF-pickup-1024x683.jpg';
+import goldtopFinish from '../assets/les-paul-family/feature-details/1957-les-paul-finish-checking-and-greening-1024x683.jpg';
+import goldtopDarkBack from '../assets/les-paul-family/feature-details/1957-gibson-les-paul-dark-back-1024x683.jpg';
+import burstFinish from '../assets/les-paul-family/feature-details/gibson-les-paul-burst-finish-example.jpg';
+import juniorPickupPosition from '../assets/les-paul-family/feature-details/1955-gibson-les-paul-junior-bridge-placement.jpg';
+import juniorGreyTiger from '../assets/les-paul-family/feature-details/1955-gibson-les-paul-junior-grey-tiger.jpg';
+import juniorBlackGuard from '../assets/les-paul-family/feature-details/1959-gibson-les-paul-junior-black-pickguard-example-scaled.jpg';
+import sgJunior from '../assets/les-paul-family/feature-details/1960s-sg-junior-scaled.jpg';
+import sgJuniorBridge from '../assets/les-paul-family/feature-details/1960s-sg-junior-lightning-bridge-scaled.jpg';
+import tvLogo from '../assets/les-paul-family/feature-details/1957-gibson-les-paul-tv-model-logo-close-up.jpg';
+import tvBack from '../assets/les-paul-family/feature-details/1957-gibson-les-paul-tv-model-back-of-body.jpg';
+import tvHeadstock from '../assets/les-paul-family/feature-details/1957-gibson-les-paul-tv-model-front-of-headstock.jpg';
+import tvSerial from '../assets/les-paul-family/feature-details/1957-gibson-les-paul-tv-model-serial-number-close-up.jpg';
+import specialFinish from '../assets/les-paul-family/feature-details/1956-gibson-les-paul-special-tv-yellow-finish-1024x683.jpg';
+import specialTailpiece from '../assets/les-paul-family/feature-details/1957-les-paul-special-tailpiece-1024x683.jpg';
+import specialRoute from '../assets/les-paul-family/feature-details/1957-les-paul-special-neck-pickup-route-1024x683.jpg';
+import specialP90 from '../assets/les-paul-family/feature-details/1958-gibson-les-paul-p-90-1024x683.jpg';
+import specialPot from '../assets/les-paul-family/feature-details/1958-gibson-les-paul-special-crl-pot-1024x683.jpg';
+import specialCaps from '../assets/les-paul-family/feature-details/1958-les-paul-special-bumblebee-capacitors-1024x683.jpg';
+import specialTuner from '../assets/les-paul-family/feature-details/1955-les-paul-special-tuner-buttons-1024x683.jpg';
+import specialFretNibs from '../assets/les-paul-family/feature-details/1958-gibson-les-paul-special-fret-nibs-1024x683.jpg';
+
+const title = 'Gibson Les Paul Dating Guide: Models And Features';
+const description = 'Date a vintage Gibson Les Paul by model and year: Goldtop and Burst changes, Custom, Junior, TV and Special tells, plus Deluxe, reissue and serial checks.';
+const canonical = 'https://www.joesvintageguitarsaz.com/gibson-les-paul-dating-guide/';
+
+const hero = await getImage({ src: heroSource, width: 1500, widths: [720, 1080, 1500, 2000], format: 'webp', quality: 88 });
+
+const quickModels = [
+  ['Les Paul Model, Goldtop or Standard', '1952 onward, with interruptions', 'Carved maple top, two pickups, trapezoid inlays and body-top binding. Pickup, bridge and finish place it within the line.'],
+  ['Les Paul Custom', '1954 onward, with a 1961 to 1967 single-cut gap', 'Luxury trim, ebony fingerboard on most eras, block inlays, split-diamond headstock and gold hardware. Two- and three-pickup versions exist.'],
+  ['Les Paul Junior', '1954 onward, with interruptions', 'Flat slab body, one dog-ear pickup, two knobs, dot inlays and no fingerboard binding.'],
+  ['Les Paul TV Model', '1954 first examples; 1956 to 1961 catalog era', 'Junior construction with a pale limed finish and a TV MODEL headstock silk-screen.'],
+  ['Les Paul Special', '1955 onward, with interruptions', 'Flat slab body, two P-90s, four knobs, a selector switch and a bound fingerboard on the 1950s originals.'],
+  ['Les Paul Deluxe', '1969 to the 1980s core run, with later reissues', 'Carved top and two mini-humbuckers in cream P-90-size surrounds. Many were Goldtops, but other finishes are normal.'],
+  ['Personal And Professional', '1969 to 1973 shipments', 'Large low-impedance pickups and a crowded control layout. The Personal adds upscale trim and a microphone input.'],
+  ['Recording', '1971 to about 1979', 'Low-impedance pickups with phase, impedance and Decade controls. The control arrangement changed during the run.'],
+  ['Les Paul Bass And Triumph Bass', '1969 to about 1979', 'Short-scale low-impedance basses. The Triumph replaced the first Les Paul Bass name during 1971.'],
+  ['Artisan', '1976 to the early 1980s', 'Ornate hearts-and-flowers inlays, gold hardware and commonly three pickups, although two-pickup examples exist.'],
+  ['Artist', '1979 to the early 1980s', 'A Les Paul with active Moog electronics and a control layout that should not be confused with the passive Standard or Custom.'],
+  ['The Les Paul and The Paul', '1976 to early 1980s', 'The Les Paul is an ornate premium model. The Paul is a simpler walnut, flat-top working guitar. They are unrelated despite the similar names.'],
+  ['25/50 and Anniversary Models', '1978 to 1979 and later editions', 'Distinctive anniversary inlays or markings. Some also carry a separate edition number that isn’t the manufacturing date.'],
+  ['Heritage 80, Dealer Reissues and Pre-Historics', 'Late 1970s to 1993', 'Early attempts at a 1959-style Les Paul. Dealer runs and Gibson factory reissues use different vintage-looking serial systems.'],
+  ['Studio, Classic, Traditional and Tribute', '1983 onward by model', 'Later production branches. Trim level, model records and the correct serial system matter more than one universal feature.'],
+];
+
+const norlinModels = [
+  {
+    name: 'Les Paul Deluxe', years: '1969 to the 1980s core run',
+    copy: 'Two mini-humbuckers mounted in P-90-size surrounds define most Deluxes. Goldtop is the best-known finish, but sunburst, wine red and other factory finishes exist. Gibson also shipped some Deluxes with factory full-size humbuckers from 1972.',
+    clues: ['Mini-humbuckers are the usual Deluxe pickup', 'Some 1972 and later examples left the factory with full-size humbuckers', 'Inspect the pickup cavities before calling a modified Deluxe a Standard']
+  },
+  {
+    name: 'Personal And Professional', years: '1969 to 1973 shipments',
+    copy: 'These low-impedance guitars use large pickups and more controls than a Standard. The upscale Personal includes Custom-like trim and a microphone input; the Professional is visually plainer. The Recording replaced both in 1971, but remaining Personal and Professional guitars continued to ship afterward.',
+    clues: ['Low-impedance pickups need the correct output arrangement', 'The Personal has an XLR microphone connection', 'Model-specific electronics are stronger evidence than the serial alone']
+  },
+  {
+    name: 'Les Paul Recording', years: '1971 to about 1979',
+    copy: 'The Recording replaced the Personal and Professional with onboard high and low impedance options. Its phase and Decade controls make it easy to separate from a normal two-humbucker Les Paul.',
+    clues: ['Earlier controls sit in a curved arrangement', 'The layout changes around 1976, and price lists continue through January 1979', 'Missing switches or replaced pickups materially change identification']
+  },
+  {
+    name: 'Les Paul Bass And Triumph Bass', years: '1969 to about 1979',
+    copy: 'The first low-impedance Les Paul Bass was renamed and revised as the Triumph during 1971. A Triumph isn’t dated by guitar pickup or control rules.',
+    clues: ['Short scale and low-impedance electronics', 'Triumph control panel differs from the first Les Paul Bass', 'Use pot codes and the standard headstock serial as supporting evidence']
+  },
+  {
+    name: 'Les Paul Artisan', years: '1976 to the early 1980s',
+    copy: 'Hearts-and-flowers fingerboard and headstock inlays are the Artisan signature. Three pickups were standard at launch. Two-pickup versions followed and were the cataloged configuration by mid-1979, while three pickups remained available.',
+    clues: ['Ornate banjo-inspired inlay pattern', 'Three pickups point to the earlier standard layout, but two- and three-pickup examples exist', 'Do not identify one from a replacement truss-rod cover']
+  },
+  {
+    name: 'Les Paul Artist', years: '1979 to the early 1980s',
+    copy: 'The Artist combines a carved Les Paul body with active Moog electronics. Its switches, control layout and circuit board are central to both identification and originality.',
+    clues: ['Active electronics rather than a passive Standard circuit', 'Factory control layout must remain intact', 'Battery and circuit-cavity evidence matter']
+  },
+  {
+    name: 'The Les Paul', years: '1976 to 1979',
+    copy: 'The Les Paul is an exceptionally ornate, largely hand-built premium model with extensive curly maple construction and elaborate wooden trim. Only about 77 were built, and it should not be confused with The Paul.',
+    clues: ['Premium figured wood throughout', 'Wood pickup rings and other elaborate appointments', 'Documentation and full construction inspection are essential']
+  },
+  {
+    name: 'The Paul', years: '1978 to the early 1980s',
+    copy: 'The Paul is a simpler flat-top walnut instrument with dot inlays and exposed humbuckers. Its plain working-guitar design is almost the opposite of The Les Paul.',
+    clues: ['Flat walnut body', 'Dot fingerboard inlays', 'No carved maple cap or Standard-style top binding']
+  },
+  {
+    name: 'Pro Deluxe And Special Returns', years: 'Late 1970s to early 1980s',
+    copy: 'The Pro Deluxe uses full-size P-90s on a carved Les Paul body. The reintroduced double-cut Special returns to the slab-body branch. Similar names don’t mean the same construction.',
+    clues: ['Pro Deluxe has two soapbar P-90s and a carved top', 'The 1976 double-cut Special return uses a Tune-o-matic and stopbar', 'Check the catalog model before using a general Deluxe date']
+  },
+];
+
+const specialRuns = [
+  ['Les Paul 25/50 Anniversary', '1978 to 1979', 'Distinctive 25/50 headstock inlay, split-block fingerboard inlays, five-piece maple neck, mixed silver and gold trim, TP-6 tailpiece and coil-tap switch. It carries a normal eight-digit Gibson serial plus a separate four-digit edition number. Use the eight-digit serial to date the guitar; the edition number is only its place in the run.'],
+  ['Les Paul 30th Anniversary', '1982 to early 1983', 'Goldtop finish and a 30th Anniversary marking at the 19th fret. The special serial uses a letter followed by four digits. That sequence isn’t a standard day-of-year serial, so confirm the model and paperwork.'],
+  ['Heritage Series Standard 80', '1980 to 1982', 'Gibson’s first factory series aimed directly at recreating a 1959 Standard. A Heritage 80 truss-rod cover, figured sunburst top and early reissue details identify the branch, while the regular serial and model-specific sequence need to be read together.'],
+  ['Heritage Series Standard 80 Elite', '1980 to 1982', 'A higher-trim Heritage 80 version generally identified by a one-piece mahogany neck, ebony fingerboard and more heavily figured top. Do not assume any 1980s sunburst Les Paul is an Elite.'],
+  ['Heritage Series Standard 80 Award', '1980 to 1982', 'A very small dealer-award version based on the Elite with gold-plated hardware. Provenance matters because trim parts can be changed.'],
+  ['Guitar Trader, Leo’s and Other Dealer Reissues', 'Early 1980s', 'Dealer-commissioned guitars moved closer to late-1950s specifications before Gibson had one standardized Historic system. Identify the exact dealer run by construction, known features and paperwork, not only by a vintage-looking ink number.'],
+  ['Pre-Historic Les Paul Reissues', '1983 to 1993 factory run', 'Gibson’s 1983 to 1993 Les Paul Reissue commonly uses an inked serial whose first digit gives the last digit of the production year. Dealer reissues from Guitar Trader, Leo’s and others used their own prefixes or model-year systems, so the factory rule can’t be transferred to every early reissue.'],
+  ['Les Paul Spotlight Special', '1983 to 1984', 'A figured top divided by a contrasting center strip gives the model its neck-through appearance, although it isn’t neck-through construction. Its inked 83-XXX serial and Custom Shop Edition decal identify the run.'],
+  ['Les Paul Classic', '1989 to 2014 original run', 'Most 1989 to 2007 Classics use a vintage-looking ink serial with no Made in USA stamp. Documented 2008 examples can add Made in USA beneath an inked number, and regular impressed Gibson USA serials appear on later Classics from about 2009. A small group of 2007 Classic offshoots also uses the regular impressed system. This transition overlaps, so confirm the exact model.'],
+  ['Historic Collection Reissues', '1993 onward', 'The common M YNNN format uses the first digit for the reissue model year and the second digit for the production year’s last digit. For example, a leading 9 identifies a 1959 reissue, not automatically a guitar built in 1959. Decade ambiguity still requires paperwork and physical evidence.'],
+  ['Artist Signature and Collector’s Choice', 'Modern limited runs', 'Initials, CC codes and edition numbers usually identify the artist, replicated guitar or position within a run. They often don’t encode a manufacturing date. Use the Certificate of Authenticity, model records and supporting serial format.'],
+];
+
+const modernBranches = [
+  ['Studio', 'Introduced in 1983 as a less ornate working Les Paul. Many have little or no body and neck binding, but early Studio Standard and Studio Custom versions can be bound. Use the serial, body woods, trim and exact model name together.'],
+  ['Classic', 'Built around vintage-style appearance and slimmer neck profiles in much of its original run. The ink serial system through 2014 is the key dating exception, including the separate group of 2007 impressed-serial offshoots.'],
+  ['Traditional', 'A later Gibson USA branch intended to retain familiar Les Paul construction while the Standard line adopted newer features. Specifications changed by model year, so the serial and factory model record matter more than the name alone.'],
+  ['Tribute', 'A stripped-back production branch with simpler finishes and appointments. Pickup type and trim can change across editions, so don’t use the Tribute name as a single fixed specification.'],
+  ['Junior And Special Reissues', 'Later Juniors and Specials can closely copy 1950s features. A modern regular-production serial, Historic serial or Custom Shop marking must agree with the neck joint, hardware, finish and component dates.'],
+  ['Custom Shop And Murphy Lab', 'These can reproduce vintage ink stamps, no-wire bridges, aged finishes and old-style plastics. The reissue serial, Certificate of Authenticity and factory paperwork are part of the identification, not optional extras.'],
+];
+
+const faqs = [
+  ['What Is The Fastest Way To Identify A Gibson Les Paul Model?', 'Start with the body. Decide whether it has a carved top or flat slab body, then count the pickups and controls. Use binding, inlays, pickup size and headstock trim to confirm the branch before reading the serial number.'],
+  ['Can A Les Paul Serial Number Identify The Exact Model?', 'Usually not. A standard Gibson serial can date production without distinguishing a Standard, Custom, Deluxe or Studio. Model identification comes from construction, electronics, trim and factory records.'],
+  ['How Can I Tell A Les Paul Deluxe From A Standard?', 'A factory Deluxe normally has two narrow mini-humbuckers mounted in cream P-90-size surrounds. A Standard uses full-size humbuckers. Many Deluxes were routed later, so pickup-cavity inspection is important.'],
+  ['Is Every Yellow Les Paul A TV Model?', 'No. The 1950s TV Model has one dog-ear P-90 and Junior-style construction. A yellow Special has two soapbar P-90s, four controls and a bound fingerboard.'],
+  ['Is A 1961 Les Paul An SG?', 'The thin pointed double-cut design is the body now called the SG, but early examples still carry Les Paul branding. Date it with early SG construction and serial evidence.'],
+  ['Can A Heritage 80 Be Mistaken For A 1959 Burst?', 'Yes at a glance, because it was made as an early 1959-style reissue. The 1980s serial, truss-rod cover, construction, hardware, pickups and documentation separate it from an original Burst.'],
+  ['Does An Inked Number Mean A Les Paul Is From The 1950s?', 'No. Classics, pre-Historic reissues, Historic Collection guitars and some special runs use vintage-looking ink numbers. Font, format, Made in USA stamp, model details and decade evidence must agree.'],
+  ['What Is The Difference Between The Les Paul And The Paul?', 'The Les Paul was an ornate premium late-1970s instrument with extensive figured wood and elaborate appointments. The Paul was a simpler flat-top walnut working guitar with dot inlays.'],
+  ['How Do I Date A Les Paul 25/50?', 'Read its normal eight-digit Gibson serial for the manufacturing date. The separate four-digit edition number identifies its place in the limited run and isn’t a date code.'],
+  ['What Photos Should I Take For A Les Paul Identification?', 'Photograph the full front and back, headstock front and back, serial, body edge, neck heel, bridge, tailpiece, tuners, pickup cavities, pickup backs, control cavity, pot codes and any extra holes or repairs.'],
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article', '@id': `${canonical}#article`, headline: title, description, mainEntityOfPage: canonical,
+      author: { '@type': 'Person', '@id': 'https://www.joesvintageguitarsaz.com/about-me/#person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
+      publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' },
+      datePublished: '2026-09-10',
+      dateModified: '2026-09-15',
+      image: new URL(hero.src, 'https://www.joesvintageguitarsaz.com').href,
+    },
+    {
+      '@type': 'BreadcrumbList', itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.joesvintageguitarsaz.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Gibson Serial Number Lookup', item: 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/' },
+        { '@type': 'ListItem', position: 3, name: 'Gibson Les Paul Dating Guide', item: canonical },
+      ],
+    },
+    {
+      '@type': 'FAQPage', '@id': `${canonical}#les-paul-faq`,
+      mainEntity: faqs.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })),
+    },
+    {
+      '@type': 'ImageObject', contentUrl: new URL(hero.src, 'https://www.joesvintageguitarsaz.com').href,
+      caption: 'Original 1956 Gibson Les Paul Goldtop with two P-90 pickups, ABR-1 bridge and stopbar tailpiece',
+      license: 'https://www.joesvintageguitarsaz.com/photo-license/', creditText: "Joe Dampt, Joe's Vintage Guitars",
+      copyrightNotice: "© Joe Dampt, Joe's Vintage Guitars", creator: { '@type': 'Person', name: 'Joe Dampt' },
+    },
+  ],
+};
+---
+
+<GibsonGuideLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={new URL(hero.src, 'https://www.joesvintageguitarsaz.com').href}
+  ogImageAlt="Vintage Gibson Les Paul Goldtop"
+  ogImageWidth={hero.attributes.width}
+  ogImageHeight={hero.attributes.height}
+  publishedTime="2026-09-09"
+  modifiedTime="2026-09-15"
+  structuredData={schema}
+>
+    <a href="#les-paul-guide" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-cream focus:px-4 focus:py-2">Skip to the Gibson Les Paul dating guide</a>
+    <div id="les-paul-guide">
+      <section class="lp-hero">
+        <div class="lp-hero__copy">
+          <p class="lp-eyebrow">Gibson Model Dating Guides</p>
+          <h1>Gibson Les Paul <span>Dating Guide</span></h1>
+          <p class="lp-lede">Identify the Les Paul model first, then date it with the serial number, body construction, pickups, hardware and electronics that belong to that branch.</p>
+          <div class="lp-hero__actions">
+            <a class="lp-hero__button" href="/how-to-read-gibson-serial-numbers/">Use the Gibson Serial Number Decoder and Charts</a>
+            <a class="lp-hero__jump" href="#model-chart">Jump Straight to the Les Paul Model Chart</a>
+          </div>
+          <p class="lp-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 15, 2026</p>
+        </div>
+        <figure class="lp-hero__photo">
+          <img {...hero.attributes} src={hero.src} srcset={hero.srcSet.attribute} sizes="(max-width: 1023px) 100vw, 52vw" alt="Original 1956 Gibson Les Paul Goldtop with two P-90 pickups, ABR-1 bridge and stopbar tailpiece" decoding="async" fetchpriority="high" />
+          <figcaption>1956 Les Paul Goldtop · P-90s with an ABR-1 and stopbar</figcaption>
+        </figure>
+      </section>
+
+      <section class="lp-answer" aria-labelledby="start-title">
+        <div class="lp-container lp-answer__grid">
+          <div>
+            <p class="lp-eyebrow">Start With the Model</p>
+            <h2 id="start-title">A Les Paul Serial Number Is Only Half The Answer</h2>
+            <p>Gibson reused serial ranges, built vintage-style reissues and gave some limited editions a second run number. The same serial format can appear on very different Les Pauls. Before dating one, decide whether it is a Standard, Custom, Deluxe, Junior, Special, low-impedance model, early reissue or later production branch. The <a href="https://www.joesvintageguitarsaz.com/post/vintage-gibson-les-paul-family-guide/">vintage Gibson Les Paul family guide</a> gives a shorter identification and history overview; this page follows the year-by-year dating changes.</p>
+            <p>Need help identifying yours? Send photos to <a href="https://www.joesvintageguitarsaz.com/">Joe’s Vintage Guitars</a> for a <a href="https://www.joesvintageguitarsaz.com/free-appraisal/">free guitar appraisal</a>. If you are considering a sale, see <a href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/">how to sell your Gibson to Joe</a>.</p>
+          </div>
+          <ol>
+            <li><span>1</span><p><strong>Read the Body</strong> Carved maple top, flat slab body or an unusual low-impedance shape?</p></li>
+            <li><span>2</span><p><strong>Count the Pickups</strong> One dog-ear, two soapbars, mini-humbuckers, full humbuckers or low-impedance units?</p></li>
+            <li><span>3</span><p><strong>Check the Trim</strong> Binding, inlays, headstock ornament and hardware separate the model levels.</p></li>
+            <li><span>4</span><p><strong>Date the Guitar</strong> Make the serial, pots, pickups, bridge, tuners, knobs and construction agree.</p></li>
+          </ol>
+        </div>
+      </section>
+
+      <div class="lp-container lp-body">
+        <nav class="lp-toc" aria-label="Gibson Les Paul dating guide sections">
+          <a href="#model-chart">Model chart</a>
+          <a href="#core-models">Core 1950s models</a>
+          <a href="#goldtop-standard">Goldtop and Standard</a>
+          <a href="#les-paul-custom">Custom</a>
+          <a href="#les-paul-junior">Junior</a>
+          <a href="#les-paul-tv">TV Model</a>
+          <a href="#les-paul-special">Special</a>
+          <a href="#later-models">Later models</a>
+          <a href="#special-runs">Reissues and special runs</a>
+          <a href="#modern-models">Modern branches</a>
+          <a href="#dating-workflow">Dating workflow</a>
+          <a href="#related-guides">Related guides</a>
+          <a href="#les-paul-faq">Questions</a>
+        </nav>
+
+        <section class="lp-section" id="model-chart">
+          <p class="lp-eyebrow">At-a-Glance Identification</p>
+          <h2>Gibson Les Paul Model And Production-Era Chart</h2>
+          <p>This chart covers the major production branches and historically important offshoots. Gibson also made dealer exclusives, artist signatures, one-year variations and limited colors. Those are dated from the parent model, exact model records and any Certificate of Authenticity.</p>
+          <div class="lp-table-card">
+            <table>
+              <thead><tr><th scope="col">Model or Branch</th><th scope="col">Main Era</th><th scope="col">Quick Identification</th></tr></thead>
+              <tbody>{quickModels.map(([model, years, clue]) => <tr><td data-label="Model Or Branch">{model}</td><td data-label="Main Era">{years}</td><td data-label="Quick Identification">{clue}</td></tr>)}</tbody>
+            </table>
+          </div>
+          <aside class="lp-note"><h3>Production Years Are Not Serial Formulas</h3><p>A model can remain in catalogs while specifications change, and leftover parts can cross a calendar boundary. Use the ranges to choose the correct branch, then date the individual guitar with the <a href="/how-to-read-gibson-serial-numbers/">serial lookup and charts</a>.</p></aside>
+        </section>
+
+        <section class="lp-section" id="core-models">
+          <p class="lp-eyebrow">The Original Family</p>
+          <h2>How To Identify The Five Core 1950s Les Paul Models</h2>
+          <p>The quickest reliable split is carved top versus flat slab body. The Les Paul Model or Standard and the Custom have carved tops. The Junior, TV Model and Special use simpler flat mahogany bodies. Pickup count and fingerboard trim then identify the exact model.</p>
+          <div class="lp-model-grid">
+            <article>
+              <LesPaulPhoto src={goldtop1954} id="1954-les-paul-goldtop" title="Les Paul Model, Goldtop and Standard" alt="Gibson Les Paul Goldtop representing the carved-top Standard family" showCaption={false} />
+              <div><span>Carved Top</span><h3>Les Paul Model, Goldtop And Standard</h3><p>Two pickups, cream body-top binding and trapezoid inlays. Bridge and pickup type identify the period: trapeze, wraparound, P-90 ABR-1, PAF Goldtop or Cherry Sunburst Standard.</p><a href="#goldtop-standard">See this model’s changes</a></div>
+            </article>
+            <article>
+              <LesPaulPhoto src={custom1958} id="1958-les-paul-custom" title="Les Paul Custom" alt="Black Gibson Les Paul Custom representing the Custom family" showCaption={false} />
+              <div><span>Carved Top</span><h3>Original Les Paul Custom</h3><p>Ebony Black Beauty finish, extensive binding, block inlays, split-diamond headstock and gold hardware. The 1950s Custom has an all-mahogany body and its own pickup sequence.</p><a href="#les-paul-custom">See this model’s changes</a></div>
+            </article>
+            <article>
+              <LesPaulPhoto src={junior1955} id="1955-les-paul-junior" title="Les Paul Junior" alt="Sunburst Gibson Les Paul Junior representing the Junior family" showCaption={false} />
+              <div><span>Flat Slab Body</span><h3>Les Paul Junior</h3><p>One dog-ear P-90, one volume, one tone, dot inlays and no fingerboard binding. Single-cut comes first, followed by the double-cut body during 1958.</p><a href="#les-paul-junior">See this model’s changes</a></div>
+            </article>
+            <article>
+              <LesPaulPhoto src={tv1957} id="1957-les-paul-tv-model" title="Les Paul TV Model" alt="Gibson Les Paul TV Model with a pale limed mahogany finish representing the TV Model family" showCaption={false} />
+              <div><span>Flat Slab Body</span><h3>Les Paul TV Model</h3><p>Junior construction with a pale limed mahogany finish and TV MODEL beneath the Les Paul headstock script. Yellow color alone doesn’t prove the model.</p><a href="#les-paul-tv">See this model’s changes</a></div>
+            </article>
+            <article>
+              <LesPaulPhoto src={special1958} id="1958-les-paul-special" title="Les Paul Special" alt="TV Yellow Gibson Les Paul Special representing the Special family" showCaption={false} />
+              <div><span>Flat Slab Body</span><h3>Les Paul Special</h3><p>Two soapbar P-90s, four controls, a selector switch and a bound fingerboard. Single-cut and double-cut versions require different neck-joint checks.</p><a href="#les-paul-special">See this model’s changes</a></div>
+            </article>
+          </div>
+          <aside class="lp-note"><h3>Goldtop, Burst And Black Beauty Are Descriptions, Not Complete Dates</h3><p>A Goldtop can have several bridge and pickup combinations. A Burst-style finish can appear on a later reissue. Black Beauty usually points to a Custom, but construction and electronics still need to agree.</p></aside>
+        </section>
+
+        <section class="lp-section lp-model-section" id="goldtop-standard">
+          <p class="lp-eyebrow">Model-by-Model Dating</p>
+          <h2>Les Paul Model, Goldtop And Standard Changes</h2>
+          <p>This carved-top branch has the most useful hardware sequence in the Les Paul family. The bridge, pickups, knobs and finish can quickly narrow the period, but those rules belong to this model. They should not be transferred to a Junior, Special or early Custom.</p>
+          <div class="lp-fingerprint">
+            <div><strong>Body</strong><span>Carved maple cap over mahogany with cream top binding</span></div>
+            <div><strong>Pickups</strong><span>Two P-90s through mid-1957, then two humbuckers</span></div>
+            <div><strong>Controls</strong><span>Four knobs and a three-way selector</span></div>
+            <div><strong>Fingerboard</strong><span>Rosewood, trapezoid inlays and binding</span></div>
+          </div>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1952 to Early 1953</p><h3>Wrap-Under Trapeze And Shallow Neck Angle</h3><p>The first Goldtops have two cream soapbar P-90s and a trapeze tailpiece with the strings passing under the bar. The shallow neck angle makes the bridge sit unusually low. Some of the very earliest 1952 guitars also have an unbound fingerboard.</p><p class="lp-change__meaning"><strong>Earliest Goldtop Evidence:</strong> A factory trapeze and shallow neck set identify the first Les Paul Model. A later bridge conversion doesn’t erase the original neck geometry or filled mounting evidence.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--two">
+              <LesPaulPhoto src={trapeze1952} id="goldtop-1952-trapeze" title="1952 Wrap-Under Trapeze" alt="Wrap-under trapeze tailpiece on an early Gibson Les Paul Goldtop" caption="The strings pass under the crossbar on the earliest Goldtops. This bridge belongs with the shallow first-version neck angle." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">Early 1953 to Late 1955</p><h3>Stud Wraparound And The Established Goldtop Build</h3><p>The stud-mounted wraparound began replacing the trapeze in early 1953, and the two versions overlap. A steeper neck set followed later in 1953. The guitar still has two cream P-90s, gold speed knobs through late 1955 and a carved maple cap that remains visible at the cutaway edge.</p><p class="lp-change__meaning"><strong>Wraparound Goldtop Evidence:</strong> The wraparound places an original carved-top Goldtop after the first trapeze version and before the late-1955 ABR-1 change. The visible maple layer confirms that it isn’t a slab-body Junior or Special.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--three">
+              <LesPaulPhoto src={goldtop1954Bridge} id="goldtop-1954-wraparound" title="1954 Stud Wraparound" alt="Original stud-mounted wraparound bridge on a 1954 Gibson Les Paul Goldtop" caption="This one-piece bridge and tailpiece is the key 1953 to 1955 Goldtop hardware arrangement." />
+              <LesPaulPhoto src={goldtop1954Knobs} id="goldtop-1954-knobs" title="1954 Gold Speed Knobs" alt="Four gold speed knobs on an original 1954 Gibson Les Paul Goldtop" caption="Four low cylindrical gold knobs support an early Goldtop date when the bridge, pickups and serial agree." />
+              <LesPaulPhoto src={goldtopMapleCap} id="goldtop-maple-cap" title="Maple Cap at the Cutaway" alt="Maple cap visible between the gold top and mahogany back of a 1954 Gibson Les Paul" caption="The pale maple layer inside the cutaway is a construction clue specific to the carved-top professional model." />
+              <LesPaulPhoto src={goldtop1954Electronics} id="goldtop-1954-electronics" title="1954 Goldtop Electronics" alt="Original control cavity wiring and wax-coated capacitors in a 1954 Gibson Les Paul Goldtop" caption="Pot codes, early capacitors, braided wire and untouched solder can confirm the period after the bridge and pickup layout identify the model." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">Late 1955 to Mid-1957</p><h3>P-90s With An ABR-1 And Stopbar</h3><p>The no-wire ABR-1 Tune-o-matic and separate lightweight stopbar begin appearing late in 1955, around the 510xxx serial range, while the Goldtop still carries two soapbar P-90s. Gold bonnet knobs arrive with this bridge change. No-line Klusons continue on some guitars as single-line Kluson Deluxe tuners become more common.</p><p class="lp-change__meaning"><strong>Late-1955 To 1957 Evidence:</strong> Two P-90s with a factory ABR-1 and stopbar identify this transition, but they don’t make every example a 1956. The ink serial, pots and tuner details narrow the year.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--three">
+              <LesPaulPhoto src={goldtop1956Bridge} id="goldtop-1956-abr1" title="1956 No-Wire ABR-1" alt="No-wire nickel ABR-1 bridge and stopbar on a 1956 Gibson Les Paul Goldtop" caption="The separate bridge and stopbar appear while the Goldtop still carries P-90 pickups." />
+              <LesPaulPhoto src={goldtop1956P90} id="goldtop-1956-p90" title="1956 Cream Soapbar P-90" alt="Cream neck-position P-90 pickup on a 1956 Gibson Les Paul Goldtop" caption="Two cream soapbar P-90s belong with the new ABR-1 setup in 1956." />
+              <LesPaulPhoto src={goldtop1956Knob} id="goldtop-1956-bonnet" title="Gold Bonnet Knob" alt="Gold bonnet control knob on a mid-1950s Gibson Les Paul Goldtop" caption="The narrower waist and raised center separate this late-1955-onward bonnet style from the earlier cylindrical speed knob." />
+              <LesPaulPhoto src={goldtop1956Tuner} id="goldtop-1956-kluson" title="Single-Line Kluson" alt="Single-line Kluson Deluxe tuner removed from a mid-1950s Gibson Les Paul Goldtop" caption="The back reads Kluson Deluxe in one vertical line. No-line tuners overlap this period, and replacements are common, so inspect the screw holes and impressions too." />
+              <LesPaulPhoto src={goldtop1956Serial} id="goldtop-mid-1950s-serial" title="Worn Yellow Ink Serial" alt="Worn yellow ink-stamped serial number on the back of a mid-1950s Gibson Les Paul Goldtop headstock" caption="The first digit is worn in this photograph, so the image shows period ink, font and spacing rather than proving one exact year." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">Mid-1957 to Early 1958</p><h3>PAF Humbuckers Replace The P-90s</h3><p>The ABR-1 and stopbar stay, but two PAF humbuckers replace the soapbar P-90s. Sweat and wear can reach the bronze powder beneath the clear coat, producing green oxidation. Some 1956 guitars have dark backs, and the finish becomes more common on 1957 and early 1958 Goldtops, often with a yellow serial and black cavity covers.</p><p class="lp-change__meaning"><strong>Humbucker Goldtop Evidence:</strong> A factory humbucker Goldtop belongs in the 1957 to early 1958 transition, not the P-90-only phase. Pickup routes, rings, braided leads, solder and PAF construction must agree before the guitar is called original.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--three">
+              <LesPaulPhoto src={goldtop1957Paf} id="goldtop-1957-paf" title="1957 PAF Pickup" alt="Underside of a 1957 Gibson PAF humbucker with its Patent Applied For decal" caption="The decal, mounting feet, braided lead and pickup-ring markings are stronger evidence than the cover alone." />
+              <LesPaulPhoto src={goldtopFinish} id="goldtop-1957-finish" title="Goldtop Checking and Greening" alt="Close-up of a 1957 Gibson Les Paul Goldtop showing lacquer checking and green oxidation" caption="Moisture can oxidize the bronze powder in original gold lacquer, especially around worn or exposed areas." />
+              <LesPaulPhoto src={goldtopDarkBack} id="goldtop-1957-dark-back" title="1957 Dark Back" alt="Dark translucent back finish on a 1957 Gibson Les Paul Goldtop" caption="A dark back can be nearly black at first glance, but the mahogany grain should still show through the stain." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1958 to 1960</p><h3>Cherry Sunburst Arrives, And The Standard Name Follows</h3><p>Cherry Sunburst replaces the gold top while the carved maple cap, two humbuckers, ABR-1 and stopbar remain. The 1958 catalog still calls it the Les Paul guitar or model; the 1960 catalog uses Les Paul Standard. Gold bonnet knobs continue before gold reflector knobs appear during 1960. The red dye can fade heavily, so today’s color isn’t a dependable year by itself.</p><p class="lp-change__meaning"><strong>Burst Dating Evidence:</strong> A Burst is the finish stage of the same carved-top branch, not a different body design. Gold reflector knobs can support a late 1960 date, but a replacement set can’t date the guitar. Compare both styles in the <a href="/gibson-knob-dating-guide/">Gibson knob dating guide</a>.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--two">
+              <LesPaulPhoto src={burstFinish} id="standard-burst-finish" title="Cherry Sunburst Standard Finish" alt="Close-up of a Gibson Les Paul Cherry Sunburst finish over figured maple" caption="The visible maple figure and shaded red edge identify the Burst finish, while fading can change the apparent color dramatically." />
+              <LesPaulPhoto src={goldReflectorKnobs} id="standard-1960-reflector" title="Gold Reflector Knobs" alt="Four gold Gibson reflector knobs with metal volume and tone inserts on a sunburst hollowbody guitar" caption="Gold reflector knobs shown on a 1960s Gibson hollowbody. This gold knob style also appears on late 1960 Les Paul Standards." />
+            </div>
+          </article>
+
+          <p>For closer comparisons, use the <a href="https://www.joesvintageguitarsaz.com/post/1954-gibson-les-paul-goldtop-authentication-guide/">1954 wraparound Goldtop guide</a>, <a href="https://www.joesvintageguitarsaz.com/post/1956-les-paul-goldtop-authentication-guide/">1956 P-90 Goldtop guide</a> and <a href="https://www.joesvintageguitarsaz.com/post/1957-les-paul-goldtop-guide/">1957 PAF Goldtop guide</a>. Each has more photos of the hardware and electronics for that year.</p>
+          <aside class="lp-note"><h3>The 1968 Return Starts A New Goldtop And Standard Story</h3><p>The P-90 Goldtop returned in 1968 as the Les Paul Standard. The mini-humbucker Deluxe replaced it during 1969. A limited 1958-style Goldtop reissue followed in 1971 to 1972, full-size humbucker Standards appear around 1974 and the Standard returned to the price list in mid-1976. Later guitars use different serial systems and construction clues. Compare them in the <a href="/gibson-physical-features-hardware-guide/">Gibson physical features and hardware guide</a>.</p></aside>
+        </section>
+
+        <section class="lp-section lp-model-section" id="les-paul-custom">
+          <p class="lp-eyebrow">Model-by-Model Dating</p>
+          <h2>Les Paul Custom Changes</h2>
+          <p>The Custom has its own construction and pickup chronology. A black finish isn’t enough: the all-mahogany 1950s body, the staple-and-P-90 pickup pair, later humbuckers and the maple-cap 1968 return separate distinct Custom eras. Use the <a href="https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/">PAF and Patent Number pickup guide</a> to examine the humbuckers and the <a href="/gibson-tuner-dating-guide/">Gibson tuner guide</a> to compare the tuning machines.</p>
+          <div class="lp-fingerprint">
+            <div><strong>Body</strong><span>Carved top with extensive multi-ply binding</span></div>
+            <div><strong>Fingerboard</strong><span>Ebony on most eras with block inlays</span></div>
+            <div><strong>Headstock</strong><span>Split-diamond inlay and bound face</span></div>
+            <div><strong>Hardware</strong><span>Gold plating with Custom-specific pickup options</span></div>
+          </div>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1954 to Early 1957</p><h3>All-Mahogany Black Beauty With Staple And P-90 Pickups</h3><p>The original Custom uses an all-mahogany body, an Alnico V staple pickup at the neck, a soapbar P-90 at the bridge, gold hardware and an ABR-1 with a separate stopbar. That bridge appeared on the Custom before it reached the Goldtop. The staple-and-P-90 pair continues into early 1957.</p><p class="lp-change__meaning"><strong>Early Custom Evidence:</strong> An early Custom shouldn’t be dated from the Goldtop’s bridge sequence. The staple-neck and P-90-bridge combination is correct Custom evidence, and the ink serial belongs with gold Waffleback tuners and the original black finish.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--two">
+              <LesPaulPhoto src={customStaple} id="custom-staple-p90" title="Early Custom Pickup Pair" alt="Alnico V staple neck pickup and black P-90 bridge pickup on an early Gibson Les Paul Custom" caption="The rectangular staple polepieces belong at the neck, with a black soapbar P-90 at the bridge." />
+              <LesPaulPhoto src={custom1955Serial} id="custom-1955-serial-wafflebacks" title="1955 Custom Serial and Wafflebacks" alt="Ink serial and six gold Waffleback Kluson tuners on a 1955 Gibson Les Paul Custom" caption="The ink stamp, tuner style, button aging, screw pattern and surrounding finish should all tell the same mid-1950s story." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">Late 1957 to 1960</p><h3>Three PAF Humbuckers Become Standard</h3><p>PAF humbuckers replace the staple-and-P-90 pair. Three humbuckers are the standard layout from 1958, although rare two-pickup Customs are known. Grover Rotomatic tuners replace the Wafflebacks during 1958, yellow ink serials continue and factory Bigsby examples exist. The all-mahogany body, ebony board, multi-ply trim and gold hardware remain central.</p><p class="lp-change__meaning"><strong>Later-1950s Custom Evidence:</strong> Three pickups support a later-1950s Custom date, but pickup count alone isn’t proof. The routes, switch wiring, covers, rings, solder and serial must show factory work.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--two">
+              <LesPaulPhoto src={customThree} id="custom-three-humbuckers" title="Three-Humbucker Custom" alt="Three covered humbuckers on an original black Gibson Les Paul Custom" caption="Three humbuckers are a recognized later-1950s Custom layout, but the routes and wiring still need to be original." />
+              <LesPaulPhoto src={custom1958} id="custom-1958-bigsby-detail" title="1958 Custom With Bigsby" alt="Original black 1958 Gibson Les Paul Custom with three humbuckers and a Bigsby vibrato" caption="Luxury trim, three covered humbuckers and the factory-style vibrato all belong to this individual Custom’s evidence set." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1961 to 1963</p><h3>The Les Paul Custom Name Moves To The SG Body</h3><p>The thin, pointed double-cut body now known as the SG carried Les Paul Custom branding before the endorsement ended. White was the listed finish. The fingerboard and headstock are bound, but the body isn’t. A Sideways Vibrola belongs to 1961; rare 1962 examples can have the decorative ebony-block vibrato; the Maestro Vibrola follows in 1963.</p><p class="lp-change__meaning"><strong>SG-Body Custom Evidence:</strong> A 1961 to 1963 Les Paul Custom isn’t a single-cut Black Beauty. Its body shape and vibrato system must be dated with early SG construction, then checked against the serial and electronics.</p></div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1968 Through The 1970s</p><h3>Single-Cut Return With A Maple Cap And Norlin-Era Changes</h3><p>The returning Custom uses a maple cap over mahogany instead of the 1950s all-mahogany body. Ebony is the return finish. Cherry Sunburst appears around mid-1971, Wine Red in 1974 and white in 1975. Three pickups appear by special order in the early 1970s and as a listed factory option in 1977. Nickel hardware and maple fingerboards also appear on late-1970s examples.</p><p class="lp-change__meaning"><strong>1970s Custom Evidence:</strong> Made in USA stamps, volutes, multi-piece necks, pancake bodies, later maple necks and Nashville bridges are normal on a 1970s Custom. Any one of those features rules out a 1950s date, but it doesn’t make the later guitar inauthentic.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--three">
+              <LesPaulPhoto src={custom1972} id="custom-1972" title="1972 Les Paul Custom" alt="Black 1972 Gibson Les Paul Custom with the covers removed from two full-size humbuckers" caption="The pickup covers have been removed from this guitar. Date the Custom from its impressed serial, maple-cap body, neck construction, hardware and electronics rather than that modification." />
+              <LesPaulPhoto src={pancakeBody} id="custom-era-pancake-body" title="Pancake Body Seam" alt="Body edge of a vintage Gibson low-impedance Les Paul showing a faint pancake-body seam beneath the finish" caption="This is a model-independent construction example from a low-impedance Les Paul. The thin crossband can appear as only a faint line around the body edge." />
+              <LesPaulPhoto src={goldDecal} id="custom-gold-serial-decal" title="1976 Gold Serial Decal" alt="Gold serial number decal beginning with 00 on the back of a 1976 Gibson Les Paul Custom headstock" caption="The 00 prefix dates this example to 1976. This narrow Norlin-era serial treatment is a decal, not a 1950s ink stamp." />
+            </div>
+          </article>
+        </section>
+
+        <section class="lp-section lp-model-section" id="les-paul-junior">
+          <p class="lp-eyebrow">Model-by-Model Dating</p>
+          <h2>Les Paul Junior Changes</h2>
+          <p>The Junior keeps one dog-ear P-90 and two controls while the pickup position, knobs, capacitor, body outline and bridge evolve. Those changes are useful only after the unbound dot-inlay neck and single-pickup layout establish that the guitar is a Junior. The <a href="https://www.joesvintageguitarsaz.com/post/gibson-les-paul-junior-guide/">Les Paul Junior authentication guide</a> has additional examples of pickups, electronics and body shapes.</p>
+          <div class="lp-fingerprint">
+            <div><strong>Body</strong><span>Flat mahogany slab with no maple cap</span></div>
+            <div><strong>Pickup</strong><span>One bridge-position dog-ear P-90</span></div>
+            <div><strong>Controls</strong><span>One volume and one tone</span></div>
+            <div><strong>Fingerboard</strong><span>Dot inlays with no binding</span></div>
+          </div>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1954 to Mid-1955</p><h3>Single-Cut Body, Close Pickup And Early Electronics</h3><p>Early Juniors have a single-cut slab body, a dog-ear P-90 placed very close to the wraparound bridge, low speed knobs and a Grey Tiger or similar wax-coated tone capacitor.</p><p class="lp-change__meaning"><strong>Earliest Junior Evidence:</strong> The close pickup position is especially useful because it is built into the body. A later replacement knob or capacitor can mislead, but the factory pickup route is harder to change invisibly.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--two">
+              <LesPaulPhoto src={juniorPickupPosition} id="junior-1955-pickup-position" title="Early Junior Pickup Position" alt="Dog-ear P-90 mounted close to the wraparound bridge on a 1955 Gibson Les Paul Junior" caption="The small gap between pickup and bridge is a useful early single-cut Junior clue." />
+              <LesPaulPhoto src={juniorGreyTiger} id="junior-1955-grey-tiger" title="Early Grey Tiger Capacitor" alt="Wax-coated Grey Tiger capacitor in a 1955 Gibson Les Paul Junior control cavity" caption="This early capacitor type supports a 1954 to 1955 Junior date when the pot codes and untouched solder agree." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">Late 1955 to 1957</p><h3>Bonnet Knobs, Bumblebee Capacitor And Revised Pickup Position</h3><p>The single-cut body remains, but the P-90 moves slightly farther from the bridge. Black bonnet knobs begin replacing the earlier speed knobs around mid-1955. Bumblebee capacitors arrive later in 1955, while Grey Tiger capacitors can continue into early 1956.</p><p class="lp-change__meaning"><strong>Mid-1950s Junior Evidence:</strong> A single-cut Junior with the later pickup location and black bonnet knobs fits the middle 1950s, but the headstock serial, pot codes and solder should confirm the range.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--two">
+              <LesPaulPhoto src={junior1955} id="junior-single-cut-layout" title="Single-Cut Junior Layout" alt="Original sunburst Gibson Les Paul Junior with one dog-ear pickup and two controls" caption="The one-pickup, two-control layout and unbound dot-inlay neck remain the Junior identity while small parts change." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1958 to 1960</p><h3>Rounded Double-Cut Body And Finish Variations</h3><p>During 1958 the Junior moves to a symmetrical double-cut body with rounded horns. Cherry becomes the familiar finish. Tortoiseshell is the standard pickguard color; an occasional original black guard is an exception that needs the screw pattern, finish shadow and age to agree.</p><p class="lp-change__meaning"><strong>Double-Cut Junior Evidence:</strong> The double-cut shape establishes a later branch, but it doesn’t automatically make the guitar a 1959. Use the neck joint, serial, pots, guard screw pattern and finish shadows to narrow the date and judge originality.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--two">
+              <LesPaulPhoto src={junior1959} id="junior-1959-double-cut" title="1959 Double-Cut Junior" alt="Original cherry 1959 Gibson Les Paul Junior with a rounded double-cut body" caption="The body changes while the Junior keeps one dog-ear pickup, two controls and an unbound fingerboard." />
+              <LesPaulPhoto src={juniorBlackGuard} id="junior-1959-black-guard" title="Uncommon Black Pickguard Example" alt="Black pickguard on a cherry 1959 Gibson Les Paul Junior" caption="Tortoiseshell is standard. An occasional black guard can be original, but finish shadows and untouched screw holes must agree." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1961 to 1963</p><h3>SG Body First, Lightning-Bar Bridge Around 1962</h3><p>The Junior adopts the thin, pointed SG body in 1961, keeping one dog-ear P-90 and two controls. Early SG-shaped Juniors still use the earlier smooth wraparound bridge on angled studs. Around 1962, Gibson introduces the compensated lightning-bar bridge on this model, with a raised zigzag ridge and studs set in line with each other.</p><p class="lp-change__meaning"><strong>SG-Body Junior Evidence:</strong> An SG body with the earlier smooth bridge is a correct early combination. The body and bridge changed at different times. Check the original stud positions, serial and pot codes together; the small early pickguard also predates the large guard introduced in 1966.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--two">
+              <LesPaulPhoto src={sgJunior} id="junior-sg-body" title="SG-Body Les Paul Junior" alt="Cherry Gibson Les Paul Junior with the thin pointed SG-style double-cut body" caption="The pointed SG body arrives in 1961. The earliest examples retain the smooth wraparound bridge before the lightning-bar change around 1962." />
+              <LesPaulPhoto src={sgJuniorBridge} id="junior-lightning-bridge" title="Lightning-Bar Wraparound" alt="Compensated lightning-bar wraparound bridge on an SG-body Gibson Junior" caption="The raised zigzag ridge identifies the compensated bridge introduced on the SG Junior around 1962. The earlier smooth bridge has no raised ridge." />
+            </div>
+          </article>
+        </section>
+
+        <section class="lp-section lp-model-section" id="les-paul-tv">
+          <p class="lp-eyebrow">Model-by-Model Dating</p>
+          <h2>Les Paul TV Model Changes</h2>
+          <p>The TV Model follows the Junior’s mechanical chronology, but the factory limed mahogany finish and TV MODEL headstock silk-screen are model-specific. A yellow finish without those features doesn’t turn another Les Paul into a TV Model. Compare the finish and markings in the <a href="https://www.joesvintageguitarsaz.com/post/gibson-les-paul-tv-model-guide/">Les Paul TV Model guide</a> and the <a href="/gibson-headstock-logo-chronology/">Gibson headstock logo chronology</a>.</p>
+          <div class="lp-fingerprint">
+            <div><strong>Body</strong><span>Junior-style flat mahogany slab</span></div>
+            <div><strong>Pickup</strong><span>One dog-ear P-90</span></div>
+            <div><strong>Finish</strong><span>Translucent limed mahogany with visible grain</span></div>
+            <div><strong>Headstock</strong><span>Gold TV MODEL line beneath the Les Paul script</span></div>
+          </div>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1954 to 1955</p><h3>Earliest Single-Cut TV Models</h3><p>Gibson shipped five early TV Models in 1954, including unusual maple-body or three-quarter-scale examples, before the model appeared in the 1956 catalog. The normal version shares the Junior’s single-cut body, close dog-ear P-90, speed knobs, wraparound bridge and strip tuners. Its first limed finishes can look more muted and natural than the brighter yellow seen later.</p><p class="lp-change__meaning"><strong>Earliest TV Model Evidence:</strong> The finish should remain translucent over the wood grain, and the headstock should identify the TV Model. An opaque yellow repaint on a Junior isn’t the same guitar.</p></div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1956 to 1957</p><h3>Classic Single-Cut TV Model Specification</h3><p>Bonnet knobs replace speed knobs while the single dog-ear P-90, wraparound bridge and Kluson strip tuners remain. The limed finish shows the wood grain, and the gold headstock silk-screen provides the fastest model confirmation.</p><p class="lp-change__meaning"><strong>Single-Cut TV Model Evidence:</strong> A 1957-style TV Model should combine the logo, translucent finish, Junior layout, Kluson tuners and a 7-prefix ink serial. If only the color agrees, keep investigating.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--four">
+              <LesPaulPhoto src={tvLogo} id="tv-model-logo" title="TV MODEL Headstock Marking" alt="Gold Gibson, Les Paul and TV Model silk-screen on a 1957 headstock" caption="The small TV MODEL line is the quickest model-specific distinction from a normal Junior." />
+              <LesPaulPhoto src={tvBack} id="tv-model-limed-back" title="Translucent Limed Mahogany" alt="Back of a 1957 Les Paul TV Model showing mahogany grain through the pale finish" caption="The wood grain remains visible through the finish. Thick opaque color is a reason to check for a refinish." />
+              <LesPaulPhoto src={tvHeadstock} id="tv-model-headstock-tuners" title="TV Model Headstock and Tuners" alt="Front of a 1957 Gibson Les Paul TV Model headstock with cream-button strip tuners" caption="Logo layout, button aging and tuner configuration should agree with the rest of the guitar." />
+              <LesPaulPhoto src={tvSerial} id="tv-model-1957-serial" title="1957 TV Model Ink Serial" alt="Black ink serial beginning with 7 on the back of a Gibson Les Paul TV Model headstock" caption="The 7 prefix supports 1957, while the font and untouched surrounding finish help authenticate the stamp." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">Late 1958 to Early 1961</p><h3>Double-Cut TV Model And SG TV Name</h3><p>The TV Model follows the Junior into the rounded double-cut body late in 1958. The single P-90, two controls, unbound dot-inlay neck and limed finish remain. The color becomes a brighter yellow and a tortoiseshell guard is typical. Gibson’s November 1959 price list calls this rounded-body guitar the SG TV, and production continues at several hundred guitars per year before the pointed SG body arrives.</p><p class="lp-change__meaning"><strong>Double-Cut TV Model Evidence:</strong> The guitar should still have the TV MODEL marking and translucent limed finish. Rounded horns identify this phase; pointed SG horns belong to the next body design.</p></div>
+          </article>
+          <aside class="lp-warning"><h3>Not Every Yellow Les Paul Is A TV Model</h3><p>A TV Model has one dog-ear P-90 and Junior construction. A yellow Special has two soapbar P-90s, four controls and a bound fingerboard. Start with those permanent layout differences before judging the shade of yellow.</p></aside>
+        </section>
+
+        <section class="lp-section lp-model-section" id="les-paul-special">
+          <p class="lp-eyebrow">Model-by-Model Dating</p>
+          <h2>Les Paul Special Changes</h2>
+          <p>The Special is the two-pickup slab-body model. Its wraparound bridge continued after the carved-top Goldtop adopted an ABR-1, so the bridge has to be read inside the Special’s own timeline. See the <a href="https://www.joesvintageguitarsaz.com/post/1955-1958-tv-yellow-les-paul-special-guide/">1955 to 1958 TV Yellow Les Paul Special guide</a> for more single-cut examples.</p>
+          <div class="lp-fingerprint">
+            <div><strong>Body</strong><span>Flat mahogany slab with no maple cap</span></div>
+            <div><strong>Pickups</strong><span>Two soapbar P-90s</span></div>
+            <div><strong>Controls</strong><span>Four knobs and a three-way selector</span></div>
+            <div><strong>Fingerboard</strong><span>Bound rosewood board with dot inlays</span></div>
+          </div>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1955 to 1956</p><h3>Single-Cut TV Yellow Special</h3><p>The original Special combines two soapbar P-90s, four controls, a selector switch, bound neck, multi-ply guard and stud wraparound on a flat mahogany body. Speed knobs and Grey Tiger-style capacitors belong to early examples. Bonnet knobs begin around mid-1955, Bumblebee capacitors arrive later that year and Grey Tigers can continue into early 1956.</p><p class="lp-change__meaning"><strong>Early Special Evidence:</strong> The two-pickup layout and bound neck separate the Special from a TV Model before any date is assigned. The Special has an inlaid pearl Gibson logo, while the TV Model uses a gold silk-screen with TV MODEL beneath the Les Paul script.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--two">
+              <LesPaulPhoto src={specialFinish} id="special-tv-yellow-finish" title="Original TV Yellow Finish" alt="Close-up of checked translucent TV Yellow lacquer on a 1956 Gibson Les Paul Special" caption="Mahogany grain remains visible beneath the yellow lacquer and fine checking. Opaque paint needs closer inspection." />
+              <LesPaulPhoto src={specialTuner} id="special-1955-tuner-button" title="1955 Special Tuner Button" alt="Aged plastic tuner button and Kluson tuner on a 1955 Gibson Les Paul Special" caption="Shrinkage, seams and age should look consistent across all six buttons. New tuners can leave old holes and outlines." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">1957 to Early 1958</p><h3>Mature Single-Cut Construction And Hardware</h3><p>The Special keeps its short-seam lightweight wraparound and two P-90s. Hand-guided routes, the visible neck tenon, bound fingerboard with fret nibs and aged nickel hardware provide stronger evidence than any removable plastic part.</p><p class="lp-change__meaning"><strong>Mature Single-Cut Evidence:</strong> A wraparound is still correct here even though a 1957 Goldtop has an ABR-1. That apparent conflict disappears when each bridge is judged inside the proper model.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--three">
+              <LesPaulPhoto src={specialTailpiece} id="special-1957-wraparound" title="1957 Special Wraparound" alt="Underside of a lightweight wraparound bridge from a 1957 Gibson Les Paul Special" caption="The short seam and light construction fit the original Special. A heavy modern casting is a replacement clue." />
+              <LesPaulPhoto src={specialRoute} id="special-1957-neck-route" title="Special Neck Pickup Route" alt="Open neck pickup cavity on a 1957 Gibson Les Paul Special showing hand routing and neck tenon" caption="The route shape and visible neck joint help confirm factory construction and expose later pickup work." />
+              <LesPaulPhoto src={specialP90} id="special-1958-p90" title="1958 Special P-90 Baseplate" alt="Underside of an original P-90 pickup removed from a 1958 Gibson Les Paul Special" caption="Baseplate, lead, coil, hardware and cavity fit matter more than the black plastic cover." />
+              <LesPaulPhoto src={specialFretNibs} id="special-1958-fret-nibs" title="Original Special Fret Nibs" alt="Binding nibs covering fret ends on a 1958 Gibson Les Paul Special" caption="Nibs support original factory fretwork on this bound-neck model. They are usually lost during a conventional refret." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">Late 1955 to 1958 Electronics</p><h3>Bumblebee Capacitors, Pot Codes And Original Solder</h3><p>Bumblebee capacitors become common after late 1955, and period pots carry manufacturer, year and week codes on their cases. The component date is an earliest possible assembly date, not the guitar’s exact birthday.</p><p class="lp-change__meaning"><strong>Special Electronics Evidence:</strong> Pot codes and capacitors can support the headstock serial, but only if the solder and wiring show that they belong to the guitar. A later replacement code dates the repair, not the Special.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--two">
+              <LesPaulPhoto src={specialCaps} id="special-bumblebee-capacitors" title="1958 Special Bumblebee Capacitors" alt="Two striped Bumblebee capacitors in a 1958 Gibson Les Paul Special control cavity" caption="The capacitor type belongs with mid-to-late-1950s Special electronics, but untouched leads and solder are just as important." />
+              <LesPaulPhoto src={specialPot} id="special-1958-pot" title="1958 Special Pot Case" alt="Stamped potentiometer case in a 1958 Gibson Les Paul Special control cavity" caption="Read the manufacturer, year and week code where it remains visible, then compare it with the serial and assembly evidence." />
+            </div>
+          </article>
+
+          <article class="lp-change">
+            <div class="lp-change__copy"><p class="lp-change__years">Late 1958 to Early 1961</p><h3>Double-Cut Body And Neck-Pickup Position</h3><p>The earliest double-cut Specials have the neck pickup close against the end of the fingerboard. Its cavity cuts into the wood supporting the neck joint, leaving that area weak and prone to breaks. Around the start of 1960, Gibson moves the neck pickup roughly half an inch toward the bridge and adds a larger one-piece pickguard. The November 1959 price list already uses the SG Special name for the rounded double-cut body.</p><p class="lp-change__meaning"><strong>Double-Cut Special Evidence:</strong> A neck pickup close to the fingerboard points to the earlier layout; the larger gap and revised guard point to the strengthened version. Inspect the heel and pickup cavity for repairs or a relocated pickup before using the spacing to date the guitar.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--two">
+              <LesPaulPhoto src={specialDoubleCut} id="special-double-cut" title="Double-Cut Les Paul Special" alt="Original cherry Gibson Les Paul Special with a rounded double-cut body and two soapbar P-90 pickups" caption="The body and neck joint change while the two-pickup Special layout remains easy to recognize." />
+              <LesPaulPhoto src={special1958} id="special-single-cut-comparison" title="Single-Cut Special for Comparison" alt="Original 1958 Gibson Les Paul Special in TV Yellow with two soapbar P-90 pickups" caption="Compare the earlier single-cut silhouette and neck support with the later double-cut design." />
+            </div>
+          </article>
+        </section>
+
+        <section class="lp-section" id="later-models">
+          <p class="lp-eyebrow">Each Later Branch Has Its Own Rules</p>
+          <h2>Deluxe, Low-Impedance And Other 1968 To Mid-1980s Models</h2>
+          <p>The returning single-cut Les Paul became a much larger family. These models can share serial systems, so the pickup shape, control layout, body construction and factory model identity have to be established before the number is decoded.</p>
+          <div class="lp-era-banner">
+            <div><strong>1968 to 1969</strong><p>The P-90 Standard and Custom return. Three-piece necks, pancake bodies and small volutes begin appearing during 1969.</p></div>
+            <div><strong>1970 to 1977</strong><p>Made in USA begins in 1970. Maple necks arrive in 1975, and pancake construction continues through about 1977.</p></div>
+            <div><strong>Late 1970s to Early 1980s</strong><p>Nashville bridges, new electronics and special models widen the family. Volutes continue through about 1981.</p></div>
+          </div>
+          <div class="lp-branch-list">
+            {norlinModels.map((model, index) => (
+              <article>
+                <div class="lp-branch-list__number">{String(index + 1).padStart(2, '0')}</div>
+                <div><p class="lp-branch-list__years">{model.years}</p><h3>{model.name}</h3><p>{model.copy}</p><ul>{model.clues.map((clue) => <li>{clue}</li>)}</ul></div>
+              </article>
+            ))}
+          </div>
+          <div class="lp-period-evidence">
+            <div><h3>How The Shared 1970s Clues Work</h3><p>Three-piece necks, pancake bodies and the first small volutes begin during 1969. A Made in USA stamp follows in 1970. Maple necks appear on many Les Pauls from 1975 into the early 1980s, pancake construction continues through about 1977 and volutes continue through about 1981. The Nashville bridge arrives later in the decade. These are overlapping windows, not exact changeover days.</p></div>
+            <div class="lp-photo-grid lp-photo-grid--four">
+              <LesPaulPhoto src={madeInUsa} id="later-les-paul-made-in-usa" title="Made in USA Stamp" alt="Impressed Made in USA mark on the back of a vintage Gibson headstock" caption="The mark supports 1970 or later production, but it doesn’t identify the Les Paul model." />
+              <LesPaulPhoto src={mahoganyNeck} id="later-les-paul-mahogany-neck" title="Three-Piece Mahogany Neck" alt="Three-piece mahogany Gibson neck showing two long glue seams" caption="The seams are an early-to-mid-1970s construction clue on the models that used this neck." />
+              <LesPaulPhoto src={mapleNeck} id="later-les-paul-maple-neck" title="Three-Piece Maple Neck" alt="Three-piece maple Gibson neck showing its pale wood and glue seams" caption="Many later-1970s Les Pauls move to maple necks. Finish color can hide the wood, so inspect grain and exposed areas." />
+              <LesPaulPhoto src={witchHatKnob} id="later-les-paul-witch-hat" title="Witch-Hat Knob" alt="Vintage Gibson witch-hat control knob with a silver insert" caption="Witch-hat knobs are a broad late-1960s and 1970s clue. Because they are easily replaced, they rank below body and neck construction." />
+              <LesPaulPhoto src={volute} id="later-gibson-volute" title="1970s Gibson Volute" alt="Volute behind the nut on a 1972 Gibson neck" caption="The raised ridge behind the nut supports 1970s construction. Its size changes over time and should agree with the serial." />
+              <LesPaulPhoto src={nashvilleBridge} id="later-gibson-nashville-bridge" title="Nashville Bridge Form" alt="Wide Nashville-style bridge on a vintage Gibson guitar" caption="This model-independent hardware example shows the wider bridge body used later in the 1970s. Confirm the original posts and finish impressions on a Les Paul." />
+            </div></div>
+          <aside class="lp-warning"><h3>Do Not Rename A Routed Deluxe As A Standard</h3><p>Many Les Paul Deluxes were enlarged for full-size humbuckers, but Gibson also shipped some factory full-size humbucker Deluxes from 1972. Remove the pickups only if it can be done safely and inspect the cavity shape, finish, tooling and mounting evidence. A modification changes the guitar, not its original model.</p></aside>
+        </section>
+
+        <section class="lp-section" id="special-runs">
+          <p class="lp-eyebrow">Vintage-Looking Numbers and Limited Editions</p>
+          <h2>Les Paul Reissues, Anniversary Models And Special Runs</h2>
+          <p>These are the guitars most likely to defeat a simple serial lookup. Some copy a 1950s ink stamp, some use a separate edition number and some depend on a Certificate of Authenticity. Identify the run before interpreting the number.</p>
+          <div class="lp-table-card lp-table-card--special">
+            <table>
+              <thead><tr><th scope="col">Model or Run</th><th scope="col">Main Era</th><th scope="col">How to Identify and Date It</th></tr></thead>
+              <tbody>{specialRuns.map(([model, years, method]) => <tr><td data-label="Model Or Run">{model}</td><td data-label="Main Era">{years}</td><td data-label="How To Identify And Date It">{method}</td></tr>)}</tbody>
+            </table>
+          </div>
+          <div class="lp-photo-grid lp-photo-grid--two">
+            <LesPaulPhoto src={classicSerial} id="les-paul-classic-serial" title="Les Paul Classic Ink Serial" alt="Ink-stamped serial number on the back of a Gibson Les Paul Classic headstock" caption="The Classic’s stamp deliberately looks old, but its font and year format differ from a 1950s original. Most examples have no Made in USA stamp." />
+            <LesPaulPhoto src={historicSerial} id="historic-r9-serial" title="Historic 1959 Reissue Serial" alt="Ink-stamped reissue serial on the back of a Gibson Historic R9 Les Paul headstock" caption="On the common Historic format, the leading 9 identifies a 1959 reissue. It doesn’t by itself mean the guitar was made in 1959." />
+          </div>
+          <aside class="lp-note"><h3>The 2007 Les Paul Classic Exception And Later Transition</h3><p>A small group of 2007 Classic Antique, Classic Custom and Guitar of the Week offshoots went down the regular Gibson USA line, so those guitars use a nine-digit impressed serial and a Made in USA stamp. The main Classic line then enters a less tidy transition: documented 2008 guitars can combine an inked serial with Made in USA, and impressed Gibson USA serials appear on later Classics from about 2009. Gibson’s published serial summary simplifies the original run as ink-stamped through 2014, so use the exact model and physical stamp rather than forcing every guitar into one changeover year.</p></aside>
+        </section>
+
+        <section class="lp-section" id="modern-models">
+          <p class="lp-eyebrow">Later Production Branches</p>
+          <h2>Studio, Classic, Traditional, Tribute And Modern Reissues</h2>
+          <p>Modern Les Paul specifications can change by model year. A model name is a starting point, not a permanent recipe. Read the factory serial format first, then confirm the exact catalog model from the trim, body construction, electronics and documentation.</p>
+          <div class="lp-modern-grid">
+            {modernBranches.map(([name, copy]) => <article><h3>{name}</h3><p>{copy}</p></article>)}
+          </div>
+          <aside class="lp-warning"><h3>Modern Aging Can Reproduce Vintage Clues</h3><p>Historic and Murphy Lab guitars can have aged lacquer, faded color, old-style plastics, no-wire ABR-1 bridges and vintage-looking ink stamps. Those features are correct for the reissue and can’t prove a 1950s manufacturing date.</p></aside>
+        </section>
+
+        <section class="lp-section" id="dating-workflow">
+          <p class="lp-eyebrow">A Repeatable Inspection</p>
+          <h2>How To Date And Authenticate A Gibson Les Paul</h2>
+          <div class="lp-workflow">
+            <article><span>1</span><div><h3>Identify The Model Branch</h3><p>Carved or flat body, pickup count, pickup size, binding and inlays should point to one branch before the serial is decoded.</p></div></article>
+            <article><span>2</span><div><h3>Decode The Correct Serial Format</h3><p>Use the <a href="/how-to-read-gibson-serial-numbers/">Gibson serial decoder and charts</a> to separate standard Gibson USA numbers from 1950s ink stamps, Classic numbers, Historic reissue formats, CS prefixes and limited-run sequences.</p></div></article>
+            <article><span>3</span><div><h3>Read The Neck And Body</h3><p>Check the neck wood and number of pieces, volute, Made in USA stamp, maple cap, pancake seam, tenon evidence and repair history.</p></div></article>
+            <article><span>4</span><div><h3>Identify Pickups And Routes</h3><p>Confirm P-90, staple, PAF, Patent Number, T-Top, mini-humbucker, low-impedance or later pickups. Factory routes should fit the model. The <a href="https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/">PAF and Patent Number pickup guide</a> follows the pickup changes in detail.</p></div></article>
+            <article><span>5</span><div><h3>Date The Electronics</h3><p><a href="/gibson-pot-codes/">Gibson pot codes</a> provide an earliest possible assembly date. Capacitors, wire, solder and control layout should support the model and period.</p></div></article>
+            <article><span>6</span><div><h3>Cross-Check Removable Parts</h3><p>Bridge, tailpiece, tuners, knobs, plastics and plating help only after you decide whether they have remained with the guitar.</p></div></article>
+            <article><span>7</span><div><h3>Record Repairs And Modifications</h3><p>Headstock breaks, refinishes, overspray, routed pickups, replaced electronics and plugged hardware holes affect both certainty and value.</p></div></article>
+            <article><span>8</span><div><h3>Use Paperwork For Special Runs</h3><p>Certificates, dealer receipts, case documents and factory model records can resolve artist, Collector’s Choice and early reissue ambiguity.</p></div></article>
+          </div>
+          <blockquote><strong>Make Every Clue Tell the Same Story.</strong><p>No single serial, pot code, tuner or finish detail authenticates a Les Paul. The strongest date is the range where the model, construction and components converge.</p></blockquote>
+          <p>Once the model and year are established, the <a href="https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/">vintage Les Paul value guide</a> explains the price differences between versions. For an assessment of your guitar’s condition, repairs and originality, <a href="https://www.joesvintageguitarsaz.com/free-appraisal/">request a free appraisal</a>.</p>
+        </section>
+
+        <section class="lp-section" id="related-guides">
+          <p class="lp-eyebrow">Continue the Inspection</p>
+          <h2>Related Gibson Dating And Les Paul Guides</h2>
+          <div class="lp-related-grid">
+            <a href="/how-to-read-gibson-serial-numbers/"><h3>Gibson Serial Number Lookup</h3><p>Decode standard, vintage, Classic, Custom Shop and reissue numbers.</p><span>Use the lookup and charts</span></a>
+            <a href="https://www.joesvintageguitarsaz.com/post/vintage-gibson-les-paul-family-guide/"><h3>Vintage Gibson Les Paul Family Guide</h3><p>Identify the main Les Paul branches and follow the wider family history.</p><span>Read the family guide</span></a>
+            <a href="/gibson-pot-codes/"><h3>Gibson Pot-Code Guide</h3><p>Read manufacturer, year and week codes without treating them as an assembly date.</p><span>Read the pot-code guide</span></a>
+            <a href="/gibson-headstock-logo-chronology/"><h3>Gibson Headstock Logo Guide</h3><p>Compare logo construction and letterforms with the claimed production era.</p><span>View the logo chronology</span></a>
+            <a href="/gibson-knob-dating-guide/"><h3>Gibson Knob Dating Guide</h3><p>Identify speed, bonnet, reflector and later knob styles.</p><span>Read the knob guide</span></a>
+            <a href="/gibson-tuner-dating-guide/"><h3>Gibson Tuner Dating Guide</h3><p>Read Kluson, Gibson Deluxe, Grover and other tuner evidence.</p><span>Read the tuner guide</span></a>
+            <a href="/gibson-physical-features-hardware-guide/"><h3>Physical Features And Hardware</h3><p>Use neck construction, volutes, body seams, bridges, tailpieces and plating.</p><span>Open the hardware guide</span></a>
+            <a href="/gibson-sg-dating-guide/"><h3>Gibson SG Dating Guide</h3><p>Compare model-specific changes on the pointed-body Standard, Custom, Special and Junior.</p><span>Read the SG dating guide</span></a>
+            <a href="/gibson-es-335-345-355-dating-guide/"><h3>Gibson ES-335, ES-345 And ES-355</h3><p>Compare the semi-hollow models’ inlays, hardware, necks and wiring.</p><span>Read the ES dating guide</span></a>
+            <a href="https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/"><h3>PAF And Patent Number Pickups</h3><p>Follow the PAF, Patent Number and T-Top sequence in detail.</p><span>Read the pickup guide</span></a>
+            <a href="https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/"><h3>Vintage Les Paul Value Guide</h3><p>Use current model and year ranges after the guitar is identified.</p><span>Read the value guide</span></a>
+            <a href="https://www.joesvintageguitarsaz.com/post/vintage-gibson-sg-family-guide/"><h3>Vintage Gibson SG Guide</h3><p>Follow the pointed-body Junior, Special, Standard and Custom through their later changes.</p><span>Read the SG model guide</span></a>
+            <a href="https://www.joesvintageguitarsaz.com/post/gibson-shipping-totals-1948-1979/"><h3>Gibson Production And Shipping Totals</h3><p>Compare recorded Les Paul shipments by model and year through the 1970s.</p><span>See the shipping totals</span></a>
+            <a href="https://www.joesvintageguitarsaz.com/post/gibson-aldo-nova-les-paul-xpl-guide/"><h3>Aldo Nova Les Paul XPL Guide</h3><p>See how one unusual later Les Paul branch combines model history and date evidence.</p><span>Read the XPL guide</span></a>
+            <a href="https://www.joesvintageguitarsaz.com/post/one-owner-1983-gibson-les-paul-custom/"><h3>One-Owner 1983 Les Paul Custom</h3><p>Follow the history and features of a documented early-1980s Custom.</p><span>Read the guitar’s story</span></a>
+            <a href="https://www.joesvintageguitarsaz.com/blog/"><h3>Joe’s Vintage Guitar Blog</h3><p>Browse more Gibson model histories, dating articles and guitar identification guides.</p><span>Browse the blog</span></a>
+            <a href="https://www.joesvintageguitarsaz.com/free-appraisal/"><h3>Free Guitar Appraisal</h3><p>Send photos for help with your Les Paul’s identity, condition and value.</p><span>Request an appraisal</span></a>
+            <a class="lp-related-grid__sell" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/"><h3>Sell My Gibson</h3><p>Joe buys vintage Gibson guitars nationwide and can help identify what you have.</p><span>Learn how to sell your Gibson</span></a>
+          </div>
+        </section>
+
+        <section class="lp-section" id="les-paul-faq">
+          <p class="lp-eyebrow">Common Questions</p>
+          <h2>Gibson Les Paul Dating Questions</h2>
+          <div class="lp-faq">
+            {faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
+          </div>
+        </section>
+
+        <aside class="lp-help">
+          <div><p class="lp-eyebrow">Need Help With a Les Paul?</p><h2>Send Joe The Whole Guitar</h2><p>Include full front and back photos, both sides of the headstock, the serial number, body edge, neck heel, pickups, controls, bridge, tailpiece, tuners, cavities and any repairs. Close-ups are most useful when they are paired with a photo showing where the detail sits.</p></div>
+          <div><a href="https://www.joesvintageguitarsaz.com/free-appraisal/">Ask Joe for Help</a><a class="lp-help__secondary" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/">Sell My Gibson</a></div>
+        </aside>
+      </div>
+    </div>
+    <LesPaulPhotoViewer />
+  </GibsonGuideLayout>
+
+<style>
+  .lp-container { width: min(100% - 2.5rem, 76rem); margin-inline: auto; }
+  .lp-eyebrow { margin: 0 0 .7rem; color: var(--color-wine-dark); font-size: .78rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+  .lp-hero { display: grid; background: var(--color-ink); color: white; }
+  .lp-hero__copy { display: flex; min-height: 36rem; flex-direction: column; justify-content: flex-end; padding: 10rem max(1.25rem, calc((100vw - 76rem) / 2)) 3.5rem; background: radial-gradient(circle at 16% 24%, rgb(129 51 31 / .52), transparent 35%), linear-gradient(145deg, #2d241f, #18120f); }
+  .lp-hero .lp-eyebrow { color: var(--color-gold-light); }
+  .lp-hero h1 { max-width: 43rem; margin: 0; font-family: var(--font-display); font-size: clamp(3.3rem, 7vw, 6.6rem); letter-spacing: -.025em; line-height: .92; }
+  .lp-hero h1 span { display: block; color: var(--color-gold-light); }
+  .lp-lede { max-width: 43rem; margin: 1.5rem 0 1rem; color: #eee4dd; font-size: 1.12rem; line-height: 1.72; }
+  .lp-hero__actions { display: flex; flex-wrap: wrap; gap: .85rem 1.1rem; align-items: center; margin-top: .35rem; }
+  .lp-hero__button { display: inline-flex; align-items: center; justify-content: center; border-radius: 999px; background: var(--color-gold-light); padding: .82rem 1.15rem; color: var(--color-ink); font-size: .9rem; font-weight: 800; text-decoration: none; }
+  .lp-hero__button:hover, .lp-hero__button:focus-visible { background: white; }
+  .lp-hero__jump, .lp-byline a { color: var(--color-gold-light); font-weight: 700; text-decoration: underline; text-underline-offset: .25rem; }
+  .lp-byline { margin: 1.5rem 0 0; color: #d4c3b8; font-size: .87rem; }
+  .lp-hero__photo { position: relative; min-height: 34rem; margin: 0; overflow: hidden; background: #211610; }
+  .lp-hero__photo img { width: 100%; height: 100%; object-fit: cover; object-position: 45% center; }
+  .lp-hero__photo::after { position: absolute; inset: 0; content: ''; background: linear-gradient(0deg, rgb(20 11 7 / .56), transparent 42%); pointer-events: none; }
+  .lp-hero__photo figcaption { position: absolute; z-index: 1; right: 1rem; bottom: .85rem; color: white; font-size: .72rem; }
+  .lp-answer { border-bottom: 1px solid var(--color-rule); background: var(--color-cream); padding: 3rem 0; }
+  .lp-answer__grid { display: grid; gap: 2rem; }
+  .lp-answer h2, .lp-section > h2, .lp-help h2 { margin: 0 0 1rem; font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); line-height: 1.1; }
+  .lp-answer__grid > div > p:last-child { max-width: 49rem; margin: 0; font-size: 1.07rem; line-height: 1.75; }
+  .lp-answer ol { display: grid; gap: .7rem; margin: 0; padding: 0; list-style: none; }
+  .lp-answer li { display: grid; grid-template-columns: 2.2rem 1fr; gap: .75rem; align-items: start; }
+  .lp-answer li > span, .lp-workflow > article > span { display: grid; width: 2rem; height: 2rem; place-items: center; border-radius: 50%; background: var(--color-wine-dark); color: white; font-family: var(--font-display); }
+  .lp-answer li p { margin: 0; line-height: 1.5; }
+  .lp-body { max-width: 70rem; padding-block: 1rem 4rem; }
+  .lp-toc { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; border-bottom: 1px solid var(--color-rule); padding: 1rem 0 1.5rem; }
+  .lp-toc a, .lp-section a, .lp-answer a { color: var(--color-wine-dark); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  :global([data-les-paul-photo="standard-1960-reflector"] img) { object-fit: contain; }
+  .lp-toc a { font-size: .86rem; }
+  .lp-section { padding-block: 3rem; scroll-margin-top: 1rem; }
+  .lp-section + .lp-section { border-top: 1px solid var(--color-rule); }
+  .lp-section > p { max-width: 57rem; margin: 0 0 1.25rem; font-size: 1.05rem; line-height: 1.8; }
+  .lp-table-card { overflow-x: auto; margin-top: 1.5rem; border: 1px solid var(--color-rule); border-radius: .9rem; background: white; }
+  .lp-table-card table { width: 100%; min-width: 56rem; border-collapse: collapse; text-align: left; }
+  .lp-table-card th, .lp-table-card td { border-bottom: 1px solid #e8dfd2; padding: .88rem 1rem; vertical-align: top; }
+  .lp-table-card tr:last-child td { border-bottom: 0; }
+  .lp-table-card th { background: #f5efe5; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+  .lp-table-card td:first-child { color: var(--color-wine-dark); font-weight: 800; }
+  .lp-table-card td:nth-child(2) { font-weight: 700; }
+  .lp-table-card--special table { min-width: 64rem; }
+  .lp-note, .lp-warning { max-width: 58rem; margin-top: 1.5rem; border-left: 3px solid var(--color-wine-dark); background: var(--color-cream); padding: 1.05rem 1.25rem; }
+  .lp-warning { border-left-color: var(--color-gold); background: #f8f1df; }
+  .lp-note h3, .lp-warning h3 { margin: 0 0 .4rem; font-family: var(--font-display); font-size: 1.35rem; }
+  .lp-note p, .lp-warning p { margin: 0; line-height: 1.68; }
+  .lp-model-grid, .lp-modern-grid, .lp-photo-grid, .lp-related-grid, .lp-era-banner { display: grid; gap: 1rem; margin-top: 1.5rem; }
+  .lp-model-grid article, .lp-modern-grid article { border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine-dark); border-radius: .85rem; background: white; }
+  .lp-model-grid article { overflow: hidden; }
+  .lp-model-grid article > div:last-child, .lp-modern-grid article { padding: 1.25rem; }
+  :global(.lp-model-grid .les-paul-photo) { border: 0; border-bottom: 1px solid var(--color-rule); border-radius: 0; }
+  :global(.lp-model-grid .les-paul-photo figcaption) { min-height: 8.5rem; }
+  .lp-model-grid span { color: var(--color-gold); font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+  .lp-model-grid h3, .lp-modern-grid h3 { margin: .4rem 0 .65rem; font-family: var(--font-display); font-size: 1.35rem; line-height: 1.2; }
+  .lp-model-grid p, .lp-modern-grid p { margin: 0; color: #5f5149; line-height: 1.65; }
+  .lp-model-grid a { display: inline-block; margin-top: .85rem; font-size: .88rem; }
+  .lp-fingerprint { display: grid; gap: .65rem; margin: 1.5rem 0 2rem; }
+  .lp-fingerprint > div { display: grid; gap: .25rem; border-left: 3px solid var(--color-gold); background: var(--color-cream); padding: .85rem 1rem; }
+  .lp-fingerprint strong { color: var(--color-wine-dark); font-family: var(--font-display); font-size: 1rem; }
+  .lp-fingerprint span { color: #5f5149; font-size: .9rem; line-height: 1.45; }
+  .lp-change { border-top: 1px solid var(--color-rule); padding: 2.25rem 0 2.5rem; }
+  .lp-change:last-of-type { border-bottom: 1px solid var(--color-rule); }
+  .lp-change__copy { max-width: 58rem; }
+  .lp-change__years { margin: 0; color: var(--color-gold); font-size: .78rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+  .lp-change h3 { margin: .35rem 0 .7rem; font-family: var(--font-display); font-size: clamp(1.55rem, 3vw, 2.05rem); line-height: 1.18; }
+  .lp-change__copy > p:not(.lp-change__years) { margin: 0 0 .8rem; line-height: 1.75; }
+  .lp-change__meaning { border-left: 3px solid var(--color-wine-dark); padding-left: 1rem; color: #564940; }
+  .lp-change__meaning strong { color: var(--color-wine-dark); }
+  .lp-period-evidence { margin-top: 2rem; border-radius: 1rem; background: var(--color-cream); padding: clamp(1.25rem, 4vw, 2rem); }
+  .lp-period-evidence > div:first-child { max-width: 57rem; }
+  .lp-period-evidence h3 { margin: 0 0 .6rem; font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2rem); }
+  .lp-period-evidence > div:first-child p { margin: 0; line-height: 1.75; }
+  .lp-timeline { margin-top: 2rem; border-top: 1px solid var(--color-rule); }
+  .lp-timeline article { display: grid; grid-template-columns: 3rem 1fr; gap: 1rem; border-bottom: 1px solid var(--color-rule); padding: 1.5rem 0; }
+  .lp-timeline article > span { color: var(--color-gold); font-family: var(--font-display); font-size: 1.35rem; }
+  .lp-timeline article > div > p:first-child, .lp-branch-list__years { margin: 0; color: var(--color-wine-dark); font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .lp-timeline h3 { margin: .25rem 0 .5rem; font-family: var(--font-display); font-size: 1.55rem; }
+  .lp-timeline article > div > p:last-child { max-width: 54rem; margin: 0; line-height: 1.7; }
+  .lp-deep-dive { margin-top: 2.5rem; border-radius: 1rem; background: var(--color-cream); padding: clamp(1.25rem, 4vw, 2rem); }
+  .lp-deep-dive > div:first-child { max-width: 56rem; }
+  .lp-deep-dive h3 { margin: 0 0 .8rem; font-family: var(--font-display); font-size: clamp(1.65rem, 3vw, 2.2rem); }
+  .lp-deep-dive > div:first-child > p:last-child { margin: 0; line-height: 1.75; }
+  .lp-era-banner > div { border-radius: .8rem; background: var(--color-ink); padding: 1.2rem; color: white; }
+  .lp-era-banner strong { color: var(--color-gold-light); font-family: var(--font-display); font-size: 1.2rem; }
+  .lp-era-banner p { margin: .5rem 0 0; color: #e8ded7; font-size: .9rem; line-height: 1.55; }
+  .lp-branch-list { margin-top: 2rem; }
+  .lp-branch-list article { display: grid; grid-template-columns: 3rem 1fr; gap: 1rem; border-top: 1px solid var(--color-rule); padding: 1.7rem 0; }
+  .lp-branch-list article:last-child { border-bottom: 1px solid var(--color-rule); }
+  .lp-branch-list__number { color: var(--color-gold); font-family: var(--font-display); font-size: 1.35rem; }
+  .lp-branch-list h3 { margin: .25rem 0 .6rem; font-family: var(--font-display); font-size: 1.6rem; }
+  .lp-branch-list article > div > p:not(.lp-branch-list__years) { max-width: 54rem; margin: 0; line-height: 1.7; }
+  .lp-branch-list ul { display: flex; flex-wrap: wrap; gap: .5rem; margin: .9rem 0 0; padding: 0; list-style: none; }
+  .lp-branch-list li { border: 1px solid var(--color-rule); border-radius: 999px; background: var(--color-cream); padding: .38rem .7rem; color: #564940; font-size: .8rem; font-weight: 700; }
+  .lp-modern-grid article { border-top-color: var(--color-gold); }
+  .lp-workflow { display: grid; gap: .85rem; margin-top: 1.5rem; }
+  .lp-workflow article { display: grid; grid-template-columns: 2.3rem 1fr; gap: .85rem; border: 1px solid var(--color-rule); border-radius: .75rem; background: white; padding: 1.1rem; }
+  .lp-workflow h3 { margin: 0 0 .35rem; font-family: var(--font-display); font-size: 1.25rem; }
+  .lp-workflow p { margin: 0; color: #5f5149; line-height: 1.6; }
+  blockquote { margin: 2rem 0 0; border: 0; border-radius: .9rem; background: var(--color-ink); padding: 1.5rem; color: white; }
+  blockquote strong { color: var(--color-gold-light); font-family: var(--font-display); font-size: 1.35rem; }
+  blockquote p { margin: .5rem 0 0; color: #e8ded7; line-height: 1.65; }
+  .lp-section a:not(.serial-photo-link), .lp-help a { transition: color .18s ease; }
+  .lp-related-grid > a { display: flex; min-height: 100%; flex-direction: column; border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine-dark); border-radius: .8rem; background: white; padding: 1.25rem; color: var(--color-ink); text-decoration: none; }
+  .lp-related-grid > a:hover, .lp-related-grid > a:focus-visible { box-shadow: 0 .6rem 1.4rem rgb(56 34 22 / .12); transform: translateY(-2px); }
+  .lp-related-grid h3 { margin: 0 0 .6rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .lp-related-grid p { margin: 0 0 1rem; color: #5f5149; line-height: 1.6; }
+  .lp-related-grid span { margin-top: auto; color: var(--color-wine-dark); font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
+  .lp-related-grid > .lp-related-grid__sell { border-top-color: var(--color-gold); background: var(--color-cream); }
+  .lp-faq details { border-bottom: 1px solid var(--color-rule); padding: 1rem 0; }
+  .lp-faq summary { cursor: pointer; font-weight: 750; }
+  .lp-faq p { max-width: 56rem; margin: .75rem 0 0; line-height: 1.7; }
+  .lp-help { display: grid; gap: 1.5rem; align-items: center; border: 1px solid var(--color-rule); border-radius: 1rem; background: var(--color-cream); padding: clamp(1.25rem, 4vw, 2.5rem); }
+  .lp-help p:not(.lp-eyebrow) { max-width: 52rem; margin: 0; line-height: 1.72; }
+  .lp-help a { display: inline-block; margin: .5rem .8rem .5rem 0; border-radius: 2rem; background: var(--color-wine-dark); padding: .82rem 1.25rem; color: white; font-weight: 750; }
+  .lp-help .lp-help__secondary { background: transparent; padding-inline: 0; color: var(--color-wine-dark); text-decoration: underline; text-underline-offset: 3px; }
+  @media (max-width: 699px) {
+    .lp-container { width: min(100% - 2rem, 76rem); }
+    .lp-toc { position: sticky; z-index: 5; top: 0; width: calc(100% + 2rem); box-sizing: border-box; flex-wrap: nowrap; gap: .35rem; overflow-x: auto; margin-inline: -1rem; border: 0; background: rgb(255 252 246 / .97); padding: .45rem 1rem; box-shadow: 0 .25rem .8rem rgb(44 30 21 / .12); scrollbar-width: thin; }
+    .lp-toc a { display: inline-flex; min-height: 44px; flex: 0 0 auto; align-items: center; border: 1px solid var(--color-rule); border-radius: 999px; background: white; padding: 0 .8rem; text-decoration: none; }
+    .lp-section { scroll-margin-top: 4.5rem; }
+    .lp-table-card { overflow: visible; border: 0; background: transparent; }
+    .lp-table-card table { display: block; min-width: 0; }
+    .lp-table-card thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+    .lp-table-card tbody, .lp-table-card tr, .lp-table-card td { display: block; width: 100%; }
+    .lp-table-card tr { margin-bottom: .9rem; overflow: hidden; border: 1px solid var(--color-rule); border-radius: .8rem; background: white; }
+    .lp-table-card td { border-bottom: 1px solid #e8dfd2; padding: .8rem 1rem; }
+    .lp-table-card td::before { display: block; margin-bottom: .2rem; color: var(--color-gold); content: attr(data-label); font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .lp-table-card td:last-child { border-bottom: 0; }
+  }
+  @media (min-width: 700px) {
+    .lp-answer__grid, .lp-help { grid-template-columns: 1.15fr .85fr; }
+    .lp-model-grid, .lp-modern-grid, .lp-photo-grid--two, .lp-related-grid, .lp-workflow { grid-template-columns: 1fr 1fr; }
+    .lp-photo-grid--three, .lp-photo-grid--four { grid-template-columns: 1fr 1fr; }
+    .lp-fingerprint { grid-template-columns: 1fr 1fr; }
+    .lp-era-banner { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (min-width: 1024px) {
+    .lp-hero { grid-template-columns: .94fr 1.06fr; min-height: 48rem; }
+    .lp-hero__copy { min-height: 48rem; padding-top: 18rem; padding-right: clamp(2.5rem, 5vw, 5rem); padding-bottom: 4.5rem; }
+    .lp-hero__photo { min-height: 48rem; }
+    .lp-photo-grid--three { grid-template-columns: repeat(3, 1fr); }
+    .lp-photo-grid--four { grid-template-columns: repeat(3, 1fr); }
+    .lp-fingerprint { grid-template-columns: repeat(4, 1fr); }
+    .lp-model-grid { grid-template-columns: repeat(3, 1fr); }
+    .lp-modern-grid, .lp-related-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+</style>

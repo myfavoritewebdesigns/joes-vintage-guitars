@@ -1,0 +1,389 @@
+---
+import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
+import { getImage } from 'astro:assets';
+import KnobPhoto from '../components/KnobPhoto.astro';
+import KnobPhotoViewer from '../components/KnobPhotoViewer.astro';
+import prewarKnobs from '../assets/knobs/gibson-prewar-knobs-1930s.jpg';
+import clearNoNumberKnobs from '../assets/knobs/gibson-clear-no-number-knobs.jpg';
+import speedKnob from '../assets/knobs/gibson-speed-knob-1946-1955.jpeg';
+import bonnetKnob from '../assets/knobs/1956-gibson-les-paul-bonnet-knob.jpg';
+import reflectorKnob from '../assets/knobs/gibson-reflector-knob-1960s.jpeg';
+import witchHatKnob from '../assets/knobs/gibson-witch-hat-knob-1960s-1970s.jpeg';
+import goldtopSpeedKnobs from '../assets/les-paul-family/feature-details/1954-gibson-les-paul-goldtop-knobs.jpg';
+import { imageOrigin } from '../config/image-license';
+
+const title = 'Gibson Knobs By Year: Speed, Bonnet, Reflector, Witch Hat';
+const description = 'Date a vintage Gibson by its knobs: barrel, speed, bonnet, reflector and witch hat styles, the years each appeared, and how to spot a replaced set.';
+const canonical = 'https://www.joesvintageguitarsaz.com/gibson-knob-dating-guide/';
+const serialGuide = 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/';
+const articleImage = await getImage({ src: bonnetKnob, width: 1080, widths: [480, 720, 1080, 1440], format: 'webp', quality: 86 });
+const articleImageUrl = new URL(articleImage.src, imageOrigin).href;
+
+const chart = [
+  ['Roughly 1935 to 1943', 'Prewar molded and radio-style knobs', 'Cataloged forms included brown and black knobs with arrows, pointers or a white position dot. Shapes and construction are safer clues than a material guess.'],
+  ['1946 to early 1950', 'Tall clear barrel, usually unnumbered', 'Seen on early postwar electrics. The clear plastic often clouds or turns amber with age.'],
+  ['1949 to 1952', 'Tall numbered barrel', 'A taller clear knob with a 0 to 10 scale visible through the plastic. Early Les Paul Goldtops are a familiar example.'],
+  ['About 1953 to 1955', 'Low speed knob', 'Shorter and straighter-sided than the tall barrel. Gold or black versions appear according to the model and finish.'],
+  ['Mid-1955 to mid-1960', 'Bell, bonnet or top-hat knob', 'The non-reflector style phased in model by model through 1956. Late 1960 Les Paul Standards are an important reflector-knob exception.'],
+  ['Mid-1960 to the mid-1970s', 'Reflector knob', 'A bell-shaped knob with a metal Volume or Tone insert. It remained on some models after witch hats appeared.'],
+  ['Late 1966 to 1981, depending on model', 'Witch-hat knob', 'Late 1966 and 1967 are transition years. The ES-335 kept witch hats through 1981, while other models changed sooner.'],
+  ['1970s', 'Capped top-hat variants', 'Reflector-style top hats and other capped forms overlapped witch hats. Match the exact cap, body and model instead of assigning a factory-wide cutoff.'],
+  ['Mid-1970s onward', 'Returning speed and barrel styles', 'Speed knobs returned model by model and became common later. Their presence does not automatically indicate an early 1950s guitar.'],
+];
+
+const photos = [
+  {
+    id: 'prewar-knobs', period: 'Roughly 1935 to 1943', name: 'Prewar Molded And Radio-Style Knobs', src: prewarKnobs,
+    alt: 'Black ridged prewar Gibson control knob with a metal pointer',
+    caption: 'This photograph shows one black ridged prewar knob with a metal pointer. Other cataloged prewar forms differ from this example.',
+    summary: 'Gibson did not use one standardized knob on its earliest electric instruments. Cataloged types such as the 504-A include brown and black knobs, along with arrows, separate pointers, white position dots and set-screw construction. Identify the exact form and the guitar model instead of grouping every early molded knob together.',
+    clueHeading: 'Prewar Construction Clues',
+    clues: ['Brown or black molded body', 'Arrow, pointer or position dot', 'Set screw on some cataloged forms'],
+    limitHeading: 'Dating Limits For Prewar Knobs',
+    note: 'You can’t prove the material from a photograph. Don’t use a hot-needle test on an original knob because it can permanently damage the part and may release fumes.',
+    secondary: null,
+  },
+  {
+    id: 'clear-unnumbered-knobs', period: '1946 to early 1950', name: 'Tall Clear Unnumbered Barrel Knobs', src: clearNoNumberKnobs,
+    alt: 'Two tall clear unnumbered control knobs on a vintage Gibson archtop guitar',
+    caption: 'Two tall clear barrel knobs without a printed number scale on a vintage Gibson archtop. The warm-colored guitar and hardware are visible through the plastic.',
+    summary: 'Gibson used tall clear barrel knobs on early postwar electric guitars before adding the familiar numbered scale. Their straight, high sides separate them from the lower speed knobs that followed. Clear plastic can look smoky, cloudy or amber as it ages, but this photograph alone doesn’t establish how much the knobs have changed color.',
+    clueHeading: 'Unnumbered Barrel Knob Clues',
+    clues: ['Tall clear body', 'No printed numbers', 'Straight barrel-shaped sides'],
+    limitHeading: 'Dating Limits For Clear Barrel Knobs',
+    note: 'The change to numbered tall barrels happened around 1949 to 1950 and varied by model. Check the serial number, FON and other hardware before choosing between the neighboring ranges.',
+    secondary: null,
+  },
+  {
+    id: 'speed-knob', period: 'About 1953 to 1955', name: 'Low Speed Knob', src: speedKnob,
+    alt: 'Top view of a black Gibson speed knob with a 0 to 10 number scale',
+    caption: 'This top view shows the 0 to 10 scale on a black speed knob. It documents the face and lettering, not the knob’s height.',
+    summary: 'Collectors also call this straight-sided form a barrel knob, although speed knob is the clearer name for Gibson’s lower 1950s version. The first postwar barrels were generally unnumbered, followed by taller numbered versions around 1949 to 1952. The low speed form is most closely associated with about 1953 to 1955.',
+    clueHeading: 'Low Speed Knob Clues',
+    clues: ['Short, low profile', 'Nearly straight sides', '0 to 10 scale around the skirt'],
+    limitHeading: 'Dating Limits For Speed Knobs',
+    note: 'The 1946 to 1955 period includes at least three related shapes, and speed knobs returned in the mid-1970s. Calling every straight-sided knob a 1950s speed knob hides useful dating information.',
+    secondary: {
+      src: goldtopSpeedKnobs,
+      id: 'goldtop-speed-knobs-photo',
+      title: '1954 Gibson Les Paul Goldtop Speed Knobs',
+      alt: 'Four low gold speed knobs and pointer washers on a 1954 Gibson Les Paul Goldtop',
+      caption: 'This angled view of a 1954 Les Paul Goldtop shows four low gold speed knobs with their 0 to 10 scales and pointer washers.',
+    },
+  },
+  {
+    id: 'bonnet-knob', period: 'Mid-1955 to mid-1960', name: 'Bell, Bonnet Or Top-Hat Knob', src: bonnetKnob,
+    alt: 'Gold bell or bonnet knob on a 1956 Gibson Les Paul Goldtop',
+    caption: 'A gold bell or bonnet knob on a 1956 Gibson Les Paul Goldtop. The narrow upper body flares into a skirt at the base.',
+    summary: 'The non-reflector bell knob, also called a bonnet or top-hat knob, phased in model by model from mid-1955 through 1956. Gold versions are closely associated with late 1950s Goldtops and most Bursts. Black versions appear on the Les Paul Custom, TV Model, Special, double-cut Junior, 1958 to 1959 Flying V and many 1959 ES-355s.',
+    clueHeading: 'Bonnet Knob Clues',
+    clues: ['Flared skirt at the base', 'No metal center insert', 'Gold or black back-painted plastic'],
+    limitHeading: 'Dating Limits For Bonnet Knobs',
+    note: 'The 1955 to 1956 and 1960 changeovers were gradual. A transition-year guitar should be checked against its model, serial number, pot codes and other original parts.',
+    secondary: null,
+  },
+  {
+    id: 'reflector-knob', period: 'Mid-1960 to the mid-1970s', name: 'Reflector Knob', src: reflectorKnob,
+    alt: 'Vintage Gibson reflector knob with a labeled metal insert',
+    caption: 'A reflector knob keeps the bell-shaped skirt and adds a metal cap labeled Volume or Tone.',
+    summary: 'Reflector knobs began appearing around the middle of 1960. They are common on 1960s SG and ES models and continued on selected instruments after witch hats arrived. Silver caps often appear with nickel or chrome hardware and gold caps often appear on gold-trimmed instruments, but that pattern is a tendency rather than a rule.',
+    clueHeading: 'Reflector Knob Clues',
+    clues: ['Bell-shaped plastic body', 'Metal Volume or Tone insert', 'Silver or gold cap'],
+    limitHeading: 'Dating Limits For Reflector Knobs',
+    note: 'Gold plating can wear until a cap looks silver, and cap color can follow a model’s finish or specification more closely than its hardware. Cap color alone doesn’t give a narrower production year.',
+    secondary: null,
+  },
+  {
+    id: 'witch-hat-knob', period: 'Late 1966 to the mid-1970s', name: 'Witch-Hat Knob', src: witchHatKnob,
+    alt: 'Black Gibson witch-hat knob with a flat numbered skirt and Tone cap',
+    caption: 'This witch-hat knob has a flat metal Tone cap, a ribbed tapered body and a flat numbered skirt.',
+    summary: 'Witch-hat knobs began appearing on some ES models and SGs in late 1966. Many 1966 guitars still have reflectors, and 1967 is a mixed transition year. Period witch-hat caps commonly read VOL or TONE, while reflector caps commonly read VOLUME or TONE.',
+    clueHeading: 'Witch-Hat Knob Clues',
+    clues: ['Flat labeled metal cap', 'Ribbed tapered body', 'Flat numbered skirt'],
+    limitHeading: 'Dating Limits For Witch-Hat Knobs',
+    note: 'A witch hat supports a late 1966 or later date only if it’s original. The ES-335 retained this style through 1981, while other models changed sooner.',
+    secondary: null,
+  },
+];
+
+const faqs = [
+  ['Can Gibson Knobs Date A Guitar To One Exact Year?', 'No. A correct original knob can support an era, but factory transitions overlapped and knobs are easy to replace. Confirm the estimate with the serial number, FON, pot codes and model features.'],
+  ['What Is The Difference Between A Bell Knob And A Bonnet Knob?', 'Collectors use both names for the same general flared 1950s shape. A reflector knob uses a similar body but adds a metal Volume or Tone insert.'],
+  ['Are All Prewar Gibson Knobs Bakelite?', '“Bakelite” is often used loosely for several early molded knobs. Do not identify the exact material from color or a photograph alone, and never burn or pierce an original knob to test it.'],
+  ['Did Witch-Hat Knobs Replace Reflectors In 1967?', 'Not all at once. Witch hats began appearing on some models in late 1966, while reflector knobs continued on other models into the 1970s.'],
+  ['How Can I Tell If A Gibson Knob Is Original?', 'Compare the exact profile, lettering, molding, shaft fit and natural wear with a known original from the same model and period. No single surface clue proves originality because modern reproductions can be convincing.'],
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article', '@id': `${canonical}#article`, headline: title, description, mainEntityOfPage: canonical, image: [articleImageUrl],
+      author: { '@type': 'Person', '@id': 'https://www.joesvintageguitarsaz.com/about-me/#person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
+      publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' },
+      datePublished: '2026-09-09', dateModified: '2026-09-15',
+    },
+    {
+      '@type': 'BreadcrumbList', itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.joesvintageguitarsaz.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Gibson Serial Number Lookup', item: 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/' },
+        { '@type': 'ListItem', position: 3, name: 'Gibson Knob Dating Guide', item: canonical },
+      ],
+    },
+    {
+      '@type': 'FAQPage', '@id': `${canonical}#knob-faq`,
+      mainEntity: faqs.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })),
+    },
+  ],
+};
+---
+
+<GibsonGuideLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={articleImageUrl}
+  ogImageAlt="Vintage Gibson bonnet knob used for the knob dating guide"
+  ogImageWidth={articleImage.attributes.width}
+  ogImageHeight={articleImage.attributes.height}
+  publishedTime="2026-09-09"
+  modifiedTime="2026-09-15"
+  structuredData={schema}
+>
+    <a href="#knob-guide" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-cream focus:px-4 focus:py-2">Skip to the Gibson knob guide</a>
+    <div id="knob-guide">
+      <section class="knob-hero">
+        <div class="knob-container knob-hero__grid">
+          <div>
+            <p class="knob-eyebrow">Gibson Dating Guides</p>
+            <h1>Gibson Knob <span>Dating Guide</span></h1>
+            <p class="knob-lede">Compare real prewar, speed, bonnet, reflector and witch-hat knobs, then use the timeline and model notes to decide whether the hardware fits the guitar’s claimed era.</p>
+            <a class="knob-hero__jump" href="#knob-chart">Jump straight to the knob chart</a>
+            <p class="knob-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 15, 2026</p>
+          </div>
+          <aside class="knob-read-card" aria-labelledby="read-knob-title">
+            <p class="knob-eyebrow">Start Here</p>
+            <h2 id="read-knob-title">Identify A Knob In Four Checks</h2>
+            <ol>
+              <li><span>1</span><p><strong>Profile</strong> Is it a barrel, low cylinder, bell or wide witch hat?</p></li>
+              <li><span>2</span><p><strong>Top</strong> Is the top plain, numbered or fitted with a metal insert?</p></li>
+              <li><span>3</span><p><strong>Scale And Pointer</strong> Check the number style and whether a pointer washer is present.</p></li>
+              <li><span>4</span><p><strong>Model</strong> Compare it with an original example from the same Gibson model.</p></li>
+            </ol>
+          </aside>
+        </div>
+      </section>
+
+      <div class="knob-container knob-body">
+        <nav class="knob-toc" aria-label="Gibson knob guide sections">
+          <a href="#knob-chart">At-a-glance chart</a>
+          <a href="#knob-photos">Photo guide</a>
+          <a href="#model-overlap">Model exceptions</a>
+          <a href="#original-or-replacement">Originality checks</a>
+          <a href="#related-gibson-guides">Related Gibson guides</a>
+          <a href="#knob-faq">Questions</a>
+        </nav>
+
+        <section class="knob-section" id="knob-introduction">
+          <p class="knob-eyebrow">Useful Evidence, Not a Standalone Date</p>
+          <h2>How Much Can A Gibson Knob Tell You?</h2>
+          <p>An original control knob can support a broad production era, but it cannot confirm one exact year by itself. Gibson changed different models at different times, older parts remained in bins, and players have swapped knobs for decades.</p>
+          <p>Use this guide to check whether the style makes sense. Then compare it with the <a href={serialGuide}>serial number</a>, <a href={`${serialGuide}#fon`}>Factory Order Number</a>, <a href="/gibson-pot-codes/">pot codes</a>, <a href="/gibson-headstock-logo-chronology/">headstock logo</a> and model-specific features.</p>
+          <h3>Knob Names You’ll See</h3>
+          <p>Collector names overlap. This guide uses barrel for the tall, straight-sided postwar form and speed knob for its lower 1950s relative. Bell, bonnet and top hat describe the flared style without a cap. A reflector is a similar top hat with a metal Volume or Tone cap. A witch hat has a flat metal cap above a ribbed, tapered body and flat numbered skirt.</p>
+          <aside class="knob-note"><h3>Start With The Guitar, Not A Loose Knob</h3><p>The same general shape was sold in different colors and returned in later decades. A loose knob without a documented guitar or provenance is much harder to date than a complete, untouched control set.</p></aside>
+        </section>
+
+        <section class="knob-section" id="knob-chart">
+          <p class="knob-eyebrow">Quick Reference</p>
+          <h2>Gibson Knob Timeline At A Glance</h2>
+          <p>These dates are working ranges, not factory-wide cutoffs. The model exceptions and transition details below explain where the styles overlap.</p>
+          <div class="knob-table-card">
+            <table>
+              <thead><tr><th scope="col">Approximate Use</th><th scope="col">Knob Style</th><th scope="col">What the Range Means</th></tr></thead>
+              <tbody>{chart.map(([period, style, note]) => <tr><td data-label="Approximate Use">{period}</td><td data-label="Knob Style">{style}</td><td data-label="What The Range Means">{note}</td></tr>)}</tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="knob-section" id="knob-photos">
+          <p class="knob-eyebrow">Seven Real Photo Views</p>
+          <h2>Vintage Gibson Knob Styles By Era</h2>
+          <p>Use the enlarge control to compare the profile, lettering and insert on each original photograph.</p>
+          <div class="knob-era-list">
+            {photos.map((knob, index) => (
+              <article class="knob-era" id={knob.id}>
+                <div class:list={['knob-era__photos', { 'knob-era__photos--pair': knob.secondary }]}>
+                  <KnobPhoto src={knob.src} id={`${knob.id}-photo`} title={`${knob.period}: ${knob.name}`} alt={knob.alt} caption={knob.caption} />
+                  {knob.secondary && <KnobPhoto {...knob.secondary} />}
+                </div>
+                <div class="knob-era__copy">
+                  <p class="knob-era__number">Style {String(index + 1).padStart(2, '0')}</p>
+                  <p class="knob-era__period">{knob.period}</p>
+                  <h3>{knob.name}</h3>
+                  <p>{knob.summary}</p>
+                  <h4>{knob.clueHeading}</h4>
+                  <ul>{knob.clues.map(clue => <li>{clue}</li>)}</ul>
+                  <h4 class="knob-era__limit-heading">{knob.limitHeading}</h4>
+                  <p class="knob-era__note">{knob.note}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section class="knob-section" id="model-overlap">
+          <p class="knob-eyebrow">Why the Date Ranges Overlap</p>
+          <h2>Match The Knob To The Gibson Model</h2>
+          <p>Gibson did not update every model on the same day. A knob that is right for one 1968 model may be wrong for another, even when both guitars are original.</p>
+          <div class="knob-model-grid">
+            <div><h3>Les Paul Standard And Goldtop</h3><p>Early 1950s examples moved from tall numbered barrels to low speed knobs, then to bonnets from mid-1955 into 1956. Most 1958 to mid-1960 Bursts have gold bonnets. Reflectors appear on late 1960 Bursts, roughly around serial 0 7000.</p></div>
+            <div><h3>Les Paul Custom And Other Black Bonnets</h3><p>Black bonnets appear on the 1950s Les Paul Custom, TV Model, Special, double-cut Junior and 1958 to 1959 Flying V. Many 1959 ES-355s also use them. Later Customs do not always follow Standard practice.</p></div>
+            <div><h3>ES-335, ES-345 And ES-355</h3><p>These models generally begin with bonnets and change to reflectors around mid-1960. Late 1966 and 1967 are mixed transition years for witch hats. The ES-335 retained witch hats through 1981 rather than returning to reflectors.</p></div>
+            <div><h3>SG, Firebird And Other Models</h3><p>Some SGs began receiving witch hats during 1966. Reflectors, witch hats and returning speed styles then varied by model and trim level, so use a model-specific guide before treating one knob style as original.</p></div>
+          </div>
+          <aside class="knob-note"><h3>Treat Reflector Cap Color As A Tendency</h3><p>Silver caps often appear with nickel or chrome hardware, while gold caps often appear on gold-trimmed instruments. The guitar’s finish and specification can matter more than its hardware color, and worn gold plating can look silver. Cap color alone doesn’t narrow the guitar to one year.</p></aside>
+        </section>
+
+        <section class="knob-section" id="original-or-replacement">
+          <p class="knob-eyebrow">Inspect Before You Trust the Date</p>
+          <h2>How To Check An Original Gibson Knob</h2>
+          <div class="knob-check-grid">
+            <div><span>1</span><p><strong>Compare the exact profile.</strong> Height, skirt flare, edge shape, center dome and the presence of pointer washers matter more than a seller’s name for the style.</p></div>
+            <div><span>2</span><p><strong>Study the lettering.</strong> Check the font, number spacing, paint placement and the wording on a reflector cap.</p></div>
+            <div><span>3</span><p><strong>Look underneath.</strong> The shaft hole depth, molding marks, fit on the original pot shaft and pointer washer can separate otherwise similar versions.</p></div>
+            <div><span>4</span><p><strong>Judge wear as a set.</strong> Natural fading, grime and small cracks should agree across the knobs, pointers and guitar, but artificial aging can imitate each clue.</p></div>
+          </div>
+          <h3>When A Reflector Looks Like A Bonnet</h3>
+          <p>A reflector cap can fall off or be removed. Some altered reflectors have had the recessed top filled and smoothed, which can make them resemble bonnets. Check the top for a filled circular recess before treating the knob as a non-reflector style.</p>
+          <h3>Use Aging As Support, Not Proof</h3>
+          <p>Gold paint on the underside of a clear knob can oxidize toward green, but that is supporting evidence, not proof of age or originality. Compare the aging across the whole set and the pointer washers.</p>
+          <h3>What Not To Do</h3>
+          <p>Don’t burn, pierce or heat a vintage knob to identify its material. Don’t force a tight knob off the shaft with a screwdriver against the guitar top. If removal is necessary, protect the finish and use a proper knob puller or ask an experienced repair technician.</p>
+          <p>A replacement knob isn’t automatically a problem. It only means the knob shouldn’t be used as dating evidence. The <a href="/gibson-pot-codes/">pot codes</a> and untouched solder joints can carry far more information.</p>
+        </section>
+
+        <section class="knob-section" id="related-gibson-guides">
+          <p class="knob-eyebrow">Continue the Inspection</p>
+          <h2>Related Gibson Dating And Identification Guides</h2>
+          <div class="knob-related-grid">
+            <a class="knob-related-card" href={serialGuide}><h3>Gibson Serial Number Lookup</h3><p>Decode the serial or FON, then see whether the knob style fits the result.</p><span>Use the lookup and charts</span></a>
+            <a class="knob-related-card" href="/gibson-pot-codes/"><h3>Gibson Pot-Code Guide</h3><p>Read the manufacturer, year and week codes hidden inside the control cavity.</p><span>Read the pot-code guide</span></a>
+            <a class="knob-related-card" href="/gibson-headstock-logo-chronology/"><h3>Gibson Headstock Logo Guide</h3><p>Compare the logo era with the date suggested by the electronics and hardware.</p><span>View the logo chronology</span></a>
+            <a class="knob-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/"><h3>Gibson PAF And Patent Number Pickup Guide</h3><p>Use pickup labels and construction as another independent dating clue.</p><span>Read the pickup guide</span></a>
+            <a class="knob-related-card" href="/gibson-es-335-345-355-dating-guide/"><h3>ES-335, ES-345 And ES-355 Dating Guide</h3><p>Follow the model-specific knob transitions beside the serial number, pickups and hardware.</p><span>Read the ES family guide</span></a>
+            <a class="knob-related-card knob-related-card--sell" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/"><h3>Sell My Gibson Guitar</h3><p>Joe buys vintage Gibson guitars nationwide and can help identify what you have.</p><span>Learn how to sell your Gibson</span></a>
+          </div>
+        </section>
+
+        <section class="knob-section" id="knob-faq">
+          <p class="knob-eyebrow">Common Questions</p>
+          <h2>Gibson Knob Dating Questions</h2>
+          <div class="knob-faq">
+            {faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
+          </div>
+        </section>
+
+        <aside class="knob-help">
+          <p class="knob-eyebrow">Need a Second Set of Eyes?</p>
+          <h2>Send Joe The Controls And The Whole Guitar</h2>
+          <p>Send a straight-on photo of the full control set, a low side view of the knobs, clear photos of the serial number or label, and front and back photos of the guitar. If a knob is already safely removed, include the underside.</p>
+          <a href="https://www.joesvintageguitarsaz.com/free-appraisal/">Ask Joe for Help</a>
+          <a class="knob-help__secondary" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/">Sell My Gibson</a>
+        </aside>
+      </div>
+    </div>
+    <KnobPhotoViewer />
+  </GibsonGuideLayout>
+
+<style>
+  .knob-container { width: min(100% - 2.5rem, 76rem); margin-inline: auto; }
+  .knob-hero { padding: 10rem 0 3rem; background: var(--color-ink); color: white; }
+  .knob-hero__grid { display: grid; gap: 2.5rem; align-items: center; }
+  .knob-eyebrow { margin: 0 0 .7rem; color: var(--color-wine-dark); font-size: .8rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+  .knob-hero .knob-eyebrow, .knob-read-card .knob-eyebrow { color: var(--color-gold-light); }
+  h1 { margin: 0; font-family: var(--font-display); font-size: clamp(3rem, 6vw, 5rem); line-height: 1.02; }
+  h1 span { color: var(--color-gold-light); }
+  .knob-lede { margin: 1.5rem 0 1rem; max-width: 46rem; color: #ece3d9; font-size: 1.125rem; line-height: 1.75; }
+  .knob-hero__jump, .knob-byline a { color: var(--color-gold-light); font-weight: 700; text-decoration: underline; text-underline-offset: .25rem; }
+  .knob-byline { margin: 1.5rem 0 0; color: #d2bcb0; font-size: .875rem; }
+  .knob-read-card { border: 1px solid rgb(213 180 119 / .48); border-radius: 1rem; background: #2e2520; padding: 1.4rem; box-shadow: 0 1.5rem 4rem rgb(0 0 0 / .2); }
+  .knob-read-card h2 { margin: 0 0 1rem; color: white; font-family: var(--font-display); font-size: 1.8rem; line-height: 1.15; }
+  .knob-read-card ol { display: grid; gap: .75rem; margin: 0; padding: 0; list-style: none; }
+  .knob-read-card li { display: grid; grid-template-columns: 2rem 1fr; gap: .7rem; align-items: start; }
+  .knob-read-card li > span { display: grid; width: 1.8rem; height: 1.8rem; place-items: center; border: 1px solid var(--color-gold-light); border-radius: 50%; color: var(--color-gold-light); font-family: var(--font-display); }
+  .knob-read-card p { margin: 0; color: #ded2c8; font-size: .9rem; line-height: 1.5; }
+  .knob-read-card strong { color: white; }
+  .knob-body { max-width: 68rem; padding-block: 1rem 4rem; }
+  .knob-toc { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; border-bottom: 1px solid var(--color-rule); padding: 1rem 0 1.5rem; }
+  .knob-toc a, .knob-section a { color: var(--color-wine-dark); font-weight: 650; text-decoration: underline; text-underline-offset: 3px; }
+  .knob-toc a { display: inline-flex; min-height: 44px; align-items: center; font-size: .875rem; }
+  .knob-section { padding-block: 2.75rem; scroll-margin-top: 1rem; }
+  .knob-section + .knob-section { border-top: 1px solid var(--color-rule); }
+  .knob-section > h2, .knob-help h2 { margin: 0 0 1rem; font-family: var(--font-display); font-size: clamp(1.9rem, 3vw, 2.65rem); line-height: 1.15; }
+  .knob-section > h3 { margin: 2rem 0 1rem; font-family: var(--font-display); font-size: 1.65rem; line-height: 1.25; }
+  .knob-section > p { max-width: 55rem; margin: 0 0 1.25rem; font-size: 1.0625rem; line-height: 1.8; }
+  .knob-note { max-width: 55rem; margin-top: 1.5rem; border-left: 3px solid var(--color-wine-dark); background: var(--color-cream); padding: 1rem 1.25rem; }
+  .knob-note h3 { margin: 0 0 .45rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .knob-note p { margin: 0; line-height: 1.65; }
+  .knob-table-card { overflow-x: auto; border: 1px solid var(--color-rule); border-radius: .85rem; background: white; }
+  .knob-table-card table { width: 100%; min-width: 47rem; border-collapse: collapse; text-align: left; }
+  .knob-table-card th, .knob-table-card td { border-bottom: 1px solid #e7dfd2; padding: .8rem 1rem; vertical-align: top; }
+  .knob-table-card tr:last-child td { border-bottom: 0; }
+  .knob-table-card th { background: #f6f0e6; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+  .knob-table-card td:first-child { color: var(--color-wine-dark); font-weight: 800; white-space: nowrap; }
+  .knob-table-card td:nth-child(2) { font-weight: 700; }
+  .knob-era-list { margin-top: 2rem; }
+  .knob-era { display: grid; gap: 1.5rem; padding: 2.5rem 0; scroll-margin-top: 1rem; }
+  .knob-era + .knob-era { border-top: 1px solid var(--color-rule); }
+  .knob-era__photos { display: grid; gap: 1rem; align-self: start; }
+  .knob-era__copy { align-self: center; }
+  .knob-era__number { margin: 0 0 .25rem; color: var(--color-gold); font-size: .72rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+  .knob-era__period { margin: 0; color: var(--color-wine-dark); font-weight: 800; }
+  .knob-era h3 { margin: .35rem 0 1rem; font-family: var(--font-display); font-size: clamp(1.7rem, 3vw, 2.35rem); line-height: 1.08; }
+  .knob-era__copy > p:not(.knob-era__number, .knob-era__period, .knob-era__note) { margin: 0 0 1rem; font-size: 1rem; line-height: 1.75; }
+  .knob-era h4 { margin: 1rem 0 .55rem; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; }
+  .knob-era ul { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+  .knob-era li { border: 1px solid var(--color-rule); border-radius: 999px; background: var(--color-cream); padding: .35rem .7rem; color: #4d4039; font-size: .875rem; font-weight: 700; }
+  .knob-era .knob-era__limit-heading { margin-top: 1.35rem; }
+  .knob-era__note { margin: 1.2rem 0 0; border-left: 3px solid var(--color-gold); padding: .7rem 0 .7rem 1rem; color: #5f5149; font-size: .92rem; line-height: 1.65; }
+  .knob-model-grid, .knob-check-grid, .knob-related-grid { display: grid; gap: 1rem; margin-top: 1.5rem; }
+  .knob-model-grid > div, .knob-check-grid > div { border: 1px solid var(--color-rule); border-radius: .75rem; background: var(--color-cream); padding: 1.2rem; }
+  .knob-model-grid h3 { margin: 0 0 .55rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .knob-model-grid p, .knob-check-grid p { margin: 0; line-height: 1.65; }
+  .knob-check-grid > div { display: grid; grid-template-columns: 2rem 1fr; gap: .75rem; background: white; }
+  .knob-check-grid span { display: grid; width: 1.8rem; height: 1.8rem; place-items: center; border-radius: 50%; background: var(--color-wine-dark); color: white; font-family: var(--font-display); }
+  .knob-section a.knob-related-card { display: flex; min-height: 100%; flex-direction: column; border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine-dark); border-radius: .8rem; background: white; padding: 1.25rem; color: var(--color-ink); text-decoration: none; transition: transform .18s ease, box-shadow .18s ease; }
+  .knob-section a.knob-related-card:hover, .knob-section a.knob-related-card:focus-visible { transform: translateY(-2px); box-shadow: 0 .6rem 1.4rem rgb(56 34 22 / .12); }
+  .knob-related-card h3 { margin: 0 0 .65rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .knob-related-card p { margin: 0 0 1rem; color: #5f5149; line-height: 1.65; }
+  .knob-related-card span { margin-top: auto; color: var(--color-wine-dark); font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
+  .knob-section a.knob-related-card--sell { border-top-color: var(--color-gold); background: var(--color-cream); }
+  .knob-faq details { border-bottom: 1px solid var(--color-rule); padding: 1rem 0; }
+  .knob-faq summary { cursor: pointer; font-weight: 700; }
+  .knob-faq p { max-width: 55rem; margin: .75rem 0 0; line-height: 1.7; }
+  .knob-help { border: 1px solid var(--color-rule); border-radius: 1rem; background: var(--color-cream); padding: clamp(1.25rem, 4vw, 2.5rem); }
+  .knob-help > p:not(.knob-eyebrow) { max-width: 49rem; line-height: 1.7; }
+  .knob-help > a { display: inline-block; margin: .75rem 1rem 0 0; border-radius: 2rem; background: var(--color-wine-dark); padding: .8rem 1.25rem; color: white; font-weight: 700; }
+  .knob-help > .knob-help__secondary { background: transparent; padding-inline: 0; color: var(--color-wine-dark); text-decoration: underline; text-underline-offset: 3px; }
+  @media (max-width: 699px) {
+    .knob-table-card { overflow: visible; border: 0; background: transparent; }
+    .knob-table-card table, .knob-table-card tbody, .knob-table-card tr, .knob-table-card td { display: block; width: 100%; min-width: 0; }
+    .knob-table-card thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; clip-path: inset(50%); }
+    .knob-table-card tbody { display: grid; gap: .8rem; }
+    .knob-table-card tr { overflow: hidden; border: 1px solid var(--color-rule); border-radius: .8rem; background: white; }
+    .knob-table-card td { display: grid; grid-template-columns: minmax(7.8rem, .85fr) minmax(0, 1.5fr); gap: .8rem; border-bottom: 1px solid #e7dfd2; padding: .75rem .85rem; white-space: normal; }
+    .knob-table-card td::before { content: attr(data-label); color: #6c5b51; font-size: .7rem; font-weight: 800; letter-spacing: .06em; line-height: 1.45; text-transform: uppercase; }
+  }
+  @media (min-width: 700px) { .knob-model-grid, .knob-check-grid, .knob-related-grid { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 800px) {
+    .knob-era { grid-template-columns: minmax(0, 1.25fr) minmax(18rem, .9fr); gap: 2.5rem; }
+    .knob-era__photos--pair { grid-template-columns: 1fr 1fr; }
+    .knob-era:nth-child(even) .knob-era__photos { order: 2; }
+    .knob-era:nth-child(even) .knob-era__copy { order: 1; }
+  }
+  @media (min-width: 1024px) {
+    .knob-hero { padding-top: 18rem; padding-bottom: 4rem; }
+    .knob-hero__grid { grid-template-columns: 1.25fr .8fr; gap: 4rem; }
+  }
+</style>

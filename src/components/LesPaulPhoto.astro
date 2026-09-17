@@ -1,0 +1,76 @@
+---
+import { getImage } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import { imageOrigin, imageLicense } from '../config/image-license';
+
+interface Props {
+  src: ImageMetadata;
+  id: string;
+  title: string;
+  alt: string;
+  caption?: string;
+  showCaption?: boolean;
+  position?: string;
+}
+
+const { src, id, title, alt, caption = '', showCaption = true, position = 'center' } = Astro.props;
+const displayWidth = Math.min(src.width, 1080);
+const responsiveWidths = [...new Set([480, 720, 1080, 1440].filter(width => width < displayWidth).concat(displayWidth))].sort((a, b) => a - b);
+const photo = await getImage({ src, width: displayWidth, widths: responsiveWidths, format: 'webp', quality: 86 });
+const full = await getImage({ src, width: Math.min(src.width, 2400), format: 'webp', quality: 92 });
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ImageObject',
+  contentUrl: new URL(photo.src, imageOrigin).href,
+  width: photo.attributes.width,
+  height: photo.attributes.height,
+  caption: caption || alt,
+  license: imageLicense.photoLicenseUrl,
+  acquireLicensePage: imageLicense.photoLicenseUrl,
+  creditText: imageLicense.creditText,
+  copyrightNotice: imageLicense.copyrightNotice,
+  creator: { '@type': 'Person', name: imageLicense.creatorName },
+};
+---
+
+<figure class="les-paul-photo" data-les-paul-photo={id}>
+  <a
+    class="serial-photo-link"
+    href={full.src}
+    data-serial-photo
+    data-photo-title={title}
+    data-photo-caption={caption}
+    aria-label={`Enlarge photo: ${title}`}
+    aria-describedby={showCaption ? `${id}-caption` : undefined}
+  >
+    <img
+      {...photo.attributes}
+      src={photo.src}
+      srcset={photo.srcSet.attribute}
+      sizes="(max-width: 799px) calc(100vw - 40px), 560px"
+      alt={alt}
+      loading="lazy"
+      decoding="async"
+      style={`object-position: ${position}`}
+    />
+    <span class="serial-photo-zoom" aria-hidden="true">Enlarge photo</span>
+  </a>
+  {showCaption && <figcaption id={`${id}-caption`}>
+    <strong>{title}</strong>
+    <p>{caption}</p>
+  </figcaption>}
+</figure>
+<script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+<style>
+  .les-paul-photo { margin: 0; overflow: hidden; border: 1px solid var(--color-rule); border-radius: .9rem; background: white; }
+  .serial-photo-link { display: block; position: relative; overflow: hidden; background: #191410; }
+  img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: transform .2s ease; }
+  .serial-photo-link:hover img, .serial-photo-link:focus-visible img { transform: scale(1.015); }
+  figcaption { padding: 1rem 1.2rem 1.15rem; }
+  strong { display: block; font-family: var(--font-display); font-size: 1.22rem; line-height: 1.25; }
+  p { margin: .45rem 0 0; color: #5f5149; font-size: .94rem; line-height: 1.6; }
+  @media (max-width: 699px) {
+    img { height: auto; aspect-ratio: auto; object-fit: contain; }
+  }
+</style>

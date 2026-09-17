@@ -1,0 +1,438 @@
+---
+import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
+import { getImage } from 'astro:assets';
+import TunerPhoto from '../components/TunerPhoto.astro';
+import TunerPhotoViewer from '../components/TunerPhotoViewer.astro';
+import noLineTuners from '../assets/tuners/1954-gibson-les-paul-no-line-klusons.jpg';
+import singleLineTuner from '../assets/tuners/1956-gibson-single-line-kluson.jpg';
+import doubleLineTuners from '../assets/tuners/1966-gibson-es-335-double-line-klusons.jpg';
+import gibsonDeluxeTuners from '../assets/tuners/gibson-deluxe-kluson-tuners-1969-1974.jpg';
+import singleRingButtons from '../assets/tuners/gibson-single-ring-kluson-buttons.jpg';
+import doubleRingButtons from '../assets/tuners/gibson-double-ring-kluson-buttons.jpg';
+import wafflebackTuners from '../assets/tuners/1972-gibson-sg-custom-waffleback-klusons.jpg';
+import sealfastTuners from '../assets/tuners/gibson-kluson-sealfast-tuners.jpg';
+import groverTuners from '../assets/tuners/1959-gibson-es-355-grover-rotomatics.jpg';
+
+const title = 'Gibson Tuner Dating Guide: Kluson, Grover And More';
+const description = 'Date a vintage Gibson by its tuners: single-line and double-line Klusons, one or two button rings, Gibson Deluxe stamps, wafflebacks and Grovers.';
+const canonical = 'https://www.joesvintageguitarsaz.com/gibson-tuner-dating-guide/';
+const shareImage = await getImage({ src: doubleLineTuners, width: 1200, height: 630, fit: 'cover', format: 'jpg', quality: 88 });
+const shareImageUrl = new URL(shareImage.src, 'https://www.joesvintageguitarsaz.com').href;
+
+const chart = [
+  ['Late 1940s on some models', 'Open-back Kluson Deluxe', 'Some late-1940s Gibsons used an earlier open-back design. This sits outside the later closed, ribbed Kluson sequence, and premium archtops could use another family entirely.'],
+  ['About 1949 to early 1952', 'Early closed single-line Kluson', 'The closed casing has one vertical Kluson Deluxe line, no worm-shaft opening and PAT. APPLD. on the cover edge. It is different from the later single-line version.'],
+  ['About 1951 or 1952 to mid-1956', 'No-line Kluson, single-ring button', 'The closed, ribbed casing has no maker name. A side opening for the worm shaft appears around 1953. No-line and single-line sets overlap during the mid-1950s.'],
+  ['Mid-1950s to late 1950s', 'Single-line Kluson, single-ring button', 'One vertical Kluson Deluxe line appears on the casing. Many examples carry 2356766 PAT. APPLD. underneath, and factory overlap with no-line sets is documented.'],
+  ['About 1957 or 1958 to mid-1960', 'Single-line Kluson, single-ring button', 'The visible casing stays similar while D-169400 PATENT NO. begins appearing underneath. Mixed underside stamps occur during the transition.'],
+  ['Mid-1960 to about 1964', 'Single-line Kluson, double-ring button', 'The casing still has one Kluson Deluxe line, while the plastic button changes to two molded rings near the shaft.'],
+  ['About 1964 or 1965 to 1969', 'Double-line Kluson, double-ring button', 'Kluson and Deluxe appear as two vertical lines. Many 1964 Gibsons still have single-line tuners, so the transition overlaps.'],
+  ['Late 1968 or 1969 through the late 1970s on some models', 'Gibson Deluxe', 'Gibson replaces Kluson in the casing stamp. Kluson Deluxe overlaps into the early 1970s, while Gibson Deluxe remains on some models through 1980. Button style still depends on the model.'],
+];
+
+const klusonPhotos = [
+  {
+    id: 'no-line-kluson', period: 'About 1951 or 1952 to mid-1956', name: 'No-Line Kluson', src: noLineTuners,
+    alt: 'Six no-line Kluson tuners on the back of a 1954 Gibson Les Paul Goldtop headstock',
+    caption: 'Original no-line Klusons on a 1954 Les Paul Goldtop. The ribbed covers have no Kluson Deluxe name stamped into them.',
+    summary: 'The no-line Kluson is the familiar early 1950s version. Its closed, ribbed metal casing has no Kluson Deluxe wording. The earliest examples lack a side opening for the worm shaft, while examples from about 1953 onward normally have it.',
+    clues: ['Closed, ribbed casing', 'No maker name on the cover', 'Usually a single-ring plastic button'],
+    clueHeading: 'No-Line Identification Clues',
+    note: 'No-line supports an early to mid-1950s date only when the tuner belongs on that model and the mounting pattern is untouched.'
+  },
+  {
+    id: 'single-line-kluson', period: 'Mid-1950s to about 1964', name: 'Single-Line Kluson', src: singleLineTuner,
+    alt: 'Close-up of a single-line Kluson Deluxe tuner from a 1956 Gibson Les Paul Model',
+    caption: 'A single-line Kluson from a 1956 Les Paul Model. Kluson Deluxe is stamped in one vertical line on the ribbed cover.',
+    summary: 'The later single-line casing appeared during the mid-1950s and overlapped no-line sets into 1955 and 1956. Early versions use a single-ring button. The underside stamp changes during the late 1950s, and the visible button changes to the double-ring form around mid-1960.',
+    clues: ['One vertical Kluson Deluxe line', 'Single-ring or double-ring button', 'Underside patent separates versions'],
+    clueHeading: 'Single-Line Identification Clues',
+    note: 'The line count alone spans two button styles and two underside markings. Use all three clues before assigning a narrower range.'
+  },
+  {
+    id: 'double-line-kluson', period: 'About 1964 or 1965 to 1969', name: 'Double-Line Kluson', src: doubleLineTuners,
+    alt: 'Six double-line Kluson Deluxe tuners under serial number 113694 on a vintage Gibson ES-335 headstock',
+    caption: 'Double-line Klusons under serial 113694. That reused number can read as 1963 or 1967, while the double-line tuner style supports 1967.',
+    summary: 'The double-line stamp began appearing around 1964 and became common during 1965. It is normally paired with double-ring buttons. Gibson used remaining single-line stock on some 1964 instruments, so the change was not a clean factory-wide cutoff.',
+    clues: ['Two vertical words', 'Double-ring plastic button', 'Common on mid-to-late 1960s Gibsons'],
+    clueHeading: 'Double-Line Identification Clues',
+    note: 'A double-line tuner can support a 1960s date, but vintage Klusons were frequently installed on other guitars and have been reproduced.'
+  },
+];
+
+const premiumPhotos = [
+  {
+    id: 'waffleback-tuners', period: 'Model-Specific Use', name: 'Kluson Waffleback Tuners', src: wafflebackTuners,
+    alt: 'Gold Kluson waffleback tuners on the back of a 1972 Gibson SG Custom headstock',
+    caption: 'Gold waffleback tuners on a 1972 SG Custom. The deep vertical ribs create the waffleback nickname.',
+    summary: 'The Kluson Super is also called the Waffleback or Radiator Back. Gold versions appeared on selected premium Gibsons in more than one period, including early Les Paul Customs and ES-355s from late 1963 onward.',
+    clues: ['Large rectangular cover', 'Lengthwise raised ribs', 'Usually gold on premium models'],
+    clueHeading: 'Waffleback Identification Clues',
+    note: 'There is no single universal waffleback date range. Compare the exact version with the model, plating and other hardware.'
+  },
+  {
+    id: 'sealfast-tuners', period: 'High-End Model Evidence', name: 'Kluson Sealfast Tuners', src: sealfastTuners,
+    alt: 'Gold Kluson Sealfast tuners on the back of a black Gibson headstock',
+    caption: 'Gold Kluson Sealfast tuners on a high-end Gibson. The round center housing makes them easy to separate from wafflebacks.',
+    summary: 'Sealfast tuners were premium enclosed gears used on high-end models such as the Super 400, Johnny Smith and Byrdland. Their presence can confirm the expected specification, but the family spans too much time to date a guitar narrowly by itself.',
+    clues: ['Boxy housing', 'Round ringed center on the back', 'Commonly gold plated'],
+    clueHeading: 'Sealfast Identification Clues',
+    note: 'Treat Sealfast as a model and trim-level clue. Check a model-specific reference before using it as date evidence.'
+  },
+  {
+    id: 'grover-rotomatics', period: 'Late 1950s Onward', name: 'Grover Rotomatic Tuners', src: groverTuners,
+    alt: 'Gold Grover Rotomatic tuners on the back of a 1959 Gibson ES-355 headstock',
+    caption: 'Gold Grover Rotomatics on a 1959 ES-355. GROVER appears on the barrel, PAT. PEND. appears on the round gear cap, and the metal buttons have a kidney-bean shape.',
+    summary: 'Grover Rotomatics were standard factory equipment on several premium Gibsons by the late 1950s, including early ES-355s. They also became one of the most common tuner upgrades fitted by owners.',
+    clues: ['Milk-bottle cast housing', 'PAT. PEND. on the round gear cap', 'Kidney-bean metal button'],
+    clueHeading: 'Early Grover Identification Clues',
+    note: 'Grovers do not automatically prove factory originality. Extra holes, enlarged post holes and the old tuner footprint can reveal a conversion.'
+  },
+];
+
+const premiumSequences = [
+  ['ES-345', '1959 to 1964', 'Gold single-line Kluson Deluxe tuners with single-ring buttons.'],
+  ['ES-345', '1965 to 1969', 'Gold double-line Kluson Deluxe tuners with single-ring buttons. The gold ES-345 kept single-ring buttons after most nickel sets changed.'],
+  ['ES-345', '1969 to 1980', 'Gold Gibson Deluxe tuners with single-ring buttons.'],
+  ['ES-355', '1958 to late 1963', 'Gold Grover Rotomatics with PAT. PEND. on the gear cap.'],
+  ['ES-355', 'Late 1963 into the early 1980s', 'Gold Kluson Super or waffleback tuners with metal buttons.'],
+  ['Early Les Paul Custom', '1950s', 'Gold Kluson Super or waffleback tuners are documented on early Customs. Later Customs require a year-specific comparison because Grovers and wafflebacks both appear.'],
+  ['Super 400, Johnny Smith And Byrdland', 'Model-specific use', 'Gold Kluson Sealfast tuners are expected on many examples, but the family spans too many years to supply a narrow date.'],
+];
+
+const faqs = [
+  ['What Do Single-Line And Double-Line Kluson Mean?', 'They describe the maker stamp on the metal cover. A single-line tuner puts Kluson Deluxe in one vertical line. A double-line tuner separates Kluson and Deluxe into two vertical lines.'],
+  ['What Do Single-Ring And Double-Ring Buttons Mean?', 'They describe the molded rings where the plastic button meets the metal shaft. Single-ring buttons are typical before about mid-1960 on nickel Klusons. Double-ring buttons appear around mid-1960. Gold ES-345 tuners are an important exception because they kept single-ring buttons.'],
+  ['Can Tuners Date A Gibson To One Exact Year?', 'No. Original tuners can support a date range, but transitions overlapped and tuners are commonly replaced. Match the casing, button, model and mounting evidence with the serial number, FON and pot codes.'],
+  ['Are Grover Tuners Original On A Vintage Gibson?', 'Sometimes. Grovers were standard factory equipment on selected premium models, including early ES-355s, and later examples can be factory or special order. They were also a very common owner upgrade, so the mounting holes and model specification matter.'],
+  ['Should I Remove A Tuner To Read The Patent Mark?', 'Only if it is already off during careful service. The underside mark is useful, but unnecessary removal can chip finish, disturb bushings or damage a fragile button.'],
+  ['What Should I Do With Crumbling Kluson Buttons?', 'Don’t force them. Some original plastic buttons shrink and deteriorate with age. An experienced repairer can preserve the original parts and fit sympathetic replacement buttons or tuners for safe use.'],
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article', '@id': `${canonical}#article`, headline: title, description, mainEntityOfPage: canonical,
+      author: { '@type': 'Person', '@id': 'https://www.joesvintageguitarsaz.com/about-me/#person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
+      publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' },
+      image: shareImageUrl,
+      datePublished: '2026-09-09',
+      dateModified: '2026-09-15',
+    },
+    {
+      '@type': 'BreadcrumbList', itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.joesvintageguitarsaz.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Gibson Serial Number Lookup', item: 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/' },
+        { '@type': 'ListItem', position: 3, name: 'Gibson Tuner Dating Guide', item: canonical },
+      ],
+    },
+    {
+      '@type': 'FAQPage', '@id': `${canonical}#tuner-faq`,
+      mainEntity: faqs.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })),
+    },
+  ],
+};
+---
+
+<GibsonGuideLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={shareImageUrl}
+  ogImageAlt="Double-line Kluson Deluxe tuners on a vintage Gibson"
+  ogImageWidth={shareImage.attributes.width}
+  ogImageHeight={shareImage.attributes.height}
+  publishedTime="2026-09-09"
+  modifiedTime="2026-09-15"
+  structuredData={schema}
+>
+    <a href="#tuner-guide" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-cream focus:px-4 focus:py-2">Skip to the Gibson tuner guide</a>
+    <div id="tuner-guide">
+      <section class="tuner-hero">
+        <div class="tuner-container tuner-hero__grid">
+          <div>
+            <p class="tuner-eyebrow">Gibson Dating Guides</p>
+            <h1>Gibson Tuner <span>Dating Guide</span></h1>
+            <p class="tuner-lede">Compare real Kluson, Gibson Deluxe, waffleback, Sealfast and Grover tuners, then check the button and mounting evidence to see whether the hardware fits the guitar.</p>
+            <a class="tuner-hero__jump" href="#tuner-chart">Jump Straight To The Tuner Chart</a>
+            <p class="tuner-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 9, 2026</p>
+          </div>
+          <aside class="tuner-read-card" aria-labelledby="read-tuner-title">
+            <img {...shareImage.attributes} src={shareImage.src} alt="Double-line Kluson Deluxe tuners on a vintage Gibson ES-335" loading="eager" fetchpriority="high" />
+            <p class="tuner-eyebrow">Start Here</p>
+            <h2 id="read-tuner-title">Identify A Tuner In Five Checks</h2>
+            <ol>
+              <li><span>1</span><p><strong>Maker Stamp</strong> Read Kluson, Gibson, Grover or other wording.</p></li>
+              <li><span>2</span><p><strong>Line Count</strong> Check whether Kluson Deluxe uses zero, one or two lines.</p></li>
+              <li><span>3</span><p><strong>Button</strong> Look for one or two molded rings at the shaft.</p></li>
+              <li><span>4</span><p><strong>Mounting</strong> Study the screw holes, bushing and old footprint.</p></li>
+              <li><span>5</span><p><strong>Model</strong> Confirm that the tuner belongs on that Gibson model.</p></li>
+            </ol>
+          </aside>
+        </div>
+      </section>
+
+      <div class="tuner-container tuner-body">
+        <nav class="tuner-toc" aria-label="Gibson tuner guide sections">
+          <a href="#tuner-chart">At-A-Glance Chart</a>
+          <a href="#kluson-chronology">Kluson Chronology</a>
+          <a href="#button-rings">Button Rings</a>
+          <a href="#premium-tuners">Premium Tuners</a>
+          <a href="#strip-tuners">Strip Tuners</a>
+          <a href="#later-tuners">Later Tuners</a>
+          <a href="#original-or-replacement">Originality Checks</a>
+          <a href="#related-gibson-guides">Related Guides</a>
+          <a href="#tuner-faq">Questions</a>
+        </nav>
+
+        <section class="tuner-section" id="tuner-introduction">
+          <p class="tuner-eyebrow">Useful Evidence, Not A Standalone Date</p>
+          <h2>How Much Can A Gibson Tuner Tell You?</h2>
+          <p>An original tuner can be an excellent dating clue because the casing stamps and button designs changed over time. It still dates the hardware, not automatically the guitar. Gibson used overlapping stock, tuner choice varied by model, and players commonly replaced worn Klusons with Grovers or newer sealed gears.</p>
+          <p>Start with the visible casing and button. Then compare the result with the <a href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/">serial number</a>, <a href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/#fon">Factory Order Number</a>, <a href="/gibson-pot-codes/">pot codes</a>, <a href="/gibson-headstock-logo-chronology/">headstock logo</a>, <a href="/gibson-knob-dating-guide/">knobs</a> and the specification for that particular model.</p>
+          <aside class="tuner-note"><h3>Treat The Lubrication Hole As A Weak Clue</h3><p>Hole size can support a date range on some ES models, but large and small openings overlap and both can appear on one original guitar. Line count, button rings, underside markings and model context carry more weight together.</p></aside>
+        </section>
+
+        <section class="tuner-section" id="tuner-chart">
+          <p class="tuner-eyebrow">Quick Reference</p>
+          <h2>Vintage Gibson Tuner Timeline</h2>
+          <p>This chart follows the common Kluson sequence found on many Gibson electrics. The dates are working ranges, transition-year guitars can carry mixed stock, and premium models often follow their own tuner sequence.</p>
+          <div class="tuner-table-card">
+            <table>
+              <thead><tr><th scope="col">Approximate Use</th><th scope="col">Tuner Style</th><th scope="col">How to Read It</th></tr></thead>
+              <tbody>{chart.map(([period, style, note]) => <tr><td data-label="Approximate Use">{period}</td><td data-label="Tuner Style">{style}</td><td data-label="How To Read It">{note}</td></tr>)}</tbody>
+            </table>
+          </div>
+          <aside class="tuner-note"><h3>Read D-169400 As A Stamp</h3><p>Vintage Klusons really do carry D-169400 PATENT NO. underneath, but that number belongs to an unrelated design patent. Kluson’s actual ribbed gear-case design patent is D160400. Use the wording as a production-era stamp, not as proof that a Kluson patent was granted that year.</p></aside>
+        </section>
+
+        <section class="tuner-section" id="kluson-chronology">
+          <p class="tuner-eyebrow">Three Real Examples</p>
+          <h2>Kluson And Gibson Deluxe Tuners By Era</h2>
+          <p>Enlarge each original photograph and read the vertical stamp on the ribbed metal cover. Then check the button separately.</p>
+          <div class="tuner-era-list">
+            {klusonPhotos.map((tuner, index) => (
+              <article class="tuner-era" id={tuner.id}>
+                <TunerPhoto src={tuner.src} id={`${tuner.id}-photo`} title={`${tuner.period}: ${tuner.name}`} alt={tuner.alt} caption={tuner.caption} />
+                <div class="tuner-era__copy">
+                  <p class="tuner-era__number">Style {String(index + 1).padStart(2, '0')}</p>
+                  <p class="tuner-era__period">{tuner.period}</p>
+                  <h3>{tuner.name}</h3>
+                  <p>{tuner.summary}</p>
+                  <h4>{tuner.clueHeading}</h4>
+                  <ul>{tuner.clues.map(clue => <li>{clue}</li>)}</ul>
+                  <p class="tuner-era__note"><strong>Dating limit:</strong> {tuner.note}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section class="tuner-section" id="button-rings">
+          <p class="tuner-eyebrow">A Separate Dating Clue</p>
+          <h2>Single-Ring Versus Double-Ring Kluson Buttons</h2>
+          <p>The ring name refers to the molded ridges at the base of the plastic button, not the lines stamped into the metal casing. Combining both clues produces the useful date range.</p>
+          <div class="tuner-photo-grid">
+            <TunerPhoto src={singleRingButtons} id="single-ring-buttons-photo" title="Single-Ring Kluson Buttons" alt="Close-up of single-ring Kluson tuner buttons on a vintage Gibson" caption="A single molded ring appears where each plastic button meets the shaft. This form is typical before about mid-1960." />
+            <TunerPhoto src={doubleRingButtons} id="double-ring-buttons-photo" title="Double-Ring Kluson Buttons" alt="Close-up of double-ring Kluson tuner buttons on a vintage Gibson" caption="Two molded rings appear at the base of each plastic button. This change occurred around mid-1960 and overlapped by model and stock." />
+          </div>
+          <div class="tuner-combination-grid">
+            <div><h3>Single-Line Plus Single-Ring</h3><p>Most often mid-1956 to about mid-1960. The underside patent wording helps separate the earlier and later part of this range.</p></div>
+            <div><h3>Single-Line Plus Double-Ring</h3><p>Most often about mid-1960 to 1964. Some 1964 Gibson guitars still used this combination.</p></div>
+            <div><h3>Double-Line Plus Double-Ring</h3><p>Most often about 1964 or 1965 to 1969, before the casing stamp changed to Gibson Deluxe.</p></div>
+          </div>
+          <aside class="tuner-note"><h3>Handle Shrunken Buttons Gently</h3><p>Some 1950s plastic buttons shrink, crack and crumble. Don’t test them by turning hard. An experienced repairer can preserve the originals and fit replacement buttons or tuners for regular playing.</p></aside>
+        </section>
+
+        <section class="tuner-section" id="premium-tuners">
+          <p class="tuner-eyebrow">Model-Specific Families</p>
+          <h2>Waffleback, Sealfast And Grover Tuners</h2>
+          <p>Premium Gibson models don’t always follow the standard Kluson Deluxe timeline. These tuner families identify an equipment type first. The guitar model determines how tightly that evidence can be dated.</p>
+          <div class="tuner-era-list">
+            {premiumPhotos.map((tuner, index) => (
+              <article class="tuner-era" id={tuner.id}>
+                <TunerPhoto src={tuner.src} id={`${tuner.id}-photo`} title={`${tuner.period}: ${tuner.name}`} alt={tuner.alt} caption={tuner.caption} />
+                <div class="tuner-era__copy">
+                  <p class="tuner-era__number">Family {String(index + 1).padStart(2, '0')}</p>
+                  <p class="tuner-era__period">{tuner.period}</p>
+                  <h3>{tuner.name}</h3>
+                  <p>{tuner.summary}</p>
+                  <h4>{tuner.clueHeading}</h4>
+                  <ul>{tuner.clues.map(clue => <li>{clue}</li>)}</ul>
+                  <p class="tuner-era__note"><strong>Dating limit:</strong> {tuner.note}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+          <h3>Premium Gibson Tuner Sequences By Model</h3>
+          <p>These model sequences prevent a correct gold tuner from being judged against the standard nickel Kluson chart.</p>
+          <div class="tuner-table-card">
+            <table>
+              <thead><tr><th scope="col">Model</th><th scope="col">Approximate Use</th><th scope="col">Factory Tuner Evidence</th></tr></thead>
+              <tbody>{premiumSequences.map(([model, period, note]) => <tr><td data-label="Model">{model}</td><td data-label="Approximate Use">{period}</td><td data-label="Factory Tuner Evidence">{note}</td></tr>)}</tbody>
+            </table>
+          </div>
+          <aside class="tuner-note"><h3>Some Premium Sequences Still Need A Guitar-By-Guitar Check</h3><p>Dated Les Paul Custom, SG Custom, ES-5 Switchmaster and J-200 examples show more than one original tuner family. Use the table where the sequence is established, then compare the exact model and year before judging a Grover, waffleback or Sealfast as a replacement.</p></aside>
+        </section>
+
+        <section class="tuner-section" id="strip-tuners">
+          <p class="tuner-eyebrow">Three Tuners on One Plate</p>
+          <h2>Gibson Strip Tuner Dating Clues</h2>
+          <p>Many acoustic and lower-priced electric Gibsons used strip tuners, also called three-on-a-plate tuners. Their three gears share one metal base plate instead of using six independent units.</p>
+          <p>Closed-back Kluson strips follow a similar cover-stamp progression, but the changes can arrive later than they do on individual tuners. Many 1950s strips have oval plastic buttons and unplated brass posts. Plate shape, screw placement, posts, buttons and the exact Gibson model all matter.</p>
+          <TunerPhoto src={gibsonDeluxeTuners} id="gibson-deluxe-strip-photo" title="Gibson Deluxe Strip Tuners" alt="Two three-on-a-plate Gibson Deluxe strip tuners under serial number 917516 on a vintage Gibson headstock" caption="This photo shows two three-on-a-plate strips, not six individual tuners. Each cover is stamped Gibson Deluxe under serial 917516, a late-1960s serial reading." />
+          <p>See the strip-tuner examples in the <a href="https://www.joesvintageguitarsaz.com/post/gibson-les-paul-junior-guide/">Les Paul Junior guide</a>, the <a href="https://www.joesvintageguitarsaz.com/post/gibson-les-paul-tv-model-guide/">Les Paul TV Model guide</a> and the <a href="https://www.joesvintageguitarsaz.com/post/1955-1958-tv-yellow-les-paul-special-guide/">TV Yellow Les Paul Special guide</a>.</p>
+        </section>
+
+        <section class="tuner-section" id="later-tuners">
+          <p class="tuner-eyebrow">After The Original Kluson Sequence</p>
+          <h2>Gibson Tuners After The Mid-1970s</h2>
+          <p>There isn’t one factory-wide tuner timeline for late-1970s and early-1980s Gibsons. Gibson used model-dependent combinations of Gibson-branded enclosed tuners supplied by Schaller, Grover Rotomatics and remaining Kluson-style units. Some Gibson-branded Schallers have a flower or leaf motif, while other enclosed versions use a plainer casing.</p>
+          <p>Read the maker mark, country stamp, mounting screw position, bushing and footprint before assigning a date. Reverse Firebirds are another separate family: the 1963 to 1965 reverse models used rear-projecting planetary banjo-style tuners, while the later non-reverse guitars used conventional tuners. See the <a href="https://www.joesvintageguitarsaz.com/post/gibson-firebird-history-authentication-value/">Gibson Firebird guide</a> for that model-specific construction.</p>
+        </section>
+
+        <section class="tuner-section" id="original-or-replacement">
+          <p class="tuner-eyebrow">Inspect Before You Trust the Date</p>
+          <h2>How To Check Whether Gibson Tuners Are Original</h2>
+          <div class="tuner-check-grid">
+            <div><span>1</span><p><strong>Look for extra screw holes.</strong> Filled or unused holes often show that a different tuner was installed before.</p></div>
+            <div><span>2</span><p><strong>Check the bushing and post hole.</strong> Vintage Kluson-style press-fit bushings commonly use an 11/32-inch hole, while many enclosed Grovers require about 10 mm or 13/32 inch. Measure before assuming the hole was enlarged.</p></div>
+            <div><span>3</span><p><strong>Study the footprint.</strong> Finish shadows, washer rings or a mismatched outline can reveal the previous casing.</p></div>
+            <div><span>4</span><p><strong>Compare all six tuners.</strong> Mixed plating, screws, stamps or wear can indicate a partial replacement, although factory-mixed transition sets also exist.</p></div>
+            <div><span>5</span><p><strong>Separate buttons from tuners.</strong> A fragile original gear may have a replacement button while the rest of the tuner remains original.</p></div>
+            <div><span>6</span><p><strong>Check the model specification.</strong> The same year can use Klusons, Grovers or premium gears on different models.</p></div>
+          </div>
+          <h3>Don’t Remove Tuners Just To Read A Hidden Mark</h3>
+          <p>If a tuner is already off during careful service, photograph the underside patent wording and the untouched mounting area. Otherwise, leave it installed. Unnecessary removal can chip brittle finish, loosen a bushing or break a deteriorated plastic button.</p>
+          <p>A replaced tuner doesn’t make the guitar bad. It simply means that tuner shouldn’t be used as dating evidence. Other clues, especially <a href="/gibson-pot-codes/">pot codes</a> and undisturbed construction details, may be more useful.</p>
+        </section>
+
+        <section class="tuner-section" id="related-gibson-guides">
+          <p class="tuner-eyebrow">Continue the Inspection</p>
+          <h2>Related Gibson Dating And Identification Guides</h2>
+          <div class="tuner-related-grid">
+            <a class="tuner-related-card" href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/"><h3>Gibson Serial Number Lookup</h3><p>Decode the serial or FON, then see whether the tuner type supports the result.</p><span>Use The Lookup And Charts</span></a>
+            <a class="tuner-related-card" href="/gibson-pot-codes/"><h3>Gibson Pot-Code Guide</h3><p>Read the manufacturer, year and week codes hidden inside the control cavity.</p><span>Read The Pot-Code Guide</span></a>
+            <a class="tuner-related-card" href="/gibson-headstock-logo-chronology/"><h3>Gibson Headstock Logo Guide</h3><p>Compare the logo era with the tuner, electronics and serial evidence.</p><span>View The Logo Chronology</span></a>
+            <a class="tuner-related-card" href="/gibson-knob-dating-guide/"><h3>Gibson Knob Dating Guide</h3><p>Identify the control-knob style and check whether it fits the same production era.</p><span>Read The Knob Guide</span></a>
+            <a class="tuner-related-card" href="/gibson-les-paul-dating-guide/"><h3>Gibson Les Paul Dating Guide</h3><p>Compare no-line Klusons, strip tuners and premium Custom hardware by model.</p><span>Read The Les Paul Guide</span></a>
+            <a class="tuner-related-card" href="/gibson-es-335-345-355-dating-guide/"><h3>Gibson ES-335, ES-345 And ES-355 Guide</h3><p>Use the separate tuner sequence for each thinline model.</p><span>Compare The ES Models</span></a>
+            <a class="tuner-related-card" href="https://www.joesvintageguitarsaz.com/post/1954-gibson-les-paul-goldtop-authentication-guide/"><h3>1954 Gibson Les Paul Goldtop Guide</h3><p>See original no-line Klusons on a dated Goldtop example.</p><span>Study The 1954 Goldtop</span></a>
+            <a class="tuner-related-card" href="https://www.joesvintageguitarsaz.com/post/1962-gibson-es-335-guide/"><h3>1962 Gibson ES-335 Guide</h3><p>See single-line Klusons paired with double-ring buttons and nickel plating.</p><span>Study The 1962 ES-335</span></a>
+            <a class="tuner-related-card" href="https://www.joesvintageguitarsaz.com/post/1959-gibson-es-355-history-value/"><h3>1959 Gibson ES-355 Guide</h3><p>See factory gold Grover Rotomatics on a top-line thinline Gibson.</p><span>Study The 1959 ES-355</span></a>
+            <a class="tuner-related-card" href="https://www.joesvintageguitarsaz.com/post/what-a-serial-number-cant-tell-you/"><h3>What A Serial Number Can’t Tell You</h3><p>Learn how mounting holes, footprints and the rest of the guitar confirm the hardware story.</p><span>Build The Full Evidence</span></a>
+            <a class="tuner-related-card tuner-related-card--sell" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/"><h3>Sell My Gibson Guitar</h3><p>Joe buys vintage Gibson guitars nationwide and can help identify what you have.</p><span>Learn How To Sell Your Gibson</span></a>
+          </div>
+        </section>
+
+        <section class="tuner-section" id="tuner-faq">
+          <p class="tuner-eyebrow">Common Questions</p>
+          <h2>Gibson Tuner Dating Questions</h2>
+          <div class="tuner-faq">
+            {faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
+          </div>
+        </section>
+
+        <aside class="tuner-help">
+          <p class="tuner-eyebrow">Need a Second Set of Eyes?</p>
+          <h2>Send Joe The Tuners And The Whole Guitar</h2>
+          <p>Send a straight-on photo of the complete back of the headstock, close photos of the casing stamps and buttons, the front of the headstock, the serial number or label, and full front and back photos of the guitar. Include any unused or filled mounting holes.</p>
+          <a href="https://www.joesvintageguitarsaz.com/free-appraisal/">Ask Joe for Help</a>
+          <a class="tuner-help__secondary" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/">Sell My Gibson</a>
+        </aside>
+      </div>
+    </div>
+    <TunerPhotoViewer />
+  </GibsonGuideLayout>
+
+<style>
+  .tuner-container { width: min(100% - 2.5rem, 76rem); margin-inline: auto; }
+  .tuner-hero { padding: 10rem 0 3rem; background: var(--color-ink); color: white; }
+  .tuner-hero__grid { display: grid; gap: 2.5rem; align-items: center; }
+  .tuner-eyebrow { margin: 0 0 .7rem; color: var(--color-wine-dark); font-size: .8rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+  .tuner-hero .tuner-eyebrow, .tuner-read-card .tuner-eyebrow { color: var(--color-gold-light); }
+  h1 { margin: 0; font-family: var(--font-display); font-size: clamp(3rem, 6vw, 5rem); line-height: 1.02; }
+  h1 span { color: var(--color-gold-light); }
+  .tuner-lede { margin: 1.5rem 0 1rem; max-width: 46rem; color: #ece3d9; font-size: 1.125rem; line-height: 1.75; }
+  .tuner-hero__jump, .tuner-byline a { color: var(--color-gold-light); font-weight: 700; text-decoration: underline; text-underline-offset: .25rem; }
+  .tuner-byline { margin: 1.5rem 0 0; color: #d2bcb0; font-size: .875rem; }
+  .tuner-read-card { border: 1px solid rgb(213 180 119 / .48); border-radius: 1rem; background: #2e2520; padding: 1.4rem; box-shadow: 0 1.5rem 4rem rgb(0 0 0 / .2); }
+  .tuner-read-card > img { display: block; width: calc(100% + 2.8rem); height: 12rem; margin: -1.4rem -1.4rem 1.25rem; border-radius: 1rem 1rem 0 0; object-fit: cover; object-position: center 20%; }
+  .tuner-read-card h2 { margin: 0 0 1rem; color: white; font-family: var(--font-display); font-size: 1.8rem; line-height: 1.15; }
+  .tuner-read-card ol { display: grid; gap: .75rem; margin: 0; padding: 0; list-style: none; }
+  .tuner-read-card li { display: grid; grid-template-columns: 2rem 1fr; gap: .7rem; align-items: start; }
+  .tuner-read-card li > span { display: grid; width: 1.8rem; height: 1.8rem; place-items: center; border: 1px solid var(--color-gold-light); border-radius: 50%; color: var(--color-gold-light); font-family: var(--font-display); }
+  .tuner-read-card p { margin: 0; color: #ded2c8; font-size: .9rem; line-height: 1.5; }
+  .tuner-read-card strong { color: white; }
+  .tuner-body { max-width: 68rem; padding-block: 1rem 4rem; }
+  .tuner-toc { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; border-bottom: 1px solid var(--color-rule); padding: 1rem 0 1.5rem; }
+  .tuner-toc a, .tuner-section a { color: var(--color-wine-dark); font-weight: 650; text-decoration: underline; text-underline-offset: 3px; }
+  .tuner-toc a { font-size: .875rem; }
+  .tuner-section { padding-block: 2.75rem; scroll-margin-top: 1rem; }
+  .tuner-section + .tuner-section { border-top: 1px solid var(--color-rule); }
+  .tuner-section > h2, .tuner-help h2 { margin: 0 0 1rem; font-family: var(--font-display); font-size: clamp(1.9rem, 3vw, 2.65rem); line-height: 1.15; }
+  .tuner-section > h3 { margin: 2rem 0 1rem; font-family: var(--font-display); font-size: 1.65rem; line-height: 1.25; }
+  .tuner-section > p { max-width: 55rem; margin: 0 0 1.25rem; font-size: 1.0625rem; line-height: 1.8; }
+  .tuner-note { max-width: 55rem; margin-top: 1.5rem; border-left: 3px solid var(--color-wine-dark); background: var(--color-cream); padding: 1rem 1.25rem; }
+  .tuner-note h3 { margin: 0 0 .45rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .tuner-note p { margin: 0; line-height: 1.65; }
+  .tuner-table-card { overflow-x: auto; border: 1px solid var(--color-rule); border-radius: .85rem; background: white; }
+  .tuner-table-card table { width: 100%; min-width: 49rem; border-collapse: collapse; text-align: left; }
+  .tuner-table-card th, .tuner-table-card td { border-bottom: 1px solid #e7dfd2; padding: .8rem 1rem; vertical-align: top; }
+  .tuner-table-card tr:last-child td { border-bottom: 0; }
+  .tuner-table-card th { background: #f6f0e6; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+  .tuner-table-card td:first-child { color: var(--color-wine-dark); font-weight: 800; white-space: nowrap; }
+  .tuner-table-card td:nth-child(2) { font-weight: 700; }
+  .tuner-era-list { margin-top: 2rem; }
+  .tuner-era { display: grid; gap: 1.5rem; padding: 2.5rem 0; scroll-margin-top: 1rem; }
+  .tuner-era + .tuner-era { border-top: 1px solid var(--color-rule); }
+  .tuner-era__copy { align-self: center; }
+  .tuner-era__number { margin: 0 0 .25rem; color: var(--color-gold); font-size: .72rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+  .tuner-era__period { margin: 0; color: var(--color-wine-dark); font-weight: 800; }
+  .tuner-era h3 { margin: .35rem 0 1rem; font-family: var(--font-display); font-size: clamp(1.7rem, 3vw, 2.35rem); line-height: 1.08; }
+  .tuner-era__copy > p:not(.tuner-era__number, .tuner-era__period, .tuner-era__note) { margin: 0 0 1rem; font-size: 1rem; line-height: 1.75; }
+  .tuner-era h4 { margin: 1rem 0 .55rem; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; }
+  .tuner-era ul { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+  .tuner-era li { border: 1px solid var(--color-rule); border-radius: 999px; background: var(--color-cream); padding: .35rem .7rem; color: #4d4039; font-size: .8rem; font-weight: 700; }
+  .tuner-era__note { margin: 1.2rem 0 0; border-left: 3px solid var(--color-gold); padding: .7rem 0 .7rem 1rem; color: #5f5149; font-size: .92rem; line-height: 1.65; }
+  .tuner-photo-grid, .tuner-combination-grid, .tuner-check-grid, .tuner-related-grid { display: grid; gap: 1rem; margin-top: 1.5rem; }
+  .tuner-combination-grid > div, .tuner-check-grid > div { border: 1px solid var(--color-rule); border-radius: .75rem; background: var(--color-cream); padding: 1.2rem; }
+  .tuner-combination-grid h3 { margin: 0 0 .55rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .tuner-combination-grid p, .tuner-check-grid p { margin: 0; line-height: 1.65; }
+  .tuner-check-grid > div { display: grid; grid-template-columns: 2rem 1fr; gap: .75rem; background: white; }
+  .tuner-check-grid span { display: grid; width: 1.8rem; height: 1.8rem; place-items: center; border-radius: 50%; background: var(--color-wine-dark); color: white; font-family: var(--font-display); }
+  .tuner-section a.tuner-related-card { display: flex; min-height: 100%; flex-direction: column; border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine-dark); border-radius: .8rem; background: white; padding: 1.25rem; color: var(--color-ink); text-decoration: none; transition: transform .18s ease, box-shadow .18s ease; }
+  .tuner-section a.tuner-related-card:hover, .tuner-section a.tuner-related-card:focus-visible { transform: translateY(-2px); box-shadow: 0 .6rem 1.4rem rgb(56 34 22 / .12); }
+  .tuner-related-card h3 { margin: 0 0 .65rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .tuner-related-card p { margin: 0 0 1rem; color: #5f5149; line-height: 1.65; }
+  .tuner-related-card span { margin-top: auto; color: var(--color-wine-dark); font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
+  .tuner-section a.tuner-related-card--sell { border-top-color: var(--color-gold); background: var(--color-cream); }
+  .tuner-faq details { border-bottom: 1px solid var(--color-rule); padding: 1rem 0; }
+  .tuner-faq summary { cursor: pointer; font-weight: 700; }
+  .tuner-faq p { max-width: 55rem; margin: .75rem 0 0; line-height: 1.7; }
+  .tuner-help { border: 1px solid var(--color-rule); border-radius: 1rem; background: var(--color-cream); padding: clamp(1.25rem, 4vw, 2.5rem); }
+  .tuner-help > p:not(.tuner-eyebrow) { max-width: 49rem; line-height: 1.7; }
+  .tuner-help > a { display: inline-block; margin: .75rem 1rem 0 0; border-radius: 2rem; background: var(--color-wine-dark); padding: .8rem 1.25rem; color: white; font-weight: 700; }
+  .tuner-help > .tuner-help__secondary { background: transparent; padding-inline: 0; color: var(--color-wine-dark); text-decoration: underline; text-underline-offset: 3px; }
+  @media (min-width: 700px) { .tuner-photo-grid, .tuner-check-grid, .tuner-related-grid { grid-template-columns: 1fr 1fr; } .tuner-combination-grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 699px) {
+    .tuner-table-card { overflow: visible; border: 0; background: transparent; }
+    .tuner-table-card table, .tuner-table-card tbody, .tuner-table-card tr, .tuner-table-card td { display: block; width: 100%; min-width: 0; }
+    .tuner-table-card thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .tuner-table-card tr { margin-bottom: .85rem; border: 1px solid var(--color-rule); border-radius: .75rem; background: white; padding: .4rem .9rem; }
+    .tuner-table-card td { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: .75rem; border-bottom: 1px solid #e7dfd2; padding: .7rem 0; white-space: normal; }
+    .tuner-table-card td:first-child { white-space: normal; }
+    .tuner-table-card td::before { content: attr(data-label); color: var(--color-wine-dark); font-size: .7rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+    .tuner-table-card td:last-child { border-bottom: 0; }
+  }
+  @media (min-width: 800px) {
+    .tuner-era { grid-template-columns: minmax(0, 1.25fr) minmax(18rem, .9fr); gap: 2.5rem; }
+    .tuner-era:nth-child(even) :global(.tuner-photo) { order: 2; }
+    .tuner-era:nth-child(even) .tuner-era__copy { order: 1; }
+  }
+  @media (min-width: 1024px) {
+    .tuner-hero { padding-top: 18rem; padding-bottom: 4rem; }
+    .tuner-hero__grid { grid-template-columns: 1.25fr .8fr; gap: 4rem; }
+  }
+</style>

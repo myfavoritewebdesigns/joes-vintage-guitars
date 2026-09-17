@@ -1,0 +1,122 @@
+---
+import { specialRows } from '../data';
+import SerialPhotos from './SerialPhotos.astro';
+
+type Part = [string, 'year' | 'model' | 'sequence' | 'day', string];
+type Diagram = { label: string; parts: Part[]; example?: string };
+type Guide = { key: string; row: number; title: string; diagrams: Diagram[] };
+
+const guides: Guide[] = [
+  { key: 'classic', row: 8, title: 'Les Paul Classic, 1989 to 2014', diagrams: [
+    { label: '1989: Four Digits', parts: [['9', 'year', '9 = 1989'], ['RRR', 'sequence', 'RRR = production sequence']], example: '9 123 means 1989, sequence 123.' },
+    { label: '1989 to 1999: Five Digits', parts: [['Y', 'year', 'Y = last year digit; 9 can mean 1989 or 1999'], ['RRRR', 'sequence', 'RRRR = production sequence']], example: '9 1234 can mean 1989 or 1999, sequence 1,234. Use features and provenance to determine the decade.' },
+    { label: '2000 to 2014: Six Digits', parts: [['YY', 'year', 'YY = 00 to 14 for 2000 to 2014'], ['RRRR', 'sequence', 'RRRR = production sequence']], example: '071234 means 2007, sequence 1,234.' },
+    { label: '2007 Variants: Nine Impressed Digits', parts: [['0', 'year', 'First digit 0 + fifth digit 7 = 2007'], ['DDD', 'day', 'DDD = day of the year'], ['7', 'year', '7 = second part of the year'], ['B', 'sequence', 'B = production batch'], ['RRR', 'sequence', 'RRR = factory ranking']], example: '027670593 reads as 2007, day 276, batch 0, ranking 593. See the exception below.' },
+  ] },
+  { key: 'cs-prefix', row: 0, title: 'Custom Shop: CS Prefix', diagrams: [
+    { label: 'CS + Year Digit + Sequence', parts: [['CS', 'model', 'CS = Custom Shop prefix'], ['Y', 'year', 'Y = last digit of build year'], ['RRRR', 'sequence', 'R = sequence digit; length can vary']], example: 'CS102644 means Custom Shop, a build year ending in 1, sequence 02644. Matching records must establish the decade; the first two digits do not simply mean 2010.' },
+  ] },
+  { key: 'historic', row: 1, title: 'Historic Les Paul; 1958 Korina Flying V and Explorer', diagrams: [
+    { label: 'Model Digit + Year Digit + Sequence', parts: [['M', 'model', 'M = model year being recreated'], ['Y', 'year', 'Y = last digit of build year'], ['RRRR', 'sequence', 'R = sequence digit; length can vary']], example: 'On a Les Paul, 9 01234 identifies a 1959 reissue built in a year ending in 0, sequence 1,234. It does not choose between 2000, 2010 and 2020.' },
+  ] },
+  { key: 'impressed-reissues', row: 2, title: 'SG, Firebird and Other Impressed Reissues', diagrams: [
+    { label: 'Later System: Single Year Digit', parts: [['Y', 'year', 'Y = last digit of build year'], ['RRRR', 'sequence', 'RRRR = production sequence'], ['M', 'model', 'M = model code for this system']] },
+    { label: 'Earlier System: Two Year Positions', parts: [['YY', 'year', 'YY = year positions; 00 to 09 were reused in later decades'], ['RRR', 'sequence', 'RRR = production sequence'], ['M', 'model', 'M = model code for this system']], example: '030992 has the same earlier-format prefix for 2003 and 2013. A matching model and dated record are needed to select the year.' },
+  ] },
+  { key: 'es-61-64', row: 3, title: '1961 and 1964 ES Reissues', diagrams: [
+    { label: 'Six-Digit Format', parts: [['1', 'model', '1 = reissue model group, not build year'], ['Y', 'year', 'Y = last digit of build year'], ['RRRR', 'sequence', 'RRRR = production sequence']] },
+  ] },
+  { key: 'es-63', row: 4, title: '1963 ES-335 Historic Reissue: A3 Prefix', diagrams: [
+    { label: 'A3 + Year Digit + Sequence', parts: [['A3', 'model', 'A3 = 1963 reissue format'], ['Y', 'year', 'Y = last digit of build year'], ['RRR', 'sequence', 'RRR = three-digit production sequence']] },
+  ] },
+  { key: 'es-58', row: 5, title: '1958 ES-335 Reissue: A8 Prefix', diagrams: [
+    { label: 'A8 + Year Digit + Sequence', parts: [['A8', 'model', 'A8 = 1958 reissue format'], ['Y', 'year', 'Y = last digit of build year'], ['RRRR', 'sequence', 'RRRR = production sequence']] },
+  ] },
+  { key: 'es-59', row: 6, title: '1959 ES Reissue: A9 Prefix', diagrams: [
+    { label: 'A9 + Year Digit + Sequence', parts: [['A9', 'model', 'A9 = 1959 reissue format'], ['Y', 'year', 'Y = last digit of build year'], ['RRRR', 'sequence', 'RRRR = production sequence']] },
+  ] },
+  { key: 'carved-top', row: 7, title: 'Carved-Top Custom Shop: Orange Label', diagrams: [
+    { label: 'Year Positions + Day + Sequence', parts: [['Y', 'year', 'First position = year-system digit'], ['DDD', 'day', 'DDD = day of the year'], ['Y', 'year', 'Fifth position = year digit'], ['RRR', 'sequence', 'RRR = production sequence']] },
+  ] },
+];
+
+const photoSections: Record<string, string> = {
+  classic: 'special-classic',
+  'cs-prefix': 'special-cs',
+  historic: 'special-historic',
+  'impressed-reissues': 'special-impressed',
+};
+---
+
+<div class="special-format-guides">
+  {guides.map(({ key, row, title, diagrams }) => {
+    const [pattern, , reading, dating] = specialRows[row];
+    return (
+      <section class="format-guide" id={`format-${key}`} aria-labelledby={`format-${key}-heading`} data-format-row={row}>
+        {key === 'classic' && <span id="classic" class="legacy-anchor" aria-hidden="true"></span>}
+        <div class="format-guide__visual">
+          <h4 id={`format-${key}-heading`}>{title}</h4>
+          <p class="format-guide__pattern">{pattern}</p>
+          <div class:list={['format-guide__diagrams', { 'format-guide__diagrams--multiple': diagrams.length > 1 }]}>
+            {diagrams.map(({ label, parts, example }) => (
+              <figure class="format-diagram">
+                <p class="format-diagram__label">{label}</p>
+                <div class="format-diagram__digits" aria-hidden="true">
+                  {parts.map(([digits, tone]) => (
+                    <span class="format-diagram__group">{[...digits].map(digit => <span class={`format-digit format-digit--${tone}`}>{digit}</span>)}</span>
+                  ))}
+                </div>
+                <figcaption>
+                  <ul class="format-diagram__key">{parts.map(([, , meaning]) => <li>{meaning}</li>)}</ul>
+                  {example && <p class="format-diagram__example">{example}</p>}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+        {photoSections[key] && <div class="format-guide__photos"><SerialPhotos section={photoSections[key]} /></div>}
+        <div class="format-guide__reading">
+          <p><strong>Number:</strong> {reading}</p>
+          <p><strong>Dating:</strong> {dating}</p>
+          {key === 'carved-top' && <p class="mt-3">The worked examples are published in <a href="https://www.gibson.com/de/pages/serial-number-search">Gibson’s serial-number FAQ</a>. They establish the 1990s and 2000s readings shown here, not a rule for every later decade.</p>}
+          {key === 'classic' && (
+            <aside class="format-guide__exception" id="classic-2007-exception" aria-labelledby="classic-2007-heading">
+              <h5 id="classic-2007-heading">The 2007 Les Paul Classic Exception</h5>
+              <p>Some 2007 Classic variants use a nine-digit serial pressed into the wood, with a “Made in USA” stamp, instead of the usual Classic ink stamp. These include Classic Antique, Classic Custom and some Guitar of the Week editions.</p>
+              <p>Read those numbers with the <a href="#modern">modern Gibson USA format</a>: the first and fifth digits form 07 for 2007. This was not a switch for every Les Paul Classic. An ink-stamped Classic such as 071234 still uses the two-digit year format above. Check the full serial format, not the model name or “Made in USA” stamp alone.</p>
+              <p>For a nine-digit impressed example, use “Standard serial or help choosing a format” in the lookup, not the short-number Les Paul Classic option.</p>
+            </aside>
+          )}
+        </div>
+      </section>
+    );
+  })}
+</div>
+
+<style>
+  .special-format-guides { display: grid; gap: 1.5rem; margin: 1.5rem 0; }
+  .format-guide { border: 1px solid var(--color-rule); border-radius: 1rem; overflow: hidden; scroll-margin-top: 1.25rem; }
+  .format-guide__visual { padding: clamp(1rem, 3vw, 1.75rem); background: #4a3427; color: white; }
+  .format-guide h4 { margin: 0; font-family: var(--font-display); font-size: 1.5rem; line-height: 1.3; color: white; }
+  .format-guide__pattern { margin: .5rem 0 0; font-size: .875rem; color: var(--color-gold-light); }
+  .format-guide__diagrams { display: grid; gap: 1.5rem; margin-top: 1.25rem; }
+  .format-guide__diagrams--multiple { grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); }
+  .format-diagram { min-width: 0; margin: 0; }
+  .format-diagram__label { margin: 0 0 .75rem; font-weight: 700; font-size: .875rem; }
+  .format-diagram__digits { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin-bottom: 1rem; }
+  .format-diagram__group { display: inline-flex; flex-wrap: wrap; gap: .2rem; }
+  .format-digit { display: inline-grid; place-items: center; min-width: 1.6rem; padding: .45rem .3rem; border-radius: .3rem; font-family: var(--font-display); font-size: clamp(1.2rem, 3vw, 1.75rem); line-height: 1.4; }
+  .format-digit--year { background: #a03a1e; color: white; }
+  .format-digit--model, .format-digit--day { background: var(--color-gold); color: #2a2013; }
+  .format-digit--sequence { background: rgba(255,255,255,.12); color: white; }
+  .format-diagram__key { display: grid; gap: .3rem; padding: 0; margin: 0; list-style: none; font-size: .875rem; line-height: 1.55; color: var(--color-gold-light); }
+  .format-diagram__example { margin: 1rem 0 0; padding: .75rem 1rem; background: rgba(0,0,0,.22); border-radius: .5rem; font-size: 1rem; }
+  .format-guide__reading { padding: clamp(1rem, 3vw, 1.75rem); background: var(--color-cream); font-size: 1rem; }
+  .format-guide__photos { padding: clamp(1rem, 3vw, 1.75rem); border-top: 1px solid var(--color-rule); background: white; }
+  .format-guide__reading > p { margin: 0; }
+  .format-guide__reading > p + p { margin-top: .75rem; }
+  .format-guide__exception { border-left: 3px solid var(--color-wine-dark); margin-top: 1.25rem; padding: .25rem 0 .25rem 1rem; }
+  .format-guide__exception h5 { margin: 0; font-size: 1.125rem; font-weight: 700; color: var(--color-wine-dark); }
+  .format-guide__exception p { margin: .6rem 0 0; }
+  .format-guide__exception a { color: var(--color-wine-dark); text-decoration: underline; text-underline-offset: 3px; font-weight: 700; }
+</style>

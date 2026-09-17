@@ -1,0 +1,448 @@
+---
+import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
+import { getImage } from 'astro:assets';
+import LogoPhoto from '../components/LogoPhoto.astro';
+import LogoPhotoViewer from '../components/LogoPhotoViewer.astro';
+import noLogo from '../assets/logos/gibson-headstock-no-logo.jpeg';
+import slantedTheGibson from '../assets/logos/the-gibson-logo-gibson-l-4.jpg';
+import straightTheGibson from '../assets/logos/gibson-the-gibson-straight.jpg';
+import thinScript from '../assets/logos/straight-gibson-script-logo.jpg';
+import boldScript from '../assets/logos/gibson-bold-script.jpg';
+import bannerLogo from '../assets/logos/gibson-banner-logo.jpg';
+import postBannerScript from '../assets/logos/gibson-1946-script-logo.jpg';
+import firstBlock from '../assets/logos/1949-gibson-logo.jpg';
+import goldenEra from '../assets/logos/1958-gibson-logo.jpg';
+import noDot from '../assets/logos/1969-gibson-logo-no-dot.jpg';
+import norlinDot from '../assets/logos/1979-gibson-logo-with-dot.jpg';
+import squaredModern from '../assets/logos/1986-gibson-j200-headstock-logo.jpg';
+import modernLogo from '../assets/logos/2000-gibson-logo-modern-logo.jpg';
+import tvModelSilkscreen from '../assets/les-paul-family/feature-details/1957-gibson-les-paul-tv-model-logo-close-up.jpg';
+import { imageOrigin } from '../config/image-license';
+
+const title = 'Gibson Headstock Logo Dating Guide And Timeline';
+const description = 'Date a Gibson by its headstock logo, from the slanted “The Gibson” script and wartime banner to the missing dot over the “i” and today’s logo.';
+const canonical = 'https://www.joesvintageguitarsaz.com/gibson-headstock-logo-chronology/';
+const share = await getImage({ src: modernLogo, width: 1200, height: 630, fit: 'cover', format: 'webp', quality: 88 });
+const shareUrl = new URL(share.src, imageOrigin).href;
+
+const eras = [
+  {
+    id: 'early-pegheads', period: 'About 1902 to 1910', shortPeriod: 'About 1902 to 1910', name: 'Early Gibson Pegheads', src: noLogo,
+    alt: 'Early Gibson eight-string mandolin peghead with no logo on the black face',
+    caption: 'This early eight-string Gibson mandolin has a blank peghead face. Other instruments from the same broad period can have a slanted script or decorative mark.',
+    summary: 'The earliest Gibson pegheads are not one uniform logo era. Surviving instruments can be blank, carry a slanted “The Gibson” script, or use other early decoration. The label, serial number and construction do more of the dating work.',
+    fastClue: 'Blank, script or decorated face',
+    clueHeading: 'Early Peghead Details',
+    clues: ['Logo treatment varies', 'Interior label matters', 'Instrument type matters'],
+    note: 'A blank face is not an early-Gibson date code. Later models can also have no Gibson name on the peghead face, and a refinish can remove an earlier mark.'
+  },
+  {
+    id: 'slanted-the-gibson', period: 'By 1906 To About 1928', shortPeriod: 'By 1906 To About 1928', name: 'Slanted “The Gibson” Script', src: slantedTheGibson,
+    alt: 'Vintage Gibson L-4 headstock with The Gibson in slanted pearl script',
+    caption: 'The early “The Gibson” logo is set at an angle and uses thin, flowing script. This example is on a Gibson L-4.',
+    summary: 'The best-known early logo spells out “The Gibson” in pearl script and runs diagonally across the peghead. The fine, hand-lettered appearance is very different from the postwar block logo.',
+    fastClue: '“The Gibson” climbs diagonally',
+    clueHeading: 'How To Spot The Slanted Script',
+    clues: ['Includes the word “The”', 'Thin calligraphic letters', 'Logo rises at an angle'],
+    note: 'The slanted script is documented by the mid-1900s, earlier than a strict 1908 starting date. Blank and decorated pegheads overlap it, and some instruments kept the slant into the late 1920s.'
+  },
+  {
+    id: 'straight-the-gibson', period: 'About 1928 to 1932', shortPeriod: 'About 1928 to 1932', name: 'Straight “The Gibson” Script', src: straightTheGibson,
+    alt: 'Vintage four-string Gibson instrument with The Gibson written straight across in thin script',
+    caption: 'This four-string instrument keeps the words “The Gibson,” but the logo reads straight across instead of climbing diagonally.',
+    summary: 'Gibson straightened the earlier script across the top of the peghead before it dropped “The” from the brand mark. This is a useful prewar clue because both the wording and the angle are easy to compare.',
+    fastClue: '“The Gibson” sits horizontally',
+    clueHeading: 'How To Separate The Straight Version',
+    clues: ['Includes the word “The”', 'Runs straight across', 'Fine script rather than block letters'],
+    note: 'Slanted and straight versions overlap in the late 1920s. Some flat-top models also dropped “The” before other parts of the line.'
+  },
+  {
+    id: 'thin-gibson-script', period: 'About 1930 to 1936', shortPeriod: 'About 1930 to 1936', name: 'Thin “Gibson” Script', src: thinScript,
+    alt: 'Prewar Gibson headstock with a thin straight Gibson script logo and no word The',
+    caption: 'The logo now says only “Gibson.” The narrow strokes separate this prewar form from the heavier script used later in the decade.',
+    summary: 'The article disappears, leaving “Gibson” in a fine horizontal script. Look at the narrow strokes and the amount of open space inside and around the letters.',
+    fastClue: 'No “The” and narrow strokes',
+    clueHeading: 'Thin Script Identification Clues',
+    clues: ['Says “Gibson” only', 'Thin, delicate strokes', 'Straight horizontal placement'],
+    note: 'Logo details varied by model and by whether the mark was inlaid or applied. Use the FON and body features to confirm an early 1930s estimate.'
+  },
+  {
+    id: 'bold-gibson-script', period: 'About 1935 to 1941', shortPeriod: 'About 1935 to 1941', name: 'Bold Prewar Script', src: boldScript,
+    alt: 'Prewar Gibson headstock with a thick gold Gibson script logo',
+    caption: 'The script remains familiar, but the strokes are much heavier. This bold form leads into the wartime banner period.',
+    summary: 'By the end of the 1930s, the script became thicker and more forceful. It still reads as handwriting, not the squared block lettering introduced after the war.',
+    fastClue: 'Heavy script with no banner',
+    clueHeading: 'Bold Prewar Script Details',
+    clues: ['Thick script strokes', 'No word “The”', 'No wartime banner'],
+    note: 'Thin and bold scripts overlap during the 1930s, and the material can differ by model. Treat this as a supporting range rather than a factory-wide cutoff.'
+  },
+  {
+    id: 'banner-logo', period: '1942 to 1945', shortPeriod: '1942 to 1945', name: 'Wartime Banner Logo', src: bannerLogo,
+    alt: 'Wartime Gibson headstock with gold script and Only a Gibson Is Good Enough banner',
+    caption: 'The gold silkscreened ribbon reads “Only a Gibson Is Good Enough.” The banner is one of Gibson’s clearest wartime dating features.',
+    summary: 'The wartime banner sits below the gold script logo and carries the “Only a Gibson Is Good Enough” slogan. It is strongly associated with J-45, Southern Jumbo, LG-2 and related wartime flat-tops.',
+    fastClue: 'Printed slogan below the script',
+    clueHeading: 'Wartime Banner Identification Clues',
+    clues: ['Gold script “Gibson”', 'Ribbon below the name', 'Slogan printed inside the ribbon'],
+    note: 'Not every wartime model received the banner, and some premium instruments retained pearl script. Modern reissues reproduce the banner, so confirm a claimed wartime guitar with its FON, label and construction.'
+  },
+  {
+    id: 'post-banner-script', period: 'About 1946 to 1948', shortPeriod: 'About 1946 to 1948', name: 'Post-Banner Script', src: postBannerScript,
+    alt: '1946 Gibson headstock with a pearl script logo and crown inlay under ambered lacquer',
+    caption: 'This 1946 example has a pearl script logo and crown beneath ambered lacquer. The wartime banner is gone, but block lettering has not yet arrived on this model.',
+    summary: 'After the wartime ribbon disappeared, script logos continued briefly. Depending on the model, the name may be pearl inlay or a gold silkscreen rather than one universal construction.',
+    fastClue: 'Script without the banner',
+    clueHeading: 'Post-Banner Transition Clues',
+    clues: ['Script “Gibson”', 'No banner ribbon', 'Pearl or silkscreen by model'],
+    note: 'The script-to-block change spread across model lines from about 1947 through 1949. Confirm this transition with the FON, label and construction.'
+  },
+  {
+    id: 'first-block-logo', period: 'About 1947 to 1952', shortPeriod: 'About 1947 to 1952', name: 'First Block Logo', src: firstBlock,
+    alt: '1949 Gibson headstock with early block logo, curved G and connected i dot',
+    caption: 'This 1949 example shows the new block lettering with open “b” and “o” forms and the dot over the “i” joined to the “G.” The gold R on the truss rod cover is separate from the Gibson wordmark.',
+    summary: 'Gibson replaced the prewar script with the block-style wordmark that became the basis of the modern logo. On early examples, the “G” is curved, the “b” and “o” are open and the dot over the “i” touches the “G.”',
+    fastClue: 'Dot over “i” joins the “G”',
+    clueHeading: 'First Block Logo Details',
+    clues: ['Block rather than script letters', 'Open “b” and “o”', 'Dot over “i” touches the “G”'],
+    note: 'The block logo arrived model by model, and the joined dot survives on documented 1952 examples. Do not force every instrument into one 1950 cutoff.'
+  },
+  {
+    id: 'golden-era-block', period: 'Early 1950s to late 1968', shortPeriod: 'Early 1950s to late 1968', name: 'Golden-Era Block Logo', src: goldenEra,
+    alt: '1958 Gibson Les Paul Custom headstock with slanted pearl block logo and separate i dot',
+    caption: 'A 1958 Les Paul Custom with the familiar golden-era logo: slanted letters, open “b” and “o,” and a separate dot above the “i.”',
+    summary: 'The 1950s and most of the 1960s use the familiar slanted block logo. The “b” and “o” remain open, while the dot above the “i” floats separately instead of joining the “G.”',
+    fastClue: 'Separate dot with open letters',
+    clueHeading: 'Golden-Era Pearl Logo Clues',
+    clues: ['Open “b” and “o”', 'Separate dot above the “i”', 'Pearl inlay on this example'],
+    note: 'These letter-opening rules describe the pearl block logo. Silkscreened logos on lower-priced and acoustic models can form the letters differently during the same years.'
+  },
+  {
+    id: 'no-dot-logo', period: 'Late 1968 to early 1970s', shortPeriod: 'Late 1968 to early 1970s', name: 'No-Dot Transitional Logo', src: noDot,
+    alt: '1969 Gibson headstock with curved open letters and no dot above the i',
+    caption: 'This 1969 example has curved, open letters but no dot above the “i.” The missing dot is the useful clue here, not a claim that every 1969 logo is square.',
+    summary: 'The missing dot above the “i” is the easiest late 1960s clue. Letterforms vary through the transition, including open and closed “b” and “o” shapes.',
+    fastClue: 'No dot above the “i”',
+    clueHeading: 'How To Read The No-Dot Transition',
+    clues: ['No dot above the “i”', 'Curved or squared forms occur', 'Open and closed letters overlap'],
+    note: 'A missing dot does not prove the guitar was made in 1969. It appears most often around 1969, with examples in late 1968 and the early 1970s.'
+  },
+  {
+    id: 'dotted-norlin-logo', period: '1970s to early 1980s', shortPeriod: '1970s to early 1980s', name: 'Closed-Letter Norlin Logo', src: norlinDot,
+    alt: '1979 Gibson Les Paul Custom headstock with squared logo and dot above the i',
+    caption: 'A 1979 Les Paul Custom with a separate dot, closed “b” and “o” forms and the “o” joining the “n” near the bottom.',
+    summary: 'Closed “b” and “o” shapes are common in the 1970s. The dot returns gradually rather than on one factory date, and the lower “o” to “n” connection helps separate this form from the next one.',
+    fastClue: 'Closed letters and low “o” to “n” join',
+    clueHeading: 'Norlin-Era Letter And Join Details',
+    clues: ['Closed “b” and “o” common', '“o” joins “n” near the bottom', 'Dot may be present or absent'],
+    note: 'Dated 1972 and 1973 guitars can still be dotless, while the dotted closed-letter form continues into the early 1980s. Check the serial, volute and neck construction with it.'
+  },
+  {
+    id: 'squared-modern-logo', period: 'About 1981 to early 1990s', shortPeriod: 'About 1981 to early 1990s', name: 'Squared Modern Logo', src: squaredModern,
+    alt: '1986 Gibson J-200 headstock with squared closed letters and high o to n connection',
+    caption: 'Joe’s 1986 J-200 shows the transitional modern construction: squared, closed letters remain, but the “o” now joins the “n” near the top.',
+    summary: 'Around 1981, the “o” to “n” connection moves from the bottom toward the top while the letters can remain squared and closed. This makes the high join more useful than roundness for this period.',
+    fastClue: 'High “o” to “n” join with squared letters',
+    clueHeading: 'Early Modern Logo Details',
+    clues: ['“o” joins “n” near the top', 'Closed “b” and “o” can remain', 'Squarer overall letterforms'],
+    note: 'The change is approximate and model dependent. A serial number and model features should distinguish an early-1980s guitar from a late Norlin example.'
+  },
+  {
+    id: 'modern-logo', period: 'Mid-1990s to present', shortPeriod: 'Mid-1990s to present', name: 'Rounded Modern Logo', src: modernLogo,
+    alt: '2000 Gibson Les Paul Custom headstock with modern dotted Gibson logo',
+    caption: 'A 2000 Les Paul Custom with the rounded modern wordmark. The “b” and “o” are more open, and the “o” joins the “n” near the top.',
+    summary: 'By the mid-1990s, the familiar modern wordmark has more rounded and open letterforms while retaining the high “o” to “n” connection and a separate dot above the “i.”',
+    fastClue: 'Rounded open letters with high join',
+    clueHeading: 'Current Wordmark Details',
+    clues: ['Rounded, open letterforms', '“o” joins “n” near the top', 'Separate dot above the “i”'],
+    note: 'Historic and anniversary models intentionally reproduce older logos. On those guitars, the serial and construction establish the build date; a certificate is supporting evidence, not proof by itself.'
+  },
+];
+
+const faqs = [
+  ['Can A Gibson Headstock Logo Give Me An Exact Year?', 'Usually not. A logo is best used to narrow the guitar to an era. Gibson changed different model lines at different times, so the serial number, Factory Order Number, pot codes and construction still need to agree.'],
+  ['Does A Missing Dot Over The “i” Mean My Gibson Is From 1969?', 'It strongly suggests the late 1960s or early 1970s, and it is especially common in 1969. It is not an exact one-year code because the transition began in late 1968 and continued on some instruments after 1969.'],
+  ['Why Does The Logo Look Newer Than The Rest Of The Guitar?', 'The guitar may have a replacement neck, a repaired or replaced headstock veneer, or a refinish. Compare the neck joint, finish, serial number and construction before deciding what changed.'],
+  ['Do All Gibsons From The Same Year Have The Same Logo?', 'No. Acoustic, archtop, solid-body and lower-priced model lines did not always change together. Inlaid, painted and pantograph-style versions can also differ within the same general period.'],
+  ['Can The Logo Prove That A Gibson Is Authentic?', 'No. A correct-looking logo is supporting evidence, not proof. The serial number, FON, neck and body construction, hardware, electronics, finish and model specifications all need to match.'],
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article', '@id': `${canonical}#article`, headline: title, description, mainEntityOfPage: canonical,
+      image: { '@type': 'ImageObject', url: shareUrl, width: share.attributes.width, height: share.attributes.height },
+      author: { '@type': 'Person', '@id': 'https://www.joesvintageguitarsaz.com/about-me/#person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
+      publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' },
+      datePublished: '2026-09-08',
+      dateModified: '2026-09-15',
+    },
+    {
+      '@type': 'BreadcrumbList', itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.joesvintageguitarsaz.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Gibson Serial Number Lookup', item: 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/' },
+        { '@type': 'ListItem', position: 3, name: 'Gibson Headstock Logo Chronology', item: canonical },
+      ],
+    },
+    {
+      '@type': 'FAQPage', '@id': `${canonical}#logo-faq`,
+      mainEntity: faqs.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })),
+    },
+  ],
+};
+---
+
+<GibsonGuideLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={shareUrl}
+  ogImageAlt="Gibson headstock logo used for the logo dating timeline"
+  ogImageWidth={share.attributes.width}
+  ogImageHeight={share.attributes.height}
+  publishedTime="2026-09-09"
+  modifiedTime="2026-09-15"
+  structuredData={schema}
+>
+    <a href="#logo-guide" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-cream focus:px-4 focus:py-2">Skip to the Gibson logo guide</a>
+    <div id="logo-guide">
+      <section class="logo-hero">
+        <div class="logo-container logo-hero__grid">
+          <div>
+            <p class="logo-eyebrow">Gibson Dating Guides</p>
+            <h1>Gibson Headstock <span>Logo Chronology</span></h1>
+            <p class="logo-lede">Compare original Gibson headstock photographs from early pegheads through “The Gibson” script, the wartime banner, the 1950s block logo, the Norlin years and two modern wordmark periods.</p>
+            <a class="logo-hero__jump" href="#logo-timeline">Jump straight to the logo timeline</a>
+            <p class="logo-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 15, 2026</p>
+          </div>
+          <aside class="logo-read-card" aria-labelledby="read-logo-title">
+            <p class="logo-eyebrow">Start Here</p>
+            <h2 id="read-logo-title">Read The Logo In Six Checks</h2>
+            <ol>
+              <li><span>1</span><p><strong>Wording</strong> Does it say “The Gibson” or only “Gibson”?</p></li>
+              <li><span>2</span><p><strong>Material</strong> Is it pearl inlay, gold silkscreen or a wartime banner?</p></li>
+              <li><span>3</span><p><strong>Letter Style</strong> Is it flowing script or block lettering?</p></li>
+              <li><span>4</span><p><strong>Angle</strong> Does the name climb diagonally or sit straight?</p></li>
+              <li><span>5</span><p><strong>Openings</strong> On a pearl logo, are the “b” and “o” open or closed?</p></li>
+              <li><span>6</span><p><strong>Connections</strong> Check the dot above the “i” and where the “o” joins the “n.”</p></li>
+            </ol>
+          </aside>
+        </div>
+      </section>
+
+      <div class="logo-container logo-body">
+        <nav class="logo-toc" aria-label="Gibson headstock logo guide sections">
+          <a href="#at-a-glance">At-a-glance chart</a>
+          <a href="#logo-materials">Logo materials</a>
+          <a href="#logo-timeline">Photo timeline</a>
+          <a href="#logo-limitations">Dating limits</a>
+          <a href="#related-gibson-guides">Related Gibson guides</a>
+          <a href="#logo-faq">Questions</a>
+        </nav>
+
+        <section class="logo-section" id="logo-introduction">
+          <p class="logo-eyebrow">Use It as One Piece of Evidence</p>
+          <h2>How Much Can A Gibson Logo Tell You?</h2>
+          <p>A headstock logo can place a Gibson in a broad production era, but it rarely gives one exact year. Changes reached different models at different times, and Gibson used more than one construction method for the lettering.</p>
+          <p>Start with the logo, then compare it with the <a href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/">serial number</a>, <a href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/#fon">Factory Order Number</a>, <a href="/gibson-pot-codes/">pot codes</a>, tuners, neck construction and model features. If those clues point to the same period, the date is much stronger.</p>
+          <aside class="logo-note"><h3>Reissues Reproduce Old Logos</h3><p>A modern Historic Reissue may carry a 1950s-style logo on purpose. Replacement necks, repaired headstocks and refinishes can also put a later logo on an older body. Date the whole instrument, not the logo by itself.</p></aside>
+        </section>
+
+        <section class="logo-section" id="logo-materials">
+          <p class="logo-eyebrow">Choose the Right Timeline</p>
+          <h2>Pearl, Silkscreen And Off-Face Gibson Logos</h2>
+          <p>The open-letter, closed-letter and dot rules in the block-logo portion of this guide apply primarily to pearl or pearl-style headstock logos. A gold silkscreen can draw the same letters differently, so it needs to be compared with the correct model line instead of forced into the pearl timeline.</p>
+          <div class="logo-material-grid">
+            <LogoPhoto src={tvModelSilkscreen} id="tv-model-silkscreen-photo" title="1957 Les Paul TV Model Silkscreen" alt="Gold silkscreened Gibson, Les Paul and TV Model markings on a 1957 headstock" caption="This 1957 TV Model has a gold silkscreen with closed letter shapes and a separate dot. It shows why silkscreened logos need their own model-specific timeline." />
+            <div class="logo-material-copy">
+              <h3>Identify The Material Before The Letter Shape</h3>
+              <p>Junior, TV Model, Melody Maker and several acoustic lines use painted or silkscreened marks in periods when higher-trim models use pearl. The model name below the logo, crown, flowerpot or split-diamond inlay can identify the trim level, but those ornaments are model clues rather than one universal date code.</p>
+              <h3>A Blank Face Can Be Normal Later</h3>
+              <p>Some Flying V and Firebird designs place Gibson identification on the truss rod cover or elsewhere instead of the peghead face. A blank face must be read with the model. For construction details beyond the logo, use the <a href="/gibson-physical-features-hardware-guide/">Gibson physical features and hardware guide</a>.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="logo-section" id="at-a-glance">
+          <p class="logo-eyebrow">Quick Reference</p>
+          <h2>Gibson Headstock Logo Timeline At A Glance</h2>
+          <p>These are working date ranges. The photo sections below explain the overlap and the details to inspect.</p>
+          <div class="logo-table-card">
+            <table>
+              <thead><tr><th scope="col">Approximate Era</th><th scope="col">Logo Style</th><th scope="col">Fastest Clue</th></tr></thead>
+              <tbody>
+                {eras.map(era => <tr><td data-label="Approximate Era"><a href={`#${era.id}`}>{era.shortPeriod}</a></td><td data-label="Logo Style">{era.name}</td><td data-label="Fastest Clue">{era.fastClue}</td></tr>)}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="logo-section" id="logo-timeline">
+          <p class="logo-eyebrow">Thirteen Real Examples</p>
+          <h2>Gibson Headstock Logos By Era</h2>
+          <p>Use the enlarge control to inspect the letter shapes in each original photograph.</p>
+          <div class="logo-era-list">
+            {eras.map((era, index) => (
+              <article class="logo-era" id={era.id}>
+                <LogoPhoto src={era.src} id={`${era.id}-photo`} title={`${era.period}: ${era.name}`} alt={era.alt} caption={era.caption} />
+                <div class="logo-era__copy">
+                  <p class="logo-era__number">Logo {String(index + 1).padStart(2, '0')}</p>
+                  <h3>{era.name}, {era.period.replaceAll(' to ', ' To ').replace('early ', 'Early ').replace('late ', 'Late ').replace('present', 'Present')}</h3>
+                  <p>{era.summary}</p>
+                  <h4>{era.clueHeading}</h4>
+                  <ul>{era.clues.map(clue => <li>{clue}</li>)}</ul>
+                  <p class="logo-era__note"><strong>Dating limit:</strong> {era.note}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section class="logo-section" id="logo-limitations">
+          <p class="logo-eyebrow">When the Clues Do Not Agree</p>
+          <h2>Why A Gibson Logo May Not Match The Guitar’s Date</h2>
+          <div class="logo-reason-grid">
+            <div><h3>Gradual Factory Changes</h3><p>Different model lines did not change on one factory-wide date. A transition-year guitar can correctly carry either neighboring logo style.</p></div>
+            <div><h3>Replacement Neck Or Repair</h3><p>An older Gibson can have a later neck, headstock veneer, logo or finish while retaining its original body. Inspect the joint and surrounding finish before assigning a cause.</p></div>
+            <div><h3>Historic Reissue</h3><p>A modern reissue is supposed to copy an earlier logo. Start with its serial format and construction. A certificate can support the identification, but early Historics may lack one and loose certificates can be separated from their guitars.</p></div>
+            <div><h3>Refinish Or Replacement Veneer</h3><p>A refinished face can remove, redraw or replace the original mark. Look for finish disturbance around the binding, tuner holes and headstock edges.</p></div>
+          </div>
+          <h3>Cross-Date The Headstock Before You Decide</h3>
+          <div class="logo-check-grid">
+            <div><span>1</span><p><strong>Decode the numbers.</strong> Check both the serial number and the FON if the guitar has one.</p></div>
+            <div><span>2</span><p><strong>Check dated parts.</strong> Original pot codes can establish the earliest possible assembly date.</p></div>
+            <div><span>3</span><p><strong>Match the model.</strong> Compare pickups, tuners, neck construction, hardware and finish with the claimed year.</p></div>
+            <div><span>4</span><p><strong>Look for repairs.</strong> A blacklight and close inspection can reveal a replacement neck, refinish or veneer, but an old or complete refinish may not produce an obvious contrast.</p></div>
+          </div>
+        </section>
+
+        <section class="logo-section" id="related-gibson-guides">
+          <p class="logo-eyebrow">Continue the Inspection</p>
+          <h2>Related Gibson Dating And Identification Guides</h2>
+          <div class="logo-related-grid">
+            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/"><h3>Gibson Serial Number Lookup</h3><p>Decode the serial or FON, then compare its possible date with the logo era.</p><span>Use The Lookup And Charts</span></a>
+            <a class="logo-related-card" href="/gibson-pot-codes/"><h3>Gibson Pot Code Guide</h3><p>Read maker, year and week codes when the serial number fits more than one year.</p><span>Read The Pot Code Guide</span></a>
+            <a class="logo-related-card" href="/gibson-physical-features-hardware-guide/"><h3>Gibson Physical Features And Hardware</h3><p>Cross-check the logo with neck construction, volutes, body seams, bridges and plating.</p><span>Open The Hardware Guide</span></a>
+            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/identify-vintage-gibson-j45-j50-sj/"><h3>Gibson J-45, J-50 And Southern Jumbo</h3><p>Compare silkscreen, banner and pearl logos on Gibson’s slope-shouldered acoustics.</p><span>Read The Acoustic Guide</span></a>
+            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-les-paul-tv-model-guide/"><h3>Gibson Les Paul TV Model Guide</h3><p>See the gold silkscreen in model-specific context with finish, hardware and serial evidence.</p><span>Read The TV Model Guide</span></a>
+            <a class="logo-related-card" href="/gibson-es-335-345-355-dating-guide/"><h3>Gibson ES-335, ES-345 And ES-355</h3><p>Cross-date thinline headstocks with inlays, pickups, hardware and electronics.</p><span>Open The ES Family Guide</span></a>
+            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-j200-model-history-authentication-guide/"><h3>Gibson J-200 Guide</h3><p>Cross-date an acoustic Gibson with its logo, label, FON, construction and hardware.</p><span>Read The J-200 Guide</span></a>
+            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-l5-ces-value-guide/"><h3>Gibson L-5 CES Guide</h3><p>Follow premium archtop logos, flowerpot inlays and model changes in their proper context.</p><span>Read The L-5 CES Guide</span></a>
+            <a class="logo-related-card logo-related-card--sell" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/"><h3>Sell My Gibson Guitar</h3><p>Joe buys vintage Gibson guitars nationwide and can help identify what you have.</p><span>Learn How To Sell Your Gibson</span></a>
+          </div>
+        </section>
+
+        <section class="logo-section" id="logo-faq">
+          <p class="logo-eyebrow">Common Questions</p>
+          <h2>Gibson Headstock Logo Questions</h2>
+          <div class="logo-faq">
+            {faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
+          </div>
+        </section>
+
+        <aside class="logo-help">
+          <p class="logo-eyebrow">Need a Second Set of Eyes?</p>
+          <h2>Send Joe The Headstock And The Whole Guitar</h2>
+          <p>Send a straight-on headstock photo, the back of the headstock, the serial number or interior label, and clear front and back photos of the guitar. The surrounding details matter as much as the logo.</p>
+          <a href="https://www.joesvintageguitarsaz.com/free-appraisal/">Ask Joe for Help</a>
+          <a class="logo-help__secondary" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/">Sell My Gibson</a>
+        </aside>
+      </div>
+    </div>
+    <LogoPhotoViewer />
+  </GibsonGuideLayout>
+
+<style>
+  .logo-container { width: min(100% - 2.5rem, 76rem); margin-inline: auto; }
+  .logo-hero { padding: 10rem 0 3rem; background: var(--color-ink); color: white; }
+  .logo-hero__grid { display: grid; gap: 2.5rem; align-items: center; }
+  .logo-eyebrow { margin: 0 0 .7rem; color: var(--color-wine-dark); font-size: .8rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+  .logo-hero .logo-eyebrow, .logo-read-card .logo-eyebrow { color: var(--color-gold-light); }
+  h1 { margin: 0; font-family: var(--font-display); font-size: clamp(3rem, 6vw, 5rem); line-height: 1.02; }
+  h1 span { color: var(--color-gold-light); }
+  .logo-lede { margin: 1.5rem 0 1rem; max-width: 46rem; color: #ece3d9; font-size: 1.125rem; line-height: 1.75; }
+  .logo-hero__jump, .logo-byline a { color: var(--color-gold-light); font-weight: 700; text-decoration: underline; text-underline-offset: .25rem; }
+  .logo-byline { margin: 1.5rem 0 0; color: #d2bcb0; font-size: .875rem; }
+  .logo-read-card { border: 1px solid rgb(213 180 119 / .48); border-radius: 1rem; background: #2e2520; padding: 1.4rem; box-shadow: 0 1.5rem 4rem rgb(0 0 0 / .2); }
+  .logo-read-card h2 { margin: 0 0 1rem; color: white; font-family: var(--font-display); font-size: 1.8rem; line-height: 1.15; }
+  .logo-read-card ol { display: grid; gap: .75rem; margin: 0; padding: 0; list-style: none; }
+  .logo-read-card li { display: grid; grid-template-columns: 2rem 1fr; gap: .7rem; align-items: start; }
+  .logo-read-card li > span { display: grid; width: 1.8rem; height: 1.8rem; place-items: center; border: 1px solid var(--color-gold-light); border-radius: 50%; color: var(--color-gold-light); font-family: var(--font-display); }
+  .logo-read-card p { margin: 0; color: #ded2c8; font-size: .9rem; line-height: 1.5; }
+  .logo-read-card strong { color: white; }
+  .logo-body { max-width: 68rem; padding-block: 1rem 4rem; }
+  .logo-toc { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; border-bottom: 1px solid var(--color-rule); padding: 1rem 0 1.5rem; }
+  .logo-toc a, .logo-section a { color: var(--color-wine-dark); font-weight: 650; text-decoration: underline; text-underline-offset: 3px; }
+  .logo-toc a { font-size: .875rem; }
+  .logo-section { padding-block: 2.75rem; scroll-margin-top: 1rem; }
+  .logo-section + .logo-section { border-top: 1px solid var(--color-rule); }
+  .logo-section > h2, .logo-help h2 { margin: 0 0 1rem; font-family: var(--font-display); font-size: clamp(1.9rem, 3vw, 2.65rem); line-height: 1.15; }
+  .logo-section > h3 { margin: 2rem 0 1rem; font-family: var(--font-display); font-size: 1.65rem; line-height: 1.25; }
+  .logo-section > p { max-width: 55rem; margin: 0 0 1.25rem; font-size: 1.0625rem; line-height: 1.8; }
+  .logo-note { max-width: 55rem; margin-top: 1.5rem; border-left: 3px solid var(--color-wine-dark); background: var(--color-cream); padding: 1rem 1.25rem; }
+  .logo-note h3 { margin: 0 0 .45rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .logo-note p { margin: 0; line-height: 1.65; }
+  .logo-material-grid { display: grid; gap: 1.5rem; align-items: center; margin-top: 1.5rem; }
+  .logo-material-copy h3 { margin: 0 0 .55rem; font-family: var(--font-display); font-size: 1.45rem; line-height: 1.2; }
+  .logo-material-copy h3:not(:first-child) { margin-top: 1.5rem; }
+  .logo-material-copy p { margin: 0; line-height: 1.75; }
+  .logo-table-card { overflow-x: auto; border: 1px solid var(--color-rule); border-radius: .85rem; background: white; }
+  .logo-table-card table { width: 100%; min-width: 43rem; border-collapse: collapse; text-align: left; }
+  .logo-table-card th, .logo-table-card td { border-bottom: 1px solid #e7dfd2; padding: .8rem 1rem; vertical-align: top; }
+  .logo-table-card tr:last-child td { border-bottom: 0; }
+  .logo-table-card th { background: #f6f0e6; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+  .logo-table-card td:first-child { color: var(--color-wine-dark); font-weight: 800; white-space: nowrap; }
+  .logo-era-list { margin-top: 2rem; }
+  .logo-era { display: grid; gap: 1.5rem; padding: 2.5rem 0; scroll-margin-top: 1rem; }
+  .logo-era + .logo-era { border-top: 1px solid var(--color-rule); }
+  .logo-era__copy { align-self: center; }
+  .logo-era__number { margin: 0 0 .25rem; color: var(--color-gold); font-size: .72rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+  .logo-era__period { margin: 0; color: var(--color-wine-dark); font-weight: 800; }
+  .logo-era h3 { margin: .35rem 0 1rem; font-family: var(--font-display); font-size: clamp(1.7rem, 3vw, 2.35rem); line-height: 1.08; }
+  .logo-era__copy > p:not(.logo-era__number, .logo-era__period, .logo-era__note) { margin: 0 0 1rem; font-size: 1rem; line-height: 1.75; }
+  .logo-era h4 { margin: 1rem 0 .55rem; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; }
+  .logo-era ul { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+  .logo-era li { border: 1px solid var(--color-rule); border-radius: 999px; background: var(--color-cream); padding: .35rem .7rem; color: #4d4039; font-size: .8rem; font-weight: 700; }
+  .logo-era__note { margin: 1.2rem 0 0; border-left: 3px solid var(--color-gold); padding: .7rem 0 .7rem 1rem; color: #5f5149; font-size: .92rem; line-height: 1.65; }
+  .logo-reason-grid, .logo-check-grid, .logo-related-grid { display: grid; gap: 1rem; margin-top: 1.5rem; }
+  .logo-reason-grid > div, .logo-check-grid > div { border: 1px solid var(--color-rule); border-radius: .75rem; background: var(--color-cream); padding: 1.2rem; }
+  .logo-reason-grid h3 { margin: 0 0 .55rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .logo-reason-grid p, .logo-check-grid p { margin: 0; line-height: 1.65; }
+  .logo-check-grid > div { display: grid; grid-template-columns: 2rem 1fr; gap: .75rem; background: white; }
+  .logo-check-grid span { display: grid; width: 1.8rem; height: 1.8rem; place-items: center; border-radius: 50%; background: var(--color-wine-dark); color: white; font-family: var(--font-display); }
+  .logo-section a.logo-related-card { display: flex; min-height: 100%; flex-direction: column; border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine-dark); border-radius: .8rem; background: white; padding: 1.25rem; color: var(--color-ink); text-decoration: none; transition: transform .18s ease, box-shadow .18s ease; }
+  .logo-section a.logo-related-card:hover, .logo-section a.logo-related-card:focus-visible { transform: translateY(-2px); box-shadow: 0 .6rem 1.4rem rgb(56 34 22 / .12); }
+  .logo-related-card h3 { margin: 0 0 .65rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .logo-related-card p { margin: 0 0 1rem; color: #5f5149; line-height: 1.65; }
+  .logo-related-card span { margin-top: auto; color: var(--color-wine-dark); font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
+  .logo-section a.logo-related-card--sell { border-top-color: var(--color-gold); background: var(--color-cream); }
+  .logo-faq details { border-bottom: 1px solid var(--color-rule); padding: 1rem 0; }
+  .logo-faq summary { cursor: pointer; font-weight: 700; }
+  .logo-faq p { max-width: 55rem; margin: .75rem 0 0; line-height: 1.7; }
+  .logo-help { border: 1px solid var(--color-rule); border-radius: 1rem; background: var(--color-cream); padding: clamp(1.25rem, 4vw, 2.5rem); }
+  .logo-help > p:not(.logo-eyebrow) { max-width: 49rem; line-height: 1.7; }
+  .logo-help > a { display: inline-block; margin: .75rem 1rem 0 0; border-radius: 2rem; background: var(--color-wine-dark); padding: .8rem 1.25rem; color: white; font-weight: 700; }
+  .logo-help > .logo-help__secondary { background: transparent; padding-inline: 0; color: var(--color-wine-dark); text-decoration: underline; text-underline-offset: 3px; }
+  @media (max-width: 639px) {
+    .logo-table-card { overflow: visible; border: 0; background: transparent; }
+    .logo-table-card table, .logo-table-card tbody, .logo-table-card tr, .logo-table-card td { display: block; width: 100%; min-width: 0; }
+    .logo-table-card thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .logo-table-card tbody { display: grid; gap: .75rem; }
+    .logo-table-card tr { overflow: hidden; border: 1px solid var(--color-rule); border-radius: .75rem; background: white; }
+    .logo-table-card td { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: .75rem; border-bottom: 1px solid #e7dfd2; padding: .7rem .85rem; white-space: normal; }
+    .logo-table-card td::before { content: attr(data-label); color: #6d5a50; font-size: .68rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+  }
+  @media (min-width: 700px) {
+    .logo-material-grid { grid-template-columns: minmax(0, 1fr) minmax(18rem, .95fr); gap: 2.5rem; }
+    .logo-reason-grid, .logo-check-grid, .logo-related-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (min-width: 800px) {
+    .logo-era { grid-template-columns: minmax(0, 1.25fr) minmax(18rem, .9fr); gap: 2.5rem; }
+    .logo-era:nth-child(even) :global(.logo-photo) { order: 2; }
+    .logo-era:nth-child(even) .logo-era__copy { order: 1; }
+  }
+  @media (min-width: 1024px) {
+    .logo-hero { padding-top: 18rem; padding-bottom: 4rem; }
+    .logo-hero__grid { grid-template-columns: 1.25fr .8fr; gap: 4rem; }
+  }
+</style>
