@@ -20,6 +20,7 @@ export interface StratocasterYearGuide {
   standardRange: string;
   customRange: string;
   metaValueRange: string;
+  metaDescription: string;
   veryGoodRange: string;
   refinishRange: string;
   answer: string;
@@ -46,6 +47,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$68,000 to $220,000",
     customRange: "Individual appraisal required",
     metaValueRange: "$68,000 to $220,000",
+    metaDescription: "1954 Fender Stratocaster value guide: $68,000 to $220,000. Compare early tremolo-cover serials, later production, originality and first-year specs.",
     veryGoodRange: "$51,000 to $198,000",
     refinishRange: "$31,000 to $132,000",
     answer: "An excellent, all-original 1954 Fender Stratocaster with its original case can bring roughly $68,000 to $220,000. The earliest spring guitars, exceptional preservation, and documented provenance explain the unusually wide spread.",
@@ -77,6 +79,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$40,000 to $64,000",
     customRange: "$80,000 to $160,000",
     metaValueRange: "$40,000 to $64,000",
+    metaDescription: "1955 Fender Stratocaster value guide: $40,000 to $64,000. See how internal dates, original electronics, finish and custom colors affect price.",
     veryGoodRange: "$30,000 to $58,000",
     refinishRange: "$18,000 to $38,000",
     answer: "An excellent, all-original 1955 Fender Stratocaster with its original case is generally worth about $40,000 to $64,000 in sunburst. A rare, authenticated factory custom color can bring roughly $80,000 to $160,000.",
@@ -103,6 +106,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$36,000 to $60,000",
     customRange: "$40,000 to $160,000",
     metaValueRange: "$36,000 to $60,000",
+    metaDescription: "1956 Fender Stratocaster value guide: $36,000 to $60,000. See alder and ash bodies, V-shaped necks, string-tree changes and custom-color premiums.",
     veryGoodRange: "$27,000 to $54,000",
     refinishRange: "$16,000 to $36,000",
     answer: "An excellent, all-original 1956 Fender Stratocaster with its original case is generally worth about $36,000 to $60,000 in sunburst. Authenticated factory custom colors can range from roughly $40,000 to $160,000.",
@@ -129,6 +133,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$32,000 to $48,000",
     customRange: "$40,000 to $160,000",
     metaValueRange: "$32,000 to $48,000",
+    metaDescription: "1957 Fender Stratocaster value guide: $32,000 to $48,000. See maple-neck specs, white tone capacitors, originality and custom-color premiums.",
     veryGoodRange: "$24,000 to $43,000",
     refinishRange: "$14,000 to $29,000",
     answer: "An excellent, all-original 1957 Fender Stratocaster with its original case is generally worth about $32,000 to $48,000 in sunburst. Rare authenticated custom colors can range from about $40,000 to $160,000.",
@@ -155,6 +160,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$28,000 to $36,000",
     customRange: "$36,000 to $144,000",
     metaValueRange: "$28,000 to $36,000",
+    metaDescription: "1958 Fender Stratocaster value guide: $28,000 to $36,000. Compare two- and three-color sunbursts, maple necks, originality and custom-color premiums.",
     veryGoodRange: "$21,000 to $32,000",
     refinishRange: "$13,000 to $22,000",
     answer: "An excellent, all-original 1958 Fender Stratocaster with its original case is generally worth about $28,000 to $36,000 in sunburst. Authenticated custom colors can bring roughly $36,000 to $144,000.",
@@ -181,6 +187,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$20,000 to $28,000",
     customRange: "$32,000 to $128,000",
     metaValueRange: "$20,000 to $28,000",
+    metaDescription: "1959 Fender Stratocaster value guide: $20,000 to $28,000. Compare early maple-board and later slab-board guitars, originality and custom colors.",
     veryGoodRange: "$15,000 to $25,000",
     refinishRange: "$9,000 to $17,000",
     answer: "An excellent, all-original 1959 Fender Stratocaster with its original case is generally worth about $20,000 to $28,000 in sunburst. Authenticated factory custom colors can bring roughly $32,000 to $128,000.",
@@ -211,6 +218,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$20,000 to $28,000",
     customRange: "$32,000 to $68,000",
     metaValueRange: "$20,000 to $28,000",
+    metaDescription: "1960 Fender Stratocaster value guide: $20,000 to $28,000. See slab-board specifications, hardtail rarity, originality and custom-color premiums.",
     veryGoodRange: "$15,000 to $25,000",
     refinishRange: "$9,000 to $17,000",
     answer: "An excellent, all-original 1960 Fender Stratocaster with its original case is generally worth about $20,000 to $28,000 in sunburst. Authenticated factory custom colors can bring roughly $32,000 to $68,000 or more in exceptional cases.",
@@ -240,6 +248,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$17,000 to $27,000",
     customRange: "$28,000 to $64,000",
     metaValueRange: "$17,000 to $27,000",
+    metaDescription: "1961 Fender Stratocaster value guide: $17,000 to $27,000. See slab-board specs, ceramic tone capacitors, originality and custom-color premiums.",
     veryGoodRange: "$13,000 to $24,000",
     refinishRange: "$8,000 to $16,000",
     answer: "An excellent, all-original 1961 Fender Stratocaster with its original case is generally worth about $17,000 to $27,000 in sunburst. Authenticated factory custom colors can bring roughly $28,000 to $64,000 or more when the color is especially scarce.",
@@ -266,6 +275,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$16,000 to $26,000",
     customRange: "$26,000 to $60,000",
     metaValueRange: "$16,000 to $26,000",
+    metaDescription: "1962 Fender Stratocaster value guide: $16,000 to $26,000. Compare slab- and veneer-board guitars, L-series plates, originality and custom colors.",
     veryGoodRange: "$12,000 to $23,000",
     refinishRange: "$7,000 to $16,000",
     answer: "An excellent, all-original 1962 Fender Stratocaster with its original case is generally worth about $16,000 to $26,000 in sunburst. Authenticated factory custom colors can bring roughly $26,000 to $60,000 or more.",
@@ -299,6 +309,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$15,000 to $24,000",
     customRange: "$22,000 to $52,000",
     metaValueRange: "$15,000 to $24,000",
+    metaDescription: "1963 Fender Stratocaster value guide: $15,000 to $24,000. See L-series plates, dot spacing, guard changes, originality and custom-color premiums.",
     veryGoodRange: "$11,000 to $22,000",
     refinishRange: "$7,000 to $14,000",
     answer: "An excellent, all-original 1963 Fender Stratocaster with its original case is generally worth about $15,000 to $24,000 in sunburst. Authenticated factory custom colors can bring roughly $22,000 to $52,000 or more.",
@@ -329,6 +340,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$14,000 to $22,000",
     customRange: "$20,000 to $48,000",
     metaValueRange: "$14,000 to $22,000",
+    metaDescription: "1964 Fender Stratocaster value guide: $14,000 to $22,000. See logo, dot and pickup transitions, originality, Fiesta Red and other custom colors.",
     veryGoodRange: "$11,000 to $20,000",
     refinishRange: "$6,000 to $13,000",
     answer: "An excellent, all-original 1964 Fender Stratocaster with its original case is generally worth about $14,000 to $22,000 in sunburst. Authenticated factory custom colors can bring roughly $20,000 to $48,000 or more.",
@@ -355,6 +367,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     standardRange: "$14,000 to $22,000 early; $12,000 to $20,000 late",
     customRange: "$18,000 to $44,000 early; $16,000 to $36,000 late",
     metaValueRange: "$12,000 to $22,000",
+    metaDescription: "1965 Fender Stratocaster value guide: $12,000 to $22,000. Compare early small-headstock and late CBS guitars, originality and custom-color premiums.",
     veryGoodRange: "$11,000 to $20,000 early; $9,000 to $18,000 late",
     refinishRange: "$6,000 to $13,000 early; $5,000 to $12,000 late",
     answer: "An excellent, all-original 1965 Fender Stratocaster with its original case is generally worth about $14,000 to $22,000 for an early small-headstock example and $12,000 to $20,000 for a later large-headstock example. Original custom colors can bring materially more.",

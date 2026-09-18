@@ -29,7 +29,7 @@ const nextGuide = stratocasterYearGuides[guideIndex + 1];
 const canonicalPath = `/vintage-fender-stratocaster-value-guide/${guide.year}/`;
 const canonicalUrl = `https://www.joesvintageguitarsaz.com${canonicalPath}`;
 const articleImage = "https://www.joesvintageguitarsaz.com/images/og/vintage-fender-stratocaster-value-guide-v2.png";
-const articleDescription = `${guide.year} Fender Stratocaster value guide: ${guide.metaValueRange} for excellent original sunburst guitars, with custom-color values, specs and appraisal advice.`;
+const articleDescription = guide.metaDescription;
 
 const conditionBands = [
   { condition: "Excellent and all original", value: guide.standardRange, note: "The headline sunburst range, assuming the original case and a coherent, authenticated guitar." },
