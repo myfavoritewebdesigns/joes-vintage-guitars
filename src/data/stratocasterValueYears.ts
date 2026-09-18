@@ -1,11 +1,14 @@
 import type { ImageMetadata } from "astro";
 
-import strat1956 from "../assets/images/sell-fender/1956-fender-stratocaster-sunburst-800x533.jpg";
+import strat1955 from "../assets/images/sell-fender/1956-fender-stratocaster-sunburst-800x533.jpg";
 import bodyDate1955 from "../assets/images/fender-sn/1955-fender-stratocaster-body-date.jpg";
 import bodyDate1956 from "../assets/images/fender-sn/1956-fender-stratocaster-body-date-neck-pickup-cavity.jpg";
+import strat1956Blonde from "../assets/blog/fender-custom-color-authentication-guide/1956-fender-stratocaster-blonde-factory-refin-serial-number-neck-heel.jpg";
+import strat1956Electronics from "../assets/images/fender-sn/1956-fender-stratocaster-capacitor.jpg";
 import strat1960 from "../assets/blog/hardtail-stratocaster-vintage-guide/1960-fender-stratocaster-hardtail-sunburst-scaled.jpg";
+import strat1960Front from "../assets/blog/hardtail-stratocaster-vintage-guide/1960-fender-stratocaster-hardtail-front-1024x683.jpg";
 import strat1962 from "../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg";
-import slab1962 from "../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-slab-board-example.jpg";
+import slab1962 from "../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-slab-board-example.jpg";
 import strat1963 from "../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-sunburst-front.jpg";
 import electronics1963 from "../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-electronics.jpg";
 import strat1964 from "../assets/blog/fender-custom-color-authentication-guide/1964-fender-stratocaster-fiesta-red-front.jpg";
@@ -48,12 +51,12 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     ],
     checks: ["Confirm whether the serial belongs on the tremolo cover or neck plate for the claimed build window.", "Match the neck, body, pots, pickups, plastics, solder, and hardware rather than relying on one low serial number.", "Treat any non-sunburst finish as an authentication project, not an automatic custom-color premium."],
     appraisalExample: "A late-1954 two-color sunburst with the correct eight-screw guard, coherent 250K pots, original pickups, and honest wear belongs in a different part of the range from a spring guitar with trem-cover serial, early knobs, and unusually complete provenance.",
-    photo: strat1956,
-    photoAlt: "Mid-1950s Fender Stratocaster in sunburst used as a period reference for a 1954 value guide",
-    photoCaption: "Period reference: this 1956 shows the small-headstock, maple-neck appearance shared with later 1954 Strats. It is not presented as a 1954 guitar.",
+    photo: strat1955,
+    photoAlt: "1955 Fender Stratocaster in sunburst showing features shared with late 1954 examples",
+    photoCaption: "This 1955 Stratocaster is a good example of what many late-1954 features look like: the small headstock, one-piece maple neck, eight-screw guard, and two-color sunburst.",
     detailPhoto: bodyDate1955,
     detailAlt: "Penciled body date inside the tremolo cavity of a 1955 Fender Stratocaster",
-    detailCaption: "Adjacent-year reference: hidden pencil dates are the kind of internal evidence required when an outside feature set cannot settle the year.",
+    detailCaption: "This 1955 body date shows the kind of hidden pencil evidence used to distinguish neighboring maple-neck years.",
   },
   {
     year: "1955",
@@ -71,12 +74,12 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     ],
     checks: ["Photograph the tremolo cavity and pickup routes for pencil dates if the guitar can be opened safely.", "Check that the pot codes predate, but do not postdate, the neck and body evidence.", "Inspect brittle knobs and pickup covers carefully; early plastics are commonly replaced."],
     appraisalExample: "A sunburst guitar with a visible 1955 body date, matching neck date, correct eight-screw guard, and original pickups can support the year claim. A 1955-looking guitar with no internal agreement should not be priced from appearance alone.",
-    photo: bodyDate1955,
-    photoAlt: "Penciled 1955 Fender Stratocaster body date inside the rear tremolo cavity",
-    photoCaption: "A real 1955 Stratocaster body date penciled inside the rear tremolo spring cavity.",
-    detailPhoto: strat1956,
-    detailAlt: "Mid-1950s Fender Stratocaster in two-color sunburst with a one-piece maple neck",
-    detailCaption: "Adjacent-year reference: this 1956 shows the broad mid-1950s appearance. The hidden dates separate a 1955 from the guitars around it.",
+    photo: strat1955,
+    photoAlt: "1955 Fender Stratocaster in two-color sunburst with a one-piece maple neck",
+    photoCaption: "A 1955 Stratocaster in two-color sunburst with its one-piece maple neck and eight-screw guard.",
+    detailPhoto: bodyDate1955,
+    detailAlt: "Penciled 1955 Fender Stratocaster body date inside the rear tremolo cavity",
+    detailCaption: "A real 1955 Stratocaster body date penciled inside the rear tremolo spring cavity.",
   },
   {
     year: "1956",
@@ -94,12 +97,12 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     ],
     checks: ["Read the body date and neck date before deciding whether a round or butterfly tree is correct.", "Confirm the eight-screw single-ply guard and original screw pattern in the body.", "Separate an original custom color, old refinish, and factory refinish before applying any premium."],
     appraisalExample: "A clean sunburst 1956 with matching dates, original pickups and solder, butterfly tree, and original case can sit near the top of the standard range. A good refinish can remain desirable but belongs in a different price category.",
-    photo: strat1956,
-    photoAlt: "Original 1956 Fender Stratocaster in sunburst",
-    photoCaption: "A 1956 Stratocaster in the standard sunburst finish.",
-    detailPhoto: bodyDate1956,
-    detailAlt: "Penciled body date in the neck pickup cavity of a 1956 Fender Stratocaster",
-    detailCaption: "A 1956 body date hidden inside the neck pickup cavity, one of the checks that anchors the year.",
+    photo: strat1956Blonde,
+    photoAlt: "Blonde 1956 Fender Stratocaster with the neck removed to show the neck heel and body",
+    photoCaption: "This 1956 Stratocaster was factory-refinished in blonde at Fullerton. The exposed neck heel, body, and electronics make it a useful identification reference.",
+    detailPhoto: strat1956Electronics,
+    detailAlt: "Original electronics and phone-book capacitor inside a blonde 1956 Fender Stratocaster",
+    detailCaption: "The blonde 1956 Stratocaster's electronics, including its phone-book capacitor and period pot code, provide additional year evidence.",
   },
   {
     year: "1957",
@@ -117,12 +120,12 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     ],
     checks: ["Look for a white paper tone capacitor without treating it as a substitute for component dates.", "Confirm that an apparent two-color burst has not lost its red band through fading or refinishing.", "Check for enlarged tuner holes and extra pickguard holes, two common permanent deductions."],
     appraisalExample: "A played but coherent 1957 with original finish and electronics can be worth more than a cleaner-looking refinish. Honest wear is visible history; removed original material changes what the guitar is.",
-    photo: strat1956,
-    photoAlt: "Mid-1950s Fender Stratocaster used as a period reference for 1957 specifications",
-    photoCaption: "Period reference: this 1956 shows the small-headstock maple-neck platform that continues into 1957. It is not labeled as a 1957 guitar.",
+    photo: strat1955,
+    photoAlt: "1955 Fender Stratocaster showing features that continued into 1957",
+    photoCaption: "This 1955 Stratocaster shows many features that continued into 1957: the small headstock, one-piece maple neck, eight-screw guard, and two-color sunburst.",
     detailPhoto: bodyDate1956,
     detailAlt: "Penciled mid-1950s Fender Stratocaster body date in a pickup cavity",
-    detailCaption: "Adjacent-year reference: internal dates and electronics, not the outside silhouette alone, separate neighboring maple-neck years.",
+    detailCaption: "Internal dates and electronics separate neighboring maple-neck years when the outside features overlap.",
   },
   {
     year: "1958",
@@ -142,10 +145,10 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     appraisalExample: "A faded original three-color burst with coherent internal evidence can outrank a glossy refinished guitar. The protected color under the guard often explains what the outside no longer shows.",
     photo: strat1960,
     photoAlt: "1960 Fender Stratocaster hardtail in three-color sunburst used as a close period reference for 1958",
-    photoCaption: "Close period reference: this 1960 shows the three-color burst introduced in 1958. It is not presented as a 1958 guitar.",
-    detailPhoto: strat1956,
-    detailAlt: "1956 Fender Stratocaster in two-color sunburst used to compare with the 1958 three-color finish",
-    detailCaption: "The earlier two-color look for comparison. In 1958 an orange-red band enters the standard burst.",
+    photoCaption: "This 1960 hardtail shows the three-color sunburst introduced in 1958, including the red-orange band between the yellow center and dark edge.",
+    detailPhoto: strat1955,
+    detailAlt: "1955 Fender Stratocaster in two-color sunburst used to compare with the 1958 three-color finish",
+    detailCaption: "This 1955 Stratocaster shows the earlier two-color look for comparison. In 1958 an orange-red band enters the standard burst.",
   },
   {
     year: "1959",
@@ -186,9 +189,9 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     ],
     checks: ["Do not reject a bottom-edge neck-plate serial without checking the rest of the 1960 evidence.", "Confirm the thick slab profile at the nut and undisturbed clay-dot board.", "Check that hardtail routing, bridge, and body work are factory rather than a blocked or modified tremolo."],
     appraisalExample: "A 1960 hardtail with an original sunburst, coherent dates, and untouched electronics is valued as a complete factory specification, not by adding a generic rarity percentage to a tremolo guitar.",
-    photo: strat1960,
-    photoAlt: "Original 1960 Fender Stratocaster hardtail in three-color sunburst",
-    photoCaption: "A real 1960 hardtail Stratocaster in three-color sunburst.",
+    photo: strat1960Front,
+    photoAlt: "Front of an original 1960 Fender Stratocaster hardtail in three-color sunburst",
+    photoCaption: "A real 1960 hardtail Stratocaster from the front, showing its three-color sunburst, slab rosewood board, and three-ply guard.",
     detailPhoto: slab1962,
     detailAlt: "Slab rosewood fingerboard on a 1962 Fender Stratocaster representing the construction used in 1960",
     detailCaption: "Period-feature reference: the thick slab rosewood construction shown here is the defining 1960 fingerboard style.",
@@ -211,10 +214,10 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     appraisalExample: "A 1961 with honest wear, slab board, correct ceramic capacitor, and original solder can remain a strong collector guitar even if it is not cosmetically mint. Coherence is worth more than polish.",
     photo: strat1962,
     photoAlt: "1962 Fender Stratocaster in sunburst used as a close period reference for a 1961 value guide",
-    photoCaption: "Close period reference: this 1962 shares the slab-board, clay-dot, small-headstock platform used in 1961. It is not presented as a 1961 guitar.",
-    detailPhoto: electronics1963,
-    detailAlt: "Vintage Fender Stratocaster electronics under a three-ply pickguard",
-    detailCaption: "Nearby-period electronics show why the underside matters: pots, capacitor, pickups, cloth wire, and solder need to tell one story.",
+    photoCaption: "This 1962 Stratocaster shows the slab-board, clay-dot, small-headstock platform used in 1961.",
+    detailPhoto: slab1962,
+    detailAlt: "Thick slab rosewood fingerboard on a 1962 Fender Stratocaster showing the construction used in 1961",
+    detailCaption: "The thick, flat-bottomed slab rosewood board shown here is the fingerboard construction used in 1961.",
   },
   {
     year: "1962",
