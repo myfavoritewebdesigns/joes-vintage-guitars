@@ -6,6 +6,8 @@
 .serial-hero-layout { grid-template-areas: 'heading' 'tool' 'intro'; }
 
 @media (max-width: 1023px) {
+  .serial-hero-layout { grid-template-columns: minmax(0, 1fr); }
+  .serial-hero-layout > * { min-width: 0; }
   .serial-hero-heading > p { display: none; }
   .serial-hero-heading h1 { font-size: clamp(2.25rem, 7vw, 3.5rem); line-height: 1.05; letter-spacing: -.025em; }
 }

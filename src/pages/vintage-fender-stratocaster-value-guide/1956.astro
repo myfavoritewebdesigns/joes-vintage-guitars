@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import PageHero from "../../components/primitives/PageHero.astro";
 import Button from "../../components/primitives/Button.astro";
 import ContactSection from "../../components/ContactSection.astro";
+import BrandDatingGuides from "../../components/BrandDatingGuides.astro";
 import { contact, hrefs } from "../../config/site";
 
 const structuredData = [
@@ -118,6 +119,11 @@ const specs = [
       </div>
     </div>
   </section>
+
+  <BrandDatingGuides
+    brand="fender"
+    featuredGuide={{ label: "Fender Stratocaster Dating Guide", href: "/fender-stratocaster-dating-guide/" }}
+  />
 
   <ContactSection />
 </Layout>

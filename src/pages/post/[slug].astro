@@ -25,6 +25,7 @@ import OneOwner1955MartinD28Story from "../../components/OneOwner1955MartinD28St
 import OneOwner1956Martin00021Story from "../../components/OneOwner1956Martin00021Story.astro";
 import LesPaulFamilyGuide from "../../components/LesPaulFamilyGuide.astro";
 import GibsonSGFamilyGuide from "../../components/GibsonSGFamilyGuide.astro";
+import BrandDatingGuides from "../../components/BrandDatingGuides.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
 import { getPublishedPosts, getRelated, categoryName, formatDate } from "../../lib/blog";
 import { resolveImage, assetSrc } from "../../lib/images";
@@ -65,6 +66,41 @@ const isGibsonJ200Guide = entry.id === "gibson-j200-model-history-authentication
 const isEs225Guide = entry.id === "gibson-es-225-guide";
 const isLesPaulFamilyGuide = entry.id === "vintage-gibson-les-paul-family-guide";
 const isGibsonSGFamilyGuide = entry.id === "vintage-gibson-sg-family-guide";
+
+const brandKey = `${entry.id} ${data.title}`.toLowerCase();
+const datingBrand = brandKey.includes("fender")
+  ? "fender"
+  : brandKey.includes("gibson") || brandKey.includes("les paul") || /es[- ]?(125|175|225|330|335|345|355)\b/.test(brandKey)
+    ? "gibson"
+    : null;
+
+const featuredDatingGuide = datingBrand === "gibson"
+  ? /es[- ]?330/.test(brandKey)
+    ? { label: "Gibson ES-330 Dating Guide", href: "/gibson-es-330-dating-guide/" }
+    : /es[- ]?(335|345|355)/.test(brandKey)
+      ? { label: "Gibson ES-335, ES-345 And ES-355 Dating", href: "/gibson-es-335-345-355-dating-guide/" }
+      : /les paul|goldtop/.test(brandKey)
+        ? { label: "Gibson Les Paul Dating Guide", href: "/gibson-les-paul-dating-guide/" }
+        : /\bsg\b/.test(brandKey)
+          ? { label: "Gibson SG Dating Guide", href: "/gibson-sg-dating-guide/" }
+          : undefined
+  : datingBrand === "fender"
+    ? /stratocaster|\bstrat\b/.test(brandKey)
+      ? { label: "Fender Stratocaster Dating Guide", href: "/fender-stratocaster-dating-guide/" }
+      : /telecaster|\btele\b/.test(brandKey)
+        ? { label: "Fender Telecaster Dating Guide", href: "/fender-telecaster-dating-guide/" }
+        : /jazzmaster/.test(brandKey)
+          ? { label: "Fender Jazzmaster Dating Guide", href: "/fender-jazzmaster-dating-guide/" }
+          : /jaguar/.test(brandKey)
+            ? { label: "Fender Jaguar Dating Guide", href: "/fender-jaguar-dating-guide/" }
+            : /mustang/.test(brandKey)
+              ? { label: "Fender Mustang Dating Guide", href: "/fender-mustang-dating-guide/" }
+              : /precision bass/.test(brandKey)
+                ? { label: "Fender Precision Bass Dating Guide", href: "/fender-precision-bass-dating-guide/" }
+                : /jazz bass/.test(brandKey)
+                  ? { label: "Fender Jazz Bass Dating Guide", href: "/fender-jazz-bass-dating-guide/" }
+                  : undefined
+    : undefined;
 
 const postUrl = `${SITE_URL}/post/${entry.id}/`;
 const catName = categoryName(data.category, data.categoryName);
@@ -564,6 +600,8 @@ const articleSchema = {
   )}
     </>
   )}
+
+  {datingBrand && <BrandDatingGuides brand={datingBrand} featuredGuide={featuredDatingGuide} />}
 
   {!isAlexandriaStratocasterStory && !isJoshuaTelecasterStory && !isLesPaulFamilyGuide && !isGibsonSGFamilyGuide && <ContactSection />}
 

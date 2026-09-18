@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import BrandDatingGuides from "../../components/BrandDatingGuides.astro";
 import { SITE_URL, imageLicense } from "../../config/site";
 
 const canonicalPath = "/post/gibson-es-335-345-355-guide/";
@@ -317,6 +318,10 @@ const faqSchema = {
       </section>
     </div>
   </article>
+  <BrandDatingGuides
+    brand="gibson"
+    featuredGuide={{ label: "Gibson ES-335, ES-345 And ES-355 Dating", href: "/gibson-es-335-345-355-dating-guide/" }}
+  />
 </Layout>
 
 <style>
