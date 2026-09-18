@@ -53,6 +53,7 @@ const models = [
     alt: "Original 1945 Martin D-18 mahogany dreadnought resting in its case",
     caption: "A 1945 Martin D-18 with the model’s restrained Style 18 appointments.",
     copy: "The D-18 pairs a spruce top with mahogany back and sides. It is usually the least expensive of these three models, but clean 1930s and wartime examples can still reach six figures.",
+    guide: { href: "/post/martin-d18-history-specs-authentication-value-guide/", label: "See the complete Martin D-18 guide for year-by-year changes." },
   },
   {
     name: "Martin D-28",
@@ -60,6 +61,7 @@ const models = [
     alt: "Original 1959 Martin D-28 rosewood dreadnought in its green-lined case",
     caption: "A 1959 D-28 with spruce top, rosewood body and Style 28 trim.",
     copy: "The D-28 uses rosewood back and sides and sits at the center of the vintage dreadnought market. Pre-1947 herringbone guitars bring the strongest prices, but 1950s and 1960s Brazilian-rosewood examples remain highly collectible.",
+    guide: { href: "/post/one-family-1946-martin-d-28/", label: "See a documented one-family 1946 herringbone D-28." },
   },
   {
     name: "Martin D-45",
@@ -67,15 +69,16 @@ const models = [
     alt: "Martin D-45 dreadnought with pearl top border and fingerboard inlays",
     caption: "Style 45 pearl trim is unmistakable, but the neck-block stamp must still confirm the model.",
     copy: "The D-45 adds extensive pearl trim and Martin’s highest appointment level. Martin made only 91 before discontinuing the model in 1942, then returned it to production in 1968.",
+    guide: null,
   },
 ];
 
 const drivers = [
-  { t: "Age", b: "A 1937 scalloped-brace dreadnought and a 1967 guitar are not in the same market. Date the guitar from the neck-block serial, then confirm that its construction fits the year." },
-  { t: "Model", b: "D-18s use mahogany back and sides. Vintage D-28s and D-45s use rosewood, and standard production changed from Brazilian to East Indian rosewood in 1969." },
-  { t: "Originality", b: "The finish, top, bridge, bridge plate, braces, tuners, pickguard and hardware all matter. A replaced bridge is not the same deduction as a replacement top or full refinish." },
-  { t: "Condition", b: "Cracks, loose braces, a shaved bridge, overspray and poor structural work affect value. A clean professional neck reset is normal maintenance on many old Martins, not automatic disqualification." },
-  { t: "Provenance", b: "Original-owner photographs, receipts, correspondence and a documented repair history make a guitar easier to authenticate and can strengthen buyer confidence." },
+  { t: "Age", b: "A 1937 scalloped-brace dreadnought and a 1967 guitar are not in the same market. Date the guitar from the neck-block serial, then confirm that its construction fits the year.", link: null },
+  { t: "Model", b: "D-18s use mahogany back and sides. Vintage D-28s and D-45s use rosewood, and standard production changed from Brazilian to East Indian rosewood in 1969.", link: null },
+  { t: "Originality", b: "The finish, top, bridge, bridge plate, braces, tuners, pickguard and hardware all matter. A replaced bridge is not the same deduction as a replacement top or full refinish.", link: null },
+  { t: "Condition", b: "Cracks, loose braces, a shaved bridge, overspray and poor structural work affect value. A clean professional neck reset is normal maintenance on many old Martins, not automatic disqualification.", link: { href: "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/", label: "See the acoustic-guitar neck-reset guide for practical checks." } },
+  { t: "Provenance", b: "Original-owner photographs, receipts, correspondence and a documented repair history make a guitar easier to authenticate and can strengthen buyer confidence.", link: { href: "/post/one-owner-1955-martin-d28/", label: "See how provenance supported a one-owner 1955 D-28." } },
 ];
 
 const prices = [
@@ -175,7 +178,7 @@ structuredData.push({
         </p>
         <p>
           That spread is wide because a 1960s D-18 and one of the 91 pre-war D-45s are completely different markets.
-          Start by identifying the model and serial-number year, then evaluate the wood and construction before using
+          Start by <a href="/martin-serial-and-model-numbers/">identifying the model and serial-number year</a>, then evaluate the wood and construction before using
           any price. For an exact figure on your guitar, <a href="/free-appraisal/">get a free appraisal</a> and I’ll
           give you a straight answer.
         </p>
@@ -216,7 +219,7 @@ structuredData.push({
               <LicensedImage src={model.image} alt={model.alt} width={760} loading="lazy" decoding="async" sizes="(max-width: 720px) 100vw, 33vw" />
               <figcaption>{model.caption}</figcaption>
             </figure>
-            <div class="vg-model-card__body"><h3>{model.name}</h3><p>{model.copy}</p></div>
+            <div class="vg-model-card__body"><h3>{model.name}</h3><p>{model.copy} {model.guide && <a href={model.guide.href}>{model.guide.label}</a>}</p></div>
           </article>
         ))}
       </div>
@@ -261,7 +264,7 @@ structuredData.push({
         <h2 class="vg-head">What Drives the Value</h2>
         <div class="vg-rule" aria-hidden="true"></div>
         <p class="vg-section-intro">I work from permanent construction details toward replaceable parts. The serial number establishes the year, but a serial number by itself cannot tell you whether the top, finish, bridge or braces are original.</p>
-        <div class="vg-grid">{drivers.map((driver) => <article class="vg-card"><h3>{driver.t}</h3><p>{driver.b}</p></article>)}</div>
+        <div class="vg-grid">{drivers.map((driver) => <article class="vg-card"><h3>{driver.t}</h3><p>{driver.b} {driver.link && <a href={driver.link.href}>{driver.link.label}</a>}</p></article>)}</div>
       </div>
       <figure class="vg-feature vg-feature--wear">
         <LicensedImage src={martinD18Wear} alt="Honest pick wear and finish checking on a 1951 Martin D-18" width={900} loading="lazy" decoding="async" sizes="(max-width: 900px) 100vw, 34vw" />
