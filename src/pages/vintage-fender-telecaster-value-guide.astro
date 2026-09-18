@@ -2,42 +2,68 @@
 import Layout from "../layouts/Layout.astro";
 import PageHero from "../components/primitives/PageHero.astro";
 import Button from "../components/primitives/Button.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
-import { contact, hrefs } from "../config/site";
+import { resolveImage, assetSrc } from "../lib/images";
+import { contact, hrefs, SITE_URL } from "../config/site";
 
-const structuredData = [
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
-      { "@type": "ListItem", position: 2, name: "Vintage Fender Telecaster Value Guide", item: "https://www.joesvintageguitarsaz.com/vintage-fender-telecaster-value-guide/" },
-    ],
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "Vintage Fender Telecaster Value Guide",
-    author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
-    publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
-    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/vintage-fender-telecaster-value-guide/",
-  },
-];
+const T52 = "1952-fender-telecaster-authentication-guide";
+const J52 = "joshuas-1952-fender-telecaster";
+const T59 = "1959-fender-telecaster-authentication-guide";
+const T60 = "one-owner-1960-fender-telecaster";
+const bmeta = (slug: string, file: string) => resolveImage(`images/blog/${slug}/${file}`)!;
+const meta = (file: string) => resolveImage(`images/fender-sn/${file}`)!;
+
+const PAGE_URL = `${SITE_URL}/vintage-fender-telecaster-value-guide/`;
+const ARTICLE_IMAGE = `images/blog/${T52}/1952-fender-telecaster-body-scaled.jpg`;
 
 const models = [
-  { t: "Broadcaster", b: "Fender’s very first solid-body electric, named after Leo Fender’s radio background. Only about 200 were made, so they’re extremely rare. In early 1951 Gretsch asked Fender to drop the name, since Gretsch used ‘Broadkaster’ on a drum." },
-  { t: "Nocaster", b: "When Fender pulled the ‘Broadcaster’ off the decal, the headstock just read ‘Fender’ with no model name. Very few were built in this short transitional stretch, which is what makes them collectible." },
-  { t: "Telecaster", b: "Around September 1951 Fender settled on ‘Telecaster,’ the name it still carries. The earliest ones have black pickguards (‘Blackguards’) and are the most collectible." },
-  { t: "Esquire", b: "An Esquire is a Telecaster without a neck pickup. They’re less in-demand than the two-pickup models but still a valuable collectible, usually around 75% of a same-year, same-color Telecaster." },
+  {
+    t: "Broadcaster",
+    b: "Fender’s first two-pickup solid-body electric carried the Broadcaster name in 1950. Only about 200 were made before Gretsch objected to the name, making surviving original examples exceptionally scarce.",
+  },
+  {
+    t: "Nocaster",
+    b: "In early 1951 Fender clipped the model name from the decal and shipped guitars marked only ‘Fender.’ Collectors call these transitional instruments Nocasters. The short production window is a major part of their value.",
+  },
+  {
+    t: "Telecaster",
+    b: "Fender settled on the Telecaster name later in 1951. The earliest examples have black phenolic pickguards and are known as blackguards. White pickguards arrived during 1954.",
+  },
+  {
+    t: "Esquire",
+    b: "An Esquire uses the same basic platform with one pickup instead of two. It is still a serious vintage Fender collectible and is usually worth about 75% of a same-year, same-color Telecaster.",
+  },
 ];
 
 const drivers = [
-  { t: "Originality & Condition", b: "Fender used modular, swappable parts, so a lot of these guitars have had pieces changed over the years. Any modification cuts into the collectible value, a refinish runs about half of an original-finish example, and replaced parts take a real bite too. Cleaner guitars bring more." },
-  { t: "Color & Finish", b: "Blonde was the standard finish. Anything else was a custom color at an upcharge, so those are much rarer and worth more depending on the color. Confirming an original finish takes a close, experienced look." },
-  { t: "Year of Manufacture", b: "Earlier guitars were built in smaller numbers, with the more desirable features and hand-built quality. Value drops as the year goes up, with the early-’50s models at the top." },
+  {
+    t: "Model and Year",
+    b: "Broadcasters, Nocasters, and early blackguard Telecasters lead the market. Values generally step down as production increases and the guitar moves into the later 1950s and CBS years.",
+  },
+  {
+    t: "Original Finish",
+    b: "Blonde was the standard finish. A verified original custom color can bring a large premium, while a refinish usually puts the guitar near half the value of a comparable original-finish example.",
+  },
+  {
+    t: "Original Parts",
+    b: "Pickups, bridge, saddles, tuners, pickguard, pots, switch, knobs, and wiring all matter. One changed part does not make the guitar worthless, but every change should be identified before a price is assigned.",
+  },
+  {
+    t: "Condition",
+    b: "Honest play wear is normal and can be attractive to collectors. Breaks, added routes, overspray, severe corrosion, or poorly repaired damage have a much larger effect than ordinary checking and edge wear.",
+  },
+  {
+    t: "Dating Evidence",
+    b: "The serial number is only one clue. Neck and body dates, pot codes, pickup construction, pickguard material, bridge details, logo, and tuners should agree with the claimed year.",
+  },
+  {
+    t: "Case and Provenance",
+    b: "The correct original case, hang tags, receipts, photographs, and a clear ownership history can support the top of a range. They help most when the guitar itself is already clean and original.",
+  },
 ];
 
-// Model / year (+ finish), value range. en-dash ranges.
 const prices = [
   { m: "Broadcaster (1950)", v: "$90,000 to $175,000" },
   { m: "Nocaster (1951)", v: "$65,000 to $110,000" },
@@ -55,11 +81,111 @@ const prices = [
   { m: "Telecaster (1965 to 1968, blonde)", v: "$9,000 to $22,000" },
   { m: "Telecaster (1965 to 1968, custom color)", v: "$15,000 to $35,000" },
 ];
+
+const changes = [
+  {
+    part: "Refinished Body or Neck",
+    effect: "Major",
+    note: "A refinish usually places the guitar near half the value of a comparable original-finish example. Overspray and touch-up work need a separate evaluation.",
+  },
+  {
+    part: "Changed Pickups or Electronics",
+    effect: "Moderate to Major",
+    note: "Original pickups and untouched solder joints are important. Correct period replacements help, but they are not valued the same as factory-installed parts.",
+  },
+  {
+    part: "Changed Tuners or Bridge Parts",
+    effect: "Moderate",
+    note: "The effect depends on what was changed and whether new holes were drilled. Keeping the removed original parts with the guitar helps.",
+  },
+  {
+    part: "Professional Refret",
+    effect: "Usually Limited",
+    note: "A well-executed refret is generally less damaging to value than a refinish, route, or broken headstock. Poor work and an altered fingerboard are different matters.",
+  },
+  {
+    part: "Added Body Routes",
+    effect: "Major",
+    note: "Routing the body for another pickup or control is permanent woodwork. Even if the original hardware survives, the alteration materially reduces collector value.",
+  },
+  {
+    part: "Missing Original Case",
+    effect: "Limited to Moderate",
+    note: "A missing case does not change the guitar itself, but it can keep an otherwise exceptional example from reaching the top of the range.",
+  },
+];
+
+const faqs = [
+  {
+    q: "How much is a vintage Fender Telecaster worth?",
+    a: "The value depends on the model, year, finish, condition, and originality. The all-original examples in this guide run from about $9,000 for some 1965 to 1968 blonde Telecasters to $175,000 for an exceptional 1950 Broadcaster. A verified original custom color can be worth much more than the standard blonde finish from the same year.",
+  },
+  {
+    q: "Why are Broadcasters and Nocasters worth more than Telecasters?",
+    a: "They were made during two very short naming periods at the beginning of Fender solid-body production. Their rarity, early specifications, and historical importance put clean original examples at the top of the market.",
+  },
+  {
+    q: "How much is a vintage Fender Esquire worth?",
+    a: "An original Esquire is typically worth about 75% of a same-year, same-color Telecaster. The exact figure still depends on the year, finish, condition, and whether its one-pickup configuration remains original.",
+  },
+  {
+    q: "Can a Telecaster serial number tell me the exact year?",
+    a: "No. A serial number gives a production window, not a complete authentication. Confirm it against the neck date, body date, pot codes, pickups, bridge, pickguard, tuners, logo, and other year-specific features. Use the <a href=\"/fender-guitars-serial-number-guide/\">Fender serial number guide</a> and the <a href=\"/fender-telecaster-dating-guide/\">Telecaster dating guide</a> together.",
+  },
+  {
+    q: "How much does a refinish lower vintage Telecaster value?",
+    a: "A refinished Telecaster usually lands near half the value of a comparable original-finish example. The quality and age of the work, the originality of the remaining parts, and whether the body was sanded or altered can move the final number.",
+  },
+  {
+    q: "Are CBS-era Telecasters collectible?",
+    a: "Yes. Telecasters from 1965 to 1968 remain collectible, especially when they are clean, original, and finished in a verified custom color. They are generally worth less than early 1950s and pre-CBS examples, but originality can still make a large difference.",
+  },
+  {
+    q: "Does the original case increase the value?",
+    a: "The correct original case helps support the upper end of a value range, particularly on a clean, original guitar. It does not make up for a refinish or major changed parts, but it matters to serious collectors.",
+  },
+  {
+    q: "Should I remove the neck or pickups before requesting an appraisal?",
+    a: "Not unless you are experienced with vintage instruments. Start with clear exterior photos, the serial number, and any documentation you have. Internal dates and parts can be inspected later if they are needed, without risking avoidable damage.",
+  },
+];
+
+const stripTags = (s: string) => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+const structuredData: Record<string, unknown>[] = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Vintage Fender Telecaster Value Guide", item: PAGE_URL },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Vintage Fender Telecaster Value Guide",
+    description: "Vintage Fender Telecaster values by year from 1950 to 1968, including Broadcaster, Nocaster, Esquire, finish, originality, and condition factors.",
+    image: `${SITE_URL}${assetSrc(ARTICLE_IMAGE)}`,
+    dateModified: "2026-09-18",
+    author: { "@id": `${SITE_URL}/about-me/#person` },
+    publisher: { "@id": `${SITE_URL}/` },
+    mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: stripTags(f.a) },
+    })),
+  },
+];
 ---
 
 <Layout
-  title="Vintage Fender Telecaster Value Guide | Joe’s Vintage Guitars"
-  description="What a vintage Fender Telecaster, Esquire, Broadcaster, or Nocaster is worth: current price ranges by year and finish, plus what drives the value."
+  title="Vintage Fender Telecaster Values by Year | Joe’s Vintage Guitars"
+  description="See vintage Fender Telecaster values by year from 1950 to 1968, including Broadcaster, Nocaster, Esquire, custom-color, and originality price factors."
   canonical="/vintage-fender-telecaster-value-guide/"
   ogImage="https://www.joesvintageguitarsaz.com/images/og/vintage-fender-telecaster-value-guide.jpg"
   ogImageAlt="Vintage Fender Telecaster Value Guide from Joe's Vintage Guitars"
@@ -68,7 +194,7 @@ const prices = [
   <PageHero
     eyebrow="Value Guide"
     title="Vintage Fender Telecaster Value Guide"
-    subhead="What a vintage Telecaster, Esquire, Broadcaster, or Nocaster is worth, and what sets the number."
+    subhead="Current values by year for Broadcasters, Nocasters, Telecasters, and Esquires, plus the details that move the price."
     subheadTag="p"
     subheadHtml={true}
     bgImage="/images/hero-background.jpg"
@@ -77,193 +203,484 @@ const prices = [
     <Button slot="cta" href="/free-appraisal/" variant="cream" size="lg">Free Appraisal</Button>
   </PageHero>
 
-  <section class="vg-section">
-    <div class="vg-inner">
-      <p class="vg-lede">
-        The Telecaster family covers the first solid-body electrics Fender ever built, and the early ones are
-        among the most valuable vintage guitars there are. This guide lays out current price ranges by year and
-        finish and the factors behind them. For an exact figure on your guitar,
-        <a href="/free-appraisal/">get a free appraisal</a> and I’ll give you a straight answer.
-      </p>
-    </div>
-  </section>
+    <section class="vg-section" aria-labelledby="guide-overview">
+      <div class="vg-inner vg-lead-grid">
+        <div class="vg-lead-copy">
+          <p class="vg-kicker">1950 to 1968 Price Guide</p>
+          <h2 id="guide-overview" class="vg-head">What Is a Vintage Telecaster Worth?</h2>
+          <div class="vg-rule" aria-hidden="true"></div>
+          <p class="vg-lede">
+            Vintage Fender Telecaster values span an unusually wide market. An all-original later CBS example
+            may sit in the high four figures, while a clean Broadcaster, Nocaster, or rare original custom-color
+            Telecaster can reach well into six figures. The name on the headstock matters, but the year, finish,
+            parts, condition, and evidence of originality decide where an individual guitar belongs.
+          </p>
+          <div class="vg-answer">
+            <strong>Quick answer:</strong> The all-original guitars covered by this guide range from about
+            $9,000 to $175,000. Use the table as a starting point, then adjust for the exact model, year, finish,
+            condition, and originality. For a guitar-specific figure, <a href="/free-appraisal/">request a free appraisal</a>.
+          </div>
+          <p class="vg-byline">
+            Last reviewed <time datetime="2026-09-18">September 2026</time> by
+            <a href="/about-me/">Joe Dampt</a>.
+          </p>
+        </div>
+        <figure class="vg-feature-figure">
+          <LicensedImage
+            src={bmeta(T52, "1952-fender-telecaster-body-scaled.jpg")}
+            alt="Original 1952 Fender Telecaster in blonde with a black pickguard, brass saddles, and maple neck"
+            width={1200}
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+            sizes="(max-width: 860px) calc(100vw - 48px), 46vw"
+          />
+          <figcaption>
+            An original 1952 blackguard Telecaster. The black phenolic guard, brass saddles, maple neck, and
+            bridge-plate serial are four of the features that support its year and value.
+          </figcaption>
+        </figure>
+      </div>
+      <nav class="vg-inner vg-jump" aria-label="Telecaster value guide sections">
+        <a href="#values">Values by Year</a>
+        <a href="#value-factors">Value Factors</a>
+        <a href="#eras">Telecaster Eras</a>
+        <a href="#authentication">Authentication</a>
+        <a href="#appraisal-photos">Appraisal Photos</a>
+        <a href="#telecaster-value-faqs">FAQs</a>
+      </nav>
+    </section>
 
-  <section class="vg-section vg-section--alt">
-    <div class="vg-inner">
-      <h2 class="vg-head">Telecaster, Broadcaster, Nocaster & Esquire</h2>
-      <div class="vg-rule" aria-hidden="true"></div>
-      <p>
-        The Telecaster, Broadcaster, and Nocaster are essentially the same guitar under different names. The
-        Esquire is a Telecaster with one pickup instead of two. Here’s how they break down:
-      </p>
-      <div class="vg-grid">
-        {models.map((m) => (
+    <section class="vg-section vg-section--alt" aria-labelledby="models-heading">
+      <div class="vg-inner">
+        <h2 id="models-heading" class="vg-head">Broadcaster, Nocaster, Telecaster, and Esquire</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p>
+          These instruments share the same basic family, but collectors do not price every name the same way.
+          The short Broadcaster and Nocaster periods are the rarest, while the Esquire uses one pickup instead of
+          the Telecaster’s two.
+        </p>
+        <div class="vg-grid vg-grid--models">
+          {models.map((model) => (
+            <article class="vg-card">
+              <h3>{model.t}</h3>
+              <p>{model.b}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section id="values" class="vg-section" aria-labelledby="values-heading">
+      <div class="vg-inner">
+        <h2 id="values-heading" class="vg-head">Vintage Fender Telecaster Values by Year</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p class="vg-note">
+          These price ranges are for all-original guitars in excellent condition with the original case. A guitar
+          with a refinish, changed parts, repairs, or heavy damage should not be priced from the top of the range.
+          Custom-color values apply only to verified original finishes. Read the
+          <a href="/post/fender-custom-color-authentication-guide/">Fender custom-color authentication guide</a>
+          before paying a color premium. An Esquire is typically worth about 75% of a same-year, same-color
+          Telecaster. Market reviewed September 2026.
+        </p>
+        <div class="vg-table-wrap">
+          <table class="vg-table">
+            <caption>Vintage Telecaster, Broadcaster, and Nocaster Price Ranges</caption>
+            <thead>
+              <tr><th scope="col">Model and Year</th><th scope="col">Value</th></tr>
+            </thead>
+            <tbody>
+              {prices.map((price) => (
+                <tr><td>{price.m}</td><td>{price.v}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="value-factors" class="vg-section vg-section--alt" aria-labelledby="factors-heading">
+      <div class="vg-inner">
+        <h2 id="factors-heading" class="vg-head">What Drives Vintage Telecaster Value?</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p>
+          A useful appraisal starts with the table, but it does not stop there. Two Telecasters from the same year
+          can sell for very different amounts when one has its original finish and electronics and the other has
+          been refinished or routed.
+        </p>
+        <div class="vg-grid">
+          {drivers.map((driver) => (
+            <article class="vg-card">
+              <h3>{driver.t}</h3>
+              <p>{driver.b}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="vg-section" aria-labelledby="changes-heading">
+      <div class="vg-inner">
+        <h2 id="changes-heading" class="vg-head">How Common Changes Affect the Price</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p>
+          There is no honest universal deduction for every replaced screw or worn fret. The importance of a
+          change depends on whether it is reversible, whether original wood or finish was removed, and whether
+          the original part stays with the guitar. This table gives the right direction without pretending every
+          guitar is identical.
+        </p>
+        <div class="vg-table-wrap" role="region" aria-label="How common Telecaster changes affect value" tabindex="0">
+          <table class="vg-table vg-table--changes">
+            <caption>Typical Effect of Modifications and Missing Items</caption>
+            <thead>
+              <tr><th scope="col">Change</th><th scope="col">Typical Effect</th><th scope="col">What to Know</th></tr>
+            </thead>
+            <tbody>
+              {changes.map((change) => (
+                <tr><td>{change.part}</td><td>{change.effect}</td><td>{change.note}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="eras" class="vg-section vg-section--alt" aria-labelledby="eras-heading">
+      <div class="vg-inner">
+        <h2 id="eras-heading" class="vg-head">Vintage Telecaster Eras in Photos</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p>
+          The easiest visible clues are the pickguard, fingerboard, bridge, and serial-number location. These
+          three original guitars show how quickly the look changed from an early blackguard to the late 1950s
+          whiteguard period and the rosewood-board years.
+        </p>
+        <div class="vg-photo-grid">
+          <figure class="vg-photo-card">
+            <LicensedImage
+              src={bmeta(J52, "1952-telecaster-blonde-front.jpg")}
+              alt="1952 Fender Telecaster with blonde finish, black pickguard, maple neck, and brass saddles"
+              width={900}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 700px) calc(100vw - 48px), 31vw"
+            />
+            <figcaption><strong>1952 Blackguard:</strong> Black phenolic guard, brass saddles, and a one-piece maple neck.</figcaption>
+          </figure>
+          <figure class="vg-photo-card">
+            <LicensedImage
+              src={bmeta(T59, "1959-fender-telecaster-blonde-1-scaled.jpg")}
+              alt="1959 Fender Telecaster in blonde with a white pickguard, maple neck, and chrome bridge cover"
+              width={900}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 700px) calc(100vw - 48px), 31vw"
+            />
+            <figcaption><strong>1959 Whiteguard:</strong> Single-ply white guard on a blonde body, shown here with a maple neck.</figcaption>
+          </figure>
+          <figure class="vg-photo-card">
+            <LicensedImage
+              src={bmeta(T60, "1960-telecaster-front.jpg")}
+              alt="Original 1960 Fender Telecaster in blonde with a white pickguard and rosewood fingerboard"
+              width={900}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 700px) calc(100vw - 48px), 31vw"
+            />
+            <figcaption><strong>1960 Rosewood Board:</strong> The whiteguard look continues, now paired with a dark rosewood fingerboard.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="authentication" class="vg-section" aria-labelledby="authentication-heading">
+      <div class="vg-inner">
+        <h2 id="authentication-heading" class="vg-head">How to Identify and Authenticate a Vintage Telecaster</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <div class="vg-copy-columns">
+          <div>
+            <h3>Start With the Visible Features</h3>
+            <p>
+              A black guard points to 1950 through about the summer of 1954. A white guard follows, and a
+              top-loading bridge with strings anchored at the rear of the plate points to the 1958 to 1959
+              window. The fingerboard, saddles, string tree, tuners, logo, and patent numbers narrow the period
+              further. Work through the <a href="/fender-telecaster-dating-guide/">Fender Telecaster dating guide</a>
+              for a year-by-year comparison.
+            </p>
+          </div>
+          <div>
+            <h3>Use the Serial as One Vote</h3>
+            <p>
+              Early serial numbers appear on the bridge plate, later numbers move to the neck plate, L-series
+              plates span the pre-CBS transition, and the large F plate arrives in 1965. A plate can move from
+              one guitar to another, so the number should agree with the rest of the instrument. Check its format
+              and location in the <a href="/fender-guitars-serial-number-guide/">Fender serial number guide</a>.
+            </p>
+          </div>
+          <div>
+            <h3>Confirm the Parts and Finish</h3>
+            <p>
+              Neck and body dates, pot codes, pickup construction, solder joints, finish wear, and hidden paint
+              edges can confirm or challenge the visible story. If a custom color is claimed, compare the undercoat,
+              nail holes, routes, neck pocket, and aging patterns before assigning the premium.
+            </p>
+          </div>
+        </div>
+        <div class="vg-detail-grid">
+          <figure class="vg-photo-card">
+            <LicensedImage
+              src={bmeta(T52, "fender-telecaster-black-phenolic-pickguard-1024x683.jpg")}
+              alt="Original black phenolic pickguard lifted from a 1952 Fender Telecaster"
+              width={820}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 700px) calc(100vw - 48px), 32vw"
+            />
+            <figcaption>The original black phenolic guard on a 1952 Telecaster.</figcaption>
+          </figure>
+          <figure class="vg-photo-card">
+            <LicensedImage
+              src={bmeta(T59, "1959-fender-telecaster-blonde-top-laoder-example-scaled.jpg")}
+              alt="Back of a 1959 top-loading Fender Telecaster with no string ferrules through the body"
+              width={820}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 700px) calc(100vw - 48px), 32vw"
+            />
+            <figcaption>A 1959 top-loader has no six string ferrules on the back of the body.</figcaption>
+          </figure>
+          <figure class="vg-photo-card">
+            <LicensedImage
+              src={meta("1957-fender-esquire-blonde.jpg")}
+              alt="1957 Fender Esquire neck plate with a five-digit serial number stamped at the top"
+              width={820}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 700px) calc(100vw - 48px), 32vw"
+            />
+            <figcaption>A 1957 Esquire serial number stamped into the neck plate.</figcaption>
+          </figure>
+        </div>
+        <aside class="vg-caution" aria-label="Safe inspection note">
+          <strong>Protect the guitar:</strong> Do not remove a neck, pickup, or pickguard just to take appraisal
+          photos unless you are comfortable working on vintage instruments. Clear exterior photos are enough to
+          begin. Internal inspection can wait until it is necessary.
+        </aside>
+      </div>
+    </section>
+
+    <section id="appraisal-photos" class="vg-section vg-section--alt" aria-labelledby="photos-heading">
+      <div class="vg-inner vg-checklist-layout">
+        <div>
+          <h2 id="photos-heading" class="vg-head">Photos to Take for a Telecaster Appraisal</h2>
+          <div class="vg-rule" aria-hidden="true"></div>
+          <p>
+            Good photos make the first estimate faster and more accurate. Use indirect daylight, fill the frame,
+            and do not hide wear or changed parts. A phone camera is fine when the image is sharp.
+          </p>
+          <ul class="vg-checklist">
+            <li>Full front and full back of the guitar</li>
+            <li>Front and back of the headstock</li>
+            <li>Bridge, saddles, pickups, controls, and pickguard</li>
+            <li>Serial number on the bridge plate or neck plate</li>
+            <li>Close photos of wear, repairs, extra holes, or finish damage</li>
+            <li>Original case, receipts, hang tags, and owner photographs</li>
+            <li>Any internal dates or parts already documented by a qualified repairer</li>
+          </ul>
+        </div>
+        <div class="vg-cta-card">
+          <p class="vg-cta-label">Know What You Have</p>
+          <h3>Get a Free Telecaster Appraisal</h3>
+          <p>
+            Send the photos you already have. I’ll identify the next details that matter and give you a realistic
+            value range before you decide whether to keep, insure, consign, or sell the guitar.
+          </p>
+          <Button href="/free-appraisal/" variant="rust" size="lg">Request a Free Appraisal</Button>
+          <a class="vg-phone" href={hrefs.tel}>Call or text {contact.phone}</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="vg-section" aria-labelledby="selling-heading">
+      <div class="vg-inner">
+        <h2 id="selling-heading" class="vg-head">Selling a Vintage Fender Telecaster</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <div class="vg-grid">
           <article class="vg-card">
-            <h3 set:html={m.t} />
-            <p set:html={m.b} />
+            <h3>Consign It</h3>
+            <p>
+              Put the photography, authentication, listing, insurance, and buyer conversations in experienced
+              hands. I offer <a href="/consignment/">vintage guitar consignment</a> from as low as 8% on top-tier instruments.
+            </p>
           </article>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <section class="vg-section">
-    <div class="vg-inner">
-      <h2 class="vg-head">What Drives the Value</h2>
-      <div class="vg-rule" aria-hidden="true"></div>
-      <div class="vg-grid">
-        {drivers.map((d) => (
           <article class="vg-card">
-            <h3 set:html={d.t} />
-            <p set:html={d.b} />
+            <h3>Sell It Outright</h3>
+            <p>
+              Choose a direct sale when speed and simplicity matter. I make an up-front offer and can help with
+              insured shipping or pickup. <a href="/sell-my-fender-guitar/">Sell your Fender guitar</a> directly to me.
+            </p>
           </article>
-        ))}
+          <article class="vg-card">
+            <h3>Sell It Privately</h3>
+            <p>
+              A private sale can bring a retail-level price, but the seller handles authentication, payment risk,
+              insurance, packing, shipping, returns, and buyer questions. Photograph and document the guitar before it leaves.
+            </p>
+          </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="vg-section vg-section--alt">
-    <div class="vg-inner">
-      <h2 class="vg-head">Vintage Telecaster Values</h2>
-      <div class="vg-rule" aria-hidden="true"></div>
-      <p class="vg-note">
-        These ranges are for all-original guitars in excellent condition with the original case. Custom-color
-        prices vary a lot with how rare the color is, and the premium is for original finishes only, so read our
-        guide to <a href="/post/fender-custom-color-authentication-guide/">authenticating a Fender custom color
-        finish</a> before paying one. Updated July 2026, and the market moves, so treat them as
-        a guide rather than a quote. An Esquire is typically worth about 75% of a same-year, same-color
-        Telecaster.
-      </p>
-      <div class="vg-table-wrap">
-        <table class="vg-table">
-          <thead>
-            <tr><th>Model & Year</th><th>Value</th></tr>
-          </thead>
-          <tbody>
-            {prices.map((p) => (
-              <tr><td set:html={p.m}></td><td>{p.v}</td></tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <section class="vg-section">
-    <div class="vg-inner">
-      <h2 class="vg-head">Not Sure Which Year Yours Is?</h2>
-      <div class="vg-rule" aria-hidden="true"></div>
-      <p>
-        Every number above turns on the year, so it pays to be sure of it. The quickest check on a Telecaster is
-        the pickguard and the bridge: a black guard means 1950 to about the summer of 1954, and strings anchoring
-        at the back of the bridge plate rather than through the body points at the 1958 to 1959 top-loader window.
-        My <a href="/fender-telecaster-dating-guide/">Telecaster dating guide</a> takes it year by year from 1950
-        to 1971, through the saddles, the board, the logo, and the patent numbers, with photos of each change.
-      </p>
-      <p>
-        The serial number sits on the bridge plate, the neck plate, or the headstock depending on the era. Run it
-        through my <a href="/fender-guitars-serial-number-guide/">Fender serial number guide</a>, but treat it as
-        one clue among several, since the serial alone only gives you a window.
-      </p>
-    </div>
-  </section>
-
-  <section class="vg-section vg-section--alt">
-    <div class="vg-inner">
-      <h2 class="vg-head">Selling Your Vintage Telecaster</h2>
-      <div class="vg-rule" aria-hidden="true"></div>
-      <div class="vg-grid">
-        <article class="vg-card">
-          <h3>Consign It</h3>
-          <p>
-            Hand off the photos, listing, authentication, and buyers. I offer
-            <a href="/consignment/">consignment</a> from as low as 8% on top-tier instruments.
-          </p>
-        </article>
-        <article class="vg-card">
-          <h3>Sell It Outright</h3>
-          <p>
-            The simplest route: a fair cash offer and payment up front, no photos or write-ups needed on your end.
-            <a href="/sell-my-fender-guitar/">Sell your Fender to me</a> directly.
-          </p>
-        </article>
-        <article class="vg-card">
-          <h3>Sell It Privately</h3>
-          <p>
-            You can sell it yourself, but a high-end vintage guitar carries real liability for a first-time seller.
-            Most dealers keep an insurance policy over $100,000 just for shipments. If you go this way,
-            Reverb’s buyer protection is worth the fees.
-          </p>
-        </article>
-      </div>
-    </div>
-  </section>
-
+    <FAQ
+      faqs={faqs}
+      mainTitle="FAQs:"
+      subTitle="Vintage Telecaster Values"
+      sectionId="telecaster-value-faqs"
+      headingLevel="h2"
+      openFirst={true}
+    />
   <ContactSection />
 </Layout>
 
 <style>
   .vg-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
-  .vg-section { background: #fff; padding: 56px 0; }
+  .vg-section { background: #fff; padding: 64px 0; scroll-margin-top: 92px; }
   .vg-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
   .vg-head {
     font-family: var(--font-display);
     font-weight: 700;
-    font-size: clamp(26px, 3vw, 38px);
+    font-size: clamp(28px, 3.4vw, 42px);
     color: var(--color-brand-rust-dark);
     margin: 0;
-    line-height: 1.2;
+    line-height: 1.15;
   }
   .vg-rule { width: 80px; height: 3px; background: var(--color-brand-rust); margin: 14px 0 22px; }
-  .vg-section p {
+  .vg-section p,
+  .vg-section li {
     font-family: var(--font-sans);
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.72;
     color: var(--color-brand-charcoal);
-    margin: 0 0 16px;
-    max-width: 900px;
   }
-  .vg-lede { font-size: 17px !important; }
-  .vg-note { font-style: italic; }
+  .vg-section p { margin: 0 0 16px; max-width: 900px; }
   .vg-section a { color: var(--color-brand-rust); text-decoration: underline; font-weight: 600; }
   .vg-section a:hover { color: var(--color-brand-rust-bright); }
+  .vg-lede { font-size: 18px !important; }
+  .vg-note { font-style: italic; }
+  .vg-kicker,
+  .vg-cta-label {
+    margin-bottom: 8px !important;
+    font-family: var(--font-display) !important;
+    font-size: 14px !important;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--color-brand-rust) !important;
+  }
+  .vg-byline { margin-top: 18px !important; font-size: 14px !important; }
+
+  .vg-lead-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(360px, 0.95fr);
+    gap: 44px;
+    align-items: center;
+  }
+  .vg-answer {
+    margin-top: 22px;
+    padding: 20px 22px;
+    border-left: 5px solid var(--color-brand-rust-bright);
+    background: var(--color-brand-cream-light, #f9f1de);
+    color: var(--color-brand-charcoal);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  .vg-feature-figure,
+  .vg-photo-card { margin: 0; overflow: hidden; background: #fff; box-shadow: 0 8px 28px rgba(62, 42, 20, 0.14); }
+  .vg-feature-figure img,
+  .vg-photo-card img { display: block; width: 100%; height: auto; }
+  .vg-feature-figure img { aspect-ratio: 3 / 2; object-fit: cover; }
+  .vg-feature-figure figcaption,
+  .vg-photo-card figcaption {
+    padding: 13px 16px 15px;
+    border-top: 1px solid rgba(62, 42, 20, 0.12);
+    font-family: var(--font-sans);
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--color-brand-charcoal);
+  }
+
+  .vg-jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 38px;
+  }
+  .vg-jump a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 42px;
+    padding: 8px 14px;
+    border: 1px solid rgba(104, 36, 18, 0.28);
+    border-radius: 999px;
+    background: #fff;
+    text-decoration: none;
+    font-family: var(--font-sans);
+    font-size: 14px;
+  }
+  .vg-jump a:hover { background: var(--color-brand-cream-light, #f9f1de); }
 
   .vg-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 22px;
-    margin-top: 8px;
+    margin-top: 26px;
   }
+  .vg-grid--models { grid-template-columns: repeat(4, 1fr); }
   .vg-card {
     background: var(--color-brand-cream-light, #f9f1de);
     border-top: 4px solid var(--color-brand-rust-bright);
-    padding: 20px 22px;
+    padding: 22px 24px;
   }
   .vg-section--alt .vg-card { background: #fff; }
-  .vg-card h3 {
+  .vg-card h3,
+  .vg-copy-columns h3,
+  .vg-cta-card h3 {
     font-family: var(--font-display);
     font-weight: 700;
-    font-size: 18px;
     color: var(--color-brand-rust-dark);
-    margin: 0 0 8px;
+    margin: 0 0 10px;
+    line-height: 1.2;
   }
+  .vg-card h3,
+  .vg-copy-columns h3 { font-size: 20px; }
   .vg-card p { font-size: 15px; margin: 0; }
 
-  .vg-table-wrap { overflow-x: auto; }
+  .vg-table-wrap { margin-top: 26px; overflow-x: auto; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07); }
   .vg-table {
     width: 100%;
     border-collapse: collapse;
     background: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     font-family: var(--font-sans);
-    min-width: 460px;
+    min-width: 540px;
   }
-  .vg-table th, .vg-table td {
+  .vg-table caption {
+    padding: 14px 18px;
+    background: var(--color-brand-cream, #eee0c5);
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 17px;
+    text-align: left;
+  }
+  .vg-table th,
+  .vg-table td {
     text-align: left;
     padding: 13px 18px;
     border-bottom: 1px solid rgba(62, 42, 20, 0.12);
     font-size: 15px;
+    line-height: 1.5;
     color: var(--color-brand-charcoal);
+    vertical-align: top;
   }
   .vg-table th {
     background: var(--color-brand-rust-dark);
@@ -276,4 +693,100 @@ const prices = [
   }
   .vg-table td:first-child { font-weight: 700; color: var(--color-brand-rust-dark); }
   .vg-table tbody tr:nth-child(odd) { background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-table--changes { min-width: 760px; }
+  .vg-table--changes td:first-child { width: 23%; }
+  .vg-table--changes td:nth-child(2) { width: 18%; font-weight: 700; color: var(--color-brand-rust); }
+
+  .vg-photo-grid,
+  .vg-detail-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 28px;
+  }
+  .vg-photo-card img { aspect-ratio: 3 / 2; object-fit: cover; }
+  .vg-section--alt .vg-photo-card { background: #fff; }
+
+  .vg-copy-columns {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px;
+  }
+  .vg-copy-columns p { font-size: 15px; }
+  .vg-caution {
+    margin-top: 30px;
+    padding: 20px 24px;
+    border-left: 5px solid var(--color-brand-rust-bright);
+    background: var(--color-brand-cream-light, #f9f1de);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--color-brand-charcoal);
+  }
+
+  .vg-checklist-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+    gap: 52px;
+    align-items: start;
+  }
+  .vg-checklist { margin: 22px 0 0; padding: 0; list-style: none; }
+  .vg-checklist li {
+    position: relative;
+    margin: 0;
+    padding: 10px 0 10px 34px;
+    border-bottom: 1px solid rgba(62, 42, 20, 0.12);
+  }
+  .vg-checklist li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--color-brand-rust-bright);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 22px;
+    text-align: center;
+  }
+  .vg-cta-card {
+    padding: 30px;
+    border-top: 5px solid var(--color-brand-rust-bright);
+    background: #fff;
+    box-shadow: 0 8px 28px rgba(62, 42, 20, 0.14);
+  }
+  .vg-cta-card h3 { font-size: 30px; }
+  .vg-cta-card :global(.jvg-btn) { margin-top: 8px; }
+  .vg-section .vg-cta-card :global(.jvg-btn--rust) { color: #fff; text-decoration: none; }
+  .vg-phone { display: block; margin-top: 18px; }
+
+  @media (max-width: 920px) {
+    .vg-lead-grid,
+    .vg-checklist-layout { grid-template-columns: 1fr; }
+    .vg-grid--models { grid-template-columns: repeat(2, 1fr); }
+    .vg-copy-columns { grid-template-columns: 1fr; gap: 10px; }
+    .vg-feature-figure { max-width: 720px; }
+  }
+
+  @media (max-width: 700px) {
+    .vg-section { padding: 48px 0; }
+    .vg-inner { padding: 0 18px; }
+    .vg-lead-grid { gap: 28px; }
+    .vg-jump { margin-top: 28px; }
+    .vg-grid--models,
+    .vg-photo-grid,
+    .vg-detail-grid { grid-template-columns: 1fr; }
+    .vg-table-wrap { margin-left: -18px; margin-right: -18px; }
+    .vg-table th,
+    .vg-table td { padding: 12px 14px; }
+    .vg-table:not(.vg-table--changes) { min-width: 0; table-layout: fixed; }
+    .vg-table:not(.vg-table--changes) th:first-child,
+    .vg-table:not(.vg-table--changes) td:first-child { width: 64%; }
+    .vg-table:not(.vg-table--changes) th:last-child,
+    .vg-table:not(.vg-table--changes) td:last-child { width: 36%; }
+    .vg-cta-card { padding: 24px; }
+  }
 </style>
