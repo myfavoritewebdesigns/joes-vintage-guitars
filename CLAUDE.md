@@ -213,6 +213,7 @@ Living record of intentional design choices on this project. **Check this before
 
 | Date | Page / Area | Decision | Why |
 |---|---|---|---|
+| 2026-09 | `/vintage-fender-telecaster-value-guide/` | Replace the thin value-guide page with a long-form, photo-rich owner resource while preserving every published dollar range. Keep the quick-answer summary, model history, modification guidance, appraisal photo checklist, visible FAQ, FAQ schema, Article freshness fields, section navigation, and seven Joe-shot licensed photo placements. | Joe asked for stronger SEO information and photos on this page. The expanded structure answers value, identification, originality, and appraisal intent on one page without changing his market numbers. |
 | 2026-09 | Gibson Firebird history, authentication and value guide | Keep all article section headings in sentence case, including the H2 headings flagged by `audit:copy`; preserve the guide's custom editorial layout inside the shared production `Layout.astro` header and footer. | Joe explicitly rejected title-case headings and asked to keep the approved guide look while using the live JVG site chrome. |
 | 2026-05 | ContactSection | Solid `#aa3d1c` rust bg, no image | The 9KB `contact-form-bg.jpg` pixelates with `background-size: cover` |
 | 2026-05 | ValueProp / Homepage | "Every Guitar Has A Story" rendered as separate full-width banner, not inside ValueProp panel | User preference (see feedback file) |
