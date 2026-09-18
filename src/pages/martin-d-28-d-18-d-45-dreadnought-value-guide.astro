@@ -11,6 +11,8 @@ import martinD18 from "../assets/images/sell-martin/1945-martin-d-18-1-1024x683.
 import martinD45 from "../assets/images/sell-martin/martin-d-45-brazilian-rosewood-1024x682.jpg";
 import martinNeckBlock from "../assets/images/sell-martin/Model-Name-Serial-Number-Martin-1024x683.jpg";
 import martinD18Wear from "../assets/blog/martin-d18-history-value-guide/1951-martin-d18-play-wear.jpg";
+import martinD28BrazilianBack from "../assets/images/martin-dreadnought-value-guide/1947-martin-d-28-brazilian-rosewood.webp";
+import martinD45IndianBack from "../assets/images/martin-dreadnought-value-guide/martin-d-45-east-indian-rosewood.jpg";
 
 const canonicalUrl = "https://www.joesvintageguitarsaz.com/martin-d-28-d-18-d-45-dreadnought-value-guide/";
 const articleDescription = "2026 vintage Martin D-18, D-28 and D-45 values by era, plus model differences, Brazilian rosewood, bracing, originality, repairs and appraisal tips.";
@@ -193,6 +195,7 @@ structuredData.push({
             <li><a href="#models">D-18, D-28 and D-45</a></li>
             <li><a href="#price-table">Values by era</a></li>
             <li><a href="#era-changes">Important year changes</a></li>
+            <li><a href="#rosewood-comparison">Brazilian vs. Indian rosewood</a></li>
             <li><a href="#value-factors">What sets the value</a></li>
             <li><a href="#deductions">Repairs and deductions</a></li>
             <li><a href="#appraisal-process">Appraisal process</a></li>
@@ -255,6 +258,47 @@ structuredData.push({
       <p class="vg-source-note">
         Martin’s <a href="https://www.martinguitar.com/museum-behind-the-glass.html">museum history</a> identifies the 1916 Dreadnought origin, the 1931 D-18 and D-28 and the 1934 14-fret transition. Its <a href="https://www.martinguitar.com/blog-categories/from-the-factory/blog-072325-the-holy-grail-of-martin-guitars-a-closer-look-at-the-pre-war-d-45.html">pre-war D-45 history</a> confirms the 91-guitar total, and Martin’s <a href="https://www.martinguitar.com/faqs.html">official FAQ</a> dates the end of complete Brazilian-rosewood back-and-side sets in standard production to 1969.
       </p>
+    </div>
+  </section>
+
+  <section class="vg-section" id="rosewood-comparison">
+    <div class="vg-inner">
+      <p class="vg-eyebrow">Look at the back—and the year</p>
+      <h2 class="vg-head">Brazilian vs. East Indian Rosewood on Martin Guitars</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <p class="vg-section-intro">
+        Brazilian and East Indian rosewood can overlap in color and grain, so a photograph is a clue rather than proof.
+        Start with the serial-number year and factory specification, then use the back and sides as supporting evidence.
+        These two Martins show useful real-world examples under different lighting.
+      </p>
+      <div class="vg-rosewood-pair">
+        <article class="vg-rosewood-card">
+          <figure>
+            <LicensedImage src={martinD28BrazilianBack} alt="Back of a 1947 Martin D-28 showing Brazilian rosewood grain" width={1200} loading="lazy" decoding="async" sizes="(max-width: 760px) 100vw, 50vw" />
+            <figcaption>1947 Martin D-28 — Brazilian rosewood</figcaption>
+          </figure>
+          <div>
+            <h3>Brazilian Rosewood</h3>
+            <p>This 1947 D-28 has a warm red-brown field, strong dark lines and visible variation through the bookmatched back. Brazilian sets can also be much straighter or more dramatically figured than this one.</p>
+          </div>
+        </article>
+        <article class="vg-rosewood-card">
+          <figure>
+            <LicensedImage src={martinD45IndianBack} alt="Back of a Martin D-45 showing East Indian rosewood grain" width={1200} loading="lazy" decoding="async" sizes="(max-width: 760px) 100vw, 50vw" />
+            <figcaption>Martin D-45 — East Indian rosewood</figcaption>
+          </figure>
+          <div>
+            <h3>East Indian Rosewood</h3>
+            <p>This D-45 shows the tighter, straighter and more parallel grain often seen in East Indian rosewood, with a dark brown to purplish cast. Other East Indian sets can be lighter, wider-grained or more figured.</p>
+          </div>
+        </article>
+      </div>
+      <div class="vg-rosewood-checks">
+        <article><h3>Use the Date First</h3><p>Martin states that it ceased using complete Brazilian-rosewood back-and-side sets in standard production during 1969 and moved to East Indian rosewood. A transition-year guitar still deserves individual review.</p></article>
+        <article><h3>Do Not Rely on Color Alone</h3><p>Finish aging, photography, lighting and natural variation can make either species look red, brown, purple or nearly black. Straight grain does not automatically mean Indian, and dramatic figure does not automatically mean Brazilian.</p></article>
+        <article><h3>Confirm Before Pricing</h3><p>Check the serial number, model specification, repair history and provenance together. The Brazilian-rosewood premium should not be applied from one back photo without supporting evidence.</p></article>
+      </div>
+      <p class="vg-source-note">Source for Martin’s production change: <a href="https://www.martinguitar.com/faqs.html">C. F. Martin &amp; Co. official FAQ</a>.</p>
     </div>
   </section>
 
@@ -408,6 +452,17 @@ structuredData.push({
   .vg-timeline p { font-size: 15px; margin: 0; max-width: none; }
   .vg-source-note { border-left: 3px solid var(--color-brand-rust); font-size: 14px !important; font-style: italic; margin-top: 24px !important; padding-left: 16px; }
 
+  .vg-rosewood-pair { display: grid; gap: 24px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 30px; }
+  .vg-rosewood-card { background: var(--color-brand-cream-light, #f9f1de); border-top: 4px solid var(--color-brand-rust-bright); box-shadow: 0 8px 24px rgba(62, 42, 20, 0.1); }
+  .vg-rosewood-card figure { margin: 0; }
+  .vg-rosewood-card :global(img) { aspect-ratio: 3 / 2; display: block; object-fit: cover; width: 100%; }
+  .vg-rosewood-card figcaption { color: #5e5247; font-family: var(--font-sans); font-size: 13px; font-style: italic; line-height: 1.45; padding: 9px 16px; }
+  .vg-rosewood-card > div { padding: 16px 20px 22px; }
+  .vg-rosewood-card h3, .vg-rosewood-checks h3 { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 20px; font-weight: 700; margin: 0 0 8px; }
+  .vg-rosewood-card p, .vg-rosewood-checks p { font-size: 15px; margin: 0; max-width: none; }
+  .vg-rosewood-checks { display: grid; gap: 16px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 24px; }
+  .vg-rosewood-checks article { background: #fff; border: 1px solid rgba(104, 36, 18, 0.16); padding: 18px 20px; }
+
   .vg-value-layout { align-items: start; display: grid; gap: 42px; grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr); }
   .vg-feature--wear { margin-top: 54px; }
   .vg-feature--wear > :global(img) { aspect-ratio: 4 / 5; object-fit: cover; }
@@ -444,6 +499,7 @@ structuredData.push({
     .vg-model-card { display: grid; grid-template-columns: minmax(260px, 0.85fr) minmax(0, 1.15fr); }
     .vg-model-card figure { border-bottom: 0; border-right: 1px solid rgba(104, 36, 18, 0.12); }
     .vg-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .vg-rosewood-checks { grid-template-columns: 1fr; }
   }
 
   @media (min-width: 901px) and (max-width: 1360px) {
@@ -455,6 +511,7 @@ structuredData.push({
     .vg-inner { padding-left: 18px; padding-right: 18px; }
     .vg-intro { gap: 30px; }
     .vg-toc ul, .vg-grid, .vg-links { grid-template-columns: 1fr; }
+    .vg-rosewood-pair { grid-template-columns: 1fr; }
     .vg-model-card { display: block; }
     .vg-model-card figure { border-bottom: 1px solid rgba(104, 36, 18, 0.12); border-right: 0; }
     .vg-timeline article { gap: 8px; grid-template-columns: 1fr; }
