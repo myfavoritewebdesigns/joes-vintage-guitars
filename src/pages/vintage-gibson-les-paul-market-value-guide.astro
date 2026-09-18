@@ -490,9 +490,17 @@ structuredData.push({
 
   .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 
-  /* Keep the centered title clear of the overlapping desktop logo at the
-     intermediate header widths where the full navigation is still visible. */
-  @media (min-width: 901px) and (max-width: 1399px) {
+  /* Keep the hero copy below the overlapping logo at tablet and narrow-desktop
+     widths, then constrain the title where the full-width logo just clears it. */
+  @media (min-width: 640px) and (max-width: 1023px) {
+    :global(.jvg-page-hero--md) { padding-top: 220px !important; }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    :global(.jvg-page-hero--md) { padding-top: 280px !important; }
+  }
+
+  @media (min-width: 1280px) and (max-width: 1679px) {
     :global(.jvg-page-hero__title) { max-width: 760px; margin-inline: auto !important; }
   }
 
