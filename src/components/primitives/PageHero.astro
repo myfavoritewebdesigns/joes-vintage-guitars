@@ -145,6 +145,18 @@ const bgVars = bgImage
   .jvg-page-hero--md { padding: clamp(140px, 14vw, 200px) 16px clamp(40px, 6vw, 70px); }
   .jvg-page-hero--lg { padding: clamp(160px, 18vw, 280px) 16px clamp(40px, 6vw, 80px); }
 
+  /* Keep centered hero copy below the hanging header logo. The logo grows from
+     110px to 160px at 640px, then to 220px at 1024px; without these safe-area
+     steps, its lower point can cover the first characters of a long H1. */
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .jvg-page-hero--md,
+    .jvg-page-hero--lg { padding-top: 212px; }
+  }
+  @media (min-width: 1024px) and (max-width: 1619px) {
+    .jvg-page-hero--md,
+    .jvg-page-hero--lg { padding-top: 284px; }
+  }
+
   .jvg-page-hero__vignette {
     position: absolute;
     inset: 0;
