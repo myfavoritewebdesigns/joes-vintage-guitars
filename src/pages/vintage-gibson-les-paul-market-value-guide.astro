@@ -13,6 +13,8 @@ import specialPhoto from "../assets/les-paul-family/1958-les-paul-special.jpg";
 import juniorPhoto from "../assets/les-paul-family/1955-les-paul-junior.jpg";
 import pafPhoto from "../assets/les-paul-family/feature-details/1957-gibson-PAF-pickup-1024x683.jpg";
 import electronicsPhoto from "../assets/les-paul-family/feature-details/1954-gibson-les-paul-goldtop-electronics-cavity-wiring-scaled.jpg";
+import goldtopValuePhoto from "../assets/les-paul-family/1954-les-paul-goldtop.jpg";
+import burstFinishPhoto from "../assets/les-paul-family/feature-details/gibson-les-paul-burst-finish-example.jpg";
 
 const modelCards = [
   {
@@ -22,7 +24,7 @@ const modelCards = [
     body: "The Standard has the widest value range. Early Goldtops, PAF Goldtops and 1958 to 1960 Sunburst Standards are different markets, so the year, bridge, pickups, finish and originality all matter.",
     image: standardPhoto,
     alt: "Original 1956 Gibson Les Paul Standard Goldtop with two cream P-90 pickups",
-    href: "/gibson-les-paul-dating-guide/#les-paul-standard",
+    href: "/gibson-les-paul-dating-guide/#goldtop-standard",
     link: "Identify A Les Paul Standard",
   },
   {
@@ -176,6 +178,7 @@ structuredData.push({
   canonical="/vintage-gibson-les-paul-market-value-guide/"
   ogImage="https://www.joesvintageguitarsaz.com/images/og/vintage-gibson-les-paul-market-value-guide.jpg"
   ogImageAlt="Vintage Gibson Les Paul value guide from Joe's Vintage Guitars"
+  ogType="article"
   structuredData={structuredData}
 >
   <PageHero
@@ -205,6 +208,7 @@ structuredData.push({
           <nav class="vg-jump" aria-label="On this page">
             <p>On This Page</p>
             <a href="#les-paul-values">Values By Model And Year</a>
+            <a href="#goldtop-burst-values">Goldtop And Burst Values</a>
             <a href="#les-paul-models">Standard, Custom, Special And Junior</a>
             <a href="#value-factors">What Changes The Value</a>
             <a href="#appraise-les-paul">How To Value A Les Paul</a>
@@ -237,13 +241,72 @@ structuredData.push({
             </tbody>
           </table>
         </div>
+
+        <div class="vg-methodology" aria-labelledby="methodology-heading">
+          <h3 id="methodology-heading">How These Les Paul Values Were Calculated</h3>
+          <p>These are Joe’s estimates of likely United States retail market value for correctly identified guitars. They are not automatic purchase offers, auction estimates or insurance replacement values. When reviewing a range, Joe compares recent completed sales and credible dealer listings with guitars he has personally appraised, bought or sold. An unsold asking price is useful context, but it does not establish what a guitar is worth.</p>
+          <p>The table assumes an all-original guitar in excellent condition with the correct original case. The finish, pickups, repairs, changed parts and provenance discussed below determine where a specific guitar belongs within—or outside—a range.</p>
+        </div>
+
+        <aside class="vg-scope" aria-labelledby="scope-heading">
+          <h3 id="scope-heading">Which Vintage Les Paul Years Does This Table Cover?</h3>
+          <p>The ranges emphasize the original single-cut Les Paul models from the 1950s and the returned 1968 to 1969 Standard and Custom. From 1961 into 1963, some SG-shaped guitars were sold under Les Paul model names; compare those instruments with the <a href="/gibson-sg-dating-guide/">Gibson SG dating guide</a>, not the single-cut rows above. Later Deluxes, Standards, Customs and Heritage-era models from the 1970s and 1980s also require their own model-and-year comparisons. If yours falls outside this table, <a href="/free-appraisal/">send photos for a free appraisal</a>.</p>
+        </aside>
+
         <aside class="vg-callout">
           <p><strong>Do not choose a row from the serial number alone.</strong> Gibson serials can overlap, and the highest-value models are also copied and converted. Use the <a href="/how-to-read-gibson-serial-numbers/">Gibson serial number lookup</a>, then confirm the guitar with the <a href="/gibson-les-paul-dating-guide/">model-specific Les Paul dating guide</a>.</p>
         </aside>
       </div>
     </section>
 
-    <section class="vg-section" id="les-paul-models" aria-labelledby="models-heading">
+    <section class="vg-section" id="goldtop-burst-values" aria-labelledby="goldtop-burst-heading">
+      <div class="vg-inner">
+        <p class="vg-kicker">The Standard’s Two Major Markets</p>
+        <h2 class="vg-head" id="goldtop-burst-heading">Why Gibson Les Paul Goldtops And Bursts Have Different Values</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p class="vg-section-intro">“Les Paul Standard” covers several materially different guitars. The finish, bridge and pickup changes between 1952 and 1960 divide Goldtops and Sunburst Standards into separate collector markets.</p>
+
+        <div class="vg-era-grid">
+          <article class="vg-era-card">
+            <figure>
+              <LicensedImage src={goldtopValuePhoto} alt="Original 1954 Gibson Les Paul Goldtop with cream P-90 pickups and wraparound bridge" sizes="(max-width: 800px) calc(100vw - 28px), 536px" />
+              <figcaption>An original 1954 Goldtop with P-90 pickups and a wraparound bridge. Photo by Joe Dampt.</figcaption>
+            </figure>
+            <div class="vg-era-card__copy">
+              <h3>Gibson Les Paul Goldtop Values</h3>
+              <p>The 1952 to 1956 Goldtops use P-90 pickups, but their bridge systems changed from the early trapeze to a wraparound and then a Tune-o-matic. Those changes affect playability, collector demand and value. The 1957 and early 1958 Goldtops with original PAF humbuckers occupy a much higher tier.</p>
+              <p>Finish authenticity, original cream plastic, correct hardware and untouched pickup solder all matter. Compare the details in the <a href="/post/1954-gibson-les-paul-goldtop-authentication-guide/">1954 Goldtop guide</a>, <a href="/post/1956-les-paul-goldtop-authentication-guide/">1956 Goldtop guide</a> and <a href="/post/1957-les-paul-goldtop-guide/">1957 PAF Goldtop guide</a>.</p>
+            </div>
+          </article>
+
+          <article class="vg-era-card">
+            <figure>
+              <LicensedImage src={burstFinishPhoto} alt="Close-up of a Gibson Les Paul cherry sunburst finish over figured maple beside the bridge and tailpiece" sizes="(max-width: 800px) calc(100vw - 28px), 536px" />
+              <figcaption>Cherry sunburst color, fade and maple figure are visible here. The photo illustrates the finish; those details alone do not authenticate a 1958 to 1960 Burst. Photo by Joe Dampt.</figcaption>
+            </figure>
+            <div class="vg-era-card__copy">
+              <h3>1958 To 1960 Gibson Les Paul Burst Values</h3>
+              <p>Gibson’s 1958 to 1960 Sunburst Standards expose the maple top beneath a cherry sunburst finish. Original PAF pickups, finish, top figure, fade, neck condition and provenance can move two seemingly similar Bursts to very different values.</p>
+              <p>A dramatic top or attractive fade can add collector interest, but neither proves the year or originality. The serial number, finish under protected areas, pickup routes, solder, hardware and neck must tell the same story. Use the <a href="/gibson-les-paul-dating-guide/#goldtop-standard">Les Paul Standard dating guide</a> before applying the Burst range.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="vg-guide-block" aria-labelledby="guide-links-heading">
+          <h3 id="guide-links-heading">Detailed Vintage Les Paul Guides</h3>
+          <div class="vg-guide-links">
+            <a href="/post/vintage-gibson-les-paul-family-guide/">Les Paul Family Guide</a>
+            <a href="/post/1955-1958-tv-yellow-les-paul-special-guide/">TV Yellow Special Guide</a>
+            <a href="/post/gibson-les-paul-junior-guide/">Les Paul Junior Guide</a>
+            <a href="/post/gibson-les-paul-tv-model-guide/">Les Paul TV Model Guide</a>
+            <a href="/post/gibson-shipping-totals-1948-1979/">Gibson Shipping Totals</a>
+            <a href="/post/one-owner-1983-gibson-les-paul-custom/">1983 Les Paul Custom Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="vg-section vg-section--alt" id="les-paul-models" aria-labelledby="models-heading">
       <div class="vg-inner">
         <p class="vg-kicker">Choose The Right Family</p>
         <h2 class="vg-head" id="models-heading">Gibson Les Paul Values By Model</h2>
@@ -268,7 +331,7 @@ structuredData.push({
       </div>
     </section>
 
-    <section class="vg-section vg-section--alt" id="value-factors" aria-labelledby="factors-heading">
+    <section class="vg-section" id="value-factors" aria-labelledby="factors-heading">
       <div class="vg-inner">
         <p class="vg-kicker">Originality And Condition</p>
         <h2 class="vg-head" id="factors-heading">What Changes A Vintage Les Paul’s Value?</h2>
@@ -296,7 +359,7 @@ structuredData.push({
       </div>
     </section>
 
-    <section class="vg-section" id="appraise-les-paul" aria-labelledby="appraise-heading">
+    <section class="vg-section vg-section--alt" id="appraise-les-paul" aria-labelledby="appraise-heading">
       <div class="vg-inner">
         <p class="vg-kicker">A Repeatable Valuation Process</p>
         <h2 class="vg-head" id="appraise-heading">How I Estimate A Vintage Les Paul’s Value</h2>
@@ -332,7 +395,7 @@ structuredData.push({
       </div>
     </section>
 
-    <section class="vg-section vg-section--alt" id="sell-vintage-les-paul" aria-labelledby="sell-heading">
+    <section class="vg-section" id="sell-vintage-les-paul" aria-labelledby="sell-heading">
       <div class="vg-inner">
         <p class="vg-kicker">Choose The Right Selling Route</p>
         <h2 class="vg-head" id="sell-heading">Selling A Vintage Gibson Les Paul</h2>
@@ -358,7 +421,7 @@ structuredData.push({
       </div>
     </section>
 
-    <section class="vg-section vg-author" aria-labelledby="author-heading">
+    <section class="vg-section vg-section--alt vg-author" aria-labelledby="author-heading">
       <div class="vg-inner">
         <div class="vg-author-card">
           <img src="/images/about-me-joe-1.jpg" width="160" height="160" loading="lazy" decoding="async" alt="Joe Dampt, owner of Joe's Vintage Guitars" />
@@ -372,7 +435,7 @@ structuredData.push({
       </div>
     </section>
 
-    <FAQ faqs={faqs} mainTitle="FAQs:" subTitle="Vintage Les Paul Values" sectionId="les-paul-faqs" headingLevel="h2" />
+    <FAQ faqs={faqs} mainTitle="Frequently Asked Questions About" subTitle=" Vintage Les Paul Values" sectionId="les-paul-faqs" headingLevel="h2" />
   </div>
 
   <ContactSection />
@@ -433,8 +496,29 @@ structuredData.push({
   .vg-table td:first-child { color: var(--color-brand-rust-dark); font-weight: 700; }
   .vg-table td:last-child { font-weight: 700; }
   .vg-table tbody tr:nth-child(even) { background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-methodology { margin-top: 30px; padding: 24px 26px; border-top: 4px solid var(--color-brand-rust-bright); background: #fff; }
+  .vg-methodology h3, .vg-scope h3, .vg-era-card h3, .vg-guide-block h3 {
+    margin: 0 0 12px;
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .vg-methodology p:last-child, .vg-scope p:last-child, .vg-era-card__copy p:last-child { margin-bottom: 0; }
+  .vg-scope { margin-top: 22px; padding: 22px 24px; border: 1px solid rgba(62, 42, 20, .18); background: var(--color-brand-cream, #f5e8cb); }
   .vg-callout { margin-top: 28px; padding: 20px 22px; border-left: 5px solid var(--color-brand-gold); background: #fff; }
   .vg-callout p { margin: 0; }
+
+  .vg-era-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin-top: 30px; }
+  .vg-era-card { min-width: 0; overflow: hidden; border: 1px solid rgba(62, 42, 20, .16); background: #fff; box-shadow: 0 8px 24px rgba(62, 42, 20, .08); }
+  .vg-era-card figure { margin: 0; }
+  .vg-era-card :global(img) { display: block; width: 100%; height: 320px; object-fit: cover; }
+  .vg-era-card figcaption { min-height: 72px; padding: 12px 18px; background: var(--color-brand-brown, #3e2a14); color: #fff; font-family: var(--font-sans); font-size: 13px; line-height: 1.45; }
+  .vg-era-card__copy { padding: 24px; }
+  .vg-guide-block { margin-top: 34px; padding: 26px; background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-guide-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .vg-guide-links a { display: flex; align-items: center; min-height: 52px; padding: 12px 14px; border: 1px solid rgba(62, 42, 20, .16); background: #fff; line-height: 1.35; }
 
   .vg-model-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin-top: 30px; }
   .vg-model-card { min-width: 0; overflow: hidden; border: 1px solid rgba(62, 42, 20, .16); background: var(--color-brand-cream-light, #f9f1de); box-shadow: 0 8px 24px rgba(62, 42, 20, .08); }
@@ -507,7 +591,8 @@ structuredData.push({
   @media (max-width: 800px) {
     .vg-section { padding: 50px 0; }
     .vg-intro-grid { grid-template-columns: 1fr; gap: 30px; }
-    .vg-model-grid, .vg-evidence-grid { grid-template-columns: 1fr; }
+    .vg-model-grid, .vg-era-grid, .vg-evidence-grid { grid-template-columns: 1fr; }
+    .vg-guide-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .vg-selling-grid { grid-template-columns: 1fr; }
     .vg-appraisal-cta { align-items: flex-start; flex-direction: column; }
     .vg-appraisal-cta__actions { width: 100%; justify-items: stretch; }
@@ -519,7 +604,10 @@ structuredData.push({
     .vg-inner { width: min(100% - 28px, 1120px); }
     .vg-section { padding: 42px 0; }
     .vg-factor-grid { grid-template-columns: 1fr; }
-    .vg-model-card :global(img), .vg-evidence :global(img) { height: auto; aspect-ratio: 3 / 2; }
+    .vg-model-card :global(img), .vg-era-card :global(img), .vg-evidence :global(img) { height: auto; aspect-ratio: 3 / 2; }
+    .vg-era-card figcaption { min-height: 0; }
+    .vg-guide-links { grid-template-columns: 1fr; }
+    .vg-methodology, .vg-scope, .vg-guide-block { padding: 20px 18px; }
     .vg-table, .vg-table tbody, .vg-table tr, .vg-table td { display: block; width: 100%; }
     .vg-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); }
     .vg-table { box-shadow: none; background: transparent; }
