@@ -29,6 +29,8 @@ If 1956 was the year Gibson sorted out the hardware, 1957 was the year they got 
 
 If you need assistance in dating yout Gibson, check out our [serial number guide](/how-to-read-gibson-serial-numbers/). If you’d like to [sell a Gibson](/sell-my-gibson-guitar/), please contact us for a competitive offer!
 
+Once the PAFs, finish and other original parts have been checked, the [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) shows how a 1957 PAF Goldtop compares with earlier Goldtops and later Sunburst Standards.
+
 <h2 id="humbucker-shift">The “Year One” Humbucker Shift: PAFs & M-69 Rings</h2>
 
 The most obvious differentiator for ’57 is the move to humbuckers. When authenticating these, we look for the brushed nickel covers with soft, slightly rounded edges. Unlike modern reissues that are often too “sharp,” an original 1957 cover has a specific “cloudy” patina that is nearly impossible to fake. Underneath, you’re looking for the black “L” tool marks on the feet and the **PAF decal** on the baseplate.

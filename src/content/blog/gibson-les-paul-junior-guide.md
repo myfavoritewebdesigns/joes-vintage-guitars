@@ -447,6 +447,8 @@ No photograph, however well shot, substitutes for hands-on examination. The crit
 
 The price of a vintage Junior covers more than the physical instrument. It covers its story, its rarity, and its place in guitar history. When you buy an all-original 1958 Cherry Red double-cutaway in excellent condition, you're buying something that cannot be reproduced. A genuine artifact from a specific moment in instrument-making and a specific moment in cultural history. The fact that it can't be reproduced is part of what you're paying for. If that doesn't matter to you, a high-quality reissue will serve your musical needs at a fraction of the cost.
 
+The [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) provides published Junior ranges alongside the Special, Goldtop, Standard and Custom. Use those ranges only after checking the exact body style, year, finish, repairs and original parts described here.
+
 <h2 id="lpj-conclusion">Conclusion: The Junior's Enduring Legacy</h2>
 
 The Gibson Les Paul Junior is one of the great unlikely success stories in electric guitar history. The 1954 to 1962 production run shows continuous refinement broken up by two major redesigns, and each redesign produced a genuinely different instrument while preserving what made the model a Junior in the first place. Slab mahogany body. Single bridge-position P-90. Minimal hardware. No sonic compromise.

@@ -31,6 +31,8 @@ wpId: 18430
 
 Pinning down the market value of an instrument takes more than a quick look; it takes a read through the official shipping records that show how rare a model really is. If you are looking to [**sell your vintage Gibson**](/sell-my-gibson-guitar/) or just want to document its history, our **[free appraisal](/free-appraisal/)** service pairs these production totals with years of hands-on experience to give you an accurate valuation. Before you get into the production numbers below, visit our **[Gibson serial number guide](/how-to-read-gibson-serial-numbers/)** to date your instrument and make sure you are referencing the correct era of Kalamazoo production.
 
+For Les Pauls, use these shipping totals to understand scarcity, then compare the identified model and year with the published ranges in the [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/).
+
 > Note: Please bear in mind that these shipping totals are not necessarily the exact production numbers. Gibson made other instruments that were not necessarily included in the shipping totals. Additionally, there are some slight inaccuracies reflected in the totals. For example, there is no mention of white SG Juniors, which we know exist in fairly large numbers. Still, these are the best indication we have of Gibson guitar production totals.
 
 <h2 id="lp-std-52-61">Les Paul Standard Shipping Totals (1952-1961)</h2>

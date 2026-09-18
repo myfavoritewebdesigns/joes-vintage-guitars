@@ -16,6 +16,8 @@ A stunning example of the 1956 Les Paul Goldtop leaning against its companion Gi
 
 The 1956 Goldtop is a favorite among players because it’s the only full production year to combine the grit of P-90 pickups with the precision of the ABR-1 bridge. If you’re evaluating one of these guitars, every tiny detail matters. Below is the technical breakdown. If you need help dating your Gibson, check out our [Gibson serial number lookup](/how-to-read-gibson-serial-numbers/). If you’d like to [sell your Gibson](/sell-my-gibson-guitar/), feel free to reach out for a competitive and hassle-free offer!
 
+After confirming the year and original parts, use the [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) to compare the published range for a 1956 Goldtop with other Les Paul models.
+
 ## The Headstock & Neck
 
 -   **The Gibson Logo:** This is a Mother of Pearl inlay with the classic mid-50s font. You’re looking for an open “b” and “o,” with a thickness and “dot” over the “i” that is specific to the era.
