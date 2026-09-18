@@ -4,7 +4,138 @@ import PageHero from "../components/primitives/PageHero.astro";
 import Button from "../components/primitives/Button.astro";
 import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
+import LicensedImage from "../components/LicensedImage.astro";
 import { contact, hrefs } from "../config/site";
+
+import standardPhoto from "../assets/les-paul-family/1956-les-paul-goldtop.jpg";
+import customPhoto from "../assets/les-paul-family/1958-les-paul-custom.jpg";
+import specialPhoto from "../assets/les-paul-family/1958-les-paul-special.jpg";
+import juniorPhoto from "../assets/les-paul-family/1955-les-paul-junior.jpg";
+import pafPhoto from "../assets/les-paul-family/feature-details/1957-gibson-PAF-pickup-1024x683.jpg";
+import electronicsPhoto from "../assets/les-paul-family/feature-details/1954-gibson-les-paul-goldtop-electronics-cavity-wiring-scaled.jpg";
+import goldtopValuePhoto from "../assets/les-paul-family/1954-les-paul-goldtop.jpg";
+import burstFinishPhoto from "../assets/les-paul-family/feature-details/gibson-les-paul-burst-finish-example.jpg";
+
+const modelCards = [
+  {
+    id: "les-paul-standard-value",
+    title: "Les Paul Standard",
+    range: "$20,000 to $500,000+ in this guide",
+    body: "The Standard has the widest value range. Early Goldtops, PAF Goldtops and 1958 to 1960 Sunburst Standards are different markets, so the year, bridge, pickups, finish and originality all matter.",
+    image: standardPhoto,
+    alt: "Original 1956 Gibson Les Paul Standard Goldtop with two cream P-90 pickups",
+    href: "/gibson-les-paul-dating-guide/#goldtop-standard",
+    link: "Identify A Les Paul Standard",
+  },
+  {
+    id: "les-paul-custom-value",
+    title: "Les Paul Custom",
+    range: "$12,000 to $225,000 in this guide",
+    body: "A 1950s Custom with its original pickup set is valued very differently from a late 1960s example. Confirm the pickup layout, gold hardware, neck, finish and repairs before choosing a range.",
+    image: customPhoto,
+    alt: "Original black 1958 Gibson Les Paul Custom with three humbuckers and a Bigsby vibrato",
+    href: "/gibson-les-paul-dating-guide/#les-paul-custom",
+    link: "Identify A Les Paul Custom",
+  },
+  {
+    id: "les-paul-special-value",
+    title: "Les Paul Special",
+    range: "$8,000 to $21,000 in this guide",
+    body: "TV Yellow and Cherry examples do not carry the same value. Body style, neck joint, pickup routes, finish and original P-90s are especially important on Juniors and Specials that have been modified over the years.",
+    image: specialPhoto,
+    alt: "Original 1958 Gibson Les Paul Special in TV Yellow with two black P-90 pickups",
+    href: "/gibson-les-paul-dating-guide/#les-paul-special",
+    link: "Identify A Les Paul Special",
+  },
+  {
+    id: "les-paul-junior-value",
+    title: "Les Paul Junior",
+    range: "$6,000 to $20,000 in this guide",
+    body: "The one-pickup Junior looks simple, but finish, body shape, pickup position, bridge, tuners and untouched electronics separate valuable original guitars from refinished or rebuilt examples.",
+    image: juniorPhoto,
+    alt: "Original sunburst 1955 Gibson Les Paul Junior with one dog-ear P-90 pickup",
+    href: "/post/gibson-les-paul-junior-guide/",
+    link: "Read The Les Paul Junior Guide",
+  },
+];
+
+const prices = [
+  { m: "Standard, 1952 to 1953", v: "$20,000 to $40,000" },
+  { m: "Standard, 1954 to 1956", v: "$40,000 to $80,000" },
+  { m: "Standard, 1957 to 1958 Goldtop with humbuckers", v: "$135,000 to $250,000" },
+  { m: "Standard, 1958 to 1960 Sunburst with humbuckers", v: "$200,000 to $500,000+" },
+  { m: "Standard, 1968 to 1969", v: "$8,000 to $24,000" },
+  { m: "Custom, 1953 to 1957", v: "$25,000 to $55,000" },
+  { m: "Custom, 1957 to 1961", v: "$60,000 to $225,000" },
+  { m: "Custom, 1968 to 1969", v: "$12,000 to $18,000" },
+  { m: "Special, 1955 to 1959 TV Yellow", v: "$13,000 to $21,000" },
+  { m: "Special, 1959 Cherry Red", v: "$8,000 to $15,000" },
+  { m: "Junior, 1954 to 1958 Sunburst", v: "$6,000 to $13,000" },
+  { m: "Junior, 1955 to 1958 TV Yellow", v: "$10,000 to $20,000" },
+];
+
+const factors = [
+  { t: "Headstock Break Or Repair", b: "Even a clean, professional repair usually lowers the value by roughly 40 to 50% compared with an otherwise similar unbroken example." },
+  { t: "Refinished Body Or Neck", b: "A non-original finish can lower the value by roughly 40 to 50%. Finish wear, checking and black-light response must be evaluated together before calling a guitar refinished." },
+  { t: "Replaced Or Routed Pickups", b: "A pickup swap with no routing can mean roughly 25%. A P-90 to humbucker route can mean 35 to 40% because wood was removed, and missing original PAFs can have an even larger effect." },
+  { t: "Added Locking Tremolo", b: "A locking tremolo installation can lower the value by roughly 35 to 45%. The routing and mounting holes make this one of the harder modifications to reverse." },
+  { t: "Replaced Tuners", b: "Replaced tuners often mean roughly 10 to 15%. Extra holes, enlarged post holes and the missing original set matter more than a clean no-drill replacement." },
+  { t: "Refret", b: "A good refret often changes the value by only 5 to 10%. Playability and the quality of the work matter, especially when the original frets were already worn out." },
+  { t: "Replaced Pots Or Electronics", b: "Changed pots, capacitors or wiring can mean roughly 10 to 20%, depending on the guitar and what remains. Disturbed solder can also make original pickups harder to verify." },
+  { t: "Extra Holes Or Missing Parts", b: "Extra strap-button holes may mean about 10%. Missing pickguards, switch rings, bridges and other model-specific parts are valued individually because some originals are expensive to replace." },
+];
+
+const appraisalSteps = [
+  {
+    title: "Identify The Exact Model And Year",
+    body: "Start with the body shape, pickup layout and trim level, then use the serial number as one piece of the date. A serial alone does not prove that the rest of the guitar is from the same period.",
+    links: [
+      ["Gibson serial number lookup", "/how-to-read-gibson-serial-numbers/"],
+      ["Les Paul dating guide", "/gibson-les-paul-dating-guide/"],
+    ],
+  },
+  {
+    title: "Check The Finish And Construction",
+    body: "Look for the correct neck joint, body construction, routing, logo, hardware era and finish evidence. A refinished guitar can still be valuable, but it belongs in a different comparison set.",
+    links: [
+      ["Gibson physical features guide", "/gibson-physical-features-hardware-guide/"],
+      ["Gibson logo chronology", "/gibson-headstock-logo-chronology/"],
+      ["What a serial number cannot tell you", "/post/what-a-serial-number-cant-tell-you/"],
+    ],
+  },
+  {
+    title: "Inventory The Original Parts",
+    body: "Pickups, pots, capacitors, tuners, knobs, bridge and case should be checked separately. A guitar can have the correct serial number and still contain thousands of dollars in replaced parts.",
+    links: [
+      ["PAF and Patent Number pickup guide", "/post/gibson-paf-patent-number-pickup-guide/"],
+      ["Gibson pot code guide", "/gibson-pot-codes/"],
+      ["Gibson knob guide", "/gibson-knob-dating-guide/"],
+      ["Gibson tuner guide", "/gibson-tuner-dating-guide/"],
+    ],
+  },
+  {
+    title: "Compare The Right Market",
+    body: "Compare the guitar with recent examples of the same model, year, finish, condition and originality. An asking price is not the same as a completed sale, and an exceptional celebrity-owned guitar is not a useful comparison for an ordinary example.",
+    links: [
+      ["Gibson shipping totals", "/post/gibson-shipping-totals-1948-1979/"],
+      ["Request a free appraisal", "/free-appraisal/"],
+    ],
+  },
+];
+
+const faqs = [
+  { q: "How Much Is A Vintage Gibson Les Paul Worth?", a: "It depends on the model, year, originality and condition. The guitars covered in this guide range from about $6,000 for some vintage Juniors to more than $500,000 for exceptional 1958 to 1960 Sunburst Standards. A specific guitar needs to be identified and inspected before that range becomes useful." },
+  { q: "How Do I Find The Year Of My Gibson Les Paul?", a: "Start with the serial number on the back of the headstock, but do not stop there. Gibson reused numbers and used several formats. Compare the result with the guitar’s construction and parts using the <a href=\"/how-to-read-gibson-serial-numbers/\">Gibson serial number lookup</a> and <a href=\"/gibson-les-paul-dating-guide/\">Les Paul dating guide</a>." },
+  { q: "Can A Gibson Serial Number Tell Me What My Les Paul Is Worth?", a: "No. A serial number may help establish a production period, but value also depends on the exact model, original finish, pickups, electronics, repairs, condition and provenance. Reissues and altered vintage guitars can also carry serials that are easy to misread." },
+  { q: "Does A Headstock Repair Affect Les Paul Value?", a: "Yes. Even a clean, professional repair commonly lowers the value by roughly 40 to 50% compared with a similar unbroken guitar. The location, visibility, stability and amount of added finish all matter." },
+  { q: "How Much Does A Refinish Affect Les Paul Value?", a: "A refinished vintage Les Paul is often worth roughly 40 to 50% less than a comparable guitar with its original finish. The exact effect depends on the model, the quality of the work and how much original finish remains." },
+  { q: "What Are PAF Pickups And Why Do They Matter?", a: "PAF humbuckers were used on valuable late 1950s and early 1960s Gibsons. Original examples are valuable on their own, so missing pickups, opened covers and disturbed solder can materially change the guitar’s value. Use the <a href=\"/post/gibson-paf-patent-number-pickup-guide/\">PAF and Patent Number pickup guide</a> before drawing a conclusion." },
+  { q: "What Is The Most Valuable Vintage Les Paul?", a: "The 1958 to 1960 Sunburst Standard is the most consistently valuable production model in this guide. Original examples can range from about $200,000 to $500,000 or more, while famous provenance or exceptional condition can move an individual guitar outside a normal guide range." },
+  { q: "Are 1970s Gibson Les Pauls Valuable?", a: "Yes. Model, year, finish and originality still matter. Early 1970s construction details, rare factory finishes and desirable original hardware can increase demand, while routing, refinishing and replaced parts reduce the number." },
+  { q: "Does The Original Case Increase A Les Paul’s Value?", a: "The correct original case helps the value and completeness of a collectible Les Paul, but it does not authenticate the guitar by itself. Case style, wear and hardware should agree with the instrument’s era." },
+  { q: "What Photos Do I Need For A Les Paul Appraisal?", a: "Send the full front and back, the front and back of the headstock, the serial number, control cavity, pickups and solder that can be photographed safely, plus any repairs, changed parts, case and paperwork. Do not remove valuable pickups or disturb original solder just to take a photo." },
+  { q: "Should I Clean A Vintage Les Paul Before Selling It?", a: "Do not aggressively polish, buff or disassemble it. Leave checking, patina and untouched solder alone. A dry soft cloth is safer than experimenting with cleaners on an old nitrocellulose finish." },
+];
 
 const structuredData: Record<string, unknown>[] = [
   {
@@ -12,67 +143,25 @@ const structuredData: Record<string, unknown>[] = [
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
-      { "@type": "ListItem", position: 2, name: "Vintage Gibson Les Paul Market Value Guide", item: "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/" },
+      { "@type": "ListItem", position: 2, name: "Vintage Gibson Les Paul Value Guide", item: "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/" },
     ],
   },
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Vintage Gibson Les Paul Market Value Guide",
+    headline: "Vintage Gibson Les Paul Value Guide",
+    description: "Current vintage Gibson Les Paul values by model and year, plus the originality, repairs and parts that affect market value.",
+    datePublished: "2026-06-09",
+    dateModified: "2026-09-18",
     author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
     publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
     mainEntityOfPage: "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+    image: "https://www.joesvintageguitarsaz.com/images/og/vintage-gibson-les-paul-market-value-guide.jpg",
   },
 ];
 
-const variants = [
-  { t: "Les Paul Standard", b: "Started as a Goldtop, later Sunburst (with rare Copper Iridescent and Platinum/Silver examples). White P-90s from 1952 to 1957, nickel humbuckers from 1957 to 1961, with the gold script ‘Les Paul’ logo on the headstock." },
-  { t: "Les Paul Custom", b: "Black finish with gold hardware. Black P-90s from 1953 to 1957, gold humbuckers from 1957 to 1961, and a diamond inlay on the headstock." },
-  { t: "Les Paul Special", b: "Transparent TV Yellow or transparent Cherry Red, with two black P-90 pickups." },
-  { t: "Les Paul Junior", b: "Sunburst or TV Yellow (the TV Yellow being rarer), with a single black P-90." },
-];
-
-const prices = [
-  { m: "Standard (1952 to 1953)", v: "$20,000 to $40,000" },
-  { m: "Standard (1954 to 1956)", v: "$40,000 to $80,000" },
-  { m: "Standard (1957 to 1958, Goldtop, humbuckers)", v: "$135,000 to $250,000" },
-  { m: "Standard (1958 to 1960, Burst, humbuckers)", v: "$200,000 to $500,000+" },
-  { m: "Standard (1968 to 1969)", v: "$8,000 to $24,000" },
-  { m: "Custom (1953 to 1957)", v: "$25,000 to $55,000" },
-  { m: "Custom (1957 to 1961)", v: "$60,000 to $225,000" },
-  { m: "Custom (1968 to 1969)", v: "$12,000 to $18,000" },
-  { m: "Special (1955 to 1959, TV Yellow)", v: "$13,000 to $21,000" },
-  { m: "Special (1959, Cherry Red)", v: "$8,000 to $15,000" },
-  { m: "Junior (1954 to 1958, Sunburst)", v: "$6,000 to $13,000" },
-  { m: "Junior (1955 to 1958, TV Yellow)", v: "$10,000 to $20,000" },
-];
-
-const factors = [
-  { t: "Headstock Break or Repair", b: "Even a clean, professional repair usually knocks 40 to 50% off compared to an unbroken example." },
-  { t: "Refinish", b: "A non-original finish takes off about 40 to 50%, no matter how good the work is. Collectors put real weight on original nitro and patina." },
-  { t: "Replaced Pickups", b: "A straight swap with no routing is about 25%. A P-90-to-humbucker rout is 35 to 40% because it’s a permanent change to the body, and losing the original PAFs hits harder still." },
-  { t: "Added Locking Tremolo", b: "One of the worst, 35 to 45%. It was common in the ’70s and ’80s and it’s not reversible." },
-  { t: "Replaced Tuners", b: "About 10 to 15%, and more on early-’70s models where the waffle-back tuners are a desirable transitional feature." },
-  { t: "Refret", b: "Usually only 5 to 10%, and the market has gotten forgiving here, especially on Customs that left the factory with low frets." },
-  { t: "Replaced Pots / Minor Electronics", b: "Roughly 10 to 20% depending on what was changed." },
-  { t: "Extra Strap-Button Holes", b: "About 10% for holes drilled in the wrong spots." },
-];
-
-const faqs = [
-  { q: "What is a vintage Gibson Les Paul worth?", a: "It depends on the model, year, originality, and condition. A 1950s Standard runs from about $20,000 to well over $400,000; 1970s and ’80s models are usually $2,000 to $20,000 depending on the features and how original it is." },
-  { q: "How do I tell what year mine is?", a: "The serial number on the back of the headstock, or inside the body on older ones, is the most reliable start. Gibson used several formats over the years, so run it through my <a href=\"/how-to-read-gibson-serial-numbers/\">Gibson serial number guide</a>." },
-  { q: "Does a headstock repair affect value?", a: "Yes, a lot. Even a clean, professional headstock repair usually takes 40 to 50% off compared to an unbroken example." },
-  { q: "How much does a refinish affect value?", a: "A refinished Les Paul is usually worth 40 to 50% less than an all-original one. Collectors put a lot of weight on original nitrocellulose lacquer and natural patina." },
-  { q: "What are PAF pickups and why do they matter?", a: "PAF (Patent Applied For) humbuckers were installed from 1957 into the early 1960s. They’re prized for their tone and valuable on their own, so original PAFs add a lot compared to replaced pickups." },
-  { q: "What’s the most valuable Les Paul?", a: "The 1958 to 1960 Standard, the ‘Burst.’ Original examples in excellent condition sell from around $200,000 to $450,000+, and the exceptional ones go higher." },
-  { q: "Are 1970s Les Pauls worth anything?", a: "Yes. The most desirable are early-’70s models with transitional specs (small or no volute, long neck tenon, pancake body), rare finishes like Silverburst, and all-original parts." },
-  { q: "What should I do before selling?", a: "Don’t clean or polish it; modern polish can damage an old finish and strip the patina collectors want. Gather any documentation and the original case, take clear photos in natural light, and get a free appraisal before you accept any offer." },
-];
-
-// FAQPage schema mirrors the visible <FAQ> above. stripTags keeps the JSON-LD
-// answer text plain even when an answer carries inline HTML (e.g. a link).
 const stripTags = (s: string) => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
-const faqSchema = {
+structuredData.push({
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: faqs.map((f) => ({
@@ -80,193 +169,460 @@ const faqSchema = {
     name: f.q,
     acceptedAnswer: { "@type": "Answer", text: stripTags(f.a) },
   })),
-};
-structuredData.push(faqSchema);
+});
 ---
 
 <Layout
-  title="Vintage Gibson Les Paul Market Value Guide | Joe’s Vintage Guitars"
-  description="What a vintage Gibson Les Paul is worth: current price ranges for Standard, Custom, Special, and Junior by year, plus the modifications that change the value."
+  title="Gibson Les Paul Value Guide: Vintage Prices By Year"
+  description="See vintage Gibson Les Paul values by model and year, including Standards, Customs, Specials and Juniors, plus the repairs and parts that affect price."
   canonical="/vintage-gibson-les-paul-market-value-guide/"
   ogImage="https://www.joesvintageguitarsaz.com/images/og/vintage-gibson-les-paul-market-value-guide.jpg"
-  ogImageAlt="Vintage Gibson Les Paul Market Value Guide from Joe's Vintage Guitars"
+  ogImageAlt="Vintage Gibson Les Paul value guide from Joe's Vintage Guitars"
+  ogType="article"
   structuredData={structuredData}
 >
   <PageHero
-    eyebrow="Value Guide"
-    title="Vintage Gibson Les Paul Market Value Guide"
-    subhead="What a Les Paul Standard, Custom, Special, or Junior is worth, and the things that move the number most."
+    eyebrow="2026 Price Guide"
+    title="Vintage Gibson Les Paul Value Guide"
+    subhead="Current price ranges for the Les Paul Standard, Custom, Special and Junior, with the originality and condition checks that determine where a guitar belongs."
     subheadTag="p"
     subheadHtml={true}
     bgImage="/images/hero-background.jpg"
   >
-    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
-    <Button slot="cta" href="/free-appraisal/" variant="cream" size="lg">Free Appraisal</Button>
+    <Button slot="cta" href="/free-appraisal/" variant="cream" size="lg">Get A Free Appraisal</Button>
+    <Button slot="cta" href="/sell-my-gibson-guitar/" variant="outline-cream" size="lg">Sell My Les Paul</Button>
   </PageHero>
 
-  <section class="vg-section">
-    <div class="vg-inner">
-      <p class="vg-lede">
-        Few electrics are as collectible, or as faked and modified, as a vintage Gibson Les Paul. Value comes down
-        to the model, the year, how original it is, and its condition. This guide gives you current ranges and the
-        factors behind them. For an exact figure on your guitar,
-        <a href="/free-appraisal/">get a free appraisal</a> and I’ll give you a straight answer.
-      </p>
-    </div>
-  </section>
+  <div class="vg-page">
+    <section class="vg-section vg-intro" aria-labelledby="worth-heading">
+      <div class="vg-inner">
+        <p class="vg-byline">By <a href="/about-me/">Joe Dampt</a> · Updated <time datetime="2026-09-18">September 18, 2026</time></p>
+        <div class="vg-intro-grid">
+          <div>
+            <p class="vg-kicker">The Short Answer</p>
+            <h2 class="vg-head" id="worth-heading">How Much Is A Vintage Gibson Les Paul Worth?</h2>
+            <div class="vg-rule" aria-hidden="true"></div>
+            <p class="vg-lede">The vintage Gibson Les Pauls covered here range from about <strong>$6,000</strong> for some Juniors to <strong>$500,000 or more</strong> for exceptional 1958 to 1960 Sunburst Standards. The useful number depends on the exact model, year, finish, original parts, repairs and condition.</p>
+            <p>This is a market guide, not an offer or insurance appraisal. Start with the table, then use the inspection steps below to determine whether your guitar belongs near the top, middle or bottom of its range.</p>
+          </div>
+          <nav class="vg-jump" aria-label="On this page">
+            <p>On This Page</p>
+            <a href="#les-paul-values">Values By Model And Year</a>
+            <a href="#goldtop-burst-values">Goldtop And Burst Values</a>
+            <a href="#les-paul-models">Standard, Custom, Special And Junior</a>
+            <a href="#value-factors">What Changes The Value</a>
+            <a href="#appraise-les-paul">How To Value A Les Paul</a>
+            <a href="#sell-vintage-les-paul">Selling A Vintage Les Paul</a>
+            <a href="#les-paul-faqs">Value Questions</a>
+          </nav>
+        </div>
+      </div>
+    </section>
 
-  <section class="vg-section vg-section--alt">
-    <div class="vg-inner">
-      <h2 class="vg-head">The Les Paul Models</h2>
-      <div class="vg-rule" aria-hidden="true"></div>
-      <div class="vg-grid">
-        {variants.map((v) => (
-          <article class="vg-card">
-            <h3 set:html={v.t} />
-            <p set:html={v.b} />
+    <section class="vg-section vg-section--alt" id="les-paul-values" aria-labelledby="values-heading">
+      <div class="vg-inner">
+        <p class="vg-kicker">Current Reference Ranges</p>
+        <h2 class="vg-head" id="values-heading">Vintage Gibson Les Paul Values By Model And Year</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p class="vg-note">These ranges describe all-original guitars in excellent condition with the correct original case. They are starting points for the United States market. Price ranges reviewed July 2026. Page updated September 2026. An individual guitar can fall outside the range.</p>
+        <div class="vg-table-wrap">
+          <table class="vg-table">
+            <caption class="sr-only">Estimated 2026 vintage Gibson Les Paul values by model and year</caption>
+            <thead>
+              <tr><th scope="col">Model And Year</th><th scope="col">Estimated Value</th></tr>
+            </thead>
+            <tbody>
+              {prices.map((price) => (
+                <tr>
+                  <td data-label="Model And Year">{price.m}</td>
+                  <td data-label="Estimated Value">{price.v}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="vg-methodology" aria-labelledby="methodology-heading">
+          <h3 id="methodology-heading">How These Les Paul Values Were Calculated</h3>
+          <p>These are Joe’s estimates of likely United States retail market value for correctly identified guitars. They are not automatic purchase offers, auction estimates or insurance replacement values. When reviewing a range, Joe compares recent completed sales and credible dealer listings with guitars he has personally appraised, bought or sold. An unsold asking price is useful context, but it does not establish what a guitar is worth.</p>
+          <p>The table assumes an all-original guitar in excellent condition with the correct original case. The finish, pickups, repairs, changed parts and provenance discussed below determine where a specific guitar belongs within a range, or whether it falls outside that range.</p>
+        </div>
+
+        <aside class="vg-scope" aria-labelledby="scope-heading">
+          <h3 id="scope-heading">Which Vintage Les Paul Years Does This Table Cover?</h3>
+          <p>The ranges emphasize the original single-cut Les Paul models from the 1950s and the returned 1968 to 1969 Standard and Custom. From 1961 into 1963, some SG-shaped guitars were sold under Les Paul model names; compare those instruments with the <a href="/gibson-sg-dating-guide/">Gibson SG dating guide</a>, not the single-cut rows above. Later Deluxes, Standards, Customs and Heritage-era models from the 1970s and 1980s also require their own model-and-year comparisons. If yours falls outside this table, <a href="/free-appraisal/">send photos for a free appraisal</a>.</p>
+        </aside>
+
+        <aside class="vg-callout">
+          <p><strong>Do not choose a row from the serial number alone.</strong> Gibson serials can overlap, and the highest-value models are also copied and converted. Use the <a href="/how-to-read-gibson-serial-numbers/">Gibson serial number lookup</a>, then confirm the guitar with the <a href="/gibson-les-paul-dating-guide/">model-specific Les Paul dating guide</a>.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="vg-section" id="goldtop-burst-values" aria-labelledby="goldtop-burst-heading">
+      <div class="vg-inner">
+        <p class="vg-kicker">The Standard’s Two Major Markets</p>
+        <h2 class="vg-head" id="goldtop-burst-heading">Why Gibson Les Paul Goldtops And Bursts Have Different Values</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p class="vg-section-intro">“Les Paul Standard” covers several materially different guitars. The finish, bridge and pickup changes between 1952 and 1960 divide Goldtops and Sunburst Standards into separate collector markets.</p>
+
+        <div class="vg-era-grid">
+          <article class="vg-era-card">
+            <figure>
+              <LicensedImage src={goldtopValuePhoto} alt="Original 1954 Gibson Les Paul Goldtop with cream P-90 pickups and wraparound bridge" sizes="(max-width: 800px) calc(100vw - 28px), 536px" />
+              <figcaption>An original 1954 Goldtop with P-90 pickups and a wraparound bridge. Photo by Joe Dampt.</figcaption>
+            </figure>
+            <div class="vg-era-card__copy">
+              <h3>Gibson Les Paul Goldtop Values</h3>
+              <p>The 1952 to 1956 Goldtops use P-90 pickups, but their bridge systems changed from the early trapeze to a wraparound and then a Tune-o-matic. Those changes affect playability, collector demand and value. The 1957 and early 1958 Goldtops with original PAF humbuckers occupy a much higher tier.</p>
+              <p>Finish authenticity, original cream plastic, correct hardware and untouched pickup solder all matter. Compare the details in the <a href="/post/1954-gibson-les-paul-goldtop-authentication-guide/">1954 Goldtop guide</a>, <a href="/post/1956-les-paul-goldtop-authentication-guide/">1956 Goldtop guide</a> and <a href="/post/1957-les-paul-goldtop-guide/">1957 PAF Goldtop guide</a>.</p>
+            </div>
           </article>
-        ))}
-      </div>
-    </div>
-  </section>
 
-  <section class="vg-section">
-    <div class="vg-inner">
-      <h2 class="vg-head">Vintage Les Paul Values by Model and Year</h2>
-      <div class="vg-rule" aria-hidden="true"></div>
-      <p class="vg-note">
-        These ranges are for all-original guitars in excellent condition with the original case. Updated July
-        2026, and the market moves, so treat them as a guide rather than a quote.
-      </p>
-      <div class="vg-table-wrap">
-        <table class="vg-table">
-          <thead>
-            <tr><th>Model & Year</th><th>Value</th></tr>
-          </thead>
-          <tbody>
-            {prices.map((p) => (
-              <tr><td set:html={p.m}></td><td set:html={p.v}></td></tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <section class="vg-section vg-section--alt">
-    <div class="vg-inner">
-      <h2 class="vg-head">What Changes the Value</h2>
-      <div class="vg-rule" aria-hidden="true"></div>
-      <p>Originality is everything on a Les Paul. Here’s roughly what the common changes do to the number:</p>
-      <div class="vg-grid">
-        {factors.map((f) => (
-          <article class="vg-card">
-            <h3 set:html={f.t} />
-            <p set:html={f.b} />
+          <article class="vg-era-card">
+            <figure>
+              <LicensedImage src={burstFinishPhoto} alt="Close-up of a Gibson Les Paul cherry sunburst finish over figured maple beside the bridge and tailpiece" sizes="(max-width: 800px) calc(100vw - 28px), 536px" />
+              <figcaption>Cherry sunburst color, fade and maple figure are visible here. The photo illustrates the finish; those details alone do not authenticate a 1958 to 1960 Burst. Photo by Joe Dampt.</figcaption>
+            </figure>
+            <div class="vg-era-card__copy">
+              <h3>1958 To 1960 Gibson Les Paul Burst Values</h3>
+              <p>Gibson’s 1958 to 1960 Sunburst Standards expose the maple top beneath a cherry sunburst finish. Original PAF pickups, finish, top figure, fade, neck condition and provenance can move two seemingly similar Bursts to very different values.</p>
+              <p>A dramatic top or attractive fade can add collector interest, but neither proves the year or originality. The serial number, finish under protected areas, pickup routes, solder, hardware and neck must tell the same story. Use the <a href="/gibson-les-paul-dating-guide/#goldtop-standard">Les Paul Standard dating guide</a> before applying the Burst range.</p>
+            </div>
           </article>
-        ))}
-      </div>
-    </div>
-  </section>
+        </div>
 
-  <section class="vg-section">
-    <div class="vg-inner">
-      <h2 class="vg-head">Selling Your Vintage Les Paul</h2>
-      <div class="vg-rule" aria-hidden="true"></div>
-      <div class="vg-grid">
-        <article class="vg-card">
-          <h3>Consign It</h3>
-          <p>I handle the photos, listing, authentication, and buyers. <a href="/consignment/">Consignment</a> runs from as low as 8% on top-tier instruments.</p>
-        </article>
-        <article class="vg-card">
-          <h3>Sell It Outright</h3>
-          <p>A fair cash offer and payment up front, with me handling the rest. <a href="/sell-my-gibson-guitar/">Sell your Gibson to me</a> directly.</p>
-        </article>
-        <article class="vg-card">
-          <h3>Sell It Privately</h3>
-          <p>You can, but a five- or six-figure guitar is a lot of liability for a first-time seller. For anything over about $10,000, most people net the same or better selling to a specialist once fees and hassle are counted.</p>
-        </article>
+        <div class="vg-guide-block" aria-labelledby="guide-links-heading">
+          <h3 id="guide-links-heading">Detailed Vintage Les Paul Guides</h3>
+          <div class="vg-guide-links">
+            <a href="/post/vintage-gibson-les-paul-family-guide/">Les Paul Family Guide</a>
+            <a href="/post/1955-1958-tv-yellow-les-paul-special-guide/">TV Yellow Special Guide</a>
+            <a href="/post/gibson-les-paul-junior-guide/">Les Paul Junior Guide</a>
+            <a href="/post/gibson-les-paul-tv-model-guide/">Les Paul TV Model Guide</a>
+            <a href="/post/gibson-shipping-totals-1948-1979/">Gibson Shipping Totals</a>
+            <a href="/post/one-owner-1983-gibson-les-paul-custom/">1983 Les Paul Custom Story</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <FAQ faqs={faqs} mainTitle="FAQs:" subTitle="Vintage Les Paul Values" sectionId="les-paul-faqs" />
+    <section class="vg-section vg-section--alt" id="les-paul-models" aria-labelledby="models-heading">
+      <div class="vg-inner">
+        <p class="vg-kicker">Choose The Right Family</p>
+        <h2 class="vg-head" id="models-heading">Gibson Les Paul Values By Model</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p class="vg-section-intro">Model identification comes before price. These original guitars show the basic Standard, Custom, Special and Junior families, but the details changed throughout production.</p>
+        <div class="vg-model-grid">
+          {modelCards.map((model) => (
+            <article class="vg-model-card" id={model.id}>
+              <figure>
+                <LicensedImage src={model.image} alt={model.alt} sizes="(max-width: 800px) calc(100vw - 28px), 536px" />
+                <figcaption>Original example photographed by Joe Dampt.</figcaption>
+              </figure>
+              <div class="vg-model-card__copy">
+                <h3>{model.title}</h3>
+                <p class="vg-model-card__range">{model.range}</p>
+                <p>{model.body}</p>
+                <a class="vg-card-link" href={model.href}>{model.link}<span aria-hidden="true"> →</span></a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="vg-section" id="value-factors" aria-labelledby="factors-heading">
+      <div class="vg-inner">
+        <p class="vg-kicker">Originality And Condition</p>
+        <h2 class="vg-head" id="factors-heading">What Changes A Vintage Les Paul’s Value?</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p class="vg-section-intro">The percentages below are practical estimates, not fixed deductions. Two guitars with the same repair can still sell for different amounts because rarity, finish, overall condition and buyer demand are different.</p>
+        <div class="vg-factor-grid">
+          {factors.map((factor) => (
+            <article class="vg-factor-card">
+              <h3>{factor.t}</h3>
+              <p>{factor.b}</p>
+            </article>
+          ))}
+        </div>
+
+        <div class="vg-evidence-grid">
+          <figure class="vg-evidence">
+            <LicensedImage src={pafPhoto} alt="Original Gibson PAF humbucker with its Patent Applied For decal and factory solder" sizes="(max-width: 800px) calc(100vw - 28px), 536px" />
+            <figcaption><strong>Original pickups matter.</strong> This PAF decal, baseplate and factory cover solder are part of the evidence. Do not remove a sealed cover just to inspect a valuable pickup. <a href="/post/gibson-paf-patent-number-pickup-guide/">Compare PAF and Patent Number pickups</a>.</figcaption>
+          </figure>
+          <figure class="vg-evidence">
+            <LicensedImage src={electronicsPhoto} alt="Original 1954 Gibson Les Paul Goldtop control cavity with pots, capacitors and braided wiring" sizes="(max-width: 800px) calc(100vw - 28px), 536px" />
+            <figcaption><strong>Untouched electronics support originality.</strong> Pot codes, capacitors, braided wire and solder should tell a consistent story. <a href="/gibson-pot-codes/">Learn how to read Gibson pot codes</a>.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="vg-section vg-section--alt" id="appraise-les-paul" aria-labelledby="appraise-heading">
+      <div class="vg-inner">
+        <p class="vg-kicker">A Repeatable Valuation Process</p>
+        <h2 class="vg-head" id="appraise-heading">How I Estimate A Vintage Les Paul’s Value</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p class="vg-section-intro">A useful appraisal is a chain of evidence. I work through these four steps before comparing a guitar with the market.</p>
+        <ol class="vg-steps">
+          {appraisalSteps.map((step, index) => (
+            <li>
+              <span class="vg-step-number" aria-hidden="true">{index + 1}</span>
+              <div>
+                <h3>{step.title}</h3>
+                <p>{step.body}</p>
+                <p class="vg-step-links">
+                  {step.links.map(([label, href], linkIndex) => (
+                    <><a href={href}>{label}</a>{linkIndex < step.links.length - 1 && <span aria-hidden="true"> · </span>}</>
+                  ))}
+                </p>
+              </div>
+            </li>
+          ))}
+        </ol>
+        <div class="vg-appraisal-cta">
+          <div>
+            <p class="vg-kicker">Need A Number For Your Guitar?</p>
+            <h3>Send Clear Photos Before You Clean Or Disassemble It</h3>
+            <p>I will help identify the guitar, explain the important value factors and give you a free, no-obligation appraisal.</p>
+          </div>
+          <div class="vg-appraisal-cta__actions">
+            <Button href="/free-appraisal/" variant="rust" size="md">Send Photos For An Appraisal</Button>
+            <a href={hrefs.tel}>Call Or Text {contact.phone}</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="vg-section" id="sell-vintage-les-paul" aria-labelledby="sell-heading">
+      <div class="vg-inner">
+        <p class="vg-kicker">Choose The Right Selling Route</p>
+        <h2 class="vg-head" id="sell-heading">Selling A Vintage Gibson Les Paul</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p class="vg-section-intro">The best route depends on the guitar and whether you prioritize speed, simplicity or the highest possible retail result.</p>
+        <div class="vg-selling-grid">
+          <article class="vg-selling-card">
+            <h3>Sell It Outright</h3>
+            <p>A direct sale gives you an agreed cash amount without waiting for a retail buyer. I buy vintage Gibsons nationwide and can arrange insured shipping.</p>
+            <a class="vg-card-link" href="/sell-my-gibson-guitar/">Learn How To Sell Your Gibson<span aria-hidden="true"> →</span></a>
+          </article>
+          <article class="vg-selling-card">
+            <h3>Consign It</h3>
+            <p>Consignment takes longer, but it can make sense for an exceptional instrument that benefits from specialist photography, authentication and access to qualified buyers.</p>
+            <a class="vg-card-link" href="/consignment/">Read About Consignment<span aria-hidden="true"> →</span></a>
+          </article>
+          <article class="vg-selling-card">
+            <h3>Sell It Privately</h3>
+            <p>A private sale gives you control, but you handle the listing, questions, payment risk, packing, insurance and any dispute. Authenticate and document the guitar first.</p>
+            <a class="vg-card-link" href="/free-appraisal/">Start With A Free Appraisal<span aria-hidden="true"> →</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="vg-section vg-section--alt vg-author" aria-labelledby="author-heading">
+      <div class="vg-inner">
+        <div class="vg-author-card">
+          <img src="/images/about-me-joe-1.jpg" width="160" height="160" loading="lazy" decoding="async" alt="Joe Dampt, owner of Joe's Vintage Guitars" />
+          <div>
+            <p class="vg-kicker">About The Author</p>
+            <h2 id="author-heading">Joe Dampt</h2>
+            <p>Joe is the owner and lead appraiser at Joe’s Vintage Guitars in Mesa, Arizona. He has more than 12 years of professional experience and has personally appraised over 10,000 vintage instruments for owners across the United States.</p>
+            <p class="vg-author-links"><a href="/about-me/">Meet Joe</a><span aria-hidden="true"> · </span><a href="/free-appraisal/">Request An Appraisal</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <FAQ faqs={faqs} mainTitle="Frequently Asked Questions About" subTitle=" Vintage Les Paul Values" sectionId="les-paul-faqs" headingLevel="h2" />
+  </div>
 
   <ContactSection />
 </Layout>
 
 <style>
-  .vg-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
-  .vg-section { background: #fff; padding: 56px 0; }
+  .vg-page { background: #fff; }
+  .vg-page [id] { scroll-margin-top: 96px; }
+  .vg-inner { width: min(100% - 40px, 1120px); margin-inline: auto; }
+  .vg-section { background: #fff; padding: 64px 0; }
   .vg-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
-  .vg-head {
-    font-family: var(--font-display);
+  .vg-kicker {
+    margin: 0 0 8px !important;
+    color: var(--color-brand-rust, #a03a1e) !important;
+    font-family: var(--font-display) !important;
+    font-size: 13px !important;
     font-weight: 700;
-    font-size: clamp(26px, 3vw, 38px);
-    color: var(--color-brand-rust-dark);
-    margin: 0;
-    line-height: 1.2;
+    letter-spacing: .11em;
+    text-transform: uppercase;
   }
-  .vg-rule { width: 80px; height: 3px; background: var(--color-brand-rust); margin: 14px 0 22px; }
+  .vg-head {
+    margin: 0;
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 700;
+    line-height: 1.12;
+    text-wrap: balance;
+  }
+  .vg-rule { width: 82px; height: 3px; margin: 16px 0 24px; background: var(--color-brand-rust); }
   .vg-section p {
+    max-width: 900px;
+    margin: 0 0 16px;
+    color: var(--color-brand-charcoal);
     font-family: var(--font-sans);
     font-size: 16px;
-    line-height: 1.7;
-    color: var(--color-brand-charcoal);
-    margin: 0 0 16px;
-    max-width: 900px;
+    line-height: 1.72;
   }
-  .vg-lede { font-size: 17px !important; }
-  .vg-note { font-style: italic; }
-  .vg-section a { color: var(--color-brand-rust); text-decoration: underline; font-weight: 600; }
+  .vg-section a { color: var(--color-brand-rust); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
   .vg-section a:hover { color: var(--color-brand-rust-bright); }
+  .vg-section-intro { max-width: 820px !important; font-size: 17px !important; }
+  .vg-byline { margin-bottom: 28px !important; color: var(--color-brand-brown-muted, #7a6a54) !important; font-size: 14px !important; }
+  .vg-lede { font-size: clamp(18px, 2.2vw, 21px) !important; line-height: 1.62 !important; }
+  .vg-note { max-width: 880px !important; font-style: italic; }
 
-  .vg-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 22px;
-    margin-top: 8px;
-  }
-  .vg-card {
-    background: var(--color-brand-cream-light, #f9f1de);
-    border-top: 4px solid var(--color-brand-rust-bright);
-    padding: 20px 22px;
-  }
-  .vg-section--alt .vg-card { background: #fff; }
-  .vg-card h3 {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 18px;
+  .vg-intro { border-bottom: 1px solid rgba(62, 42, 20, .12); }
+  .vg-intro-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(250px, 330px); gap: 48px; align-items: start; }
+  .vg-jump { background: var(--color-brand-cream-light, #f9f1de); border-top: 5px solid var(--color-brand-rust-bright); box-shadow: 0 8px 24px rgba(62, 42, 20, .09); padding: 22px; }
+  .vg-jump p { margin: 0 0 10px !important; color: var(--color-brand-rust-dark) !important; font-family: var(--font-display) !important; font-size: 20px !important; font-weight: 700; }
+  .vg-jump a { display: block; min-height: 44px; padding: 10px 0; border-bottom: 1px solid rgba(62, 42, 20, .14); line-height: 1.35; }
+  .vg-jump a:last-child { border-bottom: 0; }
+
+  .vg-table-wrap { margin-top: 24px; }
+  .vg-table { width: 100%; border-collapse: collapse; background: #fff; box-shadow: 0 4px 16px rgba(0, 0, 0, .07); font-family: var(--font-sans); }
+  .vg-table th, .vg-table td { padding: 14px 18px; border-bottom: 1px solid rgba(62, 42, 20, .12); color: var(--color-brand-charcoal); font-size: 15px; text-align: left; vertical-align: top; }
+  .vg-table th { background: var(--color-brand-rust-dark); color: #fff; font-family: var(--font-display); font-size: 14px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+  .vg-table th:last-child, .vg-table td:last-child { width: 33%; }
+  .vg-table td:first-child { color: var(--color-brand-rust-dark); font-weight: 700; }
+  .vg-table td:last-child { font-weight: 700; }
+  .vg-table tbody tr:nth-child(even) { background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-methodology { margin-top: 30px; padding: 24px 26px; border-top: 4px solid var(--color-brand-rust-bright); background: #fff; }
+  .vg-methodology h3, .vg-scope h3, .vg-era-card h3, .vg-guide-block h3 {
+    margin: 0 0 12px;
     color: var(--color-brand-rust-dark);
-    margin: 0 0 8px;
-  }
-  .vg-card p { font-size: 15px; margin: 0; }
-
-  .vg-table-wrap { overflow-x: auto; }
-  .vg-table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-    font-family: var(--font-sans);
-    min-width: 460px;
-  }
-  .vg-table th, .vg-table td {
-    text-align: left;
-    padding: 13px 18px;
-    border-bottom: 1px solid rgba(62, 42, 20, 0.12);
-    font-size: 15px;
-    color: var(--color-brand-charcoal);
-  }
-  .vg-table th {
-    background: var(--color-brand-rust-dark);
-    color: #fff;
     font-family: var(--font-display);
+    font-size: 23px;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    font-size: 14px;
+    line-height: 1.2;
   }
-  .vg-table td:first-child { font-weight: 700; color: var(--color-brand-rust-dark); }
-  .vg-table tbody tr:nth-child(odd) { background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-methodology p:last-child, .vg-scope p:last-child, .vg-era-card__copy p:last-child { margin-bottom: 0; }
+  .vg-scope { margin-top: 22px; padding: 22px 24px; border: 1px solid rgba(62, 42, 20, .18); background: var(--color-brand-cream, #f5e8cb); }
+  .vg-callout { margin-top: 28px; padding: 20px 22px; border-left: 5px solid var(--color-brand-gold); background: #fff; }
+  .vg-callout p { margin: 0; }
+
+  .vg-era-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin-top: 30px; }
+  .vg-era-card { min-width: 0; overflow: hidden; border: 1px solid rgba(62, 42, 20, .16); background: #fff; box-shadow: 0 8px 24px rgba(62, 42, 20, .08); }
+  .vg-era-card figure { margin: 0; }
+  .vg-era-card :global(img) { display: block; width: 100%; height: 320px; object-fit: cover; }
+  .vg-era-card figcaption { min-height: 72px; padding: 12px 18px; background: var(--color-brand-brown, #3e2a14); color: #fff; font-family: var(--font-sans); font-size: 13px; line-height: 1.45; }
+  .vg-era-card__copy { padding: 24px; }
+  .vg-guide-block { margin-top: 34px; padding: 26px; background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-guide-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .vg-guide-links a { display: flex; align-items: center; min-height: 52px; padding: 12px 14px; border: 1px solid rgba(62, 42, 20, .16); background: #fff; line-height: 1.35; }
+
+  .vg-model-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin-top: 30px; }
+  .vg-model-card { min-width: 0; overflow: hidden; border: 1px solid rgba(62, 42, 20, .16); background: var(--color-brand-cream-light, #f9f1de); box-shadow: 0 8px 24px rgba(62, 42, 20, .08); }
+  .vg-model-card figure { margin: 0; }
+  .vg-model-card :global(img) { display: block; width: 100%; height: 300px; object-fit: cover; }
+  .vg-model-card figcaption { padding: 8px 16px; background: var(--color-brand-brown, #3e2a14); color: #fff; font-family: var(--font-sans); font-size: 12px; }
+  .vg-model-card__copy { padding: 22px; }
+  .vg-model-card h3, .vg-factor-card h3, .vg-selling-card h3, .vg-steps h3, .vg-appraisal-cta h3 {
+    margin: 0 0 10px;
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .vg-model-card__range { margin-bottom: 10px !important; color: var(--color-brand-rust-dark, #682412) !important; font-weight: 800; }
+  .vg-card-link { display: inline-flex; align-items: center; min-height: 44px; margin-top: 4px; }
+
+  .vg-factor-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 28px; }
+  .vg-factor-card { padding: 20px 22px; border-top: 4px solid var(--color-brand-rust-bright); background: #fff; }
+  .vg-factor-card h3 { font-size: 20px; }
+  .vg-factor-card p { margin: 0; font-size: 15px; }
+  .vg-evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin-top: 36px; }
+  .vg-evidence { min-width: 0; margin: 0; overflow: hidden; background: var(--color-brand-brown, #3e2a14); box-shadow: 0 8px 24px rgba(62, 42, 20, .14); }
+  .vg-evidence :global(img) { display: block; width: 100%; height: 310px; object-fit: cover; }
+  .vg-evidence figcaption { padding: 18px 20px; color: #fff; font-family: var(--font-sans); font-size: 15px; line-height: 1.6; }
+  .vg-evidence figcaption a { color: var(--color-brand-cream, #f5e8cb); }
+
+  .vg-steps { display: grid; gap: 18px; max-width: 920px; margin: 30px 0 0; padding: 0; list-style: none; }
+  .vg-steps li { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 18px; padding: 22px; border: 1px solid rgba(62, 42, 20, .14); background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-step-number { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; background: var(--color-brand-rust-dark); color: #fff; font-family: var(--font-display); font-size: 23px; font-weight: 700; }
+  .vg-steps h3 { font-size: 21px; }
+  .vg-steps p { margin-bottom: 8px; }
+  .vg-step-links { margin: 0 !important; font-size: 14px !important; }
+  .vg-appraisal-cta { display: flex; justify-content: space-between; gap: 32px; align-items: center; margin-top: 36px; padding: 28px 30px; background: var(--color-brand-brown, #3e2a14); }
+  .vg-appraisal-cta h3, .vg-appraisal-cta p { color: #fff; }
+  .vg-appraisal-cta .vg-kicker { color: var(--color-brand-gold, #c8983a) !important; }
+  .vg-appraisal-cta p:last-child { margin-bottom: 0; }
+  .vg-appraisal-cta__actions { display: grid; flex: 0 0 auto; gap: 12px; justify-items: center; }
+  .vg-appraisal-cta__actions > a { color: #fff; }
+
+  .vg-selling-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 28px; }
+  .vg-selling-card { padding: 22px; border-top: 4px solid var(--color-brand-rust-bright); background: #fff; }
+  .vg-selling-card h3 { font-size: 21px; }
+  .vg-selling-card p { font-size: 15px; }
+
+  .vg-author { padding-top: 48px; padding-bottom: 48px; }
+  .vg-author-card { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 28px; align-items: center; max-width: 900px; margin-inline: auto; padding: 26px; border: 1px solid rgba(62, 42, 20, .15); background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-author-card img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; }
+  .vg-author-card h2 { margin: 0 0 8px; color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 30px; }
+  .vg-author-card p { margin-bottom: 8px; }
+  .vg-author-links { margin: 0 !important; }
+
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+  /* Keep the hero copy below the overlapping logo at tablet and narrow-desktop
+     widths, then constrain the title where the full-width logo just clears it. */
+  @media (min-width: 640px) and (max-width: 1023px) {
+    :global(.jvg-page-hero--md) { padding-top: 220px !important; }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    :global(.jvg-page-hero--md) { padding-top: 280px !important; }
+  }
+
+  @media (min-width: 1280px) and (max-width: 1679px) {
+    :global(.jvg-page-hero__title) { max-width: 760px; margin-inline: auto !important; }
+  }
+
+  @media (max-width: 800px) {
+    .vg-section { padding: 50px 0; }
+    .vg-intro-grid { grid-template-columns: 1fr; gap: 30px; }
+    .vg-model-grid, .vg-era-grid, .vg-evidence-grid { grid-template-columns: 1fr; }
+    .vg-guide-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .vg-selling-grid { grid-template-columns: 1fr; }
+    .vg-appraisal-cta { align-items: flex-start; flex-direction: column; }
+    .vg-appraisal-cta__actions { width: 100%; justify-items: stretch; }
+    .vg-appraisal-cta__actions :global(.jvg-btn) { width: 100%; }
+    .vg-appraisal-cta__actions > a { text-align: center; }
+  }
+
+  @media (max-width: 640px) {
+    .vg-inner { width: min(100% - 28px, 1120px); }
+    .vg-section { padding: 42px 0; }
+    .vg-factor-grid { grid-template-columns: 1fr; }
+    .vg-model-card :global(img), .vg-era-card :global(img), .vg-evidence :global(img) { height: auto; aspect-ratio: 3 / 2; }
+    .vg-era-card figcaption { min-height: 0; }
+    .vg-guide-links { grid-template-columns: 1fr; }
+    .vg-methodology, .vg-scope, .vg-guide-block { padding: 20px 18px; }
+    .vg-table, .vg-table tbody, .vg-table tr, .vg-table td { display: block; width: 100%; }
+    .vg-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); }
+    .vg-table { box-shadow: none; background: transparent; }
+    .vg-table tbody { display: grid; gap: 12px; }
+    .vg-table tr { overflow: hidden; border: 1px solid rgba(62, 42, 20, .15); background: #fff !important; box-shadow: 0 3px 10px rgba(62, 42, 20, .06); }
+    .vg-table td { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px; padding: 12px 14px; border: 0; }
+    .vg-table td + td { border-top: 1px solid rgba(62, 42, 20, .11); }
+    .vg-table td::before { content: attr(data-label); color: var(--color-brand-brown-muted, #7a6a54); font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+    .vg-table th:last-child, .vg-table td:last-child { width: 100%; }
+    .vg-steps li { grid-template-columns: 42px minmax(0, 1fr); gap: 14px; padding: 18px 16px; }
+    .vg-step-number { width: 40px; height: 40px; font-size: 20px; }
+    .vg-appraisal-cta { padding: 24px 20px; }
+    .vg-author-card { grid-template-columns: 1fr; text-align: center; }
+    .vg-author-card img { margin-inline: auto; }
+    .vg-author-card p { text-align: left; }
+    .vg-author-card .vg-kicker, .vg-author-card h2, .vg-author-card .vg-author-links { text-align: center; }
+  }
 </style>
