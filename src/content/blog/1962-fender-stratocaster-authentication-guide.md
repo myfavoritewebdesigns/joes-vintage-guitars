@@ -37,6 +37,8 @@ The complete year-specific reference for dating and authenticating a genuine 196
 
 The 1962 Fender Stratocaster sits at an important point in the model's history. It comes right at the end of what collectors consider the pre-CBS golden age of Stratocaster production, pre-CBS, pre-veneer, and built at the Fullerton factory at the peak of Leo Fender's quality control. CBS acquired Fender in January 1965, and while the guitars didn't change overnight, the slow drift toward cost-cutting had already begun by 1964. A genuine 1962 Stratocaster predates all of that.
 
+For current slab-board and veneer-board price ranges, condition deductions, and custom-color estimates, see the [1962 Fender Stratocaster value guide](/vintage-fender-stratocaster-value-guide/1962/).
+
 The year's defining authentication challenge is the **slab-to-veneer rosewood fingerboard transition** that occurred in mid-1962. This single change, from a thick, flat-bottomed slab of rosewood to a thinner curved veneer, is the most consequential physical divide in vintage Stratocaster collecting. Early 1962 examples with the slab board are more desirable and more valuable than late 1962 examples with the veneer board. Knowing which you have, and how to prove it, is the core task of authenticating a 1962.
 
 **1\. Slab or veneer rosewood fingerboard?** Slab boards run from 1959 through approximately mid-1962; veneer boards from mid-1962 through approximately 1983. Both are correct for 1962 depending on production date. Slab examples command a significant premium.

@@ -79,7 +79,7 @@ const licensedImages = await buildImageGraph([
   },
   {
     renderedSrc: "/images/sell-fender-redesign/1956-fender-stratocaster-sunburst-800x533.jpg",
-    alt: "Vintage 1956 sunburst Fender Stratocaster",
+    alt: "Vintage 1955 sunburst Fender Stratocaster",
   },
   {
     renderedSrc: "/images/sell-fender-redesign/1960-fender-telecaster-blonde-800x533.jpg",
@@ -212,7 +212,8 @@ let pageMarkup = rawPageMarkup
   .replace(
     'class="full-field captcha-row"',
     'class="full-field captcha-row h-captcha-mount"',
-  );
+  )
+  .replaceAll('alt="Vintage 1956 sunburst Fender Stratocaster"', 'alt="Vintage 1955 sunburst Fender Stratocaster"');
 
 for (const [from, to] of Object.entries(assetReplacements)) {
   pageMarkup = pageMarkup.split(from).join(to);

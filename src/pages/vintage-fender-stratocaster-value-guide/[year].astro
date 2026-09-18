@@ -29,14 +29,17 @@ const nextGuide = stratocasterYearGuides[guideIndex + 1];
 const canonicalPath = `/vintage-fender-stratocaster-value-guide/${guide.year}/`;
 const canonicalUrl = `https://www.joesvintageguitarsaz.com${canonicalPath}`;
 const articleImage = "https://www.joesvintageguitarsaz.com/images/og/vintage-fender-stratocaster-value-guide-v2.png";
-const articleDescription = `${guide.year} Fender Stratocaster values, key factory features, condition adjustments, and appraisal advice for original sunburst and custom-color guitars.`;
+const articleDescription = `${guide.year} Fender Stratocaster value guide: ${guide.metaValueRange} for excellent original sunburst guitars, with custom-color values, specs and appraisal advice.`;
 
 const conditionBands = [
   { condition: "Excellent and all original", value: guide.standardRange, note: "The headline sunburst range, assuming the original case and a coherent, authenticated guitar." },
-  { condition: "Very good and largely original", value: "About 75% to 90% of the excellent range", note: "Honest play wear, normal checking, or a professional refret can fit here when the finish and major parts remain original." },
-  { condition: "Professional refinish", value: "Often about 45% to 60% of a comparable original", note: "The exact result depends on the remaining parts, quality of the work, and whether the body has been altered." },
+  { condition: "Very good and largely original", value: guide.veryGoodRange, note: "About 75% to 90% of the excellent range. Honest play wear, normal checking, or a professional refret can fit here when the finish and major parts remain original." },
+  { condition: "Professional refinish", value: guide.refinishRange, note: "Often about 45% to 60% of a comparable original. The exact result depends on the remaining parts, quality of the work, and whether the body has been altered." },
   { condition: "Major parts mismatch", value: "Value component by component", note: "A replacement neck or body, extra routes, mixed-year parts, or uncertain provenance prevents a reliable whole-guitar comparison." },
 ];
+
+const customColorAnswer = guide.customColorSummary
+  ?? `An authenticated original factory custom color can place a ${guide.year} Stratocaster around ${guide.customRange}. The premium depends on the exact color, condition, originality, and strength of the finish evidence. A later refinish does not receive the factory custom-color premium.`;
 
 const yearFaqs = [
   {
@@ -45,11 +48,11 @@ const yearFaqs = [
   },
   {
     q: `What should I check before buying or selling a ${guide.year} Stratocaster?`,
-    a: `Confirm the neck, body, finish, electronics, hardware, and date evidence as a group. For ${guide.year}, the most useful starting marker is ${guide.marker.toLowerCase()}, but no single feature proves the whole guitar is original.`,
+    a: `Confirm the neck, body, finish, electronics, hardware, and date evidence as a group. For ${guide.year}, start with this feature set: ${guide.marker}. No single feature proves the whole guitar is original.`,
   },
   {
     q: `Does a custom color make a ${guide.year} Stratocaster more valuable?`,
-    a: `An authenticated original factory custom color can place a ${guide.year} Stratocaster around ${guide.customRange}. The premium depends on the exact color, condition, originality, and strength of the finish evidence. A later refinish does not receive the factory custom-color premium.`,
+    a: customColorAnswer,
   },
 ];
 
@@ -150,6 +153,17 @@ const structuredData = [
           Start with the correct range, then adjust for what is actually present. These are retail-value estimates,
           not automatic cash offers or insurance replacement values. They assume a sunburst guitar unless the custom-color range is stated.
         </p>
+        {guide.subRanges && (
+          <div class="yv-subranges" aria-label={`${guide.year} Stratocaster specification sub-ranges`}>
+            {guide.subRanges.map((band) => (
+              <article>
+                <h3>{band.label}</h3>
+                <strong>{band.range}</strong>
+                <p>{band.note}</p>
+              </article>
+            ))}
+          </div>
+        )}
         <div class="yv-table-wrap" tabindex="0" aria-label={`${guide.year} Fender Stratocaster values by condition`}>
           <table class="yv-table">
             <caption>Estimated 2026 values and adjustments for a {guide.year} Fender Stratocaster</caption>
@@ -169,8 +183,7 @@ const structuredData = [
         </div>
         <aside class="yv-callout">
           <strong>Original factory custom colors are generally worth more than the standard sunburst finish when the paint is authentic.</strong>{" "}
-          For {guide.year}, the current custom-color estimate is {guide.customRange}; it is not a fixed multiplier.
-          Finish authentication, color scarcity, condition, and the rest of the guitar still control the result.{" "}
+          {guide.customColorSummary ?? `For ${guide.year}, the current custom-color estimate is ${guide.customRange}; it is not a fixed multiplier. Finish authentication, color scarcity, condition, and the rest of the guitar still control the result.`}{" "}
           <a href="/post/fender-custom-color-authentication-guide/">Read the Fender custom-color authentication guide</a> before applying a premium.
         </aside>
       </div>
@@ -182,7 +195,7 @@ const structuredData = [
         <h2>How to Identify a {guide.year} Stratocaster</h2>
         <div class="yv-rule" aria-hidden="true"></div>
         <p class="yv-intro">
-          The fastest visual starting point for this year is <strong>{guide.marker.toLowerCase()}</strong>.
+          The fastest visual starting point for this year is <strong>{guide.marker}</strong>.
           That narrows the window; it does not authenticate the guitar by itself. The strongest conclusion comes from several independent details agreeing.
         </p>
         <div class="yv-card-grid">
@@ -247,6 +260,24 @@ const structuredData = [
         </p>
       </div>
     </section>
+
+    {guide.relatedGuides && (
+      <section class="yv-section yv-section--alt" id="related-reading">
+        <div class="yv-inner yv-narrow">
+          <p class="yv-eyebrow">See the evidence on a real guitar</p>
+          <h2>Related {guide.year} Stratocaster Guides</h2>
+          <div class="yv-rule" aria-hidden="true"></div>
+          <div class="yv-related-grid">
+            {guide.relatedGuides.map((related) => (
+              <a href={related.href}>
+                <strong>{related.label}</strong>
+                <span>{related.description}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
 
     <section class="yv-section yv-section--dark" aria-labelledby="related-year-heading">
       <div class="yv-inner">
@@ -336,6 +367,11 @@ const structuredData = [
   .yv-table th, .yv-table td { padding: 15px 16px; border-top: 1px solid rgba(80, 49, 30, .17); text-align: left; vertical-align: top; }
   .yv-table thead th { background: var(--color-brand-rust-dark); color: #fff; font-family: var(--font-display); letter-spacing: .02em; }
   .yv-table tbody th { width: 24%; color: var(--color-brand-rust-dark); }
+  .yv-subranges { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 27px; }
+  .yv-subranges article { padding: 20px; border: 1px solid rgba(80, 49, 30, .2); border-top: 4px solid var(--color-brand-rust-bright); background: #fff; }
+  .yv-subranges h3 { margin: 0 0 7px; color: var(--color-brand-rust-dark); font: 700 20px/1.25 var(--font-display); }
+  .yv-subranges strong { display: block; margin-bottom: 8px; color: var(--color-brand-rust); font: 700 21px/1.2 var(--font-display); }
+  .yv-subranges p { margin: 0; font-size: 14px; line-height: 1.55; }
   .yv-callout { margin-top: 22px; padding: 19px 21px; border-left: 5px solid var(--color-brand-rust-bright); background: #fff; color: var(--color-brand-charcoal); font: 16px/1.65 var(--font-sans); }
   .yv-card-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 30px; }
   .yv-card { padding: 23px 21px; border-top: 4px solid var(--color-brand-rust-bright); background: var(--color-brand-cream-light); }
@@ -345,6 +381,11 @@ const structuredData = [
   .yv-checks { margin: 0 0 24px; padding: 0; list-style: none; counter-reset: steps; }
   .yv-checks li { position: relative; min-height: 43px; margin-bottom: 18px; padding-left: 55px; counter-increment: steps; }
   .yv-checks li::before { position: absolute; left: 0; top: 0; display: grid; width: 38px; height: 38px; place-items: center; border-radius: 50%; background: var(--color-brand-rust-dark); color: #fff; content: counter(steps); font: 700 18px var(--font-display); }
+  .yv-related-grid { display: grid; gap: 14px; margin-top: 26px; }
+  .yv-related-grid a { display: grid; gap: 5px; padding: 18px 20px; border: 1px solid rgba(80, 49, 30, .18); border-left: 5px solid var(--color-brand-rust-bright); background: #fff; text-decoration: none; }
+  .yv-related-grid a:hover { border-color: var(--color-brand-rust-bright); }
+  .yv-related-grid strong { color: var(--color-brand-rust-dark); font: 700 19px/1.25 var(--font-display); }
+  .yv-related-grid span { color: var(--color-brand-charcoal); font: 14px/1.55 var(--font-sans); }
   .yv-section--dark { background: var(--color-brand-brown); }
   .yv-section--dark h2 { color: var(--color-brand-cream); }
   .yv-year-nav { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 25px; }
@@ -359,6 +400,6 @@ const structuredData = [
   }
   @media (max-width: 560px) {
     .yv-section { padding: 48px 0; }
-    .yv-card-grid { grid-template-columns: 1fr; }
+    .yv-card-grid, .yv-subranges { grid-template-columns: 1fr; }
   }
 </style>

@@ -19,6 +19,9 @@ export interface StratocasterYearGuide {
   year: string;
   standardRange: string;
   customRange: string;
+  metaValueRange: string;
+  veryGoodRange: string;
+  refinishRange: string;
   answer: string;
   intro: string;
   marketContext: string;
@@ -32,14 +35,20 @@ export interface StratocasterYearGuide {
   detailPhoto: ImageMetadata;
   detailAlt: string;
   detailCaption: string;
+  customColorSummary?: string;
+  subRanges?: { label: string; range: string; note: string }[];
+  relatedGuides?: { label: string; href: string; description: string }[];
 }
 
 export const stratocasterYearGuides: StratocasterYearGuide[] = [
   {
     year: "1954",
-    standardRange: "$85,000 to $275,000",
-    customRange: "Authenticated individually; no dependable single band",
-    answer: "An excellent, all-original 1954 Fender Stratocaster with its original case can bring roughly $85,000 to $275,000. The earliest spring guitars, exceptional preservation, and documented provenance explain the unusually wide spread.",
+    standardRange: "$68,000 to $220,000",
+    customRange: "Individual appraisal required",
+    metaValueRange: "$68,000 to $220,000",
+    veryGoodRange: "$51,000 to $198,000",
+    refinishRange: "$31,000 to $132,000",
+    answer: "An excellent, all-original 1954 Fender Stratocaster with its original case can bring roughly $68,000 to $220,000. The earliest spring guitars, exceptional preservation, and documented provenance explain the unusually wide spread.",
     intro: "1954 is the Stratocaster's launch year and a market unto itself. Fender changed details while the design moved from the earliest spring instruments into regular production, so two authentic 1954 Strats can carry different serial locations, pots, knobs, and small construction details.",
     marketContext: "The top of the range belongs to exceptionally early, clean, coherent examples. A later 1954 with honest wear can still be a major instrument, but a replacement neck, refinished body, repaired plastics, or an unclear serial story creates a much larger deduction at this price level than it would on a routine player guitar.",
     marker: "Early serial location and first-year plastics",
@@ -57,12 +66,20 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     detailPhoto: bodyDate1955,
     detailAlt: "Penciled body date inside the tremolo cavity of a 1955 Fender Stratocaster",
     detailCaption: "This 1955 body date shows the kind of hidden pencil evidence used to distinguish neighboring maple-neck years.",
+    customColorSummary: "Original non-sunburst 1954 Stratocasters are too scarce and specification-dependent for a dependable single price band. Authenticate the finish and appraise the guitar individually before applying any premium.",
+    subRanges: [
+      { label: "Early spring 1954", range: "$120,000 to $220,000", note: "Tremolo-cover serials, earliest plastics, strong provenance, and exceptional originality can place a guitar in this upper first-year market." },
+      { label: "Later 1954 production", range: "$68,000 to $140,000", note: "Later neck-plate guitars overlap the early market when unusually clean, but most trade in this broader production band." },
+    ],
   },
   {
     year: "1955",
-    standardRange: "$50,000 to $80,000",
-    customRange: "$100,000 to $200,000",
-    answer: "An excellent, all-original 1955 Fender Stratocaster with its original case is generally worth about $50,000 to $80,000 in sunburst. A rare, authenticated factory custom color can bring roughly $100,000 to $200,000.",
+    standardRange: "$40,000 to $64,000",
+    customRange: "$80,000 to $160,000",
+    metaValueRange: "$40,000 to $64,000",
+    veryGoodRange: "$30,000 to $58,000",
+    refinishRange: "$18,000 to $38,000",
+    answer: "An excellent, all-original 1955 Fender Stratocaster with its original case is generally worth about $40,000 to $64,000 in sunburst. A rare, authenticated factory custom color can bring roughly $80,000 to $160,000.",
     intro: "A 1955 Stratocaster looks much like a late-1954 guitar from the outside. That is exactly why the hidden evidence matters: the neck date, body date, pot codes, pickups, and solder have to agree before the market treats the guitar as a coherent 1955 example.",
     marketContext: "Collectors pay for the early maple-neck specification without the extreme first-year premium. Clean plastics, an undisturbed harness, the correct ash body and two-color sunburst, and an original tweed case can move a 1955 toward the top of the range.",
     marker: "Late-1954 specification; internal dates settle the year",
@@ -83,9 +100,12 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
   },
   {
     year: "1956",
-    standardRange: "$45,000 to $75,000",
-    customRange: "$50,000 to $200,000",
-    answer: "An excellent, all-original 1956 Fender Stratocaster with its original case is generally worth about $45,000 to $75,000 in sunburst. Authenticated factory custom colors can range from roughly $50,000 well into six figures.",
+    standardRange: "$36,000 to $60,000",
+    customRange: "$40,000 to $160,000",
+    metaValueRange: "$36,000 to $60,000",
+    veryGoodRange: "$27,000 to $54,000",
+    refinishRange: "$16,000 to $36,000",
+    answer: "An excellent, all-original 1956 Fender Stratocaster with its original case is generally worth about $36,000 to $60,000 in sunburst. Authenticated factory custom colors can range from roughly $40,000 to $160,000.",
     intro: "1956 is a transition year inside the maple-neck era. Alder becomes Fender's standard body wood under sunburst and custom colors, while the small round string guide gives way to the wider butterfly tree around the middle of the year.",
     marketContext: "The neck carve, finish originality, plastics, electronics, and whether the body and neck tell one story matter more than assigning a premium to a single mid-year feature. Early and late specifications can both be correct.",
     marker: "Round guide to butterfly string tree; alder becomes standard",
@@ -106,9 +126,12 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
   },
   {
     year: "1957",
-    standardRange: "$40,000 to $60,000",
-    customRange: "$50,000 to $200,000",
-    answer: "An excellent, all-original 1957 Fender Stratocaster with its original case is generally worth about $40,000 to $60,000 in sunburst. Rare authenticated custom colors can range from about $50,000 to $200,000.",
+    standardRange: "$32,000 to $48,000",
+    customRange: "$40,000 to $160,000",
+    metaValueRange: "$32,000 to $48,000",
+    veryGoodRange: "$24,000 to $43,000",
+    refinishRange: "$14,000 to $29,000",
+    answer: "An excellent, all-original 1957 Fender Stratocaster with its original case is generally worth about $32,000 to $48,000 in sunburst. Rare authenticated custom colors can range from about $40,000 to $160,000.",
     intro: "The 1957 Stratocaster is a settled version of the mid-1950s design: small headstock, one-piece maple neck, eight-screw guard, two-color sunburst, and butterfly string tree. The most useful year clue is under the guard, where the tone capacitor changes from the earlier brown paper type to a white one.",
     marketContext: "The market rewards the classic maple-neck look, but a 1957 is not authenticated by a V-shaped neck or two-color burst alone. Dates, finish, pickups, solder, and the body screw pattern still have to agree.",
     marker: "White paper-in-oil tone capacitor",
@@ -129,9 +152,12 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
   },
   {
     year: "1958",
-    standardRange: "$35,000 to $45,000",
-    customRange: "$45,000 to $180,000",
-    answer: "An excellent, all-original 1958 Fender Stratocaster with its original case is generally worth about $35,000 to $45,000 in sunburst. Authenticated custom colors can bring roughly $45,000 to $180,000.",
+    standardRange: "$28,000 to $36,000",
+    customRange: "$36,000 to $144,000",
+    metaValueRange: "$28,000 to $36,000",
+    veryGoodRange: "$21,000 to $32,000",
+    refinishRange: "$13,000 to $22,000",
+    answer: "An excellent, all-original 1958 Fender Stratocaster with its original case is generally worth about $28,000 to $36,000 in sunburst. Authenticated custom colors can bring roughly $36,000 to $144,000.",
     intro: "1958 brings the visible change from two-color to three-color sunburst. The orange-to-red band between the yellow center and dark edge is the quick clue, while the one-piece maple neck and eight-screw guard still place the guitar firmly in the 1950s specification.",
     marketContext: "Three-color sunburst can fade dramatically, so color alone is not enough. An honest 1958 may have lost much of its red band, and an aggressively restored guitar may look more vivid than it should. Finish evidence under the guard and in the cavities matters.",
     marker: "Two-color sunburst gives way to three-color",
@@ -152,9 +178,12 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
   },
   {
     year: "1959",
-    standardRange: "$25,000 to $35,000",
-    customRange: "$40,000 to $160,000",
-    answer: "An excellent, all-original 1959 Fender Stratocaster with its original case is generally worth about $25,000 to $35,000 in sunburst. Authenticated factory custom colors can bring roughly $40,000 to $160,000.",
+    standardRange: "$20,000 to $28,000",
+    customRange: "$32,000 to $128,000",
+    metaValueRange: "$20,000 to $28,000",
+    veryGoodRange: "$15,000 to $25,000",
+    refinishRange: "$9,000 to $17,000",
+    answer: "An excellent, all-original 1959 Fender Stratocaster with its original case is generally worth about $20,000 to $28,000 in sunburst. Authenticated factory custom colors can bring roughly $32,000 to $128,000.",
     intro: "1959 contains one of the most important Stratocaster transitions. Early guitars can retain the one-piece maple neck and single-ply eight-screw guard; later examples move to a thick slab rosewood fingerboard, clay dots, and a three-ply nitrate guard with eleven screws.",
     marketContext: "Because both sides of the transition are collectible, the month and coherent feature set matter. A rosewood board is not automatically later than 1959, and a maple-board 1959 is not automatically assembled from earlier parts.",
     marker: "Maple to slab rosewood; eight-screw to eleven-screw guard",
@@ -172,12 +201,19 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     detailPhoto: strat1960,
     detailAlt: "1960 Fender Stratocaster hardtail showing the rosewood-board era immediately after 1959",
     detailCaption: "Adjacent-year reference: the late-1959 rosewood-board platform continues into 1960.",
+    subRanges: [
+      { label: "Early maple-board 1959", range: "$22,000 to $28,000", note: "The last maple-board, eight-screw examples occupy a distinct transition market when the dates and original parts agree." },
+      { label: "Later slab-board 1959", range: "$20,000 to $26,000", note: "The new slab rosewood board and eleven-screw nitrate guard must match the production month and internal evidence." },
+    ],
   },
   {
     year: "1960",
-    standardRange: "$30,000 to $45,000",
-    customRange: "$40,000 to $85,000",
-    answer: "An excellent, all-original 1960 Fender Stratocaster with its original case is generally worth about $30,000 to $45,000 in sunburst. Authenticated factory custom colors can bring roughly $40,000 to $85,000 or more in exceptional cases.",
+    standardRange: "$20,000 to $28,000",
+    customRange: "$32,000 to $68,000",
+    metaValueRange: "$20,000 to $28,000",
+    veryGoodRange: "$15,000 to $25,000",
+    refinishRange: "$9,000 to $17,000",
+    answer: "An excellent, all-original 1960 Fender Stratocaster with its original case is generally worth about $20,000 to $28,000 in sunburst. Authenticated factory custom colors can bring roughly $32,000 to $68,000 or more in exceptional cases.",
     intro: "The 1960 Stratocaster settles into the classic slab-board specification: thick rosewood fingerboard, clay dots, three-ply nitrate guard, small headstock, spaghetti logo, and black-bottom pickups. It is a stable year, which makes inconsistencies easier to spot.",
     marketContext: "A 1960 can sit above some late-1959 or later rosewood-board guitars when it combines a clean original finish, undisturbed electronics, strong provenance, and a desirable neck. Hardtail examples are a separate scarcity conversation rather than a simple automatic premium.",
     marker: "Stable slab-board specification; some bottom-edge neck-plate serials",
@@ -195,12 +231,18 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     detailPhoto: slab1962,
     detailAlt: "Slab rosewood fingerboard on a 1962 Fender Stratocaster representing the construction used in 1960",
     detailCaption: "Period-feature reference: the thick slab rosewood construction shown here is the defining 1960 fingerboard style.",
+    relatedGuides: [
+      { label: "1960 hardtail Stratocaster guide", href: "/post/hardtail-stratocaster-vintage-guide/", description: "Compare factory hardtail routing, bridge details, and the original 1960 guitar shown here." },
+    ],
   },
   {
     year: "1961",
-    standardRange: "$25,000 to $40,000",
-    customRange: "$38,000 to $80,000",
-    answer: "An excellent, all-original 1961 Fender Stratocaster with its original case is generally worth about $25,000 to $40,000 in sunburst. Authenticated factory custom colors can bring roughly $38,000 to $80,000 or more when the color is especially scarce.",
+    standardRange: "$17,000 to $27,000",
+    customRange: "$28,000 to $64,000",
+    metaValueRange: "$17,000 to $27,000",
+    veryGoodRange: "$13,000 to $24,000",
+    refinishRange: "$8,000 to $16,000",
+    answer: "An excellent, all-original 1961 Fender Stratocaster with its original case is generally worth about $17,000 to $27,000 in sunburst. Authenticated factory custom colors can bring roughly $28,000 to $64,000 or more when the color is especially scarce.",
     intro: "A 1961 Stratocaster keeps the slab rosewood board, clay dots, nitrate guard, small headstock, and spaghetti logo. The year-specific change is inside: a round ceramic disc tone capacitor replaces the earlier paper-in-oil block, with ordinary Fender overlap into early 1962.",
     marketContext: "The visual specification is close to 1960 and early 1962, so the neck stamp and component codes carry unusual weight. A capacitor is supporting evidence, not a reason to ignore a mismatched neck, body, or pickup set.",
     marker: "Ceramic disc tone capacitor replaces the paper block",
@@ -221,9 +263,12 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
   },
   {
     year: "1962",
-    standardRange: "$24,000 to $38,000",
-    customRange: "$32,000 to $75,000",
-    answer: "An excellent, all-original 1962 Fender Stratocaster with its original case is generally worth about $24,000 to $38,000 in sunburst. Authenticated factory custom colors can bring roughly $32,000 to $75,000 or more.",
+    standardRange: "$16,000 to $26,000",
+    customRange: "$26,000 to $60,000",
+    metaValueRange: "$16,000 to $26,000",
+    veryGoodRange: "$12,000 to $23,000",
+    refinishRange: "$7,000 to $16,000",
+    answer: "An excellent, all-original 1962 Fender Stratocaster with its original case is generally worth about $16,000 to $26,000 in sunburst. Authenticated factory custom colors can bring roughly $26,000 to $60,000 or more.",
     intro: "1962 contains the sharpest fingerboard value line inside the pre-CBS years. The thick slab rosewood board continues until partway through August, then gives way to a thinner curved veneer. At the very end of the year, the first L-prefix neck plates begin to appear.",
     marketContext: "Collectors often pay more for the slab-board specification, but the board must agree with the neck date and the rest of the guitar. A veneer-board 1962 is not lesser in authenticity; it simply sits in a different market bucket.",
     marker: "Slab board to veneer in August; first L plates late in the year",
@@ -241,12 +286,22 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     detailPhoto: slab1962,
     detailAlt: "Thick slab rosewood fingerboard at the nut of a 1962 Fender Stratocaster",
     detailCaption: "The thick slab rosewood band at the nut, used until the August 1962 transition to veneer construction.",
+    subRanges: [
+      { label: "Slab-board 1962", range: "$18,000 to $26,000", note: "The thick flat-bottomed rosewood board runs through part of August and generally occupies the stronger collector band." },
+      { label: "Veneer-board 1962", range: "$16,000 to $22,000", note: "The thinner curved veneer is fully authentic for later 1962 and should be compared with the correct transition group." },
+    ],
+    relatedGuides: [
+      { label: "1962 Stratocaster authentication guide", href: "/post/1962-fender-stratocaster-authentication-guide/", description: "See the complete guitar, slab-board evidence, dates, hardware, and internal photographs." },
+    ],
   },
   {
     year: "1963",
-    standardRange: "$20,000 to $35,000",
-    customRange: "$28,000 to $65,000",
-    answer: "An excellent, all-original 1963 Fender Stratocaster with its original case is generally worth about $20,000 to $35,000 in sunburst. Authenticated factory custom colors can bring roughly $28,000 to $65,000 or more.",
+    standardRange: "$15,000 to $24,000",
+    customRange: "$22,000 to $52,000",
+    metaValueRange: "$15,000 to $24,000",
+    veryGoodRange: "$11,000 to $22,000",
+    refinishRange: "$7,000 to $14,000",
+    answer: "An excellent, all-original 1963 Fender Stratocaster with its original case is generally worth about $15,000 to $24,000 in sunburst. Authenticated factory custom colors can bring roughly $22,000 to $52,000 or more.",
     intro: "The 1963 Stratocaster is a veneer-board, L-series pre-CBS guitar with several useful transition details. Early guitars can retain older plain serial plates, the twelfth-fret clay dots move from wide to narrow spacing, and a pickguard screw shifts during the year to reduce celluloid warping.",
     marketContext: "The market likes the mature pre-CBS specification, but 1963 also demonstrates why a checklist cannot be rigid. Wide dots, narrow dots, early plain plates, L plates, and two correct guard-screw positions can all occur when the month supports them.",
     marker: "L-series plate, dot-spacing and pickguard-screw transitions",
@@ -264,12 +319,19 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     detailPhoto: electronics1963,
     detailAlt: "Original pickups, wiring, pots, and pickguard on a 1963 Fender Stratocaster",
     detailCaption: "The underside of a 1963: pickups, pots, cloth wiring, capacitor, and solder carry much of the originality evidence.",
+    relatedGuides: [
+      { label: "1963 Stratocaster authentication guide", href: "/post/1963-fender-stratocaster-authentication-guide/", description: "Follow a real 1963 Stratocaster through its L-series plate, dates, finish, electronics, and hardware." },
+      { label: "What a Fender serial number cannot tell you", href: "/post/what-a-serial-number-cant-tell-you/", description: "See why finish, electronics, neck, body, and provenance must support the serial evidence." },
+    ],
   },
   {
     year: "1964",
-    standardRange: "$18,000 to $32,000",
-    customRange: "$25,000 to $60,000",
-    answer: "An excellent, all-original 1964 Fender Stratocaster with its original case is generally worth about $18,000 to $32,000 in sunburst. Authenticated factory custom colors can bring roughly $25,000 to $60,000 or more.",
+    standardRange: "$14,000 to $22,000",
+    customRange: "$20,000 to $48,000",
+    metaValueRange: "$14,000 to $22,000",
+    veryGoodRange: "$11,000 to $20,000",
+    refinishRange: "$6,000 to $13,000",
+    answer: "An excellent, all-original 1964 Fender Stratocaster with its original case is generally worth about $14,000 to $22,000 in sunburst. Authenticated factory custom colors can bring roughly $20,000 to $48,000 or more.",
     intro: "1964 is packed with transition details. The thin spaghetti logo gives way to the heavier transition logo around mid-year, clay face dots move to pearloid late in the year, and pickup construction starts moving from black bottoms and Formvar toward grey bottoms and plain enamel.",
     marketContext: "A 1964 can legitimately mix early and late features because Fender used parts as bins emptied. The strongest examples are not the ones that match an internet checklist perfectly; they are the ones whose month-specific details agree with each other.",
     marker: "Spaghetti to transition logo; clay to pearloid; pickup changes",
@@ -290,9 +352,12 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
   },
   {
     year: "1965",
-    standardRange: "$18,000 to $30,000 early; $15,000 to $25,000 late",
-    customRange: "$22,000 to $55,000 early; $20,000 to $45,000 late",
-    answer: "An excellent, all-original 1965 Fender Stratocaster with its original case is generally worth about $18,000 to $30,000 for an early small-headstock example and $15,000 to $25,000 for a later large-headstock example. Original custom colors can bring materially more.",
+    standardRange: "$14,000 to $22,000 early; $12,000 to $20,000 late",
+    customRange: "$18,000 to $44,000 early; $16,000 to $36,000 late",
+    metaValueRange: "$12,000 to $22,000",
+    veryGoodRange: "$11,000 to $20,000 early; $9,000 to $18,000 late",
+    refinishRange: "$6,000 to $13,000 early; $5,000 to $12,000 late",
+    answer: "An excellent, all-original 1965 Fender Stratocaster with its original case is generally worth about $14,000 to $22,000 for an early small-headstock example and $12,000 to $20,000 for a later large-headstock example. Original custom colors can bring materially more.",
     intro: "1965 is not one specification. CBS completes the Fender purchase in January, but the guitar changes in stages: the nitrate guard moves to white plastic around mid-year, the big-F neck plate arrives around the third quarter, and the wider CBS headstock appears late in the year.",
     marketContext: "The market commonly pays more for early small-headstock, L-plate examples that retain the pre-CBS specification. A late large-headstock guitar is still a collectible 1965 Stratocaster, but it must be compared with the right transition group rather than averaged with the whole year.",
     marker: "Staged transition: guard material, big-F plate, then large headstock",
@@ -310,6 +375,13 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     detailPhoto: undercoat1965,
     detailAlt: "Finish chip on a 1965 Candy Apple Red Fender Stratocaster exposing the metallic silver undercoat",
     detailCaption: "A small finish chip exposes the silver metallic undercoat beneath original Candy Apple Red.",
+    subRanges: [
+      { label: "Early small-headstock 1965", range: "$14,000 to $22,000", note: "Small headstock, L-series plate, and the earlier guard specification generally form the stronger 1965 market." },
+      { label: "Late large-headstock 1965", range: "$12,000 to $20,000", note: "The wider CBS headstock belongs to a separate transition group and should not be averaged with early examples." },
+    ],
+    relatedGuides: [
+      { label: "One-owner 1965 Stratocaster story", href: "/post/one-owner-1965-fender-stratocaster/", description: "See an original-owner guitar and the provenance that helps establish a credible market history." },
+    ],
   },
 ];
 
