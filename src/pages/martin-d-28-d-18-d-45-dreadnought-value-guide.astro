@@ -10,7 +10,7 @@ import martinD28 from "../assets/images/1959-martin-D-28-scaled.jpg";
 import martinD18 from "../assets/images/sell-martin/1945-martin-d-18-1-1024x683.jpg";
 import martinD45 from "../assets/images/sell-martin/martin-d-45-brazilian-rosewood-1024x682.jpg";
 import martinNeckBlock from "../assets/images/sell-martin/Model-Name-Serial-Number-Martin-1024x683.jpg";
-import martinD18Wear from "../assets/blog/martin-d18-history-value-guide/1951-martin-d18-play-wear.jpg";
+import martinD18Wear from "../assets/images/martin-dreadnought-value-guide/1951-martin-d18-honest-play-wear.jpg";
 import martinD28BrazilianBack from "../assets/images/martin-dreadnought-value-guide/1947-martin-d-28-brazilian-rosewood.webp";
 import martinD45IndianBack from "../assets/images/martin-dreadnought-value-guide/martin-d-45-east-indian-rosewood.jpg";
 
@@ -311,7 +311,7 @@ structuredData.push({
         <div class="vg-grid">{drivers.map((driver) => <article class="vg-card"><h3>{driver.t}</h3><p>{driver.b} {driver.link && <a href={driver.link.href}>{driver.link.label}</a>}</p></article>)}</div>
       </div>
       <figure class="vg-feature vg-feature--wear">
-        <LicensedImage src={martinD18Wear} alt="Honest pick wear and finish checking on a 1951 Martin D-18" width={900} loading="lazy" decoding="async" sizes="(max-width: 900px) 100vw, 34vw" />
+        <LicensedImage src={martinD18Wear} alt="Close-up of honest play wear across the spruce top of a 1951 Martin D-18" width={900} loading="lazy" decoding="async" sizes="(max-width: 900px) 100vw, 34vw" />
         <figcaption>Honest play wear on a 1951 D-18 is not the same thing as a refinish or structural damage. Condition has to be described, not reduced to whether the guitar looks new.</figcaption>
       </figure>
     </div>
@@ -465,7 +465,7 @@ structuredData.push({
 
   .vg-value-layout { align-items: start; display: grid; gap: 42px; grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr); }
   .vg-feature--wear { margin-top: 54px; }
-  .vg-feature--wear > :global(img) { aspect-ratio: 4 / 5; object-fit: cover; }
+  .vg-feature--wear > :global(img) { aspect-ratio: 2 / 3; object-fit: cover; }
 
   .vg-appraisal-layout { align-items: start; display: grid; gap: 46px; grid-template-columns: minmax(0, 1.15fr) minmax(360px, 0.85fr); }
   .vg-steps { display: grid; gap: 12px; list-style: none; margin: 28px 0 0; padding: 0; }
