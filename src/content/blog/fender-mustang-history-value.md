@@ -261,9 +261,9 @@ Vintage Mustang values move with the year, the finish, the condition, and above 
 
 | Segment | Player or modified | All-original, excellent |
 | --- | --- | --- |
-| Pre-CBS standard color, 1964 to 1965 | about $1,500 to $2,800 | about $2,800 to $5,000 |
-| CBS standard color, 1966 to early 1970s | about $1,200 to $2,200 | about $2,200 to $3,800 |
-| Competition finish, 1969 to 1973 | about $2,500 to $4,500 | about $4,500 to $9,000 |
+| Pre-CBS standard color, 1964 to 1965 | about $1,500 to $2,800 | about $2,200 to $4,000 |
+| CBS standard color, 1966 to early 1970s | about $1,200 to $2,200 | about $1,600 to $2,200 |
+| Competition finish, 1969 to 1973 | about $2,500 to $4,500 | about $4,000 to $6,000 |
 
 A few things sit outside the table. Competition Orange is the rarest of the three Competition colors and can run above the range, a 1969 with an original matching painted headstock commands a premium over a later natural-headstock car, and Competition Blue carries extra weight from the Cobain association. A genuine 22.5 inch short-scale example is less common than the 24 inch and can draw its own interest. On the other end, a refinished guitar, a swapped-in modern bridge, a missing vibrato arm, or an added humbucker each pull the number down, and on a Competition guitar a refinish erases most of the premium.
 
@@ -311,7 +311,7 @@ A Competition Mustang is a Mustang finished in Fender's "Competition" package, o
 
 **What is my vintage Fender Mustang worth?**
 
-An all-original standard-color Mustang from the 1960s generally falls in the range of about $2,200 to $5,000 in excellent condition, with pre-CBS 1964 and 1965 examples at the top of that band. All-original Competition Mustangs run higher, roughly $4,500 to $9,000 and up, with Orange and matching-headstock 1969 examples the priciest. Refinishes, replaced parts, and a missing vibrato arm all lower the number, so the only way to know is to have it appraised.
+An all-original standard-color Mustang from the 1960s generally falls in the range of about $1,600 to $4,000 in excellent condition, with pre-CBS 1964 and 1965 examples at the top of that band. All-original Competition Mustangs run higher, roughly $4,000 to $6,000, with Orange and matching-headstock 1969 examples the priciest. Refinishes, replaced parts, and a missing vibrato arm all lower the number, so the only way to know is to have it appraised.
 
 **What is the difference between the 22.5 inch and 24 inch scale Mustang?**
 
@@ -371,7 +371,7 @@ No. Reissues are good guitars, but they are worth a fraction of a vintage origin
       "name": "What is my vintage Fender Mustang worth?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An all-original standard-color Mustang from the 1960s generally falls in the range of about 2,200 to 5,000 dollars in excellent condition, with pre-CBS 1964 and 1965 examples at the top of that band. All-original Competition Mustangs run higher, roughly 4,500 to 9,000 dollars and up, with Orange and matching-headstock 1969 examples the priciest. Refinishes, replaced parts, and a missing vibrato arm all lower the number, so the only way to know is to have it appraised."
+        "text": "An all-original standard-color Mustang from the 1960s generally falls in the range of about 1,600 to 4,000 dollars in excellent condition, with pre-CBS 1964 and 1965 examples at the top of that band. All-original Competition Mustangs run higher, roughly 4,000 to 6,000 dollars, with Orange and matching-headstock 1969 examples the priciest. Refinishes, replaced parts, and a missing vibrato arm all lower the number, so the only way to know is to have it appraised."
       }
     },
     {
