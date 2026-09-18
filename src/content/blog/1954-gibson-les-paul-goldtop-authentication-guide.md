@@ -430,6 +430,8 @@ An all-original 1954 in its original Lifton case in good condition commands a pr
 
 Dig deeper into vintage Gibson authentication and valuation with these guides.
 
+-   The [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) compares published Goldtop, Standard, Custom, Special and Junior ranges after the guitar's year and originality have been established.
+
 **1954 Gibson Les Paul Goldtop Authentication Guide**
 
 This reference draws on documented production examples, collector literature including Vic DaPra's *Goldtop Believers*, potentiometer date code records, and hands-on inspection of authenticated 1954 instruments. Dates for component transitions are approximate, Gibson's changes were phased rather than instantaneous, and transitional examples exist throughout 1953 to 1955 production.

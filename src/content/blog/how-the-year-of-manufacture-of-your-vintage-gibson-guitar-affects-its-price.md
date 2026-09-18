@@ -239,6 +239,8 @@ Year of manufacture matters a great deal, but it is only one part of the equatio
 
 For a deeper dive into all the variables, see our guide on the [7 factors that determine vintage guitar value](/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/).
 
+If the guitar is a Les Paul, the [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) applies these factors to published ranges for Goldtops, Sunburst Standards, Customs, Specials, Juniors and later vintage examples.
+
 <h2 id="jvg-faq">Frequently Asked Questions</h2>
 
 What year Gibson Les Paul is most valuable?

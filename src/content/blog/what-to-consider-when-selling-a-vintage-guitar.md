@@ -74,6 +74,8 @@ The value of a vintage guitar depends on its condition and provenance. However, 
 
 Their original price was around $280, but they now regularly go to auction for more than $400,000. That’s because they have incredible craftsmanship, and only about 1,700 were ever made.
 
+Our [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) compares published ranges for Goldtops, Sunburst Standards, Customs, Specials and Juniors, and explains why condition and originality can move two examples of the same year far apart.
+
 <h3 id="where-can-i-sell-vintage-guitars-in-arizona">Where Can I Sell Vintage Guitars In Arizona?</h3>
 
 -   **Guitar Shops:** Independent guitar shops can be an excellent alternative to offer valuable vintage guitars, although you will probably receive less money than elsewhere.

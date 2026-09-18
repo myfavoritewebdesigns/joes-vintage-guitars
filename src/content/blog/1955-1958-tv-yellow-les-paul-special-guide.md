@@ -18,6 +18,8 @@ In the golden age of Gibson craftsmanship, the **1955 to 1958 Single Cut Les Pau
 
 If you are looking to buy or [sell a vintage Les Paul](/sell-my-gibson-guitar/), understanding these authentication specifications is critical. At **Joe’s Vintage Guitars**, we’ve seen how even small parts swaps can impact the market value of a vintage instrument by thousands of dollars. If you are wondering what your guitar is worth, don’t hesitate to reach out to us for a [free appraisal.](/free-appraisal/)
 
+For published model ranges, compare the Special with the Junior, Goldtop, Custom and Standard in the [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/). The guide explains how originality, repairs, finish and provenance move an individual guitar within or outside those ranges.
+
 Below is a complete guide to authenticating your single cut Les Paul Special from 1955-1958.
 
 ## The “Limed Mahogany” TV Yellow Finish
