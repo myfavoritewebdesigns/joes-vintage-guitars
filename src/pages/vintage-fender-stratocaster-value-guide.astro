@@ -2,9 +2,22 @@
 import Layout from "../layouts/Layout.astro";
 import PageHero from "../components/primitives/PageHero.astro";
 import Button from "../components/primitives/Button.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
 import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
 import { contact, hrefs } from "../config/site";
+import strat1962Sunburst from "../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg";
+import strat1962Headstock from "../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-spaghetti-logo-headstock-scaled.jpg";
+import strat1962SlabBoard from "../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-slab-board-example.jpg";
+import strat1964FiestaRed from "../assets/images/sell-fender/1964-fiesta-red-stratocaster-17-1-1024x683.jpg";
+import strat1963Electronics from "../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-electronics.jpg";
+import strat1963Sunburst from "../assets/blog/what-a-serial-number-cant-tell-you/1963-fender-stratocaster-sunburst-front.jpg";
+import strat1965CandyAppleRed from "../assets/blog/what-a-serial-number-cant-tell-you/1965-fender-stratocaster-candy-apple-red-front.jpg";
+import strat1965SilverUndercoat from "../assets/blog/what-a-serial-number-cant-tell-you/1965-fender-stratocaster-candy-apple-red-chip-silver-undercoat.jpg";
+
+const canonicalUrl = "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/";
+const articleDescription = "Current 2026 price ranges for vintage Fender Stratocasters made from 1954 to 1965, with the pre-CBS features, finishes, originality, and condition details that determine value.";
+const articleImage = "https://www.joesvintageguitarsaz.com/images/og/vintage-fender-stratocaster-value-guide.jpg";
 
 const structuredData: Record<string, unknown>[] = [
   {
@@ -12,37 +25,71 @@ const structuredData: Record<string, unknown>[] = [
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
-      { "@type": "ListItem", position: 2, name: "Vintage Fender Stratocaster Value Guide", item: "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/" },
+      { "@type": "ListItem", position: 2, name: "Vintage Fender Stratocaster Value Guide", item: canonicalUrl },
     ],
   },
   {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Vintage Fender Stratocaster Value Guide",
+    description: articleDescription,
+    image: articleImage,
+    datePublished: "2026-06-09",
+    dateModified: "2026-09-18",
+    inLanguage: "en-US",
     author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
     publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
-    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/",
+    mainEntityOfPage: canonicalUrl,
+    about: [
+      { "@type": "Thing", name: "Vintage Fender Stratocaster" },
+      { "@type": "Thing", name: "Pre-CBS Fender guitars" },
+      { "@type": "Thing", name: "Vintage guitar appraisal" },
+    ],
   },
 ];
 
 const drivers = [
-  { t: "Year of Manufacture", b: "Earlier guitars bring the most. The 1954 debut year is the top of the market, and values step down year by year from there." },
-  { t: "Color & Finish", b: "Anything other than sunburst is a custom color, and those are much rarer. A custom-color Strat can be worth more than twice a sunburst from the same year." },
-  { t: "Originality", b: "All-original parts matter: knobs, hardware, pickguard, pickups, tuners. A refinish drops a guitar to roughly half its original-finish value, and replaced parts can cost up to 50%." },
-  { t: "Condition", b: "The cleaner, the better. Unplayed ‘case queens’ sit at the top, then lightly played, then moderately worn, then heavily used." },
+  {
+    t: "Year of Manufacture",
+    b: "Earlier guitars bring the most. The 1954 debut year is the top of the market, but the neck, body, electronics, and hardware all need to agree with the claimed year.",
+    image: strat1962Headstock,
+    alt: "Small headstock and spaghetti logo on a 1962 Fender Stratocaster",
+    caption: "A 1962 small headstock with the thin spaghetti logo.",
+  },
+  {
+    t: "Color & Finish",
+    b: "Sunburst was standard. Factory custom colors are scarcer, and the rarest original finishes can be worth more than twice a sunburst from the same year.",
+    image: strat1964FiestaRed,
+    alt: "Original 1964 Fender Stratocaster in Fiesta Red with its case",
+    caption: "An original 1964 Fiesta Red Stratocaster.",
+  },
+  {
+    t: "Originality",
+    b: "Pickups, solder, pots, pickguard, tuners, bridge, and plastics all matter. One changed part does not make the guitar worthless, but every change has to be identified and priced honestly.",
+    image: strat1963Electronics,
+    alt: "Original pickups, wiring, pots, and pickguard on a 1963 Fender Stratocaster",
+    caption: "The underside tells the story: pickups, pots, wiring, and solder.",
+  },
+  {
+    t: "Condition",
+    b: "Clean examples sit at the top, but honest play wear is not the same as damage. Structural repairs, overspray, extra routes, and an altered neck affect value more than ordinary checking and buckle wear.",
+    image: strat1963Sunburst,
+    alt: "Heavily played 1963 Fender Stratocaster in three-color sunburst",
+    caption: "Honest wear on a 1963 Stratocaster can still be desirable.",
+  },
 ];
 
 // Year/era, sunburst range, custom-color range. 1954 has no separate custom-color listing.
 // `guide` points at that year's own deep-dive page; the year cell renders as a
 // link when one exists, so new year pages only need this one field added.
 const prices = [
-  { era: "1954 (transitional)", sunburst: "$68,000 to $220,000", custom: "No separate listing" },
-  { era: "1955", sunburst: "$40,000 to $64,000", custom: "$80,000 to $160,000" },
-  { era: "1956", sunburst: "$36,000 to $60,000", custom: "$40,000 to $160,000", guide: "/vintage-fender-stratocaster-value-guide/1956/" },
-  { era: "1957", sunburst: "$32,000 to $48,000", custom: "$40,000 to $160,000" },
-  { era: "1958", sunburst: "$28,000 to $36,000", custom: "$36,000 to $144,000" },
-  { era: "1959", sunburst: "$20,000 to $28,000", custom: "$32,000 to $128,000" },
-  { era: "1960 to 1965", sunburst: "$12,000 to $36,000", custom: "$16,000 to $68,000" },
+  { era: "1954 (transitional)", sunburst: "$85,000 to $275,000", custom: "No separate listing" },
+  { era: "1955", sunburst: "$50,000 to $80,000", custom: "$100,000 to $200,000" },
+  { era: "1956", sunburst: "$45,000 to $75,000", custom: "$50,000 to $200,000", guide: "/vintage-fender-stratocaster-value-guide/1956/" },
+  { era: "1957", sunburst: "$40,000 to $60,000", custom: "$50,000 to $200,000" },
+  { era: "1958", sunburst: "$35,000 to $45,000", custom: "$45,000 to $180,000" },
+  { era: "1959", sunburst: "$25,000 to $35,000", custom: "$40,000 to $160,000" },
+  { era: "1960 to 1965", sunburst: "$15,000 to $45,000", custom: "$20,000 to $85,000" },
 ];
 
 const dating = [
@@ -54,12 +101,24 @@ const dating = [
   "Neck plate starting with ‘V’: 1982 and later (American Vintage reissues)",
 ];
 
+const valueLosses = [
+  { issue: "Refinished body or neck", effect: "Usually the largest single deduction. A full refinish can bring a guitar to roughly half the value of a comparable original-finish example." },
+  { issue: "Changed pickups or disturbed solder", effect: "Original pickups and untouched connections carry a large share of a pre-CBS Stratocaster’s collector value." },
+  { issue: "Extra body routes or wood removal", effect: "Permanent modification is more serious than a reversible hardware change because the original body cannot be restored." },
+  { issue: "Replacement neck, body, or assembled parts", effect: "A guitar assembled from genuine vintage parts is a partscaster, not an all-original example, and should be valued component by component." },
+  { issue: "Replaced pickguard, tuners, bridge, or plastics", effect: "The deduction depends on the part, its rarity, and whether the original part stays with the guitar." },
+  { issue: "Professional refret or normal maintenance", effect: "Good maintenance can preserve playability. It normally hurts less than a refinish, structural damage, or non-original electronics." },
+];
+
 const faqs = [
-  { q: "How much is a vintage Fender Stratocaster worth?", a: "It depends on the year, finish, and originality. An all-original 1954 to 1965 sunburst Stratocaster runs from about $12,000 to $220,000, and original custom-color finishes can be worth more than twice a sunburst from the same year." },
+  { q: "How much is a vintage Fender Stratocaster worth?", a: "It depends on the year, finish, and originality. An all-original 1954 to 1965 sunburst Stratocaster runs from about $15,000 to $275,000, and original custom-color finishes can be worth more than twice a sunburst from the same year." },
   { q: "What year Stratocaster is the most valuable?", a: "The 1954 debut year sits at the top of the market, and pre-CBS examples made before early 1965 bring the most. Values step down year by year from 1954, and a rare original custom color can outrun any sunburst of the same year." },
   { q: "How do I tell what year my Stratocaster is?", a: "Read the guitar before you read the serial. The headstock size and the logo put a Strat in a five-year window on sight, then the fingerboard, the dots, and the pickguard screw count narrow it to a year or two. My <a href=\"/fender-stratocaster-dating-guide/\">Stratocaster dating guide</a> runs all of it year by year. Confirm the answer with the neck date and pot codes, and run the number itself through my <a href=\"/fender-guitars-serial-number-guide/\">Fender serial number guide</a>." },
-  { q: "Does a refinish or replaced parts hurt the value?", a: "Yes. A refinish drops a Stratocaster to roughly half of its all-original value, and replaced parts such as pickups, tuners, or the pickguard can each cost up to 50% depending on what was changed." },
+  { q: "Does a refinish or replaced parts hurt the value?", a: "Yes. A refinish can reduce a Stratocaster's value substantially, often by about half when compared with an equivalent all-original example. Replaced pickups, modified wiring, extra routes, tuners, pickguards, and other changed parts also affect value, but the deduction depends on the part, the quality of the work, and whether the original part is included." },
   { q: "What is a pre-CBS Stratocaster?", a: "Pre-CBS means a Stratocaster built before CBS bought Fender in early 1965. Collectors prize the pre-CBS years for their materials and build quality, and those guitars sit at the top of the value range." },
+  { q: "Can a Fender serial number tell me what my Stratocaster is worth?", a: "No. A serial number can narrow the production period, but vintage Fender numbers overlap and they sit on replaceable parts. Value also depends on the finish, pickups, wiring, neck and body dates, hardware, condition, repairs, and whether the parts belong together." },
+  { q: "Should I restore or clean a vintage Stratocaster before an appraisal?", a: "Do not refinish it, replace parts, or aggressively clean aged hardware before an expert sees it. Keep every loose part, screw, cover, receipt, and case item with the guitar. Reversible setup work is different from restoration, but document anything that has been done." },
+  { q: "What photos do I need for a Stratocaster appraisal?", a: "Start with the full front and back, both sides of the headstock, the neck plate and serial number, pickups, bridge, controls, tuners, case, and every loose part. Do not remove the neck or pickguard unless you already know how to do it safely; clear exterior photos are enough to begin." },
 ];
 
 // FAQPage schema mirrors the visible <FAQ> above. stripTags keeps the JSON-LD
@@ -78,17 +137,17 @@ structuredData.push(faqSchema);
 ---
 
 <Layout
-  title="Vintage Fender Stratocaster Value Guide | Joe’s Vintage Guitars"
-  description="What a vintage 1954-1965 Fender Stratocaster is worth: current price ranges by year for sunburst and custom colors, plus the four things that drive the value."
+  title="Vintage Fender Stratocaster Value Guide (1954–1965)"
+  description={articleDescription}
   canonical="/vintage-fender-stratocaster-value-guide/"
-  ogImage="https://www.joesvintageguitarsaz.com/images/og/vintage-fender-stratocaster-value-guide.jpg"
-  ogImageAlt="Vintage Fender Stratocaster Value Guide from Joe's Vintage Guitars"
+  ogImage={articleImage}
+  ogImageAlt="Vintage Fender Stratocaster value guide covering pre-CBS guitars made from 1954 to 1965"
   structuredData={structuredData}
 >
   <PageHero
     eyebrow="Value Guide"
     title="Vintage Fender Stratocaster Value Guide"
-    subhead="What a 1954 to 1965 Stratocaster is actually worth today, and the four things that move the number."
+    subhead="2026 price ranges for 1954 to 1965 Stratocasters, plus the finish, originality, and condition details that move the number."
     subheadTag="p"
     subheadHtml={true}
     bgImage="/images/hero-background.jpg"
@@ -97,24 +156,75 @@ structuredData.push(faqSchema);
     <Button slot="cta" href="/free-appraisal/" variant="cream" size="lg">Free Appraisal</Button>
   </PageHero>
 
-  <section class="vg-section">
-    <div class="vg-inner">
-      <p class="vg-lede">
-        Vintage Fender Stratocasters from the 1950s and ’60s are some of the most collectible instruments
-        out there. This guide gives you real, current numbers and the factors that set them, so you have a sense
-        of where yours stands before you sell or insure it. For an exact figure on your specific guitar,
-        <a href="/free-appraisal/">get a free appraisal</a> and I’ll give you a straight answer.
-      </p>
+  <section class="vg-section" id="quick-answer">
+    <div class="vg-inner vg-intro">
+      <div class="vg-intro__copy">
+        <p class="vg-eyebrow">The short answer</p>
+        <h2 class="vg-head">How Much Is a Vintage Fender Stratocaster Worth?</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p class="vg-lede">
+          An all-original 1954 to 1965 Fender Stratocaster in excellent condition can be worth about
+          <strong>$15,000 to $275,000</strong>. Original custom colors can bring substantially more than
+          sunburst, while a refinish, changed pickups, extra body routes, or assembled parts can cut the number
+          dramatically.
+        </p>
+        <p>
+          That spread is wide because a first-year 1954 Stratocaster and a late-1965 transition guitar do not
+          occupy the same market. Start with the year, then verify the finish, parts, condition, and case before
+          treating any price as meaningful. For an exact figure on your guitar,
+          <a href="/free-appraisal/">get a free appraisal</a> and I’ll give you a straight answer.
+        </p>
+        <div class="vg-byline">
+          <strong>Written and reviewed by <a href="/about-me/">Joe Dampt</a></strong>
+          <span>Vintage guitar appraiser and buyer · 10,000+ instruments personally appraised</span>
+          <span>Originally published June 9, 2026 · Updated September 18, 2026</span>
+        </div>
+        <nav class="vg-toc" aria-label="On this page">
+          <strong>On this page</strong>
+          <ul>
+            <li><a href="#price-table">Values by year</a></li>
+            <li><a href="#value-factors">What drives value</a></li>
+            <li><a href="#custom-colors">Custom colors</a></li>
+            <li><a href="#identify">Pre-CBS identification</a></li>
+            <li><a href="#deductions">Value deductions</a></li>
+            <li><a href="#appraisal-process">Appraisal process</a></li>
+          </ul>
+        </nav>
+      </div>
+      <figure class="vg-feature">
+        <LicensedImage
+          src={strat1962Sunburst}
+          alt="Original 1962 Fender Stratocaster in three-color sunburst resting in its case"
+          width={1200}
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+          sizes="(max-width: 820px) 100vw, 48vw"
+        />
+        <figcaption>
+          An original 1962 Stratocaster in three-color sunburst. The year, finish, parts, wear, and original case
+          all contribute to its value.
+        </figcaption>
+      </figure>
     </div>
   </section>
 
-  <section class="vg-section vg-section--alt">
+  <section class="vg-section vg-section--alt" id="value-factors">
     <div class="vg-inner">
-      <h2 class="vg-head">What Drives the Value</h2>
+      <h2 class="vg-head">What Drives a Vintage Stratocaster’s Value?</h2>
       <div class="vg-rule" aria-hidden="true"></div>
+      <p class="vg-section-intro">
+        I evaluate these in the same order every time: establish the production period, authenticate the finish,
+        inventory the original parts, and then judge condition. A serial number is evidence, but it is never the
+        appraisal by itself.
+      </p>
       <div class="vg-grid">
         {drivers.map((d) => (
           <article class="vg-card">
+            <figure class="vg-card__figure">
+              <LicensedImage src={d.image} alt={d.alt} width={620} loading="lazy" decoding="async" sizes="(max-width: 640px) 100vw, 25vw" />
+              <figcaption>{d.caption}</figcaption>
+            </figure>
             <h3 set:html={d.t} />
             <p set:html={d.b} />
           </article>
@@ -123,26 +233,30 @@ structuredData.push(faqSchema);
     </div>
   </section>
 
-  <section class="vg-section">
+  <section class="vg-section" id="price-table">
     <div class="vg-inner">
-      <h2 class="vg-head">Vintage Stratocaster Values (1954 to 1965)</h2>
+      <h2 class="vg-head">Vintage Fender Stratocaster Values by Year (1954 to 1965)</h2>
       <div class="vg-rule" aria-hidden="true"></div>
-      <p class="vg-note">
-        These ranges are for all-original guitars in excellent condition with the original case. Custom-color
-        prices swing widely depending on how rare the color is, and the premium belongs to original finishes only,
-        so read our guide to <a href="/post/fender-custom-color-authentication-guide/">authenticating a Fender
-        custom color finish</a> before paying one. Updated September 2026, and the market moves, so treat
-        them as a guide rather than a quote.
+      <p class="vg-section-intro">
+        These are current market ranges for all-original guitars in excellent condition with the original case.
+        They are retail-value estimates, not automatic cash offers or insurance replacement values.
       </p>
-      <div class="vg-table-wrap">
+      <p class="vg-note">
+        Custom-color prices swing widely depending on the color and the strength of the authentication. The premium
+        belongs to original finishes only, so read my guide to <a href="/post/fender-custom-color-authentication-guide/">authenticating
+        a Fender custom-color finish</a> before paying one. Reviewed September 2026. The market moves, so treat
+        every range as a guide rather than a quote.
+      </p>
+      <div class="vg-table-wrap" tabindex="0" aria-label="Scrollable table of vintage Stratocaster values by year">
         <table class="vg-table">
+          <caption>Estimated 2026 market values for excellent, all-original Fender Stratocasters with the original case</caption>
           <thead>
             <tr><th>Year</th><th>Sunburst</th><th>Custom Color</th></tr>
           </thead>
           <tbody>
             {prices.map((p) => (
               <tr>
-                <td>{p.guide ? <a href={p.guide}>{p.era}</a> : p.era}</td>
+                <th scope="row">{p.guide ? <a href={p.guide}>{p.era}</a> : p.era}</th>
                 <td>{p.sunburst}</td>
                 <td>{p.custom}</td>
               </tr>
@@ -155,33 +269,165 @@ structuredData.push(faqSchema);
         <a href="/vintage-fender-stratocaster-value-guide/1956/">1956 Stratocaster value guide</a>. More years
         are on the way.
       </p>
+      <aside class="vg-market-note">
+        <strong>How to use the table:</strong> first choose the closest year and finish, then move downward for
+        changes, repairs, questionable parts, or missing provenance. Do not add a custom-color premium until the
+        finish itself has been authenticated.
+      </aside>
     </div>
   </section>
 
-  <section class="vg-section vg-section--alt">
+  <section class="vg-section vg-section--alt" id="custom-colors">
+    <div class="vg-inner vg-split">
+      <div>
+        <p class="vg-eyebrow">Finish and color</p>
+        <h2 class="vg-head">Why Original Custom Colors Change the Price</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p>
+          Sunburst was the standard Stratocaster finish. A factory custom color was the exception, so collectors
+          pay for scarcity, but only when the finish is original. Fiesta Red, Candy Apple Red, Olympic White, Lake
+          Placid Blue, and less common period colors do not all carry the same premium.
+        </p>
+        <p>
+          Color names alone are not authentication. I look for the paint process used in that period: wear into
+          the right undercoat, paint-stick shadows or nail holes where appropriate, finish in the cavities, the
+          way checking crosses the surface, and whether the neck pocket tells the same story as the visible body.
+          See the full <a href="/post/fender-custom-color-authentication-guide/">Fender custom-color authentication guide</a>.
+        </p>
+        <p>
+          A convincing refinish can still be a good guitar. It simply belongs in a different price category from
+          an untouched factory custom color.
+        </p>
+      </div>
+      <div class="vg-photo-grid">
+        <figure>
+          <LicensedImage
+            src={strat1965CandyAppleRed}
+            alt="1965 Fender Stratocaster in original Candy Apple Red finish"
+            width={900}
+            loading="lazy"
+            decoding="async"
+            sizes="(max-width: 820px) 100vw, 25vw"
+          />
+          <figcaption>An original 1965 Candy Apple Red finish.</figcaption>
+        </figure>
+        <figure>
+          <LicensedImage
+            src={strat1965SilverUndercoat}
+            alt="Finish chip on a 1965 Candy Apple Red Fender Stratocaster revealing the silver undercoat"
+            width={900}
+            loading="lazy"
+            decoding="async"
+            sizes="(max-width: 820px) 100vw, 25vw"
+          />
+          <figcaption>A small chip reveals the metallic silver undercoat beneath Candy Apple Red.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="vg-section" id="identify">
+    <div class="vg-inner vg-split vg-split--identify">
+      <div>
+        <p class="vg-eyebrow">Date it before you price it</p>
+        <h2 class="vg-head">How to Identify a Pre-CBS Stratocaster</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p>
+          “Pre-CBS” usually means a Stratocaster built before CBS took control of Fender in early 1965. The market
+          treats 1965 as a transition year, so the physical specification matters more than the calendar label.
+          A small headstock, spaghetti or transition logo, clay dots, L-series plate, period pickguard, and matching
+          component dates help place the guitar accurately.
+        </p>
+        <p>
+          Every value in the table turns on the production period. The quickest visible check is the headstock:
+          the small outline continues through 1965, while the larger CBS shape arrives late that year. The fingerboard
+          is another strong clue: a thick slab rosewood board runs from 1959 to mid-1962, followed by a thinner veneer board.
+        </p>
+        <p>Serial-number location narrows the era, but it does not prove it:</p>
+        <ul class="vg-list">
+          {dating.map((d) => <li set:html={d}></li>)}
+        </ul>
+      </div>
+      <figure class="vg-feature vg-feature--detail">
+        <LicensedImage
+          src={strat1962SlabBoard}
+          alt="Thick slab rosewood fingerboard on a 1962 Fender Stratocaster"
+          width={1000}
+          loading="lazy"
+          decoding="async"
+          sizes="(max-width: 820px) 100vw, 42vw"
+        />
+        <figcaption>
+          The thick rosewood slab board at the nut is one of the defining 1959 to mid-1962 Stratocaster features.
+        </figcaption>
+      </figure>
+    </div>
+    <div class="vg-inner vg-guide-box">
+      <h3>Cross-check the whole guitar</h3>
+      <div class="vg-guide-links">
+        <a href="/fender-stratocaster-dating-guide/"><strong>Stratocaster dating guide</strong><span>Year-by-year body, neck, logo, guard, and pickup changes</span></a>
+        <a href="/fender-guitars-serial-number-guide/"><strong>Fender serial numbers</strong><span>Decode the number and understand the overlapping ranges</span></a>
+        <a href="/fender-neck-dates/"><strong>Neck dates</strong><span>Pencil dates, ink stamps, and neck-heel formats</span></a>
+        <a href="/fender-body-dates/"><strong>Body dates</strong><span>Where Fender hid dates in routes and cavities</span></a>
+        <a href="/fender-pot-codes/"><strong>Pot codes</strong><span>Read manufacturer and week-year EIA codes</span></a>
+        <a href="/fender-pickup-dates/"><strong>Pickup dates</strong><span>Pencil, ink, bobbin, and construction clues</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt" id="deductions">
     <div class="vg-inner">
-      <h2 class="vg-head">Not Sure Which Year Yours Is?</h2>
+      <h2 class="vg-head">What Lowers a Vintage Stratocaster’s Value?</h2>
       <div class="vg-rule" aria-hidden="true"></div>
-      <p>
-        Every number in the table above turns on the year, so it pays to be sure of it. The quickest check is
-        the headstock: a small outline with a thin, delicate logo is 1964 or earlier, and a large one is late 1965
-        or later. My <a href="/fender-stratocaster-dating-guide/">Stratocaster dating guide</a> takes that year
-        by year from 1954 to 1971, through the board, the dots, the pickguard, and the pickups, with photos of
-        each change.
+      <p class="vg-section-intro">
+        The biggest deductions come from changes that remove original material or make the guitar’s history hard to
+        verify. Ordinary play wear is visible; replaced wood, finish, and electronics change what the guitar actually is.
       </p>
-      <p>Where the serial sits and how it’s formatted narrows the era too:</p>
-      <ul class="vg-list">
-        {dating.map((d) => <li set:html={d}></li>)}
-      </ul>
-      <p>
-        For the full serial breakdown with photos, work through my
-        <a href="/fender-guitars-serial-number-guide/">Fender serial number guide</a>. Serial numbers only get
-        you a window, though, so the physical features matter more.
+      <div class="vg-table-wrap" tabindex="0" aria-label="Scrollable table of issues that lower vintage Stratocaster value">
+        <table class="vg-table vg-table--deductions">
+          <caption>Common originality and condition issues that affect vintage Fender Stratocaster values</caption>
+          <thead><tr><th>Issue</th><th>Why It Matters</th></tr></thead>
+          <tbody>
+            {valueLosses.map((row) => (
+              <tr><th scope="row">{row.issue}</th><td>{row.effect}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="vg-note vg-note--years">
+        Keep every removed part with the guitar. An original pickup, guard, tuner, bridge cover, tremolo arm, or case
+        still has value even if it is no longer installed.
       </p>
     </div>
   </section>
 
-  <section class="vg-section">
+  <section class="vg-section" id="appraisal-process">
+    <div class="vg-inner">
+      <p class="vg-eyebrow">Joe’s appraisal process</p>
+      <h2 class="vg-head">How I Estimate the Value of a Vintage Stratocaster</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <p class="vg-section-intro">
+        A useful appraisal has to explain the number. I do not price a vintage Fender from the serial plate alone;
+        I build the answer from independent details that should agree with one another.
+      </p>
+      <ol class="vg-steps">
+        <li><span>01</span><div><strong>Identify the year and production period</strong><p>Serial range, neck date, body date, pot codes, pickup dates, headstock, fingerboard, logo, and hardware should tell one consistent story.</p></div></li>
+        <li><span>02</span><div><strong>Authenticate the finish and color</strong><p>I separate standard sunburst, genuine factory custom colors, overspray, touch-up, and full refinishes before applying any color premium.</p></div></li>
+        <li><span>03</span><div><strong>Inventory the original parts</strong><p>Pickups, pots, solder, pickguard, tuners, bridge, saddles, knobs, switch, jack, neck, and body all affect the result.</p></div></li>
+        <li><span>04</span><div><strong>Grade condition and repairs</strong><p>Honest wear, refrets, cracks, extra routes, structural work, and replaced parts do not carry the same deduction.</p></div></li>
+        <li><span>05</span><div><strong>Compare the correct market</strong><p>I compare the guitar with examples of the same year band, finish, originality, and condition, not simply the highest asking price online.</p></div></li>
+      </ol>
+      <aside class="vg-cta-panel">
+        <div>
+          <strong>Want the number for your guitar?</strong>
+          <span>Send clear photos for a free, no-obligation appraisal. You do not need to take the guitar apart to get started.</span>
+        </div>
+        <a href="/free-appraisal/">Request a Free Appraisal</a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt" id="selling-options">
     <div class="vg-inner">
       <h2 class="vg-head">Selling Your Vintage Stratocaster</h2>
       <div class="vg-rule" aria-hidden="true"></div>
@@ -219,8 +465,14 @@ structuredData.push(faqSchema);
 
 <style>
   .vg-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
-  .vg-section { background: #fff; padding: 56px 0; }
+  .vg-section { background: #fff; padding: 64px 0; scroll-margin-top: 96px; }
   .vg-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1.02fr) minmax(360px, 0.98fr);
+    gap: 48px;
+    align-items: start;
+  }
   .vg-head {
     font-family: var(--font-display);
     font-weight: 700;
@@ -238,10 +490,77 @@ structuredData.push(faqSchema);
     margin: 0 0 16px;
     max-width: 900px;
   }
-  .vg-lede { font-size: 17px !important; }
+  .vg-section .vg-eyebrow {
+    color: var(--color-brand-rust);
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+  }
+  .vg-lede { font-size: 18px !important; line-height: 1.65 !important; }
+  .vg-lede strong { color: var(--color-brand-rust-dark); }
   .vg-note { font-style: italic; }
+  .vg-section-intro { font-size: 17px !important; max-width: 820px !important; }
   .vg-section a { color: var(--color-brand-rust); text-decoration: underline; font-weight: 600; }
   .vg-section a:hover { color: var(--color-brand-rust-bright); }
+
+  .vg-byline {
+    border-left: 4px solid var(--color-brand-rust-bright);
+    color: var(--color-brand-charcoal);
+    display: grid;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    gap: 3px;
+    margin: 24px 0;
+    padding-left: 16px;
+  }
+  .vg-byline strong { color: var(--color-brand-rust-dark); font-size: 15px; }
+  .vg-toc {
+    background: var(--color-brand-cream-light, #f9f1de);
+    border: 1px solid rgba(104, 36, 18, 0.16);
+    padding: 18px 20px;
+  }
+  .vg-toc > strong {
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  .vg-toc ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px 18px;
+    list-style: none;
+    margin: 12px 0 0;
+    padding: 0;
+  }
+  .vg-toc a { font-family: var(--font-sans); font-size: 14px; }
+  .vg-feature,
+  .vg-photo-grid figure,
+  .vg-card__figure { margin: 0; }
+  .vg-feature {
+    background: var(--color-brand-cream-light, #f9f1de);
+    border: 1px solid rgba(104, 36, 18, 0.14);
+    box-shadow: 0 14px 32px rgba(62, 42, 20, 0.14);
+    padding: 10px;
+  }
+  .vg-feature :global(img),
+  .vg-photo-grid :global(img),
+  .vg-card__figure :global(img) { display: block; height: auto; width: 100%; }
+  .vg-feature :global(img) { aspect-ratio: 3 / 2; object-fit: cover; }
+  .vg-feature figcaption,
+  .vg-photo-grid figcaption,
+  .vg-card__figure figcaption {
+    color: #5e5247;
+    font-family: var(--font-sans);
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.45;
+  }
+  .vg-feature figcaption { padding: 10px 6px 3px; }
 
   .vg-grid {
     display: grid;
@@ -255,6 +574,9 @@ structuredData.push(faqSchema);
     padding: 20px 22px;
   }
   .vg-section--alt .vg-card { background: #fff; }
+  .vg-card__figure { margin: -20px -22px 18px; }
+  .vg-card__figure :global(img) { aspect-ratio: 16 / 10; object-fit: cover; }
+  .vg-card__figure figcaption { padding: 8px 14px 0; }
   .vg-card h3 {
     font-family: var(--font-display);
     font-weight: 700;
@@ -263,6 +585,58 @@ structuredData.push(faqSchema);
     margin: 0 0 8px;
   }
   .vg-card p { font-size: 15px; margin: 0; }
+
+  .vg-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(390px, 1fr);
+    gap: 48px;
+    align-items: center;
+  }
+  .vg-photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+  .vg-photo-grid figure {
+    background: #fff;
+    border: 1px solid rgba(104, 36, 18, 0.14);
+    box-shadow: 0 8px 20px rgba(62, 42, 20, 0.1);
+    padding: 8px;
+  }
+  .vg-photo-grid :global(img) { aspect-ratio: 4 / 3; object-fit: cover; }
+  .vg-photo-grid figcaption { padding: 9px 4px 3px; }
+  .vg-split--identify { align-items: start; }
+  .vg-feature--detail { margin-top: 32px; }
+  .vg-guide-box {
+    background: var(--color-brand-cream-light, #f9f1de);
+    border-top: 4px solid var(--color-brand-rust-bright);
+    margin-top: 42px;
+    padding-bottom: 26px;
+    padding-top: 24px;
+  }
+  .vg-guide-box h3 {
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: 22px;
+    margin: 0 0 16px;
+    text-transform: uppercase;
+  }
+  .vg-guide-links {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .vg-guide-links a {
+    background: #fff;
+    border: 1px solid rgba(104, 36, 18, 0.14);
+    display: grid;
+    gap: 4px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .vg-guide-links a:hover { border-color: var(--color-brand-rust-bright); }
+  .vg-guide-links strong { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 16px; }
+  .vg-guide-links span { color: var(--color-brand-charcoal); font-family: var(--font-sans); font-size: 13px; font-weight: 400; line-height: 1.45; }
 
   .vg-list { margin: 0 0 18px; padding-left: 22px; }
   .vg-list li {
@@ -274,6 +648,8 @@ structuredData.push(faqSchema);
   }
 
   .vg-table-wrap { overflow-x: auto; }
+  .vg-table-wrap:focus-visible { outline: 3px solid var(--vg-rust); outline-offset: 3px; }
+  :global(.jvgft__menu--sell a) { color: #2a2d33 !important; }
   .vg-table {
     width: 100%;
     border-collapse: collapse;
@@ -289,7 +665,16 @@ structuredData.push(faqSchema);
     font-size: 15px;
     color: var(--color-brand-charcoal);
   }
-  .vg-table th {
+  .vg-table caption {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  .vg-table thead th {
     background: var(--color-brand-rust-dark);
     color: #fff;
     font-family: var(--font-display);
@@ -298,11 +683,108 @@ structuredData.push(faqSchema);
     letter-spacing: 0.04em;
     font-size: 14px;
   }
-  .vg-table td:first-child { font-weight: 700; color: var(--color-brand-rust-dark); }
+  .vg-table tbody th {
+    background: transparent;
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+  }
   /* Year cells linking to that year's own guide inherit the cell's bold
      rust-dark rather than the lighter `.vg-section a` rust, so the linked and
      unlinked years still read as one column. */
-  .vg-table td:first-child a { color: inherit; font-weight: inherit; }
+  .vg-table tbody th a { color: inherit; font-weight: inherit; }
   .vg-note--years { margin-top: 14px; }
   .vg-table tbody tr:nth-child(odd) { background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-table--deductions { min-width: 680px; }
+  .vg-table--deductions tbody th { width: 31%; }
+  .vg-market-note {
+    background: var(--color-brand-rust-dark);
+    color: #fff;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 24px;
+    padding: 18px 20px;
+  }
+  .vg-market-note strong { color: var(--color-brand-cream); }
+
+  .vg-steps {
+    display: grid;
+    gap: 12px;
+    list-style: none;
+    margin: 28px 0 0;
+    padding: 0;
+  }
+  .vg-steps li {
+    align-items: start;
+    background: var(--color-brand-cream-light, #f9f1de);
+    border-left: 4px solid var(--color-brand-rust-bright);
+    display: grid;
+    grid-template-columns: 54px 1fr;
+    gap: 16px;
+    padding: 18px 20px;
+  }
+  .vg-steps li > span {
+    color: var(--color-brand-rust-bright);
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .vg-steps strong { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 18px; }
+  .vg-steps p { font-size: 15px; margin: 4px 0 0; max-width: none; }
+  .vg-cta-panel {
+    align-items: center;
+    background: var(--color-brand-rust-dark);
+    display: flex;
+    gap: 28px;
+    justify-content: space-between;
+    margin-top: 28px;
+    padding: 24px 26px;
+  }
+  .vg-cta-panel div { display: grid; gap: 4px; }
+  .vg-cta-panel strong { color: #fff; font-family: var(--font-display); font-size: 22px; }
+  .vg-cta-panel span { color: var(--color-brand-cream-light); font-family: var(--font-sans); font-size: 14px; line-height: 1.5; }
+  .vg-cta-panel a {
+    background: var(--color-brand-cream);
+    color: var(--color-brand-rust-dark);
+    flex: 0 0 auto;
+    font-family: var(--font-display);
+    padding: 12px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .vg-cta-panel a:hover { background: #fff; color: var(--color-brand-rust-dark); }
+
+  @media (max-width: 900px) {
+    .vg-intro,
+    .vg-split { grid-template-columns: 1fr; }
+    .vg-feature { max-width: 760px; }
+    .vg-feature--detail { margin-top: 0; }
+    .vg-guide-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
+  @media (min-width: 901px) and (max-width: 1360px) {
+    :global(.jvg-page-hero__title),
+    :global(.jvg-page-hero__subhead) { max-width: 760px; margin-inline: auto; }
+  }
+
+  @media (max-width: 640px) {
+    .vg-section { padding: 48px 0; }
+    .vg-inner { padding-left: 18px; padding-right: 18px; }
+    .vg-intro,
+    .vg-split { gap: 30px; }
+    .vg-toc ul,
+    .vg-photo-grid,
+    .vg-guide-links { grid-template-columns: 1fr; }
+    .vg-grid { grid-template-columns: 1fr; }
+    .vg-table th,
+    .vg-table td { padding: 12px 14px; }
+    .vg-steps li { grid-template-columns: 42px 1fr; padding: 16px; }
+    .vg-cta-panel { align-items: stretch; flex-direction: column; }
+    .vg-cta-panel a { text-align: center; }
+  }
 </style>
