@@ -143,7 +143,7 @@ Since there are no labels, you must look for the **Factory Order Number (FON)**.
 
 -   **1942 to 1945:** Usually 3 or 4 digits, sometimes with a “letter” suffix.
     
--   **1952 to 1961:** Follows a letter-code system (e.g., “Z” is 1948, “X” is 1954, “S” is 1955).
+-   **1952 to 1961:** A letter in front of the number gives the year (e.g., “Z” is 1952, “X” is 1954, “S” is 1959).
     
 -   **1961-1970s:** Gibson switched to a serial number stamped into the back of the headstock.
 
