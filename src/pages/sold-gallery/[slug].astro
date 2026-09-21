@@ -118,7 +118,7 @@ const galleryPhotos = resolvedPhotos.slice(1);
       <section class="sge-section" aria-labelledby="facts-heading">
         <div class="sge-section__head">
           <div><p class="sge-kicker">At a glance</p><h2 id="facts-heading">Recorded Specifications</h2></div>
-          <p>Observed and photographed while the guitar was with Joe's Vintage Guitars.</p>
+          <p>Observed and photographed while we had the guitar.</p>
         </div>
         <dl class="sge-facts">
           <div><dt>Year</dt><dd>{data.year}</dd></div>
@@ -155,8 +155,8 @@ const galleryPhotos = resolvedPhotos.slice(1);
             <p>{data.images.length} photographs document the instrument, including identifying and condition details.</p>
           </div>
           <div class="sge-gallery">
-            {galleryPhotos.map((photo, index) => (
-              <figure class:list={["sge-photo", { "sge-photo--wide": index === 0 || index === 4 || index === 12 }]}>
+            {galleryPhotos.map((photo) => (
+              <figure class="sge-photo">
                 <LicensedImage src={photo.image} alt={photo.alt} width={1000} loading="lazy" decoding="async" />
                 <figcaption>{photo.caption}</figcaption>
               </figure>
@@ -187,36 +187,25 @@ const galleryPhotos = resolvedPhotos.slice(1);
           <p class="sge-kicker">Dating evidence</p>
           <h2 id="dating-heading">Model and Serial Agree</h2>
           <p>{data.datingNote}</p>
-          {data.soundNote && <><h3>Joe's tonal notes</h3><p>{data.soundNote}</p></>}
+          {data.soundNote && <><h3>Our Tonal Notes</h3><p>{data.soundNote}</p></>}
         </div>
         {data.relatedGuides.length > 0 && (
           <aside>
-            <h3>Continue researching</h3>
+            <h3>More Martin Resources</h3>
             <ul>{data.relatedGuides.map((guide) => <li><a href={guide.url}>{guide.label}</a></li>)}</ul>
           </aside>
         )}
       </section>
 
-      <section class="sge-section sge-sources" aria-labelledby="sources-heading">
-        <p class="sge-kicker">Research notes</p>
-        <h2 id="sources-heading">Sources Used for Model Context</h2>
-        <p>Instrument-specific observations above come from Joe's inspection and photographs. Historical model context was checked against the following specialist archives.</p>
-        <ol>
-          {data.sources.map((source) => (
-            <li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.label}</a><span>{source.note}</span></li>
-          ))}
-        </ol>
-      </section>
-
       <section class="sge-cta" aria-labelledby="cta-heading">
         <div>
           <p class="sge-kicker">Have a vintage Martin?</p>
-          <h2 id="cta-heading">Tell Joe What You Have</h2>
-          <p>Send photographs and identifying details for a free evaluation, or browse the instruments Joe currently has listed on Reverb.</p>
+          <h2 id="cta-heading">Tell Us What You Have</h2>
+          <p>Send photographs and identifying details for a free evaluation, or use our Martin serial-number guide to begin identifying your guitar.</p>
         </div>
         <div class="sge-cta__actions">
-          <a class="sge-button sge-button--primary" href="/free-appraisal/">Get a free appraisal</a>
-          <a class="sge-button" href="https://reverb.com/shop/joe-s-gear-emporium-4" target="_blank" rel="noopener noreferrer">Current Reverb inventory</a>
+          <a class="sge-button sge-button--primary" href="/sell-my-martin-guitar/">Sell My Martin</a>
+          <a class="sge-button" href="/martin-serial-and-model-numbers/">Martin Serial Number Guide</a>
         </div>
       </section>
     </div>
@@ -242,7 +231,7 @@ const galleryPhotos = resolvedPhotos.slice(1);
   .sge-section { padding: 62px 0; border-bottom: 1px solid #e9dcc2; }
   .sge-section > h2, .sge-section__head h2, .sge-two-up h2, .sge-evidence h2, .sge-cta h2 { margin: 0; color: var(--color-brand-rust-dark, #682412); font-family: var(--font-display, Oswald), sans-serif; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.12; }
   .sge-reading { max-width: 860px; }
-  .sge-reading p, .sge-evidence p, .sge-sources > p { margin: 20px 0 0; color: #4c3f2e; font-size: 1.04rem; line-height: 1.78; }
+  .sge-reading p, .sge-evidence p { margin: 20px 0 0; color: #4c3f2e; font-size: 1.04rem; line-height: 1.78; }
   .sge-section__head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 0.58fr); gap: 40px; align-items: end; margin-bottom: 28px; }
   .sge-section__head > p { margin: 0; color: #6a5a43; line-height: 1.6; }
   .sge-facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0; border-top: 1px solid #dccaaa; border-left: 1px solid #dccaaa; }
@@ -251,24 +240,20 @@ const galleryPhotos = resolvedPhotos.slice(1);
   .sge-facts dd, .sge-measurements dd { margin: 0; color: #3e2a14; font-weight: 700; }
   .sge-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
   .sge-photo { overflow: hidden; margin: 0; border: 1px solid #e0d0b1; border-radius: 6px; background: #fbf7ef; }
-  .sge-photo--wide { grid-column: 1 / -1; }
   .sge-photo :global(img) { display: block; width: 100%; height: auto; background: #2b1c12; }
   .sge-two-up { display: grid; grid-template-columns: 0.82fr 1.18fr; gap: 68px; }
   .sge-measurements { margin: 26px 0 0; border-top: 1px solid #ddcbaa; }
   .sge-measurements div { display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 20px; padding: 13px 0; border-bottom: 1px solid #e9dcc2; }
   .sge-condition { margin-top: 22px; }
   .sge-condition > div { padding: 0 0 18px 20px; border-left: 3px solid #d9bb82; }
-  .sge-condition h3, .sge-evidence h3, .sge-sources h3 { margin: 0 0 4px; color: var(--color-brand-brown, #3e2a14); font-family: var(--font-display, Oswald), sans-serif; font-size: 1.06rem; }
+  .sge-condition h3, .sge-evidence h3 { margin: 0 0 4px; color: var(--color-brand-brown, #3e2a14); font-family: var(--font-display, Oswald), sans-serif; font-size: 1.06rem; }
   .sge-condition p { margin: 0; color: #564834; line-height: 1.62; }
   .sge-evidence { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 60px; }
   .sge-evidence aside { padding: 28px; background: #f7edd9; border-top: 4px solid var(--color-brand-rust, #a03a1e); }
   .sge-evidence aside h3 { font-size: 1.35rem; }
   .sge-evidence ul { margin: 16px 0 0; padding-left: 20px; }
   .sge-evidence li { margin: 0 0 10px; color: #594933; }
-  .sge-evidence a, .sge-sources a { color: var(--color-brand-rust, #a03a1e); font-weight: 700; }
-  .sge-sources ol { margin: 26px 0 0; padding-left: 24px; }
-  .sge-sources li { margin-bottom: 18px; padding-left: 8px; color: #4d3f2d; }
-  .sge-sources li span { display: block; margin-top: 3px; color: #706047; font-size: 0.9rem; line-height: 1.5; }
+  .sge-evidence a { color: var(--color-brand-rust, #a03a1e); font-weight: 700; }
   .sge-cta { display: grid; grid-template-columns: 1fr auto; gap: 48px; align-items: center; margin-top: 64px; padding: 42px; background: var(--color-brand-rust-dark, #682412); color: #fff; }
   .sge-cta .sge-kicker { color: #f0c66c; }
   .sge-cta h2 { color: #fff; }
@@ -291,7 +276,6 @@ const galleryPhotos = resolvedPhotos.slice(1);
     .sge-section { padding: 46px 0; }
     .sge-section__head { grid-template-columns: 1fr; gap: 16px; }
     .sge-facts, .sge-gallery { grid-template-columns: 1fr; }
-    .sge-photo--wide { grid-column: auto; }
     .sge-cta { padding: 28px 22px; }
     .sge-cta__actions { flex-direction: column; }
   }
