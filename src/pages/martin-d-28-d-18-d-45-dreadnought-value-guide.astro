@@ -2,9 +2,21 @@
 import Layout from "../layouts/Layout.astro";
 import PageHero from "../components/primitives/PageHero.astro";
 import Button from "../components/primitives/Button.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
 import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
 import { contact, hrefs } from "../config/site";
+import martinD28 from "../assets/images/1959-martin-D-28-scaled.jpg";
+import martinD18 from "../assets/images/sell-martin/1945-martin-d-18-1-1024x683.jpg";
+import martinD45 from "../assets/images/sell-martin/martin-d-45-brazilian-rosewood-1024x682.jpg";
+import martinNeckBlock from "../assets/images/sell-martin/Model-Name-Serial-Number-Martin-1024x683.jpg";
+import martinD18Wear from "../assets/blog/martin-d18-history-value-guide/1951-martin-d18-full-front.jpg";
+import martinD28BrazilianBack from "../assets/images/martin-dreadnought-value-guide/1947-martin-d-28-brazilian-rosewood.webp";
+import martinD45IndianBack from "../assets/images/martin-dreadnought-value-guide/martin-d-45-east-indian-rosewood.jpg";
+
+const canonicalUrl = "https://www.joesvintageguitarsaz.com/martin-d-28-d-18-d-45-dreadnought-value-guide/";
+const articleDescription = "2026 vintage Martin D-18, D-28 and D-45 values by era, plus model differences, Brazilian rosewood, bracing, originality, repairs and appraisal tips.";
+const articleImage = "https://www.joesvintageguitarsaz.com/images/og/martin-d-28-d-18-d-45-dreadnought-value-guide.jpg";
 
 const structuredData: Record<string, unknown>[] = [
   {
@@ -12,27 +24,65 @@ const structuredData: Record<string, unknown>[] = [
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
-      { "@type": "ListItem", position: 2, name: "Martin D-28, D-18, D-45 Dreadnought Value Guide", item: "https://www.joesvintageguitarsaz.com/martin-d-28-d-18-d-45-dreadnought-value-guide/" },
+      { "@type": "ListItem", position: 2, name: "Martin D-28, D-18 and D-45 Value Guide", item: canonicalUrl },
     ],
   },
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Martin D-28, D-18, D-45 Dreadnought Value Guide",
+    headline: "Martin D-28, D-18 and D-45 Dreadnought Value Guide",
+    description: articleDescription,
+    image: articleImage,
+    datePublished: "2026-06-09",
+    dateModified: "2026-09-18",
+    inLanguage: "en-US",
     author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
     publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
-    mainEntityOfPage: "https://www.joesvintageguitarsaz.com/martin-d-28-d-18-d-45-dreadnought-value-guide/",
+    mainEntityOfPage: canonicalUrl,
+    about: [
+      { "@type": "Thing", name: "Vintage Martin D-18" },
+      { "@type": "Thing", name: "Vintage Martin D-28" },
+      { "@type": "Thing", name: "Vintage Martin D-45" },
+      { "@type": "Thing", name: "Vintage acoustic guitar appraisal" },
+    ],
+  },
+];
+
+const models = [
+  {
+    name: "Martin D-18",
+    image: martinD18,
+    alt: "Original 1945 Martin D-18 mahogany dreadnought resting in its case",
+    caption: "A 1945 Martin D-18 with the model’s restrained Style 18 appointments.",
+    copy: "The D-18 pairs a spruce top with mahogany back and sides. It is usually the least expensive of these three models, but clean 1930s and wartime examples can still reach six figures.",
+    guide: { href: "/post/martin-d18-history-specs-authentication-value-guide/", label: "See the complete Martin D-18 guide for year-by-year changes." },
+  },
+  {
+    name: "Martin D-28",
+    image: martinD28,
+    alt: "Original 1959 Martin D-28 rosewood dreadnought in its green-lined case",
+    caption: "A 1959 D-28 with spruce top, rosewood body and Style 28 trim.",
+    copy: "The D-28 uses rosewood back and sides and sits at the center of the vintage dreadnought market. Pre-1947 herringbone guitars bring the strongest prices, but 1950s and 1960s Brazilian-rosewood examples remain highly collectible.",
+    guide: { href: "/post/one-family-1946-martin-d-28/", label: "See a documented one-family 1946 herringbone D-28." },
+  },
+  {
+    name: "Martin D-45",
+    image: martinD45,
+    alt: "Martin D-45 dreadnought with pearl top border and fingerboard inlays",
+    caption: "Style 45 pearl trim is unmistakable, but the neck-block stamp must still confirm the model.",
+    copy: "The D-45 adds extensive pearl trim and Martin’s highest appointment level. Martin made only 91 before discontinuing the model in 1942, then returned it to production in 1968.",
+    guide: null,
   },
 ];
 
 const drivers = [
-  { t: "Age", b: "Older usually means more. Pre-war guitars (built before 1944) are the most desirable, and values step down through the 1950s and ’60s as the build date gets later." },
-  { t: "Model", b: "As a rule, the D-45 is the most valuable, then the D-28, then the D-18." },
-  { t: "Condition", b: "A crack-free guitar with no repairs brings a lot more. A factory refinish cuts value by about half. Hidden issues count too: a needed neck reset, loose braces, or a worn bridge plate all pull the number down." },
-  { t: "Provenance", b: "Original-owner photos, receipts, recordings, and paperwork all add real value." },
+  { t: "Age", b: "A 1937 scalloped-brace dreadnought and a 1967 guitar are not in the same market. Date the guitar from the neck-block serial, then confirm that its construction fits the year.", link: null },
+  { t: "Model", b: "D-18s use mahogany back and sides. Vintage D-28s and D-45s use rosewood, and standard production changed from Brazilian to East Indian rosewood in 1969.", link: null },
+  { t: "Originality", b: "The finish, top, bridge, bridge plate, braces, tuners, pickguard and hardware all matter. A replaced bridge is not the same deduction as a replacement top or full refinish.", link: null },
+  { t: "Condition", b: "Cracks, loose braces, a shaved bridge, overspray and poor structural work affect value. A clean professional neck reset is normal maintenance on many old Martins, not automatic disqualification.", link: { href: "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/", label: "See the acoustic-guitar neck-reset guide for practical checks." } },
+  { t: "Provenance", b: "Original-owner photographs, receipts, correspondence and a documented repair history make a guitar easier to authenticate and can strengthen buyer confidence.", link: { href: "/post/one-owner-1955-martin-d28/", label: "See how provenance supported a one-owner 1955 D-28." } },
 ];
 
-// Model & era, value range. en-dash ranges.
 const prices = [
   { m: "D-45 (pre-war, 1936 to 1942)", v: "$450,000 to $675,000" },
   { m: "D-45 (1968 to 1969)", v: "$35,000 to $55,000" },
@@ -46,18 +96,47 @@ const prices = [
   { m: "D-18 (1960 to 1969)", v: "$3,000 to $6,000" },
 ];
 
-const faqs = [
-  { q: "How much is a vintage Martin dreadnought worth?", a: "It depends on the model, era, and condition. A pre-war D-45 can reach $450,000 to $675,000, a pre-war D-28 runs $80,000 to $300,000, and later 1950s and 1960s D-18s start around $3,000. Originality and any needed repairs move the number the most." },
-  { q: "Which Martin is most valuable, the D-18, D-28, or D-45?", a: "As a rule the D-45 is the most valuable, then the D-28, then the D-18. Within each model the earlier the build date the higher the value, with pre-war examples at the very top." },
-  { q: "What is a pre-war Martin?", a: "A pre-war Martin is one built before 1944, the year Martin stopped scalloping its braces and made other wartime changes. Pre-war guitars are the most sought after and command the highest prices." },
-  { q: "How do I tell what year my Martin is?", a: "The serial number stamped inside the body, on the neck block, dates the guitar. You can match your number to the year in my <a href=\"/martin-serial-and-model-numbers/\">Martin serial number guide</a>." },
-  { q: "Does a refinish or a neck reset affect value?", a: "Yes. A factory or aftermarket refinish cuts value by about half. Structural issues such as a needed neck reset, loose braces, or a worn bridge plate also pull the price down, even when the guitar looks clean." },
+const milestones = [
+  { year: "1916 and 1931", title: "The Dreadnought Arrives", copy: "Martin developed the first Dreadnought for the Ditson company in 1916. Martin-branded D-18 and D-28 production followed in 1931, which is where the value table begins." },
+  { year: "1934", title: "The 14-Fret Body Becomes Standard", copy: "Martin moved its Dreadnoughts to the longer-looking 14-fret neck layout in 1934. Earlier 12-fret examples are rare and need individual evaluation." },
+  { year: "Late 1944", title: "Scalloped Bracing Ends", copy: "The wartime change from scalloped to straight bracing is one reason values can move sharply within the 1944 period. Do not price every 1944 guitar from one broad label." },
+  { year: "1946", title: "The Original Herringbone Era Closes", copy: "The 1946 D-28 is a transition-year guitar and the last original-production year associated with herringbone top trim before the postwar Style 28 look took over." },
+  { year: "1968", title: "The D-45 Returns", copy: "Martin reintroduced the D-45 after a production gap that began after 1942. A 1968 or 1969 D-45 belongs in a different market from one of the 91 pre-war examples." },
+  { year: "1969", title: "Rosewood Changes", copy: "Martin ceased using complete Brazilian-rosewood back-and-side sets in standard production during 1969 and moved to East Indian rosewood. Serial number and wood identification both matter on a transition-year guitar." },
 ];
 
-// FAQPage schema mirrors the visible <FAQ> above. stripTags keeps the JSON-LD
-// answer text plain even when an answer carries inline HTML (e.g. a link).
+const deductions = [
+  { issue: "Refinish, Overspray or Heavy Touch-Up", effect: "Original lacquer carries a major premium. The size of the deduction depends on how much finish was changed and whether the work hides other repairs." },
+  { issue: "Replacement Top or Retop", effect: "The top contains the bridge, bracing and much of the guitar’s acoustic identity. A retop is a much larger change than routine maintenance." },
+  { issue: "Replaced or Enlarged Bridge Plate", effect: "An oversized plate adds weight and changes the interior. Originality, footprint and the quality of any repair all affect the appraisal." },
+  { issue: "Shaved or Replaced Bridge", effect: "A shaved bridge can signal an attempt to postpone a needed neck reset. A correct replacement is preferable to poor work but is still not the original part." },
+  { issue: "Cracks and Brace Repairs", effect: "Location, length, stability and repair quality matter. A cleanly repaired side crack is not priced like a damaged top or a poorly repaired headstock." },
+  { issue: "Changed Tuners, Pickguard or Hardware", effect: "Reversible changes usually cost less than altered wood or finish. Keep every original part with the guitar, even if it is no longer installed." },
+  { issue: "Needed Neck Reset", effect: "High action with little saddle remaining creates a real repair expense. A well-executed, documented reset can improve saleability and usually carries less penalty than leaving the guitar unplayable." },
+];
+
+const steps = [
+  { n: "01", title: "Read the Neck Block", copy: "Photograph the model and serial stamped inside the soundhole. Martin’s sequential serial chart establishes the year." },
+  { n: "02", title: "Confirm the Specification", copy: "Check the body shape, tonewoods, bracing, trim, neck, bridge, pickguard and tuners against the model and year." },
+  { n: "03", title: "Separate Maintenance From Modification", copy: "Document neck resets, refrets and crack repairs separately from refinishing, retopping, bridge-plate alteration or replaced braces." },
+  { n: "04", title: "Inventory the Original Parts", copy: "Record the bridge, tuners, pickguard, pins, nut, saddle and case. Keep removed parts, receipts and repair invoices with the guitar." },
+  { n: "05", title: "Compare the Right Market", copy: "Compare sold and offered guitars of the same model, era, originality and condition. A record price for a famous pre-war example is not a general price guide." },
+];
+
+const faqs = [
+  { q: "How much is a vintage Martin D-18, D-28 or D-45 worth?", a: "For the 1931 to 1969 period covered here, excellent all-original examples range from about $3,000 for some 1960s D-18s to $675,000 for the strongest pre-war D-45s. The exact model, year, finish, originality, repairs, provenance and case determine where an individual guitar belongs." },
+  { q: "Which is worth more: a Martin D-18, D-28 or D-45?", a: "As a general hierarchy, the D-45 is highest, followed by the D-28 and then the D-18. The exact year can overturn that simple order: a clean pre-war D-18 can be worth more than a much later D-28 or D-45." },
+  { q: "What is the difference between a Martin D-18, D-28 and D-45?", a: "The D-18 has mahogany back and sides with restrained Style 18 trim. The D-28 uses rosewood with Style 28 appointments. The D-45 is also a rosewood dreadnought but adds Martin’s highest pearl and inlay treatment." },
+  { q: "What does pre-war Martin mean?", a: "Sellers use pre-war loosely, so always ask for the exact serial-number year. In the dreadnought market, the phrase commonly points to the 1930s and wartime Golden Era guitars, especially the scalloped-brace production that ended during 1944." },
+  { q: "How do I tell what year my Martin is?", a: "Find the serial number stamped on the neck block inside the body and match it to Martin’s sequential chart. The model is normally stamped on the same block. Use my <a href=\"/martin-serial-and-model-numbers/\">Martin serial number lookup</a> to check the year." },
+  { q: "How can I tell Brazilian rosewood from East Indian rosewood?", a: "Start with the year. Martin stopped using complete Brazilian-rosewood back-and-side sets in standard production during 1969. Grain appearance can help, but photographs and serial context should be reviewed together before applying a Brazilian-rosewood premium." },
+  { q: "Does a neck reset lower a vintage Martin’s value?", a: "A needed neck reset lowers the current value because the buyer inherits cost and uncertainty. A clean, correctly performed reset is accepted maintenance on many old Martins and usually matters less than a refinish, replacement top or altered bridge plate." },
+  { q: "Should I restore or clean my Martin before an appraisal?", a: "Do not refinish it, replace parts, glue cracks or aggressively clean aged finish and hardware before an expert sees it. Save every loose part and case item. Clear photographs are enough to begin an appraisal." },
+  { q: "What photos do I need for a Martin appraisal?", a: "Send the full front and back, both sides of the headstock, the neck-block model and serial, bridge and saddle, pickguard, tuners, case, visible cracks and every repaired area. Add interior bridge-plate and brace photos only if you can take them safely." },
+];
+
 const stripTags = (s: string) => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
-const faqSchema = {
+structuredData.push({
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: faqs.map((f) => ({
@@ -65,22 +144,21 @@ const faqSchema = {
     name: f.q,
     acceptedAnswer: { "@type": "Answer", text: stripTags(f.a) },
   })),
-};
-structuredData.push(faqSchema);
+});
 ---
 
 <Layout
-  title="Martin D-28, D-18 & D-45 Dreadnought Value Guide | Joe’s Vintage Guitars"
-  description="What a vintage Martin D-18, D-28, or D-45 dreadnought is worth: current price ranges by model and era from pre-war to 1969, plus what drives the value."
+  title="Martin D-28, D-18 & D-45 Value Guide (2026)"
+  description={articleDescription}
   canonical="/martin-d-28-d-18-d-45-dreadnought-value-guide/"
-  ogImage="https://www.joesvintageguitarsaz.com/images/og/martin-d-28-d-18-d-45-dreadnought-value-guide.jpg"
-  ogImageAlt="Martin dreadnought value guide from Joe's Vintage Guitars"
+  ogImage={articleImage}
+  ogImageAlt="Vintage Martin D-18, D-28 and D-45 dreadnought value guide"
   structuredData={structuredData}
 >
   <PageHero
-    eyebrow="Value Guide"
+    eyebrow="2026 Value Guide"
     title="Martin D-28, D-18 & D-45 Dreadnought Value Guide"
-    subhead="What a vintage Martin dreadnought is worth, from pre-war herringbone to the 1960s, and what sets the number."
+    subhead="Current vintage Martin values by model and era, plus the construction, originality, repairs and provenance that set the final number."
     subheadTag="p"
     subheadHtml={true}
     bgImage="/images/hero-background.jpg"
@@ -89,173 +167,358 @@ structuredData.push(faqSchema);
     <Button slot="cta" href="/free-appraisal/" variant="cream" size="lg">Free Appraisal</Button>
   </PageHero>
 
-  <section class="vg-section">
-    <div class="vg-inner">
-      <p class="vg-lede">
-        Martin invented the dreadnought in 1916 and spent the next few decades refining it, and the pre-war
-        examples are now some of the most valuable acoustic guitars there are. This guide covers D-18, D-28, and
-        D-45 dreadnoughts from 1916 through 1969, with current ranges and the factors behind them. For an exact
-        figure on your guitar, <a href="/free-appraisal/">get a free appraisal</a> and I’ll give you a
-        straight answer. If the guitar is smaller than a dreadnought, use my
-        <a href="/post/martin-0-00-000-history-authentication-value-guide/">vintage Martin 0, 00, and 000 guide</a>
-        to compare body sizes, models, construction, and value factors.
-      </p>
+  <section class="vg-section" id="quick-answer">
+    <div class="vg-inner vg-intro">
+      <div class="vg-intro__copy">
+        <p class="vg-eyebrow">The Short Answer</p>
+        <h2 class="vg-head">How Much Is a Vintage Martin Dreadnought Worth?</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p class="vg-lede">
+          An excellent, all-original vintage Martin D-18, D-28 or D-45 from 1931 through 1969 can be worth about
+          <strong>$3,000 to $675,000</strong>. The model and year establish the starting range. Original finish,
+          tonewoods, bracing, repairs, condition, provenance and the original case decide where the guitar falls inside it.
+        </p>
+        <p>
+          That spread is wide because a 1960s D-18 and one of the 91 pre-war D-45s are completely different markets.
+          Start by <a href="/martin-serial-and-model-numbers/">identifying the model and serial-number year</a>, then evaluate the wood and construction before using
+          any price. For an exact figure on your guitar, <a href="/free-appraisal/">get a free appraisal</a> and I’ll
+          give you a straight answer.
+        </p>
+        <div class="vg-byline">
+          <strong>Written and reviewed by <a href="/about-me/">Joe Dampt</a></strong>
+          <span>Vintage guitar appraiser and buyer · 10,000+ instruments personally appraised</span>
+          <span>Originally published June 9, 2026 · Updated September 18, 2026</span>
+        </div>
+        <nav class="vg-toc" aria-label="On this page">
+          <strong>On This Page</strong>
+          <ul>
+            <li><a href="#models">D-18, D-28 and D-45</a></li>
+            <li><a href="#price-table">Values by era</a></li>
+            <li><a href="#era-changes">Important year changes</a></li>
+            <li><a href="#rosewood-comparison">Brazilian vs. Indian rosewood</a></li>
+            <li><a href="#value-factors">What sets the value</a></li>
+            <li><a href="#deductions">Repairs and deductions</a></li>
+            <li><a href="#appraisal-process">Appraisal process</a></li>
+          </ul>
+        </nav>
+      </div>
+      <figure class="vg-feature">
+        <LicensedImage src={martinD28} alt="Original 1959 Martin D-28 dreadnought in its green-lined case" width={1200} loading="eager" decoding="async" fetchpriority="high" sizes="(max-width: 820px) 100vw, 48vw" />
+        <figcaption>An original 1959 Martin D-28. The serial establishes the year; the rosewood body, finish, bridge, pickguard, tuners, condition and case all contribute to the appraisal.</figcaption>
+      </figure>
     </div>
   </section>
 
-  <section class="vg-section vg-section--alt">
+  <section class="vg-section vg-section--alt" id="models">
     <div class="vg-inner">
-      <h2 class="vg-head">Finding Your Model and Year</h2>
+      <p class="vg-eyebrow">Know the model first</p>
+      <h2 class="vg-head">Find the Model and Year Before Estimating Value</h2>
       <div class="vg-rule" aria-hidden="true"></div>
-      <p>
-        The model and serial number are stamped on the neck block inside the soundhole, where the neck meets the
-        body (a flashlight helps). The model reads straight off the block, like ‘D-28.’ The serial
-        number needs to be looked up in Martin’s sequential system to pin down the year. My
-        <a href="/martin-serial-and-model-numbers/">Martin serial number guide</a> has the full chart.
-      </p>
-    </div>
-  </section>
-
-  <section class="vg-section">
-    <div class="vg-inner">
-      <h2 class="vg-head">What Drives the Value</h2>
-      <div class="vg-rule" aria-hidden="true"></div>
-      <div class="vg-grid">
-        {drivers.map((d) => (
-          <article class="vg-card">
-            <h3 set:html={d.t} />
-            <p set:html={d.b} />
+      <p class="vg-section-intro">The letter D identifies the dreadnought body. The number describes the style and appointment level, including the traditional wood family and trim. It is not a quality grade that can replace the exact year and condition.</p>
+      <div class="vg-models">
+        {models.map((model) => (
+          <article class="vg-model-card">
+            <figure>
+              <LicensedImage src={model.image} alt={model.alt} width={760} loading="lazy" decoding="async" sizes="(max-width: 720px) 100vw, 33vw" />
+              <figcaption>{model.caption}</figcaption>
+            </figure>
+            <div class="vg-model-card__body"><h3>{model.name}</h3><p>{model.copy} {model.guide && <a href={model.guide.href}>{model.guide.label}</a>}</p></div>
           </article>
         ))}
       </div>
     </div>
   </section>
 
-  <section class="vg-section vg-section--alt">
+  <section class="vg-section" id="price-table">
     <div class="vg-inner">
       <h2 class="vg-head">Vintage Martin Dreadnought Values</h2>
       <div class="vg-rule" aria-hidden="true"></div>
-      <p class="vg-note">
-        These ranges are for all-original guitars in excellent condition with the original case. Updated July
-        2026, and the market moves, so treat them as a guide rather than a quote.
-      </p>
-      <p class="vg-note">For the construction history behind the D-18 ranges, read the <a href="/post/martin-d18-history-specs-authentication-value-guide/">complete vintage Martin D-18 guide</a>.</p>
-      <div class="vg-table-wrap">
+      <p class="vg-section-intro">These estimated current retail-market ranges are for excellent, all-original guitars with the original case. They are reference points, not automatic cash offers, auction predictions or insurance replacement values.</p>
+      <p class="vg-note">Reviewed September 2026. The market moves, and the broad era rows contain important year-to-year differences. Early custom-order D-45s from 1933 to 1935 require individual research rather than a generic range.</p>
+      <div class="vg-table-wrap" tabindex="0" aria-label="Scrollable table of vintage Martin dreadnought values">
         <table class="vg-table">
-          <thead>
-            <tr><th>Model & Era</th><th>Value</th></tr>
-          </thead>
-          <tbody>
-            {prices.map((p) => (
-              <tr><td set:html={p.m}></td><td set:html={p.v}></td></tr>
-            ))}
-          </tbody>
+          <caption>Estimated 2026 values for excellent, all-original Martin D-18, D-28 and D-45 dreadnoughts with the original case</caption>
+          <thead><tr><th scope="col">Model and Era</th><th scope="col">Estimated Value</th></tr></thead>
+          <tbody>{prices.map((price) => <tr><th scope="row">{price.m}</th><td>{price.v}</td></tr>)}</tbody>
         </table>
       </div>
-      <p class="vg-note">
-        Note: Martin stopped making the D-45 in 1942 and didn’t build another until 1968, so there are no
-        D-45s from that gap.
+      <aside class="vg-market-note"><strong>How to use the table:</strong> identify the exact year first, then move downward for changed finish, altered wood, missing parts, structural needs or weak documentation. Move upward only when the guitar’s originality, condition and provenance support it.</aside>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt" id="era-changes">
+    <div class="vg-inner">
+      <p class="vg-eyebrow">Why the year matters</p>
+      <h2 class="vg-head">The Martin Changes That Matter to Value</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <p class="vg-section-intro">“Old Martin” is too broad for a useful appraisal. These milestones explain why prices can change sharply between guitars that look similar from the front.</p>
+      <div class="vg-timeline">
+        {milestones.map((item) => <article><span>{item.year}</span><div><h3>{item.title}</h3><p>{item.copy}</p></div></article>)}
+      </div>
+      <p class="vg-source-note">
+        Martin’s <a href="https://www.martinguitar.com/museum-behind-the-glass.html">museum history</a> identifies the 1916 Dreadnought origin, the 1931 D-18 and D-28 and the 1934 14-fret transition. Its <a href="https://www.martinguitar.com/blog-categories/from-the-factory/blog-072325-the-holy-grail-of-martin-guitars-a-closer-look-at-the-pre-war-d-45.html">pre-war D-45 history</a> confirms the 91-guitar total, and Martin’s <a href="https://www.martinguitar.com/faqs.html">official FAQ</a> dates the end of complete Brazilian-rosewood back-and-side sets in standard production to 1969.
       </p>
     </div>
   </section>
 
-  <section class="vg-section">
+  <section class="vg-section" id="rosewood-comparison">
+    <div class="vg-inner">
+      <p class="vg-eyebrow">Look at the back and the year</p>
+      <h2 class="vg-head">Brazilian vs. East Indian Rosewood: How It Affects Martin Value</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <p class="vg-section-intro">
+        Brazilian and East Indian rosewood can overlap in color and grain, so a photograph is a clue rather than proof.
+        Start with the serial-number year and factory specification, then use the back and sides as supporting evidence.
+        These two Martins show useful real-world examples under different lighting.
+      </p>
+      <div class="vg-rosewood-pair">
+        <article class="vg-rosewood-card">
+          <figure>
+            <LicensedImage src={martinD28BrazilianBack} alt="Back of a 1947 Martin D-28 showing Brazilian rosewood grain" width={1200} loading="lazy" decoding="async" sizes="(max-width: 760px) 100vw, 50vw" />
+            <figcaption>1947 Martin D-28: Brazilian rosewood</figcaption>
+          </figure>
+          <div>
+            <h3>Brazilian Rosewood</h3>
+            <p>This 1947 D-28 has a warm red-brown field, strong dark lines and visible variation through the bookmatched back. Brazilian sets can also be much straighter or more dramatically figured than this one.</p>
+          </div>
+        </article>
+        <article class="vg-rosewood-card">
+          <figure>
+            <LicensedImage src={martinD45IndianBack} alt="Back of a Martin D-45 showing East Indian rosewood grain" width={1200} loading="lazy" decoding="async" sizes="(max-width: 760px) 100vw, 50vw" />
+            <figcaption>Martin D-45: East Indian rosewood</figcaption>
+          </figure>
+          <div>
+            <h3>East Indian Rosewood</h3>
+            <p>This D-45 shows the tighter, straighter and more parallel grain often seen in East Indian rosewood, with a dark brown to purplish cast. Other East Indian sets can be lighter, wider-grained or more figured.</p>
+          </div>
+        </article>
+      </div>
+      <div class="vg-rosewood-checks">
+        <article><h3>Use the Date First</h3><p>Martin states that it ceased using complete Brazilian-rosewood back-and-side sets in standard production during 1969 and moved to East Indian rosewood. A transition-year guitar still deserves individual review.</p></article>
+        <article><h3>Do Not Rely on Color Alone</h3><p>Finish aging, photography, lighting and natural variation can make either species look red, brown, purple or nearly black. Straight grain does not automatically mean Indian, and dramatic figure does not automatically mean Brazilian.</p></article>
+        <article><h3>Confirm the Wood Before Applying a Brazilian-Rosewood Premium</h3><p>Check the serial number, model specification, repair history and provenance together. The Brazilian-rosewood premium should not be applied from one back photo without supporting evidence.</p></article>
+      </div>
+      <p class="vg-source-note">Source for Martin’s production change: <a href="https://www.martinguitar.com/faqs.html">C. F. Martin &amp; Co. official FAQ</a>.</p>
+    </div>
+  </section>
+
+  <section class="vg-section" id="value-factors">
+    <div class="vg-inner vg-value-layout">
+      <div>
+        <h2 class="vg-head">What Determines a Vintage Martin’s Value?</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <p class="vg-section-intro">I work from permanent construction details toward replaceable parts. The serial number establishes the year, but a serial number by itself cannot tell you whether the top, finish, bridge or braces are original.</p>
+        <div class="vg-grid">{drivers.map((driver) => <article class="vg-card"><h3>{driver.t}</h3><p>{driver.b} {driver.link && <a href={driver.link.href}>{driver.link.label}</a>}</p></article>)}</div>
+      </div>
+      <figure class="vg-feature vg-feature--wear">
+        <LicensedImage src={martinD18Wear} alt="Full front of a heavily played 1951 Martin D-18 showing honest wear across the spruce top" width={900} loading="lazy" decoding="async" sizes="(max-width: 900px) 100vw, 34vw" />
+        <figcaption>Honest play wear on a 1951 D-18 is not the same thing as a refinish or structural damage. Condition has to be described, not reduced to whether the guitar looks new.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt" id="deductions">
+    <div class="vg-inner">
+      <h2 class="vg-head">What Lowers a Vintage Martin’s Value?</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <p class="vg-section-intro">The largest deductions come from missing original material, altered wood and work that is difficult to undo. Routine maintenance and irreversible modification should never be put in the same bucket.</p>
+      <div class="vg-table-wrap" tabindex="0" aria-label="Scrollable table of repairs and changes that affect vintage Martin value">
+        <table class="vg-table vg-table--deductions">
+          <caption>Common repairs, changes and condition issues that affect vintage Martin dreadnought values</caption>
+          <thead><tr><th scope="col">Issue</th><th scope="col">Why It Matters</th></tr></thead>
+          <tbody>{deductions.map((row) => <tr><th scope="row">{row.issue}</th><td>{row.effect}</td></tr>)}</tbody>
+        </table>
+      </div>
+      <p class="vg-note vg-note--after-table">Do not refinish, reglue, replace or aggressively clean anything before an appraisal. Keep loose tuners, bridge pins, pickguards, cases, receipts and repair invoices with the guitar.</p>
+    </div>
+  </section>
+
+  <section class="vg-section" id="appraisal-process">
+    <div class="vg-inner vg-appraisal-layout">
+      <div>
+        <p class="vg-eyebrow">Joe’s appraisal process</p>
+        <h2 class="vg-head">How I Determine a Vintage Martin Dreadnought’s Value</h2>
+        <div class="vg-rule" aria-hidden="true"></div>
+        <ol class="vg-steps">{steps.map((step) => <li><span>{step.n}</span><div><strong>{step.title}</strong><p>{step.copy}</p></div></li>)}</ol>
+      </div>
+      <div>
+        <figure class="vg-feature vg-feature--stamp">
+          <LicensedImage src={martinNeckBlock} alt="Martin model and serial number stamped on the neck block inside the soundhole" width={960} loading="lazy" decoding="async" sizes="(max-width: 900px) 100vw, 38vw" />
+          <figcaption>Look through the soundhole toward the neck. Photograph the model and serial stamp without adding chalk, pencil or cleaner.</figcaption>
+        </figure>
+        <aside class="vg-photo-list">
+          <h3>Photos to Send</h3>
+          <ul><li>Full front and back</li><li>Both sides of the headstock</li><li>Model and serial on the neck block</li><li>Bridge, saddle and pickguard</li><li>Tuners, case and every loose part</li><li>Every crack, repair and refinished area</li></ul>
+        </aside>
+      </div>
+    </div>
+    <div class="vg-inner">
+      <aside class="vg-cta-panel"><div><strong>Want the number for your Martin?</strong><span>Send clear photos for a free, no-obligation appraisal. You do not need to take the guitar apart.</span></div><a href="/free-appraisal/">Request a Free Appraisal</a></aside>
+    </div>
+  </section>
+
+  <section class="vg-section vg-section--alt" id="selling-options">
     <div class="vg-inner">
       <h2 class="vg-head">Selling Your Vintage Martin</h2>
       <div class="vg-rule" aria-hidden="true"></div>
-      <div class="vg-grid">
-        <article class="vg-card">
-          <h3>Consign It</h3>
-          <p>I handle the photos, listing, authentication, and buyers. <a href="/consignment/">Consignment</a> runs from as low as 8% on top-tier instruments.</p>
-        </article>
-        <article class="vg-card">
-          <h3>Sell It Outright</h3>
-          <p>A fair cash offer and payment up front, with me handling the rest. <a href="/sell-my-martin-guitar/">Sell your Martin to me</a> directly.</p>
-        </article>
-        <article class="vg-card">
-          <h3>Sell It Privately</h3>
-          <p>You can sell it yourself, but a high-end pre-war Martin carries real liability. Price it off recent comparable sales, document everything honestly, and use trackable, insured shipping.</p>
-        </article>
+      <div class="vg-grid vg-grid--three">
+        <article class="vg-card"><h3>Consign It</h3><p>I handle the photography, listing, authentication, buyer questions and insured transaction. <a href="/consignment/">Consignment</a> runs from as low as 8% on top-tier instruments.</p></article>
+        <article class="vg-card"><h3>Sell It Outright</h3><p>Get a straightforward cash offer and payment up front, with me handling the rest. <a href="/sell-my-martin-guitar/">Sell your Martin to me</a> directly.</p></article>
+        <article class="vg-card"><h3>Sell It Privately</h3><p>Price it from comparable guitars with the same year, originality and repairs. Disclose every issue and use a written agreement plus trackable, insured shipping.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="vg-section" id="related-guides">
+    <div class="vg-inner">
+      <h2 class="vg-head">Related Martin Guides</h2>
+      <div class="vg-rule" aria-hidden="true"></div>
+      <div class="vg-links">
+        <a href="/martin-serial-and-model-numbers/"><strong>Martin Serial Number Lookup</strong><span>Find the production year from the neck-block serial.</span></a>
+        <a href="/post/martin-d18-history-specs-authentication-value-guide/"><strong>Complete Vintage Martin D-18 Guide</strong><span>Year changes, specifications, authentication and values.</span></a>
+        <a href="/post/one-family-1946-martin-d-28/"><strong>One-Family 1946 Martin D-28</strong><span>A documented herringbone transition-year guitar.</span></a>
+        <a href="/post/one-owner-1955-martin-d28/"><strong>One-Owner 1955 Martin D-28</strong><span>Why family history and original-owner photographs matter.</span></a>
+        <a href="/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/"><strong>How to Value an Old Martin</strong><span>Apply the same appraisal logic beyond dreadnoughts.</span></a>
+        <a href="/post/martin-0-00-000-history-authentication-value-guide/"><strong>Martin 0, 00 and 000 Guide</strong><span>Use this guide if the guitar is smaller than a dreadnought.</span></a>
       </div>
     </div>
   </section>
 
   <FAQ faqs={faqs} mainTitle="FAQs:" subTitle="Vintage Martin Dreadnought Values" sectionId="martin-dreadnought-faqs" />
-
   <ContactSection />
 </Layout>
 
 <style>
   .vg-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
-  .vg-section { background: #fff; padding: 56px 0; }
+  .vg-section { background: #fff; padding: 64px 0; scroll-margin-top: 96px; }
   .vg-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
-  .vg-head {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: clamp(26px, 3vw, 38px);
-    color: var(--color-brand-rust-dark);
-    margin: 0;
-    line-height: 1.2;
-  }
-  .vg-rule { width: 80px; height: 3px; background: var(--color-brand-rust); margin: 14px 0 22px; }
-  .vg-section p {
-    font-family: var(--font-sans);
-    font-size: 16px;
-    line-height: 1.7;
-    color: var(--color-brand-charcoal);
-    margin: 0 0 16px;
-    max-width: 900px;
-  }
-  .vg-lede { font-size: 17px !important; }
-  .vg-note { font-style: italic; }
-  .vg-section a { color: var(--color-brand-rust); text-decoration: underline; font-weight: 600; }
+  .vg-head { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: clamp(26px, 3vw, 38px); font-weight: 700; line-height: 1.2; margin: 0; }
+  .vg-rule { background: var(--color-brand-rust); height: 3px; margin: 14px 0 22px; width: 80px; }
+  .vg-section p { color: var(--color-brand-charcoal); font-family: var(--font-sans); font-size: 16px; line-height: 1.7; margin: 0 0 16px; max-width: 900px; }
+  .vg-section .vg-eyebrow { color: var(--color-brand-rust); font-family: var(--font-display); font-size: 13px; font-style: normal; font-weight: 700; letter-spacing: 0.12em; margin: 0 0 8px; text-transform: uppercase; }
+  .vg-section a { color: var(--color-brand-rust); font-weight: 600; text-decoration: underline; }
   .vg-section a:hover { color: var(--color-brand-rust-bright); }
+  .vg-lede { font-size: 18px !important; line-height: 1.65 !important; }
+  .vg-lede strong { color: var(--color-brand-rust-dark); }
+  .vg-section-intro { font-size: 17px !important; max-width: 860px !important; }
+  .vg-note { font-style: italic; }
 
-  .vg-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 22px;
-    margin-top: 8px;
-  }
-  .vg-card {
-    background: var(--color-brand-cream-light, #f9f1de);
-    border-top: 4px solid var(--color-brand-rust-bright);
-    padding: 20px 22px;
-  }
-  .vg-card h3 {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--color-brand-rust-dark);
-    margin: 0 0 8px;
-  }
-  .vg-card p { font-size: 15px; margin: 0; }
+  .vg-intro { align-items: start; display: grid; gap: 48px; grid-template-columns: minmax(0, 1.02fr) minmax(360px, 0.98fr); }
+  .vg-byline { border-left: 4px solid var(--color-brand-rust-bright); color: var(--color-brand-charcoal); display: grid; font-family: var(--font-sans); font-size: 14px; gap: 3px; margin: 24px 0; padding-left: 16px; }
+  .vg-byline strong { color: var(--color-brand-rust-dark); font-size: 15px; }
+  .vg-toc { background: var(--color-brand-cream-light, #f9f1de); border: 1px solid rgba(104, 36, 18, 0.16); padding: 18px 20px; }
+  .vg-toc > strong { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 17px; text-transform: uppercase; }
+  .vg-toc ul { display: grid; gap: 6px 18px; grid-template-columns: repeat(2, minmax(0, 1fr)); list-style: none; margin: 12px 0 0; padding: 0; }
+  .vg-toc a { font-family: var(--font-sans); font-size: 14px; }
+
+  .vg-feature, .vg-model-card figure { margin: 0; }
+  .vg-feature { background: var(--color-brand-cream-light, #f9f1de); border: 1px solid rgba(104, 36, 18, 0.14); box-shadow: 0 14px 32px rgba(62, 42, 20, 0.14); padding: 10px; }
+  .vg-feature :global(img), .vg-model-card :global(img) { display: block; height: auto; width: 100%; }
+  .vg-feature > :global(img) { aspect-ratio: 3 / 2; object-fit: cover; }
+  .vg-feature figcaption, .vg-model-card figcaption { color: #5e5247; font-family: var(--font-sans); font-size: 13px; font-style: italic; line-height: 1.45; }
+  .vg-feature figcaption { padding: 10px 6px 3px; }
+
+  .vg-models { display: grid; gap: 22px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 28px; }
+  .vg-model-card { background: #fff; border-top: 4px solid var(--color-brand-rust-bright); box-shadow: 0 8px 24px rgba(62, 42, 20, 0.1); }
+  .vg-model-card figure { border-bottom: 1px solid rgba(104, 36, 18, 0.12); }
+  .vg-model-card :global(img) { aspect-ratio: 3 / 2; object-fit: cover; }
+  .vg-model-card figcaption { min-height: 56px; padding: 9px 14px; }
+  .vg-model-card__body { padding: 18px 20px 22px; }
+  .vg-model-card h3, .vg-card h3, .vg-photo-list h3, .vg-timeline h3 { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 19px; font-weight: 700; margin: 0 0 8px; }
+  .vg-model-card p, .vg-card p { font-size: 15px; margin: 0; }
+
+  .vg-grid { display: grid; gap: 18px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 8px; }
+  .vg-grid--three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .vg-card { background: var(--color-brand-cream-light, #f9f1de); border-top: 4px solid var(--color-brand-rust-bright); padding: 20px 22px; }
+  .vg-section--alt .vg-card { background: #fff; }
 
   .vg-table-wrap { overflow-x: auto; }
-  .vg-table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-    font-family: var(--font-sans);
-    min-width: 460px;
-  }
-  .vg-table th, .vg-table td {
-    text-align: left;
-    padding: 13px 18px;
-    border-bottom: 1px solid rgba(62, 42, 20, 0.12);
-    font-size: 15px;
-    color: var(--color-brand-charcoal);
-  }
-  .vg-table th {
-    background: var(--color-brand-rust-dark);
-    color: #fff;
-    font-family: var(--font-display);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    font-size: 14px;
-  }
-  .vg-table td:first-child { font-weight: 700; color: var(--color-brand-rust-dark); }
+  .vg-table-wrap:focus-visible { outline: 3px solid var(--color-brand-rust); outline-offset: 3px; }
+  .vg-table { background: #fff; border-collapse: collapse; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06); font-family: var(--font-sans); min-width: 560px; width: 100%; }
+  .vg-table th, .vg-table td { border-bottom: 1px solid rgba(62, 42, 20, 0.12); color: var(--color-brand-charcoal); font-size: 15px; padding: 13px 18px; text-align: left; }
+  .vg-table caption { clip: rect(0 0 0 0); clip-path: inset(50%); height: 1px; overflow: hidden; position: absolute; white-space: nowrap; width: 1px; }
+  .vg-table thead th { background: var(--color-brand-rust-dark); color: #fff; font-family: var(--font-display); font-size: 14px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+  .vg-table tbody th { background: transparent; color: var(--color-brand-rust-dark); font-family: var(--font-sans); font-size: 15px; font-weight: 700; letter-spacing: 0; text-transform: none; }
   .vg-table tbody tr:nth-child(odd) { background: var(--color-brand-cream-light, #f9f1de); }
+  .vg-table--deductions { min-width: 720px; }
+  .vg-table--deductions tbody th { width: 34%; }
+  .vg-market-note { background: var(--color-brand-rust-dark); color: #fff; font-family: var(--font-sans); font-size: 15px; line-height: 1.6; margin-top: 24px; padding: 18px 20px; }
+  .vg-market-note strong { color: var(--color-brand-cream); }
+  .vg-note--after-table { margin-top: 18px !important; }
+
+  .vg-timeline { display: grid; gap: 12px; margin-top: 28px; }
+  .vg-timeline article { align-items: start; background: #fff; border-left: 4px solid var(--color-brand-rust-bright); display: grid; gap: 20px; grid-template-columns: 126px 1fr; padding: 18px 20px; }
+  .vg-timeline article > span { color: var(--color-brand-rust-bright); font-family: var(--font-display); font-size: 18px; font-weight: 700; }
+  .vg-timeline p { font-size: 15px; margin: 0; max-width: none; }
+  .vg-source-note { border-left: 3px solid var(--color-brand-rust); font-size: 14px !important; font-style: italic; margin-top: 24px !important; padding-left: 16px; }
+
+  .vg-rosewood-pair { display: grid; gap: 24px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 30px; }
+  .vg-rosewood-card { background: var(--color-brand-cream-light, #f9f1de); border-top: 4px solid var(--color-brand-rust-bright); box-shadow: 0 8px 24px rgba(62, 42, 20, 0.1); }
+  .vg-rosewood-card figure { margin: 0; }
+  .vg-rosewood-card :global(img) { aspect-ratio: 3 / 2; display: block; object-fit: cover; width: 100%; }
+  .vg-rosewood-card figcaption { color: #5e5247; font-family: var(--font-sans); font-size: 13px; font-style: italic; line-height: 1.45; padding: 9px 16px; }
+  .vg-rosewood-card > div { padding: 16px 20px 22px; }
+  .vg-rosewood-card h3, .vg-rosewood-checks h3 { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 20px; font-weight: 700; margin: 0 0 8px; }
+  .vg-rosewood-card p, .vg-rosewood-checks p { font-size: 15px; margin: 0; max-width: none; }
+  .vg-rosewood-checks { display: grid; gap: 16px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 24px; }
+  .vg-rosewood-checks article { background: #fff; border: 1px solid rgba(104, 36, 18, 0.16); padding: 18px 20px; }
+
+  .vg-value-layout { align-items: start; display: grid; gap: 42px; grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr); }
+  .vg-feature--wear { margin-top: 54px; }
+  .vg-feature--wear > :global(img) { aspect-ratio: 3 / 2; object-fit: cover; }
+
+  .vg-appraisal-layout { align-items: start; display: grid; gap: 46px; grid-template-columns: minmax(0, 1.15fr) minmax(360px, 0.85fr); }
+  .vg-steps { display: grid; gap: 12px; list-style: none; margin: 28px 0 0; padding: 0; }
+  .vg-steps li { align-items: start; background: var(--color-brand-cream-light, #f9f1de); border-left: 4px solid var(--color-brand-rust-bright); display: grid; gap: 16px; grid-template-columns: 54px 1fr; padding: 18px 20px; }
+  .vg-steps li > span { color: var(--color-brand-rust-bright); font-family: var(--font-display); font-size: 24px; font-weight: 700; line-height: 1; }
+  .vg-steps strong { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 18px; }
+  .vg-steps p { font-size: 15px; margin: 4px 0 0; max-width: none; }
+  .vg-feature--stamp > :global(img) { aspect-ratio: 3 / 2; object-fit: cover; }
+  .vg-photo-list { background: var(--color-brand-cream-light, #f9f1de); border-top: 4px solid var(--color-brand-rust-bright); margin-top: 20px; padding: 20px 22px; }
+  .vg-photo-list ul { color: var(--color-brand-charcoal); columns: 2; font-family: var(--font-sans); font-size: 14px; line-height: 1.55; margin: 0; padding-left: 20px; }
+  .vg-cta-panel { align-items: center; background: var(--color-brand-rust-dark); display: flex; gap: 28px; justify-content: space-between; margin-top: 32px; padding: 24px 26px; }
+  .vg-cta-panel div { display: grid; gap: 4px; }
+  .vg-cta-panel strong { color: #fff; font-family: var(--font-display); font-size: 22px; }
+  .vg-cta-panel span { color: var(--color-brand-cream-light); font-family: var(--font-sans); font-size: 14px; line-height: 1.5; }
+  .vg-cta-panel a { background: var(--color-brand-cream); color: var(--color-brand-rust-dark); flex: 0 0 auto; font-family: var(--font-display); padding: 12px 18px; text-decoration: none; text-transform: uppercase; }
+  .vg-cta-panel a:hover { background: #fff; color: var(--color-brand-rust-dark); }
+
+  .vg-links { display: grid; gap: 12px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .vg-links a { background: var(--color-brand-cream-light, #f9f1de); border: 1px solid rgba(104, 36, 18, 0.14); display: grid; gap: 5px; padding: 16px 18px; text-decoration: none; }
+  .vg-links a:hover { border-color: var(--color-brand-rust-bright); }
+  .vg-links strong { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 17px; }
+  .vg-links span { color: var(--color-brand-charcoal); font-family: var(--font-sans); font-size: 13px; font-weight: 400; line-height: 1.45; }
+
+  :global(.jvgft .jvgft__menu--sell a) { color: var(--color-brand-brown) !important; }
+
+  @media (max-width: 900px) {
+    .vg-intro, .vg-value-layout, .vg-appraisal-layout { grid-template-columns: 1fr; }
+    .vg-feature { max-width: 760px; }
+    .vg-feature--wear { margin-top: 0; max-width: 560px; }
+    .vg-models, .vg-grid--three { grid-template-columns: 1fr; }
+    .vg-model-card { display: grid; grid-template-columns: minmax(260px, 0.85fr) minmax(0, 1.15fr); }
+    .vg-model-card figure { border-bottom: 0; border-right: 1px solid rgba(104, 36, 18, 0.12); }
+    .vg-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .vg-rosewood-checks { grid-template-columns: 1fr; }
+  }
+
+  @media (min-width: 901px) and (max-width: 1360px) {
+    :global(.jvg-page-hero__title), :global(.jvg-page-hero__subhead) { margin-inline: auto; max-width: 820px; }
+  }
+
+  @media (max-width: 640px) {
+    .vg-section { padding: 48px 0; }
+    .vg-inner { padding-left: 18px; padding-right: 18px; }
+    .vg-intro { gap: 30px; }
+    .vg-toc ul, .vg-grid, .vg-links { grid-template-columns: 1fr; }
+    .vg-rosewood-pair { grid-template-columns: 1fr; }
+    .vg-model-card { display: block; }
+    .vg-model-card figure { border-bottom: 1px solid rgba(104, 36, 18, 0.12); border-right: 0; }
+    .vg-timeline article { gap: 8px; grid-template-columns: 1fr; }
+    .vg-table th, .vg-table td { padding: 12px 14px; }
+    .vg-steps li { grid-template-columns: 42px 1fr; padding: 16px; }
+    .vg-photo-list ul { columns: 1; }
+    .vg-cta-panel { align-items: stretch; flex-direction: column; }
+    .vg-cta-panel a { text-align: center; }
+  }
 </style>
