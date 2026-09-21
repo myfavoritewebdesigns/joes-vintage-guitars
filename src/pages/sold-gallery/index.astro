@@ -1,0 +1,118 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import SoldGalleryCard from "../../components/sold-gallery/SoldGalleryCard.astro";
+import { SITE_URL } from "../../config/site";
+import { getSoldGalleryEntries, soldGalleryHref } from "../../lib/soldGallery";
+
+const entries = await getSoldGalleryEntries();
+const intro = "A research-backed record of selected vintage instruments sold by Joe's Vintage Guitars. Each entry preserves original photography, identifying details, condition observations, and model history without publishing transaction amounts.";
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Sold Gallery", item: `${SITE_URL}/sold-gallery/` },
+  ],
+};
+
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": `${SITE_URL}/sold-gallery/`,
+  url: `${SITE_URL}/sold-gallery/`,
+  name: "Sold Vintage Guitar Gallery",
+  description: intro,
+  isPartOf: { "@id": `${SITE_URL}/#website` },
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: entries.length,
+    itemListElement: entries.map((entry, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: entry.data.title,
+      url: `${SITE_URL}${soldGalleryHref(entry)}`,
+    })),
+  },
+};
+---
+
+<Layout
+  title="Sold Vintage Guitar Gallery | Joe's Vintage Guitars"
+  description="Explore sold vintage guitars documented by Joe's Vintage Guitars, with original photos, identifying details, condition notes, and researched model history."
+  canonical="/sold-gallery/"
+  structuredData={[breadcrumbSchema, collectionSchema]}
+>
+  <header class="sg-hero">
+    <div class="sg-shell">
+      <nav aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><span>Sold Gallery</span></nav>
+      <p class="sg-kicker">Previously sold · historically documented</p>
+      <h1>Sold Vintage Guitar Gallery</h1>
+      <p class="sg-intro">{intro}</p>
+    </div>
+  </header>
+
+  <section class="sg-main" aria-labelledby="archive-heading">
+    <div class="sg-shell">
+      <div class="sg-heading">
+        <div>
+          <p class="sg-kicker">The archive</p>
+          <h2 id="archive-heading">Instruments That Passed Through Joe's Hands</h2>
+        </div>
+        <p>Only selected instruments made in 1989 or earlier are included. Current inventory, incomplete listings, and duplicate or relisted records stay out of this archive.</p>
+      </div>
+
+      {entries.length ? (
+        <div class="sg-grid">
+          {entries.map((entry, index) => <SoldGalleryCard entry={entry} eager={index === 0} />)}
+        </div>
+      ) : (
+        <p class="sg-empty">The first archive entries are being prepared.</p>
+      )}
+    </div>
+  </section>
+
+  <section class="sg-purpose">
+    <div class="sg-shell sg-purpose__grid">
+      <div>
+        <p class="sg-kicker">Why preserve sold guitars?</p>
+        <h2>A Useful Record, Not an Inventory Page</h2>
+      </div>
+      <div>
+        <p>Old guitars are easiest to understand when the photographs, measurements, repairs, and period details stay together. These pages remain available after a sale so owners and researchers can compare real examples without mistaking them for instruments currently offered.</p>
+        <p>Looking for something available now? <a href="https://reverb.com/shop/joe-s-gear-emporium-4" target="_blank" rel="noopener noreferrer">See Joe's current inventory on Reverb</a>.</p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .sg-shell { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+  .sg-hero { padding: 270px 0 72px; background: linear-gradient(145deg, #30160e 0%, var(--color-brand-rust-dark, #682412) 62%, #8d341c 100%); color: #fff; }
+  .sg-hero nav { display: flex; gap: 9px; margin-bottom: 36px; color: rgba(255,255,255,0.72); font-size: 0.84rem; }
+  .sg-hero nav a { color: inherit; text-decoration: none; }
+  .sg-hero nav a:hover { color: #fff; text-decoration: underline; }
+  .sg-kicker { margin: 0 0 10px; color: var(--color-brand-gold, #d6a84b); font-family: var(--font-display, Oswald), sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; }
+  .sg-hero h1 { max-width: 820px; margin: 0; font-family: var(--font-display, Oswald), sans-serif; font-size: clamp(2.7rem, 6vw, 5.3rem); line-height: 0.98; text-transform: uppercase; }
+  .sg-intro { max-width: 800px; margin: 24px 0 0; color: rgba(255,255,255,0.88); font-size: clamp(1rem, 2vw, 1.2rem); line-height: 1.7; }
+  .sg-main { padding: 72px 0 86px; background: #fbf7ef; }
+  .sg-main .sg-kicker, .sg-purpose .sg-kicker { color: #8d341c; }
+  .sg-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr); gap: 48px; align-items: end; margin-bottom: 36px; }
+  .sg-heading h2, .sg-purpose h2 { margin: 0; color: var(--color-brand-rust-dark, #682412); font-family: var(--font-display, Oswald), sans-serif; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.1; }
+  .sg-heading > p { margin: 0; color: #5c4b35; line-height: 1.65; }
+  .sg-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+  .sg-empty { padding: 28px; border: 1px solid #e3d4b4; background: #fff; color: #554631; }
+  .sg-purpose { padding: 72px 0; background: #fff; }
+  .sg-purpose__grid { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 70px; align-items: start; }
+  .sg-purpose__grid p { margin: 0 0 1em; color: #4f412f; font-size: 1.02rem; line-height: 1.72; }
+  .sg-purpose a { color: var(--color-brand-rust, #a03a1e); font-weight: 700; }
+  @media (max-width: 900px) {
+    .sg-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .sg-heading, .sg-purpose__grid { grid-template-columns: 1fr; gap: 24px; }
+  }
+  @media (max-width: 620px) {
+    .sg-shell { width: min(100% - 28px, 1180px); }
+    .sg-hero { padding-top: 145px; }
+    .sg-grid { grid-template-columns: 1fr; }
+  }
+</style>

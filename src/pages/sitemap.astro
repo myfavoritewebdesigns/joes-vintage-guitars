@@ -1,5 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { getSoldGalleryEntries, soldGalleryHref } from "../lib/soldGallery";
+
+const soldGalleryEntries = await getSoldGalleryEntries();
 
 const groups = [
   {
@@ -11,6 +14,13 @@ const groups = [
       { label: "Contact", href: "/contact-me/" },
       { label: "Blog", href: "/blog/" },
       { label: "Reverb Reviews", href: "/reverb-reviews/" },
+    ],
+  },
+  {
+    title: "Sold Guitar Archive",
+    links: [
+      { label: "Sold Vintage Guitar Gallery", href: "/sold-gallery/" },
+      ...soldGalleryEntries.map((entry) => ({ label: entry.data.title, href: soldGalleryHref(entry) })),
     ],
   },
   {

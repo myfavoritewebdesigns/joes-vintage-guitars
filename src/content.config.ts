@@ -54,4 +54,55 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+// Selected sold instruments are kept separate from the editorial blog. Each
+// record is a researched archive entry, not a copy of its former marketplace
+// listing. Eligibility is decided before a file is created: sold, made no later
+// than 1989, and above the private asking-price threshold. Price is deliberately
+// absent from this public schema so it cannot leak into HTML or JSON-LD.
+const soldGallery = defineCollection({
+  loader: glob({ pattern: "*.json", base: "./src/content/sold-gallery" }),
+  schema: z.object({
+    title: z.string(),
+    brand: z.string(),
+    model: z.string(),
+    year: z.number().int().max(1989),
+    serialNumber: z.string().optional(),
+    instrumentType: z.string(),
+    bodyStyle: z.string(),
+    country: z.string(),
+    handedness: z.string(),
+    stringCount: z.number().int().positive(),
+    condition: z.string(),
+    datePublished: z.coerce.date(),
+    dateModified: z.coerce.date(),
+    excerpt: z.string(),
+    metaDescription: z.string(),
+    heroImage: z.string(),
+    heroImageAlt: z.string(),
+    images: z.array(
+      z.object({
+        src: z.string(),
+        alt: z.string(),
+        caption: z.string(),
+      })
+    ).min(1),
+    overview: z.array(z.string()).min(1),
+    modelContext: z.array(z.string()).min(1),
+    exampleNotes: z.array(z.string()).min(1),
+    measurements: z.array(z.object({ label: z.string(), value: z.string() })).default([]),
+    conditionNotes: z.array(z.object({ label: z.string(), detail: z.string() })).min(1),
+    datingNote: z.string(),
+    soundNote: z.string().optional(),
+    sources: z.array(
+      z.object({
+        label: z.string(),
+        url: z.string().url(),
+        note: z.string(),
+      })
+    ).min(1),
+    relatedGuides: z.array(z.object({ label: z.string(), url: z.string() })).default([]),
+    sourceListingId: z.string(),
+  }),
+});
+
+export const collections = { blog, soldGallery };

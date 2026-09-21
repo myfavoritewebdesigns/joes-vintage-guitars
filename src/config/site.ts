@@ -206,6 +206,7 @@ export const primaryNav: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "About Joe", href: "/about-me/" },
   { label: "JVG Blog", href: "/blog/" },
+  { label: "Sold Gallery", href: "/sold-gallery/" },
   { label: "Contact", href: "/contact-me/" },
 ];
 
@@ -241,6 +242,7 @@ export const footerTopMenu: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "About Joe", href: "/about-me/" },
   { label: "JVG Blog", href: "/blog/" },
+  { label: "Sold Gallery", href: "/sold-gallery/" },
   { label: "Contact", href: "/contact-me/" },
 ];
 
