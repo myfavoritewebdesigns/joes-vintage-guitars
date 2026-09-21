@@ -1,7 +1,7 @@
 ---
 title: "Vintage Martin 0, 00 & 000: Models, Dating & Value"
 pubDate: "2026-09-02T10:00:00"
-modified: "2026-09-02T10:00:00"
+modified: "2026-09-21T11:45:00-07:00"
 excerpt: "A detailed collector’s guide to Martin 0, 00, and 000 guitars, including body sizes, 12-fret and 14-fret construction, woods, trim, bracing, tuners, authentication, and the eras collectors value most."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
