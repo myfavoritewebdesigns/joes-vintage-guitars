@@ -1,7 +1,7 @@
 ---
 title: "What Guitar Did Johnny Marr Play? The Smiths ES-355, The 330, And The Rest"
 pubDate: "2026-08-27T19:30:00"
-modified: "2026-08-27T23:00:00"
+modified: "2026-09-21T11:45:00-07:00"
 excerpt: "A 1959 cherry Gibson ES-355 is on my bench in Mesa, the same model Seymour Stein bought Johnny Marr. Christie's sells Marr's collection in London on 17 September 2026. Here's which guitar is which, and what a regular one brings without his name on it."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
@@ -105,7 +105,7 @@ Two more keep coming up in the same search.
 
 Marr's main Smiths acoustic is a 1971 Martin D-28, a six-string, on There Is a Light That Never Goes Out, Well I Wonder, and Cemetry Gates, estimated at £30,000 to £50,000. There's a 12-string in the sale too, a 1976 D-12-28, estimated at £4,000 to £6,000. They both say D-28 on the headstock. Count the tuning pegs.
 
-What you see in the photos is a 1959 D-28, Brazilian rosewood and a bit earlier than Marr's 1971 Indian rosewood, so same shape, though Brazilian and Indian aren't the same guitar.
+What you see in the photos is a 1959 D-28, Brazilian rosewood and a bit earlier than Marr's 1971 Indian rosewood, so same shape, though Brazilian and Indian aren't the same guitar. The [Martin D-28, D-18, and D-45 value guide](/martin-d-28-d-18-d-45-dreadnought-value-guide/) explains the 1969 rosewood change and the earlier D-28 market. Its published ranges end at 1969, so a 1971 D-28 still needs later East Indian rosewood comparables.
 
 <figure>
 

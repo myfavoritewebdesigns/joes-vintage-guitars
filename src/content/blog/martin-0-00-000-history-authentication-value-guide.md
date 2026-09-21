@@ -1,7 +1,7 @@
 ---
 title: "Vintage Martin 0, 00 & 000: Models, Dating & Value"
 pubDate: "2026-09-02T10:00:00"
-modified: "2026-09-02T10:00:00"
+modified: "2026-09-21T11:45:00-07:00"
 excerpt: "A detailed collector’s guide to Martin 0, 00, and 000 guitars, including body sizes, 12-fret and 14-fret construction, woods, trim, bracing, tuners, authentication, and the eras collectors value most."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -234,4 +234,4 @@ Buy the guitar in front of you, not the legend attached to it.
 
 The best small Martins combine honest structure, period-correct details, and a voice worth preserving. A serial number gives me a starting year. The wood, bracing, bridge plate, finish, hardware, and tool marks tell me the rest.
 
-If you have a Martin 0, 00, or 000 that you would like identified, appraised, or sold, send me a few clear photographs through the [free appraisal page](/free-appraisal/). You can also learn more about [selling a vintage Martin](/sell-my-martin-guitar/) or check the site’s [Martin serial and model number guide](/martin-serial-and-model-numbers/).
+If you have a Martin 0, 00, or 000 that you would like identified, appraised, or sold, send me a few clear photographs through the [free appraisal page](/free-appraisal/). You can also learn more about [selling a vintage Martin](/sell-my-martin-guitar/) or check the site’s [Martin serial and model number guide](/martin-serial-and-model-numbers/). If the model stamp begins with D, use the separate [Martin D-18, D-28, and D-45 dreadnought value guide](/martin-d-28-d-18-d-45-dreadnought-value-guide/) for model differences, year-by-year market ranges, and the factors that determine value.
