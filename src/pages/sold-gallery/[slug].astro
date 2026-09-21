@@ -72,6 +72,30 @@ const articleSchema = {
 };
 
 const galleryPhotos = resolvedPhotos.slice(1);
+
+const escapeHtml = (value: string) => value
+  .replaceAll("&", "&amp;")
+  .replaceAll("<", "&lt;")
+  .replaceAll(">", "&gt;")
+  .replaceAll('"', "&quot;")
+  .replaceAll("'", "&#39;");
+
+// Archive copy is stored as plain text. This deliberately narrow parser allows
+// editors to add contextual internal links without accepting arbitrary HTML.
+const renderLinkedText = (value: string) => {
+  const linkPattern = /\[([^\]]+)\]\((\/[^)\s]+)\)/g;
+  let html = "";
+  let offset = 0;
+
+  for (const match of value.matchAll(linkPattern)) {
+    const index = match.index ?? 0;
+    html += escapeHtml(value.slice(offset, index));
+    html += `<a href="${escapeHtml(match[2])}">${escapeHtml(match[1])}</a>`;
+    offset = index + match[0].length;
+  }
+
+  return html + escapeHtml(value.slice(offset));
+};
 ---
 
 <Layout
@@ -111,7 +135,7 @@ const galleryPhotos = resolvedPhotos.slice(1);
         <p class="sge-kicker">The instrument</p>
         <h2 id="overview-heading">A Final-Year 00-21NY, Documented in Detail</h2>
         <div class="sge-reading">
-          {data.overview.map((paragraph) => <p>{paragraph}</p>)}
+          {data.overview.map((paragraph) => <p set:html={renderLinkedText(paragraph)} />)}
         </div>
       </section>
 
@@ -136,7 +160,7 @@ const galleryPhotos = resolvedPhotos.slice(1);
         <p class="sge-kicker">Model history</p>
         <h2 id="context-heading">What Made the 00-21NY Distinctive</h2>
         <div class="sge-reading">
-          {data.modelContext.map((paragraph) => <p>{paragraph}</p>)}
+          {data.modelContext.map((paragraph) => <p set:html={renderLinkedText(paragraph)} />)}
         </div>
       </section>
 
@@ -144,7 +168,7 @@ const galleryPhotos = resolvedPhotos.slice(1);
         <p class="sge-kicker">This example</p>
         <h2 id="example-heading">What Stood Out on This Guitar</h2>
         <div class="sge-reading">
-          {data.exampleNotes.map((paragraph) => <p>{paragraph}</p>)}
+          {data.exampleNotes.map((paragraph) => <p set:html={renderLinkedText(paragraph)} />)}
         </div>
       </section>
 
@@ -186,26 +210,19 @@ const galleryPhotos = resolvedPhotos.slice(1);
         <div>
           <p class="sge-kicker">Dating evidence</p>
           <h2 id="dating-heading">Model and Serial Agree</h2>
-          <p>{data.datingNote}</p>
+          <p set:html={renderLinkedText(data.datingNote)} />
           {data.soundNote && <><h3>Our Tonal Notes</h3><p>{data.soundNote}</p></>}
         </div>
-        {data.relatedGuides.length > 0 && (
-          <aside>
-            <h3>More Martin Resources</h3>
-            <ul>{data.relatedGuides.map((guide) => <li><a href={guide.url}>{guide.label}</a></li>)}</ul>
-          </aside>
-        )}
       </section>
 
       <section class="sge-cta" aria-labelledby="cta-heading">
         <div>
           <p class="sge-kicker">Have a vintage Martin?</p>
           <h2 id="cta-heading">Tell Us What You Have</h2>
-          <p>Send photographs and identifying details for a free evaluation, or use our Martin serial-number guide to begin identifying your guitar.</p>
+          <p>Send photographs and identifying details for a free evaluation of your vintage Martin.</p>
         </div>
         <div class="sge-cta__actions">
           <a class="sge-button sge-button--primary" href="/sell-my-martin-guitar/">Sell My Martin</a>
-          <a class="sge-button" href="/martin-serial-and-model-numbers/">Martin Serial Number Guide</a>
         </div>
       </section>
     </div>
@@ -232,6 +249,7 @@ const galleryPhotos = resolvedPhotos.slice(1);
   .sge-section > h2, .sge-section__head h2, .sge-two-up h2, .sge-evidence h2, .sge-cta h2 { margin: 0; color: var(--color-brand-rust-dark, #682412); font-family: var(--font-display, Oswald), sans-serif; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.12; }
   .sge-reading { max-width: 860px; }
   .sge-reading p, .sge-evidence p { margin: 20px 0 0; color: #4c3f2e; font-size: 1.04rem; line-height: 1.78; }
+  .sge-reading :global(a), .sge-evidence :global(a) { color: var(--color-brand-rust, #a03a1e); font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 3px; }
   .sge-section__head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 0.58fr); gap: 40px; align-items: end; margin-bottom: 28px; }
   .sge-section__head > p { margin: 0; color: #6a5a43; line-height: 1.6; }
   .sge-facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0; border-top: 1px solid #dccaaa; border-left: 1px solid #dccaaa; }
@@ -248,12 +266,7 @@ const galleryPhotos = resolvedPhotos.slice(1);
   .sge-condition > div { padding: 0 0 18px 20px; border-left: 3px solid #d9bb82; }
   .sge-condition h3, .sge-evidence h3 { margin: 0 0 4px; color: var(--color-brand-brown, #3e2a14); font-family: var(--font-display, Oswald), sans-serif; font-size: 1.06rem; }
   .sge-condition p { margin: 0; color: #564834; line-height: 1.62; }
-  .sge-evidence { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 60px; }
-  .sge-evidence aside { padding: 28px; background: #f7edd9; border-top: 4px solid var(--color-brand-rust, #a03a1e); }
-  .sge-evidence aside h3 { font-size: 1.35rem; }
-  .sge-evidence ul { margin: 16px 0 0; padding-left: 20px; }
-  .sge-evidence li { margin: 0 0 10px; color: #594933; }
-  .sge-evidence a { color: var(--color-brand-rust, #a03a1e); font-weight: 700; }
+  .sge-evidence { max-width: 860px; }
   .sge-cta { display: grid; grid-template-columns: 1fr auto; gap: 48px; align-items: center; margin-top: 64px; padding: 42px; background: var(--color-brand-rust-dark, #682412); color: #fff; }
   .sge-cta .sge-kicker { color: #f0c66c; }
   .sge-cta h2 { color: #fff; }

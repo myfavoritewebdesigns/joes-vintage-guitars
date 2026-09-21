@@ -100,7 +100,6 @@ const soldGallery = defineCollection({
         note: z.string(),
       })
     ).min(1),
-    relatedGuides: z.array(z.object({ label: z.string(), url: z.string() })).default([]),
     sourceListingId: z.string(),
   }),
 });
