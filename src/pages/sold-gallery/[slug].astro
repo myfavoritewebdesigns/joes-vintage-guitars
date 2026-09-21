@@ -73,28 +73,24 @@ const articleSchema = {
 
 const galleryPhotos = resolvedPhotos.slice(1);
 
-const escapeHtml = (value: string) => value
-  .replaceAll("&", "&amp;")
-  .replaceAll("<", "&lt;")
-  .replaceAll(">", "&gt;")
-  .replaceAll('"', "&quot;")
-  .replaceAll("'", "&#39;");
+type LinkedPart = { text: string; href?: string };
 
-// Archive copy is stored as plain text. This deliberately narrow parser allows
-// editors to add contextual internal links without accepting arbitrary HTML.
-const renderLinkedText = (value: string) => {
+// Archive copy remains plain text. This deliberately narrow parser recognizes
+// internal Markdown-style links, which Astro then escapes and renders safely.
+const parseLinkedText = (value: string): LinkedPart[] => {
   const linkPattern = /\[([^\]]+)\]\((\/[^)\s]+)\)/g;
-  let html = "";
+  const parts: LinkedPart[] = [];
   let offset = 0;
 
   for (const match of value.matchAll(linkPattern)) {
     const index = match.index ?? 0;
-    html += escapeHtml(value.slice(offset, index));
-    html += `<a href="${escapeHtml(match[2])}">${escapeHtml(match[1])}</a>`;
+    if (index > offset) parts.push({ text: value.slice(offset, index) });
+    parts.push({ text: match[1], href: match[2] });
     offset = index + match[0].length;
   }
 
-  return html + escapeHtml(value.slice(offset));
+  if (offset < value.length) parts.push({ text: value.slice(offset) });
+  return parts;
 };
 ---
 
@@ -135,7 +131,7 @@ const renderLinkedText = (value: string) => {
         <p class="sge-kicker">The instrument</p>
         <h2 id="overview-heading">A Final-Year 00-21NY, Documented in Detail</h2>
         <div class="sge-reading">
-          {data.overview.map((paragraph) => <p set:html={renderLinkedText(paragraph)} />)}
+          {data.overview.map((paragraph) => <p>{parseLinkedText(paragraph).map((part) => part.href ? <a class="sge-inline-link" href={part.href}>{part.text}</a> : part.text)}</p>)}
         </div>
       </section>
 
@@ -160,7 +156,7 @@ const renderLinkedText = (value: string) => {
         <p class="sge-kicker">Model history</p>
         <h2 id="context-heading">What Made the 00-21NY Distinctive</h2>
         <div class="sge-reading">
-          {data.modelContext.map((paragraph) => <p set:html={renderLinkedText(paragraph)} />)}
+          {data.modelContext.map((paragraph) => <p>{parseLinkedText(paragraph).map((part) => part.href ? <a class="sge-inline-link" href={part.href}>{part.text}</a> : part.text)}</p>)}
         </div>
       </section>
 
@@ -168,7 +164,7 @@ const renderLinkedText = (value: string) => {
         <p class="sge-kicker">This example</p>
         <h2 id="example-heading">What Stood Out on This Guitar</h2>
         <div class="sge-reading">
-          {data.exampleNotes.map((paragraph) => <p set:html={renderLinkedText(paragraph)} />)}
+          {data.exampleNotes.map((paragraph) => <p>{parseLinkedText(paragraph).map((part) => part.href ? <a class="sge-inline-link" href={part.href}>{part.text}</a> : part.text)}</p>)}
         </div>
       </section>
 
@@ -210,7 +206,7 @@ const renderLinkedText = (value: string) => {
         <div>
           <p class="sge-kicker">Dating evidence</p>
           <h2 id="dating-heading">Model and Serial Agree</h2>
-          <p set:html={renderLinkedText(data.datingNote)} />
+          <p>{parseLinkedText(data.datingNote).map((part) => part.href ? <a class="sge-inline-link" href={part.href}>{part.text}</a> : part.text)}</p>
           {data.soundNote && <><h3>Our Tonal Notes</h3><p>{data.soundNote}</p></>}
         </div>
       </section>
@@ -249,7 +245,8 @@ const renderLinkedText = (value: string) => {
   .sge-section > h2, .sge-section__head h2, .sge-two-up h2, .sge-evidence h2, .sge-cta h2 { margin: 0; color: var(--color-brand-rust-dark, #682412); font-family: var(--font-display, Oswald), sans-serif; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.12; }
   .sge-reading { max-width: 860px; }
   .sge-reading p, .sge-evidence p { margin: 20px 0 0; color: #4c3f2e; font-size: 1.04rem; line-height: 1.78; }
-  .sge-reading :global(a), .sge-evidence :global(a) { color: var(--color-brand-rust, #a03a1e); font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .sge-inline-link { color: var(--color-brand-rust, #a03a1e); font-weight: 700; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .sge-inline-link:hover { color: var(--color-brand-rust-dark, #682412); text-decoration-thickness: 2px; }
   .sge-section__head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 0.58fr); gap: 40px; align-items: end; margin-bottom: 28px; }
   .sge-section__head > p { margin: 0; color: #6a5a43; line-height: 1.6; }
   .sge-facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0; border-top: 1px solid #dccaaa; border-left: 1px solid #dccaaa; }
