@@ -14,6 +14,7 @@ interface Props {
   modifiedTime?: string;
   structuredData?: Record<string, unknown> | Record<string, unknown>[];
   bodyClass?: string;
+  youtubeLite?: boolean;
 }
 
 const {
@@ -28,6 +29,7 @@ const {
   modifiedTime,
   structuredData,
   bodyClass = "",
+  youtubeLite = false,
 } = Astro.props;
 ---
 
@@ -45,5 +47,11 @@ const {
   structuredData={structuredData}
   bodyClass={`gibson-guide ${bodyClass}`.trim()}
 >
+  {youtubeLite && (
+    <Fragment slot="head">
+      <link rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+      <script is:inline src="/scripts/lite-yt-embed.js" defer></script>
+    </Fragment>
+  )}
   <slot />
 </Layout>
