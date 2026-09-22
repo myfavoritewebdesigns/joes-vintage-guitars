@@ -1,0 +1,808 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PageHero from "../components/primitives/PageHero.astro";
+import Button from "../components/primitives/Button.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import FAQ from "../components/FAQ.astro";
+import ContactSection from "../components/ContactSection.astro";
+import { contact, hrefs, SITE_URL } from "../config/site";
+import esquire1957Front from "../assets/images/fender-sn/1957-fender-esquire-blonde-full-front.jpg";
+import esquire1957Plate from "../assets/images/fender-sn/1957-fender-esquire-blonde.jpg";
+import esquire1957Controls from "../assets/images/fender-sn/1957-fender-esquire-original-controls.jpg";
+import esquire1957NeckPocket from "../assets/images/fender-sn/1957-fender-esquire-neck-pocket-mark.jpg";
+import esquire1957NeckDate from "../assets/images/fender-sn/1957-fender-esquire-neck-heel-date.jpg";
+import esquire1957Headstock from "../assets/images/fender-sn/1957-fender-esquire-headstock-decal.jpg";
+import esquire1958Black from "../assets/images/fender-sn/1958-fender-esquire-black-full-front.jpg";
+import esquire1965Route from "../assets/images/fender-sn/1965-fender-esquire-neck-pickup-route.jpg";
+import esquire1965Controls from "../assets/images/fender-sn/1965-fender-esquire-control-cavity.jpg";
+
+const PAGE_URL = `${SITE_URL}/vintage-fender-esquire-value-guide/`;
+
+const prices = [
+  {
+    era: "1950 Esquire",
+    value: "Individual appraisal required",
+    note: "The earliest Esquires are too scarce and specification-sensitive for one dependable price band.",
+    guides: [{ label: "1950 Fender family guide", href: "/vintage-fender-telecaster-value-guide/1950-broadcaster/" }],
+  },
+  {
+    era: "1951 blonde",
+    value: "$34,000 to $56,500",
+    note: "For an all-original example in excellent condition with its original case.",
+    guides: [{ label: "1951 Telecaster value guide", href: "/vintage-fender-telecaster-value-guide/1951-telecaster/" }],
+  },
+  {
+    era: "1952 to 1953 blonde",
+    value: "$30,000 to $45,000",
+    note: "Blackguard specifications and bridge-plate serial details should agree with the claimed year.",
+    guides: [
+      { label: "1952", href: "/vintage-fender-telecaster-value-guide/1952/" },
+      { label: "1953", href: "/vintage-fender-telecaster-value-guide/1953/" },
+    ],
+  },
+  {
+    era: "1954 black pickguard",
+    value: "$30,000 to $45,000",
+    note: "The earlier part of the 1954 transition retains the black phenolic guard.",
+    guides: [{ label: "1954 transition guide", href: "/vintage-fender-telecaster-value-guide/1954/" }],
+  },
+  {
+    era: "1954 white pickguard",
+    value: "$30,000 to $37,500",
+    note: "The whiteguard transition is a distinct 1954 value checkpoint.",
+    guides: [{ label: "1954 transition guide", href: "/vintage-fender-telecaster-value-guide/1954/" }],
+  },
+  {
+    era: "1955 to 1957 blonde",
+    value: "$28,500 to $37,500",
+    note: "Original finish, electronics, decal, pickguard, and case determine where the guitar falls in the range.",
+    guides: [
+      { label: "1955", href: "/vintage-fender-telecaster-value-guide/1955/" },
+      { label: "1956", href: "/vintage-fender-telecaster-value-guide/1956/" },
+      { label: "1957", href: "/vintage-fender-telecaster-value-guide/1957/" },
+    ],
+  },
+  {
+    era: "1958 to 1959 blonde",
+    value: "$19,000 to $26,500",
+    note: "Check the bridge style carefully because the top-loader period falls inside this range.",
+    guides: [
+      { label: "1958", href: "/vintage-fender-telecaster-value-guide/1958/" },
+      { label: "1959", href: "/vintage-fender-telecaster-value-guide/1959/" },
+    ],
+  },
+  {
+    era: "1960 to 1962 blonde",
+    value: "$16,500 to $24,000",
+    note: "Rosewood-board construction and the surrounding specification changes become important.",
+    guides: [
+      { label: "1960", href: "/vintage-fender-telecaster-value-guide/1960/" },
+      { label: "1961", href: "/vintage-fender-telecaster-value-guide/1961/" },
+      { label: "1962", href: "/vintage-fender-telecaster-value-guide/1962/" },
+    ],
+  },
+  {
+    era: "1963 to 1964 blonde",
+    value: "$11,500 to $19,000",
+    note: "L-series plates, neck dates, decal details, and the fingerboard should tell a consistent story.",
+    guides: [
+      { label: "1963", href: "/vintage-fender-telecaster-value-guide/1963/" },
+      { label: "1964", href: "/vintage-fender-telecaster-value-guide/1964/" },
+    ],
+  },
+  {
+    era: "1965 to 1968 blonde",
+    value: "$7,000 to $16,500",
+    note: "The transition logo, patent block, F plate, and later CBS details must fit the production window.",
+    guides: [
+      { label: "1965", href: "/vintage-fender-telecaster-value-guide/1965/" },
+      { label: "1966, 1967 and 1968", href: "/vintage-fender-telecaster-value-guide/1966-1968/" },
+    ],
+  },
+];
+
+const valueFactors = [
+  {
+    title: "Factory Esquire Identity",
+    body: "A Telecaster converted to one-pickup operation is not valued as a factory Esquire. The decal, original wiring, solder joints, pickguard, parts, dates, and finish all need to agree.",
+  },
+  {
+    title: "Original Finish",
+    body: "Blonde was standard. A verified factory custom color can be worth more, but a refinish usually cuts the value sharply. Appearance alone cannot establish a custom color.",
+  },
+  {
+    title: "Original Electronics",
+    body: "The bridge pickup, pots, switch, capacitor network, cloth wire, and untouched solder matter. A working modern Esquire circuit is not proof of a factory Esquire.",
+  },
+  {
+    title: "Year and Specification",
+    body: "The guard, saddles, bridge, tuners, logo, neck construction, serial location, and dated parts should fit the claimed year. Use the Telecaster year guides for shared hardware details.",
+  },
+  {
+    title: "Condition and Repairs",
+    body: "Honest playing wear is normal. Added routes, extra holes, overspray, body sanding, broken wood, and poorly repaired damage have a much larger effect than ordinary checking or a clean refret.",
+  },
+  {
+    title: "Case and Provenance",
+    body: "A correct original case, receipts, photographs, and a clear ownership history can support the upper end of the range when the guitar itself is already original and correctly identified.",
+  },
+];
+
+const faqs = [
+  {
+    q: "How much is a vintage Fender Esquire worth?",
+    a: "The published ranges in this guide run from about $7,000 for some original 1965 to 1968 blonde examples to $56,500 for an excellent 1951 blonde Esquire. A 1950 Esquire requires an individual appraisal because the earliest examples are too scarce and specification-sensitive for one dependable range.",
+  },
+  {
+    q: "Is a vintage Esquire worth less than a Telecaster?",
+    a: "As a working rule, an original Esquire is typically worth about 75% of a same-year, same-color Telecaster. Rarity, finish, condition, originality, and provenance can move an individual guitar above or below that relationship.",
+  },
+  {
+    q: "How can I tell a factory Esquire from a converted Telecaster?",
+    a: "Do not rely on the missing neck pickup alone. Check the Esquire decal, pickguard, factory wiring pattern, solder joints, pickup, dated parts, finish, screw holes, and the agreement between all visible and internal evidence. A convincing conversion can require professional inspection.",
+  },
+  {
+    q: "Does a neck-pickup route prove an Esquire was converted?",
+    a: "No. Many factory Esquire bodies were routed for a neck pickup even though Fender installed only the bridge pickup. The route is evidence to inspect, not a verdict by itself.",
+  },
+  {
+    q: "Why does a Fender Esquire have a three-way switch with only one pickup?",
+    a: "Fender used the three-way switch to send the single bridge pickup through different electrical paths. Common vintage circuits include a normal volume-and-tone path, a brighter tone-bypass path, and a dark preset tone. The component values and position order changed during production, so the wiring must be compared with the correct period rather than one universal schematic.",
+  },
+  {
+    q: "Are custom-color Fender Esquires worth more?",
+    a: "A verified original factory custom color can bring a substantial premium over blonde. Custom colors from 1950 through 1952 are so rare that every non-blonde example should be treated with suspicion until an experienced vintage Fender dealer authenticates the finish.",
+  },
+  {
+    q: "How much does a refinish affect vintage Esquire value?",
+    a: "A refinish is a major value deduction. The result depends on the year, the remaining original parts, whether the body was sanded or altered, and the quality and age of the work. A refinished guitar should be appraised individually rather than priced from the excellent-original table.",
+  },
+  {
+    q: "Can the serial number date an Esquire exactly?",
+    a: "No. The serial number provides a production window. Confirm it against the neck and body dates, pot codes, pickup, bridge, pickguard, tuners, logo, finish, and other features before assigning a year or value.",
+  },
+  {
+    q: "Should I remove the neck or pickguard before requesting an appraisal?",
+    a: "Not unless you are comfortable working on vintage instruments. Begin with clear exterior photos, the serial number, and any existing documentation. Internal inspection can wait until it is necessary.",
+  },
+];
+
+const stripTags = (value: string) => value.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+const structuredData: Record<string, unknown>[] = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Vintage Fender Esquire Value Guide", item: PAGE_URL },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Vintage Fender Esquire Value Guide",
+    description: "Vintage Fender Esquire values from 1950 to 1968, with factory wiring, serial dating, finish, conversion, authentication, and appraisal guidance.",
+    image: `${SITE_URL}/images/og/vintage-fender-esquire-value-guide.jpg`,
+    dateModified: "2026-09-21",
+    author: { "@id": `${SITE_URL}/about-me/#person` },
+    publisher: { "@id": `${SITE_URL}/` },
+    mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: stripTags(faq.a) },
+    })),
+  },
+];
+---
+
+<Layout
+  title="Vintage Fender Esquire Value Guide | Joe’s Vintage Guitars"
+  description="See 1950 to 1968 Fender Esquire values from $7,000 to $56,500, plus factory wiring, serial dating, refinish, and conversion checks."
+  canonical="/vintage-fender-esquire-value-guide/"
+  ogImage="https://www.joesvintageguitarsaz.com/images/og/vintage-fender-esquire-value-guide.jpg"
+  ogImageAlt="1957 blonde Fender Esquire value guide from Joe's Vintage Guitars"
+  structuredData={structuredData}
+>
+  <PageHero
+    eyebrow="Value Guide"
+    title="Vintage Fender Esquire Value Guide"
+    subhead="Current Esquire values from 1950 to 1968, plus the evidence that separates a factory Esquire from a converted Telecaster."
+    subheadTag="p"
+    subheadHtml={true}
+    bgImage="/images/hero-background.jpg"
+  >
+    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
+    <Button slot="cta" href="/free-appraisal/" variant="cream" size="lg">Free Appraisal</Button>
+  </PageHero>
+
+  <main>
+    <section class="evg-section" aria-labelledby="overview-heading">
+      <div class="evg-inner evg-lead-grid">
+        <div>
+          <p class="evg-kicker">1950 to 1968 Price Guide</p>
+          <h2 id="overview-heading" class="evg-head">What Is a Vintage Fender Esquire Worth?</h2>
+          <div class="evg-rule" aria-hidden="true"></div>
+          <p class="evg-lede">
+            A vintage Esquire is not merely a Telecaster with one pickup removed. It is a factory model with its
+            own decal and wiring, built on the same basic Fender platform. The published excellent-original
+            ranges below run from about $7,000 to $56,500. The rarest 1950 examples require individual appraisal.
+          </p>
+          <div class="evg-answer">
+            <strong>Quick answer:</strong> An original Esquire is typically worth about 75% of a same-year,
+            same-color Telecaster. That relationship is only a starting point. The year, factory finish,
+            electronics, condition, case, provenance, and proof that it began life as an Esquire determine the
+            actual price.
+          </div>
+          <p class="evg-byline">
+            Last reviewed <time datetime="2026-09-21">September 21, 2026</time> by <a href="/about-me/">Joe Dampt</a>.
+          </p>
+        </div>
+        <figure class="evg-feature-figure">
+          <LicensedImage
+            src={esquire1957Front}
+            alt="Original 1957 Fender Esquire in blonde with a white pickguard, maple neck, bridge pickup, and bridge cover"
+            width={1400}
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+            sizes="(max-width: 860px) calc(100vw - 48px), 46vw"
+          />
+          <figcaption>
+            This 1957 blonde Esquire from Joe's archive shows the factory one-pickup layout, whiteguard body,
+            maple neck, and bridge cover.
+          </figcaption>
+        </figure>
+      </div>
+      <nav class="evg-inner evg-jump" aria-label="Esquire value guide sections">
+        <a href="#values">Values by Year</a>
+        <a href="#esquire-vs-telecaster">Esquire vs. Telecaster</a>
+        <a href="#specifications">Specifications by Era</a>
+        <a href="#wiring">Wiring and Switch</a>
+        <a href="#photos">Real Esquires</a>
+        <a href="#authentication">Authentication</a>
+        <a href="#value-factors">Value Factors</a>
+        <a href="#esquire-value-faqs">FAQs</a>
+      </nav>
+    </section>
+
+    <section id="values" class="evg-section evg-section--alt" aria-labelledby="values-heading">
+      <div class="evg-inner">
+        <h2 id="values-heading" class="evg-head">Vintage Fender Esquire Values by Year</h2>
+        <div class="evg-rule" aria-hidden="true"></div>
+        <p class="evg-note">
+          These ranges are for all-original guitars in excellent condition with the original case. A refinish,
+          changed electronics, added routes, repairs, or uncertain factory identity requires a separate appraisal.
+          Market reviewed September 2026.
+        </p>
+        <div class="evg-table-wrap">
+          <table class="evg-table">
+            <caption>Vintage Fender Esquire price ranges, 1950 to 1968</caption>
+            <thead>
+              <tr><th scope="col">Year or Era</th><th scope="col">Excellent, Original</th><th scope="col">Shared Year Details</th></tr>
+            </thead>
+            <tbody>
+              {prices.map((price) => (
+                <tr>
+                  <td><strong>{price.era}</strong><span>{price.note}</span></td>
+                  <td>{price.value}</td>
+                  <td><span class="evg-guide-links">{price.guides.map((guide) => <a href={guide.href}>{guide.label}</a>)}</span></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <aside class="evg-caution">
+          <strong>Custom colors:</strong> A verified factory color can be worth substantially more than blonde.
+          Custom colors from 1950 through 1952 are so rare that every non-blonde Esquire from this period should
+          be treated with suspicion until an experienced vintage Fender dealer authenticates the finish. Read the
+          <a href="/post/fender-custom-color-authentication-guide/">Fender custom-color authentication guide</a>.
+        </aside>
+      </div>
+    </section>
+
+    <section id="esquire-vs-telecaster" class="evg-section" aria-labelledby="comparison-heading">
+      <div class="evg-inner">
+        <h2 id="comparison-heading" class="evg-head">Esquire vs. Telecaster Value</h2>
+        <div class="evg-rule" aria-hidden="true"></div>
+        <div class="evg-copy-grid">
+          <article class="evg-card">
+            <h3>One Factory Pickup</h3>
+            <p>
+              The Esquire left Fender with one bridge pickup and an Esquire-specific control circuit. A Telecaster
+              with its neck pickup removed is still a modified Telecaster, even if it now has a blank pickguard.
+            </p>
+          </article>
+          <article class="evg-card">
+            <h3>The 75% Starting Point</h3>
+            <p>
+              For price-guide purposes, an original Esquire is typically about 75% of a comparable same-year,
+              same-color Telecaster. It is a practical relationship, not a substitute for inspecting the guitar.
+            </p>
+          </article>
+          <article class="evg-card">
+            <h3>Shared Dating Features</h3>
+            <p>
+              Esquires and Telecasters share most body, neck, bridge, tuner, pickguard, and serial-number changes.
+              Use the <a href="/vintage-fender-telecaster-value-guide/">Telecaster value hub</a> and its year guides
+              for the detailed specification checkpoints linked from the table.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="specifications" class="evg-section evg-section--alt" aria-labelledby="specifications-heading">
+      <div class="evg-inner">
+        <h2 id="specifications-heading" class="evg-head">Vintage Fender Esquire Specifications by Era</h2>
+        <div class="evg-rule" aria-hidden="true"></div>
+        <p>
+          Esquires follow most of the same construction changes as Telecasters, but the decal and control circuit
+          remain model-specific evidence. These broad checkpoints narrow the period before the internal dates and
+          parts are compared with the exact year guide.
+        </p>
+        <div class="evg-era-grid">
+          <article class="evg-era-card">
+            <p class="evg-era-years">1950 to mid-1954</p>
+            <h3>Blackguard and Maple Neck</h3>
+            <p>
+              Blonde finishes, black phenolic guards, one-piece maple necks, and blackguard-era bridge hardware
+              define the early look. Bridge-plate serial numbers and the earliest model details require especially
+              careful inspection.
+            </p>
+          </article>
+          <article class="evg-era-card">
+            <p class="evg-era-years">Late 1954 to mid-1958</p>
+            <h3>Whiteguard and String-Through Bridge</h3>
+            <p>
+              The whiteguard transition arrives while the maple neck and string-through-body bridge continue.
+              Guard material, saddles, tuners, dates, decal, and finish should all fit the claimed production year.
+            </p>
+          </article>
+          <article class="evg-era-card">
+            <p class="evg-era-years">Mid-1958 to 1962</p>
+            <h3>Top-Loader and Rosewood Changes</h3>
+            <p>
+              Top-loading bridges are associated mainly with mid-1958 through 1959, with documented overlap into
+              early 1960. Rosewood fingerboards appear during 1959, followed by the slab-to-veneer transition in 1962.
+            </p>
+          </article>
+          <article class="evg-era-card">
+            <p class="evg-era-years">1963 to 1968</p>
+            <h3>L-Series Through the CBS Period</h3>
+            <p>
+              Veneer rosewood boards, L-series plates, transition decals, F plates, and later CBS details create
+              distinct windows. The neck, serial plate, logo, hardware, and electronics must tell the same story.
+            </p>
+          </article>
+        </div>
+        <p class="evg-era-note">
+          For the exact hardware and dating checkpoints, use the linked
+          <a href="/vintage-fender-telecaster-value-guide/">Telecaster year guides</a>; the body platform changed
+          alongside the Esquire even though the pickup configuration and wiring differed.
+        </p>
+      </div>
+    </section>
+
+    <section id="wiring" class="evg-section" aria-labelledby="wiring-heading">
+      <div class="evg-inner">
+        <h2 id="wiring-heading" class="evg-head">How Vintage Fender Esquire Wiring Works</h2>
+        <div class="evg-rule" aria-hidden="true"></div>
+        <p>
+          The Esquire has one bridge pickup, but its three-way switch is not decorative. Fender used the switch to
+          select different electrical paths for that pickup. The exact capacitors, resistor, switch order, and tone
+          behavior evolved, so a 1965 assembly should not be judged against a 1951 diagram.
+        </p>
+        <div class="evg-switch-grid">
+          <article>
+            <h3>Normal Tone Circuit</h3>
+            <p>One setting commonly routes the bridge pickup through the volume and tone controls for the familiar adjustable Esquire sound.</p>
+          </article>
+          <article>
+            <h3>Brighter Direct Path</h3>
+            <p>Another common vintage setting bypasses the tone control for a brighter, more immediate bridge-pickup response.</p>
+          </article>
+          <article>
+            <h3>Preset Dark Tone</h3>
+            <p>Many vintage circuits use a capacitor network for a dark preset voice. The parts and values must match the guitar's period.</p>
+          </article>
+        </div>
+        <aside class="evg-caution">
+          <strong>Do not reflow old solder to make the circuit work before an appraisal.</strong> Original solder
+          joints and component relationships can be more important to value than whether every switch position is
+          currently noise-free.
+        </aside>
+        <div class="evg-photo-grid evg-photo-grid--evidence">
+          <figure class="evg-photo-card">
+            <LicensedImage
+              src={esquire1957Controls}
+              alt="1957 Fender Esquire three-way switch, cloth wiring, pots, resistor, and capacitor network"
+              width={1200}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 700px) calc(100vw - 36px), 50vw"
+            />
+            <figcaption>
+              <strong>1957 control assembly:</strong> The switch, capacitors, resistor, cloth wire, pots, and solder
+              joints should be photographed together before anything is disturbed.
+            </figcaption>
+          </figure>
+          <figure class="evg-photo-card">
+            <LicensedImage
+              src={esquire1965Controls}
+              alt="1965 Fender Esquire control cavity with three-way switch, cloth wire, capacitors, resistor, and dated potentiometers"
+              width={1200}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 700px) calc(100vw - 36px), 50vw"
+            />
+            <figcaption>
+              <strong>1965 control cavity:</strong> Later components and wiring must be evaluated against the 1965
+              production window, not blackguard-era specifications. This view documents the electronics; it does
+              not authenticate the red finish by itself.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="photos" class="evg-section evg-section--alt" aria-labelledby="photos-heading">
+      <div class="evg-inner">
+        <h2 id="photos-heading" class="evg-head">Real Vintage Esquires From Joe's Archive</h2>
+        <div class="evg-rule" aria-hidden="true"></div>
+        <p>
+          These photographs are useful visual checkpoints, but a photo never authenticates a guitar by itself.
+          Finish claims, dates, parts, and the factory one-pickup configuration still need to be examined together.
+        </p>
+        <div class="evg-photo-grid">
+          <figure class="evg-photo-card">
+            <LicensedImage
+              src={esquire1957Front}
+              alt="1957 blonde Fender Esquire full front from Joe's Vintage Guitars archive"
+              width={1100}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 760px) calc(100vw - 36px), 50vw"
+            />
+            <figcaption><strong>1957 blonde Esquire:</strong> Factory one-pickup layout, maple neck, white guard, and bridge cover.</figcaption>
+          </figure>
+          <figure class="evg-photo-card">
+            <LicensedImage
+              src={esquire1958Black}
+              alt="Refinished black 1958 Fender Esquire with white pickguard and maple neck from Joe's archive"
+              width={1100}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 760px) calc(100vw - 36px), 50vw"
+            />
+            <figcaption>
+              <strong>1958 black Esquire, refinished:</strong> This guitar has been refinished black. It is a useful
+              example of why a non-blonde finish must be authenticated from the finish, routes, neck pocket,
+              undercoat, aging, and internal evidence before any custom-color premium is applied.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="authentication" class="evg-section" aria-labelledby="authentication-heading">
+      <div class="evg-inner">
+        <h2 id="authentication-heading" class="evg-head">How to Authenticate a Factory Fender Esquire</h2>
+        <div class="evg-rule" aria-hidden="true"></div>
+        <div class="evg-copy-grid">
+          <article>
+            <h3>Do Not Judge by the Pickguard</h3>
+            <p>
+              A blank guard is easy to install. Look for a correct Esquire decal, age-consistent finish, the proper
+              wiring layout and parts, untouched solder, matching dates, and the absence of unexplained alteration.
+            </p>
+          </article>
+          <article>
+            <h3>A Neck-Pickup Route Is Not a Verdict</h3>
+            <p>
+              Many factory Esquire bodies have a neck-pickup route under the guard. Fender could use the same body
+              platform for both models, so the route alone neither proves nor disproves factory Esquire identity.
+            </p>
+          </article>
+          <article>
+            <h3>Make Every Date Agree</h3>
+            <p>
+              Compare the serial number, neck and body dates, pot codes, pickup construction, logo, bridge, tuners,
+              pickguard, and finish. Start with the <a href="/fender-guitars-serial-number-guide/">Fender serial-number guide</a>
+              and the <a href="/fender-telecaster-dating-guide/">Telecaster and Esquire dating guide</a>.
+            </p>
+          </article>
+        </div>
+        <div class="evg-auth-checks" aria-label="Factory Esquire authentication checklist">
+          <article><strong>Model clues</strong><span>Correct Esquire decal and one-pickup hardware, while remembering that both can be replaced.</span></article>
+          <article><strong>Date agreement</strong><span>Serial window, neck date, body markings, pot codes, and pickup construction should be plausible together.</span></article>
+          <article><strong>Original circuit</strong><span>Period-correct switch, capacitors, resistor, cloth wire, pots, and solder relationships matter.</span></article>
+          <article><strong>Finish evidence</strong><span>Neck pocket, cavities, wear, undercoat, nail holes, and color layers help separate factory finish from refinish.</span></article>
+        </div>
+
+        <div class="evg-route-study">
+          <figure class="evg-photo-card evg-photo-card--contain">
+            <LicensedImage
+              src={esquire1965Route}
+              alt="1965 Fender Esquire with pickguard removed showing factory-style neck pickup and wiring routes"
+              width={900}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 700px) calc(100vw - 36px), 42vw"
+            />
+            <figcaption>
+              A 1965 archive example with the guard removed shows a neck-pickup route even though the Esquire uses
+              only a bridge pickup. The photograph explains construction; it does not authenticate the red finish.
+            </figcaption>
+          </figure>
+          <div>
+            <p class="evg-kicker">A Frequently Misread Detail</p>
+            <h3>Why a Neck-Pickup Route Can Be Correct</h3>
+            <p>
+              Fender could prepare the same basic body platform for either an Esquire or a Telecaster. Finding an
+              unused neck-pickup route under a blank guard therefore does not automatically mean someone removed a
+              Telecaster pickup.
+            </p>
+            <p>
+              The route must be read with the decal, original circuit, solder, screw holes, finish, dates, and
+              provenance. An added route, disturbed wiring, or unexplained extra holes can still indicate a
+              conversion or later modification.
+            </p>
+          </div>
+        </div>
+
+        <div class="evg-case-study">
+          <p class="evg-kicker">One Guitar, Multiple Checkpoints</p>
+          <h3>1957 Fender Esquire Authentication Case Study</h3>
+          <p>
+            No single photograph proves the year or factory model. On this 1957 blonde Esquire, the model decal,
+            April neck date, body-pocket markings, serial plate, wiring, hardware, and finish can be evaluated as
+            one evidence trail. That agreement is what makes an attribution persuasive.
+          </p>
+          <div class="evg-auth-photo-grid">
+            <figure class="evg-photo-card">
+              <LicensedImage
+                src={esquire1957Headstock}
+                alt="1957 Fender Esquire maple headstock with original-style Esquire model decal"
+                width={900}
+                loading="lazy"
+                decoding="async"
+                sizes="(max-width: 700px) calc(100vw - 36px), 25vw"
+              />
+              <figcaption><strong>Model decal:</strong> The Esquire decal is an important clue, but decals can be replaced and must agree with the rest of the guitar.</figcaption>
+            </figure>
+            <figure class="evg-photo-card">
+              <LicensedImage
+                src={esquire1957NeckDate}
+                alt="1957 Fender Esquire neck heel pencil dated 4-57 for April 1957"
+                width={900}
+                loading="lazy"
+                decoding="async"
+                sizes="(max-width: 700px) calc(100vw - 36px), 25vw"
+              />
+              <figcaption><strong>Neck date:</strong> The pencil date reads 4-57, an April 1957 checkpoint that should align with the other dated parts.</figcaption>
+            </figure>
+            <figure class="evg-photo-card">
+              <LicensedImage
+                src={esquire1957NeckPocket}
+                alt="1957 Fender Esquire neck pocket with factory pencil and inspection markings"
+                width={900}
+                loading="lazy"
+                decoding="async"
+                sizes="(max-width: 700px) calc(100vw - 36px), 25vw"
+              />
+              <figcaption><strong>Body evidence:</strong> Pocket markings, tooling, exposed wood, and finish boundaries help document construction and later work.</figcaption>
+            </figure>
+            <figure class="evg-photo-card">
+              <LicensedImage
+                src={esquire1957Plate}
+                alt="1957 Fender Esquire neck plate stamped with five-digit serial number 22369"
+                width={900}
+                loading="lazy"
+                decoding="async"
+                sizes="(max-width: 700px) calc(100vw - 36px), 25vw"
+              />
+              <figcaption><strong>Serial plate:</strong> The five-digit number provides a production window, not an exact build date by itself.</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="evg-conversion-wrap">
+          <div class="evg-conversion-note">
+            <p class="evg-kicker">Conversion Warning</p>
+            <h3>A Converted Telecaster Is Not a Factory Esquire</h3>
+            <p>
+              Removing a neck pickup, installing a blank guard, or rewiring the switch can create a convincing
+              Esquire-style guitar. It does not change the guitar's factory model. A conversion should be described
+              and priced as the underlying Telecaster with its modifications, not from the Esquire table above.
+            </p>
+            <p>
+              If the model identity is uncertain, begin with exterior photographs. Do not disturb old solder or
+              remove the neck simply to satisfy a listing description.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="value-factors" class="evg-section evg-section--alt" aria-labelledby="factors-heading">
+      <div class="evg-inner">
+        <h2 id="factors-heading" class="evg-head">What Changes a Vintage Esquire's Value?</h2>
+        <div class="evg-rule" aria-hidden="true"></div>
+        <div class="evg-copy-grid">
+          {valueFactors.map((factor) => (
+            <article class="evg-card">
+              <h3>{factor.title}</h3>
+              <p>{factor.body}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="evg-section" aria-labelledby="appraisal-heading">
+      <div class="evg-inner evg-appraisal-grid">
+        <div>
+          <h2 id="appraisal-heading" class="evg-head">Photos for an Esquire Appraisal</h2>
+          <div class="evg-rule" aria-hidden="true"></div>
+          <ul class="evg-checklist">
+            <li>Full front and full back of the guitar</li>
+            <li>Front and back of the headstock, including the Esquire decal</li>
+            <li>Bridge, pickup, saddles, control plate, and pickguard</li>
+            <li>Serial number on the bridge plate or neck plate</li>
+            <li>Clear views of wear, repairs, extra holes, or finish damage</li>
+            <li>Original case, receipts, owner photographs, and other provenance</li>
+            <li>Any internal dates or parts already documented by a qualified repairer</li>
+          </ul>
+        </div>
+        <aside class="evg-cta-card">
+          <p class="evg-kicker">Know What You Have</p>
+          <h3>Get a Free Esquire Appraisal</h3>
+          <p>
+            Send the photos you already have. I can identify the next details that matter and give you a realistic
+            range before you decide whether to keep, insure, consign, or sell the guitar.
+          </p>
+          <Button href="/free-appraisal/" variant="rust" size="lg">Request a Free Appraisal</Button>
+          <a class="evg-phone" href={hrefs.tel}>Call or text {contact.phone}</a>
+          <a class="evg-phone" href="/sell-my-fender-guitar/">Sell a vintage Fender directly to Joe</a>
+        </aside>
+      </div>
+    </section>
+
+    <FAQ
+      faqs={faqs}
+      mainTitle="FAQs:"
+      subTitle="Vintage Fender Esquire Values"
+      sectionId="esquire-value-faqs"
+      headingLevel="h2"
+      openFirst={true}
+    />
+  </main>
+  <ContactSection />
+</Layout>
+
+<style>
+  .evg-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
+  .evg-section { padding: 64px 0; background: #fff; scroll-margin-top: 92px; }
+  .evg-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
+  .evg-head { margin: 0; color: var(--color-brand-rust-dark); font: 700 clamp(28px, 3.4vw, 42px)/1.15 var(--font-display); }
+  .evg-rule { width: 80px; height: 3px; margin: 14px 0 22px; background: var(--color-brand-rust); }
+  .evg-section p,
+  .evg-section li { color: var(--color-brand-charcoal); font: 16px/1.72 var(--font-sans); }
+  .evg-section p { max-width: 900px; margin: 0 0 16px; }
+  .evg-section a { color: var(--color-brand-rust); font-weight: 600; text-decoration: underline; }
+  .evg-section a:hover { color: var(--color-brand-rust-bright); }
+  .evg-kicker { margin: 0 0 8px !important; color: var(--color-brand-rust) !important; font: 700 14px/1.3 var(--font-display) !important; letter-spacing: .09em; text-transform: uppercase; }
+  .evg-lede { font-size: 18px !important; }
+  .evg-byline { margin-top: 18px !important; font-size: 14px !important; }
+  .evg-note { font-style: italic; }
+  .evg-lead-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(360px, .95fr); gap: 44px; align-items: center; }
+  .evg-answer,
+  .evg-caution { margin-top: 22px; padding: 20px 22px; border-left: 5px solid var(--color-brand-rust-bright); background: var(--color-brand-cream-light, #f9f1de); color: var(--color-brand-charcoal); font: 16px/1.65 var(--font-sans); }
+  .evg-section--alt .evg-caution { background: #fff; }
+  .evg-feature-figure,
+  .evg-photo-card { margin: 0; overflow: hidden; background: #fff; box-shadow: 0 8px 28px rgba(62, 42, 20, .14); }
+  .evg-feature-figure img,
+  .evg-photo-card img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+  .evg-photo-card--contain img { aspect-ratio: 1 / 1; object-fit: contain; background: #eee7d8; }
+  .evg-feature-figure figcaption,
+  .evg-photo-card figcaption { padding: 13px 16px 15px; border-top: 1px solid rgba(62, 42, 20, .12); color: var(--color-brand-charcoal); font: 14px/1.55 var(--font-sans); }
+  .evg-jump { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 38px; }
+  .evg-jump a { display: inline-flex; align-items: center; min-height: 42px; padding: 8px 14px; border: 1px solid rgba(104, 36, 18, .28); border-radius: 999px; background: #fff; font: 14px/1.3 var(--font-sans); text-decoration: none; }
+  .evg-jump a:hover { background: var(--color-brand-cream-light, #f9f1de); }
+  .evg-table-wrap { margin-top: 26px; overflow-x: auto; box-shadow: 0 6px 20px rgba(0, 0, 0, .07); }
+  .evg-table { width: 100%; border-collapse: collapse; table-layout: fixed; background: #fff; font-family: var(--font-sans); }
+  .evg-table caption { padding: 14px 18px; background: var(--color-brand-cream, #eee0c5); color: var(--color-brand-rust-dark); font: 700 17px/1.35 var(--font-display); text-align: left; }
+  .evg-table th,
+  .evg-table td { padding: 13px 18px; border-bottom: 1px solid rgba(62, 42, 20, .12); color: var(--color-brand-charcoal); font-size: 15px; line-height: 1.5; text-align: left; vertical-align: top; }
+  .evg-table th { background: var(--color-brand-rust-dark); color: #fff; font: 700 14px/1.35 var(--font-display); letter-spacing: .04em; text-transform: uppercase; }
+  .evg-table th:first-child,
+  .evg-table td:first-child { width: 37%; }
+  .evg-table th:nth-child(2),
+  .evg-table td:nth-child(2) { width: 25%; font-weight: 700; color: var(--color-brand-rust-dark); }
+  .evg-table th:last-child,
+  .evg-table td:last-child { width: 38%; }
+  .evg-table td:first-child span { display: block; margin-top: 5px; color: var(--color-brand-charcoal); font-size: 13px; font-weight: 400; }
+  .evg-table tbody tr:nth-child(odd) { background: var(--color-brand-cream-light, #f9f1de); }
+  .evg-guide-links { display: flex; flex-wrap: wrap; gap: 7px 12px; }
+  .evg-copy-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 26px; }
+  .evg-era-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 28px; }
+  .evg-era-card { padding: 24px; border-left: 5px solid var(--color-brand-rust-bright); background: #fff; }
+  .evg-era-years { margin: 0 0 6px !important; color: var(--color-brand-rust) !important; font: 700 13px/1.3 var(--font-display) !important; letter-spacing: .08em; text-transform: uppercase; }
+  .evg-era-card h3,
+  .evg-switch-grid h3,
+  .evg-route-study h3,
+  .evg-case-study h3 { margin: 0 0 10px; color: var(--color-brand-rust-dark); font: 700 22px/1.2 var(--font-display); }
+  .evg-era-card p:last-child { margin-bottom: 0; font-size: 15px; }
+  .evg-era-note { margin-top: 22px !important; }
+  .evg-switch-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 28px; }
+  .evg-switch-grid article { padding: 21px; border-top: 4px solid var(--color-brand-rust-bright); background: var(--color-brand-cream-light, #f9f1de); }
+  .evg-switch-grid p { margin: 0; font-size: 15px; }
+  .evg-card { padding: 22px 24px; border-top: 4px solid var(--color-brand-rust-bright); background: var(--color-brand-cream-light, #f9f1de); }
+  .evg-section--alt .evg-card { background: #fff; }
+  .evg-card h3,
+  .evg-copy-grid h3,
+  .evg-conversion-note h3,
+  .evg-cta-card h3 { margin: 0 0 10px; color: var(--color-brand-rust-dark); font: 700 21px/1.2 var(--font-display); }
+  .evg-card p,
+  .evg-copy-grid p { margin: 0; font-size: 15px; }
+  .evg-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 28px; }
+  .evg-photo-grid--evidence { align-items: stretch; }
+  .evg-auth-checks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 26px; }
+  .evg-auth-checks article { display: grid; gap: 5px; padding: 18px 20px; border: 1px solid rgba(104, 36, 18, .2); background: var(--color-brand-cream-light, #f9f1de); color: var(--color-brand-charcoal); font: 15px/1.55 var(--font-sans); }
+  .evg-auth-checks strong { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 18px; }
+  .evg-route-study { display: grid; grid-template-columns: minmax(320px, .85fr) minmax(0, 1.15fr); gap: 34px; align-items: center; margin-top: 34px; }
+  .evg-route-study p:last-child { margin-bottom: 0; }
+  .evg-case-study { margin-top: 42px; padding: 30px; background: var(--color-brand-cream-light, #f9f1de); }
+  .evg-case-study > p:not(.evg-kicker) { max-width: 930px; }
+  .evg-auth-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 24px; }
+  .evg-conversion-wrap { margin-top: 30px; }
+  .evg-conversion-note { padding: 28px; border-top: 5px solid var(--color-brand-rust-bright); background: var(--color-brand-cream-light, #f9f1de); }
+  .evg-appraisal-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(320px, .8fr); gap: 52px; align-items: start; }
+  .evg-checklist { margin: 22px 0 0; padding: 0; list-style: none; }
+  .evg-checklist li { position: relative; margin: 0; padding: 10px 0 10px 34px; border-bottom: 1px solid rgba(62, 42, 20, .12); }
+  .evg-checklist li::before { position: absolute; top: 10px; left: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--color-brand-rust-bright); color: #fff; content: "✓"; font-size: 14px; font-weight: 800; line-height: 22px; text-align: center; }
+  .evg-cta-card { padding: 30px; border-top: 5px solid var(--color-brand-rust-bright); background: #fff; box-shadow: 0 8px 28px rgba(62, 42, 20, .14); }
+  .evg-cta-card h3 { font-size: 30px; }
+  .evg-cta-card :global(.jvg-btn) { margin-top: 8px; }
+  .evg-section .evg-cta-card :global(.jvg-btn--rust) { color: #fff; text-decoration: none; }
+  .evg-phone { display: block; margin-top: 18px; }
+
+  @media (max-width: 920px) {
+    .evg-lead-grid,
+    .evg-appraisal-grid { grid-template-columns: 1fr; }
+    .evg-copy-grid,
+    .evg-switch-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .evg-feature-figure { max-width: 720px; }
+  }
+
+  @media (max-width: 700px) {
+    .evg-inner { padding: 0 18px; }
+    .evg-section { padding: 48px 0; }
+    .evg-lead-grid { gap: 28px; }
+    .evg-jump { margin-top: 28px; }
+    .evg-copy-grid,
+    .evg-era-grid,
+    .evg-switch-grid,
+    .evg-photo-grid,
+    .evg-auth-checks,
+    .evg-route-study,
+    .evg-auth-photo-grid { grid-template-columns: 1fr; }
+    .evg-case-study { padding: 24px 18px; }
+    .evg-table-wrap { margin-right: -18px; margin-left: -18px; }
+    .evg-table th,
+    .evg-table td { padding: 11px 10px; overflow-wrap: anywhere; }
+    .evg-table th:first-child,
+    .evg-table td:first-child { width: 37%; }
+    .evg-table th:nth-child(2),
+    .evg-table td:nth-child(2) { width: 27%; }
+    .evg-table th:last-child,
+    .evg-table td:last-child { width: 36%; }
+    .evg-guide-links { gap: 8px; }
+    .evg-cta-card { padding: 24px; }
+  }
+</style>

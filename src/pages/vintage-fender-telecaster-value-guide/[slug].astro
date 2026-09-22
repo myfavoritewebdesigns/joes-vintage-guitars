@@ -5,107 +5,137 @@ import Button from "../../components/primitives/Button.astro";
 import LicensedImage from "../../components/primitives/LicensedImage.astro";
 import FAQ from "../../components/FAQ.astro";
 import ContactSection from "../../components/ContactSection.astro";
-import { contact, hrefs } from "../../config/site";
+import { contact, hrefs, SITE_URL } from "../../config/site";
 import {
-  stratocasterYearGuides,
-  type StratocasterYearGuide,
-} from "../../data/stratocasterValueYears";
+  telecasterValueGuides,
+  type TelecasterValueGuide,
+} from "../../data/telecasterValueGuides";
 
 export function getStaticPaths() {
-  return stratocasterYearGuides.map((guide) => ({
-    params: { year: guide.year },
+  return telecasterValueGuides.map((guide) => ({
+    params: { slug: guide.slug },
     props: { guide },
   }));
 }
 
 interface Props {
-  guide: StratocasterYearGuide;
+  guide: TelecasterValueGuide;
 }
 
 const { guide } = Astro.props;
-const guideIndex = stratocasterYearGuides.findIndex((entry) => entry.year === guide.year);
-const previousGuide = stratocasterYearGuides[guideIndex - 1];
-const nextGuide = stratocasterYearGuides[guideIndex + 1];
-const canonicalPath = `/vintage-fender-stratocaster-value-guide/${guide.year}/`;
-const canonicalUrl = `https://www.joesvintageguitarsaz.com${canonicalPath}`;
-const articleImage = "https://www.joesvintageguitarsaz.com/images/og/vintage-fender-stratocaster-value-guide-v2.png";
-const articleDescription = guide.metaDescription;
+const guideIndex = telecasterValueGuides.findIndex((entry) => entry.slug === guide.slug);
+const previousGuide = telecasterValueGuides[guideIndex - 1];
+const nextGuide = telecasterValueGuides[guideIndex + 1];
+const comparison = guide.comparison;
+const displayName = `${guide.year} ${guide.name}`;
+const proseYear = guide.slug === "1966-1968" ? "1966 to 1968" : guide.year;
+const proseName = `${proseYear} ${guide.name}`;
+const canonicalPath = `/vintage-fender-telecaster-value-guide/${guide.slug}/`;
+const canonicalUrl = `${SITE_URL}${canonicalPath}`;
+const articleImage = `${SITE_URL}/images/og/vintage-fender-telecaster-value-guide.jpg`;
+const matchingStratYear = /^(195[4-9]|196[0-5])$/.test(guide.slug) ? guide.slug : null;
 
 const conditionBands = [
-  { condition: "Excellent and all original", value: guide.standardRange, note: "The headline sunburst range, assuming the original case and a coherent, authenticated guitar." },
-  { condition: "Very good and largely original", value: guide.veryGoodRange, note: "About 75% to 90% of the excellent range. Honest play wear, normal checking, or a professional refret can fit here when the finish and major parts remain original." },
-  { condition: "Professional refinish", value: guide.refinishRange, note: "Often about 45% to 60% of a comparable original. The exact result depends on the remaining parts, quality of the work, and whether the body has been altered." },
-  { condition: "Major parts mismatch", value: "Value component by component", note: "A replacement neck or body, extra routes, mixed-year parts, or uncertain provenance prevents a reliable whole-guitar comparison." },
+  {
+    condition: "Excellent and all original",
+    value: guide.standardRange,
+    note: `The headline ${guide.standardFinish} range, assuming the original case and a coherent, authenticated guitar.`,
+  },
+  {
+    condition: "Very good and largely original",
+    value: guide.veryGoodRange,
+    note: "About 75% to 90% of the excellent range. Honest play wear, normal checking, or a professional refret can fit here when the original finish and major parts remain intact.",
+  },
+  {
+    condition: "Professional refinish",
+    value: guide.refinishRange,
+    note: "About 45% to 60% of a comparable original. The remaining original parts, quality of the work, sanding, extra routes, and changed wood determine the final deduction.",
+  },
+  {
+    condition: "Major parts mismatch",
+    value: "Value component by component",
+    note: "A replacement neck or body, extra routes, mixed-year parts, or uncertain provenance prevents a dependable whole-guitar comparison.",
+  },
 ];
 
 const customColorAnswer = guide.customColorSummary
-  ?? `An authenticated original factory custom color can place a ${guide.year} Stratocaster around ${guide.customRange}. The premium depends on the exact color, condition, originality, and strength of the finish evidence. A later refinish does not receive the factory custom-color premium.`;
+  ?? `A verified original factory custom color can place a ${displayName} around ${guide.customRange}. The exact result depends on the color, condition, originality, and strength of the finish evidence. A later refinish does not receive the factory custom-color premium.`;
+
+const esquireAnswer = guide.esquireRange === "Individual appraisal required"
+  ? `An original ${proseYear} Fender Esquire should be appraised individually rather than assigned a fixed percentage of a ${guide.name}. Its exact production period, finish, condition, originality, and complete specification determine the value. See the <a href="/vintage-fender-esquire-value-guide/">vintage Fender Esquire value guide</a> for the authentication checkpoints.`
+  : `An original ${proseYear} Fender Esquire in the same color and equivalent condition is typically worth about ${guide.esquireRange}, roughly 75% of the same-year Telecaster range. The exact result still depends on originality and whether the one-pickup configuration remains intact. See the <a href="/vintage-fender-esquire-value-guide/">complete Esquire value guide</a>.`;
 
 const yearFaqs = [
   {
-    q: `How much is a ${guide.year} Fender Stratocaster worth?`,
+    q: `How much is a ${displayName} worth?`,
     a: guide.answer,
   },
   {
-    q: `What should I check before buying or selling a ${guide.year} Stratocaster?`,
-    a: `Confirm the neck, body, finish, electronics, hardware, and date evidence as a group. For ${guide.year}, start with this feature set: ${guide.marker}. No single feature proves the whole guitar is original.`,
+    q: `How can I identify a ${displayName}?`,
+    a: `Start with this year-specific checkpoint: ${guide.marker}. Then confirm the neck, body, finish, electronics, hardware, serial location, and date evidence as a group. No single feature proves that the complete guitar is original.`,
   },
   {
-    q: `Does a custom color make a ${guide.year} Stratocaster more valuable?`,
+    q: `Does a custom color make a ${displayName} more valuable?`,
     a: customColorAnswer,
+  },
+  {
+    q: `What is a ${proseYear} Fender Esquire worth?`,
+    a: esquireAnswer,
   },
 ];
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: yearFaqs.map((item) => ({
-    "@type": "Question",
-    name: item.q,
-    acceptedAnswer: { "@type": "Answer", text: item.a },
-  })),
-};
+if (comparison) {
+  yearFaqs.splice(2, 0, comparison.faq);
+}
 
 const structuredData = [
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
-      { "@type": "ListItem", position: 2, name: "Vintage Fender Stratocaster Value Guide", item: "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/" },
-      { "@type": "ListItem", position: 3, name: guide.year, item: canonicalUrl },
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Vintage Fender Telecaster Value Guide", item: `${SITE_URL}/vintage-fender-telecaster-value-guide/` },
+      { "@type": "ListItem", position: 3, name: guide.navLabel, item: canonicalUrl },
     ],
   },
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: `${guide.year} Fender Stratocaster Value Guide`,
-    description: articleDescription,
+    headline: `${displayName} Value Guide`,
+    description: guide.metaDescription,
     image: articleImage,
-    datePublished: "2026-09-18",
-    dateModified: "2026-09-18",
+    datePublished: "2026-09-21",
+    dateModified: "2026-09-21",
     inLanguage: "en-US",
-    author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
-    publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
+    author: { "@id": `${SITE_URL}/about-me/#person` },
+    publisher: { "@id": `${SITE_URL}/` },
     mainEntityOfPage: canonicalUrl,
-    about: { "@type": "Thing", name: `${guide.year} Fender Stratocaster` },
+    about: { "@type": "Thing", name: displayName },
   },
-  faqSchema,
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: yearFaqs.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  },
 ];
 ---
 
 <Layout
-  title={`${guide.year} Fender Stratocaster Value Guide: Price & Specs`}
-  description={articleDescription}
+  title={`${displayName} Value Guide: Price & Specs`}
+  description={guide.metaDescription}
   canonical={canonicalPath}
   ogImage={articleImage}
-  ogImageAlt={`Vintage ${guide.year} Fender Stratocaster value guide`}
+  ogImageAlt={`${displayName} value guide`}
   structuredData={structuredData}
 >
   <PageHero
     eyebrow={`Value Guide / ${guide.year}`}
-    title={`${guide.year} Fender Stratocaster Value Guide`}
-    subhead={`Current values, factory features, and the evidence that separates a real ${guide.year} Stratocaster from a mixed or modified guitar.`}
+    title={`${displayName} Value Guide`}
+    subhead={`Current values, factory features, and the evidence that separates a real ${displayName} from a mixed or modified guitar.`}
     subheadTag="p"
     bgImage="/images/hero-background.jpg"
   >
@@ -118,7 +148,7 @@ const structuredData = [
       <div class="yv-inner yv-lead-grid">
         <div>
           <p class="yv-eyebrow">The short answer</p>
-          <h2>What Is a {guide.year} Fender Stratocaster Worth?</h2>
+          <h2>What Is a {displayName} Worth?</h2>
           <div class="yv-rule" aria-hidden="true"></div>
           <p class="yv-lede">{guide.answer}</p>
           <p>{guide.intro}</p>
@@ -126,7 +156,7 @@ const structuredData = [
           <div class="yv-byline">
             <strong>Written and reviewed by <a href="/about-me/">Joe Dampt</a></strong>
             <span>Vintage guitar appraiser and buyer, with 10,000+ instruments personally appraised</span>
-            <span>Published and reviewed September 18, 2026</span>
+            <span>Published and reviewed September 21, 2026</span>
           </div>
         </div>
         <figure class="yv-feature">
@@ -147,14 +177,14 @@ const structuredData = [
     <section class="yv-section yv-section--alt" id="values">
       <div class="yv-inner">
         <p class="yv-eyebrow">2026 market estimate</p>
-        <h2>{guide.year} Stratocaster Values by Condition</h2>
+        <h2>{guide.navLabel} Values by Condition</h2>
         <div class="yv-rule" aria-hidden="true"></div>
         <p class="yv-intro">
           Start with the correct range, then adjust for what is actually present. These are retail-value estimates,
-          not automatic cash offers or insurance replacement values. They assume a sunburst guitar unless the custom-color range is stated.
+          not automatic cash offers or insurance replacement values. The headline range assumes a {guide.standardFinish} example unless a custom-color range is stated.
         </p>
         {guide.subRanges && (
-          <div class="yv-subranges" aria-label={`${guide.year} Stratocaster specification sub-ranges`}>
+          <div class="yv-subranges" aria-label={`${guide.navLabel} specification sub-ranges`}>
             {guide.subRanges.map((band) => (
               <article>
                 <h3>{band.label}</h3>
@@ -164,9 +194,53 @@ const structuredData = [
             ))}
           </div>
         )}
-        <div class="yv-table-wrap" tabindex="0" aria-label={`${guide.year} Fender Stratocaster values by condition`}>
+        {comparison && (
+          <section class="yv-comparison" aria-labelledby={`${guide.slug}-comparison-heading`}>
+            <h3 id={`${guide.slug}-comparison-heading`}>{comparison.title}</h3>
+            <p>{comparison.intro}</p>
+            <div class="yv-comparison-photos">
+              {[comparison.left, comparison.right].map((side) => (
+                <figure>
+                  <LicensedImage
+                    src={side.image}
+                    alt={side.alt}
+                    width={800}
+                    loading="lazy"
+                    decoding="async"
+                    sizes="(max-width: 700px) 100vw, 50vw"
+                  />
+                  <figcaption><strong>{side.label}:</strong> {side.caption}</figcaption>
+                </figure>
+              ))}
+            </div>
+            <div class="yv-table-wrap yv-comparison-table-wrap" tabindex="0" aria-label={`${guide.navLabel} blackguard and whiteguard comparison`}>
+              <table class="yv-table yv-comparison-table">
+                <caption>Side-by-side 1954 Telecaster specification and value comparison</caption>
+                <thead>
+                  <tr>
+                    <th>Detail</th>
+                    <th>{comparison.left.label}</th>
+                    <th>{comparison.right.label}</th>
+                    <th>What to verify</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {comparison.rows.map((row) => (
+                    <tr>
+                      <th scope="row">{row.feature}</th>
+                      <td data-label={comparison.left.label}>{row.left}</td>
+                      <td data-label={comparison.right.label}>{row.right}</td>
+                      <td data-label="What to verify">{row.verification}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
+        <div class="yv-table-wrap" tabindex="0" aria-label={`${displayName} values by condition`}>
           <table class="yv-table">
-            <caption>Estimated 2026 values and adjustments for a {guide.year} Fender Stratocaster</caption>
+            <caption>Estimated 2026 values and adjustments for a {displayName}</caption>
             <thead>
               <tr><th>Condition and originality</th><th>Estimated value</th><th>How to use it</th></tr>
             </thead>
@@ -182,8 +256,8 @@ const structuredData = [
           </table>
         </div>
         <aside class="yv-callout">
-          <strong>Original factory custom colors are generally worth more than the standard sunburst finish when the paint is authentic.</strong>{" "}
-          {guide.customColorSummary ?? `For ${guide.year}, the current custom-color estimate is ${guide.customRange}; it is not a fixed multiplier. Finish authentication, color scarcity, condition, and the rest of the guitar still control the result.`}{" "}
+          <strong>{guide.customColorHeading ?? "Authenticated original factory custom colors are worth more than standard blonde when the paint is original."}</strong>{" "}
+          {customColorAnswer}{" "}
           <a href="/post/fender-custom-color-authentication-guide/">Read the Fender custom-color authentication guide</a> before applying a premium.
         </aside>
       </div>
@@ -192,11 +266,11 @@ const structuredData = [
     <section class="yv-section" id="features">
       <div class="yv-inner">
         <p class="yv-eyebrow">Year-specific evidence</p>
-        <h2>How to Identify a {guide.year} Stratocaster</h2>
+        <h2>How to Identify a {displayName}</h2>
         <div class="yv-rule" aria-hidden="true"></div>
         <p class="yv-intro">
-          The fastest visual starting point for this year is <strong>{guide.marker}</strong>.
-          That narrows the window; it does not authenticate the guitar by itself. The strongest conclusion comes from several independent details agreeing.
+          Start with this year-specific visual checkpoint: <strong>{guide.marker}</strong>.
+          That narrows the production window; it does not authenticate the guitar by itself. The strongest conclusion comes from several independent details agreeing.
         </p>
         <div class="yv-card-grid">
           {guide.features.map((feature) => (
@@ -207,9 +281,9 @@ const structuredData = [
           ))}
         </div>
         <p class="yv-more">
-          For the full chronology, use the <a href="/fender-stratocaster-dating-guide/">Fender Stratocaster dating guide</a>.
-          Then compare component codes with the <a href="/fender-guitars-serial-number-guide/">Fender serial number guide</a>,{" "}
-          <a href="/fender-neck-dates/">neck-date guide</a>, and <a href="/fender-pot-codes/">pot-code guide</a>.
+          For the full chronology, use the <a href="/fender-telecaster-dating-guide/">Fender Telecaster dating guide</a>.
+          Then compare component evidence with the <a href="/fender-guitars-serial-number-guide/">Fender serial number guide</a>,{" "}
+          <a href="/fender-neck-dates/">neck-date guide</a>, <a href="/fender-pickup-dates/">pickup-date guide</a>, and <a href="/fender-pot-codes/">pot-code guide</a>.
         </p>
       </div>
     </section>
@@ -229,14 +303,14 @@ const structuredData = [
         </figure>
         <div>
           <p class="yv-eyebrow">Before you set a price</p>
-          <h2>Three Checks That Matter for {guide.year}</h2>
+          <h2>Three Checks That Matter When Appraising a {proseName}</h2>
           <div class="yv-rule" aria-hidden="true"></div>
           <ol class="yv-checks">
             {guide.checks.map((check) => <li>{check}</li>)}
           </ol>
           <p>
-            Do not remove a neck or loaded pickguard unless you know how to do it safely. Clear photos of the front,
-            back, headstock, neck plate, case, and any visible repairs are enough to begin a <a href="/free-appraisal/">free appraisal</a>.
+            Do not remove a neck, pickup, bridge, or pickguard unless you know how to do it safely. Clear photos of the front,
+            back, headstock, serial, case, and any visible repairs are enough to begin a <a href="/free-appraisal/">free appraisal</a>.
           </p>
         </div>
       </div>
@@ -245,19 +319,23 @@ const structuredData = [
     <section class="yv-section" id="example">
       <div class="yv-inner yv-narrow">
         <p class="yv-eyebrow">Worked example</p>
-        <h2>How I Would Appraise a {guide.year} Stratocaster</h2>
+        <h2>How I Would Appraise a {displayName}</h2>
         <div class="yv-rule" aria-hidden="true"></div>
         <p class="yv-lede">{guide.appraisalExample}</p>
         <p>
           This is an illustrative appraisal using the real guitars and details pictured on this site, not a claimed public sale record.
-          I first place the guitar in the correct year and finish range, then adjust for originality, condition, repairs, case, and provenance.
-          Asking prices can show seller expectations, but completed comparable sales and firsthand inspection carry more weight.
+          I first place the guitar in the correct model, year, finish, and specification, then adjust for originality, condition, repairs, case, and provenance.
         </p>
         <p>
-          The method is intentionally conservative: unusual artist ownership and auction outliers do not set the baseline for an ordinary guitar.
-          Read the full <a href="/vintage-fender-stratocaster-value-guide/#methodology">valuation methodology</a> and{" "}
-          <a href="/vintage-fender-stratocaster-value-guide/#deductions">deduction guide</a> before applying a headline number.
-          You can also compare the same year's <a href={`/vintage-fender-telecaster-value-guide/${guide.year}/`}>{guide.year} Fender Telecaster value guide</a>.
+          Asking prices can show seller expectations, but completed comparable sales and firsthand inspection carry more weight.
+          Read the main <a href="/vintage-fender-telecaster-value-guide/#values">Telecaster price table</a> and{" "}
+          <a href="/vintage-fender-telecaster-value-guide/#changes-heading">change-and-deduction guide</a> before applying a headline number.
+        </p>
+        <p>
+          Selling a {guide.navLabel}? See how to <a href="/sell-my-fender-guitar/">sell a vintage Fender directly to Joe</a>.
+          {matchingStratYear && (
+            <> You can also compare the same year's <a href={`/vintage-fender-stratocaster-value-guide/${matchingStratYear}/`}>{matchingStratYear} Fender Stratocaster value guide</a>.</>
+          )}
         </p>
       </div>
     </section>
@@ -266,7 +344,7 @@ const structuredData = [
       <section class="yv-section yv-section--alt" id="related-reading">
         <div class="yv-inner yv-narrow">
           <p class="yv-eyebrow">See the evidence on a real guitar</p>
-          <h2>Related {guide.year} Stratocaster Guides</h2>
+          <h2>Related {guide.navLabel} Guides</h2>
           <div class="yv-rule" aria-hidden="true"></div>
           <div class="yv-related-grid">
             {guide.relatedGuides.map((related) => (
@@ -282,22 +360,22 @@ const structuredData = [
 
     <section class="yv-section yv-section--dark" aria-labelledby="related-year-heading">
       <div class="yv-inner">
-        <h2 id="related-year-heading">Compare Nearby Stratocaster Years</h2>
+        <h2 id="related-year-heading">Compare Nearby Telecaster Guides</h2>
         <div class="yv-year-nav">
           {previousGuide && (
-            <a href={`/vintage-fender-stratocaster-value-guide/${previousGuide.year}/`}>
-              <span>Previous year</span>
-              <strong>{previousGuide.year} Stratocaster guide</strong>
+            <a href={`/vintage-fender-telecaster-value-guide/${previousGuide.slug}/`}>
+              <span>Previous guide</span>
+              <strong>{previousGuide.navLabel} value guide</strong>
             </a>
           )}
-          <a href="/vintage-fender-stratocaster-value-guide/">
+          <a href="/vintage-fender-telecaster-value-guide/">
             <span>All years</span>
-            <strong>1954 to 1965 value guide</strong>
+            <strong>1950 to 1968 value guide</strong>
           </a>
           {nextGuide && (
-            <a href={`/vintage-fender-stratocaster-value-guide/${nextGuide.year}/`}>
-              <span>Next year</span>
-              <strong>{nextGuide.year} Stratocaster guide</strong>
+            <a href={`/vintage-fender-telecaster-value-guide/${nextGuide.slug}/`}>
+              <span>Next guide</span>
+              <strong>{nextGuide.navLabel} value guide</strong>
             </a>
           )}
         </div>
@@ -307,8 +385,8 @@ const structuredData = [
     <FAQ
       faqs={yearFaqs}
       mainTitle="FAQs:"
-      subTitle={`${guide.year} Stratocaster Values`}
-      sectionId={`${guide.year}-stratocaster-value-faqs`}
+      subTitle={`${guide.navLabel} Values`}
+      sectionId={`${guide.slug}-telecaster-value-faqs`}
       headingLevel="h2"
     />
   </div>
@@ -320,7 +398,7 @@ const structuredData = [
   .yv-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
   :global(.jvgft__menu--sell a) { color: #2a2d33 !important; }
   .yv-narrow { max-width: 920px; }
-  .yv-section { padding: 64px 0; background: #fff; }
+  .yv-section { padding: 64px 0; background: #fff; scroll-margin-top: 92px; }
   .yv-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
   .yv-section h2 {
     margin: 0;
@@ -373,6 +451,17 @@ const structuredData = [
   .yv-subranges h3 { margin: 0 0 7px; color: var(--color-brand-rust-dark); font: 700 20px/1.25 var(--font-display); }
   .yv-subranges strong { display: block; margin-bottom: 8px; color: var(--color-brand-rust); font: 700 21px/1.2 var(--font-display); }
   .yv-subranges p { margin: 0; font-size: 14px; line-height: 1.55; }
+  .yv-comparison { margin-top: 38px; padding-top: 34px; border-top: 1px solid rgba(80, 49, 30, .22); }
+  .yv-comparison > h3 { margin: 0 0 12px; color: var(--color-brand-rust-dark); font: 700 clamp(24px, 3vw, 34px)/1.2 var(--font-display); }
+  .yv-comparison > p { max-width: 940px; }
+  .yv-comparison-photos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 24px; }
+  .yv-comparison-photos figure { margin: 0; background: #fff; }
+  .yv-comparison-photos :global(img) { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .yv-comparison-photos figcaption { padding: 12px 14px; color: var(--color-brand-charcoal); font: 13px/1.55 var(--font-sans); }
+  .yv-comparison-photos figcaption strong { color: var(--color-brand-rust-dark); }
+  .yv-comparison-table-wrap { margin-top: 18px; }
+  .yv-comparison-table { min-width: 980px; }
+  .yv-comparison-table tbody th { width: 18%; }
   .yv-callout { margin-top: 22px; padding: 19px 21px; border-left: 5px solid var(--color-brand-rust-bright); background: #fff; color: var(--color-brand-charcoal); font: 16px/1.65 var(--font-sans); }
   .yv-card-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 30px; }
   .yv-card { padding: 23px 21px; border-top: 4px solid var(--color-brand-rust-bright); background: var(--color-brand-cream-light); }
@@ -399,8 +488,18 @@ const structuredData = [
     .yv-card-grid { grid-template-columns: repeat(2, 1fr); }
     .yv-year-nav { grid-template-columns: 1fr; }
   }
+  @media (max-width: 700px) {
+    .yv-comparison-table-wrap { overflow: visible; }
+    .yv-comparison-table { min-width: 0; }
+    .yv-comparison-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .yv-comparison-table tbody, .yv-comparison-table tr, .yv-comparison-table th, .yv-comparison-table td { display: block; width: 100%; }
+    .yv-comparison-table tbody tr { padding: 0 16px 14px; border-top: 1px solid rgba(80, 49, 30, .2); }
+    .yv-comparison-table tbody th { width: auto; padding: 16px 0 5px; border: 0; font-size: 18px; }
+    .yv-comparison-table tbody td { padding: 10px 0 0; border: 0; }
+    .yv-comparison-table tbody td::before { display: block; margin-bottom: 2px; color: var(--color-brand-rust); content: attr(data-label); font: 700 13px/1.35 var(--font-display); }
+  }
   @media (max-width: 560px) {
     .yv-section { padding: 48px 0; }
-    .yv-card-grid, .yv-subranges { grid-template-columns: 1fr; }
+    .yv-card-grid, .yv-subranges, .yv-comparison-photos { grid-template-columns: 1fr; }
   }
 </style>

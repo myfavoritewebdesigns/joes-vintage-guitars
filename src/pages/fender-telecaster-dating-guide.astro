@@ -142,8 +142,8 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1960",
-    "No change. The specification settles after the churn of 1959.",
-    "Nothing new. The <a class='il' href='#heel'>neck stamp</a> and the <a class='il' href='/fender-pot-codes/'>pots</a> do the work.",
+    "The specification settles after the churn of 1959, and string-through construction is typical. A small number of top-loader Telecasters continued into early 1960, so the bridge must be read with the <a class='il' href='#heel'>neck stamp</a>, body evidence, serial range, and <a class='il' href='/fender-pot-codes/'>pots</a>.",
+    "An early-1960 top-loader can be correct when the rest of the date evidence agrees.",
   ],
   [
     "1961",
@@ -162,12 +162,12 @@ const yearRows: [string, string, string][] = [
   ],
   [
     "1964",
-    "The neck <a class='il' href='#headstock'>patent 3,143,028</a> is granted in August, so it appears on decals printed after that. The coil wire changes from Formvar to plain enamel, which was plant-wide, and the Kluson stamp goes from a single line to a double line. Late in the year the pickup bottom plates begin moving from black vulcanised fibreboard to grey, a change that runs into early 1965, and the grey ones often carry a stamped or handwritten date.",
+    "The Telecaster keeps its established three-number <a class='il' href='#headstock'>patent block</a> through 1964 and into early 1965. The coil wire changes from Formvar to plain enamel, which was plant-wide, and the Kluson stamp goes from a single line to a double line. Late in the year the pickup bottom plates begin moving from black vulcanised fibreboard to grey, a change that runs into early 1965, and the grey ones often carry a stamped or handwritten date.",
     "Coil wire that reads dark burgundy rather than golden orange.",
   ],
   [
     "1965",
-    "CBS completes the purchase in January and the guitar changes in stages. The Telecaster held onto the spaghetti <a class='il' href='#headstock'>logo</a> into 1965, about a year longer than the Stratocaster did, then took the transition logo, and the patent block dropped from three numbers to two. On the Custom and the custom-colour guitars the three-ply <a class='il' href='#guard'>guard material</a> moves from cellulose nitrate to white plastic around mid-year, which is why a later three-ply guard never goes mint green. The <a class='il' href='#serial'>big-F neck plate</a> arrives around the third quarter.",
+    "CBS completes the purchase in January and the guitar changes in stages. The Telecaster held onto the spaghetti <a class='il' href='#headstock'>logo</a> into 1965, about a year longer than the Stratocaster did, then took the transition logo. The earliest transition decals still carry the three-number block; a later-1965 revision drops to two patents and adds 3,143,028. On the Custom and the custom-colour guitars the three-ply <a class='il' href='#guard'>guard material</a> moves from cellulose nitrate to white plastic around mid-year, which is why a later three-ply guard never goes mint green. The <a class='il' href='#serial'>big-F neck plate</a> arrives around the third quarter.",
     "A spaghetti logo on a 1965 Telecaster is correct and original. Do not read the Strat's timeline onto it.",
   ],
   [
@@ -197,11 +197,28 @@ const yearRows: [string, string, string][] = [
   ],
 ];
 
+const valueGuideLinksByYear: Record<string, { label: string; href: string }[]> = {
+  "1950": [{ label: "1950 Broadcaster value", href: "/vintage-fender-telecaster-value-guide/1950-broadcaster/" }],
+  "1951": [
+    { label: "1951 Nocaster value", href: "/vintage-fender-telecaster-value-guide/1951-nocaster/" },
+    { label: "1951 Telecaster value", href: "/vintage-fender-telecaster-value-guide/1951-telecaster/" },
+  ],
+  ...Object.fromEntries(
+    Array.from({ length: 14 }, (_, index) => String(1952 + index)).map((year) => [
+      year,
+      [{ label: `${year} value`, href: `/vintage-fender-telecaster-value-guide/${year}/` }],
+    ]),
+  ),
+  "1966": [{ label: "1966 to 1968 values", href: "/vintage-fender-telecaster-value-guide/1966-1968/" }],
+  "1967": [{ label: "1966 to 1968 values", href: "/vintage-fender-telecaster-value-guide/1966-1968/" }],
+  "1968": [{ label: "1966 to 1968 values", href: "/vintage-fender-telecaster-value-guide/1966-1968/" }],
+};
+
 // The checks that place a Tele in an era without tools. These give a WINDOW.
 // Fourth element is the section this check is explained in, so the table doubles as navigation.
 const fastRows: [string, string, string, string][] = [
   ["The pickguard", "Black phenolic to mid-1954, then single-ply white: five screws to mid-1959, eight after", "The blackguard line is the one that moves the money, and the screw count splits the white-guard years. Three-ply mint green nitrate belongs to the Custom and the custom colours rather than to a standard blonde.", "#guard"],
-  ["The bridge", "Strings through the body, except from about mid-1958 to mid-1959 when they anchored at the back of the plate", "Turn the guitar over and look for string ferrules. A 1959 transition plate can carry both sets of holes at once.", "#bridge"],
+  ["The bridge", "Strings through the body, except for the top-loader period from about mid-1958 through 1959 with some overlap into early 1960", "Turn the guitar over and look for string ferrules. A transition plate can carry both sets of holes, while a documented early-1960 top-loader may have none.", "#bridge"],
   ["The saddles", "Brass to mid-1954, smooth steel to 1958, threaded barrels to 1968, smooth with grooves after", "Four stages, and more changes than any other single part on the guitar. The brass window is the shortest of the four.", "#bridge"],
   ["The fingerboard", "Maple with a skunk stripe to about April 1959, slab rosewood to August 1962, veneer rosewood after, maple cap from about 1965, one-piece maple with the stripe back from 1969", "Look at the rosewood depth at the nut, and at the back of the neck for the stripe. A stripe is correct in the 1950s and again from 1969, so its absence points at roughly 1965 to 1968.", "#neck"],
   ["The logo", "Spaghetti into 1965, transition 1965 to 1967, heavy black CBS from 1967", "The standard Telecaster is the one Fender wearing a silver spaghetti decal; an Esquire or a Telecaster Custom wears gold. The headstock outline never changed size either, so unlike a Stratocaster there is no shape clue here at all.", "#headstock"],
@@ -266,7 +283,7 @@ const faqs = [
   },
   {
     q: "My Telecaster Strings Anchor At The Bridge Instead Of Through The Body. Is It Wrong?",
-    a: "Probably not. Fender ran a top-loading bridge from about mid-1958 to mid-1959, where the strings anchor at the back of the bridge plate rather than passing through the body. It is correct and original for that window. Better still, plenty of 1959 bridge plates carry both sets of holes because Fender was mid-changeover, and a dual-hole plate is a genuine transition part rather than a modified one.",
+    a: "Probably not. Fender used top-loading construction from about mid-1958 through 1959, and documented overlap can continue into early 1960. The strings anchor at the back of the bridge plate rather than passing through the body. Plenty of transition bridge plates carry both sets of holes as well. Confirm the bridge against the neck date, body construction, serial range, electronics, and provenance rather than using one hard cutoff.",
   },
   {
     q: "Does A Spaghetti Logo Mean My Telecaster Is Pre-CBS?",
@@ -447,7 +464,20 @@ const breadcrumbSchema = {
         <p>What changed each year, and the quickest way to see it. Two things to keep in mind while you read down the table. Fender never made a clean cutover, so a change dated to mid-year means both versions turn up on guitars from that year and a transition example is genuinely correct either way. And parts went into a bin before they went into a guitar, so a feature dates the part, and the guitar is that year or later.</p>
         <div class="tablewrap"><table>
           <thead><tr><th>Year</th><th>What changed</th><th>Fastest tell</th></tr></thead>
-          <tbody>{yearRows.map((r) => (<tr><td data-label="Year" class="yr">{r[0]}</td><td data-label="What changed" set:html={r[1]}></td><td data-label="Fastest tell" set:html={r[2]}></td></tr>))}</tbody>
+          <tbody>{yearRows.map((r) => (
+            <tr>
+              <td data-label="Year" class="yr">
+                <span>{r[0]}</span>
+                {valueGuideLinksByYear[r[0]] && (
+                  <span class="value-links">
+                    {valueGuideLinksByYear[r[0]].map((link) => <a href={link.href}>{link.label}</a>)}
+                  </span>
+                )}
+              </td>
+              <td data-label="What changed" set:html={r[1]}></td>
+              <td data-label="Fastest tell" set:html={r[2]}></td>
+            </tr>
+          ))}</tbody>
         </table></div>
         <p class="note-sm">Past 1971 the guitar starts dating itself. From 1976 Fender moved the serial to a headstock decal with the year built into the prefix, and the <a class="spoke" href={HUB_HREF}>full serial guide</a> carries those charts along with the reissue and import prefixes.</p>
       </div>
@@ -509,7 +539,7 @@ const breadcrumbSchema = {
         <p>The bridge carries two separate dating questions, and the first one is answered from the back of the guitar.</p>
 
         <h3 id="loader">Top Loader Or String-Through</h3>
-        <p>A Telecaster normally strings through the body, with six ferrules visible on the back. From about the middle of 1958 to the middle of 1959 Fender ran a <b>top-loading</b> bridge instead, where the strings anchor at the back of the bridge plate and never pass through the body at all. It is correct and original for that window, and it is not a modification.</p>
+        <p>A Telecaster normally strings through the body, with six ferrules visible on the back. From about the middle of 1958 through 1959 Fender used a <b>top-loading</b> bridge instead, where the strings anchor at the back of the bridge plate and never pass through the body at all. Documented top-loader overlap can continue into early 1960, so the bridge must be checked against the rest of the guitar rather than rejected from a hard cutoff.</p>
         <div class="figrow gallery">
           <figure class="sfig">
             <LicensedImage src={bmeta(T59, "1959-fender-telecaster-blonde-top-laoder-example-scaled.jpg")} alt="The top-loading bridge on a 1959 Fender Telecaster, with the strings anchoring at the back of the bridge plate" width={1600} />
@@ -870,6 +900,9 @@ const breadcrumbSchema = {
   .fspot tbody tr:nth-child(even){background:color-mix(in srgb,var(--panel-2) 45%,transparent);}
   .fspot .code{font-family:var(--fm);font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap;}
   .fspot .yr{font-family:var(--fm);color:var(--rust);font-weight:600;}
+  .fspot .value-links{display:grid;gap:.22rem;margin-top:.35rem;}
+  .fspot .value-links a{font-family:var(--fd);font-size:.72rem;line-height:1.25;color:var(--gold-deep);text-decoration:none;border-bottom:1px dotted var(--gold);width:max-content;max-width:12rem;}
+  .fspot .value-links a:hover{color:var(--rust);border-bottom-color:var(--rust);}
 
   .fspot .figrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;}
   .fspot .figrow.single{grid-template-columns:minmax(230px,540px);}
