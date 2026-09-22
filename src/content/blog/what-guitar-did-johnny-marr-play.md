@@ -45,7 +45,7 @@ Johnny Marr didn't play just one guitar. He had a handful, and the searches tend
 
 You're looking at a 1959 cherry 355 in these photos, and that's the guitar people mean when they talk about the Stein 355. Seymour Stein bought it for him in New York in 1984, and Marr wrote Heaven Knows I'm Miserable Now on it that afternoon. [Christie's](https://www.christies.com/en/events/marrs-guitars-the-johnny-marr-collection) has it estimated at £100,000 to £150,000.
 
-Most people know This Charming Man first, though, and that riff is mostly a 1950s Telecaster that belonged to the producer, tracked with a Rickenbacker 330 of Marr's.
+Most people know This Charming Man first, though, and that riff is mostly a [1950s Telecaster](/vintage-fender-telecaster-value-guide/) that belonged to the producer, tracked with a Rickenbacker 330 of Marr's.
 
 There's also a 1971 Martin D-28, a six-string, on There Is a Light That Never Goes Out, and the Jaguar you see him with now is a modern Fender signature.
 
