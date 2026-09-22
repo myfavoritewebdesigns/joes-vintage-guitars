@@ -7,6 +7,7 @@ import FAQ from "../components/FAQ.astro";
 import ContactSection from "../components/ContactSection.astro";
 import { resolveImage, assetSrc } from "../lib/images";
 import { contact, hrefs, SITE_URL } from "../config/site";
+import { telecasterValueGuides } from "../data/telecasterValueGuides";
 
 const T52 = "1952-fender-telecaster-authentication-guide";
 const J52 = "joshuas-1952-fender-telecaster";
@@ -65,22 +66,34 @@ const drivers = [
 ];
 
 const prices = [
-  { m: "Broadcaster (1950)", v: "$90,000 to $175,000" },
-  { m: "Nocaster (1951)", v: "$65,000 to $110,000" },
-  { m: "Telecaster (1951)", v: "$45,000 to $75,000" },
-  { m: "Telecaster (1952 to 1953)", v: "$40,000 to $60,000" },
-  { m: "Telecaster (1954, black pickguard)", v: "$40,000 to $60,000" },
-  { m: "Telecaster (1954, white pickguard)", v: "$40,000 to $50,000" },
-  { m: "Telecaster (1955 to 1957)", v: "$38,000 to $50,000" },
-  { m: "Telecaster (1958 to 1959, blonde)", v: "$25,000 to $35,000" },
-  { m: "Telecaster (1958 to 1959, custom color)", v: "$80,000 to $100,000" },
-  { m: "Telecaster (1960 to 1962, blonde)", v: "$22,000 to $32,000" },
-  { m: "Telecaster (1960 to 1962, custom color)", v: "$60,000 to $80,000" },
-  { m: "Telecaster (1963 to 1964, blonde)", v: "$15,000 to $25,000" },
-  { m: "Telecaster (1963 to 1964, custom color)", v: "$40,000 to $65,000" },
-  { m: "Telecaster (1965 to 1968, blonde)", v: "$9,000 to $22,000" },
-  { m: "Telecaster (1965 to 1968, custom color)", v: "$15,000 to $35,000" },
+  { m: "Broadcaster (1950)", v: "$90,000 to $175,000", slugs: ["1950-broadcaster"] },
+  { m: "Esquire (1950)", v: "Individual appraisal required", slugs: ["1950-broadcaster"] },
+  { m: "Nocaster (1951)", v: "$65,000 to $110,000", slugs: ["1951-nocaster"] },
+  { m: "Telecaster (1951)", v: "$45,000 to $75,000", slugs: ["1951-telecaster"] },
+  { m: "Esquire (1951, blonde)", v: "$34,000 to $56,500", slugs: ["1951-telecaster"] },
+  { m: "Telecaster (1952 to 1953)", v: "$40,000 to $60,000", slugs: ["1952", "1953"] },
+  { m: "Esquire (1952 to 1953, blonde)", v: "$30,000 to $45,000", slugs: ["1952", "1953"] },
+  { m: "Telecaster (1954, black pickguard)", v: "$40,000 to $60,000", slugs: ["1954"] },
+  { m: "Esquire (1954, black pickguard)", v: "$30,000 to $45,000", slugs: ["1954"] },
+  { m: "Telecaster (1954, white pickguard)", v: "$40,000 to $50,000", slugs: ["1954"] },
+  { m: "Esquire (1954, white pickguard)", v: "$30,000 to $37,500", slugs: ["1954"] },
+  { m: "Telecaster (1955 to 1957)", v: "$38,000 to $50,000", slugs: ["1955", "1956", "1957"] },
+  { m: "Esquire (1955 to 1957, blonde)", v: "$28,500 to $37,500", slugs: ["1955", "1956", "1957"] },
+  { m: "Telecaster (1958 to 1959, blonde)", v: "$25,000 to $35,000", slugs: ["1958", "1959"] },
+  { m: "Esquire (1958 to 1959, blonde)", v: "$19,000 to $26,500", slugs: ["1958", "1959"] },
+  { m: "Telecaster (1958 to 1959, custom color)", v: "$80,000 to $100,000", slugs: ["1958", "1959"] },
+  { m: "Telecaster (1960 to 1962, blonde)", v: "$22,000 to $32,000", slugs: ["1960", "1961", "1962"] },
+  { m: "Esquire (1960 to 1962, blonde)", v: "$16,500 to $24,000", slugs: ["1960", "1961", "1962"] },
+  { m: "Telecaster (1960 to 1962, custom color)", v: "$60,000 to $80,000", slugs: ["1960", "1961", "1962"] },
+  { m: "Telecaster (1963 to 1964, blonde)", v: "$15,000 to $25,000", slugs: ["1963", "1964"] },
+  { m: "Esquire (1963 to 1964, blonde)", v: "$11,500 to $19,000", slugs: ["1963", "1964"] },
+  { m: "Telecaster (1963 to 1964, custom color)", v: "$40,000 to $65,000", slugs: ["1963", "1964"] },
+  { m: "Telecaster (1965 to 1968, blonde)", v: "$9,000 to $22,000", slugs: ["1965", "1966-1968"] },
+  { m: "Esquire (1965 to 1968, blonde)", v: "$7,000 to $16,500", slugs: ["1965", "1966-1968"] },
+  { m: "Telecaster (1965 to 1968, custom color)", v: "$15,000 to $35,000", slugs: ["1965", "1966-1968"] },
 ];
+
+const guideForSlug = (slug: string) => telecasterValueGuides.find((guide) => guide.slug === slug)!;
 
 const changes = [
   {
@@ -166,7 +179,7 @@ const structuredData: Record<string, unknown>[] = [
     headline: "Vintage Fender Telecaster Value Guide",
     description: "Vintage Fender Telecaster values by year from 1950 to 1968, including Broadcaster, Nocaster, Esquire, finish, originality, and condition factors.",
     image: `${SITE_URL}${assetSrc(ARTICLE_IMAGE)}`,
-    dateModified: "2026-09-18",
+    dateModified: "2026-09-21",
     author: { "@id": `${SITE_URL}/about-me/#person` },
     publisher: { "@id": `${SITE_URL}/` },
     mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
@@ -220,8 +233,11 @@ const structuredData: Record<string, unknown>[] = [
             $9,000 to $175,000. Use the table as a starting point, then adjust for the exact model, year, finish,
             condition, and originality. For a guitar-specific figure, <a href="/free-appraisal/">request a free appraisal</a>.
           </div>
+          <p class="vg-serial-note">
+            <strong>Know the serial number but not the year?</strong> Start with the <a href="/fender-guitars-serial-number-guide/">Fender serial-number lookup and dating guide</a>, then return to the matching year below. This price guide covers vintage Telecasters from 1950 through 1968; later and modern instruments should not be priced from these ranges.
+          </p>
           <p class="vg-byline">
-            Last reviewed <time datetime="2026-09-18">September 2026</time> by{" "}<a href="/about-me/">Joe Dampt</a>.
+            Last reviewed <time datetime="2026-09-21">September 21, 2026</time> by{" "}<a href="/about-me/">Joe Dampt</a>.
           </p>
         </div>
         <figure class="vg-feature-figure">
@@ -240,6 +256,14 @@ const structuredData: Record<string, unknown>[] = [
           </figcaption>
         </figure>
       </div>
+      <nav class="vg-inner vg-year-picker" aria-label="Telecaster value guides by year">
+        <strong>Choose a year-specific value guide:</strong>
+        <div>
+          {telecasterValueGuides.map((guide) => (
+            <a href={`/vintage-fender-telecaster-value-guide/${guide.slug}/`}>{guide.navLabel}</a>
+          ))}
+        </div>
+      </nav>
       <nav class="vg-inner vg-jump" aria-label="Telecaster value guide sections">
         <a href="#values">Values by Year</a>
         <a href="#value-factors">Value Factors</a>
@@ -267,6 +291,9 @@ const structuredData: Record<string, unknown>[] = [
             </article>
           ))}
         </div>
+        <aside class="vg-caution" aria-label="Fender Esquire value guide">
+          <strong>Own a one-pickup Esquire?</strong> Use the dedicated{" "}<a href="/vintage-fender-esquire-value-guide/">vintage Fender Esquire value guide</a>{" "}for year-by-year price ranges, factory Esquire authentication, Telecaster conversion warnings, and real examples from Joe's archive.
+        </aside>
       </div>
     </section>
 
@@ -278,17 +305,32 @@ const structuredData: Record<string, unknown>[] = [
           These price ranges are for all-original guitars in excellent condition with the original case. A guitar
           with a refinish, changed parts, repairs, or heavy damage should not be priced from the top of the range.
           Custom-color values apply only to verified original finishes. Read the{" "}<a href="/post/fender-custom-color-authentication-guide/">Fender custom-color authentication guide</a>{" "}before paying a color premium. An Esquire is typically worth about 75% of a same-year, same-color
-          Telecaster. Market reviewed September 2026.
+          Telecaster; see the <a href="/vintage-fender-esquire-value-guide/">complete Esquire value guide</a>. Market reviewed September 2026.
         </p>
         <div class="vg-table-wrap">
-          <table class="vg-table">
-            <caption>Vintage Telecaster, Broadcaster, and Nocaster Price Ranges</caption>
+          <table class="vg-table vg-table--values">
+            <caption>Vintage Telecaster, Broadcaster, Nocaster, and Esquire Price Ranges</caption>
             <thead>
-              <tr><th scope="col">Model and Year</th><th scope="col">Value</th></tr>
+              <tr><th scope="col">Model and Year</th><th scope="col">Value</th><th scope="col">Detailed Guides</th></tr>
             </thead>
             <tbody>
               {prices.map((price) => (
-                <tr><td>{price.m}</td><td>{price.v}</td></tr>
+                <tr>
+                  <td>{price.m}</td>
+                  <td>{price.v}</td>
+                  <td>
+                    <span class="vg-guide-links">
+                      {price.m.startsWith("Esquire") ? (
+                        <a href="/vintage-fender-esquire-value-guide/">Esquire value guide</a>
+                      ) : (
+                        price.slugs.map((slug) => {
+                          const guide = guideForSlug(slug);
+                          return <a href={`/vintage-fender-telecaster-value-guide/${guide.slug}/`}>{guide.navLabel} value</a>;
+                        })
+                      )}
+                    </span>
+                  </td>
+                </tr>
               ))}
             </tbody>
           </table>
@@ -398,8 +440,8 @@ const structuredData: Record<string, unknown>[] = [
             <h3>Start With the Visible Features</h3>
             <p>
               A black guard points to 1950 through about the summer of 1954. A white guard follows, and a
-              top-loading bridge with strings anchored at the rear of the plate points to the 1958 to 1959
-              window. The fingerboard, saddles, string tree, tuners, logo, and patent numbers narrow the period
+              top-loading bridge with strings anchored at the rear of the plate generally points to the mid-1958 through 1959
+              window, although documented overlap can continue into early 1960. The fingerboard, saddles, string tree, tuners, logo, and patent numbers narrow the period
               further. Work through the <a href="/fender-telecaster-dating-guide/">Fender Telecaster dating guide</a>{" "}for a year-by-year comparison.
             </p>
           </div>
@@ -590,6 +632,10 @@ const structuredData: Record<string, unknown>[] = [
     font-size: 16px;
     line-height: 1.65;
   }
+  .vg-serial-note {
+    margin: 18px 0 0;
+    font-size: 15px;
+  }
   .vg-feature-figure,
   .vg-photo-card { margin: 0; overflow: hidden; background: #fff; box-shadow: 0 8px 28px rgba(62, 42, 20, 0.14); }
   .vg-feature-figure img,
@@ -611,6 +657,32 @@ const structuredData: Record<string, unknown>[] = [
     gap: 10px;
     margin-top: 38px;
   }
+  .vg-year-picker {
+    margin-top: 34px;
+  }
+  .vg-year-picker > strong {
+    display: block;
+    margin-bottom: 11px;
+    color: var(--color-brand-rust-dark);
+    font: 700 16px/1.3 var(--font-display);
+  }
+  .vg-year-picker > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .vg-year-picker a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 38px;
+    padding: 7px 12px;
+    border: 1px solid rgba(104, 36, 18, 0.28);
+    border-radius: 999px;
+    background: #fff;
+    font: 700 13px/1.25 var(--font-sans);
+    text-decoration: none;
+  }
+  .vg-year-picker a:hover { background: var(--color-brand-cream-light, #f9f1de); }
   .vg-jump a {
     display: inline-flex;
     align-items: center;
@@ -692,6 +764,9 @@ const structuredData: Record<string, unknown>[] = [
   .vg-table--changes { min-width: 760px; }
   .vg-table--changes td:first-child { width: 23%; }
   .vg-table--changes td:nth-child(2) { width: 18%; font-weight: 700; color: var(--color-brand-rust); }
+  .vg-table--values { min-width: 760px; }
+  .vg-guide-links { display: flex; flex-wrap: wrap; gap: 7px 12px; }
+  .vg-guide-links a { white-space: nowrap; }
 
   .vg-photo-grid,
   .vg-detail-grid {
@@ -778,11 +853,15 @@ const structuredData: Record<string, unknown>[] = [
     .vg-table-wrap { margin-left: -18px; margin-right: -18px; }
     .vg-table th,
     .vg-table td { padding: 12px 14px; }
-    .vg-table:not(.vg-table--changes) { min-width: 0; table-layout: fixed; }
-    .vg-table:not(.vg-table--changes) th:first-child,
-    .vg-table:not(.vg-table--changes) td:first-child { width: 64%; }
-    .vg-table:not(.vg-table--changes) th:last-child,
-    .vg-table:not(.vg-table--changes) td:last-child { width: 36%; }
+    .vg-table--values { min-width: 0; table-layout: fixed; }
+    .vg-table--values th:first-child,
+    .vg-table--values td:first-child { width: 42%; }
+    .vg-table--values th:nth-child(2),
+    .vg-table--values td:nth-child(2) { width: 28%; }
+    .vg-table--values th:last-child,
+    .vg-table--values td:last-child { width: 30%; }
+    .vg-table--values .vg-guide-links { gap: 8px; }
+    .vg-table--values .vg-guide-links a { white-space: normal; overflow-wrap: anywhere; }
     .vg-cta-card { padding: 24px; }
   }
 </style>

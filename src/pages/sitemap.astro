@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { stratocasterYearGuides } from "../data/stratocasterValueYears";
+import { telecasterValueGuides } from "../data/telecasterValueGuides";
 
 const groups = [
   {
@@ -83,6 +84,11 @@ const groups = [
         href: `/vintage-fender-stratocaster-value-guide/${guide.year}/`,
       })),
       { label: "Vintage Fender Telecaster Value Guide", href: "/vintage-fender-telecaster-value-guide/" },
+      { label: "Vintage Fender Esquire Value Guide", href: "/vintage-fender-esquire-value-guide/" },
+      ...telecasterValueGuides.map((guide) => ({
+        label: `${guide.navLabel} Value Guide`,
+        href: `/vintage-fender-telecaster-value-guide/${guide.slug}/`,
+      })),
       { label: "Vintage Gibson Les Paul Market Value Guide", href: "/vintage-gibson-les-paul-market-value-guide/" },
       { label: "Martin D-28, D-18 & D-45 Dreadnought Value Guide", href: "/martin-d-28-d-18-d-45-dreadnought-value-guide/" },
     ],

@@ -239,13 +239,13 @@ The most common bridge configuration found on late-1959 through early-1960s Tele
 
 <figure>
 
-![1959 Fender Telecaster top loader back, no body ferrules visible, strings anchor at bridge plate only, mid-1958 to mid-1959 configuration](../../assets/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-blonde-top-laoder-example-scaled.jpg)
+![1959 Fender Telecaster top loader back with no body ferrules and strings anchored at the bridge plate](../../assets/blog/1959-fender-telecaster-authentication-guide/1959-fender-telecaster-blonde-top-laoder-example-scaled.jpg)
 
-<figcaption><strong>Top loader back (mid-1958 to mid-1959).</strong> On a top-loading 1959 Telecaster, the back of the body is completely smooth, no ferrules, no string holes through the body. Strings anchor entirely at the bridge plate. This is the definitive visual confirmation of a top-loader configuration. Many 1959 examples are transitional and will have ferrules (dual-hole bridge), so a clean back like this confirms a pure early-1959 top loader.</figcaption>
+<figcaption><strong>Top-loader back.</strong> On a top-loading 1959 Telecaster, the back of the body is completely smooth, with no ferrules or string holes through the body. Strings anchor entirely at the bridge plate. This confirms the construction, not the exact year: the arrangement is most associated with mid-1958 through 1959, with documented overlap into early 1960.</figcaption>
 
 </figure>
 
-The top-loader and string-through configurations overlapped throughout 1959 and into the early 1960s. There are no hard cutoff dates. Top-loader bridges are *very common* on 1959 Telecasters but not universal, and a string-through bridge does not disqualify a guitar from being a genuine 1959. The bridge configuration is a useful corroborating detail, not a pass/fail test. If the bridge type conflicts significantly with the neck heel date, pot codes, and other physical features, investigate further, but a mismatch here alone is not cause for alarm.
+The top-loader and string-through configurations overlapped throughout 1959, and documented top-loader examples can continue into early 1960. There is no dependable day-by-day cutoff. Top-loader bridges are *very common* on 1959 Telecasters but not universal, and a string-through bridge does not disqualify a guitar from being an original 1959. The bridge configuration is useful corroborating evidence, not a pass/fail test. If the bridge type conflicts significantly with the neck heel date, pot codes, and other physical features, investigate further, but a mismatch here alone is not cause for alarm.
 
 ### Bridge Saddles
 
@@ -524,6 +524,8 @@ A 1959 Telecaster accompanied by its original case and paperwork is significantl
 If a 1959 Telecaster comes with a receipt, warranty card, or any documentation showing the original purchase, dealer name, date, and price, that paperwork is irreplaceable. It establishes an unbroken chain of ownership from the factory and eliminates much of the uncertainty that makes authentication necessary in the first place. Store such documents separately from the guitar, in a cool, dry, dark environment, and photograph them at high resolution before handling.
 
 <h2 id="links">Related Resources</h2>
+
+See the current [1959 Fender Telecaster value guide](/vintage-fender-telecaster-value-guide/1959/) for blonde and custom-color price ranges, condition adjustments, and the appraisal method used with the specifications on this page.
 
 **1959 Fender Telecaster Authentication Guide**
 

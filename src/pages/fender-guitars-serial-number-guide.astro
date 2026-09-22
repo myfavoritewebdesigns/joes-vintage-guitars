@@ -15,6 +15,7 @@ import FenderSerialTool from "../components/tools/FenderSerialTool.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { resolveImage, assetSrc, ogCardSize } from "../lib/images";
 import { contact, hrefs, SITE_URL } from "../config/site";
+import { telecasterValueGuides } from "../data/telecasterValueGuides";
 
 const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
 const img = (file: string) => assetSrc("images/fender-sn/" + file);
@@ -573,7 +574,15 @@ const breadcrumbSchema = {
         <div class="chips">
           <a href="/vintage-fender-stratocaster-value-guide/">Stratocaster Value Guide</a>
           <a href="/vintage-fender-telecaster-value-guide/">Telecaster Value Guide</a>
+          <a href="/vintage-fender-esquire-value-guide/">Esquire Value Guide</a>
           <a href="/free-appraisal/">Free Appraisal</a>
+        </div>
+        <h3>Telecaster Values For The Year You Found</h3>
+        <p>Choose the matching year after using the serial range and the physical evidence above.</p>
+        <div class="chips">
+          {telecasterValueGuides.map((guide) => (
+            <a href={`/vintage-fender-telecaster-value-guide/${guide.slug}/`}>{guide.navLabel} value</a>
+          ))}
         </div>
 
         <h3>Go Deeper On Your Exact Guitar</h3>

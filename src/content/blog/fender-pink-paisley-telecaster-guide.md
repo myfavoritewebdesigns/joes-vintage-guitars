@@ -242,6 +242,7 @@ Production numbers were extremely limited. Fender never officially documented th
 
 Further reading
 
+-   [1966 to 1968 Fender Telecaster value guide](/vintage-fender-telecaster-value-guide/1966-1968/)
 -   [1959 Fender Telecaster authentication guide](/post/1959-fender-telecaster-authentication-guide/)
 -   [1952 Fender Telecaster authentication guide](/post/1952-fender-telecaster-authentication-guide/)
 -   [Fender Jazzmaster evolution guide, 1958 to 1971](/post/fender-jazzmaster-evolution-guide-1958-1971/)

@@ -219,6 +219,15 @@ for (const [from, to] of Object.entries(assetReplacements)) {
   pageMarkup = pageMarkup.split(from).join(to);
 }
 
+const telecasterLinksStart = '<div class="model-links"><a class="arrow-link" href="https://www.joesvintageguitarsaz.com/fender-telecaster-dating-guide/">Date a Fender Telecaster ';
+if (!pageMarkup.includes(telecasterLinksStart)) {
+  throw new Error("The Telecaster model-links markup changed; update the value-guide link insertion.");
+}
+pageMarkup = pageMarkup.replace(
+  telecasterLinksStart,
+  '<div class="model-links"><a class="arrow-link" href="/vintage-fender-telecaster-value-guide/">Telecaster values by year <span aria-hidden="true">→</span></a><a class="arrow-link" href="/vintage-fender-esquire-value-guide/">Esquire value guide <span aria-hidden="true">→</span></a><a class="arrow-link" href="https://www.joesvintageguitarsaz.com/fender-telecaster-dating-guide/">Date a Fender Telecaster ',
+);
+
 pageMarkup = pageMarkup.replace(
   '<img src="/images/logo-joe-2.png"',
   '<img src="/images/logo-joe-2.png" width="296" height="355"',
