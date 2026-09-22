@@ -525,7 +525,7 @@ If a 1959 Telecaster comes with a receipt, warranty card, or any documentation s
 
 <h2 id="links">Related Resources</h2>
 
-See the current [1959 Fender Telecaster value guide](/vintage-fender-telecaster-value-guide/1959/) for blonde and custom-color price ranges, condition adjustments, and the appraisal method used with the specifications on this page.
+See the current [1959 Fender Telecaster value guide](/vintage-fender-telecaster-value-guide/1959/) for blonde and custom-color price ranges, condition adjustments, and the appraisal method used with the specifications on this page. If the guitar has the factory one-pickup configuration, use the dedicated [Fender Esquire value and authentication guide](/vintage-fender-esquire-value-guide/) as well.
 
 **1959 Fender Telecaster Authentication Guide**
 
