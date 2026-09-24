@@ -14,6 +14,7 @@ const finishDetail = resolveImage("images/vintage-fender-custom-color-value.jpg"
 const faqs = [
   { q: "Is the Guitar Appraisal Really Free?", a: "Yes. I do not charge for the first market valuation, and you do not have to sell. A signed report for insurance, an estate, a donation, or a legal matter is a separate service." },
   { q: "Can You Appraise a Guitar From Photos?", a: "Yes. Clear photos are usually enough to begin. I may ask for a closer view of a serial number, finish, pickup, label, repair, or other detail." },
+  { q: "Do I Have to Bring the Guitar to Mesa to Get an Appraisal?", a: "No. My shop is in Mesa, Arizona, and local owners can arrange an in-person appraisal. I handle most appraisals remotely from clear photos, so you do not need to ship the guitar or bring it to Mesa just to learn what it is worth." },
   { q: "Do I Need to Know the Model or Year?", a: "No. Send the full guitar, headstock, serial number or label, and anything you know about its history. I can help identify it." },
   { q: "Does a Serial Number Tell Me What the Guitar Is Worth?", a: "No. A serial number may help with the date. The model, finish, original parts, condition, repairs, rarity, and current demand determine the value." },
   { q: "Should I Clean or Repair the Guitar First?", a: "No major work is needed. Photograph the guitar as it is. Cleaning or repairing it before the appraisal can remove evidence or create a new problem." },
@@ -43,11 +44,20 @@ const videoSchema = {
   author: { "@id": `${SITE_URL}/about-me/#person` },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Free Guitar Appraisal", item: `${SITE_URL}/free-appraisal/` },
+  ],
+};
+
 const reviews = [
   {
-    name: "Jim W. in Pennsylvania",
-    body: "I included a description of my guitar including serial number and a couple of photos. He responded immediately with a real pleasant email and gave me a value on my guitar.",
-    href: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURtN192ejFBRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDm7_vz1AE%7C%7C?hl=en",
+    name: "Caleb King",
+    body: "Joe's Vintage Guitars is in a class of their own, and there's no competition at that level.",
+    href: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUQzOS1Ib3RnRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgID39-HotgE%7C%7C?hl=en",
   },
   {
     name: "Ray",
@@ -55,9 +65,9 @@ const reviews = [
     href: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNlanAzNEpREAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICejp34JQ%7C%7C?hl=en",
   },
   {
-    name: "Amy Vickery",
-    body: "They were very easy to deal with and appraised my 1979 Guild within minutes! I sent pictures and details via text and received a free estimated value right away!",
-    href: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUMzaWFfdUtREAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIC3ia_uKQ%7C%7C?hl=en",
+    name: "Marie Coyle",
+    body: "Joe was kind and experienced, and promptly shared his expertise with no expectation of a sale.",
+    href: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURWMjR2ZHZ3RRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDV24vdvwE%7C%7C?hl=en",
   },
 ];
 ---
@@ -68,8 +78,8 @@ const reviews = [
   canonical="/free-appraisal/"
   ogImage="https://www.joesvintageguitarsaz.com/images/og/vintage-guitar-appraisal-expert.jpg"
   ogImageAlt="Free vintage guitar appraisal from Joe's Vintage Guitars"
-  ogType="article"
-  structuredData={[faqSchema, videoSchema]}
+  ogType="website"
+  structuredData={[faqSchema, videoSchema, breadcrumbSchema]}
 >
   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
   <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
@@ -103,6 +113,7 @@ const reviews = [
           <LeadForm
             formId="free-appraisal-hub"
             heading="Tell Me About Your Guitar"
+            headingLevel="h2"
             subheading="Not sure of the exact model or year? Send what you know."
             appraisalType={true}
             submitLabel="Get My Free Appraisal"
@@ -112,7 +123,7 @@ const reviews = [
       <div class="ah-container ah-trust" aria-label="Joe's appraisal experience">
         <div><strong>10,000+</strong><span>Instruments Appraised</span></div>
         <div><strong>12+ Years</strong><span>Hands On Experience</span></div>
-        <div><strong>50 States</strong><span>Owners Served</span></div>
+        <div><strong>50 States</strong><span>Guitars Purchased</span></div>
       </div>
     </section>
 
@@ -152,6 +163,30 @@ const reviews = [
       </div>
     </section>
 
+    <section class="ah-section ah-location">
+      <div class="ah-container">
+        <div class="ah-section-head">
+          <p class="ah-eyebrow">Remote or Local</p>
+          <h2>Online Nationwide or In Person in Mesa, Arizona</h2>
+          <p class="ah-lede">You can request an appraisal from anywhere in the United States. If you are near Mesa, you can also contact me about arranging a local, in-person appointment.</p>
+        </div>
+        <div class="ah-location-grid">
+          <article>
+            <h3>No Shipping Required</h3>
+            <p>You do not have to ship your guitar to Mesa just to find out what it is. Clear photos of the full instrument, serial number, hardware, finish, and repairs are usually enough for me to begin.</p>
+          </article>
+          <article>
+            <h3>Local Appraisals in Mesa</h3>
+            <p>Joe's Vintage Guitars is based in Mesa, Arizona. Local owners can <a class="ah-inline" href="/contact-me/">contact me</a> to ask about an in-person appraisal before bringing an instrument to the shop.</p>
+          </article>
+          <article>
+            <h3>Remote Appraisals Across the Country</h3>
+            <p>I appraise guitars from photos for owners nationwide. Shipping only becomes a separate conversation if you later decide to sell the guitar to me.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="ah-section ah-dark" id="brand-appraisals">
       <div class="ah-container">
         <div class="ah-section-head">
@@ -161,7 +196,7 @@ const reviews = [
         </div>
         <div class="ah-brand-grid">
           {appraisalPages.map((page) => (
-            <a href={`/free-appraisal/${page.slug}-guitar-appraisal/`}>
+            <a href={`/free-appraisal/${page.slug}/`}>
               <h3>{page.brand}</h3>
               <p>{page.heroCaption}</p>
               <span>View {page.brand} Appraisal Guide</span>
@@ -385,6 +420,10 @@ const reviews = [
   .ah-card-grid article > span { color: var(--color-brand-rust-bright); font-family: var(--font-display); font-size: 2.6rem; font-weight: 700; }
   .ah-split, .ah-faq-grid { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(350px, 1.1fr); gap: clamp(36px, 6vw, 78px); align-items: start; }
   .ah-note { margin: 24px 0; padding: 19px 21px; border-left: 4px solid var(--color-brand-rust-bright); background: #fff; }
+  .ah-location { background: #eadfce; }
+  .ah-location-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .ah-location-grid article { padding: 27px; border-top: 3px solid var(--color-brand-rust-bright); background: #fffaf0; }
+  .ah-location-grid p { margin-bottom: 0; }
   .ah-photo-list { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; margin: 0; padding: 30px; border: 1px solid var(--ah-line); background: #fff; list-style: none; }
   .ah-photo-list li { position: relative; padding-left: 22px; }
   .ah-photo-list li::before { content: "✓"; position: absolute; left: 0; color: var(--color-brand-rust-bright); font-weight: 900; }
@@ -431,14 +470,14 @@ const reviews = [
   .ah-final-actions a:last-child { color: #fff; font-weight: 800; }
   @media (max-width: 980px) {
     .ah-hero-grid, .ah-split, .ah-case-grid, .ah-faq-grid { grid-template-columns: 1fr; }
-    .ah-factor-grid, .ah-brand-grid, .ah-reviews, .ah-resource-groups { grid-template-columns: 1fr 1fr; }
+    .ah-factor-grid, .ah-brand-grid, .ah-reviews, .ah-resource-groups, .ah-location-grid { grid-template-columns: 1fr 1fr; }
   }
   @media (max-width: 700px) {
     .ah-container { width: min(100% - 26px, 1120px); }
     .ah-hero { padding-top: 152px; }
     .ah-hero h1 { font-size: clamp(3rem, 15vw, 4.7rem); }
     .ah-section { padding: 64px 0; }
-    .ah-trust, .ah-card-grid, .ah-factor-grid, .ah-brand-grid, .ah-reviews, .ah-choice-grid, .ah-resource-groups, .ah-photo-list { grid-template-columns: 1fr; }
+    .ah-trust, .ah-card-grid, .ah-factor-grid, .ah-brand-grid, .ah-reviews, .ah-choice-grid, .ah-resource-groups, .ah-photo-list, .ah-location-grid { grid-template-columns: 1fr; }
     .ah-trust div + div { border-top: 1px solid rgba(255, 255, 255, 0.18); border-left: 0; }
     .ah-final-grid { align-items: flex-start; flex-direction: column; }
     .ah-final-actions { width: 100%; min-width: 0; }

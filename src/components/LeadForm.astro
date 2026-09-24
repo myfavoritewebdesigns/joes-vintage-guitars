@@ -32,6 +32,8 @@ interface Props {
   formId: string;
   /** Optional form heading (h3 above the fields). */
   heading?: string;
+  /** Semantic level for the optional form heading. */
+  headingLevel?: "h2" | "h3";
   /** Optional sub-heading below the heading. */
   subheading?: string;
   /** "make-model" (default) shows the combined field; "model-only" shows just Model. */
@@ -44,17 +46,21 @@ interface Props {
   collection?: boolean;
   /** Submit button text. */
   submitLabel?: string;
+  /** Optional starting value for the combined instrument field. */
+  instrumentValue?: string;
 }
 
 const {
   formId,
   heading,
+  headingLevel = "h3",
   subheading,
   instrumentMode = "make-model",
   serial,
   appraisalType = false,
   collection = false,
   submitLabel = "Send Message",
+  instrumentValue = "",
 } = Astro.props;
 
 const instrumentLabel = instrumentMode === "model-only" ? "Model" : "Instrument Make/Model";
@@ -62,8 +68,10 @@ const instrumentName = instrumentMode === "model-only" ? "model" : "instrument";
 ---
 
 <form class="lead-form" data-jvg-contact-form data-form-id={formId} novalidate>
-  {heading && <h3 class="lead-form__heading">{heading}</h3>}
-  {subheading && <h4 class="lead-form__sub">{subheading}</h4>}
+  {heading && (headingLevel === "h2"
+    ? <h2 class="lead-form__heading">{heading}</h2>
+    : <h3 class="lead-form__heading">{heading}</h3>)}
+  {subheading && <p class="lead-form__sub">{subheading}</p>}
 
   {serial && (
     <label class="lead-form__field">
@@ -119,7 +127,7 @@ const instrumentName = instrumentMode === "model-only" ? "model" : "instrument";
     <div class="lead-form__row lead-form__row--instrument">
       <label class="lead-form__field">
         <span class="lead-form__label">{instrumentLabel} <span class="lead-form__opt">(optional)</span></span>
-        <input type="text" name={instrumentName} autocomplete="off" class="lead-form__input" />
+        <input type="text" name={instrumentName} value={instrumentValue} autocomplete="off" class="lead-form__input" />
       </label>
       <label class="lead-form__field">
         <span class="lead-form__label">Year <span class="lead-form__opt">(optional)</span></span>

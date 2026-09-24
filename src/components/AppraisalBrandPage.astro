@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import LeadForm from "./LeadForm.astro";
 import LicensedImage from "./primitives/LicensedImage.astro";
 import { contact, hrefs, SITE_URL } from "../config/site";
 import { appraisalPages, type AppraisalPage } from "../data/appraisal-pages";
@@ -9,9 +10,9 @@ interface Props {
 }
 
 const { page } = Astro.props;
-const canonical = `/free-appraisal/${page.slug}-guitar-appraisal/`;
+const canonical = `/free-appraisal/${page.slug}/`;
 const otherPages = appraisalPages.filter((item) => item.slug !== page.slug);
-const appraisalHref = `/free-appraisal/?brand=${encodeURIComponent(page.brand)}#appraisal-form`;
+const appraisalHref = "#appraisal-form";
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -29,18 +30,33 @@ const breadcrumbSchema = {
     { "@type": "ListItem", position: 2, name: `${page.brand} Guitar Appraisal`, item: `${SITE_URL}${canonical}` },
   ],
 };
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": `${SITE_URL}${canonical}#service`,
+  name: `${page.brand} Guitar Appraisal`,
+  serviceType: `${page.brand} guitar appraisal`,
+  description: page.description,
+  url: `${SITE_URL}${canonical}`,
+  provider: { "@id": `${SITE_URL}/` },
+  areaServed: [
+    { "@type": "Country", name: "United States" },
+    { "@type": "City", name: "Mesa", containedInPlace: { "@type": "State", name: "Arizona" } },
+  ],
+  offers: { "@type": "Offer", price: "0", priceCurrency: "USD", description: "Free initial market valuation from photos" },
+};
 ---
 
 <Layout
   title={`Free ${page.brand} Guitar Appraisal | Joe's Vintage Guitars`}
   description={page.description}
   canonical={canonical}
-  ogImage={`${SITE_URL}${page.heroImage.src}`}
+  ogImage={`${SITE_URL}${page.ogImage}`}
   ogImageAlt={page.heroAlt}
-  ogImageWidth={page.heroImage.width}
-  ogImageHeight={page.heroImage.height}
-  ogType="article"
-  structuredData={[faqSchema, breadcrumbSchema]}
+  ogImageWidth={1200}
+  ogImageHeight={630}
+  ogType="website"
+  structuredData={[faqSchema, breadcrumbSchema, serviceSchema]}
 >
   <main class="ap-page">
     <section class="ap-hero">
@@ -76,6 +92,24 @@ const breadcrumbSchema = {
           />
           <figcaption>{page.heroCaption}</figcaption>
         </figure>
+      </div>
+    </section>
+
+    <section class="ap-section ap-form-section" id="appraisal-form">
+      <div class="ap-container ap-form-grid">
+        <div>
+          <p class="ap-eyebrow">Start Here</p>
+          <h2>Tell Me About Your {page.brand}</h2>
+          <p class="ap-lede">Send the photos you have and tell me anything you know about the guitar. The brand is already filled in, and you do not need to know the exact model or year.</p>
+          <p>There is no charge for the first market valuation and no obligation to sell. After you submit the form, you can upload the guitar photos securely.</p>
+          <a class="ap-phone-link" href={hrefs.tel}>Or call or text Joe at {contact.phone}</a>
+        </div>
+        <LeadForm
+          formId={`free-${page.slug}-appraisal`}
+          instrumentValue={page.brand}
+          appraisalType={true}
+          submitLabel={`Get My Free ${page.brand} Appraisal`}
+        />
       </div>
     </section>
 
@@ -118,6 +152,21 @@ const breadcrumbSchema = {
       </div>
     </section>
 
+    <section class="ap-section ap-deep-dive">
+      <div class="ap-container ap-deep-grid">
+        <div>
+          <p class="ap-eyebrow">Brand Specific Appraisal</p>
+          <h2>{page.appraisalNotes.heading}</h2>
+          {page.appraisalNotes.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+        </div>
+        <aside>
+          <h3>Evidence I Want to See</h3>
+          <ul>{page.appraisalNotes.checks.map((item) => <li>{item}</li>)}</ul>
+          <a class="ap-button ap-button-rust" href="#appraisal-form">Send My {page.brand} Photos</a>
+        </aside>
+      </div>
+    </section>
+
     <section class="ap-section ap-dark">
       <div class="ap-container">
         <div class="ap-section-head">
@@ -154,9 +203,9 @@ const breadcrumbSchema = {
           <h2>How to Get a Free Appraisal</h2>
         </div>
         <div class="ap-process">
-          <article><span>01</span><h3>Send Photos and Details</h3><p>Include the serial number, model, repair history, and anything else you know.</p></article>
-          <article><span>02</span><h3>I Review the Guitar</h3><p>I identify it, check the condition and original parts, and compare it with recent sales.</p></article>
-          <article><span>03</span><h3>Get My Opinion</h3><p>I tell you what I think the guitar is and give you a current value range.</p></article>
+          {page.process.map((step, index) => (
+            <article><span>{String(index + 1).padStart(2, "0")}</span><h3>{step.title}</h3><p>{step.body}</p></article>
+          ))}
         </div>
       </div>
     </section>
@@ -201,7 +250,7 @@ const breadcrumbSchema = {
           <a class="ap-inline" href="/free-appraisal/">Return to the Free Appraisal Hub</a>
         </div>
         <nav class="ap-other-brands" aria-label="Other brand appraisal guides">
-          {otherPages.map((item) => <a href={`/free-appraisal/${item.slug}-guitar-appraisal/`}>{item.brand} Appraisal</a>)}
+          {otherPages.map((item) => <a href={`/free-appraisal/${item.slug}/`}>{item.brand} Appraisal</a>)}
         </nav>
       </div>
     </section>
@@ -267,6 +316,9 @@ const breadcrumbSchema = {
   :global(.ap-hero-img) { display: block; width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
   .ap-hero-figure figcaption { padding: 14px 17px; color: #decdb6; font-size: 0.82rem; line-height: 1.5; }
   .ap-section { padding: 88px 0; }
+  .ap-form-section { background: #fffaf0; }
+  .ap-form-grid { display: grid; grid-template-columns: minmax(0, 0.78fr) minmax(480px, 1.22fr); gap: clamp(38px, 6vw, 76px); align-items: start; }
+  .ap-phone-link { display: inline-block; margin-top: 14px; color: var(--color-brand-rust-dark); font-weight: 800; text-underline-offset: 3px; }
   .ap-paper { background: var(--ap-paper-2); }
   .ap-dark { color: #eee6da; background: #27231f; }
   .ap-dark p { color: #d7cec1; }
@@ -275,6 +327,13 @@ const breadcrumbSchema = {
   .ap-inline { color: var(--color-brand-rust-bright); font-weight: 800; text-decoration-thickness: 1px; text-underline-offset: 3px; }
   .ap-dark .ap-inline { color: #eab265; }
   .ap-note { margin-top: 24px; padding: 19px 21px; border-left: 4px solid var(--color-brand-rust-bright); background: #eadfce; }
+  .ap-deep-dive { background: #fffaf0; }
+  .ap-deep-grid { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.55fr); gap: clamp(40px, 7vw, 90px); align-items: start; }
+  .ap-deep-grid > div > p:not(.ap-eyebrow) { max-width: 760px; }
+  .ap-deep-grid aside { position: sticky; top: 130px; padding: 28px; border-top: 4px solid var(--color-brand-rust-bright); background: #eadfce; }
+  .ap-deep-grid aside ul { display: grid; gap: 13px; margin: 18px 0 0; padding: 0; list-style: none; }
+  .ap-deep-grid aside li { position: relative; padding-left: 23px; }
+  .ap-deep-grid aside li::before { content: "✓"; position: absolute; left: 0; color: var(--color-brand-rust-bright); font-weight: 900; }
   .ap-checklist, .ap-models { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 0; padding: 25px; border: 1px solid var(--ap-line); background: #fff; list-style: none; }
   .ap-checklist li, .ap-models li { position: relative; padding-left: 22px; }
   .ap-checklist li::before, .ap-models li::before { content: "✓"; position: absolute; left: 0; color: var(--color-brand-rust-bright); font-weight: 900; }
@@ -315,9 +374,10 @@ const breadcrumbSchema = {
   .ap-final-actions { display: grid; min-width: 290px; gap: 10px; text-align: center; }
   .ap-final-actions a:last-child { color: #fff; font-weight: 800; }
   @media (max-width: 920px) {
-    .ap-hero-grid, .ap-split { grid-template-columns: 1fr; }
+    .ap-hero-grid, .ap-split, .ap-form-grid, .ap-deep-grid { grid-template-columns: 1fr; }
     .ap-hero-copy { order: 1; }
     .ap-hero-figure { order: 2; width: min(100%, 520px); }
+    .ap-deep-grid aside { position: static; }
     .ap-factor-grid { grid-template-columns: 1fr 1fr; }
   }
   @media (max-width: 700px) {
