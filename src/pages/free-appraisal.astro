@@ -5,11 +5,14 @@ import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { appraisalPages } from "../data/appraisal-pages";
 import { contact, hrefs, SITE_URL } from "../config/site";
 import { resolveImage } from "../lib/images";
+import appraisalInProgress from "../assets/images/1956-gibson-es-5-n-appraisal.jpg";
 
 const VIDEO_ID = "uSu-Ld-xgnI";
 const jaguar = resolveImage("images/1966-fender-jaguar-lake-placid-blue.jpg")!;
 const neckDate = resolveImage("images/neck-heel-date-stamp-reading-15-may-66.jpg")!;
 const finishDetail = resolveImage("images/vintage-fender-custom-color-value.jpg")!;
+const fullGuitarPhoto = appraisalPages.find((page) => page.slug === "fender")!.heroImage;
+const interiorDetailPhoto = appraisalPages.find((page) => page.slug === "martin")!.evidence[1].image;
 
 const faqs = [
   { q: "Is the Guitar Appraisal Really Free?", a: "Yes. I do not charge for the first market valuation, and you do not have to sell. A signed report for insurance, an estate, a donation, or a legal matter is a separate service." },
@@ -152,14 +155,26 @@ const reviews = [
           <p class="ah-note"><strong>Only have a few photos?</strong> Send them. I can ask for specific details after I see the instrument.</p>
           <a class="ah-button ah-button-rust" href="#appraisal-form">Send Photos to Joe</a>
         </div>
-        <ul class="ah-photo-list">
-          <li>Complete front</li>
-          <li>Complete back</li>
-          <li>Headstock front</li>
-          <li>Headstock back</li>
-          <li>Serial number or label</li>
-          <li>Original case</li>
-        </ul>
+        <div class="ah-photo-guide">
+          <div class="ah-photo-examples">
+            <figure>
+              <LicensedImage src={fullGuitarPhoto} alt="Complete full-length photo of a vintage Fender Telecaster in its case" width={480} loading="lazy" sizes="(max-width: 760px) 44vw, 230px" />
+              <figcaption>Show the complete guitar</figcaption>
+            </figure>
+            <figure>
+              <LicensedImage src={interiorDetailPhoto} alt="Close photo of a C. F. Martin center strip stamp inside an acoustic guitar" width={480} loading="lazy" sizes="(max-width: 760px) 44vw, 230px" />
+              <figcaption>Add clear identifying details</figcaption>
+            </figure>
+          </div>
+          <ul class="ah-photo-list">
+            <li>Complete front</li>
+            <li>Complete back</li>
+            <li>Headstock front</li>
+            <li>Headstock back</li>
+            <li>Serial number or label</li>
+            <li>Original case</li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -170,19 +185,25 @@ const reviews = [
           <h2>Online Nationwide or In Person in Mesa, Arizona</h2>
           <p class="ah-lede">You can request an appraisal from anywhere in the United States. If you are near Mesa, you can also contact me about arranging a local, in-person appointment.</p>
         </div>
-        <div class="ah-location-grid">
-          <article>
-            <h3>No Shipping Required</h3>
-            <p>You do not have to ship your guitar to Mesa just to find out what it is. Clear photos of the full instrument, serial number, hardware, finish, and repairs are usually enough for me to begin.</p>
-          </article>
-          <article>
-            <h3>Local Appraisals in Mesa</h3>
-            <p>Joe's Vintage Guitars is based in Mesa, Arizona. Local owners can <a class="ah-inline" href="/contact-me/">contact me</a> to ask about an in-person appraisal before bringing an instrument to the shop.</p>
-          </article>
-          <article>
-            <h3>Remote Appraisals Across the Country</h3>
-            <p>I appraise guitars from photos for owners nationwide. Shipping only becomes a separate conversation if you later decide to sell the guitar to me.</p>
-          </article>
+        <div class="ah-location-layout">
+          <figure class="ah-location-photo">
+            <LicensedImage src={appraisalInProgress} alt="Joe Dampt closely examining a vintage Gibson guitar during an appraisal" width={900} loading="lazy" sizes="(max-width: 760px) 92vw, 520px" />
+            <figcaption>Joe examining the finish, hardware, and construction of a vintage Gibson.</figcaption>
+          </figure>
+          <div class="ah-location-grid">
+            <article>
+              <h3>No Shipping Required</h3>
+              <p>You do not have to ship your guitar to Mesa just to find out what it is. Clear photos of the full instrument, serial number, hardware, finish, and repairs are usually enough for me to begin.</p>
+            </article>
+            <article>
+              <h3>Local Appraisals in Mesa</h3>
+              <p>Joe's Vintage Guitars is based in Mesa, Arizona. Local owners can <a class="ah-inline" href="/contact-me/">contact me</a> to ask about an in-person appraisal before bringing an instrument to the shop.</p>
+            </article>
+            <article>
+              <h3>Remote Appraisals Across the Country</h3>
+              <p>I appraise guitars from photos for owners nationwide. Shipping only becomes a separate conversation if you later decide to sell the guitar to me.</p>
+            </article>
+          </div>
         </div>
       </div>
     </section>
@@ -196,13 +217,16 @@ const reviews = [
         </div>
         <div class="ah-brand-grid">
           {appraisalPages.map((page) => (
-            <a href={`/free-appraisal/${page.slug}/`}>
-              <h3>{page.brand}</h3>
-              <p>{page.heroCaption}</p>
-              <span>View {page.brand} Appraisal Guide</span>
+            <a class="ah-brand-card" href={`/free-appraisal/${page.slug}/`}>
+              <LicensedImage src={page.heroImage} alt={page.heroAlt} width={560} loading="lazy" class="ah-brand-image" sizes="(max-width: 760px) 92vw, (max-width: 1020px) 44vw, 340px" />
+              <div class="ah-brand-copy">
+                <h3>{page.brand}</h3>
+                <p>{page.heroCaption}</p>
+                <span>View {page.brand} Appraisal Guide</span>
+              </div>
             </a>
           ))}
-          <a href="#appraisal-form"><h3>Other Brands</h3><p>Epiphone, National, Dobro, Harmony, Kay, and unusual instruments.</p><span>Send Photos to Joe</span></a>
+          <a class="ah-brand-card ah-brand-card-other" href="#appraisal-form"><div class="ah-brand-copy"><h3>Other Brands</h3><p>Epiphone, National, Dobro, Harmony, Kay, and unusual instruments.</p><span>Send Photos to Joe</span></div></a>
         </div>
       </div>
     </section>
@@ -421,15 +445,29 @@ const reviews = [
   .ah-split, .ah-faq-grid { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(350px, 1.1fr); gap: clamp(36px, 6vw, 78px); align-items: start; }
   .ah-note { margin: 24px 0; padding: 19px 21px; border-left: 4px solid var(--color-brand-rust-bright); background: #fff; }
   .ah-location { background: #eadfce; }
-  .ah-location-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .ah-location-layout { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.1fr); gap: 20px; align-items: stretch; }
+  .ah-location-photo { position: relative; min-height: 100%; margin: 0; overflow: hidden; background: #211d18; }
+  :global(.ah-location-photo img) { width: 100%; height: 100%; min-height: 520px; object-fit: cover; }
+  .ah-location-photo figcaption { position: absolute; right: 0; bottom: 0; left: 0; padding: 15px 18px; color: #fffaf0; background: linear-gradient(transparent, rgba(20, 15, 10, 0.9)); font-size: 0.88rem; }
+  .ah-location-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
   .ah-location-grid article { padding: 27px; border-top: 3px solid var(--color-brand-rust-bright); background: #fffaf0; }
   .ah-location-grid p { margin-bottom: 0; }
+  .ah-photo-guide { display: grid; gap: 14px; }
+  .ah-photo-examples { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .ah-photo-examples figure { margin: 0; overflow: hidden; border: 1px solid var(--ah-line); background: #211d18; }
+  :global(.ah-photo-examples img) { display: block; width: 100%; height: 245px; object-fit: cover; }
+  :global(.ah-photo-examples figure:first-child img) { object-fit: contain; }
+  .ah-photo-examples figcaption { padding: 10px 12px; color: #fffaf0; font-size: 0.78rem; font-weight: 800; line-height: 1.35; text-align: center; }
   .ah-photo-list { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; margin: 0; padding: 30px; border: 1px solid var(--ah-line); background: #fff; list-style: none; }
   .ah-photo-list li { position: relative; padding-left: 22px; }
   .ah-photo-list li::before { content: "✓"; position: absolute; left: 0; color: var(--color-brand-rust-bright); font-weight: 900; }
   .ah-brand-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-  .ah-brand-grid a { display: flex; min-height: 220px; flex-direction: column; padding: 26px; border: 1px solid rgba(255, 255, 255, 0.16); color: inherit; text-decoration: none; transition: transform 0.2s ease, border-color 0.2s ease; }
+  .ah-brand-grid a { display: flex; min-height: 220px; flex-direction: column; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.16); color: inherit; text-decoration: none; transition: transform 0.2s ease, border-color 0.2s ease; }
   .ah-brand-grid a:hover { border-color: #eab265; transform: translateY(-3px); }
+  :global(.ah-brand-image) { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #171411; }
+  .ah-brand-copy { display: flex; flex: 1; flex-direction: column; padding: 22px 24px 24px; }
+  .ah-brand-card-other { grid-column: 1 / -1; }
+  .ah-brand-card-other .ah-brand-copy { min-height: 150px; justify-content: center; }
   .ah-brand-grid h3 { color: #fffaf0; font-size: 1.65rem; }
   .ah-brand-grid p { margin: 0; font-size: 0.93rem; }
   .ah-brand-grid span { margin-top: auto; padding-top: 18px; color: #eab265; font-family: var(--font-display); font-size: 0.84rem; font-weight: 700; text-transform: uppercase; }
@@ -469,8 +507,9 @@ const reviews = [
   .ah-final-actions { display: grid; min-width: 300px; gap: 10px; text-align: center; }
   .ah-final-actions a:last-child { color: #fff; font-weight: 800; }
   @media (max-width: 980px) {
-    .ah-hero-grid, .ah-split, .ah-case-grid, .ah-faq-grid { grid-template-columns: 1fr; }
+    .ah-hero-grid, .ah-split, .ah-case-grid, .ah-faq-grid, .ah-location-layout { grid-template-columns: 1fr; }
     .ah-factor-grid, .ah-brand-grid, .ah-reviews, .ah-resource-groups, .ah-location-grid { grid-template-columns: 1fr 1fr; }
+    :global(.ah-location-photo img) { min-height: 0; aspect-ratio: 16 / 9; }
   }
   @media (max-width: 700px) {
     .ah-container { width: min(100% - 26px, 1120px); }
@@ -478,6 +517,9 @@ const reviews = [
     .ah-hero h1 { font-size: clamp(3rem, 15vw, 4.7rem); }
     .ah-section { padding: 64px 0; }
     .ah-trust, .ah-card-grid, .ah-factor-grid, .ah-brand-grid, .ah-reviews, .ah-choice-grid, .ah-resource-groups, .ah-photo-list, .ah-location-grid { grid-template-columns: 1fr; }
+    :global(.ah-photo-examples img) { height: 210px; }
+    .ah-brand-card-other { grid-column: auto; }
+    .ah-brand-card-other .ah-brand-copy { min-height: 220px; }
     .ah-trust div + div { border-top: 1px solid rgba(255, 255, 255, 0.18); border-left: 0; }
     .ah-final-grid { align-items: flex-start; flex-direction: column; }
     .ah-final-actions { width: 100%; min-width: 0; }
