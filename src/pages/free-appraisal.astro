@@ -478,8 +478,8 @@ const reviews = [
   .ah-case-grid { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(400px, 1.1fr); gap: clamp(38px, 6vw, 76px); align-items: center; }
   .ah-case h3 a { color: #eab265; }
   .ah-result { padding: 20px; border-left: 4px solid #eab265; background: rgba(0, 0, 0, 0.17); }
-  .ah-case-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  :global(.ah-case-main) { grid-column: 1 / -1; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .ah-case-photos { display: grid; width: min(100%, 560px); grid-template-columns: 1fr 1fr; gap: 10px; justify-self: center; }
+  :global(.ah-case-main) { grid-column: 1 / -1; width: 100%; aspect-ratio: 2 / 3; object-fit: contain; background: #211d18; }
   :global(.ah-case-detail) { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
   .ah-reviews { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
   .ah-reviews a { display: flex; min-height: 100%; flex-direction: column; padding: 28px; border: 1px solid var(--ah-line); background: #fffaf0; color: inherit; text-decoration: none; transition: transform 0.2s ease, box-shadow 0.2s ease; }
