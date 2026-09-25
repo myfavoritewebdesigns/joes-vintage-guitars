@@ -196,6 +196,31 @@ const serviceSchema = {
       </div>
     </section>
 
+    <section class="ap-section ap-archive-section">
+      <div class="ap-container">
+        <div class="ap-section-head">
+          <p class="ap-eyebrow">From Joe's Archive</p>
+          <h2>Vintage {page.brand} Guitars I Have Handled</h2>
+          <p class="ap-lede">{page.archiveIntro}</p>
+        </div>
+        <div class="ap-archive-grid">
+          {page.archive.map((item) => (
+            <figure class="ap-archive-card">
+              <LicensedImage
+                src={item.image}
+                alt={item.alt}
+                width={720}
+                loading="lazy"
+                class="ap-archive-img"
+                sizes="(max-width: 700px) 92vw, (max-width: 920px) 46vw, 350px"
+              />
+              <figcaption>{item.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <section class="ap-section ap-process-section">
       <div class="ap-container">
         <div class="ap-section-head">
@@ -347,6 +372,11 @@ const serviceSchema = {
   .ap-factor { padding: 25px; border-top: 3px solid #c9863d; background: rgba(255, 255, 255, 0.06); }
   .ap-factor h3 { color: #fffaf0; }
   .ap-factor p { margin: 0; font-size: 0.94rem; }
+  .ap-archive-section { background: var(--ap-paper-2); }
+  .ap-archive-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .ap-archive-card { margin: 0; overflow: hidden; border: 1px solid var(--ap-line); background: #fffaf0; box-shadow: 0 12px 30px rgba(62, 42, 20, 0.09); }
+  :global(.ap-archive-img) { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .ap-archive-card figcaption { padding: 16px 18px; color: var(--color-brand-brown); font-family: var(--font-display); font-size: 1.02rem; font-weight: 700; line-height: 1.3; text-transform: uppercase; }
   .ap-process-section { background: #eadfce; }
   .ap-process { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
   .ap-process article { padding: 30px; border: 1px solid var(--ap-line); background: #fffaf0; }
@@ -379,13 +409,14 @@ const serviceSchema = {
     .ap-hero-figure { order: 2; width: min(100%, 520px); }
     .ap-deep-grid aside { position: static; }
     .ap-factor-grid { grid-template-columns: 1fr 1fr; }
+    .ap-archive-grid { grid-template-columns: 1fr 1fr; }
   }
   @media (max-width: 700px) {
     .ap-container { width: min(100% - 26px, 1120px); }
     .ap-hero { padding-top: 152px; }
     .ap-hero h1 { font-size: clamp(2.9rem, 15vw, 4.6rem); }
     .ap-section { padding: 64px 0; }
-    .ap-evidence-grid, .ap-factor-grid, .ap-process, .ap-resources, .ap-other-brands, .ap-checklist, .ap-models { grid-template-columns: 1fr; }
+    .ap-evidence-grid, .ap-factor-grid, .ap-archive-grid, .ap-process, .ap-resources, .ap-other-brands, .ap-checklist, .ap-models { grid-template-columns: 1fr; }
     .ap-final-grid { align-items: flex-start; flex-direction: column; }
     .ap-final-actions { width: 100%; min-width: 0; }
   }

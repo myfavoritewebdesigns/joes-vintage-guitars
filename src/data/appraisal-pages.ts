@@ -18,6 +18,24 @@ import guildCondition from "../assets/images/appraisal-spokes/details/guild-hard
 import rickenbackerHero from "../assets/images/appraisal-spokes/rickenbacker-portrait.jpg";
 import rickenbackerSerial from "../assets/images/appraisal-spokes/details/rickenbacker-serial.jpg";
 import rickenbackerPickup from "../assets/images/appraisal-spokes/details/rickenbacker-pickup.jpg";
+import fenderArchivePrecisionBass from "../assets/images/sell-fender/1952-fender-precision-bass-800x533.jpg";
+import fenderArchiveStratocaster from "../assets/images/sell-fender/1956-fender-stratocaster-sunburst-800x533.jpg";
+import fenderArchiveJazzmaster from "../assets/images/sell-fender/1965-fender-jazzmaster-charcoal-frost-800x533.jpg";
+import gibsonArchiveLesPaul from "../assets/images/1956-gibson-les-paul-standard-1-scaled.jpg";
+import gibsonArchiveTriniLopez from "../assets/images/sell-gibson/1966-gibson-trini-lopez-cherry-finish-1024x683.jpg";
+import gibsonArchiveEs335 from "../assets/images/sell-collection/1966-gibson-es-335-1024x683.jpg";
+import martinArchiveD18 from "../assets/images/sell-martin/1953-martin-D-18-1-1024x682.jpg";
+import martinArchiveD28 from "../assets/images/sell-martin/1959-martin-D-28-1024x683.jpg";
+import martinArchive00021 from "../assets/images/sell-martin/1956-martin-000-21-1-1024x683.jpg";
+import gretschArchiveCountryClub from "../assets/images/sell-gretsch/1955-gretsch-country-club-natural.jpg";
+import gretschArchive6120 from "../assets/images/sell-gretsch/1960-gretsch-6120-orange.jpg";
+import gretschArchiveViking from "../assets/images/sell-gretsch/1967-gretsch-viking-sunburst.jpg";
+import guildArchiveX175 from "../assets/images/sell-guild/1950s-guild-x175-sunburst-1.jpg";
+import guildArchiveThunderbird from "../assets/images/sell-guild/guild-thunderbird.jpg";
+import guildArchiveX500 from "../assets/images/sell-guild/guild-x500-blonde.jpg";
+import rickenbackerArchive4005 from "../assets/images/1968-rickenbacker-4005-azureglo-scaled.jpg";
+import rickenbackerArchive360 from "../assets/images/rickenbacker-serial/1960s-rickenbacker-360-2-scaled.jpg";
+import rickenbackerArchiveBinding from "../assets/images/rickenbacker-serial/rickenbacker-checklerboard-binding-scaled.jpg";
 
 export interface AppraisalLink {
   href: string;
@@ -50,6 +68,12 @@ export interface AppraisalPage {
   factors: Array<{ title: string; body: string }>;
   valueGuide: AppraisalLink;
   models: string[];
+  archiveIntro: string;
+  archive: Array<{
+    image: ImageMetadata;
+    alt: string;
+    caption: string;
+  }>;
   process: Array<{ title: string; body: string }>;
   resources: Array<AppraisalLink & { body: string }>;
   review: {
@@ -113,6 +137,12 @@ export const appraisalPages: AppraisalPage[] = [
     ],
     valueGuide: { href: "/vintage-fender-stratocaster-value-guide/", label: "Vintage Stratocaster Value Guide" },
     models: ["Stratocaster", "Telecaster", "Esquire", "Jazzmaster", "Jaguar", "Mustang", "Precision Bass", "Jazz Bass", "Coronado", "Vintage Fender Amplifiers"],
+    archiveIntro: "These Fender photos show how much can change between a Precision Bass, Stratocaster, and Jazzmaster. Body shape is obvious, but finish wear, hardware, and period features are just as useful.",
+    archive: [
+      { image: fenderArchivePrecisionBass, alt: "1952 Fender Precision Bass in its case", caption: "1952 Fender Precision Bass" },
+      { image: fenderArchiveStratocaster, alt: "1956 Fender Stratocaster in sunburst finish", caption: "1956 Fender Stratocaster" },
+      { image: fenderArchiveJazzmaster, alt: "1965 Fender Jazzmaster in charcoal frost finish", caption: "1965 Fender Jazzmaster" },
+    ],
     process: [
       { title: "Send the Fender Clues", body: "Start with the full front and back, headstock, neck or bridge plate, finish wear, controls, and case. Leave the neck and pickguard in place unless I later ask for a safe detail." },
       { title: "I Match the Dates and Features", body: "I compare the serial range with the model, logo, neck and body construction, hardware, electronics, and finish evidence to establish the most defensible production period." },
@@ -178,6 +208,12 @@ export const appraisalPages: AppraisalPage[] = [
     ],
     valueGuide: { href: "/vintage-gibson-les-paul-market-value-guide/", label: "Vintage Les Paul Market Value Guide" },
     models: ["Les Paul", "SG", "ES-335", "ES-175", "L-5", "Super 400", "J-45", "Hummingbird", "Southern Jumbo", "Firebird", "Explorer", "Flying V", "EB Basses", "Mandolins"],
+    archiveIntro: "These three Gibsons belong to different parts of the market. I compare each guitar's construction, finish, electronics, hardware, and repair history with examples of the same model and period.",
+    archive: [
+      { image: gibsonArchiveLesPaul, alt: "1956 Gibson Les Paul Standard Goldtop", caption: "1956 Gibson Les Paul Standard Goldtop" },
+      { image: gibsonArchiveTriniLopez, alt: "1966 Gibson Trini Lopez in cherry finish", caption: "1966 Gibson Trini Lopez" },
+      { image: gibsonArchiveEs335, alt: "1966 Gibson ES-335 in cherry finish", caption: "1966 Gibson ES-335" },
+    ],
     process: [
       { title: "Show the Gibson Markings", body: "Send the full guitar, both sides of the headstock, serial or label, neck joint, pickups, controls, hardware, finish, case, and every visible repair." },
       { title: "I Identify the Model and Factory Period", body: "I compare the numbering system with construction, logo, hardware, electronics, and finish so reused serials or replaced parts do not lead to the wrong year." },
@@ -247,6 +283,12 @@ export const appraisalPages: AppraisalPage[] = [
     ],
     valueGuide: { href: "/martin-d-28-d-18-d-45-dreadnought-value-guide/", label: "Martin Dreadnought Value Guide" },
     models: ["D-18", "D-28", "D-35", "D-45", "0-18", "00-18", "000-18", "000-28", "OM-18", "OM-28", "00-21", "000-21", "12-Fret Martins"],
+    archiveIntro: "These Martins show why body size and specifications matter. A D-18, D-28, and 000-21 need separate comparisons, along with a close look at finish, structure, repairs, and original parts.",
+    archive: [
+      { image: martinArchiveD18, alt: "1953 Martin D-18 acoustic guitar", caption: "1953 Martin D-18" },
+      { image: martinArchiveD28, alt: "1959 Martin D-28 acoustic guitar in its case", caption: "1959 Martin D-28" },
+      { image: martinArchive00021, alt: "1956 Martin 000-21 acoustic guitar in its case", caption: "1956 Martin 000-21" },
+    ],
     process: [
       { title: "Photograph the Martin Inside and Out", body: "Include the complete guitar, neck block stamp, headstock, bridge and saddle, top, back, sides, neck joint, cracks, repairs, case, and paperwork." },
       { title: "I Establish the Specification", body: "The serial year is checked against the model, body size, woods, bracing, trim, hardware, finish, and interior work to identify the correct Martin period." },
@@ -316,6 +358,12 @@ export const appraisalPages: AppraisalPage[] = [
     ],
     valueGuide: { href: "/post/gretsch-6120-history-value/", label: "Gretsch 6120 History and Value Guide" },
     models: ["6120", "Duo Jet", "White Falcon", "Country Gentleman", "Tennessean", "Country Club", "Anniversary", "Viking", "Chet Atkins Models", "Vintage Gretsch Basses"],
+    archiveIntro: "A Country Club, 6120, and Viking do not share one value range. Pickups, binding, hardware, finish, model features, and structural condition help me place each guitar in its proper market.",
+    archive: [
+      { image: gretschArchiveCountryClub, alt: "1955 Gretsch Country Club in natural finish", caption: "1955 Gretsch Country Club" },
+      { image: gretschArchive6120, alt: "1960 Gretsch 6120 in orange finish", caption: "1960 Gretsch 6120" },
+      { image: gretschArchiveViking, alt: "1967 Gretsch Viking in sunburst finish", caption: "1967 Gretsch Viking" },
+    ],
     process: [
       { title: "Show the Label and Gretsch Features", body: "Send the full body, headstock, label or serial, inlays, pickups, control layout, bridge, tailpiece or Bigsby, binding, neck joint, and case." },
       { title: "I Match the Model to Its Period", body: "I compare the number with construction, logo, inlays, pickups, hardware, and control layout, then note later parts, finish work, or conversions." },
@@ -385,6 +433,12 @@ export const appraisalPages: AppraisalPage[] = [
     ],
     valueGuide: { href: "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/", label: "Seven Factors That Determine Value" },
     models: ["X-175", "X-500", "Starfire", "Thunderbird", "Bluesbird", "M-20", "F-30", "F-40", "F-50", "D-40", "D-50", "Guild 12 Strings"],
+    archiveIntro: "Guild made very different guitars under the same name. These X-175, Thunderbird, and X-500 examples show why the construction, pickups, trim, finish, factory period, and condition all need to be identified.",
+    archive: [
+      { image: guildArchiveX175, alt: "1950s Guild X-175 sunburst guitar in its case", caption: "1950s Guild X-175" },
+      { image: guildArchiveThunderbird, alt: "Vintage Guild Thunderbird in sunburst finish", caption: "Vintage Guild Thunderbird" },
+      { image: guildArchiveX500, alt: "Vintage Guild X-500 archtop in blonde finish", caption: "Vintage Guild X-500" },
+    ],
     process: [
       { title: "Start With the Guild Label and Model", body: "Send the complete instrument, headstock, label, serial, body and neck joint, hardware, finish, repairs, case, and any paperwork or family history." },
       { title: "I Identify the Factory Period", body: "I use the label, serial range, construction, woods, logo, trim, pickups, and hardware to distinguish New York, Hoboken, Westerly, and later production." },
@@ -454,6 +508,12 @@ export const appraisalPages: AppraisalPage[] = [
     ],
     valueGuide: { href: "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/", label: "Seven Factors That Determine Value" },
     models: ["325", "330", "360", "365", "381", "4001", "4003", "4005", "12 String Guitars", "Capri Models", "Lap Steels", "Frying Pan Instruments"],
+    archiveIntro: "Rickenbacker model details can be easy to miss in one overall photo. The 4005, 360, and checkerboard binding below show the construction and trim clues I use alongside the serial code.",
+    archive: [
+      { image: rickenbackerArchive4005, alt: "1968 Rickenbacker 4005 bass in Azureglo finish", caption: "1968 Rickenbacker 4005 Bass" },
+      { image: rickenbackerArchive360, alt: "1960s Rickenbacker 360 guitar in natural finish", caption: "1960s Rickenbacker 360" },
+      { image: rickenbackerArchiveBinding, alt: "Checkerboard binding on the back of a vintage Rickenbacker guitar", caption: "Period Checkerboard Binding Detail" },
+    ],
     process: [
       { title: "Photograph the Jack Plate and Model Features", body: "Include the full instrument, headstock and logo plate, jack plate code, pickups, controls, bridge, tailpiece, binding, inlays, finish, repairs, and case." },
       { title: "I Confirm the Rickenbacker Specification", body: "I compare the serial code with construction, pickup version, trim, wiring, and hardware to identify the model period and any later changes." },
