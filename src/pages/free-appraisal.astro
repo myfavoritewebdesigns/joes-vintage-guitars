@@ -6,13 +6,13 @@ import { appraisalPages } from "../data/appraisal-pages";
 import { contact, hrefs, SITE_URL } from "../config/site";
 import { resolveImage } from "../lib/images";
 import appraisalInProgress from "../assets/images/1956-gibson-es-5-n-appraisal.jpg";
+import martinSerialDetail from "../assets/blog/one-owner-1956-martin-000-21/1956-martin-000-21-neck-block-stamp.jpg";
 
 const VIDEO_ID = "uSu-Ld-xgnI";
 const jaguar = resolveImage("images/1966-fender-jaguar-lake-placid-blue.jpg")!;
 const neckDate = resolveImage("images/neck-heel-date-stamp-reading-15-may-66.jpg")!;
 const finishDetail = resolveImage("images/vintage-fender-custom-color-value.jpg")!;
 const fullGuitarPhoto = appraisalPages.find((page) => page.slug === "fender")!.heroImage;
-const interiorDetailPhoto = appraisalPages.find((page) => page.slug === "martin")!.evidence[1].image;
 
 const faqs = [
   { q: "Is the Guitar Appraisal Really Free?", a: "Yes. I do not charge for the first market valuation, and you do not have to sell. A signed report for insurance, an estate, a donation, or a legal matter is a separate service." },
@@ -162,8 +162,8 @@ const reviews = [
               <figcaption>Show the complete guitar</figcaption>
             </figure>
             <figure>
-              <LicensedImage src={interiorDetailPhoto} alt="Close photo of a C. F. Martin center strip stamp inside an acoustic guitar" width={480} loading="lazy" sizes="(max-width: 760px) 44vw, 230px" />
-              <figcaption>Add clear identifying details</figcaption>
+              <LicensedImage src={martinSerialDetail} alt="Clear model and serial number stamped on the neck block inside a vintage Martin guitar" width={480} loading="lazy" sizes="(max-width: 760px) 44vw, 230px" />
+              <figcaption>Show the serial number clearly</figcaption>
             </figure>
           </div>
           <ul class="ah-photo-list">
