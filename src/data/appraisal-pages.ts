@@ -2,7 +2,7 @@ import type { ImageMetadata } from "astro";
 
 import fenderHero from "../assets/images/appraisal-spokes/fender-portrait.jpg";
 import fenderSerial from "../assets/images/appraisal-spokes/details/fender-serial.jpg";
-import fenderHardware from "../assets/images/appraisal-spokes/details/fender-neck-plate.jpg";
+import fenderHardware from "../assets/blog/1952-fender-telecaster-authentication-guide/fender-telecaster-coarse-knurled-round-top-knob-1024x683.jpg";
 import gibsonHero from "../assets/images/appraisal-spokes/gibson-portrait.jpg";
 import gibsonSerial from "../assets/images/appraisal-spokes/details/gibson-serial.jpg";
 import gibsonPickup from "../assets/images/appraisal-spokes/details/gibson-pickup.jpg";
@@ -56,6 +56,11 @@ export interface AppraisalPage {
     paragraphs: string[];
     checks: string[];
   };
+  relatedReading: Array<{
+    lead: string;
+    links: AppraisalLink[];
+    tail: string;
+  }>;
   photoIntro: string;
   serialGuide: AppraisalLink;
   photoList: string[];
@@ -115,6 +120,27 @@ export const appraisalPages: AppraisalPage[] = [
         "Hardware, plastics, electronics, and case match the model and era",
       ],
     },
+    relatedReading: [
+      {
+        lead: "If you want to check the dating clues I use, start with my",
+        links: [
+          { href: "/fender-neck-dates/", label: "Fender neck date guide" },
+          { href: "/fender-body-dates/", label: "body date guide" },
+          { href: "/fender-pot-codes/", label: "potentiometer code guide" },
+          { href: "/fender-pickup-dates/", label: "pickup date guide" },
+        ],
+        tail: "before removing any parts.",
+      },
+      {
+        lead: "For close visual comparisons, see the",
+        links: [
+          { href: "/post/fender-custom-color-authentication-guide/", label: "Fender custom color guide" },
+          { href: "/post/1952-fender-telecaster-authentication-guide/", label: "1952 Telecaster authentication guide" },
+          { href: "/post/1963-fender-stratocaster-authentication-guide/", label: "1963 Stratocaster authentication guide" },
+        ],
+        tail: "for examples of finish, hardware, and construction evidence.",
+      },
+    ],
     photoIntro: "The neck plate or bridge plate is one clue, but it may not settle the date. I may also check the neck heel, body cavities, potentiometers, pickups, hardware, and finish.",
     serialGuide: { href: "/fender-guitars-serial-number-guide/", label: "Fender serial number and dating guide" },
     photoList: [
@@ -127,7 +153,7 @@ export const appraisalPages: AppraisalPage[] = [
     ],
     evidence: [
       { image: fenderSerial, alt: "Vintage Fender neck plate with a visible serial number", title: "Serial Number Location", body: "A clear photo of the neck plate or bridge plate gives me one date clue." },
-      { image: fenderHardware, alt: "Close view of a vintage Fender neck plate, finish, and hardware", title: "Finish and Hardware Details", body: "Finish edges, screws, plates, and wear help me spot changed parts or later finish work." },
+      { image: fenderHardware, alt: "Close view of a coarse-knurled round-top control knob on a 1952 Fender Telecaster", title: "Finish and Hardware Details", body: "Knurling, shape, plating, and wear can help me separate period hardware from later replacement parts." },
     ],
     factors: [
       { title: "Model and Production Period", body: "A Stratocaster, Telecaster, Esquire, offset, or bass needs the right comparison group. Construction changes can narrow the date beyond the serial number." },
@@ -186,6 +212,28 @@ export const appraisalPages: AppraisalPage[] = [
         "Repairs and finish work are compared with similar market examples",
       ],
     },
+    relatedReading: [
+      {
+        lead: "To compare the parts that often settle a Gibson appraisal, use my",
+        links: [
+          { href: "/gibson-headstock-logo-chronology/", label: "headstock logo chronology" },
+          { href: "/gibson-knob-dating-guide/", label: "knob dating guide" },
+          { href: "/gibson-tuner-dating-guide/", label: "tuner dating guide" },
+          { href: "/gibson-pot-codes/", label: "potentiometer code guide" },
+          { href: "/gibson-physical-features-hardware-guide/", label: "physical features and hardware guide" },
+        ],
+        tail: "alongside the serial number.",
+      },
+      {
+        lead: "For model-specific construction changes, read the",
+        links: [
+          { href: "/gibson-les-paul-dating-guide/", label: "Les Paul dating guide" },
+          { href: "/gibson-sg-dating-guide/", label: "SG dating guide" },
+          { href: "/gibson-es-335-345-355-dating-guide/", label: "ES-335, ES-345, and ES-355 dating guide" },
+        ],
+        tail: "before comparing prices.",
+      },
+    ],
     photoIntro: "Gibson reused some serial numbers and changed its numbering systems over time. Older instruments may also have factory order numbers or interior labels. I compare those markings with the construction and specifications in your photos.",
     serialGuide: { href: "/how-to-read-gibson-serial-numbers/", label: "Gibson serial number guide" },
     photoList: [
@@ -261,6 +309,18 @@ export const appraisalPages: AppraisalPage[] = [
         "Case, documents, provenance, and replaced parts stay with the guitar",
       ],
     },
+    relatedReading: [
+      {
+        lead: "For the details that place an older Martin in the right market, read the",
+        links: [
+          { href: "/martin-serial-and-model-numbers/", label: "Martin serial and model number guide" },
+          { href: "/post/martin-d18-history-specs-authentication-value-guide/", label: "D-18 history and authentication guide" },
+          { href: "/post/martin-0-00-000-history-authentication-value-guide/", label: "0, 00, and 000 body guide" },
+          { href: "/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/", label: "old Martin value guide" },
+        ],
+        tail: "as you photograph the neck block, body, and repairs.",
+      },
+    ],
     photoIntro: "The serial number and model stamp are usually on the neck block inside the soundhole. I also check the headstock, bridge, pickguard, top, back, sides, bracing, finish, and repair history.",
     serialGuide: { href: "/martin-serial-and-model-numbers/", label: "Martin serial and model number guide" },
     photoList: [
@@ -336,6 +396,17 @@ export const appraisalPages: AppraisalPage[] = [
         "The guitar is compared with the same model family and production era",
       ],
     },
+    relatedReading: [
+      {
+        lead: "You can compare the evidence on your guitar with my",
+        links: [
+          { href: "/gretsch-serial-number-lookup/", label: "Gretsch serial number lookup" },
+          { href: "/post/gretsch-6120-history-value/", label: "6120 history and value guide" },
+          { href: "/post/gretsch-duo-jet-history-value/", label: "Duo Jet history and value guide" },
+        ],
+        tail: "before sending the label, pickups, binding, and hardware photos.",
+      },
+    ],
     photoIntro: "Gretsch serial number locations and formats changed over time. I compare the number with the label, headstock, body shape, inlays, pickups, controls, hardware, and construction.",
     serialGuide: { href: "/gretsch-serial-number-lookup/", label: "Gretsch serial number lookup" },
     photoList: [
@@ -411,6 +482,17 @@ export const appraisalPages: AppraisalPage[] = [
         "Comparable sales match the exact Guild model and production period",
       ],
     },
+    relatedReading: [
+      {
+        lead: "Because public Guild sales can be sparse, start with the",
+        links: [
+          { href: "/guild-serial-number-lookup/", label: "Guild serial number lookup" },
+          { href: "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/", label: "seven factors that determine value" },
+          { href: "/post/blue-book-of-guitar-values-and-vintage-guitar-price-guide/", label: "guide to using guitar price guides" },
+        ],
+        tail: "and then send the model-specific details for a closer comparison.",
+      },
+    ],
     photoIntro: "Guild serial numbers can help with the production period, but the model and factory details still need to match. I also check labels, construction, woods, pickups, hardware, finish, and repairs.",
     serialGuide: { href: "/guild-serial-number-lookup/", label: "Guild serial number lookup" },
     photoList: [
@@ -486,6 +568,17 @@ export const appraisalPages: AppraisalPage[] = [
         "Sales comparisons match the exact Rickenbacker model and specification",
       ],
     },
+    relatedReading: [
+      {
+        lead: "To research the guitar without relying on the jack plate alone, use the",
+        links: [
+          { href: "/rickenbacker-serial-numbers/", label: "Rickenbacker serial number guide" },
+          { href: "/post/what-a-serial-number-cant-tell-you/", label: "guide to what a serial number cannot tell you" },
+          { href: "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/", label: "seven factors that determine value" },
+        ],
+        tail: "while you check the pickups, binding, finish, and hardware.",
+      },
+    ],
     photoIntro: "Many Rickenbacker instruments have the serial code on the output jack plate. The code helps with the date, but I also check the model features, construction, pickups, binding, and finish.",
     serialGuide: { href: "/rickenbacker-serial-numbers/", label: "Rickenbacker serial number guide" },
     photoList: [

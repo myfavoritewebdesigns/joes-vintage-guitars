@@ -158,6 +158,19 @@ const serviceSchema = {
           <p class="ap-eyebrow">Brand Specific Appraisal</p>
           <h2>{page.appraisalNotes.heading}</h2>
           {page.appraisalNotes.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+          <div class="ap-related-reading">
+            {page.relatedReading.map((group) => (
+              <p>
+                {group.lead}{" "}
+                {group.links.map((link, index) => (
+                  <>
+                    {index > 0 && (index === group.links.length - 1 ? (group.links.length === 2 ? " and " : ", and ") : ", ")}
+                    <a class="ap-inline" href={link.href}>{link.label}</a>
+                  </>
+                ))}{" "}{group.tail}
+              </p>
+            ))}
+          </div>
         </div>
         <aside>
           <h3>Evidence I Want to See</h3>
@@ -353,6 +366,8 @@ const serviceSchema = {
   .ap-dark .ap-inline { color: #eab265; }
   .ap-note { margin-top: 24px; padding: 19px 21px; border-left: 4px solid var(--color-brand-rust-bright); background: #eadfce; }
   .ap-deep-dive { background: #fffaf0; }
+  .ap-related-reading { margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--ap-line); }
+  .ap-related-reading p:last-child { margin-bottom: 0; }
   .ap-deep-grid { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.55fr); gap: clamp(40px, 7vw, 90px); align-items: start; }
   .ap-deep-grid > div > p:not(.ap-eyebrow) { max-width: 760px; }
   .ap-deep-grid aside { position: sticky; top: 130px; padding: 28px; border-top: 4px solid var(--color-brand-rust-bright); background: #eadfce; }
