@@ -141,7 +141,7 @@ export const appraisalPages: AppraisalPage[] = [
         tail: "for examples of finish, hardware, and construction evidence.",
       },
     ],
-    photoIntro: "The neck plate or bridge plate is one clue, but it may not settle the date. I may also check the neck heel, body cavities, potentiometers, pickups, hardware, and finish.",
+    photoIntro: "The neck plate or bridge plate is one clue, but it may not settle the date. I may also check the neck heel, body cavities, potentiometers, pickups, hardware, and finish. Fender owners across the country can start with photos, and there is no need to ship the guitar. If you are near Mesa, Arizona, contact me about bringing it to the shop.",
     serialGuide: { href: "/fender-guitars-serial-number-guide/", label: "Fender serial number and dating guide" },
     photoList: [
       "The complete front and back of the instrument",
@@ -191,7 +191,7 @@ export const appraisalPages: AppraisalPage[] = [
   {
     slug: "gibson",
     brand: "Gibson",
-    description: "Get a free Gibson guitar appraisal from Joe Dampt. Send photos for help identifying the model, year, original parts, repairs, and current market value.",
+    description: "Get a free Gibson guitar appraisal from Joe Dampt. Send photos to verify its serial number, construction, pickups, finish, repairs, and current market value.",
     heroText: "A Gibson serial number is a starting point. I also check the model, construction, finish, hardware, electronics, repairs, and recent sales before I give you a value range.",
     heroImage: gibsonHero,
     ogImage: "/images/og/appraisal/gibson-guitar-appraisal.jpg",
@@ -234,7 +234,7 @@ export const appraisalPages: AppraisalPage[] = [
         tail: "before comparing prices.",
       },
     ],
-    photoIntro: "Gibson reused some serial numbers and changed its numbering systems over time. Older instruments may also have factory order numbers or interior labels. I compare those markings with the construction and specifications in your photos.",
+    photoIntro: "Gibson reused some serial numbers and changed its numbering systems over time. Older instruments may also have factory order numbers or interior labels. I compare those markings with the construction and specifications in your photos. Most Gibson appraisals are handled from photos by email, so you can start from anywhere in the country without shipping the guitar. If you are near Mesa, Arizona, you can ask about an in-person visit.",
     serialGuide: { href: "/how-to-read-gibson-serial-numbers/", label: "Gibson serial number guide" },
     photoList: [
       "The complete front and back of the guitar",
@@ -321,7 +321,7 @@ export const appraisalPages: AppraisalPage[] = [
         tail: "as you photograph the neck block, body, and repairs.",
       },
     ],
-    photoIntro: "The serial number and model stamp are usually on the neck block inside the soundhole. I also check the headstock, bridge, pickguard, top, back, sides, bracing, finish, and repair history.",
+    photoIntro: "The serial number and model stamp are usually on the neck block inside the soundhole. I also check the headstock, bridge, pickguard, top, back, sides, bracing, finish, and repair history. You can request a Martin appraisal from anywhere in the United States by sending clear photos; the guitar does not need to be shipped. Owners near Mesa, Arizona, can contact me about an in-person appraisal.",
     serialGuide: { href: "/martin-serial-and-model-numbers/", label: "Martin serial and model number guide" },
     photoList: [
       "The complete front and back of the guitar",
@@ -375,7 +375,7 @@ export const appraisalPages: AppraisalPage[] = [
   {
     slug: "gretsch",
     brand: "Gretsch",
-    description: "Get a free Gretsch guitar appraisal from Joe Dampt. Send photos for help identifying the model, year, original parts, repairs, and current market value.",
+    description: "Get a free Gretsch guitar appraisal from Joe Dampt. Send photos to identify production period, pickups, hardware, binding condition, and current market value.",
     heroText: "For a Gretsch appraisal, I check the serial number, model features, pickups, hardware, finish, binding, repairs, and completed sales of comparable guitars.",
     heroImage: gretschHero,
     ogImage: "/images/og/appraisal/gretsch-guitar-appraisal.jpg",
@@ -407,7 +407,7 @@ export const appraisalPages: AppraisalPage[] = [
         tail: "before sending the label, pickups, binding, and hardware photos.",
       },
     ],
-    photoIntro: "Gretsch serial number locations and formats changed over time. I compare the number with the label, headstock, body shape, inlays, pickups, controls, hardware, and construction.",
+    photoIntro: "Gretsch serial number locations and formats changed over time. I compare the number with the label, headstock, body shape, inlays, pickups, controls, hardware, and construction. Gretsch owners nationwide can begin with photos by email, and the guitar can stay safely at home. If you are close to Mesa, Arizona, contact me about an in-person appraisal at the shop.",
     serialGuide: { href: "/gretsch-serial-number-lookup/", label: "Gretsch serial number lookup" },
     photoList: [
       "The complete front and back of the guitar",
@@ -447,9 +447,9 @@ export const appraisalPages: AppraisalPage[] = [
       { href: "/sell-my-gretsch-guitar/", label: "Sell My Gretsch Guitar", body: "Ask me for a separate cash offer after the appraisal." },
     ],
     review: {
-      name: "John Haverlin",
-      body: "Had him set up my Les Paul and Gretsch and he did a superb job. Look forward to coming back to him again in the future.",
-      href: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNLN2JqMzVRRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICK7bj35QE%7C%7C?hl=en",
+      name: "Jessica Hammond",
+      body: "He appraised 2 guitars for me incredibly quickly at no cost.",
+      href: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pKQ2JXcDJiVWxaV1VWNWNtMVJNbFZIVjAxdGQwRRAB!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CAIQACodChtycF9oOjJCbWp2bUlZWUV5cm1RMlVHV01td0E%7C%7C?hl=en",
     },
     faqs: [
       { q: "Can You Appraise My Gretsch From Photos?", a: "Yes. Send the full guitar, serial number or label, headstock, pickups, hardware, finish, binding, and any repairs." },
@@ -493,7 +493,7 @@ export const appraisalPages: AppraisalPage[] = [
         tail: "and then send the model-specific details for a closer comparison.",
       },
     ],
-    photoIntro: "Guild serial numbers can help with the production period, but the model and factory details still need to match. I also check labels, construction, woods, pickups, hardware, finish, and repairs.",
+    photoIntro: "Guild serial numbers can help with the production period, but the model and factory details still need to match. I also check labels, construction, woods, pickups, hardware, finish, and repairs. I appraise Guild guitars for owners throughout the country from clear photos, with no shipping required. If you are local to Mesa, Arizona, contact me to arrange an in-person visit.",
     serialGuide: { href: "/guild-serial-number-lookup/", label: "Guild serial number lookup" },
     photoList: [
       "The complete front and back of the instrument",
@@ -547,7 +547,7 @@ export const appraisalPages: AppraisalPage[] = [
   {
     slug: "rickenbacker",
     brand: "Rickenbacker",
-    description: "Get a free Rickenbacker guitar appraisal from Joe Dampt. Send photos for help identifying the model, year, original parts, repairs, and current market value.",
+    description: "Get a free Rickenbacker appraisal from Joe Dampt. Send photos to check the jack plate code, pickups, binding, finish, originality, and current market value.",
     heroText: "For a Rickenbacker, I check the exact model, production period, pickups, hardware, finish, original parts, condition, and recent sales before I give you a value range.",
     heroImage: rickenbackerHero,
     ogImage: "/images/og/appraisal/rickenbacker-guitar-appraisal.jpg",
@@ -579,7 +579,7 @@ export const appraisalPages: AppraisalPage[] = [
         tail: "while you check the pickups, binding, finish, and hardware.",
       },
     ],
-    photoIntro: "Many Rickenbacker instruments have the serial code on the output jack plate. The code helps with the date, but I also check the model features, construction, pickups, binding, and finish.",
+    photoIntro: "Many Rickenbacker instruments have the serial code on the output jack plate. The code helps with the date, but I also check the model features, construction, pickups, binding, and finish. A remote Rickenbacker appraisal starts with photos, whether you are in Arizona or elsewhere in the country; do not ship the instrument just to get a value. If you are near Mesa, contact me about an in-person appraisal.",
     serialGuide: { href: "/rickenbacker-serial-numbers/", label: "Rickenbacker serial number guide" },
     photoList: [
       "The complete front and back of the instrument",
@@ -619,9 +619,9 @@ export const appraisalPages: AppraisalPage[] = [
       { href: "/sell-my-rickenbacker-guitar/", label: "Sell My Rickenbacker Guitar", body: "Ask me for a separate cash offer after the appraisal." },
     ],
     review: {
-      name: "Cody Folk DeCou",
-      body: "I dropped my Rickenbacker 4003 off with him on Thursday for a setup, and he had it ready to be picked up the following afternoon!",
-      href: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURDMHZYQ0FnEAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgIDC0vXCAg%7C%7C?hl=en",
+      name: "Ray",
+      body: "Joe patiently went through each instrument and provided me with a range of values for each one. I appreciated his knowledge, honesty, and willingness to take time to help me.",
+      href: "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNlanAzNEpREAE!2m1!1s0x0:0x69728d089b8a764!3m1!1s2@1:CIHM0ogKEICAgICejp34JQ%7C%7C?hl=en",
     },
     faqs: [
       { q: "Can You Appraise My Rickenbacker From Photos?", a: "Yes. Send the full instrument, jack plate serial code, headstock, pickups, hardware, finish, binding, and repairs." },

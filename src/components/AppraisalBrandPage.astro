@@ -26,8 +26,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Free Guitar Appraisal", item: `${SITE_URL}/free-appraisal/` },
-    { "@type": "ListItem", position: 2, name: `${page.brand} Guitar Appraisal`, item: `${SITE_URL}${canonical}` },
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Free Guitar Appraisal", item: `${SITE_URL}/free-appraisal/` },
+    { "@type": "ListItem", position: 3, name: `${page.brand} Guitar Appraisal`, item: `${SITE_URL}${canonical}` },
   ],
 };
 const serviceSchema = {
@@ -63,6 +64,8 @@ const serviceSchema = {
       <div class="ap-container ap-hero-grid">
         <div class="ap-hero-copy">
           <nav class="ap-breadcrumbs" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span aria-hidden="true">/</span>
             <a href="/free-appraisal/">Free Guitar Appraisal</a>
             <span aria-hidden="true">/</span>
             <span>{page.brand} Guitar Appraisal</span>

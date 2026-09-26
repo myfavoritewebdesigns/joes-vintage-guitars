@@ -16,10 +16,12 @@ const fullGuitarPhoto = appraisalPages.find((page) => page.slug === "fender")!.h
 
 const faqs = [
   { q: "Is the Guitar Appraisal Really Free?", a: "Yes. I do not charge for the first market valuation, and you do not have to sell. A signed report for insurance, an estate, a donation, or a legal matter is a separate service." },
+  { q: "What's The Difference Between Fair Market Value And An Insurance Appraisal?", a: "Fair market value is what a buyer will realistically hand you in cash today. An insurance appraisal is usually higher. It's the retail cost of replacing your instrument with an equivalent one from a dealer if yours gets stolen or destroyed. I give you the numbers for both. If you're selling, you know your floor. If you're insuring, you know your coverage." },
   { q: "Can You Appraise a Guitar From Photos?", a: "Yes. Clear photos are usually enough to begin. I may ask for a closer view of a serial number, finish, pickup, label, repair, or other detail." },
   { q: "Do I Have to Bring the Guitar to Mesa to Get an Appraisal?", a: "No. My shop is in Mesa, Arizona, and local owners can arrange an in-person appraisal. I handle most appraisals remotely from clear photos, so you do not need to ship the guitar or bring it to Mesa just to learn what it is worth." },
   { q: "Do I Need to Know the Model or Year?", a: "No. Send the full guitar, headstock, serial number or label, and anything you know about its history. I can help identify it." },
   { q: "Does a Serial Number Tell Me What the Guitar Is Worth?", a: "No. A serial number may help with the date. The model, finish, original parts, condition, repairs, rarity, and current demand determine the value." },
+  { q: "Why Can't I Just Check eBay Or Reverb Sold Listings To Find The Value Myself?", a: "Sold listings don't tell you the whole story. A 1965 Stratocaster that sold for $12,000 might have had swapped pickups, a refret, and overspray, while an untouched one could be worth double. I price your guitar off private sales data and the exact factory specs that public listings leave out." },
   { q: "Should I Clean or Repair the Guitar First?", a: "No major work is needed. Photograph the guitar as it is. Cleaning or repairing it before the appraisal can remove evidence or create a new problem." },
   { q: "Can You Appraise a Collection or Estate?", a: "Yes. Tell me about how many instruments are involved, where they are located, and what records or photographs you have." },
 ];
@@ -308,7 +310,7 @@ const reviews = [
             <h3>Written Appraisal</h3>
             <p>Use this if an insurance company, estate, attorney, accountant, court, or charity needs a signed report. Written appraisals require more research and documentation.</p>
             <ul><li>Insurance documentation</li><li>Estate or probate needs</li><li>Tax or donation support</li></ul>
-            <a class="ah-button ah-button-rust" href={`mailto:${contact.email}?subject=Written%20guitar%20appraisal`}>Ask Joe About a Written Appraisal</a>
+            <a class="ah-button ah-button-rust" href="/free-appraisal/?appraisal=insurance#appraisal-form">Ask Joe About a Written Appraisal</a>
           </article>
         </div>
       </div>
@@ -383,10 +385,16 @@ const reviews = [
   </main>
 
   <script is:inline>
-    const requestedBrand = new URLSearchParams(window.location.search).get("brand");
+    const appraisalParams = new URLSearchParams(window.location.search);
+    const requestedBrand = appraisalParams.get("brand");
     const instrumentInput = document.querySelector('[data-form-id="free-appraisal-hub"] input[name="instrument"]');
     if (requestedBrand && instrumentInput instanceof HTMLInputElement && !instrumentInput.value) {
       instrumentInput.value = requestedBrand;
+    }
+    const requestedAppraisal = appraisalParams.get("appraisal");
+    const insuranceRadio = document.querySelector('[data-form-id="free-appraisal-hub"] input[name="appraisal-type"][value="Insurance Appraisal"]');
+    if (requestedAppraisal === "insurance" && insuranceRadio instanceof HTMLInputElement) {
+      insuranceRadio.checked = true;
     }
   </script>
 </Layout>
