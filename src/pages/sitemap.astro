@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { appraisalPages } from "../data/appraisal-pages";
 import { stratocasterYearGuides } from "../data/stratocasterValueYears";
 import { telecasterValueGuides } from "../data/telecasterValueGuides";
 
@@ -14,6 +15,13 @@ const groups = [
       { label: "Blog", href: "/blog/" },
       { label: "Reverb Reviews", href: "/reverb-reviews/" },
     ],
+  },
+  {
+    title: "Guitar Appraisal Guides",
+    links: appraisalPages.map((page) => ({
+      label: `${page.brand} Guitar Appraisal`,
+      href: `/free-appraisal/${page.slug}/`,
+    })),
   },
   {
     title: "Sell Your Guitar",

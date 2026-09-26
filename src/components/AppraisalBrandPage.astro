@@ -1,0 +1,441 @@
+---
+import Layout from "../layouts/Layout.astro";
+import LeadForm from "./LeadForm.astro";
+import LicensedImage from "./primitives/LicensedImage.astro";
+import { contact, hrefs, SITE_URL } from "../config/site";
+import { appraisalPages, type AppraisalPage } from "../data/appraisal-pages";
+
+interface Props {
+  page: AppraisalPage;
+}
+
+const { page } = Astro.props;
+const canonical = `/free-appraisal/${page.slug}/`;
+const otherPages = appraisalPages.filter((item) => item.slug !== page.slug);
+const appraisalHref = "#appraisal-form";
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: page.faqs.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Free Guitar Appraisal", item: `${SITE_URL}/free-appraisal/` },
+    { "@type": "ListItem", position: 3, name: `${page.brand} Guitar Appraisal`, item: `${SITE_URL}${canonical}` },
+  ],
+};
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": `${SITE_URL}${canonical}#service`,
+  name: `${page.brand} Guitar Appraisal`,
+  serviceType: `${page.brand} guitar appraisal`,
+  description: page.description,
+  url: `${SITE_URL}${canonical}`,
+  provider: { "@id": `${SITE_URL}/` },
+  areaServed: [
+    { "@type": "Country", name: "United States" },
+    { "@type": "City", name: "Mesa", containedInPlace: { "@type": "State", name: "Arizona" } },
+  ],
+  offers: { "@type": "Offer", price: "0", priceCurrency: "USD", description: "Free initial market valuation from photos" },
+};
+---
+
+<Layout
+  title={`Free ${page.brand} Guitar Appraisal | Joe's Vintage Guitars`}
+  description={page.description}
+  canonical={canonical}
+  ogImage={`${SITE_URL}${page.ogImage}`}
+  ogImageAlt={page.heroAlt}
+  ogImageWidth={1200}
+  ogImageHeight={630}
+  ogType="website"
+  structuredData={[faqSchema, breadcrumbSchema, serviceSchema]}
+>
+  <main class="ap-page">
+    <section class="ap-hero">
+      <div class="ap-container ap-hero-grid">
+        <div class="ap-hero-copy">
+          <nav class="ap-breadcrumbs" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span aria-hidden="true">/</span>
+            <a href="/free-appraisal/">Free Guitar Appraisal</a>
+            <span aria-hidden="true">/</span>
+            <span>{page.brand} Guitar Appraisal</span>
+          </nav>
+          <p class="ap-eyebrow">{page.brand} Appraisal Guide</p>
+          <h1>Free {page.brand} Guitar Appraisal</h1>
+          <p class="ap-lede">{page.heroText}</p>
+          <div class="ap-actions">
+            <a class="ap-button ap-button-light" href={appraisalHref}>Get My Free {page.brand} Appraisal</a>
+            <a class="ap-button ap-button-outline" href={hrefs.tel}>Call or Text Joe</a>
+          </div>
+          <div class="ap-proof" aria-label="Appraisal benefits">
+            <span>Free Market Value Opinion</span>
+            <span>Joe Reviews It Personally</span>
+            <span>No Obligation to Sell</span>
+          </div>
+        </div>
+        <figure class="ap-hero-figure">
+          <LicensedImage
+            src={page.heroImage}
+            alt={page.heroAlt}
+            width={800}
+            loading="eager"
+            fetchpriority="high"
+            class="ap-hero-img"
+            sizes="(max-width: 760px) 88vw, 390px"
+          />
+          <figcaption>{page.heroCaption}</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="ap-section ap-form-section" id="appraisal-form">
+      <div class="ap-container ap-form-grid">
+        <div>
+          <p class="ap-eyebrow">Start Here</p>
+          <h2>Tell Me About Your {page.brand}</h2>
+          <p class="ap-lede">Send the photos you have and tell me anything you know about the guitar. The brand is already filled in, and you do not need to know the exact model or year.</p>
+          <p>There is no charge for the first market valuation and no obligation to sell. After you submit the form, you can upload the guitar photos securely.</p>
+          <a class="ap-phone-link" href={hrefs.tel}>Or call or text Joe at {contact.phone}</a>
+        </div>
+        <LeadForm
+          formId={`free-${page.slug}-appraisal`}
+          instrumentValue={page.brand}
+          appraisalType={true}
+          submitLabel={`Get My Free ${page.brand} Appraisal`}
+        />
+      </div>
+    </section>
+
+    <section class="ap-section">
+      <div class="ap-container ap-split">
+        <div>
+          <p class="ap-eyebrow">What to Photograph</p>
+          <h2>What to Send for a {page.brand} Appraisal</h2>
+          <p class="ap-lede">{page.photoIntro} Read the <a class="ap-inline" href={page.serialGuide.href}>{page.serialGuide.label}</a> if you want help finding the number first.</p>
+          <p class="ap-note"><strong>Send what you have.</strong> These are the ideal photos, but you do not have to get every shot or every detail perfect. I can look at what you send and tell you what else would help. Please leave the guitar assembled, and do not clean old parts or start a repair before sending photos.</p>
+        </div>
+        <ul class="ap-checklist">
+          {page.photoList.map((item) => <li>{item}</li>)}
+        </ul>
+      </div>
+    </section>
+
+    <section class="ap-section ap-paper">
+      <div class="ap-container">
+        <div class="ap-section-head">
+          <p class="ap-eyebrow">Close Photos That Matter</p>
+          <h2>Details I Use to Appraise a {page.brand}</h2>
+          <p class="ap-lede">A full photo shows the model and overall condition. Close photos help me check the date, factory specifications, original parts, repairs, and value.</p>
+        </div>
+        <div class="ap-evidence-grid">
+          {page.evidence.map((item) => (
+            <figure class="ap-evidence-card">
+              <LicensedImage
+                src={item.image}
+                alt={item.alt}
+                width={760}
+                loading="lazy"
+                class="ap-evidence-img"
+                sizes="(max-width: 760px) 92vw, 520px"
+              />
+              <figcaption><strong>{item.title}</strong><span>{item.body}</span></figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="ap-section ap-deep-dive">
+      <div class="ap-container ap-deep-grid">
+        <div>
+          <p class="ap-eyebrow">Brand Specific Appraisal</p>
+          <h2>{page.appraisalNotes.heading}</h2>
+          {page.appraisalNotes.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+          <div class="ap-related-reading">
+            {page.relatedReading.map((group) => (
+              <p>
+                {group.lead}{" "}
+                {group.links.map((link, index) => (
+                  <>
+                    {index > 0 && (index === group.links.length - 1 ? (group.links.length === 2 ? " and " : ", and ") : ", ")}
+                    <a class="ap-inline" href={link.href}>{link.label}</a>
+                  </>
+                ))}{" "}{group.tail}
+              </p>
+            ))}
+          </div>
+        </div>
+        <aside>
+          <h3>Evidence I Want to See</h3>
+          <ul>{page.appraisalNotes.checks.map((item) => <li>{item}</li>)}</ul>
+          <a class="ap-button ap-button-rust" href="#appraisal-form">Send My {page.brand} Photos</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="ap-section ap-dark">
+      <div class="ap-container">
+        <div class="ap-section-head">
+          <p class="ap-eyebrow">What Changes the Price</p>
+          <h2>What Affects a {page.brand} Guitar's Value</h2>
+          <p>I look at the entire instrument and compare it with completed sales of similar examples. A serial number or asking price cannot do that by itself. Read <a class="ap-inline" href={page.valueGuide.href}>{page.valueGuide.label}</a> for more detail.</p>
+        </div>
+        <div class="ap-factor-grid">
+          {page.factors.map((factor) => (
+            <article class="ap-factor"><h3>{factor.title}</h3><p>{factor.body}</p></article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="ap-section">
+      <div class="ap-container ap-split">
+        <div>
+          <p class="ap-eyebrow">Models I See Often</p>
+          <h2>{page.brand} Instruments I Appraise</h2>
+          <p class="ap-lede">Your model does not have to be on this list. Send photos if you are unsure what it is. You can also read the <a class="ap-inline" href={page.valueGuide.href}>{page.valueGuide.label}</a>.</p>
+          <a class="ap-button ap-button-rust" href={appraisalHref}>Send My {page.brand} Photos</a>
+        </div>
+        <ul class="ap-models">
+          {page.models.map((model) => <li>{model}</li>)}
+        </ul>
+      </div>
+    </section>
+
+    <section class="ap-section ap-archive-section">
+      <div class="ap-container">
+        <div class="ap-section-head">
+          <p class="ap-eyebrow">From Joe's Archive</p>
+          <h2>Vintage {page.brand} Guitars I Have Handled</h2>
+          <p class="ap-lede">{page.archiveIntro}</p>
+        </div>
+        <div class="ap-archive-grid">
+          {page.archive.map((item) => (
+            <figure class="ap-archive-card">
+              <LicensedImage
+                src={item.image}
+                alt={item.alt}
+                width={720}
+                loading="lazy"
+                class="ap-archive-img"
+                sizes="(max-width: 700px) 92vw, (max-width: 920px) 46vw, 350px"
+              />
+              <figcaption>{item.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="ap-section ap-process-section">
+      <div class="ap-container">
+        <div class="ap-section-head">
+          <p class="ap-eyebrow">How It Works</p>
+          <h2>How to Get a Free Appraisal</h2>
+        </div>
+        <div class="ap-process">
+          {page.process.map((step, index) => (
+            <article><span>{String(index + 1).padStart(2, "0")}</span><h3>{step.title}</h3><p>{step.body}</p></article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="ap-section">
+      <div class="ap-container">
+        <div class="ap-section-head">
+          <p class="ap-eyebrow">If You Want to Research It</p>
+          <h2>{page.brand} Dating and Value Guides</h2>
+          <p class="ap-lede">Use these guides to find serial numbers, dates, and value clues. You do not need to identify the guitar before you send it to me.</p>
+        </div>
+        <div class="ap-resources">
+          {page.resources.map((resource) => (
+            <a href={resource.href}><strong>{resource.label}</strong><span>{resource.body}</span></a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="ap-section ap-paper">
+      <div class="ap-container ap-split">
+        <div>
+          <p class="ap-eyebrow">From a Guitar Owner</p>
+          <h2>What One Owner Said</h2>
+          <p>This is a customer's original review. Click it to read the review on Google.</p>
+        </div>
+        <a class="ap-review" href={page.review.href} target="_blank" rel="noopener noreferrer" aria-label={`Read ${page.review.name}'s review on Google`}>
+          <span class="ap-stars" aria-label="Five stars">★★★★★</span>
+          <blockquote>“{page.review.body}”</blockquote>
+          <cite>{page.review.name}</cite>
+          <span class="ap-review-source">Read on Google</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="ap-section ap-dark">
+      <div class="ap-container ap-split">
+        <div>
+          <p class="ap-eyebrow">Other Brands</p>
+          <h2>Appraisal Guides for Other Makers</h2>
+          <p>Choose the maker on the headstock. If you are not sure, send photos through the main appraisal page.</p>
+          <a class="ap-inline" href="/free-appraisal/">Return to the Free Appraisal Hub</a>
+        </div>
+        <nav class="ap-other-brands" aria-label="Other brand appraisal guides">
+          {otherPages.map((item) => <a href={`/free-appraisal/${item.slug}/`}>{item.brand} Appraisal</a>)}
+        </nav>
+      </div>
+    </section>
+
+    <section class="ap-section">
+      <div class="ap-container ap-split">
+        <div>
+          <p class="ap-eyebrow">Common Questions</p>
+          <h2>{page.brand} Appraisal Questions</h2>
+          <p class="ap-lede">Do not worry if you do not know the model or year. Clear photos are enough to start.</p>
+        </div>
+        <div class="ap-faqs">
+          {page.faqs.map((item, index) => (
+            <details open={index === 0}><summary>{item.q}</summary><p>{item.a}</p></details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="ap-final">
+      <div class="ap-container ap-final-grid">
+        <div><p class="ap-eyebrow">Send What You Have</p><h2>Get Your Free {page.brand} Guitar Appraisal</h2><p>I will review the photos and tell you if I need another detail.</p></div>
+        <div class="ap-final-actions"><a class="ap-button ap-button-light" href={appraisalHref}>Start My {page.brand} Appraisal</a><a href={hrefs.tel}>{contact.phone}</a></div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .ap-page {
+    --ap-ink: #211d18;
+    --ap-paper: #fffaf0;
+    --ap-paper-2: #f2eadb;
+    --ap-line: rgba(62, 42, 20, 0.18);
+    color: var(--ap-ink);
+    background: var(--ap-paper);
+    font-size: 17px;
+    line-height: 1.72;
+  }
+  .ap-container { width: min(1120px, calc(100% - 40px)); margin-inline: auto; }
+  .ap-hero { padding: 176px 0 82px; overflow: hidden; color: #fffaf0; background: linear-gradient(135deg, #26211c, #682412 68%, #8b321b); }
+  .ap-hero-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.62fr); gap: clamp(42px, 7vw, 90px); align-items: center; }
+  .ap-hero h1, .ap-section h2, .ap-final h2 { margin: 0 0 20px; font-family: var(--font-display); font-weight: 700; line-height: 1.04; text-transform: uppercase; }
+  .ap-hero h1 { max-width: 760px; color: #fffaf0; font-size: clamp(3.3rem, 7vw, 6.4rem); }
+  .ap-section h2, .ap-final h2 { color: var(--color-brand-brown); font-size: clamp(2.35rem, 5vw, 4.3rem); }
+  .ap-dark h2, .ap-final h2 { color: #fffaf0; }
+  .ap-section h3 { margin: 0 0 10px; color: var(--color-brand-brown); font-family: var(--font-display); font-size: 1.35rem; line-height: 1.2; text-transform: uppercase; }
+  .ap-eyebrow { margin: 0 0 12px; color: var(--color-brand-rust-bright); font-family: var(--font-display); font-size: 0.82rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; }
+  .ap-hero .ap-eyebrow, .ap-dark .ap-eyebrow, .ap-final .ap-eyebrow { color: #eab265; }
+  .ap-lede { font-size: 1.12rem; line-height: 1.68; }
+  .ap-breadcrumbs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px; color: #ddcbb4; font-size: 0.84rem; }
+  .ap-breadcrumbs a { color: inherit; text-underline-offset: 3px; }
+  .ap-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 30px 0 22px; }
+  .ap-button { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; margin-top: 20px; padding: 12px 22px; border: 2px solid transparent; font-family: var(--font-display); font-weight: 700; letter-spacing: 0.025em; line-height: 1.2; text-align: center; text-decoration: none; text-transform: uppercase; transition: transform 0.2s ease, background 0.2s ease; }
+  .ap-actions .ap-button { margin-top: 0; }
+  .ap-button:hover { transform: translateY(-2px); }
+  .ap-button-light { background: var(--color-brand-cream); color: var(--color-brand-rust-dark); }
+  .ap-button-outline { border-color: rgba(255, 255, 255, 0.62); color: #fff; }
+  .ap-button-rust { background: var(--color-brand-rust-bright); color: #fff; }
+  .ap-proof { display: flex; flex-wrap: wrap; gap: 9px 20px; color: #eadfce; font-size: 0.88rem; font-weight: 700; }
+  .ap-proof span::before { content: "◆"; margin-right: 7px; color: #eab265; font-size: 0.62em; }
+  .ap-hero-figure { margin: 0; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.18); background: #15120f; box-shadow: 0 24px 60px rgba(0, 0, 0, 0.32); }
+  :global(.ap-hero-img) { display: block; width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
+  .ap-hero-figure figcaption { padding: 14px 17px; color: #decdb6; font-size: 0.82rem; line-height: 1.5; }
+  .ap-section { padding: 88px 0; }
+  .ap-form-section { background: #fffaf0; }
+  .ap-form-grid { display: grid; grid-template-columns: minmax(0, 0.78fr) minmax(480px, 1.22fr); gap: clamp(38px, 6vw, 76px); align-items: start; }
+  .ap-phone-link { display: inline-block; margin-top: 14px; color: var(--color-brand-rust-dark); font-weight: 800; text-underline-offset: 3px; }
+  .ap-paper { background: var(--ap-paper-2); }
+  .ap-dark { color: #eee6da; background: #27231f; }
+  .ap-dark p { color: #d7cec1; }
+  .ap-section-head { max-width: 790px; margin-bottom: 38px; }
+  .ap-split { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(340px, 1.1fr); gap: clamp(36px, 6vw, 78px); align-items: start; }
+  .ap-inline { color: var(--color-brand-rust-bright); font-weight: 800; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .ap-dark .ap-inline { color: #eab265; }
+  .ap-note { margin-top: 24px; padding: 19px 21px; border-left: 4px solid var(--color-brand-rust-bright); background: #eadfce; }
+  .ap-deep-dive { background: #fffaf0; }
+  .ap-related-reading { margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--ap-line); }
+  .ap-related-reading p:last-child { margin-bottom: 0; }
+  .ap-deep-grid { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.55fr); gap: clamp(40px, 7vw, 90px); align-items: start; }
+  .ap-deep-grid > div > p:not(.ap-eyebrow) { max-width: 760px; }
+  .ap-deep-grid aside { position: sticky; top: 130px; padding: 28px; border-top: 4px solid var(--color-brand-rust-bright); background: #eadfce; }
+  .ap-deep-grid aside ul { display: grid; gap: 13px; margin: 18px 0 0; padding: 0; list-style: none; }
+  .ap-deep-grid aside li { position: relative; padding-left: 23px; }
+  .ap-deep-grid aside li::before { content: "✓"; position: absolute; left: 0; color: var(--color-brand-rust-bright); font-weight: 900; }
+  .ap-checklist, .ap-models { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 0; padding: 25px; border: 1px solid var(--ap-line); background: #fff; list-style: none; }
+  .ap-checklist li, .ap-models li { position: relative; padding-left: 22px; }
+  .ap-checklist li::before, .ap-models li::before { content: "✓"; position: absolute; left: 0; color: var(--color-brand-rust-bright); font-weight: 900; }
+  .ap-evidence-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  .ap-evidence-card { margin: 0; overflow: hidden; border: 1px solid var(--ap-line); background: #fff; box-shadow: 0 14px 36px rgba(62, 42, 20, 0.1); }
+  :global(.ap-evidence-img) { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .ap-evidence-card figcaption { display: grid; gap: 5px; padding: 21px; }
+  .ap-evidence-card strong { color: var(--color-brand-brown); font-family: var(--font-display); font-size: 1.18rem; text-transform: uppercase; }
+  .ap-evidence-card span { color: #655a4f; font-size: 0.94rem; }
+  .ap-factor-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .ap-factor { padding: 25px; border-top: 3px solid #c9863d; background: rgba(255, 255, 255, 0.06); }
+  .ap-factor h3 { color: #fffaf0; }
+  .ap-factor p { margin: 0; font-size: 0.94rem; }
+  .ap-archive-section { background: var(--ap-paper-2); }
+  .ap-archive-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .ap-archive-card { margin: 0; overflow: hidden; border: 1px solid var(--ap-line); background: #fffaf0; box-shadow: 0 12px 30px rgba(62, 42, 20, 0.09); }
+  :global(.ap-archive-img) { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .ap-archive-card figcaption { padding: 16px 18px; color: var(--color-brand-brown); font-family: var(--font-display); font-size: 1.02rem; font-weight: 700; line-height: 1.3; text-transform: uppercase; }
+  .ap-process-section { background: #eadfce; }
+  .ap-process { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .ap-process article { padding: 30px; border: 1px solid var(--ap-line); background: #fffaf0; }
+  .ap-process article > span { color: var(--color-brand-rust-bright); font-family: var(--font-display); font-size: 2.5rem; font-weight: 700; }
+  .ap-resources { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
+  .ap-resources a { display: grid; gap: 5px; padding: 22px; border: 1px solid var(--ap-line); color: inherit; text-decoration: none; transition: border-color 0.2s ease, transform 0.2s ease; }
+  .ap-resources a:hover { border-color: var(--color-brand-rust-bright); transform: translateY(-2px); }
+  .ap-resources strong { color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 1.1rem; text-transform: uppercase; }
+  .ap-resources span { color: #655a4f; font-size: 0.92rem; }
+  .ap-review { display: block; padding: 36px; border: 1px solid var(--ap-line); background: #fffaf0; color: inherit; text-decoration: none; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+  .ap-review:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(62, 42, 20, 0.13); }
+  .ap-stars { color: #c9863d; letter-spacing: 0.14em; }
+  .ap-review blockquote { margin: 14px 0; font-family: Georgia, serif; font-size: 1.25rem; line-height: 1.55; }
+  .ap-review cite { display: block; color: var(--color-brand-rust-dark); font-style: normal; font-weight: 800; }
+  .ap-review-source { display: inline-block; margin-top: 10px; color: var(--color-brand-rust-bright); font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
+  .ap-other-brands { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .ap-other-brands a { padding: 13px 15px; border: 1px solid rgba(255, 255, 255, 0.18); color: #fffaf0; font-family: var(--font-display); font-weight: 700; text-decoration: none; text-transform: uppercase; }
+  .ap-faqs { border-top: 1px solid var(--ap-line); }
+  .ap-faqs details { border-bottom: 1px solid var(--ap-line); }
+  .ap-faqs summary { padding: 18px 4px; color: var(--color-brand-brown); font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; cursor: pointer; text-transform: uppercase; }
+  .ap-faqs p { padding: 0 4px 19px; }
+  .ap-final { padding: 72px 0; color: #fff; background: var(--color-brand-rust-dark); }
+  .ap-final-grid { display: flex; align-items: center; justify-content: space-between; gap: 42px; }
+  .ap-final-grid > div:first-child { max-width: 700px; }
+  .ap-final-actions { display: grid; min-width: 290px; gap: 10px; text-align: center; }
+  .ap-final-actions a:last-child { color: #fff; font-weight: 800; }
+  @media (max-width: 920px) {
+    .ap-hero-grid, .ap-split, .ap-form-grid, .ap-deep-grid { grid-template-columns: 1fr; }
+    .ap-hero-copy { order: 1; }
+    .ap-hero-figure { order: 2; width: min(100%, 520px); }
+    .ap-deep-grid aside { position: static; }
+    .ap-factor-grid { grid-template-columns: 1fr 1fr; }
+    .ap-archive-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 700px) {
+    .ap-container { width: min(100% - 26px, 1120px); }
+    .ap-hero { padding-top: 152px; }
+    .ap-hero h1 { font-size: clamp(2.9rem, 15vw, 4.6rem); }
+    .ap-section { padding: 64px 0; }
+    .ap-evidence-grid, .ap-factor-grid, .ap-archive-grid, .ap-process, .ap-resources, .ap-other-brands, .ap-checklist, .ap-models { grid-template-columns: 1fr; }
+    .ap-final-grid { align-items: flex-start; flex-direction: column; }
+    .ap-final-actions { width: 100%; min-width: 0; }
+  }
+</style>

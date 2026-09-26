@@ -213,7 +213,8 @@ let pageMarkup = rawPageMarkup
     'class="full-field captcha-row"',
     'class="full-field captcha-row h-captcha-mount"',
   )
-  .replaceAll('alt="Vintage 1956 sunburst Fender Stratocaster"', 'alt="Vintage 1955 sunburst Fender Stratocaster"');
+  .replaceAll('alt="Vintage 1956 sunburst Fender Stratocaster"', 'alt="Vintage 1955 sunburst Fender Stratocaster"')
+  .replaceAll('https://www.joesvintageguitarsaz.com/free-appraisal/', '/free-appraisal/fender/');
 
 for (const [from, to] of Object.entries(assetReplacements)) {
   pageMarkup = pageMarkup.split(from).join(to);
