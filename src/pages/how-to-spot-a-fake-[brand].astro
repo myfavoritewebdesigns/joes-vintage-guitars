@@ -1,0 +1,19 @@
+---
+import AuthenticationGuidePage from "../components/AuthenticationGuidePage.astro";
+import { authenticationGuides, type AuthenticationGuide } from "../data/authentication-guides";
+
+export function getStaticPaths() {
+  return authenticationGuides.map((page) => ({
+    params: { brand: page.brand.toLowerCase() },
+    props: { page },
+  }));
+}
+
+interface Props {
+  page: AuthenticationGuide;
+}
+
+const { page } = Astro.props;
+---
+
+<AuthenticationGuidePage page={page} />
