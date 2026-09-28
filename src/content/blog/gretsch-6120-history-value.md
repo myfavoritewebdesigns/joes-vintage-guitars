@@ -14,7 +14,7 @@ wpId: 18154
 ---
 The 1960 model year was an important refinement for the 6120, featuring the slimmed-down 2.5-inch body and the introduction of the zero fret. Instruments in this ‘Collector Grade’ condition are in strong demand in the vintage market right now.
 
-Few instruments are as tied to the ‘Golden Era’ of rock ‘n’ roll as the **Gretsch 6120**. From its ‘Western Orange’ finish to its ‘Filter’Tron’ twang, the 6120 is a high-value piece of American history. **At Joe’s Vintage Guitars, we are currently looking to add original 1950s and 60s 6120s to our collection. If you have an instrument you’re considering selling, we provide expert [nationwide appraisals](/free-appraisal/) and offer [top-dollar payouts](/) for well-preserved examples.** If you’re a collector or have recently inherited one, knowing its specific history is what tells you its real market value.
+Few instruments are as tied to the ‘Golden Era’ of rock ‘n’ roll as the **Gretsch 6120**. From its ‘Western Orange’ finish to its ‘Filter’Tron’ twang, the 6120 is a high-value piece of American history. **At Joe’s Vintage Guitars, we are currently looking to add original 1950s and 60s 6120s to our collection. If you have an instrument you’re considering selling, we provide expert [Gretsch guitar appraisals](/free-appraisal/gretsch/) and offer [top-dollar payouts](/) for well-preserved examples.** If you’re a collector or have recently inherited one, knowing its specific history is what tells you its real market value.
 
 ## Year-by-Year Evolution & Specifications
 

@@ -104,6 +104,21 @@
 /post/dating-a-les-paul-with-serial-numbers                      /how-to-read-gibson-serial-numbers/   301
 /post/dating-a-les-paul-with-serial-numbers/                     /how-to-read-gibson-serial-numbers/   301
 
+# Appraisal spoke URLs were shortened before launch. Keep the original preview
+# paths as single-hop redirects in case they were shared during review.
+/free-appraisal/fender-guitar-appraisal                          /free-appraisal/fender/               301
+/free-appraisal/fender-guitar-appraisal/                         /free-appraisal/fender/               301
+/free-appraisal/gibson-guitar-appraisal                          /free-appraisal/gibson/               301
+/free-appraisal/gibson-guitar-appraisal/                         /free-appraisal/gibson/               301
+/free-appraisal/martin-guitar-appraisal                          /free-appraisal/martin/               301
+/free-appraisal/martin-guitar-appraisal/                         /free-appraisal/martin/               301
+/free-appraisal/gretsch-guitar-appraisal                         /free-appraisal/gretsch/              301
+/free-appraisal/gretsch-guitar-appraisal/                        /free-appraisal/gretsch/              301
+/free-appraisal/guild-guitar-appraisal                           /free-appraisal/guild/                301
+/free-appraisal/guild-guitar-appraisal/                          /free-appraisal/guild/                301
+/free-appraisal/rickenbacker-guitar-appraisal                    /free-appraisal/rickenbacker/         301
+/free-appraisal/rickenbacker-guitar-appraisal/                   /free-appraisal/rickenbacker/         301
+
 # ---------------------------------------------------------------------------
 # AMP retirement (GSC 404 sweep 2026-07-27).
 # The old WordPress AMP plugin published TWO URL shapes, and Google still crawls

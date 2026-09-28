@@ -1,0 +1,19 @@
+---
+import AppraisalBrandPage from "../../components/AppraisalBrandPage.astro";
+import { appraisalPages, type AppraisalPage } from "../../data/appraisal-pages";
+
+export function getStaticPaths() {
+  return appraisalPages.map((page) => ({
+    params: { brand: page.slug },
+    props: { page },
+  }));
+}
+
+interface Props {
+  page: AppraisalPage;
+}
+
+const { page } = Astro.props;
+---
+
+<AppraisalBrandPage page={page} />
