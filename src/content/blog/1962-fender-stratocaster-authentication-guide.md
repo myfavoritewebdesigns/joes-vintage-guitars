@@ -543,7 +543,7 @@ A 1962 Stratocaster with its original brown Tolex case, original case key, origi
 
 Further reading and tools for dating and valuing your vintage Fender.
 
-If you are thinking about selling after you identify the guitar, see [how I evaluate and buy vintage Fender guitars](/sell-my-fender-guitar/).
+If you are thinking about selling after you identify the guitar, see [how I evaluate and buy vintage Fender guitars](/sell-my-fender-guitar/). If you want a market value without committing to a sale, send photos through the [free Fender appraisal](/free-appraisal/fender/).
 
 **1962 Fender Stratocaster Authentication Guide**
 

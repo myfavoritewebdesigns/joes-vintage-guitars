@@ -204,7 +204,7 @@ Value is the hard part, for the usual vintage reason: so few of these trade that
 
 Clean, all-original "survivor" Medallion Vs, the roughly two dozen that have never been touched, sit at the top and have been offered in the mid-$20,000s and up. More typical examples, meaning honest players with a common change or two such as replaced tuners, trade lower, generally in the high teens to low $20,000s. Guitars with bigger issues, a repaired headstock break, a refinish, or a missing coin, drop further from there. Condition, originality, and whether the coin is present and correct move the number more than anything else.
 
-The practical advice is the same as with any vintage guitar at this level. Do not price it off a single old listing or a forum thread. If you own a Medallion V, or think you might have one, the sensible move is to have someone who knows them look at it. You can start with a free, no-obligation [appraisal request](/free-appraisal/), and if you decide to sell, our [sell my Gibson](/sell-my-gibson-guitar/) page explains how we buy them outright.
+The practical advice is the same as with any vintage guitar at this level. Do not price it off a single old listing or a forum thread. If you own a Medallion V, or think you might have one, the sensible move is to have someone who knows them look at it. You can start with a free, no-obligation [appraisal request](/free-appraisal/gibson/), and if you decide to sell, our [sell my Gibson](/sell-my-gibson-guitar/) page explains how we buy them outright.
 
 ## Related Resources
 
@@ -213,6 +213,6 @@ More vintage Gibson references from the shop.
 -   [How to Read Gibson Serial Numbers](/how-to-read-gibson-serial-numbers/), the full dating guide, including the early-1970s numbering and why pot codes matter.
 -   [Gibson Shipping Totals, 1948 to 1979](/post/gibson-shipping-totals-1948-1979/), production and shipping figures for reference on how rare a given model really is.
 -   [Sell My Gibson Guitar](/sell-my-gibson-guitar/), how to sell a vintage Gibson to the shop.
--   [Free Vintage Guitar Appraisal](/free-appraisal/), send photos and details for a no-obligation opinion.
+-   [Free Vintage Guitar Appraisal](/free-appraisal/gibson/), send photos and details for a no-obligation opinion.
 
 This reference is compiled from the Flying V collector registry maintained by longtime enthusiasts, period Gibson history, dealer and auction listings, and the instrument in our own photos. Because Gibson never published detailed records on this run, a few points in its history are genuinely uncertain, and this guide flags those rather than smoothing them over. As always, verify against the physical instrument, and get a hands-on opinion before any high-value purchase.

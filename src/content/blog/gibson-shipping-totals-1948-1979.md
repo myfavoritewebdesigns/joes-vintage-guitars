@@ -29,7 +29,7 @@ wpId: 18430
 -   [Flying V, Explorer & Moderne](#modern-59-79)
 -   [Conclusion & Appraisals](#conclusion)
 
-Pinning down the market value of an instrument takes more than a quick look; it takes a read through the official shipping records that show how rare a model really is. If you are looking to [**sell your vintage Gibson**](/sell-my-gibson-guitar/) or just want to document its history, our **[free appraisal](/free-appraisal/)** service pairs these production totals with years of hands-on experience to give you an accurate valuation. Before you get into the production numbers below, visit our **[Gibson serial number guide](/how-to-read-gibson-serial-numbers/)** to date your instrument and make sure you are referencing the correct era of Kalamazoo production.
+Pinning down the market value of an instrument takes more than a quick look; it takes a read through the official shipping records that show how rare a model really is. If you are looking to [**sell your vintage Gibson**](/sell-my-gibson-guitar/) or just want to document its history, our **[free appraisal](/free-appraisal/gibson/)** service pairs these production totals with years of hands-on experience to give you an accurate valuation. Before you get into the production numbers below, visit our **[Gibson serial number guide](/how-to-read-gibson-serial-numbers/)** to date your instrument and make sure you are referencing the correct era of Kalamazoo production.
 
 For Les Pauls, use these shipping totals to understand scarcity, then compare the identified model and year with the published ranges in the [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/).
 

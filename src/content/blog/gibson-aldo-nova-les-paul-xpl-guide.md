@@ -219,7 +219,7 @@ Value is the hardest part to pin down, for the same reason the production number
 
 A few things are clear. The single-cutaway Aldo Nova is worth many times what the production double-cutaway XPL brings, so the first step in any valuation is confirming which one you actually have. Prices for the rare single-cut have climbed steadily over the last decade as the story has spread and as 1980s Gibsons in general have been rediscovered by collectors, and asking prices have reached well into five figures. But condition, originality, finish, and provenance move the number a great deal, and a headline price attached to one example does not automatically transfer to another.
 
-If you own one, or think you might, the sensible move is to have it looked at rather than to trust a forum thread or a single old listing. You can start with a free, no-obligation [appraisal request](/free-appraisal/), and if you decide to move it, our guide to what these bring and how the market works lives in the [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/). We also buy them outright: see [sell my Gibson](/sell-my-gibson-guitar/) for how that works.
+If you own one, or think you might, the sensible move is to have it looked at rather than to trust a forum thread or a single old listing. You can start with a free, no-obligation [appraisal request](/free-appraisal/gibson/), and if you decide to move it, our guide to what these bring and how the market works lives in the [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/). We also buy them outright: see [sell my Gibson](/sell-my-gibson-guitar/) for how that works.
 
 ## Related Resources
 
@@ -228,6 +228,6 @@ More vintage Gibson references from the shop.
 -   [How to Read Gibson Serial Numbers](/how-to-read-gibson-serial-numbers/), the full dating guide, including the eight-digit format used on this guitar.
 -   [Vintage Gibson Les Paul Value Guide](/vintage-gibson-les-paul-market-value-guide/), how Les Paul values are set and what different eras bring.
 -   [Sell My Gibson Guitar](/sell-my-gibson-guitar/), how to sell a vintage Gibson to the shop.
--   [Free Vintage Guitar Appraisal](/free-appraisal/), send photos and details for a no-obligation opinion.
+-   [Free Vintage Guitar Appraisal](/free-appraisal/gibson/), send photos and details for a no-obligation opinion.
 
 This reference is compiled from Aldo Nova's own published statements, documented examples that have sold through Gibson dealers and specialists, serial-number evidence from surviving guitars, and the instrument in our own photos. Because Gibson did not publish production data for these, some points in their history are genuinely disputed, and this guide tries to flag those rather than smooth them over. Always verify against the physical instrument, and get a hands-on opinion before any high-value purchase.

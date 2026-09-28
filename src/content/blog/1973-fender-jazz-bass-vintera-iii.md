@@ -181,7 +181,7 @@ Before you write a check on a "real" '73, here's the short list of things to ver
 
 #### If in doubt, get it appraised
 
-A '73 Jazz Bass in honest, all-original condition is a different animal from a refinished or partsed-together bass, both in sound and in value. If you're buying, selling, or insuring one, get eyes on it. [Reach out for a free vintage Fender appraisal](/free-appraisal/) and we'll walk through it together.
+A '73 Jazz Bass in honest, all-original condition is a different animal from a refinished or partsed-together bass, both in sound and in value. If you're buying, selling, or insuring one, get eyes on it. [Reach out for a free vintage Fender appraisal](/free-appraisal/fender/) and we'll walk through it together.
 
 <h2 id="vintera-iii">An Unexpected Surprise: The Vintera III Early '70s Jazz Bass</h2>
 

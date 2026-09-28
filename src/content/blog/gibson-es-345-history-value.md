@@ -57,7 +57,7 @@ ogImage: "/images/blog/gibson-es-345-history-value/1963-gibson-es-345-stereo-ful
 
 The **Gibson ES-345** is the guitar that gets overlooked in its own family. It has the same body and the same golden-era build as the famous ES-335, it is dressed up nicer than the 335 with gold hardware and fancy inlays, and it carries a feature neither of its siblings started with: onboard stereo wiring and the six-position **Varitone** tone circuit. For some players that circuit is the whole appeal. For others it is the first thing they rip out. Either way, it is the reason a vintage 345 reads, prices, and authenticates differently from a 335, and it is the reason so many people get the two mixed up.
 
-I buy and sell these regularly, so this guide walks through the whole story: where the ES-345 came from, how to date one by its features, what the stereo and Varitone circuit actually does, and what a vintage example is worth today. To keep it concrete I am using two real guitars that came through the shop, a **1963 ES-345TD in sunburst** and a **1966 ES-345TDC in cherry**, so you can see the details on actual instruments instead of a spec sheet. If you want to date your own guitar as you read, keep our [Gibson Serial Number Decoder](/how-to-read-gibson-serial-numbers/) open in another tab, and if you want to know what yours is worth, reach out for a [free appraisal](/free-appraisal/).
+I buy and sell these regularly, so this guide walks through the whole story: where the ES-345 came from, how to date one by its features, what the stereo and Varitone circuit actually does, and what a vintage example is worth today. To keep it concrete I am using two real guitars that came through the shop, a **1963 ES-345TD in sunburst** and a **1966 ES-345TDC in cherry**, so you can see the details on actual instruments instead of a spec sheet. If you want to date your own guitar as you read, keep our [Gibson Serial Number Decoder](/how-to-read-gibson-serial-numbers/) open in another tab, and if you want to know what yours is worth, reach out for a [free appraisal](/free-appraisal/gibson/).
 
 <h2 id="history">History: Where the ES-345 Fits in the Line</h2>
 
@@ -336,7 +336,7 @@ This surprises people: the plainer **ES-335 usually outvalues the fancier ES-345
 
 For contrast, a new USA reissue ES-345 runs around $3,800, and Gibson Custom Historic reissues of the 1959 and 1964 land in the rough $5,000 to $9,000 range depending on the aging. (You may have seen the one-off 2025 "Back to the Future" Custom ES-345 change hands around $40,000. That is a hype anomaly, not a vintage-value reference.)
 
-If you have a vintage ES-345 and want a real number rather than a range, that is exactly what I do. Send photos through the [free appraisal](/free-appraisal/) page and I will tell you what it is and what it is worth.
+If you have a vintage ES-345 and want a real number rather than a range, that is exactly what I do. Send photos through the [free appraisal](/free-appraisal/gibson/) page and I will tell you what it is and what it is worth.
 
 <h2 id="players">Players: Who Actually Played One</h2>
 
@@ -358,7 +358,7 @@ One correction, because it comes up constantly: **B.B. King's "Lucille" is an ES
 
 The ES-345 rewards knowing the details. The circuit, the tailpiece, the pickups, and the plating are the difference between a modified player and an investment-grade guitar, and they are easy to miss if you do not handle these often. At **Joe's Vintage Guitars**, I do, whether it is a clean stereo original or a well-loved 345 that had its Varitone pulled decades ago.
 
-If you are ready to sell, my [Sell My Gibson Guitar](/sell-my-gibson-guitar/) page lays out how I pay fair, top-of-market prices without the auction fees and the wait. If you just want to know what you have, the [free appraisal](/free-appraisal/) page is the place to start, and you can read more about me on the [About Me](/about-me/) page. Questions about a specific serial number, a Varitone, or whether that Bigsby is factory? [Contact me](/contact-me/) directly. I am always happy to talk vintage Gibsons.
+If you are ready to sell, my [Sell My Gibson Guitar](/sell-my-gibson-guitar/) page lays out how I pay fair, top-of-market prices without the auction fees and the wait. If you just want to know what you have, the [free appraisal](/free-appraisal/gibson/) page is the place to start, and you can read more about me on the [About Me](/about-me/) page. Questions about a specific serial number, a Varitone, or whether that Bigsby is factory? [Contact me](/contact-me/) directly. I am always happy to talk vintage Gibsons.
 
 <script type="application/ld+json">
 {

@@ -421,7 +421,7 @@ Original custom color Fenders sit at the top of the vintage market, and the prem
 
 The other side of the coin: a refinished guitar is worth a fraction of an original one, usually somewhere between a third and two thirds depending on the model, and a fake custom color bought at a real custom color price is the most expensive mistake in this hobby. Factory refins land in between and deserve honest, documented representation.
 
-If you own a custom color Fender and want a straight answer on what it is and what it is worth, send us photos through our [free appraisal](/free-appraisal/) page, including shots under the guard and of any chips if you are comfortable taking things apart, and we will tell you exactly what we see. And if you are thinking about selling, we buy custom color Fenders at the top of the market; the process starts on our [sell my Fender](/sell-my-fender-guitar/) page. Whatever you do, do not "improve" a worn original finish. Every chip in these photos is evidence, and evidence is value.
+If you own a custom color Fender and want a straight answer on what it is and what it is worth, send us photos through our [free appraisal](/free-appraisal/fender/) page, including shots under the guard and of any chips if you are comfortable taking things apart, and we will tell you exactly what we see. And if you are thinking about selling, we buy custom color Fenders at the top of the market; the process starts on our [sell my Fender](/sell-my-fender-guitar/) page. Whatever you do, do not "improve" a worn original finish. Every chip in these photos is evidence, and evidence is value.
 
 <h2 id="fcc-faq">Frequently Asked Questions</h2>
 

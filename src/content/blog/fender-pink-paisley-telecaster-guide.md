@@ -14,7 +14,7 @@ wpId: 20744
 ---
 ## The Original Fender Pink Paisley Telecaster: A Complete Collector's Guide
 
-Not many guitars in Fender's catalog look this strange and stay this collectible. The **1968 and 1969 Pink Paisley Telecaster** came out of CBS-era Fender as a commercial gamble aimed at the psychedelic market, and it paid off in ways the company hadn't expected. Original examples in honest condition now bring serious money on the vintage market. If you have one and you're thinking about selling, you can [sell your Fender guitar here](/sell-my-fender-guitar/) or [request a free appraisal](/free-appraisal/) to find out what it's worth.
+Not many guitars in Fender's catalog look this strange and stay this collectible. The **1968 and 1969 Pink Paisley Telecaster** came out of CBS-era Fender as a commercial gamble aimed at the psychedelic market, and it paid off in ways the company hadn't expected. Original examples in honest condition now bring serious money on the vintage market. If you have one and you're thinking about selling, you can [sell your Fender guitar here](/sell-my-fender-guitar/) or [request a free appraisal](/free-appraisal/fender/) to find out what it's worth.
 
 Below is what you need to know to authenticate one, useful if you're chasing a potential buy, checking something you already own, or just curious how these guitars were built.
 
@@ -252,4 +252,4 @@ Further reading
 
 The 1968 and 1969 Fender Pink Paisley Telecasters are simultaneously ridiculous and magnificent. Fender took its most workmanlike instrument and wallpapered it in decorative aluminum foil, then somehow produced something that has outlasted the cultural moment that inspired it by more than half a century. The shattered polyester, the bubbling foil, the UV-faded pink that collectors hunt for? Those are exactly the wear signatures the factory finish was always going to produce.
 
-If you have one, you should understand what you have. If you're looking for one, study the details above until they're second nature. The guitars that survive in original condition are rare enough that there's real money at stake. There's also real history. [Browse our current inventory](/) to see what original examples look like, or [get a free appraisal](/free-appraisal/) if you think you have one.
+If you have one, you should understand what you have. If you're looking for one, study the details above until they're second nature. The guitars that survive in original condition are rare enough that there's real money at stake. There's also real history. [Browse our current inventory](/) to see what original examples look like, or [get a free appraisal](/free-appraisal/fender/) if you think you have one.

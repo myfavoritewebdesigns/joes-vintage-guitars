@@ -673,7 +673,7 @@ Case & Case Candy
 -   Original case key in original envelope
 -   Original dealer price tag present
 
-Own a 1966 ES-335 you're thinking about letting go? We [buy vintage ES-335s directly](/sell-my-gibson-guitar/) and can arrange prepaid, insured shipping from anywhere in the country, or start with a [free appraisal](/free-appraisal/).
+Own a 1966 ES-335 you're thinking about letting go? We [buy vintage ES-335s directly](/sell-my-gibson-guitar/) and can arrange prepaid, insured shipping from anywhere in the country, or start with a [free appraisal](/free-appraisal/gibson/).
 
 <h2 id="links">Related Resources</h2>
 

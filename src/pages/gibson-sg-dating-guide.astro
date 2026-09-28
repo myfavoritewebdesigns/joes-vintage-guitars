@@ -73,7 +73,7 @@ const related = [
   ['Gibson ES-335, ES-345 and ES-355', '/gibson-es-335-345-355-dating-guide/', 'Compare model-specific dates, hardware and stereo wiring on the semi-hollow family.'],
   ['Vintage Gibson SG Family Guide', 'https://www.joesvintageguitarsaz.com/post/vintage-gibson-sg-family-guide/', 'Read more about SG model history, identification and value factors.'],
   ['Gibson Shipping Totals', 'https://www.joesvintageguitarsaz.com/post/gibson-shipping-totals-1948-1979/', 'Compare recorded production by model and year.'],
-  ['Free Guitar Appraisal', 'https://www.joesvintageguitarsaz.com/free-appraisal/', 'Send photos for help identifying and valuing your SG.'],
+  ['Free Guitar Appraisal', 'https://www.joesvintageguitarsaz.com/free-appraisal/gibson/', 'Send photos for help identifying and valuing your SG.'],
   ['Sell My Gibson', 'https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/', 'Talk with Joe about selling a Gibson or a collection.'],
 ];
 const schema = {
@@ -186,7 +186,7 @@ const schema = {
 
         <section class="sg-section" id="related-guides"><p class="sg-eyebrow">Keep Comparing</p><h2>Related Gibson Dating Guides</h2><div class="sg-related">{related.map(([name, href, copy]) => <a href={href}><h3>{name}</h3><p>{copy}</p><span>View Guide</span></a>)}</div><p class="sg-more">Find more model articles on the <a href="https://www.joesvintageguitarsaz.com/blog/">JVG blog</a> or visit <a href="https://www.joesvintageguitarsaz.com/">Joe’s Vintage Guitars</a>.</p></section>
         <section class="sg-section sg-faq" id="sg-faq"><h2>Gibson SG Dating Questions</h2>{faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
-        <aside class="sg-help"><div><p class="sg-eyebrow">Need Help With an SG?</p><h2>Send Joe Photos of Your SG</h2><p>Include the full front and back, both sides of the headstock, serial, neck heel, pickups, bridge, vibrato and any repairs. Add readable pot codes if they are safely accessible. Pair each close-up with a photo showing where it sits on the guitar.</p></div><div><a class="sg-button" href="https://www.joesvintageguitarsaz.com/free-appraisal/">Get a Free Appraisal</a><a href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/">Sell My Gibson</a></div></aside>
+        <aside class="sg-help"><div><p class="sg-eyebrow">Need Help With an SG?</p><h2>Send Joe Photos of Your SG</h2><p>Include the full front and back, both sides of the headstock, serial, neck heel, pickups, bridge, vibrato and any repairs. Add readable pot codes if they are safely accessible. Pair each close-up with a photo showing where it sits on the guitar.</p></div><div><a class="sg-button" href="https://www.joesvintageguitarsaz.com/free-appraisal/gibson/">Get a Free Appraisal</a><a href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/">Sell My Gibson</a></div></aside>
       </div>
     </div><SGPhotoViewer />
   </GibsonGuideLayout>

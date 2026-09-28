@@ -147,13 +147,13 @@ If you want a number on the guitar in your closet, send photos. The [appraisal i
 
 <h2 id="inherited">If You Inherited One</h2>
 
-Vintage ES-355s, 345s, and 335s are right in what I buy. The [Gibson buying page](/sell-my-gibson-guitar/) is a good starting point, and if you want help dating one, feel free to read the [1959 ES-355 guide](/post/1959-gibson-es-355-history-value/) before you guess the year. I'd leave the gold plating and the Vari-tone alone, because those are the parts people tend to "improve" first.
+Vintage ES-355s, 345s, and 335s are right in what I buy. The [Gibson buying page](/sell-my-gibson-guitar/) is a good starting point, and the [Gibson appraisal page](/free-appraisal/gibson/) is there if you want a market value without committing to a sale. If you want help dating one, read the [1959 ES-355 guide](/post/1959-gibson-es-355-history-value/) before you guess the year. I'd leave the gold plating and the Vari-tone alone, because those are the parts people tend to "improve" first.
 
-A 1960s Rickenbacker 330 is the same story on that side of the shop: the [Rickenbacker serial number guide](/rickenbacker-serial-numbers/) and the [Rickenbacker buying page](/sell-my-rickenbacker-guitar/) will get you oriented.
+A 1960s Rickenbacker 330 is the same story on that side of the shop: the [Rickenbacker serial number guide](/rickenbacker-serial-numbers/), [Rickenbacker appraisal page](/free-appraisal/rickenbacker/), and [Rickenbacker buying page](/sell-my-rickenbacker-guitar/) will get you oriented.
 
-1962-75 Jaguars and 1950s Teles live on the [Fender buying page](/sell-my-fender-guitar/), and the [Jaguar guide](/post/vintage-fender-jaguar-guide/) is there if you want more on the vintage offsets. A Johnny Marr signature Jag is a modern guitar, so I don't treat a 2017 as vintage.
+1962-75 Jaguars and 1950s Teles live on the [Fender buying page](/sell-my-fender-guitar/). Use the [Fender appraisal page](/free-appraisal/fender/) if you want a market value first, or the [Jaguar guide](/post/vintage-fender-jaguar-guide/) if you want more on vintage offsets. A Johnny Marr signature Jag is a modern guitar, so I don't treat a 2017 as vintage.
 
-The 1982 330 and the 1971 D-28 both sit outside the years I advertise, though I'm still happy to look at photos, and I can date a Martin from the neck-block stamp. A vintage Martin dreadnought from the years I do buy is on the [Martin buying page](/sell-my-martin-guitar/).
+The 1982 330 and the 1971 D-28 both sit outside the years I advertise, though I'm still happy to look at photos, and I can date a Martin from the neck-block stamp. For an older dreadnought, start with the [Martin appraisal page](/free-appraisal/martin/) or read how I [buy vintage Martin guitars](/sell-my-martin-guitar/).
 
 I buy in all 50 states from Mesa, and I handle packing and insured shipping if we can't meet here.
 

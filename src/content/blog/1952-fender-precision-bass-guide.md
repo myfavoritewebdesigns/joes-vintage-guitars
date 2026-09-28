@@ -56,7 +56,7 @@ The **early slab-body Fender Precision Bass**, covering production from late 195
 
 For the vintage collector, these instruments represent one of the most rewarding, and most challenging, authentication exercises in the Fender world. The details that define a genuine example are extraordinarily specific, and many of them changed year to year, even *within* a single year of production. This guide covers every authentication point in exhaustive detail.
 
-If you own an early Fender Precision Bass and want an expert evaluation, [Joe's Vintage Guitars makes it easy to sell your guitar nationwide](/), free market appraisals, no pressure, and we arrange all shipping from anywhere in the US.
+If you own an early Fender Precision Bass and want an expert evaluation, start with a [free Fender appraisal](/free-appraisal/fender/). If you decide to sell, I can arrange prepaid, insured shipping from anywhere in the country.
 
 **Call or text: (602) 900-6635**, same-day responses, no pressure, no obligation.
 
@@ -379,7 +379,7 @@ For collectors interested in other early Fender solid-body instruments, our [vin
 -   [Hardtail Stratocaster Vintage Guide](/post/hardtail-stratocaster-vintage-guide/)
 -   [Fender Guitars Serial Number Guide](/fender-guitars-serial-number-guide/)
 -   [Sell My Fender Guitar, How It Works](/sell-my-fender-guitar/)
--   [Free Vintage Guitar Appraisal Nationwide](/)
+-   [Free Fender Guitar Appraisal](/free-appraisal/fender/)
 
 ## Final Thoughts
 

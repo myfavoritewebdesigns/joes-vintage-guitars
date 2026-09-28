@@ -116,7 +116,7 @@ Factory tuners were **Kluson Deluxe** units with double-ring plastic buttons and
 
 </figure>
 
-**Authentication note:** One hardware inconsistency on its own doesn't make a guitar a forgery. Wrong pot codes, nickel plating, single-line Klusons, an amber switch tip: any of these means the guitar has been partially parted out or restored at some point. Price accordingly and document everything. If you're unsure, a [free appraisal from a specialist](/free-appraisal/) is the fastest way to get clarity before you buy or sell.
+**Authentication note:** One hardware inconsistency on its own doesn't make a guitar a forgery. Wrong pot codes, nickel plating, single-line Klusons, an amber switch tip: any of these means the guitar has been partially parted out or restored at some point. Price accordingly and document everything. If you're unsure, a [free appraisal from a specialist](/free-appraisal/gibson/) is the fastest way to get clarity before you buy or sell.
 
 <h2 id="the-case">The Case: The "Marigold" Interior</h2>
 
@@ -146,7 +146,7 @@ The 1968 nut width of 1 9/16″ is narrower than the 1 11/16″ on 1958 to 196
 
 ### The Entry Point Argument
 
-The 1968 ES-335 is still one of the strongest buys in the vintage semi-hollow market. Genuine late-Kalamazoo construction, a wide range of finishes to chase, and pricing that's still within reach for serious players who want the real thing. If you own one and want to know what it would actually bring today, [our free appraisal](/free-appraisal/) gives you a real number with no obligation.
+The 1968 ES-335 is still one of the strongest buys in the vintage semi-hollow market. Genuine late-Kalamazoo construction, a wide range of finishes to chase, and pricing that's still within reach for serious players who want the real thing. If you own one and want to know what it would actually bring today, [our free appraisal](/free-appraisal/gibson/) gives you a real number with no obligation.
 
 -   [1959 Gibson ES-335 Authentication Guide](/post/1959-gibson-es-335-authentication-guide/)
 -   [1962 Gibson ES-335 Guide](/post/1962-gibson-es-335-guide/)
@@ -166,7 +166,7 @@ What is the difference between a 1968 and a 1969 Gibson ES-335?
 
 How much is a 1968 Gibson ES-335 worth?
 
-Value depends on condition, originality, and finish. A clean, fully original Cherry or Sunburst example in excellent condition typically trades in the $7,000 to $8,000 range. Rare finishes like Pelham Blue, Polaris White, or Ebony bring significant premiums. For a precise number on a specific instrument, [request a free appraisal](/free-appraisal/). Generic online estimates almost never account for the hardware and finish details that actually move the price.
+Value depends on condition, originality, and finish. A clean, fully original Cherry or Sunburst example in excellent condition typically trades in the $7,000 to $8,000 range. Rare finishes like Pelham Blue, Polaris White, or Ebony bring significant premiums. For a precise number on a specific instrument, [request a free appraisal](/free-appraisal/gibson/). Generic online estimates almost never account for the hardware and finish details that actually move the price.
 
 How do I decode the serial number on my 1968 Gibson ES-335?
 
@@ -174,7 +174,7 @@ Gibson's 1960s serial numbers are tricky because the same number ranges got reus
 
 What's the best way to sell a 1968 Gibson ES-335?
 
-Start with an accurate appraisal from someone who actively buys and sells vintage Gibsons. Not a general music store estimate, and not an online price guide. We [purchase vintage Gibson guitars directly](/sell-my-gibson-guitar/), which means no consignment wait, no seller fees, and a price based on actual current market data. Get our [free appraisal](/free-appraisal/) first so you know exactly what you have before you make any decisions.
+Start with an accurate appraisal from someone who actively buys and sells vintage Gibsons. Not a general music store estimate, and not an online price guide. We [purchase vintage Gibson guitars directly](/sell-my-gibson-guitar/), which means no consignment wait, no seller fees, and a price based on actual current market data. Get our [free appraisal](/free-appraisal/gibson/) first so you know exactly what you have before you make any decisions.
 
 How does the 1968 ES-335 compare to the 1959 or 1962 models?
 
