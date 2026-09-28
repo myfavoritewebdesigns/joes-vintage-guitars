@@ -349,6 +349,15 @@ const faqSchema = {
   :global(.image-lightbox figcaption) { width: min(100%, 1000px); color: #eadbd0; font-size: 0.94rem; line-height: 1.55; text-align: center; }
   :global(.image-lightbox figcaption strong) { display: block; color: #fff; font-family: var(--font-display); font-size: 1.08rem; letter-spacing: 0.04em; text-transform: uppercase; }
   :global(.image-lightbox figcaption span) { display: block; margin-top: 3px; }
+  /* Header.astro's logo hangs below the navigation and grows at the 640px and
+     1024px breakpoints. Match the established PageHero.astro safe-area steps
+     so the guide breadcrumb and eyebrow never render underneath that banner. */
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .auth-hero { padding-top: 212px; }
+  }
+  @media (min-width: 1024px) {
+    .auth-hero { padding-top: 284px; }
+  }
   @media (max-width: 980px) {
     .auth-hero-grid, .signal, .deep-grid { grid-template-columns: 1fr; }
     .auth-photo { width: min(100%, 560px); transform: none; }
@@ -359,7 +368,6 @@ const faqSchema = {
   }
   @media (max-width: 700px) {
     .auth-container { width: min(100% - 26px, 1160px); }
-    .auth-hero { padding: 152px 0 56px; }
     .auth-hero h1 { font-size: clamp(2.9rem, 15vw, 4.6rem); }
     .auth-section { padding: 64px 0; }
     .rule-grid, .evidence-list, .photo-list, .comparison-grid, .comparison-grid.four, .resource-links { grid-template-columns: 1fr; }
@@ -370,5 +378,8 @@ const faqSchema = {
     :global(.image-lightbox) { width: 100vw; max-height: 100dvh; border-radius: 0; }
     :global(.image-lightbox-inner) { max-height: 100dvh; }
     :global(.image-lightbox img) { max-height: calc(100dvh - 160px); }
+  }
+  @media (max-width: 639px) {
+    .auth-hero { padding: 152px 0 56px; }
   }
 </style>
