@@ -134,6 +134,7 @@ export const appraisalPages: AppraisalPage[] = [
       {
         lead: "For close visual comparisons, see the",
         links: [
+          { href: "/how-to-spot-a-fake-fender/", label: "guide to spotting a fake Fender" },
           { href: "/post/fender-custom-color-authentication-guide/", label: "Fender custom color guide" },
           { href: "/post/1952-fender-telecaster-authentication-guide/", label: "1952 Telecaster authentication guide" },
           { href: "/post/1963-fender-stratocaster-authentication-guide/", label: "1963 Stratocaster authentication guide" },
@@ -216,6 +217,7 @@ export const appraisalPages: AppraisalPage[] = [
       {
         lead: "To compare the parts that often settle a Gibson appraisal, use my",
         links: [
+          { href: "/how-to-spot-a-fake-gibson/", label: "guide to spotting a fake Gibson" },
           { href: "/gibson-headstock-logo-chronology/", label: "headstock logo chronology" },
           { href: "/gibson-knob-dating-guide/", label: "knob dating guide" },
           { href: "/gibson-tuner-dating-guide/", label: "tuner dating guide" },
@@ -313,6 +315,7 @@ export const appraisalPages: AppraisalPage[] = [
       {
         lead: "For the details that place an older Martin in the right market, read the",
         links: [
+          { href: "/how-to-spot-a-fake-martin/", label: "guide to spotting a fake Martin" },
           { href: "/martin-serial-and-model-numbers/", label: "Martin serial and model number guide" },
           { href: "/post/martin-d18-history-specs-authentication-value-guide/", label: "D-18 history and authentication guide" },
           { href: "/post/martin-0-00-000-history-authentication-value-guide/", label: "0, 00, and 000 body guide" },
