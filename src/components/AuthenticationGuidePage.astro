@@ -1,0 +1,374 @@
+---
+import Layout from "../layouts/Layout.astro";
+import LicensedImage from "./primitives/LicensedImage.astro";
+import { authenticationGuides, type AuthenticationGuide } from "../data/authentication-guides";
+import { SITE_URL, hrefs } from "../config/site";
+
+interface Props {
+  page: AuthenticationGuide;
+}
+
+const { page } = Astro.props;
+const canonical = `/${page.slug}/`;
+const appraisalHref = `/free-appraisal/?brand=${encodeURIComponent(page.brand)}#appraisal-form`;
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: `How to Spot a Fake ${page.brand} Guitar`,
+  description: page.description,
+  url: `${SITE_URL}${canonical}`,
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Free Guitar Appraisal", item: `${SITE_URL}/free-appraisal/` },
+    { "@type": "ListItem", position: 3, name: `How to Spot a Fake ${page.brand}`, item: `${SITE_URL}${canonical}` },
+  ],
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: page.faqs.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+---
+
+<Layout
+  title={`How to Spot a Fake ${page.brand} Guitar | Joe's Vintage Guitars`}
+  description={page.description}
+  canonical={canonical}
+  ogType="article"
+  structuredData={[articleSchema, breadcrumbSchema, faqSchema]}
+>
+  <main class="auth-page">
+    <section class="auth-hero">
+      <div class="auth-container auth-hero-grid">
+        <div>
+          <nav class="breadcrumbs" aria-label="Breadcrumb">
+            <a href="/">Home</a><span aria-hidden="true">/</span>
+            <a href="/free-appraisal/">Free Guitar Appraisal</a><span aria-hidden="true">/</span>
+            <span>{page.brand} Authentication</span>
+          </nav>
+          <p class="eyebrow">Vintage guitar authentication guide</p>
+          <h1>How to Spot a Fake <span>{page.brand}</span> Guitar</h1>
+          <p class="lede">{page.lede}</p>
+          <div class="hero-actions">
+            <a class="auth-button" href={appraisalHref}>Have Joe Check Mine</a>
+            <a class="auth-button secondary" href="#field-checks">Start the Field Check</a>
+          </div>
+          <div class="proof-row" aria-label="Authentication reminders">
+            <span>Use several clues together</span>
+            <span>Model and year matter</span>
+            <span>Photos are enough to start</span>
+          </div>
+        </div>
+        <figure class="auth-photo">
+          <LicensedImage
+            src={page.hero}
+            alt={page.heroAlt}
+            width={800}
+            loading="eager"
+            fetchpriority="high"
+            class="auth-hero-image"
+            sizes="(max-width: 980px) 88vw, 420px"
+          />
+          <figcaption>Start with the whole instrument, then move to the details that are hardest to fake.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="rule-band" aria-label="Three rules for guitar authentication">
+      <div class="auth-container rule-grid">
+        <div class="rule"><strong>One clue is not a verdict</strong><p>Counterfeiters copy real details. Authentic guitars can also be repaired or modified.</p></div>
+        <div class="rule"><strong>Identify the exact claim</strong><p>The model, factory, and production period decide which features should be present.</p></div>
+        <div class="rule"><strong>Do no harm</strong><p>Photograph first. Do not force old screws, pull electronics, or clean away useful evidence.</p></div>
+      </div>
+    </section>
+
+    <section class="auth-section" id="field-checks">
+      <div class="auth-container">
+        <div class="section-head measure">
+          <p class="eyebrow">Start here</p>
+          <h2>The Fast {page.brand} Field Check</h2>
+          <p class="lede">{page.intro}</p>
+        </div>
+        <nav class="quick-nav" aria-label="Guide sections">
+          {page.quick.map((item) => (
+            <a href={`#${item.id}`}><strong>{item.title}</strong><small>{item.note}</small><span>View this check ↓</span></a>
+          ))}
+        </nav>
+      </div>
+    </section>
+
+    <section>
+      <div class="auth-container">
+        {page.sections.map((section, index) => (
+          <article class="signal" id={section.id}>
+            <div class="signal-copy">
+              <span class="signal-number">{index + 1}</span>
+              <p class="eyebrow">{section.eyebrow}</p>
+              <h2>{section.title}</h2>
+              <p set:html={section.bodyHtml} />
+              <ul>{section.bullets.map((item) => <li>{item}</li>)}</ul>
+              <div class="caution"><strong>Keep it in context.</strong> {section.caution}</div>
+            </div>
+            <div class:list={["comparison-grid", { one: section.portrait || section.images.length === 1, four: section.images.length === 4 }]}>
+              {section.images.map((item) => (
+                <figure class:list={["comparison", { portrait: section.portrait }]}>
+                  <button class="comparison-zoom" type="button" aria-haspopup="dialog" aria-label={`Enlarge photo: ${item.title}`}>
+                    <LicensedImage src={item.src} alt={item.alt} width={1100} loading="lazy" class="comparison-image" sizes="(max-width: 700px) 92vw, (max-width: 980px) 78vw, 470px" />
+                    <span class="comparison-zoom-label">Enlarge photo +</span>
+                  </button>
+                  <figcaption><strong>{item.title}</strong><span>{item.note}</span></figcaption>
+                </figure>
+              ))}
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="auth-section deep-check">
+      <div class="auth-container deep-grid">
+        <div><p class="eyebrow">The deeper check</p><h2>What Else Has to Match?</h2><p class="lede">A convincing {page.brand} should remain convincing as you move from the obvious details to the construction and parts beneath them.</p></div>
+        <ul class="evidence-list">{page.evidence.map((item) => <li><strong>{item.title}</strong><span>{item.body}</span></li>)}</ul>
+      </div>
+    </section>
+
+    <section class="auth-section photo-checklist">
+      <div class="auth-container deep-grid">
+        <div>
+          <p class="eyebrow">Before you buy or sell</p>
+          <h2>Photos to Send for a {page.brand} Authentication Review</h2>
+          <p class="lede">Start with what you can photograph safely. Joe will tell you if one more hidden detail would settle the question.</p>
+          <div class="hero-actions"><a class="auth-button" href={appraisalHref}>Send Photos to Joe</a><a class="auth-button secondary" href={hrefs.tel}>Call or Text (602) 900-6635</a></div>
+        </div>
+        <ul class="photo-list">{page.photos.map((item) => <li>{item}</li>)}</ul>
+      </div>
+    </section>
+
+    <section class="auth-section related-reading">
+      <div class="auth-container">
+        <div class="section-head measure"><p class="eyebrow">More from Joe's site</p><h2>Keep Researching Your {page.brand}</h2><p class="lede">Use the guides that match the model and details in front of you. Serial numbers start the investigation; construction, parts, originality, condition, and history finish it.</p></div>
+        <nav class="resource-links" aria-label={`Related ${page.brand} articles and guides`}>
+          {page.resources.map((item) => (
+            <a class="resource-link" href={item.href}><small>{item.category}</small><strong>{item.title}</strong><span>{item.body}</span><b>Read on Joe's site →</b></a>
+          ))}
+        </nav>
+      </div>
+    </section>
+
+    <section class="auth-section">
+      <div class="auth-container">
+        <div class="section-head measure"><p class="eyebrow">Compare the big three</p><h2>Vintage Guitar Authentication Guides</h2><p class="lede">Each maker leaves a different trail. Use the guide for the name on the instrument, then ask for an expert opinion if the evidence conflicts.</p></div>
+        <nav class="guide-links" aria-label="Authentication guides">
+          {authenticationGuides.map((item) => (
+            <a class="guide-link" href={`/${item.slug}/`}>
+              <small>{item.brand} authentication</small>
+              <strong>How to Spot a Fake {item.brand}</strong>
+              <span>{item.brand === "Gibson" ? "Truss rod hardware, bridge, headstock construction, serial stamp, and electronics." : item.brand === "Martin" ? "Neck-block markings, wood grain, center strip, bracing, and construction." : "Specification timeline, hidden date codes, truss rod layout, finish, and parts."}</span>
+              <b>{item.slug === page.slug ? "You are reading this guide" : "Read the guide →"}</b>
+            </a>
+          ))}
+        </nav>
+      </div>
+    </section>
+
+    <section class="auth-section-tight auth-faq-section">
+      <div class="auth-container deep-grid">
+        <div><p class="eyebrow">Common questions</p><h2>{page.brand} Authentication Questions</h2><p class="lede">A real guitar can have changed parts. A clean-looking guitar can still be wrong. These distinctions matter before you price it.</p></div>
+        <div class="faq-list">{page.faqs.map((item, index) => <details open={index === 0}><summary>{item.q}</summary><p>{item.a}</p></details>)}</div>
+      </div>
+    </section>
+
+    <section class="auth-section-tight auth-final">
+      <div class="auth-container auth-final-grid"><div><p class="eyebrow">Still unsure?</p><h2>Have Joe Review the Whole Guitar</h2><p>A serial number or one photo can raise a question. A complete photo set is how the answer becomes reliable.</p></div><a class="auth-button" href={appraisalHref}>Get a Free {page.brand} Appraisal</a></div>
+    </section>
+  </main>
+
+  <dialog class="image-lightbox" aria-labelledby="image-lightbox-title">
+    <div class="image-lightbox-inner">
+      <div class="image-lightbox-toolbar"><strong id="image-lightbox-title">Enlarged authentication photo</strong><form method="dialog"><button class="image-lightbox-close" type="submit">Close</button></form></div>
+      <figure><img src="" alt="" /><figcaption></figcaption></figure>
+    </div>
+  </dialog>
+</Layout>
+
+<script>
+  const lightbox = document.querySelector<HTMLDialogElement>(".image-lightbox");
+  const lightboxImage = lightbox?.querySelector<HTMLImageElement>("img");
+  const lightboxCaption = lightbox?.querySelector<HTMLElement>("figcaption");
+
+  document.querySelectorAll<HTMLButtonElement>(".comparison-zoom").forEach((button) => {
+    button.addEventListener("click", () => {
+      const image = button.querySelector<HTMLImageElement>("img");
+      const caption = button.closest(".comparison")?.querySelector<HTMLElement>("figcaption");
+      if (!lightbox || !lightboxImage || !lightboxCaption || !image) return;
+      lightboxImage.src = image.currentSrc || image.src;
+      lightboxImage.alt = image.alt;
+      lightboxCaption.innerHTML = caption?.innerHTML ?? image.alt;
+      lightbox.showModal();
+    });
+  });
+
+  lightbox?.addEventListener("click", (event) => {
+    if (event.target === lightbox) lightbox.close();
+  });
+
+  lightbox?.addEventListener("close", () => {
+    lightboxImage?.removeAttribute("src");
+  });
+</script>
+
+<style>
+  .auth-page {
+    --auth-ink: #211d18;
+    --auth-paper: #fffaf0;
+    --auth-paper-2: #f2eadb;
+    --auth-line: rgba(62, 42, 20, 0.18);
+    color: var(--auth-ink);
+    background: var(--auth-paper);
+    font-size: 17px;
+    line-height: 1.72;
+  }
+  .auth-container { width: min(1160px, calc(100% - 40px)); margin-inline: auto; }
+  .auth-section { padding: 88px 0; }
+  .auth-section-tight { padding: 72px 0; }
+  .section-head { margin-bottom: 36px; }
+  .measure { max-width: 780px; }
+  .eyebrow { margin: 0 0 12px; color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 0.8rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+  .lede { font-size: 1.12rem; line-height: 1.7; }
+  .auth-page h1, .auth-page h2 { margin: 0 0 20px; color: var(--color-brand-brown); font-family: var(--font-display); font-weight: 700; line-height: 1.04; text-transform: uppercase; }
+  .auth-page h2 { font-size: clamp(2.35rem, 5vw, 4.25rem); }
+  .auth-hero { position: relative; overflow: hidden; padding: 176px 0 78px; color: #fff; background: linear-gradient(135deg, #26211c, #682412 68%, #8b321b); }
+  .auth-hero::before { position: absolute; inset: 0; background: radial-gradient(circle at 18% 18%, rgba(209, 137, 73, 0.22), transparent 32%), linear-gradient(120deg, rgba(255, 255, 255, 0.04), transparent 45%); content: ""; pointer-events: none; }
+  .auth-hero-grid { position: relative; display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(330px, 0.72fr); align-items: center; gap: clamp(36px, 6vw, 82px); }
+  .auth-hero h1 { max-width: 820px; color: #fff; font-size: clamp(3.25rem, 6.8vw, 6.6rem); line-height: 0.96; }
+  .auth-hero h1 span, .auth-hero .eyebrow { color: #efb36d; }
+  .auth-hero .lede { max-width: 720px; color: #f1e6dc; }
+  .breadcrumbs { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 30px; color: #d7c4b8; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.07em; text-transform: uppercase; }
+  .breadcrumbs a { color: #fff; text-decoration-color: rgba(255, 255, 255, 0.45); text-underline-offset: 4px; }
+  .auth-photo { overflow: hidden; margin: 0; border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 22px; background: #1d1410; box-shadow: 0 30px 75px rgba(0, 0, 0, 0.35); transform: rotate(1.2deg); }
+  :global(.auth-hero-image) { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+  .auth-photo figcaption { padding: 15px 18px; color: #eadbd0; font-size: 0.82rem; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 30px 0 24px; }
+  .auth-button { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; padding: 12px 22px; border: 2px solid transparent; background: var(--color-brand-cream); color: var(--color-brand-rust-dark); font-family: var(--font-display); font-weight: 700; letter-spacing: 0.025em; line-height: 1.2; text-align: center; text-decoration: none; text-transform: uppercase; transition: transform 0.2s ease, background 0.2s ease; }
+  .auth-button:hover { transform: translateY(-2px); }
+  .auth-button.secondary { border-color: rgba(255, 255, 255, 0.5); background: transparent; color: #fff; }
+  .proof-row { display: flex; flex-wrap: wrap; gap: 9px; }
+  .proof-row span { padding: 7px 11px; border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 999px; color: #eadbd0; font-size: 0.78rem; font-weight: 700; }
+  .rule-band { border-bottom: 1px solid var(--auth-line); background: #fff8ee; }
+  .rule-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
+  .rule { padding: 27px clamp(22px, 3vw, 38px); }
+  .rule + .rule { border-left: 1px solid var(--auth-line); }
+  .rule strong { display: block; margin-bottom: 7px; color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 1.2rem; text-transform: uppercase; }
+  .rule p { margin: 0; color: #564c44; font-size: 0.94rem; }
+  .quick-nav { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 34px; }
+  .quick-nav a { display: flex; min-height: 112px; flex-direction: column; justify-content: space-between; padding: 22px; border: 1px solid var(--auth-line); border-radius: 15px; background: #fff; color: var(--auth-ink); text-decoration: none; transition: 0.2s ease; }
+  .quick-nav a:hover { border-color: var(--color-brand-rust-bright); box-shadow: 0 13px 30px rgba(65, 38, 20, 0.1); transform: translateY(-3px); }
+  .quick-nav strong { font-family: var(--font-display); font-size: 1.28rem; text-transform: uppercase; }
+  .quick-nav small { color: #655a4f; }
+  .quick-nav span { color: var(--color-brand-rust); font-size: 0.82rem; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; }
+  .signal { display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(320px, 1.05fr); align-items: center; gap: clamp(34px, 6vw, 78px); padding: 76px 0; border-top: 1px solid var(--auth-line); scroll-margin-top: 120px; }
+  .signal:first-child { border-top: 0; }
+  .signal:nth-child(even) .signal-copy { order: 2; }
+  .signal-number { display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; margin-bottom: 22px; border-radius: 50%; background: var(--color-brand-rust-dark); color: #fff; font-family: var(--font-display); font-size: 1.2rem; }
+  .signal h2 { margin-bottom: 16px; font-size: clamp(2.45rem, 4vw, 4.1rem); }
+  .signal-copy > p { color: #514941; }
+  :global(.inline-guide-link) { color: var(--color-brand-rust-dark); font-weight: 800; text-decoration-color: var(--color-brand-rust); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  :global(.inline-guide-link:hover), :global(.inline-guide-link:focus-visible) { color: var(--color-brand-rust); text-decoration-color: var(--color-brand-rust-dark); }
+  .signal-copy ul { margin: 22px 0 0; padding: 0; list-style: none; }
+  .signal-copy li { position: relative; padding: 10px 0 10px 27px; border-top: 1px solid var(--auth-line); }
+  .signal-copy li::before { position: absolute; top: 18px; left: 3px; width: 9px; height: 9px; border: 2px solid var(--color-brand-rust); border-radius: 50%; content: ""; }
+  .caution { margin-top: 24px; padding: 17px 19px; border-left: 4px solid #8e421f; background: #fff5e8; color: #40372f; font-size: 0.92rem; }
+  .comparison-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 12px; }
+  .comparison-grid.one { grid-template-columns: 1fr; }
+  .comparison { overflow: hidden; margin: 0; border: 1px solid var(--auth-line); border-radius: 15px; background: #fff; box-shadow: 0 14px 36px rgba(55, 35, 23, 0.12); }
+  .comparison-zoom { display: block; width: 100%; padding: 0; border: 0; background: #fff; color: inherit; cursor: zoom-in; font: inherit; text-align: left; }
+  :global(.comparison-image) { display: block; width: 100%; height: auto; }
+  .comparison-zoom-label { display: flex; min-height: 42px; align-items: center; justify-content: flex-end; padding: 9px 14px; background: #2b211c; color: #fff; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; }
+  .comparison-zoom:hover .comparison-zoom-label { background: var(--color-brand-rust-dark); }
+  .comparison-zoom:focus-visible { position: relative; z-index: 1; outline: 4px solid #efb36d; outline-offset: -4px; }
+  .comparison figcaption { min-height: 70px; padding: 13px 15px 15px; background: #fff; }
+  .comparison figcaption strong { display: block; color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 1rem; letter-spacing: 0.03em; text-transform: uppercase; }
+  .comparison figcaption span { display: block; margin-top: 4px; color: #625850; font-size: 0.8rem; line-height: 1.45; }
+  .deep-check, .auth-faq-section { background: var(--auth-paper-2); }
+  .deep-grid { display: grid; grid-template-columns: minmax(260px, 0.7fr) minmax(0, 1.3fr); gap: clamp(36px, 6vw, 78px); }
+  .evidence-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; }
+  .evidence-list li { min-height: 148px; padding: 22px; border: 1px solid var(--auth-line); border-radius: 15px; background: rgba(255, 255, 255, 0.72); }
+  .evidence-list strong { display: block; margin-bottom: 8px; color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 1.18rem; text-transform: uppercase; }
+  .evidence-list span { color: #574e47; font-size: 0.93rem; }
+  .photo-checklist { color: #fff; background: var(--auth-ink); }
+  .photo-checklist h2 { color: #fff; }
+  .photo-checklist .eyebrow { color: #efb36d; }
+  .photo-checklist .lede { color: #d9d4cd; }
+  .photo-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 30px 0 0; padding: 0; list-style: none; }
+  .photo-list li { position: relative; padding: 17px 18px 17px 46px; border: 1px solid rgba(255, 255, 255, 0.13); border-radius: 12px; background: rgba(255, 255, 255, 0.04); }
+  .photo-list li::before { position: absolute; left: 18px; color: #efb36d; content: "✓"; font-weight: 900; }
+  .related-reading { background: #fff8ee; }
+  .resource-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+  .resource-link { display: flex; min-height: 220px; flex-direction: column; align-items: stretch; justify-content: flex-start; padding: clamp(30px, 3vw, 38px); border: 1px solid var(--auth-line); border-radius: 15px; background: #fff; color: var(--auth-ink); text-decoration: none; transition: 0.2s ease; }
+  .resource-link:hover { border-color: var(--color-brand-rust-bright); box-shadow: 0 13px 30px rgba(65, 38, 20, 0.1); transform: translateY(-3px); }
+  .resource-link small { color: var(--color-brand-rust); font-size: 0.76rem; font-weight: 800; letter-spacing: 0.07em; text-transform: uppercase; }
+  .resource-link strong { margin: 10px 0 8px; color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 1.32rem; line-height: 1.15; text-transform: uppercase; }
+  .resource-link span { color: #5c534c; font-size: 0.9rem; line-height: 1.62; }
+  .resource-link b { margin-top: auto; padding-top: 18px; color: var(--color-brand-rust-dark); font-size: 0.86rem; }
+  .guide-links { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+  .guide-link { display: flex; min-height: 210px; flex-direction: column; padding: 26px; border: 1px solid var(--auth-line); border-radius: 17px; background: #fff; color: var(--auth-ink); text-decoration: none; transition: 0.2s ease; }
+  .guide-link:hover { border-color: var(--color-brand-rust-bright); box-shadow: 0 14px 34px rgba(64, 38, 22, 0.1); transform: translateY(-3px); }
+  .guide-link small { color: var(--color-brand-rust); font-weight: 800; letter-spacing: 0.07em; text-transform: uppercase; }
+  .guide-link strong { margin: 12px 0 10px; font-family: var(--font-display); font-size: 1.55rem; line-height: 1.12; text-transform: uppercase; }
+  .guide-link span { color: #5c534c; }
+  .guide-link b { margin-top: auto; padding-top: 22px; color: var(--color-brand-rust-dark); }
+  .faq-list { border-top: 1px solid var(--auth-line); }
+  .faq-list details { border-bottom: 1px solid var(--auth-line); }
+  .faq-list summary { padding: 18px 4px; color: var(--color-brand-brown); font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; cursor: pointer; text-transform: uppercase; }
+  .faq-list p { padding: 0 4px 19px; }
+  .auth-final { color: #fff; background: var(--color-brand-rust-dark); }
+  .auth-final-grid { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 30px; }
+  .auth-final h2 { color: #fff; }
+  .auth-final .eyebrow { color: #efb36d; }
+  .auth-final p { color: #eadbd0; }
+  .auth-final .auth-button { border-color: #efb36d; background: #efb36d; color: #21150d; }
+  :global(.image-lightbox) { width: min(96vw, 1500px); max-width: none; max-height: 94vh; padding: 0; border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 18px; background: #17110e; color: #fff; box-shadow: 0 35px 100px rgba(0, 0, 0, 0.65); }
+  :global(.image-lightbox::backdrop) { background: rgba(17, 10, 7, 0.88); backdrop-filter: blur(5px); }
+  :global(.image-lightbox[open]) { display: grid; }
+  :global(.image-lightbox-inner) { display: grid; max-height: 94vh; grid-template-rows: auto minmax(0, 1fr); }
+  :global(.image-lightbox-toolbar) { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 12px 14px 12px 20px; border-bottom: 1px solid rgba(255, 255, 255, 0.13); }
+  :global(.image-lightbox-toolbar strong) { font-family: var(--font-display); font-size: 1rem; letter-spacing: 0.05em; text-transform: uppercase; }
+  :global(.image-lightbox-close) { min-height: 42px; padding: 9px 16px; border: 1px solid rgba(255, 255, 255, 0.35); border-radius: 999px; background: transparent; color: #fff; cursor: pointer; font: inherit; font-size: 0.85rem; font-weight: 800; }
+  :global(.image-lightbox figure) { display: grid; min-height: 0; gap: 13px; justify-items: center; margin: 0; padding: 18px 20px 22px; overflow: auto; }
+  :global(.image-lightbox img) { display: block; width: auto; max-width: 100%; height: auto; max-height: calc(94vh - 150px); object-fit: contain; }
+  :global(.image-lightbox figcaption) { width: min(100%, 1000px); color: #eadbd0; font-size: 0.94rem; line-height: 1.55; text-align: center; }
+  :global(.image-lightbox figcaption strong) { display: block; color: #fff; font-family: var(--font-display); font-size: 1.08rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  :global(.image-lightbox figcaption span) { display: block; margin-top: 3px; }
+  @media (max-width: 980px) {
+    .auth-hero-grid, .signal, .deep-grid { grid-template-columns: 1fr; }
+    .auth-photo { width: min(100%, 560px); transform: none; }
+    .signal:nth-child(even) .signal-copy { order: initial; }
+    .quick-nav, .guide-links { grid-template-columns: 1fr; }
+    .resource-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .quick-nav a { min-height: 94px; }
+  }
+  @media (max-width: 700px) {
+    .auth-container { width: min(100% - 26px, 1160px); }
+    .auth-hero { padding: 152px 0 56px; }
+    .auth-hero h1 { font-size: clamp(2.9rem, 15vw, 4.6rem); }
+    .auth-section { padding: 64px 0; }
+    .rule-grid, .evidence-list, .photo-list, .comparison-grid, .comparison-grid.four, .resource-links { grid-template-columns: 1fr; }
+    .rule + .rule { border-top: 1px solid var(--auth-line); border-left: 0; }
+    .signal { padding: 58px 0; }
+    .resource-link { min-height: 0; padding: 28px; }
+    .auth-final-grid { grid-template-columns: 1fr; }
+    :global(.image-lightbox) { width: 100vw; max-height: 100dvh; border-radius: 0; }
+    :global(.image-lightbox-inner) { max-height: 100dvh; }
+    :global(.image-lightbox img) { max-height: calc(100dvh - 160px); }
+  }
+</style>
