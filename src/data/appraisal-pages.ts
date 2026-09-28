@@ -541,7 +541,7 @@ export const appraisalPages: AppraisalPage[] = [
       { q: "Can You Appraise My Guild From Photos?", a: "Yes. Clear photos of the full instrument, serial number, label, hardware, finish, and repairs are usually enough to begin." },
       { q: "Does the Guild Factory Location Affect Value?", a: "It can. New York, Hoboken, and Westerly production can draw different buyer interest. I still need the exact model and condition." },
       { q: "Do Repaired Cracks or a Neck Reset End the Value?", a: "No. I look at how well the work was done, how much of the guitar was affected, and what original parts remain." },
-      { q: "Is This a Written Insurance Appraisal?", a: "No. I provide a free current market value opinion. A signed insurance appraisal is a separate service." },
+      { q: "Is This a Written Insurance Appraisal?", a: "No. I provide a free current market value opinion. A signed insurance appraisal with replacement-value research is a separate paid service." },
     ],
   },
   {

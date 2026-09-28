@@ -15,8 +15,8 @@ const finishDetail = resolveImage("images/vintage-fender-custom-color-value.jpg"
 const fullGuitarPhoto = appraisalPages.find((page) => page.slug === "fender")!.heroImage;
 
 const faqs = [
-  { q: "Is the Guitar Appraisal Really Free?", a: "Yes. I do not charge for the first market valuation, and you do not have to sell. A signed report for insurance, an estate, a donation, or a legal matter is a separate service." },
-  { q: "What's The Difference Between Fair Market Value And An Insurance Appraisal?", a: "Fair market value is what a buyer will realistically hand you in cash today. An insurance appraisal is usually higher. It's the retail cost of replacing your instrument with an equivalent one from a dealer if yours gets stolen or destroyed. I give you the numbers for both. If you're selling, you know your floor. If you're insuring, you know your coverage." },
+  { q: "Is the Guitar Appraisal Really Free?", a: "Yes. I do not charge for the first market valuation, and you do not have to sell. A signed report for insurance, an estate, a donation, or a legal matter is a separate paid service." },
+  { q: "What's The Difference Between Fair Market Value And An Insurance Appraisal?", a: "Fair market value is the price a knowledgeable, willing buyer and seller would agree on in the open market, with neither under pressure to complete the transaction. The free appraisal gives you my opinion of the guitar's current market value. An insurance appraisal is a separate paid service that includes replacement-value research and a signed report for your insurer." },
   { q: "Can You Appraise a Guitar From Photos?", a: "Yes. Clear photos are usually enough to begin. I may ask for a closer view of a serial number, finish, pickup, label, repair, or other detail." },
   { q: "Do I Have to Bring the Guitar to Mesa to Get an Appraisal?", a: "No. My shop is in Mesa, Arizona, and local owners can arrange an in-person appraisal. I handle most appraisals remotely from clear photos, so you do not need to ship the guitar or bring it to Mesa just to learn what it is worth." },
   { q: "Do I Need to Know the Model or Year?", a: "No. Send the full guitar, headstock, serial number or label, and anything you know about its history. I can help identify it." },
@@ -89,7 +89,7 @@ const reviews = [
   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
   <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
 
-  <main class="ah-page">
+  <div class="ah-page">
     <section class="ah-hero">
       <div class="ah-container ah-hero-grid">
         <div class="ah-hero-copy">
@@ -308,8 +308,8 @@ const reviews = [
           <article>
             <p class="ah-eyebrow">For Official Use</p>
             <h3>Written Appraisal</h3>
-            <p>Use this if an insurance company, estate, attorney, accountant, court, or charity needs a signed report. Written appraisals require more research and documentation.</p>
-            <ul><li>Insurance documentation</li><li>Estate or probate needs</li><li>Tax or donation support</li></ul>
+            <p>Use this if an insurance company, estate, attorney, accountant, court, or charity needs a signed report. This is a separate paid service because it requires additional research and documentation.</p>
+            <ul><li>Insurance replacement value</li><li>Estate or probate needs</li><li>Tax or donation support</li></ul>
             <a class="ah-button ah-button-rust" href="/free-appraisal/?appraisal=insurance#appraisal-form">Ask Joe About a Written Appraisal</a>
           </article>
         </div>
@@ -382,7 +382,7 @@ const reviews = [
         <div class="ah-final-actions"><a class="ah-button ah-button-light" href="#appraisal-form">Get My Free Appraisal</a><a href={hrefs.tel}>Call or Text {contact.phone}</a></div>
       </div>
     </section>
-  </main>
+  </div>
 
   <script is:inline>
     const appraisalParams = new URLSearchParams(window.location.search);
@@ -419,7 +419,7 @@ const reviews = [
   .ah-section h2, .ah-final h2 { color: var(--color-brand-brown); font-size: clamp(2.45rem, 5vw, 4.4rem); }
   .ah-dark h2, .ah-case h2, .ah-final h2 { color: #fffaf0; }
   .ah-section h3 { margin: 0 0 10px; color: var(--color-brand-brown); font-family: var(--font-display); font-size: 1.35rem; line-height: 1.2; text-transform: uppercase; }
-  .ah-eyebrow { margin: 0 0 12px; color: var(--color-brand-rust-bright); font-family: var(--font-display); font-size: 0.82rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; }
+  .ah-eyebrow { margin: 0 0 12px; color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 0.82rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; }
   .ah-hero .ah-eyebrow, .ah-dark .ah-eyebrow, .ah-case .ah-eyebrow, .ah-final .ah-eyebrow { color: #eab265; }
   .ah-lede { font-size: 1.12rem; line-height: 1.68; }
   .ah-inline { color: var(--color-brand-rust-bright); font-weight: 800; text-decoration-thickness: 1px; text-underline-offset: 3px; }

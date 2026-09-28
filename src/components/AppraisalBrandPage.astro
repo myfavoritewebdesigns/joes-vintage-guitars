@@ -59,7 +59,7 @@ const serviceSchema = {
   ogType="website"
   structuredData={[faqSchema, breadcrumbSchema, serviceSchema]}
 >
-  <main class="ap-page">
+  <div class="ap-page">
     <section class="ap-hero">
       <div class="ap-container ap-hero-grid">
         <div class="ap-hero-copy">
@@ -317,7 +317,7 @@ const serviceSchema = {
         <div class="ap-final-actions"><a class="ap-button ap-button-light" href={appraisalHref}>Start My {page.brand} Appraisal</a><a href={hrefs.tel}>{contact.phone}</a></div>
       </div>
     </section>
-  </main>
+  </div>
 </Layout>
 
 <style>
@@ -339,7 +339,7 @@ const serviceSchema = {
   .ap-section h2, .ap-final h2 { color: var(--color-brand-brown); font-size: clamp(2.35rem, 5vw, 4.3rem); }
   .ap-dark h2, .ap-final h2 { color: #fffaf0; }
   .ap-section h3 { margin: 0 0 10px; color: var(--color-brand-brown); font-family: var(--font-display); font-size: 1.35rem; line-height: 1.2; text-transform: uppercase; }
-  .ap-eyebrow { margin: 0 0 12px; color: var(--color-brand-rust-bright); font-family: var(--font-display); font-size: 0.82rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; }
+  .ap-eyebrow { margin: 0 0 12px; color: var(--color-brand-rust-dark); font-family: var(--font-display); font-size: 0.82rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; }
   .ap-hero .ap-eyebrow, .ap-dark .ap-eyebrow, .ap-final .ap-eyebrow { color: #eab265; }
   .ap-lede { font-size: 1.12rem; line-height: 1.68; }
   .ap-breadcrumbs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px; color: #ddcbb4; font-size: 0.84rem; }

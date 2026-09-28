@@ -2,9 +2,9 @@
  * Shared client-side submit handler for all contact forms on the site.
  *
  * Any <form> with `data-jvg-contact-form` will be intercepted on submit. The
- * payload is POSTed to /api/contact (a Cloudflare Pages Function — to be added
- * when Mailgun is wired). Until then, this script gracefully no-ops with a
- * console.info so dev clicks don't navigate.
+ * payload is POSTed to /api/contact, a Cloudflare Pages Function backed by
+ * Mailgun. Local Astro development may not run that function, so only a
+ * localhost 404 is treated as the development stub.
  *
  * Each form should set `data-form-id="<source-name>"` so the handler knows
  * which form fired (e.g., "consultation", "contact", "free-appraisal").
@@ -139,22 +139,23 @@ async function handleSubmit(e: SubmitEvent) {
 
   setState(form, "submitting", "Sending…");
 
-  // Endpoint exists once Cloudflare Pages Functions + Mailgun are wired.
-  // Until then, /api/contact returns 404 and we log + show a friendly message.
   try {
     const res = await fetch("/api/contact", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
     });
-    // On success (or the 404 dev-stub), restore the original two-step flow:
+    // On success (or the localhost-only 404 dev stub), restore the original two-step flow:
     // send the seller to /thank-you/, where they can optionally upload photos.
     // The basics ride in sessionStorage (same-tab, same-origin, never sent over
     // the wire) so part two can pre-fill them without exposing PII in the URL.
-    // 404 = the CF Pages Function isn't wired (astro dev). The visitor is shown
-    // success either way, so capture in both cases; jvgWcTrack no-ops off the
-    // production hostname, so dev submissions never reach Joe's lead data.
-    if (res.ok || res.status === 404) {
+    // A deployed 404 must remain an error so a missing Function can never show
+    // visitors a false success. The exception only supports `astro dev` on the
+    // local machine; jvgWcTrack no-ops off the production hostname.
+    const isLocalDevStub = import.meta.env.DEV
+      && (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
+      && res.status === 404;
+    if (res.ok || isLocalDevStub) {
       wcCapture(payload, String(payload.formId ?? "contact"));
       const pick = (...keys: string[]) => {
         for (const k of keys) {
