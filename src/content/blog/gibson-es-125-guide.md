@@ -270,7 +270,7 @@ If you want a semi-hollow with real vintage age in the wood, a price that doesn'
 
 We specialize in vintage Gibsons and buy guitars outright. No consignment, no waiting. Whether it's a single instrument or an entire collection, we can help.
 
--   [Request a free appraisal](/free-appraisal/). Tell us what you have and we'll give you an honest current-market assessment.
+-   [Request a free appraisal](/free-appraisal/gibson/). Tell us what you have and we'll give you an honest current-market assessment.
 -   [Sell your Gibson guitar](/sell-my-gibson-guitar/). Fast, fair offers on vintage Gibsons in any condition.
 -   [Selling a large guitar collection?](/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/) Every option explained honestly, from dealers to auctions to private sale.
 -   [Browse our current vintage inventory](/). Updated regularly with instruments we've personally inspected and authenticated.

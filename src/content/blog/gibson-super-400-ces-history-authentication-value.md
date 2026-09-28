@@ -42,7 +42,7 @@ I buy Super 400s, L-5s, and ES-355s on purpose. The [Sell My Gibson Guitar](/sel
 <figcaption><strong>A 1938 Super 400</strong> with a floating DeArmond pickup. Those were popular in the early days of electric guitars, when players wanted to amplify an acoustic.</figcaption>
 </figure>
 
-If you want a year on the guitar in front of you while you read, keep the [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) open. If you want a number on yours, send photos through the [free appraisal](/free-appraisal/) form.
+If you want a year on the guitar in front of you while you read, keep the [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) open. If you want a number on yours, send photos through the [free appraisal](/free-appraisal/gibson/) form.
 
 <h2 id="quick-answer">The Short Version</h2>
 
@@ -411,7 +411,7 @@ Use this as a map, then check current comps before you buy or sell. Clean, origi
 
 <h3 id="deductions">What Takes The Number Down</h3>
 
-- **Refinish.** On vintage Gibsons I appraise, a refinish commonly cuts collector value by about 40 to 50 percent (see the [free appraisal](/free-appraisal/) page and the sell-Gibson FAQ).
+- **Refinish.** On vintage Gibsons I appraise, a refinish commonly cuts collector value by about 40 to 50 percent (see the [free appraisal](/free-appraisal/gibson/) page and the sell-Gibson FAQ).
 - **Replaced pickups.** On a PAF-era CES this is the hidden hit. Do not pull covers to prove it. Look at solder, leads, and routing.
 - **Headstock break or repair.** Same 40 to 50 percent neighborhood on a Gibson, even when the repair is clean.
 - **Extra holes** from a converted acoustic, an added jack, or a later Bigsby.
@@ -496,7 +496,7 @@ Yes. The [Sell My Gibson Guitar](/sell-my-gibson-guitar/) page lists Super 400, 
 
 I buy Super 400s and Super 400 CES guitars nationwide out of Mesa, Arizona. I pay cash. I date the guitar from the features above, not from a serial chart alone. If we can't meet in person, I cover insured shipping and send the label.
 
-Start with photos: front, back, headstock front and back, both f-holes (label and FON), pickups in the guitar, bridge, tailpiece, tuners, and the case. Use the [free appraisal](/free-appraisal/) form, email joesvintageguitars94@gmail.com, or call or text (602) 900-6635. The [Sell My Gibson Guitar](/sell-my-gibson-guitar/) page is the process if you already know you want to sell.
+Start with photos: front, back, headstock front and back, both f-holes (label and FON), pickups in the guitar, bridge, tailpiece, tuners, and the case. Use the [free appraisal](/free-appraisal/gibson/) form, email joesvintageguitars94@gmail.com, or call or text (602) 900-6635. The [Sell My Gibson Guitar](/sell-my-gibson-guitar/) page is the process if you already know you want to sell.
 
 Leave the guitar as it sits. Do not polish the nitro. Do not swap the tuners back to "look original" the week before you call. Do not open the pickups. The as-found guitar is the one I can price.
 

@@ -189,7 +189,7 @@ Harness checks out? Let's verify the rest.
 
 If your guitar has the gray-bottom pickups, the cloth pushback wiring, the .1 mfd pancake cap, and an original CTS or Stackpole pot dated to 1966, you're looking at a real one. Skip the auction-site hassle and get a secure, competitive cash offer from a vintage Fender specialist who reads these guitars for a living.
 
-[Get a Free Appraisal](/free-appraisal/)
+[Get a Free Appraisal](/free-appraisal/fender/)
 
 <h2 id="bridge">The Bridge and Hardware</h2>
 
@@ -385,5 +385,5 @@ This is the same process we use for guitars coming in from across the country ev
 
 Joe's Vintage Guitars buys 1966 Stratocasters in every condition, every color, and every configuration. Inherited a custom color example? Sorting through an estate? Have a sunburst project that needs the right home? We make fair, professional offers on clean originals and on guitars that have been modified or refinished. Joe has been buying, authenticating, and selling vintage Fenders out of Mesa for years, and you can read more about our background on the [about page](/about-me/).
 
-[**Request a free appraisal →**](/free-appraisal/)  
+[**Request a free appraisal →**](/free-appraisal/fender/)
 Want to know what the buying process looks like before you reach out? Visit our [sell my Fender guitar](/sell-my-fender-guitar/) page. For dating help, our [Fender serial number guide](/fender-guitars-serial-number-guide/) and our [vintage Fender Stratocaster value guide](/vintage-fender-stratocaster-value-guide/) cover every year of Strat production. For pre-CBS authentication walkthroughs that complement this one, the [1963 Stratocaster guide](/post/1963-fender-stratocaster-authentication-guide/) and the [1962 Stratocaster guide](/post/1962-fender-stratocaster-authentication-guide/) are both worth a read.

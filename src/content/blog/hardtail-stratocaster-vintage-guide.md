@@ -16,7 +16,7 @@ The “clean” look of a hardtail: Notice the solid wood back and the six chrom
 
 The Fender Stratocaster is almost synonymous with the synchronized tremolo bridge. For many, that’s the “soul” of the guitar. But there is a leaner, meaner version of the Strat that has been quietly winning over players for decades: the **Hardtail**.
 
-At Joe’s Vintage Guitars, we often see these come through the shop, and they always spark a great conversation. If you’ve never spent significant time with a hardtail, you might be missing out on one of Fender’s best-kept secrets. If you have a Fender and you’re wondering what it’s worth, compare it with the [1960 Fender Stratocaster value guide](/vintage-fender-stratocaster-value-guide/1960/) or reach out for a [**free appraisal.**](/free-appraisal/)
+At Joe’s Vintage Guitars, we often see these come through the shop, and they always spark a great conversation. If you’ve never spent significant time with a hardtail, you might be missing out on one of Fender’s best-kept secrets. If you have a Fender and you’re wondering what it’s worth, compare it with the [1960 Fender Stratocaster value guide](/vintage-fender-stratocaster-value-guide/1960/) or reach out for a [**free appraisal.**](/free-appraisal/fender/)
 
 ## What is a Hardtail Stratocaster?
 
@@ -113,4 +113,4 @@ A number of well-known players preferred the reliability and “thump” of the 
 
 If you own a vintage Fender and have been considering selling, I am always looking to buy high-quality hardtail Stratocasters. Whether it’s a rare 1950s ash-body model or a resonant player from the 1970s, you can review [how I buy vintage Fender guitars](/sell-my-fender-guitar/) and what to expect from the process.
 
-Use the [free appraisal form](/free-appraisal/) to send photos or [contact me](/contact-me/) to talk about your instrument.
+Use the [free appraisal form](/free-appraisal/fender/) to send photos or [contact me](/contact-me/) to talk about your instrument.

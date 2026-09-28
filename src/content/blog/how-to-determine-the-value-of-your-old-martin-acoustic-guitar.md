@@ -27,7 +27,7 @@ One of the first steps in selling a guitar is determining its value. The last th
 
 At the same time, you want to avoid pricing yourself out of the market and ending up being unable to sell your guitar. So, what’s the best way to determine the value of this instrument? That’s what we’ll cover today in this article. 
 
-Here are some tips to help you determine the value of your old Martin acoustic guitar, so that you can make an informed decision about whether it’s time to sell. If you’re unsure about the valuation, consider using our **[FREE APPRAISAL](/free-appraisal/)** services to get a professional assessment.
+Here are some tips to help you determine the value of your old Martin acoustic guitar, so that you can make an informed decision about whether it’s time to sell. If you’re unsure about the valuation, consider using our **[FREE APPRAISAL](/free-appraisal/martin/)** services to get a professional assessment.
 
   
 ![Martin Guitar in Arizona](../../assets/blog/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/How-To-Determine-The-Value-Of-Your-Old-Martin-Acoustic-Guitar-AZ.jpg)
@@ -44,7 +44,7 @@ You can find early 1900s vintage guitars at thousands of dollars, while more rec
 
 If you own a well-maintained guitar, it’ll be worth more than one with scratches everywhere. Your guitar can be even more valuable if it’s in perfect condition (if you used it gently or only a few times).
 
-The easiest method to acquire a reliable appraisal for your Martin acoustic guitar is to consult a [**professional guitar appraiser**](/free-appraisal/ "professional guitar appraiser"). Based on the model, age, and condition of your guitar, the guitar expert will estimate its value.
+The easiest method to acquire a reliable appraisal for your Martin acoustic guitar is to consult a [**professional guitar appraiser**](/free-appraisal/martin/ "professional guitar appraiser"). Based on the model, age, and condition of your guitar, the guitar expert will estimate its value.
 
 <h3 id="how-much-is-a-martin-guitar-worth">How Much Is A Martin Guitar Worth?</h3>
 

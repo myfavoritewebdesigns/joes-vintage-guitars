@@ -85,6 +85,6 @@ What matters most to me is that they know what they are looking at. A guitar lik
 
 ## Have a Gibson You Are Curious About?
 
-If you own a vintage Gibson, common or unusual, and you want to know what it is and what it is worth, I am always glad to take a look. I buy and appraise Gibsons across the country. You can start on my [sell your Gibson guitar page](/sell-my-gibson-guitar/) or send a few photos for a [free appraisal](/free-appraisal/), and you will hear back from me directly.
+If you own a vintage Gibson, common or unusual, and you want to know what it is and what it is worth, I am always glad to take a look. I buy and appraise Gibsons across the country. You can start on my [sell your Gibson guitar page](/sell-my-gibson-guitar/) or send a few photos for a [free appraisal](/free-appraisal/gibson/), and you will hear back from me directly.
 
 A short Maestro Vibrola on a 1965 ES-335 is the kind of thing you can go years without seeing. When one turns up and everything checks out, it is a good reminder that the factory did not always build to a single template, and that the guitar itself always has the final say.

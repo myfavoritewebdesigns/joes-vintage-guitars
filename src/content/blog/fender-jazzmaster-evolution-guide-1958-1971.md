@@ -539,4 +539,4 @@ Fender serial numbers in the 1960s were batch-assigned and not strictly sequenti
 
 ## Have a Vintage Jazzmaster?
 
-If you are trying to identify one, start with the [Fender serial number guide](/fender-guitars-serial-number-guide/) and a [free appraisal](/free-appraisal/). If you are ready to sell, see [how I buy vintage Fender guitars](/sell-my-fender-guitar/) directly from owners nationwide.
+If you are trying to identify one, start with the [Fender serial number guide](/fender-guitars-serial-number-guide/) and a [free appraisal](/free-appraisal/fender/). If you are ready to sell, see [how I buy vintage Fender guitars](/sell-my-fender-guitar/) directly from owners nationwide.

@@ -95,6 +95,6 @@ Condition, originality, repairs, and provenance all affect an appraisal. Joe’s
 
 ## Have a Vintage Martin With a Story?
 
-If a Martin has stayed in your family, send Joe clear photographs of the front, back, headstock, neck-block stamp, case, and any old pictures or paperwork. The [free vintage guitar appraisal](/free-appraisal/) is a good place to start, or you can read how to [sell a vintage Martin directly to Joe](/sell-my-martin-guitar/).
+If a Martin has stayed in your family, send Joe clear photographs of the front, back, headstock, neck-block stamp, case, and any old pictures or paperwork. The [free vintage guitar appraisal](/free-appraisal/martin/) is a good place to start, or you can read how to [sell a vintage Martin directly to Joe](/sell-my-martin-guitar/).
 
 The photographs identify the instrument. The old pictures, receipts, letters, and family memories identify the life it lived.

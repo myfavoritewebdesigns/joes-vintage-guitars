@@ -119,7 +119,7 @@ Vintage 5-18s trade in a thinner market than 0-18s and 00-18s. Originality, crac
 
 A worn original finish usually beats a pretty refinish. Cracks and old repairs don't make it unsellable. Don't clean it, don't polish it, and don't have anyone touch it up before you send photos. I wrote the same thing on the [Martin buying page](/sell-my-martin-guitar/) because I mean it.
 
-If you want a number on your guitar, send me photos. The [appraisal is free](/free-appraisal/) and there is no obligation to sell.
+If you want a number on your guitar, send me photos. The [appraisal is free](/free-appraisal/martin/) and there is no obligation to sell.
 
 <h2 id="inherited">If You Inherited One</h2>
 
@@ -168,11 +168,11 @@ Read the serial on the neck block and look it up on the [Martin serial number gu
 
 <h3 id="will-you-buy-my-5-18">Will You Buy My 5-18?</h3>
 
-Yes, if the neck-block stamp is a 5-18. Send photos of the guitar and the stamp for a [free appraisal](/free-appraisal/).
+Yes, if the neck-block stamp is a 5-18. Send photos of the guitar and the stamp for a [free appraisal](/free-appraisal/martin/).
 
 <h2 id="send-me-photos">Send Me Photos</h2>
 
-If you want the short version on your guitar, send photos. Front, back, headstock, and the neck-block stamp through the soundhole. I'll date it, say whether it's a 5-18, and give you a current market read. Use the [free appraisal form](/free-appraisal/), or text me at (602) 900-6635.
+If you want the short version on your guitar, send photos. Front, back, headstock, and the neck-block stamp through the soundhole. I'll date it, say whether it's a 5-18, and give you a current market read. Use the [free appraisal form](/free-appraisal/martin/), or text me at (602) 900-6635.
 
 I'm Joe Dampt. I buy, sell, and appraise vintage instruments in Mesa, Arizona. I've been doing this full-time for more than twelve years. If you want me to look at the guitar in the case, that's the appraisal form.
 

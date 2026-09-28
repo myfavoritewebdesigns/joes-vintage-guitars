@@ -264,7 +264,7 @@ The Gold Guard Precision Bass is the first fully modern electric bass. Contoured
 
 For collectors, these are blue-chip pieces. Finite supply, real historical weight, and they actually play as well as the mystique suggests. For players who can afford one, the instrument still does the job it was designed to do sixty-plus years later. That's more than you can say for most mid-century engineering.
 
-If you're looking to buy, sell, or just figure out what you have, **the details matter**. A bass that checks every authenticity box is a different object, both economically and historically, than one with a replaced guard, a reissue pickup, or a re-dated neck. If you're not sure, get a [qualified appraisal](/free-appraisal/) before money changes hands.
+If you're looking to buy, sell, or just figure out what you have, **the details matter**. A bass that checks every authenticity box is a different object, both economically and historically, than one with a replaced guard, a reissue pickup, or a re-dated neck. If you're not sure, get a [qualified appraisal](/free-appraisal/fender/) before money changes hands.
 
 <figure>
 

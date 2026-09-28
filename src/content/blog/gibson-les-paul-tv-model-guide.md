@@ -34,7 +34,7 @@ The Gibson Les Paul TV Model is one of the most misunderstood names in the whole
 
 If you own one, or you think you might, the headstock settles it fast. A genuine TV Model is silk-screened in gold, and under the "Gibson" logo and the "Les Paul" script it reads "TV MODEL." Not "Junior." That small line of gold ink is the difference between a common Junior and a guitar Kalamazoo shipped in the low hundreds per year.
 
-At Joe's Vintage Guitars we buy, authenticate, and appraise these guitars regularly, and the questions we hear most often are the same three: what exactly is a TV Model, how do I know it is real, and what is it worth. This guide answers all three in detail. If you already know what you have and you are ready to move it, you can jump straight to how to [sell your Gibson](/sell-my-gibson-guitar/) or request a [free appraisal](/free-appraisal/). If you want to understand the guitar first, read on.
+At Joe's Vintage Guitars we buy, authenticate, and appraise these guitars regularly, and the questions we hear most often are the same three: what exactly is a TV Model, how do I know it is real, and what is it worth. This guide answers all three in detail. If you already know what you have and you are ready to move it, you can jump straight to how to [sell your Gibson](/sell-my-gibson-guitar/) or request a [free appraisal](/free-appraisal/gibson/). If you want to understand the guitar first, read on.
 
 ![Full front view of a 1957 Gibson Les Paul TV Model standing in a vintage guitar shop, showing the single-cutaway slab mahogany body in pale TV Yellow limed mahogany finish, single black dog-ear P-90 pickup, single-ply black pickguard, one-piece wraparound bridge, two black bonnet knobs, rosewood fingerboard with dot inlays, and a black headstock with gold Gibson and Les Paul TV Model silk-screen.](../../assets/blog/gibson-les-paul-tv-model-guide/1957-gibson-les-paul-tv-model-full-front-of-guitar.jpg)
 
@@ -282,7 +282,7 @@ At Joe's Vintage Guitars we have spent years buying and authenticating 1950s Gib
 When you are ready, here is where to start:
 
 -   **[Sell your Gibson](/sell-my-gibson-guitar/):** how our buying process works and what to expect.
--   **[Free appraisal](/free-appraisal/):** send us details and photos and we will tell you what you have and what it is worth.
+-   **[Free appraisal](/free-appraisal/gibson/):** send us details and photos and we will tell you what you have and what it is worth.
 -   **[Gibson serial number guide](/how-to-read-gibson-serial-numbers/):** date your guitar yourself before you reach out.
 -   **[Gibson production totals](/post/gibson-shipping-totals-1948-1979/):** confirm how rare your specific year and finish really is.
 

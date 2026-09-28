@@ -661,4 +661,4 @@ An original 1955 to 1959 guitar should show Kalamazoo-era body stamps, 1950s com
 
 Do not dismantle a clean vintage harness only to take a photograph. If access requires force, a repair professional should handle it.
 
-Have an ES-225 to identify or sell? [Request a free, evidence-based appraisal](/free-appraisal/) and send clear photographs plus everything you know about the guitar. Original parts, repairs, and uncertainty are all easier to evaluate when they are documented up front. If you are ready to sell, see [how Joe buys vintage Gibson guitars](/sell-my-gibson-guitar/), or call [(602) 900-6635](tel:+16029006635).
+Have an ES-225 to identify or sell? [Request a free, evidence-based appraisal](/free-appraisal/gibson/) and send clear photographs plus everything you know about the guitar. Original parts, repairs, and uncertainty are all easier to evaluate when they are documented up front. If you are ready to sell, see [how Joe buys vintage Gibson guitars](/sell-my-gibson-guitar/), or call [(602) 900-6635](tel:+16029006635).

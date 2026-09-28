@@ -56,4 +56,4 @@ This D-28 came to me from the original owner's grandson in Apache Junction. The 
 
 If your family has a Martin with an original owner photograph, receipt, or remembered history, send me what you have. I can help identify the guitar, explain what matters, and give you a straightforward assessment.
 
-Start with a [free vintage guitar appraisal](/free-appraisal/) or read how to [sell a vintage Martin directly to me](/sell-my-martin-guitar/).
+Start with a [free vintage guitar appraisal](/free-appraisal/martin/) or read how to [sell a vintage Martin directly to me](/sell-my-martin-guitar/).

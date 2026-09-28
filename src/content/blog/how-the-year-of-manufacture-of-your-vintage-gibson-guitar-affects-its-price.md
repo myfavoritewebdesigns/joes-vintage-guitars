@@ -277,7 +277,7 @@ Pre-1960 Gibsons, particularly Les Paul Standards and original PAF-equipped mode
 
 Where is the best place to sell a vintage Gibson guitar?
 
-The best place is wherever you can find a buyer who understands exactly what the guitar is and can pay accordingly. Auction houses, Reverb, and dedicated vintage guitar dealers are all legitimate channels. The risk with generalist platforms and guitar centers is that staff may not have the depth of knowledge to accurately identify a valuable variant or correctly assess originality, which can mean a lowball offer that doesn't reflect true market value. Working with a specialist who can properly appraise the instrument before the sale is always advisable. You can [sell your Gibson guitar directly to Joe's Vintage Guitars](/sell-my-gibson-guitar/), or start with a [free vintage guitar appraisal](/free-appraisal/) if you're not sure what you have.
+The best place is wherever you can find a buyer who understands exactly what the guitar is and can pay accordingly. Auction houses, Reverb, and dedicated vintage guitar dealers are all legitimate channels. The risk with generalist platforms and guitar centers is that staff may not have the depth of knowledge to accurately identify a valuable variant or correctly assess originality, which can mean a lowball offer that doesn't reflect true market value. Working with a specialist who can properly appraise the instrument before the sale is always advisable. You can [sell your Gibson guitar directly to Joe's Vintage Guitars](/sell-my-gibson-guitar/), or start with a [free vintage guitar appraisal](/free-appraisal/gibson/) if you're not sure what you have.
 
 Does a refin (refinished guitar) hurt the value of a vintage Gibson?
 
@@ -293,8 +293,8 @@ All original means every component on the guitar is the factory-installed part: 
 
 Knowing the year of your guitar is just the starting point. At Joe's Vintage Guitars in Mesa, AZ, I provide free, thorough appraisals that account for model, condition, originality, color, provenance, and current market demand, not just the year on the serial number.
 
-📧 Send photos to [joesvintageguitars94@gmail.com](mailto:joesvintageguitars94@gmail.com)  
-📱 Call or text: [(602) 900-6635](tel:6029006635)  
+📧 Send photos to [joesvintageguitars94@gmail.com](mailto:joesvintageguitars94@gmail.com)<br>
+📱 Call or text: [(602) 900-6635](tel:6029006635)<br>
 📍 47 N Fraser Dr E, Mesa, AZ 85203
 
-I buy individual guitars, full collections, and other stringed instruments. If you're ready to sell, I make the process straightforward and pay fair prices. [Learn more about selling your Gibson →](/sell-my-gibson-guitar/) or get a [free appraisal →](/free-appraisal/)
+I buy individual guitars, full collections, and other stringed instruments. If you're ready to sell, I make the process straightforward and pay fair prices. [Learn more about selling your Gibson →](/sell-my-gibson-guitar/) or get a [free appraisal →](/free-appraisal/gibson/)

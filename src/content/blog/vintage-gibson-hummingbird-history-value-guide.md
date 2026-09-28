@@ -473,4 +473,4 @@ If you own one, spend ten minutes with the eight checks above before you talk to
 
 If you inherited one and have no idea what it is, that is fine too. Send us the photos and we will tell you what you have.
 
-We buy, sell, and appraise vintage acoustics out of our shop in Mesa, Arizona. If you have a Hummingbird and want to know what it is worth, start with a [free appraisal](/free-appraisal/), or read how we handle a [Gibson sale](/sell-my-gibson-guitar/) if you are ready to move it. You can also just [get in touch](/contact-me/) and ask.
+We buy, sell, and appraise vintage acoustics out of our shop in Mesa, Arizona. If you have a Hummingbird and want to know what it is worth, start with a [free appraisal](/free-appraisal/gibson/), or read how we handle a [Gibson sale](/sell-my-gibson-guitar/) if you are ready to move it. You can also just [get in touch](/contact-me/) and ask.
