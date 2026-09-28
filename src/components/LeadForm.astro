@@ -89,7 +89,7 @@ const instrumentName = instrumentMode === "model-only" ? "model" : "instrument";
       <div class="lead-form__radios">
         {["Insurance Appraisal", "Basic Appraisal"].map((opt) => (
           <label class="lead-form__radio">
-            <input type="radio" name="appraisal-type" value={opt} />
+            <input type="radio" name="appraisal-type" value={opt} checked={opt === "Basic Appraisal"} />
             <span>{opt}</span>
           </label>
         ))}
