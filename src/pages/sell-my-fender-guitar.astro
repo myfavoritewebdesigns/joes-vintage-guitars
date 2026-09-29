@@ -214,7 +214,11 @@ let pageMarkup = rawPageMarkup
     'class="full-field captcha-row h-captcha-mount"',
   )
   .replaceAll('alt="Vintage 1956 sunburst Fender Stratocaster"', 'alt="Vintage 1955 sunburst Fender Stratocaster"')
-  .replaceAll('https://www.joesvintageguitarsaz.com/free-appraisal/', '/free-appraisal/fender/');
+  .replaceAll('https://www.joesvintageguitarsaz.com/free-appraisal/', '/free-appraisal/fender/')
+  .replace(
+    "The serial number is a starting point, but neck dates, body dates, pot codes, pickup markings, hardware and construction details often matter just as much. Send photos and I will work through those clues.",
+    'The serial number is a starting point, but neck dates, body dates, pot codes, pickup markings, hardware and construction details often matter just as much. My <a href="/how-to-spot-a-fake-fender/">guide to spotting a fake Fender</a> shows the counterfeit-specific clues. Send photos and I will work through the rest.',
+  );
 
 for (const [from, to] of Object.entries(assetReplacements)) {
   pageMarkup = pageMarkup.split(from).join(to);
