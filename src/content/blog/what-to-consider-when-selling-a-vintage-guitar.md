@@ -22,6 +22,8 @@ Table Of Contents
 
 <h2 id="a-sellers-guide-on-vintage-guitars">A Seller’s Guide On Vintage Guitars</h2>
 
+For a current local comparison, read Joe's guide to [where to sell a vintage guitar in Phoenix](/where-to-sell-vintage-guitar-phoenix/). It explains the work, costs, timing, and risks behind private sales, marketplaces, consignment, auctions, trade-ins, and a direct specialist offer.
+
 Are you looking to sell [vintage guitars in Mesa](/)? If yes, then you should consider some things first, including the guitar’s quality.
 
 The guitar has become a symbol of music lovers around the globe. There are many types of guitars out there, each one with its unique features.

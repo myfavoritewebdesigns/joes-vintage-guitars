@@ -1,0 +1,8 @@
+---
+import PhoenixMetroSellingPage from "../components/PhoenixMetroSellingPage.astro";
+import { getPhoenixMetroPage } from "../data/phoenix-metro-pages";
+
+const page = getPhoenixMetroPage("sell-vintage-guitar-phoenix-az");
+---
+
+<PhoenixMetroSellingPage page={page} />
