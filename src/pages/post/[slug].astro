@@ -270,6 +270,28 @@ const firebirdFaqSchema = {
   ],
 };
 
+const jaguarFaqs = [
+  { q: "Which vintage Fender Jaguar years are worth the most?", a: "Original 1962 Jaguars generally lead the market, especially slab-board examples in factory custom colors with their original case and accessories. Original pre-CBS guitars from 1962 through early 1965 form the next strongest group. Condition, finish, originality, repairs, and provenance determine the value of an individual guitar." },
+  { q: "How much does a refinish reduce a vintage Jaguar's value?", a: "A professional period-correct refinish commonly reduces value by about 40 to 60 percent compared with an otherwise similar original-finish guitar. Poor work, an incorrect color, or additional body modifications can create a larger discount." },
+  { q: "Do replacement pickups hurt the value?", a: "Replacement pickups reduce collector value, but the size of the loss depends on whether the original pickups remain with the guitar and whether the body was modified. A reversible pickup swap is less serious than enlarged routes or missing original parts." },
+  { q: "Is a 1965 Fender Jaguar pre-CBS or CBS?", a: "The calendar alone is not enough. Early and mid 1965 Jaguars can retain pre-CBS features, while later examples show CBS-era changes such as fingerboard binding and a three-ply pickguard. Use the neck, guard, hardware, dates, and electronics together." },
+  { q: "How can I tell whether a custom color is original?", a: "Inspect the neck pocket, pickup cavities, finish chips, and hidden nail holes where appropriate. A factory finish should show period-correct paint, sealer, masking or paint-stick evidence, and wear that agrees across the instrument." },
+  { q: "Did vintage Jaguars ever use a three-bolt neck?", a: "No. Fender Jaguars kept a four-bolt neck and heel-adjusted truss rod throughout the original 1962 to 1975 production run. A three-bolt Jaguar neck indicates a modification or a parts assembly." },
+  { q: "Can I date a vintage Jaguar from the serial number alone?", a: "No. Fender neck plates were used from shared bins and their ranges overlap. A reliable date comes from comparing the neck stamp, body date, potentiometer codes, pickup construction, hardware, and feature set." },
+  { q: "Where can I get a vintage Fender Jaguar appraised?", a: "A dealer who specializes in vintage Fenders can inspect the dated parts, finish, electronics, hardware, and repairs together. Joe's Vintage Guitars provides free photo appraisals and can arrange a hands-on inspection when the photographs do not settle the question." },
+];
+
+const jaguarFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${postUrl}#faq-schema`,
+  mainEntity: jaguarFaqs.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+
 const j200Faqs = [
   { q: "What is the difference between a Gibson SJ-200 and J-200?", a: "They are names Gibson has used for the same flagship Super Jumbo family. Catalogs, factory labels, and shipping records did not always change names together. The complete year, label, woods, bridge, bracing, and other construction details identify the specific version." },
   { q: "When did Gibson change the SJ-200 from rosewood to maple?", a: "Maple became the normal back and side wood when postwar production resumed in 1947 and 1948. Prewar standard examples used rosewood, while later custom, J-250R, Western Classic, Custom, Pre-War, and rosewood-branded variants can use rosewood again." },
@@ -407,6 +429,14 @@ const articleSchema = {
       { "@type": "Thing", name: "Guitar authentication" },
     ],
   } : {}),
+  ...(isJaguarGuide ? {
+    keywords: ["vintage Fender Jaguar", "Fender Jaguar authentication", "Fender Jaguar specifications", "Fender Jaguar value", "Fender Jaguar originality"],
+    about: [
+      { "@type": "Thing", name: "Fender Jaguar" },
+      { "@type": "Thing", name: "Vintage Fender guitars" },
+      { "@type": "Thing", name: "Guitar authentication" },
+    ],
+  } : {}),
 };
 ---
 
@@ -428,6 +458,8 @@ const articleSchema = {
     ? [breadcrumbSchema, articleSchema, martinFaqSchema]
     : isFirebirdGuide
       ? [breadcrumbSchema, articleSchema, firebirdFaqSchema]
+      : isJaguarGuide
+        ? [breadcrumbSchema, articleSchema, jaguarFaqSchema]
       : isEs225Guide
         ? [breadcrumbSchema, articleSchema, es225FaqSchema, ...es225ImageSchemas]
     : videoSchema
