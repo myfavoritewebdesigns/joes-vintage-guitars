@@ -856,6 +856,7 @@ const articleSchema = {
     color: var(--color-brand-rust-dark, #682412);
     font-weight: 700;
   }
+  body.jaguar-guide-page .blog-prose .jg-scroll-hint { display: none; }
   body.jaguar-guide-page .blog-prose figure {
     margin: 2.2em 0;
     padding: 10px 10px 14px;
@@ -916,6 +917,25 @@ const articleSchema = {
     body.jaguar-guide-page .blog-prose .post-toc-inline { padding: 22px 20px; }
     body.jaguar-guide-page .blog-prose .post-toc-inline ul,
     body.jaguar-guide-page .blog-prose .jg-check-grid { grid-template-columns: 1fr; }
+    body.jaguar-guide-page .blog-prose .jg-scroll-hint {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 9px;
+      margin: -1.15em 2px 1.85em;
+      color: var(--color-brand-rust-dark, #682412);
+      font-family: var(--font-display, Oswald), sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+    body.jaguar-guide-page .blog-prose .jg-scroll-hint span {
+      color: var(--color-brand-rust-bright, #be4b25);
+      font-size: 1.35rem;
+      line-height: 0.7;
+    }
     body.jaguar-guide-page .blog-prose .jg-check-grid article,
     body.jaguar-guide-page .blog-prose .jg-check-grid article:last-child {
       grid-column: auto;

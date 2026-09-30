@@ -116,6 +116,7 @@ This is the high level orientation table. Every cell here is unpacked in detail 
 | **1970 1972** | Bound rosewood or maple cap | Pearloid blocks (rosewood); pearloid or black blocks (maple) | CBS black | 3 ply pearl or tortoise | Polyester |
 | **1973 1975** | Bound rosewood or maple cap (white or black binding) | Pearloid blocks (rosewood); black blocks common on maple | CBS black | 3 ply, parts mix common | Polyester, thinner gloss late |
 
+<p class="jg-scroll-hint">Scroll to see more <span aria-hidden="true">→</span></p>
 <h2 id="pre-cbs-years">The Pre CBS Years: 1962 to 1964</h2>
 
 Everything that drives the high water Jaguar valuations comes out of this era. The guitar launched at $379.50 in sunburst, which is about $4,000 in 2026 money, and the build quality reflects that price point. Tight pocket fits. Hand cut nut slots. Neck dates rubber-stamped on the heel, which is what Fender had moved to by the time the Jaguar launched. Do not expect the penciled dates and shaper's initials you find on 1950s Fenders; those belong to an earlier era, and a penciled name on a Jaguar heel is a reason to look harder, not a mark of authenticity. Finishes shot in nitrocellulose lacquer that has aged into the cracked, ambered surface collectors look for.
@@ -243,6 +244,7 @@ and additional numbers | The "Transition Era" patent block. The block becomes a 
 | **1968 to 1975** | 2 patents | 2,972,923  
 3,143,028 | The logo switches to the large black "TV" CBS logo around mid 1968. Counter-intuitively, the patent count **drops significantly** on these decals: from 5 or 6 down to just 2. A CBS-era black-logo Jaguar with 5+ patents is wrong. |
 
+<p class="jg-scroll-hint">Scroll to see more <span aria-hidden="true">→</span></p>
 Counterfeiters reproduce the big script easily but routinely miss on the patent block, and the Jaguar's patent count progression gives you a useful pattern to test against because of the counter-intuitive drop in 1968. Common red flags:
 
 -   "PAT. PEND." text by itself with no numbers on anything built after early 1963
@@ -403,6 +405,7 @@ Verify with any "all original" vintage Jaguar that the bridge currently installe
 | Late 1964 through the mid-1960s transition | Kluson Deluxe double line | "Kluson Deluxe / Kluson Deluxe" stacked on two lines | Oval metal |
 | Mid-1960s transition to 1975 | Fender "F" stamped tuners | Large stylized "F" on back plate | Octagonal metal |
 
+<p class="jg-scroll-hint">Scroll to see more <span aria-hidden="true">→</span></p>
 Tuner replacement is one of the most common modifications on vintage Fenders, usually because the original Klusons developed slop in the gears after fifty years of use. Replacement is reversible and not always a dealbreaker, but you want to see the original tuner peg holes intact with no enlargement or filled secondary holes from a different gear ratio replacement set. Sperzels or Gotohs installed in original Kluson holes leave a tight, period correct looking exterior but you can spot them by the modern stamping and the post diameter.
 
 The single line to double line Kluson transition happened in **late 1964**, not 1962. A 1962, 1963, or early 1964 Jaguar should wear **single line** Klusons with a single "Kluson Deluxe" stamp running down the center of the back plate. **Double line tuners on a 1962, 1963, or early 1964 build are a red flag for later replacement**, usually a service swap done in the late 60s or early 70s when the originals wore out. The reverse is also true: single line tuners on a 1966 or later guitar are wrong for the era. The double-line-to-F-tuner change was a parts-bin transition rather than a clean calendar cutoff, so use the neck date, tuner footprint, and the rest of the hardware together.
@@ -641,6 +644,7 @@ If you have inherited a vintage Jaguar that came out of a closet, attic, or unde
 | **Late 1965 onward** | Black Tolex with chrome Fender logo on the lid | Orange plush early, transitioning to other colors | Chrome Fender logo plate, with the small "tail" decoration on earliest examples then without |
 | **Late 60s into 70s** | Black Tolex continues, hard shell construction | Orange then black plush by the early 70s | Chrome "tailless" Fender logo, then plain black molded cases on late 70s |
 
+<p class="jg-scroll-hint">Scroll to see more <span aria-hidden="true">→</span></p>
 The brown Tolex case from 1962 to 1963 is the one buyers want most and adds noticeable value when present with a pre-CBS Jaguar. The "no logo" black case from 1964 to early 1965 is a strong second tier and often gets dismissed by people who do not know what they are looking at. If you found a Jaguar in a brown Tolex case in a closet, you are likely looking at an early 60s instrument before you even open the lid.
 
 ### Case Candy and Why It Matters
