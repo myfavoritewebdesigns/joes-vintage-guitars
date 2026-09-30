@@ -58,31 +58,31 @@ This page is the deep authentication reference: originality, finish, electronics
 
 <div class="jg-check-grid">
   <article>
-    <span>01</span>
+    <span>1</span>
     <h3>Fingerboard & Inlays</h3>
     <p>Slab versus veneer, clay versus pearl, then bound dots or blocks. This is the fastest way to divide the run into meaningful eras.</p>
     <a href="#fingerboard-inlay-authentication">Read the neck →</a>
   </article>
   <article>
-    <span>02</span>
+    <span>2</span>
     <h3>Pickguard</h3>
     <p>Four-ply nitrate belongs to the early run; later three-ply guards should agree with the neck, finish, and screw pattern.</p>
     <a href="#pickguard-identification">Read the guard →</a>
   </article>
   <article>
-    <span>03</span>
+    <span>3</span>
     <h3>Tuners</h3>
     <p>Single-line Klusons, double-line Klusons, then F tuners create three quick hardware windows visible from the back.</p>
     <a href="#tuners-hardware">Read the tuners →</a>
   </article>
   <article>
-    <span>04</span>
+    <span>4</span>
     <h3>Pickup Bottoms</h3>
     <p>Black and gray fiber bottoms help place the electronics and expose pickup swaps when they conflict with the rest of the guitar.</p>
     <a href="#pickups-electronics">Read the pickups →</a>
   </article>
   <article>
-    <span>05</span>
+    <span>5</span>
     <h3>Dates Inside</h3>
     <p>The neck heel and body dates anchor the build; pot codes provide an earliest-possible component date and a useful cross-check.</p>
     <a href="#pot-codes-dating">Read the dates →</a>
