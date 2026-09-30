@@ -342,6 +342,14 @@ The Jaguar's switching is the most complex Fender designed in the 1960s. Two com
 
 Pull the lead circuit control plate (four screws) and inspect the pot codes, the cap, and the solder joints. Original Fender solder joints from the 60s have a duller, almost frosted appearance compared to modern leaded solder, and the joints themselves should look unmolested. A rewire or pot replacement is not necessarily a value killer on a player grade guitar but on a collector grade Jaguar, originality of the harness matters. Look for the cloth-covered push-back wire on 1962 through 1968 to 1969 examples (typically yellow and black insulation), with plastic insulated wire appearing on builds from the end of the 1960s onward.
 
+<figure>
+
+![Lead-circuit wiring harness from a 1965 Fender Jaguar showing the potentiometers, capacitor, cloth-covered wire, solder joints, and metal control plate](../../assets/images/fender-sn/1965-fender-jaguar-wiring-harness.jpg)
+
+<figcaption>A 1965 Jaguar lead-circuit harness. Photograph the pot stamps, capacitor, cloth-covered wire, solder joints, and the back of the control plate before disturbing anything; the value is in how these clues agree with one another.</figcaption>
+
+</figure>
+
 ### Brass Shielding Tubs and Grounding
 
 Most authentication guides skip the shielding, but it's a reliable tell for a parts assembled instrument. Original Jaguar bodies came from the factory with **brass shielding tubs** installed in the control cavities. These are thin folded brass sheets that line the routs beneath the lead circuit plate, the rhythm circuit plate, and the pickup cavities. The pickguard's aluminum shielding plate makes contact across the top. Ground wires were soldered to the brass at specific points, creating a continuous shielding cage around the electronics tied to the overall ground bus.
@@ -365,6 +373,14 @@ The Jaguar shares its trem with the Jazzmaster: a long floating tremolo plate wi
 
 The Jaguar bridge is its most criticized component. Two thimble-mounted posts hold a chrome bridge with six individual saddles, each adjustable for height with two grub screws and for length with a single rear screw. The factory saddle grooves are notoriously narrow and shallow, which is why so many original Jaguars have had Mastery or Staytrem replacement bridges installed by working players. An original bridge has value, and many sellers keep the bridge with the case and run a modern replacement on the playing instrument. If you are buying a "stock" Jaguar, verify the bridge is the period correct piece, not a modern reissue or aftermarket part.
 
+<figure>
+
+![Original-style floating bridge on a 1966 Fender Jaguar in Olympic White showing two thimble posts and six threaded saddles](../../assets/blog/vintage-fender-jaguar-guide/1966-fender-jaguar-olympic-white-1-scaled.jpg)
+
+<figcaption>The factory-style floating bridge on a 1966 Jaguar: two thimble-mounted posts and six individually adjustable threaded saddles. Compare this simple assembly with the precision-machined shapes and maker marks found on modern replacements.</figcaption>
+
+</figure>
+
 ### The Mute
 
 The hinged mute is a foam pad mounted to a metal plate behind the bridge, dropped onto the strings via a thumb lever to dampen sustain for a more upright-bass-like sound. The Jazzmaster never had one, so it is also a quick visual separator between the two offsets. A factory original example with the mute intact and the foam not crumbled adds collector value.
@@ -384,12 +400,30 @@ Verify with any "all original" vintage Jaguar that the bridge currently installe
 | Era | Tuner Type | Stamp | Button |
 | --- | --- | --- | --- |
 | 1962 to late 1964 | Kluson Deluxe single line | Single "Kluson Deluxe" stamp running down the center of the back plate | Oval metal |
-| Late 1964 to late 1967 | Kluson Deluxe double line | "Kluson Deluxe / Kluson Deluxe" stacked on two lines | Oval metal |
-| Late 1967 to 1975 | Fender "F" stamped tuners (Schaller made) | Large stylized "F" on back plate | Octagonal metal |
+| Late 1964 through the mid-1960s transition | Kluson Deluxe double line | "Kluson Deluxe / Kluson Deluxe" stacked on two lines | Oval metal |
+| Mid-1960s transition to 1975 | Fender "F" stamped tuners | Large stylized "F" on back plate | Octagonal metal |
 
 Tuner replacement is one of the most common modifications on vintage Fenders, usually because the original Klusons developed slop in the gears after fifty years of use. Replacement is reversible and not always a dealbreaker, but you want to see the original tuner peg holes intact with no enlargement or filled secondary holes from a different gear ratio replacement set. Sperzels or Gotohs installed in original Kluson holes leave a tight, period correct looking exterior but you can spot them by the modern stamping and the post diameter.
 
-The single line to double line Kluson transition happened in **late 1964**, not 1962. A 1962, 1963, or early 1964 Jaguar should wear **single line** Klusons with a single "Kluson Deluxe" stamp running down the center of the back plate. **Double line tuners on a 1962, 1963, or early 1964 build are a red flag for later replacement**, usually a service swap done in the late 60s or early 70s when the originals wore out. The reverse is also true: single line tuners on a 1966 or later guitar are wrong for the era. This is one of the simplest one-second checks on a vintage Jaguar and one of the most reliable indicators of original hardware.
+The single line to double line Kluson transition happened in **late 1964**, not 1962. A 1962, 1963, or early 1964 Jaguar should wear **single line** Klusons with a single "Kluson Deluxe" stamp running down the center of the back plate. **Double line tuners on a 1962, 1963, or early 1964 build are a red flag for later replacement**, usually a service swap done in the late 60s or early 70s when the originals wore out. The reverse is also true: single line tuners on a 1966 or later guitar are wrong for the era. The double-line-to-F-tuner change was a parts-bin transition rather than a clean calendar cutoff, so use the neck date, tuner footprint, and the rest of the hardware together.
+
+<figure class="jg-tuner-comparison">
+
+![Single-line Kluson Deluxe tuners on an early-1960s Fender headstock](../../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-single-line-kluson-tuners-scaled.jpg)
+
+![Double-line Kluson Deluxe tuners on a mid-1960s Fender Jazzmaster headstock](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/jazzmaster-double-line-kluson-tuners-scaled.jpg)
+
+<figcaption><strong>Single-line versus double-line Klusons.</strong> These period Fender examples share the same identifying back-stamp patterns used on Jaguars: one centered “Kluson Deluxe” line on the earlier housing, two edge lines on the later housing.</figcaption>
+
+</figure>
+
+<figure>
+
+![Six Fender F-stamped tuners on the back of a one-owner 1966 Fender Jaguar headstock](../../assets/blog/bill-one-owner-1966-fender-jaguar/1966-fender-jaguar-lake-placid-blue-7.jpg)
+
+<figcaption>F-stamped tuners on Bill's documented one-owner 1966 Jaguar. This real transition-year example is why the tuner change should be treated as an overlap window, not a rigid late-1967 cutoff.</figcaption>
+
+</figure>
 
 <h2 id="pot-codes-dating">Pot Codes and Dating</h2>
 
@@ -493,6 +527,14 @@ The high-value tells for an authentic factory custom color on a vintage Jaguar a
 **3\. Fullerplast layer visible at chips and cavities.** Look for the yellowish amber sealer in pickup cavities, neck pocket walls, and any finish chip on the body edge. The Fullerplast sits between the wood and the color coat. No Fullerplast on a 1963 or later guitar means refinished, regardless of color.
 
 **4\. Color matches the documented Fender catalog.** Compare to known Fender custom color samples for the claimed year. Hues that drift, that include shades not in the Fender catalog, or that fluoresce wrong under UV are immediate refinish flags.
+
+<figure>
+
+![Neck pocket of an original 1966 Olympic White Fender Jaguar showing the paint-stick shadow, factory markings, finish edge, and visible sealer](../../assets/blog/fender-custom-color-authentication-guide/1966-fender-jaguar-olympic-white-neck-pocket-shadow.jpg)
+
+<figcaption>An original 1966 Olympic White Jaguar neck pocket. The unpainted paint-stick shadow, factory markings, finish edge, and sealer evidence are much harder to reproduce convincingly than the color seen from the front.</figcaption>
+
+</figure>
 
 ### The Neck Pocket Tells You the Story
 

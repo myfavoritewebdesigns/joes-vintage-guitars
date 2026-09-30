@@ -865,6 +865,19 @@ const articleSchema = {
     box-shadow: 0 10px 28px rgba(62, 42, 20, 0.08);
   }
   body.jaguar-guide-page .blog-prose figure img { border-radius: 7px; }
+  body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+  }
+  body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison figcaption {
+    grid-column: 1 / -1;
+  }
   body.jaguar-guide-page .blog-prose figcaption {
     padding: 0 10px;
     font-style: normal;
@@ -910,6 +923,9 @@ const articleSchema = {
     }
     body.jaguar-guide-page .blog-prose h2 { font-size: 1.75rem; }
     body.jaguar-guide-page .blog-prose figure { margin-inline: -6px; }
+    body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison { grid-template-columns: 1fr; }
+    body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison img { height: auto; }
+    body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison figcaption { grid-column: auto; }
   }
 </style>
 
