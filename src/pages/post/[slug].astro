@@ -62,6 +62,7 @@ const isOneOwner1949MartinStory = entry.id === "one-owner-1949-martin-0-18";
 const isOneOwner1955MartinD28Story = entry.id === "one-owner-1955-martin-d28";
 const isOneOwner1956Martin00021Story = entry.id === "one-owner-1956-martin-000-21";
 const isFirebirdGuide = entry.id === "gibson-firebird-history-authentication-value";
+const isJaguarGuide = entry.id === "vintage-fender-jaguar-guide";
 const isGibsonJ200Guide = entry.id === "gibson-j200-model-history-authentication-guide";
 const isEs225Guide = entry.id === "gibson-es-225-guide";
 const isLesPaulFamilyGuide = entry.id === "vintage-gibson-les-paul-family-guide";
@@ -269,6 +270,28 @@ const firebirdFaqSchema = {
   ],
 };
 
+const jaguarFaqs = [
+  { q: "Which vintage Fender Jaguar years are worth the most?", a: "Original 1962 Jaguars generally lead the market, especially slab-board examples in factory custom colors with their original case and accessories. Original pre-CBS guitars from 1962 through early 1965 form the next strongest group. Condition, finish, originality, repairs, and provenance determine the value of an individual guitar." },
+  { q: "How much does a refinish reduce a vintage Jaguar's value?", a: "A professional period-correct refinish commonly reduces value by about 40 to 60 percent compared with an otherwise similar original-finish guitar. Poor work, an incorrect color, or additional body modifications can create a larger discount." },
+  { q: "Do replacement pickups hurt the value?", a: "Replacement pickups reduce collector value, but the size of the loss depends on whether the original pickups remain with the guitar and whether the body was modified. A reversible pickup swap is less serious than enlarged routes or missing original parts." },
+  { q: "Is a 1965 Fender Jaguar pre-CBS or CBS?", a: "The calendar alone is not enough. Early and mid 1965 Jaguars can retain pre-CBS features, while later examples show CBS-era changes such as fingerboard binding and a three-ply pickguard. Use the neck, guard, hardware, dates, and electronics together." },
+  { q: "How can I tell whether a custom color is original?", a: "Inspect the neck pocket, pickup cavities, finish chips, and hidden nail holes where appropriate. A factory finish should show period-correct paint, sealer, masking or paint-stick evidence, and wear that agrees across the instrument." },
+  { q: "Did vintage Jaguars ever use a three-bolt neck?", a: "No. Fender Jaguars kept a four-bolt neck and heel-adjusted truss rod throughout the original 1962 to 1975 production run. A three-bolt Jaguar neck indicates a modification or a parts assembly." },
+  { q: "Can I date a vintage Jaguar from the serial number alone?", a: "No. Fender neck plates were used from shared bins and their ranges overlap. A reliable date comes from comparing the neck stamp, body date, potentiometer codes, pickup construction, hardware, and feature set." },
+  { q: "Where can I get a vintage Fender Jaguar appraised?", a: "A dealer who specializes in vintage Fenders can inspect the dated parts, finish, electronics, hardware, and repairs together. Joe's Vintage Guitars provides free photo appraisals and can arrange a hands-on inspection when the photographs do not settle the question." },
+];
+
+const jaguarFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${postUrl}#faq-schema`,
+  mainEntity: jaguarFaqs.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+
 const j200Faqs = [
   { q: "What is the difference between a Gibson SJ-200 and J-200?", a: "They are names Gibson has used for the same flagship Super Jumbo family. Catalogs, factory labels, and shipping records did not always change names together. The complete year, label, woods, bridge, bracing, and other construction details identify the specific version." },
   { q: "When did Gibson change the SJ-200 from rosewood to maple?", a: "Maple became the normal back and side wood when postwar production resumed in 1947 and 1948. Prewar standard examples used rosewood, while later custom, J-250R, Western Classic, Custom, Pre-War, and rosewood-branded variants can use rosewood again." },
@@ -406,11 +429,19 @@ const articleSchema = {
       { "@type": "Thing", name: "Guitar authentication" },
     ],
   } : {}),
+  ...(isJaguarGuide ? {
+    keywords: ["vintage Fender Jaguar", "Fender Jaguar authentication", "Fender Jaguar specifications", "Fender Jaguar value", "Fender Jaguar originality"],
+    about: [
+      { "@type": "Thing", name: "Fender Jaguar" },
+      { "@type": "Thing", name: "Vintage Fender guitars" },
+      { "@type": "Thing", name: "Guitar authentication" },
+    ],
+  } : {}),
 };
 ---
 
 <Layout
-  bodyClass={isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : "blog-post-page"}
+  bodyClass={isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
   title={`${data.title} | Joe's Vintage Guitars`}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
@@ -427,6 +458,8 @@ const articleSchema = {
     ? [breadcrumbSchema, articleSchema, martinFaqSchema]
     : isFirebirdGuide
       ? [breadcrumbSchema, articleSchema, firebirdFaqSchema]
+      : isJaguarGuide
+        ? [breadcrumbSchema, articleSchema, jaguarFaqSchema]
       : isEs225Guide
         ? [breadcrumbSchema, articleSchema, es225FaqSchema, ...es225ImageSchemas]
     : videoSchema
@@ -657,6 +690,295 @@ const articleSchema = {
   body.blog-post-page header nav.border-b-\[6px\] a { color: var(--color-brand-brown) !important; }
   body.blog-post-page header nav.border-b-\[6px\] > ul > li > a { color: #fff !important; }
   body.blog-post-page header nav.border-b-\[6px\] > ul > li > a:hover { color: var(--color-brand-cream) !important; }
+</style>
+
+<!-- The Jaguar guide is a long-form field reference. Its page-specific layer
+     improves scanning without changing the appearance of the rest of the blog. -->
+<style is:global>
+  body.jaguar-guide-page .bpost {
+    background:
+      linear-gradient(180deg, rgba(238, 223, 192, 0.2), transparent 360px),
+      #fffdf8;
+  }
+  body.jaguar-guide-page .bpost__inner { max-width: 920px; }
+  body.jaguar-guide-page .bpost__title {
+    max-width: 18ch;
+    font-size: clamp(36px, 5vw, 58px);
+    letter-spacing: -0.018em;
+  }
+  body.jaguar-guide-page .bpost__hero {
+    max-width: 1180px;
+    margin-top: 36px;
+  }
+  body.jaguar-guide-page .bpost__hero img {
+    border-radius: 14px;
+    box-shadow: 0 16px 42px rgba(62, 42, 20, 0.16);
+  }
+  body.jaguar-guide-page .blog-prose {
+    color: #352b1f;
+    font-size: 1.08rem;
+    line-height: 1.78;
+  }
+  body.jaguar-guide-page .blog-prose .jg-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    margin: 8px 0 16px;
+    padding: 7px 12px;
+    border: 1px solid rgba(160, 58, 30, 0.22);
+    border-radius: 999px;
+    background: #faf1df;
+    color: var(--color-brand-rust, #a03a1e);
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    line-height: 1.25;
+    text-transform: uppercase;
+  }
+  body.jaguar-guide-page .blog-prose .jg-lede {
+    max-width: 760px;
+    margin: 0 0 30px;
+    padding-left: 22px;
+    border-left: 5px solid var(--color-brand-rust-bright, #be4b25);
+    color: var(--color-brand-rust-dark, #682412);
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: clamp(1.3rem, 2.4vw, 1.72rem);
+    font-weight: 500;
+    line-height: 1.42;
+  }
+  body.jaguar-guide-page .blog-prose .post-toc-inline {
+    margin: 0 0 50px;
+    padding: 26px 30px;
+    border: 1px solid rgba(104, 36, 18, 0.16);
+    border-top: 5px solid var(--color-brand-rust, #a03a1e);
+    border-radius: 12px;
+    background: #faf4e6;
+    box-shadow: 0 7px 24px rgba(62, 42, 20, 0.07);
+  }
+  body.jaguar-guide-page .blog-prose .post-toc-inline::before {
+    content: "Inside this guide";
+    display: block;
+    margin-bottom: 14px;
+    color: var(--color-brand-rust-dark, #682412);
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 0.86rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  body.jaguar-guide-page .blog-prose .post-toc-inline ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  body.jaguar-guide-page .blog-prose .post-toc-inline li { margin: 0; }
+  body.jaguar-guide-page .blog-prose .post-toc-inline a {
+    display: block;
+    padding: 6px 0;
+    color: var(--color-brand-brown, #3e2a14);
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  body.jaguar-guide-page .blog-prose .post-toc-inline a::before {
+    content: "→";
+    margin-right: 8px;
+    color: var(--color-brand-rust-bright, #be4b25);
+  }
+  body.jaguar-guide-page .blog-prose h2 {
+    position: relative;
+    margin-top: 2.35em;
+    padding: 0 0 0.42em;
+    border-bottom: 1px solid rgba(104, 36, 18, 0.2);
+    font-size: clamp(1.8rem, 3vw, 2.3rem);
+    letter-spacing: -0.01em;
+  }
+  body.jaguar-guide-page .blog-prose h2::before {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 4px;
+    margin-bottom: 12px;
+    border-radius: 99px;
+    background: var(--color-brand-rust-bright, #be4b25);
+  }
+  body.jaguar-guide-page .blog-prose h3 {
+    margin-top: 1.8em;
+    font-size: 1.42rem;
+  }
+  body.jaguar-guide-page .blog-prose .jg-section-dek {
+    max-width: 760px;
+    color: var(--color-brand-brown-muted, #6c5238);
+    font-size: 1.08rem;
+  }
+  body.jaguar-guide-page .blog-prose .jg-check-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin: 28px 0 24px;
+  }
+  body.jaguar-guide-page .blog-prose .jg-check-grid article {
+    position: relative;
+    min-height: 220px;
+    padding: 24px 24px 22px;
+    overflow: hidden;
+    border: 1px solid rgba(104, 36, 18, 0.15);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(62, 42, 20, 0.07);
+  }
+  body.jaguar-guide-page .blog-prose .jg-check-grid article:last-child {
+    grid-column: 1 / -1;
+    min-height: 190px;
+  }
+  body.jaguar-guide-page .blog-prose .jg-check-grid span {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    color: rgba(160, 58, 30, 0.11);
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  body.jaguar-guide-page .blog-prose .jg-check-grid h3 {
+    position: relative;
+    margin: 0 0 10px;
+    padding-right: 40px;
+    color: var(--color-brand-rust-dark, #682412);
+    font-size: 1.25rem;
+  }
+  body.jaguar-guide-page .blog-prose .jg-check-grid p {
+    position: relative;
+    margin-bottom: 18px;
+    font-size: 0.98rem;
+    line-height: 1.62;
+  }
+  body.jaguar-guide-page .blog-prose .jg-check-grid a {
+    position: relative;
+    color: var(--color-brand-rust, #a03a1e);
+    font-family: var(--font-display, Oswald), sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  body.jaguar-guide-page .blog-prose .jg-safety-note {
+    margin: 24px 0 44px;
+    padding: 20px 24px;
+    border-left: 5px solid var(--color-brand-brown-tan, #d2b48c);
+    border-radius: 0 10px 10px 0;
+    background: #2f2922;
+    color: #fff8e9;
+    line-height: 1.66;
+  }
+  body.jaguar-guide-page .blog-prose .jg-safety-note strong { color: #f1d8ab; }
+  body.jaguar-guide-page .blog-prose table {
+    border: 1px solid rgba(104, 36, 18, 0.18);
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(62, 42, 20, 0.07);
+  }
+  body.jaguar-guide-page .blog-prose th,
+  body.jaguar-guide-page .blog-prose td { padding: 12px 14px; }
+  body.jaguar-guide-page .blog-prose tbody td:first-child {
+    color: var(--color-brand-rust-dark, #682412);
+    font-weight: 700;
+  }
+  body.jaguar-guide-page .blog-prose .jg-scroll-hint { display: none; }
+  body.jaguar-guide-page .blog-prose figure {
+    margin: 2.2em 0;
+    padding: 10px 10px 14px;
+    border: 1px solid rgba(104, 36, 18, 0.14);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 10px 28px rgba(62, 42, 20, 0.08);
+  }
+  body.jaguar-guide-page .blog-prose figure img { border-radius: 7px; }
+  body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+  }
+  body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison figcaption {
+    grid-column: 1 / -1;
+  }
+  body.jaguar-guide-page .blog-prose figcaption {
+    padding: 0 10px;
+    font-style: normal;
+    line-height: 1.55;
+  }
+  body.jaguar-guide-page .blog-prose blockquote {
+    border-left-width: 5px;
+    border-radius: 0 10px 10px 0;
+    font-style: normal;
+  }
+  body.jaguar-guide-page .blog-prose h2#faq ~ h3 {
+    margin: 18px 0 0;
+    padding: 18px 22px 6px;
+    border: 1px solid rgba(104, 36, 18, 0.15);
+    border-bottom: 0;
+    border-radius: 10px 10px 0 0;
+    background: #faf4e6;
+    color: var(--color-brand-rust-dark, #682412);
+    font-size: 1.2rem;
+  }
+  body.jaguar-guide-page .blog-prose h2#faq ~ h3 + p {
+    margin: 0 0 18px;
+    padding: 8px 22px 20px;
+    border: 1px solid rgba(104, 36, 18, 0.15);
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+    background: #fff;
+  }
+  @media (max-width: 700px) {
+    body.jaguar-guide-page .bpost__inner { padding-inline: 18px; }
+    body.jaguar-guide-page .bpost__hero { padding-inline: 12px; }
+    body.jaguar-guide-page .bpost__title { font-size: 36px; }
+    body.jaguar-guide-page .blog-prose { font-size: 1rem; line-height: 1.72; }
+    body.jaguar-guide-page .blog-prose .jg-eyebrow { border-radius: 10px; }
+    body.jaguar-guide-page .blog-prose .jg-lede { padding-left: 16px; }
+    body.jaguar-guide-page .blog-prose .post-toc-inline { padding: 22px 20px; }
+    body.jaguar-guide-page .blog-prose .post-toc-inline ul,
+    body.jaguar-guide-page .blog-prose .jg-check-grid { grid-template-columns: 1fr; }
+    body.jaguar-guide-page .blog-prose .jg-scroll-hint {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 9px;
+      margin: -1.15em 2px 1.85em;
+      color: var(--color-brand-rust-dark, #682412);
+      font-family: var(--font-display, Oswald), sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+    body.jaguar-guide-page .blog-prose .jg-scroll-hint span {
+      color: var(--color-brand-rust-bright, #be4b25);
+      font-size: 1.35rem;
+      line-height: 0.7;
+    }
+    body.jaguar-guide-page .blog-prose .jg-check-grid article,
+    body.jaguar-guide-page .blog-prose .jg-check-grid article:last-child {
+      grid-column: auto;
+      min-height: 0;
+    }
+    body.jaguar-guide-page .blog-prose h2 { font-size: 1.75rem; }
+    body.jaguar-guide-page .blog-prose figure { margin-inline: -6px; }
+    body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison { grid-template-columns: 1fr; }
+    body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison img { height: auto; }
+    body.jaguar-guide-page .blog-prose figure.jg-tuner-comparison figcaption { grid-column: auto; }
+  }
 </style>
 
 <style is:global>
