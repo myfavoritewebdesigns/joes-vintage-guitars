@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { appraisalPages } from "../data/appraisal-pages";
+import { phoenixMetroPages } from "../data/phoenix-metro-pages";
 import { stratocasterYearGuides } from "../data/stratocasterValueYears";
 import { telecasterValueGuides } from "../data/telecasterValueGuides";
 
@@ -37,6 +38,13 @@ const groups = [
       { label: "Sell an Amplifier or Effect", href: "/sell-an-amplifier-or-effect/" },
       { label: "Sell a Guitar Collection", href: "/sell-a-guitar-collection/" },
     ],
+  },
+  {
+    title: "Phoenix Area Guitar Selling",
+    links: phoenixMetroPages.map((page) => ({
+      label: page.navLabel,
+      href: `/${page.slug}/`,
+    })),
   },
   {
     title: "Serial Number Guides",

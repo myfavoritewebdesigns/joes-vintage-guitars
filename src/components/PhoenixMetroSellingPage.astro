@@ -1,0 +1,750 @@
+---
+import { getImage } from "astro:assets";
+import Layout from "../layouts/Layout.astro";
+import PageHero from "./primitives/PageHero.astro";
+import Button from "./primitives/Button.astro";
+import LicensedImage from "./primitives/LicensedImage.astro";
+import ContactSection from "./ContactSection.astro";
+import source from "../page-data/phoenix-metro-guides.md?raw";
+import { SITE_URL, contact, hrefs } from "../config/site";
+import { phoenixMetroPages, type PhoenixMetroPage } from "../data/phoenix-metro-pages";
+
+interface Props {
+  page: PhoenixMetroPage;
+}
+
+const { page } = Astro.props;
+const reviewedDate = "September 30, 2026";
+const publishedIso = "2026-09-30T09:00:00-07:00";
+const route = `/${page.slug}/`;
+const pageUrl = `${SITE_URL}${route}`;
+
+const pageMarkers = [...source.matchAll(/^# Page (\d+) Draft\s*$/gm)];
+const markerIndex = pageMarkers.findIndex((match) => Number(match[1]) === page.pageNumber);
+if (markerIndex === -1) throw new Error(`Missing draft source for page ${page.pageNumber}`);
+
+const blockStart = (pageMarkers[markerIndex].index ?? 0) + pageMarkers[markerIndex][0].length;
+const blockEnd = markerIndex + 1 < pageMarkers.length
+  ? (pageMarkers[markerIndex + 1].index ?? source.length)
+  : source.length;
+const pageBlock = source.slice(blockStart, blockEnd).trim();
+const articleStart = pageBlock.search(/^### /m);
+if (articleStart === -1) throw new Error(`Missing article content for ${page.slug}`);
+const articleMarkdown = pageBlock.slice(articleStart).replace(/\n---\s*$/, "").trim();
+
+function slugifyHeading(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/[’']/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function normalizeHref(value: string): string {
+  return value
+    .replace(/^https?:\/\/(?:www\.)?joesvintageguitarsaz\.com/i, "")
+    .replace(/^#$/, route);
+}
+
+function renderInline(value: string): string {
+  const linkedContacts = value
+    .replace(/\(602\) 900-6635/g, `[(602) 900-6635](${hrefs.tel})`)
+    .replace(/joesvintageguitars94@gmail\.com/g, `[joesvintageguitars94@gmail.com](${hrefs.mailto})`);
+  const normalized = linkedContacts.replace(
+    /\[([^\]]+)\]\(([^)]+)\)/g,
+    (_match, label: string, href: string) => `[${label}](${normalizeHref(href.trim())})`,
+  );
+  return escapeHtml(normalized)
+    .replace(
+      /\[([^\]]+)\]\(([^)]+)\)/g,
+      (_match, label: string, href: string) => `<a href="${href}">${label}</a>`,
+    )
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+}
+
+function splitTableRow(line: string): string[] {
+  return line
+    .trim()
+    .replace(/^\|/, "")
+    .replace(/\|$/, "")
+    .split("|")
+    .map((cell) => cell.trim());
+}
+
+function renderMarkdown(markdown: string): string {
+  const lines = markdown.split(/\r?\n/);
+  const output: string[] = [];
+  let index = 0;
+
+  while (index < lines.length) {
+    const line = lines[index];
+    if (!line.trim()) {
+      index += 1;
+      continue;
+    }
+
+    const h3 = line.match(/^### (.+)$/);
+    if (h3) {
+      const id = slugifyHeading(h3[1]);
+      output.push(`<h2 id="${id}">${renderInline(h3[1])}</h2>`);
+      index += 1;
+      continue;
+    }
+
+    const h4 = line.match(/^#### (.+)$/);
+    if (h4) {
+      const id = slugifyHeading(h4[1]);
+      output.push(`<h3 id="${id}">${renderInline(h4[1])}</h3>`);
+      index += 1;
+      continue;
+    }
+
+    if (/^---\s*$/.test(line)) {
+      index += 1;
+      continue;
+    }
+
+    if (/^-\s+/.test(line)) {
+      const items: string[] = [];
+      while (index < lines.length && /^-\s+/.test(lines[index])) {
+        items.push(`<li>${renderInline(lines[index].replace(/^-\s+/, ""))}</li>`);
+        index += 1;
+      }
+      output.push(`<ul>${items.join("")}</ul>`);
+      continue;
+    }
+
+    if (/^\|/.test(line) && index + 1 < lines.length && /^\|(?:\s*:?-+:?\s*\|)+\s*$/.test(lines[index + 1])) {
+      const headers = splitTableRow(line);
+      index += 2;
+      const rows: string[][] = [];
+      while (index < lines.length && /^\|/.test(lines[index])) {
+        rows.push(splitTableRow(lines[index]));
+        index += 1;
+      }
+      output.push(
+        `<div class="pmg-table-wrap"><table><thead><tr>${headers
+          .map((header) => `<th scope="col">${renderInline(header)}</th>`)
+          .join("")}</tr></thead><tbody>${rows
+          .map(
+            (row) => `<tr>${row
+              .map((cell, cellIndex) => `<td data-label="${escapeHtml(headers[cellIndex] ?? "")}">${renderInline(cell)}</td>`)
+              .join("")}</tr>`,
+          )
+          .join("")}</tbody></table></div>`,
+      );
+      continue;
+    }
+
+    const paragraph: string[] = [];
+    while (
+      index < lines.length &&
+      lines[index].trim() &&
+      !/^#{3,4}\s+/.test(lines[index]) &&
+      !/^-\s+/.test(lines[index]) &&
+      !/^\|/.test(lines[index]) &&
+      !/^---\s*$/.test(lines[index])
+    ) {
+      paragraph.push(lines[index].trim());
+      index += 1;
+    }
+    output.push(`<p>${renderInline(paragraph.join(" "))}</p>`);
+  }
+
+  return output.join("\n");
+}
+
+const tocItems = [...articleMarkdown.matchAll(/^### (.+)$/gm)].map((match) => ({
+  label: match[1],
+  id: slugifyHeading(match[1]),
+}));
+const articleHtml = renderMarkdown(articleMarkdown);
+
+// LicensedImage uses the same deterministic getImage() transform below, so the
+// Article image URL and visible img src resolve to the same optimized file.
+const proofImage = await getImage({ src: page.image, layout: "constrained", width: 900 });
+const proofImageUrl = new URL(proofImage.src, SITE_URL).href;
+const proofWidth = Number(proofImage.attributes?.width ?? page.image.width);
+const proofHeight = Number(proofImage.attributes?.height ?? page.image.height);
+
+const breadcrumbItems = page.kind === "guide"
+  ? [
+      { name: "Home", url: `${SITE_URL}/` },
+      { name: page.navLabel, url: pageUrl },
+    ]
+  : [
+      { name: "Home", url: `${SITE_URL}/` },
+      { name: "Phoenix Area Guitar Selling", url: `${SITE_URL}/where-to-sell-vintage-guitar-phoenix/` },
+      { name: page.navLabel, url: pageUrl },
+    ];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": `${pageUrl}#breadcrumb`,
+  itemListElement: breadcrumbItems.map((item, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    name: item.name,
+    item: item.url,
+  })),
+};
+
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": `${pageUrl}#webpage`,
+  url: pageUrl,
+  name: page.title,
+  description: page.description,
+  isPartOf: { "@id": `${SITE_URL}/#website` },
+  about: { "@id": `${SITE_URL}/` },
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
+  datePublished: publishedIso,
+  dateModified: publishedIso,
+  inLanguage: "en-US",
+};
+
+const articleSchema = page.kind === "guide"
+  ? {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": `${pageUrl}#article`,
+      headline: page.title,
+      description: page.description,
+      image: {
+        "@type": "ImageObject",
+        url: proofImageUrl,
+        width: proofWidth,
+        height: proofHeight,
+      },
+      author: { "@id": `${SITE_URL}/about-me/#person` },
+      publisher: { "@id": `${SITE_URL}/` },
+      mainEntityOfPage: { "@id": `${pageUrl}#webpage` },
+      datePublished: publishedIso,
+      dateModified: publishedIso,
+      inLanguage: "en-US",
+    }
+  : null;
+
+const serviceSchema = page.kind === "service"
+  ? {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": `${pageUrl}#service`,
+      name: `Vintage Guitar Appraisal And Buying Service For ${page.city}, Arizona`,
+      serviceType: "Vintage guitar appraisal and purchasing",
+      description: page.description,
+      url: pageUrl,
+      provider: { "@id": `${SITE_URL}/` },
+      areaServed: { "@type": "City", name: `${page.city}, Arizona` },
+      offers: {
+        "@type": "Offer",
+        name: "Free Vintage Guitar Appraisal",
+        price: "0",
+        priceCurrency: "USD",
+        url: `${SITE_URL}/free-appraisal/`,
+      },
+    }
+  : null;
+
+const structuredData: Record<string, unknown>[] = [breadcrumbSchema, webPageSchema];
+if (articleSchema) structuredData.push(articleSchema);
+if (serviceSchema) structuredData.push(serviceSchema);
+---
+
+<Layout
+  bodyClass="phoenix-metro-selling-page"
+  title={page.seoTitle}
+  description={page.description}
+  canonical={route}
+  ogImage={proofImageUrl}
+  ogImageAlt={page.imageAlt}
+  ogImageWidth={proofWidth}
+  ogImageHeight={proofHeight}
+  ogType={page.kind === "guide" ? "article" : "website"}
+  publishedTime={page.kind === "guide" ? publishedIso : undefined}
+  modifiedTime={publishedIso}
+  structuredData={structuredData}
+>
+  <main class="pmg-page">
+    <PageHero
+      eyebrow={page.eyebrow}
+      title={page.title}
+      subhead={page.heroSummary}
+      subheadTag="p"
+      bgImage="/images/hero-background.jpg"
+      size="md"
+    >
+      <nav slot="breadcrumbs" class="pmg-breadcrumbs" aria-label="Breadcrumb">
+        {breadcrumbItems.map((item, index) => (
+          <>
+            {index > 0 && <span aria-hidden="true">/</span>}
+            {index === breadcrumbItems.length - 1
+              ? <span aria-current="page">{item.name}</span>
+              : <a href={new URL(item.url).pathname}>{item.name}</a>}
+          </>
+        ))}
+      </nav>
+      <Button slot="cta" href="#contact" variant="cream" size="lg">Sell My Guitar</Button>
+      <Button slot="cta" href="/free-appraisal/" variant="outline-cream" size="lg">Get A Free Appraisal</Button>
+    </PageHero>
+
+    <section class="pmg-intro" aria-label="Article details">
+      <div class="pmg-inner">
+        <p class="pmg-byline">
+          By <a href="/about-me/">Joe Dampt</a>
+          <span aria-hidden="true">•</span>
+          Reviewed {reviewedDate}
+        </p>
+        <p class="pmg-quick-links">
+          <a href="/about-me/">Meet Joe</a>
+          <a href="/sell-a-guitar-collection/">Sell A Guitar Collection</a>
+          <a href="/contact-me/">Visit The Mesa Shop By Appointment</a>
+          <a href={hrefs.tel}>Call Or Text {contact.phone}</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="pmg-proof" aria-labelledby="pmg-proof-heading">
+      <div class="pmg-inner pmg-proof__grid">
+        <figure class="pmg-proof__figure">
+          <LicensedImage
+            src={page.image}
+            alt={page.imageAlt}
+            width={900}
+            loading="lazy"
+            decoding="async"
+            sizes="(max-width: 800px) calc(100vw - 28px), 760px"
+          />
+          <figcaption>{page.imageCaption}</figcaption>
+        </figure>
+        <div class="pmg-proof__copy">
+          <p class="pmg-kicker">{page.kind === "guide" ? "First-Hand Buying Experience" : "A Real Local Seller Story"}</p>
+          <h2 id="pmg-proof-heading">
+            {page.kind === "guide" ? "A Vintage Guitar Story From Joe's Archive" : `The Guitar Behind This ${page.city} Guide`}
+          </h2>
+          <p>
+            This is an instrument Joe personally documented, not a stock image. The page below explains what owners should preserve, what details affect an appraisal, and how to choose the next step without pressure.
+          </p>
+          <a class="pmg-text-link" href="/free-appraisal/">Start With A Free Photo Appraisal</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="pmg-reading">
+      <div class="pmg-inner pmg-reading__grid">
+        <aside class="pmg-toc" aria-labelledby="pmg-toc-heading">
+          <h2 id="pmg-toc-heading">Table Of Contents</h2>
+          <ol>
+            {tocItems.map((item) => <li><a href={`#${item.id}`}>{item.label}</a></li>)}
+          </ol>
+        </aside>
+        <article class="pmg-article" set:html={articleHtml}></article>
+      </div>
+    </section>
+
+    <section class="pmg-local-links" aria-labelledby="pmg-local-links-heading">
+      <div class="pmg-inner">
+        <p class="pmg-kicker">Phoenix Metro Selling Help</p>
+        <h2 id="pmg-local-links-heading">More Local Vintage Guitar Selling Guides</h2>
+        <div class="pmg-local-links__grid">
+          {phoenixMetroPages.map((item) => (
+            <a
+              href={`/${item.slug}/`}
+              aria-current={item.slug === page.slug ? "page" : undefined}
+            >
+              {item.navLabel}
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <ContactSection />
+  </main>
+</Layout>
+
+<style is:global>
+  .pmg-page {
+    background: #fff;
+  }
+
+  .pmg-page [id] {
+    scroll-margin-top: 96px;
+  }
+
+  .pmg-page .pmg-inner {
+    width: min(100% - 40px, 1160px);
+    margin-inline: auto;
+  }
+
+  .pmg-page .pmg-breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 22px;
+    color: var(--color-brand-cream);
+    font-family: var(--font-sans);
+    font-size: 14px;
+  }
+
+  .pmg-page .pmg-breadcrumbs a {
+    color: var(--color-brand-cream);
+    text-underline-offset: 3px;
+  }
+
+  .pmg-page .pmg-intro {
+    border-bottom: 1px solid rgba(62, 42, 20, 0.13);
+    background: var(--color-brand-cream-light, #f9f1de);
+    padding: 22px 0;
+  }
+
+  .pmg-page .pmg-byline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 0 14px;
+    color: var(--color-brand-brown-muted, #715f4d);
+    font-family: var(--font-sans);
+    font-size: 14px;
+  }
+
+  .pmg-page .pmg-byline a,
+  .pmg-page .pmg-quick-links a,
+  .pmg-page .pmg-text-link {
+    color: var(--color-brand-rust-dark);
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .pmg-page .pmg-quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 24px;
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: 14px;
+  }
+
+  .pmg-page .pmg-proof {
+    padding: 64px 0;
+    background: #fff;
+  }
+
+  .pmg-page .pmg-proof__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.18fr) minmax(280px, 0.82fr);
+    gap: 52px;
+    align-items: center;
+  }
+
+  .pmg-page .pmg-proof__figure {
+    margin: 0;
+    overflow: hidden;
+    background: var(--color-brand-brown, #3e2a14);
+    box-shadow: 0 12px 30px rgba(62, 42, 20, 0.18);
+  }
+
+  .pmg-page .pmg-proof__figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 720px;
+    object-fit: contain;
+    background: #17120d;
+  }
+
+  .pmg-page .pmg-proof__figure figcaption {
+    padding: 16px 20px;
+    color: #fff;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .pmg-page .pmg-kicker {
+    margin: 0 0 8px;
+    color: var(--color-brand-rust-bright);
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .pmg-page .pmg-proof__copy h2,
+  .pmg-page .pmg-local-links h2 {
+    margin: 0 0 18px;
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: clamp(28px, 4vw, 42px);
+    line-height: 1.15;
+  }
+
+  .pmg-page .pmg-proof__copy p:not(.pmg-kicker) {
+    margin: 0 0 18px;
+    color: var(--color-brand-charcoal);
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .pmg-page .pmg-text-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-family: var(--font-sans);
+  }
+
+  .pmg-page .pmg-reading {
+    padding: 68px 0 76px;
+    background: var(--color-brand-cream-light, #f9f1de);
+  }
+
+  .pmg-page .pmg-reading__grid {
+    display: grid;
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 54px;
+    align-items: start;
+  }
+
+  .pmg-page .pmg-toc {
+    position: sticky;
+    top: 96px;
+    padding: 24px;
+    border-top: 5px solid var(--color-brand-rust-bright);
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(62, 42, 20, 0.09);
+  }
+
+  .pmg-page .pmg-toc h2 {
+    margin: 0 0 12px;
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: 23px;
+  }
+
+  .pmg-page .pmg-toc ol {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .pmg-page .pmg-toc li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .pmg-page .pmg-toc a {
+    display: block;
+    min-height: 44px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(62, 42, 20, 0.13);
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-sans);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-decoration: none;
+  }
+
+  .pmg-page .pmg-toc li:last-child a {
+    border-bottom: 0;
+  }
+
+  .pmg-page .pmg-article {
+    min-width: 0;
+    color: var(--color-brand-charcoal);
+    font-family: var(--font-sans);
+  }
+
+  .pmg-page .pmg-article h2 {
+    margin: 0 0 18px;
+    padding-top: 14px;
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: clamp(28px, 3.3vw, 40px);
+    line-height: 1.18;
+  }
+
+  .pmg-page .pmg-article h2:first-child {
+    padding-top: 0;
+  }
+
+  .pmg-page .pmg-article h2:not(:first-child) {
+    margin-top: 52px;
+    border-top: 1px solid rgba(62, 42, 20, 0.16);
+    padding-top: 48px;
+  }
+
+  .pmg-page .pmg-article h3 {
+    margin: 32px 0 12px;
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: clamp(21px, 2.4vw, 27px);
+    line-height: 1.24;
+  }
+
+  .pmg-page .pmg-article p,
+  .pmg-page .pmg-article li {
+    color: var(--color-brand-charcoal);
+    font-size: 17px;
+    line-height: 1.76;
+  }
+
+  .pmg-page .pmg-article p {
+    margin: 0 0 20px;
+  }
+
+  .pmg-page .pmg-article ul {
+    margin: 0 0 24px;
+    padding-left: 24px;
+  }
+
+  .pmg-page .pmg-article li {
+    margin-bottom: 9px;
+    padding-left: 4px;
+  }
+
+  .pmg-page .pmg-article a {
+    color: var(--color-brand-rust);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .pmg-page .pmg-article a:hover,
+  .pmg-page .pmg-toc a:hover,
+  .pmg-page .pmg-quick-links a:hover,
+  .pmg-page .pmg-text-link:hover {
+    color: var(--color-brand-rust-bright);
+  }
+
+  .pmg-page .pmg-table-wrap {
+    margin: 28px 0 34px;
+    overflow-x: auto;
+    box-shadow: 0 5px 18px rgba(62, 42, 20, 0.1);
+  }
+
+  .pmg-page .pmg-table-wrap table {
+    width: 100%;
+    min-width: 720px;
+    border-collapse: collapse;
+    background: #fff;
+  }
+
+  .pmg-page .pmg-table-wrap th,
+  .pmg-page .pmg-table-wrap td {
+    padding: 14px 16px;
+    border-bottom: 1px solid rgba(62, 42, 20, 0.13);
+    text-align: left;
+    vertical-align: top;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .pmg-page .pmg-table-wrap th {
+    background: var(--color-brand-rust-dark);
+    color: #fff;
+    font-family: var(--font-display);
+    letter-spacing: 0.03em;
+  }
+
+  .pmg-page .pmg-table-wrap tr:nth-child(even) td {
+    background: var(--color-brand-cream, #f5e8cb);
+  }
+
+  .pmg-page .pmg-table-wrap td:first-child {
+    color: var(--color-brand-rust-dark);
+    font-weight: 800;
+  }
+
+  .pmg-page .pmg-local-links {
+    padding: 62px 0 70px;
+    background: #fff;
+  }
+
+  .pmg-page .pmg-local-links__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .pmg-page .pmg-local-links__grid a {
+    display: flex;
+    align-items: center;
+    min-height: 58px;
+    padding: 14px 16px;
+    border: 1px solid rgba(62, 42, 20, 0.16);
+    border-left: 5px solid var(--color-brand-rust-bright);
+    background: var(--color-brand-cream-light, #f9f1de);
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1.35;
+    text-decoration: none;
+  }
+
+  .pmg-page .pmg-local-links__grid a[aria-current="page"] {
+    border-color: var(--color-brand-rust-dark);
+    background: var(--color-brand-rust-dark);
+    color: #fff;
+  }
+
+  @media (max-width: 940px) {
+    .pmg-page .pmg-proof__grid,
+    .pmg-page .pmg-reading__grid {
+      grid-template-columns: 1fr;
+      gap: 34px;
+    }
+
+    .pmg-page .pmg-toc {
+      position: static;
+    }
+
+    .pmg-page .pmg-local-links__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 640px) {
+    .pmg-page .pmg-inner {
+      width: min(100% - 28px, 1160px);
+    }
+
+    .pmg-page .pmg-proof,
+    .pmg-page .pmg-reading,
+    .pmg-page .pmg-local-links {
+      padding: 46px 0;
+    }
+
+    .pmg-page .pmg-proof__figure img {
+      max-height: none;
+    }
+
+    .pmg-page .pmg-article p,
+    .pmg-page .pmg-article li {
+      font-size: 16px;
+    }
+
+    .pmg-page .pmg-local-links__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
