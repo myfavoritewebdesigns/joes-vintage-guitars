@@ -10,16 +10,16 @@ import { SITE_URL, contact } from "../config/site";
 import testimonialsRaw from "../../reference/collection-testimonials.json";
 
 /* ============================================================
-   SELL A GUITAR COLLECTION — Archetype B page
+   SELL A GUITAR COLLECTION: Archetype A conversion page
    ============================================================
    Structurally distinct from the Fender/Gibson/Martin "sell my X" pages:
    - NO fusion-container-anchor wrappers (live page uses custom hand-rolled
-     HTML inside Avada containers with BEM-style class names — .hiw-step__*,
+     HTML inside Avada containers with BEM-style class names: .hiw-step__*,
      .purchase-item__*, .notable-purchases__*)
    - NO contact form embedded in hero (uses a "Get Your Free Appraisal"
      button linking to /free-appraisal/)
    - NEW section: "How Our Collection Purchasing Process Works" (3 numbered
-     steps with keyword tags) — unique to this page
+     steps with keyword tags), unique to this page
    - NEW section: "Notable Collection Purchases" (5 items with location
      pins, instrument counts, and logistics badges; 2 items have embedded
      YouTube videos)
@@ -32,9 +32,12 @@ import testimonialsRaw from "../../reference/collection-testimonials.json";
 
 // 5 testimonials sourced from reference/collection-testimonials.json (live JSON-LD
 // review schema + rendered cards). All 5-star.
-const reviews: { name: string; link: string; body: string }[] = testimonialsRaw;
+const reviews: { name: string; link: string; body: string }[] = testimonialsRaw.map((review) => ({
+  ...review,
+  body: review.body.replace(/[\u2013\u2014]/g, "-"),
+}));
 
-// Instagram reels — exact post permalinks from live's sell-a-guitar-collection page.
+// Instagram reels: exact post permalinks from live's sell-a-guitar-collection page.
 const igPosts = [
   {
     permalink: "https://www.instagram.com/reel/C0MuI5ix5Tr/",
@@ -56,14 +59,14 @@ const igPosts = [
   },
 ];
 
-// Image base — local copies downloaded same-session per CLAUDE.md rule 1.
+// Image base: local copies downloaded same-session per CLAUDE.md rule 1.
 // Source URLs (preserved in commit history) lived under the live WP uploads directory.
 const img = (file: string) => assetSrc("images/sell-collection/" + file);
-// Metadata twin — only for files verified to exist under src/assets/images/sell-collection/.
+// Metadata twin: only for files verified to exist under src/assets/images/sell-collection/.
 const imgMeta = (file: string) => resolveImage("images/sell-collection/" + file)!;
 const FEATURED_IMG = img("Sell-Your-Vintage-Guitar.jpg");
 
-// 3-step process — content from live .hiw-section
+// 3-step process: content from live .hiw-section
 const hiwSteps = [
   {
     n: "01",
@@ -75,14 +78,14 @@ const hiwSteps = [
   {
     n: "02",
     label: "On-Site Collection Purchasing",
-    title: "I Come to You, Anywhere in the U.S.",
+    title: "I Come To You, Anywhere In The U.S.",
     desc: "For large instrument collections, I come to you. Depending on distance, I either drive out in my own box truck or fly to your location and rent a truck on-site. Either way, the goal is the same: buy the entire collection in a single visit. No multiple trips, no partial purchases, no leaving instruments behind. One transaction, handled completely.",
     keywords: ["Nationwide Collection Buying", "Estate Liquidation", "On-Site Purchase"],
   },
   {
     n: "03",
     label: "Same-Day Payment",
-    title: "We Load Up and You Get Paid the Same Day",
+    title: "We Load Up And You Get Paid The Same Day",
     desc: "Once we’ve gone through the collection, we load everything into the truck and get you paid on the spot. No waiting on wire transfers, no payment holds, no “we’ll send a check.” Collection liquidation shouldn’t drag on, and it doesn’t. You walk away paid the same day your instruments leave.",
     keywords: ["Same-Day Payment", "Collection Liquidation", "Cash or Transfer"],
   },
@@ -93,6 +96,8 @@ const featureCols = [
   {
     icon: img("prices-icon.svg"),
     iconAlt: "Providing Fair And Convenient Prices Nationwide",
+    iconWidth: 68,
+    iconHeight: 79,
     photo: imgMeta("1966-gibson-es-335-1024x683.jpg"),
     photoAlt: "Sell An Electric Or Acoustic Guitar Collection",
     headline: "Sell An Electric Or Acoustic Guitar Collection At The Right Price",
@@ -101,6 +106,8 @@ const featureCols = [
   {
     icon: img("classic-icon.svg"),
     iconAlt: "Buy Classic And Vintage Guitar Collections",
+    iconWidth: 65,
+    iconHeight: 68,
     photo: imgMeta("large-vintage-guitar-collection.jpg"),
     photoAlt: "Find Classic And Vintage Guitar Collections In Our Online Shop",
     headline: "Get A Free Appraisal For Your Guitar Collection",
@@ -109,20 +116,22 @@ const featureCols = [
   {
     icon: img("guitar-icon.svg"),
     iconAlt: "Many Years Of Experience",
+    iconWidth: 41,
+    iconHeight: 38,
     photo: imgMeta("1966-fender-jazzmaster-in-hard-case-1024x683.jpg"),
     photoAlt: "Years Of Experience Buying And Selling Guitar Collections Nationwide",
     headline: "Years Of Experience Buying & Selling Guitars Throughout The States",
-    body: `Take advantage of my knowledge and <a href="/about-me/" class="smc-link">years of experience</a> with new and vintage guitars, and let me make selling easy and risk-free for you.`,
+    body: `Take advantage of my knowledge and <a href="/about-me/" class="smc-link">years of experience</a> with new and vintage guitars, and let me make selling straightforward for you.`,
   },
 ];
 
-// 5 notable past purchases — content from live .purchase-list
+// 5 notable past purchases: content from live .purchase-list
 // Items 2 and 5 include embedded YouTube videos in addition to copy.
 const pastPurchases = [
   {
     n: "01",
     location: "Tucson, Arizona",
-    title: "700+ Guitars & Amps from a Retiring Collector",
+    title: "700+ Guitars & Amps From A Retiring Collector",
     desc: "One of our biggest single buys ever. A lifelong collector in Tucson had spent decades putting together a huge range of guitars and amps, and he trusted us with the whole inventory when he retired. Every piece was hand-inspected and brought back to the shop.",
     stat: { number: "700+", label: "Guitars & Amplifiers" },
     badges: ["Flew to Tucson", "Box Truck Transport"],
@@ -131,17 +140,17 @@ const pastPurchases = [
   {
     n: "02",
     location: "New Jersey",
-    title: "100+ Rare 1950s to 1960s Instruments",
+    title: "100+ Rare 1950s To 1960s Instruments",
     desc: `We flew out to New Jersey, rented a box truck, and loaded it with over 100 instruments from the golden era of American lutherie. A great run of mid-century pieces from a collector named Art. See the haul in the video below. One highlight: a <a href="/post/gretsch-6120-history-value/" class="smc-link">1960 Gretsch 6120</a> that became the centerpiece of our guide to the model.`,
-    stat: { number: "100+", label: "1950s to 1960s Instruments" },
+    stat: { number: "100+", label: "1950s To 1960s Instruments" },
     badges: ["Flew to New Jersey", "Box Truck Rented On-Site"],
-    video: { id: "NTw8EcrS5Y8", title: "I Spent $100,000 on Guitars in One Week!" },
+    video: { id: "NTw8EcrS5Y8", title: "I Spent $100,000 On Guitars In One Week!" },
   },
   {
     n: "03",
     location: "Santa Fe, New Mexico",
     title: "100+ Premium Archtop Jazz Guitars",
-    desc: "A private collector in Santa Fe had put together one of the best personal archtop collections we’ve ever seen. Over 100 premium jazz guitars, carved tops, big names, and rare finds, all in a single purchase. A once-in-a-career buy.",
+    desc: "A private collector in Santa Fe had put together a remarkable personal archtop collection. Over 100 premium jazz guitars, carved tops, big names, and rare finds, all in a single purchase. A once-in-a-career buy.",
     stat: { number: "100+", label: "Premium Archtop Jazz Guitars" },
     badges: ["Private Collection Purchase"],
     video: null,
@@ -149,7 +158,7 @@ const pastPurchases = [
   {
     n: "04",
     location: "Connecticut",
-    title: "80+ Top-Tier Acoustic Guitars",
+    title: "80+ High-End Acoustic Guitars",
     desc: `We flew to Connecticut and rented a truck on-site to haul back more than 80 acoustic guitars, a deep collection of high-end flat-tops from some of the most sought-after builders in American history. One standout was a Gibson J-45 that we later featured in our <a href="/post/identify-vintage-gibson-j45-j50-sj/" class="smc-link">complete guide to identifying vintage Gibson J-45s, J-50s, and SJs</a>.`,
     stat: { number: "80+", label: "Premium Acoustic Guitars" },
     badges: ["Flew to Connecticut", "Truck Rented On-Site"],
@@ -158,11 +167,11 @@ const pastPurchases = [
   {
     n: "05",
     location: "Southern Arizona",
-    title: "100+ Rare Vintage Fender Amps, Bought in a Single Day",
-    desc: "One of the best single-day hauls we’ve ever pulled off. Over 100 rare vintage Fender amplifiers, plus several guitars, all bought in one visit in Southern Arizona. Every amp loaded up and gone the same day. See the haul in the video below.",
+    title: "100+ Rare Vintage Fender Amps, Bought In A Single Day",
+    desc: "A memorable single-day haul. Over 100 rare vintage Fender amplifiers, plus several guitars, all bought in one visit in Southern Arizona. Every amp loaded up and gone the same day. See the haul in the video below.",
     stat: { number: "100+", label: "Vintage Fender Amplifiers" },
     badges: ["Single-Day Purchase", "Southern Arizona"],
-    video: { id: "SFjsaZsEHqI", title: "Buying Over 100 Vintage Fender Amps & Rare Guitars in The Middle of Nowhere in Arizona!" },
+    video: { id: "SFjsaZsEHqI", title: "Buying Over 100 Vintage Fender Amps & Rare Guitars In The Middle Of Nowhere In Arizona!" },
   },
 ];
 
@@ -171,13 +180,13 @@ const pastPurchases = [
 const faqs = [
   {
     id: "toggle_e51afd6282088838c",
-    q: "How Can Appraisal Experts Determine My Guitar Collection’s Price & Value?",
+    q: "How Do You Determine My Guitar Collection’s Price & Value?",
     a: "When you bring your guitar in for appraisal, I will inspect your guitar carefully. Its make and model, the age, condition, and any unique features the guitar has will be considered as I determine its value. You will receive a written appraisal detailing my assessment and findings, along with the determined value of your guitar so you can make an informed decision for moving forward with keeping or selling it.",
   },
   {
     id: "toggle_36b0dcad5b96e59a8",
     q: "How Long Will The Process Of Selling My Vintage Guitar Collection Take?",
-    a: "When you visit Joe’s Vintage Guitar for an appraisal and assessment, I do everything I can to make the process quick, painless, and risk-free for you. I share as much information as I can without overwhelming you, and take my time understanding the guitar’s history and sentimental value to you personally. If you are ready to sell it, the actual process is relatively quick and simple.",
+    a: "When you visit Joe’s Vintage Guitar for an appraisal and assessment, I do everything I can to make the process quick, painless, and straightforward for you. I share as much information as I can without overwhelming you, and take my time understanding the guitar’s history and sentimental value to you personally. If you are ready to sell it, the actual process is relatively quick and simple.",
   },
   {
     id: "toggle_8517607e71808a494",
@@ -209,6 +218,7 @@ const structuredData = [
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/#breadcrumb",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
       { "@type": "ListItem", position: 2, name: "Sell A Guitar Collection", item: "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/" },
@@ -216,18 +226,22 @@ const structuredData = [
   },
   {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "Sell Your Vintage Guitar Collection In The US",
-    author: { "@id": "https://www.joesvintageguitarsaz.com/about-me/#person" },
-    publisher: { "@id": "https://www.joesvintageguitarsaz.com/" },
+    "@type": "WebPage",
+    "@id": "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/#webpage",
+    name: "Sell A Guitar Collection Nationwide | Joe's Guitars",
+    description: "Sell your vintage guitar collection to Joe. Get a free appraisal, a clear offer, and nationwide pickup for large collections, estates, and inherited gear.",
+    url: "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/",
+    about: { "@id": "https://www.joesvintageguitarsaz.com/" },
+    breadcrumb: { "@id": "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/#breadcrumb" },
+    dateModified: "2026-09-30",
     mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/",
   },
   {
     "@context": "https://schema.org",
     "@type": "VideoObject",
     "@id": "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/#video",
-    name: "Meet Vintage Guitar Expert, Joe Dampt",
-    description: "Meet Joe Dampt of Joe's Vintage Guitars and see how selling your vintage guitar collection to a specialist buyer works.",
+    name: "Meet Vintage Guitar Buyer, Joe Dampt",
+    description: "Meet Joe Dampt of Joe's Vintage Guitars and see how selling your vintage guitar collection to a nationwide buyer works.",
     thumbnailUrl: "https://img.youtube.com/vi/zMd6IJ-6e-8/maxresdefault.jpg",
     uploadDate: "2023-11-20T09:28:04-08:00",
     embedUrl: "https://www.youtube.com/embed/zMd6IJ-6e-8",
@@ -238,8 +252,9 @@ const structuredData = [
 ---
 
 <Layout
-  title="Sell A Guitar Collection | Joes Vintage Guitars"
-  description="Sell your guitar collection to Joe, a nationwide buyer who comes to you. Same-day cash offers and free appraisals for collections of any size."
+  bodyClass="collection-page"
+  title="Sell A Guitar Collection Nationwide | Joe's Guitars"
+  description="Sell your vintage guitar collection to Joe. Get a free appraisal, a clear offer, and nationwide pickup for large collections, estates, and inherited gear."
   canonical="/sell-a-guitar-collection/"
   ogImage={`${SITE_URL}${FEATURED_IMG}`}
   structuredData={structuredData}
@@ -249,12 +264,12 @@ const structuredData = [
 
   <InstagramEmbeds />
 
-  <!-- 1. Hero — dark-brown bg, large title + subtitle, intro-box with 4 paragraphs and a jump button -->
+  <!-- 1. Hero: dark-brown background, large title, intro box, and jump button -->
   <section class="smc-hero">
     <div class="smc-hero__inner">
       <h1>Sell Your Vintage Guitar Collection In The US</h1>
       <div class="smc-hero__rule" aria-hidden="true"></div>
-      <h2 class="smc-hero__subtitle">Top-Rated Guitar Collection Buyer, I Come to You</h2>
+      <p class="smc-hero__subtitle">Nationwide Guitar Collection Buyer Who Comes To You</p>
 
       <div class="smc-intro-box">
         <p>Whether you’ve been building your collection for decades or you’re just ready to pass it on, I’ll make the process simple, fast, and pressure-free.</p>
@@ -263,8 +278,8 @@ const structuredData = [
         <p>I travel all across the U.S. with my trailer and come right to you. California, New York, anywhere in between. One call, one visit, one fair offer, it’s that simple.</p>
         <div class="smc-intro-box__divider"></div>
         <div class="smc-intro-box__contact">
-          <span>📞 Call or text: <a href={`tel:${contact.tel}`}>{contact.phone}</a></span>
-          <span>📧 Email: <a href={`mailto:${contact.email}`}>{contact.email}</a></span>
+          <span>Call Or Text: <a href={`tel:${contact.tel}`}>{contact.phone}</a></span>
+          <span>Email: <a href={`mailto:${contact.email}`}>{contact.email}</a></span>
         </div>
         <div class="smc-intro-box__jump">
           <p class="smc-intro-box__jump-label">Every collection has a story.</p>
@@ -274,8 +289,31 @@ const structuredData = [
     </div>
   </section>
 
-  <!-- 1b. Lead form -->
-  <section class="px-4 py-12 sm:py-16" style="background: var(--color-brand-cream);">
+  <!-- 1b. Answer-first summary and section navigation -->
+  <section class="smc-overview" aria-labelledby="collection-answer-heading">
+    <div class="smc-inner smc-overview__grid">
+      <div class="smc-overview__answer">
+        <p class="smc-overview__eyebrow">The Short Answer</p>
+        <h2 id="collection-answer-heading">How To Sell A Guitar Collection Without Listing Every Instrument</h2>
+        <p>Joe buys complete vintage guitar collections across the U.S. Start with photos and a conversation. Joe can appraise the collection remotely and travel for large purchases, with the goal of completing the sale in one visit.</p>
+        <p>Still comparing your options? Read Joe’s <a href="/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/">guide to selling a large guitar collection</a>.</p>
+        <a href="#collection-appraisal-form" class="smc-btn smc-btn--rust">Get A Free Collection Appraisal</a>
+      </div>
+      <nav class="smc-overview__nav" aria-label="On This Page">
+        <p class="smc-overview__nav-title">On This Page</p>
+        <ol>
+          <li><a href="#collection-appraisal-form">Get A Collection Appraisal</a></li>
+          <li><a href="#collection-buying-process">See How The Buying Process Works</a></li>
+          <li><a href="#inherited-guitar-collection">Sell An Inherited Guitar Collection</a></li>
+          <li><a href="#notable-purchases">View Notable Collection Purchases</a></li>
+          <li><a href="#faqs-collection">Read Guitar Collection FAQs</a></li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <!-- 1c. Lead form -->
+  <section id="collection-appraisal-form" class="px-4 py-12 sm:py-16 smc-anchor" style="background: var(--color-brand-cream);">
     <div class="mx-auto max-w-[760px]">
       <LeadForm
         formId="sell-a-collection"
@@ -286,8 +324,8 @@ const structuredData = [
     </div>
   </section>
 
-  <!-- 2. How It Works — 3 numbered steps with keyword tags + CTA -->
-  <section class="smc-hiw">
+  <!-- 2. How It Works: 3 numbered steps with keyword tags and a CTA -->
+  <section id="collection-buying-process" class="smc-hiw smc-anchor">
     <div class="smc-inner">
       <div class="smc-hiw__header">
         <p class="smc-hiw__eyebrow">Guitar & Instrument Collection Liquidation</p>
@@ -322,12 +360,12 @@ const structuredData = [
     </div>
   </section>
 
-  <!-- 3. I Buy & Appraise — 2-column with copy + Joe-with-guitars image -->
-  <section class="smc-buyappraise">
+  <!-- 3. I Buy And Appraise: 2-column copy and photo -->
+  <section id="collection-appraisals" class="smc-buyappraise smc-anchor">
     <div class="smc-inner smc-buyappraise__grid">
       <div class="smc-buyappraise__text">
-        <h3>I Buy & Appraise <span>Vintage Guitar Collections</span> <span class="smc-buyappraise__online">Online Or In Person</span></h3>
-        <p>I love vintage instruments, whether I keep them to play or pass them on to someone else who’ll appreciate them. Every guitar has its own story, so when I appraise yours, I want to hear its background, see a photo of the original owner, or hear what the guitar’s been through. For <a href="/free-appraisal/" class="smc-link">top-rated guitar appraisals</a>, email me at <a href={`mailto:${contact.email}`} class="smc-link">{contact.email}</a>.</p>
+        <h2>I Buy & Appraise <span>Vintage Guitar Collections</span> <span class="smc-buyappraise__online">Online Or In Person</span></h2>
+        <p>I love vintage instruments, whether I keep them to play or pass them on to someone else who’ll appreciate them. Every guitar has its own story, so when I appraise yours, I want to hear its background, see a photo of the original owner, or hear what the guitar’s been through. For a <a href="/free-appraisal/" class="smc-link">free guitar appraisal</a>, email me at <a href={`mailto:${contact.email}`} class="smc-link">{contact.email}</a>.</p>
         <a href={`tel:${contact.tel}`} class="smc-btn smc-btn--rust">{contact.phone}</a>
       </div>
       <div class="smc-buyappraise__photo">
@@ -340,17 +378,24 @@ const structuredData = [
     </div>
   </section>
 
-  <!-- 4. Nationwide grid — title + 3 columns (icon + photo + heading + copy each) -->
-  <section class="smc-nationwide">
+  <!-- 4. Nationwide grid: title and 3 feature columns -->
+  <section id="nationwide-collection-appraisals" class="smc-nationwide smc-anchor">
     <div class="smc-inner">
-      <h3 class="smc-nationwide__title">Nationwide Vintage Guitar Collection <span>Purchase & Appraisals</span></h3>
+      <h2 class="smc-nationwide__title">Nationwide Vintage Guitar Collection <span>Purchase & Appraisals</span></h2>
       <div class="smc-nationwide__cols">
         {featureCols.map((c) => (
           <div class="smc-nationwide__col">
-            <img src={c.icon} alt={c.iconAlt} class="smc-nationwide__icon" loading="lazy" />
+            <img
+              src={c.icon}
+              alt={c.iconAlt}
+              width={c.iconWidth}
+              height={c.iconHeight}
+              class="smc-nationwide__icon"
+              loading="lazy"
+            />
             <LicensedImage src={c.photo} alt={c.photoAlt} class="smc-nationwide__photo" width={340} />
             <hr class="smc-rule" />
-            <h4 set:html={c.headline} />
+            <h3 set:html={c.headline} />
             <p set:html={c.body} />
           </div>
         ))}
@@ -358,12 +403,12 @@ const structuredData = [
     </div>
   </section>
 
-  {/* 5. Testimonials — 5 reviews + 3 IG reels (Pinterest masonry pattern) */}
-  <section class="smc-testi">
+  {/* 5. Testimonials: 5 reviews and 3 Instagram reels */}
+  <section id="collection-seller-reviews" class="smc-testi smc-anchor">
     <div class="smc-inner">
       <div class="smc-testi__head">
-        <h3 class="smc-testi__title">Our Clients’ Testimonials</h3>
-        <h4 class="smc-testi__sub">Guitar Collection Resale Expert With 5-Star Rated Reviews</h4>
+        <h2 class="smc-testi__title">Our Clients’ Testimonials</h2>
+        <h3 class="smc-testi__sub">Guitar Collection Reviews From Past Sellers</h3>
       </div>
 
       <div class="smc-testi__masonry">
@@ -397,7 +442,7 @@ const structuredData = [
         ))}
       </div>
 
-      <!-- "View More" testimonials button — live still shows this on Collection
+      <!-- "View More" testimonials button: live still shows this on Collection
            (Fender v10 dropped it; Martin keeps a similar one). -->
       <div class="smc-testi__more-wrap">
         <a
@@ -412,12 +457,11 @@ const structuredData = [
     </div>
   </section>
 
-  <!-- 6. Inherited a Collection — vintage-title section with two H3s + body + Free Appraisal CTA + photo.
-       Live HTML markup is malformed (nested <h3><h3>), so the structural content is two H3s in source order. -->
-  <section class="smc-inherited">
+  <!-- 6. Inherited collection appraisal and purchase information -->
+  <section id="inherited-guitar-collection" class="smc-inherited smc-anchor">
     <div class="smc-inner">
       <div class="smc-inherited__title">
-        <h3 class="smc-inherited__main">Inherited A Guitar Collection And Need To Get It Appraised <span>& Sell It?</span></h3>
+        <h2 class="smc-inherited__main">Inherited A Guitar Collection And Need To Get It Appraised <span>& Sell It?</span></h2>
         <h3 class="smc-inherited__sub">We Buy Vintage Acoustic & Electric Guitar Collections In <span>Any State</span></h3>
       </div>
       <div class="smc-inherited__grid">
@@ -425,7 +469,7 @@ const structuredData = [
           <p>If you’ve just become the owner of a guitar collection and have no idea what it’s worth or where to start, I can help. I’ll travel to you anywhere in the United States for <a href="/free-appraisal/" class="smc-link">in-person guitar appraisals</a>, or we can set up an online meeting instead.</p>
           <p>I want you to understand what the guitar is actually worth. I won’t cut corners or make anything up. I love vintage guitars, and that’s what drives everything I do. If you’d like a <a href="/free-appraisal/" class="smc-link">free appraisal</a> for your vintage guitar, email me at <a href={`mailto:${contact.email}`} class="smc-link">{contact.email}</a> or text me at <a href={`sms:${contact.tel}`} class="smc-link">{contact.phone}</a>.</p>
           <div class="smc-inherited__cta">
-            <p><strong>Get The Best Price For Your Vintage Guitar!</strong></p>
+            <p><strong>Get A Free Appraisal For Your Vintage Guitar!</strong></p>
           </div>
         </div>
         <div class="smc-inherited__photo">
@@ -439,12 +483,12 @@ const structuredData = [
     </div>
   </section>
 
-  <!-- 7. Notable Collection Purchases — 5 items with location/stat/badges; items 02 + 05 have YouTube videos.
+  <!-- 7. Notable Collection Purchases: 5 items with location, stats, and logistics badges.
        Anchor #notable-purchases is the target of the hero jump button. -->
   <section class="smc-notable">
     <div class="smc-inner">
       <div class="smc-notable__header">
-        <p class="smc-notable__eyebrow">Sourced Across the Country</p>
+        <p class="smc-notable__eyebrow">Sourced Across The Country</p>
         <h2 id="notable-purchases" class="smc-notable__title">Notable Collection<br />Purchases</h2>
         <p class="smc-notable__subtitle">We travel wherever the great instruments are, flying, driving, and hauling truckloads of history to bring you the finest vintage guitars and amps anywhere.</p>
         <div class="smc-notable__divider"></div>
@@ -486,9 +530,9 @@ const structuredData = [
   <section class="smc-meet-wrap">
     <div class="smc-meet-cta">
       <div class="smc-inner smc-meet-cta__grid">
-        <h3 class="smc-meet-cta__title">
+        <h2 class="smc-meet-cta__title">
           <span class="smc-meet-cta__accent">Sell Your Vintage</span> Guitar Collection Online
-        </h3>
+        </h2>
         <a href="/contact-me/" class="smc-btn smc-btn--cream">Contact Now</a>
       </div>
     </div>
@@ -498,13 +542,13 @@ const structuredData = [
         <lite-youtube
           videoid="zMd6IJ-6e-8"
           params="wmode=transparent&autoplay=1&enablejsapi=1&rel=0&modestbranding=1"
-          title="Meet Vintage Guitar Expert, Joe Dampt"
+          title="Meet Vintage Guitar Buyer, Joe Dampt"
           class="smc-lite-yt"
         ></lite-youtube>
       </div>
       <div class="smc-meet__panel">
-        <h3 class="smc-meet__title">Meet Vintage Guitar Expert, <span>Joe Dampt</span></h3>
-        <h4 class="smc-meet__sub">Professional Buyer and Seasoned Collector of Vintage Guitars</h4>
+        <h2 class="smc-meet__title">Meet Vintage Guitar Buyer, <span>Joe Dampt</span></h2>
+        <h3 class="smc-meet__sub">Professional Buyer And Seasoned Collector Of Vintage Guitars</h3>
         <p>Hey there! My name is Joe Dampt and I love old music and old guitars!</p>
         <p>I fell in love with the guitar as a youngster while listening to old music from the 50s and 60s. From then on, music has been my life, and I’ve sacrificed and worked hard to make music and musical instruments my livelihood. I love old guitars and musical instruments, but I love the MUSIC even more. I believe that guitars don’t do us any good if they just sit in a case. These beauties are meant to be played!</p>
         <p>I’ve performed in many local bands and my favorite styles to play are classic country/western music, swing & dance music, and classic rock & roll.</p>
@@ -512,7 +556,7 @@ const structuredData = [
     </div>
   </section>
 
-  {/* 9. FAQs — shared <FAQ /> component (wood-textured cream box pattern).
+  {/* 9. FAQs: shared <FAQ /> component (wood-textured cream box pattern).
        NOTE: FAQ.astro renders as "FAQs About <subTitle>", so subTitle must NOT
        include the word "About" or it'd render "FAQs About About...". */}
   <FAQ
@@ -520,15 +564,16 @@ const structuredData = [
     subTitle="Our Guitar Collection Resale Services"
     sectionId="faqs-collection"
     openFirst={true}
+    headingLevel="h2"
   />
 
-  <!-- 10. Get In Touch — shared ContactSection -->
+  <!-- 10. Get In Touch: shared ContactSection -->
   <ContactSection />
 </Layout>
 
 <style>
   /* ============================================================
-     SELL A GUITAR COLLECTION (.smc-*) — Archetype B page styles
+     SELL A GUITAR COLLECTION (.smc-*): Archetype A conversion page styles
 
      Structural notes:
      - Hero uses solid dark-brown bg (not gradient like Martin)
@@ -543,6 +588,10 @@ const structuredData = [
   }
   .smc-link { color: var(--color-brand-rust-dark); text-decoration: underline; }
   .smc-link:hover { color: var(--color-brand-rust-bright); }
+  :global(body.collection-page .text-\[11px\]) { color: #d0a044; }
+  .smc-anchor,
+  #faqs-collection,
+  #notable-purchases { scroll-margin-top: 110px; }
   .smc-rule {
     border: none;
     border-top: 3px solid var(--color-brand-rust-bright);
@@ -623,7 +672,7 @@ const structuredData = [
     font-size: 16px;
   }
   .smc-intro-box__brands {
-    color: var(--color-brand-gold, #c8983a) !important;
+    color: #d0a044 !important;
     font-weight: 600;
   }
   .smc-intro-box__divider {
@@ -639,7 +688,7 @@ const structuredData = [
     font-weight: 600;
     margin-bottom: 18px;
   }
-  .smc-intro-box__contact a { color: var(--color-brand-gold, #c8983a); text-decoration: underline; }
+  .smc-intro-box__contact a { color: #d0a044; text-decoration: underline; }
   .smc-intro-box__jump {
     text-align: center;
     padding-top: 8px;
@@ -660,6 +709,78 @@ const structuredData = [
     transition: background 0.2s;
   }
   .smc-intro-box__jump-btn:hover { background: #bf6344; }
+
+  /* 1b. Answer-first summary and on-page navigation ------------ */
+  .smc-overview {
+    background: var(--color-brand-cream-light, #f6e9cf);
+    padding: 58px 0;
+  }
+  .smc-overview__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.8fr);
+    gap: 48px;
+    align-items: start;
+  }
+  .smc-overview__eyebrow,
+  .smc-overview__nav-title {
+    color: var(--color-brand-rust-bright);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .smc-overview__eyebrow { margin: 0 0 10px; }
+  .smc-overview__answer h2 {
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: clamp(27px, 3vw, 39px);
+    line-height: 1.18;
+    margin: 0 0 18px;
+  }
+  .smc-overview__answer p {
+    color: var(--color-brand-brown);
+    line-height: 1.7;
+    margin: 0 0 16px;
+  }
+  .smc-overview__answer p a {
+    color: var(--color-brand-rust-dark);
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .smc-overview__answer .smc-btn { margin-top: 4px; }
+  .smc-overview__nav {
+    background: #fff;
+    border-left: 5px solid var(--color-brand-rust-bright);
+    box-shadow: 0 12px 30px rgba(62, 42, 20, 0.09);
+    padding: 26px 28px 22px;
+  }
+  .smc-overview__nav-title {
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 12px;
+  }
+  .smc-overview__nav ol {
+    margin: 0;
+    padding-left: 22px;
+  }
+  .smc-overview__nav li {
+    color: var(--color-brand-rust-bright);
+    padding: 6px 0;
+  }
+  .smc-overview__nav a {
+    color: var(--color-brand-brown);
+    font-weight: 600;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  .smc-overview__nav a:hover { color: var(--color-brand-rust-dark); }
+  @media (max-width: 820px) {
+    .smc-overview { padding: 44px 0; }
+    .smc-overview__grid { grid-template-columns: 1fr; gap: 28px; }
+  }
+  @media (max-width: 600px) {
+    .smc-overview__grid { padding-right: 58px; }
+    .smc-overview__answer .smc-btn { font-size: 14px; padding: 13px 18px; }
+  }
 
   /* 2. How It Works --------------------------------------------- */
   .smc-hiw {
@@ -759,7 +880,7 @@ const structuredData = [
     font-size: 22px;
     color: var(--color-brand-rust-dark);
   }
-  .smc-hiw__cta-text span { color: var(--color-brand-rust-bright); }
+  .smc-hiw__cta-text span { color: #a63f21; }
   .smc-hiw__cta-actions { display: flex; gap: 12px; flex-wrap: wrap; }
 
   @media (max-width: 900px) {
@@ -779,14 +900,14 @@ const structuredData = [
     gap: 50px;
     align-items: center;
   }
-  .smc-buyappraise__text h3 {
+  .smc-buyappraise__text h2 {
     font-family: var(--font-display);
     font-size: clamp(24px, 2.8vw, 34px);
     color: var(--color-brand-rust-dark);
     line-height: 1.25;
     margin: 0 0 18px;
   }
-  .smc-buyappraise__text h3 span { white-space: nowrap; }
+  .smc-buyappraise__text h2 span { white-space: nowrap; }
   .smc-buyappraise__online { display: block; font-size: 0.7em; color: var(--color-brand-brown); }
   .smc-buyappraise__text p { line-height: 1.7; margin: 0 0 22px; color: var(--color-brand-brown); }
   .smc-buyappraise__photo img {
@@ -847,7 +968,7 @@ const structuredData = [
     border-radius: 4px;
     margin-bottom: 12px;
   }
-  .smc-nationwide__col h4 {
+  .smc-nationwide__col h3 {
     font-family: var(--font-display);
     font-size: 22px;
     color: var(--color-brand-rust-dark);
@@ -890,7 +1011,7 @@ const structuredData = [
     font-weight: 400;
     margin: 0;
   }
-  /* Pinterest masonry — same as Fender/Martin */
+  /* Pinterest masonry, same as Fender/Martin */
   .smc-testi__masonry {
     column-count: 3;
     column-gap: 20px;
@@ -977,7 +1098,7 @@ const structuredData = [
   .smc-inherited__sub {
     font-family: var(--font-display);
     font-size: clamp(18px, 2.2vw, 22px);
-    color: var(--color-brand-rust-bright);
+    color: #a63f21;
     font-weight: 400;
     margin: 0;
     line-height: 1.25;
@@ -1159,7 +1280,7 @@ const structuredData = [
   }
   .smc-meet__title span { white-space: nowrap; }
   .smc-meet__sub {
-    color: var(--color-brand-rust-bright);
+    color: #a63f21;
     font-weight: 400;
     font-size: 16px;
     margin: 0 0 18px;
@@ -1183,6 +1304,6 @@ const structuredData = [
       padding-top: 50px;
       padding-bottom: 50px;
     }
-    .smc-intro-box { padding: 22px 18px; }
+    .smc-intro-box { padding: 22px 64px 22px 18px; }
   }
 </style>
