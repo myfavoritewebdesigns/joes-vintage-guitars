@@ -175,6 +175,44 @@ const pastPurchases = [
   },
 ];
 
+const appraisalChecklist = [
+  {
+    title: "A Wide Photo Of The Collection",
+    body: "Start with a room, wall, rack, or case photo that shows the size of the collection. You don’t need to stage every instrument before reaching out.",
+  },
+  {
+    title: "Photos Of Identifying Details",
+    body: "For standout instruments, include the front, back, headstock, label, and serial number when they are easy to reach. Don’t take anything apart.",
+  },
+  {
+    title: "A Rough Count And Location",
+    body: "Share an approximate number of guitars, amplifiers, and other instruments, plus the city and state where the collection is located.",
+  },
+  {
+    title: "Cases, Parts, And Paperwork",
+    body: "Keep original cases, receipts, old appraisals, hang tags, spare parts, and notes with the collection. These details can help identify and value an instrument.",
+  },
+];
+
+const sellingOptions = [
+  {
+    title: "Direct Collection Sale",
+    body: "One buyer evaluates the collection, makes an offer, handles transportation, and completes the purchase. This trades some potential retail return for speed, clarity, and less work.",
+  },
+  {
+    title: "Individual Online Listings",
+    body: "Selling each instrument yourself can produce a higher total before fees, but it requires identification, pricing, photography, buyer messages, packing, shipping, and possible returns.",
+  },
+  {
+    title: "Consignment",
+    body: "A shop markets and sells the instruments for you, then keeps an agreed portion of each sale. It reduces the hands-on work, but the collection may sell over a longer period.",
+  },
+  {
+    title: "Specialty Auction",
+    body: "An instrument auction can make sense for rare pieces with strong documentation. Auction timing, seller fees, and the quality of the bidder pool all affect the result.",
+  },
+];
+
 // FAQs sourced from live JSON-LD (reference/sell-a-guitar-collection-jsonld.json).
 // Toggle IDs match live's `panel-` / `toggle_` IDs for inbound-link parity.
 const faqs = [
@@ -202,6 +240,36 @@ const faqs = [
     id: "toggle_37b36752c094139f4",
     q: "Is There A Warranty Or Return Policy After Buying Or Selling My Guitar Collection?",
     a: "I love guitars and want you to love yours too! If you purchase a guitar from my inventory and feel there was missing information, or you are simply unhappy with your purchase, please reach out to me! I will do everything possible to make it right for you.",
+  },
+  {
+    id: "faq_collection_inventory",
+    q: "Do I Need An Inventory Before Contacting Joe?",
+    a: "No. A rough count, your location, and a few clear photos are enough to begin. Send any records that already exist, but I can help identify, document, and organize a collection that doesn’t have an inventory.",
+  },
+  {
+    id: "faq_collection_types",
+    q: "What Types Of Instruments And Gear Do You Buy In A Collection?",
+    a: "I buy collections that can include electric and acoustic guitars, basses, amplifiers, effects, mandolins, banjos, parts, and mixed musical instruments. If you are unsure what something is, send a wide photo and a rough count so I can review it with you.",
+  },
+  {
+    id: "faq_partial_collection",
+    q: "Can I Sell Only Part Of My Guitar Collection?",
+    a: "Tell me which instruments are available and which ones you or your family plan to keep. I can review the group being offered and explain whether a direct purchase, consignment, trade, or another route makes sense for those instruments.",
+  },
+  {
+    id: "faq_collection_travel",
+    q: "How Large Must A Collection Be For Nationwide Pickup?",
+    a: "Travel depends on the collection’s location, size, and instruments. Send a rough count and a few photos first. I will tell you whether a remote review, shipping plan, or on-site visit makes sense before either of us commits to travel.",
+  },
+  {
+    id: "faq_appraisal_offer",
+    q: "What Is The Difference Between An Appraisal And A Purchase Offer?",
+    a: "An appraisal explains the collection’s current market value based on the instruments, condition, originality, and available records. A purchase offer is the amount I can pay in a direct sale after accounting for the work, transportation, and resale involved. I explain that tradeoff so you can choose the right selling route.",
+  },
+  {
+    id: "faq_collection_payment_transport",
+    q: "How Are Payment And Transportation Handled?",
+    a: "For a large on-site purchase, I may drive my box truck or fly to your location and rent a truck there. Once we agree on the purchase, we load the collection and complete payment by cash or transfer the same day.",
   },
 ];
 
@@ -233,7 +301,7 @@ const structuredData = [
     url: "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/",
     about: { "@id": "https://www.joesvintageguitarsaz.com/" },
     breadcrumb: { "@id": "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/#breadcrumb" },
-    dateModified: "2026-09-30",
+    dateModified: "2026-10-02",
     mainEntityOfPage: "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/",
   },
   {
@@ -303,8 +371,10 @@ const structuredData = [
         <p class="smc-overview__nav-title">On This Page</p>
         <ol>
           <li><a href="#collection-appraisal-form">Get A Collection Appraisal</a></li>
+          <li><a href="#collection-appraisal-checklist">Prepare Photos And Details</a></li>
           <li><a href="#collection-buying-process">See How The Buying Process Works</a></li>
           <li><a href="#inherited-guitar-collection">Sell An Inherited Guitar Collection</a></li>
+          <li><a href="#collection-selling-options">Compare Ways To Sell</a></li>
           <li><a href="#notable-purchases">View Notable Collection Purchases</a></li>
           <li><a href="#faqs-collection">Read Guitar Collection FAQs</a></li>
         </ol>
@@ -321,6 +391,47 @@ const structuredData = [
         heading="Sell Your Vintage Guitar Collection"
         subheading="Get A Free Appraisal And A Fair Cash Offer Today"
       />
+    </div>
+  </section>
+
+  <!-- 1d. Appraisal preparation and collection scope -->
+  <section id="collection-appraisal-checklist" class="smc-prep smc-anchor">
+    <div class="smc-inner">
+      <div class="smc-prep__header">
+        <p class="smc-prep__eyebrow">A Simple Place To Start</p>
+        <h2>What To Send For A Guitar Collection Appraisal</h2>
+        <p>You don’t need a finished inventory or exact dates for every instrument before you contact me. A few clear photos and the basic details below are enough for our first conversation.</p>
+      </div>
+
+      <div class="smc-prep__layout">
+        <ol class="smc-prep__checklist">
+          {appraisalChecklist.map((item, index) => (
+            <li>
+              <span class="smc-prep__number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
+              <div>
+                <h3>{item.title}</h3>
+                <p>{item.body}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+
+        <aside class="smc-prep__scope" aria-labelledby="collection-types-heading">
+          <p class="smc-prep__scope-label">Collection Types</p>
+          <h3 id="collection-types-heading">What I Buy In A Collection</h3>
+          <p>I buy complete and mixed collections that can include:</p>
+          <ul>
+            <li>Vintage and quality used electric guitars</li>
+            <li>Acoustic, archtop, and resonator guitars</li>
+            <li>Vintage and collectible bass guitars</li>
+            <li><a href="/sell-an-amplifier-or-effect/">Amplifiers and effects</a></li>
+            <li>Mandolins, banjos, and other string instruments</li>
+            <li>Cases, parts, paperwork, and related accessories</li>
+          </ul>
+          <p>Collections don’t need to be organized by brand or value. If you’re unsure what you have, send a wide photo and we can start there.</p>
+          <a href="#collection-appraisal-form" class="smc-btn smc-btn--cream">Start My Appraisal</a>
+        </aside>
+      </div>
     </div>
   </section>
 
@@ -468,6 +579,15 @@ const structuredData = [
         <div class="smc-inherited__text">
           <p>If you’ve just become the owner of a guitar collection and have no idea what it’s worth or where to start, I can help. I’ll travel to you anywhere in the United States for <a href="/free-appraisal/" class="smc-link">in-person guitar appraisals</a>, or we can set up an online meeting instead.</p>
           <p>I want you to understand what the guitar is actually worth. I won’t cut corners or make anything up. I love vintage guitars, and that’s what drives everything I do. If you’d like a <a href="/free-appraisal/" class="smc-link">free appraisal</a> for your vintage guitar, email me at <a href={`mailto:${contact.email}`} class="smc-link">{contact.email}</a> or text me at <a href={`sms:${contact.tel}`} class="smc-link">{contact.phone}</a>.</p>
+          <div class="smc-inherited__checklist">
+            <h3>Before An Estate Collection Appraisal</h3>
+            <ul>
+              <li>Keep original cases, receipts, old appraisals, parts, straps, and paperwork with the instruments.</li>
+              <li>Leave cleaning and repairs until the guitars have been examined. The wrong product or replacement part can affect a vintage instrument.</li>
+              <li>Take wide photos of the rooms, racks, or cases. You don’t need to identify or unpack every instrument first.</li>
+              <li>Set aside any instruments your family wants to keep before asking for a final purchase offer.</li>
+            </ul>
+          </div>
           <div class="smc-inherited__cta">
             <p><strong>Get A Free Appraisal For Your Vintage Guitar!</strong></p>
           </div>
@@ -479,6 +599,29 @@ const structuredData = [
             width={340}
           />
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6b. Honest comparison of the main collection-selling routes -->
+  <section id="collection-selling-options" class="smc-options smc-anchor">
+    <div class="smc-inner">
+      <div class="smc-options__header">
+        <p class="smc-options__eyebrow">Choose The Route That Fits Your Situation</p>
+        <h2>Ways To Sell A Guitar Collection</h2>
+        <p>There is no single route for every seller. The right choice depends on how much time you have, how quickly the collection needs to move, and whether your priority is convenience or the highest possible total from individual sales.</p>
+      </div>
+      <div class="smc-options__grid">
+        {sellingOptions.map((option) => (
+          <article class="smc-options__card">
+            <h3>{option.title}</h3>
+            <p>{option.body}</p>
+          </article>
+        ))}
+      </div>
+      <div class="smc-options__footer">
+        <p>For a detailed comparison of marketplaces, fees, timelines, and workload, read my <a href="/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/">guide to selling a large guitar collection</a>.</p>
+        <a href="#collection-appraisal-form" class="smc-btn smc-btn--rust">Discuss My Collection</a>
       </div>
     </div>
   </section>
@@ -780,6 +923,103 @@ const structuredData = [
   @media (max-width: 600px) {
     .smc-overview__grid { padding-right: 58px; }
     .smc-overview__answer .smc-btn { font-size: 14px; padding: 13px 18px; }
+  }
+
+  /* 1d. Appraisal preparation and collection scope ------------- */
+  .smc-prep {
+    background: #fff;
+    padding: 72px 0 80px;
+  }
+  .smc-prep__header {
+    max-width: 820px;
+    margin: 0 auto 42px;
+    text-align: center;
+  }
+  .smc-prep__eyebrow,
+  .smc-prep__scope-label {
+    color: #a63f21;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .smc-prep__eyebrow { margin: 0 0 10px; }
+  .smc-prep__header h2 {
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: clamp(28px, 3.4vw, 42px);
+    line-height: 1.18;
+    margin: 0 0 16px;
+  }
+  .smc-prep__header > p:last-child {
+    color: var(--color-brand-brown);
+    line-height: 1.7;
+    margin: 0;
+  }
+  .smc-prep__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.75fr);
+    gap: 34px;
+    align-items: stretch;
+  }
+  .smc-prep__checklist {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .smc-prep__checklist li {
+    background: var(--color-brand-cream-light, #f6e9cf);
+    border-top: 4px solid var(--color-brand-rust-bright);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+    padding: 23px 22px;
+  }
+  .smc-prep__number {
+    color: #a63f21;
+    font-family: var(--font-display);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .smc-prep__checklist h3 {
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: 19px;
+    line-height: 1.25;
+    margin: 0 0 8px;
+  }
+  .smc-prep__checklist p {
+    color: var(--color-brand-brown);
+    line-height: 1.6;
+    margin: 0;
+  }
+  .smc-prep__scope {
+    background: var(--color-brand-brown, #3d2c1d);
+    color: #fff;
+    padding: 30px 30px 32px;
+  }
+  .smc-prep__scope-label { color: #d0a044; margin: 0 0 9px; }
+  .smc-prep__scope h3 {
+    color: #fff;
+    font-family: var(--font-display);
+    font-size: 27px;
+    line-height: 1.2;
+    margin: 0 0 14px;
+  }
+  .smc-prep__scope p { line-height: 1.65; margin: 0 0 15px; }
+  .smc-prep__scope ul { margin: 0 0 20px; padding-left: 20px; }
+  .smc-prep__scope li { line-height: 1.5; margin: 0 0 8px; }
+  .smc-prep__scope a:not(.smc-btn) { color: #e2b95d; font-weight: 600; }
+  @media (max-width: 940px) {
+    .smc-prep__layout { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 660px) {
+    .smc-prep__checklist { grid-template-columns: 1fr; }
+    .smc-prep__scope { padding: 26px 22px 28px; }
   }
 
   /* 2. How It Works --------------------------------------------- */
@@ -1117,11 +1357,103 @@ const structuredData = [
     text-align: justify;
   }
   .smc-inherited__text a { color: var(--color-brand-rust-dark); text-decoration: underline; }
+  .smc-inherited__checklist {
+    background: #fff;
+    border-left: 5px solid var(--color-brand-rust-bright);
+    margin: 24px 0;
+    padding: 22px 24px 16px;
+  }
+  .smc-inherited__checklist h3 {
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: 21px;
+    margin: 0 0 12px;
+  }
+  .smc-inherited__checklist ul { margin: 0; padding-left: 21px; }
+  .smc-inherited__checklist li {
+    color: var(--color-brand-brown);
+    line-height: 1.6;
+    margin: 0 0 10px;
+  }
   .smc-inherited__cta { text-align: center; margin-top: 14px; }
   .smc-inherited__cta p { color: var(--color-brand-rust-dark); font-weight: 600; margin: 14px 0 0; }
   .smc-inherited__photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
   @media (max-width: 900px) {
     .smc-inherited__grid { grid-template-columns: 1fr; gap: 24px; }
+  }
+
+  /* 6b. Collection-selling options ----------------------------- */
+  .smc-options {
+    background: #fff;
+    padding: 72px 0 80px;
+  }
+  .smc-options__header {
+    max-width: 840px;
+    margin: 0 auto 38px;
+    text-align: center;
+  }
+  .smc-options__eyebrow {
+    color: #a63f21;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+  }
+  .smc-options__header h2 {
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: clamp(28px, 3.4vw, 42px);
+    line-height: 1.18;
+    margin: 0 0 16px;
+  }
+  .smc-options__header > p:last-child {
+    color: var(--color-brand-brown);
+    line-height: 1.7;
+    margin: 0;
+  }
+  .smc-options__grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+  }
+  .smc-options__card {
+    background: var(--color-brand-cream-light, #f6e9cf);
+    border-bottom: 4px solid var(--color-brand-rust-bright);
+    padding: 25px 23px;
+  }
+  .smc-options__card h3 {
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: 21px;
+    line-height: 1.25;
+    margin: 0 0 11px;
+  }
+  .smc-options__card p {
+    color: var(--color-brand-brown);
+    line-height: 1.62;
+    margin: 0;
+  }
+  .smc-options__footer {
+    align-items: center;
+    background: var(--color-brand-brown, #3d2c1d);
+    color: #fff;
+    display: flex;
+    gap: 28px;
+    justify-content: space-between;
+    margin-top: 28px;
+    padding: 25px 28px;
+  }
+  .smc-options__footer p { line-height: 1.65; margin: 0; max-width: 780px; }
+  .smc-options__footer p a { color: #e2b95d; font-weight: 600; }
+  .smc-options__footer .smc-btn { flex: 0 0 auto; }
+  @media (max-width: 980px) {
+    .smc-options__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 700px) {
+    .smc-options__grid { grid-template-columns: 1fr; }
+    .smc-options__footer { align-items: stretch; flex-direction: column; }
+    .smc-options__footer .smc-btn { text-align: center; }
   }
 
   /* 7. Notable Past Purchases ----------------------------------- */
@@ -1300,9 +1632,17 @@ const structuredData = [
   /* ---- Site-wide responsive tweaks --------------------------- */
   @media (max-width: 600px) {
     .smc-hero { padding: 180px 16px 50px; }
-    .smc-hiw, .smc-buyappraise, .smc-nationwide, .smc-testi, .smc-notable, .smc-meet-wrap, .smc-vintage {
+    .smc-prep, .smc-hiw, .smc-buyappraise, .smc-nationwide, .smc-testi, .smc-inherited, .smc-options, .smc-notable, .smc-meet-wrap, .smc-vintage {
       padding-top: 50px;
       padding-bottom: 50px;
+    }
+    .smc-prep > .smc-inner,
+    .smc-inherited > .smc-inner,
+    .smc-options > .smc-inner {
+      padding-right: 82px;
+    }
+    :global(body.collection-page #faqs-collection .faqr-col__inner) {
+      padding-right: 76px;
     }
     .smc-intro-box { padding: 22px 64px 22px 18px; }
   }
