@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import { assetSrc, resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
+import PhoenixMetroLinks from "../components/PhoenixMetroLinks.astro";
 import { SITE_URL, contact, hrefs } from "../config/site";
 
 /* ============================================================
@@ -101,6 +102,11 @@ const structuredData = [
       </div>
     </div>
   </section>
+
+  <PhoenixMetroLinks
+    title="Vintage Guitar Selling Help Near Mesa"
+    intro="Joe's shop is in Mesa and works with guitar owners across the Valley. Choose your city for local selling guidance, or compare every major selling option in the Phoenix-area guide."
+  />
 
   <!-- 3. Contact CTA + form --------------------------------------- -->
   <section class="cm-contact">

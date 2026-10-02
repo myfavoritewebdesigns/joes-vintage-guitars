@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import LeadForm from "../components/LeadForm.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
+import PhoenixMetroLinks from "../components/PhoenixMetroLinks.astro";
 import { appraisalPages } from "../data/appraisal-pages";
 import { contact, hrefs, SITE_URL } from "../config/site";
 import { resolveImage } from "../lib/images";
@@ -209,6 +210,11 @@ const reviews = [
         </div>
       </div>
     </section>
+
+    <PhoenixMetroLinks
+      title="Local Appraisal and Selling Guides"
+      intro="Live in the Phoenix metro area? These city guides explain how to start with photos, what to preserve, and how an appointment at Joe's Mesa shop works when an in-person inspection makes sense."
+    />
 
     <section class="ah-section ah-dark" id="brand-appraisals">
       <div class="ah-container">

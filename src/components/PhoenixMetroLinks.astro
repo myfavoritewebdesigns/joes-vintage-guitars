@@ -1,0 +1,143 @@
+---
+import { phoenixMetroPages } from "../data/phoenix-metro-pages";
+
+interface Props {
+  title?: string;
+  intro?: string;
+}
+
+const {
+  title = "Phoenix Metro Vintage Guitar Selling Guides",
+  intro = "Choose the guide for your city, or start with the Phoenix-area comparison of private sales, consignment, auctions, trade-ins, and a direct specialist offer.",
+} = Astro.props;
+---
+
+<section class="pml" aria-labelledby="pml-heading">
+  <div class="pml__inner">
+    <p class="pml__eyebrow">Local Selling Help</p>
+    <h2 id="pml-heading">{title}</h2>
+    <p class="pml__intro">{intro}</p>
+    <nav class="pml__links" aria-label="Phoenix metro vintage guitar selling guides">
+      {phoenixMetroPages.map((page) => (
+        <a class:list={["pml__link", { "pml__link--guide": page.kind === "guide" }]} href={`/${page.slug}/`}>
+          <span>{page.kind === "guide" ? "Start Here" : page.city}</span>
+          <strong>{page.navLabel}</strong>
+        </a>
+      ))}
+    </nav>
+  </div>
+</section>
+
+<style>
+  .pml {
+    padding: clamp(54px, 7vw, 82px) 20px;
+    color: var(--color-brand-brown);
+    background: #eadfce;
+  }
+
+  .pml__inner {
+    width: min(1100px, 100%);
+    margin: 0 auto;
+  }
+
+  .pml__eyebrow {
+    margin: 0 0 8px;
+    color: var(--color-brand-rust-bright);
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin: 0;
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.08;
+    text-transform: uppercase;
+  }
+
+  .pml__intro {
+    max-width: 780px;
+    margin: 16px 0 30px;
+    line-height: 1.7;
+  }
+
+  .pml__links {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 13px;
+  }
+
+  .pml__link {
+    display: flex;
+    min-height: 94px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 20px;
+    border: 1px solid rgba(104, 36, 18, 0.2);
+    border-left: 4px solid var(--color-brand-rust-bright);
+    background: #fffaf0;
+    color: var(--color-brand-rust-dark);
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .pml__link:hover,
+  .pml__link:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px rgba(62, 42, 20, 0.12);
+  }
+
+  .pml__link span {
+    margin-bottom: 4px;
+    color: var(--color-brand-rust-bright);
+    font-size: 0.74rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .pml__link strong {
+    font-family: var(--font-display);
+    font-size: 1.08rem;
+    line-height: 1.25;
+    text-transform: uppercase;
+  }
+
+  .pml__link--guide {
+    grid-column: span 3;
+    color: #fffaf0;
+    background: var(--color-brand-rust-dark);
+  }
+
+  .pml__link--guide span {
+    color: #eab265;
+  }
+
+  @media (max-width: 760px) {
+    .pml__links {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .pml__link--guide {
+      grid-column: span 2;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .pml {
+      padding-inline: 14px;
+    }
+
+    .pml__links {
+      grid-template-columns: 1fr;
+    }
+
+    .pml__link--guide {
+      grid-column: auto;
+    }
+  }
+</style>

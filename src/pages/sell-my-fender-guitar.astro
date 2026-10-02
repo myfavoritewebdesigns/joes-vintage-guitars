@@ -258,6 +258,15 @@ pageMarkup = pageMarkup.replace(
   '<img class="faq-background" src="/images/faq-bg.webp" width="1920" height="765"',
 );
 
+const fenderOptionsEnd = '</div></div></div></section><section class="models section-pad" id="models">';
+if (!pageMarkup.includes(fenderOptionsEnd)) {
+  throw new Error("The Fender selling-options markup changed; update the Phoenix guide link insertion.");
+}
+pageMarkup = pageMarkup.replace(
+  fenderOptionsEnd,
+  `<div class="smf-local-guides"><h3>Phoenix Area Fender Selling Guides</h3><p>Compare every selling method in the <a href="/where-to-sell-vintage-guitar-phoenix/">Phoenix-area vintage guitar guide</a>, read about <a href="/sell-vintage-guitar-phoenix-az/">selling a vintage Fender in Phoenix</a>, or see the <a href="/sell-vintage-guitar-chandler-az/">Chandler guide featuring a one-owner 1966 Fender Coronado II</a>.</p></div>${fenderOptionsEnd}`,
+);
+
 const pageCss = rawPageCss.replace(/^@import 'tailwindcss';\s*/, "") + `
   :root {
     --font-open-sans: Arial, sans-serif;
@@ -293,6 +302,34 @@ const pageCss = rawPageCss.replace(/^@import 'tailwindcss';\s*/, "") + `
     color: #8b2412;
     font-size: 0.88rem;
     font-weight: 700;
+  }
+
+  .smf-local-guides {
+    margin-top: 28px;
+    padding: 24px 26px;
+    border-left: 4px solid var(--color-brand-rust-bright);
+    background: #fffaf0;
+  }
+
+  .smf-local-guides h3 {
+    margin: 0 0 8px;
+    color: var(--color-brand-rust-dark);
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    text-transform: uppercase;
+  }
+
+  .smf-local-guides p {
+    margin: 0;
+    color: var(--color-brand-brown);
+    line-height: 1.7;
+  }
+
+  .smf-local-guides a {
+    color: var(--color-brand-rust-dark);
+    font-weight: 800;
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 `;
 ---
