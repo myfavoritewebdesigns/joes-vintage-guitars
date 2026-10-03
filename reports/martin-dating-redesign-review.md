@@ -29,3 +29,16 @@ Joe requested a hub-and-spoke rebuild of the Martin serial lookup, using Drive a
 The 1937 logo photograph is labeled as installed on that guitar, not authenticated as its original decal or as the first 1932 unoutlined form. The replacement Grovers on the 1944 000-18 are explicitly identified as later hardware. Interior captions describe only visible brace/plate features and credit the Reverb seller; neither seller year attributions nor photographs authenticate every component. Feature chronologies are model-qualified and linked to supporting references.
 
 The five-page work has not been merged or deployed to the production domain.
+
+## October 3 MFWD And Astro Copy Revision
+
+Joe requested a full rewrite against the MFWD writing rules and the Astro repository rules. This pass uses the current MFWD reference at `05410fa`, including the October 2 teaser-list rule, the assigned JVG voice and the title/heading standard. All five pages were reviewed and rewritten: direct introductions, specific photo captions, contractions, clearer headings and less repeated qualification. No first-person history or unsupported facts were added.
+
+- Retains the annotated neck-block photograph, continuous 128-row regular guitar chart, serial data, lookup logic, photo sources and existing section IDs.
+- Renamed headings are intentional copy improvements authorized by this request. The live-diff comparison with the prior PR preview flags the renamed 2025/2026 heading, the replacement-Grover heading and the shared related-guide and reference headings. Image/section counts and schema types remain unchanged, with zero broken assets.
+- Latest MFWD longform scan: all five rendered prose exports pass, with zero banned wording and five reviewed warnings. Three warnings identify genuine comparison tables; two split the historical maker name C. F. Martin into false sentence fragments. Numeric serial table bodies were excluded from the prose scan. No scanner rules or allowlists were changed.
+- Final production build: 218 pages. Full copy audit: zero hard failures; existing sitewide nonblocking warnings remain. Astro check: zero errors and zero warnings, with 80 existing hints.
+- All 31 resolver cases and all 20 responsive route/width checks pass. Image license verification reports 35 nodes and zero mismatches.
+- Independent prose and visual review found no material factual, caption or layout regressions. Its two minor findings were corrected: Title Case for generated year-range labels and removal of a repeated fret-counting instruction. A follow-up browser check verifies all three result-label forms and the revised fret paragraph.
+
+The same PR remains open for review. This revision does not merge or publish the production site.
