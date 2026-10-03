@@ -1,0 +1,27 @@
+---
+import Layout from './Layout.astro';
+import ContactSection from '../components/ContactSection.astro';
+import '../styles/martin-guides.css';
+import { SITE_URL } from '../config/site';
+interface Props { title: string; description: string; canonical: string; structuredData?: Record<string, unknown>[]; ogImage?: string; ogImageAlt?: string; ogImageWidth?: number; ogImageHeight?: number; }
+const { title, description, canonical, structuredData = [], ...imageProps } = Astro.props;
+const guides = [
+  ['/martin-serial-and-model-numbers/', 'Serial Lookup'],
+  ['/martin-headstock-logo-chronology/', 'Logos'],
+  ['/martin-tuner-dating-guide/', 'Tuners'],
+  ['/martin-neck-block-stamps/', 'Neck-Block Stamps'],
+  ['/martin-physical-features-dating-guide/', 'Construction Features'],
+];
+const breadcrumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+  { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL + '/' },
+  { '@type': 'ListItem', position: 2, name: 'Martin Serial Number Lookup', item: SITE_URL + guides[0][0] },
+  ...(canonical !== guides[0][0] ? [{ '@type': 'ListItem', position: 3, name: title, item: SITE_URL + canonical }] : []),
+] };
+---
+<Layout title={title} description={description} canonical={canonical} {...imageProps} ogType="article" bodyClass="martin-guide-page" structuredData={[breadcrumbs, ...structuredData]}>
+  <Fragment slot="head"><link rel="stylesheet" href="/styles/lite-yt-embed.css" /><script is:inline src="/scripts/lite-yt-embed.js" defer></script></Fragment>
+  <div class="mtn-header-space" aria-hidden="true"></div>
+  <div class="mtn-series"><div class="mtn-wrap"><a href="/martin-serial-and-model-numbers/" class="mtn-series-title">Martin Dating Library</a><nav aria-label="Martin dating guides">{guides.map(([href, label]) => <a href={href} aria-current={href === canonical ? 'page' : undefined}>{label}</a>)}</nav></div></div>
+  <div class="mtn-content"><slot /></div>
+  <ContactSection />
+</Layout>
