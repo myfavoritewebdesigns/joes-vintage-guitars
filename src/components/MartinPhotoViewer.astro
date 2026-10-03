@@ -1,0 +1,19 @@
+<dialog class="mtn-viewer" id="martin-photo-viewer" aria-labelledby="martin-photo-title" aria-describedby="martin-photo-caption">
+  <div class="mtn-viewer-header"><h2 id="martin-photo-title">Martin Detail Photo</h2><form method="dialog"><button autofocus>Close</button></form></div>
+  <img id="martin-photo-large" alt="" /><p id="martin-photo-caption"></p>
+  <a id="martin-photo-full" target="_blank" rel="noopener noreferrer">Open Full-Size Photo</a>
+</dialog>
+<script>
+const viewer = document.querySelector<HTMLDialogElement>('#martin-photo-viewer');
+document.querySelectorAll<HTMLAnchorElement>('[data-martin-photo]').forEach(link => link.addEventListener('click', event => {
+  if (!viewer || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  const img = viewer.querySelector<HTMLImageElement>('#martin-photo-large')!;
+  img.src = link.href; img.alt = link.querySelector('img')?.alt ?? '';
+  viewer.querySelector('#martin-photo-title')!.textContent = link.dataset.title ?? 'Martin Detail Photo';
+  viewer.querySelector('#martin-photo-caption')!.textContent = link.dataset.caption ?? '';
+  viewer.querySelector<HTMLAnchorElement>('#martin-photo-full')!.href = link.href;
+  viewer.showModal();
+}));
+viewer?.addEventListener('click', event => { if (event.target === viewer) { const box = viewer.getBoundingClientRect(); if(event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) viewer.close(); } });
+</script>
