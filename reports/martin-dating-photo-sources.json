@@ -1,33 +1,37 @@
 {
-  "checked": "2026-10-02",
+  "checked": "2026-10-05",
   "photos": [
     {
       "asset": "1944-martin-000-18-10.jpg",
       "source": "https://drive.google.com/file/d/1MfiV2j6Rs88mL6gskHdZNgkrDnWRvUzI/view?usp=drivesdk",
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Google Drive original",
-      "note": "Year and model follow the archive folder; visible parts are described without assuming originality."
+      "note": "Year and model follow the archive folder; visible parts are described without assuming originality.",
+      "status": "Excluded from Martin dating cluster at Joe’s request on October 5, 2026."
     },
     {
       "asset": "1944-martin-000-18-6.jpg",
       "source": "https://drive.google.com/file/d/1T-yKAgM_SKP4Toag0HLQ0NQPUoyiQkRC/view?usp=drivesdk",
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Google Drive original",
-      "note": "Year and model follow the archive folder; visible parts are described without assuming originality."
+      "note": "Year and model follow the archive folder; visible parts are described without assuming originality.",
+      "status": "Excluded from Martin dating cluster at Joe’s request on October 5, 2026."
     },
     {
       "asset": "1944-martin-000-18-3.jpg",
       "source": "https://drive.google.com/file/d/12O7P7C_0xmuS8WwMN8yC-mRDarY2Uyqb/view?usp=drivesdk",
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Google Drive original",
-      "note": "Year and model follow the archive folder; visible parts are described without assuming originality."
+      "note": "Year and model follow the archive folder; visible parts are described without assuming originality.",
+      "status": "Excluded from Martin dating cluster at Joe’s request on October 5, 2026."
     },
     {
       "asset": "1944-martin-000-18-4.jpg",
       "source": "https://drive.google.com/file/d/1eFmJrVtcmybPfd9UYRq7ahoaAqfmpvwE/view?usp=drivesdk",
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Google Drive original",
-      "note": "Year and model follow the archive folder; visible parts are described without assuming originality."
+      "note": "Year and model follow the archive folder; visible parts are described without assuming originality.",
+      "status": "Excluded from Martin dating cluster at Joe’s request on October 5, 2026."
     },
     {
       "asset": "1930-martin-0-21-10.jpg",
@@ -41,14 +45,14 @@
       "source": "https://drive.google.com/file/d/1hi5vfh7Y2Z6_qr2ti17VtAECSBpziIJr/view?usp=drivesdk",
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Google Drive original",
-      "note": "Year and model follow the archive folder; visible parts are described without assuming originality."
+      "note": "Brazilian rosewood back on Joe’s 1930 0-21, explicitly identified by Joe on October 5, 2026. Species is not inferred from grain alone."
     },
     {
       "asset": "1930-martin-0-21-7.jpg",
       "source": "https://drive.google.com/file/d/1ti0LclN-8unUwzCPzLHYuSNFHR9SQhEN/view?usp=drivesdk",
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Google Drive original",
-      "note": "Year and model follow the archive folder; visible parts are described without assuming originality."
+      "note": "Belly bridge with rounded rear extension. Previous rectangular-bridge caption corrected after Joe’s feedback and visual inspection on October 5, 2026."
     },
     {
       "asset": "1930-martin-0-21-3.jpg",
@@ -139,6 +143,34 @@
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Existing local shop photo, reused October 5",
       "note": "Visually inspected. Describes the sunburst pattern only; ornate appointments warrant not repeating the unverified model/year embedded in the legacy filename."
+    },
+    {
+      "asset": "1937-martin-0-17-2.jpg",
+      "source": "https://drive.google.com/file/d/1a4wnV4tgjvdDz1iklUfvNDK111FGoOHa/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original",
+      "note": "Full front clearly shows the 14-fret body joint and solid headstock."
+    },
+    {
+      "asset": "1937-martin-0-17-4.jpg",
+      "source": "https://drive.google.com/file/d/1KyQvgTwiqtHiTPxZmtwrWyJEFQRToiSh/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original",
+      "note": "Close view clearly shows the rectangular bridge perimeter. No claim of bridge or saddle originality."
+    },
+    {
+      "asset": "1937-martin-0-17-6.jpg",
+      "source": "https://drive.google.com/file/d/1-2fUqwC08LXXLS9iUMY38Z_RlVJehLNW/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original",
+      "note": "Close view clearly shows paired and single round fingerboard dots."
+    },
+    {
+      "asset": "1937-martin-0-17-7.jpg",
+      "source": "https://drive.google.com/file/d/1vqz5WKL-xfVebKzXIYCyz1p4LM9FHz0r/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original",
+      "note": "Full back in case shows the mahogany back of the archived 1937 0-17."
     }
   ]
 }

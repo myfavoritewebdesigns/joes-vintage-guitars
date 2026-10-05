@@ -119,3 +119,17 @@ Removed the tuner guide's "Replacement Grovers On A 1944 000-18" section, its ph
 - The tuner live-diff reports one removed heading, section, image and image-creator Person node. All four are the requested deletion. All checked local assets load. The story comparison has no must-fix findings. The hosted preview still served the earlier cluster revision during comparison, so its hub heading difference and unavailable new logo slug reflect the preceding deployment, not this removal.
 
 This intentional content and anchor removal remains in the existing PR; production is unchanged.
+
+## October 5 Bridge, Fingerboard And Tonewood Photo Corrections
+
+Joe identified two incorrect photo descriptions and requested removal of all photographs of his poor-condition 1944 000-18 from the Martin cluster. The prior visual reviews missed the bridge shape and did not adequately verify that the cited dots were visible. This revision checks the original image pixels before assigning captions.
+
+- Replaced the rectangular-bridge example with a close view of Joe's 1937 0-17 from Drive. The 1930 0-21 photograph remains as the belly-bridge comparison, with corrected title, alt text and caption. The bridge discussion explains why shape is not a universal year cutoff; [Corwin's photographed bridge history](https://vintagemartin.com/bridges.html) supports the model-dependent transition around 1930.
+- Replaced the unclear 1944 fingerboard view with the 1937 0-17 close-up, where paired and single dots are plainly visible. Its full-front image also provides a 14-fret body-joint comparison. The model decoder's photo section now identifies Styles 17, 21 and 45 to match the actual photographs.
+- Removed the 1944 guitar from the logo guide, logo card, construction guide and model decoder. The existing 1953 D-18 photo supplies a clear complete pickguard outline. Historical references to the late-1944 bracing transition remain because they do not describe that guitar.
+- Identified the 1930 0-21 back as Brazilian rosewood, as Joe specified, and added his 1937 0-17 mahogany-back photograph beside the Brazilian and Indian rosewood examples. Grain-only identification cautions remain general guidance, without obscuring the named woods on these guitars.
+- Recorded the four Drive originals and corrected identifications in the photo-source manifest. Private Drive links remain absent from rendered pages. Archived 1944 asset files are retained but are no longer used by the cluster.
+
+Validation: 219-page production build, Astro check with zero errors or warnings (88 existing hints), rendered copy gate with zero hard failures (778 existing warnings), and MFWD scan of the three changed guides with zero bans and five reviewed table/initials/count warnings. A search across the complete built HTML finds no 1944 000-18 references or old rectangular-0-21 labels. Live-diff finds no must-fix issues on the prewar guide or hub and no broken assets on any of the four affected pages. The model heading change and the logo photo/schema removal are intentional consequences of Joe's corrections.
+
+Independent review inspected the original pixels and the rendered comparisons at 1920 and 390 pixels, including enlarged views. It confirms the rectangular versus belly outlines, visible paired/single dots, complete guard and back photographs. Its logo finding was corrected: the dark 400-pixel 1967 listing photo is explicitly limited to the script as photographed, with no claim that it resolves the letter borders. The final copy check covers that clarification.
