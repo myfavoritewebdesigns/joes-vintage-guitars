@@ -108,7 +108,7 @@ export const martinFeatureTimeline = [
   ['Around 1930', 'Belly bridges appear; model stamps become routine late in the year.', 'Rectangular bridges and serial-only blocks overlap the transition.'],
   ['Late 1934', 'T-frets replace bar frets on many standard models.', 'Some Hawaiian models retain bar frets; later refrets can change the evidence.'],
   ['Late 1944 To Late 1940s', 'Scalloped bracing gives way to tapered, then straighter profiles.', 'Inspect the interior; altered braces cannot date themselves.'],
-  ['Around 1947', 'Style 28 loses its earlier herringbone top border.', 'Later HD and vintage-style models revive herringbone.'],
+  ['1946 To Early 1947', '1946 is the last full year of the original Style 28 herringbone trim; some early 1947 guitars retain it.', 'Later HD and vintage-style models revive herringbone.'],
   ['Mid-1960s', 'Shorter drop-in saddles become a useful comparison on standard models.', 'A replacement bridge can change the saddle arrangement.'],
   ['1967', 'Black guards become common after tortoise-pattern guards.', 'Model exceptions and replacement guards need separate checking.'],
   ['1969', 'Standard rosewood back-and-side sets change from Brazilian to Indian rosewood.', 'This is not a change for mahogany models or every later special order.'],

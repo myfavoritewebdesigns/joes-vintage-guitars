@@ -1,15 +1,20 @@
 ---
 title: "How To Determine The Value Of Your Old Martin Acoustic Guitar"
+seoTitle: "Vintage Martin Guitar Value Guide"
 pubDate: "2023-02-27T00:22:18"
-modified: "2026-04-01T16:45:13"
+modified: "2026-10-05"
 excerpt: "Want to sell your old Martin acoustic guitar? Learn from experts how to determine its value and get a great price."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/How-To-Determine-The-Value-of-Your-Old-Martin-Acoustic-Guitar.jpg"
 heroImageAlt: "Title card reading How To Determine The Value Of Your Old Martin Acoustic Guitar, set over a darkened close up of a hand fretting an acoustic guitar, with the Joe's Vintage Guitars logo in the top corner."
-metaDescription: "Want to sell your old Martin acoustic guitar? Learn from experts how to determine its value and get a great price."
+metaDescription: "Find the model and year of an old Martin guitar, assess repairs and originality, compare sold examples and request a photo appraisal."
 ogImage: "/images/blog/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/How-To-Determine-The-Value-of-Your-Old-Martin-Acoustic-Guitar.jpg"
+faqs:
+  - {"q":"Can A Martin Serial Number Tell Me The Guitar’s Value?","a":"The serial helps date the guitar within its numbering system. Value also depends on the model, condition, original parts, repairs and ownership history. Identify those before comparing prices.","link":{"href":"/martin-serial-and-model-numbers/","label":"Find Your Martin’s Year"}}
+  - {"q":"Which Prices Should I Compare When Valuing A Martin?","a":"Use recent completed sales of the same model and period, then compare condition, replaced parts and repairs. An asking price isn’t a completed sale, and a celebrity-owned guitar may sell for reasons that don’t apply to yours."}
+  - {"q":"What Photos Does Joe Need For A Martin Appraisal?","a":"Send the full front and back, headstock, model and serial stamps, bridge, and clear views of wear or repairs. Include the case and any receipts or ownership records.","link":{"href":"/free-appraisal/martin/","label":"Send Photos For A Martin Appraisal"}}
 wpId: 3815
 ---
 Table Of Contents

@@ -18,6 +18,7 @@ export function lookupMartin(raw: string, type: MartinInstrument): MartinResult 
   if (!Number.isSafeInteger(n) || n < 1) return { year: null, message: 'Enter a positive serial number. Zero is not a valid Martin serial number.' };
   if (type === 'guitar') {
     if (n >= 900001 && n <= 902908) return { year: '1981 to 1982', message: 'Sigma-Martin exception: these numbers were reserved for Sigma-Martins. They do not date a standard Martin to 2002. Confirm the branding and model.' };
+    if (n === 8000) return { year: null, message: 'Historical summaries often quote 8000 as Martin’s starting point, but the detailed production table used here begins at 8001 in 1898. Ask Martin to verify a stamp reading exactly 8000.' };
     if (n < 8001) return { year: null, message: 'The regular Martin guitar sequence begins at 8001 in 1898. Check whether this is another instrument type, an early guitar, or a partial number.' };
     const row = guitarData.find(r => n >= r.a && n <= r.b);
     return row ? { year: row.y, message: 'This number matches the regular guitar range for that year. Check the separate model stamp, then compare the guitar’s hardware and construction.' } : { year: null, message: 'This number is higher than 3,043,480, Martin’s last serial for 2025. Ask Martin to confirm the year; this lookup doesn’t estimate a 2026 range.' };

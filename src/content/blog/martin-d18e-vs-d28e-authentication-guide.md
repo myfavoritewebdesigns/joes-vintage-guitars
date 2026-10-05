@@ -1,15 +1,20 @@
 ---
 title: "Identifying the Rare “Electric” Martin: A Look at the D-18E and D-28E Specs"
+seoTitle: "Martin D-18E Vs D-28E: Specs & Value"
 pubDate: "2026-02-26T23:51:54"
-modified: "2026-09-21T11:45:00-07:00"
+modified: "2026-10-05"
 excerpt: "A look at the rare “Electric” version of Martin’s most famous dreadnoughts. From the Brazilian Rosewood and gold hardware of the D-28E to the mahogany punch of the D-18E, we go through the specs of these 1950s guitars. Learn the “smoking gun” of ladder bracing, the history of the DeArmond pickups, and how the “Kurt Cobain effect” reshaped the market for them. For collectors, and for anyone looking to appraise and sell a family heirloom, here’s how to tell a factory original from a conversion."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/martin-d18e-vs-d28e-authentication-guide/1959-martin-d-28-e-1-scaled.jpg"
 heroImageAlt: "1959 Martin D-28E vintage acoustic-electric guitar frontal body shot featuring dual DeArmond pickups, Brazilian Rosewood, and gold hardware."
-metaDescription: "A look at the rare “Electric” version of Martin’s most famous dreadnoughts. From the Brazilian Rosewood and gold hardware of the D-28E to the mahogany punch of the D-18E, we go through the specs of these 1950s guitars. Learn the “smoking gun” of ladder bracing, the history of the DeArmond pickups, and how the “Kurt Cobain effect” reshaped the market for them. For collectors, and for anyone looking to appraise and sell a family heirloom, here’s how to tell a factory original from a conversion."
+metaDescription: "Compare Martin D-18E and D-28E woods, pickups, ladder bracing and hardware. Check for conversions and prepare photos for an appraisal."
 ogImage: "/images/blog/martin-d18e-vs-d28e-authentication-guide/1959-martin-d-28-e-1-scaled.jpg"
+faqs:
+  - {"q":"What Is The Difference Between A Martin D-18E And D-28E?","a":"The D-18E has mahogany back and sides. The period D-28E has Brazilian rosewood back and sides, more decorative trim and gold-plated hardware. Both use factory electronics and ladder bracing. Check the full model stamp and the installed parts."}
+  - {"q":"Do Added Pickups Make A Standard D-28 A D-28E?","a":"No. Adding pickups to a standard D-28 doesn’t make it a factory D-28E. Compare the model stamp, bracing, pickup and control mounting, bridge and repair history. A matching pickup set alone won’t establish the model.","link":{"href":"/how-to-spot-a-fake-martin/","label":"Compare Martin Authentication Details"}}
+  - {"q":"How Do I Get A Martin D-18E Or D-28E Appraised?","a":"Send clear photos of the front, back, neck-block stamps, electronics, bridge and interior bracing, along with any repair or ownership records. These factory electric models need their own comparable sales; a standard D-18 or D-28 price table won’t give a reliable estimate.","link":{"href":"/free-appraisal/martin/","label":"Request A Martin Guitar Appraisal"}}
 wpId: 18939
 ---
 A rare factory-original 1959 Martin D-28E. Note the distinctive dual DeArmond pickups and the iconic gold-plated hardware that set this Brazilian Rosewood guitar apart.

@@ -42,3 +42,35 @@ Joe requested a full rewrite against the MFWD writing rules and the Astro reposi
 - Independent prose and visual review found no material factual, caption or layout regressions. Its two minor findings were corrected: Title Case for generated year-range labels and removal of a repeated fret-counting instruction. A follow-up browser check verifies all three result-label forms and the revised fret paragraph.
 
 The same PR remains open for review. This revision does not merge or publish the production site.
+
+## October 5 Audit Reconciliation
+
+The supplied audit describes the older production cluster. PR 218 already contains the revised hub and four feature spokes, and its branch is current with `origin/main`. The October 5 work addresses the remaining confirmed issues on that branch.
+
+| Audit Item | Current Disposition |
+| --- | --- |
+| Low serials incorrectly return 1898 | Already rejected. Retain 8001 as the first tabulated serial, supported by [Corwin's detailed production table](https://vintagemartin.com/numbers.html). His [stamp history](https://www.vintagemartin.com/stamps.html) describes the historical 8000 starting estimate. Add an explicit 8000 verification message and visible explanation rather than assigning it a certain date. |
+| Missing 2025 numbers, Backpacker sequence and mandolin gap handling | Already implemented. Rechecked the published endpoints against [Martin's official tables](https://www.martinguitar.com/support-serial-number-lookup.html). The obsolete projection remains removed; current data is presented as actual, with no projected 2026 endpoint. |
+| Contradictory prewar answer and Style 41 dated 1968 | Neither erroneous statement survives in the rewritten hub. The prewar answer distinguishes collector usage from an exact calendar cutoff. |
+| Herringbone 1946 versus 1947 | Clarify both the construction spoke and value guide: 1946 was the last full year, with original trim continuing on some early 1947 guitars. Cite the manufacturer history, [The Martin Story, pages 11 and 12](https://www.martin-gitarren.de/files/downloads/martinstory.pdf). |
+| Hub authorship and dates | Byline and modification date already present. Restore the original publication timestamp, `2026-03-12T20:17:34+00:00`, from the immutable WordPress snapshot. Update the visible modification date and add the October 5 table verification date. |
+| Four long blog titles/descriptions | Add opt-in `seoTitle` without shortening their existing H1s or changing other posts. Final rendered titles are 57 to 60 characters, including the brand suffix; descriptions are 129 to 134 characters. |
+| Three missing FAQPage nodes | Add visible FAQs and matching structured data from one frontmatter source. Preserve six 000-45 question topics and its existing `h2#faq`, while tightening unsupported universal wording. The other two posts each gain three practical answers. |
+| Missing appraisal paths | The fake-Martin guide and all four cited blog posts already contain appraisal links. Preserve them. New FAQ links lead directly to the Martin appraisal page. |
+| Missing authentication links | Add fake-Martin guide links to the dreadnought value guide and the 1976 000-45 post. |
+| Image alt text and table captions | The hub already had photo-specific OG text and seven serial table captions. Make the alt text identify the annotated D-28/216614 photo, and add the missing caption to the eighth, feature-comparison table. |
+| Separate mandolin and ukulele spokes | Remains a separate editorial proposal. The requested logo, tuner, neck-block and construction spokes and the complete hub charts remain intact. No URL migration is introduced. |
+
+The audit's claim about FAQ rich-result eligibility is outdated. [Google's current changelog](https://developers.google.com/search/updates#may-2026) says the feature stopped appearing on May 7, 2026. The new FAQs are useful visible content with consistent semantic markup, not a promised rich-result or ranking gain. Title character counts are editorial targets, not fixed Google display limits.
+
+This is a bounded implementation of the supplied findings, not a fresh technical SEO audit or traffic diagnosis. The canonical broader audit methodology was unavailable locally and its attempted repository read returned 404. No substitute methodology, Search Console results or migration-causality claims were invented.
+
+### October 5 Verification
+
+- Final production build: 218 pages. Astro check: zero errors and zero warnings, with 88 hints. Full rendered copy gate: zero hard failures; existing sitewide warnings remain.
+- The new blog metadata and FAQs pass the current MFWD longform scanner with zero banned phrases and zero warnings. The hub and four feature spokes pass with zero bans and the same five reviewed table/initials warnings. Current MFWD reference is `2df93fb`; the changes since the prior pass concern form copy only.
+- Targeted checks pass: 15 serial boundary/year-end cases and 32 responsive checks across eight routes at 1920, 1280, 768 and 390 pixels. They also verify visible FAQ/schema equality, unique FAQ anchors, four rendered title/description limits, original hub publication time, annotated photo, continuous chart and unchanged unrelated blog sources.
+- All seven final live-diff comparisons show zero must-fix items and zero broken assets. Added FAQ headings/sections/schema, shorter metadata and the extra related-guide link are intentional responses to this audit; existing Reverb icon dimension warnings remain.
+- Independent review finds no material implementation, changed-copy, factual or new visual regressions. It verifies seven routes at desktop/mobile widths, all prior IDs and H1s, lookup interaction, photo viewer/Escape, 128 consecutive chart years, and working authentication/appraisal destinations.
+
+The existing PR remains the review destination. Production has not been merged or deployed by this work.
