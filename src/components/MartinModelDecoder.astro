@@ -1,0 +1,27 @@
+---
+import { martinBodies, martinStyles } from '../data/martin-models';
+---
+<section class="mtn-section" id="model-decoder"><div class="mtn-wrap mtn-split">
+  <div><h2>Decode Your Martin Model Stamp</h2><p>Read the model above the serial number on the neck block. In <strong>000-18</strong>, 000 is the body size and 18 is the style. The serial on the next line gives the production year.</p><p>This tool explains common codes. It doesn’t confirm that Martin built every possible body and style combination, identify a guitar from its serial, or verify an instrument’s maker.</p><p>For the production year, use the <a href="/martin-serial-and-model-numbers/#decoder">Martin serial number lookup</a>.</p></div>
+  <form id="martin-model-form" class="mtn-tool" novalidate><label for="martin-model-input">Model Stamp</label><input id="martin-model-input" type="text" maxlength="60" autocomplete="off" placeholder="For example, 000-21" aria-describedby="martin-model-help" /><small id="martin-model-help">Enter the model letters and numbers. Keep any suffix when checking factory records.</small><button type="submit" class="mtn-button">Explain Model</button><div id="martin-model-result" class="mtn-result" role="status" aria-live="polite" aria-atomic="true"></div><noscript><p>Use the body-size and style tables below to read your model stamp.</p></noscript></form>
+</div></section>
+<section class="mtn-section mtn-section--tint" id="body-sizes"><div class="mtn-wrap"><h2>Martin Body Sizes Explained</h2><p>Body size comes first in a traditional model name. Measure the body and count the frets clear of it if the stamp is missing. OM is a letter code; 0, 00 and 000 use zeros.</p><div class="mtn-table-scroll"><table><caption class="sr-only">Common Martin Body-Size Codes</caption><thead><tr><th scope="col">Code</th><th scope="col">Body Family</th><th scope="col">What To Compare</th></tr></thead><tbody>{martinBodies.map(body=><tr><th scope="row">{body.code}</th><td>{body.name}</td><td>{body.detail}</td></tr>)}</tbody></table></div><p>For size comparisons, see the <a href="/post/martin-0-00-000-history-authentication-value-guide/">0, 00 and 000 guide</a> and Joe’s <a href="/post/what-guitar-did-dolly-parton-play/">photographed 1950 Martin 5-18</a>. Martin’s <a href="https://www.martinguitar.com/blog-categories/from-the-factory/blog-082726-what-is-a-terz-guitar-how-to-tune-the-martin-5-28-terz.html">Size 5 history</a> and this <a href="https://reverb.com/item/12254242-vintage-martin-7-28-1980-small-dreadnought-7-8-size">dated 7-28 listing</a> cover the two smaller numbered bodies.</p></div></section>
+<section class="mtn-section" id="style-numbers"><div class="mtn-wrap"><h2>Martin Style Numbers And Trim</h2><p>The style describes a family of woods and appointments. It is not a quality score or a year. Use these comparisons with the guitar’s date and full model name; special orders and later series can depart from older specifications.</p><div class="mtn-table-scroll"><table><caption class="sr-only">Martin Style Numbers From 15 Through 45</caption><thead><tr><th scope="col">Style</th><th scope="col">Typical Appointments</th><th scope="col">Photo Check</th></tr></thead><tbody>{martinStyles.map(style=><tr><th scope="row">{style.code}</th><td>{style.detail}</td><td>{style.compare}</td></tr>)}</tbody></table></div><p>Compare <a href="https://www.vintagemartin.com/styles15_17_18.html">Corwin’s photographed Styles 15, 17 and 18</a>, his <a href="https://vintagemartin.com/style45.html">Style 45 examples</a>, and Martin’s specifications for the <a href="https://www.martinguitar.com/series-16.html/">16 Series</a>, <a href="https://www.martinguitar.com/guitars/standard-series/D-35.html">D-35</a> and <a href="https://www.martinguitar.com/guitars/standard-series/J-40.html">J-40</a>.</p></div></section>
+<script>
+  import { decodeMartinModel } from '../data/martin-models';
+  const form = document.querySelector<HTMLFormElement>('#martin-model-form');
+  const input = document.querySelector<HTMLInputElement>('#martin-model-input');
+  const result = document.querySelector<HTMLElement>('#martin-model-result');
+  form?.addEventListener('submit', event => {
+    event.preventDefault();
+    if (!input || !result) return;
+    const decoded = decodeMartinModel(input.value);
+    result.replaceChildren();
+    if ('error' in decoded) { result.textContent = decoded.error ?? ''; return; }
+    const heading = document.createElement('h3');
+    heading.textContent = `Reading ${decoded.model}`;
+    result.append(heading);
+    const notes = [`${decoded.body.code}: ${decoded.body.name}. ${decoded.body.detail}`, `${decoded.style.code}: ${decoded.style.detail}`, ...(decoded.herringbone ? ['H indicates herringbone on familiar HD models. Check the complete model’s specifications.'] : []), 'This explains the code, not factory availability or the production year. Compare the stamp with the guitar and its records.'];
+    notes.forEach(text => { const p = document.createElement('p'); p.textContent = text; result.append(p); });
+  });
+</script>

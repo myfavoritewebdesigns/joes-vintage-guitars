@@ -1,15 +1,26 @@
 ---
 import LicensedImage from './primitives/LicensedImage.astro';
 import type { ImageMetadata } from 'astro';
-import { Image } from 'astro:assets';
+import { getImage } from 'astro:assets';
+import { SITE_URL } from '../config/site';
 interface Props { src: ImageMetadata; title: string; alt: string; caption: string; source?: string; sourceLabel?: string; thirdParty?: boolean; }
 const { src, title, alt, caption, source, sourceLabel = 'Photo source', thirdParty = false } = Astro.props;
 const privateArchive = source?.startsWith('https://drive.google.com/');
+// A third-party photo has descriptive metadata, without Joe's license grant.
+// One transform supplies both its rendered src and its schema contentUrl.
+const thirdPartyImage = thirdParty ? await getImage({ src, width: Math.min(1000, src.width), layout: 'constrained' }) : undefined;
+const thirdPartySchema = thirdPartyImage ? {
+  '@context': 'https://schema.org', '@type': 'ImageObject',
+  contentUrl: SITE_URL + thirdPartyImage.src, caption, name: title,
+  width: thirdPartyImage.attributes.width, height: thirdPartyImage.attributes.height,
+  ...(source ? { isBasedOn: source } : {}),
+} : undefined;
 ---
 <figure class="mtn-photo">
   <a href={src.src} data-martin-photo data-title={title} data-caption={caption} aria-label={`Enlarge photo: ${title}`}>
-    {thirdParty ? <Image src={src} alt={alt} width={Math.min(1000, src.width)} loading="lazy" /> : <LicensedImage src={src} alt={alt} width={Math.min(1000, src.width)} loading="lazy" />}
+    {thirdPartyImage ? <img {...thirdPartyImage.attributes} src={thirdPartyImage.src} srcset={thirdPartyImage.srcSet.attribute} alt={alt} loading="lazy" /> : <LicensedImage src={src} alt={alt} caption={caption} width={Math.min(1000, src.width)} loading="lazy" />}
     <span class="mtn-zoom" aria-hidden="true">Enlarge Photo</span>
   </a>
   <figcaption><strong>{title}</strong><p>{caption}</p>{source && (privateArchive ? <small>{sourceLabel}</small> : <a href={source} target="_blank" rel="noopener noreferrer">{sourceLabel}</a>)}</figcaption>
 </figure>
+{thirdPartySchema && <script is:inline type="application/ld+json" set:html={JSON.stringify(thirdPartySchema)} />}

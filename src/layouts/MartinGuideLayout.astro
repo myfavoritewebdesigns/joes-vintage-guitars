@@ -7,10 +7,11 @@ interface Props { title: string; description: string; canonical: string; structu
 const { title, description, canonical, structuredData = [], ...imageProps } = Astro.props;
 const guides = [
   ['/martin-serial-and-model-numbers/', 'Serial Lookup'],
-  ['/martin-headstock-logo-chronology/', 'Logos'],
+  ['/martin-headstock-logo-dating-guide/', 'Logos'],
   ['/martin-tuner-dating-guide/', 'Tuners'],
   ['/martin-neck-block-stamps/', 'Neck-Block Stamps'],
-  ['/martin-physical-features-dating-guide/', 'Construction Features'],
+  ['/martin-guitar-dating-guide/', 'Prewar And Construction'],
+  ['/martin-guitar-model-numbers/', 'Model Numbers'],
 ];
 const breadcrumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
   { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL + '/' },

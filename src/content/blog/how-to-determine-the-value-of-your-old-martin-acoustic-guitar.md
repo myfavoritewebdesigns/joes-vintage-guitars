@@ -65,13 +65,13 @@ Additionally, most of these guitars are produced in the US, which impacts their 
 
 <h3 id="how-to-recognize-pre-war-martin-guitars">How To Recognize Pre-War Martin Guitars</h3>
 
-A few build details set the most desirable pre-war Martins apart. Look for forward-shifted scalloped X-bracing, herringbone purfling around the top edge, and an Adirondack (red spruce) top. Here "pre-war" means built before 1944, when Martin moved away from these features. Guitars with these tells tend to command the highest prices.
+Start with the model and exact year, then compare the [prewar construction features](/martin-guitar-dating-guide/#prewar-martin). Dreadnought X-bracing moved rearward in 1938, while scalloped profiles continued until late 1944. Herringbone belongs to certain styles and also appears on later models. These features changed at different times, so one shared label cannot describe every guitar.
 
 This is just an example of some things to remember when determining the value of an old Martin acoustic guitar.
 
 Be careful with the headline numbers you see quoted, because they usually describe one model rather than "a pre-war Martin." The pre-war D-45 is the most collected flat-top acoustic there is and trades in the range of roughly $450,000 to $675,000. Most other pre-war Martins sit a long way below that: a pre-war D-28 or 000-18 is a five-figure guitar, not a six-figure one, and the spread between models in the same year is enormous. Individual celebrity instruments are their own market again, and they tell you nothing about what a comparable guitar without the provenance is worth.
 
-To find the model and serial number, look through the soundhole at the neck block. Both are stamped into the wood, with the model number sitting just above the serial. If you cannot find them there, the guitar may not be a Martin at all, and it is worth having someone check before you go any further.
+To find the model and serial number, look through the soundhole at the neck block. On many guitars from late 1930 onward, the model sits above the serial. Earlier guitars may have a serial alone. Compare the [neck-block stamp photographs](/martin-neck-block-stamps/) before drawing a conclusion from a missing model line.
 
 If you need help with your serial number, don’t worry, you can ask the experts. A vintage guitar expert is the best person to tell you what you have. If the stamp begins with 0, 00, or 000, use the [vintage Martin 0, 00, and 000 guide](/post/martin-0-00-000-history-authentication-value-guide/) to compare its body size, style, bracing era, woods, and hardware. If you're looking to **[sell your Martin guitar](/sell-my-martin-guitar/)**, we make the process simple and straightforward.
 

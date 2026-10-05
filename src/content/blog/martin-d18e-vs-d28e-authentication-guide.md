@@ -108,6 +108,9 @@ The intricate “checkerboard” backstrip is a signature aesthetic of the D-28E
 
 ## Authentication Checklist
 
+Read the complete E designation in the [neck-block stamp guide](/martin-neck-block-stamps/), and compare [tuner housings and replacement footprints](/martin-tuner-dating-guide/). The [model-number decoder](/martin-guitar-model-numbers/#suffixes-and-special-models) explains why the suffix needs to stay with the model name.
+
+
 1.  **Check the Bracing:** Look for ladder bracing through the soundhole.
     
 2.  **Inspect the Bridge:** Look for the two pearl dots indicating the bridge is screwed down.

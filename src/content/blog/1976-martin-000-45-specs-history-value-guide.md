@@ -306,6 +306,9 @@ For more examples of misleading stamps and construction, see the [Martin authent
 
 <h2 id="selling">If You Have One</h2>
 
+This guitar’s photographs also illustrate the <a href="/martin-headstock-logo-dating-guide/#vertical-pearl">vertical pearl logo</a>, <a href="/martin-tuner-dating-guide/#covered-tuners">gold Grover tuners</a> and <a href="/martin-guitar-dating-guide/#trim-and-inlays">Style 45 trim</a> in our Martin photo guides. The <a href="/martin-guitar-model-numbers/">model-number decoder</a> explains how 000 and 45 identify the body and style.
+
+
 Rare pearl-trimmed Martins are exactly the kind of guitar that gets undersold, because the people who inherit them usually have no idea that the difference between the 28 and the 45 on the neck block stamp is worth five figures. If a 000-45 has come to you, find out what it is before you list it anywhere.
 
 We buy vintage Martins outright and we look at them properly, which on a model like this means reading the neck block, checking the pearl all the way around, and being straight with you about what any repair history does to the number. Send photos through our [free guitar appraisal](/free-appraisal/) page, or go directly to our [sell my Martin guitar](/sell-my-martin-guitar/) page for a cash offer. If you would rather hold out for the top of the market, we also handle [consignment](/consignment/), which usually makes sense on instruments this thin on the ground.

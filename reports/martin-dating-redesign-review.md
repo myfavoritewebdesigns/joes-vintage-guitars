@@ -74,3 +74,38 @@ This is a bounded implementation of the supplied findings, not a fresh technical
 - Independent review finds no material implementation, changed-copy, factual or new visual regressions. It verifies seven routes at desktop/mobile widths, all prior IDs and H1s, lookup interaction, photo viewer/Escape, 128 consecutive chart years, and working authentication/appraisal destinations.
 
 The existing PR remains the review destination. Production has not been merged or deployed by this work.
+
+## October 5 Cluster Expansion And Inbound Links
+
+The second supplied audit requests stronger connections to the photo guides, a prewar focus, model identification, schema images and preview indexing verification. The library now consists of the serial hub and five spokes.
+
+- Renamed the unpublished logo route to `/martin-headstock-logo-dating-guide/` and construction route to `/martin-guitar-dating-guide/`. Updated internal links, canonicals, breadcrumbs and sitemap entries. Exact 301 rules preserve the two earlier preview URLs. The requested construction H1 and hub H2 now target dating a Martin guitar; all existing anchor IDs remain.
+- Added contextual inbound links from all nine named Martin posts, the selling page, dreadnought value guide, counterfeit guide and HTML sitemap. Both source-photo posts link to their comparisons. Each spoke also links back to the counterfeit guide. The four non-blog referring pages link to all five spokes.
+- Added `/martin-guitar-model-numbers/` with an interactive basic-code decoder, body sizes 0/00/000/OM/D/5/7, styles 15/16/17/18/21/28/35/40/41/42/45, and dated stamp/trim photos. Results explain a code without asserting that every combination was manufactured. Numeric serials, CUSTOM, unsupported suffixes and nonstandard names receive an explicit limitation message instead of a guessed model.
+- Led the construction guide with prewar identification, then distinguished the 1938 dreadnought brace shift from the 1939 nut-width change. Added reinforcement history, finish/sunburst, endpin and case/paperwork guidance. Hidden ebony bars, T-bars and square tubes are expressly not identified from exterior photos. The existing interior photographs do not show the X crossing and are labeled accordingly.
+- Expanded the guide-specific FAQs to five logo, five tuner, six neck-block, seven construction and five model questions. Visible answers and FAQ markup share the same data. The original hub retains seven questions, the annotated D-28/216614 photograph and the continuous 128-row chart.
+- Added an image to Article schema on all six cluster pages, with asset URL, dimensions and caption. All figure images carry their visible captions into ImageObject metadata. Third-party Reverb interiors receive descriptive metadata without Joe's license grant. No ranking or AI Overview citation outcome is promised.
+- Matched both hub source-check dates to October 5. Corrected two contradictory statements encountered in referring articles: the D-18 bridge-plate change is maple to rosewood in 1968, and the value article no longer assigns every prewar Martin the same forward bracing or treats a missing model stamp as proof of a fake.
+
+### Preview Indexing Evidence
+
+HTTP checks on October 5 confirmed `X-Robots-Tag: noindex` on the actual branch preview and no such header on the production hub. [Cloudflare documents this automatic header on preview deployments](https://developers.cloudflare.com/pages/configuration/preview-deployments/). The permissive robots.txt and index meta do not remove the HTTP noindex restriction. No production robots, global Layout default or middleware change was necessary. Production canonicals remain intentional on preview pages.
+
+### Historical Sources And Limits
+
+- [The Martin Story, printed page 12](https://www.martin-gitarren.de/files/downloads/martinstory.pdf): late-1934 T-bar, wartime ebony, postwar return to steel, 1967 square tube and 1985 adjustable rod. [Martin's FAQ](https://www.martinguitar.com/faqs.html) supplies soundhole access and the 2006 two-way rod. [Corwin's neck study](https://vintagemartin.com/necks.html) independently describes the 1939 nut-width change.
+- [Vintage Guitars Info](https://www.guitarhq.com/martin.html) includes dated 1938 rear-braced and 1939 wide-neck instrument examples. The copy restricts the brace transition to dreadnoughts rather than assigning every body size one changeover date.
+- [Martin's original D-45 history](https://www.martinguitar.com/blog-categories/from-the-factory/blog-072325-the-holy-grail-of-martin-guitars-a-closer-look-at-the-pre-war-d-45.html), [Size 5 history](https://www.martinguitar.com/blog-categories/from-the-factory/blog-082726-what-is-a-terz-guitar-how-to-tune-the-martin-5-28-terz.html), current model specification pages, Corwin's photographed style studies and Joe's existing guitar records support the model comparisons. Current series descriptions are not applied universally to older instruments.
+- Case and sunburst photos are reused from Joe's existing local archive. The ornate sunburst guitar is described visually without repeating an unverified model/year embedded in its old filename. No invented endpin or X-brace photo, synthetic historical photograph, or unseen reinforcement claim was added.
+- Traffic figures are the user's supplied GSC summary. They justify the requested editorial priorities but do not establish the cause of low CTR, prove AI Overview effects or forecast traffic. This work remains an implementation of supplied findings, not a substitute full SEO audit.
+
+### Expansion Verification
+
+- Final production build: 219 pages. Astro check: zero errors and zero warnings, 88 existing hints. Full rendered copy gate: zero hard failures; 778 existing sitewide warnings.
+- Six-page MFWD longform scan: zero bans. Eight reviewed warnings concern requested comparison tables, C. F. initials and Style 45 being mistaken for an item count. No scanner rules or allowlists were changed.
+- Browser checks pass on all 19 affected pages at 1920, 1280, 768 and 390 pixels: 76 route/width combinations, loaded images, one H1, no document overflow or runtime errors, working lookup and photo viewer. The new decoder is exercised with valid model input and a serial number at each width.
+- Targeted checks cover 17 model-decoder inputs and 14 serial boundaries/endpoints, Article asset existence, figure/schema caption equality, third-party license exclusions, FAQ parity, all 13 inbound pages, internal targets/fragments, original hub publication time, annotated photo and continuous chart.
+- Live-diff runs cover 18 comparable pages. All 13 existing referring routes plus the tuner and stamp spokes show zero must-fix findings. The remaining findings are exactly the user-requested heading and canonical changes on the hub, logo and construction pages; they are retained intentionally. The new model page has no production baseline. All runs show zero broken assets. Existing shared Reverb-icon dimension notices remain.
+- Independent review found no remaining material issue after fixing one reused photo caption. It checked 18 route/viewport combinations, decoder behavior, navigation clickability, preserved IDs, image assets, schema and Drive privacy. Evidence is retained outside the repository in the task workspace.
+
+These are intentional additions and URL changes authorized by the second audit request. They remain in PR 218 for review.

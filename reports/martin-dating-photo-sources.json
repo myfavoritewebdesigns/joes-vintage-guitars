@@ -125,6 +125,20 @@
       "sourceType": "Third-party Reverb listing",
       "galleryImage": 9,
       "note": "400px derivative; plate and string attachments visible, insufficient tapered-bracing comparison. Seller reports repair/refinishing. No Joe licensing emitted."
+    },
+    {
+      "asset": "images/blog/one-owner-1956-martin-000-21/1956-martin-000-21-case.jpg",
+      "source": "/post/one-owner-1956-martin-000-21/",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article photo, reused October 5",
+      "note": "Accompanying case; no claim that its appearance proves its maker, date or original sale with the guitar."
+    },
+    {
+      "asset": "images/martin-serial/2003-martin-d-35-sunburst-683x1024.jpg",
+      "source": "reference/martin-serial-raw.html",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local shop photo, reused October 5",
+      "note": "Visually inspected. Describes the sunburst pattern only; ornate appointments warrant not repeating the unverified model/year embedded in the legacy filename."
     }
   ]
 }
