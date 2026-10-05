@@ -109,3 +109,13 @@ HTTP checks on October 5 confirmed `X-Robots-Tag: noindex` on the actual branch 
 - Independent review found no remaining material issue after fixing one reused photo caption. It checked 18 route/viewport combinations, decoder behavior, navigation clickability, preserved IDs, image assets, schema and Drive privacy. Evidence is retained outside the repository in the task workspace.
 
 These are intentional additions and URL changes authorized by the second audit request. They remain in PR 218 for review.
+
+## October 5 Requested Replacement Grovers Removal
+
+Removed the tuner guide's "Replacement Grovers On A 1944 000-18" section, its photograph and generated contents entry at the user's explicit request. Updated the guide card, FAQ and logo caption to remove references to that example, and redirected the 1955 D-28 story's section link to the existing open-gear comparison. The archived image file is retained.
+
+- Production build: 219 pages. Astro check: zero errors and warnings, with 88 existing hints. Rendered copy gate: zero hard failures and 778 existing warnings. The three affected guide pages pass the MFWD scan with zero bans and three reviewed table/initials warnings.
+- Independent desktop and mobile review found no issues with the remaining timeline, seven photos, four contents links or updated story link.
+- The tuner live-diff reports one removed heading, section, image and image-creator Person node. All four are the requested deletion. All checked local assets load. The story comparison has no must-fix findings. The hosted preview still served the earlier cluster revision during comparison, so its hub heading difference and unavailable new logo slug reflect the preceding deployment, not this removal.
+
+This intentional content and anchor removal remains in the existing PR; production is unchanged.
