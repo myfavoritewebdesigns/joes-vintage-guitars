@@ -1,0 +1,21 @@
+---
+import MartinPhoto from './MartinPhoto.astro';
+import { martinImage, type MartinPhotoData } from '../data/martin-guides';
+
+interface Props { photos: MartinPhotoData[]; }
+const { photos } = Astro.props;
+// Joe requested matching photo sizes without side panels on October 6.
+// Weight each comparison column by its original photo ratio so adjacent
+// images have the same height without cropping the identifying details.
+const rows = Array.from({ length: Math.ceil(photos.length / 2) }, (_, index) => {
+  const items = photos.slice(index * 2, index * 2 + 2).map(photo => ({ photo, src: martinImage(photo.file) }));
+  const height = Math.min(470, ...items.map(item => item.src.height));
+  const ratios = items.map(item => item.src.width / item.src.height);
+  return { items, columns: ratios.map(ratio => `${ratio}fr`).join(' '), width: ratios.reduce((sum, ratio) => sum + ratio * height, 0) + 24 * (items.length - 1) };
+});
+---
+<div class="mtn-photo-grid">
+  {rows.map(row => <div class="mtn-photo-row" style={`--mtn-photo-columns:${row.columns};--mtn-gallery-width:${row.width}px`}>
+    {row.items.map(({ photo, src }) => <MartinPhoto src={src} {...photo} />)}
+  </div>)}
+</div>

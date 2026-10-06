@@ -6,6 +6,7 @@ import { SITE_URL } from '../config/site';
 interface Props { src: ImageMetadata; title: string; alt: string; caption: string; source?: string; sourceLabel?: string; thirdParty?: boolean; }
 const { src, title, alt, caption, source, sourceLabel = 'Photo source', thirdParty = false } = Astro.props;
 const privateArchive = source?.startsWith('https://drive.google.com/');
+const photoWidth = Math.min(src.width, 470 * src.width / src.height);
 // A third-party photo has descriptive metadata, without Joe's license grant.
 // One transform supplies both its rendered src and its schema contentUrl.
 const thirdPartyImage = thirdParty ? await getImage({ src, width: Math.min(1000, src.width), layout: 'constrained' }) : undefined;
@@ -16,7 +17,7 @@ const thirdPartySchema = thirdPartyImage ? {
   ...(source ? { isBasedOn: source } : {}),
 } : undefined;
 ---
-<figure class="mtn-photo">
+<figure class="mtn-photo" style={`--mtn-photo-width:${photoWidth}px`}>
   <a href={src.src} data-martin-photo data-title={title} data-caption={caption} aria-label={`Enlarge photo: ${title}`}>
     {thirdPartyImage ? <img {...thirdPartyImage.attributes} src={thirdPartyImage.src} srcset={thirdPartyImage.srcSet.attribute} alt={alt} loading="lazy" /> : <LicensedImage src={src} alt={alt} caption={caption} width={Math.min(1000, src.width)} loading="lazy" />}
     <span class="mtn-zoom" aria-hidden="true">Enlarge Photo</span>

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-05",
+  "checked": "2026-10-06",
   "photos": [
     {
       "asset": "1944-martin-000-18-10.jpg",
@@ -171,6 +171,20 @@
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Google Drive original",
       "note": "Full back in case shows the mahogany back of the archived 1937 0-17."
+    },
+    {
+      "asset": "1937-martin-0-17-1.jpg",
+      "source": "https://drive.google.com/file/d/1e1W1U5wrkXJMTd10SGxO66ZYVUMJ_2mM/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original",
+      "note": "Inspected 6240 by 4160 landscape body photograph. Replaces the portrait prewar hub card without cropping; shows body, bridge and pickguard in its case."
+    },
+    {
+      "asset": "1937-martin-0-17-9.jpg",
+      "source": "https://drive.google.com/file/d/1BYw-nQtLonPUzUC22gmCnlHoVUvdz1vG/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original",
+      "note": "Inspected 6240 by 4160 landscape rear-headstock close-up. All six exposed gears, plates and buttons remain visible on the tuner hub card; no claim that the tuners are original."
     }
   ]
 }
