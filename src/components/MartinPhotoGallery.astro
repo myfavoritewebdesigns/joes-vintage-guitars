@@ -9,8 +9,8 @@ const { photos } = Astro.props;
 // images have the same height without cropping the identifying details.
 const rows = Array.from({ length: Math.ceil(photos.length / 2) }, (_, index) => {
   const items = photos.slice(index * 2, index * 2 + 2).map(photo => ({ photo, src: martinImage(photo.file) }));
-  const height = Math.min(470, ...items.map(item => item.src.height));
-  const ratios = items.map(item => item.src.width / item.src.height);
+  const height = Math.min(470, ...items.map(({ photo, src }) => photo.rotate ? src.width : src.height));
+  const ratios = items.map(({ photo, src }) => photo.rotate ? src.height / src.width : src.width / src.height);
   return { items, columns: ratios.map(ratio => `${ratio}fr`).join(' '), width: ratios.reduce((sum, ratio) => sum + ratio * height, 0) + 24 * (items.length - 1) };
 });
 ---

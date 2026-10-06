@@ -128,7 +128,8 @@
       "owner": "SS via Reverb",
       "sourceType": "Third-party Reverb listing",
       "galleryImage": 9,
-      "note": "400px derivative; plate and string attachments visible, insufficient tapered-bracing comparison. Seller reports repair/refinishing. No Joe licensing emitted."
+      "note": "400px derivative; plate and string attachments visible, insufficient tapered-bracing comparison. Seller reports repair/refinishing. No Joe licensing emitted.",
+      "status": "Replaced in the prewar guide by Joe’s supplied 1936 plate photographs on October 6, 2026. Archived source retained."
     },
     {
       "asset": "images/blog/one-owner-1956-martin-000-21/1956-martin-000-21-case.jpg",
@@ -185,6 +186,60 @@
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Google Drive original",
       "note": "Inspected 6240 by 4160 landscape rear-headstock close-up. All six exposed gears, plates and buttons remain visible on the tuner hub card; no claim that the tuners are original."
+    },
+    {
+      "asset": "1914-martin-0-18-bracing.jpg",
+      "source": "1914-martin-0-18-bracing.JPEG",
+      "owner": "Photographer not yet confirmed",
+      "sourceType": "User-provided Downloads original, October 6, 2026",
+      "sha256": "6f19386902eb3d4ee522e0b95be0348913e1e173453d5739cc07c40a0901a10a",
+      "note": "Full X crossing, bridge plate and six pins visible.",
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
+    },
+    {
+      "asset": "1914-martin-0-18-neck-block.jpg",
+      "source": "1914-martin-0-18-neck-block.JPEG",
+      "owner": "Photographer not yet confirmed",
+      "sourceType": "User-provided Downloads original, October 6, 2026",
+      "sha256": "716e84d3a8833ed3db788603120f3b17480c5b477cd6a5ac3e0c98ba51bf7e52",
+      "note": "Maker and Nazareth stamp above serial 11825, with no model stamp. Official Martin table independently confirms 1914.",
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
+    },
+    {
+      "asset": "1936-martin-00-21-bridge-plate-and-bracing.jpg",
+      "source": "1936-martin-00-21-bridge-plate-and-bracing.JPEG",
+      "owner": "Photographer not yet confirmed",
+      "sourceType": "User-provided Downloads original, October 6, 2026",
+      "sha256": "24b2287b894ce9c7c824ae62c28176c004bf89ddda09ed54177f7c1a63b203e9",
+      "note": "Full X crossing and installed plate. Duplicate original 1936-00-21-bridge-plate-bracing.JPEG has the same SHA256 and is represented by this asset.",
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
+    },
+    {
+      "asset": "1936-martin-00-21-bridge-plate.jpg",
+      "source": "1936-martin-00-21-bridge-plate.JPEG",
+      "owner": "Photographer not yet confirmed",
+      "sourceType": "User-provided Downloads original, October 6, 2026",
+      "sha256": "ed80dc52c69eccce06ed3f39710b5add55e2a88c4ddaf1d377b81d55e205f870",
+      "note": "Second view of the plate. Original unchanged; CSS rotates 90 degrees counterclockwise in gallery and lightbox.",
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
+    },
+    {
+      "asset": "1954-martin-00-17-bracing.jpg",
+      "source": "1954-martin-00-17.JPEG",
+      "owner": "Photographer not yet confirmed",
+      "sourceType": "User-provided Downloads original, October 6, 2026",
+      "sha256": "e40865d8d4ce0f465a285fe364640b55e58d29f7375a6d9b7f890222121acbb4",
+      "note": "X crossing, lower arms and light-colored bridge pins in the postwar small body.",
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
+    },
+    {
+      "asset": "1955-martin-d-18-bracing.jpg",
+      "source": "1955-martin-d-18-bracing.JPEG",
+      "owner": "Photographer not yet confirmed",
+      "sourceType": "User-provided Downloads original, October 6, 2026",
+      "sha256": "18dcade5c2a260efb715ccd8522b3cecceb681d0dbf1661f3c199df94e2bdf70",
+      "note": "Lower X arms and colored ball ends in postwar dreadnought. Compare profiles, not the dimensions of the 1937 tone bars.",
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
     }
   ]
 }
