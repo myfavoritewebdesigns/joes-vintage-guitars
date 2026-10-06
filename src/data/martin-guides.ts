@@ -7,8 +7,8 @@ export function martinImage(path: string): ImageMetadata {
   return image;
 }
 export interface MartinPhotoData { file: string; title: string; alt: string; caption: string; source?: string; sourceLabel?: string; thirdParty?: boolean; }
-export interface MartinSection { id: string; title: string; period?: string; paragraphs: string[]; points?: string[]; photos?: MartinPhotoData[]; link?: { href: string; label: string }; }
-export interface MartinGuide { slug: string; title: string; shortTitle: string; description: string; intro: string; cardImage: string; cardText: string; sections: MartinSection[]; faqs: {q:string;a:string}[]; sources: {label:string;href:string}[]; }
+export interface MartinSection { id: string; anchorIds?: string[]; title: string; period?: string; paragraphs: string[]; points?: string[]; photos?: MartinPhotoData[]; link?: { href: string; label: string }; }
+export interface MartinGuide { published?: string; timeline?: { title: string; intro: string; rows: string[][] }; slug: string; title: string; shortTitle: string; description: string; intro: string; cardImage: string; cardText: string; sections: MartinSection[]; faqs: {q:string;a:string}[]; sources: {label:string;href:string}[]; }
 const drive1930 = 'https://drive.google.com/drive/folders/1Ht20GKwf8TaYshliiFN8EqBemeYrhou6';
 const drive1937 = 'https://drive.google.com/drive/folders/1Y3QKWhEYaiiyG4p7Xd3_lWET35hvS_PG';
 export const reverb1967 = 'https://reverb.com/item/95097608-martin-d-28-1967-vibey-player-great-sound';
@@ -55,10 +55,10 @@ export const martinGuides: MartinGuide[] = [
     ],faqs:[{q:'Why Does My Martin Have A Serial But No Model Stamp?',a:'Routine model stamping began around October 1930. Earlier guitars may have a serial without a model designation. Identify the body size and style from the instrument itself.'},{q:'Is Made In U.S.A. Part Of The Martin Serial Number?',a:'No. It is a country marking. On the photographed 1967 D-28 it appears on the interior backstrip, while the model and serial are on the neck block.'},{q:'Does D-28 Mean The Guitar Was Made In 1928?',a:'No. D identifies the dreadnought body-size family and 28 identifies the style. Use the separate serial number to find the production year.'}],sources:[{label:'Martin’s Official Serial Tables',href:'https://www.martinguitar.com/support-serial-number-lookup.html'},{label:'Robert Corwin: Photographed Serial And Model Stamp Transitions',href:'https://www.vintagemartin.com/stamps.html'},{label:'Joe’s 1967 D-28, Serial 224411',href:reverb1967}]
   },
   {
-    slug:'martin-guitar-dating-guide',shortTitle:'Prewar And Construction',title:'How To Date A Martin Guitar: Prewar And Later Features',
-    description:"Date a Martin guitar by its prewar features, bracing, neck width, reinforcement, bridge and finish. Compare dated photos with the serial number.",
-    intro:"To date a Martin guitar, match the neck-block serial to its year, then compare the model’s construction. For a claimed prewar Martin, check the brace position and shape, nut width, neck reinforcement, trim and repair history.",
-    cardImage:'1930-martin-0-21-2.jpg',cardText:"Prewar identification, brace position, neck width and reinforcement, plus bridges, guards, finish and case evidence.",
+    slug:'martin-guitar-dating-guide',shortTitle:'Construction Features',title:'Martin Guitar Construction Features And Dating',
+    description:"Compare Martin body joints, bridges, pickguards, woods, inlays and neck reinforcement with dated photos. Check each feature against the serial.",
+    intro:"Match the model and neck-block serial to the guitar’s body joint, bridge, pickguard, woods and trim. These features help check the date, while repairs and later recreations can explain details from another period.",
+    cardImage:'1937-martin-0-17-4.jpg',cardText:"Compare body joints, bridges, pickguards, woods, inlays and neck reinforcement using dated photographs.",
     sections:[
       {id:'neck-joint-and-frets',title:'12-Fret And 14-Fret Body Joints',paragraphs:["Count up to the fret where the neck meets the body, excluding the frets over the top. A 12-fret Martin’s body outline differs from its 14-fret counterpart, and it often has a slotted headstock.","Martin’s OM introduced the 14-fret body joint around 1929, while 12-fret models continued in production. The 1930 0-21 below still has a 12-fret joint. Bar frets and T-shaped frets provide another clue, although a refret can change the fret type."],photos:[p('1930-martin-0-21-2.jpg','1930 0-21: 12-Fret Body','Full front of a 1930 Martin 0-21 showing the neck meeting the body at the twelfth fret',"The neck meets the body at the twelfth fret. The slotted headstock is visible in the same photo.",drive1930),p('1937-martin-0-17-2.jpg','1937 0-17: 14-Fret Body','Full front of Joe’s 1937 Martin 0-17 showing a 14-fret body joint and solid headstock',"The neck meets the body at the fourteenth fret. Compare the joint and solid headstock with the 12-fret 0-21 beside it.",drive1937)]},
       {id:'bridges-and-saddles',title:'Rectangular And Belly Bridges',period:'Model-Specific Changes Around 1930',paragraphs:["A rectangular bridge has a straight outline across its front and back. A belly bridge adds a rounded extension behind the pins. Pyramid bridges have raised ends. Martin introduced belly bridges around 1930, but the change did not reach every model at once.","The 1937 0-17 below has a rectangular bridge, while the 1930 0-21 has a belly bridge. Compare the visible outlines rather than treating either shape as a cutoff year.","A long saddle extends toward or through the ends of the bridge’s raised center. A short drop-in saddle sits within it. Check for a replacement bridge before using either shape to date the guitar, because repairs and later vintage-style models can repeat older designs."],photos:[p('1937-martin-0-17-4.jpg','1937 0-17: Rectangular Bridge','Rectangular bridge with straight front and back edges on Joe’s 1937 Martin 0-17','The close view shows the complete rectangular outline. There is no rounded belly behind the bridge pins.',drive1937),p('1930-martin-0-21-7.jpg','1930 0-21: Belly Bridge','Belly bridge with a curved extension behind the pins on Joe’s 1930 Martin 0-21','The rounded wood behind the pins identifies the belly shape. Compare it with the straight back edge of the 0-17 bridge.',drive1930)]},
@@ -120,24 +120,7 @@ export const martinFeatureTimeline = [
 // Requested expansion: keep dating evidence distinct from model identification,
 // and never assign an unseen internal feature from a front or headstock photo.
 const construction = martinGuides[3];
-construction.sections.unshift({
-  id:'prewar-martin', title:'How To Identify A Prewar Martin Guitar',
-  paragraphs:[
-    'In the vintage Martin market, prewar commonly describes 1930s guitars and sometimes wartime examples built before the late-1944 move away from scalloped braces. Ask for the exact year. A 1937 D-28, a 1943 D-28 and a 1946 herringbone D-28 have different construction even when a seller groups them together.',
-    'Start with the model and serial. A prewar D-18 has the plainer Style 18 appointments and mahogany back and sides; a D-28 has rosewood and herringbone trim. The original D-45 run was made from 1933 to 1942. Later guitars reuse these names and decorative details.',
-    'Check the X-brace location and carving, nut width, bridge and repair history before comparing value. No exterior photo can establish the whole specification. The 1930 0-21 below also shows why dreadnought dating rules cannot be applied to every small-body Martin.',
-  ],
-  photos:[p('1930-martin-0-21-2.jpg','1930 0-21: Prewar Small-Body Example','Full front of Joe’s 1930 Martin 0-21 with a slotted headstock and 12-fret body joint','This 1930 0-21 has a 12-fret body joint and slotted headstock. It belongs to a different body family from the 14-fret D-18 and D-28 discussed below.',drive1930)],
-  link:{href:'/martin-d-28-d-18-d-45-dreadnought-value-guide/',label:'Compare D-18, D-28 And D-45 Models And Value'},
-});
-construction.sections.splice(1,0,{
-  id:'x-brace-position-and-neck-width',title:'The 1938 Brace Shift And 1939 Neck-Width Change',
-  paragraphs:[
-    'Martin moved the dreadnought X-brace crossing farther from the soundhole during 1938. Forward and rearward describe its position; scalloped describes the brace profile. A rear-braced late-1930s D-18 or D-28 can still have scalloped braces.',
-    'Many 14-fret necks narrowed from 1 3/4 inches to 1 11/16 inches at the nut during 1939. Measure the fingerboard width at the nut, across its full width, rather than the distance between the outer strings. A replacement nut does not necessarily change the neck width.',
-    'Photograph the soundhole edge and X-brace crossing together with a ruler in the same plane, or ask a repairer to record the measurement. The interior photos later in this guide show tone bars and bridge plates, not the crossing. Small-body models and 12-fret guitars need their own comparisons.',
-  ],link:{href:'https://www.guitarhq.com/martin.html',label:'Check The Recorded 1938 And 1939 Instrument Examples'},
-},{
+construction.sections.push({
   id:'neck-reinforcement',title:'Ebony Bars, Steel T-Bars, Square Tubes And Truss Rods',
   paragraphs:[
     'Martin replaced earlier ebony reinforcement with a steel T-bar in late 1934. Wartime metal shortages brought ebony back on many guitars; steel returned after the war. Regular production moved to a square steel tube in 1967 and an adjustable rod in 1985. Model exceptions matter, especially on 12-fret guitars and later recreations.',
@@ -164,8 +147,6 @@ construction.sections.find(s=>s.id==='finish-endpin-and-case')!.photos!.push(
 );
 construction.faqs.unshift(
   {q:'How Old Is My Martin Guitar?',a:'Look up the serial on the neck block, then compare the model’s construction with that year. A replaced bridge, tuner set or pickguard may be newer than the guitar. Earlier instruments without a regular serial need a review of their stamps, measurements and construction.'},
-  {q:'What Years Are Considered Prewar Martins?',a:'Collectors often mean 1930s guitars and may include wartime examples with scalloped braces through the late-1944 transition. Record the actual year and features. Prewar is not one precise factory specification.'},
-  {q:'Does Every Prewar D-28 Have Forward-Shifted Bracing?',a:'No. Dreadnought bracing moved rearward in 1938 while scalloped brace profiles continued. Brace position and brace shape are separate features.'},
   {q:'Can A Soundhole Photo Identify An Ebony Or Steel Neck Bar?',a:'No. Those nonadjustable reinforcements are hidden inside the neck. A soundhole view may show adjustable-rod access, but it cannot show the cross-section of an ebony bar, T-bar or square tube.'},
 );
 martinGuides[0].faqs.push(
@@ -207,3 +188,91 @@ martinGuides.push({
     {label:'Joe’s Photographed 1976 000-45',href:pearlStory},
   ],
 });
+
+// Joe requested separate construction and prewar spokes on October 6, 2026.
+// Keep the old construction fragments as entry points to the new bracing guide.
+construction.sections = construction.sections.map(section => section.id === 'bracing-and-bridge-plates' ? {
+  id:'bracing-and-bridge-plates', anchorIds:['prewar-martin','x-brace-position-and-neck-width'],
+  title:'Bracing And Internal Inspection',
+  paragraphs:[
+    'The braces support the top, and the bridge plate sits beneath the bridge pins. Exterior photographs cannot show the brace profiles, plate repairs or X-brace position. Use an inspection mirror or a repairer’s interior photographs.',
+    'For a prewar or wartime Martin, compare the brace layout with the exact model and year. The separate prewar guide covers forward and rearward X-bracing, scalloped and tapered profiles, bridge plates and the 1939 neck changes.',
+  ],link:{href:'/prewar-martin-guitar-guide/',label:'Open The Prewar Martin Bracing And Identification Guide'},
+} : section);
+
+export const prewarMartinGuide: MartinGuide = {
+  slug:'prewar-martin-guitar-guide', shortTitle:'Prewar Martins',
+  title:'Prewar Martin Guitar Guide: Bracing And Identification',
+  published:'2026-10-06',
+  description:'Identify prewar Martin guitars by X-brace position, scalloping, bridge plates, neck width and reinforcement. Compare dated photos and repair evidence.',
+  intro:'Date a claimed prewar Martin from its serial and model, then check the construction inside and outside the guitar. Brace position, brace carving, neck dimensions and repairs can distinguish instruments that share the same model name.',
+  cardImage:'1937-martin-0-17-2.jpg',
+  cardText:'Identify prewar and wartime Martins through X-bracing, scalloped profiles, bridge plates, neck changes and repair history.',
+  sections:[
+    {id:'prewar-martin',title:'What Prewar Means For A Martin Guitar',paragraphs:[
+      'Collectors commonly use prewar for 1930s Martins and sometimes include wartime examples made before the late-1944 change away from scalloped braces. Record the actual production year. The label does not describe one fixed set of specifications.',
+      'Separate the body family from the period. A small-body 0-17, an OM and a dreadnought need their own construction comparisons. A slotted headstock or a 12-fret joint can also appear on later guitars.',
+      'The 1937 0-17 below is a small-body example with a mahogany top, back and sides. Its 14-fret body joint and solid headstock are visible here. The front view doesn’t reveal its internal bracing.',
+    ],photos:[p('1937-martin-0-17-2.jpg','1937 0-17: Prewar Small-Body Martin','Full front of Joe’s 1937 Martin 0-17 with a mahogany top and 14-fret body joint','This 1937 0-17 shows the body joint, solid headstock and rectangular bridge. Inspect the interior separately to establish the brace layout.',drive1937)],link:{href:'/martin-guitar-model-numbers/',label:'Identify The Body Size And Style Number'}},
+    {id:'x-brace-position-and-neck-width',title:'Forward And Rearward X-Brace Position',paragraphs:[
+      'The main top braces cross below the soundhole. Forward and rearward describe where that crossing sits. Scalloped describes the carved profile of a brace. Record position and profile separately.',
+      'Martin moved the dreadnought X-brace crossing farther from the soundhole during 1938. A rear-braced late-1930s D-18 or D-28 can still have scalloped braces. Small-body and 12-fret models need their own chronology.',
+      'To document the position, photograph the soundhole edge and complete X crossing with a ruler in the same plane. Record the measurement and the points used. An isolated photograph of a tone bar cannot establish where the X crosses.',
+    ],link:{href:'https://www.guitarhq.com/martin.html',label:'See Dated 1938 And 1939 Dreadnought Examples'}},
+    {id:'bracing-and-bridge-plates',title:'Scalloped Braces And The Postwar Transition',paragraphs:[
+      'Scalloped braces have scooped sections between higher areas. Tapered braces reduce in height toward their ends. Follow the whole visible profile; a dark patch or a camera angle can hide the carving.',
+      'Regular vintage flat-tops began changing from scalloped to tapered braces in late 1944. Tapered profiles gradually became straighter through the late 1940s. A 1946 herringbone D-28 therefore belongs to a different bracing period from a 1930s example.',
+      'The 1937 D-18 photograph below shows scalloped tone bars beneath the bridge plate. It doesn’t include the X crossing, so it cannot demonstrate forward or rearward placement. Later brace shaving can also change the profile; compare repair records with the wood itself.',
+    ],photos:[braceSection.photos![0]],link:{href:'https://www.martin-gitarren.de/files/downloads/martinstory.pdf',label:'Read Martin’s Bracing History On Page 12'}},
+    {id:'bridge-plate-inspection',title:'Bridge Plates, Pin Holes And Repairs',paragraphs:[
+      'The bridge plate lies against the underside of the top, below the bridge. Photograph its outline, the pin holes, string ball ends and the surrounding wood. Keep the full plate in view so its size and any added patches can be compared.',
+      'Ask whether the plate was replaced, capped or repaired and whether nearby braces were reglued or shaved. An added patch can hide the original plate surface. A photograph alone may not establish the wood species or the history of every glue joint.',
+      'The 1947 0-18 below is a postwar comparison showing the plate and string attachments. Its angle is insufficient to classify the surrounding braces as tapered or straight.',
+    ],photos:[braceSection.photos![1]],link:{href:'/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/',label:'Compare Neck Angle And Other Structural Repairs'}},
+    {id:'prewar-necks-and-frets',title:'Nut Width, Body Joints And Frets',paragraphs:[
+      'Many 14-fret necks narrowed from 1 3/4 inches to 1 11/16 inches at the nut during 1939. Measure across the fingerboard at the nut, rather than between the outer strings. The 1938 brace shift and 1939 neck change are separate events.',
+      'Check the fret where the neck meets the body before comparing dimensions. Neck width, neck profile and string spacing describe different measurements. A replacement nut may change string spacing without changing the fingerboard width.',
+      'Martin changed from bar frets to T-frets on many models during 1934. Refretting can alter that evidence. The photographed 0-17 below clearly shows its round markers and visible fret crowns; this view alone does not establish the shape of the metal hidden in each fret slot.',
+    ],photos:[{...trimSection.photos![1],caption:'Round fingerboard dots and fret crowns on Joe’s 1937 0-17. The hidden part of a fret cannot be identified from this top view.'}],link:{href:'https://vintagemartin.com/necks.html',label:'Compare Corwin’s Neck And Fret Examples'}},
+    {id:'prewar-neck-reinforcement',title:'Ebony Reinforcement And Steel T-Bars',paragraphs:[
+      'Martin introduced steel T-bar neck reinforcement with the move to T-frets in 1934. Wartime shortages brought ebony reinforcement back on many guitars, followed by a postwar return to steel. The serial and model help narrow which system to expect.',
+      'These bars are hidden inside the neck and are not adjustable truss rods. A soundhole photograph does not reveal their cross-section. Ask for repair documentation rather than assigning a bar type from an exterior view.',
+    ],link:{href:'/martin-guitar-dating-guide/#neck-reinforcement',label:'Compare Later Square Tubes And Adjustable Rods'}},
+    {id:'prewar-woods-and-trim',title:'Model Woods, Herringbone And Pearl Trim',paragraphs:[
+      'Prewar D-18s have mahogany backs and sides with plainer Style 18 appointments. D-28s use Brazilian rosewood and herringbone top trim. The original D-45 run, made from 1933 to 1942, adds extensive pearl decoration. Confirm the style from the guitar and records before comparing value.',
+      'Herringbone outlasted the change away from scalloped bracing. It also returned on later models, including the HD-28. Pearl, herringbone and a historic model name are not enough to establish a prewar production date.',
+      'The 1930 0-21 below has Brazilian rosewood, as identified in Joe’s archive. Wood identification needs the model and history as well as grain; finish and lighting can change its appearance.',
+    ],photos:[{...construction.sections.find(section=>section.id==='tonewoods')!.photos![0],caption:'Brazilian rosewood on Joe’s 1930 0-21. The dark grain and center strip are visible across the back.'}],link:{href:'/martin-guitar-dating-guide/#tonewoods',label:'Compare Brazilian Rosewood, Indian Rosewood And Mahogany'}},
+    {id:'prewar-bridges-and-repairs',title:'Bridge Shape, Original Parts And Repair History',paragraphs:[
+      'A bridge’s outline and saddle arrangement are separate details. The rectangular bridge on this 1937 0-17 differs from the belly bridge on Joe’s 1930 0-21. Match the exact model rather than treating every rectangular bridge as older than every belly bridge.',
+      'Check for an enlarged bridge footprint, altered saddle slot, repaired top and documented bridge replacement. Record neck resets, refrets and finish work separately. A repaired prewar guitar retains its production year, but its installed parts may be much newer.',
+    ],photos:[construction.sections.find(section=>section.id==='bridges-and-saddles')!.photos![0]],link:{href:'/martin-guitar-dating-guide/#bridges-and-saddles',label:'Compare Rectangular And Belly Bridge Photos'}},
+    {id:'prewar-inspection-photos',title:'Photos And Records For A Prewar Martin Assessment',paragraphs:[
+      'Start with clear overall photographs, then document the details that can confirm or contradict the serial date. Have a repairer photograph the interior if the X crossing or brace profiles are difficult to capture.',
+    ],points:[
+      'Full front and back, plus the complete model and serial stamp.',
+      'Front and rear headstock, tuners and any unused mounting holes.',
+      'Body joint, fingerboard, nut-width measurement and fret detail.',
+      'Complete bridge, saddle, pickguard and surrounding finish.',
+      'X-brace crossing with a scale, brace profiles and the entire bridge plate.',
+      'Repair invoices, older photographs, case records and ownership history.',
+    ],link:{href:'/free-appraisal/martin/',label:'Send Joe Photos Of Your Martin'}},
+  ],
+  timeline:{title:'Prewar And Wartime Martin Construction Timeline',intro:'Use these transitions with the model and physical evidence. The chart includes the postwar changes needed to distinguish a later guitar from a prewar example.',rows:martinFeatureTimeline.slice(0,7)},
+  faqs:[
+    {q:'What Years Are Considered Prewar Martins?',a:'Collectors commonly mean 1930s guitars and sometimes include wartime examples with scalloped braces through the late-1944 transition. Record the exact production year and model because prewar is not one fixed factory specification.'},
+    {q:'Does Every Prewar D-28 Have Forward-Shifted Bracing?',a:'No. Dreadnought bracing moved rearward during 1938 while scalloped brace profiles continued. Position and carving are separate features.'},
+    {q:'Can Scalloped Bracing Prove A Martin Is Prewar?',a:'No. Later factory models also use scalloped braces, and braces can be shaved during repairs. Check the serial, model, complete brace layout and repair history.'},
+    {q:'Is A 1946 Herringbone D-28 The Same As A 1930s D-28?',a:'No. Herringbone remained after the late-1944 bracing transition. Compare the actual braces, neck dimensions and repairs before grouping those guitars together.'},
+    {q:'Can I Identify A Neck T-Bar Through The Soundhole?',a:'No. A nonadjustable T-bar is hidden in the neck. The absence of a visible adjustment point does not distinguish it from ebony reinforcement.'},
+    {q:'What Photos Are Needed To Check Prewar Bracing?',a:'Include the complete X crossing and soundhole edge with a scale, views along the brace profiles, and the full bridge plate. A close-up of one tone bar cannot establish the position of the X crossing.'},
+  ],sources:[
+    {label:'Martin: The Martin Story, Bracing And Neck Reinforcement On Page 12',href:'https://www.martin-gitarren.de/files/downloads/martinstory.pdf'},
+    {label:'Vintage Guitars Info: Dated 1938 And 1939 Dreadnought Examples',href:'https://www.guitarhq.com/martin.html'},
+    {label:'Robert Corwin: Neck Dimensions, Reinforcement And Frets',href:'https://vintagemartin.com/necks.html'},
+    {label:'Robert Corwin: Photographed Martin Bridge Comparisons',href:'https://vintagemartin.com/bridges.html'},
+    {label:'Robert Corwin: Styles 15, 17 And 18',href:'https://www.vintagemartin.com/styles15_17_18.html'},
+    {label:'Martin: The Original 1933 To 1942 D-45 Run',href:'https://www.martinguitar.com/blog-categories/from-the-factory/blog-072325-the-holy-grail-of-martin-guitars-a-closer-look-at-the-pre-war-d-45.html'},
+  ],
+};
+martinGuides.splice(4,0,prewarMartinGuide);

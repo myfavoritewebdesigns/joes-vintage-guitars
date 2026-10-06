@@ -65,7 +65,7 @@ Additionally, most of these guitars are produced in the US, which impacts their 
 
 <h3 id="how-to-recognize-pre-war-martin-guitars">How To Recognize Pre-War Martin Guitars</h3>
 
-Start with the model and exact year, then compare the [prewar construction features](/martin-guitar-dating-guide/#prewar-martin). Dreadnought X-bracing moved rearward in 1938, while scalloped profiles continued until late 1944. Herringbone belongs to certain styles and also appears on later models. These features changed at different times, so one shared label cannot describe every guitar.
+Start with the model and exact year, then compare the [prewar construction features](/prewar-martin-guitar-guide/#prewar-martin). Dreadnought X-bracing moved rearward in 1938, while scalloped profiles continued until late 1944. Herringbone belongs to certain styles and also appears on later models. These features changed at different times, so one shared label cannot describe every guitar.
 
 This is just an example of some things to remember when determining the value of an old Martin acoustic guitar.
 
