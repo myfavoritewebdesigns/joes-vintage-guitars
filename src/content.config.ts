@@ -7,6 +7,7 @@ const blog = defineCollection({
   loader: glob({ pattern: "*.md", base: "./src/content/blog" }),
   schema: z.object({
     title: z.string(),
+    seoTitle: z.string().optional(),
     pubDate: z.coerce.date(),
     modified: z.coerce.date(),
     excerpt: z.string().default(""),
@@ -21,6 +22,12 @@ const blog = defineCollection({
     author: z.string().default("Joe Dampt"),
     draft: z.boolean().default(false),
     wpId: z.number().optional(),
+    // Opt-in FAQs share one source for visible answers and structured data.
+    faqs: z.array(z.object({
+      q: z.string(),
+      a: z.string(),
+      link: z.object({ href: z.string(), label: z.string() }).optional(),
+    })).default([]),
     // Opt-in floating table of contents. When non-empty, the post layout renders
     // a fixed sidebar (desktop) + "Sections" button/sheet (mobile). Each entry
     // points at an in-page anchor; set sub:true for an indented (H3-level) item.

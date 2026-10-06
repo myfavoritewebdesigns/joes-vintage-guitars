@@ -1,6 +1,9 @@
 # Cloudflare Pages 301s for WordPress-only URL shapes that have no equivalent
 # on the static rebuild. Top-level page slugs and /post/<slug>/ URLs were
 # preserved 1:1, so they need no rules here (and adding any would risk loops).
+# Preserve links shared during the Martin guide preview, before its URL rename.
+/martin-headstock-logo-chronology/ /martin-headstock-logo-dating-guide/ 301
+/martin-physical-features-dating-guide/ /martin-guitar-dating-guide/ 301
 #
 # NOT handled here, by platform limitation: query-string URLs (?p=123,
 # ?attachment_id=...) cannot be matched by _redirects. They need a Pages

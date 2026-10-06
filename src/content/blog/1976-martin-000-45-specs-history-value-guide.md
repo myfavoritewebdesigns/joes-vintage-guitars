@@ -1,15 +1,23 @@
 ---
 title: "1976 Martin 000-45: Specs, History, Authentication, and Value"
+seoTitle: "1976 Martin 000-45: Specs And Value"
 pubDate: "2026-08-03T10:00:00"
-modified: "2026-08-03T21:30:00"
+modified: "2026-10-05"
 excerpt: "The 000-45 is the rarest thing Martin puts a catalog number on. Just 341 were built across the whole span from 1906 to 2005, post-1970 reissues included, and in the 1970s the factory made them one and two at a time. Here is the full spec sheet for a 1976 example, the history of how Style 45 came back after the war, how to tell an original from an upgraded 000-28, and what one is honestly worth today."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-spruce-top-abalone-trim.jpg"
 heroImageAlt: "Spruce top of a 1976 Martin 000-45 showing the abalone pearl border around the top edge and soundhole, black pickguard, and ebony belly bridge"
-metaDescription: "A 1976 Martin 000-45 in the shop: full specs, the story of how Style 45 returned after 1942, how to authenticate one against an upgraded 000-28, and what it is worth in 2026."
+metaDescription: "See a 1976 Martin 000-45 in detail: pearl trim, woods, bracing, model stamps, repair checks and the factors that affect its value."
 ogImage: "/images/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-spruce-top-abalone-trim.jpg"
+faqs:
+  - {"q":"How Many Martin 000-45s Were Made In 1976?","a":"The multi-year production totals discussed here don’t establish an exact count for 1976. Confirm a year-specific claim against factory records rather than dividing a total across the years it covers."}
+  - {"q":"Is A 1976 Martin 000-45 Brazilian Rosewood?","a":"East Indian rosewood is the standard specification for a 1976 000-45. Martin’s standard-production switch from Brazilian rosewood took place in 1969. A claim of Brazilian rosewood on a later guitar needs separate documentation."}
+  - {"q":"Why Does My 1976 Martin 000-45 Have Straight Braces?","a":"Straight, non-scalloped braces are the standard construction for a 1976 000-45. The HD-28’s return to scalloped bracing in 1976 didn’t change every model. Inspect the brace profiles for any later carving or repair."}
+  - {"q":"What Is The Difference Between A 000-45 And A 000-45S?","a":"The period 000-45S uses a 12-fret body joint and slotted headstock. The 1976 000-45 shown here has a 14-fret body joint and solid headstock. Read the full model stamp before comparing specifications."}
+  - {"q":"Is A 1970s Martin 000-45 Suitable For Regular Playing?","a":"It can be. Check neck angle, action, fret wear, cracks and repair quality before deciding. Rarity doesn’t establish playability, and two guitars of the same year can need different work."}
+  - {"q":"How Do I Find The Year Of My Martin?","a":"Read the serial stamped on the neck block through the soundhole, then compare it with the correct year chart. The model stamp identifies the model separately.","link":{"href":"/martin-serial-and-model-numbers/","label":"Use The Martin Serial Number Lookup"}}
 toc:
   - { href: "#quick-answer", label: "The Short Version" }
   - { href: "#what-it-is", label: "What A 000-45 Is" }
@@ -294,33 +302,12 @@ The pattern worth noticing: the jump from a 000-28 to a 000-45 in the same year 
 
 </figure>
 
-<h2 id="faq">Frequently Asked Questions</h2>
-
-**How many Martin 000-45s were made in 1976?**
-
-Martin has not published a public year-by-year figure for this model, and the dealers who handle them cite single-digit numbers for the mid-1970s: one guitar in 1974, three in 1975. The reliable figure is the total. Martin's archives put it at 341 000-45s built between 1906 and 2005, and that number covers everything, pre-war and reissue alike. Since Longworth's records place the pre-war run at roughly 265, the entire post-1970 reissue era accounts for something like 76 guitars spread over thirty-five years. Single-digit years are exactly what you would expect from that math.
-
-**Is a 1976 000-45 Brazilian rosewood?**
-
-No. Martin moved to East Indian rosewood in late 1969, around serial 254498. Every 1970s Martin rosewood guitar is Indian. If a listing says a 1976 is Brazilian, ask for the serial and check it.
-
-**Why does mine have straight braces instead of scalloped?**
-
-Because that is correct. Martin stopped scalloping in late 1944 and did not return to it on a production model until the HD-28 in 1976. Straight braces on a 1976 000-45 are factory standard.
-
-**What is the difference between a 000-45 and a 000-45S?**
-
-The S models are the 12-fret versions with a slotted headstock, built on the older body pattern. The plain 000-45, like the one shown here, is the 14-fret solid-headstock guitar. Both are rare, and the S versions are rarer still.
-
-**Is a 1970s 000-45 a good player, or just a collector piece?**
-
-It is a genuinely good 000. Non-scalloped 1970s Martins get criticized for being stiff when new, but a 50-year-old top has had five decades to open up, and the 000 body was always the balanced, fingerstyle-friendly one in the line. The reason to hesitate is the value, not the sound. Many owners of rare pearl guitars end up playing something cheaper and keeping this one in the case.
-
-**How do I find the year of my Martin?**
-
-Read the serial number stamped on the neck block through the soundhole, then look it up. Our [Martin serial number lookup](/martin-serial-and-model-numbers/) has the complete year-by-year table from 1898 forward, along with the model number stamps.
+For more examples of misleading stamps and construction, see the [Martin authentication guide](/how-to-spot-a-fake-martin/).
 
 <h2 id="selling">If You Have One</h2>
+
+This guitar’s photographs also illustrate the <a href="/martin-headstock-logo-dating-guide/#vertical-pearl">vertical pearl logo</a>, <a href="/martin-tuner-dating-guide/#covered-tuners">gold Grover tuners</a> and <a href="/martin-guitar-dating-guide/#trim-and-inlays">Style 45 trim</a> in our Martin photo guides. The <a href="/martin-guitar-model-numbers/">model-number decoder</a> explains how 000 and 45 identify the body and style.
+
 
 Rare pearl-trimmed Martins are exactly the kind of guitar that gets undersold, because the people who inherit them usually have no idea that the difference between the 28 and the 45 on the neck block stamp is worth five figures. If a 000-45 has come to you, find out what it is before you list it anywhere.
 

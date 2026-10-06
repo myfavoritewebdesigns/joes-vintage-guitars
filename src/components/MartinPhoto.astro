@@ -1,0 +1,29 @@
+---
+import LicensedImage from './primitives/LicensedImage.astro';
+import type { ImageMetadata } from 'astro';
+import { getImage } from 'astro:assets';
+import { SITE_URL } from '../config/site';
+interface Props { src: ImageMetadata; title: string; alt: string; caption: string; source?: string; sourceLabel?: string; thirdParty?: boolean; credit?: string; rotate?: 'left'; }
+const { src, title, alt, caption, source, sourceLabel = 'Photo source', thirdParty = false, credit, rotate } = Astro.props;
+const privateArchive = source?.startsWith('https://drive.google.com/');
+const displayWidth = rotate ? src.height : src.width;
+const displayHeight = rotate ? src.width : src.height;
+const photoWidth = Math.min(displayWidth, 470 * displayWidth / displayHeight);
+// A third-party photo has descriptive metadata, without Joe's license grant.
+// One transform supplies both its rendered src and its schema contentUrl.
+const thirdPartyImage = thirdParty ? await getImage({ src, width: Math.min(1000, src.width), layout: 'constrained' }) : undefined;
+const thirdPartySchema = thirdPartyImage ? {
+  '@context': 'https://schema.org', '@type': 'ImageObject',
+  contentUrl: SITE_URL + thirdPartyImage.src, caption, name: title,
+  width: thirdPartyImage.attributes.width, height: thirdPartyImage.attributes.height,
+  ...(source ? { isBasedOn: source } : {}),
+} : undefined;
+---
+<figure class:list={['mtn-photo', {'mtn-photo--rotate-left':rotate === 'left'}]} style={`--mtn-photo-width:${photoWidth}px`}>
+  <a href={src.src} data-martin-photo data-title={title} data-caption={caption} data-rotation={rotate} data-photo-ratio={displayWidth / displayHeight} style={rotate ? `aspect-ratio:${displayWidth}/${displayHeight};--mtn-rotation-width:${src.width / src.height * 100}%` : undefined} aria-label={`Enlarge photo: ${title}`}>
+    {thirdPartyImage ? <img {...thirdPartyImage.attributes} src={thirdPartyImage.src} srcset={thirdPartyImage.srcSet.attribute} alt={alt} loading="lazy" /> : <LicensedImage src={src} alt={alt} caption={caption} width={Math.min(1000, src.width)} loading="lazy" />}
+    <span class="mtn-zoom" aria-hidden="true">Enlarge Photo</span>
+  </a>
+  <figcaption><strong>{title}</strong><p>{caption}</p>{credit && <small>{credit}</small>}{source && (privateArchive ? <small>{sourceLabel}</small> : <a href={source} target="_blank" rel="noopener noreferrer">{sourceLabel}</a>)}</figcaption>
+</figure>
+{thirdPartySchema && <script is:inline type="application/ld+json" set:html={JSON.stringify(thirdPartySchema)} />}
