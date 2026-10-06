@@ -29,6 +29,8 @@ const schema = [
     <div class="mtn-section-head">{section.period && <p class="mtn-kicker">{section.period}</p>}<h2>{section.title}</h2></div>
     {section.paragraphs.map(text=><p>{text}</p>)}
     {section.points && <ul>{section.points.map(text=><li>{text}</li>)}</ul>}
+    {section.table && <div class="mtn-table-scroll"><table><caption>{section.table.caption}</caption><thead><tr>{section.table.headers.map(heading=><th scope="col">{heading}</th>)}</tr></thead><tbody>{section.table.rows.map(row=><tr>{row.map((cell,column)=>column===0?<th scope="row">{cell}</th>:<td>{cell}</td>)}</tr>)}</tbody></table></div>}
+    {section.references && <p class="mtn-references">Further detail: {section.references.map((reference,index)=><>{index>0 && '; '}<a href={reference.href}>{reference.label}</a></>)}.</p>}
     {section.photos && <MartinPhotoGallery photos={section.photos} />}
     {section.link && <p><a href={section.link.href}>{section.link.label}</a></p>}
   </div></section>)}

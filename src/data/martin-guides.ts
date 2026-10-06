@@ -1,5 +1,6 @@
 import type { ImageMetadata } from 'astro';
 import { resolveImage } from '../lib/images';
+import { expandMartinGuides } from './martin-research';
 const newPhotos = import.meta.glob<{ default: ImageMetadata }>('../assets/martin-dating/*.jpg', { eager: true });
 export function martinImage(path: string): ImageMetadata {
   const image = path.startsWith('images/') ? resolveImage(path) : newPhotos[`../assets/martin-dating/${path}`]?.default;
@@ -7,7 +8,7 @@ export function martinImage(path: string): ImageMetadata {
   return image;
 }
 export interface MartinPhotoData { file: string; title: string; alt: string; caption: string; source?: string; sourceLabel?: string; thirdParty?: boolean; credit?: string; rotate?: 'left'; }
-export interface MartinSection { id: string; anchorIds?: string[]; title: string; period?: string; paragraphs: string[]; points?: string[]; photos?: MartinPhotoData[]; link?: { href: string; label: string }; }
+export interface MartinSection { id: string; anchorIds?: string[]; title: string; period?: string; paragraphs: string[]; points?: string[]; photos?: MartinPhotoData[]; link?: { href: string; label: string }; references?: { href: string; label: string }[]; table?: { caption: string; headers: string[]; rows: string[][] }; }
 export interface MartinGuide { published?: string; timeline?: { title: string; intro: string; rows: string[][] }; slug: string; title: string; shortTitle: string; description: string; intro: string; cardImage: string; cardAlt?: string; cardCaption?: string; cardText: string; sections: MartinSection[]; faqs: {q:string;a:string}[]; sources: {label:string;href:string}[]; }
 const drive1930 = 'https://drive.google.com/drive/folders/1Ht20GKwf8TaYshliiFN8EqBemeYrhou6';
 const drive1937 = 'https://drive.google.com/drive/folders/1Y3QKWhEYaiiyG4p7Xd3_lWET35hvS_PG';
@@ -293,3 +294,4 @@ export const prewarMartinGuide: MartinGuide = {
   ],
 };
 martinGuides.splice(4,0,prewarMartinGuide);
+expandMartinGuides(martinGuides);
