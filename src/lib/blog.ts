@@ -31,6 +31,10 @@ export const CATEGORY_META: Record<string, { name: string; description: string }
     name: "Museum & Original Owners",
     description: "Stories from original owners and standout instruments that have passed through the shop.",
   },
+  "guitar-gear-and-tone": {
+    name: "Guitar Gear And Tone",
+    description: "Practical comparisons of guitar picks, playing feel, and tone on electric and acoustic guitars.",
+  },
   uncategorized: {
     name: "Uncategorized",
     description: "Articles and notes from Joe's Vintage Guitars.",
