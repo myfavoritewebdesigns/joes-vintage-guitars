@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "photos": [
     {
       "asset": "1944-martin-000-18-10.jpg",
@@ -120,7 +120,8 @@
       "owner": "FineVintageGuitars.com via Reverb",
       "sourceType": "Third-party Reverb listing",
       "galleryImage": 23,
-      "note": "400px derivative; scalloped tone bars visible, full X crossing outside view. Seller reports repairs and overspray. No Joe licensing emitted."
+      "note": "400px derivative; scalloped tone bars visible, full X crossing outside view. Seller reports repairs and overspray. No Joe licensing emitted.",
+      "status": "Excluded from all Martin dating pages on October 12, 2026 at Joe’s request. Removed active definitions and excluded assets from the Martin importer."
     },
     {
       "asset": "1947-018-interior-reverb.jpg",
@@ -129,7 +130,7 @@
       "sourceType": "Third-party Reverb listing",
       "galleryImage": 9,
       "note": "400px derivative; plate and string attachments visible, insufficient tapered-bracing comparison. Seller reports repair/refinishing. No Joe licensing emitted.",
-      "status": "Replaced in the prewar guide by Joe’s supplied 1936 plate photographs on October 6, 2026. Archived source retained."
+      "status": "Excluded from all Martin dating pages on October 12, 2026 at Joe’s request. Removed active definitions and excluded assets from the Martin importer."
     },
     {
       "asset": "images/blog/one-owner-1956-martin-000-21/1956-martin-000-21-case.jpg",
@@ -194,7 +195,8 @@
       "sourceType": "User-provided Downloads original, October 6, 2026",
       "sha256": "6f19386902eb3d4ee522e0b95be0348913e1e173453d5739cc07c40a0901a10a",
       "note": "Full X crossing, bridge plate and six pins visible.",
-      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation.",
+      "status": "Excluded October 12, 2026 pending Joe’s confirmation that these supplied photographs are his. Original files and provenance retained; not imported or rendered by Martin guides."
     },
     {
       "asset": "1914-martin-0-18-neck-block.jpg",
@@ -203,7 +205,8 @@
       "sourceType": "User-provided Downloads original, October 6, 2026",
       "sha256": "716e84d3a8833ed3db788603120f3b17480c5b477cd6a5ac3e0c98ba51bf7e52",
       "note": "Maker and Nazareth stamp above serial 11825, with no model stamp. Official Martin table independently confirms 1914.",
-      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation.",
+      "status": "Excluded October 12, 2026 pending Joe’s confirmation that these supplied photographs are his. Original files and provenance retained; not imported or rendered by Martin guides."
     },
     {
       "asset": "1936-martin-00-21-bridge-plate-and-bracing.jpg",
@@ -212,7 +215,8 @@
       "sourceType": "User-provided Downloads original, October 6, 2026",
       "sha256": "24b2287b894ce9c7c824ae62c28176c004bf89ddda09ed54177f7c1a63b203e9",
       "note": "Full X crossing and installed plate. Duplicate original 1936-00-21-bridge-plate-bracing.JPEG has the same SHA256 and is represented by this asset.",
-      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation.",
+      "status": "Excluded October 12, 2026 pending Joe’s confirmation that these supplied photographs are his. Original files and provenance retained; not imported or rendered by Martin guides."
     },
     {
       "asset": "1936-martin-00-21-bridge-plate.jpg",
@@ -221,7 +225,8 @@
       "sourceType": "User-provided Downloads original, October 6, 2026",
       "sha256": "ed80dc52c69eccce06ed3f39710b5add55e2a88c4ddaf1d377b81d55e205f870",
       "note": "Second view of the plate. Original unchanged; CSS rotates 90 degrees counterclockwise in gallery and lightbox.",
-      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation.",
+      "status": "Excluded October 12, 2026 pending Joe’s confirmation that these supplied photographs are his. Original files and provenance retained; not imported or rendered by Martin guides."
     },
     {
       "asset": "1954-martin-00-17-bracing.jpg",
@@ -230,7 +235,8 @@
       "sourceType": "User-provided Downloads original, October 6, 2026",
       "sha256": "e40865d8d4ce0f465a285fe364640b55e58d29f7375a6d9b7f890222121acbb4",
       "note": "X crossing, lower arms and light-colored bridge pins in the postwar small body.",
-      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation.",
+      "status": "Excluded October 12, 2026 pending Joe’s confirmation that these supplied photographs are his. Original files and provenance retained; not imported or rendered by Martin guides."
     },
     {
       "asset": "1955-martin-d-18-bracing.jpg",
@@ -239,7 +245,117 @@
       "sourceType": "User-provided Downloads original, October 6, 2026",
       "sha256": "18dcade5c2a260efb715ccd8522b3cecceb681d0dbf1661f3c199df94e2bdf70",
       "note": "Lower X arms and colored ball ends in postwar dreadnought. Compare profiles, not the dimensions of the 1937 tone bars.",
-      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation."
+      "license": "Descriptive ImageObject only; no permissive license grant pending photographer confirmation.",
+      "status": "Excluded October 12, 2026 pending Joe’s confirmation that these supplied photographs are his. Original files and provenance retained; not imported or rendered by Martin guides."
+    },
+    {
+      "asset": "images/martin-serial/martin-guitar-back-of-headstock-stamp-scaled.jpg",
+      "source": "reference/martin-serial-raw.html",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Visually inspected October 12, 2026: Joe’s Vintage Guitars watermark is visible on the original photograph."
+    },
+    {
+      "asset": "images/martin-serial/martin-back-of-body-logo-stamp.jpg",
+      "source": "reference/martin-serial-raw.html",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Visually inspected October 12, 2026: Joe’s Vintage Guitars watermark is visible on the original photograph."
+    },
+    {
+      "asset": "images/martin-serial/martin-kluson-waffle-back-tuners-scaled.jpg",
+      "source": "reference/martin-serial-raw.html",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Visually inspected October 12, 2026: Joe’s Vintage Guitars watermark is visible on the original photograph."
+    },
+    {
+      "asset": "images/martin-serial/martin-tuners-waverly-round-end-scaled.jpeg",
+      "source": "reference/martin-serial-raw.html",
+      "owner": "Photographer not yet confirmed",
+      "sourceType": "Existing local article or archive photo",
+      "note": "No visible owner credit in the inspected image. Legacy site inclusion does not establish ownership.",
+      "status": "Excluded from the Martin dating cluster October 12, 2026. Replaced open-gear examples with Joe’s documented 1937 0-17; wartime section retains text only."
+    },
+    {
+      "asset": "images/martin-serial/martin-tuners-hexagonal-kluson-scaled.jpeg",
+      "source": "reference/martin-serial-raw.html",
+      "owner": "Photographer not yet confirmed",
+      "sourceType": "Existing local article or archive photo",
+      "note": "No visible owner credit in the inspected image. Legacy site inclusion does not establish ownership.",
+      "status": "Excluded from the Martin dating cluster October 12, 2026. Replaced open-gear examples with Joe’s documented 1937 0-17; wartime section retains text only."
+    },
+    {
+      "asset": "images/martin-serial/Martin-wartime-tuners-plastic-buttons-no-bushings-scaled.jpg",
+      "source": "reference/martin-serial-raw.html",
+      "owner": "Photographer not yet confirmed",
+      "sourceType": "Existing local article or archive photo",
+      "note": "No visible owner credit in the inspected image. Legacy site inclusion does not establish ownership.",
+      "status": "Excluded from the Martin dating cluster October 12, 2026. Replaced open-gear examples with Joe’s documented 1937 0-17; wartime section retains text only."
+    },
+    {
+      "asset": "images/martin-serial/Model-Name-Serial-Number-Martin.jpg",
+      "source": "User-selected annotated photograph",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Joe explicitly identified this as his picture and asked to use its arrows labeling the model and serial."
+    },
+    {
+      "asset": "images/blog/one-owner-1956-martin-000-21/1956-martin-000-21-neck-block-stamp.jpg",
+      "source": "/post/one-owner-1956-martin-000-21/",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Visually inspected October 12, 2026: Joe’s Vintage Guitars watermark is visible."
+    },
+    {
+      "asset": "images/blog/one-owner-1956-martin-000-21/1956-martin-000-21-bridge-pickguard.jpg",
+      "source": "/post/one-owner-1956-martin-000-21/",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Visually inspected October 12, 2026: Joe’s Vintage Guitars watermark is visible."
+    },
+    {
+      "asset": "images/blog/martin-d18-history-value-guide/1953-martin-d18-pickguard.jpg",
+      "source": "/post/martin-d18-history-specs-authentication-value-guide/",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Visually inspected October 12, 2026: Joe’s Vintage Guitars watermark is visible."
+    },
+    {
+      "asset": "images/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-vertical-cf-martin-pearl-headstock.jpg",
+      "source": "/post/1976-martin-000-45-specs-history-value-guide/",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Existing Joe’s shop article identifies the pictured guitar as having come through the shop. Visually inspected October 12: same guitar and shop photography series, with the distinctive amplifier and pedal shelving seen in Joe’s watermarked shop photos."
+    },
+    {
+      "asset": "images/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-gold-grover-tuners.jpg",
+      "source": "/post/1976-martin-000-45-specs-history-value-guide/",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Existing Joe’s shop article identifies the pictured guitar as having come through the shop. Visually inspected October 12: same guitar and shop photography series, with the distinctive amplifier and pedal shelving seen in Joe’s watermarked shop photos."
+    },
+    {
+      "asset": "images/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-spruce-top-abalone-trim.jpg",
+      "source": "/post/1976-martin-000-45-specs-history-value-guide/",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Existing Joe’s shop article identifies the pictured guitar as having come through the shop. Visually inspected October 12: same guitar and shop photography series, with the distinctive amplifier and pedal shelving seen in Joe’s watermarked shop photos."
+    },
+    {
+      "asset": "images/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-indian-rosewood-back.jpg",
+      "source": "/post/1976-martin-000-45-specs-history-value-guide/",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Existing Joe’s shop article identifies the pictured guitar as having come through the shop. Visually inspected October 12: same guitar and shop photography series, with the distinctive amplifier and pedal shelving seen in Joe’s watermarked shop photos."
+    },
+    {
+      "asset": "images/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-full-front.jpg",
+      "source": "/post/1976-martin-000-45-specs-history-value-guide/",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Existing local article or archive photo",
+      "note": "Existing Joe’s shop article identifies the pictured guitar as having come through the shop. Visually inspected October 12: same guitar and shop photography series, with the distinctive amplifier and pedal shelving seen in Joe’s watermarked shop photos."
     }
-  ]
+  ],
+  "photoPolicy": "Only Joe’s own photos may appear on the Martin hub and six spokes. A file supplied from Downloads or hosted on the legacy site is not by itself ownership evidence. Keep unknown sources excluded until confirmed."
 }

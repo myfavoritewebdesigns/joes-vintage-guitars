@@ -126,13 +126,13 @@ export function expandMartinGuides(guides: MartinGuide[]) {
   prewar.sections.splice(1, 0, {
     id: 'early-x-bracing-and-steel-strings', title: 'Early X-Bracing And The Move To Steel Strings',
     paragraphs: [
-      'The X visible in the 1914 0-18 photograph doesn’t prove that it left the factory with steel strings. Martin used X-bracing on gut-string guitars long before steel became standard. Corwin separates the factory’s string choice and setup from the instrument’s present ability to withstand string tension.',
+      'X-bracing alone does not prove that an early Martin left the factory with steel strings. Martin used X-bracing on gut-string guitars long before steel became standard. Corwin separates the factory’s string choice and setup from the instrument’s present ability to withstand string tension.',
       'His shipping research identifies two 2-17s sent out with steel strings on March 27, 1922. Style 18 followed as standard equipment in 1923, and Style 28 by 1926. Construction grew stronger gradually, so those shipping dates are not universal bracing-change dates.',
       'For an early guitar, ask a repairer to assess the actual top, bridge, plate, neck and repairs before selecting strings. Its production year and an X-shaped brace pattern can’t make that decision for you.',
     ], references: [refs.strings],
   });
   add(prewar, 'x-brace-position-and-neck-width', [
-    'Record the body joint as well as the body size. Corwin’s examples show that 12-fret and 14-fret layouts need separate comparisons, and that smaller 14-fret bodies changed on a different schedule from dreadnoughts. Avoid applying the 1938 dreadnought date to the photographed 1936 00-21.',
+    'Record the body joint as well as the body size. Corwin’s examples show that 12-fret and 14-fret layouts need separate comparisons, and that smaller 14-fret bodies changed on a different schedule from dreadnoughts. Avoid applying the 1938 dreadnought date to smaller bodies such as the 00-21.',
     'The two arms of the X frame the bridge area; smaller tone bars continue behind it. Above the soundhole, the transverse brace and any flat brace under the fingerboard extension are another part of the structure. Include that upper area in an inspection set instead of photographing only the lower bout.',
   ], [refs.braces]);
   add(prewar, 'bracing-and-bridge-plates', [
