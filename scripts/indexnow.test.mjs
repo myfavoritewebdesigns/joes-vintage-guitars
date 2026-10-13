@@ -51,6 +51,14 @@ test('body, image, title, canonical, robots and structured-data edits change the
   assert.equal(fingerprint(base.replace('index,follow', 'noindex,follow')), null);
 });
 
+test('existing nested main markup hashes the full Layout slot once', () => {
+  const page = '<title>Guide</title><main id="main-content"><p>Intro</p><main><p>Detail</p></main><p>Outro</p></main>';
+  const before = fingerprint(page);
+  for (const word of ['Intro', 'Detail', 'Outro']) assert.notEqual(before, fingerprint(page.replace(word, 'Changed')));
+  assert.throws(() => fingerprint('<title>Missing content</title>'), /main-content/);
+  assert.equal(fingerprint('<meta name="robots" content="noindex">'), null);
+});
+
 test('manifest follows nested sitemaps, excludes noindex and rejects missing HTML', async () => {
   const dist = await mkdtemp(join(tmpdir(), 'jvg-indexnow-'));
   try {

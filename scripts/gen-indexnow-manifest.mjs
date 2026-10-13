@@ -11,11 +11,14 @@ const config = JSON.parse(await readFile(new URL('./indexnow-config.json', impor
 // generated scope IDs. A stylesheet-only rebuild must not notify every URL.
 export function fingerprint(html) {
   const $ = load(html);
-  if ($('main').length !== 1) throw new Error('Expected exactly one main element');
   const robots = $('meta[name]').toArray()
     .filter((node) => /^(robots|googlebot|bingbot)$/i.test($(node).attr('name')))
     .map((node) => $(node).attr('content') || '').join(' ');
   if (/\b(noindex|none)\b/i.test(robots)) return null;
+  // Several existing editorial pages nest another main inside Layout's main.
+  // Use the stable outer site slot so those pages are hashed once in full.
+  const content = $('main#main-content').length ? $('main#main-content') : $('main');
+  if (content.length !== 1) throw new Error('Expected one identifiable main-content region');
   const metadata = {
     title: $('title').text(),
     canonical: $('link[rel="canonical"]').attr('href') || '',
@@ -27,7 +30,7 @@ export function fingerprint(html) {
     schema: $('script[type="application/ld+json"]').toArray()
       .map((node) => JSON.parse($(node).text())),
   };
-  const main = $('main').clone();
+  const main = content.clone();
   // The shared contact form is chrome, even though pages put it inside main.
   main.find('script, style, .jvgct').remove();
   main.find('*').addBack().each((_, node) => {
@@ -68,7 +71,9 @@ export async function buildManifest(dist = resolve('dist'), revision = '') {
   for (const url of [...urls].sort()) {
     const path = localPath(dist, url, origin);
     const html = await readFile(url.endsWith('/') ? resolve(path, 'index.html') : path, 'utf8');
-    const hash = fingerprint(html);
+    let hash;
+    try { hash = fingerprint(html); }
+    catch (error) { throw new Error(`Cannot fingerprint ${url}: ${error.message}`, { cause: error }); }
     if (hash) pages[url] = hash;
   }
   if (!Object.keys(pages).length) throw new Error('Refusing to generate an empty IndexNow manifest');
