@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/gen-image-sitemap.mjs",
+    "build": "astro build && node scripts/gen-image-sitemap.mjs && node scripts/gen-indexnow-manifest.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "audit:live-diff": "node scripts/audit-live-diff.mjs",
@@ -15,7 +15,8 @@
     "extract:html-first": "node scripts/extract-html-first.mjs",
     "audit:a11y": "node scripts/audit-a11y.mjs",
     "audit:copy": "node scripts/check-copy.mjs",
-    "verify": "pnpm run build && pnpm exec astro check && pnpm run audit:copy"
+    "verify": "pnpm run build && pnpm exec astro check && pnpm run audit:copy",
+    "test:indexnow": "node --test scripts/indexnow.test.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",

@@ -1,0 +1,92 @@
+name: IndexNow production notifications
+
+on:
+  check_run:
+    types: [completed]
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Report changes without submitting or updating state'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: indexnow-production
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      (github.event_name != 'check_run' ||
+       (github.event.check_run.name == 'Cloudflare Pages' &&
+        github.event.check_run.conclusion == 'success'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # Always run trusted production code, even when a preview completed.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: scripts
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Find the last accepted submission state
+        id: state
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data } = await github.rest.actions.listArtifactsForRepo({
+              ...context.repo, name: 'indexnow-production-state', per_page: 100
+            });
+            const { data: workflow } = await github.rest.actions.getWorkflow({
+              ...context.repo, workflow_id: 'indexnow.yml'
+            });
+            for (const artifact of data.artifacts.sort((a, b) => b.id - a.id)) {
+              if (artifact.expired) continue;
+              const { data: run } = await github.rest.actions.getWorkflowRun({
+                ...context.repo, run_id: artifact.workflow_run.id
+              });
+              if (run.workflow_id === workflow.id && run.head_branch === 'main') {
+                core.setOutput('id', artifact.id);
+                core.setOutput('run_id', artifact.workflow_run.id);
+                return;
+              }
+            }
+            core.notice('No retained state: the first run will submit the live sitemap once.');
+      - uses: actions/download-artifact@v4
+        if: steps.state.outputs.id != ''
+        with:
+          artifact-ids: ${{ steps.state.outputs.id }}
+          run-id: ${{ steps.state.outputs.run_id }}
+          merge-multiple: true
+          path: .indexnow-state
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Notify IndexNow from the live manifest
+        id: submit
+        env:
+          INDEXNOW_EXPECTED_REVISION: ${{ github.event.check_run.head_sha }}
+          INDEXNOW_DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          if [ "$INDEXNOW_DRY_RUN" = "true" ]; then
+            node scripts/submit-indexnow.mjs --dry-run
+          else
+            node scripts/submit-indexnow.mjs
+          fi
+      # Refresh retention even on no-op runs. Failed submissions never reach
+      # this step; unresolved removals remain in the saved state for retry.
+      - uses: actions/upload-artifact@v4
+        if: steps.submit.outputs.save_state == 'true'
+        with:
+          name: indexnow-production-state
+          path: .indexnow-state/state.json
+          retention-days: 90
+          include-hidden-files: true
+          if-no-files-found: error
