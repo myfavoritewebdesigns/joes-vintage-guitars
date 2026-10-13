@@ -100,22 +100,22 @@ export function expandMartinGuides(guides: MartinGuide[]) {
 
   const construction = guide('martin-guitar-dating-guide');
   add(construction, 'bridges-and-saddles', [
-    'Corwin’s bridge study places the move from pyramid ends to plain rectangular wings on Style 18 in 1926 and Style 21 in 1929. This is a style-specific change before the belly bridge appeared, not one sequence shared by all Martins.',
-    'He also documents early notched drop-in saddles, long before the familiar mid-1960s return to short saddles. A short saddle on a 19th-century guitar and one on a 1960s guitar need different comparisons. Record the slot ends, saddle angle and bridge footprint as separate details.',
+    'The move from pyramid ends to plain rectangular wings came on Style 18 in 1926 and Style 21 in 1929. This is a style-specific change before the belly bridge appeared, not one sequence shared by all Martins.',
+    'Early bridges can have notched drop-in saddles, long before the familiar mid-1960s return to short saddles. A short saddle on a 19th-century guitar and one on a 1960s guitar need different comparisons. Record the slot ends, saddle angle and bridge footprint as separate details.',
   ], [refs.bridges]);
   add(construction, 'pickguards', [
-    'Corwin’s dated examples distinguish the small early OM guard from the larger outline used in 1933. The material varied too: reddish swirls appear on some late-1930s guards as well as on later examples, so that color does not by itself identify a 1960s replacement.',
-    'His sequence shows small clear windows in dark wartime guards, bright orange patterns in 1956 and 1957, and larger reddish swirls into 1966. Black guards became standard in 1967, with exceptions. Compare the whole pattern and outline; one patch of color is too little evidence.',
+    'The small early OM guard differs from the larger outline used in 1933. The material varied too: reddish swirls appear on some late-1930s guards as well as on later examples, so that color does not by itself identify a 1960s replacement.',
+    'Some dark wartime guards have small clear windows; later patterns include bright orange in 1956 and 1957 and larger reddish swirls into 1966. Black guards became standard in 1967, with exceptions. Compare the whole pattern and outline; one patch of color is too little evidence.',
   ], [refs.guards]);
   add(construction, 'trim-and-inlays', [
-    'On Corwin’s early-1930s examples, Style 17 uses paired dots at the seventh and twelfth frets, while Style 18 uses single dots. That makes dot placement useful alongside the top wood and binding. Count the fret positions and note paired markers; “dot inlays” is too broad a description.',
+    'On early-1930s examples, Style 17 uses paired dots at the seventh and twelfth frets, while Style 18 uses single dots. That makes dot placement useful alongside the top wood and binding. Count the fret positions and note paired markers; “dot inlays” is too broad a description.',
     'For pearl models, check where the border stops. Historical Style 40 omits the pearl around the fingerboard extension that distinguishes Style 42. Style 45 extends pearl decoration to the back and side borders. A front photograph alone leaves that back and side decoration unverified.',
   ], [refs.styles, refs.inlays]);
   add(construction, 'tonewoods', [
     'Style numbers kept their names while materials changed. Early Style 18 guitars had spruce tops and Brazilian rosewood bodies; mahogany backs and sides arrived in 1917. Style 17 was reintroduced as an all-mahogany 2-17 in 1922. Check the period before applying familiar later specifications to an older guitar.',
   ], [refs.styles]);
   add(construction, 'finish-endpin-and-case', [
-    'Corwin’s finish study describes a gradual change from French polish and varnish to lacquer in the 1920s, with exceptions still present in 1930. Gloss alone cannot identify the finish material. Compare wear around the bridge, binding and stamps, and distinguish added finish over an existing surface from a complete refinish.',
+    'The change from French polish and varnish to lacquer came gradually in the 1920s, with exceptions still present in 1930. Gloss alone cannot identify the finish material. Compare wear around the bridge, binding and stamps, and distinguish added finish over an existing surface from a complete refinish.',
   ], [refs.finish]);
 
   const prewar = guide('prewar-martin-guitar-guide');

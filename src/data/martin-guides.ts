@@ -170,6 +170,8 @@ export const martinGuides: MartinGuide[] = [
   },
   {
     slug:'martin-guitar-dating-guide',shortTitle:'Construction Features',title:'Martin Guitar Construction Features And Dating',
+    updated:{date:'2026-10-13',label:'October 13, 2026'},
+    showCreditsAndReferences:false,
     description:"Compare Martin body joints, bridges, pickguards, woods, inlays and neck reinforcement with dated photos. Check each feature against the serial.",
     intro:"Match the model and neck-block serial to the guitar’s body joint, bridge, pickguard, woods and trim. These features help check the date, while repairs and later recreations can explain details from another period.",
     cardImage:'1937-martin-0-17-4.jpg',cardText:"Compare body joints, bridges, pickguards, woods, inlays and neck reinforcement using dated photographs.",
@@ -239,7 +241,7 @@ construction.sections.push({
     'Martin replaced earlier ebony reinforcement with a steel T-bar in late 1934. Wartime metal shortages brought ebony back on many guitars; steel returned after the war. Regular production moved to a square steel tube in 1967 and an adjustable rod in 1985. Model exceptions matter, especially on 12-fret guitars and later recreations.',
     'The ebony bar, T-bar and square tube are hidden inside the neck. Their shape is not visible in a normal soundhole or headstock photo. An adjustable rod’s access is inside the soundhole toward the neck. Martin’s two-way rod, introduced in 2006, is recessed farther inside.',
     'Use the serial, exact model and repair records to narrow the reinforcement type. A headstock truss-rod cover is not the normal access point on these Martins, and its absence cannot separate an ebony bar from a steel T-bar.',
-  ],link:{href:'https://www.martin-gitarren.de/files/downloads/martinstory.pdf',label:'Read Martin’s Neck-Reinforcement History On Page 12'},
+  ],link:{href:'/prewar-martin-guitar-guide/#prewar-neck-reinforcement',label:'Compare Prewar And Wartime Neck Reinforcement'},
 });
 construction.sections.push({
   id:'finish-endpin-and-case',title:'Finish, Sunburst, Endpins And Case Records',
@@ -256,7 +258,7 @@ construction.sources.push(
   {label:'Smithsonian 1971 Festival Program: Hidden Neck Reinforcement, Page 58',href:'https://repository.si.edu/bitstreams/cdcf23c5-3ba7-45c1-b1ca-99dfdcbe4c9b/download'},
 );
 construction.sections.find(s=>s.id==='finish-endpin-and-case')!.photos!.push(
-  p('images/martin-serial/2003-martin-d-35-sunburst-683x1024.jpg','Sunburst Finish In Joe’s Archive','Sunburst Martin guitar with a light amber center and dark brown top edges in Joe’s shop','Compare the light center with the darker edge of the top. This photograph shows the color pattern; it does not establish a factory finish date or rule out refinishing.'),
+  p('images/martin-serial/2003-martin-d-35-sunburst-683x1024.jpg','Sunburst Finish: Light Center And Dark Edges','Sunburst Martin guitar with a light amber center and dark brown top edges','Compare the light center with the darker edge of the top. This photograph shows the color pattern; it does not establish a factory finish date or rule out refinishing.'),
 );
 construction.faqs.unshift(
   {q:'How Old Is My Martin Guitar?',a:'Look up the serial on the neck block, then compare the model’s construction with that year. A replaced bridge, tuner set or pickguard may be newer than the guitar. Earlier instruments without a regular serial need a review of their stamps, measurements and construction.'},
