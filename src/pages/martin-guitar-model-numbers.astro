@@ -1,0 +1,6 @@
+---
+import MartinFeatureGuide from '../components/MartinFeatureGuide.astro';
+import { martinGuides } from '../data/martin-guides';
+const guide = martinGuides.find(g => g.slug === 'martin-guitar-model-numbers')!;
+---
+<MartinFeatureGuide guide={guide} />

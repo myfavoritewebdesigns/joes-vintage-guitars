@@ -36,6 +36,8 @@ interface Props {
   src: ImageMetadata;
   /** Alt text (also mirrored into the ImageObject caption). */
   alt: string;
+  /** Visible figure caption when it gives more context than the alt text. */
+  caption?: string;
   /** Render/intrinsic width; also pins the getImage transform. */
   width?: number;
   height?: number;
@@ -50,7 +52,7 @@ interface Props {
   style?: string;
 }
 
-const { src, alt, width, height, loading, decoding, fetchpriority, sizes, class: className, style } = Astro.props;
+const { src, alt, caption, width, height, loading, decoding, fetchpriority, sizes, class: className, style } = Astro.props;
 
 // One getImage() call drives BOTH the <img> below and the contentUrl. They share
 // `built.src`, so they cannot diverge.
@@ -70,7 +72,7 @@ const imageObject = {
   contentUrl,
   width: renderedWidth,
   height: renderedHeight,
-  caption: alt,
+  caption: caption ?? alt,
   ...permissiveLicenseFields,
 };
 

@@ -248,6 +248,17 @@ const martinD18Faqs = [
 
 const activeMartinFaqs = isMartinD18Guide ? martinD18Faqs : martinGuideFaqs;
 
+const postFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${postUrl}#faq-schema`,
+  mainEntity: data.faqs.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+
 const martinFaqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -442,7 +453,7 @@ const articleSchema = {
 
 <Layout
   bodyClass={isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
-  title={`${data.title} | Joe's Vintage Guitars`}
+  title={`${data.seoTitle || data.title} | Joe's Vintage Guitars`}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
   ogImage={heroAbs}
@@ -462,9 +473,7 @@ const articleSchema = {
         ? [breadcrumbSchema, articleSchema, jaguarFaqSchema]
       : isEs225Guide
         ? [breadcrumbSchema, articleSchema, es225FaqSchema, ...es225ImageSchemas]
-    : videoSchema
-      ? [breadcrumbSchema, articleSchema, videoSchema]
-      : [breadcrumbSchema, articleSchema]}
+    : [breadcrumbSchema, articleSchema, ...(videoSchema ? [videoSchema] : []), ...(data.faqs.length ? [postFaqSchema] : [])]}
 >
   {vid && (
     <>
@@ -595,6 +604,14 @@ const articleSchema = {
     <div class="bpost__inner">
       <div class="blog-prose">
         <Content />
+        {data.faqs.length > 0 && <section class="post-faq" aria-labelledby="faq">
+          <h2 id="faq">Frequently Asked Questions</h2>
+          {data.faqs.map(item => <div class="post-faq-answer">
+            <h3>{item.q}</h3>
+            <p>{item.a}</p>
+            {item.link && <p><a href={item.link.href}>{item.link.label}</a></p>}
+          </div>)}
+        </section>}
       </div>
 
       <!-- Author box -->
