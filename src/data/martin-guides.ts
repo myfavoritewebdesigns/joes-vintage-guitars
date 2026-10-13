@@ -7,15 +7,16 @@ const newPhotos = import.meta.glob<{ default: ImageMetadata }>([
   '../assets/martin-dating/1930-martin-0-21-*.jpg',
   '../assets/martin-dating/1937-martin-0-17-*.jpg',
   '../assets/martin-dating/1967-d28-*.jpg',
+  '../assets/martin-tuners/*.jpg',
 ], { eager: true });
 export function martinImage(path: string): ImageMetadata {
-  const image = path.startsWith('images/') ? resolveImage(path) : newPhotos[`../assets/martin-dating/${path}`]?.default;
+  const image = path.startsWith('images/') ? resolveImage(path) : (newPhotos[`../assets/martin-dating/${path}`]?.default ?? newPhotos[`../assets/martin-tuners/${path}`]?.default);
   if (!image) throw new Error(`Missing Martin guide photo: ${path}`);
   return image;
 }
 export interface MartinPhotoData { file: string; title: string; alt: string; caption: string; source?: string; sourceLabel?: string; thirdParty?: boolean; credit?: string; rotate?: 'left'; }
 export interface MartinSection { id: string; anchorIds?: string[]; title: string; period?: string; paragraphs: string[]; points?: string[]; photos?: MartinPhotoData[]; link?: { href: string; label: string }; references?: { href: string; label: string }[]; table?: { caption: string; headers: string[]; rows: string[][] }; }
-export interface MartinGuide { published?: string; timeline?: { title: string; intro: string; rows: string[][] }; slug: string; title: string; shortTitle: string; description: string; intro: string; cardImage: string; cardAlt?: string; cardCaption?: string; cardText: string; sections: MartinSection[]; faqs: {q:string;a:string}[]; sources: {label:string;href:string}[]; }
+export interface MartinGuide { published?: string; updated?: { date: string; label: string }; timeline?: { title: string; intro: string; rows: string[][] }; slug: string; title: string; shortTitle: string; description: string; intro: string; cardImage: string; cardAlt?: string; cardCaption?: string; cardText: string; sections: MartinSection[]; faqs: {q:string;a:string}[]; sources: {label:string;href:string}[]; }
 const drive1930 = 'https://drive.google.com/drive/folders/1Ht20GKwf8TaYshliiFN8EqBemeYrhou6';
 const drive1937 = 'https://drive.google.com/drive/folders/1Y3QKWhEYaiiyG4p7Xd3_lWET35hvS_PG';
 export const reverb1967 = 'https://reverb.com/item/95097608-martin-d-28-1967-vibey-player-great-sound';
@@ -37,15 +38,112 @@ export const martinGuides: MartinGuide[] = [
   },
   {
     slug:'martin-tuner-dating-guide',shortTitle:'Tuner Evolution',title:'Martin Tuner Dating Guide: Grover, Kluson And Waverly',
-    description:"Compare Martin Grover, Kluson and Waverly tuners by era, plate shape, gears and buttons, with photos of original-style and replacement hardware.",
+    updated:{date:'2026-10-13',label:'October 13, 2026'},
+    description:"Identify Martin Grover, Kluson and Waverly tuners with dated photos of clipped-end plates, wartime gears, wafflebacks, Rotomatics and strip tuners.",
     intro:"Compare the plate shape, gears, screws and buttons on the back of the headstock, then check the bushings around the string posts on the front. Martin used overlapping tuner designs, and owners often replaced them. A tuner match needs to agree with the guitar’s model and serial.",
-    cardImage:'1937-martin-0-17-9.jpg',cardAlt:'Rear headstock and six open-gear tuners on Joe’s 1937 Martin 0-17',cardCaption:'The exposed gears, plates and mounting screws on Joe’s 1937 0-17. The photo does not establish whether the tuners are original.',cardText:"Open gears, wartime plastic buttons and enclosed Grovers, with dated photos of plates, buttons and housings.",
+    cardImage:'1937-martin-0-17-9.jpg',cardAlt:'Original Grover clipped-end plates and gears with replacement buttons on Joe’s 1937 Martin 0-17',cardCaption:'Grover clipped-end tuners on Joe’s 1937 0-17. The baseplates and gears are original; the buttons have been replaced.',cardText:"Compare Grover, Kluson and Waverly plate shapes, gears, buttons and housings in dated photos from Joe’s archive.",
     sections:[
-      {id:'slotted-headstock-tuners',title:'Slotted Headstocks And Side-Mounted Gears',period:'Early Guitars And Later 12-Fret Models',paragraphs:["On a slotted headstock, the strings wind around rollers that cross the slots, with the gears mounted along the sides. Photograph both sides so the plates and mounting screws are visible.","Martin kept slotted headstocks on later 12-fret and nylon-string guitars, and vintage-style models use them too. Extra screw holes or an old plate outline beneath the gears can point to a replacement set."],photos:[p('1930-martin-0-21-10.jpg','1930 0-21: Slotted Headstock','Rear of a slotted Martin 0-21 headstock with side-mounted tuners',"The rollers cross the headstock slots. A side view is also needed to see each gear plate and its mounting screws.",drive1930)]},
-      {id:'open-gear-tuners',title:'Open Gears And Plate Shapes',period:'Prewar And Postwar Examples',paragraphs:["Grover, Waverly and Kluson all supplied open gears to Martin. To tell them apart, compare the baseplate ends, gear supports, button shape and screw spacing. An exposed gear by itself won’t identify the maker.","Early OM guitars used banjo-style planetary tuners before guitar gears for solid headstocks became established. Later reproduction open gears can look like old ones, so check the mounting holes and finish beneath the plates as well as the mechanism."],photos:[p('1937-martin-0-17-9.jpg','1937 0-17: Open Gears And Mounting Plates','Six exposed gears, mounting plates and buttons on Joe’s 1937 Martin 0-17','All six machines are visible in this rear view. Compare the plate ends, screw positions and buttons; the photo alone does not establish the maker or whether this set is original.',drive1937)]},
-      {id:'wartime-tuners',title:'Wartime Buttons And Missing Bushings',period:'1940s Wartime Production',paragraphs:["Some wartime Martins have plastic buttons and light open gears, with no metal bushings around the string posts. Look at the front and back of the headstock to check the full combination; wartime hardware varied by model.","On a later guitar, a missing bushing may just be a lost part. Check the hole edges, the rest of the set and the serial before dating it. Leave fragile screws in place and use close-up photos to read visible markings."]},
-      {id:'covered-tuners',title:'Covered Klusons And Grover Rotomatics',period:'Different Models, Overlapping Periods',paragraphs:["Covered gears were in use before the 1970s. A Kluson waffleback has a textured cover, while a Grover Rotomatic has a rounded housing. Some Kluson open gears have six-sided baseplates; those plates are different from enclosed gear housings.","The 1967 D-28 and 1976 000-45 below both have enclosed Grovers with kidney-shaped buttons. The 000-45’s gold finish goes with its pearl-trimmed appointments; plating color alone won’t date the tuners."],photos:[p('images/martin-serial/martin-kluson-waffle-back-tuners-scaled.jpg','Textured Waffleback Housing','Textured waffleback Kluson tuner covers on a vintage Martin',"The raised waffle pattern covers the gear mechanism. Compare that texture with the smooth Grover housings below."),p('1967-d28-tuners.jpg','1967 D-28: Enclosed Grovers','Grover enclosed tuners with metal kidney buttons on Joe’s 1967 D-28',"Grover housings and metal kidney-shaped buttons on the listed 1967 D-28. The listing doesn’t confirm whether this set is factory original.",reverb1967,'Joe’s Reverb Listing'),p('images/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-gold-grover-tuners.jpg','1976 000-45: Gold Grovers','Gold Grover tuners on a 1976 Martin 000-45',"Gold-plated Grovers on the 1976 000-45. Compare the housings and mounting screws with the D-28 set.",pearlStory,'Read This Guitar’s Guide')]},
-    ],faqs:[{q:'Can I Date A Martin By Its Tuners Alone?',a:'No. Martin used overlapping tuner families, and tuners are often replaced. Compare the serial, model, screw holes, plate shape and bushings together.'},{q:'Are Grover Rotomatics Original On Every Old Martin?',a:'No. Some later models used them, and owners also installed them on earlier guitars. Compare the hardware and mounting holes with the guitar’s model and serial date.'}],sources:[{label:'Robert Corwin: Photographed 14-Fret Martin Tuner Comparisons',href:'https://vintagemartin.com/tuners.html'},{label:'Joe’s 1967 D-28 Listing And Repair Description',href:reverb1967}]
+      {
+        id:'slotted-headstock-tuners',title:'Slotted Headstocks And Side-Mounted Strip Tuners',period:'Early Guitars And Later 12-Fret Models',
+        paragraphs:[
+          "Strip tuners put several machines on one long plate. On a slotted headstock, the string posts cross the slots and the gears sit along the sides. A side photo shows the plate, worm shafts and mounting screws much better than a front view.",
+          "The engraved strip on the 1860s 2½-17 shows this arrangement clearly. The 1947 00-21 shows why a slotted headstock doesn’t establish a prewar date: the 00-21 remained a 12-fret model after many other Martins changed to 14 frets."
+        ],
+        photos:[
+          p('1860s-martin-2-and-a-half-17-strip-tuners.jpg','1860s 2½-17: Early Engraved Strip Tuners','Side of an 1860s Martin 2½-17 headstock showing three gears on an engraved strip plate',"Three machines share one long, engraved plate. The large cogs sit above the worm shafts in this side view. Compare the supports and screw positions with later strip tuners.",'https://drive.google.com/file/d/13wClWVo0JxDUugYxtUgCd-fRHi3hOzTb/view'),
+          p('1947-martin-00-21-strip-tuners.jpg','1947 00-21: Strip Tuners On A 12-Fret Model','Slotted headstock of a 1947 Martin 00-21 with string posts across the slots and side-mounted strip tuners',"The 00-21 kept its 12-fret body joint when many other Martin models changed to 14 frets. This front view shows the posts crossing the slots and the buttons along the sides; the full strip plates are clearer from the side.",'https://drive.google.com/file/d/1LiSFU78irtRLJToVfiWeZdFgsqrMvNc-/view')
+        ]
+      },
+      {
+        id:'classical-and-twelve-string-tuners',title:'Classical And 12-String Strip Tuners',period:'Postwar Slotted-Headstock Examples',
+        paragraphs:[
+          "The size and number of string posts help separate these two sets. The 1955 00-18G has Waverly classical tuners with large aluminum posts. Those broad posts are visible inside the slots, even though this angle does not show the complete side plates.",
+          "The 1969 12-string has six machines along each side of its slotted headstock, for twelve in all. Count the buttons and posts before comparing a strip set with a six-string guitar."
+        ],
+        photos:[
+          p('1955-martin-00-18g-classical-tuners.jpg','1955 00-18G: Waverly Classical Tuners','Large aluminum string posts inside the slots of a 1955 Martin 00-18G headstock with Waverly classical tuners',"Waverly classical tuners on a 1955 00-18G. Notice the larger aluminum posts across the slots, a useful comparison with the slimmer steel-string posts on the 00-21.",'https://drive.google.com/file/d/1YwyP79HC9jQlnDUJMT68Il8NjucZi1CJ/view'),
+          p('1969-martin-d12-35-strip-tuners.jpg','1969 Martin 12-String: Strip Tuners','Rear slotted headstock of a 1969 Martin 12-string with six tuning machines and white buttons on each side',"Six machines run along each side of this 1969 Martin 12-string headstock. The rear view shows all twelve buttons and the posts crossing the slots.",'https://drive.google.com/file/d/1FtP0TNMEmGiapyE5Mk9K9-saJDqd1hOR/view')
+        ]
+      },
+      {
+        id:'open-gear-tuners',title:'Grover Clipped-End Tuners And Replaced Buttons',period:'1930s Examples',
+        paragraphs:[
+          "Grover, Waverly and Kluson all supplied open gears to Martin. Compare the ends of the baseplate, gear supports, button shape and screw spacing to identify a set. An exposed gear by itself won’t tell you the maker.",
+          "Clipped-end plates have short, flattened ends around the mounting screws. The two Grover sets below show that shape. The 1937 0-17 still has its original baseplates and gears, but its buttons have been replaced. A button change doesn’t mean the whole machine was changed.",
+          "Early OM guitars used banjo-style planetary tuners before guitar gears for solid headstocks became established. Read the exact model and serial before assigning a tuner design to every OM or every guitar from one year."
+        ],
+        photos:[
+          p('1934-martin-tuners.jpg','1934 OM-28: Grover Clipped-End Tuners','Grover open-gear tuners with clipped-end plates and scalloped metal buttons on the guitar identified by Joe as a 1934 Martin OM-28',"Grover clipped-end tuners on the 1934 OM-28. The plate ends flatten around the mounting screws, and the metal buttons have a scalloped outline. Compare the plates with the 1937 0-17 beside it.",'https://drive.google.com/file/d/1x7XjRaldbYNfToizW7WKWs25AldzyP0e/view'),
+          p('1937-martin-0-17-9.jpg','1937 0-17: Grover Clipped-End Tuners','Original Grover clipped-end baseplates and gears with replacement buttons on Joe’s 1937 Martin 0-17',"These are Grover clipped-end tuners. The baseplates and gears are original to the 1937 0-17; the tuner buttons have been replaced. Use the plates and gears when comparing the original hardware.",drive1937)
+        ]
+      },
+      {
+        id:'pointed-end-grover-sta-tite',title:'Prewar And Postwar Grover Pointed-End Tuners',period:'1938 And 1966 Examples',
+        paragraphs:[
+          "The plate ends on these Grovers taper toward the mounting screws. That pointed outline appears on both the 1938 000-18 and the 1966 0-18, so plate shape alone can’t separate prewar from postwar production.",
+          "Compare the oval metal buttons on the 1938 set with the scalloped buttons on the 1966 Sta-Tites. Look closely at the gear’s top surface and center screw too. Those details help distinguish sets that look similar in a small photo."
+        ],
+        photos:[
+          p('1938-martin-000-18-tuners.jpg','1938 000-18: Grover Open Gears','Six Grover open-gear tuners with pointed-end plates and oval metal buttons on a 1938 Martin 000-18',"Grover open gears on a 1938 000-18. The pointed plate ends, exposed cogs and oval metal buttons are visible across the complete set.",'https://drive.google.com/file/d/1gaFSBIumLqcRvvN50OZPL6VnYMkD0H0l/view'),
+          p('1966-martin-0-18-grover-sta-tite.jpg','1966 0-18: Grover Pointed-End Sta-Tites','Grover Sta-Tite open-gear tuners with pointed-end plates and scalloped metal buttons on a 1966 Martin 0-18',"Grover pointed-end Sta-Tites on a 1966 0-18. Compare the scalloped buttons and recessed gear screws with the earlier 000-18 set.",'https://drive.google.com/file/d/10CScfdUGeH0RCs605QQiWswMIj6XZzcN/view')
+        ]
+      },
+      {
+        id:'wartime-tuners',title:'Wartime Kluson Flat Plates And Postwar Octagonal Plates',period:'1945 And 1952 Examples',
+        paragraphs:[
+          "The 1945 000-21 has Kluson flat-plate tuners with exposed gears and plastic buttons. The 1952 00-18 has broader octagonal baseplates with angled corners and raised edges. Follow the complete plate outline around each gear to see the difference.",
+          "Some wartime Martins lack metal bushings around the string posts, but these rear photos cannot establish whether bushings are present. Check a front view as well. Wartime hardware varied, and plastic buttons also appear on postwar guitars, including the 1955 0-15 below."
+        ],
+        photos:[
+          p('1945-martin-000-21-kluson-flat-plates.jpg','1945 000-21: Kluson Flat-Plate Tuners','Kluson flat-plate open-gear tuners with cream plastic buttons on a 1945 Martin 000-21',"Kluson flat-plate tuners on a 1945 000-21. The exposed gears sit on individual flat plates, with cream-colored plastic buttons. A front photo is needed to check the post bushings.",'https://drive.google.com/file/d/1md6QQGY8grlXXw_P3qHAnqdFCnlaWzAA/view'),
+          p('1952-martin-00-18-octagonal-tuners.jpg','1952 00-18: Octagonal Baseplates','Open-gear tuners with broad octagonal baseplates, angled corners and metal buttons on a 1952 Martin 00-18',"Octagonal baseplate tuners on a 1952 00-18. Look at the flat ends, angled corners and raised plate edges around the exposed gears. These are open gears, with no enclosing housing.",'https://drive.google.com/file/d/1IF9_PJOHOxNJdnSKyPTb6hYHZIteV6FC/view')
+        ]
+      },
+      {
+        id:'waverly-round-end-tuners',title:'Waverly Round-End Tuners With Metal And Plastic Buttons',period:'Two 1955 Martins',
+        paragraphs:[
+          "The rounded tabs around both mounting screws distinguish these Waverly plates from the clipped-end Grovers and broad octagonal plates. Both sets have exposed gears, but the buttons differ.",
+          "The 1955 000-18 has metal buttons; the 1955 0-15 has plastic buttons. These same-year examples show why button material needs to be checked with the plate design and model. Plastic does not automatically mean wartime."
+        ],
+        photos:[
+          p('1955-martin-000-18-waverly-tuners.jpg','1955 000-18: Waverly Round Ends','Waverly open-gear tuners with rounded baseplate ends and metal buttons on a 1955 Martin 000-18',"Postwar Waverly round-end tuners on a 1955 000-18. The narrow plates end in rounded mounting tabs, and this set has oval metal buttons.",'https://drive.google.com/file/d/1OIiAZo37fwCu8vQO3Tr8WIKfJ_xRJUpi/view'),
+          p('1955-martin-0-15-plastic-button-tuners.jpg','1955 0-15: Waverlys With Plastic Buttons','Waverly round-end open-gear tuners with cream plastic buttons on a 1955 Martin 0-15',"Waverly round-end tuners with plastic buttons on a 1955 0-15. Compare the similar mounting tabs and different buttons with the 000-18 from the same year.",'https://drive.google.com/file/d/1KWl069h_G0bb-ydeR-kf6OQb7Kj851TH/view')
+        ]
+      },
+      {
+        id:'covered-tuners',title:'Kluson Deluxe And Waffleback Housings',period:'Postwar D-28 Examples',
+        paragraphs:[
+          "The 1947 D-28 has Kluson Deluxe covers with the name stamped along the housings. Compare those rectangular covers with the raised grid pattern of the Kluson wafflebacks. Both enclose the gears, but they are different tuner designs.",
+          "Kluson wafflebacks are associated with Martin D-28s from about 1950 to 1957, before the late-1957 change to Grover Rotomatics. Documented original sets on a 1950 D-28 and a 1957 D-28 support that period. Do not apply the D-28 sequence to every 0, 00 or 000 model."
+        ],
+        references:[
+          {label:'Folkway: Original Wafflebacks On A 1950 D-28',href:'https://folkwaymusic.com/vintage-instruments/martin%20guitar/1950-martin-d28-0718'},
+          {label:'Galerie Casanova: Kluson K-500 Wafflebacks On A 1957 D-28',href:'https://www.galerie-casanova.com/en/produit/1957-martin-000-18-copie/'}
+        ],
+        photos:[
+          p('1947-martin-d-28-kluson-deluxe.jpg','1947 D-28: Kluson Deluxe Tuners','Six rectangular Kluson Deluxe gear covers with metal buttons on a 1947 Martin D-28',"Kluson Deluxe tuners on a 1947 D-28. The vertical KLUSON DELUXE lettering, oil holes and rectangular covers distinguish this set from the waffleback housings beside it.",'https://drive.google.com/file/d/1hPE0SlrxU42P6BIGRBZ7CNQSf3PWvBiK/view'),
+          p('images/martin-serial/martin-kluson-waffle-back-tuners-scaled.jpg','Kluson Wafflebacks: D-28, About 1950 To 1957','Kluson waffleback tuner housings with a raised grid pattern on a Martin headstock',"Kluson waffleback tuners, used on Martin D-28s from about 1950 to 1957. The raised grid covers the gears. This is a hardware close-up; the individual guitar’s year is not established by the photo.")
+        ]
+      },
+      {
+        id:'grover-rotomatic-tuners',title:'Grover Rotomatics On Later Martins',period:'1965 D-28 And 1976 000-45',
+        paragraphs:[
+          "Grover Rotomatics have rounded enclosed housings and kidney-shaped buttons. The 1965 D-28 below retains its original Grovers. The housings, lower mounting tabs and patent-pending markings are visible in the rear view.",
+          "The 1976 000-45 shows gold Grovers on a later pearl-trimmed model. Plating color alone won’t date the tuners. Compare the housing and mounting pattern with the model’s specifications and serial year."
+        ],
+        photos:[
+          p('1965-martin-d-28-original-grovers.jpg','1965 D-28: Original Grover Rotomatics','Original Grover Rotomatic enclosed tuners with metal kidney-shaped buttons and patent-pending markings on a 1965 Martin D-28',"Original Grover Rotomatics on a 1965 D-28. The rounded housings carry patent-pending markings, and each machine has a lower mounting tab and a metal kidney-shaped button.",'https://drive.google.com/file/d/1--WYsUePmYHtTPH6Xnahl5J24zffwjqF/view'),
+          p('images/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-gold-grover-tuners.jpg','1976 000-45: Gold Grovers','Gold Grover tuners on a 1976 Martin 000-45',"Gold-plated Grovers on the 1976 000-45. Compare the housings and mounting screws with the D-28 set.",pearlStory,'Read This Guitar’s Guide')
+        ]
+      }
+    ],
+    faqs:[
+      {q:'Can I Date A Martin By Its Tuners Alone?',a:'No. Martin used overlapping tuner families, and tuners are often replaced. Compare the serial, model, screw holes, plate shape and bushings together.'},
+      {q:'Do Plastic Tuner Buttons Mean A Martin Is From World War II?',a:'No. Wartime Martins can have plastic buttons, but so can later guitars. The 1955 0-15 shown here has Waverly round-end tuners with plastic buttons. Check the complete tuner design and serial number.'},
+      {q:'Which Martins Used Kluson Waffleback Tuners?',a:'Martin D-28s used Kluson wafflebacks from about 1950 to 1957, before the change to Grover Rotomatics. Original sets are documented on 1950 and 1957 D-28s. Other models followed different tuner schedules.'},
+      {q:'Are Grover Rotomatics Original On Every Old Martin?',a:'No. The 1965 D-28 shown here has its original Grovers, but other models used different hardware. Compare the housings and mounting holes with the guitar’s model and serial date.'}
+    ],
+    sources:[{label:'Robert Corwin: Photographed 14-Fret Martin Tuner Comparisons',href:'https://vintagemartin.com/tuners.html'},{label:'Folkway: Original Kluson Wafflebacks On A 1950 D-28',href:'https://folkwaymusic.com/vintage-instruments/martin%20guitar/1950-martin-d28-0718'},{label:'Galerie Casanova: 1957 D-28 With Kluson Wafflebacks',href:'https://www.galerie-casanova.com/en/produit/1957-martin-000-18-copie/'}]
   },
   {
     slug:'martin-neck-block-stamps',shortTitle:'Neck-Block Stamps',title:'Martin Neck-Block Stamps: Models, Serials And Maker’s Marks',
@@ -92,14 +190,19 @@ trimSection.photos!.push(
 martinGuides[3].sources.push({label:'Vintage Guitars Info: Bracing And Construction Transitions',href:'https://www.guitarhq.com/martin.html'});
 
 export const martinTunerTimeline = [
-  ['Early 1930s', 'Grover planetary gears on early OMs', 'Banjo-style mechanism.'],
-  ['1931 To 1935', 'Clipped-end Grover G-98', 'Button seams and plate bevels.'],
-  ['1936 To 1941', 'Pointed-end Grover G-93 / G-98', 'Earlier and later gear ratios differ.'],
+  ['1800s And Later', 'Side-mounted strip tuners', 'Engraving, gear position and shared plates; shown on an 1860s 2½-17.'],
+  ['Early 1930s', 'Grover planetary gears on early OMs', 'Banjo-style mechanism; check the specific model and year.'],
+  ['1930s', 'Clipped-end Grovers', 'Plate bevels, gear details and button seams; the pictured 1937 set has replacement buttons.'],
+  ['1936 To 1941', 'Pointed-end Grover G-93 / G-98', 'Earlier and later versions differ; compare the photographed 1938 000-18.'],
   ['1939 To 1942', 'Enclosed Grover G-111 on D-28', 'Enclosed gears predate Rotomatics.'],
-  ['1940s', 'Wartime Waverly and Kluson variants', 'Gear thickness, buttons and bushings.'],
-  ['Early 1950s', 'Hexagonal Kluson open plates', 'Wide plates with rolled edges.'],
-  ['1950s', 'Round-end Waverly open gears', 'Rounded plate ends.'],
-  ['Late 1957 Onward', 'Grover Rotomatic', 'Common on 1960s D-28 and D-35.'],
+  ['Wartime 1940s', 'Waverly and Kluson open gears', 'The 1945 000-21 shows Kluson flat plates and plastic buttons.'],
+  ['Postwar 1940s', 'Kluson Deluxe covered gears', 'The 1947 D-28 shows rectangular covers with vertical lettering.'],
+  ['About 1950 To 1957', 'Kluson wafflebacks on D-28', 'Raised grid pattern on enclosed housings; other models followed different schedules.'],
+  ['Early 1950s', 'Wide open-gear baseplates', 'The 1952 00-18 shows octagonal plates with angled corners and raised edges.'],
+  ['1950s', 'Round-end Waverly open gears', '1955 examples show both metal and plastic buttons.'],
+  ['1950s And 1960s', 'Postwar Grover pointed-end Sta-Tites', 'Compare the 1966 0-18 with the prewar pointed-end set.'],
+  ['Late 1957 Onward', 'Grover Rotomatic', 'Common on 1960s D-28 and D-35; the 1965 D-28 shown here retains its original set.'],
+  ['Later Slotted-Headstock Models', 'Classical and 12-string strip tuners', 'Compare large aluminum posts on the 1955 00-18G and twelve machines on the 1969 12-string.'],
   ['Later Production', 'Open and enclosed designs coexist', 'Check model specifications and replacement footprints.'],
 ];
 

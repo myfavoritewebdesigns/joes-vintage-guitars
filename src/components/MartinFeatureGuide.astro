@@ -9,7 +9,7 @@ interface Props { guide: MartinGuide; }
 const { guide } = Astro.props;
 const canonical = `/${guide.slug}/`;
 const socialImage = martinImage(guide.cardImage);
-const updated = { date: '2026-10-12', label: 'October 12, 2026' };
+const updated = guide.updated || { date: '2026-10-12', label: 'October 12, 2026' };
 const schema = [
   {'@context':'https://schema.org','@type':'Article',headline:guide.title,description:guide.description,image:{'@type':'ImageObject',contentUrl:SITE_URL+socialImage.src,width:socialImage.width,height:socialImage.height,caption:guide.cardCaption || guide.sections.flatMap(s=>s.photos || []).find(p=>p.file===guide.cardImage)?.caption || guide.cardText},mainEntityOfPage:SITE_URL+canonical,author:{'@id':SITE_URL+'/about-me/#person'},publisher:{'@id':SITE_URL+'/#organization'},datePublished:guide.published || (guide.slug==='martin-guitar-model-numbers'?'2026-10-05':'2026-10-02'),dateModified:updated.date},
   {'@context':'https://schema.org','@type':'FAQPage',mainEntity:guide.faqs.map(f=>({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}}))}

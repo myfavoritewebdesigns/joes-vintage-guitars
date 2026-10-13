@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-12",
+  "checked": "2026-10-13",
   "photos": [
     {
       "asset": "1944-martin-000-18-10.jpg",
@@ -112,7 +112,7 @@
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Reverb listing",
       "galleryImage": 18,
-      "note": "400px gallery derivative. Listing reports repairs/replaced parts; tuner originality is not established."
+      "note": "400px gallery derivative. Listing reports repairs/replaced parts; tuner originality is not established. Replaced on the tuner guide by Joe’s original 1965 D-28 Grovers on October 13, 2026; original local file retained."
     },
     {
       "asset": "1937-d18-interior-reverb.jpg",
@@ -186,7 +186,7 @@
       "source": "https://drive.google.com/file/d/1BYw-nQtLonPUzUC22gmCnlHoVUvdz1vG/view",
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Google Drive original",
-      "note": "Inspected 6240 by 4160 landscape rear-headstock close-up. All six exposed gears, plates and buttons remain visible on the tuner hub card; no claim that the tuners are original."
+      "note": "Joe confirms October 13, 2026: Grover clipped-end tuners; original baseplates and gears, replacement buttons. Caption, alt text and hub-card metadata now state that distinction."
     },
     {
       "asset": "1914-martin-0-18-bracing.jpg",
@@ -355,6 +355,149 @@
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Existing local article or archive photo",
       "note": "Existing Joe’s shop article identifies the pictured guitar as having come through the shop. Visually inspected October 12: same guitar and shop photography series, with the distinctive amplifier and pedal shelving seen in Joe’s watermarked shop photos."
+    },
+    {
+      "asset": "1938-martin-000-18-tuners.jpg",
+      "source": "https://drive.google.com/file/d/1gaFSBIumLqcRvvN50OZPL6VnYMkD0H0l/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1938-0martin-000-18-8.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "573b4d5650fe560655ea74834452dc4533095a8aef8211549baae3a2837ca68f",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1938 Martin 000-18; Grover open gears with pointed plate ends and oval metal buttons."
+    },
+    {
+      "asset": "1934-martin-tuners.jpg",
+      "source": "https://drive.google.com/file/d/1x7XjRaldbYNfToizW7WKWs25AldzyP0e/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1934-martin-c-2-10.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "12e2dff76644cbe7a713352e035c961b411f3657dd719a5f3e548e221c19ec68",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. Joe identifies this guitar as a 1934 OM-28. Original Drive filename says 1934-martin-c-2-10.jpg. Optional clarification requested; caption follows Joe’s explicit model identification rather than inferring a C-2 conversion from a filename."
+    },
+    {
+      "asset": "1952-martin-00-18-octagonal-tuners.jpg",
+      "source": "https://drive.google.com/file/d/1IF9_PJOHOxNJdnSKyPTb6hYHZIteV6FC/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1952-martin-00-18-12.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "ac8f14ff04ff0cdc055c67cf9d96ceec927294ebad508fe460ca038ea8c80dd7",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1952 Martin 00-18; Joe identifies octagonal baseplates. Photo shows flat plate ends, angled corners, raised edges and exposed gears."
+    },
+    {
+      "asset": "1966-martin-0-18-grover-sta-tite.jpg",
+      "source": "https://drive.google.com/file/d/10CScfdUGeH0RCs605QQiWswMIj6XZzcN/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1966-martin-0-18-9.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "7bb70a14e6e07d2051aad9f99a34a54a41e34988626ebca252930dc8ed76cde9",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1966 Martin 0-18; Joe identifies Grover pointed-end Sta-Tite tuners."
+    },
+    {
+      "asset": "1965-martin-d-28-original-grovers.jpg",
+      "source": "https://drive.google.com/file/d/1--WYsUePmYHtTPH6Xnahl5J24zffwjqF/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1965-martin-d-28-5.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "75218e1bc0f6bdc9686c96dcd68276ded2a9a1fbedcb4432166975ca716f6134",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1965 Martin D-28; Joe explicitly confirms these Grovers are original. Replaces the 1967 D-28 Rotomatic example on the tuner page."
+    },
+    {
+      "asset": "1955-martin-000-18-waverly-tuners.jpg",
+      "source": "https://drive.google.com/file/d/1OIiAZo37fwCu8vQO3Tr8WIKfJ_xRJUpi/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1955-martin-000-18-9.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "c4092ac080d562a8f1e774bc4ee03508df83e3764e6dbaf4348a9b471eafc370",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1955 Martin 000-18; Joe identifies postwar Waverly round-end tuners. Metal buttons visible."
+    },
+    {
+      "asset": "1955-martin-00-18g-classical-tuners.jpg",
+      "source": "https://drive.google.com/file/d/1YwyP79HC9jQlnDUJMT68Il8NjucZi1CJ/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1955-martin-00-18-g-4.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "67948934e3dce4e701cceac9182fa16c88889401b316256365f7e0c00443d575",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1955 Martin 00-18G; Joe identifies Waverly classical tuners and larger aluminum posts. Caption describes front-visible posts, not unseen complete side plates."
+    },
+    {
+      "asset": "1947-martin-00-21-strip-tuners.jpg",
+      "source": "https://drive.google.com/file/d/1LiSFU78irtRLJToVfiWeZdFgsqrMvNc-/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1947-0martin-00-21-8.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "10d0064fb0ea7511bd9cb7d8d9615060d397fe72822268866e5321f38749883d",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1947 Martin 00-21 strip tuners. Joe confirms this model remained 12-fret when other models changed to 14-fret. Headstock photo does not itself show body joint."
+    },
+    {
+      "asset": "1947-martin-d-28-kluson-deluxe.jpg",
+      "source": "https://drive.google.com/file/d/1hPE0SlrxU42P6BIGRBZ7CNQSf3PWvBiK/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1947-martin-d-28-9.jpg",
+      "width": 6240,
+      "height": 4160,
+      "sha256": "71ddd54811a7c0a88811ea3d299cfbf250d108ae28e2a23a0b83e40fdb4073be",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1947 Martin D-28; Joe identifies Kluson Deluxe tuners. Lettering, oil holes and rectangular covers visible."
+    },
+    {
+      "asset": "1955-martin-0-15-plastic-button-tuners.jpg",
+      "source": "https://drive.google.com/file/d/1KWl069h_G0bb-ydeR-kf6OQb7Kj851TH/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1955-martin-0-15-11.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "07c25bd6ecc6a04163d4f858fe784edb33d6ba18f46809421bae56250138ad69",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1955 Martin 0-15; Joe identifies Waverly round-end tuners with plastic buttons. Contrasts with same-year 000-18 metal buttons."
+    },
+    {
+      "asset": "1969-martin-d12-35-strip-tuners.jpg",
+      "source": "https://drive.google.com/file/d/1FtP0TNMEmGiapyE5Mk9K9-saJDqd1hOR/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1969-martin-d-12-35-8.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "e17c528f33aec3c847a0581947046f51cd58d79ab5f194cc951280cfeb46b2d4",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1969 Martin 12-string; original filename identifies D12-35. Caption keeps user’s requested 1969 Martin 12-string identification. Twelve machines visible."
+    },
+    {
+      "asset": "1945-martin-000-21-kluson-flat-plates.jpg",
+      "source": "https://drive.google.com/file/d/1md6QQGY8grlXXw_P3qHAnqdFCnlaWzAA/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1945-martin-000-21-8.jpg",
+      "width": 6240,
+      "height": 4160,
+      "sha256": "e1a3d7ef34dab1bfb64a6c45692f3f93da1e646d3a42d847950feededeb7ca25",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1945 Martin 000-21; Joe identifies Kluson flat-plate tuners. Photo shows rear gears and plastic buttons, not front bushings."
+    },
+    {
+      "asset": "1860s-martin-2-and-a-half-17-strip-tuners.jpg",
+      "source": "https://drive.google.com/file/d/13wClWVo0JxDUugYxtUgCd-fRHi3hOzTb/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1860s-martin-2-1-2-17-16.jpg",
+      "width": 3648,
+      "height": 5472,
+      "sha256": "5368e3cd71917003b77cfe549c5dc7904009e3f63e4a6916aaee46a247a2429c",
+      "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1860s Martin 2½-17; Joe identifies early strip tuners. Side view shows engraved shared plate, three cogs and worm shafts. Button material not inferred."
     }
   ],
   "photoPolicy": "Only Joe’s own photos may appear on the Martin hub and six spokes. A file supplied from Downloads or hosted on the legacy site is not by itself ownership evidence. Keep unknown sources excluded until confirmed."

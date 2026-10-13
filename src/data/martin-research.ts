@@ -38,7 +38,7 @@ export function expandMartinGuides(guides: MartinGuide[]) {
   const add = (owner: MartinGuide, id: string, paragraphs: string[], references: MartinSection['references']) => {
     const target = section(owner, id);
     target.paragraphs.push(...paragraphs);
-    target.references = references;
+    target.references = [...(target.references || []), ...(references || [])];
   };
 
   const logos = guide('martin-headstock-logo-dating-guide');
@@ -70,14 +70,14 @@ export function expandMartinGuides(guides: MartinGuide[]) {
     'Corwin distinguishes early clipped-end Grovers from similar unmarked sets by the plate bevel, button shape and gear screw. On pointed-end Grovers, prewar and postwar examples differ in button seams and the top of the cog. Photograph these small details squarely; the maker’s name and plate silhouette alone leave too much overlap.',
   ], [refs.tuners]);
   add(tuners, 'wartime-tuners', [
-    'His 1943 and early-1944 Kluson examples have unusually thin gears; later wartime examples have thicker, beveled gears. Some Style 17s used three machines on one strip. Record the gear thickness and plate arrangement along with the buttons.',
+    'Corwin’s 1943 and early-1944 Kluson examples have unusually thin gears; later wartime examples have thicker, beveled gears. Some Style 17s used three machines on one strip. Record the gear thickness and plate arrangement along with the buttons.',
   ], [refs.tuners]);
   add(tuners, 'covered-tuners', [
     'Enclosed does not automatically mean postwar: Corwin documents Grover G-111 sets on D-28s from 1939 to 1942. Identify the housing before assigning a Rotomatic date to it.',
   ], [refs.tuners]);
   tuners.sections.push({
     id: 'tuner-photo-comparison', title: 'How To Compare A Complete Tuner Set',
-    paragraphs: ['Start with all six machines in one rear photograph, then take one sharp close-up and a matching front view. That gives you the layout, mechanical details and post hardware without removing anything.'],
+    paragraphs: ['Photograph the complete set, then take one sharp close-up and a matching front view. Include a side view for strip tuners. That gives you the layout, mechanical details and post hardware without removing anything.'],
     points: [
       'Plate: trace the ends, side notches and screw locations. Include any unused holes beside it.',
       'Gear: show the top edge, center screw or rivet, and the worm shaft that turns it.',
