@@ -1,6 +1,6 @@
 # VintageMartin Research Expansion
 
-Reviewed October 6, 2026 for Joe's requested expansion of the serial hub and six identification spokes. Editorial additions live in `src/data/martin-research.ts`; the hub's dating workflow is in its page component. At Joe’s October 13 request, the logo, tuner, neck-block, construction and prewar guides retain the information without visible outside-source mentions, links or credits. This document preserves the research trail internally.
+Reviewed October 6, 2026 for Joe's requested expansion of the serial hub and six identification spokes. Editorial additions live in `src/data/martin-research.ts`; the hub's dating workflow is in its page component. At Joe’s October 13 request, all six identification guides retain the information without visible outside-source mentions, links or credits. This document preserves the research trail internally.
 
 ## Sources And Placement
 

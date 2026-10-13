@@ -285,6 +285,8 @@ martinGuides[2].faqs.push(
 stampSection.link = {href:'/martin-guitar-model-numbers/',label:'Decode Martin Body Sizes And Style Numbers'};
 martinGuides.push({
   slug:'martin-guitar-model-numbers',shortTitle:'Model Numbers',title:'Martin Guitar Model Numbers: Body Sizes And Styles',
+  updated:{date:'2026-10-13',label:'October 13, 2026'},
+  showCreditsAndReferences:false,
   description:'Decode Martin model stamps from 0-18 and 000-21 to D-28 and 000-45. Compare body sizes, style numbers, trim and dated photos.',
   intro:'A traditional Martin model name combines body size with style. D-28 means a dreadnought in Style 28; 000-18 means an Auditorium body in Style 18. The separate serial number gives the year. Read both lines before comparing guitars.',
   cardImage:'images/blog/one-owner-1956-martin-000-21/1956-martin-000-21-neck-block-stamp.jpg',cardText:'Read the body-size and style codes in a model stamp, with an interactive decoder, comparison tables and dated examples.',

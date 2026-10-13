@@ -166,7 +166,7 @@ export function expandMartinGuides(guides: MartinGuide[]) {
     id: 'measure-a-body-without-a-model-stamp', title: 'Measure A Body Without A Model Stamp',
     paragraphs: [
       'Measure straight across the widest part of the lower bout, then record the body length, depth and fret where the neck meets the body. Compare the measurements together. A 12-fret and 14-fret guitar can share a size name but have different upper-bout shapes.',
-      'Corwin’s historical measurements below help narrow an unstamped guitar. They are reference dimensions, not machining tolerances. They also explain why an old Size 1 is smaller than an 0: the numbered sizes and zero-size family do not form a simple ascending scale.',
+      'The historical measurements below help narrow an unstamped guitar. They are reference dimensions, not machining tolerances. They also explain why an old Size 1 is smaller than an 0: the numbered sizes and zero-size family do not form a simple ascending scale.',
     ], table: {
       caption: 'Historical Martin Lower-Bout Widths', headers: ['Body Family', '12-Fret Examples', '14-Fret Examples'],
       rows: [
@@ -183,7 +183,7 @@ export function expandMartinGuides(guides: MartinGuide[]) {
     id: 'dealer-and-historical-model-names', title: 'Dealer Names And Historical Model Codes',
     paragraphs: [
       'A dealer designation may use a different naming system. Early Ditson guitars, for example, used one, two or three digits for three body sizes and 1, 2 or 3 for trim. A Ditson 111 cannot be decoded as a conventional Martin body number followed by Style 11.',
-      'Corwin also documents the spruce-top 0-17S made for Montgomery Ward. That S describes a historical special order; it does not justify applying one modern suffix meaning to all older guitars. Photograph the complete stamp, label and body before trying to shorten the name.',
+      'The spruce-top 0-17S was made for Montgomery Ward. That S describes a historical special order; it does not justify applying one modern suffix meaning to all older guitars. Photograph the complete stamp, label and body before trying to shorten the name.',
       'For an unstamped guitar, write down an identification separately from the evidence: “possible 0-21” is a working description, while a measured body width and photographed trim are observations. Factory records or a matching documented example can resolve the remaining question.',
     ], references: [{href: 'https://www.vintagemartin.com/', label: 'Robert Corwin: Ditson Models'}, refs.styles],
   });
