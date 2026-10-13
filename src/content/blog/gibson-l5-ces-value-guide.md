@@ -68,7 +68,7 @@ The shape of the cutaway is another key feature that changed over time, affectin
 
 -   **Venetian Cutaway (Rounded): 1939-1960 and 1969-Present.** The classic, graceful, rounded cutaway that most people associate with the L-5. It provides easier access to the upper frets.
     
--   **Florentine Cutaway (Sharp): 1960-1969.** In 1960, Gibson switched the L-5 CES (and other archtops like the Super 400 and Byrdland) to a sharp, pointed Florentine cutaway. This was likely an effort to modernize the look.
+-   **Florentine Cutaway (Sharp): 1960-1969.** In 1960, Gibson switched the L-5 CES (and other archtops like the [Super 400](/post/gibson-super-400-ces-history-authentication-value/) and Byrdland) to a sharp, pointed Florentine cutaway. This was likely an effort to modernize the look.
     
 
 ![Close-up of the sharp Florentine cutaway on a 1964 Gibson L-5 archtop guitar in a sunburst finish. The image showcases the elegant flamed maple back, multi-ply binding, and the graceful curve that defines this era of Gibson's flagship model.](../../assets/blog/gibson-l5-ces-value-guide/1964-gibson-L-5-florentine-cutaway-1024x682.jpg)
