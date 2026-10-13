@@ -84,18 +84,18 @@ export function expandMartinGuides(guides: MartinGuide[]) {
 
   const stamps = guide('martin-neck-block-stamps');
   add(stamps, 'maker-stamps', [
-    'In Corwin’s chronology, interior stamps gained “& Co.” after incorporation in 1867 while rear headstock stamps kept the earlier wording. Nazareth generally replaced New York in 1898. Read the location as well as the name.',
+    'Interior stamps gained “& Co.” after incorporation in 1867 while rear headstock stamps kept the earlier wording. Nazareth generally replaced New York in 1898. Read the location as well as the name.',
   ], [refs.stamps]);
   stamps.sections.splice(stamps.sections.length - 1, 0, {
     id: 'pencil-dates-and-case-labels', title: 'Pencil Dates, Case Labels And Dealer Names',
     paragraphs: [
-      'Corwin documents pencil dates beneath many tops from the 1870s into the 1910s, and size/style labels inside coffin-case lids. Photograph the whole inscription: a repair date can record later work, and a case may have been exchanged.',
+      'Pencil dates appear beneath many tops from the 1870s into the 1910s, and size/style labels can appear inside coffin-case lids. Photograph the whole inscription: a repair date can record later work, and a case may have been exchanged.',
       'Record each mark separately: where it is, what it says and whether it is stamped, printed or handwritten. Include a wider interior photograph so someone reviewing the close-up can locate it. Keep uncertain digits in your notes instead of silently filling them in.',
     ], references: [refs.stamps],
     link: {href: '/martin-guitar-model-numbers/#dealer-and-historical-model-names', label: 'Read About Dealer Names And Historical Model Codes'},
   });
   add(stamps, 'unusual-stamps', [
-    'Finish can soften the edges of an impressed mark. Corwin’s finish study shows how added coating can fill the lettering, but also illustrates ordinary differences in stamp depth. Inspect the surrounding surface and repair history before treating a shallow letter as evidence of alteration.',
+    'Added finish can fill the lettering and soften the edges of an impressed mark. Stamp depth also varies naturally. Inspect the surrounding surface and repair history before treating a shallow letter as evidence of alteration.',
   ], [refs.finish]);
 
   const construction = guide('martin-guitar-dating-guide');
