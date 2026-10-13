@@ -51,7 +51,7 @@ export const martinGuides: MartinGuide[] = [
     showCreditsAndReferences:false,
     description:"Identify Martin Grover, Kluson and Waverly tuners with dated photos of clipped-end plates, wartime gears, wafflebacks, Rotomatics and strip tuners.",
     intro:"Compare the plate shape, gears, screws and buttons on the back of the headstock, then check the bushings around the string posts on the front. Martin used overlapping tuner designs, and owners often replaced them. A tuner match needs to agree with the guitar’s model and serial.",
-    cardImage:'1937-martin-0-17-9.jpg',cardAlt:'Original Grover clipped-end plates and gears with replacement buttons on Joe’s 1937 Martin 0-17',cardCaption:'Grover clipped-end tuners on Joe’s 1937 0-17. The baseplates and gears are original; the buttons have been replaced.',cardText:"Compare Grover, Kluson and Waverly plate shapes, gears, buttons and housings in dated photos from Joe’s archive.",
+    cardImage:'1937-martin-0-17-9.jpg',cardAlt:'Original Grover clipped-end plates and gears with replacement buttons on Joe’s 1937 Martin 0-17',cardCaption:'Grover clipped-end tuners on Joe’s 1937 0-17. The baseplates and gears are original; the buttons have been replaced.',cardText:"Compare Grover, Kluson and Waverly plate shapes, gears, buttons and housings in dated photos.",
     sections:[
       {
         id:'slotted-headstock-tuners',title:'Slotted Headstocks And Side-Mounted Strip Tuners',period:'Early Guitars And Later 12-Fret Models',
