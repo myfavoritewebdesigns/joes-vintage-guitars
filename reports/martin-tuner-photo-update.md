@@ -45,3 +45,7 @@ Only the tuner and hub modification dates change. Other spokes retain their exis
 The 220-page build passes. Astro reports zero errors, zero warnings and 88 existing hints. The full rendered copy gate reports zero hard failures and 778 existing report-only warnings. Ownership and rendered-photo checks cover 42 unique Joe photographs and 56 card/photo uses across seven routes. Cluster checks pass for all seven routes, six hub cards, preserved anchors, continuous charts, FAQ/schema parity and 329 internal Martin links.
 
 Final prose and independent visual review results are recorded in the main redesign decision log after review.
+
+## Subsequent Credit Removal Request
+
+Later on October 13, Joe requested removal of external links, credits and other references from the tuner spoke. Public inline references, photo-credit lines, researcher/dealer names and the credits/reference section have therefore been removed. The nearby citations described above record the earlier reviewed version. The source manifest and this research record remain available internally; no external reference URL is rendered in the tuner article. Photos, descriptive captions, dates and internal related-guide links remain.

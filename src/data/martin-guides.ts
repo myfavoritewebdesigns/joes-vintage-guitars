@@ -16,7 +16,7 @@ export function martinImage(path: string): ImageMetadata {
 }
 export interface MartinPhotoData { file: string; title: string; alt: string; caption: string; source?: string; sourceLabel?: string; thirdParty?: boolean; credit?: string; rotate?: 'left'; }
 export interface MartinSection { id: string; anchorIds?: string[]; title: string; period?: string; paragraphs: string[]; points?: string[]; photos?: MartinPhotoData[]; link?: { href: string; label: string }; references?: { href: string; label: string }[]; table?: { caption: string; headers: string[]; rows: string[][] }; }
-export interface MartinGuide { published?: string; updated?: { date: string; label: string }; timeline?: { title: string; intro: string; rows: string[][] }; slug: string; title: string; shortTitle: string; description: string; intro: string; cardImage: string; cardAlt?: string; cardCaption?: string; cardText: string; sections: MartinSection[]; faqs: {q:string;a:string}[]; sources: {label:string;href:string}[]; }
+export interface MartinGuide { published?: string; updated?: { date: string; label: string }; showCreditsAndReferences?: boolean; timeline?: { title: string; intro: string; rows: string[][] }; slug: string; title: string; shortTitle: string; description: string; intro: string; cardImage: string; cardAlt?: string; cardCaption?: string; cardText: string; sections: MartinSection[]; faqs: {q:string;a:string}[]; sources: {label:string;href:string}[]; }
 const drive1930 = 'https://drive.google.com/drive/folders/1Ht20GKwf8TaYshliiFN8EqBemeYrhou6';
 const drive1937 = 'https://drive.google.com/drive/folders/1Y3QKWhEYaiiyG4p7Xd3_lWET35hvS_PG';
 export const reverb1967 = 'https://reverb.com/item/95097608-martin-d-28-1967-vibey-player-great-sound';
@@ -39,6 +39,7 @@ export const martinGuides: MartinGuide[] = [
   {
     slug:'martin-tuner-dating-guide',shortTitle:'Tuner Evolution',title:'Martin Tuner Dating Guide: Grover, Kluson And Waverly',
     updated:{date:'2026-10-13',label:'October 13, 2026'},
+    showCreditsAndReferences:false,
     description:"Identify Martin Grover, Kluson and Waverly tuners with dated photos of clipped-end plates, wartime gears, wafflebacks, Rotomatics and strip tuners.",
     intro:"Compare the plate shape, gears, screws and buttons on the back of the headstock, then check the bushings around the string posts on the front. Martin used overlapping tuner designs, and owners often replaced them. A tuner match needs to agree with the guitar’s model and serial.",
     cardImage:'1937-martin-0-17-9.jpg',cardAlt:'Original Grover clipped-end plates and gears with replacement buttons on Joe’s 1937 Martin 0-17',cardCaption:'Grover clipped-end tuners on Joe’s 1937 0-17. The baseplates and gears are original; the buttons have been replaced.',cardText:"Compare Grover, Kluson and Waverly plate shapes, gears, buttons and housings in dated photos from Joe’s archive.",
@@ -114,7 +115,7 @@ export const martinGuides: MartinGuide[] = [
         id:'covered-tuners',title:'Kluson Deluxe And Waffleback Housings',period:'Postwar D-28 Examples',
         paragraphs:[
           "The 1947 D-28 has Kluson Deluxe covers with the name stamped along the housings. Compare those rectangular covers with the raised grid pattern of the Kluson wafflebacks. Both enclose the gears, but they are different tuner designs.",
-          "Kluson wafflebacks are associated with Martin D-28s from about 1950 to 1957, before the late-1957 change to Grover Rotomatics. Documented original sets on a 1950 D-28 and a 1957 D-28 support that period. Do not apply the D-28 sequence to every 0, 00 or 000 model."
+          "Kluson wafflebacks are associated with Martin D-28s from about 1950 to 1957, before the late-1957 change to Grover Rotomatics. Don’t apply the D-28 sequence to every 0, 00 or 000 model."
         ],
         references:[
           {label:'Folkway: Original Wafflebacks On A 1950 D-28',href:'https://folkwaymusic.com/vintage-instruments/martin%20guitar/1950-martin-d28-0718'},
@@ -140,7 +141,7 @@ export const martinGuides: MartinGuide[] = [
     faqs:[
       {q:'Can I Date A Martin By Its Tuners Alone?',a:'No. Martin used overlapping tuner families, and tuners are often replaced. Compare the serial, model, screw holes, plate shape and bushings together.'},
       {q:'Do Plastic Tuner Buttons Mean A Martin Is From World War II?',a:'No. Wartime Martins can have plastic buttons, but so can later guitars. The 1955 0-15 shown here has Waverly round-end tuners with plastic buttons. Check the complete tuner design and serial number.'},
-      {q:'Which Martins Used Kluson Waffleback Tuners?',a:'Martin D-28s used Kluson wafflebacks from about 1950 to 1957, before the change to Grover Rotomatics. Original sets are documented on 1950 and 1957 D-28s. Other models followed different tuner schedules.'},
+      {q:'Which Martins Used Kluson Waffleback Tuners?',a:'Martin D-28s used Kluson wafflebacks from about 1950 to 1957, before the change to Grover Rotomatics. Other models followed different tuner schedules.'},
       {q:'Are Grover Rotomatics Original On Every Old Martin?',a:'No. The 1965 D-28 shown here has its original Grovers, but other models used different hardware. Compare the housings and mounting holes with the guitar’s model and serial date.'}
     ],
     sources:[{label:'Robert Corwin: Photographed 14-Fret Martin Tuner Comparisons',href:'https://vintagemartin.com/tuners.html'},{label:'Folkway: Original Kluson Wafflebacks On A 1950 D-28',href:'https://folkwaymusic.com/vintage-instruments/martin%20guitar/1950-martin-d28-0718'},{label:'Galerie Casanova: 1957 D-28 With Kluson Wafflebacks',href:'https://www.galerie-casanova.com/en/produit/1957-martin-000-18-copie/'}]

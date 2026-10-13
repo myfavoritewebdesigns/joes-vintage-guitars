@@ -63,17 +63,17 @@ export function expandMartinGuides(guides: MartinGuide[]) {
 
   const tuners = guide('martin-tuner-dating-guide');
   add(tuners, 'slotted-headstock-tuners', [
-    'A shared plate can hold three machines, but that arrangement spans many generations. Corwin’s early examples include French Jerome machines and later German Seidel types. Early-1900s Dinsmore & Jager and Handel-supplied sets can have similar plate outlines, with decoration and buttons varying by model.',
-    'Waverly WG-31 sets appear from about 1925, and related designs continued on later 12-fret guitars. Look at which side of the cog the button shaft sits on, the shape of the shaft support, plate engraving and mounting-screw positions. Corwin uses those details to distinguish earlier and later examples, including 1960s New Yorkers.',
+    'A shared plate can hold three machines, but that arrangement spans many generations. Early Martin sets include French Jerome machines and later German Seidel types. Early-1900s Dinsmore & Jager and Handel-supplied sets can have similar plate outlines, with decoration and buttons varying by model.',
+    'Waverly WG-31 sets appear from about 1925, and related designs continued on later 12-fret guitars. Look at which side of the cog the button shaft sits on, the shape of the shaft support, plate engraving and mounting-screw positions. These details help separate early sets from later versions, including those on 1960s New Yorkers.',
   ], [refs.tuners12]);
   add(tuners, 'open-gear-tuners', [
-    'Corwin distinguishes early clipped-end Grovers from similar unmarked sets by the plate bevel, button shape and gear screw. On pointed-end Grovers, prewar and postwar examples differ in button seams and the top of the cog. Photograph these small details squarely; the maker’s name and plate silhouette alone leave too much overlap.',
+    'The plate bevel, button shape and gear screw help distinguish early clipped-end Grovers from similar unmarked sets. On pointed-end Grovers, prewar and postwar examples differ in button seams and the top of the cog. Photograph these small details squarely; the maker’s name and plate silhouette alone leave too much overlap.',
   ], [refs.tuners]);
   add(tuners, 'wartime-tuners', [
-    'Corwin’s 1943 and early-1944 Kluson examples have unusually thin gears; later wartime examples have thicker, beveled gears. Some Style 17s used three machines on one strip. Record the gear thickness and plate arrangement along with the buttons.',
+    'Kluson sets from 1943 and early 1944 can have unusually thin gears; later wartime versions have thicker, beveled gears. Some Style 17s used three machines on one strip. Record the gear thickness and plate arrangement along with the buttons.',
   ], [refs.tuners]);
   add(tuners, 'covered-tuners', [
-    'Enclosed does not automatically mean postwar: Corwin documents Grover G-111 sets on D-28s from 1939 to 1942. Identify the housing before assigning a Rotomatic date to it.',
+    'Enclosed doesn’t automatically mean postwar: Martin used Grover G-111 sets on D-28s from 1939 to 1942. Identify the housing before assigning a Rotomatic date to it.',
   ], [refs.tuners]);
   tuners.sections.push({
     id: 'tuner-photo-comparison', title: 'How To Compare A Complete Tuner Set',
