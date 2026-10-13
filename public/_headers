@@ -32,6 +32,16 @@
 /scripts/*
   Cache-Control: public, max-age=3600
 
+# Notifications must compare the currently deployed content, not stale JSON.
+/indexnow-manifest.json
+  Cache-Control: no-store
+  X-Robots-Tag: noindex
+
+/3df11ef7750025bf64f2508054c2d577.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Robots-Tag: noindex
+
 # Internal v2 serial-tool test page: keep out of search engines at the edge
 # too (the page also sets meta robots noindex and is sitemap-excluded).
 /fender-serial-tool-v2/
