@@ -53,7 +53,7 @@ The years between roughly 1935 and 1960 represent the peak of Gibson's collectib
 
 ![Pre-war Gibson Super 400 archtop guitar, one of the most collectible vintage Gibson acoustics](../../assets/blog/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/Super-400.jpg)
 
-<figcaption>A pre-war Gibson Super 400, one of the most collectible archtops ever built.</figcaption>
+<figcaption>A pre-war <a href="/post/gibson-super-400-ces-history-authentication-value/">Gibson Super 400</a>, one of the most collectible archtops ever built.</figcaption>
 
 </figure>
 

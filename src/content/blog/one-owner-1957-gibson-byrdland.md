@@ -66,7 +66,7 @@ What McCarty's team built for them was essentially a slimmed-down L-5. The body 
 
 </figure>
 
-It sat right at the top of Gibson's electric line, just below the [L-5CES](/post/gibson-l5-ces-value-guide/) and the Super 400CES, and it was priced to match. This was not a guitar most people owned. It was a professional's instrument, or a serious enthusiast's.
+It sat right at the top of Gibson's electric line, just below the [L-5CES](/post/gibson-l5-ces-value-guide/) and the [Super 400CES](/post/gibson-super-400-ces-history-authentication-value/), and it was priced to match. This was not a guitar most people owned. It was a professional's instrument, or a serious enthusiast's.
 
 There is one more thing about 1957 that makes this guitar a nice little time capsule. It was built the same year the modern electric guitar was taking shape at that same Kalamazoo factory. 1957 is when Gibson began fitting Seth Lover's new humbucking pickup, the famous "PAF," to its guitars, the pickup that went into Les Pauls and changed electric music. The Byrdland itself switched to humbuckers in early 1958. Don's, built in 1957, still wears the pickups from just before that change: Gibson's gold Alnico "staple" pickups, the same units used on the L-5CES and Super 400CES. So this guitar sits right on the hinge between two eras, wearing the last of the old design in the last year it was used.
 

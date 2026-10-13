@@ -364,7 +364,7 @@ From 1955 to 1961, Gibson also used a Factory Order Number system on higher-grad
 
 ### The "Flowerpot" (Torch) Inlay
 
-The Byrdland carries the **pearl "flowerpot" inlay** on the headstock face, a design also called the "torch", the same used on the L-5 and Super 400. This inlay is a complex, multi-element mother-of-pearl piece with a flared base, stem, and blooming petals at the top. On authentic Byrdlands, this inlay should be:
+The Byrdland carries the **pearl "flowerpot" inlay** on the headstock face, a design also called the "torch", the same used on the L-5 and [Super 400](/post/gibson-super-400-ces-history-authentication-value/). This inlay is a complex, multi-element mother-of-pearl piece with a flared base, stem, and blooming petals at the top. On authentic Byrdlands, this inlay should be:
 
 -   Genuine mother-of-pearl, not abalone (which shows more color iridescence) and not plastic
 -   Set flush or very slightly below the headstock surface with no obvious glue gaps

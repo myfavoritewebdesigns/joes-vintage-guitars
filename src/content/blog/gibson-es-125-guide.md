@@ -250,7 +250,7 @@ The ES-125 never picked up a signature player the way the ES-175 attached itself
 
 <h2 id="es125-legacy">Legacy & Why It Matters Now</h2>
 
-The ES-125 was never glamorous. It didn't have the ornate inlays of a Super 400 or the historical weight of an L-5, and it never became a pop-culture object the way the ES-335 did. What it had was a thirty-year run of being the guitar working players actually bought and actually used.
+The ES-125 was never glamorous. It didn't have the ornate inlays of a [Super 400](/post/gibson-super-400-ces-history-authentication-value/) or the historical weight of an L-5, and it never became a pop-culture object the way the ES-335 did. What it had was a thirty-year run of being the guitar working players actually bought and actually used.
 
 That counts for something now. The vintage market is full of boutique reissues and accurate-spec recreations, but an original ES-125 (especially a 50s full-depth example with its original P-90 and a neck that fills your hand) gives you something the reissues can't manufacture: actual age. The P-90 hasn't been rewound. The caps haven't been replaced. The nitro has been on the body for sixty-plus years and looks like it. None of that is sentiment. It's just time.
 

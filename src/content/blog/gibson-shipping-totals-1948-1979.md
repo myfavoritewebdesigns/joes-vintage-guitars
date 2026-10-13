@@ -299,7 +299,7 @@ Because high-trim models like the 345 and 355, with VariTone circuits and gold h
 
 <h2 id="premier-arch-48-69">Gibson L-5CES, Super 400CES & L-7 McCarty (1948-1969)</h2>
 
-The 1948 to 1969 shipping totals for the **L-5CES, Super 400CES, and L-7 McCarty** cover Gibson’s top-of-the-line archtops. Because these were the most expensive models in the catalog, production stayed very low, so the data matters to collectors. Whether you are tracking a rare **L-7 McCarty assembly** or a 1950s “non-cutaway” example, these Kalamazoo ledger totals are the basis for an appraisal and the proof of scarcity that backs up premium prices.
+The 1948 to 1969 shipping totals for the **L-5CES, Super 400CES, and L-7 McCarty** cover Gibson’s top-of-the-line archtops. Because these were the most expensive models in the catalog, production stayed very low, so the data matters to collectors. Whether you are tracking a rare **L-7 McCarty assembly** or a 1950s “non-cutaway” example, these Kalamazoo ledger totals are the basis for an appraisal and the proof of scarcity that backs up premium prices. For what the Super 400CES columns below mean in money, see the [vintage Gibson Super 400 value guide](/post/gibson-super-400-ces-history-authentication-value/).
 
 > Note: “L-7e” refers to Gibson L-7 guitars that shipped with a “McCarty” electric pickguard.
 
@@ -508,7 +508,7 @@ The shipping totals for the Gibson ES-300, ES-330, ES-350, and Byrdland (1948 to
 
 <h2 id="acoustic-arch-48-79">Gibson Acoustic L-4, L-5, L-7 & Super 400 Shipment Totals (1948-1979)</h2>
 
-When you get into the **Gibson Acoustic L-4, L-5, L-7, and Super 400 shipment totals** from 1948 to 1979, you are looking at the carved-top instruments at the top of Gibson’s line in Kalamazoo. These records help any owner document the scarcity of a pure “acoustic” Super 400 or L-5, which were often made in even smaller numbers than their electric versions. Because these archtops sat at the top of Gibson’s price list, production was always limited, which puts them at the center of a high-end appraisal. Whether you are holding a 1950s L-7 with its “parallel” bracing or a late-sixties L-4C with a Venetian cutaway, these official shipping ledgers are the most effective way to confirm the rarity and value of your instrument.
+When you get into the **Gibson Acoustic L-4, L-5, L-7, and Super 400 shipment totals** from 1948 to 1979, you are looking at the carved-top instruments at the top of Gibson’s line in Kalamazoo. These records help any owner document the scarcity of a pure “acoustic” Super 400 or L-5, which were often made in even smaller numbers than their electric versions. Because these archtops sat at the top of Gibson’s price list, production was always limited, which puts them at the center of a high-end appraisal. Whether you are holding a 1950s L-7 with its “parallel” bracing or a late-sixties L-4C with a Venetian cutaway, these official shipping ledgers are the most effective way to confirm the rarity and value of your instrument. The [Super 400 value guide](/post/gibson-super-400-ces-history-authentication-value/) works these acoustic columns into dated price ranges, era by era.
 
 | Model/Year | Sunburst | Natural |
 | --- | --- | --- |
