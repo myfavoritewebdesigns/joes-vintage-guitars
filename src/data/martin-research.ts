@@ -42,24 +42,20 @@ export function expandMartinGuides(guides: MartinGuide[]) {
   };
 
   const logos = guide('martin-headstock-logo-dating-guide');
-  section(logos, 'early-gold-script').paragraphs[0] = 'The first front logos, introduced in 1932, were printed in gold leaf without a black border. The outlined gold decal followed. Corwin’s examples show front logos overlapping with rear headstock stamps through the 1934 transition.';
+  section(logos, 'early-gold-script').paragraphs[0] = 'The first front logos, introduced in 1932, were printed in gold leaf without a black border. The outlined gold decal followed. Front logos overlapped with rear headstock stamps through the 1934 transition.';
   section(logos, 'early-gold-script').references = [refs.stamps];
   add(logos, 'outlined-script', [
-    'Compare the script’s width relative to the headstock, including the space between the outer letters and the edges. Corwin shows different logo sizes on 1934 examples of the same model, so size needs a same-model comparison.',
+    'Compare the script’s width relative to the headstock, including the space between the outer letters and the edges. Logo sizes can differ even on guitars of the same model and year, so size alone won’t establish a date.',
   ], [refs.stamps]);
   add(logos, 'vertical-pearl', [
-    'Corwin illustrates an earlier fern design on a 1902 00-42S, followed by torch or flowerpot patterns. His 1931 C-1 archtop prototype has pearl MARTIN lettering; C and F were added in 1932. During the early 1930s, lettering spread to solid-headstock Style 45 guitars while slotted examples retained the torch.',
+    'An early fern design appears on the 1902 00-42S, followed by torch or flowerpot patterns. The 1931 C-1 archtop prototype has pearl MARTIN lettering; C and F were added in 1932. During the early 1930s, lettering spread to solid-headstock Style 45 guitars while slotted examples retained the torch.',
     'Read the design before trying to date it: a floral torch, separate vertical letters and flowing gold script are three different treatments. Photograph the entire pattern, including its lower end above the nut. A partial close-up can hide the detail that distinguishes them.',
   ], [refs.inlays]);
-  logos.sections.splice(logos.sections.length - 1, 0, {
-    id: 'headstock-shape-and-volute', title: 'Headstock Shape, Slot Ends And The Volute',
-    paragraphs: [
+  add(logos, 'headstock-shape-and-volute', [
       'The small dart behind the headstock is called a volute. On early cedar necks it helped reinforce a separate headstock joint. As one-piece mahogany necks arrived around 1916, the dart continued as decoration on some styles. Its presence does not mean the neck has an adjustable rod.',
-      'Corwin documents rounded slot ends on lower styles from 1919, alongside square-ended slots on other models. He also shows solid headstocks with friction pegs on 19th-century guitars. A solid headstock therefore needs more context than a simple “1930s or later” date.',
+      'Rounded slot ends appear on lower styles from 1919, alongside square-ended slots on other models. Some 19th-century Martins have solid headstocks with friction pegs, so a solid headstock doesn’t automatically mean “1930s or later.”',
       'Take a straight-on photograph and a side view. Include the slot ends, headstock corners, rear dart and any joint line. Compare those details with the logo instead of using the headstock outline alone.',
-    ], references: [refs.heads],
-    link: {href: '/martin-tuner-dating-guide/#slotted-headstock-tuners', label: 'Compare Slotted-Headstock Tuners'},
-  });
+  ], [refs.heads]);
 
   const tuners = guide('martin-tuner-dating-guide');
   add(tuners, 'slotted-headstock-tuners', [

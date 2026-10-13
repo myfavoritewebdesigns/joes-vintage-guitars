@@ -80,7 +80,7 @@
       "source": "https://drive.google.com/file/d/1gr0uiWsL0fNPLsgmnOihIJ0S5VhGjMlZ/view?usp=drivesdk",
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Google Drive original",
-      "note": "Year and model follow the archive folder; visible parts are described without assuming originality."
+      "note": "Joe identifies this as an example of a gold logo with an outline on a 1937 Martin 0-17 (October 13, 2026). Caption, title and alt text updated accordingly, replacing the earlier archive/originality caveat."
     },
     {
       "asset": "1967-d28-backstrip.jpg",
@@ -104,7 +104,7 @@
       "owner": "Joe’s Vintage Guitars",
       "sourceType": "Reverb listing",
       "galleryImage": 13,
-      "note": "400px gallery derivative. Listing reports repairs/replaced parts; tuner originality is not established."
+      "note": "400px gallery derivative. Listing reports repairs/replaced parts; tuner originality is not established. Replaced on the logo guide by Joe’s selected 1965 D-28 logo photograph on October 13, 2026. Original local asset retained."
     },
     {
       "asset": "1967-d28-tuners.jpg",
@@ -498,6 +498,28 @@
       "height": 5472,
       "sha256": "5368e3cd71917003b77cfe549c5dc7904009e3f63e4a6916aaee46a247a2429c",
       "note": "Explicitly selected by Joe for the tuner guide on October 13, 2026; downloaded unchanged and visually inspected. 1860s Martin 2½-17; Joe identifies early strip tuners. Side view shows engraved shared plate, three cogs and worm shafts. Button material not inferred."
+    },
+    {
+      "asset": "1965-d28-logo.jpg",
+      "source": "https://drive.google.com/file/d/19WhgkYloyQcy-ca8M2TK6rgWLIP4WY5V/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1965-martin-d-28-20.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "a1bb280732b9983612f318560cbf58acebd8f45d01e0d35afc65304fef407644",
+      "note": "Selected by Joe for the logo guide on October 13, 2026; downloaded unchanged and visually inspected. Both originals carry Joe’s shop watermark. Joe identifies the guitar as a 1965 D-28 and requests this image instead of the 1967 logo. Gold script, dark letter borders and EST. 1833 are clearly visible."
+    },
+    {
+      "asset": "1955-d28-volute.jpg",
+      "source": "https://drive.google.com/file/d/1q2Dih5HJej1mU2DDOJBM1DblCqDq7oLT/view",
+      "owner": "Joe’s Vintage Guitars",
+      "sourceType": "Google Drive original selected by Joe",
+      "originalFilename": "1955-martin-d-28-14.jpg",
+      "width": 5472,
+      "height": 3648,
+      "sha256": "e6a2dc926e5e029f2550cfce0ed437445a0e1dd4e0e4a1e3510c58c4bafbaa5d",
+      "note": "Selected by Joe for the logo guide on October 13, 2026; downloaded unchanged and visually inspected. Both originals carry Joe’s shop watermark. Joe selects this photo specifically to illustrate the volute. Original archive filename identifies a 1955 D-28. The pointed dart, central ridge and sloping sides are visible below the lowest tuners."
     }
   ],
   "photoPolicy": "Only Joe’s own photos may appear on the Martin hub and six spokes. A file supplied from Downloads or hosted on the legacy site is not by itself ownership evidence. Keep unknown sources excluded until confirmed."
