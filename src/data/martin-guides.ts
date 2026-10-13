@@ -2,13 +2,17 @@ import type { ImageMetadata } from 'astro';
 import { resolveImage } from '../lib/images';
 import { expandMartinGuides } from './martin-research';
 // Use only Joe’s documented photo sets. See reports/martin-dating-photo-sources.json.
-// Downloads interiors remain excluded until Joe confirms ownership.
+// Joe requested the Downloads interiors again on October 13, 2026.
 const newPhotos = import.meta.glob<{ default: ImageMetadata }>([
   '../assets/martin-dating/1930-martin-0-21-*.jpg',
   '../assets/martin-dating/1937-martin-0-17-*.jpg',
   '../assets/martin-dating/1967-d28-*.jpg',
   '../assets/martin-dating/1965-d28-logo.jpg',
   '../assets/martin-dating/1955-d28-volute.jpg',
+  '../assets/martin-dating/1914-martin-0-18-*.jpg',
+  '../assets/martin-dating/1936-martin-00-21-*.jpg',
+  '../assets/martin-dating/1954-martin-00-17-bracing.jpg',
+  '../assets/martin-dating/1955-martin-d-18-bracing.jpg',
   '../assets/martin-tuners/*.jpg',
 ], { eager: true });
 export function martinImage(path: string): ImageMetadata {
@@ -17,8 +21,8 @@ export function martinImage(path: string): ImageMetadata {
   return image;
 }
 export interface MartinPhotoData { file: string; title: string; alt: string; caption: string; source?: string; sourceLabel?: string; thirdParty?: boolean; credit?: string; rotate?: 'left'; }
-export interface MartinSection { id: string; anchorIds?: string[]; title: string; period?: string; paragraphs: string[]; points?: string[]; photos?: MartinPhotoData[]; link?: { href: string; label: string }; references?: { href: string; label: string }[]; table?: { caption: string; headers: string[]; rows: string[][] }; }
-export interface MartinGuide { published?: string; updated?: { date: string; label: string }; showCreditsAndReferences?: boolean; timeline?: { title: string; intro: string; rows: string[][] }; slug: string; title: string; shortTitle: string; description: string; intro: string; cardImage: string; cardAlt?: string; cardCaption?: string; cardText: string; sections: MartinSection[]; faqs: {q:string;a:string}[]; sources: {label:string;href:string}[]; }
+export interface MartinSection { id: string; anchorIds?: string[]; title: string; period?: string; paragraphs: string[]; points?: string[]; photos?: MartinPhotoData[]; photoLayout?: 'beside'; inspection?: { title: string; steps: string[]; note: string }; link?: { href: string; label: string }; references?: { href: string; label: string }[]; table?: { caption: string; headers: string[]; rows: string[][] }; }
+export interface MartinGuide { published?: string; updated?: { date: string; label: string }; showCreditsAndReferences?: boolean; photoHeight?: number; timeline?: { title: string; intro: string; rows: string[][] }; slug: string; title: string; shortTitle: string; description: string; intro: string; cardImage: string; cardAlt?: string; cardCaption?: string; cardText: string; sections: MartinSection[]; faqs: {q:string;a:string}[]; sources: {label:string;href:string}[]; }
 const drive1930 = 'https://drive.google.com/drive/folders/1Ht20GKwf8TaYshliiFN8EqBemeYrhou6';
 const drive1937 = 'https://drive.google.com/drive/folders/1Y3QKWhEYaiiyG4p7Xd3_lWET35hvS_PG';
 export const reverb1967 = 'https://reverb.com/item/95097608-martin-d-28-1967-vibey-player-great-sound';
@@ -319,6 +323,9 @@ export const prewarMartinGuide: MartinGuide = {
   slug:'prewar-martin-guitar-guide', shortTitle:'Prewar Martins',
   title:'Prewar Martin Guitar Guide: Bracing And Identification',
   published:'2026-10-06',
+  updated:{date:'2026-10-13',label:'October 13, 2026'},
+  showCreditsAndReferences:false,
+  photoHeight:620,
   description:'Identify prewar Martin guitars by X-brace position, scalloping, bridge plates, neck width and reinforcement. Compare dated photos and repair evidence.',
   intro:'Date a claimed prewar Martin from its serial and model, then check the construction inside and outside the guitar. Brace position, brace carving, neck dimensions and repairs can distinguish instruments that share the same model name.',
   cardImage:'1937-martin-0-17-1.jpg',
@@ -326,31 +333,46 @@ export const prewarMartinGuide: MartinGuide = {
   cardCaption:'The body, bridge and pickguard on Joe’s 1937 0-17, photographed in its case.',
   cardText:'Identify prewar and wartime Martins through X-bracing, scalloped profiles, bridge plates, neck changes and repair history.',
   sections:[
-    {id:'prewar-martin',title:'What Prewar Means For A Martin Guitar',paragraphs:[
+    {id:'prewar-martin',title:'What Prewar Means For A Martin Guitar',photoLayout:'beside',paragraphs:[
       'Collectors commonly use prewar for 1930s Martins and sometimes include wartime examples made before the late-1944 change away from scalloped braces. Record the actual production year. The label does not describe one fixed set of specifications.',
       'Separate the body family from the period. A small-body 0-17, an OM and a dreadnought need their own construction comparisons. A slotted headstock or a 12-fret joint can also appear on later guitars.',
-      'The 1937 0-17 below is a small-body example with a mahogany top, back and sides. Its 14-fret body joint and solid headstock are visible here. The front view doesn’t reveal its internal bracing.',
+      'This 1937 0-17 is a small-body example with a mahogany top, back and sides. Its 14-fret body joint and solid headstock are visible here. The front view doesn’t reveal its internal bracing.',
     ],photos:[p('1937-martin-0-17-2.jpg','1937 0-17: Prewar Small-Body Martin','Full front of Joe’s 1937 Martin 0-17 with a mahogany top and 14-fret body joint','This 1937 0-17 shows the body joint, solid headstock and rectangular bridge. Inspect the interior separately to establish the brace layout.',drive1937)],link:{href:'/martin-guitar-model-numbers/',label:'Identify The Body Size And Style Number'}},
     {id:'x-brace-position-and-neck-width',title:'Forward And Rearward X-Brace Position',paragraphs:[
       'The main top braces cross below the soundhole. Forward and rearward describe where that crossing sits. Scalloped describes the carved profile of a brace. Record position and profile separately.',
       'Martin moved the dreadnought X-brace crossing farther from the soundhole during 1938. A rear-braced late-1930s D-18 or D-28 can still have scalloped braces. Small-body and 12-fret models need their own chronology.',
       'To document the position, photograph the soundhole edge and complete X crossing with a ruler in the same plane. Record the measurement and the points used. An isolated photograph of a tone bar cannot establish where the X crosses.',
-    ],link:{href:'https://www.guitarhq.com/martin.html',label:'See Dated 1938 And 1939 Dreadnought Examples'}},
+    ],inspection:{title:'Check X-Brace Position With Your Index Finger',steps:[
+      'Reach gently through the soundhole with your index finger and slide it toward the bridge, along the underside of the top, until the fingertip touches the V where the two main braces meet. Don’t press against the braces.',
+      'With your fingertip at that V, note where the bridge-side edge of the soundhole falls on your finger. Count knuckles from the fingertip toward your hand.',
+      'If the soundhole edge is near your first knuckle, the shorter reach suggests forward-shifted bracing. If it is closer to your second knuckle, the longer reach suggests rear-shifted bracing.',
+    ],note:'This is a quick comparison, especially on similar 14-fret dreadnoughts. Finger length, body size and soundhole position vary. Confirm the distance with a ruler and compare the same model and body joint; the finger check does not identify scalloping.'},photos:[
+      p('1936-martin-00-21-bridge-plate-and-bracing.jpg','1936 00-21: X Crossing And Bridge Plate','Interior of a 1936 Martin 00-21 showing the soundhole edge, X-brace crossing and bridge plate','The V below the soundhole leads to the X crossing. The bridge plate and six pins sit farther back between the lower arms. This 12-fret 00-21 needs a different comparison from a 14-fret dreadnought.'),
+      p('1955-martin-d-18-bracing.jpg','1955 D-18: Postwar Brace Layout','Interior of a 1955 Martin D-18 showing the soundhole edge, X crossing and bridge pins','Use the visible soundhole edge and X crossing to locate the reach described above. This postwar D-18 provides a dreadnought comparison; the camera angle alone does not provide an exact distance.'),
+    ]},
     {id:'bracing-and-bridge-plates',title:'Scalloped Braces And The Postwar Transition',paragraphs:[
       'Scalloped braces have scooped sections between higher areas. Tapered braces reduce in height toward their ends. Follow the whole visible profile; a dark patch or a camera angle can hide the carving.',
       'Regular vintage flat-tops began changing from scalloped to tapered braces in late 1944. Tapered profiles gradually became straighter through the late 1940s. A 1946 herringbone D-28 therefore belongs to a different bracing period from a 1930s example.',
       'When comparing two guitars, inspect the same parts of their brace layouts. A close-up of a lower tone bar cannot establish the X-brace position. Photograph the complete crossing separately, with a measurement scale.',
       'Later brace shaving can change the profile. Compare repair records with the wood itself before treating visible scalloping as factory work.',
-    ],link:{href:'https://www.martin-gitarren.de/files/downloads/martinstory.pdf',label:'Read Martin’s Bracing History On Page 12'}},
+    ],photos:[
+      p('1936-martin-00-21-bridge-plate-and-bracing.jpg','1936 00-21: Scalloped Brace Profiles','Carved brace profiles inside a 1936 Martin 00-21','Follow the lower arms of the X and the smaller bars behind the plate to see the changing brace height. Keep the brace profile separate from the position of the crossing.'),
+      p('1954-martin-00-17-bracing.jpg','1954 00-17: Postwar Brace Profiles','Postwar X-braces and light-colored bridge pins inside a 1954 Martin 00-17','The lower X-brace arms have a straighter profile than the scooped 1936 example. Both photos show small bodies, but the 00-17 has a mahogany top and belongs to a later construction period.'),
+    ]},
     {id:'bridge-plate-inspection',title:'Bridge Plates, Pin Holes And Repairs',paragraphs:[
-      'The bridge plate lies against the underside of the top, below the bridge. Photograph its outline, the pin holes, string ball ends and the surrounding wood. Keep the full plate in view so its size and any added patches can be compared.',
+      'The bridge plate lies against the underside of the top, below the bridge. It supports that area and gives the string ball ends a hard bearing surface. Photograph its outline, the pin holes, string ball ends and the surrounding wood. Keep the full plate in view so its size and any added patches can be compared.',
       'Ask whether the plate was replaced, capped or repaired and whether nearby braces were reglued or shaved. An added patch can hide the original plate surface. A photograph alone may not establish the wood species or the history of every glue joint.',
+      'Tucked ends extend into small recesses in the X-braces. Photograph those joints from both sides, along with the front and rear edges. The pin row alone can hide an oversized replacement or an added layer.',
+      'Look for worn or enlarged pin holes, cracks between holes, a cap over the plate and ball ends pulling into the wood. Include a low side view to show thickness and any separation from the top. A close view of the string attachments and a wider view of the whole plate answer different questions.',
+    ],photos:[
+      p('1914-martin-0-18-bracing.jpg','1914 0-18: Bridge Plate And Pin Row','Narrow bridge plate beneath six dark bridge pins inside a 1914 Martin 0-18','The light-colored plate runs across the top between the X-brace arms. Its front and rear edges, pin row and surrounding braces are visible together.'),
+      {...p('1936-martin-00-21-bridge-plate.jpg','1936 00-21: Bridge Plate From The Side','Side-angle interior view of the bridge plate, pins and X-braces in a 1936 Martin 00-21','This second angle shows the plate surface and string attachments beneath the bridge. Compare it with the wider 1936 view above when inspecting the outline and joints.'),rotate:'left'},
     ],link:{href:'/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/',label:'Compare Neck Angle And Other Structural Repairs'}},
     {id:'prewar-necks-and-frets',title:'Nut Width, Body Joints And Frets',paragraphs:[
       'Many 14-fret necks narrowed from 1 3/4 inches to 1 11/16 inches at the nut during 1939. Measure across the fingerboard at the nut, rather than between the outer strings. The 1938 brace shift and 1939 neck change are separate events.',
       'Check the fret where the neck meets the body before comparing dimensions. Neck width, neck profile and string spacing describe different measurements. A replacement nut may change string spacing without changing the fingerboard width.',
       'Martin changed from bar frets to T-frets on many models during 1934. Refretting can alter that evidence. The photographed 0-17 below clearly shows its round markers and visible fret crowns; this view alone does not establish the shape of the metal hidden in each fret slot.',
-    ],photos:[{...trimSection.photos![1],caption:'Round fingerboard dots and fret crowns on Joe’s 1937 0-17. The hidden part of a fret cannot be identified from this top view.'}],link:{href:'https://vintagemartin.com/necks.html',label:'Compare Corwin’s Neck And Fret Examples'}},
+    ],photos:[{...trimSection.photos![1],caption:'Round fingerboard dots and fret crowns on Joe’s 1937 0-17. The hidden part of a fret cannot be identified from this top view.'}],link:{href:'/martin-guitar-dating-guide/#neck-joint-and-frets',label:'Compare 12-Fret And 14-Fret Body Joints'}},
     {id:'prewar-neck-reinforcement',title:'Ebony Reinforcement And Steel T-Bars',paragraphs:[
       'Martin introduced steel T-bar neck reinforcement with the move to T-frets in 1934. Wartime shortages brought ebony reinforcement back on many guitars, followed by a postwar return to steel. The serial and model help narrow which system to expect.',
       'These bars are hidden inside the neck and are not adjustable truss rods. A soundhole photograph does not reveal their cross-section. Ask for repair documentation rather than assigning a bar type from an exterior view.',
@@ -358,7 +380,7 @@ export const prewarMartinGuide: MartinGuide = {
     {id:'prewar-woods-and-trim',title:'Model Woods, Herringbone And Pearl Trim',paragraphs:[
       'Prewar D-18s have mahogany backs and sides with plainer Style 18 appointments. D-28s use Brazilian rosewood and herringbone top trim. The original D-45 run, made from 1933 to 1942, adds extensive pearl decoration. Confirm the style from the guitar and records before comparing value.',
       'Herringbone outlasted the change away from scalloped bracing. It also returned on later models, including the HD-28. Pearl, herringbone and a historic model name are not enough to establish a prewar production date.',
-      'The 1930 0-21 below has Brazilian rosewood, as identified in Joe’s archive. Wood identification needs the model and history as well as grain; finish and lighting can change its appearance.',
+      'The 1930 0-21 below has Brazilian rosewood. Wood identification needs the model and history as well as grain; finish and lighting can change its appearance.',
     ],photos:[{...construction.sections.find(section=>section.id==='tonewoods')!.photos![0],caption:'Brazilian rosewood on Joe’s 1930 0-21. The dark grain and center strip are visible across the back.'}],link:{href:'/martin-guitar-dating-guide/#tonewoods',label:'Compare Brazilian Rosewood, Indian Rosewood And Mahogany'}},
     {id:'prewar-bridges-and-repairs',title:'Bridge Shape, Original Parts And Repair History',paragraphs:[
       'A bridge’s outline and saddle arrangement are separate details. The rectangular bridge on this 1937 0-17 differs from the belly bridge on Joe’s 1930 0-21. Match the exact model rather than treating every rectangular bridge as older than every belly bridge.',

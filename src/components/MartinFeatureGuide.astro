@@ -26,14 +26,18 @@ const schema = [
   {guide.slug === 'martin-guitar-model-numbers' && <MartinModelDecoder />}
   {guide.slug === 'martin-tuner-dating-guide' && <section class="mtn-section"><div class="mtn-wrap"><h2>Martin Tuner Timeline</h2><p>Martin used several tuner designs at the same time. Match the period and model in the table, then check the mounting holes for evidence of replacements.</p><div class="mtn-table-scroll"><table><caption class="sr-only">Martin Tuner Timeline</caption><thead><tr><th scope="col">Period</th><th scope="col">Hardware Family</th><th scope="col">Detail To Check</th></tr></thead><tbody>{martinTunerTimeline.map(row=><tr>{row.map(cell=><td>{cell}</td>)}</tr>)}</tbody></table></div></div></section>}
 
-  {guide.sections.map((section,index)=><section class:list={['mtn-section',{'mtn-section--tint':index%2===1}]} id={section.id}>{section.anchorIds?.map(id=><span id={id} aria-hidden="true"></span>)}<div class="mtn-wrap">
+  {guide.sections.map((section,index)=><section class:list={['mtn-section',{'mtn-section--tint':index%2===1}]} id={section.id}>{section.anchorIds?.map(id=><span id={id} aria-hidden="true"></span>)}<div class:list={['mtn-wrap', {'mtn-section-beside':section.photoLayout === 'beside'}]}>
+    <div class="mtn-section-copy">
     <div class="mtn-section-head">{section.period && <p class="mtn-kicker">{section.period}</p>}<h2>{section.title}</h2></div>
     {section.paragraphs.map(text=><p>{text}</p>)}
     {section.points && <ul>{section.points.map(text=><li>{text}</li>)}</ul>}
+    {section.inspection && <aside class="mtn-inspection" aria-labelledby={`${section.id}-inspection`}><h3 id={`${section.id}-inspection`}>{section.inspection.title}</h3><ol>{section.inspection.steps.map(text=><li>{text}</li>)}</ol><p>{section.inspection.note}</p></aside>}
     {section.table && <div class="mtn-table-scroll"><table><caption>{section.table.caption}</caption><thead><tr>{section.table.headers.map(heading=><th scope="col">{heading}</th>)}</tr></thead><tbody>{section.table.rows.map(row=><tr>{row.map((cell,column)=>column===0?<th scope="row">{cell}</th>:<td>{cell}</td>)}</tr>)}</tbody></table></div>}
     {showCreditsAndReferences && section.references && <p class="mtn-references">Further detail: {section.references.map((reference,index)=><>{index>0 && '; '}<a href={reference.href}>{reference.label}</a></>)}.</p>}
-    {section.photos && <MartinPhotoGallery photos={section.photos} showCredits={showCreditsAndReferences} />}
-    {section.link && <p><a href={section.link.href}>{section.link.label}</a></p>}
+    {section.photoLayout === 'beside' && section.link && <p><a href={section.link.href}>{section.link.label}</a></p>}
+    </div>
+    {section.photos && <MartinPhotoGallery photos={section.photos} showCredits={showCreditsAndReferences} maxHeight={guide.photoHeight} fillSinglePhoto={section.photoLayout === 'beside'} />}
+    {section.photoLayout !== 'beside' && section.link && <p><a href={section.link.href}>{section.link.label}</a></p>}
   </div></section>)}
   {guide.slug === 'martin-guitar-dating-guide' && <section class="mtn-section"><div class="mtn-wrap"><h2>Martin Construction Timeline</h2><p>Use this timeline with the exact model’s specifications. Several changes overlapped, and repairs can alter the bridge, braces or other parts you’re comparing.</p><div class="mtn-table-scroll"><table><caption class="sr-only">Martin Construction Timeline</caption><thead><tr><th scope="col">Period</th><th scope="col">Change To Compare</th><th scope="col">Exceptions And Repairs</th></tr></thead><tbody>{martinFeatureTimeline.map(row=><tr>{row.map(cell=><td>{cell}</td>)}</tr>)}</tbody></table></div></div></section>}
   {guide.timeline && <section class="mtn-section" id="guide-timeline"><div class="mtn-wrap"><h2>{guide.timeline.title}</h2><p>{guide.timeline.intro}</p><div class="mtn-table-scroll"><table><caption class="sr-only">{guide.timeline.title}</caption><thead><tr><th scope="col">Period</th><th scope="col">Change To Compare</th><th scope="col">Exceptions And Repairs</th></tr></thead><tbody>{guide.timeline.rows.map(row=><tr>{row.map(cell=><td>{cell}</td>)}</tr>)}</tbody></table></div></div></section>}
@@ -41,3 +45,20 @@ const schema = [
   <section class="mtn-section mtn-section--tint"><div class:list={['mtn-wrap', {'mtn-split':showCreditsAndReferences}]}><div><h2>Related Martin Dating Guides</h2><p>{showCreditsAndReferences ? 'Check the serial and model stamp alongside the logo, tuners and construction. The guides below combine Joe’s photos with model-specific dating references.' : 'Use the guides below to compare your Martin’s serial number, model stamp, logo, tuners and construction.'}</p><ul>{martinGuides.filter(g=>g.slug!==guide.slug).map(g=><li><a href={`/${g.slug}/`}>{g.title}</a></li>)}</ul><p>If a stamp, logo or part doesn’t fit the guitar, use the <a href="/how-to-spot-a-fake-martin/">Martin counterfeit identification guide</a> to check the whole instrument.</p><p><a href="/free-appraisal/martin/">Send Joe Photos For A Martin Appraisal</a></p></div>{showCreditsAndReferences && <div><h2>Photo Credits And Dating References</h2><p>Photographs come from Joe’s shop archive and his own listings. Captions link to the guitar’s article or listing where available. Dates for listed guitars follow those records; captions note known repairs and any parts we haven’t confirmed as original.</p><ul class="mtn-source-list">{guide.sources.map(s=><li><a href={s.href} target="_blank" rel="noopener noreferrer">{s.label}</a></li>)}</ul></div>}</div></section>
   <MartinPhotoViewer />
 </MartinGuideLayout>
+
+<style>
+  .mtn-section-copy { display: contents; }
+  .mtn-section-beside { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 48px; align-items: center; }
+  .mtn-section-beside .mtn-section-copy { display: block; }
+  .mtn-section-beside :global(.mtn-photo-grid) { margin: 0; }
+  .mtn-section-beside :global(.mtn-photo-row), .mtn-section-beside :global(.mtn-photo) { max-width: 100%; }
+  .mtn-inspection { max-width: 900px; padding: 24px 28px; margin: 28px 0; background: var(--color-brand-cream); border-left: 4px solid var(--color-brand-rust); }
+  .mtn-inspection h3 { margin-top: 0; }
+  .mtn-inspection ol { padding-left: 24px; list-style: decimal; }
+  .mtn-inspection li { padding-left: 5px; margin-bottom: 14px; }
+  .mtn-inspection p:last-child { margin-bottom: 0; }
+  @media (max-width: 767px) {
+    .mtn-section-beside { grid-template-columns: 1fr; gap: 24px; }
+    .mtn-inspection { padding: 20px; }
+  }
+</style>

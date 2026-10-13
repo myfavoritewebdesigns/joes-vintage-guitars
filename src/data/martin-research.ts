@@ -122,39 +122,43 @@ export function expandMartinGuides(guides: MartinGuide[]) {
   prewar.sections.splice(1, 0, {
     id: 'early-x-bracing-and-steel-strings', title: 'Early X-Bracing And The Move To Steel Strings',
     paragraphs: [
-      'X-bracing alone does not prove that an early Martin left the factory with steel strings. Martin used X-bracing on gut-string guitars long before steel became standard. Corwin separates the factory’s string choice and setup from the instrument’s present ability to withstand string tension.',
-      'His shipping research identifies two 2-17s sent out with steel strings on March 27, 1922. Style 18 followed as standard equipment in 1923, and Style 28 by 1926. Construction grew stronger gradually, so those shipping dates are not universal bracing-change dates.',
+      'X-bracing alone does not prove that an early Martin left the factory with steel strings. Martin used X-bracing on gut-string guitars long before steel became standard. The factory’s original string choice and setup are separate from the instrument’s present ability to withstand string tension.',
+      'Two 2-17s shipped with steel strings on March 27, 1922. Style 18 followed as standard equipment in 1923, and Style 28 by 1926. Construction grew stronger gradually, so those shipping dates are not universal bracing-change dates.',
       'For an early guitar, ask a repairer to assess the actual top, bridge, plate, neck and repairs before selecting strings. Its production year and an X-shaped brace pattern can’t make that decision for you.',
+    ], photos: [
+      {file:'1914-martin-0-18-bracing.jpg',title:'1914 0-18: X-Bracing Before Standard Steel Strings',alt:'X-bracing and bridge plate inside a 1914 Martin 0-18',caption:'The X crossing and bridge plate are visible in this 1914 guitar, made before steel strings became standard on Style 18. The current strings do not establish its original setup.'},
+      {file:'1914-martin-0-18-neck-block.jpg',title:'1914 0-18: Neck Block And Serial 11825',alt:'C F Martin Nazareth maker’s stamp and serial 11825 on a 1914 Martin 0-18 neck block',caption:'The neck block carries the maker’s stamp and serial 11825, with no model stamp. The serial dates this 0-18 to 1914; inspect its construction and condition before choosing strings.'},
     ], references: [refs.strings],
   });
   add(prewar, 'x-brace-position-and-neck-width', [
-    'Record the body joint as well as the body size. Corwin’s examples show that 12-fret and 14-fret layouts need separate comparisons, and that smaller 14-fret bodies changed on a different schedule from dreadnoughts. Avoid applying the 1938 dreadnought date to smaller bodies such as the 00-21.',
+    'Record the body joint as well as the body size. The 12-fret and 14-fret layouts need separate comparisons, and smaller 14-fret bodies changed on a different schedule from dreadnoughts. Avoid applying the 1938 dreadnought date to smaller bodies such as the 00-21.',
     'The two arms of the X frame the bridge area; smaller tone bars continue behind it. Above the soundhole, the transverse brace and any flat brace under the fingerboard extension are another part of the structure. Include that upper area in an inspection set instead of photographing only the lower bout.',
   ], [refs.braces]);
   add(prewar, 'bracing-and-bridge-plates', [
-    'Corwin’s photographed 1945 and 1946 examples show why “tapered” still covers different profiles: the 1945 braces he compares are slimmer than the rounder 1946 examples. Use those as dated comparisons, without assuming every guitar in either year received identical carving.',
+    'The term “tapered” still covers different profiles. Some 1945 guitars have slimmer tapers than the rounder profiles seen in 1946 examples. Compare the actual carving without assuming every guitar in either year received identical braces.',
   ], [refs.braces]);
   const plate = section(prewar, 'bridge-plate-inspection');
-  plate.paragraphs.push('Corwin’s plate study records the following progression. Width here means the front-to-back dimension, not the longer span across the guitar. These are comparison measurements from his examples; body size, production overlap and repairs still matter.');
+  plate.paragraphs.push('Early X-braced Martins used thin mahogany plates before maple became common by the 1880s. For the later plates in this chart, width means the front-to-back dimension, not the span across the guitar. These are approximate comparisons; body size, production overlap and repairs still matter.');
   plate.table = {
-    caption: 'Bridge-Plate Comparisons From Corwin’s Dated Examples',
+    caption: 'Martin Bridge-Plate Shapes And Dimensions',
     headers: ['Period', 'Plate Detail', 'What To Photograph'],
     rows: [
       ['Early 1900s', 'About 1 inch wide; trapezoidal outline, ends tucked into the X-braces.', 'Full outline and the joints at both ends.'],
+      ['1927', 'Plates begin getting slightly thicker as construction develops for steel strings.', 'Thickness at an exposed edge, plus any repair layer.'],
       ['By Early 1933', 'About 1 3/8 inches wide; six-sided outline with tucked ends.', 'Clipped corners as well as the pin-hole row.'],
       ['Around 1940 To 1941', 'Trapezoidal maple plates again, about 1 3/8 inches wide and thicker in the examples.', 'A side angle showing thickness and any added layer.'],
     ],
   };
   plate.references = [refs.plates];
   add(prewar, 'prewar-necks-and-frets', [
-    'A bar fret is a rectangular strip with its exposed top rounded for playing. A T-fret has a wider crown above a narrower tang. Corwin explains that the tight fit of bar frets also helps control neck relief. A conversion between fret types therefore involves more than changing the feel under your fingers.',
+    'A bar fret is a rectangular strip with its exposed top rounded for playing. A T-fret has a wider crown above a narrower tang. The tight fit of bar frets also helps control neck relief. A conversion between fret types therefore involves more than changing the feel under your fingers.',
     'If refret work is documented, record the installed fret type and any fingerboard or reinforcement changes. Don’t infer the original neck system from a newly installed set of frets.',
   ], [refs.frets]);
   add(prewar, 'prewar-neck-reinforcement', [
-    'The return to steel wasn’t a single clean boundary. Corwin’s transcription-based notes include further ebony use in 1945 and 1946, plus some late-1953 production. He identifies ambiguous shop-order entries. Check the individual instrument or repair record before describing a wartime or early-postwar neck as certainly steel or ebony.',
+    'The return to steel wasn’t a single clean boundary. Ebony reinforcement also appeared in 1945 and 1946, plus some late-1953 production. Some shop-order entries are ambiguous. Check the individual instrument or repair record before describing a wartime or early-postwar neck as certainly steel or ebony.',
   ], [refs.necks]);
   add(prewar, 'prewar-bridges-and-repairs', [
-    'An early serial with a belly bridge deserves investigation before a replacement verdict. Corwin describes unsold late-1920s guitars receiving newer bridges at the factory before sale, and dealer stock returned for updates. Look for records that separate factory work from later repairs.',
+    'An early serial with a belly bridge deserves investigation before a replacement verdict. Some unsold late-1920s guitars received newer bridges at the factory before sale, and dealer stock was returned for updates. Look for records that separate factory work from later repairs.',
   ], [refs.bridges]);
 
   const models = guide('martin-guitar-model-numbers');

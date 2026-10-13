@@ -3,12 +3,12 @@ import LicensedImage from './primitives/LicensedImage.astro';
 import type { ImageMetadata } from 'astro';
 import { getImage } from 'astro:assets';
 import { SITE_URL } from '../config/site';
-interface Props { src: ImageMetadata; title: string; alt: string; caption: string; source?: string; sourceLabel?: string; thirdParty?: boolean; credit?: string; rotate?: 'left'; showCredit?: boolean; }
-const { src, title, alt, caption, source, sourceLabel = 'Photo source', thirdParty = false, credit, rotate, showCredit = true } = Astro.props;
+interface Props { src: ImageMetadata; title: string; alt: string; caption: string; source?: string; sourceLabel?: string; thirdParty?: boolean; credit?: string; rotate?: 'left'; showCredit?: boolean; maxHeight?: number; }
+const { src, title, alt, caption, source, sourceLabel = 'Photo source', thirdParty = false, credit, rotate, showCredit = true, maxHeight = 470 } = Astro.props;
 const privateArchive = source?.startsWith('https://drive.google.com/');
 const displayWidth = rotate ? src.height : src.width;
 const displayHeight = rotate ? src.width : src.height;
-const photoWidth = Math.min(displayWidth, 470 * displayWidth / displayHeight);
+const photoWidth = Math.min(displayWidth, maxHeight * displayWidth / displayHeight);
 // A third-party photo has descriptive metadata, without Joe's license grant.
 // One transform supplies both its rendered src and its schema contentUrl.
 const thirdPartyImage = thirdParty ? await getImage({ src, width: Math.min(1000, src.width), layout: 'constrained' }) : undefined;
