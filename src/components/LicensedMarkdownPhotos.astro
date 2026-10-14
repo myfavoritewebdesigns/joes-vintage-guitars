@@ -1,0 +1,29 @@
+---
+import { load } from "cheerio";
+import { buildImageGraph } from "../lib/imageLicense";
+
+// License only explicitly marked shop photographs after Astro has rendered
+// their Markdown images, so metadata uses the exact optimized image URLs.
+const html = await Astro.slots.render("default");
+const $ = load(html, null, false);
+// Match the 820px article column, its 24px side padding and figure borders.
+// Paired photos have a 20px gap and stack at the template's 600px breakpoint.
+$("figure.burst-feature-photo img").each((_, img) => {
+  const paired = $(img).closest(".burst-photo-pair").length > 0;
+  $(img).attr("sizes", paired
+    ? "(max-width: 600px) calc(100vw - 50px), (max-width: 820px) calc(50vw - 36px), 374px"
+    : "(max-width: 820px) calc(100vw - 50px), 770px");
+});
+const renderedHtml = $.html();
+const photos = $("figure.burst-feature-photo img").toArray().map((img) => ({
+  renderedSrc: $(img).attr("src"),
+  alt: $(img).closest("figure").find("figcaption").text().trim() || $(img).attr("alt"),
+}));
+const images = await buildImageGraph(photos);
+---
+
+<Fragment set:html={renderedHtml} />
+{images.length > 0 && <script is:inline type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": images,
+})} />}

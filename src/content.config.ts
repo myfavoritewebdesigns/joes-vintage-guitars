@@ -16,6 +16,8 @@ const blog = defineCollection({
     tags: z.array(z.string()).default([]),
     heroImage: z.string().default(""),
     heroImageAlt: z.string().default(""),
+    heroImageCaption: z.string().optional(),
+    heroImageSource: z.object({ href: z.string(), label: z.string() }).optional(),
     heroImageLicensed: z.boolean().default(true),
     metaDescription: z.string().default(""),
     ogImage: z.string().default(""),
@@ -28,6 +30,8 @@ const blog = defineCollection({
       a: z.string(),
       link: z.object({ href: z.string(), label: z.string() }).optional(),
     })).default([]),
+    // Some long guides place their visible questions beside the relevant section.
+    faqsInline: z.boolean().default(false),
     // Opt-in floating table of contents. When non-empty, the post layout renders
     // a fixed sidebar (desktop) + "Sections" button/sheet (mobile). Each entry
     // points at an in-page anchor; set sub:true for an indented (H3-level) item.
