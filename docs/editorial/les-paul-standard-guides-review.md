@@ -8,10 +8,10 @@ MFWD rules: `myfavoritewebdesigns/mfwd-writing-system` at `366edf5`. Fact databa
 
 ## Open Items
 
-1. Obtain Joe's actual R0 Reverb listing. The shop's sold R0/1960 searches and review export did not establish an R0. The black 2003 Les Paul Classic advertised as a “1960 Reissue” is a different model and was not substituted. The 1960 draft has no hero image yet.
+1. **R0 photo resolved:** Joe supplied listing 54542468. The sold-item view verifies his shop, a 2014 R0 and the exact photographs. The 1960 draft now has a clearly captioned hero and a first-party photo walkthrough. The black Les Paul Classic was not substituted.
 2. Have Joe verify or correct the pending technical claims below. Record approval in the canonical database, including required expert sign-offs, before publication. The supplied database does not yet contain all the original-year specifications used in these review drafts.
 3. Integrate any approved firsthand answers from the questions below. These are optional prompts for useful experience, not a demand that Joe research the documented specifications.
-4. After facts and the R0 are resolved, rerun the MFWD publish gates and independent final-read review. The earlier sidechecks returned HOLD; they did not report that all flagged statements were false.
+4. After the remaining facts are resolved, rerun the MFWD publish gates and independent final-read review. The earlier sidechecks returned HOLD; they did not report that all flagged statements were false.
 
 ## Questions For Expert Review
 
@@ -73,9 +73,9 @@ Answer any question where you have a useful firsthand example, opinion, or clien
 4. Which replacement-part discovery has mattered most in a 1960-style guitar assessment?
    - Why: provides a concrete inspection example.
    - Placement: **Reflector Knobs And Double-Ring Tuners**.
-5. What do you remember about the R0 whose photographs we'll use?
-   - Why: supplies the missing first-party case example once the listing is identified.
-   - Placement: add a clearly labeled R0 photo walkthrough after **1960 Specifications**.
+5. What do you remember about the photographed 2014 R0 beyond its listing description?
+   - Why: adds direct handling experience to the verified listing and photo observations.
+   - Placement: **What Joe's R0 Photo Shows**.
 6. What has persuaded a buyer to choose a 1960-style guitar over a 1959-style guitar?
    - Why: adds a real preference and decision to the closing comparison.
    - Placement: **Value And Purchase Comparisons**.
@@ -113,11 +113,11 @@ These are research/registry gaps, not fabricated FactIDs. A manufacturer reissue
 | Narrow 1958 versus wider 1959/1960 frets; 1960 nut width and distinction from depth | Neck sections. Manufacturer retrospectives provide context, but original-period claims need their own scope and approval. |
 | Ink-stamped 8/9/0 serial-year convention, and reissue imitation of the appearance | All three dating sections. Existing general serial cautions do not replace the missing exact-format fact. |
 | Reflector knobs, double-ring buttons, stronger later-1960 color and early/later combinations | 1960 transition/hardware/finish sections. Use Gibson's anniversary retrospectives, distinguish original history from modern version measurements, and verify exceptions. |
-| Maple figure, bookmatching, lighting, fade terminology and limits of tonal inference | 1958/1959/1960 photo/finish sections. Do not infer original production rules from the two shop reissues. |
+| Maple figure, bookmatching, lighting, fade terminology and limits of tonal inference | 1958/1959/1960 photo/finish sections. Do not infer original production rules from the three shop reissues. |
 | R8/R9/R0 nomenclature, actual manufacturing year, Historic specification changes and Classic distinction | All three reissue sections. Record model-specific support rather than applying current reissue specifications retroactively. |
 | Pickup repairs, cover/bobbin observations, playing/setup factors and practical inspection judgments | Pickup/condition sections. Expert review needed for advice not fully captured by the existing records. |
 | Clapton/Beck history and Greeny's ownership/pickup polarity | 1959 history section; manufacturer sources below. No new FactID assigned. |
-| Joe's inventory identity, listing weights, Demo stamp, condition and visible photo features | 1958/1959 shop-photo sections; listing evidence below. These are particular modern instruments, not vintage specifications. |
+| Joe's inventory identity, listing weights, Demo stamp, condition and visible photo features | All three shop-photo sections; listing evidence below. The R0's stated 2014 year, listed mint condition, case accessories and pictured serial/buttons are now traced to its exact listing. These are particular modern instruments, not vintage specifications. |
 | Pricing comparison procedure, asking versus completed prices, case/provenance effects | All value sections. No current market quote, forecast, return promise or fixed discount is given. |
 
 ## First-Party Evidence And Image Provenance
@@ -130,9 +130,11 @@ Seller identity was checked in the user's shop, `https://reverb.com/shop/joe-s-g
 | R8 source image | `https://rvb-img.reverb.com/i/s--zqMgOaOh--/quality=medium-high,height=1600,width=1600,fit=contain/fbk9kgcbhzpdft0fkb8b.jpg`; downloaded through the visible Reverb image and stored as `src/assets/blog/1958-gibson-les-paul-standard-guide/2011-r8-reissue.jpg` (1600 × 1066). |
 | 2022 R9 hero | [Joe's listing 84412339](https://reverb.com/item/84412339-gibson-r9-les-paul-standard-1959-reissue-2022-flamey-sunburst). Listing identifies 2022 R9, Demo stamp, minor cosmetic issues and 8.9 pounds. Visible photo: figured red/amber sunburst, cream trim, covered humbuckers, gold knobs, brown/pink case and Joe's watermark. |
 | R9 source image | `https://rvb-img.reverb.com/i/s--nb0o49KC--/quality=medium-high,height=1600,width=1600,fit=contain/l0yyddo8xslds3gddppk.jpg`; stored as `src/assets/blog/1959-gibson-les-paul-standard-guide/2022-r9-reissue.jpg` (1600 × 1066). |
-| R0 | **Missing.** No substitute image or invented R0 case example. |
+| 2014 R0 hero | [Joe's listing 54542468](https://reverb.com/item/54542468-gibson-1960-reissue-les-paul-standard-r0-2014-burst?show_sold=true), supplied by Joe and directly checked October 14, 2026. Seller `joesvintageguitars` links to `/shop/joe-s-gear-emporium-4`. Title and product specs identify 2014 and Custom Shop Standard Historic '60 Les Paul Standard Reissue; listing describes mint condition with case accessories. Front image shows a figured sunburst, covered humbuckers, cream trim and reflector knobs. No weight was supplied or inferred. |
+| R0 source image | `https://rvb-img.reverb.com/i/s--wmsvgmVM--/quality=medium-high,height=1600,width=1600,fit=contain/lgo8jphjee0l2omdlwd5.jpg`; downloaded from the listing gallery and stored as `src/assets/blog/1960-gibson-les-paul-standard-guide/2014-r0-reissue.jpg` (1600 × 1066). |
+| R0 secondary photo evidence | Gallery photo 4: `https://rvb-img.reverb.com/i/s--E3luyzY4--/quality=medium-high,height=1600,width=1600,fit=contain/igmmkr83fvtklow6yrft.jpg`. Visually checked: serial `0 4285`, double-ring plastic buttons and separate vertical housing lettering. Discussed in the walkthrough with a link to the source gallery; not presented as a vintage authentication example. |
 
-Both photographs have visible modern-reissue captions before the image, descriptive alt text, local Astro optimization, responsive dimensions and licensed-image metadata whose `contentUrl` matches the rendered image. A copyright/license declaration is not evidence of vintage authenticity.
+All three hero photographs have visible modern-reissue captions before the image, descriptive alt text, local Astro optimization, responsive dimensions and licensed-image metadata whose `contentUrl` matches the rendered image. A copyright/license declaration is not evidence of vintage authenticity.
 
 ### Review Evidence
 
@@ -161,9 +163,11 @@ Final local build verification (October 14, 2026): 227 pages built successfully;
 |---|---:|---:|---:|---:|
 | 1958 | 2,756 | 23 | 20 | 6 |
 | 1959 | 2,951 | 21 | 19 | 6 |
-| 1960 | 3,069 | 27 | 23 | 6 |
+| 1960 | 3,283 | 29 | 23 | 6 |
 
-All checked internal routes and fragment targets resolve in the final build; all three pages have exactly one H1 and one FAQPage. Both licensed hero image URLs match their rendered image sources. Independent browser review checked 1920px and 390px layouts, image disclosures, contained table scrolling and section navigation; see `reports/les-paul-standard-guides-visual-review.md`.
+All checked internal routes and fragment targets resolve in the final build; all three pages have exactly one H1 and one FAQPage. All three licensed hero image URLs match their rendered image sources. Independent browser review checked 1920px and 390px layouts, image disclosures, contained table scrolling and section navigation; see `reports/les-paul-standard-guides-visual-review.md`.
+
+R0 follow-up: the production rebuild passed, the site copy gate again returned 0 hard failures, and the revised 1960 guide passed component completeness with 26 working TOC links and six visible/schema FAQ pairs. Its full-article MFWD scan returned 0 bans and two existing advisory warnings. The independent delta review confirmed the photo observations and modern-reissue disclosure. This resolves the missing first-party image/example, while the original historical-fact approval requirements remain open.
 
 - Separate MFWD sidechecks exist in `reports/1958-les-paul-mfwd-sidecheck.md`, `reports/1959-les-paul-mfwd-sidecheck.md` and `reports/1960-les-paul-mfwd-sidecheck.md`. Their line references describe earlier drafts. Several copy/link/template issues have since been fixed; fact holds remain.
 - No company database content, complete blog archive/content tracker or annotated `Sitemap_Array` was supplied. Relevant existing pages and the actual local route inventory were checked instead. This is not a complete archive or keyword-overlap clearance.

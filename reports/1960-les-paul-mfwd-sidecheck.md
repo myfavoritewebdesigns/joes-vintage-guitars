@@ -161,3 +161,34 @@ No positive guarantee, investment promise, single-price valuation, or individual
 - Human final-read sign-off and DOCX rendering/validation: this was a Markdown/built-HTML sidecheck, not the complete publishing gate.
 - The external `TITLE_RULES.md` dependency: unavailable in the supplied checkout.
 - No files were edited during the review. This report was subsequently saved at the parent’s request.
+
+## Follow-Up: 2026-10-14, R0 Photograph And New Section
+
+**Delta verdict: PASS for photographic accuracy, disclosure and writing.** The missing-R0-image finding is resolved. This limited review does not change the article’s overall HOLD for the remaining registry and expert-approval gates.
+
+Scope: the new hero, alt text, caption and source link (current draft lines 10–16), the short introduction at line 42, and “What Joe’s R0 Photo Shows” at lines 104–110. I did not repeat the full original review or edit the article.
+
+Evidence inspected:
+
+- The local R0 hero, `src/assets/blog/1960-gibson-les-paul-standard-guide/2014-r0-reissue.jpg`.
+- The downloaded rear-headstock photograph, `C:/Users/joeda/Downloads/igmmkr83fvtklow6yrft.jpg`.
+- The existing 2011 R8 and 2022 R9 hero photographs used for the knob comparison.
+- The rebuilt HTML’s hero, caption, source link, responsive-image attributes and new section anchor.
+- The parent’s verified original [R0 Reverb listing](https://reverb.com/item/54542468-gibson-1960-reissue-les-paul-standard-r0-2014-burst?show_sold=true): Joe’s seller account, listed year 2014, Custom Shop Standard Historic 1960 identification, Mint condition and case accessories. My independent web-tool fetch of that URL was unavailable, so those listing metadata rely on the parent’s source verification; the visual observations below were checked directly.
+
+| Current Line | Delta Check | Finding |
+|---|---|---|
+| 11 | Meaningful, concise alt text (`IMAGERY_POLICY.md`, Alt Text) | Pass: 99 characters; identifies the 2014 R0 reissue and the visible figured sunburst top and reflector knobs without presenting it as a vintage 1960 guitar. |
+| 12, 42 | Modern-reissue disclosure (`IMAGERY_POLICY.md`, Passing As Real; `FACT_USAGE.md`, Scope Firewall) | Pass: the visible caption and introductory sentence explicitly distinguish the photographed modern instrument from an original 1960 example. |
+| 14–15, 106 | Image/source attribution (`PUBLISH_STANDARD.md`, section 3; `INTERNAL_LINKING.md`, placement) | Pass on the inspected build: the caption and section link directly to the same original listing with `show_sold=true`. |
+| 106 | Front-photo observations | Pass: visible figure, shaded sunburst, two covered pickup positions, cream pickup rings and pickguard, and four gold reflector knobs agree with the photograph. The section does not identify the concealed pickups as original PAFs. |
+| 106 | “The listing described the guitar as mint with its case accessories” | Correctly attributed to the historical listing, not asserted as the instrument’s present condition. Record the listing evidence in the source ledger as planned. |
+| 108 | Rear-headstock observations | Pass: the photo visibly shows an ink serial reading `0 4285`, double-ring details on the plastic buttons, and separate vertical `Gibson Deluxe` lettering on the housings. The draft appropriately says “vertical lettering” and does not mislabel those modern housings as period Kluson hardware. |
+| 108 | Serial-format example | Pass: pairing the photographed 0-prefix number with the source-attributed 2014 year is a concrete example of why the visual numbering format alone does not prove a vintage date. It does not invent a serial-decoding rule. |
+| 110 | R8/R9 knob comparison | Pass: both inspected comparison photos show gold bonnet-style knobs without the R0’s reflective inserts. The paragraph keeps all three examples within their modern-reissue context. |
+| 110 | Limits of the photographs | Pass: the paragraph does not infer neck depth or concealed pickup identity from the front photograph and does not turn the reissue comparison into an original-production changeover date. |
+| 104–110 | MFWD writing and distinctiveness | Delta scan: **BAN 0, WARN 0**. The heading names its subject, the prose is specific, and the real photographed instrument now provides an instructive worked example under `BLOG_OUTPUT_STANDARD.md`, Component H, once the source trace is recorded. |
+
+The built hero uses a generated 1200×800 WebP with `srcset`, explicit dimensions, `loading="eager"` and `fetchpriority="high"`. Its visible caption appears before the image and its source link is present. The new `what-joes-r0-photo-shows` anchor exists. These checks resolve the earlier missing editorial-image finding and verify the relevant markup; mobile above-the-fold placement and actual browser image selection were not tested in this delta review.
+
+No new accuracy or disclosure correction is requested for the reviewed delta. Complete the planned source/candidate-claim ledger for the listing identification and observed features. This photographic example does not itself approve the article’s historical facts or clear existing expert-sign-off requirements.

@@ -2,16 +2,24 @@
 title: "1960 Gibson Les Paul Standard: Neck Changes, Specs And R0s"
 seoTitle: "1960 Les Paul Standard Guide"
 pubDate: "2026-10-14T12:10:00Z"
-modified: "2026-10-14T12:10:00Z"
-excerpt: "Understand early and later 1960 Bursts, neck-profile changes, reflector knobs, double-ring tuners, PAFs and the difference between an original and an R0."
+modified: "2026-10-14T16:11:57Z"
+excerpt: "Understand early and later 1960 Bursts, neck changes, reflector knobs, double-ring tuners and PAFs, illustrated with Joe's clearly labeled 2014 R0 reissue."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: ["Gibson", "Les Paul", "1960", "Burst", "R0"]
+heroImage: "/images/blog/1960-gibson-les-paul-standard-guide/2014-r0-reissue.jpg"
+heroImageAlt: "2014 Gibson R0 reissue with a figured sunburst top and reflector knobs; not a vintage 1960 Les Paul"
+heroImageCaption: "Modern reissue, not a vintage example: Joe's 2014 Gibson R0 illustrates a figured sunburst top, reflector knobs, cream trim and the two-humbucker Standard layout. These are modern parts and finishes, not original 1960 evidence."
+heroImageSource:
+  href: "https://reverb.com/item/54542468-gibson-1960-reissue-les-paul-standard-r0-2014-burst?show_sold=true"
+  label: "See Joe's 2014 R0 listing and photo gallery"
+ogImage: "/images/blog/1960-gibson-les-paul-standard-guide/2014-r0-reissue.jpg"
 metaDescription: "Explore early and late 1960 Les Paul Standard specs, neck changes, reflector knobs, tuners, PAFs and how vintage Bursts differ from modern R0 reissues."
 faqsInline: true
 toc:
   - { href: "#1960-was-a-transition-year", label: "The Changes Within 1960" }
   - { href: "#1960-specifications", label: "1960 Specifications" }
+  - { href: "#what-joes-r0-photo-shows", label: "Joe's R0 Illustration" }
   - { href: "#early-middle-and-later-1960-features", label: "Early And Later Features" }
   - { href: "#neck-profiles-and-frets", label: "Neck Profiles And Frets" }
   - { href: "#reflector-knobs-and-double-ring-tuners", label: "Knobs And Tuners" }
@@ -31,11 +39,14 @@ It was the final year of the original single-cutaway sunburst Standard's main pr
 
 For owners, the first job is to identify the instrument and its surviving parts. For players, it's to understand the actual neck and condition rather than buy a year label. If you have a guitar to identify or [sell through Joe's Gibson buying service](/sell-my-gibson-guitar/), send photographs of the whole instrument and its history before changing parts.
 
+Our photograph shows a **2014 Gibson Custom Shop R0 reissue**, not an original 1960 guitar. It illustrates the design features discussed below; its production year and modern components belong to a separate assessment.
+
 <nav class="burst-inline-toc" aria-label="Article Contents">
 <h2>Table Of Contents</h2>
 <ul>
 <li><a href="#1960-was-a-transition-year">The Changes Within 1960</a></li>
 <li><a href="#1960-specifications">1960 Specifications</a></li>
+<li><a href="#what-joes-r0-photo-shows">Joe's R0 Illustration</a></li>
 <li><a href="#early-middle-and-later-1960-features">Early And Later Features</a></li>
 <li><a href="#neck-profiles-and-frets">Neck Profiles And Frets</a></li>
 <li><a href="#reflector-knobs-and-double-ring-tuners">Knobs And Tuners</a></li>
@@ -89,6 +100,14 @@ The year-specific questions concern how its appointments changed and what remain
 </div>
 
 These are Standard specifications. A 1960 Junior, Special or Custom needs a different comparison. If the model itself is uncertain, begin with the [Les Paul family identification guide](/post/vintage-gibson-les-paul-family-guide/).
+
+## What Joe's R0 Photo Shows
+
+The guitar in our [2014 R0 Reverb listing](https://reverb.com/item/54542468-gibson-1960-reissue-les-paul-standard-r0-2014-burst?show_sold=true) has visible maple figure, a shaded sunburst, two covered humbuckers, cream pickup rings and pickguard, and four gold knobs with reflective inserts. Those inserts make the reflector-knob discussion easier to follow than a model-year label alone. The listing described the guitar as mint with its case accessories; that description concerns this modern instrument.
+
+The same listing's rear-headstock photograph shows the double-ring detail on the plastic tuner buttons, separate from the vertical lettering on the metal housings. It also shows a vintage-style ink serial beginning with 0 on a guitar listed as built in 2014. This is a practical example of why an old-looking serial format cannot establish a vintage production date by itself.
+
+Compare its reflector knobs with the gold bonnet-style knobs visible on our [2011 R8 illustration](/post/1958-gibson-les-paul-standard-guide/#reading-the-r8-photo) and [2022 R9 illustration](/post/1959-gibson-les-paul-standard-guide/#what-joes-r9-photo-shows). These three shop guitars show different reissue appointments. They don't set an exact changeover date for original production, and a front photograph cannot establish neck depth or verify the pickups under their covers.
 
 ## Early, Middle And Later 1960 Features
 
