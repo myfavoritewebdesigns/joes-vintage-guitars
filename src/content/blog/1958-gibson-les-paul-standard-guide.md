@@ -2,7 +2,7 @@
 title: "1958 Gibson Les Paul Standard: Value, Goldtop To Burst And Specs"
 seoTitle: "1958 Les Paul Standard Value And Specs"
 pubDate: "2026-10-14T12:00:00Z"
-modified: "2026-10-14T16:55:08Z"
+modified: "2026-10-14T17:21:21Z"
 excerpt: "1958 Les Paul values, the Goldtop to Burst change (247 Goldtops and 187 Sunbursts shipped) and the specs that separate an original from an R8."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -40,6 +40,11 @@ The full-guitar photo shows my **2011 R8 reissue, not a vintage 1958 example**. 
 My range for **1958 to 1960 Sunburst Standards is $200,000 to $500,000+**; **1957 to 1958 PAF Goldtops run $135,000 to $250,000**. These are US retail estimates for all-original guitars in excellent condition with the correct original case, reviewed in July 2026. My [vintage Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) explains the ranges and their scope.
 
 Original finish and PAFs carry much of the collector value, while repairs, replaced parts and neck alterations can move a guitar outside those ranges. I also consider the neck's condition and documented provenance when choosing comparable guitars. A sunburst refinish on a Goldtop belongs in its own comparison, separate from a factory Burst.
+
+<blockquote class="burst-expert-note">
+<p><strong>Expert note from Joe Dampt</strong></p>
+<p>I put a significantly higher value on a 1958 Burst than a comparable PAF Goldtop, even though they're essentially the same guitar aside from aesthetics.</p>
+</blockquote>
 
 <nav class="burst-inline-toc" aria-label="Article Contents">
 <h2>Table Of Contents</h2>

@@ -8,7 +8,7 @@ MFWD rules: `myfavoritewebdesigns/mfwd-writing-system` at `366edf5`. Fact databa
 
 ## Open Items
 
-**October 14 editorial revision:** Joe has chosen to supply one short Expert Note per article. Wait for his wording, then add it under the exact callout label “Expert note from Joe Dampt.” The older question bank below is retained as optional background, not a new request for answers. No note or placeholder has been added to the public articles. PR #223 must remain a draft.
+**October 14 Expert Notes received:** Joe supplied all three notes in this chat. Each now appears in the corresponding value section under the exact label “Expert note from Joe Dampt,” with light spelling and grammar edits. The earlier question bank below is optional background, not a new request for answers. PR #223 must remain a draft. See the supplied-note record at the end of this handoff.
 
 1. **R0 photo resolved:** Joe supplied listing 54542468. The sold-item view verifies his shop, a 2014 R0 and the exact photographs. The 1960 draft now has a clearly captioned hero and a first-party photo walkthrough. The black Les Paul Classic was not substituted.
 2. Have Joe verify or correct the pending technical claims below. Record approval in the canonical database, including required expert sign-offs, before publication. The supplied database does not yet contain all the original-year specifications used in these review drafts.
@@ -239,3 +239,18 @@ Current rendered article metrics (captions included; image JSON-LD excluded):
 Validation: production build passed for 227 pages. Required rendered copy audit passed with zero hard failures; none of the three year routes has a copy warning (778 warnings elsewhere in the site). MFWD longform scan returned zero bans and three table advisories, one per requested specification table. All 18 visible/schema FAQ pairs match; internal routes, fragments, both contents lists, exact first H2 order, first-person body copy, heading capitalization and prohibited dashes were checked. All 25 hero/detail image-license URLs match their rendered images. The independent visual follow-up is recorded in `reports/les-paul-standard-guides-visual-review.md`.
 
 These new draft routes have no live WordPress originals to use as migration-parity baselines. The deliberate value-first order, revised headings and shorter two-column tables follow Joe's current request, recorded in CLAUDE.md. This revision doesn't claim final publication approval or modify the canonical fact database.
+
+## Expert Notes Supplied By Joe
+
+Joe supplied these firsthand judgments directly in the chat after the live-page revision. They are the expressly requested Expert Notes, additional to the four live sources used for that revision. No outside research or new numerical premium was added. Each note is in the relevant first value section, with the exact requested label as a bold paragraph rather than a heading, preserving the heading-capitalization rule. The existing branded blockquote styling supplies the callout treatment.
+
+- **1958 supplied:** “that a burst is worth significantly more than a Gomdtop even though they are essentially the same aside from aesthetics”
+  - Published edit: “I put a significantly higher value on a 1958 Burst than a comparable PAF Goldtop, even though they're essentially the same guitar aside from aesthetics.” The comparison is scoped to the PAF Goldtop discussed in this article.
+- **1959 supplied:** “provenance and original owner photos” in answer to what changes his value assessment.
+  - Published edit: “Provenance and original-owner photos can change my assessment of a 1959 Les Paul's value.”
+- **1960 supplied:** “the slim neck is a turnoff for many players and collectors making it the least expensive burst year, though the necks can vary. A 59 profile on a 60 makes it worth more”
+  - Published edit: “The slim neck is a turnoff for many players and collectors, making 1960 the least expensive Burst year in my experience. Necks vary, though, and I'd value a 1960 with a 1959-style profile more highly.”
+
+These notes are attributed judgments from Joe, not a claim that he approved every earlier technical statement or cleared the articles for publication. The six visible FAQs and matching schema per page remain unchanged.
+
+Expert-note validation: the 227-page production build completed at 17:21:45 UTC. The rendered copy audit passed with zero hard failures; the article verifier found one correctly labeled note per year, matching the edited wording above, and all 18 FAQ pairs, internal destinations and contents anchors still match. MFWD scan returned zero bans and the same three specification-table advisories. Rendered article word counts are now 2,322, 2,451 and 2,762; the original/originality counts are 6, 9 and 6. Preview deployment remains separate from these successful local checks.

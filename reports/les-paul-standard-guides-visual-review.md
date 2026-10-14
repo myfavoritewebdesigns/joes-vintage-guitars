@@ -82,3 +82,16 @@ Reviewed the same three draft-PR routes at 1920 by 1080 and 390 by 844 pixels in
 - Nonblocking: the simplified two-column specifications retain their existing 650-pixel minimum width inside a 327-pixel mobile scroll container; horizontal scrolling remains confined to the table, and the implementer elected to retain that behavior for this content revision.
 
 The implementer reported a 227-page build, no copy-audit failures or warnings on these three routes, clean link/FAQ/photo verification, and no MFWD banned-language matches. This review verifies presentation rather than the historical or valuation claims. The temporary viewport was reset and the review tab closed; only this report was edited, with no commit or push by the reviewer.
+
+## User-Supplied Expert-Note Delta Review, October 14, 2026, Build Completed 17:21:45
+
+Reviewed only the three newly authorized notes and their surrounding value/contents regions at 1920 by 1080 and 390 by 844 pixels. No blocking visual issue was found.
+
+- Each guide has exactly one `blockquote.burst-expert-note` with the exact bold paragraph label `Expert note from Joe Dampt`; no heading element was added inside the callout.
+- The existing cream background, rust left border and dark italic text are readable at both widths; the longer 1960 note wraps without clipping or horizontal overflow.
+- Desktop notes are 772 pixels wide and end at x1338.5, safely before the sidebar at x1398; mobile notes fit the 327-pixel article width, with paragraph scroll widths matching their 285-pixel available text width.
+- Each note remains within the first value section and before the inline contents navigation; the year-specific value heading is still the first H2.
+- Hero and sidebar widths remain unchanged with a positive gap; the unchanged photo collection was not re-audited in this narrow delta pass.
+- The implementer separately verified unchanged six-FAQ sets, all 18 FAQ/text pairs and internal links, and reported no copy-audit hard failures.
+
+These notes were supplied by Joe for this revision; their presence supersedes the earlier revision's intentional absence. This pass verifies their presentation and placement, not an independent valuation endorsement. The temporary viewport was reset and the review tab closed. Only this report was changed; no article edit, commit or push was made by the reviewer.

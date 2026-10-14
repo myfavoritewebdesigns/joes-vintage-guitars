@@ -2,7 +2,7 @@
 title: "1959 Gibson Les Paul Standard Burst: Value, Specs And PAFs"
 seoTitle: "1959 Les Paul Burst Value And Specs"
 pubDate: "2026-10-14T12:05:00Z"
-modified: "2026-10-14T16:55:08Z"
+modified: "2026-10-14T17:21:21Z"
 excerpt: "What a 1959 Les Paul Burst is worth, how many Gibson shipped (643) and how to tell an original from an R9 by serial, PAFs, neck and frets."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -40,6 +40,11 @@ My full-guitar illustration is a **2022 R9 reissue, not a vintage 1959 Les Paul*
 My range for **1958 to 1960 Sunburst Standards is $200,000 to $500,000+**, which includes the 1959 Burst. These are US retail estimates for all-original guitars in excellent condition with the correct original case, reviewed in July 2026. My [vintage Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) explains the condition categories and how I compare guitars.
 
 Original finish and PAFs strongly affect collector value; repairs, replacement parts and neck alterations can put a guitar outside the range. Within the category, I weigh the maple top's appearance, neck condition and documented provenance. I keep a refinished guitar or a modern R9 in its own price comparison.
+
+<blockquote class="burst-expert-note">
+<p><strong>Expert note from Joe Dampt</strong></p>
+<p>Provenance and original-owner photos can change my assessment of a 1959 Les Paul's value.</p>
+</blockquote>
 
 <nav class="burst-inline-toc" aria-label="Article Contents">
 <h2>Table Of Contents</h2>

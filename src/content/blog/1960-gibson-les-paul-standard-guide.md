@@ -2,7 +2,7 @@
 title: "1960 Gibson Les Paul Standard: Value, Neck Changes And Specs"
 seoTitle: "1960 Les Paul Standard Value And Specs"
 pubDate: "2026-10-14T12:10:00Z"
-modified: "2026-10-14T16:55:08Z"
+modified: "2026-10-14T17:21:21Z"
 excerpt: "1960 Les Paul Burst values, the slim neck and reflector knob changes, 635 shipped, and how to tell an original from an R0 by its serial."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -42,6 +42,11 @@ My full-guitar photo shows a **2014 R0 reissue, not a vintage 1960 example**. Th
 My range for **1958 to 1960 Sunburst Standards is $200,000 to $500,000+**, including the 1960 Burst. These are US retail estimates for all-original guitars in excellent condition with the correct original case, reviewed in July 2026. My [vintage Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) explains the range and the comparisons behind it.
 
 Original finish and PAFs carry much of the collector value, while repairs, replaced components and neck alterations can put a guitar outside that range. I consider the neck's condition and documented provenance alongside the finish and parts. Early and later neck preferences belong in the comparison too, with the actual guitar's condition stated clearly.
+
+<blockquote class="burst-expert-note">
+<p><strong>Expert note from Joe Dampt</strong></p>
+<p>The slim neck is a turnoff for many players and collectors, making 1960 the least expensive Burst year in my experience. Necks vary, though, and I'd value a 1960 with a 1959-style profile more highly.</p>
+</blockquote>
 
 <nav class="burst-inline-toc" aria-label="Article Contents">
 <h2>Table Of Contents</h2>
