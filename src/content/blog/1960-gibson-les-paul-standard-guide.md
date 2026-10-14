@@ -71,10 +71,6 @@ The [1959 Standard guide](/post/1959-gibson-les-paul-standard-guide/) covers the
 
 No. Early 1960 examples can retain the fuller profile associated with the previous year, and the move toward slimmer necks wasn't a guarantee of one identical shape. Evaluate the guitar's depth, shoulders and repair history. A year label alone can't tell you whether that particular neck will feel comfortable or whether it has been reshaped.
 
-> “Quick responses to questions, was able to call the shop as well, which was reassuring for a high dollar purchase. Shipped quickly and packaged very well. Looks even better in person than the pics.  Super happy!”
->
-> [Michael R., Reverb buyer review](/reverb-reviews/#r9-2022-michael-r), September 15, 2024, for a 2022 R9. This is feedback about a related Historic reissue purchase, not a review of a vintage 1960 Standard or an R0.
-
 ## 1960 Specifications
 
 The year-specific questions concern how its appointments changed and what remains on the individual instrument.
@@ -229,10 +225,6 @@ For an original, finish history, headstock and heel repairs, pickup originality,
 Ask what is included in a price comparison: the case, retained original parts, repair documentation and any supported ownership history. An asking price is not a completed sale. A famous owner's guitar may sell for reasons that don't apply to a visually similar instrument without that provenance.
 
 The [Les Paul market-value guide](/vintage-gibson-les-paul-market-value-guide/) puts original Bursts, repaired examples and reissues into a broader framework. Values move with condition findings and the market. An estimate based on photographs isn't a firm offer or a guarantee of a future sale price.
-
-> “Thanks so much! Love the guitar.”
->
-> [John K., Reverb buyer review](/reverb-reviews/#r8-2009-john-k), June 4, 2022, for a 2009 R8. This is feedback about a related Historic reissue, not a vintage 1960 guitar.
 
 ## Resources And Related Reading
 

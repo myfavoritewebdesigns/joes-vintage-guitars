@@ -61,10 +61,6 @@ One documented example is Greeny, the 1959 Standard played by Peter Green, Gary 
 
 An artist's modified instrument can be historically important precisely because it was modified. A collector evaluating another Burst still needs a description of that guitar's own parts and history.
 
-> “Quick responses to questions, was able to call the shop as well, which was reassuring for a high dollar purchase. Shipped quickly and packaged very well. Looks even better in person than the pics.  Super happy!”
->
-> [Michael R., Reverb buyer review](/reverb-reviews/#r9-2022-michael-r), September 15, 2024, for the pictured 2022 R9. The review concerns a modern reissue purchase.
-
 ## 1959 Specifications
 
 The table describes the usual original Standard configuration. A surviving instrument may have factory variation, replacement parts or repair work that needs its own explanation.
@@ -194,10 +190,6 @@ Exact production and survival counts also deserve care. A repeated number can be
 ### Is A 1959 Les Paul A Guaranteed Investment?
 
 No collectible guitar offers a guaranteed return. The amount a buyer will pay depends on the instrument, the evidence supporting its description and the market at the time of sale. Selling costs and new condition findings can change the result. Treat an appraisal as an assessment for a stated purpose and date, not a promise of future profit.
-
-> “Great seller, awesome guitar, thanks!”
->
-> [Mike T., Reverb buyer review](/reverb-reviews/#r8-2011-mike-t), October 11, 2024, for a 2011 R8. This is another Historic reissue customer's experience, not a review of a vintage 1959 guitar.
 
 ## R9 Reissues Versus Original 1959 Guitars
 

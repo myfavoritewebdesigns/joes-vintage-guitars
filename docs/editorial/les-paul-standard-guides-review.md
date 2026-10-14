@@ -136,17 +136,17 @@ Seller identity was checked in the user's shop, `https://reverb.com/shop/joe-s-g
 
 All three hero photographs have visible modern-reissue captions before the image, descriptive alt text, local Astro optimization, responsive dimensions and licensed-image metadata whose `contentUrl` matches the rendered image. A copyright/license declaration is not evidence of vintage authenticity.
 
-Joe's October 14, 2026 instruction removes all outbound Reverb links from the three public articles, including caption source links. Exact source URLs remain here for editorial verification. Comparisons now link to the companion guides, and review quotations still link to the site's own review archive. This user preference governs public source placement and does not change the evidence or unresolved fact approvals.
+Joe's October 14, 2026 instructions remove all outbound Reverb links from the three public articles, including caption source links, and remove all Reverb buyer reviews as irrelevant to these model guides. Exact image source URLs remain here for editorial verification. Comparisons link to the companion guides. These user preferences govern public source and testimonial placement and do not change the image evidence or unresolved fact approvals.
 
-### Review Evidence
+### Removed Review Evidence
 
-Exact quotations were checked against `reference/reverb-reviews-body.html`, the existing public review archive. New stable anchors point to the matching entries, without changing their text:
+The earlier draft quotations were checked against `reference/reverb-reviews-body.html`, the existing public review archive. All six quote placements and their attribution links have now been removed from the three articles at Joe's explicit request. The archive entries remain unchanged:
 
 - Mike T., October 11, 2024, 2011 R8: `/reverb-reviews/#r8-2011-mike-t`.
 - Michael R., September 15, 2024, 2022 R9: `/reverb-reviews/#r9-2022-michael-r`.
 - John K., June 4, 2022, 2009 R8: `/reverb-reviews/#r8-2009-john-k`.
 
-The 1960 article explicitly identifies its reviews as related R8/R9 purchases. No review is described as a vintage 1960 or R0 sale. Reviewer locations were not supplied, so none were invented.
+No testimonials should be restored to these guides merely to satisfy the MFWD component checklist. The user's relevance decision supersedes that requirement; earlier sidecheck and completeness reports describe drafts that still included the reviews.
 
 ## Manufacturer Research Sources
 
@@ -159,17 +159,19 @@ The 1960 article explicitly identifies its reviews as related R8/R9 purchases. N
 
 ## Review Limits And Implementation Decisions
 
-Final local build verification (October 14, 2026): 227 pages built successfully; Astro check returned 0 errors, 0 warnings and 93 existing hints; site copy audit returned 0 hard failures. MFWD wording scan returned 0 bans and 7 advisory warnings across the three drafts. Article-completeness scan found all six required component groups on all three, with exact visible/schema FAQ parity. This is component completeness, not publication approval.
+Initial local build verification (October 14, 2026): 227 pages built successfully; Astro check returned 0 errors, 0 warnings and 93 existing hints; site copy audit returned 0 hard failures. MFWD wording scan returned 0 bans and 7 advisory warnings across the three drafts. Before Joe requested removal of buyer reviews, the article-completeness scan found all six required component groups on all three, with exact visible/schema FAQ parity. The testimonial component is now intentionally omitted per his instruction. These checks are not publication approval.
 
 | Draft | Rendered Body Words | Internal Link Occurrences | Distinct Internal Targets | Distributed FAQs |
 |---|---:|---:|---:|---:|
-| 1958 | 2,761 | 25 | 21 | 6 |
-| 1959 | 2,955 | 23 | 20 | 6 |
-| 1960 | 3,282 | 29 | 23 | 6 |
+| 1958 | 2,708 | 23 | 19 | 6 |
+| 1959 | 2,867 | 21 | 18 | 6 |
+| 1960 | 3,183 | 27 | 21 | 6 |
 
 All checked internal routes and fragment targets resolve in the final build; all three pages have exactly one H1 and one FAQPage. All three licensed hero image URLs match their rendered image sources. Independent browser review checked 1920px and 390px layouts, image disclosures, contained table scrolling and section navigation; see `reports/les-paul-standard-guides-visual-review.md`.
 
 No-Reverb-link follow-up (October 14, 2026): the rebuilt article elements contain zero outbound links to `reverb.com` or its subdomains. Replacement internal routes and fragment targets resolve, all six FAQ pairs still match per article, all three licensed image URLs match, and the rendered site copy audit again returned zero hard failures.
+
+Buyer-review removal follow-up (October 14, 2026): all six testimonial placements and attribution links are absent from the rebuilt pages. The production build passed, the rendered copy audit returned zero hard failures, and the remaining internal routes, fragments and visible/schema FAQ pairs still match. Photos and modern-reissue disclosures remain in place.
 
 R0 follow-up: the production rebuild passed, the site copy gate again returned 0 hard failures, and the revised 1960 guide passed component completeness with 26 working TOC links and six visible/schema FAQ pairs. Its full-article MFWD scan returned 0 bans and two existing advisory warnings. The independent delta review confirmed the photo observations and modern-reissue disclosure. This resolves the missing first-party image/example, while the original historical-fact approval requirements remain open.
 

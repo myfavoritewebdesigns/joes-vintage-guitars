@@ -65,10 +65,6 @@ For a concrete period example, Gibson documented a [1958 Goldtop with serial num
 
 No. [Goldtops](/post/1957-les-paul-goldtop-guide/) belong to 1958 too, because Gibson changed the finish during the year. A gold-finished 1958 Les Paul with humbuckers can be period-correct. The separate question is whether the finish on the individual guitar is original. Compare it with the model's construction, component dates and repair history before deciding what it is.
 
-> “Great seller, awesome guitar, thanks!”
->
-> [Mike T., Reverb buyer review](/reverb-reviews/#r8-2011-mike-t), October 11, 2024, for the pictured 2011 R8. This is feedback about a modern reissue purchase.
-
 ## 1958 Specifications
 
 Use this as a description of the model's usual configuration, subject to documented exceptions and later repairs. It isn't an originality certificate.
@@ -177,10 +173,6 @@ Within the correct category, document the following separately:
 6. **Case And Accessories:** Include the case, receipts and retained parts, while checking whether they belong to the guitar.
 
 The [vintage Les Paul market-value guide](/vintage-gibson-les-paul-market-value-guide/) provides the broader comparison. An asking price isn't a confirmed sale, and one unusually figured or celebrity-owned instrument isn't a reliable comparison for every 1958 Standard. Any estimate is specific to the evidence available; condition findings and market changes can alter it.
-
-> “Thanks so much! Love the guitar.”
->
-> [John K., Reverb buyer review](/reverb-reviews/#r8-2009-john-k), June 4, 2022, for a 2009 R8. This review concerns a reissue, not an original Burst.
 
 ## 1958 Vs. 1959 Vs. 1960 Les Paul Standards
 
