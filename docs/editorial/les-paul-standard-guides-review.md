@@ -8,6 +8,8 @@ MFWD rules: `myfavoritewebdesigns/mfwd-writing-system` at `366edf5`. Fact databa
 
 ## Open Items
 
+**October 14 editorial revision:** Joe has chosen to supply one short Expert Note per article. Wait for his wording, then add it under the exact callout label “Expert note from Joe Dampt.” The older question bank below is retained as optional background, not a new request for answers. No note or placeholder has been added to the public articles. PR #223 must remain a draft.
+
 1. **R0 photo resolved:** Joe supplied listing 54542468. The sold-item view verifies his shop, a 2014 R0 and the exact photographs. The 1960 draft now has a clearly captioned hero and a first-party photo walkthrough. The black Les Paul Classic was not substituted.
 2. Have Joe verify or correct the pending technical claims below. Record approval in the canonical database, including required expert sign-offs, before publication. The supplied database does not yet contain all the original-year specifications used in these review drafts.
 3. Integrate any approved firsthand answers from the questions below. These are optional prompts for useful experience, not a demand that Joe research the documented specifications.
@@ -42,10 +44,10 @@ Answer any question where you have a useful firsthand example, opinion, or clien
 
 1. What assumption about a 1959 Les Paul do you find yourself correcting most often?
    - Why: adds a shop perspective to a heavily mythologized model.
-   - Placement: **Why The 1959 Standard Matters**.
+   - Placement: **The 1959 Standard In The Burst Timeline**.
 2. What do you remember about the photographed 2022 R9 beyond its listing description?
    - Why: supplies direct handling experience for the first-party example.
-   - Placement: **What Joe's R9 Photo Shows**.
+   - Placement: **What My R9 Photo Shows**.
 3. When has a guitar's top appearance distracted a buyer from a more useful question?
    - Why: shows how a visual preference can affect a buying conversation.
    - Placement: **Maple Tops And Sunburst Color**.
@@ -54,10 +56,10 @@ Answer any question where you have a useful firsthand example, opinion, or clien
    - Placement: **PAFs And The 1959 Sound**.
 5. What repair has been hardest to explain fairly to a potential buyer?
    - Why: adds nuance to the condition comparison without inventing a discount.
-   - Placement: **How To Compare 1959 Les Paul Values**.
+   - Placement: **1959 Les Paul Value**.
 6. What do you wish owners included in their first appraisal message?
    - Why: improves the photo and documentation request using actual shop experience.
-   - Placement: **Get Your Les Paul's Details Reviewed**.
+   - Placement: **Send Me Your Les Paul's Details**.
 
 ### 1960 Article
 
@@ -75,10 +77,10 @@ Answer any question where you have a useful firsthand example, opinion, or clien
    - Placement: **Reflector Knobs And Double-Ring Tuners**.
 5. What do you remember about the photographed 2014 R0 beyond its listing description?
    - Why: adds direct handling experience to the verified listing and photo observations.
-   - Placement: **What Joe's R0 Photo Shows**.
+   - Placement: **What My R0 Photo Shows**.
 6. What has persuaded a buyer to choose a 1960-style guitar over a 1959-style guitar?
    - Why: adds a real preference and decision to the closing comparison.
-   - Placement: **Value And Purchase Comparisons**.
+   - Placement: **1960 Les Paul Value**.
 
 ## Verify Or Correct: Registry Trace
 
@@ -86,7 +88,7 @@ These entries map existing facts to the sections using them. A fact is not expan
 
 | Draft Claim / Sections | Existing Fact IDs | State |
 |---|---|---|
-| 1958 finish transition; all three introductions and historical comparisons | VG-0044, VG-0105 | Available; no exact sunburst production total asserted |
+| 1958 finish transition; all three introductions and historical comparisons | VG-0044, VG-0105 | Available; see the October 14 live-page revision ledger below for the newly requested shipment totals |
 | PAF meaning and 1957 introduction; all pickup sections and 1958 predecessor | VG-0003, VG-0041 | Available |
 | Tuner date versus guitar date; all hardware/dating sections | VG-0002 | Available |
 | Kluson housing lettering differs from plastic button rings; 1960 tuner section | VG-0019 | Available for housing chronology; button transition still needs its own record |
@@ -208,3 +210,32 @@ R0 follow-up: the production rebuild passed, the site copy gate again returned 0
 - Sentence-length variation remains an editorial diagnostic; independent scanners found no banned-word failures but some formal rhythm warnings. No filler was added to meet a numeric threshold.
 - No external plagiarism service was run. No independent final-read approval is claimed before the unresolved gates are cleared.
 - Public pages contain the article and resources, not this questionnaire, ledger or workflow commentary.
+
+## October 14 Live-Page Editorial Revision
+
+This revision implements Joe's numbered corrections on PR #223. Earlier review notes and line references above describe earlier snapshots. The current articles remain drafts, and Joe's three short Expert Notes are pending. No firsthand anecdote or expert-note wording was invented.
+
+New historical and valuation facts were limited to these live JVG pages, read October 14, 2026:
+
+| Source | Applied Facts |
+|---|---|
+| [PAF guide](https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/) | A zebra is one pickup with one black and one cream bobbin; the cream is almost always the slug coil. Supplier shortage caused cream bobbins to enter production from spring 1959 into mid 1960. Two cream bobbins are double white. Pickup anatomy supports the brief construction explanations. |
+| [Les Paul dating guide](https://www.joesvintageguitarsaz.com/gibson-les-paul-dating-guide/) | 1958 versus 1960 catalog naming; common Historic M YNNN serial format and decade ambiguity. Joe supplied the 2011 R8, 2022 R9 and documented 2014 R0 examples; the rule explains 8 1xxx, 9 2xxx and 0 4285. Each post states the catalog distinction once. |
+| [Shipping totals](https://www.joesvintageguitarsaz.com/post/gibson-shipping-totals-1948-1979/) | 1958: 247 Goldtops plus 187 Sunbursts equals 434. 1959: 643 Sunbursts. 1960: 635. 1961: 2. Counts describe shipments within the relevant branch, not survivors, all Les Paul models or exact assembly dates. |
+| [Market value guide](https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/) | 1958 to 1960 Sunbursts: $200,000 to $500,000+. 1957 to 1958 PAF Goldtops: $135,000 to $250,000. Scope retained: US retail estimates, all-original excellent condition, correct original case, July 2026 review. Finish, pickups, repairs, neck condition and provenance affect comparisons. No fresh market review or new price tier claimed. |
+
+The first H2 in each article now answers value intent before contents and specs. Titles, seoTitles and meta descriptions use Joe's exact requested strings. Each first value section links back with the anchor “vintage Les Paul value guide”; the hub's Burst section links to each year with “1958/1959/1960 Les Paul value and specs.”
+
+Each article has six distributed search-oriented FAQs and one short originality checklist. All 22 vintage feature photographs remain, with shorter donor-specific captions. The R0 passage claiming to show an unseen rear-headstock photograph was removed; the serial example now appears only in dating explanations. R8/R9/R0 reissue disclosures remain. No Reverb link, buyer review, new vintage Burst photograph or public Expert Note placeholder was added.
+
+Current rendered article metrics (captions included; image JSON-LD excluded):
+
+| Year | Words | Internal Links | FAQ Pairs | Feature Photos | Original / Originality Occurrences | Doesn't / Can't / Cannot Occurrences |
+|---|---:|---:|---:|---:|---:|---:|
+| 1958 | 2,292 | 30 | 6 | 7 | 6 | 2 |
+| 1959 | 2,432 | 33 | 6 | 7 | 8 | 2 |
+| 1960 | 2,722 | 39 | 6 | 8 | 6 | 1 |
+
+Validation: production build passed for 227 pages. Required rendered copy audit passed with zero hard failures; none of the three year routes has a copy warning (778 warnings elsewhere in the site). MFWD longform scan returned zero bans and three table advisories, one per requested specification table. All 18 visible/schema FAQ pairs match; internal routes, fragments, both contents lists, exact first H2 order, first-person body copy, heading capitalization and prohibited dashes were checked. All 25 hero/detail image-license URLs match their rendered images. The independent visual follow-up is recorded in `reports/les-paul-standard-guides-visual-review.md`.
+
+These new draft routes have no live WordPress originals to use as migration-parity baselines. The deliberate value-first order, revised headings and shorter two-column tables follow Joe's current request, recorded in CLAUDE.md. This revision doesn't claim final publication approval or modify the canonical fact database.

@@ -67,3 +67,18 @@ Reviewed all three rebuilt guides through CUA in a temporary Chrome tab at 1920 
 - One screenshot taken immediately after an image was scrolled into view captured its lazy-load placeholder; the settled screenshot and subsequent load checks confirmed that image rendered normally.
 
 The new `LicensedMarkdownPhotos.astro` implementation was read for context: it selects marked rendered figures and derives license metadata from their actual image `src` values. The implementer separately reported all 25 article-photo license URLs match their rendered sources, with clean build/type/copy checks and passing internal-link/FAQ verification. This visual review does not replace the historical fact review or provenance checks. Screenshots were inspected through CUA output; no standalone screenshot files or cross-model review were produced. The temporary viewport was reset and the review tab closed. No implementation files were changed by this reviewer.
+
+## Editorial Revision Follow-Up, October 14, 2026, Build Completed 16:56:06
+
+Reviewed the same three draft-PR routes at 1920 by 1080 and 390 by 844 pixels in CUA Chrome. No blocking visual regression was found.
+
+- Each article's first H2 is its year-specific value section, followed by the inline table of contents and later specifications; the dollar ranges and their July 2026 condition/scope text render together.
+- Each article has one H1, a two-column specification table and one FAQPage containing six entries; the implementer separately reported clean FAQ/text and internal-link verification.
+- The longer titles and contents labels wrap within their containers on desktop and mobile, with no whole-page horizontal overflow or clipped caption text.
+- The desktop hero ends at x1362.5 and the TOC begins at x1398; even the longer 1960 TOC ends at y706.5 within the 1080-pixel viewport.
+- All three reissue heroes and all 22 retained detail photographs loaded after real browser scrolling at both tested widths; the revised donor captions continue to identify the relevant source models or explicitly unidentified components.
+- All desktop and inline TOC targets exist; mobile navigation to the new 1960 value section and the specifications section closes the contents sheet and settles the target heading about 110 pixels below the viewport top.
+- Article bodies contain no Reverb links, buyer-review passages or added editorial-note sections; no new original-Burst photograph was introduced by this revision.
+- Nonblocking: the simplified two-column specifications retain their existing 650-pixel minimum width inside a 327-pixel mobile scroll container; horizontal scrolling remains confined to the table, and the implementer elected to retain that behavior for this content revision.
+
+The implementer reported a 227-page build, no copy-audit failures or warnings on these three routes, clean link/FAQ/photo verification, and no MFWD banned-language matches. This review verifies presentation rather than the historical or valuation claims. The temporary viewport was reset and the review tab closed; only this report was edited, with no commit or push by the reviewer.
