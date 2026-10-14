@@ -2,7 +2,7 @@
 title: "1959 Gibson Les Paul Standard Burst: Value, Specs And PAFs"
 seoTitle: "1959 Les Paul Burst Value And Specs"
 pubDate: "2026-10-14T12:05:00Z"
-modified: "2026-10-14T22:17:50Z"
+modified: "2026-10-14T22:58:27Z"
 excerpt: "What a 1959 Les Paul Burst is worth, how many Gibson shipped (643) and how to tell an original from an R9 by serial, PAFs, neck and frets."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -133,7 +133,7 @@ That overlap matters when reviewing an early 1959: small frets can be a factory 
 
 A 1959 Standard generally has a rounded neck, gold bonnet knobs and single-ring tuner buttons. Early 1960 guitars can resemble it, while later examples move toward slimmer necks and reflector knobs. Double-ring buttons appear around mid-1960. Both years retain PAFs, the carved maple top and mahogany body. My [1960 Les Paul guide](/post/1960-gibson-les-paul-standard-guide/) shows the changes and comparison photos.
 
-When you're evaluating playability, compare the guitar in your hands: remaining fret height, nut condition, neck relief and the bridge's adjustment room. A worn fret, a refret and a reshaped neck are separate findings. They explain more about the individual guitar than a promise that every 1959 neck feels the same.
+When you're evaluating playability, compare the guitar in your hands: remaining fret height, nut condition, neck relief and the bridge's adjustment room. For a played 1959, I regard a quality refret as accepted maintenance: it doesn't remove an otherwise all-original guitar from that category. I wouldn't call the refretted example museum quality, and I still record the work.
 
 ## PAFs And The 1959 Sound
 

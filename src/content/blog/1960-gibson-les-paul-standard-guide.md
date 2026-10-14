@@ -2,7 +2,7 @@
 title: "1960 Gibson Les Paul Standard: Value, Neck Changes And Specs"
 seoTitle: "1960 Les Paul Standard Value And Specs"
 pubDate: "2026-10-14T12:10:00Z"
-modified: "2026-10-14T22:17:50Z"
+modified: "2026-10-14T22:58:27Z"
 excerpt: "1960 Les Paul Burst values, neck and knob changes, 635 shipped, and how serials, construction and paperwork help distinguish an original from an R0."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -126,7 +126,7 @@ No. Early 1960 examples can retain a fuller profile associated with 1959, while 
 
 Published measurements give the difference some scale. [Well Strung Guitars' measurements of its own inventory](https://wellstrungguitars.com/the-history-of-gibsons-burst-by-year/) include early 1959 examples around **0.92 inches at the first fret and 1.00 inch at the twelfth**, compared with some slim 1960 examples at **0.80 to 0.84 inches and 0.88 to 0.94 inches**, respectively. They're that dealer's observations, not measurements of my pictured R0 or fixed specifications for every Burst.
 
-Wide fretwire continued into 1960. I record a refret separately from structural neck work; the [Les Paul value guide's condition categories](/vintage-gibson-les-paul-market-value-guide/) distinguish the two when comparing a played guitar.
+Wide fretwire continued into 1960. A quality refret is accepted maintenance; I still describe an otherwise all-original 1960 as "all original," though it's no longer museum quality. The [Les Paul value guide's condition notes](/vintage-gibson-les-paul-market-value-guide/) cover how fret work affects value.
 
 A neck shave is different from a refret because it removes wood from the profile. Repairs and reshaping belong in the condition description. That keeps a factory slim neck and a neck altered after manufacture from being treated as the same history.
 

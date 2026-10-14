@@ -101,6 +101,8 @@ Paths above are relative to `src/assets/`. Source guide links appear beside each
 
 ## Content, Links And Presentation
 
+Joe's October 14 refret clarification governs the three neck/fret sections and the linked market value guide: a quality refret is accepted maintenance and doesn't remove an otherwise all-original guitar from the all-original category. The example is no longer museum quality. Document the fret work separately from structural work such as neck reshaping. This is Joe's supplied appraisal convention; the existing condition-sensitive refret value estimate remains unchanged.
+
 The value section remains the first H2. A compact value link now sits below each byline, before the disclosed reissue hero. One appraisal link follows the opening value discussion. Existing market-hub, family and Goldtop return links remain; the Les Paul dating guide now links to all three year guides, and the PAF bobbin section links to the 1959 and 1960 discussions. Nearby redundant links were trimmed while caption-specific references remain.
 
 All three guides have six visible FAQs with regenerated matching schema, first-person body copy, Title Case headings and no prohibited prose dashes. The full serial explanation stays only in 1959, and each short originality checklist has its own year-specific emphasis. The 1960 guide no longer repeats a separate early/middle/later overview or the same shipment figures in the SG introduction.

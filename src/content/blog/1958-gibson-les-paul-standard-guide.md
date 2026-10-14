@@ -2,7 +2,7 @@
 title: "1958 Gibson Les Paul Standard: Value, Goldtop To Burst And Specs"
 seoTitle: "1958 Les Paul Standard Value And Specs"
 pubDate: "2026-10-14T12:00:00Z"
-modified: "2026-10-14T22:52:35Z"
+modified: "2026-10-14T22:58:27Z"
 excerpt: "1958 Les Paul values, the Goldtop to Burst change, 434 combined shipments, and the neck, fret and PAF features to compare with an R8 reissue."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -134,7 +134,7 @@ The photograph below gives a close view of the binding at the fret ends. I use i
 <figcaption><strong>1958 Les Paul Special, Fret-End Detail.</strong> The small rises in the cream binding meet the fret ends. This same-year Special illustrates the binding detail; its dot inlays and fret specification belong to a different model. I don't use this photo as evidence of Standard fret size. See the <a href="/post/1955-1958-tv-yellow-les-paul-special-guide/">1950s Les Paul Special example</a>.</figcaption>
 </figure>
 
-A refret and a reshaped neck belong in separate parts of the condition description. Keep repair records with the guitar so I can compare the visible work with its documented history.
+I treat a quality refret as accepted maintenance. It takes a guitar out of the museum-quality category, but I still consider an otherwise all-original example "all original." I document fret replacement separately from neck reshaping and keep the repair records with the guitar's history.
 
 ## PAF Pickups And Controls
 
