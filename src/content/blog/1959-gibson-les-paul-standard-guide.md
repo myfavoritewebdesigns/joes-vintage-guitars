@@ -2,7 +2,7 @@
 title: "1959 Gibson Les Paul Standard Burst: Value, Specs And PAFs"
 seoTitle: "1959 Les Paul Burst Value And Specs"
 pubDate: "2026-10-14T12:05:00Z"
-modified: "2026-10-14T18:10:21Z"
+modified: "2026-10-14T21:59:05Z"
 excerpt: "What a 1959 Les Paul Burst is worth, how many Gibson shipped (643) and how to tell an original from an R9 by serial, PAFs, neck and frets."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -26,7 +26,7 @@ toc:
   - { href: "#dating-and-originality-checks", label: "Dating And Originality Checks" }
   - { href: "#r9-reissues-versus-original-1959-guitars", label: "R9 Reissues Versus Original 1959 Guitars" }
   - { href: "#resources-and-related-reading", label: "Resources And Related Reading" }
-faqs: [{"q": "How Much Is A 1959 Les Paul Worth?", "a": "My range for 1958 to 1960 Sunburst Standards is $200,000 to $500,000+, which includes the 1959 Burst. These are US retail estimates for all-original guitars in excellent condition with the correct original case, reviewed in July 2026. My vintage Les Paul value guide explains the condition categories and how I compare guitars."}, {"q": "How Many 1959 Les Pauls Were Made?", "a": "Gibson's records show 643 Sunburst Les Pauls shipped in 1959. That's the shipment total for the Burst branch, separate from Customs, Juniors and other Les Paul models. A ledger counts shipments, not surviving guitars or an exact assembly date for each instrument. My Gibson shipping totals page shows the model-by-model figures."}, {"q": "Did Every 1959 Les Paul Have A Flame Top?", "a": "No. Maple figure varies, and a heavily striped top isn't a requirement for a 1959 Standard. Lighting and viewing angle also change how visible the figure is. I compare the wood's appearance separately from its date and condition. The Les Paul dating guide explains how finish and construction fit into the identification."}, {"q": "What's The Difference Between A 1959 And A 1960 Les Paul?", "a": "A 1959 Standard generally has a rounded neck, gold bonnet knobs and single-ring tuner buttons. Early 1960 guitars can resemble it, while later examples move toward slimmer necks, reflector knobs and double-ring buttons. Both years retain PAFs, the carved maple top and mahogany body. My 1960 Les Paul guide shows the changes and comparison photos."}, {"q": "What Is A Zebra PAF Pickup?", "a": "A zebra is one pickup with one black bobbin and one cream bobbin. On PAF zebras, the cream bobbin is almost always the slug coil. Two cream bobbins in one pickup are called double white."}, {"q": "How Can I Tell A Real 1959 Les Paul From An R9?", "a": "I compare the guitar's construction and paperwork with its serial. Historic reissues use the common M YNNN format in my Les Paul dating guide: M identifies the year being reissued, with 8 for 1958, 9 for 1959 or 0 for 1960. Y is the build year's last digit, followed by the production sequence."}]
+faqs: [{"q": "How Much Is A 1959 Les Paul Worth?", "a": "My range for 1958 to 1960 Sunburst Standards is $200,000 to $500,000+, which includes the 1959 Burst. These are US retail estimates for all-original guitars in excellent condition with the correct original case, reviewed in July 2026. My vintage Les Paul value guide explains the condition categories and how I compare guitars."}, {"q": "How Many 1959 Les Pauls Were Made?", "a": "Gibson's records show 643 Sunburst Les Pauls shipped in 1959. That's the shipment total for the Burst branch, separate from Customs, Juniors and other Les Paul models. A ledger counts shipments, not surviving guitars or an exact assembly date for each instrument. My Gibson shipping totals page shows the model-by-model figures."}, {"q": "Did Every 1959 Les Paul Have A Flame Top?", "a": "No. Maple figure varies, and a heavily striped top isn't a requirement for a 1959 Standard. Lighting and viewing angle also change how visible the figure is. I compare the wood's appearance separately from its date and condition. The Les Paul dating guide explains how finish and construction fit into the identification."}, {"q": "What's The Difference Between A 1959 And A 1960 Les Paul?", "a": "A 1959 Standard generally has a rounded neck, gold bonnet knobs and single-ring tuner buttons. Early 1960 guitars can resemble it, while later examples move toward slimmer necks and reflector knobs. Double-ring buttons appear around mid-1960. Both years retain PAFs, the carved maple top and mahogany body. My 1960 Les Paul guide shows the changes and comparison photos."}, {"q": "What Is A Zebra PAF Pickup?", "a": "A zebra is one pickup with one black bobbin and one cream bobbin. On PAF zebras, the cream bobbin is almost always the slug coil. Two cream bobbins in one pickup are called double white."}, {"q": "How Can I Tell A Real 1959 Les Paul From An R9?", "a": "I compare the guitar's construction and paperwork with its serial. Historic reissues use the common M YNNN format in my Les Paul dating guide: M identifies the year being reissued, with 8 for 1958, 9 for 1959 or 0 for 1960. Y is the build year's last digit, followed by the production sequence."}]
 ---
 
 **A 1959 Les Paul Burst combines a sunburst maple top, mahogany body and two PAF humbuckers, with 643 Sunbursts recorded as shipped that year.** Its value depends on the individual guitar's finish, parts, repairs and documented history.
@@ -45,6 +45,8 @@ Original finish and PAFs strongly affect collector value; repairs, replacement p
 <p><strong>Expert note from Joe Dampt</strong></p>
 <p>Provenance and original-owner photos can change my assessment of a 1959 Les Paul's value.</p>
 </blockquote>
+
+For a value specific to your guitar, [send me photos for a Gibson appraisal](/free-appraisal/gibson/).
 
 <nav class="burst-inline-toc" aria-label="Article Contents">
 <h2>Table Of Contents</h2>
@@ -87,10 +89,9 @@ I use these specifications as the starting comparison, then describe each guitar
 | Feature | Typical 1959 Standard |
 | --- | --- |
 | Body | Mahogany back with a carved maple top and single cutaway |
-| Finish | Cherry sunburst top with nitrocellulose lacquer |
-| Neck | Set mahogany neck with a rounded profile |
-| Fingerboard | Bound rosewood, trapezoid inlays, 22 frets |
-| Scale | Nominal 24.75 inches |
+| Finish | Cherry Sunburst top; red dye can fade |
+| Neck Profile | Rounded, with the individual shape and condition recorded |
+| Fingerboard | Bound rosewood, trapezoid inlays |
 | Pickups | Two PAF humbuckers |
 | Controls | Two volumes, two tones and a three-way switch |
 | Hardware | ABR-1 Tune-o-matic and separate tailpiece; nickel-finished hardware |
@@ -114,9 +115,7 @@ The R9 is a modern instrument throughout this discussion. Its finish, pickup cov
 
 No. Maple figure varies, and a heavily striped top isn't a requirement for a 1959 Standard. Lighting and viewing angle also change how visible the figure is. I compare the wood's appearance separately from its date and condition. The [Les Paul dating guide](/gibson-les-paul-dating-guide/) explains how finish and construction fit into the identification.
 
-A Burst's appearance combines the wood beneath the finish with the finish itself. Straight grain and flame figure describe different visual characteristics. Bookmatching describes the relationship between the pieces of wood, while the carved surface changes the way light reaches them.
-
-The red dye can fade considerably. Names such as lemon, tea and honey describe colors collectors see today, so I distinguish that current appearance from the factory finish history. A protected area can retain more color than an exposed surface.
+The visible maple figure and the finish's fade both matter in the comparison. Red dye can fade heavily, so I compare the exposed top with protected areas and keep the finish history in the description.
 
 For useful photographs, include the complete top, binding and edges under consistent light. A straight-on beauty shot can conceal the carve in reflections. I also want to see any repaired or touched-up area clearly, before polishing or other work changes its appearance.
 
@@ -124,11 +123,11 @@ For useful photographs, include the complete top, binding and edges under consis
 
 The 1959 neck is generally rounded, with variation in depth and shoulders between guitars. I describe the actual profile because the phrase “1959 neck” covers more than one feel. Fingerboard edges, fret height and setup also change the playing experience.
 
-Wider fretwire is commonly associated with 1959 compared with the narrower 1958 specification. A refretted guitar may have wire chosen for a later owner's preference. I distinguish the installed frets from the factory specification and record any fingerboard or binding work.
+A refret belongs in the service history alongside fingerboard or binding work. I assess the quality and condition of that work separately from neck repairs when choosing comparable guitars.
 
 ### What's The Difference Between A 1959 And A 1960 Les Paul?
 
-A 1959 Standard generally has a rounded neck, gold bonnet knobs and single-ring tuner buttons. Early 1960 guitars can resemble it, while later examples move toward slimmer necks, reflector knobs and double-ring buttons. Both years retain PAFs, the carved maple top and mahogany body. My [1960 Les Paul guide](/post/1960-gibson-les-paul-standard-guide/) shows the changes and comparison photos.
+A 1959 Standard generally has a rounded neck, gold bonnet knobs and single-ring tuner buttons. Early 1960 guitars can resemble it, while later examples move toward slimmer necks and reflector knobs. Double-ring buttons appear around mid-1960. Both years retain PAFs, the carved maple top and mahogany body. My [1960 Les Paul guide](/post/1960-gibson-les-paul-standard-guide/) shows the changes and comparison photos.
 
 When you're evaluating playability, compare the guitar in your hands: remaining fret height, nut condition, neck relief and the bridge's adjustment room. A worn fret, a refret and a reshaped neck are separate findings. They explain more about the individual guitar than a promise that every 1959 neck feels the same.
 
@@ -136,7 +135,9 @@ When you're evaluating playability, compare the guitar in your hands: remaining 
 
 PAF stands for Patent Applied For, the wording on the early Gibson humbucker's familiar baseplate decal. The pickup reached Les Pauls during 1957, before the Burst finish arrived. Each humbucker uses two coils, one with adjustable pole screws and one with steel slugs, above a bar magnet.
 
-The [PAF and patent-number pickup guide](/post/gibson-paf-patent-number-pickup-guide/) explains the baseplate, bobbins, leads, magnets and winding details. I assess them together, including any rewind or replacement component. A resistance reading adds electrical information to that description, while the guitar's controls and setup affect the playing comparison.
+My [PAF sound and construction guide](/post/gibson-paf-patent-number-pickup-guide/#paf-sound) describes variation in coil turns, wire tension and alnico magnet grades. The two coils weren't consistently wound to the same count, and those differences help explain why PAFs vary in response. I listen to the individual pickups rather than assuming that a 1959 date promises one sound.
+
+The 1959 pickups fall within the long-magnet PAF period described in that guide. A later rewind or magnet replacement changes the comparison, so I keep documented service work with the pickup's description. Bobbin color affects collector demand for its appearance and rarity; it doesn't define the sound.
 
 <figure class="burst-feature-photo">
 
@@ -151,7 +152,7 @@ The [PAF and patent-number pickup guide](/post/gibson-paf-patent-number-pickup-g
 
 ### What Is A Zebra PAF Pickup?
 
-A zebra is **one pickup with one black bobbin and one cream bobbin**. On [PAF zebras](/post/gibson-paf-patent-number-pickup-guide/#paf-open), the cream bobbin is almost always the slug coil. Two cream bobbins in one pickup are called double white.
+A zebra is **one pickup with one black bobbin and one cream bobbin**. On PAF zebras, the cream bobbin is almost always the slug coil. Two cream bobbins in one pickup are called double white.
 
 Covers conceal the bobbins, so I keep cover condition and solder history separate from the color description. Leave an intact cover in place for an initial review.
 
@@ -162,7 +163,7 @@ Covers conceal the bobbins, so I keep cover condition and solder history separat
 <figcaption><strong>1959 ES-335, Cream Bobbin Detail.</strong> Cream material is visible through a pole-screw opening in this existing inspection photo. It shows one bobbin; the other remains hidden. The <a href="/post/1959-gibson-es-335-authentication-guide/">1959 ES-335 guide</a> records the source guitar.</figcaption>
 </figure>
 
-The ES-335 photograph reveals cream material at one pole-screw opening. It provides a close view of that bobbin without showing the color of the other one. The open-pickup photograph below shows black bobbins and the slug side of the construction.
+The already-open pickup below shows the slug side and a glimpse of the winding wire. My pickup guide identifies the dark purple-brown color as plain-enamel wire used during the PAF years.
 
 <figure class="burst-feature-photo">
 
@@ -193,7 +194,7 @@ The ABR-1 bridge and stopbar form separate assemblies. The bridge has individual
 <figcaption><strong>1959 ES-335, Bridge And Tailpiece.</strong> This same-year Gibson shows the ABR-1 bridge, six metal saddles, height-adjustment wheels and separate stopbar. Its black plastics belong to the ES-335. Compare the <a href="/post/1959-gibson-es-335-authentication-guide/">1959 ES-335 construction details</a>.</figcaption>
 </figure>
 
-On the tuners, one line of Kluson Deluxe lettering identifies the casing style, while one molded ring identifies the button style. These are separate details. The [Kluson tuner chronology](/gibson-tuner-dating-guide/) shows both and explains how to compare them with the mounting evidence.
+On the tuners, one line of Kluson Deluxe lettering identifies the casing style, while one molded ring identifies the button style. These are separate details.
 
 <figure class="burst-feature-photo">
 

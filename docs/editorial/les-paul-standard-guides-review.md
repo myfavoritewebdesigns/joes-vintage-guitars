@@ -1,126 +1,50 @@
 # Les Paul Standard Guides: Editorial Handoff
 
-Prepared October 14, 2026. **Drafts for review; not cleared for publication.**
+Updated October 14, 2026, after Joe authorized the prepublication audit recommendations. **PR #223 remains a draft. No production publication or merge is authorized by this revision.**
 
-The user requested three extensive site-native articles, Joe's Reverb R8/R9/R0 photography clearly identified as modern reissues, MFWD writing, the site's Astro/CLAUDE rules and substantial internal linking. The deliverable is therefore the existing Astro blog format. These editorial notes are outside the public content collection.
+This is the current handoff. Earlier questionnaires, checks and unresolved-claim lists remain in Git history; they are not outstanding requests for Joe to approve the same corrections again. All three supplied Expert Notes are in the articles. Shipment totals and scoped dollar values are included.
 
-MFWD rules: `myfavoritewebdesigns/mfwd-writing-system` at `366edf5`. Fact database: `myfavoritewebdesigns/joes-vintage-databases` at `4dc69b7a3f4ee18498adde8301f4adaa629b516b`. Both were pulled and current. No approval was added to the canonical database. No reviewed-by claim is made.
+MFWD writing reference: `myfavoritewebdesigns/mfwd-writing-system` at `366edf5`. Canonical fact database reviewed earlier: `myfavoritewebdesigns/joes-vintage-databases` at `4dc69b7a3f4ee18498adde8301f4adaa629b516b`. This revision does not change that database or mark pending records approved. Joe's explicit live-page sourcing instruction governs this draft revision; live-source support and canonical registry approval are separate statuses.
 
-## Open Items
+## Current Source Resolutions
 
-**October 14 Expert Notes received:** Joe supplied all three notes in this chat. Each now appears in the corresponding value section under the exact label “Expert note from Joe Dampt,” with light spelling and grammar edits. The earlier question bank below is optional background, not a new request for answers. PR #223 must remain a draft. See the supplied-note record at the end of this handoff.
+| Claim Or Decision | Current Evidence And Resolution |
+| --- | --- |
+| Goldtop-to-Burst change and catalog naming | The [live Les Paul dating guide](https://www.joesvintageguitarsaz.com/gibson-les-paul-dating-guide/), in the Goldtop/Standard sequence, supplies mid-1958 Cherry Sunburst, the continuing maple-cap/mahogany construction, two humbuckers, ABR-1 and stopbar, and 1958 versus 1960 catalog terminology. Each year article states the catalog distinction once. |
+| Body, fingerboard and controls | The same guide's **Les Paul Model, Goldtop And Standard Changes** feature summary explicitly identifies a carved maple cap over mahogany, cream top binding, four controls and a selector, and a rosewood fingerboard with trapezoid inlays and binding. This resolves the previously untraced fingerboard scope without borrowing Special or ES specifications. The [live family guide](https://www.joesvintageguitarsaz.com/post/vintage-gibson-les-paul-family-guide/) supplies the original 1952 to 1960 Standard branch and hardware sequence. |
+| Scale, fret count and neck-wood specification | Removed the nominal 24.75-inch scale and 22-fret assertions from the three tables because the reviewed eligible live pages did not provide original-Standard-specific support. Removed the untraced set-mahogany-neck table wording. The remaining rows describe sourced model features or the inspection being performed. These removals are source-scope decisions, not findings that the old specifications were false. |
+| Factory fret-size transition | Removed the narrower-1958 versus wider-1959/1960 comparison from prose, FAQs and checklists. Kept the existing Special fret-end illustration with its source-model disclaimer and condition-focused refret discussion. |
+| Later-1960 color and nut-width claims | Removed the stronger red/orange and tomato-soup chronology and the broad late-1950s nut-width assertion. Retained red-dye fading and protected-area comparisons supported by the dating/family guides. Removed the untraced 1959 lacquer formulation and bookmatching/color-name discussion. |
+| Neck changes | The live family guide's 1958 to 1960 timeline identifies slimmer necks on many late examples. Joe directly supplied the fuller 1959-style versus slim 1960 neck/value comparison. No universal depth, exact monthly neck cutover or modern anniversary dimension is asserted. The redundant early/middle/later section and anniversary interpretation were removed. |
+| Values and condition | The [live market value guide](https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/) gives $200,000 to $500,000+ for 1958 to 1960 Sunbursts and $135,000 to $250,000 for 1957 to 1958 PAF Goldtops. Each article retains the July 2026 review, US retail, all-original excellent condition and correct original case scope. Repairs, altered finish, PAFs, neck condition, top appearance and provenance remain comparison factors. No new price tier or October market survey was added. |
+| Shipments | The [live shipping totals page](https://www.joesvintageguitarsaz.com/post/gibson-shipping-totals-1948-1979/) gives 1958: 247 Goldtops and 187 Sunbursts, 434 total; 1959: 643 Sunbursts; 1960: 635; 1961: 2. Counts describe shipments in this branch, not survivors or all Les Paul models. |
+| Bobbins and PAF construction | The [live PAF guide](https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/), especially If The Covers Are Already Off, supports the spring 1959 to mid 1960 supplier window, zebra definition, cream usually on the slug coil and double-white definition. The 1959 window appears once in visible prose. |
+| Added 1959 sound detail | The live PAF guide's **Why PAFs Sound The Way They Do** and construction sections support variation in coil turns, wire tension and alnico grades. Its long-magnet history encompasses 1959, without needing a new cutover claim. The wire section supports plain-enamel purple-brown windings. Its value discussion separates bobbin-color rarity/appearance from tone. Existing inspection photos remain explicitly separate from a claimed 1959 Standard pickup. |
+| Tuners and knobs | The [live tuner guide](https://www.joesvintageguitarsaz.com/gibson-tuner-dating-guide/) supplies single-ring buttons until around mid-1960 and then double-ring, with overlap. The [live knob guide](https://www.joesvintageguitarsaz.com/gibson-knob-dating-guide/) and Les Paul chronology support bonnet/reflector shapes and the 1960 change. Housing lettering remains separate from button rings. |
+| Historic serials | The live Les Paul dating guide's Historic Collection row supplies common M YNNN, model-year digit, build-year final digit and decade ambiguity. Joe supplied the 2011 R8, 2022 R9 and documented 2014 R0 examples. The full explanation lives only in 1959; 1958/1960 keep their own example and links. The revised 1960 excerpt/description explicitly includes serials, construction and paperwork rather than promising a serial-only identification. |
+| Modern photos and opinions | The user authorized his specific modern photographs and supplied all three Expert Notes. The photos' original listing provenance stays in this private handoff, with no public Reverb links or reviews. No anecdote, historical MSRP or numerical neck premium was invented. |
 
-1. **R0 photo resolved:** Joe supplied listing 54542468. The sold-item view verifies his shop, a 2014 R0 and the exact photographs. The 1960 draft now has a clearly captioned hero and a first-party photo walkthrough. The black Les Paul Classic was not substituted.
-2. Have Joe verify or correct the pending technical claims below. Record approval in the canonical database, including required expert sign-offs, before publication. The supplied database does not yet contain all the original-year specifications used in these review drafts.
-3. Integrate any approved firsthand answers from the questions below. These are optional prompts for useful experience, not a demand that Joe research the documented specifications.
-4. After the remaining facts are resolved, rerun the MFWD publish gates and independent final-read review. The earlier sidechecks returned HOLD; they did not report that all flagged statements were false.
+## Canonical Registry Status
 
-## Questions For Expert Review
+| Records | Current Draft Handling | Database Status |
+| --- | --- | --- |
+| VG-0044, VG-0105; VG-0003, VG-0041 | Finish sequence and PAF introduction remain supported by the live model guides. | Existing records unchanged. |
+| VG-0002, VG-0019 | Tuner clues remain model-dependent; the live tuner guide supplies the requested button timing. | Existing records unchanged; no new button-transition approval recorded. |
+| VG-0028, VG-0029 | Exact shipping totals are now included from the live ledger, with scope and shipment caveats. | Existing caution records unchanged. |
+| VG-0025 | Spring 1959 to mid 1960 cream-bobbin supply window, not an exact cutover date, follows Joe's live PAF guide and direct correction. | Canonical pending sign-off unchanged. |
+| VG-0042, VG-0014, VG-0027 | Neck variation, combined dating evidence and PAF variation use the live sources and Joe's supplied note as detailed above. | Canonical pending sign-offs unchanged. |
+| VG-0022, VG-0106, VG-0112 | Finish/conversion and condition comparisons follow the live dating and market-value pages. | Canonical pending sign-offs unchanged. |
+| VG-0021; VG-0047, VG-0048, VG-0099, VG-0100, VG-0101; VG-0110 | SG transition, component-code limits and refret descriptions remain within their existing scope. | Existing records unchanged. |
 
-Answer any question where you have a useful firsthand example, opinion, or client conversation. Skip the rest. Your approved answers will add specific experience to the article.
+No instruction to approve database records is implied. A workflow requiring canonical sign-off must reconcile these source-backed uses separately; this handoff does not claim that administrative step has happened.
 
-### 1958 Article
+## Supplied Expert Notes
 
-1. What has made you change your initial opinion about a possible 1958 Burst?
-   - Why: a firsthand example can show how several observations change an assessment.
-   - Placement: **Serial Numbers And Originality**.
-2. What do owners most often misunderstand about a 1958 Goldtop?
-   - Why: illustrates the practical consequences of the finish transition.
-   - Placement: **The 1958 Transition**.
-3. What stood out when you handled the photographed 2011 R8?
-   - Why: adds handling experience beyond the listing and photograph.
-   - Placement: **Reading The R8 Photo**.
-4. What kind of fret work has changed your recommendation on an older Les Paul?
-   - Why: helps readers distinguish a service history from an assessment of workmanship.
-   - Placement: **Neck And Frets**.
-5. What alteration do you most wish an owner had discussed with you first?
-   - Why: gives the preservation advice a concrete shop example.
-   - Placement: **Prepare Your Guitar For Review**.
-6. What has helped a buyer choose between an R8 and an original guitar?
-   - Why: brings a real buyer decision into the comparison.
-   - Placement: **1958 Vs. 1959 Vs. 1960 Les Paul Standards**.
+- **1958:** “I put a significantly higher value on a 1958 Burst than a comparable PAF Goldtop, even though they're essentially the same guitar aside from aesthetics.”
+- **1959:** “Provenance and original-owner photos can change my assessment of a 1959 Les Paul's value.”
+- **1960:** “The slim neck is a turnoff for many players and collectors, making 1960 the least expensive Burst year in my experience. Necks vary, though, and I'd value a 1960 with a 1959-style profile more highly.”
 
-### 1959 Article
-
-1. What assumption about a 1959 Les Paul do you find yourself correcting most often?
-   - Why: adds a shop perspective to a heavily mythologized model.
-   - Placement: **The 1959 Standard In The Burst Timeline**.
-2. What do you remember about the photographed 2022 R9 beyond its listing description?
-   - Why: supplies direct handling experience for the first-party example.
-   - Placement: **What My R9 Photo Shows**.
-3. When has a guitar's top appearance distracted a buyer from a more useful question?
-   - Why: shows how a visual preference can affect a buying conversation.
-   - Placement: **Maple Tops And Sunburst Color**.
-4. What pickup finding has changed your description of a Les Paul?
-   - Why: turns the originality discussion into an experience-based example.
-   - Placement: **PAFs And The 1959 Sound**.
-5. What repair has been hardest to explain fairly to a potential buyer?
-   - Why: adds nuance to the condition comparison without inventing a discount.
-   - Placement: **1959 Les Paul Value**.
-6. What do you wish owners included in their first appraisal message?
-   - Why: improves the photo and documentation request using actual shop experience.
-   - Placement: **Send Me Your Les Paul's Details**.
-
-### 1960 Article
-
-1. What has surprised a player when comparing an early and a later 1960-style neck?
-   - Why: adds firsthand playing experience without treating all necks as identical.
-   - Placement: **Neck Profiles And Frets**.
-2. What has caused you to reconsider an apparently inconsistent set of 1960 features?
-   - Why: shows how you work through a transition-year question.
-   - Placement: **Early, Middle And Later 1960 Features**.
-3. What do sellers most often mean when they call something a “1960 reissue”?
-   - Why: grounds the R0/Classic distinction in a real conversation.
-   - Placement: **R0 Reissues And Other 1960-Style Les Pauls**.
-4. Which replacement-part discovery has mattered most in a 1960-style guitar assessment?
-   - Why: provides a concrete inspection example.
-   - Placement: **Reflector Knobs And Double-Ring Tuners**.
-5. What do you remember about the photographed 2014 R0 beyond its listing description?
-   - Why: adds direct handling experience to the verified listing and photo observations.
-   - Placement: **What My R0 Photo Shows**.
-6. What has persuaded a buyer to choose a 1960-style guitar over a 1959-style guitar?
-   - Why: adds a real preference and decision to the closing comparison.
-   - Placement: **1960 Les Paul Value**.
-
-## Verify Or Correct: Registry Trace
-
-These entries map existing facts to the sections using them. A fact is not expanded beyond its brand/model/era scope. “Available” means its existing record has `publicFacingSafe: true` and `verifyWithExpert: false`; it does not clear the whole article or its untraced sentences.
-
-| Draft Claim / Sections | Existing Fact IDs | State |
-|---|---|---|
-| 1958 finish transition; all three introductions and historical comparisons | VG-0044, VG-0105 | Available; see the October 14 live-page revision ledger below for the newly requested shipment totals |
-| PAF meaning and 1957 introduction; all pickup sections and 1958 predecessor | VG-0003, VG-0041 | Available |
-| Tuner date versus guitar date; all hardware/dating sections | VG-0002 | Available |
-| Kluson housing lettering differs from plastic button rings; 1960 tuner section | VG-0019 | Available for housing chronology; button transition still needs its own record |
-| 1961 body redesign and Les Paul/SG naming; 1959/1960 chronology | VG-0021 | Available |
-| Pot codes date components, not their installation; all electronics sections | VG-0047, VG-0048, VG-0099, VG-0100, VG-0101 | Available; do not transfer Fender stockpiling specifics to Gibson |
-| Artificial aging and lacquer appearance; all reissue/finish comparisons | VG-0103, VG-0104, VG-0105 | Available for general concepts, not an authentication verdict |
-| Refret definition; 1958/1959 neck sections | VG-0110 | Available; no fixed monetary penalty asserted |
-| Shipment totals require careful interpretation; 1958 FAQ and 1959 value section | VG-0028, VG-0029 | General caution only; conflicting/qualified totals are deliberately omitted |
-| Neck-profile progression and individual variation; all three | VG-0042 | **Pending expert sign-off** |
-| Multiple physical clues needed to date/authenticate; all three | VG-0014 | **Pending expert sign-off** |
-| PAF electrical variation; 1958/1959/1960 pickup discussions | VG-0027 | **Pending expert sign-off**; no fixed resistance range asserted |
-| Bobbin colors and their dating window; 1959 and 1960 | VG-0025 | The drafts state spring 1959 to mid 1960 from Joe's live [PAF guide](https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/), per his correction. This is a supply window, not an exact changeover date; canonical registry sign-off remains unchanged. |
-| Conversions versus factory-original configuration; 1958/1959 | VG-0022 | **Pending expert sign-off** |
-| What an all-original description means; all three condition sections | VG-0106 | **Pending expert sign-off** |
-| Originality and condition in price comparisons; all three | VG-0112 | **Pending expert sign-off**; the draft does not adopt a universal hierarchy or percentage deduction |
-
-### Claims Requiring New, Correctly Scoped Records
-
-These are research/registry gaps, not fabricated FactIDs. A manufacturer reissue specification is evidence about that reissue; it does not by itself establish an original guitar's construction.
-
-| Claim Group | Drafts / Evidence To Review |
-|---|---|
-| Original-year wood construction, scale convention, fret count, fingerboard, inlays, pickup/control layout, ABR-1/stopbar, nickel/cream/gold appointments | All three specification sections. Register an original-1958–1960 source, with exceptions stated. Do not borrow Martin-scoped Brazilian-rosewood records. |
-| Narrow 1958 versus wider 1959/1960 frets; 1960 nut width and distinction from depth | Neck sections. Manufacturer retrospectives provide context, but original-period claims need their own scope and approval. |
-| Ink-stamped 8/9/0 serial-year convention, and reissue imitation of the appearance | All three dating sections. Existing general serial cautions do not replace the missing exact-format fact. |
-| Reflector knobs, double-ring buttons, stronger later-1960 color and early/later combinations | 1960 transition/hardware/finish sections. Use Gibson's anniversary retrospectives, distinguish original history from modern version measurements, and verify exceptions. |
-| Maple figure, bookmatching, lighting, fade terminology and limits of tonal inference | 1958/1959/1960 photo/finish sections. Do not infer original production rules from the three shop reissues. |
-| R8/R9/R0 nomenclature, actual manufacturing year, Historic specification changes and Classic distinction | All three reissue sections. Record model-specific support rather than applying current reissue specifications retroactively. |
-| Pickup repairs, cover/bobbin observations, playing/setup factors and practical inspection judgments | Pickup/condition sections. Expert review needed for advice not fully captured by the existing records. |
-| Clapton/Beck history and Greeny's ownership/pickup polarity | 1959 history section; manufacturer sources below. No new FactID assigned. |
-| Joe's inventory identity, listing weights, Demo stamp, condition and visible photo features | All three shop-photo sections; listing evidence below. The R0's stated 2014 year, listed mint condition, case accessories and pictured serial/buttons are now traced to its exact listing. These are particular modern instruments, not vintage specifications. |
-| Pricing comparison procedure, asking versus completed prices, case/provenance effects | All value sections. No current market quote, forecast, return promise or fixed discount is given. |
+These approved edits preserve Joe's meaning. Each appears under the exact callout label **Expert note from Joe Dampt**. They are attributed judgments, not blanket publication approval.
 
 ## First-Party Evidence And Image Provenance
 
@@ -134,7 +58,7 @@ Seller identity was checked in the user's shop, `https://reverb.com/shop/joe-s-g
 | R9 source image | `https://rvb-img.reverb.com/i/s--nb0o49KC--/quality=medium-high,height=1600,width=1600,fit=contain/l0yyddo8xslds3gddppk.jpg`; stored as `src/assets/blog/1959-gibson-les-paul-standard-guide/2022-r9-reissue.jpg` (1600 × 1066). |
 | 2014 R0 hero | [Joe's listing 54542468](https://reverb.com/item/54542468-gibson-1960-reissue-les-paul-standard-r0-2014-burst?show_sold=true), supplied by Joe and directly checked October 14, 2026. Seller `joesvintageguitars` links to `/shop/joe-s-gear-emporium-4`. Title and product specs identify 2014 and Custom Shop Standard Historic '60 Les Paul Standard Reissue; listing describes mint condition with case accessories. Front image shows a figured sunburst, covered humbuckers, cream trim and reflector knobs. No weight was supplied or inferred. |
 | R0 source image | `https://rvb-img.reverb.com/i/s--wmsvgmVM--/quality=medium-high,height=1600,width=1600,fit=contain/lgo8jphjee0l2omdlwd5.jpg`; downloaded from the listing gallery and stored as `src/assets/blog/1960-gibson-les-paul-standard-guide/2014-r0-reissue.jpg` (1600 × 1066). |
-| R0 secondary photo evidence | Gallery photo 4: `https://rvb-img.reverb.com/i/s--E3luyzY4--/quality=medium-high,height=1600,width=1600,fit=contain/igmmkr83fvtklow6yrft.jpg`. Visually checked: serial `0 4285`, double-ring plastic buttons and separate vertical housing lettering. Discussed in the walkthrough; the source gallery URL is retained only in this editorial ledger per Joe's no-Reverb-links instruction. Not presented as a vintage authentication example. |
+| R0 secondary photo evidence | Gallery photo 4: `https://rvb-img.reverb.com/i/s--E3luyzY4--/quality=medium-high,height=1600,width=1600,fit=contain/igmmkr83fvtklow6yrft.jpg`. Visually checked: serial `0 4285`, double-ring plastic buttons and separate vertical housing lettering. Not displayed or described as an on-page rear-headstock photograph; the source gallery URL is retained only in this editorial ledger per Joe's no-Reverb-links instruction. Not presented as a vintage authentication example. |
 
 All three hero photographs have visible modern-reissue captions before the image, descriptive alt text, local Astro optimization, responsive dimensions and licensed-image metadata whose `contentUrl` matches the rendered image. A copyright/license declaration is not evidence of vintage authenticity.
 
@@ -152,7 +76,7 @@ No testimonials should be restored to these guides merely to satisfy the MFWD co
 
 ### Vintage Feature Photo Expansion
 
-Joe subsequently requested extensive reuse of the site's vintage feature photographs, including parts on other models. The articles now contain 22 detail-photo placements using 15 existing local assets: seven in 1958, seven in 1959 and eight in 1960, in addition to the three modern-reissue heroes. Each selected source file was visually inspected before placement. No image was generated, cropped or copied to a new asset location. The 1960 knob and tuner comparisons use two-column pairs that stack on narrow screens.
+Joe subsequently requested extensive reuse of the site's vintage feature photographs, including parts on other models. The articles now contain 21 detail-photo placements using 14 existing local assets: six in 1958, seven in 1959 and eight in 1960, in addition to the three modern-reissue heroes. Each selected source file was visually inspected before placement. No image was generated, cropped or copied to a new asset location. The 1960 knob and tuner comparisons use two-column pairs that stack on narrow screens.
 
 | Feature And Existing Source | Use And Caption Limits |
 |---|---|
@@ -172,97 +96,28 @@ Joe subsequently requested extensive reuse of the site's vintage feature photogr
 | `blog/gibson-paf-patent-number-pickup-guide/paf-alnico-magnet-maple-spacer.jpg` | 1960 PAF construction section. Existing opened-pickup photograph shows magnet, keeper and spacer. No 1960 source guitar or year-specific dimensions are asserted. |
 | `blog/1962-gibson-es-335-guide/1962-gibson-es-335-bridge-and-tailpiece-1024x683.jpg` | 1960 hardware section. Names the 1962 ES-335 and visible ABR-1/stopbar undersides; not a claim that the pictured parts came from a 1960 Standard. |
 
-Paths above are relative to `src/assets/`. Source guide links appear beside each figure. The existing historical-fact holds remain separate from this visual-example expansion. `LicensedMarkdownPhotos.astro` extracts the actual rendered `src` of each marked figure and uses the existing `buildImageGraph` helper; all 25 hero/detail license URLs match rendered images. Astro continues to generate responsive image variants, dimensions and lazy loading for the Markdown detail images.
+Paths above are relative to `src/assets/`. Source guide links appear beside each figure. The source resolutions above govern historical claims; these images are feature illustrations with their own caption limits. `LicensedMarkdownPhotos.astro` extracts the actual rendered `src` of each marked figure and uses the existing `buildImageGraph` helper; all 24 hero/detail license URLs match rendered images. Astro continues to generate responsive image variants, dimensions and lazy loading for the Markdown detail images.
 
-## Manufacturer Research Sources
+## Content, Links And Presentation
 
-1. [Gibson 1958 Historic one-sheet](https://images.gibson.com/Products/Electric-Guitars/2018/Custom/58-LP-Standard/Press/Documents/58-LP-Standard-One-Sheet.pdf): historical finish change; specification block belongs to the reissue.
-2. [Gibson Certified Vintage 1958 Goldtop](https://www.gibson.com/products/gibson-certified-vintage-1958-gibson-les-paul-goldtop-darkback-goldtop): a documented period Goldtop, serial 8 3313. One example is not a production-wide survey.
-3. [Gibson 1959 model history](https://www.gibson.com/en-eu/products/gibson-custom-1959-les-paul-standard-reissue-kindred-burst-gloss): retrospective artist/history context; distinguish modern product specifications.
-4. [Gibson Greeny history](https://www.gibson.com/products/gibson-custom-kirk-hammett-greeny-1959-les-paul-standard-greeny-burst): Green, Moore and Hammett, reversed neck-pickup magnetic polarity and middle-position sound. This working product/history URL replaces the older regional landing page that failed a direct fetch.
-5. [Gibson 50th Anniversary 1960 brochure](https://images.thomann.de/pics/prod/243730_broschure.pdf): manufacturer-authored brochure hosted by a retailer; modern versions describe historical progression. Listed dimensions are reissue dimensions.
-6. [Gibson Japan 60th Anniversary 1960 documentation](https://gibson.jp/electric/60th-anniversary-1960-les-paul-standard): another manufacturer explanation of within-year changes. V1/V2/V3 are modern anniversary designations, not three original factory submodel names.
+The value section remains the first H2. A compact value link now sits below each byline, before the disclosed reissue hero. One appraisal link follows the opening value discussion. Existing market-hub, family and Goldtop return links remain; the Les Paul dating guide now links to all three year guides, and the PAF bobbin section links to the 1959 and 1960 discussions. Nearby redundant links were trimmed while caption-specific references remain.
 
-## Review Limits And Implementation Decisions
+All three guides have six visible FAQs with regenerated matching schema, first-person body copy, Title Case headings and no prohibited prose dashes. The full serial explanation stays only in 1959, and each short originality checklist has its own year-specific emphasis. The 1960 guide no longer repeats a separate early/middle/later overview or the same shipment figures in the SG introduction.
 
-Initial local build verification (October 14, 2026): 227 pages built successfully; Astro check returned 0 errors, 0 warnings and 93 existing hints; site copy audit returned 0 hard failures. MFWD wording scan returned 0 bans and 7 advisory warnings across the three drafts. Before Joe requested removal of buyer reviews, the article-completeness scan found all six required component groups on all three, with exact visible/schema FAQ parity. The testimonial component is now intentionally omitted per his instruction. These checks are not publication approval.
+Responsive detail-image sizes now describe the 770px maximum single-photo slot and 374px paired slot, stacking below 600px. Hero hints match their 772px article slot. Responsive variants, lazy detail loading, eager hero priority, captions, intrinsic dimensions and exact rendered image-license URLs remain. No source image was changed or replaced.
 
-| Draft | Rendered Body Words | Internal Link Occurrences | Distinct Internal Targets | Distributed FAQs |
-|---|---:|---:|---:|---:|
-| 1958 | 3,120 | 30 | 25 | 6 |
-| 1959 | 3,250 | 28 | 24 | 6 |
-| 1960 | 3,588 | 35 | 27 | 6 |
+## Validation And Release Limits
 
-All checked internal routes and fragment targets resolve in the final build; all three pages have exactly one H1 and one FAQPage. All three licensed hero image URLs match their rendered image sources. Independent browser review checked 1920px and 390px layouts, image disclosures, contained table scrolling and section navigation; see `reports/les-paul-standard-guides-visual-review.md`.
+The 227-page production build passed. Astro check returned zero errors, zero warnings and 93 existing hints. The rendered copy gate returned zero hard failures and no warnings on these three routes, with 778 existing warnings elsewhere. MFWD returned zero bans and three intentionally retained specification-table advisories. All 18 FAQs match schema; internal targets, new return links, first-H2 value order, title-area jumps, unchanged Expert Notes and all 24 rendered image-license URLs pass. Self-canonicals and both sitemaps contain the intended routes. No identical paragraph of 30 or more words remains between any pair of articles.
 
-No-Reverb-link follow-up (October 14, 2026): the rebuilt article elements contain zero outbound links to `reverb.com` or its subdomains. Replacement internal routes and fragment targets resolve, all six FAQ pairs still match per article, all three licensed image URLs match, and the rendered site copy audit again returned zero hard failures.
+Rendered word counts are 2,014 / 2,359 / 2,252 and internal-link counts are 29 / 31 / 37 for 1958 / 1959 / 1960. Live/local comparisons of the existing dating and PAF pages return zero must-fix findings and zero broken checked assets; only unchanged shared SVG dimension advisories remain. See `reports/les-paul-standard-prepublication-implementation.md` and the independent visual report for the implementation evidence.
 
-Buyer-review removal follow-up (October 14, 2026): all six testimonial placements and attribution links are absent from the rebuilt pages. The production build passed, the rendered copy audit returned zero hard failures, and the remaining internal routes, fragments and visible/schema FAQ pairs still match. Photos and modern-reissue disclosures remain in place.
+### Publication Question From The Final Read
 
-Feature-photo follow-up (October 14, 2026): production build passed for 227 pages; Astro check returned zero errors, zero warnings and 93 existing hints; the site copy gate returned zero hard failures. The full-article MFWD wording scan returned zero bans and eight advisory warnings (two, three and three respectively). All 22 detail figures have captions, alt text, responsive sources, intrinsic dimensions, lazy loading and existing optimized output files. All internal destinations and fragments resolve, all six FAQ pairs per article match, and no outbound Reverb link or buyer review has returned. Word counts above exclude the new image JSON-LD script and include the visible captions.
+The independent MFWD reader returned **FIX FIRST for all three guides** on editorial completeness and source corroboration. Its findings and the implementer's disposition are preserved in `reports/les-paul-standard-guides-final-read.md`. The browser review separately passed at desktop/mobile widths. Neither result is substituted for the other.
 
-R0 follow-up: the production rebuild passed, the site copy gate again returned 0 hard failures, and the revised 1960 guide passed component completeness with 26 working TOC links and six visible/schema FAQ pairs. Its full-article MFWD scan returned 0 bans and two existing advisory warnings. The independent delta review confirmed the photo observations and modern-reissue disclosure. This resolves the missing first-party image/example, while the original historical-fact approval requirements remain open.
+The 1958 split remains exactly as Joe requested and as his live shipping table states: 247 Goldtops and 187 Sunbursts, total 434. The independent final reader found a conflicting account in [True Vintage Guitar's 1958 reference](https://truevintageguitar.com/blogs/tvg-blog/1958-gibson-les-paul-standard-burst), whose author says the shipment totals record 434 without separating finishes. A primary ledger or correctly attributed table is needed to settle that disagreement. This does not establish that Joe's figures are false, and no outside claim has been imported into the articles. The current draft complies with the requested live-page source; independent confirmation of the split is unresolved. Keep this issue visible before publication rather than treating an internal link as independent verification.
 
-- Separate MFWD sidechecks exist in `reports/1958-les-paul-mfwd-sidecheck.md`, `reports/1959-les-paul-mfwd-sidecheck.md` and `reports/1960-les-paul-mfwd-sidecheck.md`. Their line references describe earlier drafts. Several copy/link/template issues have since been fixed; fact holds remain.
-- No company database content, complete blog archive/content tracker or annotated `Sitemap_Array` was supplied. Relevant existing pages and the actual local route inventory were checked instead. This is not a complete archive or keyword-overlap clearance.
-- Practical specification/inspection comparison tables are retained because they provide a compact mapping. They are in keyboard-focusable horizontal-scroll regions for mobile. The MFWD reviewer preferred prose for predominantly nonnumeric tables; this choice is recorded, not misreported as an unqualified MFWD pass.
-- Additional 16:9/4:3/1:1 image crops were not created. The supplied 3:2 photos preserve the guitar and watermark and have responsive output variants.
-- Sentence-length variation remains an editorial diagnostic; independent scanners found no banned-word failures but some formal rhythm warnings. No filler was added to meet a numeric threshold.
-- No external plagiarism service was run. No independent final-read approval is claimed before the unresolved gates are cleared.
-- Public pages contain the article and resources, not this questionnaire, ledger or workflow commentary.
+The reader also identified the missing neck/fret specifications and later-1960 finish development as content gaps relative to competing guides. Those omissions are deliberate resolutions of the source-only constraint, recorded above. Restoring them would require an eligible live JVG source; external retrospective specifications have not been inserted into these drafts.
 
-## October 14 Live-Page Editorial Revision
-
-This revision implements Joe's numbered corrections on PR #223. Earlier review notes and line references above describe earlier snapshots. The current articles remain drafts, and Joe's three short Expert Notes are pending. No firsthand anecdote or expert-note wording was invented.
-
-New historical and valuation facts were limited to these live JVG pages, read October 14, 2026:
-
-| Source | Applied Facts |
-|---|---|
-| [PAF guide](https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/) | A zebra is one pickup with one black and one cream bobbin; the cream is almost always the slug coil. Supplier shortage caused cream bobbins to enter production from spring 1959 into mid 1960. Two cream bobbins are double white. Pickup anatomy supports the brief construction explanations. |
-| [Les Paul dating guide](https://www.joesvintageguitarsaz.com/gibson-les-paul-dating-guide/) | 1958 versus 1960 catalog naming; common Historic M YNNN serial format and decade ambiguity. Joe supplied the 2011 R8, 2022 R9 and documented 2014 R0 examples; the rule explains 8 1xxx, 9 2xxx and 0 4285. Each post states the catalog distinction once. |
-| [Shipping totals](https://www.joesvintageguitarsaz.com/post/gibson-shipping-totals-1948-1979/) | 1958: 247 Goldtops plus 187 Sunbursts equals 434. 1959: 643 Sunbursts. 1960: 635. 1961: 2. Counts describe shipments within the relevant branch, not survivors, all Les Paul models or exact assembly dates. |
-| [Market value guide](https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/) | 1958 to 1960 Sunbursts: $200,000 to $500,000+. 1957 to 1958 PAF Goldtops: $135,000 to $250,000. Scope retained: US retail estimates, all-original excellent condition, correct original case, July 2026 review. Finish, pickups, repairs, neck condition and provenance affect comparisons. No fresh market review or new price tier claimed. |
-
-The first H2 in each article now answers value intent before contents and specs. Titles, seoTitles and meta descriptions use Joe's exact requested strings. Each first value section links back with the anchor “vintage Les Paul value guide”; the hub's Burst section links to each year with “1958/1959/1960 Les Paul value and specs.”
-
-Each article has six distributed search-oriented FAQs and one short originality checklist. All 22 vintage feature photographs remain, with shorter source-guitar-specific captions. The R0 passage claiming to show an unseen rear-headstock photograph was removed; the serial example now appears only in dating explanations. R8/R9/R0 reissue disclosures remain. No Reverb link, buyer review, new vintage Burst photograph or public Expert Note placeholder was added.
-
-Current rendered article metrics (captions included; image JSON-LD excluded):
-
-| Year | Words | Internal Links | FAQ Pairs | Feature Photos | Original / Originality Occurrences | Doesn't / Can't / Cannot Occurrences |
-|---|---:|---:|---:|---:|---:|---:|
-| 1958 | 2,292 | 30 | 6 | 7 | 6 | 2 |
-| 1959 | 2,432 | 33 | 6 | 7 | 8 | 2 |
-| 1960 | 2,722 | 39 | 6 | 8 | 6 | 1 |
-
-Validation: production build passed for 227 pages. Required rendered copy audit passed with zero hard failures; none of the three year routes has a copy warning (778 warnings elsewhere in the site). MFWD longform scan returned zero bans and three table advisories, one per requested specification table. All 18 visible/schema FAQ pairs match; internal routes, fragments, both contents lists, exact first H2 order, first-person body copy, heading capitalization and prohibited dashes were checked. All 25 hero/detail image-license URLs match their rendered images. The independent visual follow-up is recorded in `reports/les-paul-standard-guides-visual-review.md`.
-
-These new draft routes have no live WordPress originals to use as migration-parity baselines. The deliberate value-first order, revised headings and shorter two-column tables follow Joe's current request, recorded in CLAUDE.md. This revision doesn't claim final publication approval or modify the canonical fact database.
-
-## Expert Notes Supplied By Joe
-
-Joe supplied these firsthand judgments directly in the chat after the live-page revision. They are the expressly requested Expert Notes, additional to the four live sources used for that revision. No outside research or new numerical premium was added. Each note is in the relevant first value section, with the exact requested label as a bold paragraph rather than a heading, preserving the heading-capitalization rule. The existing branded blockquote styling supplies the callout treatment.
-
-- **1958 supplied:** “that a burst is worth significantly more than a Gomdtop even though they are essentially the same aside from aesthetics”
-  - Published edit: “I put a significantly higher value on a 1958 Burst than a comparable PAF Goldtop, even though they're essentially the same guitar aside from aesthetics.” The comparison is scoped to the PAF Goldtop discussed in this article.
-- **1959 supplied:** “provenance and original owner photos” in answer to what changes his value assessment.
-  - Published edit: “Provenance and original-owner photos can change my assessment of a 1959 Les Paul's value.”
-- **1960 supplied:** “the slim neck is a turnoff for many players and collectors making it the least expensive burst year, though the necks can vary. A 59 profile on a 60 makes it worth more”
-  - Published edit: “The slim neck is a turnoff for many players and collectors, making 1960 the least expensive Burst year in my experience. Necks vary, though, and I'd value a 1960 with a 1959-style profile more highly.”
-
-These notes are attributed judgments from Joe, not a claim that he approved every earlier technical statement or cleared the articles for publication. The six visible FAQs and matching schema per page remain unchanged.
-
-Expert-note validation: the 227-page production build completed at 17:21:45 UTC. The rendered copy audit passed with zero hard failures; the article verifier found one correctly labeled note per year, matching the edited wording above, and all 18 FAQ pairs, internal destinations and contents anchors still match. MFWD scan returned zero bans and the same three specification-table advisories. Rendered article word counts are now 2,322, 2,451 and 2,762; the original/originality counts are 6, 9 and 6. Preview deployment remains separate from these successful local checks.
-
-## Second Editorial Round
-
-Joe confirmed the first round and supplied seven focused changes. The full M YNNN explanation now appears only in the 1959 dating section, beginning with the R9 FAQ answer and continuing with the three examples and decade caveat. The 1958 and 1960 dating answers each contain two sentences, their own reissue bullet and links to both that full explanation and the Les Paul dating guide. Their FAQs no longer repeat those examples elsewhere in the section.
-
-Each checklist is distinct: 1958 starts with factory Goldtop versus factory Sunburst; 1959 starts with PAF bobbin and cover history; 1960 starts with factory neck profile versus neck shave, then replaced knobs or buttons. The source-guitar terminology correction has also been applied to these articles' private review records. The shared M-69 image asset was not deleted, but its 1958 figure and introductory paragraph were removed, leaving 6, 7 and 8 feature photographs and 24 licensed hero/detail placements across the guides.
-
-The 1959 cream-bobbin window is stated once in visible prose; its zebra FAQ defines the pickup without repeating the date range. The VG-0025 row above now describes the spring 1959 to mid 1960 window sourced from Joe's live PAF guide. The relative 1960 value sentence comes directly from his supplied Expert Note and adds no number.
-
-New timing source: [Joe's live Gibson tuner dating guide](https://www.joesvintageguitarsaz.com/gibson-tuner-dating-guide/), read October 14, 2026. Its Single-Line Kluson and Single-Ring Versus Double-Ring sections place the button change around mid-1960, with overlap by model and stock. The 1960 spec row uses Joe's exact requested wording, and the surrounding comparison text separates this button timing from the neck and knob changes. The supplied Expert Notes remain unchanged. PR #223 remains a draft.
-
-Round-two validation: the final 227-page build completed at 18:13:08 UTC, and the required rendered copy audit passed with zero hard failures and no warnings on these three routes. The 778 existing warnings elsewhere in the site remain. MFWD longform scan returned zero bans and three retained specification-table advisories. All 18 FAQ/schema pairs match; the R9 explanation and cream-bobbin window each occur once in visible 1959 prose. Internal destinations, fragments, first-H2 value order, year-specific checklists, source-guitar terminology and the exact 1960 tuner row pass. All 24 licensed image URLs match their rendered sources. No identical prose block of 30 or more words remains between any two articles. Current rendered word counts are 2,045 / 2,372 / 2,635 with 29 / 32 / 40 internal links for 1958 / 1959 / 1960 respectively. The independent visual delta review is recorded separately in `reports/les-paul-standard-guides-visual-review.md`.
+The unavailable full `mfwd-debug-tooling` methodology remains a disclosed limit. No fresh GSC export, field Core Web Vitals, external plagiarism result or Google Rich Results Test is claimed. FAQ markup stays matched as requested; no FAQ search enhancement or ranking gain is promised. If release occurs after October 14, set the actual first-publication date at release, then verify production 200 responses, self-canonicals, sitemap inclusion and removal of preview-only noindex headers. PR #223 stays a draft until Joe authorizes publication.

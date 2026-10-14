@@ -2,7 +2,7 @@
 title: "1958 Gibson Les Paul Standard: Value, Goldtop To Burst And Specs"
 seoTitle: "1958 Les Paul Standard Value And Specs"
 pubDate: "2026-10-14T12:00:00Z"
-modified: "2026-10-14T18:10:21Z"
+modified: "2026-10-14T21:59:05Z"
 excerpt: "1958 Les Paul values, the Goldtop to Burst change (247 Goldtops and 187 Sunbursts shipped) and the specs that separate an original from an R8."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -26,7 +26,7 @@ toc:
   - { href: "#1958-vs-1959-vs-1960-les-paul-standards", label: "1958 Vs. 1959 Vs. 1960 Les Paul Standards" }
   - { href: "#prepare-your-guitar-for-review", label: "Prepare Your Guitar For Review" }
   - { href: "#resources-and-related-reading", label: "Resources And Related Reading" }
-faqs: [{"q": "How Much Is A 1958 Les Paul Worth?", "a": "My range for 1958 to 1960 Sunburst Standards is $200,000 to $500,000+; 1957 to 1958 PAF Goldtops run $135,000 to $250,000. These are US retail estimates for all-original guitars in excellent condition with the correct original case, reviewed in July 2026. My vintage Les Paul value guide explains the ranges and their scope."}, {"q": "Were All 1958 Les Paul Standards Sunbursts?", "a": "No. Gibson shipped both PAF Goldtops and Sunbursts in 1958. The change to Cherry Sunburst came during the year, while the carved maple top, two humbuckers, ABR-1 and stopbar continued. I separate these finish versions before comparing prices. The Les Paul dating guide places both in the same model's development."}, {"q": "How Many 1958 Les Pauls Were Made?", "a": "Gibson shipped 247 Goldtops and 187 Sunbursts in 1958, for 434 total in this Les Paul branch. The Burst-only figure is 187. These are shipment-ledger totals, not a count of guitars surviving today, and they exclude other Les Paul models such as the Junior and Custom. See my Gibson shipping totals."}, {"q": "What Pickups Does A 1958 Les Paul Standard Have?", "a": "A 1958 Standard has two PAF humbuckers, whether it's a Goldtop or a Sunburst. Gibson introduced these pickups during 1957, so the 1958 finish change kept the humbucker layout already in use. PAF stands for Patent Applied For. My PAF pickup identification guide explains their construction and the details beneath the covers."}, {"q": "How Can I Tell A Real 1958 Les Paul From An R8?", "a": "A vintage 1958 serial and an R8 serial can both start with 8, so I compare the instrument and its records using my Les Paul dating guide. My full Historic serial explanation shows how the model-year and build-year digits work and why the decade needs confirmation."}, {"q": "What's The Difference Between A 1958 And A 1959 Les Paul?", "a": "1958 includes both Goldtops and Sunbursts and is associated with a fuller neck and narrower frets. The 1959 Standard continues the sunburst design and commonly has wider frets. Both share the carved maple and mahogany construction, two PAFs, ABR-1 and stopbar. My 1959 Les Paul value and specs guide covers the following year's details."}]
+faqs: [{"q": "How Much Is A 1958 Les Paul Worth?", "a": "My range for 1958 to 1960 Sunburst Standards is $200,000 to $500,000+; 1957 to 1958 PAF Goldtops run $135,000 to $250,000. These are US retail estimates for all-original guitars in excellent condition with the correct original case, reviewed in July 2026. My vintage Les Paul value guide explains the ranges and their scope."}, {"q": "Were All 1958 Les Paul Standards Sunbursts?", "a": "No. Gibson shipped both PAF Goldtops and Sunbursts in 1958. The change to Cherry Sunburst came during the year, while the carved maple top, two humbuckers, ABR-1 and stopbar continued. I separate these finish versions before comparing prices. The dating chronology places both in the same model's development."}, {"q": "How Many 1958 Les Pauls Were Made?", "a": "Gibson shipped 247 Goldtops and 187 Sunbursts in 1958, for 434 total in this Les Paul branch. The Burst-only figure is 187. These are shipment-ledger totals, not a count of guitars surviving today, and they exclude other Les Paul models such as the Junior and Custom. See my Gibson shipping totals."}, {"q": "What Pickups Does A 1958 Les Paul Standard Have?", "a": "A 1958 Standard has two PAF humbuckers, whether it's a Goldtop or a Sunburst. Gibson introduced these pickups during 1957, so the 1958 finish change kept the humbucker layout already in use. PAF stands for Patent Applied For. My PAF pickup identification guide explains their construction and the details beneath the covers."}, {"q": "How Can I Tell A Real 1958 Les Paul From An R8?", "a": "A vintage 1958 serial and an R8 serial can both start with 8, so I compare the instrument and its records using my Les Paul dating guide. My full Historic serial explanation shows how the model-year and build-year digits work and why the decade needs confirmation."}, {"q": "What's The Difference Between A 1958 And A 1959 Les Paul?", "a": "1958 spans the Goldtop-to-Cherry-Sunburst change, while the 1959 Standard continues the sunburst design. The shipment records separate 247 Goldtops and 187 Sunbursts in 1958 from 643 Sunbursts in 1959. Both share the carved maple and mahogany construction, two PAFs, ABR-1 and stopbar. My 1959 Les Paul value and specs guide covers the following year's details."}]
 ---
 
 **A 1958 Les Paul can be a Goldtop or a sunburst, and those two versions belong in different price comparisons.** The finish changed during the year while the carved maple top, mahogany body, two PAF humbuckers and separate bridge and stopbar continued.
@@ -45,6 +45,8 @@ Original finish and PAFs carry much of the collector value, while repairs, repla
 <p><strong>Expert note from Joe Dampt</strong></p>
 <p>I put a significantly higher value on a 1958 Burst than a comparable PAF Goldtop, even though they're essentially the same guitar aside from aesthetics.</p>
 </blockquote>
+
+For a value specific to your guitar, [send me photos for a Gibson appraisal](/free-appraisal/gibson/).
 
 <nav class="burst-inline-toc" aria-label="Article Contents">
 <h2>Table Of Contents</h2>
@@ -74,7 +76,7 @@ There's a naming detail in my [Les Paul model chronology](/gibson-les-paul-datin
 
 ### Were All 1958 Les Paul Standards Sunbursts?
 
-No. Gibson shipped both PAF Goldtops and Sunbursts in 1958. The change to Cherry Sunburst came during the year, while the carved maple top, two humbuckers, ABR-1 and stopbar continued. I separate these finish versions before comparing prices. The [Les Paul dating guide](/gibson-les-paul-dating-guide/) places both in the same model's development.
+No. Gibson shipped both PAF Goldtops and Sunbursts in 1958. The change to Cherry Sunburst came during the year, while the carved maple top, two humbuckers, ABR-1 and stopbar continued. I separate these finish versions before comparing prices. The dating chronology places both in the same model's development.
 
 ## 1958 Shipping Totals
 
@@ -94,9 +96,8 @@ These are the usual features I compare when identifying a 1958 Standard. The dat
 | --- | --- |
 | Body | Single cutaway, mahogany back and carved maple top |
 | Finish | Goldtop earlier in the year; Cherry Sunburst from mid-1958 |
-| Neck | Set mahogany neck with a generally full, rounded feel |
-| Fingerboard | Bound rosewood board, trapezoid inlays and 22 frets |
-| Scale | Nominal Gibson 24.75-inch scale |
+| Neck Review | Profile, heel, headstock and any repair or reshaping history |
+| Fingerboard | Bound rosewood board, trapezoid inlays |
 | Pickups | Two PAF humbuckers |
 | Controls | Two volumes, two tones and a three-way selector |
 | Bridge | ABR-1 Tune-o-matic with a separate tailpiece |
@@ -116,9 +117,9 @@ The R8 photograph makes that layout easy to follow. Its finish, pickups and agin
 
 ## Neck And Frets
 
-The usual 1958 neck description is full and rounded. Depth and shoulder shape both affect the feel, so I compare the actual profile instead of treating “1958 neck” as one fixed measurement. Two necks with similar depth can still sit differently in the hand.
+I review the neck, heel and headstock alongside the repair history. A refret deserves its own description: the quality of the work and the condition of the frets affect how I assess a played guitar. My [Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) separates fret work from structural repairs when comparing condition.
 
-The narrower fretwire associated with 1958 is another distinction from the wider wire commonly found in 1959. On a played guitar, surviving fret height and later fret work affect the experience as much as the model-year description. I look at the fret ends, binding and fingerboard together.
+The photograph below gives a close view of the binding at the fret ends. I use it to show that visible detail on a documented 1958 Special; the source guitar has its own model specifications.
 
 <figure class="burst-feature-photo">
 
@@ -127,7 +128,7 @@ The narrower fretwire associated with 1958 is another distinction from the wider
 <figcaption><strong>1958 Les Paul Special, Fret-End Detail.</strong> The small rises in the cream binding meet the fret ends. This same-year Special illustrates the binding detail; its dot inlays belong to a different model. See the <a href="/post/1955-1958-tv-yellow-les-paul-special-guide/">1950s Les Paul Special example</a>.</figcaption>
 </figure>
 
-A refret replaces a wearing surface; a neck shave removes wood and changes the profile. Those jobs deserve separate descriptions. If you're comparing a fuller 1958 neck with a later guitar, ask which shape you're feeling and what work has been done to it. Repair records help explain the result.
+A refret and a reshaped neck belong in separate parts of the condition description. Keep repair records with the guitar so I can compare the visible work with its documented history.
 
 ## PAF Pickups And Controls
 
@@ -177,7 +178,7 @@ For the tuners, look at the metal housing and plastic button separately. “Sing
 <figcaption><strong>1956 Les Paul, Single-Line And Single-Ring Kluson.</strong> Follow the lettering along one line on the metal cover, then find the single molded ring at the button base. This earlier Les Paul demonstrates the combination discussed here. Compare the <a href="/gibson-tuner-dating-guide/#single-line-kluson">single-line Kluson reference</a>.</figcaption>
 </figure>
 
-Gold bonnet knobs have numbered skirts and tops without the metal inserts seen on later reflector knobs. Cream pickup rings, pickguard and binding complete the familiar Standard appearance. My [Gibson knob chronology](/gibson-knob-dating-guide/) compares the shapes at closer range.
+Gold bonnet knobs have numbered skirts and tops without the metal inserts seen on later reflector knobs. Cream pickup rings, pickguard and binding complete the familiar Standard appearance.
 
 <figure class="burst-feature-photo">
 
@@ -198,7 +199,7 @@ A vintage 1958 serial and an R8 serial can both start with 8, so I compare the i
 
 - **Factory Goldtop Or Factory Sunburst:** Establish which finish left the factory, then record any later refinish or touch-up.
 - **PAFs And Pickup Routes:** Check the humbuckers, their installation and any routing changes associated with a conversion.
-- **Neck And Fret Work:** Compare the full profile and narrower factory fret specification with any reshaping, refret or fingerboard work.
+- **Neck And Fret Work:** Record the neck profile, any reshaping, refret or fingerboard work and the supporting repair records.
 - **Finish And Repair Records:** Match the ownership history and repair receipts to the top, neck, headstock and heel.
 
 I separate the guitar's age from its finish history when choosing Goldtop or Burst comparisons. The [Les Paul model and dating reference](/gibson-les-paul-dating-guide/) covers the remaining construction and component checks.
@@ -207,7 +208,7 @@ I separate the guitar's age from its finish history when choosing Goldtop or Bur
 
 ### What's The Difference Between A 1958 And A 1959 Les Paul?
 
-1958 includes both Goldtops and Sunbursts and is associated with a fuller neck and narrower frets. The 1959 Standard continues the sunburst design and commonly has wider frets. Both share the carved maple and mahogany construction, two PAFs, ABR-1 and stopbar. My [1959 Les Paul value and specs guide](/post/1959-gibson-les-paul-standard-guide/) covers the following year's details.
+1958 spans the Goldtop-to-Cherry-Sunburst change, while the 1959 Standard continues the sunburst design. The shipment records separate 247 Goldtops and 187 Sunbursts in 1958 from 643 Sunbursts in 1959. Both share the carved maple and mahogany construction, two PAFs, ABR-1 and stopbar. My [1959 Les Paul value and specs guide](/post/1959-gibson-les-paul-standard-guide/) covers the following year's details.
 
 The next change is within 1960, when slimmer necks and later knob and tuner-button appointments enter the comparison. My [1960 Les Paul neck and hardware guide](/post/1960-gibson-les-paul-standard-guide/) shows those details with vintage-part photographs. Across these years, I compare the actual neck, finish and condition alongside the date.
 
