@@ -31,6 +31,8 @@ If you need assistance in dating yout Gibson, check out our [serial number guide
 
 Once the PAFs, finish and other original parts have been checked, the [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) shows how a 1957 PAF Goldtop compares with earlier Goldtops and later Sunburst Standards.
 
+The next step in that history is the [1958 Les Paul Standard's Goldtop-to-sunburst transition](/post/1958-gibson-les-paul-standard-guide/), followed by the [1959 Standard's neck, fret and PAF details](/post/1959-gibson-les-paul-standard-guide/) and the [changes within the 1960 Standard production year](/post/1960-gibson-les-paul-standard-guide/).
+
 <h2 id="humbucker-shift">The “Year One” Humbucker Shift: PAFs & M-69 Rings</h2>
 
 The most obvious differentiator for ’57 is the move to humbuckers. When authenticating these, we look for the brushed nickel covers with soft, slightly rounded edges. Unlike modern reissues that are often too “sharp,” an original 1957 cover has a specific “cloudy” patina that is nearly impossible to fake. Underneath, you’re looking for the black “L” tool marks on the feet and the **PAF decal** on the baseplate.
