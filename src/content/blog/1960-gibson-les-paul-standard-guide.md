@@ -10,9 +10,6 @@ tags: ["Gibson", "Les Paul", "1960", "Burst", "R0"]
 heroImage: "/images/blog/1960-gibson-les-paul-standard-guide/2014-r0-reissue.jpg"
 heroImageAlt: "2014 Gibson R0 reissue with a figured sunburst top and reflector knobs; not a vintage 1960 Les Paul"
 heroImageCaption: "Modern reissue, not a vintage example: Joe's 2014 Gibson R0 illustrates a figured sunburst top, reflector knobs, cream trim and the two-humbucker Standard layout. These are modern parts and finishes, not original 1960 evidence."
-heroImageSource:
-  href: "https://reverb.com/item/54542468-gibson-1960-reissue-les-paul-standard-r0-2014-burst?show_sold=true"
-  label: "See Joe's 2014 R0 listing and photo gallery"
 ogImage: "/images/blog/1960-gibson-les-paul-standard-guide/2014-r0-reissue.jpg"
 metaDescription: "Explore early and late 1960 Les Paul Standard specs, neck changes, reflector knobs, tuners, PAFs and how vintage Bursts differ from modern R0 reissues."
 faqsInline: true
@@ -103,9 +100,9 @@ These are Standard specifications. A 1960 Junior, Special or Custom needs a diff
 
 ## What Joe's R0 Photo Shows
 
-The guitar in our [2014 R0 Reverb listing](https://reverb.com/item/54542468-gibson-1960-reissue-les-paul-standard-r0-2014-burst?show_sold=true) has visible maple figure, a shaded sunburst, two covered humbuckers, cream pickup rings and pickguard, and four gold knobs with reflective inserts. Those inserts make the reflector-knob discussion easier to follow than a model-year label alone. The listing described the guitar as mint with its case accessories; that description concerns this modern instrument.
+Our pictured 2014 R0 has visible maple figure, a shaded sunburst, two covered humbuckers, cream pickup rings and pickguard, and four gold knobs with reflective inserts. Those inserts make the reflector-knob discussion easier to follow than a model-year label alone. Our shop listing described the guitar as mint with its case accessories; that description concerns this modern instrument.
 
-The same listing's rear-headstock photograph shows the double-ring detail on the plastic tuner buttons, separate from the vertical lettering on the metal housings. It also shows a vintage-style ink serial beginning with 0 on a guitar listed as built in 2014. This is a practical example of why an old-looking serial format cannot establish a vintage production date by itself.
+Our rear-headstock photograph of this same guitar shows the double-ring detail on the plastic tuner buttons, separate from the vertical lettering on the metal housings. It also shows a vintage-style ink serial beginning with 0 on a guitar listed as built in 2014. This is a practical example of why an old-looking serial format cannot establish a vintage production date by itself.
 
 Compare its reflector knobs with the gold bonnet-style knobs visible on our [2011 R8 illustration](/post/1958-gibson-les-paul-standard-guide/#reading-the-r8-photo) and [2022 R9 illustration](/post/1959-gibson-les-paul-standard-guide/#what-joes-r9-photo-shows). These three shop guitars show different reissue appointments. They don't set an exact changeover date for original production, and a front photograph cannot establish neck depth or verify the pickups under their covers.
 

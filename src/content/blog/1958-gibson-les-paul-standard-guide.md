@@ -9,10 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: ["Gibson", "Les Paul", "1958", "Burst", "R8"]
 heroImage: "/images/blog/1958-gibson-les-paul-standard-guide/2011-r8-reissue.jpg"
 heroImageAlt: "2011 Gibson R8 reissue with a plain sunburst top, humbuckers and gold knobs; not a vintage 1958 Les Paul"
-heroImageCaption: "Modern reissue, not a vintage example: this 2011 Gibson R8 from Joe's Reverb shop illustrates the sunburst top, humbucker layout, cream trim and separate bridge and tailpiece associated with the 1958 Standard. Its finish, pickups and aging are not evidence of original 1958 construction."
-heroImageSource:
-  href: "https://reverb.com/item/84412764-gibson-r8-les-paul-standard-1958-reissue-2011-sunburst-figured-back"
-  label: "See Joe's 2011 R8 listing"
+heroImageCaption: "Modern reissue, not a vintage example: this 2011 Gibson R8 from Joe's shop illustrates the sunburst top, humbucker layout, cream trim and separate bridge and tailpiece associated with the 1958 Standard. Its finish, pickups and aging are not evidence of original 1958 construction."
 ogImage: "/images/blog/1958-gibson-les-paul-standard-guide/2011-r8-reissue.jpg"
 metaDescription: "Explore 1958 Les Paul Standard specs, Goldtop and sunburst changes, PAFs, necks, originality and value factors, with clearly labeled R8 reissue photo."
 faqsInline: true
@@ -35,7 +32,7 @@ faqs: [{"q": "Were All 1958 Les Paul Standards Sunbursts?", "a": "No. Goldtops b
 
 The familiar 1958 combination is a single-cutaway mahogany body with a carved maple top, two PAF humbuckers, a rounded neck and relatively narrow original frets. They don't tell you whether a particular guitar retains its factory finish, pickups or neck shape.
 
-This guide uses a **2011 R8 reissue from our Reverb shop** to illustrate the visible layout. It isn't a vintage 1958 guitar. If you're identifying an inherited instrument or preparing to [sell a Gibson Les Paul](/sell-my-gibson-guitar/), start with clear photographs and its ownership history before cleaning it or changing parts.
+This guide uses a **2011 R8 reissue from our shop** to illustrate the visible layout. It isn't a vintage 1958 guitar. If you're identifying an inherited instrument or preparing to [sell a Gibson Les Paul](/sell-my-gibson-guitar/), start with clear photographs and its ownership history before cleaning it or changing parts.
 
 <nav class="burst-inline-toc" aria-label="Article Contents">
 <h2>Table Of Contents</h2>
@@ -102,7 +99,7 @@ Look at the two separate metal assemblies below the bridge pickup. The adjustabl
 
 The listing also described a figured back and recorded a weight of 8.9 pounds. Those details belong to this particular 2011 reissue. They aren't a weight standard or wood-selection rule for original 1958 guitars. The back figure also demonstrates why “plain top” only describes the top: it doesn't mean every surface of that instrument has plain grain.
 
-Our [pictured R9 was also listed at 8.9 pounds](https://reverb.com/item/84412339-gibson-r9-les-paul-standard-1959-reissue-2022-flamey-sunburst). Two different reissue models, with visibly different tops, had the same reported weight. That's a useful reason to ask for an individual guitar's weight instead of assuming the R8 or R9 designation tells you how heavy it will be.
+Our [pictured R9 in the 1959 Standard guide](/post/1959-gibson-les-paul-standard-guide/#what-joes-r9-photo-shows) was also listed at 8.9 pounds. Two different reissue models, with visibly different tops, had the same reported weight. That's a useful reason to ask for an individual guitar's weight instead of assuming the R8 or R9 designation tells you how heavy it will be.
 
 A front photograph can't show the neck's depth, the undersides of the pickups, pot codes or hidden repair work. It also can't establish whether the frets match a factory specification. Use the image to understand the layout, then gather the views needed to answer the questions it leaves open.
 
@@ -207,7 +204,7 @@ Leave polishing, finish repair, pickup disassembly and parts replacement until t
 
 - [Gibson's 1958 Historic specification sheet](https://images.gibson.com/Products/Electric-Guitars/2018/Custom/58-LP-Standard/Press/Documents/58-LP-Standard-One-Sheet.pdf): manufacturer context for the finish change, with modern reissue specifications clearly separated from history.
 - [Gibson's documented 1958 Goldtop](https://www.gibson.com/products/gibson-certified-vintage-1958-gibson-les-paul-goldtop-darkback-goldtop): a period Goldtop example that helps explain the transition year.
-- [Joe's photographed 2011 R8](https://reverb.com/item/84412764-gibson-r8-les-paul-standard-1958-reissue-2011-sunburst-figured-back): the source of this guide's reissue illustration and instrument-specific listing details.
+- [1957 Les Paul Goldtop guide](/post/1957-les-paul-goldtop-guide/): background on the humbucker-equipped Goldtop that preceded the 1958 finish transition.
 - [Gibson headstock and logo chronology](/gibson-headstock-logo-chronology/): supporting headstock comparisons across the wider Gibson timeline.
 
 ## Talk To Joe About Your Les Paul

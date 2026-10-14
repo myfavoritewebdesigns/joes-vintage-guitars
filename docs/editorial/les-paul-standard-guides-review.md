@@ -132,9 +132,11 @@ Seller identity was checked in the user's shop, `https://reverb.com/shop/joe-s-g
 | R9 source image | `https://rvb-img.reverb.com/i/s--nb0o49KC--/quality=medium-high,height=1600,width=1600,fit=contain/l0yyddo8xslds3gddppk.jpg`; stored as `src/assets/blog/1959-gibson-les-paul-standard-guide/2022-r9-reissue.jpg` (1600 × 1066). |
 | 2014 R0 hero | [Joe's listing 54542468](https://reverb.com/item/54542468-gibson-1960-reissue-les-paul-standard-r0-2014-burst?show_sold=true), supplied by Joe and directly checked October 14, 2026. Seller `joesvintageguitars` links to `/shop/joe-s-gear-emporium-4`. Title and product specs identify 2014 and Custom Shop Standard Historic '60 Les Paul Standard Reissue; listing describes mint condition with case accessories. Front image shows a figured sunburst, covered humbuckers, cream trim and reflector knobs. No weight was supplied or inferred. |
 | R0 source image | `https://rvb-img.reverb.com/i/s--wmsvgmVM--/quality=medium-high,height=1600,width=1600,fit=contain/lgo8jphjee0l2omdlwd5.jpg`; downloaded from the listing gallery and stored as `src/assets/blog/1960-gibson-les-paul-standard-guide/2014-r0-reissue.jpg` (1600 × 1066). |
-| R0 secondary photo evidence | Gallery photo 4: `https://rvb-img.reverb.com/i/s--E3luyzY4--/quality=medium-high,height=1600,width=1600,fit=contain/igmmkr83fvtklow6yrft.jpg`. Visually checked: serial `0 4285`, double-ring plastic buttons and separate vertical housing lettering. Discussed in the walkthrough with a link to the source gallery; not presented as a vintage authentication example. |
+| R0 secondary photo evidence | Gallery photo 4: `https://rvb-img.reverb.com/i/s--E3luyzY4--/quality=medium-high,height=1600,width=1600,fit=contain/igmmkr83fvtklow6yrft.jpg`. Visually checked: serial `0 4285`, double-ring plastic buttons and separate vertical housing lettering. Discussed in the walkthrough; the source gallery URL is retained only in this editorial ledger per Joe's no-Reverb-links instruction. Not presented as a vintage authentication example. |
 
 All three hero photographs have visible modern-reissue captions before the image, descriptive alt text, local Astro optimization, responsive dimensions and licensed-image metadata whose `contentUrl` matches the rendered image. A copyright/license declaration is not evidence of vintage authenticity.
+
+Joe's October 14, 2026 instruction removes all outbound Reverb links from the three public articles, including caption source links. Exact source URLs remain here for editorial verification. Comparisons now link to the companion guides, and review quotations still link to the site's own review archive. This user preference governs public source placement and does not change the evidence or unresolved fact approvals.
 
 ### Review Evidence
 
@@ -161,11 +163,13 @@ Final local build verification (October 14, 2026): 227 pages built successfully;
 
 | Draft | Rendered Body Words | Internal Link Occurrences | Distinct Internal Targets | Distributed FAQs |
 |---|---:|---:|---:|---:|
-| 1958 | 2,756 | 23 | 20 | 6 |
-| 1959 | 2,951 | 21 | 19 | 6 |
-| 1960 | 3,283 | 29 | 23 | 6 |
+| 1958 | 2,761 | 25 | 21 | 6 |
+| 1959 | 2,955 | 23 | 20 | 6 |
+| 1960 | 3,282 | 29 | 23 | 6 |
 
 All checked internal routes and fragment targets resolve in the final build; all three pages have exactly one H1 and one FAQPage. All three licensed hero image URLs match their rendered image sources. Independent browser review checked 1920px and 390px layouts, image disclosures, contained table scrolling and section navigation; see `reports/les-paul-standard-guides-visual-review.md`.
+
+No-Reverb-link follow-up (October 14, 2026): the rebuilt article elements contain zero outbound links to `reverb.com` or its subdomains. Replacement internal routes and fragment targets resolve, all six FAQ pairs still match per article, all three licensed image URLs match, and the rendered site copy audit again returned zero hard failures.
 
 R0 follow-up: the production rebuild passed, the site copy gate again returned 0 hard failures, and the revised 1960 guide passed component completeness with 26 working TOC links and six visible/schema FAQ pairs. Its full-article MFWD scan returned 0 bans and two existing advisory warnings. The independent delta review confirmed the photo observations and modern-reissue disclosure. This resolves the missing first-party image/example, while the original historical-fact approval requirements remain open.
 

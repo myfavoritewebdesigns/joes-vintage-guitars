@@ -10,9 +10,6 @@ tags: ["Gibson", "Les Paul", "1959", "Burst", "R9"]
 heroImage: "/images/blog/1959-gibson-les-paul-standard-guide/2022-r9-reissue.jpg"
 heroImageAlt: "2022 Gibson R9 reissue with a figured sunburst maple top and two covered humbuckers; not a vintage 1959 Les Paul"
 heroImageCaption: "Modern reissue, not a vintage example: Joe's 2022 Gibson R9 illustrates a figured sunburst top, cream trim, gold knobs and the two-humbucker Standard layout. This guitar's finish, pickups, case and wear must not be treated as original 1959 evidence."
-heroImageSource:
-  href: "https://reverb.com/item/84412339-gibson-r9-les-paul-standard-1959-reissue-2022-flamey-sunburst"
-  label: "See Joe's 2022 R9 listing"
 ogImage: "/images/blog/1959-gibson-les-paul-standard-guide/2022-r9-reissue.jpg"
 metaDescription: "Learn 1959 Les Paul Standard specs, neck and fret details, PAF identification, finish history and value factors using clearly labeled R9 reissue photo."
 faqsInline: true
@@ -102,7 +99,7 @@ Compare the visible figure with the plainer 2011 R8 in our [1958 Les Paul Standa
 
 The R9 listing disclosed a “Demo” stamp and light cosmetic issues, and recorded a weight of 8.9 pounds. That disclosure matters because it separates a modern guitar's condition from the historical design it recreates. It would be misleading to present the pictured wear or patina as the result of use since 1959.
 
-The [plainer R8 illustrated in the companion guide was also listed at 8.9 pounds](https://reverb.com/item/84412764-gibson-r8-les-paul-standard-1958-reissue-2011-sunburst-figured-back). These two shop examples had different tops and different reference years but the same reported weight, so neither the R9 name nor its stronger maple figure tells you that this guitar is lighter than the R8.
+The [plainer R8 illustrated in the 1958 Standard guide](/post/1958-gibson-les-paul-standard-guide/#reading-the-r8-photo) was also listed at 8.9 pounds. These two shop examples had different tops and different reference years but the same reported weight, so neither the R9 name nor its stronger maple figure tells you that this guitar is lighter than the R8.
 
 Notice the brown case with pink lining behind the guitar. A vintage-style case can be supplied with a modern instrument. Its appearance doesn't date the guitar sitting in it. The same caution applies to old-looking pickup covers, amber knobs and intentionally aged lacquer.
 
@@ -216,7 +213,7 @@ For the adjacent years, compare the fuller-neck and narrow-fret discussion in th
 
 - [Gibson's 1959 model history](https://www.gibson.com/en-eu/products/gibson-custom-1959-les-paul-standard-reissue-kindred-burst-gloss): manufacturer context for the original Burst period and its later adoption by players; current specifications describe a reissue.
 - [Gibson's Greeny history](https://www.gibson.com/products/gibson-custom-kirk-hammett-greeny-1959-les-paul-standard-greeny-burst): a documented example of an individual 1959 guitar whose pickup behavior isn't a universal model specification.
-- [Joe's 2022 R9 listing](https://reverb.com/item/84412339-gibson-r9-les-paul-standard-1959-reissue-2022-flamey-sunburst): the source of the photograph, production year and disclosed condition details used here.
+- [Gibson serial number guide](/how-to-read-gibson-serial-numbers/): dating context to use alongside construction details and documentation when separating original guitars from later reissues.
 - [Gibson hardware and physical features](/gibson-physical-features-hardware-guide/): supporting comparisons for an inspection that goes beyond the serial number.
 
 ## Get Your Les Paul's Details Reviewed
