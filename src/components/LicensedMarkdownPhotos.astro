@@ -1,0 +1,20 @@
+---
+import { load } from "cheerio";
+import { buildImageGraph } from "../lib/imageLicense";
+
+// License only explicitly marked shop photographs after Astro has rendered
+// their Markdown images, so metadata uses the exact optimized image URLs.
+const html = await Astro.slots.render("default");
+const $ = load(html);
+const photos = $("figure.burst-feature-photo img").toArray().map((img) => ({
+  renderedSrc: $(img).attr("src"),
+  alt: $(img).closest("figure").find("figcaption").text().trim() || $(img).attr("alt"),
+}));
+const images = await buildImageGraph(photos);
+---
+
+<Fragment set:html={html} />
+{images.length > 0 && <script is:inline type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": images,
+})} />}

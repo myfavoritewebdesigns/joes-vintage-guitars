@@ -2,7 +2,7 @@
 title: "1960 Gibson Les Paul Standard: Neck Changes, Specs And R0s"
 seoTitle: "1960 Les Paul Standard Guide"
 pubDate: "2026-10-14T12:10:00Z"
-modified: "2026-10-14T16:11:57Z"
+modified: "2026-10-14T16:40:03Z"
 excerpt: "Understand early and later 1960 Bursts, neck changes, reflector knobs, double-ring tuners and PAFs, illustrated with Joe's clearly labeled 2014 R0 reissue."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -37,6 +37,8 @@ It was the final year of the original single-cutaway sunburst Standard's main pr
 For owners, the first job is to identify the instrument and its surviving parts. For players, it's to understand the actual neck and condition rather than buy a year label. If you have a guitar to identify or [sell through Joe's Gibson buying service](/sell-my-gibson-guitar/), send photographs of the whole instrument and its history before changing parts.
 
 Our photograph shows a **2014 Gibson Custom Shop R0 reissue**, not an original 1960 guitar. It illustrates the design features discussed below; its production year and modern components belong to a separate assessment.
+
+The full-guitar photo above is a modern reissue. The detail photos below show vintage parts from our existing guides, with source instruments identified in the captions where documented. They illustrate features shared with the 1960 Standard; they are not presented as photographs of one original 1960 Les Paul.
 
 <nav class="burst-inline-toc" aria-label="Article Contents">
 <h2>Table Of Contents</h2>
@@ -146,9 +148,45 @@ Reflector knobs have a contrasting insert on top identifying the control's funct
 
 Knobs are removable parts. A later set doesn't prove a guitar was built late in the year, and an earlier set doesn't prove an early date. Inspect their relationship to the pots, shaft fit, wear and the documented history. Record a replacement as a replacement, even when it recreates the expected style.
 
+<div class="burst-photo-pair">
+
+<figure class="burst-feature-photo">
+
+![Gold bonnet knob without a reflector insert on a 1956 Gibson Les Paul Goldtop](../../assets/knobs/1956-gibson-les-paul-bonnet-knob.jpg)
+
+<figcaption><strong>Earlier-style bonnet: 1956 Les Paul Goldtop.</strong> The top has no metal Volume or Tone insert. This earlier Goldtop illustrates the bonnet style that can appear on early 1960 Standards. Compare the <a href="/gibson-knob-dating-guide/#bonnet-knob">bonnet knob reference</a>.</figcaption>
+</figure>
+
+<figure class="burst-feature-photo">
+
+![Gold reflector knobs with Volume and Tone inserts on a vintage 1960s Gibson ES-330](../../assets/es-330/gold-reflector-knobs.jpg)
+
+<figcaption><strong>Reflector style: 1960s ES-330.</strong> Metal Volume and Tone inserts distinguish these gold knobs from the bonnet example. This ES-330 illustrates the style associated with later 1960 Standards; the photo does not establish an exact changeover date. See the <a href="/post/complete-dot-neck-es-330-guide-1959-1962/">ES-330 knob examples</a>.</figcaption>
+</figure>
+
+</div>
+
 Double-ring tuner buttons are another familiar later-1960 feature. “Ring” refers to the molded detail at the base of the plastic button. “Line” refers to the arrangement of the Kluson Deluxe lettering on the metal housing. They are different observations.
 
 This distinction prevents a common dating error: a double-ring button is not the same as a double-line gear housing. The latter lettering style belongs to a later part of the Kluson chronology. Use the [Gibson tuner dating guide](/gibson-tuner-dating-guide/) to compare the housing and button independently.
+
+<div class="burst-photo-pair">
+
+<figure class="burst-feature-photo">
+
+![Vintage Gibson headstock with one molded ring at the base of each Kluson tuner button](../../assets/tuners/gibson-single-ring-kluson-buttons.jpg)
+
+<figcaption><strong>Single-ring buttons on a vintage Gibson.</strong> Look for one molded collar at the base of each button. This reference image illustrates the earlier button shape; its source does not identify it as a 1960 Les Paul. See the <a href="/gibson-tuner-dating-guide/">tuner button comparison guide</a>.</figcaption>
+</figure>
+
+<figure class="burst-feature-photo">
+
+![Two molded button rings beside single-line Kluson Deluxe housings on a 1962 Gibson ES-335](../../assets/tuners/gibson-double-ring-kluson-buttons.jpg)
+
+<figcaption><strong>Double-ring buttons: 1962 ES-335 detail.</strong> Two molded rings sit beside metal covers that still read Kluson Deluxe in one line. This later ES-335 clearly demonstrates why double-ring does not mean double-line. The <a href="/post/1962-gibson-es-335-guide/">1962 ES-335 hardware guide</a> identifies the source guitar.</figcaption>
+</figure>
+
+</div>
 
 Old plastic buttons may have been replaced while the metal mechanisms remain. A tuner set may also have been changed as a complete assembly. The condition report should distinguish those situations and note altered mounting holes or other associated work.
 
@@ -174,11 +212,39 @@ The 1960 Standard retained two PAF humbuckers. Gibson's switch to a different bo
 
 PAF decals, covers, bobbins, magnets and coils all belong in a component assessment. A visible marking isn't enough to establish an untouched pickup, and a pickup's history isn't automatically the same as the body's history. Our [PAF and patent-number pickup guide](/post/gibson-paf-patent-number-pickup-guide/) explains the distinction between identifying a pickup type and evaluating its originality.
 
+<figure class="burst-feature-photo">
+
+![Patent Applied For decal and braided pickup lead on a PAF from a 1962 Gibson ES-335](../../assets/blog/gibson-paf-patent-number-pickup-guide/gibson-paf-sticker-1962-es-335.jpg)
+
+<figcaption><strong>1962 ES-335, PAF baseplate.</strong> This later Gibson still carries a Patent Applied For decal. It illustrates the marking discussed for 1960 pickups without suggesting the sticker can identify one exact year. Compare the lead, baseplate and solder with the <a href="/post/gibson-paf-patent-number-pickup-guide/#paf-sticker">PAF sticker reference</a>.</figcaption>
+</figure>
+
+<figure class="burst-feature-photo">
+
+![Opened vintage PAF showing its bar magnet, metal keeper and wooden spacer](../../assets/blog/gibson-paf-patent-number-pickup-guide/paf-alnico-magnet-maple-spacer.jpg)
+
+<figcaption><strong>Opened vintage PAF, construction detail.</strong> The bar magnet lies between the metal keeper and the exposed slug ends, with a wooden spacer along the edge. This existing bench photograph explains parts hidden beneath a cover; its source does not identify a 1960 Les Paul or establish that year's magnet dimensions. See the <a href="/post/gibson-paf-patent-number-pickup-guide/#paf-anatomy">PAF construction photographs</a>. Leave sealed pickups intact.</figcaption>
+</figure>
+
 The four-knob control layout gives each pickup a volume and tone control. Check the selector and all controls through their range. If a pot is noisy, document the symptom and have it assessed before replacing it. A practical service decision should preserve the record of what was installed.
 
 For dating, [Gibson potentiometer codes](/gibson-pot-codes/) can identify the maker and manufacturing period of the pots. Original component dates can support a construction timeline; a later replacement dates only itself. Don't use a single changed pot to turn a 1960 guitar into a later build.
 
+<figure class="burst-feature-photo">
+
+![Two black Bumblebee capacitors with colored bands in a 1957 Gibson Les Paul Goldtop](../../assets/blog/1957-les-paul-goldtop-guide/bumblebee-capacitors-1957-gibson-1024x683.jpg)
+
+<figcaption><strong>1957 Les Paul Goldtop, capacitor detail.</strong> The striped Bumblebee capacitors provide a period component reference for the control-cavity discussion. This is an earlier Goldtop, not a photograph of a 1960 wiring assembly. A component's appearance must be checked against the wiring and repair history. See the <a href="/post/1957-les-paul-goldtop-guide/">1957 Goldtop electronics guide</a>.</figcaption>
+</figure>
+
 The bridge is the ABR-1 Tune-o-matic, used with a separate tailpiece in the familiar stopbar arrangement. Inspect saddles, mounting, bridge condition and evidence of a changed tailpiece or vibrato. A useful report distinguishes an original assembly, a service replacement and a structural alteration to install different hardware.
+
+<figure class="burst-feature-photo">
+
+![Undersides of a Gibson ABR-1 bridge and separate stopbar on a 1962 ES-335](../../assets/blog/1962-gibson-es-335-guide/1962-gibson-es-335-bridge-and-tailpiece-1024x683.jpg)
+
+<figcaption><strong>1962 ES-335, bridge and stopbar undersides.</strong> The Gibson ABR-1 marking is visible on the bridge above the separate tailpiece. This later ES-335 illustrates the hardware construction discussed for the 1960 Standard; it does not date another guitar's parts or establish their originality. Compare the <a href="/post/1962-gibson-es-335-guide/">1962 ES-335 bridge and tailpiece reference</a>.</figcaption>
+</figure>
 
 ### Are 1960 PAFs Automatically Different-Sounding From 1959 PAFs?
 

@@ -2,7 +2,7 @@
 title: "1958 Gibson Les Paul Standard: Goldtops, Bursts And Specs"
 seoTitle: "1958 Les Paul Standard Guide"
 pubDate: "2026-10-14T12:00:00Z"
-modified: "2026-10-14T12:00:00Z"
+modified: "2026-10-14T16:40:03Z"
 excerpt: "Understand the 1958 Goldtop-to-sunburst transition, narrow frets, PAF pickups and originality checks, illustrated with a clearly identified 2011 R8 reissue."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -33,6 +33,8 @@ faqs: [{"q": "Were All 1958 Les Paul Standards Sunbursts?", "a": "No. Goldtops b
 The familiar 1958 combination is a single-cutaway mahogany body with a carved maple top, two PAF humbuckers, a rounded neck and relatively narrow original frets. They don't tell you whether a particular guitar retains its factory finish, pickups or neck shape.
 
 This guide uses a **2011 R8 reissue from our shop** to illustrate the visible layout. It isn't a vintage 1958 guitar. If you're identifying an inherited instrument or preparing to [sell a Gibson Les Paul](/sell-my-gibson-guitar/), start with clear photographs and its ownership history before cleaning it or changing parts.
+
+The full-guitar photo above is a modern reissue. The detail photos below show vintage parts from our existing guides, with source instruments identified in the captions where documented. They illustrate features shared with the 1958 Standard; they are not presented as photographs of one original 1958 Les Paul.
 
 <nav class="burst-inline-toc" aria-label="Article Contents">
 <h2>Table Of Contents</h2>
@@ -113,6 +115,13 @@ On a guitar that has been played for decades, fret condition may matter more to 
 
 A refret and a reshaped neck are different changes. Replacement frets address a wearing surface. A neck shave removes wood and changes the profile itself. The paperwork should describe each separately, including any associated finish work. “It plays great” doesn't answer either originality question.
 
+<figure class="burst-feature-photo">
+
+![Fret ends and raised cream binding on a 1958 Gibson Les Paul Special](../../assets/les-paul-family/feature-details/1958-gibson-les-paul-special-fret-nibs-1024x683.jpg)
+
+<figcaption><strong>1958 Les Paul Special, fret-end detail.</strong> The small rises in the cream binding meet the fret ends. This same-year Special illustrates the binding detail discussed when checking fret work; its dot inlays and neck are not a Standard specification. Nibs alone do not prove that frets are original. See our <a href="/post/1955-1958-tv-yellow-les-paul-special-guide/">1950s Les Paul Special guide</a>.</figcaption>
+</figure>
+
 ### Does A Refret Make A 1958 Les Paul A Bad Guitar?
 
 A good refret can make a worn guitar much easier to play. For a collector, it still changes the [originality](/gibson-les-paul-dating-guide/) description and should be disclosed. Check the quality of the work, the remaining fingerboard thickness and any binding repairs. Compare a refretted example with other refretted guitars, rather than assuming it belongs in the same condition category as an untouched one.
@@ -125,7 +134,21 @@ The design uses two coils to reduce hum picked up from the surrounding electrica
 
 A proper pickup description separates several questions: Is it a period PAF? Are its coils intact? Has it been rewound? Are the magnet and cover original to that pickup? Is there evidence that the pickup has remained in this guitar? A correct-looking decal answers none of those questions by itself. Our [PAF and patent-number pickup guide](/post/gibson-paf-patent-number-pickup-guide/) explains the broader identification problem.
 
+<figure class="burst-feature-photo">
+
+![PAF decal, braided lead and cover solder on a pickup from a 1957 Les Paul Goldtop](../../assets/blog/1957-les-paul-goldtop-guide/1957-gibson-PAF-pickup-1024x683.jpg)
+
+<figcaption><strong>1957 Les Paul Goldtop, PAF underside.</strong> The black Patent Applied For decal, braided lead and cover-solder joints show what a covered pickup hides. This preceding-year Goldtop supplies a vintage PAF example for the 1958 discussion. Compare the parts in our <a href="/post/gibson-paf-patent-number-pickup-guide/#paf-sticker">PAF decal and construction reference</a>; the sticker alone does not authenticate a pickup.</figcaption>
+</figure>
+
 The controls deserve the same attention. Each pickup has a volume and tone control, selected through the three-way switch. Period-style pots and capacitors can be installed later, so the appraisal should consider the components, wiring and repair evidence together.
+
+<figure class="burst-feature-photo">
+
+![Two black Bumblebee capacitors with colored bands in a 1957 Gibson Les Paul Goldtop](../../assets/blog/1957-les-paul-goldtop-guide/bumblebee-capacitors-1957-gibson-1024x683.jpg)
+
+<figcaption><strong>1957 Les Paul Goldtop, control-cavity detail.</strong> The black, color-banded parts are Bumblebee capacitors. This earlier Goldtop illustrates the type of component examined in a late-1950s wiring assessment. The photograph does not date the electronics in another guitar. Our <a href="/post/1957-les-paul-goldtop-guide/">1957 Goldtop guide</a> documents the source instrument.</figcaption>
+</figure>
 
 Pot codes identify the component's maker and production date. For example, the manufacturer prefix 134 refers to Centralab and 137 to CTS. The code dates the pot, not the completed guitar. Our [Gibson pot-code guide](/gibson-pot-codes/) shows how to read the markings without turning a replaced component into a false build date.
 
@@ -139,11 +162,39 @@ The usual Burst arrangement combines an ABR-1 bridge with a separate stopbar tai
 
 On a claimed 1958 Standard, examine the bridge mounting, saddles, plating and evidence of changed hardware. A later bridge can be a practical repair without changing the age of the body. It does change an “all-original” description. Factory vibrato examples and later vibrato installations also need individual documentation rather than an assumption based on visible hardware alone.
 
+<figure class="burst-feature-photo">
+
+![ABR-1 bridge, individual metal saddles and separate stopbar on a 1959 Gibson ES-335](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-abr-1-bridge-1024x683.jpg)
+
+<figcaption><strong>1959 ES-335, ABR-1 and stopbar.</strong> The individual saddles sit in the narrow bridge; the strings then run to the separate tailpiece below it. This ES-335 shows the hardware arrangement discussed for a 1958 Standard. Its black pickup rings and pickguard belong to the ES model. See the <a href="/post/1959-gibson-es-335-authentication-guide/">1959 ES-335 hardware examples</a>.</figcaption>
+</figure>
+
 Kluson tuner details are another cross-check. The line count stamped into the metal gear housing and the ring count molded into the plastic button are separate features. The [Gibson tuner dating guide](/gibson-tuner-dating-guide/) explains those distinctions and why replaced tuners don't date a guitar.
+
+<figure class="burst-feature-photo">
+
+![Single-line Kluson Deluxe housing and single-ring plastic button from a 1956 Les Paul](../../assets/tuners/1956-gibson-single-line-kluson.jpg)
+
+<figcaption><strong>1956 Les Paul, single-line and single-ring Kluson.</strong> Follow the Kluson Deluxe words along one line on the metal cover, then find the single molded ring where the button meets the shaft. This earlier Les Paul demonstrates the visible combination associated with 1958; underside markings and installation history still need separate assessment. Compare the <a href="/gibson-tuner-dating-guide/#single-line-kluson">single-line Kluson reference</a>.</figcaption>
+</figure>
 
 Gold bonnet or top-hat knobs, cream pickup rings, a cream pickguard and an amber-colored switch tip form the familiar appearance. Inspect each as a separate part. Age, wear or a molded marking alone doesn't establish that a plastic part was installed at the factory. Reproductions can resemble period parts closely, and original parts can have been transferred between guitars.
 
+<figure class="burst-feature-photo">
+
+![Gold bonnet knob without a reflector insert on a 1956 Gibson Les Paul Goldtop](../../assets/knobs/1956-gibson-les-paul-bonnet-knob.jpg)
+
+<figcaption><strong>1956 Les Paul Goldtop, gold bonnet knob.</strong> The flared skirt, numbered rim and top without a metal insert illustrate the knob style used on the 1958 Standard. This is an earlier Goldtop detail, not a photograph of the R8 or an original 1958 Burst. Compare <a href="/gibson-knob-dating-guide/#bonnet-knob">bonnet knob shapes and dating limits</a>.</figcaption>
+</figure>
+
 Use the [Gibson knob chronology](/gibson-knob-dating-guide/) for the transition to later reflector styles, and the [physical features and hardware guide](/gibson-physical-features-hardware-guide/) for the wider comparison. These references are most useful when the components disagree and you need to decide which question to investigate next.
+
+<figure class="burst-feature-photo">
+
+![M-69 molded marking on the underside of a black vintage Gibson pickup ring](../../assets/blog/gibson-paf-patent-number-pickup-guide/m-69-marking-pickup-ring.jpg)
+
+<figcaption><strong>Vintage pickup-ring marking from our PAF guide.</strong> The M-69 marking is molded into this black ring. It illustrates an inspection detail, not the cream color expected on a Standard. The source does not assign this close-up to a particular Les Paul year, and a reproduced marking cannot prove originality. Read the <a href="/post/gibson-paf-patent-number-pickup-guide/#paf-rings">pickup-ring inspection guide</a>.</figcaption>
+</figure>
 
 ## Serial Numbers And Originality
 

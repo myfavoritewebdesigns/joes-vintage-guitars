@@ -45,3 +45,25 @@ This review checks rendering and navigation, not historical fact approval, copyr
 - Every 1960 contents link resolved to an existing heading after the update.
 - CUA used a temporary Chrome tab for this follow-up because the prior in-app browser connection was unavailable; screenshot review and DOM checks were limited to the changed 1960 page.
 - This follow-up resolves the missing-photo visual finding and does not constitute expert approval of the historical claims.
+
+## Feature-Photo Follow-Up, October 14, 2026, Build Completed 16:40:44
+
+Reviewed all three rebuilt guides through CUA in a temporary Chrome tab at 1920 by 1080 and 390 by 844 pixels. This follow-up inspected the new detail figures and comparison pairs, their rendered captions, nearby article sections and responsive behavior. The user-directed removal of article Reverb links and buyer reviews was respected; their absence is not a defect.
+
+### Findings
+
+- No new blocking visual defect was found in the feature-photo additions.
+- All seven 1958 detail images, seven 1959 detail images and eight 1960 detail images loaded successfully after actual browser scrolling at both desktop and mobile widths.
+- All three article bodies contain zero Reverb links and no Reverb buyer-review passages; the existing shared site header remains outside this article-content check.
+- At 1920 pixels, single feature figures end at x1338.5 while the fixed TOC begins at x1398, leaving 59.5 pixels of separation.
+- A full ancestor and pseudo-element inspection of the feature-figure layout found no clipping wrapper or decorative overflow; each inspected image uses `object-fit: contain`, preserving its full image area, and visible source watermarks remain intact in the sampled screenshots.
+- The portrait cream-bobbin photograph in the 1959 guide is centered within its wider figure instead of cropped; its entire image remains visible on mobile.
+- The two 1960 comparison pairs use two 376-pixel columns on desktop and one 327-pixel column on mobile, keeping each caption with its corresponding knob or tuner photograph.
+- No page-width overflow was present in any of the six page/viewport combinations; mobile document width measured 375 pixels inside the 390-pixel viewport.
+- Captions render at 15.2 pixels with comfortable line spacing, and all mobile captions fit their containers without horizontal text overflow.
+- The source-model disclosures are explicit: the captions identify the Special, earlier Goldtops, ES-335s, ES-330, or an unassigned vintage component rather than presenting these photographs as original 1958, 1959 or 1960 Standards.
+- Placement matches the surrounding explanation: fret ends appear in Neck And Frets, pickup internals and capacitors appear beside electronics discussion, and knobs, tuners, bridges and pickup rings appear beside the relevant hardware text.
+- The existing fixed mobile contact controls can temporarily cover text in the lower-right viewport as the reader scrolls, including captions; this is shared site behavior rather than a new figure-layout regression, and the covered text can be scrolled into clear view.
+- One screenshot taken immediately after an image was scrolled into view captured its lazy-load placeholder; the settled screenshot and subsequent load checks confirmed that image rendered normally.
+
+The new `LicensedMarkdownPhotos.astro` implementation was read for context: it selects marked rendered figures and derives license metadata from their actual image `src` values. The implementer separately reported all 25 article-photo license URLs match their rendered sources, with clean build/type/copy checks and passing internal-link/FAQ verification. This visual review does not replace the historical fact review or provenance checks. Screenshots were inspected through CUA output; no standalone screenshot files or cross-model review were produced. The temporary viewport was reset and the review tab closed. No implementation files were changed by this reviewer.

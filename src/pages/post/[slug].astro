@@ -3,6 +3,7 @@ import type { GetStaticPaths } from "astro";
 import { render } from "astro:content";
 import { getImage, Image } from "astro:assets";
 import LicensedImage from "../../components/primitives/LicensedImage.astro";
+import LicensedMarkdownPhotos from "../../components/LicensedMarkdownPhotos.astro";
 import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
@@ -623,7 +624,7 @@ const articleSchema = {
 
     <div class="bpost__inner">
       <div class="blog-prose">
-        <Content />
+        {isBurstYearGuide ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
         {data.faqs.length > 0 && !data.faqsInline && <section class="post-faq" aria-labelledby="faq">
           <h2 id="faq">Frequently Asked Questions</h2>
           {data.faqs.map(item => <div class="post-faq-answer">
@@ -1437,6 +1438,13 @@ const articleSchema = {
   .blog-prose .burst-spec-table { overflow-x: auto; margin-bottom: 24px; }
   .blog-prose .burst-spec-table:focus-visible { outline: 3px solid #a03a1e; outline-offset: 4px; }
   .blog-prose .burst-spec-table table { display: table; white-space: normal; min-width: 650px; }
+  .blog-prose .burst-feature-photo { margin: 30px 0; border: 1px solid #e0cfa9; background: #faf4e6; }
+  .blog-prose .burst-feature-photo > p { margin: 0; }
+  .blog-prose .burst-feature-photo img { display: block; width: 100%; height: auto; max-height: 600px; object-fit: contain; border-radius: 0; }
+  .blog-prose .burst-feature-photo figcaption { padding: 16px 20px; margin: 0; color: #4a3a24; font-size: 0.95rem; line-height: 1.6; font-style: normal; text-align: left; }
+  .blog-prose .burst-photo-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 30px 0; }
+  .blog-prose .burst-photo-pair .burst-feature-photo { min-width: 0; margin: 0; }
+  @media (max-width: 600px) { .blog-prose .burst-photo-pair { grid-template-columns: 1fr; } }
   @media (max-width: 600px) { .blog-prose .burst-inline-toc ul { columns: 1; } }
   .blog-prose strong { color: var(--color-brand-brown, #3e2a14); }
   .blog-prose ul,

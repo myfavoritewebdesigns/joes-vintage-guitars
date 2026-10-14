@@ -148,6 +148,30 @@ The earlier draft quotations were checked against `reference/reverb-reviews-body
 
 No testimonials should be restored to these guides merely to satisfy the MFWD component checklist. The user's relevance decision supersedes that requirement; earlier sidecheck and completeness reports describe drafts that still included the reviews.
 
+### Vintage Feature Photo Expansion
+
+Joe subsequently requested extensive reuse of the site's vintage feature photographs, including parts on other models. The articles now contain 22 detail-photo placements using 15 existing local assets: seven in 1958, seven in 1959 and eight in 1960, in addition to the three modern-reissue heroes. Each selected source file was visually inspected before placement. No image was generated, cropped or copied to a new asset location. The 1960 knob and tuner comparisons use two-column pairs that stack on narrow screens.
+
+| Feature And Existing Source | Use And Caption Limits |
+|---|---|
+| `les-paul-family/feature-details/1958-gibson-les-paul-special-fret-nibs-1024x683.jpg` | 1958 fret section. Source is a 1958 Special with dot inlays; illustrates binding at fret ends, not Standard inlays, neck dimensions or proof of original frets. |
+| `blog/1957-les-paul-goldtop-guide/1957-gibson-PAF-pickup-1024x683.jpg` | 1958 PAF section. Names the preceding-year Goldtop, illustrates decal, braided lead and cover solder. |
+| `blog/1957-les-paul-goldtop-guide/bumblebee-capacitors-1957-gibson-1024x683.jpg` | All three control sections. Names the 1957 Goldtop and the visible color-banded capacitors; does not imply a photographed 1958, 1959 or 1960 wiring assembly. |
+| `blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-abr-1-bridge-1024x683.jpg` | 1958 and 1959 hardware sections. Identifies the 1959 ES-335, separate ABR-1/stopbar arrangement and ES-specific black plastics. |
+| `tuners/1956-gibson-single-line-kluson.jpg` | 1958 and 1959 tuner sections. Source tuner guide identifies a 1956 Les Paul. The single-line casing and single-ring button are visible; underside stamps are not inferred. |
+| `knobs/1956-gibson-les-paul-bonnet-knob.jpg` | All three knob discussions. Source knob guide identifies a 1956 Goldtop. Shows a bonnet without a metal insert. |
+| `blog/gibson-paf-patent-number-pickup-guide/m-69-marking-pickup-ring.jpg` | 1958 small-parts discussion. Explicitly a black ring, not Standard cream trim. Donor model/year is not specified in the source and is not invented. |
+| `blog/gibson-paf-patent-number-pickup-guide/gibson-paf-sticker-1962-es-335.jpg` | 1959 and 1960 PAF sections. Names the 1962 ES-335 and separates the shared decal/construction example from year-specific magnet or winding claims. |
+| `blog/1959-gibson-es-335-authentication-guide/white-bobbin-paf-pickup-4-770x1024.jpg` | 1959 bobbin section. The source identifies a 1959 ES-335. The image shows cream material through one pole-screw opening; it is not an exposed double-white pickup or proof of both bobbin colors. Caption identifies an existing inspection photo and preserves the instruction to leave covered pickups intact. |
+| `blog/gibson-paf-patent-number-pickup-guide/paf-purple-enamel-windings.jpg` | 1959 bobbin section. Shows black bobbins and a glimpse of winding wire in an already-open pickup. No exact donor model/year is assigned. |
+| `es-330/gold-reflector-knobs.jpg` | 1960 bonnet/reflector pair. The existing ES-330 guide identifies a 1960s ES-330; caption does not claim a 1960 instrument or exact changeover date. |
+| `tuners/gibson-single-ring-kluson-buttons.jpg` | 1960 single/double-ring pair. Existing tuner guide supplies no exact donor model/year; caption says vintage Gibson and limits the comparison to button shape. |
+| `tuners/gibson-double-ring-kluson-buttons.jpg` | 1960 tuner pair. Close-up corresponds to the red headstock, tuners and buttons in the documented 1962 ES-335 photograph. Shows double rings with single-line housings; not the later double-line housing. |
+| `blog/gibson-paf-patent-number-pickup-guide/paf-alnico-magnet-maple-spacer.jpg` | 1960 PAF construction section. Existing opened-pickup photograph shows magnet, keeper and spacer. No 1960 donor or year-specific dimensions are asserted. |
+| `blog/1962-gibson-es-335-guide/1962-gibson-es-335-bridge-and-tailpiece-1024x683.jpg` | 1960 hardware section. Names the 1962 ES-335 and visible ABR-1/stopbar undersides; not a claim that the pictured parts came from a 1960 Standard. |
+
+Paths above are relative to `src/assets/`. Source guide links appear beside each figure. The existing historical-fact holds remain separate from this visual-example expansion. `LicensedMarkdownPhotos.astro` extracts the actual rendered `src` of each marked figure and uses the existing `buildImageGraph` helper; all 25 hero/detail license URLs match rendered images. Astro continues to generate responsive image variants, dimensions and lazy loading for the Markdown detail images.
+
 ## Manufacturer Research Sources
 
 1. [Gibson 1958 Historic one-sheet](https://images.gibson.com/Products/Electric-Guitars/2018/Custom/58-LP-Standard/Press/Documents/58-LP-Standard-One-Sheet.pdf): historical finish change; specification block belongs to the reissue.
@@ -163,15 +187,17 @@ Initial local build verification (October 14, 2026): 227 pages built successfull
 
 | Draft | Rendered Body Words | Internal Link Occurrences | Distinct Internal Targets | Distributed FAQs |
 |---|---:|---:|---:|---:|
-| 1958 | 2,708 | 23 | 19 | 6 |
-| 1959 | 2,867 | 21 | 18 | 6 |
-| 1960 | 3,183 | 27 | 21 | 6 |
+| 1958 | 3,120 | 30 | 25 | 6 |
+| 1959 | 3,250 | 28 | 24 | 6 |
+| 1960 | 3,588 | 35 | 27 | 6 |
 
 All checked internal routes and fragment targets resolve in the final build; all three pages have exactly one H1 and one FAQPage. All three licensed hero image URLs match their rendered image sources. Independent browser review checked 1920px and 390px layouts, image disclosures, contained table scrolling and section navigation; see `reports/les-paul-standard-guides-visual-review.md`.
 
 No-Reverb-link follow-up (October 14, 2026): the rebuilt article elements contain zero outbound links to `reverb.com` or its subdomains. Replacement internal routes and fragment targets resolve, all six FAQ pairs still match per article, all three licensed image URLs match, and the rendered site copy audit again returned zero hard failures.
 
 Buyer-review removal follow-up (October 14, 2026): all six testimonial placements and attribution links are absent from the rebuilt pages. The production build passed, the rendered copy audit returned zero hard failures, and the remaining internal routes, fragments and visible/schema FAQ pairs still match. Photos and modern-reissue disclosures remain in place.
+
+Feature-photo follow-up (October 14, 2026): production build passed for 227 pages; Astro check returned zero errors, zero warnings and 93 existing hints; the site copy gate returned zero hard failures. The full-article MFWD wording scan returned zero bans and eight advisory warnings (two, three and three respectively). All 22 detail figures have captions, alt text, responsive sources, intrinsic dimensions, lazy loading and existing optimized output files. All internal destinations and fragments resolve, all six FAQ pairs per article match, and no outbound Reverb link or buyer review has returned. Word counts above exclude the new image JSON-LD script and include the visible captions.
 
 R0 follow-up: the production rebuild passed, the site copy gate again returned 0 hard failures, and the revised 1960 guide passed component completeness with 26 working TOC links and six visible/schema FAQ pairs. Its full-article MFWD scan returned 0 bans and two existing advisory warnings. The independent delta review confirmed the photo observations and modern-reissue disclosure. This resolves the missing first-party image/example, while the original historical-fact approval requirements remain open.
 

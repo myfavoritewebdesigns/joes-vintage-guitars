@@ -2,7 +2,7 @@
 title: "1959 Gibson Les Paul Standard: Specs, PAFs And Originality"
 seoTitle: "1959 Les Paul Standard Guide"
 pubDate: "2026-10-14T12:05:00Z"
-modified: "2026-10-14T12:05:00Z"
+modified: "2026-10-14T16:40:03Z"
 excerpt: "A detailed guide to the 1959 Burst, including necks, frets, figured tops, PAFs, repairs and value comparisons, illustrated with Joe's 2022 R9 reissue."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -33,6 +33,8 @@ faqs: [{"q": "Did Every 1959 Les Paul Have A Flame Top?", "a": "No. Maple figure
 If you're researching a possible 1959 Burst, the useful questions are specific: Was it built in 1959? Did it leave the factory in sunburst? Which finish and parts remain? What work has it had? Answer those before comparing it with a famous guitar or a record sale.
 
 The photograph above shows **our 2022 R9 reissue**, not a vintage 1959 instrument. It's here to show the layout and figured-top appearance. If you need help with an instrument you own, request a [Gibson guitar appraisal](/free-appraisal/gibson/) with photographs of the complete guitar, its serial and any repairs.
+
+The full-guitar photo above is a modern reissue. The detail photos below show vintage parts from our existing guides, with source instruments identified in the captions where documented. They illustrate features shared with the 1959 Standard; they are not presented as photographs of one original 1959 Les Paul.
 
 <nav class="burst-inline-toc" aria-label="Article Contents">
 <h2>Table Of Contents</h2>
@@ -139,11 +141,32 @@ PAFs weren't a single, perfectly uniform set of electrical measurements. A resis
 
 Ask for the inspection to distinguish an original coil from a rewind, and an intact pickup from one with replacement components. The [PAF and patent-number pickup guide](/post/gibson-paf-patent-number-pickup-guide/) explains why decal appearance is only one part of that assessment. Don't unsolder a cover just to obtain a photograph for an online opinion.
 
+<figure class="burst-feature-photo">
+
+![Patent Applied For decal and braided pickup lead on a PAF from a 1962 Gibson ES-335](../../assets/blog/gibson-paf-patent-number-pickup-guide/gibson-paf-sticker-1962-es-335.jpg)
+
+<figcaption><strong>1962 ES-335, original PAF example.</strong> The Patent Applied For decal, baseplate, lead and cover joints illustrate the pickup family used on the 1959 Standard. This later ES-335 does not establish the magnet, winding or originality of a particular 1959 pickup. See the <a href="/post/gibson-paf-patent-number-pickup-guide/#paf-what">documented ES-335 PAF example</a>.</figcaption>
+</figure>
+
 ### Bobbin Color And Pickup Covers
 
 Under a cover, a PAF may have black or cream bobbins in different combinations. “Zebra” describes a mixed pair; “double white” is the common collector term for two cream-colored bobbins. These descriptions concern the pickup's appearance. They don't establish that it has remained untouched or that it was originally installed in the guitar being offered.
 
 Covered pickups leave that color hidden. An uncovered pickup doesn't become a different model simply because you can see the bobbins. Cover removal, replacement and solder history should be documented separately, especially when the description attaches a premium to a particular pickup configuration.
+
+<figure class="burst-feature-photo">
+
+![Cream bobbin material visible through a pole-screw opening in a covered PAF from a 1959 ES-335](../../assets/blog/1959-gibson-es-335-authentication-guide/white-bobbin-paf-pickup-4-770x1024.jpg)
+
+<figcaption><strong>1959 ES-335, cream bobbin detail.</strong> In this existing inspection photograph, cream material is visible through a pole-screw opening. It shows one bobbin, not whether both are cream, and the guitar is an ES-335 rather than a Les Paul. Leave covered pickups intact for an initial assessment. The <a href="/post/1959-gibson-es-335-authentication-guide/">1959 ES-335 guide</a> records the source example.</figcaption>
+</figure>
+
+<figure class="burst-feature-photo">
+
+![Black PAF bobbins, steel slugs and a glimpse of winding wire through a tooling opening](../../assets/blog/gibson-paf-patent-number-pickup-guide/paf-purple-enamel-windings.jpg)
+
+<figcaption><strong>Already-open PAF from our pickup guide.</strong> The black bobbins, round steel slugs and glimpse of winding wire provide a second color and construction example. This photo is not assigned to a 1959 Les Paul, and it should not prompt removal of an intact cover. Our <a href="/post/gibson-paf-patent-number-pickup-guide/#paf-open">already-open pickup reference</a> explains the visible details.</figcaption>
+</figure>
 
 ### Why Do Two 1959 Les Pauls Sound Different?
 
@@ -157,11 +180,39 @@ The Standard has two volume controls, two tone controls and a three-way pickup s
 
 Inside the control cavity, pots and capacitors may be original, replaced or a mixture. A component date establishes when that component was made. It cannot prove when it was installed. The [Gibson pot-code reference](/gibson-pot-codes/) explains the manufacturer and date markings; it should be used alongside solder and service history.
 
+<figure class="burst-feature-photo">
+
+![Two black Bumblebee capacitors with colored bands in a 1957 Gibson Les Paul Goldtop](../../assets/blog/1957-les-paul-goldtop-guide/bumblebee-capacitors-1957-gibson-1024x683.jpg)
+
+<figcaption><strong>1957 Les Paul Goldtop, Bumblebee capacitors.</strong> These striped black capacitors show the period component style discussed in late-1950s control-cavity inspections. The source guitar is a 1957 Goldtop; use this as a visual reference, then assess the wiring and solder in the actual 1959 guitar. See our <a href="/post/1957-les-paul-goldtop-guide/">Goldtop electronics example</a>.</figcaption>
+</figure>
+
 The ABR-1 bridge and stopbar are separate assemblies. Check the bridge's condition, saddle slots, adjustment and mounting, then record any replacement parts. A later bridge may have been installed to make a guitar usable. The condition report can acknowledge that practical benefit while still stating the originality change.
+
+<figure class="burst-feature-photo">
+
+![ABR-1 bridge, individual metal saddles and separate stopbar on a 1959 Gibson ES-335](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-abr-1-bridge-1024x683.jpg)
+
+<figcaption><strong>1959 ES-335, bridge and tailpiece.</strong> This same-year Gibson shows the ABR-1 bridge, six metal saddles, height-adjustment wheels and separate stopbar discussed here. The surrounding black plastics are ES-335 parts, not the Standard's cream trim. Compare the <a href="/post/1959-gibson-es-335-authentication-guide/">1959 ES-335 construction details</a>.</figcaption>
+</figure>
 
 Kluson tuner housings, buttons, bushings and screws deserve individual inspection. The [Gibson tuner chronology](/gibson-tuner-dating-guide/) helps distinguish hardware eras. A correct-era tuner set isn't proof it has always been on this headstock; extra holes, impressions and the surrounding finish can tell a different story.
 
+<figure class="burst-feature-photo">
+
+![Single-line Kluson Deluxe housing and single-ring plastic button from a 1956 Les Paul](../../assets/tuners/1956-gibson-single-line-kluson.jpg)
+
+<figcaption><strong>1956 Les Paul, Kluson close-up.</strong> One vertical line of lettering and one molded button ring show the visible tuner combination associated with the 1959 Standard. The earlier donor year is important: that appearance alone cannot identify a guitar as a 1959. Use the <a href="/gibson-tuner-dating-guide/#single-line-kluson">Kluson casing and button chronology</a> for the wider comparison.</figcaption>
+</figure>
+
 The same principle applies to knobs, pickup rings, the jack plate, pickguard and switch parts. For the difference between bonnet and reflector styles, use the [Gibson knob guide](/gibson-knob-dating-guide/). Resist treating one correct-looking small part as an answer about the entire guitar.
+
+<figure class="burst-feature-photo">
+
+![Gold bonnet knob without a reflector insert on a 1956 Gibson Les Paul Goldtop](../../assets/knobs/1956-gibson-les-paul-bonnet-knob.jpg)
+
+<figcaption><strong>1956 Les Paul Goldtop, non-reflector bonnet knob.</strong> The numbered skirt and plain top demonstrate the gold knob style associated with 1959 Standards. This is a vintage part on an earlier Goldtop. For the later metal-insert style, compare the <a href="/post/1960-gibson-les-paul-standard-guide/#reflector-knobs-and-double-ring-tuners">1960 knob and tuner examples</a>.</figcaption>
+</figure>
 
 ## Dating And Originality Checks
 
