@@ -76,7 +76,7 @@ Reviewed the same three draft-PR routes at 1920 by 1080 and 390 by 844 pixels in
 - Each article has one H1, a two-column specification table and one FAQPage containing six entries; the implementer separately reported clean FAQ/text and internal-link verification.
 - The longer titles and contents labels wrap within their containers on desktop and mobile, with no whole-page horizontal overflow or clipped caption text.
 - The desktop hero ends at x1362.5 and the TOC begins at x1398; even the longer 1960 TOC ends at y706.5 within the 1080-pixel viewport.
-- All three reissue heroes and all 22 retained detail photographs loaded after real browser scrolling at both tested widths; the revised donor captions continue to identify the relevant source models or explicitly unidentified components.
+- All three reissue heroes and all 22 retained detail photographs loaded after real browser scrolling at both tested widths; the revised source-guitar captions continue to identify the relevant source models or explicitly unidentified components.
 - All desktop and inline TOC targets exist; mobile navigation to the new 1960 value section and the specifications section closes the contents sheet and settles the target heading about 110 pixels below the viewport top.
 - Article bodies contain no Reverb links, buyer-review passages or added editorial-note sections; no new original-Burst photograph was introduced by this revision.
 - Nonblocking: the simplified two-column specifications retain their existing 650-pixel minimum width inside a 327-pixel mobile scroll container; horizontal scrolling remains confined to the table, and the implementer elected to retain that behavior for this content revision.
@@ -95,3 +95,16 @@ Reviewed only the three newly authorized notes and their surrounding value/conte
 - The implementer separately verified unchanged six-FAQ sets, all 18 FAQ/text pairs and internal links, and reported no copy-audit hard failures.
 
 These notes were supplied by Joe for this revision; their presence supersedes the earlier revision's intentional absence. This pass verifies their presentation and placement, not an independent valuation endorsement. The temporary viewport was reset and the review tab closed. Only this report was changed; no article edit, commit or push was made by the reviewer.
+
+## Round Two Delta Review, October 14, 2026, Final Build Completed 18:13:08
+
+Reviewed the changed dating, checklist, photo-removal and 1960 value/specification regions at 1920 by 1080 and 390 by 844 pixels. The 1960 checks used the final rebuilt page. No new blocking visual issue was found.
+
+- The 1958 page now contains six detail figures. Removing the black M-69 example leaves no empty figure or conspicuous gap; the remaining knob photograph and caption flow into the serial section normally.
+- The shorter 1958 and 1960 serial FAQs, their individual example bullets and year-specific originality checklists remain legible at both widths. Heading wraps and paragraph spacing are consistent with the surrounding article.
+- The 1959 FAQ contains the full Historic serial explanation and three clearly separated examples. Its checklist follows without clipping or crowded headings; source guitar identification remains explicit in the adjacent caption.
+- The longer 1960 value paragraph wraps within the article and remains above the existing expert note and inline contents. On mobile these regions remain 327 pixels wide, with a 32-pixel gap between the note and contents.
+- The longer 1960 Tuners cell fits on desktop and wraps inside the existing 650-pixel table on mobile. Keyboard scrolling moved the mobile table horizontally while the page stayed at its 375-pixel client width. This existing, contained table scrolling remains nonblocking.
+- The changed regions do not collide with the desktop contents sidebar, and no whole-page horizontal overflow was measured. All three existing expert-note callouts remain present. The implementer separately reported clean six-FAQ sets, internal links and image-license checks for 24 images: three heroes and 6/7/8 detail figures.
+
+This was a narrow presentation review, not a repeat audit of every photograph or independent approval of historical/valuation claims. Live WordPress parity remains not applicable to these new articles. The temporary viewport was reset and the review tab closed. Only this report was edited; no article changes, commit or push were made by the reviewer.

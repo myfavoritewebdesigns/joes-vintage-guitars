@@ -2,7 +2,7 @@
 title: "1960 Gibson Les Paul Standard: Value, Neck Changes And Specs"
 seoTitle: "1960 Les Paul Standard Value And Specs"
 pubDate: "2026-10-14T12:10:00Z"
-modified: "2026-10-14T17:21:21Z"
+modified: "2026-10-14T18:10:21Z"
 excerpt: "1960 Les Paul Burst values, the slim neck and reflector knob changes, 635 shipped, and how to tell an original from an R0 by its serial."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -28,12 +28,12 @@ toc:
   - { href: "#the-change-to-the-sg-body", label: "The Change To The SG Body" }
   - { href: "#r0-reissues-and-other-1960-style-les-pauls", label: "R0 Reissues And Other 1960-Style Les Pauls" }
   - { href: "#resources-and-related-reading", label: "Resources And Related Reading" }
-faqs: [{"q": "How Much Is A 1960 Les Paul Worth?", "a": "My range for 1958 to 1960 Sunburst Standards is $200,000 to $500,000+, including the 1960 Burst. These are US retail estimates for all-original guitars in excellent condition with the correct original case, reviewed in July 2026. My vintage Les Paul value guide explains the range and the comparisons behind it."}, {"q": "How Many 1960 Les Pauls Were Made?", "a": "Gibson recorded 635 Sunburst Les Pauls shipped in 1960, compared with 643 in 1959 and just 2 in 1961. These are shipment totals for the Burst branch, not survivor counts or totals for every Les Paul model. My Gibson shipping totals page documents the figures, which support 1960 as the last main single-cutaway Burst production year."}, {"q": "Did Every 1960 Les Paul Have A Thin Neck?", "a": "No. Early 1960 examples can retain a fuller profile associated with 1959, while later guitars move toward slimmer necks. I compare depth, shoulders, fret condition and any reshaping together. The Les Paul dating guide explains why the model and physical features need to agree with the serial before a date is settled."}, {"q": "What's The Difference Between A 1959 And A 1960 Les Paul?", "a": "The main changes are within 1960: later guitars move toward a slimmer neck, reflector knobs and double-ring tuner buttons, while early examples can resemble 1959. Both years have PAF humbuckers, a carved maple top, mahogany body, ABR-1 bridge and stopbar. My 1959 Les Paul guide provides the preceding year's specifications and comparison photos."}, {"q": "How Can I Tell A Real 1960 Les Paul From An R0?", "a": "I compare the construction, parts and documentation with the serial format. On a Historic R0, the first 0 identifies the 1960 design and the second digit gives the build year's last digit. The documented 2014 R0's 0 4285 fits that system. My Les Paul dating guide explains the physical checks and decade ambiguity."}, {"q": "Is A 1961 Les Paul Standard The Same Guitar As A 1960?", "a": "The usual 1961 Les Paul Standard has the thinner, double-cutaway body later known as the SG, while the 1960 Burst has the carved-top single-cutaway body. The shipping ledger also records two Sunbursts shipped in 1961. I identify the body design before comparing values; my Gibson shipping totals separate those records."}]
+faqs: [{"q": "How Much Is A 1960 Les Paul Worth?", "a": "My range for 1958 to 1960 Sunburst Standards is $200,000 to $500,000+, including the 1960 Burst. These are US retail estimates for all-original guitars in excellent condition with the correct original case, reviewed in July 2026. My vintage Les Paul value guide explains the range and the comparisons behind it."}, {"q": "How Many 1960 Les Pauls Were Made?", "a": "Gibson recorded 635 Sunburst Les Pauls shipped in 1960, compared with 643 in 1959 and just 2 in 1961. These are shipment totals for the Burst branch, not survivor counts or totals for every Les Paul model. My Gibson shipping totals page documents the figures, which support 1960 as the last main single-cutaway Burst production year."}, {"q": "Did Every 1960 Les Paul Have A Thin Neck?", "a": "No. Early 1960 examples can retain a fuller profile associated with 1959, while later guitars move toward slimmer necks. I compare depth, shoulders, fret condition and any reshaping together. The Les Paul dating guide explains why the model and physical features need to agree with the serial before a date is settled."}, {"q": "What's The Difference Between A 1959 And A 1960 Les Paul?", "a": "Early 1960 guitars can resemble 1959, while later examples move toward slimmer necks and reflector knobs. Double-ring tuner buttons appear around mid-1960. Both years have PAF humbuckers, a carved maple top, mahogany body, ABR-1 bridge and stopbar. My 1959 Les Paul guide provides the preceding year's specifications and comparison photos."}, {"q": "How Can I Tell A Real 1960 Les Paul From An R0?", "a": "A leading 0 can belong to a vintage 1960 Les Paul or an R0, so I check construction and paperwork with my Les Paul dating guide. The Historic serial explanation in my 1959 guide shows how to read the reissue's build-year digit and resolve the decade."}, {"q": "Is A 1961 Les Paul Standard The Same Guitar As A 1960?", "a": "The usual 1961 Les Paul Standard has the thinner, double-cutaway body later known as the SG, while the 1960 Burst has the carved-top single-cutaway body. The shipping ledger also records two Sunbursts shipped in 1961. I identify the body design before comparing values; my Gibson shipping totals separate those records."}]
 ---
 
 **A 1960 Les Paul Burst can have an earlier, fuller neck or a later, slimmer profile, with knob and tuner-button changes during the year.** It retains the carved maple and mahogany construction and two PAF humbuckers of the preceding Bursts.
 
-My full-guitar photo shows a **2014 R0 reissue, not a vintage 1960 example**. The detail photographs show vintage parts from my existing guides, including bonnet and reflector knobs and single-ring and double-ring tuner buttons. Captions identify the donor guitars where documented.
+My full-guitar photo shows a **2014 R0 reissue, not a vintage 1960 example**. The detail photographs show vintage parts from my existing guides, including bonnet and reflector knobs and single-ring and double-ring tuner buttons. Captions identify the source guitars where documented.
 
 ## 1960 Les Paul Value
 
@@ -41,7 +41,7 @@ My full-guitar photo shows a **2014 R0 reissue, not a vintage 1960 example**. Th
 
 My range for **1958 to 1960 Sunburst Standards is $200,000 to $500,000+**, including the 1960 Burst. These are US retail estimates for all-original guitars in excellent condition with the correct original case, reviewed in July 2026. My [vintage Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) explains the range and the comparisons behind it.
 
-Original finish and PAFs carry much of the collector value, while repairs, replaced components and neck alterations can put a guitar outside that range. I consider the neck's condition and documented provenance alongside the finish and parts. Early and later neck preferences belong in the comparison too, with the actual guitar's condition stated clearly.
+Original finish and PAFs carry much of the collector value, while repairs, replaced components and neck alterations can put a guitar outside that range. I consider the neck's condition and documented provenance alongside the finish and parts. In my experience, a 1960 sits toward the lower end of that range, and a 1960 with a fuller 1959-style neck is worth more.
 
 <blockquote class="burst-expert-note">
 <p><strong>Expert note from Joe Dampt</strong></p>
@@ -70,7 +70,7 @@ Original finish and PAFs carry much of the collector value, while repairs, repla
 
 ## 1960 Was A Transition Year
 
-Early 1960 guitars can resemble 1959 examples, while later ones are associated with slimmer necks, reflector knobs and double-ring tuner buttons. Those details form a progression within the same model. I record the combination on the individual guitar because each feature has its own history.
+Early 1960 guitars can resemble 1959 examples, while later ones are associated with slimmer necks and reflector knobs; double-ring tuner buttons appear around mid-1960. Those details form a progression within the same model. I record the combination on the individual guitar because each feature has its own history.
 
 The name also has a catalog date. My [Les Paul dating guide](/gibson-les-paul-dating-guide/) explains that the **1958 catalog still calls it the Les Paul guitar or model, and the 1960 catalog is the first to say Les Paul Standard**. That wording accompanies the familiar single-cutaway Burst before the body change that followed.
 
@@ -100,7 +100,7 @@ The core construction remained familiar. Neck profile, knobs, tuner buttons and 
 | Controls | Two volumes, two tones and a three-way switch |
 | Bridge | ABR-1 Tune-o-matic with a separate tailpiece |
 | Knobs | Earlier bonnet-style and later reflector-style appointments |
-| Tuners | Kluson-style tuners with button details that changed |
+| Tuners | Single-line Kluson Deluxe; single-ring buttons until around mid-1960, then double-ring |
 | Finish | Sunburst top; brighter red/orange appearance associated with later examples |
 
 </div>
@@ -115,7 +115,7 @@ Compare the knobs with the gold bonnet styles on my [2011 R8 illustration](/post
 
 ## Early, Middle And Later 1960 Features
 
-An early 1960 guitar can combine a 0-prefix serial with a substantial neck and earlier-style appointments. Later examples can have noticeably slimmer necks, reflector knobs and double-ring buttons. I describe the actual combination instead of assigning a month from one feature.
+An early 1960 guitar can combine a 0-prefix serial with a substantial neck and earlier-style appointments. Later examples can have noticeably slimmer necks and reflector knobs; the switch to double-ring buttons comes around mid-1960. I describe the actual combination instead of assigning a month from one feature.
 
 Changes in removable parts also need to be distinguished from factory changes. A set of replacement knobs or buttons may be much newer than the guitar. The dating section below brings the serial, construction, parts and records into one short inspection checklist.
 
@@ -135,13 +135,13 @@ A neck shave is different from a refret because it removes wood from the profile
 
 ### What's The Difference Between A 1959 And A 1960 Les Paul?
 
-The main changes are within 1960: later guitars move toward a slimmer neck, reflector knobs and double-ring tuner buttons, while early examples can resemble 1959. Both years have PAF humbuckers, a carved maple top, mahogany body, ABR-1 bridge and stopbar. My [1959 Les Paul guide](/post/1959-gibson-les-paul-standard-guide/) provides the preceding year's specifications and comparison photos.
+Early 1960 guitars can resemble 1959, while later examples move toward slimmer necks and reflector knobs. Double-ring tuner buttons appear around mid-1960. Both years have PAF humbuckers, a carved maple top, mahogany body, ABR-1 bridge and stopbar. My [1959 Les Paul guide](/post/1959-gibson-les-paul-standard-guide/) provides the preceding year's specifications and comparison photos.
 
 ## Reflector Knobs And Double-Ring Tuners
 
 Gold reflector knobs have contrasting inserts on top marked Volume or Tone. They're associated with the later 1960 appearance. Earlier bonnet knobs have a plain top without that metal insert. My [Les Paul dating guide](/gibson-les-paul-dating-guide/) places the reflector change in the Standard's timeline.
 
-The photographs compare those shapes on other vintage Gibsons. The 1956 Goldtop supplies the earlier bonnet example, and the 1960s ES-330 supplies the reflector example. The donor models are different, but the knob styles make the distinction visible.
+The photographs compare those shapes on other vintage Gibsons. The 1956 Goldtop supplies the earlier bonnet example, and the 1960s ES-330 supplies the reflector example. The source guitars are different models, but the knob styles make the distinction visible.
 
 <div class="burst-photo-pair">
 
@@ -161,9 +161,9 @@ The photographs compare those shapes on other vintage Gibsons. The 1956 Goldtop 
 
 </div>
 
-For tuner buttons, “ring” describes the molded collar at the plastic button's base. A double-ring button has two collars, compared with one on the earlier shape. “Line” describes the Kluson Deluxe lettering on the metal housing, which is a separate feature.
+My [Gibson tuner dating guide](/gibson-tuner-dating-guide/) places the single-ring to double-ring change around mid-1960, with some overlap by model and stock. “Ring” describes the molded collar at the plastic button's base: one on a single-ring button and two on a double-ring button. “Line” describes the Kluson Deluxe lettering on the metal housing, which is a separate feature.
 
-The ES-335 close-up below shows two button rings alongside single-line housings. I compare both details using the [Gibson tuner dating guide](/gibson-tuner-dating-guide/), keeping the button style separate from the casing lettering.
+The ES-335 close-up below shows two button rings alongside single-line housings. I compare the button shape and casing lettering separately.
 
 <div class="burst-photo-pair">
 
@@ -237,30 +237,20 @@ The ABR-1 bridge and stopbar are separate components. The underside photograph s
 
 ## Serial Numbers And Originality
 
-A vintage 1960 solidbody serial commonly begins with 0 and is ink-stamped on the back of the headstock. I photograph the full number with the surrounding finish. Historic reissues recall that numbering, which makes the model and build-year distinction necessary.
-
-Historic reissues use the common **M YNNN** format described in my [Les Paul dating guide](/gibson-les-paul-dating-guide/). M identifies the year being reissued: 8 for 1958, 9 for 1959 or 0 for 1960. Y is the last digit of the year the reissue was built, followed by its production sequence.
-
-The examples show why I check the instrument and its paperwork together:
-
-- A **2011 R8** reads **8 1xxx**: 8 identifies the 1958 design and 1 the build year's last digit.
-- A **2022 R9** reads **9 2xxx**. That format looks just like a vintage 1959 serial.
-- The **2014 R0's 0 4285** identifies a 1960 reissue, with 4 matching its documented 2014 build year.
-
-The build-year digit repeats each decade. I use the paperwork and physical features to establish the decade; the serial's 4 alone doesn't distinguish 2014 from another year ending in 4.
-
 ### How Can I Tell A Real 1960 Les Paul From An R0?
 
-I compare the construction, parts and documentation with the serial format. On a Historic R0, the first 0 identifies the 1960 design and the second digit gives the build year's last digit. The documented 2014 R0's 0 4285 fits that system. My [Les Paul dating guide](/gibson-les-paul-dating-guide/) explains the physical checks and decade ambiguity.
+A leading 0 can belong to a vintage 1960 Les Paul or an R0, so I check construction and paperwork with my [Les Paul dating guide](/gibson-les-paul-dating-guide/). The [Historic serial explanation in my 1959 guide](/post/1959-gibson-les-paul-standard-guide/#dating-and-originality-checks) shows how to read the reissue's build-year digit and resolve the decade.
 
-### My Short Originality Checklist
+- The **2014 R0's 0 4285** identifies a 1960 reissue, with 4 matching its documented 2014 build year.
 
-- **Finish And Wood:** Factory finish, touch-up or refinish; headstock, heel and body repairs.
-- **Pickups And Controls:** PAF construction, coil repairs, component dates and solder history.
-- **Neck And Hardware:** Neck reshaping, fret work, tuner holes and replaced bridge or plastics.
-- **Records:** Serial, ownership history, case, receipts and retained parts that agree with the guitar.
+### My 1960 Originality Checklist
 
-My [Les Paul dating and identification guide](/gibson-les-paul-dating-guide/) covers the full inspection sequence. I keep the findings specific so a refret, a pickup rewind and a repaired headstock each get their own description.
+- **Factory Neck Profile Or Neck Shave:** Separate a factory slim or fuller neck from later wood removal and associated finish work.
+- **Replaced Knobs Or Buttons:** Record bonnet or reflector knobs and single-ring or double-ring buttons, including replacements.
+- **Tuner Mounting And Headstock:** Check changed holes, old tuner impressions, repairs and the surrounding finish.
+- **PAFs And Controls:** Describe pickup repairs, changed pots and solder work alongside the service history.
+
+I use those findings to distinguish a factory combination of 1960 features from later alterations. My [Les Paul dating workflow](/gibson-les-paul-dating-guide/) covers the wider model and component comparison.
 
 ## The Change To The SG Body
 
@@ -284,6 +274,7 @@ The modern instrument belongs in a modern price comparison. The vintage range at
 
 - [Les Paul dating guide](/gibson-les-paul-dating-guide/): catalog terminology, model branches and Historic serial interpretation.
 - [PAF and patent-number pickup guide](/post/gibson-paf-patent-number-pickup-guide/): the cream-bobbin window and pickup construction.
+- [Gibson tuner dating guide](/gibson-tuner-dating-guide/): the single-ring to double-ring button change around mid-1960.
 - [Gibson shipping totals](/post/gibson-shipping-totals-1948-1979/): Sunburst shipments through 1961.
 - [Vintage Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/): price ranges and condition categories.
 
