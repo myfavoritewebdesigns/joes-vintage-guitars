@@ -2,7 +2,7 @@
 title: "1959 Gibson Les Paul Standard Burst: Value, Specs And PAFs"
 seoTitle: "1959 Les Paul Burst Value And Specs"
 pubDate: "2026-10-14T12:05:00Z"
-modified: "2026-10-14T21:59:05Z"
+modified: "2026-10-14T22:17:50Z"
 excerpt: "What a 1959 Les Paul Burst is worth, how many Gibson shipped (643) and how to tell an original from an R9 by serial, PAFs, neck and frets."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -90,8 +90,10 @@ I use these specifications as the starting comparison, then describe each guitar
 | --- | --- |
 | Body | Mahogany back with a carved maple top and single cutaway |
 | Finish | Cherry Sunburst top; red dye can fade |
-| Neck Profile | Rounded, with the individual shape and condition recorded |
-| Fingerboard | Bound rosewood, trapezoid inlays |
+| Neck | Mahogany, rounded profile with individual variation |
+| Fingerboard | Bound rosewood, trapezoid inlays, 22 frets |
+| Scale Length | Nominal 24.75 inches |
+| Factory Frets | Wider wire introduced in 1959; some early examples retain narrow frets |
 | Pickups | Two PAF humbuckers |
 | Controls | Two volumes, two tones and a three-way switch |
 | Hardware | ABR-1 Tune-o-matic and separate tailpiece; nickel-finished hardware |
@@ -99,7 +101,7 @@ I use these specifications as the starting comparison, then describe each guitar
 
 </div>
 
-The bound rosewood fingerboard, trapezoid inlays and cream body trim help distinguish this model from the other Les Paul branches. The [Les Paul family identification guide](/post/vintage-gibson-les-paul-family-guide/) compares the Standard with the Custom, Junior and Special.
+The [1958 catalog](https://www.vintageguitarandbass.com/gibson/catalogues/1958_16.php) and [1960 catalog](https://www.vintageguitarandbass.com/gibson/catalogues/1960_10.php) bracket this year with the same 22-fret, nominal 24.75-inch-scale layout. The bound rosewood fingerboard, trapezoid inlays and cream body trim help distinguish this model from the other Les Paul branches. The [Les Paul family identification guide](/post/vintage-gibson-les-paul-family-guide/) compares the Standard with the Custom, Junior and Special.
 
 <h2 id="what-joes-r9-photo-shows">What My R9 Photo Shows</h2>
 
@@ -123,7 +125,9 @@ For useful photographs, include the complete top, binding and edges under consis
 
 The 1959 neck is generally rounded, with variation in depth and shoulders between guitars. I describe the actual profile because the phrase “1959 neck” covers more than one feel. Fingerboard edges, fret height and setup also change the playing experience.
 
-A refret belongs in the service history alongside fingerboard or binding work. I assess the quality and condition of that work separately from neck repairs when choosing comparable guitars.
+**Wider factory fretwire arrived during 1959, with early overlap.** GuitarHQ's [documented original-fret examples](https://www.guitarhq.com/lpsun.html) include wider frets in the low 9 0300 serial range and narrow frets on an illustrated guitar in the low 9 06xx range. I wouldn't use one serial as a clean cutoff.
+
+That overlap matters when reviewing an early 1959: small frets can be a factory feature, and large frets can be either factory wire or later work. I compare wear, binding and repair records before describing a refret. The [1960 neck section](/post/1960-gibson-les-paul-standard-guide/#neck-profiles-and-frets) includes attributed measurements that show how much the profiles can differ.
 
 ### What's The Difference Between A 1959 And A 1960 Les Paul?
 
@@ -228,6 +232,8 @@ The examples show why I check the instrument and its paperwork together:
 
 The build-year digit repeats each decade. I use the paperwork and physical features to establish the decade; the serial's 4 alone doesn't distinguish 2014 from another year ending in 4.
 
+A factory **Made in USA** stamp is a concrete reason to reject a claimed 1959 manufacture date: my [later Les Paul construction reference](/gibson-les-paul-dating-guide/#later-models) places that mark from 1970 onward. Its absence doesn't settle the R9 question, because vintage-style reissues also omit it. For those closer look-alikes, the neck and body construction, pickup assembly, finish and matching factory paperwork need to agree.
+
 ### My 1959 Originality Checklist
 
 - **PAF Bobbin And Cover History:** Record known bobbin colors, cover solder, rewinds and replacement magnets while leaving intact covers in place.
@@ -235,7 +241,9 @@ The build-year digit repeats each decade. I use the paperwork and physical featu
 - **Neck And Structural Repairs:** Describe the rounded profile, fret work, neck reshaping and headstock or heel repairs separately.
 - **Provenance:** Match ownership records and original-owner photographs to the guitar being assessed.
 
-My [Les Paul identification and dating guide](/gibson-les-paul-dating-guide/) supplies the wider inspection sequence. For a 1959, I bring the pickup history and supporting records into the same assessment as the finish and construction.
+For original-owner photographs, I compare identifiable grain, wear and visible hardware with the guitar in front of me. A clearly dated photo can help establish when a visible feature was already present. It won't reveal a hidden rewind or establish who did a repair, so I keep service receipts and pickup inspection evidence alongside the ownership record.
+
+My [Les Paul identification and dating guide](/gibson-les-paul-dating-guide/) supplies the wider inspection sequence.
 
 An older Goldtop converted to humbuckers and a sunburst finish also needs its own description. The conversion's starting model, routes, finish and hardware work remain part of its history. I separate that category from a factory 1959 Burst when assessing the guitar.
 

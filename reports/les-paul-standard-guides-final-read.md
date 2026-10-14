@@ -1,5 +1,7 @@
 # Les Paul Standard Guides: Independent Final Read
 
+Historical version: the later outside-source revision and its current findings are recorded in [external-source verification](les-paul-standard-guides-external-source-verification.md) and [fresh independent final read](les-paul-standard-guides-final-read-external-sources.md). The former JVG-only source restriction no longer applies.
+
 October 14, 2026. A separate reader reviewed the full built articles, including captions and FAQs, without loading the writer's brief or rule files. It compared live competing pages and returned **FIX FIRST for all three articles**. This is an editorial assessment of completeness and distinctiveness, not a ranking prediction. The report below preserves the material findings and records the implementer's disposition separately.
 
 ## 1958 Guide

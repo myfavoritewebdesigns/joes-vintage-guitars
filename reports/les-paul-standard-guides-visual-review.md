@@ -122,3 +122,27 @@ Reviewed all three year guides at 1920 by 1080 and 390 by 844 pixels, with an ad
 - On `/gibson-les-paul-dating-guide/`, the three year-specific return links read as one contextual paragraph after the Burst dating explanation and before the finish/knob photographs. On `/post/gibson-paf-patent-number-pickup-guide/`, the two return links sit after the bobbin-color discussion and before tooling marks. Both additions retain their surrounding typography, wrap cleanly at both widths and introduce no page overflow; their descriptive anchors point to the intended year guides/sections.
 
 This checks the requested visual delta and image selection, not historical or valuation accuracy or a full migration comparison of the two existing guides. The new year articles have no live WordPress baseline. Earlier checks remain in this report. The temporary viewport was reset and the review tab closed; only this report was edited, with no implementation change, commit or push by the reviewer.
+
+## Catalog And Shipment Delta Review, October 14, 2026
+
+Reviewed the rebuilt pages on port 4323 at 1920 by 1080 and 390 by 844 pixels. This pass covers the expanded specifications, restored neck/fret and finish passages, 1960 catalog-price subsection, corrected 1958 shipping answer and the first shipping-totals table. No new blocking visual issue was found.
+
+- The three year-guide specification tables show the new Neck, Fingerboard, Scale Length and Factory Frets rows without desktop clipping. On mobile, their existing 650-pixel tables remain inside 327-pixel horizontal scroll containers; longer row labels and text wrap within their cells. No whole-page horizontal overflow was measured.
+- The restored neck/fret explanations, attributed 1960 neck measurements and later-finish discussion retain readable paragraph spacing and link styling. The desktop article still clears the contents sidebar. The measurements and their qualification remain together in normal mobile prose.
+- The new `The 1960 Catalog Price` H3, $265 guitar price, separate $42.50 case price and original-catalog link render as one subsection before the inline contents. The expert note and current value discussion remain above it, without overlap.
+- The 1958 answer visibly states 434 combined Goldtop/Sunburst shipments. Its shipping-totals link retains the `#lp-std-52-61` target, and that target is present on the shipping page. The three modern-reissue disclaimers remain present with the existing hero treatment; this delta did not relabel their photographs.
+- The shipping page's first table now has four columns. At 1920 pixels it fits a 772-pixel article width. At 390 pixels the table itself is a 327-pixel `display: block; overflow-x: auto` scroller with 459 pixels of inner width. Keyboard scrolling reached `scrollLeft: 132`, exposing the full Combined Total column and the corrected 1958 row's 434. The page remained 375 pixels wide, matching its client width. This contained horizontal scrolling is nonblocking.
+
+Screenshot evidence is saved under `reports/screenshots/burst-catalog-delta-2026-10-14/`:
+
+| Changed region | Desktop evidence | Mobile evidence |
+| --- | --- | --- |
+| Four-column shipping table | `shipping-table-1920.jpg` | `shipping-table-390-left.jpg`, `shipping-table-390-right.jpg` |
+| 1958 shipping answer | Included in 1958 specs context | `1958-shipping-390.jpg` |
+| 1958 specifications and neck | `1958-specs-1920.jpg`, `1958-neck-1920.jpg` | `1958-specs-390.jpg`, `1958-neck-390.jpg` |
+| 1959 specifications and neck | `1959-specs-1920.jpg`, `1959-neck-1920.jpg` | `1959-specs-390.jpg`, `1959-neck-390.jpg` |
+| 1960 catalog price | `1960-catalog-price-1920.jpg` | `1960-catalog-price-390.jpg` |
+| 1960 specifications and neck | `1960-specs-1920.jpg`, `1960-neck-1920.jpg` | `1960-specs-390.jpg`, `1960-neck-390.jpg` |
+| 1960 finish discussion | `1960-finish-1920.jpg` | `1960-finish-390.jpg` |
+
+These are local presentation observations, not independent validation of the intentional factual revisions or a repeat audit of unchanged page regions. Earlier evidence remains preserved. The temporary viewport was reset and the review tab closed. The reviewer changed only this report and saved the requested screenshots; no article edit, commit or push was made.

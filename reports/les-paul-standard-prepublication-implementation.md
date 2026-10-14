@@ -1,5 +1,7 @@
 # Les Paul Standard Guides: Prepublication Revision Checks
 
+Historical version: the later outside-source revision and its current findings are recorded in [external-source verification](les-paul-standard-guides-external-source-verification.md) and [fresh independent final read](les-paul-standard-guides-final-read-external-sources.md). The former JVG-only source restriction no longer applies.
+
 October 14, 2026. Applies to the authorized follow-up to the prepublication analysis on draft PR #223. These are implementation checks, not production publication or a prediction of search performance.
 
 ## Completed Checks

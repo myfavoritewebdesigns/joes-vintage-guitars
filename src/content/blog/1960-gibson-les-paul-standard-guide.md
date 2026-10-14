@@ -2,7 +2,7 @@
 title: "1960 Gibson Les Paul Standard: Value, Neck Changes And Specs"
 seoTitle: "1960 Les Paul Standard Value And Specs"
 pubDate: "2026-10-14T12:10:00Z"
-modified: "2026-10-14T21:59:05Z"
+modified: "2026-10-14T22:17:50Z"
 excerpt: "1960 Les Paul Burst values, neck and knob changes, 635 shipped, and how serials, construction and paperwork help distinguish an original from an R0."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -49,6 +49,10 @@ Original finish and PAFs carry much of the collector value, while repairs, repla
 
 For a value specific to your guitar, [send me photos for a Gibson appraisal](/free-appraisal/gibson/).
 
+### The 1960 Catalog Price
+
+Gibson's [1960 catalog](https://www.vintageguitarandbass.com/gibson/catalogues/1960_10.php) lists the Cherry Sunburst Les Paul Standard at **$265**, with the plush-lined case priced separately at **$42.50**. Those are the catalog's US prices at the time. I keep that new-guitar price separate from today's vintage appraisal range.
+
 <nav class="burst-inline-toc" aria-label="Article Contents">
 <h2>Table Of Contents</h2>
 <ul>
@@ -91,16 +95,20 @@ The core construction remained familiar. Neck profile, knobs, tuner buttons and 
 | Area | Usual 1960 Standard Specification |
 | --- | --- |
 | Body | Single-cutaway mahogany back and carved maple top |
-| Neck Profile | Fuller examples and slimmer examples; check the individual guitar |
-| Fingerboard | Bound rosewood with trapezoid inlays |
+| Neck | One-piece mahogany; fuller early profiles and slimmer later profiles |
+| Fingerboard | Bound rosewood with trapezoid inlays, 22 frets |
+| Scale Length | Nominal 24.75 inches |
+| Factory Frets | Wide wire carried over from 1959 |
 | Pickups | Two PAF humbuckers |
 | Controls | Two volumes, two tones and a three-way switch |
 | Bridge | ABR-1 Tune-o-matic with a separate tailpiece |
 | Knobs | Earlier bonnet-style and later reflector-style appointments |
 | Tuners | Single-line Kluson Deluxe; single-ring buttons until around mid-1960, then double-ring |
-| Finish | Cherry Sunburst top; red dye can fade |
+| Finish | Cherry Sunburst; later examples use brighter, more fade-resistant red |
 
 </div>
+
+The [original 1960 Gibson catalog, page 10](https://www.vintageguitarandbass.com/gibson/catalogues/1960_10.php), specifies a one-piece mahogany neck, rosewood fingerboard, 22 frets and 24.75-inch scale. It also advertises the low, wide frets and slim neck associated with the later 1960 design.
 
 These specifications belong to the Standard branch. A Junior, Special or Custom needs its own comparison. My [Les Paul family identification guide](/post/vintage-gibson-les-paul-family-guide/) shows the differences in body construction, trim and pickup layout.
 
@@ -116,7 +124,9 @@ Compare the knobs with the gold bonnet styles on my [2011 R8 illustration](/post
 
 No. Early 1960 examples can retain a fuller profile associated with 1959, while later guitars move toward slimmer necks. I compare depth, shoulders, fret condition and any reshaping together.
 
-I record a refret separately from structural neck work. The [Les Paul value guide's condition categories](/vintage-gibson-les-paul-market-value-guide/) distinguish fret work, repairs and finish changes, which helps me choose a useful comparison for a played guitar.
+Published measurements give the difference some scale. [Well Strung Guitars' measurements of its own inventory](https://wellstrungguitars.com/the-history-of-gibsons-burst-by-year/) include early 1959 examples around **0.92 inches at the first fret and 1.00 inch at the twelfth**, compared with some slim 1960 examples at **0.80 to 0.84 inches and 0.88 to 0.94 inches**, respectively. They're that dealer's observations, not measurements of my pictured R0 or fixed specifications for every Burst.
+
+Wide fretwire continued into 1960. I record a refret separately from structural neck work; the [Les Paul value guide's condition categories](/vintage-gibson-les-paul-market-value-guide/) distinguish the two when comparing a played guitar.
 
 A neck shave is different from a refret because it removes wood from the profile. Repairs and reshaping belong in the condition description. That keeps a factory slim neck and a neck altered after manufacture from being treated as the same history.
 
@@ -170,11 +180,13 @@ The ES-335 close-up below shows two button rings alongside single-line housings.
 
 </div>
 
-Buttons can be replaced while the metal mechanisms stay in place, or a complete tuner set can be changed. I record which work occurred and look at the mounting holes and surrounding finish. That gives the parts a place in the guitar's history.
+Buttons can be replaced while the metal mechanisms stay in place, or a complete tuner set can be changed. I record which work occurred and look at the mounting holes and surrounding finish.
 
 ## Sunburst Finishes And Maple Tops
 
-The red dye can fade heavily, so today's color needs to be compared with protected areas and the finish history. I want consistent photographs of the complete top, binding, edges and any repaired or touched-up areas.
+**Later 1960 Bursts can retain a brighter red because Gibson moved to a more colorfast finish.** Gibson's [historical account of the 1960 changes](https://www.themusiczoo.com/blogs/news/50th-anniversary-gibson-1960-les-paul-standard), reproduced with its anniversary-model announcement, distinguishes that later finish from the earlier, more fade-prone cherry. Collectors often call the stronger late color “tomato soup.”
+
+Early 1960 examples can fade much like 1959 guitars. I compare today's exposed color with protected areas and the repair history, rather than treating a bright red top as automatic evidence of a refinish. Complete-top, binding and edge photographs under consistent light help make that comparison.
 
 Maple figure and fade affect collector interest, as the value guide explains. I describe the pictured R0's figured top as a feature of that modern guitar, keeping its appearance separate from the vintage guitar being assessed.
 

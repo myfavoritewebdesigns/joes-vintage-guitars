@@ -1,7 +1,7 @@
 ---
 title: "Gibson Guitar Production Numbers: Shipping Totals (1948 to 1979)"
 pubDate: "2026-03-02T21:44:13"
-modified: "2026-04-01T16:46:33"
+modified: "2026-10-14T22:17:50Z"
 excerpt: "A look at the official Kalamazoo records on how rare your instrument really is. This guide lists Gibson shipping totals from 1948 to 1979, the data you need for an accurate vintage guitar appraisal. If you are researching a 1959 Sunburst or a Norlin-era Custom, these figures give you the production numbers to back up a value before you sell your vintage guitar."
 category: "serial-number-dating-guides"
 categoryName: "Serial Number & Dating Guides"
@@ -35,22 +35,24 @@ For Les Pauls, use these shipping totals to understand scarcity, then compare th
 
 > Note: Please bear in mind that these shipping totals are not necessarily the exact production numbers. Gibson made other instruments that were not necessarily included in the shipping totals. Additionally, there are some slight inaccuracies reflected in the totals. For example, there is no mention of white SG Juniors, which we know exist in fairly large numbers. Still, these are the best indication we have of Gibson guitar production totals.
 
-<h2 id="lp-std-52-61">Les Paul Standard Shipping Totals (1952-1961)</h2>
+<h2 id="lp-std-52-61">Les Paul Standard Shipping Totals (1952 To 1961)</h2>
 
-The **Gibson Les Paul Standard shipping totals** between 1952 and 1961 are the first thing to check when you want to know how rare your guitar is. From the first 1952 “trapeze” tailpiece models to the 1959 “Holy Grail” Sunburst, these figures show how much Kalamazoo’s output shifted over the decade. Whether you are checking if your 1958 is one of the 187 Sunbursts shipped in 1958 or tracking the 1961 switch to the SG body style, these numbers matter for an accurate appraisal. For collectors looking to sell, the shipping totals give you something solid to point to.
+For **1958, the published total is 434 Les Pauls across Goldtop and Sunburst finishes**. I don't have a verified factory breakdown between those finishes, so I've removed the earlier 247 / 187 split. [John Shults' discussion of the published Gibson shipment records](https://truevintageguitar.com/blogs/tvg-blog/1958-gibson-les-paul-standard-burst) identifies the combined total, and the [Burst Serial registry](https://www.burstserial.com/serials) also notes that it includes Goldtops. These figures count shipments in this model branch, not survivors or every Les Paul model.
 
-| Model/Year | Goldtop | Sunburst |
-| --- | --- | --- |
-| LP Std '52 | 1,716 | \-\-\- |
-| LP Std '53 | 2,245 | \-\-\- |
-| LP Std '54 | 1,504 | \-\-\- |
-| LP Std '55 | 862 | \-\-\- |
-| LP Std '56 | 920 | \-\-\- |
-| LP Std '57 | 598 | \-\-\- |
-| LP Std '58 | 247 | 187 |
-| LP Std '59 | \-\-\- | 643 |
-| LP Std '60 | \-\-\- | 635 |
-| LP Std '61 | \-\-\- | 2 |
+| Model/Year | Goldtop | Sunburst | Combined Total |
+| --- | --- | --- | --- |
+| LP Std '52 | 1,716 | Not Listed | 1,716 |
+| LP Std '53 | 2,245 | Not Listed | 2,245 |
+| LP Std '54 | 1,504 | Not Listed | 1,504 |
+| LP Std '55 | 862 | Not Listed | 862 |
+| LP Std '56 | 920 | Not Listed | 920 |
+| LP Std '57 | 598 | Not Listed | 598 |
+| LP Std '58 | Not Separated | Not Separated | 434 |
+| LP Std '59 | Not Listed | 643 | 643 |
+| LP Std '60 | Not Listed | 635 | 635 |
+| LP Std '61 | Not Listed | 2 | 2 |
+
+For the finish transition and its effect on value, see my [1958 Les Paul Goldtop and Burst guide](/post/1958-gibson-les-paul-standard-guide/#1958-shipping-totals). The combined 1958 number shouldn't be compared with a later Sunburst-only count as though both describe the same finish category.
 
 <h2 id="lp-cust-55-61">Les Paul Custom Shipping Totals (1955-1961)</h2>
 
