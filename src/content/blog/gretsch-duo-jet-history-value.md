@@ -67,6 +67,8 @@ At Joe's Vintage Guitars we buy and sell vintage Gretsch Jets, and we are always
 
 <h2 id="gdj-family">The Jet Family</h2>
 
+For a feature comparison across Gretsch models, use the [serial lookup and dating library](/gretsch-serial-number-lookup/). The [pickup identification photos](/gretsch-pickup-dating-guide/), [bridge comparisons](/gretsch-bridges-and-tailpieces/) and [headstock and tuner guide](/gretsch-headstock-and-tuner-dating-guide/) help separate the guitar’s production period from later replacement parts.
+
 The Duo Jet did not arrive alone. Gretsch built a whole family on the same chambered body, and the models differ mostly in the finish on the top. Knowing the family matters, because these guitars get confused for one another constantly, and a seller who calls a Silver Jet a Duo Jet, or does not know a Jet Fire Bird from a red Duo Jet, is leaving money and credibility on the table.
 
 - **Duo Jet (6128).** The baseline model and the one everybody pictures: a gloss black top over a mahogany body. "Duo" is the two pickups. It arrived in 1953.

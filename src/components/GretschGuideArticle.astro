@@ -1,0 +1,16 @@
+---
+import GretschGuideLayout from '../layouts/GretschGuideLayout.astro';
+import GretschPhoto from './GretschPhoto.astro';
+import type {GretschGuide} from '../data/gretsch-guides';
+interface Props {guide:GretschGuide;}
+const {guide:g}=Astro.props;
+---
+<GretschGuideLayout title={g.title} metaTitle={g.metaTitle} description={g.description} canonical={`/${g.slug}/`}>
+ <article>
+ <section class="gr-hero"><div class="gr-wrap"><p class="gr-kicker">Gretsch Identification Guide</p><h1>{g.title}</h1><p class="gr-lede">{g.intro}</p><p class="gr-byline">By <a href="/about-me/">Joe Dampt</a> · Updated October 15, 2026</p><nav class="gr-toc" aria-label="On this page">{g.sections.map(s=><a href={'#'+s.id}>{s.title}</a>)}</nav><a href="/gretsch-serial-number-lookup/">Back To The Gretsch Serial Lookup</a></div></section>
+ <div class="gr-wrap gr-article">{g.sections.map(s=><section class="gr-article-section" aria-labelledby={s.id}><h2 id={s.id}>{s.title}</h2><div set:html={s.html}/>{s.photos&&<div class:list={['gr-photo-grid',{'gr-photo-grid--single':s.photos.length===1}]}>{s.photos.map(p=><GretschPhoto {...p}/>)}</div>}</section>)}
+ <section class="gr-article-section" aria-labelledby="manufacturer-references"><h2 id="manufacturer-references">Manufacturer References</h2><ul class="gr-resources">{g.resources.map(r=><li><a href={r.url}>{r.label}</a><p>{r.reason}</p></li>)}</ul></section>
+ </div>
+ <section class="gr-section gr-section--tint"><div class="gr-wrap gr-article"><h2>Get Help Identifying Your Gretsch</h2><p>Send the serial, a full front and back view, and close-ups of the feature you want checked. Include any known repairs or replacement parts.</p><a class="gr-button" href="/free-appraisal/gretsch/">Get A Free Gretsch Appraisal</a><p class="gr-return">Return to the <a href="/gretsch-serial-number-lookup/">Gretsch serial lookup and dating library</a> to compare the rest of the instrument.</p></div></section>
+ </article>
+</GretschGuideLayout>

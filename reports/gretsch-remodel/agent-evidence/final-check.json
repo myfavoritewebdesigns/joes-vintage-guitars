@@ -1,0 +1,631 @@
+{
+  "headstock": [
+    {
+      "width": 1920,
+      "broken": []
+    },
+    {
+      "width": 1280,
+      "broken": []
+    },
+    {
+      "width": 768,
+      "broken": []
+    },
+    {
+      "width": 390,
+      "broken": []
+    }
+  ],
+  "enlarge": [
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fclub-label.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 233582
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fviking-serial.jpg%3ForigWidth%3D5472%26origHeight%3D3648%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 322332
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-sn%2F1969-gretsch-serial-number.jpg%3ForigWidth%3D2288%26origHeight%3D1519%26origFormat%3Djpg&w=2288&h=1519&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2288,
+      "height": 1519,
+      "bytes": 289348
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-sn%2F1970s-gretsch-hyphenated-serial-number-scaled.jpg%3ForigWidth%3D2560%26origHeight%3D1707%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 117282
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Freverb-anniversary.jpg%3ForigWidth%3D800%26origHeight%3D533%26origFormat%3Djpg&w=800&h=533&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 60622
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fblack-label.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 124132
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fblog%2Fgretsch-duo-jet-history-value%2Fgretsch-6129-silver-jet-serial-number-label.jpg%3ForigWidth%3D2000%26origHeight%3D1333%26origFormat%3Djpg&w=2000&h=1333&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2000,
+      "height": 1333,
+      "bytes": 464906
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Forange-label.jpg%3ForigWidth%3D4160%26origHeight%3D6240%26origFormat%3Djpg&w=2400&h=3600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 3600,
+      "bytes": 402208
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fgent-nameplate.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 522272
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fwhite-label.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 125538
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Freverb-label.jpg%3ForigWidth%3D400%26origHeight%3D400%26origFormat%3Djpg&w=400&h=400&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 400,
+      "height": 400,
+      "bytes": 9504
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-sn%2Fgretsch-dynasonic-pickup-example.jpg%3ForigWidth%3D1995%26origHeight%3D1331%26origFormat%3Djpg&w=1995&h=1331&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 1995,
+      "height": 1331,
+      "bytes": 544948
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fclub-pickups.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 775716
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-sn%2Fgretsch-filtertron-pickup-example.jpg%3ForigWidth%3D1091%26origHeight%3D726%26origFormat%3Djpg&w=1091&h=726&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 1091,
+      "height": 726,
+      "bytes": 130448
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fgent-pickups.jpg%3ForigWidth%3D4160%26origHeight%3D6240%26origFormat%3Djpg&w=2400&h=3600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 3600,
+      "bytes": 2009936
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Ftenn-pickup.jpg%3ForigWidth%3D5472%26origHeight%3D3648%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 319348
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-sn%2Fgretsch-supertron-pickup-scaled.jpg%3ForigWidth%3D2560%26origHeight%3D1707%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 589154
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-sn%2Fgretsch-hi-lo-tron-example.jpg%3ForigWidth%3D1110%26origHeight%3D739%26origFormat%3Djpg&w=1110&h=739&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 1110,
+      "height": 739,
+      "bytes": 81250
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fclub-hardware.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 933072
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fblog%2Fgretsch-duo-jet-history-value%2Fgretsch-melita-synchro-sonic-bridge.jpg%3ForigWidth%3D2000%26origHeight%3D1333%26origFormat%3Djpg&w=2000&h=1333&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2000,
+      "height": 1333,
+      "bytes": 567616
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Forange-bigsby.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 913802
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Freverb6120.jpg%3ForigWidth%3D800%26origHeight%3D533%26origFormat%3Djpg&w=800&h=533&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 42558
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fwhite-bridge.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 246724
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fviking-bridge.jpg%3ForigWidth%3D5472%26origHeight%3D3648%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 699458
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fclub-front.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 827940
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fviking-controls.jpg%3ForigWidth%3D5472%26origHeight%3D3648%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 897582
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fblog%2Fgretsch-duo-jet-history-value%2Fgretsch-arrow-control-knobs.jpg%3ForigWidth%3D2000%26origHeight%3D1333%26origFormat%3Djpg&w=2000&h=1333&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2000,
+      "height": 1333,
+      "bytes": 984766
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Forange-front.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 852842
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Frally-front.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 485666
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Frally-papers.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 706252
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fsingle6120.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 616978
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-sn%2Fgretsch-block-inlays.jpg%3ForigWidth%3D1428%26origHeight%3D2143%26origFormat%3Djpg&w=1428&h=2143&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 1428,
+      "height": 2143,
+      "bytes": 222852
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-sn%2Fgretsch-hump-inlays.jpg%3ForigWidth%3D1536%26origHeight%3D2305%26origFormat%3Djpg&w=1536&h=2305&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 1536,
+      "height": 2305,
+      "bytes": 266198
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-sn%2Fgretsch-thumbprint-inlays-scaled.jpg%3ForigWidth%3D2560%26origHeight%3D1706%26origFormat%3Djpg&w=2400&h=1599&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1599,
+      "bytes": 221786
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fwhite-inlays.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 216186
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-sn%2Fgretsch-t-zone-dots-on-viking.jpg%3ForigWidth%3D1252%26origHeight%3D1879%26origFormat%3Djpg&w=1252&h=1879&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 1252,
+      "height": 1879,
+      "bytes": 317850
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fviking-zero.jpg%3ForigWidth%3D5472%26origHeight%3D3648%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 287742
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Forange-binding.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 364446
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Freverb-binding.jpg%3ForigWidth%3D400%26origHeight%3D400%26origFormat%3Djpg&w=400&h=400&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 400,
+      "height": 400,
+      "bytes": 20314
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fsingle-heel.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 352088
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fclub-heel.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 352342
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fviking-back.jpg%3ForigWidth%3D5472%26origHeight%3D3648%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 786100
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fwhite-back.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 619434
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Forange-head.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 708244
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fsingle-tuners.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 296062
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fblog%2Fgretsch-duo-jet-history-value%2Fgretsch-t-roof-headstock-logo.jpg%3ForigWidth%3D2000%26origHeight%3D1333%26origFormat%3Djpg&w=2000&h=1333&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2000,
+      "height": 1333,
+      "bytes": 178612
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fviking-head.jpg%3ForigWidth%3D5472%26origHeight%3D3648%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 510548
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fblack-head.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 539962
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fblack-serial.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 489310
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fclub-tuners.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 240498
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Freverb-tuners.jpg%3ForigWidth%3D400%26origHeight%3D400%26origFormat%3Djpg&w=400&h=400&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 400,
+      "height": 400,
+      "bytes": 18298
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fviking-front.jpg%3ForigWidth%3D5429%26origHeight%3D3619%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 790346
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fgent-front.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 999610
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fwhite-front.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 407152
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fimages%2Fgretsch-dating%2Fblack-front.jpg%3ForigWidth%3D6240%26origHeight%3D4160%26origFormat%3Djpg&w=2400&h=1600&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 684344
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fblog%2Fgretsch-duo-jet-history-value%2F1950s-gretsch-silver-jet-6129-sparkle-front.jpg%3ForigWidth%3D2000%26origHeight%3D1333%26origFormat%3Djpg&w=2000&h=1333&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2000,
+      "height": 1333,
+      "bytes": 489298
+    },
+    {
+      "href": "/_image?href=%2F%40fs%2FC%3A%2FUsers%2Fjoeda%2FDocuments%2FCodex%2F2026-10-15%2Fle%2Fwork%2Frickenbacker-site%2Fsrc%2Fassets%2Fblog%2Fgretsch-duo-jet-history-value%2F1956-gretsch-jet-fire-bird-6131-red-front.jpg%3ForigWidth%3D2000%26origHeight%3D1333%26origFormat%3Djpg&w=2000&h=1333&q=90&f=webp",
+      "status": 200,
+      "format": "webp",
+      "width": 2000,
+      "height": 1333,
+      "bytes": 345198
+    }
+  ],
+  "anchors": [
+    {
+      "id": "grsn-tool",
+      "top": 24.03125,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-history-overview",
+      "top": 177.140625,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-serial-number-lookup",
+      "top": -1144.859375,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-serial-numbers-1939-1966",
+      "top": 24.078125,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-serial-numbers-1966-1972",
+      "top": 24.015625,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-serial-numbers-1972-1981",
+      "top": 23.765625,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-serial-numbers-1989-2002",
+      "top": 23.875,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-serial-numbers-2003-present",
+      "top": 23.515625,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-fender-prefix-codes",
+      "top": 24.15625,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-advanced-dating-guide",
+      "top": -692.09375,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-headstock-logo-changes",
+      "top": 15419.15625,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-label-types",
+      "top": 748.59375,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-pickup-dating",
+      "top": 290.03125,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-fingerboard-inlay-dating",
+      "top": 24.46875,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-body-cutaway-dating",
+      "top": 23.90625,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-bigsby-vibrato-dating",
+      "top": 24.34375,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-dating-checklist",
+      "top": 23.78125,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-model-number-guide",
+      "top": 23.71875,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-appraisal-phoenix",
+      "top": 23.671875,
+      "exists": true,
+      "visible": true
+    },
+    {
+      "id": "gretsch-faq",
+      "top": 23.703125,
+      "exists": true,
+      "visible": true
+    }
+  ],
+  "tableRegions": [
+    {
+      "tabIndex": 0,
+      "role": "region",
+      "label": "Scrollable Gretsch reference table",
+      "overflow": true
+    },
+    {
+      "tabIndex": 0,
+      "role": "region",
+      "label": "Scrollable Gretsch reference table",
+      "overflow": true
+    },
+    {
+      "tabIndex": 0,
+      "role": "region",
+      "label": "Scrollable Gretsch reference table",
+      "overflow": true
+    },
+    {
+      "tabIndex": 0,
+      "role": "region",
+      "label": "Scrollable Gretsch reference table",
+      "overflow": true
+    }
+  ],
+  "tableKeyboard": {
+    "active": true,
+    "scrollLeft": 40
+  },
+  "faqKeyboard": true
+}
