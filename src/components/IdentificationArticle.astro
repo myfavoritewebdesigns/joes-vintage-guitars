@@ -1,0 +1,115 @@
+---
+import { getImage } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import * as cheerio from "cheerio";
+import Layout from "../layouts/Layout.astro";
+import ContactSection from "./ContactSection.astro";
+import { identificationGuides } from "../data/identification-guides";
+import { buildImageGraph } from "../lib/imageLicense";
+import { SITE_URL } from "../config/site";
+
+interface Props { guide: keyof typeof identificationGuides; }
+const { guide } = Astro.props;
+const { metadata, html, images } = identificationGuides[guide];
+const $ = cheerio.load(html, null, false);
+const media = images as Record<string, ImageMetadata>;
+const licensed: { renderedSrc: string; alt: string }[] = [];
+let hero: { src: string; alt: string; width: number; height: number } | undefined;
+
+// Render and license exactly the same optimized files. The approved HTML owns
+// the captions and arrangement; Astro owns image transforms and asset URLs.
+for (const element of $("img[src]").toArray()) {
+  const img = $(element);
+  const original = img.attr("src")!;
+  const source = media[original];
+  if (!source) throw new Error(`Missing identification image: ${guide} ${original}`);
+  const built = await getImage({ src: source, width: Math.min(1280, source.width), layout: "constrained" });
+  const inHero = img.closest(".hero").length > 0;
+  const inGrid = img.closest(".comparison-grid,.photo-example-grid,.tuner-comparison,.label-grid").length > 0;
+  const alt = img.attr("alt") || "";
+  img.attr({
+    src: built.src,
+    width: String(built.attributes.width), height: String(built.attributes.height),
+    decoding: "async", loading: inHero ? "eager" : "lazy",
+    sizes: inHero ? "(max-width: 800px) calc(100vw - 44px), (max-width: 1600px) calc(50vw - 44px), 756px" : inGrid ? "(max-width: 520px) calc(100vw - 74px), 360px" : "(max-width: 800px) calc(100vw - 74px), 770px",
+  });
+  if (built.srcSet.attribute) img.attr("srcset", built.srcSet.attribute);
+  img.closest("[data-image]").attr("data-image", source.src);
+  licensed.push({ renderedSrc: built.src, alt });
+  if (inHero) hero = { src: built.src, alt, width: Number(built.attributes.width), height: Number(built.attributes.height) };
+}
+if (!hero) throw new Error(`Missing identification hero: ${guide}`);
+
+// The visible FAQ is the single source for the schema's exact question/answer text.
+const questions = $("#faq h3").toArray().map(element => ({
+  "@type": "Question",
+  name: $(element).text().trim(),
+  acceptedAnswer: { "@type": "Answer", text: $(element).next("p").text().trim() },
+}));
+if (questions.some(question => !question.acceptedAnswer.text)) throw new Error(`Empty FAQ answer: ${guide}`);
+const faq = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: questions };
+const imageGraph = await buildImageGraph(licensed);
+const pageUrl = `${SITE_URL}${metadata.url}`;
+const article = {
+  "@context": "https://schema.org", "@type": guide === "value" ? "BlogPosting" : "Article",
+  "@id": `${pageUrl}#article`, headline: metadata.h1, description: metadata.description,
+  datePublished: metadata.published, dateModified: metadata.modified,
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` }, mainEntityOfPage: pageUrl,
+  image: imageGraph,
+};
+---
+
+<Layout
+  bodyClass="jvg-identification-page"
+  title={metadata.title} description={metadata.description} canonical={metadata.url}
+  ogType="article" ogImage={`${SITE_URL}${hero.src}`} ogImageAlt={hero.alt}
+  ogImageWidth={hero.width} ogImageHeight={hero.height}
+  publishedTime={metadata.published} modifiedTime={metadata.modified}
+  structuredData={[article, faq]}
+>
+  <div class="jvg-id-article" set:html={$.html()} />
+  <ContactSection />
+</Layout>
+
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>(".jvg-id-article #photo-dialog");
+  let previousFocus: HTMLElement | null = null;
+  document.querySelectorAll<HTMLButtonElement>(".jvg-id-article [data-image]").forEach(button => {
+    button.addEventListener("click", () => {
+      if (!dialog || !button.dataset.image) return;
+      previousFocus = button;
+      const source = button.querySelector("img");
+      const enlarged = dialog.querySelector("img");
+      if (!source || !enlarged) return;
+      enlarged.src = button.dataset.image;
+      enlarged.alt = source.alt;
+      dialog.querySelector("p")!.textContent = source.alt;
+      dialog.showModal();
+    });
+  });
+  dialog?.querySelector("button")?.addEventListener("click", () => dialog.close());
+  dialog?.addEventListener("click", event => { if (event.target === dialog) dialog.close(); });
+  dialog?.addEventListener("close", () => previousFocus?.focus());
+</script>
+
+<style is:global>
+  @font-face { font-family: "Open Sans"; src: url("/fonts/OpenSans.woff2") format("woff2"); font-style: normal; font-weight: 100 900; font-display: swap; }
+  /* Opt-in to normal document flow only on these five articles. The actual
+     header height reserves space at every breakpoint, including 1024px. */
+  body.jvg-identification-page > header { position: relative; inset: auto; padding-bottom: 24px; background: #17130f; }
+  body.jvg-identification-page #main-content { margin: 0; padding: 0; max-width: none; }
+  .jvg-id-article .contents { display: block; }
+  .jvg-id-article .contents a { display: grid; }
+  .jvg-id-article #photo-dialog { margin: auto; }
+  .jvg-id-article #article > section { scroll-margin-top: 28px; }
+  @media (min-width: 901px) and (max-width: 1250px) {
+    body.jvg-identification-page .jvgft__sub { grid-template-columns: 235px minmax(0, 1fr); }
+    body.jvg-identification-page .jvgft__menu-col { grid-column: 1 / -1; min-width: 0; }
+    body.jvg-identification-page .jvgft__menu--main { flex-wrap: wrap; }
+  }
+  @media (max-width: 800px) {
+    .jvg-id-article .contents { display: flex; }
+    .jvg-id-article .contents a { display: block; }
+  }
+</style>
