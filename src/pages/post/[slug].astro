@@ -36,7 +36,7 @@ export const getStaticPaths = (async () => {
   const posts = await getPublishedPosts();
   // This guide is listed through the blog collection but keeps its custom
   // visual comparison layout in a dedicated static /post/ route.
-  const customPostRoutes = new Set(["gibson-es-335-345-355-guide"]);
+  const customPostRoutes = new Set(["gibson-es-335-345-355-guide", "is-your-vintage-guitar-valuable-7-factors-that-determine-its-value"]);
   return posts.filter((entry) => !customPostRoutes.has(entry.id)).map((entry) => ({
     params: { slug: entry.id },
     props: { entry, related: getRelated(posts, entry, 3) },
