@@ -1,0 +1,12 @@
+---
+import LicensedImage from './primitives/LicensedImage.astro';
+import {getImage} from 'astro:assets';
+import {resolveImage} from '../lib/images';
+import {guildPhotos} from '../data/guild-photos';
+interface Props {photo:string;alt:string;caption:string;source?:string;eager?:boolean;}
+const {photo,alt,caption,source,eager=false}=Astro.props;
+const src=resolveImage(guildPhotos[photo]);
+if(!src)throw new Error('Missing Guild photo: '+photo);
+const enlarged=await getImage({src,width:Math.min(2400,src.width),format:'webp',quality:90});
+---
+<figure class="gu-photo" style={`--gu-native-width:${Math.min(860,src.width)}px`}><a href={enlarged.src} target="_blank" rel="noopener" aria-label={`Enlarge photo: ${alt}`}><LicensedImage src={src} alt={alt} caption={caption} width={Math.min(1000,src.width)} loading={eager?'eager':'lazy'} fetchpriority={eager?'high':undefined}/></a><figcaption>{caption}{source&&<> <a class="gu-photo-source" href={source}>View Joe’s Original Listing</a></>}</figcaption></figure>

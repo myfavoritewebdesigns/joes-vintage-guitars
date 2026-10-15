@@ -1,0 +1,22 @@
+---
+import {guildModelChoices} from '../lib/guild-decoder';
+---
+<form class="gu-tool" id="gsl-tool" aria-labelledby="gsl-heading">
+ <h2 id="gsl-heading">Guild Serial Number Decoder</h2>
+ <p>Enter your serial number exactly as it appears on the headstock or label. Check supported vintage ranges and Tacoma or New Hartford date codes.</p>
+ <label for="gsl-input">Serial Number</label><input id="gsl-input" name="serial" type="text" maxlength="32" placeholder="For Example, 74329 Or TJ037016" autocomplete="off" spellcheck="false" aria-describedby="gsl-help" required/>
+ <label for="gsl-mode">Serial System</label><select id="gsl-mode"><option value="auto">Help Me Identify The Format</option><option value="vintage">Vintage U.S. Numeric Or Model Prefix</option><option value="julian">Tacoma / New Hartford Julian</option><option value="later">Corona, Oxnard Or Imported Guild</option></select>
+ <label for="gsl-model">Model, If Known (1965 To 1969)</label><select id="gsl-model"><option value="">Not Sure / Another Model</option>{guildModelChoices.map(m=><option value={m}>{m}</option>)}</select>
+ <button class="gu-button" id="gsl-decode" type="submit">Look Up My Guild</button>
+ <small id="gsl-help">A chart match needs the right model and era. Modern imports use other formats. <a href="/guild-labels-and-serial-number-locations/">Find the complete serial and label</a>.</small>
+ <div class="gu-examples" role="group" aria-label="Try a serial example"><span>Try An Example:</span><button type="button" data-serial="74329">74329</button><button type="button" data-serial="AD355" data-model="F50">AD355</button><button type="button" data-serial="TJ037016">TJ037016</button></div>
+ <div id="gsl-result" class="gu-result" role="status" aria-live="polite" aria-atomic="true"></div>
+ <noscript><p>The calculator needs JavaScript. All <a href="#part1">numeric charts</a> and <a href="/guild-model-prefix-serial-number-charts/">model charts</a> remain available below.</p></noscript>
+</form>
+<script>
+ import {decodeGuild,type GuildMode} from '../lib/guild-decoder';
+ const form=document.querySelector<HTMLFormElement>('#gsl-tool'),input=document.querySelector<HTMLInputElement>('#gsl-input'),mode=document.querySelector<HTMLSelectElement>('#gsl-mode'),model=document.querySelector<HTMLSelectElement>('#gsl-model'),output=document.querySelector<HTMLElement>('#gsl-result');
+ function decode(){if(!input||!mode||!model||!output)return;const r=decodeGuild(input.value,mode.value as GuildMode,model.value);const title=document.createElement('strong'),p=document.createElement('p'),a=document.createElement('a');title.textContent=r.title;p.textContent=r.detail;a.textContent=r.link;a.href=r.href;output.replaceChildren(title,p,a);}
+ form?.addEventListener('submit',e=>{e.preventDefault();decode()});
+ form?.querySelectorAll<HTMLButtonElement>('[data-serial]').forEach(button=>button.addEventListener('click',()=>{if(!input||!mode||!model)return;input.value=button.dataset.serial||'';mode.value='auto';model.value=button.dataset.model||'';decode();input.focus()}));
+</script>

@@ -1,0 +1,27 @@
+---
+import GuildGuideLayout from '../layouts/GuildGuideLayout.astro';
+import GuildPhoto from './GuildPhoto.astro';
+import type {GuildGuide} from '../data/guild-guides';
+import GuildTable from './GuildSerialTable.astro';
+import {modelSpecific1965,prefixes1979,westerly1984,transition1990,expansion1994,late1997,type GuildSerialTable} from '../data/guild-serial-data';
+interface Props {guide:GuildGuide;}
+const {guide:g}=Astro.props;
+const tables:Record<string,GuildSerialTable>={modelSpecific1965,prefixes1979,westerly1984,transition1990,expansion1994,late1997};
+---
+<GuildGuideLayout title={g.title} metaTitle={g.metaTitle} description={g.description} canonical={`/${g.slug}/`}>
+ <article>
+ <section class="gu-hero"><div class="gu-wrap"><p class="gu-kicker">Guild Identification Guide</p><h1>{g.title}</h1><p class="gu-lede">{g.intro}</p><p class="gu-byline">By <a href="/about-me/">Joe Dampt</a> · Updated October 15, 2026</p><nav class="gu-toc" aria-label="On this page">{g.sections.map(s=><a href={'#'+s.id}>{s.title}</a>)}</nav><a href="/guild-serial-number-lookup/">Back To The Guild Serial Lookup</a></div></section>
+ <div class:list={['gu-wrap','gu-article',{'gu-chart-article':g.slug==='guild-model-prefix-serial-number-charts'}]}>
+ {g.slug==='guild-model-prefix-serial-number-charts'&&<div class="gu-chart-filter"><label for="guild-chart-search">Filter All Model Charts</label><div><input type="search" id="guild-chart-search" placeholder="Model Or Prefix, Such As F50 Or AD" autocomplete="off"/><button type="button" id="guild-chart-clear" class="gu-button">Show All Rows</button></div><p id="guild-chart-count" role="status" aria-live="polite">All published model rows are shown. Search by model name or serial prefix.</p></div>}
+ {g.sections.map(s=><section class="gu-article-section" aria-labelledby={s.id}><h2 id={s.id}>{s.title}</h2><div set:html={s.html}/>{s.photos&&<div class:list={['gu-photo-grid',{'gu-photo-grid--single':s.photos.length===1}]}>{s.photos.map(p=><GuildPhoto {...p}/>)}</div>}{s.table&&<GuildTable {...tables[s.table]} caption={s.title} filterable/>}</section>)}
+ <section class="gu-article-section" aria-labelledby="manufacturer-references"><h2 id="manufacturer-references">Sources And Further Reading</h2><ul class="gu-resources">{g.resources.map(r=><li><a href={r.url}>{r.label}</a><p>{r.reason}</p></li>)}</ul></section>
+ </div>
+ <section class="gu-section gu-section--tint"><div class="gu-wrap gu-article"><h2>Get Help Identifying Your Guild</h2><p>Send the serial, a full front and back view, and close-ups of the feature you want checked. Include any known repairs or replacement parts.</p><a class="gu-button" href="/free-appraisal/guild/">Get A Free Guild Appraisal</a><p class="gu-return">Return to the <a href="/guild-serial-number-lookup/">Guild serial lookup and dating library</a> to compare the rest of the instrument.</p></div></section>
+ </article>
+</GuildGuideLayout>
+<script>
+ const input=document.querySelector<HTMLInputElement>('#guild-chart-search'),status=document.querySelector('#guild-chart-count');
+ const normalize=(s:string)=>s.toUpperCase().replace(/[^A-Z0-9]/g,'');
+ function filter(){if(!input||!status)return;const q=normalize(input.value);let count=0;document.querySelectorAll<HTMLElement>('[data-guild-chart]').forEach(chart=>{let visible=0;chart.querySelectorAll<HTMLTableRowElement>('tbody tr').forEach(row=>{const match=!q||[...row.cells].some(cell=>normalize(cell.textContent||'').includes(q));row.hidden=!match;if(match){count++;visible++}});const empty=chart.querySelector<HTMLElement>('.gsl-empty');if(empty)empty.hidden=visible!==0});status.textContent=q?`${count} matching model rows. Clear the filter to show all records.`:`All ${count} published model rows are shown.`;}
+ input?.addEventListener('input',filter);document.querySelector('#guild-chart-clear')?.addEventListener('click',()=>{if(input){input.value='';filter();input.focus()}});
+</script>

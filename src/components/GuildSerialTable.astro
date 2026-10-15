@@ -1,0 +1,19 @@
+---
+interface Props {headers:string[];rows:string[][];caption?:string;filterable?:boolean;}
+const {headers,rows,caption,filterable=false}=Astro.props;
+---
+<div class="gsl-tablewrap" role="region" aria-label={caption?`${caption}: Data Table`:'Serial Number Data Table'} tabindex="0" data-guild-chart={filterable?'true':undefined}>
+ <table class="gsl-table"><caption>{caption}</caption><thead><tr>{headers.map(h=><th scope="col">{h}</th>)}</tr></thead><tbody>{rows.map(row=><tr>{row.map((cell,i)=>i===0?<th scope="row">{cell}</th>:<td data-label={headers[i]} class={cell==='N/A'?'is-na':undefined}>{cell}</td>)}</tr>)}</tbody></table>
+ <p class="gsl-empty" hidden>No Matching Rows In This Era.</p>
+</div>
+<style>
+ .gsl-tablewrap{width:100%;overflow-x:auto;margin:22px 0;border:1px solid var(--color-brand-brown-tan);background:#fff}
+ .gsl-tablewrap:focus-visible{outline:3px solid var(--color-brand-rust);outline-offset:4px}
+ .gsl-table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:460px;text-align:left}
+ .gsl-table caption{caption-side:top;text-align:left;padding:14px 16px;background:var(--color-brand-cream);font-weight:700;color:var(--color-brand-rust-dark)}
+ .gsl-table thead th{background:var(--color-brand-rust-dark);color:white;padding:11px 13px;white-space:nowrap}
+ .gsl-table tbody th,.gsl-table tbody td{padding:9px 13px;vertical-align:top;border-bottom:1px solid var(--color-brand-brown-tan);color:var(--color-brand-brown);background:transparent}
+ .gsl-table tbody th{font-weight:700;color:var(--color-brand-rust-dark)}.gsl-table tbody tr:nth-child(even){background:var(--color-brand-cream-light)}
+ .gsl-table .is-na{color:#6b6051}.gsl-table tr[hidden],.gsl-empty[hidden]{display:none!important}.gsl-empty{padding:18px;margin:0}
+ @media(max-width:640px){.gsl-tablewrap{overflow-x:visible}.gsl-table{min-width:0;font-size:.9rem}.gsl-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.gsl-table tbody tr{display:block;margin:12px;border:1px solid var(--color-brand-brown-tan)}.gsl-table tbody th{display:block;background:var(--color-brand-cream);padding:10px 12px}.gsl-table tbody td{display:flex;justify-content:space-between;gap:20px;text-align:right;padding:8px 12px;overflow-wrap:anywhere}.gsl-table tbody td::before{content:attr(data-label);font-weight:600;color:var(--color-brand-rust-dark);text-align:left;flex:0 0 50px}.gsl-table tbody td:last-child{border:0}}
+</style>

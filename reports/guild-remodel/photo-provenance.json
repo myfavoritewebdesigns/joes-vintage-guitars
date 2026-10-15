@@ -1,0 +1,362 @@
+[
+  {
+    "key": "f48Front",
+    "file": "src/assets/images/guild-hub/f48-front.jpg",
+    "source": "https://drive.google.com/file/d/16KibQYEU4ZegmemATLnSA7u6KIvzQ24L/view?usp=drivesdk",
+    "original": "1972-guild-f-48-1.jpg",
+    "width": 6099,
+    "height": 4066
+  },
+  {
+    "key": "f48Label",
+    "file": "src/assets/images/guild-hub/f48-label.jpg",
+    "source": "https://drive.google.com/file/d/10RGPgyveEELfQsGs1yCFwy8dkyC6cUtl/view?usp=drivesdk",
+    "original": "1972-guild-f-48-6.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "f48Serial",
+    "file": "src/assets/images/guild-hub/f48-serial.jpg",
+    "source": "https://drive.google.com/file/d/1xUNAyfOi1bQPNjTJnXm2VrQFteX1ZDsx/view?usp=drivesdk",
+    "original": "1972-guild-f-48-13.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "f48Head",
+    "file": "src/assets/images/guild-hub/f48-head.jpg",
+    "source": "https://drive.google.com/file/d/1vIGkb1C93j0AQTFg_WuO7e27sJ7WvbJ3/view?usp=drivesdk",
+    "original": "1972-guild-f-48-3.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "f48Inlays",
+    "file": "src/assets/images/guild-hub/f48-inlays.jpg",
+    "source": "https://drive.google.com/file/d/1GJN2VZStqmnJO1_19rjsnK04hTmPnfhO/view?usp=drivesdk",
+    "original": "1972-guild-f-48-4.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "f48Bridge",
+    "file": "src/assets/images/guild-hub/f48-bridge.jpg",
+    "source": "https://drive.google.com/file/d/1JtBoO7TJmyYk3of2JLlYVEDwXlsNl2Zl/view?usp=drivesdk",
+    "original": "1972-guild-f-48-5.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "f50Front",
+    "file": "src/assets/images/guild-hub/f50-front.jpg",
+    "source": "https://drive.google.com/file/d/1iovlQ5zkrP-iDIWGzsrKAGQQNbIJu-1N/view?usp=drivesdk",
+    "original": "1968-guild-f-50-1.jpg",
+    "width": 5472,
+    "height": 3648
+  },
+  {
+    "key": "f50Label",
+    "file": "src/assets/images/guild-hub/f50-label.jpg",
+    "source": "https://drive.google.com/file/d/1vot4pVQ9lCSjHXdQWd8lONdzJfnvH0Nk/view?usp=drivesdk",
+    "original": "1968-guild-f-50-5.jpg",
+    "width": 5472,
+    "height": 3648
+  },
+  {
+    "key": "f50Head",
+    "file": "src/assets/images/guild-hub/f50-head.jpg",
+    "source": "https://drive.google.com/file/d/1-3cblZunfgPb5GdJoa6HJ7CtYVCJvnrq/view?usp=drivesdk",
+    "original": "1968-guild-f-50-4.jpg",
+    "width": 5472,
+    "height": 3648
+  },
+  {
+    "key": "f50Serial",
+    "file": "src/assets/images/guild-hub/f50-serial.jpg",
+    "source": "https://drive.google.com/file/d/1j5ZcGZbxiXHi5KvVumq-7Wp9NvzueTLG/view?usp=drivesdk",
+    "original": "1968-guild-f-50-8.jpg",
+    "width": 5472,
+    "height": 3648
+  },
+  {
+    "key": "f50Bridge",
+    "file": "src/assets/images/guild-hub/f50-bridge.jpg",
+    "source": "https://drive.google.com/file/d/1y1y1Nt4G6BxpjCK3BXnMd_-X_giZRp36/view?usp=drivesdk",
+    "original": "1968-guild-f-50-3.jpg",
+    "width": 5472,
+    "height": 3648
+  },
+  {
+    "key": "f50Back",
+    "file": "src/assets/images/guild-hub/f50-back.jpg",
+    "source": "https://drive.google.com/file/d/1G6GFAtcoh_3nmsdsvmXNzP5M-3gxnqV6/view?usp=drivesdk",
+    "original": "1968-guild-f-50-6.jpg",
+    "width": 5472,
+    "height": 3648
+  },
+  {
+    "key": "f50Heel",
+    "file": "src/assets/images/guild-hub/f50-heel.jpg",
+    "source": "https://drive.google.com/file/d/1Fo3Wnf_jQaK-UaRxpg0Wm4B9avQNBLnC/view?usp=drivesdk",
+    "original": "1968-guild-f-50-11.jpg",
+    "width": 5472,
+    "height": 3648
+  },
+  {
+    "key": "f30Front",
+    "file": "src/assets/images/guild-hub/f30-front.jpg",
+    "source": "https://drive.google.com/file/d/1B09SOMl_OwJleiNycxxIHEc0YLi25Yvr/view?usp=drivesdk",
+    "original": "1964-guild-f-30-1.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "f30Label",
+    "file": "src/assets/images/guild-hub/f30-label.jpg",
+    "source": "https://drive.google.com/file/d/1q3ItuHQy9AiHh85kPyK5KO_lE3J0ni9x/view?usp=drivesdk",
+    "original": "1964-guild-f-30-4.jpg",
+    "width": 4160,
+    "height": 6240
+  },
+  {
+    "key": "f30Serial",
+    "file": "src/assets/images/guild-hub/f30-serial.jpg",
+    "source": "https://drive.google.com/file/d/1IQZpAqso_j2Y1E2CnhjBY5KxhC8OyvqT/view?usp=drivesdk",
+    "original": "1964-guild-f-30-9.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "f30Bridge",
+    "file": "src/assets/images/guild-hub/f30-bridge.jpg",
+    "source": "https://drive.google.com/file/d/15mD1U1kY7b7pWAD3r7jGfG3nlIDhKa1M/view?usp=drivesdk",
+    "original": "1964-guild-f-30-5.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "f30Neck",
+    "file": "src/assets/images/guild-hub/f30-neck.jpg",
+    "source": "https://drive.google.com/file/d/1O4orIBC4DTrZn7IBkjDvb0YXJ2Bd2rws/view?usp=drivesdk",
+    "original": "1964-guild-f-30-11.jpg",
+    "width": 4160,
+    "height": 6240
+  },
+  {
+    "key": "earlyXFront",
+    "file": "src/assets/images/guild-hub/early-x-front.jpg",
+    "source": "https://drive.google.com/file/d/11ytTUMWmGTS7kzhfex0kFGonUO1MVUfy/view?usp=drivesdk",
+    "original": "1950s-guild-x175-sunburst-2.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "earlyXLabel",
+    "file": "src/assets/images/guild-hub/early-x-label.jpg",
+    "source": "https://drive.google.com/file/d/1bfzkzJ-DPuHFhhlL-0ijD8g_kVJxZy1u/view?usp=drivesdk",
+    "original": "1950s-guild-x175-sunburst-2-2.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "earlyXSerial",
+    "file": "src/assets/images/guild-hub/early-x-serial.jpg",
+    "source": "https://drive.google.com/file/d/1jaP4dWYeAkP4PLNA4mfvTJ2tOvqzL16D/view?usp=drivesdk",
+    "original": "1950s-guild-x175-sunburst-8.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "earlyXHead",
+    "file": "src/assets/images/guild-hub/early-x-head.jpg",
+    "source": "https://drive.google.com/file/d/10_A05RZkZTn1NWZXIJspNXtNwMQqbzW5/view?usp=drivesdk",
+    "original": "1950s-guild-x175-sunburst-7.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "earlyXPickups",
+    "file": "src/assets/images/guild-hub/early-x-pickups.jpg",
+    "source": "https://drive.google.com/file/d/1sI2MW5cS4XovGWb2mwbHBz1lfObJZtEX/view?usp=drivesdk",
+    "original": "1950s-guild-x175-sunburst-4.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "earlyXInlays",
+    "file": "src/assets/images/guild-hub/early-x-inlays.jpg",
+    "source": "https://drive.google.com/file/d/1fDdG2YxHRFFlps3_dwwBGqK6blhxveoB/view?usp=drivesdk",
+    "original": "1950s-guild-x175-sunburst-6.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "laterXLabel",
+    "file": "src/assets/images/guild-hub/later-x-label.jpg",
+    "source": "https://drive.google.com/file/d/1arAOO4qWEG0ITUrSkg1CPeUoptEp__zq/view?usp=drivesdk",
+    "original": "1967-guild-x-175-sunburst-5.jpg",
+    "width": 4160,
+    "height": 6240
+  },
+  {
+    "key": "laterXNeck",
+    "file": "src/assets/images/guild-hub/later-x-neck.jpg",
+    "source": "https://drive.google.com/file/d/1G5N9Isx8k7mwYzuJw190y3m15gbkr_s3/view?usp=drivesdk",
+    "original": "1967-guild-x-175-sunburst-10.jpg",
+    "width": 4160,
+    "height": 6240
+  },
+  {
+    "key": "laterXPickups",
+    "file": "src/assets/images/guild-hub/later-x-pickups.jpg",
+    "source": "https://drive.google.com/file/d/1uXsdd3HeNUj-0VSy7-Lti8vJHBP2CViK/view?usp=drivesdk",
+    "original": "1967-guild-x-175-sunburst-12.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "x500Front",
+    "file": "src/assets/images/guild-hub/x500-front.jpg",
+    "source": "https://drive.google.com/file/d/1JefPH1CXm81P-oDfLToqNaLLEDvJGKn8/view?usp=drivesdk",
+    "original": "guild x500 blonde.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "x500Head",
+    "file": "src/assets/images/guild-hub/x500-head.jpg",
+    "source": "https://drive.google.com/file/d/1ocLQqJ4RAEpEDjpCCSCgJIjVsz9M1TGZ/view?usp=drivesdk",
+    "original": "guild x500 blonde-3.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "x500Tuners",
+    "file": "src/assets/images/guild-hub/x500-tuners.jpg",
+    "source": "https://drive.google.com/file/d/1Js58tKs4ztdtx_AocL_DGJerVIyPKXnu/view?usp=drivesdk",
+    "original": "guild x500 blonde-4.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "thunderFront",
+    "file": "src/assets/images/guild-hub/thunder-front.jpg",
+    "source": "https://drive.google.com/file/d/1LUXcZjNqb2zh-Kgz5qHFWWG16j4U04RK/view?usp=drivesdk",
+    "original": "guild thunderbird.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "thunderSerial",
+    "file": "src/assets/images/guild-hub/thunder-serial.jpg",
+    "source": "https://drive.google.com/file/d/1ZM_DrlfNhEGWLgz7Bq-df2vDsNEVoNpQ/view?usp=drivesdk",
+    "original": "guild thunderbird-4.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "thunderHead",
+    "file": "src/assets/images/guild-hub/thunder-head.jpg",
+    "source": "https://drive.google.com/file/d/1IR0KpyfJw3V2OuTjXwAIwRuNoIrllexb/view?usp=drivesdk",
+    "original": "guild thunderbird-3.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "thunderBack",
+    "file": "src/assets/images/guild-hub/thunder-back.jpg",
+    "source": "https://drive.google.com/file/d/1hchHquypFHKGbAQaYVznI5RTao8W8A18/view?usp=drivesdk",
+    "original": "guild thunderbird-5.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "thunderControls",
+    "file": "src/assets/images/guild-hub/thunder-controls.jpg",
+    "source": "https://drive.google.com/file/d/1yHu9QqrGzBqT_jGRf-VXVJEfpGAQN9jM/view?usp=drivesdk",
+    "original": "guild thunderbird-7.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "artistFront",
+    "file": "src/assets/images/guild-hub/artist-front.jpg",
+    "source": "https://drive.google.com/file/d/1cAzewKGQAPDBstK-ltNB4apIoOhparSA/view?usp=drivesdk",
+    "original": "guild artist award np.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "artistSerial",
+    "file": "src/assets/images/guild-hub/artist-serial.jpg",
+    "source": "https://drive.google.com/file/d/1ttfqJ_DmyOxwPTlUYy7oEwwBueMziWby/view?usp=drivesdk",
+    "original": "guild artist award np-3.jpg",
+    "width": 6217,
+    "height": 4145
+  },
+  {
+    "key": "artistHead",
+    "file": "src/assets/images/guild-hub/artist-head.jpg",
+    "source": "https://drive.google.com/file/d/109LjMyyZJZQgfoxFhWZopgVLruEuUgL3/view?usp=drivesdk",
+    "original": "guild artist award np-2.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "starfireFront",
+    "file": "src/assets/images/guild-hub/starfire-front.jpg",
+    "source": "https://drive.google.com/file/d/1KAjPFQTt7tIiDhCL9u9rJ5-B-uhPyKEL/view?usp=drivesdk",
+    "original": "guild starfire iii-2.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "starfireHead",
+    "file": "src/assets/images/guild-hub/starfire-head.jpg",
+    "source": "https://drive.google.com/file/d/11KRLHNUdO6Vx4cQNpUlll56fU4x-zzS-/view?usp=drivesdk",
+    "original": "guild starfire iii-4.jpg",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "key": "d150Front",
+    "file": "src/assets/images/guild-hub/d150-front.jpg",
+    "source": "https://reverb.com/item/88274770-guild-d-150nat-acoustic-guitar",
+    "original": "d150-front.jpg",
+    "width": 600,
+    "height": 800
+  },
+  {
+    "key": "d150Label",
+    "file": "src/assets/images/guild-hub/d150-label.jpg",
+    "source": "https://reverb.com/item/88274770-guild-d-150nat-acoustic-guitar",
+    "original": "d150-4.jpg",
+    "width": 400,
+    "height": 400
+  },
+  {
+    "key": "d150Serial",
+    "file": "src/assets/images/guild-hub/d150-serial.jpg",
+    "source": "https://reverb.com/item/88274770-guild-d-150nat-acoustic-guitar",
+    "original": "d150-5.jpg",
+    "width": 400,
+    "height": 400
+  },
+  {
+    "key": "bluesbirdFront",
+    "file": "src/assets/images/guild-hub/bluesbird-front.jpg",
+    "source": "https://reverb.com/item/88855969-guild-bluesbird-1970s-black",
+    "original": "bluesbird-front.jpg",
+    "width": 800,
+    "height": 533
+  },
+  {
+    "key": "bluesbirdBigsby",
+    "file": "src/assets/images/guild-hub/bluesbird-bigsby.jpg",
+    "source": "https://reverb.com/item/88855969-guild-bluesbird-1970s-black",
+    "original": "bluesbird-2.jpg",
+    "width": 400,
+    "height": 400
+  }
+]
