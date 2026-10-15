@@ -1,0 +1,10 @@
+SUMMARY C:\Users\joeda\Documents\Codex\2026-10-15\le\work\rickenbacker-site\reports\gretsch-remodel\gretsch-body-binding-and-inlays.txt: PASS - BAN 0, WARN 0
+SUMMARY C:\Users\joeda\Documents\Codex\2026-10-15\le\work\rickenbacker-site\reports\gretsch-remodel\gretsch-bridges-and-tailpieces.txt: PASS - BAN 0, WARN 0
+SUMMARY C:\Users\joeda\Documents\Codex\2026-10-15\le\work\rickenbacker-site\reports\gretsch-remodel\gretsch-finish-colors.txt: PASS - BAN 0, WARN 0
+SUMMARY C:\Users\joeda\Documents\Codex\2026-10-15\le\work\rickenbacker-site\reports\gretsch-remodel\gretsch-headstock-and-tuner-dating-guide.txt: PASS - BAN 0, WARN 0
+SUMMARY C:\Users\joeda\Documents\Codex\2026-10-15\le\work\rickenbacker-site\reports\gretsch-remodel\gretsch-knobs-and-controls.txt: PASS - BAN 0, WARN 0
+SUMMARY C:\Users\joeda\Documents\Codex\2026-10-15\le\work\rickenbacker-site\reports\gretsch-remodel\gretsch-labels-and-serial-number-locations.txt: PASS - BAN 0, WARN 0
+SUMMARY C:\Users\joeda\Documents\Codex\2026-10-15\le\work\rickenbacker-site\reports\gretsch-remodel\gretsch-pickup-dating-guide.txt: PASS - BAN 0, WARN 0
+SUMMARY C:\Users\joeda\Documents\Codex\2026-10-15\le\work\rickenbacker-site\reports\gretsch-remodel\gretsch-serial-number-lookup.txt: PASS - BAN 0, WARN 0
+SUMMARY C:\Users\joeda\Documents\Codex\2026-10-15\le\work\rickenbacker-site\reports\gretsch-remodel\gretsch-vintage-vs-reissue.txt: PASS - BAN 0, WARN 0
+TOTAL: BAN 0, WARN 0

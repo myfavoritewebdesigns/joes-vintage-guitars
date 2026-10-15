@@ -1,0 +1,6 @@
+---
+import GretschGuideArticle from "../components/GretschGuideArticle.astro";
+import {gretschGuides} from "../data/gretsch-guides";
+const guide=gretschGuides.find(g=>g.slug==="gretsch-labels-and-serial-number-locations")!;
+---
+<GretschGuideArticle guide={guide}/>

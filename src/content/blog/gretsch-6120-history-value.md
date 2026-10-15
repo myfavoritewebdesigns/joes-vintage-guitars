@@ -116,7 +116,9 @@ Collectors want the original wiring harness.
 -   **Originality Check:** If the pots have been replaced with modern parts, the value drops. Look for “bumblebee” or “tiger” capacitors and original grey-sheathed wiring.
     
 
-## How to Date Your Gretsch 6120
+## How To Date Your Gretsch 6120
+
+Use the [Gretsch serial lookup and dating library](/gretsch-serial-number-lookup/) with the guitar’s full model and serial location. Its overlapping chart ranges explain why a single number may need a feature check. Compare the [pickup photos](/gretsch-pickup-dating-guide/) and [bridge and Bigsby examples](/gretsch-bridges-and-tailpieces/) when installed parts appear to disagree with the body’s period.
 
 Before 1966, Gretsch used sequential serial numbers. You can usually find the number:
 
