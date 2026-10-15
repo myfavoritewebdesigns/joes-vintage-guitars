@@ -107,7 +107,7 @@ value: { metadata: {
     "original guitar parts and value",
     "how to value an inherited guitar"
   ],
-  "published": "2022-07-27T19:59:18",
+  "published": "2022-07-27T19:59:18.000Z",
   "modified": "2026-10-15T23:04:19.731Z"
 }, html: valueHtml, images: {"/images/original.jpg": photo26,"/images/refinish.jpg": photo27,"/images/originaltuners.jpg": photo28,"/images/replacementtuners.jpg": photo29,"/images/case.jpg": photo30}}
 };

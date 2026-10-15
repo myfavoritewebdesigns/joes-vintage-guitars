@@ -103,6 +103,11 @@ const article = {
   .jvg-id-article .contents a { display: grid; }
   .jvg-id-article #photo-dialog { margin: auto; }
   .jvg-id-article #article > section { scroll-margin-top: 28px; }
+  @media (min-width: 901px) and (max-width: 1250px) {
+    body.jvg-identification-page .jvgft__sub { grid-template-columns: 235px minmax(0, 1fr); }
+    body.jvg-identification-page .jvgft__menu-col { grid-column: 1 / -1; min-width: 0; }
+    body.jvg-identification-page .jvgft__menu--main { flex-wrap: wrap; }
+  }
   @media (max-width: 800px) {
     .jvg-id-article .contents { display: flex; }
     .jvg-id-article .contents a { display: block; }
