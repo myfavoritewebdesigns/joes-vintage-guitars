@@ -1,0 +1,6 @@
+---
+import GuildGuideArticle from '../components/GuildGuideArticle.astro';
+import {guildGuides} from '../data/guild-guides';
+const guide=guildGuides.find(g=>g.slug==='guild-labels-and-serial-number-locations')!;
+---
+<GuildGuideArticle guide={guide}/>
