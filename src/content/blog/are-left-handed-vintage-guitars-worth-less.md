@@ -1,5 +1,6 @@
 ---
 title: "Are Left-Handed Vintage Guitars Worth Less Than Right-Handed Vintage Guitars?"
+seoTitle: "Are Left-Handed Vintage Guitars Worth Less? Values"
 pubDate: "2026-09-28T12:00:00-07:00"
 modified: "2026-09-28T12:00:00-07:00"
 excerpt: "Factory-built vintage left-handed guitars are rarer, but their buyer pool is smaller. Here is how rarity, demand, originality, condition, and sale timing affect value."

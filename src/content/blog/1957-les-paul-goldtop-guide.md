@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-scaled.jpg"
 heroImageAlt: "A detailed look at an original 1957 Gibson Les Paul Standard, highlighting the iconic bullion gold top and dual PAF humbucking pickups."
-metaDescription: "1957 was the year Gibson introduced the PAF humbucker. With values reaching all-time highs, how do you verify a true ’57 Goldtop? From the “M-69” stamps inside the pickup rings to the “Dark Back” finish and reddish tortoise side dots, this authentication guide covers the small details that mark a genuine 1957 Standard. Get the facts from Joe’s Vintage Guitars before you sell."
+metaDescription: "Verifying a 1957 Gibson Les Paul Goldtop, the first PAF year: M-69 pickup ring stamps, the dark back finish, and reddish tortoise side dots."
 ogImage: "/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-scaled.jpg"
 wpId: 18916
 ---

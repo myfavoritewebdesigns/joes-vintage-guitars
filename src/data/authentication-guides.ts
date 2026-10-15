@@ -233,7 +233,7 @@ export const authenticationGuides: AuthenticationGuide[] = [
     slug: "how-to-spot-a-fake-fender",
     hero: fenderHero,
     heroAlt: "Vintage Fender Telecaster shown in its case",
-    description: "Learn how to spot a fake Fender guitar by checking the specification timeline, hidden date codes, truss rod layout, neck and body details, finish, and electronics.",
+    description: "How to spot a fake Fender guitar by checking the spec timeline, hidden date codes, truss rod layout, neck and body details, finish and electronics.",
     lede: "Fender authenticity is a timeline problem. The neck, body, finish, hardware, plastics, pickups, potentiometers, and hidden dates should belong to the same model and production window.",
     intro: "A real Fender neck can sit on a replacement body. A real decal can also be applied to the wrong neck. Check whether the instrument left the factory together, was assembled later from factory parts, or contains counterfeit components.",
     quick: [

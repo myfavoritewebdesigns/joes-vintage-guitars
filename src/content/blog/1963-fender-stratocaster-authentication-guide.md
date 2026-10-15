@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-sunburst-front-of-body-scaled.jpg"
 heroImageAlt: "Front shot of a 1963 Fender Stratocaster in Sunburst finish"
-metaDescription: "Pre-CBS 1963 Fender Stratocasters sit at the top of every collector’s list. Here’s how to authenticate and date a real one: L-series serials, pot codes, neck heel stamps, custom colors, finish evidence, and the puzzle piece neck plate trick that catches refinishes."
+metaDescription: "How to authenticate and date a pre-CBS 1963 Fender Stratocaster: L-series serials, pot codes, neck heel stamps, custom colors and the neck plate trick."
 ogImage: "/images/blog/1963-fender-stratocaster-authentication-guide/1963-fender-stratocaster-sunburst-front-of-body-scaled.jpg"
 wpId: 20995
 ---

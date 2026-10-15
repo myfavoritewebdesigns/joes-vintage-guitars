@@ -1,5 +1,6 @@
 ---
 title: "How to Identify a Vintage Gibson J-45, J-50, and Southern Jumbo (SJ)"
+seoTitle: "Identify a Vintage Gibson J-45, J-50 or Southern Jumbo"
 pubDate: "2026-02-17T23:13:28"
 modified: "2026-09-04T14:30:00"
 excerpt: "Ever wondered why your vintage Gibson acoustic doesn’t have a model name inside? You aren’t alone. From the ‘Golden Era’ bracing shifts to the iconic ‘Banner’ headstocks, we break down the physical specs you need to identify a J-45, J-50, or Southern Jumbo. We walk through the history of the ‘Workhorse’ so you can see where your guitar fits in the Gibson timeline."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-scaled.jpg"
 heroImageAlt: "A 1950s Gibson J-45 in its original case. Sunburst finish"
-metaDescription: "Ever wondered why your vintage Gibson acoustic doesn’t have a model name inside? You aren’t alone. From the ‘Golden Era’ bracing shifts to the iconic ‘Banner’ headstocks, we break down the physical specs you need to identify a J-45, J-50, or Southern Jumbo. We walk through the history of the ‘Workhorse’ so you can see where your guitar fits in the Gibson timeline."
+metaDescription: "How to identify a vintage Gibson J-45, J-50 or Southern Jumbo when the label gives nothing away: bracing, Banner headstocks and the specs that date it."
 ogImage: "/images/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-scaled.jpg"
 wpId: 18220
 ---

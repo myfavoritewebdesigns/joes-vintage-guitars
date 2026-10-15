@@ -9,7 +9,7 @@ tags: []
 heroImage: "/images/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-maestro-front-of-body.jpg"
 heroImageAlt: "1965 Gibson ES-335 in sunburst with a factory short Maestro Vibrola, front of body"
 ogImage: "/images/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-maestro-front-of-body.jpg"
-metaDescription: "A 1965 Gibson ES-335 with a factory short Maestro Vibrola, a combination rarely seen on a 335. How the original ground wire and a clean top confirm it left Kalamazoo this way, plus how to date it and what it means for value."
+metaDescription: "A 1965 Gibson ES-335 with a factory short Maestro Vibrola. How the original ground wire and clean top confirm it, how to date it, and what it means."
 ---
 Every so often a guitar comes through that stops you for a second, not because it is in spectacular condition or carries a famous name, but because of one detail that does not add up at first glance. A 1965 Gibson ES-335 recently did exactly that. It wears a short Maestro Vibrola, and in all my years of handling these instruments, that is a pairing I had never seen on a 335 from this period. The more I looked at it, the clearer it became that this is how the guitar left Kalamazoo. I picked it up from [Edgewater Guitars](https://edgewaterguitars.com/), a dealer out of Ohio that I trust.
 

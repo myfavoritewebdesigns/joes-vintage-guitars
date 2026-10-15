@@ -1,5 +1,6 @@
 ---
 title: "Vintage Gibson Guitar Value by Year: Which Eras Are Worth the Most?"
+seoTitle: "Vintage Gibson Guitar Value by Year: Era Price Guide"
 pubDate: "2023-03-20T00:42:55"
 modified: "2026-04-01T16:45:30"
 excerpt: "Curious about your vintage Gibson guitar’s value? Learn how its year of manufacture impacts its price."
@@ -8,7 +9,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/How-The-Year-Of-Manufacture-Of-Your-Vintage-Gibson-Guitar-Affects-Its-Price-1.jpg"
 heroImageAlt: "Title card reading How The Year Of Manufacture Of Your Vintage Gibson Guitar Affects Its Price, set over a darkened close up of a sunburst Les Paul showing its humbucker, bridge, and stop bar tailpiece, with the Joe's Vintage Guitars logo in the top corner."
-metaDescription: "Curious about your vintage Gibson guitar’s value? Learn how its year of manufacture impacts its price."
+metaDescription: "How a vintage Gibson's year of manufacture sets its price, era by era, from the Kalamazoo golden years through Norlin. Free appraisal from Joe's."
 ogImage: "/images/blog/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/How-The-Year-Of-Manufacture-Of-Your-Vintage-Gibson-Guitar-Affects-Its-Price-1.jpg"
 wpId: 3980
 ---

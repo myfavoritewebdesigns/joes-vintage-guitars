@@ -1,5 +1,6 @@
 ---
 title: "Gibson PAF and Patent Number Pickups: History, Authentication, and Value"
+seoTitle: "Gibson PAF and Patent Number Pickups: Dating Guide"
 pubDate: "2026-07-13T12:00:00"
 modified: "2026-07-13T12:00:00"
 excerpt: "The Gibson PAF humbucker is the most valuable two ounces of wire and metal in the guitar world, and the patent number pickup that followed it is the best bargain. This guide covers the whole story: how Seth Lover invented the humbucker, how the pickup changed from 1957 through the 1970s, every authentication point we check on the bench, and what these pickups are really worth. It also explains, in plain terms, why you should never take one apart to find out."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-paf-patent-number-pickup-guide/gibson-paf-sticker-oxidized-solder-joints.jpg"
 heroImageAlt: "Underside of an original Gibson PAF humbucker showing the Patent Applied For sticker, aged solder joints, and heavy oxidation on the nickel silver baseplate. We buy vintage Gibson guitars and pickups nationwide at Joe's Vintage Guitars."
-metaDescription: "The complete Gibson PAF and patent number pickup guide: history, stickers, magnets, bobbins, ring stamps, every authentication tell, current values, and why you should never open one."
+metaDescription: "The Gibson PAF and Patent Number pickup guide: stickers, magnets, bobbins, ring stamps, every authentication tell, values, and why never to open one."
 ogImage: "/images/blog/gibson-paf-patent-number-pickup-guide/gibson-paf-sticker-oxidized-solder-joints.jpg"
 ---
 <nav class="paf-nav-sidebar" id="pafNavSidebar" aria-label="Article section navigation">

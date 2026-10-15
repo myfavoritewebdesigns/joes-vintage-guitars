@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-1969-scaled.jpg"
 heroImageAlt: "1969 Gibson L-5 CES hollow body electric guitar in a sunburst finish, featuring a Florentine cutaway, gold hardware, and a Bigsby vibrato tailpiece. The guitar is shown without a pickguard, highlighting the wood grain and dual humbucking pickups."
-metaDescription: "A history of the Gibson L-5 CES, the electric archtop that set the standard. This guide covers its evolution from the 1920s acoustic work of Lloyd Loar to the “Staple” and PAF humbucker eras. Learn how to identify rare finishes, date your instrument using serial numbers and orange labels, and tell Venetian and Florentine cutaways apart. If you are looking for a professional appraisal or the full story of this guitar, here is what you need to know about the king of Gibson archtops."
+metaDescription: "How to date and value a Gibson L-5 CES: serial numbers, orange labels, rare finishes, Venetian versus Florentine cutaways, and the Staple and PAF eras."
 ogImage: "/images/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-1969-scaled.jpg"
 wpId: 19327
 ---

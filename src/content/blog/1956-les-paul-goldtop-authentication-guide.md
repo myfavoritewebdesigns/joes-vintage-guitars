@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1956-les-paul-goldtop-authentication-guide/1956-gibson-les-paul-standard-goldtop-scaled.jpg"
 heroImageAlt: "1956 Gibson Les Paul Goldtop with P-90 pickups and no-wire ABR-1 bridge leaning against a vintage 1950s Gibson Les Paul GA-40 amplifier."
-metaDescription: "The 1956 Les Paul Goldtop is a transition-year guitar: the only year where the growl of P-90s met the ABR-1 bridge. In a market full of good fakes, how do you know yours is the real one? From “Patent Applied” tuners to the “stepped” control cavity routing, this head-to-toe authentication guide covers the small details that tell a genuine ’56 apart. Before you sell, make sure you have the facts from Joe’s Vintage Guitars."
+metaDescription: "Authenticating a 1956 Gibson Les Paul Goldtop, the one year P-90s met the ABR-1 bridge: Patent Applied tuners and the stepped control cavity routing."
 ogImage: "/images/blog/1956-les-paul-goldtop-authentication-guide/1956-gibson-les-paul-standard-goldtop-scaled.jpg"
 wpId: 18898
 ---

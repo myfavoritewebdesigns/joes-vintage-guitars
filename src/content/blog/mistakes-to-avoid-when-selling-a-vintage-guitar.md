@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/mistakes-to-avoid-when-selling-a-vintage-guitar/Top-Mistakes-To-Avoid-When-Selling-A-Vintage-Guitar-2-1.jpg"
 heroImageAlt: "Top Mistakes To Avoid When Selling A Vintage Guitar"
-metaDescription: "Ready to sell your vintage guitar? Avoid mistakes, get top price, and ensure a smooth, safe transaction."
+metaDescription: "The mistakes that cost vintage guitar sellers money: valuing it wrong, over-cleaning, missing paperwork, weak photos and taking the first offer."
 ogImage: "/images/blog/mistakes-to-avoid-when-selling-a-vintage-guitar/Top-Mistakes-To-Avoid-When-Selling-A-Vintage-Guitar-2-1.jpg"
 wpId: 12676
 ---

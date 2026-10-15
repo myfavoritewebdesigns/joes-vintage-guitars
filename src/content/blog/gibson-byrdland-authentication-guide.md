@@ -1,5 +1,6 @@
 ---
 title: "Gibson Byrdland Authentication Guide: How to Date & Identify Any Example (1955 to Present)"
+seoTitle: "Gibson Byrdland Authentication Guide: Dating by Year"
 pubDate: "2026-03-16T11:31:27"
 modified: "2026-03-24T20:54:37"
 excerpt: "How to identify and authenticate any Gibson Byrdland, from the first Kalamazoo prototypes in 1955 through the current Custom Shop era. Covers every major construction change: cutaway shape, pickups, solid vs. pressed back, neck lamination, nut width, labels, serial numbers, hardware, and more."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-scaled.jpg"
 heroImageAlt: "Gibson Byrdland authentication guide. Identify any year Byrdland"
-metaDescription: "How to identify and authenticate any Gibson Byrdland, from the first Kalamazoo prototypes in 1955 through the current Custom Shop era. Covers every major construction change: cutaway shape, pickups, solid vs. pressed back, neck lamination, nut width, labels, serial numbers, hardware, and more."
+metaDescription: "How to authenticate any Gibson Byrdland, 1955 to today: cutaway shape, pickups, pressed or solid back, neck lamination, nut width, labels and serials."
 ogImage: "/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-scaled.jpg"
 wpId: 20111
 ---

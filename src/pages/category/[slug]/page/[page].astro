@@ -43,8 +43,8 @@ const breadcrumbSchema = {
 ---
 
 <Layout
-  title={`${name} (Page ${current}) | Joe's Vintage Guitars Blog`}
-  description={intro || `${name} articles from Joe's Vintage Guitars.`}
+  title={`${name} (Page ${current}) | Joe's Vintage Guitars`}
+  description={`${intro || `${name} articles from Joe's Vintage Guitars.`} Page ${current} of ${total}.`}
   canonical={`/category/${slug}/page/${current}/`}
   structuredData={breadcrumbSchema}
 >

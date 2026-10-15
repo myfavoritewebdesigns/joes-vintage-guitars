@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1968-gibson-es-335-guide/1968-gibson-es-335-sunburst-9-scaled.jpg"
 heroImageAlt: "A 1968 Gibson ES-335 in Sunburst finish. This example is in near mint condition."
-metaDescription: "The 1968 Gibson ES-335 marks the final year of Gibson’s one-piece mahogany neck and long tenon joint, the last of the Kalamazoo-era semi-hollows before the construction changes of 1969. This guide covers finish rarity, hardware authentication, pot code dating, and current market values for collectors and sellers."
+metaDescription: "The 1968 Gibson ES-335 was the last with a one-piece mahogany neck and long tenon. Finish rarity, hardware checks, pot code dating and current values."
 ogImage: "/images/blog/1968-gibson-es-335-guide/1968-gibson-es-335-sunburst-9-scaled.jpg"
 wpId: 20834
 ---

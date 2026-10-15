@@ -1,5 +1,6 @@
 ---
 title: "Gibson Les Paul Junior: Authentication, Evolution & Value (1954 to 1962)"
+seoTitle: "Gibson Les Paul Junior Guide: Dating, Specs and Value"
 pubDate: "2026-03-24T19:32:03"
 modified: "2026-05-14T18:34:56"
 excerpt: ""
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-1-scaled.jpg"
 heroImageAlt: "A Gibson Les Paul Junior from 1955."
-metaDescription: ""
+metaDescription: "How to date and authenticate a vintage Gibson Les Paul Junior, 1954 to 1962: P-90 dog ears, wraparound bridges, serials and FONs, and what one is worth."
 ogImage: "/images/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-1-scaled.jpg"
 wpId: 20543
 ---

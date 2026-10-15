@@ -1,5 +1,6 @@
 ---
 title: "Vintage Gibson Hummingbird Guide: History, Specs, Year by Year Changes, and Value"
+seoTitle: "Vintage Gibson Hummingbird: Dating, Specs and Value"
 pubDate: "2026-08-03T12:00:00"
 modified: "2026-08-03T12:00:00"
 excerpt: "The Hummingbird was Gibson's first square shoulder dreadnought and the prettiest guitar in the 1960 catalog. Here is the full story: what the first ones were, every spec change that matters through the 1970s, how to date yours from the label and the hardware, and what a vintage one is honestly worth in 2026. Shown on five real Hummingbirds that came through the shop, from a 1961 to a 1979."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-cherry-sunburst-front.jpg"
 heroImageAlt: "The cherry sunburst top of a 1961 Gibson Hummingbird showing the engraved pickguard with a hummingbird, trumpet flowers, and butterfly, and the rectangular rosewood bridge."
-metaDescription: "What a vintage Gibson Hummingbird is worth in 2026, how to date one, and every spec change from 1960 to 1979. Serial numbers, labels, adjustable bridges, and value, shown on five real guitars."
+metaDescription: "What a vintage Gibson Hummingbird is worth, how to date one, and every spec change from 1960 to 1979: serials, labels and adjustable bridges."
 ogImage: "/images/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-cherry-sunburst-front.jpg"
 toc:
   - { href: "#quick-answer", label: "The Short Version" }

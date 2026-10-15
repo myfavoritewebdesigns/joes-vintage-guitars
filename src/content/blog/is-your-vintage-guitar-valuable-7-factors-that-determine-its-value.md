@@ -1,5 +1,6 @@
 ---
 title: "Is Your Vintage Guitar Valuable? 7 Factors That Determine Its Value"
+seoTitle: "Is Your Vintage Guitar Valuable? What Sets the Value"
 pubDate: "2022-07-27T19:59:18"
 modified: "2025-10-29T16:47:35"
 excerpt: "The 7 factors that affect your vintage guitar’s value when you’re buying or selling."
@@ -8,7 +9,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/Is-Your-Vintage-Guitar-Valuable-7-Factors-That-Determine-Its-Value-1-1.jpg"
 heroImageAlt: "Title card reading Is Your Vintage Guitar Valuable? 7 Factors That Determine Its Value, set over a darkened close up of an acoustic guitar headstock and tuners, with the Joe's Vintage Guitars logo in the top corner."
-metaDescription: "The 7 factors that affect your vintage guitar’s value when you’re buying or selling."
+metaDescription: "The seven things that set a vintage guitar's value: identification, condition, modifications, sound, rare materials, research and who you sell to."
 ogImage: "/images/blog/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/Is-Your-Vintage-Guitar-Valuable-7-Factors-That-Determine-Its-Value-1-1.jpg"
 wpId: 2254
 ---
