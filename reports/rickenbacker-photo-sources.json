@@ -1,0 +1,125 @@
+{
+  "retrieved": "2026-10-15",
+  "owner": "Joe’s Vintage Guitars",
+  "method": "Google Drive original JPEG download. Originals preserved; Astro generates responsive display images. Reverb shop and owned listings checked, but no Reverb images were needed.",
+  "photos": [
+    {
+      "file": "src/assets/images/rickenbacker-dating/frying-pan-horseshoe-pickup.jpg",
+      "source": "https://drive.google.com/file/d/1R8PSEBtjvOfjS-o5XDhQIuIv9qLBOqQA/view?usp=drivesdk",
+      "sourceFile": "1930s-rickenbacker-a-22-4.jpg",
+      "sourceFolder": "1930s Rickenbacker A22",
+      "sha256": "43547c5a471e197658e5bbc1f16f3c85beab65b16091677488cae9b40a498b64",
+      "bytes": 2400359,
+      "notes": "Horseshoe pickup on a Frying Pan lap steel; archive identifies the set as 1930s."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/frying-pan-rickenbacher-logo.jpg",
+      "source": "https://drive.google.com/file/d/1GEP5oM6k5pQiadyUUR4Bu_Km5fcE4LQP/view?usp=drivesdk",
+      "sourceFile": "1930s-rickenbacker-a-22-2.jpg",
+      "sourceFolder": "1930s Rickenbacker A22",
+      "sha256": "44ec443cd28aeca77a06b2d1457056d99303652d00046bcf40ef80c715c36e50",
+      "bytes": 1511692,
+      "notes": "Rickenbacher Electro badge, visibly legible."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/325-vintage-style-controls-and-vibrato.jpg",
+      "source": "https://drive.google.com/file/d/1PtKpEJ-dClVpIK3SWmyEMk_WpjhvX0Rl/view?usp=drivesdk",
+      "sourceFile": "1997-rickenbacker-325-1.jpg",
+      "sourceFolder": "1997 Rickenbacker 325",
+      "sha256": "fd63f171fa3419c2839d1608e85203f817aa5b6b676a69cf295523b02f6297c9",
+      "bytes": 2332608,
+      "notes": "Later 325 with toasters, broad-topped reflective knobs, gold guard and a Bigsby; knob maker and originality are not claimed; the set serial N0 9130 agrees with February 1997."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/325-vintage-style-tuners.jpg",
+      "source": "https://drive.google.com/file/d/18Fc2n_V5B1x1Kk3S-JG9MC4lgHWmuQ5x/view?usp=drivesdk",
+      "sourceFile": "1997-rickenbacker-325-4.jpg",
+      "sourceFolder": "1997 Rickenbacker 325",
+      "sha256": "336b285458633719a6e987a3b67cd5d756fc21232eb7069925e5a59ebf934506",
+      "bytes": 1961965,
+      "notes": "Kluson-style closed housings on the later 325; not presented as 1950s hardware."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/325-letter-digit-serial-plate.jpg",
+      "source": "https://drive.google.com/file/d/13q8MAOYLBLSsUGXx5C_YRvRDt7mRUdlq/view?usp=drivesdk",
+      "sourceFile": "1997-rickenbacker-325-7.jpg",
+      "sourceFolder": "1997 Rickenbacker 325",
+      "sha256": "62a0b3cffd15b0bb10ca78dc2df1a42dac3bbc2ff7d426de85ce0b89a343b07a",
+      "bytes": 1302781,
+      "notes": "N0 above jack and 9130 below, yielding N09130."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/4003-bass-hi-gain-pickup.jpg",
+      "source": "https://drive.google.com/file/d/1HT-xSG7PX-pYpY6dIW3nr38MnW2e5Tqe/view?usp=drivesdk",
+      "sourceFile": "1989-rickenbacker-4003-blue-1.jpg",
+      "sourceFolder": "1989 rickenbacker 4003",
+      "sha256": "8b92f4e856daec1c12cb2747682cc1704ce636bdc28219569d5b49de07fbe044",
+      "bytes": 1922053,
+      "notes": "Visible black neck pickup with four button poles; do not confuse the bridge cover with a horseshoe pickup."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/4003-open-back-bass-tuners.jpg",
+      "source": "https://drive.google.com/file/d/1sERIx9OGiZH8pYDj72rREggE9P4z71QR/view?usp=drivesdk",
+      "sourceFile": "1989-rickenbacker-4003-blue-4.jpg",
+      "sourceFolder": "1989 rickenbacker 4003",
+      "sha256": "1f1a80e8bc4c14431b2d6cb5d04526686bd88d45335655d2caf9e55f41430f4b",
+      "bytes": 1552243,
+      "notes": "Rickenbacker-branded open-back tuners with exposed gears and cloverleaf buttons; no manufacturer attribution from the photo alone."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/jetglo-bass-finish.jpg",
+      "source": "https://drive.google.com/file/d/18VVA6xzD0uz5eRz8S0YcSk8q755STOwX/view?usp=drivesdk",
+      "sourceFile": "2015-rickenbacker-4001-bass-1.jpg",
+      "sourceFolder": "2015 Rickenbacker 4001",
+      "sha256": "209d3a0b3628082f4200bf8369b900028312c0a7171098d58a632e0bf6649d8f",
+      "bytes": 2252037,
+      "notes": "Black bound bass. Folder says 4001 but the photographed instrument has later 4003-type features; public caption deliberately says bass. Gold guard is not treated as original."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/modern-numeric-serial-plate.jpg",
+      "source": "https://drive.google.com/file/d/1XH510ED10yMwXMln7oktOTG_t5_5pD3j/view?usp=drivesdk",
+      "sourceFile": "2015-rickenbacker-4001-bass-7.jpg",
+      "sourceFolder": "2015 Rickenbacker 4001",
+      "sha256": "c3d3367452756aca12390a1ebdce7a49608b80921555b0c8a8760b75ed279951",
+      "bytes": 1137443,
+      "notes": "Numeric plate with 15 at one end and sequence at the other. Public caption illustrates stamp arrangement without transcribing uncertain final digits."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/360-silver-top-knobs-and-bridge.jpg",
+      "source": "https://drive.google.com/file/d/1DJgeWbG0mzqoVG8LWIt_1MwBh603iDfT/view?usp=drivesdk",
+      "sourceFile": "1960s-rickenbacker-360-5.jpg",
+      "sourceFolder": "1960s rickenbacker 360",
+      "sha256": "4b4c909cd964f785e5d2fce591ffe8900a470edd06f092e2489fa62611cacd1c",
+      "bytes": 2163122,
+      "notes": "Clear view of five controls, silver labels, six exposed saddles and R tailpiece."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/360-full-width-triangle-inlay.jpg",
+      "source": "https://drive.google.com/file/d/145JN9UjFoBQiRXHutb44yL9_Q1BX5bnK/view?usp=drivesdk",
+      "sourceFile": "1960s-rickenbacker-360-6.jpg",
+      "sourceFolder": "1960s rickenbacker 360",
+      "sha256": "75a72cc336f3f5fa10bfc6e7de38423c28f0354865bc000b3a1670bc0462e075",
+      "bytes": 1116429,
+      "notes": "Full-width triangular inlay close-up; no exact year assigned beyond archive decade."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/360-12-fireglo-finish.jpg",
+      "source": "https://drive.google.com/file/d/1VpIQMi_R5bAo_E2uCWmrXvlUZHjGcYPr/view?usp=drivesdk",
+      "sourceFile": "IMG_5320.jpg",
+      "sourceFolder": "1966 Rickenbacker 360-12",
+      "sha256": "06acd7981ccb99c10c47c052e278ead67eeeca8688a075bb40789dda1f6d60b4",
+      "bytes": 18228051,
+      "notes": "Fireglo front from Joe’s 1966 360-12 archive. Caption describes visible finish and model, without asserting originality."
+    },
+    {
+      "file": "src/assets/images/rickenbacker-dating/360-12-slotted-headstock.jpg",
+      "source": "https://drive.google.com/file/d/1EGhbwX2a91GwOh_0vMY6hWLwxrDRQsQS/view?usp=drivesdk",
+      "sourceFile": "IMG_5319.jpg",
+      "sourceFolder": "1966 Rickenbacker 360-12",
+      "sha256": "0b766f03b9c1b374f779230a59ef60d6ca2780695a1025b8f447b98d2da41406",
+      "bytes": 13133234,
+      "notes": "Twelve-string headstock front and Rickenbacker logo; original frame preserved."
+    }
+  ]
+}
+

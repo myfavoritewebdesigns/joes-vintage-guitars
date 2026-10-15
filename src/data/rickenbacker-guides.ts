@@ -20,7 +20,7 @@ export const rickenbackerGuides = [
     "label": "Knobs And Controls",
     "title": "Rickenbacker Knobs And Controls",
     "intro": "Compare cooker knobs, black vintage knobs, silver tops and control layouts. Check the model before using a knob style as a date clue.",
-    "image": "images/rickenbacker-serial/1960s-rickenbacker-360-2-scaled.jpg",
+    "image": "images/rickenbacker-dating/360-silver-top-knobs-and-bridge.jpg",
     "alt": "Silver-top controls and white pickguard on a Mapleglo Rickenbacker 360"
   },
   {
@@ -44,7 +44,7 @@ export const rickenbackerGuides = [
     "label": "Finish Colors",
     "title": "Rickenbacker Finish Colors And Dating",
     "intro": "Identify Mapleglo, Fireglo, Jetglo and other finish names, and learn what color can tell you about a Rickenbacker’s age and originality.",
-    "image": "images/1968-rickenbacker-4005-azureglo-scaled.jpg",
-    "alt": "Blue Azureglo finish on a 1968 Rickenbacker 4005 bass"
+    "image": "images/rickenbacker-dating/360-12-fireglo-finish.jpg",
+    "alt": "Red Fireglo finish on a Rickenbacker 360/12"
   }
 ];
