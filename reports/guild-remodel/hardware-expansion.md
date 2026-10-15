@@ -1,0 +1,57 @@
+# Guild Pickup And Hardware Expansion
+
+October 15, 2026. Follow-up to the approved Guild hub preview in PR #226. Joe requested named pickup and hardware types, their typical eras, and the Guild models that used them. This updates the existing preview branch; it does not authorize a production merge.
+
+## What Changed
+
+The hardware spoke now has three comparison tables: eight pickup families, seven tuner types, and six bridge/tailpiece types. Each gives model-specific examples, a documented period or dated instrument, identification details and inline evidence. New sections distinguish modern pickup revivals and acoustic electronics. The controls section names stove knobs and Guild-logo knobs. The hub links directly into the pickup, tuner and bridge sections.
+
+The existing photographs now identify Franz single coils, compact Anti-Hum humbuckers, narrow Guild "Mickey Mouse" single coils, Hagstrom hardware and Kolb-pattern tuners. No new image or unsupported exact instrument date was introduced. Modern LB-1 terminology is separated from vintage Anti-Hum examples. "Frequency tested" is treated as historical marketing wording rather than a unique model name. Originality remains a separate inspection question.
+
+What We Carried Forward: all five original hardware sections and their anchors, all twelve article photos and enlargements, the pot-code explanation, installation/repair advice, disclosed Bluesbird modification, appraisal/sale links and the surrounding hub architecture. Useful original caption and introductory sentences remain alongside the new identifications. The previously generic X-500 sentence is sharpened to the visible Kolb pattern. The generic white-versus-metal pickup comparison and its unconfirmed-subtype sentence are superseded by the requested sourced identification. The final comparison retains 95.7% of baseline words verbatim (938 of 980), passing the 95% floor.
+
+## Source Register And Citation Ledger
+
+This extends F01 through F15 in `verification.md`. All claims below are Guild model/era scoped, with jurisdiction GLOBAL, publicFacingSafe true, verifyWithAttorney false, lastVerified 2026-10-15 and status verified against the cited evidence. These are instrument specifications and inspection observations, not legal, value or blanket authenticity claims. Historical transitions are approximate unless a dated catalog or inspected example is named. Current product specifications were checked separately from historical catalogs.
+
+| Claim (As Written In Draft) | FactID | Authority | Jurisdiction | publicFacingSafe | verifyWithAttorney | lastVerified | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Franz Single Coil: X-50, X-150 and early X-175 archtops; early M-75 Aristocrat. | F16 | [1957 X-50 inspection](https://www.ggjaguar.com/x-50.htm), [1961 X-150](https://www.ggjaguar.com/x-150.htm), [1959 M-75](https://retrofret.com/products/guild-m-75-aristocrat-thinline-hollow-body-electric-guitar-1959-9582), owned early X-175 photograph | GLOBAL | true | false | 2026-10-15 | Verified model examples |
+| DeArmond Dynasonic Single Coil: documented on 1961 and 1962 Starfire III guitars. | F17 | [1961 inspection](https://www.ggjaguar.com/sf-3.htm), [1962 inspection](https://www.ggjaguar.com/62sf-3.htm) | GLOBAL | true | false | 2026-10-15 | Verified examples |
+| Guild Anti-Hum Compact Humbucker: documented in Guild's 1966 catalog. | F18 | [Original 1966 catalog](https://acousticmusic.org/wp-content/uploads/2016/02/Guild-1966-Catalog.pdf), p.4; owned later X-175 photo | GLOBAL | true | false | 2026-10-15 | Verified family; no universal start date |
+| Guild Narrow "Mickey Mouse" Single Coil: S-200 Thunderbird and T-100D Slim Jim examples. | F19 | [Pickup component documentation](https://www.musicpickups.com/non-dearmond-products/), [T-100D inspection](https://ggjaguar.com/t-100d.htm), owned Thunderbird photo | GLOBAL | true | false | 2026-10-15 | Verified family; maker unspecified |
+| Guild HB-1 Humbucker: around 1970 onward, with continued use on later Westerly instruments. | F20 | [X-175 inspection](https://ggjaguar.com/76x-175.htm), [1976 X-500](https://www.ggjaguar.com/x-500.htm), [Starfire IV chronology](https://www.ggjaguar.com/sf-4%20features.htm), 1978 catalog | GLOBAL | true | false | 2026-10-15 | Qualified model-specific chronology |
+| PAF at the neck and Super Distortion at the bridge: S-300D and ash-body S-300AD. | F21 | [Original 1978 catalog](https://www.gad.net/Blog/wp-content/uploads/2010/07/Guild-1978-Electric-Catalog.pdf), pp.6/7; [S-300AD inspection and 1979 price list](https://www.gad.net/Blog/2020/02/25/guild-s300a-d-review/) | GLOBAL | true | false | 2026-10-15 | Verified factory options |
+| Hagstrom Bi-Sonic Bass Single Coil: 1960s Starfire bass production. | F22 | [1968 Starfire Bass I inspection](https://www.vintageguitarandbass.com/guild/bass/1968_Starfire.php), [Guild BS-1 description](https://guildguitars.com/store/product/98-041-2940/) | GLOBAL | true | false | 2026-10-15 | Vintage and modern separated |
+| Artist Award: approximately 1961 to 1966 for the 1000; 1967 to 1984 for the 1100. | F23 | [Artist Award firsthand chronology](https://www.ggjaguar.com/aa.htm), also supporting the later floating and Benedetto applications | GLOBAL | true | false | 2026-10-15 | Approximate model chronology |
+| Modern Franz P-90 versions appear on instruments such as the T-50 Slim. | F24 | [Guild T-50 Slim](https://guildguitars.com/electric-guitars/t-50-slim) and [Starfire specifications](https://guildguitars.com/newark-street/starfire) | GLOBAL | true | false | 2026-10-15 | Current examples, not vintage dating |
+| Kim Thayil Polara uses HB-1; Surfliner Deluxe pairs HB-2 with DeArmond Aerosonic single coils. | F25 | [Guild Polara](https://guildguitars.com/polara/kim-thayil/), [Guild Surfliner Deluxe](https://guildguitars.com/surfliner/surfliner-deluxe/) | GLOBAL | true | false | 2026-10-15 | Manufacturer specifications |
+| Waverly Open-Gear: 1957 X-50. Grover Sta-Tite: 1961 X-150 and 1961 to 1962 Starfire III. | F26 | Inspected X-50, X-150 and Starfire III records linked in F16/F17; current T-50 spec demonstrates reuse | GLOBAL | true | false | 2026-10-15 | Dated examples only |
+| Kolb Covered Tuners: X-500 and some X-175 guitars. | F27 | [Inspected 1960 X-500](https://archive.12fret.com/instruments/guild-x-500-archtop-electric-sunburst-1960/), [inspected 1966 X-175](https://retrofret.com/products/guild-x-175-arch-top-hollow-body-electric-guitar-1966-7583), owned X-500 tuner photo | GLOBAL | true | false | 2026-10-15 | Pattern identified; originality not asserted |
+| Grover Rotomatic: 1960s into early 1970s on X-175. Schaller M6: mid 1970s examples. | F28 | X-175 and X-500 inspections; Starfire IV chronology linked in F20 | GLOBAL | true | false | 2026-10-15 | Model-specific windows retained |
+| Starfire IV research places Gotoh around 1981 and Schaller Mini around 1982 to 1986. | F29 | [Starfire IV feature chronology](https://www.ggjaguar.com/sf-4%20features.htm) | GLOBAL | true | false | 2026-10-15 | Approximate; other models explicitly differ |
+| Artist Award: Imperial before the 1989 change to Super Rotomatic. | F30 | [Artist Award chronology](https://www.ggjaguar.com/aa.htm) | GLOBAL | true | false | 2026-10-15 | Model-specific example |
+| Guild Harp Tailpiece: X-150, X-175, X-500 and Artist Award. | F31 | 1961 X-150 inspection; original 1978 electric catalog pp.4/5 | GLOBAL | true | false | 2026-10-15 | Named plated/wood examples |
+| Bigsby B-6 / Guild-Branded Bigsby B-2: early Starfire III examples around 1960 to 1962. | F32 | [Starfire III inspection](https://www.ggjaguar.com/sf-3.htm) documents the 1961 transition | GLOBAL | true | false | 2026-10-15 | Model-scoped transition |
+| Hagstrom Tremar Vibrato And Adjustable Bridge: S-200 Thunderbird and early-body S-100 Polara. | F33 | [Inspected 1964 S-200](https://retrofret.com/products/guild-s-200-thunderbird-solid-body-electric-guitar-1964-9122), original 1966 catalog and owned photo | GLOBAL | true | false | 2026-10-15 | Original body family only |
+| Guild No. 10 Adjusto-Matic Bridge: S-300, S-300D and S-60 family. | F34 | Original 1978 electric catalog pp.7/8/11 | GLOBAL | true | false | 2026-10-15 | Manufacturer names and adjustments |
+| Guild Solid-Body / Compensated Stop Tailpiece: S-100 Polara and S-300 family. | F35 | Original 1978 catalog; Guild Kim Thayil Polara specifications | GLOBAL | true | false | 2026-10-15 | Historical and modern examples distinguished |
+| Rosewood on X-175 and CE-100D; ebony on X-500 and Artist Award in 1978. | F36 | Original 1978 electric catalog pp.4/5 | GLOBAL | true | false | 2026-10-15 | Catalog-specific bridge woods |
+| Early-1970s Starfire IV examples used a Hagstrom bridge on a floating wood base; later examples used a Muller bridge on body-mounted studs. | F37 | [Starfire IV chronology](https://www.ggjaguar.com/sf-4%20features.htm) | GLOBAL | true | false | 2026-10-15 | Approximate 1971 change |
+| Stove knobs occur on late-1950s X-50, X-150 and X-175 examples; later Guild-logo knobs appear on the pictured Thunderbird and in 1978. | F38 | X-50 inspection, owned Thunderbird photograph, original 1978 catalog p.11 | GLOBAL | true | false | 2026-10-15 | Names and examples; no exact dating claim |
+| Guild's 1976 acoustic catalog offered factory Barcus-Berry Hot-Dot transducers for flat-tops, 12-strings and classical guitars. | F39 | [Original 1976 acoustic catalog](https://acousticmusic.org/wp-content/uploads/2016/02/Guild-1976-Catalog.pdf), printed A-19/PDF p.20; same page supports overlapping tuner suppliers | GLOBAL | true | false | 2026-10-15 | Placement, endpin and preamp visually checked |
+| Fishman-designed GT-1 for M-240E Natural; DeArmond Tone Boss for M-240E Troubadour. | F40 | [Guild M-240E specifications](https://guildguitars.com/westerly/200-series/m-240e/) | GLOBAL | true | false | 2026-10-15 | Current model versions |
+
+## Validation
+
+- Final production build: 248 pages; image and IndexNow sitemaps generated successfully.
+- Astro check: 288 files, zero errors and zero warnings (85 existing hints).
+- Required `npm run audit:copy`: zero hard failures. Hardware guide has no warning; hub retains its previously reviewed warning. Other site warnings are outside this change.
+- MFWD longform scan against the pre-expansion preview: zero bans and zero warnings, including all table cells. It scans 1,934 added/changed words while masking the retained baseline sentences.
+- Retention: 95.7%; all three altered baseline sentences are dispositioned above. Hub edit is additive.
+- Both affected built pages have one H1, correct production canonicals and parseable JSON-LD. Every internal article URL and fragment resolves in the built output.
+- Hardware title: 54 characters. Description: 158 characters. Both explicitly describe the new identification, era and model coverage.
+- Independent checks: 1920px and 390px, no overflow, failed image, runtime error or Axe violation; three keyboard-scrollable tables, eight working section links and twelve image enlargement URLs.
+- Final post-build static comparison: zero blocking findings; six advisory categories match the independently reviewed intentional additions or unchanged development/shell behavior.
+
+See `hardware-independent-review.md` for the source/photo review and tooling limitations. The final deterministic report is `../guild-hardware-expansion-final-audit-2026-10-15T22-26-20-541Z.md`. No decoder or chart logic changed in this follow-up.
