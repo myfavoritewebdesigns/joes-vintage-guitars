@@ -1,0 +1,82 @@
+{
+  "pages": [
+    {
+      "slug": "rickenbacker-serial-numbers",
+      "title": "Rickenbacker Serial Number Lookup & Dating Guide",
+      "description": "Date your Rickenbacker guitar or bass with our free serial number lookup. Find the serial, read date codes, and compare vintage features in photos.",
+      "titleCharacters": 48,
+      "descriptionCharacters": 147,
+      "addedInlineLinks": 12,
+      "checkedInternalLinks": 143,
+      "articleParagraphLinks": 18
+    },
+    {
+      "slug": "rickenbacker-pickup-dating-guide",
+      "title": "Rickenbacker Pickup Dating: Toaster, Hi-Gain & Horseshoe",
+      "description": "Identify Rickenbacker horseshoe, toaster and Hi-Gain pickups with photos and timelines. Compare guitar, bass and reissue features with the serial date.",
+      "titleCharacters": 56,
+      "descriptionCharacters": 151,
+      "addedInlineLinks": 4,
+      "checkedInternalLinks": 70,
+      "articleParagraphLinks": 7
+    },
+    {
+      "slug": "rickenbacker-tuner-dating-guide",
+      "title": "Rickenbacker Tuner Dating: Kluson, Grover & Schaller",
+      "description": "Identify Rickenbacker Kluson, Grover and Schaller tuners. Compare housings, buttons, mounting patterns and model timelines with reference photos.",
+      "titleCharacters": 52,
+      "descriptionCharacters": 145,
+      "addedInlineLinks": 4,
+      "checkedInternalLinks": 70,
+      "articleParagraphLinks": 8
+    },
+    {
+      "slug": "rickenbacker-knobs-and-controls",
+      "title": "Rickenbacker Knobs & Controls: Identification Guide",
+      "description": "Compare Rickenbacker cooker, black vintage and silver-top knobs, plus four- and five-control layouts. Use photos and timelines to check dating clues.",
+      "titleCharacters": 51,
+      "descriptionCharacters": 149,
+      "addedInlineLinks": 5,
+      "checkedInternalLinks": 72,
+      "articleParagraphLinks": 7
+    },
+    {
+      "slug": "rickenbacker-body-binding-and-inlays",
+      "title": "Rickenbacker Binding, Inlays & Body Dating Guide",
+      "description": "Date Rickenbacker features using body shapes, checkerboard binding, dot and triangle inlays, soundholes and headstock photos. Account for later reissues.",
+      "titleCharacters": 48,
+      "descriptionCharacters": 153,
+      "addedInlineLinks": 4,
+      "checkedInternalLinks": 73,
+      "articleParagraphLinks": 7
+    },
+    {
+      "slug": "rickenbacker-tailpiece-dating-guide",
+      "title": "Rickenbacker Tailpieces & Bridges: Dating Guide",
+      "description": "Identify Rickenbacker R and trapeze tailpieces, Kauffman and Accent vibratos, and bridge details. Compare timelines, photos and signs of replacement parts.",
+      "titleCharacters": 47,
+      "descriptionCharacters": 155,
+      "addedInlineLinks": 5,
+      "checkedInternalLinks": 73,
+      "articleParagraphLinks": 10
+    },
+    {
+      "slug": "rickenbacker-finish-colors",
+      "title": "Rickenbacker Colors: Fireglo, Mapleglo & Jetglo",
+      "description": "Compare Rickenbacker Fireglo, Mapleglo, Jetglo, Azureglo and Autumnglo finishes. See color photos and learn what finish can tell you about age and originality.",
+      "titleCharacters": 47,
+      "descriptionCharacters": 159,
+      "addedInlineLinks": 4,
+      "checkedInternalLinks": 74,
+      "articleParagraphLinks": 9
+    },
+    {
+      "slug": "sell-my-rickenbacker-guitar",
+      "addedInlineLinks": 2,
+      "checkedInternalLinks": 59
+    }
+  ],
+  "addedInlineLinks": 40,
+  "checkedInternalLinks": 634,
+  "issues": []
+}

@@ -141,6 +141,7 @@ const structuredData = [
   title="Sell My RICKENBACKER Guitar | Joes Vintage Guitars"
   description="Sell your vintage Rickenbacker bass or guitar to a trusted nationwide buyer. Fair cash offers, expert appraisals, and an easy process from coast to coast."
   canonical="/sell-my-rickenbacker-guitar/"
+  bodyClass="sell-rickenbacker-page"
   ogImage={`${SITE_URL}${img("find-rare-unique-classic-rickenbacker.jpg")}`}
   {...ogCardSize("images/sell-rickenbacker/find-rare-unique-classic-rickenbacker.jpg")}
   structuredData={structuredData}
@@ -185,7 +186,7 @@ const structuredData = [
       <div class="smr-buyappraise__text">
         <h3>I Buy & Appraise <span>Vintage Guitars</span> <span class="smr-buyappraise__online">Online Or In Person</span></h3>
         <p>Before I buy your guitar, <a href="/free-appraisal/rickenbacker/" class="smr-link">I’ll appraise your Rickenbacker carefully</a> to confirm its condition. With my years of experience with Rickenbackers, I can give you a fair price that works for both of us. And I won’t just throw a number at you; I’ll explain how I got there and answer any questions along the way.</p>
-        <p>If you want to date it yourself first, my free <a href="/rickenbacker-serial-numbers/" class="smr-link">Rickenbacker serial number guide</a> decodes every format the company has used.</p>
+        <p>If you want to date it yourself first, my free <a href="/rickenbacker-serial-numbers/" class="smr-link">Rickenbacker serial number lookup</a> covers common guitar and bass codes and explains early exceptions. Then compare the <a href="/rickenbacker-pickup-dating-guide/" class="smr-link">pickup types</a> and <a href="/rickenbacker-body-binding-and-inlays/" class="smr-link">body, binding and inlay details</a> with the serial date.</p>
         <a href={hrefs.tel} class="smr-btn smr-btn--rust">{contact.phone}</a>
       </div>
       <div class="smr-buyappraise__photo">
@@ -562,5 +563,22 @@ const structuredData = [
   @media (max-width: 900px) {
     .smr-meet-cta__grid { grid-template-columns: 1fr; text-align: center; }
     .smr-meet { grid-template-columns: 1fr; padding: 28px; }
+  }
+  /* Keep the mobile contact actions clear of the reading column, as on the dating guides. */
+  @media (max-width: 767px) {
+    :global(.sell-rickenbacker-page) { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
+    :global(.sell-rickenbacker-page aside[aria-label="Quick contact"]) {
+      inset: auto 0 0 0 !important;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 28px;
+      padding: 10px 18px calc(10px + env(safe-area-inset-bottom));
+      background: var(--color-brand-cream);
+      border-top: 1px solid var(--color-brand-brown-tan);
+      box-shadow: 0 -2px 10px #3e2a141a;
+    }
+    :global(.sell-rickenbacker-page aside[aria-label="Quick contact"] a) { width: 44px; height: 44px; }
   }
 </style>

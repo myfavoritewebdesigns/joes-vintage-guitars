@@ -1,0 +1,11 @@
+---
+import LicensedImage from './primitives/LicensedImage.astro';
+import { getImage } from 'astro:assets';
+import { resolveImage } from '../lib/images';
+interface Props { file: string; alt: string; caption: string; }
+const {file,alt,caption}=Astro.props;
+const src=resolveImage(file);
+if(!src) throw new Error('Missing Rickenbacker photo: '+file);
+const enlarged=await getImage({src,width:Math.min(2400,src.width),format:'webp',quality:90});
+---
+<figure class="rk-photo"><a href={enlarged.src} target="_blank" rel="noopener" aria-label={`Enlarge photo: ${alt}`}><LicensedImage src={src} alt={alt} caption={caption} width={Math.min(1000,src.width)} loading="lazy" /></a><figcaption>{caption}</figcaption></figure>
