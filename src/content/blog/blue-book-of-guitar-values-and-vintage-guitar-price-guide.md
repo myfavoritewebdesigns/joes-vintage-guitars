@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: ["appraisal"]
 heroImage: "/images/blog/blue-book-of-guitar-values-and-vintage-guitar-price-guide/Blue-Look-Of-Guitar-Values-Vintage-Guitar-Price-Guide.jpg"
 heroImageAlt: "Title card reading Blue Book of Guitar Values and Vintage Guitar Price Guide, set over a darkened photo of a pale green single cutaway electric guitar leaning against a tweed amplifier, with the Joe's Vintage Guitars logo in the top corner."
-metaDescription: "How accurate are the Vintage Guitar Price Guide and Blue Book of Guitar Values? Joe’s Vintage Guitars weighs in!"
+metaDescription: "How accurate are the Vintage Guitar Price Guide and the Blue Book of Guitar Values? What they get right, where they miss, and what a real offer looks like."
 ogImage: "/images/blog/blue-book-of-guitar-values-and-vintage-guitar-price-guide/Blue-Look-Of-Guitar-Values-Vintage-Guitar-Price-Guide.jpg"
 wpId: 5622
 ---

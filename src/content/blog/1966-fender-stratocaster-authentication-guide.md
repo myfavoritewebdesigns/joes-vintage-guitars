@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-scaled.jpg"
 heroImageAlt: "A 1966 Fender Stratocaster in excellent condition."
-metaDescription: "The 1966 Stratocaster sits in a transitional window of Fender history. Here’s the full authentication walkthrough: every spec, every dating tell, the custom color chart, the fakes to watch for, and what one is worth in today’s market."
+metaDescription: "Authenticating a 1966 Fender Stratocaster: every spec, the dating tells, the custom color chart, the fakes to watch for, and what one is worth today."
 ogImage: "/images/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-scaled.jpg"
 wpId: 21105
 ---

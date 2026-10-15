@@ -1,5 +1,6 @@
 ---
 title: "Complete Dot Neck ES-330 Authentication Guide & Timeline (1958-1962)"
+seoTitle: "Gibson ES-330 Dot Neck Guide: Authentication by Year"
 pubDate: "2026-03-26T20:49:26"
 modified: "2026-05-14T17:53:30"
 excerpt: "The dot-neck Gibson ES-330 is one of the more misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret (not the 17th, not the 19th), it’s a very different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959 to 1962 dot-neck era in detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and the other details that separate an original example from a modified one, and a 1959 from a 1962."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-scaled.jpg"
 heroImageAlt: "Front of a sunburst 1959 Gibson ES-330 showing its two black dogear P-90 pickups, black pickguard, dot inlay rosewood fingerboard, gold bonnet knobs, and trapeze tailpiece, photographed in front of a vintage Fender amplifier."
-metaDescription: "The dot-neck Gibson ES-330 is one of the more misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret (not the 17th, not the 19th), it’s a very different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959 to 1962 dot-neck era in detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and the other details that separate an original example from a modified one, and a 1959 from a 1962."
+metaDescription: "Every dot neck Gibson ES-330 spec from 1959 to 1962: neck profiles by year, knobs, saddles, serials, FON dating, cases and the vibrato variants."
 ogImage: "/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-scaled.jpg"
 wpId: 20616
 ---

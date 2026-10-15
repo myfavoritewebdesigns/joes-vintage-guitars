@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-body-scaled.jpg"
 heroImageAlt: "1952 Fender Telecaster body in Butterscotch Blonde finish featuring black phenolic pickguard and brass bridge saddles."
-metaDescription: "The 1952 Fender Telecaster is one of the early solid-body electric guitars, built from Leo Fender’s focus on utility and durability. The ’52 “Blackguard” is known for its “butterscotch blonde” finish and biting bridge pickup. This guide covers why this year is a favorite for tone and playability: the single-ply black phenolic pickguard, the wiring and “flat-pole” bridge pickup, the chunky ‘U’ shape neck profile players still ask for, and why the ’52 holds its value in a vintage collection. Whether you collect or just chase that signature “twang,” here’s the history of the guitar."
+metaDescription: "The 1952 Fender Telecaster Blackguard: butterscotch blonde finish, single-ply phenolic guard, flat-pole bridge pickup, the U neck, and why it holds value."
 ogImage: "/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-body-scaled.jpg"
 wpId: 18861
 ---

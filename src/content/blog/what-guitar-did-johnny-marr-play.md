@@ -1,5 +1,6 @@
 ---
 title: "What Guitar Did Johnny Marr Play? The Smiths ES-355, The 330, And The Rest"
+seoTitle: "What Guitars Did Johnny Marr Play? The ES-355 and 330"
 pubDate: "2026-08-27T19:30:00"
 modified: "2026-09-21T11:45:00-07:00"
 excerpt: "A 1959 cherry Gibson ES-355 is on my bench in Mesa, the same model Seymour Stein bought Johnny Marr. Christie's sells Marr's collection in London on 17 September 2026. Here's which guitar is which, and what a regular one brings without his name on it."
@@ -8,7 +9,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/what-guitar-did-johnny-marr-play/1959-gibson-es-355-cherry-featured.jpg"
 heroImageAlt: "1959 Gibson ES-355 in cherry with a gold Bigsby, resting in a pink-lined brown case on the bench at Joe's Vintage Guitars in Mesa."
-metaDescription: "What guitar did Johnny Marr play? The Stein ES-355, the 1982 Rickenbacker 330, the 1971 D-28, and the rest, plus public ranges without the Christie's Marr sticker."
+metaDescription: "What guitars did Johnny Marr play? The Stein ES-355, the 1982 Rickenbacker 330, the 1971 D-28 and the rest, with public value ranges for each."
 ogImage: "/images/blog/what-guitar-did-johnny-marr-play/what-guitar-did-johnny-marr-play-og.jpg"
 author: "Joe Dampt"
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: "Gibson ES-125 Complete Guide: Every Variant, Era & What to Look For"
+seoTitle: "Gibson ES-125 Guide: Every Variant, Dating and Value"
 pubDate: "2026-04-09T17:50:39"
 modified: "2026-05-14T16:40:25"
 excerpt: "The ES-125 spent nearly 30 years as Gibson’s quiet workhorse: affordable, versatile, and loaded with P-90 character. Here’s everything you need to know to buy, date, and identify one."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg"
 heroImageAlt: "A 1954 Gibson ES-125 in sunburst finish."
-metaDescription: "The ES-125 spent nearly 30 years as Gibson’s quiet workhorse: affordable, versatile, and loaded with P-90 character. Here’s everything you need to know to buy, date, and identify one."
+metaDescription: "The Gibson ES-125 was Gibson's P-90 workhorse for nearly 30 years. How to buy, date and identify one, variant by variant, with current values."
 ogImage: "/images/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg"
 wpId: 20765
 ---

@@ -1,5 +1,6 @@
 ---
 title: "The 1951, 1952 & 1953 Fender Precision Bass: Slab-Body P-Bass Authentication & Valuation Guide"
+seoTitle: "1951 to 1953 Fender Precision Bass: Slab Body Guide"
 pubDate: "2026-03-12T23:17:36"
 modified: "2026-08-11T00:00:00"
 excerpt: "A collector's guide to the 1951, 1952, and 1953 Fender Precision Bass: the original slab-body P-Bass. Joe Dampt covers every authentication detail: butterscotch nitro finish, tan lines under the hardware, nail holes, the early single-coil pickup with white string wrapping, pressed fiber saddles, Clarostat pots, paper-in-oil capacitor, large flat metal tuner buttons, mismatched neck and body dates, and more. Free appraisals nationwide."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-with-bassman-amp-scaled.jpg"
 heroImageAlt: "A stunning lifestyle photograph featuring an investment-grade 1952 Fender Precision Bass paired with a matching \"TV Front\" 1952 Fender Bassman amplifier. The bass features the original owner's name neatly hand-painted on the black phenolic pickguard, mirrored by the same personalized name on the amp's original linen grill cloth, a rare, documented piece of provenance linking these two instruments as a lifetime pair."
-metaDescription: "A collector's guide to the 1951, 1952, and 1953 Fender Precision Bass: the original slab-body P-Bass. Joe Dampt covers every authentication detail: butterscotch nitro finish, tan lines under the hardware, nail holes, the early single-coil pickup with white string wrapping, pressed fiber saddles, Clarostat pots, paper-in-oil capacitor, large flat metal tuner buttons, mismatched neck and body dates, and more. Free appraisals nationwide."
+metaDescription: "Authenticating a 1951, 1952 or 1953 slab-body Fender Precision Bass: butterscotch nitro, nail holes, Clarostat pots, pressed fiber saddles and more."
 ogImage: "/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-with-bassman-amp-scaled.jpg"
 wpId: 20040
 ---

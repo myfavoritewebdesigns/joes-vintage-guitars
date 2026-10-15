@@ -1,5 +1,6 @@
 ---
 title: "Fender Jazz Bass Guide 1960-1975: Year-by-Year Specs, Dating, and Value"
+seoTitle: "Vintage Fender Jazz Bass Guide: 1960 to 1975 Specs"
 pubDate: "2026-08-10T09:00:00"
 modified: "2026-08-13T00:00:00"
 excerpt: "The stack knob years, the bound-dot window, and the 1970s bridge pickup move. Every dating change on the vintage Fender Jazz Bass from the 1960 launch to 1975, and why the headstock logo will not tell you whether yours is pre-CBS."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg"
 heroImageAlt: "A 1966 Fender Jazz Bass in Lake Placid Blue custom color."
-metaDescription: "Date a vintage Fender Jazz Bass from what you can see. Stack knob to three knob, slab to veneer, clay to pearloid, the bound-dot window, and the 1970s changes, 1960 to 1975."
+metaDescription: "Date a vintage Fender Jazz Bass from what you can see: stack knob to three knob, slab to veneer, clay to pearloid, and the 1970s changes, 1960 to 1975."
 ogImage: "/images/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg"
 toc:
   - { href: "#why-the-year-matters", label: "Why The Year Matters" }

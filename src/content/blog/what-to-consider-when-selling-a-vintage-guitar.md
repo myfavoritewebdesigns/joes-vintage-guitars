@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/what-to-consider-when-selling-a-vintage-guitar/What-To-Consider-When-Selling-A-Vintage-Guitar-1.jpg"
 heroImageAlt: "What To Consider When Selling A Vintage Guitar"
-metaDescription: "Planning to sell a vintage guitar? Learn key tips for a successful sale and what to consider before selling."
+metaDescription: "What to check before selling a vintage guitar: original parts, the headstock, whether it has been refinished, and where to sell one in Arizona."
 ogImage: "/images/blog/what-to-consider-when-selling-a-vintage-guitar/What-To-Consider-When-Selling-A-Vintage-Guitar-1.jpg"
 wpId: 2517
 ---

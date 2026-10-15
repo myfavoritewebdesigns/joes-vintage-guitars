@@ -1,5 +1,6 @@
 ---
 title: "The Gibson Aldo Nova Les Paul (XPL): One of the Rarest Les Pauls of the 1980s"
+seoTitle: "Gibson Les Paul XPL: The Rare 1980s Aldo Nova Model"
 pubDate: "2026-07-09T12:00:00"
 modified: "2026-07-09T12:00:00"
 excerpt: "The Gibson Aldo Nova Les Paul is a mid-1980s rarity: a flame-top Les Paul Standard fitted with an Explorer headstock, or XPL, and marked Custom Shop Edition. This guide covers what the guitar actually is, how it got Aldo Nova's name, why Gibson built it, how many were made, how to tell it apart from the production double-cutaway XPL and the three-pickup Studio Custom XPL, and a detailed look at the 1984 example that came through the shop."

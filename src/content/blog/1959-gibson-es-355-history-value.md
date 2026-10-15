@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1959-gibson-es-355-history-value/1959-gibson-es-355-cherry-front.jpg"
 heroImageAlt: "Front of a 1959 Gibson ES-355 in cherry red with a Bigsby vibrato, split-diamond headstock, and gold hardware, resting in its pink-lined case at Joe's Vintage Guitars."
-metaDescription: "The complete vintage 1959 Gibson ES-355 guide: mono ES-355TD versus stereo Vari-tone, split-diamond and ebony specs, serial and FON dating, PAF and Bigsby authentication, refinish and mod red flags, and what a 1959 355 is worth in 2026."
+metaDescription: "The 1959 Gibson ES-355 guide: mono versus stereo Vari-tone, split-diamond and ebony specs, serial and FON dating, PAF and Bigsby checks, and values."
 ogImage: "/images/blog/1959-gibson-es-355-history-value/1959-gibson-es-355-cherry-front.jpg"
 ---
 <nav class="es355-nav-sidebar" id="es355NavSidebar" aria-label="Article section navigation">

@@ -462,11 +462,23 @@ const articleSchema = {
     ],
   } : {}),
 };
+
+// Title tag assembly. SEO_STRUCTURE.md caps the title tag at 60 characters and
+// says to drop the brand suffix rather than the keyword when it will not fit,
+// so the suffix is conditional: it was pushing real keywords past Google's
+// truncation point on 77 pages. Posts needing a shorter tag than their H1 set
+// `seoTitle` in frontmatter; `title` stays the reader-facing H1.
+const TITLE_SUFFIX = " | Joe's Vintage Guitars";
+const baseTitle = data.seoTitle || data.title;
+const pageTitle =
+  baseTitle.length + TITLE_SUFFIX.length <= 60
+    ? `${baseTitle}${TITLE_SUFFIX}`
+    : baseTitle;
 ---
 
 <Layout
   bodyClass={isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
-  title={`${data.seoTitle || data.title} | Joe's Vintage Guitars`}
+  title={pageTitle}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
   ogImage={heroAbs}

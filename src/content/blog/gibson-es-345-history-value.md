@@ -1,5 +1,6 @@
 ---
 title: "The Gibson ES-345 Guide: History, Authentication, and Value of the Stereo Semi-Hollow"
+seoTitle: "Gibson ES-345 Guide: Authentication, Specs and Value"
 pubDate: "2026-07-14T12:00:00"
 modified: "2026-09-04T10:30:00"
 excerpt: "The Gibson ES-345 added stereo wiring and the six-position Varitone to the ES line in 1959, sitting between the ES-335 and the ES-355. This guide covers the history, the specs, the year-by-year authentication tells, and what a vintage ES-345 is really worth, shown on a 1963 sunburst and a 1966 cherry from the shop."

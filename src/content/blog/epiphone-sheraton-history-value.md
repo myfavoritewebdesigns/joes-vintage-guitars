@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/epiphone-sheraton-history-value/1961-epiphone-sheraton-sunburst-front.jpg"
 heroImageAlt: "Front of a 1961 Epiphone Sheraton in sunburst with mini-humbuckers and a Bigsby vibrato, lying in its original blue-lined case. We buy vintage Epiphone guitars nationwide at Joe's Vintage Guitars."
-metaDescription: "The complete vintage Epiphone Sheraton guide: year-by-year specs, New York pickups vs mini-humbuckers, how to spot a refinish or reissue, serial number dating, and what a Kalamazoo Sheraton is worth."
+metaDescription: "The vintage Epiphone Sheraton guide: year by year specs, New York pickups versus mini-humbuckers, serial dating, refinish tells, and Kalamazoo values."
 ogImage: "/images/blog/epiphone-sheraton-history-value/1961-epiphone-sheraton-sunburst-front.jpg"
 ---
 <nav class="esh-nav-sidebar" id="eshNavSidebar" aria-label="Article section navigation">

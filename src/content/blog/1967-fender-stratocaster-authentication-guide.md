@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1967-fender-stratocaster-authentication-guide/1967-fender-stratocaster-sunburst-front.jpg"
 heroImageAlt: "A 1967 Fender Stratocaster in three-tone sunburst standing in a vintage guitar shop, with a large CBS headstock, rosewood fingerboard, and aged white pickguard."
-metaDescription: "A full authentication and specs guide to the 1967 Fender Stratocaster: neck date codes, F tuners, pot codes, custom colors, finish tells, and what a real one is worth."
+metaDescription: "A full authentication and specs guide to the 1967 Fender Stratocaster: neck date codes, F tuners, pot codes, custom colors and what a real one is worth."
 ogImage: "/images/blog/1967-fender-stratocaster-authentication-guide/1967-fender-stratocaster-sunburst-front.jpg"
 ---
 <style>

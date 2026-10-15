@@ -1,5 +1,6 @@
 ---
 title: "Gibson ES-175 Guide: Evolution, Technical Specs, and Market Value"
+seoTitle: "Gibson ES-175 Value Guide: Specs and Serial Dating"
 pubDate: "2026-02-15T04:50:42"
 modified: "2026-02-18T23:22:01"
 excerpt: "Since its debut, the Gibson ES-175 has been one of the most recorded jazz guitars around. From its Florentine cutaway to the switch from P-90s to PAF humbuckers in 1957, this laminate-body archtop is versatile and instantly recognizable. Our guide breaks down the specs and serial numbers that determine the collector value of your vintage 175."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-es-175-evolution-and-specifications/sell-vintage-gibson-es-175-value-guide-scaled.jpg"
 heroImageAlt: "A vintage Gibson ES-175 hollow-body electric guitar in a classic Sunburst finish, showcasing the iconic Florentine cutaway and double-parallelogram fingerboard inlays."
-metaDescription: "Since its debut, the Gibson ES-175 has been one of the most recorded jazz guitars around. From its Florentine cutaway to the switch from P-90s to PAF humbuckers in 1957, this laminate-body archtop is versatile and instantly recognizable. Our guide breaks down the specs and serial numbers that determine the collector value of your vintage 175."
+metaDescription: "What a vintage Gibson ES-175 is worth, with the specs, serial dating and the 1957 P-90 to PAF change that sets its value. Free appraisal from Joe's."
 ogImage: "/images/blog/gibson-es-175-evolution-and-specifications/sell-vintage-gibson-es-175-value-guide-scaled.jpg"
 wpId: 18166
 ---

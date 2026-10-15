@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg"
 heroImageAlt: "Front of a 1971 Fender Competition Mustang in Competition Blue with seafoam racing stripes, a pearloid pickguard, and the Dynamic Vibrato, in its original orange-lined case. We buy vintage Fender Mustangs nationwide at Joe's Vintage Guitars."
-metaDescription: "The complete vintage Fender Mustang guide: year-by-year specs, the Competition finishes, how to spot a refinish or wrong parts, serial number dating, and what a Mustang is worth today."
+metaDescription: "The vintage Fender Mustang guide: specs year by year, the Competition finishes, refinish and wrong-part tells, serial dating, and what one is worth."
 ogImage: "/images/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg"
 ---
 <nav class="fmg-nav-sidebar" id="fmgNavSidebar" aria-label="Article section navigation">

@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/neck-reset-straightedge-test-vintage-acoustic.jpg"
 heroImageAlt: "Joe Dampt holding a vintage mahogany flat-top guitar with a flat straightedge laid along the fretboard and pointed at the bridge, checking the neck angle."
-metaDescription: "A two minute straightedge test tells you whether your acoustic guitar needs a neck reset. What to look for, what causes it, what the repair costs, and how it affects a vintage guitar's value."
+metaDescription: "A two minute straightedge test tells you if your acoustic needs a neck reset. What to look for, what causes it, repair cost and the effect on value."
 ogImage: "/images/blog/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/neck-reset-straightedge-test-vintage-acoustic.jpg"
 video:
   id: "5vG9ug5XhTI"

@@ -1,5 +1,6 @@
 ---
 title: "What Guitar Did Dolly Parton Play? The Martin 5-18 \"Baby Martin\""
+seoTitle: "What Guitar Did Dolly Parton Play? The Martin 5-18"
 pubDate: "2026-08-26T15:00:00"
 modified: "2026-08-27T18:40:00"
 excerpt: "A 1950 Martin 5-18, serial 115817, is on my bench in Mesa: Size 5, Style 18, the baby Martin. Guitar World and Guitar Player both put Dolly Parton on a 5-18 Terz, and Martin listed her among Size 5 players in July 2026."

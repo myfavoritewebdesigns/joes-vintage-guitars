@@ -1,5 +1,6 @@
 ---
 title: "The Gibson ES-5 and ES-5 Switchmaster: History, Authentication, and Value"
+seoTitle: "Gibson ES-5 and Switchmaster: History, Specs, Value"
 pubDate: "2026-07-13T12:00:00"
 modified: "2026-07-13T12:00:00"
 excerpt: "The Gibson ES-5 was the first production Spanish electric with three pickups, a plush cousin of the L-5 that Gibson sold as the instrument of a thousand voices. This guide covers where it came from, how the original three-P-90 ES-5 became the four-way ES-5 Switchmaster, how the Switchmaster moved to three PAF humbuckers, and how we date, authenticate, and value each one. Every photo is a real ES-5 from our shop, including a 1953 original and a 1958 PAF Switchmaster."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-es-5-switchmaster-history-value/1953-gibson-es-5-sunburst-front.jpg"
 heroImageAlt: "Front of a 1953 Gibson ES-5 in sunburst with three dog-ear P-90 pickups and its original finish, resting in its pink-lined case. We buy vintage Gibson archtops nationwide at Joe's Vintage Guitars."
-metaDescription: "The complete vintage Gibson ES-5 and ES-5 Switchmaster guide: three-P-90 versus PAF humbucker eras, the four-way switch, serial and FON dating, refinish and mod red flags, and what each version is worth."
+metaDescription: "The vintage Gibson ES-5 and ES-5 Switchmaster guide: three P-90 versus PAF eras, the four-way switch, serial and FON dating, and what each is worth."
 ogImage: "/images/blog/gibson-es-5-switchmaster-history-value/1953-gibson-es-5-sunburst-front.jpg"
 ---
 <nav class="es5-nav-sidebar" id="es5NavSidebar" aria-label="Article section navigation">
