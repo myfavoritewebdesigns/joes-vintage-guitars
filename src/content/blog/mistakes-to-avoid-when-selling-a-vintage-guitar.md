@@ -12,25 +12,6 @@ metaDescription: "Avoid common mistakes when selling a vintage guitar. Learn how
 ogImage: "/images/blog/mistakes-to-avoid-when-selling-a-vintage-guitar/1960-telecaster-front.jpg"
 wpId: 12676
 heroImageCaption: "Original details matter. Start with the guitar as it is."
-toc:
-  - href: "#preserve"
-    label: "Trying to improve the guitar"
-  - href: "#identify"
-    label: "Relying on a serial number"
-  - href: "#price"
-    label: "Using asking prices as values"
-  - href: "#paperwork"
-    label: "Worrying about missing paperwork"
-  - href: "#parts"
-    label: "Separating cases and spare parts"
-  - href: "#photos"
-    label: "Leaving buyers guessing"
-  - href: "#claims"
-    label: "Making unverified claims"
-  - href: "#offers"
-    label: "Overlooking the sale terms"
-  - href: "#shipping"
-    label: "Leaving shipping until last"
 ---
 <!-- Approved rewrite published from the JVG article preview. See docs/decisions/selling-mistakes-rewrite.md. Legacy section anchors are retained for inbound links. -->
 
@@ -41,6 +22,18 @@ toc:
 Whether you’ve inherited a guitar, owned it for decades, or decided to [sell part of a collection](/sell-a-guitar-collection/), a little preparation can help you make an informed decision. That preparation should involve gathering information, taking photos, and finding a knowledgeable buyer.
 
 > **Leave the guitar as it is.** You don’t need to clean it, restring it, or get it repaired before asking for an evaluation.
+
+**In This Article**
+
+1. [Trying to improve the guitar](#preserve)
+2. [Relying on a serial number](#identify)
+3. [Using asking prices as values](#price)
+4. [Worrying about missing paperwork](#paperwork)
+5. [Separating cases and spare parts](#parts)
+6. [Leaving buyers guessing](#photos)
+7. [Making unverified claims](#claims)
+8. [Overlooking the sale terms](#offers)
+9. [Leaving shipping until last](#shipping)
 
 <span id="preserve"></span>
 <span id="why-cleaning--maintenance-matter-when-selling-a-vintage-guitar"></span>

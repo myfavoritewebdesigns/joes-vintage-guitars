@@ -7,6 +7,7 @@ Joe approved publishing the revised article on October 15, 2026 after reviewing 
 - Keep contextual links within Joe's Vintage Guitars. Remove outside references from the article body.
 - Preserve the article URL, original publication date, WordPress ID, category, and legacy heading anchors. Update the modification date.
 - Use the existing production blog layout, header, footer, contact form, author details, and image optimization/licensing components. The hosted article preview supplied the approved copy and hero photo, not a replacement for shared site chrome.
+- Keep the contents list inline in the article. The optional floating TOC covered part of the contact form during desktop review, so this post does not opt into it.
 - Apply the current production copy rules to punctuation and heading capitalization without changing the approved meaning.
 
 The rewrite is an intentional departure from the old live article, so a migration parity report is expected to flag its replaced headings and removed body images. Assess those differences against this record and the approved preview; do not restore obsolete advice for parity.
