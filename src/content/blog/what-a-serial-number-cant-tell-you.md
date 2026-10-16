@@ -31,6 +31,8 @@ toc:
 
 This Strat is Candy Apple Red, a 1965, and a Fender serial from that stretch only gets you a range, late L-series into the early F plates. Chips on the horn break to silver, and checking runs off the neck plate into a pocket that still shows the paint-stick yellow. If a serial shows up on a listing, those are the facts I still have to see. The longer argument is in my [Vintage Verified essay](https://www.vintageverified.com/joes-vintage).
 
+If you're trying to find a year before getting into the inspection details, my [guide to finding a guitar's age](/how-old-is-my-guitar/) puts the serial, parts and construction checks in order. If the brand or model is still uncertain, [identify the guitar first](/what-guitar-do-i-have/).
+
 <nav class="post-toc-inline" aria-label="Table of contents">
 
 -   [What A Serial Number Actually Proves](#what-a-serial-number-actually-proves)

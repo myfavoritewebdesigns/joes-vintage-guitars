@@ -1,4 +1,5 @@
 ---
+import { guitarGuides } from "../config/site";
 import PostCard from "./PostCard.astro";
 import BlogPagination from "./BlogPagination.astro";
 import ContactSection from "./ContactSection.astro";
@@ -30,6 +31,14 @@ const { heading, intro, posts, current, total, basePath, categories, activeCateg
     <p class="barch__eyebrow">Joe's Vintage Guitars Blog</p>
     <h1 class="barch__h1">{heading}</h1>
     {intro && <p class="barch__intro">{intro}</p>}
+
+    {basePath === "/blog" && current === 1 && (
+      <section class="barch__guides" aria-labelledby="identify-your-guitar">
+        <h2 id="identify-your-guitar">Identify Your Guitar</h2>
+        <p>If you don't know what you've got, start with these guides. I'll walk you through the brand, age and value, or the first steps after finding a guitar.</p>
+        <ul>{guitarGuides.map(guide => <li><a href={guide.href}>{guide.label}</a></li>)}</ul>
+      </section>
+    )}
 
     <nav class="barch__cats" aria-label="Blog categories">
       <a class={`barch__cat${activeCategory === "" ? " is-active" : ""}`} href="/blog/">All Posts</a>
@@ -121,6 +130,14 @@ const { heading, intro, posts, current, total, basePath, categories, activeCateg
     color: var(--color-brand-brown-warm, #4a3a24);
     margin: 0 0 26px;
   }
+  .barch__guides { margin: 0 0 30px; padding: 24px; border: 1px solid #d9c8a6; background: #fff; }
+  .barch__guides h2 { margin: 0 0 10px; font: 700 28px/1.2 var(--font-display, Oswald), sans-serif; color: var(--color-brand-rust-dark); }
+  .barch__guides p { max-width: 70ch; margin: 0 0 14px; line-height: 1.6; }
+  .barch__guides ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 24px; margin: 0; padding: 0; list-style: none; }
+  .barch__guides li:first-child { grid-column: 1 / -1; }
+  .barch__guides a { display: inline-block; padding-block: 5px; color: var(--color-brand-rust-dark); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .barch__guides a:hover { color: var(--color-brand-rust); }
+  @media (max-width: 560px) { .barch__guides { padding: 18px; } .barch__guides ul { grid-template-columns: 1fr; } }
   .barch__cats {
     display: flex;
     flex-wrap: wrap;

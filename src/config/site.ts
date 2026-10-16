@@ -201,6 +201,15 @@ export interface NavGroup {
   children: NavLink[];
 }
 
+/** Starting points for readers who need to identify an instrument. */
+export const guitarGuides: NavLink[] = [
+  { label: "What Guitar Do I Have?", href: "/what-guitar-do-i-have/" },
+  { label: "Found An Old Guitar?", href: "/found-an-old-guitar/" },
+  { label: "What Brand Is My Guitar?", href: "/what-brand-is-my-guitar/" },
+  { label: "How Old Is My Guitar?", href: "/how-old-is-my-guitar/" },
+  { label: "What Affects My Guitar's Value?", href: "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/" },
+];
+
 /** Top row of the desktop header (also rendered in the mobile drawer). */
 export const primaryNav: NavLink[] = [
   { label: "Home", href: "/" },
@@ -222,10 +231,11 @@ export const sellMenu: NavGroup = {
   ],
 };
 
-/** "Serial Numbers & Dating" dropdown in the header second row. */
+/** Guitar identification and brand serial guides in the shared header. */
 export const idMenu: NavGroup = {
-  label: "Serial Numbers & Dating",
+  label: "Guitar Guides",
   children: [
+    ...guitarGuides,
     { label: "Fender Serial Numbers & Dating", href: "/fender-guitars-serial-number-guide/" },
     { label: "Gibson Serial Numbers & Dating", href: "/how-to-read-gibson-serial-numbers/" },
     { label: "Martin Serial Numbers & Dating", href: "/martin-serial-and-model-numbers/" },
@@ -238,6 +248,7 @@ export const idMenu: NavGroup = {
 
 /** Footer's top-row menu (matches primaryNav today, but kept separate for future divergence). */
 export const footerTopMenu: NavLink[] = [
+  { label: "Guitar Guides", href: "/what-guitar-do-i-have/" },
   { label: "Home", href: "/" },
   { label: "About Joe", href: "/about-me/" },
   { label: "JVG Blog", href: "/blog/" },
