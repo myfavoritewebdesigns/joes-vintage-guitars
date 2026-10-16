@@ -26,6 +26,8 @@ The front of the body of a Collings 360st
 
 <h2 id="how-accurate-are-the-blue-book-of-guitar-values-and-vintage-guitar-price-guide">How Accurate are the Blue Book of Guitar Values and Vintage Guitar Price Guide?</h2>
 
+Before matching your guitar to a book entry, [work out its brand, model and year](/what-guitar-do-i-have/). If yours has wear, repairs or changed parts, my guide to [the seven factors that affect vintage guitar value](/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/) explains why the published figure may not fit it.
+
 <h3 id="the-official-vintage-guitar-price-guide">The Official Vintage Guitar Price Guide</h3>
 
 If you have been spending time determining the value of your guitar, chances are that you’ve run across the Vintage Guitar Price Guide at least in passing. The Vintage guitar price guide, which is published by Vintage Guitar Magazine and is updated yearly, has been around since 1989. This price guide takes into consideration purchase and sales information from many top guitar dealers around the country and has been a trusted source for guitar valuations for decades. Over my years of guitar buying and selling, I have found the Vintage Guitar Price Guide to be quite accurate overall especially when I am dealing with a guitar that is in excellent condition. In fact, even with all of the knowledge and resources I have gained over years of guitar buying and selling, I still buy a vintage guitar price guide every year! Click the link to buy the Price Guide! [**Vintage Guitar Price Guide**](https://store.vintageguitar.com/price-guide.html).  

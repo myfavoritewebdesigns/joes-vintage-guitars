@@ -224,3 +224,6 @@
 @media (max-width: 600px) {
   .jvg-comp-grid { grid-template-columns: 1fr; }
 }
+
+/* Contextual links from detailed guides to their identification overview. */
+.jvg-guide-context { margin-block: .75rem 1rem; max-width: 70ch; font-size: 1rem; line-height: 1.65; }
