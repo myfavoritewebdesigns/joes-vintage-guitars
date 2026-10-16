@@ -231,11 +231,10 @@ export const sellMenu: NavGroup = {
   ],
 };
 
-/** Guitar identification and brand serial guides in the shared header. */
+/** "Serial Numbers & Dating" dropdown in the header second row. */
 export const idMenu: NavGroup = {
-  label: "Guitar Guides",
+  label: "Serial Numbers & Dating",
   children: [
-    ...guitarGuides,
     { label: "Fender Serial Numbers & Dating", href: "/fender-guitars-serial-number-guide/" },
     { label: "Gibson Serial Numbers & Dating", href: "/how-to-read-gibson-serial-numbers/" },
     { label: "Martin Serial Numbers & Dating", href: "/martin-serial-and-model-numbers/" },
