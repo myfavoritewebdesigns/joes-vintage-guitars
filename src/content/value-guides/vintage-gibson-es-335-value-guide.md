@@ -1,14 +1,21 @@
-A vintage Gibson ES-335 needs a value range that matches its production era, original finish and factory hardware. I separate an early dot-neck stopbar guitar from a later block-neck example before comparing prices, then account for the condition of the individual instrument.
+A 1965 Gibson ES-335 with a factory trapeze tailpiece, original finish and pickups, and minor changes falls around $13,000 to $15,500 in the completed-sale comparisons reviewed as of October 2026. That range includes replacement tuners or a replacement nut; I don't apply it to an untouched early dot-neck guitar.
 
 For the year and originality checks behind that comparison, use my [Gibson ES-335 dating and authentication guide](/gibson-es-335-345-355-dating-guide/). This page focuses on the appraisal: which examples belong together, what changes the offer, and what information I need from an owner.
 
 ## ES-335 Price Ranges By Era
 
-**Research status as of October 2026:** The clean-original price bands are still under review. I haven't published a range where the available completed sales don't establish the guitar's condition and originality well enough to support it.
+**As of October 2026. All ranges are in US dollars.** These are rounded completed-sale comparisons, excluding shipping and tax. They aren't dealer buying offers or guaranteed selling prices.
 
-The intended baseline is an all-original guitar in excellent condition, with its original case and no structural repairs. A dealer's advertised price, an unverified sold listing and an auction result for a repaired guitar don't establish that baseline on their own. Missing bands aren't a statement that an era has no value; they mean the evidence isn't ready for a general price table.
+| Year And Configuration | Range | Condition Assumed |
+| --- | --- | --- |
+| 1965 ES-335, Factory Trapeze, Cherry Or Sunburst | $13,000 to $15,500 | Original finish and pickups, original case, no reported structural break. Minor changes allowed: replacement nut, period replacement tuners or a filled neck dent. This is not an all-original collector band. |
 
-For an individual guitar, I can assess the photographs, known repairs and included parts together. That gives us a defined instrument to compare instead of trying to make a broad online range fit an unknown guitar.
+This band covers a specific middle ground: original finish and pickups, with a small disclosed change elsewhere. The comparisons include both wider and narrower necks, so the year alone doesn't place a guitar at the top of the range. A replacement nut, changed tuners and a filled dent also aren't interchangeable descriptions.
+
+I keep factory stopbar and Maestro examples outside this trapeze row. The dot-neck years, original natural finishes and earlier block-neck stopbar guitars need their own evidence; this table doesn't set their ceiling.
+
+The range is grounded in at least three separate completed transactions from the Reverb Price Guide, with each linked description checked for finish, pickups, repairs and case. Seller descriptions provide the condition evidence; they aren't a substitute for examining your guitar. I haven't used current asking prices to fill missing rows.
+
 
 ## The ES-335 Comparisons I Use
 
@@ -49,6 +56,14 @@ A pickup is the magnetic assembly beneath the strings that sends the signal to a
 
 The [1962 ES-335 model guide](/post/1962-gibson-es-335-guide/) documents that transitional year. If a guitar's date or configuration remains uncertain, I leave the valuation conditional on resolving it.
 
+<figure>
+
+![Cherry ES-335 with block inlays, covered humbuckers and a stopbar in a yellow-lined case](../../assets/blog/1962-gibson-es-335-guide/1962-gibson-es-335-cherry-scaled.jpg)
+
+<figcaption>This 1962 ES-335 shows the block inlays and stopbar combination. Finish, pickups and condition still need to match the price comparison. Photo by Joe Dampt.</figcaption>
+
+</figure>
+
 ### The Mid-1960s Transition
 
 Factory stopbars, trapeze tailpieces and vibratos need different comparisons. A stopbar is the bar behind the bridge that anchors the strings. A trapeze anchors them from the end of the body, while a vibrato adds a moving mechanism that lets the player change pitch with an arm.
@@ -57,6 +72,14 @@ A later conversion can make a guitar look like a more sought-after factory confi
 
 The [1965 ES-335 short Maestro example](/post/1965-gibson-es-335-short-maestro-vibrola/) illustrates why the exact hardware belongs in the description. A year alone doesn't tell a buyer which version is being offered.
 
+<figure>
+
+![Sunburst ES-335 with a short Maestro vibrato and its arm fitted](../../assets/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-maestro-front-of-body.jpg)
+
+<figcaption>This 1965 ES-335 has the short Maestro arrangement. It should be compared with the same factory configuration. Photo by Joe Dampt.</figcaption>
+
+</figure>
+
 ### Later 1960s Examples
 
 Later 1960s ES-335s need their own completed-sale comparisons. I don't price them by applying a guessed discount to a dot-neck range. That shortcut hides differences in necks, hardware, pickups and the actual condition of the examples being compared.
@@ -64,6 +87,14 @@ Later 1960s ES-335s need their own completed-sale comparisons. I don't price the
 A clean later guitar can also present a different choice from an earlier guitar with substantial repairs. I describe those choices directly so an owner can understand why two broadly similar instruments might draw different offers.
 
 The [1966 ES-335 reference](/post/1966-gibson-es-335-authentication-guide/) and [1968 ES-335 guide](/post/1968-gibson-es-335-guide/) cover those examples in detail. This value page uses that identification work without repeating the inspection procedure.
+
+<figure>
+
+![Cherry ES-335 with two covered pickups, block inlays and a trapeze tailpiece](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-scaled.jpg)
+
+<figcaption>The trapeze tailpiece anchors the strings from the end of this 1966 ES-335. A stopbar conversion would change its appraisal description. Photo by Joe Dampt.</figcaption>
+
+</figure>
 
 ## Original Finish And The Appraisal
 
@@ -74,6 +105,14 @@ Ordinary wear isn't the same thing as refinishing. A worn original guitar and a 
 I won't assign a blanket percentage to finish work without comparable evidence. The extent of the work, the guitar's other changes and the condition of the comparison instruments all affect the result. Applying several guessed discounts in sequence can produce a precise-looking figure with no reliable foundation.
 
 Color also needs a careful description. A factory finish name is a claim about the instrument's history, while a photograph records how it looks under particular lighting. I don't infer a rare factory finish from a color cast in a photograph.
+
+<figure>
+
+![Sunburst ES-335 with block inlays, trapeze tailpiece and black witch hat knobs](../../assets/blog/1968-gibson-es-335-guide/1968-gibson-es-335-sunburst-9-scaled.jpg)
+
+<figcaption>This 1968 example shows a later 1960s configuration. I compare its era and condition separately from the early dot-neck guitars. Photo by Joe Dampt.</figcaption>
+
+</figure>
 
 ## Pickups, Electronics And Replacement Parts
 
@@ -103,6 +142,14 @@ Keep receipts, repair records and any original accessories together. Paperwork c
 
 If a part was removed years ago, leave it with the guitar and explain what you know. I don't need an owner to reinstall it before the first appraisal. That avoids turning a straightforward condition report into another round of work.
 
+<figure>
+
+![Gibson hang tags, instruction sheets and a case key arranged on a black guitar case](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-paperword-case-candy-scaled.jpg)
+
+<figcaption>Keep hang tags, instructions and the case key with the instrument. They help describe the complete package. Photo by Joe Dampt.</figcaption>
+
+</figure>
+
 ## Asking Prices, Completed Sales And Offers
 
 An asking price tells me what a seller hopes to receive. A realized price records a completed transaction. I use completed results to support a range and keep dealer advertisements as a separate check on what buyers are being asked to pay.
@@ -112,6 +159,14 @@ The terms behind a result need to be comparable too. An auction total can includ
 A retail sale price also isn't the same as the amount an owner receives after selling costs. If you're comparing offers, put the expected net proceeds, timing and obligations beside each other. A larger headline number can come with fees, work or uncertainty that the headline doesn't show.
 
 I buy vintage Gibsons nationwide from my shop in Mesa, Arizona. My [Gibson selling page](/sell-my-gibson-guitar/) explains that process. An appraisal begins with the guitar's details; it doesn't require an owner to have already decided to sell.
+
+<figure>
+
+![Pink-lined brown guitar case with a Stone Case Company badge beside an ES-335 headstock](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-stone-case-1024x683.jpg)
+
+<figcaption>The case interior and maker's badge help document what accompanies the guitar. Case condition is part of the comparison. Photo by Joe Dampt.</figcaption>
+
+</figure>
 
 ## Getting A Useful ES-335 Appraisal
 
