@@ -12,6 +12,9 @@ metaDescription: "The 1968 Gibson ES-335 marks the final year of Gibson’s one-
 ogImage: "/images/blog/1968-gibson-es-335-guide/1968-gibson-es-335-sunburst-9-scaled.jpg"
 wpId: 20834
 ---
+
+For current ranges and condition assumptions, see my [ES-335 value guide by year](/vintage-gibson-es-335-value-guide/).
+
 ## The 1968 Gibson ES-335: A Collector's Guide
 
 1.  [The 1968 Color Palette](#color-palette)
