@@ -28,7 +28,7 @@ const tracks = [
 
 <article class="bd" id="top">
   <header class="bd-hero">
-    <Image class="bd-hero__photo" src={hero} alt="Natural 1955 Gibson J-200 attributed to singer and guitarist Bob Denton" width={1600} priority />
+    <Image class="bd-hero__photo" src={hero} alt="Natural 1955 Gibson J-200 attributed to singer and guitarist Bob Denton" width={Math.min(hero.width, 1600)} priority />
     <div class="bd-hero__shade"></div>
     <div class="bd-hero__copy">
       <p class="bd-script">Every Guitar Has A Story</p>
@@ -53,15 +53,15 @@ const tracks = [
   </section>
 
   <figure class="bd-feature">
-    <Image src={hero} alt="Front of the natural 1955 Gibson J-200 in its pink-lined case beside Bob Denton artwork" width={1200} />
+    <Image src={hero} alt="Front of the natural 1955 Gibson J-200 in its pink-lined case beside Bob Denton artwork" width={Math.min(hero.width, 1200)} />
     <figcaption>The natural-finish 1955 J-200, shown with Bob Denton artwork. The Denton ownership is attributed provenance.</figcaption>
   </figure>
 
   <section class="bd-guitar-grid" aria-label="Details of the 1955 Gibson J-200">
-    <figure class="bd-wide"><Image src={guitarBack} alt="Figured maple back of the 1955 Gibson J-200" width={1280} /><figcaption>The figured maple back, with wear and finish checking visible in the supplied photograph.</figcaption></figure>
-    <figure><Image src={headstock} alt="Bound Gibson J-200 headstock with crown inlay and gold-colored tuners" width={900} /><figcaption>The bound headstock, pearl crown, and gold-colored tuners.</figcaption></figure>
-    <figure><Image src={label} alt="Orange Gibson label inside the 1955 J-200 showing serial A 20058" width={900} /><figcaption>The orange label reads A 20058, a number in Gibson's 1955 A-prefix range.</figcaption></figure>
-    <figure class="bd-wide"><Image src={neckHeel} alt="Rear neck joint and heel of the 1955 Gibson J-200" width={1280} /><figcaption>The rear of the neck joint and heel, photographed in the pink-lined case.</figcaption></figure>
+    <figure class="bd-wide"><Image src={guitarBack} alt="Figured maple back of the 1955 Gibson J-200" width={Math.min(guitarBack.width, 1280)} /><figcaption>The figured maple back, with wear and finish checking visible in the supplied photograph.</figcaption></figure>
+    <figure><Image src={headstock} alt="Bound Gibson J-200 headstock with crown inlay and gold-colored tuners" width={Math.min(headstock.width, 900)} /><figcaption>The bound headstock, pearl crown, and gold-colored tuners.</figcaption></figure>
+    <figure><Image src={label} alt="Orange Gibson label inside the 1955 J-200 showing serial A 20058" width={Math.min(label.width, 900)} /><figcaption>The orange label reads A 20058, a number in Gibson's 1955 A-prefix range.</figcaption></figure>
+    <figure class="bd-wide"><Image src={neckHeel} alt="Rear neck joint and heel of the 1955 Gibson J-200" width={Math.min(neckHeel.width, 1280)} /><figcaption>The rear of the neck joint and heel, photographed in the pink-lined case.</figcaption></figure>
   </section>
 
   <section class="bd-chapter">
@@ -79,11 +79,11 @@ const tracks = [
       <p>These scans came with the guitar photographs. They show Denton performing, a portrait, Denton playing alongside Eddie Cochran, the Dot pressing of “Playboy,” and later “Playboy” collection artwork.</p>
     </div>
     <div class="bd-archive__grid">
-      <figure><Image src={performing} alt="Bob Denton singing and playing guitar at a microphone" width={500} /><figcaption>Bob Denton singing and playing guitar at a microphone.</figcaption></figure>
-      <figure><Image src={portrait} alt="Young Bob Denton in a color portrait" width={500} /><figcaption>A young Bob Denton.</figcaption></figure>
-      <figure class="bd-wide"><Image src={band} alt="Bob Denton at far right playing alongside Eddie Cochran at far left" width={900} /><figcaption>Bob Denton, far right, playing alongside Eddie Cochran, far left.</figcaption></figure>
-      <figure><Image src={record} alt="Dot Records label for Bob Denton's single Playboy, catalog number 45-15833" width={500} /><figcaption>Bob Denton's “Playboy” on Dot, 45-15833.</figcaption></figure>
-      <figure><Image src={cover} alt="Bob Denton Playboy collection cover artwork" width={500} /><figcaption>“Playboy” collection artwork featuring Bob Denton with an acoustic guitar.</figcaption></figure>
+      <figure><Image src={performing} alt="Bob Denton singing and playing guitar at a microphone" width={Math.min(performing.width, 500)} /><figcaption>Bob Denton singing and playing guitar at a microphone.</figcaption></figure>
+      <figure><Image src={portrait} alt="Young Bob Denton in a color portrait" width={Math.min(portrait.width, 500)} /><figcaption>A young Bob Denton.</figcaption></figure>
+      <figure class="bd-wide"><Image src={band} alt="Bob Denton at far right playing alongside Eddie Cochran at far left" width={Math.min(band.width, 900)} /><figcaption>Bob Denton, far right, playing alongside Eddie Cochran, far left.</figcaption></figure>
+      <figure><Image src={record} alt="Dot Records label for Bob Denton's single Playboy, catalog number 45-15833" width={Math.min(record.width, 500)} /><figcaption>Bob Denton's “Playboy” on Dot, 45-15833.</figcaption></figure>
+      <figure><Image src={cover} alt="Bob Denton Playboy collection cover artwork" width={Math.min(cover.width, 500)} /><figcaption>“Playboy” collection artwork featuring Bob Denton with an acoustic guitar.</figcaption></figure>
     </div>
   </section>
 
