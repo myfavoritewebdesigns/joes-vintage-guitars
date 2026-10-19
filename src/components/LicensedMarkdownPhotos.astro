@@ -1,16 +1,53 @@
 ---
 import { load } from "cheerio";
+import { getImage } from "astro:assets";
 import { buildImageGraph } from "../lib/imageLicense";
+import { resolveImage } from "../lib/images";
 
 // License only explicitly marked shop photographs after Astro has rendered
 // their Markdown images, so metadata uses the exact optimized image URLs.
 const html = await Astro.slots.render("default");
 const $ = load(html, null, false);
+// Norlin details retain the unaltered imported file as their enlargement link.
+// Derivatives never exceed the source resolution or the 2400px detail ceiling.
+for (const img of $("figure.norlin-photo img").toArray()) {
+  const photo = $(img);
+  const figure = photo.closest("figure");
+  const fullImagePath = photo.attr("data-full-image") || figure.attr("data-full-image");
+  if (!fullImagePath) continue;
+  const original = resolveImage(fullImagePath);
+  if (!original) throw new Error(`Missing Norlin original photograph: ${fullImagePath}`);
+  const width = Math.min(original.width, 2400);
+  const widths = [...new Set([400, 800, 1200, 1600, width].filter((value) => value <= width))];
+  const built = await getImage({ src: original, layout: "none", width, widths });
+  photo.attr({
+    src: built.src,
+    width: String(built.attributes.width),
+    height: String(built.attributes.height),
+    loading: "lazy",
+    decoding: "async",
+  });
+  photo.removeAttr("srcset data-astro-image style data-full-image");
+  if (built.srcSet.attribute) photo.attr("srcset", built.srcSet.attribute);
+  figure.attr("data-full-image", original.src);
+  const existingLink = photo.parent("a");
+  const link = existingLink.length ? existingLink : $("<a></a>");
+  link.attr({
+    href: figure.attr("data-original-url") || original.src,
+    class: "norlin-photo-link",
+    title: "Open Original Photo",
+    "aria-label": `Open original photo: ${photo.attr("alt") || "Joe’s archive photograph"}`,
+  });
+  if (!existingLink.length) photo.wrap(link);
+}
 // Match the 820px article column, its 24px side padding and figure borders.
 // Paired photos have a 20px gap and stack at the template's 600px breakpoint.
 $("figure.burst-feature-photo img").each((_, img) => {
-  const paired = $(img).closest(".burst-photo-pair").length > 0;
-  $(img).attr("sizes", paired
+  const norlinPair = $(img).closest(".norlin-photo-pair").length > 0;
+  const burstPair = $(img).closest(".burst-photo-pair").length > 0;
+  $(img).attr("sizes", norlinPair
+    ? "(max-width: 600px) calc(100vw - 50px), (max-width: 820px) calc(50vw - 35px), 375px"
+    : burstPair
     ? "(max-width: 600px) calc(100vw - 50px), (max-width: 820px) calc(50vw - 36px), 374px"
     : "(max-width: 820px) calc(100vw - 50px), 770px");
 });
