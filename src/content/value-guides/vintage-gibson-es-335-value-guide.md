@@ -1,20 +1,56 @@
-A 1965 Gibson ES-335 with a factory trapeze tailpiece, original finish and pickups, and minor changes falls around $13,000 to $15,500 in the completed-sale comparisons reviewed as of October 2026. That range includes replacement tuners or a replacement nut; I don't apply it to an untouched early dot-neck guitar.
+Vintage Gibson ES-335 reference values run from $3,000 to $5,500 for typical 1970s examples to $33,000 to $70,000 for early dot-neck guitars, as of October 2026. I list every year from 1958 through 1979 below, with the finish, pickups and condition each range assumes.
 
 For the year and originality checks behind that comparison, use my [Gibson ES-335 dating and authentication guide](/gibson-es-335-345-355-dating-guide/). This page focuses on the appraisal: which examples belong together, what changes the offer, and what information I need from an owner.
 
-## ES-335 Price Ranges By Era
+## Gibson ES-335 Values By Year
 
-**As of October 2026. All ranges are in US dollars.** These are rounded completed-sale comparisons, excluding shipping and tax. They aren't dealer buying offers or guaranteed selling prices.
+**As of October 2026. All ranges are in US dollars.** Each year is listed separately. **Repeated ranges are shared era references**, supported by at least three independent completed sales per comparison group, not three sales for every individual year. Match the condition notes below before applying a range.
 
-| Year And Configuration | Range | Condition Assumed |
+| Year | Value Range | Comparison Group |
 | --- | --- | --- |
-| 1965 ES-335, Factory Trapeze, Cherry Or Sunburst | $13,000 to $15,500 | Original finish and pickups, original case, no reported structural break. Minor changes allowed: replacement nut, period replacement tuners or a filled neck dent. This is not an all-original collector band. |
+| 1958 | $33,000 to $70,000 | Dot Neck, Sunburst |
+| 1959 | $33,000 to $70,000 | Dot Neck, Sunburst Or Cherry |
+| 1960 | $33,000 to $70,000 | Dot Neck, Sunburst Or Cherry |
+| 1961 | $33,000 to $70,000 | Dot Neck, Sunburst Or Cherry |
+| 1962, Early Dot Neck | $33,000 to $70,000 | Shared Dot-Neck Reference |
+| 1962, Block Neck | $25,000 to $37,000 | Block Neck, Original Humbuckers |
+| 1963 | $25,000 to $37,000 | Block Neck, Original Humbuckers |
+| 1964 | $25,000 to $37,000 | Block Neck, Original Humbuckers |
+| 1965 | $13,000 to $15,500 | Factory Trapeze, Minor Changes |
+| 1966 | $5,000 to $7,500 | Factory Trapeze, Played Originals |
+| 1967 | $5,000 to $7,500 | Factory Trapeze, Played Originals |
+| 1968 | $5,000 to $7,500 | Factory Trapeze, Played Originals |
+| 1969 | $5,000 to $7,500 | Factory Trapeze, Played Originals |
+| 1970 | $3,000 to $5,500 | Original Finish And Pickups |
+| 1971 | $3,000 to $5,500 | Original Finish And Pickups |
+| 1972 | $3,000 to $5,500 | Original Finish And Pickups |
+| 1973 | $3,000 to $5,500 | Original Finish And Pickups |
+| 1974 | $3,000 to $5,500 | Original Finish And Pickups |
+| 1975 | $3,000 to $5,500 | Original Finish And Pickups |
+| 1976 | $3,000 to $5,500 | Original Finish And Pickups |
+| 1977 | $3,000 to $5,500 | Original Finish And Pickups |
+| 1978 | $3,000 to $5,500 | Original Finish And Pickups |
+| 1979 | $3,000 to $5,500 | Original Finish And Pickups |
 
-This band covers a specific middle ground: original finish and pickups, with a small disclosed change elsewhere. The comparisons include both wider and narrower necks, so the year alone doesn't place a guitar at the top of the range. A replacement nut, changed tuners and a filled dent also aren't interchangeable descriptions.
+The 1962 transition gets two rows because an early dot-neck example and a block-neck example need different comparisons. The 1965 range is for a factory trapeze guitar with minor changes; factory stopbars, other vibratos and untouched collector examples can require a different appraisal. The later trapeze and 1970s ranges include more playing wear than the clean early block-neck group.
 
-I keep factory stopbar and Maestro examples outside this trapeze row. The dot-neck years, original natural finishes and earlier block-neck stopbar guitars need their own evidence; this table doesn't set their ceiling.
+Natural finishes, factory custom orders and modified stopbar guitars aren't priced as ordinary sunburst or cherry examples. A 1958 guitar also needs its own configuration checked before using the shared dot-neck reference. I don't treat these broad bands as a smooth price curve from one year to the next.
 
-The range is grounded in at least three separate completed transactions from the Reverb Price Guide, with each linked description checked for finish, pickups, repairs and case. Seller descriptions provide the condition evidence; they aren't a substitute for examining your guitar. I haven't used current asking prices to fill missing rows.
+### Condition Behind The Ranges
+
+**1958 To 1961 Dot-Neck Era:** Original sunburst or cherry finish and PAF pickups, no disclosed structural repair. Clean to lightly played; reproduction tuners can be present. Case completeness varies. Natural finishes excluded.
+
+**1962 To 1964 Block-Neck Era:** Clean original-finish guitars with original humbuckers and no disclosed structural repair. Factory stopbar or vibrato, including unusually clean examples. Case completeness varies; minor replaced strap buttons accepted.
+
+**1965 ES-335, Factory Trapeze, Cherry Or Sunburst:** Original finish and pickups, original case, no reported structural break. Minor changes allowed: replacement nut, period replacement tuners or a filled neck dent. This is not an all-original collector band.
+
+**1966 To 1969 Trapeze Era:** Played original-finish guitars with original pickups and no disclosed structural repair. Replacement tuners or switch accepted; case can be replaced. Factory trapeze configuration.
+
+**1970 To 1979 Standard ES-335TD:** Original-finish guitars with vintage Gibson pickups, no disclosed structural break, normal wear or minor hardware changes. Case originality varies. Stereo CRS, refinishes and replacement pickup sets excluded. Some lower-priced examples require minor control servicing; a fully functioning guitar should be compared accordingly.
+
+I use rounded Reverb Price Guide final transaction prices and Heritage auction results, checked against the instrument descriptions. The records span 2020 to 2026, depending on the group; the review date doesn't turn an older sale into a current transaction. Auction totals include the buyer's premium. Shipping and tax are excluded, and these aren't dealer buying offers or guaranteed selling prices.
+
+Seller descriptions supply the condition evidence behind these comparisons. I still need to examine the actual guitar before treating its finish, pickups or repair history as established. A repeated era range is a starting point for that appraisal, not a separate sale record for each year.
 
 
 ## The ES-335 Comparisons I Use
@@ -95,6 +131,12 @@ The [1966 ES-335 reference](/post/1966-gibson-es-335-authentication-guide/) and 
 <figcaption>The trapeze tailpiece anchors the strings from the end of this 1966 ES-335. A stopbar conversion would change its appraisal description. Photo by Joe Dampt.</figcaption>
 
 </figure>
+
+### The 1970s Reference
+
+The 1970s rows cover ordinary ES-335 examples with original finish and pickups, allowing the minor hardware changes described above. The comparisons include walnut and sunburst guitars, and cases range from original to replacements. Some lower-priced examples need control servicing, so I don't describe the whole group as flawless.
+
+Factory special versions and later conversions need their own comparisons. Original electronics, working controls and a clear repair history make the description more useful than the year alone.
 
 ## Original Finish And The Appraisal
 
