@@ -1,20 +1,48 @@
-An all-original cherry Gibson SG Special from 1961 to 1965, in excellent condition with its original case, falls around $6,000 to $11,000 as of October 2026. I account for the exact year, factory bridge or vibrato and condition before placing a guitar within that broad range.
+Vintage Gibson SG Special reference values run from $2,000 to $2,500 for the 1970s mini-humbucker version to $6,000 to $11,000 for clean original early P-90 guitars, as of October 2026. I list the years through 1979 below and flag the later dates that need confirmation.
 
 For the year and model details, start with my [Gibson SG dating and authentication guide](/gibson-sg-dating-guide/). This page deals with how those established facts affect the appraisal.
 
-## SG Special Price Ranges
+## Gibson SG Special Values By Year
 
-**As of October 2026. All ranges are in US dollars.** These are rounded completed-sale comparisons, excluding shipping and tax. They aren't dealer buying offers or guaranteed selling prices.
+**As of October 2026. All ranges are in US dollars.** Each year is listed separately. **Repeated ranges are shared era references**, supported by at least three independent completed sales per comparison group, not three sales for every individual year. Match the condition notes below before applying a range.
 
-| Year And Configuration | Range | Condition Assumed |
+| Year | Value Range | Comparison Group |
 | --- | --- | --- |
-| 1961 To 1965 SG Special, Cherry | $6,000 to $11,000 | All-original examples in excellent condition with original case and no structural repairs. Includes factory wraparound and short-vibrato configurations; case wear varies. |
+| 1961 | $6,000 to $11,000 | Small Guard, P-90s |
+| 1962 | $6,000 to $11,000 | Small Guard, P-90s |
+| 1963 | $6,000 to $11,000 | Small Guard, P-90s |
+| 1964 | $6,000 to $11,000 | Small Guard, P-90s |
+| 1965 | $6,000 to $11,000 | Small Guard, P-90s |
+| 1966 | $3,000 to $6,600 | Large Guard, P-90s |
+| 1967 | $3,000 to $6,600 | Large Guard, P-90s |
+| 1968 | $3,000 to $6,600 | Large Guard, P-90s |
+| 1969 | $3,000 to $6,600 | Large Guard, P-90s |
+| 1970 | $3,000 to $6,600 | Large Guard, P-90s |
+| 1971 | $3,000 to $6,600 | Large Guard, P-90s |
+| 1972 | $2,000 to $2,500 | Factory Mini-Humbuckers |
+| 1973 | $2,000 to $2,500 | Factory Mini-Humbuckers |
+| 1974 | $2,000 to $2,500 | Factory Mini-Humbuckers |
+| 1975 | $2,000 to $2,500 | Factory Mini-Humbuckers |
+| 1976 | $2,000 to $2,500* | Factory Mini-Humbuckers, Date Unconfirmed |
+| 1977 | $2,000 to $2,500* | Factory Mini-Humbuckers, Date Unconfirmed |
+| 1978 | Not Cataloged | No Original-Run Special Range |
+| 1979 | Not Cataloged | No Original-Run Special Range |
 
-The spread reflects more than condition labels. This group includes early and later small-guard Specials, factory wraparound bridges and short vibratos. Original chipboard cases qualify as original cases here; I haven't silently substituted a hard-case requirement for the package Gibson supplied with these examples.
+The 1960s ranges apply to cherry P-90 Specials. The later range applies to factory mini-humbuckers, with original finish and the disclosed minor changes below. The brief SG Pro is a separate model; I don't price it from a Special row just because the body looks similar.
 
-The range applies to cherry P-90 Specials without structural repairs. A white or other factory custom finish, a large-guard Special or a later mini-humbucker guitar needs a different comparison.
+**About 1976 and 1977:** Reverb groups the mini-humbucker Special through 1977, while the period Gibson catalog and price-list record ends in 1975. Those two rows are conditional references for the same version, not confirmation that a guitar was built in that year. A purchase receipt or warranty date can be later than manufacture. No regular original-run Special is priced for 1978 or 1979 here.
 
-The range is grounded in at least three separate completed transactions from the Reverb Price Guide, with each linked description checked for finish, pickups, repairs and case. Seller descriptions provide the condition evidence; they aren't a substitute for examining your guitar. I haven't used current asking prices to fill missing rows.
+### Condition Behind The Ranges
+
+**1961 To 1965 SG Special, Cherry:** All-original examples in excellent condition with original case and no structural repairs. Includes factory wraparound and short-vibrato configurations; case wear varies.
+
+**1966 To 1971 Large-Guard P-90 Special:** Original cherry finish and P-90s, no disclosed structural repair. Played to exceptionally clean, original or period case. Minor screw or tuner changes accepted.
+
+**1972 To 1977 Mini-Humbucker Special Reference:** Original finish and factory mini-humbuckers, no disclosed structural repair. Light to normal wear; replaced tuners, a pot or strap buttons accepted. Case can be replaced or absent.
+
+I use rounded Reverb Price Guide final transaction prices and Heritage auction results, checked against the instrument descriptions. The records span 2020 to 2026, depending on the group; the review date doesn't turn an older sale into a current transaction. Auction totals include the buyer's premium. Shipping and tax are excluded, and these aren't dealer buying offers or guaranteed selling prices.
+
+Seller descriptions supply the condition evidence behind these comparisons. I still need to examine the actual guitar before treating its finish, pickups or repair history as established. A repeated era range is a starting point for that appraisal, not a separate sale record for each year.
 
 <figure>
 
