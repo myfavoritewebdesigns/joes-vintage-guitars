@@ -1,20 +1,46 @@
-A cherry 1962 to 1964 Gibson SG Junior with its original finish and P-90, original case and minor parts changes falls around $6,000 to $8,500 as of October 2026. That comparison allows a replacement guard or bridge and doesn't establish the price of an untouched collector example.
+Vintage Gibson SG Junior reference values run from $2,300 to $4,000 for later large-guard guitars to $5,000 to $8,500 for early small-guard examples, as of October 2026. I cover every year of the original 1961 to 1971 run and mark the remaining years through 1979 separately.
 
 My [Gibson SG dating and authentication guide](/gibson-sg-dating-guide/) covers the model and year checks. Once those are settled, this guide explains what belongs in the value comparison.
 
-## SG Junior Price Ranges By Era
+## Gibson SG Junior Values By Year
 
-**As of October 2026. All ranges are in US dollars.** These are rounded completed-sale comparisons, excluding shipping and tax. They aren't dealer buying offers or guaranteed selling prices.
+**As of October 2026. All ranges are in US dollars.** Each year is listed separately. **Repeated ranges are shared era references**, supported by at least three independent completed sales per comparison group, not three sales for every individual year. Match the condition notes below before applying a range.
 
-| Year And Configuration | Range | Condition Assumed |
+| Year | Value Range | Comparison Group |
 | --- | --- | --- |
-| 1962 To 1964 SG Junior, Cherry, Minor Changes | $6,000 to $8,500 | Original finish and P-90, original case, no reported structural repair. Allows replacement pickguard or bridge with original part retained, or added shielding. Not an untouched collector band. |
+| 1961 | $5,000 to $8,500 | Small Guard, Original P-90 |
+| 1962 | $5,000 to $8,500 | Small Guard, Original P-90 |
+| 1963 | $5,000 to $8,500 | Small Guard, Original P-90 |
+| 1964 | $5,000 to $8,500 | Small Guard, Original P-90 |
+| 1965 | $5,000 to $8,500 | Small Guard, Original P-90 |
+| 1966 | $2,300 to $4,000 | Large Guard, Factory Vibrato |
+| 1967 | $2,300 to $4,000 | Large Guard, Factory Vibrato |
+| 1968 | $2,300 to $4,000 | Large Guard, Factory Vibrato |
+| 1969 | $2,300 to $4,000 | Large Guard, Factory Vibrato |
+| 1970 | $2,300 to $4,000 | Large Guard, Factory Vibrato |
+| 1971 | $2,300 to $4,000 | Large Guard, Factory Vibrato |
+| 1972 | Outside Original Run | Verify Model And Date |
+| 1973 | Outside Original Run | Verify Model And Date |
+| 1974 | Outside Original Run | Verify Model And Date |
+| 1975 | Outside Original Run | Verify Model And Date |
+| 1976 | Outside Original Run | Verify Model And Date |
+| 1977 | Outside Original Run | Verify Model And Date |
+| 1978 | Outside Original Run | Verify Model And Date |
+| 1979 | Outside Original Run | Verify Model And Date |
 
-This is a comparison for guitars that retain their original finish and pickup but have limited changes elsewhere. The supporting descriptions include replacement pickguards, a replacement bridge with the original retained, and added removable shielding. These changes are disclosed in the comparison group instead of being described as untouched.
+The original SG Junior run ends in 1971. A guitar advertised as a 1972 to 1979 Junior needs its model and date resolved before I quote a Junior value; the SG 100 and other later student models don't become Juniors because they have one pickup. The table marks those years rather than assigning a price to a model outside this run.
 
-An original case is included, and the records report no structural repairs. I don't use this band for a refinished Junior, a routed body or a repaired headstock. A completely untouched example also needs its own comparison.
+Early rows allow a few disclosed parts changes and quality refrets. The later range uses original cherry, large-guard guitars with their factory vibratos. A completely untouched collector example, factory white finish, repaired neck or replacement pickup needs its own comparison.
 
-The range is grounded in at least three separate completed transactions from the Reverb Price Guide, with each linked description checked for finish, pickups, repairs and case. Seller descriptions provide the condition evidence; they aren't a substitute for examining your guitar. I haven't used current asking prices to fill missing rows.
+### Condition Behind The Ranges
+
+**1961 To 1965 Small-Guard Junior:** Original cherry finish and P-90, no disclosed structural repair. Played to excellent, with minor replacement guard, bridge or shielding changes. Case originality varies; quality refrets accepted.
+
+**1966 To 1971 Large-Guard Junior:** Original cherry finish and P-90, factory vibrato, no disclosed structural repairs or modifications. Light to normal playing wear. Case completeness varies.
+
+I use rounded Reverb Price Guide final transaction prices and Heritage auction results, checked against the instrument descriptions. The records span 2020 to 2026, depending on the group; the review date doesn't turn an older sale into a current transaction. Auction totals include the buyer's premium. Shipping and tax are excluded, and these aren't dealer buying offers or guaranteed selling prices.
+
+Seller descriptions supply the condition evidence behind these comparisons. I still need to examine the actual guitar before treating its finish, pickups or repair history as established. A repeated era range is a starting point for that appraisal, not a separate sale record for each year.
 
 <figure>
 
