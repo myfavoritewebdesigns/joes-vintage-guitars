@@ -128,7 +128,7 @@ const authorPhoto = resolveImage("images/fender-sn/about-me-joe-1.jpg");
 // fallback otherwise (raw <img>, the 15 raw-HTML-blocked heroes).
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
 const captionedHero = heroMeta && data.heroImageCaption
-  ? await getImage({ src: heroMeta, layout: "constrained", width: 1200 })
+  ? await getImage({ src: heroMeta, layout: "constrained", width: Math.min(heroMeta.width, 1200) })
   : null;
 
 // Real pixel dimensions for the public-path heroes too: read once at build
@@ -609,7 +609,7 @@ const articleSchema = {
           <Image
             src={heroMeta}
             alt={data.heroImageAlt || data.title}
-            width={1200}
+            width={Math.min(heroMeta.width, 1200)}
             priority
           />
         ) : (
@@ -641,7 +641,7 @@ const articleSchema = {
       <!-- Author box -->
       <aside class="bpost__author" aria-label="About the author">
         {authorPhoto ? (
-          <Image class="bpost__author-photo" src={authorPhoto} alt="Joe Dampt, owner of Joe's Vintage Guitars" width={120} height={120} loading="lazy" decoding="async" />
+          <Image class="bpost__author-photo" src={authorPhoto} alt="Joe Dampt, owner of Joe's Vintage Guitars" width={Math.min(authorPhoto.width, 120)} height={120} loading="lazy" decoding="async" />
         ) : (
           <img class="bpost__author-photo" src={assetSrc("images/about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars" width="120" height="120" loading="lazy" decoding="async" />
         )}

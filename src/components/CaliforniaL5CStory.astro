@@ -17,7 +17,7 @@ const details = [
 
 <article class="l5story" id="top">
   <header class="l5story-hero">
-    <Image class="l5story-hero__photo" src={owner} alt="The original owner's daughter holding her father's 1954 Gibson L-5C" width={1800} priority />
+    <Image class="l5story-hero__photo" src={owner} alt="The original owner's daughter holding her father's 1954 Gibson L-5C" width={Math.min(owner.width, 1800)} priority />
     <div class="l5story-hero__shade"></div>
     <div class="l5story-hero__copy">
       <p class="l5story-script">Every Guitar Has A Story</p>
@@ -42,7 +42,7 @@ const details = [
   </section>
 
   <figure class="l5story-feature">
-    <Image src={guitarCase} alt="A 1954 Gibson L-5C displayed in its pink-lined hardshell case" width={1400} />
+    <Image src={guitarCase} alt="A 1954 Gibson L-5C displayed in its pink-lined hardshell case" width={Math.min(guitarCase.width, 1400)} />
     <figcaption>The 1954 Gibson L-5C in its fitted hardshell case with pink lining.</figcaption>
   </figure>
 
@@ -55,10 +55,10 @@ const details = [
   </section>
 
   <section class="l5story-gallery" aria-label="Details of the 1954 Gibson L-5C">
-    <figure class="l5story-wide"><Image src={guitarFront} alt="Full front of the sunburst 1954 Gibson L-5C with a rounded Venetian cutaway" width={1280} /><figcaption>The sunburst carved top, rounded Venetian cutaway, block inlays, and gold hardware.</figcaption></figure>
-    <figure class="l5story-wide"><Image src={guitarBack} alt="Figured maple back of the sunburst 1954 Gibson L-5C" width={1280} /><figcaption>Strong figure across the maple back.</figcaption></figure>
-    <figure><Image src={headstock} alt="Bound Gibson L-5C headstock with pearl logo and flowerpot inlay" width={900} /><figcaption>The bound headstock, pearl flowerpot inlay, and gold hardware.</figcaption></figure>
-    <figure><Image src={tuners} alt="Back of the Gibson L-5C headstock showing six gold tuners" width={900} /><figcaption>The back of the headstock and its six gold-plated tuners.</figcaption></figure>
+    <figure class="l5story-wide"><Image src={guitarFront} alt="Full front of the sunburst 1954 Gibson L-5C with a rounded Venetian cutaway" width={Math.min(guitarFront.width, 1280)} /><figcaption>The sunburst carved top, rounded Venetian cutaway, block inlays, and gold hardware.</figcaption></figure>
+    <figure class="l5story-wide"><Image src={guitarBack} alt="Figured maple back of the sunburst 1954 Gibson L-5C" width={Math.min(guitarBack.width, 1280)} /><figcaption>Strong figure across the maple back.</figcaption></figure>
+    <figure><Image src={headstock} alt="Bound Gibson L-5C headstock with pearl logo and flowerpot inlay" width={Math.min(headstock.width, 900)} /><figcaption>The bound headstock, pearl flowerpot inlay, and gold hardware.</figcaption></figure>
+    <figure><Image src={tuners} alt="Back of the Gibson L-5C headstock showing six gold tuners" width={Math.min(tuners.width, 900)} /><figcaption>The back of the headstock and its six gold-plated tuners.</figcaption></figure>
   </section>
 
   <section class="l5story-chapter l5story-chapter--paper">

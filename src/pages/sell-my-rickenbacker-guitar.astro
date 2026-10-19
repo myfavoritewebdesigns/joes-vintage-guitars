@@ -193,8 +193,7 @@ const structuredData = [
         <Image
           src={imgMeta("i-buy-and-appraise-vintage-guitars.png")}
           alt="Joe Dampt Buys And Appraises Vintage Guitars Online Or In Person"
-          width={520}
-        />
+          width={Math.min(imgMeta("i-buy-and-appraise-vintage-guitars.png").width, 520)} />
       </div>
     </div>
   </section>
@@ -207,7 +206,7 @@ const structuredData = [
         {featureCols.map((c) => (
           <div class="smr-nationwide__col">
             <img src={c.icon} alt={c.iconAlt} class="smr-nationwide__icon" loading="lazy" />
-            <Image src={c.photo} alt={c.photoAlt} class="smr-nationwide__photo" width={340} />
+            <Image src={c.photo} alt={c.photoAlt} class="smr-nationwide__photo" width={Math.min(c.photo.width, 340)} />
             <hr class="smr-rule" />
             <h4 set:html={c.headline} />
             <p set:html={c.body} />

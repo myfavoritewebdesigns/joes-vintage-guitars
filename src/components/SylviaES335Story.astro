@@ -11,7 +11,7 @@ import sylviaLater from "../assets/blog/sylvias-1959-gibson-es-335/sylvia-later.
 
 <article class="bd" id="top">
   <header class="bd-hero">
-    <Image class="bd-hero__photo" src={hero} alt="Sylvia’s daughter holding the 1959 Gibson ES-335 beside its open pink-lined case" width={1600} priority />
+    <Image class="bd-hero__photo" src={hero} alt="Sylvia’s daughter holding the 1959 Gibson ES-335 beside its open pink-lined case" width={Math.min(hero.width, 1600)} priority />
     <div class="bd-hero__shade"></div>
     <div class="bd-hero__copy">
       <p class="bd-script">Every Guitar Has A Story</p>
@@ -31,9 +31,9 @@ import sylviaLater from "../assets/blog/sylvias-1959-gibson-es-335/sylvia-later.
   </section>
 
   <section class="bd-guitar-grid" aria-label="Details of Sylvia’s 1959 Gibson ES-335">
-    <figure class="bd-wide"><Image src={finish} alt="Original sunburst finish on Sylvia’s 1959 Gibson ES-335" width={1280} /><figcaption>The original sunburst finish.</figcaption></figure>
-    <figure><Image src={hero} alt="Sylvia’s daughter holding the 1959 Gibson ES-335 at the airport" width={900} /><figcaption>Sylvia’s daughter with the 1959 ES-335 and its open pink-lined case.</figcaption></figure>
-    <figure><Image src={neck} alt="Back of the neck on Sylvia’s 1959 Gibson ES-335" width={900} /><figcaption>The back of the neck and its original finish.</figcaption></figure>
+    <figure class="bd-wide"><Image src={finish} alt="Original sunburst finish on Sylvia’s 1959 Gibson ES-335" width={Math.min(finish.width, 1280)} /><figcaption>The original sunburst finish.</figcaption></figure>
+    <figure><Image src={hero} alt="Sylvia’s daughter holding the 1959 Gibson ES-335 at the airport" width={Math.min(hero.width, 900)} /><figcaption>Sylvia’s daughter with the 1959 ES-335 and its open pink-lined case.</figcaption></figure>
+    <figure><Image src={neck} alt="Back of the neck on Sylvia’s 1959 Gibson ES-335" width={Math.min(neck.width, 900)} /><figcaption>The back of the neck and its original finish.</figcaption></figure>
   </section>
 
   <section class="bd-chapter">
@@ -46,10 +46,10 @@ import sylviaLater from "../assets/blog/sylvias-1959-gibson-es-335/sylvia-later.
   <section class="bd-archive">
     <div class="bd-archive__heading"><p class="bd-eyebrow">From the Family Archive</p><h2>The Photographs and Receipt That Came With It</h2><p>These records stayed with the guitar. There is a photograph of Sylvia’s daughter holding it at the airport, two photographs of Sylvia and the original 1959 sales receipt.</p></div>
     <div class="bd-archive__grid">
-      <figure><Image src={daughter} alt="Sylvia’s daughter holding the 1959 Gibson ES-335 at the airport" width={700} /><figcaption>Sylvia’s daughter with the 1959 ES-335 and its open pink-lined case.</figcaption></figure>
-      <figure><Image src={receipt} alt="Original August 18, 1959 Hall’s Music Store receipt for Sylvia’s Gibson ES-335" width={700} /><figcaption>The original Hall’s Music Store receipt, dated August 18, 1959.</figcaption></figure>
-      <figure><Image src={sylviaYoung} alt="Early portrait of Sylvia, original owner of the 1959 Gibson ES-335" width={700} /><figcaption>An early portrait of Sylvia.</figcaption></figure>
-      <figure><Image src={sylviaLater} alt="Later family photograph of Sylvia" width={700} /><figcaption>Sylvia in a later family photograph.</figcaption></figure>
+      <figure><Image src={daughter} alt="Sylvia’s daughter holding the 1959 Gibson ES-335 at the airport" width={Math.min(daughter.width, 700)} /><figcaption>Sylvia’s daughter with the 1959 ES-335 and its open pink-lined case.</figcaption></figure>
+      <figure><Image src={receipt} alt="Original August 18, 1959 Hall’s Music Store receipt for Sylvia’s Gibson ES-335" width={Math.min(receipt.width, 700)} /><figcaption>The original Hall’s Music Store receipt, dated August 18, 1959.</figcaption></figure>
+      <figure><Image src={sylviaYoung} alt="Early portrait of Sylvia, original owner of the 1959 Gibson ES-335" width={Math.min(sylviaYoung.width, 700)} /><figcaption>An early portrait of Sylvia.</figcaption></figure>
+      <figure><Image src={sylviaLater} alt="Later family photograph of Sylvia" width={Math.min(sylviaLater.width, 700)} /><figcaption>Sylvia in a later family photograph.</figcaption></figure>
     </div>
   </section>
 

@@ -56,14 +56,18 @@ const { src, alt, caption, width, height, loading, decoding, fetchpriority, size
 
 // One getImage() call drives BOTH the <img> below and the contentUrl. They share
 // `built.src`, so they cannot diverge.
+// Never ask for more pixels than the file has. A width above the file makes Astro drop the
+// file's own width from the srcset and stop at the breakpoint below it (750 for an 800 pixel
+// file), so the browser gets a smaller copy than the file allows.
+const cappedWidth = width ? Math.min(width, src.width) : undefined;
 const built = await getImage({
   src,
   layout: "constrained",
-  ...(width ? { width } : {}),
+  ...(cappedWidth ? { width: cappedWidth } : {}),
 });
 
 const contentUrl = `${SITE_URL}${built.src.startsWith("/") ? "" : "/"}${built.src}`;
-const renderedWidth = built.attributes?.width ?? width ?? src.width;
+const renderedWidth = built.attributes?.width ?? cappedWidth ?? src.width;
 const renderedHeight = built.attributes?.height ?? height ?? src.height;
 
 const imageObject = {
