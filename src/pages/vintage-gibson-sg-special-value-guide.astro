@@ -1,21 +1,37 @@
 ---
-// GAP 2 Type C preview. Uses the reference-page header bands and fixed TOC.
-// Existing authentication pages stay untouched; review previews remain noindex.
+// GAP 2 reference page. Index production while excluding branch previews.
 import Layout from '../layouts/Layout.astro';
 import { Content, getHeadings } from '../content/value-guides/vintage-gibson-sg-special-value-guide.md';
 import data from '../data/value-guides/vintage-gibson-sg-special-value-guide.json';
-import { assetSrc, ogCardSize } from '../lib/images';
+import ogAsset from '../assets/images/gibson-sg-family-guide/1970-gibson-sg-special-comparison.webp';
 import { SITE_URL } from '../config/site';
 const headings = getHeadings().filter(h => h.depth === 2);
+const isPreview = import.meta.env.CF_PAGES_BRANCH
+  ? import.meta.env.CF_PAGES_BRANCH !== 'main'
+  : import.meta.env.DEV;
 const faqSchema = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
   mainEntity: data.faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
 };
+const structuredData = [faqSchema, {
+  '@context': 'https://schema.org', '@type': 'Article',
+  headline: data.h1, description: data.description,
+  image: SITE_URL + ogAsset.src,
+  datePublished: data.date, dateModified: data.date, inLanguage: 'en-US',
+  author: { '@id': SITE_URL + '/about-me/#person' },
+  publisher: { '@id': SITE_URL + '/' }, mainEntityOfPage: SITE_URL + data.url
+}, {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL + '/' },
+    { '@type': 'ListItem', position: 2, name: data.h1, item: SITE_URL + data.url }
+  ]
+}];
 ---
 <Layout title={data.title} description={data.description} canonical={data.url}
-  ogImage={SITE_URL + assetSrc(data.ogImage)} {...ogCardSize(data.ogImage)} ogImageAlt={data.alt}
-  ogType="article" structuredData={faqSchema} publishedTime={data.date} modifiedTime={data.date}
-  noIndex={true} bodyClass="spvg-page">
+  ogImage={SITE_URL + ogAsset.src} ogImageWidth={ogAsset.width} ogImageHeight={ogAsset.height} ogImageAlt={data.alt}
+  ogType="article" structuredData={structuredData} publishedTime={data.date} modifiedTime={data.date}
+  noIndex={isPreview} bodyClass="spvg-page">
   <div class="spvg-backdrop" aria-hidden="true"><div></div><div></div></div>
   <div class="spvg-heading">
     <div class="spvg-measure">
@@ -25,7 +41,6 @@ const faqSchema = {
     </div>
   </div>
   <div class="spvg-shell">
-    <div class="spvg-review" role="note"><strong>Editorial Preview</strong><p>Price ranges and photographs updated October 2026. Read each table's condition assumptions. This review preview is excluded from search indexing.</p></div>
     <details class="spvg-mobile-toc"><summary>On This Page</summary><nav aria-label="Article sections"><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></details>
     <aside class="spvg-toc" aria-label="On this page"><p>On This Page</p><nav><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></aside>
     <article class="spvg-article">
