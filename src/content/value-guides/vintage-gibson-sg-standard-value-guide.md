@@ -1,21 +1,20 @@
-A vintage Gibson SG Standard's value depends on its era, factory configuration and surviving original parts. I compare early Les Paul-branded Standards separately from later SGs, then account for finish work, repairs and playing condition.
+A clean, all-original cherry 1965 Gibson SG Standard with its original case sits around $12,000 to $14,000 in the completed-sale comparisons reviewed as of October 2026. I use that band for the small-guard, Maestro-equipped guitar with normal light wear and no structural repairs.
 
 My [Gibson SG dating and authentication guide](/gibson-sg-dating-guide/) covers the identification steps. Once the model and period are settled, the appraisal can focus on what a buyer would actually receive.
 
 ## SG Standard Price Ranges By Era
 
-**Research status as of October 2026:** The clean-original bands haven't cleared the completed-sales evidence requirement. No era range is published here until it supports an all-original guitar in excellent condition with its original case.
+**As of October 2026. All ranges are in US dollars.** These are rounded completed-sale comparisons, excluding shipping and tax. They aren't dealer buying offers or guaranteed selling prices.
 
-The Standard's market can't be represented by a single average assembled from everything called an SG. A modern reissue, an original early Standard and a repaired vintage example are different comparisons. I also separate factory hardware from later conversions.
+| Year And Configuration | Range | Condition Assumed |
+| --- | --- | --- |
+| 1965 SG Standard, Cherry, Small Guard And Maestro | $12,000 to $14,000 | Clean, all-original examples with original case and no structural repairs; normal light wear accepted. Comparable seller grades range from Very Good to Excellent. |
 
-| Era Group | Appraisal Focus |
-| --- | --- |
-| 1961 To 1962 | Les Paul-branded SG shape, original pickup set and factory vibrato |
-| 1963 To 1965 | Small-guard configuration, pickup history, neck and finish |
-| 1966 To 1971 | Large-guard configuration, factory hardware and repairs |
-| 1972 Through The 1970s | Exact Standard version, construction and original electronics |
+The comparison group is cherry, small-guard and Maestro-equipped. It includes narrow-neck 1965 guitars and normal checking or light buckle wear. I don't transfer this band to an early PAF-equipped Standard, a factory custom color or a later large-guard model.
 
-This is a comparison map, not a substitute for a price table. When the evidence for a band is incomplete, I leave the number out instead of using advertised retail prices to fill the space.
+The market records behind this row run from 2024 through 2025. They give an observed comparison range, not proof of a price increase during 2026. A guitar with repaired wood or replaced pickups needs a separate appraisal.
+
+The range is grounded in at least three separate completed transactions from the Reverb Price Guide, with each linked description checked for finish, pickups, repairs and case. Seller descriptions provide the condition evidence; they aren't a substitute for examining your guitar. I haven't used current asking prices to fill missing rows.
 
 <figure>
 
@@ -25,6 +24,7 @@ This is a comparison map, not a substitute for a price table. When the evidence 
 
 </figure>
 
+
 ## Early Les Paul-Branded Standards
 
 The pointed body arrived while Gibson was still using the Les Paul name. An early guitar can therefore belong to the SG Standard family without being labeled the way a later SG is. A new guitar with a 1961 reissue designation is a separate instrument from one made in 1961.
@@ -33,6 +33,14 @@ For the appraisal, I want the original pickup configuration and vibrato describe
 
 A completed sale for a heavily repaired early Standard can be relevant to another repaired early Standard. It shouldn't be used without qualification to establish the range for an excellent, unrepaired example. The original pickups alone don't erase changed tuners, finish work or structural repairs.
 
+<figure>
+
+![Close view of the sideways vibrato and folded arm on a cherry Gibson SG](../../assets/blog/vintage-gibson-sg-standard-value-guide/gibson-sg-sideways-vibrola-example-scaled.jpg)
+
+<figcaption>The sideways vibrato is part of the early SG configuration. Its originality and completeness belong in the appraisal. Photo by Joe Dampt.</figcaption>
+
+</figure>
+
 ## Small Guards And Later Standards
 
 The small-guard period includes changes that affect the comparison between instruments. I keep the actual neck, hardware and pickup combination in the appraisal record. I don't assign every guitar a standard premium merely because a listing names a desirable year.
@@ -40,6 +48,14 @@ The small-guard period includes changes that affect the comparison between instr
 A long Maestro vibrato, a factory Bigsby and a later stopbar conversion need different descriptions. A replacement that improves playability for one owner can still change the collector comparison. The appraisal should explain that distinction without dismissing the guitar as an instrument.
 
 The large-guard period also needs its own completed-sale evidence. I don't work backward from an early Standard's price by subtracting a guessed percentage. That calculation would conceal the differences between the examples rather than measure them.
+
+<figure>
+
+![Cherry SG Standard with a large black pickguard, two covered humbuckers and a long Maestro vibrato](../../assets/blog/vintage-gibson-sg-standard-value-guide/late-1960s-sg-standard-large-pickguard.jpg)
+
+<figcaption>This later Standard has the large pickguard and long Maestro assembly. I keep it separate from the small-guard comparison. Photo by Joe Dampt.</figcaption>
+
+</figure>
 
 ## Original Humbuckers And Their History
 
@@ -50,6 +66,14 @@ Original covers, replaced covers, rewound coils and replacement pickups are dist
 My [Gibson PAF and Patent Number pickup reference](/post/gibson-paf-patent-number-pickup-guide/) covers pickup examination. I don't need an owner to unsolder covers or disturb original wiring to get an initial value opinion.
 
 A loose vintage pickup's asking price isn't an amount I automatically add to an SG. The instrument is being sold as a whole, with its neck, finish, electronics and history. Adding a parts catalog together can produce an inflated figure that no comparable guitar sale supports.
+
+<figure>
+
+![Engraved lyre and Gibson lettering on an SG Maestro vibrato cover](../../assets/blog/vintage-gibson-sg-standard-value-guide/gibson-sg-maestro-lyre-vibrola.jpg)
+
+<figcaption>The long engraved Maestro cover is one part of the complete assembly. A missing arm or changed tailpiece needs its own description. Photo by Joe Dampt.</figcaption>
+
+</figure>
 
 ## Finish, Repairs And Collector Condition
 
@@ -76,6 +100,14 @@ A Standard shouldn't be priced from Special or Custom sales solely because the b
 The [SG family reference](/post/vintage-gibson-sg-family-guide/) covers the wider history. SG Deluxe, numbered SG models and later reissues also require their own identification before they enter a value comparison.
 
 If the model is uncertain, I would rather leave the appraisal conditional than label the guitar from one familiar feature. That keeps a mistaken name from becoming the foundation of a price estimate.
+
+<figure>
+
+![Blue-green SG finish around four reflector knobs, pickup switch and output jack](../../assets/blog/vintage-gibson-sg-standard-value-guide/gibson-pelham-blue-sg.jpg)
+
+<figcaption>This close view shows the color around the controls. A photograph records appearance; establishing a factory custom finish needs the guitar's wider history. Photo by Joe Dampt.</figcaption>
+
+</figure>
 
 ## What To Send With An SG Standard
 
