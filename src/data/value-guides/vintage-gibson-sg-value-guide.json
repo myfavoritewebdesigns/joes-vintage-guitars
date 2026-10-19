@@ -1,32 +1,32 @@
 {
   "title": "Vintage Gibson SG Value Guide: Models And Years To 1979",
-  "description": "See vintage Gibson SG values by year through 1979. Joe explains the era ranges, original parts, condition and case details behind each appraisal.",
+  "description": "Vintage SG values from $2,000 to $25,000 across Standard, Special, Junior and Custom. Compare years through 1979, pickups, finishes and condition.",
   "h1": "Vintage Gibson SG Value Guide",
   "url": "/vintage-gibson-sg-value-guide/",
-  "ogImage": "/images/blog/vintage-gibson-sg-value-guide/early-60s-gibson-sg-standard-comparison.webp",
+  "ogImage": "src/assets/images/gibson-sg-family-guide/early-60s-gibson-sg-standard-comparison.webp",
   "alt": "Cherry Gibson SG Standard with two covered humbuckers, a small pickguard and sideways vibrato",
   "date": "2026-10-19",
   "model": "Gibson SG",
   "faqs": [
     {
       "q": "How Much Is A Vintage Gibson SG Worth?",
-      "a": "Vintage Gibson SG reference values range from $2,000 to $2,500 for 1970s mini-humbucker Specials to $13,500 to $25,000 for early Standards, as of October 2026. I've listed all four models by year through 1979 and marked years outside a model's original run."
+      "a": "Vintage Gibson SG reference values range from $2,000 to $2,500 for 1970s mini-humbucker Specials to $13,500 to $25,000 for early Standards, as of October 2026. The model, pickups, finish and repair history explain the spread; I've listed the four main models through 1979 below."
     },
     {
-      "q": "Why Do Several Years Show The Same Value Range?",
-      "a": "The repeated figures are shared era references based on at least three independent completed sales per comparison group. They aren't separate statistical estimates for every year. I use the guitar's exact configuration, condition and originality to refine that starting range rather than inventing an annual premium."
+      "q": "Which SG Model Has One Pickup?",
+      "a": "The original SG Junior has one P-90 and two controls. Later large-guard Juniors use a soapbar-style mounting, while early small-guard examples have a dog-ear cover. Later one-pickup student models are separate models."
     },
     {
-      "q": "What Condition Do The Price Ranges Assume?",
-      "a": "Read the condition notes for the applicable era. Some groups cover clean original guitars, while others allow normal playing wear, a quality refret or disclosed minor parts changes. Case originality also varies. A full refinish, structural repair or replacement pickup requires a different comparison."
+      "q": "Were Mini-Humbuckers Original On An SG Special?",
+      "a": "Yes. Mini-humbuckers were standard on the returning Special from 1972. The earlier classic Special uses two P-90s, and the brief SG Pro is a separate version."
     },
     {
-      "q": "Is A Dealer Offer The Same As The Published Range?",
-      "a": "It isn't. The table describes completed-sale comparisons before shipping and tax. A buying offer also accounts for the instrument's condition, selling costs, preparation and the dealer's margin. I explain an offer for the actual guitar rather than promising the top of a general range."
+      "q": "Does A Refinish Change Gibson SG Value?",
+      "a": "Yes. The ranges assume the original finish described in each era's notes. A full refinish needs matching altered-guitar sales. Published Les Paul deductions provide context, but they are not measured Gibson SG discounts."
     },
     {
-      "q": "Does A Quality Refret Change The Collector Category?",
-      "a": "A quality refret is accepted maintenance and preserves the all-original classification of an otherwise all-original guitar. It takes the instrument out of the museum-quality category. Neck reshaping is a separate alteration."
+      "q": "How Can I Get My Gibson SG Appraised?",
+      "a": "Send clear front and back photographs, both sides of the headstock, the pickups, bridge, case and any known repairs. Keep removed original parts with the instrument and include the history you know. Those details support an individual appraisal."
     }
   ]
 }
