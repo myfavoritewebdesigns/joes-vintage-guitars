@@ -1,21 +1,82 @@
-Vintage Gibson SG comparisons range from $6,000 to $11,000 for original cherry 1961 to 1965 Specials, while clean original cherry 1965 Standards sit around $12,000 to $14,000 as of October 2026. I use separate ranges for Juniors and Customs because their condition, pickups and production periods differ.
+Vintage Gibson SG reference values range from $2,000 to $2,500 for 1970s mini-humbucker Specials to $13,500 to $25,000 for early Standards, as of October 2026. I've listed all four models by year through 1979 and marked years outside a model's original run.
 
 If the model or year is uncertain, my [Gibson SG dating and authentication guide](/gibson-sg-dating-guide/) covers the identification work. This value hub explains which appraisal to use and how I compare the condition of an SG with completed sales.
 
-## SG Price Ranges By Model
+## SG Values By Year And Model
 
-**As of October 2026. All ranges are in US dollars.** These are rounded completed-sale comparisons, excluding shipping and tax. They aren't dealer buying offers or guaranteed selling prices.
+**As of October 2026. All ranges are in US dollars.** Each year is listed separately. **Repeated ranges are shared era references**, supported by at least three independent completed sales per comparison group, not three sales for every individual year. Match the condition notes below before applying a range.
 
-| Model And Comparison Group | Range | Condition And Details |
-| --- | --- | --- |
-| [1965 SG Standard, Cherry, Small Guard And Maestro](/vintage-gibson-sg-standard-value-guide/) | $12,000 to $14,000 | Clean, all-original examples with original case and no structural repairs; normal light wear accepted. Comparable seller grades range from Very Good to Excellent. |
-| [1961 To 1965 SG Special, Cherry](/vintage-gibson-sg-special-value-guide/) | $6,000 to $11,000 | All-original examples in excellent condition with original case and no structural repairs. Includes factory wraparound and short-vibrato configurations; case wear varies. |
-| [1962 To 1964 SG Junior, Cherry, Minor Changes](/vintage-gibson-sg-junior-value-guide/) | $6,000 to $8,500 | Original finish and P-90, original case, no reported structural repair. Allows replacement pickguard or bridge with original part retained, or added shielding. Not an untouched collector band. |
-| [1968 To 1969 SG Custom, Walnut, Played Examples](/vintage-gibson-sg-custom-value-guide/) | $6,500 to $10,500 | Original finish and pickup set with original case; visible wear and minor wiring or hardware changes. Localized finish touch-up allowed. No reported structural break or full refinish. Not an excellent all-original band. |
+| Year | Standard | Special | Junior | Custom |
+| --- | --- | --- | --- | --- |
+| 1961 | $13,500 to $25,000 | $6,000 to $11,000 | $5,000 to $8,500 | $17,000 to $24,000 |
+| 1962 | $13,500 to $25,000 | $6,000 to $11,000 | $5,000 to $8,500 | $17,000 to $24,000 |
+| 1963 | $13,500 to $25,000 | $6,000 to $11,000 | $5,000 to $8,500 | $17,000 to $24,000 |
+| 1964 | $13,500 to $25,000 | $6,000 to $11,000 | $5,000 to $8,500 | $17,000 to $24,000 |
+| 1965 | $12,000 to $14,000 | $6,000 to $11,000 | $5,000 to $8,500 | $17,000 to $24,000 |
+| 1966 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
+| 1967 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
+| 1968 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
+| 1969 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
+| 1970 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
+| 1971 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
+| 1972 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 |
+| 1973 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 |
+| 1974 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 |
+| 1975 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 |
+| 1976 | $2,400 to $3,000 | $2,000 to $2,500* | Outside Original Run | $3,000 to $6,600 |
+| 1977 | $2,400 to $3,000 | $2,000 to $2,500* | Outside Original Run | $3,000 to $6,600 |
+| 1978 | $2,400 to $3,000 | Not Cataloged | Outside Original Run | $3,000 to $6,600 |
+| 1979 | $2,400 to $3,000 | Not Cataloged | Outside Original Run | $3,000 to $6,600 |
 
-The Standard and Special rows use original collector comparisons with the stated wear allowance. The Junior and Custom rows cover disclosed changes and should be read on those terms. A repaired or refinished guitar needs a closer comparison than subtracting a fixed percentage from this table.
+The four columns use different condition groups. Early Standards and Customs, later played guitars and mini-humbucker Specials aren't interchangeable comparisons. A repaired or refinished SG needs a matching appraisal rather than a fixed deduction from this table.
 
-Each row is supported by at least three separate completed transactions in the Reverb Price Guide, checked against the linked listing descriptions. The dates span 2024 through 2026 across the four groups. I leave other eras and finishes unpriced here until their evidence supports a separate row.
+**Transitional years:** The 1971 Standard and Special rows refer to the familiar large-guard versions, not the SG Deluxe or Pro. A 1971 Custom with the later small guard should use the later configuration as its reference.
+
+**The starred Special rows:** Reverb groups the mini-humbucker model through 1977, while period Gibson catalog and price-list evidence ends in 1975. The 1976 and 1977 figures are conditional references for that version, pending verification of the instrument's date. The original Junior run ends in 1971; later numbered student models need their own appraisal.
+
+### Standard Range Conditions
+
+My [Gibson SG Standard value guide by year](/vintage-gibson-sg-standard-value-guide/) explains the model's comparisons.
+
+**1961 To 1964 Small-Guard Standard:** Original cherry finish and vintage original pickups, no disclosed structural repair, original case. Very Good to Excellent. Minor binding maintenance, a damaged knob or missing pickup decal can be present. Factory vibrato versions included.
+
+**1965 SG Standard, Cherry, Small Guard And Maestro:** Clean, all-original examples with original case and no structural repairs; normal light wear accepted. Comparable seller grades range from Very Good to Excellent.
+
+**1966 To 1971 Large-Guard Standard:** Original cherry finish, pickups and principal hardware, original case, no disclosed structural repair. Normal light wear; a replacement nut can be present.
+
+**1972 To 1979 SG Standard:** Cherry or faded cherry, original finish and pickups, original case, no disclosed structural break. Played to excellent; replacement strap buttons accepted. Factory custom colors excluded.
+
+### Special Range Conditions
+
+My [Gibson SG Special value guide by year](/vintage-gibson-sg-special-value-guide/) explains the model's comparisons.
+
+**1961 To 1965 SG Special, Cherry:** All-original examples in excellent condition with original case and no structural repairs. Includes factory wraparound and short-vibrato configurations; case wear varies.
+
+**1966 To 1971 Large-Guard P-90 Special:** Original cherry finish and P-90s, no disclosed structural repair. Played to exceptionally clean, original or period case. Minor screw or tuner changes accepted.
+
+**1972 To 1977 Mini-Humbucker Special Reference:** Original finish and factory mini-humbuckers, no disclosed structural repair. Light to normal wear; replaced tuners, a pot or strap buttons accepted. Case can be replaced or absent.
+
+### Junior Range Conditions
+
+My [Gibson SG Junior value guide by year](/vintage-gibson-sg-junior-value-guide/) explains the model's comparisons.
+
+**1961 To 1965 Small-Guard Junior:** Original cherry finish and P-90, no disclosed structural repair. Played to excellent, with minor replacement guard, bridge or shielding changes. Case originality varies; quality refrets accepted.
+
+**1966 To 1971 Large-Guard Junior:** Original cherry finish and P-90, factory vibrato, no disclosed structural repairs or modifications. Light to normal playing wear. Case completeness varies.
+
+### Custom Range Conditions
+
+My [Gibson SG Custom value guide by year](/vintage-gibson-sg-custom-value-guide/) explains the model's comparisons.
+
+**1961 To 1965 Small-Guard Custom:** Original white finish and seller-described original pickups, no disclosed structural repairs. Clean to lightly played; refret, replacement knob or uncertain truss rod cover accepted. Case can be replaced.
+
+**1966 To 1971 Large-Guard Custom:** Original white or walnut finish and seller-described original pickup set. Played examples; minor wiring, tuners, knobs, added pickup rings or localized finish touch-up accepted. No disclosed structural break or full refinish. Case can be replaced and hardware may need servicing.
+
+**1972 To 1979 Small-Guard Custom:** Original walnut finish and pickups, no disclosed neck or headstock repair. Played to excellent. Factory Bigsby or stopbar; refrets and replaced pots accepted. Case originality varies.
+
+I use rounded Reverb Price Guide final transaction prices and Heritage auction results, checked against the instrument descriptions. The records span 2020 to 2026, depending on the group; the review date doesn't turn an older sale into a current transaction. Auction totals include the buyer's premium. Shipping and tax are excluded, and these aren't dealer buying offers or guaranteed selling prices.
+
+Seller descriptions supply the condition evidence behind these comparisons. I still need to examine the actual guitar before treating its finish, pickups or repair history as established. A repeated era range is a starting point for that appraisal, not a separate sale record for each year.
 
 
 ## Four Models, Four Appraisals
