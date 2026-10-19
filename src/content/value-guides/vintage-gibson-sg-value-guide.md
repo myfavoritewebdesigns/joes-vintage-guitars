@@ -1,192 +1,146 @@
-Vintage Gibson SG reference values range from $2,000 to $2,500 for 1970s mini-humbucker Specials to $13,500 to $25,000 for early Standards, as of October 2026. I've listed all four models by year through 1979 and marked years outside a model's original run.
+Vintage Gibson SG reference values range from $2,000 to $2,500 for 1970s mini-humbucker Specials to $13,500 to $25,000 for early Standards, as of October 2026. The model, pickups, finish and repair history explain the spread; I've listed the four main models through 1979 below.
 
-If the model or year is uncertain, my [Gibson SG dating and authentication guide](/gibson-sg-dating-guide/) covers the identification work. This value hub explains which appraisal to use and how I compare the condition of an SG with completed sales.
+For the year and original specification, use my [Gibson SG dating and identification guide](/gibson-sg-dating-guide/). This guide covers market value and the features that move it.
 
 ## SG Values By Year And Model
 
-**As of October 2026. All ranges are in US dollars.** Each year is listed separately. **Repeated ranges are shared era references**, supported by at least three independent completed sales per comparison group, not three sales for every individual year. Match the condition notes below before applying a range.
+**Reviewed October 2026. US dollars.** Repeated numbers are shared era references, not separate measurements for each year. Read the condition notes with the table.
 
-| Year | Standard | Special | Junior | Custom |
-| --- | --- | --- | --- | --- |
-| 1961 | $13,500 to $25,000 | $6,000 to $11,000 | $5,000 to $8,500 | $17,000 to $24,000 |
-| 1962 | $13,500 to $25,000 | $6,000 to $11,000 | $5,000 to $8,500 | $17,000 to $24,000 |
-| 1963 | $13,500 to $25,000 | $6,000 to $11,000 | $5,000 to $8,500 | $17,000 to $24,000 |
-| 1964 | $13,500 to $25,000 | $6,000 to $11,000 | $5,000 to $8,500 | $17,000 to $24,000 |
-| 1965 | $12,000 to $14,000 | $6,000 to $11,000 | $5,000 to $8,500 | $17,000 to $24,000 |
-| 1966 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
-| 1967 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
-| 1968 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
-| 1969 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
-| 1970 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
-| 1971 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 |
-| 1972 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 |
-| 1973 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 |
-| 1974 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 |
-| 1975 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 |
-| 1976 | $2,400 to $3,000 | $2,000 to $2,500* | Outside Original Run | $3,000 to $6,600 |
-| 1977 | $2,400 to $3,000 | $2,000 to $2,500* | Outside Original Run | $3,000 to $6,600 |
-| 1978 | $2,400 to $3,000 | Not Cataloged | Outside Original Run | $3,000 to $6,600 |
-| 1979 | $2,400 to $3,000 | Not Cataloged | Outside Original Run | $3,000 to $6,600 |
+| Year | Standard | Special | Junior | Custom | Year Notes |
+| --- | --- | --- | --- | --- | --- |
+| 1961 | $13,500 to $25,000 | $6,000 to $11,000 | $6,000 to $8,500 | $17,000 to $24,000 | Pointed SG body; earlier rounded Special excluded. |
+| 1962 | $13,500 to $25,000 | $6,000 to $11,000 | $6,000 to $8,500 | $17,000 to $24,000 | Small-guard era; factory pickups and vibratos. |
+| 1963 | $13,500 to $25,000 | $6,000 to $11,000 | $6,000 to $8,500 | $17,000 to $24,000 | Small-guard era; factory pickups and vibratos. |
+| 1964 | $13,500 to $25,000 | $6,000 to $11,000 | $6,000 to $8,500 | $17,000 to $24,000 | Small-guard era; factory pickups and vibratos. |
+| 1965 | $12,000 to $14,000 | $6,000 to $11,000 | $6,000 to $8,500 | $17,000 to $24,000 | Small-guard era; factory pickups and vibratos. |
+| 1966 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Guard transition; small and large versions overlap. |
+| 1967 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Large guards; later finishes and neck changes. |
+| 1968 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Large guards; later finishes and neck changes. |
+| 1969 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Large guards; later finishes and neck changes. |
+| 1970 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Large guards; later finishes and neck changes. |
+| 1971 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Deluxe and Pro excluded; Custom changes configuration. |
+| 1972 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | Standard and mini-humbucker Special return. |
+| 1973 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | Later small guards; factory model determines the range. |
+| 1974 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | Later small guards; factory model determines the range. |
+| 1975 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | Later small guards; factory model determines the range. |
+| 1976 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | 549 Special shipments. |
+| 1977 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | 232 Special shipments. |
+| 1978 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | Two late Special shipments. |
+| 1979 | $2,400 to $3,000 | No Range | Outside Original Run | $3,000 to $6,600 | No original-run Junior or Special range. |
 
-The four columns use different condition groups. Early Standards and Customs, later played guitars and mini-humbucker Specials aren't interchangeable comparisons. A repaired or refinished SG needs a matching appraisal rather than a fixed deduction from this table.
+The Special shipment dates above come from the site's [Gibson shipment record](/post/gibson-shipping-totals-1948-1979/#sg-jr-spec-62-78). Shipping can follow manufacture. A small-guard 1966, a later small-guard 1971 Custom, an SG Deluxe or an SG Pro needs the correct configuration identified before a range is applied.
 
-**Transitional years:** The 1971 Standard and Special rows refer to the familiar large-guard versions, not the SG Deluxe or Pro. A 1971 Custom with the later small guard should use the later configuration as its reference.
+### Condition Behind The Ranges
 
-**The starred Special rows:** Reverb groups the mini-humbucker model through 1977, while period Gibson catalog and price-list evidence ends in 1975. The 1976 and 1977 figures are conditional references for that version, pending verification of the instrument's date. The original Junior run ends in 1971; later numbered student models need their own appraisal.
+Each model has its own condition limits: early Standards include intact factory vibratos; early Specials are clean P-90 guitars; early Juniors allow disclosed maintenance; early Customs include older white-finish sales. The later bands generally include more wear and minor changes. The model sections below explain those differences.
 
-### Standard Range Conditions
+### How These Ranges Were Built
 
-My [Gibson SG Standard value guide by year](/vintage-gibson-sg-standard-value-guide/) explains the model's comparisons.
-
-**1961 To 1964 Small-Guard Standard:** Original cherry finish and vintage original pickups, no disclosed structural repair, original case. Very Good to Excellent. Minor binding maintenance, a damaged knob or missing pickup decal can be present. Factory vibrato versions included.
-
-**1965 SG Standard, Cherry, Small Guard And Maestro:** Clean, all-original examples with original case and no structural repairs; normal light wear accepted. Comparable seller grades range from Very Good to Excellent.
-
-**1966 To 1971 Large-Guard Standard:** Original cherry finish, pickups and principal hardware, original case, no disclosed structural repair. Normal light wear; a replacement nut can be present.
-
-**1972 To 1979 SG Standard:** Cherry or faded cherry, original finish and pickups, original case, no disclosed structural break. Played to excellent; replacement strap buttons accepted. Factory custom colors excluded.
-
-### Special Range Conditions
-
-My [Gibson SG Special value guide by year](/vintage-gibson-sg-special-value-guide/) explains the model's comparisons.
-
-**1961 To 1965 SG Special, Cherry:** All-original examples in excellent condition with original case and no structural repairs. Includes factory wraparound and short-vibrato configurations; case wear varies.
-
-**1966 To 1971 Large-Guard P-90 Special:** Original cherry finish and P-90s, no disclosed structural repair. Played to exceptionally clean, original or period case. Minor screw or tuner changes accepted.
-
-**1972 To 1977 Mini-Humbucker Special Reference:** Original finish and factory mini-humbuckers, no disclosed structural repair. Light to normal wear; replaced tuners, a pot or strap buttons accepted. Case can be replaced or absent.
-
-### Junior Range Conditions
-
-My [Gibson SG Junior value guide by year](/vintage-gibson-sg-junior-value-guide/) explains the model's comparisons.
-
-**1961 To 1965 Small-Guard Junior:** Original cherry finish and P-90, no disclosed structural repair. Played to excellent, with minor replacement guard, bridge or shielding changes. Case originality varies; quality refrets accepted.
-
-**1966 To 1971 Large-Guard Junior:** Original cherry finish and P-90, factory vibrato, no disclosed structural repairs or modifications. Light to normal playing wear. Case completeness varies.
-
-### Custom Range Conditions
-
-My [Gibson SG Custom value guide by year](/vintage-gibson-sg-custom-value-guide/) explains the model's comparisons.
-
-**1961 To 1965 Small-Guard Custom:** Original white finish and seller-described original pickups, no disclosed structural repairs. Clean to lightly played; refret, replacement knob or uncertain truss rod cover accepted. Case can be replaced.
-
-**1966 To 1971 Large-Guard Custom:** Original white or walnut finish and seller-described original pickup set. Played examples; minor wiring, tuners, knobs, added pickup rings or localized finish touch-up accepted. No disclosed structural break or full refinish. Case can be replaced and hardware may need servicing.
-
-**1972 To 1979 Small-Guard Custom:** Original walnut finish and pickups, no disclosed neck or headstock repair. Played to excellent. Factory Bigsby or stopbar; refrets and replaced pots accepted. Case originality varies.
-
-I use rounded Reverb Price Guide final transaction prices and Heritage auction results, checked against the instrument descriptions. The records span 2020 to 2026, depending on the group; the review date doesn't turn an older sale into a current transaction. Auction totals include the buyer's premium. Shipping and tax are excluded, and these aren't dealer buying offers or guaranteed selling prices.
-
-Seller descriptions supply the condition evidence behind these comparisons. I still need to examine the actual guitar before treating its finish, pickups or repair history as established. A repeated era range is a starting point for that appraisal, not a separate sale record for each year.
-
-
-## Four Models, Four Appraisals
-
-The SG family includes several instruments that share a pointed double-cutaway shape. Pickup type, trim and factory configuration distinguish the four core models discussed here. The original catalog hierarchy doesn't by itself determine what every surviving example is worth today.
-
-A well-preserved simpler model and a substantially altered higher-trim model can present very different buying decisions. I describe what remains original and what was changed before comparing the offers those guitars might receive.
+The four model guides hold the underlying comparisons and condition limits. Their bands use completed Reverb transactions and Heritage results, with at least three sale records per era group. The table repeats those era ranges for navigation; it does not measure an annual premium.
 
 <figure>
 
-![Cherry Gibson SG Standard with two covered humbuckers, a small pickguard and sideways vibrato](../../assets/blog/vintage-gibson-sg-value-guide/early-60s-gibson-sg-standard-comparison.webp)
+![Cherry Gibson SG Standard with two covered humbuckers, a small pickguard and sideways vibrato](../../assets/images/gibson-sg-family-guide/early-60s-gibson-sg-standard-comparison.webp)
 
-<figcaption>This SG Standard has two covered humbuckers and a sideways vibrato. Photo by Joe Dampt.</figcaption>
+<figcaption>An early SG Standard with two covered humbuckers and a sideways vibrato. Photo by Joe Dampt.</figcaption>
 
 </figure>
 
-### Standard
+## Start With The SG Model
 
-The familiar vintage Standard combines two full-size humbuckers with a bound rosewood fingerboard and dressier inlays. Within that model, early Les Paul-branded instruments, later small-guard guitars and large-guard examples need separate comparisons.
+The SG body is shared by guitars built for very different buyers. A Standard has two full-size humbuckers, a Special has two P-90s in its classic 1960s form, and a Junior has one P-90. The Custom adds a third humbucker, ebony fingerboard, elaborate binding and gold hardware.
 
-The vibrato or tailpiece also belongs in the description. A factory configuration and a later conversion can look similar from a distance, while representing different histories. I don't treat a replacement truss-rod cover or an old-looking part as a reason to change the model's price group.
+The pointed design began appearing in late 1960 ahead of the 1961 model year. Les Paul branding remains on some early SG-shaped models. A Les Paul name on the guitar therefore doesn't turn it into the earlier single-cutaway design.
 
-### Special
+The SG TV also belongs in the family discussion. Cream and white TV instruments aren't included in these ordinary cherry Junior or Special bands. Establish the original model and finish before applying a color-specific value.
 
-The classic 1960s Special uses two P-90 pickups. A P-90 is a single-coil pickup, which differs from the full-size humbuckers associated with the Standard. Some early 1970s Specials used mini-humbuckers, so Special isn't a complete description of the pickup arrangement.
+### Standard: The Two-Humbucker Reference
 
-I compare the two eras separately. Pricing a later mini-humbucker Special against an early P-90 guitar without explaining the difference gives the owner a misleading starting point.
+Small-guard Standards with early pickups and their factory vibratos sit at the upper end of this group's ordinary production ranges. PAF and Patent Number pickups overlap in the early period; the complete original pair and the guitar around it carry more information than a decal alone. The sideways vibrato and the later long lyre Vibrola also create different buying preferences.
+
+My [SG Standard value guide](/vintage-gibson-sg-standard-value-guide/) separates early small guards, the 1965 transition, large guards and the returning 1970s model. It keeps the brief SG Deluxe apart from the Standard.
+
+### Special: P-90s Or Mini-Humbuckers
 
 <figure>
 
-![Cherry Gibson SG Special with two black P-90 pickups, a large pickguard and short vibrato](../../assets/blog/vintage-gibson-sg-value-guide/1970-gibson-sg-special-comparison.webp)
+![Cherry Gibson SG Special with two black P-90 pickups, a large pickguard and short vibrato](../../assets/images/gibson-sg-family-guide/1970-gibson-sg-special-comparison.webp)
 
-<figcaption>The two P-90 pickups and large pickguard on this SG Special are visible from the front. Photo by Joe Dampt.</figcaption>
+<figcaption>A cherry SG Special with two P-90 pickups and a large pickguard. Photo by Joe Dampt.</figcaption>
 
 </figure>
 
-### Junior
+The 1960s Special's two soapbar P-90s and bound fingerboard give it its own place between Junior and Standard. It isn't a Standard with cheaper pickups. Changing those P-90s to full-size humbuckers can also involve cutting wood, which affects the collector market beyond the cost of replacing two parts.
 
-The Junior uses one pickup, one volume control and one tone control. Its simpler layout doesn't make it a Standard with a pickup missing. A factory Junior should be compared with other Juniors from the relevant period.
+Mini-humbuckers were standard on the returning Special from 1972. Those smaller humbuckers define the later version, rather than an occasional option on the P-90 guitar. The [SG Special value guide](/vintage-gibson-sg-special-value-guide/) covers both and explains the late shipments after the model disappeared from price lists.
 
-The one-pickup layout also makes changes easy to describe in the appraisal. An added neck pickup, altered routing or replaced bridge needs to be recorded as a change to that particular instrument. I don't value the result as an untouched example merely because the added part is old.
+### Junior: One Original Pickup
 
 <figure>
 
-![Cherry Gibson SG Junior with one black dog-ear P-90 pickup, two knobs and a wraparound bridge](../../assets/blog/vintage-gibson-sg-value-guide/1960s-gibson-sg-junior.webp)
+![Cherry Gibson SG Junior with one black dog-ear P-90 pickup, two knobs and a wraparound bridge](../../assets/images/gibson-sg-family-guide/1960s-gibson-sg-junior.webp)
 
-<figcaption>A single dog-ear P-90, two controls and a wraparound bridge on this SG Junior. Photo by Joe Dampt.</figcaption>
+<figcaption>A small-guard SG Junior with a dog-ear P-90 and wraparound bridge. Photo by Joe Dampt.</figcaption>
 
 </figure>
 
-### Custom
+A Junior concentrates much of its collector appeal in a simple package: original P-90, cherry finish, wraparound bridge and unbroken neck. Early versions use a dog-ear pickup cover with mounting tabs; the large-guard version uses a soapbar-style P-90. The simpler layout makes a modified pickup or added control especially visible.
 
-The traditional Custom has three humbuckers, an ebony fingerboard, block inlays and gold hardware. I keep early examples separate from later production, and I want the condition and history of all the pickups described.
+The [SG Junior value guide](/vintage-gibson-sg-junior-value-guide/) covers the original run through 1971. Later single-pickup student models need their own model names rather than a borrowed Junior price.
 
-The Custom name doesn't erase repairs or finish work. An older refinish, a replaced pickup or an altered neck can change which completed sales are useful for the comparison. More elaborate trim isn't a substitute for matching condition.
+### Custom: White, Walnut And Three Pickups
 
 <figure>
 
-![Walnut-finish Gibson SG Custom with three covered pickups, gold hardware and a Bigsby vibrato](../../assets/blog/vintage-gibson-sg-value-guide/1972-gibson-sg-custom.jpg)
+![Walnut-finish Gibson SG Custom with three covered pickups, gold hardware and a Bigsby vibrato](../../assets/images/gibson-serial/1972-gibson-sg-custom.jpg)
 
-<figcaption>Three covered humbuckers and gold hardware on this walnut-finish SG Custom. Photo by Joe Dampt.</figcaption>
+<figcaption>A walnut SG Custom with three humbuckers and gold hardware. Photo by Joe Dampt.</figcaption>
 
 </figure>
 
-## Era And Model Names
+The early white Custom's three original humbuckers and gold hardware are expensive parts of the complete instrument. A replaced pickup or stripped finish changes the package substantially. Ordinary gold-plating wear is different from replacing the whole hardware set.
 
-Gibson introduced the pointed body in 1961 while retaining Les Paul branding on several models. Those early instruments belong in the SG-shaped family even when the name on the instrument says Les Paul. They shouldn't be priced against a modern reissue simply because the reissue uses a similar year in its model name.
+Later walnut Customs are a separate market from early white small-guard examples. My [SG Custom value guide](/vintage-gibson-sg-custom-value-guide/) explains the mixed white and walnut evidence and the later Bigsby or stopbar configurations.
 
-Small pickguards, large pickguards and later small guards represent different periods. The shape is a starting point for identification, not an automatic valuation. My [SG family reference](/post/vintage-gibson-sg-family-guide/) explains the model history without turning every specification into a price adjustment.
+## The Changes That Divide SG Values
 
-I also keep the short-lived SG Deluxe and Pro, numbered models and related Melody Makers outside these four core price groups. A shared body outline doesn't make their markets interchangeable. If an owner isn't sure which model is present, I settle that before selecting comparison sales.
+The large batwing pickguard arrives during 1966, so that year includes both guard types. Early small-guard guitars shouldn't automatically receive the later large-guard range. By the early 1970s, the return of small guards doesn't signal a return to the original 1961 construction.
 
-## What Originality Means In An Offer
+The Deluxe and Pro briefly occupy the Standard and Special roles. The Custom continues through that redesign, while the original Junior run ends. These changes explain why the model name and actual pickup layout come before a general claim that a guitar is a 1971 or 1972 SG.
 
-I want a description of the guitar that another buyer could understand without seeing it in person. Original finish, original pickups and original hardware are separate claims. Replacing one part doesn't tell us the status of all the others.
-
-A correct period replacement and a factory-installed part aren't identical descriptions. If the original remains in the case, include it in the record. The owner shouldn't have to guess how to restore the instrument before getting an appraisal.
-
-A quality refret is accepted maintenance that preserves the all-original classification of an otherwise all-original guitar. It does take the instrument out of the museum-quality category. Neck reshaping removes original material and needs a separate description.
-
-I don't stack generic discount percentages for every changed part. That approach assumes each change acts independently and that the starting value was sound. I compare the complete instrument with examples whose condition and alterations are documented.
+### Factory Color And An Unbroken Neck
 
 <figure>
 
-![Blue-green SG finish around four reflector knobs, pickup switch and output jack](../../assets/blog/vintage-gibson-sg-value-guide/gibson-pelham-blue-sg.jpg)
+![Blue-green SG finish around four reflector knobs, pickup switch and output jack](../../assets/images/gibson-serial/gibson-pelham-blue-sg.jpg)
 
-<figcaption>This close view shows the color around the controls. A photograph records appearance; establishing a factory custom finish needs the guitar's wider history. Photo by Joe Dampt.</figcaption>
+<figcaption>Blue-green finish around an SG's reflector knobs and pickup switch. Photo by Joe Dampt.</figcaption>
 
 </figure>
 
-## Repairs And Refinished SGs
+Cherry, white and walnut do different jobs in these tables. White is the ordinary early Custom finish but a different question on a Junior; walnut is a later source finish and can't be projected backward into every year. Other factory colors require matched evidence before a premium can be quoted.
 
-A neck-joint repair or headstock repair belongs in the first description, along with any finish work around it. The quality and documentation of the repair affect how I evaluate the guitar. An owner doesn't need to apologize for an old repair; I need to know what happened.
+The thin mahogany body and exposed neck joint also make repair history central to an SG purchase. A stable repair can leave a useful player's guitar, but it moves the instrument out of an unbroken collector comparison. Original pickups and finish may still preserve substantial value.
 
-A full refinish, localized touch-up and overspray aren't interchangeable terms. If you're unsure which applies, send clear photographs and describe what you were told. I won't convert uncertainty into a claim of originality just because the finish looks attractive.
+## Repairs, Original Parts And Value
 
-These guitars can still be useful instruments. The appraisal should explain the surviving original features and the changes together. Comparing a repaired example with another repaired example is more informative than assuming a universal deduction from the cleanest advertised SG online.
+An unbroken neck, original finish and factory pickups are the baseline for a collector SG. A repaired headstock, a full refinish and a missing pickup change different parts of that package. Normal playing wear and a good refret deserve a separate assessment from structural damage.
 
-## The Case And The Parts In It
+For scale, the site's [published Les Paul condition benchmarks](/vintage-gibson-les-paul-market-value-guide/) give the following deductions. They're Les Paul figures, not measured SG discounts; I use matching SG sales to price the actual repair or alteration.
 
-The original case, a later Gibson case and a modern hard case need separate descriptions. I also record loose original parts, receipts and repair records. Those items help explain the package a buyer receives.
+| Published Les Paul Benchmark | Deduction From A Comparable Original |
+| --- | --- |
+| Repaired Headstock | Roughly 40 To 50% |
+| Refinished Body Or Neck | Roughly 40 To 50% |
+| Pickup Swap Without Routing | Roughly 25% |
+| P-90 To Humbucker Routing | Roughly 35 To 40% |
+| Quality Refret | Often 5 To 10% |
 
-Accessories shouldn't be used to cover gaps in the guitar's history. An old case doesn't establish the guitar's year, and a receipt for one repair doesn't prove there were no others. I match the records to the instrument and keep uncertain details labeled as uncertain.
+These aren't deductions to add together. A guitar that's already priced as played, serviced or altered has some of those differences reflected in its starting range. A quality refret preserves an otherwise all-original guitar's classification while taking it out of the museum-quality category.
 
-If you inherited an SG, keep everything that was stored with it. Small parts and old paperwork are easy to lose during a cleanout. You don't need to clean, reinstall or discard those items before contacting me.
 
-## Comparing Selling Options
+## Selling An SG With Its History Intact
 
-A dealer's advertised retail price is a different figure from a completed sale or a cash offer. I keep those categories separate when discussing what an owner might receive. Otherwise, a comparison can overstate the proceeds before fees or repairs have been considered.
+The original case, removed parts and dated paperwork help keep the instrument's history together. Preserve those materials before deciding on a sale, consignment or setup work. Replacing a working old part simply to improve its appearance can remove something the next owner wants.
 
-For each option, compare the expected amount you keep, the timing, the selling costs and any obligations you take on. A consignment estimate and an immediate offer need that context before their headline figures are comparable.
-
-I buy vintage SGs nationwide from Mesa, Arizona. You can read about [selling a Gibson to Joe](/sell-my-gibson-guitar/) or begin with a [free SG appraisal](/free-appraisal/). Start with front, back and headstock photographs, then include the case and any known repairs.
+I can start with front and back photographs, the headstock, neck joint, pickups, bridge and any repairs. The [free guitar appraisal](/free-appraisal/) page gives you a place to send them. A buying offer includes costs and margin, so it won't simply equal the top retail reference in the table.
