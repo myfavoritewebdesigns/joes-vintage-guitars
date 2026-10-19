@@ -1,20 +1,48 @@
-A played walnut 1968 to 1969 Gibson SG Custom with its original pickups and case falls around $6,500 to $10,500 in the completed-sale comparisons reviewed as of October 2026. This band allows minor wiring changes and localized finish touch-up; I don't use it for an excellent, untouched early Custom.
+Vintage Gibson SG Custom reference values run from $3,000 to $6,600 for typical 1970s walnut guitars to $17,000 to $24,000 for early white small-guard examples, as of October 2026. I list every year from 1961 through 1979 below, with condition and finish limits alongside the ranges.
 
 For model and year identification, use my [Gibson SG dating and authentication guide](/gibson-sg-dating-guide/). This page covers the information that belongs in a value appraisal after that work is established.
 
-## SG Custom Price Ranges
+## Gibson SG Custom Values By Year
 
-**As of October 2026. All ranges are in US dollars.** These are rounded completed-sale comparisons, excluding shipping and tax. They aren't dealer buying offers or guaranteed selling prices.
+**As of October 2026. All ranges are in US dollars.** Each year is listed separately. **Repeated ranges are shared era references**, supported by at least three independent completed sales per comparison group, not three sales for every individual year. Match the condition notes below before applying a range.
 
-| Year And Configuration | Range | Condition Assumed |
+| Year | Value Range | Comparison Group |
 | --- | --- | --- |
-| 1968 To 1969 SG Custom, Walnut, Played Examples | $6,500 to $10,500 | Original finish and pickup set with original case; visible wear and minor wiring or hardware changes. Localized finish touch-up allowed. No reported structural break or full refinish. Not an excellent all-original band. |
+| 1961 | $17,000 to $24,000 | Small Guard, Original White |
+| 1962 | $17,000 to $24,000 | Small Guard, Original White |
+| 1963 | $17,000 to $24,000 | Small Guard, Original White |
+| 1964 | $17,000 to $24,000 | Small Guard, Original White |
+| 1965 | $17,000 to $24,000 | Small Guard, Original White |
+| 1966 | $6,500 to $14,000 | Large Guard, Original White |
+| 1967 | $6,500 to $14,000 | Large Guard, Original White |
+| 1968 | $6,500 to $14,000 | Large Guard, White Or Walnut |
+| 1969 | $6,500 to $14,000 | Large Guard, White Or Walnut |
+| 1970 | $6,500 to $14,000 | Large Guard, White Or Walnut |
+| 1971 | $6,500 to $14,000 | Large Guard, White Or Walnut |
+| 1972 | $3,000 to $6,600 | Small Guard, Walnut |
+| 1973 | $3,000 to $6,600 | Small Guard, Walnut |
+| 1974 | $3,000 to $6,600 | Small Guard, Walnut |
+| 1975 | $3,000 to $6,600 | Small Guard, Walnut |
+| 1976 | $3,000 to $6,600 | Small Guard, Walnut |
+| 1977 | $3,000 to $6,600 | Small Guard, Walnut |
+| 1978 | $3,000 to $6,600 | Small Guard, Walnut |
+| 1979 | $3,000 to $6,600 | Small Guard, Walnut |
 
-The sample is walnut, large-guard production with three original humbuckers and an original case. The guitars show playing wear, with changes such as pickup polarity work, replacement knobs with originals retained, or small finish touch-ups. That makes this a useful played-guitar comparison, not a clean-original collector quote.
+The early band is for original white small-guard Customs. The large-guard band combines played white and walnut examples, with minor changes or local finish touch-up disclosed; it isn't a ceiling for an untouched white guitar. Walnut isn't implied to be available in every year shown. Match the finish and actual configuration before using a row.
 
-White finishes, early small-guard Customs and artist provenance stay outside this row. So do a full refinish or a structural break. The observed sales run from 2024 through 2025; the review date doesn't turn them into 2026 transactions.
+A 1971 Custom with the later small guard and front control plate belongs with the later configuration rather than the large-guard reference. The 1970s band is based on walnut examples with factory Bigsby or stopbar hardware. I don't transfer it automatically to a rare finish, a left-handed guitar or an instrument with artist provenance.
 
-The range is grounded in at least three separate completed transactions from the Reverb Price Guide, with each linked description checked for finish, pickups, repairs and case. Seller descriptions provide the condition evidence; they aren't a substitute for examining your guitar. I haven't used current asking prices to fill missing rows.
+### Condition Behind The Ranges
+
+**1961 To 1965 Small-Guard Custom:** Original white finish and seller-described original pickups, no disclosed structural repairs. Clean to lightly played; refret, replacement knob or uncertain truss rod cover accepted. Case can be replaced.
+
+**1966 To 1971 Large-Guard Custom:** Original white or walnut finish and seller-described original pickup set. Played examples; minor wiring, tuners, knobs, added pickup rings or localized finish touch-up accepted. No disclosed structural break or full refinish. Case can be replaced and hardware may need servicing.
+
+**1972 To 1979 Small-Guard Custom:** Original walnut finish and pickups, no disclosed neck or headstock repair. Played to excellent. Factory Bigsby or stopbar; refrets and replaced pots accepted. Case originality varies.
+
+I use rounded Reverb Price Guide final transaction prices and Heritage auction results, checked against the instrument descriptions. The records span 2020 to 2026, depending on the group; the review date doesn't turn an older sale into a current transaction. Auction totals include the buyer's premium. Shipping and tax are excluded, and these aren't dealer buying offers or guaranteed selling prices.
+
+Seller descriptions supply the condition evidence behind these comparisons. I still need to examine the actual guitar before treating its finish, pickups or repair history as established. A repeated era range is a starting point for that appraisal, not a separate sale record for each year.
 
 <figure>
 
