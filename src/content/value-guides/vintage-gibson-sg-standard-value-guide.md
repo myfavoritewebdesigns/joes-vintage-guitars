@@ -1,20 +1,50 @@
-A clean, all-original cherry 1965 Gibson SG Standard with its original case sits around $12,000 to $14,000 in the completed-sale comparisons reviewed as of October 2026. I use that band for the small-guard, Maestro-equipped guitar with normal light wear and no structural repairs.
+Vintage Gibson SG Standard reference values run from $2,400 to $3,000 for typical 1970s guitars to $13,500 to $25,000 for early small-guard examples, as of October 2026. I list each year from 1961 through 1979 below, with separate comparisons for the major configurations.
 
 My [Gibson SG dating and authentication guide](/gibson-sg-dating-guide/) covers the identification steps. Once the model and period are settled, the appraisal can focus on what a buyer would actually receive.
 
-## SG Standard Price Ranges By Era
+## Gibson SG Standard Values By Year
 
-**As of October 2026. All ranges are in US dollars.** These are rounded completed-sale comparisons, excluding shipping and tax. They aren't dealer buying offers or guaranteed selling prices.
+**As of October 2026. All ranges are in US dollars.** Each year is listed separately. **Repeated ranges are shared era references**, supported by at least three independent completed sales per comparison group, not three sales for every individual year. Match the condition notes below before applying a range.
 
-| Year And Configuration | Range | Condition Assumed |
+| Year | Value Range | Comparison Group |
 | --- | --- | --- |
-| 1965 SG Standard, Cherry, Small Guard And Maestro | $12,000 to $14,000 | Clean, all-original examples with original case and no structural repairs; normal light wear accepted. Comparable seller grades range from Very Good to Excellent. |
+| 1961 | $13,500 to $25,000 | Small Guard, Factory Vibrato |
+| 1962 | $13,500 to $25,000 | Small Guard, Factory Vibrato |
+| 1963 | $13,500 to $25,000 | Small Guard, Factory Vibrato |
+| 1964 | $13,500 to $25,000 | Small Guard, Factory Vibrato |
+| 1965 | $12,000 to $14,000 | Small Guard And Maestro |
+| 1966 | $5,000 to $8,000 | Large Guard, Cherry |
+| 1967 | $5,000 to $8,000 | Large Guard, Cherry |
+| 1968 | $5,000 to $8,000 | Large Guard, Cherry |
+| 1969 | $5,000 to $8,000 | Large Guard, Cherry |
+| 1970 | $5,000 to $8,000 | Large Guard, Cherry |
+| 1971 | $5,000 to $8,000 | Large Guard, Cherry |
+| 1972 | $2,400 to $3,000 | Standard, Cherry |
+| 1973 | $2,400 to $3,000 | Standard, Cherry |
+| 1974 | $2,400 to $3,000 | Standard, Cherry |
+| 1975 | $2,400 to $3,000 | Standard, Cherry |
+| 1976 | $2,400 to $3,000 | Standard, Cherry |
+| 1977 | $2,400 to $3,000 | Standard, Cherry |
+| 1978 | $2,400 to $3,000 | Standard, Cherry |
+| 1979 | $2,400 to $3,000 | Standard, Cherry |
 
-The comparison group is cherry, small-guard and Maestro-equipped. It includes narrow-neck 1965 guitars and normal checking or light buckle wear. I don't transfer this band to an early PAF-equipped Standard, a factory custom color or a later large-guard model.
+For 1971, the row applies to a Standard retaining the large-guard configuration. The short-lived SG Deluxe belongs in its own comparison; a 1972 instrument should be identified as the returning Standard before using that row. The early range includes both PAF and Patent Number pickup examples, so it doesn't assign a fixed premium to every early year.
 
-The market records behind this row run from 2024 through 2025. They give an observed comparison range, not proof of a price increase during 2026. A guitar with repaired wood or replaced pickups needs a separate appraisal.
+The 1965 band is narrower because the comparisons match cherry small-guard, Maestro-equipped guitars with original cases. The surrounding era bands cover more condition variation. Factory custom colors and repaired or refinished instruments need separate comparisons.
 
-The range is grounded in at least three separate completed transactions from the Reverb Price Guide, with each linked description checked for finish, pickups, repairs and case. Seller descriptions provide the condition evidence; they aren't a substitute for examining your guitar. I haven't used current asking prices to fill missing rows.
+### Condition Behind The Ranges
+
+**1961 To 1964 Small-Guard Standard:** Original cherry finish and vintage original pickups, no disclosed structural repair, original case. Very Good to Excellent. Minor binding maintenance, a damaged knob or missing pickup decal can be present. Factory vibrato versions included.
+
+**1965 SG Standard, Cherry, Small Guard And Maestro:** Clean, all-original examples with original case and no structural repairs; normal light wear accepted. Comparable seller grades range from Very Good to Excellent.
+
+**1966 To 1971 Large-Guard Standard:** Original cherry finish, pickups and principal hardware, original case, no disclosed structural repair. Normal light wear; a replacement nut can be present.
+
+**1972 To 1979 SG Standard:** Cherry or faded cherry, original finish and pickups, original case, no disclosed structural break. Played to excellent; replacement strap buttons accepted. Factory custom colors excluded.
+
+I use rounded Reverb Price Guide final transaction prices and Heritage auction results, checked against the instrument descriptions. The records span 2020 to 2026, depending on the group; the review date doesn't turn an older sale into a current transaction. Auction totals include the buyer's premium. Shipping and tax are excluded, and these aren't dealer buying offers or guaranteed selling prices.
+
+Seller descriptions supply the condition evidence behind these comparisons. I still need to examine the actual guitar before treating its finish, pickups or repair history as established. A repeated era range is a starting point for that appraisal, not a separate sale record for each year.
 
 <figure>
 
