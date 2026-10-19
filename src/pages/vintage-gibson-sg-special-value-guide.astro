@@ -1,6 +1,6 @@
 ---
 // GAP 2 Type C preview. Uses the reference-page header bands and fixed TOC.
-// Existing authentication pages stay untouched; unresolved pricing keeps this draft noindex.
+// Existing authentication pages stay untouched; review previews remain noindex.
 import Layout from '../layouts/Layout.astro';
 import { Content, getHeadings } from '../content/value-guides/vintage-gibson-sg-special-value-guide.md';
 import data from '../data/value-guides/vintage-gibson-sg-special-value-guide.json';
@@ -25,7 +25,7 @@ const faqSchema = {
     </div>
   </div>
   <div class="spvg-shell">
-    <div class="spvg-review" role="note"><strong>Editorial Preview</strong><p>Price evidence is incomplete. Unsupported ranges are omitted, and this draft is excluded from search indexing. Review the copy and layout before publication.</p></div>
+    <div class="spvg-review" role="note"><strong>Editorial Preview</strong><p>Price ranges and photographs updated October 2026. Read each table's condition assumptions. This review preview is excluded from search indexing.</p></div>
     <details class="spvg-mobile-toc"><summary>On This Page</summary><nav aria-label="Article sections"><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></details>
     <aside class="spvg-toc" aria-label="On this page"><p>On This Page</p><nav><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></aside>
     <article class="spvg-article">

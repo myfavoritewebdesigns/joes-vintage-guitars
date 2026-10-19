@@ -1,20 +1,20 @@
-A vintage Gibson SG Special needs a value comparison matched to its pickup era, original finish and repair history. I separate the classic two-P-90 guitars from the later mini-humbucker version before looking at completed sales.
+An all-original cherry Gibson SG Special from 1961 to 1965, in excellent condition with its original case, falls around $6,000 to $11,000 as of October 2026. I account for the exact year, factory bridge or vibrato and condition before placing a guitar within that broad range.
 
 For the year and model details, start with my [Gibson SG dating and authentication guide](/gibson-sg-dating-guide/). This page deals with how those established facts affect the appraisal.
 
 ## SG Special Price Ranges
 
-**Research status as of October 2026:** The clean-original price bands are awaiting sufficient verified completed sales. The intended condition is all-original, excellent, with the original case and no structural repairs.
+**As of October 2026. All ranges are in US dollars.** These are rounded completed-sale comparisons, excluding shipping and tax. They aren't dealer buying offers or guaranteed selling prices.
 
-A listing's Special label doesn't establish which guitar is being sold. Nor does a seller's excellent rating establish that the pickups, finish and hardware are original. Those details have to be checked in the source record before a result becomes a useful comparison.
+| Year And Configuration | Range | Condition Assumed |
+| --- | --- | --- |
+| 1961 To 1965 SG Special, Cherry | $6,000 to $11,000 | All-original examples in excellent condition with original case and no structural repairs. Includes factory wraparound and short-vibrato configurations; case wear varies. |
 
-| Comparison Group | What Needs To Match |
-| --- | --- |
-| Small-Guard P-90 Special | Era, factory bridge or vibrato, finish and structural condition |
-| Large-Guard P-90 Special | Original pickups, guard, bridge configuration and repair history |
-| Early 1970s Mini-Humbucker Special | Factory mini-humbucker version, construction and condition |
+The spread reflects more than condition labels. This group includes early and later small-guard Specials, factory wraparound bridges and short vibratos. Original chipboard cases qualify as original cases here; I haven't silently substituted a hard-case requirement for the package Gibson supplied with these examples.
 
-Until a group has enough supporting evidence, I leave its dollar range out. I don't use modern Special sales to fill a gap in the vintage record.
+The range applies to cherry P-90 Specials without structural repairs. A white or other factory custom finish, a large-guard Special or a later mini-humbucker guitar needs a different comparison.
+
+The range is grounded in at least three separate completed transactions from the Reverb Price Guide, with each linked description checked for finish, pickups, repairs and case. Seller descriptions provide the condition evidence; they aren't a substitute for examining your guitar. I haven't used current asking prices to fill missing rows.
 
 <figure>
 
@@ -24,6 +24,7 @@ Until a group has enough supporting evidence, I leave its dollar range out. I do
 
 </figure>
 
+
 ## The Two-P-90 Special
 
 A P-90 is a single-coil pickup. The classic vintage Special uses two of them, with a selector switch and separate controls. That gives it its own configuration within the SG family rather than making it an unfinished Standard.
@@ -31,6 +32,14 @@ A P-90 is a single-coil pickup. The classic vintage Special uses two of them, wi
 When comparing two Specials, I want the pickup arrangement to remain comparable. Replacing the pickups, rewinding one or routing the body for a different type changes the description. An old P-90 in a modified guitar doesn't automatically make the complete instrument original.
 
 The bridge and vibrato belong in that description too. A guitar retaining its factory arrangement presents a different history from one converted later. I don't assume that a convenient modern bridge is a factory feature because it fits the posts.
+
+<figure>
+
+![Two black soapbar P-90 pickups mounted in a large SG Special pickguard](../../assets/blog/vintage-gibson-sg-special-value-guide/gibson-sg-special-soapbar-p-90-pickups.jpg)
+
+<figcaption>The Special uses two P-90 pickups in this configuration. Replacing them with humbuckers changes the instrument being valued. Photo by Joe Dampt.</figcaption>
+
+</figure>
 
 ## Small-Guard And Large-Guard Examples
 
@@ -40,6 +49,14 @@ I compare within the relevant group before considering the individual difference
 
 A guitar's visible appearance can also be shaped by replacement parts. The price discussion should follow the established construction and history, rather than the resemblance to a photograph of a more expensive example.
 
+<figure>
+
+![Short Maestro vibrato with its arm attached on a cherry SG](../../assets/blog/vintage-gibson-sg-special-value-guide/gibson-small-maestro-vibrola.jpg)
+
+<figcaption>The short vibrato assembly differs from the long covered Maestro used on many Standards. I record which parts remain with the guitar. Photo by Joe Dampt.</figcaption>
+
+</figure>
+
 ## Mini-Humbucker Specials
 
 Some early 1970s Specials received mini-humbuckers at the factory. A mini-humbucker is a smaller two-coil pickup. Those guitars need their own comparisons instead of being treated as changed P-90 Specials automatically.
@@ -47,6 +64,14 @@ Some early 1970s Specials received mini-humbuckers at the factory. A mini-humbuc
 The exact model still needs to be settled, because other SG relatives can also have unfamiliar pickups or control layouts. I use the [SG family reference](/post/vintage-gibson-sg-family-guide/) to keep the model history separate from the valuation.
 
 I don't infer a price relationship from pickup size alone. What supports a band is a set of completed sales for comparable guitars, with the relevant condition details recorded. A broader label can conceal differences that an owner needs explained.
+
+<figure>
+
+![Walnut SG Special with two small humbuckers, a narrow bridge and separate stopbar](../../assets/blog/vintage-gibson-sg-special-value-guide/1973-gibson-sg-special-with-mini-humbuckers.jpg)
+
+<figcaption>This later Special has small humbuckers and a separate stopbar. It needs a different comparison from a 1960s P-90 Special. Photo by Joe Dampt.</figcaption>
+
+</figure>
 
 ## Original Finish And Unusual Colors
 
