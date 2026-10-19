@@ -1,22 +1,20 @@
-A vintage Fender Jazzmaster's value depends on its era, original finish, pickups and condition. I separate the earliest gold-guard guitars, later dot-neck examples and bound-neck guitars before comparing completed sales, and I keep verified factory custom colors in their own groups.
+A played, largely original sunburst 1965 Fender Jazzmaster with its original case falls around $6,000 to $7,000 in the completed-sale comparisons reviewed as of October 2026. I use that range for guitars retaining their original finish, pickups and main hardware, with ordinary wear and limited reversible changes.
 
 My [Fender Jazzmaster dating and authentication guide](/fender-jazzmaster-dating-guide/) covers the year and originality work. This value guide explains which comparisons make sense once those details are established.
 
 ## Jazzmaster Price Ranges By Era
 
-**Research status as of October 2026:** The clean-original price bands are pending sufficient verified completed-sale evidence. The baseline is an all-original guitar in excellent condition, with its original case and no structural repairs.
+**As of October 2026. All ranges are in US dollars.** These are rounded completed-sale comparisons, excluding shipping and tax. They aren't dealer buying offers or guaranteed selling prices.
 
-I haven't filled missing ranges with dealer asking prices or with auction results for refinished guitars. A sale needs a usable condition description before it can support an original-finish band. An excellent label without the underlying originality details isn't enough on its own.
+| Year And Configuration | Range | Condition Assumed |
+| --- | --- | --- |
+| 1965 Jazzmaster, Sunburst, Played Originals | $6,000 to $7,000 | Original finish, pickups, electronics and principal hardware, with original case and ordinary playing wear. Quality refret accepted; removable strap locks with original buttons retained included. Not a museum-quality band. |
 
-| Comparison Group | What I Match |
-| --- | --- |
-| Early Gold-Guard Examples | Production period, factory finish, original electronics and condition |
-| Later Slab-Board Examples | Exact era, original finish, pickups and included case |
-| Veneer-Board Dot-Neck Examples | Production period, finish, electronics and repairs |
-| Bound-Neck Examples | Exact configuration, finish, original parts and playing condition |
-| Factory Custom Colors | Verified color, era, matching features and condition |
+This row covers sunburst guitars with ordinary playing wear, original pickups and original cases. The evidence allows an accepted quality refret and removable strap locks where the original buttons remain with the instrument. Case wear, including a damaged latch, is also present in the comparison group.
 
-These are research groups, not guaranteed price rankings. A worn earlier instrument and a clean later one need individual comparisons. The date alone doesn't tell an owner what the guitar will bring.
+It isn't a ceiling for a cleaner collector example or a factory custom color. Early gold-guard guitars and later bound-neck examples need their own matching sales. I also leave replaced pickups, a reproduced headstock decal and a refinish outside this played-original band.
+
+The range is grounded in at least three separate completed transactions from the Reverb Price Guide, with each linked description checked for finish, pickups, repairs and case. Seller descriptions provide the condition evidence; they aren't a substitute for examining your guitar. I haven't used current asking prices to fill missing rows.
 
 <figure>
 
@@ -25,6 +23,7 @@ These are research groups, not guaranteed price rankings. A worn earlier instrum
 <figcaption>This Jazzmaster has a gold pickguard and white pickup covers against a sunburst finish. Photo by Joe Dampt.</figcaption>
 
 </figure>
+
 
 ## Early Jazzmasters And The Gold Guard
 
@@ -44,6 +43,14 @@ The [Jazzmaster evolution reference](/post/fender-jazzmaster-evolution-guide-195
 
 A later bound-neck Jazzmaster and an earlier dot-neck guitar can appeal to different buyers. A useful appraisal explains which period is being offered and what condition it is in. A generic vintage Jazzmaster average conceals both facts.
 
+<figure>
+
+![Worn sunburst Jazzmaster with a tortoise pickguard in a yellow-lined case](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1962-fender-jazzmaster-with-original-case-1-scaled.jpg)
+
+<figcaption>Wear through the sunburst is visible on this 1962 Jazzmaster. A worn original finish and a refinish belong in different comparisons. Photo by Joe Dampt.</figcaption>
+
+</figure>
+
 ## Factory Custom Colors
 
 An original custom color needs a separate comparison from sunburst, with the exact finish and period established. I don't apply one multiplier to every color. Different colors and configurations require their own evidence, especially when completed sales are scarce.
@@ -53,6 +60,14 @@ A matching headstock can also be part of the package being evaluated. Its presen
 My [Fender custom color authentication reference](/post/fender-custom-color-authentication-guide/) covers that examination. If the finish history is unresolved, I keep the valuation conditional instead of treating the most valuable possibility as established.
 
 Lighting can change how an old finish looks in a photograph. Start with clear pictures in ordinary indirect light and include any older photographs or documentation you have. A color name supplied by a previous owner is useful background, but it isn't a substitute for examining the instrument.
+
+<figure>
+
+![Sunburst Jazzmaster with white pickups and a tortoise pickguard in an orange-lined case](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1966-fender-jazzmaster-in-hard-case-scaled.jpg)
+
+<figcaption>This 1966 Jazzmaster and its case show the complete package. I account for the case and loose accessories along with the guitar. Photo by Joe Dampt.</figcaption>
+
+</figure>
 
 ## Refinished And Oversprayed Examples
 
@@ -64,6 +79,14 @@ The same distinction applies when the body and neck have different histories. A 
 
 I don't assign a fixed refinish percentage without supporting comparisons. The era, original parts, structural condition and quality of the work all belong in the assessment. Several guessed deductions applied to an uncertain starting value don't make the result reliable.
 
+<figure>
+
+![Lake Placid Blue Jazzmaster with a white pickguard, bridge cover and vibrato arm](../../assets/blog/fender-custom-color-authentication-guide/1966-fender-jazzmaster-lake-placid-blue-front.jpg)
+
+<figcaption>This 1966 Lake Placid Blue example has a white guard and matching pickup covers. Custom finishes need their own price comparisons. Photo by Joe Dampt.</figcaption>
+
+</figure>
+
 ## Pickups And The Dual-Circuit Electronics
 
 The Jazzmaster has its own pickup design and a separate rhythm circuit. A pickup is the magnetic assembly that converts string movement into an electrical signal. The rhythm circuit provides a separate set of controls from the main lead controls.
@@ -73,6 +96,14 @@ For valuation, I want to know whether those parts remain original and whether th
 A rewound pickup has had its coil wire replaced. That can restore a usable instrument, but it is different from an untouched original pickup. If the removed original parts are included, keep them with the guitar and mention them in the appraisal notes.
 
 I don't total up the asking prices of loose pickups, knobs and guards to estimate a complete Jazzmaster. Those parts advertisements are a different market from completed instrument sales. The neck, body, finish and repair history still have to be valued together.
+
+<figure>
+
+![Charcoal Frost Jazzmaster with a white pickguard and visible finish wear](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-jazzmaster-charcoal-frost-front.jpg)
+
+<figcaption>This 1965 Charcoal Frost example shows finish wear around the body. Color and condition are separate parts of the appraisal. Photo by Joe Dampt.</figcaption>
+
+</figure>
 
 ## Bridges, Vibratos And Player Changes
 
@@ -102,6 +133,14 @@ Keep old photographs, purchase receipts, repair invoices and loose original part
 
 If you inherited the guitar, it's fine to have gaps in the history. Tell me what you know and what you were told, keeping those two things separate. An uncertain detail can be examined; a guessed detail can send the whole comparison in the wrong direction.
 
+<figure>
+
+![Sunburst Jazzmaster in its case with a woven strap and Fender instruction manual](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1960s-fender-jazzmaster-with-manual-and-strap-scaled.jpg)
+
+<figcaption>The manual and strap remain with this Jazzmaster. Photograph accessories together instead of leaving them out of the appraisal. Photo by Joe Dampt.</figcaption>
+
+</figure>
+
 ## Completed Sales And The Amount You Receive
 
 A current listing is an asking price. A completed transaction is a realized price, and it still needs the instrument's condition and sale terms recorded. A listing marked sold may continue showing an advertised amount even if the buyer paid less after negotiation.
@@ -111,6 +150,14 @@ Auction totals and marketplace records can also include different costs. I keep 
 If you're evaluating a selling option, compare expected net proceeds and timing rather than the headline price alone. Selling fees, repairs and the work of handling a transaction can change the amount an owner keeps. A higher advertised amount doesn't guarantee a higher completed return.
 
 I don't promise that a Jazzmaster will appreciate. Buying or keeping a guitar should be a decision you can support without assuming a future price increase. A dated appraisal describes the present instrument and available evidence, not a guaranteed investment result.
+
+<figure>
+
+![Tweed guitar case with brown leather ends, a handle and visible surface wear](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-tweed-case-exterior-scaled.jpg)
+
+<figcaption>An exterior case photograph records wear that the open-case view does not show. Photo by Joe Dampt.</figcaption>
+
+</figure>
 
 ## Get A Jazzmaster Appraisal From Joe
 
