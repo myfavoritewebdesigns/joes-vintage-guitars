@@ -1,20 +1,55 @@
-A played, largely original sunburst 1965 Fender Jazzmaster with its original case falls around $6,000 to $7,000 in the completed-sale comparisons reviewed as of October 2026. I use that range for guitars retaining their original finish, pickups and main hardware, with ordinary wear and limited reversible changes.
+Vintage Fender Jazzmaster reference values run from $4,200 to $6,000 for typical 1970s sunburst guitars to $12,000 to $20,000 for early sunburst examples, as of October 2026. I list every year from 1958 through 1979 below and keep factory custom colors outside these sunburst ranges.
 
 My [Fender Jazzmaster dating and authentication guide](/fender-jazzmaster-dating-guide/) covers the year and originality work. This value guide explains which comparisons make sense once those details are established.
 
-## Jazzmaster Price Ranges By Era
+## Fender Jazzmaster Values By Year
 
-**As of October 2026. All ranges are in US dollars.** These are rounded completed-sale comparisons, excluding shipping and tax. They aren't dealer buying offers or guaranteed selling prices.
+**As of October 2026. All ranges are in US dollars.** Each year is listed separately. **Repeated ranges are shared era references**, supported by at least three independent completed sales per comparison group, not three sales for every individual year. Match the condition notes below before applying a range.
 
-| Year And Configuration | Range | Condition Assumed |
+| Year | Value Range | Comparison Group |
 | --- | --- | --- |
-| 1965 Jazzmaster, Sunburst, Played Originals | $6,000 to $7,000 | Original finish, pickups, electronics and principal hardware, with original case and ordinary playing wear. Quality refret accepted; removable strap locks with original buttons retained included. Not a museum-quality band. |
+| 1958 | $12,000 to $20,000 | Early Sunburst |
+| 1959 | $12,000 to $20,000 | Early Sunburst |
+| 1960 | $12,000 to $20,000 | Early Sunburst |
+| 1961 | $12,000 to $20,000 | Early Sunburst |
+| 1962 | $8,500 to $11,000 | Early 1960s Sunburst |
+| 1963 | $8,500 to $11,000 | Early 1960s Sunburst |
+| 1964 | $8,500 to $11,000 | Early 1960s Sunburst |
+| 1965 | $6,000 to $7,000 | Played Original Sunburst |
+| 1966 | $5,500 to $9,500 | Bound Neck, Sunburst |
+| 1967 | $5,500 to $9,500 | Bound Neck, Sunburst |
+| 1968 | $5,500 to $9,500 | Bound Neck, Sunburst |
+| 1969 | $5,500 to $9,500 | Bound Neck, Sunburst |
+| 1970 | $4,200 to $6,000 | 1970s Sunburst |
+| 1971 | $4,200 to $6,000 | 1970s Sunburst |
+| 1972 | $4,200 to $6,000 | 1970s Sunburst |
+| 1973 | $4,200 to $6,000 | 1970s Sunburst |
+| 1974 | $4,200 to $6,000 | 1970s Sunburst |
+| 1975 | $4,200 to $6,000 | 1970s Sunburst |
+| 1976 | $4,200 to $6,000 | 1970s Sunburst |
+| 1977 | $4,200 to $6,000 | 1970s Sunburst |
+| 1978 | $4,200 to $6,000 | 1970s Sunburst |
+| 1979 | $4,200 to $6,000 | 1970s Sunburst |
 
-This row covers sunburst guitars with ordinary playing wear, original pickups and original cases. The evidence allows an accepted quality refret and removable strap locks where the original buttons remain with the instrument. Case wear, including a damaged latch, is also present in the comparison group.
+These are sunburst comparisons. Early gold-guard and tortoise-guard examples share the first reference band; bound-neck dot and block versions share the later 1960s band. Those groupings don't claim that every specification commands the same individual price.
 
-It isn't a ceiling for a cleaner collector example or a factory custom color. Early gold-guard guitars and later bound-neck examples need their own matching sales. I also leave replaced pickups, a reproduced headstock decal and a refinish outside this played-original band.
+The 1965 band uses a closer set of played originals with original cases, while adjacent era bands include a wider spread of wear and completeness. The 1970s reference doesn't separately price a factory custom color, a maple fingerboard or an unusually untouched example. I won't manufacture a year premium by adding a fixed amount to the previous year's row.
 
-The range is grounded in at least three separate completed transactions from the Reverb Price Guide, with each linked description checked for finish, pickups, repairs and case. Seller descriptions provide the condition evidence; they aren't a substitute for examining your guitar. I haven't used current asking prices to fill missing rows.
+### Condition Behind The Ranges
+
+**1958 To 1961 Sunburst Jazzmaster:** Original sunburst finish and pickups, no disclosed structural repair. Played to very clean; minor knob or switch changes accepted. Gold or tortoise guard as appropriate. Original or period case, with some worn or stiff controls at the lower end.
+
+**1962 To 1964 Sunburst Jazzmaster:** Original sunburst finish and pickups, no disclosed structural repairs. Played to clean; refret, one replaced tuner, saddle screws or old owner markings accepted. Original case.
+
+**1965 Jazzmaster, Sunburst, Played Originals:** Original finish, pickups, electronics and principal hardware, with original case and ordinary playing wear. Quality refret accepted; removable strap locks with original buttons retained included. Not a museum-quality band.
+
+**1966 To 1969 Sunburst Jazzmaster:** Original sunburst finish and pickups, no disclosed structural repair, original case. Played to very clean, with a quality refret allowed. Finish wear and case completeness vary.
+
+**1970 To 1979 Sunburst Jazzmaster:** Original sunburst finish and pickups, no disclosed structural repair. Played to very clean; refret, replacement nut or strap buttons and additional shielding accepted. Case originality varies.
+
+I use rounded Reverb Price Guide final transaction prices and Heritage auction results, checked against the instrument descriptions. The records span 2020 to 2026, depending on the group; the review date doesn't turn an older sale into a current transaction. Auction totals include the buyer's premium. Shipping and tax are excluded, and these aren't dealer buying offers or guaranteed selling prices.
+
+Seller descriptions supply the condition evidence behind these comparisons. I still need to examine the actual guitar before treating its finish, pickups or repair history as established. A repeated era range is a starting point for that appraisal, not a separate sale record for each year.
 
 <figure>
 
