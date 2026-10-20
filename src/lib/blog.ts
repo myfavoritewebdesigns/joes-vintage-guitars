@@ -88,6 +88,15 @@ function relatedTokens(p: Post): Set<string> {
  */
 export function getRelated(posts: Post[], current: Post, n = 3): Post[] {
   const others = posts.filter((p) => p.id !== current.id);
+  // This comparison needs acoustic Gibson context, not generic Gibson matches.
+  if (current.id === "identify-vintage-gibson-j45-j50-sj") {
+    const acousticIds = [
+      "vintage-gibson-hummingbird-history-value-guide",
+      "joesvintageguitarsaz-com-identify-gibson-lg-series",
+      "gibson-j200-model-history-authentication-guide",
+    ];
+    return acousticIds.flatMap((id) => others.filter((post) => post.id === id)).slice(0, n);
+  }
   const tokenSets = new Map<string, Set<string>>();
   const df = new Map<string, number>();
   for (const p of [current, ...others]) {

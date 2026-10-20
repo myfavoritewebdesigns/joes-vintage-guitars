@@ -1,0 +1,28 @@
+{
+  "key": "j45-related",
+  "url": "/post/identify-vintage-gibson-j45-j50-sj/",
+  "paths": [
+    "src/lib/blog.ts",
+    "reports/gap2/cleanup-j45-related.json"
+  ],
+  "title": "Show Gibson acoustic related guides on the J-45 comparison",
+  "changes": [
+    {
+      "area": "Related post cards",
+      "after": [
+        "/post/vintage-gibson-hummingbird-history-value-guide/",
+        "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+        "/post/gibson-j200-model-history-authentication-guide/"
+      ]
+    }
+  ],
+  "decision": "A scoped acoustic selection replaces generic model-token matches for this page only.",
+  "branch": "joe/gap2-j45-related",
+  "validation": {
+    "date": "2026-10-20",
+    "verify": "pnpm 11.7.0 run verify: 257 pages, 0 Astro errors, 0 warnings, 0 copy hard failures; 766 report-only copy warnings across the existing site.",
+    "targetedChecks": "Built titles, Mustang dollar removal and FAQ equality, acoustic related links, all 21 matching brand footer links and default footer preservation passed.",
+    "liveComparison": "The only must-fix flag is the requested replacement of three unrelated related-card headings with the three Gibson acoustic cards. Accepted by the GAP2 decision-log row; no article content or images were lost.",
+    "visualReview": "Hosted preview review pending."
+  }
+}
