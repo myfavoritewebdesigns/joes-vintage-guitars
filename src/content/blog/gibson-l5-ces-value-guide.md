@@ -15,17 +15,17 @@ wpId: 19327
 faqsInline: true
 faqs:
   - q: "What Is A Vintage Gibson L-5 CES Worth?"
-    a: "As of October 2026, the published references used here span $7,500 to $32,000 across the covered configurations. The table assumes an all-original guitar in excellent condition with its original case. I don't treat that entire span as the value of one guitar; the pickups, year, finish and repairs determine which reference applies."
+    a: "As of October 2026, the published references used here span $7,500 to $32,000 across the covered configurations. The table assumes an all-original guitar in excellent condition with its original case. I don’t treat that entire span as the value of one guitar; the pickups, year, finish and repairs determine which reference applies."
   - q: "Why Do Several Years Have The Same Range?"
-    a: "The annual rows share a published era or configuration reference. They aren't separate samples of completed sales for every year. I show the group limits so you can find a year without mistaking repeated figures for year-specific precision."
+    a: "The annual rows share a published era or configuration reference. They aren’t separate samples of completed sales for every year. I show the group limits so you can find a year without mistaking repeated figures for year-specific precision."
   - q: "Are The Figures Recent Completed Sale Prices?"
     a: "The table uses the 2025 Vintage Guitar price guide, checked against completed Reverb transactions and Heritage results observed in October 2026. Some early comparisons are historical and some have repairs or replacement parts. The table is a published-reference starting point, not a claim that every clean guitar recently sold within it."
   - q: "Does A Replacement Pickup Change The Value?"
-    a: "Yes. A guitar with a replacement pickup doesn't meet the original-pickup condition assumed in the table. A period replacement can sound good and still change its collector position, so I assess it separately rather than applying the original PAF-pair range."
+    a: "Yes. A guitar with a replacement pickup doesn’t meet the original-pickup condition assumed in the table. A period replacement can sound good and still change its collector position, so I assess it separately rather than applying the original PAF-pair range."
   - q: "Does Every 1957 L-5 CES Use The Same Reference?"
-    a: "No. It's a transition year in this guide, with separate single-coil and PAF configurations. The PAF reference comes from the published 1958 to 1962 envelope and is a comparison for an inspected 1957 PAF guitar, not a separately published 1957 band."
+    a: "No. It’s a transition year in this guide, with separate single-coil and PAF configurations. The PAF reference comes from the published 1958 to 1962 envelope and is a comparison for an inspected 1957 PAF guitar, not a separately published 1957 band."
   - q: "Where Can I Get An Appraisal Of My L-5 CES?"
-    a: "I can review clear photographs of the whole guitar, its label and serial number, pickups, finish, repairs and case. Include any repair receipts or family history you already have. Don't remove hardware just to photograph it if you're unsure how to do that safely."
+    a: "I can review clear photographs of the whole guitar, its label and serial number, pickups, finish, repairs and case. Include any repair receipts or family history you already have. Don’t remove hardware just to photograph it if you’re unsure how to do that safely."
 ---
 An all-original 1970s Gibson L-5 CES in excellent condition with its original case has a published reference of $7,500 to $10,000. Earlier PAF examples use a broader $20,000 to $32,000 reference, with the year, finish and pickup configuration determining where an individual guitar belongs. I use these figures as a starting comparison, then check the actual instrument and its repair history.
 
