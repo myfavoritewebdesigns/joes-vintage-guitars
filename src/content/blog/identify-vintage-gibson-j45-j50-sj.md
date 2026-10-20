@@ -20,6 +20,8 @@ Unlike their competitors at Martin, Gibson was notoriously inconsistent with int
 
 If the guitar has a 17-inch lower bout, flowered pickguard, crown fingerboard inlays, and a moustache bridge, it may belong to the Super Jumbo family instead. Use the [Gibson J-200 model history and authentication guide](/post/gibson-j200-model-history-authentication-guide/) to identify those larger guitars and follow their construction changes from 1937 onward.
 
+For annual market references and condition assumptions, use my [vintage Gibson J-45 value guide](/vintage-gibson-j-45-value-guide/). This family guide keeps the model comparisons and dating details together.
+
 ## Part 1: How to Tell the Models Apart (The Spec Checklist)
 
 Because the body shape (16-inch “Jumbo” lower bout) and woods (Mahogany back/sides, Spruce top) were largely the same, you have to look at the “trim” level to differentiate the models.
@@ -45,7 +47,7 @@ Because the body shape (16-inch “Jumbo” lower bout) and woods (Mahogany back
     
 -   **Fretboard:** Simple dots.
     
--   **The Logic:** Gibson charged $5 more for the J-50 in the 1940s because they had to use “cosmetically perfect” spruce. A J-45 sunburst could hide grain streaks or minor knots; a J-50 had to be flawless.
+-   **The Finish:** The J-50 uses a natural finish, while the standard J-45 uses sunburst. Confirm the model before comparing value.
     
 -   **Bottom Line:** The Gibson J-50 is extremely similar to the J-45, but it can be easily distinguished by its non- sunburt,  natural finish.
 
@@ -128,7 +130,7 @@ The classic gold block logo. Introduced in 1948 to replace the post-war script s
 
 ## Part 3: Interesting Facts & Trivia
 
--   **The Price Tag Name:** The “45” in J-45 literally stood for its 1942 retail price: **$45.00**.
+-   **The Model Name:** The J-45 name dates to the wartime period and remains in use across several construction eras.
     
 -   **The War Effort:** Many of the best “Banner” Gibsons were actually built by women (The “Kalamazoo Gals”) while the men were away at war.
     
