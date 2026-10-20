@@ -1,0 +1,185 @@
+A clean, original, full-depth Gibson ES-125 from the 1950s has a published excellent-condition reference of $2,500 to $3,250 with its original case. The standard single-pickup model from 1960 to 1970 has a broader era reference of $1,500 to $2,250. A thin-body cutaway or two-pickup version needs its own comparison.
+
+I buy vintage Gibsons nationwide from Mesa, Arizona. With an ES-125, I establish the complete model name before applying a range because the extra letters describe different instruments. My [Gibson ES-125 identification and authentication guide](/post/gibson-es-125-guide/) covers those variants, dates and originality details.
+
+## Values By Year
+
+The following ranges are reviewed **as of October 2026**. They cover the full-size, full-depth, single-pickup sunburst ES-125 in all-original, excellent condition with its original case and no structural repair. A quality refret is accepted maintenance under the site's grading approach, but the guitar then falls outside museum-quality condition.
+
+These are 2025 published references checked against completed results, not an average of dealer asking prices. The table uses shared era bands so every production year has a place without suggesting that each year has its own large transaction sample. The 1960 to 1970 band combines the published endpoints across that period.
+
+| Year | Configuration | Reference Range | Basis |
+|---|---|---|---|
+| 1941 | Early full-depth single-pickup sunburst | $2,625 to $3,500 | 1941 to 1942 shared era reference |
+| 1942 | Early full-depth single-pickup sunburst | $2,625 to $3,500 | 1941 to 1942 shared era reference |
+| 1946 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 | 1946 to 1949 shared era reference |
+| 1947 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 | 1946 to 1949 shared era reference |
+| 1948 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 | 1946 to 1949 shared era reference |
+| 1949 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 | 1946 to 1949 shared era reference |
+| 1950 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
+| 1951 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
+| 1952 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
+| 1953 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
+| 1954 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
+| 1955 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
+| 1956 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
+| 1957 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
+| 1958 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
+| 1959 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
+| 1960 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+| 1961 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+| 1962 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+| 1963 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+| 1964 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+| 1965 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+| 1966 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+| 1967 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+| 1968 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+| 1969 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+| 1970 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+
+The dates follow this site's original-production chronology: 1941 and 1942, then 1946 through 1970. There are no invented wartime production rows or rows after the original run. The early postwar range is a shared configuration reference, not a separately established premium for a 1946 example.
+
+The published reference and completed comparisons don't describe identical condition. The prewar sample includes changed tuners and repairs; the postwar sample includes replaced parts and a repaired crack. The 1960s checks include historical auction results from 2011, so that band is identified as a published reference rather than a current clean-sale average.
+
+<figure>
+
+![Sunburst 1954 ES-125 with one black pickup, two controls and a trapeze tailpiece](../../assets/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg)
+
+<figcaption>My archive photograph shows the full-depth single-pickup model used for the main annual table.</figcaption>
+
+</figure>
+
+## Start With The Complete Model
+
+An ES-125 listing can refer to a full-depth guitar, a thinline, a cutaway or a two-pickup instrument. “Thinline” means the body is shallower from front to back. A cutaway is the indentation beside the neck that gives the player's hand access to higher frets.
+
+The standard guitar in the price table has one pickup and no cutaway. The T suffix indicates a thin body, D indicates two pickups and C indicates a cutaway. Those letters belong in the comparison before the year and finish are considered.
+
+A small-body, short-scale example is another separate category. It isn't simply a worn or inexpensive version of the full-size instrument. Its proportions and playing dimensions should be confirmed before using a sale as evidence.
+
+I haven't assigned a fixed premium for a second pickup or a cutaway. Those features may place the guitar in a different market, but the amount depends on the exact variant, era and condition. A fabricated multiplier would give a precise-looking answer to the wrong question.
+
+The photographs here show several family members so you can see why the name needs to be complete. The two-pickup photographs aren't presented as examples of the single-pickup range. Their purpose is to keep unlike guitars out of the same comparison.
+
+<figure>
+
+![Sunburst non-cutaway ES-125D with two black pickups and four controls](../../assets/blog/gibson-es-125-guide/gibson-es-125-d-dual-pickup.jpg)
+
+<figcaption>This two-pickup example shows why the suffix and control layout belong in the appraisal description. It is outside the single-pickup price table.</figcaption>
+
+</figure>
+
+## The Early And Postwar References
+
+The prewar guitar differs from the later P-90 model. I keep its annual rows separate instead of treating every ES-125 made before 1950 as one interchangeable instrument. A listing placed in the wrong product category can otherwise distort the comparison.
+
+That happened in the research behind this page: a listing in the prewar price-guide category described a 1951 guitar. It was excluded from the prewar sample. The completed status tells us that a transaction occurred; it doesn't certify that the category or year is right.
+
+The early postwar group also needs its stated pickup configuration. A nonadjustable-pole pickup and a later adjustable example should not be confused solely because both are called P-90s. The identification guide has the detail needed to establish which guitar you have.
+
+I haven't added a separate mahogany-body premium. An unusual construction claim needs the actual instrument and appropriate comparisons. A seller's description of “rare” isn't enough to establish another range.
+
+For these early guitars, repairs and missing parts can dominate the difference between the published reference and a completed result. A crack repair, replacement tailpiece or uncertain case history should remain attached to the comparison. It should not disappear when someone copies the sale price into a table.
+
+## The 1950s Single-Pickup Model
+
+The 1950 to 1959 rows share the published $2,500 to $3,250 reference. The recent completed comparisons include original finishes and pickups with replacement tuners or later cases. Those transactions help place the reference in context while remaining different from the all-original, original-case assumption.
+
+The one-pickup layout is part of this model's identity. It doesn't make the guitar incomplete. Adding a second pickup would change the instrument rather than move it automatically into the factory two-pickup market.
+
+A changed tuner set should be described with the work involved. Replacement machines installed without other alteration are different from a headstock that was drilled or enlarged. Keeping the original tuners helps document the history even when their buttons have deteriorated.
+
+I also separate the condition of the frets from the condition of the neck itself. Worn frets can need maintenance; a neck angle problem may call for more substantial work. The original-case reference doesn't absorb an unspecified repair bill.
+
+## Thin Bodies And Cutaways
+
+The ES-125T, TC and TDC have enough differences that I don't price them from the main table by analogy. A guitar described as a “1960s ES-125” could belong to one of those groups. A front view, side view and control photograph usually clarify which comparison needs further work.
+
+The pointed cutaway is visible in the TDC photograph below. Two pickups and their controls are visible as well. Those details identify the photographed configuration without proving the originality of every part.
+
+The original family guide also includes full-depth cutaway versions. Body depth remains a separate feature from the cutaway itself. A photograph that shows only the front can leave that distinction unresolved.
+
+When a completed listing uses the wrong variant name, I follow the instrument's documented features. I don't preserve a mistaken category just because the price-guide table grouped it there. This is why a list of sold prices needs a condition and configuration review before it becomes a value range.
+
+<figure>
+
+![Cherry-sunburst ES-125TDC with a pointed cutaway in an open red-lined case](../../assets/blog/gibson-es-125-guide/1960s-gibson-es-125-tdc-cherry-sunburst.jpg)
+
+<figcaption>The TDC photograph shows the pointed cutaway, two black pickups and four controls. Its configuration needs a separate value comparison.</figcaption>
+
+</figure>
+
+## Repairs And The Playing Condition
+
+The ES-125 is a hollow archtop, so the neck joint and body condition deserve a clear description. A guitar can have original finish and still need a neck reset. The clean reference assumes an instrument that doesn't need structural repair.
+
+I ask about the current action, which is the height of the strings above the frets, and any written repair assessment. A repair estimate should describe the actual problem. It shouldn't be replaced by an automatic percentage copied from another model.
+
+Cracks, open seams and binding repairs also need their own records. A stable repaired crack is different from an open crack that needs work. The size, location and quality of the repair affect which completed instruments make useful comparisons.
+
+The published range does not promise that a heavily repaired guitar will sell at its lower endpoint. That endpoint still assumes the stated condition. A repair changes the comparison group instead of simply moving the guitar down one step inside the same band.
+
+Good maintenance should be described accurately too. A quality refret preserves the all-original classification of an otherwise original guitar under this site's grading approach, while removing museum-quality status. Reshaping a neck or replacing a fingerboard is different work.
+
+<figure>
+
+![Back of a 1954 ES-125 neck with finish wear and checking](../../assets/blog/gibson-es-125-guide/1954-gibson-es-125-back-of-neck-wear-scaled.jpg)
+
+<figcaption>This rear view records wear along the neck and the heel area. A photograph documents the surface without proving the full repair history.</figcaption>
+
+</figure>
+
+## Original Finish And Replaced Parts
+
+Surface wear is evidence to document, not something to erase before an appraisal. An original sunburst with checking and playing wear can occupy a different collector category from a fresh refinish. I don't assume that the shinier instrument is the more valuable one.
+
+A pickup cover tells only part of the story. The visible P-90 cover, pole screws and mounting arrangement can be photographed without removing the pickup. Existing repair photographs can help explain a rewind or replacement if that work is already known.
+
+The electronics description should distinguish the pickup, controls and wiring. A working pickup doesn't establish that the pots are original, and replaced pots don't automatically mean the pickup was changed. Keeping those facts separate produces a more useful appraisal.
+
+The bridge and tailpiece should also be recorded separately. A later wooden bridge, replaced trapeze or extra mounting holes can appear on an otherwise appealing instrument. A period-looking replacement isn't necessarily the part that left the factory with that guitar.
+
+I don't publish a universal deduction for any one of those issues. Several changes together can alter the buyer's expectations more than one isolated part. The whole instrument needs a comparison with similarly documented guitars.
+
+<figure>
+
+![Black dogear P-90 cover and six pole screws on a sunburst ES-125](../../assets/blog/gibson-es-125-guide/gibson-es-125-p-90-black-cover.jpg)
+
+<figcaption>The pickup close-up shows the black cover, six pole screws and adjacent pickguard. The internal coil is not visible.</figcaption>
+
+</figure>
+
+## The Case And The Short-Scale Version
+
+The price table assumes the original case. Some completed comparisons include modern hard cases, while others have original soft cases or uncertain case histories. Those differences stay in the research notes rather than being silently treated as equivalent.
+
+A case that fits well is useful for transport, but that does not establish its originality. If you're uncertain, photograph its inside and outside and describe what you know. An old family photograph or receipt may help establish the connection.
+
+The smaller ES-125 3/4 belongs in a separate appraisal. The fraction is a model designation, not a formula for multiplying the full-size guitar's price. Its body, scale and original configuration need matching evidence.
+
+Keep any removed parts and paperwork with the instrument. They help explain changes and can prevent a future owner from repeating a mistaken originality claim. There is no need to reinstall questionable parts merely to prepare photographs.
+
+<figure>
+
+![Small sunburst ES-125 3/4 with a metal pickup cover in a yellow-lined case](../../assets/blog/gibson-es-125-guide/gibson-es125-3-4-scaled.jpg)
+
+<figcaption>The short-scale example from my model archive illustrates another configuration outside the full-size reference table.</figcaption>
+
+</figure>
+
+## Reading The Market References
+
+The reference bands are in US dollars. Reverb's final-price history excludes shipping and tax, while an auction's reported total must be read according to that auction's own result convention. Dealer asking prices were not used to create these bands.
+
+An “Excellent” condition label is not an originality certificate. The descriptions behind this research include replacement tuners, repaired cracks and later cases under positive condition labels. I read those details before deciding how closely a result matches the guitar being valued.
+
+The 1960s range uses a wider published era span because the evidence doesn't justify a separate contemporary estimate for each year. That is why several rows repeat the same reference. The annual format helps you find the year without inventing a trend between adjacent dates.
+
+I don't promise investment performance from an ES-125. Repairs, selling costs, time on the market and the final buyer's preferences affect the result. A useful appraisal starts with the guitar's present condition and the relevant evidence.
+
+## Sending An ES-125 For Review
+
+Send clear photographs of the front, back, side depth, headstock, neck heel, pickup, controls, bridge, tailpiece and case. Include the serial number or factory marking if you can photograph it without disassembly. Tell me about repairs and replacement parts that are already known.
+
+Leave cleaning, refinishing and parts changes until the instrument has been assessed. I can start with a [free vintage guitar appraisal](/free-appraisal/) and explain which details need a closer look. I buy nationwide, and a complete description helps us move from a broad reference to the guitar's own range.
