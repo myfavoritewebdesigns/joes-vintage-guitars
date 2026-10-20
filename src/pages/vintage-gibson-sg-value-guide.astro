@@ -1,6 +1,7 @@
 ---
 // GAP 2 reference page. Index production while excluding branch previews.
 import Layout from '../layouts/Layout.astro';
+import ValueGuidePhotos from '../components/ValueGuidePhotos.astro';
 import { Content, getHeadings } from '../content/value-guides/vintage-gibson-sg-value-guide.md';
 import data from '../data/value-guides/vintage-gibson-sg-value-guide.json';
 import ogAsset from '../assets/images/gibson-sg-family-guide/early-60s-gibson-sg-standard-comparison.webp';
@@ -44,7 +45,7 @@ const structuredData = [faqSchema, {
     <details class="sgvg-mobile-toc"><summary>On This Page</summary><nav aria-label="Article sections"><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></details>
     <aside class="sgvg-toc" aria-label="On this page"><p>On This Page</p><nav><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></aside>
     <article class="sgvg-article">
-      <Content />
+      <ValueGuidePhotos><Content /></ValueGuidePhotos>
       <section id="value-questions" class="sgvg-faq"><h2>Questions About {data.model} Value</h2>{data.faqs.map(f=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
     </article>
   </div>
