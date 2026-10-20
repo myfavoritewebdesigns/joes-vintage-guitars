@@ -6,6 +6,8 @@ import FloatingCTAs from "../components/FloatingCTAs.astro";
 import { SITE_URL, SITE_NAME, LEGAL_NAME, contact, socialSameAs, imageLicense } from "../config/site";
 
 interface Props {
+  /** Optional brand-specific buying link for a reference library's footer. */
+  footerSellLink?: { label: string; href: string };
   /** Optional server-rendered body classes for page-specific layouts. */
   bodyClass?: string;
   /** Page title (defaults to homepage title). Sets <title> and og:title. */
@@ -38,6 +40,7 @@ interface Props {
 }
 
 const {
+  footerSellLink,
   bodyClass = "",
   title = "Joe's Vintage Guitars | We Buy Vintage Guitars Nationwide",
   description = "Sell your vintage guitar the easy way with Joe's Vintage Guitars. Get a free evaluation and get top dollar for your guitar today! Same day payment!",
@@ -493,7 +496,7 @@ if (structuredData) {
       <slot />
     </main>
 
-    <Footer />
+    <Footer sellLink={footerSellLink} />
     <FloatingCTAs />
 
     <!-- Shared submit handler for any <form data-jvg-contact-form>. -->
