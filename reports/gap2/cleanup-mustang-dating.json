@@ -1,0 +1,36 @@
+{
+  "key": "mustang-dating",
+  "url": "/fender-mustang-dating-guide/",
+  "paths": [
+    "src/pages/fender-mustang-dating-guide.astro",
+    "reports/gap2/cleanup-mustang-dating.json"
+  ],
+  "title": "Keep Mustang dating focused on authentication",
+  "changes": [
+    {
+      "remove": "What Is A Competition Mustang Worth Compared To A Standard One?",
+      "replaceWith": "How Do I Identify A Competition Mustang?"
+    },
+    {
+      "remove": "Quite a lot more, and the finish is the reason. In honest all-original condition a Competition guitar from 1969 to 1973 runs roughly $4,000 to $6,000, against roughly $1,600 to $2,200 for a CBS-era standard colour and $2,200 to $4,000 for a pre-CBS 1964 or 1965. Competition Orange is the rarest of the three colours and can run above that, and Competition Blue carries extra weight from the Nirvana association. Because the buyer is paying for the finish, a refinished Competition guitar loses most of the premium, which is a bigger gap than a refinish costs on a plain Mustang.",
+      "replaceWith": "A Competition Mustang has a factory racing stripe and the corresponding Competition finish. I compare the stripe, pickguard, headstock finish and dated parts to identify the configuration. A later stripe or a refinish doesn't establish an original Competition model."
+    },
+    {
+      "insert": "<p class=\"jvg-guide-context\">For 1964 Fender Mustang value comparisons and the later production years, see my <a class=\"underline underline-offset-4\" href=\"/post/fender-mustang-history-value/\">Fender Mustang value guide</a>. This page covers the evidence for the year, finish and parts.</p>",
+      "location": "High in page introduction"
+    },
+    {
+      "remove": "For the long version of this model, including the Competition colours, the Cobain chapter and the value ranges, the <a class=\"spoke\" href=\"/post/fender-mustang-history-value/\">vintage Fender Mustang guide</a> covers everything here at length. ",
+      "reason": "Move the single value link high rather than duplicate it."
+    }
+  ],
+  "decision": "GSC review completed. Preserve 1964 Fender Mustang value intent in the high link; all dollar figures removed from the dating FAQ and its shared schema data. The converted post retains the existing price anchors.",
+  "branch": "joe/gap2-mustang-dating",
+  "validation": {
+    "date": "2026-10-20",
+    "verify": "pnpm 11.7.0 run verify: 257 pages, 0 Astro errors, 0 warnings, 0 copy hard failures; 766 report-only copy warnings across the existing site.",
+    "targetedChecks": "Built titles, Mustang dollar removal and FAQ equality, acoustic related links, all 21 matching brand footer links and default footer preservation passed.",
+    "liveComparison": "No must-fix flags in the representative live comparison. Title differences are requested. The existing Reverb icon dimension warnings are outside this edit.",
+    "visualReview": "Hosted preview review pending."
+  }
+}
