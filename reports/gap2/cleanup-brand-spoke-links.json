@@ -1,0 +1,50 @@
+{
+  "key": "brand-spoke-links",
+  "urls": [
+    "/gretsch-body-binding-and-inlays/",
+    "/gretsch-bridges-and-tailpieces/",
+    "/gretsch-finish-colors/",
+    "/gretsch-headstock-and-tuner-dating-guide/",
+    "/gretsch-knobs-and-controls/",
+    "/gretsch-labels-and-serial-number-locations/",
+    "/gretsch-pickup-dating-guide/",
+    "/gretsch-vintage-vs-reissue/",
+    "/guild-acoustic-guitar-identification/",
+    "/guild-electric-guitar-identification/",
+    "/guild-factory-eras/",
+    "/guild-labels-and-serial-number-locations/",
+    "/guild-model-prefix-serial-number-charts/",
+    "/guild-pickup-and-hardware-dating-guide/",
+    "/guild-vintage-vs-reissue/",
+    "/rickenbacker-body-binding-and-inlays/",
+    "/rickenbacker-finish-colors/",
+    "/rickenbacker-knobs-and-controls/",
+    "/rickenbacker-pickup-dating-guide/",
+    "/rickenbacker-tailpiece-dating-guide/",
+    "/rickenbacker-tuner-dating-guide/"
+  ],
+  "paths": [
+    "src/components/Footer.astro",
+    "src/layouts/Layout.astro",
+    "src/layouts/GretschGuideLayout.astro",
+    "src/layouts/GuildGuideLayout.astro",
+    "src/layouts/RickenbackerGuideLayout.astro",
+    "reports/gap2/cleanup-brand-spoke-links.json"
+  ],
+  "title": "Use the matching brand buying link on identification spokes",
+  "changes": [
+    {
+      "area": "Shared brand-library footer row",
+      "after": "Each Gretsch, Guild and Rickenbacker spoke uses its own brand buying link plus the collection link."
+    }
+  ],
+  "decision": "The incorrect links come from the shared footer, so this is one atomic shared-component fix for the 21 spokes. Hub pages and other site footers retain their current links.",
+  "branch": "joe/gap2-brand-spoke-links",
+  "validation": {
+    "date": "2026-10-20",
+    "verify": "pnpm 11.7.0 run verify: 257 pages, 0 Astro errors, 0 warnings, 0 copy hard failures; 766 report-only copy warnings across the existing site.",
+    "targetedChecks": "Built titles, Mustang dollar removal and FAQ equality, acoustic related links, all 21 matching brand footer links and default footer preservation passed.",
+    "liveComparison": "No must-fix flags in the representative live comparison. Title differences are requested. The existing Reverb icon dimension warnings are outside this edit.",
+    "visualReview": "Hosted preview review pending."
+  }
+}
