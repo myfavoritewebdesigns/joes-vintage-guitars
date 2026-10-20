@@ -1,0 +1,19 @@
+---
+import { load } from 'cheerio';
+import { buildImageGraph } from '../lib/imageLicense';
+
+// Value guides contain Joe's photographs only. Read the optimized Markdown
+// output so each license URL matches the image rendered on this page.
+const html = await Astro.slots.render('default');
+const $ = load(html, null, false);
+const photos = $('figure img').toArray().map(image => ({
+  renderedSrc: $(image).attr('src'),
+  alt: $(image).attr('alt'),
+}));
+const images = await buildImageGraph(photos);
+---
+<Fragment set:html={html} />
+{images.length > 0 && <script is:inline type="application/ld+json" set:html={JSON.stringify({
+  '@context': 'https://schema.org',
+  '@graph': images,
+})} />}
