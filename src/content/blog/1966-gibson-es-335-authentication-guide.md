@@ -12,6 +12,9 @@ metaDescription: "The 1966 Gibson ES-335 is a pre-Norlin Kalamazoo instrument bu
 ogImage: "/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-scaled.jpg"
 wpId: 20220
 ---
+
+For current ranges and condition assumptions, see my [ES-335 value guide by year](/vintage-gibson-es-335-value-guide/).
+
 Authentication Guide · Gibson Semi-Hollow · 1966
 
 The complete year-specific reference for dating and authenticating a genuine 1966 Gibson ES-335: Patent Number pickups, transitional hardware, serial numbers, and every detail that separates a real example from a fake or misrepresented instrument
