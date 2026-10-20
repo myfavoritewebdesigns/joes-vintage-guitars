@@ -22,6 +22,8 @@ toc: [{"href":"#custom-features","label":"What Makes A Gibson Les Paul Custom Di
 
 <p class="norlin-lede"><strong>Gibson Les Paul Customs changed considerably between 1968 and 1986. Body construction, neck woods, pickups and hardware can help you identify one, but the changes didn't all happen in the same year. To date one, match the serial number to the guitar's construction and original parts.</strong></p>
 
+<p>For market ranges, use the <a href="/vintage-gibson-les-paul-custom-value-guide/">vintage Gibson Les Paul Custom value guide</a>, with annual rows through 1979 and the condition assumed for each era reference.</p>
+
 <h2 id="custom-features">What Makes A Gibson Les Paul Custom Different?</h2>
 
 <p>The Les Paul Custom is the more elaborately trimmed member of the Les Paul family. You can recognize the familiar version by its large block fingerboard inlays, split-diamond decoration on the headstock and multiple layers of binding, the contrasting trim around the body and headstock edges. Gold-plated hardware completes the familiar look, although Gibson also offered other finishes and hardware choices during this period.</p>
