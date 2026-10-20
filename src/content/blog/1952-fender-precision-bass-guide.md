@@ -14,7 +14,7 @@ ogImage: "/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-ba
 faqsInline: true
 faqs:
   - q: "Can A Neck Date And Body Date Differ On An Early Precision Bass?"
-    a: "Yes. Fender assembled instruments from parts produced in batches, so the dates don't have to match exactly. I compare both dates with the serial number, construction and retained parts rather than treating one mismatch as proof of replacement."
+    a: "Yes. Fender assembled instruments from parts produced in batches, so the dates don’t have to match exactly. I compare both dates with the serial number, construction and retained parts rather than treating one mismatch as proof of replacement."
   - q: "Can I Authenticate An Early Precision Bass From The Serial Number Alone?"
     a: "No. The serial number is one part of the evidence. I also compare the body, neck, finish, pickup, hardware and component dates before drawing a conclusion."
   - q: "Should I Remove Parts To Photograph An Inherited Bass?"
@@ -376,7 +376,7 @@ The early Precision Bass shares a lot with the [1952 Fender Telecaster](/post/19
 
 For collectors interested in other early Fender solid-body instruments, our [vintage Hardtail Stratocaster guide](/post/hardtail-stratocaster-vintage-guide/) covers authentication details for another landmark Fender instrument. And our [Fender serial number guide](/fender-guitars-serial-number-guide/) provides the foundation for dating any instrument in the Fender catalog.
 
-#### Related Guides From Joe'S Vintage Guitars
+#### Related Guides From Joe's Vintage Guitars
 
 -   [1952 Fender Telecaster Authentication Guide](/post/1952-fender-telecaster-authentication-guide/)
 -   [Hardtail Stratocaster Vintage Guide](/post/hardtail-stratocaster-vintage-guide/)
