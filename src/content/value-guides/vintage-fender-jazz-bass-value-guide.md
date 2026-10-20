@@ -1,0 +1,186 @@
+Vintage Fender Jazz Bass comparisons run from $2,200 to $31,500 across 1960 to 1979, depending on the control layout, year, finish and condition. Original sunburst stack-knob examples sit in a reference-supported $23,000 to $31,500 band; the late-1970s comparison is $2,200 to $4,000. I start with the right group, then narrow it to the bass in front of me.
+
+If the year or originality is uncertain, use my [Fender Jazz Bass dating and authentication guide](/post/vintage-fender-jazz-bass-guide/) before applying a price. This page covers market comparisons, condition and selling decisions. The photographs are from my own archive, including a refinished example that's labeled as such.
+
+## Fender Jazz Bass Values By Year
+
+As of October 2026, these U.S. dollar ranges combine the 2025 edition of The Official Vintage Guitar Magazine Price Guide with two verified completed transactions per era. They're reference-supported comparisons, with the condition allowances below. The guide's own figures assume excellent, all-original instruments and an original case where applicable; the completed examples include wear and the disclosed exceptions.
+
+Each production year has a row. Repeated ranges share the same era evidence, rather than claiming a separate sample of sales for every year. The two control arrangements overlap in 1961 and early 1962, so those years have separate configuration rows.
+
+| Year | Value Range | Shared Comparison And Condition |
+| --- | --- | --- |
+| 1960 | $23,000 to $31,500 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
+| 1961 | $23,000 to $31,500 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
+| 1961 | $11,000 to $23,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
+| 1962 | $23,000 to $31,500 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
+| 1962 | $11,000 to $23,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
+| 1963 | $11,000 to $23,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
+| 1964 | $11,000 to $23,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
+| 1965 | $5,000 to $13,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
+| 1966 | $5,000 to $13,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
+| 1967 | $5,000 to $13,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
+| 1968 | $5,000 to $13,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
+| 1969 | $5,000 to $13,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
+| 1970 | $3,500 to $6,500 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
+| 1971 | $3,500 to $6,500 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
+| 1972 | $3,500 to $6,500 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
+| 1973 | $3,500 to $6,500 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
+| 1974 | $3,500 to $6,500 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
+| 1975 | $2,200 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+| 1976 | $2,200 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+| 1977 | $2,200 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+| 1978 | $2,200 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+| 1979 | $2,200 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+
+### What The Ranges Include
+
+The stack-knob comparison uses excellent original sunburst basses with original cases, allowing a replacement nut. Its evidence includes a 2020 transaction and a 2025 transaction, checked against the published 2025 reference. I haven't relabeled that older result as a current sale or applied an invented inflation adjustment.
+
+The early three-control band runs from worn 1964 examples to the published reference for an excellent earlier slab-board bass. A slab board is the thicker rosewood fingerboard used before the curved veneer style. The completed comparisons are both 1964 instruments; their case completeness and originality documentation differ. This broad band isn't a promise that a worn 1964 and a clean 1962 deserve the same appraisal.
+
+The 1965 to 1969 group allows minor replacement hardware and visible wear, with original finish, pickups and an original case. Its upper boundary comes from the guide's excellent-original 1965 reference. One completed listing disagrees with itself about whether its bass is a 1966 or a 1968, so I use it only as an era comparison.
+
+The early-1970s sample includes an exceptionally complete original and a professionally refretted bass with a replacement nut, both with original cases. The late-1970s group includes a more worn instrument whose case isn't documented as original. Refinishes, replacement pickups, extra routing and rare custom-color premiums need a different comparison.
+
+Reverb transaction prices exclude separately charged shipping and taxes. A published guide is a reference, not a transaction, and a current advertised price isn't evidence that a buyer paid it. The source record keeps those categories separate.
+
+<figure>
+
+![Lake Placid Blue Fender Jazz Bass body with white pickguard and chrome covers](../../assets/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg)
+
+<figcaption>A Lake Placid Blue Jazz Bass from my archive, with its white guard, chrome covers and three controls.</figcaption>
+
+</figure>
+
+## Why The Control Layout Changes The Comparison
+
+The earliest Jazz Bass uses two stacked controls, with a volume and tone adjustment for each pickup. The later arrangement has three separate knobs: two volumes and a shared tone. That difference separates the first collector group from the much longer production run that followed it.
+
+I don't price a bass from the control plate alone. A replacement plate can give a later or modified instrument the appearance of an earlier one. For the stack-knob band, the bass needs to belong to that original configuration, with its finish, pickups and supporting evidence accounted for.
+
+The $23,000 to $31,500 comparison applies to original sunburst stack-knob instruments under the stated conditions. It doesn't apply unchanged to a refinished body, an assembled bass or a later instrument converted to stacked controls. Those can still be good instruments, but the available comparison has changed.
+
+<figure>
+
+![Chrome Jazz Bass control plate with two stacked knobs](../../assets/blog/vintage-fender-jazz-bass-guide/1961-fender-jazz-bass-stack-knob-plate-scaled.jpg)
+
+<figcaption>The stacked controls on a Jazz Bass from my archive. This control arrangement belongs in the comparison before a price is chosen.</figcaption>
+
+</figure>
+
+Early 1962 stack-knob examples belong with the original stack-knob configuration when the evidence supports it. A 1962 with three controls belongs in the next group. The calendar year doesn't settle that choice by itself, which is why the table carries both rows.
+
+### The Early Three-Control Years
+
+The 1961 to 1964 three-control comparison is $11,000 to $23,000. That's a deliberately wide interval covering different fingerboards and conditions. The lower part reflects worn examples with less complete documentation, while the upper part is a published reference for an excellent earlier configuration.
+
+Once the bass is identified, I narrow that interval. Original finish and pickups, the correct neck, repair history, usable frets and the case all belong in the same appraisal. A clean description without photographs of the wear and changed parts doesn't give me enough to place a bass at the upper end.
+
+An original owner history can help establish what was changed and when. It doesn't turn an undocumented pickup or a replacement case into an original one. I keep the owner's account with the physical evidence so a later buyer can understand both.
+
+## How I Compare The CBS And Seventies Basses
+
+For 1965 to 1969, the $5,000 to $13,000 range spans worn later examples and the published excellent-original reference for 1965. Binding, dot or block inlays and the other transition features help select the appropriate comparison. They don't create a fixed premium that can simply be added to every bass from the year.
+
+The 1966 bound-dot configuration deserves its own inspection because it sits within a transition. A collector looking specifically for that combination may compare it with different instruments than someone seeking a later block-inlay player. I haven't assigned a separate bound-dot price band without enough matching completed evidence.
+
+The 1970 to 1974 comparison is $3,500 to $6,500. The reference includes original-finish sunburst basses with original pickups and cases, from serviced players to unusually complete examples. Fretwork and a replacement nut are disclosed allowances, rather than reasons to describe every bass in that interval as untouched.
+
+<figure>
+
+![Sunburst Fender Jazz Bass with maple fingerboard and black block inlays](../../assets/blog/vintage-fender-jazz-bass-guide/1973-fender-jazz-bass-sunburst-full-shot-of-front-scaled.jpg)
+
+<figcaption>A 1973 Jazz Bass from my archive, showing the sunburst body, maple fingerboard and black block inlays.</figcaption>
+
+</figure>
+
+For 1975 to 1979, the standard-finish comparison is $2,200 to $4,000. Condition, neck function, weight and retained parts help narrow an individual appraisal. The completed examples supporting this band are sunburst, while the published reference covers standard finishes more broadly.
+
+I don't use the Jazz Bass table for a Precision Bass, a modern reissue or a bass assembled from parts. A model name in a marketplace category can be wrong. The actual listing and the instrument's features need to agree before its sale is useful evidence.
+
+### Maple Boards And Playing Condition
+
+A maple fingerboard with blocks gives a 1970s Jazz Bass a different appearance from the earlier rosewood instruments. The photograph below shows that later board style. It doesn't establish a fixed maple-board premium, and I haven't added one to the table.
+
+<figure>
+
+![Bound maple Jazz Bass fingerboard with pearloid block inlays](../../assets/blog/vintage-fender-jazz-bass-guide/1976-fender-jazz-bass-maple-board-pearloid-blocks-scaled.jpg)
+
+<figcaption>A close view of the bound maple board and pearloid blocks on a Jazz Bass from my archive.</figcaption>
+
+</figure>
+
+A bass that needs routine setup work is different from one with an unresolved neck problem. Before I make a firm offer, I want to understand the neck's condition, the remaining fret life and any repair history. If the owner doesn't know, I record that uncertainty instead of treating silence as proof that everything works.
+
+A quality refret is accepted maintenance and preserves the all-original classification of an otherwise all-original instrument. It takes that bass out of the museum-quality category. Neck reshaping, fingerboard replacement and other alterations require a separate assessment because they change more than the worn frets.
+
+## Original Finish, Custom Color And Refinish
+
+The main comparisons concern original sunburst or standard finishes. A verified factory custom color can appeal to a different group of buyers, especially when the rest of the instrument is complete. I need matching evidence for that finish before using a custom-color comparison.
+
+Lake Placid Blue, Candy Apple Red and other colors aren't interchangeable price categories. A matching headstock also needs to belong to the original finish package. The [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/) covers the finish evidence without turning this value page into a paint inspection walkthrough.
+
+<figure>
+
+![Back of a blue Fender Jazz Bass with finish wear exposing a white layer](../../assets/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-back-wear-white-undercoat.jpg)
+
+<figcaption>The back of this Jazz Bass shows finish wear and a white layer beneath the blue. A photograph of the wear belongs with the condition description.</figcaption>
+
+</figure>
+
+The color visible today may have changed with age and wear. That doesn't by itself prove a refinish, just as attractive checking doesn't prove an original finish. I use the established finish assessment when choosing the price group, rather than assigning a premium from the color in one photograph.
+
+A refinished instrument belongs in a refinished comparison. The workmanship can be excellent and the bass can play beautifully, but the collector isn't buying an untouched factory finish. I don't subtract one universal percentage because the extent of the work and the other retained parts vary too much.
+
+<figure>
+
+![Refinished black Fender Jazz Bass with tortoiseshell guard and stacked controls](../../assets/blog/vintage-fender-jazz-bass-guide/1961-fender-jazz-bass-stack-knob-refinished-black.jpg)
+
+<figcaption>This black stack-knob Jazz Bass in my archive is refinished. It illustrates a different collector category from the original-finish table.</figcaption>
+
+</figure>
+
+The black stack-knob bass in my archive is a refinished example. Its early control arrangement doesn't make the black finish factory original. That distinction keeps an attractive player's instrument from being priced as an original custom-color collector example.
+
+If a finish has only localized touchup or overspray, I describe the location and extent rather than calling the entire bass either perfect or ruined. Overspray means an added coat over an existing finish. The repair record and photographs help determine the appropriate comparison.
+
+## Pickups, Hardware And The Case Package
+
+The pickups are the components that turn the strings' vibration into an electrical signal. For valuation, I want to know whether the original pair remains, whether either pickup has been rewound and whether any removed parts are included. A working replacement can serve a player well while changing the collector comparison.
+
+I separate a replaced potentiometer, the electrical control beneath a knob, from a body routed for an added pickup. One is a component change; the other removes wood. Treating both as the same generic modification hides information a buyer needs.
+
+Hardware changes also vary. A missing cover screw, a replaced tuner and extra holes from a different bridge aren't equivalent. Listing each change makes the comparison useful and avoids applying the lowest modified-bass price to an instrument with only a minor service part.
+
+Keep removed original parts with the bass. Don't discard an old pickup because it doesn't work or assume a worn bridge has no value to a future owner. I can evaluate what remains before recommending any repair or replacement.
+
+An original case supports the completeness of the package, but it still has its own condition. Broken latches, a missing handle or a damaged lining should be described. A newer protective case may be better for transport while remaining a replacement in the appraisal.
+
+Receipts, tags and photographs can help establish the bass's history. I record what they actually show. An old photograph of a similar instrument isn't enough to prove that it depicts the same bass, and an undocumented celebrity connection doesn't justify using a celebrity-auction result.
+
+## What A Market Range Means For A Sale
+
+The table is a comparison of instruments with stated conditions. It isn't a cash offer, an insurance replacement figure or a guarantee of the amount a private seller will receive. Each of those questions has different terms attached to it.
+
+For a direct purchase, I explain the bass's condition and the proposed offer together. For a private sale, the seller still has to consider fees, shipping, any agreed repairs and the final negotiated price. An advertised dealer figure and a seller's net proceeds answer different questions.
+
+If you're comparing offers, keep the included items and responsibilities consistent. A number that includes an original case, loose parts and shipping can't be compared fairly with one that leaves them out. Put the known condition and included accessories in writing so everyone is discussing the same package.
+
+I also distinguish an actual completed sale from an ended listing. A listing can disappear because it was withdrawn or changed. Even a transaction-history row needs a model and condition check: misclassified instruments and substantial modifications can distort a range.
+
+### Is A Vintage Jazz Bass An Investment?
+
+A collectible bass can retain an audience, but I don't promise appreciation or a timetable for resale. The acquisition price, condition, originality and eventual selling costs all affect the outcome. Buy an instrument you understand rather than relying on a prediction that every vintage bass will rise together.
+
+For an inherited instrument, there is no need to rush cosmetic work in order to request a value. A clear record of its present condition is a better starting point. Polishing, refinishing or replacing parts before an appraisal can remove evidence that would have helped explain it.
+
+## Getting A Specific Value For Your Jazz Bass
+
+Start with clear photographs of the front, back, headstock, controls, case and any known damage. Include a picture of the serial number and tell me about work you know was done. Don't remove a neck, unsolder a pickup or dismantle unfamiliar hardware for the initial inquiry.
+
+Tell me what comes with it, including loose parts, receipts and the case. If it has been stored for years, say so; you don't need to claim that it plays perfectly before someone has checked it. I can explain which uncertainties affect the appraisal and which photographs would help resolve them.
+
+You can request a [free appraisal of your vintage Jazz Bass](/free-appraisal/) from anywhere in the country. If you're ready to sell, my [Fender buying process](/sell-my-fender-guitar/) explains the next steps. I buy vintage guitars and basses nationwide from Mesa, Arizona.
+
+The price record for this page was reviewed in October 2026. It identifies the 2025 published reference, the completed comparisons and their condition notes. A newer market observation belongs in that record before it changes the table.
