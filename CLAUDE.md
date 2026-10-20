@@ -40,6 +40,9 @@ These were established by the wp-to-astro template after the JVG fender-SN page 
 3. **For qualitative visual review, invoke the `live-diff-auditor` agent — don't self-audit.** A model auditing its own work is anchored on what it built and misses what's missing. Spawn the auditor as a subagent and act on its punch list.
 4. **After 2 failed attempts at the same visual problem, escalate to cross-model review** (Gemini, GPT, or a different Claude model size). Same-model parallel review is correlated, not independent — both instances share weights and biases and will make the same blind-spot errors. See [Same-model parallel review is NOT independent](#same-model-parallel-review-is-not-independent).
 5. **Every intentional deviation goes into the [Decision log](#decision-log)** — future sessions will revert it otherwise.
+6. **Never request an image width larger than the file's own width.** Cap it the way `src/components/primitives/LicensedImage.astro` does: `Math.min(width, src.width)`. A larger request makes Astro drop the file's full width from the srcset, so the page loads a smaller copy than the file has (PR #233, 2026-10-19).
+7. **Keep the largest original of every photo in `src/assets`.** Never replace one with a resized or downscaled copy. When a bigger original turns up, swap it in under the same file name (PR #232, 2026-10-19, restored full-size originals for 128 photos this way).
+8. **A new Pages Function needs its path added to `include` in `public/_routes.json`, or it won't run.** Don't add root middleware: a function at the root runs on every request and counts against the Workers quota. See `functions/README.md` (PR #241, 2026-10-19).
 
 ## Source of truth hierarchy
 
@@ -577,7 +580,7 @@ Hot-linking is dangerous because:
 
 Pre-launch image checklist (per image):
 - [ ] Downloaded to `public/images/<page>/` or `src/assets/images/<page>/`
-- [ ] Compressed (use [Squoosh](https://squoosh.app/) or `sharp` if scripting)
+- [ ] Compressed only if it lives in `public/images/` (use [Squoosh](https://squoosh.app/) or `sharp` if scripting). Files in `src/assets/` stay full-size originals; Astro's pipeline makes the smaller copies (must-follow rule 7)
 - [ ] Renamed descriptively (not `IMG_4523.jpg`)
 - [ ] `width` and `height` attributes set (or used via Astro's `<Image>`)
 - [ ] `alt` text matches what's on the live site, or improves it where missing
