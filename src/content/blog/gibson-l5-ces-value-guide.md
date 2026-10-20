@@ -35,15 +35,15 @@ As of October 2026, the table below combines the 2025 edition of The Official Vi
 
 Each year is listed through 1979, but repeated rows share the same era reference. A group that spans more than one finish or pickup version is deliberately broad. The price guide separates those details more finely; I don't invent a separate annual premium when the completed-sale sample doesn't establish one.
 
-| Year | Configuration | Published Reference |
+| Year | Reference Group | Published Reference |
 | --- | --- | --- |
-| 1951 | P-90 Or Alnico Single Coils | $20,000 to $27,500 |
-| 1952 | P-90 Or Alnico Single Coils | $20,000 to $27,500 |
-| 1953 | P-90 Or Alnico Single Coils | $20,000 to $27,500 |
-| 1954 | P-90 Or Alnico Single Coils | $20,000 to $27,500 |
-| 1955 | P-90 Or Alnico Single Coils | $20,000 to $27,500 |
-| 1956 | P-90 Or Alnico Single Coils | $20,000 to $27,500 |
-| 1957 | P-90 Or Alnico Single Coils | $20,000 to $27,500 |
+| 1951 | Single-Coil Reference | $20,000 to $27,500 |
+| 1952 | Single-Coil Reference | $20,000 to $27,500 |
+| 1953 | Single-Coil Reference | $20,000 to $27,500 |
+| 1954 | Single-Coil Reference | $20,000 to $27,500 |
+| 1955 | Single-Coil Reference | $20,000 to $27,500 |
+| 1956 | Single-Coil Reference | $20,000 to $27,500 |
+| 1957 | Single-Coil Reference | $20,000 to $27,500 |
 | 1957 | Original PAF Pair | $20,000 to $32,000 |
 | 1958 | Original PAF Pair | $20,000 to $32,000 |
 | 1959 | Original PAF Pair | $20,000 to $32,000 |
