@@ -1,0 +1,24 @@
+{
+  "key": "tele-title",
+  "url": "/vintage-fender-telecaster-value-guide/",
+  "paths": [
+    "src/pages/vintage-fender-telecaster-value-guide.astro",
+    "reports/gap2/cleanup-tele-title.json"
+  ],
+  "title": "Keep the Telecaster value title within the house length",
+  "changes": [
+    {
+      "before": "Vintage Fender Telecaster Values by Year | Joe’s Vintage Guitars",
+      "after": "Vintage Fender Telecaster Value Guide: Prices By Year"
+    }
+  ],
+  "decision": "Current source already lacks an en dash. GSC reviewed; preserve model, value and by-year intent while using Title Case and a 53-character root-page title without the brand suffix.",
+  "branch": "joe/gap2-tele-title",
+  "validation": {
+    "date": "2026-10-20",
+    "verify": "pnpm 11.7.0 run verify: 257 pages, 0 Astro errors, 0 warnings, 0 copy hard failures; 766 report-only copy warnings across the existing site.",
+    "targetedChecks": "Built titles, Mustang dollar removal and FAQ equality, acoustic related links, all 21 matching brand footer links and default footer preservation passed.",
+    "liveComparison": "No must-fix flags in the representative live comparison. Title differences are requested. The existing Reverb icon dimension warnings are outside this edit.",
+    "visualReview": "Hosted preview review pending."
+  }
+}
