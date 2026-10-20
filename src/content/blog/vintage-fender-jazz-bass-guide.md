@@ -1,7 +1,8 @@
 ---
 title: "Fender Jazz Bass Guide 1960-1975: Year-by-Year Specs, Dating, and Value"
+seoTitle: "Fender Jazz Bass Dating And Value"
 pubDate: "2026-08-10T09:00:00"
-modified: "2026-08-13T00:00:00"
+modified: "2026-10-19T12:00:00-07:00"
 excerpt: "The stack knob years, the bound-dot window, and the 1970s bridge pickup move. Every dating change on the vintage Fender Jazz Bass from the 1960 launch to 1975, and why the headstock logo will not tell you whether yours is pre-CBS."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -10,6 +11,24 @@ heroImage: "/images/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-la
 heroImageAlt: "A 1966 Fender Jazz Bass in Lake Placid Blue custom color."
 metaDescription: "Date a vintage Fender Jazz Bass from what you can see. Stack knob to three knob, slab to veneer, clay to pearloid, the bound-dot window, and the 1970s changes, 1960 to 1975."
 ogImage: "/images/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg"
+faqsInline: true
+faqs:
+  - q: "What Year Is My Fender Jazz Bass?"
+    a: "Work it in three passes. Start with the controls and the fingerboard: stack knob or three knob, slab or veneer, clay or pearloid, bound or unbound, dots or blocks. Then read the pickguard layers, the tuners, and the serial number together, treating the serial as one vote rather than the answer. Then open it up for the neck heel date, the body date, and the pot codes, which are the only places Fender wrote an actual date. Do not start at the headstock."
+  - q: "Is My Jazz Bass Pre-CBS?"
+    a: "CBS completed the purchase in January 1965, but the instruments didn't change on that date. I compare the controls, fingerboard, inlays, guard, pickups and component dates. Earlier features overlap the ownership transition, so a calendar label alone isn't enough."
+  - q: "What Is A Stack Knob Jazz Bass?"
+    a: "Early Jazz Basses use two dual concentric controls, with a stacked volume and tone control for each pickup. The three-control layout arrived late in 1961, and leftover stack-knob assemblies occur in early 1962. I check the rest of the instrument before treating the control plate as proof of its year."
+  - q: "My Jazz Bass Has A Bound Fingerboard With Dot Inlays. Is That Wrong?"
+    a: "No, that is a factory build. Binding arrived around December 1965 and block inlays did not follow until the middle of 1966, so there is a real window where a bound board still wears dots. The same gap shows up on the Jaguar and the Jazzmaster."
+  - q: "Why Does My 1970s Jazz Bass Sound Brighter Than A 1960s One?"
+    a: "Mostly the bridge pickup. In the early 1970s Fender moved it about 0.4 inch closer to the bridge, widening the gap between the pickups from about 3.6 inches to about 4.0 inches, and returned to the earlier placement in the early 1980s. That placement is a large part of the cutting 1970s Jazz Bass voice, and it is why pickup makers still sell \"60s spacing\" and \"70s spacing\" sets."
+  - q: "One Of My Pickups Has A Black Bottom And The Other Is Grey. Has One Been Replaced?"
+    a: "Probably not, if the bass is a 1964. Fender changed from black to grey fibreboard around the middle of that year and worked through existing stock as it went, so a mixed pair on a 1964 is correct. On a 1962 or a 1968 it is a different conversation."
+  - q: "Does The Headstock Logo Tell Me If My Jazz Bass Is Pre-CBS?"
+    a: "No, and this is the most common mistake on the model. The gold transition logo ran from 1960 through 1967, so it covers the whole pre-CBS era and the first three CBS years. A black logo means 1968 or later. Everything else has to come from the neck, the controls, the hardware and the dates inside."
+  - q: "Are Three Bolt Necks A Problem?"
+    a: "Not inherently. The three bolt Micro-Tilt joint arrived in late 1974 with the bullet truss rod, and it earned a poor reputation from neglected examples with worn neck pockets. A well maintained one is stable and the 1970s basses have a real following now. Check the pocket fit and the neck angle rather than dismissing it on principle."
 toc:
   - { href: "#why-the-year-matters", label: "Why The Year Matters" }
   - { href: "#year-by-year", label: "Year By Year Quick Reference" }
@@ -24,10 +43,12 @@ toc:
   - { href: "#seventies", label: "The 1970s" }
   - { href: "#custom-colors", label: "Custom Color Authentication" }
   - { href: "#red-flags", label: "Red Flags" }
-  - { href: "#value", label: "Value Drivers" }
+  - { href: "#value", label: "Originality And Condition" }
   - { href: "#faq", label: "Common Questions" }
 ---
 The Jazz Bass arrived in the summer of 1960 as the expensive one. Fender already had the Precision, so the Jazz was built to sit above it: two pickups instead of one, a narrower nut, an offset body, and a control layout nobody else was building. It has been in production ever since, which is exactly why dating one properly matters. A stack knob from 1961 and a three-bolt from 1975 are both "a vintage Fender Jazz Bass," and there is a very large number between them.
+
+For 1966 and 1972 Fender Jazz Bass value comparisons and every year through 1979, see my [vintage Fender Jazz Bass value guide](/vintage-fender-jazz-bass-value-guide/). This page covers the evidence for the year, parts and finish.
 
 This guide covers every meaningful change from the 1960 launch through 1975, in the order you would actually check them. If you are looking to [sell a vintage Fender bass](/sell-my-fender-guitar/) or you have inherited one and need a *vintage guitar appraisal*, these are the same details a serious buyer will use to price it.
 
@@ -48,16 +69,14 @@ If you want the compact version, our [guide to dating a Fender Jazz Bass](/fende
 11.  [The 1970s: Three Bolts, Maple, and Blocks](#seventies)
 12.  [Custom Color Authentication](#custom-colors)
 13.  [Red Flags and Common Problems](#red-flags)
-14.  [Value Drivers](#value)
+14.  [Originality And Condition](#value)
 15.  [Frequently Asked Questions](#faq)
 
-<h2 id="why-the-year-matters">Why the Year Matters</h2>
+<h2 id="why-the-year-matters">Why The Year Matters</h2>
 
-The Jazz Bass value curve is steep at the front and flat at the back. A clean, all original stack knob from 1960 or 1961 lives in a completely different price world than a 1974 sunburst, and the gap is measured in five figures rather than percentages. The market sorts these first by era (stack knob, three knob pre-CBS, CBS, 1970s), then by spec (slab or veneer, clay or pearloid, bound or unbound, dots or blocks), then by condition and originality.
+The controls, fingerboard, inlays and hardware changed during the Jazz Bass production run. I compare those features with the dates before assigning a year. A serial number or a headstock logo alone doesn't establish the bass's configuration or originality.
 
-That sorting is why so many "1962" Jazz Basses on the open market turn out to be a year or two later than advertised, and why a single detail can move the number by thousands. The good news is that the Jazz Bass hands you an unusually clean sequence of changes. Work through them in order and you can place most examples inside a two year window before you pick up a screwdriver.
-
-<h2 id="year-by-year">Year by Year Quick Reference</h2>
+<h2 id="year-by-year">Year By Year Quick Reference</h2>
 
 The orientation table. Every row is unpacked in detail below.
 
@@ -82,9 +101,9 @@ The orientation table. Every row is unpacked in detail below.
 
 </figure>
 
-Two things to hold in mind reading down that table. Fender never made a clean cutover, so a change dated to mid year means both versions turn up on instruments from that year and a transition example is genuinely correct either way. And parts sat in bins before they went into an instrument, so a feature dates the part rather than the bass, which makes the bass that year **or later**.
+Two things to hold in mind reading down that table. Fender never made a clean cutover, so a change dated to mid year means both versions turn up on instruments from that year and a transition example is truly correct either way. And parts sat in bins before they went into an instrument, so a feature dates the part rather than the bass, which makes the bass that year **or later**.
 
-<h2 id="stack-knob">The Stack Knob Years: 1960 to 1962</h2>
+<h2 id="stack-knob">The Stack Knob Years: 1960 To 1962</h2>
 
 The first Jazz Basses did not have the volume, volume, tone layout everybody pictures. They had **dual concentric "stack knob" controls**: two stacked knobs, each one a volume and a tone for a single pickup. Four controls in two positions.
 
@@ -100,7 +119,7 @@ Fender phased the layout out in **late 1961** in favour of the simpler three kno
 
 Stack knob basses are the most collectible Jazz Basses there are, which means the controls are worth faking. The plate is four screws. Before you pay stack knob money, confirm the neck heel date, the body date, and the pot codes all land in the 1960 to early 1962 window, and check that the control plate holes match the body routing with no filled or extra holes underneath.
 
-<h2 id="headstock">Why the Logo Will Not Date Your Jazz Bass</h2>
+<h2 id="headstock">Why The Logo Will Not Date Your Jazz Bass</h2>
 
 On a Stratocaster the headstock decal is one of the fastest era checks you have. On a Jazz Bass it is close to useless, and this is where most people go wrong.
 
@@ -116,7 +135,7 @@ On a Stratocaster the headstock decal is one of the fastest era checks you have.
 
 So the dating work on a Jazz Bass falls to the board, the controls, the pickguard, the hardware, and the dates written inside. If a listing leans on the headstock to justify a pre-CBS price, that is the point to start asking questions.
 
-<h2 id="fingerboard">Fingerboard, Inlays, and Binding</h2>
+<h2 id="fingerboard">Fingerboard, Inlays, And Binding</h2>
 
 The neck is where a Jazz Bass actually gives up its year, and it does it in four separate stages.
 
@@ -134,7 +153,7 @@ Clay dots ran from the launch to **late 1964**, roughly October to December, and
 
 Here is the sequence that catches people, because the two changes are usually spoken of as one and they are six months apart.
 
-**White fingerboard binding arrived in late 1965**, around December. **Pearloid block inlays did not follow until the middle of 1966**, around June or July. That leaves a genuine factory window from late 1965 into mid 1966 where a Jazz Bass carries a **bound board with dot inlays**.
+**White fingerboard binding arrived in late 1965**, around December. **Pearloid block inlays did not follow until the middle of 1966**, around June or July. That leaves a original factory window from late 1965 into mid 1966 where a Jazz Bass carries a **bound board with dot inlays**.
 
 Those "bound-dot" necks are correct. They are not parts guitars, they are not refretted replacements, and they are not fakes. The same binding-before-blocks gap shows up on the [Jaguar](/post/vintage-fender-jaguar-guide/) and the [Jazzmaster](/post/fender-jazzmaster-evolution-guide-1958-1971/), so it is a Fender-wide pattern rather than a quirk of this model. If somebody tells you a bound board with dots must be wrong, they are working from a rule that skipped a step.
 
@@ -146,7 +165,7 @@ Those "bound-dot" necks are correct. They are not parts guitars, they are not re
 
 </figure>
 
-<h2 id="pickguards">Pickguards and Finish Pairing</h2>
+<h2 id="pickguards">Pickguards And Finish Pairing</h2>
 
 Hold the guard edge up to a strong light and count the layers. Jazz Bass guards moved from **nitrate to vinyl and laminate in early to mid 1965**, with leftover nitrate stock overlapping into the change. Tortoiseshell guards are **four ply**, a nitrocellulose top over white, black and white. White, parchment and black guards are **three ply**.
 
@@ -157,9 +176,9 @@ The pairing rule is the part worth knowing, because it answers a question people
 
 So a white guard on a custom color Jazz Bass is correct and original, not somebody's later swap. Tortoiseshell does turn up on selected custom finishes such as Olympic White by special order, which is a real exception rather than an excuse, and it needs the rest of the bass to back it up.
 
-The nitrate guards also age in a way reproductions do not manage. They shrink, they cup, they crack at the screw ears, and they outgas an acidic vapour you can smell the moment you open a case that has been shut a while. That vinegar tang is a genuine authentication tool. The vinyl guards that replaced them do not shrink, do not smell, and have no mint green underside.
+The nitrate guards also age in a way reproductions do not manage. They shrink, they cup, they crack at the screw ears, and they outgas an acidic vapour you can smell the moment you open a case that has been shut a while. That vinegar tang is a original authentication tool. The vinyl guards that replaced them do not shrink, do not smell, and have no mint green underside.
 
-<h2 id="pickups">Pickups and the 1970s Bridge Move</h2>
+<h2 id="pickups">Pickups And The 1970s Bridge Move</h2>
 
 ### Black Bottoms Versus Grey
 
@@ -203,9 +222,9 @@ Take the neck plate off and the heel carries the date. On a Jazz Bass this is th
 
 The stamp runs a model code, then the month, then the year, then a letter for the nut width. **The Jazz Bass model code is 7** from 1962 to 1965. Fender renumbered the model codes at the end of 1965, and the Jazz Bass moved to **15** from 1966, so the code itself is a useful cross check on which side of that line a neck sits. Ignore the code for the actual dating and read the month and year.
 
-The body date, marked inside a cavity, corroborates rather than decides: bodies sat in the warehouse before being matched to necks, so a body date and a neck date a few months apart is the normal result on an untouched bass. Pot codes are downstream of both, since the potentiometer was made before the bass was wired. Our guides to [reading Fender pot codes](/fender-pot-codes/) and [neck heel dates](/fender-neck-dates/) cover the formats in detail.
+A pencil date on the body corroborates rather than decides: bodies sat in the warehouse before being matched to necks, so a body date and a neck date a few months apart is the normal result on an untouched bass. Pot codes are downstream of both, since the potentiometer was made before the bass was wired. Our guides to [reading Fender pot codes](/fender-pot-codes/) and [neck heel dates](/fender-neck-dates/) cover the formats in detail.
 
-<h2 id="serial">What the Serial Number Will Not Tell You</h2>
+<h2 id="serial">What The Serial Number Will Not Tell You</h2>
 
 The number stamped in the neck plate gets you a rough production year and nothing tighter. Fender stamped plates in batches, stored them, and pulled them off the stack in no particular order, so a plate could sit on a shelf for months and a higher number could go on a bass built before a lower one. Published ranges overlap year to year and disagree between sources.
 
@@ -219,7 +238,7 @@ The number stamped in the neck plate gets you a rough production year and nothin
 
 Read it alongside the features rather than instead of them, and treat a mismatch as the interesting part. An L series plate on a bass with a bound block inlay neck deserves a hard look, because the L series had finished well before the blocks arrived. Full charts by era live on our [Fender serial number guide](/fender-guitars-serial-number-guide/); there is no Jazz Bass specific chart because Fender serials are not model specific. A 1963 plate reads the same whether it ended up under a Jazz Bass, a Stratocaster, or a Jaguar.
 
-<h2 id="seventies">The 1970s: Three Bolts, Maple, and Blocks</h2>
+<h2 id="seventies">The 1970s: Three Bolts, Maple, And Blocks</h2>
 
 Three changes define the last stretch of the original run.
 
@@ -259,9 +278,9 @@ The single most useful custom color check is the wear pattern. On an original fi
 
 </figure>
 
-Compare that to the refinished 1961 stack knob near the top of this page: black over bare wood, no undercoat, no sealer, and a tortoiseshell guard that does not belong on a custom color in the first place. Any one of those invites a question. All three together is an answer. Our [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/) covers the binder chemistry, the DuPont color codes, and the neck pocket tells in full.
+Compare that to the refinished 1961 stack knob near the top of this page: black over bare wood, no undercoat, no sealer, and a tortoiseshell guard that was not factory-paired with black. Any one of those invites a question. All three together is an answer. Our [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/) covers the binder chemistry, the DuPont color codes, and the neck pocket tells in full.
 
-<h2 id="red-flags">Red Flags and Common Problems</h2>
+<h2 id="red-flags">Red Flags And Common Problems</h2>
 
 -   A stack knob control plate on a body whose routing or screw holes do not match it
 -   A "1962" with pearloid dots, which is two years early for that inlay
@@ -269,47 +288,46 @@ Compare that to the refinished 1961 stack knob near the top of this page: black 
 -   A pre-1966 bass with non reverse or F stamped tuners, which is a later replacement set
 -   Block inlays on an unbound board, or binding claimed as evidence of a pre-CBS build
 -   A custom color that wears straight to bare wood with no undercoat or sealer layer
--   A tortoiseshell guard on a custom color bass with nothing else to support it
+-   A tortoiseshell guard on a custom color other than Olympic White
 -   An L series plate on a bass whose features all say 1967 or later
 -   A headstock decal used as the justification for a pre-CBS price
 
-<h2 id="value">Value Drivers</h2>
+<h2 id="value">Originality And Condition</h2>
 
-In rough order of how much they move the number on a vintage Jazz Bass:
+Original finish, original pickups and retained parts support collector appeal. Refinishing, replaced components and structural repairs change the comparison, while case condition and documentation help explain what remains. Establish the bass's identity and originality before applying the paired value guide's table.
 
-1.  **Era.** Stack knob first, then three knob pre-CBS, then the 1965 to 1966 transition, then CBS, then the 1970s.
-2.  **Originality of the finish.** A refinish is the single largest deduction, and it is larger on a custom color than on a sunburst.
-3.  **Originality of the parts.** Pickups, tuners, pots, and the control plate. Original black bottom pickups in an early bass are worth real money on their own.
-4.  **Custom color, authenticated.** A verified original custom color is a large premium. An unverified one is a liability.
-5.  **Condition.** Neck relief, fret life, and whether the truss rod still moves.
-6.  **The case and the story.** Original case, receipts, and a documented first owner all help.
+<h2 id="faq">Jazz Bass Authentication Questions</h2>
 
-Any specific figure depends on the individual instrument, so treat the list as the order to inspect in rather than a formula. If you want a real number on a specific bass, that is what an appraisal is for.
+### What Year Is My Fender Jazz Bass?
 
-<h2 id="faq">Frequently Asked Questions</h2>
-
-**What year is my Fender Jazz Bass?**
 Work it in three passes. Start with the controls and the fingerboard: stack knob or three knob, slab or veneer, clay or pearloid, bound or unbound, dots or blocks. Then read the pickguard layers, the tuners, and the serial number together, treating the serial as one vote rather than the answer. Then open it up for the neck heel date, the body date, and the pot codes, which are the only places Fender wrote an actual date. Do not start at the headstock.
 
-**Is my Jazz Bass pre-CBS?**
-CBS completed the purchase in January 1965, but the instruments did not change on that date. The useful markers land later: the pickguard moves from nitrate to vinyl in early to mid 1965, binding arrives around December 1965, and blocks arrive mid 1966. A bass with clay dots, an unbound board, a four ply nitrate guard and black bottom pickups is comfortably pre-CBS. An early 1965 with those same features is a pre-CBS instrument in everything but the paperwork, and it is worth substantially more than a late 1965 that has the binding and the three ply guard.
+### Is My Jazz Bass Pre-CBS?
 
-**What is a stack knob Jazz Bass and why does it cost so much?**
-It is one of the first ones. From the 1960 launch until late 1961 the Jazz Bass used dual concentric controls, a stacked volume and tone for each pickup, before Fender moved to the three knob layout. That is roughly eighteen months of production out of a run that is still going, which is what drives the price. Concentric basses built in early 1962 from leftover plates are also correct, and are rarer still.
+CBS completed the purchase in January 1965, but the instruments didn't change on that date. I compare the controls, fingerboard, inlays, guard, pickups and component dates. Earlier features overlap the ownership transition, so a calendar label alone isn't enough.
 
-**My Jazz Bass has a bound fingerboard with dot inlays. Is that wrong?**
+### What Is A Stack Knob Jazz Bass?
+
+Early Jazz Basses use two dual concentric controls, with a stacked volume and tone control for each pickup. The three-control layout arrived late in 1961, and leftover stack-knob assemblies occur in early 1962. I check the rest of the instrument before treating the control plate as proof of its year.
+
+### My Jazz Bass Has A Bound Fingerboard With Dot Inlays. Is That Wrong?
+
 No, that is a factory build. Binding arrived around December 1965 and block inlays did not follow until the middle of 1966, so there is a real window where a bound board still wears dots. The same gap shows up on the Jaguar and the Jazzmaster.
 
-**Why does my 1970s Jazz Bass sound brighter than a 1960s one?**
+### Why Does My 1970s Jazz Bass Sound Brighter Than A 1960s One?
+
 Mostly the bridge pickup. In the early 1970s Fender moved it about 0.4 inch closer to the bridge, widening the gap between the pickups from about 3.6 inches to about 4.0 inches, and returned to the earlier placement in the early 1980s. That placement is a large part of the cutting 1970s Jazz Bass voice, and it is why pickup makers still sell "60s spacing" and "70s spacing" sets.
 
-**One of my pickups has a black bottom and the other is grey. Has one been replaced?**
+### One Of My Pickups Has A Black Bottom And The Other Is Grey. Has One Been Replaced?
+
 Probably not, if the bass is a 1964. Fender changed from black to grey fibreboard around the middle of that year and worked through existing stock as it went, so a mixed pair on a 1964 is correct. On a 1962 or a 1968 it is a different conversation.
 
-**Does the headstock logo tell me if my Jazz Bass is pre-CBS?**
+### Does The Headstock Logo Tell Me If My Jazz Bass Is Pre-CBS?
+
 No, and this is the most common mistake on the model. The gold transition logo ran from 1960 through 1967, so it covers the whole pre-CBS era and the first three CBS years. A black logo means 1968 or later. Everything else has to come from the neck, the controls, the hardware and the dates inside.
 
-**Are three bolt necks a problem?**
+### Are Three Bolt Necks A Problem?
+
 Not inherently. The three bolt Micro-Tilt joint arrived in late 1974 with the bullet truss rod, and it earned a poor reputation from neglected examples with worn neck pockets. A well maintained one is stable and the 1970s basses have a real following now. Check the pocket fit and the neck angle rather than dismissing it on principle.
 
 <h2 id="closing">Closing Thoughts</h2>
