@@ -1,0 +1,22 @@
+{
+  "url": "/post/gibson-byrdland-authentication-guide/",
+  "changes": [
+    {
+      "remove": "Gibson listed it at $550 in sunburst or $565 in natural, premium prices that reflected its top-of-line status.",
+      "replaceWith": "Gibson offered it in sunburst or natural as a premium model."
+    },
+    {
+      "remove": "Sunburst ($550) or Natural ($565).",
+      "replaceWith": "Sunburst or Natural."
+    },
+    {
+      "remove": "For any Byrdland with a claimed value above $10,000, obtain a written assessment from a recognized vintage Gibson specialist who has physically examined the instrument.",
+      "replaceWith": "For a Byrdland appraisal, obtain a written assessment from a recognized vintage Gibson specialist who has physically examined the instrument."
+    },
+    {
+      "remove": "<h2 id=\"overview\">Overview & Origin</h2>",
+      "replaceWith": "Original finish, correct parts and documented repairs affect value. Use my [Gibson value guide](/vintage-gibson-value-guide/) for the model guides and condition context. This article focuses on dating and authentication.\n\n<h2 id=\"overview\">Overview & Origin</h2>"
+    }
+  ],
+  "decision": "GSC reviewed before stripping. Preserve value-intent keyword in scoped seoTitle while removing dollar figures and linking once high to the Gibson hub. Dedicated Byrdland value page remains Tier 3 under the plan. Production-share percentages are not price adjustments and are unchanged."
+}
