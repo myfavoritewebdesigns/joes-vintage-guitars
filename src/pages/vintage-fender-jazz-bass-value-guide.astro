@@ -1,6 +1,7 @@
 ---
 // GAP 2 reference page. Index production while excluding branch previews.
 import Layout from '../layouts/Layout.astro';
+import ValueGuidePhotos from '../components/ValueGuidePhotos.astro';
 import { Content, getHeadings } from '../content/value-guides/vintage-fender-jazz-bass-value-guide.md';
 import data from '../data/value-guides/vintage-fender-jazz-bass-value-guide.json';
 import ogAsset from '../assets/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg';
@@ -44,7 +45,7 @@ const structuredData = [faqSchema, {
     <details class="fjbv-mobile-toc"><summary>On This Page</summary><nav aria-label="Article sections"><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></details>
     <aside class="fjbv-toc" aria-label="On this page"><p>On This Page</p><nav><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></aside>
     <article class="fjbv-article">
-      <Content />
+      <ValueGuidePhotos><Content /></ValueGuidePhotos>
       <section id="value-questions" class="fjbv-faq"><h2>Questions About {data.model} Value</h2>{data.faqs.map(f=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
     </article>
   </div>
