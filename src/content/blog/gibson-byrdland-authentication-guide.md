@@ -1,5 +1,6 @@
 ---
 title: "Gibson Byrdland Authentication Guide: How to Date & Identify Any Example (1955 to Present)"
+seoTitle: "Gibson Byrdland: Dating, Authentication And Value Guide"
 pubDate: "2026-03-16T11:31:27"
 modified: "2026-03-24T20:54:37"
 excerpt: "How to identify and authenticate any Gibson Byrdland, from the first Kalamazoo prototypes in 1955 through the current Custom Shop era. Covers every major construction change: cutaway shape, pickups, solid vs. pressed back, neck lamination, nut width, labels, serial numbers, hardware, and more."
@@ -31,11 +32,13 @@ and dating criteria, 1955 to the Custom Shop era
 -   [Authentication Checklist](#checklist)
 -   [Related Resources](#links)
 
+Original finish, correct parts and documented repairs affect value. Use my [Gibson value guide](/vintage-gibson-value-guide/) for the model guides and condition context. This article focuses on dating and authentication.
+
 <h2 id="overview">Overview & Origin</h2>
 
 The Gibson Byrdland is the instrument that invented the thinline electric archtop. Its name is a portmanteau of Nashville session guitarists **Billy Byrd** and **Hank Garland**, the two players who co-designed it with Gibson president Ted McCarty in 1955. Both men were frustrated by the bulk of traditional archtops (the standard L-5CES was over 3⅜ inches deep) and wanted something that combined acoustic resonance with the ease of a solidbody. What they got was a guitar 2¼ inches deep, with a shortened 23½-inch scale, a narrower-than-standard nut, and all the premium appointments of Gibson's flagship L-5CES.
 
-Four prototypes were logged in Gibson's Kalamazoo ledgers on April 4, 1955, described simply as *"special thin models"* of the L-5CES. The first production serial (A-20985) was registered in June 1955 for display at the July 1955 NAMM show. Public sales began in 1956. Gibson listed it at $550 in sunburst or $565 in natural, premium prices that reflected its top-of-line status.
+Four prototypes were logged in Gibson's Kalamazoo ledgers on April 4, 1955, described simply as *"special thin models"* of the L-5CES. The first production serial (A-20985) was registered in June 1955 for display at the July 1955 NAMM show. Public sales began in 1956. Gibson offered it in sunburst or natural as a premium model.
 
 The Byrdland remained a standard production model through 1993, when it moved to the Gibson Custom Shop as a special-order instrument. Total Kalamazoo production between 1955 and 1979 has been recorded at roughly 2,670 instruments, of which approximately 75% were finished in sunburst.
 
@@ -406,7 +409,7 @@ Four prototypes logged in Kalamazoo ledgers April 4 as "special thin model" L-5C
 
 #### First Full Year of Sales
 
-First year publicly available to buyers. Alnico staple pickups. Venetian cutaway. Orange label, A-series serial. Sunburst ($550) or Natural ($565). Bonnet knobs. 3-piece maple/walnut neck. Solid back.
+First year publicly available to buyers. Alnico staple pickups. Venetian cutaway. Orange label, A-series serial. Sunburst or Natural. Bonnet knobs. 3-piece maple/walnut neck. Solid back.
 
 #### Pickup Transition, Alnico to PAF Humbuckers
 
@@ -533,7 +536,7 @@ Use this checklist when examining any Byrdland. Not all items apply to all eras,
 -   Knob style matches claimed era (bonnet 1955 to 1960; top-hat 1960 to 1967; witch-hat/bell 1967 to 1975)
 -   Pickguard shows appropriate celluloid aging, some crystallizing cracks expected on pre-1970 examples
 
-For any Byrdland with a claimed value above $10,000, obtain a written assessment from a recognized vintage Gibson specialist who has physically examined the instrument. Cross-reference the three most reliable dating tools simultaneously: **(1) pot codes, (2) pickup type and sticker, and (3) serial number range**. If all three agree and align with the physical features described in this guide, you can proceed with confidence. If any two disagree, investigate further before purchasing. For a free online appraisal inquiry, visit our [free appraisal page](/free-appraisal/). If you're thinking about selling, we [buy vintage Byrdlands and other Gibson archtops](/sell-my-gibson-guitar/) outright.
+For a Byrdland appraisal, obtain a written assessment from a recognized vintage Gibson specialist who has physically examined the instrument. Cross-reference the three most reliable dating tools simultaneously: **(1) pot codes, (2) pickup type and sticker, and (3) serial number range**. If all three agree and align with the physical features described in this guide, you can proceed with confidence. If any two disagree, investigate further before purchasing. For a free online appraisal inquiry, visit our [free appraisal page](/free-appraisal/). If you're thinking about selling, we [buy vintage Byrdlands and other Gibson archtops](/sell-my-gibson-guitar/) outright.
 
 <h2 id="links">Related Resources</h2>
 
