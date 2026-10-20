@@ -31,6 +31,7 @@ import BrandDatingGuides from "../../components/BrandDatingGuides.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
 import { getPublishedPosts, getRelated, categoryName, formatDate } from "../../lib/blog";
 import { resolveImage, assetSrc } from "../../lib/images";
+import "../../styles/norlin-guides.css";
 
 export const getStaticPaths = (async () => {
   const posts = await getPublishedPosts();
@@ -47,6 +48,7 @@ const { entry, related } = Astro.props;
 const { Content } = await render(entry);
 const { data } = entry;
 const isBurstYearGuide = /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(entry.id);
+const isNorlinGuide = ["norlin-les-paul-custom-year-guide", "1968-gibson-les-paul-custom-guide", "1969-gibson-les-paul-custom-guide", "1970-gibson-les-paul-custom-guide", "1968-1969-1970-les-paul-custom-dating-guide"].includes(entry.id);
 const displayedRelated = isBurstYearGuide
   ? related.filter((post) => /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(post.id))
   : related;
@@ -127,8 +129,16 @@ const authorPhoto = resolveImage("images/fender-sn/about-me-joe-1.jpg");
 // Hero: pipeline metadata when relocated (responsive <Image>), public path
 // fallback otherwise (raw <img>, the 15 raw-HTML-blocked heroes).
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
+const heroRenderWidth = heroMeta ? Math.min(1200, heroMeta.width) : 1200;
 const captionedHero = heroMeta && data.heroImageCaption
-  ? await getImage({ src: heroMeta, layout: "constrained", width: Math.min(heroMeta.width, 1200) })
+  ? await getImage({ src: heroMeta, layout: "constrained", width: heroRenderWidth })
+  : null;
+// Norlin OG and Article metadata describe the same file displayed in the hero.
+// Use the transform's dimensions without upscaling smaller archive originals.
+const norlinSeoHero = isNorlinGuide
+  ? captionedHero
+    ? { src: captionedHero.src, width: captionedHero.attributes.width, height: captionedHero.attributes.height }
+    : heroMeta
   : null;
 
 // Real pixel dimensions for the public-path heroes too: read once at build
@@ -144,8 +154,10 @@ if (!ogMeta && data.ogImage && data.ogImage.startsWith("/images/")) {
     publicDims = null;
   }
 }
-const ogDims = ogMeta ?? publicDims;
-const heroAbs = data.ogImage
+const ogDims = norlinSeoHero ?? ogMeta ?? publicDims;
+const heroAbs = norlinSeoHero
+  ? `${SITE_URL}${norlinSeoHero.src}`
+  : data.ogImage
   ? ogMeta
     ? `${SITE_URL}${ogMeta.src}`
     : data.ogImage.startsWith("http")
@@ -452,7 +464,7 @@ const articleSchema = {
   image: imageSchema ? [imageSchema] : undefined,
   datePublished: data.pubDate.toISOString(),
   dateModified: data.modified.toISOString(),
-  author: { "@id": `${SITE_URL}/about-me/#person`, ...(isBurstYearGuide ? { name: data.author, url: `${SITE_URL}/about-me/` } : {}) },
+  author: { "@id": `${SITE_URL}/about-me/#person`, ...((isBurstYearGuide || isNorlinGuide) ? { name: data.author, url: `${SITE_URL}/about-me/` } : {}) },
   publisher: { "@id": `${SITE_URL}/` },
   mainEntityOfPage: postUrl,
   articleSection: catName,
@@ -489,8 +501,9 @@ const articleSchema = {
 ---
 
 <Layout
-  bodyClass={isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
-  title={`${data.seoTitle || data.title} | Joe's Vintage Guitars`}
+  bodyClass={isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
+  title={isNorlinGuide ? (data.seoTitle || data.title) : `${data.seoTitle || data.title} | Joe's Vintage Guitars`}
+  noIndex={data.draft}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
   ogImage={heroAbs}
@@ -563,7 +576,7 @@ const articleSchema = {
     <>
   {!isFirebirdGuide && <div class="bpost-header-backdrop" aria-hidden="true"></div>}
 
-  {data.toc.length > 0 && (
+  {data.toc.length > 0 && !isNorlinGuide && (
     <>
       <aside class="bpost-toc" id="bpost-toc" aria-label="Table of contents">
         <p class="bpost-toc__label">{isBurstYearGuide ? "Table Of Contents" : "Table of Contents"}</p>
@@ -609,7 +622,7 @@ const articleSchema = {
 
       <a class="bpost__cat" href={catUrl}>{catName}</a>
       <h1 class="bpost__title">{data.title}</h1>
-      <p class:list={["bpost__meta", { "bpost__byline": isBurstYearGuide }]}>
+      <p class:list={["bpost__meta", { "bpost__byline": isBurstYearGuide || isNorlinGuide }]}>
         By <a href="/about-me/">{data.author}</a>
         <span aria-hidden="true">·</span>
         <time datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>
@@ -627,13 +640,13 @@ const articleSchema = {
         </figcaption>}
         {heroMeta && data.heroImageCaption && data.heroImageLicensed ? (
           <LicensedImage src={heroMeta} alt={data.heroImageAlt || data.title}
-            caption={data.heroImageCaption} width={1200} loading="eager" fetchpriority="high"
-            sizes={isBurstYearGuide ? "(max-width: 820px) calc(100vw - 48px), 772px" : "(max-width: 1200px) 100vw, 1200px"} />
+            caption={data.heroImageCaption} width={heroRenderWidth} loading="eager" fetchpriority="high"
+            sizes={isNorlinGuide ? "(max-width: 600px) calc(100vw - 24px), (max-width: 1050px) calc(100vw - 48px), 1002px" : isBurstYearGuide ? "(max-width: 820px) calc(100vw - 48px), 772px" : "(max-width: 1200px) 100vw, 1200px"} />
         ) : heroMeta ? (
           <Image
             src={heroMeta}
             alt={data.heroImageAlt || data.title}
-            width={Math.min(heroMeta.width, 1200)}
+            width={heroRenderWidth}
             priority
           />
         ) : (
@@ -650,8 +663,12 @@ const articleSchema = {
     )}
 
     <div class="bpost__inner">
+      {isNorlinGuide && data.toc.length > 0 && <nav class="norlin-toc" aria-label="Table Of Contents">
+        <h2>In This Article</h2>
+        <ul>{data.toc.map(t => <li><a href={t.href}>{t.label}</a></li>)}</ul>
+      </nav>}
       <div class="blog-prose">
-        {isBurstYearGuide ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
+        {(isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
         {data.faqs.length > 0 && !data.faqsInline && <section class="post-faq" aria-labelledby="faq">
           <h2 id="faq">Frequently Asked Questions</h2>
           {data.faqs.map(item => <div class="post-faq-answer">
