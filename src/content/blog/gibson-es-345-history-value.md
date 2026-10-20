@@ -1,20 +1,77 @@
 ---
 title: "The Gibson ES-345 Guide: History, Authentication, and Value of the Stereo Semi-Hollow"
+seoTitle: "Gibson ES-345 Stereo Value Guide"
 pubDate: "2026-07-14T12:00:00"
-modified: "2026-09-04T10:30:00"
+modified: "2026-10-19T12:00:00-07:00"
 excerpt: "The Gibson ES-345 added stereo wiring and the six-position Varitone to the ES line in 1959, sitting between the ES-335 and the ES-355. This guide covers the history, the specs, the year-by-year authentication tells, and what a vintage ES-345 is really worth, shown on a 1963 sunburst and a 1966 cherry from the shop."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-es-345-history-value/1963-gibson-es-345-stereo-full-front.jpg"
 heroImageAlt: "A 1963 Gibson ES-345TD in sunburst standing in its case at Joe's Vintage Guitars, showing the gold hardware and stereo Varitone controls."
-metaDescription: "History, specs, authentication tells, and value of the vintage Gibson ES-345, the stereo Varitone semi-hollow, shown on a 1963 sunburst and a 1966 cherry."
+metaDescription: "Vintage Gibson ES-345 values by year from 1959 to 1979, with asking ranges, verified later sales, stereo wiring, repairs and photos from my guitar shop."
 ogImage: "/images/blog/gibson-es-345-history-value/1963-gibson-es-345-stereo-full-front.jpg"
 ---
+The existing asking reference for an all-original, excellent 1959 sunburst Gibson ES-345 is $22,000 to $45,000+, while three completed comparisons place original-finish 1970s stereo examples at $4,300 to $5,700 with the condition allowances below. Those are different kinds of numbers. I keep the asking anchors separate from realized prices and check the pickups, finish, stereo circuit and repairs before choosing a comparison.
+
+<h2 id="value">Vintage Gibson ES-345 Values By Year</h2>
+
+As of October 2026, the 1959 to 1969 rows retain this page's published dealer asking and guide anchors for all-original, excellent guitars. They aren't verified completed-sale bands. The 1970 to 1979 rows use a separate set of three completed sales with their condition differences stated below. Figures are in U.S. dollars and exclude shipping and tax.
+
+| Year | Configuration | Range | Price Basis |
+| --- | --- | --- | --- |
+| 1959 | Sunburst, PAF | $22,000 to $45,000+ | Existing Asking Reference |
+| 1959 | Natural Finish | $45,000 to $75,000+ | Existing Asking Reference |
+| 1960 | PAF, Stop Bar, Wide Nut | $18,000 to $32,000 | Existing Asking Reference |
+| 1961 | PAF, Stop Bar, Wide Nut | $18,000 to $32,000 | Existing Asking Reference |
+| 1962 | Stop Bar, Wide Nut | $12,000 to $22,000 | Existing Asking Reference |
+| 1963 | Stop Bar, Wide Nut | $12,000 to $22,000 | Existing Asking Reference |
+| 1964 | Stop Bar, Wide Nut | $12,000 to $22,000 | Existing Asking Reference |
+| 1965 | Transition Specifications | $8,000 to $22,000 | Existing Asking Reference |
+| 1966 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 | Existing Asking Reference |
+| 1967 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 | Existing Asking Reference |
+| 1968 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 | Existing Asking Reference |
+| 1969 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 | Existing Asking Reference |
+| 1970 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
+| 1971 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
+| 1972 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
+| 1973 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
+| 1974 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
+| 1975 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
+| 1976 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
+| 1977 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
+| 1978 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
+| 1979 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
+
+Each repeated figure is a shared era range, not three separate same-year sales. A calendar year alone doesn't tell me whether an early guitar has its original PAF pickups, factory tailpiece or wide nut. The 1965 asking range is deliberately broad because those combinations cross the transition year.
+
+The 1970s comparison assumes original finish and pickups with functioning stereo Varitone electronics, in Very Good to Excellent condition. Replacement tuners, strap pins or a truss rod cover can be present, as can a quality refret; the original case isn't universal. It covers cherry and Wine Red examples with no disclosed structural break. It isn't an untouched collector band or a separate finish premium.
+
+The previous asking reference of $4,500 to $9,000 for late 1960s to early 1970s guitars remains an asking-price ceiling check. I don't turn that older asking range into the completed-sale result above. Likewise, a natural 1959 or an exceptional original custom color needs its own comparison.
+
+### Deductions From The All-Original Figure
+
+-   **Converted to mono / bypassed Varitone:** roughly minus 10 to 25 percent if the original switch, choke, and harness are kept and the work is reversible. Worse if those parts are gone. A filled Varitone hole is top damage and a bigger, permanent hit.
+-   **Refinish:** minus 40 to 50 percent. This is one of the largest deductions there is.
+-   **Replaced pickups / PAFs gone:** minus 30 to 50 percent or more on 1959 to 1962 guitars. A original PAF pair can be worth $8,000 to $15,000 on its own, which is why this is so often the biggest single hit and the most hidden.
+-   **Added Bigsby / extra top holes:** minus 10 to 20 percent, plus the loss of the stop-bar premium.
+-   **Headstock break or repair:** roughly minus 30 to 50 percent, even when the repair is clean and stable.
+-   **Refret:** a quality refret is accepted maintenance and preserves an otherwise all-original classification, while taking the guitar out of the museum-quality category. The existing condition-sensitive reference is 5 to 15 percent, depending on the instrument and work. Neck reshaping is a separate alteration.
+
+Premiums run the other way for the rare **Natural/blonde** finish, for truly **documented factory custom colors** (rare on 345s and a magnet for refinish fraud, so demand documentation), and, more modestly, for the original case and hang tags.
+
+### Is A 345 Worth More Or Less Than A 335?
+
+This surprises people: the plainer **ES-335 usually outvalues the fancier ES-345** of the same year. The reason is the stereo Varitone circuit. Most players do not want it, a lot of them rip it out, and the simple mono 335 is the iconic, blue-chip model that the market chases. The gap is widest in the late 1950s and early 1960s, where a dot-neck 335 can run well into the tens of thousands while a comparable 345 sits at maybe half to two-thirds of that, and it narrows toward parity by the late 1960s. The **ES-355** is fancier still, and its value depends heavily on whether it is mono or stereo. None of that makes the 345 a bad buy. It arguably makes it the value play in the family: the same golden-era body and build, dressed up nicer, usually for less money than the 335 next to it.
+
+
+If you have a vintage ES-345 and want a real number rather than a range, that is exactly what I do. Send photos through the [free appraisal](/free-appraisal/) page and I will tell you what it is and what it is worth.
+
 <style>.blog-prose figure p{margin:0}</style>
 
 <nav class="es345-nav-sidebar" id="es345NavSidebar" aria-label="Article section navigation">
-  <div class="es345-nav-header"><strong>ES-345 Guide</strong></div>
+  <a href="#value" class="es345-nav-link"><span class="es345-nav-dot"></span>Values By Year</a>
+<div class="es345-nav-header"><strong>ES-345 Guide</strong></div>
   <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="es345-nav-link top">&uarr; Top of Page</a>
   <div class="es345-nav-label">The Model</div>
   <a href="#history" class="es345-nav-link"><span class="es345-nav-dot"></span>History &amp; the ES Line</a>
@@ -28,7 +85,7 @@ ogImage: "/images/blog/gibson-es-345-history-value/1963-gibson-es-345-stereo-ful
   <a href="#specifications" class="es345-nav-link"><span class="es345-nav-dot"></span>Specifications</a>
   <div class="es345-nav-label">Value &amp; Buying</div>
   <a href="#authentication" class="es345-nav-link"><span class="es345-nav-dot"></span>Authentication</a>
-  <a href="#value" class="es345-nav-link"><span class="es345-nav-dot"></span>What It's Worth</a>
+
   <a href="#players" class="es345-nav-link"><span class="es345-nav-dot"></span>Notable Players</a>
 </nav>
 
@@ -59,7 +116,7 @@ The **Gibson ES-345** is the guitar that gets overlooked in its own family. It h
 
 I buy and sell these regularly, so this guide walks through the whole story: where the ES-345 came from, how to date one by its features, what the stereo and Varitone circuit actually does, and what a vintage example is worth today. To keep it concrete I am using two real guitars that came through the shop, a **1963 ES-345TD in sunburst** and a **1966 ES-345TDC in cherry**, so you can see the details on actual instruments instead of a spec sheet. If you want to date your own guitar as you read, keep our [Gibson Serial Number Decoder](/how-to-read-gibson-serial-numbers/) open in another tab, and if you want to know what yours is worth, reach out for a [free appraisal](/free-appraisal/).
 
-<h2 id="history">History: Where the ES-345 Fits in the Line</h2>
+<h2 id="history">History: Where The ES-345 Fits In The Line</h2>
 
 Gibson introduced the ES-345 in the spring of 1959, and the name is not a mystery: it was the list price. In sunburst the guitar sold for $345, which slotted it right where Gibson wanted it, in the middle of the new thinline family. The **ES-335** had arrived in 1958 as the plain, brilliant one. The top-of-the-line **ES-355** followed late in 1958 with an ebony board, big block inlays, and every luxury Gibson could bolt on. The 345 was designed to be the deluxe middle child: the 335's body and construction, dressed up with gold-plated hardware, split-parallelogram inlays, and a pearl crown on the headstock, plus the stereo and Varitone electronics it shared with the 355.
 
@@ -77,7 +134,7 @@ The golden era for the model runs from 1959 to 1969. Norlin took over Gibson at 
 
 Production was steady but never huge. Gibson's shipping ledgers show roughly 10,560 ES-345s shipped between 1959 and 1979, with the peak years in the late 1960s (about 1,144 in 1967). The first year, 1959, was tiny by comparison. If you want to see how any given year and finish stacks up against the rest of Gibson's output, our [Gibson shipping totals guide](/post/gibson-shipping-totals-1948-1979/) breaks the numbers down.
 
-<h2 id="varitone">The Varitone: Stereo Wiring and Six-Position Tone</h2>
+<h2 id="varitone">The Varitone: Stereo Wiring And Six-Position Tone</h2>
 
 This is the part that makes an ES-345 an ES-345, so it is worth getting right. A vintage 345 does two unusual things.
 
@@ -105,7 +162,7 @@ Players are split on the Varitone, and that split matters for value. Fans, Joe B
 
 One honest note: Gibson never publicly credited a single engineer with the Varitone, and you will see confident-sounding attributions online that do not hold up. It came out of Gibson's engineering department under Ted McCarty around 1959. The exact designer is not reliably documented, so I will not put a name on it.
 
-<h2 id="dating">Dating: Reading an ES-345 by Its Features</h2>
+<h2 id="dating">Dating: Reading An ES-345 By Its Features</h2>
 
 Because Gibson serial numbers from the 1960s are unreliable (more on that below), the features are how you actually date one of these. Here is what changed and roughly when. Treat every date as a transition window, not a hard line, because Gibson used up parts as they had them and guitars cross over.
 
@@ -117,7 +174,7 @@ Early ES-345s, like early 335s, have rounded, symmetrical cutaway horns that col
 
 The 1959 and 1960 guitars use a **long pickguard** that extends past the bridge. Around 1960 to 1961 Gibson shortened it so it no longer reaches past the bridge pickup. A short guard on a claimed 1959 is a red flag for a replacement.
 
-### Neck Profile and Nut Width
+### Neck Profile And Nut Width
 
 Neck depth follows the same curve as the rest of Gibson's line. The 1958 and 1959 necks are the biggest and roundest. They thin out through 1960, hit their slimmest "blade" feel in 1961 and 1962, and then fill back out to a medium, chunkier profile in 1964 and 1965. Nut width is the more useful value tell: it is **1-11/16" from 1959 through early 1965**, then narrows through a brief 1-5/8" to about 1-9/16" by late 1965, and widens back toward 1-11/16" around 1968. The wide-nut, pre-mid-1965 guitars carry a clear premium over the skinny-nut examples.
 
@@ -133,13 +190,13 @@ The earliest 345s carry **PAF humbuckers**, identified by the "Patent Applied Fo
 
 </figure>
 
-### Hardware, Inlays, and a Common Mistake
+### Hardware, Inlays, And A Common Mistake
 
 Here is a correction worth stating plainly, because people apply the wrong rule to these guitars all the time. On the ES-335, Gibson switched from nickel to chrome hardware around 1965. **The 345 was gold-plated for its entire vintage run, so that nickel-to-chrome change is a 335 tell, not a 345 tell.** On a 345 you are not looking for nickel versus chrome. You are looking at how the gold has worn, and heavy "brassing" where the plating has rubbed through is completely normal and expected on an honest original. A nickel or chrome part on a vintage 345 means a replacement.
 
 The rest of the trim is consistent: split-parallelogram inlays and a pearl crown headstock throughout (the crown is how you separate it from the 355's split-diamond headstock), gold reflector "top-hat" knobs in the classic era giving way to "witch hat" knobs by the late 1960s, and Kluson tulip-button tuners. The Varitone surround ring is a nice micro-detail too: early 1959 guitars often have a black ring, and a gold ring came in around mid-1960 alongside the cherry finish.
 
-### Bridge and Tailpiece
+### Bridge And Tailpiece
 
 The bridge is the **ABR-1 tune-o-matic** throughout, with a retaining wire added around mid-1962. The tailpiece is where the money is. A **stop-bar tailpiece** was standard from 1959 through early 1965 and is the configuration collectors prize. A factory **Bigsby** was a common order from the start. Gibson also offered the unloved "sideways" Vibrola around 1961 to 1963 and later Maestro/lyre Vibrolas, and a **trapeze tailpiece** became the standard non-vibrato unit around 1965. An added or converted Bigsby means extra holes in the top, which hurts value; a factory Bigsby order has a "Custom Made" plaque covering the pre-drilled stop-tail holes.
 
@@ -147,11 +204,11 @@ The bridge is the **ABR-1 tune-o-matic** throughout, with a retaining wire added
 
 From about 1969 to 1970 onward the Norlin changes appear: a **volute** behind the nut, a **three-piece neck**, and the **"MADE IN USA"** stamp on the back of the headstock (which really settles in around mid-1970). The most reliable single tell of the era is the neck tenon, which you can see by looking into the neck-pickup cavity: a long tenon runs into the early 1970s, and a short tenon is the later cost-cutting sign. Walnut finish arrived in 1969, and by the mid-1970s the guitars get heavier and less consistent. Buy those on feel, not on the spec sheet.
 
-<h2 id="serial-numbers">Serial Numbers: Labels, Stamps, and Why They Lie</h2>
+<h2 id="serial-numbers">Serial Numbers: Labels, Stamps, And Why They Lie</h2>
 
 The single most important thing to understand about dating a 1960s ES-345 is that **the serial number alone will not give you the year.** Use it to confirm the decade, then let the features pin down the year.
 
-On the 1958 to 1960 guitars, the serial is on the **orange oval label** inside the body, visible through the bass-side f-hole. There is no number stamped on the headstock yet. You will also find a **Factory Order Number (FON)** ink-stamped on the wood inside, which is a batch number. On the 1959 to 1961 guitars the FON starts with a letter that codes the year: S for 1959, R for 1960, Q for 1961. That letter is a genuinely useful cross-check.
+On the 1958 to 1960 guitars, the serial is on the **orange oval label** inside the body, visible through the bass-side f-hole. There is no number stamped on the headstock yet. You will also find a **Factory Order Number (FON)** ink-stamped on the wood inside, which is a batch number. On the 1959 to 1961 guitars the FON starts with a letter that codes the year: S for 1959, R for 1960, Q for 1961. That letter is a truly useful cross-check.
 
 From 1961 through 1969, Gibson also pressed a serial number into the back of the headstock, and this is the era that trips everyone up. Gibson reused and randomized these numbers, so the same number can turn up in two or even three different years, and the published range charts overlap by the hundreds. A serial from this period points you to a decade; the components point you to the year. Confirm with pot codes (the date codes stamped on the potentiometers), the pickup decals, the logo, and the neck construction. Starting in 1970, a **"MADE IN USA"** stamp appears below the impressed serial, which is itself the tell that you have left the golden era.
 
@@ -225,7 +282,7 @@ The biggest visual difference is the tailpiece. Where the 1963 has a stop bar, t
 
 ![Close-up of a gold Bigsby vibrato tailpiece stamped Bigsby Patent No. D-169,120 and the Varitone dial on a 1966 Gibson ES-345 in cherry.](../../assets/blog/gibson-es-345-history-value/1966-gibson-es-345-gold-bigsby-varitone.jpg)
 
-<figcaption><strong>A gold Bigsby.</strong> The Bigsby patent D-169,120 stamp confirms a genuine period unit. To its right you can see the six-position Varitone dial and the stereo jack, the same circuit as the 1963.</figcaption>
+<figcaption><strong>A gold Bigsby.</strong> The Bigsby patent D-169,120 stamp confirms a original period unit. To its right you can see the six-position Varitone dial and the stereo jack, the same circuit as the 1963.</figcaption>
 
 </figure>
 
@@ -284,7 +341,7 @@ The chart below covers a classic mid-1960s stereo ES-345TD/TDC like the two guit
 | Finishes | Sunburst, Cherry (common from ~1960), rare Natural (~1959 to 1960 only), Walnut (from 1969), plus rare custom colors |
 | Weight | Typically ~8 to 9 lbs |
 
-<h2 id="authentication">Authentication: Checklist and Red Flags</h2>
+<h2 id="authentication">Authentication: Checklist And Red Flags</h2>
 
 When I evaluate a vintage ES-345, I work through the same list every time. Run these and you will catch most of what separates an investment-grade guitar from a player.
 
@@ -305,42 +362,9 @@ When I evaluate a vintage ES-345, I work through the same list every time. Run t
 
 A quick word on the "do not disassemble" rule, since it comes up on every one of these. The information that tempts people to take a vintage guitar apart, the pickup decals especially, is almost never worth the risk of a slipped screwdriver, a broken coil lead, or a cracked bobbin. If you need to verify pickups or the harness on a valuable 345, have someone who does this for a living do it, or just send me photos.
 
-<h2 id="value">Value: What a Vintage ES-345 Is Worth</h2>
-
-Two things to say up front. First, these are **asking and guide ranges in a thin market**, and right now asking prices are running well ahead of actual sales, so treat them as a starting point and verify against current comps before you buy or sell. Second, every figure below assumes an all-original, excellent, unmodified guitar. The deductions further down are where most real-world 345s land.
-
-| Era | Typical asking range (all-original, excellent) |
-| --- | --- |
-| 1959 (first year, PAF, sunburst) | ~$22,000 to $45,000+ |
-| 1959 Natural / blonde (very rare) | premium, ~$45,000 to $75,000+ |
-| 1960 to 1961 (PAF, stop bar, wide nut) | ~$18,000 to $32,000 |
-| 1962 to 1964 (early patent number, stop bar, wide nut) | ~$12,000 to $22,000 |
-| 1965 (transition: narrow nut and trapeze arrive) | ~$8,000 to $22,000 |
-| 1966 to 1969 (patent number, trapeze, Bigsby options) | ~$7,000 to $12,000 |
-| Late 1960s to early 1970s (Norlin) | ~$4,500 to $9,000 |
-
-### Deductions From the All-Original Figure
-
--   **Converted to mono / bypassed Varitone:** roughly minus 10 to 25 percent if the original switch, choke, and harness are kept and the work is reversible. Worse if those parts are gone. A filled Varitone hole is top damage and a bigger, permanent hit.
--   **Refinish:** minus 40 to 50 percent. This is one of the largest deductions there is.
--   **Replaced pickups / PAFs gone:** minus 30 to 50 percent or more on 1959 to 1962 guitars. A genuine PAF pair can be worth $8,000 to $15,000 on its own, which is why this is so often the biggest single hit and the most hidden.
--   **Added Bigsby / extra top holes:** minus 10 to 20 percent, plus the loss of the stop-bar premium.
--   **Headstock break or repair:** roughly minus 30 to 50 percent, even when the repair is clean and stable.
--   **Refret:** minus 5 to 15 percent, minor if the board and inlays are original.
-
-Premiums run the other way for the rare **Natural/blonde** finish, for genuinely **documented factory custom colors** (rare on 345s and a magnet for refinish fraud, so demand documentation), and, more modestly, for the original case and hang tags.
-
-### Is a 345 Worth More or Less Than a 335?
-
-This surprises people: the plainer **ES-335 usually outvalues the fancier ES-345** of the same year. The reason is the stereo Varitone circuit. Most players do not want it, a lot of them rip it out, and the simple mono 335 is the iconic, blue-chip model that the market chases. The gap is widest in the late 1950s and early 1960s, where a dot-neck 335 can run well into the tens of thousands while a comparable 345 sits at maybe half to two-thirds of that, and it narrows toward parity by the late 1960s. The **ES-355** is fancier still, and its value depends heavily on whether it is mono or stereo. None of that makes the 345 a bad buy. It arguably makes it the value play in the family: the same golden-era body and build, dressed up nicer, usually for less money than the 335 next to it.
-
-For contrast, a new USA reissue ES-345 runs around $3,800, and Gibson Custom Historic reissues of the 1959 and 1964 land in the rough $5,000 to $9,000 range depending on the aging. (You may have seen the one-off 2025 "Back to the Future" Custom ES-345 change hands around $40,000. That is a hype anomaly, not a vintage-value reference.)
-
-If you have a vintage ES-345 and want a real number rather than a range, that is exactly what I do. Send photos through the [free appraisal](/free-appraisal/) page and I will tell you what it is and what it is worth.
-
 <h2 id="players">Players: Who Actually Played One</h2>
 
-The ES-345 has a real player history, but it also gets credited with guitars that were actually 335s and 355s, so here are the ones who genuinely played a 345.
+The ES-345 has a real player history, but it also gets credited with guitars that were actually 335s and 355s, so here are the ones who truly played a 345.
 
 -   **Freddie King** is the strongest association. A cherry ES-345 was his main guitar through much of the 1960s. Worth a caveat, though: his signature instrumental "Hide Away" was cut on a Les Paul goldtop, not the 345, and he later moved to a 1973 ES-355.
 -   **Elvin Bishop** and his 1959 ES-345 "Red Dog" have been together for about half a century.
@@ -354,11 +378,37 @@ You will also see the cherry ES-345 with a Bigsby from *Back to the Future*, the
 
 One correction, because it comes up constantly: **B.B. King's "Lucille" is an ES-355, not a 345**, and Chuck Berry is a 350T and 355 man. Plenty of otherwise reliable pages list them as 345 players. They are not.
 
-## Thinking of Buying or Selling an ES-345?
+## Thinking Of Buying Or Selling An ES-345?
 
 The ES-345 rewards knowing the details. The circuit, the tailpiece, the pickups, and the plating are the difference between a modified player and an investment-grade guitar, and they are easy to miss if you do not handle these often. At **Joe's Vintage Guitars**, I do, whether it is a clean stereo original or a well-loved 345 that had its Varitone pulled decades ago.
 
 If you are ready to sell, my [Sell My Gibson Guitar](/sell-my-gibson-guitar/) page lays out how I pay fair, top-of-market prices without the auction fees and the wait. If you just want to know what you have, the [free appraisal](/free-appraisal/) page is the place to start, and you can read more about me on the [About Me](/about-me/) page. Questions about a specific serial number, a Varitone, or whether that Bigsby is factory? [Contact me](/contact-me/) directly. I am always happy to talk vintage Gibsons.
+
+<h2 id="es345-faq">Questions About ES-345 Value</h2>
+
+**What is the difference between a Gibson ES-335 and an ES-345?**
+
+They share the same semi-hollow body and construction, but the ES-345 is the deluxe, stereo version. A 345 adds gold-plated hardware, split-parallelogram inlays, a pearl crown headstock, stereo wiring, and the six-position Varitone tone circuit. The ES-335 is mono, plainer (dot or block inlays, nickel or chrome hardware), and is usually the more valuable of the two despite being lower in the line.
+
+**What is the Varitone on a Gibson ES-345?**
+
+The Varitone is a six-position rotary tone control. Position 1 is a straight bypass (the pickup's full tone), and positions 2 through 6 each switch in a capacitor, working with an internal choke, to create fixed frequency notches that scoop the midrange for a range of hollow, cocked-wah voices. It is paired with the 345's stereo wiring.
+
+**Do you need a special cable for a stereo ES-345?**
+
+To use it in stereo, yes. A vintage ES-345 sends each pickup to its own channel through a stereo jack, so you need a stereo Y-cord (a TRS plug that splits to two mono plugs) into two amps or a stereo amp. You can also run it with a standard mono cable, but the wiring is unbalanced that way and some switch settings can lose a pickup or sound thin.
+
+**How can I tell what year my Gibson ES-345 is?**
+
+Date it by features, not the serial number, because 1960s Gibson serials were reused across years. Rounded 'Mickey Mouse' horns and a long pickguard point to 1959 to about 1963; pointed horns and a trapeze tailpiece point to mid-1960s and later. Nut width was 1-11/16 inches through early 1965, then narrower. PAF pickups are early; the Patent Number decal came in around 1962 to 1963. A volute and 'MADE IN USA' stamp indicate 1969 to 1970 and later.
+
+**Is a Gibson ES-345 that was converted to mono worth less?**
+
+Yes. An original stereo Varitone circuit is part of what makes a vintage 345 collectible. A reversible mono conversion where the original switch, choke, and harness are saved is a smaller hit, roughly 10 to 25 percent. If those parts were discarded, or if the Varitone hole was filled, the deduction is larger and can be permanent.
+
+**How much is a vintage Gibson ES-345 worth?**
+
+As of October 2026, the existing asking reference for an all-original, excellent 1959 sunburst ES-345 is $22,000 to $45,000+. A separate completed-sale comparison for 1970s stereo guitars is $4,300 to $5,700, allowing the disclosed minor changes and case differences described in the annual table. Asking prices and realized prices aren't interchangeable, and a repair or missing original pickup changes the comparison.
 
 <script type="application/ld+json">
 {
@@ -378,7 +428,7 @@ If you are ready to sell, my [Sell My Gibson Guitar](/sell-my-gibson-guitar/) pa
       "name": "What is the Varitone on a Gibson ES-345?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Varitone is a six-position rotary tone control. Position 1 is a straight bypass (the pickup's full tone), and positions 2 through 6 each switch in a capacitor, working with an internal choke, to create fixed frequency notches that scoop the midrange for a range of hollow, cocked-wah voices. It is paired with the 345's stereo wiring."
+        "text": "The Varitone is a six-position rotary tone control. Position 1 is a straight bypass (the pickup’s full tone), and positions 2 through 6 each switch in a capacitor, working with an internal choke, to create fixed frequency notches that scoop the midrange for a range of hollow, cocked-wah voices. It is paired with the 345’s stereo wiring."
       }
     },
     {
@@ -394,7 +444,7 @@ If you are ready to sell, my [Sell My Gibson Guitar](/sell-my-gibson-guitar/) pa
       "name": "How can I tell what year my Gibson ES-345 is?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Date it by features, not the serial number, because 1960s Gibson serials were reused across years. Rounded 'Mickey Mouse' horns and a long pickguard point to 1959 to about 1963; pointed horns and a trapeze tailpiece point to mid-1960s and later. Nut width was 1-11/16 inches through early 1965, then narrower. PAF pickups are early; the Patent Number decal came in around 1962 to 1963. A volute and 'MADE IN USA' stamp indicate 1969 to 1970 and later."
+        "text": "Date it by features, not the serial number, because 1960s Gibson serials were reused across years. Rounded ‘Mickey Mouse’ horns and a long pickguard point to 1959 to about 1963; pointed horns and a trapeze tailpiece point to mid-1960s and later. Nut width was 1-11/16 inches through early 1965, then narrower. PAF pickups are early; the Patent Number decal came in around 1962 to 1963. A volute and ‘MADE IN USA’ stamp indicate 1969 to 1970 and later."
       }
     },
     {
@@ -410,7 +460,7 @@ If you are ready to sell, my [Sell My Gibson Guitar](/sell-my-gibson-guitar/) pa
       "name": "How much is a vintage Gibson ES-345 worth?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For an all-original, excellent example, asking ranges run roughly $22,000 to $45,000+ for a 1959, $12,000 to $22,000 for a 1962 to 1964, and about $7,000 to $12,000 for a 1966 to 1969. Rare Natural finish and factory custom colors bring premiums. Refinishes, replaced pickups, headstock repairs, added Bigsbys, and mono conversions all reduce value significantly. These are guide ranges in a thin market, so verify against current comps."
+        "text": "As of October 2026, the existing asking reference for an all-original, excellent 1959 sunburst ES-345 is $22,000 to $45,000+. A separate completed-sale comparison for 1970s stereo guitars is $4,300 to $5,700, allowing the disclosed minor changes and case differences described in the annual table. Asking prices and realized prices aren’t interchangeable, and a repair or missing original pickup changes the comparison."
       }
     }
   ]
