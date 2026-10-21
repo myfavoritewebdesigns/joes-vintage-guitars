@@ -1,4 +1,4 @@
-A clean, original, full-depth Gibson ES-125 from the 1950s has a published excellent-condition reference of $2,500 to $3,250 with its original case. The standard single-pickup model from 1960 to 1970 has a broader era reference of $1,500 to $2,250. A thin-body cutaway or two-pickup version needs its own comparison.
+A clean, original, full-depth Gibson ES-125 from the 1950s has a guide range of $2,500 to $3,250 in excellent condition with its original case. The standard single-pickup model from 1960 to 1970 sits at $1,500 to $2,250. A thin-body cutaway or two-pickup version needs its own appraisal.
 
 I buy vintage Gibsons nationwide from Mesa, Arizona. With an ES-125, I establish the complete model name before applying a range because the extra letters describe different instruments. My [Gibson ES-125 identification and authentication guide](/post/gibson-es-125-guide/) covers those variants, dates and originality details.
 
@@ -6,9 +6,9 @@ I buy vintage Gibsons nationwide from Mesa, Arizona. With an ES-125, I establish
 
 The following ranges are reviewed **as of October 2026**. They cover the full-size, full-depth, single-pickup sunburst ES-125 in all-original, excellent condition with its original case and no structural repair. A quality refret is accepted maintenance under the site's grading approach, but the guitar then falls outside museum-quality condition.
 
-These are 2025 published references checked against completed results, not an average of dealer asking prices. The table uses shared era bands so every production year has a place without suggesting that each year has its own large transaction sample. The 1960 to 1970 band combines the published endpoints across that period.
+The table groups similar configurations into era ranges. Adjacent years can share a range without every guitar being worth the same amount. I narrow the appraisal around condition, originality and the included case.
 
-| Year | Configuration | Reference Range |
+| Year | Configuration | Value Range |
 | --- | --- | --- |
 | 1941 | Early full-depth single-pickup sunburst | $2,625 to $3,500 |
 | 1942 | Early full-depth single-pickup sunburst | $2,625 to $3,500 |
@@ -38,11 +38,9 @@ These are 2025 published references checked against completed results, not an av
 | 1969 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
 | 1970 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
 
-**Pricing note:** Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference, not separate annual sales samples.
-
 The dates follow this site's original-production chronology: 1941 and 1942, then 1946 through 1970. There are no invented wartime production rows or rows after the original run. The early postwar range is a shared configuration reference, not a separately established premium for a 1946 example.
 
-The published reference and completed comparisons don't describe identical condition. The prewar sample includes changed tuners and repairs; the postwar sample includes replaced parts and a repaired crack. The 1960s checks include historical auction results from 2011, so that band is identified as a published reference rather than a current clean-sale average.
+Changed tuners, replaced hardware, repaired cracks and a later case can put a guitar outside the clean-original category. I consider those details before applying the table.
 
 <figure>
 
@@ -58,7 +56,7 @@ An ES-125 listing can refer to a full-depth guitar, a thinline, a cutaway or a t
 
 The standard guitar in the price table has one pickup and no cutaway. The T suffix indicates a thin body, D indicates two pickups and C indicates a cutaway. Those letters belong in the comparison before the year and finish are considered.
 
-A small-body, short-scale example is another separate category. It isn't simply a worn or inexpensive version of the full-size instrument. Its proportions and playing dimensions should be confirmed before using a sale as evidence.
+A small-body, short-scale example is a separate category. It isn't simply a worn or inexpensive version of the full-size guitar. I confirm its proportions and playing dimensions before choosing a range.
 
 I haven't assigned a fixed premium for a second pickup or a cutaway. Those features may place the guitar in a different market, but the amount depends on the exact variant, era and condition. A fabricated multiplier would give a precise-looking answer to the wrong question.
 
@@ -72,21 +70,21 @@ The photographs here show several family members so you can see why the name nee
 
 </figure>
 
-## The Early And Postwar References
+## Early And Postwar Values
 
 The prewar guitar differs from the later P-90 model. I keep its annual rows separate instead of treating every ES-125 made before 1950 as one interchangeable instrument. A listing placed in the wrong product category can otherwise distort the comparison.
 
-That happened in the research behind this page: a listing in the prewar price-guide category described a 1951 guitar. It was excluded from the prewar sample. The completed status tells us that a transaction occurred; it doesn't certify that the category or year is right.
+A marketplace category or seller's date can be wrong. I confirm the actual model and construction before applying the prewar or postwar range.
 
 The early postwar group also needs its stated pickup configuration. A nonadjustable-pole pickup and a later adjustable example should not be confused solely because both are called P-90s. The identification guide has the detail needed to establish which guitar you have.
 
 I haven't added a separate mahogany-body premium. An unusual construction claim needs the actual instrument and appropriate comparisons. A seller's description of “rare” isn't enough to establish another range.
 
-For these early guitars, repairs and missing parts can dominate the difference between the published reference and a completed result. A crack repair, replacement tailpiece or uncertain case history should remain attached to the comparison. It should not disappear when someone copies the sale price into a table.
+Repairs and missing parts can dominate an early ES-125's appraisal. A crack repair, replacement tailpiece or uncertain case history needs to be described clearly. Those details can place it outside the clean-original range.
 
 ## The 1950s Single-Pickup Model
 
-The 1950 to 1959 rows share the published $2,500 to $3,250 reference. The recent completed comparisons include original finishes and pickups with replacement tuners or later cases. Those transactions help place the reference in context while remaining different from the all-original, original-case assumption.
+The 1950 to 1959 rows share a $2,500 to $3,250 range for excellent originals with their original cases. Replacement tuners, later cases and substantial wear need to be considered separately.
 
 The one-pickup layout is part of this model's identity. It doesn't make the guitar incomplete. Adding a second pickup would change the instrument rather than move it automatically into the factory two-pickup market.
 
@@ -102,7 +100,7 @@ The pointed cutaway is visible in the TDC photograph below. Two pickups and thei
 
 The original family guide also includes full-depth cutaway versions. Body depth remains a separate feature from the cutaway itself. A photograph that shows only the front can leave that distinction unresolved.
 
-When a completed listing uses the wrong variant name, I follow the instrument's documented features. I don't preserve a mistaken category just because the price-guide table grouped it there. This is why a list of sold prices needs a condition and configuration review before it becomes a value range.
+I follow the instrument's documented features when identifying a variant. A mistaken model name can lead to the wrong price range, so I check the construction and condition before assigning a value.
 
 <figure>
 
@@ -118,9 +116,9 @@ The ES-125 is a hollow archtop, so the neck joint and body condition deserve a c
 
 I ask about the current action, which is the height of the strings above the frets, and any written repair assessment. A repair estimate should describe the actual problem. It shouldn't be replaced by an automatic percentage copied from another model.
 
-Cracks, open seams and binding repairs also need their own records. A stable repaired crack is different from an open crack that needs work. The size, location and quality of the repair affect which completed instruments make useful comparisons.
+Cracks, open seams and binding repairs need clear descriptions. A stable repaired crack differs from an open crack that still needs work. The size, location and quality of the repair affect my appraisal.
 
-The published range does not promise that a heavily repaired guitar will sell at its lower endpoint. That endpoint still assumes the stated condition. A repair changes the comparison group instead of simply moving the guitar down one step inside the same band.
+The range doesn't promise that a heavily repaired guitar will sell at its lower endpoint. Both endpoints assume the stated condition. A substantial repair can put the guitar in a different value category.
 
 Good maintenance should be described accurately too. A quality refret preserves the all-original classification of an otherwise original guitar under this site's grading approach, while removing museum-quality status. Reshaping a neck or replacing a fingerboard is different work.
 
@@ -154,11 +152,11 @@ I don't publish a universal deduction for any one of those issues. Several chang
 
 ## The Case And The Short-Scale Version
 
-The price table assumes the original case. Some completed comparisons include modern hard cases, while others have original soft cases or uncertain case histories. Those differences stay in the research notes rather than being silently treated as equivalent.
+The price table assumes the original case. A modern hard case or uncertain case history changes that assumption. I check the case separately instead of treating every included case as original.
 
 A case that fits well is useful for transport, but that does not establish its originality. If you're uncertain, photograph its inside and outside and describe what you know. An old family photograph or receipt may help establish the connection.
 
-The smaller ES-125 3/4 belongs in a separate appraisal. The fraction is a model designation, not a formula for multiplying the full-size guitar's price. Its body, scale and original configuration need matching evidence.
+The smaller ES-125 3/4 needs a separate appraisal. The fraction is a model designation, not a formula for multiplying the full-size guitar's price. Its body, scale and original configuration determine which category fits.
 
 Keep any removed parts and paperwork with the instrument. They help explain changes and can prevent a future owner from repeating a mistaken originality claim. There is no need to reinstall questionable parts merely to prepare photographs.
 
@@ -170,15 +168,15 @@ Keep any removed parts and paperwork with the instrument. They help explain chan
 
 </figure>
 
-## Reading The Market References
+## From A Guide Range To An Offer
 
-The reference bands are in US dollars. Reverb's final-price history excludes shipping and tax, while an auction's reported total must be read according to that auction's own result convention. Dealer asking prices were not used to create these bands.
+The ranges are in U.S. dollars and exclude separately charged shipping and taxes. They aren't guaranteed buying offers or the amount an owner will receive after selling costs.
 
-An “Excellent” condition label is not an originality certificate. The descriptions behind this research include replacement tuners, repaired cracks and later cases under positive condition labels. I read those details before deciding how closely a result matches the guitar being valued.
+An Excellent condition label isn't an originality certificate. Replacement tuners, repaired cracks and later cases still belong in the description. I check those details before deciding whether the guitar fits the clean-original range.
 
-The 1960s range uses a wider published era span because the evidence doesn't justify a separate contemporary estimate for each year. That is why several rows repeat the same reference. The annual format helps you find the year without inventing a trend between adjacent dates.
+The 1960s rows share a broad era range. An annual listing helps you find the year, but doesn't imply a fixed price change between adjacent dates.
 
-I don't promise investment performance from an ES-125. Repairs, selling costs, time on the market and the final buyer's preferences affect the result. A useful appraisal starts with the guitar's present condition and the relevant evidence.
+I don't promise investment performance from an ES-125. Repairs, selling costs, time on the market and the final buyer's preferences affect the result. An appraisal starts with the guitar's present condition.
 
 ## Sending An ES-125 For Review
 

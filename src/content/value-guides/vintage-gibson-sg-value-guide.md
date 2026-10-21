@@ -1,10 +1,10 @@
-Vintage Gibson SG reference values range from $2,000 to $2,500 for 1970s mini-humbucker Specials to $13,500 to $25,000 for early Standards, as of October 2026. The model, pickups, finish and repair history explain the spread; I've listed the four main models through 1979 below.
+Vintage Gibson SG guide values range from $2,000 to $2,500 for 1970s mini-humbucker Specials to $13,500 to $25,000 for early Standards, as of October 2026. The model, pickups, finish and repair history explain the spread; I've listed the four main models through 1979 below.
 
 For the year and original specification, use my [Gibson SG dating and identification guide](/gibson-sg-dating-guide/). This guide covers market value and the features that move it.
 
 ## SG Values By Year And Model
 
-**Reviewed October 2026. US dollars.** Repeated numbers are shared era references, not separate measurements for each year. Read the condition notes with the table.
+**Reviewed October 2026. US dollars.** Adjacent years can share a range. Read the condition notes with the table.
 
 | Year | Standard | Special | Junior | Custom | Year Notes |
 | --- | --- | --- | --- | --- | --- |
@@ -33,10 +33,6 @@ The Special shipment dates above come from the site's [Gibson shipment record](/
 ### Condition Behind The Ranges
 
 Each model has its own condition limits: early Standards include intact factory vibratos; early Specials are clean P-90 guitars; early Juniors allow disclosed maintenance; early Customs include older white-finish sales. The later bands generally include more wear and minor changes. The model sections below explain those differences.
-
-### How These Ranges Were Built
-
-The four model guides hold the underlying comparisons and condition limits. Their bands use completed Reverb transactions and Heritage results, with at least three sale records per era group. The table repeats those era ranges for navigation; it does not measure an annual premium.
 
 <figure>
 
@@ -100,7 +96,7 @@ The [SG Junior value guide](/vintage-gibson-sg-junior-value-guide/) covers the o
 
 The early white Custom's three original humbuckers and gold hardware are expensive parts of the complete instrument. A replaced pickup or stripped finish changes the package substantially. Ordinary gold-plating wear is different from replacing the whole hardware set.
 
-Later walnut Customs are a separate market from early white small-guard examples. My [SG Custom value guide](/vintage-gibson-sg-custom-value-guide/) explains the mixed white and walnut evidence and the later Bigsby or stopbar configurations.
+Later walnut Customs belong to a different market from early white small-guard examples. My [SG Custom value guide](/vintage-gibson-sg-custom-value-guide/) covers both finishes and the later factory Bigsby and stopbar configurations.
 
 ## The Changes That Divide SG Values
 
@@ -118,7 +114,7 @@ The Deluxe and Pro briefly occupy the Standard and Special roles. The Custom con
 
 </figure>
 
-Cherry, white and walnut do different jobs in these tables. White is the ordinary early Custom finish but a different question on a Junior; walnut is a later source finish and can't be projected backward into every year. Other factory colors require matched evidence before a premium can be quoted.
+Cherry, white and walnut have different roles in these tables. White is the usual early Custom finish but a different question on a Junior; walnut belongs to later configurations. Other factory colors need individual appraisals.
 
 The thin mahogany body and exposed neck joint also make repair history central to an SG purchase. A stable repair can leave a useful player's guitar, but it moves the instrument out of an unbroken collector comparison. Original pickups and finish may still preserve substantial value.
 
@@ -126,18 +122,7 @@ The thin mahogany body and exposed neck joint also make repair history central t
 
 An unbroken neck, original finish and factory pickups are the baseline for a collector SG. A repaired headstock, a full refinish and a missing pickup change different parts of that package. Normal playing wear and a good refret deserve a separate assessment from structural damage.
 
-For scale, the site's [published Les Paul condition benchmarks](/vintage-gibson-les-paul-market-value-guide/) give the following deductions. They're Les Paul figures, not measured SG discounts; I use matching SG sales to price the actual repair or alteration.
-
-| Published Les Paul Benchmark | Deduction From A Comparable Original |
-| --- | --- |
-| Repaired Headstock | Roughly 40 To 50% |
-| Refinished Body Or Neck | Roughly 40 To 50% |
-| Pickup Swap Without Routing | Roughly 25% |
-| P-90 To Humbucker Routing | Roughly 35 To 40% |
-| Quality Refret | Often 5 To 10% |
-
-These aren't deductions to add together. A guitar that's already priced as played, serviced or altered has some of those differences reflected in its starting range. A quality refret preserves an otherwise all-original guitar's classification while taking it out of the museum-quality category.
-
+Repairs and alterations affect the guitar as a whole. A guitar that's already priced as played, serviced or altered has some of those differences reflected in its starting range. A quality refret preserves an otherwise all-original guitar's classification while taking it out of the museum-quality category.
 
 ## Selling An SG With Its History Intact
 

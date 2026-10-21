@@ -12,15 +12,15 @@ heroImageAlt: "Front of a 1971 Fender Competition Mustang in Competition Blue wi
 metaDescription: "Vintage Fender Mustang values from 1964 to 1979, with annual price ranges, Competition finishes, original parts, dating details and photos from my shop."
 ogImage: "/images/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg"
 ---
-A 1964 Fender Mustang in all-original, excellent condition has an existing guide range of $2,200 to $4,000; Competition Mustangs sit at $4,000 to $6,000. For standard sunburst guitars from the 1970s, the completed-sale comparison below is $1,400 to $2,300. I separate those sales from the older asking-price references so you can compare the right kind of number.
+A 1964 Fender Mustang in all-original, excellent condition has an asking range of $2,200 to $4,000; Competition Mustangs sit at $4,000 to $6,000. Standard sunburst guitars from the 1970s have a completed-sale range of $1,400 to $2,300. I assess the exact configuration and condition before discussing an offer.
 
 If you're comparing more than one Fender, my [vintage Fender value guide](/vintage-fender-value-guide/) brings the model price tables together.
 
 <h2 id="fmg-value">Vintage Fender Mustang Values By Year</h2>
 
-As of October 2026, the first three bands below retain this page's published asking and guide references. They aren't a newly verified set of completed sales. The last band uses three independent completed transactions from 2026. All amounts are in U.S. dollars; a shop's purchase offer and a private seller's net proceeds are different figures.
+As of October 2026, the 1964 to 1971 standard-finish rows and all Competition rows show asking ranges. The 1972 to 1979 sunburst rows show completed-sale ranges. All amounts are in U.S. dollars; a buying offer and an owner's proceeds can differ from these figures.
 
-| Year | Standard Finish Reference | Competition Reference |
+| Year | Standard Finish Range | Competition Asking Range |
 | --- | --- | --- |
 | 1964 | $2,200 to $4,000 | Outside Competition Run |
 | 1965 | $2,200 to $4,000 | Outside Competition Run |
@@ -39,9 +39,8 @@ As of October 2026, the first three bands below retain this page's published ask
 | 1978 | $1,400 to $2,300 | Outside Competition Run |
 | 1979 | $1,400 to $2,300 | Outside Competition Run |
 
-**Pricing note:** Reviewed as of October 2026. Standard-finish 1964 to 1971 and all Competition ranges retain existing asking and guide references. The 1972 to 1979 sunburst range uses completed sales. Repeated years share era ranges, with condition assumptions explained below.
 
-The repeated figures are shared era ranges, not separate same-year sale samples. The 1964 to 1971 standard-color references and Competition references assume all-original, excellent guitars. The 1972 to 1979 sunburst comparison covers original finish, pickups and hardware in Very Good to Excellent condition with the original hard case; a cracked original pickguard can put a guitar at the low end. It doesn't price Antigua, rare finishes or mint examples. Earlier published player-grade references remain $1,500 to $2,800 for 1964 to 1965, $1,200 to $2,200 for later standard colors, and $2,500 to $4,500 for Competition models.
+Adjacent years can share a range. The 1964 to 1971 standard-finish and Competition ranges assume all-original, excellent guitars. The 1972 to 1979 sunburst range covers original finish, pickups and hardware in Very Good to Excellent condition with the original hard case; a cracked original pickguard can place a guitar lower. It doesn't cover Antigua, rare finishes or mint examples. Player-grade asking ranges are $1,500 to $2,800 for 1964 to 1965, $1,200 to $2,200 for later standard colors, and $2,500 to $4,500 for Competition models.
 
 A few things sit outside the table. Competition Orange is the rarest of the three Competition colors and can run above the range, a 1969 with an original matching painted headstock commands a premium over a later natural-headstock car, and Competition Blue carries extra weight from the Cobain association. A original 22.5 inch short-scale example is less common than the 24 inch and can draw its own interest. On the other end, a refinished guitar, a swapped-in modern bridge, a missing vibrato arm, or an added humbucker each pull the number down, and on a Competition guitar a refinish erases most of the premium.
 
@@ -49,7 +48,7 @@ A few things sit outside the table. Competition Orange is the rarest of the thre
 
 Honest wear like this is not the enemy of value the way a refinish is. Buckle rash, finish checking, and playwear are the marks of a guitar that got used, and on an original-finish Competition Mustang that story is part of the appeal. What moves the price down hard is a repaint, replaced parts, and structural repairs, not the honest scars of sixty years of playing.
 
-For context on how to use published values without leaning on them too hard, our [Blue Book and price-guide overview](/post/blue-book-of-guitar-values-and-vintage-guitar-price-guide/) explains the difference between asking prices and real sales. And for the wider offset and student-Fender world, our [Fender Jaguar guide](/post/vintage-fender-jaguar-guide/) and [Jazzmaster evolution guide](/post/fender-jazzmaster-evolution-guide-1958-1971/) trace the models the Mustang shares its DNA with.
+For the wider offset and student-Fender families, my [Fender Jaguar guide](/post/vintage-fender-jaguar-guide/) and [Jazzmaster evolution guide](/post/fender-jazzmaster-evolution-guide-1958-1971/) explain their construction and development.
 
 <h3>Original Cases And Case Candy</h3>
 
@@ -224,7 +223,7 @@ Within the Competition family, the value ladder runs Orange at the top for rarit
 
 <h2 id="fmg-cobain">Kurt Cobain And The Mustang's Second Life</h2>
 
-You cannot tell the modern Mustang story without Kurt Cobain. Cobain played left-handed Mustangs through Nirvana's biggest years, most famously a 1969 Competition model in Lake Placid Blue, and he loved the guitar's cheap, awkward, fight-you character. His attachment to both the Mustang and the Jaguar led him to work with Fender in the early 1990s on the Jag-Stang, a hybrid of the two that Fender still builds. When Cobain's own 1969 Competition Mustang from the "Smells Like Teen Spirit" video came to auction, it sold for roughly 4.5 million dollars, and later changed hands again for close to 7 million, which makes it one of the most valuable guitars ever sold.
+You cannot tell the modern Mustang story without Kurt Cobain. Cobain played left-handed Mustangs through Nirvana's biggest years, most famously a 1969 Competition model in Lake Placid Blue, and he loved the guitar's cheap, awkward, fight-you character. His attachment to both the Mustang and the Jaguar led him to work with Fender in the early 1990s on the Jag-Stang, a hybrid of the two that Fender still builds.
 
 That is the part sellers need to hear clearly, because it is where people talk themselves into fantasy numbers. Cobain's specific guitar is priceless because it is Cobain's guitar. That value does not transfer. A regular 1969 Competition Mustang, even the same color, is worth its own market value and not Nirvana money. What the Cobain association actually did was lift the entire Mustang market, especially the Competition finishes and especially Competition Blue, out of the bargain bin and into real collector territory. He was not the only one, either: the Mustang has been a favorite of players from David Byrne and Thurston Moore to PJ Harvey and Liz Phair, which kept it culturally alive long after it stopped being a beginner's guitar.
 
@@ -346,7 +345,7 @@ Each slide switch controls one pickup and has three positions: on, off, and on w
 
 **Did Kurt Cobain play a Fender Mustang?**
 
-Yes. Kurt Cobain played left-handed Mustangs through Nirvana's peak years, most famously a 1969 Competition model in Lake Placid Blue, and his love of the Mustang and the Jaguar led to the Fender Jag-Stang hybrid. His own 1969 Competition Mustang later sold at auction for millions of dollars. That value belongs to his specific guitar and does not transfer to other Mustangs, but the association lifted the whole Competition Mustang market.
+Yes. Kurt Cobain played left-handed Mustangs through Nirvana's peak years, most famously a 1969 Competition model in Lake Placid Blue, and his love of the Mustang and the Jaguar led to the Fender Jag-Stang hybrid. Documented ownership by Cobain belongs to his specific guitar and does not transfer to other Mustangs.
 
 **Is a reissue or Japanese Mustang worth as much as a vintage one?**
 
@@ -497,7 +496,7 @@ No. Reissues are good guitars, but they are worth a fraction of a vintage origin
       "name": "Did Kurt Cobain play a Fender Mustang?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Kurt Cobain played left-handed Mustangs through Nirvana’s peak years, most famously a 1969 Competition model in Lake Placid Blue, and his love of the Mustang and the Jaguar led to the Fender Jag-Stang hybrid. His own 1969 Competition Mustang later sold at auction for millions of dollars. That value belongs to his specific guitar and does not transfer to other Mustangs, but the association lifted the whole Competition Mustang market."
+        "text": "Yes. Kurt Cobain played left-handed Mustangs through Nirvana’s peak years, most famously a 1969 Competition model in Lake Placid Blue, and his love of the Mustang and the Jaguar led to the Fender Jag-Stang hybrid. Documented ownership by Cobain belongs to his specific guitar and does not transfer to other Mustangs."
       }
     },
     {

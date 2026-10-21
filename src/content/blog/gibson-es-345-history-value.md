@@ -9,14 +9,14 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-es-345-history-value/1963-gibson-es-345-stereo-full-front.jpg"
 heroImageAlt: "A 1963 Gibson ES-345TD in sunburst standing in its case at Joe's Vintage Guitars, showing the gold hardware and stereo Varitone controls."
-metaDescription: "Vintage Gibson ES-345 values by year from 1959 to 1979, with asking ranges, verified later sales, stereo wiring, repairs and photos from my guitar shop."
+metaDescription: "Vintage Gibson ES-345 values by year from 1959 to 1979, with price ranges, stereo wiring, original parts, repairs and photographs from my guitar shop."
 ogImage: "/images/blog/gibson-es-345-history-value/1963-gibson-es-345-stereo-full-front.jpg"
 ---
-The existing asking reference for an all-original, excellent 1959 sunburst Gibson ES-345 is $22,000 to $45,000+, while three completed comparisons place original-finish 1970s stereo examples at $4,300 to $5,700 with the condition allowances below. Those are different kinds of numbers. I keep the asking anchors separate from realized prices and check the pickups, finish, stereo circuit and repairs before choosing a comparison.
+The asking range for an all-original, excellent 1959 sunburst Gibson ES-345 is $22,000 to $45,000+. Original-finish 1970s stereo examples have a completed-sale range of $4,300 to $5,700 under the condition assumptions below. I check the pickups, finish, stereo circuit and repairs before choosing the range that fits.
 
 <h2 id="value">Vintage Gibson ES-345 Values By Year</h2>
 
-As of October 2026, the 1959 to 1969 rows retain this page's published dealer asking and guide anchors for all-original, excellent guitars. They aren't verified completed-sale bands. The 1970 to 1979 rows use a separate set of three completed sales with their condition differences stated below. Figures are in U.S. dollars and exclude shipping and tax.
+As of October 2026, the 1959 to 1969 rows show asking ranges for all-original, excellent guitars. The 1970 to 1979 rows show completed-sale ranges with the condition allowances below. Figures are in U.S. dollars and exclude shipping and tax; they aren't guaranteed buying offers.
 
 | Year | Configuration | Range |
 | --- | --- | --- |
@@ -43,9 +43,8 @@ As of October 2026, the 1959 to 1969 rows retain this page's published dealer as
 | 1978 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
 | 1979 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
 
-**Pricing note:** Reviewed as of October 2026. The 1959 to 1969 ranges retain existing dealer asking and guide references for all-original, excellent guitars. The 1970s range uses completed sales in Very Good to Excellent condition, with parts and case allowances below. Repeated years share an era range.
 
-Each repeated figure is a shared era range, not three separate same-year sales. A calendar year alone doesn't tell me whether an early guitar has its original PAF pickups, factory tailpiece or wide nut. The 1965 asking range is deliberately broad because those combinations cross the transition year.
+Adjacent years can share an era range. A calendar year alone doesn't establish original PAF pickups, a factory tailpiece or a wide nut. The 1965 asking range is broad because those combinations cross the transition year.
 
 The 1970s comparison assumes original finish and pickups with functioning stereo Varitone electronics, in Very Good to Excellent condition. Replacement tuners, strap pins or a truss rod cover can be present, as can a quality refret; the original case isn't universal. It covers cherry and Wine Red examples with no disclosed structural break. It isn't an untouched collector band or a separate finish premium.
 

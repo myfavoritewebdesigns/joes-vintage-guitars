@@ -1,4 +1,4 @@
-Vintage Fender Jaguar sunburst comparisons run from $3,700 to $10,000 across the original 1962 to 1975 production years, with the condition and case differences set out below. First-year examples sit at $6,300 to $10,000 in this sample; the 1970s comparison is $3,700 to $4,500. I use those as starting comparisons, then account for the exact guitar rather than treating every example as equally complete.
+Vintage Fender Jaguar sunburst values run from $3,700 to $10,000 across the original 1962 to 1975 production years, with condition and case differences set out below. First-year examples sit at $6,300 to $10,000; the 1970s range is $3,700 to $4,500. I use those as starting ranges, then assess the actual guitar.
 
 I start with the guitar's year and configuration, then compare the finish, parts, repairs and case with the instruments behind the range. If you need to establish the year or originality first, my [vintage Fender Jaguar authentication guide](/post/vintage-fender-jaguar-guide/) explains the evidence to check.
 
@@ -6,7 +6,7 @@ If you're comparing a Jaguar with another model, use my [Fender guitar and bass 
 
 ## Vintage Fender Jaguar Values By Year
 
-As of October 2026, the table uses three independent completed Reverb transactions for each era comparison. The 1965 row preserves this site's existing $4,000 to $6,000 conditional reference; three verified sales fall inside it. Amounts are in U.S. dollars, excluding separately charged shipping and taxes. Each row names the year, but repeated ranges share an era sample rather than a separate set of same-year sales.
+These ranges are reviewed as of October 2026 and stated in U.S. dollars, excluding separately charged shipping and taxes. Condition, originality and the case affect where a guitar falls within its range. Adjacent years can share the same range.
 
 | Year | Sunburst Comparison | Condition |
 | --- | --- | --- |
@@ -25,15 +25,13 @@ As of October 2026, the table uses three independent completed Reverb transactio
 | 1974 | $3,700 to $4,500 | Excellent; see case and service allowances |
 | 1975 | $3,700 to $4,500 | Excellent; see case and service allowances |
 
-**Pricing note:** Reviewed as of October 2026. Ranges use completed sunburst sales, with the existing 1965 reference retained. Repeated years share an era sample; condition and case allowances are explained below.
-
 The first-year range mixes examples with different levels of documentation and includes a replacement case and replacement mute foam. It isn't a separate slab-board premium or a promise of museum condition. The 1963 to 1964 comparison allows missing accessories, a replacement case and fretwork; the three documented instruments are from 1963.
 
-The 1965 reference accommodates transition features and differing condition. One completed comparison needs fretwork, and the sample doesn't consistently establish original-case completeness. The late-1960s comparison covers original sunburst guitars with original cases, visible wear and no disclosed structural repair; it includes 1966 and 1969 instruments.
+The 1965 range allows transition features, fretwork needs and differences in case completeness. The late-1960s range assumes original sunburst finish, an original case, visible wear and no disclosed structural repair. I assess those differences before applying either range.
 
-The 1970s comparison draws on 1971 and 1972 rosewood-board instruments. Two are described as completely original with original cases; the third documents original pickups and includes a molded case without a complete originality inventory. One original example has a disclosed grounding issue. The remaining 1970s rows use that same era evidence, so an unusually clean, fully documented guitar may need a narrower appraisal.
+The 1970s range covers rosewood-board instruments with original pickups. Case originality, minor service needs and the completeness of the original parts can vary. An unusually clean, fully documented guitar needs a closer appraisal.
 
-These aren't custom-color, maple-board, refinished or heavily modified price bands. I haven't converted those categories into a fixed premium or discount. The dated source record keeps each completed transaction and its condition notes available for review.
+These ranges don't cover custom colors, maple boards, refinishes or heavily modified guitars. I assess those configurations individually instead of applying a fixed premium or discount.
 
 The original Jaguar run ends in 1975. A guitar described as a 1976, 1977, 1978 or 1979 Jaguar needs its identity checked before you apply an original-run price. A date on a receipt, a replacement part or a later reissue name doesn't establish its manufacturing year.
 
@@ -49,7 +47,7 @@ The original Jaguar run ends in 1975. A guitar described as a 1976, 1977, 1978 o
 
 A price range is useful only when the guitar behind it resembles yours. A sunburst Jaguar with its original pickups, original finish and a serviceable case belongs in a different comparison from a refinished guitar with changed electronics. They can both be good instruments, but a buyer is purchasing a different package.
 
-The annual rows make the guide easier to use when you know a year. They don't imply that a guitar gained a fixed amount of value when the calendar changed. Where adjacent years share a range, they're using the same era evidence. A small sample doesn't justify inventing a separate price for every serial-number window.
+The annual rows help you find a guitar by year. They don't imply that its value changed by a fixed amount when the calendar turned. I consider condition and configuration before narrowing a range.
 
 I also distinguish the condition grade printed on a listing from a description of the actual parts. “Excellent” can describe a clean refinished guitar, while “Very Good” can describe an original guitar with visible playing wear. Neither label, by itself, establishes an original finish, an untouched wiring harness or the right case.
 
@@ -59,13 +57,13 @@ The same distinction applies to maintenance. A quality refret is accepted mainte
 
 The Jaguar arrived in 1962, and first-year instruments deserve a closer comparison than a generic “pre-CBS Fender” description. Early slab-board and later veneer-board guitars belong to that same calendar year. Slab and veneer describe two different rosewood fingerboard constructions; they aren't condition grades.
 
-The first-year price evidence here doesn't establish a separate slab-board premium. I won't apply a later-1962 result to an exceptional early example without checking that distinction. Nor will I assume that a guitar is early production because its owner remembers buying it soon after the model appeared.
+An exceptional early slab-board example needs an individual appraisal. I wouldn't place it in the same category as a later, more worn guitar without checking those differences. An owner's memory of buying it soon after launch doesn't establish the production date by itself.
 
 A first-year guitar also needs its finish separated from its year. A standard sunburst comparison can't price an authenticated rare custom color. That doesn't make every unusual-looking color valuable: the premium depends on the finish actually being original and on finding comparable demand for that configuration.
 
 ### Why 1965 Needs Its Own Context
 
-The CBS purchase happened in 1965, but the instruments didn't change all at once. A 1965 Jaguar can retain earlier features or show later changes. The earlier guide's conditional value reference is retained in the notes rather than treated as proof that every guitar from that year is interchangeable.
+The CBS purchase happened in 1965, but the instruments didn't change all at once. A 1965 Jaguar can retain earlier features or show later changes. I assess its actual features before applying the range; guitars from the same year aren't interchangeable.
 
 For an appraisal, I want the actual configuration described alongside the year. A seller's “pre-CBS” label isn't a substitute for that description. Once the guitar is identified, the comparison can account for its features without assigning a premium to a slogan.
 
@@ -87,7 +85,7 @@ For these instruments, comfortable setup, working electronics and disclosed modi
 
 An original finish is part of the collectible instrument. Repainting changes that category even when the new work looks attractive and the guitar plays well. I compare a refinished Jaguar with other refinished examples instead of assuming that a new coat of a rare color recreates the rare original.
 
-Custom colors need separate evidence. A few expensive advertisements don't establish a completed-sale range, and the premium for one color doesn't automatically transfer to another. I haven't added an unsupported percentage to the sunburst rows to manufacture a custom-color table.
+Custom colors need individual appraisals. The premium for one color doesn't automatically transfer to another. I consider the finish's originality, condition and the rest of the guitar together.
 
 If the finish is the unresolved part of your guitar's story, the [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/) covers the finish evidence. Here, the value question starts after that identification is settled. The buyer needs to know which finish they're paying for.
 
@@ -151,9 +149,9 @@ Save the small items. A tremolo arm, original bridge, instruction sheet, hang ta
 
 A dealer's asking price is an invitation to buy. A completed price records a transaction. Your proceeds are what remains after the costs and terms of your chosen sale. Those figures can differ without any of them being dishonest.
 
-The completed comparisons in this guide use the recorded final transaction amount rather than the last advertisement shown on a listing. I check the accompanying description because a bargain-looking number may belong to a refinish, replacement pickups, a repair or an incomplete guitar. A listing that merely ended doesn't independently prove a sale.
+A refinished, repaired or incomplete guitar belongs in a different condition group from a clean original. I check the pickups, finish, repairs and included parts before discussing an offer.
 
-The date of the comparison is also part of the evidence. An older result can provide context, but it doesn't establish today's price by itself. I haven't applied an automatic inflation multiplier or assumed that every vintage Jaguar has appreciated at the same rate.
+Values can change, and an unusually clean or heavily modified Jaguar may sit outside a broad range. I assess the actual instrument before treating the table as an expected selling price.
 
 For a private sale, you also need to weigh the time spent answering questions, arranging payment, packing and resolving a buyer's concerns. A dealer offer is a separate proposal with its own terms. Neither should be confused with an upper-end retail asking price pulled from an unrelated guitar.
 
@@ -175,4 +173,4 @@ You don't need to take the guitar apart for an initial conversation. Existing ph
 
 Keep the original parts, paperwork and case together. Don't repaint the guitar, enlarge a cavity or discard old hardware to make the package look newer before asking about value. If it already has modifications, describe them plainly and we can use the appropriate comparison.
 
-I buy vintage guitars nationwide from my shop in Mesa. You can request a [free Jaguar appraisal](/free-appraisal/) with photographs, or read about [selling a vintage Fender guitar](/sell-my-fender-guitar/) if you're ready to discuss a sale. I'll use the guitar in front of us, its documentation and the available market evidence to explain the range that fits.
+I buy vintage guitars nationwide from my shop in Mesa. You can request a [free Jaguar appraisal](/free-appraisal/) with photographs, or read about [selling a vintage Fender guitar](/sell-my-fender-guitar/) if you're ready to discuss a sale. I'll assess the instrument and its condition before explaining the range that fits.

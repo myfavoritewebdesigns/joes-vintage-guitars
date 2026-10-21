@@ -1,12 +1,12 @@
-Vintage Gibson acoustic references differ sharply by model: a 1955 to 1959 J-45 uses a published excellent-condition range of $7,500 to $10,000, while a 1950s J-200 uses $16,500 to $21,500. Both assume an original guitar with its original case. They aren't interchangeable estimates for a large old Gibson acoustic.
+Vintage Gibson acoustic values differ sharply by model: an excellent, original 1955 to 1959 J-45 falls in the $7,500 to $10,000 range, while a 1950s J-200 sits at $16,500 to $21,500. Both assume the original case. They aren't interchangeable estimates for a large old Gibson acoustic.
 
-I use this hub to connect the model guides and explain which table fits which guitar. The references are reviewed as of October 2026, with source dates and condition differences retained on the model pages. A repaired or modified guitar needs its own comparison.
+I use this hub to connect the model guides and explain which table fits each guitar. The ranges were reviewed in October 2026. A repaired or modified guitar needs its own appraisal.
 
 ## Gibson Acoustic Values By Model
 
-The rows below are selected examples, not complete model-wide ranges. Open the appropriate guide for annual coverage and the source notes behind each band. Several annual rows can share an era reference without implying separate sales for every year.
+The rows below are selected examples, not complete model ranges. Open the matching guide for annual coverage and condition details. Several years can share a range.
 
-| Model | Example Era Or Configuration | Reference Range |
+| Model | Example Era Or Configuration | Value Range |
 | --- | --- | --- |
 | J-45 | 1957: Large-guard sunburst era | $7,500 to $10,000 |
 | J-45 | 1975: Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
@@ -18,9 +18,7 @@ The rows below are selected examples, not complete model-wide ranges. Open the a
 | LG-3 | 1942: LG-3, broad original-run reference | $3,750 to $8,500 |
 | Hummingbird | 1960 to 1962 | $8,000 to $12,000 |
 
-**Pricing note:** Reviewed as of October 2026. These are selected model examples, not full model ranges. J-45, J-200 and LG figures use published references checked against completed sales; Hummingbird retains this site's existing reference. See each model guide for condition assumptions.
-
-The J-45, J-200 and LG references use the 2025 published guide with completed comparisons. The Hummingbird example preserves an existing site anchor. Those sources have different dates and condition assumptions, which remain visible on the model pages.
+I identify the model, year and condition before choosing a range. The individual guides explain which configurations and repairs each table covers.
 
 <figure>
 
@@ -52,7 +50,7 @@ The [Gibson J-200 value guide](/vintage-gibson-j-200-value-guide/) supplies annu
 
 </figure>
 
-The prewar research gap remains explicit. The available ordinary-market completed evidence doesn't yet clear the required bar for a prewar range, so the guide doesn't invent one. A modern historic reissue or a celebrity-associated result can't automatically fill that gap.
+Prewar examples need individual appraisals and aren't assigned a range here. Their construction, condition and documented history can put them in a different market from later J-200s.
 
 SJ-200 means Super Jumbo in this family. It shouldn't be confused with the Southern Jumbo merely because both names can be shortened to SJ. Check the full model before using either guide.
 
@@ -62,7 +60,7 @@ A converted saddle or changed internal structure also affects the comparison wit
 
 The [Gibson Hummingbird history and value guide](/post/vintage-gibson-hummingbird-history-value-guide/) keeps its existing page address and puts the annual table near the top. The early reference shown here is only one part of its coverage. Later configurations need the appropriate row.
 
-That guide preserves the site's existing price anchors and identifies their source basis. It doesn't recast them as a new set of verified transactions. Read the condition notes before treating a broad reference as an estimate for a repaired guitar.
+Read the Hummingbird's condition notes before applying a range to a repaired guitar. I assess originality and structural work together.
 
 The name on the model guide also defines the scope. A related acoustic with similar decoration doesn't automatically share the same price. I need the model, year and construction established well enough to choose matching comparisons.
 
@@ -80,13 +78,13 @@ The [Gibson LG-series value guide](/vintage-gibson-lg-series-value-guide/) separ
 
 Don't assume that every small Gibson acoustic belongs in the least or most valuable LG category. The model differences need to be established before choosing a range. The existing identification article carries the construction walkthrough; the value guide handles the pricing.
 
-The shared LG ranges also have evidence limits. A set of completed comparisons concentrated in one decade doesn't create a separate wartime sales sample. The guide retains those qualifications instead of treating every repeated annual row as independent research.
+The LG ranges cover broad model and era groups. A wartime guitar and a later example can share a range while differing in construction and condition. I consider those differences in an individual appraisal.
 
-An individual guitar may have changed tuners, bridge work, a repaired seam or an added pickup. Those details can put it outside the published excellent-condition assumption. A small body doesn't make repair history irrelevant to the comparison.
+Changed tuners, bridge work, a repaired seam or an added pickup can put a guitar outside the excellent-original category. A small body doesn't make repair history less relevant.
 
 ## Repairs And The Condition Assumption
 
-The clean references generally assume original finish and major parts, excellent condition and the original case. Some completed comparisons describe different conditions, and those records remain labeled. A broad condition word isn't a substitute for the repair details.
+The clean-condition ranges generally assume original finish and major parts, excellent condition and the original case. I still need the repair details before deciding whether a particular guitar fits.
 
 A neck reset, a bridge replacement and a small repaired crack are different kinds of work. Their effect depends on the instrument and the quality and extent of the repair. I don't apply one automatic percentage deduction to all three.
 
@@ -110,9 +108,9 @@ Under this site's grading approach, a quality refret preserves otherwise all-ori
 
 ## What The Numbers Do And Do Not Represent
 
-A published reference is a dated estimate for a defined category. A completed transaction records an actual sale with its own condition and terms. An advertised amount is an asking price, which isn't automatically the amount paid.
+An advertised amount is an asking price, which may differ from the price ultimately paid. I assess the guitar and the terms of a proposed sale before making an offer.
 
-The underlying model guides preserve those distinctions. Older comparisons remain dated, and altered examples aren't described as untouched originals. The references reviewed in October 2026 aren't all transactions from that month or year.
+The model guides distinguish clean originals from worn, repaired and modified instruments. Choose the condition group that describes your guitar before using a range.
 
 An owner's net proceeds can also differ from a retail transaction total. Selling costs and the terms of a direct purchase affect the amount received. The upper endpoint of a guide isn't a guaranteed purchase offer.
 
@@ -122,4 +120,4 @@ I can begin with the full front and back, both sides of the headstock, the bridg
 
 You don't need to authorize repairs or make the guitar look newer first. Documenting its present state gives the appraisal a clear starting point. If closer inspection is needed, I can explain which details remain unresolved.
 
-For electric and archtop models, use the [Gibson value hub](/vintage-gibson-value-guide/). This acoustic hub keeps its comparison focused on the flat-top families above. The model pages remain the place to check the complete annual table and research qualifications.
+For electric and archtop models, use the [Gibson value hub](/vintage-gibson-value-guide/). This acoustic hub focuses on the flat-top families above. The model pages contain the full annual tables and condition guidance.

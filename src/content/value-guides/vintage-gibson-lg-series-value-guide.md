@@ -1,14 +1,14 @@
-A clean vintage Gibson LG-2 has a published reference of $3,500 to $8,500 across its original eras, while the LG-0, LG-1 and LG-3 need their own model ranges. These are excellent-condition, original-case references from the 2025 price guide, reviewed against completed sales as of October 2026. I use the model and repair history to narrow the comparison.
+A clean vintage Gibson LG-2 has a guide range of $3,500 to $8,500 across its original eras, while the LG-0, LG-1 and LG-3 have their own ranges. These values assume excellent, original condition and the original case, reviewed in October 2026. I use the model, construction and repair history to narrow the appraisal.
 
 If the model is uncertain, start with my [Gibson LG identification and construction guide](/post/joesvintageguitarsaz-com-identify-gibson-lg-series/). A sunburst top alone doesn't distinguish an LG-1 from an LG-2, and the price table assumes that identification has already been resolved.
 
 ## Gibson LG Values By Year
 
-The annual rows below cover each model's original production span in the published reference. A repeated range is a shared reference, not a claim that I found a separate set of sales for every year. The LG-0, LG-1 and LG-3 rows use broad model envelopes because the available completed comparisons don't justify narrow annual estimates.
+The annual rows cover each model's original production span. The LG-0, LG-1 and LG-3 use broad model ranges. I consider a guitar's actual year, features and condition before narrowing its value.
 
 Each range assumes an all-original guitar in excellent condition, structurally sound and accompanied by its original case. A quality refret is accepted maintenance under my grading approach, although it removes museum-quality status. Refinished, repaired or substantially altered instruments need a separate comparison.
 
-| Year | Configuration | Reference Range |
+| Year | Configuration | Value Range |
 | --- | --- | --- |
 | 1958 | LG-0, broad original-run reference | $850 to $1,875 |
 | 1959 | LG-0, broad original-run reference | $850 to $1,875 |
@@ -98,13 +98,11 @@ Each range assumes an all-original guitar in excellent condition, structurally s
 | 1963 | LG-3, broad original-run reference | $3,750 to $8,500 |
 | 1964 | LG-3, broad original-run reference | $3,750 to $8,500 |
 
-**Pricing note:** Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume an all-original, excellent-condition guitar with its original case. Several years share a broad model or era reference; they aren't separate annual sales samples.
-
 The LG-0 reference combines $850 to $1,875 across its original run. The broad LG-1 envelope is $2,000 to $4,500, and the LG-3 envelope is $3,750 to $8,500. Those wide ranges span changes in age and configuration; they aren't interchangeable quotes for every example.
 
 For the LG-2, the spruce-top Banner reference is $6,500 to $8,500, early postwar production is $5,500 to $7,500, and the combined later-production reference is $3,500 to $6,500. A mahogany-top Banner guitar needs its own comparison. I haven't assigned it the spruce-top range.
 
-The LG-3 table follows the published guide through 1964, while the Reverb category ends in 1963. An instrument around that boundary needs its model checked before using the table. Later B-25 guitars aren't automatically included under the LG-2 name.
+The LG-3 table runs through 1964. A guitar near that boundary needs its exact model established before you apply a range. Later B-25 guitars aren't automatically included under the LG-2 name.
 
 <figure>
 
@@ -114,27 +112,27 @@ The LG-3 table follows the published guide through 1964, while the Reverb catego
 
 </figure>
 
-## What These References Can Tell You
+## How To Use The Value Ranges
 
-The table gives an owner a starting range and a way to sort the evidence. It doesn't turn an uncertain model, repaired top or incomplete parts description into an excellent original guitar. A guitar can be a useful instrument and still belong outside the clean reference.
+The table gives you a starting range. It doesn't make an uncertain model, repaired top or incomplete guitar an excellent original. A useful playing instrument can still belong outside the clean-condition category.
 
-I separate the published reference from the completed-sale checks. The reference guide describes an ideal condition category; the transactions show what particular instruments with particular histories brought. Some of the inspected transactions have refinishes, replaced bridges, repaired cracks, added pickups or newer cases.
+Refinishes, replacement bridges, repaired cracks, added pickups and newer cases all affect the condition description. I assess those details individually rather than treating every guitar with the same model name as equivalent.
 
-Those differences are retained in the research behind this page. I don't average a repaired instrument into a clean band and then describe the result as an original-condition market. The ranges remain explicitly dated published references.
+The ranges describe guitars under the stated condition assumptions. I wouldn't apply a clean-original value to a heavily repaired instrument without a separate appraisal.
 
 ### Broad Model Ranges Need A Second Step
 
-The LG-0, LG-1 and LG-3 each span more than one construction period. Their combined envelopes let an owner find the correct model without pretending that the evidence supports a different price for every calendar year. The next step is to match the guitar's actual features and condition.
+The LG-0, LG-1 and LG-3 each span more than one construction period. Their broad ranges help you choose the model category. I then assess the actual features and condition to narrow the value.
 
-The LG-1 and LG-3 completed comparisons reviewed here are concentrated in the 1950s. They don't establish separate wartime sale bands. An early example should receive an individual assessment instead of being placed at the top of the range simply because its date is older.
+Early LG-1 and LG-3 examples need individual assessment. I don't place a guitar at the top of the range simply because its date is older; its construction, originality and condition need to support the appraisal.
 
-The LG-2 evidence permits a more useful split between the spruce-top Banner period, early postwar examples and later production. Even there, the same era reference appears in several annual rows. Year-by-year coverage and year-specific transaction samples are different things.
+The LG-2 table separates the spruce-top Banner period, early postwar examples and later production. Several annual rows can share a range, while individual guitars differ in condition and construction.
 
 ## Choosing The Correct LG Model
 
 I begin an appraisal with the model designation and the evidence supporting it. An old receipt, a family description and a seller's listing title can help, but they can also repeat a mistake. A guitar described as an LG-2 for years can still need closer examination.
 
-The published site guide explains the construction distinctions. Here, the practical consequence is simple: don't borrow another model's range because the two guitars look similar from the front. The LG-0, LG-1, LG-2 and LG-3 have separate reference categories.
+Don't borrow another model's range because two guitars look similar from the front. The LG-0, LG-1, LG-2 and LG-3 have their own value categories. I establish the model before using the table.
 
 <figure>
 
@@ -148,13 +146,13 @@ The published site guide explains the construction distinctions. Here, the pract
 
 The LG-0 occupies the lowest broad reference in this group. That doesn't mean every inexpensive-looking Gibson is an LG-0, or that an owner's instrument should be assigned the bottom figure without an inspection. Bridge work, playability and condition can change the comparison considerably.
 
-The site's chronology and the published guide begin the model in 1958. Some marketplace category titles use an earlier start date. I retain the supported site date instead of allowing a marketplace heading to create extra production years.
+The LG-0 coverage begins in 1958. If a guitar is described as an earlier LG-0, I check its model and date before assigning a value.
 
-The site's general description calls the LG-0 all-mahogany, while one inspected later completed listing describes a spruce top. I don't resolve that discrepancy from the listing title or extend either description to every year. A later guitar with uncertain wood or model identity needs a closer appraisal.
+A later guitar with uncertain wood or model identity needs a closer appraisal. I don't identify its construction from a listing title or extend one guitar's features to every year.
 
 ### The LG-1
 
-An LG-1 can resemble an LG-2 closely enough that owners compare the wrong completed listings. The broad LG-1 reference here remains separate, even where both instruments share a sunburst finish. It covers original-condition guitars rather than every repaired student-model acoustic offered under the name.
+An LG-1 can resemble an LG-2 closely enough that owners compare the wrong model. The broad LG-1 reference here remains separate, even where both instruments share a sunburst finish. It covers original-condition guitars rather than every repaired student-model acoustic offered under the name.
 
 A changed bridge or a pickup installation should be described directly. Calling an instrument a good player doesn't answer whether its finish, bridge and internal structure match the reference condition. I want those details before narrowing a price.
 
@@ -216,7 +214,7 @@ I use repair records and appropriate photographs to understand the work. I don't
 
 ## Original Finish, Cases And Added Pickups
 
-An original finish, an overspray and a full refinish need separate descriptions. Overspray means additional finish applied over an existing surface. It can appear in a completed listing alongside other repairs, so I don't isolate a discount without understanding the whole guitar.
+An original finish, an overspray and a full refinish need separate descriptions. Overspray means additional finish applied over an existing surface. It can accompany other repairs, so I don't isolate a discount without understanding the whole guitar.
 
 The ranges assume the original case. A newer case may protect an instrument well, but it doesn't satisfy that condition assumption. A seller calling a case vintage also doesn't establish that it left the factory with that guitar.
 
@@ -226,11 +224,11 @@ Keep removed original parts and any dated receipts together with the guitar. Tho
 
 ## Reading The Market Without Mixing Categories
 
-A completed price is different from an advertised price. The completed transaction history supplies the realized figure used in this research, while the corresponding listing supplies its year and condition description. I inspect both because marketplace categories can contain misidentified instruments.
+An asking price can differ from the amount a buyer ultimately pays. A direct buying offer also depends on the guitar's actual condition and the terms of the sale.
 
-An asking price can show what a seller hopes to receive, but it doesn't establish what another buyer paid. I haven't used current asking listings to manufacture higher bands. I also haven't presented any researched transaction as my own purchase or sale.
+I assess the guitar as it stands now, including repairs, changes and any included original parts. An attractive advertised price doesn't replace that inspection.
 
-The dates on the research stay attached to the figures. A 2025 published reference reviewed in October 2026 remains a 2025 reference. It isn't a fresh 2026 market survey simply because this page was updated.
+These guide ranges were reviewed in October 2026. Send photographs and the repair history for an individual appraisal of your guitar.
 
 I don't promise an investment return from these ranges. Ownership costs, future repair needs and the time needed to find a buyer all affect the outcome. The useful question is how the actual guitar compares with documented instruments today.
 

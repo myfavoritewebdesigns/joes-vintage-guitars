@@ -14,15 +14,15 @@
     },
     {
       "q": "Are All These Prices Based On The Same Condition?",
-      "a": "No. Existing site anchors, published excellent-condition references and completed-sale comparison envelopes have different assumptions. The model guide identifies the condition and source basis. Don't apply a clean-original reference to a repaired or modified guitar without a separate assessment."
+      "a": "No. Each model guide states its condition assumptions. Some ranges cover clean originals, while others allow more wear or minor changes. I wouldn't apply a clean-original range to a repaired guitar without a separate assessment."
     },
     {
-      "q": "Does Every Annual Row Represent Separate Sales?",
-      "a": "No. Where evidence supports an era rather than individual years, the model guide labels the shared band and repeats it for each covered year. A row helps locate the year; it doesn't imply an independent same-year sales sample."
+      "q": "Why Do Some Years Share A Price Range?",
+      "a": "Adjacent years can share an era range. The annual row helps you find the year, but condition and configuration still determine the appraisal."
     },
     {
       "q": "Can I Use A Current Listing As A Completed Price?",
-      "a": "No. An advertised amount is an asking price. A sold label doesn't always disclose the final negotiated amount either. I keep realized transactions, published references and asking references identified separately."
+      "a": "No. An advertised amount is an asking price, and a sold label doesn't always disclose the final negotiated amount. I don't treat an advertised price as a guaranteed selling price."
     },
     {
       "q": "Does A Quality Refret Remove All-Original Status?",
@@ -30,7 +30,7 @@
     },
     {
       "q": "Are These Guaranteed Purchase Offers?",
-      "a": "No. The references help organize an appraisal. A purchase offer depends on the actual instrument and sale terms, and an owner's net proceeds may differ from a retail transaction total."
+      "a": "No. The ranges help organize an appraisal. A purchase offer depends on the actual instrument and sale terms, and selling costs can affect the owner's proceeds."
     }
   ]
 }

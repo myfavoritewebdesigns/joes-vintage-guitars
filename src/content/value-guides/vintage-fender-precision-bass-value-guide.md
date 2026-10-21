@@ -1,4 +1,4 @@
-Vintage Fender Precision Bass comparisons span $2,100 to $40,000 across 1951 to 1979, with exceptional early examples potentially exceeding that range. The existing reference for original 1951 to 1953 slab-body basses is $20,000 to $40,000 or more; the late-1970s comparison is $2,100 to $4,000. I first identify which version of the Precision is present, then account for its finish, pickup, repairs and case.
+Vintage Fender Precision Bass comparisons span $2,100 to $40,000 across 1951 to 1979, with exceptional early examples potentially exceeding that range. The guide range for original 1951 to 1953 slab-body basses is $20,000 to $40,000 or more; the late-1970s comparison is $2,100 to $4,000. I first identify which version of the Precision is present, then account for its finish, pickup, repairs and case.
 
 For the earliest design, my [1951, 1952 and 1953 Precision Bass authentication guide](/post/1952-fender-precision-bass-guide/) explains the original construction and dating evidence. This page supplies the model-wide price comparisons. It covers a bass with one continuous model name but several different designs.
 
@@ -6,19 +6,19 @@ For a Jazz Bass or another Fender model, start with my [Fender values by model g
 
 ## Fender Precision Bass Values By Year
 
-As of October 2026, the annual table preserves the site's existing early slab-body reference. The remaining bands combine the 2025 edition of The Official Vintage Guitar Magazine Price Guide with two independently verified completed transactions per era. Where those transactions are older, that limitation is stated below.
+These guide ranges are reviewed as of October 2026. Choose the correct body and pickup configuration, then read its condition assumptions below. The table isn't a guaranteed purchase offer.
 
-Amounts are in U.S. dollars. Repeated annual ranges use shared era evidence, not a separate set of same-year sales. The 1957 transition has two rows because the single-coil and redesigned split-pickup instruments require different comparisons.
+Amounts are in U.S. dollars, and adjacent years can share a range. The 1957 transition has two rows because the single-coil and redesigned split-pickup instruments require different appraisals.
 
 | Year | Value Range | Shared Comparison And Condition |
 | --- | --- | --- |
-| 1951 | $20,000 to $40,000 or more | Existing 1951 to 1953 original slab-body reference; Excellent to Very Good |
-| 1952 | $20,000 to $40,000 or more | Existing 1951 to 1953 original slab-body reference; Excellent to Very Good |
-| 1953 | $20,000 to $40,000 or more | Existing 1951 to 1953 original slab-body reference; Excellent to Very Good |
-| 1954 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; published excellent-original reference, older auction context |
-| 1955 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; published excellent-original reference, older auction context |
-| 1956 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; published excellent-original reference, older auction context |
-| 1957 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; published excellent-original reference, older auction context |
+| 1951 | $20,000 to $40,000 or more | Original 1951 to 1953 slab-body configuration; Very Good to Excellent |
+| 1952 | $20,000 to $40,000 or more | Original 1951 to 1953 slab-body configuration; Very Good to Excellent |
+| 1953 | $20,000 to $40,000 or more | Original 1951 to 1953 slab-body configuration; Very Good to Excellent |
+| 1954 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
+| 1955 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
+| 1956 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
+| 1957 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
 | 1957 | $13,500 to $25,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
 | 1958 | $13,500 to $25,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
 | 1959 | $13,500 to $25,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
@@ -43,15 +43,15 @@ Amounts are in U.S. dollars. Repeated annual ranges use shared era evidence, not
 | 1978 | $2,100 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
 | 1979 | $2,100 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
 
-### Condition And Evidence Behind The Table
+### Condition Behind The Table
 
-The 1951 to 1953 range is an existing site reference for all-original examples in Excellent to Very Good condition. I retain it rather than replacing it with a conflicting published guide figure. It isn't described here as a new sample of completed 2026 sales.
+The 1951 to 1953 range assumes all-original examples in Very Good to Excellent condition. Repairs and changed parts require a different appraisal.
 
-The contoured single-coil band is a published excellent-original reference checked against older auction results. Those comparisons include wear, later cases and localized finish touchup. One is from 2014 and one from 2023; they establish historical context and aren't represented as current transactions. Auction totals include the buyer's premium, while shipping and taxes are separate.
+The contoured single-coil range assumes an excellent original instrument. Heavy wear, a replacement case or localized finish work can change the appraisal. I inspect those details before applying the range.
 
-The gold-guard group includes original-finish sunburst examples with different degrees of wear and case completeness. A replacement nut, a minor screw and a later case occur within the supporting evidence. One comparison is from 2021, alongside a 2026 result and the published reference.
+The gold-guard range covers original-finish sunburst examples with varying wear and case completeness. A replacement nut, minor screw change or later case can fit within the range. Cleaner, more complete basses belong toward its stronger end.
 
-The 1960 to 1964 band combines completed 1963 and 1964 examples with the era reference. Its lower end allows a damaged original guard, case wear and minor missing hardware. The 1965 to 1969 group allows a replaced control, fret wear and a later case while retaining original finish and pickup.
+The lower end of the 1960 to 1964 band allows a damaged original guard, case wear and minor missing hardware. The 1965 to 1969 group allows a replaced control, fret wear and a later case while retaining original finish and pickup.
 
 The 1970s comparisons allow serviced wiring, replacement pots or pickup foam, missing covers and worn cases. They aren't bands for refinished bodies, replacement pickups or substantial routing. A clean, fully documented instrument needs to be compared within those conditions rather than automatically placed at the lowest number.
 
@@ -67,15 +67,15 @@ The 1970s comparisons allow serviced wiring, replacement pots or pickup foam, mi
 
 The early slab-body bass has a flat body without the later comfort contours, a single-coil pickup and a small Telecaster-shaped headstock. The forearm and rear body contours arrive around mid-1954. The split pickup and larger headstock follow in the mid-1957 redesign.
 
-Those changes separate the main comparisons. A 1956 Precision still belongs to the contoured single-coil design even though it has the same model name as a 1958 gold-guard bass. I don't use a later split-pickup sale as evidence for an earlier single-coil instrument without stating the difference.
+Those changes separate the main value groups. A 1956 Precision belongs to the contoured single-coil design even though it shares its model name with a 1958 gold-guard bass. I identify the construction before choosing a range.
 
 If the design or year is uncertain, the [Precision Bass dating guide](/fender-precision-bass-dating-guide/) lays out that sequence. Identifying the correct group comes before choosing a number from the table. A serial number by itself doesn't establish the originality of the body, neck or pickup.
 
-### The 1951 To 1953 Slab-Body Reference
+### The 1951 To 1953 Slab-Body Range
 
-The site's $20,000 to $40,000 or more reference applies to original early basses in the stated condition. It doesn't include the value of an amplifier simply because one appears beside the bass in a photograph. A matching historical package needs its own appraisal and documentation.
+The $20,000 to $40,000 or more range applies to original early basses in the stated condition. It doesn't include the value of an amplifier simply because one appears beside the bass in a photograph. A matching historical package needs its own appraisal and documentation.
 
-The same existing source gives $8,000 to $15,000 for modified player examples. That is a separate broad reference, not a discount formula. A replacement pickup, a refinished body and an instrument assembled from unrelated parts can require very different appraisals even within the player category.
+Modified player examples have a separate broad range of $8,000 to $15,000. That isn't a discount formula. A replacement pickup, refinish or assembly of unrelated parts can lead to very different appraisals.
 
 <figure>
 
@@ -87,15 +87,15 @@ The same existing source gives $8,000 to $15,000 for modified player examples. T
 
 I keep that distinction visible for owners who inherited an early instrument. A bass can show heavy playing wear and still retain original finish and parts. Conversely, an unusually tidy appearance can result from substantial restoration, so cleanliness alone doesn't establish the collector category.
 
-Early 1954 slab-body examples need individual comparison. The annual 1954 row covers the later contoured single-coil version, for which the published reference and the available comparisons are more useful. I haven't silently applied that later configuration's range to every instrument carrying a 1954 date.
+Early 1954 slab-body examples need individual appraisals. The annual 1954 row covers the later contoured single-coil version. I wouldn't apply that configuration's range to every bass carrying a 1954 date.
 
 ### Contoured Single-Coil Basses
 
-The $12,000 to $18,000 reference covers the contoured single-coil group from mid-1954 into 1957. The source material includes blonde and sunburst instruments. It isn't a separate premium for every finish and year combination.
+The $12,000 to $18,000 range covers the contoured single-coil group from mid-1954 into 1957, including blonde and sunburst instruments. I don't assign a separate automatic premium to every finish and year combination.
 
 These basses need the correct comparison because replacing the original pickup with a later split unit can involve changes to the body and guard. A working bass with that conversion may appeal to a player, but it no longer represents the unmodified single-coil configuration. I describe the change before pricing it.
 
-The older auction evidence doesn't prove that today's market has moved by a particular percentage. It gives documented examples and condition details to compare with the newer published reference. I haven't invented a year-by-year trend from a small number of records.
+An individual bass may sit above or below a broad era range. I assess its finish, pickup, repairs and completeness before discussing an offer.
 
 ## Gold Guards, Rosewood Boards And The Sixties
 
@@ -121,9 +121,9 @@ The 1959 transition can include more than one fingerboard and guard combination.
 
 </figure>
 
-For 1960 to 1964, the sunburst range is $10,000 to $17,500. The era includes different fingerboard construction and condition levels. The supporting completed examples are later in that group, so an exceptionally clean early slab-board instrument needs closer comparison than the broad table alone provides.
+For 1960 to 1964, the sunburst range is $10,000 to $17,500. The era includes different fingerboard construction and condition levels. An exceptionally clean early slab-board instrument needs an individual assessment beyond the broad table.
 
-For 1965 to 1969, the range is $6,250 to $12,500. The published excellent-original reference for 1965 sits at the upper end, while worn later instruments and service-part exceptions account for the lower portion. A replacement control or case should be disclosed instead of hidden inside a blanket claim that the bass is untouched.
+For 1965 to 1969, the range is $6,250 to $12,500. Excellent originals from 1965 sit toward the stronger end, while worn later basses and service-part changes can place a guitar lower. Replacement controls and cases belong in the condition description.
 
 ### Why The Pickup And Neck Stay In The Appraisal
 
@@ -135,7 +135,7 @@ The neck has to function as an instrument, not simply look correct in a photogra
 
 ## Seventies Precision Bass Values
 
-The 1970 to 1974 comparison is $2,750 to $5,500. Its completed examples retain original finish and pickups but have serviced or changed controls and differing accessory completeness. The published reference provides the excellent-original context for the rest of the era.
+The 1970 to 1974 range is $2,750 to $5,500. It covers original finish and pickups while allowing serviced or changed controls and differences in accessories. Excellent, complete originals belong toward the stronger end.
 
 The 1975 to 1979 comparison is $2,100 to $4,000 for standard finishes under the stated conditions. Finish wear, the working neck, retained parts and the case help narrow the appraisal. The table doesn't attach a fixed premium to every maple or rosewood fingerboard.
 
@@ -157,7 +157,7 @@ Original finish preserves a part of the bass that can't be replaced with new-old
 
 I don't subtract the same percentage for every refinish. The year, retained parts, structural condition and quality of the work all affect the comparison. A bass that was refinished but otherwise remains intact shouldn't be confused with one that also has a replaced neck and enlarged pickup cavity.
 
-Custom colors need their own evidence and matching comparisons. The [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/) explains that evidence. I haven't added a blanket custom-color multiplier to the ordinary-finish table.
+Custom colors need individual appraisals. The [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/) covers finish originality. I don't add a blanket color multiplier to the ordinary-finish table.
 
 <figure>
 
@@ -183,7 +183,7 @@ The original case helps establish a complete package, but its own wear still nee
 
 </figure>
 
-Chrome covers, a finger rest, paperwork and retained loose parts can help explain what remains with the bass. I don't assign each accessory an automatic premium without matching evidence. A newly purchased vintage-looking case also shouldn't be presented as the case that originally accompanied the instrument.
+Chrome covers, a finger rest, paperwork and retained loose parts help show what remains with the bass. Their completeness affects the appraisal, but I don't assign each accessory an automatic premium. A later case shouldn't be described as the case that originally accompanied the instrument.
 
 Provenance means a documented ownership history. Receipts, photographs and repair records can support it. A name on a case or an unverified story doesn't by itself establish a connection to a particular musician.
 
@@ -195,7 +195,7 @@ A market comparison and a purchase offer answer different questions. The compari
 
 When comparing offers, confirm whether each includes the case, loose parts and shipping arrangements. For a private sale, consider fees, packing, shipping and any agreed repair work as well as the negotiated price. An advertised retail number doesn't describe the seller's eventual proceeds.
 
-I use completed transactions for sale evidence and published guides as references. A listing marked sold can still display its former asking price, so that visible number isn't automatically the realized amount. The transaction-history or auction result needs to supply the price used in the research record.
+An asking price, a completed sale price and an owner's net proceeds are different amounts. I consider the bass's condition and the terms of the transaction before making a buying offer.
 
 Collectibility also doesn't guarantee appreciation. The price paid, originality, future condition and eventual sale costs affect the outcome. I don't describe a vintage Precision as a risk-free investment or promise that a particular year will outperform the rest.
 
@@ -209,4 +209,4 @@ Keep removed parts, old receipts and photographs together. Avoid refinishing, po
 
 Request a [free Precision Bass appraisal](/free-appraisal/) for a specific instrument. My [Fender buying process](/sell-my-fender-guitar/) explains how a direct sale works. I buy vintage guitars and basses nationwide from Mesa, Arizona.
 
-This reference was reviewed in October 2026. The price record identifies the existing site anchor, the 2025 published guide and the dates and conditions of the completed comparisons. Older observations remain labeled with their actual dates.
+These ranges were reviewed in October 2026. Send photographs and any repair history for an individual appraisal of your Precision Bass.

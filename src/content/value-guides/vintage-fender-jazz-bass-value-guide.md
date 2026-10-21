@@ -1,4 +1,4 @@
-Vintage Fender Jazz Bass comparisons run from $2,200 to $31,500 across 1960 to 1979, depending on the control layout, year, finish and condition. Original sunburst stack-knob examples sit in a reference-supported $23,000 to $31,500 band; the late-1970s comparison is $2,200 to $4,000. I start with the right group, then narrow it to the bass in front of me.
+Vintage Fender Jazz Bass comparisons run from $2,200 to $31,500 across 1960 to 1979, depending on the control layout, year, finish and condition. Original sunburst stack-knob examples sit in a $23,000 to $31,500 band; the late-1970s comparison is $2,200 to $4,000. I start with the right group, then narrow it to the bass in front of me.
 
 If the year or originality is uncertain, use my [Fender Jazz Bass dating and authentication guide](/post/vintage-fender-jazz-bass-guide/) before applying a price. This page covers market comparisons, condition and selling decisions. The photographs are from my own archive, including a refinished example that's labeled as such.
 
@@ -6,9 +6,9 @@ My [vintage Fender model value guide](/vintage-fender-value-guide/) also links t
 
 ## Fender Jazz Bass Values By Year
 
-As of October 2026, these U.S. dollar ranges combine the 2025 edition of The Official Vintage Guitar Magazine Price Guide with two verified completed transactions per era. They're reference-supported comparisons, with the condition allowances below. The guide's own figures assume excellent, all-original instruments and an original case where applicable; the completed examples include wear and the disclosed exceptions.
+These U.S. dollar ranges are reviewed as of October 2026. They cover original instruments across the condition levels described below. I check wear, repairs and case completeness before placing a bass within its range.
 
-Each production year has a row. Repeated ranges share the same era evidence, rather than claiming a separate sample of sales for every year. The two control arrangements overlap in 1961 and early 1962, so those years have separate configuration rows.
+Each production year has a row, and adjacent years can share a range. The two control arrangements overlap in 1961 and early 1962, so those years have separate configuration rows.
 
 | Year | Value Range | Shared Comparison And Condition |
 | --- | --- | --- |
@@ -37,15 +37,15 @@ Each production year has a row. Repeated ranges share the same era evidence, rat
 
 ### What The Ranges Include
 
-The stack-knob comparison uses excellent original sunburst basses with original cases, allowing a replacement nut. Its evidence includes a 2020 transaction and a 2025 transaction, checked against the published 2025 reference. I haven't relabeled that older result as a current sale or applied an invented inflation adjustment.
+The stack-knob range assumes excellent original sunburst finish, original pickups and the original case. A replacement nut can fit within that category. Repairs or substantial parts changes require a separate appraisal.
 
-The early three-control band runs from worn 1964 examples to the published reference for an excellent earlier slab-board bass. A slab board is the thicker rosewood fingerboard used before the curved veneer style. The completed comparisons are both 1964 instruments; their case completeness and originality documentation differ. This broad band isn't a promise that a worn 1964 and a clean 1962 deserve the same appraisal.
+The early three-control range covers worn later examples through excellent earlier slab-board basses. A slab board is the thicker rosewood fingerboard used before the curved veneer style. Case completeness and originality affect the result; a worn 1964 and a clean 1962 won't necessarily receive the same appraisal.
 
-The 1965 to 1969 group allows minor replacement hardware and visible wear, with original finish, pickups and an original case. Its upper boundary comes from the guide's excellent-original 1965 reference. One completed listing disagrees with itself about whether its bass is a 1966 or a 1968, so I use it only as an era comparison.
+The 1965 to 1969 group allows minor replacement hardware and visible wear, with original finish, pickups and an original case. Excellent, original examples sit toward the upper end. I confirm the year and condition before choosing where an individual bass belongs within that range.
 
-The early-1970s sample includes an exceptionally complete original and a professionally refretted bass with a replacement nut, both with original cases. The late-1970s group includes a more worn instrument whose case isn't documented as original. Refinishes, replacement pickups, extra routing and rare custom-color premiums need a different comparison.
+The early-1970s range allows a professional refret and replacement nut, with the original case. More wear and a replacement case can place a late-1970s bass lower in its range. Refinishes, replacement pickups, extra routing and rare custom colors need individual appraisals.
 
-Reverb transaction prices exclude separately charged shipping and taxes. A published guide is a reference, not a transaction, and a current advertised price isn't evidence that a buyer paid it. The source record keeps those categories separate.
+The ranges exclude separately charged shipping and taxes. They aren't guaranteed purchase offers or the amount an owner will receive after selling costs.
 
 <figure>
 
@@ -75,7 +75,7 @@ Early 1962 stack-knob examples belong with the original stack-knob configuration
 
 ### The Early Three-Control Years
 
-The 1961 to 1964 three-control comparison is $11,000 to $23,000. That's a deliberately wide interval covering different fingerboards and conditions. The lower part reflects worn examples with less complete documentation, while the upper part is a published reference for an excellent earlier configuration.
+The 1961 to 1964 three-control range is $11,000 to $23,000. It covers different fingerboards and condition levels. Worn examples with incomplete accessories belong lower than excellent earlier configurations.
 
 Once the bass is identified, I narrow that interval. Original finish and pickups, the correct neck, repair history, usable frets and the case all belong in the same appraisal. A clean description without photographs of the wear and changed parts doesn't give me enough to place a bass at the upper end.
 
@@ -83,9 +83,9 @@ An original owner history can help establish what was changed and when. It doesn
 
 ## How I Compare The CBS And Seventies Basses
 
-For 1965 to 1969, the $5,000 to $13,000 range spans worn later examples and the published excellent-original reference for 1965. Binding, dot or block inlays and the other transition features help select the appropriate comparison. They don't create a fixed premium that can simply be added to every bass from the year.
+For 1965 to 1969, the $5,000 to $13,000 range spans worn later examples through excellent originals from 1965. Binding, dot or block inlays and other transition features help narrow the appraisal. They don't create a fixed premium for every bass from a year.
 
-The 1966 bound-dot configuration deserves its own inspection because it sits within a transition. A collector looking specifically for that combination may compare it with different instruments than someone seeking a later block-inlay player. I haven't assigned a separate bound-dot price band without enough matching completed evidence.
+A 1966 bound-dot bass deserves its own inspection because it sits within a transition. Its condition and complete configuration can appeal to a different buyer from a later block-inlay player. I don't assign a separate fixed bound-dot premium.
 
 The 1970 to 1974 comparison is $3,500 to $6,500. The reference includes original-finish sunburst basses with original pickups and cases, from serviced players to unusually complete examples. Fretwork and a replacement nut are disclosed allowances, rather than reasons to describe every bass in that interval as untouched.
 
@@ -97,9 +97,9 @@ The 1970 to 1974 comparison is $3,500 to $6,500. The reference includes original
 
 </figure>
 
-For 1975 to 1979, the standard-finish comparison is $2,200 to $4,000. Condition, neck function, weight and retained parts help narrow an individual appraisal. The completed examples supporting this band are sunburst, while the published reference covers standard finishes more broadly.
+For 1975 to 1979, the standard-finish range is $2,200 to $4,000. Condition, neck function, weight and retained parts help narrow an individual appraisal. Unusual finishes need a separate assessment.
 
-I don't use the Jazz Bass table for a Precision Bass, a modern reissue or a bass assembled from parts. A model name in a marketplace category can be wrong. The actual listing and the instrument's features need to agree before its sale is useful evidence.
+I don't use the Jazz Bass table for a Precision Bass, modern reissue or bass assembled from parts. The instrument's actual model and construction determine which range applies.
 
 ### Maple Boards And Playing Condition
 
@@ -119,7 +119,7 @@ A quality refret is accepted maintenance and preserves the all-original classifi
 
 ## Original Finish, Custom Color And Refinish
 
-The main comparisons concern original sunburst or standard finishes. A verified factory custom color can appeal to a different group of buyers, especially when the rest of the instrument is complete. I need matching evidence for that finish before using a custom-color comparison.
+The main ranges cover original sunburst or standard finishes. A verified factory custom color can appeal to a different group of buyers, especially when the rest of the bass is complete. I appraise those finishes individually.
 
 Lake Placid Blue, Candy Apple Red and other colors aren't interchangeable price categories. A matching headstock also needs to belong to the original finish package. The [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/) covers the finish evidence without turning this value page into a paint inspection walkthrough.
 
@@ -159,7 +159,7 @@ Keep removed original parts with the bass. Don't discard an old pickup because i
 
 An original case supports the completeness of the package, but it still has its own condition. Broken latches, a missing handle or a damaged lining should be described. A newer protective case may be better for transport while remaining a replacement in the appraisal.
 
-Receipts, tags and photographs can help establish the bass's history. I record what they actually show. An old photograph of a similar instrument isn't enough to prove that it depicts the same bass, and an undocumented celebrity connection doesn't justify using a celebrity-auction result.
+Receipts, tags and photographs can help establish a bass's history. I describe what they actually show. An old photograph of a similar instrument doesn't prove it's the same bass, and a claimed celebrity connection needs documentation.
 
 ## What A Market Range Means For A Sale
 
@@ -169,7 +169,7 @@ For a direct purchase, I explain the bass's condition and the proposed offer tog
 
 If you're comparing offers, keep the included items and responsibilities consistent. A number that includes an original case, loose parts and shipping can't be compared fairly with one that leaves them out. Put the known condition and included accessories in writing so everyone is discussing the same package.
 
-I also distinguish an actual completed sale from an ended listing. A listing can disappear because it was withdrawn or changed. Even a transaction-history row needs a model and condition check: misclassified instruments and substantial modifications can distort a range.
+An advertised amount and the price a buyer ultimately pays can differ. A direct buying offer also reflects the instrument's condition and the terms of the transaction.
 
 ### Is A Vintage Jazz Bass An Investment?
 
@@ -185,4 +185,4 @@ Tell me what comes with it, including loose parts, receipts and the case. If it 
 
 You can request a [free appraisal of your vintage Jazz Bass](/free-appraisal/) from anywhere in the country. If you're ready to sell, my [Fender buying process](/sell-my-fender-guitar/) explains the next steps. I buy vintage guitars and basses nationwide from Mesa, Arizona.
 
-The price record for this page was reviewed in October 2026. It identifies the 2025 published reference, the completed comparisons and their condition notes. A newer market observation belongs in that record before it changes the table.
+These ranges were reviewed in October 2026. For an appraisal of your bass, send photographs and any known repair history. I can then explain which condition group fits.

@@ -1,4 +1,4 @@
-A clean, original 1968 or 1969 Gibson Les Paul Custom carries a $12,000 to $18,000 reference range on this site. For standard two-pickup Customs from 1975 through 1979, the published clean-condition reference is $5,000 to $6,500. A 1950s Custom belongs in a different market, with its original pickup configuration separating the price bands below.
+A clean, original 1968 or 1969 Gibson Les Paul Custom has a guide range of $12,000 to $18,000. Standard two-pickup Customs from 1975 through 1979 sit at $5,000 to $6,500 in excellent condition. A 1950s Custom belongs in a different market, with its pickup configuration separating the groups below.
 
 I buy vintage Les Paul Customs and start by separating the original 1950s carved-body guitars from the model that returned in 1968. If you haven't established the year, use the [Les Paul Custom dating and construction guide](/post/norlin-les-paul-custom-year-guide/) before choosing a row. The table here handles value; that guide handles the evidence behind the date.
 
@@ -6,9 +6,9 @@ I buy vintage Les Paul Customs and start by separating the original 1950s carved
 
 These are U.S. dollar references reviewed **as of October 2026**. Unless stated otherwise, they assume an excellent, all-original guitar with its original case, no structural repairs and the factory pickup configuration. A quality refret is accepted maintenance on an otherwise original guitar, although it removes the instrument from the museum-quality category.
 
-Each production year has its own row. Repeated amounts mean the years share a published era reference, not that a separate group of same-year sales established an identical price. The 1950s and 1968 to 1969 amounts preserve this site's existing figures. The 1970s amounts come from the 2025 Official Vintage Guitar Magazine Price Guide, checked against completed transactions observed in 2026.
+Each production year has a row, and adjacent years can share a range. I use the exact configuration, condition and repair history to narrow an individual appraisal.
 
-| Year | Configuration | Reference Range |
+| Year | Configuration | Value Range |
 | --- | --- | --- |
 | 1954 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 |
 | 1955 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 |
@@ -31,13 +31,11 @@ Each production year has its own row. Repeated amounts mean the years share a pu
 | 1978 | Standard two-pickup Custom | $5,000 to $6,500 |
 | 1979 | Standard two-pickup Custom | $5,000 to $6,500 |
 
-**Pricing note:** Reviewed as of October 2026. The 1950s and 1968 to 1969 ranges retain this site's existing references; 1970s ranges use the 2025 guide checked against completed sales. Ranges assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference.
-
-The later comparison sample includes guitars with missing or replaced small parts and differences in case condition. Those sales help test the published reference but don't become clean-original examples merely because a seller selected “Excellent.” I haven't raised an altered guitar into a collector category to make its sale fit a table.
+Missing or replaced parts and case condition affect a Custom's value. An Excellent label doesn't establish that the guitar is all-original. I check its actual parts and repair history before applying the clean range.
 
 The $60,000 to $225,000 early humbucker range is a broad family reference. It doesn't promise that every three-pickup Custom reaches the top, or that two-pickup examples and guitars fitted with a vibrato have interchangeable demand. Original configuration, preservation and the actual pickup set need individual review.
 
-The 1968 to 1969 site reference also spans different construction. The 2025 book places some earlier one-piece-body examples above that range. I've retained the site's established range here; a particularly clean early guitar needs a narrower appraisal before you use it as a selling target.
+The 1968 to 1969 range covers different construction details. An unusually clean early one-piece-body example needs an individual appraisal before you use the table as a selling target.
 
 <figure>
 
@@ -79,7 +77,7 @@ The existing [1968 Custom guide](/post/1968-gibson-les-paul-custom-guide/) and [
 
 A 1970s Custom can be a heavily used working guitar, an altered instrument or a carefully preserved original. “Norlin era” identifies an ownership period; it doesn't tell me which of those guitars is in front of me.
 
-For the table, I've separated the early 1970s published reference from the later standard two-pickup range. Finish options, neck construction and hardware changed during the decade. A single year doesn't settle every feature, and a serial number shouldn't be used to force a transitional guitar into the most expensive neighboring category.
+The table separates early 1970s Customs from the later standard two-pickup range. Finish options, neck construction and hardware changed during the decade. I check those details rather than forcing a transitional guitar into the most expensive neighboring year.
 
 I look at the individual Custom's original finish, pickups, electronics, structural condition and included case. Weight and playing feel can influence which buyer wants it. They don't create a universal dollar premium that I can apply without comparable instruments.
 
@@ -95,7 +93,7 @@ The [1970 Les Paul Custom guide](/post/1970-gibson-les-paul-custom-guide/) cover
 
 ## Finish And Configuration Change The Comparison
 
-Black, sunburst and white Customs shouldn't automatically be treated as one identical transaction sample. The table gives a standard production reference, with its source explained in the pricing note. It doesn't include a separate premium for every color.
+Black, sunburst and white Customs can appeal to different buyers. The table gives a broad standard-production range. I assess the actual finish and condition before assigning a color premium.
 
 Silverburst, maple-fingerboard versions, three-pickup variants and the early 1970s '54 reissue need configuration-specific review. I haven't inserted unsupported additional premiums for them. The '54 reissue, for example, borrows an earlier pickup arrangement; its appearance doesn't make it an original 1950s guitar.
 
@@ -149,7 +147,7 @@ I also want to know about buzzing, a nonworking truss rod or an action problem y
 
 A refinished Custom needs comparison with other refinished guitars of the same general era and configuration. A repaired headstock requires a repair description, not just a photograph of the front. If you have an invoice or photographs from before the work, keep them with the instrument.
 
-I haven't assigned a fixed percentage discount here because the available evidence doesn't support a universal one. A carefully repaired guitar with original pickups and an extensively modified instrument shouldn't receive the same adjustment. An individual appraisal can describe that difference without pretending the two histories are interchangeable.
+I don't use a fixed percentage discount for every repaired Custom. A carefully repaired guitar with original pickups and an extensively modified instrument need different appraisals.
 
 <figure>
 
@@ -179,9 +177,9 @@ The photograph below shows how useful a wider view can be. The body, case interi
 
 A listing price is what a seller requests. A completed transaction records an agreement, subject to the condition described and the terms of that sale. The numbers aren't interchangeable.
 
-The published references here describe a market category. They aren't a promise of what you will receive after selling costs, and they aren't an offer from me. Shipping, marketplace fees, preparation and the work needed to document a guitar can affect the owner's eventual proceeds.
+The guide ranges describe guitars in stated condition. They aren't an offer from me or a promise of the amount you'll receive after selling costs. Shipping, fees and preparation can affect the owner's proceeds.
 
-For completed Reverb comparisons, I use the transaction-history final price and then read the corresponding listing. A “sold” label on its own doesn't tell me whether a displayed asking price was accepted. Auction comparisons also need their buyer's-premium treatment understood before being compared with another venue.
+Before making an offer, I want to understand the guitar's exact configuration, repairs and included accessories. An advertised price alone doesn't settle those questions.
 
 I haven't used artist ownership or celebrity provenance to set these standard production ranges. A documented association can create a separate market. An ordinary Custom shouldn't inherit that result simply because its finish and year look similar.
 

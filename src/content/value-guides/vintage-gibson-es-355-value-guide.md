@@ -1,4 +1,4 @@
-A clean, original 1959 Gibson ES-355 in cherry has a reference range of $30,000 to $45,000 with factory mono wiring and a Bigsby, or $22,000 to $38,000 with stereo Varitone electronics. Standard-finish stereo examples from the 1970s have a published excellent-condition reference of $5,500 to $7,000. The year alone won't put a guitar into one of those ranges.
+A clean, original 1959 Gibson ES-355 in cherry has a guide range of $30,000 to $45,000 with factory mono wiring and a Bigsby, or $22,000 to $38,000 with stereo Varitone electronics. Standard-finish stereo examples from the 1970s sit at $5,500 to $7,000 in excellent condition. The year alone won't place a guitar in one of those ranges.
 
 I buy vintage Gibsons nationwide from Mesa, Arizona. This guide separates the price references from the identification work, because a factory mono guitar and a later mono conversion can look similar in a listing. For the construction, electronics and dating details, use my [1959 Gibson ES-355 authentication guide](/post/1959-gibson-es-355-history-value/).
 
@@ -6,14 +6,14 @@ I buy vintage Gibsons nationwide from Mesa, Arizona. This guide separates the pr
 
 These ranges are reviewed **as of October 2026**. They assume an all-original guitar in excellent condition with its original case and no structural repair. A quality refret is accepted maintenance under the site's grading approach, although the guitar then falls outside museum-quality condition.
 
-The two 1959 ranges preserve this site's existing price references. Other rows use the 2025 edition of *The Official Vintage Guitar Magazine Price Guide*, checked against completed Reverb or Heritage results. Several completed comparisons are older or have modifications, so these are published clean-condition references, not a claim that untouched guitars sold within every band during 2026.
+The ranges describe clean original guitars under the condition assumptions above. Changed electronics, repairs or unusual factory configurations need individual appraisals. I don't treat the table as a guaranteed selling price.
 
-| Year | Configuration | Reference Range |
+| Year | Configuration | Value Range |
 | --- | --- | --- |
 | 1958 | Mono, cherry, factory Bigsby | $36,000 to $45,000 |
 | 1959 | Mono, cherry, factory Bigsby | $30,000 to $45,000 |
 | 1959 | Stereo Varitone, cherry, factory Bigsby | $22,000 to $38,000 |
-| 1959 | Factory mono stop-tail, existing reference | $45,000 to $60,000 |
+| 1959 | Factory mono stop-tail | $45,000 to $60,000 |
 | 1960 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 |
 | 1961 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 |
 | 1962 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 |
@@ -35,11 +35,9 @@ The two 1959 ranges preserve this site's existing price references. Other rows u
 | 1978 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
 | 1979 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
 
-**Pricing note:** Reviewed as of October 2026. The 1959 rows retain this site's existing references; other rows use the 2025 published guide checked against completed sales. Ranges assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference.
+The table covers every year from the model's 1958 introduction through 1979. Adjacent years can share a range. The 1965 row includes both narrow and wide necks; the 1966 to 1969 rows cover standard finishes.
 
-The table covers every year from the model's 1958 introduction through 1979. Repeated ranges are shared era references, not separate estimates created from one sale per year. The 1965 row spans the published narrow-neck and wide-neck references; the 1966 to 1969 row combines the endpoints for standard finishes across those years.
-
-Match the configuration before using a number. A later PAF-equipped guitar, a factory mono example from the 1960s or a rare finish can need a comparison outside the main stereo rows. I've left those separate premiums unpriced where the verified evidence doesn't support a second band.
+Match the configuration before using a number. A later PAF-equipped guitar, factory mono example from the 1960s or rare finish can sit outside the main stereo rows. I appraise those configurations individually.
 
 <figure>
 
@@ -63,13 +61,13 @@ The standard vibrato also needs its own context. A Bigsby was part of the early 
 
 ## Early Cherry Examples
 
-The first annual row is a mono guitar because the earliest ES-355 belongs to that configuration. The 1959 rows split mono and stereo rather than folding both into one large number. I keep the site's established ranges for that year even though the published reference uses different endpoints.
+The first annual row covers a mono guitar because that is the earliest ES-355 configuration. The 1959 rows separate mono and stereo. I establish the original wiring before applying either range.
 
 The 1960 to 1962 main row covers stereo examples with PAF pickups and a factory vibrato. PAF means Patent Applied For, the name taken from the decal used on those early Gibson humbuckers. It identifies a pickup family, not a guarantee that everything under a cover is untouched.
 
-The completed early comparisons used in the research include changed electronics, repaired or separated wood and other condition limitations. They help test whether the published reference is plausible, but they don't replace a clean-original reference with a single modified-guitar result. Older results also carry their original sale dates in the research ledger.
+Changed electronics, a repaired neck or separated wood can put an early ES-355 outside the clean-original category. A guitar that plays well can still need a separate appraisal because of its repair history.
 
-Factory stop-tail instruments require a separate review. This site's existing 1959 mono stop-tail discussion places them around $45,000 to $60,000, with exceptional examples outside that reference. That is an inherited site range for an unusual configuration, not a premium to add to any guitar with a stop tailpiece.
+Factory mono stop-tail instruments have a separate 1959 guide range of $45,000 to $60,000, with exceptional examples outside it. I establish the original configuration before using that range; a later stopbar conversion doesn't make a guitar a factory stop-tail example.
 
 An added tailpiece and plugged vibrato holes do not establish factory stop-tail status. I need the construction evidence before deciding which market comparisons belong. The authentication guide handles that inspection; this page keeps the financial consequence separate.
 
@@ -85,13 +83,13 @@ An added tailpiece and plugged vibrato holes do not establish factory stop-tail 
 
 The 1963 and 1964 rows use the stereo reference for Patent Number pickups. Some gold-hardware instruments retained earlier pickup stock, so a year label does not settle the pickup configuration. A guitar documented with a different factory pickup set needs a matching comparison.
 
-The 1965 range is deliberately broad. The published guide distinguishes the earlier wider nut from the later narrower neck, and those variants share the calendar year. A measurement and the guitar's original configuration do more for the appraisal than choosing the higher endpoint because the serial number says 1965.
+The 1965 range is broad because the earlier wider nut and later narrower neck share the year. I check the measurement and original configuration before choosing a value within it. A serial number alone doesn't justify the upper endpoint.
 
-For 1966 to 1969, the annual rows use a combined standard-finish stereo range. The published reference has slightly different endpoints within that period; the combined band makes the limited evidence explicit. It doesn't establish a separate premium for every color or vibrato style.
+The 1966 to 1969 rows use a combined standard-finish stereo range. I assess the actual finish, vibrato, condition and originality before narrowing it. There isn't an automatic premium for every color or hardware variation.
 
-The completed late-1960s comparisons include a neck reset and guitars converted to mono. Those facts explain why the research ledger distinguishes condition checks from the all-original assumption printed above the table. I won't describe a repaired or rewired instrument as proof of an untouched market.
+A neck reset or conversion to mono changes the condition assumptions. I describe those changes separately and assess the guitar as it exists now.
 
-Sparkling Burgundy and other less common configurations need additional evidence. A finish name on its own isn't enough to price an instrument, and a refinished guitar shouldn't inherit the reference for an original custom finish. I haven't assigned a fixed color percentage here.
+Sparkling Burgundy and other less common configurations need individual appraisals. A finish name alone doesn't settle value, and a refinish doesn't carry the same collector standing as an original custom finish. I don't use a fixed color percentage.
 
 <figure>
 
@@ -103,9 +101,9 @@ Sparkling Burgundy and other less common configurations need additional evidence
 
 ## A 1970s ES-355 In Context
 
-The 1970 to 1979 rows use the published $5,500 to $7,000 reference for a standard-finish stereo guitar with its factory vibrato. The value section stops at 1979 to keep the requested vintage coverage consistent. That cutoff doesn't claim that ES-355 production ended in that year.
+The 1970 to 1979 rows use a $5,500 to $7,000 range for standard-finish stereo guitars with their factory vibrato. This guide stops at 1979; that doesn't mean ES-355 production ended then.
 
-The completed comparisons reviewed for this group include a missing pickguard and a mono conversion with a replacement guard. Their dates are recent, but their condition still differs from the printed clean-original assumption. A recent sale doesn't become an exact match merely because the year falls inside the same decade.
+A missing pickguard, replacement guard or conversion to mono changes the condition assumptions. I assess those changes individually rather than applying the clean-original range automatically.
 
 I look at the working guitar as well as its parts. A straight neck, usable frets, functional electronics and a stable body help establish what the buyer will receive. A guitar that needs a repair estimate belongs in a separate appraisal, even if its finish photographs beautifully.
 

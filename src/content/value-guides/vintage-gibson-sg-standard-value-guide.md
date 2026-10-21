@@ -1,10 +1,10 @@
-Vintage Gibson SG Standard reference values run from $2,400 to $3,000 for typical 1970s cherry guitars to $13,500 to $25,000 for early small-guard examples, as of October 2026. Original humbuckers, the factory vibrato and an unbroken neck put the strongest examples near the top of their group.
+Vintage Gibson SG Standard guide values run from $2,400 to $3,000 for typical 1970s cherry guitars to $13,500 to $25,000 for early small-guard examples, as of October 2026. Original humbuckers, the factory vibrato and an unbroken neck put the strongest examples near the top of their group.
 
 For the year and original specification, use my [Gibson SG Standard dating and identification guide](/gibson-sg-dating-guide/#sg-standard). This guide covers market value and the features that move it.
 
 ## Gibson SG Standard Values By Year
 
-**Reviewed October 2026. US dollars.** Repeated numbers are shared era references, not separate measurements for each year. Read the condition notes with the table.
+**Reviewed October 2026. US dollars.** Adjacent years can share a range. Read the condition notes with the table.
 
 | Year | Value Range | Configuration And Year Notes |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ For the year and original specification, use my [Gibson SG Standard dating and i
 | 1978 | $2,400 to $3,000 | Small guard, block inlays and later bridge configurations. |
 | 1979 | $2,400 to $3,000 | Small guard, block inlays and later bridge configurations. |
 
-The 1966 large-guard reference applies after the redesign; an early small-guard guitar needs the preceding configuration considered. The later 1960s source group includes cherry and walnut, so it is not a cherry-only estimate. The 1971 row excludes the SG Deluxe, and 1972 applies to the returning Standard. The 1970s range is cherry only; other catalog finishes are excluded from that particular band.
+The 1966 large-guard range applies after the redesign; an early small-guard guitar needs the earlier configuration considered. The later 1960s range includes cherry and walnut. The 1971 row excludes the SG Deluxe, and 1972 applies to the returning Standard. The 1970s range covers cherry; other finishes need a separate appraisal.
 
 ### Condition Behind The Ranges
 
@@ -39,10 +39,6 @@ The 1966 large-guard reference applies after the redesign; an early small-guard 
 **1966 To 1971 Large-Guard Standard:** Original cherry or later walnut finish, pickups and principal hardware, original case, no disclosed structural repair. Normal light wear; a replacement nut can be present.
 
 **1972 To 1979 SG Standard:** Cherry or faded cherry, original finish and pickups, original case, no disclosed structural break. Played to excellent; replacement strap buttons accepted. Non-cherry finishes excluded.
-
-### How These Ranges Were Built
-
-I checked Reverb Price Guide final prices against the linked instrument descriptions and used Heritage realized results where available. The records span 2023 to 2026, with at least three records per researched era group. Shipping and tax are excluded; auction totals include the buyer's premium. These are sale references, not dealer buying offers.
 
 <figure>
 
@@ -94,7 +90,7 @@ The 1965 band uses cherry small-guard guitars with their original cases. Nut wid
 
 The batwing guard surrounds the pickups and supports them through the guard. It appears during 1966, with early small-guard guitars still requiring the earlier configuration considered. The later look usually includes the long lyre Vibrola and eventually taller witch-hat knobs.
 
-The $5,000 to $8,000 research envelope includes original cherry and a later walnut guitar. It therefore doesn't establish a cherry-only floor or a separate walnut discount. The guard, finish, pickup set and repairs decide where an individual Standard sits inside that broad group.
+The $5,000 to $8,000 range includes original cherry and walnut guitars. I don't treat it as a fixed finish premium or discount. The guard, finish, pickup set and repairs determine where an individual Standard belongs.
 
 Later Patent Number and T-Top humbuckers are part of the correct period specification. T-Top refers to a molded marking on the pickup bobbin, not a promise that the exterior decal alone can date it. An original later pickup pair shouldn't be valued as though it were a pair of early PAFs.
 
@@ -116,24 +112,13 @@ The $2,400 to $3,000 band is based on cherry or faded-cherry guitars with origin
 
 Factory color can change who is looking for a Standard and what they will pay for it. A rare original finish is also a different market from a later respray in the same color. The [SG family comparison guide](/post/vintage-gibson-sg-family-guide/) supplies the broader model and finish context.
 
-The present research doesn't provide a supported dollar premium for each non-cherry finish. I keep those guitars outside the standard cherry table rather than turning one attractive color photograph into a price estimate.
+Non-cherry finishes need an individual appraisal. I consider the original color, retained parts and condition together before placing a guitar outside the cherry range.
 
 ## Repairs, Original Parts And Value
 
 An unbroken neck, original finish and factory pickups are the baseline for a collector SG Standard. A repaired headstock, a full refinish and a missing pickup change different parts of that package. Normal playing wear and a good refret deserve a separate assessment from structural damage.
 
-For scale, the site's [published Les Paul condition benchmarks](/vintage-gibson-les-paul-market-value-guide/) give the following deductions. They're Les Paul figures, not measured SG Standard discounts; I use matching SG Standard sales to price the actual repair or alteration.
-
-| Published Les Paul Benchmark | Deduction From A Comparable Original |
-| --- | --- |
-| Repaired Headstock | Roughly 40 To 50% |
-| Refinished Body Or Neck | Roughly 40 To 50% |
-| Pickup Swap Without Routing | Roughly 25% |
-| P-90 To Humbucker Routing | Roughly 35 To 40% |
-| Quality Refret | Often 5 To 10% |
-
-These aren't deductions to add together. A guitar that's already priced as played, serviced or altered has some of those differences reflected in its starting range. A quality refret preserves an otherwise all-original guitar's classification while taking it out of the museum-quality category.
-
+Repairs and alterations affect the guitar as a whole. A guitar that's already priced as played, serviced or altered has some of those differences reflected in its starting range. A quality refret preserves an otherwise all-original guitar's classification while taking it out of the museum-quality category.
 
 ## Keep The Complete Standard Together
 

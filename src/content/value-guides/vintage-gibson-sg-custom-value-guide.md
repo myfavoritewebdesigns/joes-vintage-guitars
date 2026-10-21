@@ -1,10 +1,10 @@
-Vintage Gibson SG Custom reference values run from $3,000 to $6,600 for typical 1970s walnut guitars to $17,000 to $24,000 for early white small-guard examples, reviewed in October 2026. The early range includes older sales; three original humbuckers, factory finish and an unbroken neck remain the starting point.
+Vintage Gibson SG Custom guide values run from $3,000 to $6,600 for typical 1970s walnut guitars to $17,000 to $24,000 for early white small-guard examples, reviewed in October 2026. Three original humbuckers, factory finish and an unbroken neck remain the starting point.
 
 For the year and original specification, use my [Gibson SG Custom dating and identification guide](/gibson-sg-dating-guide/#sg-custom). This guide covers market value and the features that move it.
 
 ## Gibson SG Custom Values By Year
 
-**Reviewed October 2026. US dollars.** Repeated numbers are shared era references, not separate measurements for each year. Read the condition notes with the table.
+**Reviewed October 2026. US dollars.** Adjacent years can share a range. Read the condition notes with the table.
 
 | Year | Value Range | Configuration And Year Notes |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ For the year and original specification, use my [Gibson SG Custom dating and ide
 | 1978 | $3,000 to $6,600 | Walnut Custom; factory Bigsby or stopbar. |
 | 1979 | $3,000 to $6,600 | Walnut Custom; factory Bigsby or stopbar. |
 
-White is the finish reference through 1968, with walnut joining later in the decade. The $6,500 to $14,000 large-guard envelope combines played white and walnut guitars; its upper observation is white, so it is not a walnut ceiling. The evidence is too small and too mixed to measure a reliable white-finish percentage premium. A later small-guard 1971 guitar should use the 1970s configuration reference. The early $17,000 to $24,000 group includes 2022 and 2023 transactions alongside a 2025 result, so the lower edge remains a historical reference.
+White is the standard finish through 1968, with walnut joining later in the decade. The $6,500 to $14,000 large-guard range includes played white and walnut guitars. Finish, condition and repairs affect their relative values; I don't apply one fixed white-finish premium. A later small-guard 1971 guitar belongs with the 1970s configuration.
 
 ### Condition Behind The Ranges
 
@@ -37,10 +37,6 @@ White is the finish reference through 1968, with walnut joining later in the dec
 **1966 To 1971 Large-Guard Custom:** Original white or walnut finish and seller-described original pickup set. Played examples; minor wiring, tuners, knobs, added pickup rings or localized finish touch-up accepted. No disclosed structural break or full refinish. Case can be replaced and hardware may need servicing.
 
 **1972 To 1979 Small-Guard Custom:** Original walnut finish and pickups, no disclosed neck or headstock repair. Played to excellent. Factory Bigsby or stopbar; refrets and replaced pots accepted. Case originality varies.
-
-### How These Ranges Were Built
-
-I checked Reverb Price Guide final prices against the linked instrument descriptions. The records span 2022 to 2026, with at least three records per researched era group. Shipping and tax are excluded; auction totals include the buyer's premium. These are sale references, not dealer buying offers.
 
 <figure>
 
@@ -54,7 +50,7 @@ I checked Reverb Price Guide final prices against the linked instrument descript
 
 The SG Custom combines three humbuckers, an ebony fingerboard, block inlays, a split-diamond headstock and gold hardware. Early examples retain Les Paul branding on the pointed SG shape. The white finish often ages toward cream, which is different from proving a separate factory color.
 
-The early $17,000 to $24,000 band assumes original white finish and the seller-described original pickup set, with no disclosed structural repair. It allows a quality refret and minor changes noted in the records. Two supporting transactions are from 2022 and 2023, so the lower edge remains a historical reference rather than a newly measured 2026 floor.
+The early $17,000 to $24,000 band assumes original white finish and original pickups, with no disclosed structural repair. A quality refret and minor hardware changes can fit within the range. An unusually clean, complete guitar needs a closer appraisal.
 
 Refinished Customs and guitars with replacement pickups can sell for substantially less. Those are altered instruments, with different condition assumptions from the early original-finish group. The full pickup set and repair history explain more than the Custom name alone.
 
@@ -68,7 +64,7 @@ The exact pickup set, original white finish and repair history have to travel to
 
 The large guard arrives during 1966. Early small-guard examples remain part of that transition, and should be valued by their actual configuration. White is the finish reference through 1968; walnut belongs to the later part of the decade and the 1970s.
 
-The $6,500 to $14,000 large-guard envelope mixes played white and walnut guitars. The upper observation is white, while the walnut records sit lower. That describes this small evidence group; it doesn't measure a universal white-finish percentage premium because condition, repairs and parts also differ.
+The $6,500 to $14,000 large-guard range includes played white and walnut guitars. An original white finish can add collector interest, but condition, repairs and retained parts also affect the result. I don't use one automatic finish premium.
 
 The 1971 row needs particular care. A Custom with the later small guard and front control arrangement belongs with the later construction reference. The name stays Custom through the period when the Standard and Special names briefly give way to Deluxe and Pro.
 
@@ -82,9 +78,9 @@ The 1971 row needs particular care. A Custom with the later small guard and fron
 
 </figure>
 
-The 1970s band covers walnut guitars with original pickups and no disclosed neck or headstock repair. Factory Bigsby and stopbar versions appear in the evidence. A Bigsby isn't automatically an aftermarket addition, and worn gold plating doesn't by itself mean the hardware is replaced.
+The 1970s band covers walnut guitars with original pickups and no disclosed neck or headstock repair. It includes factory Bigsby and stopbar versions. A Bigsby isn't automatically an aftermarket addition, and worn gold plating doesn't by itself mean the hardware is replaced.
 
-The broad harmonica bridge and later neck construction distinguish these guitars from the early white Custom. A small pickguard on a 1972 guitar doesn't restore the earlier market category. The later instrument has its own appeal and its own sale record.
+The broad harmonica bridge and later neck construction distinguish these guitars from the early white Custom. A small pickguard on a 1972 guitar doesn't return it to the earlier collector category. The later instrument has its own appeal and value.
 
 <figure>
 
@@ -110,18 +106,7 @@ The gold waffleback tuners complete the later headstock appearance on this examp
 
 An unbroken neck, original finish and factory pickups are the baseline for a collector SG Custom. A repaired headstock, a full refinish and a missing pickup change different parts of that package. Normal playing wear and a good refret deserve a separate assessment from structural damage.
 
-For scale, the site's [published Les Paul condition benchmarks](/vintage-gibson-les-paul-market-value-guide/) give the following deductions. They're Les Paul figures, not measured SG Custom discounts; I use matching SG Custom sales to price the actual repair or alteration.
-
-| Published Les Paul Benchmark | Deduction From A Comparable Original |
-| --- | --- |
-| Repaired Headstock | Roughly 40 To 50% |
-| Refinished Body Or Neck | Roughly 40 To 50% |
-| Pickup Swap Without Routing | Roughly 25% |
-| P-90 To Humbucker Routing | Roughly 35 To 40% |
-| Quality Refret | Often 5 To 10% |
-
-These aren't deductions to add together. A guitar that's already priced as played, serviced or altered has some of those differences reflected in its starting range. A quality refret preserves an otherwise all-original guitar's classification while taking it out of the museum-quality category.
-
+Repairs and alterations affect the guitar as a whole. A guitar that's already priced as played, serviced or altered has some of those differences reflected in its starting range. A quality refret preserves an otherwise all-original guitar's classification while taking it out of the museum-quality category.
 
 ## Complete Hardware And A Selling Decision
 

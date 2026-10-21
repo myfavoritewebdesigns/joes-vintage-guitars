@@ -1,14 +1,14 @@
-A clean, original two-pickup Gibson ES-330 from the 1959 to 1962 dot-neck era has a published reference of $9,000 to $11,500 in sunburst or cherry. Standard-finish 1966 to 1972 examples sit in a $5,250 to $6,500 published band. Those figures assume excellent condition and the original case; the annual table below explains the source and limits.
+A clean, original two-pickup Gibson ES-330 from the 1959 to 1962 dot-neck era has a guide range of $9,000 to $11,500 in sunburst or cherry. Standard-finish 1966 to 1972 examples sit at $5,250 to $6,500. Those figures assume excellent condition and the original case; I assess repairs and changes separately.
 
 I buy vintage ES-330s and compare them by their own construction, condition and production period. My [Gibson ES-330 dating guide](/gibson-es-330-dating-guide/) covers the features and original parts needed to establish the year. Here, I'll keep the focus on price and the differences that change an appraisal.
 
 ## Gibson ES-330 Values By Year
 
-These U.S. dollar references were reviewed **as of October 2026**. They draw on the 2025 Official Vintage Guitar Magazine Price Guide and completed Reverb comparisons whose listing descriptions were checked individually. The book's clean-condition assumptions aren't automatically true of every completed sale.
+These U.S. dollar ranges were reviewed **as of October 2026**. I identify the year, pickup configuration and condition before using the table.
 
 The table assumes original finish and parts, excellent condition, an original case and no structural repairs. A quality refret is accepted maintenance on an otherwise original guitar, but it removes museum-quality status. Refinished, repaired or substantially modified instruments need a different comparison.
 
-| Year | Configuration | Reference Range |
+| Year | Configuration | Value Range |
 | --- | --- | --- |
 | 1959 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 |
 | 1960 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 |
@@ -25,11 +25,9 @@ The table assumes original finish and parts, excellent condition, an original ca
 | 1971 | Two pickups, standard era finishes | $5,250 to $6,500 |
 | 1972 | Two pickups, standard era finishes | $5,250 to $6,500 |
 
-**Pricing note:** Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume original finish and parts, excellent condition and the original case. Repeated years share an era reference; repairs and modifications need a separate comparison.
+Several years share an era range. The 1963 to 1965 range is broad enough to cover differences within that period. I don't apply a fixed annual increase or decrease without inspecting the guitar.
 
-Several years share an era reference. The 1963 to 1965 band combines the published endpoints for that period, rather than inventing a price increase or decrease for each year. Repeated figures don't represent independent same-year transaction samples.
-
-The completed comparisons include changed bridges, tuners and nuts, as well as cases whose originality wasn't certain. They help show where actual instruments traded, but they don't replace the book's condition definition. Some results fall below the published excellent-condition range.
+Changed bridges, tuners and nuts, or a case of uncertain originality, can put a guitar outside the excellent-original category. Those details affect the appraisal even when the guitar plays well.
 
 This table ends with the original production period in 1972. It doesn't treat later reissues as 1970s originals or add rows for years when this model wasn't in regular production. A guitar with an uncertain date should be identified before a value is assigned.
 
@@ -65,11 +63,11 @@ With a complete original guitar, preservation can account for a substantial diff
 
 Small block fingerboard markers replace the early dots during the model's development. Metal pickup covers also appear, but the pickups remain P-90s. Those visible features help place the guitar in a broad period without supplying a complete date by themselves.
 
-The middle-era price band is deliberately wider. It includes the published references for 1963 to 1965, when an exact year and individual neck dimensions can narrow the comparison further. A comfortable neck to one player may feel narrow to another, so I don't assume that every buyer wants the same example.
+The middle-era range covers 1963 to 1965. The exact year, neck dimensions and condition can narrow it further. A comfortable neck to one player may feel narrow to another, so I don't assume every buyer wants the same example.
 
 Later ES-330s also include a changed neck-to-body arrangement. The term “long neck” describes the later joint and upper-fret access, not a new scale length. The late-era table uses a shared reference without claiming a fixed premium for that layout.
 
-If a listing calls a guitar a 1974 or 1975 original, I want to see how that date was established. The site's chronology and the published reference used here end the original run in 1972. A product-category date on a marketplace isn't enough to resolve an individual guitar.
+The original run covered here ends in 1972. If a guitar is described as a 1974 or 1975 original, I want to establish its actual model and date before using this table.
 
 <figure>
 
@@ -131,7 +129,7 @@ The trapeze tailpiece anchors the strings at the body edge. A vibrato adds a mec
 
 A factory vibrato, an added unit and a removed unit with remaining holes are different situations. Replacing an added vibrato with a period-looking trapeze doesn't remove the extra holes or restore the original history. That distinction belongs in the description before any price is discussed.
 
-I haven't applied a fixed dollar premium for a Bigsby or a fixed percentage deduction for a change. The evidence reviewed here doesn't support one adjustment across every year and condition. A closer appraisal starts with the actual installation and the rest of the guitar.
+I don't apply one fixed Bigsby premium or parts-change deduction across every year and condition. The installation history and the rest of the guitar determine the appraisal.
 
 The tailpiece close-up below shows the hardware as photographed in my archive. It gives an owner a useful view to include in an appraisal request. It isn't a parts-dating checklist.
 
@@ -159,7 +157,7 @@ The ranges assume the original case. A later protective case can be practical fo
 
 Photograph the case exterior, lining, handle and latches. If it contains hang tags, receipts or removed parts, keep those with the guitar and show them separately. Their relationship to the instrument can be reviewed without assigning an invented paperwork premium.
 
-Some completed-sale descriptions only assume a case is original. I've kept that uncertainty in the research record. It would be misleading to turn a seller's assumption into a confirmed fact in the price table.
+If the case's originality is uncertain, describe it that way. A seller's assumption doesn't establish that it came with the guitar when new.
 
 <figure>
 
@@ -171,10 +169,10 @@ Some completed-sale descriptions only assume a case is original. I've kept that 
 
 ## Reading The Range Before Choosing A Selling Price
 
-A published range describes a category under stated conditions. It doesn't guarantee the final amount paid for an individual guitar or the owner's net proceeds. Selling costs, repairs and the terms of a transaction can change that result.
+A range describes a guitar category under stated conditions. It doesn't guarantee the final selling price or the owner's net proceeds. Selling costs, repairs and the terms of a transaction can affect that result.
 
-Completed transactions provide a firmer reference than an advertised asking price. Even then, the description needs to be checked: a marketplace's model category can contain a different year, a reissue or a guitar with extensive modifications. The completed price and the guitar's condition have to stay together.
+An advertised asking price may differ from the amount a buyer pays. I check the model, year and condition before discussing an offer.
 
-For this guide, the older published reference and the newer sale comparisons are identified separately. I haven't described every band as a fresh sample of clean 2026 sales. That distinction lets an owner understand what the figures can support.
+For an individual appraisal, send photographs of the guitar, its case and any known repairs. I can explain which condition group fits and what needs a closer look.
 
 If you'd like an individual comparison, request a [free vintage guitar appraisal](/free-appraisal/) with front and back photographs, the headstock, neck joint, tailpiece and case. Include the serial number and any known repairs or replaced parts. I can then explain which reference applies and what remains to be checked.

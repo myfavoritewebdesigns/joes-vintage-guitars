@@ -1,10 +1,10 @@
-Vintage Gibson SG Junior reference values run from $2,300 to $4,000 for later large-guard guitars to $6,000 to $8,500 for early small-guard examples, as of October 2026. These are cherry guitars with their original P-90 and finish, with the wear and maintenance noted below.
+Vintage Gibson SG Junior guide values run from $2,300 to $4,000 for later large-guard guitars to $6,000 to $8,500 for early small-guard examples, as of October 2026. These are cherry guitars with their original P-90 and finish, with the wear and maintenance noted below.
 
 For the year and original specification, use my [Gibson SG Junior dating and identification guide](/gibson-sg-dating-guide/#sg-junior). This guide covers market value and the features that move it.
 
 ## Gibson SG Junior Values By Year
 
-**Reviewed October 2026. US dollars.** Repeated numbers are shared era references, not separate measurements for each year. Read the condition notes with the table.
+**Reviewed October 2026. US dollars.** Adjacent years can share a range. Read the condition notes with the table.
 
 | Year | Value Range | Configuration And Year Notes |
 | --- | --- | --- |
@@ -35,10 +35,6 @@ The early range uses three confirmed completed sales after two ended listings we
 **1961 To 1965 Small-Guard Junior:** Original cherry finish and P-90, no disclosed structural repair. Played to excellent; disclosed shielding changes and quality refrets accepted. Case originality varies.
 
 **1966 To 1971 Large-Guard Junior:** Original cherry finish and P-90, factory vibrato, no disclosed structural repairs or modifications. Light to normal playing wear. Case completeness varies.
-
-### How These Ranges Were Built
-
-I checked Reverb Price Guide final prices against the linked instrument descriptions. The records span 2025 to 2026, with at least three records per researched era group. Shipping and tax are excluded; auction totals include the buyer's premium. These are sale references, not dealer buying offers.
 
 <figure>
 
@@ -82,7 +78,7 @@ The $2,300 to $4,000 later band covers original cherry large-guard guitars with 
 
 </figure>
 
-The original run covered here ends in 1971. The SG 100 and other later student models need their own names and sale evidence. I leave 1972 to 1979 marked outside this run rather than attaching a Junior figure to an unrelated guitar.
+The original run covered here ends in 1971. The SG 100 and other later student models need their own model identification and appraisal. I leave 1972 to 1979 marked outside this run rather than assigning a Junior value to a different guitar.
 
 ## Cherry Juniors And The SG TV
 
@@ -116,18 +112,7 @@ The simple strip tuners are another part of the complete early appearance. Repla
 
 An unbroken neck, original finish and factory pickups are the baseline for a collector SG Junior. A repaired headstock, a full refinish and a missing pickup change different parts of that package. Normal playing wear and a good refret deserve a separate assessment from structural damage.
 
-For scale, the site's [published Les Paul condition benchmarks](/vintage-gibson-les-paul-market-value-guide/) give the following deductions. They're Les Paul figures, not measured SG Junior discounts; I use matching SG Junior sales to price the actual repair or alteration.
-
-| Published Les Paul Benchmark | Deduction From A Comparable Original |
-| --- | --- |
-| Repaired Headstock | Roughly 40 To 50% |
-| Refinished Body Or Neck | Roughly 40 To 50% |
-| Pickup Swap Without Routing | Roughly 25% |
-| P-90 To Humbucker Routing | Roughly 35 To 40% |
-| Quality Refret | Often 5 To 10% |
-
-These aren't deductions to add together. A guitar that's already priced as played, serviced or altered has some of those differences reflected in its starting range. A quality refret preserves an otherwise all-original guitar's classification while taking it out of the museum-quality category.
-
+Repairs and alterations affect the guitar as a whole. A guitar that's already priced as played, serviced or altered has some of those differences reflected in its starting range. A quality refret preserves an otherwise all-original guitar's classification while taking it out of the museum-quality category.
 
 ## An Original Pickup And An Honest Repair History
 

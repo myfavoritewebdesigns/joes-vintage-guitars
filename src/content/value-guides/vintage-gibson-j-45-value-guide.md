@@ -1,14 +1,14 @@
-A clean 1955 to 1959 Gibson J-45 has a published excellent-condition reference of $7,500 to $10,000 with original parts and the original case. Earlier Banner guitars and later square-shoulder examples sit in different ranges. I've reviewed the 2025 published references against completed-sale records as of October 2026, with repair and originality differences kept visible.
+A clean 1955 to 1959 Gibson J-45 has a guide range of $7,500 to $10,000 in excellent condition with original parts and the original case. Earlier Banner guitars and later square-shoulder examples sit in different ranges. I reviewed these values in October 2026 and assess repairs and originality separately.
 
 For model identification, use my [Gibson J-45, J-50 and Southern Jumbo identification guide](/post/identify-vintage-gibson-j45-j50-sj/). This page assumes the guitar has been identified and focuses on its value, the condition the ranges require and what an owner needs for an appraisal.
 
 ## J-45 Values By Year
 
-Every year from 1942 through 1979 appears below. Several years share an era envelope because the evidence doesn't justify inventing a separate annual price. A repeated range is a shared reference, not a statement that every guitar from those years is worth the same amount.
+Every year from 1942 through 1979 appears below. Several years share an era range. I still assess the guitar's exact configuration and condition before narrowing its value.
 
 The figures assume an all-original guitar in excellent condition with its original case and no structural repairs. A quality refret is accepted maintenance under my grading approach, although it removes museum-quality status. Changed parts, damaged wood and uncertain work histories require different comparisons.
 
-| Year | Configuration | Reference Range |
+| Year | Configuration | Value Range |
 | --- | --- | --- |
 | 1942 | Banner, combined wood references | $11,000 to $18,500 |
 | 1943 | Banner, combined wood references | $11,000 to $18,500 |
@@ -49,11 +49,9 @@ The figures assume an all-original guitar in excellent condition with its origin
 | 1978 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
 | 1979 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
 
-**Pricing note:** Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference; repairs and modifications need a separate comparison.
+The Banner range covers several top-wood configurations. The 1960s range includes the standard sunburst model's body transition, with rare factory colors and special provenance assessed separately. I identify those features before placing a guitar within a band.
 
-The Banner envelope combines several published top-wood categories. The 1960s envelope includes the standard sunburst model's body transition, while excluding rare factory colors and special provenance. Those broad categories need further identification before I can place an individual instrument within a range.
-
-I haven't calculated these bands from advertised inventory. The published reference supplies the clean-condition range, and completed transactions supply dated checks on real instruments. Many of those instruments disclose repairs or replacement parts, so I don't describe them as untouched examples.
+The ranges assume clean, original guitars in the condition described above. Repairs, replacement parts and substantial wear need separate consideration.
 
 <figure>
 
@@ -65,21 +63,21 @@ I haven't calculated these bands from advertised inventory. The published refere
 
 ## The Banner Years
 
-The 1942 to 1945 Banner period has a combined published reference of $11,000 to $18,500 across the wood configurations included here. That spread isn't a premium attached to a decal. Construction, originality and repair history determine which comparison applies.
+The 1942 to 1945 Banner range is $11,000 to $18,500 across the wood configurations covered here. The decal alone doesn't establish that value. Construction, originality and repairs determine which part of the range fits.
 
 I keep the Banner group separate from postwar J-45s. A seller's broad wartime date can be enough to begin research, but it isn't enough to claim a precise year or a specific wood premium. The identification page handles those questions before a final valuation.
 
-The inspected completed records include changed parts, bridge-plate questions and instruments needing service. A marketplace condition label doesn't erase those disclosures. I read the description before deciding how much weight to give a transaction.
+Changed parts, bridge-plate work and unresolved service needs affect the appraisal. A broad condition label doesn't erase those details. I want to understand the actual work and current playing condition.
 
 An instrument with a celebrity story also needs separate treatment. A claimed association isn't an ordinary model characteristic and doesn't belong in a general price band. I haven't added a provenance premium to this table.
 
 ## Early Postwar And Small-Guard Guitars
 
-The combined 1946 to 1954 reference is $8,500 to $14,500. It spans several published subdivisions, so it offers a starting envelope rather than one exact price for an entire decade. A confirmed year and condition report narrow that comparison.
+The 1946 to 1954 range is $8,500 to $14,500. It covers several configurations, so a confirmed year and condition assessment help narrow the value. I don't treat the entire period as one identical guitar.
 
 The distinction between an original finish and a refinished guitar can be larger than the difference between adjacent years. I don't let an attractive date substitute for a complete description. A well-repaired instrument may be an appealing player while belonging outside the clean reference.
 
-The completed records reviewed for this group include replacement bridges, added pickups and more extensive work. Those records help explain why a public sale can sit below the clean band. They don't establish a universal repair deduction.
+A replacement bridge, added pickup or more extensive repair can put a guitar below the clean-original range. The quality and extent of the work matter, so I don't use a universal repair deduction.
 
 <figure>
 
@@ -95,9 +93,9 @@ The table assumes the original case. A modern flight case or newer Gibson case c
 
 I keep case details separate from the instrument's structural condition. A missing original case doesn't explain a repaired headstock, and a desirable case doesn't cancel a changed bridge. Both belong in the appraisal record.
 
-## The Later 1950s Reference
+## Later 1950s Values
 
-For 1955 to 1959, the published reference is $7,500 to $10,000. The annual rows use that shared era band. They don't create an unsupported premium for a particular year within the group.
+For 1955 to 1959, the guide range is $7,500 to $10,000. Each year uses that shared band. I assess condition and originality before assigning a value within it.
 
 This is a useful place to separate a guitar's age from its present state. An original finish, documented maintenance and a clear parts history make comparisons easier. A listing that says only that the guitar plays well leaves several valuation questions unanswered.
 
@@ -115,17 +113,17 @@ Adjustable-bridge examples and guitars converted to fixed saddles also need clea
 
 ### Factory Colors And Altered Finishes
 
-The main table is for the standard sunburst references described in each band. I haven't assigned rare colors a percentage premium. An unusual finish needs authentication and relevant market evidence before it can support a higher figure.
+The main table covers standard sunburst guitars in the configurations described. I don't use a fixed rare-color percentage. An unusual finish needs authentication and an individual appraisal.
 
 A faded finish and a replaced finish aren't the same condition. Nor does a bright-looking guitar automatically belong at the top of the range. The appraisal depends on what the finish is, its history and the rest of the instrument.
 
-The published site and marketplace categories don't always use the same transition dates. I retain those disagreements in the research record instead of quietly inventing a single clean cutoff. An uncertain guitar gets assessed on its actual construction.
+A transition-year guitar needs its actual construction checked. I wouldn't force uncertain features into one category merely because a serial number suggests a particular year.
 
 ## Square-Shoulder J-45 And Deluxe Values
 
 The combined 1970 to 1979 reference is $2,250 to $3,000. These guitars have their own market context, so I haven't borrowed a 1950s range to make the later years look more expensive. Each annual row repeats the clearly labeled 1970s reference.
 
-The completed comparisons include a relatively clean early example and another with high action and binding work. Those are different conditions even though both belong to the same broad era. A published reference assumes that the guitar is structurally sound and properly playable.
+A clean, playable early example differs from one with high action or binding work. The table assumes the guitar is structurally sound and properly playable. I assess repair and service needs separately.
 
 The table stops at 1979 because that is the vintage span covered here. Later originals and modern reissues aren't included. A model name on a newer guitar doesn't place it in one of these rows.
 
@@ -185,15 +183,15 @@ I don't recommend cosmetic or structural work merely to prepare for an appraisal
 
 A repaired crack needs a location, an extent and a description of the repair. It isn't useful to treat every crack as an identical deduction. The same applies to overspray, which means additional finish over an existing surface, and to a full refinish.
 
-The research records preserve those distinctions. I haven't mixed a heavily rebuilt instrument into the clean range and then presented the average as a standard original guitar's value. The published-condition assumptions remain visible throughout the table.
+A heavily rebuilt instrument belongs outside the clean-original category. The extent of the repairs, retained parts and current condition determine its appraisal.
 
 ## Asking Prices, Offers And Selling Proceeds
 
 An asking price is a seller's requested amount. A completed-sale figure records a transaction, and an owner's net proceeds may differ after selling expenses. None of those figures automatically equals a direct purchase offer.
 
-I haven't used current asking listings to build these ranges or described researched sales as my own transactions. The source date and the condition remain attached to each comparison. A 2025 book reference reviewed in October 2026 is still identified as a published reference.
+The guide ranges are starting points for an appraisal. I examine the guitar and explain the condition assumptions before making an offer.
 
-I also don't promise that an old J-45 will increase in value. Future repairs, changes in demand and the time required to sell can affect the outcome. An appraisal is most useful when it describes the guitar and the evidence available now.
+I don't promise that an old J-45 will increase in value. Future repairs, demand and the time required to sell can affect the result. An appraisal describes the guitar in its present condition.
 
 ## Getting An Appraisal For Your J-45
 

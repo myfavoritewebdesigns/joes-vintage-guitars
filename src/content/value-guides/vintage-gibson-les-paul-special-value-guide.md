@@ -1,4 +1,4 @@
-A clean, original TV Yellow Gibson Les Paul Special from 1955 to 1959 carries a $13,000 to $21,000 reference range on this site. The existing reference for a 1959 cherry Special is $8,000 to $15,000. Later 1970s single-cutaway reissues belong in a separate price group, covered year by year below.
+A clean, original TV Yellow Gibson Les Paul Special from 1955 to 1959 carries a $13,000 to $21,000 guide range. The guide range for a 1959 cherry Special is $8,000 to $15,000. Later 1970s single-cutaway reissues belong in a separate price group, covered year by year below.
 
 I buy vintage Specials and first establish which body style, finish and production period I'm comparing. For the original single-cutaway instruments, my [1955 to 1958 Les Paul Special authentication guide](/post/1955-1958-tv-yellow-les-paul-special-guide/) covers the construction and original parts. This page explains the price references and the condition behind them.
 
@@ -6,9 +6,9 @@ I buy vintage Specials and first establish which body style, finish and producti
 
 The table gives U.S. dollar references reviewed **as of October 2026**. They assume an excellent, all-original instrument with its original case and no structural repairs. A quality refret is accepted maintenance on an otherwise original guitar, but it removes museum-quality status.
 
-Years that share a range use a shared era reference. They aren't separate claims about an identical set of same-year sales. The early TV Yellow and 1959 cherry figures preserve the existing site anchors; the pricing note explains the references used for later rows.
+Adjacent years can share a range. I still assess the body style, finish and condition before narrowing an appraisal. TV Yellow, cherry and later single-cutaway reissues belong in their own configurations.
 
-| Year | Configuration | Reference Range |
+| Year | Configuration | Value Range |
 | --- | --- | --- |
 | 1955 | TV Yellow, single-cutaway | $13,000 to $21,000 |
 | 1956 | TV Yellow, single-cutaway | $13,000 to $21,000 |
@@ -23,13 +23,11 @@ Years that share a range use a shared era reference. They aren't separate claims
 | 1978 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
 | 1979 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
 
-**Pricing note:** Reviewed as of October 2026. TV Yellow and 1959 cherry ranges retain this site's existing references. The 1960 row uses the 2025 guide with older auction checks; 1970s rows combine the published guide and completed sales. Ranges assume an all-original, excellent-condition guitar with its original case.
+The 1960 cherry row covers the rounded slab-body guitar, sometimes described as an SG Special. It assumes excellent, original condition. Worn or repaired examples need a separate appraisal.
 
-The 1960 cherry row uses the 2025 Official Vintage Guitar Magazine Price Guide, where the rounded slab-body guitar appears under SG Special. Its two auction comparisons are older and in lower condition. That row is a published clean-condition reference reviewed now, not a claim that a current clean 1960 sales sample has been established.
+The 1970s single-cutaway range covers original sunburst guitars. Repairs, added vibratos and substantial changes can put an example outside that category. I inspect those details before applying the upper end.
 
-For the 1970s single-cutaway guitars, the range combines the 2025 published sunburst reference with two completed sales of described original examples from 2025 and 2026. The resulting band is wider than the book's range alone. I haven't used repaired examples or guitars with added vibratos to set its upper end.
-
-The 1970s rows follow the published production periods for the Les Paul 55. No 1975 row is shown, and the later SG-shaped Special belongs in the [Gibson SG Special value guide](/vintage-gibson-sg-special-value-guide/). A 1970s double-cutaway reissue also needs its own comparison; it isn't included in the single-cutaway range.
+The Les Paul 55 rows cover 1974 and 1976 onward, with no 1975 row shown. The later SG-shaped Special belongs in the [Gibson SG Special value guide](/vintage-gibson-sg-special-value-guide/). A 1970s double-cutaway reissue also needs its own appraisal.
 
 <figure>
 
@@ -65,7 +63,7 @@ The later rounded double-cutaway body has an opening on both sides of the neck. 
 
 This is why I don't value a guitar by the letters on its headstock alone. A rounded slab-body Special and a thin, pointed SG Special belong in different groups. Their construction needs to be established before their price references are compared.
 
-The 1959 and 1960 cherry rows are deliberately identified separately. The former preserves this site's existing reference; the latter uses the published rounded-body SG Special entry. The difference in source basis is visible instead of being hidden behind a smooth-looking table.
+The 1959 and 1960 cherry rows are listed separately so you can match the guitar's year and rounded slab-body configuration. I check the finish, neck and retained parts before narrowing either range.
 
 <figure>
 
@@ -81,7 +79,7 @@ A 1970s Les Paul 55 returns to the single-cutaway Special idea. It is a vintage 
 
 The table covers the sunburst single-cutaway reissues through 1979. It doesn't assign every color or hardware arrangement the same premium. For TV finishes, double-cutaway versions or an uncertain configuration, I need to narrow the comparison further.
 
-Keep the full serial number and photographs of the whole guitar together. A listing title can omit a reissue designation or put a guitar in the wrong product category. I check the individual instrument behind a completed result before counting it as evidence.
+Keep the full serial number and photographs of the whole guitar together. A listing title can omit a reissue designation or assign the wrong model. I identify the instrument itself before choosing a range.
 
 ## What TV Yellow Adds To The Valuation
 
@@ -89,7 +87,7 @@ TV Yellow is part of the Special's identity and part of its market description. 
 
 Age, lighting and camera settings can make two photographs of the same finish look different. For an appraisal, I prefer natural indirect light and views of the front, back and edges. I don't need a heavily edited photograph that makes the guitar look more yellow.
 
-The existing site range is retained even where a published reference takes a different view of a particular early configuration. That disagreement is a reason to examine the guitar more closely. It isn't a reason to replace the established figures silently.
+An exceptional early configuration needs a closer appraisal. The broad table doesn't replace an inspection of its finish, condition and original parts.
 
 <figure>
 
@@ -165,13 +163,13 @@ The archive photograph below shows the brown alligator-pattern covering on a per
 
 </figure>
 
-## How I Read The Price Evidence
+## From A Guide Range To An Offer
 
-A completed price belongs to one instrument in one described condition. Before applying it to another Special, I check the year, body shape, finish, repair history and parts. A recent transaction can be a poor comparison if the model or condition is wrong.
+Before making an offer on a Special, I check the year, body shape, finish, repair history and parts. Two guitars with the same model name can belong in different condition groups.
 
-The pricing note below the annual table identifies which ranges preserve existing site references and which use a published guide plus completed comparisons. Older auction results are disclosed as older evidence. I haven't treated them as transactions from this month.
+The table is a starting point for an appraisal. I assess the guitar as it stands now, including any repairs, replaced parts and missing accessories.
 
-Current dealer listings can show what sellers hope to receive, but they aren't realized prices. A sold listing's old asking amount also isn't automatically the accepted amount. For Reverb comparisons, I use the transaction-history final price before reviewing the corresponding description.
+An advertised asking price may differ from the amount a buyer pays. Your proceeds can also differ after selling costs. I explain the offer and its terms when we've established the guitar's condition.
 
 The table is a reference for a category, not a promise of net proceeds. Selling costs and an individual guitar's needs affect the amount an owner ultimately receives. An offer from me follows an appraisal of the instrument itself.
 
