@@ -2,6 +2,8 @@ Vintage Fender Jazzmaster reference values run from $4,200 to $6,000 for typical
 
 For the year and original specification, use my [Fender Jazzmaster dating and identification guide](/fender-jazzmaster-dating-guide/). This guide covers market value and the features that move it.
 
+For comparisons with other Fender models, my [vintage Fender value guide](/vintage-fender-value-guide/) brings the guitar and bass price guides together.
+
 ## Fender Jazzmaster Values By Year
 
 **Reviewed October 2026. US dollars.** Repeated numbers are shared era references, not separate measurements for each year. Read the condition notes with the table.

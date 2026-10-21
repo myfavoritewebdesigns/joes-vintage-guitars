@@ -110,7 +110,7 @@
   "STRIP_INSTRUCTIONS": [
     {
       "remove": "title: \"The 1959 Gibson ES-355: History, Authentication, and Value\"",
-      "replaceWith": "title: \"The 1959 Gibson ES-355: History, Authentication, and Value\"\nseoTitle: \"1959 Gibson ES-355: History, Dating, Value And Price\"",
+      "replaceWith": "title: \"The 1959 Gibson ES-355: History, Authentication, and Value\"\nseoTitle: \"1959 Gibson ES-355: History, Dating, Value And Price Guide\"",
       "all": false
     },
     {
@@ -1222,5 +1222,12 @@
     "liveComparison": "Required rendered live comparison found zero must-fix items, no lost article photos and no broken assets. Intentional pricing and FAQ changes are recorded in the decision log.",
     "visualReview": "Hosted preview review pending deployment."
   },
-  "bodyWordCount": 2663
+  "bodyWordCount": 2663,
+  "AUDIT_REVISION": {
+    "date": "2026-10-20",
+    "url": "/post/1959-gibson-es-355-history-value/",
+    "seoTitle": "1959 Gibson ES-355: History, Dating, Value And Price Guide",
+    "titleCount": 58,
+    "reason": "Keep the reviewed title below 60 characters without a brand suffix."
+  }
 }

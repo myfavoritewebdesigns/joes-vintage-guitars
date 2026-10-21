@@ -1,6 +1,6 @@
 ---
 title: "The 1959 Gibson ES-355: History, Authentication, and Value"
-seoTitle: "1959 Gibson ES-355: History, Dating, Value And Price"
+seoTitle: "1959 Gibson ES-355: History, Dating, Value And Price Guide"
 pubDate: "2026-07-14T12:00:00"
 modified: "2026-09-04T10:30:00"
 excerpt: "The ES-355 was the top of Gibson's thinline family, a cherry-red, gold-plated flagship that sat above the ES-335 and ES-345. This guide covers where it came from, how the mono ES-355TD and the stereo Vari-tone ES-355TD-SV differ, how we date and authenticate a 1959, and what one is really worth today, including the surprise that a fancy 355 usually sells for less than a plain 335 dot-neck. Every photo is a real 1959 ES-355 from our shop."

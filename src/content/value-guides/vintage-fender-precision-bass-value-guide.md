@@ -2,6 +2,8 @@ Vintage Fender Precision Bass comparisons span $2,100 to $40,000 across 1951 to 
 
 For the earliest design, my [1951, 1952 and 1953 Precision Bass authentication guide](/post/1952-fender-precision-bass-guide/) explains the original construction and dating evidence. This page supplies the model-wide price comparisons. It covers a bass with one continuous model name but several different designs.
 
+For a Jazz Bass or another Fender model, start with my [Fender values by model guide](/vintage-fender-value-guide/) and choose the matching instrument.
+
 ## Fender Precision Bass Values By Year
 
 As of October 2026, the annual table preserves the site's existing early slab-body reference. The remaining bands combine the 2025 edition of The Official Vintage Guitar Magazine Price Guide with two independently verified completed transactions per era. Where those transactions are older, that limitation is stated below.

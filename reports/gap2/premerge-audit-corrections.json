@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-20",
+  "requested": "Four pre-merge audit corrections",
+  "validation": {
+    "checked": "2026-10-21T00:56:04.784Z",
+    "pass": true,
+    "errors": [],
+    "pages": [
+      {
+        "url": "/vintage-fender-jazzmaster-value-guide/",
+        "title": "Vintage Fender Jazzmaster Value Guide: Prices By Year",
+        "count": 53,
+        "hubAnchors": [
+          "vintage Fender value guide"
+        ],
+        "photos": 7
+      },
+      {
+        "url": "/vintage-fender-jaguar-value-guide/",
+        "title": "Vintage Fender Jaguar Value Guide: 1962 To 1975 Prices",
+        "count": 54,
+        "hubAnchors": [
+          "Fender guitar and bass value guide"
+        ],
+        "photos": 6
+      },
+      {
+        "url": "/vintage-fender-jazz-bass-value-guide/",
+        "title": "Vintage Fender Jazz Bass Value Guide: 1960 To 1979 Prices",
+        "count": 57,
+        "hubAnchors": [
+          "vintage Fender model value guide"
+        ],
+        "photos": 6
+      },
+      {
+        "url": "/vintage-fender-precision-bass-value-guide/",
+        "title": "Vintage Fender Precision Bass Value Guide: 1951 To 1979",
+        "count": 55,
+        "hubAnchors": [
+          "Fender values by model guide"
+        ],
+        "photos": 6
+      },
+      {
+        "url": "/post/fender-mustang-history-value/",
+        "title": "Fender Mustang Value Guide: History And Authentication",
+        "count": 54,
+        "hubAnchors": [
+          "vintage Fender value guide"
+        ],
+        "photos": 14
+      },
+      {
+        "url": "/fender-guitars-serial-number-guide/",
+        "title": "Fender Serial Number Lookup: Free Decoder & Dating Guide",
+        "count": 56,
+        "hubAnchors": [
+          "vintage Fender value guide"
+        ],
+        "photos": 35
+      },
+      {
+        "url": "/sell-my-fender-guitar/",
+        "title": "Sell My Fender Guitar | Joe's Vintage Guitars",
+        "count": 45,
+        "hubAnchors": [
+          "vintage Fender value guide"
+        ],
+        "photos": 18
+      },
+      {
+        "url": "/post/1952-fender-precision-bass-guide/",
+        "title": "1951 To 1953 Fender Precision Bass Slab-Body Value Guide",
+        "count": 56,
+        "hubAnchors": [],
+        "photos": 21
+      },
+      {
+        "url": "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+        "title": "1955 To 1958 TV Yellow Les Paul Special: Dating And Value",
+        "count": 57,
+        "hubAnchors": [],
+        "photos": 17
+      },
+      {
+        "url": "/post/1959-gibson-es-355-history-value/",
+        "title": "1959 Gibson ES-355: History, Dating, Value And Price Guide",
+        "count": 58,
+        "hubAnchors": [],
+        "photos": 13
+      }
+    ],
+    "siteTitleChanges": [
+      {
+        "url": "/post/1952-fender-precision-bass-guide/",
+        "before": "1951 To 1953 Precision Bass Value | Joe's Vintage Guitars",
+        "after": "1951 To 1953 Fender Precision Bass Slab-Body Value Guide"
+      },
+      {
+        "url": "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+        "before": "1955 To 1958 Les Paul Special: Parts, Dating And Value | Joe's Vintage Guitars",
+        "after": "1955 To 1958 TV Yellow Les Paul Special: Dating And Value"
+      },
+      {
+        "url": "/post/1959-gibson-es-355-history-value/",
+        "before": "1959 Gibson ES-355: History, Dating, Value And Price | Joe's Vintage Guitars",
+        "after": "1959 Gibson ES-355: History, Dating, Value And Price Guide"
+      },
+      {
+        "url": "/post/fender-mustang-history-value/",
+        "before": "1964 Fender Mustang Value Guide | Joe's Vintage Guitars",
+        "after": "Fender Mustang Value Guide: History And Authentication"
+      }
+    ],
+    "hubInboundSources": 7,
+    "previewPages": 77
+  },
+  "liveDiff": [
+    {
+      "url": "/vintage-fender-jazz-bass-value-guide/",
+      "code": 0,
+      "output": [
+        "",
+        "[audit] Liveness-checking 9 asset URL(s) on local (img/picture/poster/iframe)...",
+        "",
+        "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-vintage-fender-jazz-bass-value-guide-audit-2026-10-21T00-56-35-576Z.md",
+        "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+      ]
+    },
+    {
+      "url": "/vintage-fender-jaguar-value-guide/",
+      "code": 0,
+      "output": [
+        "",
+        "[audit] Liveness-checking 9 asset URL(s) on local (img/picture/poster/iframe)...",
+        "",
+        "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-vintage-fender-jaguar-value-guide-audit-2026-10-21T00-56-35-576Z.md",
+        "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+      ]
+    },
+    {
+      "url": "/vintage-fender-jazzmaster-value-guide/",
+      "code": 0,
+      "output": [
+        "",
+        "[audit] Liveness-checking 10 asset URL(s) on local (img/picture/poster/iframe)...",
+        "",
+        "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-vintage-fender-jazzmaster-value-guide-audit-2026-10-21T00-56-35-582Z.md",
+        "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+      ]
+    },
+    {
+      "url": "/vintage-fender-precision-bass-value-guide/",
+      "code": 0,
+      "output": [
+        "",
+        "[audit] Liveness-checking 9 asset URL(s) on local (img/picture/poster/iframe)...",
+        "",
+        "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-vintage-fender-precision-bass-value-guide-audit-2026-10-21T00-56-36-010Z.md",
+        "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+      ]
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "code": 0,
+      "output": [
+        "",
+        "[audit] Liveness-checking 29 asset URL(s) on local (img/picture/poster/iframe)...",
+        "",
+        "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-fender-guitars-serial-number-guide-audit-2026-10-21T00-56-36-090Z.md",
+        "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+      ]
+    },
+    {
+      "url": "/post/fender-mustang-history-value/",
+      "code": 0,
+      "output": [
+        "",
+        "[audit] Liveness-checking 23 asset URL(s) on local (img/picture/poster/iframe)...",
+        "",
+        "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-fender-mustang-history-value-audit-2026-10-21T00-56-36-128Z.md",
+        "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 2  ðŸŸ¢ acceptable: 0"
+      ]
+    },
+    {
+      "url": "/sell-my-fender-guitar/",
+      "code": 0,
+      "output": [
+        "",
+        "[audit] Liveness-checking 21 asset URL(s) on local (img/picture/poster/iframe)...",
+        "",
+        "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-sell-my-fender-guitar-audit-2026-10-21T00-56-36-532Z.md",
+        "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+      ]
+    },
+    {
+      "url": "/post/1952-fender-precision-bass-guide/",
+      "code": 0,
+      "output": [
+        "",
+        "[audit] Liveness-checking 30 asset URL(s) on local (img/picture/poster/iframe)...",
+        "",
+        "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-1952-fender-precision-bass-guide-audit-2026-10-21T00-56-36-636Z.md",
+        "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 2  ðŸŸ¢ acceptable: 0"
+      ]
+    },
+    {
+      "url": "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+      "code": 0,
+      "output": [
+        "",
+        "[audit] Liveness-checking 26 asset URL(s) on local (img/picture/poster/iframe)...",
+        "",
+        "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-1955-1958-tv-yellow-les-paul-special-guide-audit-2026-10-21T00-56-36-696Z.md",
+        "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 2  ðŸŸ¢ acceptable: 0"
+      ]
+    },
+    {
+      "url": "/post/1959-gibson-es-355-history-value/",
+      "code": 0,
+      "output": [
+        "",
+        "[audit] Liveness-checking 22 asset URL(s) on local (img/picture/poster/iframe)...",
+        "",
+        "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-1959-gibson-es-355-history-value-audit-2026-10-21T00-56-37-073Z.md",
+        "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 2  ðŸŸ¢ acceptable: 0"
+      ]
+    }
+  ],
+  "verify": "pnpm 11.7.0 run verify passed: zero Astro errors/warnings and zero copy hard failures.",
+  "notes": "Live-diff reports only the requested title changes and pre-existing shared Reverb-icon dimension warnings."
+}

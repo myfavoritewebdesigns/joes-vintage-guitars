@@ -1,6 +1,6 @@
 ---
 title: "The Fender Mustang: History, Authentication, and Value"
-seoTitle: "1964 Fender Mustang Value Guide"
+seoTitle: "Fender Mustang Value Guide: History And Authentication"
 pubDate: "2026-07-10T12:00:00"
 modified: "2026-10-19T12:00:00-07:00"
 excerpt: "The Fender Mustang went from a 1964 student guitar to a collector and indie-rock icon, and the gap between an all-original example and a modified project comes down to details most sellers miss. This guide covers the whole short-scale family, the year-by-year changes from 1964 to 1982, the Competition finishes, how we authenticate the pickups, switching, Dynamic Vibrato, and serial numbers, and what a vintage Mustang is really worth today. Every photo is a real guitar from our shop."
@@ -13,6 +13,8 @@ metaDescription: "Vintage Fender Mustang values from 1964 to 1979, with annual p
 ogImage: "/images/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg"
 ---
 A 1964 Fender Mustang in all-original, excellent condition has an existing guide range of $2,200 to $4,000; Competition Mustangs sit at $4,000 to $6,000. For standard sunburst guitars from the 1970s, the completed-sale comparison below is $1,400 to $2,300. I separate those sales from the older asking-price references so you can compare the right kind of number.
+
+If you're comparing more than one Fender, my [vintage Fender value guide](/vintage-fender-value-guide/) brings the model price tables together.
 
 <h2 id="fmg-value">Vintage Fender Mustang Values By Year</h2>
 

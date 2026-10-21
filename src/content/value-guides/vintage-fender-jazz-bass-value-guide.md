@@ -2,6 +2,8 @@ Vintage Fender Jazz Bass comparisons run from $2,200 to $31,500 across 1960 to 1
 
 If the year or originality is uncertain, use my [Fender Jazz Bass dating and authentication guide](/post/vintage-fender-jazz-bass-guide/) before applying a price. This page covers market comparisons, condition and selling decisions. The photographs are from my own archive, including a refinished example that's labeled as such.
 
+My [vintage Fender model value guide](/vintage-fender-value-guide/) also links the Precision Bass and guitar price tables if you're comparing more than one instrument.
+
 ## Fender Jazz Bass Values By Year
 
 As of October 2026, these U.S. dollar ranges combine the 2025 edition of The Official Vintage Guitar Magazine Price Guide with two verified completed transactions per era. They're reference-supported comparisons, with the condition allowances below. The guide's own figures assume excellent, all-original instruments and an original case where applicable; the completed examples include wear and the disclosed exceptions.

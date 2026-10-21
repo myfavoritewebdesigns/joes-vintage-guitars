@@ -1,6 +1,6 @@
 ---
 title: "The 1951, 1952 & 1953 Fender Precision Bass: Slab-Body P-Bass Authentication & Valuation Guide"
-seoTitle: "1951 To 1953 Precision Bass Value"
+seoTitle: "1951 To 1953 Fender Precision Bass Slab-Body Value Guide"
 pubDate: "2026-03-12T23:17:36"
 modified: "2026-10-19T12:00:00-07:00"
 excerpt: "A collector's guide to the 1951, 1952, and 1953 Fender Precision Bass: the original slab-body P-Bass. Joe Dampt covers every authentication detail: butterscotch nitro finish, tan lines under the hardware, nail holes, the early single-coil pickup with white string wrapping, pressed fiber saddles, Clarostat pots, paper-in-oil capacitor, large flat metal tuner buttons, mismatched neck and body dates, and more. Free appraisals nationwide."
