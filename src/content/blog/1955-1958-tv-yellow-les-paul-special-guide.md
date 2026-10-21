@@ -1,6 +1,6 @@
 ---
 title: "Authentic 1955-1958 TV Yellow Les Paul Special: A Collector’s Guide"
-seoTitle: "1955 To 1958 Les Paul Special: Parts, Dating And Value"
+seoTitle: "1955 To 1958 TV Yellow Les Paul Special: Dating And Value"
 pubDate: "2026-03-02T19:31:50"
 modified: "2026-03-02T19:31:50"
 excerpt: "In the ‘Golden Era’ of Gibson production, few instruments carry as much mojo, or as much confusion for collectors, as the 1955 to 1958 single-cutaway Les Paul Special. Finished in TV Yellow, these ‘slab-body’ mahogany guitars sit between the working-man’s Junior and the high-end Standard. But with seventy years of history comes seventy years of modifications. From ‘Bumblebee’ capacitors and original P-90 soapbars to the patina of aged brass tuner posts, we go through the details that tell you what you’ve got. Maybe you’re a longtime collector, or maybe you’re looking to sell a family heirloom. Either way, this guide, backed by personally authenticating over 40 of these models, covers what makes a ‘dead-original’ Special worth holding onto."

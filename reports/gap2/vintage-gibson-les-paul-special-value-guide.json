@@ -590,5 +590,12 @@
     "liveComparison": "Required live-diff comparison found zero must-fix items, no missing article photos and no broken local assets. Intentional text and title changes are recorded in the decision log.",
     "visualReview": "Hosted preview review pending deployment."
   },
-  "bodyWordCount": 2359
+  "bodyWordCount": 2359,
+  "AUDIT_REVISION": {
+    "date": "2026-10-20",
+    "url": "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+    "seoTitle": "1955 To 1958 TV Yellow Les Paul Special: Dating And Value",
+    "titleCount": 57,
+    "reason": "Keep the reviewed title below 60 characters without a brand suffix."
+  }
 }
