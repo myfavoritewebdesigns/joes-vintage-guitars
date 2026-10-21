@@ -1,0 +1,75 @@
+{
+  "title": "Vintage Fender Value Guide: Guitar And Bass Model Guides",
+  "description": "Find your Fender model and explore its value guide, with year-by-year prices, condition notes and Joe's own photos of vintage electric guitars and basses.",
+  "h1": "Vintage Fender Value Guide",
+  "url": "/vintage-fender-value-guide/",
+  "ogImage": "/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg",
+  "alt": "Sunburst Fender Stratocaster with a white pickguard and vibrato arm in an orange-lined case",
+  "date": "2026-10-20T00:00:00-07:00",
+  "modified": "2026-10-21",
+  "model": "Fender",
+  "models": [
+    {
+      "name": "Stratocaster", "family": "Electric Guitar",
+      "url": "/vintage-fender-stratocaster-value-guide/",
+      "description": "Find the year guide for your Strat, with finish, originality and condition comparisons.",
+      "image": "/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg",
+      "alt": "Sunburst Stratocaster body with three white pickups in an orange-lined case"
+    },
+    {
+      "name": "Telecaster", "family": "Electric Guitar",
+      "url": "/vintage-fender-telecaster-value-guide/",
+      "description": "Follow the Broadcaster, Nocaster and Telecaster family to the matching year guide.",
+      "image": "/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-body-scaled.jpg",
+      "alt": "Blonde Telecaster with a black pickguard in front of tweed Fender amplifiers"
+    },
+    {
+      "name": "Esquire", "family": "Electric Guitar",
+      "url": "/vintage-fender-esquire-value-guide/",
+      "description": "Use the Esquire's own year and finish references, including blonde and custom color examples.",
+      "image": "/images/fender-sn/1957-fender-esquire-blonde-full-front.jpg",
+      "alt": "Blonde Esquire body with a white pickguard and chrome bridge cover"
+    },
+    {
+      "name": "Jazzmaster", "family": "Offset Guitar",
+      "url": "/vintage-fender-jazzmaster-value-guide/",
+      "description": "Compare gold guards, slab boards, later necks and custom colors in the annual guide.",
+      "image": "/images/blog/fender-custom-color-authentication-guide/1966-fender-jazzmaster-lake-placid-blue-front.jpg",
+      "alt": "Blue Jazzmaster body with a white pickguard, two white pickup covers and a vibrato arm"
+    },
+    {
+      "name": "Jaguar", "family": "Offset Guitar",
+      "url": "/vintage-fender-jaguar-value-guide/",
+      "description": "Find Jaguar comparisons by year, with notes on original finishes, parts and condition.",
+      "image": "/images/blog/vintage-fender-jaguar-guide/1966-fender-jaguar-olympic-white-1-scaled.jpg",
+      "alt": "Cream-colored Jaguar body with a tortoiseshell pickguard and chrome control plates"
+    },
+    {
+      "name": "Mustang", "family": "Electric Guitar",
+      "url": "/post/fender-mustang-history-value/",
+      "description": "Compare standard and Competition Mustangs, with annual references and model history.",
+      "image": "/images/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg",
+      "alt": "Blue Mustang with pale body stripes and a patterned strap in an orange-lined case"
+    },
+    {
+      "name": "Precision Bass", "family": "Electric Bass",
+      "url": "/vintage-fender-precision-bass-value-guide/",
+      "description": "Choose the early slab-body, contoured or later Precision comparison for your bass.",
+      "image": "/images/sell-fender/1952-fender-precision-bass-800x533.jpg",
+      "alt": "Blonde Precision Bass body with a black pickguard and chrome covers in an open case"
+    },
+    {
+      "name": "Jazz Bass", "family": "Electric Bass",
+      "url": "/vintage-fender-jazz-bass-value-guide/",
+      "description": "Find stack-knob and later Jazz Bass comparisons, with year, finish and condition notes.",
+      "image": "/images/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg",
+      "alt": "Blue-green Jazz Bass body with a pale pickguard, chrome covers and three black knobs"
+    }
+  ],
+  "faqs": [
+    { "q": "Where Can I Find A Price Range For My Fender?", "a": "Choose your model above, then find the year and configuration in its guide. I've kept the price tables and condition notes together on those model pages so you can read the assumptions with each comparison." },
+    { "q": "What If I Don't Know The Model Or Year?", "a": "Send me clear photographs of the whole instrument, both sides of the headstock and its case, along with any history you know. You don't need to remove the neck or open the electronics before getting in touch." },
+    { "q": "Can I Use The Guide If My Fender Has Changed Parts?", "a": "Yes. Read the condition notes in the model guide and describe the changes you know about. A clean original and a repaired or modified instrument need different comparisons, so don't assume the same range applies to both." },
+    { "q": "Do The Model Guides Include Bass Guitars?", "a": "Yes. The Precision Bass and Jazz Bass each have a dedicated value guide. I've linked both here so you can go straight to the bass model and its covered years." }
+  ]
+}

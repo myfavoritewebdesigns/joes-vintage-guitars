@@ -1,0 +1,585 @@
+{
+  "PAGE_TYPE": "model-directory",
+  "METADATA": {
+    "url": "/vintage-fender-value-guide/",
+    "title": "Vintage Fender Value Guide: Guitar And Bass Model Guides",
+    "titleCount": 56,
+    "description": "Find your Fender model and explore its value guide, with year-by-year prices, condition notes and Joe's own photos of vintage electric guitars and basses.",
+    "descriptionCount": 154,
+    "h1": "Vintage Fender Value Guide",
+    "primaryQuery": "vintage Fender value",
+    "secondaryQueries": [
+      "Fender guitar value guides",
+      "Fender bass value guides"
+    ]
+  },
+  "OUTLINE": [
+    "Find Your Fender Model",
+    "Stratocaster",
+    "Telecaster",
+    "Esquire",
+    "Jazzmaster",
+    "Jaguar",
+    "Mustang",
+    "Precision Bass",
+    "Jazz Bass",
+    "Before You Compare Your Fender",
+    "Not Sure Which Fender You Have?",
+    "Questions About Fender Values"
+  ],
+  "BODY": "# Vintage Fender Value Guide\n\nChoose your Fender model to find its value guide. I've gathered the guitar and bass guides here so you can go straight to the year, finish and condition that match yours.\n\n[IMAGE 1]\n\n## Find Your Fender Model\n\nOpen a guide for its year-by-year references, condition notes and original photographs. Each model has its own comparisons.\n\n### Stratocaster\n\n[IMAGE 2]\n\nFind the year guide for your Strat, with finish, originality and condition comparisons.\n\n[Explore The Stratocaster Value Guide](/vintage-fender-stratocaster-value-guide/)\n\n### Telecaster\n\n[IMAGE 3]\n\nFollow the Broadcaster, Nocaster and Telecaster family to the matching year guide.\n\n[Explore The Telecaster Value Guide](/vintage-fender-telecaster-value-guide/)\n\n### Esquire\n\n[IMAGE 4]\n\nUse the Esquire's own year and finish references, including blonde and custom color examples.\n\n[Explore The Esquire Value Guide](/vintage-fender-esquire-value-guide/)\n\n### Jazzmaster\n\n[IMAGE 5]\n\nCompare gold guards, slab boards, later necks and custom colors in the annual guide.\n\n[Explore The Jazzmaster Value Guide](/vintage-fender-jazzmaster-value-guide/)\n\n### Jaguar\n\n[IMAGE 6]\n\nFind Jaguar comparisons by year, with notes on original finishes, parts and condition.\n\n[Explore The Jaguar Value Guide](/vintage-fender-jaguar-value-guide/)\n\n### Mustang\n\n[IMAGE 7]\n\nCompare standard and Competition Mustangs, with annual references and model history.\n\n[Explore The Mustang Value Guide](/post/fender-mustang-history-value/)\n\n### Precision Bass\n\n[IMAGE 8]\n\nChoose the early slab-body, contoured or later Precision comparison for your bass.\n\n[Explore The Precision Bass Value Guide](/vintage-fender-precision-bass-value-guide/)\n\n### Jazz Bass\n\n[IMAGE 9]\n\nFind stack-knob and later Jazz Bass comparisons, with year, finish and condition notes.\n\n[Explore The Jazz Bass Value Guide](/vintage-fender-jazz-bass-value-guide/)\n\n## Before You Compare Your Fender\n\nStart with the model, then match the year and configuration in its guide. I keep the condition assumptions beside the comparisons, so you can see how finish wear, repairs, changed parts and the case affect the reference you're using.\n\nIf you haven't established the year, my [Fender serial number and dating guide](/fender-guitars-serial-number-guide/) is a starting point. For a question about the finish, use my [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/).\n\nYou don't need to take the instrument apart before getting in touch. Keep its case, paperwork and any removed original parts together, and tell me about the changes you know of.\n\n\n## Questions About Fender Values\n\n### Where Can I Find A Price Range For My Fender?\n\nChoose your model above, then find the year and configuration in its guide. I've kept the price tables and condition notes together on those model pages so you can read the assumptions with each comparison.\n\n### What If I Don't Know The Model Or Year?\n\nSend me clear photographs of the whole instrument, both sides of the headstock and its case, along with any history you know. You don't need to remove the neck or open the electronics before getting in touch.\n\n### Can I Use The Guide If My Fender Has Changed Parts?\n\nYes. Read the condition notes in the model guide and describe the changes you know about. A clean original and a repaired or modified instrument need different comparisons, so don't assume the same range applies to both.\n\n### Do The Model Guides Include Bass Guitars?\n\nYes. The Precision Bass and Jazz Bass each have a dedicated value guide. I've linked both here so you can go straight to the bass model and its covered years.",
+  "FAQ_SCHEMA": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Where Can I Find A Price Range For My Fender?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Choose your model above, then find the year and configuration in its guide. I've kept the price tables and condition notes together on those model pages so you can read the assumptions with each comparison."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What If I Don't Know The Model Or Year?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Send me clear photographs of the whole instrument, both sides of the headstock and its case, along with any history you know. You don't need to remove the neck or open the electronics before getting in touch."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I Use The Guide If My Fender Has Changed Parts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Read the condition notes in the model guide and describe the changes you know about. A clean original and a repaired or modified instrument need different comparisons, so don't assume the same range applies to both."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do The Model Guides Include Bass Guitars?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The Precision Bass and Jazz Bass each have a dedicated value guide. I've linked both here so you can go straight to the bass model and its covered years."
+        }
+      }
+    ]
+  },
+  "LINKS_USED": [
+    {
+      "url": "/vintage-fender-stratocaster-value-guide/",
+      "anchor": "Stratocaster value guide",
+      "placement": "Whole photo card with accessible model-specific label"
+    },
+    {
+      "url": "/vintage-fender-telecaster-value-guide/",
+      "anchor": "Telecaster value guide",
+      "placement": "Whole photo card with accessible model-specific label"
+    },
+    {
+      "url": "/vintage-fender-esquire-value-guide/",
+      "anchor": "Esquire value guide",
+      "placement": "Whole photo card with accessible model-specific label"
+    },
+    {
+      "url": "/vintage-fender-jazzmaster-value-guide/",
+      "anchor": "Jazzmaster value guide",
+      "placement": "Whole photo card with accessible model-specific label"
+    },
+    {
+      "url": "/vintage-fender-jaguar-value-guide/",
+      "anchor": "Jaguar value guide",
+      "placement": "Whole photo card with accessible model-specific label"
+    },
+    {
+      "url": "/post/fender-mustang-history-value/",
+      "anchor": "Mustang value guide",
+      "placement": "Whole photo card with accessible model-specific label"
+    },
+    {
+      "url": "/vintage-fender-precision-bass-value-guide/",
+      "anchor": "Precision Bass value guide",
+      "placement": "Whole photo card with accessible model-specific label"
+    },
+    {
+      "url": "/vintage-fender-jazz-bass-value-guide/",
+      "anchor": "Jazz Bass value guide",
+      "placement": "Whole photo card with accessible model-specific label"
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "anchor": "Fender serial number and dating guide"
+    },
+    {
+      "url": "/post/fender-custom-color-authentication-guide/",
+      "anchor": "Fender custom color authentication guide"
+    },
+    {
+      "url": "/free-appraisal/",
+      "anchor": "Ask Joe About Your Fender"
+    }
+  ],
+  "STRIP_INSTRUCTIONS": [],
+  "SOURCES": [
+    {
+      "id": 1,
+      "publication": "Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/",
+      "claims": "Existing model guide identity, topic coverage and destination. No new price research or numerical values on the hub."
+    },
+    {
+      "id": 2,
+      "publication": "Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-telecaster-value-guide/",
+      "claims": "Existing model guide identity, topic coverage and destination. No new price research or numerical values on the hub."
+    },
+    {
+      "id": 3,
+      "publication": "Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-esquire-value-guide/",
+      "claims": "Existing model guide identity, topic coverage and destination. No new price research or numerical values on the hub."
+    },
+    {
+      "id": 4,
+      "publication": "Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-jazzmaster-value-guide/",
+      "claims": "Existing model guide identity, topic coverage and destination. No new price research or numerical values on the hub."
+    },
+    {
+      "id": 5,
+      "publication": "Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-jaguar-value-guide/",
+      "claims": "Existing model guide identity, topic coverage and destination. No new price research or numerical values on the hub."
+    },
+    {
+      "id": 6,
+      "publication": "Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-mustang-history-value/",
+      "claims": "Existing model guide identity, topic coverage and destination. No new price research or numerical values on the hub."
+    },
+    {
+      "id": 7,
+      "publication": "Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-precision-bass-value-guide/",
+      "claims": "Existing model guide identity, topic coverage and destination. No new price research or numerical values on the hub."
+    },
+    {
+      "id": 8,
+      "publication": "Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-jazz-bass-value-guide/",
+      "claims": "Existing model guide identity, topic coverage and destination. No new price research or numerical values on the hub."
+    }
+  ],
+  "PRICE_TABLE": [],
+  "PRICE_POLICY": "Joe explicitly requested a navigation hub without numerical values on October 21, 2026. Model guides exclusively retain their own prices and evidence.",
+  "IMAGE_LIST": [
+    {
+      "slot": 1,
+      "path": "/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg",
+      "alt": "Sunburst Fender Stratocaster with a white pickguard and vibrato arm in an orange-lined case",
+      "placement": "Hero",
+      "caption": "A sunburst Stratocaster in its orange-lined case. From my own photo archive.",
+      "repoPath": "src/assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg",
+      "owner": "Joe Dampt",
+      "verification": "Opened the local image and visually checked the caption and alt text on October 21, 2026. Reuses existing site assets with native optimization and exact ImageObject licensing."
+    },
+    {
+      "slot": 2,
+      "path": "/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg",
+      "alt": "Sunburst Stratocaster body with three white pickups in an orange-lined case",
+      "placement": "Stratocaster model card",
+      "repoPath": "src/assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg",
+      "owner": "Joe Dampt",
+      "verification": "Opened the local image and visually checked the caption and alt text on October 21, 2026. Reuses existing site assets with native optimization and exact ImageObject licensing."
+    },
+    {
+      "slot": 3,
+      "path": "/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-body-scaled.jpg",
+      "alt": "Blonde Telecaster with a black pickguard in front of tweed Fender amplifiers",
+      "placement": "Telecaster model card",
+      "repoPath": "src/assets/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-body-scaled.jpg",
+      "owner": "Joe Dampt",
+      "verification": "Opened the local image and visually checked the caption and alt text on October 21, 2026. Reuses existing site assets with native optimization and exact ImageObject licensing."
+    },
+    {
+      "slot": 4,
+      "path": "/images/fender-sn/1957-fender-esquire-blonde-full-front.jpg",
+      "alt": "Blonde Esquire body with a white pickguard and chrome bridge cover",
+      "placement": "Esquire model card",
+      "repoPath": "src/assets/images/fender-sn/1957-fender-esquire-blonde-full-front.jpg",
+      "owner": "Joe Dampt",
+      "verification": "Opened the local image and visually checked the caption and alt text on October 21, 2026. Reuses existing site assets with native optimization and exact ImageObject licensing."
+    },
+    {
+      "slot": 5,
+      "path": "/images/blog/fender-custom-color-authentication-guide/1966-fender-jazzmaster-lake-placid-blue-front.jpg",
+      "alt": "Blue Jazzmaster body with a white pickguard, two white pickup covers and a vibrato arm",
+      "placement": "Jazzmaster model card",
+      "repoPath": "src/assets/blog/fender-custom-color-authentication-guide/1966-fender-jazzmaster-lake-placid-blue-front.jpg",
+      "owner": "Joe Dampt",
+      "verification": "Opened the local image and visually checked the caption and alt text on October 21, 2026. Reuses existing site assets with native optimization and exact ImageObject licensing."
+    },
+    {
+      "slot": 6,
+      "path": "/images/blog/vintage-fender-jaguar-guide/1966-fender-jaguar-olympic-white-1-scaled.jpg",
+      "alt": "Cream-colored Jaguar body with a tortoiseshell pickguard and chrome control plates",
+      "placement": "Jaguar model card",
+      "repoPath": "src/assets/blog/vintage-fender-jaguar-guide/1966-fender-jaguar-olympic-white-1-scaled.jpg",
+      "owner": "Joe Dampt",
+      "verification": "Opened the local image and visually checked the caption and alt text on October 21, 2026. Reuses existing site assets with native optimization and exact ImageObject licensing."
+    },
+    {
+      "slot": 7,
+      "path": "/images/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg",
+      "alt": "Blue Mustang with pale body stripes and a patterned strap in an orange-lined case",
+      "placement": "Mustang model card",
+      "repoPath": "src/assets/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg",
+      "owner": "Joe Dampt",
+      "verification": "Opened the local image and visually checked the caption and alt text on October 21, 2026. Reuses existing site assets with native optimization and exact ImageObject licensing."
+    },
+    {
+      "slot": 8,
+      "path": "/images/sell-fender/1952-fender-precision-bass-800x533.jpg",
+      "alt": "Blonde Precision Bass body with a black pickguard and chrome covers in an open case",
+      "placement": "Precision Bass model card",
+      "repoPath": "src/assets/images/sell-fender/1952-fender-precision-bass-800x533.jpg",
+      "owner": "Joe Dampt",
+      "verification": "Opened the local image and visually checked the caption and alt text on October 21, 2026. Reuses existing site assets with native optimization and exact ImageObject licensing."
+    },
+    {
+      "slot": 9,
+      "path": "/images/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg",
+      "alt": "Blue-green Jazz Bass body with a pale pickguard, chrome covers and three black knobs",
+      "placement": "Jazz Bass model card",
+      "repoPath": "src/assets/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg",
+      "owner": "Joe Dampt",
+      "verification": "Opened the local image and visually checked the caption and alt text on October 21, 2026. Reuses existing site assets with native optimization and exact ImageObject licensing."
+    }
+  ],
+  "FLAGS": [],
+  "CHANGE_RECORD": {
+    "date": "2026-10-21",
+    "userRequest": "Add a nice hero image, remove hub values and link each individual model guide.",
+    "changes": [
+      "Replace the article price table and price-led opening with a photo hero and eight model cards.",
+      "Remove all hub price figures, long market commentary and stale price-based FAQ language.",
+      "Replace Article schema with CollectionPage and an ItemList for eight existing model destinations.",
+      "Retain the canonical URL, H1, incoming links, model-directory anchor and FAQ anchor.",
+      "Use nine optimized photo placements from eight visually inspected existing Joe photos."
+    ],
+    "intentionalLiveDiff": [
+      "Old article headings and article wrapper are replaced by the model directory and short supporting sections.",
+      "Six old FAQs become four matched directory FAQs. Article schema becomes CollectionPage.",
+      "The photo set, title and description change with the requested directory design."
+    ],
+    "unchanged": [
+      "All individual model pages and their prices.",
+      "All seven inbound hub links.",
+      "Shared site layout, navigation and contact information."
+    ]
+  },
+  "AUDIT_REVIEW": {
+    "date": "2026-10-21T17:30:27.122Z",
+    "verify": "pnpm 11.7.0 run verify passed: 0 Astro errors, 0 Astro warnings, 0 copy hard failures.",
+    "targeted": {
+      "checked": "2026-10-21T17:29:09.991Z",
+      "url": "/vintage-fender-value-guide/",
+      "pass": true,
+      "errors": [],
+      "title": "Vintage Fender Value Guide: Guitar And Bass Model Guides",
+      "titleCount": 56,
+      "descriptionCount": 154,
+      "models": [
+        {
+          "name": "Stratocaster",
+          "url": "/vintage-fender-stratocaster-value-guide/"
+        },
+        {
+          "name": "Telecaster",
+          "url": "/vintage-fender-telecaster-value-guide/"
+        },
+        {
+          "name": "Esquire",
+          "url": "/vintage-fender-esquire-value-guide/"
+        },
+        {
+          "name": "Jazzmaster",
+          "url": "/vintage-fender-jazzmaster-value-guide/"
+        },
+        {
+          "name": "Jaguar",
+          "url": "/vintage-fender-jaguar-value-guide/"
+        },
+        {
+          "name": "Mustang",
+          "url": "/post/fender-mustang-history-value/"
+        },
+        {
+          "name": "Precision Bass",
+          "url": "/vintage-fender-precision-bass-value-guide/"
+        },
+        {
+          "name": "Jazz Bass",
+          "url": "/vintage-fender-jazz-bass-value-guide/"
+        }
+      ],
+      "prices": 0,
+      "tables": 0,
+      "faqCount": 4,
+      "images": [
+        {
+          "src": "/_astro/1962-fender-stratocaster-sunburst-8-scaled.CELYKZ6E_yHuLP.webp",
+          "alt": "Sunburst Fender Stratocaster with a white pickguard and vibrato arm in an orange-lined case"
+        },
+        {
+          "src": "/_astro/1962-fender-stratocaster-sunburst-8-scaled.CELYKZ6E_2e7S1p.webp",
+          "alt": "Sunburst Stratocaster body with three white pickups in an orange-lined case"
+        },
+        {
+          "src": "/_astro/1952-fender-telecaster-body-scaled.BoCHmUeP_p5zdI.webp",
+          "alt": "Blonde Telecaster with a black pickguard in front of tweed Fender amplifiers"
+        },
+        {
+          "src": "/_astro/1957-fender-esquire-blonde-full-front.CGx-_7_8_w8Oiq.webp",
+          "alt": "Blonde Esquire body with a white pickguard and chrome bridge cover"
+        },
+        {
+          "src": "/_astro/1966-fender-jazzmaster-lake-placid-blue-front.CDoQmmbC_XPCck.webp",
+          "alt": "Blue Jazzmaster body with a white pickguard, two white pickup covers and a vibrato arm"
+        },
+        {
+          "src": "/_astro/1966-fender-jaguar-olympic-white-1-scaled.ayQ7Yjc__ZgTKR2.webp",
+          "alt": "Cream-colored Jaguar body with a tortoiseshell pickguard and chrome control plates"
+        },
+        {
+          "src": "/_astro/1971-fender-mustang-competition-blue-front.DOIva0Df_2wrR3T.webp",
+          "alt": "Blue Mustang with pale body stripes and a patterned strap in an orange-lined case"
+        },
+        {
+          "src": "/_astro/1952-fender-precision-bass-800x533.B9ys3MSL_BrrRm.webp",
+          "alt": "Blonde Precision Bass body with a black pickguard and chrome covers in an open case"
+        },
+        {
+          "src": "/_astro/1966-fender-jazz-bass-lake-placid-blue-1-scaled.CiGAWGgI_9EwU.webp",
+          "alt": "Blue-green Jazz Bass body with a pale pickguard, chrome covers and three black knobs"
+        }
+      ]
+    },
+    "responsive": [
+      {
+        "width": 1440,
+        "overflow": false,
+        "heading": {
+          "x": 40,
+          "y": 374.5625,
+          "width": 574.625,
+          "height": 130.625
+        },
+        "logo": {
+          "x": 37.59375,
+          "y": 0,
+          "width": 220,
+          "height": 264
+        },
+        "cards": 8,
+        "images": [
+          {
+            "loaded": true,
+            "rect": {
+              "x": 669.625,
+              "y": 277,
+              "width": 729.375,
+              "height": 486.25
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 81,
+              "y": 1207.125,
+              "width": 300,
+              "height": 200
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 407,
+              "y": 1207.125,
+              "width": 300,
+              "height": 200
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 733,
+              "y": 1207.125,
+              "width": 300,
+              "height": 200
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 1059,
+              "y": 1207.125,
+              "width": 300,
+              "height": 200
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 81,
+              "y": 1694.46875,
+              "width": 300,
+              "height": 200
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 407,
+              "y": 1694.46875,
+              "width": 300,
+              "height": 200
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 733,
+              "y": 1694.46875,
+              "width": 300,
+              "height": 200
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 1059,
+              "y": 1694.46875,
+              "width": 300,
+              "height": 200
+            }
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "heading": {
+          "x": 20,
+          "y": 194,
+          "width": 350,
+          "height": 92.875
+        },
+        "logo": {
+          "x": 13.84375,
+          "y": 0,
+          "width": 110,
+          "height": 132
+        },
+        "cards": 8,
+        "images": [
+          {
+            "loaded": true,
+            "rect": {
+              "x": 21,
+              "y": 584.25,
+              "width": 348,
+              "height": 232
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 21,
+              "y": 1228.40625,
+              "width": 348,
+              "height": 232
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 21,
+              "y": 1723.25,
+              "width": 348,
+              "height": 232
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 21,
+              "y": 2218.09375,
+              "width": 348,
+              "height": 232
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 21,
+              "y": 2712.9375,
+              "width": 348,
+              "height": 232
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 21,
+              "y": 3207.78125,
+              "width": 348,
+              "height": 232
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 21,
+              "y": 3702.625,
+              "width": 348,
+              "height": 232
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 21,
+              "y": 4197.46875,
+              "width": 348,
+              "height": 232
+            }
+          },
+          {
+            "loaded": true,
+            "rect": {
+              "x": 21,
+              "y": 4692.3125,
+              "width": 348,
+              "height": 232
+            }
+          }
+        ]
+      }
+    ],
+    "liveDiff": {
+      "report": "reports/gap2-fender-hub-directory-audit-2026-10-21T17-29-30-583Z.md",
+      "rawMustFixBuckets": 3,
+      "reviewed": "Requested directory redesign replaces old article headings, article wrapper, Article schema and six FAQs with model sections, CollectionPage schema and four directory FAQs. H1 text is preserved; it now has an explicit id. These differences are intentional and authorized by Joe. Both shared Reverb icon dimension warnings predate this change. All 11 checked asset URLs loaded."
+    }
+  }
+}

@@ -1,0 +1,160 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LicensedImage from '../components/primitives/LicensedImage.astro';
+import { getImage } from 'astro:assets';
+import { Content } from '../content/value-guides/vintage-fender-value-guide.md';
+import data from '../data/value-guides/vintage-fender-value-guide.json';
+import { resolveImage } from '../lib/images';
+import { SITE_URL } from '../config/site';
+
+// Joe requested a photo-led model directory on October 21, 2026.
+// Prices belong on the linked model guides; keep this hub free of value tables.
+const hero = resolveImage(data.ogImage)!;
+const og = await getImage({ src: hero, width: 1200 });
+const models = data.models.map(model => ({ ...model, photo: resolveImage(model.image)! }));
+const isPreview = import.meta.env.CF_PAGES_BRANCH
+  ? import.meta.env.CF_PAGES_BRANCH !== 'main'
+  : import.meta.env.DEV;
+const structuredData = [{
+  '@context': 'https://schema.org', '@type': 'CollectionPage',
+  '@id': SITE_URL + data.url, name: data.h1, description: data.description,
+  image: SITE_URL + og.src, datePublished: data.date, dateModified: data.modified,
+  author: { '@id': SITE_URL + '/about-me/#person' },
+  mainEntity: { '@type': 'ItemList', itemListElement: models.map((model, i) => ({
+    '@type': 'ListItem', position: i + 1, name: model.name + ' Value Guide', url: SITE_URL + model.url
+  })) }
+}, {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: data.faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
+}, {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL + '/' },
+    { '@type': 'ListItem', position: 2, name: data.h1, item: SITE_URL + data.url }
+  ]
+}];
+---
+<Layout title={data.title} description={data.description} canonical={data.url}
+  ogImage={SITE_URL + og.src} ogImageWidth={og.attributes.width} ogImageHeight={og.attributes.height} ogImageAlt={data.alt}
+  structuredData={structuredData} publishedTime={data.date} modifiedTime={data.modified}
+  noIndex={isPreview} bodyClass="fvhub-page">
+  <section class="fvhub-hero" aria-labelledby="fvhub-title">
+    <div class="fvhub-hero-inner">
+      <div class="fvhub-hero-copy">
+        <p class="fvhub-eyebrow">From Joe's Guitar Archive</p>
+        <h1 id="fvhub-title">Vintage Fender <br /><span>Value Guide</span></h1>
+        <p class="fvhub-intro">Choose your Fender model to find its value guide. I've gathered the guitar and bass guides here so you can go straight to the year, finish and condition that match yours.</p>
+        <a class="fvhub-button" href="#vintage-fender-values-by-model">Find Your Model <span aria-hidden="true">↓</span></a>
+        <p class="fvhub-byline">By Joe Dampt <span aria-hidden="true">·</span> Updated October 2026</p>
+      </div>
+      <figure class="fvhub-hero-photo">
+        <LicensedImage src={hero} alt={data.alt} width={1600} loading="eager" fetchpriority="high"
+          sizes="(max-width: 900px) calc(100vw - 40px), (max-width: 1360px) 54vw, 710px" />
+        <figcaption>A sunburst Stratocaster in its orange-lined case. From my own photo archive.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <nav class="fvhub-jump-links" aria-label="Fender guide sections">
+    <div><a href="#vintage-fender-values-by-model">Model Guides</a><a href="#before-you-choose-a-range">Before You Compare</a><a href="#value-questions">Common Questions</a></div>
+  </nav>
+
+  <section class="fvhub-models fvhub-container" id="vintage-fender-values-by-model" aria-labelledby="fvhub-model-heading">
+    <div class="fvhub-section-heading">
+      <p class="fvhub-eyebrow">Guitars And Basses</p>
+      <h2 id="fvhub-model-heading">Find Your Fender Model</h2>
+      <p>Open a guide for its year-by-year references, condition notes and original photographs. Each model has its own comparisons.</p>
+    </div>
+    <div class="fvhub-model-grid">
+      {models.map(model => (
+        <a class="fvhub-model-card" href={model.url} aria-label={`${model.name} value guide`}>
+          <div class="fvhub-card-photo"><LicensedImage src={model.photo} alt={model.alt} width={720} loading="lazy"
+            sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 45vw, 300px" /></div>
+          <div class="fvhub-card-copy">
+            <p class="fvhub-card-family">{model.family}</p>
+            <h3>{model.name}</h3>
+            <p class="fvhub-card-description">{model.description}</p>
+            <span class="fvhub-card-link">Explore The Value Guide <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="fvhub-help" id="before-you-choose-a-range">
+    <div class="fvhub-container fvhub-help-inner">
+      <div class="fvhub-help-copy"><Content /></div>
+      <aside class="fvhub-appraisal">
+        <p class="fvhub-eyebrow">Your Guitar, Your Questions</p>
+        <h2>Not Sure Which Fender You Have?</h2>
+        <p>Send me clear photos of the front, back, headstock and case, plus any history you know. I'll help you identify the model and work through an appraisal.</p>
+        <a class="fvhub-button" href="/free-appraisal/">Ask Joe About Your Fender <span aria-hidden="true">→</span></a>
+      </aside>
+    </div>
+  </section>
+
+  <section id="value-questions" class="fvhub-faq fvhub-container" aria-labelledby="fvhub-faq-heading">
+    <p class="fvhub-eyebrow">Using The Guides</p>
+    <h2 id="fvhub-faq-heading">Questions About Fender Values</h2>
+    <div class="fvhub-faq-list">{data.faqs.map(f => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}</div>
+  </section>
+</Layout>
+
+<style>
+  .fvhub-hero{background:var(--color-brand-brown);color:var(--color-brand-cream);padding:276px 28px 70px;border-bottom:5px solid var(--color-brand-rust)}
+  .fvhub-hero-inner{max-width:1360px;margin:auto;display:grid;grid-template-columns:minmax(0,.88fr) minmax(0,1.12fr);gap:54px;align-items:center}
+  .fvhub-eyebrow{font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;line-height:1.5;margin:0 0 16px;color:var(--color-brand-rust-dark)}
+  .fvhub-hero .fvhub-eyebrow{color:var(--color-brand-cream)}
+  .fvhub-hero h1{font-family:var(--font-display);font-size:clamp(42px,4.2vw,66px);line-height:1.08;font-weight:600;margin:0 0 24px;color:white}
+  .fvhub-hero h1 span{color:var(--color-brand-cream)}
+  .fvhub-intro{font-size:18px;line-height:1.75;max-width:510px;margin:0 0 28px}
+  .fvhub-button{display:inline-flex;align-items:center;justify-content:space-between;gap:26px;padding:14px 22px;background:var(--color-brand-cream);color:var(--color-brand-brown);font-weight:700;font-size:14px;line-height:1.5;text-decoration:none;border:1px solid var(--color-brand-cream);transition:background .18s,color .18s}
+  .fvhub-button:hover{background:white;color:var(--color-brand-rust-dark)}
+  .fvhub-button span{font-size:20px;line-height:1}
+  .fvhub-byline{font-size:12px;line-height:1.6;margin:23px 0 0;color:var(--color-brand-cream)}
+  .fvhub-byline span{padding:0 7px}
+  .fvhub-hero-photo{margin:0;border:1px solid var(--color-brand-brown-tan);background:var(--color-brand-brown);box-shadow:0 20px 50px #0004}
+  .fvhub-hero-photo :global(img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+  .fvhub-hero-photo figcaption{padding:13px 18px;font-size:12px;line-height:1.6;color:var(--color-brand-cream)}
+  .fvhub-jump-links{background:var(--color-brand-parchment);border-bottom:1px solid var(--color-brand-brown-tan)}
+  .fvhub-jump-links>div{display:flex;gap:35px;max-width:1280px;margin:auto;padding:18px 28px;flex-wrap:wrap}
+  .fvhub-jump-links a{font-size:13px;font-weight:700;color:var(--color-brand-rust-dark);text-decoration:underline;text-underline-offset:5px}
+  .fvhub-container{max-width:1336px;margin:0 auto;padding-left:28px;padding-right:28px}
+  .fvhub-models{padding-top:68px;padding-bottom:76px;scroll-margin-top:24px}
+  .fvhub-section-heading{max-width:720px;margin-bottom:34px}
+  h2{font-family:var(--font-display);font-size:clamp(30px,3vw,40px);line-height:1.2;font-weight:600;color:var(--color-brand-brown);margin:0 0 20px}
+  .fvhub-section-heading>p:last-child{font-size:17px;line-height:1.8;color:var(--color-brand-charcoal);margin:0}
+  .fvhub-model-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+  .fvhub-model-card{display:flex;flex-direction:column;border:1px solid var(--color-brand-brown-tan);background:white;color:var(--color-brand-brown);text-decoration:none;transition:border-color .18s,box-shadow .18s;min-width:0}
+  .fvhub-model-card:hover{border-color:var(--color-brand-rust);box-shadow:0 8px 24px #36241614}
+  .fvhub-card-photo{overflow:hidden;background:var(--color-brand-brown)}
+  .fvhub-card-photo :global(img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+  .fvhub-card-copy{display:flex;flex-direction:column;flex:1;padding:23px 22px 21px}
+  .fvhub-card-family{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--color-brand-rust-dark);margin:0 0 9px}
+  .fvhub-card-copy h3{font-family:var(--font-display);font-size:29px;font-weight:600;line-height:1.15;margin:0 0 14px}
+  .fvhub-card-description{font-size:14px;line-height:1.75;color:var(--color-brand-charcoal);margin:0 0 24px}
+  .fvhub-card-link{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto;padding-top:16px;border-top:1px solid var(--color-brand-brown-tan);font-size:12px;font-weight:700;color:var(--color-brand-rust-dark)}
+  .fvhub-card-link span{font-size:21px;font-weight:400}
+  .fvhub-model-card:hover .fvhub-card-link{text-decoration:underline;text-underline-offset:3px}
+  a:focus-visible,summary:focus-visible{outline:3px solid var(--color-brand-rust);outline-offset:5px}
+  .fvhub-help{background:var(--color-brand-parchment);padding:64px 0;scroll-margin-top:24px;border-top:1px solid var(--color-brand-brown-tan);border-bottom:1px solid var(--color-brand-brown-tan)}
+  .fvhub-help-inner{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:80px;align-items:start}
+  .fvhub-help-copy :global(h2){font-family:var(--font-display);font-size:32px;line-height:1.25;color:var(--color-brand-brown);font-weight:600;margin:0 0 22px}
+  .fvhub-help-copy :global(p){font-size:16px;line-height:1.85;color:var(--color-brand-charcoal);margin:0 0 20px}
+  .fvhub-help-copy :global(a){color:var(--color-brand-rust-dark);text-decoration:underline;text-underline-offset:3px}
+  .fvhub-appraisal{background:var(--color-brand-brown);padding:34px;color:var(--color-brand-cream);border-top:4px solid var(--color-brand-rust)}
+  .fvhub-appraisal .fvhub-eyebrow,.fvhub-appraisal h2{color:var(--color-brand-cream)}
+  .fvhub-appraisal h2{font-size:30px}
+  .fvhub-appraisal>p:not(.fvhub-eyebrow){font-size:15px;line-height:1.85;margin:0 0 25px}
+  .fvhub-faq{padding-top:68px;padding-bottom:80px;scroll-margin-top:24px}
+  .fvhub-faq-list{max-width:900px;margin-top:30px}
+  .fvhub-faq details{border-top:1px solid var(--color-brand-brown-tan);padding:22px 0}
+  .fvhub-faq details:last-child{border-bottom:1px solid var(--color-brand-brown-tan)}
+  .fvhub-faq summary{font-family:var(--font-display);font-size:23px;line-height:1.4;color:var(--color-brand-brown);cursor:pointer;padding-right:15px}
+  .fvhub-faq details p{font-size:16px;line-height:1.8;max-width:760px;margin:16px 0 0;color:var(--color-brand-charcoal)}
+  @media(min-width:1620px){.fvhub-hero{padding-top:210px}}
+  @media(max-width:1100px){.fvhub-model-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.fvhub-hero-inner{gap:32px}.fvhub-help-inner{gap:40px}}
+  @media(max-width:900px){.fvhub-hero{padding-top:210px}.fvhub-hero-inner{grid-template-columns:1fr;gap:36px;max-width:700px}.fvhub-hero-copy{max-width:620px}.fvhub-hero h1 br{display:none}.fvhub-hero h1 span::before{content:' '}.fvhub-intro{max-width:620px}.fvhub-help-inner{grid-template-columns:1fr;gap:30px}.fvhub-appraisal{max-width:620px}}
+  @media(max-width:639px){.fvhub-hero{padding:160px 20px 38px}.fvhub-hero h1{font-size:43px}.fvhub-intro{font-size:16px;line-height:1.8}.fvhub-jump-links>div{gap:20px;padding:17px 20px}.fvhub-jump-links a{font-size:12px}.fvhub-container{padding-left:20px;padding-right:20px}.fvhub-models,.fvhub-faq{padding-top:42px;padding-bottom:46px}.fvhub-model-grid{grid-template-columns:1fr;gap:24px}.fvhub-section-heading{margin-bottom:26px}.fvhub-card-copy{padding:22px}.fvhub-help{padding:42px 0}.fvhub-appraisal{padding:27px}.fvhub-faq summary{font-size:21px}}
+  @media(prefers-reduced-motion:reduce){.fvhub-button,.fvhub-model-card{transition:none}}
+</style>
