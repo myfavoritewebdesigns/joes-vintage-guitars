@@ -2,6 +2,8 @@ Vintage Fender Jaguar sunburst comparisons run from $3,700 to $10,000 across the
 
 I start with the guitar's year and configuration, then compare the finish, parts, repairs and case with the instruments behind the range. If you need to establish the year or originality first, my [vintage Fender Jaguar authentication guide](/post/vintage-fender-jaguar-guide/) explains the evidence to check.
 
+If you're comparing a Jaguar with another model, use my [Fender guitar and bass value guide](/vintage-fender-value-guide/) to find the matching price table.
+
 ## Vintage Fender Jaguar Values By Year
 
 As of October 2026, the table uses three independent completed Reverb transactions for each era comparison. The 1965 row preserves this site's existing $4,000 to $6,000 conditional reference; three verified sales fall inside it. Amounts are in U.S. dollars, excluding separately charged shipping and taxes. Each row names the year, but repeated ranges share an era sample rather than a separate set of same-year sales.
