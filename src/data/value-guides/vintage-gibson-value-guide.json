@@ -1,0 +1,273 @@
+{
+  "title": "Vintage Gibson Value Guide: Find Your Model And Year",
+  "description": "Find your Gibson model and open its value guide, with Les Paul, SG, ES, archtop and acoustic references, condition notes and photos from Joe's own archive.",
+  "h1": "Vintage Gibson Value Guide",
+  "url": "/vintage-gibson-value-guide/",
+  "ogImage": "/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-scaled.jpg",
+  "alt": "Goldtop Gibson Les Paul with two covered pickups and a cream pickguard in front of a pink-lined case",
+  "date": "2026-10-20T00:00:00-07:00",
+  "modified": "2026-10-21",
+  "model": "Gibson",
+  "models": [
+    {
+      "name": "Les Paul Standard",
+      "url": "/vintage-gibson-les-paul-market-value-guide/",
+      "image": "/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-scaled.jpg",
+      "description": "Find Goldtop and Sunburst references, with links to the individual year guides.",
+      "alt": "Goldtop Les Paul with two covered pickups and a cream pickguard beside a pink-lined case",
+      "group": "solidbody",
+      "family": "Solidbody Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "Les Paul Junior",
+      "url": "/vintage-gibson-les-paul-junior-value-guide/",
+      "image": "/images/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-1-scaled.jpg",
+      "description": "Compare Junior configurations, finish references and condition notes in its own guide.",
+      "alt": "Sunburst Les Paul Junior body with one black pickup, a black pickguard and two knobs",
+      "group": "solidbody",
+      "family": "Solidbody Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "Les Paul Special",
+      "url": "/vintage-gibson-les-paul-special-value-guide/",
+      "image": "/images/blog/1955-1958-tv-yellow-les-paul-special-guide/1958-gibson-les-paul-special-tv-yellow-24-scaled.jpg",
+      "description": "Explore Special references, including TV Yellow examples and the covered production years.",
+      "alt": "Yellow Les Paul Special body with two black pickups, a black pickguard and four knobs",
+      "group": "solidbody",
+      "family": "Solidbody Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "Les Paul Custom",
+      "url": "/vintage-gibson-les-paul-custom-value-guide/",
+      "image": "/images/blog/vintage-gibson-les-paul-custom-value-guide/1958-les-paul-custom.jpg",
+      "description": "Find the Custom guide for its pickup configurations, construction periods and condition notes.",
+      "alt": "Black Les Paul Custom with three covered pickups and a Bigsby in an orange-lined case",
+      "group": "solidbody",
+      "family": "Solidbody Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "SG Standard",
+      "url": "/vintage-gibson-sg-standard-value-guide/",
+      "image": "/images/gibson-sg-family-guide/early-60s-gibson-sg-standard-comparison.webp",
+      "description": "Go straight to Standard references, with the covered years and condition assumptions.",
+      "alt": "Cherry SG Standard body with two covered pickups and a long metal vibrato in a red-lined case",
+      "group": "solidbody",
+      "family": "Solidbody Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "SG Special",
+      "url": "/vintage-gibson-sg-special-value-guide/",
+      "image": "/images/gibson-sg-family-guide/1970-gibson-sg-special-comparison.webp",
+      "description": "Read the Special guide for its annual comparisons and notes on originality and repairs.",
+      "alt": "Cherry SG Special body with two black pickups, a large black pickguard and a vibrato arm",
+      "group": "solidbody",
+      "family": "Solidbody Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "SG Junior",
+      "url": "/vintage-gibson-sg-junior-value-guide/",
+      "image": "/images/gibson-sg-family-guide/1960s-gibson-sg-junior.webp",
+      "description": "Find Junior references by year, with the condition and source notes beside the comparisons.",
+      "alt": "Cherry SG Junior with one black pickup, two knobs and a wraparound bridge beside a blue-lined case",
+      "group": "solidbody",
+      "family": "Solidbody Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "SG Custom",
+      "url": "/vintage-gibson-sg-custom-value-guide/",
+      "image": "/images/gibson-serial/1972-gibson-sg-custom.jpg",
+      "description": "Explore the Custom guide for its covered periods, finish distinctions and condition notes.",
+      "alt": "Brown SG Custom body with three covered pickups and gold hardware in a red-lined case",
+      "group": "solidbody",
+      "family": "Solidbody Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "Firebird",
+      "url": "/post/gibson-firebird-history-authentication-value/",
+      "image": "/images/blog/gibson-firebird-history-authentication-value/firebird-body.jpg",
+      "description": "Choose the Firebird model and construction group before reading its value references.",
+      "alt": "Sunburst Firebird body with three covered pickups and a white pickguard beside an orange-lined case",
+      "group": "solidbody",
+      "family": "Solidbody Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "ES-335",
+      "url": "/vintage-gibson-es-335-value-guide/",
+      "image": "/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-scaled.jpg",
+      "description": "Find annual ES-335 references, with condition notes and links to the existing year guides.",
+      "alt": "Sunburst ES-335 body with two covered pickups and a stopbar in a pink-lined case",
+      "group": "es",
+      "family": "ES And Archtop",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "ES-345",
+      "url": "/post/gibson-es-345-history-value/",
+      "image": "/images/blog/gibson-es-345-history-value/1963-gibson-es-345-sunburst-front.jpg",
+      "description": "Read the ES-345 guide for model history, configuration details and value references.",
+      "alt": "Sunburst ES-345 body with two covered pickups and gold-colored hardware in an orange-lined case",
+      "group": "es",
+      "family": "ES And Archtop",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "ES-355",
+      "url": "/vintage-gibson-es-355-value-guide/",
+      "image": "/images/blog/1959-gibson-es-355-history-value/1959-gibson-es-355-cherry-bigsby-controls.jpg",
+      "description": "Compare the ES-355 configurations and covered years in its dedicated value guide.",
+      "alt": "Cherry ES-355 body with two covered pickups and a Bigsby in a red-lined case",
+      "group": "es",
+      "family": "ES And Archtop",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "ES-330",
+      "url": "/vintage-gibson-es-330-value-guide/",
+      "image": "/images/blog/complete-dot-neck-es-330-guide-1959-1962/1959-gibson-es-330-sunburst-scaled.jpg",
+      "description": "Find ES-330 references with pickup, finish and condition distinctions explained together.",
+      "alt": "Sunburst ES-330 body with two black pickups, four gold-colored knobs and a trapeze tailpiece",
+      "group": "es",
+      "family": "ES And Archtop",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "ES-125",
+      "url": "/vintage-gibson-es-125-value-guide/",
+      "image": "/images/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg",
+      "description": "Use the ES-125 guide for its stated model scope, year references and condition notes.",
+      "alt": "Sunburst ES-125 body with one black pickup, two knobs and a trapeze tailpiece",
+      "group": "es",
+      "family": "ES And Archtop",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "ES-5 And Switchmaster",
+      "url": "/post/gibson-es-5-switchmaster-history-value/",
+      "image": "/images/blog/gibson-es-5-switchmaster-history-value/1953-gibson-es-5-sunburst-front.jpg",
+      "description": "Explore ES-5 and Switchmaster references alongside the model history and configurations.",
+      "alt": "Sunburst ES-5 body with three black pickups and a large black pickguard beside a pink-lined case",
+      "group": "es",
+      "family": "ES And Archtop",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "L-5 CES",
+      "url": "/post/gibson-l5-ces-value-guide/",
+      "image": "/images/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-1969-scaled.jpg",
+      "description": "Open the L-5 CES guide for its construction groups, condition context and value references.",
+      "alt": "Sunburst L-5 CES with two covered pickups, a rounded cutaway and a metal tailpiece",
+      "group": "es",
+      "family": "ES And Archtop",
+      "imagePosition": "50% 100%"
+    },
+    {
+      "name": "Super 400",
+      "url": "/post/gibson-super-400-ces-history-authentication-value/",
+      "image": "/images/blog/gibson-super-400-ces-history-authentication-value/1964-gibson-super-400-sunburst-front.jpg",
+      "description": "Find Super 400 references with the model distinctions and condition notes in one place.",
+      "alt": "Sunburst Super 400 body with two covered pickups and a rounded cutaway in an open case",
+      "group": "es",
+      "family": "ES And Archtop",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "J-45",
+      "url": "/vintage-gibson-j-45-value-guide/",
+      "image": "/images/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-1024x683.jpg",
+      "description": "Use the J-45 guide for year references and notes on the condition of the actual guitar.",
+      "alt": "Sunburst J-45 body with a mottled pickguard lying in a brown case",
+      "group": "acoustic",
+      "family": "Acoustic Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "J-200",
+      "url": "/vintage-gibson-j-200-value-guide/",
+      "image": "/images/blog/gibson-j200-model-history-authentication-guide/1948-sj200-sunburst-in-case.jpg",
+      "description": "Explore J-200 references, with the covered years and the limits of the available comparisons.",
+      "alt": "Sunburst J-200 body with a floral pickguard and moustache bridge in a pink-lined case",
+      "group": "acoustic",
+      "family": "Acoustic Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "Hummingbird",
+      "url": "/post/vintage-gibson-hummingbird-history-value-guide/",
+      "image": "/images/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-cherry-sunburst-front.jpg",
+      "description": "Find Hummingbird value references alongside its history and year-by-year model changes.",
+      "alt": "Cherry sunburst Hummingbird body with a decorated pickguard and a dark bridge",
+      "group": "acoustic",
+      "family": "Acoustic Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "LG Series",
+      "url": "/vintage-gibson-lg-series-value-guide/",
+      "image": "/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1950s-gibson-lg-2-vintage-acoustic-guitar-1024x683.jpg",
+      "description": "Choose the LG model within the series guide, then read its year and condition references.",
+      "alt": "Sunburst LG-2 body with a rectangular bridge and a large mottled pickguard",
+      "group": "acoustic",
+      "family": "Acoustic Guitar",
+      "imagePosition": "50% 50%"
+    }
+  ],
+  "groups": [
+    {
+      "key": "solidbody",
+      "id": "vintage-gibson-values-by-model",
+      "label": "Solidbody Guitars",
+      "heading": "Solidbody Guitar Guides",
+      "intro": "I've gathered the Les Paul, SG and Firebird guides here. Choose the model on your guitar, then use that guide's year and condition references.",
+      "overviewUrl": "/vintage-gibson-sg-value-guide/",
+      "overviewLabel": "Compare The SG Models",
+      "overviewText": "If you haven't identified the SG version, start with the family overview."
+    },
+    {
+      "key": "es",
+      "id": "es-and-hollowbody-values",
+      "label": "ES And Archtops",
+      "heading": "ES And Archtop Guides",
+      "intro": "Choose the exact ES or archtop model before comparing years and configurations. Each guide keeps its price references with the condition and source notes.",
+      "overviewUrl": "",
+      "overviewLabel": "",
+      "overviewText": ""
+    },
+    {
+      "key": "acoustic",
+      "id": "gibson-acoustic-values",
+      "label": "Acoustics",
+      "heading": "Acoustic Guitar Guides",
+      "intro": "Open the guide for your acoustic model, then check its covered years and repair notes. Include any known neck, bridge or body work when comparing your guitar.",
+      "overviewUrl": "/vintage-gibson-acoustic-value-guide/",
+      "overviewLabel": "Explore The Gibson Acoustic Overview",
+      "overviewText": "For help choosing a model guide, I've also gathered the acoustic families in one overview."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Where Can I Find A Price Range For My Gibson?",
+      "a": "Choose your model above, then find its year and configuration in the guide. I've kept the price tables and condition notes together on those model pages so you can read the assumptions with each comparison."
+    },
+    {
+      "q": "Which Guide Should I Use For An SG?",
+      "a": "The Standard, Special, Junior and Custom each have a dedicated guide linked above. If you're unsure which SG you have, start with the SG family overview or send me photographs before choosing a comparison."
+    },
+    {
+      "q": "Are Gibson Acoustic Guitars Included?",
+      "a": "Yes. I've linked the J-45, J-200, Hummingbird and LG-series guides in the acoustic section. The Gibson acoustic overview connects those pages and explains the coverage for related models."
+    },
+    {
+      "q": "What If I Don't Know My Gibson's Model Or Year?",
+      "a": "Send me clear photographs of the whole guitar, both sides of the headstock and its case, along with any history you know. You don't need to remove parts or open the electronics before getting in touch."
+    }
+  ]
+}
