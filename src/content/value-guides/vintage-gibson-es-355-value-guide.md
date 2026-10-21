@@ -4,9 +4,9 @@ I buy vintage Gibsons nationwide from Mesa, Arizona. This guide separates the pr
 
 ## Values By Year
 
-These ranges are reviewed **as of October 2026**. They assume an all-original guitar in excellent condition with its original case and no structural repair. A quality refret is accepted maintenance under the site's grading approach, although the guitar then falls outside museum-quality condition.
+These ranges are reviewed **as of October 2026**. They assume an all-original guitar in excellent condition with its original case and no structural repair. A quality refret is accepted maintenance, although the guitar then falls outside museum-quality condition.
 
-The ranges describe clean original guitars under the condition assumptions above. Changed electronics, repairs or unusual factory configurations need individual appraisals. I don't treat the table as a guaranteed selling price.
+The ranges describe clean original guitars under the condition assumptions above. Changed electronics, repairs or unusual factory configurations need individual appraisals. The final selling price depends on the individual guitar and buyer.
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
@@ -39,13 +39,7 @@ The table covers every year from the model's 1958 introduction through 1979. Adj
 
 Match the configuration before using a number. A later PAF-equipped guitar, factory mono example from the 1960s or rare finish can sit outside the main stereo rows. I appraise those configurations individually.
 
-<figure>
 
-![Cherry ES-355 body with two covered humbuckers, four controls and a Bigsby](../../assets/blog/1959-gibson-es-355-history-value/1959-gibson-es-355-cherry-bigsby-controls.jpg)
-
-<figcaption>My 1959 mono ES-355 photograph shows the four controls and Bigsby against the pink case lining. The existing model guide documents later reflector knobs on this example.</figcaption>
-
-</figure>
 
 ## Mono, Stereo And The Price Difference
 
@@ -53,7 +47,7 @@ A factory mono ES-355 sends a conventional combined guitar signal to an amplifie
 
 A stereo instrument converted to mono isn't a factory mono instrument. It may be convenient for the player, but its wiring history belongs in the description. If the original harness remains with the guitar, keep it together and include it in the photographs.
 
-I don't assume that a mono conversion includes the same work on every guitar. One owner may have changed the output connection while retaining the original components. Another may have installed a complete replacement harness, removed the Varitone or drilled an extra control hole.
+I check exactly what was changed during a mono conversion. One owner may have changed the output connection while retaining the original components. Another may have installed a complete replacement harness, removed the Varitone or drilled an extra control hole.
 
 Those changes cannot be priced by reading “mono” in a listing title. The appraisal needs the original configuration, the work performed and the parts that survive. A guitar can be an excellent player while falling outside the clean-original reference.
 
@@ -69,7 +63,7 @@ Changed electronics, a repaired neck or separated wood can put an early ES-355 o
 
 Factory mono stop-tail instruments have a separate 1959 guide range of $41,000 to $54,000, with exceptional examples outside it. I establish the original configuration before using that range; a later stopbar conversion doesn't make a guitar a factory stop-tail example.
 
-An added tailpiece and plugged vibrato holes do not establish factory stop-tail status. I need the construction evidence before deciding which market comparisons belong. The authentication guide handles that inspection; this page keeps the financial consequence separate.
+An added tailpiece and plugged vibrato holes do not establish factory stop-tail status. I need the construction evidence before deciding which market comparisons belong. Construction evidence separates a factory stop-tail guitar from a later conversion.
 
 <figure>
 
@@ -89,7 +83,7 @@ The 1966 to 1969 rows use a combined standard-finish stereo range. I assess the 
 
 A neck reset or conversion to mono changes the condition assumptions. I describe those changes separately and assess the guitar as it exists now.
 
-Sparkling Burgundy and other less common configurations need individual appraisals. A finish name alone doesn't settle value, and a refinish doesn't carry the same collector standing as an original custom finish. I don't use a fixed color percentage.
+Sparkling Burgundy and other less common configurations need individual appraisals. A finish name alone doesn't settle value, and a refinish doesn't carry the same collector standing as an original custom finish. The original finish, year and condition together determine its effect on value.
 
 <figure>
 
@@ -111,15 +105,15 @@ Age alone doesn't turn a replacement into an original part. A replacement instal
 
 ## Condition Without A Stack Of Automatic Deductions
 
-Original finish, original pickups and structural condition are separate parts of the appraisal. A worn original finish and a glossy refinish can represent very different collector positions. I don't treat shine as a substitute for a documented history.
+Original finish, original pickups and structural condition are separate parts of the appraisal. A worn original finish and a glossy refinish can represent very different collector positions. Originality and documented history carry more weight than surface shine.
 
 A repaired headstock needs a description of the break, the repair and any related finish work. A stable repair can leave a useful instrument, but it takes the guitar outside the no-structural-repair assumption in the annual table. The appropriate comparison is another documented repaired example.
 
 Multiple changes should be assessed together. Adding a finish deduction, a pickup deduction and a wiring deduction mechanically can produce a number that doesn't resemble the market for the complete guitar. I compare the resulting instrument with other instruments in similar condition.
 
-The old model article used percentage deductions for several issues. This value guide doesn't turn those broad figures into a universal calculator. The price reference is a starting condition, and a repair or alteration calls for a matching comparison rather than a guaranteed percentage.
+Refinishing, replaced pickups and structural repairs can each take a substantial share of an ES-355's value. Their effect depends on the configuration, repair quality and original parts that remain.
 
-A good refret is handled differently from a reshaped neck or a damaged fingerboard. Under the site's grading approach, a quality refret preserves an otherwise all-original classification while removing museum-quality status. The work still needs to be disclosed.
+A good refret is handled differently from a reshaped neck or a damaged fingerboard. A quality refret preserves an otherwise all-original classification while removing museum-quality status. The work still needs to be disclosed.
 
 <figure>
 
@@ -133,11 +127,11 @@ A good refret is handled differently from a reshaped neck or a damaged fingerboa
 
 The pickup type can place an ES-355 into a different reference group. Replaced pickups, rewinds and changed wiring should be listed separately where known. An exterior photograph of a metal cover cannot settle all of those questions.
 
-I don't ask an owner to remove covers for a first appraisal. Existing service photographs and written repair records are better starting points than unnecessary disassembly. If further inspection is needed, we can identify the specific question first.
+Leave pickup covers in place for the first appraisal. Existing service photographs and written repair records are better starting points than unnecessary disassembly. If further inspection is needed, we can identify the specific question first.
 
 Keep loose original hardware with the instrument. A bridge, pickguard, harness or set of tuners removed during a repair still helps explain the guitar's history. It should be included in the description instead of being assumed installed.
 
-The photographed guitar on this page comes from my existing 1959 archive. Its black reflector knobs are discussed as later replacements in the model guide. These pictures illustrate the instrument and its details; they aren't presented as a certified untouched example of every table row.
+The black reflector knobs on my photographed 1959 ES-355 are most likely replacements, although a late-1959 or 1960 build is another possibility. Its date and parts need to be assessed together.
 
 The neck photograph also helps distinguish the model visually without turning this into a dating walkthrough. The ES-355's ebony fingerboard, block inlays and split-diamond headstock belong to its trim package. They don't make a stereo conversion equivalent to a factory mono guitar.
 
@@ -157,7 +151,7 @@ Photograph the case exterior, interior, handle and latches. A damaged case can s
 
 Family history can help explain repairs and ownership without replacing an inspection. My [one-family 1959 ES-355 story](/post/one-family-1959-gibson-es-355/) documents a specific instrument and its stereo-to-mono conversion. It shows why the actual history belongs beside the model name.
 
-I don't add a provenance premium just because a guitar has been in one family for a long time. Documentation can make its condition history clearer. A separate claim about a famous owner needs evidence of its own.
+Family records can support the guitar's history and originality. Documentation can make its condition history clearer. A separate claim about a famous owner needs evidence of its own.
 
 <figure>
 
@@ -173,7 +167,7 @@ The most decorated model isn't automatically the most expensive vintage guitar. 
 
 Use the [vintage Gibson ES-335 value guide](/vintage-gibson-es-335-value-guide/) for a guitar identified as an ES-335. It has its own annual rows and condition assumptions. A seller's shorthand description of “like a 335” doesn't move an ES-355 into that table.
 
-An ES-345 also requires its own model reference. Trim, electronics and original configuration are part of what the buyer is choosing. I avoid a fixed family-wide percentage that assumes every year behaves the same way.
+An ES-345 also requires its own [model value reference](/post/gibson-es-345-history-value/). Trim, electronics and original configuration are part of what the buyer is choosing. I avoid a fixed family-wide percentage that assumes every year behaves the same way.
 
 ## Getting A Range For Your Guitar
 
@@ -182,3 +176,5 @@ For a first review, send the whole front and back, headstock front and back, nec
 Tell me about known changes even if they seem small. A replaced guard, rewired output or old tuner swap can explain why a guitar doesn't fit the clean reference. If you're unsure, an uncertainty is more useful than an unsupported claim that everything is original.
 
 I can begin with a [free vintage guitar appraisal](/free-appraisal/). I buy nationwide and can discuss the complete instrument after reviewing the photographs. The annual table gives us a starting point; the final range belongs to the guitar in front of us.
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.

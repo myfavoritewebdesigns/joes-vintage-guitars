@@ -4,7 +4,7 @@ I buy vintage Gibsons nationwide from Mesa, Arizona. With an ES-125, I establish
 
 ## Values By Year
 
-The following ranges are reviewed **as of October 2026**. They cover the full-size, full-depth, single-pickup sunburst ES-125 in all-original, excellent condition with its original case and no structural repair. A quality refret is accepted maintenance under the site's grading approach, but the guitar then falls outside museum-quality condition.
+The following ranges are reviewed **as of October 2026**. They cover the full-size, full-depth, single-pickup sunburst ES-125 in all-original, excellent condition with its original case and no structural repair. A quality refret is accepted maintenance, but the guitar then falls outside museum-quality condition.
 
 The table groups similar configurations into era ranges. Adjacent years can share a range without every guitar being worth the same amount. I narrow the appraisal around condition, originality and the included case.
 
@@ -38,17 +38,11 @@ The table groups similar configurations into era ranges. Adjacent years can shar
 | 1969 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
 | 1970 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
 
-The dates follow this site's original-production chronology: 1941 and 1942, then 1946 through 1970. There are no invented wartime production rows or rows after the original run. The early postwar range is a shared configuration reference, not a separately established premium for a 1946 example.
+Original ES-125 production spans 1941 and 1942, then resumes in 1946 and continues through 1970. The early postwar guitars share a range; originality and condition narrow the value within it.
 
 Changed tuners, replaced hardware, repaired cracks and a later case can put a guitar outside the clean-original category. I consider those details before applying the table.
 
-<figure>
 
-![Sunburst 1954 ES-125 with one black pickup, two controls and a trapeze tailpiece](../../assets/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg)
-
-<figcaption>My archive photograph shows the full-depth single-pickup model used for the main annual table.</figcaption>
-
-</figure>
 
 ## Start With The Complete Model
 
@@ -58,7 +52,7 @@ The standard guitar in the price table has one pickup and no cutaway. The T suff
 
 A small-body, short-scale example is a separate category. It isn't simply a worn or inexpensive version of the full-size guitar. I confirm its proportions and playing dimensions before choosing a range.
 
-I haven't assigned a fixed premium for a second pickup or a cutaway. Those features may place the guitar in a different market, but the amount depends on the exact variant, era and condition. A fabricated multiplier would give a precise-looking answer to the wrong question.
+The pickup and body configuration need to match the model being appraised. Those features may place the guitar in a different market, but the amount depends on the exact variant, era and condition. A fabricated multiplier would give a precise-looking answer to the wrong question.
 
 The photographs here show several family members so you can see why the name needs to be complete. The two-pickup photographs aren't presented as examples of the single-pickup range. Their purpose is to keep unlike guitars out of the same comparison.
 
@@ -78,7 +72,7 @@ A marketplace category or seller's date can be wrong. I confirm the actual model
 
 The early postwar group also needs its stated pickup configuration. A nonadjustable-pole pickup and a later adjustable example should not be confused solely because both are called P-90s. The identification guide has the detail needed to establish which guitar you have.
 
-I haven't added a separate mahogany-body premium. An unusual construction claim needs the actual instrument and appropriate comparisons. A seller's description of “rare” isn't enough to establish another range.
+Mahogany-body examples occur within the ES-125 family. I identify the construction and compare similarly built guitars in matching condition before placing an unusual example within a range.
 
 Repairs and missing parts can dominate an early ES-125's appraisal. A crack repair, replacement tailpiece or uncertain case history needs to be described clearly. Those details can place it outside the clean-original range.
 
@@ -94,7 +88,7 @@ I also separate the condition of the frets from the condition of the neck itself
 
 ## Thin Bodies And Cutaways
 
-The ES-125T, TC and TDC have enough differences that I don't price them from the main table by analogy. A guitar described as a “1960s ES-125” could belong to one of those groups. A front view, side view and control photograph usually clarify which comparison needs further work.
+The ES-125T, TC and TDC have different body and pickup configurations and need separate appraisals. A guitar described as a “1960s ES-125” could belong to one of those groups. A front view, side view and control photograph usually clarify which comparison needs further work.
 
 The pointed cutaway is visible in the TDC photograph below. Two pickups and their controls are visible as well. Those details identify the photographed configuration without proving the originality of every part.
 
@@ -120,7 +114,7 @@ Cracks, open seams and binding repairs need clear descriptions. A stable repaire
 
 The range doesn't promise that a heavily repaired guitar will sell at its lower endpoint. Both endpoints assume the stated condition. A substantial repair can put the guitar in a different value category.
 
-Good maintenance should be described accurately too. A quality refret preserves the all-original classification of an otherwise original guitar under this site's grading approach, while removing museum-quality status. Reshaping a neck or replacing a fingerboard is different work.
+Good maintenance should be described accurately too. A quality refret preserves the all-original classification of an otherwise original guitar, while removing museum-quality status. Reshaping a neck or replacing a fingerboard is different work.
 
 <figure>
 
@@ -132,7 +126,7 @@ Good maintenance should be described accurately too. A quality refret preserves 
 
 ## Original Finish And Replaced Parts
 
-Surface wear is evidence to document, not something to erase before an appraisal. An original sunburst with checking and playing wear can occupy a different collector category from a fresh refinish. I don't assume that the shinier instrument is the more valuable one.
+Surface wear is evidence to document, not something to erase before an appraisal. An original sunburst with checking and playing wear can occupy a different collector category from a fresh refinish. Originality can make a worn instrument more valuable than a shinier refinish.
 
 A pickup cover tells only part of the story. The visible P-90 cover, pole screws and mounting arrangement can be photographed without removing the pickup. Existing repair photographs can help explain a rewind or replacement if that work is already known.
 
@@ -140,7 +134,7 @@ The electronics description should distinguish the pickup, controls and wiring. 
 
 The bridge and tailpiece should also be recorded separately. A later wooden bridge, replaced trapeze or extra mounting holes can appear on an otherwise appealing instrument. A period-looking replacement isn't necessarily the part that left the factory with that guitar.
 
-I don't publish a universal deduction for any one of those issues. Several changes together can alter the buyer's expectations more than one isolated part. The whole instrument needs a comparison with similarly documented guitars.
+The extent of each alteration determines its effect on value. Several changes together can alter the buyer's expectations more than one isolated part. The whole instrument needs a comparison with similarly documented guitars.
 
 <figure>
 
@@ -176,10 +170,12 @@ An Excellent condition label isn't an originality certificate. Replacement tuner
 
 The 1960s rows share a broad era range. An annual listing helps you find the year, but doesn't imply a fixed price change between adjacent dates.
 
-I don't promise investment performance from an ES-125. Repairs, selling costs, time on the market and the final buyer's preferences affect the result. An appraisal starts with the guitar's present condition.
+An ES-125's future resale value depends on demand, originality and condition. Repairs, selling costs, time on the market and the final buyer's preferences affect the result. An appraisal starts with the guitar's present condition.
 
 ## Sending An ES-125 For Review
 
 Send clear photographs of the front, back, side depth, headstock, neck heel, pickup, controls, bridge, tailpiece and case. Include the serial number or factory marking if you can photograph it without disassembly. Tell me about repairs and replacement parts that are already known.
 
 Leave cleaning, refinishing and parts changes until the instrument has been assessed. I can start with a [free vintage guitar appraisal](/free-appraisal/) and explain which details need a closer look. I buy nationwide, and a complete description helps us move from a broad reference to the guitar's own range.
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.

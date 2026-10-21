@@ -1,5 +1,6 @@
 ---
 title: "The 1959 Gibson ES-335 Authentication Guide: Identifying the “Holy Grail” Semi-Hollow"
+seoTitle: "1959 Gibson ES-335 Authentication And Originality Guide"
 pubDate: "2026-03-05T18:13:59"
 modified: "2026-09-04T10:30:00"
 excerpt: "A close look at the details that set the 1959 apart. From the rare 1958 ‘thin top’ construction and ‘mummified’ Kluson tuners to the ‘white bobbin’ PAF pickups hidden beneath original nickel covers, we go through an exceptionally preserved 1959 Gibson ES-335 ‘Dot Neck.’ If you are a collector looking to authenticate one or a seller trying to understand what your guitar is worth, this guide walks through the small things that tell you what you have. It also explains why the 1959 ES-335 is so highly regarded for its tone and build."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-scaled.jpg"
 heroImageAlt: "A 1959 Gibson ES-335TD in original sunburst finish resting in a vintage brown Lifton case with pink interior at Joe's Vintage Guitars."
-metaDescription: "A close look at the details that set the 1959 apart. From the rare 1958 ‘thin top’ construction and ‘mummified’ Kluson tuners to the ‘white bobbin’ PAF pickups hidden beneath original nickel covers, we go through an exceptionally preserved 1959 Gibson ES-335 ‘Dot Neck.’ If you are a collector looking to authenticate one or a seller trying to understand what your guitar is worth, this guide walks through the small things that tell you what you have. It also explains why the 1959 ES-335 is so highly regarded for its tone and build."
+metaDescription: "Identify 1959 Gibson ES-335 features, original parts and construction details. Compare dating clues, repairs and photographs from my archive."
 ogImage: "/images/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-scaled.jpg"
 wpId: 19215
 ---
@@ -195,7 +196,7 @@ While most PAFs have black plastic bobbins hidden under their nickel covers, 195
 
 ![Close-up of a 1959 Gibson PAF humbucker with a pole piece screw removed to reveal the white bobbin](../../assets/blog/1959-gibson-es-335-authentication-guide/white-bobbin-paf-pickup-4-770x1024.jpg)
 
-To verify the pedigree of this 1959 ES-335, we’ve carefully removed a single pole piece screw to reveal the highly coveted white butyrate bobbin underneath the original nickel cover. While “Double Whites” and “Zebras” are the holy grail for 1959-1960 collectors, we strongly advise against beginners attempting this check. These vintage bobbin leads are extremely fragile; one slipped screwdriver or over-turned screw can break a coil wire, potentially devaluing a $5,000+ pickup in seconds.
+To verify the pedigree of this 1959 ES-335, we’ve carefully removed a single pole piece screw to reveal the highly coveted white butyrate bobbin underneath the original nickel cover. While “Double Whites” and “Zebras” are the holy grail for 1959-1960 collectors, we strongly advise against beginners attempting this check. These vintage bobbin leads are extremely fragile; one slipped screwdriver or over-turned screw can break a coil wire, potentially devaluing a $4,500+ pickup in seconds.
 
 ### How to Authenticate a 1959 PAF
 

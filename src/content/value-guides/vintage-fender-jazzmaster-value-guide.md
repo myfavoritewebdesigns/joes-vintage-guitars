@@ -12,11 +12,11 @@ For comparisons with other Fender models, my [vintage Fender value guide](/vinta
 | --- | --- | --- |
 | 1958 | $11,000 to $18,000 | Gold anodized guard and slab rosewood board. |
 | 1959, Gold Guard | $11,000 to $18,000 | Gold-guard premium exists; shared early-era envelope. |
-| 1959 Tortoise Guard | $11,000 to $18,000 | Gold to tortoise guard transition; gold-guard premium. |
+| 1959, Tortoise Guard | $11,000 to $18,000 | Slab board and original tortoise guard. |
 | 1960 | $11,000 to $18,000 | Slab board and tortoise guard on sunburst. |
 | 1961 | $11,000 to $18,000 | Slab board; original finish and pickups drive placement. |
 | 1962, Early Slab Board | $11,000 to $18,000 | Shared slab-era reference; slab premium over veneer. |
-| 1962 Veneer Board | $8,000 to $10,000 | Slab to veneer transition during spring. |
+| 1962, Veneer Board | $8,000 to $10,000 | Slab to veneer transition during spring. |
 | 1963 | $8,000 to $10,000 | Veneer board and unbound neck. |
 | 1964 | $8,000 to $10,000 | Logo and dot-material transitions; still pre-CBS. |
 | 1965 | $5,500 to $6,500 | CBS purchase in January; binding arrives late in year. |
@@ -35,7 +35,7 @@ For comparisons with other Fender models, my [vintage Fender value guide](/vinta
 | 1978 | $4,000 to $5,500 | Sunburst reference; unusual options need individual evidence. |
 | 1979 | $4,000 to $5,500 | Final year covered here, not the end of all Jazzmaster production. |
 
-Gold-guard and slab-board guitars carry collector premiums, but I don't apply one fixed percentage to every example. The two 1959 rows and the two 1962 rows separate the transition configurations. The 1965 range covers played sunburst guitars; a clean transitional or bound-dot example needs an individual appraisal.
+Gold guards and slab rosewood boards attract collector interest. Both 1959 configurations share the broad early range; condition and originality determine the individual premium. The two 1962 rows distinguish slab and veneer boards. The 1965 range covers played sunburst guitars, while a clean bound-dot example needs an individual appraisal.
 
 ### Condition Behind The Ranges
 
@@ -49,13 +49,7 @@ Gold-guard and slab-board guitars carry collector premiums, but I don't apply on
 
 **1970 To 1979 Sunburst Jazzmaster:** Original sunburst finish and pickups, no disclosed structural repair. Played to very clean; refret, replacement nut or strap buttons and additional shielding accepted. Case originality varies.
 
-<figure>
 
-![Sunburst Fender Jazzmaster with a gold pickguard, white pickup covers and a vibrato arm](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-gold-guard-full-front-scaled.jpg)
-
-<figcaption>A sunburst Jazzmaster with a gold guard and white pickup covers. Photo by Joe Dampt.</figcaption>
-
-</figure>
 
 ## Gold Guards And Slab Rosewood Boards
 
@@ -69,7 +63,7 @@ Slab boards generally bring more than later veneer boards. Veneer is the thinner
 
 ![Worn sunburst Jazzmaster with a tortoise pickguard in a yellow-lined case](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1962-fender-jazzmaster-with-original-case-1-scaled.jpg)
 
-<figcaption>A worn sunburst 1962 Jazzmaster in its yellow-lined case. Photo by Joe Dampt.</figcaption>
+<figcaption>A worn sunburst 1962 Jazzmaster in its yellow-lined case. From my archive.</figcaption>
 
 </figure>
 
@@ -87,7 +81,7 @@ The later 1960s range reaches $9,000 for cleaner guitars and desirable configura
 
 ![Sunburst Jazzmaster with white pickups and a tortoise pickguard in an orange-lined case](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1966-fender-jazzmaster-in-hard-case-scaled.jpg)
 
-<figcaption>A sunburst 1966 Jazzmaster in an orange-lined case. Photo by Joe Dampt.</figcaption>
+<figcaption>A sunburst 1966 Jazzmaster in an orange-lined case. From my archive.</figcaption>
 
 </figure>
 
@@ -99,13 +93,13 @@ The bound neck, block inlays and later fittings define much of the CBS-era appea
 
 ![Lake Placid Blue Jazzmaster with a white pickguard, bridge cover and vibrato arm](../../assets/blog/fender-custom-color-authentication-guide/1966-fender-jazzmaster-lake-placid-blue-front.jpg)
 
-<figcaption>A Lake Placid Blue Jazzmaster with a white guard and white pickup covers. Photo by Joe Dampt.</figcaption>
+<figcaption>A Lake Placid Blue Jazzmaster with a white guard and white pickup covers. From my archive.</figcaption>
 
 </figure>
 
-Lake Placid Blue, Charcoal Frost and other factory colors need an individual appraisal. An original matching headstock can add collector interest. I don't apply a universal custom-color multiplier to the sunburst table.
+Lake Placid Blue, Charcoal Frost and other factory colors need an individual appraisal. An original matching headstock can add collector interest. The exact color, originality and condition determine the premium.
 
-After the gold-guard period, factory custom colors use white guards, with Olympic White the exception that can be paired with tortoiseshell. Tortoise on Fiesta Red or Lake Placid Blue isn't an ordinary factory pairing under the site's house ruling. That finish-and-guard question belongs in an originality assessment before a color premium is considered.
+After the gold-guard period, factory custom colors use white guards, with Olympic White the exception that can be paired with tortoiseshell. Tortoise on Fiesta Red or Lake Placid Blue isn't an ordinary factory pairing. That finish-and-guard question belongs in an originality assessment before a color premium is considered.
 
 The white guards are nitrate through mid-1965, then non-nitrate white vinyl. Their material belongs with the guitar's production period. The [Fender custom-color authentication guide](/post/fender-custom-color-authentication-guide/) explains the finish evidence behind a factory-color appraisal.
 
@@ -113,7 +107,7 @@ The white guards are nitrate through mid-1965, then non-nitrate white vinyl. The
 
 ![Charcoal Frost Jazzmaster with a white pickguard and visible finish wear](../../assets/blog/fender-custom-color-authentication-guide/1965-fender-jazzmaster-charcoal-frost-front.jpg)
 
-<figcaption>Finish wear on a Charcoal Frost Jazzmaster with a white guard. Photo by Joe Dampt.</figcaption>
+<figcaption>Finish wear on a Charcoal Frost Jazzmaster with a white guard. From my archive.</figcaption>
 
 </figure>
 
@@ -134,7 +128,7 @@ A quality refret preserves the all-original classification of an otherwise origi
 
 ![Sunburst Jazzmaster in its case with a woven strap and Fender instruction manual](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1960s-fender-jazzmaster-with-manual-and-strap-scaled.jpg)
 
-<figcaption>A sunburst Jazzmaster with a woven strap and Fender instruction manual. Photo by Joe Dampt.</figcaption>
+<figcaption>A sunburst Jazzmaster with a woven strap and Fender instruction manual. From my archive.</figcaption>
 
 </figure>
 
@@ -144,7 +138,7 @@ The original case and accessories can complete an unusually intact guitar. Early
 
 ![Tweed guitar case with brown leather ends, a handle and visible surface wear](../../assets/blog/fender-jazzmaster-evolution-guide-1958-1971/1959-fender-jazzmaster-tweed-case-exterior-scaled.jpg)
 
-<figcaption>A tweed case with brown leather ends and visible wear. Photo by Joe Dampt.</figcaption>
+<figcaption>A tweed case with brown leather ends and visible wear. From my archive.</figcaption>
 
 </figure>
 

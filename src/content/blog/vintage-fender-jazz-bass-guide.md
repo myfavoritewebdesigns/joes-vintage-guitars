@@ -1,6 +1,6 @@
 ---
-title: "Fender Jazz Bass Guide 1960-1975: Year-by-Year Specs, Dating, and Value"
-seoTitle: "Fender Jazz Bass Dating And Value"
+title: "Vintage Fender Jazz Bass Dating And Identification Guide"
+seoTitle: "Vintage Fender Jazz Bass Dating And Identification Guide"
 pubDate: "2026-08-10T09:00:00"
 modified: "2026-10-19T12:00:00-07:00"
 excerpt: "The stack knob years, the bound-dot window, and the 1970s bridge pickup move. Every dating change on the vintage Fender Jazz Bass from the 1960 launch to 1975, and why the headstock logo will not tell you whether yours is pre-CBS."
@@ -9,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg"
 heroImageAlt: "A 1966 Fender Jazz Bass in Lake Placid Blue custom color."
-metaDescription: "Date a vintage Fender Jazz Bass from what you can see. Stack knob to three knob, slab to veneer, clay to pearloid, the bound-dot window, and the 1970s changes, 1960 to 1975."
+metaDescription: "Identify a vintage Fender Jazz Bass by its construction, original parts and dated components, with repair checks and photographs from my archive."
 ogImage: "/images/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg"
 faqsInline: true
 faqs:
@@ -48,7 +48,7 @@ toc:
 ---
 The Jazz Bass arrived in the summer of 1960 as the expensive one. Fender already had the Precision, so the Jazz was built to sit above it: two pickups instead of one, a narrower nut, an offset body, and a control layout nobody else was building. It has been in production ever since, which is exactly why dating one properly matters. A stack knob from 1961 and a three-bolt from 1975 are both "a vintage Fender Jazz Bass," and there is a very large number between them.
 
-For 1966 and 1972 Fender Jazz Bass value comparisons and every year through 1979, see my [vintage Fender Jazz Bass value guide](/vintage-fender-jazz-bass-value-guide/). This page covers the evidence for the year, parts and finish.
+For 1966 and 1972 Fender Jazz Bass value comparisons and every year through 1979, see my [vintage Fender Jazz Bass value guide](/vintage-fender-jazz-bass-value-guide/).
 
 This guide covers every meaningful change from the 1960 launch through 1975, in the order you would actually check them. If you are looking to [sell a vintage Fender bass](/sell-my-fender-guitar/) or you have inherited one and need a *vintage guitar appraisal*, these are the same details a serious buyer will use to price it.
 
@@ -153,7 +153,7 @@ Clay dots ran from the launch to **late 1964**, roughly October to December, and
 
 Here is the sequence that catches people, because the two changes are usually spoken of as one and they are six months apart.
 
-**White fingerboard binding arrived in late 1965**, around December. **Pearloid block inlays did not follow until the middle of 1966**, around June or July. That leaves a original factory window from late 1965 into mid 1966 where a Jazz Bass carries a **bound board with dot inlays**.
+**White fingerboard binding arrived in late 1965**, around December. **Pearloid block inlays did not follow until the middle of 1966**, around June or July. That leaves an original factory window from late 1965 into mid 1966 where a Jazz Bass carries a **bound board with dot inlays**.
 
 Those "bound-dot" necks are correct. They are not parts guitars, they are not refretted replacements, and they are not fakes. The same binding-before-blocks gap shows up on the [Jaguar](/post/vintage-fender-jaguar-guide/) and the [Jazzmaster](/post/fender-jazzmaster-evolution-guide-1958-1971/), so it is a Fender-wide pattern rather than a quirk of this model. If somebody tells you a bound board with dots must be wrong, they are working from a rule that skipped a step.
 
@@ -176,7 +176,7 @@ The pairing rule is the part worth knowing, because it answers a question people
 
 So a white guard on a custom color Jazz Bass is correct and original, not somebody's later swap. Tortoiseshell does turn up on selected custom finishes such as Olympic White by special order, which is a real exception rather than an excuse, and it needs the rest of the bass to back it up.
 
-The nitrate guards also age in a way reproductions do not manage. They shrink, they cup, they crack at the screw ears, and they outgas an acidic vapour you can smell the moment you open a case that has been shut a while. That vinegar tang is a original authentication tool. The vinyl guards that replaced them do not shrink, do not smell, and have no mint green underside.
+The nitrate guards also age in a way reproductions do not manage. They shrink, they cup, they crack at the screw ears, and they outgas an acidic vapour you can smell the moment you open a case that has been shut a while. That vinegar tang is an original authentication tool. The vinyl guards that replaced them do not shrink, do not smell, and have no mint green underside.
 
 <h2 id="pickups">Pickups And The 1970s Bridge Move</h2>
 
@@ -294,7 +294,7 @@ Compare that to the refinished 1961 stack knob near the top of this page: black 
 
 <h2 id="value">Originality And Condition</h2>
 
-Original finish, original pickups and retained parts support collector appeal. Refinishing, replaced components and structural repairs change the comparison, while case condition and documentation help explain what remains. Establish the bass's identity and originality before applying the paired value guide's table.
+Original finish, original pickups and retained parts support collector appeal. Refinishing, replaced components and structural repairs change the comparison, while case condition and documentation help explain what remains. Establish the bass's identity and originality before choosing a value range.
 
 <h2 id="faq">Jazz Bass Authentication Questions</h2>
 

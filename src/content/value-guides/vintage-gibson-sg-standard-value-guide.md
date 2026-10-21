@@ -6,27 +6,27 @@ For the year and original specification, use my [Gibson SG Standard dating and i
 
 **Reviewed October 2026. US dollars.** Adjacent years can share a range. Read the condition notes with the table.
 
-| Year | Value Range | Configuration And Year Notes |
-| --- | --- | --- |
-| 1961 | $13,000 to $23,000 | Small guard, early humbuckers and sideways vibrato. |
-| 1962 | $13,000 to $23,000 | Small guard, early humbuckers and sideways vibrato. |
-| 1963 | $13,000 to $23,000 | Small guard; long lyre Vibrola becomes familiar. |
-| 1964 | $13,000 to $23,000 | Small guard; long lyre Vibrola becomes familiar. |
-| 1965 | $11,000 to $13,000 | Nut-width and plating transition; small guard. |
-| 1966 | $4,500 to $7,500 | Small to large guard transition; match actual version. |
-| 1967 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. |
-| 1968 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. |
-| 1969 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. |
-| 1970 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. |
-| 1971 | $4,500 to $7,500 | Large-guard Standard only; SG Deluxe excluded. |
-| 1972 | $2,500 to $3,000 | Standard returns; identify it separately from Deluxe. |
-| 1973 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1974 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1975 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1976 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1977 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1978 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1979 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
+| Year | Value Range | Configuration And Year Notes | Shipments |
+| --- | --- | --- | --- |
+| 1961 | $13,000 to $23,000 | Small guard, early humbuckers and sideways vibrato. | Not listed |
+| 1962 | $13,000 to $23,000 | Small guard, early humbuckers and sideways vibrato. | 1,449 |
+| 1963 | $13,000 to $23,000 | Small guard; long lyre Vibrola becomes familiar. | 1,445 |
+| 1964 | $13,000 to $23,000 | Small guard; long lyre Vibrola becomes familiar. | 1,375 |
+| 1965 | $11,000 to $13,000 | Nut-width and plating transition; small guard. | 1,731 |
+| 1966 | $4,500 to $7,500 | Small to large guard transition; match actual version. | 1,046 |
+| 1967 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. | 1,154 |
+| 1968 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. | 1,340 |
+| 1969 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. | 3,354 |
+| 1970 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. | 5,048 |
+| 1971 | $4,500 to $7,500 | Large-guard Standard only; SG Deluxe excluded. | Not listed |
+| 1972 | $2,500 to $3,000 | Standard returns; identify it separately from Deluxe. | 1,009 |
+| 1973 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. | 3,009 |
+| 1974 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. | 2,295 |
+| 1975 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. | 2,042 |
+| 1976 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. | 2,834 |
+| 1977 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. | 2,618 |
+| 1978 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. | 2,503 |
+| 1979 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. | Not listed |
 
 The 1966 large-guard range applies after the redesign; an early small-guard guitar needs the earlier configuration considered. The later 1960s range includes cherry and walnut. The 1971 row excludes the SG Deluxe, and 1972 applies to the returning Standard. The 1970s range covers cherry; other finishes need a separate appraisal.
 
@@ -40,13 +40,7 @@ The 1966 large-guard range applies after the redesign; an early small-guard guit
 
 **1972 To 1979 SG Standard:** Cherry or faded cherry, original finish and pickups, original case, no disclosed structural break. Played to excellent; replacement strap buttons accepted. Non-cherry finishes excluded.
 
-<figure>
 
-![Cherry SG Standard body with two humbuckers, four knobs and a sideways vibrato in a red-lined case](../../assets/images/gibson-sg-family-guide/early-60s-gibson-sg-standard-comparison.webp)
-
-<figcaption>Two humbuckers and a sideways vibrato on an early SG Standard. Photo by Joe Dampt.</figcaption>
-
-</figure>
 
 ## Early Standards: Pickups And The Factory Vibrato
 
@@ -58,7 +52,7 @@ PAF means Patent Applied For, the wording on early Gibson pickup decals. PAF and
 
 ![Close view of the sideways vibrato and folded arm on a cherry Gibson SG](../../assets/images/gibson-serial/gibson-sg-sideways-vibrola-example-scaled.jpg)
 
-<figcaption>The sideways vibrato with its folded arm. Photo by Joe Dampt.</figcaption>
+<figcaption>The sideways vibrato with its folded arm. From my archive.</figcaption>
 
 </figure>
 
@@ -72,7 +66,7 @@ Around 1963 the long Maestro assembly with the engraved lyre cover becomes famil
 
 ![Engraved lyre and Gibson lettering on an SG Maestro vibrato cover](../../assets/images/gibson-serial/gibson-sg-maestro-lyre-vibrola.jpg)
 
-<figcaption>The Gibson lettering and engraved lyre on the Vibrola cover. Photo by Joe Dampt.</figcaption>
+<figcaption>The Gibson lettering and engraved lyre on the Vibrola cover. From my archive.</figcaption>
 
 </figure>
 
@@ -84,13 +78,13 @@ The 1965 band uses cherry small-guard guitars with their original cases. Nut wid
 
 ![Cherry SG Standard with a large black pickguard, two covered humbuckers and a long lyre Vibrola](../../assets/sg-family/late-1960s-sg-standard-large-pickguard.jpg)
 
-<figcaption>A large-guard SG Standard with a long lyre Vibrola. Photo by Joe Dampt.</figcaption>
+<figcaption>A large-guard SG Standard with a long lyre Vibrola. From my archive.</figcaption>
 
 </figure>
 
 The batwing guard surrounds the pickups and supports them through the guard. It appears during 1966, with early small-guard guitars still requiring the earlier configuration considered. The later look usually includes the long lyre Vibrola and eventually taller witch-hat knobs.
 
-The $4,500 to $7,500 range includes original cherry and walnut guitars. I don't treat it as a fixed finish premium or discount. The guard, finish, pickup set and repairs determine where an individual Standard belongs.
+The $4,500 to $7,500 range includes original cherry and walnut guitars. Finish and condition together affect the comparison. The guard, finish, pickup set and repairs determine where an individual Standard belongs.
 
 Later Patent Number and T-Top humbuckers are part of the correct period specification. T-Top refers to a molded marking on the pickup bobbin, not a promise that the exterior decal alone can date it. An original later pickup pair shouldn't be valued as though it were a pair of early PAFs.
 
@@ -106,7 +100,7 @@ The $2,500 to $3,000 band is based on cherry or faded-cherry guitars with origin
 
 ![Blue-green SG finish around four reflector knobs, pickup switch and output jack](../../assets/images/gibson-serial/gibson-pelham-blue-sg.jpg)
 
-<figcaption>Blue-green finish around four reflector knobs and the pickup switch. Photo by Joe Dampt.</figcaption>
+<figcaption>Blue-green finish around four reflector knobs and the pickup switch. From my archive.</figcaption>
 
 </figure>
 
@@ -114,7 +108,7 @@ Factory color can change who is looking for a Standard and what they will pay fo
 
 Non-cherry finishes need an individual appraisal. I consider the original color, retained parts and condition together before placing a guitar outside the cherry range.
 
-## Repairs, Original Parts And Value
+## Standard Repairs And Original Parts
 
 An unbroken neck, original finish and factory pickups are the baseline for a collector SG Standard. A repaired headstock, a full refinish and a missing pickup change different parts of that package. Normal playing wear and a good refret deserve a separate assessment from structural damage.
 
@@ -125,3 +119,7 @@ Repairs and alterations affect the guitar as a whole. A guitar that's already pr
 Original tuners, pickup covers, the vibrato arm and case can be difficult to replace with the right period parts. Keep removed originals even if the guitar currently wears replacements. A well-executed refret is maintenance; a reshaped neck is a more permanent change to what the buyer receives.
 
 For the other models, the [SG value overview](/vintage-gibson-sg-value-guide/) puts Standard, Special, Junior and Custom side by side. For this guitar, send photographs and repair history through the [free guitar appraisal](/free-appraisal/) page. A retail reference and a dealer buying offer serve different purposes, with selling costs and margin included in the latter.
+
+Shipment counts follow my [Gibson shipping totals](/post/gibson-shipping-totals-1948-1979/#sg-std-cust-62-78). They total the listed finishes for each model and year. A blank record means no count is listed, rather than zero production. Shipment year and build date can differ.
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.

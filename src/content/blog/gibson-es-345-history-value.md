@@ -48,22 +48,22 @@ Adjacent years can share an era range. A calendar year alone doesn't establish o
 
 The 1970s comparison assumes original finish and pickups with functioning stereo Varitone electronics, in Very Good to Excellent condition. Replacement tuners, strap pins or a truss rod cover can be present, as can a quality refret; the original case isn't universal. It covers cherry and Wine Red examples with no disclosed structural break. It isn't an untouched collector band or a separate finish premium.
 
-Asking ranges for late 1960s to early 1970s guitars can run from $4,500 to $8,500. Those aren't guaranteed selling prices. A natural 1959 or an exceptional original custom color needs an individual appraisal.
+The 1969 range is $6,500 to $11,000 for original later-1960s configurations. The 1970 to 1972 cherry and wine-red range is $4,000 to $5,500. A natural 1959 or an exceptional original custom color needs an individual appraisal.
 
 ### Deductions From The All-Original Figure
 
 -   **Converted to mono / bypassed Varitone:** roughly minus 10 to 25 percent if the original switch, choke, and harness are kept and the work is reversible. Worse if those parts are gone. A filled Varitone hole is top damage and a bigger, permanent hit.
 -   **Refinish:** minus 40 to 50 percent. This is one of the largest deductions there is.
--   **Replaced pickups / PAFs gone:** minus 30 to 50 percent or more on 1959 to 1962 guitars. A original PAF pair can be worth $7,500 to $14,000 on its own, which is why this is so often the biggest single hit and the most hidden.
+-   **Replaced pickups / PAFs gone:** minus 30 to 50 percent or more on 1959 to 1962 guitars. An original PAF pair can be worth $7,500 to $14,000 on its own, which is why this is so often the biggest single hit and the most hidden.
 -   **Added Bigsby / extra top holes:** minus 10 to 20 percent, plus the loss of the stop-bar premium.
 -   **Headstock break or repair:** roughly minus 30 to 50 percent, even when the repair is clean and stable.
--   **Refret:** a quality refret is accepted maintenance and preserves an otherwise all-original classification, while taking the guitar out of the museum-quality category. The existing condition-sensitive reference is 5 to 15 percent, depending on the instrument and work. Neck reshaping is a separate alteration.
+- **Refret:** A quality refret is accepted maintenance on an otherwise original guitar, while taking it out of the museum-quality category. I assess fretwork quality and any changes to the binding, fingerboard or neck separately.
 
 Premiums run the other way for the rare **Natural/blonde** finish, for truly **documented factory custom colors** (rare on 345s and a magnet for refinish fraud, so demand documentation), and, more modestly, for the original case and hang tags.
 
 ### Is A 345 Worth More Or Less Than A 335?
 
-This surprises people: the plainer **ES-335 usually outvalues the fancier ES-345** of the same year. The reason is the stereo Varitone circuit. Most players do not want it, a lot of them rip it out, and the simple mono 335 is the iconic, blue-chip model that the market chases. The gap is widest in the late 1950s and early 1960s, where a dot-neck 335 can run well into the tens of thousands while a comparable 345 sits at maybe half to two-thirds of that, and it narrows toward parity by the late 1960s. The **ES-355** is fancier still, and its value depends heavily on whether it is mono or stereo. None of that makes the 345 a bad buy. It arguably makes it the value play in the family: the same golden-era body and build, dressed up nicer, usually for less money than the 335 next to it.
+The ES-335, ES-345 and ES-355 need separate configuration and condition comparisons. A dot-neck ES-335 can command a substantial premium, while later ES-345 ranges can exceed played ES-335 examples. Stereo wiring, the Varitone, factory vibrato, original pickups and repairs each affect which guitars are comparable.
 
 
 If you have a vintage ES-345 and want a real number rather than a range, that is exactly what I do. Send photos through the [free appraisal](/free-appraisal/) page and I will tell you what it is and what it is worth.
@@ -283,7 +283,7 @@ The biggest visual difference is the tailpiece. Where the 1963 has a stop bar, t
 
 ![Close-up of a gold Bigsby vibrato tailpiece stamped Bigsby Patent No. D-169,120 and the Varitone dial on a 1966 Gibson ES-345 in cherry.](../../assets/blog/gibson-es-345-history-value/1966-gibson-es-345-gold-bigsby-varitone.jpg)
 
-<figcaption><strong>A gold Bigsby.</strong> The Bigsby patent D-169,120 stamp confirms a original period unit. To its right you can see the six-position Varitone dial and the stereo jack, the same circuit as the 1963.</figcaption>
+<figcaption><strong>A gold Bigsby.</strong> The Bigsby patent D-169,120 stamp confirms an original period unit. To its right you can see the six-position Varitone dial and the stereo jack, the same circuit as the 1963.</figcaption>
 
 </figure>
 
@@ -540,3 +540,8 @@ As of October 2026, the asking range for an all-original, excellent 1959 sunburs
     else { initEs345Fade(); }
   })();
 </script>
+The 1970s ranges cover cherry and wine-red ES-345s. Other factory finishes need an individual appraisal.
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+For other Gibson electrics, compare the [ES-335 value guide](/vintage-gibson-es-335-value-guide/) and [ES-355 value guide](/vintage-gibson-es-355-value-guide/). Their body construction, electronics and condition groups need to be matched separately.

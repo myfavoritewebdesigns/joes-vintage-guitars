@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-21",
+  "pairs": [
+    {
+      "name": "Junior single cut",
+      "range": "$5,500 to $12,000",
+      "checks": [
+        {
+          "url": "/vintage-gibson-les-paul-market-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/vintage-gibson-les-paul-junior-value-guide/",
+          "match": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "TV",
+      "range": "$9,000 to $18,000",
+      "checks": [
+        {
+          "url": "/vintage-gibson-les-paul-market-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/vintage-gibson-les-paul-junior-value-guide/",
+          "match": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "Special TV",
+      "range": "$12,000 to $19,000",
+      "checks": [
+        {
+          "url": "/vintage-gibson-les-paul-market-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/vintage-gibson-les-paul-special-value-guide/",
+          "match": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "Special cherry",
+      "range": "$7,500 to $14,000",
+      "checks": [
+        {
+          "url": "/vintage-gibson-les-paul-market-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/vintage-gibson-les-paul-special-value-guide/",
+          "match": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "Custom 1953 to 1957",
+      "range": "$23,000 to $50,000",
+      "checks": [
+        {
+          "url": "/vintage-gibson-les-paul-market-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/vintage-gibson-les-paul-custom-value-guide/",
+          "match": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "Custom 1957 to 1961",
+      "range": "$54,000 to $203,000",
+      "checks": [
+        {
+          "url": "/vintage-gibson-les-paul-market-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/vintage-gibson-les-paul-custom-value-guide/",
+          "match": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "Custom 1968 to 1969",
+      "range": "$11,000 to $17,000",
+      "checks": [
+        {
+          "url": "/vintage-gibson-les-paul-market-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/vintage-gibson-les-paul-custom-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/post/norlin-les-paul-custom-year-guide/",
+          "match": true
+        },
+        {
+          "url": "/post/1968-gibson-les-paul-custom-guide/",
+          "match": true
+        },
+        {
+          "url": "/post/1969-gibson-les-paul-custom-guide/",
+          "match": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "ES-335 1968",
+      "range": "$6,500 to $7,500",
+      "checks": [
+        {
+          "url": "/vintage-gibson-es-335-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/post/1968-gibson-es-335-guide/",
+          "match": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "Dot-neck ES-335",
+      "range": "$27,000 to $72,000",
+      "checks": [
+        {
+          "url": "/vintage-gibson-es-335-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+          "match": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "Marr mono ES-355",
+      "range": "$27,000 to $41,000",
+      "checks": [
+        {
+          "url": "/vintage-gibson-es-355-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/post/what-guitar-did-johnny-marr-play/",
+          "match": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "Marr stereo ES-355",
+      "range": "$20,000 to $35,000",
+      "checks": [
+        {
+          "url": "/vintage-gibson-es-355-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/post/what-guitar-did-johnny-marr-play/",
+          "match": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "1973 Jazz Bass",
+      "range": "$3,500 to $6,000",
+      "checks": [
+        {
+          "url": "/vintage-fender-jazz-bass-value-guide/",
+          "match": true
+        },
+        {
+          "url": "/post/1973-fender-jazz-bass-vintera-iii/",
+          "match": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "linkPairs": [
+    {
+      "name": "Marr Jaguar",
+      "from": "/post/what-guitar-did-johnny-marr-play/",
+      "to": "/vintage-fender-jaguar-value-guide/",
+      "pass": true
+    },
+    {
+      "name": "Mustang comparison on Jaguar",
+      "from": "/post/vintage-fender-jaguar-guide/",
+      "to": "/post/fender-mustang-history-value/",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "note": "PAF table separates individual pickup/bobbin configurations; the ES-345 pair envelope is not a single-pickup range. Rounded 1963 Strat case endpoints remain $1,500/$3,000 unchanged."
+}

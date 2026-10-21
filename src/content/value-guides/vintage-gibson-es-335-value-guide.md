@@ -18,9 +18,9 @@ For the year and original specification, use my [Gibson ES-335 dating and identi
 | 1964 | $23,000 to $34,000 | Wide nut and early block-neck construction. |
 | [1965](/post/1965-gibson-es-335-short-maestro-vibrola/) | $12,000 to $14,000 | Wide to narrow nut transition; both widths are included. |
 | [1966](/post/1966-gibson-es-335-authentication-guide/) | $4,500 to $7,000 | Narrow nut and trapeze; played-original reference. |
-| 1967 | $4,500 to $7,000 | Trapeze era; factory custom finishes excluded. |
+| 1967 | $4,500 to $7,000 | Trapeze era; factory custom finishes excluded. Played original. |
 | [1968](/post/1968-gibson-es-335-guide/) | $6,500 to $7,500 | Clean-original condition; one-piece neck and long tenon. |
-| 1969 | $4,500 to $7,000 | Multi-piece neck and shorter tenon transition. |
+| 1969 | $4,500 to $7,000 | Multi-piece neck and shorter tenon transition. Played original. |
 | 1970 | $3,000 to $5,000 | Later construction; ordinary ES-335TD reference. |
 | 1971 | $3,000 to $5,000 | ES-335TD; retain the actual factory tailpiece. |
 | 1972 | $3,000 to $5,000 | Walnut and sunburst examples in the configuration group. |
@@ -46,13 +46,7 @@ Natural finishes need a separate appraisal from the sunburst and cherry guitars 
 
 **1970 To 1979 Standard ES-335TD:** Original-finish guitars with vintage Gibson pickups, no disclosed structural break, normal wear or minor hardware changes. Case originality varies. 1979 CRS and CRR, ES-335 Pro, refinishes and replacement pickup sets excluded. Some lower-priced examples require minor control servicing; a fully functioning guitar should be compared accordingly.
 
-<figure>
 
-![Sunburst Gibson ES-335 with dot inlays, two covered pickups and a stopbar in a pink-lined case](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-scaled.jpg)
-
-<figcaption>A sunburst ES-335 with dot inlays, covered pickups and a stopbar. Photo by Joe Dampt.</figcaption>
-
-</figure>
 
 ## Why Dot-Neck ES-335s Bring More
 
@@ -64,9 +58,9 @@ The broader all-original dot-neck market spans $27,000 to $72,000+. A clean 1959
 
 ### Sunburst, Natural And Early Cherry
 
-The 1958 and 1959 rows cover sunburst. Natural, often called blonde, was a separate early production finish and needs its own appraisal. Cherry joins during 1960, so I don't list a regular cherry 1959 alongside sunburst.
+The 1958 and 1959 rows cover sunburst. Natural, often called blonde, was a separate early production finish and needs its own appraisal. Cherry joins during 1960; the 1959 sunburst range assumes that original finish.
 
-The site's [Gibson shipment table](/post/gibson-shipping-totals-1948-1979/#es-semi-58-69) is the source for that finish chronology. An unusual finish can widen the market considerably, but a photograph of attractive grain doesn't establish a numerical premium. The original finish, pickup set and repairs still have to support the category.
+Cherry enters the ES-335 finish chronology in 1960. An unusual original finish can widen the market considerably, while the original pickup set and repair history still determine the guitar's condition group.
 
 ## Block Inlays And Factory Tailpieces
 
@@ -74,7 +68,7 @@ The site's [Gibson shipment table](/post/gibson-shipping-totals-1948-1979/#es-se
 
 ![Cherry ES-335 with block inlays, covered humbuckers and a stopbar in a yellow-lined case](../../assets/blog/1962-gibson-es-335-guide/1962-gibson-es-335-cherry-scaled.jpg)
 
-<figcaption>A 1962 cherry ES-335 with block inlays and a stopbar. Photo by Joe Dampt.</figcaption>
+<figcaption>A 1962 cherry ES-335 with block inlays and a stopbar. From my archive.</figcaption>
 
 </figure>
 
@@ -94,7 +88,7 @@ The trapeze also becomes the usual non-vibrato tailpiece around this period. Cal
 
 ![Sunburst ES-335 with a short Maestro vibrato and its arm fitted](../../assets/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-maestro-front-of-body.jpg)
 
-<figcaption>The unusual factory short Maestro on Joe's documented 1965 ES-335. This configuration needs an individual appraisal. Photo by Joe Dampt.</figcaption>
+<figcaption>The unusual factory short Maestro on My documented 1965 ES-335. This configuration needs an individual appraisal. From my archive.</figcaption>
 
 </figure>
 
@@ -106,7 +100,7 @@ The factory short Maestro shown here sits outside the ordinary trapeze category.
 
 ![Cherry ES-335 with two covered pickups, block inlays and a trapeze tailpiece](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-scaled.jpg)
 
-<figcaption>A trapeze tailpiece on a 1966 ES-335. Photo by Joe Dampt.</figcaption>
+<figcaption>A trapeze tailpiece on a 1966 ES-335. From my archive.</figcaption>
 
 </figure>
 
@@ -118,7 +112,7 @@ The 1968 row gives a $6,500 to $7,500 range for clean originals. Its one-piece m
 
 ![Sunburst ES-335 with block inlays, trapeze tailpiece and black witch hat knobs](../../assets/blog/1968-gibson-es-335-guide/1968-gibson-es-335-sunburst-9-scaled.jpg)
 
-<figcaption>A sunburst 1968 ES-335 with its later 1960s hardware. Photo by Joe Dampt.</figcaption>
+<figcaption>A sunburst 1968 ES-335 with its later 1960s hardware. From my archive.</figcaption>
 
 </figure>
 
@@ -138,7 +132,7 @@ Repairs and alterations affect the guitar as a whole. A guitar that's already pr
 
 ![Gibson hang tags, instruction sheets and a case key arranged on a black guitar case](../../assets/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-paperword-case-candy-scaled.jpg)
 
-<figcaption>Hang tags, instructions and a case key with a 1966 ES-335. Photo by Joe Dampt.</figcaption>
+<figcaption>Hang tags, instructions and a case key with a 1966 ES-335. From my archive.</figcaption>
 
 </figure>
 
@@ -148,8 +142,12 @@ An original case, hang tags and paperwork complete the package, especially on a 
 
 ![Pink-lined brown guitar case with a Stone Case Company badge beside an ES-335 headstock](../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-stone-case-1024x683.jpg)
 
-<figcaption>The lining and maker's badge inside the case accompanying a 1959 ES-335. Photo by Joe Dampt.</figcaption>
+<figcaption>The lining and maker's badge inside the case accompanying a 1959 ES-335. From my archive.</figcaption>
 
 </figure>
 
 A dealer offer accounts for preparation, selling costs and margin, so it will differ from a retail sale reference. For an appraisal, I start with clear front and back photographs, the headstock, tailpiece, case and any known repair. Send those through the [free guitar appraisal](/free-appraisal/) page with the history you know.
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+The stereo Varitone [ES-345 value guide](/post/gibson-es-345-history-value/) and the [ES-355 value guide](/vintage-gibson-es-355-value-guide/) cover their own electronics, finishes and factory vibratos.

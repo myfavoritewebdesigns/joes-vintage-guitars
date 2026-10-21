@@ -1,6 +1,6 @@
 Vintage Fender Precision Bass comparisons span $2,000 to $36,000 across 1951 to 1979, with exceptional early examples potentially exceeding that range. The guide range for original 1951 to 1953 slab-body basses is $18,000 to $36,000 or more; the late-1970s comparison is $2,000 to $4,000. I first identify which version of the Precision is present, then account for its finish, pickup, repairs and case.
 
-For the earliest design, my [1951, 1952 and 1953 Precision Bass authentication guide](/post/1952-fender-precision-bass-guide/) explains the original construction and dating evidence. This page supplies the model-wide price comparisons. It covers a bass with one continuous model name but several different designs.
+For the earliest design, my [1951, 1952 and 1953 Precision Bass authentication guide](/post/1952-fender-precision-bass-guide/) explains the original construction and dating evidence. It covers a bass with one continuous model name but several different designs.
 
 For a Jazz Bass or another Fender model, start with my [Fender values by model guide](/vintage-fender-value-guide/) and choose the matching instrument.
 
@@ -19,29 +19,29 @@ Amounts are in U.S. dollars, and adjacent years can share a range. The 1957 tran
 | 1955 | $11,000 to $17,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
 | 1956 | $11,000 to $17,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
 | 1957 | $11,000 to $17,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
-| 1957 | $13,000 to $23,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
-| 1958 | $13,000 to $23,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
-| 1959 | $13,000 to $23,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
-| 1960 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
-| 1961 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
-| 1962 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
-| 1963 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
-| 1964 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
-| 1965 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
-| 1966 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
-| 1967 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
-| 1968 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
-| 1969 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
+| 1957 | $13,000 to $23,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, serviced parts and case condition |
+| 1958 | $13,000 to $23,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, serviced parts and case condition |
+| 1959 | $13,000 to $23,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, serviced parts and case condition |
+| 1960 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware changes disclosed |
+| 1961 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware changes disclosed |
+| 1962 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware changes disclosed |
+| 1963 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware changes disclosed |
+| 1964 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware changes disclosed |
+| 1965 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, serviced controls and case condition |
+| 1966 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, serviced controls and case condition |
+| 1967 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, serviced controls and case condition |
+| 1968 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, serviced controls and case condition |
+| 1969 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, serviced controls and case condition |
 | 1970 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
 | 1971 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
 | 1972 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
 | 1973 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
 | 1974 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
-| 1975 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
-| 1976 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
-| 1977 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
-| 1978 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
-| 1979 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
+| 1975 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, playing wear and serviced parts |
+| 1976 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, playing wear and serviced parts |
+| 1977 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, playing wear and serviced parts |
+| 1978 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, playing wear and serviced parts |
+| 1979 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, playing wear and serviced parts |
 
 ### Condition Behind The Table
 
@@ -55,13 +55,7 @@ The lower end of the 1960 to 1964 band allows a damaged original guard, case wea
 
 The 1970s comparisons allow serviced wiring, replacement pots or pickup foam, missing covers and worn cases. They aren't bands for refinished bodies, replacement pickups or substantial routing. A clean, fully documented instrument needs to be compared within those conditions rather than automatically placed at the lowest number.
 
-<figure>
 
-![Early blonde Fender Precision Bass beside a tweed Bassman amplifier](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-with-bassman-amp-scaled.jpg)
-
-<figcaption>An early blonde Precision Bass beside a Bassman amplifier in my archive. The table prices the bass, not an amplifier package.</figcaption>
-
-</figure>
 
 ## The Three Precision Designs And Their Price Groups
 
@@ -81,7 +75,7 @@ Modified player examples have a separate broad range of $7,500 to $14,000. That 
 
 ![Early Precision Bass and tweed Bassman amplifier photographed together](../../assets/blog/1952-fender-precision-bass-guide/1953-fender-precision-bass-bassman-amp-49-scaled.jpg)
 
-<figcaption>An early Precision and Bassman from my site photographs. A documented instrument and amplifier package requires a separate appraisal.</figcaption>
+<figcaption>An early Precision and Bassman from my site photographs.</figcaption>
 
 </figure>
 
@@ -91,7 +85,7 @@ Early 1954 slab-body examples need individual appraisals. The annual 1954 row co
 
 ### Contoured Single-Coil Basses
 
-The $11,000 to $17,000 range covers the contoured single-coil group from mid-1954 into 1957, including blonde and sunburst instruments. I don't assign a separate automatic premium to every finish and year combination.
+The $11,000 to $17,000 range covers the contoured single-coil group from mid-1954 into 1957. The 1957 redesign adds the split-coil pickup, wider headstock and gold guard associated with the familiar Precision sound and appearance. That later configuration has its own $13,000 to $23,000 market; the earlier body's contour alone doesn't put it in the same group.
 
 These basses need the correct comparison because replacing the original pickup with a later split unit can involve changes to the body and guard. A working bass with that conversion may appeal to a player, but it no longer represents the unmodified single-coil configuration. I describe the change before pricing it.
 
@@ -109,7 +103,7 @@ The gold anodized aluminum guard identifies a familiar part of the 1957 to 1959 
 
 </figure>
 
-The [gold-guard Precision Bass guide](/post/gold-guard-fender-precision-bass/) covers the period's construction in detail. Here I use those established features to choose comparable instruments. I don't reproduce the dating checklist or assign a separate dollar amount to each visible feature.
+The [gold-guard Precision Bass guide](/post/gold-guard-fender-precision-bass/) covers the period's construction in detail. Here I use those established features to choose comparable instruments. The complete configuration determines the appropriate price comparison.
 
 The 1959 transition can include more than one fingerboard and guard combination. A rosewood board isn't automatically evidence that a bass has lost its early identity. It does mean the configuration should be established before treating two 1959 instruments as identical comparisons.
 
@@ -131,7 +125,7 @@ The split pickup has two staggered sections working together. Its identity and c
 
 A rewind replaces the wire inside a pickup and should be recorded as work, even if the original external parts remain. I also want to know whether removed components come with the instrument. A loose original pickup can still help explain the bass's history and available restoration choices.
 
-The neck has to function as an instrument, not simply look correct in a photograph. Fret wear, past reshaping and unresolved adjustment problems can affect the buyer's decision. I don't give an automatic clean-example price before those questions are understood.
+The neck has to function as an instrument, not simply look correct in a photograph. Fret wear, past reshaping and unresolved adjustment problems can affect the buyer's decision. A clean-example price assumes those issues have been resolved.
 
 ## Seventies Precision Bass Values
 
@@ -139,7 +133,7 @@ The 1970 to 1974 range is $2,500 to $5,000. It covers original finish and pickup
 
 The 1975 to 1979 comparison is $2,000 to $4,000 for standard finishes under the stated conditions. Finish wear, the working neck, retained parts and the case help narrow the appraisal. The table doesn't attach a fixed premium to every maple or rosewood fingerboard.
 
-The Precision kept its four-bolt neck attachment through these years. I don't import the Jazz Bass's three-bolt transition into a Precision appraisal. A modern reissue or modified instrument also needs to be kept separate from original 1970s production.
+The Precision kept its four-bolt neck attachment through these years. The Jazz Bass's three-bolt transition belongs to a different model. A modern reissue or modified instrument also needs to be kept separate from original 1970s production.
 
 Owners sometimes assume that a later bass must fall at the bottom of every comparison. A complete, well-preserved example can be a different proposition from an earlier one with a refinish, changed pickup and extra holes. The date selects a group; the actual condition determines which instruments are useful comparisons within it.
 
@@ -149,15 +143,15 @@ A quality refret is accepted maintenance and preserves the all-original classifi
 
 A setup adjusts the instrument for playing; it doesn't undo a refinish or restore removed wood. If a seller says a bass was professionally serviced, I still want to know which work was done. A written repair record is more useful than a vague promise that everything was upgraded.
 
-Weight can influence an individual player's preference, so I include it when it's measured reliably. I don't invent a universal dollar adjustment per pound. A light instrument with unresolved problems isn't automatically a better collector example than a heavier, complete one.
+Weight can influence an individual player's preference, so I include it when it's measured reliably. Weight is one part of an appraisal alongside originality and condition. A light instrument with unresolved problems isn't automatically a better collector example than a heavier, complete one.
 
 ## Finish And Parts Changes Without A Discount Formula
 
 Original finish preserves a part of the bass that can't be replaced with new-old-stock hardware. A full refinish therefore changes the collector category. Localized touchup, overspray and complete stripping should be described separately because they represent different amounts of work.
 
-I don't subtract the same percentage for every refinish. The year, retained parts, structural condition and quality of the work all affect the comparison. A bass that was refinished but otherwise remains intact shouldn't be confused with one that also has a replaced neck and enlarged pickup cavity.
+A refinish typically removes a large share of collector value. The year, retained parts, structural condition and quality of the work all affect the comparison. A bass that was refinished but otherwise remains intact shouldn't be confused with one that also has a replaced neck and enlarged pickup cavity.
 
-Custom colors need individual appraisals. The [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/) covers finish originality. I don't add a blanket color multiplier to the ordinary-finish table.
+Custom colors need individual appraisals. The [Fender custom color authentication guide](/post/fender-custom-color-authentication-guide/) covers finish originality. The finish, year and condition together determine the color premium.
 
 <figure>
 
@@ -173,7 +167,7 @@ A small screw replacement is also different from a replaced pickup or a routed b
 
 ## Cases, Covers And Provenance
 
-The original case helps establish a complete package, but its own wear still needs to be recorded. The photograph below shows a tweed case from my Precision archive. It illustrates the item being discussed; it doesn't assign that particular case a separate price.
+The original case helps establish a complete package. Check its covering, handle, hinges and interior, and include it in the appraisal photographs.
 
 <figure>
 
@@ -183,11 +177,11 @@ The original case helps establish a complete package, but its own wear still nee
 
 </figure>
 
-Chrome covers, a finger rest, paperwork and retained loose parts help show what remains with the bass. Their completeness affects the appraisal, but I don't assign each accessory an automatic premium. A later case shouldn't be described as the case that originally accompanied the instrument.
+Chrome covers, a finger rest, paperwork and retained loose parts help show what remains with the bass. Their completeness, originality and condition affect the appraisal. A later case shouldn't be described as the case that originally accompanied the instrument.
 
 Provenance means a documented ownership history. Receipts, photographs and repair records can support it. A name on a case or an unverified story doesn't by itself establish a connection to a particular musician.
 
-If a bass and amplifier have remained together, preserve the records and photographs that connect them. Don't assume their combined asking price establishes the value of the bass alone. The annual table covers instruments, not every possible historical package.
+If a bass and amplifier have remained together, preserve the records and photographs that connect them.
 
 ## Comparing An Offer With A Market Range
 
@@ -197,7 +191,7 @@ When comparing offers, confirm whether each includes the case, loose parts and s
 
 An asking price, a completed sale price and an owner's net proceeds are different amounts. I consider the bass's condition and the terms of the transaction before making a buying offer.
 
-Collectibility also doesn't guarantee appreciation. The price paid, originality, future condition and eventual sale costs affect the outcome. I don't describe a vintage Precision as a risk-free investment or promise that a particular year will outperform the rest.
+Collectibility also doesn't guarantee appreciation. The price paid, originality, future condition and eventual sale costs affect the outcome. A vintage Precision carries the risks of any collectible, including changing demand and repair costs.
 
 ## Getting Your Precision Bass Appraised
 

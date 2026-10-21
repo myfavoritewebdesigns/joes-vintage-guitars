@@ -6,27 +6,27 @@ For the year and original specification, use my [Gibson SG Junior dating and ide
 
 **Reviewed October 2026. US dollars.** Adjacent years can share a range. Read the condition notes with the table.
 
-| Year | Value Range | Configuration And Year Notes |
-| --- | --- | --- |
-| 1961 | $5,500 to $8,000 | Small guard, dog-ear P-90 and wraparound bridge. |
-| 1962 | $5,500 to $8,000 | Small guard, dog-ear P-90 and wraparound bridge. |
-| 1963 | $5,500 to $8,000 | Small guard and dog-ear P-90; lightning-bar bridge. |
-| 1964 | $5,500 to $8,000 | Small guard and dog-ear P-90; lightning-bar bridge. |
-| 1965 | $5,500 to $8,000 | Small guard and dog-ear P-90; lightning-bar bridge. |
-| 1966 | $2,500 to $4,000 | Small to large guard transition; match actual version. |
-| 1967 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. |
-| 1968 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. |
-| 1969 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. |
-| 1970 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. |
-| 1971 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. |
-| 1972 | Outside Original Run | Outside this original Junior run. |
-| 1973 | Outside Original Run | Outside this original Junior run. |
-| 1974 | Outside Original Run | Outside this original Junior run. |
-| 1975 | Outside Original Run | Outside this original Junior run. |
-| 1976 | Outside Original Run | Outside this original Junior run. |
-| 1977 | Outside Original Run | Outside this original Junior run. |
-| 1978 | Outside Original Run | Outside this original Junior run. |
-| 1979 | Outside Original Run | Outside this original Junior run. |
+| Year | Value Range | Configuration And Year Notes | Shipments |
+| --- | --- | --- | --- |
+| 1961 | $5,500 to $8,000 | Small guard, dog-ear P-90 and wraparound bridge. | Not listed |
+| 1962 | $5,500 to $8,000 | Small guard, dog-ear P-90 and wraparound bridge. Lightning-bar bridge appears around this year. | 2,395 |
+| 1963 | $5,500 to $8,000 | Small guard and dog-ear P-90; lightning-bar bridge. | 2,318 |
+| 1964 | $5,500 to $8,000 | Small guard and dog-ear P-90; lightning-bar bridge. | 3,364 |
+| 1965 | $5,500 to $8,000 | Small guard and dog-ear P-90; lightning-bar bridge. | 3,570 |
+| 1966 | $2,500 to $4,000 | Small to large guard transition; match actual version. | 1,928 |
+| 1967 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | 1,021 |
+| 1968 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | 561 |
+| 1969 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | 751 |
+| 1970 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | 938 |
+| 1971 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | Not listed |
+| 1972 | Outside Original Run | Outside this original Junior run. | Not listed |
+| 1973 | Outside Original Run | Outside this original Junior run. | Not listed |
+| 1974 | Outside Original Run | Outside this original Junior run. | Not listed |
+| 1975 | Outside Original Run | Outside this original Junior run. | Not listed |
+| 1976 | Outside Original Run | Outside this original Junior run. | Not listed |
+| 1977 | Outside Original Run | Outside this original Junior run. | Not listed |
+| 1978 | Outside Original Run | Outside this original Junior run. | Not listed |
+| 1979 | Outside Original Run | Outside this original Junior run. | Not listed |
 
 Small and large guards overlap during 1966; match the actual pickup mounting and guard before choosing the era. Cream or white SG TV instruments are excluded from these cherry Junior ranges. The table marks 1972 to 1979 outside the original run rather than assigning later student models a Junior price.
 
@@ -36,13 +36,7 @@ Small and large guards overlap during 1966; match the actual pickup mounting and
 
 **1966 To 1971 Large-Guard Junior:** Original cherry finish and P-90, factory vibrato, no disclosed structural repairs or modifications. Light to normal playing wear. Case completeness varies.
 
-<figure>
 
-![Cherry Gibson SG Junior with one black dog-ear P-90 pickup, two knobs and a wraparound bridge](../../assets/images/gibson-sg-family-guide/1960s-gibson-sg-junior.webp)
-
-<figcaption>One dog-ear P-90, two controls and a wraparound bridge on a cherry SG Junior. Photo by Joe Dampt.</figcaption>
-
-</figure>
 
 ## What Buyers Want In An Early SG Junior
 
@@ -56,7 +50,7 @@ The early $5,500 to $8,000 band allows quality refrets and disclosed maintenance
 
 ![Cherry SG Junior with a dog-ear P-90, compensated wraparound bridge and two controls](../../assets/images/gibson-sg-family-guide/1960s-gibson-sg-junior-lightning-bridge.webp)
 
-<figcaption>The compensated wraparound bridge and dog-ear P-90 on an SG Junior. Photo by Joe Dampt.</figcaption>
+<figcaption>The compensated wraparound bridge and dog-ear P-90 on an SG Junior. From my archive.</figcaption>
 
 </figure>
 
@@ -74,7 +68,7 @@ The $2,500 to $4,000 later band covers original cherry large-guard guitars with 
 
 ![Back of a cherry SG Junior showing the neck joint and black control cavity cover](../../assets/images/gibson-sg-family-guide/1964-gibson-sg-junior-full-body-back.webp)
 
-<figcaption>The neck joint and rear control cover on a cherry SG Junior. Photo by Joe Dampt.</figcaption>
+<figcaption>The neck joint and rear control cover on a cherry SG Junior. From my archive.</figcaption>
 
 </figure>
 
@@ -82,7 +76,7 @@ The original run covered here ends in 1971. The SG 100 and other later student m
 
 ## Cherry Juniors And The SG TV
 
-These bands are for original cherry instruments. Cream or white guitars associated with the SG TV category sit outside that ordinary cherry reference. The site's [TV shipment section](/post/gibson-shipping-totals-1948-1979/#tv-yellow-sg-62-68) records those related instruments; confirm the original model and finish before using a TV comparison.
+These bands are for original cherry instruments. Cream or white guitars associated with the SG TV category sit outside that ordinary cherry reference. My [TV shipment section](/post/gibson-shipping-totals-1948-1979/#tv-yellow-sg-62-68) records those related instruments; confirm the original model and finish before using a TV comparison.
 
 That naming issue doesn't justify an automatic white-finish premium. The finish has to be original, and the guitar's configuration has to support the comparison. A refinished cherry Junior won't acquire TV-model collector value from its new color.
 
@@ -92,7 +86,7 @@ That naming issue doesn't justify an automatic white-finish premium. The finish 
 
 ![SG Junior fingerboard with cream-colored dots and one empty inlay recess](../../assets/images/gibson-sg-family-guide/1964-gibson-sg-junior-neck-fretboard-detail.webp)
 
-<figcaption>Cream-colored dots and an empty inlay recess on an SG Junior fingerboard. Photo by Joe Dampt.</figcaption>
+<figcaption>Cream-colored dots and an empty inlay recess on an SG Junior fingerboard. From my archive.</figcaption>
 
 </figure>
 
@@ -104,11 +98,11 @@ The simple strip tuners are another part of the complete early appearance. Repla
 
 ![Back of an SG Junior headstock with two strips of Kluson tuners and cream buttons](../../assets/images/gibson-sg-family-guide/1964-gibson-sg-junior-headstock-back-tuners-serial.webp)
 
-<figcaption>Two strips of Kluson tuners with cream buttons on an SG Junior. Photo by Joe Dampt.</figcaption>
+<figcaption>Two strips of Kluson tuners with cream buttons on an SG Junior. From my archive.</figcaption>
 
 </figure>
 
-## Repairs, Original Parts And Value
+## Junior Repairs And Original Parts
 
 An unbroken neck, original finish and factory pickups are the baseline for a collector SG Junior. A repaired headstock, a full refinish and a missing pickup change different parts of that package. Normal playing wear and a good refret deserve a separate assessment from structural damage.
 
@@ -119,3 +113,7 @@ Repairs and alterations affect the guitar as a whole. A guitar that's already pr
 With one pickup, a rewind or replacement changes the whole pickup set. That doesn't make a repaired Junior unusable, but it does separate it from the original-P-90 assumptions above. An unbroken headstock and neck joint remain distinct from a stable professional repair.
 
 The [SG value overview](/vintage-gibson-sg-value-guide/) compares the Junior with the other three principal models. To value your guitar, send front and back photographs, the headstock, bridge and known repairs through the [free guitar appraisal](/free-appraisal/) page. The case and original parts should accompany the guitar, and a dealer offer will account for selling costs and margin.
+
+Shipment counts follow my [Gibson shipping totals](/post/gibson-shipping-totals-1948-1979/#sg-std-cust-62-78). They total the listed finishes for each model and year. A blank record means no count is listed, rather than zero production. Shipment year and build date can differ.
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.

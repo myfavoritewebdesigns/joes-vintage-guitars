@@ -1,6 +1,6 @@
 {
   "title": "Vintage Gibson Value Guide: Find Your Model And Year",
-  "description": "Find your Gibson model and open its value guide, with Les Paul, SG, ES, archtop and acoustic references, condition notes and photos from Joe's own archive.",
+  "description": "Find your Gibson model and open its value guide, with Les Paul, SG, ES, archtop and acoustic references, condition notes and photos from my archive.",
   "h1": "Vintage Gibson Value Guide",
   "url": "/vintage-gibson-value-guide/",
   "ogImage": "/images/blog/1957-les-paul-goldtop-guide/1957-gibson-les-paul-standard-scaled.jpg",
@@ -174,7 +174,7 @@
       "url": "/post/gibson-super-400-ces-history-authentication-value/",
       "image": "/images/blog/gibson-super-400-ces-history-authentication-value/1964-gibson-super-400-sunburst-front.jpg",
       "description": "Find Super 400 references with the model distinctions and condition notes in one place.",
-      "alt": "Sunburst Super 400 body with two covered pickups and a rounded cutaway in an open case",
+      "alt": "Sunburst Super 400 body with two covered pickups and a pointed Florentine cutaway in an open case",
       "group": "es",
       "family": "ES And Archtop",
       "imagePosition": "50% 50%"
@@ -217,6 +217,16 @@
       "alt": "Sunburst LG-2 body with a rectangular bridge and a large mottled pickguard",
       "group": "acoustic",
       "family": "Acoustic Guitar",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "name": "Byrdland",
+      "url": "/post/gibson-byrdland-authentication-guide/",
+      "image": "/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-scaled.jpg",
+      "alt": "Sunburst Gibson Byrdland with two covered pickups, a pointed cutaway and gold tailpiece in a yellow-lined case",
+      "description": "Identify the short-scale Byrdland, its pickups and construction before requesting an individual appraisal.",
+      "group": "es",
+      "family": "Archtop Guitar",
       "imagePosition": "50% 50%"
     }
   ],

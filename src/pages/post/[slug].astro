@@ -55,7 +55,7 @@ const isBurstYearGuide = /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(
 const isNorlinGuide = ["norlin-les-paul-custom-year-guide", "1968-gibson-les-paul-custom-guide", "1969-gibson-les-paul-custom-guide", "1970-gibson-les-paul-custom-guide", "1968-1969-1970-les-paul-custom-dating-guide"].includes(entry.id);
 const isGap2ValueConversion = ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide"].includes(entry.id);
 // Only explicitly reviewed GAP 2 titles opt out of the automatic brand suffix.
-const hasGap2SeoTitle = (data.seoTitle?.length ?? 0) >= 50 && ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide","vintage-fender-jaguar-guide","vintage-fender-jazz-bass-guide","1952-fender-precision-bass-guide","gibson-les-paul-junior-guide","gibson-byrdland-authentication-guide","gibson-es-125-guide","identify-vintage-gibson-j45-j50-sj","gibson-j200-model-history-authentication-guide","1955-1958-tv-yellow-les-paul-special-guide","1959-gibson-es-355-history-value"].includes(entry.id);
+const hasGap2SeoTitle = ["fender-mustang-history-value","gibson-es-345-history-value","gibson-es-5-switchmaster-history-value","gibson-firebird-history-authentication-value","gibson-l5-ces-value-guide","vintage-gibson-hummingbird-history-value-guide","1952-fender-precision-bass-guide","1955-1958-tv-yellow-les-paul-special-guide","1959-gibson-es-335-authentication-guide","1959-gibson-es-355-history-value","1962-gibson-es-335-guide","1965-gibson-es-335-short-maestro-vibrola","1966-gibson-es-335-authentication-guide","1968-gibson-es-335-guide","fender-jazzmaster-evolution-guide-1958-1971","gibson-byrdland-authentication-guide","gibson-es-125-guide","gibson-es-335-345-355-guide","gibson-j200-model-history-authentication-guide","gibson-les-paul-junior-guide","identify-vintage-gibson-j45-j50-sj","joesvintageguitarsaz-com-identify-gibson-lg-series","norlin-les-paul-custom-year-guide","vintage-fender-jaguar-guide","vintage-fender-jazz-bass-guide","vintage-gibson-sg-family-guide","1958-gibson-les-paul-standard-guide","1959-gibson-les-paul-standard-guide","1960-gibson-les-paul-standard-guide","1968-gibson-les-paul-custom-guide","1969-gibson-les-paul-custom-guide","1973-fender-jazz-bass-vintera-iii","gibson-flying-v-medallion-guide","gibson-paf-patent-number-pickup-guide","gibson-super-400-ces-history-authentication-value","how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price","what-guitar-did-johnny-marr-play","what-to-consider-when-selling-a-vintage-guitar"].includes(entry.id);
 const displayedRelated = isBurstYearGuide
   ? related.filter((post) => /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(post.id))
   : related;
@@ -135,8 +135,36 @@ const ogMeta = data.ogImage ? resolveImage(data.ogImage) : null;
 const authorPhoto = resolveImage("images/fender-sn/about-me-joe-1.jpg");
 // Hero: pipeline metadata when relocated (responsive <Image>), public path
 // fallback otherwise (raw <img>, the 15 raw-HTML-blocked heroes).
-const hasGuideHero = presentationPaths.includes('/post/' + entry.id + '/');
-const guideBrand = entry.id.includes('fender') ? 'Fender' : 'Gibson';
+const guideBrands: Record<string, "Fender" | "Gibson" | "Gretsch" | "Guild" | "Rickenbacker" | null> = {
+  "fender-mustang-history-value": "Fender",
+  "gibson-es-345-history-value": "Gibson",
+  "gibson-es-5-switchmaster-history-value": "Gibson",
+  "gibson-firebird-history-authentication-value": "Gibson",
+  "gibson-l5-ces-value-guide": "Gibson",
+  "vintage-gibson-hummingbird-history-value-guide": "Gibson",
+  "1952-fender-precision-bass-guide": "Fender",
+  "1955-1958-tv-yellow-les-paul-special-guide": "Gibson",
+  "1959-gibson-es-335-authentication-guide": "Gibson",
+  "1959-gibson-es-355-history-value": "Gibson",
+  "1962-gibson-es-335-guide": "Gibson",
+  "1965-gibson-es-335-short-maestro-vibrola": "Gibson",
+  "1966-gibson-es-335-authentication-guide": "Gibson",
+  "1968-gibson-es-335-guide": "Gibson",
+  "fender-jazzmaster-evolution-guide-1958-1971": "Fender",
+  "gibson-byrdland-authentication-guide": "Gibson",
+  "gibson-es-125-guide": "Gibson",
+  "gibson-es-335-345-355-guide": "Gibson",
+  "gibson-j200-model-history-authentication-guide": "Gibson",
+  "gibson-les-paul-junior-guide": "Gibson",
+  "identify-vintage-gibson-j45-j50-sj": "Gibson",
+  "joesvintageguitarsaz-com-identify-gibson-lg-series": "Gibson",
+  "norlin-les-paul-custom-year-guide": "Gibson",
+  "vintage-fender-jaguar-guide": "Fender",
+  "vintage-fender-jazz-bass-guide": "Fender",
+  "vintage-gibson-sg-family-guide": "Gibson"
+};
+const guideBrand = guideBrands[entry.id];
+const hasGuideHero = presentationPaths.includes('/post/' + entry.id + '/') && Boolean(guideBrand);
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
 const heroRenderWidth = heroMeta ? Math.min(1200, heroMeta.width) : 1200;
 const captionedHero = heroMeta && data.heroImageCaption
@@ -511,7 +539,7 @@ const articleSchema = {
 
 <Layout
   bodyClass={isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
-  title={(isNorlinGuide || hasGap2SeoTitle) ? (data.seoTitle || data.title) : `${data.seoTitle || data.title} | Joe's Vintage Guitars`}
+  title={(isNorlinGuide || (hasGap2SeoTitle && (data.seoTitle || data.title).length + 25 > 60)) ? (data.seoTitle || data.title) : `${data.seoTitle || data.title} | Joe's Vintage Guitars`}
   noIndex={data.draft}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
@@ -541,7 +569,7 @@ const articleSchema = {
     </>
   )}
 
-  {hasGuideHero && !isGibsonSGFamilyGuide && !isGibsonJ200Guide && <GuideHero title={isFirebirdGuide ? 'The Gibson Firebird' : data.title} image={heroMeta || comparisonHero} alt={data.heroImageAlt || 'Sunburst Gibson ES-335 in a pink-lined case'} brand={guideBrand} byline={'By ' + data.author + ' · ' + formatDate(data.pubDate)} />}
+  {hasGuideHero && !isGibsonSGFamilyGuide && !isGibsonJ200Guide && <GuideHero title={data.title} image={heroMeta || comparisonHero} alt={data.heroImageAlt || 'Sunburst Gibson ES-335 in a pink-lined case'} brand={guideBrand!} byline={'By ' + data.author + ' · ' + formatDate(data.pubDate)} />}
 
   {isOneOwner1956Martin00021Story ? (
     <OneOwner1956Martin00021Story />

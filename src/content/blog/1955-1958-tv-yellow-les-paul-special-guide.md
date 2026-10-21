@@ -1,6 +1,6 @@
 ---
-title: "Authentic 1955-1958 TV Yellow Les Paul Special: A Collector’s Guide"
-seoTitle: "1955 To 1958 TV Yellow Les Paul Special: Dating And Value"
+title: "1955 To 1958 TV Yellow Les Paul Special Dating Guide"
+seoTitle: "1955 To 1958 TV Yellow Les Paul Special Dating Guide"
 pubDate: "2026-03-02T19:31:50"
 modified: "2026-03-02T19:31:50"
 excerpt: "In the ‘Golden Era’ of Gibson production, few instruments carry as much mojo, or as much confusion for collectors, as the 1955 to 1958 single-cutaway Les Paul Special. Finished in TV Yellow, these ‘slab-body’ mahogany guitars sit between the working-man’s Junior and the high-end Standard. But with seventy years of history comes seventy years of modifications. From ‘Bumblebee’ capacitors and original P-90 soapbars to the patina of aged brass tuner posts, we go through the details that tell you what you’ve got. Maybe you’re a longtime collector, or maybe you’re looking to sell a family heirloom. Either way, this guide, backed by personally authenticating over 40 of these models, covers what makes a ‘dead-original’ Special worth holding onto."
@@ -9,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1955-1958-tv-yellow-les-paul-special-guide/1958-gibson-les-paul-special-tv-yellow-24-scaled.jpg"
 heroImageAlt: "1958 Gibson Les Paul Special with TV Yellow finish"
-metaDescription: "In the ‘Golden Era’ of Gibson production, few instruments carry as much mojo, or as much confusion for collectors, as the 1955 to 1958 single-cutaway Les Paul Special. Finished in TV Yellow, these ‘slab-body’ mahogany guitars sit between the working-man’s Junior and the high-end Standard. But with seventy years of history comes seventy years of modifications. From ‘Bumblebee’ capacitors and original P-90 soapbars to the patina of aged brass tuner posts, we go through the details that tell you what you’ve got. Maybe you’re a longtime collector, or maybe you’re looking to sell a family heirloom. Either way, this guide, backed by personally authenticating over 40 of these models, covers what makes a ‘dead-original’ Special worth holding onto."
+metaDescription: "Identify TV Yellow Gibson Les Paul Special features and original parts. Compare construction, dating clues, repair details and photographs from my archive."
 ogImage: "/images/blog/1955-1958-tv-yellow-les-paul-special-guide/1958-gibson-les-paul-special-tv-yellow-24-scaled.jpg"
 wpId: 18997
 ---
@@ -128,12 +128,12 @@ When authenticating a high-value vintage guitar from 1955, the condition of the 
 When inspecting the neck of a high-value vintage guitar, the small plastic “nibs” at the end of each fret are a primary indicator of originality. On this 1958 Les Paul Special, you can see how the cream-colored binding was hand-shaped at the Kalamazoo factory to climb over the edge of the fret wire.  
 At Joe’s Vintage Guitars, we look for these nibs as proof that the guitar still carries its factory-installed frets. Because a standard refret usually involves leveling the binding flush with the wood, the presence of these tiny plastic bumps is a major green flag for collectors. If the frets on a 1958 model go all the way to the edge of the binding without these nibs, the guitar has likely been refretted, a detail that is essential for an honest professional appraisal.
 
--   **Inlays and Dots:** The **Pearl dots** on the fretboard should have a “wavy” look and may show some **greening** from age. The **side dots** (on the binding) should be a dark, translucent **tortoise shell** material.
+-   **Inlays and Dots:** The **cream-colored celluloid dot inlays** on the fretboard should have a “wavy” look and may show some **greening** from age. The **side dots** (on the binding) should be a dark, translucent **tortoise shell** material.
     
 
 ![A detailed perspective of an original 1958 Gibson Les Paul Special fretboard dot inlay. The image captures the organic, "wavy" texture of the mother-of-pearl material, showcasing a distinct iridescent shimmer and subtle greenish-grey tinting caused by decades of natural aging on the dark rosewood fingerboard.](../../assets/blog/1955-1958-tv-yellow-les-paul-special-guide/1958-gibson-les-paul-special-tv-yellow-dot-inlay-1024x683.jpg)
 
-When you’re examining a high-value vintage guitar for professional appraisal, the material of the fretboard inlays is a silent witness to its era. This 1958 Les Paul Special features the correct mother-of-pearl dots, which should exhibit a “wavy” or variegated internal texture rather than the flat, uniform look of modern plastic.
+When you’re examining a high-value vintage guitar for professional appraisal, the material of the fretboard inlays is a silent witness to its era. This 1958 Les Paul Special features the correct cream-colored celluloid dot inlays, which should exhibit a “wavy” or variegated internal texture rather than the flat, uniform look of modern plastic.
 
 -   **Logos & Serial Number:** The “Gibson” logo is **Mother of Pearl**, while the “Les Paul Special” logo is a **gold silk-screen**. The **Serial Number** on the back of the headstock is stamped in **black ink** and may be slightly faded.
     

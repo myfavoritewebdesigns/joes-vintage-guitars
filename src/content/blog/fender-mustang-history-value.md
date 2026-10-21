@@ -12,7 +12,7 @@ heroImageAlt: "Front of a 1971 Fender Competition Mustang in Competition Blue wi
 metaDescription: "Vintage Fender Mustang values from 1964 to 1979, with annual price ranges, Competition finishes, original parts, dating details and photos from my shop."
 ogImage: "/images/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg"
 ---
-A 1964 Fender Mustang in all-original, excellent condition has an asking range of $2,000 to $4,000; Competition Mustangs sit at $4,000 to $5,500. Standard sunburst guitars from the 1970s have a guide range of $1,500 to $2,500. I assess the exact configuration and condition before discussing an offer.
+Vintage Fender Mustangs range from $1,500 to $2,500 for original 1970s sunburst guitars to $4,000 to $5,500 in Competition asking ranges. Early 1964 and 1965 standard-finish examples have a $2,000 to $4,000 asking range in excellent, all-original condition. I assess the actual configuration and condition before discussing an offer.
 
 If you're comparing more than one Fender, my [vintage Fender value guide](/vintage-fender-value-guide/) brings the model price tables together.
 
@@ -26,7 +26,7 @@ As of October 2026, the 1964 to 1971 standard-finish rows and all Competition ro
 | 1965 | $2,000 to $4,000 | Outside Competition Run |
 | 1966 | $1,500 to $2,000 | Outside Competition Run |
 | 1967 | $1,500 to $2,000 | Outside Competition Run |
-| 1968 | $1,500 to $2,000 | Outside Competition Run |
+| 1968 | $1,500 to $2,000 | $4,000 to $5,500 |
 | 1969 | $1,500 to $2,000 | $4,000 to $5,500 |
 | 1970 | $1,500 to $2,000 | $4,000 to $5,500 |
 | 1971 | $1,500 to $2,000 | $4,000 to $5,500 |
@@ -40,9 +40,9 @@ As of October 2026, the 1964 to 1971 standard-finish rows and all Competition ro
 | 1979 | $1,500 to $2,500 | Outside Competition Run |
 
 
-Adjacent years can share a range. The 1964 to 1971 standard-finish and Competition ranges assume all-original, excellent guitars. The 1972 to 1979 sunburst range covers original finish, pickups and hardware in Very Good to Excellent condition with the original hard case; a cracked original pickguard can place a guitar lower. It doesn't cover Antigua, rare finishes or mint examples. Player-grade asking ranges are $1,500 to $3,000 for 1964 to 1965, $1,500 to $2,000 for later standard colors, and $2,500 to $4,500 for Competition models.
+Adjacent years can share a range. The 1964 to 1971 standard-finish and Competition ranges assume all-original, excellent guitars. The 1972 to 1979 sunburst range covers original finish, pickups and hardware in Very Good to Excellent condition with the original hard case; a cracked original pickguard can place a guitar lower. It doesn't cover Antigua, rare finishes or mint examples. Rounded price bands can overlap: the later CBS player and excellent asking ranges both show $1,500 to $2,000, while the separate 1970s sunburst group reaches $2,500. Those shared endpoints don't make the conditions equivalent or establish a premium for a later year. Player-grade asking ranges are $1,500 to $3,000 for 1964 to 1965, $1,500 to $2,000 for later standard colors, and $2,500 to $4,500 for Competition models.
 
-A few things sit outside the table. Competition Orange is the rarest of the three Competition colors and can run above the range, a 1969 with an original matching painted headstock commands a premium over a later natural-headstock car, and Competition Blue carries extra weight from the Cobain association. A original 22.5 inch short-scale example is less common than the 24 inch and can draw its own interest. On the other end, a refinished guitar, a swapped-in modern bridge, a missing vibrato arm, or an added humbucker each pull the number down, and on a Competition guitar a refinish erases most of the premium.
+A few things sit outside the table. Competition Orange is the rarest of the three Competition colors and can run above the range, a 1969 with an original matching painted headstock commands a premium over a later natural-headstock car, and Competition Blue carries extra weight from the Cobain association. An original 22.5 inch short-scale example is less common than the 24 inch and can draw its own interest. On the other end, a refinished guitar, a swapped-in modern bridge, a missing vibrato arm, or an added humbucker each pull the number down, and on a Competition guitar a refinish erases most of the premium.
 
 ![Back of a 1972 Fender Competition Mustang in Competition Red showing heavy finish wear and honest player condition.](../../assets/blog/fender-mustang-history-value/fender-competition-mustang-red-back-player-wear.jpg)
 
@@ -63,8 +63,9 @@ The orange-lined case for our Competition Blue Mustang, with a period dealer sti
 The original "Fender Competition Mustang" owner's manual. Case candy like this, the manual, the warranty card, the vibrato arm, and the bridge cover, is easy to lose over sixty years, so a full and correct set adds a premium to an already original guitar. If you inherited a Mustang and there is a booklet, a warranty card, or an old receipt in the case pocket, keep it: it is part of the value.
 
 <nav class="fmg-nav-sidebar" id="fmgNavSidebar" aria-label="Article section navigation">
-  <a href="#fmg-value" class="fmg-nav-link"><span class="fmg-nav-dot"></span>Values By Year</a>
 <div class="fmg-nav-header"><strong>Mustang Guide</strong></div>
+
+  <a href="#fmg-value" class="fmg-nav-link"><span class="fmg-nav-dot"></span>Values By Year</a>
   <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="fmg-nav-link top">&uarr; Top of Page</a>
   <div class="fmg-nav-label">The Guitar</div>
   <a href="#fmg-what" class="fmg-nav-link"><span class="fmg-nav-dot"></span>The Short Version</a>
@@ -93,6 +94,7 @@ The original "Fender Competition Mustang" owner's manual. Case candy like this, 
 
 <div class="fmg-nav-panel" id="fmgNavPanel" role="navigation" aria-label="Article section navigation">
   <div class="fmg-nav-header"><strong>Mustang Guide</strong></div>
+  <a href="#fmg-value" onclick="closeFmgNav()" class="fmg-nav-link"><span class="fmg-nav-dot"></span>Values By Year</a>
   <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});closeFmgNav();return false;" class="fmg-nav-link top">&uarr; Top of Page</a>
   <div class="fmg-nav-label">The Guitar</div>
   <a href="#fmg-what" onclick="closeFmgNav()" class="fmg-nav-link"><span class="fmg-nav-dot"></span>The Short Version</a>
@@ -110,14 +112,13 @@ The original "Fender Competition Mustang" owner's manual. Case candy like this, 
   <a href="#fmg-checklist" onclick="closeFmgNav()" class="fmg-nav-link"><span class="fmg-nav-dot"></span>The Checklist</a>
   <div class="fmg-nav-label">Value</div>
   <a href="#fmg-reissue" onclick="closeFmgNav()" class="fmg-nav-link"><span class="fmg-nav-dot"></span>Vintage or Reissue</a>
-  <a href="#fmg-value" onclick="closeFmgNav()" class="fmg-nav-link"><span class="fmg-nav-dot"></span>What It Is Worth</a>
   <a href="#fmg-selling" onclick="closeFmgNav()" class="fmg-nav-link"><span class="fmg-nav-dot"></span>Thinking of Selling</a>
   <a href="#fmg-faq" onclick="closeFmgNav()" class="fmg-nav-link"><span class="fmg-nav-dot"></span>FAQ</a>
 </div>
 
 <h2 id="fmg-what">The Short Version</h2>
 
-The Fender Mustang arrived in 1964 as the top of Fender's student line, and for years that was all anyone thought it was: a cheap, short-scale guitar for kids and beginners. That reputation is exactly why it is now one of the most interesting vintage Fenders to buy and sell. A student guitar in 1964 is a original pre-CBS or early CBS Fender in 2026, built in the same Fullerton factory as the Stratocaster, with a switching system nothing else in the catalog had and a floating vibrato that was designed for this model and no other. Then punk and indie rock got hold of it, Kurt Cobain made a Competition Mustang the most famous guitar of the 1990s, and the prices followed.
+The Fender Mustang arrived in 1964 as the top of Fender's student line, and for years that was all anyone thought it was: a cheap, short-scale guitar for kids and beginners. That reputation is exactly why it is now one of the most interesting vintage Fenders to buy and sell. A student guitar in 1964 is an original pre-CBS or early CBS Fender in 2026, built in the same Fullerton factory as the Stratocaster, with a switching system nothing else in the catalog had and a floating vibrato that was designed for this model and no other. Then punk and indie rock got hold of it, Kurt Cobain made a Competition Mustang the most famous guitar of the 1990s, and the prices followed.
 
 At Joe's Vintage Guitars we buy and sell vintage Mustangs, and we are always looking to add clean 1960s and early 1970s examples to the collection. If you have one you are thinking about selling, we give straight [nationwide appraisals](/free-appraisal/) and pay top dollar for original guitars. This guide is the same walk-through we do on the bench: what the short-scale family is, how the Mustang changed from year to year, what the Competition finishes are, how we tell an original from a modified one, how to read the serial number, and what a real Mustang is worth in today's market. Every photo below is a guitar that came through our shop in Mesa.
 
@@ -138,7 +139,7 @@ When the Mustang launched in 1964, Fender redesigned the Duo-Sonic and Musicmast
 
 The Mustang is a solid-body electric with a compact offset waist, a bolt-on maple neck, and a rosewood fingerboard. The body is a solid slab (poplar on most examples, with other hardwoods turning up across the long production run), routed for two pickups and finished in nitrocellulose lacquer through the vintage era. It is a real Fullerton-built Fender, not a corner-cut import, and that is the point buyers sometimes miss.
 
-Two things about the build matter most for authentication. The first is scale length. The Mustang was offered in two: a 22.5 inch short scale and a 24 inch medium scale. The 24 inch quickly became the standard and the far more common seller, so a original 22.5 inch example is the less usual find. Fender also specified nut width with a letter code that shows up in the neck stamp, where "A" is the narrow 1 and 1/2 inch nut and "B" is the wider and generally more desirable 1 and 5/8 inch nut.
+Two things about the build matter most for authentication. The first is scale length. The Mustang was offered in two: a 22.5 inch short scale and a 24 inch medium scale. The 24 inch quickly became the standard and the far more common seller, so an original 22.5 inch example is the less usual find. Fender also specified nut width with a letter code that shows up in the neck stamp, where "A" is the narrow 1 and 1/2 inch nut and "B" is the wider and generally more desirable 1 and 5/8 inch nut.
 
 ![Rosewood fingerboard of a vintage Fender Mustang showing pearloid dot inlays and a bolt-on maple neck.](../../assets/blog/fender-mustang-history-value/fender-mustang-rosewood-fingerboard-pearl-dots.jpg)
 
@@ -211,7 +212,7 @@ The larger CBS headstock on a 1971 Mustang, wearing the bold black logo over a n
 
 <h2 id="fmg-competition">The Competition Mustangs</h2>
 
-The most collectible vintage Mustangs are the Competition models, and they are the ones that carry Kurt Cobain's shadow. Starting around 1968 and 1969, Fender offered the Mustang in a "Competition" finish package inspired by the muscle-car look of the era: a diagonal racing stripe across the body, a matching painted headstock on the early examples, and a pearloid pickguard. The option ran until roughly 1973.
+The most collectible vintage Mustangs are the Competition models, and they are the ones that carry Kurt Cobain's shadow. Starting in 1968, Fender offered the Mustang in a "Competition" finish package inspired by the muscle-car look of the era: a diagonal racing stripe across the body, a matching painted headstock on the early examples, and a pearloid pickguard. The option ran until roughly 1973.
 
 The Competition colors were Competition Red, Competition Blue, and Competition Orange. There is a common point of confusion worth clearing up: Fender's own catalog listed the blue one as "Competition Burgundy," but the guitars are blue, not burgundy, so that is a catalog label rather than a fourth color. The stripes were finished to complement the body, and the earliest 1968 examples had stripes that wrapped around the body, while from late 1968 on the stripes are on the front only. The matching painted headstock ran from the introduction into about 1969 or 1970, after which a natural, unpainted headstock became standard on Competition Mustangs.
 
@@ -329,7 +330,7 @@ Start with the neck plate serial number and match it to a known range: the pre-C
 
 **What is a Competition Mustang?**
 
-A Competition Mustang is a Mustang finished in Fender's "Competition" package, offered from about 1968 or 1969 to 1973. It has a diagonal racing stripe across the body, a pearloid pickguard, and, on early examples, a matching painted headstock. The colors were Competition Red, Competition Blue, and Competition Orange. Competition Mustangs are the most collectible vintage Mustangs, with Orange the rarest and Blue carrying a premium from the Kurt Cobain association.
+A Competition Mustang is a Mustang finished in Fender's "Competition" package, offered from 1968 to 1973. It has a diagonal racing stripe across the body, a pearloid pickguard, and, on early examples, a matching painted headstock. The colors were Competition Red, Competition Blue, and Competition Orange. Competition Mustangs are the most collectible vintage Mustangs, with Orange the rarest and Blue carrying a premium from the Kurt Cobain association.
 
 **What is my vintage Fender Mustang worth?**
 
@@ -337,7 +338,7 @@ As of October 2026, asking ranges are $2,000 to $4,000 for all-original, excelle
 
 **What is the difference between the 22.5 inch and 24 inch scale Mustang?**
 
-The Mustang was offered in a 22.5 inch short scale and a 24 inch medium scale. The 24 inch became the standard and is far more common, while a original 22.5 inch example is the less usual find. The shorter scale means lower string tension and an easier reach, which is part of why the Mustang appealed to younger and smaller-handed players, and later to anyone who liked its slinky feel. Fender's nut-width letter code, "A" for the narrow nut and "B" for the wider one, is separate from the scale but shows up in the neck stamp.
+The Mustang was offered in a 22.5 inch short scale and a 24 inch medium scale. The 24 inch became the standard and is far more common, while an original 22.5 inch example is the less usual find. The shorter scale means lower string tension and an easier reach, which is part of why the Mustang appealed to younger and smaller-handed players, and later to anyone who liked its slinky feel. Fender's nut-width letter code, "A" for the narrow nut and "B" for the wider one, is separate from the scale but shows up in the neck stamp.
 
 **What do the two slide switches on a Mustang do?**
 
@@ -464,7 +465,7 @@ No. Reissues are good guitars, but they are worth a fraction of a vintage origin
       "name": "What is a Competition Mustang?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A Competition Mustang is a Mustang finished in Fender’s “Competition” package, offered from about 1968 or 1969 to 1973. It has a diagonal racing stripe across the body, a pearloid pickguard, and, on early examples, a matching painted headstock. The colors were Competition Red, Competition Blue, and Competition Orange. Competition Mustangs are the most collectible vintage Mustangs, with Orange the rarest and Blue carrying a premium from the Kurt Cobain association."
+        "text": "A Competition Mustang is a Mustang finished in Fender’s “Competition” package, offered from 1968 to 1973. It has a diagonal racing stripe across the body, a pearloid pickguard, and, on early examples, a matching painted headstock. The colors were Competition Red, Competition Blue, and Competition Orange. Competition Mustangs are the most collectible vintage Mustangs, with Orange the rarest and Blue carrying a premium from the Kurt Cobain association."
       }
     },
     {
@@ -480,7 +481,7 @@ No. Reissues are good guitars, but they are worth a fraction of a vintage origin
       "name": "What is the difference between the 22.5 inch and 24 inch scale Mustang?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Mustang was offered in a 22.5 inch short scale and a 24 inch medium scale. The 24 inch became the standard and is far more common, while a original 22.5 inch example is the less usual find. The shorter scale means lower string tension and an easier reach, which is part of why the Mustang appealed to younger and smaller-handed players, and later to anyone who liked its slinky feel. Fender’s nut-width letter code, “A” for the narrow nut and “B” for the wider one, is separate from the scale but shows up in the neck stamp."
+        "text": "The Mustang was offered in a 22.5 inch short scale and a 24 inch medium scale. The 24 inch became the standard and is far more common, while an original 22.5 inch example is the less usual find. The shorter scale means lower string tension and an easier reach, which is part of why the Mustang appealed to younger and smaller-handed players, and later to anyone who liked its slinky feel. Fender’s nut-width letter code, “A” for the narrow nut and “B” for the wider one, is separate from the scale but shows up in the neck stamp."
       }
     },
     {

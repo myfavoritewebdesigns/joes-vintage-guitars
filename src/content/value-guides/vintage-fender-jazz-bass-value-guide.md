@@ -1,6 +1,6 @@
 Vintage Fender Jazz Bass comparisons run from $2,000 to $29,000 across 1960 to 1979, depending on the control layout, year, finish and condition. Original sunburst stack-knob examples sit in a $21,000 to $29,000 band; the late-1970s comparison is $2,000 to $4,000. I start with the right group, then narrow it to the bass in front of me.
 
-If the year or originality is uncertain, use my [Fender Jazz Bass dating and authentication guide](/post/vintage-fender-jazz-bass-guide/) before applying a price. This page covers market comparisons, condition and selling decisions. The photographs are from my own archive, including a refinished example that's labeled as such.
+If the year or originality is uncertain, use my [Fender Jazz Bass dating and authentication guide](/post/vintage-fender-jazz-bass-guide/) before applying a price. I cover market comparisons, condition and selling decisions. The photographs are from my own archive, including a refinished example that's labeled as such.
 
 My [vintage Fender model value guide](/vintage-fender-value-guide/) also links the Precision Bass and guitar price tables if you're comparing more than one instrument.
 
@@ -12,23 +12,23 @@ Each production year has a row, and adjacent years can share a range. The two co
 
 | Year | Value Range | Shared Comparison And Condition |
 | --- | --- | --- |
-| 1960 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
-| 1961 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
+| 1960 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, replacement nut disclosed |
+| 1961 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, replacement nut disclosed |
 | 1961 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
-| 1962 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
+| 1962 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, replacement nut disclosed |
 | 1962 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
 | 1963 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
 | 1964 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
-| 1965 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
-| 1966 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
-| 1967 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
-| 1968 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
-| 1969 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
-| 1970 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
-| 1971 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
-| 1972 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
-| 1973 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
-| 1974 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
+| 1965 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
+| 1966 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
+| 1967 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
+| 1968 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
+| 1969 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
+| 1970 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
+| 1971 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
+| 1972 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
+| 1973 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
+| 1974 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
 | 1975 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
 | 1976 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
 | 1977 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
@@ -47,19 +47,13 @@ The early-1970s range allows a professional refret and replacement nut, with the
 
 The ranges exclude separately charged shipping and taxes. They aren't guaranteed purchase offers or the amount an owner will receive after selling costs.
 
-<figure>
 
-![Lake Placid Blue Fender Jazz Bass body with white pickguard and chrome covers](../../assets/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg)
-
-<figcaption>A Lake Placid Blue Jazz Bass from my archive, with its white guard, chrome covers and three controls.</figcaption>
-
-</figure>
 
 ## Why The Control Layout Changes The Comparison
 
 The earliest Jazz Bass uses two stacked controls, with a volume and tone adjustment for each pickup. The later arrangement has three separate knobs: two volumes and a shared tone. That difference separates the first collector group from the much longer production run that followed it.
 
-I don't price a bass from the control plate alone. A replacement plate can give a later or modified instrument the appearance of an earlier one. For the stack-knob band, the bass needs to belong to that original configuration, with its finish, pickups and supporting evidence accounted for.
+I check the complete instrument before assigning a range. A replacement plate can give a later or modified instrument the appearance of an earlier one. For the stack-knob band, the bass needs to belong to that original configuration, with its finish, pickups and supporting evidence accounted for.
 
 The $21,000 to $29,000 comparison applies to original sunburst stack-knob instruments under the stated conditions. It doesn't apply unchanged to a refinished body, an assembled bass or a later instrument converted to stacked controls. Those can still be good instruments, but the available comparison has changed.
 
@@ -83,11 +77,11 @@ An original owner history can help establish what was changed and when. It doesn
 
 ## How I Compare The CBS And Seventies Basses
 
-For 1965 to 1969, the $4,500 to $12,000 range spans worn later examples through excellent originals from 1965. Binding, dot or block inlays and other transition features help narrow the appraisal. They don't create a fixed premium for every bass from a year.
+For 1965 to 1969, the $4,500 to $12,000 range spans Good, worn later examples through excellent originals from 1965. The lower floor than the Precision Bass comparison reflects the Good-condition players included here; that Precision band starts at Very Good. Compare equally complete basses in the same condition before treating the difference as a model premium.
 
-A 1966 bound-dot bass deserves its own inspection because it sits within a transition. Its condition and complete configuration can appeal to a different buyer from a later block-inlay player. I don't assign a separate fixed bound-dot premium.
+A 1966 bound-dot bass deserves its own inspection because it sits within a transition. Its condition and complete configuration can appeal to a different buyer from a later block-inlay player. Its originality and condition determine where it falls within the range.
 
-The 1970 to 1974 comparison is $3,500 to $6,000. The reference includes original-finish sunburst basses with original pickups and cases, from serviced players to unusually complete examples. Fretwork and a replacement nut are disclosed allowances, rather than reasons to describe every bass in that interval as untouched.
+The 1970 to 1974 comparison is $3,500 to $6,000. The reference includes original-finish sunburst basses with original pickups and cases, from serviced players to unusually complete examples. Fretwork and a replacement nut are disclosed changes, rather than reasons to describe every bass in that interval as untouched.
 
 <figure>
 
@@ -99,11 +93,11 @@ The 1970 to 1974 comparison is $3,500 to $6,000. The reference includes original
 
 For 1975 to 1979, the standard-finish range is $2,000 to $4,000. Condition, neck function, weight and retained parts help narrow an individual appraisal. Unusual finishes need a separate assessment.
 
-I don't use the Jazz Bass table for a Precision Bass, modern reissue or bass assembled from parts. The instrument's actual model and construction determine which range applies.
+A Precision Bass, modern reissue or bass assembled from parts needs its own comparison. The instrument's actual model and construction determine which range applies.
 
 ### Maple Boards And Playing Condition
 
-A maple fingerboard with blocks gives a 1970s Jazz Bass a different appearance from the earlier rosewood instruments. The photograph below shows that later board style. It doesn't establish a fixed maple-board premium, and I haven't added one to the table.
+A maple fingerboard with block inlays gives a 1970s Jazz Bass a different appearance from the earlier rosewood instruments. I assess the neck's originality and condition with the rest of the bass.
 
 <figure>
 
@@ -133,7 +127,7 @@ Lake Placid Blue, Candy Apple Red and other colors aren't interchangeable price 
 
 The color visible today may have changed with age and wear. That doesn't by itself prove a refinish, just as attractive checking doesn't prove an original finish. I use the established finish assessment when choosing the price group, rather than assigning a premium from the color in one photograph.
 
-A refinished instrument belongs in a refinished comparison. The workmanship can be excellent and the bass can play beautifully, but the collector isn't buying an untouched factory finish. I don't subtract one universal percentage because the extent of the work and the other retained parts vary too much.
+A refinished instrument belongs in a refinished comparison. The workmanship can be excellent and the bass can play beautifully, but the collector isn't buying an untouched factory finish. The extent of the refinish and the other retained parts determine the size of the deduction.
 
 <figure>
 
@@ -173,7 +167,7 @@ An advertised amount and the price a buyer ultimately pays can differ. A direct 
 
 ### Is A Vintage Jazz Bass An Investment?
 
-A collectible bass can retain an audience, but I don't promise appreciation or a timetable for resale. The acquisition price, condition, originality and eventual selling costs all affect the outcome. Buy an instrument you understand rather than relying on a prediction that every vintage bass will rise together.
+A collectible bass can retain an audience, while its resale price and time on the market remain uncertain. The acquisition price, condition, originality and eventual selling costs all affect the outcome. Buy an instrument you understand rather than relying on a prediction that every vintage bass will rise together.
 
 For an inherited instrument, there is no need to rush cosmetic work in order to request a value. A clear record of its present condition is a better starting point. Polishing, refinishing or replacing parts before an appraisal can remove evidence that would have helped explain it.
 

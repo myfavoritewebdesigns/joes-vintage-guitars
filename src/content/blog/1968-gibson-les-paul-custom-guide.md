@@ -11,7 +11,7 @@ heroImage: "/images/blog/1968-gibson-les-paul-custom-guide/1969-gibson-les-paul-
 heroImageAlt: "Full-length black 1969 Gibson Les Paul Custom with gold hardware"
 heroImageCaption: "1969 Les Paul Custom, shown as a construction reference for the 1968 model."
 heroImageLicensed: true
-metaDescription: "Identify a 1968 Gibson Les Paul Custom by its one-piece neck, long tenon, maple cap, waffleback tuners and pot codes. Compare 1969 features, prices and value."
+metaDescription: "Identify vintage Gibson Les Paul Customs by body, neck, pickups and hardware, with year-specific details, original features and current value context."
 ogImage: "/images/blog/1968-gibson-les-paul-custom-guide/1969-gibson-les-paul-custom-black-full-front.jpg"
 author: "Joe Dampt"
 draft: false
@@ -174,7 +174,7 @@ toc: [{"href":"#1968-custom-return","label":"Gibson Les Paul Custom Reintroducti
 
 <h2 id="1968-les-paul-custom-value">What Is A 1968 Les Paul Custom Worth?</h2>
 
-<p>Our <a href="/vintage-gibson-les-paul-market-value-guide/">Les Paul value guide</a>, checked in October 2026, gives a broad US retail estimate of $12,000 to $18,000 for 1968 to 1969 Customs in excellent, all-original condition with the correct case. That is a condition-specific guide range, not a price for every black Custom carrying a 1968 attribution.</p><p>For a 1968 example, confirm the date and original construction before comparing prices. An original finish, unrepaired headstock, original pickups and undisturbed hardware support a different comparison from a refinished or repaired guitar. A refret affects the low-fret feel and originality; its workmanship should be described rather than hidden behind a general condition grade.</p>
+<p>Our <a href="/vintage-gibson-les-paul-market-value-guide/">Les Paul value guide</a>, checked in October 2026, gives a broad US retail estimate of $11,000 to $17,000 for 1968 to 1969 Customs in excellent, all-original condition with the correct case. That is a condition-specific guide range, not a price for every black Custom carrying a 1968 attribution.</p><p>For a 1968 example, confirm the date and original construction before comparing prices. An original finish, unrepaired headstock, original pickups and undisturbed hardware support a different comparison from a refinished or repaired guitar. A refret affects the low-fret feel and originality; its workmanship should be described rather than hidden behind a general condition grade.</p>
 
 
 

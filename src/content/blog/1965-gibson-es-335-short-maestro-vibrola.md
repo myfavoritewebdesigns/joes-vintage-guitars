@@ -1,5 +1,6 @@
 ---
 title: "A 1965 Gibson ES-335 With a Factory Short Maestro Vibrola"
+seoTitle: "1965 Gibson ES-335 Factory Short Maestro Vibrola Guide"
 pubDate: "2026-06-24T10:00:00"
 modified: "2026-06-24T10:00:00"
 excerpt: "A 1965 Gibson ES-335 turned up wearing a short Maestro Vibrola, a factory combination I had never seen on a 335. Here is why I read it as original, how the ground wire and a clean top confirm it, and what an unusual factory feature like this means for a vintage Gibson's value."
@@ -9,7 +10,7 @@ tags: []
 heroImage: "/images/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-maestro-front-of-body.jpg"
 heroImageAlt: "1965 Gibson ES-335 in sunburst with a factory short Maestro Vibrola, front of body"
 ogImage: "/images/blog/1965-gibson-es-335-short-maestro-vibrola/1965-gibson-es-335-maestro-front-of-body.jpg"
-metaDescription: "A 1965 Gibson ES-335 with a factory short Maestro Vibrola, a combination rarely seen on a 335. How the original ground wire and a clean top confirm it left Kalamazoo this way, plus how to date it and what it means for value."
+metaDescription: "Identify 1965 Gibson ES-335 with a short Maestro features, original parts and construction. Compare dating clues, repairs and photos from my archive."
 ---
 
 For current ranges and condition assumptions, see my [ES-335 value guide by year](/vintage-gibson-es-335-value-guide/).

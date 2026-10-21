@@ -1,5 +1,6 @@
 ---
 title: "Original Owner, Original Bass: A ’73 Jazz Bass Meets the Vintera III"
+seoTitle: "1973 Fender Jazz Bass And Vintera III: Specs And Value"
 pubDate: "2026-04-29T16:37:06"
 modified: "2026-05-13T18:00:22"
 excerpt: "Jim’s parents bought him a brand-new 1973 Fender Jazz Bass for Christmas: sunburst, maple board, black blocks. Fifty years later, we put it head-to-head with Fender’s brand-new Vintera III Early ’70s Jazz Bass. Here’s how the reissue stacks up against the real thing."
@@ -8,7 +9,7 @@ categoryName: "Museum & Original Owners"
 tags: []
 heroImage: "/images/blog/1973-fender-jazz-bass-vintera-iii/jim-with-1972-fender-jazz-bass-scaled.jpeg"
 heroImageAlt: "Jim with his 1973 Jazz bass which he has owner for over 40 years."
-metaDescription: "Jim’s parents bought him a brand-new 1973 Fender Jazz Bass for Christmas: sunburst, maple board, black blocks. Fifty years later, we put it head-to-head with Fender’s brand-new Vintera III Early ’70s Jazz Bass. Here’s how the reissue stacks up against the real thing."
+metaDescription: "Identify 1973 Fender Jazz Bass and Vintera III features, original parts and construction. Compare dating clues, repairs and photos from my archive."
 ogImage: "/images/blog/1973-fender-jazz-bass-vintera-iii/jim-with-1972-fender-jazz-bass-scaled.jpeg"
 wpId: 20965
 ---
@@ -214,7 +215,7 @@ Vintage-tall frets. 7.25" radius. Period-correct hardware, including the vintage
 | Bridge | Vintage 4-saddle, steel saddles | Vintage 4-saddle, slotted steel saddles |
 | Tuners | Fender-stamped open-gear | Vintage-style reverse tuners |
 | Country of origin | Fullerton, California, USA | Ensenada, Mexico |
-| Price (today) | $4,000 to $7,500 depending on condition and originality | $1,499 street |
+| Price (today) | $3,500 to $6,000 for original sunburst with its case; condition and servicing affect placement | $1,499 street |
 
 None of this means the Vintera III replaces the original. A 1973 in honest, all-original condition has 50+ years of played-in resonance, history, and provenance baked in, and there's a value to *that bass having existed in the world for that long* that you can't manufacture. But I plugged in this Vintera III, and after a couple of minutes I just sat back and went, "yeah. They got it."
 
@@ -259,3 +260,5 @@ Whether you've inherited a CBS-era Fender, you're shopping for one, or you've ow
 Have a vintage Jazz Bass, Precision, Strat, or Tele? Send us photos and we'll walk you through what you have, what era it's from, and what it's worth in today's market.
 
 Looking for more like this? Read our [vintage guitar deep-dives](/blog/), check our [Fender serial number guide](/fender-guitars-serial-number-guide/) to date your own bass or guitar, or see [how to sell your vintage Fender directly to Joe](/sell-my-fender-guitar/).
+
+For the vintage instrument, my [Fender Jazz Bass value guide](/vintage-fender-jazz-bass-value-guide/) explains the year, finish and condition comparisons.

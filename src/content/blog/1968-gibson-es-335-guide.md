@@ -1,5 +1,6 @@
 ---
 title: "1968 Gibson ES-335: Buyer’s & Collector’s Guide"
+seoTitle: "1968 Gibson ES-335 Value, Dating And Originality Guide"
 pubDate: "2026-04-13T22:26:56"
 modified: "2026-05-14T16:30:25"
 excerpt: "The 1968 Gibson ES-335 marks the final year of Gibson’s one-piece mahogany neck and long tenon joint, the last of the Kalamazoo-era semi-hollows before the construction changes of 1969. This guide covers finish rarity, hardware authentication, pot code dating, and current market values for collectors and sellers."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1968-gibson-es-335-guide/1968-gibson-es-335-sunburst-9-scaled.jpg"
 heroImageAlt: "A 1968 Gibson ES-335 in Sunburst finish. This example is in near mint condition."
-metaDescription: "The 1968 Gibson ES-335 marks the final year of Gibson’s one-piece mahogany neck and long tenon joint, the last of the Kalamazoo-era semi-hollows before the construction changes of 1969. This guide covers finish rarity, hardware authentication, pot code dating, and current market values for collectors and sellers."
+metaDescription: "Identify 1968 Gibson ES-335 features, original parts and construction details. Compare dating clues, repairs and photographs from my archive."
 ogImage: "/images/blog/1968-gibson-es-335-guide/1968-gibson-es-335-sunburst-9-scaled.jpg"
 wpId: 20834
 ---
@@ -137,7 +138,7 @@ From a market standpoint, 1968 sits in a spot in the ES-335 lineup that works in
 
 ### How 1968 Sits in the ES-335 Timeline
 
-Start with the full lineage. The earliest examples, covered in our [1959 ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and our [1962 ES-335 guide](/post/1962-gibson-es-335-guide/), are the most collectible. PAF pickups, wider nut widths, prices regularly above $30,000. The 1968 keeps the key structural pieces (one-piece neck, long tenon) but trades the PAF for T-tops and the wider nut for a slightly narrower one. The price drops accordingly.
+Start with the full lineage. The earliest examples, covered in our [1959 ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and our [1962 ES-335 guide](/post/1962-gibson-es-335-guide/), are the most collectible. PAF pickups, wider nut widths, prices regularly above $27,000. The 1968 keeps the key structural pieces (one-piece neck, long tenon) but trades the PAF for T-tops and the wider nut for a slightly narrower one. The price drops accordingly.
 
 ### The "Narrow Neck" Factor
 
@@ -169,7 +170,7 @@ What is the difference between a 1968 and a 1969 Gibson ES-335?
 
 How much is a 1968 Gibson ES-335 worth?
 
-Value depends on condition, originality, and finish. A clean, fully original Cherry or Sunburst example in excellent condition typically trades in the $7,000 to $8,000 range. Rare finishes like Pelham Blue, Polaris White, or Ebony bring significant premiums. For a precise number on a specific instrument, [request a free appraisal](/free-appraisal/). Generic online estimates almost never account for the hardware and finish details that actually move the price.
+Value depends on condition, originality, and finish. A clean, fully original Cherry or Sunburst example in excellent condition typically trades in the $6,500 to $7,500 range. Rare finishes like Pelham Blue, Polaris White, or Ebony bring significant premiums. For a precise number on a specific instrument, [request a free appraisal](/free-appraisal/). Generic online estimates almost never account for the hardware and finish details that actually move the price.
 
 How do I decode the serial number on my 1968 Gibson ES-335?
 

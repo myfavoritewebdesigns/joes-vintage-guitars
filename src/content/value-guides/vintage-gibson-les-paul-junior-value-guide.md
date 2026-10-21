@@ -1,6 +1,6 @@
 A vintage Gibson Les Paul Junior with its original sunburst finish has a $5,500 to $12,000 guide range for 1954 to 1958 single-cutaway guitars. The corresponding single-cutaway TV Model reference is $9,000 to $18,000. I start with the body style and finish, then narrow the comparison around the pickup, repairs, wear and case.
 
-This page covers the earlier slab-body Junior and its one-pickup TV counterpart. For serials, parts and construction evidence, use my [Les Paul Junior dating and authentication guide](/post/gibson-les-paul-junior-guide/). A guitar with the later pointed SG body belongs in a separate comparison, even when its headstock still says Les Paul Junior.
+I cover the earlier slab-body Junior and its one-pickup TV counterpart. For serials, parts and construction evidence, use my [Les Paul Junior dating and authentication guide](/post/gibson-les-paul-junior-guide/). A guitar with the later pointed SG body belongs in a separate comparison, even when its headstock still says Les Paul Junior.
 
 ## Gibson Les Paul Junior Values By Year
 
@@ -29,13 +29,7 @@ A worn double-cutaway Junior with a bent tuner or missing original case belongs 
 
 An unusually clean single-cutaway sunburst or TV Model needs an individual appraisal. Its condition and completeness can distinguish it from a typical guitar in the broad range.
 
-<figure>
 
-![Sunburst body of a 1955 Gibson Les Paul Junior with one black pickup and a wraparound bridge](../../assets/blog/gibson-les-paul-junior-guide/1955-gibson-les-paul-junior-1-scaled.jpg)
-
-<figcaption>Sunburst single-cutaway body with one black pickup, black pickguard, wraparound bridge and two amber knobs.</figcaption>
-
-</figure>
 
 ## Match The Body Style Before Comparing Prices
 
@@ -47,7 +41,7 @@ For this table, single-cutaway means one opening beside the neck. The rounded do
 
 The 1954 to 1958 sunburst reference covers the familiar flat mahogany body with one black P-90 pickup and a wraparound bridge. A P-90 is the pickup design; “dog ear” describes the cover's mounting tabs. The bridge also anchors the strings, so there's no separate tailpiece behind it.
 
-Within the shared range, I'd compare a clean instrument with another clean instrument before making allowances for wear or changed parts. The finish, pickup and intact body belong in that comparison together. A replacement bridge on an otherwise original guitar is a different question from a replaced pickup and an enlarged pickup cavity.
+Within the shared range, I'd compare a clean instrument with another clean instrument before accounting for wear or changed parts. The finish, pickup and intact body belong in that comparison together. A replacement bridge on an otherwise original guitar is a different question from a replaced pickup and an enlarged pickup cavity.
 
 The first production year doesn't automatically supply a fixed premium. Neither does a seller's description of a particularly large neck. A guitar's year helps establish the group, but condition and retained components determine where it can sit within it.
 
@@ -57,7 +51,7 @@ The rounded double-cutaway became part of the Junior line in 1958. Cherry is the
 
 An excellent, all-original cherry example with its original case has a guide range of $9,500 to $13,000. I wouldn't apply that clean category automatically to a worn guitar, one with a repaired neck or one with altered pickup mounting.
 
-The table stops its rounded double-cutaway rows at 1960, matching the main production sequence in my existing model guide. A guitar represented as a 1961 rounded double-cutaway needs its actual configuration assessed. I wouldn't turn a disputed transition label into a separate annual price premium.
+Rounded double-cutaway Juniors and TV Models continued into 1961. My TV Model chronology records 29 double-cutaway TV shipments for that year. A 1961 rounded-body guitar belongs with this earlier design; its finish, originality and condition need an individual appraisal.
 
 <figure>
 
@@ -71,7 +65,7 @@ The table stops its rounded double-cutaway rows at 1960, matching the main produ
 
 Early SG-shaped Juniors can still carry Les Paul Junior lettering. The lettering doesn't make them equivalent to the earlier slab-body guitars in this table. Compare them using the [Gibson SG Junior value guide](/vintage-gibson-sg-junior-value-guide/), which follows the later model's production years.
 
-That distinction also keeps a 1960s guitar from being valued against a 1950s sunburst simply because both have one pickup. I don't extend the earlier slab-body table through the 1970s where that configuration wasn't the production model. Later reissues require another comparison again.
+That distinction also keeps a 1960s guitar from being valued against a 1950s sunburst simply because both have one pickup. Later SG-shaped and reissue Juniors need their own model comparisons. Later reissues require another comparison again.
 
 ## What TV Yellow Changes
 
@@ -91,7 +85,7 @@ The fretboard dots on the Junior and TV Model are cream-colored celluloid dot in
 
 </figure>
 
-The table's TV range is confined to the single-cutaway configuration. It isn't a price for every later rounded or SG-shaped TV guitar. I haven't supplied a double-cutaway TV band from dealer advertisements alone.
+The table's TV range is confined to the single-cutaway configuration. It isn't a price for every later rounded or SG-shaped TV guitar. A double-cutaway TV Model needs an individual appraisal.
 
 ## Original Parts And Repairs Move The Comparison
 
@@ -131,7 +125,7 @@ If the guitar plays badly, that doesn't establish that it needs a refret or a st
 
 ## Wear, Refinishing And The Top Of The Range
 
-Original finish with visible playing wear belongs in a different comparison from fresh replacement lacquer. A glossy guitar can have extensive work beneath that appearance. I don't choose the clean-original price bracket from shine alone.
+Original finish with visible playing wear belongs in a different comparison from fresh replacement lacquer. A glossy guitar can have extensive work beneath that appearance. I confirm finish originality and condition before using the clean-original bracket.
 
 The same applies to faded cherry. Color saturation is one visible characteristic, while originality, condition and repairs remain separate questions. A bright color doesn't establish an untouched finish, and fading by itself doesn't tell me the guitar's complete history.
 
@@ -139,15 +133,15 @@ I use the highest part of a clean range only when the guitar supports it. The ca
 
 A modified Junior can still suit a player very well. That doesn't make the work disappear from its collector description. An accurate account of the modifications gives both sides a usable basis for discussing its price.
 
-### Why I Don't Apply One Refinish Percentage
+### How Refinishing Changes Junior Value
 
-The effect of refinishing depends on what else remains. An otherwise intact Junior with documented finish work is different from a routed guitar with a replaced pickup, changed bridge and neck repair. One percentage would conceal those differences.
+The effect of refinishing depends on what else remains. An otherwise intact Junior with documented finish work is different from a routed guitar with a replaced pickup, changed bridge and neck repair. The combined condition determines the final appraisal.
 
 The same problem appears when several generic discounts are added together. A guide can identify the direction of the change, but the modified guitar needs comparable modified instruments. The clean table gives me a reference category, not a formula for every possible repair combination.
 
 ## The Case And Paperwork Belong With The Guitar
 
-The case is part of the condition assumption in the table. If it's missing, replaced or damaged, say so before comparing a guitar with a complete example. I don't treat a modern protective case as equivalent to the original case for collector purposes.
+The case is part of the condition assumption in the table. If it's missing, replaced or damaged, say so before comparing a guitar with a complete example. A modern protective case and the original case serve different collector needs.
 
 A surviving original case doesn't have to be suitable for shipping. Its collector role and its ability to protect the instrument in transit are separate questions. Keep it with the guitar while planning transport around the instrument's actual support and protection needs.
 
@@ -161,7 +155,7 @@ A surviving original case doesn't have to be suitable for shipping. Its collecto
 
 Receipts, old photographs and repair records can help establish a guitar's history. They don't replace an examination of the instrument. I compare what the records show with the guitar as it exists today.
 
-An old photograph may document a finish or show that a particular alteration was already present. It may also be too distant to establish any specific part. I don't convert an unclear family photograph into a claim that the guitar has never been changed.
+An old photograph may document a finish or show that a particular alteration was already present. It may also be too distant to establish any specific part. Clear photographs and repair records help establish what remains original.
 
 Keep the records together, including notes about work you know was done. You don't need a continuous ownership history before requesting an appraisal. An honest account of what you know and what remains uncertain is enough to start.
 
@@ -200,3 +194,7 @@ You don't need to take the pickup apart or disturb old wiring for an initial app
 Tell me if you know of a refret, finish work, tuner change, pickup repair or neck damage. If you don't know, say that. I won't treat an uncertain family account as a guarantee that nothing has ever changed.
 
 My [free vintage guitar appraisal](/free-appraisal/) is a place to begin with those photographs. I buy vintage Gibsons nationwide from Mesa, Arizona, and can discuss the particular guitar after reviewing what you have.
+
+TV Models also exist from 1954 and are scarce. I appraise those first-year examples individually rather than assuming the later TV range applies unchanged.
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.

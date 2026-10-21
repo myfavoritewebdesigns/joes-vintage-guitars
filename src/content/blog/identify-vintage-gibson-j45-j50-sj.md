@@ -1,5 +1,6 @@
 ---
 title: "How to Identify a Vintage Gibson J-45, J-50, and Southern Jumbo (SJ)"
+seoTitle: "Gibson J-45, J-50 And Southern Jumbo Identification Guide"
 pubDate: "2026-02-17T23:13:28"
 modified: "2026-09-04T14:30:00"
 excerpt: "Ever wondered why your vintage Gibson acoustic doesn’t have a model name inside? You aren’t alone. From the ‘Golden Era’ bracing shifts to the iconic ‘Banner’ headstocks, we break down the physical specs you need to identify a J-45, J-50, or Southern Jumbo. We walk through the history of the ‘Workhorse’ so you can see where your guitar fits in the Gibson timeline."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-scaled.jpg"
 heroImageAlt: "A 1950s Gibson J-45 in its original case. Sunburst finish"
-metaDescription: "Ever wondered why your vintage Gibson acoustic doesn’t have a model name inside? You aren’t alone. From the ‘Golden Era’ bracing shifts to the iconic ‘Banner’ headstocks, we break down the physical specs you need to identify a J-45, J-50, or Southern Jumbo. We walk through the history of the ‘Workhorse’ so you can see where your guitar fits in the Gibson timeline."
+metaDescription: "Identify Gibson J-45, J-50 and Southern Jumbo features, original parts and construction. Compare dating clues, repairs and photos from my archive."
 ogImage: "/images/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-scaled.jpg"
 wpId: 18220
 ---
@@ -72,6 +73,8 @@ Detailed view of the split-parallelogram mother-of-pearl inlays on a Gibson  fr
 
 -   If you see the parallelogram inlays and fancy binding of an SJ, but the guitar has a **Natural finish**, you are looking at a **Country Western** (introduced in 1956).
     
+
+The J-45's name came from its $45 retail price in 1942. In the 1940s, the natural-finish J-50 cost $5 more because Gibson needed cosmetically perfect spruce that could be displayed without sunburst hiding grain irregularities.
 
 ## Part 2: The Historical Timeline of Spec Changes
 
@@ -154,3 +157,5 @@ For the specific codes and to see where your serial number falls, visit our **[G
 ### Why We Love These Guitars
 
 At Joe’s Vintage Guitars, we specialize in high-value vintage acoustics. These round-shoulder Gibsons are the “gold standard” for recording because their mahogany warmth doesn’t “crowd” a microphone the way a rosewood guitar might. If you have a vintage Gibson and aren’t sure of the model or year, give us a call. We love talking shop and helping owners understand the history of their instruments. We’re always looking to add vintage Gibson dreadnoughts to our collection! Contact us today to [sell your Gibson!](/sell-my-gibson-guitar/)
+
+For other flat-top models, my [Gibson acoustic value guide](/vintage-gibson-acoustic-value-guide/) compares the J-45, J-200, LG family and Hummingbird.

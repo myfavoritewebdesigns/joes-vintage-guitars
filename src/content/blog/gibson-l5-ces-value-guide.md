@@ -8,7 +8,7 @@ category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-1969-scaled.jpg"
-heroImageAlt: "1969 Gibson L-5 CES hollow body electric guitar in a sunburst finish, featuring a Florentine cutaway, gold hardware, and a Bigsby vibrato tailpiece. The guitar is shown without a pickguard, highlighting the wood grain and dual humbucking pickups."
+heroImageAlt: "1969 Gibson L-5 CES hollow body electric guitar in a sunburst finish, featuring a Venetian cutaway, gold hardware, and a Bigsby vibrato tailpiece. The guitar is shown without a pickguard, highlighting the wood grain and dual humbucking pickups."
 metaDescription: "Gibson L-5 CES values from 1951 to 1979, with annual reference ranges, pickup and condition differences, and original photographs from my guitar archive."
 ogImage: "/images/blog/gibson-l5-ces-value-guide/gibson-l-5-ces-1969-scaled.jpg"
 wpId: 19327
@@ -33,7 +33,7 @@ An all-original 1970s Gibson L-5 CES in excellent condition with its original ca
 
 These guide ranges were reviewed in October 2026. They assume an all-original guitar in excellent condition with its original case, standard sunburst or natural finish and no structural repairs. An actual offer depends on the instrument and the terms of the sale.
 
-Each year is listed through 1979, and adjacent years can share an era or configuration range. The exact finish, pickups and condition help narrow an appraisal. I don't apply an automatic annual premium.
+Each year is listed through 1979, and adjacent years can share an era or configuration range. The exact finish, pickups and condition help narrow an appraisal. An individual guitar's construction and condition determine its place within an era.
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
@@ -70,11 +70,11 @@ Each year is listed through 1979, and adjacent years can share an era or configu
 
 ### How To Read The Four Reference Groups
 
-The single-coil group combines the guide's sunburst and natural references for P-90 and Alnico versions. The PAF group combines its 1958 to 1962 entries; the extra 1957 row is a transition comparison that requires an inspected PAF configuration. It isn't a claim that every 1957 guitar has humbuckers.
+The single-coil range covers sunburst and natural P-90 and Alnico V guitars. Late-1957 to late-1962 guitars with their factory PAF pair have a separate range. A 1957 instrument needs its pickup configuration established before either range applies.
 
-The 1963 to 1969 Patent Number envelope covers several different year and finish entries, which explains its width. A late-1960s sunburst guitar shouldn't automatically receive the upper end associated with earlier or natural examples. The 1970s group is the guide's standard CES reference and excludes altered acoustic L-5C guitars and other L-5 variants.
+The 1963 to 1969 Patent Number envelope covers several different year and finish entries, which explains its width. A late-1960s sunburst guitar shouldn't automatically receive the upper end associated with earlier or natural examples. The 1970s range covers standard CES guitars and excludes altered acoustic L-5C guitars and other L-5 variants.
 
-### What The Sale Comparisons Can Establish
+### Condition And Original Electronics
 
 Finish work, heavy wear or a changed pickup can put an early single-coil or PAF guitar outside the clean-original category. I assess those changes before applying the table.
 
@@ -82,11 +82,10 @@ Changed guards, pickup covers or other parts also affect Patent Number and 1970s
 
 ### Original Parts, Repairs And Case Completeness
 
-A replaced PAF, refinished body or repaired neck moves a guitar outside the original excellent-condition assumption. I don't apply one universal percentage deduction because those changes affect different instruments differently. A documented repair and an undocumented repair also aren't the same buying decision.
+A replaced PAF, refinished body or repaired neck moves a guitar outside the original excellent-condition assumption. The extent of those changes and the remaining original parts determine the deduction. A documented repair and an undocumented repair also aren't the same buying decision.
 
 Check whether the original case is actually included and usable. A deteriorating pickguard, loose binding or failing electronics can create work even when the guitar looks clean in a photograph. I want the repair details alongside the year and pickup description before narrowing the range.
 
-For the dating systems used to establish the year, see my [Gibson serial number guide](/how-to-read-gibson-serial-numbers/). The history and authentication material below stays on this established URL. For an individual review, send the guitar and case photographs through my [free guitar appraisal](/free-appraisal/).
 
 ## The Evolution: From L-5 To L-5 CES
 
@@ -96,7 +95,6 @@ To understand the L-5 CES (Cutaway Electric Spanish), we must first look at its 
 
 The L-5 was a big step forward. Introduced in 1922 and credited to Lloyd Loar, it was the first guitar to feature f-holes, a violin-style carved top, and a tap-tuned body. It started out as an acoustic rhythm guitar for big bands, and its tone was hard to beat. Over the decades, it grew in size from a 16-inch body to its classic 17-inch width in 1934. In 1939, the single “Premier” Venetian cutaway was introduced.
 
-While it was primarily an acoustic guitar, many players, including Charlie Christian, added pickups (like the DeArmond “Rhythm Chief”) to amplify their L-5s.
 
 <figure>
 
@@ -132,11 +130,11 @@ The pickups define the era of an L-5 CES more than any other feature.
 <figcaption>The rectangular pole pieces and black pickup cover are visible beside the bridge. The photograph also shows the nearby controls and tailpiece.</figcaption>
 </figure>
 
-This pickup, easily identifiable by its rectangular pole pieces (resembling staples), was brighter, punchier, and had a higher output than the P-90. This combination of a Staple pickup in the neck position and a P-90 in the bridge is iconic for early 1950s Gibson jazz boxes.
+The Alnico V pickup has individually adjustable rectangular pole pieces. L-5 CES guitars in this period used Alnico V pickups in both the neck and bridge positions; the staple-neck and P-90-bridge combination belongs to the Les Paul Custom.
 
 **1957-Present: The PAF and the Humbucker Era** The introduction of Seth Lover’s patent-applied-for (PAF) humbucker in 1957 was a seismic shift for Gibson and the L-5 CES. The humbucker, with its rich, creamy tone and inherent noise-canceling properties, became the perfect partner for the L-5, defining the warm, sophisticated sound we now associate with modern jazz guitar.
 
-From 1957 until the late 1960s, these guitars featured PAFs (the holy grail for collectors). After 1961, these are often “Patent Number” humbuckers, which are virtually identical in construction and tone. By the late 1960s, these evolved into the T-Top humbuckers. In the modern era, the L-5 CES uses Gibson’s standard Humbuckers (like the ’57 Classic).
+The PAF era runs from late 1957 to late 1962, with Patent Number pickups following and some overlap in gold-plated examples. Later Patent Number and T-Top pickups need to be identified as their own versions. The pickup set and the guitar's construction should agree.
 
 ### 2\. The Cutaway: Rounded (Venetian) Vs. Sharp (Florentine)
 
@@ -154,7 +152,6 @@ The shape of the cutaway is another key feature that changed over time, affectin
 <figcaption>This rear view shows the pointed cutaway, figured back and binding. The cutaway is one part of the configuration I compare before choosing a reference.</figcaption>
 </figure>
 
-> **Rarity Note:** Pre-1960 Venetian L-5s are highly prized. Florentine cutaway models (1960-1969) are rarer in terms of numbers but are sometimes considered less “traditional” by die-hard jazz guitarists.
 
 ### 3\. Fretboard, Headstock, And Inlays: The Mark Of Premium Craftsmanship
 
@@ -215,7 +212,7 @@ For the first four decades of the L-5 CES, there were really only two options. C
         
     -   **Blue (e.g., Trans Blue, Peacock Blue)**
         
--   **Rarity of Custom Colors:** A original, factory-original vintage (1950s-1970s) L-5 in a non-standard color would be extremely rare and worth a large premium, but it is very unlikely you will find one. Modern Custom Shop custom color models are rare but available. A **Black (Ebony)** L-5 (like those used by Pat Martino) is one of the more sought-after modern custom colors.
+-   **Rarity of Custom Colors:** An original, factory-original vintage (1950s-1970s) L-5 in a non-standard color would be extremely rare and worth a large premium, but it is very unlikely you will find one. Modern Custom Shop custom color models are rare but available. A **Black (Ebony)** L-5 (like those used by Pat Martino) is one of the more sought-after modern custom colors.
     
 
 ### 5\. The Cases: Protecting A Legend
@@ -231,26 +228,6 @@ An original vintage L-5 CES *should* come with its original case. These cases ar
 -   **1990s-Present:** The modern Gibson Custom Shop case is typically black (or brown) with a plush interior (often burgundy or purple) and includes a heavy-duty combination lock and the Custom Shop logo.
     
 
-## Famous Users Of The Gibson L-5
-
-The roster of L-5 players is a who’s who of music history.
-
--   **Wes Montgomery:** The L-5 player most people think of first. Wes is closely tied to the L-5, particularly a Florentine cutaway model (which he called his “axe”) with a single pickup installed later in the neck position. His thumb technique and octave playing defined the instrument’s sound for a generation.
-    
--   **Pat Martino:** Pat famously used a custom **Ebony (Black)** L-5 CES for many years, creating his signature blazing-fast lines on the dark-looking archtop.
-    
--   **George Benson:** Benson used L-5s (along with other Gibson archtops) throughout his jazz-funk career.
-    
--   **Herb Ellis:** Ellis was a master of bebop who used his sunburst ES-175 and then a custom L-5 CES throughout his long career.
-    
--   **Elvis Presley:** Elvis (or his guitarist Scotty Moore) used several high-end Gibsons, and an L-5 was sometimes pictured with “The King.”
-    
--   **Ronnie Wood:** Although known as a Tele and Strat player, the Rolling Stones guitarist has been known to pull out an L-5 for bluesier numbers.
-    
--   **Derek Trucks:** Known as a master of slide guitar, primarily using an SG, Trucks is also known to utilize an L-5 CES for its rich, dynamic voice.
-    
--   **Bucky Pizzarelli:** Pizzarelli and his son **John Pizzarelli** have both championed the L-5 (though they often play custom versions or Benedict guitars now).
-    
 
 ## The All-Important Question: Value And Authenticity
 
@@ -277,7 +254,7 @@ The best way to date your L-5 is with our complete guide: [**How to Date a Gibso
 
 -   **Headstock Flowerpot Inlay:** A common place for fakes to fail. The true Gibson inlay is precise and intricate. Sloppy, misshapen, or overly glossy inlays are a major red flag.
     
--   **Pickups:** The biggest concern. A guitar from 1957-1960 *must* have PAFs. Replacing them with modern humbuckers is a catastrophic hit to the value. A professional must inspect the solder joints and pickup bases.
+- **Pickups:** Late-1957 to late-1962 PAF guitars need their factory pickup configuration verified. Earlier 1957 examples can have Alnico V pickups. Original solder, bases and the guitar's construction help identify the correct set.
     
 -   **Body Wood:** Real L-5s have a carved spruce top. Cheap fakes use laminated (plywood) tops, which show layers if inspected at the edge of the f-hole.
     
@@ -307,15 +284,15 @@ The reference table gives a starting range, while an individual appraisal accoun
 
 on mobile, scroll to see more →
 
-| Feature | 1951-1953 (Early P-90) | 1954-1957 (Staple/P-90) | 1957-1960 (PAF Era) | 1960-1969 (Florentine) | 1969-Present (Modern Venetian) |
+| Feature | 1951-1953 (Early P-90) | 1954 To 1957 (Two Alnico V) | Late 1957 To Late 1962 (PAF Era) | 1960-1969 (Florentine) | 1969-Present (Modern Venetian) |
 | --- | --- | --- | --- | --- | --- |
 | Model Name | L-5 CES | L-5 CES | L-5 CES | L-5 CES | L-5 CES |
 | Body Size | 17" | 17" | 17" | 17" | 17" |
-| Cutaway Style | Venetian (Rounded) | Venetian (Rounded) | Venetian (Rounded) | Florentine (Sharp) | Venetian (Rounded) |
+| Cutaway Style | Venetian (Rounded) | Venetian (Rounded) | Venetian Before 1960; Florentine From 1960 | Florentine (Sharp) | Venetian (Rounded) |
 | Top Wood | Carved Spruce | Carved Spruce | Carved Spruce | Carved Spruce | Carved Spruce |
 | Back/Side Wood | Figured Maple | Figured Maple | Figured Maple | Figured Maple | Figured Maple |
-| Neck Pickups | P-90 (Single Coil) | Alnico V (Staple) | Humbucker (PAF) | Humbucker (Pat #/T-Top) | Humbucker ('57 Classic, etc.) |
-| Bridge Pickups | P-90 (Single Coil) | P-90 (Single Coil) | Humbucker (PAF) | Humbucker (Pat #/T-Top) | Humbucker ('57 Classic, etc.) |
+| Neck Pickups | P-90 (Single Coil) | Alnico V (Staple) | Humbucker (PAF) | PAF, Then Patent Number/T-Top | Humbucker ('57 Classic, etc.) |
+| Bridge Pickups | P-90 (Single Coil) | Alnico V (Staple) | Humbucker (PAF) | PAF, Then Patent Number/T-Top | Humbucker ('57 Classic, etc.) |
 | Fretboard | Ebony | Ebony | Ebony | Ebony | Ebony |
 | Inlays | Block | Block | Block | Block | Block |
 | Headstock Inlay | Flowerpot | Flowerpot | Flowerpot | Flowerpot | Flowerpot |
@@ -352,3 +329,5 @@ No. It's a transition year with separate single-coil and PAF configurations. I i
 ### Where Can I Get An Appraisal Of My L-5 CES?
 
 I can review clear photographs of the whole guitar, its label and serial number, pickups, finish, repairs and case. Include any repair receipts or family history you already have. Don't remove hardware just to photograph it if you're unsure how to do that safely.
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.

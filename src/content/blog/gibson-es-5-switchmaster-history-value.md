@@ -1,6 +1,6 @@
 ---
 title: "The Gibson ES-5 and ES-5 Switchmaster: History, Authentication, and Value"
-seoTitle: "Gibson ES-5 Switchmaster Value Guide"
+seoTitle: "Gibson ES-5 And Switchmaster Values: Prices By Year"
 pubDate: "2026-07-13T12:00:00"
 modified: "2026-10-19T12:00:00-07:00"
 excerpt: "The Gibson ES-5 was the first production Spanish electric with three pickups, a plush cousin of the L-5 that Gibson sold as the instrument of a thousand voices. This guide covers where it came from, how the original three-P-90 ES-5 became the four-way ES-5 Switchmaster, how the Switchmaster moved to three PAF humbuckers, and how we date, authenticate, and value each one. Every photo is a real ES-5 from our shop, including a 1953 original and a 1958 PAF Switchmaster."
@@ -18,7 +18,7 @@ The asking range for an all-original, excellent sunburst Gibson ES-5 is $7,500 t
 
 As of October 2026, these are asking ranges for all-original, excellent sunburst guitars. They aren't guaranteed selling prices or cash offers, and I assess original-case completeness separately. Pickup changes overlap calendar years, so 1957 and 1960 each have more than one configuration row.
 
-| Year | Version | Existing Asking And Guide Range |
+| Year | Version | Value Range |
 | --- | --- | --- |
 | 1949 | Original ES-5, Three P-90s | $7,500 to $12,000 |
 | 1950 | Original ES-5, Three P-90s | $7,500 to $12,000 |
@@ -41,11 +41,11 @@ The original run covered here ends in 1962. Later reissues need their own apprai
 
 A few things sit outside the table. The natural, or blonde, finish carries a strong premium over sunburst, often something like 30 to 60 percent, because far fewer were made, and a clean natural PAF Switchmaster can ask into the low twenty thousands. Three original PAFs, an original case, and documented history all push a guitar toward the top of its range, while a refinish, replaced pickups, a converted tailpiece, or a headstock repair pull it down. One honest caveat: the ES-5 market is thin, asking prices vary widely from dealer to dealer, and those asks generally run ahead of what guitars actually sell for. We have seen comparable 1958 sunburst PAF Switchmasters listed anywhere from twelve to eighteen thousand dollars, which tells you how much the specific guitar matters.
 
-One more honest thing, and this one is about our own guitar. The 1958 Switchmaster in these photos has been refinished. We are showing it on purpose, as a case study, because the best way to learn what a refinish costs is to see one sitting right next to an original finish, which is exactly what our 1953 ES-5 gives you. A refinish does not ruin a guitar, and this is still a real three-humbucker Switchmaster, but it moves our 1958 out of the all-original column in the table above and into the modified or refinished one, which on a guitar like this is a difference of thousands of dollars. That gap, living inside a single instrument, is the whole reason we tell people never to refinish a vintage guitar.
+One more honest thing, and this one is about our own guitar. The 1958 Switchmaster in these photos has been refinished. We are showing it on purpose, as a case study, because the best way to learn what a refinish costs is to see one sitting right next to an original finish, which is exactly what our 1953 ES-5 gives you. A refinish does not ruin a guitar, and this is still a real three-humbucker Switchmaster, but it moves our 1958 out of the all-original range and into the modified or refinished condition group discussed in the prose above, which on a guitar like this is a difference of thousands of dollars. That gap, living inside a single instrument, is the whole reason we tell people never to refinish a vintage guitar.
 
 ![Back of a refinished 1958 Gibson ES-5 Switchmaster in sunburst showing figured maple.](../../assets/blog/gibson-es-5-switchmaster-history-value/1958-gibson-es-5-switchmaster-sunburst-back.jpg)
 
-The figured maple back of our refinished 1958. Set its finish against the original nitrocellulose on our 1953 ES-5: a original finish of this age shows fine checking, softened color, and honest wear that a fresh refinish almost never reproduces convincingly. Training your eye on that difference is one of the most valuable skills in vintage guitars.
+The figured maple back of our refinished 1958. Set its finish against the original nitrocellulose on our 1953 ES-5: an original finish of this age shows fine checking, softened color, and honest wear that a fresh refinish almost never reproduces convincingly. Training your eye on that difference is one of the most valuable skills in vintage guitars.
 
 Here is the context that makes the ES-5 so interesting to value. It is the most affordable way into a real three-pickup, gold-hardware, L-5-cosmetic Gibson archtop with original PAFs. It sits a clear step below the carved-top L-5CES and [Super 400CES](/post/gibson-super-400-ces-history-authentication-value/), but above the plainer laminated archtops like the [Gibson ES-175](/post/gibson-es-175-evolution-and-specifications/) and the ES-350. Gibson built only around 1,400 ES-5s of all types across the entire 1949 to 1962 run, split roughly two to one between the original and the Switchmaster, which makes any of them truly scarce next to the tens of thousands of ES-175s that left Kalamazoo.
 
@@ -447,3 +447,7 @@ No. The Custom Shop reissues from the mid-1990s and later are good guitars, but 
   ]
 }
 </script>
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+For other Gibson electrics, compare the [ES-335 value guide](/vintage-gibson-es-335-value-guide/) and [ES-355 value guide](/vintage-gibson-es-355-value-guide/). Their body construction, electronics and condition groups need to be matched separately.

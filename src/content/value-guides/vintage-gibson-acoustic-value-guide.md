@@ -1,32 +1,26 @@
-Vintage Gibson acoustic values differ sharply by model: an excellent, original 1955 to 1959 J-45 falls in the $7,000 to $9,000 range, while a 1950s J-200 sits at $15,000 to $20,000. Both assume the original case. They aren't interchangeable estimates for a large old Gibson acoustic.
+Vintage Gibson acoustic values differ sharply by model: an excellent, original 1955 to 1959 J-45 falls in the $7,000 to $9,000 range, while a 1952 to 1959 J-200 sits at $15,000 to $20,000. Both assume the original case. They aren't interchangeable estimates for a large old Gibson acoustic.
 
 I use this hub to connect the model guides and explain which table fits each guitar. The ranges were reviewed in October 2026. A repaired or modified guitar needs its own appraisal.
 
 ## Gibson Acoustic Values By Model
 
-The rows below are selected examples, not complete model ranges. Open the matching guide for annual coverage and condition details. Several years can share a range.
+Match the model and era, then read its condition requirements. The Hummingbird figures are dealer asking ranges; the other rows are guide-value ranges.
 
-| Model | Example Era Or Configuration | Value Range |
+| Model | Era Or Configuration | Value Range |
 | --- | --- | --- |
-| J-45 | 1957: Large-guard sunburst era | $7,000 to $9,000 |
-| J-45 | 1975: Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
-| J-200 | 1957: Standard natural or sunburst | $15,000 to $20,000 |
-| J-200 | 1975: J-200 and Artist period | $4,500 to $6,000 |
-| LG-0 | 1958: LG-0, broad original-run reference | $1,000 to $2,000 |
-| LG-1 | 1943: LG-1, broad original-run reference | $2,000 to $4,500 |
-| LG-2 | 1957: LG-2, later original production | $3,500 to $6,000 |
-| LG-3 | 1942: LG-3, broad original-run reference | $3,500 to $8,000 |
-| Hummingbird | 1960 to 1962 | $7,500 to $11,000 |
+| J-45 | 1955 to 1959: Large-guard sunburst era | $7,000 to $9,000 |
+| J-45 | 1970 to 1979: Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| J-200 | 1952 to 1959: Standard natural or sunburst | $15,000 to $20,000 |
+| J-200 | 1970 to 1979: J-200 and Artist period | $4,500 to $6,000 |
+| LG-0 | 1958 to 1974: LG-0 | $1,000 to $2,000 |
+| LG-1 | Postwar to 1968: LG-1 | $2,000 to $4,500 |
+| LG-2 | 1950 to 1962: LG-2 | $3,500 to $6,000 |
+| LG-3 | 1950s to early 1960s: LG-3 | $3,500 to $8,000 |
+| Hummingbird | 1960 to 1962 | $7,500 to $11,000 asking |
 
 I identify the model, year and condition before choosing a range. The individual guides explain which configurations and repairs each table covers.
 
-<figure>
 
-![Sunburst J-45 with a large mottled pickguard lying in a brown case](../../assets/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-1024x683.jpg)
-
-<figcaption>My 1950s J-45 archive photograph shows the body, bridge, pickguard and case together. Visible wear is part of its description, not a reason to assign a price without inspection.</figcaption>
-
-</figure>
 
 ## J-45 Values And The Slope-Shouldered Family
 
@@ -34,7 +28,7 @@ The [Gibson J-45 value guide](/vintage-gibson-j-45-value-guide/) covers every ye
 
 The [J-45, J-50 and Southern Jumbo identification guide](/post/identify-vintage-gibson-j45-j50-sj/) handles the family comparisons. Use it when the model itself is uncertain. A natural finish, a label or a familiar body outline needs to be read with the rest of the instrument.
 
-This wave doesn't establish dedicated J-50 or Southern Jumbo price tables. I don't apply a fixed premium or discount to the J-45 range as a substitute. Those models need their own matching comparisons for an individual appraisal.
+J-50 and Southern Jumbo guitars need model-specific comparisons. Their finish, trim and construction can differ from a J-45 of the same year.
 
 The J-45 guide also labels its comparison photographs. A J-50 or Southern Jumbo photograph can help explain the family, but it isn't evidence that the J-45 table applies to the guitar pictured. Model identity comes before price selection.
 
@@ -54,7 +48,7 @@ Prewar examples need individual appraisals and aren't assigned a range here. The
 
 SJ-200 means Super Jumbo in this family. It shouldn't be confused with the Southern Jumbo merely because both names can be shortened to SJ. Check the full model before using either guide.
 
-A converted saddle or changed internal structure also affects the comparison with an original collector example. I don't assign an automatic premium because a seller describes a modification as an improvement. The actual work and current condition need to be recorded.
+A converted saddle or changed internal structure also affects the comparison with an original collector example. A modification's effect depends on the work and the instrument's remaining originality. The actual work and current condition need to be recorded.
 
 ## Hummingbird Values
 
@@ -86,7 +80,7 @@ Changed tuners, bridge work, a repaired seam or an added pickup can put a guitar
 
 The clean-condition ranges generally assume original finish and major parts, excellent condition and the original case. I still need the repair details before deciding whether a particular guitar fits.
 
-A neck reset, a bridge replacement and a small repaired crack are different kinds of work. Their effect depends on the instrument and the quality and extent of the repair. I don't apply one automatic percentage deduction to all three.
+A neck reset, a bridge replacement and a small repaired crack are different kinds of work. Their effect depends on the instrument and the quality and extent of the repair. The type and extent of the finish work determine the deduction.
 
 ### Neck Angle And Current Playability
 
@@ -104,7 +98,7 @@ Keep removed parts with the instrument where possible. Their presence can help e
 
 Wear, localized finish touchup and a complete refinish aren't equivalent descriptions. I need to know what is known about the finish and where the uncertainty remains. A photograph alone doesn't establish all of that history.
 
-Under this site's grading approach, a quality refret preserves otherwise all-original status while removing museum-quality status. Neck reshaping and structural work are separate alterations. They shouldn't be described as routine fret maintenance.
+A quality refret preserves otherwise all-original status while removing museum-quality status. Neck reshaping and structural work are separate alterations. They shouldn't be described as routine fret maintenance.
 
 ## What The Numbers Do And Do Not Represent
 

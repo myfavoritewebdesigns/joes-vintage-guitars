@@ -42,7 +42,7 @@ const structuredData = [{
   <section class="gvhub-hero" aria-labelledby="gvhub-title">
     <div class="gvhub-hero-inner">
       <div class="gvhub-hero-copy">
-        <p class="gvhub-eyebrow">From Joe's Guitar Archive</p>
+        <p class="gvhub-eyebrow">From My Guitar Archive</p>
         <h1 id="gvhub-title">Vintage Gibson <br /><span>Value Guide</span></h1>
         <GuideActions brand="Gibson" />
         <p class="gvhub-intro">Choose your Gibson model to find its value guide. I've gathered the solidbody, ES, archtop and acoustic guides here so you can go straight to the year and condition that match yours.</p>
@@ -71,8 +71,8 @@ const structuredData = [{
       </div>
       <div class:list={['gvhub-model-grid', { 'gvhub-model-grid-three': group.key === 'solidbody' }]}>
         {models.filter(model => model.group === group.key).map(model => (
-          <a class="gvhub-model-card" href={model.url} aria-label={`${model.name} value guide`}>
-            <div class="gvhub-card-photo"><LicensedImage src={model.photo} alt={model.alt} width={900} loading="lazy"
+          <div class="gvhub-card-wrap"><LicensedImage schemaOnly src={model.photo} alt={model.alt} width={900} /><a class="gvhub-model-card" href={model.url} aria-label={`${model.name} value guide`}>
+            <div class="gvhub-card-photo"><LicensedImage emitSchema={false} src={model.photo} alt={model.alt} width={900} loading="lazy"
               style={'object-position:' + model.imagePosition}
               sizes={group.key === 'solidbody' ? '(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 45vw, 410px' : '(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 45vw, 300px'} /></div>
             <div class="gvhub-card-copy">
@@ -81,7 +81,7 @@ const structuredData = [{
               <p class="gvhub-card-description">{model.description}</p>
               <span class="gvhub-card-link">Explore The Value Guide <span aria-hidden="true">→</span></span>
             </div>
-          </a>
+          </a></div>
         ))}
       </div>
     </section>
@@ -131,7 +131,7 @@ const structuredData = [{
   h2{font-family:var(--font-display);font-size:clamp(30px,3vw,40px);line-height:1.2;font-weight:600;color:var(--color-brand-brown);margin:0 0 20px}
   .gvhub-section-heading>p:last-child{font-size:17px;line-height:1.8;color:var(--color-brand-charcoal);margin:0}
   .gvhub-model-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
-  .gvhub-model-card{display:flex;flex-direction:column;border:1px solid var(--color-brand-brown-tan);background:white;color:var(--color-brand-brown);text-decoration:none;transition:border-color .18s,box-shadow .18s;min-width:0}
+  .gvhub-card-wrap{display:flex;min-width:0}.gvhub-model-card{display:flex;flex:1;flex-direction:column;border:1px solid var(--color-brand-brown-tan);background:white;color:var(--color-brand-brown);text-decoration:none;transition:border-color .18s,box-shadow .18s;min-width:0}
   .gvhub-model-card:hover{border-color:var(--color-brand-rust);box-shadow:0 8px 24px #36241614}
   .gvhub-card-photo{overflow:hidden;background:var(--color-brand-brown)}
   .gvhub-card-photo :global(img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}

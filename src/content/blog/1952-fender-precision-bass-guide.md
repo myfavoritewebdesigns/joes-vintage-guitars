@@ -1,6 +1,6 @@
 ---
-title: "The 1951, 1952 & 1953 Fender Precision Bass: Slab-Body P-Bass Authentication & Valuation Guide"
-seoTitle: "1951 To 1953 Fender Precision Bass Slab-Body Value Guide"
+title: "1951 To 1953 Fender Precision Bass Slab-Body Dating Guide"
+seoTitle: "1951 To 1953 Fender Precision Bass Slab-Body Dating Guide"
 pubDate: "2026-03-12T23:17:36"
 modified: "2026-10-19T12:00:00-07:00"
 excerpt: "A collector's guide to the 1951, 1952, and 1953 Fender Precision Bass: the original slab-body P-Bass. Joe Dampt covers every authentication detail: butterscotch nitro finish, tan lines under the hardware, nail holes, the early single-coil pickup with white string wrapping, pressed fiber saddles, Clarostat pots, paper-in-oil capacitor, large flat metal tuner buttons, mismatched neck and body dates, and more. Free appraisals nationwide."
@@ -9,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-with-bassman-amp-scaled.jpg"
 heroImageAlt: "A stunning lifestyle photograph featuring an investment-grade 1952 Fender Precision Bass paired with a matching \"TV Front\" 1952 Fender Bassman amplifier. The bass features the original owner's name neatly hand-painted on the black phenolic pickguard, mirrored by the same personalized name on the amp's original linen grill cloth, a rare, documented piece of provenance linking these two instruments as a lifetime pair."
-metaDescription: "A collector's guide to the 1951, 1952, and 1953 Fender Precision Bass: the original slab-body P-Bass. Joe Dampt covers every authentication detail: butterscotch nitro finish, tan lines under the hardware, nail holes, the early single-coil pickup with white string wrapping, pressed fiber saddles, Clarostat pots, paper-in-oil capacitor, large flat metal tuner buttons, mismatched neck and body dates, and more. Free appraisals nationwide."
+metaDescription: "Identify 1951 to 1953 Fender Precision Bass features, original parts and construction. Compare dating clues, repairs and photos from my archive."
 ogImage: "/images/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-with-bassman-amp-scaled.jpg"
 faqsInline: true
 faqs:
@@ -23,7 +23,7 @@ wpId: 20040
 ---
 Slab-Body P-Bass Authentication & Valuation Guide
 
-For 1951, 1952 and 1953 Precision Bass values and the later years through 1979, see my [vintage Fender Precision Bass value guide](/vintage-fender-precision-bass-value-guide/). This page covers the early slab-body construction and authentication evidence.
+For 1951, 1952 and 1953 Precision Bass values and the later years through 1979, see my [vintage Fender Precision Bass value guide](/vintage-fender-precision-bass-value-guide/).
 
 If you want the compact version, our [guide to dating a Fender Precision Bass](/fender-precision-bass-dating-guide/) runs all three of the model's designs, 1951 to 1975, as a single year-by-year table with the fastest visual check for each change.
 
@@ -65,7 +65,7 @@ In late 1951, Leo Fender did something no one in the music industry believed was
 
 The **early slab-body Fender Precision Bass**, covering production from late 1951 through 1953, is now recognized as one of the most historically significant instruments ever manufactured. It predates the Stratocaster. It predates the modern music industry's infrastructure of studios, amplifiers, and live sound reinforcement that would eventually be built around it. This guide covers all three years of the original slab-body run together, because the construction philosophy, the authentication details, and the collecting criteria are largely shared across 1951, 1952, and 1953 production, with important and specific differences noted where they exist.
 
-For the vintage collector, these instruments represent one of the most rewarding, and most challenging, authentication exercises in the Fender world. The details that define a original example are extraordinarily specific, and many of them changed year to year, even *within* a single year of production. This guide covers every authentication point in exhaustive detail.
+For the vintage collector, these instruments represent one of the most rewarding, and most challenging, authentication exercises in the Fender world. The details that define an original example are extraordinarily specific, and many of them changed year to year, even *within* a single year of production. This guide covers every authentication point in exhaustive detail.
 
 If you own an early Fender Precision Bass and want an expert evaluation, [Joe's Vintage Guitars makes it easy to sell your guitar nationwide](/), free market appraisals, no pressure, and we arrange all shipping from anywhere in the US.
 
@@ -125,7 +125,7 @@ One of the most frequently overlooked details of original Fender finishes from t
 
 <h3 id="routing">Body Routing & Tool Marks</h3>
 
-The control cavity routing was done by hand-guided router, and it shows. Look carefully at the cavity walls and you will often see slight irregularities: faint lines, minor steps, or ridges left by the router as it was guided through the cut. These tool marks are entirely normal and expected on a original instrument. A control cavity with perfectly smooth, machine-perfect walls should prompt you to consider whether the body has been refinished or the cavity re-routed.
+The control cavity routing was done by hand-guided router, and it shows. Look carefully at the cavity walls and you will often see slight irregularities: faint lines, minor steps, or ridges left by the router as it was guided through the cut. These tool marks are entirely normal and expected on an original instrument. A control cavity with perfectly smooth, machine-perfect walls should prompt you to consider whether the body has been refinished or the cavity re-routed.
 
 ![Hand-router tool marks and slight step visible on the control cavity walls of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-p-bass-router-marks-scaled.jpg)
 
@@ -139,7 +139,7 @@ The truss rod on an early Precision Bass is adjusted at the **butt end of the ne
 
 <h3 id="walnut-plug">The Walnut Plug On The Headstock</h3>
 
-One of the most distinctive and instantly recognizable details of a pre-CBS Fender maple-board neck is the **small walnut plug** set into the face of the headstock just behind the nut. This dark walnut insert was used to fill the channel through which the truss rod was installed during manufacture. On a original early P-Bass neck, it is clearly visible as a dark wood insert contrasting against the lighter maple.
+One of the most distinctive and instantly recognizable details of a pre-CBS Fender maple-board neck is the **small walnut plug** set into the face of the headstock just behind the nut. This dark walnut insert was used to fill the channel through which the truss rod was installed during manufacture. On an original early P-Bass neck, it is clearly visible as a dark wood insert contrasting against the lighter maple.
 
 ![Walnut plug on the headstock of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-walnut-plug-scaled.jpg)
 
@@ -153,7 +153,7 @@ The position markers on an early Precision Bass fretboard are small **black dot 
 
 Look for a pencil date on the body and a pencil date on the neck heel. Read those alongside the serial number, hardware and other component evidence rather than expecting the dates to match exactly. My [Fender body date guide](/fender-body-dates/) discusses how body dates fit into the identification process.
 
-![Body date stamp in the neck pocket of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-body-date-scaled.jpg)![Pencil date on the neck heel of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-neck-heel-scaled.jpg)
+![A pencil date on the body](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-body-date-scaled.jpg)![Pencil date on the neck heel of a 1952 Fender Precision Bass](../../assets/blog/1952-fender-precision-bass-guide/1952-fender-precision-bass-neck-heel-scaled.jpg)
 
 Some examples also carry a **"D" stamp** in the neck pocket or on the neck heel. The most commonly accepted interpretation is that it refers to a body or neck dimension specification or a particular worker's code. Its presence is consistent with authentic production and is not a cause for concern.
 
@@ -343,7 +343,7 @@ Authentication is the sum of all details being consistent with each other and wi
 -   **Circular (round disc) string tree**
 -   Original open-gear tuners with **large flat metal buttons** (not plastic) secured with **4 slotted screws** each
 -   Tan line under neck plate when removed
--   Body date stamp and neck heel pencil date **consistent within ~12 months** of each other
+-   A pencil date on the body and the neck heel date **consistent within ~12 months** of each other
 
 ### Hardware & Bridge
 
@@ -368,7 +368,7 @@ Authentication is the sum of all details being consistent with each other and wi
 
 <h2 id="valuation">Originality And Condition</h2>
 
-Original finish, original pickups and retained parts support collector appeal. Refinishing, replaced components and structural repairs change the comparison, while case condition and documentation help explain what remains. Establish the bass's identity and originality before applying the paired value guide's table.
+Original finish, original pickups and retained parts support collector appeal. Refinishing, replaced components and structural repairs change the comparison, while case condition and documentation help explain what remains. Establish the bass's identity and originality before choosing a value range.
 
 <h2 id="comparisons">Comparisons To Contemporaries</h2>
 
@@ -392,7 +392,7 @@ The bass used throughout this guide, with its 1952 neck and 1953 body, is itself
 
 If you have questions about a specific instrument, or if you own an early Precision Bass and want a professional assessment of its authenticity and market value, [reach out to Joe's Vintage Guitars](/). We have the expertise and the market knowledge to give you an honest, accurate valuation, wherever you are in the country.
 
-© Joe's Vintage Guitars  ·  [joesvintageguitarsaz.com](/)  ·  Mesa, AZ  ·  (602) 900-6635
+
 
 We buy vintage guitars and basses nationwide, Gibson, Fender, Martin, Gretsch, Guild & more.
 
@@ -409,3 +409,5 @@ No. The serial number is one part of the evidence. I also compare the body, neck
 ### Should I Remove Parts To Photograph An Inherited Bass?
 
 Start with clear photographs of the front, back, headstock, pickup area and case. Include known repair history and any loose parts. Leave unfamiliar disassembly to someone who can inspect the instrument without damaging it.
+
+© Joe's Vintage Guitars  ·  [joesvintageguitarsaz.com](/)  ·  Mesa, AZ  ·  (602) 900-6635

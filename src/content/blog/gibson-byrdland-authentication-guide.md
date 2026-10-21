@@ -1,6 +1,6 @@
 ---
-title: "Gibson Byrdland Authentication Guide: How to Date & Identify Any Example (1955 to Present)"
-seoTitle: "Gibson Byrdland: Dating, Authentication And Value Guide"
+title: "Vintage Gibson Byrdland Dating And Authentication Guide"
+seoTitle: "Vintage Gibson Byrdland Dating And Authentication Guide"
 pubDate: "2026-03-16T11:31:27"
 modified: "2026-03-24T20:54:37"
 excerpt: "How to identify and authenticate any Gibson Byrdland, from the first Kalamazoo prototypes in 1955 through the current Custom Shop era. Covers every major construction change: cutaway shape, pickups, solid vs. pressed back, neck lamination, nut width, labels, serial numbers, hardware, and more."
@@ -9,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-scaled.jpg"
 heroImageAlt: "Gibson Byrdland authentication guide. Identify any year Byrdland"
-metaDescription: "How to identify and authenticate any Gibson Byrdland, from the first Kalamazoo prototypes in 1955 through the current Custom Shop era. Covers every major construction change: cutaway shape, pickups, solid vs. pressed back, neck lamination, nut width, labels, serial numbers, hardware, and more."
+metaDescription: "Identify a vintage Gibson Byrdland by its construction, original parts and dated components, with repair checks and photographs from my archive."
 ogImage: "/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-scaled.jpg"
 wpId: 20111
 ---
@@ -38,7 +38,7 @@ Original finish, correct parts and documented repairs affect value. Use my [Gibs
 
 The Gibson Byrdland is the instrument that invented the thinline electric archtop. Its name is a portmanteau of Nashville session guitarists **Billy Byrd** and **Hank Garland**, the two players who co-designed it with Gibson president Ted McCarty in 1955. Both men were frustrated by the bulk of traditional archtops (the standard L-5CES was over 3⅜ inches deep) and wanted something that combined acoustic resonance with the ease of a solidbody. What they got was a guitar 2¼ inches deep, with a shortened 23½-inch scale, a narrower-than-standard nut, and all the premium appointments of Gibson's flagship L-5CES.
 
-Four prototypes were logged in Gibson's Kalamazoo ledgers on April 4, 1955, described simply as *"special thin models"* of the L-5CES. The first production serial (A-20985) was registered in June 1955 for display at the July 1955 NAMM show. Public sales began in 1956. Gibson offered it in sunburst or natural as a premium model.
+Four prototypes were logged in Gibson's Kalamazoo ledgers on April 4, 1955, described simply as *"special thin models"* of the L-5CES. The first production serial (A-20985) was registered in June 1955 for display at the July 1955 NAMM show. Public sales began in 1956. Gibson listed it at $550 in sunburst or $565 in natural, premium prices that reflected its top-of-line status.
 
 The Byrdland remained a standard production model through 1993, when it moved to the Gibson Custom Shop as a special-order instrument. Total Kalamazoo production between 1955 and 1979 has been recorded at roughly 2,670 instruments, of which approximately 75% were finished in sunburst.
 
@@ -409,7 +409,7 @@ Four prototypes logged in Kalamazoo ledgers April 4 as "special thin model" L-5C
 
 #### First Full Year of Sales
 
-First year publicly available to buyers. Alnico staple pickups. Venetian cutaway. Orange label, A-series serial. Sunburst or Natural. Bonnet knobs. 3-piece maple/walnut neck. Solid back.
+First year publicly available to buyers. Alnico staple pickups. Venetian cutaway. Orange label, A-series serial. Sunburst ($550) or Natural ($565). Bonnet knobs. 3-piece maple/walnut neck. Solid back.
 
 #### Pickup Transition, Alnico to PAF Humbuckers
 

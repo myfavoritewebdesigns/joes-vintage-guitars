@@ -1,6 +1,6 @@
 Vintage Fender Jaguar sunburst values run from $3,500 to $9,000 across the original 1962 to 1975 production years, with condition and case differences set out below. First-year examples sit at $6,000 to $9,000; the 1970s range is $3,500 to $4,500. I use those as starting ranges, then assess the actual guitar.
 
-I start with the guitar's year and configuration, then compare the finish, parts, repairs and case with the instruments behind the range. If you need to establish the year or originality first, my [vintage Fender Jaguar authentication guide](/post/vintage-fender-jaguar-guide/) explains the evidence to check.
+I start with the guitar's year and configuration, then compare the finish, parts, repairs and case with guitars in the same condition. If you need to establish the year or originality first, my [vintage Fender Jaguar authentication guide](/post/vintage-fender-jaguar-guide/) explains the evidence to check.
 
 If you're comparing a Jaguar with another model, use my [Fender guitar and bass value guide](/vintage-fender-value-guide/) to find the matching price table.
 
@@ -11,21 +11,21 @@ These ranges are reviewed as of October 2026 and stated in U.S. dollars, excludi
 | Year | Sunburst Comparison | Condition |
 | --- | --- | --- |
 | 1962 | $6,000 to $9,000 | Very Good to Excellent; case and originality documentation vary |
-| 1963 | $5,500 to $6,500 | Very Good; see parts and case allowances |
-| 1964 | $5,500 to $6,500 | Very Good; see parts and case allowances |
-| 1965 | $4,000 to $5,500 | Varying condition; see fretwork and case allowances |
+| 1963 | $5,500 to $6,500 | Very Good; see parts and case condition |
+| 1964 | $5,500 to $6,500 | Very Good; see parts and case condition |
+| 1965 | $4,000 to $5,500 | Varying condition; see fretwork and case condition |
 | 1966 | $4,000 to $4,500 | Very Good originals with original cases |
 | 1967 | $4,000 to $4,500 | Very Good originals with original cases |
 | 1968 | $4,000 to $4,500 | Very Good originals with original cases |
 | 1969 | $4,000 to $4,500 | Very Good originals with original cases |
-| 1970 | $3,500 to $4,500 | Excellent; see case and service allowances |
-| 1971 | $3,500 to $4,500 | Excellent; see case and service allowances |
-| 1972 | $3,500 to $4,500 | Excellent; see case and service allowances |
-| 1973 | $3,500 to $4,500 | Excellent; see case and service allowances |
-| 1974 | $3,500 to $4,500 | Excellent; see case and service allowances |
-| 1975 | $3,500 to $4,500 | Excellent; see case and service allowances |
+| 1970 | $3,500 to $4,500 | Excellent; see case condition and service history |
+| 1971 | $3,500 to $4,500 | Excellent; see case condition and service history |
+| 1972 | $3,500 to $4,500 | Excellent; see case condition and service history |
+| 1973 | $3,500 to $4,500 | Excellent; see case condition and service history |
+| 1974 | $3,500 to $4,500 | Excellent; see case condition and service history |
+| 1975 | $3,500 to $4,500 | Excellent; see case condition and service history |
 
-The first-year range mixes examples with different levels of documentation and includes a replacement case and replacement mute foam. It isn't a separate slab-board premium or a promise of museum condition. The 1963 to 1964 comparison allows missing accessories, a replacement case and fretwork; the three documented instruments are from 1963.
+The first-year range includes played originals and replacement cases. The 1963 to 1964 band covers Very Good guitars with disclosed fretwork and missing accessories; cleaner, complete guitars need individual appraisal.
 
 The 1965 range allows transition features, fretwork needs and differences in case completeness. The late-1960s range assumes original sunburst finish, an original case, visible wear and no disclosed structural repair. I assess those differences before applying either range.
 
@@ -35,13 +35,7 @@ These ranges don't cover custom colors, maple boards, refinishes or heavily modi
 
 The original Jaguar run ends in 1975. A guitar described as a 1976, 1977, 1978 or 1979 Jaguar needs its identity checked before you apply an original-run price. A date on a receipt, a replacement part or a later reissue name doesn't establish its manufacturing year.
 
-<figure>
 
-![Olympic White Fender Jaguar body with tortoiseshell pickguard, two pickups and chrome controls](../../assets/blog/vintage-fender-jaguar-guide/1966-fender-jaguar-olympic-white-1-scaled.jpg)
-
-<figcaption>An Olympic White Jaguar body from my site archive, with its tortoiseshell pickguard, two pickups and chrome control plates.</figcaption>
-
-</figure>
 
 ## Choosing The Right Comparison
 
@@ -91,7 +85,7 @@ If the finish is the unresolved part of your guitar's story, the [Fender custom 
 
 Normal aging can change how a finish looks without making it a refinish. I describe the visible color and wear separately from the conclusion about originality. A photograph with warm lighting isn't enough to establish the factory color, and a polished surface isn't evidence that a guitar has escaped repair.
 
-Wear also needs context. The edges, back and areas touched while playing may show use on an otherwise original guitar. A large repair, added routing or changed finish is a different issue from worn lacquer. I don't combine all of them under a vague “player grade” label and leave a buyer to guess.
+Wear also needs context. The edges, back and areas touched while playing may show use on an otherwise original guitar. A large repair, added routing or changed finish is a different issue from worn lacquer. I describe the wear and each alteration separately.
 
 <figure>
 
@@ -109,7 +103,7 @@ Original pickups and electronics help define the guitar. If a pickup has been re
 
 A changed switch or potentiometer also needs a plain description. A potentiometer is the electrical control behind a volume or tone knob. Replacing one may have been necessary maintenance; the buyer still needs to know what changed and whether the older part comes with the instrument.
 
-Structural repairs require more detail than “professionally repaired.” The location, extent and present stability of the repair affect the comparison. Photographs and any repair paperwork help, but the final assessment may need an in-person inspection. I don't assign the same discount to every repaired neck or every filled screw hole.
+Structural repairs require more detail than “professionally repaired.” The location, extent and present stability of the repair affect the comparison. Photographs and any repair paperwork help, but the final assessment may need an in-person inspection. The extent and quality of each repair affect the deduction.
 
 The playing condition belongs in the appraisal too. A neck that won't adjust as expected, worn frets, intermittent switches or a bridge that needs attention can change what a buyer is willing to take on. Tell me about those issues before commissioning work purely to prepare the guitar for sale.
 
@@ -135,7 +129,7 @@ The Jaguar mute is the hinged plate behind the bridge with a thumb lever and a f
 
 The case needs the same specificity. “Comes with a case” doesn't tell a buyer whether it's the original case, a period replacement or a modern hard case. A modern case can be useful for transport while remaining a different collectible package from an original case with its accessories.
 
-Save the small items. A tremolo arm, original bridge, instruction sheet, hang tag or dated receipt can help document what accompanies the guitar. I don't add a fixed dollar premium for a bundle whose contents and condition haven't been checked. Instead, I describe the package and compare it with similarly complete instruments.
+Save the small items. A tremolo arm, original bridge, instruction sheet, hang tag or dated receipt can help document what accompanies the guitar. I check the contents and condition of the accessories before valuing the package. Instead, I describe the package and compare it with similarly complete instruments.
 
 <figure>
 

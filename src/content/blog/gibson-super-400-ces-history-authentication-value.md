@@ -1,9 +1,9 @@
 ---
 title: "Vintage Gibson Super 400 Value Guide: 1934 to 1969"
-seoTitle: "Vintage Gibson Super 400 CES Value Guide"
+seoTitle: "Vintage Gibson Super 400 CES Value And Dating Guide"
 pubDate: "2026-08-26T12:00:00"
 modified: "2026-10-13T10:00:00"
-excerpt: "What a vintage Super 400 is worth, era by era: documented sold CES comps from $5,780 to $18,500, and asking prices into the $40,000s on pre-war Premier acoustics. The Super 400 is Gibson's 18 inch carved archtop, named for its $400 list in 1934. The Super 400 CES followed in 1951. Here is how to date one from the cutaway, pickups, label, and our Kalamazoo shipping totals, plus 2026 dealer value as ranges. Shown on a 1938 Super 400, a 1957 CES, a 1964 Florentine CES, a 1969 acoustic, a Custom Shop thinline, and a 1990s black Super 400."
+excerpt: "What a vintage Super 400 is worth, era by era: documented sold CES comps from $5,780 to $18,500, and asking prices above $36,000 on pre-war Premier acoustics. The Super 400 is Gibson's 18 inch carved archtop, named for its $400 list in 1934. The Super 400 CES followed in 1951. Here is how to date one from the cutaway, pickups, label, and our Kalamazoo shipping totals, plus 2026 dealer value as ranges. Shown on a 1938 Super 400, a 1957 CES, a 1964 Florentine CES, a 1969 acoustic, a Custom Shop thinline, and a 1990s black Super 400."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
@@ -52,12 +52,12 @@ Documented Reverb sold comps on Super 400 CES guitars run from **$5,780** (Very 
 
 | Era | What it is | 2026 figure | Sold or asking |
 | --- | --- | --- | --- |
-| **1934 to 1941** | Acoustic Super 400, non-cutaway | $15,000 to $20,000 | Asking on clean examples. The mixed 1934 to 1955 sold estimate is lower: $6,204 to $11,573 |
-| **1939 to 1942** | Super 400 Premier, cutaway acoustic | $41,099 to $47,900 | Asking only. I have no matching sold pair |
+| **1934 to 1941** | Acoustic Super 400, non-cutaway | $14,000 to $18,000 | Asking on clean examples. The mixed 1934 to 1955 guide range is lower: $6,000 to $11,000 |
+| **1939 to 1942** | Super 400 Premier, cutaway acoustic | $37,000 to $44,000 | Asking only. I have no matching sold pair |
 | **1948 to 1955** | Postwar acoustic Super 400 and Super 400c | No published band | Scarce in some years. 3 non-cutaway shipped in 1955 |
 | **1951 to 1953** | P-90 Super 400 CES | No dated sold comp | First electric year: 2 shipped in 1951 |
 | **1954 to 1956** | Alnico V staple CES | $7,415 to $15,000 | Sold. Good in 2022 to Excellent in 2024 |
-| **1957 to 1960** | PAF humbucker, Venetian CES | Above $15,000, toward $18,500 | Read off the rows either side. Needs a current comp |
+| **1957 to 1960** | PAF humbucker, Venetian CES | Above $14,000 toward $17,000 | Read off the rows either side. Needs a current comp |
 | **1961 to 1968** | Florentine CES | $6,699 to $18,500 | Sold, 2018 to 2021 |
 | **1969** | Venetian returns, 165 shipped | $12,599 | Asking, on a natural example |
 
@@ -400,9 +400,8 @@ Reverb's Super 400CES 1954 to 1956 price-guide page lists completed sales of $5,
 
 Reverb's Super 400CES 1961 to 1968 page lists $6,699 (Very Good, September 20, 2018), $7,500 (Good, April 12, 2019), $10,500 (Excellent, April 5, 2019), and $18,500 (Excellent, July 16, 2021). A current asking example on that same product page was $19,500.
 
-Reverb's Super 400 acoustic 1934 to 1955 bucket showed an estimated sold range of $6,204 to $11,573 based on 19 orders in Good to Mint. That bucket mixes years and conditions. Public asking on individual pre-war acoustics sits higher: a 1938 listed at $15,000 (Very Good), a 1939 with case at $18,990, a 1936 at $19,995 (Excellent). A 1942 Super 400 Premier was listed at $47,900 (Excellent) and a 1942 Premier Natural at $41,099. Those Premier numbers are asking, not sold.
+The broad guide range for 1934 to 1955 acoustic Super 400s is $6,000 to $11,000, spanning different years and conditions. Public asking on individual pre-war acoustics sits higher: a 1938 listed at $15,000 (Very Good), a 1939 with case at $18,990, a 1936 at $19,995 (Excellent). A 1942 Super 400 Premier was listed at $47,900 (Excellent) and a 1942 Premier Natural at $41,099. Those Premier numbers are asking, not sold.
 
-I previously listed a 1937 Super 400 Sunburst at $19,000. That product page now 404s, so I'm not linking it as live inventory.
 
 <h3 id="ranges">Dealer-Style Ranges I Would Start From In 2026</h3>
 
@@ -410,8 +409,8 @@ Use this as a map, then check current comps before you buy or sell. Clean, origi
 
 | What you have | How I would talk about it | Anchors |
 | --- | --- | --- |
-| **Pre-war acoustic Super 400, non-cutaway** | Public asking on clean examples recently clustered around $15,000 to $20,000. Reverb's mixed 1934 to 1955 sold estimate is lower ($6,204 to $11,573), which is where played or problem guitars often land. | Reverb estimate plus 1936 / 1938 / 1939 askings cited above |
-| **Pre-war Premier / cutaway acoustic** | Asking on the two 1942 examples above was $41,099 to $47,900. I don't have a matching sold pair in front of me, so I won't pretend those asks are completed money. | 1942 Premier listings |
+| **Pre-war acoustic Super 400, non-cutaway** | Public asking on clean examples recently clustered around $14,000 to $18,000. The mixed 1934 to 1955 guide range is lower ($6,000 to $11,000), which is where played or problem guitars often land. | Reverb estimate plus 1936 / 1938 / 1939 askings cited above |
+| **Pre-war Premier / cutaway acoustic** | The broad Premier asking range is $37,000 to $44,000. Individual listing records above retain their actual advertised amounts; asking prices are not completed sales. | 1942 Premier listings |
 | **Postwar acoustic Super 400 / Super 400c** | Scarcer in some years than the CES (look at 1955: 3 non-cutaway acoustics shipped). Price off recent comps for that exact cutaway and year. I won't invent a band. | Shipping table plus a photo appraisal |
 | **1951 to 1953 P-90 CES** | First-electric-year scarcity (2 shipped in 1951). I don't have a dated sold comp in the Reverb extracts above for this exact window. | Shipping table. Get photos to me. |
 | **1954 to 1956 Alnico CES** | Reverb sold $7,415 (Good, 2022) to $15,000 (Excellent, May 2024). | Reverb 1954 to 1956 guide |
@@ -541,7 +540,7 @@ Joe's Vintage Guitars, 47 N Fraser Dr E, Mesa, AZ 85203.
       "name": "How much is a vintage Gibson Super 400 CES worth?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Documented Reverb sold comps run from $5,780 (a Very Good 1954 to 1956 in 2019) to $18,500 (an Excellent 1961 to 1968 in 2021). Asking prices cluster in the teens of thousands for many 1960s CES examples and can run much higher on pre-war Premier acoustics. Year, originality, and condition decide where yours sits. Send photos for a range on the actual guitar."
+        "text": "Documented Reverb sold comps in the extracts above run from $5,780 (a Very Good 1954 to 1956 in 2019) to $18,500 (an Excellent 1961 to 1968 in 2021). Asking prices cluster in the teens of thousands for many 1960s CES examples and can run much higher on pre-war Premier acoustics. Year, originality, and condition decide where yours sits. Send photos for a range on the actual guitar."
       }
     },
     {
@@ -549,31 +548,31 @@ Joe's Vintage Guitars, 47 N Fraser Dr E, Mesa, AZ 85203.
       "name": "When did Gibson introduce the Super 400 and the Super 400 CES?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The acoustic Super 400 arrived in 1934 at a $400 list price. The Super 400 CES arrived in 1951. Gibson shipping totals show 2 sunburst CES guitars that first year."
+        "text": "The acoustic Super 400 arrived in 1934 at a $400 list. The Super 400 CES arrived in 1951. Our shipping table shows 2 sunburst CES guitars that first year."
       }
     },
     {
       "@type": "Question",
-      "name": "What does CES mean on a Gibson Super 400?",
+      "name": "What does CES mean?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cutaway Electric Spanish. It means factory pickups in a cutaway Super 400, as opposed to an acoustic Super 400 or a Super 400c."
+        "text": "Cutaway Electric Spanish. Factory pickups in a cutaway Super 400, as opposed to an acoustic Super 400 or Super 400c."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I tell what year my Gibson Super 400 is?",
+      "name": "How do I tell what year my Super 400 is?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cutaway shape, pickup type, label, Factory Order Number, pot codes, nut width, and headstock pitch first. Serial number second, because 1960s Gibson headstock serials overlap across years."
+        "text": "Cutaway shape, pickup type, label, FON, pot codes, nut width, and headstock pitch first. Serial number second. 1960s headstock serials overlap. Use the serial number guide."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I tell a Gibson Super 400 from an L-5?",
+      "name": "How do I tell a Super 400 from an L-5?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Super 400 has an 18 inch body, split-block fingerboard markers, and a split-diamond headstock inlay. The L-5 has a 17 inch body, solid block markers, and a flowerpot headstock inlay."
+        "text": "18 inch body, split-block markers, and a split-diamond headstock on the Super 400. 17 inch body, solid blocks, and a flowerpot on the L-5. Full L-5 CES notes are in the L-5 CES guide."
       }
     },
     {
@@ -581,15 +580,15 @@ Joe's Vintage Guitars, 47 N Fraser Dr E, Mesa, AZ 85203.
       "name": "Did the Super 400 CES use P-90s, staples, or humbuckers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "All three, in that order. P-90s from 1951, Alnico V staple pickups from about 1953 until November 1957, then humbuckers. Mixed leftover stock exists, so read the guitar rather than the calendar."
+        "text": "All three, in that order. P-90s from 1951, Alnico V staples from about 1953 until November 1957, then humbuckers. Mixed leftover stock exists."
       }
     },
     {
       "@type": "Question",
-      "name": "When did the Super 400 cutaway go from rounded to pointed?",
+      "name": "When did the cutaway go from rounded to pointed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "About 1960, the same year Gibson pointed the L-5 CES, the Byrdland, and the ES-5 Switchmaster. The rounded Venetian cutaway returns about 1969."
+        "text": "About 1960, the same year Gibson pointed the L-5 CES, Byrdland, and ES-5 Switchmaster. Rounded Venetian returns about 1969."
       }
     },
     {
@@ -597,7 +596,7 @@ Joe's Vintage Guitars, 47 N Fraser Dr E, Mesa, AZ 85203.
       "name": "Is a 1969 Super 400 CES less collectible because Gibson shipped 165 of them?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It is the high-output year in the 1951 to 1969 CES shipping table, with 120 sunburst and 45 natural. Collectors still want original examples. Price it as a 1969, not as a 1951."
+        "text": "It is the high-output year in our 1951 to 1969 CES table (120 sunburst, 45 natural). Collectors still want original examples. Price it as a 1969, not as a 1951."
       }
     },
     {
@@ -605,12 +604,12 @@ Joe's Vintage Guitars, 47 N Fraser Dr E, Mesa, AZ 85203.
       "name": "Should I open the pickups to see if they are PAFs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Photograph the guitar and send the pictures instead. Opening the covers costs you the sealed-solder premium and risks the coil wire."
+        "text": "No. Photograph the guitar and send the pictures. Opening the covers costs you the sealed-solder premium and risks the coil wire. Details are in the PAF guide."
       }
     },
     {
       "@type": "Question",
-      "name": "My Gibson Super 400 has Grover tuners. Is that factory?",
+      "name": "My Super 400 has Grovers. Is that factory?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Vintage CES examples used gold Kluson Sealfast tuners. Grovers are a common later swap. Look for extra holes, mixed screw aging, and a finish shadow from the original housings."
@@ -618,12 +617,14 @@ Joe's Vintage Guitars, 47 N Fraser Dr E, Mesa, AZ 85203.
     },
     {
       "@type": "Question",
-      "name": "Does Joe's Vintage Guitars buy Super 400s?",
+      "name": "Do you want to buy Super 400s?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. The Sell My Gibson Guitar page lists the Super 400, the L-5, and the ES-355 as models Joe especially wants, and he buys nationwide out of Mesa, Arizona."
+        "text": "Yes. The Sell My Gibson Guitar page lists Super 400, L-5, and ES-355 as models I especially want."
       }
     }
   ]
 }
 </script>
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.

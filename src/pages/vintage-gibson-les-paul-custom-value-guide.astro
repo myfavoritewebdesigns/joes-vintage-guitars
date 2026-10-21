@@ -13,7 +13,7 @@ const isPreview = import.meta.env.CF_PAGES_BRANCH
   : import.meta.env.DEV;
 const faqSchema = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
-  mainEntity: data.faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
+  mainEntity: data.faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a.replace(/<[^>]*>/g, '') } }))
 };
 const structuredData = [faqSchema, {
   '@context': 'https://schema.org', '@type': 'Article',
@@ -40,7 +40,7 @@ const structuredData = [faqSchema, {
     <aside class="glpcv-toc" aria-label="On this page"><p>On This Page</p><nav><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></aside>
     <article class="glpcv-article">
       <ValueGuidePhotos><Content /></ValueGuidePhotos>
-      <section id="value-questions" class="glpcv-faq"><h2>Questions About {data.model} Value</h2>{data.faqs.map(f=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+      <section id="value-questions" class="glpcv-faq"><h2>Questions About {data.model} Value</h2>{data.faqs.map(f=><details><summary>{f.q}</summary><p set:html={f.a} /></details>)}</section>
     </article>
   </div>
 </Layout>

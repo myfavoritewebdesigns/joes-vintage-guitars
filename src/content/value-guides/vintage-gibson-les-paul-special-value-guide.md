@@ -1,6 +1,6 @@
 A clean, original TV Yellow Gibson Les Paul Special from 1955 to 1959 carries a $12,000 to $19,000 guide range. The guide range for a 1959 cherry Special is $7,500 to $14,000. Later 1970s single-cutaway reissues belong in a separate price group, covered year by year below.
 
-I buy vintage Specials and first establish which body style, finish and production period I'm comparing. For the original single-cutaway instruments, my [1955 to 1958 Les Paul Special authentication guide](/post/1955-1958-tv-yellow-les-paul-special-guide/) covers the construction and original parts. This page explains the price references and the condition behind them.
+I buy vintage Specials and first establish which body style, finish and production period I'm comparing. For the original single-cutaway instruments, my [1955 to 1958 Les Paul Special authentication guide](/post/1955-1958-tv-yellow-les-paul-special-guide/) covers the construction and original parts. The ranges depend on original finish, parts and structural condition.
 
 ## Gibson Les Paul Special Values By Year
 
@@ -13,7 +13,7 @@ Adjacent years can share a range. I still assess the body style, finish and cond
 | 1955 | TV Yellow, single-cutaway | $12,000 to $19,000 |
 | 1956 | TV Yellow, single-cutaway | $12,000 to $19,000 |
 | 1957 | TV Yellow, single-cutaway | $12,000 to $19,000 |
-| 1958 | TV Yellow, single-cutaway | $12,000 to $19,000 |
+| 1958 | TV Yellow, single-cutaway or late-year double-cutaway | $12,000 to $19,000 |
 | 1959 | TV Yellow, rounded double-cutaway | $12,000 to $19,000 |
 | 1959 | Cherry, rounded double-cutaway | $7,500 to $14,000 |
 | 1960 | Cherry, rounded slab body | $9,000 to $12,000 |
@@ -23,19 +23,13 @@ Adjacent years can share a range. I still assess the body style, finish and cond
 | 1978 | Les Paul 55, single-cutaway sunburst | $2,500 to $4,000 |
 | 1979 | Les Paul 55, single-cutaway sunburst | $2,500 to $4,000 |
 
-The 1960 cherry row covers the rounded slab-body guitar, sometimes described as an SG Special. It assumes excellent, original condition. Worn or repaired examples need a separate appraisal.
+The 1960 cherry row covers the rounded slab-body guitar in excellent, original condition. Its narrower range overlaps the 1959 range, so the higher floor is not a guaranteed premium for the later year. Worn or repaired guitars need a separate appraisal.
 
 The 1970s single-cutaway range covers original sunburst guitars. Repairs, added vibratos and substantial changes can put an example outside that category. I inspect those details before applying the upper end.
 
 The Les Paul 55 rows cover 1974 and 1976 onward, with no 1975 row shown. The later SG-shaped Special belongs in the [Gibson SG Special value guide](/vintage-gibson-sg-special-value-guide/). A 1970s double-cutaway reissue also needs its own appraisal.
 
-<figure>
 
-![Front of a TV Yellow single-cutaway Les Paul Special with two black P-90 covers](../../assets/blog/1955-1958-tv-yellow-les-paul-special-guide/1958-gibson-les-paul-special-tv-yellow-full-body-683x1024.jpg)
-
-<figcaption>The full view shows the single cutaway, two pickups, wraparound bridge and four black controls.</figcaption>
-
-</figure>
 
 ## Special, Junior And TV Model Are Different Names
 
@@ -43,7 +37,7 @@ The vintage Special has two P-90 pickups and separate volume and tone controls f
 
 The Junior is a one-pickup model. The TV Model is also a one-pickup member of that family. TV Yellow describes a finish found on the two-pickup Special as well, which is why the words “TV” and “Special” need to be read carefully in a listing.
 
-I don't transfer the price of a TV Model to a Special just because both guitars are yellow. The [Les Paul Junior value guide](/vintage-gibson-les-paul-junior-value-guide/) handles the one-pickup instruments, including the TV Model. Here, TV Yellow remains a finish variant within the Special's own price table.
+The one-pickup TV Model and the two-pickup Special have separate markets. My [Les Paul Junior value guide](/vintage-gibson-les-paul-junior-value-guide/) covers the TV Model; TV Yellow is a finish within the Special family.
 
 If you aren't sure which one you have, count the pickups and photograph the whole front before focusing on the headstock lettering. That gives an appraisal a useful starting point. The [Les Paul family guide](/post/vintage-gibson-les-paul-family-guide/) compares the related models without assigning one guitar another model's identity.
 
@@ -61,7 +55,7 @@ The early TV Yellow reference spans several years. It leaves room for preservati
 
 The later rounded double-cutaway body has an opening on both sides of the neck. Cherry becomes part of the comparison alongside TV Yellow. That body family also crosses a naming change: the SG Special designation appears before the familiar pointed SG body.
 
-This is why I don't value a guitar by the letters on its headstock alone. A rounded slab-body Special and a thin, pointed SG Special belong in different groups. Their construction needs to be established before their price references are compared.
+I confirm its construction and originality alongside the headstock markings. A rounded slab-body Special and a thin, pointed SG Special belong in different groups. Their construction needs to be established before their price references are compared.
 
 The 1959 and 1960 cherry rows are listed separately so you can match the guitar's year and rounded slab-body configuration. I check the finish, neck and retained parts before narrowing either range.
 
@@ -85,7 +79,7 @@ Keep the full serial number and photographs of the whole guitar together. A list
 
 TV Yellow is part of the Special's identity and part of its market description. An original finish needs to be distinguished from a later recreation before the early TV range can be used. A convincing color in a photograph isn't enough to settle that question.
 
-Age, lighting and camera settings can make two photographs of the same finish look different. For an appraisal, I prefer natural indirect light and views of the front, back and edges. I don't need a heavily edited photograph that makes the guitar look more yellow.
+Age, lighting and camera settings can make two photographs of the same finish look different. For an appraisal, I prefer natural indirect light and views of the front, back and edges. Natural-light photographs preserve the finish color more accurately than edited images.
 
 An exceptional early configuration needs a closer appraisal. The broad table doesn't replace an inspection of its finish, condition and original parts.
 
@@ -143,9 +137,9 @@ If an old invoice identifies the repairer or the work performed, include it. If 
 
 ### Fretwork And The Originality Category
 
-A quality refret preserves the all-original classification of an otherwise original instrument under this site's grading approach. It removes museum-quality status. That's different from reshaping the neck or replacing the fingerboard.
+A quality refret preserves the all-original classification of an otherwise original instrument. It removes museum-quality status. That's different from reshaping the neck or replacing the fingerboard.
 
-Low or worn frets also affect a buyer's intended use. I don't assume that every collector wants a refret or that every player wants untouched fretwire. Describe the present condition and any known work before deciding which comparison fits.
+Low or worn frets also affect a buyer's intended use. Collectors and players can have different preferences for fretwork. Describe the present condition and any known work before deciding which comparison fits.
 
 ## Keep The Case With The Guitar
 
@@ -153,7 +147,7 @@ An original case is part of the condition assumed in the table. The early alliga
 
 Photograph the exterior, lining, handle and latches. If the case contains paperwork or removed parts, show those separately as well. Keep them together until the guitar has been evaluated.
 
-The archive photograph below shows the brown alligator-pattern covering on a period case. It doesn't establish a separate case price, and I haven't added an unsupported accessory premium to the guitar's value. Its role here is to show what should be included in the appraisal photographs.
+The brown alligator-pattern case covering is visible in my archive photograph. Include the case, its interior and any retained original parts in appraisal photographs.
 
 <figure>
 
@@ -177,4 +171,8 @@ The table is a reference for a category, not a promise of net proceeds. Selling 
 
 For a [free vintage guitar appraisal](/free-appraisal/), send full front and back photographs, both sides of the headstock, the neck joint, bridge and case. Add the serial number and the repair history you know. If a part has been changed, a photograph is more useful than trying to make it look original again.
 
-I don't need you to polish away the wear or replace hardware before the first review. The guitar's present condition gives me a clearer starting point. Once its model, era and parts are established, I can explain how it relates to the appropriate price range.
+Leave the wear and hardware as they stand for the first review. The guitar's present condition gives me a clearer starting point. Once its model, era and parts are established, I can explain how it relates to the appropriate price range.
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+My [Les Paul market value guide](/vintage-gibson-les-paul-market-value-guide/) compares the wider family, including Goldtops, Standards and the other original Les Paul models.

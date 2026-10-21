@@ -1,12 +1,12 @@
 A clean 1955 to 1959 Gibson J-45 has a guide range of $7,000 to $9,000 in excellent condition with original parts and the original case. Earlier Banner guitars and later square-shoulder examples sit in different ranges. I reviewed these values in October 2026 and assess repairs and originality separately.
 
-For model identification, use my [Gibson J-45, J-50 and Southern Jumbo identification guide](/post/identify-vintage-gibson-j45-j50-sj/). This page assumes the guitar has been identified and focuses on its value, the condition the ranges require and what an owner needs for an appraisal.
+For model identification, use my [Gibson J-45, J-50 and Southern Jumbo identification guide](/post/identify-vintage-gibson-j45-j50-sj/). The ranges assume the guitar has been identified and focuses on its value, the condition the ranges require and what an owner needs for an appraisal.
 
 ## J-45 Values By Year
 
 Every year from 1942 through 1979 appears below. Several years share an era range. I still assess the guitar's exact configuration and condition before narrowing its value.
 
-The figures assume an all-original guitar in excellent condition with its original case and no structural repairs. A quality refret is accepted maintenance under my grading approach, although it removes museum-quality status. Changed parts, damaged wood and uncertain work histories require different comparisons.
+The figures assume an all-original guitar in excellent condition with its original case and no structural repairs. A quality refret is accepted maintenance, although it removes museum-quality status. Changed parts, damaged wood and uncertain work histories require different comparisons.
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
@@ -18,11 +18,11 @@ The figures assume an all-original guitar in excellent condition with its origin
 | 1947 | Early postwar and small-guard era | $8,000 to $14,000 |
 | 1948 | Early postwar and small-guard era | $8,000 to $14,000 |
 | 1949 | Early postwar and small-guard era | $8,000 to $14,000 |
-| 1950 | Early postwar and small-guard era | $8,000 to $14,000 |
-| 1951 | Early postwar and small-guard era | $8,000 to $14,000 |
-| 1952 | Early postwar and small-guard era | $8,000 to $14,000 |
-| 1953 | Early postwar and small-guard era | $8,000 to $14,000 |
-| 1954 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1950 | Small-guard postwar era | $8,000 to $10,000 |
+| 1951 | Small-guard postwar era | $8,000 to $10,000 |
+| 1952 | Small-guard postwar era | $8,000 to $10,000 |
+| 1953 | Small-guard postwar era | $8,000 to $10,000 |
+| 1954 | Small-guard postwar era | $8,000 to $10,000 |
 | 1955 | Large-guard sunburst era | $7,000 to $9,000 |
 | 1956 | Large-guard sunburst era | $7,000 to $9,000 |
 | 1957 | Large-guard sunburst era | $7,000 to $9,000 |
@@ -53,13 +53,7 @@ The Banner range covers several top-wood configurations. The 1960s range include
 
 The ranges assume clean, original guitars in the condition described above. Repairs, replacement parts and substantial wear need separate consideration.
 
-<figure>
 
-![Sunburst J-45 with a large mottled pickguard lying in a brown case](../../assets/blog/identify-vintage-gibson-j45-j50-sj/1950s-gibson-j-45-in-case-1024x683.jpg)
-
-<figcaption>My 1950s J-45 archive photograph shows the body, bridge, pickguard and case together. Visible wear is part of its description, not a reason to assign a price without inspection.</figcaption>
-
-</figure>
 
 ## The Banner Years
 
@@ -69,15 +63,15 @@ I keep the Banner group separate from postwar J-45s. A seller's broad wartime da
 
 Changed parts, bridge-plate work and unresolved service needs affect the appraisal. A broad condition label doesn't erase those details. I want to understand the actual work and current playing condition.
 
-An instrument with a celebrity story also needs separate treatment. A claimed association isn't an ordinary model characteristic and doesn't belong in a general price band. I haven't added a provenance premium to this table.
+An instrument with a celebrity story also needs separate treatment. A claimed association isn't an ordinary model characteristic and doesn't belong in a general price band. Documented ownership must support any provenance premium.
 
 ## Early Postwar And Small-Guard Guitars
 
-The 1946 to 1954 range is $8,000 to $14,000. It covers several configurations, so a confirmed year and condition assessment help narrow the value. I don't treat the entire period as one identical guitar.
+The 1946 to 1949 range is $8,000 to $14,000. The 1950 to 1954 small-guard group sits at $8,000 to $10,000. Both assume excellent, original condition with the original case.
 
-The distinction between an original finish and a refinished guitar can be larger than the difference between adjacent years. I don't let an attractive date substitute for a complete description. A well-repaired instrument may be an appealing player while belonging outside the clean reference.
+The distinction between an original finish and a refinished guitar can be larger than the difference between adjacent years. I assess the date alongside the complete condition description. A well-repaired instrument may be an appealing player while belonging outside the clean reference.
 
-A replacement bridge, added pickup or more extensive repair can put a guitar below the clean-original range. The quality and extent of the work matter, so I don't use a universal repair deduction.
+A replacement bridge, added pickup or more extensive repair can put a guitar below the clean-original range. The quality and extent of the work determine the repair deduction.
 
 <figure>
 
@@ -95,25 +89,25 @@ I keep case details separate from the instrument's structural condition. A missi
 
 ## Later 1950s Values
 
-For 1955 to 1959, the guide range is $7,000 to $9,000. Each year uses that shared band. I assess condition and originality before assigning a value within it.
+For 1955 to 1959, the guide range is $7,000 to $9,000. Non-scalloped bracing arrives in 1955, separating these guitars from the earlier scalloped-brace construction. Each year uses that shared band. I assess condition and originality before assigning a value within it.
 
 This is a useful place to separate a guitar's age from its present state. An original finish, documented maintenance and a clear parts history make comparisons easier. A listing that says only that the guitar plays well leaves several valuation questions unanswered.
 
 Replacement tuners may be accompanied by the originals, or the original parts may be gone. That distinction should be recorded without assuming the instrument can simply be returned to untouched condition. Any related holes or other alterations are part of the actual guitar.
 
-I don't advise an owner to reinstall parts before sending photographs. The first appraisal should describe the instrument as it is. Removed parts and repair receipts can be photographed alongside it.
+Send photographs with the guitar and its loose parts as they stand. The first appraisal should describe the instrument as it is. Removed parts and repair receipts can be photographed alongside it.
 
 ## A 1960s J-45 Needs Its Configuration
 
 The standard sunburst 1960s envelope is $3,000 to $7,000. That is the widest construction span in this table: it includes earlier round-shoulder examples and the later body transition. A confirmed configuration is needed before choosing a narrower comparison.
 
-The site's identification guide explains the dating markers. Here, the consequence is that a late square-shoulder guitar shouldn't be compared automatically with an early round-shoulder one. Sharing the J-45 name doesn't make every specification or market category identical.
+My identification guide explains the dating markers. Here, the consequence is that a late square-shoulder guitar shouldn't be compared automatically with an early round-shoulder one. Sharing the J-45 name doesn't make every specification or market category identical.
 
 Adjustable-bridge examples and guitars converted to fixed saddles also need clear descriptions. A saddle is the piece that supports the strings at the bridge. A conversion can affect the appraisal even when the owner prefers the way the guitar plays.
 
 ### Factory Colors And Altered Finishes
 
-The main table covers standard sunburst guitars in the configurations described. I don't use a fixed rare-color percentage. An unusual finish needs authentication and an individual appraisal.
+The main table covers standard sunburst guitars in the configurations described. The original color and condition need to be confirmed before assigning a premium. An unusual finish needs authentication and an individual appraisal.
 
 A faded finish and a replaced finish aren't the same condition. Nor does a bright-looking guitar automatically belong at the top of the range. The appraisal depends on what the finish is, its history and the rest of the instrument.
 
@@ -121,7 +115,7 @@ A transition-year guitar needs its actual construction checked. I wouldn't force
 
 ## Square-Shoulder J-45 And Deluxe Values
 
-The combined 1970 to 1979 reference is $2,500 to $3,000. These guitars have their own market context, so I haven't borrowed a 1950s range to make the later years look more expensive. Each annual row repeats the clearly labeled 1970s reference.
+The combined 1970 to 1979 reference is $2,500 to $3,000. These guitars have their own market and construction details. Each annual row repeats the clearly labeled 1970s reference.
 
 A clean, playable early example differs from one with high action or binding work. The table assumes the guitar is structurally sound and properly playable. I assess repair and service needs separately.
 
@@ -139,7 +133,7 @@ The J-50, Southern Jumbo and J-45 share enough family resemblance to cause mista
 
 </figure>
 
-The J-50 photograph above is included to show that distinction. It is not a substitute photograph for a J-45, and this page doesn't assign it a value from the J-45 table. Its model and condition need their own comparison.
+The J-50 has a natural top and its own model history. Its year, construction and condition require a J-50 comparison.
 
 <figure>
 
@@ -149,7 +143,7 @@ The J-50 photograph above is included to show that distinction. It is not a subs
 
 </figure>
 
-A Banner feature can also appear on another model in the family. The Southern Jumbo headstock shown here demonstrates why the logo alone isn't a complete identification. I don't turn shared era details into shared prices.
+A Banner feature can also appear on another model in the family. The Southern Jumbo headstock shown here demonstrates why the logo alone isn't a complete identification. Each model needs its own price comparison.
 
 <figure>
 
@@ -169,15 +163,15 @@ The word restoration can cover very different work. It might refer to a setup an
 
 ### Neck Resets And Frets
 
-A neck reset adjusts how the neck sits against the body so the guitar can achieve an appropriate setup. A completed, documented reset and a guitar that still needs one present different costs and uncertainties to a buyer. I don't use a fixed percentage for both.
+A neck reset adjusts how the neck sits against the body so the guitar can achieve an appropriate setup. A completed, documented reset and a guitar that still needs one present different costs and uncertainties to a buyer. The repair quality and resulting setup determine the effect on value.
 
-A quality refret is accepted maintenance under this site's grading approach. It preserves the all-original classification of an otherwise original guitar and removes museum-quality status. Neck reshaping, a changed fingerboard or a structural repair must be assessed separately.
+A quality refret is accepted maintenance. It preserves the all-original classification of an otherwise original guitar and removes museum-quality status. Neck reshaping, a changed fingerboard or a structural repair must be assessed separately.
 
 ### Bridges And Bridge Plates
 
 A replacement bridge changes the originality description even when the work was done well. The bridge plate is the reinforcement inside the body beneath the bridge. Changes there can be less visible in ordinary photographs, so repair records help explain the instrument.
 
-I don't recommend cosmetic or structural work merely to prepare for an appraisal. Start with photographs of the present guitar and any records you have. That lets the assessment account for the actual condition before money is spent.
+Photograph the guitar in its current condition before arranging cosmetic or structural work. Start with photographs of the present guitar and any records you have. That lets the assessment account for the actual condition before money is spent.
 
 ### Cracks And Finish Work
 
@@ -191,10 +185,14 @@ An asking price is a seller's requested amount. A completed-sale figure records 
 
 The guide ranges are starting points for an appraisal. I examine the guitar and explain the condition assumptions before making an offer.
 
-I don't promise that an old J-45 will increase in value. Future repairs, demand and the time required to sell can affect the result. An appraisal describes the guitar in its present condition.
+An old J-45's future value depends on demand, condition and repair costs. Future repairs, demand and the time required to sell can affect the result. An appraisal describes the guitar in its present condition.
 
 ## Getting An Appraisal For Your J-45
 
 Send clear views of the front, back, headstock, bridge and any known repairs, along with the case and available paperwork. Describe what you know about changed parts and what remains uncertain. You don't need to guess a year before asking for help.
 
 I buy vintage guitars nationwide from Mesa, Arizona. My [free guitar appraisal](/free-appraisal/) is a starting point for an individual review, and the [Gibson selling page](/sell-my-gibson-guitar/) explains the purchase process. A final offer depends on the guitar's actual condition and identity.
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+For other flat-top models, my [Gibson acoustic value guide](/vintage-gibson-acoustic-value-guide/) compares the J-45, J-200, LG family and Hummingbird.

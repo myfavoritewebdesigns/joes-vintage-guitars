@@ -5,7 +5,7 @@ import { buildImageGraph } from "../lib/imageLicense";
 import rawPageMarkup from "../page-data/sell-fender-redesign.html?raw";
 import rawPageCss from "../styles/pages/sell-fender-redesign.css?raw";
 
-const pageTitle = "Sell My Fender Guitar | Joe's Vintage Guitars";
+const pageTitle = "Sell My Vintage Fender Guitar | Joe's Vintage Guitars";
 const pageDescription =
   "Sell your vintage Fender guitar or bass directly to Joe Dampt for a free appraisal, a no-obligation cash offer and prepaid insured shipping.";
 
@@ -16,7 +16,7 @@ const faqEntries = [
   ],
   [
     "How can I tell how old my Fender is?",
-    "The serial number is a starting point, but neck dates, body dates, pot codes, pickup markings, hardware and construction details often matter just as much. Send photos and I will work through those clues.",
+    "The serial number is a starting point, but neck dates, body dates, pot codes, pickup markings, hardware and construction details often matter just as much. My guide to spotting a fake Fender shows the counterfeit-specific clues. Send photos and I will work through the rest.",
   ],
   [
     "Do you buy modified, refinished or player-grade Fenders?",
@@ -276,7 +276,6 @@ pageMarkup = pageMarkup.replace(
   `<div class="smf-local-guides"><h3>Phoenix Area Fender Selling Guides</h3><p>Compare every selling method in the <a href="/where-to-sell-vintage-guitar-phoenix/">Phoenix-area vintage guitar guide</a>, read about <a href="/sell-vintage-guitar-phoenix-az/">selling a vintage Fender in Phoenix</a>, or see the <a href="/sell-vintage-guitar-chandler-az/">Chandler guide featuring a one-owner 1966 Fender Coronado II</a>.</p></div>${fenderOptionsEnd}`,
 );
 
-pageMarkup = pageMarkup.replace('<a class="button button-primary" href="#appraisal">Tell Me About Your Fender</a>', '<a class="button button-primary" href="/free-appraisal/">Free Appraisal</a>').replace('<a class="button button-ghost" href="tel:+16029006635">Call or Text Joe</a>', '<a class="button button-ghost" href="#appraisal">Sell My Fender</a>');
 
 const pageCss = rawPageCss.replace(/^@import 'tailwindcss';\s*/, "") + `
   :root {
@@ -367,4 +366,5 @@ const pageCss = rawPageCss.replace(/^@import 'tailwindcss';\s*/, "") + `
   />
   <style slot="head" is:inline set:html={pageCss}></style>
   <Fragment set:html={pageMarkup} />
+<section class="gap2-related-guides" style="max-width:860px;margin:36px auto;padding:24px"><p>For a model-specific comparison, use my <a href="/vintage-fender-stratocaster-value-guide/">Stratocaster value guide</a>, <a href="/vintage-fender-telecaster-value-guide/">Telecaster value guide</a>, <a href="/vintage-fender-esquire-value-guide/">Esquire value guide</a>, <a href="/vintage-fender-jazzmaster-value-guide/">Jazzmaster value guide</a>, <a href="/vintage-fender-jaguar-value-guide/">Jaguar value guide</a>, <a href="/post/fender-mustang-history-value/">Mustang value guide</a>, <a href="/vintage-fender-precision-bass-value-guide/">Precision Bass value guide</a>, <a href="/vintage-fender-jazz-bass-value-guide/">Jazz Bass value guide</a>. Match the year, finish and original parts before choosing a range.</p></section>
 </Layout>

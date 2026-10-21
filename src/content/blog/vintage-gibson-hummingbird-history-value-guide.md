@@ -39,28 +39,28 @@ The asking range for a clean, original vintage Gibson Hummingbird is $1,500 to $
 
 As of October 2026, the table shows asking ranges for clean, all-original, structurally sound guitars. These aren't guaranteed selling prices or cash purchase offers. Adjacent years can share a range, and I assess the case and any repairs separately.
 
-| Year | Existing Dealer Asking Range | Configuration |
+| Year | Dealer Asking Range | Configuration |
 | --- | --- | --- |
-| 1960 | $7,500 to $11,000 | Early Cherry Sunburst, Wide Nut |
-| 1961 | $7,500 to $11,000 | Early Cherry Sunburst, Wide Nut |
-| 1962 | $7,500 to $11,000 | Early Cherry Sunburst, Wide Nut |
-| 1963 | $6,000 to $9,000 | Wide Nut, Adjustable Saddle |
-| 1964 | $6,000 to $9,000 | Wide Nut, Adjustable Saddle |
-| 1965 | $4,500 to $6,500 | Narrow Nut Configuration |
-| 1966 | $3,500 to $5,000 | Later 1960s |
-| 1967 | $3,500 to $5,000 | Later 1960s |
-| 1968 | $3,500 to $5,000 | Later 1960s |
-| 1969 | $2,000 to $3,500 | Early 1970s Transition |
-| 1970 | $2,000 to $3,500 | Early 1970s Transition |
-| 1971 | $2,000 to $3,500 | Early 1970s Transition |
-| 1972 | $2,000 to $3,500 | Early 1970s Transition |
-| 1973 | $1,500 to $3,000 | Later 1970s Hummingbird |
-| 1974 | $1,500 to $3,000 | Later 1970s Hummingbird |
-| 1975 | $1,500 to $3,000 | Later 1970s Hummingbird |
-| 1976 | $1,500 to $3,000 | Later 1970s Hummingbird |
-| 1977 | $1,500 to $3,000 | Later 1970s Hummingbird |
-| 1978 | $1,500 to $3,000 | Later 1970s Hummingbird |
-| 1979 | $1,500 to $3,000 | Later 1970s Hummingbird |
+| 1960 | $7,500 to $11,000 | First Year, Cherry Sunburst, Wide Nut, Fixed Saddle |
+| 1961 | $7,500 to $11,000 | Cherry Sunburst, Wide Nut, Early Run |
+| 1962 | $7,500 to $11,000 | Cherry Sunburst, Wide Nut, Early Run |
+| 1963 | $6,000 to $9,000 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
+| 1964 | $6,000 to $9,000 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
+| 1965 | $4,500 to $6,500 | Narrow Nut, Otherwise Unchanged |
+| 1966 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
+| 1967 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
+| 1968 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
+| 1969 | $2,000 to $3,500 | Late 1960s Neck And Bridge Transition |
+| 1970 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1971 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1972 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1973 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1974 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1975 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1976 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1977 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1978 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1979 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
 
 A 1965 label alone doesn't settle the nut width. That row covers the narrow-nut configuration; an early wide-nut guitar needs an individual appraisal. Natural finishes, unusual wood combinations, major repairs and bridge replacements also need separate consideration.
 
@@ -88,12 +88,7 @@ Sixty-some years later it is still in production, which puts it in a very short 
 
 This guide covers the whole run: what the first ones were, every spec change worth knowing through the end of the seventies, how to work out what year yours is, and what the different eras actually bring. All of the photos are guitars that came through the shop. Five of them, a 1961, a mid sixties example, a 1964, a 1965, and a 1979, and between them they show almost every change Gibson made.
 
-<figure>
 
-![Front view of a 1961 Gibson Hummingbird in cherry sunburst, showing the engraved pickguard with hummingbird, trumpet flowers and butterfly, parallelogram fretboard inlays, and rectangular rosewood bridge.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-cherry-sunburst-front.jpg)
-
-<figcaption><strong>A 1961, the second year of production.</strong> Gibson shipped 595 Hummingbirds that year. The cherry in the burst has held up better than most, and you can see the wide, deep red edge that Kalamazoo was spraying before the finish recipe drifted lighter later in the decade.</figcaption>
-</figure>
 
 <h2 id="quick-answer">The Short Version</h2>
 
@@ -191,7 +186,7 @@ Cosmetically these are the boldest looking ones. Deep red in the burst, a big gu
 
 <h3 id="sixtythree">1963: Maple, A Smaller Guard, And Natural Tops</h3>
 
-Three changes in one year. Gibson started offering maple back and sides as an option, the pickguard came down slightly in size, and natural finish appeared alongside the sunburst. Only 97 of the 1,461 guitars shipped in 1963 were natural, so a original natural early Hummingbird is a real rarity. A maple one is rarer still and almost nobody knows they exist.
+Three changes in one year. Gibson started offering maple back and sides as an option, the pickguard came down slightly in size, and natural finish appeared alongside the sunburst. Only 97 of the 1,461 guitars shipped in 1963 were natural, so an original natural early Hummingbird is a real rarity. A maple one is rarer still and almost nobody knows they exist.
 
 The guard change is subtle and hard to call from a photo. Comparing a 1961 to a 1965 side by side you can see it, but do not try to date a guitar off guard size alone.
 
@@ -377,7 +372,7 @@ The mid sixties guitar in these photos is the honest example. It has the prettie
 
 **A converted adjustable bridge.** On a player grade guitar, minor. On an otherwise all original early sixties example, real money. The tell is a filled slot where the adjuster posts used to be, visible if you look straight down the saddle line.
 
-**A neck reset that has not been done.** Not fatal, and most sixties Gibsons are due for one by now, but it is a $1,000 to $1,500 job and a buyer will price it in.
+**A neck reset that has not been done.** A guitar that needs a neck reset carries a $700 to $1,200 repair cost, which a buyer will account for.
 
 **Top cracks, especially through the bridge or along the seam.** Cleanly repaired and cleated cracks are livable. Open cracks and a bellied top are not, and a badly bellied Gibson top usually means the bridge plate is chewed up too.
 
@@ -437,7 +432,7 @@ As of October 2026, asking ranges run from $1,500 to $11,000 for clean, original
 
 **What year did Gibson start making the Hummingbird?**
 
-Gibson introduced the Hummingbird in 1960 as its first square shouldered dreadnought.
+Gibson introduced the Hummingbird in 1960 as its first square shouldered dreadnought, and 156 shipped that first year.
 
 **How do I tell what year my Hummingbird is?**
 
@@ -511,7 +506,7 @@ We buy, sell, and appraise vintage acoustics out of our shop in Mesa, Arizona. I
       "name": "What year did Gibson start making the Hummingbird?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gibson introduced the Hummingbird in 1960 as its first square shouldered dreadnought."
+        "text": "Gibson introduced the Hummingbird in 1960 as its first square shouldered dreadnought, and 156 shipped that first year."
       }
     },
     {
@@ -605,3 +600,7 @@ We buy, sell, and appraise vintage acoustics out of our shop in Mesa, Arizona. I
   ]
 }
 </script>
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+For other flat-top models, my [Gibson acoustic value guide](/vintage-gibson-acoustic-value-guide/) compares the J-45, J-200, LG family and Hummingbird.

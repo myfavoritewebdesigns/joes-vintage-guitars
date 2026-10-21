@@ -1,5 +1,6 @@
 ---
 title: "What To Consider When Selling A Vintage Guitar"
+seoTitle: "Selling A Vintage Guitar: Condition, Value And Options"
 pubDate: "2022-10-26T10:00:19"
 modified: "2026-04-01T16:45:36"
 excerpt: "Planning to sell a vintage guitar? Learn key tips for a successful sale and what to consider before selling."
@@ -8,7 +9,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/what-to-consider-when-selling-a-vintage-guitar/What-To-Consider-When-Selling-A-Vintage-Guitar-1.jpg"
 heroImageAlt: "What To Consider When Selling A Vintage Guitar"
-metaDescription: "Planning to sell a vintage guitar? Learn key tips for a successful sale and what to consider before selling."
+metaDescription: "Plan a vintage guitar sale with clear photos, an originality check and a realistic appraisal. Compare selling options, condition and buyer expectations."
 ogImage: "/images/blog/what-to-consider-when-selling-a-vintage-guitar/What-To-Consider-When-Selling-A-Vintage-Guitar-1.jpg"
 wpId: 2517
 ---
@@ -76,7 +77,7 @@ If you want to sell a vintage guitar to guitarists and not collectionists, you s
 
 The value of a vintage guitar depends on its condition and provenance. However, some models never seem to decrease their value. One is Gibson’s Cherry Sunburst Les Paul Standards, which was produced from 1958 to 1960.
 
-Their original price was around $280, but they now regularly go to auction for more than $400,000. That’s because they have incredible craftsmanship, and only about 1,700 were ever made.
+Their original price was around $280, but they now regularly go to auction for more than $360,000. That’s because they have incredible craftsmanship, and only about 1,700 were ever made.
 
 Our [vintage Gibson Les Paul value guide](/vintage-gibson-les-paul-market-value-guide/) compares published ranges for Goldtops, Sunburst Standards, Customs, Specials and Juniors, and explains why condition and originality can move two examples of the same year far apart.
 

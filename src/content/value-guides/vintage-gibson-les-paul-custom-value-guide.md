@@ -10,10 +10,10 @@ Each production year has a row, and adjacent years can share a range. I use the 
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1954 | Staple neck pickup And P-90 bridge | $23,000 to $50,000 |
-| 1955 | Staple neck pickup And P-90 bridge | $23,000 to $50,000 |
-| 1956 | Staple neck pickup And P-90 bridge | $23,000 to $50,000 |
-| 1957 | Staple neck pickup And P-90 bridge | $23,000 to $50,000 |
+| 1954 | Staple neck pickup and P-90 bridge | $23,000 to $50,000 |
+| 1955 | Staple neck pickup and P-90 bridge | $23,000 to $50,000 |
+| 1956 | Staple neck pickup and P-90 bridge | $23,000 to $50,000 |
+| 1957 | Staple neck pickup and P-90 bridge | $23,000 to $50,000 |
 | 1957 | Original factory humbuckers | $54,000 to $203,000 |
 | 1958 | Original factory humbuckers | $54,000 to $203,000 |
 | 1959 | Original factory humbuckers | $54,000 to $203,000 |
@@ -37,13 +37,7 @@ The $54,000 to $203,000 early humbucker range is a broad family reference. It do
 
 The 1968 to 1969 range covers different construction details. An unusually clean early one-piece-body example needs an individual appraisal before you use the table as a selling target.
 
-<figure>
 
-![Black 1958 Les Paul Custom body with three covered pickups, a Bigsby vibrato and visible finish wear](../../assets/blog/vintage-gibson-les-paul-custom-value-guide/1958-les-paul-custom.jpg)
-
-<figcaption>This 1958 Custom from my archive shows three covered pickups and a Bigsby vibrato, with wear visible on the lower body.</figcaption>
-
-</figure>
 
 ## The Three Custom Markets
 
@@ -59,7 +53,7 @@ The [Les Paul family identification guide](/post/vintage-gibson-les-paul-family-
 
 ### The Return In 1968 And The 1969 Transitions
 
-The single-cutaway Custom returned in 1968 with a maple top over a mahogany back and two humbuckers. That return is the reason I don't treat a 1968 Custom as a continuation of an unchanged 1958 specification. The two guitars have different construction and different collector markets.
+The single-cutaway Custom returned in 1968 with a maple top over a mahogany back and two humbuckers. The 1968 Custom has its own construction details and market, distinct from a 1958 Custom. The two guitars have different construction and different collector markets.
 
 During 1969, several construction details changed, and early and late examples can differ. The table's shared 1968 to 1969 reference is a starting point. An appraisal needs to place a particular guitar within that transition before making a closer comparison.
 
@@ -95,9 +89,9 @@ The [1970 Les Paul Custom guide](/post/1970-gibson-les-paul-custom-guide/) cover
 
 Black, sunburst and white Customs can appeal to different buyers. The table gives a broad standard-production range. I assess the actual finish and condition before assigning a color premium.
 
-Silverburst, maple-fingerboard versions, three-pickup variants and the early 1970s '54 reissue need configuration-specific review. I haven't inserted unsupported additional premiums for them. The '54 reissue, for example, borrows an earlier pickup arrangement; its appearance doesn't make it an original 1950s guitar.
+Silverburst, maple-fingerboard versions, three-pickup variants and the early 1970s '54 reissue need configuration-specific review. Their individual features and condition determine the appraisal. The '54 reissue, for example, borrows an earlier pickup arrangement; its appearance doesn't make it an original 1950s guitar.
 
-A white finish can look cream or yellow after years of aging. Color in a photograph also depends on the light and camera. I don't grade finish originality or assign a color premium from one indoor photograph.
+A white finish can look cream or yellow after years of aging. Color in a photograph also depends on the light and camera. Clear photographs in natural light help me assess the finish and any color premium.
 
 ### Anniversary Markings
 
@@ -121,7 +115,7 @@ A pickup replacement and a pickup repair are separate histories. A rewind, chang
 
 The same care applies to the controls. Pots are the components behind the volume and tone knobs. Replaced pots can leave a guitar fully usable, but they change the originality comparison even when the original pieces are kept in the case.
 
-I don't recommend disturbing solder joints just to obtain an initial estimate. If a repairer has already photographed the interior, include those images. If not, a first appraisal can identify what still needs a qualified inspection.
+Leave solder joints intact when preparing for an initial estimate. If a repairer has already photographed the interior, include those images. If not, a first appraisal can identify what still needs a qualified inspection.
 
 ### Keep Removed Parts Together
 
@@ -135,7 +129,7 @@ Finish wear, a refret and a repaired headstock describe different conditions. A 
 
 I separate those issues before applying the table. The clean-original reference isn't a calculator where every flaw receives the same deduction. The nature of the repair, its stability, the extent of finish work and the remaining original parts all affect the appropriate comparison.
 
-A quality refret preserves the all-original classification of an otherwise original guitar under this site's grading approach. It does remove museum-quality status. Neck reshaping, a replaced fingerboard or substantial work to the binding are different alterations and need to be disclosed separately.
+A quality refret preserves the all-original classification of an otherwise original guitar. It does remove museum-quality status. Neck reshaping, a replaced fingerboard or substantial work to the binding are different alterations and need to be disclosed separately.
 
 ### Low Frets And Playing Preference
 
@@ -147,7 +141,7 @@ I also want to know about buzzing, a nonworking truss rod or an action problem y
 
 A refinished Custom needs comparison with other refinished guitars of the same general era and configuration. A repaired headstock requires a repair description, not just a photograph of the front. If you have an invoice or photographs from before the work, keep them with the instrument.
 
-I don't use a fixed percentage discount for every repaired Custom. A carefully repaired guitar with original pickups and an extensively modified instrument need different appraisals.
+A headstock repair or refinish can substantially reduce collector value. A carefully repaired guitar with original pickups and an extensively modified instrument need different appraisals.
 
 <figure>
 
@@ -181,7 +175,7 @@ The guide ranges describe guitars in stated condition. They aren't an offer from
 
 Before making an offer, I want to understand the guitar's exact configuration, repairs and included accessories. An advertised price alone doesn't settle those questions.
 
-I haven't used artist ownership or celebrity provenance to set these standard production ranges. A documented association can create a separate market. An ordinary Custom shouldn't inherit that result simply because its finish and year look similar.
+Documented artist ownership requires a separate provenance appraisal. A documented association can create a separate market. An ordinary Custom shouldn't inherit that result simply because its finish and year look similar.
 
 ## Get A Value Opinion On Your Custom
 
@@ -190,3 +184,7 @@ For a [free vintage guitar appraisal](/free-appraisal/), send a full front and b
 Natural indirect light helps show the finish without hiding it under glare. Keep the files at their original resolution when possible. There is no need to scrape a surface, loosen the neck or dismantle the electronics to begin.
 
 If you're comparing several inherited guitars, photograph each instrument and its case separately. That keeps one Custom's paperwork or loose parts from being assigned to another. Once the year, configuration and condition are established, the price reference becomes a useful starting point for discussing the guitar you actually own.
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+My [Les Paul market value guide](/vintage-gibson-les-paul-market-value-guide/) compares the wider family, including Goldtops, Standards and the other original Les Paul models.
