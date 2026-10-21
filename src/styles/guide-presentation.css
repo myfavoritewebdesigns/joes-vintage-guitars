@@ -14,6 +14,7 @@
 .gap2-guide-presentation.smf-redesign-page .site-header{min-height:110px!important}
 .gap2-guide-presentation.smf-redesign-page .hero-copy{padding-top:calc(var(--guide-header-clearance) - 110px)!important}
 .gap2-guide-presentation .esf-hero .jvg-guide-actions{justify-content:center}
+.gap2-guide-presentation.esf-guide-page>header{background:linear-gradient(to bottom,#3e2a14 0 110px,transparent 110px)}
 .gap2-guide-presentation .fbv-opening{max-width:1160px;margin:0 auto;padding:28px}
 .gap2-guide-presentation .esf-section--tint{margin-inline:0!important}
 @media(min-width:901px) and (max-width:1279px){

@@ -9,7 +9,8 @@
     "Model and brand hubs retain their article/directory content",
     "Desktop article sidebars start below the hero",
     "Tablet header navigation uses the mobile menu when the desktop navigation is too wide",
-    "Tablet footer grid and ES comparison section stay within the viewport"
+    "Tablet footer grid and ES comparison section stay within the viewport",
+    "Dark navigation strip on the pale ES comparison hero keeps white menu links readable"
   ],
   "validation": {
     "verify": "pnpm 11.7.0 run verify: 0 Astro errors, 0 Astro warnings, 0 copy hard failures; 731 pre-existing copy warnings",
@@ -31,6 +32,17 @@
       "mustFix": 0,
       "baseline": "Previously verified deployed commit, served from its retained dist directory",
       "intentionalDifferences": "Added or relocated hero photos, licensed ImageObject nodes, hero sections and actions. Existing Reverb icon dimensions warnings are unchanged."
+    },
+    "finalContrastReview": {
+      "page": "/post/gibson-es-335-345-355-guide/",
+      "widths": [
+        390,
+        640,
+        1024,
+        1440,
+        1920
+      ],
+      "passed": true
     }
   },
   "pages": [
