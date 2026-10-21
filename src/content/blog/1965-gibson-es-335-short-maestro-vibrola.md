@@ -1,6 +1,5 @@
 ---
 title: "A 1965 Gibson ES-335 With a Factory Short Maestro Vibrola"
-seoTitle: "1965 Gibson ES-335 Factory Short Maestro Vibrola Guide"
 pubDate: "2026-06-24T10:00:00"
 modified: "2026-06-24T10:00:00"
 excerpt: "A 1965 Gibson ES-335 turned up wearing a short Maestro Vibrola, a factory combination I had never seen on a 335. Here is why I read it as original, how the ground wire and a clean top confirm it, and what an unusual factory feature like this means for a vintage Gibson's value."

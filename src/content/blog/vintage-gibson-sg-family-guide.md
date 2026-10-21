@@ -1,6 +1,5 @@
 ---
 title: "Vintage Gibson SG Models: History, Identification and Value Guide"
-seoTitle: "Vintage Gibson SG Family History And Identification"
 pubDate: "2026-09-04T15:00:00-07:00"
 modified: "2026-09-04T15:00:00-07:00"
 excerpt: "Compare vintage Gibson SG Junior, Special, Standard and Custom models with Joe's original photographs, identification clues, production history and value factors."

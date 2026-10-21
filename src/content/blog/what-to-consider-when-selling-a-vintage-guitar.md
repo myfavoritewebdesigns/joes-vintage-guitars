@@ -1,6 +1,5 @@
 ---
 title: "What To Consider When Selling A Vintage Guitar"
-seoTitle: "Selling A Vintage Guitar: Condition, Value And Options"
 pubDate: "2022-10-26T10:00:19"
 modified: "2026-04-01T16:45:36"
 excerpt: "Planning to sell a vintage guitar? Learn key tips for a successful sale and what to consider before selling."

@@ -1,6 +1,5 @@
 ---
 title: "Vintage Gibson LG Series: A Guide to the LG-0, LG-1, LG-2, and LG-3 Models"
-seoTitle: "Gibson LG-0, LG-1, LG-2 And LG-3 Identification Guide"
 pubDate: "2026-02-17T03:29:04"
 modified: "2026-04-01T16:46:52"
 excerpt: "The Gibson LG series packs a lot of guitar into a small body. From the X-braced LG-2 to the mahogany LG-0, these “Little Guitars” offer a focused, punchy tone that has made them a favorite for over 80 years. If you have a wartime “Banner” model or a late-60s workhorse, our guide helps you identify your specific model and explains why these small-body Gibsons are climbing in collector value."

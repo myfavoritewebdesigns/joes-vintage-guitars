@@ -16,7 +16,7 @@ The asking range for an all-original, excellent 1959 sunburst Gibson ES-345 is $
 
 <h2 id="value">Vintage Gibson ES-345 Values By Year</h2>
 
-As of October 2026, the 1959 to 1969 rows show asking ranges for all-original, excellent guitars. The 1970 to 1979 rows show guide ranges with the condition allowances below. Figures are in U.S. dollars and exclude shipping and tax; they aren't guaranteed buying offers.
+As of October 2026, the 1959 to 1969 rows show asking ranges for all-original, excellent guitars. The 1970 to 1979 rows show guide ranges with the condition notes below. Figures are in U.S. dollars and exclude shipping and tax; they aren't guaranteed buying offers.
 
 | Year | Configuration | Range |
 | --- | --- | --- |

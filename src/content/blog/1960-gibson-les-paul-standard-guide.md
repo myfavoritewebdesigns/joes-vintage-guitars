@@ -1,6 +1,6 @@
 ---
 title: "1960 Gibson Les Paul Standard: Value, Neck Changes And Specs"
-seoTitle: "1960 Gibson Les Paul Standard Value And Dating Guide"
+seoTitle: "1960 Les Paul Standard Value And Specs"
 pubDate: "2026-10-14T12:10:00Z"
 modified: "2026-10-14T22:58:27Z"
 excerpt: "1960 Les Paul Burst values, neck and knob changes, 635 shipped, and how serials, construction and paperwork help distinguish an original from an R0."

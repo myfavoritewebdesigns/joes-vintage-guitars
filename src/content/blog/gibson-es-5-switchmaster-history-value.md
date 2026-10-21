@@ -1,6 +1,6 @@
 ---
 title: "The Gibson ES-5 and ES-5 Switchmaster: History, Authentication, and Value"
-seoTitle: "Gibson ES-5 And Switchmaster Values: Prices By Year"
+seoTitle: "Gibson ES-5 Switchmaster Value Guide"
 pubDate: "2026-07-13T12:00:00"
 modified: "2026-10-19T12:00:00-07:00"
 excerpt: "The Gibson ES-5 was the first production Spanish electric with three pickups, a plush cousin of the L-5 that Gibson sold as the instrument of a thousand voices. This guide covers where it came from, how the original three-P-90 ES-5 became the four-way ES-5 Switchmaster, how the Switchmaster moved to three PAF humbuckers, and how we date, authenticate, and value each one. Every photo is a real ES-5 from our shop, including a 1953 original and a 1958 PAF Switchmaster."

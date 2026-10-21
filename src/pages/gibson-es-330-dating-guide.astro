@@ -8,11 +8,12 @@ import ESPhotoViewer from '../components/ESPhotoViewer.astro';
 import ES330Timeline from '../components/ES330Timeline.astro';
 import { imageOrigin, imageLicense } from '../config/image-license';
 import dot from '../assets/es-330/dot-neck-es-330.jpg';
+import dotDetail from '../assets/es-330/dot-inlay.jpg';
 import block from '../assets/es-330/block-neck-es-330.jpg';
 import fon from '../assets/es-330/1959-s-prefix-fon.jpg';
 import modelStamp from '../assets/es-330/es-330td-model-stamp.jpg';
 
-const title = 'Vintage Gibson ES-330 Dating Guide: Features By Year';
+const title = 'Gibson ES-330 Dating Guide: Features by Year';
 const description = 'Date a Gibson ES-330 with photos and a year-by-year guide to dot and block inlays, P-90 covers, neck joints, knobs, hardware, serial numbers and FONs.';
 const canonical = 'https://www.joesvintageguitarsaz.com/gibson-es-330-dating-guide/';
 const hero = await getImage({ src: dot, width: 1500, widths: [720, 1080, 1500, 1800], format: 'webp', quality: 88 });
@@ -96,7 +97,7 @@ const schema = {
         <nav class="es-toc" aria-label="ES-330 guide sections"><a href="#identify">Identify the Model</a><a href="#dating-chart">Dating Chart</a><a href="#timeline">Timeline</a><a href="#long-neck">Long-Neck Change</a><a href="#neck-and-body">Neck and Body</a><a href="#pickups-and-hardware">Pickups and Hardware</a><a href="#serial-and-fon">Serials and FONs</a><a href="#reissues">Reissues</a><a href="#es330-faq">Questions</a></nav>
         <section class="es-section" id="identify"><p class="es-eyebrow">Recognize the Main Styles</p><h2>Dot-Neck and Block-Neck ES-330s</h2>
           <div class="es-families es330-families">
-            <article><ESPhoto src={dot} id="family-dot" title="Dot-Neck ES-330" alt="Sunburst dot-neck Gibson ES-330 representing the early style" showCaption={false} fit="cover" /><div><p class="es-eyebrow">Early Style</p><h3>Dot-Neck ES-330</h3><p>Small round fingerboard inlays, black dogear P-90 covers and the original shorter neck-to-body layout. Later reissues can repeat this appearance.</p><a href="#introduction">See the Early Changes</a></div></article>
+            <article><ESPhoto src={dotDetail} id="family-dot" title="Dot-Neck ES-330" alt="Round dot inlay on a Gibson ES-330 rosewood fingerboard" showCaption={false} fit="cover" /><div><p class="es-eyebrow">Early Style</p><h3>Dot-Neck ES-330</h3><p>Small round fingerboard inlays, black dogear P-90 covers and the original shorter neck-to-body layout. Later reissues can repeat this appearance.</p><a href="#introduction">See the Early Changes</a></div></article>
             <article><ESPhoto src={block} id="family-block" title="Block-Neck ES-330" alt="Sunburst block-neck Gibson ES-330 with metal dogear P-90 covers" showCaption={false} fit="cover" /><div><p class="es-eyebrow">Later Style</p><h3>Block-Neck ES-330</h3><p>Small rectangular inlays, usually paired with metal pickup covers. Transitional examples can retain black covers. Check the neck joint separately from the inlays.</p><a href="#blocks-and-covers">See the Block-Neck Changes</a></div></article>
           </div>
           <div class="es-checks"><article><h3>ES-330T: One Pickup</h3><p>The original single-pickup version has one P-90 near the middle of the body, one volume and one tone. It is not simply a TD with the neck or bridge pickup removed. The original T belongs to the 1959 to 1963 period.</p></article><article><h3>ES-330TD: Two Pickups</h3><p>The double-pickup version has neck and bridge P-90s, two volume controls, two tone controls and a selector. T means thinline; D means double pickup. A final C commonly denotes Cherry, N Natural and W Walnut.</p></article></div>

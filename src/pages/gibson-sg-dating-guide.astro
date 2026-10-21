@@ -27,12 +27,12 @@ import reissue from '../assets/serial-photos/gibson-sg-reissue-impressed-custom-
 import reflector from '../assets/knobs/gibson-reflector-knob-1960s.jpeg';
 import witchHat from '../assets/knobs/gibson-witch-hat-knob-1960s-1970s.jpeg';
 
-const title = 'Gibson SG Dating Guide: Standard, Custom And Special';
+const title = 'Gibson SG Dating Guide: Standard, Custom and More';
 const description = 'Date a Gibson SG Standard, Custom, Special or Junior using model-specific changes to pickguards, pickups, bridges, vibratos, neck joints & serial numbers.';
 const canonical = 'https://www.joesvintageguitarsaz.com/gibson-sg-dating-guide/';
 const hero = await getImage({ src: standard, width: 1500, widths: [720, 1080, 1500, 1800], format: 'webp', quality: 88 });
 const families = [
-  { id: 'sg-standard', name: 'SG Standard', src: standard, alt: 'Cherry Gibson SG Standard representing the two-humbucker Standard family', label: 'Two Full-Size Humbuckers', copy: 'Bound rosewood fingerboard, trapezoid or later block inlays, four knobs and a selector. Read the bridge and vibrato inside the Standard timeline.' },
+  { id: 'sg-standard', name: 'SG Standard', src: largeGuard, alt: 'Cherry Gibson SG Standard with two humbuckers, a large black guard and Lyre vibrato', label: 'Two Full-Size Humbuckers', copy: 'Bound rosewood fingerboard, trapezoid or later block inlays, four knobs and a selector. Read the bridge and vibrato inside the Standard timeline.' },
   { id: 'sg-custom', name: 'SG Custom', src: custom, alt: 'Gibson SG Custom representing the three-pickup Custom family', label: 'Three Pickups and Gold Hardware', copy: 'The traditional Custom combines three humbuckers, an ebony fingerboard, block inlays and a split-diamond headstock. Later special editions can differ.' },
   { id: 'sg-special', name: 'SG Special', src: special, alt: 'Cherry Gibson SG Special representing the two-P-90 Special family', label: 'Two Pickups, Simpler Trim', copy: 'The 1960s Special has two soapbar P-90s, dot inlays and a bound fingerboard. The 1970s mini-humbucker version follows a different set of clues.' },
   { id: 'sg-junior', name: 'SG Junior', src: junior, alt: 'Cherry Gibson SG Junior representing the single-pickup Junior family', label: 'One Pickup and Two Controls', copy: 'A single bridge-position P-90, one volume, one tone and an unbound dot-inlay fingerboard. The guard and pickup mounting change during the 1960s.' },

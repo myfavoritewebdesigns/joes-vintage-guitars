@@ -1,6 +1,6 @@
 ---
 title: "1958 Gibson Les Paul Standard: Value, Goldtop To Burst And Specs"
-seoTitle: "1958 Gibson Les Paul Standard Value And Dating Guide"
+seoTitle: "1958 Les Paul Standard Value And Specs"
 pubDate: "2026-10-14T12:00:00Z"
 modified: "2026-10-14T22:58:27Z"
 excerpt: "1958 Les Paul values, the Goldtop to Burst change, 434 combined shipments, and the neck, fret and PAF features to compare with an R8 reissue."

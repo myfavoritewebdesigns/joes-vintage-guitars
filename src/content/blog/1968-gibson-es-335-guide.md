@@ -1,6 +1,5 @@
 ---
 title: "1968 Gibson ES-335: Buyer’s & Collector’s Guide"
-seoTitle: "1968 Gibson ES-335 Value, Dating And Originality Guide"
 pubDate: "2026-04-13T22:26:56"
 modified: "2026-05-14T16:30:25"
 excerpt: "The 1968 Gibson ES-335 marks the final year of Gibson’s one-piece mahogany neck and long tenon joint, the last of the Kalamazoo-era semi-hollows before the construction changes of 1969. This guide covers finish rarity, hardware authentication, pot code dating, and current market values for collectors and sellers."

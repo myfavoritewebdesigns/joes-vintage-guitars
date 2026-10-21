@@ -1,6 +1,5 @@
 ---
 title: "What Guitar Did Johnny Marr Play? The Smiths ES-355, The 330, And The Rest"
-seoTitle: "Johnny Marr Guitars: Gibson ES-355, Fender And More"
 pubDate: "2026-08-27T19:30:00"
 modified: "2026-09-21T11:45:00-07:00"
 excerpt: "A 1959 cherry Gibson ES-355 is on my bench in Mesa, the same model Seymour Stein bought Johnny Marr. Christie's sells Marr's collection in London on 17 September 2026. Here's which guitar is which, and what a regular one brings without his name on it."

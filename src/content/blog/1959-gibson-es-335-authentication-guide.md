@@ -1,6 +1,5 @@
 ---
 title: "The 1959 Gibson ES-335 Authentication Guide: Identifying the “Holy Grail” Semi-Hollow"
-seoTitle: "1959 Gibson ES-335 Authentication And Originality Guide"
 pubDate: "2026-03-05T18:13:59"
 modified: "2026-09-04T10:30:00"
 excerpt: "A close look at the details that set the 1959 apart. From the rare 1958 ‘thin top’ construction and ‘mummified’ Kluson tuners to the ‘white bobbin’ PAF pickups hidden beneath original nickel covers, we go through an exceptionally preserved 1959 Gibson ES-335 ‘Dot Neck.’ If you are a collector looking to authenticate one or a seller trying to understand what your guitar is worth, this guide walks through the small things that tell you what you have. It also explains why the 1959 ES-335 is so highly regarded for its tone and build."

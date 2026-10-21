@@ -1,6 +1,6 @@
 ---
 title: "Vintage Gibson Super 400 Value Guide: 1934 to 1969"
-seoTitle: "Vintage Gibson Super 400 CES Value And Dating Guide"
+seoTitle: "Vintage Gibson Super 400 CES Value Guide"
 pubDate: "2026-08-26T12:00:00"
 modified: "2026-10-13T10:00:00"
 excerpt: "What a vintage Super 400 is worth, era by era: documented sold CES comps from $5,780 to $18,500, and asking prices above $36,000 on pre-war Premier acoustics. The Super 400 is Gibson's 18 inch carved archtop, named for its $400 list in 1934. The Super 400 CES followed in 1951. Here is how to date one from the cutaway, pickups, label, and our Kalamazoo shipping totals, plus 2026 dealer value as ranges. Shown on a 1938 Super 400, a 1957 CES, a 1964 Florentine CES, a 1969 acoustic, a Custom Shop thinline, and a 1990s black Super 400."

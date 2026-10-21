@@ -1,6 +1,6 @@
 ---
 title: "1959 Gibson Les Paul Standard Burst: Value, Specs And PAFs"
-seoTitle: "1959 Gibson Les Paul Standard Value And Dating Guide"
+seoTitle: "1959 Les Paul Burst Value And Specs"
 pubDate: "2026-10-14T12:05:00Z"
 modified: "2026-10-14T22:58:27Z"
 excerpt: "What a 1959 Les Paul Burst is worth, how many Gibson shipped (643) and how to tell an original from an R9 by serial, PAFs, neck and frets."
