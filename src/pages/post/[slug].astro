@@ -3,6 +3,7 @@ import type { GetStaticPaths } from "astro";
 import { render } from "astro:content";
 import { getImage, Image } from "astro:assets";
 import LicensedImage from "../../components/primitives/LicensedImage.astro";
+import ValueGuidePhotos from "../../components/ValueGuidePhotos.astro";
 import LicensedMarkdownPhotos from "../../components/LicensedMarkdownPhotos.astro";
 import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
@@ -49,6 +50,9 @@ const { Content } = await render(entry);
 const { data } = entry;
 const isBurstYearGuide = /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(entry.id);
 const isNorlinGuide = ["norlin-les-paul-custom-year-guide", "1968-gibson-les-paul-custom-guide", "1969-gibson-les-paul-custom-guide", "1970-gibson-les-paul-custom-guide", "1968-1969-1970-les-paul-custom-dating-guide"].includes(entry.id);
+const isGap2ValueConversion = ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide"].includes(entry.id);
+// Only explicitly reviewed GAP 2 titles opt out of the automatic brand suffix.
+const hasGap2SeoTitle = (data.seoTitle?.length ?? 0) >= 50 && ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide","vintage-fender-jaguar-guide","vintage-fender-jazz-bass-guide","1952-fender-precision-bass-guide","gibson-les-paul-junior-guide","gibson-byrdland-authentication-guide","gibson-es-125-guide","identify-vintage-gibson-j45-j50-sj","gibson-j200-model-history-authentication-guide","1955-1958-tv-yellow-les-paul-special-guide","1959-gibson-es-355-history-value"].includes(entry.id);
 const displayedRelated = isBurstYearGuide
   ? related.filter((post) => /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(post.id))
   : related;
@@ -478,7 +482,7 @@ const articleSchema = {
 
 <Layout
   bodyClass={isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
-  title={isNorlinGuide ? (data.seoTitle || data.title) : `${data.seoTitle || data.title} | Joe's Vintage Guitars`}
+  title={(isNorlinGuide || hasGap2SeoTitle) ? (data.seoTitle || data.title) : `${data.seoTitle || data.title} | Joe's Vintage Guitars`}
   noIndex={data.draft}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
@@ -644,7 +648,7 @@ const articleSchema = {
         <ul>{data.toc.map(t => <li><a href={t.href}>{t.label}</a></li>)}</ul>
       </nav>}
       <div class="blog-prose">
-        {(isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
+        {isGap2ValueConversion ? <ValueGuidePhotos allImages><Content /></ValueGuidePhotos> : (isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
         {data.faqs.length > 0 && !data.faqsInline && <section class="post-faq" aria-labelledby="faq">
           <h2 id="faq">Frequently Asked Questions</h2>
           {data.faqs.map(item => <div class="post-faq-answer">
