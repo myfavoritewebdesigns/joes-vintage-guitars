@@ -22,6 +22,9 @@ toc:
   - { href: "#logos", label: "Logos, Tuners & Knobs" }
   - { href: "#serial", label: "Serial Numbers & Dating" }
 ---
+
+For current ranges and condition assumptions, see my [Jazzmaster value guide by year](/vintage-fender-jazzmaster-value-guide/).
+
 Evolution & Reference Guide · Fender Offset · 1958 to 1971
 
 Every specification change documented year by year: gold guard to tort, slab to veneer, clay to pearl to blocks, spaghetti to transition logo, Klusons to F-tuners, and the custom color and pickguard reference
