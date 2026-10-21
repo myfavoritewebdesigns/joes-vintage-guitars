@@ -20,24 +20,26 @@ If you're comparing more than one Fender, my [vintage Fender value guide](/vinta
 
 As of October 2026, the first three bands below retain this page's published asking and guide references. They aren't a newly verified set of completed sales. The last band uses three independent completed transactions from 2026. All amounts are in U.S. dollars; a shop's purchase offer and a private seller's net proceeds are different figures.
 
-| Year | Standard Finish Reference | Competition Reference | Basis |
-| --- | --- | --- | --- |
-| 1964 | $2,200 to $4,000 | Outside Competition Run | Existing Asking And Guide Range |
-| 1965 | $2,200 to $4,000 | Outside Competition Run | Existing Asking And Guide Range |
-| 1966 | $1,600 to $2,200 | Outside Competition Run | Existing Asking And Guide Range |
-| 1967 | $1,600 to $2,200 | Outside Competition Run | Existing Asking And Guide Range |
-| 1968 | $1,600 to $2,200 | Outside Competition Run | Existing Asking And Guide Range |
-| 1969 | $1,600 to $2,200 | $4,000 to $6,000 | Existing Asking And Guide Range |
-| 1970 | $1,600 to $2,200 | $4,000 to $6,000 | Existing Asking And Guide Range |
-| 1971 | $1,600 to $2,200 | $4,000 to $6,000 | Existing Asking And Guide Range |
-| 1972 | $1,400 to $2,300 | $4,000 to $6,000 | Sunburst Completed-Sale Era Range |
-| 1973 | $1,400 to $2,300 | $4,000 to $6,000 | Sunburst Completed-Sale Era Range |
-| 1974 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
-| 1975 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
-| 1976 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
-| 1977 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
-| 1978 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
-| 1979 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
+| Year | Standard Finish Reference | Competition Reference |
+| --- | --- | --- |
+| 1964 | $2,200 to $4,000 | Outside Competition Run |
+| 1965 | $2,200 to $4,000 | Outside Competition Run |
+| 1966 | $1,600 to $2,200 | Outside Competition Run |
+| 1967 | $1,600 to $2,200 | Outside Competition Run |
+| 1968 | $1,600 to $2,200 | Outside Competition Run |
+| 1969 | $1,600 to $2,200 | $4,000 to $6,000 |
+| 1970 | $1,600 to $2,200 | $4,000 to $6,000 |
+| 1971 | $1,600 to $2,200 | $4,000 to $6,000 |
+| 1972 | $1,400 to $2,300 | $4,000 to $6,000 |
+| 1973 | $1,400 to $2,300 | $4,000 to $6,000 |
+| 1974 | $1,400 to $2,300 | Outside Competition Run |
+| 1975 | $1,400 to $2,300 | Outside Competition Run |
+| 1976 | $1,400 to $2,300 | Outside Competition Run |
+| 1977 | $1,400 to $2,300 | Outside Competition Run |
+| 1978 | $1,400 to $2,300 | Outside Competition Run |
+| 1979 | $1,400 to $2,300 | Outside Competition Run |
+
+**Pricing note:** Reviewed as of October 2026. Standard-finish 1964 to 1971 and all Competition ranges retain existing asking and guide references. The 1972 to 1979 sunburst range uses completed sales. Repeated years share era ranges, with condition assumptions explained below.
 
 The repeated figures are shared era ranges, not separate same-year sale samples. The 1964 to 1971 standard-color references and Competition references assume all-original, excellent guitars. The 1972 to 1979 sunburst comparison covers original finish, pickups and hardware in Very Good to Excellent condition with the original hard case; a cracked original pickguard can put a guitar at the low end. It doesn't price Antigua, rare finishes or mint examples. Earlier published player-grade references remain $1,500 to $2,800 for 1964 to 1965, $1,200 to $2,200 for later standard colors, and $2,500 to $4,500 for Competition models.
 

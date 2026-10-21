@@ -8,22 +8,24 @@ These U.S. dollar references were reviewed **as of October 2026**. They draw on 
 
 The table assumes original finish and parts, excellent condition, an original case and no structural repairs. A quality refret is accepted maintenance on an otherwise original guitar, but it removes museum-quality status. Refinished, repaired or substantially modified instruments need a different comparison.
 
-| Year | Configuration | Reference Range | Basis |
-|---|---|---|---|
-| 1959 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 | 1959 to 1962 published era reference |
-| 1960 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 | 1959 to 1962 published era reference |
-| 1961 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 | 1959 to 1962 published era reference |
-| 1962 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 | 1959 to 1962 published era reference |
-| 1963 | Two pickups, blocks, sunburst or cherry | $6,750 to $10,000 | 1963 to 1965 published era reference |
-| 1964 | Two pickups, blocks, sunburst or cherry | $6,750 to $10,000 | 1963 to 1965 published era reference |
-| 1965 | Two pickups, blocks, sunburst or cherry | $6,750 to $10,000 | 1963 to 1965 published era reference |
-| 1966 | Two pickups, standard era finishes | $5,250 to $6,500 | 1966 to 1972 published era reference |
-| 1967 | Two pickups, standard era finishes | $5,250 to $6,500 | 1966 to 1972 published era reference |
-| 1968 | Two pickups, standard era finishes | $5,250 to $6,500 | 1966 to 1972 published era reference |
-| 1969 | Two pickups, standard era finishes | $5,250 to $6,500 | 1966 to 1972 published era reference |
-| 1970 | Two pickups, standard era finishes | $5,250 to $6,500 | 1966 to 1972 published era reference |
-| 1971 | Two pickups, standard era finishes | $5,250 to $6,500 | 1966 to 1972 published era reference |
-| 1972 | Two pickups, standard era finishes | $5,250 to $6,500 | 1966 to 1972 published era reference |
+| Year | Configuration | Reference Range |
+| --- | --- | --- |
+| 1959 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 |
+| 1960 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 |
+| 1961 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 |
+| 1962 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 |
+| 1963 | Two pickups, blocks, sunburst or cherry | $6,750 to $10,000 |
+| 1964 | Two pickups, blocks, sunburst or cherry | $6,750 to $10,000 |
+| 1965 | Two pickups, blocks, sunburst or cherry | $6,750 to $10,000 |
+| 1966 | Two pickups, standard era finishes | $5,250 to $6,500 |
+| 1967 | Two pickups, standard era finishes | $5,250 to $6,500 |
+| 1968 | Two pickups, standard era finishes | $5,250 to $6,500 |
+| 1969 | Two pickups, standard era finishes | $5,250 to $6,500 |
+| 1970 | Two pickups, standard era finishes | $5,250 to $6,500 |
+| 1971 | Two pickups, standard era finishes | $5,250 to $6,500 |
+| 1972 | Two pickups, standard era finishes | $5,250 to $6,500 |
+
+**Pricing note:** Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume original finish and parts, excellent condition and the original case. Repeated years share an era reference; repairs and modifications need a separate comparison.
 
 Several years share an era reference. The 1963 to 1965 band combines the published endpoints for that period, rather than inventing a price increase or decrease for each year. Repeated figures don't represent independent same-year transaction samples.
 

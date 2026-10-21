@@ -6,17 +6,19 @@ I use this hub to connect the model guides and explain which table fits which gu
 
 The rows below are selected examples, not complete model-wide ranges. Open the appropriate guide for annual coverage and the source notes behind each band. Several annual rows can share an era reference without implying separate sales for every year.
 
-| Model | Example Era Or Configuration | Reference Range | Basis |
-|---|---|---|---|
-| J-45 | 1957: Large-guard sunburst era | $7,500 to $10,000 | Selected example; see the J-45 guide |
-| J-45 | 1975: Square-shoulder J-45 and Deluxe | $2,250 to $3,000 | Selected example; see the J-45 guide |
-| J-200 | 1957: Standard natural or sunburst | $16,500 to $21,500 | Selected example; see the J-200 guide |
-| J-200 | 1975: J-200 and Artist period | $4,750 to $6,250 | Selected example; see the J-200 guide |
-| LG-0 | 1958: LG-0, broad original-run reference | $850 to $1,875 | Selected example; see the LG-0 guide |
-| LG-1 | 1943: LG-1, broad original-run reference | $2,000 to $4,500 | Selected example; see the LG-1 guide |
-| LG-2 | 1957: LG-2, later original production | $3,500 to $6,500 | Selected example; see the LG-2 guide |
-| LG-3 | 1942: LG-3, broad original-run reference | $3,750 to $8,500 | Selected example; see the LG-3 guide |
-| Hummingbird | 1960 to 1962 | $8,000 to $12,000 | Existing published site reference |
+| Model | Example Era Or Configuration | Reference Range |
+| --- | --- | --- |
+| J-45 | 1957: Large-guard sunburst era | $7,500 to $10,000 |
+| J-45 | 1975: Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+| J-200 | 1957: Standard natural or sunburst | $16,500 to $21,500 |
+| J-200 | 1975: J-200 and Artist period | $4,750 to $6,250 |
+| LG-0 | 1958: LG-0, broad original-run reference | $850 to $1,875 |
+| LG-1 | 1943: LG-1, broad original-run reference | $2,000 to $4,500 |
+| LG-2 | 1957: LG-2, later original production | $3,500 to $6,500 |
+| LG-3 | 1942: LG-3, broad original-run reference | $3,750 to $8,500 |
+| Hummingbird | 1960 to 1962 | $8,000 to $12,000 |
+
+**Pricing note:** Reviewed as of October 2026. These are selected model examples, not full model ranges. J-45, J-200 and LG figures use published references checked against completed sales; Hummingbird retains this site's existing reference. See each model guide for condition assumptions.
 
 The J-45, J-200 and LG references use the 2025 published guide with completed comparisons. The Hummingbird example preserves an existing site anchor. Those sources have different dates and condition assumptions, which remain visible on the model pages.
 

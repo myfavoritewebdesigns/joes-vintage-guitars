@@ -18,30 +18,32 @@ The existing asking reference for an all-original, excellent 1959 sunburst Gibso
 
 As of October 2026, the 1959 to 1969 rows retain this page's published dealer asking and guide anchors for all-original, excellent guitars. They aren't verified completed-sale bands. The 1970 to 1979 rows use a separate set of three completed sales with their condition differences stated below. Figures are in U.S. dollars and exclude shipping and tax.
 
-| Year | Configuration | Range | Price Basis |
-| --- | --- | --- | --- |
-| 1959 | Sunburst, PAF | $22,000 to $45,000+ | Existing Asking Reference |
-| 1959 | Natural Finish | $45,000 to $75,000+ | Existing Asking Reference |
-| 1960 | PAF, Stop Bar, Wide Nut | $18,000 to $32,000 | Existing Asking Reference |
-| 1961 | PAF, Stop Bar, Wide Nut | $18,000 to $32,000 | Existing Asking Reference |
-| 1962 | Stop Bar, Wide Nut | $12,000 to $22,000 | Existing Asking Reference |
-| 1963 | Stop Bar, Wide Nut | $12,000 to $22,000 | Existing Asking Reference |
-| 1964 | Stop Bar, Wide Nut | $12,000 to $22,000 | Existing Asking Reference |
-| 1965 | Transition Specifications | $8,000 to $22,000 | Existing Asking Reference |
-| 1966 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 | Existing Asking Reference |
-| 1967 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 | Existing Asking Reference |
-| 1968 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 | Existing Asking Reference |
-| 1969 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 | Existing Asking Reference |
-| 1970 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
-| 1971 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
-| 1972 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
-| 1973 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
-| 1974 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
-| 1975 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
-| 1976 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
-| 1977 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
-| 1978 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
-| 1979 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 | Completed-Sale Era Comparison |
+| Year | Configuration | Range |
+| --- | --- | --- |
+| 1959 | Sunburst, PAF | $22,000 to $45,000+ |
+| 1959 | Natural Finish | $45,000 to $75,000+ |
+| 1960 | PAF, Stop Bar, Wide Nut | $18,000 to $32,000 |
+| 1961 | PAF, Stop Bar, Wide Nut | $18,000 to $32,000 |
+| 1962 | Stop Bar, Wide Nut | $12,000 to $22,000 |
+| 1963 | Stop Bar, Wide Nut | $12,000 to $22,000 |
+| 1964 | Stop Bar, Wide Nut | $12,000 to $22,000 |
+| 1965 | Transition Specifications | $8,000 to $22,000 |
+| 1966 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 |
+| 1967 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 |
+| 1968 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 |
+| 1969 | Later 1960s Trapeze Or Factory Vibrato | $7,000 to $12,000 |
+| 1970 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
+| 1971 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
+| 1972 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
+| 1973 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
+| 1974 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
+| 1975 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
+| 1976 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
+| 1977 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
+| 1978 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
+| 1979 | Stereo Varitone, Cherry Or Wine Red | $4,300 to $5,700 |
+
+**Pricing note:** Reviewed as of October 2026. The 1959 to 1969 ranges retain existing dealer asking and guide references for all-original, excellent guitars. The 1970s range uses completed sales in Very Good to Excellent condition, with parts and case allowances below. Repeated years share an era range.
 
 Each repeated figure is a shared era range, not three separate same-year sales. A calendar year alone doesn't tell me whether an early guitar has its original PAF pickups, factory tailpiece or wide nut. The 1965 asking range is deliberately broad because those combinations cross the transition year.
 

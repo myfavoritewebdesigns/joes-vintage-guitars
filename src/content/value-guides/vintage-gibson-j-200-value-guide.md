@@ -12,41 +12,43 @@ The assumption is all-original, excellent condition, with the original case and 
 
 **Prewar coverage:** The 1937 custom prototypes and the 1938 to 1943 catalog period aren't assigned a price band here. I found a published reference, but not enough independent ordinary-market completed transactions to clear the research standard. A modern reissue, an advertised price or a celebrity-associated sale can't fill that gap.
 
-| Year | Configuration | Reference Range | Basis |
-|---|---|---|---|
-| 1947 | Early postwar maple | $20,000 to $25,000 | 1947 to 1949 shared era envelope |
-| 1948 | Early postwar maple | $20,000 to $25,000 | 1947 to 1949 shared era envelope |
-| 1949 | Early postwar maple | $20,000 to $25,000 | 1947 to 1949 shared era envelope |
-| 1950 | Standard natural or sunburst | $16,500 to $21,500 | 1950 to 1959 shared era envelope |
-| 1951 | Standard natural or sunburst | $16,500 to $21,500 | 1950 to 1959 shared era envelope |
-| 1952 | Standard natural or sunburst | $16,500 to $21,500 | 1950 to 1959 shared era envelope |
-| 1953 | Standard natural or sunburst | $16,500 to $21,500 | 1950 to 1959 shared era envelope |
-| 1954 | Standard natural or sunburst | $16,500 to $21,500 | 1950 to 1959 shared era envelope |
-| 1955 | Standard natural or sunburst | $16,500 to $21,500 | 1950 to 1959 shared era envelope |
-| 1956 | Standard natural or sunburst | $16,500 to $21,500 | 1950 to 1959 shared era envelope |
-| 1957 | Standard natural or sunburst | $16,500 to $21,500 | 1950 to 1959 shared era envelope |
-| 1958 | Standard natural or sunburst | $16,500 to $21,500 | 1950 to 1959 shared era envelope |
-| 1959 | Standard natural or sunburst | $16,500 to $21,500 | 1950 to 1959 shared era envelope |
-| 1960 | Early 1960s standard | $13,500 to $17,500 | 1960 to 1964 shared era envelope |
-| 1961 | Early 1960s standard | $13,500 to $17,500 | 1960 to 1964 shared era envelope |
-| 1962 | Early 1960s standard | $13,500 to $17,500 | 1960 to 1964 shared era envelope |
-| 1963 | Early 1960s standard | $13,500 to $17,500 | 1960 to 1964 shared era envelope |
-| 1964 | Early 1960s standard | $13,500 to $17,500 | 1960 to 1964 shared era envelope |
-| 1965 | Later 1960s, combined references | $6,500 to $11,500 | 1965 to 1969 shared era envelope |
-| 1966 | Later 1960s, combined references | $6,500 to $11,500 | 1965 to 1969 shared era envelope |
-| 1967 | Later 1960s, combined references | $6,500 to $11,500 | 1965 to 1969 shared era envelope |
-| 1968 | Later 1960s, combined references | $6,500 to $11,500 | 1965 to 1969 shared era envelope |
-| 1969 | Later 1960s, combined references | $6,500 to $11,500 | 1965 to 1969 shared era envelope |
-| 1970 | J-200 and Artist period | $4,750 to $6,250 | 1970 to 1979 shared era envelope |
-| 1971 | J-200 and Artist period | $4,750 to $6,250 | 1970 to 1979 shared era envelope |
-| 1972 | J-200 and Artist period | $4,750 to $6,250 | 1970 to 1979 shared era envelope |
-| 1973 | J-200 and Artist period | $4,750 to $6,250 | 1970 to 1979 shared era envelope |
-| 1974 | J-200 and Artist period | $4,750 to $6,250 | 1970 to 1979 shared era envelope |
-| 1975 | J-200 and Artist period | $4,750 to $6,250 | 1970 to 1979 shared era envelope |
-| 1976 | J-200 and Artist period | $4,750 to $6,250 | 1970 to 1979 shared era envelope |
-| 1977 | J-200 and Artist period | $4,750 to $6,250 | 1970 to 1979 shared era envelope |
-| 1978 | J-200 and Artist period | $4,750 to $6,250 | 1970 to 1979 shared era envelope |
-| 1979 | J-200 and Artist period | $4,750 to $6,250 | 1970 to 1979 shared era envelope |
+| Year | Configuration | Reference Range |
+| --- | --- | --- |
+| 1947 | Early postwar maple | $20,000 to $25,000 |
+| 1948 | Early postwar maple | $20,000 to $25,000 |
+| 1949 | Early postwar maple | $20,000 to $25,000 |
+| 1950 | Standard natural or sunburst | $16,500 to $21,500 |
+| 1951 | Standard natural or sunburst | $16,500 to $21,500 |
+| 1952 | Standard natural or sunburst | $16,500 to $21,500 |
+| 1953 | Standard natural or sunburst | $16,500 to $21,500 |
+| 1954 | Standard natural or sunburst | $16,500 to $21,500 |
+| 1955 | Standard natural or sunburst | $16,500 to $21,500 |
+| 1956 | Standard natural or sunburst | $16,500 to $21,500 |
+| 1957 | Standard natural or sunburst | $16,500 to $21,500 |
+| 1958 | Standard natural or sunburst | $16,500 to $21,500 |
+| 1959 | Standard natural or sunburst | $16,500 to $21,500 |
+| 1960 | Early 1960s standard | $13,500 to $17,500 |
+| 1961 | Early 1960s standard | $13,500 to $17,500 |
+| 1962 | Early 1960s standard | $13,500 to $17,500 |
+| 1963 | Early 1960s standard | $13,500 to $17,500 |
+| 1964 | Early 1960s standard | $13,500 to $17,500 |
+| 1965 | Later 1960s, combined references | $6,500 to $11,500 |
+| 1966 | Later 1960s, combined references | $6,500 to $11,500 |
+| 1967 | Later 1960s, combined references | $6,500 to $11,500 |
+| 1968 | Later 1960s, combined references | $6,500 to $11,500 |
+| 1969 | Later 1960s, combined references | $6,500 to $11,500 |
+| 1970 | J-200 and Artist period | $4,750 to $6,250 |
+| 1971 | J-200 and Artist period | $4,750 to $6,250 |
+| 1972 | J-200 and Artist period | $4,750 to $6,250 |
+| 1973 | J-200 and Artist period | $4,750 to $6,250 |
+| 1974 | J-200 and Artist period | $4,750 to $6,250 |
+| 1975 | J-200 and Artist period | $4,750 to $6,250 |
+| 1976 | J-200 and Artist period | $4,750 to $6,250 |
+| 1977 | J-200 and Artist period | $4,750 to $6,250 |
+| 1978 | J-200 and Artist period | $4,750 to $6,250 |
+| 1979 | J-200 and Artist period | $4,750 to $6,250 |
+
+**Pricing note:** Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume an all-original, excellent-condition guitar with its original case and no structural repairs. Repeated years share an era reference, not separate annual sales samples.
 
 These are 2025 published references reviewed as of October 2026. The completed comparisons serve as dated context, not as proof that today's market has reached every endpoint. Early postwar comparisons include 2022 and 2024 auction results; the 1950s checks include 2021 and 2023 marketplace sales.
 

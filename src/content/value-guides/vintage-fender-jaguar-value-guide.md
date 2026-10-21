@@ -8,22 +8,24 @@ If you're comparing a Jaguar with another model, use my [Fender guitar and bass 
 
 As of October 2026, the table uses three independent completed Reverb transactions for each era comparison. The 1965 row preserves this site's existing $4,000 to $6,000 conditional reference; three verified sales fall inside it. Amounts are in U.S. dollars, excluding separately charged shipping and taxes. Each row names the year, but repeated ranges share an era sample rather than a separate set of same-year sales.
 
-| Year | Sunburst Comparison | Basis And Condition |
+| Year | Sunburst Comparison | Condition |
 | --- | --- | --- |
-| 1962 | $6,300 to $10,000 | First-year sample, Very Good to Excellent; case and originality documentation vary |
-| 1963 | $5,900 to $6,800 | 1963 to 1964 era, Very Good; see parts and case allowances |
-| 1964 | $5,900 to $6,800 | 1963 to 1964 era, Very Good; see parts and case allowances |
-| 1965 | $4,000 to $6,000 | Existing conditional reference, checked against completed sunburst sales |
-| 1966 | $4,000 to $4,500 | 1966 to 1969 era, Very Good originals with original cases |
-| 1967 | $4,000 to $4,500 | 1966 to 1969 era, Very Good originals with original cases |
-| 1968 | $4,000 to $4,500 | 1966 to 1969 era, Very Good originals with original cases |
-| 1969 | $4,000 to $4,500 | 1966 to 1969 era, Very Good originals with original cases |
-| 1970 | $3,700 to $4,500 | 1970 to 1975 era, Excellent; see case and service allowances |
-| 1971 | $3,700 to $4,500 | 1970 to 1975 era, Excellent; see case and service allowances |
-| 1972 | $3,700 to $4,500 | 1970 to 1975 era, Excellent; see case and service allowances |
-| 1973 | $3,700 to $4,500 | 1970 to 1975 era, Excellent; see case and service allowances |
-| 1974 | $3,700 to $4,500 | 1970 to 1975 era, Excellent; see case and service allowances |
-| 1975 | $3,700 to $4,500 | 1970 to 1975 era, Excellent; see case and service allowances |
+| 1962 | $6,300 to $10,000 | Very Good to Excellent; case and originality documentation vary |
+| 1963 | $5,900 to $6,800 | Very Good; see parts and case allowances |
+| 1964 | $5,900 to $6,800 | Very Good; see parts and case allowances |
+| 1965 | $4,000 to $6,000 | Varying condition; see fretwork and case allowances |
+| 1966 | $4,000 to $4,500 | Very Good originals with original cases |
+| 1967 | $4,000 to $4,500 | Very Good originals with original cases |
+| 1968 | $4,000 to $4,500 | Very Good originals with original cases |
+| 1969 | $4,000 to $4,500 | Very Good originals with original cases |
+| 1970 | $3,700 to $4,500 | Excellent; see case and service allowances |
+| 1971 | $3,700 to $4,500 | Excellent; see case and service allowances |
+| 1972 | $3,700 to $4,500 | Excellent; see case and service allowances |
+| 1973 | $3,700 to $4,500 | Excellent; see case and service allowances |
+| 1974 | $3,700 to $4,500 | Excellent; see case and service allowances |
+| 1975 | $3,700 to $4,500 | Excellent; see case and service allowances |
+
+**Pricing note:** Reviewed as of October 2026. Ranges use completed sunburst sales, with the existing 1965 reference retained. Repeated years share an era sample; condition and case allowances are explained below.
 
 The first-year range mixes examples with different levels of documentation and includes a replacement case and replacement mute foam. It isn't a separate slab-board premium or a promise of museum condition. The 1963 to 1964 comparison allows missing accessories, a replacement case and fretwork; the three documented instruments are from 1963.
 

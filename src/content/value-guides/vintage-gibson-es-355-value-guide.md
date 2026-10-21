@@ -8,32 +8,34 @@ These ranges are reviewed **as of October 2026**. They assume an all-original gu
 
 The two 1959 ranges preserve this site's existing price references. Other rows use the 2025 edition of *The Official Vintage Guitar Magazine Price Guide*, checked against completed Reverb or Heritage results. Several completed comparisons are older or have modifications, so these are published clean-condition references, not a claim that untouched guitars sold within every band during 2026.
 
-| Year | Configuration | Reference Range | Basis |
-|---|---|---|---|
-| 1958 | Mono, cherry, factory Bigsby | $36,000 to $45,000 | 1958 to 1958 published era reference |
-| 1959 | Mono, cherry, factory Bigsby | $30,000 to $45,000 | Existing site anchor |
-| 1959 | Stereo Varitone, cherry, factory Bigsby | $22,000 to $38,000 | Existing site anchor |
-| 1959 | Factory mono stop-tail, existing reference | $45,000 to $60,000 | Existing site anchor |
-| 1960 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 | 1960 to 1962 published era reference |
-| 1961 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 | 1960 to 1962 published era reference |
-| 1962 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 | 1960 to 1962 published era reference |
-| 1963 | Stereo Varitone, Patent Number pickups | $15,000 to $18,500 | 1963 to 1964 published era reference |
-| 1964 | Stereo Varitone, Patent Number pickups | $15,000 to $18,500 | 1963 to 1964 published era reference |
-| 1965 | Stereo, wide or narrow neck; combined span | $7,500 to $15,000 | 1965 to 1965 published era reference |
-| 1966 | Stereo, standard finishes; combined span | $6,000 to $8,500 | 1966 to 1969 published era reference |
-| 1967 | Stereo, standard finishes; combined span | $6,000 to $8,500 | 1966 to 1969 published era reference |
-| 1968 | Stereo, standard finishes; combined span | $6,000 to $8,500 | 1966 to 1969 published era reference |
-| 1969 | Stereo, standard finishes; combined span | $6,000 to $8,500 | 1966 to 1969 published era reference |
-| 1970 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 | 1970 to 1979 published era reference |
-| 1971 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 | 1970 to 1979 published era reference |
-| 1972 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 | 1970 to 1979 published era reference |
-| 1973 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 | 1970 to 1979 published era reference |
-| 1974 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 | 1970 to 1979 published era reference |
-| 1975 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 | 1970 to 1979 published era reference |
-| 1976 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 | 1970 to 1979 published era reference |
-| 1977 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 | 1970 to 1979 published era reference |
-| 1978 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 | 1970 to 1979 published era reference |
-| 1979 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 | 1970 to 1979 published era reference |
+| Year | Configuration | Reference Range |
+| --- | --- | --- |
+| 1958 | Mono, cherry, factory Bigsby | $36,000 to $45,000 |
+| 1959 | Mono, cherry, factory Bigsby | $30,000 to $45,000 |
+| 1959 | Stereo Varitone, cherry, factory Bigsby | $22,000 to $38,000 |
+| 1959 | Factory mono stop-tail, existing reference | $45,000 to $60,000 |
+| 1960 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 |
+| 1961 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 |
+| 1962 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 |
+| 1963 | Stereo Varitone, Patent Number pickups | $15,000 to $18,500 |
+| 1964 | Stereo Varitone, Patent Number pickups | $15,000 to $18,500 |
+| 1965 | Stereo, wide or narrow neck; combined span | $7,500 to $15,000 |
+| 1966 | Stereo, standard finishes; combined span | $6,000 to $8,500 |
+| 1967 | Stereo, standard finishes; combined span | $6,000 to $8,500 |
+| 1968 | Stereo, standard finishes; combined span | $6,000 to $8,500 |
+| 1969 | Stereo, standard finishes; combined span | $6,000 to $8,500 |
+| 1970 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
+| 1971 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
+| 1972 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
+| 1973 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
+| 1974 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
+| 1975 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
+| 1976 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
+| 1977 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
+| 1978 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
+| 1979 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
+
+**Pricing note:** Reviewed as of October 2026. The 1959 rows retain this site's existing references; other rows use the 2025 published guide checked against completed sales. Ranges assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference.
 
 The table covers every year from the model's 1958 introduction through 1979. Repeated ranges are shared era references, not separate estimates created from one sale per year. The 1965 row spans the published narrow-neck and wide-neck references; the 1966 to 1969 row combines the endpoints for standard finishes across those years.
 

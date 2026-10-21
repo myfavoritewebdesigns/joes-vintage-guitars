@@ -8,95 +8,97 @@ The annual rows below cover each model's original production span in the publish
 
 Each range assumes an all-original guitar in excellent condition, structurally sound and accompanied by its original case. A quality refret is accepted maintenance under my grading approach, although it removes museum-quality status. Refinished, repaired or substantially altered instruments need a separate comparison.
 
-| Year | Configuration | Reference Range | Basis |
-|---|---|---|---|
-| 1958 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1959 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1960 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1961 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1962 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1963 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1964 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1965 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1966 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1967 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1968 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1969 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1970 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1971 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1972 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1973 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1974 | LG-0, broad original-run reference | $850 to $1,875 | 1958 to 1974 shared model envelope |
-| 1943 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1944 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1945 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1946 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1947 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1948 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1949 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1950 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1951 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1952 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1953 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1954 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1955 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1956 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1957 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1958 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1959 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1960 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1961 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1962 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1963 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1964 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1965 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1966 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1967 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1968 | LG-1, broad original-run reference | $2,000 to $4,500 | 1943 to 1968 shared model envelope |
-| 1942 | LG-2, spruce-top Banner | $6,500 to $8,500 | 1942 to 1945 shared era reference |
-| 1943 | LG-2, spruce-top Banner | $6,500 to $8,500 | 1942 to 1945 shared era reference |
-| 1944 | LG-2, spruce-top Banner | $6,500 to $8,500 | 1942 to 1945 shared era reference |
-| 1945 | LG-2, spruce-top Banner | $6,500 to $8,500 | 1942 to 1945 shared era reference |
-| 1946 | LG-2, early postwar | $5,500 to $7,500 | 1946 to 1949 shared era reference |
-| 1947 | LG-2, early postwar | $5,500 to $7,500 | 1946 to 1949 shared era reference |
-| 1948 | LG-2, early postwar | $5,500 to $7,500 | 1946 to 1949 shared era reference |
-| 1949 | LG-2, early postwar | $5,500 to $7,500 | 1946 to 1949 shared era reference |
-| 1950 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1951 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1952 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1953 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1954 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1955 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1956 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1957 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1958 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1959 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1960 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1961 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1962 | LG-2, later original production | $3,500 to $6,500 | 1950 to 1962 shared era reference |
-| 1942 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1943 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1944 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1945 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1946 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1947 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1948 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1949 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1950 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1951 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1952 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1953 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1954 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1955 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1956 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1957 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1958 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1959 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1960 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1961 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1962 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1963 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
-| 1964 | LG-3, broad original-run reference | $3,750 to $8,500 | 1942 to 1964 shared model envelope |
+| Year | Configuration | Reference Range |
+| --- | --- | --- |
+| 1958 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1959 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1960 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1961 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1962 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1963 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1964 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1965 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1966 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1967 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1968 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1969 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1970 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1971 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1972 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1973 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1974 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1943 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1944 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1945 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1946 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1947 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1948 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1949 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1950 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1951 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1952 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1953 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1954 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1955 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1956 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1957 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1958 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1959 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1960 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1961 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1962 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1963 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1964 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1965 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1966 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1967 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1968 | LG-1, broad original-run reference | $2,000 to $4,500 |
+| 1942 | LG-2, spruce-top Banner | $6,500 to $8,500 |
+| 1943 | LG-2, spruce-top Banner | $6,500 to $8,500 |
+| 1944 | LG-2, spruce-top Banner | $6,500 to $8,500 |
+| 1945 | LG-2, spruce-top Banner | $6,500 to $8,500 |
+| 1946 | LG-2, early postwar | $5,500 to $7,500 |
+| 1947 | LG-2, early postwar | $5,500 to $7,500 |
+| 1948 | LG-2, early postwar | $5,500 to $7,500 |
+| 1949 | LG-2, early postwar | $5,500 to $7,500 |
+| 1950 | LG-2, later original production | $3,500 to $6,500 |
+| 1951 | LG-2, later original production | $3,500 to $6,500 |
+| 1952 | LG-2, later original production | $3,500 to $6,500 |
+| 1953 | LG-2, later original production | $3,500 to $6,500 |
+| 1954 | LG-2, later original production | $3,500 to $6,500 |
+| 1955 | LG-2, later original production | $3,500 to $6,500 |
+| 1956 | LG-2, later original production | $3,500 to $6,500 |
+| 1957 | LG-2, later original production | $3,500 to $6,500 |
+| 1958 | LG-2, later original production | $3,500 to $6,500 |
+| 1959 | LG-2, later original production | $3,500 to $6,500 |
+| 1960 | LG-2, later original production | $3,500 to $6,500 |
+| 1961 | LG-2, later original production | $3,500 to $6,500 |
+| 1962 | LG-2, later original production | $3,500 to $6,500 |
+| 1942 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1943 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1944 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1945 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1946 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1947 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1948 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1949 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1950 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1951 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1952 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1953 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1954 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1955 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1956 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1957 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1958 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1959 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1960 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1961 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1962 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1963 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1964 | LG-3, broad original-run reference | $3,750 to $8,500 |
+
+**Pricing note:** Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume an all-original, excellent-condition guitar with its original case. Several years share a broad model or era reference; they aren't separate annual sales samples.
 
 The LG-0 reference combines $850 to $1,875 across its original run. The broad LG-1 envelope is $2,000 to $4,500, and the LG-3 envelope is $3,750 to $8,500. Those wide ranges span changes in age and configuration; they aren't interchangeable quotes for every example.
 

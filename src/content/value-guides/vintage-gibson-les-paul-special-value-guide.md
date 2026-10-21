@@ -6,22 +6,24 @@ I buy vintage Specials and first establish which body style, finish and producti
 
 The table gives U.S. dollar references reviewed **as of October 2026**. They assume an excellent, all-original instrument with its original case and no structural repairs. A quality refret is accepted maintenance on an otherwise original guitar, but it removes museum-quality status.
 
-Years that share a range use a shared era reference. They aren't separate claims about an identical set of same-year sales. The early TV Yellow and 1959 cherry figures preserve the existing site anchors; the later rows identify their published or researched basis.
+Years that share a range use a shared era reference. They aren't separate claims about an identical set of same-year sales. The early TV Yellow and 1959 cherry figures preserve the existing site anchors; the pricing note explains the references used for later rows.
 
-| Year | Configuration | Reference Range | Basis |
-|---|---|---|---|
-| 1955 | TV Yellow, single-cutaway | $13,000 to $21,000 | Existing TV Yellow era reference |
-| 1956 | TV Yellow, single-cutaway | $13,000 to $21,000 | Existing TV Yellow era reference |
-| 1957 | TV Yellow, single-cutaway | $13,000 to $21,000 | Existing TV Yellow era reference |
-| 1958 | TV Yellow, single-cutaway | $13,000 to $21,000 | Existing TV Yellow era reference |
-| 1959 | TV Yellow, rounded double-cutaway | $13,000 to $21,000 | Existing TV Yellow era reference |
-| 1959 | Cherry, rounded double-cutaway | $8,000 to $15,000 | Existing 1959 cherry reference |
-| 1960 | Cherry, rounded slab body | $10,000 to $12,500 | 2025 reference; older auction cross-checks |
-| 1974 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 | Published reference and completed sales |
-| 1976 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 | Published reference and completed sales |
-| 1977 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 | Published reference and completed sales |
-| 1978 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 | Published reference and completed sales |
-| 1979 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 | Published reference and completed sales |
+| Year | Configuration | Reference Range |
+| --- | --- | --- |
+| 1955 | TV Yellow, single-cutaway | $13,000 to $21,000 |
+| 1956 | TV Yellow, single-cutaway | $13,000 to $21,000 |
+| 1957 | TV Yellow, single-cutaway | $13,000 to $21,000 |
+| 1958 | TV Yellow, single-cutaway | $13,000 to $21,000 |
+| 1959 | TV Yellow, rounded double-cutaway | $13,000 to $21,000 |
+| 1959 | Cherry, rounded double-cutaway | $8,000 to $15,000 |
+| 1960 | Cherry, rounded slab body | $10,000 to $12,500 |
+| 1974 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
+| 1976 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
+| 1977 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
+| 1978 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
+| 1979 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
+
+**Pricing note:** Reviewed as of October 2026. TV Yellow and 1959 cherry ranges retain this site's existing references. The 1960 row uses the 2025 guide with older auction checks; 1970s rows combine the published guide and completed sales. Ranges assume an all-original, excellent-condition guitar with its original case.
 
 The 1960 cherry row uses the 2025 Official Vintage Guitar Magazine Price Guide, where the rounded slab-body guitar appears under SG Special. Its two auction comparisons are older and in lower condition. That row is a published clean-condition reference reviewed now, not a claim that a current clean 1960 sales sample has been established.
 
@@ -167,7 +169,7 @@ The archive photograph below shows the brown alligator-pattern covering on a per
 
 A completed price belongs to one instrument in one described condition. Before applying it to another Special, I check the year, body shape, finish, repair history and parts. A recent transaction can be a poor comparison if the model or condition is wrong.
 
-The annual table identifies which rows preserve existing site references and which use a published guide plus completed comparisons. Older auction results are disclosed as older evidence. I haven't treated them as transactions from this month.
+The pricing note below the annual table identifies which ranges preserve existing site references and which use a published guide plus completed comparisons. Older auction results are disclosed as older evidence. I haven't treated them as transactions from this month.
 
 Current dealer listings can show what sellers hope to receive, but they aren't realized prices. A sold listing's old asking amount also isn't automatically the accepted amount. For Reverb comparisons, I use the transaction-history final price before reviewing the corresponding description.
 

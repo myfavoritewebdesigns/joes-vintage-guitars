@@ -8,35 +8,37 @@ The following ranges are reviewed **as of October 2026**. They cover the full-si
 
 These are 2025 published references checked against completed results, not an average of dealer asking prices. The table uses shared era bands so every production year has a place without suggesting that each year has its own large transaction sample. The 1960 to 1970 band combines the published endpoints across that period.
 
-| Year | Configuration | Reference Range | Basis |
-|---|---|---|---|
-| 1941 | Early full-depth single-pickup sunburst | $2,625 to $3,500 | 1941 to 1942 shared era reference |
-| 1942 | Early full-depth single-pickup sunburst | $2,625 to $3,500 | 1941 to 1942 shared era reference |
-| 1946 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 | 1946 to 1949 shared era reference |
-| 1947 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 | 1946 to 1949 shared era reference |
-| 1948 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 | 1946 to 1949 shared era reference |
-| 1949 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 | 1946 to 1949 shared era reference |
-| 1950 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
-| 1951 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
-| 1952 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
-| 1953 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
-| 1954 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
-| 1955 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
-| 1956 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
-| 1957 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
-| 1958 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
-| 1959 | Full-depth single-pickup sunburst | $2,500 to $3,250 | 1950 to 1959 shared era reference |
-| 1960 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
-| 1961 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
-| 1962 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
-| 1963 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
-| 1964 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
-| 1965 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
-| 1966 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
-| 1967 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
-| 1968 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
-| 1969 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
-| 1970 | Full-depth single-pickup sunburst | $1,500 to $2,250 | 1960 to 1970 shared era reference |
+| Year | Configuration | Reference Range |
+| --- | --- | --- |
+| 1941 | Early full-depth single-pickup sunburst | $2,625 to $3,500 |
+| 1942 | Early full-depth single-pickup sunburst | $2,625 to $3,500 |
+| 1946 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 |
+| 1947 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 |
+| 1948 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 |
+| 1949 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 |
+| 1950 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
+| 1951 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
+| 1952 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
+| 1953 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
+| 1954 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
+| 1955 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
+| 1956 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
+| 1957 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
+| 1958 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
+| 1959 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
+| 1960 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+| 1961 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+| 1962 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+| 1963 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+| 1964 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+| 1965 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+| 1966 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+| 1967 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+| 1968 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+| 1969 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+| 1970 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+
+**Pricing note:** Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference, not separate annual sales samples.
 
 The dates follow this site's original-production chronology: 1941 and 1942, then 1946 through 1970. There are no invented wartime production rows or rows after the original run. The early postwar range is a shared configuration reference, not a separately established premium for a 1946 example.
 

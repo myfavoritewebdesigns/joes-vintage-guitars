@@ -8,20 +8,22 @@ These references were reviewed as of October 2026. The single-cutaway ranges pre
 
 The table assumes an all-original guitar in excellent condition with its original case. A quality refret preserves the all-original classification of an otherwise all-original guitar, although it takes it out of the museum-quality category. Missing cases, replacement parts, refinishing and structural repairs require a separate appraisal.
 
-| Year | Configuration | Reference Range | Basis |
-|---|---|---|---|
-| 1954 | Single-cutaway sunburst | $6,000 to $13,000 | 1954 to 1958 shared site reference |
-| 1955 | Single-cutaway sunburst | $6,000 to $13,000 | 1954 to 1958 shared site reference |
-| 1955 | Single-cutaway TV Model | $10,000 to $20,000 | 1955 to 1958 shared site reference |
-| 1956 | Single-cutaway sunburst | $6,000 to $13,000 | 1954 to 1958 shared site reference |
-| 1956 | Single-cutaway TV Model | $10,000 to $20,000 | 1955 to 1958 shared site reference |
-| 1957 | Single-cutaway sunburst | $6,000 to $13,000 | 1954 to 1958 shared site reference |
-| 1957 | Single-cutaway TV Model | $10,000 to $20,000 | 1955 to 1958 shared site reference |
-| 1958 | Single-cutaway sunburst | $6,000 to $13,000 | 1954 to 1958 shared site reference |
-| 1958 | Single-cutaway TV Model | $10,000 to $20,000 | 1955 to 1958 shared site reference |
-| 1958 | Rounded double-cutaway cherry | $10,500 to $13,500 | 1958 to 1960 shared published clean-condition reference |
-| 1959 | Rounded double-cutaway cherry | $10,500 to $13,500 | 1958 to 1960 shared published clean-condition reference |
-| 1960 | Rounded double-cutaway cherry | $10,500 to $13,500 | 1958 to 1960 shared published clean-condition reference |
+| Year | Configuration | Reference Range |
+| --- | --- | --- |
+| 1954 | Single-cutaway sunburst | $6,000 to $13,000 |
+| 1955 | Single-cutaway sunburst | $6,000 to $13,000 |
+| 1955 | Single-cutaway TV Model | $10,000 to $20,000 |
+| 1956 | Single-cutaway sunburst | $6,000 to $13,000 |
+| 1956 | Single-cutaway TV Model | $10,000 to $20,000 |
+| 1957 | Single-cutaway sunburst | $6,000 to $13,000 |
+| 1957 | Single-cutaway TV Model | $10,000 to $20,000 |
+| 1958 | Single-cutaway sunburst | $6,000 to $13,000 |
+| 1958 | Single-cutaway TV Model | $10,000 to $20,000 |
+| 1958 | Rounded double-cutaway cherry | $10,500 to $13,500 |
+| 1959 | Rounded double-cutaway cherry | $10,500 to $13,500 |
+| 1960 | Rounded double-cutaway cherry | $10,500 to $13,500 |
+
+**Pricing note:** Reviewed as of October 2026. Single-cutaway ranges retain this site's existing references; cherry double-cutaway ranges use the 2025 published guide checked against completed sales. Ranges assume an all-original, excellent-condition guitar with its original case. Repeated years share a configuration reference.
 
 Each repeated range is a shared configuration reference. It doesn't mean I found a different completed sale sample for every year or that every guitar from an era deserves the same price. The two 1958 body styles appear separately because the shape changes the comparison.
 
@@ -171,7 +173,7 @@ A completed sale records an outcome; an asking price records a seller's request.
 
 Condition labels also need the underlying description. “Excellent” can still accompany a disclosed replacement part, while “Very Good” can describe an original guitar with playing wear. I read the repair, finish and case information before deciding how a result applies.
 
-The double-cutaway reference here combines a named 2025 printed guide with two independently checked completed transactions from 2026. The transactions support the market comparison but don't match every condition assumption of the book. That limitation is why the table identifies the band as a published clean-condition reference.
+The double-cutaway reference here combines a named 2025 printed guide with two independently checked completed transactions from 2026. The transactions support the market comparison but don't match every condition assumption of the book. That limitation is why the pricing note identifies the band as a published clean-condition reference.
 
 The existing single-cutaway sunburst and TV figures have a different basis: they're retained site anchors. I haven't relabeled them as a new sample of completed sales. The [Les Paul family market guide](/vintage-gibson-les-paul-market-value-guide/) supplies their original context.
 

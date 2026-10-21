@@ -8,28 +8,30 @@ These are U.S. dollar references reviewed **as of October 2026**. Unless stated 
 
 Each production year has its own row. Repeated amounts mean the years share a published era reference, not that a separate group of same-year sales established an identical price. The 1950s and 1968 to 1969 amounts preserve this site's existing figures. The 1970s amounts come from the 2025 Official Vintage Guitar Magazine Price Guide, checked against completed transactions observed in 2026.
 
-| Year | Configuration | Reference Range | Basis |
-|---|---|---|---|
-| 1954 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 | Early single-coil reference |
-| 1955 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 | Early single-coil reference |
-| 1956 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 | Early single-coil reference |
-| 1957 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 | Early single-coil reference |
-| 1957 | Original factory humbuckers | $60,000 to $225,000 | Broad 1950s humbucker reference |
-| 1958 | Original factory humbuckers | $60,000 to $225,000 | Broad 1950s humbucker reference |
-| 1959 | Original factory humbuckers | $60,000 to $225,000 | Broad 1950s humbucker reference |
-| 1960 | Original factory humbuckers | $60,000 to $225,000 | Broad 1950s humbucker reference |
-| 1968 | Two humbuckers, standard carved body | $12,000 to $18,000 | 1968 to 1969 shared site reference |
-| 1969 | Two humbuckers, standard carved body | $12,000 to $18,000 | 1968 to 1969 shared site reference |
-| 1970 | Standard two-pickup Custom | $7,000 to $9,500 | 1970 to 1974 published era reference |
-| 1971 | Standard two-pickup Custom | $7,000 to $9,500 | 1970 to 1974 published era reference |
-| 1972 | Standard two-pickup Custom | $7,000 to $9,500 | 1970 to 1974 published era reference |
-| 1973 | Standard two-pickup Custom | $7,000 to $9,500 | 1970 to 1974 published era reference |
-| 1974 | Standard two-pickup Custom | $7,000 to $9,500 | 1970 to 1974 published era reference |
-| 1975 | Standard two-pickup Custom | $5,000 to $6,500 | 1975 to 1979 shared published reference |
-| 1976 | Standard two-pickup Custom | $5,000 to $6,500 | 1975 to 1979 shared published reference |
-| 1977 | Standard two-pickup Custom | $5,000 to $6,500 | 1975 to 1979 shared published reference |
-| 1978 | Standard two-pickup Custom | $5,000 to $6,500 | 1975 to 1979 shared published reference |
-| 1979 | Standard two-pickup Custom | $5,000 to $6,500 | 1975 to 1979 shared published reference |
+| Year | Configuration | Reference Range |
+| --- | --- | --- |
+| 1954 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 |
+| 1955 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 |
+| 1956 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 |
+| 1957 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 |
+| 1957 | Original factory humbuckers | $60,000 to $225,000 |
+| 1958 | Original factory humbuckers | $60,000 to $225,000 |
+| 1959 | Original factory humbuckers | $60,000 to $225,000 |
+| 1960 | Original factory humbuckers | $60,000 to $225,000 |
+| 1968 | Two humbuckers, standard carved body | $12,000 to $18,000 |
+| 1969 | Two humbuckers, standard carved body | $12,000 to $18,000 |
+| 1970 | Standard two-pickup Custom | $7,000 to $9,500 |
+| 1971 | Standard two-pickup Custom | $7,000 to $9,500 |
+| 1972 | Standard two-pickup Custom | $7,000 to $9,500 |
+| 1973 | Standard two-pickup Custom | $7,000 to $9,500 |
+| 1974 | Standard two-pickup Custom | $7,000 to $9,500 |
+| 1975 | Standard two-pickup Custom | $5,000 to $6,500 |
+| 1976 | Standard two-pickup Custom | $5,000 to $6,500 |
+| 1977 | Standard two-pickup Custom | $5,000 to $6,500 |
+| 1978 | Standard two-pickup Custom | $5,000 to $6,500 |
+| 1979 | Standard two-pickup Custom | $5,000 to $6,500 |
+
+**Pricing note:** Reviewed as of October 2026. The 1950s and 1968 to 1969 ranges retain this site's existing references; 1970s ranges use the 2025 guide checked against completed sales. Ranges assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference.
 
 The later comparison sample includes guitars with missing or replaced small parts and differences in case condition. Those sales help test the published reference but don't become clean-original examples merely because a seller selected “Excellent.” I haven't raised an altered guitar into a collector category to make its sale fit a table.
 
@@ -93,7 +95,7 @@ The [1970 Les Paul Custom guide](/post/1970-gibson-les-paul-custom-guide/) cover
 
 ## Finish And Configuration Change The Comparison
 
-Black, sunburst and white Customs shouldn't automatically be treated as one identical transaction sample. The table gives a standard production reference with its basis stated. It doesn't include a separate premium for every color.
+Black, sunburst and white Customs shouldn't automatically be treated as one identical transaction sample. The table gives a standard production reference, with its source explained in the pricing note. It doesn't include a separate premium for every color.
 
 Silverburst, maple-fingerboard versions, three-pickup variants and the early 1970s '54 reissue need configuration-specific review. I haven't inserted unsupported additional premiums for them. The '54 reissue, for example, borrows an earlier pickup arrangement; its appearance doesn't make it an original 1950s guitar.
 

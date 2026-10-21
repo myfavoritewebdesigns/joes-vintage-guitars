@@ -8,46 +8,48 @@ Every year from 1942 through 1979 appears below. Several years share an era enve
 
 The figures assume an all-original guitar in excellent condition with its original case and no structural repairs. A quality refret is accepted maintenance under my grading approach, although it removes museum-quality status. Changed parts, damaged wood and uncertain work histories require different comparisons.
 
-| Year | Configuration | Reference Range | Basis |
-|---|---|---|---|
-| 1942 | Banner, combined wood references | $11,000 to $18,500 | 1942 to 1945 shared era envelope |
-| 1943 | Banner, combined wood references | $11,000 to $18,500 | 1942 to 1945 shared era envelope |
-| 1944 | Banner, combined wood references | $11,000 to $18,500 | 1942 to 1945 shared era envelope |
-| 1945 | Banner, combined wood references | $11,000 to $18,500 | 1942 to 1945 shared era envelope |
-| 1946 | Early postwar and small-guard era | $8,500 to $14,500 | 1946 to 1954 shared era envelope |
-| 1947 | Early postwar and small-guard era | $8,500 to $14,500 | 1946 to 1954 shared era envelope |
-| 1948 | Early postwar and small-guard era | $8,500 to $14,500 | 1946 to 1954 shared era envelope |
-| 1949 | Early postwar and small-guard era | $8,500 to $14,500 | 1946 to 1954 shared era envelope |
-| 1950 | Early postwar and small-guard era | $8,500 to $14,500 | 1946 to 1954 shared era envelope |
-| 1951 | Early postwar and small-guard era | $8,500 to $14,500 | 1946 to 1954 shared era envelope |
-| 1952 | Early postwar and small-guard era | $8,500 to $14,500 | 1946 to 1954 shared era envelope |
-| 1953 | Early postwar and small-guard era | $8,500 to $14,500 | 1946 to 1954 shared era envelope |
-| 1954 | Early postwar and small-guard era | $8,500 to $14,500 | 1946 to 1954 shared era envelope |
-| 1955 | Large-guard sunburst era | $7,500 to $10,000 | 1955 to 1959 shared era envelope |
-| 1956 | Large-guard sunburst era | $7,500 to $10,000 | 1955 to 1959 shared era envelope |
-| 1957 | Large-guard sunburst era | $7,500 to $10,000 | 1955 to 1959 shared era envelope |
-| 1958 | Large-guard sunburst era | $7,500 to $10,000 | 1955 to 1959 shared era envelope |
-| 1959 | Large-guard sunburst era | $7,500 to $10,000 | 1955 to 1959 shared era envelope |
-| 1960 | Standard sunburst, including body transition | $3,250 to $7,500 | 1960 to 1969 shared era envelope |
-| 1961 | Standard sunburst, including body transition | $3,250 to $7,500 | 1960 to 1969 shared era envelope |
-| 1962 | Standard sunburst, including body transition | $3,250 to $7,500 | 1960 to 1969 shared era envelope |
-| 1963 | Standard sunburst, including body transition | $3,250 to $7,500 | 1960 to 1969 shared era envelope |
-| 1964 | Standard sunburst, including body transition | $3,250 to $7,500 | 1960 to 1969 shared era envelope |
-| 1965 | Standard sunburst, including body transition | $3,250 to $7,500 | 1960 to 1969 shared era envelope |
-| 1966 | Standard sunburst, including body transition | $3,250 to $7,500 | 1960 to 1969 shared era envelope |
-| 1967 | Standard sunburst, including body transition | $3,250 to $7,500 | 1960 to 1969 shared era envelope |
-| 1968 | Standard sunburst, including body transition | $3,250 to $7,500 | 1960 to 1969 shared era envelope |
-| 1969 | Standard sunburst, including body transition | $3,250 to $7,500 | 1960 to 1969 shared era envelope |
-| 1970 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 | 1970 to 1979 shared era envelope |
-| 1971 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 | 1970 to 1979 shared era envelope |
-| 1972 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 | 1970 to 1979 shared era envelope |
-| 1973 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 | 1970 to 1979 shared era envelope |
-| 1974 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 | 1970 to 1979 shared era envelope |
-| 1975 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 | 1970 to 1979 shared era envelope |
-| 1976 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 | 1970 to 1979 shared era envelope |
-| 1977 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 | 1970 to 1979 shared era envelope |
-| 1978 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 | 1970 to 1979 shared era envelope |
-| 1979 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 | 1970 to 1979 shared era envelope |
+| Year | Configuration | Reference Range |
+| --- | --- | --- |
+| 1942 | Banner, combined wood references | $11,000 to $18,500 |
+| 1943 | Banner, combined wood references | $11,000 to $18,500 |
+| 1944 | Banner, combined wood references | $11,000 to $18,500 |
+| 1945 | Banner, combined wood references | $11,000 to $18,500 |
+| 1946 | Early postwar and small-guard era | $8,500 to $14,500 |
+| 1947 | Early postwar and small-guard era | $8,500 to $14,500 |
+| 1948 | Early postwar and small-guard era | $8,500 to $14,500 |
+| 1949 | Early postwar and small-guard era | $8,500 to $14,500 |
+| 1950 | Early postwar and small-guard era | $8,500 to $14,500 |
+| 1951 | Early postwar and small-guard era | $8,500 to $14,500 |
+| 1952 | Early postwar and small-guard era | $8,500 to $14,500 |
+| 1953 | Early postwar and small-guard era | $8,500 to $14,500 |
+| 1954 | Early postwar and small-guard era | $8,500 to $14,500 |
+| 1955 | Large-guard sunburst era | $7,500 to $10,000 |
+| 1956 | Large-guard sunburst era | $7,500 to $10,000 |
+| 1957 | Large-guard sunburst era | $7,500 to $10,000 |
+| 1958 | Large-guard sunburst era | $7,500 to $10,000 |
+| 1959 | Large-guard sunburst era | $7,500 to $10,000 |
+| 1960 | Standard sunburst, including body transition | $3,250 to $7,500 |
+| 1961 | Standard sunburst, including body transition | $3,250 to $7,500 |
+| 1962 | Standard sunburst, including body transition | $3,250 to $7,500 |
+| 1963 | Standard sunburst, including body transition | $3,250 to $7,500 |
+| 1964 | Standard sunburst, including body transition | $3,250 to $7,500 |
+| 1965 | Standard sunburst, including body transition | $3,250 to $7,500 |
+| 1966 | Standard sunburst, including body transition | $3,250 to $7,500 |
+| 1967 | Standard sunburst, including body transition | $3,250 to $7,500 |
+| 1968 | Standard sunburst, including body transition | $3,250 to $7,500 |
+| 1969 | Standard sunburst, including body transition | $3,250 to $7,500 |
+| 1970 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+| 1971 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+| 1972 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+| 1973 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+| 1974 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+| 1975 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+| 1976 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+| 1977 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+| 1978 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+| 1979 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+
+**Pricing note:** Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference; repairs and modifications need a separate comparison.
 
 The Banner envelope combines several published top-wood categories. The 1960s envelope includes the standard sunburst model's body transition, while excluding rare factory colors and special provenance. Those broad categories need further identification before I can place an individual instrument within a range.
 
