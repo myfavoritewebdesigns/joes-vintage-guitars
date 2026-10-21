@@ -1,18 +1,69 @@
 ---
 title: "The Fender Mustang: History, Authentication, and Value"
+seoTitle: "Fender Mustang Value Guide: History And Authentication"
 pubDate: "2026-07-10T12:00:00"
-modified: "2026-08-13T00:00:00"
+modified: "2026-10-19T12:00:00-07:00"
 excerpt: "The Fender Mustang went from a 1964 student guitar to a collector and indie-rock icon, and the gap between an all-original example and a modified project comes down to details most sellers miss. This guide covers the whole short-scale family, the year-by-year changes from 1964 to 1982, the Competition finishes, how we authenticate the pickups, switching, Dynamic Vibrato, and serial numbers, and what a vintage Mustang is really worth today. Every photo is a real guitar from our shop."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg"
 heroImageAlt: "Front of a 1971 Fender Competition Mustang in Competition Blue with seafoam racing stripes, a pearloid pickguard, and the Dynamic Vibrato, in its original orange-lined case. We buy vintage Fender Mustangs nationwide at Joe's Vintage Guitars."
-metaDescription: "The complete vintage Fender Mustang guide: year-by-year specs, the Competition finishes, how to spot a refinish or wrong parts, serial number dating, and what a Mustang is worth today."
+metaDescription: "Vintage Fender Mustang values from 1964 to 1979, with annual price ranges, Competition finishes, original parts, dating details and photos from my shop."
 ogImage: "/images/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg"
 ---
+A 1964 Fender Mustang in all-original, excellent condition has an existing guide range of $2,200 to $4,000; Competition Mustangs sit at $4,000 to $6,000. For standard sunburst guitars from the 1970s, the completed-sale comparison below is $1,400 to $2,300. I separate those sales from the older asking-price references so you can compare the right kind of number.
+
+If you're comparing more than one Fender, my [vintage Fender value guide](/vintage-fender-value-guide/) brings the model price tables together.
+
+<h2 id="fmg-value">Vintage Fender Mustang Values By Year</h2>
+
+As of October 2026, the first three bands below retain this page's published asking and guide references. They aren't a newly verified set of completed sales. The last band uses three independent completed transactions from 2026. All amounts are in U.S. dollars; a shop's purchase offer and a private seller's net proceeds are different figures.
+
+| Year | Standard Finish Reference | Competition Reference | Basis |
+| --- | --- | --- | --- |
+| 1964 | $2,200 to $4,000 | Outside Competition Run | Existing Asking And Guide Range |
+| 1965 | $2,200 to $4,000 | Outside Competition Run | Existing Asking And Guide Range |
+| 1966 | $1,600 to $2,200 | Outside Competition Run | Existing Asking And Guide Range |
+| 1967 | $1,600 to $2,200 | Outside Competition Run | Existing Asking And Guide Range |
+| 1968 | $1,600 to $2,200 | Outside Competition Run | Existing Asking And Guide Range |
+| 1969 | $1,600 to $2,200 | $4,000 to $6,000 | Existing Asking And Guide Range |
+| 1970 | $1,600 to $2,200 | $4,000 to $6,000 | Existing Asking And Guide Range |
+| 1971 | $1,600 to $2,200 | $4,000 to $6,000 | Existing Asking And Guide Range |
+| 1972 | $1,400 to $2,300 | $4,000 to $6,000 | Sunburst Completed-Sale Era Range |
+| 1973 | $1,400 to $2,300 | $4,000 to $6,000 | Sunburst Completed-Sale Era Range |
+| 1974 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
+| 1975 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
+| 1976 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
+| 1977 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
+| 1978 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
+| 1979 | $1,400 to $2,300 | Outside Competition Run | Sunburst Completed-Sale Era Range |
+
+The repeated figures are shared era ranges, not separate same-year sale samples. The 1964 to 1971 standard-color references and Competition references assume all-original, excellent guitars. The 1972 to 1979 sunburst comparison covers original finish, pickups and hardware in Very Good to Excellent condition with the original hard case; a cracked original pickguard can put a guitar at the low end. It doesn't price Antigua, rare finishes or mint examples. Earlier published player-grade references remain $1,500 to $2,800 for 1964 to 1965, $1,200 to $2,200 for later standard colors, and $2,500 to $4,500 for Competition models.
+
+A few things sit outside the table. Competition Orange is the rarest of the three Competition colors and can run above the range, a 1969 with an original matching painted headstock commands a premium over a later natural-headstock car, and Competition Blue carries extra weight from the Cobain association. A original 22.5 inch short-scale example is less common than the 24 inch and can draw its own interest. On the other end, a refinished guitar, a swapped-in modern bridge, a missing vibrato arm, or an added humbucker each pull the number down, and on a Competition guitar a refinish erases most of the premium.
+
+![Back of a 1972 Fender Competition Mustang in Competition Red showing heavy finish wear and honest player condition.](../../assets/blog/fender-mustang-history-value/fender-competition-mustang-red-back-player-wear.jpg)
+
+Honest wear like this is not the enemy of value the way a refinish is. Buckle rash, finish checking, and playwear are the marks of a guitar that got used, and on an original-finish Competition Mustang that story is part of the appeal. What moves the price down hard is a repaint, replaced parts, and structural repairs, not the honest scars of sixty years of playing.
+
+For context on how to use published values without leaning on them too hard, our [Blue Book and price-guide overview](/post/blue-book-of-guitar-values-and-vintage-guitar-price-guide/) explains the difference between asking prices and real sales. And for the wider offset and student-Fender world, our [Fender Jaguar guide](/post/vintage-fender-jaguar-guide/) and [Jazzmaster evolution guide](/post/fender-jazzmaster-evolution-guide-1958-1971/) trace the models the Mustang shares its DNA with.
+
+<h3>Original Cases And Case Candy</h3>
+
+The original case and its contents add real, measurable value to a vintage Mustang, and they are the first thing to check before you even open the lid. Fender shipped these in a black tolex hardshell case with a plush orange interior through the vintage era, and the "case candy" that lived in the pocket adds up: the threaded vibrato arm, the chrome bridge cover, the owner's manual, the warranty card and hangtags, and any dealer paperwork.
+
+![Interior of a vintage Fender hardshell guitar case with orange plush lining and a Milano Music Center, Mesa, Arizona dealer sticker.](../../assets/blog/fender-mustang-history-value/fender-mustang-case-milano-music-center-mesa-arizona.jpg)
+
+The orange-lined case for our Competition Blue Mustang, with a period dealer sticker from Milano Music Center in Mesa, Arizona, a nice local touch for a Mesa shop like ours. A dealer sticker is part of a guitar's history: it helps document where the instrument started life and adds character to the package.
+
+![Original Fender Competition Mustang owner's manual booklet lying on the orange plush lining of a vintage case.](../../assets/blog/fender-mustang-history-value/fender-competition-mustang-owners-manual.jpg)
+
+The original "Fender Competition Mustang" owner's manual. Case candy like this, the manual, the warranty card, the vibrato arm, and the bridge cover, is easy to lose over sixty years, so a full and correct set adds a premium to an already original guitar. If you inherited a Mustang and there is a booklet, a warranty card, or an old receipt in the case pocket, keep it: it is part of the value.
+
 <nav class="fmg-nav-sidebar" id="fmgNavSidebar" aria-label="Article section navigation">
-  <div class="fmg-nav-header"><strong>Mustang Guide</strong></div>
+  <a href="#fmg-value" class="fmg-nav-link"><span class="fmg-nav-dot"></span>Values By Year</a>
+<div class="fmg-nav-header"><strong>Mustang Guide</strong></div>
   <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="fmg-nav-link top">&uarr; Top of Page</a>
   <div class="fmg-nav-label">The Guitar</div>
   <a href="#fmg-what" class="fmg-nav-link"><span class="fmg-nav-dot"></span>The Short Version</a>
@@ -30,7 +81,7 @@ ogImage: "/images/blog/fender-mustang-history-value/1971-fender-mustang-competit
   <a href="#fmg-checklist" class="fmg-nav-link"><span class="fmg-nav-dot"></span>The Checklist</a>
   <div class="fmg-nav-label">Value</div>
   <a href="#fmg-reissue" class="fmg-nav-link"><span class="fmg-nav-dot"></span>Vintage or Reissue</a>
-  <a href="#fmg-value" class="fmg-nav-link"><span class="fmg-nav-dot"></span>What It Is Worth</a>
+
   <a href="#fmg-selling" class="fmg-nav-link"><span class="fmg-nav-dot"></span>Thinking of Selling</a>
   <a href="#fmg-faq" class="fmg-nav-link"><span class="fmg-nav-dot"></span>FAQ</a>
 </nav>
@@ -65,7 +116,7 @@ ogImage: "/images/blog/fender-mustang-history-value/1971-fender-mustang-competit
 
 <h2 id="fmg-what">The Short Version</h2>
 
-The Fender Mustang arrived in 1964 as the top of Fender's student line, and for years that was all anyone thought it was: a cheap, short-scale guitar for kids and beginners. That reputation is exactly why it is now one of the most interesting vintage Fenders to buy and sell. A student guitar in 1964 is a genuine pre-CBS or early CBS Fender in 2026, built in the same Fullerton factory as the Stratocaster, with a switching system nothing else in the catalog had and a floating vibrato that was designed for this model and no other. Then punk and indie rock got hold of it, Kurt Cobain made a Competition Mustang the most famous guitar of the 1990s, and the prices followed.
+The Fender Mustang arrived in 1964 as the top of Fender's student line, and for years that was all anyone thought it was: a cheap, short-scale guitar for kids and beginners. That reputation is exactly why it is now one of the most interesting vintage Fenders to buy and sell. A student guitar in 1964 is a original pre-CBS or early CBS Fender in 2026, built in the same Fullerton factory as the Stratocaster, with a switching system nothing else in the catalog had and a floating vibrato that was designed for this model and no other. Then punk and indie rock got hold of it, Kurt Cobain made a Competition Mustang the most famous guitar of the 1990s, and the prices followed.
 
 At Joe's Vintage Guitars we buy and sell vintage Mustangs, and we are always looking to add clean 1960s and early 1970s examples to the collection. If you have one you are thinking about selling, we give straight [nationwide appraisals](/free-appraisal/) and pay top dollar for original guitars. This guide is the same walk-through we do on the bench: what the short-scale family is, how the Mustang changed from year to year, what the Competition finishes are, how we tell an original from a modified one, how to read the serial number, and what a real Mustang is worth in today's market. Every photo below is a guitar that came through our shop in Mesa.
 
@@ -82,11 +133,11 @@ The Mustang did not arrive alone, and understanding where it sat in Fender's lin
 
 When the Mustang launched in 1964, Fender redesigned the Duo-Sonic and Musicmaster at the same time, into the Duo-Sonic II and Musicmaster II, so all three share the same compact offset body and the same two scale lengths from that year forward. The quickest way to tell a Mustang from its cheaper siblings is the bridge: only the Mustang wears the chrome Dynamic Vibrato with its "Fender Dynamic Vibrato" engraving. If the guitar has two pickups and a hardtail bridge with no vibrato, it is a Duo-Sonic, not a Mustang, and it is worth less.
 
-<h2 id="fmg-built">How the Mustang Was Built</h2>
+<h2 id="fmg-built">How The Mustang Was Built</h2>
 
 The Mustang is a solid-body electric with a compact offset waist, a bolt-on maple neck, and a rosewood fingerboard. The body is a solid slab (poplar on most examples, with other hardwoods turning up across the long production run), routed for two pickups and finished in nitrocellulose lacquer through the vintage era. It is a real Fullerton-built Fender, not a corner-cut import, and that is the point buyers sometimes miss.
 
-Two things about the build matter most for authentication. The first is scale length. The Mustang was offered in two: a 22.5 inch short scale and a 24 inch medium scale. The 24 inch quickly became the standard and the far more common seller, so a genuine 22.5 inch example is the less usual find. Fender also specified nut width with a letter code that shows up in the neck stamp, where "A" is the narrow 1 and 1/2 inch nut and "B" is the wider and generally more desirable 1 and 5/8 inch nut.
+Two things about the build matter most for authentication. The first is scale length. The Mustang was offered in two: a 22.5 inch short scale and a 24 inch medium scale. The 24 inch quickly became the standard and the far more common seller, so a original 22.5 inch example is the less usual find. Fender also specified nut width with a letter code that shows up in the neck stamp, where "A" is the narrow 1 and 1/2 inch nut and "B" is the wider and generally more desirable 1 and 5/8 inch nut.
 
 ![Rosewood fingerboard of a vintage Fender Mustang showing pearloid dot inlays and a bolt-on maple neck.](../../assets/blog/fender-mustang-history-value/fender-mustang-rosewood-fingerboard-pearl-dots.jpg)
 
@@ -94,7 +145,7 @@ The rosewood fingerboard on a vintage Mustang. This is the round-laminate, or "v
 
 The second detail is the fingerboard itself, shown above. Because the Mustang came along after the slab-to-veneer transition, its board is always the veneer type. If someone shows you a Mustang and calls the board a "slab," either the term is being used loosely or the neck is not original to the model. We will come back to that in the authentication section.
 
-<h2 id="fmg-switching">The Pickups and the Slide Switches</h2>
+<h2 id="fmg-switching">The Pickups And The Slide Switches</h2>
 
 Here is the feature that makes a Mustang a Mustang, and the one most owners cannot explain: the two slide switches above the pickups. A Mustang has two single-coil pickups mounted at a slight angle, fully covered so you do not see individual pole pieces the way you do on a Stratocaster. Above them sit two three-position slide switches, and each switch controls one pickup.
 
@@ -102,7 +153,7 @@ Here is the feature that makes a Mustang a Mustang, and the one most owners cann
 
 A 1965 Mustang in Dakota Red, laid out the way every Mustang is: two angled single-coil pickups, the two slide switches up on the pickguard above the neck pickup, the volume and tone knobs and the jack on the lower chrome plate, and the Dynamic Vibrato at the bridge. Those two small black switches are the whole trick, and you can see there is one for each pickup.
 
-Each switch has an on position, an off position in the middle, and a second on position that flips that pickup's phase. That gives you more combinations than a normal two-pickup guitar. Throw both switches the same direction and the pickups run together in phase, the full, normal Mustang sound. Throw them opposite directions and the pickups fight each other out of phase, the thin, hollow, nasal honk that players either love or never touch. Put one switch in the center and you are on a single pickup. It is a clever, cheap, genuinely useful little system.
+Each switch has an on position, an off position in the middle, and a second on position that flips that pickup's phase. That gives you more combinations than a normal two-pickup guitar. Throw both switches the same direction and the pickups run together in phase, the full, normal Mustang sound. Throw them opposite directions and the pickups fight each other out of phase, the thin, hollow, nasal honk that players either love or never touch. Put one switch in the center and you are on a single pickup. It is a clever, cheap, truly useful little system.
 
 One thing to know for authentication: the stock Mustang circuit is wired in parallel, in phase or out of phase, and it does not do a series (humbucking) mode from the factory. A Mustang that has been rewired for series is a common modification, not an original feature, so a "series" Mustang has been inside. That is not automatically a problem, but it is a thing to notice and to price.
 
@@ -116,7 +167,7 @@ The Dynamic Vibrato on a 1965 Mustang, engraved "Fender Dynamic Vibrato Pat. Pen
 
 Verifying that the vibrato is complete and original matters to value. The threaded vibrato arm goes missing constantly, the springs get swapped, and the whole assembly gets replaced with reissue or aftermarket units. An intact, correct, period Dynamic Vibrato with its original arm adds real money over a guitar that is missing pieces or wearing a modern bridge.
 
-<h2 id="fmg-timeline">Year by Year</h2>
+<h2 id="fmg-timeline">Year By Year</h2>
 
 The Mustang changed in small, datable steps across its 1964 to 1982 run. Here is the high-level orientation table, with the details unpacked below and in the dating section. Treat the boundaries as approximate, because Fender used up parts in bins and transitions overlapped.
 
@@ -135,7 +186,7 @@ The Mustang changed in small, datable steps across its 1964 to 1982 run. Here is
 
 A 1972 Mustang in three-color sunburst with a pearloid pickguard, a clean example of the standard, non-Competition CBS-era guitar. By the early 1970s the Mustang had settled into its final form, and honest examples like this are one of the more affordable ways into a real vintage Fender.
 
-<h3>The Early Years: 1964 to 1966</h3>
+<h3>The Early Years: 1964 To 1966</h3>
 
 Everything that drives the higher Mustang valuations comes out of this window. A 1964 or 1965 Mustang is a pre-CBS or transition-era Fender, built to the same standards as the era's Stratocaster and Jaguar. Early cars wear the smaller headstock, the gold transition logo, a nitrocellulose finish in one of the three standard student colors, and the "Offset Contour Body" line on the headstock decal. Serial numbers run from the pre-CBS L-series into the big "F" neck plate that took over in late 1965.
 
@@ -149,7 +200,7 @@ The three standard colors in this era were Dakota Red, Daphne Blue, and Olympic 
 
 The headstock decal reads "Fender" in script with "Mustang" beneath it. This is the gold transition logo, which ran from the mid-1960s until the bold black CBS logo took over around 1967 to 1968. On the earliest examples you will also find a small "Offset Contour Body" line and a block of patent numbers under the logo, and Fender dropped the "Offset Contour Body" line around 1967. That single line is a handy pre-1967 versus post-1967 tell before you even pull the neck. Our guide to [dating a Fender by its parts](/fender-physical-features/) covers the logo styles and the headstock patent numbers in full.
 
-<h3>The CBS Years: 1966 to Early 1970s</h3>
+<h3>The CBS Years: 1966 To Early 1970s</h3>
 
 CBS bought Fender in January 1965, and the changeover on the Mustang shows up mostly in the headstock and the logo. Fender enlarged the headstock in late 1965, so from 1966 on the Mustang carries the larger CBS-era headstock, the same change that hit the Stratocaster and the offset models on the same timeline. The gold transition logo gave way to the bold black logo around 1967 to 1968, and the "Offset Contour Body" decal line disappeared in that same window. Build quality stayed high into the late 1960s, and these are excellent, affordable vintage Fenders that often get overlooked next to their pre-CBS siblings.
 
@@ -169,7 +220,7 @@ A Competition Red Mustang. Competition Red is the most common of the three Compe
 
 Within the Competition family, the value ladder runs Orange at the top for rarity, then Blue for rarity plus the Nirvana association, then Red as the most affordable way into a real Competition Mustang. A 1969 example with the original matching painted headstock sits above a later natural-headstock car, all else equal. As always, an original finish beats a repaint every time, and on a Competition guitar the gap is wide.
 
-<h2 id="fmg-cobain">Kurt Cobain and the Mustang's Second Life</h2>
+<h2 id="fmg-cobain">Kurt Cobain And The Mustang's Second Life</h2>
 
 You cannot tell the modern Mustang story without Kurt Cobain. Cobain played left-handed Mustangs through Nirvana's biggest years, most famously a 1969 Competition model in Lake Placid Blue, and he loved the guitar's cheap, awkward, fight-you character. His attachment to both the Mustang and the Jaguar led him to work with Fender in the early 1990s on the Jag-Stang, a hybrid of the two that Fender still builds. When Cobain's own 1969 Competition Mustang from the "Smells Like Teen Spirit" video came to auction, it sold for roughly 4.5 million dollars, and later changed hands again for close to 7 million, which makes it one of the most valuable guitars ever sold.
 
@@ -203,7 +254,7 @@ A later F plate for comparison, this one reading 340349, which lands in the 3400
 
 For a deeper walk through Fender numbering, including the L-series, F-plate, and later systems, use our [Fender serial number guide and lookup tool](/fender-guitars-serial-number-guide/). The most reliable date of all comes from pulling the neck and reading the pencil or stamped date on the heel, then confirming it against the source-date codes on the potentiometers, and that is exactly the kind of inspection we do as part of a free appraisal.
 
-<h2 id="fmg-authenticate">Reading a Mustang Like a Dealer</h2>
+<h2 id="fmg-authenticate">Reading A Mustang Like A Dealer</h2>
 
 Authentication is not one test. It is the question of whether every part of the guitar tells the same story. A Mustang has a serial, two pickups, a switching circuit, a Dynamic Vibrato, a logo, a pickguard, a set of tuners, and a wiring harness, and each of those has a date range and a correct spec. When they all point to the same window, the guitar is honest. When one points somewhere else, you have found either an old repair or a story that does not add up.
 
@@ -215,7 +266,7 @@ The back of the headstock is where several tells live at once: the tuner brand a
 
 Then look at the solder and the finish. Original factory solder joints are even and consistent. Fresh, blobby, or re-melted joints on a pickup lead, a pot, or the jack mean someone has been inside, which is your cue to ask what was changed. On the finish, check the pickup and control cavities and under the pickguard for overspray, and look for age-appropriate checking in the lacquer. The goal is not to find a museum piece with zero history. It is to know exactly what you are looking at and to price it accordingly.
 
-<h2 id="fmg-mods">Modifications and Red Flags</h2>
+<h2 id="fmg-mods">Modifications And Red Flags</h2>
 
 Most of the value questions on a vintage Mustang come down to a short list of common changes. None of these makes a guitar worthless, but every one of them changes the number, and a guitar sold as all original when it is not is the expensive mistake to avoid.
 
@@ -244,7 +295,7 @@ Here is the short version you can run through with a screwdriver and a flashligh
 
 If you get partway down this list and something stops adding up, that is the moment to get a second opinion before money changes hands.
 
-<h2 id="fmg-reissue">Vintage or Reissue</h2>
+<h2 id="fmg-reissue">Vintage Or Reissue</h2>
 
 Fender never really let the Mustang die, and today a guitar sold as a "Mustang" can be any of several very different instruments. Telling a vintage original from a reissue is the check that protects a buyer from overpaying.
 
@@ -255,37 +306,7 @@ Fender never really let the Mustang die, and today a guitar sold as a "Mustang" 
 
 None of these is a vintage guitar, and the price gap between a two-thousand-dollar reissue and a real 1960s or early-1970s Mustang is large. If you are not sure which one you have, that is exactly what an appraisal is for.
 
-<h2 id="fmg-value">What a Vintage Mustang Is Worth</h2>
-
-Vintage Mustang values move with the year, the finish, the condition, and above all the originality. The ranges below reflect current dealer asking prices and recent sales for guitars in honest, all-original condition. They are a starting point for a conversation, not a substitute for looking at your actual guitar, because a single modification or a refinish can move the number by a lot. Published price guides tend to run at the high end of what these actually trade for, so treat any single number with some skepticism.
-
-| Segment | Player or modified | All-original, excellent |
-| --- | --- | --- |
-| Pre-CBS standard color, 1964 to 1965 | about $1,500 to $2,800 | about $2,200 to $4,000 |
-| CBS standard color, 1966 to early 1970s | about $1,200 to $2,200 | about $1,600 to $2,200 |
-| Competition finish, 1969 to 1973 | about $2,500 to $4,500 | about $4,000 to $6,000 |
-
-A few things sit outside the table. Competition Orange is the rarest of the three Competition colors and can run above the range, a 1969 with an original matching painted headstock commands a premium over a later natural-headstock car, and Competition Blue carries extra weight from the Cobain association. A genuine 22.5 inch short-scale example is less common than the 24 inch and can draw its own interest. On the other end, a refinished guitar, a swapped-in modern bridge, a missing vibrato arm, or an added humbucker each pull the number down, and on a Competition guitar a refinish erases most of the premium.
-
-![Back of a 1972 Fender Competition Mustang in Competition Red showing heavy finish wear and honest player condition.](../../assets/blog/fender-mustang-history-value/fender-competition-mustang-red-back-player-wear.jpg)
-
-Honest wear like this is not the enemy of value the way a refinish is. Buckle rash, finish checking, and playwear are the marks of a guitar that got used, and on an original-finish Competition Mustang that story is part of the appeal. What moves the price down hard is a repaint, replaced parts, and structural repairs, not the honest scars of sixty years of playing.
-
-For context on how to use published values without leaning on them too hard, our [Blue Book and price-guide overview](/post/blue-book-of-guitar-values-and-vintage-guitar-price-guide/) explains the difference between asking prices and real sales. And for the wider offset and student-Fender world, our [Fender Jaguar guide](/post/vintage-fender-jaguar-guide/) and [Jazzmaster evolution guide](/post/fender-jazzmaster-evolution-guide-1958-1971/) trace the models the Mustang shares its DNA with.
-
-<h3>Original Cases and Case Candy</h3>
-
-The original case and its contents add real, measurable value to a vintage Mustang, and they are the first thing to check before you even open the lid. Fender shipped these in a black tolex hardshell case with a plush orange interior through the vintage era, and the "case candy" that lived in the pocket adds up: the threaded vibrato arm, the chrome bridge cover, the owner's manual, the warranty card and hangtags, and any dealer paperwork.
-
-![Interior of a vintage Fender hardshell guitar case with orange plush lining and a Milano Music Center, Mesa, Arizona dealer sticker.](../../assets/blog/fender-mustang-history-value/fender-mustang-case-milano-music-center-mesa-arizona.jpg)
-
-The orange-lined case for our Competition Blue Mustang, with a period dealer sticker from Milano Music Center in Mesa, Arizona, a nice local touch for a Mesa shop like ours. A dealer sticker is part of a guitar's history: it helps document where the instrument started life and adds character to the package.
-
-![Original Fender Competition Mustang owner's manual booklet lying on the orange plush lining of a vintage case.](../../assets/blog/fender-mustang-history-value/fender-competition-mustang-owners-manual.jpg)
-
-The original "Fender Competition Mustang" owner's manual. Case candy like this, the manual, the warranty card, the vibrato arm, and the bridge cover, is easy to lose over sixty years, so a full and correct set adds a premium to an already original guitar. If you inherited a Mustang and there is a booklet, a warranty card, or an old receipt in the case pocket, keep it: it is part of the value.
-
-<h2 id="fmg-selling">Thinking of Selling Your Mustang</h2>
+<h2 id="fmg-selling">Thinking Of Selling Your Mustang</h2>
 
 If you have a vintage Mustang and you are considering selling it, the most valuable thing you can do is resist the urge to "fix it up." Do not refinish it, do not swap the vibrato for something that stays in tune better, do not rewire it, and do not fill the scars. Every bit of honest wear and every original part is part of the value, and once an original finish or an original part is gone, it does not come back. This goes double for a Competition guitar, where the finish is the whole game.
 
@@ -311,11 +332,11 @@ A Competition Mustang is a Mustang finished in Fender's "Competition" package, o
 
 **What is my vintage Fender Mustang worth?**
 
-An all-original standard-color Mustang from the 1960s generally falls in the range of about $1,600 to $4,000 in excellent condition, with pre-CBS 1964 and 1965 examples at the top of that band. All-original Competition Mustangs run higher, roughly $4,000 to $6,000, with Orange and matching-headstock 1969 examples the priciest. Refinishes, replaced parts, and a missing vibrato arm all lower the number, so the only way to know is to have it appraised.
+As of October 2026, this guide retains asking and guide references of $2,200 to $4,000 for all-original, excellent 1964 to 1965 Mustangs and $4,000 to $6,000 for Competition models. Three verified completed sales support a separate $1,400 to $2,300 era comparison for original 1970s sunburst guitars with their original cases. Condition and the specific finish determine which range applies.
 
 **What is the difference between the 22.5 inch and 24 inch scale Mustang?**
 
-The Mustang was offered in a 22.5 inch short scale and a 24 inch medium scale. The 24 inch became the standard and is far more common, while a genuine 22.5 inch example is the less usual find. The shorter scale means lower string tension and an easier reach, which is part of why the Mustang appealed to younger and smaller-handed players, and later to anyone who liked its slinky feel. Fender's nut-width letter code, "A" for the narrow nut and "B" for the wider one, is separate from the scale but shows up in the neck stamp.
+The Mustang was offered in a 22.5 inch short scale and a 24 inch medium scale. The 24 inch became the standard and is far more common, while a original 22.5 inch example is the less usual find. The shorter scale means lower string tension and an easier reach, which is part of why the Mustang appealed to younger and smaller-handed players, and later to anyone who liked its slinky feel. Fender's nut-width letter code, "A" for the narrow nut and "B" for the wider one, is separate from the scale but shows up in the neck stamp.
 
 **What do the two slide switches on a Mustang do?**
 
@@ -329,86 +350,7 @@ Yes. Kurt Cobain played left-handed Mustangs through Nirvana's peak years, most 
 
 No. Reissues are good guitars, but they are worth a fraction of a vintage original. Japanese-built reissues from 1990 on are marked "Made in Japan" or "Crafted in Japan" and carry modern serials and pots, and modern U.S. and Mexican Mustangs have updated radii and switching. A real 1960s or early-1970s U.S. Mustang with an L-series or F-plate serial is a different instrument at a different price, so confirming which one you have is the whole point of an appraisal.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a Fender Mustang?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Fender Mustang is a short-scale, solid-body electric guitar that Fender introduced in 1964 as the top of its student line, above the Musicmaster and Duo-Sonic. It has two single-coil pickups, a pair of three-position slide switches that give it a distinctive in-phase and out-of-phase voice, and the floating Dynamic Vibrato that was built for this model. Launched as a beginner's guitar, it later became a collectible favorite of punk and indie players, most famously Kurt Cobain."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What years were Fender Mustangs made?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The original Fender Mustang ran from 1964 to 1982. Fender reissued the model in Japan starting around 1990, and it remains in production today in various forms, so the key distinction for value is between a vintage original from the 1964 to 1982 run and a later reissue."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can I tell what year my Fender Mustang is?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Start with the neck plate serial number and match it to a known range: the pre-CBS L-series is 1964 to 1965, and the large F-plate runs from late 1965 through the rest of the vintage era. Then confirm the year with the features, including the headstock size, the logo style, the Offset Contour Body decal, the vibrato engraving (Pat. Pend. early, a patent number from about 1967), and the pickguard. The most reliable date comes from the neck-heel stamp and the potentiometer date codes, which a professional appraisal can read for you."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a Competition Mustang?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Competition Mustang is a Mustang finished in Fender's Competition package, offered from about 1968 or 1969 to 1973. It has a diagonal racing stripe across the body, a pearloid pickguard, and, on early examples, a matching painted headstock. The colors were Competition Red, Competition Blue, and Competition Orange. Competition Mustangs are the most collectible vintage Mustangs, with Orange the rarest and Blue carrying a premium from the Kurt Cobain association."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is my vintage Fender Mustang worth?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An all-original standard-color Mustang from the 1960s generally falls in the range of about 1,600 to 4,000 dollars in excellent condition, with pre-CBS 1964 and 1965 examples at the top of that band. All-original Competition Mustangs run higher, roughly 4,000 to 6,000 dollars, with Orange and matching-headstock 1969 examples the priciest. Refinishes, replaced parts, and a missing vibrato arm all lower the number, so the only way to know is to have it appraised."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between the 22.5 inch and 24 inch scale Mustang?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Mustang was offered in a 22.5 inch short scale and a 24 inch medium scale. The 24 inch became the standard and is far more common, while a genuine 22.5 inch example is the less usual find. The shorter scale means lower string tension and an easier reach, which is part of why the Mustang appealed to younger players and later to anyone who liked its slinky feel. Fender's nut-width letter code, A for the narrow nut and B for the wider one, is separate from the scale but shows up in the neck stamp."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What do the two slide switches on a Mustang do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Each slide switch controls one pickup and has three positions: on, off, and on with the phase reversed. Throw both switches the same way and the pickups play together in phase for the normal Mustang sound. Throw them opposite ways and the pickups run out of phase for a thin, hollow tone. Put a switch in the center and that pickup is off. The stock circuit is wired in parallel, not series, so a Mustang wired for series has been modified."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Did Kurt Cobain play a Fender Mustang?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Kurt Cobain played left-handed Mustangs through Nirvana's peak years, most famously a 1969 Competition model in Lake Placid Blue, and his love of the Mustang and the Jaguar led to the Fender Jag-Stang hybrid. His own 1969 Competition Mustang later sold at auction for millions of dollars. That value belongs to his specific guitar and does not transfer to other Mustangs, but the association lifted the whole Competition Mustang market."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is a reissue or Japanese Mustang worth as much as a vintage one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Reissues are good guitars, but they are worth a fraction of a vintage original. Japanese-built reissues from 1990 on are marked Made in Japan or Crafted in Japan and carry modern serials and pots, and modern U.S. and Mexican Mustangs have updated radii and switching. A real 1960s or early-1970s U.S. Mustang with an L-series or F-plate serial is a different instrument at a different price, so confirming which one you have is the whole point of an appraisal."
-      }
-    }
-  ]
-}
-</script>
+
 
 <style>
   /* Floating in-page nav for this post (fmg-nav), ported from the Duo Jet gdj-nav pattern. */
@@ -485,4 +427,85 @@ No. Reissues are good guitars, but they are worth a fraction of a vintage origin
     if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initFmgFade); }
     else { initFmgFade(); }
   })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a Fender Mustang?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Fender Mustang is a short-scale, solid-body electric guitar that Fender introduced in 1964 as the top of its student line, above the Musicmaster and Duo-Sonic. It has two single-coil pickups, a pair of three-position slide switches that give it a distinctive in-phase and out-of-phase voice, and the floating Dynamic Vibrato that was built for this model. Launched as a beginner’s guitar, it later became a collectible favorite of punk and indie players, most famously Kurt Cobain."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What years were Fender Mustangs made?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The original Fender Mustang ran from 1964 to 1982. Fender reissued the model in Japan starting around 1990, and it remains in production today in various forms, so the key distinction for value is between a vintage original from the 1964 to 1982 run and a later reissue."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I tell what year my Fender Mustang is?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with the neck plate serial number and match it to a known range: the pre-CBS L-series is 1964 to 1965, and the large F-plate runs from late 1965 through the rest of the vintage era. Then confirm the year with the features, including the headstock size, the logo style, the “Offset Contour Body” decal, the vibrato engraving (Pat. Pend. early, a patent number from about 1967), and the pickguard. The most reliable date comes from the neck-heel stamp and the potentiometer date codes, which a professional appraisal can read for you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Competition Mustang?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Competition Mustang is a Mustang finished in Fender’s “Competition” package, offered from about 1968 or 1969 to 1973. It has a diagonal racing stripe across the body, a pearloid pickguard, and, on early examples, a matching painted headstock. The colors were Competition Red, Competition Blue, and Competition Orange. Competition Mustangs are the most collectible vintage Mustangs, with Orange the rarest and Blue carrying a premium from the Kurt Cobain association."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is my vintage Fender Mustang worth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As of October 2026, this guide retains asking and guide references of $2,200 to $4,000 for all-original, excellent 1964 to 1965 Mustangs and $4,000 to $6,000 for Competition models. Three verified completed sales support a separate $1,400 to $2,300 era comparison for original 1970s sunburst guitars with their original cases. Condition and the specific finish determine which range applies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between the 22.5 inch and 24 inch scale Mustang?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Mustang was offered in a 22.5 inch short scale and a 24 inch medium scale. The 24 inch became the standard and is far more common, while a original 22.5 inch example is the less usual find. The shorter scale means lower string tension and an easier reach, which is part of why the Mustang appealed to younger and smaller-handed players, and later to anyone who liked its slinky feel. Fender’s nut-width letter code, “A” for the narrow nut and “B” for the wider one, is separate from the scale but shows up in the neck stamp."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do the two slide switches on a Mustang do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each slide switch controls one pickup and has three positions: on, off, and on with the phase reversed. Throw both switches the same way and the pickups play together in phase for the normal Mustang sound. Throw them opposite ways and the pickups run out of phase for a thin, hollow tone. Put a switch in the center and that pickup is off. The stock circuit is wired in parallel, not series, so a Mustang wired for series has been modified."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Did Kurt Cobain play a Fender Mustang?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Kurt Cobain played left-handed Mustangs through Nirvana’s peak years, most famously a 1969 Competition model in Lake Placid Blue, and his love of the Mustang and the Jaguar led to the Fender Jag-Stang hybrid. His own 1969 Competition Mustang later sold at auction for millions of dollars. That value belongs to his specific guitar and does not transfer to other Mustangs, but the association lifted the whole Competition Mustang market."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a reissue or Japanese Mustang worth as much as a vintage one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Reissues are good guitars, but they are worth a fraction of a vintage original. Japanese-built reissues from 1990 on are marked “Made in Japan” or “Crafted in Japan” and carry modern serials and pots, and modern U.S. and Mexican Mustangs have updated radii and switching. A real 1960s or early-1970s U.S. Mustang with an L-series or F-plate serial is a different instrument at a different price, so confirming which one you have is the whole point of an appraisal."
+      }
+    }
+  ]
+}
 </script>
