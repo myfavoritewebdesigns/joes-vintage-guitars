@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-20",
+  "url": "/fender-guitars-serial-number-guide/",
+  "change": "Add one contextual link to /vintage-fender-value-guide/ in existing valuation copy.",
+  "validation": {
+    "url": "/fender-guitars-serial-number-guide/",
+    "title": "Fender Serial Number Lookup: Free Decoder & Dating Guide",
+    "count": 56,
+    "hubAnchors": [
+      "vintage Fender value guide"
+    ],
+    "photos": 35
+  },
+  "liveDiff": {
+    "url": "/fender-guitars-serial-number-guide/",
+    "code": 0,
+    "output": [
+      "",
+      "[audit] Liveness-checking 29 asset URL(s) on local (img/picture/poster/iframe)...",
+      "",
+      "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-fender-guitars-serial-number-guide-audit-2026-10-21T00-56-36-090Z.md",
+      "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+    ]
+  },
+  "dependency": "Publish with the Fender hub in PR #268. Preview integration contains both. No production merge."
+}
