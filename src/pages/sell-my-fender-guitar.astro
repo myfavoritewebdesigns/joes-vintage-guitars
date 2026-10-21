@@ -224,6 +224,15 @@ for (const [from, to] of Object.entries(assetReplacements)) {
   pageMarkup = pageMarkup.split(from).join(to);
 }
 
+const fenderValueResource = '<p class="resource-sentence">For more detail, use my ';
+if (!pageMarkup.includes(fenderValueResource)) {
+  throw new Error("The Fender value-resource paragraph changed; update the brand hub link insertion.");
+}
+pageMarkup = pageMarkup.replace(
+  fenderValueResource,
+  '<p class="resource-sentence">Start with my <a href="/vintage-fender-value-guide/">vintage Fender value guide</a> to compare models. For more detail, use my ',
+);
+
 const telecasterLinksStart = '<div class="model-links"><a class="arrow-link" href="https://www.joesvintageguitarsaz.com/fender-telecaster-dating-guide/">Date a Fender Telecaster ';
 if (!pageMarkup.includes(telecasterLinksStart)) {
   throw new Error("The Telecaster model-links markup changed; update the value-guide link insertion.");
