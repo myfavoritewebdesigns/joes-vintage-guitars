@@ -1,4 +1,4 @@
-Vintage Fender Jazz Bass comparisons run from $2,200 to $31,500 across 1960 to 1979, depending on the control layout, year, finish and condition. Original sunburst stack-knob examples sit in a $23,000 to $31,500 band; the late-1970s comparison is $2,200 to $4,000. I start with the right group, then narrow it to the bass in front of me.
+Vintage Fender Jazz Bass comparisons run from $2,000 to $29,000 across 1960 to 1979, depending on the control layout, year, finish and condition. Original sunburst stack-knob examples sit in a $21,000 to $29,000 band; the late-1970s comparison is $2,000 to $4,000. I start with the right group, then narrow it to the bass in front of me.
 
 If the year or originality is uncertain, use my [Fender Jazz Bass dating and authentication guide](/post/vintage-fender-jazz-bass-guide/) before applying a price. This page covers market comparisons, condition and selling decisions. The photographs are from my own archive, including a refinished example that's labeled as such.
 
@@ -12,28 +12,28 @@ Each production year has a row, and adjacent years can share a range. The two co
 
 | Year | Value Range | Shared Comparison And Condition |
 | --- | --- | --- |
-| 1960 | $23,000 to $31,500 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
-| 1961 | $23,000 to $31,500 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
-| 1961 | $11,000 to $23,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
-| 1962 | $23,000 to $31,500 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
-| 1962 | $11,000 to $23,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
-| 1963 | $11,000 to $23,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
-| 1964 | $11,000 to $23,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
-| 1965 | $5,000 to $13,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
-| 1966 | $5,000 to $13,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
-| 1967 | $5,000 to $13,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
-| 1968 | $5,000 to $13,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
-| 1969 | $5,000 to $13,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
-| 1970 | $3,500 to $6,500 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
-| 1971 | $3,500 to $6,500 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
-| 1972 | $3,500 to $6,500 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
-| 1973 | $3,500 to $6,500 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
-| 1974 | $3,500 to $6,500 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
-| 1975 | $2,200 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
-| 1976 | $2,200 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
-| 1977 | $2,200 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
-| 1978 | $2,200 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
-| 1979 | $2,200 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+| 1960 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
+| 1961 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
+| 1961 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
+| 1962 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, nut allowance |
+| 1962 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
+| 1963 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
+| 1964 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
+| 1965 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
+| 1966 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
+| 1967 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
+| 1968 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
+| 1969 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware allowance |
+| 1970 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
+| 1971 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
+| 1972 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
+| 1973 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
+| 1974 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret allowance |
+| 1975 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+| 1976 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+| 1977 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+| 1978 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+| 1979 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
 
 ### What The Ranges Include
 
@@ -61,7 +61,7 @@ The earliest Jazz Bass uses two stacked controls, with a volume and tone adjustm
 
 I don't price a bass from the control plate alone. A replacement plate can give a later or modified instrument the appearance of an earlier one. For the stack-knob band, the bass needs to belong to that original configuration, with its finish, pickups and supporting evidence accounted for.
 
-The $23,000 to $31,500 comparison applies to original sunburst stack-knob instruments under the stated conditions. It doesn't apply unchanged to a refinished body, an assembled bass or a later instrument converted to stacked controls. Those can still be good instruments, but the available comparison has changed.
+The $21,000 to $29,000 comparison applies to original sunburst stack-knob instruments under the stated conditions. It doesn't apply unchanged to a refinished body, an assembled bass or a later instrument converted to stacked controls. Those can still be good instruments, but the available comparison has changed.
 
 <figure>
 
@@ -75,7 +75,7 @@ Early 1962 stack-knob examples belong with the original stack-knob configuration
 
 ### The Early Three-Control Years
 
-The 1961 to 1964 three-control range is $11,000 to $23,000. It covers different fingerboards and condition levels. Worn examples with incomplete accessories belong lower than excellent earlier configurations.
+The 1961 to 1964 three-control range is $10,000 to $21,000. It covers different fingerboards and condition levels. Worn examples with incomplete accessories belong lower than excellent earlier configurations.
 
 Once the bass is identified, I narrow that interval. Original finish and pickups, the correct neck, repair history, usable frets and the case all belong in the same appraisal. A clean description without photographs of the wear and changed parts doesn't give me enough to place a bass at the upper end.
 
@@ -83,11 +83,11 @@ An original owner history can help establish what was changed and when. It doesn
 
 ## How I Compare The CBS And Seventies Basses
 
-For 1965 to 1969, the $5,000 to $13,000 range spans worn later examples through excellent originals from 1965. Binding, dot or block inlays and other transition features help narrow the appraisal. They don't create a fixed premium for every bass from a year.
+For 1965 to 1969, the $4,500 to $12,000 range spans worn later examples through excellent originals from 1965. Binding, dot or block inlays and other transition features help narrow the appraisal. They don't create a fixed premium for every bass from a year.
 
 A 1966 bound-dot bass deserves its own inspection because it sits within a transition. Its condition and complete configuration can appeal to a different buyer from a later block-inlay player. I don't assign a separate fixed bound-dot premium.
 
-The 1970 to 1974 comparison is $3,500 to $6,500. The reference includes original-finish sunburst basses with original pickups and cases, from serviced players to unusually complete examples. Fretwork and a replacement nut are disclosed allowances, rather than reasons to describe every bass in that interval as untouched.
+The 1970 to 1974 comparison is $3,500 to $6,000. The reference includes original-finish sunburst basses with original pickups and cases, from serviced players to unusually complete examples. Fretwork and a replacement nut are disclosed allowances, rather than reasons to describe every bass in that interval as untouched.
 
 <figure>
 
@@ -97,7 +97,7 @@ The 1970 to 1974 comparison is $3,500 to $6,500. The reference includes original
 
 </figure>
 
-For 1975 to 1979, the standard-finish range is $2,200 to $4,000. Condition, neck function, weight and retained parts help narrow an individual appraisal. Unusual finishes need a separate assessment.
+For 1975 to 1979, the standard-finish range is $2,000 to $4,000. Condition, neck function, weight and retained parts help narrow an individual appraisal. Unusual finishes need a separate assessment.
 
 I don't use the Jazz Bass table for a Precision Bass, modern reissue or bass assembled from parts. The instrument's actual model and construction determine which range applies.
 

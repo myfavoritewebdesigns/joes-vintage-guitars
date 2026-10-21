@@ -1,4 +1,4 @@
-Vintage Gibson SG guide values range from $2,000 to $2,500 for 1970s mini-humbucker Specials to $13,500 to $25,000 for early Standards, as of October 2026. The model, pickups, finish and repair history explain the spread; I've listed the four main models through 1979 below.
+Vintage Gibson SG guide values range from $2,000 to $2,500 for 1970s mini-humbucker Specials to $13,000 to $23,000 for early Standards, as of October 2026. The model, pickups, finish and repair history explain the spread; I've listed the four main models through 1979 below.
 
 For the year and original specification, use my [Gibson SG dating and identification guide](/gibson-sg-dating-guide/). This guide covers market value and the features that move it.
 
@@ -8,25 +8,25 @@ For the year and original specification, use my [Gibson SG dating and identifica
 
 | Year | Standard | Special | Junior | Custom | Year Notes |
 | --- | --- | --- | --- | --- | --- |
-| 1961 | $13,500 to $25,000 | $6,000 to $11,000 | $6,000 to $8,500 | $17,000 to $24,000 | Pointed SG body; earlier rounded Special excluded. |
-| 1962 | $13,500 to $25,000 | $6,000 to $11,000 | $6,000 to $8,500 | $17,000 to $24,000 | Small-guard era; factory pickups and vibratos. |
-| 1963 | $13,500 to $25,000 | $6,000 to $11,000 | $6,000 to $8,500 | $17,000 to $24,000 | Small-guard era; factory pickups and vibratos. |
-| 1964 | $13,500 to $25,000 | $6,000 to $11,000 | $6,000 to $8,500 | $17,000 to $24,000 | Small-guard era; factory pickups and vibratos. |
-| 1965 | $12,000 to $14,000 | $6,000 to $11,000 | $6,000 to $8,500 | $17,000 to $24,000 | Small-guard era; factory pickups and vibratos. |
-| 1966 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Guard transition; small and large versions overlap. |
-| 1967 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Large guards; later finishes and neck changes. |
-| 1968 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Large guards; later finishes and neck changes. |
-| 1969 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Large guards; later finishes and neck changes. |
-| 1970 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Large guards; later finishes and neck changes. |
-| 1971 | $5,000 to $8,000 | $3,000 to $6,600 | $2,300 to $4,000 | $6,500 to $14,000 | Deluxe and Pro excluded; Custom changes configuration. |
-| 1972 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | Standard and mini-humbucker Special return. |
-| 1973 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | Later small guards; factory model determines the range. |
-| 1974 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | Later small guards; factory model determines the range. |
-| 1975 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | Later small guards; factory model determines the range. |
-| 1976 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | 549 Special shipments. |
-| 1977 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | 232 Special shipments. |
-| 1978 | $2,400 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,600 | Two late Special shipments. |
-| 1979 | $2,400 to $3,000 | No Range | Outside Original Run | $3,000 to $6,600 | No original-run Junior or Special range. |
+| 1961 | $13,000 to $23,000 | $5,500 to $10,000 | $5,500 to $8,000 | $16,000 to $22,000 | Pointed SG body; earlier rounded Special excluded. |
+| 1962 | $13,000 to $23,000 | $5,500 to $10,000 | $5,500 to $8,000 | $16,000 to $22,000 | Small-guard era; factory pickups and vibratos. |
+| 1963 | $13,000 to $23,000 | $5,500 to $10,000 | $5,500 to $8,000 | $16,000 to $22,000 | Small-guard era; factory pickups and vibratos. |
+| 1964 | $13,000 to $23,000 | $5,500 to $10,000 | $5,500 to $8,000 | $16,000 to $22,000 | Small-guard era; factory pickups and vibratos. |
+| 1965 | $11,000 to $13,000 | $5,500 to $10,000 | $5,500 to $8,000 | $16,000 to $22,000 | Small-guard era; factory pickups and vibratos. |
+| 1966 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Guard transition; small and large versions overlap. |
+| 1967 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Large guards; later finishes and neck changes. |
+| 1968 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Large guards; later finishes and neck changes. |
+| 1969 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Large guards; later finishes and neck changes. |
+| 1970 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Large guards; later finishes and neck changes. |
+| 1971 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Deluxe and Pro excluded; Custom changes configuration. |
+| 1972 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | Standard and mini-humbucker Special return. |
+| 1973 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | Later small guards; factory model determines the range. |
+| 1974 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | Later small guards; factory model determines the range. |
+| 1975 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | Later small guards; factory model determines the range. |
+| 1976 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | 549 Special shipments. |
+| 1977 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | 232 Special shipments. |
+| 1978 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | Two late Special shipments. |
+| 1979 | $2,500 to $3,000 | No Range | Outside Original Run | $3,000 to $6,000 | No original-run Junior or Special range. |
 
 The Special shipment dates above come from the site's [Gibson shipment record](/post/gibson-shipping-totals-1948-1979/#sg-jr-spec-62-78). Shipping can follow manufacture. A small-guard 1966, a later small-guard 1971 Custom, an SG Deluxe or an SG Pro needs the correct configuration identified before a range is applied.
 

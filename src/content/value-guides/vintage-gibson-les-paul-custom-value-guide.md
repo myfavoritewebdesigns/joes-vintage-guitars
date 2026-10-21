@@ -1,4 +1,4 @@
-A clean, original 1968 or 1969 Gibson Les Paul Custom has a guide range of $12,000 to $18,000. Standard two-pickup Customs from 1975 through 1979 sit at $5,000 to $6,500 in excellent condition. A 1950s Custom belongs in a different market, with its pickup configuration separating the groups below.
+A clean, original 1968 or 1969 Gibson Les Paul Custom has a guide range of $11,000 to $17,000. Standard two-pickup Customs from 1975 through 1979 sit at $4,500 to $6,000 in excellent condition. A 1950s Custom belongs in a different market, with its pickup configuration separating the groups below.
 
 I buy vintage Les Paul Customs and start by separating the original 1950s carved-body guitars from the model that returned in 1968. If you haven't established the year, use the [Les Paul Custom dating and construction guide](/post/norlin-les-paul-custom-year-guide/) before choosing a row. The table here handles value; that guide handles the evidence behind the date.
 
@@ -10,30 +10,30 @@ Each production year has a row, and adjacent years can share a range. I use the 
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1954 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 |
-| 1955 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 |
-| 1956 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 |
-| 1957 | Staple neck pickup And P-90 bridge | $25,000 to $55,000 |
-| 1957 | Original factory humbuckers | $60,000 to $225,000 |
-| 1958 | Original factory humbuckers | $60,000 to $225,000 |
-| 1959 | Original factory humbuckers | $60,000 to $225,000 |
-| 1960 | Original factory humbuckers | $60,000 to $225,000 |
-| 1968 | Two humbuckers, standard carved body | $12,000 to $18,000 |
-| 1969 | Two humbuckers, standard carved body | $12,000 to $18,000 |
-| 1970 | Standard two-pickup Custom | $7,000 to $9,500 |
-| 1971 | Standard two-pickup Custom | $7,000 to $9,500 |
-| 1972 | Standard two-pickup Custom | $7,000 to $9,500 |
-| 1973 | Standard two-pickup Custom | $7,000 to $9,500 |
-| 1974 | Standard two-pickup Custom | $7,000 to $9,500 |
-| 1975 | Standard two-pickup Custom | $5,000 to $6,500 |
-| 1976 | Standard two-pickup Custom | $5,000 to $6,500 |
-| 1977 | Standard two-pickup Custom | $5,000 to $6,500 |
-| 1978 | Standard two-pickup Custom | $5,000 to $6,500 |
-| 1979 | Standard two-pickup Custom | $5,000 to $6,500 |
+| 1954 | Staple neck pickup And P-90 bridge | $23,000 to $50,000 |
+| 1955 | Staple neck pickup And P-90 bridge | $23,000 to $50,000 |
+| 1956 | Staple neck pickup And P-90 bridge | $23,000 to $50,000 |
+| 1957 | Staple neck pickup And P-90 bridge | $23,000 to $50,000 |
+| 1957 | Original factory humbuckers | $54,000 to $203,000 |
+| 1958 | Original factory humbuckers | $54,000 to $203,000 |
+| 1959 | Original factory humbuckers | $54,000 to $203,000 |
+| 1960 | Original factory humbuckers | $54,000 to $203,000 |
+| 1968 | Two humbuckers, standard carved body | $11,000 to $17,000 |
+| 1969 | Two humbuckers, standard carved body | $11,000 to $17,000 |
+| 1970 | Standard two-pickup Custom | $6,500 to $9,000 |
+| 1971 | Standard two-pickup Custom | $6,500 to $9,000 |
+| 1972 | Standard two-pickup Custom | $6,500 to $9,000 |
+| 1973 | Standard two-pickup Custom | $6,500 to $9,000 |
+| 1974 | Standard two-pickup Custom | $6,500 to $9,000 |
+| 1975 | Standard two-pickup Custom | $4,500 to $6,000 |
+| 1976 | Standard two-pickup Custom | $4,500 to $6,000 |
+| 1977 | Standard two-pickup Custom | $4,500 to $6,000 |
+| 1978 | Standard two-pickup Custom | $4,500 to $6,000 |
+| 1979 | Standard two-pickup Custom | $4,500 to $6,000 |
 
 Missing or replaced parts and case condition affect a Custom's value. An Excellent label doesn't establish that the guitar is all-original. I check its actual parts and repair history before applying the clean range.
 
-The $60,000 to $225,000 early humbucker range is a broad family reference. It doesn't promise that every three-pickup Custom reaches the top, or that two-pickup examples and guitars fitted with a vibrato have interchangeable demand. Original configuration, preservation and the actual pickup set need individual review.
+The $54,000 to $203,000 early humbucker range is a broad family reference. It doesn't promise that every three-pickup Custom reaches the top, or that two-pickup examples and guitars fitted with a vibrato have interchangeable demand. Original configuration, preservation and the actual pickup set need individual review.
 
 The 1968 to 1969 range covers different construction details. An unusually clean early one-piece-body example needs an individual appraisal before you use the table as a selling target.
 

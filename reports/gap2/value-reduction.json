@@ -1,0 +1,562 @@
+{
+  "baselineCommit": "3ff17c263337476d1dd2dc1dd5f63ebe3682f50c",
+  "rule": "Multiply each value endpoint by 0.9, then round upward to a multiple of $500 if the reduced amount is below $10,000, otherwise $1,000. Apply once from the saved baseline.",
+  "scope": "GAP 2 model value guides, acoustic and SG summaries, converted posts, and matching FAQ data. Historical catalog prices remain unchanged. Internal research evidence retains original figures.",
+  "mapping": [
+    {
+      "from": 700,
+      "to": 1000
+    },
+    {
+      "from": 850,
+      "to": 1000
+    },
+    {
+      "from": 1200,
+      "to": 1500
+    },
+    {
+      "from": 1400,
+      "to": 1500
+    },
+    {
+      "from": 1500,
+      "to": 1500
+    },
+    {
+      "from": 1600,
+      "to": 1500
+    },
+    {
+      "from": 1875,
+      "to": 2000
+    },
+    {
+      "from": 2000,
+      "to": 2000
+    },
+    {
+      "from": 2100,
+      "to": 2000
+    },
+    {
+      "from": 2200,
+      "to": 2000
+    },
+    {
+      "from": 2250,
+      "to": 2500
+    },
+    {
+      "from": 2300,
+      "to": 2500
+    },
+    {
+      "from": 2400,
+      "to": 2500
+    },
+    {
+      "from": 2500,
+      "to": 2500
+    },
+    {
+      "from": 2625,
+      "to": 2500
+    },
+    {
+      "from": 2750,
+      "to": 2500
+    },
+    {
+      "from": 2800,
+      "to": 3000
+    },
+    {
+      "from": 3000,
+      "to": 3000
+    },
+    {
+      "from": 3250,
+      "to": 3000
+    },
+    {
+      "from": 3400,
+      "to": 3500
+    },
+    {
+      "from": 3500,
+      "to": 3500
+    },
+    {
+      "from": 3700,
+      "to": 3500
+    },
+    {
+      "from": 3750,
+      "to": 3500
+    },
+    {
+      "from": 4000,
+      "to": 4000
+    },
+    {
+      "from": 4100,
+      "to": 4000
+    },
+    {
+      "from": 4200,
+      "to": 4000
+    },
+    {
+      "from": 4300,
+      "to": 4000
+    },
+    {
+      "from": 4500,
+      "to": 4500
+    },
+    {
+      "from": 4750,
+      "to": 4500
+    },
+    {
+      "from": 5000,
+      "to": 4500
+    },
+    {
+      "from": 5250,
+      "to": 5000
+    },
+    {
+      "from": 5500,
+      "to": 5000
+    },
+    {
+      "from": 5700,
+      "to": 5500
+    },
+    {
+      "from": 5900,
+      "to": 5500
+    },
+    {
+      "from": 6000,
+      "to": 5500
+    },
+    {
+      "from": 6250,
+      "to": 6000
+    },
+    {
+      "from": 6300,
+      "to": 6000
+    },
+    {
+      "from": 6500,
+      "to": 6000
+    },
+    {
+      "from": 6600,
+      "to": 6000
+    },
+    {
+      "from": 6750,
+      "to": 6500
+    },
+    {
+      "from": 6800,
+      "to": 6500
+    },
+    {
+      "from": 7000,
+      "to": 6500
+    },
+    {
+      "from": 7500,
+      "to": 7000
+    },
+    {
+      "from": 8000,
+      "to": 7500
+    },
+    {
+      "from": 8500,
+      "to": 8000
+    },
+    {
+      "from": 9000,
+      "to": 8500
+    },
+    {
+      "from": 9500,
+      "to": 9000
+    },
+    {
+      "from": 9750,
+      "to": 9000
+    },
+    {
+      "from": 10000,
+      "to": 9000
+    },
+    {
+      "from": 10500,
+      "to": 9500
+    },
+    {
+      "from": 11000,
+      "to": 10000
+    },
+    {
+      "from": 11500,
+      "to": 11000
+    },
+    {
+      "from": 12000,
+      "to": 11000
+    },
+    {
+      "from": 12500,
+      "to": 12000
+    },
+    {
+      "from": 13000,
+      "to": 12000
+    },
+    {
+      "from": 13500,
+      "to": 13000
+    },
+    {
+      "from": 14000,
+      "to": 13000
+    },
+    {
+      "from": 14500,
+      "to": 14000
+    },
+    {
+      "from": 15000,
+      "to": 14000
+    },
+    {
+      "from": 15500,
+      "to": 14000
+    },
+    {
+      "from": 16500,
+      "to": 15000
+    },
+    {
+      "from": 17000,
+      "to": 16000
+    },
+    {
+      "from": 17500,
+      "to": 16000
+    },
+    {
+      "from": 18000,
+      "to": 17000
+    },
+    {
+      "from": 18500,
+      "to": 17000
+    },
+    {
+      "from": 20000,
+      "to": 18000
+    },
+    {
+      "from": 21000,
+      "to": 19000
+    },
+    {
+      "from": 21500,
+      "to": 20000
+    },
+    {
+      "from": 22000,
+      "to": 20000
+    },
+    {
+      "from": 23000,
+      "to": 21000
+    },
+    {
+      "from": 24000,
+      "to": 22000
+    },
+    {
+      "from": 25000,
+      "to": 23000
+    },
+    {
+      "from": 27500,
+      "to": 25000
+    },
+    {
+      "from": 28000,
+      "to": 26000
+    },
+    {
+      "from": 30000,
+      "to": 27000
+    },
+    {
+      "from": 31500,
+      "to": 29000
+    },
+    {
+      "from": 32000,
+      "to": 29000
+    },
+    {
+      "from": 33000,
+      "to": 30000
+    },
+    {
+      "from": 35000,
+      "to": 32000
+    },
+    {
+      "from": 36000,
+      "to": 33000
+    },
+    {
+      "from": 37000,
+      "to": 34000
+    },
+    {
+      "from": 38000,
+      "to": 35000
+    },
+    {
+      "from": 40000,
+      "to": 36000
+    },
+    {
+      "from": 45000,
+      "to": 41000
+    },
+    {
+      "from": 50000,
+      "to": 45000
+    },
+    {
+      "from": 55000,
+      "to": 50000
+    },
+    {
+      "from": 60000,
+      "to": 54000
+    },
+    {
+      "from": 70000,
+      "to": 63000
+    },
+    {
+      "from": 75000,
+      "to": 68000
+    },
+    {
+      "from": 80000,
+      "to": 72000
+    },
+    {
+      "from": 225000,
+      "to": 203000
+    }
+  ],
+  "validation": {
+    "pass": true,
+    "pages": 26,
+    "priceRows": 598,
+    "results": [
+      {
+        "url": "/post/fender-mustang-history-value/",
+        "priceRows": 16,
+        "images": 21,
+        "faqCount": 9,
+        "errors": []
+      },
+      {
+        "url": "/post/gibson-es-345-history-value/",
+        "priceRows": 22,
+        "images": 22,
+        "faqCount": 6,
+        "errors": []
+      },
+      {
+        "url": "/post/gibson-es-5-switchmaster-history-value/",
+        "priceRows": 16,
+        "images": 21,
+        "faqCount": 7,
+        "errors": []
+      },
+      {
+        "url": "/post/gibson-firebird-history-authentication-value/",
+        "priceRows": 16,
+        "images": 12,
+        "faqCount": 3,
+        "errors": []
+      },
+      {
+        "url": "/post/gibson-l5-ces-value-guide/",
+        "priceRows": 30,
+        "images": 13,
+        "faqCount": 6,
+        "errors": []
+      },
+      {
+        "url": "/post/vintage-gibson-hummingbird-history-value-guide/",
+        "priceRows": 23,
+        "images": 27,
+        "faqCount": 13,
+        "errors": []
+      },
+      {
+        "url": "/vintage-fender-jaguar-value-guide/",
+        "priceRows": 14,
+        "images": 11,
+        "faqCount": 7,
+        "errors": []
+      },
+      {
+        "url": "/vintage-fender-jazz-bass-value-guide/",
+        "priceRows": 22,
+        "images": 11,
+        "faqCount": 8,
+        "errors": []
+      },
+      {
+        "url": "/vintage-fender-jazzmaster-value-guide/",
+        "priceRows": 24,
+        "images": 12,
+        "faqCount": 5,
+        "errors": []
+      },
+      {
+        "url": "/vintage-fender-precision-bass-value-guide/",
+        "priceRows": 30,
+        "images": 11,
+        "faqCount": 8,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-acoustic-value-guide/",
+        "priceRows": 9,
+        "images": 8,
+        "faqCount": 6,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-es-125-value-guide/",
+        "priceRows": 27,
+        "images": 11,
+        "faqCount": 6,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-es-330-value-guide/",
+        "priceRows": 14,
+        "images": 11,
+        "faqCount": 6,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-es-335-value-guide/",
+        "priceRows": 23,
+        "images": 12,
+        "faqCount": 5,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-es-355-value-guide/",
+        "priceRows": 24,
+        "images": 11,
+        "faqCount": 7,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-j-200-value-guide/",
+        "priceRows": 33,
+        "images": 11,
+        "faqCount": 7,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-j-45-value-guide/",
+        "priceRows": 38,
+        "images": 10,
+        "faqCount": 7,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-les-paul-custom-value-guide/",
+        "priceRows": 20,
+        "images": 11,
+        "faqCount": 7,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-les-paul-junior-value-guide/",
+        "priceRows": 12,
+        "images": 11,
+        "faqCount": 8,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-les-paul-special-value-guide/",
+        "priceRows": 12,
+        "images": 11,
+        "faqCount": 7,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-lg-series-value-guide/",
+        "priceRows": 87,
+        "images": 10,
+        "faqCount": 6,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-sg-custom-value-guide/",
+        "priceRows": 19,
+        "images": 9,
+        "faqCount": 5,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-sg-junior-value-guide/",
+        "priceRows": 11,
+        "images": 10,
+        "faqCount": 5,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-sg-special-value-guide/",
+        "priceRows": 18,
+        "images": 9,
+        "faqCount": 5,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-sg-standard-value-guide/",
+        "priceRows": 19,
+        "images": 10,
+        "faqCount": 5,
+        "errors": []
+      },
+      {
+        "url": "/vintage-gibson-sg-value-guide/",
+        "priceRows": 19,
+        "images": 10,
+        "faqCount": 5,
+        "errors": []
+      }
+    ]
+  },
+  "liveDiffMustFix": 0,
+  "productionMerged": false
+}

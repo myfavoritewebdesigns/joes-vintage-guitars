@@ -1,4 +1,4 @@
-A clean vintage Gibson LG-2 has a guide range of $3,500 to $8,500 across its original eras, while the LG-0, LG-1 and LG-3 have their own ranges. These values assume excellent, original condition and the original case, reviewed in October 2026. I use the model, construction and repair history to narrow the appraisal.
+A clean vintage Gibson LG-2 has a guide range of $3,500 to $8,000 across its original eras, while the LG-0, LG-1 and LG-3 have their own ranges. These values assume excellent, original condition and the original case, reviewed in October 2026. I use the model, construction and repair history to narrow the appraisal.
 
 If the model is uncertain, start with my [Gibson LG identification and construction guide](/post/joesvintageguitarsaz-com-identify-gibson-lg-series/). A sunburst top alone doesn't distinguish an LG-1 from an LG-2, and the price table assumes that identification has already been resolved.
 
@@ -10,23 +10,23 @@ Each range assumes an all-original guitar in excellent condition, structurally s
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1958 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1959 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1960 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1961 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1962 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1963 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1964 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1965 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1966 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1967 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1968 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1969 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1970 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1971 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1972 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1973 | LG-0, broad original-run reference | $850 to $1,875 |
-| 1974 | LG-0, broad original-run reference | $850 to $1,875 |
+| 1958 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1959 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1960 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1961 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1962 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1963 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1964 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1965 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1966 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1967 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1968 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1969 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1970 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1971 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1972 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1973 | LG-0, broad original-run reference | $1,000 to $2,000 |
+| 1974 | LG-0, broad original-run reference | $1,000 to $2,000 |
 | 1943 | LG-1, broad original-run reference | $2,000 to $4,500 |
 | 1944 | LG-1, broad original-run reference | $2,000 to $4,500 |
 | 1945 | LG-1, broad original-run reference | $2,000 to $4,500 |
@@ -53,54 +53,54 @@ Each range assumes an all-original guitar in excellent condition, structurally s
 | 1966 | LG-1, broad original-run reference | $2,000 to $4,500 |
 | 1967 | LG-1, broad original-run reference | $2,000 to $4,500 |
 | 1968 | LG-1, broad original-run reference | $2,000 to $4,500 |
-| 1942 | LG-2, spruce-top Banner | $6,500 to $8,500 |
-| 1943 | LG-2, spruce-top Banner | $6,500 to $8,500 |
-| 1944 | LG-2, spruce-top Banner | $6,500 to $8,500 |
-| 1945 | LG-2, spruce-top Banner | $6,500 to $8,500 |
-| 1946 | LG-2, early postwar | $5,500 to $7,500 |
-| 1947 | LG-2, early postwar | $5,500 to $7,500 |
-| 1948 | LG-2, early postwar | $5,500 to $7,500 |
-| 1949 | LG-2, early postwar | $5,500 to $7,500 |
-| 1950 | LG-2, later original production | $3,500 to $6,500 |
-| 1951 | LG-2, later original production | $3,500 to $6,500 |
-| 1952 | LG-2, later original production | $3,500 to $6,500 |
-| 1953 | LG-2, later original production | $3,500 to $6,500 |
-| 1954 | LG-2, later original production | $3,500 to $6,500 |
-| 1955 | LG-2, later original production | $3,500 to $6,500 |
-| 1956 | LG-2, later original production | $3,500 to $6,500 |
-| 1957 | LG-2, later original production | $3,500 to $6,500 |
-| 1958 | LG-2, later original production | $3,500 to $6,500 |
-| 1959 | LG-2, later original production | $3,500 to $6,500 |
-| 1960 | LG-2, later original production | $3,500 to $6,500 |
-| 1961 | LG-2, later original production | $3,500 to $6,500 |
-| 1962 | LG-2, later original production | $3,500 to $6,500 |
-| 1942 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1943 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1944 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1945 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1946 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1947 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1948 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1949 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1950 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1951 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1952 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1953 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1954 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1955 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1956 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1957 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1958 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1959 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1960 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1961 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1962 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1963 | LG-3, broad original-run reference | $3,750 to $8,500 |
-| 1964 | LG-3, broad original-run reference | $3,750 to $8,500 |
+| 1942 | LG-2, spruce-top Banner | $6,000 to $8,000 |
+| 1943 | LG-2, spruce-top Banner | $6,000 to $8,000 |
+| 1944 | LG-2, spruce-top Banner | $6,000 to $8,000 |
+| 1945 | LG-2, spruce-top Banner | $6,000 to $8,000 |
+| 1946 | LG-2, early postwar | $5,000 to $7,000 |
+| 1947 | LG-2, early postwar | $5,000 to $7,000 |
+| 1948 | LG-2, early postwar | $5,000 to $7,000 |
+| 1949 | LG-2, early postwar | $5,000 to $7,000 |
+| 1950 | LG-2, later original production | $3,500 to $6,000 |
+| 1951 | LG-2, later original production | $3,500 to $6,000 |
+| 1952 | LG-2, later original production | $3,500 to $6,000 |
+| 1953 | LG-2, later original production | $3,500 to $6,000 |
+| 1954 | LG-2, later original production | $3,500 to $6,000 |
+| 1955 | LG-2, later original production | $3,500 to $6,000 |
+| 1956 | LG-2, later original production | $3,500 to $6,000 |
+| 1957 | LG-2, later original production | $3,500 to $6,000 |
+| 1958 | LG-2, later original production | $3,500 to $6,000 |
+| 1959 | LG-2, later original production | $3,500 to $6,000 |
+| 1960 | LG-2, later original production | $3,500 to $6,000 |
+| 1961 | LG-2, later original production | $3,500 to $6,000 |
+| 1962 | LG-2, later original production | $3,500 to $6,000 |
+| 1942 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1943 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1944 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1945 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1946 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1947 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1948 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1949 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1950 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1951 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1952 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1953 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1954 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1955 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1956 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1957 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1958 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1959 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1960 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1961 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1962 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1963 | LG-3, broad original-run reference | $3,500 to $8,000 |
+| 1964 | LG-3, broad original-run reference | $3,500 to $8,000 |
 
-The LG-0 reference combines $850 to $1,875 across its original run. The broad LG-1 envelope is $2,000 to $4,500, and the LG-3 envelope is $3,750 to $8,500. Those wide ranges span changes in age and configuration; they aren't interchangeable quotes for every example.
+The LG-0 reference combines $1,000 to $2,000 across its original run. The broad LG-1 envelope is $2,000 to $4,500, and the LG-3 envelope is $3,500 to $8,000. Those wide ranges span changes in age and configuration; they aren't interchangeable quotes for every example.
 
-For the LG-2, the spruce-top Banner reference is $6,500 to $8,500, early postwar production is $5,500 to $7,500, and the combined later-production reference is $3,500 to $6,500. A mahogany-top Banner guitar needs its own comparison. I haven't assigned it the spruce-top range.
+For the LG-2, the spruce-top Banner reference is $6,000 to $8,000, early postwar production is $5,000 to $7,000, and the combined later-production reference is $3,500 to $6,000. A mahogany-top Banner guitar needs its own comparison. I haven't assigned it the spruce-top range.
 
 The LG-3 table runs through 1964. A guitar near that boundary needs its exact model established before you apply a range. Later B-25 guitars aren't automatically included under the LG-2 name.
 

@@ -1,4 +1,4 @@
-A clean, original, full-depth Gibson ES-125 from the 1950s has a guide range of $2,500 to $3,250 in excellent condition with its original case. The standard single-pickup model from 1960 to 1970 sits at $1,500 to $2,250. A thin-body cutaway or two-pickup version needs its own appraisal.
+A clean, original, full-depth Gibson ES-125 from the 1950s has a guide range of $2,500 to $3,000 in excellent condition with its original case. The standard single-pickup model from 1960 to 1970 sits at $1,500 to $2,500. A thin-body cutaway or two-pickup version needs its own appraisal.
 
 I buy vintage Gibsons nationwide from Mesa, Arizona. With an ES-125, I establish the complete model name before applying a range because the extra letters describe different instruments. My [Gibson ES-125 identification and authentication guide](/post/gibson-es-125-guide/) covers those variants, dates and originality details.
 
@@ -10,33 +10,33 @@ The table groups similar configurations into era ranges. Adjacent years can shar
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1941 | Early full-depth single-pickup sunburst | $2,625 to $3,500 |
-| 1942 | Early full-depth single-pickup sunburst | $2,625 to $3,500 |
-| 1946 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 |
-| 1947 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 |
-| 1948 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 |
-| 1949 | Postwar full-depth, nonadjustable P-90 | $2,625 to $3,500 |
-| 1950 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
-| 1951 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
-| 1952 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
-| 1953 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
-| 1954 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
-| 1955 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
-| 1956 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
-| 1957 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
-| 1958 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
-| 1959 | Full-depth single-pickup sunburst | $2,500 to $3,250 |
-| 1960 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
-| 1961 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
-| 1962 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
-| 1963 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
-| 1964 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
-| 1965 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
-| 1966 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
-| 1967 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
-| 1968 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
-| 1969 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
-| 1970 | Full-depth single-pickup sunburst | $1,500 to $2,250 |
+| 1941 | Early full-depth single-pickup sunburst | $2,500 to $3,500 |
+| 1942 | Early full-depth single-pickup sunburst | $2,500 to $3,500 |
+| 1946 | Postwar full-depth, nonadjustable P-90 | $2,500 to $3,500 |
+| 1947 | Postwar full-depth, nonadjustable P-90 | $2,500 to $3,500 |
+| 1948 | Postwar full-depth, nonadjustable P-90 | $2,500 to $3,500 |
+| 1949 | Postwar full-depth, nonadjustable P-90 | $2,500 to $3,500 |
+| 1950 | Full-depth single-pickup sunburst | $2,500 to $3,000 |
+| 1951 | Full-depth single-pickup sunburst | $2,500 to $3,000 |
+| 1952 | Full-depth single-pickup sunburst | $2,500 to $3,000 |
+| 1953 | Full-depth single-pickup sunburst | $2,500 to $3,000 |
+| 1954 | Full-depth single-pickup sunburst | $2,500 to $3,000 |
+| 1955 | Full-depth single-pickup sunburst | $2,500 to $3,000 |
+| 1956 | Full-depth single-pickup sunburst | $2,500 to $3,000 |
+| 1957 | Full-depth single-pickup sunburst | $2,500 to $3,000 |
+| 1958 | Full-depth single-pickup sunburst | $2,500 to $3,000 |
+| 1959 | Full-depth single-pickup sunburst | $2,500 to $3,000 |
+| 1960 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
+| 1961 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
+| 1962 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
+| 1963 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
+| 1964 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
+| 1965 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
+| 1966 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
+| 1967 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
+| 1968 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
+| 1969 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
+| 1970 | Full-depth single-pickup sunburst | $1,500 to $2,500 |
 
 The dates follow this site's original-production chronology: 1941 and 1942, then 1946 through 1970. There are no invented wartime production rows or rows after the original run. The early postwar range is a shared configuration reference, not a separately established premium for a 1946 example.
 
@@ -84,7 +84,7 @@ Repairs and missing parts can dominate an early ES-125's appraisal. A crack repa
 
 ## The 1950s Single-Pickup Model
 
-The 1950 to 1959 rows share a $2,500 to $3,250 range for excellent originals with their original cases. Replacement tuners, later cases and substantial wear need to be considered separately.
+The 1950 to 1959 rows share a $2,500 to $3,000 range for excellent originals with their original cases. Replacement tuners, later cases and substantial wear need to be considered separately.
 
 The one-pickup layout is part of this model's identity. It doesn't make the guitar incomplete. Adding a second pickup would change the instrument rather than move it automatically into the factory two-pickup market.
 

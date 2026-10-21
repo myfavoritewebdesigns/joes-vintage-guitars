@@ -1,4 +1,4 @@
-A clean, original two-pickup Gibson ES-330 from the 1959 to 1962 dot-neck era has a guide range of $9,000 to $11,500 in sunburst or cherry. Standard-finish 1966 to 1972 examples sit at $5,250 to $6,500. Those figures assume excellent condition and the original case; I assess repairs and changes separately.
+A clean, original two-pickup Gibson ES-330 from the 1959 to 1962 dot-neck era has a guide range of $8,500 to $11,000 in sunburst or cherry. Standard-finish 1966 to 1972 examples sit at $5,000 to $6,000. Those figures assume excellent condition and the original case; I assess repairs and changes separately.
 
 I buy vintage ES-330s and compare them by their own construction, condition and production period. My [Gibson ES-330 dating guide](/gibson-es-330-dating-guide/) covers the features and original parts needed to establish the year. Here, I'll keep the focus on price and the differences that change an appraisal.
 
@@ -10,20 +10,20 @@ The table assumes original finish and parts, excellent condition, an original ca
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1959 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 |
-| 1960 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 |
-| 1961 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 |
-| 1962 | Two pickups, dots, sunburst or cherry | $9,000 to $11,500 |
-| 1963 | Two pickups, blocks, sunburst or cherry | $6,750 to $10,000 |
-| 1964 | Two pickups, blocks, sunburst or cherry | $6,750 to $10,000 |
-| 1965 | Two pickups, blocks, sunburst or cherry | $6,750 to $10,000 |
-| 1966 | Two pickups, standard era finishes | $5,250 to $6,500 |
-| 1967 | Two pickups, standard era finishes | $5,250 to $6,500 |
-| 1968 | Two pickups, standard era finishes | $5,250 to $6,500 |
-| 1969 | Two pickups, standard era finishes | $5,250 to $6,500 |
-| 1970 | Two pickups, standard era finishes | $5,250 to $6,500 |
-| 1971 | Two pickups, standard era finishes | $5,250 to $6,500 |
-| 1972 | Two pickups, standard era finishes | $5,250 to $6,500 |
+| 1959 | Two pickups, dots, sunburst or cherry | $8,500 to $11,000 |
+| 1960 | Two pickups, dots, sunburst or cherry | $8,500 to $11,000 |
+| 1961 | Two pickups, dots, sunburst or cherry | $8,500 to $11,000 |
+| 1962 | Two pickups, dots, sunburst or cherry | $8,500 to $11,000 |
+| 1963 | Two pickups, blocks, sunburst or cherry | $6,500 to $9,000 |
+| 1964 | Two pickups, blocks, sunburst or cherry | $6,500 to $9,000 |
+| 1965 | Two pickups, blocks, sunburst or cherry | $6,500 to $9,000 |
+| 1966 | Two pickups, standard era finishes | $5,000 to $6,000 |
+| 1967 | Two pickups, standard era finishes | $5,000 to $6,000 |
+| 1968 | Two pickups, standard era finishes | $5,000 to $6,000 |
+| 1969 | Two pickups, standard era finishes | $5,000 to $6,000 |
+| 1970 | Two pickups, standard era finishes | $5,000 to $6,000 |
+| 1971 | Two pickups, standard era finishes | $5,000 to $6,000 |
+| 1972 | Two pickups, standard era finishes | $5,000 to $6,000 |
 
 Several years share an era range. The 1963 to 1965 range is broad enough to cover differences within that period. I don't apply a fixed annual increase or decrease without inspecting the guitar.
 

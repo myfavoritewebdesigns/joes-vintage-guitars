@@ -1,4 +1,4 @@
-Vintage Gibson SG Custom guide values run from $3,000 to $6,600 for typical 1970s walnut guitars to $17,000 to $24,000 for early white small-guard examples, reviewed in October 2026. Three original humbuckers, factory finish and an unbroken neck remain the starting point.
+Vintage Gibson SG Custom guide values run from $3,000 to $6,000 for typical 1970s walnut guitars to $16,000 to $22,000 for early white small-guard examples, reviewed in October 2026. Three original humbuckers, factory finish and an unbroken neck remain the starting point.
 
 For the year and original specification, use my [Gibson SG Custom dating and identification guide](/gibson-sg-dating-guide/#sg-custom). This guide covers market value and the features that move it.
 
@@ -8,27 +8,27 @@ For the year and original specification, use my [Gibson SG Custom dating and ide
 
 | Year | Value Range | Configuration And Year Notes |
 | --- | --- | --- |
-| 1961 | $17,000 to $24,000 | White finish, three humbuckers and early vibrato. |
-| 1962 | $17,000 to $24,000 | White finish, three humbuckers and early vibrato. |
-| 1963 | $17,000 to $24,000 | White small-guard Custom; lyre or factory Bigsby. |
-| 1964 | $17,000 to $24,000 | White small-guard Custom; lyre or factory Bigsby. |
-| 1965 | $17,000 to $24,000 | White small-guard Custom; lyre or factory Bigsby. |
-| 1966 | $6,500 to $14,000 | Small to large guard transition; match actual version. |
-| 1967 | $6,500 to $14,000 | White large-guard Custom; no walnut assumption. |
-| 1968 | $6,500 to $14,000 | White large-guard Custom; no walnut assumption. |
-| 1969 | $6,500 to $14,000 | White to walnut transition; finish changes the comparison. |
-| 1970 | $6,500 to $14,000 | Walnut large-guard reference; white priced separately. |
-| 1971 | $6,500 to $14,000 | Large and later small-guard configurations overlap. |
-| 1972 | $3,000 to $6,600 | Walnut Custom; factory Bigsby or stopbar. |
-| 1973 | $3,000 to $6,600 | Walnut Custom; factory Bigsby or stopbar. |
-| 1974 | $3,000 to $6,600 | Walnut Custom; factory Bigsby or stopbar. |
-| 1975 | $3,000 to $6,600 | Walnut Custom; factory Bigsby or stopbar. |
-| 1976 | $3,000 to $6,600 | Walnut Custom; factory Bigsby or stopbar. |
-| 1977 | $3,000 to $6,600 | Walnut Custom; factory Bigsby or stopbar. |
-| 1978 | $3,000 to $6,600 | Walnut Custom; factory Bigsby or stopbar. |
-| 1979 | $3,000 to $6,600 | Walnut Custom; factory Bigsby or stopbar. |
+| 1961 | $16,000 to $22,000 | White finish, three humbuckers and early vibrato. |
+| 1962 | $16,000 to $22,000 | White finish, three humbuckers and early vibrato. |
+| 1963 | $16,000 to $22,000 | White small-guard Custom; lyre or factory Bigsby. |
+| 1964 | $16,000 to $22,000 | White small-guard Custom; lyre or factory Bigsby. |
+| 1965 | $16,000 to $22,000 | White small-guard Custom; lyre or factory Bigsby. |
+| 1966 | $6,000 to $13,000 | Small to large guard transition; match actual version. |
+| 1967 | $6,000 to $13,000 | White large-guard Custom; no walnut assumption. |
+| 1968 | $6,000 to $13,000 | White large-guard Custom; no walnut assumption. |
+| 1969 | $6,000 to $13,000 | White to walnut transition; finish changes the comparison. |
+| 1970 | $6,000 to $13,000 | Walnut large-guard reference; white priced separately. |
+| 1971 | $6,000 to $13,000 | Large and later small-guard configurations overlap. |
+| 1972 | $3,000 to $6,000 | Walnut Custom; factory Bigsby or stopbar. |
+| 1973 | $3,000 to $6,000 | Walnut Custom; factory Bigsby or stopbar. |
+| 1974 | $3,000 to $6,000 | Walnut Custom; factory Bigsby or stopbar. |
+| 1975 | $3,000 to $6,000 | Walnut Custom; factory Bigsby or stopbar. |
+| 1976 | $3,000 to $6,000 | Walnut Custom; factory Bigsby or stopbar. |
+| 1977 | $3,000 to $6,000 | Walnut Custom; factory Bigsby or stopbar. |
+| 1978 | $3,000 to $6,000 | Walnut Custom; factory Bigsby or stopbar. |
+| 1979 | $3,000 to $6,000 | Walnut Custom; factory Bigsby or stopbar. |
 
-White is the standard finish through 1968, with walnut joining later in the decade. The $6,500 to $14,000 large-guard range includes played white and walnut guitars. Finish, condition and repairs affect their relative values; I don't apply one fixed white-finish premium. A later small-guard 1971 guitar belongs with the 1970s configuration.
+White is the standard finish through 1968, with walnut joining later in the decade. The $6,000 to $13,000 large-guard range includes played white and walnut guitars. Finish, condition and repairs affect their relative values; I don't apply one fixed white-finish premium. A later small-guard 1971 guitar belongs with the 1970s configuration.
 
 ### Condition Behind The Ranges
 
@@ -50,7 +50,7 @@ White is the standard finish through 1968, with walnut joining later in the deca
 
 The SG Custom combines three humbuckers, an ebony fingerboard, block inlays, a split-diamond headstock and gold hardware. Early examples retain Les Paul branding on the pointed SG shape. The white finish often ages toward cream, which is different from proving a separate factory color.
 
-The early $17,000 to $24,000 band assumes original white finish and original pickups, with no disclosed structural repair. A quality refret and minor hardware changes can fit within the range. An unusually clean, complete guitar needs a closer appraisal.
+The early $16,000 to $22,000 band assumes original white finish and original pickups, with no disclosed structural repair. A quality refret and minor hardware changes can fit within the range. An unusually clean, complete guitar needs a closer appraisal.
 
 Refinished Customs and guitars with replacement pickups can sell for substantially less. Those are altered instruments, with different condition assumptions from the early original-finish group. The full pickup set and repair history explain more than the Custom name alone.
 
@@ -64,7 +64,7 @@ The exact pickup set, original white finish and repair history have to travel to
 
 The large guard arrives during 1966. Early small-guard examples remain part of that transition, and should be valued by their actual configuration. White is the finish reference through 1968; walnut belongs to the later part of the decade and the 1970s.
 
-The $6,500 to $14,000 large-guard range includes played white and walnut guitars. An original white finish can add collector interest, but condition, repairs and retained parts also affect the result. I don't use one automatic finish premium.
+The $6,000 to $13,000 large-guard range includes played white and walnut guitars. An original white finish can add collector interest, but condition, repairs and retained parts also affect the result. I don't use one automatic finish premium.
 
 The 1971 row needs particular care. A Custom with the later small guard and front control arrangement belongs with the later construction reference. The name stays Custom through the period when the Standard and Special names briefly give way to Deluxe and Pro.
 

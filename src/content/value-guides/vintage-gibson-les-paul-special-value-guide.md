@@ -1,4 +1,4 @@
-A clean, original TV Yellow Gibson Les Paul Special from 1955 to 1959 carries a $13,000 to $21,000 guide range. The guide range for a 1959 cherry Special is $8,000 to $15,000. Later 1970s single-cutaway reissues belong in a separate price group, covered year by year below.
+A clean, original TV Yellow Gibson Les Paul Special from 1955 to 1959 carries a $12,000 to $19,000 guide range. The guide range for a 1959 cherry Special is $7,500 to $14,000. Later 1970s single-cutaway reissues belong in a separate price group, covered year by year below.
 
 I buy vintage Specials and first establish which body style, finish and production period I'm comparing. For the original single-cutaway instruments, my [1955 to 1958 Les Paul Special authentication guide](/post/1955-1958-tv-yellow-les-paul-special-guide/) covers the construction and original parts. This page explains the price references and the condition behind them.
 
@@ -10,18 +10,18 @@ Adjacent years can share a range. I still assess the body style, finish and cond
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1955 | TV Yellow, single-cutaway | $13,000 to $21,000 |
-| 1956 | TV Yellow, single-cutaway | $13,000 to $21,000 |
-| 1957 | TV Yellow, single-cutaway | $13,000 to $21,000 |
-| 1958 | TV Yellow, single-cutaway | $13,000 to $21,000 |
-| 1959 | TV Yellow, rounded double-cutaway | $13,000 to $21,000 |
-| 1959 | Cherry, rounded double-cutaway | $8,000 to $15,000 |
-| 1960 | Cherry, rounded slab body | $10,000 to $12,500 |
-| 1974 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
-| 1976 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
-| 1977 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
-| 1978 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
-| 1979 | Les Paul 55, single-cutaway sunburst | $2,250 to $4,100 |
+| 1955 | TV Yellow, single-cutaway | $12,000 to $19,000 |
+| 1956 | TV Yellow, single-cutaway | $12,000 to $19,000 |
+| 1957 | TV Yellow, single-cutaway | $12,000 to $19,000 |
+| 1958 | TV Yellow, single-cutaway | $12,000 to $19,000 |
+| 1959 | TV Yellow, rounded double-cutaway | $12,000 to $19,000 |
+| 1959 | Cherry, rounded double-cutaway | $7,500 to $14,000 |
+| 1960 | Cherry, rounded slab body | $9,000 to $12,000 |
+| 1974 | Les Paul 55, single-cutaway sunburst | $2,500 to $4,000 |
+| 1976 | Les Paul 55, single-cutaway sunburst | $2,500 to $4,000 |
+| 1977 | Les Paul 55, single-cutaway sunburst | $2,500 to $4,000 |
+| 1978 | Les Paul 55, single-cutaway sunburst | $2,500 to $4,000 |
+| 1979 | Les Paul 55, single-cutaway sunburst | $2,500 to $4,000 |
 
 The 1960 cherry row covers the rounded slab-body guitar, sometimes described as an SG Special. It assumes excellent, original condition. Worn or repaired examples need a separate appraisal.
 

@@ -1,4 +1,4 @@
-A standard postwar Gibson J-200 has guide ranges from $4,750 to $25,000 in excellent, original condition across the years covered below. A 1950s example sits at $16,500 to $21,500, while 1970s examples use $4,750 to $6,250. Those ranges assume the original case and aren't guaranteed selling prices.
+A standard postwar Gibson J-200 has guide ranges from $4,500 to $23,000 in excellent, original condition across the years covered below. A 1950s example sits at $15,000 to $20,000, while 1970s examples use $4,500 to $6,000. Those ranges assume the original case and aren't guaranteed selling prices.
 
 These ranges were reviewed in October 2026. I check the guitar's exact year, condition and repair history before narrowing an appraisal. Repaired or modified examples may fall outside the clean-original ranges.
 
@@ -14,39 +14,39 @@ The assumption is all-original, excellent condition, with the original case and 
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1947 | Early postwar maple | $20,000 to $25,000 |
-| 1948 | Early postwar maple | $20,000 to $25,000 |
-| 1949 | Early postwar maple | $20,000 to $25,000 |
-| 1950 | Standard natural or sunburst | $16,500 to $21,500 |
-| 1951 | Standard natural or sunburst | $16,500 to $21,500 |
-| 1952 | Standard natural or sunburst | $16,500 to $21,500 |
-| 1953 | Standard natural or sunburst | $16,500 to $21,500 |
-| 1954 | Standard natural or sunburst | $16,500 to $21,500 |
-| 1955 | Standard natural or sunburst | $16,500 to $21,500 |
-| 1956 | Standard natural or sunburst | $16,500 to $21,500 |
-| 1957 | Standard natural or sunburst | $16,500 to $21,500 |
-| 1958 | Standard natural or sunburst | $16,500 to $21,500 |
-| 1959 | Standard natural or sunburst | $16,500 to $21,500 |
-| 1960 | Early 1960s standard | $13,500 to $17,500 |
-| 1961 | Early 1960s standard | $13,500 to $17,500 |
-| 1962 | Early 1960s standard | $13,500 to $17,500 |
-| 1963 | Early 1960s standard | $13,500 to $17,500 |
-| 1964 | Early 1960s standard | $13,500 to $17,500 |
-| 1965 | Later 1960s | $6,500 to $11,500 |
-| 1966 | Later 1960s | $6,500 to $11,500 |
-| 1967 | Later 1960s | $6,500 to $11,500 |
-| 1968 | Later 1960s | $6,500 to $11,500 |
-| 1969 | Later 1960s | $6,500 to $11,500 |
-| 1970 | J-200 and Artist period | $4,750 to $6,250 |
-| 1971 | J-200 and Artist period | $4,750 to $6,250 |
-| 1972 | J-200 and Artist period | $4,750 to $6,250 |
-| 1973 | J-200 and Artist period | $4,750 to $6,250 |
-| 1974 | J-200 and Artist period | $4,750 to $6,250 |
-| 1975 | J-200 and Artist period | $4,750 to $6,250 |
-| 1976 | J-200 and Artist period | $4,750 to $6,250 |
-| 1977 | J-200 and Artist period | $4,750 to $6,250 |
-| 1978 | J-200 and Artist period | $4,750 to $6,250 |
-| 1979 | J-200 and Artist period | $4,750 to $6,250 |
+| 1947 | Early postwar maple | $18,000 to $23,000 |
+| 1948 | Early postwar maple | $18,000 to $23,000 |
+| 1949 | Early postwar maple | $18,000 to $23,000 |
+| 1950 | Standard natural or sunburst | $15,000 to $20,000 |
+| 1951 | Standard natural or sunburst | $15,000 to $20,000 |
+| 1952 | Standard natural or sunburst | $15,000 to $20,000 |
+| 1953 | Standard natural or sunburst | $15,000 to $20,000 |
+| 1954 | Standard natural or sunburst | $15,000 to $20,000 |
+| 1955 | Standard natural or sunburst | $15,000 to $20,000 |
+| 1956 | Standard natural or sunburst | $15,000 to $20,000 |
+| 1957 | Standard natural or sunburst | $15,000 to $20,000 |
+| 1958 | Standard natural or sunburst | $15,000 to $20,000 |
+| 1959 | Standard natural or sunburst | $15,000 to $20,000 |
+| 1960 | Early 1960s standard | $13,000 to $16,000 |
+| 1961 | Early 1960s standard | $13,000 to $16,000 |
+| 1962 | Early 1960s standard | $13,000 to $16,000 |
+| 1963 | Early 1960s standard | $13,000 to $16,000 |
+| 1964 | Early 1960s standard | $13,000 to $16,000 |
+| 1965 | Later 1960s | $6,000 to $11,000 |
+| 1966 | Later 1960s | $6,000 to $11,000 |
+| 1967 | Later 1960s | $6,000 to $11,000 |
+| 1968 | Later 1960s | $6,000 to $11,000 |
+| 1969 | Later 1960s | $6,000 to $11,000 |
+| 1970 | J-200 and Artist period | $4,500 to $6,000 |
+| 1971 | J-200 and Artist period | $4,500 to $6,000 |
+| 1972 | J-200 and Artist period | $4,500 to $6,000 |
+| 1973 | J-200 and Artist period | $4,500 to $6,000 |
+| 1974 | J-200 and Artist period | $4,500 to $6,000 |
+| 1975 | J-200 and Artist period | $4,500 to $6,000 |
+| 1976 | J-200 and Artist period | $4,500 to $6,000 |
+| 1977 | J-200 and Artist period | $4,500 to $6,000 |
+| 1978 | J-200 and Artist period | $4,500 to $6,000 |
+| 1979 | J-200 and Artist period | $4,500 to $6,000 |
 
 The ranges assume the stated condition. I wouldn't apply a clean-original value to a guitar with unresolved repairs, significant changes or an uncertain case history.
 
@@ -84,7 +84,7 @@ Replacement tuners, bridge work, pickup installations and high action can also a
 
 The earlier SJ-200 name and the later J-200 name can appear within the postwar family. I don't add a premium merely because a seller uses the longer name. The guitar's construction, date and originality need to support the comparison.
 
-The early postwar range is $20,000 to $25,000, and the 1950 to 1959 range is $16,500 to $21,500. Both assume excellent, original condition with the original case. Worn or repaired guitars need a separate appraisal.
+The early postwar range is $18,000 to $23,000, and the 1950 to 1959 range is $15,000 to $20,000. Both assume excellent, original condition with the original case. Worn or repaired guitars need a separate appraisal.
 
 An early guitar with an original-looking exterior can still have bridge-plate changes, an old neck reset or repaired cracks. Those details affect its collector category even when they don't stand out in a full-front photograph. I want the repair description before assuming it belongs in the clean reference.
 
@@ -102,7 +102,7 @@ The original case is another part of the comparison. A worn original case and a 
 
 ## The 1960s Bridge And Condition Questions
 
-The early 1960s reference is $13,500 to $17,500 for the standard model in the stated condition. The combined later 1960s envelope is $6,500 to $11,500. A broad table can't settle where a transitional or modified example belongs.
+The early 1960s reference is $13,000 to $16,000 for the standard model in the stated condition. The combined later 1960s envelope is $6,000 to $11,000. A broad table can't settle where a transitional or modified example belongs.
 
 Before I use either group, I need to know what bridge and saddle arrangement is present and whether it has been changed. The price question concerns the guitar being offered now. A conversion doesn't become original because it resembles a familiar earlier design.
 
@@ -136,7 +136,7 @@ The photograph above records one bridge configuration in my archive. It isn't a 
 
 ## The 1970s J-200 And Artist Period
 
-The 1970 to 1979 range is $4,750 to $6,250 for an all-original excellent example with its original case. Individual years share that broad range, but condition and configuration still affect the appraisal.
+The 1970 to 1979 range is $4,500 to $6,000 for an all-original excellent example with its original case. Individual years share that broad range, but condition and configuration still affect the appraisal.
 
 Confirm the complete model name when describing a 1970s guitar. Artist, standard and related family names can appear in listings, sometimes inconsistently. I won't value a different rosewood model or a later reissue from this standard vintage table.
 

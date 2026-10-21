@@ -1,4 +1,4 @@
-A clean 1955 to 1959 Gibson J-45 has a guide range of $7,500 to $10,000 in excellent condition with original parts and the original case. Earlier Banner guitars and later square-shoulder examples sit in different ranges. I reviewed these values in October 2026 and assess repairs and originality separately.
+A clean 1955 to 1959 Gibson J-45 has a guide range of $7,000 to $9,000 in excellent condition with original parts and the original case. Earlier Banner guitars and later square-shoulder examples sit in different ranges. I reviewed these values in October 2026 and assess repairs and originality separately.
 
 For model identification, use my [Gibson J-45, J-50 and Southern Jumbo identification guide](/post/identify-vintage-gibson-j45-j50-sj/). This page assumes the guitar has been identified and focuses on its value, the condition the ranges require and what an owner needs for an appraisal.
 
@@ -10,44 +10,44 @@ The figures assume an all-original guitar in excellent condition with its origin
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1942 | Banner, combined wood references | $11,000 to $18,500 |
-| 1943 | Banner, combined wood references | $11,000 to $18,500 |
-| 1944 | Banner, combined wood references | $11,000 to $18,500 |
-| 1945 | Banner, combined wood references | $11,000 to $18,500 |
-| 1946 | Early postwar and small-guard era | $8,500 to $14,500 |
-| 1947 | Early postwar and small-guard era | $8,500 to $14,500 |
-| 1948 | Early postwar and small-guard era | $8,500 to $14,500 |
-| 1949 | Early postwar and small-guard era | $8,500 to $14,500 |
-| 1950 | Early postwar and small-guard era | $8,500 to $14,500 |
-| 1951 | Early postwar and small-guard era | $8,500 to $14,500 |
-| 1952 | Early postwar and small-guard era | $8,500 to $14,500 |
-| 1953 | Early postwar and small-guard era | $8,500 to $14,500 |
-| 1954 | Early postwar and small-guard era | $8,500 to $14,500 |
-| 1955 | Large-guard sunburst era | $7,500 to $10,000 |
-| 1956 | Large-guard sunburst era | $7,500 to $10,000 |
-| 1957 | Large-guard sunburst era | $7,500 to $10,000 |
-| 1958 | Large-guard sunburst era | $7,500 to $10,000 |
-| 1959 | Large-guard sunburst era | $7,500 to $10,000 |
-| 1960 | Standard sunburst, including body transition | $3,250 to $7,500 |
-| 1961 | Standard sunburst, including body transition | $3,250 to $7,500 |
-| 1962 | Standard sunburst, including body transition | $3,250 to $7,500 |
-| 1963 | Standard sunburst, including body transition | $3,250 to $7,500 |
-| 1964 | Standard sunburst, including body transition | $3,250 to $7,500 |
-| 1965 | Standard sunburst, including body transition | $3,250 to $7,500 |
-| 1966 | Standard sunburst, including body transition | $3,250 to $7,500 |
-| 1967 | Standard sunburst, including body transition | $3,250 to $7,500 |
-| 1968 | Standard sunburst, including body transition | $3,250 to $7,500 |
-| 1969 | Standard sunburst, including body transition | $3,250 to $7,500 |
-| 1970 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
-| 1971 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
-| 1972 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
-| 1973 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
-| 1974 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
-| 1975 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
-| 1976 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
-| 1977 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
-| 1978 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
-| 1979 | Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
+| 1942 | Banner, combined wood references | $10,000 to $17,000 |
+| 1943 | Banner, combined wood references | $10,000 to $17,000 |
+| 1944 | Banner, combined wood references | $10,000 to $17,000 |
+| 1945 | Banner, combined wood references | $10,000 to $17,000 |
+| 1946 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1947 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1948 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1949 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1950 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1951 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1952 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1953 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1954 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1955 | Large-guard sunburst era | $7,000 to $9,000 |
+| 1956 | Large-guard sunburst era | $7,000 to $9,000 |
+| 1957 | Large-guard sunburst era | $7,000 to $9,000 |
+| 1958 | Large-guard sunburst era | $7,000 to $9,000 |
+| 1959 | Large-guard sunburst era | $7,000 to $9,000 |
+| 1960 | Standard sunburst, including body transition | $3,000 to $7,000 |
+| 1961 | Standard sunburst, including body transition | $3,000 to $7,000 |
+| 1962 | Standard sunburst, including body transition | $3,000 to $7,000 |
+| 1963 | Standard sunburst, including body transition | $3,000 to $7,000 |
+| 1964 | Standard sunburst, including body transition | $3,000 to $7,000 |
+| 1965 | Standard sunburst, including body transition | $3,000 to $7,000 |
+| 1966 | Standard sunburst, including body transition | $3,000 to $7,000 |
+| 1967 | Standard sunburst, including body transition | $3,000 to $7,000 |
+| 1968 | Standard sunburst, including body transition | $3,000 to $7,000 |
+| 1969 | Standard sunburst, including body transition | $3,000 to $7,000 |
+| 1970 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| 1971 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| 1972 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| 1973 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| 1974 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| 1975 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| 1976 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| 1977 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| 1978 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| 1979 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
 
 The Banner range covers several top-wood configurations. The 1960s range includes the standard sunburst model's body transition, with rare factory colors and special provenance assessed separately. I identify those features before placing a guitar within a band.
 
@@ -63,7 +63,7 @@ The ranges assume clean, original guitars in the condition described above. Repa
 
 ## The Banner Years
 
-The 1942 to 1945 Banner range is $11,000 to $18,500 across the wood configurations covered here. The decal alone doesn't establish that value. Construction, originality and repairs determine which part of the range fits.
+The 1942 to 1945 Banner range is $10,000 to $17,000 across the wood configurations covered here. The decal alone doesn't establish that value. Construction, originality and repairs determine which part of the range fits.
 
 I keep the Banner group separate from postwar J-45s. A seller's broad wartime date can be enough to begin research, but it isn't enough to claim a precise year or a specific wood premium. The identification page handles those questions before a final valuation.
 
@@ -73,7 +73,7 @@ An instrument with a celebrity story also needs separate treatment. A claimed as
 
 ## Early Postwar And Small-Guard Guitars
 
-The 1946 to 1954 range is $8,500 to $14,500. It covers several configurations, so a confirmed year and condition assessment help narrow the value. I don't treat the entire period as one identical guitar.
+The 1946 to 1954 range is $8,000 to $14,000. It covers several configurations, so a confirmed year and condition assessment help narrow the value. I don't treat the entire period as one identical guitar.
 
 The distinction between an original finish and a refinished guitar can be larger than the difference between adjacent years. I don't let an attractive date substitute for a complete description. A well-repaired instrument may be an appealing player while belonging outside the clean reference.
 
@@ -95,7 +95,7 @@ I keep case details separate from the instrument's structural condition. A missi
 
 ## Later 1950s Values
 
-For 1955 to 1959, the guide range is $7,500 to $10,000. Each year uses that shared band. I assess condition and originality before assigning a value within it.
+For 1955 to 1959, the guide range is $7,000 to $9,000. Each year uses that shared band. I assess condition and originality before assigning a value within it.
 
 This is a useful place to separate a guitar's age from its present state. An original finish, documented maintenance and a clear parts history make comparisons easier. A listing that says only that the guitar plays well leaves several valuation questions unanswered.
 
@@ -105,7 +105,7 @@ I don't advise an owner to reinstall parts before sending photographs. The first
 
 ## A 1960s J-45 Needs Its Configuration
 
-The standard sunburst 1960s envelope is $3,250 to $7,500. That is the widest construction span in this table: it includes earlier round-shoulder examples and the later body transition. A confirmed configuration is needed before choosing a narrower comparison.
+The standard sunburst 1960s envelope is $3,000 to $7,000. That is the widest construction span in this table: it includes earlier round-shoulder examples and the later body transition. A confirmed configuration is needed before choosing a narrower comparison.
 
 The site's identification guide explains the dating markers. Here, the consequence is that a late square-shoulder guitar shouldn't be compared automatically with an early round-shoulder one. Sharing the J-45 name doesn't make every specification or market category identical.
 
@@ -121,7 +121,7 @@ A transition-year guitar needs its actual construction checked. I wouldn't force
 
 ## Square-Shoulder J-45 And Deluxe Values
 
-The combined 1970 to 1979 reference is $2,250 to $3,000. These guitars have their own market context, so I haven't borrowed a 1950s range to make the later years look more expensive. Each annual row repeats the clearly labeled 1970s reference.
+The combined 1970 to 1979 reference is $2,500 to $3,000. These guitars have their own market context, so I haven't borrowed a 1950s range to make the later years look more expensive. Each annual row repeats the clearly labeled 1970s reference.
 
 A clean, playable early example differs from one with high action or binding work. The table assumes the guitar is structurally sound and properly playable. I assess repair and service needs separately.
 

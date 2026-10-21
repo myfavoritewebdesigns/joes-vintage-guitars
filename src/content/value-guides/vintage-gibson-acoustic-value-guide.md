@@ -1,4 +1,4 @@
-Vintage Gibson acoustic values differ sharply by model: an excellent, original 1955 to 1959 J-45 falls in the $7,500 to $10,000 range, while a 1950s J-200 sits at $16,500 to $21,500. Both assume the original case. They aren't interchangeable estimates for a large old Gibson acoustic.
+Vintage Gibson acoustic values differ sharply by model: an excellent, original 1955 to 1959 J-45 falls in the $7,000 to $9,000 range, while a 1950s J-200 sits at $15,000 to $20,000. Both assume the original case. They aren't interchangeable estimates for a large old Gibson acoustic.
 
 I use this hub to connect the model guides and explain which table fits each guitar. The ranges were reviewed in October 2026. A repaired or modified guitar needs its own appraisal.
 
@@ -8,15 +8,15 @@ The rows below are selected examples, not complete model ranges. Open the matchi
 
 | Model | Example Era Or Configuration | Value Range |
 | --- | --- | --- |
-| J-45 | 1957: Large-guard sunburst era | $7,500 to $10,000 |
-| J-45 | 1975: Square-shoulder J-45 and Deluxe | $2,250 to $3,000 |
-| J-200 | 1957: Standard natural or sunburst | $16,500 to $21,500 |
-| J-200 | 1975: J-200 and Artist period | $4,750 to $6,250 |
-| LG-0 | 1958: LG-0, broad original-run reference | $850 to $1,875 |
+| J-45 | 1957: Large-guard sunburst era | $7,000 to $9,000 |
+| J-45 | 1975: Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| J-200 | 1957: Standard natural or sunburst | $15,000 to $20,000 |
+| J-200 | 1975: J-200 and Artist period | $4,500 to $6,000 |
+| LG-0 | 1958: LG-0, broad original-run reference | $1,000 to $2,000 |
 | LG-1 | 1943: LG-1, broad original-run reference | $2,000 to $4,500 |
-| LG-2 | 1957: LG-2, later original production | $3,500 to $6,500 |
-| LG-3 | 1942: LG-3, broad original-run reference | $3,750 to $8,500 |
-| Hummingbird | 1960 to 1962 | $8,000 to $12,000 |
+| LG-2 | 1957: LG-2, later original production | $3,500 to $6,000 |
+| LG-3 | 1942: LG-3, broad original-run reference | $3,500 to $8,000 |
+| Hummingbird | 1960 to 1962 | $7,500 to $11,000 |
 
 I identify the model, year and condition before choosing a range. The individual guides explain which configurations and repairs each table covers.
 

@@ -1,4 +1,4 @@
-Vintage Gibson SG Standard guide values run from $2,400 to $3,000 for typical 1970s cherry guitars to $13,500 to $25,000 for early small-guard examples, as of October 2026. Original humbuckers, the factory vibrato and an unbroken neck put the strongest examples near the top of their group.
+Vintage Gibson SG Standard guide values run from $2,500 to $3,000 for typical 1970s cherry guitars to $13,000 to $23,000 for early small-guard examples, as of October 2026. Original humbuckers, the factory vibrato and an unbroken neck put the strongest examples near the top of their group.
 
 For the year and original specification, use my [Gibson SG Standard dating and identification guide](/gibson-sg-dating-guide/#sg-standard). This guide covers market value and the features that move it.
 
@@ -8,25 +8,25 @@ For the year and original specification, use my [Gibson SG Standard dating and i
 
 | Year | Value Range | Configuration And Year Notes |
 | --- | --- | --- |
-| 1961 | $13,500 to $25,000 | Small guard, early humbuckers and sideways vibrato. |
-| 1962 | $13,500 to $25,000 | Small guard, early humbuckers and sideways vibrato. |
-| 1963 | $13,500 to $25,000 | Small guard; long lyre Vibrola becomes familiar. |
-| 1964 | $13,500 to $25,000 | Small guard; long lyre Vibrola becomes familiar. |
-| 1965 | $12,000 to $14,000 | Nut-width and plating transition; small guard. |
-| 1966 | $5,000 to $8,000 | Small to large guard transition; match actual version. |
-| 1967 | $5,000 to $8,000 | Large guard, full-size humbuckers and lyre Vibrola. |
-| 1968 | $5,000 to $8,000 | Large guard, full-size humbuckers and lyre Vibrola. |
-| 1969 | $5,000 to $8,000 | Large guard, full-size humbuckers and lyre Vibrola. |
-| 1970 | $5,000 to $8,000 | Large guard, full-size humbuckers and lyre Vibrola. |
-| 1971 | $5,000 to $8,000 | Large-guard Standard only; SG Deluxe excluded. |
-| 1972 | $2,400 to $3,000 | Standard returns; identify it separately from Deluxe. |
-| 1973 | $2,400 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1974 | $2,400 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1975 | $2,400 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1976 | $2,400 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1977 | $2,400 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1978 | $2,400 to $3,000 | Small guard, block inlays and later bridge configurations. |
-| 1979 | $2,400 to $3,000 | Small guard, block inlays and later bridge configurations. |
+| 1961 | $13,000 to $23,000 | Small guard, early humbuckers and sideways vibrato. |
+| 1962 | $13,000 to $23,000 | Small guard, early humbuckers and sideways vibrato. |
+| 1963 | $13,000 to $23,000 | Small guard; long lyre Vibrola becomes familiar. |
+| 1964 | $13,000 to $23,000 | Small guard; long lyre Vibrola becomes familiar. |
+| 1965 | $11,000 to $13,000 | Nut-width and plating transition; small guard. |
+| 1966 | $4,500 to $7,500 | Small to large guard transition; match actual version. |
+| 1967 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. |
+| 1968 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. |
+| 1969 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. |
+| 1970 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. |
+| 1971 | $4,500 to $7,500 | Large-guard Standard only; SG Deluxe excluded. |
+| 1972 | $2,500 to $3,000 | Standard returns; identify it separately from Deluxe. |
+| 1973 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
+| 1974 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
+| 1975 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
+| 1976 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
+| 1977 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
+| 1978 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
+| 1979 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. |
 
 The 1966 large-guard range applies after the redesign; an early small-guard guitar needs the earlier configuration considered. The later 1960s range includes cherry and walnut. The 1971 row excludes the SG Deluxe, and 1972 applies to the returning Standard. The 1970s range covers cherry; other finishes need a separate appraisal.
 
@@ -90,7 +90,7 @@ The 1965 band uses cherry small-guard guitars with their original cases. Nut wid
 
 The batwing guard surrounds the pickups and supports them through the guard. It appears during 1966, with early small-guard guitars still requiring the earlier configuration considered. The later look usually includes the long lyre Vibrola and eventually taller witch-hat knobs.
 
-The $5,000 to $8,000 range includes original cherry and walnut guitars. I don't treat it as a fixed finish premium or discount. The guard, finish, pickup set and repairs determine where an individual Standard belongs.
+The $4,500 to $7,500 range includes original cherry and walnut guitars. I don't treat it as a fixed finish premium or discount. The guard, finish, pickup set and repairs determine where an individual Standard belongs.
 
 Later Patent Number and T-Top humbuckers are part of the correct period specification. T-Top refers to a molded marking on the pickup bobbin, not a promise that the exterior decal alone can date it. An original later pickup pair shouldn't be valued as though it were a pair of early PAFs.
 
@@ -98,7 +98,7 @@ Later Patent Number and T-Top humbuckers are part of the correct period specific
 
 The SG Deluxe briefly takes the Standard's place during the early 1970s. When the Standard returns in 1972, it has a small guard again, with smaller block inlays and later construction. The broad rectangular bridge is often called a harmonica bridge.
 
-The $2,400 to $3,000 band is based on cherry or faded-cherry guitars with original pickups and cases. Non-cherry finishes are excluded from that specific band. Walnut, natural, tobacco sunburst and white shouldn't be called aftermarket colors simply because the table prices cherry.
+The $2,500 to $3,000 band is based on cherry or faded-cherry guitars with original pickups and cases. Non-cherry finishes are excluded from that specific band. Walnut, natural, tobacco sunburst and white shouldn't be called aftermarket colors simply because the table prices cherry.
 
 ### Color Outside The Cherry Band
 

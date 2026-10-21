@@ -33,7 +33,7 @@ toc:
   - { href: "#five", label: "The Five in These Photos" }
   - { href: "#faq", label: "Frequently Asked Questions" }
 ---
-The asking range for a clean, original vintage Gibson Hummingbird is $1,600 to $12,000, with early 1960s guitars toward the upper end. A 1960 to 1962 cherry sunburst sits at $8,000 to $12,000; a 1973 to 1979 example sits at $1,600 to $2,800. I assess the year, bridge condition, originality and repairs before discussing an offer.
+The asking range for a clean, original vintage Gibson Hummingbird is $1,500 to $11,000, with early 1960s guitars toward the upper end. A 1960 to 1962 cherry sunburst sits at $7,500 to $11,000; a 1973 to 1979 example sits at $1,500 to $3,000. I assess the year, bridge condition, originality and repairs before discussing an offer.
 
 <h2 id="value">Vintage Gibson Hummingbird Values By Year</h2>
 
@@ -41,26 +41,26 @@ As of October 2026, the table shows asking ranges for clean, all-original, struc
 
 | Year | Existing Dealer Asking Range | Configuration |
 | --- | --- | --- |
-| 1960 | $8,000 to $12,000 | Early Cherry Sunburst, Wide Nut |
-| 1961 | $8,000 to $12,000 | Early Cherry Sunburst, Wide Nut |
-| 1962 | $8,000 to $12,000 | Early Cherry Sunburst, Wide Nut |
-| 1963 | $6,500 to $9,750 | Wide Nut, Adjustable Saddle |
-| 1964 | $6,500 to $9,750 | Wide Nut, Adjustable Saddle |
-| 1965 | $5,000 to $6,750 | Narrow Nut Configuration |
-| 1966 | $3,750 to $5,500 | Later 1960s |
-| 1967 | $3,750 to $5,500 | Later 1960s |
-| 1968 | $3,750 to $5,500 | Later 1960s |
-| 1969 | $2,200 to $3,400 | Early 1970s Transition |
-| 1970 | $2,200 to $3,400 | Early 1970s Transition |
-| 1971 | $2,200 to $3,400 | Early 1970s Transition |
-| 1972 | $2,200 to $3,400 | Early 1970s Transition |
-| 1973 | $1,600 to $2,800 | Later 1970s Hummingbird |
-| 1974 | $1,600 to $2,800 | Later 1970s Hummingbird |
-| 1975 | $1,600 to $2,800 | Later 1970s Hummingbird |
-| 1976 | $1,600 to $2,800 | Later 1970s Hummingbird |
-| 1977 | $1,600 to $2,800 | Later 1970s Hummingbird |
-| 1978 | $1,600 to $2,800 | Later 1970s Hummingbird |
-| 1979 | $1,600 to $2,800 | Later 1970s Hummingbird |
+| 1960 | $7,500 to $11,000 | Early Cherry Sunburst, Wide Nut |
+| 1961 | $7,500 to $11,000 | Early Cherry Sunburst, Wide Nut |
+| 1962 | $7,500 to $11,000 | Early Cherry Sunburst, Wide Nut |
+| 1963 | $6,000 to $9,000 | Wide Nut, Adjustable Saddle |
+| 1964 | $6,000 to $9,000 | Wide Nut, Adjustable Saddle |
+| 1965 | $4,500 to $6,500 | Narrow Nut Configuration |
+| 1966 | $3,500 to $5,000 | Later 1960s |
+| 1967 | $3,500 to $5,000 | Later 1960s |
+| 1968 | $3,500 to $5,000 | Later 1960s |
+| 1969 | $2,000 to $3,500 | Early 1970s Transition |
+| 1970 | $2,000 to $3,500 | Early 1970s Transition |
+| 1971 | $2,000 to $3,500 | Early 1970s Transition |
+| 1972 | $2,000 to $3,500 | Early 1970s Transition |
+| 1973 | $1,500 to $3,000 | Later 1970s Hummingbird |
+| 1974 | $1,500 to $3,000 | Later 1970s Hummingbird |
+| 1975 | $1,500 to $3,000 | Later 1970s Hummingbird |
+| 1976 | $1,500 to $3,000 | Later 1970s Hummingbird |
+| 1977 | $1,500 to $3,000 | Later 1970s Hummingbird |
+| 1978 | $1,500 to $3,000 | Later 1970s Hummingbird |
+| 1979 | $1,500 to $3,000 | Later 1970s Hummingbird |
 
 A 1965 label alone doesn't settle the nut width. That row covers the narrow-nut configuration; an early wide-nut guitar needs an individual appraisal. Natural finishes, unusual wood combinations, major repairs and bridge replacements also need separate consideration.
 
@@ -112,7 +112,7 @@ If you only read one section, read this one.
 | **First year output** | 156 guitars shipped in 1960 |
 | **The big year to know** | 1965, when the nut got narrower and values step down |
 | **The other big year** | 1970, when the adjustable saddle, gold hardware, and one piece neck all went away |
-| **2026 value** | Roughly $1,600 for a late seventies example to $12,000 for a clean early one |
+| **2026 value** | Roughly $1,500 for a late seventies example to $11,000 for a clean early one |
 
 <h2 id="history">What The Hummingbird Is And Why 1960 Mattered</h2>
 
@@ -377,7 +377,7 @@ The mid sixties guitar in these photos is the honest example. It has the prettie
 
 **A converted adjustable bridge.** On a player grade guitar, minor. On an otherwise all original early sixties example, real money. The tell is a filled slot where the adjuster posts used to be, visible if you look straight down the saddle line.
 
-**A neck reset that has not been done.** Not fatal, and most sixties Gibsons are due for one by now, but it is a $700 to $1,200 job and a buyer will price it in.
+**A neck reset that has not been done.** Not fatal, and most sixties Gibsons are due for one by now, but it is a $1,000 to $1,500 job and a buyer will price it in.
 
 **Top cracks, especially through the bridge or along the seam.** Cleanly repaired and cleated cracks are livable. Open cracks and a bellied top are not, and a badly bellied Gibson top usually means the bridge plate is chewed up too.
 
@@ -433,7 +433,7 @@ For the record, since every photo above is one of these:
 
 **How much is a vintage Gibson Hummingbird worth?**
 
-As of October 2026, asking ranges run from $1,600 to $12,000 for clean, original, structurally sound vintage Hummingbirds. The annual table separates early 1960s and later 1970s guitars. These aren't guaranteed selling prices or cash offers; bridge condition, repairs, originality and the case affect an appraisal.
+As of October 2026, asking ranges run from $1,500 to $11,000 for clean, original, structurally sound vintage Hummingbirds. The annual table separates early 1960s and later 1970s guitars. These aren't guaranteed selling prices or cash offers; bridge condition, repairs, originality and the case affect an appraisal.
 
 **What year did Gibson start making the Hummingbird?**
 
@@ -503,7 +503,7 @@ We buy, sell, and appraise vintage acoustics out of our shop in Mesa, Arizona. I
       "name": "How much is a vintage Gibson Hummingbird worth?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "As of October 2026, asking ranges run from $1,600 to $12,000 for clean, original, structurally sound vintage Hummingbirds. The annual table separates early 1960s and later 1970s guitars. These aren't guaranteed selling prices or cash offers; bridge condition, repairs, originality and the case affect an appraisal."
+        "text": "As of October 2026, asking ranges run from $1,500 to $11,000 for clean, original, structurally sound vintage Hummingbirds. The annual table separates early 1960s and later 1970s guitars. These aren't guaranteed selling prices or cash offers; bridge condition, repairs, originality and the case affect an appraisal."
       }
     },
     {

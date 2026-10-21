@@ -1,4 +1,4 @@
-A vintage Gibson Les Paul Junior with its original sunburst finish has a $6,000 to $13,000 guide range for 1954 to 1958 single-cutaway guitars. The corresponding single-cutaway TV Model reference is $10,000 to $20,000. I start with the body style and finish, then narrow the comparison around the pickup, repairs, wear and case.
+A vintage Gibson Les Paul Junior with its original sunburst finish has a $5,500 to $12,000 guide range for 1954 to 1958 single-cutaway guitars. The corresponding single-cutaway TV Model reference is $9,000 to $18,000. I start with the body style and finish, then narrow the comparison around the pickup, repairs, wear and case.
 
 This page covers the earlier slab-body Junior and its one-pickup TV counterpart. For serials, parts and construction evidence, use my [Les Paul Junior dating and authentication guide](/post/gibson-les-paul-junior-guide/). A guitar with the later pointed SG body belongs in a separate comparison, even when its headstock still says Les Paul Junior.
 
@@ -10,18 +10,18 @@ The table assumes an all-original guitar in excellent condition with its origina
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1954 | Single-cutaway sunburst | $6,000 to $13,000 |
-| 1955 | Single-cutaway sunburst | $6,000 to $13,000 |
-| 1955 | Single-cutaway TV Model | $10,000 to $20,000 |
-| 1956 | Single-cutaway sunburst | $6,000 to $13,000 |
-| 1956 | Single-cutaway TV Model | $10,000 to $20,000 |
-| 1957 | Single-cutaway sunburst | $6,000 to $13,000 |
-| 1957 | Single-cutaway TV Model | $10,000 to $20,000 |
-| 1958 | Single-cutaway sunburst | $6,000 to $13,000 |
-| 1958 | Single-cutaway TV Model | $10,000 to $20,000 |
-| 1958 | Rounded double-cutaway cherry | $10,500 to $13,500 |
-| 1959 | Rounded double-cutaway cherry | $10,500 to $13,500 |
-| 1960 | Rounded double-cutaway cherry | $10,500 to $13,500 |
+| 1954 | Single-cutaway sunburst | $5,500 to $12,000 |
+| 1955 | Single-cutaway sunburst | $5,500 to $12,000 |
+| 1955 | Single-cutaway TV Model | $9,000 to $18,000 |
+| 1956 | Single-cutaway sunburst | $5,500 to $12,000 |
+| 1956 | Single-cutaway TV Model | $9,000 to $18,000 |
+| 1957 | Single-cutaway sunburst | $5,500 to $12,000 |
+| 1957 | Single-cutaway TV Model | $9,000 to $18,000 |
+| 1958 | Single-cutaway sunburst | $5,500 to $12,000 |
+| 1958 | Single-cutaway TV Model | $9,000 to $18,000 |
+| 1958 | Rounded double-cutaway cherry | $9,500 to $13,000 |
+| 1959 | Rounded double-cutaway cherry | $9,500 to $13,000 |
+| 1960 | Rounded double-cutaway cherry | $9,500 to $13,000 |
 
 Adjacent years can share a configuration range. That doesn't make every guitar from the era worth the same amount. The two 1958 body styles appear separately because the shape changes the value category.
 
@@ -55,7 +55,7 @@ The first production year doesn't automatically supply a fixed premium. Neither 
 
 The rounded double-cutaway became part of the Junior line in 1958. Cherry is the configuration covered by the additional reference in this guide. An unusual finish, a TV example or a guitar with a changed body finish needs its own comparison.
 
-An excellent, all-original cherry example with its original case has a guide range of $10,500 to $13,500. I wouldn't apply that clean category automatically to a worn guitar, one with a repaired neck or one with altered pickup mounting.
+An excellent, all-original cherry example with its original case has a guide range of $9,500 to $13,000. I wouldn't apply that clean category automatically to a worn guitar, one with a repaired neck or one with altered pickup mounting.
 
 The table stops its rounded double-cutaway rows at 1960, matching the main production sequence in my existing model guide. A guitar represented as a 1961 rounded double-cutaway needs its actual configuration assessed. I wouldn't turn a disputed transition label into a separate annual price premium.
 
@@ -75,7 +75,7 @@ That distinction also keeps a 1960s guitar from being valued against a 1950s sun
 
 ## What TV Yellow Changes
 
-The one-pickup Les Paul TV Model shares the Junior's basic role, but its finish and model identity create a separate collector comparison. For the 1955 to 1958 single-cutaway examples covered here, the guide range is $10,000 to $20,000. The range assumes original finish and the condition stated above.
+The one-pickup Les Paul TV Model shares the Junior's basic role, but its finish and model identity create a separate collector comparison. For the 1955 to 1958 single-cutaway examples covered here, the guide range is $9,000 to $18,000. The range assumes original finish and the condition stated above.
 
 TV Yellow doesn't mean every pale Gibson has the same value. The one-pickup TV Model and the two-pickup Les Paul Special are different models. My [Les Paul TV Model guide](/post/gibson-les-paul-tv-model-guide/) covers that identity, while the [single-cutaway Les Paul Special guide](/post/1955-1958-tv-yellow-les-paul-special-guide/) shows the two-pickup instrument.
 

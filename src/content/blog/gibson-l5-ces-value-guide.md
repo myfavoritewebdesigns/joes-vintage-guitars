@@ -15,7 +15,7 @@ wpId: 19327
 faqsInline: true
 faqs:
   - q: "What Is A Vintage Gibson L-5 CES Worth?"
-    a: "As of October 2026, the guide ranges span $7,500 to $32,000 across the covered configurations. They assume an all-original guitar in excellent condition with its original case. I use the pickups, year, finish and repairs to choose the appropriate range."
+    a: "As of October 2026, the guide ranges span $7,000 to $29,000 across the covered configurations. They assume an all-original guitar in excellent condition with its original case. I use the pickups, year, finish and repairs to choose the appropriate range."
   - q: "Why Do Several Years Have The Same Range?"
     a: "Adjacent years can share an era or configuration range. The annual rows help you locate the year, while the exact features and condition determine an individual appraisal."
   - q: "Are These Guaranteed Selling Prices?"
@@ -27,7 +27,7 @@ faqs:
   - q: "Where Can I Get An Appraisal Of My L-5 CES?"
     a: "I can review clear photographs of the whole guitar, its label and serial number, pickups, finish, repairs and case. Include any repair receipts or family history you already have. Don’t remove hardware just to photograph it if you’re unsure how to do that safely."
 ---
-An all-original 1970s Gibson L-5 CES in excellent condition with its original case has a guide range of $7,500 to $10,000. Earlier PAF examples sit at $20,000 to $32,000, with year, finish and pickup configuration determining the appropriate group. I assess the actual instrument and its repairs before narrowing its value.
+An all-original 1970s Gibson L-5 CES in excellent condition with its original case has a guide range of $7,000 to $9,000. Earlier PAF examples sit at $18,000 to $29,000, with year, finish and pickup configuration determining the appropriate group. I assess the actual instrument and its repairs before narrowing its value.
 
 ## Gibson L-5 CES Values By Year
 
@@ -37,36 +37,36 @@ Each year is listed through 1979, and adjacent years can share an era or configu
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1951 | Single-Coil Reference | $20,000 to $27,500 |
-| 1952 | Single-Coil Reference | $20,000 to $27,500 |
-| 1953 | Single-Coil Reference | $20,000 to $27,500 |
-| 1954 | Single-Coil Reference | $20,000 to $27,500 |
-| 1955 | Single-Coil Reference | $20,000 to $27,500 |
-| 1956 | Single-Coil Reference | $20,000 to $27,500 |
-| 1957 | Single-Coil Reference | $20,000 to $27,500 |
-| 1957 | Original PAF Pair | $20,000 to $32,000 |
-| 1958 | Original PAF Pair | $20,000 to $32,000 |
-| 1959 | Original PAF Pair | $20,000 to $32,000 |
-| 1960 | Original PAF Pair | $20,000 to $32,000 |
-| 1961 | Original PAF Pair | $20,000 to $32,000 |
-| 1962 | Original PAF Pair | $20,000 to $32,000 |
-| 1963 | Patent Number Era | $9,000 to $22,000 |
-| 1964 | Patent Number Era | $9,000 to $22,000 |
-| 1965 | Patent Number Era | $9,000 to $22,000 |
-| 1966 | Patent Number Era | $9,000 to $22,000 |
-| 1967 | Patent Number Era | $9,000 to $22,000 |
-| 1968 | Patent Number Era | $9,000 to $22,000 |
-| 1969 | Patent Number Era | $9,000 to $22,000 |
-| 1970 | Standard Two-Pickup CES | $7,500 to $10,000 |
-| 1971 | Standard Two-Pickup CES | $7,500 to $10,000 |
-| 1972 | Standard Two-Pickup CES | $7,500 to $10,000 |
-| 1973 | Standard Two-Pickup CES | $7,500 to $10,000 |
-| 1974 | Standard Two-Pickup CES | $7,500 to $10,000 |
-| 1975 | Standard Two-Pickup CES | $7,500 to $10,000 |
-| 1976 | Standard Two-Pickup CES | $7,500 to $10,000 |
-| 1977 | Standard Two-Pickup CES | $7,500 to $10,000 |
-| 1978 | Standard Two-Pickup CES | $7,500 to $10,000 |
-| 1979 | Standard Two-Pickup CES | $7,500 to $10,000 |
+| 1951 | Single-Coil Reference | $18,000 to $25,000 |
+| 1952 | Single-Coil Reference | $18,000 to $25,000 |
+| 1953 | Single-Coil Reference | $18,000 to $25,000 |
+| 1954 | Single-Coil Reference | $18,000 to $25,000 |
+| 1955 | Single-Coil Reference | $18,000 to $25,000 |
+| 1956 | Single-Coil Reference | $18,000 to $25,000 |
+| 1957 | Single-Coil Reference | $18,000 to $25,000 |
+| 1957 | Original PAF Pair | $18,000 to $29,000 |
+| 1958 | Original PAF Pair | $18,000 to $29,000 |
+| 1959 | Original PAF Pair | $18,000 to $29,000 |
+| 1960 | Original PAF Pair | $18,000 to $29,000 |
+| 1961 | Original PAF Pair | $18,000 to $29,000 |
+| 1962 | Original PAF Pair | $18,000 to $29,000 |
+| 1963 | Patent Number Era | $8,500 to $20,000 |
+| 1964 | Patent Number Era | $8,500 to $20,000 |
+| 1965 | Patent Number Era | $8,500 to $20,000 |
+| 1966 | Patent Number Era | $8,500 to $20,000 |
+| 1967 | Patent Number Era | $8,500 to $20,000 |
+| 1968 | Patent Number Era | $8,500 to $20,000 |
+| 1969 | Patent Number Era | $8,500 to $20,000 |
+| 1970 | Standard Two-Pickup CES | $7,000 to $9,000 |
+| 1971 | Standard Two-Pickup CES | $7,000 to $9,000 |
+| 1972 | Standard Two-Pickup CES | $7,000 to $9,000 |
+| 1973 | Standard Two-Pickup CES | $7,000 to $9,000 |
+| 1974 | Standard Two-Pickup CES | $7,000 to $9,000 |
+| 1975 | Standard Two-Pickup CES | $7,000 to $9,000 |
+| 1976 | Standard Two-Pickup CES | $7,000 to $9,000 |
+| 1977 | Standard Two-Pickup CES | $7,000 to $9,000 |
+| 1978 | Standard Two-Pickup CES | $7,000 to $9,000 |
+| 1979 | Standard Two-Pickup CES | $7,000 to $9,000 |
 
 ### How To Read The Four Reference Groups
 
@@ -331,7 +331,7 @@ If you are adding a top piece to a collection or trying to find the real market 
 
 ### What Is A Vintage Gibson L-5 CES Worth?
 
-As of October 2026, the guide ranges span $7,500 to $32,000 across the covered configurations. They assume an all-original guitar in excellent condition with its original case. I use the pickups, year, finish and repairs to choose the appropriate range.
+As of October 2026, the guide ranges span $7,000 to $29,000 across the covered configurations. They assume an all-original guitar in excellent condition with its original case. I use the pickups, year, finish and repairs to choose the appropriate range.
 
 ### Why Do Several Years Have The Same Range?
 

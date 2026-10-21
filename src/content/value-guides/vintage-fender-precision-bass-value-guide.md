@@ -1,4 +1,4 @@
-Vintage Fender Precision Bass comparisons span $2,100 to $40,000 across 1951 to 1979, with exceptional early examples potentially exceeding that range. The guide range for original 1951 to 1953 slab-body basses is $20,000 to $40,000 or more; the late-1970s comparison is $2,100 to $4,000. I first identify which version of the Precision is present, then account for its finish, pickup, repairs and case.
+Vintage Fender Precision Bass comparisons span $2,000 to $36,000 across 1951 to 1979, with exceptional early examples potentially exceeding that range. The guide range for original 1951 to 1953 slab-body basses is $18,000 to $36,000 or more; the late-1970s comparison is $2,000 to $4,000. I first identify which version of the Precision is present, then account for its finish, pickup, repairs and case.
 
 For the earliest design, my [1951, 1952 and 1953 Precision Bass authentication guide](/post/1952-fender-precision-bass-guide/) explains the original construction and dating evidence. This page supplies the model-wide price comparisons. It covers a bass with one continuous model name but several different designs.
 
@@ -12,36 +12,36 @@ Amounts are in U.S. dollars, and adjacent years can share a range. The 1957 tran
 
 | Year | Value Range | Shared Comparison And Condition |
 | --- | --- | --- |
-| 1951 | $20,000 to $40,000 or more | Original 1951 to 1953 slab-body configuration; Very Good to Excellent |
-| 1952 | $20,000 to $40,000 or more | Original 1951 to 1953 slab-body configuration; Very Good to Excellent |
-| 1953 | $20,000 to $40,000 or more | Original 1951 to 1953 slab-body configuration; Very Good to Excellent |
-| 1954 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
-| 1955 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
-| 1956 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
-| 1957 | $12,000 to $18,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
-| 1957 | $13,500 to $25,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
-| 1958 | $13,500 to $25,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
-| 1959 | $13,500 to $25,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
-| 1960 | $10,000 to $17,500 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
-| 1961 | $10,000 to $17,500 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
-| 1962 | $10,000 to $17,500 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
-| 1963 | $10,000 to $17,500 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
-| 1964 | $10,000 to $17,500 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
-| 1965 | $6,250 to $12,500 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
-| 1966 | $6,250 to $12,500 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
-| 1967 | $6,250 to $12,500 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
-| 1968 | $6,250 to $12,500 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
-| 1969 | $6,250 to $12,500 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
-| 1970 | $2,750 to $5,500 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
-| 1971 | $2,750 to $5,500 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
-| 1972 | $2,750 to $5,500 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
-| 1973 | $2,750 to $5,500 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
-| 1974 | $2,750 to $5,500 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
-| 1975 | $2,100 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
-| 1976 | $2,100 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
-| 1977 | $2,100 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
-| 1978 | $2,100 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
-| 1979 | $2,100 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
+| 1951 | $18,000 to $36,000 or more | Original 1951 to 1953 slab-body configuration; Very Good to Excellent |
+| 1952 | $18,000 to $36,000 or more | Original 1951 to 1953 slab-body configuration; Very Good to Excellent |
+| 1953 | $18,000 to $36,000 or more | Original 1951 to 1953 slab-body configuration; Very Good to Excellent |
+| 1954 | $11,000 to $17,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
+| 1955 | $11,000 to $17,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
+| 1956 | $11,000 to $17,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
+| 1957 | $11,000 to $17,000 | Mid-1954 to 1957 contoured single-coil era; excellent original condition |
+| 1957 | $13,000 to $23,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
+| 1958 | $13,000 to $23,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
+| 1959 | $13,000 to $23,000 | 1957 to 1959 gold-guard sunburst era; Very Good to Excellent, service-part and case allowances |
+| 1960 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
+| 1961 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
+| 1962 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
+| 1963 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
+| 1964 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware allowances |
+| 1965 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
+| 1966 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
+| 1967 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
+| 1968 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
+| 1969 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, control and case allowances |
+| 1970 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
+| 1971 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
+| 1972 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
+| 1973 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
+| 1974 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
+| 1975 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
+| 1976 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
+| 1977 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
+| 1978 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
+| 1979 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, wear and service allowances |
 
 ### Condition Behind The Table
 
@@ -73,9 +73,9 @@ If the design or year is uncertain, the [Precision Bass dating guide](/fender-pr
 
 ### The 1951 To 1953 Slab-Body Range
 
-The $20,000 to $40,000 or more range applies to original early basses in the stated condition. It doesn't include the value of an amplifier simply because one appears beside the bass in a photograph. A matching historical package needs its own appraisal and documentation.
+The $18,000 to $36,000 or more range applies to original early basses in the stated condition. It doesn't include the value of an amplifier simply because one appears beside the bass in a photograph. A matching historical package needs its own appraisal and documentation.
 
-Modified player examples have a separate broad range of $8,000 to $15,000. That isn't a discount formula. A replacement pickup, refinish or assembly of unrelated parts can lead to very different appraisals.
+Modified player examples have a separate broad range of $7,500 to $14,000. That isn't a discount formula. A replacement pickup, refinish or assembly of unrelated parts can lead to very different appraisals.
 
 <figure>
 
@@ -91,7 +91,7 @@ Early 1954 slab-body examples need individual appraisals. The annual 1954 row co
 
 ### Contoured Single-Coil Basses
 
-The $12,000 to $18,000 range covers the contoured single-coil group from mid-1954 into 1957, including blonde and sunburst instruments. I don't assign a separate automatic premium to every finish and year combination.
+The $11,000 to $17,000 range covers the contoured single-coil group from mid-1954 into 1957, including blonde and sunburst instruments. I don't assign a separate automatic premium to every finish and year combination.
 
 These basses need the correct comparison because replacing the original pickup with a later split unit can involve changes to the body and guard. A working bass with that conversion may appeal to a player, but it no longer represents the unmodified single-coil configuration. I describe the change before pricing it.
 
@@ -99,7 +99,7 @@ An individual bass may sit above or below a broad era range. I assess its finish
 
 ## Gold Guards, Rosewood Boards And The Sixties
 
-The gold anodized aluminum guard identifies a familiar part of the 1957 to 1959 Precision period. The sunburst comparison is $13,500 to $25,000, spanning worn examples with service parts or later cases and cleaner, more complete originals. A gold-colored replacement guard doesn't put an otherwise different bass into that group.
+The gold anodized aluminum guard identifies a familiar part of the 1957 to 1959 Precision period. The sunburst comparison is $13,000 to $23,000, spanning worn examples with service parts or later cases and cleaner, more complete originals. A gold-colored replacement guard doesn't put an otherwise different bass into that group.
 
 <figure>
 
@@ -121,9 +121,9 @@ The 1959 transition can include more than one fingerboard and guard combination.
 
 </figure>
 
-For 1960 to 1964, the sunburst range is $10,000 to $17,500. The era includes different fingerboard construction and condition levels. An exceptionally clean early slab-board instrument needs an individual assessment beyond the broad table.
+For 1960 to 1964, the sunburst range is $9,000 to $16,000. The era includes different fingerboard construction and condition levels. An exceptionally clean early slab-board instrument needs an individual assessment beyond the broad table.
 
-For 1965 to 1969, the range is $6,250 to $12,500. Excellent originals from 1965 sit toward the stronger end, while worn later basses and service-part changes can place a guitar lower. Replacement controls and cases belong in the condition description.
+For 1965 to 1969, the range is $6,000 to $12,000. Excellent originals from 1965 sit toward the stronger end, while worn later basses and service-part changes can place a guitar lower. Replacement controls and cases belong in the condition description.
 
 ### Why The Pickup And Neck Stay In The Appraisal
 
@@ -135,9 +135,9 @@ The neck has to function as an instrument, not simply look correct in a photogra
 
 ## Seventies Precision Bass Values
 
-The 1970 to 1974 range is $2,750 to $5,500. It covers original finish and pickups while allowing serviced or changed controls and differences in accessories. Excellent, complete originals belong toward the stronger end.
+The 1970 to 1974 range is $2,500 to $5,000. It covers original finish and pickups while allowing serviced or changed controls and differences in accessories. Excellent, complete originals belong toward the stronger end.
 
-The 1975 to 1979 comparison is $2,100 to $4,000 for standard finishes under the stated conditions. Finish wear, the working neck, retained parts and the case help narrow the appraisal. The table doesn't attach a fixed premium to every maple or rosewood fingerboard.
+The 1975 to 1979 comparison is $2,000 to $4,000 for standard finishes under the stated conditions. Finish wear, the working neck, retained parts and the case help narrow the appraisal. The table doesn't attach a fixed premium to every maple or rosewood fingerboard.
 
 The Precision kept its four-bolt neck attachment through these years. I don't import the Jazz Bass's three-bolt transition into a Precision appraisal. A modern reissue or modified instrument also needs to be kept separate from original 1970s production.
 

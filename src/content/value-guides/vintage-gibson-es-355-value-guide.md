@@ -1,4 +1,4 @@
-A clean, original 1959 Gibson ES-355 in cherry has a guide range of $30,000 to $45,000 with factory mono wiring and a Bigsby, or $22,000 to $38,000 with stereo Varitone electronics. Standard-finish stereo examples from the 1970s sit at $5,500 to $7,000 in excellent condition. The year alone won't place a guitar in one of those ranges.
+A clean, original 1959 Gibson ES-355 in cherry has a guide range of $27,000 to $41,000 with factory mono wiring and a Bigsby, or $20,000 to $35,000 with stereo Varitone electronics. Standard-finish stereo examples from the 1970s sit at $5,000 to $6,500 in excellent condition. The year alone won't place a guitar in one of those ranges.
 
 I buy vintage Gibsons nationwide from Mesa, Arizona. This guide separates the price references from the identification work, because a factory mono guitar and a later mono conversion can look similar in a listing. For the construction, electronics and dating details, use my [1959 Gibson ES-355 authentication guide](/post/1959-gibson-es-355-history-value/).
 
@@ -10,30 +10,30 @@ The ranges describe clean original guitars under the condition assumptions above
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1958 | Mono, cherry, factory Bigsby | $36,000 to $45,000 |
-| 1959 | Mono, cherry, factory Bigsby | $30,000 to $45,000 |
-| 1959 | Stereo Varitone, cherry, factory Bigsby | $22,000 to $38,000 |
-| 1959 | Factory mono stop-tail | $45,000 to $60,000 |
-| 1960 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 |
-| 1961 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 |
-| 1962 | Stereo Varitone, PAFs, factory vibrato | $22,000 to $27,500 |
-| 1963 | Stereo Varitone, Patent Number pickups | $15,000 to $18,500 |
-| 1964 | Stereo Varitone, Patent Number pickups | $15,000 to $18,500 |
-| 1965 | Stereo, wide or narrow neck; combined span | $7,500 to $15,000 |
-| 1966 | Stereo, standard finishes; combined span | $6,000 to $8,500 |
-| 1967 | Stereo, standard finishes; combined span | $6,000 to $8,500 |
-| 1968 | Stereo, standard finishes; combined span | $6,000 to $8,500 |
-| 1969 | Stereo, standard finishes; combined span | $6,000 to $8,500 |
-| 1970 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
-| 1971 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
-| 1972 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
-| 1973 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
-| 1974 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
-| 1975 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
-| 1976 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
-| 1977 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
-| 1978 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
-| 1979 | Stereo, standard finishes, factory vibrato | $5,500 to $7,000 |
+| 1958 | Mono, cherry, factory Bigsby | $33,000 to $41,000 |
+| 1959 | Mono, cherry, factory Bigsby | $27,000 to $41,000 |
+| 1959 | Stereo Varitone, cherry, factory Bigsby | $20,000 to $35,000 |
+| 1959 | Factory mono stop-tail | $41,000 to $54,000 |
+| 1960 | Stereo Varitone, PAFs, factory vibrato | $20,000 to $25,000 |
+| 1961 | Stereo Varitone, PAFs, factory vibrato | $20,000 to $25,000 |
+| 1962 | Stereo Varitone, PAFs, factory vibrato | $20,000 to $25,000 |
+| 1963 | Stereo Varitone, Patent Number pickups | $14,000 to $17,000 |
+| 1964 | Stereo Varitone, Patent Number pickups | $14,000 to $17,000 |
+| 1965 | Stereo, wide or narrow neck; combined span | $7,000 to $14,000 |
+| 1966 | Stereo, standard finishes; combined span | $5,500 to $8,000 |
+| 1967 | Stereo, standard finishes; combined span | $5,500 to $8,000 |
+| 1968 | Stereo, standard finishes; combined span | $5,500 to $8,000 |
+| 1969 | Stereo, standard finishes; combined span | $5,500 to $8,000 |
+| 1970 | Stereo, standard finishes, factory vibrato | $5,000 to $6,500 |
+| 1971 | Stereo, standard finishes, factory vibrato | $5,000 to $6,500 |
+| 1972 | Stereo, standard finishes, factory vibrato | $5,000 to $6,500 |
+| 1973 | Stereo, standard finishes, factory vibrato | $5,000 to $6,500 |
+| 1974 | Stereo, standard finishes, factory vibrato | $5,000 to $6,500 |
+| 1975 | Stereo, standard finishes, factory vibrato | $5,000 to $6,500 |
+| 1976 | Stereo, standard finishes, factory vibrato | $5,000 to $6,500 |
+| 1977 | Stereo, standard finishes, factory vibrato | $5,000 to $6,500 |
+| 1978 | Stereo, standard finishes, factory vibrato | $5,000 to $6,500 |
+| 1979 | Stereo, standard finishes, factory vibrato | $5,000 to $6,500 |
 
 The table covers every year from the model's 1958 introduction through 1979. Adjacent years can share a range. The 1965 row includes both narrow and wide necks; the 1966 to 1969 rows cover standard finishes.
 
@@ -67,7 +67,7 @@ The 1960 to 1962 main row covers stereo examples with PAF pickups and a factory 
 
 Changed electronics, a repaired neck or separated wood can put an early ES-355 outside the clean-original category. A guitar that plays well can still need a separate appraisal because of its repair history.
 
-Factory mono stop-tail instruments have a separate 1959 guide range of $45,000 to $60,000, with exceptional examples outside it. I establish the original configuration before using that range; a later stopbar conversion doesn't make a guitar a factory stop-tail example.
+Factory mono stop-tail instruments have a separate 1959 guide range of $41,000 to $54,000, with exceptional examples outside it. I establish the original configuration before using that range; a later stopbar conversion doesn't make a guitar a factory stop-tail example.
 
 An added tailpiece and plugged vibrato holes do not establish factory stop-tail status. I need the construction evidence before deciding which market comparisons belong. The authentication guide handles that inspection; this page keeps the financial consequence separate.
 
@@ -101,7 +101,7 @@ Sparkling Burgundy and other less common configurations need individual appraisa
 
 ## A 1970s ES-355 In Context
 
-The 1970 to 1979 rows use a $5,500 to $7,000 range for standard-finish stereo guitars with their factory vibrato. This guide stops at 1979; that doesn't mean ES-355 production ended then.
+The 1970 to 1979 rows use a $5,000 to $6,500 range for standard-finish stereo guitars with their factory vibrato. This guide stops at 1979; that doesn't mean ES-355 production ended then.
 
 A missing pickguard, replacement guard or conversion to mono changes the condition assumptions. I assess those changes individually rather than applying the clean-original range automatically.
 
