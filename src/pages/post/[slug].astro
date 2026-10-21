@@ -5,6 +5,9 @@ import { getImage, Image } from "astro:assets";
 import LicensedImage from "../../components/primitives/LicensedImage.astro";
 import ValueGuidePhotos from "../../components/ValueGuidePhotos.astro";
 import LicensedMarkdownPhotos from "../../components/LicensedMarkdownPhotos.astro";
+import GuideHero from '../../components/GuideHero.astro';
+import presentationPaths from '../../data/gap2-presentation-paths.json';
+import comparisonHero from '../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-scaled.jpg';
 import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
@@ -132,6 +135,8 @@ const ogMeta = data.ogImage ? resolveImage(data.ogImage) : null;
 const authorPhoto = resolveImage("images/fender-sn/about-me-joe-1.jpg");
 // Hero: pipeline metadata when relocated (responsive <Image>), public path
 // fallback otherwise (raw <img>, the 15 raw-HTML-blocked heroes).
+const hasGuideHero = presentationPaths.includes('/post/' + entry.id + '/');
+const guideBrand = entry.id.includes('fender') ? 'Fender' : 'Gibson';
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
 const heroRenderWidth = heroMeta ? Math.min(1200, heroMeta.width) : 1200;
 const captionedHero = heroMeta && data.heroImageCaption
@@ -536,6 +541,8 @@ const articleSchema = {
     </>
   )}
 
+  {hasGuideHero && !isGibsonSGFamilyGuide && !isGibsonJ200Guide && <GuideHero title={isFirebirdGuide ? 'The Gibson Firebird' : data.title} image={heroMeta || comparisonHero} alt={data.heroImageAlt || 'Sunburst Gibson ES-335 in a pink-lined case'} brand={guideBrand} byline={'By ' + data.author + ' · ' + formatDate(data.pubDate)} />}
+
   {isOneOwner1956Martin00021Story ? (
     <OneOwner1956Martin00021Story />
   ) : isMartinD28OwnerStory ? (
@@ -577,8 +584,8 @@ const articleSchema = {
   ) : isMartinSmallBodyGuide ? (
     <MartinSmallBodyGuide faqs={martinGuideFaqs} />
   ) : (
-    <>
-  {!isFirebirdGuide && <div class="bpost-header-backdrop" aria-hidden="true"></div>}
+    <div class:list={{ "bpost-guide-body": hasGuideHero }}>
+  {!hasGuideHero && !isFirebirdGuide && <div class="bpost-header-backdrop" aria-hidden="true"></div>}
 
   {data.toc.length > 0 && !isNorlinGuide && (
     <>
@@ -617,7 +624,7 @@ const articleSchema = {
   )}
 
   <article class="bpost">
-    {!isFirebirdGuide && <div class="bpost__inner">
+    {!hasGuideHero && !isFirebirdGuide && <div class="bpost__inner">
       <nav class="bpost__crumbs" aria-label="Breadcrumb">
         <a href="/">Home</a><span aria-hidden="true">/</span>
         <a href="/blog/">Blog</a><span aria-hidden="true">/</span>
@@ -636,7 +643,7 @@ const articleSchema = {
       </p>}
     </div>}
 
-    {!isFirebirdGuide && data.heroImage && (
+    {!hasGuideHero && !isFirebirdGuide && data.heroImage && (
       <figure class:list={["bpost__hero", { "bpost__hero--captioned": data.heroImageCaption }]}>
         {data.heroImageCaption && <figcaption class="bpost__hero-caption">
           {data.heroImageCaption}
@@ -717,7 +724,7 @@ const articleSchema = {
       </div>
     </section>
   )}
-    </>
+    </div>
   )}
 
   {datingBrand && <BrandDatingGuides brand={datingBrand} featuredGuide={featuredDatingGuide} />}

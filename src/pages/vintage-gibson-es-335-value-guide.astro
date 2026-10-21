@@ -1,5 +1,6 @@
 ---
 // GAP 2 reference page. Index production while excluding branch previews.
+import GuideHero from '../components/GuideHero.astro';
 import Layout from '../layouts/Layout.astro';
 import ValueGuidePhotos from '../components/ValueGuidePhotos.astro';
 import { Content, getHeadings } from '../content/value-guides/vintage-gibson-es-335-value-guide.md';
@@ -33,14 +34,7 @@ const structuredData = [faqSchema, {
   ogImage={SITE_URL + ogAsset.src} ogImageWidth={ogAsset.width} ogImageHeight={ogAsset.height} ogImageAlt={data.alt}
   ogType="article" structuredData={structuredData} publishedTime={data.date} modifiedTime={data.date}
   noIndex={isPreview} bodyClass="evg-page">
-  <div class="evg-backdrop" aria-hidden="true"><div></div><div></div></div>
-  <div class="evg-heading">
-    <div class="evg-measure">
-      <p class="evg-eyebrow">Joe's Vintage Guitars / Value Reference</p>
-      <h1>{data.h1}</h1>
-      <p class="evg-byline">By Joe Dampt <span aria-hidden="true">·</span> October 2026</p>
-    </div>
-  </div>
+  <GuideHero title={data.h1} image={ogAsset} alt={data.alt} brand="Gibson" eyebrow="Joe's Vintage Guitars / Value Reference" byline="By Joe Dampt · October 2026" />
   <div class="evg-shell">
     <details class="evg-mobile-toc"><summary>On This Page</summary><nav aria-label="Article sections"><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></details>
     <aside class="evg-toc" aria-label="On this page"><p>On This Page</p><nav><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></aside>
@@ -100,4 +94,8 @@ const structuredData = [faqSchema, {
 @media(max-width:1439px){.evg-measure,.evg-shell{max-width:916px}}
 @media(max-width:767px){.evg-heading{padding:112px 20px 28px}.evg-shell{padding:24px 20px 48px}.evg-article{font-size:16px}.evg-article :global(h2){margin-top:36px}.evg-review{padding:15px 17px}}
 @media(max-width:639px){.evg-heading{padding-top:46px}}
+</style>
+
+<style>
+@media(min-width:1440px){.evg-shell{display:grid;grid-template-columns:minmax(0,860px) 270px;gap:40px;align-items:start}.evg-toc{position:sticky;top:24px;right:auto;grid-column:2;grid-row:1;width:auto;max-height:calc(100vh - 48px)}.evg-article{grid-column:1;grid-row:1;min-width:0}}
 </style>

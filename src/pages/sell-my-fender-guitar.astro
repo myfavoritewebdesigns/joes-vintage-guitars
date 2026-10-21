@@ -276,6 +276,8 @@ pageMarkup = pageMarkup.replace(
   `<div class="smf-local-guides"><h3>Phoenix Area Fender Selling Guides</h3><p>Compare every selling method in the <a href="/where-to-sell-vintage-guitar-phoenix/">Phoenix-area vintage guitar guide</a>, read about <a href="/sell-vintage-guitar-phoenix-az/">selling a vintage Fender in Phoenix</a>, or see the <a href="/sell-vintage-guitar-chandler-az/">Chandler guide featuring a one-owner 1966 Fender Coronado II</a>.</p></div>${fenderOptionsEnd}`,
 );
 
+pageMarkup = pageMarkup.replace('<a class="button button-primary" href="#appraisal">Tell Me About Your Fender</a>', '<a class="button button-primary" href="/free-appraisal/">Free Appraisal</a>').replace('<a class="button button-ghost" href="tel:+16029006635">Call or Text Joe</a>', '<a class="button button-ghost" href="#appraisal">Sell My Fender</a>');
+
 const pageCss = rawPageCss.replace(/^@import 'tailwindcss';\s*/, "") + `
   :root {
     --font-open-sans: Arial, sans-serif;

@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import PageHero from "../components/primitives/PageHero.astro";
+import GuideHero from '../components/GuideHero.astro';
+import guidePhoto from '../assets/blog/joshuas-1952-fender-telecaster/1952-telecaster-blonde-front.jpg';
 import Button from "../components/primitives/Button.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import FAQ from "../components/FAQ.astro";
@@ -204,17 +205,7 @@ const structuredData: Record<string, unknown>[] = [
   ogImageAlt="Vintage Fender Telecaster Value Guide from Joe's Vintage Guitars"
   structuredData={structuredData}
 >
-  <PageHero
-    eyebrow="Value Guide"
-    title="Vintage Fender Telecaster Value Guide"
-    subhead="Current values by year for Broadcasters, Nocasters, Telecasters, and Esquires, plus the details that move the price."
-    subheadTag="p"
-    subheadHtml={true}
-    bgImage="/images/hero-background.jpg"
-  >
-    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
-    <Button slot="cta" href="/free-appraisal/fender/" variant="cream" size="lg">Fender Appraisal</Button>
-  </PageHero>
+  <GuideHero title="Vintage Fender Telecaster Value Guide" image={guidePhoto} alt="Blonde Fender Telecaster from my photo archive" brand="Fender" eyebrow="Value Guide"><p>Current values by year for Broadcasters, Nocasters, Telecasters, and Esquires, plus the details that move the price.</p></GuideHero>
 
     <section class="vg-section" aria-labelledby="guide-overview">
       <div class="vg-inner vg-lead-grid">

@@ -1,0 +1,1117 @@
+{
+  "date": "2026-10-21T18:41:27.763Z",
+  "scope": "All 77 routes in the GAP 2 preview index",
+  "baselineCommit": "3e2bafa55f2249c1788406301c8f46a9f61ed659",
+  "request": "Photo hero, top Free Appraisal and correct Sell My brand buttons, and clearance beneath the hanging logo.",
+  "changes": [
+    "Shared optimized photo hero and two-action component",
+    "Existing editorial heroes retain their photos and receive top actions",
+    "Model and brand hubs retain their article/directory content",
+    "Desktop article sidebars start below the hero",
+    "Tablet header navigation uses the mobile menu when the desktop navigation is too wide",
+    "Tablet footer grid and ES comparison section stay within the viewport"
+  ],
+  "validation": {
+    "verify": "pnpm 11.7.0 run verify: 0 Astro errors, 0 Astro warnings, 0 copy hard failures; 731 pre-existing copy warnings",
+    "responsive": {
+      "pages": 77,
+      "widths": [
+        390,
+        640,
+        1024,
+        1440,
+        1920
+      ],
+      "checks": 385,
+      "failures": 0
+    },
+    "content": "All titles, descriptions, canonicals, H2/H3 headings, price figures, table text, FAQ and primary structured data match the previous preview.",
+    "liveDiff": {
+      "pages": 77,
+      "mustFix": 0,
+      "baseline": "Previously verified deployed commit, served from its retained dist directory",
+      "intentionalDifferences": "Added or relocated hero photos, licensed ImageObject nodes, hero sections and actions. Existing Reverb icon dimensions warnings are unchanged."
+    }
+  },
+  "pages": [
+    {
+      "url": "/post/gibson-es-5-switchmaster-history-value/",
+      "heroAlt": "Front of a 1953 Gibson ES-5 in sunburst with three dog-ear P-90 pickups and its original finish, resting in its pink-lined case. We buy vintage Gibson archtops nationwide at Joe's Vintage Guitars.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/fender-mustang-history-value/",
+      "heroAlt": "Front of a 1971 Fender Competition Mustang in Competition Blue with seafoam racing stripes, a pearloid pickguard, and the Dynamic Vibrato, in its original orange-lined case. We buy vintage Fender Mustangs nationwide at Joe's Vintage Guitars.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/gibson-firebird-history-authentication-value/",
+      "heroAlt": "Reverse Gibson Firebird VII in its case from the Joe's Vintage Guitars archive",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/gibson-es-345-history-value/",
+      "heroAlt": "A 1963 Gibson ES-345TD in sunburst standing in its case at Joe's Vintage Guitars, showing the gold hardware and stereo Varitone controls.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/gibson-l5-ces-value-guide/",
+      "heroAlt": "1969 Gibson L-5 CES hollow body electric guitar in a sunburst finish, featuring a Florentine cutaway, gold hardware, and a Bigsby vibrato tailpiece. The guitar is shown without a pickguard, highlighting the wood grain and dual humbucking pickups.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-fender-jaguar-value-guide/",
+      "heroAlt": "Olympic White Fender Jaguar body with tortoiseshell pickguard, two pickups and chrome controls",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/vintage-gibson-hummingbird-history-value-guide/",
+      "heroAlt": "The cherry sunburst top of a 1961 Gibson Hummingbird showing the engraved pickguard with a hummingbird, trumpet flowers, and butterfly, and the rectangular rosewood bridge.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-fender-jazz-bass-value-guide/",
+      "heroAlt": "Lake Placid Blue Fender Jazz Bass body with white pickguard and chrome covers",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-fender-jazzmaster-value-guide/",
+      "heroAlt": "Sunburst Fender Jazzmaster with a gold pickguard, white pickup covers and a vibrato arm",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-fender-precision-bass-value-guide/",
+      "heroAlt": "Early blonde Fender Precision Bass beside a tweed Bassman amplifier",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-fender-value-guide/",
+      "heroAlt": "Sunburst Fender Stratocaster with a white pickguard and vibrato arm in an orange-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-acoustic-value-guide/",
+      "heroAlt": "Sunburst J-45 with a large mottled pickguard lying in a brown case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-es-125-value-guide/",
+      "heroAlt": "Sunburst 1954 ES-125 with one black pickup, two controls and a trapeze tailpiece",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-es-330-value-guide/",
+      "heroAlt": "Sunburst 1959 ES-330 body with black dogear pickups and a trapeze tailpiece",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-es-335-value-guide/",
+      "heroAlt": "Sunburst Gibson ES-335 with dot inlays, two covered pickups and a stopbar in a pink-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-es-355-value-guide/",
+      "heroAlt": "Cherry ES-355 body with two covered humbuckers, four controls and a Bigsby",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-j-200-value-guide/",
+      "heroAlt": "Sunburst SJ-200 with floral pickguard and open moustache bridge in a pink-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-j-45-value-guide/",
+      "heroAlt": "Sunburst J-45 with a large mottled pickguard lying in a brown case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-les-paul-custom-value-guide/",
+      "heroAlt": "Black 1958 Les Paul Custom body with three covered pickups, a Bigsby vibrato and visible finish wear",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-les-paul-junior-value-guide/",
+      "heroAlt": "Sunburst body of a 1955 Gibson Les Paul Junior with one black pickup and a wraparound bridge",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-les-paul-special-value-guide/",
+      "heroAlt": "Front of a TV Yellow single-cutaway Les Paul Special with two black P-90 covers",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-lg-series-value-guide/",
+      "heroAlt": "Sunburst LG-2 with a rectangular bridge and a large mottled pickguard",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-sg-custom-value-guide/",
+      "heroAlt": "Walnut-finish Gibson SG Custom with three covered pickups, gold hardware and a Bigsby vibrato",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-sg-special-value-guide/",
+      "heroAlt": "Cherry Gibson SG Special with two black P-90 pickups, a large pickguard and short vibrato",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-sg-junior-value-guide/",
+      "heroAlt": "Cherry Gibson SG Junior with one black dog-ear P-90 pickup, two knobs and a wraparound bridge",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-sg-standard-value-guide/",
+      "heroAlt": "Cherry SG Standard body with two humbuckers, four knobs and a sideways vibrato in a red-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-sg-value-guide/",
+      "heroAlt": "Cherry Gibson SG Standard with two covered humbuckers, a small pickguard and sideways vibrato",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-gibson-value-guide/",
+      "heroAlt": "Goldtop Gibson Les Paul with two covered pickups and a cream pickguard in front of a pink-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/fender-guitars-serial-number-guide/",
+      "heroAlt": "Sunburst Fender Stratocaster with three white pickups in front of amplifiers",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/fender-jazzmaster-dating-guide/",
+      "heroAlt": "A 1959 Fender Jazzmaster in three-color sunburst with its original gold anodized aluminum pickguard, clay dot inlays, and amber switch tip",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/fender-mustang-dating-guide/",
+      "heroAlt": "Full front view of a 1971 Fender Competition Mustang in Competition Blue with a diagonal racing stripe and a pearloid pickguard",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/gibson-es-330-dating-guide/",
+      "heroAlt": "Sunburst Gibson ES-330 with dot inlays, black dogear P-90s and a trapeze tailpiece",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/gretsch-body-binding-and-inlays/",
+      "heroAlt": "Orange Gretsch hollowbody guitar with two pickups and a Bigsby tailpiece",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gretsch",
+          "href": "/sell-my-gretsch-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/gibson-sg-dating-guide/",
+      "heroAlt": "Early Gibson SG Standard with a small pickguard, two humbuckers and sideways vibrato",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/gretsch-bridges-and-tailpieces/",
+      "heroAlt": "Orange Gretsch hollowbody guitar with two pickups and a Bigsby tailpiece",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gretsch",
+          "href": "/sell-my-gretsch-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/gretsch-finish-colors/",
+      "heroAlt": "Orange Gretsch hollowbody guitar with two pickups and a Bigsby tailpiece",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gretsch",
+          "href": "/sell-my-gretsch-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/gretsch-headstock-and-tuner-dating-guide/",
+      "heroAlt": "Orange Gretsch hollowbody guitar with two pickups and a Bigsby tailpiece",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gretsch",
+          "href": "/sell-my-gretsch-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/gretsch-knobs-and-controls/",
+      "heroAlt": "Orange Gretsch hollowbody guitar with two pickups and a Bigsby tailpiece",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gretsch",
+          "href": "/sell-my-gretsch-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/gretsch-labels-and-serial-number-locations/",
+      "heroAlt": "Orange Gretsch hollowbody guitar with two pickups and a Bigsby tailpiece",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gretsch",
+          "href": "/sell-my-gretsch-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/gretsch-pickup-dating-guide/",
+      "heroAlt": "Orange Gretsch hollowbody guitar with two pickups and a Bigsby tailpiece",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gretsch",
+          "href": "/sell-my-gretsch-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/gretsch-vintage-vs-reissue/",
+      "heroAlt": "Orange Gretsch hollowbody guitar with two pickups and a Bigsby tailpiece",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gretsch",
+          "href": "/sell-my-gretsch-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/guild-acoustic-guitar-identification/",
+      "heroAlt": "Natural-finish Guild acoustic guitar in an open case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Guild",
+          "href": "/sell-my-guild-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/guild-electric-guitar-identification/",
+      "heroAlt": "Natural-finish Guild acoustic guitar in an open case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Guild",
+          "href": "/sell-my-guild-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/guild-factory-eras/",
+      "heroAlt": "Natural-finish Guild acoustic guitar in an open case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Guild",
+          "href": "/sell-my-guild-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/guild-labels-and-serial-number-locations/",
+      "heroAlt": "Natural-finish Guild acoustic guitar in an open case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Guild",
+          "href": "/sell-my-guild-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/guild-pickup-and-hardware-dating-guide/",
+      "heroAlt": "Natural-finish Guild acoustic guitar in an open case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Guild",
+          "href": "/sell-my-guild-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/guild-model-prefix-serial-number-charts/",
+      "heroAlt": "Natural-finish Guild acoustic guitar in an open case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Guild",
+          "href": "/sell-my-guild-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/guild-vintage-vs-reissue/",
+      "heroAlt": "Natural-finish Guild acoustic guitar in an open case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Guild",
+          "href": "/sell-my-guild-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/1952-fender-precision-bass-guide/",
+      "heroAlt": "A stunning lifestyle photograph featuring an investment-grade 1952 Fender Precision Bass paired with a matching \"TV Front\" 1952 Fender Bassman amplifier. The bass features the original owner's name neatly hand-painted on the black phenolic pickguard, mirrored by the same personalized name on the amp's original linen grill cloth, a rare, documented piece of provenance linking these two instruments as a lifetime pair.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+      "heroAlt": "1958 Gibson Les Paul Special with TV Yellow finish",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/1959-gibson-es-335-authentication-guide/",
+      "heroAlt": "A 1959 Gibson ES-335TD in original sunburst finish resting in a vintage brown Lifton case with pink interior at Joe's Vintage Guitars.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/1959-gibson-es-355-history-value/",
+      "heroAlt": "Front of a 1959 Gibson ES-355 in cherry red with a Bigsby vibrato, split-diamond headstock, and gold hardware, resting in its pink-lined case at Joe's Vintage Guitars.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/1962-gibson-es-335-guide/",
+      "heroAlt": "A 1962 Gibson ES-335 in Cherry finish. An example of the post war peak for Gibson electrics",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/1965-gibson-es-335-short-maestro-vibrola/",
+      "heroAlt": "1965 Gibson ES-335 in sunburst with a factory short Maestro Vibrola, front of body",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/1966-gibson-es-335-authentication-guide/",
+      "heroAlt": "A 1966 Gibson ES-335 that was purchased as part of a large collection.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/1968-gibson-es-335-guide/",
+      "heroAlt": "A 1968 Gibson ES-335 in Sunburst finish. This example is in near mint condition.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/fender-jazzmaster-evolution-guide-1958-1971/",
+      "heroAlt": "A 1966 Fender Jazzmaster in custom Charcoal Frost finish.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/gibson-byrdland-authentication-guide/",
+      "heroAlt": "Gibson Byrdland authentication guide. Identify any year Byrdland",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/gibson-es-125-guide/",
+      "heroAlt": "A 1954 Gibson ES-125 in sunburst finish.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/gibson-es-335-345-355-guide/",
+      "heroAlt": "Full front view of a sunburst 1965 Gibson ES-335 standing in its case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/gibson-j200-model-history-authentication-guide/",
+      "heroAlt": "1948 Gibson SJ-200 sunburst acoustic guitar photographed in its case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/identify-vintage-gibson-j45-j50-sj/",
+      "heroAlt": "A 1950s Gibson J-45 in its original case. Sunburst finish",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/gibson-les-paul-junior-guide/",
+      "heroAlt": "A Gibson Les Paul Junior from 1955.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+      "heroAlt": "Vintage 1950s Gibson LG-2 acoustic guitar with large pickguard and original small rectangular rosewood bridge",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/vintage-fender-jazz-bass-guide/",
+      "heroAlt": "A 1966 Fender Jazz Bass in Lake Placid Blue custom color.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/norlin-les-paul-custom-year-guide/",
+      "heroAlt": "Cherry sunburst 1976 Gibson Les Paul Custom body with two covered humbuckers and gold hardware.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/vintage-fender-jaguar-guide/",
+      "heroAlt": "A 1966 Fender Jaguar in original Olympic White finish.",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/post/vintage-gibson-sg-family-guide/",
+      "heroAlt": "1962 Gibson SG Standard with original nickel hardware",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/rickenbacker-body-binding-and-inlays/",
+      "heroAlt": "Natural-finish Rickenbacker electric guitar in a blue-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Rickenbacker",
+          "href": "/sell-my-rickenbacker-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/rickenbacker-knobs-and-controls/",
+      "heroAlt": "Natural-finish Rickenbacker electric guitar in a blue-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Rickenbacker",
+          "href": "/sell-my-rickenbacker-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/rickenbacker-finish-colors/",
+      "heroAlt": "Natural-finish Rickenbacker electric guitar in a blue-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Rickenbacker",
+          "href": "/sell-my-rickenbacker-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/rickenbacker-tailpiece-dating-guide/",
+      "heroAlt": "Natural-finish Rickenbacker electric guitar in a blue-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Rickenbacker",
+          "href": "/sell-my-rickenbacker-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/rickenbacker-pickup-dating-guide/",
+      "heroAlt": "Natural-finish Rickenbacker electric guitar in a blue-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Rickenbacker",
+          "href": "/sell-my-rickenbacker-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/rickenbacker-tuner-dating-guide/",
+      "heroAlt": "Natural-finish Rickenbacker electric guitar in a blue-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Rickenbacker",
+          "href": "/sell-my-rickenbacker-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/sell-my-fender-guitar/",
+      "heroAlt": "1956 Fender Stratocaster in its red-lined case",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "#appraisal"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-fender-stratocaster-value-guide/",
+      "heroAlt": "Sunburst Fender Stratocaster with three white pickups in front of amplifiers",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "url": "/vintage-fender-telecaster-value-guide/",
+      "heroAlt": "Blonde Fender Telecaster from my photo archive",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    }
+  ],
+  "delivery": "Preview only. Production has not been merged. This cross-page presentation follow-up is recorded on the combined preview branch; preserve it when assembling the page-specific content PRs for release."
+}

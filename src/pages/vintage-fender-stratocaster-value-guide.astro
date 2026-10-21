@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import PageHero from "../components/primitives/PageHero.astro";
+import GuideHero from '../components/GuideHero.astro';
+import guidePhoto from '../assets/images/sell-fender/1956-fender-stratocaster-sunburst-800x533.jpg';
 import Button from "../components/primitives/Button.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import FAQ from "../components/FAQ.astro";
@@ -168,17 +169,7 @@ structuredData.push(faqSchema);
   ogImageAlt="Vintage Fender Stratocaster value guide covering pre-CBS guitars made from 1954 to 1965"
   structuredData={structuredData}
 >
-  <PageHero
-    eyebrow="Value Guide"
-    title="Vintage Fender Stratocaster Value Guide"
-    subhead="2026 price ranges for 1954 to 1965 Stratocasters, plus the finish, originality, and condition details that move the number."
-    subheadTag="p"
-    subheadHtml={true}
-    bgImage="/images/hero-background.jpg"
-  >
-    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
-    <Button slot="cta" href="/free-appraisal/fender/" variant="cream" size="lg">Fender Appraisal</Button>
-  </PageHero>
+  <GuideHero title="Vintage Fender Stratocaster Value Guide" image={guidePhoto} alt="Sunburst Fender Stratocaster with three white pickups in front of amplifiers" brand="Fender" eyebrow="Value Guide"><p>2026 price ranges for 1954 to 1965 Stratocasters, plus the finish, originality, and condition details that move the number.</p></GuideHero>
 
   <section class="vg-section" id="quick-answer">
     <div class="vg-inner vg-intro">

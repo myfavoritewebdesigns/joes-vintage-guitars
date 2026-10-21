@@ -1,4 +1,5 @@
 ---
+import GuideActions from "../components/GuideActions.astro";
 import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
 import { getImage } from 'astro:assets';
 import SGPhoto from '../components/SGPhoto.astro';
@@ -112,13 +113,14 @@ const schema = {
         <div class="sg-hero__copy">
           <p class="sg-eyebrow">Gibson Model Dating Guides</p>
           <h1>Gibson SG <span>Dating Guide</span></h1>
+<GuideActions brand="Gibson" />
           <p class="sg-lede">Find the year of your SG by checking the changes that belong to its model: Standard, Custom, Special or Junior.</p>
           <p>For the market ranges, use my <a href="/vintage-gibson-sg-value-guide/">SG value guide by model and year</a>.</p>
         <p class="jvg-guide-context">If you're weighing conflicting clues, my <a class="underline underline-offset-4" href="/how-old-is-my-guitar/">guitar dating overview</a> explains how I compare serial numbers, parts and construction.</p>
           <div class="sg-hero__actions"><a class="sg-button" href="/how-to-read-gibson-serial-numbers/">Use the Gibson Serial Number Decoder and Charts</a><a href="#model-chart">Jump Straight to the SG Dating Chart</a></div>
           <p class="sg-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 10, 2026</p>
         </div>
-        <figure class="sg-hero__photo"><img {...hero.attributes} src={hero.src} srcset={hero.srcSet.attribute} sizes="(min-width: 1024px) 53vw, 100vw" alt="Early Gibson SG Standard with a small pickguard, two humbuckers and sideways vibrato" fetchpriority="high" decoding="async" /></figure>
+        <figure class="sg-hero__photo"><img {...hero.attributes} src={hero.src} srcset={hero.srcSet.attribute} sizes="(min-width: 1024px) 53vw, 100vw" alt="Early Gibson SG Standard with a small pickguard, two humbuckers and sideways vibrato" fetchpriority="high" loading="eager" decoding="async" /></figure>
       </section>
       <section class="sg-answer"><div class="sg-container sg-answer__grid">
         <div><p class="sg-eyebrow">Start With the Guitar</p><h2>A Serial Number Needs a Model</h2><p>An SG Standard and an SG Special can have numbers from the same range but very different pickups and bridges. Identify the model first, then compare its features with the serial and original pot codes. A replaced part dates the replacement, not the guitar.</p></div>

@@ -1,4 +1,5 @@
 ---
+import GuideActions from '../components/GuideActions.astro';
 import Layout from '../layouts/Layout.astro';
 import LicensedImage from '../components/primitives/LicensedImage.astro';
 import { getImage } from 'astro:assets';
@@ -43,6 +44,7 @@ const structuredData = [{
       <div class="fvhub-hero-copy">
         <p class="fvhub-eyebrow">From Joe's Guitar Archive</p>
         <h1 id="fvhub-title">Vintage Fender <br /><span>Value Guide</span></h1>
+        <GuideActions brand="Fender" />
         <p class="fvhub-intro">Choose your Fender model to find its value guide. I've gathered the guitar and bass guides here so you can go straight to the year, finish and condition that match yours.</p>
         <a class="fvhub-button" href="#vintage-fender-values-by-model">Find Your Model <span aria-hidden="true">↓</span></a>
         <p class="fvhub-byline">By Joe Dampt <span aria-hidden="true">·</span> Updated October 2026</p>

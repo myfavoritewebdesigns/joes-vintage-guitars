@@ -1,4 +1,5 @@
 ---
+import GuideActions from '../components/GuideActions.astro';
 import Layout from '../layouts/Layout.astro';
 import LicensedImage from '../components/primitives/LicensedImage.astro';
 import { getImage } from 'astro:assets';
@@ -43,6 +44,7 @@ const structuredData = [{
       <div class="gvhub-hero-copy">
         <p class="gvhub-eyebrow">From Joe's Guitar Archive</p>
         <h1 id="gvhub-title">Vintage Gibson <br /><span>Value Guide</span></h1>
+        <GuideActions brand="Gibson" />
         <p class="gvhub-intro">Choose your Gibson model to find its value guide. I've gathered the solidbody, ES, archtop and acoustic guides here so you can go straight to the year and condition that match yours.</p>
         <a class="gvhub-button" href="#vintage-gibson-values-by-model">Find Your Model <span aria-hidden="true">↓</span></a>
         <p class="gvhub-byline">By Joe Dampt <span aria-hidden="true">·</span> Updated October 2026</p>

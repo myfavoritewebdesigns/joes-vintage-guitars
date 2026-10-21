@@ -1,4 +1,5 @@
 ---
+import GuideActions from "../components/GuideActions.astro";
 import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
 import { getImage } from 'astro:assets';
 import '../styles/es-guide.css';
@@ -81,13 +82,14 @@ const schema = {
       <section class="es-hero">
         <div class="es-hero__copy"><p class="es-eyebrow">Gibson Model Dating Guides</p>
           <h1>Gibson ES-330 <span>Dating Guide</span></h1>
+<GuideActions brand="Gibson" />
           <p class="es-lede">Follow the ES-330’s changes from dot inlays and black P-90 covers to block inlays, metal covers and the later neck joint.</p>
         <p>For annual market ranges and condition assumptions, use my <a href="/vintage-gibson-es-330-value-guide/">vintage Gibson ES-330 value guide</a>.</p>
         <p class="jvg-guide-context">If you're weighing conflicting clues, my <a class="underline underline-offset-4" href="/how-old-is-my-guitar/">guitar dating overview</a> explains how I compare serial numbers, parts and construction.</p>
           <div class="es-hero__actions"><a class="es-button" href="/how-to-read-gibson-serial-numbers/">Use the Gibson Serial Number Decoder and Charts</a><a href="#dating-chart">Jump Straight to the ES-330 Dating Chart</a></div>
           <p class="es-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 10, 2026</p>
         </div>
-        <figure class="es-hero__photo"><img {...hero.attributes} src={hero.src} srcset={hero.srcSet.attribute} sizes="(min-width: 1024px) 53vw, 100vw" alt="Sunburst Gibson ES-330 with dot inlays, black dogear P-90s and a trapeze tailpiece" fetchpriority="high" decoding="async" /></figure>
+        <figure class="es-hero__photo"><img {...hero.attributes} src={hero.src} srcset={hero.srcSet.attribute} sizes="(min-width: 1024px) 53vw, 100vw" alt="Sunburst Gibson ES-330 with dot inlays, black dogear P-90s and a trapeze tailpiece" fetchpriority="high" loading="eager" decoding="async" /></figure>
       </section>
       <section class="es-answer"><div class="es-container es-answer__grid"><div><p class="es-eyebrow">Fully Hollow, Not a 335</p><h2>Start With ES-330 Features</h2><p>The ES-330 has a fully hollow body without the ES-335’s solid center block. Vintage originals use dogear P-90s, not humbuckers. Use the ES-330 timeline before applying a date from another Gibson model.</p></div><ol><li><strong>Identify the version.</strong> Count the pickups and check the inlays.</li><li><strong>Compare the construction.</strong> Look at the neck joint, hardware and controls.</li><li><strong>Confirm the year.</strong> Cross-check the serial, any FON and original pot codes.</li></ol></div></section>
       <div class="es-container es-body">

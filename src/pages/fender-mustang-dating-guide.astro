@@ -1,4 +1,5 @@
 ---
+import GuideHero from "../components/GuideHero.astro";
 /**
  * Fender Mustang dating guide. SEVENTH OF THE MODEL-AXIS SPOKES.
  *
@@ -281,10 +282,7 @@ const breadcrumbSchema = {
   structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
 >
   <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
-  <div class="fspot-header-backdrop" aria-hidden="true">
-    <div class="fspot-header-backdrop__dark"></div>
-    <div class="fspot-header-backdrop__cream"></div>
-  </div>
+  <GuideHero title="How To Date A Fender Mustang" image={bmeta(MUS, "1971-fender-mustang-competition-blue-front.jpg")} alt="Full front view of a 1971 Fender Competition Mustang in Competition Blue with a diagonal racing stripe and a pearloid pickguard" brand="Fender" caption="A Competition Mustang in Competition Blue. The stripe, the pearloid guard and the headstock finish together place a Competition guitar inside a couple of years." />
 
   <div class="fspot">
     <!-- HERO -->
@@ -292,7 +290,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
         <span class="eyebrow">Fender Dating By Model</span>
-        <h1>How To Date A Fender Mustang</h1>
+
         <p class="lead">The Mustang landed in 1964, which is late enough that most of the checks people bring from a Stratocaster or a Telecaster do not apply to it. Slab boards were two years gone, the spaghetti logo era had closed, and clay dots were nearly out. What dates a Mustang instead is a set of parts that exist on no other Fender, plus a colour rule that tells you in one glance whether the pickguard belongs to the body. Here is the whole run, from the 1964 launch to the end in 1982.</p>
         <p class="jvg-guide-context">If you're new to dating guitars, the <a class="underline underline-offset-4" href="/how-old-is-my-guitar/">overview of serial numbers and parts dates</a> explains how to compare those clues.</p>
         <p class="jvg-guide-context">For 1964 Fender Mustang value comparisons and the later production years, see my <a class="underline underline-offset-4" href="/post/fender-mustang-history-value/">Fender Mustang value guide</a>. This page covers the evidence for the year, finish and parts.</p>
@@ -303,10 +301,7 @@ const breadcrumbSchema = {
           <p class="hubcta__t"><b>Just after the serial number?</b> The full charts and the lookup tool that decodes a number for you are on the main guide.</p>
           <a class="hubcta__b" href={HUB_HREF}>Look Up A Serial Number</a>
         </div>
-        <figure class="sfig herofig">
-          <LicensedImage src={bmeta(MUS, "1971-fender-mustang-competition-blue-front.jpg")} alt="Full front view of a 1971 Fender Competition Mustang in Competition Blue with a diagonal racing stripe and a pearloid pickguard" width={1400} loading="eager" />
-          <figcaption>A Competition Mustang in Competition Blue. The stripe, the pearloid guard and the headstock finish together place a Competition guitar inside a couple of years.</figcaption>
-        </figure>
+
       </div>
     </section>
 

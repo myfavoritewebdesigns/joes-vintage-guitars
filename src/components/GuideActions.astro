@@ -1,0 +1,16 @@
+---
+interface Props { brand: 'Fender' | 'Gibson' | 'Gretsch' | 'Guild' | 'Rickenbacker'; }
+const { brand } = Astro.props;
+---
+<div class="jvg-guide-actions" aria-label="Appraisal And Selling">
+  <a href="/free-appraisal/">Free Appraisal</a>
+  <a href={`/sell-my-${brand.toLowerCase()}-guitar/`}>Sell My {brand}</a>
+</div>
+<style>
+  .jvg-guide-actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0;font-family:var(--font-display),sans-serif}
+  .jvg-guide-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 22px;border:2px solid #d2b48c;border-radius:4px;background:#f6eddf;color:#3e2a14;font-size:17px;font-weight:600;line-height:1.2;text-decoration:none;text-align:center}
+  .jvg-guide-actions a+a{background:#833316;color:#fff;border-color:#833316}
+  .jvg-guide-actions a:hover{background:#d2b48c;color:#3e2a14;border-color:#d2b48c}
+  .jvg-guide-actions a:focus-visible{outline:3px solid #d2b48c;outline-offset:4px}
+  @media(max-width:480px){.jvg-guide-actions{gap:10px}.jvg-guide-actions a{flex:1 1 135px;padding:12px 14px}}
+</style>

@@ -1,4 +1,6 @@
 ---
+import GuideHero from '../components/GuideHero.astro';
+import guidePhoto from '../assets/images/gretsch-dating/orange-front.jpg';
 import Layout from './Layout.astro';
 import ContactSection from '../components/ContactSection.astro';
 import {gretschGuides} from '../data/gretsch-guides';
@@ -17,7 +19,7 @@ const breadcrumbs={'@context':'https://schema.org','@type':'BreadcrumbList',item
 const article={'@context':'https://schema.org','@type':'TechArticle',headline:title,description,url:SITE_URL+canonical,mainEntityOfPage:SITE_URL+canonical,author:{'@id':SITE_URL+'/about-me/#person'},publisher:{'@id':SITE_URL+'/'},datePublished:canonical===hub?'2026-04-13':'2026-10-15',dateModified:'2026-10-15',image:SITE_URL+socialImage.src};
 ---
 <Layout footerSellLink={canonical !== hub ? {label: 'Sell My Gretsch', href: '/sell-my-gretsch-guitar/'} : undefined} title={metaTitle} description={description} canonical={canonical} ogType="article" ogImage={SITE_URL+socialImage.src} ogImageWidth={Number(socialImage.attributes.width)} ogImageHeight={Number(socialImage.attributes.height)} bodyClass="gretsch-guide-page" structuredData={[breadcrumbs,article,...structuredData]}>
- <div class="gr-header-space" aria-hidden="true"></div>
+ {canonical !== hub ? <GuideHero title={title} image={guidePhoto} alt="Orange Gretsch hollowbody guitar with two pickups and a Bigsby tailpiece" brand="Gretsch" eyebrow="Gretsch Identification Guide" /> : <div class="gr-header-space" aria-hidden="true"></div>}
  <div class="gr-series"><div class="gr-wrap"><a class="gr-series-title" href={hub}>Gretsch Dating Library</a><nav aria-label="Gretsch dating guides"><a href={hub} aria-current={canonical===hub?'page':undefined}>Serial Lookup</a>{gretschGuides.map(g=><a href={`/${g.slug}/`} aria-current={canonical===`/${g.slug}/`?'page':undefined}>{g.label}</a>)}</nav></div></div>
  <div class="gr-content"><slot /></div><ContactSection />
 </Layout>

@@ -10,6 +10,8 @@
  * Content facts trace to VG_FACTS.md (joes-vintage-databases) per the writing
  * system; new Joe-sourced facts land in that registry via PR #1 (VG-0113..0116).
  */
+import GuideHero from '../components/GuideHero.astro';
+import guidePhoto from '../assets/images/sell-fender/1956-fender-stratocaster-sunburst-800x533.jpg';
 import Layout from "../layouts/Layout.astro";
 import FenderSerialTool from "../components/tools/FenderSerialTool.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
@@ -252,10 +254,7 @@ const breadcrumbSchema = {
   <script slot="head" is:inline>(function(){var m={"#adv-pot-codes":"/fender-pot-codes/","#adv-neck-heel":"/fender-neck-dates/","#adv-body-dates":"/fender-body-dates/","#adv-pickup-dates":"/fender-pickup-dates/","#logo-evolution":"/fender-physical-features/#logo"};function g(){var t=m[location.hash];if(t)location.replace(t);}g();window.addEventListener("hashchange",g);})();</script>
 
   <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
-  <div class="fshub-header-backdrop" aria-hidden="true">
-    <div class="fshub-header-backdrop__dark"></div>
-    <div class="fshub-header-backdrop__cream"></div>
-  </div>
+  <GuideHero title="Fender Serial Number Lookup: Free Decoder & Dating Guide" image={guidePhoto} alt="Sunburst Fender Stratocaster with three white pickups in front of amplifiers" brand="Fender" />
 
 
   <div class="fshub">
@@ -263,7 +262,7 @@ const breadcrumbSchema = {
     <section class="hero" id="lookup">
       <div class="measure stack">
         <span class="eyebrow">Fender Serial Number Lookup</span>
-        <h1>Fender Serial Number Lookup: Free Decoder &amp; Dating Guide</h1>
+
         <p class="lead">Type your serial for an instant read on era and factory. Most lookups stop there. This page tells you what the number can and cannot prove, then walks you through the cross-checks that confirm the year, the same way I do it at the bench.</p>
         <p class="jvg-guide-context">If you're starting from scratch, my guide to <a class="underline underline-offset-4" href="/how-old-is-my-guitar/">finding a guitar's age</a> explains how serial numbers and parts fit together.</p>
         <div class="trust">
