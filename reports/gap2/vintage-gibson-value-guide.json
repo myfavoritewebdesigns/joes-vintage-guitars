@@ -1222,5 +1222,13 @@
       "rawMustFixBuckets": 3,
       "reviewed": "Requested directory redesign replaces old article headings, article wrapper, Article schema and six FAQs with model sections, CollectionPage schema and four directory FAQs. H1 text is preserved; it now has an explicit id. These differences are intentional and authorized by Joe. Both shared Reverb icon dimension warnings predate this change. All 24 checked asset URLs loaded."
     }
+  },
+  "BRANCH_DEPENDENCIES": {
+    "date": "2026-10-21",
+    "asset": "src/assets/blog/gibson-firebird-history-authentication-value/firebird-body.jpg",
+    "source": "Existing Joe photo already included in the combined preview and the Firebird companion branch.",
+    "reason": "Include the same blob in this page PR so its image resolver can build independently.",
+    "blob": "33464d8833fdc95158a66069e2ea7ece629eeada",
+    "verification": "Full pnpm 11.7.0 verify passed on the individual PR tree: 0 Astro errors/warnings and 0 copy hard failures."
   }
 }
