@@ -1,0 +1,44 @@
+---
+import type { ImageMetadata } from 'astro';
+import LicensedImage from './primitives/LicensedImage.astro';
+import GuideActions from './GuideActions.astro';
+interface Props {
+  title: string;
+  image: ImageMetadata;
+  alt: string;
+  brand: 'Fender' | 'Gibson' | 'Gretsch' | 'Guild' | 'Rickenbacker';
+  eyebrow?: string;
+  byline?: string;
+  caption?: string;
+}
+const {title,image,alt,brand,eyebrow="Joe's Vintage Guitars",byline='By Joe Dampt',caption}=Astro.props;
+---
+<section class="jvg-guide-hero" data-guide-hero>
+  <div class="jvg-guide-hero__inner">
+    <div class="jvg-guide-hero__copy">
+      <p class="jvg-guide-hero__eyebrow">{eyebrow}</p>
+      <h1>{title}</h1>
+      <p class="jvg-guide-hero__byline">{byline}</p>
+      <GuideActions brand={brand} />
+      <slot />
+    </div>
+    <figure class="jvg-guide-hero__photo">
+      <LicensedImage src={image} alt={alt} width={1400} loading="eager" fetchpriority="high" sizes="(max-width: 900px) calc(100vw - 40px), (max-width: 1360px) 48vw, 640px" />
+      {caption && <figcaption>{caption}</figcaption>}
+    </figure>
+  </div>
+</section>
+<style>
+  .jvg-guide-hero{background:#3e2a14;color:#fff5e7;padding:284px 28px 56px;border-bottom:6px solid #d2b48c}
+  .jvg-guide-hero__inner{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-items:center;gap:48px;max-width:1280px;margin:0 auto}
+  .jvg-guide-hero__copy{min-width:0}
+  .jvg-guide-hero__eyebrow{margin:0 0 16px;color:#d2b48c;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+  .jvg-guide-hero h1{margin:0;color:#fff5e7;font-family:var(--font-display),sans-serif;font-size:clamp(30px,3.5vw,48px);font-weight:600;line-height:1.18;text-wrap:balance}
+  .jvg-guide-hero__byline{font-size:14px;color:#e2cfb2;margin:20px 0 0}
+  .jvg-guide-hero__photo{margin:0;background:#241b13;border:1px solid #d2b48c66;border-radius:6px;overflow:hidden;box-shadow:0 14px 32px #0003}
+  .jvg-guide-hero__photo :global(img){display:block;width:100%;height:370px;object-fit:contain}
+  .jvg-guide-hero__photo figcaption{padding:14px 18px;font-size:13px;line-height:1.6;color:#e2cfb2}
+  @media(max-width:1023px){.jvg-guide-hero{padding-top:212px}}
+  @media(max-width:900px){.jvg-guide-hero{padding-inline:20px}.jvg-guide-hero__inner{grid-template-columns:1fr;gap:24px}.jvg-guide-hero__photo :global(img){height:auto;max-height:450px}.jvg-guide-hero__copy{max-width:760px}}
+  @media(max-width:639px){.jvg-guide-hero{padding-top:156px;padding-bottom:32px}.jvg-guide-hero__photo :global(img){max-height:360px}}
+</style>

@@ -7,7 +7,11 @@ import { contact, hrefs, footerSocials, footerTopMenu, footerMainMenu, footerLeg
 // (2026-08-07): the hasDropdown flag used to render only a decorative
 // chevron with no links, so the brand hubs had zero footer links site-wide.
 // The first sellMenu child duplicates the parent "/" link and is skipped.
-const sellChildren = sellMenu.children.filter((c) => c.href !== "/");
+interface Props { sellLink?: { label: string; href: string }; }
+const { sellLink } = Astro.props;
+const sellChildren = sellLink
+  ? [sellLink, ...sellMenu.children.filter((c) => c.href === "/sell-a-guitar-collection/")]
+  : sellMenu.children.filter((c) => c.href !== "/");
 ---
 
 <footer class="jvgft">

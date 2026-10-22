@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-flying-v-medallion-guide/1971-gibson-flying-v-medallion-cherry-front.jpg"
 heroImageAlt: "A cherry 1971 Gibson Flying V Medallion leaning in the shop, showing the large cream pickguard, two chrome humbuckers, and the small gold limited-edition medallion set into the lower bass wing."
-metaDescription: "The 1971 Gibson Flying V Medallion was a numbered limited edition of about 353, each with a gold medallion coin. History, specs, and how to spot a real one."
+metaDescription: "Identify 1971 Gibson Flying V Medallion features, original parts and construction details. Compare dating clues, repairs and photographs from my archive."
 ogImage: "/images/blog/gibson-flying-v-medallion-guide/1971-gibson-flying-v-medallion-cherry-front.jpg"
 ---
 <style>
@@ -202,7 +202,7 @@ Guitars like this are the reason the shop is fun to run. It is a genuine short-r
 
 Value is the hard part, for the usual vintage reason: so few of these trade that there is not much recent sold data to build on. What you can see are dealer asking prices, and those give a fair picture of the range.
 
-Clean, all-original "survivor" Medallion Vs, the roughly two dozen that have never been touched, sit at the top and have been offered in the mid-$20,000s and up. More typical examples, meaning honest players with a common change or two such as replaced tuners, trade lower, generally in the high teens to low $20,000s. Guitars with bigger issues, a repaired headstock break, a refinish, or a missing coin, drop further from there. Condition, originality, and whether the coin is present and correct move the number more than anything else.
+Clean, all-original "survivor" Medallion Vs, the roughly two dozen that have never been touched, sit at the top and have been offered around $23,000 and up. More typical examples, meaning honest players with a common change or two such as replaced tuners, trade lower, generally around $17,000 to $20,000. Guitars with bigger issues, a repaired headstock break, a refinish, or a missing coin, drop further from there. Condition, originality, and whether the coin is present and correct move the number more than anything else.
 
 The practical advice is the same as with any vintage guitar at this level. Do not price it off a single old listing or a forum thread. If you own a Medallion V, or think you might have one, the sensible move is to have someone who knows them look at it. You can start with a free, no-obligation [appraisal request](/free-appraisal/), and if you decide to sell, our [sell my Gibson](/sell-my-gibson-guitar/) page explains how we buy them outright.
 

@@ -1,4 +1,5 @@
 ---
+import GuideActions from "../components/GuideActions.astro";
 import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
 import { getImage } from 'astro:assets';
 import '../styles/es-guide.css';
@@ -7,6 +8,7 @@ import ESPhotoViewer from '../components/ESPhotoViewer.astro';
 import ES330Timeline from '../components/ES330Timeline.astro';
 import { imageOrigin, imageLicense } from '../config/image-license';
 import dot from '../assets/es-330/dot-neck-es-330.jpg';
+import dotDetail from '../assets/es-330/dot-inlay.jpg';
 import block from '../assets/es-330/block-neck-es-330.jpg';
 import fon from '../assets/es-330/1959-s-prefix-fon.jpg';
 import modelStamp from '../assets/es-330/es-330td-model-stamp.jpg';
@@ -81,19 +83,21 @@ const schema = {
       <section class="es-hero">
         <div class="es-hero__copy"><p class="es-eyebrow">Gibson Model Dating Guides</p>
           <h1>Gibson ES-330 <span>Dating Guide</span></h1>
+<GuideActions brand="Gibson" />
           <p class="es-lede">Follow the ES-330’s changes from dot inlays and black P-90 covers to block inlays, metal covers and the later neck joint.</p>
+        <p>For annual market ranges and condition assumptions, use my <a href="/vintage-gibson-es-330-value-guide/">vintage Gibson ES-330 value guide</a>.</p>
         <p class="jvg-guide-context">If you're weighing conflicting clues, my <a class="underline underline-offset-4" href="/how-old-is-my-guitar/">guitar dating overview</a> explains how I compare serial numbers, parts and construction.</p>
           <div class="es-hero__actions"><a class="es-button" href="/how-to-read-gibson-serial-numbers/">Use the Gibson Serial Number Decoder and Charts</a><a href="#dating-chart">Jump Straight to the ES-330 Dating Chart</a></div>
           <p class="es-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 10, 2026</p>
         </div>
-        <figure class="es-hero__photo"><img {...hero.attributes} src={hero.src} srcset={hero.srcSet.attribute} sizes="(min-width: 1024px) 53vw, 100vw" alt="Sunburst Gibson ES-330 with dot inlays, black dogear P-90s and a trapeze tailpiece" fetchpriority="high" decoding="async" /></figure>
+        <figure class="es-hero__photo"><img {...hero.attributes} src={hero.src} srcset={hero.srcSet.attribute} sizes="(min-width: 1024px) 53vw, 100vw" alt="Sunburst Gibson ES-330 with dot inlays, black dogear P-90s and a trapeze tailpiece" fetchpriority="high" loading="eager" decoding="async" /></figure>
       </section>
       <section class="es-answer"><div class="es-container es-answer__grid"><div><p class="es-eyebrow">Fully Hollow, Not a 335</p><h2>Start With ES-330 Features</h2><p>The ES-330 has a fully hollow body without the ES-335’s solid center block. Vintage originals use dogear P-90s, not humbuckers. Use the ES-330 timeline before applying a date from another Gibson model.</p></div><ol><li><strong>Identify the version.</strong> Count the pickups and check the inlays.</li><li><strong>Compare the construction.</strong> Look at the neck joint, hardware and controls.</li><li><strong>Confirm the year.</strong> Cross-check the serial, any FON and original pot codes.</li></ol></div></section>
       <div class="es-container es-body">
         <nav class="es-toc" aria-label="ES-330 guide sections"><a href="#identify">Identify the Model</a><a href="#dating-chart">Dating Chart</a><a href="#timeline">Timeline</a><a href="#long-neck">Long-Neck Change</a><a href="#neck-and-body">Neck and Body</a><a href="#pickups-and-hardware">Pickups and Hardware</a><a href="#serial-and-fon">Serials and FONs</a><a href="#reissues">Reissues</a><a href="#es330-faq">Questions</a></nav>
         <section class="es-section" id="identify"><p class="es-eyebrow">Recognize the Main Styles</p><h2>Dot-Neck and Block-Neck ES-330s</h2>
           <div class="es-families es330-families">
-            <article><ESPhoto src={dot} id="family-dot" title="Dot-Neck ES-330" alt="Sunburst dot-neck Gibson ES-330 representing the early style" showCaption={false} fit="cover" /><div><p class="es-eyebrow">Early Style</p><h3>Dot-Neck ES-330</h3><p>Small round fingerboard inlays, black dogear P-90 covers and the original shorter neck-to-body layout. Later reissues can repeat this appearance.</p><a href="#introduction">See the Early Changes</a></div></article>
+            <article><ESPhoto src={dotDetail} id="family-dot" title="Dot-Neck ES-330" alt="Round dot inlay on a Gibson ES-330 rosewood fingerboard" showCaption={false} fit="cover" /><div><p class="es-eyebrow">Early Style</p><h3>Dot-Neck ES-330</h3><p>Small round fingerboard inlays, black dogear P-90 covers and the original shorter neck-to-body layout. Later reissues can repeat this appearance.</p><a href="#introduction">See the Early Changes</a></div></article>
             <article><ESPhoto src={block} id="family-block" title="Block-Neck ES-330" alt="Sunburst block-neck Gibson ES-330 with metal dogear P-90 covers" showCaption={false} fit="cover" /><div><p class="es-eyebrow">Later Style</p><h3>Block-Neck ES-330</h3><p>Small rectangular inlays, usually paired with metal pickup covers. Transitional examples can retain black covers. Check the neck joint separately from the inlays.</p><a href="#blocks-and-covers">See the Block-Neck Changes</a></div></article>
           </div>
           <div class="es-checks"><article><h3>ES-330T: One Pickup</h3><p>The original single-pickup version has one P-90 near the middle of the body, one volume and one tone. It is not simply a TD with the neck or bridge pickup removed. The original T belongs to the 1959 to 1963 period.</p></article><article><h3>ES-330TD: Two Pickups</h3><p>The double-pickup version has neck and bridge P-90s, two volume controls, two tone controls and a selector. T means thinline; D means double pickup. A final C commonly denotes Cherry, N Natural and W Walnut.</p></article></div>

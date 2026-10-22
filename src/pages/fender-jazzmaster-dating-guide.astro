@@ -1,4 +1,5 @@
 ---
+import GuideHero from "../components/GuideHero.astro";
 /**
  * Fender Jazzmaster dating guide. THIRD OF THE MODEL-AXIS SPOKES.
  *
@@ -262,7 +263,7 @@ const breadcrumbSchema = {
 
 <Layout
   title="How To Date A Fender Jazzmaster: Year By Year Guide"
-  description="Date a vintage Fender Jazzmaster from what you can see: the pickguard including the gold anodized guard, the inlays, the knobs, and the logo, year by year from 1958 to 1971."
+  description="Date your vintage Fender Jazzmaster by neck, pickups, guards, hardware and serial numbers, with photographs and year-by-year changes from my archive."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${assetSrc(OG)}`}
   {...ogCardSize(OG)}
@@ -272,10 +273,7 @@ const breadcrumbSchema = {
   structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
 >
   <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
-  <div class="fspot-header-backdrop" aria-hidden="true">
-    <div class="fspot-header-backdrop__dark"></div>
-    <div class="fspot-header-backdrop__cream"></div>
-  </div>
+  <GuideHero title="How To Date A Fender Jazzmaster" image={bmeta(JM, "1959-fender-jazzmaster-gold-guard-full-front-scaled.jpg")} alt="A 1959 Fender Jazzmaster in three-color sunburst with its original gold anodized aluminum pickguard, clay dot inlays, and amber switch tip" brand="Fender" caption="A 1959 gold guard Jazzmaster. Gold anodized aluminum guard, clay dots, amber switch tip, spaghetti logo. Four features, and all four of them stop by 1965." />
 
   <div class="fspot">
     <!-- HERO -->
@@ -283,7 +281,8 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
         <span class="eyebrow">Fender Dating By Model</span>
-        <h1>How To Date A Fender Jazzmaster</h1>
+
+        <p>For prices after identifying the guitar, see my <a href="/vintage-fender-jazzmaster-value-guide/">vintage Jazzmaster value guide</a>.</p>
         <p class="lead">The Jazzmaster is the easiest vintage Fender to place in an era and one of the harder ones to pin to a year. The pickguard alone cuts the run into three, the inlays cut it into three again, and between them you can date most examples to a couple of years from a photograph. Here is what changed and when, from the 1958 launch through 1971, including all four pickguard combinations and the gold anodized guard that only shipped for about nine months.</p>
         <p class="jvg-guide-context">If you're new to dating guitars, the <a class="underline underline-offset-4" href="/how-old-is-my-guitar/">overview of serial numbers and parts dates</a> explains how to compare those clues.</p>
         <div class="trust">
@@ -293,10 +292,7 @@ const breadcrumbSchema = {
           <p class="hubcta__t"><b>Just after the serial number?</b> The full charts and the lookup tool that decodes a number for you are on the main guide.</p>
           <a class="hubcta__b" href={HUB_HREF}>Look Up A Serial Number</a>
         </div>
-        <figure class="sfig herofig">
-          <LicensedImage src={bmeta(JM, "1959-fender-jazzmaster-gold-guard-full-front-scaled.jpg")} alt="A 1959 Fender Jazzmaster in three-color sunburst with its original gold anodized aluminum pickguard, clay dot inlays, and amber switch tip" width={1600} loading="eager" />
-          <figcaption>A 1959 gold guard Jazzmaster. Gold anodized aluminum guard, clay dots, amber switch tip, spaghetti logo. Four features, and all four of them stop by 1965.</figcaption>
-        </figure>
+
       </div>
     </section>
 

@@ -3,7 +3,11 @@ import type { GetStaticPaths } from "astro";
 import { render } from "astro:content";
 import { getImage, Image } from "astro:assets";
 import LicensedImage from "../../components/primitives/LicensedImage.astro";
+import ValueGuidePhotos from "../../components/ValueGuidePhotos.astro";
 import LicensedMarkdownPhotos from "../../components/LicensedMarkdownPhotos.astro";
+import GuideHero from '../../components/GuideHero.astro';
+import presentationPaths from '../../data/gap2-presentation-paths.json';
+import comparisonHero from '../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-scaled.jpg';
 import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
@@ -49,6 +53,9 @@ const { Content } = await render(entry);
 const { data } = entry;
 const isBurstYearGuide = /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(entry.id);
 const isNorlinGuide = ["norlin-les-paul-custom-year-guide", "1968-gibson-les-paul-custom-guide", "1969-gibson-les-paul-custom-guide", "1970-gibson-les-paul-custom-guide", "1968-1969-1970-les-paul-custom-dating-guide"].includes(entry.id);
+const isGap2ValueConversion = ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide"].includes(entry.id);
+// Only explicitly reviewed GAP 2 titles opt out of the automatic brand suffix.
+const hasGap2SeoTitle = (data.seoTitle?.length ?? 0) >= 50 && ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide","vintage-fender-jaguar-guide","vintage-fender-jazz-bass-guide","1952-fender-precision-bass-guide","gibson-les-paul-junior-guide","gibson-byrdland-authentication-guide","gibson-es-125-guide","identify-vintage-gibson-j45-j50-sj","gibson-j200-model-history-authentication-guide","1955-1958-tv-yellow-les-paul-special-guide","1959-gibson-es-355-history-value"].includes(entry.id);
 const displayedRelated = isBurstYearGuide
   ? related.filter((post) => /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(post.id))
   : related;
@@ -128,6 +135,36 @@ const ogMeta = data.ogImage ? resolveImage(data.ogImage) : null;
 const authorPhoto = resolveImage("images/fender-sn/about-me-joe-1.jpg");
 // Hero: pipeline metadata when relocated (responsive <Image>), public path
 // fallback otherwise (raw <img>, the 15 raw-HTML-blocked heroes).
+const guideBrands: Record<string, "Fender" | "Gibson" | "Gretsch" | "Guild" | "Rickenbacker" | null> = {
+  "fender-mustang-history-value": "Fender",
+  "gibson-es-345-history-value": "Gibson",
+  "gibson-es-5-switchmaster-history-value": "Gibson",
+  "gibson-firebird-history-authentication-value": "Gibson",
+  "gibson-l5-ces-value-guide": "Gibson",
+  "vintage-gibson-hummingbird-history-value-guide": "Gibson",
+  "1952-fender-precision-bass-guide": "Fender",
+  "1955-1958-tv-yellow-les-paul-special-guide": "Gibson",
+  "1959-gibson-es-335-authentication-guide": "Gibson",
+  "1959-gibson-es-355-history-value": "Gibson",
+  "1962-gibson-es-335-guide": "Gibson",
+  "1965-gibson-es-335-short-maestro-vibrola": "Gibson",
+  "1966-gibson-es-335-authentication-guide": "Gibson",
+  "1968-gibson-es-335-guide": "Gibson",
+  "fender-jazzmaster-evolution-guide-1958-1971": "Fender",
+  "gibson-byrdland-authentication-guide": "Gibson",
+  "gibson-es-125-guide": "Gibson",
+  "gibson-es-335-345-355-guide": "Gibson",
+  "gibson-j200-model-history-authentication-guide": "Gibson",
+  "gibson-les-paul-junior-guide": "Gibson",
+  "identify-vintage-gibson-j45-j50-sj": "Gibson",
+  "joesvintageguitarsaz-com-identify-gibson-lg-series": "Gibson",
+  "norlin-les-paul-custom-year-guide": "Gibson",
+  "vintage-fender-jaguar-guide": "Fender",
+  "vintage-fender-jazz-bass-guide": "Fender",
+  "vintage-gibson-sg-family-guide": "Gibson"
+};
+const guideBrand = guideBrands[entry.id];
+const hasGuideHero = presentationPaths.includes('/post/' + entry.id + '/') && Boolean(guideBrand);
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
 const heroRenderWidth = heroMeta ? Math.min(1200, heroMeta.width) : 1200;
 const captionedHero = heroMeta && data.heroImageCaption
@@ -300,21 +337,45 @@ const firebirdFaqSchema = {
   "@type": "FAQPage",
   "@id": `${postUrl}#faq-schema`,
   mainEntity: [
-    { "@type": "Question", name: "How much is a vintage Gibson Firebird worth?", acceptedAnswer: { "@type": "Answer", text: "Broad 2026 retail-market guides range from about $5,500 for some Bicentennial examples to $28,000 to $50,000+ for reverse Firebird VIIs. Originality, condition, repairs, playability, provenance, color, and sold comparables determine the value of an individual guitar." } },
+    { "@type": "Question", name: "How much is a vintage Gibson Firebird worth?", acceptedAnswer: { "@type": "Answer", text: "Broad 2026 retail-market guides range from about $5,000 for some Bicentennial examples to $26,000 to $45,000+ for reverse Firebird VIIs. Originality, condition, repairs, playability, provenance, color, and sold comparables determine the value of an individual guitar." } },
     { "@type": "Question", name: "How do you date a Gibson Firebird?", acceptedAnswer: { "@type": "Answer", text: "Use the serial as one clue, then compare construction, potentiometer codes, pickup construction, hardware, finish, solder, and repair evidence. Overlapping serial ranges mean one number is not enough." } },
     { "@type": "Question", name: "What separates a reverse Firebird from a non-reverse model?", acceptedAnswer: { "@type": "Answer", text: "The 1963 to 1965 reverse design has a raised neck-through center, attached wings, a reverse headstock, and banjo-style tuners. The non-reverse model introduced in 1965 has a flatter body, a glued-in neck, conventional tuners, and a large pickguard carrying much of the wiring." } },
   ],
 };
 
 const jaguarFaqs = [
-  { q: "Which vintage Fender Jaguar years are worth the most?", a: "Original 1962 Jaguars generally lead the market, especially slab-board examples in factory custom colors with their original case and accessories. Original pre-CBS guitars from 1962 through early 1965 form the next strongest group. Condition, finish, originality, repairs, and provenance determine the value of an individual guitar." },
-  { q: "How much does a refinish reduce a vintage Jaguar's value?", a: "A professional period-correct refinish commonly reduces value by about 40 to 60 percent compared with an otherwise similar original-finish guitar. Poor work, an incorrect color, or additional body modifications can create a larger discount." },
-  { q: "Do replacement pickups hurt the value?", a: "Replacement pickups reduce collector value, but the size of the loss depends on whether the original pickups remain with the guitar and whether the body was modified. A reversible pickup swap is less serious than enlarged routes or missing original parts." },
-  { q: "Is a 1965 Fender Jaguar pre-CBS or CBS?", a: "The calendar alone is not enough. Early and mid 1965 Jaguars can retain pre-CBS features, while later examples show CBS-era changes such as fingerboard binding and a three-ply pickguard. Use the neck, guard, hardware, dates, and electronics together." },
-  { q: "How can I tell whether a custom color is original?", a: "Inspect the neck pocket, pickup cavities, finish chips, and hidden nail holes where appropriate. A factory finish should show period-correct paint, sealer, masking or paint-stick evidence, and wear that agrees across the instrument." },
-  { q: "Did vintage Jaguars ever use a three-bolt neck?", a: "No. Fender Jaguars kept a four-bolt neck and heel-adjusted truss rod throughout the original 1962 to 1975 production run. A three-bolt Jaguar neck indicates a modification or a parts assembly." },
-  { q: "Can I date a vintage Jaguar from the serial number alone?", a: "No. Fender neck plates were used from shared bins and their ranges overlap. A reliable date comes from comparing the neck stamp, body date, potentiometer codes, pickup construction, hardware, and feature set." },
-  { q: "Where can I get a vintage Fender Jaguar appraised?", a: "A dealer who specializes in vintage Fenders can inspect the dated parts, finish, electronics, hardware, and repairs together. Joe's Vintage Guitars provides free photo appraisals and can arrange a hands-on inspection when the photographs do not settle the question." },
+  {
+    "q": "Can I Date A Vintage Jaguar From The Serial Number Alone?",
+    "a": "No. Fender neck plates came from shared bins and their ranges overlap. I compare the neck stamp, body date, potentiometer codes, pickup construction, hardware and feature set before assigning a year."
+  },
+  {
+    "q": "Is A 1965 Fender Jaguar Pre-CBS Or CBS?",
+    "a": "The calendar alone isn't enough. Earlier features overlap the CBS ownership period, and later guitars show changes such as fingerboard binding and a different pickguard. I compare the actual neck, guard, hardware, dates and electronics rather than relying on the seller's label."
+  },
+  {
+    "q": "Does The Headstock Decal Sit Under The Clear Coat?",
+    "a": "No. The water-slide decal goes on top of the finished clear coat, last. A decal buried under lacquer indicates a respray in the wrong order. Dealer and shop decals also sit on top of the finish."
+  },
+  {
+    "q": "Is Fullerplast The Yellow Material In A Cavity?",
+    "a": "Fullerplast is colorless. The yellow visible in pockets and cavities comes from the aniline dye stain applied before the sealer. I don't treat yellow color alone as proof of a factory finish."
+  },
+  {
+    "q": "What Should I Expect From The Jaguar Mute?",
+    "a": "The Jaguar mute is a hinged plate behind the bridge with a thumb lever and foam pad. The foam deteriorates with age, so intact original foam is a collector find. The Jazzmaster didn't use this fitting."
+  },
+  {
+    "q": "Did Vintage Jaguars Use A Three-Bolt Neck?",
+    "a": "No. The original Jaguar run kept a four-bolt neck and heel-adjusted truss rod. A three-bolt attachment on a guitar presented as an original vintage Jaguar needs investigation for modification or a parts assembly."
+  },
+  {
+    "q": "Where Is The Jaguar Body Date?",
+    "a": "The body date is stamped in the tremolo cavity under the tremolo plate, or under the pickguard. It isn't in the neck pocket: the stamp people read there belongs to the neck heel."
+  },
+  {
+    "q": "What Do Paint-Stick And Nail Marks Tell Me?",
+    "a": "Fender adopted the paint stick around December 1962 while still using face nails for horizontal drying racks until late 1964. A factory 1963 to early-1964 body shows both a stick shadow and open nail holes. A 1963 body with a stick shadow but no nail holes is a refinish warning."
+  }
 ];
 
 const jaguarFaqSchema = {
@@ -478,7 +539,7 @@ const articleSchema = {
 
 <Layout
   bodyClass={isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
-  title={isNorlinGuide ? (data.seoTitle || data.title) : `${data.seoTitle || data.title} | Joe's Vintage Guitars`}
+  title={(isNorlinGuide || hasGap2SeoTitle) ? (data.seoTitle || data.title) : `${data.seoTitle || data.title} | Joe's Vintage Guitars`}
   noIndex={data.draft}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
@@ -507,6 +568,8 @@ const articleSchema = {
       <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
     </>
   )}
+
+  {hasGuideHero && !isGibsonSGFamilyGuide && !isGibsonJ200Guide && <GuideHero title={data.title} image={heroMeta || comparisonHero} alt={data.heroImageAlt || 'Sunburst Gibson ES-335 in a pink-lined case'} brand={guideBrand!} byline={'By ' + data.author + ' · ' + formatDate(data.pubDate)} />}
 
   {isOneOwner1956Martin00021Story ? (
     <OneOwner1956Martin00021Story />
@@ -549,8 +612,8 @@ const articleSchema = {
   ) : isMartinSmallBodyGuide ? (
     <MartinSmallBodyGuide faqs={martinGuideFaqs} />
   ) : (
-    <>
-  {!isFirebirdGuide && <div class="bpost-header-backdrop" aria-hidden="true"></div>}
+    <div class:list={{ "bpost-guide-body": hasGuideHero }}>
+  {!hasGuideHero && !isFirebirdGuide && <div class="bpost-header-backdrop" aria-hidden="true"></div>}
 
   {data.toc.length > 0 && !isNorlinGuide && (
     <>
@@ -589,7 +652,7 @@ const articleSchema = {
   )}
 
   <article class="bpost">
-    {!isFirebirdGuide && <div class="bpost__inner">
+    {!hasGuideHero && !isFirebirdGuide && <div class="bpost__inner">
       <nav class="bpost__crumbs" aria-label="Breadcrumb">
         <a href="/">Home</a><span aria-hidden="true">/</span>
         <a href="/blog/">Blog</a><span aria-hidden="true">/</span>
@@ -608,7 +671,7 @@ const articleSchema = {
       </p>}
     </div>}
 
-    {!isFirebirdGuide && data.heroImage && (
+    {!hasGuideHero && !isFirebirdGuide && data.heroImage && (
       <figure class:list={["bpost__hero", { "bpost__hero--captioned": data.heroImageCaption }]}>
         {data.heroImageCaption && <figcaption class="bpost__hero-caption">
           {data.heroImageCaption}
@@ -644,7 +707,7 @@ const articleSchema = {
         <ul>{data.toc.map(t => <li><a href={t.href}>{t.label}</a></li>)}</ul>
       </nav>}
       <div class="blog-prose">
-        {(isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
+        {isGap2ValueConversion ? <ValueGuidePhotos allImages><Content /></ValueGuidePhotos> : (isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
         {data.faqs.length > 0 && !data.faqsInline && <section class="post-faq" aria-labelledby="faq">
           <h2 id="faq">Frequently Asked Questions</h2>
           {data.faqs.map(item => <div class="post-faq-answer">
@@ -689,7 +752,7 @@ const articleSchema = {
       </div>
     </section>
   )}
-    </>
+    </div>
   )}
 
   {datingBrand && <BrandDatingGuides brand={datingBrand} featuredGuide={featuredDatingGuide} />}

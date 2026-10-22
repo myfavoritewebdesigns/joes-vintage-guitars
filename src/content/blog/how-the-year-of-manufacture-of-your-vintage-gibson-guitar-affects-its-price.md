@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/How-The-Year-Of-Manufacture-Of-Your-Vintage-Gibson-Guitar-Affects-Its-Price-1.jpg"
 heroImageAlt: "Title card reading How The Year Of Manufacture Of Your Vintage Gibson Guitar Affects Its Price, set over a darkened close up of a sunburst Les Paul showing its humbucker, bridge, and stop bar tailpiece, with the Joe's Vintage Guitars logo in the top corner."
-metaDescription: "Curious about your vintage Gibson guitar’s value? Learn how its year of manufacture impacts its price."
+metaDescription: "Compare vintage Gibson values by era, including Les Pauls and ES models. See how construction, pickups, original finish and condition affect prices."
 ogImage: "/images/blog/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/How-The-Year-Of-Manufacture-Of-Your-Vintage-Gibson-Guitar-Affects-Its-Price-1.jpg"
 wpId: 3980
 ---
@@ -63,8 +63,8 @@ Archtop guitars like the [L-5](/post/gibson-l5-ces-value-guide/) and L-7 from th
 
 This is the era most collectors think of when they hear "vintage Gibson." Production ramped up after World War II, and Gibson released some of the most iconic instrument designs in history during this window. Key highlights include:
 
--   **1952 to 1960 Les Paul Standards.** Widely considered the most valuable production solid-body electrics ever made. A **1958 to 1960 Les Paul Standard in sunburst finish** with original PAF humbuckers routinely sells for $200,000 to $500,000+. The 1959 in particular is the one most collectors want above all others, and exceptional examples have reached the high six figures at auction. Earlier goldtop models are also highly collectible. See our guides on the [1957 Les Paul Goldtop](/post/1957-les-paul-goldtop-guide/) and the [1956 Les Paul Goldtop](/post/1956-les-paul-goldtop-authentication-guide/).
--   **Les Paul Specials and Les Paul Juniors.** These have been among the fastest-appreciating Gibsons in the vintage market over the last several years. Both were produced in single-cutaway and double-cutaway versions. The single-cut models typically date from the mid-1950s, while the double-cut versions came toward the end of the decade. Stripped-down by design, with P-90 pickups and slab mahogany bodies, they deliver a raw, punchy tone that players love. A clean, all-original 1957 Les Paul Special or 1958 Junior can command $8,000 to $20,000+ depending on condition and configuration. For a deep dive, see our [1955 to 1958 TV Yellow Les Paul Special guide](/post/1955-1958-tv-yellow-les-paul-special-guide/).
+-   **1952 to 1960 Les Paul Standards.** Widely considered the most valuable production solid-body electrics ever made. A **1958 to 1960 Les Paul Standard in sunburst finish** with original PAF humbuckers routinely sells for $180,000 to $450,000+. The 1959 in particular is the one most collectors want above all others, and exceptional examples have reached the high six figures at auction. Earlier goldtop models are also highly collectible. See our guides on the [1957 Les Paul Goldtop](/post/1957-les-paul-goldtop-guide/) and the [1956 Les Paul Goldtop](/post/1956-les-paul-goldtop-authentication-guide/).
+-   **Les Paul Specials and Les Paul Juniors.** These have been among the fastest-appreciating Gibsons in the vintage market over the last several years. Both were produced in single-cutaway and double-cutaway versions. The single-cut models typically date from the mid-1950s, while the double-cut versions came toward the end of the decade. Stripped-down by design, with P-90 pickups and slab mahogany bodies, they deliver a raw, punchy tone that players love. A clean, all-original 1957 Les Paul Special or 1958 Junior can command $7,500 to $18,000+ depending on condition and configuration. For a deep dive, see our [1955 to 1958 TV Yellow Les Paul Special guide](/post/1955-1958-tv-yellow-les-paul-special-guide/).
 
 <figure>
 
@@ -84,7 +84,7 @@ This is the era most collectors think of when they hear "vintage Gibson." Produc
 
 </figure>
 
--   **ES-335 (1958 to 1964).** The first production semi-hollow electric guitar. Early dot-neck examples (1958 to 1962) are extremely desirable, with all-original examples regularly selling in the $30,000 to $80,000+ range. See our [1959 ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and [1962 ES-335 guide](/post/1962-gibson-es-335-guide/) for model-specific detail.
+-   **ES-335 (1958 to 1964).** The first production semi-hollow electric guitar. Early dot-neck examples (1958 to 1962) are extremely desirable, with all-original examples regularly selling in the $27,000 to $72,000+ range. See our [1959 ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and [1962 ES-335 guide](/post/1962-gibson-es-335-guide/) for model-specific detail.
 -   **J-45 and Southern Jumbo acoustics.** These workhorse flat-tops from the late 1940s and 1950s are the backbone of the vintage Gibson acoustic market. The J-45 has a loyal following among players and collectors alike. The Southern Jumbo, introduced in 1942, is often overlooked relative to its quality and represents excellent value for attentive collectors. See our [guide to identifying vintage Gibson J-45, J-50, and Southern Jumbo guitars](/post/identify-vintage-gibson-j45-j50-sj/).
 -   **J-200.** Gibson's flagship acoustic, the J-200 is one of the most recognizable guitars ever made. Pre-1970 examples with their distinctive mustache bridges and flowerpot headstock inlays are highly collectible.
 
@@ -245,7 +245,7 @@ If the guitar is a Les Paul, the [vintage Gibson Les Paul value guide](/vintage-
 
 What year Gibson Les Paul is most valuable?
 
-The 1959 Les Paul Standard is widely considered the most valuable production Gibson ever made. All-original examples in sunburst finish with original PAF humbuckers regularly sell for $200,000 to $500,000, and exceptional examples have reached the high six figures at auction. The years 1958 and 1960 are also extremely desirable. Among more affordable models, 1950s Les Paul Specials and Juniors, both single-cut and double-cut versions, have been among the strongest appreciating Gibsons in recent years.
+The 1959 Les Paul Standard is widely considered the most valuable production Gibson ever made. All-original examples in sunburst finish with original PAF humbuckers regularly sell for $180,000 to $450,000 and exceptional examples have reached the high six figures at auction. The years 1958 and 1960 are also extremely desirable. Among more affordable models, 1950s Les Paul Specials and Juniors, both single-cut and double-cut versions, have been among the strongest appreciating Gibsons in recent years.
 
 Are Norlin-era Gibsons (1970 to 1985) worth buying or selling?
 

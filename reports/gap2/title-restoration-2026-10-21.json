@@ -1,0 +1,365 @@
+{
+  "date": "2026-10-21",
+  "baseline": "22cb436",
+  "titles": [
+    {
+      "url": "/post/what-guitar-did-johnny-marr-play/",
+      "title": "What Guitar Did Johnny Marr Play? The Smiths ES-355, The 330, And The Rest | Joe's Vintage Guitars",
+      "actual": "What Guitar Did Johnny Marr Play? The Smiths ES-355, The 330, And The Rest | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/1959-gibson-les-paul-standard-guide/",
+      "title": "1959 Les Paul Burst Value And Specs | Joe's Vintage Guitars",
+      "actual": "1959 Les Paul Burst Value And Specs | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/1958-gibson-les-paul-standard-guide/",
+      "title": "1958 Les Paul Standard Value And Specs | Joe's Vintage Guitars",
+      "actual": "1958 Les Paul Standard Value And Specs | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/1960-gibson-les-paul-standard-guide/",
+      "title": "1960 Les Paul Standard Value And Specs | Joe's Vintage Guitars",
+      "actual": "1960 Les Paul Standard Value And Specs | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/1959-gibson-es-335-authentication-guide/",
+      "title": "The 1959 Gibson ES-335 Authentication Guide: Identifying the “Holy Grail” Semi-Hollow | Joe's Vintage Guitars",
+      "actual": "The 1959 Gibson ES-335 Authentication Guide: Identifying the “Holy Grail” Semi-Hollow | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/1962-gibson-es-335-guide/",
+      "title": "The 1962 Gibson ES-335 Guide: Identifying the Block Inlay & Patent Number Transition | Joe's Vintage Guitars",
+      "actual": "The 1962 Gibson ES-335 Guide: Identifying the Block Inlay & Patent Number Transition | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/1965-gibson-es-335-short-maestro-vibrola/",
+      "title": "A 1965 Gibson ES-335 With a Factory Short Maestro Vibrola | Joe's Vintage Guitars",
+      "actual": "A 1965 Gibson ES-335 With a Factory Short Maestro Vibrola | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/1966-gibson-es-335-authentication-guide/",
+      "title": "1966 Gibson ES-335 Authentication Guide: Patent Number Pickups, Trapeze Tailpiece & Every Pre-Norlin Detail | Joe's Vintage Guitars",
+      "actual": "1966 Gibson ES-335 Authentication Guide: Patent Number Pickups, Trapeze Tailpiece & Every Pre-Norlin Detail | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/1968-gibson-es-335-guide/",
+      "title": "1968 Gibson ES-335: Buyer’s & Collector’s Guide | Joe's Vintage Guitars",
+      "actual": "1968 Gibson ES-335: Buyer’s & Collector’s Guide | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/fender-jazzmaster-evolution-guide-1958-1971/",
+      "title": "Fender Jazzmaster Evolution Guide: Every Spec Change From 1958 to 1971 | Joe's Vintage Guitars",
+      "actual": "Fender Jazzmaster Evolution Guide: Every Spec Change From 1958 to 1971 | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/vintage-gibson-sg-family-guide/",
+      "title": "Vintage Gibson SG Models: History, Identification and Value Guide | Joe's Vintage Guitars",
+      "actual": "Vintage Gibson SG Models: History, Identification and Value Guide | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/identify-vintage-gibson-j45-j50-sj/",
+      "title": "How to Identify a Vintage Gibson J-45, J-50, and Southern Jumbo (SJ) | Joe's Vintage Guitars",
+      "actual": "How to Identify a Vintage Gibson J-45, J-50, and Southern Jumbo (SJ) | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+      "title": "Vintage Gibson LG Series: A Guide to the LG-0, LG-1, LG-2, and LG-3 Models | Joe's Vintage Guitars",
+      "actual": "Vintage Gibson LG Series: A Guide to the LG-0, LG-1, LG-2, and LG-3 Models | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/gibson-paf-patent-number-pickup-guide/",
+      "title": "Gibson PAF and Patent Number Pickups: History, Authentication, and Value | Joe's Vintage Guitars",
+      "actual": "Gibson PAF and Patent Number Pickups: History, Authentication, and Value | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/gibson-flying-v-medallion-guide/",
+      "title": "The 1971 Gibson Flying V 'Medallion': History, Specs, and How to Spot a Real One | Joe's Vintage Guitars",
+      "actual": "The 1971 Gibson Flying V 'Medallion': History, Specs, and How to Spot a Real One | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/gibson-super-400-ces-history-authentication-value/",
+      "title": "Vintage Gibson Super 400 CES Value Guide | Joe's Vintage Guitars",
+      "actual": "Vintage Gibson Super 400 CES Value Guide | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+      "title": "Vintage Gibson Guitar Value by Year: Which Eras Are Worth the Most? | Joe's Vintage Guitars",
+      "actual": "Vintage Gibson Guitar Value by Year: Which Eras Are Worth the Most? | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/1973-fender-jazz-bass-vintera-iii/",
+      "title": "Original Owner, Original Bass: A ’73 Jazz Bass Meets the Vintera III | Joe's Vintage Guitars",
+      "actual": "Original Owner, Original Bass: A ’73 Jazz Bass Meets the Vintera III | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/what-to-consider-when-selling-a-vintage-guitar/",
+      "title": "What To Consider When Selling A Vintage Guitar | Joe's Vintage Guitars",
+      "actual": "What To Consider When Selling A Vintage Guitar | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/post/gibson-es-5-switchmaster-history-value/",
+      "title": "Gibson ES-5 Switchmaster Value Guide | Joe's Vintage Guitars",
+      "actual": "Gibson ES-5 Switchmaster Value Guide | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/sell-my-fender-guitar/",
+      "title": "Sell My Fender Guitar | Joe's Vintage Guitars",
+      "actual": "Sell My Fender Guitar | Joe's Vintage Guitars",
+      "pass": true
+    },
+    {
+      "url": "/gibson-es-330-dating-guide/",
+      "title": "Gibson ES-330 Dating Guide: Features by Year",
+      "actual": "Gibson ES-330 Dating Guide: Features by Year",
+      "pass": true
+    },
+    {
+      "url": "/fender-mustang-dating-guide/",
+      "title": "How To Date A Fender Mustang: Year By Year Guide",
+      "actual": "How To Date A Fender Mustang: Year By Year Guide",
+      "pass": true
+    },
+    {
+      "url": "/gibson-sg-dating-guide/",
+      "title": "Gibson SG Dating Guide: Standard, Custom and More",
+      "actual": "Gibson SG Dating Guide: Standard, Custom and More",
+      "pass": true
+    },
+    {
+      "url": "/rickenbacker-serial-numbers/",
+      "title": "Rickenbacker Serial Number Lookup & Dating Guide",
+      "actual": "Rickenbacker Serial Number Lookup & Dating Guide",
+      "pass": true
+    },
+    {
+      "url": "/rickenbacker-body-binding-and-inlays/",
+      "title": "Rickenbacker Binding, Inlays & Body Dating Guide",
+      "actual": "Rickenbacker Binding, Inlays & Body Dating Guide",
+      "pass": true
+    },
+    {
+      "url": "/rickenbacker-finish-colors/",
+      "title": "Rickenbacker Colors: Fireglo, Mapleglo & Jetglo",
+      "actual": "Rickenbacker Colors: Fireglo, Mapleglo & Jetglo",
+      "pass": true
+    },
+    {
+      "url": "/rickenbacker-tailpiece-dating-guide/",
+      "title": "Rickenbacker Tailpieces & Bridges: Dating Guide",
+      "actual": "Rickenbacker Tailpieces & Bridges: Dating Guide",
+      "pass": true
+    }
+  ],
+  "protectedTitles": [
+    {
+      "url": "/post/1952-fender-precision-bass-guide/",
+      "title": "1951 To 1953 Fender Precision Bass Slab-Body Dating Guide",
+      "actual": "1951 To 1953 Fender Precision Bass Slab-Body Dating Guide",
+      "pass": true
+    },
+    {
+      "url": "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+      "title": "1955 To 1958 TV Yellow Les Paul Special Dating Guide",
+      "actual": "1955 To 1958 TV Yellow Les Paul Special Dating Guide",
+      "pass": true
+    },
+    {
+      "url": "/post/1959-gibson-es-355-history-value/",
+      "title": "1959 Gibson ES-355 History And Authentication Guide",
+      "actual": "1959 Gibson ES-355 History And Authentication Guide",
+      "pass": true
+    },
+    {
+      "url": "/post/gibson-byrdland-authentication-guide/",
+      "title": "Vintage Gibson Byrdland Dating And Authentication Guide",
+      "actual": "Vintage Gibson Byrdland Dating And Authentication Guide",
+      "pass": true
+    },
+    {
+      "url": "/post/gibson-es-125-guide/",
+      "title": "Vintage Gibson ES-125 Dating And Authentication Guide",
+      "actual": "Vintage Gibson ES-125 Dating And Authentication Guide",
+      "pass": true
+    },
+    {
+      "url": "/post/gibson-les-paul-junior-guide/",
+      "title": "Gibson Les Paul Junior Dating And Authentication Guide",
+      "actual": "Gibson Les Paul Junior Dating And Authentication Guide",
+      "pass": true
+    },
+    {
+      "url": "/post/vintage-fender-jaguar-guide/",
+      "title": "Vintage Fender Jaguar Dating And Authentication Guide",
+      "actual": "Vintage Fender Jaguar Dating And Authentication Guide",
+      "pass": true
+    },
+    {
+      "url": "/post/vintage-fender-jazz-bass-guide/",
+      "title": "Vintage Fender Jazz Bass Dating And Identification Guide",
+      "actual": "Vintage Fender Jazz Bass Dating And Identification Guide",
+      "pass": true
+    }
+  ],
+  "photos": [
+    {
+      "url": "/gretsch-finish-colors/",
+      "hero": {
+        "src": "/_astro/orange-front.hBmKsZYD_Z1xHCBW.webp",
+        "alt": "Orange Gretsch hollowbody guitar with two pickups and a Bigsby tailpiece"
+      },
+      "firstBody": {
+        "src": "/_astro/club-front.DVPmTsRh_Z1gsFE8.webp",
+        "alt": "Natural-finish Gretsch Country Club with visible maple figure"
+      },
+      "pass": true
+    },
+    {
+      "url": "/gibson-es-330-dating-guide/",
+      "hero": {
+        "src": "/_astro/dot-neck-es-330.C091CvvY_Z28Acwy.webp",
+        "alt": "Sunburst Gibson ES-330 with dot inlays, black dogear P-90s and a trapeze tailpiece"
+      },
+      "firstBody": {
+        "src": "/_astro/dot-inlay.Dbj4DyH1_1cNKzp.webp",
+        "alt": "Round dot inlay on a Gibson ES-330 rosewood fingerboard"
+      },
+      "pass": true
+    },
+    {
+      "url": "/gibson-sg-dating-guide/",
+      "hero": {
+        "src": "/_astro/early-60s-gibson-sg-standard-comparison.ug492AkP_Z2aFUDk.webp",
+        "alt": "Early Gibson SG Standard with a small pickguard, two humbuckers and sideways vibrato"
+      },
+      "firstBody": {
+        "src": "/_astro/late-1960s-sg-standard-large-pickguard.ClnEz8kC_Z1cbdVC.webp",
+        "alt": "Cherry Gibson SG Standard with two humbuckers, a large black guard and Lyre vibrato"
+      },
+      "pass": true
+    },
+    {
+      "url": "/rickenbacker-finish-colors/",
+      "hero": {
+        "src": "/_astro/1960s-rickenbacker-360-2-scaled.SJGT4yw9_Z1aAHgf.webp",
+        "alt": "Natural-finish Rickenbacker electric guitar in a blue-lined case"
+      },
+      "firstBody": {
+        "src": "/_astro/1968-rickenbacker-4005-azureglo-scaled.CRd83Yhs_ULvkl.webp",
+        "alt": "Blue Azureglo 1968 Rickenbacker 4005"
+      },
+      "pass": true
+    }
+  ],
+  "preservation": [
+    {
+      "file": "src/content/blog/what-guitar-did-johnny-marr-play.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/1959-gibson-les-paul-standard-guide.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/1958-gibson-les-paul-standard-guide.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/1960-gibson-les-paul-standard-guide.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/1959-gibson-es-335-authentication-guide.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/1962-gibson-es-335-guide.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/1965-gibson-es-335-short-maestro-vibrola.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/1966-gibson-es-335-authentication-guide.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/1968-gibson-es-335-guide.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/fender-jazzmaster-evolution-guide-1958-1971.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/vintage-gibson-sg-family-guide.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/identify-vintage-gibson-j45-j50-sj.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/joesvintageguitarsaz-com-identify-gibson-lg-series.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/gibson-paf-patent-number-pickup-guide.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/gibson-flying-v-medallion-guide.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/gibson-super-400-ces-history-authentication-value.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/1973-fender-jazz-bass-vintera-iii.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/what-to-consider-when-selling-a-vintage-guitar.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/gibson-es-5-switchmaster-history-value.md",
+      "otherContentUnchanged": true
+    },
+    {
+      "file": "src/content/blog/gibson-es-345-history-value.md",
+      "otherContentUnchanged": true
+    }
+  ],
+  "wording": {
+    "conditionNotes": true,
+    "allowancesAbsent": true
+  },
+  "pass": true
+}

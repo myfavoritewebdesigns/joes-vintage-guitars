@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-paf-patent-number-pickup-guide/gibson-paf-sticker-oxidized-solder-joints.jpg"
 heroImageAlt: "Underside of an original Gibson PAF humbucker showing the Patent Applied For sticker, aged solder joints, and heavy oxidation on the nickel silver baseplate. We buy vintage Gibson guitars and pickups nationwide at Joe's Vintage Guitars."
-metaDescription: "The complete Gibson PAF and patent number pickup guide: history, stickers, magnets, bobbins, ring stamps, every authentication tell, current values, and why you should never open one."
+metaDescription: "Identify Gibson PAF and Patent Number pickups features, original parts and construction. Compare dating clues, repairs and photos from my archive."
 ogImage: "/images/blog/gibson-paf-patent-number-pickup-guide/gibson-paf-sticker-oxidized-solder-joints.jpg"
 ---
 <nav class="paf-nav-sidebar" id="pafNavSidebar" aria-label="Article section navigation">
@@ -316,16 +316,16 @@ Now the money. The ranges below are our honest read of the current market for ve
 
 | Pickup | Honest player example | Strong verified example |
 | --- | --- | --- |
-| PAF, double black, sticker intact | about $2,500 to $3,500 | about $3,500 to $5,500 |
-| PAF, zebra | about $4,000 to $5,500 | about $5,500 to $7,000 |
-| PAF, double white | about $6,000 to $8,000 | about $8,000 to $10,000 and up |
+| PAF, double black, sticker intact | about $2,500 to $3,500 | about $3,500 to $5,000 |
+| PAF, zebra | about $4,000 to $5,000 | about $5,000 to $6,500 |
+| PAF, double white | about $5,500 to $7,500 | about $7,500 to $9,000 and up |
 | 1957 no decal humbucker, expert verified | about $2,000 to $3,000 | about $3,000 to $4,000 |
-| Patent number, 1962 to 1964, enamel wire | about $1,000 to $1,500 | about $1,500 to $2,200 |
-| Patent number, 1964 to 1967, poly wire | about $500 to $800 | about $800 to $1,200 |
-| T-top, sticker era, 1966 to mid 1970s | about $300 to $500 | about $500 to $800 |
-| T-top, stamped base, 1970s | about $200 to $350 | about $350 to $550 |
+| Patent number, 1962 to 1964, enamel wire | about $1,000 to $1,500 | about $1,500 to $2,000 |
+| Patent number, 1964 to 1967, poly wire | about $500 to $1,000 | about $1,000 to $1,500 |
+| T-top, sticker era, 1966 to mid 1970s | about $500 | about $500 to $1,000 |
+| T-top, stamped base, 1970s | about $500 | about $500 |
 
-A few notes that the table cannot carry. Long magnet PAFs from 1957 to early 1961 bring a premium over short magnet examples when the magnet status is documented, though for sealed pickups that documentation usually rests on the guitar's date rather than anyone looking inside. Matched pairs from one documented guitar bring more than two loose singles, often ten to twenty percent more. A clean double black pair, especially with its original harness, typically lands between eight and twelve thousand dollars, and a documented double white pair is the blue chip of the whole market, trading in the mid teens with dealer asks that can pass twenty thousand dollars. Gold cover examples track their nickel siblings, with clean gold earning a bump and heavy wear read as character rather than damage. Bobbin color, remember, is paint on the lily: a double white sounds like whatever it sounds like, exactly as a double black does, and the entire premium is rarity and looks.
+A few notes that the table cannot carry. Long magnet PAFs from 1957 to early 1961 bring a premium over short magnet examples when the magnet status is documented, though for sealed pickups that documentation usually rests on the guitar's date rather than anyone looking inside. Matched pairs from one documented guitar bring more than two loose singles, often ten to twenty percent more. A clean double black pair, especially with its original harness, typically lands between $7,500 and $11,000, and a documented double white pair is the blue chip of the whole market, trading around $14,000 with dealer asks that can pass $18,000. Gold cover examples track their nickel siblings, with clean gold earning a bump and heavy wear read as character rather than damage. Bobbin color, remember, is paint on the lily: a double white sounds like whatever it sounds like, exactly as a double black does, and the entire premium is rarity and looks.
 
 The parts trade is real too, and one corner of it has gone wild. Original nickel covers sell for several hundred dollars on their own. Original cream M-69 mounting rings have become a market of their own, with singles trading in the low thousands and clean pairs asking five figures, while black rings bring far less but still real money. Even original braided lead wire finds buyers. That is worth knowing as a seller so nobody strips your pickup's value off in pieces, and as a buyer so you understand how easily a franken-PAF gets assembled from genuine parts.
 
@@ -375,11 +375,11 @@ The sticker, and eventually the details. In late 1962 Gibson replaced the Patent
 
 **What is a real PAF worth today?**
 
-As a broad current range for verified originals sold individually: double black PAFs run about $2,500 to $5,500, zebras about $4,000 to $7,000, and double whites about $6,000 to $10,000 and beyond, with sealed, undisturbed, documented examples at the top of each range and matched pairs bringing a premium over singles. Patent number pickups run from several hundred dollars for later examples to about $2,200 for the best early ones. Condition details move these numbers a lot, which is why a specific appraisal beats any table.
+As a broad current range for verified originals sold individually: double black PAFs run about $2,500 to $5,000 zebras about $4,000 to $6,500 and double whites about $5,500 to $9,000 and beyond, with sealed, undisturbed, documented examples at the top of each range and matched pairs bringing a premium over singles. Patent number pickups run from several hundred dollars for later examples to about $2,000 for the best early ones. Condition details move these numbers a lot, which is why a specific appraisal beats any table.
 
 **Are patent number and T-top pickups worth anything?**
 
-Yes. Early patent number pickups from 1962 to 1964 are the smart money of this market, PAF construction at $1,000 to $2,200. Mid 1960s poly wire examples bring roughly $500 to $1,200. T-tops from 1966 into the 1970s are honest vintage Gibson pickups in the $200 to $800 range and are factory correct for many valuable late 1960s and 1970s Gibsons, so they matter for restoration even when they are not the star.
+Yes. Early patent number pickups from 1962 to 1964 are the smart money of this market, PAF construction at $1,000 to $2,000. Mid 1960s poly wire examples bring roughly $500 to $1,500. T-tops from 1966 into the 1970s are honest vintage Gibson pickups in the $500 to $1,000 range and are factory correct for many valuable late 1960s and 1970s Gibsons, so they matter for restoration even when they are not the star.
 
 **My pickup has no sticker. Is it fake?**
 
@@ -415,7 +415,7 @@ No. The bobbin color was a pigment supply accident at Gibson's plastics vendor a
       "name": "Should I open my pickup to check the magnet or bobbin color?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Unsoldering the cover permanently destroys the undisturbed factory solder that collectors pay the biggest premium for, it risks breaking coil wire that is thinner than a hair and sixty years old, and it converts a sealed collector pickup into an opened one at a real cost, often ten to twenty percent of its value. Magnet length, bobbin color, and wire color are expert questions that can be resolved in context, or documented professionally when there is a genuine reason."
+        "text": "No. Unsoldering the cover permanently destroys the undisturbed factory solder that collectors pay the biggest premium for, it risks breaking coil wire that is thinner than a hair and sixty years old, and it converts a sealed collector pickup into an opened one at a real cost, often ten to twenty percent of its value. Magnet length, bobbin color, and wire color are expert questions that can be resolved in context, or documented professionally when there is a genuine reason. Curiosity is not a genuine reason."
       }
     },
     {
@@ -423,7 +423,7 @@ No. The bobbin color was a pigment supply accident at Gibson's plastics vendor a
       "name": "What is the difference between a PAF and a patent number pickup?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The sticker, and eventually the details. In late 1962 Gibson replaced the Patent Applied For decal with one reading Patent No 2,737,842, which is actually the number of Les Paul's bridge and tailpiece patent, not the humbucker patent. The earliest patent number pickups are identical to late PAFs inside, with the same purple enamel wire and short alnico five magnet. During 1963 the coil wire changed to orange poly coated wire with consistent winding, around 1965 covers went from nickel to chrome, and by 1966 or 1967 the T-top bobbin arrived."
+        "text": "The sticker, and eventually the details. In late 1962 Gibson replaced the Patent Applied For decal with one reading Patent No 2,737,842, which is actually the number of Les Paul's bridge and tailpiece patent, not the humbucker patent. The earliest patent number pickups are identical to late PAFs inside, with the same purple enamel wire and short alnico five magnet. During 1963 the coil wire changed to orange poly coated wire with consistent winding, around 1965 covers went from nickel to chrome, and by 1966 or 1967 the T-top bobbin arrived. Early patent number pickups deliver most of the PAF recipe for a fraction of the price."
       }
     },
     {
@@ -431,7 +431,7 @@ No. The bobbin color was a pigment supply accident at Gibson's plastics vendor a
       "name": "What is a real PAF worth today?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "As a broad current range for verified originals sold individually: double black PAFs run about 2,500 to 5,500 dollars, zebras about 4,000 to 7,000 dollars, and double whites about 6,000 to 10,000 dollars and beyond, with sealed, undisturbed, documented examples at the top of each range and matched pairs bringing a premium over singles. Patent number pickups run from several hundred dollars for later examples to about 2,200 dollars for the best early ones."
+        "text": "As a broad current range for verified originals sold individually: double black PAFs run about $2,500 to $5,000 zebras about $4,000 to $6,500 and double whites about $5,500 to $9,000 and beyond, with sealed, undisturbed, documented examples at the top of each range and matched pairs bringing a premium over singles. Patent number pickups run from several hundred dollars for later examples to about $2,000 for the best early ones. Condition details move these numbers a lot, which is why a specific appraisal beats any table."
       }
     },
     {
@@ -439,7 +439,7 @@ No. The bobbin color was a pigment supply accident at Gibson's plastics vendor a
       "name": "Are patent number and T-top pickups worth anything?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Early patent number pickups from 1962 to 1964 are the smart money of this market, PAF construction at 1,000 to 2,200 dollars. Mid 1960s poly wire examples bring roughly 500 to 1,200 dollars. T-tops from 1966 into the 1970s are honest vintage Gibson pickups in the 200 to 800 dollar range and are factory correct for many valuable late 1960s and 1970s Gibsons."
+        "text": "Yes. Early patent number pickups from 1962 to 1964 are the smart money of this market, PAF construction at $1,000 to $2,000. Mid 1960s poly wire examples bring roughly $500 to $1,500. T-tops from 1966 into the 1970s are honest vintage Gibson pickups in the $500 to $1,000 range and are factory correct for many valuable late 1960s and 1970s Gibsons, so they matter for restoration even when they are not the star."
       }
     },
     {
@@ -447,7 +447,7 @@ No. The bobbin color was a pigment supply accident at Gibson's plastics vendor a
       "name": "My pickup has no sticker. Is it fake?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not necessarily. The very first humbuckers of early 1957 left the factory with no decal at all, stickers on later pickups sometimes fell away or were removed, and a missing sticker on an otherwise coherent pickup is a discount rather than a disqualification. It does mean the rest of the evidence has to carry the whole case, so expert verification matters more."
+        "text": "Not necessarily. The very first humbuckers of early 1957 left the factory with no decal at all, stickers on later pickups sometimes fell away or were removed, and a missing sticker on an otherwise coherent pickup is a discount rather than a disqualification. It does mean the rest of the evidence has to carry the whole case, so expert verification matters more, not less."
       }
     },
     {
@@ -455,7 +455,7 @@ No. The bobbin color was a pigment supply accident at Gibson's plastics vendor a
       "name": "Do double white or zebra PAFs sound different from double black ones?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. The bobbin color was a pigment supply accident at Gibson's plastics vendor around 1959 and 1960, and it has no effect on the magnetics or the coil. The enormous price difference is rarity and visual drama. A double black can be the better sounding pickup on any given day."
+        "text": "No. The bobbin color was a pigment supply accident at Gibson's plastics vendor around 1959 and 1960, and it has no effect on the magnetics or the coil. The enormous price difference is rarity and visual drama, full stop. Buy bobbin color with your eyes open: you are paying for looks and scarcity, and a double black can be the better sounding pickup on any given day."
       }
     }
   ]

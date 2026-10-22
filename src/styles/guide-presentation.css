@@ -1,0 +1,38 @@
+/* The hanging logo is 110, 160 or 220 pixels wide. Reserve its full height
+   at each header breakpoint on the existing editorial heroes in this release. */
+.gap2-guide-presentation{--guide-header-clearance:284px}
+@media(max-width:1023px){.gap2-guide-presentation{--guide-header-clearance:212px}}
+@media(max-width:639px){.gap2-guide-presentation{--guide-header-clearance:156px}}
+.gap2-guide-presentation .sg-hero__copy,
+.gap2-guide-presentation .es-hero__copy,
+.gap2-guide-presentation .sgf-hero__copy{padding-top:var(--guide-header-clearance)!important}
+.gap2-guide-presentation .j200-hero,
+.gap2-guide-presentation .gvhub-hero,
+.gap2-guide-presentation .fvhub-hero,
+.gap2-guide-presentation .esf-hero{padding-top:var(--guide-header-clearance)!important}
+.gap2-guide-presentation .fspot .hero{padding-top:32px!important}
+.gap2-guide-presentation.smf-redesign-page .site-header{min-height:110px!important}
+.gap2-guide-presentation.smf-redesign-page .hero-copy{padding-top:calc(var(--guide-header-clearance) - 110px)!important}
+.gap2-guide-presentation .esf-hero .jvg-guide-actions{justify-content:center}
+.gap2-guide-presentation.esf-guide-page>header{background:linear-gradient(to bottom,#3e2a14 0 110px,transparent 110px)}
+.gap2-guide-presentation .fbv-opening{max-width:1160px;margin:0 auto;padding:28px}
+.gap2-guide-presentation .esf-section--tint{margin-inline:0!important}
+@media(min-width:901px) and (max-width:1279px){
+  .gap2-guide-presentation .jvgft__sub{grid-template-columns:235px minmax(0,1fr)!important}
+  .gap2-guide-presentation .jvgft__menu-col{grid-column:1/-1;min-width:0}
+}
+@media(min-width:1024px) and (max-width:1279px){
+  .gap2-guide-presentation .jvg-header-desktop{display:none!important}
+  .gap2-guide-presentation .jvg-header-mobile{display:flex!important}
+}
+.gap2-guide-presentation .jvg-guide-actions{flex-shrink:0}
+.gap2-guide-presentation .jvg-guide-actions a{font-size:17px;line-height:1.2;text-decoration:none}
+.gap2-guide-presentation .bpost-guide-body .bpost{padding-top:36px}
+@media(min-width:1350px){
+  .bpost-guide-body{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:32px;max-width:1280px;margin:0 auto;padding:0 24px;align-items:start}
+  .bpost-guide-body>.bpost{grid-column:1;grid-row:1;min-width:0}
+  .gap2-guide-presentation .bpost-guide-body>.bpost-toc{position:sticky!important;top:24px!important;left:auto!important;right:auto!important;grid-column:2;grid-row:1;width:auto!important;margin-top:36px;max-height:calc(100vh - 48px)}
+  .bpost-guide-body>.bpost-related{grid-column:1/-1}
+}
+/* Existing dating tools keep their floating TOC after the photo header. */
+.gap2-guide-presentation [data-guide-toc-covered]{visibility:hidden!important;pointer-events:none!important}

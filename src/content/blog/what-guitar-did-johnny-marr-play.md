@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/what-guitar-did-johnny-marr-play/1959-gibson-es-355-cherry-featured.jpg"
 heroImageAlt: "1959 Gibson ES-355 in cherry with a gold Bigsby, resting in a pink-lined brown case on the bench at Joe's Vintage Guitars in Mesa."
-metaDescription: "What guitar did Johnny Marr play? The Stein ES-355, the 1982 Rickenbacker 330, the 1971 D-28, and the rest, plus public ranges without the Christie's Marr sticker."
+metaDescription: "Explore Johnny Marr's Gibson ES-355, Fender Jaguar and other guitars, with model details, vintage value context and photographs from my archive."
 ogImage: "/images/blog/what-guitar-did-johnny-marr-play/what-guitar-did-johnny-marr-play-og.jpg"
 author: "Joe Dampt"
 draft: false
@@ -57,7 +57,7 @@ I'll start with the 1959 in these photos, because that's the guitar I have in th
 
 In early 1984 Marr joked that The Smiths would sign to Sire if Seymour Stein bought him a guitar, and Stein actually did. He picked up a cherry Gibson ES-355 on 48th Street in New York, and the [Christie's press kit](https://press.christies.com/wp-content/uploads/2026/06/6c7d2a4700a9977f095fab77370d60df.pdf) says Marr took it back to the hotel and wrote Heaven Knows I'm Miserable Now and Girl Afraid the same day.
 
-His is the guitar in the sale, estimated at £100,000 to £150,000. Press copy calls it a 1960, though the lot card says 1959-60 TDSV, and a late 1959 and an early 1960 355 can look the same from across a room. Dating still takes the orange label inside the bass f-hole and the factory order number, so if you'd like that full walk-through, feel free to read my [1959 ES-355 guide](/post/1959-gibson-es-355-history-value/).
+His is the guitar in the sale, estimated at £100,000 to £150,000. Press copy calls it a 1960, though the lot card says 1959-60 TDSV, and a late 1959 and an early 1960 355 can look the same from across a room. Dating still takes the orange label inside the bass f-hole and the factory order number, so if you'd like that full walk-through, read my [1959 ES-355 authentication guide](/post/1959-gibson-es-355-history-value/).
 
 TDSV is the stereo Vari-tone version: two channels, a six-position rotary, and extra wiring in the body. The 1959 in these photos is a cherry mono, with four knobs, a toggle, and no rotary. Typically people pay more for mono 355s. In Marr's case the stereo wiring won't really move the number, because so much of that value rides on the celebrity ownership.
 
@@ -133,11 +133,11 @@ The sale itself is Thursday 17 September 2026, 2pm BST, at Christie's in London,
 
 Christie's numbers are what someone might pay for his instruments. Below is what a regular one of these actually trades for, from public asking and sold dealer pages, so read them as market context rather than as an offer from me. The market's thin, and asking usually runs ahead of sold.
 
-A 1959 ES-355TD mono in cherry, all-original, sits about **$30,000 to $45,000** on my [1959 ES-355 page](/post/1959-gibson-es-355-history-value/), and stereo Vari-tone is a bit lower, roughly $22,000 to $38,000 on that same page.
+A 1959 ES-355TD mono in cherry, all-original, sits about **$27,000 to $41,000** on my [ES-355 model value guide](/vintage-gibson-es-355-value-guide/), and stereo Vari-tone is a bit lower, roughly $20,000 to $35,000 on that same page.
 
 A 1960s Rickenbacker 330 is asking about **$4,500 to $8,500** right now. Chicago Music Exchange had a 1966 Fireglo at $4,700, and Fretted Americana had a near-mint 1966 at $8,500. An 1980s 330 with no provenance is more like **$2,000 to $4,000**, and the comps there are thin, so don't price a 1982 off 1966 comps, because those are two different buyers.
 
-A 1960s Jaguar in sunburst is about **$4,000 to $8,000** off 1965 Reverb comps, with custom color running higher. What you're looking at there is the vintage guitar, and the signature model is its own conversation.
+For a standard sunburst Jaguar, use my [Fender Jaguar value guide](/vintage-fender-jaguar-value-guide/) to match the exact year and condition. A signature-model reissue and a guitar with documented celebrity ownership belong to separate markets.
 
 An early-1970s D-28 in Indian rosewood is asking about **$3,500 to $7,500**. I wouldn't use the 1960-69 Brazilian D-28 table on it, because the wood and the years aren't comparable.
 
@@ -147,7 +147,7 @@ If you want a number on the guitar in your closet, send photos. The [appraisal i
 
 <h2 id="inherited">If You Inherited One</h2>
 
-Vintage ES-355s, 345s, and 335s are right in what I buy. The [Gibson buying page](/sell-my-gibson-guitar/) is a good starting point, and if you want help dating one, feel free to read the [1959 ES-355 guide](/post/1959-gibson-es-355-history-value/) before you guess the year. I'd leave the gold plating and the Vari-tone alone, because those are the parts people tend to "improve" first.
+Vintage ES-355s, 345s, and 335s are right in what I buy. The [Gibson buying page](/sell-my-gibson-guitar/) is a good starting point, and if you want help dating one, read the [1959 ES-355 authentication guide](/post/1959-gibson-es-355-history-value/) before you guess the year. I'd leave the gold plating and the Vari-tone alone, because those are the parts people tend to "improve" first.
 
 A 1960s Rickenbacker 330 is the same story on that side of the shop: the [Rickenbacker serial number guide](/rickenbacker-serial-numbers/) and the [Rickenbacker buying page](/sell-my-rickenbacker-guitar/) will get you oriented.
 
@@ -183,7 +183,7 @@ No. Porter's '53 or '54 did Charming Man, and that Tele isn't in the sale. The G
 
 <h3 id="what-is-a-vintage-es-355-worth-without-johnny-marr-provenance">What Is A Vintage ES-355 Worth Without Johnny Marr Provenance?</h3>
 
-A clean original mono 1959 is about $30,000 to $45,000 in public asking on my 1959 page, stereo a bit less. His estimate is in pounds because of the name.
+A clean original mono 1959 is about $27,000 to $41,000 in the ES-355 model value guide, stereo a bit less. His estimate is in pounds because of the name.
 
 <h3 id="will-you-buy-a-1971-d-28-or-a-1982-330-or-a-signature-jaguar">Will You Buy A 1971 D-28, A 1982 330, Or A Signature Jaguar?</h3>
 
@@ -259,7 +259,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "What Is A Vintage ES-355 Worth Without Johnny Marr Provenance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A clean original mono 1959 is about $30,000 to $45,000 in public asking on my 1959 page, stereo a bit less. His estimate is in pounds because of the name."
+        "text": "A clean original mono 1959 is about $27,000 to $41,000 in the ES-355 model value guide, stereo a bit less. His estimate is in pounds because of the name."
       }
     },
     {

@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/fender-jazzmaster-evolution-guide-1958-1971/1960s-jazzmaster-charcoal-frost._-10-scaled.jpg"
 heroImageAlt: "A 1966 Fender Jazzmaster in custom Charcoal Frost finish."
-metaDescription: "The Fender Jazzmaster changed more times in its first 14 years than almost any other model in the Fender lineup. This guide documents every spec change year by year: gold guard to tortoiseshell, slab to veneer, clay dots to pearl to blocks, spaghetti to CBS black logo, Klusons to F-tuners, and a complete custom color reference with the correct pickguard pairing for every finish."
+metaDescription: "Identify 1958 to 1971 Fender Jazzmaster features, original parts and construction details. Compare dating clues, repairs and photographs from my archive."
 ogImage: "/images/blog/fender-jazzmaster-evolution-guide-1958-1971/1960s-jazzmaster-charcoal-frost._-10-scaled.jpg"
 wpId: 20376
 toc:
@@ -22,6 +22,9 @@ toc:
   - { href: "#logos", label: "Logos, Tuners & Knobs" }
   - { href: "#serial", label: "Serial Numbers & Dating" }
 ---
+
+For current ranges and condition assumptions, see my [Jazzmaster value guide by year](/vintage-fender-jazzmaster-value-guide/).
+
 Evolution & Reference Guide · Fender Offset · 1958 to 1971
 
 Every specification change documented year by year: gold guard to tort, slab to veneer, clay to pearl to blocks, spaghetti to transition logo, Klusons to F-tuners, and the custom color and pickguard reference

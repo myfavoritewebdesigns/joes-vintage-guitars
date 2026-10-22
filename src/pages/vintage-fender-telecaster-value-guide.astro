@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import PageHero from "../components/primitives/PageHero.astro";
+import GuideHero from '../components/GuideHero.astro';
+import guidePhoto from '../assets/blog/joshuas-1952-fender-telecaster/1952-telecaster-blonde-front.jpg';
 import Button from "../components/primitives/Button.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import FAQ from "../components/FAQ.astro";
@@ -66,31 +67,31 @@ const drivers = [
 ];
 
 const prices = [
-  { m: "Broadcaster (1950)", v: "$90,000 to $175,000", slugs: ["1950-broadcaster"] },
+  { m: "Broadcaster (1950)", v: "$81,000 to $158,000", slugs: ["1950-broadcaster"] },
   { m: "Esquire (1950)", v: "Individual appraisal required", slugs: ["1950-broadcaster"] },
-  { m: "Nocaster (1951)", v: "$65,000 to $110,000", slugs: ["1951-nocaster"] },
-  { m: "Telecaster (1951)", v: "$45,000 to $75,000", slugs: ["1951-telecaster"] },
-  { m: "Esquire (1951, blonde)", v: "$34,000 to $56,500", slugs: ["1951-telecaster"] },
-  { m: "Telecaster (1952 to 1953)", v: "$40,000 to $60,000", slugs: ["1952", "1953"] },
-  { m: "Esquire (1952 to 1953, blonde)", v: "$30,000 to $45,000", slugs: ["1952", "1953"] },
-  { m: "Telecaster (1954, black pickguard)", v: "$40,000 to $60,000", slugs: ["1954"] },
-  { m: "Esquire (1954, black pickguard)", v: "$30,000 to $45,000", slugs: ["1954"] },
-  { m: "Telecaster (1954, white pickguard)", v: "$40,000 to $50,000", slugs: ["1954"] },
-  { m: "Esquire (1954, white pickguard)", v: "$30,000 to $37,500", slugs: ["1954"] },
-  { m: "Telecaster (1955 to 1957)", v: "$38,000 to $50,000", slugs: ["1955", "1956", "1957"] },
-  { m: "Esquire (1955 to 1957, blonde)", v: "$28,500 to $37,500", slugs: ["1955", "1956", "1957"] },
-  { m: "Telecaster (1958 to 1959, blonde)", v: "$25,000 to $35,000", slugs: ["1958", "1959"] },
-  { m: "Esquire (1958 to 1959, blonde)", v: "$19,000 to $26,500", slugs: ["1958", "1959"] },
-  { m: "Telecaster (1958 to 1959, custom color)", v: "$80,000 to $100,000", slugs: ["1958", "1959"] },
-  { m: "Telecaster (1960 to 1962, blonde)", v: "$22,000 to $32,000", slugs: ["1960", "1961", "1962"] },
-  { m: "Esquire (1960 to 1962, blonde)", v: "$16,500 to $24,000", slugs: ["1960", "1961", "1962"] },
-  { m: "Telecaster (1960 to 1962, custom color)", v: "$60,000 to $80,000", slugs: ["1960", "1961", "1962"] },
-  { m: "Telecaster (1963 to 1964, blonde)", v: "$15,000 to $25,000", slugs: ["1963", "1964"] },
-  { m: "Esquire (1963 to 1964, blonde)", v: "$11,500 to $19,000", slugs: ["1963", "1964"] },
-  { m: "Telecaster (1963 to 1964, custom color)", v: "$40,000 to $65,000", slugs: ["1963", "1964"] },
-  { m: "Telecaster (1965 to 1968, blonde)", v: "$9,000 to $22,000", slugs: ["1965", "1966-1968"] },
-  { m: "Esquire (1965 to 1968, blonde)", v: "$7,000 to $16,500", slugs: ["1965", "1966-1968"] },
-  { m: "Telecaster (1965 to 1968, custom color)", v: "$15,000 to $35,000", slugs: ["1965", "1966-1968"] },
+  { m: "Nocaster (1951)", v: "$59,000 to $99,000", slugs: ["1951-nocaster"] },
+  { m: "Telecaster (1951)", v: "$41,000 to $68,000", slugs: ["1951-telecaster"] },
+  { m: "Esquire (1951, blonde)", v: "$31,000 to $51,000", slugs: ["1951-telecaster"] },
+  { m: "Telecaster (1952 to 1953)", v: "$36,000 to $54,000", slugs: ["1952", "1953"] },
+  { m: "Esquire (1952 to 1953, blonde)", v: "$27,000 to $41,000", slugs: ["1952", "1953"] },
+  { m: "Telecaster (1954, black pickguard)", v: "$36,000 to $54,000", slugs: ["1954"] },
+  { m: "Esquire (1954, black pickguard)", v: "$27,000 to $41,000", slugs: ["1954"] },
+  { m: "Telecaster (1954, white pickguard)", v: "$36,000 to $45,000", slugs: ["1954"] },
+  { m: "Esquire (1954, white pickguard)", v: "$27,000 to $34,000", slugs: ["1954"] },
+  { m: "Telecaster (1955 to 1957)", v: "$35,000 to $45,000", slugs: ["1955", "1956", "1957"] },
+  { m: "Esquire (1955 to 1957, blonde)", v: "$26,000 to $34,000", slugs: ["1955", "1956", "1957"] },
+  { m: "Telecaster (1958 to 1959, blonde)", v: "$23,000 to $32,000", slugs: ["1958", "1959"] },
+  { m: "Esquire (1958 to 1959, blonde)", v: "$18,000 to $24,000", slugs: ["1958", "1959"] },
+  { m: "Telecaster (1958 to 1959, custom color)", v: "$72,000 to $90,000", slugs: ["1958", "1959"] },
+  { m: "Telecaster (1960 to 1962, blonde)", v: "$20,000 to $29,000", slugs: ["1960", "1961", "1962"] },
+  { m: "Esquire (1960 to 1962, blonde)", v: "$15,000 to $22,000", slugs: ["1960", "1961", "1962"] },
+  { m: "Telecaster (1960 to 1962, custom color)", v: "$54,000 to $72,000", slugs: ["1960", "1961", "1962"] },
+  { m: "Telecaster (1963 to 1964, blonde)", v: "$14,000 to $23,000", slugs: ["1963", "1964"] },
+  { m: "Esquire (1963 to 1964, blonde)", v: "$11,000 to $18,000", slugs: ["1963", "1964"] },
+  { m: "Telecaster (1963 to 1964, custom color)", v: "$36,000 to $59,000", slugs: ["1963", "1964"] },
+  { m: "Telecaster (1965 to 1968, blonde)", v: "$8,500 to $20,000", slugs: ["1965", "1966-1968"] },
+  { m: "Esquire (1965 to 1968, blonde)", v: "$6,500 to $15,000", slugs: ["1965", "1966-1968"] },
+  { m: "Telecaster (1965 to 1968, custom color)", v: "$14,000 to $32,000", slugs: ["1965", "1966-1968"] },
 ];
 
 const guideForSlug = (slug: string) => telecasterValueGuides.find((guide) => guide.slug === slug)!;
@@ -131,7 +132,7 @@ const changes = [
 const faqs = [
   {
     q: "How much is a vintage Fender Telecaster worth?",
-    a: "The value depends on the model, year, finish, condition, and originality. The all-original examples in this guide run from about $9,000 for some 1965 to 1968 blonde Telecasters to $175,000 for an exceptional 1950 Broadcaster. A verified original custom color can be worth much more than the standard blonde finish from the same year.",
+    a: "The value depends on the model, year, finish, condition, and originality. The all-original examples in this guide run from about $8,500 for some 1965 to 1968 blonde Telecasters to $158,000 for an exceptional 1950 Broadcaster. A verified original custom color can be worth much more than the standard blonde finish from the same year.",
   },
   {
     q: "Why are Broadcasters and Nocasters worth more than Telecasters?",
@@ -197,24 +198,14 @@ const structuredData: Record<string, unknown>[] = [
 ---
 
 <Layout
-  title="Vintage Fender Telecaster Values by Year | Joe’s Vintage Guitars"
+  title="Vintage Fender Telecaster Value Guide: Prices By Year"
   description="See vintage Fender Telecaster values by year from 1950 to 1968, including Broadcaster, Nocaster, Esquire, custom-color, and originality price factors."
   canonical="/vintage-fender-telecaster-value-guide/"
   ogImage="https://www.joesvintageguitarsaz.com/images/og/vintage-fender-telecaster-value-guide.jpg"
   ogImageAlt="Vintage Fender Telecaster Value Guide from Joe's Vintage Guitars"
   structuredData={structuredData}
 >
-  <PageHero
-    eyebrow="Value Guide"
-    title="Vintage Fender Telecaster Value Guide"
-    subhead="Current values by year for Broadcasters, Nocasters, Telecasters, and Esquires, plus the details that move the price."
-    subheadTag="p"
-    subheadHtml={true}
-    bgImage="/images/hero-background.jpg"
-  >
-    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
-    <Button slot="cta" href="/free-appraisal/fender/" variant="cream" size="lg">Fender Appraisal</Button>
-  </PageHero>
+  <GuideHero title="Vintage Fender Telecaster Value Guide" image={guidePhoto} alt="Blonde Fender Telecaster from my photo archive" brand="Fender" eyebrow="Value Guide"><p>Current values by year for Broadcasters, Nocasters, Telecasters, and Esquires, plus the details that move the price.</p></GuideHero>
 
     <section class="vg-section" aria-labelledby="guide-overview">
       <div class="vg-inner vg-lead-grid">
@@ -231,7 +222,7 @@ const structuredData: Record<string, unknown>[] = [
         <p>If you're comparing guitars with different repairs or replacement parts, my guide to <a class="underline underline-offset-4" href="/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/">the seven factors that determine vintage guitar value</a> explains what to check before using a price range.</p>
           <div class="vg-answer">
             <strong>Quick answer:</strong> The all-original guitars covered by this guide range from about
-            $9,000 to $175,000. Use the table as a starting point, then adjust for the exact model, year, finish,
+            $8,500 to $158,000. Use the table as a starting point, then adjust for the exact model, year, finish,
             condition, and originality. For a guitar-specific figure, <a href="/free-appraisal/fender/">request a free Fender appraisal</a>.
           </div>
           <p class="vg-serial-note">
@@ -578,6 +569,7 @@ const structuredData: Record<string, unknown>[] = [
       openFirst={true}
     />
   <ContactSection />
+<section class="gap2-related-guides" style="max-width:860px;margin:36px auto;padding:24px"><p>For other models, my <a href="/vintage-fender-value-guide/">vintage Fender value guide</a> connects the electric guitar and bass comparisons.</p></section>
 </Layout>
 
 <style>

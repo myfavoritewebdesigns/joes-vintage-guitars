@@ -8,10 +8,13 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-scaled.jpg"
 heroImageAlt: "A 1966 Gibson ES-335 that was purchased as part of a large collection."
-metaDescription: "The 1966 Gibson ES-335 is a pre-Norlin Kalamazoo instrument built to the same standard as the early 1960s examples: Patent Number humbuckers, ABR-1 bridge with nylon saddles, trapeze tailpiece, and tortoise side dots most buyers don’t know to look for. This guide walks through every authentication detail with close-up photos of a clean original, including a full set of intact case candy, one of the rarest things to find on a vintage Gibson."
+metaDescription: "Identify 1966 Gibson ES-335 features, original parts and construction details. Compare dating clues, repairs and photographs from my archive."
 ogImage: "/images/blog/1966-gibson-es-335-authentication-guide/1966-gibson-es-335-scaled.jpg"
 wpId: 20220
 ---
+
+For current ranges and condition assumptions, see my [ES-335 value guide by year](/vintage-gibson-es-335-value-guide/).
+
 Authentication Guide · Gibson Semi-Hollow · 1966
 
 The complete year-specific reference for dating and authenticating a genuine 1966 Gibson ES-335: Patent Number pickups, transitional hardware, serial numbers, and every detail that separates a real example from a fake or misrepresented instrument

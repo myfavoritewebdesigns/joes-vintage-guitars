@@ -1,0 +1,317 @@
+{
+  "task": "Remove public price-source commentary from GAP 2 previews",
+  "baselineCommit": "947b5c4d709b2f0ea71017691ed4dadbfe6673dc",
+  "checkedAt": "2026-10-21T20:27:41.632Z",
+  "pass": true,
+  "pages": 27,
+  "priceRows": 598,
+  "results": [
+    {
+      "url": "/post/fender-mustang-history-value/",
+      "priceRows": 16,
+      "images": 24,
+      "faqCount": 9,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/post/gibson-es-345-history-value/",
+      "priceRows": 22,
+      "images": 25,
+      "faqCount": 6,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/post/gibson-es-5-switchmaster-history-value/",
+      "priceRows": 16,
+      "images": 24,
+      "faqCount": 7,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/post/gibson-firebird-history-authentication-value/",
+      "priceRows": 16,
+      "images": 15,
+      "faqCount": 3,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/post/gibson-l5-ces-value-guide/",
+      "priceRows": 30,
+      "images": 16,
+      "faqCount": 6,
+      "removedHeadings": [
+        "Are The Figures Recent Completed Sale Prices?",
+        "Does Every 1957 L-5 CES Use The Same Reference?"
+      ],
+      "addedHeadings": [
+        "Are These Guaranteed Selling Prices?",
+        "Does Every 1957 L-5 CES Use The Same Range?"
+      ],
+      "errors": []
+    },
+    {
+      "url": "/post/vintage-gibson-hummingbird-history-value-guide/",
+      "priceRows": 23,
+      "images": 30,
+      "faqCount": 13,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-fender-jaguar-value-guide/",
+      "priceRows": 14,
+      "images": 11,
+      "faqCount": 7,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-fender-jazz-bass-value-guide/",
+      "priceRows": 22,
+      "images": 11,
+      "faqCount": 8,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-fender-jazzmaster-value-guide/",
+      "priceRows": 24,
+      "images": 12,
+      "faqCount": 5,
+      "removedHeadings": [
+        "How These Ranges Were Built"
+      ],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-fender-precision-bass-value-guide/",
+      "priceRows": 30,
+      "images": 11,
+      "faqCount": 8,
+      "removedHeadings": [
+        "Condition And Evidence Behind The Table",
+        "The 1951 To 1953 Slab-Body Reference"
+      ],
+      "addedHeadings": [
+        "Condition Behind The Table",
+        "The 1951 To 1953 Slab-Body Range"
+      ],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-acoustic-value-guide/",
+      "priceRows": 9,
+      "images": 8,
+      "faqCount": 6,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-es-125-value-guide/",
+      "priceRows": 27,
+      "images": 11,
+      "faqCount": 6,
+      "removedHeadings": [
+        "The Early And Postwar References",
+        "Reading The Market References"
+      ],
+      "addedHeadings": [
+        "Early And Postwar Values",
+        "From A Guide Range To An Offer"
+      ],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-es-330-value-guide/",
+      "priceRows": 14,
+      "images": 11,
+      "faqCount": 6,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-es-335-value-guide/",
+      "priceRows": 23,
+      "images": 12,
+      "faqCount": 5,
+      "removedHeadings": [
+        "How These Ranges Were Built"
+      ],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-es-355-value-guide/",
+      "priceRows": 24,
+      "images": 11,
+      "faqCount": 7,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-j-200-value-guide/",
+      "priceRows": 33,
+      "images": 11,
+      "faqCount": 7,
+      "removedHeadings": [
+        "What The Price Reference Measures",
+        "What The Completed Comparisons Can Establish",
+        "Postwar Maple Guitars And The 1950s Reference",
+        "Why Prewar Examples Need Separate Research",
+        "Sources And Dates Behind These Ranges"
+      ],
+      "addedHeadings": [
+        "What The Value Range Assumes",
+        "Condition Changes That Need A Closer Look",
+        "Postwar Maple Guitars And 1950s Values",
+        "Why Prewar Examples Need Individual Appraisals"
+      ],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-j-45-value-guide/",
+      "priceRows": 38,
+      "images": 10,
+      "faqCount": 7,
+      "removedHeadings": [
+        "The Later 1950s Reference"
+      ],
+      "addedHeadings": [
+        "Later 1950s Values"
+      ],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-les-paul-custom-value-guide/",
+      "priceRows": 20,
+      "images": 11,
+      "faqCount": 7,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-les-paul-junior-value-guide/",
+      "priceRows": 12,
+      "images": 11,
+      "faqCount": 8,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-les-paul-special-value-guide/",
+      "priceRows": 12,
+      "images": 11,
+      "faqCount": 7,
+      "removedHeadings": [
+        "How I Read The Price Evidence"
+      ],
+      "addedHeadings": [
+        "From A Guide Range To An Offer"
+      ],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-lg-series-value-guide/",
+      "priceRows": 87,
+      "images": 10,
+      "faqCount": 6,
+      "removedHeadings": [
+        "What These References Can Tell You"
+      ],
+      "addedHeadings": [
+        "How To Use The Value Ranges"
+      ],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-sg-custom-value-guide/",
+      "priceRows": 19,
+      "images": 9,
+      "faqCount": 5,
+      "removedHeadings": [
+        "How These Ranges Were Built"
+      ],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-sg-junior-value-guide/",
+      "priceRows": 11,
+      "images": 10,
+      "faqCount": 5,
+      "removedHeadings": [
+        "How These Ranges Were Built"
+      ],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-sg-special-value-guide/",
+      "priceRows": 18,
+      "images": 9,
+      "faqCount": 5,
+      "removedHeadings": [
+        "How These Ranges Were Built"
+      ],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-sg-standard-value-guide/",
+      "priceRows": 19,
+      "images": 10,
+      "faqCount": 5,
+      "removedHeadings": [
+        "How These Ranges Were Built"
+      ],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-sg-value-guide/",
+      "priceRows": 19,
+      "images": 10,
+      "faqCount": 5,
+      "removedHeadings": [
+        "How These Ranges Were Built"
+      ],
+      "addedHeadings": [],
+      "errors": []
+    },
+    {
+      "url": "/vintage-gibson-value-guide/",
+      "priceRows": 0,
+      "images": 26,
+      "faqCount": 4,
+      "removedHeadings": [],
+      "addedHeadings": [],
+      "errors": []
+    }
+  ],
+  "verification": {
+    "build": "passed",
+    "astroErrors": 0,
+    "copyHardFails": 0,
+    "liveDiffPages": 27,
+    "unexpectedMustFix": 0
+  },
+  "intentionalExceptions": "Source-driven headings removed or renamed, FAQ wording and descriptions revised per Joe. Source benchmark deduction tables removed. Recorded in CLAUDE.md. Original research reports retained.",
+  "productionMerged": false
+}

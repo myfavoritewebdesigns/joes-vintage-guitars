@@ -1,5 +1,6 @@
 ---
-title: "Gibson Byrdland Authentication Guide: How to Date & Identify Any Example (1955 to Present)"
+title: "Vintage Gibson Byrdland Dating And Authentication Guide"
+seoTitle: "Vintage Gibson Byrdland Dating And Authentication Guide"
 pubDate: "2026-03-16T11:31:27"
 modified: "2026-03-24T20:54:37"
 excerpt: "How to identify and authenticate any Gibson Byrdland, from the first Kalamazoo prototypes in 1955 through the current Custom Shop era. Covers every major construction change: cutaway shape, pickups, solid vs. pressed back, neck lamination, nut width, labels, serial numbers, hardware, and more."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-scaled.jpg"
 heroImageAlt: "Gibson Byrdland authentication guide. Identify any year Byrdland"
-metaDescription: "How to identify and authenticate any Gibson Byrdland, from the first Kalamazoo prototypes in 1955 through the current Custom Shop era. Covers every major construction change: cutaway shape, pickups, solid vs. pressed back, neck lamination, nut width, labels, serial numbers, hardware, and more."
+metaDescription: "Identify a vintage Gibson Byrdland by its construction, original parts and dated components, with repair checks and photographs from my archive."
 ogImage: "/images/blog/gibson-byrdland-authentication-guide/1967-gibson-byrdland-scaled.jpg"
 wpId: 20111
 ---
@@ -30,6 +31,8 @@ and dating criteria, 1955 to the Custom Shop era
 -   [Full Year-by-Year Timeline](#timeline)
 -   [Authentication Checklist](#checklist)
 -   [Related Resources](#links)
+
+Original finish, correct parts and documented repairs affect value. Use my [Gibson value guide](/vintage-gibson-value-guide/) for the model guides and condition context. This article focuses on dating and authentication.
 
 <h2 id="overview">Overview & Origin</h2>
 
@@ -533,7 +536,7 @@ Use this checklist when examining any Byrdland. Not all items apply to all eras,
 -   Knob style matches claimed era (bonnet 1955 to 1960; top-hat 1960 to 1967; witch-hat/bell 1967 to 1975)
 -   Pickguard shows appropriate celluloid aging, some crystallizing cracks expected on pre-1970 examples
 
-For any Byrdland with a claimed value above $10,000, obtain a written assessment from a recognized vintage Gibson specialist who has physically examined the instrument. Cross-reference the three most reliable dating tools simultaneously: **(1) pot codes, (2) pickup type and sticker, and (3) serial number range**. If all three agree and align with the physical features described in this guide, you can proceed with confidence. If any two disagree, investigate further before purchasing. For a free online appraisal inquiry, visit our [free appraisal page](/free-appraisal/). If you're thinking about selling, we [buy vintage Byrdlands and other Gibson archtops](/sell-my-gibson-guitar/) outright.
+For a Byrdland appraisal, obtain a written assessment from a recognized vintage Gibson specialist who has physically examined the instrument. Cross-reference the three most reliable dating tools simultaneously: **(1) pot codes, (2) pickup type and sticker, and (3) serial number range**. If all three agree and align with the physical features described in this guide, you can proceed with confidence. If any two disagree, investigate further before purchasing. For a free online appraisal inquiry, visit our [free appraisal page](/free-appraisal/). If you're thinking about selling, we [buy vintage Byrdlands and other Gibson archtops](/sell-my-gibson-guitar/) outright.
 
 <h2 id="links">Related Resources</h2>
 

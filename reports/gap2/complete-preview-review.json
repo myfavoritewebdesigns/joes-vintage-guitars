@@ -1,0 +1,526 @@
+{
+  "status": "All 28 value-page drafts and requested cleanups implemented and locally verified; hosted verification follows deployment.",
+  "main": "No production merge",
+  "preview": "https://joe-gap2-complete-preview.joes-vintage-guitars.pages.dev",
+  "index": "https://joe-gap2-complete-preview.joes-vintage-guitars.pages.dev/gap2-preview-index.html",
+  "copyList": "https://joe-gap2-complete-preview.joes-vintage-guitars.pages.dev/gap2-preview-links.txt",
+  "pages": 28,
+  "photos": 192,
+  "faqs": 181,
+  "build": "Full pnpm 11.7.0 verify: zero Astro errors/warnings and zero copy hard-fails.",
+  "checks": {
+    "checked": "2026-10-20T19:29:27.099Z",
+    "pages": [
+      {
+        "url": "/post/fender-mustang-history-value/",
+        "title": "1964 Fender Mustang Value Guide | Joe's Vintage Guitars",
+        "rows": 16,
+        "photos": 14,
+        "faqCount": 9,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/post/gibson-es-345-history-value/",
+        "title": "Gibson ES-345 Stereo Value Guide | Joe's Vintage Guitars",
+        "rows": 22,
+        "photos": 15,
+        "faqCount": 6,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/post/gibson-es-5-switchmaster-history-value/",
+        "title": "Gibson ES-5 Switchmaster Value Guide | Joe's Vintage Guitars",
+        "rows": 16,
+        "photos": 14,
+        "faqCount": 7,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/post/gibson-firebird-history-authentication-value/",
+        "title": "Gibson Firebird Value Guide By Year | Joe's Vintage Guitars",
+        "rows": 16,
+        "photos": 5,
+        "faqCount": 3,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/post/gibson-l5-ces-value-guide/",
+        "title": "Gibson L-5 CES Value Guide: Prices From 1951 To 1979",
+        "rows": 30,
+        "photos": 6,
+        "faqCount": 6,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-fender-jaguar-value-guide/",
+        "title": "Vintage Fender Jaguar Value Guide: 1962 To 1975 Prices",
+        "rows": 14,
+        "photos": 6,
+        "faqCount": 7,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-fender-jazz-bass-value-guide/",
+        "title": "Vintage Fender Jazz Bass Value Guide: 1960 To 1979 Prices",
+        "rows": 22,
+        "photos": 6,
+        "faqCount": 8,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-fender-jazzmaster-value-guide/",
+        "title": "Vintage Fender Jazzmaster Value Guide: Prices By Year",
+        "rows": 24,
+        "photos": 7,
+        "faqCount": 5,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-fender-precision-bass-value-guide/",
+        "title": "Vintage Fender Precision Bass Value Guide: 1951 To 1979",
+        "rows": 30,
+        "photos": 6,
+        "faqCount": 8,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-fender-value-guide/",
+        "title": "Vintage Fender Value Guide: Find Your Guitar’s Range",
+        "rows": 7,
+        "photos": 4,
+        "faqCount": 6,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-acoustic-value-guide/",
+        "title": "Vintage Gibson Acoustic Value Guide: Models And Prices",
+        "rows": 9,
+        "photos": 3,
+        "faqCount": 6,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-es-125-value-guide/",
+        "title": "Vintage Gibson ES-125 Value Guide: Annual Price Ranges",
+        "rows": 27,
+        "photos": 6,
+        "faqCount": 6,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-es-330-value-guide/",
+        "title": "Vintage Gibson ES-330 Value Guide: Annual Price Ranges",
+        "rows": 14,
+        "photos": 6,
+        "faqCount": 6,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-es-335-value-guide/",
+        "title": "Vintage Gibson ES-335 Value Guide: Prices By Year To 1979",
+        "rows": 23,
+        "photos": 7,
+        "faqCount": 5,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-es-355-value-guide/",
+        "title": "Vintage Gibson ES-355 Value Guide: Annual Price Ranges",
+        "rows": 24,
+        "photos": 6,
+        "faqCount": 7,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/post/vintage-gibson-hummingbird-history-value-guide/",
+        "title": "Gibson Hummingbird Value Guide | Joe's Vintage Guitars",
+        "rows": 20,
+        "photos": 20,
+        "faqCount": 13,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-j-200-value-guide/",
+        "title": "Vintage Gibson J-200 Value Guide: Prices Through 1979",
+        "rows": 33,
+        "photos": 6,
+        "faqCount": 7,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-j-45-value-guide/",
+        "title": "Vintage Gibson J-45 Value Guide: Prices Through 1979",
+        "rows": 38,
+        "photos": 5,
+        "faqCount": 7,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-les-paul-custom-value-guide/",
+        "title": "Vintage Gibson Les Paul Custom Value Guide: Yearly Prices",
+        "rows": 20,
+        "photos": 6,
+        "faqCount": 7,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-les-paul-junior-value-guide/",
+        "title": "Vintage Gibson Les Paul Junior Value Guide: Yearly Prices",
+        "rows": 12,
+        "photos": 6,
+        "faqCount": 8,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-les-paul-special-value-guide/",
+        "title": "Vintage Gibson Les Paul Special Value Guide By Year",
+        "rows": 12,
+        "photos": 6,
+        "faqCount": 7,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-lg-series-value-guide/",
+        "title": "Vintage Gibson LG Series Value Guide: Prices By Year",
+        "rows": 87,
+        "photos": 5,
+        "faqCount": 6,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-sg-custom-value-guide/",
+        "title": "Vintage Gibson SG Custom Value Guide: Prices By Year",
+        "rows": 19,
+        "photos": 4,
+        "faqCount": 5,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-sg-junior-value-guide/",
+        "title": "Vintage Gibson SG Junior Value Guide: Prices By Year",
+        "rows": 19,
+        "photos": 5,
+        "faqCount": 5,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-sg-special-value-guide/",
+        "title": "Vintage Gibson SG Special Value Guide: Prices By Year",
+        "rows": 19,
+        "photos": 4,
+        "faqCount": 5,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-sg-standard-value-guide/",
+        "title": "Vintage Gibson SG Standard Value Guide: Prices By Year",
+        "rows": 19,
+        "photos": 5,
+        "faqCount": 5,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-sg-value-guide/",
+        "title": "Vintage Gibson SG Value Guide: Models And Years To 1979",
+        "rows": 19,
+        "photos": 5,
+        "faqCount": 5,
+        "errors": [],
+        "pass": true
+      },
+      {
+        "url": "/vintage-gibson-value-guide/",
+        "title": "Vintage Gibson Value Guide: Find Your Guitar’s Range",
+        "rows": 12,
+        "photos": 4,
+        "faqCount": 6,
+        "errors": [],
+        "pass": true
+      }
+    ],
+    "authentication": [
+      {
+        "url": "/post/gibson-byrdland-authentication-guide/",
+        "dollars": 0,
+        "faqDollars": 0,
+        "pass": true
+      },
+      {
+        "url": "/fender-mustang-dating-guide/",
+        "dollars": 0,
+        "faqDollars": 0,
+        "pass": true
+      },
+      {
+        "url": "/post/vintage-fender-jaguar-guide/",
+        "dollars": 0,
+        "faqDollars": 0,
+        "pass": true
+      },
+      {
+        "url": "/post/vintage-fender-jazz-bass-guide/",
+        "dollars": 0,
+        "faqDollars": 0,
+        "pass": true
+      },
+      {
+        "url": "/post/1952-fender-precision-bass-guide/",
+        "dollars": 0,
+        "faqDollars": 0,
+        "pass": true
+      },
+      {
+        "url": "/post/gibson-les-paul-junior-guide/",
+        "dollars": 0,
+        "faqDollars": 0,
+        "pass": true
+      },
+      {
+        "url": "/post/gibson-es-125-guide/",
+        "dollars": 0,
+        "faqDollars": 0,
+        "pass": true
+      },
+      {
+        "url": "/post/gibson-j200-model-history-authentication-guide/",
+        "dollars": 0,
+        "faqDollars": 0,
+        "pass": true
+      },
+      {
+        "url": "/post/identify-vintage-gibson-j45-j50-sj/",
+        "dollars": 0,
+        "faqDollars": 0,
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "cleanup": {
+    "results": [
+      {
+        "slug": "vintage-fender-stratocaster-value-guide",
+        "title": "Vintage Fender Stratocaster Value Guide (1954 To 1965)",
+        "length": 54
+      },
+      {
+        "slug": "vintage-fender-telecaster-value-guide",
+        "title": "Vintage Fender Telecaster Value Guide: Prices By Year",
+        "length": 53
+      },
+      {
+        "page": "J-45 related",
+        "links": [
+          "/post/vintage-gibson-hummingbird-history-value-guide/",
+          "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+          "/post/gibson-j200-model-history-authentication-guide/"
+        ]
+      }
+    ],
+    "spokes": [
+      {
+        "url": "/gretsch-body-binding-and-inlays/",
+        "brand": "gretsch",
+        "links": [
+          "/sell-my-gretsch-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/gretsch-bridges-and-tailpieces/",
+        "brand": "gretsch",
+        "links": [
+          "/sell-my-gretsch-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/gretsch-finish-colors/",
+        "brand": "gretsch",
+        "links": [
+          "/sell-my-gretsch-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/gretsch-headstock-and-tuner-dating-guide/",
+        "brand": "gretsch",
+        "links": [
+          "/sell-my-gretsch-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/gretsch-knobs-and-controls/",
+        "brand": "gretsch",
+        "links": [
+          "/sell-my-gretsch-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/gretsch-labels-and-serial-number-locations/",
+        "brand": "gretsch",
+        "links": [
+          "/sell-my-gretsch-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/gretsch-pickup-dating-guide/",
+        "brand": "gretsch",
+        "links": [
+          "/sell-my-gretsch-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/gretsch-vintage-vs-reissue/",
+        "brand": "gretsch",
+        "links": [
+          "/sell-my-gretsch-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/guild-acoustic-guitar-identification/",
+        "brand": "guild",
+        "links": [
+          "/sell-my-guild-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/guild-electric-guitar-identification/",
+        "brand": "guild",
+        "links": [
+          "/sell-my-guild-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/guild-factory-eras/",
+        "brand": "guild",
+        "links": [
+          "/sell-my-guild-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/guild-labels-and-serial-number-locations/",
+        "brand": "guild",
+        "links": [
+          "/sell-my-guild-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/guild-model-prefix-serial-number-charts/",
+        "brand": "guild",
+        "links": [
+          "/sell-my-guild-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/guild-pickup-and-hardware-dating-guide/",
+        "brand": "guild",
+        "links": [
+          "/sell-my-guild-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/guild-vintage-vs-reissue/",
+        "brand": "guild",
+        "links": [
+          "/sell-my-guild-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/rickenbacker-body-binding-and-inlays/",
+        "brand": "rickenbacker",
+        "links": [
+          "/sell-my-rickenbacker-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/rickenbacker-finish-colors/",
+        "brand": "rickenbacker",
+        "links": [
+          "/sell-my-rickenbacker-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/rickenbacker-knobs-and-controls/",
+        "brand": "rickenbacker",
+        "links": [
+          "/sell-my-rickenbacker-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/rickenbacker-pickup-dating-guide/",
+        "brand": "rickenbacker",
+        "links": [
+          "/sell-my-rickenbacker-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/rickenbacker-tailpiece-dating-guide/",
+        "brand": "rickenbacker",
+        "links": [
+          "/sell-my-rickenbacker-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      },
+      {
+        "url": "/rickenbacker-tuner-dating-guide/",
+        "brand": "rickenbacker",
+        "links": [
+          "/sell-my-rickenbacker-guitar/",
+          "/sell-a-guitar-collection/"
+        ]
+      }
+    ],
+    "errors": [],
+    "pass": true
+  },
+  "limitations": [
+    "Annual rows use labeled era or configuration references rather than independent annual samples.",
+    "Prewar J-200 prices remain unpriced because the evidence minimum is unmet.",
+    "Historical comparisons, existing asking anchors and editorial conflicts remain labeled in the page ledgers.",
+    "Intentional live-diff heading changes: J-45 related cards, J-200 historic price heading and L-5 Title Case/FAQ conversion. No unintended photo loss or broken assets.",
+    "Tier 3 value pages remain deferred under the supplied plan."
+  ]
+}

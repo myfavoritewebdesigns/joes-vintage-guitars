@@ -1,0 +1,24 @@
+{
+  "key": "strat-title",
+  "url": "/vintage-fender-stratocaster-value-guide/",
+  "paths": [
+    "src/pages/vintage-fender-stratocaster-value-guide.astro",
+    "reports/gap2/cleanup-strat-title.json"
+  ],
+  "title": "Remove the dash from the Stratocaster value title",
+  "changes": [
+    {
+      "before": "Vintage Fender Stratocaster Value Guide (1954–1965)",
+      "after": "Vintage Fender Stratocaster Value Guide (1954 To 1965)"
+    }
+  ],
+  "decision": "GSC reviewed. Punctuation-only change preserves all model, value and date terms.",
+  "branch": "joe/gap2-strat-title",
+  "validation": {
+    "date": "2026-10-20",
+    "verify": "pnpm 11.7.0 run verify: 257 pages, 0 Astro errors, 0 warnings, 0 copy hard failures; 766 report-only copy warnings across the existing site.",
+    "targetedChecks": "Built titles, Mustang dollar removal and FAQ equality, acoustic related links, all 21 matching brand footer links and default footer preservation passed.",
+    "liveComparison": "No must-fix flags in the representative live comparison. Title differences are requested. The existing Reverb icon dimension warnings are outside this edit.",
+    "visualReview": "Hosted preview review pending."
+  }
+}

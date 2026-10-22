@@ -1,16 +1,18 @@
 ---
 title: "Vintage Gibson Hummingbird Guide: History, Specs, Year by Year Changes, and Value"
+seoTitle: "Gibson Hummingbird Value Guide"
 pubDate: "2026-08-03T12:00:00"
-modified: "2026-08-03T12:00:00"
+modified: "2026-10-19T12:00:00-07:00"
 excerpt: "The Hummingbird was Gibson's first square shoulder dreadnought and the prettiest guitar in the 1960 catalog. Here is the full story: what the first ones were, every spec change that matters through the 1970s, how to date yours from the label and the hardware, and what a vintage one is honestly worth in 2026. Shown on five real Hummingbirds that came through the shop, from a 1961 to a 1979."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-cherry-sunburst-front.jpg"
 heroImageAlt: "The cherry sunburst top of a 1961 Gibson Hummingbird showing the engraved pickguard with a hummingbird, trumpet flowers, and butterfly, and the rectangular rosewood bridge."
-metaDescription: "What a vintage Gibson Hummingbird is worth in 2026, how to date one, and every spec change from 1960 to 1979. Serial numbers, labels, adjustable bridges, and value, shown on five real guitars."
+metaDescription: "Gibson Hummingbird values by year from 1960 to 1979, with dealer ranges, condition details, bridge changes and photographs of guitars from my shop."
 ogImage: "/images/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-cherry-sunburst-front.jpg"
 toc:
+  - { href: "#value", label: "Values By Year" }
   - { href: "#quick-answer", label: "The Short Version" }
   - { href: "#history", label: "Why 1960 Mattered" }
   - { href: "#specs", label: "The 1960 Spec Sheet" }
@@ -27,11 +29,57 @@ toc:
   - { href: "#features", label: "Reading the Features", sub: true }
   - { href: "#sound", label: "How They Sound" }
   - { href: "#versus", label: "Hummingbird vs J-45 vs Dove" }
-  - { href: "#value", label: "What One Is Worth" }
   - { href: "#deductions", label: "What Takes the Value Down" }
   - { href: "#five", label: "The Five in These Photos" }
   - { href: "#faq", label: "Frequently Asked Questions" }
 ---
+The asking range for a clean, original vintage Gibson Hummingbird is $1,500 to $11,000, with early 1960s guitars toward the upper end. A 1960 to 1962 cherry sunburst sits at $7,500 to $11,000; a 1973 to 1979 example sits at $1,500 to $3,000. I assess the year, bridge condition, originality and repairs before discussing an offer.
+
+<h2 id="value">Vintage Gibson Hummingbird Values By Year</h2>
+
+As of October 2026, the table shows asking ranges for clean, all-original, structurally sound guitars. These aren't guaranteed selling prices or cash purchase offers. Adjacent years can share a range, and I assess the case and any repairs separately.
+
+| Year | Dealer Asking Range | Configuration |
+| --- | --- | --- |
+| 1960 | $7,500 to $11,000 | First Year, Cherry Sunburst, Wide Nut, Fixed Saddle |
+| 1961 | $7,500 to $11,000 | Cherry Sunburst, Wide Nut, Early Run |
+| 1962 | $7,500 to $11,000 | Cherry Sunburst, Wide Nut, Early Run |
+| 1963 | $6,000 to $9,000 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
+| 1964 | $6,000 to $9,000 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
+| 1965 | $4,500 to $6,500 | Narrow Nut, Otherwise Unchanged |
+| 1966 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
+| 1967 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
+| 1968 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
+| 1969 | $2,000 to $3,500 | Late 1960s Neck And Bridge Transition |
+| 1970 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1971 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1972 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1973 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1974 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1975 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1976 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1977 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1978 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1979 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+
+A 1965 label alone doesn't settle the nut width. That row covers the narrow-nut configuration; an early wide-nut guitar needs an individual appraisal. Natural finishes, unusual wood combinations, major repairs and bridge replacements also need separate consideration.
+
+
+Things that move the number up:
+
+- **Original hard case, and case candy.** The 1961 and the mid sixties example here both have their cases. One still has its Gibson strings box and the case key in the accessory compartment. That is worth real money to the right buyer, and it costs nothing to keep.
+- **Natural finish, early.** 97 of them in 1963. Do the math.
+- **Maple back and sides.** Unusual enough that the price is a negotiation rather than a lookup.
+- **Original owner history and paperwork.** Always.
+- **An unmolested bridge.** More on that below.
+
+<figure>
+
+![Original Gibson strings box and case key on the floor of a vintage Gibson Hummingbird case, the original case candy that came with the guitar.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1960s-gibson-hummingbird-original-case-candy-gibson-strings.jpg)
+
+<figcaption><strong>Do not throw this out.</strong> An unopened Gibson strings box and the original case key from the accessory compartment of the mid sixties guitar. Small stuff, but a collector notices, and it is evidence the guitar has not been through six owners and a pawn shop.</figcaption>
+</figure>
+
 <style>.blog-prose figure p{margin:0}</style>
 
 Gibson had been building flat-tops for thirty years before the Hummingbird, and every one of them had round shoulders. Then in 1960 Kalamazoo put out a square shouldered dreadnought with a hand engraved pickguard, gold tuners, and a cherry sunburst finish, and priced it near the top of the acoustic line. It looked like nothing else they made.
@@ -40,12 +88,7 @@ Sixty-some years later it is still in production, which puts it in a very short 
 
 This guide covers the whole run: what the first ones were, every spec change worth knowing through the end of the seventies, how to work out what year yours is, and what the different eras actually bring. All of the photos are guitars that came through the shop. Five of them, a 1961, a mid sixties example, a 1964, a 1965, and a 1979, and between them they show almost every change Gibson made.
 
-<figure>
 
-![Front view of a 1961 Gibson Hummingbird in cherry sunburst, showing the engraved pickguard with hummingbird, trumpet flowers and butterfly, parallelogram fretboard inlays, and rectangular rosewood bridge.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-cherry-sunburst-front.jpg)
-
-<figcaption><strong>A 1961, the second year of production.</strong> Gibson shipped 595 Hummingbirds that year. The cherry in the burst has held up better than most, and you can see the wide, deep red edge that Kalamazoo was spraying before the finish recipe drifted lighter later in the decade.</figcaption>
-</figure>
 
 <h2 id="quick-answer">The Short Version</h2>
 
@@ -64,9 +107,9 @@ If you only read one section, read this one.
 | **First year output** | 156 guitars shipped in 1960 |
 | **The big year to know** | 1965, when the nut got narrower and values step down |
 | **The other big year** | 1970, when the adjustable saddle, gold hardware, and one piece neck all went away |
-| **2026 value** | Roughly $1,600 for a late seventies example to $12,000 for a clean early one |
+| **2026 value** | Roughly $1,500 for a late seventies example to $11,000 for a clean early one |
 
-<h2 id="history">What the Hummingbird Is and Why 1960 Mattered</h2>
+<h2 id="history">What The Hummingbird Is And Why 1960 Mattered</h2>
 
 By the late fifties Martin was selling every dreadnought it could build and Gibson was watching it happen. Gibson's own big flat-tops, the J-45 and the Southern Jumbo, had the sloped shoulder shape they had used since the thirties. Good guitars, but they looked like the past sitting next to a D-28.
 
@@ -107,7 +150,7 @@ You will notice one spec missing from that list, and its absence is deliberate. 
 
 So measure the guitar in front of you. Nut to the center of the twelfth fret, doubled. It takes fifteen seconds and it changes what strings you buy, how the thing feels under your hand, and what you tell a buyer. A short scale Hummingbird is looser and warmer with less tension at pitch. A long scale one is tighter and louder and asks more of your fretting hand. Both left Kalamazoo.
 
-<h2 id="evolution">Year by Year: What Changed and When</h2>
+<h2 id="evolution">Year By Year: What Changed And When</h2>
 
 | Year | What changed |
 | --- | --- |
@@ -128,9 +171,9 @@ So measure the guitar in front of you. Nut to the center of the twelfth fret, do
 
 Shipping totals come from the Kalamazoo records. We keep the full set in our [Gibson production numbers guide](/post/gibson-shipping-totals-1948-1979/) if you want to see how the Hummingbird compares to the rest of the line.
 
-<h3 id="early">1960 to 1962: The First Run</h3>
+<h3 id="early">1960 To 1962: The First Run</h3>
 
-These are the ones collectors chase and they are genuinely scarce. Add up 1960, 1961, and 1962 and Gibson shipped about 1,250 Hummingbirds total in three years, which is fewer than they shipped in 1963 alone. Sixty-five years of attic storage, house fires, and firewood have taken their cut since.
+These are the ones collectors chase and they are truly scarce. Add up 1960, 1961, and 1962 and Gibson shipped about 1,250 Hummingbirds total in three years, which is fewer than they shipped in 1963 alone. Sixty-five years of attic storage, house fires, and firewood have taken their cut since.
 
 Cosmetically these are the boldest looking ones. Deep red in the burst, a big guard, thick gold in the engraving, and gold plating on the tuners that had not yet been value engineered. Tonally they are the most open of the bunch, which is partly the lighter bracing and partly six decades of playing in.
 
@@ -141,9 +184,9 @@ Cosmetically these are the boldest looking ones. Deep red in the burst, a big gu
 <figcaption><strong>Two words on the early labels.</strong> This 1961 label reads HUMMING BIRD as two words, written in by hand at the factory along with the number. That 35384 is the same number stamped into the back of the headstock. When those two disagree, something has been apart.</figcaption>
 </figure>
 
-<h3 id="sixtythree">1963: Maple, a Smaller Guard, and Natural Tops</h3>
+<h3 id="sixtythree">1963: Maple, A Smaller Guard, And Natural Tops</h3>
 
-Three changes in one year. Gibson started offering maple back and sides as an option, the pickguard came down slightly in size, and natural finish appeared alongside the sunburst. Only 97 of the 1,461 guitars shipped in 1963 were natural, so a genuine natural early Hummingbird is a real rarity. A maple one is rarer still and almost nobody knows they exist.
+Three changes in one year. Gibson started offering maple back and sides as an option, the pickguard came down slightly in size, and natural finish appeared alongside the sunburst. Only 97 of the 1,461 guitars shipped in 1963 were natural, so an original natural early Hummingbird is a real rarity. A maple one is rarer still and almost nobody knows they exist.
 
 The guard change is subtle and hard to call from a photo. Comparing a 1961 to a 1965 side by side you can see it, but do not try to date a guitar off guard size alone.
 
@@ -175,7 +218,7 @@ The bridge shape gets blockier and the braces get bulkier. Neither change helps 
 
 A cluster of changes landed at once under new corporate ownership. The adjustable saddle was dropped for a fixed one, the gold hardware became chrome, and the one piece mahogany neck became a three piece laminate. If you have a Hummingbird with a plain fixed saddle, chrome tuners, and two glue lines running up the back of the neck, you are looking at 1970 or later, and no serial number is required.
 
-<h3 id="seventies">1971 to 1979: Double X Bracing and the Custom Label</h3>
+<h3 id="seventies">1971 To 1979: Double X Bracing And The Custom Label</h3>
 
 From 1971 Gibson went to double X bracing, which is exactly what it sounds like and does exactly what you would expect: it makes the top stiff. Seventies Hummingbirds are famously tight and quiet compared to sixties ones. They are also overbuilt in a way that means very few of them have bellied up or cracked, so they turn up in better structural shape than the guitars people actually want.
 
@@ -230,11 +273,11 @@ What we tell people: **do not convert a clean, original, early Hummingbird.** A 
 <figcaption><strong>Ceramic saddle version, on a well used 1964.</strong> This is the one to use as your reference for a period correct adjustable bridge: original to the guitar, white ceramic saddle up on two brass adjusters, aged into the top around it. Look past the bridge at the web of fine lines. That is finish checking, and on a Kalamazoo nitro finish from 1964 it is normal, expected, and not a value problem on its own.</figcaption>
 </figure>
 
-<h2 id="dating">How to Date a Hummingbird</h2>
+<h2 id="dating">How To Date A Hummingbird</h2>
 
-<h3 id="serials">Serial Numbers and Factory Order Numbers</h3>
+<h3 id="serials">Serial Numbers And Factory Order Numbers</h3>
 
-**If there is no number on the headstock, look inside.** A 1960 Hummingbird will not have a headstock serial, because Gibson had not started stamping them on flat-tops yet. What it has instead is a factory order number inked onto the neck block, visible through the soundhole with a light and a mirror. The letter in front is the year code: **R is 1960 and Q is 1961.** Gibson retired the FON system during 1961, so a Q number is genuinely uncommon. If you find an R, you are holding a first year guitar and it should be priced like one.
+**If there is no number on the headstock, look inside.** A 1960 Hummingbird will not have a headstock serial, because Gibson had not started stamping them on flat-tops yet. What it has instead is a factory order number inked onto the neck block, visible through the soundhole with a light and a mirror. The letter in front is the year code: **R is 1960 and Q is 1961.** Gibson retired the FON system during 1961, so a Q number is truly uncommon. If you find an R, you are holding a first year guitar and it should be priced like one.
 
 From 1961 through 1969 Gibson stamped the serial into the back of the headstock and wrote the same number on the label inside. Those numbers are a starting point and nothing more. Gibson duplicated numbers in this period, ran them out of sequence, and reused blocks. Two guitars built four years apart can carry the same serial. Anybody who dates a sixties Gibson off the number alone and stops there is guessing.
 
@@ -279,7 +322,7 @@ Check that the number on the label matches the stamp on the headstock. On the 19
 <figcaption><strong>The seventies label.</strong> Rectangular, not oval, and it says HUMMINGBIRD CUSTOM. That word Custom throws people constantly. It was a rename, not an upgrade, and it does not add a dollar to the guitar.</figcaption>
 </figure>
 
-<h3 id="features">Reading the Features</h3>
+<h3 id="features">Reading The Features</h3>
 
 This is how you actually date one, and it takes about a minute:
 
@@ -294,7 +337,7 @@ This is how you actually date one, and it takes about a minute:
 
 Run all eight and the answer usually converges on a two or three year window. Then use the serial to narrow it, not the other way around.
 
-<h2 id="sound">How a Vintage Hummingbird Actually Sounds</h2>
+<h2 id="sound">How A Vintage Hummingbird Actually Sounds</h2>
 
 Mahogany back and sides and a big square shouldered box. That combination gives you a warm midrange, a soft top end, and a bass that is round rather than tight. It is not a flat-picking guitar and it never claimed to be. Put a D-28 next to it and the Martin will out-project it and out-define it on single notes.
 
@@ -302,7 +345,7 @@ What the Hummingbird does that the Martin does not is sit under a voice without 
 
 The eras really do sound different. An early sixties one with light bracing and sixty years on it is open, loud for a mahogany guitar, and quick to respond. A 1968 is noticeably stiffer. A 1975 with double X bracing is a different instrument, tight and polite, and no amount of playing in is going to loosen it much, because the bracing is the reason.
 
-<h2 id="versus">Hummingbird vs J-45 vs Dove</h2>
+<h2 id="versus">Hummingbird Vs J-45 Vs Dove</h2>
 
 The three questions we get asked most, answered together.
 
@@ -317,37 +360,7 @@ The three questions we get asked most, answered together.
 
 Short version: the J-45 is the workhorse and the better recording guitar, the Dove is the loud one, and the Hummingbird is the one you reach for when you are singing. If you want the full breakdown on the round shouldered family, we have a separate guide on [identifying a J-45, J-50, and Southern Jumbo](/post/identify-vintage-gibson-j45-j50-sj/).
 
-<h2 id="value">What a Vintage Hummingbird Is Worth</h2>
-
-Ballpark retail for a clean, all original, structurally sound guitar in 2026. These are asking numbers at a dealer, not what a private seller nets and not what a shop pays on a cash offer.
-
-| Era | What you have | Typical retail |
-| --- | --- | --- |
-| **1960 to 1962** | Cherry sunburst, wide nut, first run scarcity | $8,000 to $12,000 |
-| **1963 to 1964** | Cherry sunburst, wide nut, adjustable saddle | $6,500 to $9,750 |
-| **1965** | Narrow nut, otherwise unchanged | $5,000 to $6,750 |
-| **1966 to 1968** | Heavier build from 1968 on | $3,750 to $5,500 |
-| **1969 to 1972** | Fixed saddle, chrome, three piece neck | $2,200 to $3,400 |
-| **1973 to 1979** | Block inlays, double X bracing, Custom label | $1,600 to $2,800 |
-
-The published price guides put a 1960 through 1964 cherry sunburst at roughly $7,500 to $9,750 and a 1965 at $5,250 to $6,750, which lines up with the table above. Where book values and reality part company is at the top and the bottom. A documented 1960 or 1961 in honest original condition can beat the book, because there are only so many of them. A rough seventies guitar can sit unsold at book all year.
-
-Things that move the number up:
-
-- **Original hard case, and case candy.** The 1961 and the mid sixties example here both have their cases. One still has its Gibson strings box and the case key in the accessory compartment. That is worth real money to the right buyer, and it costs nothing to keep.
-- **Natural finish, early.** 97 of them in 1963. Do the math.
-- **Maple back and sides.** Unusual enough that the price is a negotiation rather than a lookup.
-- **Original owner history and paperwork.** Always.
-- **An unmolested bridge.** More on that below.
-
-<figure>
-
-![Original Gibson strings box and case key on the floor of a vintage Gibson Hummingbird case, the original case candy that came with the guitar.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1960s-gibson-hummingbird-original-case-candy-gibson-strings.jpg)
-
-<figcaption><strong>Do not throw this out.</strong> An unopened Gibson strings box and the original case key from the accessory compartment of the mid sixties guitar. Small stuff, but a collector notices, and it is evidence the guitar has not been through six owners and a pawn shop.</figcaption>
-</figure>
-
-<h2 id="deductions">What Takes the Value Down</h2>
+<h2 id="deductions">What Takes The Value Down</h2>
 
 In rough order of how much damage each one does.
 
@@ -359,7 +372,7 @@ The mid sixties guitar in these photos is the honest example. It has the prettie
 
 **A converted adjustable bridge.** On a player grade guitar, minor. On an otherwise all original early sixties example, real money. The tell is a filled slot where the adjuster posts used to be, visible if you look straight down the saddle line.
 
-**A neck reset that has not been done.** Not fatal, and most sixties Gibsons are due for one by now, but it is a $700 to $1,200 job and a buyer will price it in.
+**A neck reset that has not been done.** A guitar that needs a neck reset carries a $700 to $1,200 repair cost, which a buyer will account for.
 
 **Top cracks, especially through the bridge or along the seam.** Cleanly repaired and cleated cracks are livable. Open cracks and a bellied top are not, and a badly bellied Gibson top usually means the bridge plate is chewed up too.
 
@@ -376,7 +389,7 @@ The mid sixties guitar in these photos is the honest example. It has the prettie
 <figcaption><strong>This is what sixty years looks like.</strong> Heavy checking, a faded burst, and honest playing wear on the 1964. None of that is damage. It is a nitro finish that has shrunk at a different rate than the wood underneath it, and buyers who understand vintage guitars read it as a good sign rather than a bad one.</figcaption>
 </figure>
 
-<h2 id="five">The Five Guitars in These Photos</h2>
+<h2 id="five">The Five Guitars In These Photos</h2>
 
 For the record, since every photo above is one of these:
 
@@ -415,11 +428,11 @@ For the record, since every photo above is one of these:
 
 **How much is a vintage Gibson Hummingbird worth?**
 
-Anywhere from about $1,600 to $12,000 depending almost entirely on year and originality. Early sixties guitars with the wide nut and original finish sit at the top. Seventies guitars with block inlays sit at the bottom. Condition can move either of those by half in both directions.
+As of October 2026, asking ranges run from $1,500 to $11,000 for clean, original, structurally sound vintage Hummingbirds. The annual table separates early 1960s and later 1970s guitars. These aren't guaranteed selling prices or cash offers; bridge condition, repairs, originality and the case affect an appraisal.
 
 **What year did Gibson start making the Hummingbird?**
 
-1960. It was Gibson's first square shouldered dreadnought, and 156 shipped that first year.
+Gibson introduced the Hummingbird in 1960 as its first square shouldered dreadnought, and 156 shipped that first year.
 
 **How do I tell what year my Hummingbird is?**
 
@@ -474,3 +487,120 @@ If you own one, spend ten minutes with the eight checks above before you talk to
 If you inherited one and have no idea what it is, that is fine too. Send us the photos and we will tell you what you have.
 
 We buy, sell, and appraise vintage acoustics out of our shop in Mesa, Arizona. If you have a Hummingbird and want to know what it is worth, start with a [free appraisal](/free-appraisal/), or read how we handle a [Gibson sale](/sell-my-gibson-guitar/) if you are ready to move it. You can also just [get in touch](/contact-me/) and ask.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much is a vintage Gibson Hummingbird worth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As of October 2026, asking ranges run from $1,500 to $11,000 for clean, original, structurally sound vintage Hummingbirds. The annual table separates early 1960s and later 1970s guitars. These aren't guaranteed selling prices or cash offers; bridge condition, repairs, originality and the case affect an appraisal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What year did Gibson start making the Hummingbird?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gibson introduced the Hummingbird in 1960 as its first square shouldered dreadnought, and 156 shipped that first year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I tell what year my Hummingbird is?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Read the features before the serial. Fretboard inlays, bridge type and shape, tuner plating, neck construction, nut width, headstock pitch, and label style will get you to a two or three year window. Gibson’s sixties serial numbers were duplicated and run out of order, so the number confirms your answer rather than producing it. If there is no headstock number at all, look for an inked factory order number on the neck block: R is 1960, Q is 1961."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the scale length of a vintage Gibson Hummingbird?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Measure yours. Gibson settled on the 24 3/4 inch short scale in 1976 and every modern spec sheet repeats that number, but sixties examples are documented at both 24 3/4 and 25 1/2 inches. Nut to the center of the twelfth fret, doubled, and you have your answer in fifteen seconds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Did the first Hummingbirds have an adjustable bridge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The earliest ones have a fixed saddle. Gibson made the adjustable saddle standard during 1961 and it ran until 1970. So a plain fixed saddle on a 1960 is correct and original, while a plain fixed saddle on a 1965 usually means somebody converted it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the adjustable bridge bad? Should I convert mine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It gives up some volume and low end compared to a fixed saddle. On a guitar that has already been worked on, converting is a reasonable choice with a good tech. On a clean, all original early example, do not do it. You will take more off the value than you gain in tone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a Hummingbird and a J-45?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Square shoulders versus round, and trim. Both are mahogany with a spruce top. The Hummingbird is dressier and blooms more under a voice. The J-45 is plainer, drier, and the better all around recording guitar. One warning on the spec sheets: the J-45 is a reliable 24 3/4 inch short scale, while sixties Hummingbirds turn up at both 24 3/4 and 25 1/2. Measure before you assume they play the same."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are seventies Hummingbirds any good?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They are solid, well built guitars that sound tight because of the double X bracing, and they are the cheapest way into a real Kalamazoo Hummingbird. Buy one to play, not to invest."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the SECOND stamp on the headstock mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The guitar failed Gibson’s cosmetic inspection at the factory and was sold as a factory second at a lower price. It is not a structural rejection. It does reduce the value, and it should always be disclosed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Hummingbird Custom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A name Gibson put on the label in the early seventies. The guitar underneath is a standard Hummingbird. It is not a custom order and it is not a higher grade model."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My Hummingbird’s finish has faded from red to orange. Is that a problem?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Gibson’s cherry was fugitive and nearly all of them have lost some red. Plenty of buyers prefer the faded ones. What matters is that the finish is original."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are natural finish Hummingbirds worth more?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The early ones are, because they are rare. 97 of the 1,461 guitars Gibson shipped in 1963 were natural. Later natural examples are more common and price closer to the sunbursts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I get the top crack repaired before selling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ask first. A clean repair by a good luthier usually pays for itself. A cheap repair costs more than the crack did, and it cannot be undone. We will tell you honestly which one your guitar needs."
+      }
+    }
+  ]
+}
+</script>
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+For other flat-top models, my [Gibson acoustic value guide](/vintage-gibson-acoustic-value-guide/) compares the J-45, J-200, LG family and Hummingbird.

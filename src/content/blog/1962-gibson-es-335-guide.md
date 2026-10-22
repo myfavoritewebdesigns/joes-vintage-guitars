@@ -8,10 +8,13 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1962-gibson-es-335-guide/1962-gibson-es-335-cherry-scaled.jpg"
 heroImageAlt: "A 1962 Gibson ES-335 in Cherry finish. An example of the post war peak for Gibson electrics"
-metaDescription: "The 1962 Gibson ES-335 is a “transitional” model that sits between the 1950s dot-neck era and the block-inlay look. This guide covers the “Mickey Mouse” ear body shape, the shift from PAF to Patent Number pickups, and the details that determine 1962 vintage value. If you are looking for an appraisal or want to know what makes this “Golden Era” semi-hollow sound the way it does, here is why the 1962 ES-335 stays a collector favorite."
+metaDescription: "Identify 1962 Gibson ES-335 features, original parts and construction details. Compare dating clues, repairs and photographs from my archive."
 ogImage: "/images/blog/1962-gibson-es-335-guide/1962-gibson-es-335-cherry-scaled.jpg"
 wpId: 19065
 ---
+
+For current ranges and condition assumptions, see my [ES-335 value guide by year](/vintage-gibson-es-335-value-guide/).
+
 A pristine 1962 Gibson ES-335 showing the transition to block inlays while retaining the classic ‘Mickey Mouse’ ear cutaways and original Cherry nitrocellulose finish.
 
 The **1962 Gibson ES-335** is a “sweet spot” year for collectors. It marks the point where Gibson moved from the 1950s “dot neck” era into the **block inlay** look. This guide walks through the **1962 ES-335 specifications**, including the shift from **PAF humbuckers** to early **Patent Number pickups** and the final full year of the **“Mickey Mouse” ear** body shape. Whether you are trying to verify the **originality of a 1962 ES-335** or want a **vintage guitar appraisal**, these 1962-specific details are what determine the market value of the guitar.

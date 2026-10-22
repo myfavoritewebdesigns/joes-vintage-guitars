@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import PageHero from "../components/primitives/PageHero.astro";
+import GuideHero from '../components/GuideHero.astro';
+import guidePhoto from '../assets/images/sell-fender/1956-fender-stratocaster-sunburst-800x533.jpg';
 import Button from "../components/primitives/Button.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import FAQ from "../components/FAQ.astro";
@@ -18,7 +19,7 @@ import strat1965CandyAppleRed from "../assets/blog/what-a-serial-number-cant-tel
 import strat1965SilverUndercoat from "../assets/blog/what-a-serial-number-cant-tell-you/1965-fender-stratocaster-candy-apple-red-chip-silver-undercoat.jpg";
 
 const canonicalUrl = "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/";
-const articleDescription = "2026 Fender Stratocaster price guide with $12,000 to $220,000 values for 1954 to 1965 guitars by year, finish, condition, and originality.";
+const articleDescription = "Compare vintage Fender Stratocaster values from 1954 to 1965 by year, original finish, condition and parts, with photos and individual year price guides.";
 const articleImage = "https://www.joesvintageguitarsaz.com/images/og/vintage-fender-stratocaster-value-guide-v2.png";
 
 const structuredData: Record<string, unknown>[] = [
@@ -83,8 +84,8 @@ const drivers = [
 
 const prices = stratocasterYearGuides.flatMap((guide) => guide.year === "1965"
   ? [
-      { era: "1965, early small headstock", year: guide.year, sunburst: "$14,000 to $22,000", custom: "$18,000 to $44,000" },
-      { era: "1965, late large headstock", year: guide.year, sunburst: "$12,000 to $20,000", custom: "$16,000 to $36,000" },
+      { era: "1965, early small headstock", year: guide.year, sunburst: "$13,000 to $20,000", custom: "$17,000 to $40,000" },
+      { era: "1965, late large headstock", year: guide.year, sunburst: "$11,000 to $18,000", custom: "$15,000 to $33,000" },
     ]
   : [{ era: guide.year === "1954" ? "1954, first year" : guide.year, year: guide.year, sunburst: guide.standardRange, custom: guide.customRange }]
 );
@@ -135,7 +136,7 @@ const valueLosses = [
 ];
 
 const faqs = [
-  { q: "How much is a vintage Fender Stratocaster worth?", a: "It depends on the year, finish, and originality. An all-original 1954 to 1965 sunburst Stratocaster runs from about $12,000 to $220,000, and original custom-color finishes can be worth more than twice a sunburst from the same year." },
+  { q: "How much is a vintage Fender Stratocaster worth?", a: "It depends on the year, finish, and originality. An all-original 1954 to 1965 sunburst Stratocaster runs from about $11,000 to $198,000 and original custom-color finishes can be worth more than twice a sunburst from the same year." },
   { q: "What year Stratocaster is the most valuable?", a: "The 1954 debut year sits at the top of the market, and pre-CBS examples made before early 1965 bring the most. Values step down year by year from 1954, and a rare original custom color can outrun any sunburst of the same year." },
   { q: "How do I tell what year my Stratocaster is?", a: "Read the guitar before you read the serial. The headstock size and the logo put a Strat in a five-year window on sight, then the fingerboard, the dots, and the pickguard screw count narrow it to a year or two. My <a href=\"/fender-stratocaster-dating-guide/\">Stratocaster dating guide</a> runs all of it year by year. Confirm the answer with the neck date and pot codes, and run the number itself through my <a href=\"/fender-guitars-serial-number-guide/\">Fender serial number guide</a>." },
   { q: "Does a refinish or replaced parts hurt the value?", a: "Yes. A refinish can reduce a Stratocaster's value substantially, often by about half when compared with an equivalent all-original example. Replaced pickups, modified wiring, extra routes, tuners, pickguards, and other changed parts also affect value, but the deduction depends on the part, the quality of the work, and whether the original part is included." },
@@ -161,24 +162,14 @@ structuredData.push(faqSchema);
 ---
 
 <Layout
-  title="Vintage Fender Stratocaster Value Guide (1954–1965)"
+  title="Vintage Fender Stratocaster Value Guide (1954 To 1965)"
   description={articleDescription}
   canonical="/vintage-fender-stratocaster-value-guide/"
   ogImage={articleImage}
   ogImageAlt="Vintage Fender Stratocaster value guide covering pre-CBS guitars made from 1954 to 1965"
   structuredData={structuredData}
 >
-  <PageHero
-    eyebrow="Value Guide"
-    title="Vintage Fender Stratocaster Value Guide"
-    subhead="2026 price ranges for 1954 to 1965 Stratocasters, plus the finish, originality, and condition details that move the number."
-    subheadTag="p"
-    subheadHtml={true}
-    bgImage="/images/hero-background.jpg"
-  >
-    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
-    <Button slot="cta" href="/free-appraisal/fender/" variant="cream" size="lg">Fender Appraisal</Button>
-  </PageHero>
+  <GuideHero title="Vintage Fender Stratocaster Value Guide" image={guidePhoto} alt="Sunburst Fender Stratocaster with three white pickups in front of amplifiers" brand="Fender" eyebrow="Value Guide"><p>2026 price ranges for 1954 to 1965 Stratocasters, plus the finish, originality, and condition details that move the number.</p></GuideHero>
 
   <section class="vg-section" id="quick-answer">
     <div class="vg-inner vg-intro">
@@ -188,7 +179,7 @@ structuredData.push(faqSchema);
         <div class="vg-rule" aria-hidden="true"></div>
         <p class="vg-lede">
           An all-original 1954 to 1965 Fender Stratocaster in excellent condition can be worth about
-          <strong>$12,000 to $220,000</strong>. Original custom colors can bring substantially more than
+          <strong>$11,000 to $198,000</strong>. Original custom colors can bring substantially more than
           sunburst, while a refinish, changed pickups, extra body routes, or assembled parts can cut the number
           dramatically.
         </p>
@@ -613,6 +604,7 @@ structuredData.push(faqSchema);
   <FAQ faqs={faqs} mainTitle="FAQs:" subTitle="Vintage Stratocaster Values" sectionId="strat-value-faqs" headingLevel="h2" />
 
   <ContactSection />
+<section class="gap2-related-guides" style="max-width:860px;margin:36px auto;padding:24px"><p>For other models, my <a href="/vintage-fender-value-guide/">vintage Fender value guide</a> connects the electric guitar and bass comparisons.</p></section>
 </Layout>
 
 <style>

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-20",
+  "url": "/sell-my-fender-guitar/",
+  "change": "Add one contextual link to /vintage-fender-value-guide/ in existing valuation copy.",
+  "validation": {
+    "url": "/sell-my-fender-guitar/",
+    "title": "Sell My Fender Guitar | Joe's Vintage Guitars",
+    "count": 45,
+    "hubAnchors": [
+      "vintage Fender value guide"
+    ],
+    "photos": 18
+  },
+  "liveDiff": {
+    "url": "/sell-my-fender-guitar/",
+    "code": 0,
+    "output": [
+      "",
+      "[audit] Liveness-checking 21 asset URL(s) on local (img/picture/poster/iframe)...",
+      "",
+      "[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-16\\gap-2-action-plan-a-complete\\jvg-audit-fixes\\reports\\gap2-review-sell-my-fender-guitar-audit-2026-10-21T00-56-36-532Z.md",
+      "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+    ]
+  },
+  "dependency": "Publish with the Fender hub in PR #268. Preview integration contains both. No production merge."
+}

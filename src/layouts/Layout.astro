@@ -1,11 +1,15 @@
 ---
 import "../styles/global.css";
+import "../styles/guide-presentation.css";
+import guidePresentationPaths from '../data/gap2-presentation-paths.json';
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import FloatingCTAs from "../components/FloatingCTAs.astro";
 import { SITE_URL, SITE_NAME, LEGAL_NAME, contact, socialSameAs, imageLicense } from "../config/site";
 
 interface Props {
+  /** Optional brand-specific buying link for a reference library's footer. */
+  footerSellLink?: { label: string; href: string };
   /** Optional server-rendered body classes for page-specific layouts. */
   bodyClass?: string;
   /** Page title (defaults to homepage title). Sets <title> and og:title. */
@@ -38,6 +42,7 @@ interface Props {
 }
 
 const {
+  footerSellLink,
   bodyClass = "",
   title = "Joe's Vintage Guitars | We Buy Vintage Guitars Nationwide",
   description = "Sell your vintage guitar the easy way with Joe's Vintage Guitars. Get a free evaluation and get top dollar for your guitar today! Same day payment!",
@@ -480,7 +485,7 @@ if (structuredData) {
          meta, etc.). Pages add via `<link slot="head" ...>` or `<script slot="head" ...>` -->
     <slot name="head" />
   </head>
-  <body class={`min-h-screen overflow-x-hidden ${bodyClass}`.trim()}>
+  <body class={`min-h-screen overflow-x-hidden ${bodyClass} ${guidePresentationPaths.includes(Astro.url.pathname.replace(/\/$/, "") + "/") ? "gap2-guide-presentation" : ""}`.trim()}>
     <!-- The GTM <noscript> iframe was removed with the container. It only ever
          served no-JS visitors, and every tag it fronted is JS-dependent anyway. -->
 
@@ -493,12 +498,25 @@ if (structuredData) {
       <slot />
     </main>
 
-    <Footer />
+    <Footer sellLink={footerSellLink} />
     <FloatingCTAs />
 
     <!-- Shared submit handler for any <form data-jvg-contact-form>. -->
     <!-- One place to wire Mailgun when the CF Pages Function is added. -->
     <script src="../scripts/contact-form.ts"></script>
+    <script>
+      function keepGuideTocBelowHero() {
+        if (!document.body.classList.contains('gap2-guide-presentation')) return;
+        const toc = document.querySelector('.fspot-toc, .fshub-toc');
+        const hero = document.querySelector('[data-guide-hero], .fspot .hero');
+        if (!toc || !hero) return;
+        const update = () => toc.toggleAttribute('data-guide-toc-covered', hero.getBoundingClientRect().bottom > 120);
+        update();
+        new IntersectionObserver(update, {rootMargin: '-120px 0px 0px 0px'}).observe(hero);
+      }
+      keepGuideTocBelowHero();
+      document.addEventListener('astro:page-load', keepGuideTocBelowHero);
+    </script>
   </body>
 </html>
 

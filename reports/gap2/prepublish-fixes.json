@@ -1,0 +1,1328 @@
+{
+  "date": "2026-10-21",
+  "branch": "joe/gap2-complete-preview",
+  "previewOnly": true,
+  "baselinePreview": "22cb436c5f00c51d5bd1a6a804d9fee10cd0b34e",
+  "items": [
+    {
+      "id": "B1.1",
+      "topic": "Preview files",
+      "status": "fixed",
+      "resolution": "Moved both public preview index files to reports/gap2; neither ships in dist."
+    },
+    {
+      "id": "B1.2",
+      "topic": "Substitution grammar",
+      "status": "fixed",
+      "resolution": "Corrected an original in body, FAQs and schema; reviewed original/truly wording."
+    },
+    {
+      "id": "B1.3",
+      "topic": "Hummingbird repair",
+      "status": "fixed",
+      "resolution": "Restored neck reset cost $700 to $1,200."
+    },
+    {
+      "id": "B1.4a",
+      "topic": "J-200 catalog",
+      "status": "fixed",
+      "resolution": "Restored both $200 statements."
+    },
+    {
+      "id": "B1.4b",
+      "topic": "ES-125 catalog",
+      "status": "fixed",
+      "resolution": "Restored $125 origin and ES-100/150/175/300 naming explanation."
+    },
+    {
+      "id": "B1.4c",
+      "topic": "Junior catalog",
+      "status": "fixed",
+      "resolution": "Restored $99.50 Junior, $225 Goldtop, 1957 $120 and launch market context."
+    },
+    {
+      "id": "B1.4d",
+      "topic": "Byrdland catalog",
+      "status": "fixed",
+      "resolution": "Restored $550 sunburst and $565 natural in both passages."
+    },
+    {
+      "id": "B1.4e",
+      "topic": "J-45/J-50 catalog",
+      "status": "fixed",
+      "resolution": "Restored $45 origin and $5 natural-top premium."
+    },
+    {
+      "id": "B1.4f",
+      "topic": "Jaguar catalog",
+      "status": "fixed",
+      "resolution": "Restored $379.50 launch."
+    },
+    {
+      "id": "B1.4g",
+      "topic": "ES-355 catalog",
+      "status": "fixed",
+      "resolution": "Restored about 550 dollars."
+    },
+    {
+      "id": "B1.5",
+      "topic": "Public process copy",
+      "status": "fixed",
+      "resolution": "Removed research/process strings and revised negative I do not / I have not statements into direct descriptions; captions and metadata use my archive."
+    },
+    {
+      "id": "B1.6",
+      "topic": "Duplicate heroes",
+      "status": "fixed",
+      "resolution": "Removed repeated first body figures, including the Jazzmaster gold-guard hero and matching Strat/Tele figures; retained hero licensing."
+    },
+    {
+      "id": "B1.7",
+      "topic": "Bylines",
+      "status": "fixed",
+      "resolution": "Removed doubled bylines on all 21 brand spokes; retained update dates."
+    },
+    {
+      "id": "B1.8",
+      "topic": "Guild electric hero",
+      "status": "fixed",
+      "resolution": "Both electric/hardware routes use Joe's existing electric Starfire photograph, visually inspected."
+    },
+    {
+      "id": "B1.9",
+      "topic": "Fender seller actions",
+      "status": "fixed",
+      "resolution": "Restored Call Or Text Joe and on-page #appraisal action."
+    },
+    {
+      "id": "B1.10",
+      "topic": "Blog brand routing",
+      "status": "fixed",
+      "resolution": "Explicit reviewed brand map with null fallback; unknown brands are not silently assigned Gibson."
+    },
+    {
+      "id": "B2.1",
+      "topic": "Gibson inbound links",
+      "status": "fixed",
+      "resolution": "Contextual parent links from model guides, serial hub, seller page and LP market guide."
+    },
+    {
+      "id": "B2.2",
+      "topic": "Acoustic inbound links",
+      "status": "fixed",
+      "resolution": "Added all six requested incoming contextual links."
+    },
+    {
+      "id": "B2.3",
+      "topic": "LP family links",
+      "status": "fixed",
+      "resolution": "LP market links Custom, Junior and Special; each links back."
+    },
+    {
+      "id": "B2.4",
+      "topic": "ES links",
+      "status": "fixed",
+      "resolution": "Added 335 to 345/355; 345 and ES-5 to 335/355; 355 to 345."
+    },
+    {
+      "id": "B2.5",
+      "topic": "Fender hub",
+      "status": "fixed",
+      "resolution": "Strat and Tele contextual links added."
+    },
+    {
+      "id": "B2.6",
+      "topic": "Byrdland directory",
+      "status": "fixed",
+      "resolution": "Added own-photo Byrdland card and ended the missing-entry loop."
+    },
+    {
+      "id": "B2.7",
+      "topic": "Thinly linked models",
+      "status": "fixed",
+      "resolution": "Added relevant links from brand seller pages and neighboring guides; count unique referring sitemap pages inside main, excluding self-links."
+    },
+    {
+      "id": "B3.Mustang.1",
+      "topic": "Mustang",
+      "status": "fixed",
+      "resolution": "1968 Competition table and FAQ follow Joe's dating guide."
+    },
+    {
+      "id": "B3.Mustang.2",
+      "topic": "Mustang",
+      "status": "fixed",
+      "resolution": "Condition assumptions explain overlapping rounded tiers and late sunburst band."
+    },
+    {
+      "id": "B3.Mustang.3",
+      "topic": "Mustang",
+      "status": "fixed",
+      "resolution": "Whole-model opening restored."
+    },
+    {
+      "id": "B3.Mustang.4",
+      "topic": "Mustang",
+      "status": "fixed",
+      "resolution": "Desktop/mobile Values By Year placement corrected."
+    },
+    {
+      "id": "B3.Jaguar.1",
+      "topic": "Jaguar",
+      "status": "fixed",
+      "resolution": "Removed research-sample descriptions."
+    },
+    {
+      "id": "B3.Jaguar.2",
+      "topic": "Jaguar",
+      "status": "fixed",
+      "resolution": "Retained narrow 1966 to 1969 $4,000 to $4,500 band as explicitly permitted; no invented explanation."
+    },
+    {
+      "id": "B3.Jazzmaster.1",
+      "topic": "Jazzmaster",
+      "status": "fixed",
+      "resolution": "Parallel 1959 gold/tortoise labels, wrong gold premium removed."
+    },
+    {
+      "id": "B3.Jazzmaster.2",
+      "topic": "Jazzmaster",
+      "status": "fixed",
+      "resolution": "Removed false claim of separate numerical transition bands."
+    },
+    {
+      "id": "B3.Precision_Bass.1",
+      "topic": "Precision Bass",
+      "status": "fixed",
+      "resolution": "Explained single-coil contoured versus split-coil era."
+    },
+    {
+      "id": "B3.Precision_Bass.2",
+      "topic": "Precision Bass",
+      "status": "fixed",
+      "resolution": "Removed process and tweed-case disclaimer."
+    },
+    {
+      "id": "B3.Precision_Bass.3",
+      "topic": "Precision Bass",
+      "status": "fixed",
+      "resolution": "One amplifier exclusion remains."
+    },
+    {
+      "id": "B3.Jazz_Bass.1",
+      "topic": "Jazz Bass",
+      "status": "fixed",
+      "resolution": "Explained condition difference against P-Bass floor."
+    },
+    {
+      "id": "B3.Jazz_Bass.2",
+      "topic": "Jazz Bass",
+      "status": "fixed",
+      "resolution": "Inspected 1976 photo: bound maple board and block inlays visible."
+    },
+    {
+      "id": "B3.Fender_Hub.1",
+      "topic": "Fender Hub",
+      "status": "fixed",
+      "resolution": "First-person meta."
+    },
+    {
+      "id": "B3.Fender_Hub.2",
+      "topic": "Fender Hub",
+      "status": "fixed",
+      "resolution": "Jaguar card uses Olympic White."
+    },
+    {
+      "id": "B3.ES-330.1",
+      "topic": "ES-330",
+      "status": "fixed",
+      "resolution": "1959 sunburst only, cherry from 1960, including FAQ."
+    },
+    {
+      "id": "B3.ES-330.2",
+      "topic": "ES-330",
+      "status": "fixed",
+      "resolution": "1962 block-neck transitional configuration has an Individual Appraisal row; no borrowed price."
+    },
+    {
+      "id": "B3.ES-330.3",
+      "topic": "ES-330",
+      "status": "fixed",
+      "resolution": "Removed incorrect 1965 caption."
+    },
+    {
+      "id": "B3.ES-335.1",
+      "topic": "ES-335",
+      "status": "fixed",
+      "resolution": "1966/67/69 played-original and 1968 clean-original assumptions labeled in rows."
+    },
+    {
+      "id": "B3.ES-335.2",
+      "topic": "ES-335",
+      "status": "fixed",
+      "resolution": "Explained ES-330 versus ES-335 1970s condition/configuration differences."
+    },
+    {
+      "id": "B3.ES-335.3",
+      "topic": "ES-335",
+      "status": "fixed",
+      "resolution": "Removed source-process sentence and caption uses my archive."
+    },
+    {
+      "id": "B3.ES-355.1",
+      "topic": "ES-355",
+      "status": "fixed",
+      "resolution": "Removed percentage-process commentary."
+    },
+    {
+      "id": "B3.ES-355.2",
+      "topic": "ES-355",
+      "status": "fixed",
+      "resolution": "Reflector knob discussion qualified as replacement or late-1959/1960 possibility."
+    },
+    {
+      "id": "B3.ES-345.1",
+      "topic": "ES-345",
+      "status": "fixed",
+      "resolution": "1969 $6,500 to $11,000 and 1970 to 1972 $4,000 to $5,500 synchronized in prose."
+    },
+    {
+      "id": "B3.ES-345.2",
+      "topic": "ES-345",
+      "status": "fixed",
+      "resolution": "Refret no longer simultaneously promises all-original status and percentage deduction."
+    },
+    {
+      "id": "B3.ES-345.3",
+      "topic": "ES-345",
+      "status": "fixed",
+      "resolution": "Removed universal 335-outvalues-345 claim."
+    },
+    {
+      "id": "B3.ES-345.4",
+      "topic": "ES-345",
+      "status": "fixed",
+      "resolution": "1970s cherry/wine red scope stated."
+    },
+    {
+      "id": "B3.ES-5.1",
+      "topic": "ES-5",
+      "status": "fixed",
+      "resolution": "Removed missing modified/refinished column reference; points to separate prose comparisons."
+    },
+    {
+      "id": "B3.ES-5.2",
+      "topic": "ES-5",
+      "status": "fixed",
+      "resolution": "Header is Value Range."
+    },
+    {
+      "id": "B3.ES-125.1",
+      "topic": "ES-125",
+      "status": "fixed",
+      "resolution": "Neutral construction wording."
+    },
+    {
+      "id": "B3.ES-125.2",
+      "topic": "ES-125",
+      "status": "fixed",
+      "resolution": "Identification guide now consistently calls it hollow."
+    },
+    {
+      "id": "B3.SG_Special.1",
+      "topic": "SG Special",
+      "status": "fixed",
+      "resolution": "Removed walnut from 1967/1968."
+    },
+    {
+      "id": "B3.SG_Special.2",
+      "topic": "SG Special",
+      "status": "fixed",
+      "resolution": "Continuing production described with 593/549/232 late totals."
+    },
+    {
+      "id": "B3.SG_Junior.1",
+      "topic": "SG Junior",
+      "status": "fixed",
+      "resolution": "1962 lightning-bar bridge cue included."
+    },
+    {
+      "id": "B3.SG_Custom.1",
+      "topic": "SG Custom",
+      "status": "fixed",
+      "resolution": "1970 white requires individual appraisal, not nonexistent separate price."
+    },
+    {
+      "id": "B3.SG_Custom.2",
+      "topic": "SG Custom",
+      "status": "fixed",
+      "resolution": "Gold PAF persistence wording follows Joe."
+    },
+    {
+      "id": "B3.SG_Hub.1",
+      "topic": "SG Hub",
+      "status": "fixed",
+      "resolution": "1961 introduction wording."
+    },
+    {
+      "id": "B3.All_Five_SG_Pages.1",
+      "topic": "All Five SG Pages",
+      "status": "fixed",
+      "resolution": "Model-specific condition headings."
+    },
+    {
+      "id": "B3.All_Five_SG_Pages.2",
+      "topic": "All Five SG Pages",
+      "status": "fixed",
+      "resolution": "Per-year shipments added from Joe's shipping totals; not-listed is distinct from zero; finish subtotals combined where appropriate."
+    },
+    {
+      "id": "B3.LP_Custom.1",
+      "topic": "LP Custom",
+      "status": "fixed",
+      "resolution": "LP market guide link."
+    },
+    {
+      "id": "B3.LP_Custom.2",
+      "topic": "LP Custom",
+      "status": "fixed",
+      "resolution": "Visible FAQ links SG-shaped Customs to SG Custom guide; matching schema text."
+    },
+    {
+      "id": "B3.LP_Custom.3",
+      "topic": "LP Custom",
+      "status": "fixed",
+      "resolution": "Lowercase and in pickup description."
+    },
+    {
+      "id": "B3.LP_Junior.1",
+      "topic": "LP Junior",
+      "status": "fixed",
+      "resolution": "1961 double-cut described plainly, with 29 TV shipments."
+    },
+    {
+      "id": "B3.LP_Junior.2",
+      "topic": "LP Junior",
+      "status": "fixed",
+      "resolution": "1954 TV existence/scarcity noted."
+    },
+    {
+      "id": "B3.LP_Junior.3",
+      "topic": "LP Junior",
+      "status": "fixed",
+      "resolution": "Removed irrelevant 1979 FAQ."
+    },
+    {
+      "id": "B3.LP_Special.1",
+      "topic": "LP Special",
+      "status": "fixed",
+      "resolution": "Late-1958 double-cuts included."
+    },
+    {
+      "id": "B3.LP_Special.2",
+      "topic": "LP Special",
+      "status": "fixed",
+      "resolution": "1960 is a narrower overlapping band, not an automatic annual premium."
+    },
+    {
+      "id": "B3.LP_Special.3",
+      "topic": "LP Special",
+      "status": "fixed",
+      "resolution": "1975 Les Paul 55 explanation uses individual identification/appraisal rather than falsely asserting no production."
+    },
+    {
+      "id": "B3.Firebird.1",
+      "topic": "Firebird",
+      "status": "fixed",
+      "resolution": "303 total qualified for mixed 1965 configurations."
+    },
+    {
+      "id": "B3.Firebird.2",
+      "topic": "Firebird",
+      "status": "fixed",
+      "resolution": "XII, Medallion and Bicentennial in separate table."
+    },
+    {
+      "id": "B3.Firebird.3",
+      "topic": "Firebird",
+      "status": "fixed",
+      "resolution": "Condition assumption stated."
+    },
+    {
+      "id": "B3.Firebird.4",
+      "topic": "Firebird",
+      "status": "fixed",
+      "resolution": "Article headline matches title."
+    },
+    {
+      "id": "B3.L-5_CES.1",
+      "topic": "L-5 CES",
+      "status": "fixed",
+      "resolution": "Two Alnico V pickups verified in Gibson's 1956 electric catalog."
+    },
+    {
+      "id": "B3.L-5_CES.2",
+      "topic": "L-5 CES",
+      "status": "fixed",
+      "resolution": "PAF dates late 1957 to late 1962; spec table respects cutaway/pickup overlap."
+    },
+    {
+      "id": "B3.L-5_CES.3",
+      "topic": "L-5 CES",
+      "status": "fixed",
+      "resolution": "Removed rarity reversal."
+    },
+    {
+      "id": "B3.L-5_CES.4",
+      "topic": "L-5 CES",
+      "status": "fixed",
+      "resolution": "Hero alt corrected to rounded Venetian."
+    },
+    {
+      "id": "B3.L-5_CES.5",
+      "topic": "L-5 CES",
+      "status": "fixed",
+      "resolution": "Removed unsupported famous-player section."
+    },
+    {
+      "id": "B3.L-5_CES.6",
+      "topic": "L-5 CES",
+      "status": "fixed",
+      "resolution": "Removed process heading and sentences."
+    },
+    {
+      "id": "B3.L-5_CES.7",
+      "topic": "L-5 CES",
+      "status": "fixed",
+      "resolution": "L-5 versus Super 400 comparison flagged, no B3-driven repricing."
+    },
+    {
+      "id": "B3.Gibson_Hub.1",
+      "topic": "Gibson Hub",
+      "status": "fixed",
+      "resolution": "Super 400 card pointed Florentine caption."
+    },
+    {
+      "id": "B3.Gibson_Hub.2",
+      "topic": "Gibson Hub",
+      "status": "fixed",
+      "resolution": "ImageObject scripts moved outside card anchors using LicensedImage schema-only rendering."
+    },
+    {
+      "id": "B3.Acoustic_Hub.1",
+      "topic": "Acoustic Hub",
+      "status": "fixed",
+      "resolution": "Removed doubled Guitar in FAQ."
+    },
+    {
+      "id": "B3.Acoustic_Hub.2",
+      "topic": "Acoustic Hub",
+      "status": "fixed",
+      "resolution": "Removed process statements."
+    },
+    {
+      "id": "B3.Acoustic_Hub.3",
+      "topic": "Acoustic Hub",
+      "status": "fixed",
+      "resolution": "Clean-original FAQ aligned."
+    },
+    {
+      "id": "B3.Acoustic_Hub.4",
+      "topic": "Acoustic Hub",
+      "status": "fixed",
+      "resolution": "Hummingbird asking range labeled."
+    },
+    {
+      "id": "B3.Acoustic_Hub.5",
+      "topic": "Acoustic Hub",
+      "status": "fixed",
+      "resolution": "LG entries use era spans."
+    },
+    {
+      "id": "B3.J-45.1",
+      "topic": "J-45",
+      "status": "fixed",
+      "resolution": "1946 to 1949 separated from 1950 to 1954 $8,000 to $10,000."
+    },
+    {
+      "id": "B3.J-45.2",
+      "topic": "J-45",
+      "status": "fixed",
+      "resolution": "1955 bracing explanation."
+    },
+    {
+      "id": "B3.J-200.1",
+      "topic": "J-200",
+      "status": "fixed",
+      "resolution": "1965 $8,500 to $11,000 separated from 1966 to 1969 $6,000 to $8,000."
+    },
+    {
+      "id": "B3.J-200.2",
+      "topic": "J-200",
+      "status": "fixed",
+      "resolution": "Early postwar span 1947 to 1951; adjacent era reconciled."
+    },
+    {
+      "id": "B3.J-200.3",
+      "topic": "J-200",
+      "status": "fixed",
+      "resolution": "Meta revised within length limit."
+    },
+    {
+      "id": "B3.LG.1",
+      "topic": "LG",
+      "status": "fixed",
+      "resolution": "Meta within length limit."
+    },
+    {
+      "id": "B3.LG.2",
+      "topic": "LG",
+      "status": "fixed",
+      "resolution": "87 rows condensed into eight model/era rows."
+    },
+    {
+      "id": "B3.LG.3",
+      "topic": "LG",
+      "status": "fixed",
+      "resolution": "Wartime LG-1/3 and early postwar LG-3 require appraisal."
+    },
+    {
+      "id": "B3.LG.4",
+      "topic": "LG",
+      "status": "fixed",
+      "resolution": "Later LG-3 range no longer below equivalent LG-2; early premium unresolved."
+    },
+    {
+      "id": "B3.LG.5",
+      "topic": "LG",
+      "status": "fixed",
+      "resolution": "Early-1960s B-25 transition replaces arbitrary 1964 endpoint."
+    },
+    {
+      "id": "B3.LG.6",
+      "topic": "LG",
+      "status": "fixed",
+      "resolution": "Removed irrelevant 1979 FAQ."
+    },
+    {
+      "id": "B3.Hummingbird.1",
+      "topic": "Hummingbird",
+      "status": "fixed",
+      "resolution": "Neck reset cost restored."
+    },
+    {
+      "id": "B3.Hummingbird.2",
+      "topic": "Hummingbird",
+      "status": "fixed",
+      "resolution": "1969 late-1960s label."
+    },
+    {
+      "id": "B3.Hummingbird.3",
+      "topic": "Hummingbird",
+      "status": "fixed",
+      "resolution": "156 first-year shipments restored in visible FAQ and schema."
+    },
+    {
+      "id": "B3.Hummingbird.4",
+      "topic": "Hummingbird",
+      "status": "fixed",
+      "resolution": "Spec cues restored in annual rows."
+    },
+    {
+      "id": "B4.titles",
+      "topic": "Eight authentication titles",
+      "status": "fixed",
+      "resolution": "Retitled all eight with model/brand and dating or authentication terms, 50 to 60 characters; value links retained high in body."
+    },
+    {
+      "id": "B4.JaguarTitle",
+      "topic": "Jaguar",
+      "status": "fixed",
+      "resolution": "Authentication restored in title."
+    },
+    {
+      "id": "B4.JuniorMeta",
+      "topic": "Junior",
+      "status": "fixed",
+      "resolution": "Real meta description and full-length title."
+    },
+    {
+      "id": "B4.JuniorFAQs",
+      "topic": "Junior",
+      "status": "fixed",
+      "resolution": "Six non-price FAQs restored with headings and matching schema: weights, strings, headstock repair, player model, FON and UV."
+    },
+    {
+      "id": "B4.355",
+      "topic": "ES-355",
+      "status": "fixed",
+      "resolution": "Originality/collector heading replaces empty value promise; meta/excerpt and dead section reference corrected."
+    },
+    {
+      "id": "B4.125",
+      "topic": "ES-125",
+      "status": "fixed",
+      "resolution": "Generic Price Tiers heading renamed."
+    },
+    {
+      "id": "B4.Byrdland",
+      "topic": "Byrdland",
+      "status": "fixed",
+      "resolution": "Hub card now exists."
+    },
+    {
+      "id": "B4.JaguarPocket",
+      "topic": "Jaguar",
+      "status": "fixed",
+      "resolution": "Three neck-pocket reads; body date described separately, not in pocket."
+    },
+    {
+      "id": "B4.JaguarSealer",
+      "topic": "Jaguar",
+      "status": "fixed",
+      "resolution": "Fullerplast colorless, from about mid-1962."
+    },
+    {
+      "id": "B4.JaguarMute",
+      "topic": "Jaguar",
+      "status": "fixed",
+      "resolution": "Foam survival discussed without implying removal of the mute."
+    },
+    {
+      "id": "B4.JaguarRefinish",
+      "topic": "Jaguar",
+      "status": "fixed",
+      "resolution": "Refinish discussion supplies nail/paint-stick comparison method."
+    },
+    {
+      "id": "B4.PBassOrder",
+      "topic": "P-Bass",
+      "status": "fixed",
+      "resolution": "FAQ moved above copyright sign-off."
+    },
+    {
+      "id": "B4.PBassAlt",
+      "topic": "P-Bass",
+      "status": "fixed",
+      "resolution": "Alt says a pencil date on the body."
+    },
+    {
+      "id": "B4.SpecialDots",
+      "topic": "TV Special",
+      "status": "fixed",
+      "resolution": "Cream-colored celluloid dots replace pearl descriptions."
+    },
+    {
+      "id": "B4.PairedProcess",
+      "topic": "P-Bass/Jaguar/Jazz Bass",
+      "status": "fixed",
+      "resolution": "Removed paired-table process wording."
+    },
+    {
+      "id": "B5",
+      "topic": "Condition deductions",
+      "status": "fixed",
+      "resolution": "Percentage tables remain removed; public copy describes repair/refinish effects neutrally, without asserting percentages cannot apply."
+    }
+  ],
+  "flags": [
+    {
+      "id": "PRICE-REVIEW-L5",
+      "topic": "L-5 CES versus Super 400",
+      "status": "flagged for Joe",
+      "reason": "L-5 1951 to 1957 $18,000 to $25,000 remains above some Super 400 CES documented comps. Preserve L-5 range and factual sold comps; Part A only adjusts generic Super 400 estimates/asks."
+    },
+    {
+      "id": "PRICE-GAP-LG",
+      "topic": "Early LG-1/LG-3",
+      "status": "flagged for Joe",
+      "reason": "Wartime LG-1/3 and early postwar LG-3 lack supported comparable bands; show Individual Appraisal. Later LG-3 broad $3,500 to $8,000 is not a measured fixed premium."
+    },
+    {
+      "id": "PRICE-GAP-330",
+      "topic": "1962 ES-330 block neck",
+      "status": "flagged for Joe",
+      "reason": "Transition identified, but no independent block-neck 1962 band established; Individual Appraisal rather than copying 1963 onward."
+    },
+    {
+      "id": "PRICE-GAP-LP55",
+      "topic": "1975 Les Paul 55",
+      "status": "flagged for Joe",
+      "reason": "Explain model verification and separate appraisal; no unsupported 1975-specific range."
+    },
+    {
+      "id": "ROUNDING-MUSTANG",
+      "topic": "Mustang condition tiers",
+      "status": "flagged for Joe",
+      "reason": "Confirmed upward rounding retained; player and excellent CBS bands overlap at $1,500 to $2,000 and later sunburst ceiling is $2,500. Assumptions are explicit."
+    },
+    {
+      "id": "ROUNDING-PAF",
+      "topic": "Pickup and approximate amounts",
+      "status": "flagged for Joe",
+      "reason": "T-Top endpoints collapse to about $500. Approximate PAF/Flying V words normalized to approximate dollar values before applying the rule; see older-page-reduction.json."
+    }
+  ],
+  "sources": [
+    {
+      "claim": "1954 to 1957 L-5 CES two Alnico V pickups",
+      "publication": "Gibson Electric Instruments Catalog",
+      "year": 1956,
+      "url": "https://www.preservationsound.com/wp-content/uploads/2012/02/Gibson_Elec_1956_cat.pdf",
+      "location": "PDF page 2, L-5 CES section",
+      "verification": "Primary catalog examined; pickup positions at bridge and fingerboard and Alnico No. 5 magnets specified."
+    },
+    {
+      "claim": "SG shipments",
+      "publication": "Joe's Gibson Shipping Totals 1948 To 1979",
+      "url": "https://www.joesvintageguitarsaz.com/post/gibson-shipping-totals-1948-1979/",
+      "verification": "Existing source in repo; per-year model totals, including finish subtotals, used. Not-listed entries are not zero."
+    }
+  ],
+  "verification": {
+    "buildPages": 279,
+    "astro": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 87
+    },
+    "copyGate": {
+      "hardFailures": 0,
+      "warnings": 732
+    },
+    "crawledPages": 124,
+    "brokenLinks": 0,
+    "faqMismatches": 0,
+    "badMetadata": 0,
+    "processMatches": 0,
+    "aOriginal": 0,
+    "dashes": 0,
+    "previewArtifacts": [],
+    "responsiveChecks": 248,
+    "horizontalOverflow": 0,
+    "statusFailures": 0,
+    "priceConsistency": true,
+    "liveDiff": {
+      "pages": 124,
+      "expectedDifferences": 35,
+      "exceptions": "See intentionalLiveDiffExceptions and CLAUDE.md. All changed heading/image/schema inventories correspond to requested edits."
+    },
+    "hosted": "Confirm deployment after push; final hosted result retained in workspace."
+  },
+  "intentionalLiveDiffExceptions": [
+    "Removed duplicate first body images and their now-redundant ImageObject nodes.",
+    "Changed authentication H1s and value/process headings as explicitly requested.",
+    "Removed unsupported L-5 famous-player section.",
+    "Condensed repeated LG rows and removed irrelevant FAQs.",
+    "Made five SG repair headings model-specific and added shipment columns.",
+    "Firebird Article headline now matches visible title.",
+    "Retitles update related-card titles and can change automatic related-card selection.",
+    "Added Byrdland card/image metadata and moved card ImageObjects outside anchors.",
+    "Metadata length corrections apply to audited routes; brand-suffix change is scoped to reviewed post IDs.",
+    "Restored catalog statements and removed prohibited Super 400 inventory anecdote."
+  ],
+  "inboundLinks": {
+    "/vintage-fender-jaguar-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/vintage-fender-jaguar-guide/",
+        "/post/what-guitar-did-johnny-marr-play/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-jazz-bass-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/1973-fender-jazz-bass-vintera-iii/",
+        "/post/vintage-fender-jazz-bass-guide/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-jazzmaster-value-guide/": {
+      "count": 4,
+      "from": [
+        "/fender-jazzmaster-dating-guide/",
+        "/post/fender-jazzmaster-evolution-guide-1958-1971/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-precision-bass-value-guide/": {
+      "count": 3,
+      "from": [
+        "/post/1952-fender-precision-bass-guide/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-value-guide/": {
+      "count": 9,
+      "from": [
+        "/fender-guitars-serial-number-guide/",
+        "/post/fender-mustang-history-value/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-jaguar-value-guide/",
+        "/vintage-fender-jazz-bass-value-guide/",
+        "/vintage-fender-jazzmaster-value-guide/",
+        "/vintage-fender-precision-bass-value-guide/",
+        "/vintage-fender-stratocaster-value-guide/",
+        "/vintage-fender-telecaster-value-guide/"
+      ]
+    },
+    "/vintage-gibson-acoustic-value-guide/": {
+      "count": 7,
+      "from": [
+        "/post/identify-vintage-gibson-j45-j50-sj/",
+        "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+        "/post/vintage-gibson-hummingbird-history-value-guide/",
+        "/vintage-gibson-j-200-value-guide/",
+        "/vintage-gibson-j-45-value-guide/",
+        "/vintage-gibson-lg-series-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-es-125-value-guide/": {
+      "count": 3,
+      "from": [
+        "/post/gibson-es-125-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-es-330-value-guide/": {
+      "count": 3,
+      "from": [
+        "/gibson-es-330-dating-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-es-335-value-guide/": {
+      "count": 13,
+      "from": [
+        "/gibson-es-335-345-355-dating-guide/",
+        "/post/1959-gibson-es-335-authentication-guide/",
+        "/post/1962-gibson-es-335-guide/",
+        "/post/1965-gibson-es-335-short-maestro-vibrola/",
+        "/post/1966-gibson-es-335-authentication-guide/",
+        "/post/1968-gibson-es-335-guide/",
+        "/post/gibson-es-335-345-355-guide/",
+        "/post/gibson-es-345-history-value/",
+        "/post/gibson-es-5-switchmaster-history-value/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-es-330-value-guide/",
+        "/vintage-gibson-es-355-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-es-355-value-guide/": {
+      "count": 7,
+      "from": [
+        "/post/1959-gibson-es-355-history-value/",
+        "/post/gibson-es-345-history-value/",
+        "/post/gibson-es-5-switchmaster-history-value/",
+        "/post/what-guitar-did-johnny-marr-play/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-es-335-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-j-200-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/gibson-j200-model-history-authentication-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-acoustic-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-j-45-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/identify-vintage-gibson-j45-j50-sj/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-acoustic-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-les-paul-custom-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/norlin-les-paul-custom-year-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-market-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-les-paul-junior-value-guide/": {
+      "count": 5,
+      "from": [
+        "/post/gibson-les-paul-junior-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-market-value-guide/",
+        "/vintage-gibson-les-paul-special-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-les-paul-special-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-market-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-lg-series-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-acoustic-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-sg-custom-value-guide/": {
+      "count": 5,
+      "from": [
+        "/gibson-sg-dating-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-custom-value-guide/",
+        "/vintage-gibson-sg-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-sg-junior-value-guide/": {
+      "count": 5,
+      "from": [
+        "/gibson-sg-dating-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-junior-value-guide/",
+        "/vintage-gibson-sg-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-sg-special-value-guide/": {
+      "count": 5,
+      "from": [
+        "/gibson-sg-dating-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-special-value-guide/",
+        "/vintage-gibson-sg-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-sg-standard-value-guide/": {
+      "count": 4,
+      "from": [
+        "/gibson-sg-dating-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-sg-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-sg-value-guide/": {
+      "count": 7,
+      "from": [
+        "/gibson-sg-dating-guide/",
+        "/post/vintage-gibson-sg-family-guide/",
+        "/vintage-gibson-sg-custom-value-guide/",
+        "/vintage-gibson-sg-junior-value-guide/",
+        "/vintage-gibson-sg-special-value-guide/",
+        "/vintage-gibson-sg-standard-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-value-guide/": {
+      "count": 26,
+      "from": [
+        "/how-to-read-gibson-serial-numbers/",
+        "/post/gibson-byrdland-authentication-guide/",
+        "/post/gibson-es-345-history-value/",
+        "/post/gibson-es-5-switchmaster-history-value/",
+        "/post/gibson-firebird-history-authentication-value/",
+        "/post/gibson-l5-ces-value-guide/",
+        "/post/gibson-super-400-ces-history-authentication-value/",
+        "/post/vintage-gibson-hummingbird-history-value-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-acoustic-value-guide/",
+        "/vintage-gibson-es-125-value-guide/",
+        "/vintage-gibson-es-330-value-guide/",
+        "/vintage-gibson-es-335-value-guide/",
+        "/vintage-gibson-es-355-value-guide/",
+        "/vintage-gibson-j-200-value-guide/",
+        "/vintage-gibson-j-45-value-guide/",
+        "/vintage-gibson-les-paul-custom-value-guide/",
+        "/vintage-gibson-les-paul-junior-value-guide/",
+        "/vintage-gibson-les-paul-market-value-guide/",
+        "/vintage-gibson-les-paul-special-value-guide/",
+        "/vintage-gibson-lg-series-value-guide/",
+        "/vintage-gibson-sg-custom-value-guide/",
+        "/vintage-gibson-sg-junior-value-guide/",
+        "/vintage-gibson-sg-special-value-guide/",
+        "/vintage-gibson-sg-standard-value-guide/",
+        "/vintage-gibson-sg-value-guide/"
+      ]
+    },
+    "/vintage-fender-stratocaster-value-guide/": {
+      "count": 35,
+      "from": [
+        "/fender-body-dates/",
+        "/fender-guitars-serial-number-guide/",
+        "/fender-jaguar-dating-guide/",
+        "/fender-jazz-bass-dating-guide/",
+        "/fender-jazzmaster-dating-guide/",
+        "/fender-mustang-dating-guide/",
+        "/fender-neck-dates/",
+        "/fender-physical-features/",
+        "/fender-pickup-dates/",
+        "/fender-pot-codes/",
+        "/fender-precision-bass-dating-guide/",
+        "/fender-stratocaster-dating-guide/",
+        "/free-appraisal/fender/",
+        "/free-appraisal/",
+        "/how-to-spot-a-fake-fender/",
+        "/post/1966-fender-stratocaster-authentication-guide/",
+        "/post/1967-fender-stratocaster-authentication-guide/",
+        "/post/fender-custom-color-authentication-guide/",
+        "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+        "/sell-my-fender-guitar/",
+        "/sitemap/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/",
+        "/vintage-fender-stratocaster-value-guide/1954/",
+        "/vintage-fender-stratocaster-value-guide/1955/",
+        "/vintage-fender-stratocaster-value-guide/1956/",
+        "/vintage-fender-stratocaster-value-guide/1957/",
+        "/vintage-fender-stratocaster-value-guide/1958/",
+        "/vintage-fender-stratocaster-value-guide/1959/",
+        "/vintage-fender-stratocaster-value-guide/1960/",
+        "/vintage-fender-stratocaster-value-guide/1961/",
+        "/vintage-fender-stratocaster-value-guide/1962/",
+        "/vintage-fender-stratocaster-value-guide/1963/",
+        "/vintage-fender-stratocaster-value-guide/1964/",
+        "/vintage-fender-stratocaster-value-guide/1965/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-telecaster-value-guide/": {
+      "count": 40,
+      "from": [
+        "/fender-body-dates/",
+        "/fender-guitars-serial-number-guide/",
+        "/fender-jaguar-dating-guide/",
+        "/fender-jazz-bass-dating-guide/",
+        "/fender-jazzmaster-dating-guide/",
+        "/fender-mustang-dating-guide/",
+        "/fender-neck-dates/",
+        "/fender-physical-features/",
+        "/fender-pickup-dates/",
+        "/fender-precision-bass-dating-guide/",
+        "/fender-telecaster-dating-guide/",
+        "/free-appraisal/fender/",
+        "/free-appraisal/",
+        "/how-to-spot-a-fake-fender/",
+        "/post/fender-custom-color-authentication-guide/",
+        "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+        "/post/what-guitar-did-johnny-marr-play/",
+        "/sell-my-fender-guitar/",
+        "/sitemap/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/",
+        "/vintage-fender-esquire-value-guide/",
+        "/vintage-fender-telecaster-value-guide/1950-broadcaster/",
+        "/vintage-fender-telecaster-value-guide/1951-nocaster/",
+        "/vintage-fender-telecaster-value-guide/1951-telecaster/",
+        "/vintage-fender-telecaster-value-guide/1952/",
+        "/vintage-fender-telecaster-value-guide/1953/",
+        "/vintage-fender-telecaster-value-guide/1954/",
+        "/vintage-fender-telecaster-value-guide/1955/",
+        "/vintage-fender-telecaster-value-guide/1956/",
+        "/vintage-fender-telecaster-value-guide/1957/",
+        "/vintage-fender-telecaster-value-guide/1958/",
+        "/vintage-fender-telecaster-value-guide/1959/",
+        "/vintage-fender-telecaster-value-guide/1960/",
+        "/vintage-fender-telecaster-value-guide/1961/",
+        "/vintage-fender-telecaster-value-guide/1962/",
+        "/vintage-fender-telecaster-value-guide/1963/",
+        "/vintage-fender-telecaster-value-guide/1964/",
+        "/vintage-fender-telecaster-value-guide/1965/",
+        "/vintage-fender-telecaster-value-guide/1966-1968/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-esquire-value-guide/": {
+      "count": 30,
+      "from": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-neck-dates/",
+        "/fender-physical-features/",
+        "/fender-pot-codes/",
+        "/fender-telecaster-dating-guide/",
+        "/post/1952-fender-telecaster-authentication-guide/",
+        "/post/1959-fender-telecaster-authentication-guide/",
+        "/post/fender-custom-color-authentication-guide/",
+        "/sell-my-fender-guitar/",
+        "/sitemap/",
+        "/vintage-fender-telecaster-value-guide/1950-broadcaster/",
+        "/vintage-fender-telecaster-value-guide/1951-nocaster/",
+        "/vintage-fender-telecaster-value-guide/1951-telecaster/",
+        "/vintage-fender-telecaster-value-guide/1952/",
+        "/vintage-fender-telecaster-value-guide/1953/",
+        "/vintage-fender-telecaster-value-guide/1954/",
+        "/vintage-fender-telecaster-value-guide/1955/",
+        "/vintage-fender-telecaster-value-guide/1956/",
+        "/vintage-fender-telecaster-value-guide/1957/",
+        "/vintage-fender-telecaster-value-guide/1958/",
+        "/vintage-fender-telecaster-value-guide/1959/",
+        "/vintage-fender-telecaster-value-guide/1960/",
+        "/vintage-fender-telecaster-value-guide/1961/",
+        "/vintage-fender-telecaster-value-guide/1962/",
+        "/vintage-fender-telecaster-value-guide/1963/",
+        "/vintage-fender-telecaster-value-guide/1964/",
+        "/vintage-fender-telecaster-value-guide/1965/",
+        "/vintage-fender-telecaster-value-guide/1966-1968/",
+        "/vintage-fender-telecaster-value-guide/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-gibson-les-paul-market-value-guide/": {
+      "count": 37,
+      "from": [
+        "/free-appraisal/gibson/",
+        "/free-appraisal/",
+        "/gibson-headstock-logo-chronology/",
+        "/gibson-knob-dating-guide/",
+        "/gibson-les-paul-dating-guide/",
+        "/gibson-physical-features-hardware-guide/",
+        "/gibson-pot-codes/",
+        "/gibson-tuner-dating-guide/",
+        "/how-to-read-gibson-serial-numbers/",
+        "/how-to-spot-a-fake-gibson/",
+        "/post/1954-gibson-les-paul-goldtop-authentication-guide/",
+        "/post/1956-les-paul-goldtop-authentication-guide/",
+        "/post/1957-les-paul-goldtop-guide/",
+        "/post/1958-gibson-les-paul-standard-guide/",
+        "/post/1959-gibson-les-paul-standard-guide/",
+        "/post/1960-gibson-les-paul-standard-guide/",
+        "/post/1968-1969-1970-les-paul-custom-dating-guide/",
+        "/post/1968-gibson-les-paul-custom-guide/",
+        "/post/1969-gibson-les-paul-custom-guide/",
+        "/post/1970-gibson-les-paul-custom-guide/",
+        "/post/gibson-aldo-nova-les-paul-xpl-guide/",
+        "/post/gibson-les-paul-junior-guide/",
+        "/post/gibson-les-paul-tv-model-guide/",
+        "/post/gibson-paf-patent-number-pickup-guide/",
+        "/post/gibson-shipping-totals-1948-1979/",
+        "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+        "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+        "/post/norlin-les-paul-custom-year-guide/",
+        "/post/one-owner-1983-gibson-les-paul-custom/",
+        "/post/vintage-gibson-les-paul-family-guide/",
+        "/post/what-to-consider-when-selling-a-vintage-guitar/",
+        "/sell-my-gibson-guitar/",
+        "/sitemap/",
+        "/vintage-gibson-les-paul-custom-value-guide/",
+        "/vintage-gibson-les-paul-junior-value-guide/",
+        "/vintage-gibson-les-paul-special-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/fender-mustang-history-value/": {
+      "count": 7,
+      "from": [
+        "/blog/page/6/",
+        "/category/specific-model-highlights/page/3/",
+        "/fender-mustang-dating-guide/",
+        "/post/fender-jazzmaster-evolution-guide-1958-1971/",
+        "/post/vintage-fender-jaguar-guide/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/post/vintage-gibson-hummingbird-history-value-guide/": {
+      "count": 7,
+      "from": [
+        "/blog/page/5/",
+        "/category/specific-model-highlights/page/3/",
+        "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+        "/post/identify-vintage-gibson-j45-j50-sj/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-acoustic-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/gibson-es-345-history-value/": {
+      "count": 12,
+      "from": [
+        "/blog/page/5/",
+        "/category/specific-model-highlights/page/3/",
+        "/gibson-es-335-345-355-dating-guide/",
+        "/how-to-read-gibson-serial-numbers/",
+        "/post/1959-gibson-es-335-authentication-guide/",
+        "/post/gibson-es-335-345-355-guide/",
+        "/post/gibson-super-400-ces-history-authentication-value/",
+        "/post/one-owner-1966-gibson-es-345/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-es-335-value-guide/",
+        "/vintage-gibson-es-355-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/gibson-firebird-history-authentication-value/": {
+      "count": 7,
+      "from": [
+        "/blog/page/3/",
+        "/category/specific-model-highlights/page/2/",
+        "/gibson-pot-codes/",
+        "/gibson-tuner-dating-guide/",
+        "/how-to-read-gibson-serial-numbers/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/gibson-es-5-switchmaster-history-value/": {
+      "count": 5,
+      "from": [
+        "/blog/page/5/",
+        "/category/specific-model-highlights/page/3/",
+        "/post/gibson-super-400-ces-history-authentication-value/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/gibson-l5-ces-value-guide/": {
+      "count": 10,
+      "from": [
+        "/blog/page/9/",
+        "/category/specific-model-highlights/page/6/",
+        "/gibson-headstock-logo-chronology/",
+        "/post/1954-gibson-l5c-california-session-musician/",
+        "/post/gibson-es-5-switchmaster-history-value/",
+        "/post/gibson-super-400-ces-history-authentication-value/",
+        "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+        "/post/one-owner-1957-gibson-byrdland/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/gibson-super-400-ces-history-authentication-value/": {
+      "count": 13,
+      "from": [
+        "/blog/page/4/",
+        "/category/specific-model-highlights/page/2/",
+        "/post/1959-gibson-es-355-history-value/",
+        "/post/fender-pink-paisley-telecaster-guide/",
+        "/post/gibson-byrdland-authentication-guide/",
+        "/post/gibson-es-125-guide/",
+        "/post/gibson-es-5-switchmaster-history-value/",
+        "/post/gibson-l5-ces-value-guide/",
+        "/post/gibson-shipping-totals-1948-1979/",
+        "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+        "/post/one-owner-1957-gibson-byrdland/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    }
+  }
+}

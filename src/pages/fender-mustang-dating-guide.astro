@@ -1,4 +1,5 @@
 ---
+import GuideHero from "../components/GuideHero.astro";
 /**
  * Fender Mustang dating guide. SEVENTH OF THE MODEL-AXIS SPOKES.
  *
@@ -205,15 +206,15 @@ const faqs = [
   },
   {
     q: "Why Doesn't My Mustang Have A Slab Fingerboard?",
-    a: "Because it never should. Fender moved from the flat slab board to the curved veneer board in the middle of 1962, and the Mustang did not arrive until 1964, so a slab board was never a factory configuration on this model. Every vintage Mustang has the veneer board, which is curved on its underside where it meets the maple. If a Mustang in front of you genuinely has a slab board, the likeliest explanation is that the neck came from a different guitar.",
+    a: "Because it never should. Fender moved from the flat slab board to the curved veneer board in the middle of 1962, and the Mustang did not arrive until 1964, so a slab board was never a factory configuration on this model. Every vintage Mustang has the veneer board, which is curved on its underside where it meets the maple. If a Mustang in front of you truly has a slab board, the likeliest explanation is that the neck came from a different guitar.",
   },
   {
     q: "Is A Painted Headstock On A Competition Mustang Original?",
     a: "It can be, and on an early one it should be. The matching painted headstock ran from the introduction of the Competition finish into about 1969 or 1970, after which a natural, unpainted maple face became standard. So a painted headstock points at the early Competition years and a natural one points later. People often assume the painted headstock is the later, fancier option and it runs the other way, which is also why a 1969 with its original painted headstock sits above a later natural-headstock guitar on value.",
   },
   {
-    q: "What Is A Competition Mustang Worth Compared To A Standard One?",
-    a: "Quite a lot more, and the finish is the reason. In honest all-original condition a Competition guitar from 1969 to 1973 runs roughly $4,000 to $6,000, against roughly $1,600 to $2,200 for a CBS-era standard colour and $2,200 to $4,000 for a pre-CBS 1964 or 1965. Competition Orange is the rarest of the three colours and can run above that, and Competition Blue carries extra weight from the Nirvana association. Because the buyer is paying for the finish, a refinished Competition guitar loses most of the premium, which is a bigger gap than a refinish costs on a plain Mustang.",
+    q: "How Do I Identify A Competition Mustang?",
+    a: "A Competition Mustang has a factory racing stripe and the corresponding Competition finish. I compare the stripe, pickguard, headstock finish and dated parts to identify the configuration. A later stripe or a refinish doesn't establish an original Competition model.",
   },
   {
     q: "Did Fender Make A Competition Burgundy Mustang?",
@@ -271,7 +272,7 @@ const breadcrumbSchema = {
 
 <Layout
   title="How To Date A Fender Mustang: Year By Year Guide"
-  description="Date a vintage Fender Mustang from what you can see: headstock size, logo colour, the Dynamic Vibrato engraving, the pickguard pairing, and the Competition finishes, 1964 to 1982."
+  description="Date your vintage Fender Mustang by headstock, pickups, vibrato, guards and Competition finishes, with photographs and year-by-year identification clues."
   canonical={PAGE_PATH}
   ogImage={`${SITE_URL}${assetSrc(OG)}`}
   {...ogCardSize(OG)}
@@ -281,10 +282,7 @@ const breadcrumbSchema = {
   structuredData={[articleSchema, faqSchema, breadcrumbSchema]}
 >
   <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
-  <div class="fspot-header-backdrop" aria-hidden="true">
-    <div class="fspot-header-backdrop__dark"></div>
-    <div class="fspot-header-backdrop__cream"></div>
-  </div>
+  <GuideHero title="How To Date A Fender Mustang" image={bmeta(MUS, "1971-fender-mustang-competition-blue-front.jpg")} alt="Full front view of a 1971 Fender Competition Mustang in Competition Blue with a diagonal racing stripe and a pearloid pickguard" brand="Fender" caption="A Competition Mustang in Competition Blue. The stripe, the pearloid guard and the headstock finish together place a Competition guitar inside a couple of years." />
 
   <div class="fspot">
     <!-- HERO -->
@@ -292,9 +290,10 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <a class="back" href={HUB_HREF}>Back To The Full Fender Serial Guide</a>
         <span class="eyebrow">Fender Dating By Model</span>
-        <h1>How To Date A Fender Mustang</h1>
+
         <p class="lead">The Mustang landed in 1964, which is late enough that most of the checks people bring from a Stratocaster or a Telecaster do not apply to it. Slab boards were two years gone, the spaghetti logo era had closed, and clay dots were nearly out. What dates a Mustang instead is a set of parts that exist on no other Fender, plus a colour rule that tells you in one glance whether the pickguard belongs to the body. Here is the whole run, from the 1964 launch to the end in 1982.</p>
         <p class="jvg-guide-context">If you're new to dating guitars, the <a class="underline underline-offset-4" href="/how-old-is-my-guitar/">overview of serial numbers and parts dates</a> explains how to compare those clues.</p>
+        <p class="jvg-guide-context">For 1964 Fender Mustang value comparisons and the later production years, see my <a class="underline underline-offset-4" href="/post/fender-mustang-history-value/">Fender Mustang value guide</a>. This page covers the evidence for the year, finish and parts.</p>
         <div class="trust">
           <span>Joe Dampt</span><span>12 years buying vintage Fenders full-time</span><span>10,000+ appraised</span>
         </div>
@@ -302,10 +301,7 @@ const breadcrumbSchema = {
           <p class="hubcta__t"><b>Just after the serial number?</b> The full charts and the lookup tool that decodes a number for you are on the main guide.</p>
           <a class="hubcta__b" href={HUB_HREF}>Look Up A Serial Number</a>
         </div>
-        <figure class="sfig herofig">
-          <LicensedImage src={bmeta(MUS, "1971-fender-mustang-competition-blue-front.jpg")} alt="Full front view of a 1971 Fender Competition Mustang in Competition Blue with a diagonal racing stripe and a pearloid pickguard" width={1400} loading="eager" />
-          <figcaption>A Competition Mustang in Competition Blue. The stripe, the pearloid guard and the headstock finish together place a Competition guitar inside a couple of years.</figcaption>
-        </figure>
+
       </div>
     </section>
 
@@ -515,7 +511,7 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <span class="eyebrow">Two Sizes, One Model</span>
         <h2>Two Scales And A Nut Code</h2>
-        <p>Fender offered the Mustang in two scale lengths, a 22.5 inch short scale and a 24 inch medium scale. The 24 inch quickly became the standard and far outsold the other, so a genuine 22.5 inch example is the less usual find and can draw its own interest from buyers.</p>
+        <p>Fender offered the Mustang in two scale lengths, a 22.5 inch short scale and a 24 inch medium scale. The 24 inch quickly became the standard and far outsold the other, so an original 22.5 inch example is the less usual find and can draw its own interest from buyers.</p>
         <p>Nut width came with a letter code that appears in the neck stamp. <b>A</b> is the narrow 1 and 1/2 inch nut and <b>B</b> is the wider 1 and 5/8 inch, which is generally the more desirable of the two. Neither code dates the guitar, but a neck whose scale does not match the model is one of the signs that it came from somewhere else, or that the guitar was assembled from parts.</p>
       </div>
     </section>
@@ -627,7 +623,7 @@ const breadcrumbSchema = {
         <span class="eyebrow">Put It All Together</span>
         <h2>Confirm It From The Inside</h2>
         <p>The <a class="spoke" href="#heel">neck heel date</a> above is the one that gives you a month. Two more parts back it up. The <a class="spoke" href="/fender-pot-codes/">pot codes</a> date a potentiometer to the week, the tightest number anywhere on the guitar, though it is a floor rather than a build date because pots sat in bins. The <a class="spoke" href="/fender-pickup-dates/">pickup dates</a> corroborate when they are present. Original factory solder is even and consistent, so fresh or re-melted joints on a pickup lead, a pot or the jack say someone has been inside. For the parts view across every Fender model, work through <a class="spoke" href="/fender-physical-features/">dating a Fender by its parts</a>.</p>
-        <p>For the long version of this model, including the Competition colours, the Cobain chapter and the value ranges, the <a class="spoke" href="/post/fender-mustang-history-value/">vintage Fender Mustang guide</a> covers everything here at length. The sibling model pages built the same way as this one are the <a class="spoke" href="/fender-stratocaster-dating-guide/">Stratocaster</a>, <a class="spoke" href="/fender-telecaster-dating-guide/">Telecaster</a>, <a class="spoke" href="/fender-jazzmaster-dating-guide/">Jazzmaster</a>, <a class="spoke" href="/fender-jaguar-dating-guide/">Jaguar</a>, <a class="spoke" href="/fender-jazz-bass-dating-guide/">Jazz Bass</a> and <a class="spoke" href="/fender-precision-bass-dating-guide/">Precision Bass</a> dating guides.</p>
+        <p>The sibling model pages built the same way as this one are the <a class="spoke" href="/fender-stratocaster-dating-guide/">Stratocaster</a>, <a class="spoke" href="/fender-telecaster-dating-guide/">Telecaster</a>, <a class="spoke" href="/fender-jazzmaster-dating-guide/">Jazzmaster</a>, <a class="spoke" href="/fender-jaguar-dating-guide/">Jaguar</a>, <a class="spoke" href="/fender-jazz-bass-dating-guide/">Jazz Bass</a> and <a class="spoke" href="/fender-precision-bass-dating-guide/">Precision Bass</a> dating guides.</p>
         <p class="note-sm">This guide is one of the model pages behind the <a class="spoke" href={HUB_HREF}>full Fender serial number guide</a>, where the complete year-by-year serial charts live.</p>
       </div>
     </section>

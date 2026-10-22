@@ -1,0 +1,2482 @@
+[
+  {
+    "route": "/post/gibson-es-5-switchmaster-history-value/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "The Gibson ES-5 and ES-5 Switchmaster: History, Authentication, and Value",
+    "hero": 190
+  },
+  {
+    "route": "/post/gibson-es-345-history-value/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "The Gibson ES-345 Guide: History, Authentication, and Value of the Stereo Semi-Hollow",
+    "hero": 190
+  },
+  {
+    "route": "/post/fender-mustang-history-value/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "The Fender Mustang: History, Authentication, and Value",
+    "hero": 190
+  },
+  {
+    "route": "/post/gibson-es-5-switchmaster-history-value/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "The Gibson ES-5 and ES-5 Switchmaster: History, Authentication, and Value",
+    "hero": 332.359375
+  },
+  {
+    "route": "/post/gibson-es-345-history-value/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "The Gibson ES-345 Guide: History, Authentication, and Value of the Stereo Semi-Hollow",
+    "hero": 318
+  },
+  {
+    "route": "/post/gibson-l5-ces-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "The Gibson L-5 CES: A Guide To Gibson's Top Archtop",
+    "hero": 190
+  },
+  {
+    "route": "/post/gibson-firebird-history-authentication-value/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "The Gibson Firebird: History, Authentication, and Value",
+    "hero": 190
+  },
+  {
+    "route": "/post/fender-mustang-history-value/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "The Fender Mustang: History, Authentication, and Value",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/gibson-l5-ces-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "The Gibson L-5 CES: A Guide To Gibson's Top Archtop",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/gibson-firebird-history-authentication-value/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "The Gibson Firebird: History, Authentication, and Value",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/vintage-gibson-hummingbird-history-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson Hummingbird Guide: History, Specs, Year by Year Changes, and Value",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-fender-jaguar-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Fender Jaguar Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/post/vintage-gibson-hummingbird-history-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson Hummingbird Guide: History, Specs, Year by Year Changes, and Value",
+    "hero": 332.359375
+  },
+  {
+    "route": "/vintage-fender-jaguar-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Fender Jaguar Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-fender-jazz-bass-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Fender Jazz Bass Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-fender-jazzmaster-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Fender Jazzmaster Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-fender-precision-bass-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Fender Precision Bass Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-fender-jazz-bass-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Fender Jazz Bass Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-fender-jazzmaster-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Fender Jazzmaster Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-fender-precision-bass-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Fender Precision Bass Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-fender-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Fender Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-acoustic-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson Acoustic Guitar Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-es-125-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson ES-125 Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-fender-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Fender Value Guide",
+    "hero": 345.359375
+  },
+  {
+    "route": "/vintage-gibson-acoustic-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson Acoustic Guitar Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-es-125-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson ES-125 Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-es-330-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson ES-330 Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-es-335-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson ES-335 Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-es-355-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson ES-355 Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-es-330-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson ES-330 Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-es-335-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson ES-335 Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-es-355-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson ES-355 Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-j-200-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson J-200 Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-j-45-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson J-45 Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-les-paul-custom-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson Les Paul Custom Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-j-200-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson J-200 Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-j-45-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson J-45 Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-les-paul-custom-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson Les Paul Custom Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-les-paul-junior-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson Les Paul Junior Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-les-paul-special-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson Les Paul Special Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-lg-series-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson LG Series Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-les-paul-junior-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson Les Paul Junior Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-les-paul-special-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson Les Paul Special Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-sg-custom-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson SG Custom Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-sg-junior-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson SG Junior Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-lg-series-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson LG Series Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-sg-custom-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson SG Custom Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-sg-junior-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson SG Junior Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-sg-special-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson SG Special Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-sg-standard-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson SG Standard Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-sg-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson SG Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-sg-special-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson SG Special Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-sg-standard-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson SG Standard Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-sg-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson SG Value Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-gibson-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/fender-jazzmaster-dating-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "How To Date A Fender Jazzmaster",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-gibson-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson Value Guide",
+    "hero": 345.359375
+  },
+  {
+    "route": "/fender-jazzmaster-dating-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "How To Date A Fender Jazzmaster",
+    "hero": 395.46875
+  },
+  {
+    "route": "/fender-mustang-dating-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "How To Date A Fender Mustang",
+    "hero": 190
+  },
+  {
+    "route": "/gibson-es-330-dating-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gibson ES-330 Dating Guide",
+    "hero": 191.21875
+  },
+  {
+    "route": "/fender-guitars-serial-number-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 15,
+    "h1": "Fender Serial Number Lookup: Free Decoder & Dating Guide",
+    "hero": 190
+  },
+  {
+    "route": "/fender-mustang-dating-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "How To Date A Fender Mustang",
+    "hero": 395.46875
+  },
+  {
+    "route": "/gibson-es-330-dating-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gibson ES-330 Dating Guide",
+    "hero": 319.21875
+  },
+  {
+    "route": "/fender-guitars-serial-number-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 15,
+    "h1": "Fender Serial Number Lookup: Free Decoder & Dating Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/gibson-sg-dating-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gibson SG Dating Guide",
+    "hero": 190.28125
+  },
+  {
+    "route": "/gretsch-body-binding-and-inlays/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gretsch Body Shapes, Binding And Inlays",
+    "hero": 190
+  },
+  {
+    "route": "/gretsch-bridges-and-tailpieces/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gretsch Bridges, Bigsbys And Tailpieces",
+    "hero": 190
+  },
+  {
+    "route": "/gibson-sg-dating-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gibson SG Dating Guide",
+    "hero": 318.28125
+  },
+  {
+    "route": "/gretsch-body-binding-and-inlays/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gretsch Body Shapes, Binding And Inlays",
+    "hero": 360.671875
+  },
+  {
+    "route": "/gretsch-bridges-and-tailpieces/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gretsch Bridges, Bigsbys And Tailpieces",
+    "hero": 360.671875
+  },
+  {
+    "route": "/gretsch-finish-colors/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gretsch Finish Colors And Originality Checks",
+    "hero": 190
+  },
+  {
+    "route": "/gretsch-headstock-and-tuner-dating-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gretsch Headstocks, Logos And Tuners",
+    "hero": 190
+  },
+  {
+    "route": "/gretsch-knobs-and-controls/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gretsch Knobs, Switches And Control Layouts",
+    "hero": 190
+  },
+  {
+    "route": "/gretsch-finish-colors/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gretsch Finish Colors And Originality Checks",
+    "hero": 360.671875
+  },
+  {
+    "route": "/gretsch-headstock-and-tuner-dating-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gretsch Headstocks, Logos And Tuners",
+    "hero": 360.671875
+  },
+  {
+    "route": "/gretsch-knobs-and-controls/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gretsch Knobs, Switches And Control Layouts",
+    "hero": 360.671875
+  },
+  {
+    "route": "/gretsch-labels-and-serial-number-locations/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gretsch Labels And Serial Number Locations",
+    "hero": 190
+  },
+  {
+    "route": "/gretsch-pickup-dating-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gretsch Pickup Identification And Dating",
+    "hero": 190
+  },
+  {
+    "route": "/gretsch-vintage-vs-reissue/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gretsch Or Reissue? How To Tell",
+    "hero": 190
+  },
+  {
+    "route": "/gretsch-labels-and-serial-number-locations/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gretsch Labels And Serial Number Locations",
+    "hero": 360.671875
+  },
+  {
+    "route": "/gretsch-pickup-dating-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gretsch Pickup Identification And Dating",
+    "hero": 360.671875
+  },
+  {
+    "route": "/gretsch-vintage-vs-reissue/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gretsch Or Reissue? How To Tell",
+    "hero": 360.671875
+  },
+  {
+    "route": "/guild-acoustic-guitar-identification/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Guild Acoustic Guitar Identification Guide",
+    "hero": 190
+  },
+  {
+    "route": "/guild-electric-guitar-identification/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Guild Electric Guitar Identification Guide",
+    "hero": 190
+  },
+  {
+    "route": "/guild-factory-eras/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Guild Factory Eras And Serial Number Systems",
+    "hero": 190
+  },
+  {
+    "route": "/guild-acoustic-guitar-identification/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Guild Acoustic Guitar Identification Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/guild-factory-eras/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Guild Factory Eras And Serial Number Systems",
+    "hero": 360.671875
+  },
+  {
+    "route": "/guild-electric-guitar-identification/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Guild Electric Guitar Identification Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/guild-labels-and-serial-number-locations/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Guild Labels And Serial Number Locations",
+    "hero": 190
+  },
+  {
+    "route": "/guild-labels-and-serial-number-locations/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Guild Labels And Serial Number Locations",
+    "hero": 360.671875
+  },
+  {
+    "route": "/guild-model-prefix-serial-number-charts/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Guild Model Prefix Serial Number Charts",
+    "hero": 190
+  },
+  {
+    "route": "/guild-pickup-and-hardware-dating-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Guild Pickup And Hardware Dating Guide",
+    "hero": 190
+  },
+  {
+    "route": "/guild-vintage-vs-reissue/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Guild Vs. Reissue: How To Tell Them Apart",
+    "hero": 190
+  },
+  {
+    "route": "/guild-model-prefix-serial-number-charts/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Guild Model Prefix Serial Number Charts",
+    "hero": 360.671875
+  },
+  {
+    "route": "/guild-pickup-and-hardware-dating-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Guild Pickup And Hardware Dating Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/guild-vintage-vs-reissue/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Guild Vs. Reissue: How To Tell Them Apart",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1955 To 1958 TV Yellow Les Paul Special Dating Guide",
+    "hero": 190
+  },
+  {
+    "route": "/post/1959-gibson-es-335-authentication-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "The 1959 Gibson ES-335 Authentication Guide: Identifying the “Holy Grail” Semi-Hollow",
+    "hero": 190
+  },
+  {
+    "route": "/post/1952-fender-precision-bass-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1951 To 1953 Fender Precision Bass Slab-Body Dating Guide",
+    "hero": 190
+  },
+  {
+    "route": "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1955 To 1958 TV Yellow Les Paul Special Dating Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/1959-gibson-es-335-authentication-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "The 1959 Gibson ES-335 Authentication Guide: Identifying the “Holy Grail” Semi-Hollow",
+    "hero": 318
+  },
+  {
+    "route": "/post/1952-fender-precision-bass-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1951 To 1953 Fender Precision Bass Slab-Body Dating Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/1959-gibson-es-355-history-value/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1959 Gibson ES-355 History And Authentication Guide",
+    "hero": 190
+  },
+  {
+    "route": "/post/1962-gibson-es-335-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "The 1962 Gibson ES-335 Guide: Identifying the Block Inlay & Patent Number Transition",
+    "hero": 190
+  },
+  {
+    "route": "/post/1965-gibson-es-335-short-maestro-vibrola/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "A 1965 Gibson ES-335 With a Factory Short Maestro Vibrola",
+    "hero": 190
+  },
+  {
+    "route": "/post/1959-gibson-es-355-history-value/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1959 Gibson ES-355 History And Authentication Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/1962-gibson-es-335-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "The 1962 Gibson ES-335 Guide: Identifying the Block Inlay & Patent Number Transition",
+    "hero": 318
+  },
+  {
+    "route": "/post/1965-gibson-es-335-short-maestro-vibrola/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "A 1965 Gibson ES-335 With a Factory Short Maestro Vibrola",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/1966-gibson-es-335-authentication-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1966 Gibson ES-335 Authentication Guide: Patent Number Pickups, Trapeze Tailpiece & Every Pre-Norlin Detail",
+    "hero": 190
+  },
+  {
+    "route": "/post/1968-gibson-es-335-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1968 Gibson ES-335: Buyer’s & Collector’s Guide",
+    "hero": 190
+  },
+  {
+    "route": "/post/fender-jazzmaster-evolution-guide-1958-1971/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Fender Jazzmaster Evolution Guide: Every Spec Change From 1958 to 1971",
+    "hero": 190
+  },
+  {
+    "route": "/post/1966-gibson-es-335-authentication-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1966 Gibson ES-335 Authentication Guide: Patent Number Pickups, Trapeze Tailpiece & Every Pre-Norlin Detail",
+    "hero": 318
+  },
+  {
+    "route": "/post/1968-gibson-es-335-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1968 Gibson ES-335: Buyer’s & Collector’s Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/fender-jazzmaster-evolution-guide-1958-1971/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Fender Jazzmaster Evolution Guide: Every Spec Change From 1958 to 1971",
+    "hero": 332.359375
+  },
+  {
+    "route": "/post/gibson-byrdland-authentication-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson Byrdland Dating And Authentication Guide",
+    "hero": 190
+  },
+  {
+    "route": "/post/gibson-es-125-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson ES-125 Dating And Authentication Guide",
+    "hero": 190
+  },
+  {
+    "route": "/post/gibson-es-335-345-355-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gibson ES-335 vs. ES-345 vs. ES-355: What’s The Difference?",
+    "hero": 231.796875
+  },
+  {
+    "route": "/post/gibson-byrdland-authentication-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson Byrdland Dating And Authentication Guide",
+    "hero": 332.359375
+  },
+  {
+    "route": "/post/gibson-es-125-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson ES-125 Dating And Authentication Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/gibson-es-335-345-355-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gibson ES-335 vs. ES-345 vs. ES-355: What’s The Difference?",
+    "hero": 359.796875
+  },
+  {
+    "route": "/post/gibson-j200-model-history-authentication-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gibson J-200 Model Guide",
+    "hero": 229
+  },
+  {
+    "route": "/post/gibson-les-paul-junior-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gibson Les Paul Junior Dating And Authentication Guide",
+    "hero": 190
+  },
+  {
+    "route": "/post/identify-vintage-gibson-j45-j50-sj/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "How to Identify a Vintage Gibson J-45, J-50, and Southern Jumbo (SJ)",
+    "hero": 190
+  },
+  {
+    "route": "/post/gibson-les-paul-junior-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gibson Les Paul Junior Dating And Authentication Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/gibson-j200-model-history-authentication-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gibson J-200 Model Guide",
+    "hero": 340.5
+  },
+  {
+    "route": "/post/identify-vintage-gibson-j45-j50-sj/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "How to Identify a Vintage Gibson J-45, J-50, and Southern Jumbo (SJ)",
+    "hero": 332.359375
+  },
+  {
+    "route": "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson LG Series: A Guide to the LG-0, LG-1, LG-2, and LG-3 Models",
+    "hero": 190
+  },
+  {
+    "route": "/post/norlin-les-paul-custom-year-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gibson Les Paul Custom 1968 To 1986: Specs And Dating",
+    "hero": 190
+  },
+  {
+    "route": "/post/vintage-fender-jaguar-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Fender Jaguar Dating And Authentication Guide",
+    "hero": 190
+  },
+  {
+    "route": "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson LG Series: A Guide to the LG-0, LG-1, LG-2, and LG-3 Models",
+    "hero": 332.359375
+  },
+  {
+    "route": "/post/norlin-les-paul-custom-year-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gibson Les Paul Custom 1968 To 1986: Specs And Dating",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/vintage-fender-jaguar-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Fender Jaguar Dating And Authentication Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/post/vintage-fender-jazz-bass-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Fender Jazz Bass Dating And Identification Guide",
+    "hero": 190
+  },
+  {
+    "route": "/rickenbacker-body-binding-and-inlays/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Rickenbacker Body, Binding And Inlays",
+    "hero": 190
+  },
+  {
+    "route": "/post/vintage-gibson-sg-family-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson SG Models",
+    "hero": 243.640625
+  },
+  {
+    "route": "/post/vintage-fender-jazz-bass-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Fender Jazz Bass Dating And Identification Guide",
+    "hero": 332.359375
+  },
+  {
+    "route": "/rickenbacker-body-binding-and-inlays/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Rickenbacker Body, Binding And Inlays",
+    "hero": 360.671875
+  },
+  {
+    "route": "/rickenbacker-finish-colors/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Rickenbacker Finish Colors And Dating",
+    "hero": 190
+  },
+  {
+    "route": "/post/vintage-gibson-sg-family-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson SG Models",
+    "hero": 371.640625
+  },
+  {
+    "route": "/rickenbacker-knobs-and-controls/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Rickenbacker Knobs And Controls",
+    "hero": 190
+  },
+  {
+    "route": "/rickenbacker-finish-colors/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Rickenbacker Finish Colors And Dating",
+    "hero": 360.671875
+  },
+  {
+    "route": "/rickenbacker-pickup-dating-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Rickenbacker Pickup Dating Guide",
+    "hero": 190
+  },
+  {
+    "route": "/rickenbacker-knobs-and-controls/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Rickenbacker Knobs And Controls",
+    "hero": 360.671875
+  },
+  {
+    "route": "/rickenbacker-tailpiece-dating-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Rickenbacker Bridges And Tailpieces",
+    "hero": 190
+  },
+  {
+    "route": "/rickenbacker-pickup-dating-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Rickenbacker Pickup Dating Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/rickenbacker-tuner-dating-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Rickenbacker Tuner Dating Guide",
+    "hero": 190
+  },
+  {
+    "route": "/rickenbacker-tailpiece-dating-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Rickenbacker Bridges And Tailpieces",
+    "hero": 360.671875
+  },
+  {
+    "route": "/rickenbacker-tuner-dating-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Rickenbacker Tuner Dating Guide",
+    "hero": 360.671875
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Fender Stratocaster Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Fender Telecaster Value Guide",
+    "hero": 190
+  },
+  {
+    "route": "/sell-my-fender-guitar/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Sell Your Vintage Fender to a Buyer Who Knows What It Is",
+    "hero": 194.171875
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Fender Stratocaster Value Guide",
+    "hero": 336.671875
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Fender Telecaster Value Guide",
+    "hero": 336.671875
+  },
+  {
+    "route": "/sell-my-fender-guitar/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Sell Your Vintage Fender to a Buyer Who Knows What It Is",
+    "hero": 322.171875
+  },
+  {
+    "route": "/post/1958-gibson-les-paul-standard-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1958 Gibson Les Paul Standard: Value, Goldtop To Burst And Specs",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/1959-gibson-les-paul-standard-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1959 Gibson Les Paul Standard Burst: Value, Specs And PAFs",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/1960-gibson-les-paul-standard-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1960 Gibson Les Paul Standard: Value, Neck Changes And Specs",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/1958-gibson-les-paul-standard-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1958 Gibson Les Paul Standard: Value, Goldtop To Burst And Specs",
+    "hero": 332.40625
+  },
+  {
+    "route": "/post/1959-gibson-les-paul-standard-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1959 Gibson Les Paul Standard Burst: Value, Specs And PAFs",
+    "hero": 332.40625
+  },
+  {
+    "route": "/post/1960-gibson-les-paul-standard-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1960 Gibson Les Paul Standard: Value, Neck Changes And Specs",
+    "hero": 332.40625
+  },
+  {
+    "route": "/post/1968-gibson-les-paul-custom-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1968 Gibson Les Paul Custom: Specs, Dating And Value",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/1969-gibson-les-paul-custom-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1969 Gibson Les Paul Custom: Early And Late Specs",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/1973-fender-jazz-bass-vintera-iii/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Original Owner, Original Bass: A ’73 Jazz Bass Meets the Vintera III",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/1968-gibson-les-paul-custom-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1968 Gibson Les Paul Custom: Specs, Dating And Value",
+    "hero": 332.40625
+  },
+  {
+    "route": "/post/1969-gibson-les-paul-custom-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1969 Gibson Les Paul Custom: Early And Late Specs",
+    "hero": 332.40625
+  },
+  {
+    "route": "/post/1973-fender-jazz-bass-vintera-iii/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Original Owner, Original Bass: A ’73 Jazz Bass Meets the Vintera III",
+    "hero": 332.40625
+  },
+  {
+    "route": "/post/gibson-flying-v-medallion-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "The 1971 Gibson Flying V 'Medallion': History, Specs, and How to Spot a Real One",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/gibson-paf-patent-number-pickup-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gibson PAF and Patent Number Pickups: History, Authentication, and Value",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/gibson-super-400-ces-history-authentication-value/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson Super 400 Value Guide: 1934 to 1969",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/gibson-flying-v-medallion-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "The 1971 Gibson Flying V 'Medallion': History, Specs, and How to Spot a Real One",
+    "hero": 332.40625
+  },
+  {
+    "route": "/post/gibson-paf-patent-number-pickup-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gibson PAF and Patent Number Pickups: History, Authentication, and Value",
+    "hero": 332.40625
+  },
+  {
+    "route": "/post/gibson-super-400-ces-history-authentication-value/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson Super 400 Value Guide: 1934 to 1969",
+    "hero": 332.40625
+  },
+  {
+    "route": "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson Guitar Value by Year: Which Eras Are Worth the Most?",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/what-guitar-did-johnny-marr-play/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "What Guitar Did Johnny Marr Play? The Smiths ES-355, The 330, And The Rest",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/what-to-consider-when-selling-a-vintage-guitar/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "What To Consider When Selling A Vintage Guitar",
+    "hero": 276.40625
+  },
+  {
+    "route": "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson Guitar Value by Year: Which Eras Are Worth the Most?",
+    "hero": 332.40625
+  },
+  {
+    "route": "/post/what-guitar-did-johnny-marr-play/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "What Guitar Did Johnny Marr Play? The Smiths ES-355, The 330, And The Rest",
+    "hero": 332.40625
+  },
+  {
+    "route": "/post/what-to-consider-when-selling-a-vintage-guitar/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "What To Consider When Selling A Vintage Guitar",
+    "hero": 332.40625
+  },
+  {
+    "route": "/rickenbacker-serial-numbers/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Rickenbacker Serial Number Lookup",
+    "hero": 413.1875
+  },
+  {
+    "route": "/rickenbacker-serial-numbers/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Rickenbacker Serial Number Lookup",
+    "hero": 315.234375
+  },
+  {
+    "route": "/how-to-read-gibson-serial-numbers/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Gibson Serial Number Lookup",
+    "hero": 160
+  },
+  {
+    "route": "/vintage-fender-esquire-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Fender Esquire Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/sell-my-gibson-guitar/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Sell Your Vintage Gibson to a Buyer Who Knows What It Is",
+    "hero": 263.59375
+  },
+  {
+    "route": "/vintage-fender-esquire-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Fender Esquire Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/how-to-read-gibson-serial-numbers/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Gibson Serial Number Lookup",
+    "hero": 423.640625
+  },
+  {
+    "route": "/sell-my-gibson-guitar/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Sell Your Vintage Gibson to a Buyer Who Knows What It Is",
+    "hero": 375.78125
+  },
+  {
+    "route": "/vintage-gibson-les-paul-market-value-guide/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "Vintage Gibson Les Paul Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1954/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1954 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1955/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1955 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-gibson-les-paul-market-value-guide/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "Vintage Gibson Les Paul Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1954/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1954 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1955/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1955 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1956/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1956 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1957/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1957 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1958/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1958 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1956/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1956 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1957/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1957 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1958/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1958 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1959/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1959 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1960/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1960 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1961/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1961 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1959/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1959 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1960/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1960 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1961/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1961 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1962/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1962 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1963/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1963 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1964/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1964 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1962/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1962 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1963/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1963 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1964/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1964 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1965/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1965 Fender Stratocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1950-broadcaster/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1950 Fender Broadcaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1951-nocaster/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1951 Fender Nocaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1965/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1965 Fender Stratocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1950-broadcaster/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1950 Fender Broadcaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1951-nocaster/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1951 Fender Nocaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1951-telecaster/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1951 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1952/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1952 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1953/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1953 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1951-telecaster/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1951 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1952/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1952 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1953/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1953 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1954/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1954 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1955/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1955 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1956/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1956 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1954/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1954 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1955/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1955 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1956/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1956 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1957/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1957 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1958/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1958 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1959/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1959 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1957/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1957 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1958/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1958 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1959/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1959 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1960/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1960 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1961/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1961 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1962/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1962 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1960/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1960 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1961/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1961 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1962/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1962 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1963/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1963 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1964/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1964 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1965/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1965 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1963/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1963 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1964/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1964 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1965/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1965 Fender Telecaster Value Guide",
+    "hero": 320.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1966-1968/",
+    "width": 375,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 375,
+    "images": 0,
+    "h1": "1966, 1967 and 1968 Fender Telecaster Value Guide",
+    "hero": 176.5
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1966-1968/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "bodyWidth": 1440,
+    "images": 0,
+    "h1": "1966, 1967 and 1968 Fender Telecaster Value Guide",
+    "hero": 320.5
+  }
+]

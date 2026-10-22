@@ -1,18 +1,57 @@
 ---
 title: "The Gibson ES-5 and ES-5 Switchmaster: History, Authentication, and Value"
+seoTitle: "Gibson ES-5 Switchmaster Value Guide"
 pubDate: "2026-07-13T12:00:00"
-modified: "2026-07-13T12:00:00"
+modified: "2026-10-19T12:00:00-07:00"
 excerpt: "The Gibson ES-5 was the first production Spanish electric with three pickups, a plush cousin of the L-5 that Gibson sold as the instrument of a thousand voices. This guide covers where it came from, how the original three-P-90 ES-5 became the four-way ES-5 Switchmaster, how the Switchmaster moved to three PAF humbuckers, and how we date, authenticate, and value each one. Every photo is a real ES-5 from our shop, including a 1953 original and a 1958 PAF Switchmaster."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-es-5-switchmaster-history-value/1953-gibson-es-5-sunburst-front.jpg"
 heroImageAlt: "Front of a 1953 Gibson ES-5 in sunburst with three dog-ear P-90 pickups and its original finish, resting in its pink-lined case. We buy vintage Gibson archtops nationwide at Joe's Vintage Guitars."
-metaDescription: "The complete vintage Gibson ES-5 and ES-5 Switchmaster guide: three-P-90 versus PAF humbucker eras, the four-way switch, serial and FON dating, refinish and mod red flags, and what each version is worth."
+metaDescription: "Vintage Gibson ES-5 and Switchmaster values by year, with P-90 and PAF asking ranges, original finish, repairs, dating details and photos from my shop."
 ogImage: "/images/blog/gibson-es-5-switchmaster-history-value/1953-gibson-es-5-sunburst-front.jpg"
 ---
+The asking range for an all-original, excellent sunburst Gibson ES-5 is $7,500 to $18,000 across the original P-90 and Switchmaster versions. A three-PAF Switchmaster sits at $13,000 to $18,000, while the earlier three-P-90 ES-5 sits at $7,500 to $12,000. I identify the pickups and construction before assessing condition and repairs.
+
+<h2 id="es5-value">Gibson ES-5 And Switchmaster Values By Year</h2>
+
+As of October 2026, these are asking ranges for all-original, excellent sunburst guitars. They aren't guaranteed selling prices or cash offers, and I assess original-case completeness separately. Pickup changes overlap calendar years, so 1957 and 1960 each have more than one configuration row.
+
+| Year | Version | Value Range |
+| --- | --- | --- |
+| 1949 | Original ES-5, Three P-90s | $7,500 to $12,000 |
+| 1950 | Original ES-5, Three P-90s | $7,500 to $12,000 |
+| 1951 | Original ES-5, Three P-90s | $7,500 to $12,000 |
+| 1952 | Original ES-5, Three P-90s | $7,500 to $12,000 |
+| 1953 | Original ES-5, Three P-90s | $7,500 to $12,000 |
+| 1954 | Original ES-5, Three P-90s | $7,500 to $12,000 |
+| 1955 | Switchmaster, Three P-90s | $8,500 to $13,000 |
+| 1956 | Switchmaster, Three P-90s | $8,500 to $13,000 |
+| 1957 | Switchmaster, Three P-90s | $8,500 to $13,000 |
+| 1957 | Switchmaster, Three PAFs | $13,000 to $18,000 |
+| 1958 | Switchmaster, Three PAFs | $13,000 to $18,000 |
+| 1959 | Switchmaster, Three PAFs | $13,000 to $18,000 |
+| 1960 | Rounded Cutaway, Three PAFs | $13,000 to $18,000 |
+| 1960 | Florentine Cutaway | $11,000 to $16,000 |
+| 1961 | Florentine Cutaway | $11,000 to $16,000 |
+| 1962 | Florentine Cutaway | $11,000 to $16,000 |
+
+The original run covered here ends in 1962. Later reissues need their own appraisals, so there are no original-run rows for 1963 through 1979. Modified or refinished guitars have asking ranges of $4,500 to $7,000 for the original P-90 ES-5, $5,500 to $8,000 for a P-90 Switchmaster, $8,500 to $12,000 for a rounded-cutaway PAF Switchmaster, and $7,500 to $10,000 for a Florentine example.
+
+A few things sit outside the table. The natural, or blonde, finish carries a strong premium over sunburst, often something like 30 to 60 percent, because far fewer were made, and a clean natural PAF Switchmaster can ask into the low twenty thousands. Three original PAFs, an original case, and documented history all push a guitar toward the top of its range, while a refinish, replaced pickups, a converted tailpiece, or a headstock repair pull it down. One honest caveat: the ES-5 market is thin, asking prices vary widely from dealer to dealer, and those asks generally run ahead of what guitars actually sell for. We have seen comparable 1958 sunburst PAF Switchmasters listed anywhere from twelve to eighteen thousand dollars, which tells you how much the specific guitar matters.
+
+One more honest thing, and this one is about our own guitar. The 1958 Switchmaster in these photos has been refinished. We are showing it on purpose, as a case study, because the best way to learn what a refinish costs is to see one sitting right next to an original finish, which is exactly what our 1953 ES-5 gives you. A refinish does not ruin a guitar, and this is still a real three-humbucker Switchmaster, but it moves our 1958 out of the all-original range and into the modified or refinished condition group discussed in the prose above, which on a guitar like this is a difference of thousands of dollars. That gap, living inside a single instrument, is the whole reason we tell people never to refinish a vintage guitar.
+
+![Back of a refinished 1958 Gibson ES-5 Switchmaster in sunburst showing figured maple.](../../assets/blog/gibson-es-5-switchmaster-history-value/1958-gibson-es-5-switchmaster-sunburst-back.jpg)
+
+The figured maple back of our refinished 1958. Set its finish against the original nitrocellulose on our 1953 ES-5: an original finish of this age shows fine checking, softened color, and honest wear that a fresh refinish almost never reproduces convincingly. Training your eye on that difference is one of the most valuable skills in vintage guitars.
+
+Here is the context that makes the ES-5 so interesting to value. It is the most affordable way into a real three-pickup, gold-hardware, L-5-cosmetic Gibson archtop with original PAFs. It sits a clear step below the carved-top L-5CES and [Super 400CES](/post/gibson-super-400-ces-history-authentication-value/), but above the plainer laminated archtops like the [Gibson ES-175](/post/gibson-es-175-evolution-and-specifications/) and the ES-350. Gibson built only around 1,400 ES-5s of all types across the entire 1949 to 1962 run, split roughly two to one between the original and the Switchmaster, which makes any of them truly scarce next to the tens of thousands of ES-175s that left Kalamazoo.
+
 <nav class="es5-nav-sidebar" id="es5NavSidebar" aria-label="Article section navigation">
-  <div class="es5-nav-header"><strong>ES-5 Guide</strong></div>
+  <a href="#es5-value" class="es5-nav-link"><span class="es5-nav-dot"></span>Values By Year</a>
+<div class="es5-nav-header"><strong>ES-5 Guide</strong></div>
   <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="es5-nav-link top">&uarr; Top of Page</a>
   <div class="es5-nav-label">The Guitar</div>
   <a href="#es5-what" class="es5-nav-link"><span class="es5-nav-dot"></span>The Short Version</a>
@@ -29,7 +68,7 @@ ogImage: "/images/blog/gibson-es-5-switchmaster-history-value/1953-gibson-es-5-s
   <a href="#es5-mods" class="es5-nav-link"><span class="es5-nav-dot"></span>Mods and Red Flags</a>
   <a href="#es5-checklist" class="es5-nav-link"><span class="es5-nav-dot"></span>The Checklist</a>
   <div class="es5-nav-label">Value</div>
-  <a href="#es5-value" class="es5-nav-link"><span class="es5-nav-dot"></span>What It Is Worth</a>
+
   <a href="#es5-reissue" class="es5-nav-link"><span class="es5-nav-dot"></span>Vintage or Reissue</a>
   <a href="#es5-selling" class="es5-nav-link"><span class="es5-nav-dot"></span>Thinking of Selling</a>
   <a href="#es5-faq" class="es5-nav-link"><span class="es5-nav-dot"></span>FAQ</a>
@@ -109,13 +148,13 @@ The four positions on the switch are the thing to understand, because they are n
 
 The four-way Switchmaster switch on our 1958, with the engraving reading toward All on the right. Positions one, two, and three select each pickup on its own, and All turns on the whole trio. This switch and the second row of knobs are what separate a Switchmaster from the original ES-5, and they are the fastest way to tell the two apart.
 
-<h2 id="es5-humbuckers">From P-90s to PAF Humbuckers</h2>
+<h2 id="es5-humbuckers">From P-90s To PAF Humbuckers</h2>
 
 The change that matters most to value came during 1957, when the Switchmaster traded its three P-90s for three of Gibson's new PAF humbuckers. This is the same Patent Applied For humbucker that made the late-1950s Les Paul famous, and putting three of them on one guitar turned a refined jazz box into something that could rock. A 1958 like ours, with three humbuckers and the round cutaway, sits right in the sweet spot that collectors want.
 
 ![Three humbucker pickups and six gold knobs on a 1958 Gibson ES-5 Switchmaster in sunburst.](../../assets/blog/gibson-es-5-switchmaster-history-value/1958-gibson-es-5-switchmaster-humbuckers-gold-knobs.jpg)
 
-Our 1958 Switchmaster: three humbuckers up top, six gold knobs down on the treble bout, a gold tune-o-matic on a rosewood base, and the wavy wire tailpiece. Three genuine PAFs on one guitar is the single biggest thing driving value on a late-1950s Switchmaster, and it is also, sadly, the reason so many have been taken apart.
+Our 1958 Switchmaster: three humbuckers up top, six gold knobs down on the treble bout, a gold tune-o-matic on a rosewood base, and the wavy wire tailpiece. Three original PAFs on one guitar is the single biggest thing driving value on a late-1950s Switchmaster, and it is also, sadly, the reason so many have been taken apart.
 
 There is a hard truth attached to those three humbuckers. Because PAFs are so valuable in a Les Paul, many Switchmasters have been quietly stripped of their pickups over the years, the PAFs sold off to a Les Paul owner and cheaper humbuckers dropped in. Every intact three-PAF Switchmaster that survives with its original pickups is a little rarer than it was the year before. That makes an honest, unmolested example like a real prize, and it makes verifying the pickups the most important job in appraising one. If you want the deep dive on dating and authenticating the pickups themselves, our [Gibson PAF and Patent Number pickup guide](/post/gibson-paf-patent-number-pickup-guide/) is the companion to this section.
 
@@ -133,19 +172,19 @@ The headstock wears the Gibson logo and a pearl crown inlay, sometimes called th
 
 Large pearl block markers on a bound, pointed-end rosewood fingerboard, the same appointments on both our guitars five years apart. Along with the crown headstock, the multi-ply binding, and the gold hardware, these blocks are the L-5-grade dress that made the ES-5 a flagship. The 25.5-inch scale is standard Gibson, and the neck is a three-piece maple design.
 
-<h2 id="es5-timeline">Year by Year</h2>
+<h2 id="es5-timeline">Year By Year</h2>
 
 The ES-5 changed in a handful of clear, datable steps. Knowing them is how you place a guitar in its era and catch one that has been assembled from mismatched parts.
 
-<h3>1949 to 1954: The Original ES-5</h3>
+<h3>1949 To 1954: The Original ES-5</h3>
 
 Three dog-ear P-90s, three volume knobs and a master tone, no selector switch, a rounded cutaway, and a rosewood compensated bridge. The earliest guitars, from 1949 into early 1953, used clear or amber barrel knobs with gold number inserts before Gibson moved to gold barrel knobs. This is the design in our 1953 photos.
 
-<h3>1955 to 1957: The Switchmaster, Still With P-90s</h3>
+<h3>1955 To 1957: The Switchmaster, Still With P-90s</h3>
 
-The four-way switch and the six-knob layout arrive, and the guitar becomes the ES-5 Switchmaster. A gold tune-o-matic bridge on a rosewood base appears in this period, and a tubular double-loop tailpiece shows up around 1956. The pickups are still three P-90s. Only about seven Switchmasters shipped in that first year of 1955, which makes an early P-90 Switchmaster genuinely scarce.
+The four-way switch and the six-knob layout arrive, and the guitar becomes the ES-5 Switchmaster. A gold tune-o-matic bridge on a rosewood base appears in this period, and a tubular double-loop tailpiece shows up around 1956. The pickups are still three P-90s. Only about seven Switchmasters shipped in that first year of 1955, which makes an early P-90 Switchmaster truly scarce.
 
-<h3>1957 to 1960: Three PAF Humbuckers</h3>
+<h3>1957 To 1960: Three PAF Humbuckers</h3>
 
 During 1957 the P-90s give way to three PAF humbuckers, the round cutaway continues, and this becomes the configuration collectors want most. Our 1958 lives here.
 
@@ -153,7 +192,7 @@ During 1957 the P-90s give way to three PAF humbuckers, the round cutaway contin
 
 The gold tune-o-matic bridge on a rosewood base and the wavy wire tailpiece on our 1958. A tune-o-matic like this is correct for a Switchmaster and is one of the features that arrived with the model in the mid-1950s. On an earlier ES-5 the same bridge would be a later upgrade, which is a point we will come back to.
 
-<h3>1960 to 1962: The Florentine Cutaway and the End</h3>
+<h3>1960 To 1962: The Florentine Cutaway And The End</h3>
 
 Around 1960 into 1961 Gibson changed the cutaway from the rounded Venetian shape to a pointed Florentine one, the same change it made to the L-5CES and Super 400CES, and later guitars drift toward a cherry-tinted sunburst and a slimmer neck. Gibson shipped its last handful of ES-5s in 1961, about fifty-five of them, and the model was gone from the catalog by 1962. Collectors generally rate the pointed-cutaway guitars a step below the round-cutaway humbucker ones, so rarest does not always mean priciest here.
 
@@ -163,7 +202,7 @@ The ES-5's most storied champion is T-Bone Walker, the founding father of electr
 
 One bit of folklore is worth correcting, because you will hear it repeated. Carl Perkins did not record Blue Suede Shoes on his Switchmaster. That record was cut on his 1953 Les Paul goldtop, and the Switchmaster came afterward. Plenty of other big names get attached to the ES-5 in passing, and some of those attributions are mix-ups with the L-5CES or the ES-350, so we stick to the three we can stand behind. That is the honest way to talk about a guitar's history.
 
-<h2 id="es5-dating">Dating Your ES-5 or Switchmaster</h2>
+<h2 id="es5-dating">Dating Your ES-5 Or Switchmaster</h2>
 
 You date an ES-5 the way you date any Gibson of the period: with several clocks that all have to agree. The features come first, then the numbers confirm them.
 
@@ -179,11 +218,11 @@ The label on our 1953, serial A-15380, which places it in 1953. Notice the color
 
 The label on our 1958, and it does two things at once. It is orange, not white, which by itself says 1955 or later, and it actually reads Gibson Switchmaster right on the label. The serial, A-27756, lands squarely in 1958. When the label color, the serial, and the three humbuckers all point to the same window, the guitar is telling a straight story.
 
-<h2 id="es5-authenticate">Reading One Like a Dealer</h2>
+<h2 id="es5-authenticate">Reading One Like A Dealer</h2>
 
 Authentication is not a single test. It is the question of whether every part of the guitar tells the same story. An ES-5 has a serial, a set of pickups, a bridge, a tailpiece, a set of tuners, a switch or the absence of one, and a wiring harness, and each of those has a date range. When they all agree, the guitar is honest. When one points somewhere else, you have found either a repair, an upgrade, or a story that does not add up. Neither of our guitars is perfect, and that is exactly why they are useful to show you.
 
-Start with the pickups, because they are the biggest value driver and the most common thing to be changed. On a P-90 ES-5, confirm three correct dog-ear P-90s with clean, un-drilled wood around the ears. On a humbucker Switchmaster, the job is bigger: you want three genuine PAFs whose resistance readings sit in the right range, whose stickers and aging match, and whose lead wires and solder joints look untouched. Because so many Switchmasters have been robbed of their PAFs, a guitar wearing the wrong humbuckers is common, and it is the difference between a five-figure guitar and something far less.
+Start with the pickups, because they are the biggest value driver and the most common thing to be changed. On a P-90 ES-5, confirm three correct dog-ear P-90s with clean, un-drilled wood around the ears. On a humbucker Switchmaster, the job is bigger: you want three original PAFs whose resistance readings sit in the right range, whose stickers and aging match, and whose lead wires and solder joints look untouched. Because so many Switchmasters have been robbed of their PAFs, a guitar wearing the wrong humbuckers is common, and it is the difference between a five-figure guitar and something far less.
 
 ![The upgraded gold tune-o-matic bridge on a rosewood base on a 1953 Gibson ES-5.](../../assets/blog/gibson-es-5-switchmaster-history-value/1953-gibson-es-5-tune-o-matic-bridge.jpg)
 
@@ -191,7 +230,7 @@ Here is where our 1953 has a story to tell. It wears a gold tune-o-matic bridge,
 
 Then read the tailpiece, the tuners, the bridge, and the knobs, and check that each one is right for the year the serial and the electronics claim. A mismatch is not automatically bad, but every one of them is a question you want answered before money changes hands.
 
-<h2 id="es5-mods">Modifications and Red Flags That Change the Value</h2>
+<h2 id="es5-mods">Modifications And Red Flags That Change The Value</h2>
 
 Most of the value questions on a vintage ES-5 come down to a short list of changes. None of these makes a guitar worthless, but every one moves the number, and a guitar sold as all original when it is not is the expensive mistake to avoid.
 
@@ -223,34 +262,13 @@ Here is the short version you can run through with a flashlight and a screwdrive
 
 If you get partway down this list and something stops adding up, that is the moment to get a second opinion before money changes hands.
 
-<h2 id="es5-value">What a Vintage Gibson ES-5 Is Worth</h2>
-
-ES-5 values move with the version, the pickups, the finish, the condition, and above all the originality. The ranges below are for sunburst guitars and reflect current dealer asking prices and price-guide figures for honest examples. Treat them as a starting point for a conversation, not a substitute for looking at your actual guitar, because a single refinish or a set of replaced pickups can move the number by many thousands.
-
-| Version | Modified or refinished | All-original, excellent |
-| --- | --- | --- |
-| Original ES-5, three P-90s (1949 to 1954) | about $5,000 to $7,500 | about $8,000 to $13,000 |
-| ES-5 Switchmaster, three P-90s (1955 to 1957) | about $6,000 to $8,500 | about $9,000 to $14,000 |
-| ES-5 Switchmaster, three PAFs (1957 to 1960) | about $9,000 to $13,000 | about $14,000 to $20,000 |
-| ES-5 Switchmaster, Florentine cutaway (1960 to 1962) | about $8,000 to $11,000 | about $12,000 to $17,000 |
-
-A few things sit outside the table. The natural, or blonde, finish carries a strong premium over sunburst, often something like 30 to 60 percent, because far fewer were made, and a clean natural PAF Switchmaster can ask into the low twenty thousands. Three original PAFs, an original case, and documented history all push a guitar toward the top of its range, while a refinish, replaced pickups, a converted tailpiece, a headstock repair, or a refret pull it down. One honest caveat: the ES-5 market is thin, asking prices vary widely from dealer to dealer, and those asks generally run ahead of what guitars actually sell for. We have seen comparable 1958 sunburst PAF Switchmasters listed anywhere from twelve to eighteen thousand dollars, which tells you how much the specific guitar matters.
-
-One more honest thing, and this one is about our own guitar. The 1958 Switchmaster in these photos has been refinished. We are showing it on purpose, as a case study, because the best way to learn what a refinish costs is to see one sitting right next to an original finish, which is exactly what our 1953 ES-5 gives you. A refinish does not ruin a guitar, and this is still a real three-humbucker Switchmaster, but it moves our 1958 out of the all-original column in the table above and into the modified or refinished one, which on a guitar like this is a difference of thousands of dollars. That gap, living inside a single instrument, is the whole reason we tell people never to refinish a vintage guitar.
-
-![Back of a refinished 1958 Gibson ES-5 Switchmaster in sunburst showing figured maple.](../../assets/blog/gibson-es-5-switchmaster-history-value/1958-gibson-es-5-switchmaster-sunburst-back.jpg)
-
-The figured maple back of our refinished 1958. Set its finish against the original nitrocellulose on our 1953 ES-5: a genuine finish of this age shows fine checking, softened color, and honest wear that a fresh refinish almost never reproduces convincingly. Training your eye on that difference is one of the most valuable skills in vintage guitars.
-
-Here is the context that makes the ES-5 so interesting to value. It is the most affordable way into a real three-pickup, gold-hardware, L-5-cosmetic Gibson archtop with genuine PAFs. It sits a clear step below the carved-top L-5CES and [Super 400CES](/post/gibson-super-400-ces-history-authentication-value/), but above the plainer laminated archtops like the [Gibson ES-175](/post/gibson-es-175-evolution-and-specifications/) and the ES-350. Gibson built only around 1,400 ES-5s of all types across the entire 1949 to 1962 run, split roughly two to one between the original and the Switchmaster, which makes any of them genuinely scarce next to the tens of thousands of ES-175s that left Kalamazoo.
-
-<h2 id="es5-reissue">Vintage or Reissue</h2>
+<h2 id="es5-reissue">Vintage Or Reissue</h2>
 
 Gibson brought the ES-5 back through its Custom Shop in the mid-1990s, around 1995 to 1996, and built it in several forms: a Switchmaster with humbuckers, an ES-5P with P-90s, and an ES-5A with Alnico pickups. These are good guitars, well made, with flamed maple and modern reissue humbuckers, and they turn up on the used market today around five to sixty-five hundred dollars. That is roughly a third to a half of a vintage P-90 original, and a small fraction of a real three-PAF Switchmaster.
 
-Telling a reissue from a vintage guitar is quick once you know what to look for. The reissue carries a modern serial number format, modern pots with recent date codes, modern pickup construction, and none of the genuine nitrocellulose finish checking and aged pearl of a real 1950s guitar. If a guitar's serial, its label, and its parts all read modern, it is a reissue, and it should be priced as one. Do not let anyone sell you a 1996 reissue as a 1958, and do not undersell a real vintage ES-5 because it shares a name with the reissues.
+Telling a reissue from a vintage guitar is quick once you know what to look for. The reissue carries a modern serial number format, modern pots with recent date codes, modern pickup construction, and none of the original nitrocellulose finish checking and aged pearl of a real 1950s guitar. If a guitar's serial, its label, and its parts all read modern, it is a reissue, and it should be priced as one. Do not let anyone sell you a 1996 reissue as a 1958, and do not undersell a real vintage ES-5 because it shares a name with the reissues.
 
-<h2 id="es5-selling">Thinking of Selling Your ES-5</h2>
+<h2 id="es5-selling">Thinking Of Selling Your ES-5</h2>
 
 If you have an ES-5 or a Switchmaster and you are considering selling, the most valuable thing you can do is leave it alone. Do not refinish it, do not swap the pickups for something that sounds better to modern ears, do not convert the tailpiece, and do not have the gold hardware re-plated. Every bit of honest wear and every original part is part of the value, and once an original finish or an original PAF is gone, it does not come back. If your guitar has already been changed, that is fine too, and the right move is simply to describe it honestly.
 
@@ -272,11 +290,11 @@ Dog-ear. Because the ES-5 has a fully hollow body with no solid wood under the t
 
 **Why is the ES-5 Switchmaster with PAF humbuckers so valuable?**
 
-Because it carries three genuine PAF humbuckers, the same sought-after late-1950s pickup that makes a Les Paul valuable, and three of them on one guitar is rare. Many Switchmasters have been taken apart over the years so their PAFs could be sold into Les Pauls, so an intact, original three-PAF Switchmaster is scarcer every year, which is a big part of why collectors chase it.
+Because it carries three original PAF humbuckers, the same sought-after late-1950s pickup that makes a Les Paul valuable, and three of them on one guitar is rare. Many Switchmasters have been taken apart over the years so their PAFs could be sold into Les Pauls, so an intact, original three-PAF Switchmaster is scarcer every year, which is a big part of why collectors chase it.
 
 **What is my vintage Gibson ES-5 worth?**
 
-A sunburst ES-5 in honest, all-original condition generally runs from about 8,000 dollars for an early three-P-90 guitar to around 20,000 dollars for a round-cutaway three-PAF Switchmaster, with modified or refinished examples selling for less. The rare natural finish adds a strong premium on top. Condition and originality matter more than anything else, and the market is thin, so the only real way to know is to have your specific guitar appraised.
+As of October 2026, asking ranges are $7,500 to $12,000 for an all-original, excellent sunburst P-90 ES-5 and $13,000 to $18,000 for a rounded-cutaway three-PAF Switchmaster. These aren't guaranteed selling prices or cash offers. Natural finish, repairs, originality and case completeness need individual consideration.
 
 **Is a natural, or blonde, ES-5 worth more than a sunburst?**
 
@@ -284,72 +302,9 @@ Yes. Natural was a lower-production special finish, roughly a third of all ES-5s
 
 **Is a modern Gibson ES-5 reissue worth as much as a vintage one?**
 
-No. The Custom Shop reissues from the mid-1990s and later are good guitars, but they sell used for around five to sixty-five hundred dollars, a fraction of a vintage original and a small fraction of a real three-PAF Switchmaster. You can spot a reissue by its modern serial format, modern pots and pickups, and the absence of genuine aged finish and pearl.
+No. The Custom Shop reissues from the mid-1990s and later are good guitars, but they sell used for around five to sixty-five hundred dollars, a fraction of a vintage original and a small fraction of a real three-PAF Switchmaster. You can spot a reissue by its modern serial format, modern pots and pickups, and the absence of original aged finish and pearl.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a Gibson ES-5 and an ES-5 Switchmaster?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "They are the same model at two stages of its life. The original ES-5, from 1949 to about 1955, has three P-90 pickups, three volume knobs and a master tone, and no pickup selector switch. In 1955 Gibson added a four-way selector switch and a second row of knobs, giving each pickup its own volume and tone, and renamed the guitar the ES-5 Switchmaster. So six knobs and a four-way switch means a Switchmaster, and four knobs with no switch means the earlier ES-5."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can I tell what year my Gibson ES-5 is?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Start with the features. Four knobs and no switch is 1949 to 1955, six knobs and a switch is 1955 and later, P-90s are 1949 to 1957, humbuckers are 1957 and later, and a rounded cutaway is pre-1960 while a pointed one is 1960 to 1962. Then confirm with the A-prefix serial on the oval label inside the body and the factory order number stamped inside. A white label points to before 1955 and an orange label to 1955 or later."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the ES-5 have soapbar or dog-ear P-90s?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Dog-ear. Because the ES-5 has a fully hollow body with no solid wood under the top, Gibson used dog-ear P-90s, whose extended tabs at each end let the pickup screw straight to the top. Soapbar P-90s mount from below into a routed cavity and are used on solidbodies and semi-hollows, not on a hollow archtop like the ES-5."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is the ES-5 Switchmaster with PAF humbuckers so valuable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Because it carries three genuine PAF humbuckers, the same sought-after late-1950s pickup that makes a Les Paul valuable, and three of them on one guitar is rare. Many Switchmasters have been taken apart over the years so their PAFs could be sold into Les Pauls, so an intact, original three-PAF Switchmaster is scarcer every year, which is a big part of why collectors chase it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is my vintage Gibson ES-5 worth?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A sunburst ES-5 in honest, all-original condition generally runs from about 8,000 dollars for an early three-P-90 guitar to around 20,000 dollars for a round-cutaway three-PAF Switchmaster, with modified or refinished examples selling for less. The rare natural finish adds a strong premium on top. Condition and originality matter more than anything else, and the market is thin, so the only real way to know is to have your specific guitar appraised."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is a natural, or blonde, ES-5 worth more than a sunburst?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Natural was a lower-production special finish, roughly a third of all ES-5s, so a clean blonde carries a real premium over the same guitar in sunburst, often in the range of 30 to 60 percent. A natural PAF Switchmaster is the most valuable configuration of all."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is a modern Gibson ES-5 reissue worth as much as a vintage one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The Custom Shop reissues from the mid-1990s and later are good guitars, but they sell used for around five to sixty-five hundred dollars, a fraction of a vintage original and a small fraction of a real three-PAF Switchmaster. You can spot a reissue by its modern serial format, modern pots and pickups, and the absence of genuine aged finish and pearl."
-      }
-    }
-  ]
-}
-</script>
+
 
 <style>
   /* Floating in-page nav for this post (es5-nav), ported from the esh-nav pattern. */
@@ -427,3 +382,72 @@ No. The Custom Shop reissues from the mid-1990s and later are good guitars, but 
     else { initEs5Fade(); }
   })();
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a Gibson ES-5 and an ES-5 Switchmaster?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They are the same model at two stages of its life. The original ES-5, from 1949 to about 1955, has three P-90 pickups, three volume knobs and a master tone, and no pickup selector switch. In 1955 Gibson added a four-way selector switch and a second row of knobs, giving each pickup its own volume and tone, and renamed the guitar the ES-5 Switchmaster. So six knobs and a four-way switch means a Switchmaster, and four knobs with no switch means the earlier ES-5."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I tell what year my Gibson ES-5 is?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with the features. Four knobs and no switch is 1949 to 1955, six knobs and a switch is 1955 and later, P-90s are 1949 to 1957, humbuckers are 1957 and later, and a rounded cutaway is pre-1960 while a pointed one is 1960 to 1962. Then confirm with the A-prefix serial on the oval label inside the body and the factory order number stamped inside. A white label points to before 1955 and an orange label to 1955 or later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the ES-5 have soapbar or dog-ear P-90s?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dog-ear. Because the ES-5 has a fully hollow body with no solid wood under the top, Gibson used dog-ear P-90s, whose extended tabs at each end let the pickup screw straight to the top. Soapbar P-90s mount from below into a routed cavity and are used on solidbodies and semi-hollows, not on a hollow archtop like the ES-5."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is the ES-5 Switchmaster with PAF humbuckers so valuable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because it carries three original PAF humbuckers, the same sought-after late-1950s pickup that makes a Les Paul valuable, and three of them on one guitar is rare. Many Switchmasters have been taken apart over the years so their PAFs could be sold into Les Pauls, so an intact, original three-PAF Switchmaster is scarcer every year, which is a big part of why collectors chase it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is my vintage Gibson ES-5 worth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As of October 2026, asking ranges are $7,500 to $12,000 for an all-original, excellent sunburst P-90 ES-5 and $13,000 to $18,000 for a rounded-cutaway three-PAF Switchmaster. These aren't guaranteed selling prices or cash offers. Natural finish, repairs, originality and case completeness need individual consideration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a natural, or blonde, ES-5 worth more than a sunburst?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Natural was a lower-production special finish, roughly a third of all ES-5s, so a clean blonde carries a real premium over the same guitar in sunburst, often in the range of 30 to 60 percent. A natural PAF Switchmaster is the most valuable configuration of all."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a modern Gibson ES-5 reissue worth as much as a vintage one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Custom Shop reissues from the mid-1990s and later are good guitars, but they sell used for around five to sixty-five hundred dollars, a fraction of a vintage original and a small fraction of a real three-PAF Switchmaster. You can spot a reissue by its modern serial format, modern pots and pickups, and the absence of original aged finish and pearl."
+      }
+    }
+  ]
+}
+</script>
+
+For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+For other Gibson electrics, compare the [ES-335 value guide](/vintage-gibson-es-335-value-guide/) and [ES-355 value guide](/vintage-gibson-es-355-value-guide/). Their body construction, electronics and condition groups need to be matched separately.

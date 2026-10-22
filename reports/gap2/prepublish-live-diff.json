@@ -1,0 +1,746 @@
+[
+  {
+    "route": "/post/gibson-es-5-switchmaster-history-value/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-es-5-switchmaster-history-value-audit-2026-10-21T23-02-56-584Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/gibson-es-345-history-value/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-es-345-history-value-audit-2026-10-21T23-02-56-586Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/fender-mustang-history-value/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-fender-mustang-history-value-audit-2026-10-21T23-02-56-588Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/gibson-firebird-history-authentication-value/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-firebird-history-authentication-value-audit-2026-10-21T23-02-56-945Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/gibson-l5-ces-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-l5-ces-value-guide-audit-2026-10-21T23-02-56-957Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/vintage-gibson-hummingbird-history-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-vintage-gibson-hummingbird-history-value-gui-audit-2026-10-21T23-02-56-976Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-jaguar-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-jaguar-value-guide-audit-2026-10-21T23-02-57-257Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-jazz-bass-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-jazz-bass-value-guide-audit-2026-10-21T23-02-57-277Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-jazzmaster-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-jazzmaster-value-guide-audit-2026-10-21T23-02-57-297Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-precision-bass-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-precision-bass-value-guide-audit-2026-10-21T23-02-57-583Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-value-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-value-guide-audit-2026-10-21T23-02-57-591Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-acoustic-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-acoustic-value-guide-audit-2026-10-21T23-02-57-616Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-es-125-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-es-125-value-guide-audit-2026-10-21T23-02-57-899Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-es-330-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-es-330-value-guide-audit-2026-10-21T23-02-57-920Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-es-335-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-es-335-value-guide-audit-2026-10-21T23-02-57-934Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-es-355-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-es-355-value-guide-audit-2026-10-21T23-02-58-218Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-j-200-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-j-200-value-guide-audit-2026-10-21T23-02-58-239Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-j-45-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-j-45-value-guide-audit-2026-10-21T23-02-58-247Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-les-paul-custom-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-les-paul-custom-value-guide-audit-2026-10-21T23-02-58-541Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-les-paul-junior-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-les-paul-junior-value-guide-audit-2026-10-21T23-02-58-561Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-les-paul-special-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-les-paul-special-value-guide-audit-2026-10-21T23-02-58-570Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-lg-series-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-lg-series-value-guide-audit-2026-10-21T23-02-58-871Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-sg-junior-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-sg-junior-value-guide-audit-2026-10-21T23-02-58-885Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-sg-custom-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-sg-custom-value-guide-audit-2026-10-21T23-02-58-891Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-sg-special-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-sg-special-value-guide-audit-2026-10-21T23-02-59-196Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-sg-standard-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-sg-standard-value-guide-audit-2026-10-21T23-02-59-205Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-sg-value-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-sg-value-guide-audit-2026-10-21T23-02-59-218Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-value-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-value-guide-audit-2026-10-21T23-02-59-524Z.md",
+    "findings": []
+  },
+  {
+    "route": "/fender-guitars-serial-number-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-fender-guitars-serial-number-guide-audit-2026-10-21T23-02-59-555Z.md",
+    "findings": []
+  },
+  {
+    "route": "/fender-jazzmaster-dating-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-fender-jazzmaster-dating-guide-audit-2026-10-21T23-02-59-566Z.md",
+    "findings": []
+  },
+  {
+    "route": "/fender-mustang-dating-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-fender-mustang-dating-guide-audit-2026-10-21T23-02-59-860Z.md",
+    "findings": []
+  },
+  {
+    "route": "/gibson-es-330-dating-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-gibson-es-330-dating-guide-audit-2026-10-21T23-02-59-889Z.md",
+    "findings": []
+  },
+  {
+    "route": "/gibson-sg-dating-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-gibson-sg-dating-guide-audit-2026-10-21T23-02-59-918Z.md",
+    "findings": []
+  },
+  {
+    "route": "/gretsch-body-binding-and-inlays/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-gretsch-body-binding-and-inlays-audit-2026-10-21T23-03-00-183Z.md",
+    "findings": []
+  },
+  {
+    "route": "/gretsch-bridges-and-tailpieces/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-gretsch-bridges-and-tailpieces-audit-2026-10-21T23-03-00-205Z.md",
+    "findings": []
+  },
+  {
+    "route": "/gretsch-finish-colors/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-gretsch-finish-colors-audit-2026-10-21T23-03-00-243Z.md",
+    "findings": []
+  },
+  {
+    "route": "/gretsch-headstock-and-tuner-dating-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-gretsch-headstock-and-tuner-dating-guide-audit-2026-10-21T23-03-00-501Z.md",
+    "findings": []
+  },
+  {
+    "route": "/gretsch-knobs-and-controls/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-gretsch-knobs-and-controls-audit-2026-10-21T23-03-00-523Z.md",
+    "findings": []
+  },
+  {
+    "route": "/gretsch-labels-and-serial-number-locations/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-gretsch-labels-and-serial-number-locations-audit-2026-10-21T23-03-00-565Z.md",
+    "findings": []
+  },
+  {
+    "route": "/gretsch-pickup-dating-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-gretsch-pickup-dating-guide-audit-2026-10-21T23-03-00-820Z.md",
+    "findings": []
+  },
+  {
+    "route": "/gretsch-vintage-vs-reissue/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-gretsch-vintage-vs-reissue-audit-2026-10-21T23-03-00-843Z.md",
+    "findings": []
+  },
+  {
+    "route": "/guild-acoustic-guitar-identification/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-guild-acoustic-guitar-identification-audit-2026-10-21T23-03-00-890Z.md",
+    "findings": []
+  },
+  {
+    "route": "/guild-electric-guitar-identification/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-guild-electric-guitar-identification-audit-2026-10-21T23-03-01-143Z.md",
+    "findings": []
+  },
+  {
+    "route": "/guild-factory-eras/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-guild-factory-eras-audit-2026-10-21T23-03-01-156Z.md",
+    "findings": []
+  },
+  {
+    "route": "/guild-labels-and-serial-number-locations/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-guild-labels-and-serial-number-locations-audit-2026-10-21T23-03-01-212Z.md",
+    "findings": []
+  },
+  {
+    "route": "/guild-pickup-and-hardware-dating-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-guild-pickup-and-hardware-dating-guide-audit-2026-10-21T23-03-01-489Z.md",
+    "findings": []
+  },
+  {
+    "route": "/guild-model-prefix-serial-number-charts/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-guild-model-prefix-serial-number-charts-audit-2026-10-21T23-03-01-512Z.md",
+    "findings": []
+  },
+  {
+    "route": "/guild-vintage-vs-reissue/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-guild-vintage-vs-reissue-audit-2026-10-21T23-03-01-537Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1952-fender-precision-bass-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1952-fender-precision-bass-guide-audit-2026-10-21T23-03-01-872Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1955-1958-tv-yellow-les-paul-special-guide-audit-2026-10-21T23-03-01-902Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1959-gibson-es-335-authentication-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1959-gibson-es-335-authentication-guide-audit-2026-10-21T23-03-01-906Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1959-gibson-es-355-history-value/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1959-gibson-es-355-history-value-audit-2026-10-21T23-03-02-280Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1965-gibson-es-335-short-maestro-vibrola/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1965-gibson-es-335-short-maestro-vibrola-audit-2026-10-21T23-03-02-288Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1962-gibson-es-335-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1962-gibson-es-335-guide-audit-2026-10-21T23-03-02-300Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1968-gibson-es-335-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1968-gibson-es-335-guide-audit-2026-10-21T23-03-02-656Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1966-gibson-es-335-authentication-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1966-gibson-es-335-authentication-guide-audit-2026-10-21T23-03-02-687Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/fender-jazzmaster-evolution-guide-1958-1971/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-fender-jazzmaster-evolution-guide-1958-1971-audit-2026-10-21T23-03-02-691Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/gibson-es-335-345-355-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-es-335-345-355-guide-audit-2026-10-21T23-03-03-019Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/gibson-byrdland-authentication-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-byrdland-authentication-guide-audit-2026-10-21T23-03-03-044Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/gibson-es-125-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-es-125-guide-audit-2026-10-21T23-03-03-067Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/gibson-j200-model-history-authentication-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-j200-model-history-authentication-gui-audit-2026-10-21T23-03-03-415Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/gibson-les-paul-junior-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-les-paul-junior-guide-audit-2026-10-21T23-03-03-423Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/identify-vintage-gibson-j45-j50-sj/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-identify-vintage-gibson-j45-j50-sj-audit-2026-10-21T23-03-03-442Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-joesvintageguitarsaz-com-identify-gibson-lg--audit-2026-10-21T23-03-03-789Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/norlin-les-paul-custom-year-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-norlin-les-paul-custom-year-guide-audit-2026-10-21T23-03-03-822Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/vintage-fender-jaguar-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-vintage-fender-jaguar-guide-audit-2026-10-21T23-03-03-835Z.md",
+    "findings": []
+  },
+  {
+    "route": "/rickenbacker-body-binding-and-inlays/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-rickenbacker-body-binding-and-inlays-audit-2026-10-21T23-03-04-153Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/vintage-fender-jazz-bass-guide/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-vintage-fender-jazz-bass-guide-audit-2026-10-21T23-03-04-176Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/vintage-gibson-sg-family-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-vintage-gibson-sg-family-guide-audit-2026-10-21T23-03-04-197Z.md",
+    "findings": []
+  },
+  {
+    "route": "/rickenbacker-finish-colors/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-rickenbacker-finish-colors-audit-2026-10-21T23-03-04-472Z.md",
+    "findings": []
+  },
+  {
+    "route": "/rickenbacker-knobs-and-controls/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-rickenbacker-knobs-and-controls-audit-2026-10-21T23-03-04-493Z.md",
+    "findings": []
+  },
+  {
+    "route": "/rickenbacker-pickup-dating-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-rickenbacker-pickup-dating-guide-audit-2026-10-21T23-03-04-521Z.md",
+    "findings": []
+  },
+  {
+    "route": "/rickenbacker-tailpiece-dating-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-rickenbacker-tailpiece-dating-guide-audit-2026-10-21T23-03-04-799Z.md",
+    "findings": []
+  },
+  {
+    "route": "/rickenbacker-tuner-dating-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-rickenbacker-tuner-dating-guide-audit-2026-10-21T23-03-04-823Z.md",
+    "findings": []
+  },
+  {
+    "route": "/sell-my-fender-guitar/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-sell-my-fender-guitar-audit-2026-10-21T23-03-04-869Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-audit-2026-10-21T23-03-05-138Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-audit-2026-10-21T23-03-05-155Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1958-gibson-les-paul-standard-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1958-gibson-les-paul-standard-guide-audit-2026-10-21T23-03-05-251Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1959-gibson-les-paul-standard-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1959-gibson-les-paul-standard-guide-audit-2026-10-21T23-03-05-494Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1960-gibson-les-paul-standard-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1960-gibson-les-paul-standard-guide-audit-2026-10-21T23-03-05-521Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1968-gibson-les-paul-custom-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1968-gibson-les-paul-custom-guide-audit-2026-10-21T23-03-05-620Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1969-gibson-les-paul-custom-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1969-gibson-les-paul-custom-guide-audit-2026-10-21T23-03-05-874Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/1973-fender-jazz-bass-vintera-iii/",
+    "exit": 1,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-1973-fender-jazz-bass-vintera-iii-audit-2026-10-21T23-03-05-904Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/gibson-flying-v-medallion-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-flying-v-medallion-guide-audit-2026-10-21T23-03-06-021Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/gibson-paf-patent-number-pickup-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-paf-patent-number-pickup-guide-audit-2026-10-21T23-03-06-288Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/gibson-super-400-ces-history-authentication-value/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-gibson-super-400-ces-history-authentication--audit-2026-10-21T23-03-06-313Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-how-the-year-of-manufacture-of-your-vintage--audit-2026-10-21T23-03-06-409Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/what-guitar-did-johnny-marr-play/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-what-guitar-did-johnny-marr-play-audit-2026-10-21T23-03-06-665Z.md",
+    "findings": []
+  },
+  {
+    "route": "/post/what-to-consider-when-selling-a-vintage-guitar/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-post-what-to-consider-when-selling-a-vintage-guit-audit-2026-10-21T23-03-06-683Z.md",
+    "findings": []
+  },
+  {
+    "route": "/how-to-read-gibson-serial-numbers/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-how-to-read-gibson-serial-numbers-audit-2026-10-21T23-03-06-784Z.md",
+    "findings": []
+  },
+  {
+    "route": "/rickenbacker-serial-numbers/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-rickenbacker-serial-numbers-audit-2026-10-21T23-03-07-010Z.md",
+    "findings": []
+  },
+  {
+    "route": "/sell-my-gibson-guitar/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-sell-my-gibson-guitar-audit-2026-10-21T23-03-07-047Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-esquire-value-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-esquire-value-guide-audit-2026-10-21T23-03-07-120Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-gibson-les-paul-market-value-guide/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-gibson-les-paul-market-value-guide-audit-2026-10-21T23-03-07-333Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1954/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1954-audit-2026-10-21T23-03-07-363Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1955/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1955-audit-2026-10-21T23-03-07-433Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1956/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1956-audit-2026-10-21T23-03-07-648Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1957/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1957-audit-2026-10-21T23-03-07-671Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1958/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1958-audit-2026-10-21T23-03-07-745Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1959/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1959-audit-2026-10-21T23-03-07-967Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1960/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1960-audit-2026-10-21T23-03-07-989Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1961/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1961-audit-2026-10-21T23-03-08-067Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1962/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1962-audit-2026-10-21T23-03-08-285Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1963/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1963-audit-2026-10-21T23-03-08-308Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1964/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1964-audit-2026-10-21T23-03-08-379Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-stratocaster-value-guide/1965/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-stratocaster-value-guide-1965-audit-2026-10-21T23-03-08-596Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1950-broadcaster/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1950-broadc-audit-2026-10-21T23-03-08-622Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1951-nocaster/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1951-nocast-audit-2026-10-21T23-03-08-693Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1951-telecaster/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1951-teleca-audit-2026-10-21T23-03-08-917Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1952/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1952-audit-2026-10-21T23-03-08-936Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1953/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1953-audit-2026-10-21T23-03-09-010Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1954/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1954-audit-2026-10-21T23-03-09-240Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1955/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1955-audit-2026-10-21T23-03-09-251Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1956/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1956-audit-2026-10-21T23-03-09-327Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1957/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1957-audit-2026-10-21T23-03-09-551Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1958/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1958-audit-2026-10-21T23-03-09-561Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1959/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1959-audit-2026-10-21T23-03-09-648Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1960/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1960-audit-2026-10-21T23-03-09-872Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1961/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1961-audit-2026-10-21T23-03-09-874Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1962/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1962-audit-2026-10-21T23-03-09-967Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1963/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1963-audit-2026-10-21T23-03-10-189Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1964/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1964-audit-2026-10-21T23-03-10-194Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1965/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1965-audit-2026-10-21T23-03-10-290Z.md",
+    "findings": []
+  },
+  {
+    "route": "/vintage-fender-telecaster-value-guide/1966-1968/",
+    "exit": 0,
+    "report": "reports/gap2/prepublish-live-diff/prepublish-vintage-fender-telecaster-value-guide-1966-1968-audit-2026-10-21T23-03-10-488Z.md",
+    "findings": []
+  }
+]

@@ -1,0 +1,507 @@
+{
+  "method": "Unique other referring sitemap pages, anchors inside main only; excludes navigation/footer/self-links. Extended to older Super 400 and all root guides as well as requested GAP 2 pages.",
+  "pages": {
+    "/vintage-fender-jaguar-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/vintage-fender-jaguar-guide/",
+        "/post/what-guitar-did-johnny-marr-play/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-jazz-bass-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/1973-fender-jazz-bass-vintera-iii/",
+        "/post/vintage-fender-jazz-bass-guide/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-jazzmaster-value-guide/": {
+      "count": 4,
+      "from": [
+        "/fender-jazzmaster-dating-guide/",
+        "/post/fender-jazzmaster-evolution-guide-1958-1971/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-precision-bass-value-guide/": {
+      "count": 3,
+      "from": [
+        "/post/1952-fender-precision-bass-guide/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-value-guide/": {
+      "count": 9,
+      "from": [
+        "/fender-guitars-serial-number-guide/",
+        "/post/fender-mustang-history-value/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-jaguar-value-guide/",
+        "/vintage-fender-jazz-bass-value-guide/",
+        "/vintage-fender-jazzmaster-value-guide/",
+        "/vintage-fender-precision-bass-value-guide/",
+        "/vintage-fender-stratocaster-value-guide/",
+        "/vintage-fender-telecaster-value-guide/"
+      ]
+    },
+    "/vintage-gibson-acoustic-value-guide/": {
+      "count": 7,
+      "from": [
+        "/post/identify-vintage-gibson-j45-j50-sj/",
+        "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+        "/post/vintage-gibson-hummingbird-history-value-guide/",
+        "/vintage-gibson-j-200-value-guide/",
+        "/vintage-gibson-j-45-value-guide/",
+        "/vintage-gibson-lg-series-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-es-125-value-guide/": {
+      "count": 3,
+      "from": [
+        "/post/gibson-es-125-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-es-330-value-guide/": {
+      "count": 3,
+      "from": [
+        "/gibson-es-330-dating-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-es-335-value-guide/": {
+      "count": 13,
+      "from": [
+        "/gibson-es-335-345-355-dating-guide/",
+        "/post/1959-gibson-es-335-authentication-guide/",
+        "/post/1962-gibson-es-335-guide/",
+        "/post/1965-gibson-es-335-short-maestro-vibrola/",
+        "/post/1966-gibson-es-335-authentication-guide/",
+        "/post/1968-gibson-es-335-guide/",
+        "/post/gibson-es-335-345-355-guide/",
+        "/post/gibson-es-345-history-value/",
+        "/post/gibson-es-5-switchmaster-history-value/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-es-330-value-guide/",
+        "/vintage-gibson-es-355-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-es-355-value-guide/": {
+      "count": 7,
+      "from": [
+        "/post/1959-gibson-es-355-history-value/",
+        "/post/gibson-es-345-history-value/",
+        "/post/gibson-es-5-switchmaster-history-value/",
+        "/post/what-guitar-did-johnny-marr-play/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-es-335-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-j-200-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/gibson-j200-model-history-authentication-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-acoustic-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-j-45-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/identify-vintage-gibson-j45-j50-sj/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-acoustic-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-les-paul-custom-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/norlin-les-paul-custom-year-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-market-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-les-paul-junior-value-guide/": {
+      "count": 5,
+      "from": [
+        "/post/gibson-les-paul-junior-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-market-value-guide/",
+        "/vintage-gibson-les-paul-special-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-les-paul-special-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-market-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-lg-series-value-guide/": {
+      "count": 4,
+      "from": [
+        "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-acoustic-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-sg-custom-value-guide/": {
+      "count": 5,
+      "from": [
+        "/gibson-sg-dating-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-custom-value-guide/",
+        "/vintage-gibson-sg-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-sg-junior-value-guide/": {
+      "count": 5,
+      "from": [
+        "/gibson-sg-dating-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-junior-value-guide/",
+        "/vintage-gibson-sg-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-sg-special-value-guide/": {
+      "count": 5,
+      "from": [
+        "/gibson-sg-dating-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-les-paul-special-value-guide/",
+        "/vintage-gibson-sg-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-sg-standard-value-guide/": {
+      "count": 4,
+      "from": [
+        "/gibson-sg-dating-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-sg-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-sg-value-guide/": {
+      "count": 7,
+      "from": [
+        "/gibson-sg-dating-guide/",
+        "/post/vintage-gibson-sg-family-guide/",
+        "/vintage-gibson-sg-custom-value-guide/",
+        "/vintage-gibson-sg-junior-value-guide/",
+        "/vintage-gibson-sg-special-value-guide/",
+        "/vintage-gibson-sg-standard-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/vintage-gibson-value-guide/": {
+      "count": 26,
+      "from": [
+        "/how-to-read-gibson-serial-numbers/",
+        "/post/gibson-byrdland-authentication-guide/",
+        "/post/gibson-es-345-history-value/",
+        "/post/gibson-es-5-switchmaster-history-value/",
+        "/post/gibson-firebird-history-authentication-value/",
+        "/post/gibson-l5-ces-value-guide/",
+        "/post/gibson-super-400-ces-history-authentication-value/",
+        "/post/vintage-gibson-hummingbird-history-value-guide/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-acoustic-value-guide/",
+        "/vintage-gibson-es-125-value-guide/",
+        "/vintage-gibson-es-330-value-guide/",
+        "/vintage-gibson-es-335-value-guide/",
+        "/vintage-gibson-es-355-value-guide/",
+        "/vintage-gibson-j-200-value-guide/",
+        "/vintage-gibson-j-45-value-guide/",
+        "/vintage-gibson-les-paul-custom-value-guide/",
+        "/vintage-gibson-les-paul-junior-value-guide/",
+        "/vintage-gibson-les-paul-market-value-guide/",
+        "/vintage-gibson-les-paul-special-value-guide/",
+        "/vintage-gibson-lg-series-value-guide/",
+        "/vintage-gibson-sg-custom-value-guide/",
+        "/vintage-gibson-sg-junior-value-guide/",
+        "/vintage-gibson-sg-special-value-guide/",
+        "/vintage-gibson-sg-standard-value-guide/",
+        "/vintage-gibson-sg-value-guide/"
+      ]
+    },
+    "/vintage-fender-stratocaster-value-guide/": {
+      "count": 35,
+      "from": [
+        "/fender-body-dates/",
+        "/fender-guitars-serial-number-guide/",
+        "/fender-jaguar-dating-guide/",
+        "/fender-jazz-bass-dating-guide/",
+        "/fender-jazzmaster-dating-guide/",
+        "/fender-mustang-dating-guide/",
+        "/fender-neck-dates/",
+        "/fender-physical-features/",
+        "/fender-pickup-dates/",
+        "/fender-pot-codes/",
+        "/fender-precision-bass-dating-guide/",
+        "/fender-stratocaster-dating-guide/",
+        "/free-appraisal/fender/",
+        "/free-appraisal/",
+        "/how-to-spot-a-fake-fender/",
+        "/post/1966-fender-stratocaster-authentication-guide/",
+        "/post/1967-fender-stratocaster-authentication-guide/",
+        "/post/fender-custom-color-authentication-guide/",
+        "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+        "/sell-my-fender-guitar/",
+        "/sitemap/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/",
+        "/vintage-fender-stratocaster-value-guide/1954/",
+        "/vintage-fender-stratocaster-value-guide/1955/",
+        "/vintage-fender-stratocaster-value-guide/1956/",
+        "/vintage-fender-stratocaster-value-guide/1957/",
+        "/vintage-fender-stratocaster-value-guide/1958/",
+        "/vintage-fender-stratocaster-value-guide/1959/",
+        "/vintage-fender-stratocaster-value-guide/1960/",
+        "/vintage-fender-stratocaster-value-guide/1961/",
+        "/vintage-fender-stratocaster-value-guide/1962/",
+        "/vintage-fender-stratocaster-value-guide/1963/",
+        "/vintage-fender-stratocaster-value-guide/1964/",
+        "/vintage-fender-stratocaster-value-guide/1965/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-telecaster-value-guide/": {
+      "count": 40,
+      "from": [
+        "/fender-body-dates/",
+        "/fender-guitars-serial-number-guide/",
+        "/fender-jaguar-dating-guide/",
+        "/fender-jazz-bass-dating-guide/",
+        "/fender-jazzmaster-dating-guide/",
+        "/fender-mustang-dating-guide/",
+        "/fender-neck-dates/",
+        "/fender-physical-features/",
+        "/fender-pickup-dates/",
+        "/fender-precision-bass-dating-guide/",
+        "/fender-telecaster-dating-guide/",
+        "/free-appraisal/fender/",
+        "/free-appraisal/",
+        "/how-to-spot-a-fake-fender/",
+        "/post/fender-custom-color-authentication-guide/",
+        "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+        "/post/what-guitar-did-johnny-marr-play/",
+        "/sell-my-fender-guitar/",
+        "/sitemap/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/",
+        "/vintage-fender-esquire-value-guide/",
+        "/vintage-fender-telecaster-value-guide/1950-broadcaster/",
+        "/vintage-fender-telecaster-value-guide/1951-nocaster/",
+        "/vintage-fender-telecaster-value-guide/1951-telecaster/",
+        "/vintage-fender-telecaster-value-guide/1952/",
+        "/vintage-fender-telecaster-value-guide/1953/",
+        "/vintage-fender-telecaster-value-guide/1954/",
+        "/vintage-fender-telecaster-value-guide/1955/",
+        "/vintage-fender-telecaster-value-guide/1956/",
+        "/vintage-fender-telecaster-value-guide/1957/",
+        "/vintage-fender-telecaster-value-guide/1958/",
+        "/vintage-fender-telecaster-value-guide/1959/",
+        "/vintage-fender-telecaster-value-guide/1960/",
+        "/vintage-fender-telecaster-value-guide/1961/",
+        "/vintage-fender-telecaster-value-guide/1962/",
+        "/vintage-fender-telecaster-value-guide/1963/",
+        "/vintage-fender-telecaster-value-guide/1964/",
+        "/vintage-fender-telecaster-value-guide/1965/",
+        "/vintage-fender-telecaster-value-guide/1966-1968/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-fender-esquire-value-guide/": {
+      "count": 30,
+      "from": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-neck-dates/",
+        "/fender-physical-features/",
+        "/fender-pot-codes/",
+        "/fender-telecaster-dating-guide/",
+        "/post/1952-fender-telecaster-authentication-guide/",
+        "/post/1959-fender-telecaster-authentication-guide/",
+        "/post/fender-custom-color-authentication-guide/",
+        "/sell-my-fender-guitar/",
+        "/sitemap/",
+        "/vintage-fender-telecaster-value-guide/1950-broadcaster/",
+        "/vintage-fender-telecaster-value-guide/1951-nocaster/",
+        "/vintage-fender-telecaster-value-guide/1951-telecaster/",
+        "/vintage-fender-telecaster-value-guide/1952/",
+        "/vintage-fender-telecaster-value-guide/1953/",
+        "/vintage-fender-telecaster-value-guide/1954/",
+        "/vintage-fender-telecaster-value-guide/1955/",
+        "/vintage-fender-telecaster-value-guide/1956/",
+        "/vintage-fender-telecaster-value-guide/1957/",
+        "/vintage-fender-telecaster-value-guide/1958/",
+        "/vintage-fender-telecaster-value-guide/1959/",
+        "/vintage-fender-telecaster-value-guide/1960/",
+        "/vintage-fender-telecaster-value-guide/1961/",
+        "/vintage-fender-telecaster-value-guide/1962/",
+        "/vintage-fender-telecaster-value-guide/1963/",
+        "/vintage-fender-telecaster-value-guide/1964/",
+        "/vintage-fender-telecaster-value-guide/1965/",
+        "/vintage-fender-telecaster-value-guide/1966-1968/",
+        "/vintage-fender-telecaster-value-guide/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/vintage-gibson-les-paul-market-value-guide/": {
+      "count": 37,
+      "from": [
+        "/free-appraisal/gibson/",
+        "/free-appraisal/",
+        "/gibson-headstock-logo-chronology/",
+        "/gibson-knob-dating-guide/",
+        "/gibson-les-paul-dating-guide/",
+        "/gibson-physical-features-hardware-guide/",
+        "/gibson-pot-codes/",
+        "/gibson-tuner-dating-guide/",
+        "/how-to-read-gibson-serial-numbers/",
+        "/how-to-spot-a-fake-gibson/",
+        "/post/1954-gibson-les-paul-goldtop-authentication-guide/",
+        "/post/1956-les-paul-goldtop-authentication-guide/",
+        "/post/1957-les-paul-goldtop-guide/",
+        "/post/1958-gibson-les-paul-standard-guide/",
+        "/post/1959-gibson-les-paul-standard-guide/",
+        "/post/1960-gibson-les-paul-standard-guide/",
+        "/post/1968-1969-1970-les-paul-custom-dating-guide/",
+        "/post/1968-gibson-les-paul-custom-guide/",
+        "/post/1969-gibson-les-paul-custom-guide/",
+        "/post/1970-gibson-les-paul-custom-guide/",
+        "/post/gibson-aldo-nova-les-paul-xpl-guide/",
+        "/post/gibson-les-paul-junior-guide/",
+        "/post/gibson-les-paul-tv-model-guide/",
+        "/post/gibson-paf-patent-number-pickup-guide/",
+        "/post/gibson-shipping-totals-1948-1979/",
+        "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+        "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+        "/post/norlin-les-paul-custom-year-guide/",
+        "/post/one-owner-1983-gibson-les-paul-custom/",
+        "/post/vintage-gibson-les-paul-family-guide/",
+        "/post/what-to-consider-when-selling-a-vintage-guitar/",
+        "/sell-my-gibson-guitar/",
+        "/sitemap/",
+        "/vintage-gibson-les-paul-custom-value-guide/",
+        "/vintage-gibson-les-paul-junior-value-guide/",
+        "/vintage-gibson-les-paul-special-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/fender-mustang-history-value/": {
+      "count": 7,
+      "from": [
+        "/blog/page/6/",
+        "/category/specific-model-highlights/page/3/",
+        "/fender-mustang-dating-guide/",
+        "/post/fender-jazzmaster-evolution-guide-1958-1971/",
+        "/post/vintage-fender-jaguar-guide/",
+        "/sell-my-fender-guitar/",
+        "/vintage-fender-value-guide/"
+      ]
+    },
+    "/post/vintage-gibson-hummingbird-history-value-guide/": {
+      "count": 7,
+      "from": [
+        "/blog/page/5/",
+        "/category/specific-model-highlights/page/3/",
+        "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+        "/post/identify-vintage-gibson-j45-j50-sj/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-acoustic-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/gibson-es-345-history-value/": {
+      "count": 12,
+      "from": [
+        "/blog/page/5/",
+        "/category/specific-model-highlights/page/3/",
+        "/gibson-es-335-345-355-dating-guide/",
+        "/how-to-read-gibson-serial-numbers/",
+        "/post/1959-gibson-es-335-authentication-guide/",
+        "/post/gibson-es-335-345-355-guide/",
+        "/post/gibson-super-400-ces-history-authentication-value/",
+        "/post/one-owner-1966-gibson-es-345/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-es-335-value-guide/",
+        "/vintage-gibson-es-355-value-guide/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/gibson-firebird-history-authentication-value/": {
+      "count": 7,
+      "from": [
+        "/blog/page/3/",
+        "/category/specific-model-highlights/page/2/",
+        "/gibson-pot-codes/",
+        "/gibson-tuner-dating-guide/",
+        "/how-to-read-gibson-serial-numbers/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/gibson-es-5-switchmaster-history-value/": {
+      "count": 5,
+      "from": [
+        "/blog/page/5/",
+        "/category/specific-model-highlights/page/3/",
+        "/post/gibson-super-400-ces-history-authentication-value/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/gibson-l5-ces-value-guide/": {
+      "count": 10,
+      "from": [
+        "/blog/page/9/",
+        "/category/specific-model-highlights/page/6/",
+        "/gibson-headstock-logo-chronology/",
+        "/post/1954-gibson-l5c-california-session-musician/",
+        "/post/gibson-es-5-switchmaster-history-value/",
+        "/post/gibson-super-400-ces-history-authentication-value/",
+        "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+        "/post/one-owner-1957-gibson-byrdland/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    },
+    "/post/gibson-super-400-ces-history-authentication-value/": {
+      "count": 13,
+      "from": [
+        "/blog/page/4/",
+        "/category/specific-model-highlights/page/2/",
+        "/post/1959-gibson-es-355-history-value/",
+        "/post/fender-pink-paisley-telecaster-guide/",
+        "/post/gibson-byrdland-authentication-guide/",
+        "/post/gibson-es-125-guide/",
+        "/post/gibson-es-5-switchmaster-history-value/",
+        "/post/gibson-l5-ces-value-guide/",
+        "/post/gibson-shipping-totals-1948-1979/",
+        "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+        "/post/one-owner-1957-gibson-byrdland/",
+        "/sell-my-gibson-guitar/",
+        "/vintage-gibson-value-guide/"
+      ]
+    }
+  }
+}

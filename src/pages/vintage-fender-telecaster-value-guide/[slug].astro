@@ -125,8 +125,8 @@ const structuredData = [
 ---
 
 <Layout
-  title={`${displayName} Value Guide: Price & Specs`}
-  description={guide.metaDescription}
+  title={`${proseName} Value Guide: Prices And Specs`}
+  description={guide.metaDescription.length < 140 ? guide.metaDescription.replace(/\.$/, '') + ' See details.' : guide.metaDescription}
   canonical={canonicalPath}
   ogImage={articleImage}
   ogImageAlt={`${displayName} value guide`}

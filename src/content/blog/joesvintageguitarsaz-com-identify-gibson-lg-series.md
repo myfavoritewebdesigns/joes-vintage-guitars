@@ -8,13 +8,15 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1950s-gibson-lg-2-vintage-acoustic-guitar-scaled.jpg"
 heroImageAlt: "Vintage 1950s Gibson LG-2 acoustic guitar with large pickguard and original small rectangular rosewood bridge"
-metaDescription: "The Gibson LG series packs a lot of guitar into a small body. From the X-braced LG-2 to the mahogany LG-0, these “Little Guitars” offer a focused, punchy tone that has made them a favorite for over 80 years. If you have a wartime “Banner” model or a late-60s workhorse, our guide helps you identify your specific model and explains why these small-body Gibsons are climbing in collector value."
+metaDescription: "Identify Gibson LG-0, LG-1, LG-2 and LG-3 features, original parts and construction details. Compare dating clues, repairs and photographs from my archive."
 ogImage: "/images/blog/joesvintageguitarsaz-com-identify-gibson-lg-series/1950s-gibson-lg-2-vintage-acoustic-guitar-scaled.jpg"
 wpId: 18194
 ---
 A prime example of a late 1950s Gibson LG-2. This model features the transition-era large pointed pickguard while retaining the highly desirable small rectangular bridge and X-braced construction.
 
 ## How to Identify a Gibson LG-0, LG-1, LG-2, and LG-3
+
+For annual price references and repair context, use my [vintage Gibson LG series value guide](/vintage-gibson-lg-series-value-guide/). This page explains identification and construction.
 
 Among vintage acoustics, the **Gibson LG series** is a real “sleeper” guitar. While the J-45 gets the attention for its big volume, the LG models (the LG-0, LG-1, LG-2, and LG-3) are studio favorites. Their 14 1/8″ body size makes them comfortable, balanced, and very articulate.
 
@@ -213,3 +215,5 @@ The easiest way is to look inside the soundhole with a small mirror or your phon
 Identifying a 1944 Banner LG-2 vs. a 1964 B-25 (the model that replaced the LG-2) requires an expert eye. Small differences in bracing, bridge material, and nut width can mean a difference of thousands of dollars in valuation.
 
 At **Joe’s Vintage Guitars**, we specialize in these nuances. If you have a vintage LG-series guitar and are looking for a transparent, expert evaluation, we are here to help you get the maximum value for your piece of music history. If you’d like to [sell your Gibson](/sell-my-gibson-guitar/), we are prepared to make a competitive cash offer today! We are a premium vintage guitar shop in Arizona, but we buy nationwide using an easy and risk-free process.
+
+For other flat-top models, my [Gibson acoustic value guide](/vintage-gibson-acoustic-value-guide/) compares the J-45, J-200, LG family and Hummingbird.

@@ -1,0 +1,1433 @@
+{
+  "request": "Remove Basis columns and put short pricing notes below the price tables",
+  "previewOnly": true,
+  "productionMerged": false,
+  "baseline": "7fab89e66a718c762e308f84350758082077129e",
+  "tables": 13,
+  "priceRows": 328,
+  "checks": {
+    "priceAndYearPreservation": true,
+    "liveDiffMustFix": 0,
+    "verify": "Build, Astro check and copy audit passed; zero hard failures",
+    "visualReview": "J-200 three-column table and immediately following pricing note inspected in browser"
+  },
+  "delivery": "Combined preview follow-up; preserve these changes when assembling page-specific PRs",
+  "records": [
+    {
+      "url": "/vintage-fender-jaguar-value-guide/",
+      "file": "src/content/value-guides/vintage-fender-jaguar-value-guide.md",
+      "rows": 14,
+      "removed": [
+        {
+          "year": "1962",
+          "basis": "First-year sample, Very Good to Excellent; case and originality documentation vary"
+        },
+        {
+          "year": "1963",
+          "basis": "1963 to 1964 era, Very Good; see parts and case allowances"
+        },
+        {
+          "year": "1964",
+          "basis": "1963 to 1964 era, Very Good; see parts and case allowances"
+        },
+        {
+          "year": "1965",
+          "basis": "Existing conditional reference, checked against completed sunburst sales"
+        },
+        {
+          "year": "1966",
+          "basis": "1966 to 1969 era, Very Good originals with original cases"
+        },
+        {
+          "year": "1967",
+          "basis": "1966 to 1969 era, Very Good originals with original cases"
+        },
+        {
+          "year": "1968",
+          "basis": "1966 to 1969 era, Very Good originals with original cases"
+        },
+        {
+          "year": "1969",
+          "basis": "1966 to 1969 era, Very Good originals with original cases"
+        },
+        {
+          "year": "1970",
+          "basis": "1970 to 1975 era, Excellent; see case and service allowances"
+        },
+        {
+          "year": "1971",
+          "basis": "1970 to 1975 era, Excellent; see case and service allowances"
+        },
+        {
+          "year": "1972",
+          "basis": "1970 to 1975 era, Excellent; see case and service allowances"
+        },
+        {
+          "year": "1973",
+          "basis": "1970 to 1975 era, Excellent; see case and service allowances"
+        },
+        {
+          "year": "1974",
+          "basis": "1970 to 1975 era, Excellent; see case and service allowances"
+        },
+        {
+          "year": "1975",
+          "basis": "1970 to 1975 era, Excellent; see case and service allowances"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. Ranges use completed sunburst sales, with the existing 1965 reference retained. Repeated years share an era sample; condition and case allowances are explained below."
+    },
+    {
+      "url": "/vintage-gibson-acoustic-value-guide/",
+      "file": "src/content/value-guides/vintage-gibson-acoustic-value-guide.md",
+      "rows": 9,
+      "removed": [
+        {
+          "year": "J-45",
+          "basis": "Selected example; see the J-45 guide"
+        },
+        {
+          "year": "J-45",
+          "basis": "Selected example; see the J-45 guide"
+        },
+        {
+          "year": "J-200",
+          "basis": "Selected example; see the J-200 guide"
+        },
+        {
+          "year": "J-200",
+          "basis": "Selected example; see the J-200 guide"
+        },
+        {
+          "year": "LG-0",
+          "basis": "Selected example; see the LG-0 guide"
+        },
+        {
+          "year": "LG-1",
+          "basis": "Selected example; see the LG-1 guide"
+        },
+        {
+          "year": "LG-2",
+          "basis": "Selected example; see the LG-2 guide"
+        },
+        {
+          "year": "LG-3",
+          "basis": "Selected example; see the LG-3 guide"
+        },
+        {
+          "year": "Hummingbird",
+          "basis": "Existing published site reference"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. These are selected model examples, not full model ranges. J-45, J-200 and LG figures use published references checked against completed sales; Hummingbird retains this site's existing reference. See each model guide for condition assumptions."
+    },
+    {
+      "url": "/vintage-gibson-es-125-value-guide/",
+      "file": "src/content/value-guides/vintage-gibson-es-125-value-guide.md",
+      "rows": 27,
+      "removed": [
+        {
+          "year": "1941",
+          "basis": "1941 to 1942 shared era reference"
+        },
+        {
+          "year": "1942",
+          "basis": "1941 to 1942 shared era reference"
+        },
+        {
+          "year": "1946",
+          "basis": "1946 to 1949 shared era reference"
+        },
+        {
+          "year": "1947",
+          "basis": "1946 to 1949 shared era reference"
+        },
+        {
+          "year": "1948",
+          "basis": "1946 to 1949 shared era reference"
+        },
+        {
+          "year": "1949",
+          "basis": "1946 to 1949 shared era reference"
+        },
+        {
+          "year": "1950",
+          "basis": "1950 to 1959 shared era reference"
+        },
+        {
+          "year": "1951",
+          "basis": "1950 to 1959 shared era reference"
+        },
+        {
+          "year": "1952",
+          "basis": "1950 to 1959 shared era reference"
+        },
+        {
+          "year": "1953",
+          "basis": "1950 to 1959 shared era reference"
+        },
+        {
+          "year": "1954",
+          "basis": "1950 to 1959 shared era reference"
+        },
+        {
+          "year": "1955",
+          "basis": "1950 to 1959 shared era reference"
+        },
+        {
+          "year": "1956",
+          "basis": "1950 to 1959 shared era reference"
+        },
+        {
+          "year": "1957",
+          "basis": "1950 to 1959 shared era reference"
+        },
+        {
+          "year": "1958",
+          "basis": "1950 to 1959 shared era reference"
+        },
+        {
+          "year": "1959",
+          "basis": "1950 to 1959 shared era reference"
+        },
+        {
+          "year": "1960",
+          "basis": "1960 to 1970 shared era reference"
+        },
+        {
+          "year": "1961",
+          "basis": "1960 to 1970 shared era reference"
+        },
+        {
+          "year": "1962",
+          "basis": "1960 to 1970 shared era reference"
+        },
+        {
+          "year": "1963",
+          "basis": "1960 to 1970 shared era reference"
+        },
+        {
+          "year": "1964",
+          "basis": "1960 to 1970 shared era reference"
+        },
+        {
+          "year": "1965",
+          "basis": "1960 to 1970 shared era reference"
+        },
+        {
+          "year": "1966",
+          "basis": "1960 to 1970 shared era reference"
+        },
+        {
+          "year": "1967",
+          "basis": "1960 to 1970 shared era reference"
+        },
+        {
+          "year": "1968",
+          "basis": "1960 to 1970 shared era reference"
+        },
+        {
+          "year": "1969",
+          "basis": "1960 to 1970 shared era reference"
+        },
+        {
+          "year": "1970",
+          "basis": "1960 to 1970 shared era reference"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference, not separate annual sales samples."
+    },
+    {
+      "url": "/vintage-gibson-es-330-value-guide/",
+      "file": "src/content/value-guides/vintage-gibson-es-330-value-guide.md",
+      "rows": 14,
+      "removed": [
+        {
+          "year": "1959",
+          "basis": "1959 to 1962 published era reference"
+        },
+        {
+          "year": "1960",
+          "basis": "1959 to 1962 published era reference"
+        },
+        {
+          "year": "1961",
+          "basis": "1959 to 1962 published era reference"
+        },
+        {
+          "year": "1962",
+          "basis": "1959 to 1962 published era reference"
+        },
+        {
+          "year": "1963",
+          "basis": "1963 to 1965 published era reference"
+        },
+        {
+          "year": "1964",
+          "basis": "1963 to 1965 published era reference"
+        },
+        {
+          "year": "1965",
+          "basis": "1963 to 1965 published era reference"
+        },
+        {
+          "year": "1966",
+          "basis": "1966 to 1972 published era reference"
+        },
+        {
+          "year": "1967",
+          "basis": "1966 to 1972 published era reference"
+        },
+        {
+          "year": "1968",
+          "basis": "1966 to 1972 published era reference"
+        },
+        {
+          "year": "1969",
+          "basis": "1966 to 1972 published era reference"
+        },
+        {
+          "year": "1970",
+          "basis": "1966 to 1972 published era reference"
+        },
+        {
+          "year": "1971",
+          "basis": "1966 to 1972 published era reference"
+        },
+        {
+          "year": "1972",
+          "basis": "1966 to 1972 published era reference"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume original finish and parts, excellent condition and the original case. Repeated years share an era reference; repairs and modifications need a separate comparison."
+    },
+    {
+      "url": "/vintage-gibson-es-355-value-guide/",
+      "file": "src/content/value-guides/vintage-gibson-es-355-value-guide.md",
+      "rows": 24,
+      "removed": [
+        {
+          "year": "1958",
+          "basis": "1958 to 1958 published era reference"
+        },
+        {
+          "year": "1959",
+          "basis": "Existing site anchor"
+        },
+        {
+          "year": "1959",
+          "basis": "Existing site anchor"
+        },
+        {
+          "year": "1959",
+          "basis": "Existing site anchor"
+        },
+        {
+          "year": "1960",
+          "basis": "1960 to 1962 published era reference"
+        },
+        {
+          "year": "1961",
+          "basis": "1960 to 1962 published era reference"
+        },
+        {
+          "year": "1962",
+          "basis": "1960 to 1962 published era reference"
+        },
+        {
+          "year": "1963",
+          "basis": "1963 to 1964 published era reference"
+        },
+        {
+          "year": "1964",
+          "basis": "1963 to 1964 published era reference"
+        },
+        {
+          "year": "1965",
+          "basis": "1965 to 1965 published era reference"
+        },
+        {
+          "year": "1966",
+          "basis": "1966 to 1969 published era reference"
+        },
+        {
+          "year": "1967",
+          "basis": "1966 to 1969 published era reference"
+        },
+        {
+          "year": "1968",
+          "basis": "1966 to 1969 published era reference"
+        },
+        {
+          "year": "1969",
+          "basis": "1966 to 1969 published era reference"
+        },
+        {
+          "year": "1970",
+          "basis": "1970 to 1979 published era reference"
+        },
+        {
+          "year": "1971",
+          "basis": "1970 to 1979 published era reference"
+        },
+        {
+          "year": "1972",
+          "basis": "1970 to 1979 published era reference"
+        },
+        {
+          "year": "1973",
+          "basis": "1970 to 1979 published era reference"
+        },
+        {
+          "year": "1974",
+          "basis": "1970 to 1979 published era reference"
+        },
+        {
+          "year": "1975",
+          "basis": "1970 to 1979 published era reference"
+        },
+        {
+          "year": "1976",
+          "basis": "1970 to 1979 published era reference"
+        },
+        {
+          "year": "1977",
+          "basis": "1970 to 1979 published era reference"
+        },
+        {
+          "year": "1978",
+          "basis": "1970 to 1979 published era reference"
+        },
+        {
+          "year": "1979",
+          "basis": "1970 to 1979 published era reference"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. The 1959 rows retain this site's existing references; other rows use the 2025 published guide checked against completed sales. Ranges assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference."
+    },
+    {
+      "url": "/vintage-gibson-j-200-value-guide/",
+      "file": "src/content/value-guides/vintage-gibson-j-200-value-guide.md",
+      "rows": 33,
+      "removed": [
+        {
+          "year": "1947",
+          "basis": "1947 to 1949 shared era envelope"
+        },
+        {
+          "year": "1948",
+          "basis": "1947 to 1949 shared era envelope"
+        },
+        {
+          "year": "1949",
+          "basis": "1947 to 1949 shared era envelope"
+        },
+        {
+          "year": "1950",
+          "basis": "1950 to 1959 shared era envelope"
+        },
+        {
+          "year": "1951",
+          "basis": "1950 to 1959 shared era envelope"
+        },
+        {
+          "year": "1952",
+          "basis": "1950 to 1959 shared era envelope"
+        },
+        {
+          "year": "1953",
+          "basis": "1950 to 1959 shared era envelope"
+        },
+        {
+          "year": "1954",
+          "basis": "1950 to 1959 shared era envelope"
+        },
+        {
+          "year": "1955",
+          "basis": "1950 to 1959 shared era envelope"
+        },
+        {
+          "year": "1956",
+          "basis": "1950 to 1959 shared era envelope"
+        },
+        {
+          "year": "1957",
+          "basis": "1950 to 1959 shared era envelope"
+        },
+        {
+          "year": "1958",
+          "basis": "1950 to 1959 shared era envelope"
+        },
+        {
+          "year": "1959",
+          "basis": "1950 to 1959 shared era envelope"
+        },
+        {
+          "year": "1960",
+          "basis": "1960 to 1964 shared era envelope"
+        },
+        {
+          "year": "1961",
+          "basis": "1960 to 1964 shared era envelope"
+        },
+        {
+          "year": "1962",
+          "basis": "1960 to 1964 shared era envelope"
+        },
+        {
+          "year": "1963",
+          "basis": "1960 to 1964 shared era envelope"
+        },
+        {
+          "year": "1964",
+          "basis": "1960 to 1964 shared era envelope"
+        },
+        {
+          "year": "1965",
+          "basis": "1965 to 1969 shared era envelope"
+        },
+        {
+          "year": "1966",
+          "basis": "1965 to 1969 shared era envelope"
+        },
+        {
+          "year": "1967",
+          "basis": "1965 to 1969 shared era envelope"
+        },
+        {
+          "year": "1968",
+          "basis": "1965 to 1969 shared era envelope"
+        },
+        {
+          "year": "1969",
+          "basis": "1965 to 1969 shared era envelope"
+        },
+        {
+          "year": "1970",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1971",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1972",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1973",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1974",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1975",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1976",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1977",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1978",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1979",
+          "basis": "1970 to 1979 shared era envelope"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume an all-original, excellent-condition guitar with its original case and no structural repairs. Repeated years share an era reference, not separate annual sales samples."
+    },
+    {
+      "url": "/vintage-gibson-j-45-value-guide/",
+      "file": "src/content/value-guides/vintage-gibson-j-45-value-guide.md",
+      "rows": 38,
+      "removed": [
+        {
+          "year": "1942",
+          "basis": "1942 to 1945 shared era envelope"
+        },
+        {
+          "year": "1943",
+          "basis": "1942 to 1945 shared era envelope"
+        },
+        {
+          "year": "1944",
+          "basis": "1942 to 1945 shared era envelope"
+        },
+        {
+          "year": "1945",
+          "basis": "1942 to 1945 shared era envelope"
+        },
+        {
+          "year": "1946",
+          "basis": "1946 to 1954 shared era envelope"
+        },
+        {
+          "year": "1947",
+          "basis": "1946 to 1954 shared era envelope"
+        },
+        {
+          "year": "1948",
+          "basis": "1946 to 1954 shared era envelope"
+        },
+        {
+          "year": "1949",
+          "basis": "1946 to 1954 shared era envelope"
+        },
+        {
+          "year": "1950",
+          "basis": "1946 to 1954 shared era envelope"
+        },
+        {
+          "year": "1951",
+          "basis": "1946 to 1954 shared era envelope"
+        },
+        {
+          "year": "1952",
+          "basis": "1946 to 1954 shared era envelope"
+        },
+        {
+          "year": "1953",
+          "basis": "1946 to 1954 shared era envelope"
+        },
+        {
+          "year": "1954",
+          "basis": "1946 to 1954 shared era envelope"
+        },
+        {
+          "year": "1955",
+          "basis": "1955 to 1959 shared era envelope"
+        },
+        {
+          "year": "1956",
+          "basis": "1955 to 1959 shared era envelope"
+        },
+        {
+          "year": "1957",
+          "basis": "1955 to 1959 shared era envelope"
+        },
+        {
+          "year": "1958",
+          "basis": "1955 to 1959 shared era envelope"
+        },
+        {
+          "year": "1959",
+          "basis": "1955 to 1959 shared era envelope"
+        },
+        {
+          "year": "1960",
+          "basis": "1960 to 1969 shared era envelope"
+        },
+        {
+          "year": "1961",
+          "basis": "1960 to 1969 shared era envelope"
+        },
+        {
+          "year": "1962",
+          "basis": "1960 to 1969 shared era envelope"
+        },
+        {
+          "year": "1963",
+          "basis": "1960 to 1969 shared era envelope"
+        },
+        {
+          "year": "1964",
+          "basis": "1960 to 1969 shared era envelope"
+        },
+        {
+          "year": "1965",
+          "basis": "1960 to 1969 shared era envelope"
+        },
+        {
+          "year": "1966",
+          "basis": "1960 to 1969 shared era envelope"
+        },
+        {
+          "year": "1967",
+          "basis": "1960 to 1969 shared era envelope"
+        },
+        {
+          "year": "1968",
+          "basis": "1960 to 1969 shared era envelope"
+        },
+        {
+          "year": "1969",
+          "basis": "1960 to 1969 shared era envelope"
+        },
+        {
+          "year": "1970",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1971",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1972",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1973",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1974",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1975",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1976",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1977",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1978",
+          "basis": "1970 to 1979 shared era envelope"
+        },
+        {
+          "year": "1979",
+          "basis": "1970 to 1979 shared era envelope"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference; repairs and modifications need a separate comparison."
+    },
+    {
+      "url": "/vintage-gibson-les-paul-custom-value-guide/",
+      "file": "src/content/value-guides/vintage-gibson-les-paul-custom-value-guide.md",
+      "rows": 20,
+      "removed": [
+        {
+          "year": "1954",
+          "basis": "Early single-coil reference"
+        },
+        {
+          "year": "1955",
+          "basis": "Early single-coil reference"
+        },
+        {
+          "year": "1956",
+          "basis": "Early single-coil reference"
+        },
+        {
+          "year": "1957",
+          "basis": "Early single-coil reference"
+        },
+        {
+          "year": "1957",
+          "basis": "Broad 1950s humbucker reference"
+        },
+        {
+          "year": "1958",
+          "basis": "Broad 1950s humbucker reference"
+        },
+        {
+          "year": "1959",
+          "basis": "Broad 1950s humbucker reference"
+        },
+        {
+          "year": "1960",
+          "basis": "Broad 1950s humbucker reference"
+        },
+        {
+          "year": "1968",
+          "basis": "1968 to 1969 shared site reference"
+        },
+        {
+          "year": "1969",
+          "basis": "1968 to 1969 shared site reference"
+        },
+        {
+          "year": "1970",
+          "basis": "1970 to 1974 published era reference"
+        },
+        {
+          "year": "1971",
+          "basis": "1970 to 1974 published era reference"
+        },
+        {
+          "year": "1972",
+          "basis": "1970 to 1974 published era reference"
+        },
+        {
+          "year": "1973",
+          "basis": "1970 to 1974 published era reference"
+        },
+        {
+          "year": "1974",
+          "basis": "1970 to 1974 published era reference"
+        },
+        {
+          "year": "1975",
+          "basis": "1975 to 1979 shared published reference"
+        },
+        {
+          "year": "1976",
+          "basis": "1975 to 1979 shared published reference"
+        },
+        {
+          "year": "1977",
+          "basis": "1975 to 1979 shared published reference"
+        },
+        {
+          "year": "1978",
+          "basis": "1975 to 1979 shared published reference"
+        },
+        {
+          "year": "1979",
+          "basis": "1975 to 1979 shared published reference"
+        }
+      ],
+      "pricingNote": "Reviewed as of October 2026. The 1950s and 1968 to 1969 ranges retain this site's existing references; 1970s ranges use the 2025 guide checked against completed sales. Ranges assume an all-original, excellent-condition guitar with its original case. Repeated years share an era reference."
+    },
+    {
+      "url": "/vintage-gibson-les-paul-junior-value-guide/",
+      "file": "src/content/value-guides/vintage-gibson-les-paul-junior-value-guide.md",
+      "rows": 12,
+      "removed": [
+        {
+          "year": "1954",
+          "basis": "1954 to 1958 shared site reference"
+        },
+        {
+          "year": "1955",
+          "basis": "1954 to 1958 shared site reference"
+        },
+        {
+          "year": "1955",
+          "basis": "1955 to 1958 shared site reference"
+        },
+        {
+          "year": "1956",
+          "basis": "1954 to 1958 shared site reference"
+        },
+        {
+          "year": "1956",
+          "basis": "1955 to 1958 shared site reference"
+        },
+        {
+          "year": "1957",
+          "basis": "1954 to 1958 shared site reference"
+        },
+        {
+          "year": "1957",
+          "basis": "1955 to 1958 shared site reference"
+        },
+        {
+          "year": "1958",
+          "basis": "1954 to 1958 shared site reference"
+        },
+        {
+          "year": "1958",
+          "basis": "1955 to 1958 shared site reference"
+        },
+        {
+          "year": "1958",
+          "basis": "1958 to 1960 shared published clean-condition reference"
+        },
+        {
+          "year": "1959",
+          "basis": "1958 to 1960 shared published clean-condition reference"
+        },
+        {
+          "year": "1960",
+          "basis": "1958 to 1960 shared published clean-condition reference"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. Single-cutaway ranges retain this site's existing references; cherry double-cutaway ranges use the 2025 published guide checked against completed sales. Ranges assume an all-original, excellent-condition guitar with its original case. Repeated years share a configuration reference."
+    },
+    {
+      "url": "/vintage-gibson-les-paul-special-value-guide/",
+      "file": "src/content/value-guides/vintage-gibson-les-paul-special-value-guide.md",
+      "rows": 12,
+      "removed": [
+        {
+          "year": "1955",
+          "basis": "Existing TV Yellow era reference"
+        },
+        {
+          "year": "1956",
+          "basis": "Existing TV Yellow era reference"
+        },
+        {
+          "year": "1957",
+          "basis": "Existing TV Yellow era reference"
+        },
+        {
+          "year": "1958",
+          "basis": "Existing TV Yellow era reference"
+        },
+        {
+          "year": "1959",
+          "basis": "Existing TV Yellow era reference"
+        },
+        {
+          "year": "1959",
+          "basis": "Existing 1959 cherry reference"
+        },
+        {
+          "year": "1960",
+          "basis": "2025 reference; older auction cross-checks"
+        },
+        {
+          "year": "1974",
+          "basis": "Published reference and completed sales"
+        },
+        {
+          "year": "1976",
+          "basis": "Published reference and completed sales"
+        },
+        {
+          "year": "1977",
+          "basis": "Published reference and completed sales"
+        },
+        {
+          "year": "1978",
+          "basis": "Published reference and completed sales"
+        },
+        {
+          "year": "1979",
+          "basis": "Published reference and completed sales"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. TV Yellow and 1959 cherry ranges retain this site's existing references. The 1960 row uses the 2025 guide with older auction checks; 1970s rows combine the published guide and completed sales. Ranges assume an all-original, excellent-condition guitar with its original case."
+    },
+    {
+      "url": "/vintage-gibson-lg-series-value-guide/",
+      "file": "src/content/value-guides/vintage-gibson-lg-series-value-guide.md",
+      "rows": 87,
+      "removed": [
+        {
+          "year": "1958",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1959",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1960",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1961",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1962",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1963",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1964",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1965",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1966",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1967",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1968",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1969",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1970",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1971",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1972",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1973",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1974",
+          "basis": "1958 to 1974 shared model envelope"
+        },
+        {
+          "year": "1943",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1944",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1945",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1946",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1947",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1948",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1949",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1950",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1951",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1952",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1953",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1954",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1955",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1956",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1957",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1958",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1959",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1960",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1961",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1962",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1963",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1964",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1965",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1966",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1967",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1968",
+          "basis": "1943 to 1968 shared model envelope"
+        },
+        {
+          "year": "1942",
+          "basis": "1942 to 1945 shared era reference"
+        },
+        {
+          "year": "1943",
+          "basis": "1942 to 1945 shared era reference"
+        },
+        {
+          "year": "1944",
+          "basis": "1942 to 1945 shared era reference"
+        },
+        {
+          "year": "1945",
+          "basis": "1942 to 1945 shared era reference"
+        },
+        {
+          "year": "1946",
+          "basis": "1946 to 1949 shared era reference"
+        },
+        {
+          "year": "1947",
+          "basis": "1946 to 1949 shared era reference"
+        },
+        {
+          "year": "1948",
+          "basis": "1946 to 1949 shared era reference"
+        },
+        {
+          "year": "1949",
+          "basis": "1946 to 1949 shared era reference"
+        },
+        {
+          "year": "1950",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1951",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1952",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1953",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1954",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1955",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1956",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1957",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1958",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1959",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1960",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1961",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1962",
+          "basis": "1950 to 1962 shared era reference"
+        },
+        {
+          "year": "1942",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1943",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1944",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1945",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1946",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1947",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1948",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1949",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1950",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1951",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1952",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1953",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1954",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1955",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1956",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1957",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1958",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1959",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1960",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1961",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1962",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1963",
+          "basis": "1942 to 1964 shared model envelope"
+        },
+        {
+          "year": "1964",
+          "basis": "1942 to 1964 shared model envelope"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. Ranges use the 2025 published guide checked against completed sales and assume an all-original, excellent-condition guitar with its original case. Several years share a broad model or era reference; they aren't separate annual sales samples."
+    },
+    {
+      "url": "/post/fender-mustang-history-value/",
+      "file": "src/content/blog/fender-mustang-history-value.md",
+      "rows": 16,
+      "removed": [
+        {
+          "year": "1964",
+          "basis": "Existing Asking And Guide Range"
+        },
+        {
+          "year": "1965",
+          "basis": "Existing Asking And Guide Range"
+        },
+        {
+          "year": "1966",
+          "basis": "Existing Asking And Guide Range"
+        },
+        {
+          "year": "1967",
+          "basis": "Existing Asking And Guide Range"
+        },
+        {
+          "year": "1968",
+          "basis": "Existing Asking And Guide Range"
+        },
+        {
+          "year": "1969",
+          "basis": "Existing Asking And Guide Range"
+        },
+        {
+          "year": "1970",
+          "basis": "Existing Asking And Guide Range"
+        },
+        {
+          "year": "1971",
+          "basis": "Existing Asking And Guide Range"
+        },
+        {
+          "year": "1972",
+          "basis": "Sunburst Completed-Sale Era Range"
+        },
+        {
+          "year": "1973",
+          "basis": "Sunburst Completed-Sale Era Range"
+        },
+        {
+          "year": "1974",
+          "basis": "Sunburst Completed-Sale Era Range"
+        },
+        {
+          "year": "1975",
+          "basis": "Sunburst Completed-Sale Era Range"
+        },
+        {
+          "year": "1976",
+          "basis": "Sunburst Completed-Sale Era Range"
+        },
+        {
+          "year": "1977",
+          "basis": "Sunburst Completed-Sale Era Range"
+        },
+        {
+          "year": "1978",
+          "basis": "Sunburst Completed-Sale Era Range"
+        },
+        {
+          "year": "1979",
+          "basis": "Sunburst Completed-Sale Era Range"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. Standard-finish 1964 to 1971 and all Competition ranges retain existing asking and guide references. The 1972 to 1979 sunburst range uses completed sales. Repeated years share era ranges, with condition assumptions explained below."
+    },
+    {
+      "url": "/post/gibson-es-345-history-value/",
+      "file": "src/content/blog/gibson-es-345-history-value.md",
+      "rows": 22,
+      "removed": [
+        {
+          "year": "1959",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1959",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1960",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1961",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1962",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1963",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1964",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1965",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1966",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1967",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1968",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1969",
+          "basis": "Existing Asking Reference"
+        },
+        {
+          "year": "1970",
+          "basis": "Completed-Sale Era Comparison"
+        },
+        {
+          "year": "1971",
+          "basis": "Completed-Sale Era Comparison"
+        },
+        {
+          "year": "1972",
+          "basis": "Completed-Sale Era Comparison"
+        },
+        {
+          "year": "1973",
+          "basis": "Completed-Sale Era Comparison"
+        },
+        {
+          "year": "1974",
+          "basis": "Completed-Sale Era Comparison"
+        },
+        {
+          "year": "1975",
+          "basis": "Completed-Sale Era Comparison"
+        },
+        {
+          "year": "1976",
+          "basis": "Completed-Sale Era Comparison"
+        },
+        {
+          "year": "1977",
+          "basis": "Completed-Sale Era Comparison"
+        },
+        {
+          "year": "1978",
+          "basis": "Completed-Sale Era Comparison"
+        },
+        {
+          "year": "1979",
+          "basis": "Completed-Sale Era Comparison"
+        }
+      ],
+      "pricingNote": "Pricing note: Reviewed as of October 2026. The 1959 to 1969 ranges retain existing dealer asking and guide references for all-original, excellent guitars. The 1970s range uses completed sales in Very Good to Excellent condition, with parts and case allowances below. Repeated years share an era range."
+    }
+  ]
+}

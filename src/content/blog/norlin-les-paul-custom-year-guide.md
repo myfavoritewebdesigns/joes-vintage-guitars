@@ -11,7 +11,7 @@ heroImage: "/images/blog/norlin-les-paul-custom-year-guide/1976-gibson-les-paul-
 heroImageAlt: "Cherry sunburst 1976 Gibson Les Paul Custom body with two covered humbuckers and gold hardware."
 heroImageCaption: "1976 Gibson Les Paul Custom in Cherry Sunburst."
 heroImageLicensed: true
-metaDescription: "Compare Gibson Les Paul Custom specs from 1968 to 1986: pancake bodies, necks, pickups, serial numbers, factory variants, original prices and detailed photos."
+metaDescription: "Identify vintage Gibson Les Paul Customs by body, neck, pickups and hardware, with year-specific details, original features and current value context."
 ogImage: "/images/blog/norlin-les-paul-custom-year-guide/1976-gibson-les-paul-custom-sunburst-body-front.jpg"
 author: "Joe Dampt"
 draft: false
@@ -21,6 +21,8 @@ toc: [{"href":"#custom-features","label":"What Makes A Gibson Les Paul Custom Di
 ---
 
 <p class="norlin-lede"><strong>Gibson Les Paul Customs changed considerably between 1968 and 1986. Body construction, neck woods, pickups and hardware can help you identify one, but the changes didn't all happen in the same year. To date one, match the serial number to the guitar's construction and original parts.</strong></p>
+
+<p>For market ranges, use the <a href="/vintage-gibson-les-paul-custom-value-guide/">vintage Gibson Les Paul Custom value guide</a>, with annual rows through 1979 and the condition assumed for each era reference.</p>
 
 <h2 id="custom-features">What Makes A Gibson Les Paul Custom Different?</h2>
 
@@ -487,7 +489,7 @@ toc: [{"href":"#custom-features","label":"What Makes A Gibson Les Paul Custom Di
 <h2 id="condition-and-value">What Is A 1968 To 1986 Les Paul Custom Worth?</h2>
 
 <p>Start by identifying the construction and version you're valuing. An early 1969 Custom with a one-piece neck and back is a closer comparison to the 1968 return than to a later pancake-body guitar. A 25/50 Anniversary and a 1954-style Limited Edition also need to be compared with their own versions.</p>
-<p>As checked in October 2026, our <a href="/vintage-gibson-les-paul-market-value-guide/">Les Paul market value guide</a> gives a broad US retail estimate of $12,000 to $18,000 for 1968 to 1969 Customs in excellent, all-original condition with the correct case. The different 1969 construction groups won't all command the same price, and this estimate doesn't apply to the entire 1968 to 1986 range.</p>
+<p>As checked in October 2026, our <a href="/vintage-gibson-les-paul-market-value-guide/">Les Paul market value guide</a> gives a broad US retail estimate of $11,000 to $17,000 for 1968 to 1969 Customs in excellent, all-original condition with the correct case. The different 1969 construction groups won't all command the same price, and this estimate doesn't apply to the entire 1968 to 1986 range.</p>
 <p>Within a comparable group, inspect the finish, headstock, pickups and fretwork. A refret replaces the metal frets and changes the playing feel. A repaired headstock involves the wood itself and may also involve finish work. Record these separately so you can compare the guitar's condition with the example used to estimate its value.</p>
 <p>Weight, replacement hardware, the case and original paperwork can explain further differences between otherwise similar guitars. Use completed sales where available and distinguish them from advertised asking prices. For a value tied to the instrument in front of you, <a href="/free-appraisal/">send photos for a free guitar appraisal</a>.</p>
 

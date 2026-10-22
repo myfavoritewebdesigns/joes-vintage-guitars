@@ -1,0 +1,101 @@
+---
+// GAP 2 reference page. Index production while excluding branch previews.
+import GuideHero from '../components/GuideHero.astro';
+import Layout from '../layouts/Layout.astro';
+import ValueGuidePhotos from '../components/ValueGuidePhotos.astro';
+import { Content, getHeadings } from '../content/value-guides/vintage-gibson-sg-junior-value-guide.md';
+import data from '../data/value-guides/vintage-gibson-sg-junior-value-guide.json';
+import ogAsset from '../assets/images/gibson-sg-family-guide/1960s-gibson-sg-junior.webp';
+import { SITE_URL } from '../config/site';
+const headings = getHeadings().filter(h => h.depth === 2);
+const isPreview = import.meta.env.CF_PAGES_BRANCH
+  ? import.meta.env.CF_PAGES_BRANCH !== 'main'
+  : import.meta.env.DEV;
+const faqSchema = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: data.faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
+};
+const structuredData = [faqSchema, {
+  '@context': 'https://schema.org', '@type': 'Article',
+  headline: data.h1, description: data.description,
+  image: SITE_URL + ogAsset.src,
+  datePublished: data.date, dateModified: data.date, inLanguage: 'en-US',
+  author: { '@id': SITE_URL + '/about-me/#person' },
+  publisher: { '@id': SITE_URL + '/' }, mainEntityOfPage: SITE_URL + data.url
+}, {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL + '/' },
+    { '@type': 'ListItem', position: 2, name: data.h1, item: SITE_URL + data.url }
+  ]
+}];
+---
+<Layout title={data.title} description={data.description} canonical={data.url}
+  ogImage={SITE_URL + ogAsset.src} ogImageWidth={ogAsset.width} ogImageHeight={ogAsset.height} ogImageAlt={data.alt}
+  ogType="article" structuredData={structuredData} publishedTime={data.date} modifiedTime={data.date}
+  noIndex={isPreview} bodyClass="sjvg-page">
+  <GuideHero title={data.h1} image={ogAsset} alt={data.alt} brand="Gibson" eyebrow="Joe's Vintage Guitars / Value Reference" byline="By Joe Dampt · October 2026" />
+  <div class="sjvg-shell">
+    <details class="sjvg-mobile-toc"><summary>On This Page</summary><nav aria-label="Article sections"><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></details>
+    <aside class="sjvg-toc" aria-label="On this page"><p>On This Page</p><nav><ul>{headings.map(h=><li><a href={'#'+h.slug}>{h.text}</a></li>)}<li><a href="#value-questions">Value Questions</a></li></ul></nav></aside>
+    <article class="sjvg-article">
+      <ValueGuidePhotos><Content /></ValueGuidePhotos>
+      <section id="value-questions" class="sjvg-faq"><h2>Questions About {data.model} Value</h2>{data.faqs.map(f=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+    </article>
+  </div>
+</Layout>
+<style>
+.sjvg-backdrop>div:first-child{height:54px;background:var(--color-brand-brown)}
+.sjvg-backdrop>div:last-child{height:56px;background:var(--color-brand-brown);border-bottom:6px solid var(--color-brand-brown-tan)}
+.sjvg-heading{background:var(--color-brand-parchment);border-bottom:1px solid var(--color-brand-brown-tan);padding:172px 28px 36px}
+.sjvg-measure,.sjvg-shell{max-width:1280px;margin:0 auto}
+.sjvg-heading h1{font-family:var(--font-display);font-weight:600;font-size:clamp(32px,4vw,48px);line-height:1.15;color:var(--color-brand-brown);max-width:860px;margin:12px 0 16px}
+.sjvg-eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-brand-rust-dark);font-weight:700}
+.sjvg-byline{color:var(--color-brand-brown-mid);font-size:14px}
+.sjvg-byline span{padding:0 10px}
+.sjvg-shell{padding:32px 28px 72px}
+.sjvg-article,.sjvg-review{max-width:860px}
+.sjvg-review{padding:18px 22px;border-left:4px solid var(--color-brand-rust);background:var(--color-brand-vanilla);margin-bottom:28px;color:var(--color-brand-brown)}
+.sjvg-review strong{font-family:var(--font-display);font-size:20px}
+.sjvg-review p{font-size:14px;line-height:1.65;margin:6px 0 0}
+.sjvg-article{font-size:17px;line-height:1.85;color:var(--color-brand-charcoal)}
+.sjvg-article :global(p){margin:0 0 20px}
+.sjvg-article :global(h2){font-family:var(--font-display);font-size:clamp(26px,3vw,34px);line-height:1.25;color:var(--color-brand-brown);margin:48px 0 22px;scroll-margin-top:24px}
+.sjvg-article :global(h2)::after{content:'';display:block;width:80px;height:3px;background:var(--color-brand-rust);margin-top:14px}
+.sjvg-article :global(h3){font-family:var(--font-display);font-size:25px;line-height:1.3;color:var(--color-brand-brown);margin:32px 0 14px;scroll-margin-top:24px}
+.sjvg-article :global(a),.sjvg-toc a,.sjvg-mobile-toc a{color:var(--color-brand-rust-dark);text-decoration:underline;text-underline-offset:3px}
+.sjvg-article :global(a:hover){color:var(--color-brand-rust)}
+.sjvg-article :global(table){display:block;max-width:100%;overflow-x:auto;border-collapse:collapse;margin:24px 0 28px;font-size:15px;line-height:1.6}
+.sjvg-article :global(th){background:var(--color-brand-brown);color:white;text-align:left;font-weight:600}
+.sjvg-article :global(th),.sjvg-article :global(td){padding:14px 16px;border:1px solid var(--color-brand-brown-tan);min-width:122px;vertical-align:top}
+.sjvg-article :global(th:first-child),.sjvg-article :global(td:first-child){min-width:72px;font-weight:600}
+.sjvg-article :global(tr:nth-child(even)){background:var(--color-brand-vanilla)}
+.sjvg-article :global(figure){margin:32px 0;background:var(--color-brand-parchment);border:1px solid var(--color-brand-brown-tan)}
+.sjvg-article :global(figure p){margin:0}
+.sjvg-article :global(figure img){display:block;max-width:100%;max-height:720px;width:100%;height:auto;object-fit:contain;margin:0 auto;background:var(--color-brand-brown)}
+.sjvg-article :global(figcaption){font-size:14px;line-height:1.65;padding:14px 18px;color:var(--color-brand-brown-mid)}
+.sjvg-faq details{border-top:1px solid var(--color-brand-brown-tan);padding:18px 0}
+.sjvg-faq details:last-child{border-bottom:1px solid var(--color-brand-brown-tan)}
+.sjvg-faq summary{font-family:var(--font-display);font-size:22px;line-height:1.4;color:var(--color-brand-brown);cursor:pointer}
+.sjvg-faq details p{margin:16px 0 0;font-size:16px}
+.sjvg-toc{display:none}
+.sjvg-mobile-toc{max-width:860px;margin-bottom:28px;padding:14px 18px;background:var(--color-brand-parchment);border:1px solid var(--color-brand-brown-tan)}
+.sjvg-mobile-toc summary{font-family:var(--font-display);font-size:20px;color:var(--color-brand-brown);cursor:pointer}
+.sjvg-mobile-toc ul{list-style:none;padding:12px 0 0;margin:0}
+.sjvg-mobile-toc a{display:block;padding:7px 0;font-size:15px;line-height:1.5}
+@media(min-width:1440px){
+ .sjvg-toc{display:block;position:fixed;right:max(24px,calc((100vw - 1280px)/2));top:160px;width:270px;max-height:calc(100vh - 190px);overflow-y:auto;padding:20px;border:1px solid var(--color-brand-brown-tan);border-top:4px solid var(--color-brand-rust);background:white;z-index:20}
+ .sjvg-toc>p{font-family:var(--font-display);font-size:19px;margin-bottom:12px;color:var(--color-brand-brown)}
+ .sjvg-toc ul{list-style:none;padding:0;margin:0}
+ .sjvg-toc a{display:block;font-size:13px;line-height:1.5;padding:6px 0;text-decoration:none}
+ .sjvg-toc a:hover{text-decoration:underline}
+ .sjvg-mobile-toc{display:none}
+}
+@media(max-width:1439px){.sjvg-measure,.sjvg-shell{max-width:916px}}
+@media(max-width:767px){.sjvg-heading{padding:112px 20px 28px}.sjvg-shell{padding:24px 20px 48px}.sjvg-article{font-size:16px}.sjvg-article :global(h2){margin-top:36px}.sjvg-review{padding:15px 17px}}
+@media(max-width:639px){.sjvg-heading{padding-top:46px}}
+</style>
+
+<style>
+@media(min-width:1440px){.sjvg-shell{display:grid;grid-template-columns:minmax(0,860px) 270px;gap:40px;align-items:start}.sjvg-toc{position:sticky;top:24px;right:auto;grid-column:2;grid-row:1;width:auto;max-height:calc(100vh - 48px)}.sjvg-article{grid-column:1;grid-row:1;min-width:0}}
+</style>
