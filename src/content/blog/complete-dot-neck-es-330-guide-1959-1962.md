@@ -14,6 +14,8 @@ wpId: 20616
 ---
 The **Gibson ES-330** sits in an odd spot in the post-war electric guitar story. It's a fully hollow thinline with a short-neck 16th-fret joint, a pair of dogear P-90s, and a price tag aimed at the working player who wanted something new but couldn't stretch to an ES-335. From its 1959 introduction through the transitional years of the early 1960s, the 330 went through a long list of small but meaningful specification changes. The early examples wearing pearl dot inlays and single-layer body binding are the ones collectors and players hunt for today, and the details that separate a first-year 1959 from a 1962 late-dot-neck guitar are easy to miss if you don't know what you're looking at. This guide covers every spec we have documented, in as much depth as the historical record allows.
 
+If you're looking for prices, my [Gibson ES-330 value guide](/vintage-gibson-es-330-value-guide/) covers dot-neck examples alongside later years, with condition and originality notes.
+
 If you're hunting one of these guitars, browse our current inventory of [vintage Gibsons](https://reverb.com/shop/joe-s-gear-emporium-4) or read our broader guide to [vintage guitar collecting](/blog/). Got questions about a specific instrument, or want to know what yours is worth? [Reach out directly](/contact-me/) or request a [free appraisal](/free-appraisal/). We're always happy to talk specs.
 
 ## In This Guide

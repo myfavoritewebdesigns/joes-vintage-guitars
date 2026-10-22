@@ -22,6 +22,8 @@ toc: [{"href":"#1969-les-paul-custom-specifications","label":"1969 Gibson Les Pa
 
 <p class="norlin-lede"><strong>A 1969 Gibson Les Paul Custom can have early one-piece construction or later features such as a layered pancake body and a small neck volute. Gibson introduced these changes at different times, so the body, neck, headstock and original parts need to be considered together.</strong></p>
 
+<p>If you're comparing prices, my <a href="/vintage-gibson-les-paul-custom-value-guide/">Les Paul Custom value guide</a> covers the 1969 model alongside other years, with condition and originality notes.</p>
+
 <h2 id="1969-les-paul-custom-specifications">1969 Gibson Les Paul Custom Specifications</h2>
 
 <p>The 1969 Les Paul Custom is the black, gold-trimmed version of Gibson's single-cutaway Les Paul. Its carved maple top sits over a mahogany back, and the neck carries a dark ebony fingerboard with large pearl block inlays. Layers of contrasting binding outline the body and headstock, where the Gibson name sits above the split-diamond decoration.</p>
