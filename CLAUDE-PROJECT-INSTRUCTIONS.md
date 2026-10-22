@@ -2,7 +2,7 @@
 
 > **Setup note:** paste the body of this document (everything below the line) into the
 > **Custom Instructions** field of the claude.ai Project named "Joe's Vintage Guitars — Builder."
-> Upload `CLAUDE.md` and `feedback_jvg_design_preferences.md` as Knowledge files alongside it.
+> Upload `CLAUDE.md`, `DECISIONS.md`, `docs/SITE_NOTES.md` and `feedback_jvg_design_preferences.md` as Knowledge files alongside it.
 >
 > This doc is committed to the repo so Josh can keep it in sync; when meaningful changes
 > are made to either CLAUDE.md or these instructions, re-paste the updated content
@@ -59,17 +59,17 @@ You may **read** these for reference but never **modify** them. If Joe asks you 
 
 When Joe asks for a new page, follow this sequence:
 
-1. **Identify the page archetype.** Read CLAUDE.md's "Page archetypes" section. Most "sell my X guitar" pages are Archetype A (conversion). Most "how to read X serial numbers" pages are Archetype B (reference/SEO).
+1. **Identify the page archetype.** Read the "Page archetypes" section of `docs/SITE_NOTES.md`. Most "sell my X guitar" pages are Archetype A (conversion). Most "how to read X serial numbers" pages are Archetype B (reference/SEO).
 2. **Read existing similar pages** as templates: `src/pages/sell-my-fender-guitar.astro` and `src/pages/sell-my-gibson-guitar.astro` are the reference Archetype A pages and reflect the most recent decisions.
 3. **Read the live page** via web fetch: `https://www.joesvintageguitarsaz.com/<path>/`. Extract content, structure, anchor IDs, and section order.
 4. **Match live's anchor IDs exactly.** This is non-negotiable — inbound links and TOC anchors break otherwise. The sell-gibson Meet Joe section uses `#meet-connoisseur-joe-dampt`, the sell-fender one uses `#meet-vintage-guitar-buyer-joe-dampt`. These come from live, not from us.
 5. **Use the brand prefix pattern.** Sell-fender uses `.smf-` for CSS classes, sell-gibson uses `.smg-`. New brand pages should use a similar 3-letter prefix derived from the brand name (e.g. `.smm-` for Martin, `.smr-` for Rickenbacker, `.smgr-` for Gretsch).
-6. **Apply design tokens.** Don't invent new colors — use the existing CSS custom properties from `src/styles/global.css` (`--color-brand-rust-dark`, `--color-brand-cream`, etc.). See CLAUDE.md "Design system" section for the full palette.
+6. **Apply design tokens.** Don't invent new colors — use the existing CSS custom properties from `src/styles/global.css` (`--color-brand-rust-dark`, `--color-brand-cream`, etc.). See the "Design system" section of `docs/SITE_NOTES.md` for the full palette.
 7. **Verify build will succeed.** Before opening the PR, mentally check: `npx astro check` should pass with 0 errors. If you can't be sure, note in the PR description that Joe should check the build log + fix any issues you missed.
 
 ## Decision log — read before changing things
 
-The CLAUDE.md "Decision log" section lists every intentional design choice Joe has approved. **Check it before making any change that might revert a prior decision.** Examples of common gotchas:
+`DECISIONS.md` lists every intentional design choice Joe has approved. **Check it before making any change that might revert a prior decision.** Examples of common gotchas:
 
 - The "Every Guitar Has A Story" banner is intentionally rendered as a separate full-width band below ValueProp, NOT merged into the tan panel.
 - The contact section uses a solid rust background, NOT the original photo background (the photo was too low-resolution).
@@ -89,12 +89,12 @@ When in doubt, ask Joe whether a change conflicts with a documented decision, OR
 - Astro components: TypeScript strict mode, no `any` types
 - CSS: scoped `<style>` blocks unless explicitly using `<style is:global>` for `set:html` content
 - Comments: explain WHY, not WHAT — especially for design decisions that might look weird to future readers
-- For any 3+ line decision you make, leave a comment citing CLAUDE.md or the live URL you matched
+- For any 3+ line decision you make, leave a comment citing DECISIONS.md or the live URL you matched
 
 ## When you don't know something
 
 - If you can't figure out what Joe wants after 2 attempts, ask him for: (a) a screenshot of what's wrong, (b) the specific element + property name, or (c) a description of where on the page the issue is.
-- If Joe asks something that conflicts with a documented decision in CLAUDE.md, tell him so + ask if he wants to override.
+- If Joe asks something that conflicts with a documented decision in DECISIONS.md, tell him so + ask if he wants to override.
 - If Joe asks for something that touches an off-limits file, refuse + tell him to ask Josh.
 
 ## What to tell Joe in EVERY PR comment

@@ -178,7 +178,7 @@ Each finding should be a single sentence describing **what's wrong** and **where
 ## Hard rules
 
 - **Never modify code.** You audit; the main agent fixes.
-- **Always check the [decision log in CLAUDE.md](../../CLAUDE.md#decision-log) before flagging a "deviation."** Many divergences from live are intentional. If a deviation is logged, mark it 🟢 acceptable.
+- **Always check the [decision log in DECISIONS.md](../../DECISIONS.md#decision-log) before flagging a "deviation."** Many divergences from live are intentional. If a deviation is logged, mark it 🟢 acceptable.
 - **Always force lazy-load before counting images.** This is the #1 false negative.
 - **If you make 2 visual claims that the main agent disputes, suggest the cross-model second-opinion workflow** (Gemini/GPT). Parallel Claude instances are correlated and will share blind spots — for genuine adversarial review, a different model family is required.
 - **Be concrete.** "Section looks wrong" is useless. "Custom Shop section (H2#custom-shop) is missing the 2 images present on live (fender-cn-prefix-serial-number.jpg, fender-coa-proving-r-prefix-unreliability.jpg)" is useful.
