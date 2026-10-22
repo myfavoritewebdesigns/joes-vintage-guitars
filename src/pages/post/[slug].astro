@@ -54,8 +54,17 @@ const { data } = entry;
 const isBurstYearGuide = /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(entry.id);
 const isNorlinGuide = ["norlin-les-paul-custom-year-guide", "1968-gibson-les-paul-custom-guide", "1969-gibson-les-paul-custom-guide", "1970-gibson-les-paul-custom-guide", "1968-1969-1970-les-paul-custom-dating-guide"].includes(entry.id);
 const isGap2ValueConversion = ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide"].includes(entry.id);
-// Only explicitly reviewed GAP 2 titles opt out of the automatic brand suffix.
-const hasGap2SeoTitle = (data.seoTitle?.length ?? 0) >= 50 && ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide","vintage-fender-jaguar-guide","vintage-fender-jazz-bass-guide","1952-fender-precision-bass-guide","gibson-les-paul-junior-guide","gibson-byrdland-authentication-guide","gibson-es-125-guide","identify-vintage-gibson-j45-j50-sj","gibson-j200-model-history-authentication-guide","1955-1958-tv-yellow-les-paul-special-guide","1959-gibson-es-355-history-value"].includes(entry.id);
+// Brand suffix is appended only when the finished title still fits Google's
+// ~60-character display limit. This replaces the per-slug allowlists that used
+// to opt individual posts out by hand, so new posts get the right behaviour
+// without anyone remembering to add them to a list.
+const BRAND_SUFFIX = " | Joe's Vintage Guitars";
+const TITLE_LIMIT = 60;
+const baseTitle = data.seoTitle || data.title;
+const pageTitle =
+  baseTitle.length + BRAND_SUFFIX.length <= TITLE_LIMIT
+    ? `${baseTitle}${BRAND_SUFFIX}`
+    : baseTitle;
 const displayedRelated = isBurstYearGuide
   ? related.filter((post) => /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(post.id))
   : related;
@@ -539,7 +548,7 @@ const articleSchema = {
 
 <Layout
   bodyClass={isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
-  title={(isNorlinGuide || hasGap2SeoTitle) ? (data.seoTitle || data.title) : `${data.seoTitle || data.title} | Joe's Vintage Guitars`}
+  title={pageTitle}
   noIndex={data.draft}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
