@@ -22,6 +22,8 @@ toc: [{"href":"#1968-custom-return","label":"Gibson Les Paul Custom Reintroducti
 
 <p class="norlin-lede"><strong>The 1968 Gibson Les Paul Custom has a carved maple top, a one-piece mahogany back and neck, and two humbucking pickups. It returned before the construction changes of 1969 and 1970, making it the starting point for dating these early Customs.</strong></p>
 
+<p>If you're comparing prices, my <a href="/vintage-gibson-les-paul-custom-value-guide/">Les Paul Custom value guide</a> covers the 1968 model alongside other years, with condition and originality notes.</p>
+
 <h2 id="1968-custom-return">Gibson Les Paul Custom Reintroduction In 1968</h2>
 
 <p>Gibson brought the single-cutaway Les Paul Custom back into production in 1968. Its black finish, gold-plated hardware and decorative binding, the contrasting trim around the edges, gave it the familiar Black Beauty appearance. Underneath that finish, the body combined a carved maple top with a mahogany back.</p>
