@@ -1,5 +1,6 @@
 ---
 title: "Collector’s Guide to the Gretsch 6120: History, Specs, and Value"
+seoTitle: "Guide To The Gretsch 6120: History, Specs, And Value"
 pubDate: "2026-02-13T23:53:33"
 modified: "2026-04-01T16:47:27"
 excerpt: "Thinking of selling a vintage Gretsch 6120? This guide covers 1954-1962 specifications and ‘Golden Era’ milestones, condition issues like binding rot, and current market valuations. Get an expert appraisal today."

@@ -1,5 +1,6 @@
 ---
 title: "Original Owner, Original Bass: A ’73 Jazz Bass Meets the Vintera III"
+seoTitle: "1973 Fender Jazz Bass Meets Vintera III: An Owner's Story"
 pubDate: "2026-04-29T16:37:06"
 modified: "2026-05-13T18:00:22"
 excerpt: "Jim’s parents bought him a brand-new 1973 Fender Jazz Bass for Christmas: sunburst, maple board, black blocks. Fifty years later, we put it head-to-head with Fender’s brand-new Vintera III Early ’70s Jazz Bass. Here’s how the reissue stacks up against the real thing."

@@ -1,5 +1,6 @@
 ---
 title: "How to Sell a Large Guitar Collection (Every Option, Honestly Explained)"
+seoTitle: "How To Sell A Large Guitar Collection: Options Compared"
 pubDate: "2026-04-02T22:47:45"
 modified: "2026-05-14T17:07:36"
 excerpt: "If you've built your collection over decades, or just inherited one you don't know how to value, selling a large guitar collection is a real job, not a weekend project. This guide covers every selling avenue honestly: Reverb, eBay, Facebook Marketplace, local dealers, consignment, auction houses, and more. We've handled collections of 700+ instruments and help with every step, including identification, documentation, and organization. Read the full breakdown, then decide what's right for you."

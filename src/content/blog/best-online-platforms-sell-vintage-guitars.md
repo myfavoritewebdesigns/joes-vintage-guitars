@@ -1,5 +1,6 @@
 ---
 title: "Best Online Platforms to Sell Vintage Guitars in 2026: Fees, Risks, and What You Actually Keep"
+seoTitle: "Best Platforms To Sell Vintage Guitars In 2026: Fees"
 pubDate: "2026-05-12T20:56:01"
 modified: "2026-05-13T16:02:39"
 excerpt: "A 5% selling fee can quietly become 12% by the time you get paid. Here is what every major online platform actually costs vintage guitar sellers in 2026, four platforms compared side by side."

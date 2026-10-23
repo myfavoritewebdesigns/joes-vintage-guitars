@@ -1,5 +1,6 @@
 ---
 title: "Gibson PAF and Patent Number Pickups: History, Authentication, and Value"
+seoTitle: "Gibson PAF And Patent Number Pickups: Authentication"
 pubDate: "2026-07-13T12:00:00"
 modified: "2026-07-13T12:00:00"
 excerpt: "The Gibson PAF humbucker is the most valuable two ounces of wire and metal in the guitar world, and the patent number pickup that followed it is the best bargain. This guide covers the whole story: how Seth Lover invented the humbucker, how the pickup changed from 1957 through the 1970s, every authentication point we check on the bench, and what these pickups are really worth. It also explains, in plain terms, why you should never take one apart to find out."

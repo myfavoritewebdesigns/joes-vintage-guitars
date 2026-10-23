@@ -1,5 +1,6 @@
 ---
 title: "Klon Centaur Guide: Tone, Authentication, and Value of the Original (And How the Clones Compare)"
+seoTitle: "Klon Centaur: Authentication, Tone, Value And Clones"
 pubDate: "2026-07-31T12:00:00"
 modified: "2026-07-31T12:00:00"
 excerpt: "A real Klon Centaur is a hand-built pedal with a hand-written serial number, a sand-cast enclosure, and a lump of black epoxy hiding the clipping section. Here is what makes it sound the way it does, how to tell a genuine one from the fakes now flooding the market, what it is worth in 2026, and how the modern clones actually stack up. Shown on a gold Centaur here in the shop."

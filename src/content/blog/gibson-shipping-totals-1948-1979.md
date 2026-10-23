@@ -1,5 +1,6 @@
 ---
 title: "Gibson Guitar Production Numbers: Shipping Totals (1948 to 1979)"
+seoTitle: "Gibson Production Numbers: Shipping Totals (1948 To 1979)"
 pubDate: "2026-03-02T21:44:13"
 modified: "2026-10-14T22:52:35Z"
 excerpt: "A look at the official Kalamazoo records on how rare your instrument really is. This guide lists Gibson shipping totals from 1948 to 1979, the data you need for an accurate vintage guitar appraisal. If you are researching a 1959 Sunburst or a Norlin-era Custom, these figures give you the production numbers to back up a value before you sell your vintage guitar."

@@ -1,5 +1,6 @@
 ---
 title: "The 1971 Gibson Flying V 'Medallion': History, Specs, and How to Spot a Real One"
+seoTitle: "1971 Gibson Flying V Medallion: History And Authentication"
 pubDate: "2026-07-10T12:00:00"
 modified: "2026-07-10T12:00:00"
 excerpt: "In 1971 Gibson revived the Flying V as a numbered limited edition, each one wearing a small gold medallion coin engraved with its own number. Only about 353 were built, all in cherry. This guide covers what the Medallion V is, the real story behind it, how it differs from the 1958 and late-1960s Vs, a full spec breakdown, how to tell a genuine one, and a close look at number 176 from the shop."

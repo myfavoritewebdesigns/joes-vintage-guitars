@@ -1,5 +1,6 @@
 ---
 title: "Selling a Vintage Guitar in Ohio or the Midwest? Meet Cardinal Vintage Guitars"
+seoTitle: "Sell A Vintage Guitar In Ohio And The Midwest: Cardinal"
 pubDate: "2026-07-14T12:00:00"
 modified: "2026-07-14T12:00:00"
 excerpt: "Joe's Vintage Guitars now has a Midwest home. Cardinal Vintage Guitars is our sister shop serving Columbus, Dayton, Cincinnati, Southwest Ohio, and Indianapolis, with the same honest appraisals and prompt payment Joe's is known for. Here is what it is, what it buys, and when to call which shop."

@@ -1,5 +1,6 @@
 ---
 title: "Complete Dot Neck ES-330 Authentication Guide & Timeline (1958-1962)"
+seoTitle: "Dot Neck ES-330 Authentication Guide: 1958 To 1962 Specs"
 pubDate: "2026-03-26T20:49:26"
 modified: "2026-05-14T17:53:30"
 excerpt: "The dot-neck Gibson ES-330 is one of the more misunderstood guitars of Gibson’s golden era. Fully hollow, dogear P-90 equipped, and joining the body at the 16th fret (not the 17th, not the 19th), it’s a very different instrument from the ES-335 it’s so often compared to. This guide covers every specification of the 1959 to 1962 dot-neck era in detail: neck profiles by year, knob changes, saddle materials, serial numbers, FON dating, cases, pickguard construction, vibrato variants, and the other details that separate an original example from a modified one, and a 1959 from a 1962."

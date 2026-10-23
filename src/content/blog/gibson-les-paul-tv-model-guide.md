@@ -1,5 +1,6 @@
 ---
 title: "The Gibson Les Paul TV Model: History, Specs, and Value (1954 to 1959)"
+seoTitle: "Gibson Les Paul TV Model 1954 To 1959: History And Specs"
 pubDate: "2026-07-07T12:00:00"
 modified: "2026-07-07T12:00:00"
 excerpt: "The Les Paul TV Model is a Gibson Les Paul Junior wearing the pale limed mahogany finish collectors call TV Yellow. It carries a single dog-ear P-90, a slab mahogany body, and one of the lowest production counts of any 1950s Gibson solidbody. This guide covers the full history, the year-by-year specs, how to date one by its serial number, the real Kalamazoo shipping totals, and what actually drives value, drawn from hands-on experience authenticating these guitars at Joe's Vintage Guitars."

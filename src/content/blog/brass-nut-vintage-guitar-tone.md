@@ -1,5 +1,6 @@
 ---
 title: "The Brass Nut Question: Tone, History, and the Cost of “Upgrading” Your Vintage Guitar"
+seoTitle: "Brass Nuts On Vintage Guitars: Tone, History And Value"
 pubDate: "2026-03-04T21:46:23"
 modified: "2026-03-04T21:46:23"
 excerpt: "Is a brass nut a sustain upgrade or a vintage value killer? We go through the history of this 70s and 80s trend, from the physics of “metal-on-metal” tone to factory-original Gretsch models, and explain why your choice of nut material could cost you thousands in resale value."

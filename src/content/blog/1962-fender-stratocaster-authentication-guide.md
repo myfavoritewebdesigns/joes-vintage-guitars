@@ -1,5 +1,6 @@
 ---
 title: "1962 Fender Stratocaster Authentication Guide: Slab Board, Black Pickups & Pre-CBS Details"
+seoTitle: "1962 Fender Stratocaster Authentication And Specs Guide"
 pubDate: "2026-03-16T19:26:24"
 modified: "2026-08-08T14:00:00"
 excerpt: "The 1962 Fender Stratocaster comes from the end of the pre-CBS golden age of Fullerton production: pre-CBS, pre-veneer on early examples, and built to a standard Fender rarely hit again. The main challenge in authenticating a 1962 is the mid-year slab-to-veneer rosewood transition, but there’s more to it: black-bottom pickups, pot codes, the puzzle-piece finish test, nail holes with bare wood inside, and a mint-green pickguard that only original celluloid produces. This guide covers every detail."

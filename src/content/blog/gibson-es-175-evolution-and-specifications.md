@@ -1,5 +1,6 @@
 ---
 title: "Gibson ES-175 Guide: Evolution, Technical Specs, and Market Value"
+seoTitle: "Gibson ES-175 Guide: Evolution, Specs And Market Value"
 pubDate: "2026-02-15T04:50:42"
 modified: "2026-02-18T23:22:01"
 excerpt: "Since its debut, the Gibson ES-175 has been one of the most recorded jazz guitars around. From its Florentine cutaway to the switch from P-90s to PAF humbuckers in 1957, this laminate-body archtop is versatile and instantly recognizable. Our guide breaks down the specs and serial numbers that determine the collector value of your vintage 175."

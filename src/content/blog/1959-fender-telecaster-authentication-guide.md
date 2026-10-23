@@ -1,5 +1,6 @@
 ---
 title: "1959 Fender Telecaster Authentication Guide: Originality & Specs Check"
+seoTitle: "1959 Fender Telecaster Authentication And Specs Guide"
 pubDate: "2026-03-16T15:56:05"
 modified: "2026-03-24T20:51:33"
 excerpt: "The 1959 Fender Telecaster packs more changes into one year than any other in the model's history: slab rosewood fingerboard, top-loader bridge reversal, the Telecaster Custom introduction, and a mid-year gap where Fender employees were ordered to stop dating necks entirely. This guide covers every feature change, every dating method, and every detail that separates a genuine 1959 from a reissue or misrepresented example."

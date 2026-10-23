@@ -1,5 +1,6 @@
 ---
 title: "The Hardtail Stratocaster: Why This Underrated Vintage Fender is a Tone Monster"
+seoTitle: "Vintage Fender Hardtail Stratocaster: Tone And History"
 pubDate: "2026-03-05T22:26:22"
 modified: "2026-03-05T22:26:22"
 excerpt: "Think of it as a “Telecaster on steroids.” The Fender Hardtail Stratocaster is one of the most underrated tools in vintage Fender. From the resonant pre-CBS models of the 1950s to the punchy, lightweight players of the 1970s, the hardtail offers a percussive “snap” and rock-solid tuning stability that traditional tremolo models don’t. Find out why these rare “string-through” Strats, which made up only about 5% of early production, were the choice of players like Nile Rodgers and Robert Cray."

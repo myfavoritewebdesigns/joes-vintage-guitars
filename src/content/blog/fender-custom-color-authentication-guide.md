@@ -1,5 +1,6 @@
 ---
 title: "How to Authenticate a Fender Custom Color Finish (1950s and 1960s)"
+seoTitle: "Authenticate A Fender Custom Color Finish (1950s And 1960s)"
 pubDate: "2026-07-08T12:00:00"
 modified: "2026-07-08T12:00:00"
 excerpt: "A real 1960s Fender custom color can be worth several times what the same guitar brings in sunburst, which is exactly why so many refinished guitars are wearing one today. This guide covers everything we check when a custom color Fender comes through the shop: the color charts, the undercoats (white, silver, gold, and Desert Sand), nail holes, paint stick shadows in the neck pocket, what belongs under the pickguard, matching headstocks, how each color ages, blacklight testing, the classic refinish tells, and the soldering iron mark that gives away a factory refinish."

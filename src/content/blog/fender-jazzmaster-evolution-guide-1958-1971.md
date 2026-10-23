@@ -1,5 +1,6 @@
 ---
 title: "Fender Jazzmaster Evolution Guide: Every Spec Change From 1958 to 1971"
+seoTitle: "Fender Jazzmaster 1958 To 1971: Evolution And Specs Guide"
 pubDate: "2026-03-17T22:49:07"
 modified: "2026-08-13T00:00:00"
 excerpt: "The Fender Jazzmaster changed more times in its first 14 years than almost any other model in the Fender lineup. This guide documents every spec change year by year: gold guard to tortoiseshell, slab to veneer, clay dots to pearl to blocks, spaghetti to CBS black logo, Klusons to F-tuners, and a complete custom color reference with the correct pickguard pairing for every finish."
