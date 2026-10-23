@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/klon-centaur-authentication-value-guide/klon-centaur-gold-top-face-controls.jpg"
 heroImageAlt: "The gold top face of an original Klon Centaur professional overdrive showing the Gain, Treble, and Output knobs and the red centaur archer graphic."
-metaDescription: "How to authenticate an original Klon Centaur, why it sounds the way it does, and what one is worth in 2026. Serial numbers, pot codes, the epoxy goop, fake tells, and a clone comparison."
+metaDescription: "Authenticate an original Klon Centaur: serial numbers, pot codes, the epoxy goop and fake tells, plus what one is worth and how clones compare."
 ogImage: "/images/blog/klon-centaur-authentication-value-guide/klon-centaur-gold-top-face-controls.jpg"
 toc:
   - { href: "#quick-answer", label: "The Short Version" }

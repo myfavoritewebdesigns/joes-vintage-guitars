@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/large-vintage-guitar-collection.jpg"
 heroImageAlt: "A vintage guitar collection purchased by Joe's Vintage Guitars"
-metaDescription: "If you've built your collection over decades, or just inherited one you don't know how to value, selling a large guitar collection is a real job, not a weekend project. This guide covers every selling avenue honestly: Reverb, eBay, Facebook Marketplace, local dealers, consignment, auction houses, and more. We've handled collections of 700+ instruments and help with every step, including identification, documentation, and organization. Read the full breakdown, then decide what's right for you."
+metaDescription: "Selling a large guitar collection: Reverb, eBay, Facebook, dealers, consignment and auction houses compared, plus how to document and organize it."
 ogImage: "/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/large-vintage-guitar-collection.jpg"
 wpId: 20723
 ---

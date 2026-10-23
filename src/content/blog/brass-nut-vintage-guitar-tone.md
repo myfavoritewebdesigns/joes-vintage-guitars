@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/brass-nut-vintage-guitar-tone/brass-nut-at-joes-vintage-guitars.jpg"
 heroImageAlt: "Close-up of a vintage guitar headstock featuring a 1970s era brass nut modification at Joe’s Vintage Guitars"
-metaDescription: "Is a brass nut a sustain upgrade or a vintage value killer? We go through the history of this 70s and 80s trend, from the physics of “metal-on-metal” tone to factory-original Gretsch models, and explain why your choice of nut material could cost you thousands in resale value."
+metaDescription: "Is a brass nut a sustain upgrade or a value killer? The 1970s and 80s trend, factory-original Gretsch models, and what nut material costs at resale."
 ogImage: "/images/blog/brass-nut-vintage-guitar-tone/brass-nut-at-joes-vintage-guitars.jpg"
 wpId: 19200
 ---

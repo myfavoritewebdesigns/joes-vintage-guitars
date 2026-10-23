@@ -8,7 +8,7 @@ categoryName: "Serial Number & Dating Guides"
 tags: []
 heroImage: "/images/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-serial-number-scaled.jpg"
 heroImageAlt: "Detailed view of the back of a 1958 Gibson Les Paul Special headstock featuring the original black ink-stamped serial number. The Five-digit sequence is applied on top of the \"TV Yellow\" nitrocellulose finish, showing a distinct, slightly fuzzy edge characteristic of 1950s factory stamping rather than a modern impression into the wood."
-metaDescription: "A look at the official Kalamazoo records on how rare your instrument really is. This guide lists Gibson shipping totals from 1948 to 1979, the data you need for an accurate vintage guitar appraisal. If you are researching a 1959 Sunburst or a Norlin-era Custom, these figures give you the production numbers to back up a value before you sell your vintage guitar."
+metaDescription: "Official Kalamazoo shipping totals for Gibson guitars, 1948 to 1979. The production numbers behind an accurate vintage appraisal, model by model."
 ogImage: "/images/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-serial-number-scaled.jpg"
 wpId: 18430
 ---

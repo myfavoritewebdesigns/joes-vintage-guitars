@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gretsch-6120-history-value/gretsch-6120-market-value-scaled.jpg"
 heroImageAlt: "A 1960 Gretsch 6120 in excellent condition with the original hard case. We buy Gretsch guitars."
-metaDescription: "Thinking of selling a vintage Gretsch 6120? This guide covers 1954-1962 specifications and ‘Golden Era’ milestones, condition issues like binding rot, and current market valuations. Get an expert appraisal today."
+metaDescription: "Selling a vintage Gretsch 6120? Specs and Golden Era milestones from 1954 to 1962, binding rot and other condition issues, plus current values."
 ogImage: "/images/blog/gretsch-6120-history-value/gretsch-6120-market-value-scaled.jpg"
 wpId: 18154
 ---

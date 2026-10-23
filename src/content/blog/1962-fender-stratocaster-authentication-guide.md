@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg"
 heroImageAlt: "1962 Fender Stratocaster Authentication guide."
-metaDescription: "The 1962 Fender Stratocaster comes from the end of the pre-CBS golden age of Fullerton production: pre-CBS, pre-veneer on early examples, and built to a standard Fender rarely hit again. The main challenge in authenticating a 1962 is the mid-year slab-to-veneer rosewood transition, but there’s more to it: black-bottom pickups, pot codes, the puzzle-piece finish test, nail holes with bare wood inside, and a mint-green pickguard that only original celluloid produces. This guide covers every detail."
+metaDescription: "Authenticate a 1962 Fender Stratocaster: the mid-year slab to veneer rosewood change, black-bottom pickups, pot codes, nail holes and a mint-green guard."
 ogImage: "/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg"
 wpId: 20181
 ---

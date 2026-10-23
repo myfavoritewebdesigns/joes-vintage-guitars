@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gibson-les-paul-tv-model-guide/1957-gibson-les-paul-tv-model-front-of-body.jpg"
 heroImageAlt: "Front of a 1957 Gibson Les Paul TV Model in TV Yellow limed mahogany finish, showing the single black dog-ear P-90 pickup, single-ply black pickguard, one-piece wraparound bridge, and two black bonnet knobs."
-metaDescription: "The Les Paul TV Model is a Gibson Les Paul Junior in TV Yellow limed mahogany. Full 1950s history, specs, serial dating, production totals, and value from Joe's Vintage Guitars."
+metaDescription: "The Les Paul TV Model is a Les Paul Junior in TV Yellow limed mahogany. 1950s history, specs, serial dating, production totals and current value."
 ogImage: "/images/blog/gibson-les-paul-tv-model-guide/1957-gibson-les-paul-tv-model-front-of-body.jpg"
 ---
 1.  [What the Les Paul TV Model Is](#tvm-what)

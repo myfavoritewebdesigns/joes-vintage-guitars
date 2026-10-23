@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/selling-a-vintage-guitar-in-ohio-and-the-midwest/cardinal-vintage-guitars-cherry-gibson-es-335.jpg"
 heroImageAlt: "A cherry red Gibson ES-335 resting in its case, representative of the vintage guitars Cardinal Vintage Guitars buys across Ohio and the Midwest."
-metaDescription: "Cardinal Vintage Guitars is the Ohio and Midwest sister shop of Joe's Vintage Guitars, buying vintage Gibson, Fender, and Martin guitars in Columbus, Dayton, Cincinnati, and Indianapolis."
+metaDescription: "Cardinal Vintage Guitars is the Ohio and Midwest sister shop of Joe's Vintage Guitars, buying vintage Gibson, Fender and Martin across the region."
 ogImage: "/images/blog/selling-a-vintage-guitar-in-ohio-and-the-midwest/cardinal-vintage-guitars-cherry-gibson-es-335.jpg"
 toc:
   - { href: "#meet-cardinal", label: "Joe's Now Has a Midwest Home" }

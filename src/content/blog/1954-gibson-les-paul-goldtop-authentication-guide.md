@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-scaled.jpg"
 heroImageAlt: "A Gibson Les Paul Goldtop from 1954"
-metaDescription: "A year-specific authentication reference for the 1954 Gibson Les Paul Goldtop, the first full production year with the corrected neck pitch and wrap tail bridge. Covers serial numbers, no-line Kluson tuners, Grey Tiger capacitors, barrel knobs, P-90 pickups, bullion gold finish, and how to tell a genuine 1954 from a reissue or a date-shifted neighbor."
+metaDescription: "The 1954 Les Paul Goldtop, first full year of the corrected neck pitch and wrap tail. Serials, no-line Klusons, Grey Tiger caps, barrel knobs, P-90s."
 ogImage: "/images/blog/1954-gibson-les-paul-goldtop-authentication-guide/1954-gibson-les-paul-goldtop-scaled.jpg"
 wpId: 20132
 ---

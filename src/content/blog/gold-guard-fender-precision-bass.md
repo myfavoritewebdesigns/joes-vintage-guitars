@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-scaled.jpg"
 heroImageAlt: "A 1959 Fender gold guard precision bass in Sunburst finish."
-metaDescription: "Defined by its gold anodized pickguard and split-coil pickup, the 1957 to 1959 Fender Precision Bass marked the start of the modern electric bass. Here’s a full breakdown of specs, authenticity markers, and market values, year by year."
+metaDescription: "The 1957 to 1959 Fender Precision Bass, gold anodized guard and split-coil pickup. Specs, authenticity markers and market values, year by year."
 ogImage: "/images/blog/gold-guard-fender-precision-bass/1959-fender-precision-bass-scaled.jpg"
 wpId: 20887
 ---
