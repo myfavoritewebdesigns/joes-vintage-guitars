@@ -6,14 +6,14 @@
   "ogImage": "/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg",
   "alt": "Sunburst Fender Stratocaster with a white pickguard and vibrato arm in an orange-lined case",
   "date": "2026-10-20T00:00:00-07:00",
-  "modified": "2026-10-21",
+  "modified": "2026-10-23",
   "model": "Fender",
   "models": [
     {
       "name": "Stratocaster",
       "family": "Electric Guitar",
       "url": "/vintage-fender-stratocaster-value-guide/",
-      "description": "Find the year guide for your Strat, with finish, originality and condition comparisons.",
+      "description": "Find the year guide for your Strat, with finish, originality and condition comparisons. Match the neck, pickups and bridge as well as the date. A hardtail needs its own comparison with the vibrato-equipped version.",
       "image": "/images/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg",
       "alt": "Sunburst Stratocaster body with three white pickups in an orange-lined case"
     },
@@ -21,7 +21,7 @@
       "name": "Telecaster",
       "family": "Electric Guitar",
       "url": "/vintage-fender-telecaster-value-guide/",
-      "description": "Follow the Broadcaster, Nocaster and Telecaster family to the matching year guide.",
+      "description": "Follow the Broadcaster, Nocaster and Telecaster family to the matching year guide. Check the finish and original bridge configuration before comparing examples. The year guides explain the changes within the early family.",
       "image": "/images/blog/1952-fender-telecaster-authentication-guide/1952-fender-telecaster-body-scaled.jpg",
       "alt": "Blonde Telecaster with a black pickguard in front of tweed Fender amplifiers"
     },
@@ -29,7 +29,7 @@
       "name": "Esquire",
       "family": "Electric Guitar",
       "url": "/vintage-fender-esquire-value-guide/",
-      "description": "Use the Esquire's own year and finish references, including blonde and custom color examples.",
+      "description": "Use the Esquire's own year and finish references, including blonde and custom color examples. Identify the original pickup and wiring arrangement before comparing it with a Telecaster. Similar bodies can conceal different histories.",
       "image": "/images/fender-sn/1957-fender-esquire-blonde-full-front.jpg",
       "alt": "Blonde Esquire body with a white pickguard and chrome bridge cover"
     },
@@ -37,7 +37,7 @@
       "name": "Jazzmaster",
       "family": "Offset Guitar",
       "url": "/vintage-fender-jazzmaster-value-guide/",
-      "description": "Compare gold guards, slab boards, later necks and custom colors in the annual guide.",
+      "description": "Compare gold guards, slab boards, later necks and custom colors in the annual guide. Match the fingerboard and guard to the correct period, then read the condition assumptions for that group.",
       "image": "/images/blog/fender-custom-color-authentication-guide/1966-fender-jazzmaster-lake-placid-blue-front.jpg",
       "alt": "Blue Jazzmaster body with a white pickguard, two white pickup covers and a vibrato arm"
     },
@@ -45,7 +45,7 @@
       "name": "Jaguar",
       "family": "Offset Guitar",
       "url": "/vintage-fender-jaguar-value-guide/",
-      "description": "Find Jaguar comparisons by year, with notes on original finishes, parts and condition.",
+      "description": "Find Jaguar comparisons by year, with notes on original finishes, parts and condition. Keep the original hardware and case details in view. A clean example and a played guitar can need different comparisons.",
       "image": "/images/blog/vintage-fender-jaguar-guide/1966-fender-jaguar-olympic-white-1-scaled.jpg",
       "alt": "Olympic White-colored Jaguar body with a tortoiseshell pickguard and chrome control plates"
     },
@@ -53,7 +53,7 @@
       "name": "Mustang",
       "family": "Electric Guitar",
       "url": "/post/fender-mustang-history-value/",
-      "description": "Compare standard and Competition Mustangs, with annual references and model history.",
+      "description": "Compare standard and Competition Mustangs, with annual references and model history. Identify the version before comparing finishes. The guide separates condition levels so ordinary playing wear stays in context.",
       "image": "/images/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg",
       "alt": "Blue Mustang with pale body stripes and a patterned strap in an orange-lined case"
     },
@@ -61,7 +61,7 @@
       "name": "Precision Bass",
       "family": "Electric Bass",
       "url": "/vintage-fender-precision-bass-value-guide/",
-      "description": "Choose the early slab-body, contoured or later Precision comparison for your bass.",
+      "description": "Choose the early slab-body, contoured or later Precision comparison for your bass. The body contours and pickup design separate important groups. A familiar Precision name alone does not identify the right range.",
       "image": "/images/sell-fender/1952-fender-precision-bass-800x533.jpg",
       "alt": "Blonde Precision Bass body with a black pickguard and chrome covers in an open case"
     },
@@ -69,7 +69,7 @@
       "name": "Jazz Bass",
       "family": "Electric Bass",
       "url": "/vintage-fender-jazz-bass-value-guide/",
-      "description": "Find stack-knob and later Jazz Bass comparisons, with year, finish and condition notes.",
+      "description": "Find stack-knob and later Jazz Bass comparisons, with year, finish and condition notes. Identify the controls before choosing a comparison, then check which repairs, replacement parts and case condition that range allows.",
       "image": "/images/blog/vintage-fender-jazz-bass-guide/1966-fender-jazz-bass-lake-placid-blue-1-scaled.jpg",
       "alt": "Blue-green Jazz Bass body with a pale pickguard, chrome covers and three black knobs"
     }
