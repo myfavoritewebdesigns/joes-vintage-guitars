@@ -11,7 +11,7 @@ heroImage: "/images/blog/norlin-les-paul-custom-year-guide/1976-gibson-les-paul-
 heroImageAlt: "Cherry sunburst 1976 Gibson Les Paul Custom body with two covered humbuckers and gold hardware."
 heroImageCaption: "1976 Gibson Les Paul Custom in Cherry Sunburst."
 heroImageLicensed: true
-metaDescription: "Identify vintage Gibson Les Paul Customs by body, neck, pickups and hardware, with year-specific details, original features and current value context."
+metaDescription: "Date Gibson Les Paul Customs from 1968 to 1986 by body construction, neck woods, volutes, pickups and hardware, with year-by-year identification details."
 ogImage: "/images/blog/norlin-les-paul-custom-year-guide/1976-gibson-les-paul-custom-sunburst-body-front.jpg"
 author: "Joe Dampt"
 draft: false

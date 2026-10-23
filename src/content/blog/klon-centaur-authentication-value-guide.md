@@ -1,5 +1,6 @@
 ---
 title: "Klon Centaur Guide: Tone, Authentication, and Value of the Original (And How the Clones Compare)"
+seoTitle: "Klon Centaur: Authentication, Tone, Value And Clones"
 pubDate: "2026-07-31T12:00:00"
 modified: "2026-07-31T12:00:00"
 excerpt: "A real Klon Centaur is a hand-built pedal with a hand-written serial number, a sand-cast enclosure, and a lump of black epoxy hiding the clipping section. Here is what makes it sound the way it does, how to tell a genuine one from the fakes now flooding the market, what it is worth in 2026, and how the modern clones actually stack up. Shown on a gold Centaur here in the shop."
@@ -8,7 +9,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/klon-centaur-authentication-value-guide/klon-centaur-gold-top-face-controls.jpg"
 heroImageAlt: "The gold top face of an original Klon Centaur professional overdrive showing the Gain, Treble, and Output knobs and the red centaur archer graphic."
-metaDescription: "How to authenticate an original Klon Centaur, why it sounds the way it does, and what one is worth in 2026. Serial numbers, pot codes, the epoxy goop, fake tells, and a clone comparison."
+metaDescription: "Authenticate an original Klon Centaur: serial numbers, pot codes, the epoxy goop and fake tells, plus what one is worth and how clones compare."
 ogImage: "/images/blog/klon-centaur-authentication-value-guide/klon-centaur-gold-top-face-controls.jpg"
 toc:
   - { href: "#quick-answer", label: "The Short Version" }

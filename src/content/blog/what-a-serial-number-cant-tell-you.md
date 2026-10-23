@@ -1,5 +1,6 @@
 ---
 title: "What A Serial Number Can't Tell You: How A Dealer Actually Checks A Vintage Guitar"
+seoTitle: "Vintage Guitar Checks: What A Serial Number Can't Tell You"
 pubDate: "2026-08-26T12:00:00"
 modified: "2026-09-21T11:45:00-07:00"
 excerpt: "On this 1965 Candy Apple Red Strat the silver under the red and the checking off the neck plate do the work a serial can't. A 1966 Lake Placid Blue Jazzmaster shows the same gap on an offset."

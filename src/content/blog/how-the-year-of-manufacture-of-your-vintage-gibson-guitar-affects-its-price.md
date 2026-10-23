@@ -1,5 +1,6 @@
 ---
 title: "Vintage Gibson Guitar Value by Year: Which Eras Are Worth the Most?"
+seoTitle: "Vintage Gibson Value By Year: Which Eras Are Worth The Most?"
 pubDate: "2023-03-20T00:42:55"
 modified: "2026-04-01T16:45:30"
 excerpt: "Curious about your vintage Gibson guitar’s value? Learn how its year of manufacture impacts its price."

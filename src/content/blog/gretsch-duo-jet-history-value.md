@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/gretsch-duo-jet-history-value/1960s-gretsch-duo-jet-6128-black-front.jpg"
 heroImageAlt: "Front of a black single-cutaway Gretsch Duo Jet 6128 with two Filter'Tron pickups in its original red-lined hardshell case. We buy vintage Gretsch guitars nationwide at Joe's Vintage Guitars."
-metaDescription: "The complete Gretsch Duo Jet guide: year-by-year specs, how to spot a refinish or converted pickups, serial number dating, and what a vintage 6128 is worth today."
+metaDescription: "The Gretsch Duo Jet guide: year-by-year specs, refinish and converted-pickup tells, serial number dating, and what a vintage 6128 is worth today."
 ogImage: "/images/blog/gretsch-duo-jet-history-value/1960s-gretsch-duo-jet-6128-black-front.jpg"
 ---
 <nav class="gdj-nav-sidebar" id="gdjNavSidebar" aria-label="Article section navigation">

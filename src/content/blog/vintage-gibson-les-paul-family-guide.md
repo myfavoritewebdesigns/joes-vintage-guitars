@@ -1,5 +1,6 @@
 ---
 title: "Vintage Gibson Les Paul Models: Family, History and Identification Guide"
+seoTitle: "Vintage Gibson Les Paul Models: Identification Guide"
 pubDate: "2026-09-04T14:00:00-07:00"
 modified: "2026-09-04T14:00:00-07:00"
 excerpt: "Compare the vintage Les Paul Standard, Custom, Special, Junior, TV Model and Deluxe with Joe's original photographs and model-specific identification evidence."

@@ -11,7 +11,7 @@ heroImage: "/images/blog/1968-gibson-les-paul-custom-guide/1969-gibson-les-paul-
 heroImageAlt: "Full-length black 1969 Gibson Les Paul Custom with gold hardware"
 heroImageCaption: "1969 Les Paul Custom, shown as a construction reference for the 1968 model."
 heroImageLicensed: true
-metaDescription: "Identify vintage Gibson Les Paul Customs by body, neck, pickups and hardware, with year-specific details, original features and current value context."
+metaDescription: "Identify a 1968 Gibson Les Paul Custom by its one-piece back, neck, pickups and hardware. Compare original features, dating clues and later changes."
 ogImage: "/images/blog/1968-gibson-les-paul-custom-guide/1969-gibson-les-paul-custom-black-full-front.jpg"
 author: "Joe Dampt"
 draft: false
