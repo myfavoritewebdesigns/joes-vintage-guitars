@@ -72,6 +72,8 @@ Cardinal buys the same instruments we are always looking for at Joe's. In broad 
 -   **[Vintage Martin](/sell-my-martin-guitar/):** the 000, OM, D-18, D-28, D-45, and the small body prewar flattops.
 -   **Other desirable makes:** Gretsch, Rickenbacker, Epiphone, National, Guild, and quality vintage amplifiers.
 
+For a National resonator, include clear photos of the body, coverplate and headstock, plus any repair history. You can also read about [selling a vintage National guitar to Joe](/sell-my-national-guitar/) if you prefer the nationwide buying option.
+
 As a general rule the older and more original, the more interesting it is to us, but we buy well beyond the 1950s. Clean 1960s and 1970s instruments, and desirable later pieces, are all fair game. If you are not sure whether what you have is collectible, that is exactly the kind of question Cardinal is happy to answer.
 
 <h2 id="how-it-works">How Selling to Cardinal Works</h2>
