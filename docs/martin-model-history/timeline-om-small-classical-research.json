@@ -1,0 +1,578 @@
+{
+  "reviewedAt": "2026-10-23",
+  "scope": "Chronological changes through 1969 for OM-18, OM-28, OM-45, Small/Early, Classical. Editorial evidence only; remove source/dealer links from public article prose per Joe.",
+  "sources": {
+    "om": "https://vintagemartin.com/om.html",
+    "omFactory": "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html",
+    "deluxe": "https://vintagemartin.com/Style45DLX.html",
+    "frets": "https://vintagemartin.com/frets.html",
+    "bridges": "https://vintagemartin.com/bridges.html",
+    "style18": "https://vintagemartin.com/styles15_17_18.html",
+    "style28": "https://vintagemartin.com/styles26_28.html",
+    "om1931": "https://www.om28.com/ProductDetail?product=P210408001",
+    "omTunerChronology": "https://umgf.com/1934-ooo-18-long-scale-t175521-s20.html",
+    "schoenberg": "https://www.om28.com/custom/history.jsp",
+    "schoenbergPdf": "https://om28.com/custom/image/special/SchoenbergGuitars.pdf",
+    "sizes": "https://vintagemartin.com/sizes.html",
+    "classical": "https://vintagemartin.com/classicals.html",
+    "hawaiian": "https://vintagemartin.com/hawaiian.html",
+    "earlyMain": "https://www.vintagemartin.com/",
+    "factoryHistory": "https://www.martin-gitarren.de/files/downloads/martinstory.pdf",
+    "newYorkerFirsthand": "https://umgf.com/can-you-help-value-a-o-16ny-60-s-vintage-t79951-s30.html",
+    "newYorkerFolkway": "https://folkwaymusic.com/product/?prod_id=33559%2F",
+    "newYorkerJournal": "https://www.fretboardjournal.com/columns/catch-day-1975-martin-0-16ny/",
+    "gInspected": "https://www.eliteguitars.net/1959-martin-0018g",
+    "cInspected": "https://retrofret.com/products/c-f-martin-00-18c-classical-guitar-1965-9575",
+    "cIntro": "https://www.retrofret.com/product.asp?ProductID=13516&name=C-F-Martin-0018C-Classical-Guitar-1965",
+    "nGruhn": "https://www.vintageguitar.com/32703/",
+    "tuners": "https://vintagemartin.com/tuners.html"
+  },
+  "events": [
+    {
+      "id": "OM-1929",
+      "date": "1929",
+      "models": [
+        "om-28"
+      ],
+      "change": "The first OM developed from the 000-28, adding a 14-fret neck/body joint while retaining the long scale.",
+      "evidence": [
+        "omFactory"
+      ],
+      "scope": "Model introduction, not a claim that every prototype shared the final production specifications."
+    },
+    {
+      "id": "OM18-1930",
+      "date": "January 1930",
+      "models": [
+        "om-18"
+      ],
+      "change": "Mahogany-bodied OM-18 production began with two guitars ordered January 15.",
+      "evidence": [
+        "om"
+      ],
+      "scope": "Shop-order date, not shipping date."
+    },
+    {
+      "id": "OM-1930-BRIDGE",
+      "date": "1930",
+      "models": [
+        "om-18",
+        "om-28"
+      ],
+      "change": "The belly bridge replaced the early straight bridge forms: pyramid on early OM-28s; plain rectangular on the first OM-18s.",
+      "evidence": [
+        "om",
+        "bridges"
+      ],
+      "scope": "Use year-level transition. Some unsold earlier guitars received belly bridges before leaving the factory."
+    },
+    {
+      "id": "OM-1931-GUARD",
+      "date": "1931",
+      "models": [
+        "om-18",
+        "om-28"
+      ],
+      "change": "Larger pickguards replaced the early small teardrop pattern.",
+      "evidence": [
+        "om1931",
+        "omTunerChronology"
+      ],
+      "scope": "Firsthand Schoenberg example establishes larger guard with original banjo tuners by March 1931; do not claim simultaneous guard/tuner switch or exact common serial cutoff."
+    },
+    {
+      "id": "OM-1931-TUNER",
+      "date": "1931",
+      "models": [
+        "om-18",
+        "om-28"
+      ],
+      "change": "Conventional open-back guitar tuners replaced banjo-style tuners during the year.",
+      "evidence": [
+        "omTunerChronology",
+        "om1931",
+        "tuners"
+      ],
+      "scope": "Corwin dates clipped-end G-98 guitar tuners to 1931-1934; his forum post cites Longworth log annotation on OM-18 stamped May 29, 1931. Year-level wording recommended. Full indexed forum text was retrieved through web search after direct open failed."
+    },
+    {
+      "id": "OM18-1932-DOTS",
+      "date": "Early 1932",
+      "models": [
+        "om-18"
+      ],
+      "change": "Style 18 fingerboard dots extended from frets 5, 7 and 9 to include frets 12 and 15.",
+      "evidence": [
+        "style18"
+      ],
+      "scope": "Style-wide published chronology. Do not treat later repair boards as production changes."
+    },
+    {
+      "id": "OM28-1932-INLAY",
+      "date": "Early 1932",
+      "models": [
+        "om-28"
+      ],
+      "change": "Style 28 diamonds-and-squares fingerboard decoration extended to the 12th and 15th frets.",
+      "evidence": [
+        "style28"
+      ],
+      "scope": "Earlier pattern occupied frets 5, 7 and 9."
+    },
+    {
+      "id": "OM-1934-NAME",
+      "date": "1934",
+      "models": [
+        "om-18",
+        "om-28"
+      ],
+      "change": "The OM designation gave way to 000 while the early renamed guitars still retained the long scale.",
+      "evidence": [
+        "omFactory",
+        "om"
+      ],
+      "scope": "Keep factory designation. The name change and scale reduction were separate events."
+    },
+    {
+      "id": "OM-1934-SCALE",
+      "date": "Later in 1934",
+      "models": [
+        "om-18",
+        "om-28"
+      ],
+      "change": "The successor 000-18 and 000-28 changed from approximately 25.4 inches to 24.9 inches.",
+      "evidence": [
+        "omFactory",
+        "om"
+      ],
+      "scope": "Corwin gives September 12; manufacturer confirms only later in 1934. Use latter unless exact date is necessary."
+    },
+    {
+      "id": "OM-1934-NECK",
+      "date": "1934",
+      "models": [
+        "om-18",
+        "om-28",
+        "om-45"
+      ],
+      "change": "Martin introduced T-shaped frets and steel T-bar neck reinforcement after the original OM run; original 1929-1933 OMs used bar frets and ebony reinforcement.",
+      "evidence": [
+        "frets"
+      ],
+      "scope": "Present as successor-era distinction. Do not suggest the original OM-45 adopted this system while still in regular production."
+    },
+    {
+      "id": "OM28-1969",
+      "date": "1969",
+      "models": [
+        "om-28"
+      ],
+      "change": "Eric Schoenberg ordered six OM-28s through the Folklore Center and Matty Umanov, reviving the model after its original run.",
+      "evidence": [
+        "schoenberg",
+        "schoenbergPdf"
+      ],
+      "scope": "Firsthand participant history. Do not infer that the 1969 guitars were exact copies of every prewar construction detail."
+    },
+    {
+      "id": "OM45-1930",
+      "date": "1930",
+      "models": [
+        "om-45"
+      ],
+      "change": "Martin introduced the pearl-trimmed OM-45 on the long-scale, 14-fret Orchestra Model platform.",
+      "evidence": [
+        "omFactory",
+        "deluxe"
+      ],
+      "scope": "Original OM-45 production lasted through 1933."
+    },
+    {
+      "id": "OM45-1930-DELUXE",
+      "date": "1930",
+      "models": [
+        "om-45"
+      ],
+      "change": "The Deluxe added an inlaid pickguard and bridge, plus engraved gold tuners with pearl buttons. The solid headstock carried a simpler torch than earlier Style 45 heads.",
+      "evidence": [
+        "deluxe"
+      ],
+      "scope": "A separate trim variant, not a chronological replacement for the standard OM-45."
+    },
+    {
+      "id": "OM45-DELUXE-END",
+      "date": "Within A Year Of Its 1930 Introduction",
+      "models": [
+        "om-45"
+      ],
+      "change": "The Deluxe was discontinued while the standard OM-45 continued.",
+      "evidence": [
+        "deluxe"
+      ],
+      "scope": "Do not turn this into an exact 1931 cutoff. Corwin lists the last batch in November 1930, with later requests refused."
+    },
+    {
+      "id": "OM45-1933-END",
+      "date": "1933",
+      "models": [
+        "om-45"
+      ],
+      "change": "The original OM-45 run ended after 40 guitars built from 1930 through 1933.",
+      "evidence": [
+        "omFactory"
+      ],
+      "scope": "Manufacturer count does not resolve whether Deluxe is included; do not add a separate Deluxe total to 40."
+    },
+    {
+      "id": "EARLY-1830S",
+      "date": "1830s To Mid-19th Century",
+      "models": [
+        "small-early"
+      ],
+      "change": "Martin moved away from Stauffer-style one-sided tuners and adjustable-neck construction toward Spanish-influenced guitars and the later standardized styles.",
+      "evidence": [
+        "factoryHistory",
+        "classical"
+      ],
+      "scope": "An era of overlapping designs; no single serial or date marks every feature transition."
+    },
+    {
+      "id": "EARLY-1850S",
+      "date": "1850s",
+      "models": [
+        "small-early"
+      ],
+      "change": "Style numbers became associated with repeatable trim combinations; Style 28 used herringbone and Style 26 a half-herringbone border.",
+      "evidence": [
+        "style28"
+      ],
+      "scope": "Early custom combinations still existed. Do not label every earlier guitar by a later catalog style."
+    },
+    {
+      "id": "EARLY-SIZES",
+      "date": "1850s, 1870s And 1902",
+      "models": [
+        "small-early"
+      ],
+      "change": "Size 0 expanded the concert range in the 1850s; size 00 followed in the 1870s; the larger 000 appeared in 1902.",
+      "evidence": [
+        "sizes",
+        "factoryHistory"
+      ],
+      "scope": "Avoid precise 0/00 introduction years: Corwin says 1854/1873, GuitarHQ 1852/1877. The 1902 000 date agrees with the factory history."
+    },
+    {
+      "id": "SMALL-1916-KOA",
+      "date": "1916",
+      "models": [
+        "small-early"
+      ],
+      "change": "Martin began supplying koa Hawaiian guitars to Southern California Music Company, introducing a steel-string branch before its general Spanish-playing steel-string line.",
+      "evidence": [
+        "hawaiian"
+      ],
+      "scope": "July 1916 shipments of six samples each are documented; the factory-history summary instead says 1917. Do not present all 1916 Martins as steel-string guitars."
+    },
+    {
+      "id": "SMALL-1917-18",
+      "date": "1917",
+      "models": [
+        "small-early"
+      ],
+      "change": "Style 18 changed from rosewood to mahogany back and sides, retaining a spruce top.",
+      "evidence": [
+        "style18"
+      ],
+      "scope": "Style-wide change, excluding explicit special orders."
+    },
+    {
+      "id": "SMALL-1918-BINDING",
+      "date": "1918",
+      "models": [
+        "small-early"
+      ],
+      "change": "Style 28 body binding changed from elephant ivory to grained celluloid.",
+      "evidence": [
+        "style28",
+        "factoryHistory"
+      ],
+      "scope": "Body binding only; not a claim that all ivory components ended together."
+    },
+    {
+      "id": "SMALL-1922-17",
+      "date": "1922",
+      "models": [
+        "small-early"
+      ],
+      "change": "The all-mahogany 2-17 revived Style 17 as a lower-priced steel-string guitar.",
+      "evidence": [
+        "style18",
+        "earlyMain"
+      ],
+      "scope": "First standard Spanish-playing production steel-string Martins, not first Martin steel-string instruments of any kind."
+    },
+    {
+      "id": "SMALL-1923-STEEL",
+      "date": "1923",
+      "models": [
+        "small-early"
+      ],
+      "change": "Steel strings became standard on Style 18 Spanish-playing models.",
+      "evidence": [
+        "classical"
+      ],
+      "scope": "Gut-regulated guitars remained available by special order."
+    },
+    {
+      "id": "SMALL-1926-STEEL",
+      "date": "1926",
+      "models": [
+        "small-early"
+      ],
+      "change": "Style 28 joined the standard steel-string range.",
+      "evidence": [
+        "classical"
+      ],
+      "scope": "Not permission to fit current heavy strings to every surviving instrument."
+    },
+    {
+      "id": "SMALL-1926-BRIDGE",
+      "date": "1926",
+      "models": [
+        "small-early"
+      ],
+      "change": "Plain-wing rectangular bridges replaced pyramid bridges on Style 18.",
+      "evidence": [
+        "bridges"
+      ],
+      "scope": "Separate from the later belly-bridge introduction."
+    },
+    {
+      "id": "SMALL-1929-21-BRIDGE",
+      "date": "1929",
+      "models": [
+        "small-early"
+      ],
+      "change": "Style 21 changed from pyramid to plain rectangular bridges.",
+      "evidence": [
+        "bridges"
+      ],
+      "scope": "Not a statement about Style 28."
+    },
+    {
+      "id": "SMALL-1932-14FRET",
+      "date": "1932",
+      "models": [
+        "small-early"
+      ],
+      "change": "The 0-17 and 0-18 adopted 14-fret bodies as the '32 Model' versions.",
+      "evidence": [
+        "style18"
+      ],
+      "scope": "Limited to these named models; do not say every small Martin became 14-fret."
+    },
+    {
+      "id": "SMALL-1934-BINDING",
+      "date": "1934",
+      "models": [
+        "small-early"
+      ],
+      "change": "Style 18 rosewood body binding gave way to black Fiberloid.",
+      "evidence": [
+        "style18"
+      ],
+      "scope": "Followed by tortoise-colored plastic later in the 1930s, with smaller sizes changing earlier than dreadnoughts."
+    },
+    {
+      "id": "SMALL-1935-18-FITTINGS",
+      "date": "1935",
+      "models": [
+        "small-early"
+      ],
+      "change": "Most smaller Style 18 guitars briefly used rosewood fingerboards and bridges, before returning chiefly to ebony.",
+      "evidence": [
+        "style18"
+      ],
+      "scope": "Do not project D-18's later 1947 transition onto 0/00/000 models."
+    },
+    {
+      "id": "SMALL-1940-18-FITTINGS",
+      "date": "1940",
+      "models": [
+        "small-early"
+      ],
+      "change": "Smaller Style 18 models changed again to rosewood fingerboards and bridges.",
+      "evidence": [
+        "style18"
+      ],
+      "scope": "The source describes most production, not an exception-free serial cutoff."
+    },
+    {
+      "id": "SMALL-1961-NY",
+      "date": "1961",
+      "models": [
+        "small-early"
+      ],
+      "change": "The 0-16NY and 00-21NY brought back 12-fret, slotted-headstock designs with plain fingerboards, no pickguards and restrained finishes.",
+      "evidence": [
+        "newYorkerFirsthand",
+        "newYorkerFolkway",
+        "newYorkerJournal"
+      ],
+      "scope": "0-16NY is mahogany, 00-21NY rosewood. New Yorker models remained X-braced; do not classify them as the fan-braced G/C classical range."
+    },
+    {
+      "id": "SMALL-1965-SADDLE",
+      "date": "1965",
+      "models": [
+        "small-early"
+      ],
+      "change": "Martin changed its usual steel-string bridge saddle from the long through-cut form to a short drop-in saddle.",
+      "evidence": [
+        "bridges"
+      ],
+      "scope": "Apply to the relevant steel-string bridges, not every classical/tie bridge or historical special order."
+    },
+    {
+      "id": "SMALL-1966-BINDING",
+      "date": "1966",
+      "models": [
+        "small-early"
+      ],
+      "change": "Black Boltaron replaced tortoise-colored binding on Style 18.",
+      "evidence": [
+        "style18"
+      ],
+      "scope": "Corwin cites serial 212100. Year-level wording is adequate."
+    },
+    {
+      "id": "CLASSICAL-1936-G",
+      "date": "1936",
+      "models": [
+        "classical"
+      ],
+      "change": "The G series restored a dedicated gut-string line after Martin's 1920s move toward steel strings.",
+      "evidence": [
+        "classical"
+      ],
+      "scope": "Early G experiments varied; do not claim all 1936 guitars already had the familiar later body/bracing configuration."
+    },
+    {
+      "id": "CLASSICAL-LATER-G",
+      "date": "Later G-Series Production",
+      "models": [
+        "classical"
+      ],
+      "change": "The familiar G construction paired a 12-fret neck with the outline of a 14-fret 00 body, fan bracing and a tie bridge.",
+      "evidence": [
+        "gInspected"
+      ],
+      "scope": "Describe as the established later configuration; no verified exact year for standardization. 00-18G was mahogany, 00-28G rosewood."
+    },
+    {
+      "id": "CLASSICAL-1962-C",
+      "date": "1962",
+      "models": [
+        "classical"
+      ],
+      "change": "The C series succeeded the G line. The 00-18C used the traditional elongated 12-fret 00 outline with fan bracing; the rosewood 000-28C introduced the larger 000 body.",
+      "evidence": [
+        "classical",
+        "cInspected",
+        "cIntro",
+        "nGruhn"
+      ],
+      "scope": "Corwin dates 000-28C 1962-1969. RetroFret identifies 1965 as 00-18C's fourth production year."
+    },
+    {
+      "id": "CLASSICAL-1966-0028C",
+      "date": "1966",
+      "models": [
+        "classical"
+      ],
+      "change": "The rosewood 00-28C joined the range as the smaller alternative to the 000-28C.",
+      "evidence": [
+        "classical"
+      ],
+      "scope": "Do not say the 000-28C disappeared immediately; its recorded run extends through 1969."
+    },
+    {
+      "id": "CLASSICAL-1968-N",
+      "date": "1968",
+      "models": [
+        "classical"
+      ],
+      "change": "The mahogany N-10 and rosewood N-20 introduced a more Spanish-style classical body design.",
+      "evidence": [
+        "classical",
+        "nGruhn"
+      ],
+      "scope": "The previous draft omitted this because a dealer said 1969. Corwin and Gruhn both support 1968; Gruhn records twelve N-20s that year."
+    },
+    {
+      "id": "CLASSICAL-1968-N20-BUILD",
+      "date": "1968 To 1969",
+      "models": [
+        "classical"
+      ],
+      "change": "The early N-20 used a 25.4-inch scale and traditional Martin slotted headstock, with seven fan braces and no bridge plate.",
+      "evidence": [
+        "nGruhn",
+        "classical"
+      ],
+      "scope": "Keep the nominal early scale separate from the later 26.375-inch redesign, which is outside the through-1969 scope."
+    }
+  ],
+  "conflicts": [
+    "OM bridge month: Corwin OM page says March 1930; specialist discussion places the change in early April. Use 1930.",
+    "OM tuner/guard changes should not be conflated. A March 1931 larger-guard OM-28 still has original banjo tuners.",
+    "Corwin OM page's caption for serial 54864 says December 1930 although narrative and serial establish December 1933. Do not copy the caption error.",
+    "OM-18 first two straight bridges are described partly as Corwin's reasoned reconstruction; phrase the 1930 bridge transition without claiming an inspected surviving first example.",
+    "OM-45 Deluxe counts conflict among histories. Omit a Deluxe production total. Five known is an undated researcher inventory, not an assured 2026 surviving census.",
+    "Corwin Deluxe page says impractical guard prompted discontinuation; OM page mentions difficulty sourcing distinctive parts. Avoid assigning a sole causal explanation.",
+    "Size 0 and 00 exact introduction years differ between established references. Use decades or resolve with factory archives.",
+    "Early X-bracing dates differ: older factory PDF says 1850s; photographed Corwin examples indicate 1840s. Use mid-19th-century development unless researching precise invention history separately.",
+    "0-15 introduction: one Corwin paragraph says added 1940 while another says introduction1939. Omit exactyear until resolved.",
+    "Do not extend steel-string neck rods, bridgeplate changes, or saddle transitions automatically to the G/C/N classical models.",
+    "Do not use a specimen repair, replacement tuner, altered neck, conversion, or modern reproduction specification as a model-wide factory change."
+  ],
+  "suggestedStructure": {
+    "om-18": [
+      "1930: The Mahogany Orchestra Model",
+      "1930: Straight Bridges Give Way To Belly Bridges",
+      "1931: Larger Pickguards And Guitar Tuners",
+      "1932: Fingerboard Markers Extend Up The Neck",
+      "1934: The OM-18 Becomes The 000-18"
+    ],
+    "om-28": [
+      "1929: A 14-Fret Version Of The 000-28",
+      "1930: The Belly Bridge Arrives",
+      "1931: Pickguards And Tuners Change",
+      "1932: The Longer Inlay Pattern",
+      "1934: Name And Scale Change Separately",
+      "1969: Six OM-28s Revive The Model"
+    ],
+    "om-45": [
+      "1930: Pearl Trim Reaches The Orchestra Model",
+      "1930: The Deluxe Adds Inlaid Hardware",
+      "The Deluxe Ends Before The Standard OM-45",
+      "1933: Original OM-45 Production Ends",
+      "1934: What Changed In The Successor Era"
+    ],
+    "small-early": [
+      "Early Designs Become Named Sizes And Styles",
+      "1916 To 1926: Koa, Mahogany And Steel Strings",
+      "1926 To 1932: Bridges And Neck Joints Change",
+      "1930s And 1940s: Style 18 Materials Change",
+      "1961: The New Yorker Models",
+      "1965 To 1966: Saddle And Binding Changes"
+    ],
+    "classical": [
+      "1936: The G Series",
+      "How The Later G Body Was Built",
+      "1962: The C Series Changes The Body Outline",
+      "1966: The Smaller Rosewood 00-28C",
+      "1968: The N Series Changes The Classical Design"
+    ]
+  }
+}

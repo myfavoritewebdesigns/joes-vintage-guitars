@@ -1,0 +1,1952 @@
+{
+  "date": "2026-10-23",
+  "guides": [
+    {
+      "key": "d-21",
+      "slug": "martin-d-21-authentication-guide",
+      "sources": [
+        {
+          "title": "Martin Company History",
+          "url": "https://www.martin-gitarren.de/files/downloads/martinstory.pdf",
+          "note": "Manufacturer history: 1955 samples, 1956 public introduction and D-21 rosewood fittings; late-1969 material transition. Do not adopt its older S-model chronology wholesale."
+        },
+        {
+          "title": "Martin Materials FAQ",
+          "url": "https://www.martinguitar.com/faqs.html",
+          "note": "Factory account of the 1969 end of standard Brazilian rosewood back-and-side sets; not a species verdict for a particular guitar."
+        },
+        {
+          "title": "1957 D-21, Serial 155923",
+          "url": "https://folkwaymusic.com/museum/martin-/id.1168",
+          "note": "First-hand condition record: rosewood bridge retained, neck reset, replacement saddle and pins. Evidence applies to this example."
+        },
+        {
+          "title": "Folkway Early Martin Archive",
+          "url": "https://folkwaymusic.com/oldmuseum/martingallery2.html",
+          "note": "First-hand1963 D-21 serial193087 documents Kluson Deluxe machines, rosewood board/bridge, tortoise binding/guard and small maple plate. Separate1957 serial155923 entries disagree about one tuner, so do not imply all its tuners survive unchanged."
+        },
+        {
+          "title": "Martin 2008 Retail Price List",
+          "url": "https://jedistar.com/pdf/Martin/Martin_Retail_Pricelist_2008.pdf",
+          "note": "Manufacturer document lists D-21 Special; used only to distinguish later reused naming, with no price quoted."
+        },
+        {
+          "title": "Fretted Americana: Documented 1969 D-21",
+          "url": "https://www.frettedamericana.com/product/1969-martin-d-21"
+        }
+      ],
+      "evidenceNotes": [
+        "AGM-D21-01: Martin Story supplies introduction chronology and original fittings. Stamp/date instructions use VG-0077, VG-0082 and VG-0083. New research remains a draft supplement, not an approved registry addition.",
+        "AGM-D21-02: The Folkway serial 155923 condition report and separate early gallery instrument are scoped to their individual examples. Do not merge their repairs or specifications.",
+        "AGM-D21-03: Rosewood transition follows cleared VG-0088/89 and the factory FAQ, preserving actual-wood inspection.",
+        "AGM-D21-04: Photographic instructions are editorial guidance. Surface marks prompt investigation; they are not a claimed verdict on an unseen instrument.",
+        "AGM-D21-05: Later naming was checked in Martin's 2008 price list. No prices or current availability are used.",
+        "Worked archive-photo example visually checked: 1961 D-21 full front and lower-fingerboard close-up show unbound fingerboard edges and dot markers. Dark wear marks are visible in the lower fret spaces. Limits: Does not identify wood species from color. Does not diagnose a replaced board, refret or repair history.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CLAUDE-20261023-D-21: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "d-35",
+      "slug": "martin-d-35-authentication-guide",
+      "sources": [
+        {
+          "title": "Martin Company History",
+          "url": "https://www.martin-gitarren.de/files/downloads/martinstory.pdf",
+          "note": "D-35 introduction in 1965 and three-piece construction. Older bridge-plate chronology is not used as a hard model-specific cutoff."
+        },
+        {
+          "title": "Corwin Style 35 Reference",
+          "url": "https://vintagemartin.com/Style35.html",
+          "note": "First-hand 1965/1966 instruments; bound fingerboard and quarter-inch bracing. Timeline's small rosewood plate date conflicts with other documentation, so no exact transition asserted."
+        },
+        {
+          "title": "Corwin Twelve-Fret Dreadnought Records",
+          "url": "https://vintagemartin.com/D28S.html",
+          "note": "Factory-order reproductions distinguish early individual/small orders from January 1968 regular D-35S batch. Avoid source's typographical 1977 and dubious SW date list."
+        },
+        {
+          "title": "1966 D-35, Serial 210817",
+          "url": "https://folkwaymusic.com/museum/martin-guitars/martin-d35-1966-1012",
+          "note": "First-hand example: small maple plate, tortoise guard, Grover Rotomatics,25.4-inch scale and 1 11/16-inch nut. General claim that D-35 was first new D since 1930s is erroneous and excluded."
+        },
+        {
+          "title": "1969 D-35S",
+          "url": "https://trcrandall.com/products/1969-martin-d-35s",
+          "note": "First-hand measurement 1 7/8-inch nut and documented reset/refret. Listed 25.5-inch scale not propagated as nominal factory specification."
+        },
+        {
+          "title": "Martin Materials FAQ",
+          "url": "https://www.martinguitar.com/faqs.html",
+          "note": "1969 Brazilian rosewood production transition, with individual inspection qualification retained."
+        }
+      ],
+      "evidenceNotes": [
+        "AGM-D35-01: Factory history, Corwin Style35 and the Folkway 1966 instrument support the model and construction comparison. Claims remain model- and era-scoped.",
+        "AGM-D35-02: D-35S chronology uses Corwin's reproduced orders. The width comparison uses the separately documented 1969 TR Crandall and 1966 Folkway examples.",
+        "AGM-D35-03: Corwin's small rosewood bridge-plate date conflicts with the factory history. The article withholds a universal transition date and directs inspection of the actual plate.",
+        "AGM-D35-04: Stamp/date principles use VG-0077 and VG-0082/83; wood transition uses cleared VG-0088/89.",
+        "AGM-D35-05: No tone ranking, price range or individual originality judgment. Repair categories and photo instructions are original editorial method.",
+        "Worked archive-photo example visually checked: 1967 D-35 back has three visible wood panels separated by two narrow decorative strips. Center panel widens toward the lower end of the body. Fingerboard close-up shows pale edge binding. Limits: Exterior photographs do not show bracing. Rosewood species is not determined from the back's color or grain.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CLAUDE-20261023-D-35: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "d-28",
+      "slug": "martin-d-28-authentication-guide",
+      "sources": [
+        {
+          "title": "Martin Museum",
+          "url": "https://www.martinguitar.com/museum-behind-the-glass.html",
+          "note": "Early Martin-branded dreadnought and 1934 fourteen-fret chronology."
+        },
+        {
+          "title": "1937 D-28, Serial 66724",
+          "url": "https://theguitarphile.com/1937-martin-d-28-serial-number-66724/",
+          "note": "Factory dates and first-hand photographs support the narrow 1937 specification example."
+        },
+        {
+          "title": "1941 D-28",
+          "url": "https://theguitarphile.com/1941-martin-d-28/",
+          "note": "Documented rear-X scalloped bracing and 1 11/16-inch nut; not a universal prewar template."
+        },
+        {
+          "title": "1947 D-28, Serial 99606",
+          "url": "https://theguitarphile.com/1947-martin-d-28-guitar-serial-number-99606/",
+          "note": "April 1947 body with line trim and non-scalloped braces; used instead of disputed universal herringbone cutoff."
+        },
+        {
+          "title": "1956 D-28, Serial 151874",
+          "url": "https://theguitarphile.com/1956-martin-d-28-guitar-serial-number-151874/",
+          "note": "Specific stamp/final-inspection dates, Kluson K-500 tuners, dot board and straight braces."
+        },
+        {
+          "title": "Twelve-Fret Dreadnought Archive",
+          "url": "https://vintagemartin.com/D28S.html",
+          "note": "Documented early S orders and late 1967 regular D-28S batch, with S-special qualification."
+        },
+        {
+          "title": "1968 Martin D-28S, Music City Vintage Guitars",
+          "url": "https://musiccityvintageguitars.com/products/1968-martin-d-28s",
+          "note": "Opened the dealer's own instrument record to verify nut width and scale. Dimensions are explicitly example-scoped; no price or availability claim is used."
+        },
+        {
+          "title": "Martin D-28 Authentic 1937",
+          "url": "https://www.martinguitar.com/10Y22D28LAUTHENTIC1937VTS.html",
+          "note": "Manufacturer product page confirms modern historical-design naming; no modern specs projected onto originals."
+        },
+        {
+          "title": "Martin Materials FAQ",
+          "url": "https://www.martinguitar.com/faqs.html",
+          "note": "Supports qualified late 1969 wood transition."
+        },
+        {
+          "title": "Joe’s One-Family 1946 D-28",
+          "url": "https://www.joesvintageguitarsaz.com/post/one-family-1946-martin-d-28/"
+        },
+        {
+          "title": "Joe’s Documented Martin Purchases",
+          "url": "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/"
+        },
+        {
+          "title": "Audit-Verified Reference",
+          "url": "https://www.martin-gitarren.de/files/downloads/martinstory.pdf",
+          "note": "Printed page12 expressly dates end of scalloped bracing to very late1944. Printed page13 puts black guard change in1967. Printed page14 dates change from maple to rosewood plate toApril9,1968; its enlargement wording is not repeated as a universal size cutoff."
+        },
+        {
+          "title": "Audit-Verified Reference",
+          "url": "https://www.joesvintageguitarsaz.com/prewar-martin-guitar-guide/",
+          "note": "Current JVG guide states1938 rearward dreadnought X-brace shift;1939 change from1 3/4 to1 11/16-inch nut on many14-fret necks; late1944 scalloped-to-tapered change. These are existing JVG transitions, not newly invented serial boundaries."
+        },
+        {
+          "title": "Audit-Verified Reference",
+          "url": "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/",
+          "note": "Current JVG construction guide confirms black guards standardin1967 with exceptions."
+        }
+      ],
+      "evidenceNotes": [
+        "AGM-D28-01: Manufacturer museum chronology supports the early body history. Stamp/date principles use VG-0077 and VG-0082/83.",
+        "AGM-D28-02: Each dated Hutton instrument supplies only its named example's specifications. The article does not turn these specimens into universal serial cutoffs.",
+        "AGM-D28-03: The registry's 1946/1947 herringbone conflict is not resolved by assertion. The article separates trim from bracing and uses the documented 1947 example.",
+        "AGM-D28-04: D-28S identification follows Corwin's order evidence. Source typographical errors and unsupported celebrity anecdotes are excluded.",
+        "AGM-D28-05: The1968 D-28S measurements were verified on the dealer's own opened instrument page. They remain example-specific, not an all-years specification. Scale measurement is an elementary fret-position calculation.",
+        "AGM-D28-06: Late 1969 wood qualification follows VG-0088/89. Modern naming was checked against Martin's product page. No price or individual verdict.",
+        "Worked archive-photo example visually checked: 1967 D-28 neck-block photo visibly reads D-28 and 224411. Separate center-strip photo shows maker and country wording. 1959 hero and 1967 interior details depict different D-28s. Limits: No serial invented; 224411 is visible in selected photo. Does not extend country-mark placement to all Martins. Does not certify top, bridge plate or brace originality.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CLAUDE-20261023-D-28: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "Joe confirmed in this chat on October 23, 2026: the shop interior photographs showing D-28 serial 224411 depict the same 1967 guitar in https://reverb.com/item/95097608-martin-d-28-1967-vibey-player-great-sound. The listing itself does not print the serial; the photo-to-listing connection comes from Joe.",
+        "Round 2 GPT audit, October 23, 2026: applied verified corrections and source-attributed additions. See editorial/authentication/gpt-round2-response.json. No canonical fact-registry entries or new first-person experience claims were created.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "d-45",
+      "slug": "martin-d-45-authentication-guide",
+      "sources": [
+        {
+          "title": "Martin Museum D-45 History",
+          "url": "https://www.martinguitar.com/blog-categories/from-the-factory/blog-072325-the-holy-grail-of-martin-guitars-a-closer-look-at-the-pre-war-d-45.html",
+          "note": "Factory account:1933 first custom 12-fret,1942 end,1968 return, evolving early inlays and S=special. No price or survivor count used."
+        },
+        {
+          "title": "Corwin Border Reference",
+          "url": "https://vintagemartin.com/borders.html",
+          "note": "Photographic comparison of Style 45 top, extension, rosette, back and side pearl."
+        },
+        {
+          "title": "1939 D-45, Serial 73128",
+          "url": "https://theguitarphile.com/1939-martin-d-45-serial-number/",
+          "note": "Hutton factory dates and first-hand instrument photographs; rear-X scallops,1 11/16nut,GroverG 111G."
+        },
+        {
+          "title": "Martin Company History",
+          "url": "https://www.martin-gitarren.de/files/downloads/martinstory.pdf",
+          "note": "Manufacturer account of Longworth D-28 pearl conversions before the 1968 D-45return. No extension to an undocumented guitar."
+        },
+        {
+          "title": "D-45 Instrument Photo Gallery",
+          "url": "https://tcgakki.com/en/pages/martin-d-45-a-photo-gallery-tracing-14-legendary-instruments",
+          "note": "First-hand 1968/1969 photos used narrowly for headstock/inlay/tuner appearance. Machine translation, ebony-neck-rod claim and erroneous CITES chronology excluded."
+        },
+        {
+          "title": "Martin Materials FAQ",
+          "url": "https://www.martinguitar.com/faqs.html",
+          "note": "Qualified 1969 Brazilian rosewood transition."
+        },
+        {
+          "title": "Martin 2013 Price List",
+          "url": "https://jedistar.com/pdf/Martin/Martin_Retail_Pricelist_2013.pdf",
+          "note": "Manufacturer lists D-45 Authentic 1942 and D-45S Authentic 1936, demonstrating later historical names. No listed values reproduced."
+        },
+        {
+          "title": "TC Gakki: 1969 D-45 And Longworth Conversion Comparison",
+          "url": "https://tcgakki.com/en/pages/mike-longworth-custom-guitar-converted-to-d-45-specifications",
+          "note": "Firsthand comparison specifies non-scalloped X-bracing, square neck reinforcement and large Brazilian rosewood bridge plate on its 1969 D-45."
+        }
+      ],
+      "evidenceNotes": [
+        "AGM-D45-01: Cleared VG-0081 and the opened museum article support the production periods. Source paraphrase is brief and omits promotional claims.",
+        "AGM-D45-02: Joe ruled on October 23, 2026 that the snowflake-to-hexagon year is 1939, citing Martin company history p.13 and TC Gakki. The Holy Grail blog gives 1938 and is retained only for other facts. No inlay claim is assigned to serial 73128.",
+        "AGM-D45-03: Hutton's serial 73128 record supports the named construction and hardware comparison. Its reported celebrity ownership is not used.",
+        "AGM-D45-04: Martin Story documents the existence of Longworth conversions. Corwin's border photographs support decoration layout. Neither identifies an unseen guitar.",
+        "AGM-D45-05: The TCGakki first-hand gallery is used only for visible late 1960s appointments. Its translated CITES history and neck-rod assertion are excluded.",
+        "AGM-D45-06: Stamp/date principles and wood transition use VG-0077,0082/83 and 0088/89. No values, purchase claims or human review are invented.",
+        "Worked archive-photo example visually checked: the labeled 2005 D-45 comparison shows large six-sided markers. The historical change year is 1939 per Joe's October 23, 2026 ruling and the company history p.13, not the conflicting Holy Grail blog. This photograph cannot establish originality or distinguish later prewar and postwar periods.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CLAUDE-20261023-D-45: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "Round 2 GPT audit, October 23, 2026: applied verified corrections and source-attributed additions. See editorial/authentication/gpt-round2-response.json. No canonical fact-registry entries or new first-person experience claims were created.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "om-18",
+      "slug": "martin-om-18-authentication-guide",
+      "sources": [
+        {
+          "title": "Corwin Original Orchestra Models",
+          "url": "https://vintagemartin.com/om.html",
+          "note": "Original order evidence and dated instrument comparisons; caption errors are excluded."
+        },
+        {
+          "title": "1932 OM-18, Serial 52348",
+          "url": "https://theguitarphile.com/1932-martin-om-18-serial-number-52348/",
+          "note": "Specific instrument measurements, woods, finish and replacement-tuner evidence. No universal finish rule inferred."
+        },
+        {
+          "title": "Martin Original OM History",
+          "url": "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html",
+          "note": "Factory explanation of the original OM naming and scale transitions."
+        },
+        {
+          "title": "Corwin Frets Reference",
+          "url": "https://vintagemartin.com/frets.html",
+          "note": "Photographs and construction explanation for the original fret system."
+        },
+        {
+          "title": "1931 OM-18P Conversion, Serial 46808",
+          "url": "https://www.gbase.com/gear/martin-om-18p-6-string-conversion-1931-natural-natural",
+          "note": "Technician's record of replaced assemblies and altered bridge-plate holes on a converted instrument."
+        },
+        {
+          "title": "Martin OM-18 Authentic 1933",
+          "url": "https://www.martinguitar.com/guitars/retired-models/OM-18-Authentic-1933.html",
+          "note": "Factory page for a modern historical recreation; modern specifications are not projected onto originals."
+        },
+        {
+          "title": "Martin Factory Serial Table",
+          "url": "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "note": "Official year-end serial table used to date the JVG comparison guitar."
+        },
+        {
+          "title": "JVG OM-18GE Neck-Block Photograph",
+          "url": "https://drive.google.com/file/d/145JnwkpCqp8GeajqYo1uke-q8Mm1xGre/view?usp=drivesdk",
+          "note": "User-authorized archive image, inspected by author and parent. Private provenance URL only; keep it out of public prose."
+        },
+        {
+          "title": "Corwin: Dated Neck-Block Stamp Photographs",
+          "url": "https://vintagemartin.com/stamps.html",
+          "note": "Photographed September/October 1930 instruments support an approximate model-stamp transition. The page’s introductory 1934 sentence conflicts with its detailed specimen section; only the dated evidence is used."
+        }
+      ],
+      "evidenceNotes": [
+        "AGM-OM18-01: Corwin's OM record and Martin's original-OM history support chronology. Stamps and serials use VG-0077 and VG-0082/83.",
+        "AGM-OM18-02: Hutton's serial 52348 record supports the specific measurements, wood, finish and tuner evidence. Its universal 1932 finish claim is not repeated.",
+        "AGM-OM18-03: Corwin's fret reference supplies the period system; repair guidance distinguishes replacement wire from retained original wire.",
+        "AGM-OM18-04: Chicago Music Exchange's technician record for serial 46808 supports the conversion example. No advertised price is reproduced.",
+        "AGM-OM18-05: Modern product specifications are used only to explain historical naming, not projected onto original instruments.",
+        "AGM-OM18-06: JVG's own neck-block photograph was inspected by author and parent. File: work/auth-photos/om18-label.jpg. Drive ID145JnwkpCqp8GeajqYo1uke-q8Mm1xGre. Visible serial 1055217 is within the factory 2005 range; the body contains the comparison.",
+        "Early-OM model-stamp exception added after independent review: absence before approximately October 1930 is not by itself a sign of alteration. See Corwin’s dated neck-block examples.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CLAUDE-20261023-OM-18: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "om-28",
+      "slug": "martin-om-28-authentication-guide",
+      "sources": [
+        {
+          "title": "Martin Original OM History",
+          "url": "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html",
+          "note": "Factory chronology of the original OM and the later naming transition."
+        },
+        {
+          "title": "1930 OM-28, Serial 41222",
+          "url": "https://theguitarphile.com/1930-martin-om-28-serial-number-41222/",
+          "note": "First-hand early instrument with factory dates; bridge-cutoff and count claims are withheld."
+        },
+        {
+          "title": "Corwin OM Archive",
+          "url": "https://vintagemartin.com/om.html",
+          "note": "Individually documented instrument comparison; shared-source paraphrase is limited."
+        },
+        {
+          "title": "1934 Long-Scale000-28, Serial 55634",
+          "url": "https://theguitarphile.com/1934-martin-long-scale-000-28-serial-number-55634/",
+          "note": "Long-scale transitional instrument; probable back replacement remains an expressly qualified interpretation."
+        },
+        {
+          "title": "Corwin Fret Construction",
+          "url": "https://vintagemartin.com/frets.html",
+          "note": "Original fret-system comparison."
+        },
+        {
+          "title": "Martin OM-28 Authentic 1931",
+          "url": "https://www.martinguitar.com/guitars/retired-models/OM-28-Authentic-1931.html",
+          "note": "Factory modern-model specification used only to distinguish the later recreation."
+        },
+        {
+          "title": "Corwin: Dated Neck-Block Stamp Photographs",
+          "url": "https://vintagemartin.com/stamps.html",
+          "note": "Photographed September/October 1930 instruments support an approximate model-stamp transition. The page’s introductory 1934 sentence conflicts with its detailed specimen section; only the dated evidence is used."
+        },
+        {
+          "title": "Eric Schoenberg: Schoenberg Guitars History",
+          "url": "https://www.om28.com/custom/history.jsp",
+          "note": "First-party account records a batch of six OM-28s ordered in 1969 through the Folklore Center and Matty Umanov. Kept distinct from individual completion or shipping dates."
+        },
+        {
+          "title": "Audit-Verified Reference",
+          "url": "https://www.om28.com/custom/article/AcousticGuitarNotes-02.jsp",
+          "note": "Eric Schoenberg first-person essay separately says batchof6OM28s orderedfromMartinin1969."
+        }
+      ],
+      "evidenceNotes": [
+        "AGM-OM28-01: Factory OM history and Hutton's long-scale000 record support separate naming and scale transitions. Stamp/date principles use VG-0077 and VG-0082/83.",
+        "AGM-OM28-02: Hutton's serial 41222 record supplies the early bridge example. No final-month or production-count claim is made because sources differ.",
+        "AGM-OM28-03: Corwin's instrument-specific measurement and replacement-tuner disclosure are kept narrow. Shared-source paraphrase is limited across the OM guides.",
+        "AGM-OM28-04: Hutton's probable back-replacement interpretation remains explicitly qualified. The article does not assign a firm repair date.",
+        "AGM-OM28-05: The factory modern product page supplies only the reissue comparison. Modern bracing and spacing are not assigned to all original OMs.",
+        "AGM-OM28-06: Schoenberg’s first-party history confirms an order for six OM-28s in 1969. Guide distinguishes order year from completion/shipping and requires individual records for attribution.",
+        "Worked archive-photo example visually checked: 2005 OM-28V photo shows a belly bridge with an outline bulging below its pin row. 1930 OM-28 41222 has documented original pyramid bridge and herringbone: https://theguitarphile.com/1930-martin-om-28-serial-number-41222/ Limits: No universal pyramid-to-belly cutoff asserted. Modern bridge used for visible outline comparison only. Does not decide originality or the repair history of a belly bridge on an early body.",
+        "Early-OM model-stamp exception added after independent review: absence before approximately October 1930 is not by itself a sign of alteration. See Corwin’s dated neck-block examples.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CLAUDE-20261023-OM-28: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "om-45",
+      "slug": "martin-om-45-authentication-guide",
+      "sources": [
+        {
+          "title": "Martin Museum OM-45 History",
+          "url": "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html",
+          "note": "Factory account of the original production period. Conflicting precise counts are excluded."
+        },
+        {
+          "title": "Corwin Style 45 Border Reference",
+          "url": "https://vintagemartin.com/borders.html",
+          "note": "Photographic evidence for the extent of Style 45 decoration."
+        },
+        {
+          "title": "Corwin OM-45 Deluxe Reference",
+          "url": "https://vintagemartin.com/Style45DLX.html",
+          "note": "Deluxe appointments and documented separately supplied parts; count disagreements are excluded."
+        },
+        {
+          "title": "1930 OM-45, Serial 42798",
+          "url": "https://theguitarphile.com/1930-martin-om-45-guitar-serial-number-42798/",
+          "note": "Historical factory repair record and dated hardware example; no quoted bill or price."
+        },
+        {
+          "title": "Corwin Fret Construction",
+          "url": "https://vintagemartin.com/frets.html",
+          "note": "Original-period neck-system explanation."
+        },
+        {
+          "title": "Roy Rogers 1930 OM-45Deluxe Auction Record",
+          "url": "https://www.christies.com/en/lot/lot-5185535",
+          "note": "First-hand auction description of OM layout and Deluxe appointments; older count assertion not used."
+        },
+        {
+          "title": "Modern Martin OM-45",
+          "url": "https://www.martinguitar.com/guitars/new-models-1/OM-45.html?cgid=featured-guitars",
+          "note": "Modern factory specification used for a clearly labeled comparison; no price or availability promise."
+        },
+        {
+          "title": "Corwin: Dated Neck-Block Stamp Photographs",
+          "url": "https://vintagemartin.com/stamps.html",
+          "note": "Photographed September/October 1930 instruments support an approximate model-stamp transition. The page’s introductory 1934 sentence conflicts with its detailed specimen section; only the dated evidence is used."
+        },
+        {
+          "title": "Robert Corwin: Style 45 Deluxe Photographs And Shop Orders",
+          "url": "https://www.vintagemartin.com/Style45DLX.html"
+        },
+        {
+          "title": "Robert Corwin: Martin Inlays",
+          "url": "https://vintagemartin.com/inlays.html"
+        },
+        {
+          "title": "Schoenberg: Restored 1933 OM-45",
+          "url": "https://om28.com/ProductDetail?product=P140709002",
+          "note": "Firsthand specifications and explicit replacement disclosures. Normal browser access verified; do not treat replacement board, bridge or plate as surviving original components."
+        }
+      ],
+      "evidenceNotes": [
+        "AGM-OM45-01: Martin's museum chronology and Christie's instrument description support the original period and OM layout. Stamp/date principles use VG-0077 and VG-0082/83.",
+        "AGM-OM45-02: Corwin's border and Deluxe photographs support the ornament comparison. Inspection guidance is original prose, not extended source summary.",
+        "AGM-OM45-03: Hutton's serial 42798 repair record supports the dated example. The article paraphrases briefly and omits the quoted bill and price.",
+        "AGM-OM45-04: Corwin's fret reference supports the period neck system. No claim is made that a reader's guitar retains those original components.",
+        "AGM-OM45-05: The modern OM-45 factory page was checked 2026-10-23 for the reissue comparison; no current price or availability claim is used.",
+        "AGM-OM45-06: The article now attributes 40 OM-45s in 1930 through 1933 to Martin, without inferring whether Deluxe guitars are included. Deluxe production totals conflict and remain omitted. Corwin records five known Deluxe examples; his undated count is attributed, not described as a current census.",
+        "Worked archive-photo example visually checked: 1976 000-45 full-front photo shows gold-colored metal tuner buttons projecting from the headstock sides. Greig Hutton's documented 1930 OM-45 42798 has Grover #89G Deluxe banjo pegs: https://theguitarphile.com/1930-martin-om-45-guitar-serial-number-42798/ Limits: Explicitly a 1976 000-45 comparison, not a pictured OM-45. Does not extend one early 1930 example's hardware to all original OMs. Does not claim rear mounting evidence is visible in the selected front photo.",
+        "Early-OM model-stamp exception added after independent review: absence before approximately October 1930 is not by itself a sign of alteration. See Corwin’s dated neck-block examples.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CLAUDE-20261023-OM-45: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "Round 2 GPT audit, October 23, 2026: applied verified corrections and source-attributed additions. See editorial/authentication/gpt-round2-response.json. No canonical fact-registry entries or new first-person experience claims were created.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "small-early",
+      "slug": "martin-small-early-authentication-guide",
+      "sources": [
+        {
+          "title": "Berkeley Music: 1931 Martin 1-17",
+          "url": "https://reverb.com/item/62328973-martin-1-17-1931",
+          "note": "Existing researched model reference for 1-17. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Robert Corwin: Martin Sizes",
+          "url": "https://www.vintagemartin.com/sizes.html",
+          "note": "Existing researched model reference for 1-17. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Joe's Vintage Guitars: Martin Dating Guide",
+          "url": "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/",
+          "note": "Existing researched model reference for 1-17. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Vintage Guitars Info: Martin Model Production Table",
+          "url": "https://guitarhq.com/martin.html",
+          "note": "Existing researched model reference for 1-18. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Style 18 archive",
+          "url": "https://vintagemartin.com/styles15_17_18.html",
+          "note": "Existing researched model reference for 1-18. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Robert Corwin: Styles 20, 21 And 22",
+          "url": "https://vintagemartin.com/styles20_21_22.html",
+          "note": "Existing researched model reference for 1-21. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "appraisal request",
+          "url": "https://www.joesvintageguitarsaz.com/free-appraisal/",
+          "note": "Existing researched model reference for 1-21. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Robert Corwin: Styles 26 And 28",
+          "url": "https://vintagemartin.com/styles26_28.html",
+          "note": "Existing researched model reference for 1-26. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Robert Corwin: Styles 27, 30 And 34",
+          "url": "https://vintagemartin.com/styles27_30_34.html",
+          "note": "Existing researched model reference for 1-27. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Robert Corwin: Styles 40 And 42",
+          "url": "https://vintagemartin.com/style40_42.html",
+          "note": "Existing researched model reference for 1-42. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Corwin: Style 23 And 24",
+          "url": "https://vintagemartin.com/styles23_24.html",
+          "note": "Mixed size captions justify qualified Style 23 attributions, not invented certainty."
+        },
+        {
+          "title": "Robert Corwin: Early Styles And Borders",
+          "url": "https://www.vintagemartin.com/borders.html",
+          "note": "Existing researched model reference for 2 1/2-30. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Martin Terz Documentation",
+          "url": "https://www.vintagemartin.com/Terz.html",
+          "note": "Existing researched model reference for 5-18. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Martin Serial Reference",
+          "url": "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "note": "Primary maker chronology; pre-1898 instruments require other evidence."
+        },
+        {
+          "title": "Martin Museum",
+          "url": "https://www.martinguitar.com/about-martin-martin-guitar-museum.html",
+          "note": "Existing researched model reference for 5-20. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Style 21 Comparison",
+          "url": "https://www.vintagemartin.com/styles20_21_22.html",
+          "note": "Existing researched model reference for 5-21. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Supporting Instrument Reference",
+          "url": "https://www.guitar-repair.com/articles/anglemire/article_nov_2013.htm",
+          "note": "Existing researched model reference for 1-30. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Supporting Instrument Reference",
+          "url": "https://bluebookofguitarvalues.com/products/martin-model-1-30",
+          "note": "Existing researched model reference for 1-30. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Supporting Instrument Reference",
+          "url": "https://www.vintageguitar.com/3383/martin-000-30/amp/",
+          "note": "Existing researched model reference for 1-30. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Supporting Instrument Reference",
+          "url": "https://umgf.com/style-30-info-t211052.html",
+          "note": "Existing researched model reference for 2-30. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Supporting Instrument Reference",
+          "url": "https://www.om28.com/ProductDetail?product=P251002001",
+          "note": "Existing researched model reference for 2-30. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Supporting Instrument Reference",
+          "url": "https://www.digimart.net/cat2/shop60/DS10696971/",
+          "note": "Existing researched model reference for 5-17. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Supporting Instrument Reference",
+          "url": "https://applink.reverb.com/item/85502982-1939-martin-5-17",
+          "note": "Existing researched model reference for 5-17. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Style 17 Instrument Documentation",
+          "url": "https://www.vintagemartin.com/styles15_17_18.html",
+          "note": "Existing researched model reference for 00-17. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Documented 1926 00-18 Bridge",
+          "url": "https://www.vintagemartin.com/bridges.html",
+          "note": "Existing researched model reference for 00-18. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Folkway: 1957 Martin 00-18",
+          "url": "https://folkwaymusic.com/museum/martin-guitars/1957-martin-0018-1117",
+          "note": "Existing researched model reference for 00-18. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Joe's Documented Martin Purchases",
+          "url": "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/",
+          "note": "Existing researched model reference for 00-21. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Documented 1929 00-28 G.P.",
+          "url": "https://www.vintagemartin.com/",
+          "note": "Existing researched model reference for 00-28. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Style 30 Instrument Comparison",
+          "url": "https://www.vintagemartin.com/styles27_30_34.html",
+          "note": "Existing researched model reference for 00-30. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "The Music Emporium: 1903 Martin 00-30",
+          "url": "https://themusicemporium.com/products/martin-00-30-used-1903",
+          "note": "Existing researched model reference for 00-30. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Style 42 Documentation",
+          "url": "https://www.vintagemartin.com/style40_42.html",
+          "note": "Existing researched model reference for 00-42. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Documented 1902 00-42 Special",
+          "url": "https://www.vintagemartin.com/style45.html",
+          "note": "Existing researched model reference for 00-42. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Smithsonian 0-28 Collection Record",
+          "url": "https://www.si.edu/object/nmah_606249",
+          "note": "Existing researched model reference for 0-28. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "A Repairer’s 0-17H Conversion Record",
+          "url": "https://jakewildwood.blogspot.com/2012/12/c1936-martin-0-17h-conversion-guitar.html",
+          "note": "Existing researched model reference for 0-17H. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Hawaiian Setup Context",
+          "url": "https://vintagemartin.com/hawaiian.html",
+          "note": "Existing researched model reference for 0-17H. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Retrofret’s 1923 0-18K",
+          "url": "https://retrofret.com/products/c-f-martin-0-18k-flat-top-acoustic-guitar-1923-9717",
+          "note": "Existing researched model reference for 0-18K. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Joe’s Existing Small-Body Guide",
+          "url": "https://www.joesvintageguitarsaz.com/post/martin-0-00-000-history-authentication-value-guide/",
+          "note": "Existing researched model reference for 0-18K. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Gryphon’s Style 1400 And 0-21K Naming Example",
+          "url": "https://www.gryphonstrings.com/products/1917-southern-california-music-co-style-1400-martin-0-21k-acoustic-guitar-used-26619",
+          "note": "Existing researched model reference for 0-21K. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Folkway’s Photographed 1930 0-28K",
+          "url": "https://folkwaymusic.com/oldmuseum/martingallery.html",
+          "note": "Existing researched model reference for 0-28K. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Mass Street’s 1937 Conversion",
+          "url": "https://massstreetmusic.com/products/martin-guitars-1937-00-18h-conversion",
+          "note": "Existing researched model reference for 00-18H. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Elderly’s 1937 Shaded-Top Hawaiian",
+          "url": "https://www.elderly.com/products/martin-00-18h-shade-top-hawaiian-guitar-1937-50u-221532",
+          "note": "Existing researched model reference for 00-18H. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Historical Koa Model Names In A 1974 Martin Feature",
+          "url": "https://www.worldradiohistory.com/UK/Beat-Instrumental/Beat-Instrumental-1974-04-S-OCR.pdf",
+          "note": "Existing researched model reference for 00-18K. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Folkway’s Documented 1930 Conversion",
+          "url": "https://folkwaymusic.com/museum/martin-guitars/1930-martin-0040h-0717",
+          "note": "Existing researched model reference for 00-40H. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Supporting Instrument Reference",
+          "url": "https://bluebookofguitarvalues.com/products/martin-model-2-17-second-version",
+          "note": "Existing researched model reference for 2-17H. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Supporting Instrument Reference",
+          "url": "https://reverb.com/item/82270429-1927-martin-2-17h-conversion",
+          "note": "Existing researched model reference for 2-17H. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Supporting Instrument Reference",
+          "url": "https://www.guitarcenter.com/Used/Martin/Vintage-Vintage-1927-Martin-2-17H-Natural-Acoustic-Guitar-122964519.gc",
+          "note": "Existing researched model reference for 2-17H. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Documented 1964 0-16NY Repair Record",
+          "url": "https://jakewildwood.blogspot.com/2018/02/1964-martin-0-16ny-12-fret-lefty-guitar.html",
+          "note": "Existing researched model reference for 0-16NY. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Folkway: Archived 1962 Martin 00-21NY",
+          "url": "https://folkwaymusic.com/oldmuseum/martingallery2.html",
+          "note": "Existing researched model reference for 00-21NY. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Corwin: Early Bridges And Stringing",
+          "url": "https://vintagemartin.com/classicals.html",
+          "note": "Photographed early gut-string pin and tie bridges; bridge pins alone do not establish steel-string design."
+        },
+        {
+          "title": "Corwin: Rare Terz Orders",
+          "url": "https://vintagemartin.com/Terz.html",
+          "note": "Documented 1874 5-20 and archival rare-order terz names; no production totals imported."
+        }
+      ],
+      "evidenceNotes": [
+        "Per-model index includes all 27 entries in the Small And Early group in the supplied roster, plus linked 0/00/New Yorker/koa families. The 2-20 attribution remains explicitly qualified.",
+        "All selected model pages and original source lists are retained in provenance. Index evidence is a category, not an instrument authenticity verdict.",
+        "VG-0077/0082/0083 support separate model/serial treatment and standard serial chronology. Repair-documentation advice is original editorial guidance.",
+        "Worked archive-photo example visually checked: 1860s 2½-17 full front shows slotted headstock and pin bridge with pointed wings. Detail shows three machines on an engraved strip plate. Limits: Does not date the guitar from engraving alone. Does not identify button material from appearance. Does not infer steel-string suitability from pins.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CFA-FAMILY-SMALL-EARLY: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "classical",
+      "slug": "martin-classical-authentication-guide",
+      "sources": [
+        {
+          "title": "Elite: 1959 00-18G",
+          "url": "https://www.eliteguitars.net/1959-martin-0018g",
+          "note": "Firsthand inspected specimen supports later G body/neck pairing, mahogany and spruce; early-G exception retained."
+        },
+        {
+          "title": "Martin Classical Model History",
+          "url": "https://vintagemartin.com/classicals.html",
+          "note": "Existing researched model reference for 00-18G. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "A Photographed 1960 00-28G",
+          "url": "https://vintageamericanguitar.com/product/1960-martin-00-28g/",
+          "note": "Existing researched model reference for 00-28G. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Retrofret’s 1965 00-18C",
+          "url": "https://retrofret.com/products/c-f-martin-00-18c-classical-guitar-1965-9575",
+          "note": "Existing researched model reference for 00-18C. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Another Documented 1965 00-18C",
+          "url": "https://www.retrofret.com/product.asp?ProductID=13516&name=C-F-Martin-0018C-Classical-Guitar-1965",
+          "note": "Existing researched model reference for 00-18C. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Crandall: 1966 00-28C",
+          "url": "https://trcrandall.com/products/1966-martin-00-28c",
+          "note": "Firsthand specimen wood identification only; no universal dimensions imported."
+        },
+        {
+          "title": "Another 1966 Rosewood C-Series Example",
+          "url": "https://vintageamericanguitar.com/product/1966-martin-00-28c/",
+          "note": "Existing researched model reference for 00-28C. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Kovacik: Classical Conversion",
+          "url": "https://guitar-repair.com/custom.htm",
+          "note": "1963 000-28C conversion received replacement top and neck; earlier verified repairer record."
+        },
+        {
+          "title": "A 1963 000-28C Auction Record",
+          "url": "https://www.selkirkauctions.com/auction-lot/1963-martin-000-28c-natural-classical-guitar._6c348478ca",
+          "note": "Existing researched model reference for 000-28C. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Gryphon: 1969 N-10",
+          "url": "https://www.gryphonstrings.com/products/1969-martin-n-10-nylon-string-guitar-used-22564",
+          "note": "Serial 247872 and 25.4-inch scale. Exact N-series introduction year disputed with Corwin, so omitted."
+        },
+        {
+          "title": "Chicago Music Exchange’s 1969 N-10",
+          "url": "https://www.chicagomusicexchange.com/products/martin-n-10-natural-1969-2529738",
+          "note": "Existing researched model reference for N-10. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Martin On Willie Nelson And Trigger",
+          "url": "https://www.martinguitar.com/blog-categories/just-for-fun/blog-051524-50-greatest-martin-songs.html",
+          "note": "Existing researched model reference for N-20. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "A Documented 1969 N-20 Feature",
+          "url": "https://www.fretboardjournal.com/columns/blogcatch-day-1969-martin-n-20/",
+          "note": "Existing researched model reference for N-20. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Martin Serial Chart",
+          "url": "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "note": "Official year-end chronology."
+        }
+      ],
+      "evidenceNotes": [
+        "Core later-G body claim checked against Elite inspected 1959 specimen. Avoid generalizing to all experimental 1930s G guitars.",
+        "C-series outline and materials use dated sources preserved from the original specialty batch.",
+        "Corwin classical page used for a short bracing/early pin-bridge distinction only; specific claims remain tied to dated specimens.",
+        "No celebrity provenance or value equivalence transferred from Trigger. VG-0088/0089 preserve transition uncertainty.",
+        "Named specimen and repair sources are preserved in the editorial bibliography. Direct links to competing dealers remain outside the reader prose under MFWD’s outbound-link rule; neutral inline sources and model-to-model links remain on the guide.",
+        "Worked archive-photo example visually checked: 1955 00-18G front shows tied strings at a raised tie block. Headstock detail shows large rollers crossing slots and tuning gears along the sides. Limits: Does not infer fan bracing from the exterior. Does not certify bridge originality. Does not generalize one G-series guitar to C and N models.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CFA-FAMILY-CLASSICAL: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "12-string",
+      "slug": "martin-12-string-authentication-guide",
+      "sources": [
+        {
+          "title": "Twelfth Fret: 1968 D12-20",
+          "url": "https://archive.12fret.com/instruments/martin-d12-20-12-string-guitar-natural-1968/",
+          "note": "Serial 231496; firsthand description of oversized bridge/plate and concealed bolts, not factory specifications."
+        },
+        {
+          "title": "A Documented 1965 D12-20",
+          "url": "https://www.gakkido-online.jp/product/6024",
+          "note": "Existing researched model reference for D12-20. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Christie’s: 1967 D12-35",
+          "url": "https://www.christies.com/lot/lot-5185510",
+          "note": "Instrument record with neck-block serial 227172."
+        },
+        {
+          "title": "Martin Serial Chart",
+          "url": "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "note": "Primary serial chronology; enforce the through-1969 boundary."
+        },
+        {
+          "title": "Guitar Factory: 1965 D12-35",
+          "url": "https://guitarfactory.net/products/martin-1965-d12-35-brazilian-rosewood-w-case-used",
+          "note": "Firsthand body woods, three-piece back, ebony fittings and repair history."
+        },
+        {
+          "title": "Corwin: Early Twelve-String Martins",
+          "url": "https://vintagemartin.com/12string.html",
+          "note": "Short reference to documented 1932 C-2 order; no disputed total imported."
+        },
+        {
+          "title": "CFA-FAMILY-12-STRING-D1220EARLY",
+          "url": "https://folkwaymusic.com/museum/martin-guitars/1965-martin-d1220-0419",
+          "note": "1965 specimen:12fret,24.9scale,1 7/8nut,mahogany/spruce,rosewood bridge/board. Archive says first completed late1964 and catalogued1965; dates are dealer chronology,not firsthand factoryrecord."
+        },
+        {
+          "title": "CFA-FAMILY-12-STRING-D1235",
+          "url": "https://folkwaymusic.com/museum/martin-guitars/1966-martin-d12-35-1115",
+          "note": "1966 serial208095: three-piece Brazilian rosewood back,ebony board/bridge,24.9scale,1 7/8nut,12fret joint. Source states introduced1965."
+        }
+      ],
+      "evidenceNotes": [
+        "The advertised 1969 Twelfth Fret D12-35 at serial 258893 falls in 1970 on the official chart and is deliberately excluded as a 1969 wood-transition example.",
+        "Regular model distinctions use inspected dated specimens. Inspection guidance is original editorial advice.",
+        "Rare-order names and D12-45 remain qualified; the guide makes no exact production-count claim.",
+        "Corwin twelve-string page contributes only the brief dated C-2 example.",
+        "Named specimen and repair sources are preserved in the editorial bibliography. Direct links to competing dealers remain outside the reader prose under MFWD’s outbound-link rule; neutral inline sources and model-to-model links remain on the guide.",
+        "Worked archive-photo example visually checked: 1969 D12-35 front shows two staggered rows of pins. Rear slotted-headstock image shows six tuning buttons on each side and string posts crossing the slots. Limits: Visible counts alone do not rule out conversion. Does not claim hidden bridge-plate condition or factory originality.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CFA-FAMILY-12-STRING: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "tenor",
+      "slug": "martin-tenor-authentication-guide",
+      "sources": [
+        {
+          "title": "Corwin: Tenors And Plectrums",
+          "url": "https://vintagemartin.com/tenor.html",
+          "note": "Short body/bridge variation and general tuning reference; shared with plectrum guide below the source budget."
+        },
+        {
+          "title": "Joe's Vintage Guitars: Martin Dating Guide",
+          "url": "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/",
+          "note": "Existing researched model reference for 5-17T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "repair account of a 1927 example",
+          "url": "https://crawlsbackward.blogspot.com/2013/08/vintage-martin-5-17t-and-o-18t-tenor.html?m=0",
+          "note": "Existing researched model reference for 5-17T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Retrofret: 1928 5-21T",
+          "url": "https://retrofret.com/products/c-f-martin-5-21t-flat-top-tenor-guitar-1928-10453",
+          "note": "Firsthand serial 34517, 22 5/8-inch scale, woods, trim and missing front decal. Production total in dealer text not imported."
+        },
+        {
+          "title": "model-specific appraisal",
+          "url": "https://www.joesvintageguitarsaz.com/free-appraisal/",
+          "note": "Existing researched model reference for 5-21T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Acoustic Disc: Tenor Madness Instrument Booklet",
+          "url": "https://acousticdisc.s3.us-west-1.amazonaws.com/cd-booklets/tenor_madness_booklet_final_1.pdf",
+          "note": "Existing researched model reference for 2-18T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "1930 2-18T",
+          "url": "https://retrofret.com/products/c-f-martin-2-18t-flat-top-tenor-guitar-1930-13073",
+          "note": "Existing researched model reference for 2-18T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "January 2005 Sounding Board",
+          "url": "https://gordonlightfoot.com/pdfs/The%20Sounding%20Board%20Volume%2018%20_%20January%202005%20_%20Martin%20Guitar.pdf",
+          "note": "Existing researched model reference for 2-18T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "serial and model number guide",
+          "url": "https://www.joesvintageguitarsaz.com/martin-serial-and-model-numbers/",
+          "note": "Existing researched model reference for 2-28T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Vintage Guitars Info: Martin Model Production Table",
+          "url": "https://guitarhq.com/martin.html",
+          "note": "Existing researched model reference for 0-17T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Martin tenor reference",
+          "url": "https://www.tenorguitar.com/martin",
+          "note": "Existing researched model reference for 0-17T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "1947 0-17T repair account",
+          "url": "https://jakewildwood.blogspot.com/2017/07/1947-martin-0-17t-flattop-tenor-guitar.html",
+          "note": "Existing researched model reference for 0-17T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "1946 example",
+          "url": "https://jakewildwood.blogspot.com/2016/04/1946-martin-0-17t-flattop-tenor-guitar.html",
+          "note": "Existing researched model reference for 0-17T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "documented 1929 example",
+          "url": "https://jakewildwood.blogspot.com/2024/10/1929-martin-0-18t-tenor-guitar.html",
+          "note": "Existing researched model reference for 0-18T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Wildwood: 1962 0-15T",
+          "url": "https://jakewildwood.blogspot.com/2017/09/1962-martin-0-15t-flattop-tenor-guitar.html",
+          "note": "Firsthand mahogany-top specimen and repair context."
+        },
+        {
+          "title": "1960 example in the same repair archive",
+          "url": "https://jakewildwood.blogspot.com/2012/09/c1960-martin-0-15t-tenor-guitar.html",
+          "note": "Existing researched model reference for 0-15T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Wildwood: 1959 5-15T",
+          "url": "https://jakewildwood.blogspot.com/2024/10/1959-martin-5-15t-tenor-guitar.html",
+          "note": "Repairer inspected example and 23-inch tenor-scale description."
+        },
+        {
+          "title": "Martin Serial Reference",
+          "url": "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "note": "Official year-end chronology."
+        },
+        {
+          "title": "Corwin: Identifying Early Martins",
+          "url": "https://vintagemartin.com/identifying.html",
+          "note": "Early guitars may lack model stamps; do not require a stamped suffix on every 1920s tenor or plectrum."
+        }
+      ],
+      "evidenceNotes": [
+        "Scale dimensions remain attached to inspected specimens. No family-wide fixed scale asserted.",
+        "Rare-order inventory is explicitly qualified, including electrified and eight-string entries; no exact production counts or blanket specifications.",
+        "Corwin tenor page used briefly across this guide and the plectrum guide. Broader claims depend on independent firsthand references.",
+        "No strings, tuning or neck adjustment prescribed for an unseen instrument.",
+        "Named specimen and repair sources are preserved in the editorial bibliography. Direct links to competing dealers remain outside the reader prose under MFWD’s outbound-link rule; neutral inline sources and model-to-model links remain on the guide.",
+        "Worked archive-photo example visually checked: 1927 5-21 tenor case view shows full neck and small body. Four strings and four bridge pins are visible. Close-up shows decorated rosette. Limits: Does not calculate scale from a photograph. Does not identify tenor versus plectrum from strings or decoration alone. Does not certify an unchanged neck.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CFA-FAMILY-TENOR: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "plectrum",
+      "slug": "martin-plectrum-authentication-guide",
+      "sources": [
+        {
+          "title": "Corwin: Tenor And Plectrum Archive",
+          "url": "https://vintagemartin.com/tenor.html",
+          "note": "Short family/tuning distinction only; shared source use kept narrow."
+        },
+        {
+          "title": "Joe's Vintage Guitars: Martin Dating Guide",
+          "url": "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/",
+          "note": "Existing researched model reference for 1-17P. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Thunder Road: 1929 1-17P",
+          "url": "https://www.gbase.com/gear/martin-1-17p-plectrum-guitar-1929-natural",
+          "note": "Dealer firsthand serial 38787, 26 7/8-inch scale, 1 1/4-inch nut, woods and repair record."
+        },
+        {
+          "title": "documented 1929 left-handed 1-28P",
+          "url": "https://www.fretboardjournal.com/columns/catch-day-1929-1-28p-lefty/",
+          "note": "Existing researched model reference for 1-28P. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Wildwood: 1930 1-28P",
+          "url": "https://jakewildwood.blogspot.com/2019/08/1930-martin-1-28p-plectrum-guitar.html",
+          "note": "Only repair narrative used. Page contains erroneous copied specification block and inconsistent scale numbers; neither is used."
+        },
+        {
+          "title": "appraisal form",
+          "url": "https://www.joesvintageguitarsaz.com/free-appraisal/",
+          "note": "Existing researched model reference for 000-18P. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "1930 OM-18P, serial 44556",
+          "url": "https://vintagemartin.com/om.html",
+          "note": "Existing researched model reference for OM-18P. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Gruhn: Martin OM-18P",
+          "url": "https://www.vintageguitar.com/22806/",
+          "note": "Firsthand shown 1931 instrument supports dimensions/construction and appointments. Broad chronology and all-in-1931 count conflict with other records and are not imported."
+        },
+        {
+          "title": "Chicago Music Exchange: OM-18P Conversion",
+          "url": "https://www.gbase.com/gear/martin-om-18p-6-string-conversion-1931-natural-natural",
+          "note": "Documented conversion supports the existence of this alteration class; no blanket conversion specifications."
+        },
+        {
+          "title": "Martin Serial Reference",
+          "url": "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "note": "Official date chronology."
+        },
+        {
+          "title": "RetroFret: 1928 5-21T Scale Comparison",
+          "url": "https://retrofret.com/products/c-f-martin-5-21t-flat-top-tenor-guitar-1928-10453",
+          "note": "Firsthand 22 5/8-inch scale, compared with the independently documented 1929 1-17P at 26 7/8 inches. Difference is calculated as 4 1/4 inches; neither measurement is assigned to the 1927 archive comparison photo."
+        },
+        {
+          "title": "Corwin: Identifying Early Martins",
+          "url": "https://vintagemartin.com/identifying.html",
+          "note": "Early guitars may lack model stamps; do not require a stamped suffix on every 1920s tenor or plectrum."
+        }
+      ],
+      "evidenceNotes": [
+        "OM-18P date conflict is explicitly preserved; no single-year production claim.",
+        "The Wildwood 1-28P copied specification block is unreliable. Guide uses only a short firsthand repair narrative and imports no scale or wood claims from that block.",
+        "Small-body and OM construction descriptions are tied to named specimens. Rare names remain qualified.",
+        "Corwin shared page contributes brief family/tuning context across tenor and plectrum guides, not the majority of prose.",
+        "Named specimen and repair sources are preserved in the editorial bibliography. Direct links to competing dealers remain outside the reader prose under MFWD’s outbound-link rule; neutral inline sources and model-to-model links remain on the guide.",
+        "Worked archive-photo example visually checked: Selected crop is the 1927 5-21 tenor's four-pin straight bridge. Four strings and four pins are clearly visible. Limits: Explicitly a tenor comparison, not a pictured plectrum. Bridge crop cannot establish scale length or factory four-string identity.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CFA-FAMILY-PLECTRUM: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "Round 2: Gruhn in Vintage Guitar supports 65 OM-18Ps made in the year 1931. This is an annual count, not a lifetime total or a claim that all OM-18Ps were made in 1931; the 1930 example remains.",
+        "Round 2 GPT audit, October 23, 2026: applied verified corrections and source-attributed additions. See editorial/authentication/gpt-round2-response.json. No canonical fact-registry entries or new first-person experience claims were created.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "archtop",
+      "slug": "martin-archtop-authentication-guide",
+      "sources": [
+        {
+          "title": "Folkway: 1932 C-1",
+          "url": "https://folkwaymusic.com/museum/martin-guitars/32-martin-c1-0414",
+          "note": "Firsthand roundhole, carved X-braced top and replacement bridge/tuners."
+        },
+        {
+          "title": "Corwin: Archtops",
+          "url": "https://vintagemartin.com/archtops.html",
+          "note": "Firsthand illustrated family reference, including mid-1936 R-18 carved-top and continuous f-hole transition."
+        },
+        {
+          "title": "Joe’s Vintage Guitars: Appraisal",
+          "url": "https://www.joesvintageguitarsaz.com/free-appraisal/",
+          "note": "Existing researched model reference for C-1. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Folkway: 1932 Martin C-1T",
+          "url": "https://folkwaymusic.com/museum/martin-guitars/1932-martin-c1t-0719",
+          "note": "Existing researched model reference for C-1T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Archtop.com: 1931 Martin C-2",
+          "url": "https://www.archtop.com/ac_31_C2.html",
+          "note": "Existing researched model reference for C-2. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Carter Vintage: 1934 Martin C-3",
+          "url": "https://cartervintage.com/shop/martin-c-3-1934-shade-top/3K0ttkm1xH9DlJRy1I3fwbtsSpw",
+          "note": "Existing researched model reference for C-3. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "The Twelfth Fret: 1937 Martin R-17",
+          "url": "https://shop.12fret.com/products/martin-r-17-archtop-guitar-natural-mahogany-1937",
+          "note": "Existing researched model reference for R-17. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "CFA-FAMILY-ARCHTOP-R18",
+          "url": "https://folkwaymusic.com/museum/martin-guitars/1933-r-18-roundhole-archtop",
+          "note": "1933 serial54286 roundhole,archedratherthancarvedsprucetop,Xbracing,bridgeplate. CorrectURLincludes/martin-guitars/,not/archtop-guitars/."
+        },
+        {
+          "title": "Jake Wildwood: 1934 Martin R-18T Repair Record",
+          "url": "https://jakewildwood.blogspot.com/2019/03/1934-martin-r-18t-archtop-tenor-guitar.html",
+          "note": "Existing researched model reference for R-18T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Folkway: Archived 1937 Martin R-18T",
+          "url": "https://folkwaymusic.com/oldmuseum/archtopgallery.html",
+          "note": "Existing researched model reference for R-18T. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Organic Sounds: 1940 Martin F-1",
+          "url": "https://organicsoundsguitars.com/products/martin-f-1-archtop-spruce-mahogany-1942",
+          "note": "Existing researched model reference for F-1. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Frank Ford: 1942 F-2",
+          "url": "https://www.frets.com/pages/gljev39s/Martin-F-2.php",
+          "note": "Prior verified firsthand study supports flat back; current re-fetch failed, original provenance retained."
+        },
+        {
+          "title": "Joe’s Vintage Guitars: Serial And Model Numbers",
+          "url": "https://www.joesvintageguitarsaz.com/martin-serial-and-model-numbers/",
+          "note": "Existing researched model reference for F-2. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Archtop.com: 1935 F-7",
+          "url": "https://www.archtop.com/ac_35_F7.html",
+          "note": "Firsthand 16-inch carved-top rosewood instrument; guard described as vintage-correct rather than unconditionally original."
+        },
+        {
+          "title": "Gruhn: Archived 1942 Martin F-9",
+          "url": "https://guitars.com/archived-inventory/martinF9/AR3532.html",
+          "note": "Existing researched model reference for F-9. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Schoenberg: 1938 Martin F-9",
+          "url": "https://www.om28.com/ProductDetail?product=P201109002",
+          "note": "Existing researched model reference for F-9. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Martin Serial Chart",
+          "url": "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "note": "Primary dating reference."
+        },
+        {
+          "title": "Martin 1935 Catalog",
+          "url": "https://acousticmusic.org/wp-content/uploads/2016/02/Martin-1935-Catalog.pdf",
+          "note": "Period manufacturer catalog explicitly includes C-1T and R-18T."
+        },
+        {
+          "title": "Martin Archtop Serial And Model Locations",
+          "url": "https://guitarhq.com/martin.html",
+          "note": "Collector identification reference distinguishes round-hole neck-block markings from f-hole model/serial markings on the internal center back strip; inspect and photograph actual marks rather than assuming location."
+        }
+      ],
+      "evidenceNotes": [
+        "Carved versus pressed claims are attached to dated inspected specimens, not imposed on a complete series.",
+        "F-2 firsthand source was verified during the model-page research; a later re-fetch returned cache miss. No new unsupported construction details added.",
+        "1935 catalog supports tenor model names. Rare prototypes and special orders are qualified.",
+        "No unqualified original-finish conclusion borrowed from the ambiguous Schoenberg F-9 condition description.",
+        "Independent final read corrected the archtop stamp-location instruction: round-hole neck block and f-hole center back strip are now distinguished. Supporting firsthand owner accounts: https://umgf.com/what-would-you-imagine-a-1934-r-18-being-converted-t79173.html .",
+        "Worked archive-photo example visually checked: 1934 C-2 front shows separate raised bridge and metal tailpiece. F-holes, large pickguard and vertical headstock lettering are visible. Limits: Does not infer original hardware from appearance. Front photograph cannot show full bridge-foot contact. Does not diagnose top carving or internal structure.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CFA-FAMILY-ARCHTOP: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "Round 2 GPT audit, October 23, 2026: applied verified corrections and source-attributed additions. See editorial/authentication/gpt-round2-response.json. No canonical fact-registry entries or new first-person experience claims were created.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    },
+    {
+      "key": "electric",
+      "slug": "martin-electric-authentication-guide",
+      "sources": [
+        {
+          "title": "Retrofret’s 1959 00-18E",
+          "url": "https://retrofret.com/products/c-f-martin-00-18e-flat-top-acoustic-electric-guitar-1959-3629",
+          "note": "Existing researched model reference for 00-18E. Preserve specimen-specific limits; not a blanket factory specification."
+        },
+        {
+          "title": "Corwin: Early Martin Electrics",
+          "url": "https://vintagemartin.com/Electric.html",
+          "note": "Short family/layout summary, 00-18E second-pickup option and clear bridge reference. Avoid counts and suspect serial transcription."
+        },
+        {
+          "title": "Retrofret: 1962 F-55",
+          "url": "https://retrofret.com/products/c-f-martin-f-55-thinline-hollow-body-electric-guitar-1962-5586",
+          "note": "Firsthand laminated-maple, mahogany/rosewood and pickup construction."
+        },
+        {
+          "title": "Retrofret: 1964 F-65",
+          "url": "https://retrofret.com/products/c-f-martin-f-65-thinline-hollow-body-electric-guitar-1964-8691",
+          "note": "Firsthand double-cutaway configuration."
+        },
+        {
+          "title": "Marshall: Martin GT-Series Electrics",
+          "url": "https://www.amarshall.com/?page_id=349",
+          "note": "Collector-owned photographed examples support B variants and GT-75-only stamp on twelve-string. Cached indexed page previously verified; direct fetch can return 403. Exact totals not asserted."
+        },
+        {
+          "title": "Retrofret: 1967 GT-75",
+          "url": "https://retrofret.com/products/c-f-martin-gt-75-thinline-hollow-body-electric-guitar-1967-8693",
+          "note": "Serial 218537; dated unusual headstock and aluminum bridge. Under 200 derived words from this source."
+        },
+        {
+          "title": "Martin Serial Chart",
+          "url": "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "note": "Official chronological reference."
+        },
+        {
+          "title": "JVG: D-18E Versus D-28E",
+          "url": "https://www.joesvintageguitarsaz.com/post/martin-d18e-vs-d28e-authentication-guide/",
+          "note": "Existing live comparison retained as dedicated route for excluded dreadnought electrics."
+        }
+      ],
+      "evidenceNotes": [
+        "The six core models exclude D-18E/D-28E and route to the live JVG comparison.",
+        "Corwin contributes short layout/options/bridge context; F-55/F-65/GT-75 construction relies on independent inspected specimens.",
+        "GT variant headstock and incomplete twelve-string stamp are explicitly supported by collector/instrument references, not universal statements.",
+        "Electrical inspection advice is original editorial guidance; no component dates invented.",
+        "Named specimen and repair sources are preserved in the editorial bibliography. Direct links to competing dealers remain outside the reader prose under MFWD’s outbound-link rule; neutral inline sources and model-to-model links remain on the guide.",
+        "Worked archive-photo example visually checked: GT-75 photo shows double cutaways, two pickups and vibrato arm. F-series comparison shows single cutaway and different headstock outline. Both photographed guitars have two pickups. Limits: Does not name an unverified exact F-series model. Does not assert exact production year from non-serial-linked photos. Does not certify electronics or pickups from exterior images.",
+        "RetroFret’s firsthand 1967 GT-75 record supports the bolt-on neck and adjustable truss rod example; no disassembly instructions are given.",
+        "Photo selection uses Joe’s authorized Drive or existing website archive. The hero caption identifies the actual guitar; comparison images are labeled. Full image provenance is recorded in authentication-photos.json.",
+        "Consolidated October 23, 2026: this authentication article supersedes overlapping model-overview previews. Relevant construction and repair distinctions are retained; duplicate boilerplate and valuation sections are omitted. Detailed source material remains in the retained source files.",
+        "CFA-FAMILY-ELECTRIC: Source-verified citation repairs and dated reference table. Draft supplement, not an approved VG registry addition.",
+        "Claude audit revision, October 23, 2026: shorter authentication title, dated reference section, visible specimen citations, reduced repeated cautions and responsive photographic delivery. Exact audit dispositions remain in editorial/authentication/claude-audit-response.json. No new first-person handling claim added.",
+        "Round 2 GPT audit, October 23, 2026: applied verified corrections and source-attributed additions. See editorial/authentication/gpt-round2-response.json. No canonical fact-registry entries or new first-person experience claims were created.",
+        "2026-10-23: Joe requested model-development timelines and no external article links. The timeline-rewrite evidence packet documents historical milestones, qualifications and disagreements. Individual repair examples no longer establish table rows or factory cutoffs."
+      ]
+    }
+  ],
+  "photos": {
+    "d-21": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/d21-full.jpg",
+        "actualModel": "Martin D-21",
+        "year": 1961,
+        "caption": "1961 Martin D-21 from the Joe's Vintage Guitars photo archive.",
+        "alt": "Full front of a 1961 Martin D-21 in its open case",
+        "width": 4160,
+        "height": 6240,
+        "sourceUrl": "https://drive.google.com/file/d/1yTAL0Pi9i_hrTC-1A-Qed2re-e5wKwl8/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+        "isComparison": false,
+        "fit": "contain",
+        "selectionReason": "Clear archive photograph of the identified instrument.",
+        "src": "/images/authentication/d-21-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "1yTAL0Pi9i_hrTC-1A-Qed2re-e5wKwl8",
+          "originalFilename": "IMG_4283.jpg",
+          "identityBasis": "Archive folder/filename and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": [
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/d21_detail4.jpg",
+          "actualModel": "Martin D-21",
+          "year": 1961,
+          "caption": "The headstock face of the same 1961 D-21.",
+          "alt": "1961 Martin D-21 headstock face and tuners",
+          "width": 6240,
+          "height": 4160,
+          "sourceUrl": "https://drive.google.com/file/d/1a9o3qpEykcSYgGQ9Tzk1MBQuKryQ0Vg9/view?usp=drivesdk",
+          "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+          "isComparison": false,
+          "fit": "contain",
+          "selectionReason": "Clear archive photograph of the identified instrument.",
+          "src": "/images/authentication/d-21-detail-1.jpg",
+          "provenanceRecord": {
+            "type": "user-authorized Google Drive photo archive",
+            "owner": "Joe's Vintage Guitars",
+            "driveFileId": "1a9o3qpEykcSYgGQ9Tzk1MBQuKryQ0Vg9",
+            "originalFilename": "IMG_4284.jpg",
+            "identityBasis": "Archive folder/filename and visual inspection",
+            "visuallyInspected": true
+          }
+        },
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/d21_detail5.jpg",
+          "actualModel": "Martin D-21",
+          "year": 1961,
+          "caption": "Wear in the first frets of the 1961 D-21's fingerboard.",
+          "alt": "Worn fingerboard near the nut of a 1961 Martin D-21",
+          "width": 6240,
+          "height": 4160,
+          "sourceUrl": "https://drive.google.com/file/d/1EH8qNPdr_QKINzR3pkz-JjEr5x-fim_z/view?usp=drivesdk",
+          "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+          "isComparison": false,
+          "fit": "contain",
+          "selectionReason": "Clear archive photograph of the identified instrument.",
+          "src": "/images/authentication/d-21-detail-2.jpg",
+          "provenanceRecord": {
+            "type": "user-authorized Google Drive photo archive",
+            "owner": "Joe's Vintage Guitars",
+            "driveFileId": "1EH8qNPdr_QKINzR3pkz-JjEr5x-fim_z",
+            "originalFilename": "IMG_4286.jpg",
+            "identityBasis": "Archive folder/filename and visual inspection",
+            "visuallyInspected": true
+          }
+        }
+      ]
+    },
+    "d-35": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/d35-full.jpg",
+        "actualModel": "Martin D-35",
+        "year": 1967,
+        "caption": "1967 Martin D-35, the 14-fret version. The D-35S discussed below has a different 12-fret layout.",
+        "alt": "Full front of a 1967 Martin D-35",
+        "width": 3517,
+        "height": 5276,
+        "sourceUrl": "https://drive.google.com/file/d/1wI1Jrv0t0UMQfOmhyOFIYH0CxKKTsopE/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+        "isComparison": false,
+        "fit": "contain",
+        "selectionReason": "Clear archive photograph of the identified instrument.",
+        "src": "/images/authentication/d-35-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "1wI1Jrv0t0UMQfOmhyOFIYH0CxKKTsopE",
+          "originalFilename": "1967-martin-d-35-2.jpg",
+          "identityBasis": "Archive folder/filename and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": [
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/d35_back1.jpg",
+          "actualModel": "Martin D-35",
+          "year": 1967,
+          "caption": "The three-piece back of the 1967 D-35.",
+          "alt": "Three rosewood back sections on a 1967 Martin D-35",
+          "width": 5472,
+          "height": 3648,
+          "sourceUrl": "https://drive.google.com/file/d/172l92alPdz1HoLHnIrK2ePBWoh4m0o52/view?usp=drivesdk",
+          "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+          "isComparison": false,
+          "fit": "contain",
+          "selectionReason": "Clear archive photograph of the identified instrument.",
+          "src": "/images/authentication/d-35-detail-1.jpg",
+          "provenanceRecord": {
+            "type": "user-authorized Google Drive photo archive",
+            "owner": "Joe's Vintage Guitars",
+            "driveFileId": "172l92alPdz1HoLHnIrK2ePBWoh4m0o52",
+            "originalFilename": "1967-martin-d-35-8.jpg",
+            "identityBasis": "Archive folder/filename and visual inspection",
+            "visuallyInspected": true
+          }
+        },
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/d35_detail3.jpg",
+          "actualModel": "Martin D-35",
+          "year": 1967,
+          "caption": "Fingerboard binding on the same 1967 D-35.",
+          "alt": "Close-up of the bound fingerboard on a 1967 Martin D-35",
+          "width": 3648,
+          "height": 5472,
+          "sourceUrl": "https://drive.google.com/file/d/1lkquZ400w5R6l-T7jwFBLML6MKoBlf4W/view?usp=drivesdk",
+          "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+          "isComparison": false,
+          "fit": "contain",
+          "selectionReason": "Clear archive photograph of the identified instrument.",
+          "src": "/images/authentication/d-35-detail-2.jpg",
+          "provenanceRecord": {
+            "type": "user-authorized Google Drive photo archive",
+            "owner": "Joe's Vintage Guitars",
+            "driveFileId": "1lkquZ400w5R6l-T7jwFBLML6MKoBlf4W",
+            "originalFilename": "1967-martin-d-35-4.jpg",
+            "identityBasis": "Archive folder/filename and visual inspection",
+            "visuallyInspected": true
+          }
+        }
+      ]
+    },
+    "d-28": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/site/src/assets/images/sell-martin/1959-martin-D-28-1024x683.jpg",
+        "actualModel": "Martin D-28",
+        "year": 1959,
+        "caption": "1959 Martin D-28. This 14-fret example differs from the 12-fret D-28S discussed below.",
+        "alt": "Body front of a 1959 Martin D-28 in its case",
+        "width": 6240,
+        "height": 4160,
+        "sourceUrl": "https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/",
+        "provenance": "Joe's Vintage Guitars. existing Joe's Vintage Guitars site asset. Identification: Existing article identity and visual inspection.",
+        "isComparison": false,
+        "fit": "contain",
+        "selectionReason": "Existing user-owned image with clear model identity.",
+        "src": "/images/authentication/d-28-hero.jpg",
+        "provenanceRecord": {
+          "type": "existing Joe's Vintage Guitars site asset",
+          "owner": "Joe's Vintage Guitars",
+          "originalFilename": "src/assets/images/sell-martin/1959-martin-D-28-1024x683.jpg",
+          "identityBasis": "Existing article identity and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": [
+        {
+          "localPath": "C:\\Users\\joeda\\Documents\\Codex\\2026-10-23\\le\\work\\auth-photos\\1967-d28-neck-block-1600.jpg",
+          "actualModel": "Martin D-28",
+          "year": 1967,
+          "caption": "A different D-28, from 1967: the neck block carries model D-28 and serial 224411.",
+          "alt": "D-28 model stamp and serial number 224411 on a 1967 Martin neck block",
+          "width": 1600,
+          "height": 1066,
+          "sourceUrl": "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/",
+          "provenance": "Joe's Vintage Guitars. existing Joe's Vintage Guitars site asset. Identification: Existing article identity and visual inspection.",
+          "isComparison": false,
+          "fit": "contain",
+          "selectionReason": "Existing user-owned image with clear model identity.",
+          "src": "/images/authentication/d-28-detail-1.jpg",
+          "provenanceRecord": {
+            "type": "existing Joe's Vintage Guitars site asset",
+            "owner": "Joe's Vintage Guitars",
+            "originalFilename": "src/assets/martin-dating/1967-d28-neck-block.jpg",
+            "identityBasis": "Existing article identity and visual inspection",
+            "visuallyInspected": true,
+            "originalListingUrl": "https://reverb.com/item/95097608-martin-d-28-1967-vibey-player-great-sound",
+            "resolutionUpdate": "Recovered 1600px uncropped gallery image from the same owner listing on October 23, 2026; visually rechecked."
+          }
+        },
+        {
+          "localPath": "C:\\Users\\joeda\\Documents\\Codex\\2026-10-23\\le\\work\\auth-photos\\1967-d28-backstrip-1600.jpg",
+          "actualModel": "Martin D-28",
+          "year": 1967,
+          "caption": "The interior center strip of the same 1967 D-28, showing the maker's stamp and Made in U.S.A. wording.",
+          "alt": "Interior maker stamp on a 1967 Martin D-28",
+          "width": 1066,
+          "height": 1600,
+          "sourceUrl": "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/",
+          "provenance": "Joe's Vintage Guitars. existing Joe's Vintage Guitars site asset. Identification: Existing article identity and visual inspection.",
+          "isComparison": false,
+          "fit": "contain",
+          "selectionReason": "Existing user-owned image with clear model identity.",
+          "src": "/images/authentication/d-28-detail-2.jpg",
+          "provenanceRecord": {
+            "type": "existing Joe's Vintage Guitars site asset",
+            "owner": "Joe's Vintage Guitars",
+            "originalFilename": "src/assets/martin-dating/1967-d28-backstrip.jpg",
+            "identityBasis": "Existing article identity and visual inspection",
+            "visuallyInspected": true,
+            "originalListingUrl": "https://reverb.com/item/95097608-martin-d-28-1967-vibey-player-great-sound",
+            "resolutionUpdate": "Recovered 1600px uncropped gallery image from the same owner listing on October 23, 2026; visually rechecked."
+          }
+        }
+      ],
+      "provenanceConfirmation": {
+        "date": "2026-10-23",
+        "confirmedBy": "Joe Dampt",
+        "serial": "224411",
+        "listing": "https://reverb.com/item/95097608-martin-d-28-1967-vibey-player-great-sound",
+        "basis": "Joe explicitly confirmed in chat that the interior photographs and sold listing depict the same guitar."
+      }
+    },
+    "d-45": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/d45-full.jpg",
+        "actualModel": "Martin D-45",
+        "year": 2005,
+        "caption": "2005 Martin D-45, shown to illustrate the model's pearl-trimmed appearance. The guide below covers D-45s made through 1969.",
+        "alt": "Full front of a sunburst 2005 Martin D-45 with pearl trim",
+        "width": 3648,
+        "height": 5472,
+        "sourceUrl": "https://drive.google.com/file/d/1cJxi-nDETYTXaSlZKPZl12iU4fCdXMeD/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+        "isComparison": true,
+        "fit": "contain",
+        "selectionReason": "Clear archive photograph of the identified instrument.",
+        "src": "/images/authentication/d-45-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "1cJxi-nDETYTXaSlZKPZl12iU4fCdXMeD",
+          "originalFilename": "2005-martin-d-45-sunburst-2.jpg",
+          "identityBasis": "Archive folder/filename and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": [
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/d45_detail6.jpg",
+          "actualModel": "Martin D-45",
+          "year": 2005,
+          "caption": "Vertical pearl headstock lettering on the 2005 D-45. This later example illustrates ornament, not prewar hardware specifications.",
+          "alt": "Pearl headstock lettering and gold tuners on a 2005 Martin D-45",
+          "width": 5472,
+          "height": 3648,
+          "sourceUrl": "https://drive.google.com/file/d/1NiS0RvyGB7ov9seV6AXV0CbjQem1pP-K/view?usp=drivesdk",
+          "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+          "isComparison": true,
+          "fit": "contain",
+          "selectionReason": "Clear archive photograph of the identified instrument.",
+          "src": "/images/authentication/d-45-detail-1.jpg",
+          "provenanceRecord": {
+            "type": "user-authorized Google Drive photo archive",
+            "owner": "Joe's Vintage Guitars",
+            "driveFileId": "1NiS0RvyGB7ov9seV6AXV0CbjQem1pP-K",
+            "originalFilename": "2005-martin-d-45-sunburst-3.jpg",
+            "identityBasis": "Archive folder/filename and visual inspection",
+            "visuallyInspected": true
+          }
+        }
+      ]
+    },
+    "om-18": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/om18-full.jpg",
+        "actualModel": "Martin OM-18GE",
+        "year": 2005,
+        "caption": "2005 Martin OM-18GE, a later recreation shown for body proportions. The guide below covers original prewar OM-18s.",
+        "alt": "Full front of a 2005 Martin OM-18GE shown as a modern comparison",
+        "width": 3648,
+        "height": 5472,
+        "sourceUrl": "https://drive.google.com/file/d/1QxrvcfQa1WV8wLQqoNiKGmBj-lNCNZYr/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive filename plus neck-block photograph confirming OM-18GE 1930 and serial 1055217; serial is in Martin's official 2005 range.",
+        "isComparison": true,
+        "fit": "contain",
+        "selectionReason": "Clear archive photograph of the identified instrument.",
+        "src": "/images/authentication/om-18-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "1QxrvcfQa1WV8wLQqoNiKGmBj-lNCNZYr",
+          "originalFilename": "2005-martin-om-18-ge-2.jpg",
+          "identityBasis": "Archive filename plus neck-block photograph confirming OM-18GE 1930 and serial 1055217; serial is in Martin's official 2005 range.",
+          "visuallyInspected": true
+        }
+      },
+      "details": [
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/om18-label.jpg",
+          "actualModel": "Martin OM-18GE",
+          "year": 2005,
+          "caption": "The 2005 OM-18GE's wooden neck block is stamped Golden Era and 1930 as the recreation reference; serial 1055217 dates the actual guitar to 2005.",
+          "alt": "Wooden neck block of a modern Martin OM-18GE stamped Golden Era 1930 and serial 1055217",
+          "width": 5472,
+          "height": 3648,
+          "sourceUrl": "https://drive.google.com/file/d/145JnwkpCqp8GeajqYo1uke-q8Mm1xGre/view?usp=drivesdk",
+          "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Visible OM-18GE 1930 model stamp and serial 1055217, archive filename 2005.",
+          "isComparison": true,
+          "fit": "contain",
+          "selectionReason": "Shows a specific modern model marking that could be misread as the guitar's year.",
+          "src": "/images/authentication/om-18-detail-1.jpg",
+          "provenanceRecord": {
+            "type": "user-authorized Google Drive photo archive",
+            "owner": "Joe's Vintage Guitars",
+            "driveFileId": "145JnwkpCqp8GeajqYo1uke-q8Mm1xGre",
+            "originalFilename": "2005-martin-om-18-ge-5.jpg",
+            "identityBasis": "Visible OM-18GE 1930 model stamp and serial 1055217, archive filename 2005",
+            "visuallyInspected": true,
+            "dateVerificationSourceUrl": "https://www.martinguitar.com/support-serial-number-lookup.html"
+          }
+        }
+      ]
+    },
+    "om-28": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/om28-full.jpg",
+        "actualModel": "Martin OM-28V",
+        "year": 2005,
+        "caption": "2005 Martin OM-28V, a later recreation shown for body proportions and herringbone trim. The guide covers the original OM-28 run and the 1969 revival.",
+        "alt": "Full front of a 2005 Martin OM-28V shown as a modern comparison",
+        "width": 3648,
+        "height": 5472,
+        "sourceUrl": "https://drive.google.com/file/d/1o9GUxhtiLmokRoCHJH7due9bvwu2VLDU/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+        "isComparison": true,
+        "fit": "contain",
+        "selectionReason": "Clear archive photograph of the identified instrument.",
+        "src": "/images/authentication/om-28-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "1o9GUxhtiLmokRoCHJH7due9bvwu2VLDU",
+          "originalFilename": "2005-martin-om-28-v-2.jpg",
+          "identityBasis": "Archive folder/filename and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": []
+    },
+    "om-45": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/site/src/assets/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-full-front.jpg",
+        "actualModel": "Martin 000-45",
+        "year": 1976,
+        "caption": "1976 Martin 000-45, shown as a later Style 45 ornament comparison. This is a 000-45; the guide below covers original prewar OM-45s.",
+        "alt": "Full front of a 1976 Martin 000-45 used to compare Style 45 pearl ornament",
+        "width": 1067,
+        "height": 1600,
+        "sourceUrl": "https://www.joesvintageguitarsaz.com/post/1976-martin-000-45-specs-history-value-guide/",
+        "provenance": "Joe's Vintage Guitars. existing Joe's Vintage Guitars site asset. Identification: Existing article identity and visual inspection.",
+        "isComparison": true,
+        "fit": "contain",
+        "selectionReason": "Existing user-owned image with clear model identity.",
+        "src": "/images/authentication/om-45-hero.jpg",
+        "provenanceRecord": {
+          "type": "existing Joe's Vintage Guitars site asset",
+          "owner": "Joe's Vintage Guitars",
+          "originalFilename": "src/assets/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-full-front.jpg",
+          "identityBasis": "Existing article identity and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": [
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/site/src/assets/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-abalone-back-border-and-backstrip.jpg",
+          "actualModel": "Martin 000-45",
+          "year": 1976,
+          "caption": "Back-border pearl on the same 1976 000-45. This illustrates the location of Style 45 ornament, not the construction of a prewar OM-45.",
+          "alt": "Pearl back border and center strip on a 1976 Martin 000-45",
+          "width": 1600,
+          "height": 1067,
+          "sourceUrl": "https://www.joesvintageguitarsaz.com/post/1976-martin-000-45-specs-history-value-guide/",
+          "provenance": "Joe's Vintage Guitars. existing Joe's Vintage Guitars site asset. Identification: Existing article identity and visual inspection.",
+          "isComparison": true,
+          "fit": "contain",
+          "selectionReason": "Existing user-owned image with clear model identity.",
+          "src": "/images/authentication/om-45-detail-1.jpg",
+          "provenanceRecord": {
+            "type": "existing Joe's Vintage Guitars site asset",
+            "owner": "Joe's Vintage Guitars",
+            "originalFilename": "src/assets/blog/1976-martin-000-45-specs-history-value-guide/1976-martin-000-45-abalone-back-border-and-backstrip.jpg",
+            "identityBasis": "Existing article identity and visual inspection",
+            "visuallyInspected": true
+          }
+        }
+      ]
+    },
+    "small-early": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/small-full.jpg",
+        "actualModel": "Martin 2½-17",
+        "year": "1860s",
+        "caption": "An 1860s Martin 2½-17 in its coffin-style case, from the Joe's Vintage Guitars archive.",
+        "alt": "Full front of an 1860s Martin 2½-17 in an open coffin-style case",
+        "width": 3648,
+        "height": 5472,
+        "sourceUrl": "https://drive.google.com/file/d/1sViFO6YAEHX8jPqy6qDCk30J6J_1q2fE/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+        "isComparison": false,
+        "fit": "contain",
+        "selectionReason": "Clear archive photograph of the identified instrument.",
+        "src": "/images/authentication/small-early-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "1sViFO6YAEHX8jPqy6qDCk30J6J_1q2fE",
+          "originalFilename": "1860s-martin-2-1-2-17-2.jpg",
+          "identityBasis": "Archive folder/filename and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": [
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/site/src/assets/martin-tuners/1860s-martin-2-and-a-half-17-strip-tuners.jpg",
+          "actualModel": "Martin 2½-17",
+          "year": "1860s",
+          "caption": "Engraved strip tuners on the 1860s 2½-17.",
+          "alt": "Engraved tuning-machine plate and three buttons on an 1860s Martin 2½-17",
+          "width": 3648,
+          "height": 5472,
+          "sourceUrl": "https://www.joesvintageguitarsaz.com/martin-tuner-dating-guide/",
+          "provenance": "Joe's Vintage Guitars. existing Joe's Vintage Guitars site asset. Identification: Existing article identity and visual inspection.",
+          "isComparison": false,
+          "fit": "contain",
+          "selectionReason": "Existing user-owned image with clear model identity.",
+          "src": "/images/authentication/small-early-detail-1.jpg",
+          "provenanceRecord": {
+            "type": "existing Joe's Vintage Guitars site asset",
+            "owner": "Joe's Vintage Guitars",
+            "originalFilename": "src/assets/martin-tuners/1860s-martin-2-and-a-half-17-strip-tuners.jpg",
+            "identityBasis": "Existing article identity and visual inspection",
+            "visuallyInspected": true,
+            "driveFileId": "13wClWVo0JxDUugYxtUgCd-fRHi3hOzTb"
+          }
+        }
+      ]
+    },
+    "classical": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/classical-full.jpg",
+        "actualModel": "Martin 00-18G",
+        "year": 1955,
+        "caption": "1955 Martin 00-18G, showing its slotted headstock, 12-fret neck and tie-block bridge.",
+        "alt": "Full front of a 1955 Martin 00-18G classical guitar",
+        "width": 3648,
+        "height": 5472,
+        "sourceUrl": "https://drive.google.com/file/d/1I5pkr08mjgGu-ZHAv6U5jHQC3kzgL7mI/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+        "isComparison": false,
+        "fit": "contain",
+        "selectionReason": "Clear archive photograph of the identified instrument.",
+        "src": "/images/authentication/classical-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "1I5pkr08mjgGu-ZHAv6U5jHQC3kzgL7mI",
+          "originalFilename": "1955-martin-00-18-g-2.jpg",
+          "identityBasis": "Archive folder/filename and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": [
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/site/src/assets/martin-tuners/1955-martin-00-18g-classical-tuners.jpg",
+          "actualModel": "Martin 00-18G",
+          "year": 1955,
+          "caption": "The 1955 00-18G's slotted headstock and classical tuning machines.",
+          "alt": "Slotted headstock and large string rollers on a 1955 Martin 00-18G",
+          "width": 5472,
+          "height": 3648,
+          "sourceUrl": "https://www.joesvintageguitarsaz.com/martin-tuner-dating-guide/",
+          "provenance": "Joe's Vintage Guitars. existing Joe's Vintage Guitars site asset. Identification: Existing article identity and visual inspection.",
+          "isComparison": false,
+          "fit": "contain",
+          "selectionReason": "Existing user-owned image with clear model identity.",
+          "src": "/images/authentication/classical-detail-1.jpg",
+          "provenanceRecord": {
+            "type": "existing Joe's Vintage Guitars site asset",
+            "owner": "Joe's Vintage Guitars",
+            "originalFilename": "src/assets/martin-tuners/1955-martin-00-18g-classical-tuners.jpg",
+            "identityBasis": "Existing article identity and visual inspection",
+            "visuallyInspected": true,
+            "driveFileId": "1YwyP79HC9jQlnDUJMT68Il8NjucZi1CJ"
+          }
+        }
+      ]
+    },
+    "12-string": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/twelve-full.jpg",
+        "actualModel": "Martin D12-35",
+        "year": 1969,
+        "caption": "1969 Martin D12-35, showing the long slotted headstock and twelve-string bridge.",
+        "alt": "Full front of a 1969 Martin D12-35 twelve-string guitar",
+        "width": 3648,
+        "height": 5472,
+        "sourceUrl": "https://drive.google.com/file/d/1Gg6qYaCvCTGVJC6imgMH0Q2jIAk97p_l/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+        "isComparison": false,
+        "fit": "contain",
+        "selectionReason": "Clear archive photograph of the identified instrument.",
+        "src": "/images/authentication/12-string-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "1Gg6qYaCvCTGVJC6imgMH0Q2jIAk97p_l",
+          "originalFilename": "1969-martin-d-12-35-2.jpg",
+          "identityBasis": "Archive folder/filename and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": [
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/site/src/assets/martin-tuners/1969-martin-d12-35-strip-tuners.jpg",
+          "actualModel": "Martin D12-35",
+          "year": 1969,
+          "caption": "The rear of the 1969 D12-35 headstock, with six tuning machines on each side.",
+          "alt": "Rear of a 1969 Martin D12-35 slotted headstock with twelve tuning buttons",
+          "width": 5472,
+          "height": 3648,
+          "sourceUrl": "https://www.joesvintageguitarsaz.com/martin-tuner-dating-guide/",
+          "provenance": "Joe's Vintage Guitars. existing Joe's Vintage Guitars site asset. Identification: Existing article identity and visual inspection.",
+          "isComparison": false,
+          "fit": "contain",
+          "selectionReason": "Existing user-owned image with clear model identity.",
+          "src": "/images/authentication/12-string-detail-1.jpg",
+          "provenanceRecord": {
+            "type": "existing Joe's Vintage Guitars site asset",
+            "owner": "Joe's Vintage Guitars",
+            "originalFilename": "src/assets/martin-tuners/1969-martin-d12-35-strip-tuners.jpg",
+            "identityBasis": "Existing article identity and visual inspection",
+            "visuallyInspected": true,
+            "driveFileId": "1FtP0TNMEmGiapyE5Mk9K9-saJDqd1hOR"
+          }
+        }
+      ]
+    },
+    "tenor": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/early521_detail0.jpg",
+        "actualModel": "Martin 5-21 tenor",
+        "year": 1927,
+        "caption": "1927 Martin 5-21 tenor guitar in its case.",
+        "alt": "Four-string 1927 Martin 5-21 tenor guitar in an open case",
+        "width": 6240,
+        "height": 4160,
+        "sourceUrl": "https://drive.google.com/file/d/11EbdmAbcukDYHSHuDjPidRDgNlXNVURz/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+        "isComparison": false,
+        "fit": "contain",
+        "selectionReason": "Clear archive photograph of the identified instrument.",
+        "src": "/images/authentication/tenor-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "11EbdmAbcukDYHSHuDjPidRDgNlXNVURz",
+          "originalFilename": "1927-martin-5-21-tenor-guitar-1.jpg",
+          "identityBasis": "Archive folder/filename and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": [
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/early521_check3.jpg",
+          "actualModel": "Martin 5-21 tenor",
+          "year": 1927,
+          "caption": "Four strings and the decorated rosette on the 1927 5-21 tenor.",
+          "alt": "Upper body and herringbone rosette of a 1927 Martin 5-21 tenor",
+          "width": 6240,
+          "height": 4160,
+          "sourceUrl": "https://drive.google.com/file/d/1Y-t265ART_GZIivmTb-1aa87eq3Sbj6Y/view?usp=drivesdk",
+          "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+          "isComparison": false,
+          "fit": "contain",
+          "selectionReason": "Clear archive photograph of the identified instrument.",
+          "src": "/images/authentication/tenor-detail-1.jpg",
+          "provenanceRecord": {
+            "type": "user-authorized Google Drive photo archive",
+            "owner": "Joe's Vintage Guitars",
+            "driveFileId": "1Y-t265ART_GZIivmTb-1aa87eq3Sbj6Y",
+            "originalFilename": "1927-martin-5-21-tenor-guitar-4.jpg",
+            "identityBasis": "Archive folder/filename and visual inspection",
+            "visuallyInspected": true
+          }
+        }
+      ]
+    },
+    "plectrum": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/early521_detail1.jpg",
+        "actualModel": "Martin 5-21 tenor",
+        "year": 1927,
+        "caption": "Four-pin bridge on a 1927 Martin 5-21 tenor, shown as a four-string comparison. Plectrum guitars are a different, longer-scale type; four strings alone do not identify one.",
+        "alt": "Four-pin bridge of a 1927 Martin 5-21 tenor used as a comparison for four-string identification",
+        "width": 6240,
+        "height": 4160,
+        "sourceUrl": "https://drive.google.com/file/d/1DD7Vm7uiwP5-jXOZaFZ-UeOPgtdT9jgy/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+        "isComparison": true,
+        "fit": "contain",
+        "selectionReason": "No owned plectrum image found; this explicitly labeled tenor bridge shows why string count alone is insufficient.",
+        "src": "/images/authentication/plectrum-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "1DD7Vm7uiwP5-jXOZaFZ-UeOPgtdT9jgy",
+          "originalFilename": "1927-martin-5-21-tenor-guitar-3.jpg",
+          "identityBasis": "Archive folder/filename and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": []
+    },
+    "archtop": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/archtop-full.jpg",
+        "actualModel": "Martin C-2",
+        "year": 1934,
+        "caption": "1934 Martin C-2 archtop, showing its f-holes, floating bridge and tailpiece.",
+        "alt": "Full front of a sunburst 1934 Martin C-2 archtop",
+        "width": 3597,
+        "height": 5395,
+        "sourceUrl": "https://drive.google.com/file/d/1LSJwHNysZy99nE75oL1MFQqLNhbKSpCM/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+        "isComparison": false,
+        "fit": "contain",
+        "selectionReason": "Clear archive photograph of the identified instrument.",
+        "src": "/images/authentication/archtop-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "1LSJwHNysZy99nE75oL1MFQqLNhbKSpCM",
+          "originalFilename": "1934-martin-c-2-2.jpg",
+          "identityBasis": "Archive folder/filename and visual inspection",
+          "visuallyInspected": true
+        }
+      },
+      "details": []
+    },
+    "electric": {
+      "hero": {
+        "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/electric-full.jpg",
+        "actualModel": "Martin GT-75",
+        "year": "1960s",
+        "caption": "Martin GT-75 from the Joe's Vintage Guitars archive, showing the double-cutaway body and two-pickup layout.",
+        "alt": "Full front of a cherry Martin GT-75 electric guitar with two pickups and vibrato tailpiece",
+        "width": 4160,
+        "height": 6240,
+        "sourceUrl": "https://drive.google.com/file/d/1aEwCAe7BLCz4ew0fTMDZoA2qEFg-QCCo/view?usp=drivesdk",
+        "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Visual GT-75 configuration; JVG's own archived Reverb review lists a Martin GT-75 1965 Cherry, but this photograph is not serial-linked, so caption uses no exact year.",
+        "isComparison": false,
+        "fit": "contain",
+        "selectionReason": "Clear archive photograph of the identified instrument.",
+        "src": "/images/authentication/electric-hero.jpg",
+        "provenanceRecord": {
+          "type": "user-authorized Google Drive photo archive",
+          "owner": "Joe's Vintage Guitars",
+          "driveFileId": "1aEwCAe7BLCz4ew0fTMDZoA2qEFg-QCCo",
+          "originalFilename": "martin electric guitar-2.jpg",
+          "identityBasis": "Visual GT-75 configuration; JVG's own archived Reverb review lists a Martin GT-75 1965 Cherry, but this photograph is not serial-linked, so caption uses no exact year.",
+          "visuallyInspected": true,
+          "corroboratingSourceUrl": "https://www.joesvintageguitarsaz.com/reverb-reviews/"
+        }
+      },
+      "details": [
+        {
+          "localPath": "C:/Users/joeda/Documents/Codex/2026-10-23/le/work/auth-photos/fseries-full.jpg",
+          "actualModel": "Martin F-series electric",
+          "year": "1960s",
+          "caption": "A Martin F-series electric from the JVG archive, shown for comparison with the GT-75's different body and headstock shapes. Exact year is not recorded with this photo.",
+          "alt": "Sunburst single-cutaway Martin F-series electric with two pickups and a V-shaped tailpiece",
+          "width": 4160,
+          "height": 6240,
+          "sourceUrl": "https://drive.google.com/file/d/1cRChjj7EbfOlZkCDGzBkdJX6iWLulsEM/view?usp=drivesdk",
+          "provenance": "Joe's Vintage Guitars. user-authorized Google Drive photo archive. Identification: Archive folder/filename and visual inspection.",
+          "isComparison": true,
+          "fit": "contain",
+          "selectionReason": "Clear archive photograph of the identified instrument.",
+          "src": "/images/authentication/electric-detail-1.jpg",
+          "provenanceRecord": {
+            "type": "user-authorized Google Drive photo archive",
+            "owner": "Joe's Vintage Guitars",
+            "driveFileId": "1cRChjj7EbfOlZkCDGzBkdJX6iWLulsEM",
+            "originalFilename": "martin f series electric guitar-2.jpg",
+            "identityBasis": "Archive folder/filename and visual inspection",
+            "visuallyInspected": true
+          }
+        }
+      ]
+    }
+  }
+}
