@@ -1,0 +1,96 @@
+---
+import LicensedImage from './primitives/LicensedImage.astro';
+import guides from '../data/martin-model-history.json';
+import { resolveImage } from '../lib/images';
+import '../styles/martin-model-history.css';
+
+interface Props { guide: (typeof guides)[number] }
+const { guide: g } = Astro.props;
+const index = guides.findIndex(guide => guide.key === g.key);
+const previous = guides[(index + guides.length - 1) % guides.length];
+const next = guides[(index + 1) % guides.length];
+const photoAsset = (src: string) => {
+  const asset = resolveImage(src);
+  if (!asset) throw new Error(`Missing Martin history photograph: ${src}`);
+  return asset;
+};
+const appraisal = 'https://www.joesvintageguitarsaz.com/free-appraisal/';
+const sell = 'https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/';
+---
+
+<div class="martin-history">
+  <nav class="auth-breadcrumbs" aria-label="Breadcrumb">
+    <a href="/blog/">JVG Blog</a><span aria-hidden="true">/</span><span>{g.title}</span>
+  </nav>
+  <article>
+    <section class="auth-hero">
+      <div class="auth-hero-copy">
+        <p class="eyebrow">{g.group} · {g.periodLabel}</p>
+        <h1>{g.title}</h1>
+        <div class="auth-actions"><a class="button primary" href={appraisal}>Get A Free Appraisal</a><a class="button auth-sell" href={sell}>Sell My Martin</a></div>
+        <p class="auth-dek">{g.lede}</p>
+        <p class="auth-byline">By <a href="/about-me/">Joe Dampt</a> · Updated <time datetime="2026-10-23">October 23, 2026</time></p>
+      </div>
+      <figure class="auth-hero-photo">
+        {g.hero.isComparison && <p class="auth-photo-label">Comparison Photo: {g.hero.year} {g.hero.actualModel}</p>}
+        <LicensedImage src={photoAsset(g.hero.src)} alt={g.hero.alt} caption={g.hero.caption} width={1200} loading="eager" fetchpriority="high" sizes="(max-width: 760px) 100vw, 50vw" />
+        <figcaption>{g.hero.caption}</figcaption>
+      </figure>
+    </section>
+    <div class="auth-layout">
+      <aside class="auth-aside">
+        <nav class="auth-contents" aria-label="On This Page"><h2>On This Page</h2><ol>{g.sections.map(s=><li><a href={`#${s.id}`}>{s.heading}</a></li>)}</ol></nav>
+        <div class="auth-aside-cta"><p>Have A Martin To Identify?</p><a href={appraisal}>Send Photos For An Appraisal</a></div>
+      </aside>
+      <div class="auth-body">
+        <dl class="auth-facts">{g.facts.map(([label,value])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
+        {g.models.length>3 && <details class="auth-models"><summary>Models Covered In This Article</summary><ul>{g.models.map(m=><li>{m}</li>)}</ul></details>}
+        {g.sections.map(s=><>
+          <section id={s.id}><h2>{s.heading}</h2><Fragment set:html={s.html} /></section>
+          {s.photos.map(p=><figure class="auth-detail-photo"><LicensedImage src={photoAsset(p.src)} alt={p.alt} caption={p.caption} width={1200} loading="lazy" sizes="(max-width: 760px) calc(100vw - 44px), 780px" /><figcaption>{p.caption}</figcaption></figure>)}
+        </>)}
+        <section class="resources"><h2>Martin Identification Resources</h2><ul>{g.resources.map(r=><li><a href={r.url}>{r.title}</a><p>{r.note || ''}</p></li>)}</ul></section>
+        <section class="owner-feedback"><h2>Martin Owners On Working With Joe</h2><div class="feedback-cards">
+          <figure><blockquote>“feeling no regrets after selling our 1920’s Martin on to these folks”</blockquote><figcaption><a href={`${sell}#our-clients-testimonials`}>Adrienne Young</a> · A 1920s Martin Sale</figcaption></figure>
+          <figure><blockquote>“they took the time to look at the photos of my Martin D18 and emailed back an appraisal”</blockquote><figcaption><a href={`${sell}#our-clients-testimonials`}>Tony Michaud</a> · A Martin D-18 Appraisal</figcaption></figure>
+        </div></section>
+        <section class="auth-closing"><p class="eyebrow">Your Martin’s Model, Year And Condition</p><h2>Send Joe Photos Of Your Martin</h2><p>Include the front, back, headstock, model and serial markings, and any known repairs.</p><div class="auth-actions"><a class="button primary" href={appraisal}>Get A Free Appraisal</a><a class="button auth-sell" href={sell}>Sell My Martin</a></div></section>
+        <details class="photo-credits"><summary>Photo Credits</summary><p>Photographs from the Joe’s Vintage Guitars archive. Each caption identifies the instrument shown, including comparison photographs.</p></details>
+        <nav class="post-navigation" aria-label="More Martin History Articles"><p><span>Previous Article</span><a href={`/post/${previous.slug}/`}>{previous.title}</a></p><p><span>Next Article</span><a href={`/post/${next.slug}/`}>{next.title}</a></p></nav>
+      </div>
+    </div>
+  </article>
+</div>
+
+<style is:global>
+  /* Match GuideHero's header clearance: the shared header is transparent and absolute. */
+  .martin-history{--martin-header-space:284px;padding-top:var(--martin-header-space);background:linear-gradient(to bottom,#3e2a14 0 var(--martin-header-space),#fffaf2 var(--martin-header-space));color:#3e2a14;font-family:var(--font-body),sans-serif}
+  .martin-history a{color:#92341b;text-underline-offset:3px}
+  .martin-history h2{font-family:var(--font-display),sans-serif;font-size:32px;line-height:1.25;color:#3e2a14;margin:0 0 20px;font-weight:600}
+  .martin-history .eyebrow{font-family:var(--font-display),sans-serif;letter-spacing:.08em;text-transform:uppercase;font-size:13px;line-height:1.5}
+  .martin-history .auth-hero h1{font-weight:600}
+  .martin-history .auth-hero .auth-actions .primary{color:#fff}
+  .martin-history .auth-hero .auth-byline a{color:#eedfc0}
+  .martin-history .auth-body p{margin:0 0 20px}
+  .martin-history .auth-body ul{padding-left:24px}
+  .martin-history .auth-body table{width:100%}
+  .martin-history .auth-body td,.martin-history .auth-body th{border-bottom:1px solid #d9d0c1}
+  .martin-history .auth-body tbody th{width:26%;vertical-align:top}
+  .martin-history .auth-body .resources li{margin-bottom:16px}
+  .martin-history .auth-body .resources li p{font-size:14px;margin:4px 0}
+  .martin-history .feedback-cards{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .martin-history .feedback-cards figure{margin:0;padding:22px;background:#eee2ce;border-top:3px solid #a03a1e}
+  .martin-history .feedback-cards blockquote{font-size:16px;line-height:1.7;margin:0 0 18px}
+  .martin-history .feedback-cards figcaption{font-size:12px;line-height:1.6}
+  .martin-history .auth-closing h2{color:#fff}
+  .martin-history .auth-closing .primary{color:#fff}
+  .martin-history .photo-credits{margin:28px 0;font-size:13px}
+  .martin-history .photo-credits summary{cursor:pointer}
+  .martin-history .photo-credits p{font-size:13px;margin-top:12px}
+  .martin-history .post-navigation{display:grid;grid-template-columns:1fr 1fr;gap:24px;border-top:1px solid #d9d0c1;margin-top:36px;padding-top:18px}
+  .martin-history .post-navigation p{font-size:15px}
+  .martin-history .post-navigation span{display:block;font-family:var(--font-display);font-size:12px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}
+  .martin-history .post-navigation p:last-child{text-align:right}
+  @media(max-width:1023px){.martin-history{--martin-header-space:212px}}
+  @media(max-width:639px){.martin-history{--martin-header-space:156px}.martin-history .feedback-cards{grid-template-columns:1fr}.martin-history .post-navigation{grid-template-columns:1fr}.martin-history .post-navigation p:last-child{text-align:left}}
+</style>

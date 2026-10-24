@@ -1,0 +1,104 @@
+{
+  "requested": "Model changes across the years; no external article links",
+  "date": "2026-10-23",
+  "guides": [
+    {
+      "key": "d-21",
+      "slug": "martin-d-21-authentication-guide",
+      "changes": 6,
+      "sections": 7,
+      "words": 569
+    },
+    {
+      "key": "d-35",
+      "slug": "martin-d-35-authentication-guide",
+      "changes": 6,
+      "sections": 7,
+      "words": 577
+    },
+    {
+      "key": "d-28",
+      "slug": "martin-d-28-authentication-guide",
+      "changes": 12,
+      "sections": 8,
+      "words": 827
+    },
+    {
+      "key": "d-45",
+      "slug": "martin-d-45-authentication-guide",
+      "changes": 8,
+      "sections": 8,
+      "words": 692
+    },
+    {
+      "key": "om-18",
+      "slug": "martin-om-18-authentication-guide",
+      "changes": 6,
+      "sections": 8,
+      "words": 567
+    },
+    {
+      "key": "om-28",
+      "slug": "martin-om-28-authentication-guide",
+      "changes": 7,
+      "sections": 9,
+      "words": 616
+    },
+    {
+      "key": "om-45",
+      "slug": "martin-om-45-authentication-guide",
+      "changes": 5,
+      "sections": 8,
+      "words": 572
+    },
+    {
+      "key": "small-early",
+      "slug": "martin-small-early-authentication-guide",
+      "changes": 11,
+      "sections": 9,
+      "words": 850
+    },
+    {
+      "key": "classical",
+      "slug": "martin-classical-authentication-guide",
+      "changes": 6,
+      "sections": 8,
+      "words": 611
+    },
+    {
+      "key": "12-string",
+      "slug": "martin-12-string-authentication-guide",
+      "changes": 7,
+      "sections": 8,
+      "words": 558
+    },
+    {
+      "key": "tenor",
+      "slug": "martin-tenor-authentication-guide",
+      "changes": 8,
+      "sections": 8,
+      "words": 594
+    },
+    {
+      "key": "plectrum",
+      "slug": "martin-plectrum-authentication-guide",
+      "changes": 6,
+      "sections": 8,
+      "words": 480
+    },
+    {
+      "key": "archtop",
+      "slug": "martin-archtop-authentication-guide",
+      "changes": 7,
+      "sections": 8,
+      "words": 590
+    },
+    {
+      "key": "electric",
+      "slug": "martin-electric-authentication-guide",
+      "changes": 8,
+      "sections": 8,
+      "words": 577
+    }
+  ]
+}

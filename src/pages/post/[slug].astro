@@ -12,6 +12,8 @@ import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
 import MartinSmallBodyGuide from "../../components/MartinSmallBodyGuide.astro";
+import MartinModelHistory from "../../components/MartinModelHistory.astro";
+import martinModelHistories from "../../data/martin-model-history.json";
 import MartinD18Guide from "../../components/MartinD18Guide.astro";
 import GibsonJ200Guide from "../../components/GibsonJ200Guide.astro";
 import GibsonES225Guide from "../../components/GibsonES225Guide.astro";
@@ -51,6 +53,7 @@ export const getStaticPaths = (async () => {
 const { entry, related } = Astro.props;
 const { Content } = await render(entry);
 const { data } = entry;
+const martinModelHistory = martinModelHistories.find(guide => guide.slug === entry.id);
 const isBurstYearGuide = /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(entry.id);
 const isNorlinGuide = ["norlin-les-paul-custom-year-guide", "1968-gibson-les-paul-custom-guide", "1969-gibson-les-paul-custom-guide", "1970-gibson-les-paul-custom-guide", "1968-1969-1970-les-paul-custom-dating-guide"].includes(entry.id);
 const isGap2ValueConversion = ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide"].includes(entry.id);
@@ -510,7 +513,7 @@ const articleSchema = {
   image: imageSchema ? [imageSchema] : undefined,
   datePublished: data.pubDate.toISOString(),
   dateModified: data.modified.toISOString(),
-  author: { "@id": `${SITE_URL}/about-me/#person`, ...((isBurstYearGuide || isNorlinGuide) ? { name: data.author, url: `${SITE_URL}/about-me/` } : {}) },
+  author: { "@id": `${SITE_URL}/about-me/#person`, ...((isBurstYearGuide || isNorlinGuide || martinModelHistory) ? { name: data.author, url: `${SITE_URL}/about-me/` } : {}) },
   publisher: { "@id": `${SITE_URL}/` },
   mainEntityOfPage: postUrl,
   articleSection: catName,
@@ -580,7 +583,9 @@ const articleSchema = {
 
   {hasGuideHero && !isGibsonSGFamilyGuide && !isGibsonJ200Guide && <GuideHero title={data.title} image={heroMeta || comparisonHero} alt={data.heroImageAlt || 'Sunburst Gibson ES-335 in a pink-lined case'} brand={guideBrand!} byline={'By ' + data.author + ' · ' + formatDate(data.pubDate)} />}
 
-  {isOneOwner1956Martin00021Story ? (
+  {martinModelHistory ? (
+    <MartinModelHistory guide={martinModelHistory} />
+  ) : isOneOwner1956Martin00021Story ? (
     <OneOwner1956Martin00021Story />
   ) : isMartinD28OwnerStory ? (
     <MartinD28OwnerStory />
