@@ -8,6 +8,7 @@ import LicensedMarkdownPhotos from "../../components/LicensedMarkdownPhotos.astr
 import GuideHero from '../../components/GuideHero.astro';
 import presentationPaths from '../../data/gap2-presentation-paths.json';
 import comparisonHero from '../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-scaled.jpg';
+import VintageSellingGuide from "../../components/VintageSellingGuide.astro";
 import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
@@ -54,6 +55,7 @@ const { entry, related } = Astro.props;
 const { Content } = await render(entry);
 const { data } = entry;
 const martinModelHistory = martinModelHistories.find(guide => guide.slug === entry.id);
+const isVintageSellingGuide = entry.id === "what-to-consider-when-selling-a-vintage-guitar";
 const isBurstYearGuide = /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(entry.id);
 const isNorlinGuide = ["norlin-les-paul-custom-year-guide", "1968-gibson-les-paul-custom-guide", "1969-gibson-les-paul-custom-guide", "1970-gibson-les-paul-custom-guide", "1968-1969-1970-les-paul-custom-dating-guide"].includes(entry.id);
 const isGap2ValueConversion = ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide"].includes(entry.id);
@@ -551,7 +553,7 @@ const articleSchema = {
 ---
 
 <Layout
-  bodyClass={isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
+  bodyClass={isVintageSellingGuide ? "blog-post-page vintage-selling-guide-page" : isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
   title={pageTitle}
   noIndex={data.draft}
   description={data.metaDescription || data.excerpt}
@@ -584,7 +586,9 @@ const articleSchema = {
 
   {hasGuideHero && !isGibsonSGFamilyGuide && !isGibsonJ200Guide && <GuideHero title={data.title} image={heroMeta || comparisonHero} alt={data.heroImageAlt || 'Sunburst Gibson ES-335 in a pink-lined case'} brand={guideBrand!} byline={'By ' + data.author + ' · ' + formatDate(data.pubDate)} />}
 
-  {martinModelHistory ? (
+  {isVintageSellingGuide ? (
+    <VintageSellingGuide />
+  ) : martinModelHistory ? (
     <MartinModelHistory guide={martinModelHistory} />
   ) : isOneOwner1956Martin00021Story ? (
     <OneOwner1956Martin00021Story />
