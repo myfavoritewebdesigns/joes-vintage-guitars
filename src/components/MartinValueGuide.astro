@@ -49,7 +49,9 @@ const sections = [{heading:g.priceHeading}, ...g.sections];
           </div><p class="price-basis">{g.priceFootnote}</p>
         </section>
         {g.photos[0] && <figure class="auth-detail-photo"><LicensedImage src={photoAsset(g.photos[0].src)} alt={g.photos[0].alt} caption={g.photos[0].caption} width={1200} loading="lazy" sizes="(max-width: 760px) calc(100vw - 44px), 780px" /><figcaption>{g.photos[0].caption}</figcaption></figure>}
-        {g.sections.map((s,i)=><section id={`section-${i+2}`}><h2>{s.heading}</h2><Fragment set:html={s.html} /></section>)}
+        {g.sections.map((s,i)=><section id={`section-${i+2}`}><h2>{s.heading}</h2><Fragment set:html={s.html} />
+          {s.heading === 'Condition And Originality' && <p>For the broader comparison, read <a href="/what-lowers-vintage-guitar-value/">how repairs and changed parts affect guitar value</a>. If the finish has been changed, the <a href="/how-much-does-a-refinish-hurt-guitar-value/">refinish value guide</a> explains full and partial work{g.key !== 'electric' ? ' and why an acoustic needs its own assessment' : ''}.</p>}
+        </section>)}
         {g.photos[1] && <figure class="auth-detail-photo"><LicensedImage src={photoAsset(g.photos[1].src)} alt={g.photos[1].alt} caption={g.photos[1].caption} width={1200} loading="lazy" sizes="(max-width: 760px) calc(100vw - 44px), 780px" /><figcaption>{g.photos[1].caption}</figcaption></figure>}
         <section class="auth-closing"><p class="eyebrow">Your Martin's Model, Year And Condition</p><h2>Get A Value For Your Martin</h2><p>Send photos of the instrument and any repair records for an assessment of your guitar. You can read about <a href="/about-me/">Joe Dampt</a> and the instruments he buys before getting in touch.</p><div class="auth-actions"><a class="button primary" href={appraisal}>Get A Free Appraisal</a><a class="button auth-sell" href={sell}>Sell My Martin</a></div></section>
         <details class="photo-credits"><summary>Photo Credits</summary><p>Photographs from Joe's Vintage Guitars. Comparison photographs are labeled and do not depict the exact model being valued.</p></details>

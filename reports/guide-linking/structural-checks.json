@@ -1,0 +1,92 @@
+[
+  {
+    "route": "/post/martin-12-string-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-archtop-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/blog/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 3  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-classical-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-d-28-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-d-21-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-d-45-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-electric-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-d-35-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-om-18-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-om-45-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-om-28-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-plectrum-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-small-early-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/martin-tenor-value-guide/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/one-owner-1965-fender-stratocaster/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/what-to-consider-when-selling-a-vintage-guitar/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/one-family-1959-gibson-es-355/",
+    "passed": true,
+    "summary": "[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  }
+]

@@ -1,0 +1,403 @@
+{
+  "checkedAt": "2026-10-26T23:28:29.211Z",
+  "baselineRevision": "7336fb89cd30a76dd81fc0ce3d8af73623c3b006",
+  "scope": "Contextual incoming links to the seven published guides; not a complete SEO audit.",
+  "baselinePageCount": 317,
+  "changedPageCount": 18,
+  "addedLinkCount": 44,
+  "summary": [
+    {
+      "target": "/what-lowers-vintage-guitar-value/",
+      "before": 19,
+      "after": 35
+    },
+    {
+      "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+      "before": 38,
+      "after": 54
+    },
+    {
+      "target": "/how-to-tell-if-a-guitar-has-been-refinished/",
+      "before": 5,
+      "after": 7
+    },
+    {
+      "target": "/do-replaced-pickups-hurt-guitar-value/",
+      "before": 5,
+      "after": 7
+    },
+    {
+      "target": "/should-i-restore-my-guitar-before-selling/",
+      "before": 5,
+      "after": 7
+    },
+    {
+      "target": "/inherited-a-guitar/",
+      "before": 5,
+      "after": 7
+    },
+    {
+      "target": "/selling-a-loved-ones-guitar/",
+      "before": 5,
+      "after": 9
+    }
+  ],
+  "changes": [
+    {
+      "route": "/blog/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "What Lowers Vintage Guitar Value?",
+          "nofollow": false,
+          "context": "What Lowers Vintage Guitar Value?"
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "How A Refinish Affects Value",
+          "nofollow": false,
+          "context": "How A Refinish Affects Value"
+        },
+        {
+          "target": "/how-to-tell-if-a-guitar-has-been-refinished/",
+          "anchor": "How To Recognize A Refinish",
+          "nofollow": false,
+          "context": "How To Recognize A Refinish"
+        },
+        {
+          "target": "/do-replaced-pickups-hurt-guitar-value/",
+          "anchor": "Replaced Pickups And Guitar Value",
+          "nofollow": false,
+          "context": "Replaced Pickups And Guitar Value"
+        },
+        {
+          "target": "/should-i-restore-my-guitar-before-selling/",
+          "anchor": "Should You Restore Before Selling?",
+          "nofollow": false,
+          "context": "Should You Restore Before Selling?"
+        },
+        {
+          "target": "/inherited-a-guitar/",
+          "anchor": "First Steps With An Inherited Guitar",
+          "nofollow": false,
+          "context": "First Steps With An Inherited Guitar"
+        },
+        {
+          "target": "/selling-a-loved-ones-guitar/",
+          "anchor": "Keeping Or Selling A Loved One's Guitar",
+          "nofollow": false,
+          "context": "Keeping Or Selling A Loved One's Guitar"
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-12-string-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-archtop-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-classical-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-d-21-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-d-28-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-d-35-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-d-45-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-electric-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-om-18-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-om-28-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-om-45-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-plectrum-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-small-early-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/martin-tenor-value-guide/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "how repairs and changed parts affect guitar value",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "refinish value guide",
+          "nofollow": false,
+          "context": "For the broader comparison, read how repairs and changed parts affect guitar value. If the finish has been changed, the refinish value guide explains full and partial work and why an acoustic needs its own assessment."
+        }
+      ]
+    },
+    {
+      "route": "/post/one-family-1959-gibson-es-355/",
+      "addedLinks": [
+        {
+          "target": "/selling-a-loved-ones-guitar/",
+          "anchor": "keeping or selling a loved one's guitar",
+          "nofollow": false,
+          "context": "If this story brings up a decision about your own family's instrument, I discuss keeping or selling a loved one's guitar."
+        }
+      ]
+    },
+    {
+      "route": "/post/one-owner-1965-fender-stratocaster/",
+      "addedLinks": [
+        {
+          "target": "/selling-a-loved-ones-guitar/",
+          "anchor": "keeping or selling a loved one's guitar",
+          "nofollow": false,
+          "context": "If you're deciding what comes next for a family instrument, my guide to keeping or selling a loved one's guitar gives you room to consider both choices."
+        }
+      ]
+    },
+    {
+      "route": "/post/what-to-consider-when-selling-a-vintage-guitar/",
+      "addedLinks": [
+        {
+          "target": "/what-lowers-vintage-guitar-value/",
+          "anchor": "Original finish, replacement parts and past repairs",
+          "nofollow": false,
+          "context": "The model name is only the beginning. Original finish, replacement parts and past repairs, along with the way you sell, can all influence the outcome. You don’t need to become a guitar expert to make a good decision. You do need to know what to check and when to ask for help."
+        },
+        {
+          "target": "/inherited-a-guitar/",
+          "anchor": "inherited an old guitar",
+          "nofollow": false,
+          "context": "You may have inherited an old guitar, rediscovered one in a closet, or decided to part with an instrument you’ve played for decades. These seven steps will help you prepare before accepting an offer."
+        },
+        {
+          "target": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "anchor": "Refinishing a worn guitar",
+          "nofollow": false,
+          "context": "For collectible instruments, the factory finish and original components can be a major part of the appeal. Refinishing a worn guitar or replacing aging hardware may reduce its value, even if the result looks cleaner. A professionally completed refret, however, deserves a different assessment from an irreversible modification such as cutting the body for larger pickups. Gruhn Guitars’ preservation advice explains the difference."
+        },
+        {
+          "target": "/how-to-tell-if-a-guitar-has-been-refinished/",
+          "anchor": "the visible signs of a guitar refinish",
+          "nofollow": false,
+          "context": "If you don't know whether the finish is original, start with the visible signs of a guitar refinish."
+        },
+        {
+          "target": "/do-replaced-pickups-hurt-guitar-value/",
+          "anchor": "how replacement pickups and routing affect value",
+          "nofollow": false,
+          "context": "If the guitar already has replacement parts, it may still be desirable. The goal is to understand its present condition and price it accordingly. For changed electronics, see how replacement pickups and routing affect value."
+        },
+        {
+          "target": "/should-i-restore-my-guitar-before-selling/",
+          "anchor": "whether restoration before selling makes sense",
+          "nofollow": false,
+          "context": "Get an assessment before spending money to make an old guitar look new. Read whether restoration before selling makes sense before commissioning work."
+        },
+        {
+          "target": "/selling-a-loved-ones-guitar/",
+          "anchor": "keeping or selling a loved one's guitar",
+          "nofollow": false,
+          "context": "If the personal decision comes first, my guide to keeping or selling a loved one's guitar considers both options before choosing a selling method."
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "passed": true
+}
