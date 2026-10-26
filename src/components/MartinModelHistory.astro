@@ -1,11 +1,13 @@
 ---
 import LicensedImage from './primitives/LicensedImage.astro';
+import valueGuides from '../data/martin-value-guides.json';
 import guides from '../data/martin-model-history.json';
 import { resolveImage } from '../lib/images';
 import '../styles/martin-model-history.css';
 
 interface Props { guide: (typeof guides)[number] }
 const { guide: g } = Astro.props;
+const valueGuide = valueGuides.find(guide => guide.key === g.key);
 const index = guides.findIndex(guide => guide.key === g.key);
 const previous = guides[(index + guides.length - 1) % guides.length];
 const next = guides[(index + 1) % guides.length];
@@ -43,6 +45,7 @@ const sell = 'https://www.joesvintageguitarsaz.com/sell-my-martin-guitar/';
         <div class="auth-aside-cta"><p>Have A Martin To Identify?</p><a href={appraisal}>Send Photos For An Appraisal</a></div>
       </aside>
       <div class="auth-body">
+        {valueGuide && <p>For estimated prices, see the <a href={`/post/${valueGuide.slug}/`}>{valueGuide.title}</a>.</p>}
         <dl class="auth-facts">{g.facts.map(([label,value])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
         {g.models.length>3 && <details class="auth-models"><summary>Models Covered In This Article</summary><ul>{g.models.map(m=><li>{m}</li>)}</ul></details>}
         {g.sections.map(s=><>

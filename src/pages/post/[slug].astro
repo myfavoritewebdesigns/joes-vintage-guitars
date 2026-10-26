@@ -13,6 +13,8 @@ import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
 import MartinSmallBodyGuide from "../../components/MartinSmallBodyGuide.astro";
+import MartinValueGuide from "../../components/MartinValueGuide.astro";
+import martinValueGuides from "../../data/martin-value-guides.json";
 import MartinModelHistory from "../../components/MartinModelHistory.astro";
 import martinModelHistories from "../../data/martin-model-history.json";
 import MartinD18Guide from "../../components/MartinD18Guide.astro";
@@ -54,6 +56,7 @@ export const getStaticPaths = (async () => {
 const { entry, related } = Astro.props;
 const { Content } = await render(entry);
 const { data } = entry;
+const martinValueGuide = martinValueGuides.find(guide => guide.slug === entry.id);
 const martinModelHistory = martinModelHistories.find(guide => guide.slug === entry.id);
 const isVintageSellingGuide = entry.id === "what-to-consider-when-selling-a-vintage-guitar";
 const isBurstYearGuide = /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(entry.id);
@@ -588,6 +591,8 @@ const articleSchema = {
 
   {isVintageSellingGuide ? (
     <VintageSellingGuide />
+  ) : martinValueGuide ? (
+    <MartinValueGuide guide={martinValueGuide} />
   ) : martinModelHistory ? (
     <MartinModelHistory guide={martinModelHistory} />
   ) : isOneOwner1956Martin00021Story ? (
