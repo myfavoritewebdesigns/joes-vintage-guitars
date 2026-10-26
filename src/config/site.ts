@@ -227,6 +227,7 @@ export const sellMenu: NavGroup = {
     { label: "Sell My Fender", href: "/sell-my-fender-guitar/" },
     { label: "Sell My Gibson", href: "/sell-my-gibson-guitar/" },
     { label: "Sell My Martin", href: "/sell-my-martin-guitar/" },
+    { label: "Sell My Levin or Goya", href: "/sell-your-levin-or-goya-guitar/" },
     { label: "Sell My Collection", href: "/sell-a-guitar-collection/" },
   ],
 };
