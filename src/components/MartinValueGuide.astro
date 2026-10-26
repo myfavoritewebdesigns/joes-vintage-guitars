@@ -1,0 +1,60 @@
+---
+import LicensedImage from './primitives/LicensedImage.astro';
+import guides from '../data/martin-value-guides.json';
+import { resolveImage } from '../lib/images';
+import '../styles/martin-values.css';
+
+interface Props { guide: (typeof guides)[number] }
+const { guide: g } = Astro.props;
+const index = guides.findIndex(guide => guide.key === g.key);
+const previous = guides[(index + guides.length - 1) % guides.length];
+const next = guides[(index + 1) % guides.length];
+const photoAsset = (src: string) => {
+  const asset = resolveImage(src);
+  if (!asset) throw new Error(`Missing Martin value photograph: ${src}`);
+  return asset;
+};
+const appraisal = '/free-appraisal/';
+const sell = '/sell-my-martin-guitar/';
+const sections = [{heading:g.priceHeading}, ...g.sections];
+---
+
+<div class="martin-values">
+  <nav class="auth-breadcrumbs" aria-label="Breadcrumb"><a href="/blog/">JVG Blog</a><span aria-hidden="true">/</span><span>{g.title}</span></nav>
+  <article>
+    <section class="auth-hero">
+      <div class="auth-hero-copy">
+        <p class="eyebrow">Martin Value Guide · October 2026</p>
+        <h1>{g.title}</h1>
+        <div class="auth-actions"><a class="button primary" href={appraisal}>Get A Free Appraisal</a><a class="button auth-sell" href={sell}>Sell My Martin</a></div>
+        <p class="auth-dek">{g.lede}</p>
+        <p class="auth-byline">By <a href="/about-me/">Joe Dampt</a> · <time datetime="2026-10-26">October 26, 2026</time></p>
+      </div>
+      <figure class="auth-hero-photo">
+        {g.hero.isComparison && <p class="auth-photo-label">Comparison Photo: {g.hero.year} {g.hero.actualModel}</p>}
+        <LicensedImage src={photoAsset(g.hero.src)} alt={g.hero.alt} caption={g.hero.caption} width={1200} loading="eager" fetchpriority="high" sizes="(max-width: 760px) 100vw, 50vw" />
+        <figcaption>{g.hero.caption}</figcaption>
+      </figure>
+    </section>
+    <div class="auth-layout">
+      <aside class="auth-aside"><nav class="auth-contents" aria-label="On This Page"><h2>On This Page</h2><ol>{sections.map((s,i)=><li><a href={`#section-${i+1}`}>{s.heading}</a></li>)}</ol></nav></aside>
+      <div class="auth-body">
+        <div class="value-note"><p>{g.scope} <a href={`/post/${g.authenticationSlug}/`}>Compare The Authentication Guide</a>.</p></div>
+        <section id="section-1">
+          <h2>{g.priceHeading}</h2><p>{g.priceIntro}</p>
+          <div class="table-wrap" tabindex="0" role="region" aria-label="Model And Period table">
+            <table><thead><tr><th scope="col">Model And Period</th><th scope="col">{g.key==='om-45'?'Historical Retail Value (USD)':'Estimated Retail Value (USD)'}</th></tr></thead>
+              <tbody>{g.rows.map(([model,value])=><tr><th scope="row">{model}</th><td>{value}</td></tr>)}</tbody>
+            </table>
+          </div><p class="price-basis">{g.priceFootnote}</p>
+        </section>
+        {g.photos[0] && <figure class="auth-detail-photo"><LicensedImage src={photoAsset(g.photos[0].src)} alt={g.photos[0].alt} caption={g.photos[0].caption} width={1200} loading="lazy" sizes="(max-width: 760px) calc(100vw - 44px), 780px" /><figcaption>{g.photos[0].caption}</figcaption></figure>}
+        {g.sections.map((s,i)=><section id={`section-${i+2}`}><h2>{s.heading}</h2><Fragment set:html={s.html} /></section>)}
+        {g.photos[1] && <figure class="auth-detail-photo"><LicensedImage src={photoAsset(g.photos[1].src)} alt={g.photos[1].alt} caption={g.photos[1].caption} width={1200} loading="lazy" sizes="(max-width: 760px) calc(100vw - 44px), 780px" /><figcaption>{g.photos[1].caption}</figcaption></figure>}
+        <section class="auth-closing"><p class="eyebrow">Your Martin's Model, Year And Condition</p><h2>Get A Value For Your Martin</h2><p>Send photos of the instrument and any repair records for an assessment of your guitar. You can read about <a href="/about-me/">Joe Dampt</a> and the instruments he buys before getting in touch.</p><div class="auth-actions"><a class="button primary" href={appraisal}>Get A Free Appraisal</a><a class="button auth-sell" href={sell}>Sell My Martin</a></div></section>
+        <details class="photo-credits"><summary>Photo Credits</summary><p>Photographs from Joe's Vintage Guitars. Comparison photographs are labeled and do not depict the exact model being valued.</p></details>
+        <nav class="post-navigation" aria-label="More Value Guides"><p><span>Previous Article</span><a href={`/post/${previous.slug}/`}>{previous.title}</a></p><p><span>Next Article</span><a href={`/post/${next.slug}/`}>{next.title}</a></p></nav>
+      </div>
+    </div>
+  </article>
+</div>
