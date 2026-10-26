@@ -78,6 +78,8 @@ Changed tuners, bridge work, a repaired seam or an added pickup can put a guitar
 
 ## Repairs And The Condition Assumption
 
+For condition comparisons beyond this model, I explain [how repairs and replaced parts affect vintage guitar value](/what-lowers-vintage-guitar-value/).
+
 The clean-condition ranges generally assume original finish and major parts, excellent condition and the original case. I still need the repair details before deciding whether a particular guitar fits.
 
 A neck reset, a bridge replacement and a small repaired crack are different kinds of work. Their effect depends on the instrument and the quality and extent of the repair. The type and extent of the finish work determine the deduction.

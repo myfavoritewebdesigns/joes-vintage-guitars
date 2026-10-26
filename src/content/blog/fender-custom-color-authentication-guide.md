@@ -359,6 +359,8 @@ Two honest limits. First, a fifty-year-old refinish is itself old lacquer now, a
 
 <h2 id="fcc-refin">Telltale Signs of a Refinish</h2>
 
+For a first look at an electric or acoustic guitar, use my [cross-brand guide to spotting a refinish](/how-to-tell-if-a-guitar-has-been-refinished/).
+
 Now the rogues' gallery. Most refinished "custom color" Fenders give themselves away with the same handful of mistakes, and every one below came through our shop.
 
 **The color is wrong.** Not wrong as in ugly. Wrong as in it matches nothing Fender offered, or it matches a color from the wrong years. When a blue is too purple for Lake Placid, too dark for Sonic, too even for an aged anything, stop and compare against known originals, not against memory.

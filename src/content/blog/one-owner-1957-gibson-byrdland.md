@@ -150,6 +150,8 @@ If you want to read these numbers yourself, our [Gibson serial number guide](/ho
 
 ## Why the Story Is the Point
 
+If a family instrument has left you with a decision of your own, I discuss [keeping or selling a loved one's guitar](/selling-a-loved-ones-guitar/).
+
 We handle a lot of vintage guitars, and after a while the spec sheets start to blur together. What never gets old is a guitar that still has its life attached to it.
 
 Most instruments this age have passed through a dozen hands, and every owner took a little of the history with them when they let it go. A one-owner guitar is already rare. A one-owner guitar that arrives with the owner's whole story, the paper routes, the teaching, the church group, the kids petting the pink case lining, the wife finally deciding it was time, is the rarest thing we deal in. The maple and spruce are wonderful. The story is what makes it a Byrdland that could only be this Byrdland.

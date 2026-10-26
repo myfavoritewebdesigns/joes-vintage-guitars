@@ -105,6 +105,8 @@ Age alone doesn't turn a replacement into an original part. A replacement instal
 
 ## Condition Without A Stack Of Automatic Deductions
 
+For condition comparisons beyond this model, I explain [how repairs and replaced parts affect vintage guitar value](/what-lowers-vintage-guitar-value/).
+
 Original finish, original pickups and structural condition are separate parts of the appraisal. A worn original finish and a glossy refinish can represent very different collector positions. Originality and documented history carry more weight than surface shine.
 
 A repaired headstock needs a description of the break, the repair and any related finish work. A stable repair can leave a useful instrument, but it takes the guitar outside the no-structural-repair assumption in the annual table. The appropriate comparison is another documented repaired example.

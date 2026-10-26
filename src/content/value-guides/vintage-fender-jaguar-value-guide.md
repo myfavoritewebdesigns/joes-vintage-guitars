@@ -77,6 +77,8 @@ For these instruments, comfortable setup, working electronics and disclosed modi
 
 ## Original Finish And Custom Color Value
 
+For condition comparisons beyond this model, I explain [how a refinish affects vintage guitar value](/how-much-does-a-refinish-hurt-guitar-value/).
+
 An original finish is part of the collectible instrument. Repainting changes that category even when the new work looks attractive and the guitar plays well. I compare a refinished Jaguar with other refinished examples instead of assuming that a new coat of a rare color recreates the rare original.
 
 Custom colors need individual appraisals. The premium for one color doesn't automatically transfer to another. I consider the finish's originality, condition and the rest of the guitar together.

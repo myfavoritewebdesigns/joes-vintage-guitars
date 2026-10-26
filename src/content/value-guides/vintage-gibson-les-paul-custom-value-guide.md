@@ -87,6 +87,8 @@ The [1970 Les Paul Custom guide](/post/1970-gibson-les-paul-custom-guide/) cover
 
 ## Finish And Configuration Change The Comparison
 
+For condition comparisons beyond this model, I explain [how a refinish affects vintage guitar value](/how-much-does-a-refinish-hurt-guitar-value/).
+
 Black, sunburst and white Customs can appeal to different buyers. The table gives a broad standard-production range. I assess the actual finish and condition before assigning a color premium.
 
 Silverburst, maple-fingerboard versions, three-pickup variants and the early 1970s '54 reissue need configuration-specific review. Their individual features and condition determine the appraisal. The '54 reissue, for example, borrows an earlier pickup arrangement; its appearance doesn't make it an original 1950s guitar.

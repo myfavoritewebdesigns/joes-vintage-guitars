@@ -1,0 +1,321 @@
+{
+  "METADATA": {
+    "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+    "title": "How To Tell If Your Vintage Guitar Has Been Refinished",
+    "description": "Learn where to look for a guitar refinish, from the headstock and hardware to finish wear. I'll explain the clues and what needs a bench inspection.",
+    "h1": "How To Tell If A Vintage Guitar Has Been Refinished",
+    "prefix": "rfd",
+    "eyebrow": "Originality And Condition",
+    "primaryQuery": "how to tell if a guitar has been refinished",
+    "secondaryQueries": [
+      "signs of a refinished guitar",
+      "refinished guitar under blacklight",
+      "overspray on a guitar"
+    ],
+    "published": "2026-10-26T12:00:00-07:00",
+    "titleCharacters": 54,
+    "descriptionCharacters": 148
+  },
+  "OUTLINE": [
+    {
+      "level": "h2",
+      "text": "Under The Pickguard And In The Cavities"
+    },
+    {
+      "level": "h2",
+      "text": "The Headstock Face And Decal"
+    },
+    {
+      "level": "h2",
+      "text": "Binding, Edges And Inside The Openings"
+    },
+    {
+      "level": "h2",
+      "text": "Finish Checking And Wear That Doesn't Match"
+    },
+    {
+      "level": "h2",
+      "text": "Hardware Footprints And Screw Holes"
+    },
+    {
+      "level": "h2",
+      "text": "Under A Blacklight"
+    },
+    {
+      "level": "h2",
+      "text": "Fender Details Need Their Period Context"
+    },
+    {
+      "level": "h2",
+      "text": "Gibson And Acoustic Guitars"
+    },
+    {
+      "level": "h2",
+      "text": "A Factory Refinish Is Still Later Work"
+    },
+    {
+      "level": "h2",
+      "text": "What To Do With The Evidence"
+    },
+    {
+      "level": "h2",
+      "text": "Questions About Spotting A Refinish"
+    },
+    {
+      "level": "h3",
+      "text": "Does A Shiny Old Guitar Have To Be Refinished?"
+    },
+    {
+      "level": "h3",
+      "text": "Can A Blacklight Prove A Finish Is Original?"
+    },
+    {
+      "level": "h3",
+      "text": "Should I Remove The Neck Or Pickguard To Check?"
+    },
+    {
+      "level": "h3",
+      "text": "Is A Fender Decal Buried Under Lacquer A Warning?"
+    },
+    {
+      "level": "h3",
+      "text": "Can Fender Factory Work Be A Refinish?"
+    }
+  ],
+  "BODY": {
+    "source": "src/data/gap3/how-to-tell-if-a-guitar-has-been-refinished.html",
+    "wordCount": 2005
+  },
+  "FAQ_SCHEMA": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does A Shiny Old Guitar Have To Be Refinished?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Some original finishes remain bright and smooth. Shine, checking or yellowing alone cannot establish originality; the materials, wear and construction need to agree."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can A Blacklight Prove A Finish Is Original?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Ultraviolet response is supporting evidence. Different materials and aging can produce different responses, and an old repaint can still look convincing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I Remove The Neck Or Pickguard To Check?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Send photographs of what is already visible and keep any existing inspection photographs. Leave disassembly to a specialist who can decide what needs to be examined."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is A Fender Decal Buried Under Lacquer A Warning?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. On the vintage Fender headstocks discussed here, the water-slide decal was applied last, over the clear coat. A decal buried beneath lacquer means the headstock was resprayed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can Fender Factory Work Be A Refinish?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Fender operated a repair and refinish service. Later factory work can resemble production finish closely, so repair-department evidence and the instrument's history need to be considered."
+        }
+      }
+    ]
+  },
+  "LINKS_USED": [
+    {
+      "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+      "anchor": "refinish value guide"
+    },
+    {
+      "url": "/do-replaced-pickups-hurt-guitar-value/",
+      "anchor": "pickup changes and their evidence"
+    },
+    {
+      "url": "/how-to-spot-a-fake-fender/",
+      "anchor": "identifying a fake Fender"
+    },
+    {
+      "url": "/how-to-spot-a-fake-gibson/",
+      "anchor": "identifying a fake Gibson"
+    },
+    {
+      "url": "/post/fender-custom-color-authentication-guide/",
+      "anchor": "Fender custom-color authentication reference"
+    },
+    {
+      "url": "/how-to-spot-a-fake-martin/",
+      "anchor": "Martin authentication guide"
+    },
+    {
+      "url": "/repair/",
+      "anchor": "repair and bench background"
+    },
+    {
+      "url": "/post/what-a-serial-number-cant-tell-you/",
+      "anchor": "what a serial number cannot establish"
+    },
+    {
+      "url": "/what-lowers-vintage-guitar-value/",
+      "anchor": "guide to changes and collector value"
+    },
+    {
+      "url": "/free-appraisal/",
+      "anchor": "free photo assessment of your guitar"
+    }
+  ],
+  "SOURCES": [
+    {
+      "publication": "Joe Dampt's GAP 3 / GAP 5 task overrides",
+      "year": 2026,
+      "date": "2026-10-26",
+      "location": "User-supplied Pasted text.txt and gap3-gap5-prompt-pack.md",
+      "claims": [
+        "Full refinish: 40 to 60 percent less than a comparable original, without brand-specific numerical alternatives.",
+        "Pickup swap about 25 percent; routing 35 to 40 percent; tuners 10 to 15 percent; refret 5 to 10 percent; repaired headstock 40 to 50 percent; proper neck reset almost no penalty.",
+        "All dollar figures must be copied verbatim from a currently live JVG page."
+      ],
+      "basis": "Explicit house ruling; overrides earlier wording latitude and inconsistent existing refinish anchors.",
+      "id": "house",
+      "observed": "2026-10-26"
+    },
+    {
+      "route": "/post/fender-custom-color-authentication-guide/",
+      "claims": [
+        "Factory finish sequence and headstock decals applied over clear last; dealer decals are surface evidence.",
+        "Fullerplast is colorless; yellow is the aniline stain; Homoclad preceded Fullerplast.",
+        "Acrylic/nitro chemistry does not follow solid/metallic division; Olympic White acrylic, Sherwood Green metallic nitro; no checking/yellowing alone is not proof.",
+        "Nails and paint-stick methods overlap; correct context required.",
+        "Nitrate mint guards precede white vinyl; tortoise custom-color exception is Olympic White.",
+        "Fender factory refinish service, repair-department marks and era mismatch evidence.",
+        "UV/blacklight is supporting evidence; partial finish, original contours, hardware footprints and cavity coverage require context."
+      ],
+      "houseRulesApplied": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.5",
+        "2.7",
+        "2.8"
+      ],
+      "id": "finish",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Authenticate A Fender Custom Color Finish (1950s And 1960s)",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/what-a-serial-number-cant-tell-you/",
+      "claims": [
+        "A serial alone cannot prove originality; finish and parts require corroboration.",
+        "Original vs period-correct replacement distinctions.",
+        "No disassembly for an initial assessment; existing evidence and work history."
+      ],
+      "id": "serial",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Vintage Guitar Checks: What A Serial Number Can't Tell You",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/what-a-serial-number-cant-tell-you/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/repair/",
+      "claims": [
+        "Bench inspection can expose finish and structural work not established by surface photographs."
+      ],
+      "id": "repair",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Musical Instrument Repair | Joe’s Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/repair/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/found-an-old-guitar/",
+      "claims": [
+        "Leave cleaning, strings, finish and parts alone for assessment; keep case, loose parts and records.",
+        "Safe care and handling; no bridge pressing, gap probing, glue or uncertain disassembly.",
+        "Separate identification and care from estate authority and valuation purpose."
+      ],
+      "id": "found",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Found An Old Guitar? What To Do Before Changing Anything",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/found-an-old-guitar/",
+      "liveStatus": 200
+    }
+  ],
+  "CLAIM_SOURCES": {
+    "hidden": [
+      "finish",
+      "found"
+    ],
+    "headstock": [
+      "finish"
+    ],
+    "edges": [
+      "finish",
+      "repair"
+    ],
+    "wear": [
+      "finish"
+    ],
+    "hardware": [
+      "finish"
+    ],
+    "blacklight": [
+      "finish"
+    ],
+    "fender": [
+      "finish"
+    ],
+    "acoustic": [
+      "repair",
+      "serial"
+    ],
+    "factory": [
+      "finish"
+    ],
+    "next": [
+      "found",
+      "serial"
+    ],
+    "faq": [
+      "finish",
+      "found"
+    ]
+  },
+  "PRICE_TABLE": [],
+  "PRICE_CLAIMS": [],
+  "IMAGE_LIST": [
+    {
+      "slot": 1,
+      "imageURL": "https://www.joesvintageguitarsaz.com/_astro/1960s-fender-stratocaster-refin-neck-plate-bulge-grey-primer.DVj4OQXT_NRaIV.webp",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
+      "existingAlt": "Back of a refinished 1960s Fender Stratocaster in blue metallic showing the serial number neck plate with finish bulging and ridging around the plate’s outline, odd rough texture, and a chip revealing grey primer, in front of a Fender amplifier.",
+      "existingCaption": "",
+      "proposedAlt": "Neck plate on a refinished blue metallic Fender Stratocaster, with ridged finish and a chip showing grey primer.",
+      "proposedCaption": "This Stratocaster is identified as refinished in my custom-color guide. The existing inspection shows finish ridging around the neck plate and grey primer at a chip.",
+      "sitemapVerified": true,
+      "fileStem": "1960s-fender-stratocaster-refin-neck-plate-bulge-grey-primer"
+    }
+  ],
+  "FLAGS": "none",
+  "reviewNotes": [
+    "Sources and price evidence stay in reports, never in public page copy.",
+    "No new outside dollar figures or fabricated sale pairs.",
+    "No existing page percentages or dollar amounts changed. Existing overlong metadata was corrected with Joe's separate approval.",
+    "User overrides supersede photo-hero, one-PR-per-page and historical refinish latitude in the pack."
+  ]
+}

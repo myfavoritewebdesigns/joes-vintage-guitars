@@ -98,6 +98,8 @@ The gold waffleback tuners complete the later headstock appearance on this examp
 
 ## Custom Repairs And Original Parts
 
+For condition comparisons beyond this model, I explain [how repairs and replaced parts affect vintage guitar value](/what-lowers-vintage-guitar-value/).
+
 An unbroken neck, original finish and factory pickups are the baseline for a collector SG Custom. A repaired headstock, a full refinish and a missing pickup change different parts of that package. Normal playing wear and a good refret deserve a separate assessment from structural damage.
 
 Repairs and alterations affect the guitar as a whole. A guitar that's already priced as played, serviced or altered has some of those differences reflected in its starting range. A quality refret preserves an otherwise all-original guitar's classification while taking it out of the museum-quality category.

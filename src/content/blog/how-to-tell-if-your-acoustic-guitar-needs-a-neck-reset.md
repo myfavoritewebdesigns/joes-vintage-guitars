@@ -139,6 +139,8 @@ For what it's worth, on a guitar worth keeping this is money well spent. A reset
 
 <h2 id="value">What It Does To Value</h2>
 
+For the broader condition comparison, read about [other repairs and originality changes](/what-lowers-vintage-guitar-value/). If a sale is the goal, I also explain [whether to commission repairs before selling](/should-i-restore-my-guitar-before-selling/).
+
 Three different situations get confused with each other, so here's how each one actually lands.
 
 **A guitar that has already been reset properly.** Almost no penalty. On a sixty year old flat-top, a competent reset is expected maintenance, the same way you'd expect a refret. Collectors care about original finish, original parts, and original bracing. A reset touches none of those. This is not the same category as a refinish.

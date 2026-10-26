@@ -115,6 +115,8 @@ The Charcoal Frost photograph shows visible wear on a custom-color guitar. Origi
 
 ## Original Pickups, Routing And Refinished Bodies
 
+For condition comparisons beyond this model, I explain [how a refinish affects vintage guitar value](/how-much-does-a-refinish-hurt-guitar-value/).
+
 The broad Jazzmaster pickups are part of the model's appeal. A guitar cut for other pickups has changed wood as well as changed electronics. Restoring the appearance with original-style covers doesn't restore the removed material.
 
 A professional refinish reduces collector value, while normal wear on an original finish belongs in a different category. I assess the finish, repair quality and retained parts together before adjusting a Jazzmaster's value.

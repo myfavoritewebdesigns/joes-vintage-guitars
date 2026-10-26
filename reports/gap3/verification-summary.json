@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-26",
+  "baseCommit": "9afcbf6e04af10cf2e31053c538384aa7f548c91",
+  "branch": "joe/gap3-gap5",
+  "toolchain": {
+    "node": "24.16.0",
+    "pnpm": "11.7.0",
+    "install": "pnpm install --frozen-lockfile"
+  },
+  "build": {
+    "command": "pnpm run verify",
+    "exitCode": 0,
+    "pages": 305,
+    "astroErrors": 0,
+    "astroWarnings": 0,
+    "copyHardFails": 0,
+    "copyReportOnlyWarnings": 719,
+    "newPageCopyWarnings": 0
+  },
+  "sitewide": {
+    "titleOver60": [],
+    "descriptionOver160": [],
+    "duplicateDescriptions": [],
+    "metadataDashes": []
+  },
+  "existingNumericFieldsPreserved": true,
+  "existingFilesChecked": 49,
+  "internalHttp": {
+    "urls": 39,
+    "non200": [],
+    "errors": []
+  },
+  "refinishStatements": {
+    "visible": 16,
+    "schema": 5,
+    "metadata": 3
+  },
+  "refinishWording": "40 to 60 percent less than a comparable original",
+  "numberFreePages": [
+    "how-to-tell-if-a-guitar-has-been-refinished",
+    "inherited-a-guitar",
+    "selling-a-loved-ones-guitar"
+  ],
+  "responsive": {
+    "views": 28,
+    "widths": [
+      1920,
+      1280,
+      768,
+      390
+    ],
+    "pageOverflow": 0,
+    "brokenContentImages": 0,
+    "javascriptErrors": [],
+    "mainContentAxeViolations": [],
+    "fixedDesktopToc": true,
+    "note": "All seven pages reviewed at four widths; WCAG A/AA automated checks cover main content at 390px. Screenshots reviewed for the solid header, answer placement, tables and family-page tone."
+  },
+  "images": {
+    "licensedContentNodes": 7,
+    "mismatches": 0
+  },
+  "overlap": {
+    "comparisons": 20,
+    "maxEightGramPercent": 0.42,
+    "limit": 26
+  },
+  "faq": [
+    {
+      "url": "/what-lowers-vintage-guitar-value/",
+      "questions": 6,
+      "visibleAndSchemaMatch": true
+    },
+    {
+      "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+      "questions": 5,
+      "visibleAndSchemaMatch": true
+    },
+    {
+      "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+      "questions": 5,
+      "visibleAndSchemaMatch": true
+    },
+    {
+      "url": "/do-replaced-pickups-hurt-guitar-value/",
+      "questions": 5,
+      "visibleAndSchemaMatch": true
+    },
+    {
+      "url": "/should-i-restore-my-guitar-before-selling/",
+      "questions": 5,
+      "visibleAndSchemaMatch": true
+    },
+    {
+      "url": "/inherited-a-guitar/",
+      "questions": 6,
+      "visibleAndSchemaMatch": true
+    },
+    {
+      "url": "/selling-a-loved-ones-guitar/",
+      "questions": 5,
+      "visibleAndSchemaMatch": true
+    }
+  ],
+  "preview": {
+    "localBranchBuildRobots": [
+      {
+        "url": "/what-lowers-vintage-guitar-value/",
+        "robots": "noindex, follow"
+      },
+      {
+        "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+        "robots": "noindex, follow"
+      },
+      {
+        "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+        "robots": "noindex, follow"
+      },
+      {
+        "url": "/do-replaced-pickups-hurt-guitar-value/",
+        "robots": "noindex, follow"
+      },
+      {
+        "url": "/should-i-restore-my-guitar-before-selling/",
+        "robots": "noindex, follow"
+      },
+      {
+        "url": "/inherited-a-guitar/",
+        "robots": "noindex, follow"
+      },
+      {
+        "url": "/selling-a-loved-ones-guitar/",
+        "robots": "noindex, follow"
+      }
+    ],
+    "deployedUrl": "Cloudflare deployment URL and HTTP verification will be recorded in the PR after push."
+  },
+  "limitations": [
+    "No existing percentages or dollar values changed; anchor conflicts require Joe's review.",
+    "No realized-sale pairs or unsupported numerical bands invented; omissions are listed in the per-page FLAGS.",
+    "The informal opinion is distinguished from a paid formal appraisal; family pages refer ownership and tax questions to the estate's professionals."
+  ]
+}

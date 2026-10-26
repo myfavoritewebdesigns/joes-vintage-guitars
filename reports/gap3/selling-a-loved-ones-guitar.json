@@ -1,0 +1,285 @@
+{
+  "METADATA": {
+    "url": "/selling-a-loved-ones-guitar/",
+    "title": "Is It Wrong To Sell My Dad's Guitar? Keeping Or Letting Go",
+    "description": "It isn't wrong to sell a loved one's guitar or to keep it. Explore ways to preserve its story, involve your family and decide without pressure to sell.",
+    "h1": "Is It Wrong To Sell A Loved One's Guitar?",
+    "prefix": "slg",
+    "eyebrow": "A Guitar In The Family",
+    "primaryQuery": "is it wrong to sell my dad's guitar",
+    "secondaryQueries": [
+      "selling my late father's guitar",
+      "should i sell my grandfather's guitar",
+      "keep or sell inherited guitar"
+    ],
+    "published": "2026-10-26T12:00:00-07:00",
+    "titleCharacters": 58,
+    "descriptionCharacters": 151
+  },
+  "OUTLINE": [
+    {
+      "level": "h2",
+      "text": "Ways To Keep A Guitar In The Family"
+    },
+    {
+      "level": "h2",
+      "text": "Ways To Let It Go Well"
+    },
+    {
+      "level": "h2",
+      "text": "When Selling Makes Sense"
+    },
+    {
+      "level": "h2",
+      "text": "Questions That Can Help You Decide"
+    },
+    {
+      "level": "h2",
+      "text": "Stories Other Families Shared"
+    },
+    {
+      "level": "h2",
+      "text": "You Can Keep The Story Either Way"
+    },
+    {
+      "level": "h2",
+      "text": "Questions About Keeping Or Selling"
+    },
+    {
+      "level": "h3",
+      "text": "Is It Disrespectful To Sell A Parent's Guitar?"
+    },
+    {
+      "level": "h3",
+      "text": "Should I Keep It If Nobody Plays?"
+    },
+    {
+      "level": "h3",
+      "text": "How Do I Keep The Story With The Guitar?"
+    },
+    {
+      "level": "h3",
+      "text": "Can I Find Out What It Is Without Committing To Sell?"
+    },
+    {
+      "level": "h3",
+      "text": "What If The Family Isn't Ready To Decide?"
+    }
+  ],
+  "BODY": {
+    "source": "src/data/gap3/selling-a-loved-ones-guitar.html",
+    "wordCount": 1412
+  },
+  "FAQ_SCHEMA": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is It Disrespectful To Sell A Parent's Guitar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Selling can be a thoughtful family decision, just as keeping it can. The guitar's meaning to you doesn't require one particular choice about its future home."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I Keep It If Nobody Plays?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can keep it without playing it if you want to and can look after it. You can also consider a family loan or a sale. Nobody playing is a question to discuss, not a rule that decides for you."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How Do I Keep The Story With The Guitar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Write down what the family knows, keep a copy and decide what you are comfortable passing along. A short accurate account and photographs can preserve the connection without sharing private details."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I Find Out What It Is Without Committing To Sell?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Identification and an initial market opinion can be separate from a sale. You can gather that information and leave the decision about keeping the guitar open."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What If The Family Isn't Ready To Decide?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ask the person handling any estate responsibilities what timing is actually required. Within that context, it is reasonable to gather information and return to the personal decision later."
+        }
+      }
+    ]
+  },
+  "LINKS_USED": [
+    {
+      "url": "/inherited-a-guitar/",
+      "anchor": "guide to an inherited guitar"
+    },
+    {
+      "url": "/should-i-restore-my-guitar-before-selling/",
+      "anchor": "what to consider before restoring a guitar"
+    },
+    {
+      "url": "/found-an-old-guitar/",
+      "anchor": "guide to looking after an old guitar"
+    },
+    {
+      "url": "/category/museum-original-owners/",
+      "anchor": "original-owner series"
+    },
+    {
+      "url": "/post/one-family-1946-martin-d-28/",
+      "anchor": "One Family From New: A 1946 Martin D-28"
+    },
+    {
+      "url": "/post/one-family-1959-gibson-es-355/",
+      "anchor": "One Family's 1959 Gibson ES-355"
+    },
+    {
+      "url": "/post/one-owner-1955-martin-d28/",
+      "anchor": "One Owner 1955 Martin D-28"
+    },
+    {
+      "url": "/post/one-owner-1957-gibson-byrdland/",
+      "anchor": "One Owner From New: The Story Of A 1957 Gibson Byrdland"
+    },
+    {
+      "url": "/free-appraisal/",
+      "anchor": "free guitar identification and market opinion"
+    }
+  ],
+  "SOURCES": [
+    {
+      "route": "/free-appraisal/",
+      "claims": [
+        "Free initial market valuation without obligation to sell.",
+        "Signed official appraisal is a separate paid service requiring additional research and documentation.",
+        "Market value, insurance replacement and an offer are distinct; scope must match requested purpose."
+      ],
+      "id": "appraisal",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Free Vintage Guitar Appraisal | Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/free-appraisal/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/found-an-old-guitar/",
+      "claims": [
+        "Leave cleaning, strings, finish and parts alone for assessment; keep case, loose parts and records.",
+        "Safe care and handling; no bridge pressing, gap probing, glue or uncertain disassembly.",
+        "Separate identification and care from estate authority and valuation purpose."
+      ],
+      "id": "found",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Found An Old Guitar? What To Do Before Changing Anything",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/found-an-old-guitar/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/one-family-1946-martin-d-28/",
+      "claims": [
+        "Existing title, introduction, photo identification and exact published family-photo caption."
+      ],
+      "id": "family",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: One Family From New: A 1946 Martin D-28",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/one-family-1946-martin-d-28/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/one-family-1959-gibson-es-355/",
+      "claims": [
+        "Existing title and introduction only; no retelling or new family detail."
+      ],
+      "id": "es355",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: One Family’s 1959 Gibson ES-355 | Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/one-family-1959-gibson-es-355/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/one-owner-1955-martin-d28/",
+      "claims": [
+        "Existing title and introduction only; no implication of sale to Joe."
+      ],
+      "id": "martin55",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: One Owner 1955 Martin D-28 | Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/one-owner-1955-martin-d28/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/one-owner-1957-gibson-byrdland/",
+      "claims": [
+        "Existing title and introduction only; no retelling."
+      ],
+      "id": "byrdland",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: One Owner From New: The Story of a 1957 Gibson Byrdland",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/one-owner-1957-gibson-byrdland/",
+      "liveStatus": 200
+    }
+  ],
+  "CLAIM_SOURCES": {
+    "keeping": [
+      "found"
+    ],
+    "letting": [
+      "found"
+    ],
+    "sense": [
+      "found"
+    ],
+    "questions": [],
+    "stories": [
+      "family",
+      "es355",
+      "martin55",
+      "byrdland"
+    ],
+    "story": [],
+    "faq": [
+      "appraisal",
+      "found"
+    ]
+  },
+  "PRICE_TABLE": [],
+  "PRICE_CLAIMS": [],
+  "IMAGE_LIST": [
+    {
+      "slot": 1,
+      "imageURL": "https://www.joesvintageguitarsaz.com/_astro/1946-martin-d-28-original-owners-grandson.SNU7Hdb6_ZAkY5N.webp",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/one-family-1946-martin-d-28/",
+      "existingAlt": "The original owner's grandson in Apache Junction, Arizona, holding the family's 1946 Martin D-28",
+      "existingCaption": "The original owner's grandson with the family's 1946 Martin D-28 in Apache Junction, Arizona.",
+      "proposedAlt": "The original owner's grandson in Apache Junction, Arizona, holding the family's 1946 Martin D-28",
+      "proposedCaption": "The original owner's grandson with the family's 1946 Martin D-28 in Apache Junction, Arizona.",
+      "sitemapVerified": true,
+      "fileStem": "1946-martin-d-28-original-owners-grandson"
+    }
+  ],
+  "FLAGS": [
+    {
+      "type": "JOE",
+      "question": "If you routinely pass owners' stories to the next buyer, confirm that practice before adding a promise. No such promise appears in this page."
+    }
+  ],
+  "reviewNotes": [
+    "Sources and price evidence stay in reports, never in public page copy.",
+    "No new outside dollar figures or fabricated sale pairs.",
+    "No existing page percentages or dollar amounts changed. Existing overlong metadata was corrected with Joe's separate approval.",
+    "User overrides supersede photo-hero, one-PR-per-page and historical refinish latitude in the pack."
+  ]
+}

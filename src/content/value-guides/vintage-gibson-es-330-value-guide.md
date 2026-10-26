@@ -84,6 +84,8 @@ For an owner, the practical step is simple: photograph the whole instrument and 
 
 ## Original Finish And Visible Wear
 
+For condition comparisons beyond this model, I explain [how a refinish affects vintage guitar value](/how-much-does-a-refinish-hurt-guitar-value/).
+
 Original finish is part of the table's condition assumption. A refinish is a different category even when the replacement finish looks attractive. Local touch-up, added clear coat and a complete refinish also need to be described separately.
 
 Wear doesn't have to be hidden before an appraisal. Clear photographs of the back, edges and neck can show the guitar's present condition more accurately than a polished front-only picture. Photograph the guitar as it stands, including its wear.

@@ -30,6 +30,9 @@ const allPosts = await getPublishedPosts();
 const categories = getCategories(allPosts);
 const name = categoryName(slug);
 const intro = CATEGORY_META[slug]?.description;
+const archiveTitle = `${name} (Page ${current}) | Joe's Vintage Guitars Blog`;
+// Joe approved fixing overlong existing metadata without retitling short archives.
+const seoTitle = archiveTitle.length > 60 ? archiveTitle.replace(/ Blog$/, '') : archiveTitle;
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -43,7 +46,7 @@ const breadcrumbSchema = {
 ---
 
 <Layout
-  title={`${name} (Page ${current}) | Joe's Vintage Guitars Blog`}
+  title={seoTitle}
   description={`Page ${current}: ${intro || `${name} articles from Joe's Vintage Guitars.`}`}
   canonical={`/category/${slug}/page/${current}/`}
   structuredData={breadcrumbSchema}

@@ -106,6 +106,8 @@ I follow the instrument's documented features when identifying a variant. A mist
 
 ## Repairs And The Playing Condition
 
+For condition comparisons beyond this model, I explain [how repairs and replaced parts affect vintage guitar value](/what-lowers-vintage-guitar-value/).
+
 The ES-125 is a hollow archtop, so the neck joint and body condition deserve a clear description. A guitar can have original finish and still need a neck reset. The clean reference assumes an instrument that doesn't need structural repair.
 
 I ask about the current action, which is the height of the strings above the frets, and any written repair assessment. A repair estimate should describe the actual problem. It shouldn't be replaced by an automatic percentage copied from another model.

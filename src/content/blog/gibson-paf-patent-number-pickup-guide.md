@@ -159,6 +159,8 @@ The reason a wire coil costs five figures is the records it made. Eric Clapton's
 
 <h2 id="paf-guitar">Start with the Guitar, Not the Pickup</h2>
 
+If the pickups have been changed, I explain [how replacement pickups and routing affect the whole guitar](/do-replaced-pickups-hurt-guitar-value/).
+
 Now the bench work. The first rule of pickup authentication is that a pickup almost never walks in alone. It arrives in a guitar, and the guitar is a witness with a long memory. Before we look at the pickup at all, we read everything around it.
 
 Does the guitar's year match the pickup story? PAFs belong on Gibsons from 1957 into 1962, with leftovers stretching into 1963 and gold cover examples lingering a bit later on low volume models. Our [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) dates the guitar itself. Then the harness: are the pot codes period correct, and is the solder at the pots undisturbed? A pickup can be swapped in thirty minutes, but the trip leaves tracks at the switch, the pots, and the pickup cavity, and fresh solder anywhere in the signal path means the burden of proof goes up. Are the pickup rings correct and unswapped? Are the height screws and springs old? Does the routing show extra holes, chisel marks, or oversized cavities? On a 335 style guitar, does the harness look like it has ever been fished out through the f-hole?

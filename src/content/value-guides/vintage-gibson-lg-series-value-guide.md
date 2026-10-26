@@ -87,6 +87,8 @@ The LG-3 range here covers later postwar natural-finish guitars, not wartime or 
 
 ## Repairs That Change The Comparison
 
+For condition comparisons beyond this model, I explain [how repairs and replaced parts affect vintage guitar value](/what-lowers-vintage-guitar-value/).
+
 Old acoustics often arrive with maintenance records, replacement parts or work whose history is unknown. I separate those situations from the clean reference instead of giving every repair the same deduction. The extent and quality of the work determine which other guitars make useful comparisons.
 
 A disclosed repair is easier to assess than a vague statement that a guitar was serviced. A receipt naming a neck reset, bridge replacement or brace repair helps explain the instrument's present condition. It also prevents unrelated work from being grouped together.

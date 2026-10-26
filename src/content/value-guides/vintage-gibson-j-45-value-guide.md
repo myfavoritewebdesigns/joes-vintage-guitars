@@ -157,6 +157,8 @@ The split-parallelogram inlays in the comparison photograph aren't J-45 appointm
 
 ## How I Handle Repairs And Changed Parts
 
+For condition comparisons beyond this model, I explain [how repairs and replaced parts affect vintage guitar value](/what-lowers-vintage-guitar-value/).
+
 I look for a description of the work, its extent and the instrument's present condition. A professionally repaired guitar can be useful and desirable without matching a clean-original reference. That is a separate comparison category, not a reason to dismiss the instrument.
 
 The word restoration can cover very different work. It might refer to a setup and careful maintenance, or it might conceal a replacement fingerboard, refinishing and altered bracing. The actual work needs to be named before a value range means much.

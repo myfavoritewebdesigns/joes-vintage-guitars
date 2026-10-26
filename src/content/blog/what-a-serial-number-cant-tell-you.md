@@ -72,6 +72,8 @@ If you already have photos and you want a person to read them, use the [free app
 
 <h2 id="what-all-original-actually-means">What All Original Actually Means</h2>
 
+For visible clues across electric and acoustic guitars, read about [spotting a guitar refinish](/how-to-tell-if-a-guitar-has-been-refinished/).
+
 Listings use "all original" like a switch. On a guitar that's been played sixty years, I have to say the actual sentence: original finish, original pickups, original tuners, original bridge, original frets, original electronics. A refret knocks it off that strict list even when the work kept it playable.
 
 The nitrocellulose that left the spray booth is what collectors pay for. It dries thin and glossy, then yellows and checks into fine hairline cracks, and a later paint job, even a careful one, is a refin. Tuners, pickups, bridge, pots, knobs, pickguard, and tailpiece get the same test: a period-correct replacement is still a replacement. Untouched electronics means the solder, the cloth or braid, the pots, and the pickup leads still sitting where a factory iron left them, because a pickup can be swapped in half an hour and the trip leaves tracks at the pots, the switch, and the cavity.
