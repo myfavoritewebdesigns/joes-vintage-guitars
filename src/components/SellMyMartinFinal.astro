@@ -1,5 +1,7 @@
 ---
 import LicensedImage from "./primitives/LicensedImage.astro";
+import MartinModelLinks from "./MartinModelLinks.astro";
+import { martinSellingModels } from "../data/martin-model-links";
 import Button from "./primitives/Button.astro";
 import LeadForm from "./LeadForm.astro";
 import ContactSection from "./ContactSection.astro";
@@ -382,11 +384,13 @@ const sellerPhoto = resolveImage("images/sell-martin/Copy-of-IMG_1620-600x800.jp
             <span>{guide.era}</span>
             <h3><a href={guide.url}>{guide.title}</a></h3>
             <p>{guide.buying}</p>
+            {martinSellingModels[guide.title] && <MartinModelLinks keys={martinSellingModels[guide.title]} label="Model histories:" />}
             <a class="smm-guide-card__primary" href={guide.url}>{guide.action}</a>
           </div>
         </li>
       ))}
     </ul>
+    <MartinModelLinks keys={["classical", "12-string", "tenor", "plectrum", "archtop"]} label="For other Martin families, read the" />
     <a class="smm-all-guides" href="/blog/">Browse All Guitar Articles</a>
   </section>
 
