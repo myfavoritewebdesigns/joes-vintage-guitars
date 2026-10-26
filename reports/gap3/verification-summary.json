@@ -64,7 +64,7 @@
   },
   "overlap": {
     "comparisons": 20,
-    "maxEightGramPercent": 0.34,
+    "maxEightGramPercent": 0.33,
     "limit": 26
   },
   "faq": [
@@ -152,5 +152,11 @@
     "position": "First article section after the introduction",
     "captions": "Published captions preserved",
     "verification": "Fresh pnpm run verify: build succeeds, Astro 0 errors / 0 warnings, copy 0 hard-fails. Four viewport checks and all six story/archive links pass; see original-owner-stories-review.json."
+  },
+  "playerEmphasisFollowup": {
+    "date": "2026-10-26",
+    "scope": "Three copy changes on /selling-a-loved-ones-guitar/: introduction, When Selling Makes Sense and the matching nobody-plays FAQ.",
+    "intent": "Guitars are made to be played; passing one to another player can be a way to honor the instrument while retaining family memories.",
+    "verification": "Full pnpm run verify passed: build succeeds, Astro 0 errors / 0 warnings, copy 0 hard-fails. All seven FAQs match their visible text. Sitewide metadata checks remain clean; no value figures were added."
   }
 }

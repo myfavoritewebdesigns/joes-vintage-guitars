@@ -84,7 +84,7 @@
   ],
   "BODY": {
     "source": "src/data/gap3/selling-a-loved-ones-guitar.html",
-    "wordCount": 1460
+    "wordCount": 1488
   },
   "FAQ_SCHEMA": {
     "@context": "https://schema.org",
@@ -103,7 +103,7 @@
         "name": "Should I Keep It If Nobody Plays?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You can keep it without playing it if you want to and can look after it. You can also consider a family loan or a sale. Nobody playing is a question to discuss, not a rule that decides for you."
+          "text": "You can keep it if you want to and can look after it. If nobody expects to play it, selling to someone who will use and care for it can be a thoughtful choice. The family can keep the memories and photographs while the guitar keeps making music."
         }
       },
       {
@@ -347,6 +347,7 @@
     "No new outside dollar figures or fabricated sale pairs.",
     "No existing page percentages or dollar amounts changed. Existing overlong metadata was corrected with Joe's separate approval.",
     "User overrides supersede photo-hero, one-PR-per-page and historical refinish latitude in the pack.",
-    "Joe requested more original-owner photographs and prominent story links. Move the story section immediately after the introduction, with four linked photo cards and a visible archive link. Preserve published captions, retain the Byrdland link, and leave the family decision copy and FAQ unchanged."
+    "Joe requested more original-owner photographs and prominent story links. Move the story section immediately after the introduction, with four linked photo cards and a visible archive link. Preserve published captions, retain the Byrdland link, and leave the family decision copy and FAQ unchanged.",
+    "Joe requested a subtle emphasis on guitars being made to be played and selling as a way to honor the instrument by finding another player. Update the introduction, selling discussion and matching FAQ without adding urgency, promises about a buyer or new sales CTAs."
   ]
 }
