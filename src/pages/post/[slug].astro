@@ -73,6 +73,7 @@ const displayedRelated = isBurstYearGuide
   : related;
 const isMartinSmallBodyGuide = entry.id === "martin-0-00-000-history-authentication-value-guide";
 const isMartinD18Guide = entry.id === "martin-d18-history-specs-authentication-value-guide";
+const isMartinValueArticle = entry.id === "how-to-determine-the-value-of-your-old-martin-acoustic-guitar";
 const isCustomMartinGuide = isMartinSmallBodyGuide || isMartinD18Guide;
 const isDennisHiattStory = entry.id === "one-owner-1983-gibson-les-paul-custom";
 const isBobDentonJ200Story = entry.id === "bob-denton-1955-gibson-j200";
@@ -665,7 +666,7 @@ const articleSchema = {
     </>
   )}
 
-  <article class="bpost">
+  <article class:list={["bpost", { "bpost--martin-value": isMartinValueArticle }]}>
     {!hasGuideHero && !isFirebirdGuide && <div class="bpost__inner">
       <nav class="bpost__crumbs" aria-label="Breadcrumb">
         <a href="/">Home</a><span aria-hidden="true">/</span>
@@ -678,7 +679,7 @@ const articleSchema = {
       <p class:list={["bpost__meta", { "bpost__byline": isBurstYearGuide || isNorlinGuide }]}>
         By <a href="/about-me/">{data.author}</a>
         <span aria-hidden="true">·</span>
-        <time datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>
+        {isMartinValueArticle ? <span>Updated <time datetime={data.modified.toISOString()}>{data.modified.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}</time></span> : <time datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>}
       </p>
       {isBurstYearGuide && <p class="bpost__value-jump">
         <a href={`#${entry.id.slice(0, 4)}-les-paul-value`}>See {entry.id.slice(0, 4)} Les Paul Values</a>
@@ -721,7 +722,7 @@ const articleSchema = {
         <ul>{data.toc.map(t => <li><a href={t.href}>{t.label}</a></li>)}</ul>
       </nav>}
       <div class="blog-prose">
-        {isGap2ValueConversion ? <ValueGuidePhotos allImages><Content /></ValueGuidePhotos> : (isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
+        {isGap2ValueConversion || isMartinValueArticle ? <ValueGuidePhotos allImages><Content /></ValueGuidePhotos> : (isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
         {data.faqs.length > 0 && !data.faqsInline && <section class="post-faq" aria-labelledby="faq">
           <h2 id="faq">Frequently Asked Questions</h2>
           {data.faqs.map(item => <div class="post-faq-answer">
@@ -1625,5 +1626,8 @@ const articleSchema = {
   @media (max-width: 640px) {
     .blog-prose { font-size: 1rem; }
     .blog-prose table { display: block; overflow-x: auto; white-space: nowrap; }
+    .bpost--martin-value .blog-prose table { display: table; table-layout: fixed; white-space: normal; }
+    .bpost--martin-value .blog-prose th,
+    .bpost--martin-value .blog-prose td { padding: 10px 8px; font-size: 0.9rem; line-height: 1.5; overflow-wrap: break-word; }
   }
 </style>
