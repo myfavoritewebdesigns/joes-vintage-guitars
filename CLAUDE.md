@@ -356,6 +356,8 @@ Living record of intentional design choices on this project. **Check this before
 
 | 2026-10-26 | Refinish detection guide: photographic examples | Expand from one to fifteen photos: seven views from Joe's Reverb listings plus eight archive views, including clearly labeled original-finish comparisons. Use local assets, responsive pairs and captions that separate documented work from visible clues. | Joe explicitly requested substantially more photos and reuse of his Reverb listing archive. Preserve the solid header, zero value figures and existing FAQ; provenance is in reports/gap3/how-to-tell-if-a-guitar-has-been-refinished.json. |
 
+| 2026-10-26 | Incoming links to the seven published guides | Add 44 contextual links across 18 pages: seven links on the Resource Center homepage using its existing guide-list styles, seven in the main selling article, two condition-reference links on each of fourteen Martin value guides, and family-selling links in the ES-355 and Alexandria Stratocaster stories. | Joe requested a check and improvement of links after publication. The Resource Center heading and section are intentional; category and paginated archives do not repeat them. Preserve existing links, metadata, image counts and value figures. Evidence: reports/guide-linking/. Add underlines to selling-guide paragraph links and wrap the blog pagination list to fix observed link accessibility and mobile overflow. |
+
 ### Template-level lessons learned (cross-project)
 
 These are not project deviations — they're recurring failures that shaped the wp-to-astro template's tooling. **Read before debating whether an audit check is "too strict."**

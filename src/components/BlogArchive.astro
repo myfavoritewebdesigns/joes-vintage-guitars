@@ -40,6 +40,22 @@ const { heading, intro, posts, current, total, basePath, categories, activeCateg
       </section>
     )}
 
+    {basePath === "/blog" && current === 1 && (
+      <section class="barch__guides" aria-labelledby="condition-and-selling-guides">
+        <h2 id="condition-and-selling-guides">Condition And Selling Guides</h2>
+        <p>Learn how finish work, changed parts and repairs affect value, or work through the practical and personal questions about a family guitar.</p>
+        <ul>
+          <li><a href="/what-lowers-vintage-guitar-value/">What Lowers Vintage Guitar Value?</a></li>
+          <li><a href="/how-much-does-a-refinish-hurt-guitar-value/">How A Refinish Affects Value</a></li>
+          <li><a href="/how-to-tell-if-a-guitar-has-been-refinished/">How To Recognize A Refinish</a></li>
+          <li><a href="/do-replaced-pickups-hurt-guitar-value/">Replaced Pickups And Guitar Value</a></li>
+          <li><a href="/should-i-restore-my-guitar-before-selling/">Should You Restore Before Selling?</a></li>
+          <li><a href="/inherited-a-guitar/">First Steps With An Inherited Guitar</a></li>
+          <li><a href="/selling-a-loved-ones-guitar/">Keeping Or Selling A Loved One's Guitar</a></li>
+        </ul>
+      </section>
+    )}
+
     <nav class="barch__cats" aria-label="Blog categories">
       <a class={`barch__cat${activeCategory === "" ? " is-active" : ""}`} href="/blog/">All Posts</a>
       {categories.map((c) => (
