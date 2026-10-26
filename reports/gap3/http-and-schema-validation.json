@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-26T20:37:18.816Z",
+  "checkedAt": "2026-10-26T21:12:29.247Z",
   "base": "http://127.0.0.1:4326",
   "http": [
     {
@@ -12,7 +12,10 @@
       "status": 200,
       "anchorExists": true,
       "title": "Do Replaced Pickups Hurt Your Vintage Guitar's Value?",
-      "robots": "noindex, follow"
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
     },
     {
       "url": "/fender-pickup-dates/",
@@ -49,7 +52,10 @@
       "status": 200,
       "anchorExists": true,
       "title": "How Much Does A Refinish Hurt A Vintage Guitar's Value?",
-      "robots": "noindex, follow"
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
     },
     {
       "url": "/how-old-is-my-guitar/",
@@ -76,14 +82,20 @@
       "status": 200,
       "anchorExists": true,
       "title": "How To Tell If Your Vintage Guitar Has Been Refinished",
-      "robots": "noindex, follow"
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
     },
     {
       "url": "/inherited-a-guitar/",
       "status": 200,
       "anchorExists": true,
       "title": "Inherited A Guitar? How To Identify, Value And Decide",
-      "robots": "noindex, follow"
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
     },
     {
       "url": "/post/best-online-platforms-sell-vintage-guitars/",
@@ -141,6 +153,11 @@
       "anchorExists": true
     },
     {
+      "url": "/post/one-owner-1965-fender-stratocaster/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
       "url": "/post/what-a-serial-number-cant-tell-you/",
       "status": 200,
       "anchorExists": true
@@ -160,14 +177,20 @@
       "status": 200,
       "anchorExists": true,
       "title": "Is It Wrong To Sell My Dad's Guitar? Keeping Or Letting Go",
-      "robots": "noindex, follow"
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
     },
     {
       "url": "/should-i-restore-my-guitar-before-selling/",
       "status": 200,
       "anchorExists": true,
       "title": "Should I Restore My Vintage Guitar Before Selling It?",
-      "robots": "noindex, follow"
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
     },
     {
       "url": "/vintage-fender-stratocaster-value-guide/",
@@ -209,7 +232,10 @@
       "status": 200,
       "anchorExists": true,
       "title": "What Lowers A Vintage Guitar's Value? Repairs And Changes",
-      "robots": "noindex, follow"
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
     }
   ],
   "newPages": [

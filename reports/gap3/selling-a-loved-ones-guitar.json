@@ -19,6 +19,26 @@
   "OUTLINE": [
     {
       "level": "h2",
+      "text": "Original Owners And Their Guitars"
+    },
+    {
+      "level": "h3",
+      "text": "One Family From New: A 1946 Martin D-28"
+    },
+    {
+      "level": "h3",
+      "text": "One Family's 1959 Gibson ES-355"
+    },
+    {
+      "level": "h3",
+      "text": "One Owner 1955 Martin D-28"
+    },
+    {
+      "level": "h3",
+      "text": "A Lifetime Of Music: One 1965 Fender Stratocaster"
+    },
+    {
+      "level": "h2",
       "text": "Ways To Keep A Guitar In The Family"
     },
     {
@@ -32,10 +52,6 @@
     {
       "level": "h2",
       "text": "Questions That Can Help You Decide"
-    },
-    {
-      "level": "h2",
-      "text": "Stories Other Families Shared"
     },
     {
       "level": "h2",
@@ -68,7 +84,7 @@
   ],
   "BODY": {
     "source": "src/data/gap3/selling-a-loved-ones-guitar.html",
-    "wordCount": 1412
+    "wordCount": 1460
   },
   "FAQ_SCHEMA": {
     "@context": "https://schema.org",
@@ -122,18 +138,6 @@
       "anchor": "guide to an inherited guitar"
     },
     {
-      "url": "/should-i-restore-my-guitar-before-selling/",
-      "anchor": "what to consider before restoring a guitar"
-    },
-    {
-      "url": "/found-an-old-guitar/",
-      "anchor": "guide to looking after an old guitar"
-    },
-    {
-      "url": "/category/museum-original-owners/",
-      "anchor": "original-owner series"
-    },
-    {
       "url": "/post/one-family-1946-martin-d-28/",
       "anchor": "One Family From New: A 1946 Martin D-28"
     },
@@ -146,8 +150,24 @@
       "anchor": "One Owner 1955 Martin D-28"
     },
     {
+      "url": "/post/one-owner-1965-fender-stratocaster/",
+      "anchor": "A Lifetime Of Music: One 1965 Fender Stratocaster"
+    },
+    {
       "url": "/post/one-owner-1957-gibson-byrdland/",
       "anchor": "One Owner From New: The Story Of A 1957 Gibson Byrdland"
+    },
+    {
+      "url": "/category/museum-original-owners/",
+      "anchor": "Browse All Original-Owner Stories"
+    },
+    {
+      "url": "/should-i-restore-my-guitar-before-selling/",
+      "anchor": "what to consider before restoring a guitar"
+    },
+    {
+      "url": "/found-an-old-guitar/",
+      "anchor": "guide to looking after an old guitar"
     },
     {
       "url": "/free-appraisal/",
@@ -230,6 +250,13 @@
       "year": 2026,
       "url": "https://www.joesvintageguitarsaz.com/post/one-owner-1957-gibson-byrdland/",
       "liveStatus": 200
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/one-owner-1965-fender-stratocaster/",
+      "observed": "2026-10-26",
+      "claims": [
+        "Published original-owner portrait, caption and story title."
+      ]
     }
   ],
   "CLAIM_SOURCES": {
@@ -268,6 +295,45 @@
       "proposedCaption": "The original owner's grandson with the family's 1946 Martin D-28 in Apache Junction, Arizona.",
       "sitemapVerified": true,
       "fileStem": "1946-martin-d-28-original-owners-grandson"
+    },
+    {
+      "slot": 2,
+      "localAsset": "src/assets/blog/one-family-1959-gibson-es-355/1959-gibson-es-355-original-owners-son.jpg",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/one-family-1959-gibson-es-355/",
+      "existingAlt": "The original owner's son holding the family's 1959 Gibson ES-355",
+      "existingCaption": "The Handoff The original owner's son with the guitar his family kept and played since 1959.",
+      "proposedAlt": "The original owner's son holding the family's 1959 Gibson ES-355",
+      "proposedCaption": "The Handoff The original owner's son with the guitar his family kept and played since 1959.",
+      "permissiveLicense": true,
+      "provenanceNote": "Existing original-owner article photograph.",
+      "imageURL": "https://www.joesvintageguitarsaz.com/_astro/1959-gibson-es-355-original-owners-son.CZC4F3fM_ZuQe2P.webp",
+      "sitemapVerified": true
+    },
+    {
+      "slot": 3,
+      "localAsset": "src/assets/blog/one-owner-1955-martin-d28/steve-minnich-1955-martin-d28.jpeg",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/one-owner-1955-martin-d28/",
+      "existingAlt": "Steve Minnich smiling while holding the worn 1955 Martin D-28 his father bought new",
+      "existingCaption": "Steve Minnich with the 1955 Martin D-28 his father, Bill, bought new.",
+      "proposedAlt": "Steve Minnich smiling while holding the worn 1955 Martin D-28 his father bought new",
+      "proposedCaption": "Steve Minnich with the 1955 Martin D-28 his father, Bill, bought new.",
+      "permissiveLicense": false,
+      "provenanceNote": "Preserves the source article heroImageLicensed: false; no permissive license or Joe creator claim is added.",
+      "imageURL": "https://www.joesvintageguitarsaz.com/_astro/steve-minnich-1955-martin-d28.BRJfV_bp_Z1Mr6sU.webp",
+      "sitemapVerified": true
+    },
+    {
+      "slot": 4,
+      "localAsset": "src/assets/blog/one-owner-1965-fender-stratocaster/owner-holding-stratocaster.jpg",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/one-owner-1965-fender-stratocaster/",
+      "existingAlt": "The original owner holding his 1965 Olympic White Fender Stratocaster with its factory tortoise pickguard",
+      "existingCaption": "The original owner with his 1965 Fender Stratocaster",
+      "proposedAlt": "The original owner holding his 1965 Olympic White Fender Stratocaster with its factory tortoise pickguard",
+      "proposedCaption": "The original owner with his 1965 Fender Stratocaster",
+      "permissiveLicense": true,
+      "provenanceNote": "Existing original-owner article photograph.",
+      "imageURL": "https://www.joesvintageguitarsaz.com/_astro/owner-holding-stratocaster.Bv2S80l0_Z1KFQgG.webp",
+      "sitemapVerified": true
     }
   ],
   "FLAGS": [
@@ -280,6 +346,7 @@
     "Sources and price evidence stay in reports, never in public page copy.",
     "No new outside dollar figures or fabricated sale pairs.",
     "No existing page percentages or dollar amounts changed. Existing overlong metadata was corrected with Joe's separate approval.",
-    "User overrides supersede photo-hero, one-PR-per-page and historical refinish latitude in the pack."
+    "User overrides supersede photo-hero, one-PR-per-page and historical refinish latitude in the pack.",
+    "Joe requested more original-owner photographs and prominent story links. Move the story section immediately after the introduction, with four linked photo cards and a visible archive link. Preserve published captions, retain the Byrdland link, and leave the family decision copy and FAQ unchanged."
   ]
 }

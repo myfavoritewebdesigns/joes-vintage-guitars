@@ -36,9 +36,12 @@ for (const element of $('figure[data-photo]').toArray()) {
     width: String(built.attributes.width), height: String(built.attributes.height),
     loading: 'lazy', decoding: 'async', sizes: '(max-width: 900px) calc(100vw - 72px), 800px' });
   if (built.srcSet.attribute) img.attr('srcset', built.srcSet.attribute);
-  $(element).removeAttr('data-photo').append(img, $('<figcaption>').text(photo.caption));
+  const caption = $('<figcaption>').text(photo.caption);
+  if ('captionLabel' in photo) caption.prepend($('<strong>').text(photo.captionLabel), ' ');
+  $(element).removeAttr('data-photo').append(img, caption);
   imageGraph.push({ '@type': 'ImageObject', contentUrl: `${SITE_URL}${built.src}`,
-    width: built.attributes.width, height: built.attributes.height, caption: photo.alt, ...permissiveLicenseFields });
+    width: built.attributes.width, height: built.attributes.height, caption: photo.alt,
+    ...('licensed' in photo && !photo.licensed ? {} : permissiveLicenseFields) });
   share ??= { src: built.src, width: Number(built.attributes.width), height: Number(built.attributes.height), alt: photo.alt };
 }
 const questions = $('#faq h3').toArray().map(element => ({

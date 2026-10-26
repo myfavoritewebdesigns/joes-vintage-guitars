@@ -117,30 +117,30 @@
     {
       "url": "/selling-a-loved-ones-guitar/",
       "neighbor": "/post/one-family-1946-martin-d-28/",
-      "eightGramOverlapPercent": 0.14,
-      "newUniqueEightGrams": 1421,
-      "shared": 2
+      "eightGramOverlapPercent": 0.07,
+      "newUniqueEightGrams": 1470,
+      "shared": 1
     },
     {
       "url": "/selling-a-loved-ones-guitar/",
       "neighbor": "/post/one-family-1959-gibson-es-355/",
       "eightGramOverlapPercent": 0,
-      "newUniqueEightGrams": 1421,
+      "newUniqueEightGrams": 1470,
       "shared": 0
     },
     {
       "url": "/selling-a-loved-ones-guitar/",
       "neighbor": "/post/one-owner-1955-martin-d28/",
       "eightGramOverlapPercent": 0,
-      "newUniqueEightGrams": 1421,
+      "newUniqueEightGrams": 1470,
       "shared": 0
     },
     {
       "url": "/selling-a-loved-ones-guitar/",
       "neighbor": "/post/one-owner-1957-gibson-byrdland/",
-      "eightGramOverlapPercent": 0.42,
-      "newUniqueEightGrams": 1421,
-      "shared": 6
+      "eightGramOverlapPercent": 0.34,
+      "newUniqueEightGrams": 1470,
+      "shared": 5
     }
   ]
 }

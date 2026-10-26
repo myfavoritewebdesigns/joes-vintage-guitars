@@ -349,6 +349,8 @@ Living record of intentional design choices on this project. **Check this before
 
 | 2026-10-26 | GAP 3 and GAP 5 responsive review | Show the answer paragraph before the mobile TOC; keep the TOC fixed from 1200px upward, use keyboard-focusable horizontal table regions, and hide floating quick-contact buttons below 601px on these seven pages so they do not obscure the text. Header and footer contact links remain available. | Browser review at 1920, 1280, 768 and 390px: no horizontal page overflow, broken content photos, JavaScript errors or main-content WCAG A/AA findings. |
 
+| 2026-10-26 | Loved-one guitar guide: original-owner photographs and links | Move the story section immediately after the introduction and feature four linked photographs with published captions, prominent story titles, the Byrdland story link and an archive button. Preserve the 1955 Martin photo's existing unlicensed status in schema. | Joe explicitly requested more original-owner photos and prominent links to his original-owner blog stories. |
+
 ### Template-level lessons learned (cross-project)
 
 These are not project deviations — they're recurring failures that shaped the wp-to-astro template's tooling. **Read before debating whether an audit check is "too strict."**

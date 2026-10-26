@@ -26,7 +26,7 @@
   "existingNumericFieldsPreserved": true,
   "existingFilesChecked": 49,
   "internalHttp": {
-    "urls": 39,
+    "urls": 40,
     "non200": [],
     "errors": []
   },
@@ -57,12 +57,14 @@
     "note": "All seven pages reviewed at four widths; WCAG A/AA automated checks cover main content at 390px. Screenshots reviewed for the solid header, answer placement, tables and family-page tone."
   },
   "images": {
-    "licensedContentNodes": 7,
-    "mismatches": 0
+    "licensedContentNodes": 9,
+    "unlicensedContentNodes": 1,
+    "mismatches": 0,
+    "note": "The source 1955 Martin portrait is explicitly unlicensed; it is not given Joe creator fields or permissive reuse terms."
   },
   "overlap": {
     "comparisons": 20,
-    "maxEightGramPercent": 0.42,
+    "maxEightGramPercent": 0.34,
     "limit": 26
   },
   "faq": [
@@ -139,5 +141,16 @@
     "No existing percentages or dollar values changed; anchor conflicts require Joe's review.",
     "No realized-sale pairs or unsupported numerical bands invented; omissions are listed in the per-page FLAGS.",
     "The informal opinion is distinguished from a paid formal appraisal; family pages refer ownership and tax questions to the estate's professionals."
-  ]
+  ],
+  "originalOwnerFollowup": {
+    "date": "2026-10-26",
+    "page": "/selling-a-loved-ones-guitar/",
+    "photos": 4,
+    "linkedStoryCards": 4,
+    "additionalStoryLinks": 1,
+    "archiveLinks": 1,
+    "position": "First article section after the introduction",
+    "captions": "Published captions preserved",
+    "verification": "Fresh pnpm run verify: build succeeds, Astro 0 errors / 0 warnings, copy 0 hard-fails. Four viewport checks and all six story/archive links pass; see original-owner-stories-review.json."
+  }
 }
