@@ -19,6 +19,10 @@
   "OUTLINE": [
     {
       "level": "h2",
+      "text": "Refinished Guitars From My Shop"
+    },
+    {
+      "level": "h2",
       "text": "Under The Pickguard And In The Cavities"
     },
     {
@@ -84,7 +88,8 @@
   ],
   "BODY": {
     "source": "src/data/gap3/how-to-tell-if-a-guitar-has-been-refinished.html",
-    "wordCount": 2005
+    "wordCount": 2050,
+    "photoCount": 15
   },
   "FAQ_SCHEMA": {
     "@context": "https://schema.org",
@@ -254,6 +259,56 @@
       "year": 2026,
       "url": "https://www.joesvintageguitarsaz.com/found-an-old-guitar/",
       "liveStatus": 200
+    },
+    {
+      "id": "reverb-sg",
+      "publication": "Joe's Vintage Guitars Reverb listing",
+      "observed": "2026-10-26",
+      "url": "https://reverb.com/item/78676450-gibson-sg-special-1969-black-refinished-and-modified",
+      "claims": [
+        "1969 SG Special refinished black; pickups, pickguard and tuners replaced."
+      ],
+      "status": "sold"
+    },
+    {
+      "id": "reverb-danelectro",
+      "publication": "Joe's Vintage Guitars Reverb listing",
+      "observed": "2026-10-26",
+      "url": "https://reverb.com/item/89127505-danelectro-u-1-1956-1958-bronze-refinished",
+      "claims": [
+        "1950s Danelectro U-1, non-professional bronze refinish and scattered dings."
+      ],
+      "status": "sold"
+    },
+    {
+      "id": "reverb-guild",
+      "publication": "Joe's Vintage Guitars Reverb listing",
+      "observed": "2026-10-26",
+      "url": "https://reverb.com/item/85961800-guild-starfire-iii-1962-natural",
+      "claims": [
+        "1962 Starfire III refinished to natural at home, with finish imperfections."
+      ],
+      "status": "sold"
+    },
+    {
+      "id": "reverb-gibson",
+      "publication": "Joe's Vintage Guitars Reverb listing",
+      "observed": "2026-10-26",
+      "url": "https://reverb.com/item/60312553-gibson-l1-flat-top-1928-sunburst",
+      "claims": [
+        "1928 L1 restored: refinish, replacement fingerboard and bridge, repaired cracks."
+      ],
+      "status": "listing ended"
+    },
+    {
+      "id": "reverb-martin",
+      "publication": "Joe's Vintage Guitars Reverb listing",
+      "observed": "2026-10-26",
+      "url": "https://reverb.com/item/93231873-martin-0-21-1923-player-grade",
+      "claims": [
+        "1923 0-21 refinished, replacement bridge, pointed pickguard and extensive repair history."
+      ],
+      "status": "active when inspected"
     }
   ],
   "CLAIM_SOURCES": {
@@ -262,11 +317,13 @@
       "found"
     ],
     "headstock": [
-      "finish"
+      "finish",
+      "reverb-sg"
     ],
     "edges": [
       "finish",
-      "repair"
+      "repair",
+      "reverb-guild"
     ],
     "wear": [
       "finish"
@@ -282,7 +339,9 @@
     ],
     "acoustic": [
       "repair",
-      "serial"
+      "serial",
+      "reverb-gibson",
+      "reverb-martin"
     ],
     "factory": [
       "finish"
@@ -294,6 +353,10 @@
     "faq": [
       "finish",
       "found"
+    ],
+    "examples": [
+      "reverb-sg",
+      "reverb-danelectro"
     ]
   },
   "PRICE_TABLE": [],
@@ -301,6 +364,111 @@
   "IMAGE_LIST": [
     {
       "slot": 1,
+      "key": "refinSg",
+      "file": "src/assets/guides/refinish-detection/1969-gibson-sg-special-black-refinish.jpg",
+      "fileStem": "1969-gibson-sg-special-black-refinish",
+      "currentPage": "https://reverb.com/item/78676450-gibson-sg-special-1969-black-refinished-and-modified",
+      "downloadURL": "https://rvb-img.reverb.com/i/s--MIzhZdjB--/quality=medium-low,height=800,width=800,fit=contain/wuvcgnbnnv2ae7mlpagp.jpg",
+      "owner": "Joe's Vintage Guitars / joesvintageguitars, Mesa, Arizona",
+      "permission": "User explicitly requested more photos from his Reverb listings.",
+      "proposedAlt": "Black 1969 Gibson SG Special with replacement humbuckers and pickguard, photographed in front of a Fender amplifier.",
+      "proposedCaption": "Documented Refinish. This 1969 SG Special came through my shop with a black refinish, replacement pickups, pickguard and tuners. Its listing history establishes those changes; a front view alone would not settle them.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 2,
+      "key": "refinDanelectro",
+      "file": "src/assets/guides/refinish-detection/1950s-danelectro-u1-bronze-refinish.jpg",
+      "fileStem": "1950s-danelectro-u1-bronze-refinish",
+      "currentPage": "https://reverb.com/item/89127505-danelectro-u-1-1956-1958-bronze-refinished",
+      "downloadURL": "https://rvb-img.reverb.com/i/s--zwfa-RcN--/quality=medium-low,height=800,width=800,fit=contain/obiuktph93kcmioclyys.jpg",
+      "owner": "Joe's Vintage Guitars / joesvintageguitars, Mesa, Arizona",
+      "permission": "User explicitly requested more photos from his Reverb listings.",
+      "proposedAlt": "Bronze refinished 1950s Danelectro U-1 with a single lipstick pickup, standing in front of amplifiers.",
+      "proposedCaption": "Documented Refinish. This bronze 1950s Danelectro U-1 was listed with a non-professional refinish and scattered dings. Wear can be present on a later finish too.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 3,
+      "key": "refinHidden",
+      "file": "src/assets/blog/fender-custom-color-authentication-guide/1966-fender-jazzmaster-lake-placid-blue-shadow-under-pickguard.jpg",
+      "fileStem": "1966-fender-jazzmaster-lake-placid-blue-shadow-under-pickguard",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
+      "proposedAlt": "Lake Placid Blue 1966 Fender Jazzmaster with its pickguard lifted, exposing thin blue coverage and yellow sealed wood around the pickup routes.",
+      "proposedCaption": "Original Finish Comparison. An existing inspection photo of an original-finish 1966 Jazzmaster. The blue becomes thin beneath the guard, exposing yellow sealed wood. Uneven hidden coverage is not, by itself, evidence of stripping.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 4,
+      "key": "refinHeadstock",
+      "file": "src/assets/blog/fender-custom-color-authentication-guide/1966-fender-jaguar-lake-placid-blue-matching-headstock.jpg",
+      "fileStem": "1966-fender-jaguar-lake-placid-blue-matching-headstock",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
+      "proposedAlt": "Lake Placid Blue matching headstock of a 1966 Fender Jaguar with its gold Fender Jaguar decal.",
+      "proposedCaption": "Original Finish Comparison. The original matching headstock on a 1966 Jaguar, documented in my Fender finish guide. The decal sits over the clear coat. Use the correct Fender production sequence when examining a suspected respray.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 5,
+      "key": "refinSgHead",
+      "file": "src/assets/guides/refinish-detection/1969-gibson-sg-special-headstock.jpg",
+      "fileStem": "1969-gibson-sg-special-headstock",
+      "currentPage": "https://reverb.com/item/78676450-gibson-sg-special-1969-black-refinished-and-modified",
+      "downloadURL": "https://rvb-img.reverb.com/i/s--jrI9yM5V--/quality=medium-low,height=400,width=400,fit=cover,gravity=bottom/cl4ejl7czxnexdf0u10y.jpg",
+      "owner": "Joe's Vintage Guitars / joesvintageguitars, Mesa, Arizona",
+      "permission": "User explicitly requested more photos from his Reverb listings.",
+      "proposedAlt": "Close view of the black headstock face and Gibson logo on the refinished 1969 SG Special.",
+      "proposedCaption": "Keep The Claims Separate. The headstock of the same black SG shown above. My listing identifies a refinish and changed tuners, but does not establish a headstock break. A dark, glossy face alone is no basis for adding that diagnosis.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 6,
+      "key": "refinGuild",
+      "file": "src/assets/guides/refinish-detection/1962-guild-starfire-natural-refinish.jpg",
+      "fileStem": "1962-guild-starfire-natural-refinish",
+      "currentPage": "https://reverb.com/item/85961800-guild-starfire-iii-1962-natural",
+      "downloadURL": "https://rvb-img.reverb.com/i/s--jEFNB-Ni--/quality=medium-low,height=800,width=800,fit=contain/ojhpvdprvkzzj35falxc.jpg",
+      "owner": "Joe's Vintage Guitars / joesvintageguitars, Mesa, Arizona",
+      "permission": "User explicitly requested more photos from his Reverb listings.",
+      "proposedAlt": "Natural-finish 1962 Guild Starfire III beside its open red-lined case, showing the body binding and f-holes.",
+      "proposedCaption": "Documented Natural Refinish. This 1962 Guild Starfire III was refinished to natural. My listing records a home refinish with some finish imperfections. Visible wood grain does not mean the finish is original.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 7,
+      "key": "refinGuildEdge",
+      "file": "src/assets/guides/refinish-detection/1962-guild-starfire-f-hole-and-binding.jpg",
+      "fileStem": "1962-guild-starfire-f-hole-and-binding",
+      "currentPage": "https://reverb.com/item/85961800-guild-starfire-iii-1962-natural",
+      "downloadURL": "https://rvb-img.reverb.com/i/s--4yCiX6Ct--/quality=medium-low,height=400,width=400,fit=cover,gravity=bottom/phxxjefi18zfbpgk9p5f.jpg",
+      "owner": "Joe's Vintage Guitars / joesvintageguitars, Mesa, Arizona",
+      "permission": "User explicitly requested more photos from his Reverb listings.",
+      "proposedAlt": "Detail of the refinished Guild Starfire showing the lower f-hole, bridge, vibrato tailpiece and light body binding.",
+      "proposedCaption": "A Closer View Of The Same Guild. The f-hole edge, binding and hardware give an inspector several boundaries to compare. This photo shows where to look; the listing history, rather than a single edge in this view, establishes the refinish.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 8,
+      "key": "refinBlackBass",
+      "file": "src/assets/blog/fender-custom-color-authentication-guide/1961-fender-jazz-bass-stack-knob-refinished-black.jpg",
+      "fileStem": "1961-fender-jazz-bass-stack-knob-refinished-black",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
+      "proposedAlt": "Black refinished 1961 Fender Jazz Bass with a tortoise pickguard and worn body edges, resting in a grey-lined case.",
+      "proposedCaption": "Documented Refinish. This 1961 Jazz Bass is identified as refinished in my Fender guide. The worn black surface and exposed wood need to be read with the finish layers and parts history, not taken as proof of an untouched guitar.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 9,
+      "key": "refinOriginalWear",
+      "file": "src/assets/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-olympic-white-back-wear-white-undercoat.jpg",
+      "fileStem": "1965-fender-stratocaster-olympic-white-back-wear-white-undercoat",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
+      "proposedAlt": "Back of an Olympic White 1965 Fender Stratocaster with ambered finish, worn wood and a whiter layer at the wear boundary.",
+      "proposedCaption": "Original Finish Comparison. Original Olympic White on a 1965 Stratocaster, with ambered clear and a whiter layer visible at the worn edges. Color changes within a worn area can belong to the factory finish sequence.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 10,
       "imageURL": "https://www.joesvintageguitarsaz.com/_astro/1960s-fender-stratocaster-refin-neck-plate-bulge-grey-primer.DVj4OQXT_NRaIV.webp",
       "currentPage": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
       "existingAlt": "Back of a refinished 1960s Fender Stratocaster in blue metallic showing the serial number neck plate with finish bulging and ridging around the plate’s outline, odd rough texture, and a chip revealing grey primer, in front of a Fender amplifier.",
@@ -309,6 +477,62 @@
       "proposedCaption": "This Stratocaster is identified as refinished in my custom-color guide. The existing inspection shows finish ridging around the neck plate and grey primer at a chip.",
       "sitemapVerified": true,
       "fileStem": "1960s-fender-stratocaster-refin-neck-plate-bulge-grey-primer"
+    },
+    {
+      "slot": 11,
+      "key": "refinScrew",
+      "file": "src/assets/blog/fender-custom-color-authentication-guide/1965-fender-stratocaster-candy-apple-red-screw-hole-chip-with-undercoat.jpg",
+      "fileStem": "1965-fender-stratocaster-candy-apple-red-screw-hole-chip-with-undercoat",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
+      "proposedAlt": "Close-up of a pickguard screw hole on a Candy Apple Red 1965 Stratocaster, with silver undercoat exposed at the chip.",
+      "proposedCaption": "Original Finish Comparison. An existing inspection photo of an original Candy Apple Red finish. The chip at this screw hole exposes the silver undercoat. A second color beneath the surface is not automatically an earlier repaint.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 12,
+      "key": "refinDowel",
+      "file": "src/assets/blog/fender-custom-color-authentication-guide/1960-fender-precision-bass-pin-router-dowel.jpg",
+      "fileStem": "1960-fender-precision-bass-pin-router-dowel",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
+      "proposedAlt": "Back of a natural-refinished 1960 Fender Precision Bass, showing a small circular router dowel in the ash below the neck plate.",
+      "proposedCaption": "Construction Detail On A Refinished Bass. The small circular plug on this natural-refinished 1960 Precision Bass is a factory pin-router dowel. It is a construction detail that can survive a refinish, not proof that the finish itself is original.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 13,
+      "key": "refinGibson",
+      "file": "src/assets/guides/refinish-detection/1928-gibson-l1-restored-sunburst.jpg",
+      "fileStem": "1928-gibson-l1-restored-sunburst",
+      "currentPage": "https://reverb.com/item/60312553-gibson-l1-flat-top-1928-sunburst",
+      "downloadURL": "https://rvb-img.reverb.com/i/s--jzJzkU5k--/quality=medium-low,height=800,width=800,fit=contain/u4hgxhmalcyd2rvafnm5.jpg",
+      "owner": "Joe's Vintage Guitars / joesvintageguitars, Mesa, Arizona",
+      "permission": "User explicitly requested more photos from his Reverb listings.",
+      "proposedAlt": "Sunburst front of a restored 1928 Gibson L1, with its bridge, soundhole and fingerboard visible.",
+      "proposedCaption": "Restoration History: Gibson. My listing for this 1928 Gibson L1 records a refinish, replacement fingerboard and bridge, and repaired cracks. The attractive sunburst is part of its restoration history.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 14,
+      "key": "refinMartin",
+      "file": "src/assets/guides/refinish-detection/1923-martin-0-21-refinished.jpg",
+      "fileStem": "1923-martin-0-21-refinished",
+      "currentPage": "https://reverb.com/item/93231873-martin-0-21-1923-player-grade",
+      "downloadURL": "https://rvb-img.reverb.com/i/s--TZY7YuhK--/quality=medium-low,height=800,width=800,fit=contain/3dbc7baa-b531-4b85-9715-238e41ade0a5.jpg",
+      "owner": "Joe's Vintage Guitars / joesvintageguitars, Mesa, Arizona",
+      "permission": "User explicitly requested more photos from his Reverb listings.",
+      "proposedAlt": "Front of a refinished 1923 Martin 0-21 with a pointed black pickguard and replacement bridge.",
+      "proposedCaption": "Restoration History: Martin. This 1923 Martin 0-21 has a documented refinish, replacement bridge and extensive repair history. Its pointed pickguard is visible here; the full work history comes from the inspection and listing, not the pickguard shape alone.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
+    },
+    {
+      "slot": 15,
+      "key": "refinFactory",
+      "file": "src/assets/blog/fender-custom-color-authentication-guide/1956-fender-stratocaster-blonde-factory-refin-serial-number-neck-heel.jpg",
+      "fileStem": "1956-fender-stratocaster-blonde-factory-refin-serial-number-neck-heel",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
+      "proposedAlt": "Removed neck heel of a factory-refinished 1956 Fender Stratocaster, showing a burned-in serial number beside its blonde body.",
+      "proposedCaption": "Documented Factory Refinish. This existing bench photo shows the repair-department serial number burned into the neck heel of a 1956 Stratocaster later refinished blonde by Fender. Keep old inspection photos like this; do not remove the neck yourself to search for a mark.",
+      "review": "Photo inspected; observation separated from documented finish history. No invented diagnostic claim."
     }
   ],
   "FLAGS": "none",
@@ -316,6 +540,9 @@
     "Sources and price evidence stay in reports, never in public page copy.",
     "No new outside dollar figures or fabricated sale pairs.",
     "No existing page percentages or dollar amounts changed. Existing overlong metadata was corrected with Joe's separate approval.",
-    "User overrides supersede photo-hero, one-PR-per-page and historical refinish latitude in the pack."
+    "User overrides supersede photo-hero, one-PR-per-page and historical refinish latitude in the pack.",
+    "Joe requested substantially more photos, explicitly including his Reverb archive. Expanded from one to fifteen photos: seven Reverb listing views and eight existing archive views, including four clearly labeled original-finish comparisons.",
+    "All seven new source files downloaded locally from the public image CDN; two detail images are native 400px and displayed no wider than 400px. Other listing images are 800px maximum dimension.",
+    "New photo pairs stack at 600px; contain preserves the whole image and existing watermark. No prices or percentage figures added. No change to FAQ answers."
   ]
 }

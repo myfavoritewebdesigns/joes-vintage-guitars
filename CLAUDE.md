@@ -353,6 +353,8 @@ Living record of intentional design choices on this project. **Check this before
 
 | 2026-10-26 | Loved-one guide: continuing the guitar's musical life | Gently emphasize that guitars are made to be played and that putting one in another player's hands can be a way to honor it. Update the introduction, selling discussion and matching FAQ, while preserving the family's choice and time to decide. | Joe explicitly requested this editorial emphasis. No new urgency, buyer promises or selling CTAs. |
 
+| 2026-10-26 | Refinish detection guide: photographic examples | Expand from one to fifteen photos: seven views from Joe's Reverb listings plus eight archive views, including clearly labeled original-finish comparisons. Use local assets, responsive pairs and captions that separate documented work from visible clues. | Joe explicitly requested substantially more photos and reuse of his Reverb listing archive. Preserve the solid header, zero value figures and existing FAQ; provenance is in reports/gap3/how-to-tell-if-a-guitar-has-been-refinished.json. |
+
 ### Template-level lessons learned (cross-project)
 
 These are not project deviations — they're recurring failures that shaped the wp-to-astro template's tooling. **Read before debating whether an audit check is "too strict."**

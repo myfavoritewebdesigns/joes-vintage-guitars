@@ -7,7 +7,10 @@ import es355Family from '../../assets/blog/one-family-1959-gibson-es-355/1959-gi
 import steveMartin from '../../assets/blog/one-owner-1955-martin-d28/steve-minnich-1955-martin-d28.jpeg';
 import stratOwner from '../../assets/blog/one-owner-1965-fender-stratocaster/owner-holding-stratocaster.jpg';
 
+import refinishPhotos from './refinishPhotos';
+
 export default {
+  ...refinishPhotos,
   es355Family: { image: es355Family, alt: "The original owner's son holding the family's 1959 Gibson ES-355", captionLabel: 'The Handoff', caption: "The original owner's son with the guitar his family kept and played since 1959." },
   steveMartin: { image: steveMartin, alt: 'Steve Minnich smiling while holding the worn 1955 Martin D-28 his father bought new', caption: 'Steve Minnich with the 1955 Martin D-28 his father, Bill, bought new.', licensed: false },
   stratOwner: { image: stratOwner, alt: 'The original owner holding his 1965 Olympic White Fender Stratocaster with its factory tortoise pickguard', caption: 'The original owner with his 1965 Fender Stratocaster' },
