@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import MartinModelLinks from "../components/MartinModelLinks.astro";
 import PageHero from "../components/primitives/PageHero.astro";
 import Button from "../components/primitives/Button.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
@@ -223,12 +224,14 @@ structuredData.push({
               <LicensedImage src={model.image} alt={model.alt} width={760} loading="lazy" decoding="async" sizes="(max-width: 720px) 100vw, 33vw" />
               <figcaption>{model.caption}</figcaption>
             </figure>
-            <div class="vg-model-card__body"><h3>{model.name}</h3><p>{model.copy} {model.guide && <a href={model.guide.href}>{model.guide.label}</a>}</p></div>
+            <div class="vg-model-card__body"><h3>{model.name}</h3><p>{model.copy} {model.guide && <a href={model.guide.href}>{model.guide.label}</a>}</p>{model.name === "Martin D-28" && <MartinModelLinks keys={["d-28"]} label="Follow the construction changes in the" />}{model.name === "Martin D-45" && <MartinModelLinks keys={["d-45"]} label="Follow the production changes in the" />}</div>
           </article>
         ))}
       </div>
     </div>
   </section>
+
+  <div class="vg-inner"><MartinModelLinks keys={["d-21", "d-35", "12-string", "d18e-d28e"]} label="Other Martin dreadnoughts have their own specifications and production histories:" /></div>
 
   <section class="vg-section" id="price-table">
     <div class="vg-inner">

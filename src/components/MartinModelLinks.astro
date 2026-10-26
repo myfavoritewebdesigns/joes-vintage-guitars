@@ -1,0 +1,15 @@
+---
+import { martinModelLinks } from '../data/martin-model-links';
+interface Props { keys: string[]; label?: string; }
+const { keys, label = 'Model histories for this comparison:' } = Astro.props;
+const links = keys.map(key => {
+  const link = martinModelLinks[key];
+  if (!link) throw new Error(`Unknown Martin model link: ${key}`);
+  return link;
+});
+---
+<p class="martin-model-links"><strong>{label}</strong>{' '}{links.map((link, index) => <>{index > 0 && ', '}<a href={link.href}>{link.label}</a></>)}.</p>
+<style>
+  .martin-model-links { margin: 20px 0; font-size: 16px; line-height: 1.8; }
+  .martin-model-links a { color: var(--color-brand-rust-dark, #92341b); text-decoration: underline; text-underline-offset: 3px; }
+</style>
