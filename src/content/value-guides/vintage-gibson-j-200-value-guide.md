@@ -96,6 +96,8 @@ The original case is another part of the comparison. A worn original case and a 
 
 ## The 1960s Bridge And Condition Questions
 
+For condition comparisons beyond this model, I explain [how repairs and replaced parts affect vintage guitar value](/what-lowers-vintage-guitar-value/).
+
 The early 1960s reference is $13,000 to $16,000 for the standard model in the stated condition. The 1965 range is $8,500 to $11,000, followed by $6,000 to $8,000 for 1966 to 1969. A broad table can't settle where a transitional or modified example belongs.
 
 Before I use either group, I need to know what bridge and saddle arrangement is present and whether it has been changed. The price question concerns the guitar being offered now. A conversion doesn't become original because it resembles a familiar earlier design.

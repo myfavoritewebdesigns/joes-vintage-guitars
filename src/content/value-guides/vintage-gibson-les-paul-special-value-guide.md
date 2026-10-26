@@ -129,6 +129,8 @@ Keep service receipts that describe replaced controls, pickup work or changes to
 
 ## Repairs And Playability Need Their Own Description
 
+For condition comparisons beyond this model, I explain [how repairs and replaced parts affect vintage guitar value](/what-lowers-vintage-guitar-value/).
+
 The price of a repaired Special depends on the actual work. A headstock repair, a neck-joint repair and a refinish aren't interchangeable conditions. I need to know which happened, how much of the original material remains and whether the instrument is stable and playable.
 
 A repaired guitar can still be a useful instrument. It simply needs comparisons that reflect its history. Giving every repair one automatic deduction can conceal the difference between a localized repair and a guitar with several substantial alterations.

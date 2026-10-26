@@ -94,6 +94,8 @@ The mini-humbucker configuration continues through those shipment years. The rec
 
 ## Finish And Pickup Changes
 
+For condition comparisons beyond this model, I explain [how a refinish affects vintage guitar value](/how-much-does-a-refinish-hurt-guitar-value/).
+
 Original cherry is the familiar 1960s finish in the early price group. White and cream instruments associated with the SG TV category need their model and factory finish established separately. The [SG family guide](/post/vintage-gibson-sg-family-guide/) provides context across those related instruments.
 
 A P-90 Special cut for full-size humbuckers has lost original wood as well as its original pickup arrangement. Reinstalling P-90 covers doesn't reverse the route. A factory mini-humbucker Special is a different situation because its smaller humbuckers belong to the original design.

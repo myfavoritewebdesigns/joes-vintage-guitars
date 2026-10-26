@@ -1,0 +1,366 @@
+{
+  "METADATA": {
+    "url": "/inherited-a-guitar/",
+    "title": "Inherited A Guitar? How To Identify, Value And Decide",
+    "description": "Inherited a guitar? I'll explain identification, estate appraisal questions and the choices families face, with time to decide whether to keep or sell.",
+    "h1": "Inherited A Guitar? What To Do Next",
+    "prefix": "inh",
+    "eyebrow": "A Guitar In The Family",
+    "primaryQuery": "inherited a guitar",
+    "secondaryQueries": [
+      "inherited guitar value",
+      "estate guitar appraisal",
+      "executor selling a guitar"
+    ],
+    "published": "2026-10-26T12:00:00-07:00",
+    "titleCharacters": 53,
+    "descriptionCharacters": 151
+  },
+  "OUTLINE": [
+    {
+      "level": "h2",
+      "text": "Whose Guitar Is It Right Now?"
+    },
+    {
+      "level": "h2",
+      "text": "Which Kind Of Valuation Do You Need?"
+    },
+    {
+      "level": "h2",
+      "text": "The Valuation Date Can Differ From Today"
+    },
+    {
+      "level": "h2",
+      "text": "Identify It Before Comparing Listings"
+    },
+    {
+      "level": "h2",
+      "text": "Several Heirs, One Guitar"
+    },
+    {
+      "level": "h2",
+      "text": "If It Was A Musician's Guitar"
+    },
+    {
+      "level": "h2",
+      "text": "Paperwork Worth Looking For"
+    },
+    {
+      "level": "h2",
+      "text": "Selling It, If The Family Decides To"
+    },
+    {
+      "level": "h2",
+      "text": "If You're Not Ready To Decide"
+    },
+    {
+      "level": "h2",
+      "text": "Questions About An Inherited Guitar"
+    },
+    {
+      "level": "h3",
+      "text": "Can I Sell A Guitar Before Probate Is Finished?"
+    },
+    {
+      "level": "h3",
+      "text": "What's The Difference Between An Appraisal And An Offer?"
+    },
+    {
+      "level": "h3",
+      "text": "Do I Need A Written Appraisal For The Estate?"
+    },
+    {
+      "level": "h3",
+      "text": "How Do I Find Out What My Father's Guitar Is Worth?"
+    },
+    {
+      "level": "h3",
+      "text": "What If We Don't Know What It Is?"
+    },
+    {
+      "level": "h3",
+      "text": "Should We Keep The Case And Papers With It?"
+    }
+  ],
+  "BODY": {
+    "source": "src/data/gap3/inherited-a-guitar.html",
+    "wordCount": 2197
+  },
+  "FAQ_SCHEMA": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can I Sell A Guitar Before Probate Is Finished?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "That depends on ownership, the estate's authority and the applicable rules. Ask the executor or estate's attorney who can authorize a sale and when. Possessing the guitar or being a beneficiary doesn't settle that question."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What's The Difference Between An Appraisal And An Offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An appraisal gives an opinion of value for a stated purpose and date. An offer is a proposed transaction from a particular buyer. Check what each assumes before treating them as equivalent."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I Need A Written Appraisal For The Estate?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ask the executor or professional requesting the valuation what documentation is needed. My free market opinion is informal; a signed report for official use is a separate paid service whose scope should be agreed first."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How Do I Find Out What My Father's Guitar Is Worth?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Begin with its identification, present condition and the purpose of the valuation. You can request an initial opinion without committing to sell, then establish whether the estate needs a different form of report."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What If We Don't Know What It Is?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can ask for identification before deciding anything about value or a sale. Share what the family knows and leave uncertain details open instead of guessing from a similar-looking listing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should We Keep The Case And Papers With It?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The case, receipts, repair records, tags and family photographs can help document the instrument. Keep their connection clear, and discuss any private information before sharing it publicly."
+        }
+      }
+    ]
+  },
+  "LINKS_USED": [
+    {
+      "url": "/found-an-old-guitar/",
+      "anchor": "looking after a guitar you have just found"
+    },
+    {
+      "url": "/selling-a-loved-ones-guitar/",
+      "anchor": "keeping or selling a loved one's guitar"
+    },
+    {
+      "url": "/what-guitar-do-i-have/",
+      "anchor": "finding out which guitar you have"
+    },
+    {
+      "url": "/what-brand-is-my-guitar/",
+      "anchor": "recognizing the brand"
+    },
+    {
+      "url": "/how-old-is-my-guitar/",
+      "anchor": "working out the guitar's age"
+    },
+    {
+      "url": "/what-lowers-vintage-guitar-value/",
+      "anchor": "originality, repairs and guitar value"
+    },
+    {
+      "url": "/category/museum-original-owners/",
+      "anchor": "original-owner and family guitar stories"
+    },
+    {
+      "url": "/sell-a-guitar-collection/",
+      "anchor": "guitar collection page"
+    },
+    {
+      "url": "/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/",
+      "anchor": "comparison of collection-selling options"
+    },
+    {
+      "url": "/post/best-online-platforms-sell-vintage-guitars/",
+      "anchor": "guide to online selling options"
+    },
+    {
+      "url": "/free-appraisal/",
+      "anchor": "free photo appraisal and written-appraisal information"
+    }
+  ],
+  "SOURCES": [
+    {
+      "route": "/free-appraisal/",
+      "claims": [
+        "Free initial market valuation without obligation to sell.",
+        "Signed official appraisal is a separate paid service requiring additional research and documentation.",
+        "Market value, insurance replacement and an offer are distinct; scope must match requested purpose."
+      ],
+      "id": "appraisal",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Free Vintage Guitar Appraisal | Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/free-appraisal/",
+      "liveStatus": 200
+    },
+    {
+      "publication": "Internal Revenue Service, Publication 551, Basis of Assets",
+      "year": 2025,
+      "edition": "December 2025",
+      "url": "https://www.irs.gov/publications/p551",
+      "claims": [
+        "Inherited-property federal tax basis is generally fair market value at date of death, with exceptions and possible alternate valuation."
+      ],
+      "limits": "General orientation only; page sends date/treatment questions to estate tax preparer.",
+      "id": "irs551",
+      "observed": "2026-10-26"
+    },
+    {
+      "publication": "Internal Revenue Service, Publication 561, Determining the Value of Donated Property",
+      "year": 2025,
+      "edition": "December 2025",
+      "url": "https://www.irs.gov/publications/p561",
+      "claims": [
+        "FMV definition: willing knowledgeable buyer and seller, neither compelled, open market."
+      ],
+      "limits": "Used only for the general definition, not for estate filing or donation instructions.",
+      "id": "irs561",
+      "observed": "2026-10-26"
+    },
+    {
+      "publication": "Arizona Legislature, Arizona Revised Statutes 14-3709",
+      "year": 2026,
+      "url": "https://www.azleg.gov/ars/14/03709.htm",
+      "claims": [
+        "Personal representative generally has possession/control duties over estate property, with exceptions."
+      ],
+      "limits": "Illustrative government authority only, not a universal probate rule; ownership and sale authority are deferred to executor or estate attorney.",
+      "id": "az",
+      "observed": "2026-10-26"
+    },
+    {
+      "route": "/found-an-old-guitar/",
+      "claims": [
+        "Leave cleaning, strings, finish and parts alone for assessment; keep case, loose parts and records.",
+        "Safe care and handling; no bridge pressing, gap probing, glue or uncertain disassembly.",
+        "Separate identification and care from estate authority and valuation purpose."
+      ],
+      "id": "found",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Found An Old Guitar? What To Do Before Changing Anything",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/found-an-old-guitar/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+      "claims": [
+        "Model, condition, original parts, case and documentation affect comparisons."
+      ],
+      "id": "factors",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Is Your Vintage Guitar Valuable? 7 Factors Behind Its Value",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/one-family-1946-martin-d-28/",
+      "claims": [
+        "Existing title, introduction, photo identification and exact published family-photo caption."
+      ],
+      "id": "family",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: One Family From New: A 1946 Martin D-28",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/one-family-1946-martin-d-28/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/what-a-serial-number-cant-tell-you/",
+      "claims": [
+        "A serial alone cannot prove originality; finish and parts require corroboration.",
+        "Original vs period-correct replacement distinctions.",
+        "No disassembly for an initial assessment; existing evidence and work history."
+      ],
+      "id": "serial",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Vintage Guitar Checks: What A Serial Number Can't Tell You",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/what-a-serial-number-cant-tell-you/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/vintage-gibson-les-paul-market-value-guide/",
+      "claims": [
+        "Headstock, pickup, routing, tuner and refret allowances.",
+        "Originality, parts, model-specific comparison and condition affect value.",
+        "Broad allowances are estimates, not fixed cumulative deductions."
+      ],
+      "id": "lp",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Gibson Les Paul Value Guide: Vintage Prices By Year",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+      "liveStatus": 200
+    }
+  ],
+  "CLAIM_SOURCES": {
+    "ownership": [
+      "az"
+    ],
+    "valuation": [
+      "irs561",
+      "appraisal"
+    ],
+    "date": [
+      "irs551"
+    ],
+    "identify": [
+      "found",
+      "serial"
+    ],
+    "heirs": [
+      "az"
+    ],
+    "musician": [
+      "factors",
+      "lp"
+    ],
+    "paperwork": [
+      "found",
+      "family"
+    ],
+    "selling": [
+      "appraisal"
+    ],
+    "ready": [
+      "appraisal"
+    ],
+    "faq": [
+      "az",
+      "appraisal",
+      "found"
+    ]
+  },
+  "PRICE_TABLE": [],
+  "PRICE_CLAIMS": [],
+  "IMAGE_LIST": [
+    {
+      "slot": 1,
+      "imageURL": "https://www.joesvintageguitarsaz.com/_astro/1946-martin-d-28-original-owners-grandson.SNU7Hdb6_ZAkY5N.webp",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/one-family-1946-martin-d-28/",
+      "existingAlt": "The original owner's grandson in Apache Junction, Arizona, holding the family's 1946 Martin D-28",
+      "existingCaption": "The original owner's grandson with the family's 1946 Martin D-28 in Apache Junction, Arizona.",
+      "proposedAlt": "The original owner's grandson in Apache Junction, Arizona, holding the family's 1946 Martin D-28",
+      "proposedCaption": "The original owner's grandson with the family's 1946 Martin D-28 in Apache Junction, Arizona.",
+      "sitemapVerified": true,
+      "fileStem": "1946-martin-d-28-original-owners-grandson"
+    }
+  ],
+  "FLAGS": "none",
+  "reviewNotes": [
+    "Sources and price evidence stay in reports, never in public page copy.",
+    "No new outside dollar figures or fabricated sale pairs.",
+    "No existing page percentages or dollar amounts changed. Existing overlong metadata was corrected with Joe's separate approval.",
+    "User overrides supersede photo-hero, one-PR-per-page and historical refinish latitude in the pack."
+  ]
+}

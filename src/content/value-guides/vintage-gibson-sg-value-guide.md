@@ -94,6 +94,8 @@ Later walnut Customs belong to a different market from early white small-guard e
 
 ## The Changes That Divide SG Values
 
+For condition comparisons beyond this model, I explain [how repairs and replaced parts affect vintage guitar value](/what-lowers-vintage-guitar-value/).
+
 The large batwing pickguard arrives during 1966, so that year includes both guard types. Early small-guard guitars shouldn't automatically receive the later large-guard range. By the early 1970s, the return of small guards doesn't signal a return to the original 1961 construction.
 
 The Deluxe and Pro briefly occupy the Standard and Special roles. The Custom continues through that redesign, while the original Junior run ends. These changes explain why the model name and actual pickup layout come before a general claim that a guitar is a 1971 or 1972 SG.

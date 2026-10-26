@@ -1,0 +1,79 @@
+---
+// Adapted from the found-an-old-guitar IdentificationArticle scaffold.
+// These references intentionally use a solid header and a fixed desktop TOC.
+import { getImage } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import * as cheerio from 'cheerio';
+import Layout from '../layouts/Layout.astro';
+import { SITE_URL } from '../config/site';
+import { permissiveLicenseFields } from '../lib/imageLicense';
+import guides from '../data/gap3/metadata.json';
+import photos from '../data/gap3/photos';
+
+interface Props { guide: keyof typeof guides; }
+const { guide } = Astro.props;
+const metadata = guides[guide];
+const articles = import.meta.glob('../data/gap3/*.html', { query: '?raw', import: 'default', eager: true });
+const html = articles[`../data/gap3/${guide}.html`] as string;
+if (!html) throw new Error(`Missing GAP 3 article: ${guide}`);
+const $ = cheerio.load(html, null, false);
+const lede = $('p.lede').first().html() || '';
+$('p.lede').remove();
+$('div.table-wrap').each((_, element) => {
+  const label = $(element).find('caption').text();
+  $(element).attr({ tabindex: '0', role: 'region', 'aria-label': label });
+  $(element).before('<p class="table-hint">Scroll The Table To See Every Column</p>');
+});
+const imageGraph: Record<string, unknown>[] = [];
+let share: { src: string; width: number; height: number; alt: string } | undefined;
+for (const element of $('figure[data-photo]').toArray()) {
+  const key = $(element).attr('data-photo') as keyof typeof photos;
+  const photo = photos[key];
+  if (!photo) throw new Error(`Missing GAP 3 photo: ${key}`);
+  const source: ImageMetadata = photo.image;
+  const built = await getImage({ src: source, width: Math.min(860, source.width), layout: 'constrained' });
+  const img = $('<img>').attr({ src: built.src, alt: photo.alt,
+    width: String(built.attributes.width), height: String(built.attributes.height),
+    loading: 'lazy', decoding: 'async', sizes: '(max-width: 900px) calc(100vw - 72px), 800px' });
+  if (built.srcSet.attribute) img.attr('srcset', built.srcSet.attribute);
+  const caption = $('<figcaption>').text(photo.caption);
+  if ('captionLabel' in photo) caption.prepend($('<strong>').text(photo.captionLabel), ' ');
+  $(element).removeAttr('data-photo').append(img, caption);
+  imageGraph.push({ '@type': 'ImageObject', contentUrl: `${SITE_URL}${built.src}`,
+    width: built.attributes.width, height: built.attributes.height, caption: photo.alt,
+    ...('licensed' in photo && !photo.licensed ? {} : permissiveLicenseFields) });
+  share ??= { src: built.src, width: Number(built.attributes.width), height: Number(built.attributes.height), alt: photo.alt };
+}
+const questions = $('#faq h3').toArray().map(element => ({
+  '@type': 'Question', name: $(element).text().trim(),
+  acceptedAnswer: { '@type': 'Answer', text: $(element).next('p').text().trim() },
+}));
+if (!questions.length || questions.some(q => !q.acceptedAnswer.text)) throw new Error(`Incomplete GAP 3 FAQ: ${guide}`);
+const faq = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: questions };
+const outline = $('section[id]').toArray().map(element => ({ id: $(element).attr('id')!, label: $(element).find('h2').first().text() }));
+const pageUrl = `${SITE_URL}${metadata.url}`;
+const article = { '@context': 'https://schema.org', '@type': 'Article', '@id': `${pageUrl}#article`,
+  headline: metadata.h1, description: metadata.description, datePublished: metadata.published, dateModified: metadata.published,
+  author: { '@id': `${SITE_URL}/about-me/#person` }, publisher: { '@id': `${SITE_URL}/` }, mainEntityOfPage: pageUrl,
+  ...(imageGraph.length ? { image: imageGraph } : {}),
+};
+const prefix = metadata.prefix;
+const branch = process.env.CF_PAGES_BRANCH;
+const preview = Boolean(branch && branch !== 'main');
+---
+<Layout bodyClass={`${prefix}-page`} title={metadata.title} description={metadata.description} canonical={metadata.url}
+  ogType="article" noIndex={preview} structuredData={[article, faq]} publishedTime={metadata.published} modifiedTime={metadata.published}
+  {...(share ? { ogImage: `${SITE_URL}${share.src}`, ogImageAlt: share.alt, ogImageWidth: share.width, ogImageHeight: share.height } : {})}>
+  <div class={`${prefix}-reference`}>
+    <header class={`${prefix}-intro`}>
+      <p class={`${prefix}-eyebrow`}>{metadata.eyebrow}</p>
+      <h1>{metadata.h1}</h1>
+      <p class={`${prefix}-lede`} set:html={lede} />
+      <p class={`${prefix}-byline`}>By Joe Dampt · October 26, 2026</p>
+    </header>
+    <nav class={`${prefix}-toc`} aria-label="In this guide"><h2>In This Guide</h2>
+      {outline.map(item => <a href={`#${item.id}`}>{item.label}</a>)}
+    </nav>
+    <article id="article" class={`${prefix}-article`} set:html={$.html()} />
+  </div>
+</Layout>

@@ -51,6 +51,8 @@ The ranges exclude separately charged shipping and taxes. They aren't guaranteed
 
 ## Why The Control Layout Changes The Comparison
 
+For condition comparisons beyond this model, I explain [how repairs and replaced parts affect vintage guitar value](/what-lowers-vintage-guitar-value/).
+
 The earliest Jazz Bass uses two stacked controls, with a volume and tone adjustment for each pickup. The later arrangement has three separate knobs: two volumes and a shared tone. That difference separates the first collector group from the much longer production run that followed it.
 
 I check the complete instrument before assigning a range. A replacement plate can give a later or modified instrument the appearance of an earlier one. For the stack-knob band, the bass needs to belong to that original configuration, with its finish, pickups and supporting evidence accounted for.

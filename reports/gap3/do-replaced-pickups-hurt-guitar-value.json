@@ -1,0 +1,490 @@
+{
+  "METADATA": {
+    "url": "/do-replaced-pickups-hurt-guitar-value/",
+    "title": "Do Replaced Pickups Hurt Your Vintage Guitar's Value?",
+    "description": "See how pickup swaps, routing and rewinds affect a vintage guitar. I'll explain missing originals, PAF decals and why removed parts should stay with it.",
+    "h1": "Do Replaced Pickups Hurt A Vintage Guitar's Value?",
+    "prefix": "ppv",
+    "eyebrow": "Originality And Condition",
+    "primaryQuery": "do replaced pickups devalue a guitar",
+    "secondaryQueries": [
+      "rewound pickups value",
+      "routed guitar value",
+      "original paf value"
+    ],
+    "published": "2026-10-26T12:00:00-07:00",
+    "titleCharacters": 53,
+    "descriptionCharacters": 152
+  },
+  "OUTLINE": [
+    {
+      "level": "h2",
+      "text": "Pickup Changes And Their Value Effect"
+    },
+    {
+      "level": "h2",
+      "text": "Sound And Originality Answer Different Questions"
+    },
+    {
+      "level": "h2",
+      "text": "Routing Changes The Body"
+    },
+    {
+      "level": "h2",
+      "text": "Why Gibson PAFs Need Their Own Assessment"
+    },
+    {
+      "level": "h2",
+      "text": "What A Rewind Changes"
+    },
+    {
+      "level": "h2",
+      "text": "PAF Decals And Factory Sanding"
+    },
+    {
+      "level": "h2",
+      "text": "Evidence Of A Pickup Change"
+    },
+    {
+      "level": "h2",
+      "text": "Keep The Original Pickups With The Guitar"
+    },
+    {
+      "level": "h2",
+      "text": "Questions About Replaced Pickups"
+    },
+    {
+      "level": "h3",
+      "text": "Do Replaced Pickups Lower Vintage Guitar Value?"
+    },
+    {
+      "level": "h3",
+      "text": "Does Routing Hurt More Than A Simple Swap?"
+    },
+    {
+      "level": "h3",
+      "text": "Are Rewound Pickups Bad?"
+    },
+    {
+      "level": "h3",
+      "text": "Do Scratches Under A PAF Decal Prove It Is Fake?"
+    },
+    {
+      "level": "h3",
+      "text": "Should I Reinstall The Originals Before Selling?"
+    }
+  ],
+  "BODY": {
+    "source": "src/data/gap3/do-replaced-pickups-hurt-guitar-value.html",
+    "wordCount": 2072
+  },
+  "FAQ_SCHEMA": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do Replaced Pickups Lower Vintage Guitar Value?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A swap without routing can mean about 25 percent less than a comparable original as a broad vintage Les Paul reference. The model, missing pickups and surviving original parts need their own assessment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Routing Hurt More Than A Simple Swap?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Routing for a different pickup can mean 35 to 40 percent less than a comparable original. The change removes wood, so putting the old pickup back doesn't restore the original body."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are Rewound Pickups Bad?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A rewind can make an original pickup usable again while retaining some original components. It should be disclosed because the factory winding has changed. The quality and extent of the repair need to be assessed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do Scratches Under A PAF Decal Prove It Is Fake?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Factory scuffing in the decal area and lengthwise brushing are normal. Fresh, bright abrasion through older patina beneath a new-looking decal is the warning that needs closer inspection."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I Reinstall The Originals Before Selling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Keep them with the guitar and get an assessment first. Reinstalling parts doesn't erase the work history, and the buyer should be told what was changed and what survives."
+        }
+      }
+    ]
+  },
+  "LINKS_USED": [
+    {
+      "url": "/what-lowers-vintage-guitar-value/",
+      "anchor": "what lowers vintage guitar value"
+    },
+    {
+      "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+      "anchor": "refinish value loss"
+    },
+    {
+      "url": "/vintage-gibson-les-paul-market-value-guide/",
+      "anchor": "Les Paul market value guide"
+    },
+    {
+      "url": "/post/gibson-paf-patent-number-pickup-guide/",
+      "anchor": "PAF and Patent Number pickup guide"
+    },
+    {
+      "url": "/vintage-gibson-es-335-value-guide/",
+      "anchor": "ES-335 value guide"
+    },
+    {
+      "url": "/gibson-pot-codes/",
+      "anchor": "Gibson pot-code guide"
+    },
+    {
+      "url": "/fender-pot-codes/",
+      "anchor": "Fender pot-code guide"
+    },
+    {
+      "url": "/fender-pickup-dates/",
+      "anchor": "Fender pickup dating reference"
+    },
+    {
+      "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+      "anchor": "recognizing refinish evidence"
+    },
+    {
+      "url": "/free-appraisal/",
+      "anchor": "free photo appraisal of the guitar"
+    }
+  ],
+  "SOURCES": [
+    {
+      "publication": "Joe Dampt's GAP 3 / GAP 5 task overrides",
+      "year": 2026,
+      "date": "2026-10-26",
+      "location": "User-supplied Pasted text.txt and gap3-gap5-prompt-pack.md",
+      "claims": [
+        "Full refinish: 40 to 60 percent less than a comparable original, without brand-specific numerical alternatives.",
+        "Pickup swap about 25 percent; routing 35 to 40 percent; tuners 10 to 15 percent; refret 5 to 10 percent; repaired headstock 40 to 50 percent; proper neck reset almost no penalty.",
+        "All dollar figures must be copied verbatim from a currently live JVG page."
+      ],
+      "basis": "Explicit house ruling; overrides earlier wording latitude and inconsistent existing refinish anchors.",
+      "id": "house",
+      "observed": "2026-10-26"
+    },
+    {
+      "route": "/vintage-gibson-les-paul-market-value-guide/",
+      "claims": [
+        "Headstock, pickup, routing, tuner and refret allowances.",
+        "Originality, parts, model-specific comparison and condition affect value.",
+        "Broad allowances are estimates, not fixed cumulative deductions."
+      ],
+      "id": "lp",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Gibson Les Paul Value Guide: Vintage Prices By Year",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/gibson-paf-patent-number-pickup-guide/",
+      "claims": [
+        "Pickup coils, components, PAF identity, covers, solder, rewind vs replacement and lead repair.",
+        "Factory baseplate scuffing/brushing is normal; fresh bright abrasion through patina under a new-looking decal is suspicious.",
+        "Keep original components and do not open sealed pickup covers just for photos."
+      ],
+      "houseRulesApplied": [
+        "2.9"
+      ],
+      "id": "paf",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Gibson PAF And Patent Number Pickups: Authentication",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/fender-pickup-dates/",
+      "claims": [
+        "Fender pickup dating requires model and era context."
+      ],
+      "id": "pickupDates",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: How To Read Fender Pickup Date Codes: A Dating Guide",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/fender-pickup-dates/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/gibson-pot-codes/",
+      "claims": [
+        "Pots date components, not the complete guitar; replacement controls and wiring need inspection."
+      ],
+      "id": "gibsonPots",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Gibson Pot Codes: How to Date a Gibson by Its Pots",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/gibson-pot-codes/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/fender-pot-codes/",
+      "claims": [
+        "Control dates, changed electronics and the need to cross-check components."
+      ],
+      "id": "fenderPots",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: How To Read Fender Pot Codes: Potentiometer Dating Guide",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/fender-pot-codes/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/fender-custom-color-authentication-guide/",
+      "claims": [
+        "Factory finish sequence and headstock decals applied over clear last; dealer decals are surface evidence.",
+        "Fullerplast is colorless; yellow is the aniline stain; Homoclad preceded Fullerplast.",
+        "Acrylic/nitro chemistry does not follow solid/metallic division; Olympic White acrylic, Sherwood Green metallic nitro; no checking/yellowing alone is not proof.",
+        "Nails and paint-stick methods overlap; correct context required.",
+        "Nitrate mint guards precede white vinyl; tortoise custom-color exception is Olympic White.",
+        "Fender factory refinish service, repair-department marks and era mismatch evidence.",
+        "UV/blacklight is supporting evidence; partial finish, original contours, hardware footprints and cavity coverage require context."
+      ],
+      "houseRulesApplied": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.5",
+        "2.7",
+        "2.8"
+      ],
+      "id": "finish",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Authenticate A Fender Custom Color Finish (1950s And 1960s)",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/found-an-old-guitar/",
+      "claims": [
+        "Leave cleaning, strings, finish and parts alone for assessment; keep case, loose parts and records.",
+        "Safe care and handling; no bridge pressing, gap probing, glue or uncertain disassembly.",
+        "Separate identification and care from estate authority and valuation purpose."
+      ],
+      "id": "found",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Found An Old Guitar? What To Do Before Changing Anything",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/found-an-old-guitar/",
+      "liveStatus": 200
+    }
+  ],
+  "CLAIM_SOURCES": {
+    "comparison": [
+      "house",
+      "lp"
+    ],
+    "parts": [
+      "paf"
+    ],
+    "routing": [
+      "lp",
+      "paf"
+    ],
+    "pafs": [
+      "paf"
+    ],
+    "rewinds": [
+      "paf"
+    ],
+    "decals": [
+      "house",
+      "paf"
+    ],
+    "evidence": [
+      "pickupDates",
+      "gibsonPots",
+      "fenderPots",
+      "finish"
+    ],
+    "originals": [
+      "found",
+      "paf"
+    ],
+    "faq": [
+      "house",
+      "lp",
+      "paf"
+    ]
+  },
+  "PRICE_TABLE": [
+    {
+      "change": "Replaced Pickups Without Routing",
+      "range": "About 25 percent less than a comparable original",
+      "assumptions": "A vintage Les Paul reference; verify which originals are missing and any surviving loose parts",
+      "anchorOnSite": {
+        "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+        "figure": "About 25 percent less than a comparable original"
+      },
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "pairsOrDataPoints": [],
+      "basis": "Explicit house ruling or named site anchor. No invented matched-sale evidence.",
+      "dateObserved": "2026-10-26",
+      "visibleCells": [
+        "Replaced Pickups Without Routing",
+        "About 25 percent less than a comparable original",
+        "A vintage Les Paul reference; verify which originals are missing and any surviving loose parts"
+      ]
+    },
+    {
+      "change": "Routed For A Different Pickup",
+      "range": "35 to 40 percent less than a comparable original",
+      "assumptions": "A change such as enlarging a P-90 opening for a humbucker; original wood was removed",
+      "anchorOnSite": {
+        "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+        "figure": "35 to 40 percent less than a comparable original"
+      },
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "pairsOrDataPoints": [],
+      "basis": "Explicit house ruling or named site anchor. No invented matched-sale evidence.",
+      "dateObserved": "2026-10-26",
+      "visibleCells": [
+        "Routed For A Different Pickup",
+        "35 to 40 percent less than a comparable original",
+        "A change such as enlarging a P-90 opening for a humbucker; original wood was removed"
+      ]
+    }
+  ],
+  "PRICE_CLAIMS": [
+    {
+      "text": "A pickup swap without routing can mean about 25 percent less than a comparable original. A guitar routed for a different pickup can mean 35 to 40 percent less than a comparable original, because the change removes wood as well as replacing a component.",
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "About 25 percent less than a comparable original",
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "35 to 40 percent less than a comparable original",
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "That is the distinction behind 35 to 40 percent less than a comparable original for the routed comparison. A neat job and a rough job aren't identical, but both need to be disclosed. A pickguard or pickup ring may hide the opening during ordinary use.",
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "I don't assign every rewind a percentage here. The pickup type, the extent of the work, surviving evidence and the guitar it belongs to all need to be considered. Where that history is unknown, I would rather describe it as unknown than certify a factory winding from appearance alone.",
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "A full refinish generally means 40 to 60 percent less than a comparable original. If the guitar also has changed pickups, assess the whole instrument against similarly altered examples rather than adding the allowances together.",
+      "sources": [
+        "house"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "A swap without routing can mean about 25 percent less than a comparable original as a broad vintage Les Paul reference. The model, missing pickups and surviving original parts need their own assessment.",
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "Routing for a different pickup can mean 35 to 40 percent less than a comparable original. The change removes wood, so putting the old pickup back doesn't restore the original body.",
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    }
+  ],
+  "IMAGE_LIST": [
+    {
+      "slot": 1,
+      "imageURL": "https://www.joesvintageguitarsaz.com/_astro/gibson-paf-sticker-1962-es-335.Bl8NVvus_2v2Knz.webp",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/gibson-paf-patent-number-pickup-guide/",
+      "existingAlt": "Original Gibson PAF pickup in a 1962 ES-335, flipped over to show the worn Patent Applied For decal on the nickel silver baseplate.",
+      "existingCaption": "",
+      "proposedAlt": "Original Gibson PAF pickup in a 1962 ES-335, with its worn Patent Applied For decal visible on the baseplate.",
+      "proposedCaption": "An original Gibson PAF pickup from the pickup reference guide. This existing inspection photograph shows the baseplate and decal; leave inspection that requires disassembly to a specialist.",
+      "sitemapVerified": true,
+      "fileStem": "gibson-paf-sticker-1962-es-335"
+    }
+  ],
+  "FLAGS": [
+    {
+      "type": "PRICE-GAP",
+      "change": "Separate allowance for originals retained",
+      "reason": "No separate house-approved or sufficiently matched realized band established for this subcategory. Omitted a numerical row; qualitative discussion retained."
+    },
+    {
+      "type": "PRICE-GAP",
+      "change": "Rewound pickup band",
+      "reason": "No separate house-approved or sufficiently matched realized band established for this subcategory. Omitted a numerical row; qualitative discussion retained."
+    },
+    {
+      "type": "PRICE-GAP",
+      "change": "Opened/re-stickered pickup band",
+      "reason": "No separate house-approved or sufficiently matched realized band established for this subcategory. Omitted a numerical row; qualitative discussion retained."
+    },
+    {
+      "type": "PRICE-GAP",
+      "change": "Distinct pre-CBS Fender band",
+      "reason": "No separate house-approved or sufficiently matched realized band established for this subcategory. Omitted a numerical row; qualitative discussion retained."
+    },
+    {
+      "type": "PRICE-GAP",
+      "change": "Missing PAF band and standalone pair dollar amount",
+      "reason": "No separate house-approved or sufficiently matched realized band established for this subcategory. Omitted a numerical row; qualitative discussion retained."
+    },
+    {
+      "type": "PRICE-GAP",
+      "change": "Missing PAFs",
+      "reason": "The live ES-345 page has a model-specific 1959 to 1962 allowance of 30 to 50 percent or more and pair value $7,500 to $14,000. A bounded, general 1957 to 1962 band is not established by that row. Keep qualitative PAF discussion and the explicit generic house pickup modifier; no pair dollar example was needed."
+    }
+  ],
+  "reviewNotes": [
+    "Sources and price evidence stay in reports, never in public page copy.",
+    "No new outside dollar figures or fabricated sale pairs.",
+    "No existing page percentages or dollar amounts changed. Existing overlong metadata was corrected with Joe's separate approval.",
+    "User overrides supersede photo-hero, one-PR-per-page and historical refinish latitude in the pack."
+  ]
+}

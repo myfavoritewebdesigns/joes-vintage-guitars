@@ -27,6 +27,8 @@ This guide walks through every legitimate avenue: what each platform requires, w
 
 <h2 id="inherited">If You've Inherited a Guitar Collection: Read This First</h2>
 
+For the ownership and appraisal questions behind an estate collection, start with [the inherited-guitar guide](/inherited-a-guitar/).
+
 If you've just opened the cases, my [first steps after finding an old guitar](/found-an-old-guitar/) cover handling, photographs and changes to avoid before identification. Use the [full guitar identification checklist](/what-guitar-do-i-have/) to record each instrument without guessing its model or year.
 
 Inherited collections are the situation we deal with most often, and the one where people feel the most overwhelmed. A parent or grandparent passes, and suddenly you're the executor of an estate that includes dozens (sometimes hundreds) of guitars, amps, cases, and accessories. They're spread across a spare room, a garage, a storage unit, maybe a second property. We've personally evaluated inherited collections of over 700 instruments. You may not play guitar. You may not know the difference between a Stratocaster and a Les Paul. You may have no clue whether what you're looking at is worth $500 or $50,000. At larger scale, that uncertainty multiplies fast.

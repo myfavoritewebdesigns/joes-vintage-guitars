@@ -74,6 +74,8 @@ The 1965 band uses cherry small-guard guitars with their original cases. Nut wid
 
 ## Large Guards And Later Finishes
 
+For condition comparisons beyond this model, I explain [how a refinish affects vintage guitar value](/how-much-does-a-refinish-hurt-guitar-value/).
+
 <figure>
 
 ![Cherry SG Standard with a large black pickguard, two covered humbuckers and a long lyre Vibrola](../../assets/sg-family/late-1960s-sg-standard-large-pickguard.jpg)

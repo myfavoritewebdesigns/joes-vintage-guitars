@@ -1,0 +1,647 @@
+{
+  "METADATA": {
+    "url": "/should-i-restore-my-guitar-before-selling/",
+    "title": "Should I Restore My Vintage Guitar Before Selling It?",
+    "description": "Get your vintage guitar assessed before paying for repairs or restoration. I'll explain repair costs, originality and when work may be necessary.",
+    "h1": "Should I Restore My Vintage Guitar Before Selling It?",
+    "prefix": "rbs",
+    "eyebrow": "Originality And Condition",
+    "primaryQuery": "should i restore my guitar before selling",
+    "secondaryQueries": [
+      "should i fix my guitar before selling it",
+      "should i clean my vintage guitar before selling",
+      "is it worth repairing an old guitar to sell"
+    ],
+    "published": "2026-10-26T12:00:00-07:00",
+    "titleCharacters": 53,
+    "descriptionCharacters": 145
+  },
+  "OUTLINE": [
+    {
+      "level": "h2",
+      "text": "The Repair Bill And The Sale Are Separate"
+    },
+    {
+      "level": "h2",
+      "text": "A Cleaner Appearance Can Leave Less Original Guitar"
+    },
+    {
+      "level": "h2",
+      "text": "Maintenance Still Needs A Purpose"
+    },
+    {
+      "level": "h2",
+      "text": "What To Leave Alone For Now"
+    },
+    {
+      "level": "h2",
+      "text": "When Waiting Could Allow More Damage"
+    },
+    {
+      "level": "h2",
+      "text": "If You Are Keeping It To Play"
+    },
+    {
+      "level": "h2",
+      "text": "Photographs And An Assessment Come First"
+    },
+    {
+      "level": "h2",
+      "text": "Questions About Work Before A Sale"
+    },
+    {
+      "level": "h3",
+      "text": "Should I Clean Or Restring The Guitar Before An Appraisal?"
+    },
+    {
+      "level": "h3",
+      "text": "Will A New Finish Help It Sell For More?"
+    },
+    {
+      "level": "h3",
+      "text": "Should I Pay For A Neck Reset Before Selling?"
+    },
+    {
+      "level": "h3",
+      "text": "What If The Bridge Is Lifting?"
+    },
+    {
+      "level": "h3",
+      "text": "What If I Already Had The Guitar Restored?"
+    }
+  ],
+  "BODY": {
+    "source": "src/data/gap3/should-i-restore-my-guitar-before-selling.html",
+    "wordCount": 1626
+  },
+  "FAQ_SCHEMA": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Should I Clean Or Restring The Guitar Before An Appraisal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Leave the surface, strings and parts as they are for the initial assessment. Clear photographs and an accurate description are more useful than cosmetic preparation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will A New Finish Help It Sell For More?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A full refinish generally means 40 to 60 percent less than a comparable original. Don't repaint a vintage guitar to prepare it for sale before its current finish and condition have been assessed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I Pay For A Neck Reset Before Selling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Get an assessment first. A proper reset carries almost no penalty, but you still need to compare the actual repair quote with the realistic sale options for the guitar as it stands."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What If The Bridge Is Lifting?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ask for handling advice promptly. If you can safely loosen the strings without stressing the damaged area, relieve the tension. Don't press the bridge down, test the gap or apply glue; stop if handling or the tuners appear unsafe."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What If I Already Had The Guitar Restored?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Keep the invoices and removed parts, and describe the work plainly. An assessment can establish the instrument's current condition and the right comparison without pretending the changes never happened."
+        }
+      }
+    ]
+  },
+  "LINKS_USED": [
+    {
+      "url": "/what-lowers-vintage-guitar-value/",
+      "anchor": "repairs and changes that affect value"
+    },
+    {
+      "url": "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+      "anchor": "dedicated neck-reset guide"
+    },
+    {
+      "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+      "anchor": "refinish value comparison"
+    },
+    {
+      "url": "/found-an-old-guitar/",
+      "anchor": "the first steps for an old guitar"
+    },
+    {
+      "url": "/repair/",
+      "anchor": "repair background and bench approach"
+    },
+    {
+      "url": "/post/mistakes-to-avoid-when-selling-a-vintage-guitar/",
+      "anchor": "mistakes to avoid when selling"
+    },
+    {
+      "url": "/free-appraisal/",
+      "anchor": "free appraisal before repairs"
+    }
+  ],
+  "SOURCES": [
+    {
+      "publication": "Joe Dampt's GAP 3 / GAP 5 task overrides",
+      "year": 2026,
+      "date": "2026-10-26",
+      "location": "User-supplied Pasted text.txt and gap3-gap5-prompt-pack.md",
+      "claims": [
+        "Full refinish: 40 to 60 percent less than a comparable original, without brand-specific numerical alternatives.",
+        "Pickup swap about 25 percent; routing 35 to 40 percent; tuners 10 to 15 percent; refret 5 to 10 percent; repaired headstock 40 to 50 percent; proper neck reset almost no penalty.",
+        "All dollar figures must be copied verbatim from a currently live JVG page."
+      ],
+      "basis": "Explicit house ruling; overrides earlier wording latitude and inconsistent existing refinish anchors.",
+      "id": "house",
+      "observed": "2026-10-26"
+    },
+    {
+      "route": "/vintage-gibson-les-paul-market-value-guide/",
+      "claims": [
+        "Headstock, pickup, routing, tuner and refret allowances.",
+        "Originality, parts, model-specific comparison and condition affect value.",
+        "Broad allowances are estimates, not fixed cumulative deductions."
+      ],
+      "id": "lp",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Gibson Les Paul Value Guide: Vintage Prices By Year",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+      "claims": [
+        "Proper reset almost no penalty; expected acoustic maintenance.",
+        "Needed reset affects comparison roughly by repair cost; shaved bridge and sanded bridge plate are different problems.",
+        "Glued neck reset cost exactly $400 to $1,000, dated as of 2025, not a refreshed 2026 quote."
+      ],
+      "id": "neck",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: How To Tell If Your Acoustic Guitar Needs A Neck Reset",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/vintage-gibson-hummingbird-history-value-guide/",
+      "claims": [
+        "Existing original strings-box and case-key identification; published reset cost $700 to $1,200 differs from dedicated reset guide."
+      ],
+      "id": "hummingbird",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Gibson Hummingbird Value Guide | Joe's Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/vintage-gibson-hummingbird-history-value-guide/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/found-an-old-guitar/",
+      "claims": [
+        "Leave cleaning, strings, finish and parts alone for assessment; keep case, loose parts and records.",
+        "Safe care and handling; no bridge pressing, gap probing, glue or uncertain disassembly.",
+        "Separate identification and care from estate authority and valuation purpose."
+      ],
+      "id": "found",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Found An Old Guitar? What To Do Before Changing Anything",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/found-an-old-guitar/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/mistakes-to-avoid-when-selling-a-vintage-guitar/",
+      "claims": [
+        "Assessment before improvements; changing originality can affect collector demand.",
+        "Sale terms and costs affect proceeds; photographs and clear disclosure before work."
+      ],
+      "id": "mistakes",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: 9 Mistakes to Avoid When Selling a Vintage Guitar",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/mistakes-to-avoid-when-selling-a-vintage-guitar/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/repair/",
+      "claims": [
+        "Bench inspection can expose finish and structural work not established by surface photographs."
+      ],
+      "id": "repair",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Musical Instrument Repair | Joe’s Vintage Guitars",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/repair/",
+      "liveStatus": 200
+    },
+    {
+      "route": "/post/fender-custom-color-authentication-guide/",
+      "claims": [
+        "Factory finish sequence and headstock decals applied over clear last; dealer decals are surface evidence.",
+        "Fullerplast is colorless; yellow is the aniline stain; Homoclad preceded Fullerplast.",
+        "Acrylic/nitro chemistry does not follow solid/metallic division; Olympic White acrylic, Sherwood Green metallic nitro; no checking/yellowing alone is not proof.",
+        "Nails and paint-stick methods overlap; correct context required.",
+        "Nitrate mint guards precede white vinyl; tortoise custom-color exception is Olympic White.",
+        "Fender factory refinish service, repair-department marks and era mismatch evidence.",
+        "UV/blacklight is supporting evidence; partial finish, original contours, hardware footprints and cavity coverage require context."
+      ],
+      "houseRulesApplied": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.5",
+        "2.7",
+        "2.8"
+      ],
+      "id": "finish",
+      "observed": "2026-10-26",
+      "publication": "Joe's Vintage Guitars: Authenticate A Fender Custom Color Finish (1950s And 1960s)",
+      "year": 2026,
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-custom-color-authentication-guide/",
+      "liveStatus": 200
+    }
+  ],
+  "CLAIM_SOURCES": {
+    "math": [
+      "house",
+      "lp",
+      "neck",
+      "mistakes"
+    ],
+    "original": [
+      "house",
+      "found",
+      "finish"
+    ],
+    "maintenance": [
+      "lp",
+      "neck"
+    ],
+    "safe": [
+      "found"
+    ],
+    "damage": [
+      "found",
+      "repair"
+    ],
+    "keeping": [
+      "found",
+      "neck"
+    ],
+    "instead": [
+      "mistakes"
+    ],
+    "faq": [
+      "house",
+      "lp",
+      "neck",
+      "found"
+    ]
+  },
+  "PRICE_TABLE": [
+    {
+      "change": "Full Refinish",
+      "range": "40 to 60 percent less than a comparable original",
+      "cost": "Individual quote",
+      "assumptions": "40 to 60 percent less than a comparable original",
+      "anchorOnSite": {
+        "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+        "figure": "User override: 40 to 60 percent less than a comparable original"
+      },
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "pairsOrDataPoints": [],
+      "basis": "Explicit house ruling or named site anchor. No invented matched-sale evidence.",
+      "dateObserved": "2026-10-26",
+      "visibleCells": [
+        "Full Refinish",
+        "Individual quote",
+        "40 to 60 percent less than a comparable original",
+        "No; assess the existing surface first"
+      ]
+    },
+    {
+      "change": "Glued Acoustic Neck Reset",
+      "range": "Almost no penalty when properly done; needed work affects the current comparison",
+      "cost": "$400 to $1,000, published 2025 reference",
+      "assumptions": "Almost no penalty when properly done; needed work affects the current comparison",
+      "anchorOnSite": {
+        "url": "https://www.joesvintageguitarsaz.com/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+        "figure": "Almost no penalty; $400 to $1,000 as of 2025"
+      },
+      "sources": [
+        "house",
+        "neck"
+      ],
+      "pairsOrDataPoints": [],
+      "basis": "Explicit house ruling or named site anchor. No invented matched-sale evidence.",
+      "dateObserved": "2026-10-26",
+      "visibleCells": [
+        "Glued Acoustic Neck Reset",
+        "$400 to $1,000, published 2025 reference",
+        "Almost no penalty when properly done; needed work affects the current comparison",
+        "Assess first, then compare the quote and sale options"
+      ]
+    },
+    {
+      "change": "Professional Refret",
+      "range": "5 to 10 percent less than a comparable original",
+      "cost": "Individual quote",
+      "assumptions": "5 to 10 percent less than a comparable original",
+      "anchorOnSite": {
+        "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+        "figure": "5 to 10 percent less than a comparable original"
+      },
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "pairsOrDataPoints": [],
+      "basis": "Explicit house ruling or named site anchor. No invented matched-sale evidence.",
+      "dateObserved": "2026-10-26",
+      "visibleCells": [
+        "Professional Refret",
+        "Individual quote",
+        "5 to 10 percent less than a comparable original",
+        "Assess existing frets and the buyer's needs first"
+      ]
+    },
+    {
+      "change": "Crack Repair",
+      "range": "Depends on location, stability and the work required",
+      "cost": "Individual quote",
+      "assumptions": "Depends on location, stability and the work required",
+      "anchorOnSite": {
+        "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+        "figure": "Depends on location, stability and the work required"
+      },
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "pairsOrDataPoints": [],
+      "basis": "Qualitative guidance; no new numerical band claimed.",
+      "dateObserved": "2026-10-26",
+      "visibleCells": [
+        "Crack Repair",
+        "Individual quote",
+        "Depends on location, stability and the work required",
+        "Get advice promptly if damage is progressing"
+      ]
+    },
+    {
+      "change": "Electronics Cleanup",
+      "range": "Depends on what is repaired, resoldered or replaced",
+      "cost": "Individual quote",
+      "assumptions": "Depends on what is repaired, resoldered or replaced",
+      "anchorOnSite": {
+        "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+        "figure": "Depends on what is repaired, resoldered or replaced"
+      },
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "pairsOrDataPoints": [],
+      "basis": "Qualitative guidance; no new numerical band claimed.",
+      "dateObserved": "2026-10-26",
+      "visibleCells": [
+        "Electronics Cleanup",
+        "Individual quote",
+        "Depends on what is repaired, resoldered or replaced",
+        "Document the existing circuit first"
+      ]
+    },
+    {
+      "change": "Setup And New Strings",
+      "range": "Playability work does not guarantee a higher sale price",
+      "cost": "Individual quote",
+      "assumptions": "Playability work does not guarantee a higher sale price",
+      "anchorOnSite": {
+        "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+        "figure": "Playability work does not guarantee a higher sale price"
+      },
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "pairsOrDataPoints": [],
+      "basis": "Qualitative guidance; no new numerical band claimed.",
+      "dateObserved": "2026-10-26",
+      "visibleCells": [
+        "Setup And New Strings",
+        "Individual quote",
+        "Playability work does not guarantee a higher sale price",
+        "Leave it as found until assessed"
+      ]
+    },
+    {
+      "change": "Cleaning And Polishing",
+      "range": "Abrasive or unsuitable treatment can remove original material",
+      "cost": "Individual quote",
+      "assumptions": "Abrasive or unsuitable treatment can remove original material",
+      "anchorOnSite": {
+        "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+        "figure": "Abrasive or unsuitable treatment can remove original material"
+      },
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "pairsOrDataPoints": [],
+      "basis": "Qualitative guidance; no new numerical band claimed.",
+      "dateObserved": "2026-10-26",
+      "visibleCells": [
+        "Cleaning And Polishing",
+        "Individual quote",
+        "Abrasive or unsuitable treatment can remove original material",
+        "Photograph it without cleaning first"
+      ]
+    }
+  ],
+  "PRICE_CLAIMS": [
+    {
+      "text": "Almost never: get the guitar assessed before restoring it for a sale. A full refinish generally means 40 to 60 percent less than a comparable original, even when the new surface looks better to its owner.",
+      "sources": [
+        "house"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "40 to 60 percent less than a comparable original",
+      "sources": [
+        "house"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "$400 to $1,000, published 2025 reference",
+      "sources": [
+        "neck"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "5 to 10 percent less than a comparable original",
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "Refinishing replaces or covers the existing protective surface. A full refinish generally means 40 to 60 percent less than a comparable original. That is why I don't recommend repainting a vintage guitar simply because the finish is worn, checked or dull.",
+      "sources": [
+        "house"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "A refret replaces the metal frets on the neck. A quality job is accepted maintenance and generally means 5 to 10 percent less than a comparable original. That doesn't mean you should pay for one before discovering whether the frets need replacement or whether a buyer wants to choose the work.",
+      "sources": [
+        "house",
+        "lp"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    },
+    {
+      "text": "A full refinish generally means 40 to 60 percent less than a comparable original. Don't repaint a vintage guitar to prepare it for sale before its current finish and condition have been assessed.",
+      "sources": [
+        "house"
+      ],
+      "basis": "Explicit user ruling or unchanged live-site anchor; no newly researched dollar values."
+    }
+  ],
+  "IMAGE_LIST": [
+    {
+      "slot": 1,
+      "imageURL": "https://www.joesvintageguitarsaz.com/_astro/1960s-gibson-hummingbird-original-case-candy-gibson-strings.CzkiQrjV_17Np16.webp",
+      "currentPage": "https://www.joesvintageguitarsaz.com/post/vintage-gibson-hummingbird-history-value-guide/",
+      "existingAlt": "Original Gibson strings box and case key on the floor of a vintage Gibson Hummingbird case, the original case candy that came with the guitar.",
+      "existingCaption": "Do not throw this out. An unopened Gibson strings box and the original case key from the accessory compartment of the mid sixties guitar. Small stuff, but a collector notices, and it is evidence the guitar has not been through six owners and a pawn shop.",
+      "proposedAlt": "Original Gibson strings box and case key in a vintage Gibson Hummingbird case.",
+      "proposedCaption": "The original Gibson strings box and case key pictured in my Hummingbird guide. Keep case contents with the instrument before deciding what work it needs.",
+      "sitemapVerified": true,
+      "fileStem": "1960s-gibson-hummingbird-original-case-candy-gibson-strings"
+    }
+  ],
+  "FLAGS": [
+    {
+      "type": "PRICE-GAP",
+      "change": "Refinish labor cost",
+      "reason": "No approved current live-site dollar amount established for this labor category; no outside costs researched or invented."
+    },
+    {
+      "type": "PRICE-GAP",
+      "change": "Refret labor cost",
+      "reason": "No approved current live-site dollar amount established for this labor category; no outside costs researched or invented."
+    },
+    {
+      "type": "PRICE-GAP",
+      "change": "Crack-repair labor cost",
+      "reason": "No approved current live-site dollar amount established for this labor category; no outside costs researched or invented."
+    },
+    {
+      "type": "PRICE-GAP",
+      "change": "Electronics-cleanup labor cost",
+      "reason": "No approved current live-site dollar amount established for this labor category; no outside costs researched or invented."
+    },
+    {
+      "type": "PRICE-GAP",
+      "change": "Setup/strings labor cost",
+      "reason": "No approved current live-site dollar amount established for this labor category; no outside costs researched or invented."
+    },
+    {
+      "type": "PRICE-GAP",
+      "change": "Cleaning/polishing labor cost",
+      "reason": "No approved current live-site dollar amount established for this labor category; no outside costs researched or invented."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/vintage-gibson-les-paul-market-value-guide/",
+      "issue": "Live full-refinish wording is roughly 40 to 50%; new pages use the user-mandated 40 to 60 percent less than a comparable original.",
+      "action": "Preserved existing page."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/sell-my-gibson-guitar/",
+      "issue": "Body and FAQ combine headstock crack/full refinish at 40 to 50 percent off. Only refinish conflicts with the new house range.",
+      "action": "Preserved existing page."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/what-a-serial-number-cant-tell-you/",
+      "issue": "Body and FAQ use refinish 40 to 50 percent. The refret body also says it leaves strict all-original status, whereas the LP anchor treats a quality refret as accepted maintenance within otherwise original status.",
+      "action": "Preserved existing wording; new hub follows LP anchor."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/vintage-fender-stratocaster-value-guide/",
+      "issue": "Existing finish comparisons use worth 45 to 60 percent of original, equivalent to 40 to 55 percent less; year templates retain that direction.",
+      "action": "Added contextual links only; existing figures unchanged."
+    },
+    {
+      "type": "anchor-wording-conflict",
+      "route": "/post/gold-guard-fender-precision-bass/",
+      "issue": "Existing page says worth 40 to 60% of all-original. Equivalent loss endpoints agree with 40 to 60, but the direction differs.",
+      "action": "Preserved existing page."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/1962-gibson-es-335-guide/",
+      "issue": "Existing headstock repair is a single 50% deduction; house comparison uses 40 to 50 percent less.",
+      "action": "Preserved existing page."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/gibson-es-5-switchmaster-history-value/",
+      "issue": "The existing refinish list item uses 30 to 50 percent, including the user-flagged 30 percent floor.",
+      "action": "No edit."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/1962-fender-stratocaster-authentication-guide/",
+      "issue": "The existing refinish list item uses 50 to 70% loss, outside the 40 to 60 house range.",
+      "action": "No edit."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/gibson-super-400-ces-history-authentication-value/",
+      "issue": "Existing refinish list item uses about 40 to 50 percent loss.",
+      "action": "No edit."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/gibson-es-345-history-value/",
+      "issue": "Existing refinish list item uses 40 to 50 percent loss, and headstock repair uses 30 to 50 percent. Missing PAFs have a separate 30 to 50 percent or more deduction for 1959 to 1962 instruments.",
+      "action": "No edit; new general pickup comparison follows the explicit LP/house anchor."
+    },
+    {
+      "type": "price-conflict",
+      "routes": [
+        "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+        "/post/vintage-gibson-hummingbird-history-value-guide/"
+      ],
+      "issue": "Dedicated page quotes $400 to $1,000 as of 2025; Hummingbird quotes $700 to $1,200.",
+      "action": "New restoration page copies $400 to $1,000 verbatim and preserves its 2025 date; existing pages unchanged."
+    }
+  ],
+  "reviewNotes": [
+    "Sources and price evidence stay in reports, never in public page copy.",
+    "No new outside dollar figures or fabricated sale pairs.",
+    "No existing page percentages or dollar amounts changed. Existing overlong metadata was corrected with Joe's separate approval.",
+    "User overrides supersede photo-hero, one-PR-per-page and historical refinish latitude in the pack."
+  ]
+}

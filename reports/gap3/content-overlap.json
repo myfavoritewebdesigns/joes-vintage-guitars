@@ -1,0 +1,146 @@
+{
+  "method": "Unique normalized eight-word windows from visible new article text vs live neighbor main-content blocks; excludes comments, scripts and styles. A repeated window counts once.",
+  "thresholdPercent": 26,
+  "comparisons": [
+    {
+      "url": "/what-lowers-vintage-guitar-value/",
+      "neighbor": "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 2379,
+      "shared": 0
+    },
+    {
+      "url": "/what-lowers-vintage-guitar-value/",
+      "neighbor": "/post/what-a-serial-number-cant-tell-you/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 2379,
+      "shared": 0
+    },
+    {
+      "url": "/what-lowers-vintage-guitar-value/",
+      "neighbor": "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 2379,
+      "shared": 0
+    },
+    {
+      "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+      "neighbor": "/post/fender-custom-color-authentication-guide/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 2041,
+      "shared": 0
+    },
+    {
+      "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+      "neighbor": "/vintage-fender-stratocaster-value-guide/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 2041,
+      "shared": 0
+    },
+    {
+      "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+      "neighbor": "/vintage-gibson-les-paul-market-value-guide/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 2041,
+      "shared": 0
+    },
+    {
+      "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+      "neighbor": "/post/fender-custom-color-authentication-guide/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 2017,
+      "shared": 0
+    },
+    {
+      "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+      "neighbor": "/post/what-a-serial-number-cant-tell-you/",
+      "eightGramOverlapPercent": 0.05,
+      "newUniqueEightGrams": 2017,
+      "shared": 1
+    },
+    {
+      "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+      "neighbor": "/repair/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 2017,
+      "shared": 0
+    },
+    {
+      "url": "/do-replaced-pickups-hurt-guitar-value/",
+      "neighbor": "/post/gibson-paf-patent-number-pickup-guide/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 2066,
+      "shared": 0
+    },
+    {
+      "url": "/should-i-restore-my-guitar-before-selling/",
+      "neighbor": "/post/mistakes-to-avoid-when-selling-a-vintage-guitar/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 1614,
+      "shared": 0
+    },
+    {
+      "url": "/should-i-restore-my-guitar-before-selling/",
+      "neighbor": "/found-an-old-guitar/",
+      "eightGramOverlapPercent": 0.06,
+      "newUniqueEightGrams": 1614,
+      "shared": 1
+    },
+    {
+      "url": "/should-i-restore-my-guitar-before-selling/",
+      "neighbor": "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 1614,
+      "shared": 0
+    },
+    {
+      "url": "/inherited-a-guitar/",
+      "neighbor": "/found-an-old-guitar/",
+      "eightGramOverlapPercent": 0.05,
+      "newUniqueEightGrams": 2202,
+      "shared": 1
+    },
+    {
+      "url": "/inherited-a-guitar/",
+      "neighbor": "/sell-a-guitar-collection/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 2202,
+      "shared": 0
+    },
+    {
+      "url": "/inherited-a-guitar/",
+      "neighbor": "/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 2202,
+      "shared": 0
+    },
+    {
+      "url": "/selling-a-loved-ones-guitar/",
+      "neighbor": "/post/one-family-1946-martin-d-28/",
+      "eightGramOverlapPercent": 0.07,
+      "newUniqueEightGrams": 1499,
+      "shared": 1
+    },
+    {
+      "url": "/selling-a-loved-ones-guitar/",
+      "neighbor": "/post/one-family-1959-gibson-es-355/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 1499,
+      "shared": 0
+    },
+    {
+      "url": "/selling-a-loved-ones-guitar/",
+      "neighbor": "/post/one-owner-1955-martin-d28/",
+      "eightGramOverlapPercent": 0,
+      "newUniqueEightGrams": 1499,
+      "shared": 0
+    },
+    {
+      "url": "/selling-a-loved-ones-guitar/",
+      "neighbor": "/post/one-owner-1957-gibson-byrdland/",
+      "eightGramOverlapPercent": 0.33,
+      "newUniqueEightGrams": 1499,
+      "shared": 5
+    }
+  ]
+}

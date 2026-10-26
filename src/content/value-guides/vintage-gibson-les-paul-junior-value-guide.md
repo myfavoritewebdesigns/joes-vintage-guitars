@@ -69,6 +69,8 @@ That distinction also keeps a 1960s guitar from being valued against a 1950s sun
 
 ## What TV Yellow Changes
 
+For condition comparisons beyond this model, I explain [how repairs and replaced parts affect vintage guitar value](/what-lowers-vintage-guitar-value/).
+
 The one-pickup Les Paul TV Model shares the Junior's basic role, but its finish and model identity create a separate collector comparison. For the 1955 to 1958 single-cutaway examples covered here, the guide range is $9,000 to $18,000. The range assumes original finish and the condition stated above.
 
 TV Yellow doesn't mean every pale Gibson has the same value. The one-pickup TV Model and the two-pickup Les Paul Special are different models. My [Les Paul TV Model guide](/post/gibson-les-paul-tv-model-guide/) covers that identity, while the [single-cutaway Les Paul Special guide](/post/1955-1958-tv-yellow-les-paul-special-guide/) shows the two-pickup instrument.

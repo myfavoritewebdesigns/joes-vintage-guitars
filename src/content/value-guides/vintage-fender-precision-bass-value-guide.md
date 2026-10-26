@@ -147,6 +147,8 @@ Weight can influence an individual player's preference, so I include it when it'
 
 ## Finish And Parts Changes Without A Discount Formula
 
+For condition comparisons beyond this model, I explain [how a refinish affects vintage guitar value](/how-much-does-a-refinish-hurt-guitar-value/).
+
 Original finish preserves a part of the bass that can't be replaced with new-old-stock hardware. A full refinish therefore changes the collector category. Localized touchup, overspray and complete stripping should be described separately because they represent different amounts of work.
 
 A refinish typically removes a large share of collector value. The year, retained parts, structural condition and quality of the work all affect the comparison. A bass that was refinished but otherwise remains intact shouldn't be confused with one that also has a replaced neck and enlarged pickup cavity.
