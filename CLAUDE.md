@@ -358,6 +358,8 @@ Living record of intentional design choices on this project. **Check this before
 
 | 2026-10-26 | Incoming links to the seven published guides | Add 44 contextual links across 18 pages: seven links on the Resource Center homepage using its existing guide-list styles, seven in the main selling article, two condition-reference links on each of fourteen Martin value guides, and family-selling links in the ES-355 and Alexandria Stratocaster stories. | Joe requested a check and improvement of links after publication. The Resource Center heading and section are intentional; category and paginated archives do not repeat them. Preserve existing links, metadata, image counts and value figures. Evidence: reports/guide-linking/. Add underlines to selling-guide paragraph links and wrap the blog pagination list to fix observed link accessibility and mobile overflow. |
 
+| 2026-10-26 | Resource Center guide dropdowns | Make Identify Your Guitar and Condition And Selling Guides native details/summary disclosures, closed by default. Use compact clickable headings, chevrons and keyboard focus outlines; preserve all twelve links, copy and heading anchors. | Joe requested clickable dropdowns so these sections take less space. Both sections open independently without JavaScript. This intentional collapsed state supersedes the earlier always-expanded guide lists. |
+
 ### Template-level lessons learned (cross-project)
 
 These are not project deviations — they're recurring failures that shaped the wp-to-astro template's tooling. **Read before debating whether an audit check is "too strict."**

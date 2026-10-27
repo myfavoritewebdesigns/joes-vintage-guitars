@@ -34,15 +34,21 @@ const { heading, intro, posts, current, total, basePath, categories, activeCateg
 
     {basePath === "/blog" && current === 1 && (
       <section class="barch__guides" aria-labelledby="identify-your-guitar">
-        <h2 id="identify-your-guitar">Identify Your Guitar</h2>
+        <details>
+        <summary><h2 id="identify-your-guitar">Identify Your Guitar</h2></summary>
+        <div class="barch__guide-links">
         <p>If you don't know what you've got, start with these guides. I'll walk you through the brand, age and value, or the first steps after finding a guitar.</p>
         <ul>{guitarGuides.map(guide => <li><a href={guide.href}>{guide.label}</a></li>)}</ul>
+        </div>
+        </details>
       </section>
     )}
 
     {basePath === "/blog" && current === 1 && (
       <section class="barch__guides" aria-labelledby="condition-and-selling-guides">
-        <h2 id="condition-and-selling-guides">Condition And Selling Guides</h2>
+        <details>
+        <summary><h2 id="condition-and-selling-guides">Condition And Selling Guides</h2></summary>
+        <div class="barch__guide-links">
         <p>Learn how finish work, changed parts and repairs affect value, or work through the practical and personal questions about a family guitar.</p>
         <ul>
           <li><a href="/what-lowers-vintage-guitar-value/">What Lowers Vintage Guitar Value?</a></li>
@@ -53,6 +59,8 @@ const { heading, intro, posts, current, total, basePath, categories, activeCateg
           <li><a href="/inherited-a-guitar/">First Steps With An Inherited Guitar</a></li>
           <li><a href="/selling-a-loved-ones-guitar/">Keeping Or Selling A Loved One's Guitar</a></li>
         </ul>
+        </div>
+        </details>
       </section>
     )}
 
@@ -146,14 +154,21 @@ const { heading, intro, posts, current, total, basePath, categories, activeCateg
     color: var(--color-brand-brown-warm, #4a3a24);
     margin: 0 0 26px;
   }
-  .barch__guides { margin: 0 0 30px; padding: 24px; border: 1px solid #d9c8a6; background: #fff; }
-  .barch__guides h2 { margin: 0 0 10px; font: 700 28px/1.2 var(--font-display, Oswald), sans-serif; color: var(--color-brand-rust-dark); }
+  .barch__guides { margin: 0 0 14px; border: 1px solid #d9c8a6; background: #fff; }
+  .barch__guides summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 64px; padding: 18px 24px; cursor: pointer; list-style: none; color: var(--color-brand-rust-dark); }
+  .barch__guides summary::-webkit-details-marker { display: none; }
+  .barch__guides summary::after { content: ''; flex: 0 0 9px; width: 9px; height: 9px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); }
+  .barch__guides details[open] > summary::after { transform: rotate(225deg); }
+  .barch__guides summary:hover { background: #faf4e6; }
+  .barch__guides summary:focus-visible { outline: 3px solid var(--color-brand-rust); outline-offset: 3px; }
+  .barch__guides h2 { margin: 0; font: 700 24px/1.2 var(--font-display, Oswald), sans-serif; color: var(--color-brand-rust-dark); }
+  .barch__guide-links { padding: 0 24px 22px; }
   .barch__guides p { max-width: 70ch; margin: 0 0 14px; line-height: 1.6; }
   .barch__guides ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 24px; margin: 0; padding: 0; list-style: none; }
   .barch__guides li:first-child { grid-column: 1 / -1; }
   .barch__guides a { display: inline-block; padding-block: 5px; color: var(--color-brand-rust-dark); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
   .barch__guides a:hover { color: var(--color-brand-rust); }
-  @media (max-width: 560px) { .barch__guides { padding: 18px; } .barch__guides ul { grid-template-columns: 1fr; } }
+  @media (max-width: 560px) { .barch__guides summary { padding: 16px 18px; } .barch__guide-links { padding: 0 18px 18px; } .barch__guides ul { grid-template-columns: 1fr; } }
   .barch__cats {
     display: flex;
     flex-wrap: wrap;
