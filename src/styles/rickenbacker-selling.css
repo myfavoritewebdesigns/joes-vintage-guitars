@@ -1,4 +1,20 @@
 @font-face{font-family:'Smr Open Sans';src:url('/fonts/rickenbacker/OpenSans.woff2') format('woff2');font-display:swap;font-weight:300 800}
+/* Top offer section follows the Fender seller page and uses the shared form. */
+.smr-remodel .top-offer{background:var(--color-brand-vanilla)}
+.smr-remodel .top-offer-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:64px;align-items:start}
+.smr-remodel .top-offer-note{margin:32px 0;padding:20px;border-left:4px solid var(--color-brand-rust-bright);background:var(--color-brand-cream-light);font-size:15px}
+.smr-remodel .top-offer .lead-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;padding:32px;background:var(--color-brand-bone);border:1px solid var(--color-brand-brown-tan);box-shadow:12px 12px 0 var(--color-brand-brown);overflow:visible}
+.smr-remodel .top-offer .lead-form__row{display:contents}
+.smr-remodel .top-offer .lead-form>.lead-form__field,.smr-remodel .top-offer .lead-form__reply,.smr-remodel .top-offer .h-captcha-mount,.smr-remodel .top-offer .lead-form__submit,.smr-remodel .top-offer .lead-form__note,.smr-remodel .top-offer .jvg-form-banner{grid-column:1/-1}
+.smr-remodel .top-offer .lead-form__label{font-family:var(--font-body);font-size:13px;color:var(--color-brand-brown);line-height:1.5;margin-bottom:8px}
+.smr-remodel .top-offer .lead-form__opt{font-size:11px;font-style:normal}
+.smr-remodel .top-offer .lead-form__input{min-height:46px;font-size:16px}
+.smr-remodel .top-offer textarea.lead-form__input{min-height:128px}
+.smr-remodel .top-offer .lead-form__submit{min-height:49px;letter-spacing:.025em}
+.smr-remodel .top-offer .lead-form__note{font-size:13px;font-weight:400;margin:0;color:var(--color-brand-brown-muted);line-height:1.5}
+@media(max-width:1000px){.smr-remodel .top-offer-grid{gap:32px;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}.smr-remodel .top-offer .lead-form{padding:24px}}
+@media(max-width:850px){.smr-remodel .top-offer-grid{grid-template-columns:1fr}.smr-remodel .top-offer-intro{max-width:650px}.smr-remodel .top-offer-note{margin:24px 0}}
+@media(max-width:500px){.smr-remodel .top-offer .lead-form{grid-template-columns:minmax(0,1fr);padding:20px 12px;box-shadow:6px 6px 0 var(--color-brand-brown)}.smr-remodel .top-offer .lead-form__label{font-size:14px}}
 .smr-header-backdrop{height:250px;background:#17130f;border-bottom:5px solid #d2b48c}
 .smr-remodel{--font-body:'Smr Open Sans',sans-serif;font-family:var(--font-body);font-size:17px;line-height:1.7;color:#2a2d33}
 .smr-remodel h1,.smr-remodel h2,.smr-remodel h3{color:#3e2a14}
