@@ -1,0 +1,254 @@
+{
+  "checkedAt": "2026-10-27T16:47:11.518Z",
+  "pages": [
+    {
+      "route": "/rickenbacker-authentication-and-value-guides/",
+      "titleLength": 44,
+      "descriptionLength": 157,
+      "images": 15,
+      "words": 656,
+      "schemas": 21
+    },
+    {
+      "route": "/post/rickenbacker-325-authentication-guide/",
+      "titleLength": 53,
+      "descriptionLength": 146,
+      "images": 8,
+      "words": 1162,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-325-value-guide/",
+      "titleLength": 44,
+      "descriptionLength": 149,
+      "images": 8,
+      "words": 1105,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-330-340-authentication-guide/",
+      "titleLength": 45,
+      "descriptionLength": 138,
+      "images": 10,
+      "words": 1148,
+      "schemas": 17
+    },
+    {
+      "route": "/post/rickenbacker-330-340-value-guide/",
+      "titleLength": 60,
+      "descriptionLength": 141,
+      "images": 10,
+      "words": 1149,
+      "schemas": 17
+    },
+    {
+      "route": "/post/rickenbacker-360-370-authentication-guide/",
+      "titleLength": 45,
+      "descriptionLength": 138,
+      "images": 10,
+      "words": 1148,
+      "schemas": 17
+    },
+    {
+      "route": "/post/rickenbacker-360-370-value-guide/",
+      "titleLength": 60,
+      "descriptionLength": 141,
+      "images": 10,
+      "words": 1130,
+      "schemas": 17
+    },
+    {
+      "route": "/post/rickenbacker-12-string-authentication-guide/",
+      "titleLength": 47,
+      "descriptionLength": 140,
+      "images": 9,
+      "words": 1123,
+      "schemas": 16
+    },
+    {
+      "route": "/post/rickenbacker-12-string-value-guide/",
+      "titleLength": 38,
+      "descriptionLength": 143,
+      "images": 9,
+      "words": 1141,
+      "schemas": 16
+    },
+    {
+      "route": "/post/rickenbacker-381-authentication-guide/",
+      "titleLength": 45,
+      "descriptionLength": 138,
+      "images": 10,
+      "words": 1086,
+      "schemas": 17
+    },
+    {
+      "route": "/post/rickenbacker-381-value-guide/",
+      "titleLength": 60,
+      "descriptionLength": 141,
+      "images": 10,
+      "words": 1096,
+      "schemas": 17
+    },
+    {
+      "route": "/post/rickenbacker-425-450-460-authentication-guide/",
+      "titleLength": 50,
+      "descriptionLength": 143,
+      "images": 9,
+      "words": 1106,
+      "schemas": 16
+    },
+    {
+      "route": "/post/rickenbacker-425-450-460-value-guide/",
+      "titleLength": 41,
+      "descriptionLength": 146,
+      "images": 9,
+      "words": 1079,
+      "schemas": 16
+    },
+    {
+      "route": "/post/rickenbacker-600-series-authentication-guide/",
+      "titleLength": 44,
+      "descriptionLength": 137,
+      "images": 9,
+      "words": 1083,
+      "schemas": 16
+    },
+    {
+      "route": "/post/rickenbacker-600-series-value-guide/",
+      "titleLength": 59,
+      "descriptionLength": 140,
+      "images": 9,
+      "words": 1148,
+      "schemas": 16
+    },
+    {
+      "route": "/post/rickenbacker-480-481-authentication-guide/",
+      "titleLength": 45,
+      "descriptionLength": 138,
+      "images": 8,
+      "words": 1072,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-480-481-value-guide/",
+      "titleLength": 60,
+      "descriptionLength": 141,
+      "images": 8,
+      "words": 1061,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-4000-4001-authentication-guide/",
+      "titleLength": 47,
+      "descriptionLength": 140,
+      "images": 8,
+      "words": 1100,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-4000-4001-value-guide/",
+      "titleLength": 38,
+      "descriptionLength": 143,
+      "images": 8,
+      "words": 1107,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-4003-authentication-guide/",
+      "titleLength": 46,
+      "descriptionLength": 139,
+      "images": 8,
+      "words": 1069,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-4003-value-guide/",
+      "titleLength": 37,
+      "descriptionLength": 142,
+      "images": 8,
+      "words": 1083,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-4005-authentication-guide/",
+      "titleLength": 46,
+      "descriptionLength": 139,
+      "images": 10,
+      "words": 1099,
+      "schemas": 17
+    },
+    {
+      "route": "/post/rickenbacker-4005-value-guide/",
+      "titleLength": 37,
+      "descriptionLength": 142,
+      "images": 10,
+      "words": 1148,
+      "schemas": 17
+    },
+    {
+      "route": "/post/rickenbacker-4002-authentication-guide/",
+      "titleLength": 46,
+      "descriptionLength": 139,
+      "images": 8,
+      "words": 1046,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-4002-value-guide/",
+      "titleLength": 37,
+      "descriptionLength": 142,
+      "images": 8,
+      "words": 1094,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-3000-3001-authentication-guide/",
+      "titleLength": 47,
+      "descriptionLength": 140,
+      "images": 8,
+      "words": 1016,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-3000-3001-value-guide/",
+      "titleLength": 38,
+      "descriptionLength": 143,
+      "images": 8,
+      "words": 1058,
+      "schemas": 15
+    },
+    {
+      "route": "/post/rickenbacker-frying-pan-authentication-guide/",
+      "titleLength": 44,
+      "descriptionLength": 137,
+      "images": 10,
+      "words": 1103,
+      "schemas": 17
+    },
+    {
+      "route": "/post/rickenbacker-frying-pan-value-guide/",
+      "titleLength": 59,
+      "descriptionLength": 140,
+      "images": 10,
+      "words": 1096,
+      "schemas": 17
+    },
+    {
+      "route": "/post/rickenbacker-bakelite-lap-steel-authentication-guide/",
+      "titleLength": 52,
+      "descriptionLength": 145,
+      "images": 10,
+      "words": 1152,
+      "schemas": 17
+    },
+    {
+      "route": "/post/rickenbacker-bakelite-lap-steel-value-guide/",
+      "titleLength": 43,
+      "descriptionLength": 148,
+      "images": 10,
+      "words": 1157,
+      "schemas": 17
+    }
+  ],
+  "failures": []
+}

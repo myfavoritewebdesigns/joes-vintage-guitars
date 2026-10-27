@@ -4,6 +4,11 @@ export type Post = CollectionEntry<"blog">;
 
 export const PAGE_SIZE = 9;
 
+/** The paired model library is browsed through its index/category, not 30 consecutive feed cards. */
+export function blogArchivePosts(posts: Post[]): Post[] {
+  return posts.filter(post => post.data.category !== 'rickenbacker');
+}
+
 /** All published posts, newest first. */
 export async function getPublishedPosts(): Promise<Post[]> {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
@@ -12,6 +17,10 @@ export async function getPublishedPosts(): Promise<Post[]> {
 
 /** Display metadata + intro copy per category slug (matches live category names). */
 export const CATEGORY_META: Record<string, { name: string; description: string }> = {
+  rickenbacker: {
+    name: "Rickenbacker",
+    description: "Photo guides to vintage Rickenbacker guitars, basses and lap steels, with model identification, repair checks and documented price examples.",
+  },
   "specific-model-highlights": {
     name: "Specific Model Highlights",
     description:
