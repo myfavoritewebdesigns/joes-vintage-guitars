@@ -281,6 +281,7 @@ export const footerLegal = {
   links: [
     { label: "Sitemap", href: "/sitemap/" },
     { label: "Privacy Policy", href: "/privacy-policy/" },
+    { label: "Text Message Terms", href: "/terms/" },
     { label: "Refund and Returns", href: "/refund_returns/" },
     { label: "Photo License", href: "/photo-license/" },
     { label: "Designed by MFWD", href: "https://myfavoritewebdesigns.com/", external: true },
