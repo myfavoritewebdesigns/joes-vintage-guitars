@@ -17,4 +17,4 @@ This is a new conversion page, not a migration of an existing article. No origin
 
 Photo source URLs and alt/caption notes are in `levin-goya-photo-sources.json`. Four selected photos are local assets rendered by LicensedImage. No third-party photos or externally hosted content images are used.
 
-Discovery links: header selling menu, homepage What I Buy section and HTML sitemap. XML sitemap includes the route automatically.
+Discovery links: homepage What I Buy section, HTML sitemap, free appraisal, collection selling, guitar identification, inherited guitars, the vintage selling guide and the acoustic neck-reset guide. XML sitemap includes the route automatically. Per Joe's 2026-10-26 correction, there must be no Levin/Goya link in the header or footer. These navigation and contextual-link changes are pending preview approval before publication.
