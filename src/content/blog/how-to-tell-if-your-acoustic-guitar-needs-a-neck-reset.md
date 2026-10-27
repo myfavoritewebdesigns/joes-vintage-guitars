@@ -179,6 +179,8 @@ Run the test, take a photo down the length of the straightedge so the bridge is 
 
 If it's the value side you're after, our [free appraisal](/free-appraisal/) covers Martin, Gibson, Guild, and the rest, and [the seven factors that drive a vintage guitar's value](/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/) explains where a repair like this actually sits in the picture. Owners of smaller Martins can also use the [vintage Martin 0, 00, and 000 guide](/post/martin-0-00-000-history-authentication-value-guide/) to identify the model family and understand how a neck reset fits into the guitar's larger condition story. If you would rather sell than repair it, see how I buy vintage [Martin](/sell-my-martin-guitar/) and [Gibson](/sell-my-gibson-guitar/) acoustics.
 
+I also buy [Swedish-made Levin and Goya acoustic guitars](/sell-your-levin-or-goya-guitar/), including steel-string and nylon-string models. If yours has high action or past neck work, include that in your photos and description when asking about a sale.
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

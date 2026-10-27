@@ -25,6 +25,10 @@
 
 Project handoff doc. Read this first when picking up the project in a new session.
 
+## Joe's publishing approval requirement
+
+Before publishing a new page or site changes, prepare a reviewable preview and ask Joe for explicit approval. A request to create or edit authorizes preparing the preview; it does not authorize publication. Once Joe approves that specific preview, proceed without asking again. Joe stated on 2026-10-26: "in the future you are supposed to give me a preview and ask me before pulishing."
+
 ## What this is
 
 A full rebuild of [joesvintageguitarsaz.com](https://www.joesvintageguitarsaz.com/) — currently a WordPress + Avada site — as a static **Astro 6 + Tailwind 4** site deploying to **Cloudflare Pages**. Forms will use the **Mailgun API** via a CF Pages Function (not wired yet).
@@ -213,6 +217,7 @@ Living record of intentional design choices on this project. **Check this before
 
 | Date | Page / Area | Decision | Why |
 |---|---|---|---|
+| 2026-10-26 | Levin/Goya discovery and publication workflow | Remove the Levin/Goya link from the shared selling menu, which removes it from both the header dropdown and footer. Keep homepage and sitemap links and add contextual links in appraisal, collection, identification, inheritance and selling content. All site changes require a preview and Joe's approval before publication. | Joe explicitly requested no header or footer link and links throughout the site. This supersedes the original menu placement below. Prepare and review on a branch; do not publish until approved. |
 | 2026-10-26 | Martin value guide publication | Publish the fourteen reviewed value articles with their final price reductions and pre-1920 small/early scope. Use the main-site template, existing licensed images, local authentication links and reciprocal value links. Keep research examples out of the articles. | Joe explicitly requested publication on joesvintageguitarsaz.com. Main-site template, canonical and indexing changes are intentional production-port differences. |
 | 2026-10-26 | New Levin and Goya seller page | Add a conversion page for Swedish-made electric, steel-string and nylon-string guitars with four local photographs from Joe’s sold Reverb listings, shared contact forms, matching FAQ and image-license schema, and discovery links in the selling menu, homepage and sitemap. | User requested a new page on the site. This is net-new content: no prior live URL, heading inventory or photo inventory exists for migration parity. No new pricing ranges, testimonials or guaranteed timelines. |
 | 2026-10-26 | Vintage guitar selling article replacement | Replace the old selling post with Joe’s approved seven-section preview, including its split photo hero, contents list, proceeds example, selling-method table, and two shop photographs. Preserve the existing URL, original publication date, WP ID, legacy fragment targets, and useful identification/Phoenix links. Use the production header, footer and working contact form, optimized licensed photos, and updated article metadata. The former article headings, stock images, sidebar/author layout and repeated copy are intentionally replaced. | Joe explicitly approved the preview and requested replacement and publication on the live site. This authorizes the PR merge and production deployment for this article. |
