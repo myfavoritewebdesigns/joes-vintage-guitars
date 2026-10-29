@@ -1,6 +1,11 @@
 # Cloudflare Pages 301s for WordPress-only URL shapes that have no equivalent
 # on the static rebuild. Top-level page slugs and /post/<slug>/ URLs were
 # preserved 1:1, so they need no rules here (and adding any would risk loops).
+# Rickenbacker model guides now appear as individual blog posts.
+/rickenbacker-authentication-and-value-guides /blog/ 301
+/rickenbacker-authentication-and-value-guides/ /blog/ 301
+/category/rickenbacker /blog/ 301
+/category/rickenbacker/* /blog/ 301
 # Preserve links shared during the Martin guide preview, before its URL rename.
 /martin-headstock-logo-chronology/ /martin-headstock-logo-dating-guide/ 301
 /martin-physical-features-dating-guide/ /martin-guitar-dating-guide/ 301

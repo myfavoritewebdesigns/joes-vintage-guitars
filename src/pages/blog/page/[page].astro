@@ -3,11 +3,11 @@ import type { GetStaticPaths } from "astro";
 import Layout from "../../../layouts/Layout.astro";
 import BlogArchive from "../../../components/BlogArchive.astro";
 import { SITE_URL } from "../../../config/site";
-import { getPublishedPosts, getCategories, paginate, blogArchivePosts } from "../../../lib/blog";
+import { getPublishedPosts, getCategories, paginate } from "../../../lib/blog";
 
 export const getStaticPaths = (async () => {
   const allPosts = await getPublishedPosts();
-  const pages = paginate(blogArchivePosts(allPosts));
+  const pages = paginate(allPosts);
   // Pages 2..N (page 1 is served by /blog/index.astro).
   return pages.slice(1).map((posts, i) => ({
     params: { page: String(i + 2) },

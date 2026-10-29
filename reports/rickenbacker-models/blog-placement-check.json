@@ -1,0 +1,104 @@
+{
+  "checkedAt": "2026-10-29T19:30:30.924Z",
+  "blogPages": 18,
+  "totalBlogPosts": 155,
+  "rickenbackerPosts": 30,
+  "categories": {
+    "value-evaluation": 15,
+    "specific-model-highlights": 15
+  },
+  "rows": [
+    {
+      "page": "blog",
+      "cards": 9,
+      "rickenbacker": 9
+    },
+    {
+      "page": "blog/page/2",
+      "cards": 9,
+      "rickenbacker": 9
+    },
+    {
+      "page": "blog/page/3",
+      "cards": 9,
+      "rickenbacker": 9
+    },
+    {
+      "page": "blog/page/4",
+      "cards": 9,
+      "rickenbacker": 3
+    },
+    {
+      "page": "blog/page/5",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/6",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/7",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/8",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/9",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/10",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/11",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/12",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/13",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/14",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/15",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/16",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/17",
+      "cards": 9,
+      "rickenbacker": 0
+    },
+    {
+      "page": "blog/page/18",
+      "cards": 2,
+      "rickenbacker": 0
+    }
+  ],
+  "htmlFiles": 361,
+  "failures": []
+}
