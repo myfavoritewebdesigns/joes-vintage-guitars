@@ -8,7 +8,7 @@ Joe requested separate value and authentication pages for Dove, Southern Jumbo, 
 - The acoustic hub has nine model cards. Each main card opens its value guide; a separate native link opens authentication. There are no nested links. The Hummingbird keeps its existing combined guide.
 - Existing model prices are preserved. Five new sample rows in the hub match the new model tables exactly.
 - Preview builds are noindex. Production indexing follows the Cloudflare main-branch environment.
-- Country Western has a text hero and a clearly labeled comparison photograph of Joe's refinished 1946 SJ. No verified Country Western photograph was found in the connected Drive results or Joe's completed Reverb results. Joe was asked for a folder/listing link; this preview does not mislabel the comparison instrument.
+- Joe supplied four Country Western photographs from Downloads after reviewing the initial preview. Both Country Western pages now use the 1957 slope-shoulder guitar as their hero and show the transitional example, square-shoulder example and interior label in the article. These replace the Southern Jumbo comparison image. No pricing rows were changed.
 
 ## Price provenance
 
@@ -20,7 +20,7 @@ The L-00 retains one broad 1932–1946 source band. The L-0 production gap is pr
 
 ## Photo provenance and condition
 
-All eleven assets are local under `src/assets/acoustic-models/`. Joe's established license helper emits metadata against the actual optimized image URLs.
+All fifteen assets are local under `src/assets/acoustic-models/`. Joe's established license helper emits metadata against the actual optimized image URLs.
 
 | Local assets | Source | Caption limitations |
 | --- | --- | --- |
@@ -29,6 +29,10 @@ All eleven assets are local under `src/assets/acoustic-models/`. Joe's establish
 | 1938-l-00-body/headstock.jpg | https://reverb.com/item/67254292-gibson-l-00-1938-black | Verified sold by the same shop. Listed as 1938, original black finish, repaired back/side cracks, neck reset, replacement case. |
 | 1946-southern-jumbo-front/detail.jpg | Drive folder `1TGUU_EXti111-inslGzTBCCEc6_BvCKR`, files `1D_zWilXj8rBVVd8heDr_5CEV8F3WL-HW` and `1bdHoxs9NcfJwN8dy4ok77I1b0JkrFfyJ` | Refinish and non-original painted guard confirmed by https://reverb.com/item/98162860-gibson-southern-jumbo-1946-natural . That listing was live at research time, so it is never called completed. |
 | 1930s-l-00-drive.jpg | Drive folder `1_xGAKjlLqW4xaScu-vRYy3V7hogrdBgv`, file `1l5Ymi22tiPOGSrE6kJBzL37xrhJAVfQk` | Folder supplies decade/model only. Not asserted to be the same guitar as the separately captioned 1938 Reverb specimen. |
+| gibson-slope-shoulder-country-western-1957.jpg | Joe's Downloads, explicitly supplied October 29 | The supplied filename identifies 1957. Captions discuss visible shape and trim without asserting complete originality or condition. |
+| transitional-country-western-slope-shoulder-western-pickguard.jpeg | Joe's Downloads, explicitly supplied October 29 | Slope shoulders, pointed guard and adjustable saddle are visible. No exact year assigned. |
+| square-shoulder-gibson-country-western.jpg | Joe's Downloads, explicitly supplied October 29 | Square-shoulder configuration illustrated; no exact year or originality claim assigned. |
+| country-western-label.jpg | Joe's Downloads, explicitly supplied October 29 | Visible Country Western Model label. Captions explain its limits as dating and condition evidence. |
 
 Reverb `state=sold` did not filter results. Completed status was verified using `show_only_sold=true`, then individual listing metadata. No realized sale price was inferred from a listing's displayed price.
 
@@ -41,5 +45,5 @@ The articles link sources where specific historical claims are made: Gibson's ac
 - Build: 371 pages generated. Astro check: zero errors, zero warnings, 90 pre-existing hints. Copy gate: zero hard failures and 754 pre-existing report-only warnings after matching the site's range-punctuation convention.
 - All ten rendered pages passed route, single-H1, canonical, preview-noindex, local-link/fragment, unique-main-ID, image-file/dimension, matching image-license URL and visible-FAQ/schema checks. All 38 rendered price rows agree with the retained calculation ledger. All ten routes appear in the nine-card hub.
 - Live-diff audit of the hub: zero must-fix items, no broken assets. Two expected warnings: the new model headings and existing shared Reverb icons lacking dimensions. Existing heading IDs and price content remain intact.
-- Browser review at 1440px and 390px: two-column/one-column card layouts, no document overflow, authentication links over 44px tall, working card-to-value and value-to-authentication navigation, readable Southern Jumbo price table, working mobile section navigation, and clear Country Western comparison captions.
+- Browser review at 1440px and 390px: two-column/one-column card layouts, no document overflow, authentication links over 44px tall, working card-to-value and value-to-authentication navigation, readable Southern Jumbo price table and working mobile section navigation. The Country Western photo update also passed a new build, copy gate and all ten-page rendered checks; both Country Western pages now contain four licensed, local optimized photos. Desktop/mobile inspection confirmed sizing, portrait orientation and label readability. The price-ledger SHA-256 is unchanged: `D9AC438CAEA8DACEC1D6B9F75D9D9B7F4623625D026CE2970229A73FB59126F1`.
 - New routes have no existing live originals for parity comparison. Hosted checks are tracked by the draft PR; no merge or production deployment was requested.

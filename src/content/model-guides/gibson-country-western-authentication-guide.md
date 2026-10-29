@@ -14,18 +14,32 @@ The [1960 Gibson catalog](https://acousticmusic.org/wp-content/uploads/2016/02/G
 
 The change from round to square shoulders is best treated as a 1962 to 1963 transition. The price guide’s categories overlap in 1962; specialist chronologies differ on the exact boundary. Establish the physical configuration before selecting a year category. Later SJN Deluxe guitars have their own changing bridge, binding and fingerboard details.
 
-## Check Whether The Natural Finish Is Original
+<figure>
+
+![Transitional Gibson Country Western with slope shoulders, a pointed Western-style pickguard and an adjustable saddle](../../assets/acoustic-models/transitional-country-western-slope-shoulder-western-pickguard.jpeg)
+
+<figcaption>A transitional Country Western with slope shoulders and the pointed Western-style pickguard. Read the body shape, guard and adjustable saddle together; the guard alone does not establish a square-shoulder guitar or an exact year.</figcaption>
+</figure>
 
 <figure>
 
-![Comparison: refinished 1946 SJ with natural top, split inlays and a painted replacement guard](../../assets/acoustic-models/1946-southern-jumbo-detail.jpg)
+![Square-shoulder Gibson Country Western with natural top, pointed pickguard and split parallelogram fingerboard inlays](../../assets/acoustic-models/square-shoulder-gibson-country-western.jpg)
 
-<figcaption>Comparison only: a Southern Jumbo, not a Country Western. My 1946 SJ was refinished, as documented in its <a href="https://reverb.com/item/98162860-gibson-southern-jumbo-1946-natural">listing</a>. This Drive photograph demonstrates why natural color is not sufficient authentication.</figcaption>
+<figcaption>The square-shoulder Country Western has a different upper-body outline from the earlier examples. Compare the shoulders near the neck, not just the pickguard shape.</figcaption>
 </figure>
+
+## Check Whether The Natural Finish Is Original
 
 Look for finish differences around the neck heel, binding ledges and bridge perimeter. Uneven sanding, softened edges, residue in protected areas or finish covering later repair work can be reasons to investigate. None is a standalone verdict from a compressed photo.
 
 A natural top that is unusually clean compared with the rest of the guitar deserves a closer look, but clean condition alone is not evidence of a refinish. Ask for repair history and well-lit close-ups before making the claim. Preserve any old labels and paperwork.
+
+<figure>
+
+![Interior Gibson label reading Country Western Model with a rope-pattern border](../../assets/acoustic-models/country-western-label.jpg)
+
+<figcaption>The interior “Country Western Model” label records the model name. Read it alongside the body, neck, finish and dating evidence; a label alone cannot establish the year or originality of every part.</figcaption>
+</figure>
 
 ## Bridge, Saddle And Neck Checks
 

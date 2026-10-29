@@ -32,20 +32,34 @@ The original natural SJ predates the Country Western name. The price guide group
 
 The 1962 ranges overlap because the source separates body configurations. Identify round versus square shoulders and check the dating evidence; do not infer the body shape from a seller’s stated year alone. A repaired bridge or a replacement fingerboard can obscure the era clues.
 
+<figure>
+
+![Transitional slope-shoulder Gibson Country Western with a pointed Western-style pickguard and adjustable saddle](../../assets/acoustic-models/transitional-country-western-slope-shoulder-western-pickguard.jpeg)
+
+<figcaption>This transitional Country Western combines slope shoulders with a pointed Western-style pickguard. Establish the body configuration before selecting a price row; the guard shape by itself is not enough.</figcaption>
+</figure>
+
+<figure>
+
+![Square-shoulder Gibson Country Western in its case showing natural finish and split parallelogram inlays](../../assets/acoustic-models/square-shoulder-gibson-country-western.jpg)
+
+<figcaption>A square-shoulder Country Western for comparison with the earlier slope-shoulder examples. Its exact year, finish originality and repair history need to be established before applying a value range.</figcaption>
+</figure>
+
 ## Original Natural Finish Or A Stripped Sunburst?
 
 Inspect the edges, soundhole, neck heel and areas around the bridge and pickguard for evidence of refinishing. Finish appearance is one part of the examination; light, photography and aging can all change its apparent color. Do not scrape or remove finish to investigate.
 
-<figure>
-
-![Comparison photograph of a refinished natural 1946 Southern Jumbo with decorative replacement guard](../../assets/acoustic-models/1946-southern-jumbo-detail.jpg)
-
-<figcaption>Comparison only: this is my refinished 1946 Southern Jumbo, not a Country Western. It shows why a natural top and split inlays cannot establish a factory Country Western by themselves. Photo from my Drive archive.</figcaption>
-</figure>
-
 ## Condition Matters More Than The Listing Name
 
 Natural-finish J-50s have simpler dot fingerboard markers, while the SJ/Country Western family uses split parallelograms. Later repairs, neck replacements and exceptions require more than one feature to settle the model. Use the [Country Western authentication guide](/gibson-country-western-authentication-guide/) before picking a price row.
+
+<figure>
+
+![Gibson Country Western Model label inside the guitar body](../../assets/acoustic-models/country-western-label.jpg)
+
+<figcaption>The Country Western label helps identify the model, but it does not certify condition or establish which price row applies. Date and inspect the whole instrument before assigning a value.</figcaption>
+</figure>
 
 Evaluate original finish, neck angle, bridge and saddle, cracks, brace repairs and the case together. A guitar that still needs a neck reset should not be valued as though that work is complete. Modern Sheryl Crow models and current reissues fall outside this vintage table.
 

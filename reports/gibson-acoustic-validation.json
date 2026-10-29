@@ -3,7 +3,7 @@
   "pages": [
     {
       "url": "/gibson-country-western-authentication-guide/",
-      "images": 1,
+      "images": 4,
       "headings": 8,
       "kind": "authentication"
     },
@@ -33,7 +33,7 @@
     },
     {
       "url": "/vintage-gibson-country-western-value-guide/",
-      "images": 1,
+      "images": 4,
       "headings": 6,
       "kind": "value"
     },
