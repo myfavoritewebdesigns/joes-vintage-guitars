@@ -11,8 +11,8 @@ These ranges are reviewed as of October 2026 and stated in U.S. dollars, excludi
 | Year | Sunburst Comparison | Condition |
 | --- | --- | --- |
 | 1962 | $4,800 to $6,550 | Very Good to Excellent; case and originality documentation vary |
-| 1963 | $5,500 to $6,500 | Very Good; see parts and case condition |
-| 1964 | $5,500 to $6,500 | Very Good; see parts and case condition |
+| 1963 | $4,900 to $6,700 | Very Good; see parts and case condition |
+| 1964 | $4,850 to $6,600 | Very Good; see parts and case condition |
 | 1965 | $4,000 to $5,500 | Varying condition; see fretwork and case condition |
 | 1966 | $4,000 to $4,500 | Very Good originals with original cases |
 | 1967 | $4,000 to $4,500 | Very Good originals with original cases |

@@ -16,7 +16,7 @@ Adjacent years can share a range. I still assess the body style, finish and cond
 | 1958 | TV Yellow, single-cutaway or late-year double-cutaway | $12,000 to $19,000 |
 | 1959 | TV Yellow, rounded double-cutaway | $9,600 to $12,650 |
 | 1959 | Cherry, rounded double-cutaway | $7,500 to $14,000 |
-| 1960 | Cherry, rounded slab body | $9,000 to $12,000 |
+| 1960 | Cherry, rounded slab body | $8,250 to $10,450 |
 | 1974 | Les Paul 55, single-cutaway sunburst | $1,800 to $2,700 |
 | 1976 | Les Paul 55, single-cutaway sunburst | $1,750 to $2,650 |
 | 1977 | Les Paul 55, single-cutaway sunburst | $1,800 to $2,650 |

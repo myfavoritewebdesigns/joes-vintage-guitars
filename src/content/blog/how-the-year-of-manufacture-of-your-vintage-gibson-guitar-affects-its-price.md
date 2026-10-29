@@ -85,7 +85,7 @@ This is the era most collectors think of when they hear "vintage Gibson." Produc
 
 </figure>
 
--   **ES-335 (1958 to 1964).** The first production semi-hollow electric guitar. Early dot-neck examples (1958 to 1962) are extremely desirable, with all-original examples regularly selling in the $27,000 to $72,000+ range. See our [1959 ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and [1962 ES-335 guide](/post/1962-gibson-es-335-guide/) for model-specific detail.
+-   **ES-335 (1958 to 1964).** The first production semi-hollow electric guitar. Early dot-neck examples (1958 to 1962) are extremely desirable, with all-original examples regularly selling in the $22,100 to $65,900+ range. See our [1959 ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) and [1962 ES-335 guide](/post/1962-gibson-es-335-guide/) for model-specific detail.
 -   **J-45 and Southern Jumbo acoustics.** These workhorse flat-tops from the late 1940s and 1950s are the backbone of the vintage Gibson acoustic market. The J-45 has a loyal following among players and collectors alike. The Southern Jumbo, introduced in 1942, is often overlooked relative to its quality and represents excellent value for attentive collectors. See our [guide to identifying vintage Gibson J-45, J-50, and Southern Jumbo guitars](/post/identify-vintage-gibson-j45-j50-sj/).
 -   **J-200.** Gibson's flagship acoustic, the J-200 is one of the most recognizable guitars ever made. Pre-1970 examples with their distinctive mustache bridges and flowerpot headstock inlays are highly collectible.
 

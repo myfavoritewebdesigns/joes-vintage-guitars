@@ -18,22 +18,22 @@ Each production year has a row, and adjacent years can share a range. The two co
 | 1962 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, replacement nut disclosed |
 | 1962 | $18,900 to $24,750 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
 | 1963 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
-| 1964 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
+| 1964 | $12,900 to $16,700 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
 | 1965 | $8,900 to $13,350 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
 | 1966 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
 | 1967 | $5,250 to $7,400 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
 | 1968 | $5,300 to $7,500 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
 | 1969 | $5,350 to $7,600 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
 | 1970 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
-| 1971 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
+| 1971 | $3,900 to $4,800 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
 | 1972 | $3,550 to $4,750 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
 | 1973 | $3,350 to $4,050 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
 | 1974 | $2,500 to $3,850 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
 | 1975 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
 | 1976 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
 | 1977 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
-| 1978 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
-| 1979 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+| 1978 | $2,000 to $3,550 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
+| 1979 | $2,000 to $3,500 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
 
 ### What The Ranges Include
 

@@ -288,7 +288,7 @@ Where a 1976 000-45 sits relative to its neighbors is worth spelling out, becaus
 | 1976 Martin D-45 | Middle five figures | Dreadnought demand plus Style 45 trim |
 | 1968 to 1969 Martin D-45 | $43,500 to $60,900 | First years of the reissue, and the last with Brazilian rosewood |
 | Pre-war Martin 000-45 | Six figures | Brazilian rosewood, Adirondack top, snowflake inlays, tiny original run |
-| Pre-war Martin D-45 | $450,000 to $675,000 | The most collected flat-top acoustic there is |
+| Pre-war Martin D-45 | $396,000 to $594,000 | The most collected flat-top acoustic there is |
 
 Those dreadnought figures come from our [Martin D-28, D-18, and D-45 dreadnought value guide](/martin-d-28-d-18-d-45-dreadnought-value-guide/), which breaks the D models down era by era.
 

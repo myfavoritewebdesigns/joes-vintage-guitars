@@ -1,4 +1,4 @@
-Vintage Gibson SG Special guide values run from $2,000 to $2,500 for the 1970s mini-humbucker version to $4,900 to $10,000 for clean original early P-90 guitars, as of October 2026. I separate those two versions and include the production recorded through 1978.
+Vintage Gibson SG Special guide values run from $1,700 to $2,250 for the 1970s mini-humbucker version to $4,900 to $10,000 for clean original early P-90 guitars, as of October 2026. I separate those two versions and include the production recorded through 1978.
 
 For the year and original specification, use my [Gibson SG Special dating and identification guide](/gibson-sg-dating-guide/#sg-special). This guide covers market value and the features that move it.
 
@@ -8,24 +8,24 @@ For the year and original specification, use my [Gibson SG Special dating and id
 
 | Year | Value Range | Configuration And Year Notes | Shipments |
 | --- | --- | --- | --- |
-| 1961 | $5,500 to $10,000 | Pointed SG body only; earlier rounded Special excluded. | Not listed |
+| 1961 | $6,150 to $7,900 | Pointed SG body only; earlier rounded Special excluded. | Not listed |
 | 1962 | $5,500 to $10,000 | Small guard and two soapbar P-90s. | 1,336 |
-| 1963 | $5,500 to $10,000 | Small guard and two soapbar P-90s. | 1,391 |
-| 1964 | $5,500 to $10,000 | Small guard and two soapbar P-90s. | 2,022 |
+| 1963 | $6,550 to $8,250 | Small guard and two soapbar P-90s. | 1,391 |
+| 1964 | $6,400 to $8,100 | Small guard and two soapbar P-90s. | 2,022 |
 | 1965 | $4,900 to $6,400 | Small guard and two soapbar P-90s. | 2,618 |
 | 1966 | $3,000 to $6,000 | Small to large guard transition; match actual version. | 1,870 |
-| 1967 | $3,000 to $6,000 | Large guard; original cherry. | 1,664 |
-| 1968 | $3,000 to $6,000 | Large guard; original cherry. | 1,461 |
-| 1969 | $3,000 to $6,000 | Large guard; original cherry or later walnut. | 2,378 |
+| 1967 | $3,650 to $4,700 | Large guard; original cherry. | 1,664 |
+| 1968 | $3,700 to $4,750 | Large guard; original cherry. | 1,461 |
+| 1969 | $3,700 to $4,750 | Large guard; original cherry or later walnut. | 2,378 |
 | 1970 | $3,350 to $4,400 | Large guard; original cherry or later walnut. | 2,862 |
 | 1971 | $3,400 to $4,450 | P-90 Special only; SG Pro excluded. | 1,571 |
-| 1972 | $2,000 to $2,500 | Returning Special with factory mini-humbuckers. | 749 |
-| 1973 | $2,000 to $2,500 | Mini-humbuckers; distinct from the 1960s P-90 model. | 3,534 |
-| 1974 | $2,000 to $2,500 | Mini-humbuckers; distinct from the 1960s P-90 model. | 2,183 |
-| 1975 | $2,000 to $2,500 | Mini-humbuckers; distinct from the 1960s P-90 model. | 593 |
-| 1976 | $2,000 to $2,500 | 549 shipped; shared mini-humbucker reference. | 549 |
-| 1977 | $2,000 to $2,500 | 232 shipped; shared mini-humbucker reference. | 232 |
-| 1978 | $2,000 to $2,500 | Two shipped; shipment does not establish build year. | 2 |
+| 1972 | $1,700 to $2,150 | Returning Special with factory mini-humbuckers. | 749 |
+| 1973 | $1,700 to $2,150 | Mini-humbuckers; distinct from the 1960s P-90 model. | 3,534 |
+| 1974 | $1,750 to $2,200 | Mini-humbuckers; distinct from the 1960s P-90 model. | 2,183 |
+| 1975 | $1,800 to $2,250 | Mini-humbuckers; distinct from the 1960s P-90 model. | 593 |
+| 1976 | $1,750 to $2,200 | 549 shipped; shared mini-humbucker reference. | 549 |
+| 1977 | $1,750 to $2,200 | 232 shipped; shared mini-humbucker reference. | 232 |
+| 1978 | $1,750 to $2,200 | Two shipped; shipment does not establish build year. | 2 |
 | 1979 | No Range Established | No original-run shipment range established. | Not listed |
 
 The 1961 row covers the pointed SG body, not the earlier rounded double-cutaway Special that also carried the SG name. The large-guard range includes cherry and walnut. Mini-humbuckers were standard on the returning Special from 1972. Later shipment years don't necessarily establish when a particular guitar was manufactured.
@@ -84,7 +84,7 @@ The later P-90 range covers both cherry and walnut guitars. Wear and minor chang
 
 The returning Special uses mini-humbuckers as its standard pickup specification from 1972. They're part of the factory model, not a later substitution for P-90s. The bridge and fingerboard details also distinguish this version from the earlier Special.
 
-The SG Pro briefly fills the Special's role with a different front control plate and P-90 arrangement. It isn't included in the mini-humbucker band. The $2,000 to $2,500 range belongs to the returning Special and allows minor tuner, pot or strap-button changes.
+The SG Pro briefly fills the Special's role with a different front control plate and P-90 arrangement. It isn't included in the mini-humbucker band. The $1,700 to $2,250 range belongs to the returning Special and allows minor tuner, pot or strap-button changes.
 
 ### Why The Table Continues After 1975
 
