@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
+import LeadForm from "../components/LeadForm.astro";
 import { SITE_URL, contact, hrefs } from "../config/site";
 import { buildImageGraph } from "../lib/imageLicense";
 import "../styles/rickenbacker-selling.css";
@@ -92,7 +93,7 @@ const structuredData = [...[
   ogImageAlt="Natural-finish Rickenbacker 360 lying in its blue-lined case"
   ogImageWidth={1200}
   ogImageHeight={800}
-  modifiedTime="2026-10-26T00:00:00-07:00"
+  modifiedTime="2026-10-27T00:00:00-07:00"
   structuredData={structuredData}
 >
   <div class="smr-header-backdrop" aria-hidden="true"></div>
@@ -102,11 +103,23 @@ const structuredData = [...[
  <h1>Sell Your Rickenbacker Guitar Or Bass</h1>
  <p class="hero-lede">I buy vintage and used Rickenbacker guitars and basses across the US. Send me photos for a free appraisal and a cash offer.</p>
  <p>A 360/12, a 4001 bass, or a Rickenbacker you've inherited: start with the instrument and whatever you know about it. I can help identify the model and year.</p>
- <div class="buttons"><a class="button primary" href="#contact">Get A Rickenbacker Offer</a><a class="button outline" href={hrefs.sms}>Text Joe Photos</a></div>
+ <div class="buttons"><a class="button primary" href="#appraisal">Get A Rickenbacker Offer</a><a class="button outline" href={hrefs.sms}>Text Joe Photos</a></div>
  <p class="hero-phone">Or call <a href={hrefs.tel}>{contact.phone}</a></p></div>
  <figure class="hero-photo"><img class="" src="/images/rickenbacker-selling/360-front-1200.webp" srcset="/images/rickenbacker-selling/360-front-640.webp 640w, /images/rickenbacker-selling/360-front-1200.webp 1200w, /images/rickenbacker-selling/360-front-1800.webp 1800w" sizes="(max-width: 760px) 92vw, 560px" width="1200" height="800" alt="Natural-finish Rickenbacker 360 lying in its blue-lined case" fetchpriority="high" loading="eager" decoding="async"><figcaption>A Rickenbacker 360 from Joe's photo archive.</figcaption></figure>
 </section>
 <div class="service-strip"><span>Free Photo Appraisals</span><span>Prepaid, Insured Shipping</span><span>Single Instruments &amp; Collections</span></div>
+<section class="top-offer" id="appraisal" aria-labelledby="rickenbacker-offer-title">
+ <div class="wrap section top-offer-grid">
+  <div class="top-offer-intro">
+   <p class="eyebrow">Talk With Me</p>
+   <h2 id="rickenbacker-offer-title">Tell Me About Your Rickenbacker</h2>
+   <p>Tell me what you know about your guitar or bass. If you're unsure of the model or year, leave those fields blank. I'll review the details and get back to you.</p>
+   <p class="top-offer-note">Have photos ready? <a href="#photos">See which photos to send.</a> You can upload them after submitting the form.</p>
+   <a class="button primary" href={hrefs.tel}>Call Joe: {contact.phone}</a>
+  </div>
+  <LeadForm formId="sell-rickenbacker-top" instrumentMode="model-only" submitLabel="Send My Rickenbacker Details" />
+ </div>
+</section>
 <nav class="toc wrap" aria-label="On This Page"><span>On This Page</span><a href="#models">Models I Buy</a><a href="#value">Value &amp; Condition</a><a href="#photos">Photos To Send</a><a href="#selling">Selling Process</a><a href="#shipping">FedEx Shipping</a><a href="#questions">Questions</a></nav>
 
 <section class="wrap section" id="models">
