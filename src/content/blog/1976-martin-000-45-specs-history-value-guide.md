@@ -286,7 +286,7 @@ Where a 1976 000-45 sits relative to its neighbors is worth spelling out, becaus
 | 1976 Martin 000-28 | Low thousands | Same body, same woods, ordinary trim, built in quantity |
 | 1976 Martin 000-45 | Low to middle five figures | Same guitar underneath, wearing every appointment Martin offered, built in single digits per year |
 | 1976 Martin D-45 | Middle five figures | Dreadnought demand plus Style 45 trim |
-| 1968 to 1969 Martin D-45 | $35,000 to $55,000 | First years of the reissue, and the last with Brazilian rosewood |
+| 1968 to 1969 Martin D-45 | $43,500 to $60,900 | First years of the reissue, and the last with Brazilian rosewood |
 | Pre-war Martin 000-45 | Six figures | Brazilian rosewood, Adirondack top, snowflake inlays, tiny original run |
 | Pre-war Martin D-45 | $450,000 to $675,000 | The most collected flat-top acoustic there is |
 

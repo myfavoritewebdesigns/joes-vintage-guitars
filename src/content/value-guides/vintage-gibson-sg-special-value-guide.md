@@ -1,4 +1,4 @@
-Vintage Gibson SG Special guide values run from $2,000 to $2,500 for the 1970s mini-humbucker version to $5,500 to $10,000 for clean original early P-90 guitars, as of October 2026. I separate those two versions and include the production recorded through 1978.
+Vintage Gibson SG Special guide values run from $2,000 to $2,500 for the 1970s mini-humbucker version to $4,900 to $10,000 for clean original early P-90 guitars, as of October 2026. I separate those two versions and include the production recorded through 1978.
 
 For the year and original specification, use my [Gibson SG Special dating and identification guide](/gibson-sg-dating-guide/#sg-special). This guide covers market value and the features that move it.
 
@@ -12,13 +12,13 @@ For the year and original specification, use my [Gibson SG Special dating and id
 | 1962 | $5,500 to $10,000 | Small guard and two soapbar P-90s. | 1,336 |
 | 1963 | $5,500 to $10,000 | Small guard and two soapbar P-90s. | 1,391 |
 | 1964 | $5,500 to $10,000 | Small guard and two soapbar P-90s. | 2,022 |
-| 1965 | $5,500 to $10,000 | Small guard and two soapbar P-90s. | 2,618 |
+| 1965 | $4,900 to $6,400 | Small guard and two soapbar P-90s. | 2,618 |
 | 1966 | $3,000 to $6,000 | Small to large guard transition; match actual version. | 1,870 |
 | 1967 | $3,000 to $6,000 | Large guard; original cherry. | 1,664 |
 | 1968 | $3,000 to $6,000 | Large guard; original cherry. | 1,461 |
 | 1969 | $3,000 to $6,000 | Large guard; original cherry or later walnut. | 2,378 |
-| 1970 | $3,000 to $6,000 | Large guard; original cherry or later walnut. | 2,862 |
-| 1971 | $3,000 to $6,000 | P-90 Special only; SG Pro excluded. | 1,571 |
+| 1970 | $3,350 to $4,400 | Large guard; original cherry or later walnut. | 2,862 |
+| 1971 | $3,400 to $4,450 | P-90 Special only; SG Pro excluded. | 1,571 |
 | 1972 | $2,000 to $2,500 | Returning Special with factory mini-humbuckers. | 749 |
 | 1973 | $2,000 to $2,500 | Mini-humbuckers; distinct from the 1960s P-90 model. | 3,534 |
 | 1974 | $2,000 to $2,500 | Mini-humbuckers; distinct from the 1960s P-90 model. | 2,183 |
@@ -44,7 +44,7 @@ The 1961 row covers the pointed SG body, not the earlier rounded double-cutaway 
 
 Two soapbar P-90 pickups, four controls and a bound rosewood fingerboard distinguish the 1960s Special from the Junior. P-90s are single-coil pickups, even though their broad black covers can look substantial. The Special's appeal rests on that original pickup arrangement and the simpler wraparound-based hardware.
 
-The $5,500 to $10,000 early band covers excellent original examples with original cases, including factory wraparound and short-vibrato versions. A neck repair, full refinish or humbucker routing puts the guitar outside those assumptions.
+The $4,900 to $10,000 early band covers excellent original examples with original cases, including factory wraparound and short-vibrato versions. A neck repair, full refinish or humbucker routing puts the guitar outside those assumptions.
 
 The name needs attention at the beginning of the run. Gibson used SG Special on the earlier rounded double-cutaway model before the pointed body arrived. The 1961 row here prices the pointed SG shape, not every guitar with SG Special in an old description.
 

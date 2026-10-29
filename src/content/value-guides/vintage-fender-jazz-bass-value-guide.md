@@ -14,21 +14,21 @@ Each production year has a row, and adjacent years can share a range. The two co
 | --- | --- | --- |
 | 1960 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, replacement nut disclosed |
 | 1961 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, replacement nut disclosed |
-| 1961 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
+| 1961 | $21,750 to $30,450 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
 | 1962 | $21,000 to $29,000 | 1960 to early 1962 stack-knob era; Excellent original sunburst and case, replacement nut disclosed |
-| 1962 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
+| 1962 | $18,900 to $24,750 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
 | 1963 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
 | 1964 | $10,000 to $21,000 | 1961 to 1964 three-control era; Good to Excellent sunburst, case documentation varies |
-| 1965 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
+| 1965 | $8,900 to $13,350 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
 | 1966 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
-| 1967 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
-| 1968 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
-| 1969 | $4,500 to $12,000 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
+| 1967 | $5,250 to $7,400 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
+| 1968 | $5,300 to $7,500 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
+| 1969 | $5,350 to $7,600 | 1965 to 1969 era; Good to Excellent original sunburst, minor hardware changes disclosed |
 | 1970 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
 | 1971 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
-| 1972 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
-| 1973 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
-| 1974 | $3,500 to $6,000 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
+| 1972 | $3,550 to $4,750 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
+| 1973 | $3,350 to $4,050 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
+| 1974 | $2,500 to $3,850 | 1970 to 1974 era; Excellent to Mint sunburst, original case, refret disclosed |
 | 1975 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
 | 1976 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
 | 1977 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, case varies |
@@ -71,7 +71,7 @@ Early 1962 stack-knob examples belong with the original stack-knob configuration
 
 ### The Early Three-Control Years
 
-The 1961 to 1964 three-control range is $10,000 to $21,000. It covers different fingerboards and condition levels. Worn examples with incomplete accessories belong lower than excellent earlier configurations.
+The 1961 to 1964 three-control range is $10,000 to $30,450. It covers different fingerboards and condition levels. Worn examples with incomplete accessories belong lower than excellent earlier configurations.
 
 Once the bass is identified, I narrow that interval. Original finish and pickups, the correct neck, repair history, usable frets and the case all belong in the same appraisal. A clean description without photographs of the wear and changed parts doesn't give me enough to place a bass at the upper end.
 
@@ -79,11 +79,11 @@ An original owner history can help establish what was changed and when. It doesn
 
 ## How I Compare The CBS And Seventies Basses
 
-For 1965 to 1969, the $4,500 to $12,000 range spans Good, worn later examples through excellent originals from 1965. The lower floor than the Precision Bass comparison reflects the Good-condition players included here; that Precision band starts at Very Good. Compare equally complete basses in the same condition before treating the difference as a model premium.
+For 1965 to 1969, the $4,500 to $13,350 range spans Good, worn later examples through excellent originals from 1965. The lower floor than the Precision Bass comparison reflects the Good-condition players included here; that Precision band starts at Very Good. Compare equally complete basses in the same condition before treating the difference as a model premium.
 
 A 1966 bound-dot bass deserves its own inspection because it sits within a transition. Its condition and complete configuration can appeal to a different buyer from a later block-inlay player. Its originality and condition determine where it falls within the range.
 
-The 1970 to 1974 comparison is $3,500 to $6,000. The reference includes original-finish sunburst basses with original pickups and cases, from serviced players to unusually complete examples. Fretwork and a replacement nut are disclosed changes, rather than reasons to describe every bass in that interval as untouched.
+The 1970 to 1974 comparison is $2,500 to $6,000. The reference includes original-finish sunburst basses with original pickups and cases, from serviced players to unusually complete examples. Fretwork and a replacement nut are disclosed changes, rather than reasons to describe every bass in that interval as untouched.
 
 <figure>
 

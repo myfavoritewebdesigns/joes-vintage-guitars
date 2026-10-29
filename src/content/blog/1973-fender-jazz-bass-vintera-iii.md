@@ -215,7 +215,7 @@ Vintage-tall frets. 7.25" radius. Period-correct hardware, including the vintage
 | Bridge | Vintage 4-saddle, steel saddles | Vintage 4-saddle, slotted steel saddles |
 | Tuners | Fender-stamped open-gear | Vintage-style reverse tuners |
 | Country of origin | Fullerton, California, USA | Ensenada, Mexico |
-| Price (today) | $3,500 to $6,000 for original sunburst with its case; condition and servicing affect placement | $1,499 street |
+| Price (today) | $3,350 to $4,050 for original sunburst with its case; condition and servicing affect placement | $1,499 street |
 
 None of this means the Vintera III replaces the original. A 1973 in honest, all-original condition has 50+ years of played-in resonance, history, and provenance baked in, and there's a value to *that bass having existed in the world for that long* that you can't manufacture. But I plugged in this Vintera III, and after a couple of minutes I just sat back and went, "yeah. They got it."
 

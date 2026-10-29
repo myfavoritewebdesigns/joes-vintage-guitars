@@ -12,7 +12,7 @@ heroImageAlt: "Front of a 1971 Fender Competition Mustang in Competition Blue wi
 metaDescription: "Vintage Fender Mustang values from 1964 to 1979, with annual price ranges, Competition finishes, original parts, dating details and photos from my shop."
 ogImage: "/images/blog/fender-mustang-history-value/1971-fender-mustang-competition-blue-front.jpg"
 ---
-Vintage Fender Mustangs range from $1,500 to $2,500 for original 1970s sunburst guitars to $4,000 to $5,500 in Competition asking ranges. Early 1964 and 1965 standard-finish examples have a $2,000 to $4,000 asking range in excellent, all-original condition. I assess the actual configuration and condition before discussing an offer.
+Vintage Fender Mustangs range from $1,500 to $2,500 for original 1970s sunburst guitars to $3,500 to $5,500 in Competition asking ranges. Early 1964 and 1965 standard-finish examples have a $2,000 to $4,000 asking range in excellent, all-original condition. I assess the actual configuration and condition before discussing an offer.
 
 If you're comparing more than one Fender, my [vintage Fender value guide](/vintage-fender-value-guide/) brings the model price tables together.
 
@@ -24,12 +24,12 @@ As of October 2026, the 1964 to 1971 standard-finish rows and all Competition ro
 | --- | --- | --- |
 | 1964 | $2,000 to $4,000 | Outside Competition Run |
 | 1965 | $2,000 to $4,000 | Outside Competition Run |
-| 1966 | $1,500 to $2,000 | Outside Competition Run |
-| 1967 | $1,500 to $2,000 | Outside Competition Run |
-| 1968 | $1,500 to $2,000 | $4,000 to $5,500 |
-| 1969 | $1,500 to $2,000 | $4,000 to $5,500 |
-| 1970 | $1,500 to $2,000 | $4,000 to $5,500 |
-| 1971 | $1,500 to $2,000 | $4,000 to $5,500 |
+| 1966 | $2,150 to $2,750 | Outside Competition Run |
+| 1967 | $2,200 to $2,800 | Outside Competition Run |
+| 1968 | $2,150 to $2,750 | $4,000 to $5,500 |
+| 1969 | $2,150 to $2,750 | $3,500 to $4,600 |
+| 1970 | $1,750 to $2,200 | $3,600 to $4,700 |
+| 1971 | $1,700 to $2,150 | $4,000 to $5,500 |
 | 1972 | $1,500 to $2,500 | $4,000 to $5,500 |
 | 1973 | $1,500 to $2,500 | $4,000 to $5,500 |
 | 1974 | $1,500 to $2,500 | Outside Competition Run |
@@ -334,7 +334,7 @@ A Competition Mustang is a Mustang finished in Fender's "Competition" package, o
 
 **What is my vintage Fender Mustang worth?**
 
-As of October 2026, asking ranges are $2,000 to $4,000 for all-original, excellent 1964 to 1965 Mustangs and $4,000 to $5,500 for Competition models. The guide range for original 1970s sunburst guitars with their original cases is $1,500 to $2,500. Condition and the specific finish determine which range applies.
+As of October 2026, asking ranges are $2,000 to $4,000 for all-original, excellent 1964 to 1965 Mustangs and $3,500 to $5,500 for Competition models. The guide range for original 1970s sunburst guitars with their original cases is $1,500 to $2,500. Condition and the specific finish determine which range applies.
 
 **What is the difference between the 22.5 inch and 24 inch scale Mustang?**
 
@@ -473,7 +473,7 @@ No. Reissues are good guitars, but they are worth a fraction of a vintage origin
       "name": "What is my vintage Fender Mustang worth?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "As of October 2026, asking ranges are $2,000 to $4,000 for all-original, excellent 1964 to 1965 Mustangs and $4,000 to $5,500 for Competition models. The guide range for original 1970s sunburst guitars with their original cases is $1,500 to $2,500. Condition and the specific finish determine which range applies."
+        "text": "As of October 2026, asking ranges are $2,000 to $4,000 for all-original, excellent 1964 to 1965 Mustangs and $3,500 to $5,500 for Competition models. The guide range for original 1970s sunburst guitars with their original cases is $1,500 to $2,500. Condition and the specific finish determine which range applies."
       }
     },
     {

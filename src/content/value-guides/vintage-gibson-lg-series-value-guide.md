@@ -1,4 +1,4 @@
-A clean vintage Gibson LG-2 has a guide range of $3,500 to $8,000 across its original eras, while the LG-0, LG-1 and LG-3 have their own ranges. These values assume excellent, original condition and the original case, reviewed in October 2026. I use the model, construction and repair history to narrow the appraisal.
+A clean vintage Gibson LG-2 has a guide range of $3,600 to $4,450 across its original eras, while the LG-0, LG-1 and LG-3 have their own ranges. These values assume excellent, original condition and the original case, reviewed in October 2026. I use the model, construction and repair history to narrow the appraisal.
 
 If the model is uncertain, start with my [Gibson LG identification and construction guide](/post/joesvintageguitarsaz-com-identify-gibson-lg-series/). A sunburst top alone doesn't distinguish an LG-1 from an LG-2, and the price table assumes that identification has already been resolved.
 
@@ -10,18 +10,18 @@ Each range assumes an all-original guitar in excellent condition, structurally s
 
 | Era | Model And Configuration | Value Range |
 | --- | --- | --- |
-| 1958 to 1974 | LG-0, original mahogany model | $1,000 to $2,000 |
+| 1958 to 1974 | LG-0, original mahogany model | $750 to $1,650 |
 | Postwar to 1968 | LG-1, ladder-braced sunburst | $2,000 to $4,500 |
 | 1942 to 1945 | LG-2, spruce-top Banner | $6,000 to $8,000 |
 | 1946 to 1949 | LG-2, early postwar | $5,000 to $7,000 |
-| 1950 to 1962 | LG-2, later original production | $3,500 to $6,000 |
-| 1950s to early 1960s | LG-3, natural X-braced | $3,500 to $8,000 |
+| 1950 to 1962 | LG-2, later original production | $2,700 to $5,350 |
+| 1950s to early 1960s | LG-3, natural X-braced | $3,600 to $4,450 |
 | Wartime | LG-1 or LG-3, confirm construction | Individual Appraisal |
 | Early postwar | LG-3, natural X-braced | Individual Appraisal |
 
-The LG-0 reference combines $1,000 to $2,000 across its original run. The broad LG-1 envelope is $2,000 to $4,500, and the LG-3 envelope is $3,500 to $8,000. Those wide ranges span changes in age and configuration; they aren't interchangeable quotes for every example.
+The LG-0 reference combines $750 to $1,650 across its original run. The broad LG-1 envelope is $2,000 to $4,500, and the LG-3 envelope is $3,600 to $4,450. Those wide ranges span changes in age and configuration; they aren't interchangeable quotes for every example.
 
-For the LG-2, the spruce-top Banner reference is $6,000 to $8,000, early postwar production is $5,000 to $7,000, and the combined later-production reference is $3,500 to $6,000. A mahogany-top Banner guitar needs its own comparison. Its construction differs from the spruce-top examples.
+For the LG-2, the spruce-top Banner reference is $6,000 to $8,000, early postwar production is $5,000 to $7,000, and the combined later-production reference is $2,700 to $5,350. A mahogany-top Banner guitar needs its own comparison. Its construction differs from the spruce-top examples.
 
 The LG-2 and LG-3 transition into the B-25 family in the early 1960s. Check the actual model and construction on a later-dated example.
 

@@ -222,8 +222,8 @@ Vintage Sheraton values move with the year, the pickups, the finish, the conditi
 
 | Segment | Player or modified | All-original, excellent |
 | --- | --- | --- |
-| 1958 to 1960, New York pickups | about $5,000 to $8,000 | about $10,000 to $16,000 |
-| 1961 to 1965, mini-humbuckers | about $4,000 to $6,500 | about $8,000 to $12,000 |
+| 1958 to 1960, New York pickups | about $5,000 to $8,000 | about $7,150 to $10,700 |
+| 1961 to 1965, mini-humbuckers | about $4,000 to $6,500 | about $4,450 to $10,050 |
 | Late 1960s Kalamazoo | about $3,500 to $5,500 | about $6,000 to $9,000 |
 
 A few things sit outside the table. A rare Natural, or blonde, finish carries a strong premium over sunburst, because far fewer were made. Gruhn's shipping data records only around 689 Sheratons leaving Kalamazoo across the entire 1959 to 1969 run, with sunburst outnumbering Natural by roughly four to one, so a clean early blonde can bring well beyond the sunburst figures above. All-original New York pickups, an original Frequensator, an original case, and any documented history all push a guitar toward the top of its range. A refinish, changed pickups, a converted tailpiece, a headstock repair, or a refret all pull it down.

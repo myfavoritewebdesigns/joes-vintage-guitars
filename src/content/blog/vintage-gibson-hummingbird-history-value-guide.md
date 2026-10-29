@@ -33,7 +33,7 @@ toc:
   - { href: "#five", label: "The Five in These Photos" }
   - { href: "#faq", label: "Frequently Asked Questions" }
 ---
-The asking range for a clean, original vintage Gibson Hummingbird is $1,500 to $11,000, with early 1960s guitars toward the upper end. A 1960 to 1962 cherry sunburst sits at $7,500 to $11,000; a 1973 to 1979 example sits at $1,500 to $3,000. I assess the year, bridge condition, originality and repairs before discussing an offer.
+The asking range for a clean, original vintage Gibson Hummingbird is $1,500 to $11,000, with early 1960s guitars toward the upper end. A 1960 to 1962 cherry sunburst sits at $7,500 to $11,000; a 1973 to 1979 example sits at $2,600 to $3,600. I assess the year, bridge condition, originality and repairs before discussing an offer.
 
 <h2 id="value">Vintage Gibson Hummingbird Values By Year</h2>
 
@@ -44,23 +44,23 @@ As of October 2026, the table shows asking ranges for clean, all-original, struc
 | 1960 | $7,500 to $11,000 | First Year, Cherry Sunburst, Wide Nut, Fixed Saddle |
 | 1961 | $7,500 to $11,000 | Cherry Sunburst, Wide Nut, Early Run |
 | 1962 | $7,500 to $11,000 | Cherry Sunburst, Wide Nut, Early Run |
-| 1963 | $6,000 to $9,000 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
-| 1964 | $6,000 to $9,000 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
-| 1965 | $4,500 to $6,500 | Narrow Nut, Otherwise Unchanged |
+| 1963 | $7,900 to $10,550 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
+| 1964 | $7,850 to $10,450 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
+| 1965 | $5,200 to $7,400 | Narrow Nut, Otherwise Unchanged |
 | 1966 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
 | 1967 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
 | 1968 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
-| 1969 | $2,000 to $3,500 | Late 1960s Neck And Bridge Transition |
-| 1970 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
-| 1971 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
-| 1972 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
-| 1973 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1974 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1975 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1976 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1977 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1978 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1979 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1969 | $3,100 to $4,400 | Late 1960s Neck And Bridge Transition |
+| 1970 | $2,650 to $3,950 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1971 | $2,700 to $4,050 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1972 | $2,650 to $3,550 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1973 | $2,700 to $3,600 | Block Inlays, Double-X Bracing, Custom Label |
+| 1974 | $2,650 to $3,500 | Block Inlays, Double-X Bracing, Custom Label |
+| 1975 | $2,650 to $3,550 | Block Inlays, Double-X Bracing, Custom Label |
+| 1976 | $2,650 to $3,500 | Block Inlays, Double-X Bracing, Custom Label |
+| 1977 | $2,650 to $3,500 | Block Inlays, Double-X Bracing, Custom Label |
+| 1978 | $2,600 to $3,500 | Block Inlays, Double-X Bracing, Custom Label |
+| 1979 | $2,600 to $3,450 | Block Inlays, Double-X Bracing, Custom Label |
 
 A 1965 label alone doesn't settle the nut width. That row covers the narrow-nut configuration; an early wide-nut guitar needs an individual appraisal. Natural finishes, unusual wood combinations, major repairs and bridge replacements also need separate consideration.
 

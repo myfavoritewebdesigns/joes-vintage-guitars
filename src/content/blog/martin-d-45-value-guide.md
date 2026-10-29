@@ -3,7 +3,7 @@ title: "Martin D-45 Value Guide: Prewar And 1960s Guitars"
 seoTitle: "Martin D-45 Value Guide: Prewar And 1960s Guitars"
 pubDate: "2026-10-26T14:00:00-07:00"
 modified: "2026-10-26T14:00:00-07:00"
-excerpt: "A Brazilian-rosewood Martin D-45 from 1968 or 1969 is approximately $35,000 to $60,000, depending on condition and originality. Original prewar D-45s require individual appraisal."
+excerpt: "A Brazilian-rosewood Martin D-45 from 1968 or 1969 is approximately $43,500 to $60,900, depending on condition and originality. Original prewar D-45s require individual appraisal."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: ["Martin guitars", "Martin values", "d-45"]

@@ -1,4 +1,4 @@
-Vintage Gibson SG guide values range from $2,000 to $2,500 for 1970s mini-humbucker Specials to $13,000 to $23,000 for early Standards, as of October 2026. The model, pickups, finish and repair history explain the spread; I've listed the four main models through 1979 below.
+Vintage Gibson SG guide values range from $2,000 to $2,500 for 1970s mini-humbucker Specials to $16,950 to $24,350 for early Standards, as of October 2026. The model, pickups, finish and repair history explain the spread; I've listed the four main models through 1979 below.
 
 For the year and original specification, use my [Gibson SG dating and identification guide](/gibson-sg-dating-guide/). This guide covers market value and the features that move it.
 
@@ -8,25 +8,25 @@ For the year and original specification, use my [Gibson SG dating and identifica
 
 | Year | Standard | Special | Junior | Custom | Year Notes | Shipments |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1961 | $13,000 to $23,000 | $5,500 to $10,000 | $5,500 to $8,000 | $16,000 to $22,000 | Pointed SG body; earlier rounded Special excluded. | Not listed |
+| 1961 | $19,600 to $24,350 | $5,500 to $10,000 | $5,500 to $8,000 | $16,000 to $22,000 | Pointed SG body; earlier rounded Special excluded. | Not listed |
 | 1962 | $13,000 to $23,000 | $5,500 to $10,000 | $5,500 to $8,000 | $16,000 to $22,000 | Small-guard era; factory pickups and vibratos. | Standard: 1,449; Special: 1,336; Junior: 2,395; Custom: 298 |
-| 1963 | $13,000 to $23,000 | $5,500 to $10,000 | $5,500 to $8,000 | $16,000 to $22,000 | Small-guard era; factory pickups and vibratos. | Standard: 1,445; Special: 1,391; Junior: 2,318; Custom: 264 |
-| 1964 | $13,000 to $23,000 | $5,500 to $10,000 | $5,500 to $8,000 | $16,000 to $22,000 | Small-guard era; factory pickups and vibratos. | Standard: 1,375; Special: 2,022; Junior: 3,364; Custom: 130 |
-| 1965 | $11,000 to $13,000 | $5,500 to $10,000 | $5,500 to $8,000 | $16,000 to $22,000 | Small-guard era; factory pickups and vibratos. | Standard: 1,731; Special: 2,618; Junior: 3,570; Custom: 236 |
-| 1966 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Guard transition; small and large versions overlap. | Standard: 1,046; Special: 1,870; Junior: 1,928; Custom: 125 |
-| 1967 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Large guards; later finishes and neck changes. | Standard: 1,154; Special: 1,664; Junior: 1,021; Custom: 43 |
-| 1968 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Large guards; later finishes and neck changes. | Standard: 1,340; Special: 1,461; Junior: 561; Custom: 264 |
-| 1969 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Large guards; later finishes and neck changes. | Standard: 3,354; Special: 2,378; Junior: 751; Custom: 451 |
-| 1970 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Large guards; later finishes and neck changes. | Standard: 5,048; Special: 2,862; Junior: 938; Custom: 317 |
-| 1971 | $4,500 to $7,500 | $3,000 to $6,000 | $2,500 to $4,000 | $6,000 to $13,000 | Deluxe and Pro excluded; Custom changes configuration. | Special: 1,571; Custom: 395 |
-| 1972 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | Standard and mini-humbucker Special return. | Standard: 1,009; Special: 749; Custom: 400 |
-| 1973 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | Later small guards; factory model determines the range. | Standard: 3,009; Special: 3,534; Custom: 775 |
-| 1974 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | Later small guards; factory model determines the range. | Standard: 2,295; Special: 2,183; Custom: 939 |
-| 1975 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | Later small guards; factory model determines the range. | Standard: 2,042; Special: 593; Custom: 149 |
-| 1976 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | 549 Special shipments. | Standard: 2,834; Special: 549; Custom: 376 |
-| 1977 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | 232 Special shipments. | Standard: 2,618; Special: 232; Custom: 279 |
-| 1978 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $3,000 to $6,000 | Two Special shipments. | Standard: 2,503; Special: 2; Custom: 217 |
-| 1979 | $2,500 to $3,000 | No Range | Outside Original Run | $3,000 to $6,000 | No original-run Junior or Special range. | Not listed |
+| 1963 | $16,950 to $21,650 | $5,500 to $10,000 | $5,500 to $8,000 | $20,700 to $27,400 | Small-guard era; factory pickups and vibratos. | Standard: 1,445; Special: 1,391; Junior: 2,318; Custom: 264 |
+| 1964 | $13,000 to $23,000 | $5,500 to $10,000 | $5,100 to $6,600 | $19,800 to $26,400 | Small-guard era; factory pickups and vibratos. | Standard: 1,375; Special: 2,022; Junior: 3,364; Custom: 130 |
+| 1965 | $13,500 to $17,400 | $4,900 to $6,400 | $3,750 to $5,000 | $12,600 to $16,650 | Small-guard era; factory pickups and vibratos. | Standard: 1,731; Special: 2,618; Junior: 3,570; Custom: 236 |
+| 1966 | $8,150 to $10,550 | $3,000 to $6,000 | $3,300 to $4,350 | $9,450 to $12,600 | Guard transition; small and large versions overlap. | Standard: 1,046; Special: 1,870; Junior: 1,928; Custom: 125 |
+| 1967 | $7,550 to $9,800 | $3,000 to $6,000 | $3,250 to $4,300 | $9,150 to $12,200 | Large guards; later finishes and neck changes. | Standard: 1,154; Special: 1,664; Junior: 1,021; Custom: 43 |
+| 1968 | $6,050 to $7,650 | $3,000 to $6,000 | $3,350 to $4,400 | $9,250 to $12,300 | Large guards; later finishes and neck changes. | Standard: 1,340; Special: 1,461; Junior: 561; Custom: 264 |
+| 1969 | $4,500 to $7,500 | $3,000 to $6,000 | $3,400 to $4,500 | $5,100 to $6,750 | Large guards; later finishes and neck changes. | Standard: 3,354; Special: 2,378; Junior: 751; Custom: 451 |
+| 1970 | $3,400 to $4,550 | $3,350 to $4,400 | $2,500 to $4,000 | $3,350 to $4,600 | Large guards; later finishes and neck changes. | Standard: 5,048; Special: 2,862; Junior: 938; Custom: 317 |
+| 1971 | $3,350 to $4,350 | $3,400 to $4,450 | $2,500 to $4,000 | $2,850 to $4,050 | Deluxe and Pro excluded; Custom changes configuration. | Special: 1,571; Custom: 395 |
+| 1972 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $2,900 to $4,050 | Standard and mini-humbucker Special return. | Standard: 1,009; Special: 749; Custom: 400 |
+| 1973 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $2,850 to $4,050 | Later small guards; factory model determines the range. | Standard: 3,009; Special: 3,534; Custom: 775 |
+| 1974 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $2,500 to $3,350 | Later small guards; factory model determines the range. | Standard: 2,295; Special: 2,183; Custom: 939 |
+| 1975 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $2,450 to $3,350 | Later small guards; factory model determines the range. | Standard: 2,042; Special: 593; Custom: 149 |
+| 1976 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $2,550 to $3,150 | 549 Special shipments. | Standard: 2,834; Special: 549; Custom: 376 |
+| 1977 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $2,500 to $3,150 | 232 Special shipments. | Standard: 2,618; Special: 232; Custom: 279 |
+| 1978 | $2,500 to $3,000 | $2,000 to $2,500 | Outside Original Run | $2,500 to $3,100 | Two Special shipments. | Standard: 2,503; Special: 2; Custom: 217 |
+| 1979 | $2,500 to $3,000 | No Range | Outside Original Run | $2,450 to $3,050 | No original-run Junior or Special range. | Not listed |
 
 The Special shipment dates above come from my [Gibson shipment record](/post/gibson-shipping-totals-1948-1979/#sg-jr-spec-62-78). Shipping can follow manufacture. A small-guard 1966, a later small-guard 1971 Custom, an SG Deluxe or an SG Pro needs the correct configuration identified before a range is applied.
 

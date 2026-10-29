@@ -17,7 +17,7 @@ The figures assume an all-original guitar in excellent condition with its origin
 | 1946 | Early postwar and small-guard era | $8,000 to $14,000 |
 | 1947 | Early postwar and small-guard era | $8,000 to $14,000 |
 | 1948 | Early postwar and small-guard era | $8,000 to $14,000 |
-| 1949 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1949 | Early postwar and small-guard era | $7,400 to $10,450 |
 | 1950 | Small-guard postwar era | $8,000 to $10,000 |
 | 1951 | Small-guard postwar era | $8,000 to $10,000 |
 | 1952 | Small-guard postwar era | $8,000 to $10,000 |
@@ -33,11 +33,11 @@ The figures assume an all-original guitar in excellent condition with its origin
 | 1962 | Standard sunburst, including body transition | $3,000 to $7,000 |
 | 1963 | Standard sunburst, including body transition | $3,000 to $7,000 |
 | 1964 | Standard sunburst, including body transition | $3,000 to $7,000 |
-| 1965 | Standard sunburst, including body transition | $3,000 to $7,000 |
-| 1966 | Standard sunburst, including body transition | $3,000 to $7,000 |
-| 1967 | Standard sunburst, including body transition | $3,000 to $7,000 |
-| 1968 | Standard sunburst, including body transition | $3,000 to $7,000 |
-| 1969 | Standard sunburst, including body transition | $3,000 to $7,000 |
+| 1965 | Standard sunburst, including body transition | $3,500 to $4,800 |
+| 1966 | Standard sunburst, including body transition | $3,000 to $4,050 |
+| 1967 | Standard sunburst, including body transition | $2,950 to $4,050 |
+| 1968 | Standard sunburst, including body transition | $2,850 to $4,000 |
+| 1969 | Standard sunburst, including body transition | $2,800 to $3,950 |
 | 1970 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
 | 1971 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
 | 1972 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
@@ -67,7 +67,7 @@ An instrument with a celebrity story also needs separate treatment. A claimed as
 
 ## Early Postwar And Small-Guard Guitars
 
-The 1946 to 1949 range is $8,000 to $14,000. The 1950 to 1954 small-guard group sits at $8,000 to $10,000. Both assume excellent, original condition with the original case.
+The 1946 to 1949 range is $7,400 to $14,000. The 1950 to 1954 small-guard group sits at $8,000 to $10,000. Both assume excellent, original condition with the original case.
 
 The distinction between an original finish and a refinished guitar can be larger than the difference between adjacent years. I assess the date alongside the complete condition description. A well-repaired instrument may be an appealing player while belonging outside the clean reference.
 
@@ -99,7 +99,7 @@ Send photographs with the guitar and its loose parts as they stand. The first ap
 
 ## A 1960s J-45 Needs Its Configuration
 
-The standard sunburst 1960s envelope is $3,000 to $7,000. That is the widest construction span in this table: it includes earlier round-shoulder examples and the later body transition. A confirmed configuration is needed before choosing a narrower comparison.
+The standard sunburst 1960s envelope is $2,800 to $7,000. That is the widest construction span in this table: it includes earlier round-shoulder examples and the later body transition. A confirmed configuration is needed before choosing a narrower comparison.
 
 My identification guide explains the dating markers. Here, the consequence is that a late square-shoulder guitar shouldn't be compared automatically with an early round-shoulder one. Sharing the J-45 name doesn't make every specification or market category identical.
 
