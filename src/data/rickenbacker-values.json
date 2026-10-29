@@ -92,8 +92,8 @@
         "model": "325",
         "years": "1966 to 1970",
         "details": "Mapleglo",
-        "low": 5350,
-        "high": 6700
+        "low": 5300,
+        "high": 6650
       },
       {
         "model": "325",
@@ -143,7 +143,7 @@
         "model": "381",
         "years": "1969 to 1974",
         "details": "Original carved-body production",
-        "low": 6250,
+        "low": 6200,
         "high": 8450
       },
       {
@@ -151,7 +151,7 @@
         "years": "1987 to 2023",
         "details": "Later six-string reissue",
         "low": 3550,
-        "high": 4900
+        "high": 4850
       },
       {
         "model": "381/12V69",
@@ -165,7 +165,7 @@
         "years": "1988 to 1997",
         "details": "John Kay signature model",
         "low": 4450,
-        "high": 6700
+        "high": 6650
       }
     ],
     "4002": [
@@ -203,7 +203,7 @@
         "model": "4003S/5",
         "years": "1986 to 2003",
         "details": "Five-string",
-        "low": 3350,
+        "low": 3300,
         "high": 4000
       },
       {
@@ -345,8 +345,8 @@
         "model": "4005WB",
         "years": "1980 to 1983",
         "details": "Double-bound old-style body, Fireglo",
-        "low": 5350,
-        "high": 6700
+        "low": 5300,
+        "high": 6650
       }
     ],
     "330-340": [
@@ -362,7 +362,7 @@
         "years": "1965 to 1969",
         "details": "Thinner body",
         "low": 3550,
-        "high": 5800
+        "high": 5750
       },
       {
         "model": "330",
@@ -396,7 +396,7 @@
         "model": "335",
         "years": "1970 to 1976",
         "details": "21 frets",
-        "low": 2250,
+        "low": 2200,
         "high": 3550
       },
       {
@@ -431,8 +431,8 @@
         "model": "340",
         "years": "1980 to 2014",
         "details": "Later production",
-        "low": 2150,
-        "high": 3400
+        "low": 1700,
+        "high": 2550
       },
       {
         "model": "345",
@@ -452,8 +452,8 @@
         "model": "345",
         "years": "1970 to 1976",
         "details": "21 frets",
-        "low": 2250,
-        "high": 4900
+        "low": 3100,
+        "high": 4850
       }
     ],
     "12-string": [
@@ -545,7 +545,7 @@
         "model": "360/12C63",
         "years": "2004 to 2024",
         "details": "Later reissue",
-        "low": 2250,
+        "low": 2200,
         "high": 3100
       },
       {
@@ -587,14 +587,14 @@
         "model": "450/12",
         "years": "1967 to 1969",
         "details": "Solidbody twelve-string",
-        "low": 2450,
+        "low": 2400,
         "high": 3100
       },
       {
         "model": "450/12",
         "years": "1970 to 1979",
         "details": "Solidbody twelve-string",
-        "low": 1900,
+        "low": 1950,
         "high": 2350
       },
       {
@@ -629,7 +629,7 @@
         "model": "1993/12RM",
         "years": "1964 to 1967",
         "details": "Rose Morris export, R tailpiece",
-        "low": 19600,
+        "low": 19550,
         "high": 26700
       }
     ],
@@ -694,8 +694,8 @@
         "model": "365",
         "years": "1964 to 1970",
         "details": "New-style body, 21 frets",
-        "low": 4900,
-        "high": 6250
+        "low": 4850,
+        "high": 6200
       },
       {
         "model": "365",
@@ -708,7 +708,7 @@
         "model": "370",
         "years": "1958 to 1960",
         "details": "Capri, thick body",
-        "low": 10700,
+        "low": 10650,
         "high": 13350
       },
       {
@@ -750,8 +750,8 @@
         "model": "375",
         "years": "1964 to 1969",
         "details": "New-style body, 21 frets",
-        "low": 4900,
-        "high": 6250
+        "low": 4850,
+        "high": 6200
       },
       {
         "model": "375",
@@ -809,7 +809,7 @@
         "years": "1969 to 1973",
         "details": "Original production",
         "low": 1500,
-        "high": 1900
+        "high": 1950
       },
       {
         "model": "450 / Combo 450",
@@ -843,7 +843,7 @@
         "model": "450",
         "years": "1970 to 1979",
         "details": "Later production",
-        "low": 1900,
+        "low": 1950,
         "high": 2550
       },
       {
@@ -865,14 +865,14 @@
         "years": "1966 to 1969",
         "details": "Deluxe solidbody",
         "low": 2650,
-        "high": 3350
+        "high": 3300
       },
       {
         "model": "460",
         "years": "1970 to 1979",
         "details": "Deluxe solidbody",
-        "low": 2250,
-        "high": 2900
+        "low": 2200,
+        "high": 2850
       },
       {
         "model": "460",
@@ -959,7 +959,7 @@
         "model": "610",
         "years": "1985 to 1991",
         "details": "Two-pickup solidbody",
-        "low": 2250,
+        "low": 2200,
         "high": 3100
       },
       {
@@ -981,7 +981,7 @@
         "years": "1966 to 1977",
         "details": "Vibrato version",
         "low": 2150,
-        "high": 2650
+        "high": 2700
       },
       {
         "model": "620",
@@ -1118,7 +1118,7 @@
         "years": "1970 to 1972",
         "details": "Various colors",
         "low": 5750,
-        "high": 7000
+        "high": 7050
       },
       {
         "model": "4001",
@@ -1152,7 +1152,7 @@
         "model": "4001FL",
         "years": "1968 to 1986",
         "details": "Factory fretless",
-        "low": 2450,
+        "low": 2400,
         "high": 4450
       },
       {
@@ -1167,7 +1167,7 @@
         "years": "1984 to 2000",
         "details": "Later reissue",
         "low": 2650,
-        "high": 3350
+        "high": 3300
       },
       {
         "model": "4001CS",
@@ -1189,7 +1189,7 @@
         "model": "A-25 Frying Pan",
         "years": "1932 to 1933",
         "details": "Early long-scale cast-aluminum lap steel",
-        "low": 6700,
+        "low": 6650,
         "high": 7550
       }
     ],
@@ -1206,28 +1206,28 @@
         "years": "1949 to 1960",
         "details": "Deluxe Bakelite, six strings",
         "low": 850,
-        "high": 1050
+        "high": 1100
       },
       {
         "model": "Academy",
         "years": "1946 to 1947",
         "details": "Bakelite student model",
-        "low": 500,
+        "low": 475,
         "high": 650
       },
       {
         "model": "Ace",
         "years": "1948 to 1953",
         "details": "Bakelite student model",
-        "low": 500,
+        "low": 475,
         "high": 650
       },
       {
         "model": "Silver Hawaiian",
         "years": "1937 to 1943",
         "details": "Chrome-plated sheet-steel body",
-        "low": 1350,
-        "high": 2250
+        "low": 1300,
+        "high": 2200
       },
       {
         "model": "Model G",
@@ -1241,13 +1241,13 @@
         "years": "1946 to 1949",
         "details": "Sheet-steel body",
         "low": 700,
-        "high": 900
+        "high": 850
       },
       {
         "model": "Model 59",
         "years": "1937 to 1943",
         "details": "Sheet-steel body, colored finish",
-        "low": 600,
+        "low": 575,
         "high": 750
       },
       {
@@ -1255,7 +1255,7 @@
         "years": "1956 to 1970",
         "details": "Wood body, six strings",
         "low": 650,
-        "high": 850
+        "high": 825
       }
     ]
   }
