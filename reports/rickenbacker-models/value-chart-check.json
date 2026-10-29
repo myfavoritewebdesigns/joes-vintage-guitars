@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-10-29T17:42:17.035Z",
+  "guides": 15,
+  "totalRows": 175,
+  "checks": [
+    {
+      "route": "/post/rickenbacker-325-value-guide/",
+      "rows": 19,
+      "photos": 8
+    },
+    {
+      "route": "/post/rickenbacker-330-340-value-guide/",
+      "rows": 15,
+      "photos": 10
+    },
+    {
+      "route": "/post/rickenbacker-360-370-value-guide/",
+      "rows": 18,
+      "photos": 10
+    },
+    {
+      "route": "/post/rickenbacker-12-string-value-guide/",
+      "rows": 25,
+      "photos": 9
+    },
+    {
+      "route": "/post/rickenbacker-381-value-guide/",
+      "rows": 4,
+      "photos": 10
+    },
+    {
+      "route": "/post/rickenbacker-425-450-460-value-guide/",
+      "rows": 17,
+      "photos": 9
+    },
+    {
+      "route": "/post/rickenbacker-600-series-value-guide/",
+      "rows": 14,
+      "photos": 9
+    },
+    {
+      "route": "/post/rickenbacker-480-481-value-guide/",
+      "rows": 6,
+      "photos": 8
+    },
+    {
+      "route": "/post/rickenbacker-4000-4001-value-guide/",
+      "rows": 19,
+      "photos": 8
+    },
+    {
+      "route": "/post/rickenbacker-4003-value-guide/",
+      "rows": 9,
+      "photos": 8
+    },
+    {
+      "route": "/post/rickenbacker-4005-value-guide/",
+      "rows": 15,
+      "photos": 10
+    },
+    {
+      "route": "/post/rickenbacker-4002-value-guide/",
+      "rows": 1,
+      "photos": 8
+    },
+    {
+      "route": "/post/rickenbacker-3000-3001-value-guide/",
+      "rows": 2,
+      "photos": 8
+    },
+    {
+      "route": "/post/rickenbacker-frying-pan-value-guide/",
+      "rows": 2,
+      "photos": 10
+    },
+    {
+      "route": "/post/rickenbacker-bakelite-lap-steel-value-guide/",
+      "rows": 9,
+      "photos": 10
+    }
+  ],
+  "failures": []
+}

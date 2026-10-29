@@ -1,16 +1,13 @@
 /** Editorial data for the paired guides. Photo identities are separate from model names. */
 export interface ModelSection { heading: string; paragraphs: string[] }
-export interface MarketExample { label: string; price: string; status: string; note: string; url: string }
 export interface ModelGuide {
  key: string; name: string; group: 'Guitars' | 'Basses' | 'Lap Steels'; period: string;
  intro: string; photoSet: string; comparison: string; variants: [string,string][];
- authentication: ModelSection[]; valuation: ModelSection[]; examples: MarketExample[];
+ authentication: ModelSection[]; valuation: ModelSection[];
  sources: {title:string;url:string;note:string}[];
 }
 const section=(heading:string,...paragraphs:string[]):ModelSection=>({heading,paragraphs});
 const factory=(year:string,month:string,note:string)=>({title:`Rickenbacker ${month} ${year} Factory Price List`,url:`https://www.rickenbacker.com/wp-content/uploads/2024/06/Pricelist-${year}-${month}.pdf`,note});
-const sold=(label:string,price:string,note:string,url:string):MarketExample=>({label,price,note,url,status:'Displayed price; listing marked sold'});
-const ask=(label:string,price:string,note:string,url:string):MarketExample=>({label,price,note,url,status:'Advertised asking price'});
 export const rickenbackerModels:ModelGuide[]=[
  {
  key:'325',name:'310, 315, 320 And 325',group:'Guitars',period:'Original Short-Scale Guitars And Later Reissues',photoSet:'325',
@@ -24,11 +21,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Check Short-Scale Playability And Repairs','Play every fret at normal tuning and inspect the neck from both sides. Record action at the twelfth fret, remaining fret height and bridge adjustment room. A small guitar with high action is not automatically normal because it is short scale. Check for separation at the neck joint and finish lines that continue into the wood.','Inspect the headstock behind the nut and around the tuner screws. Changed tuners may leave extra holes; a repaired headstock may have localized overspray. Keep those findings separate from ordinary finish checking. Ask for repair invoices and before-and-after photos when a seller describes major work as only a setup.')
  ],
  valuation:[
- section('Price The Manufacturing Era First','Original late-1950s and 1960s short-scale guitars, Rose Morris exports, later production 320s and V/C-series reissues belong in separate groups. A 1997 guitar with 1958 styling should be compared with the same reissue version and similar condition. An original 1960s guitar needs original-era evidence, even if a newer instrument looks cleaner.','The auction example below is an estimate for one export guitar. It is not a sale result or a general price band. Celebrity instruments also require a separate valuation because documented ownership can dominate their price.'),
- section('Weigh Modifications In The Context Of The Version','A changed vibrato, added controls or altered pickguard may make a guitar more useful to its owner while reducing its appeal to an originality-focused buyer. The effect depends on whether the change was reversible, whether wood was removed, and whether the original pieces survive. Do not subtract the cost of a replacement part and assume that fully accounts for a routed body.','Check the case, paperwork and any original hardware as a package. An original-era guitar with a well-documented repair can still have a market, but compare it with repaired examples rather than the cleanest advertised guitar you can find.'),
- section('Build A Useful Appraisal File','Include the scale measurement, full serial, front and rear headstock views, the complete control area and the tailpiece mounting. For a claimed early Capri or export, include body depth, soundhole shape and any dated receipt. State the exact reissue suffix when known.','Ask for a price opinion for your intended sale: dealer purchase, private sale or retail replacement. A retail listing includes a seller’s costs and selling time; it is not the amount a dealer can pay immediately.')
- ],
- examples:[{label:'1964 Rose Morris 325S, Gardiner Houlgate, September 2024',price:'£7,000 to £9,000 GBP',status:'Auction estimate; hammer price not verified',note:'One replaced pot was disclosed. Keep this export-model estimate separate from later V-series guitars.',url:'https://auctions.gardinerhoulgate.co.uk/catalogue/lot/77743f752b68edd13365a640ef0118de/63b778f7668dabe928d3800924a99077/the-guitar-auction-four-day-sale-lot-207/'}],
+  {
+    "heading": "Price The Manufacturing Era First",
+    "paragraphs": [
+      "Original late-1950s and 1960s short-scale guitars, Rose Morris exports, later production 320s and V/C-series reissues belong in separate groups. A 1997 guitar with 1958 styling should be compared with the same reissue version and similar condition. An original 1960s guitar needs original-era evidence, even if a newer instrument looks cleaner.",
+      "The chart separates original short-scale guitars from later recreations. Confirm the manufacturing date and full model designation before choosing a row. The earliest production examples and instruments with documented famous-player ownership need an individual appraisal."
+    ]
+  },
+  {
+    "heading": "Weigh Modifications In The Context Of The Version",
+    "paragraphs": [
+      "A changed vibrato, added controls or altered pickguard may make a guitar more useful to its owner while reducing its appeal to an originality-focused buyer. The effect depends on whether the change was reversible, whether wood was removed, and whether the original pieces survive. Do not subtract the cost of a replacement part and assume that fully accounts for a routed body.",
+      "Keep the case, paperwork and any original hardware together. A well-documented repair can leave a desirable playing instrument, but it changes the original-condition assumptions behind the chart. Explain what was repaired and what remains original."
+    ]
+  },
+  {
+    "heading": "Build A Useful Appraisal File",
+    "paragraphs": [
+      "Include the scale measurement, full serial, front and rear headstock views, the complete control area and the tailpiece mounting. For a claimed early Capri or export, include body depth, soundhole shape and any dated receipt. State the exact reissue suffix when known.",
+      "Specify whether you want an estimated market value or an immediate purchase offer. A direct offer accounts for the work, preparation and selling time involved after purchase; the chart is not a guaranteed amount Joe can pay for every example."
+    ]
+  }
+],
  sources:[factory('1988','June','Lists the V59 and V63 configurations as later vintage-series offerings.'),{title:'Rickenbacker Legacy Models',url:'https://www.rickenbacker.com/series/legacy/',note:'Manufacturer descriptions distinguish C-series recreations from the originals they reference.'}]
  },
  {
@@ -42,11 +56,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Inspect The Neck Angle And Body Edges','Sight along both sides of the neck and check the action with the guitar tuned. Photograph the bridge from the side. If the bridge is already at its lowest useful setting and the strings remain high, a routine saddle adjustment may not solve the problem. Look for heel movement, old glue, refinished seams or a documented neck reset.','Check the soundhole edge, jack area and strap-button holes for cracks or repairs. Compare exposed finish with protected areas when professionally inspected. A darker patch or lighter area can come from wear or fading; a refinishing conclusion needs several clues together.')
  ],
  valuation:[
- section('Compare Era, Pickup Count And Originality','Use a 330 comparison for a 330 and a 340 comparison for a factory three-pickup guitar. A converted 330 should carry a description of its conversion, even if it now sounds like a 340. Keep early Capri guitars, ordinary later production and documented export variants in distinct groups.','The three 1966 330 listings below illustrate why a single year cannot carry a single price. They span heavily altered electronics, a refretted player and a dealer-described near-mint example. Their displayed prices are historical listing evidence, not a current guaranteed selling range.'),
- section('Put Structural Work Ahead Of Cosmetic Grading','A guitar with normal checking, buckle wear and healthy neck geometry can be easier to sell than a glossy example with a problematic neck angle. Price a proposed neck reset using an actual repair assessment and then compare with other repaired instruments. The repair bill alone does not measure the change in collector demand.','A refret, replacement nut or changed bridge can improve playability. Explain the work plainly and include the originals if retained. Routing, stripped fingerboard finish and multiple changed pickups require more explanation than a simple consumable replacement.'),
- section('Keep Export Claims And Paperwork Connected','An original receipt, period photographs and a consistent serial can support a guitar’s history. They should match the instrument’s distinctive features. A loose export tag or an old case does not prove that the guitar inside originally shipped to that market.','For an offer, send the complete body, headstock, jackplate and any modification photos. If the guitar has three pickups, show the middle pickup and surrounding guard closely. If you have a twelve-string, use the separate twelve-string guide before choosing comparison prices.')
- ],
- examples:[sold('1966 330 Mapleglo, Imperial Vintage','$3,295 USD','Replacement pickups, plugged holes and a refret were disclosed.','https://www.gbase.com/gear/rickenbacker-330-1966-mapleglo'),sold('1966 330 Fireglo, Chicago Music Exchange','$4,700 USD','Refret and fingerboard finish removal were disclosed.','https://www.gbase.com/gear/rickenbacker-330-330-1966-red-fireglo'),sold('1966 330 Fireglo, Fretted Americana','$8,500 USD','Dealer described a near-mint guitar with case and accessories.','https://www.gbase.com/gear/rickenbacker-330-two-pickups-no-vibrato-1966-fireglo')],
+  {
+    "heading": "Compare Era, Pickup Count And Originality",
+    "paragraphs": [
+      "Use a 330 comparison for a 330 and a 340 comparison for a factory three-pickup guitar. A converted 330 should carry a description of its conversion, even if it now sounds like a 340. Keep early Capri guitars, ordinary later production and documented export variants in distinct groups.",
+      "Use the chart as a starting point for an original instrument in excellent condition. A refret, changed electronics or a repaired neck can place a guitar outside that range. The 330, 335, 340 and 345 rows retain their own configurations instead of treating pickup count as a fixed dollar premium."
+    ]
+  },
+  {
+    "heading": "Put Structural Work Ahead Of Cosmetic Grading",
+    "paragraphs": [
+      "A guitar with normal checking, buckle wear and healthy neck geometry can be easier to sell than a glossy example with a problematic neck angle. Price a proposed neck reset using an actual repair assessment and then compare with other repaired instruments. The repair bill alone does not measure the change in collector demand.",
+      "A refret, replacement nut or changed bridge can improve playability. Explain the work plainly and include the originals if retained. Routing, stripped fingerboard finish and multiple changed pickups require more explanation than a simple consumable replacement."
+    ]
+  },
+  {
+    "heading": "Keep Export Claims And Paperwork Connected",
+    "paragraphs": [
+      "An original receipt, period photographs and a consistent serial can support a guitar’s history. They should match the instrument’s distinctive features. A loose export tag or an old case does not prove that the guitar inside originally shipped to that market.",
+      "For an offer, send the complete body, headstock, jackplate and any modification photos. If the guitar has three pickups, show the middle pickup and surrounding guard closely. If you have a twelve-string, use the separate twelve-string guide before choosing comparison prices."
+    ]
+  }
+],
  sources:[factory('1976','June','Period model descriptions distinguish pickup counts and vibrato variants.'),{title:'Rickenbacker Guitar Schematics',url:'https://www.rickenbacker.com/guitar-schematics/',note:'Separate factory circuits are provided for the two-pickup and three-pickup families.'}]
  },
  {
@@ -60,11 +91,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Examine The Heel, Headstock And Finish','Our rear views show why a whole-instrument photograph is useful alongside details. Follow the neck stripe and finish from the headstock to the heel. Look closely where a repair could interrupt that continuity, but do not confuse a normal wood joint with a break. Photograph suspicious lines under diffuse light from two angles.','At the body, inspect the bridge setting, soundhole edge and jackplate screws. Original paint elsewhere does not rule out local overspray or a repaired neck joint. A full appraisal should distinguish untouched finish, touch-up, overspray and complete refinishing instead of describing all four as simply original or not original.')
  ],
  valuation:[
- section('Separate Ordinary Thinlines From Special Variants','A 360 six-string is not interchangeable with a 360/12, an F-series guitar or an instrument with famous-player provenance. The body version, exact model and original hardware configuration come before finish color in choosing comparisons. A three-pickup conversion should not borrow the asking price of an untouched factory 370.','The repaired 365 OS example below is a condition-specific reference. It helps show how a vintage guitar can remain saleable after substantial work, but it cannot establish the price of a clean 360 or an original twelve-string.'),
- section('Evaluate Repairs Without Losing The Guitar’s Identity','Neck angle, headstock repairs, changed wiring and missing vibrato parts can materially affect a buyer’s decision. Ask what was repaired, who did it and whether the guitar now plays correctly. A receipt and clear close-ups reduce uncertainty; the word professional without supporting detail does not.','Keep cosmetic wear in perspective. Clear descriptions of checking, worn plating and small finish chips allow a buyer to distinguish age from structural trouble. A newer-looking refinished guitar should not automatically receive the same condition grade as an original-finish instrument with similar shine.'),
- section('Present A Complete Six-String Comparison','For a useful appraisal, show the full front and back, both headstock faces, the entire fingerboard, body edge, outputs and serial. Include a side view of the bridge and a description of action. State whether it is a six-string, twelve-string or converted instrument.','Do not use an exceptionally expensive artist-owned example to set an ordinary guitar’s asking price. Match construction and condition first, then assess documented rarity or provenance separately. The original case adds context, but it cannot resolve conflicting evidence on the guitar.')
- ],
- examples:[sold('1967 365 OS, Kansas City Vintage Guitars','$4,499.99 USD','Listing disclosed a repaired headstock, bypassed stereo wiring and missing vibrato arm. This is a repaired six-string OS reference.','https://www.gbase.com/gear/rickenbacker-double-bound-1967-rickenbacker-365-os-old-style-360-beatles-vibe-vintage-1960s-1967')],
+  {
+    "heading": "Separate Ordinary Thinlines From Special Variants",
+    "paragraphs": [
+      "A 360 six-string is not interchangeable with a 360/12, an F-series guitar or an instrument with famous-player provenance. The body version, exact model and original hardware configuration come before finish color in choosing comparisons. A three-pickup conversion should not borrow the asking price of an untouched factory 370.",
+      "The chart distinguishes early Capri construction, old-style bodies and new-style bodies. A repaired headstock or altered output circuit calls for an individual adjustment. Do not use a clean six-string range for a twelve-string, an F-series guitar or a converted instrument."
+    ]
+  },
+  {
+    "heading": "Evaluate Repairs Without Losing The Guitar’s Identity",
+    "paragraphs": [
+      "Neck angle, headstock repairs, changed wiring and missing vibrato parts can materially affect a buyer’s decision. Ask what was repaired, who did it and whether the guitar now plays correctly. A receipt and clear close-ups reduce uncertainty; the word professional without supporting detail does not.",
+      "Keep cosmetic wear in perspective. Clear descriptions of checking, worn plating and small finish chips allow a buyer to distinguish age from structural trouble. A newer-looking refinished guitar should not automatically receive the same condition grade as an original-finish instrument with similar shine."
+    ]
+  },
+  {
+    "heading": "Present A Complete Six-String Comparison",
+    "paragraphs": [
+      "For a useful appraisal, show the full front and back, both headstock faces, the entire fingerboard, body edge, outputs and serial. Include a side view of the bridge and a description of action. State whether it is a six-string, twelve-string or converted instrument.",
+      "Do not use an exceptionally expensive artist-owned example to set an ordinary guitar’s asking price. Match construction and condition first, then assess documented rarity or provenance separately. The original case adds context, but it cannot resolve conflicting evidence on the guitar."
+    ]
+  }
+],
  sources:[factory('1976','June','Lists deluxe thinlines, vibrato versions and F-series models separately.'),{title:'Rickenbacker Factory Circuit Diagrams',url:'https://www.rickenbacker.com/guitar-schematics/',note:'Compare the two-pickup and three-pickup stereo circuits for the correct family.'}]
  },
  {
@@ -78,11 +126,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Distinguish Reissues And Repaired Originals','A vintage-style trapeze, toaster pickups and double binding can appear on later recreations. Date the actual instrument from its serial and supporting construction, then check the version-specific hardware. V64 and C63 names describe historical inspiration, not a 1964 or 1963 manufacturing date.','Inspect for a refret, a changed nut, neck-reset evidence and headstock repair. A good refret may make a valuable guitar usable again, while concealed routing or a six-to-twelve conversion changes its collector identity. Keep the repair history with the guitar and retain any removed original parts.')
  ],
  valuation:[
- section('Choose The Right Twelve-String Market','Start with the exact family: 330/12, 360/12, 370/12, export, convertible or later reissue. Next match the body version and decade. Do not use a six-string price and add an arbitrary amount for six more strings. Production differences and demand for specific versions matter more than the string count alone.','The examples below are displayed dealer prices for particular instruments. One had replacement electronics; another had limited bridge adjustment. Their condition descriptions are part of the evidence and should travel with the numbers.'),
- section('Budget For Playability With An Actual Diagnosis','A prospective buyer needs to know whether the guitar tunes, intonates and plays comfortably. Remaining fret height, nut work, bridge condition and neck geometry should be assessed together. Price a documented repair need with a written estimate, then compare against instruments that have similar work already completed.','A replacement bridge or refret can broaden the guitar’s player appeal, but original parts still matter to some collectors. Report both what is fitted and what comes in the case. Do not advertise a converted six-string as an original twelve-string simply because the conversion was expensive.'),
- section('Value Complete Convertible And Export Examples Carefully','An intact convertible comb, correct case and matching paperwork can distinguish a complete instrument from a project. Verify that the mechanism belongs to that model and works as intended. A missing comb is not necessarily restored by buying the first similar-looking part available online.','Export and early-body claims need close photographs and a consistent date. If the listing evidence is thin, request an individual appraisal rather than presenting a narrow numerical range. For a normal sale, clear twelve-string-specific photos will be more persuasive than an artist association that cannot be documented.')
- ],
- examples:[sold('1966 330/12 Natural, Empire Guitars','$6,600 USD','Dealer disclosed a shallow neck angle, low bridge and low frets.','https://www.gbase.com/gear/rickenbacker-330-12-1966-natural'),ask('1966 330/12 Fireglo, Guitar Traders','$5,750 USD','Refret, replacement nut and later electronics were disclosed.','https://www.gbase.com/gear/rickenbacker-330-12-1966-fireglo-4'),sold('1967 360/12 Fireglo, Rivington Guitars','$6,999 USD','A deluxe-model listing. Verify the described bridge and other hardware independently.','https://www.gbase.com/gear/rickenbacker-model-360-12-1967-fireglo')],
+  {
+    "heading": "Choose The Right Twelve-String Market",
+    "paragraphs": [
+      "Start with the exact family: 330/12, 360/12, 370/12, export, convertible or later reissue. Next match the body version and decade. Do not use a six-string price and add an arbitrary amount for six more strings. Production differences and demand for specific versions matter more than the string count alone.",
+      "The chart keeps original twelve-strings, later reissues and convertible models in separate rows. Early old-style bodies can differ substantially from later rounded-body guitars. Confirm the body version, finish and original string configuration before selecting a range."
+    ]
+  },
+  {
+    "heading": "Budget For Playability With An Actual Diagnosis",
+    "paragraphs": [
+      "A prospective buyer needs to know whether the guitar tunes, intonates and plays comfortably. Remaining fret height, nut work, bridge condition and neck geometry should be assessed together. Price a documented repair need with a written estimate, then compare against instruments that have similar work already completed.",
+      "A replacement bridge or refret can broaden the guitar’s player appeal, but original parts still matter to some collectors. Report both what is fitted and what comes in the case. Do not advertise a converted six-string as an original twelve-string simply because the conversion was expensive."
+    ]
+  },
+  {
+    "heading": "Value Complete Convertible And Export Examples Carefully",
+    "paragraphs": [
+      "An intact convertible comb, correct case and matching paperwork can distinguish a complete instrument from a project. Verify that the mechanism belongs to that model and works as intended. A missing comb is not necessarily restored by buying the first similar-looking part available online.",
+      "Export and early-body claims need close photographs and a consistent date. If the identity or repair history is uncertain, request an individual appraisal before applying the chart. Clear twelve-string-specific photos are more useful than an artist association that cannot be documented."
+    ]
+  }
+],
  sources:[factory('1976','June','Distinguishes twelve-string, convertible and full-body model designations.'),factory('1989','June','Documents later V-series twelve-strings as separate offerings.')]
  },
  {
@@ -96,11 +161,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Verify Finish And Original Hardware Claims','Compare protected and exposed finish when a qualified repairer has reason to inspect beneath hardware. Look for incompatible footprints, extra holes or finish over old damage. A set of period-looking knobs or toasters is not proof that the whole guitar escaped modification.','Keep dated photographs, original receipts and any repair records together. Figured maple varies between instruments; attractive grain is not a substitute for a consistent serial and construction. Avoid assigning a production-count rarity claim unless a reliable record supports that specific version.')
  ],
  valuation:[
- section('Separate Original 381s From V69 Guitars','The first price question is which production group the guitar belongs to. Original-era 381s and later V69 instruments have different comparison pools, and the twelve-string version needs its own. A later guitar can be highly desirable without being described as a 1969 original.','The single original-era listing below is an example, not enough data to publish a dependable market range. Its binding condition is part of the price context. Seek additional recent, condition-matched examples before setting a sale price.'),
- section('Assess Carving, Binding And Finish Together','A clean, well-preserved carved body can be a major part of the guitar’s appeal. Binding separation, replacement sections or sanding during a refinish may reduce that appeal even when the guitar plays well. Have a repairer distinguish cosmetic aging from active deterioration.','Original pickups and wiring also deserve attention. Restoring a changed instrument can cost more than the visible replacement parts, and restoration does not make it untouched. Describe a repaired or restored guitar accurately and compare with others carrying similar work.'),
- section('Make The Appraisal Specific To Your Instrument','Send front, back and side views that show the carving, the serial, full fingerboard, both headstock faces and detailed binding photos. For V69 instruments, include the complete model designation and purchase paperwork if available. For a twelve-string, add a bridge and nut close-up.','State whether you want an immediate purchase offer or a retail sale estimate. A rare model may take time to find its buyer, and a high asking price does not demonstrate a completed transaction. Documented condition gives an appraisal a firmer basis than the word rare.')
- ],
- examples:[sold('1969 381 Fireglo, Kansas City Vintage Guitars','$8,500 USD','Early Hi-Gain pickups, a small replacement neck-binding section and body-binding deterioration were disclosed.','https://www.gbase.com/gear/rickenbacker-381-1969-fireglosunburstvintage')],
+  {
+    "heading": "Separate Original 381s From V69 Guitars",
+    "paragraphs": [
+      "The first price question is which production group the guitar belongs to. Original-era 381s and later V69 instruments have different comparison pools, and the twelve-string version needs its own. A later guitar can be highly desirable without being described as a 1969 original.",
+      "Use the original 381 row for the original production period and the V69 rows for later recreations. The twelve-string V69 and John Kay signature version have their own entries. Binding deterioration, changed electronics or sanding around the carved edge requires an individual adjustment."
+    ]
+  },
+  {
+    "heading": "Assess Carving, Binding And Finish Together",
+    "paragraphs": [
+      "A clean, well-preserved carved body can be a major part of the guitar’s appeal. Binding separation, replacement sections or sanding during a refinish may reduce that appeal even when the guitar plays well. Have a repairer distinguish cosmetic aging from active deterioration.",
+      "Original pickups and wiring also deserve attention. Restoring a changed instrument can cost more than the visible replacement parts, and restoration does not make it untouched. Describe a repaired or restored guitar accurately and compare with others carrying similar work."
+    ]
+  },
+  {
+    "heading": "Make The Appraisal Specific To Your Instrument",
+    "paragraphs": [
+      "Send front, back and side views that show the carving, the serial, full fingerboard, both headstock faces and detailed binding photos. For V69 instruments, include the complete model designation and purchase paperwork if available. For a twelve-string, add a bridge and nut close-up.",
+      "State whether you want an immediate purchase offer or an estimate of market value. A rare model may take time to find its buyer. Documented condition gives an appraisal a firmer basis than the word rare."
+    ]
+  }
+],
  sources:[factory('1989','June','Describes the carved-body V69 models and distinguishes six and twelve strings.'),{title:'1969 381 Dealer Examination',url:'https://www.gbase.com/gear/rickenbacker-381-1969-fireglosunburstvintage',note:'Instrument-specific description of the original-era example used in the value discussion.'}]
  },
  {
@@ -114,11 +196,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Check The Neck And Black Finish Carefully','The rear headstock and neck photographs show the angles needed to inspect tuner changes and repairs. Look around the nut, heel and screw holes for breaks, filled holes or finish discontinuities. A dark finish can hide a repair in a straight-on photograph, so use side lighting as well.','Jetglo does not automatically mean a refinish, nor does uniform black paint prove an original surface. Inspect protected edges, finish over old damage and hardware footprints together. Check the neck at playing tension and report fret wear and action separately from cosmetic condition.')
  ],
  valuation:[
- section('Use The Exact Solidbody Variant','A 425, 450, 460 and convertible twelve-string serve different buyers. Match pickup count, appointments and original configuration before comparing prices. A modified one-pickup guitar should not be priced as a factory two-pickup example simply because it now has two pickups.','The 425 and 460 examples below are separate model references. The difference between their displayed prices is not a fixed premium for a second pickup or binding. Their condition, date and individual selling circumstances also differ.'),
- section('Account For Routing And Binding Work','A changed switch tip or missing screw is different from enlarged pickup cavities. For deluxe instruments, inspect binding separation and replacement sections closely. Obtain a repair estimate for active problems, and keep the buyer’s concern about originality separate from the cost of making the guitar playable.','Retain a removed pickup, bridge or guard when possible. A usable original part can help a future owner, but a box of parts does not undo wood removal or make a restored instrument untouched.'),
- section('Document The Details That Support An Offer','Send the complete serial, bridge, controls, front and rear headstock, body back and neck joint. Include close-ups of any extra holes or finish repairs. For a twelve-string or convertible, show all tuning machines and any comb hardware.','A practical selling description should state what works, what has changed and what comes with the guitar. An original case can add interest, but disclose broken latches or poor fit. Compare the instrument’s present condition rather than the condition you expect after unpriced repairs.')
- ],
- examples:[sold('1964 425 Jetglo, Chicago Music Exchange','$2,495 USD','Original pickup with wiring work disclosed.','https://www.gbase.com/gear/rickenbacker-425-425-1964-black-jetglo'),ask('1972 460 Fireglo, Joe’s Vintage Guitars','$3,490 USD','Listing disclosed binding separation, fret wear and minor missing or replaced hardware.','https://www.gbase.com/gear/rickenbacker-460-1972-fireglo')],
+  {
+    "heading": "Use The Exact Solidbody Variant",
+    "paragraphs": [
+      "A 425, 450, 460 and convertible twelve-string serve different buyers. Match pickup count, appointments and original configuration before comparing prices. A modified one-pickup guitar should not be priced as a factory two-pickup example simply because it now has two pickups.",
+      "Use the separate 425, 450 and 460 rows for their actual production periods. The early tulip body and later cresting-wave designs belong in different groups. A second pickup or deluxe binding does not create a fixed premium that can be added to another model’s range."
+    ]
+  },
+  {
+    "heading": "Account For Routing And Binding Work",
+    "paragraphs": [
+      "A changed switch tip or missing screw is different from enlarged pickup cavities. For deluxe instruments, inspect binding separation and replacement sections closely. Obtain a repair estimate for active problems, and keep the buyer’s concern about originality separate from the cost of making the guitar playable.",
+      "Retain a removed pickup, bridge or guard when possible. A usable original part can help a future owner, but a box of parts does not undo wood removal or make a restored instrument untouched."
+    ]
+  },
+  {
+    "heading": "Document The Details That Support An Offer",
+    "paragraphs": [
+      "Send the complete serial, bridge, controls, front and rear headstock, body back and neck joint. Include close-ups of any extra holes or finish repairs. For a twelve-string or convertible, show all tuning machines and any comb hardware.",
+      "A practical selling description should state what works, what has changed and what comes with the guitar. An original case can add interest, but disclose broken latches or poor fit. Compare the instrument’s present condition rather than the condition you expect after unpriced repairs."
+    ]
+  }
+],
  sources:[factory('1977','January','Lists the compact solidbody and twelve-string variants separately.'),{title:'Rickenbacker One-Pickup Circuit References',url:'https://www.rickenbacker.com/guitar-schematics/',note:'Factory schematic index includes the one-pickup 420 and related entry-level models.'}]
  },
  {
@@ -132,11 +231,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Inspect Twelve-String And Later Variants Separately','For a 620/12 or 610/12, inspect the tuner channels, nut slots and paired-string intonation. Check bridge adjustment room with the strings at normal tension. A converted six-string belongs in a different description from a factory twelve-string even if the workmanship is neat.','Later 650 and 660 instruments have their own specifications and buyer expectations. Use their actual model designations and serial dates. Avoid giving a later guitar a 1960s identity because it has checkerboard binding, vintage-style pickups or a period-looking case.')
  ],
  valuation:[
- section('Avoid The All-Years Price-Guide Trap','A broad used 620 price guide can be dominated by later guitars. It should not be used as an appraisal for a 1960s solidbody or an early Combo. The Reverb range below is included to make that limitation visible: its pooled data does not isolate vintage years.','For an older instrument, build a comparison group with the same generation, string count, original finish and repair status. If those examples are scarce, an individual appraisal is more defensible than multiplying a modern used price by an assumed vintage premium.'),
- section('Balance Original Parts And Player Condition','Changed pickups, a replaced tailpiece or added vibrato may affect collectors differently from players. Determine whether modifications required routing or drilling. The cost of a replacement part is only one part of the value question; reversibility and the surviving original hardware also matter.','Structural repairs, neck adjustment problems and poorly executed refinishing need separate consideration. A clean-looking guitar with unresolved neck trouble is not a comparable substitute for a healthy worn example. Ask for a repair assessment before committing to a restoration budget.'),
- section('Prepare A Model-Specific Comparison','Include front and rear whole-instrument photos, the serial, neck construction, pickups, outputs and tailpiece attachment. For an early Combo, document the complete pickup assembly rather than only its cover. For twelve-strings, add both headstock faces and a bridge close-up.','Record when each comparison was offered and whether the quoted figure is an asking price or a confirmed sale. A sold badge without a disclosed transaction amount does not establish the final price. Update the comparison group before making a sale decision.')
- ],
- examples:[{label:'1985 620/12, Gardiner Houlgate, September 9, 2025',price:'£1,250 GBP',status:'Reported auction result; buyer fees may be additional',note:'Metallic red twelve-string graded fair, with finish wear and working electronics. This is a dated result for an eighties twelve-string, not a sixties six-string.',url:'https://guitar-auctions.co.uk/sale/244/413/1985-Rickenbacker-62012-twelve-string-electric-guitar-made-in-USA'},{label:'Reverb Pooled Used 620 Price Guide',price:'$1,267 to $1,806 USD',status:'Platform estimate across pooled models; not a vintage range',note:'The displayed estimate does not isolate 1960s or 1970s instruments. Do not apply it to an early Combo or vintage 620 without matched evidence.',url:'https://reverb.com/p/rickenbacker-620-electric-guitar'}],
+  {
+    "heading": "Match The Solidbody Generation",
+    "paragraphs": [
+      "The early Combo 600 and Combo 800 are distinct from later 610, 615, 620 and 625 guitars. Use the row for the actual model and production period. A modern-looking cresting-wave outline does not establish that an instrument belongs to the earliest Combo generation.",
+      "The chart identifies six-string, twelve-string and vibrato versions separately. Broad later-production rows are a starting point for those models, not a premium for an early guitar. Original finish, neck condition and surviving hardware determine whether the listed condition assumptions fit."
+    ]
+  },
+  {
+    "heading": "Balance Original Parts And Player Condition",
+    "paragraphs": [
+      "Changed pickups, a replaced tailpiece or added vibrato may affect collectors differently from players. Determine whether modifications required routing or drilling. The cost of a replacement part is only one part of the value question; reversibility and the surviving original hardware also matter.",
+      "Structural repairs, neck adjustment problems and poorly executed refinishing need separate consideration. A clean-looking guitar with unresolved neck trouble is not a comparable substitute for a healthy worn example. Ask for a repair assessment before committing to a restoration budget."
+    ]
+  },
+  {
+    "heading": "Prepare A Model-Specific Appraisal",
+    "paragraphs": [
+      "Include front and rear whole-instrument photos, the serial, neck construction, pickups, outputs and tailpiece attachment. For an early Combo, document the complete pickup assembly rather than only its cover. For twelve-strings, add both headstock faces and a bridge close-up.",
+      "State the known repairs and include removed original parts. If the guitar falls between the years shown or has an unusual configuration, ask Joe for an individual estimate. Do not move it into a higher-valued row on appearance alone."
+    ]
+  }
+],
  sources:[factory('1992','September','Period reference for later 600-series configurations; not an early Combo specification.'),{title:'Rickenbacker Company History',url:'https://www.rickenbacker.com/legacy/',note:'Background on the earlier electric-guitar designs and their evolution.'}]
  },
  {
@@ -150,11 +266,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Look For Guard Repairs And Enlarged Routes','Large guards can conceal modifications, and old plastic can crack around screws or controls. Record repairs without removing a brittle guard unnecessarily. If internal photos are needed, have someone experienced handle the inspection.','Compare the pickups, pots and switches with the correct model circuit. A pot date is only the date of that component and can predate assembly or belong to a replacement harness. Use it to support the serial and construction, not override contradictory physical evidence.')
  ],
  valuation:[
- section('Keep The 480 And 481 Markets Separate','The 481’s unusual fret and pickup arrangement is part of its identity. It can appeal to a different buyer from a 480, so a simple price premium based on the higher model number is unreliable. A three-pickup 483 also needs evidence of factory configuration before being valued as that model.','The 1975 481 listing below is a worn, repaired-guard example with changed pots. Its displayed price is useful condition context, not a current value for every bass-shaped Rickenbacker guitar.'),
- section('Price Specialist Repairs Before Buying Parts','Fingerboard or fret work on a 481 should be evaluated by a repairer familiar with that design. Confirm what can be retained and what must be replaced. An estimate for an ordinary straight-fret guitar may not describe the actual work required.','Original pickups and switches can be difficult to replace correctly. A working modified guitar can still suit a player, but it should be compared with similarly modified instruments. Routing damage or a replacement neck affects more than the cost of the missing component.'),
- section('Show The Features A Buyer Cannot Infer','Send a straight-on fingerboard photo, neck joint, all switches, pickups, bridge and complete serial. Include a clear account of which controls function and any repair history. Show the case and loose parts separately.','For a proposed asking price, look for the same model with a similar degree of alteration. Do not substitute 4001 bass prices because the outline is similar, or a double-neck price because one neck resembles a 480.')
- ],
- examples:[sold('1975 481 Jetglo, Southside Guitars','$2,500 USD','Heavy wear, a repaired pickguard and changed pots were disclosed.','https://www.gbase.com/gear/rickenbacker-481-1975-jetglo')],
+  {
+    "heading": "Keep The 480 And 481 Markets Separate",
+    "paragraphs": [
+      "The 481’s unusual fret and pickup arrangement is part of its identity. It can appeal to a different buyer from a 480, so a simple price premium based on the higher model number is unreliable. A three-pickup 483 also needs evidence of factory configuration before being valued as that model.",
+      "The chart separates the 480, angled-fret 481 and three-pickup 483. Confirm that the neck, pickups and controls match the original model before choosing the range. A repaired guard or changed pot is a different issue from a replacement neck or enlarged pickup routing."
+    ]
+  },
+  {
+    "heading": "Price Specialist Repairs Before Buying Parts",
+    "paragraphs": [
+      "Fingerboard or fret work on a 481 should be evaluated by a repairer familiar with that design. Confirm what can be retained and what must be replaced. An estimate for an ordinary straight-fret guitar may not describe the actual work required.",
+      "Original pickups and switches can be difficult to replace correctly. A working modified guitar can still suit a player, but it should be compared with similarly modified instruments. Routing damage or a replacement neck affects more than the cost of the missing component."
+    ]
+  },
+  {
+    "heading": "Show The Features A Buyer Cannot Infer",
+    "paragraphs": [
+      "Send a straight-on fingerboard photo, neck joint, all switches, pickups, bridge and complete serial. Include a clear account of which controls function and any repair history. Show the case and loose parts separately.",
+      "For a proposed asking price, look for the same model with a similar degree of alteration. Do not substitute 4001 bass prices because the outline is similar, or a double-neck price because one neck resembles a 480."
+    ]
+  }
+],
  sources:[factory('1982','June','Lists the 480, 481 and 483 as distinct configurations.'),{title:'Rickenbacker 481 And 480 Circuit References',url:'https://www.rickenbacker.com/guitar-schematics/',note:'Separate diagrams document the 481’s phase-switch circuit and the 480 circuit.'}]
  },
  {
@@ -168,11 +301,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Check Fretless, Eight-String And Reissue Claims','A factory fretless bass should be distinguished from a defretted one by the fingerboard, marker layout and evidence of filled slots. A conversion can play well but belongs in a different description. Eight-string conversions also require checking the headstock, nut and bridge construction.','For a V63 or C-series bass, use the manufacturing serial and model suffix together. Period-looking pickups or a reversed headstock can be deliberate reissue features. Keep documented export provenance separate from resemblance to an artist’s instrument.')
  ],
  valuation:[
- section('Do Not Give Every 4001 The Same Price','A 1960s bass, an early-1970s transitional example and a later-1970s 4001 can attract different buyers. Match the period, exact variant, pickups, finish and structural condition. One-pickup 4000s, S models and factory fretless instruments should not be folded into a single average.','The two 1978 Autumnglo examples below show a spread in displayed dealer prices within one year and finish. They do not establish prices for early horseshoe-equipped basses. The repair and hardware disclosures must remain attached to the numbers.'),
- section('Separate Wear From Expensive Neck Problems','Buckle wear and finish checking are visible; truss-rod damage or a lifting fingerboard can be harder to assess remotely. A playable bass with documented cosmetic wear can be a better comparison than a shiny bass needing uncertain structural work. Obtain a specific repair assessment where needed.','Changed pickups, a routed body or refinishing can alter collector interest. Keep replaced parts when available and explain what remains original. A good modern bridge does not erase the effect of additional holes, although it may be a useful feature for a player.'),
- section('Document Color And Provenance Claims','Autumnglo, Walnut and other finish descriptions can be used loosely in listings. Compare the surface, period and protected areas before assigning a rare-color premium. A photograph’s white balance can make the same bass look quite different.','Send a full serial photo, pickup and tailpiece details, neck and fingerboard views, outputs and any repair records. For export, fretless or artist-associated claims, include supporting paperwork. An unsupported story should not be priced as documented provenance.')
- ],
- examples:[sold('1978 4001 Autumnglo, Chicago Music Exchange','$2,595 USD','Bridge adjustment holes had been drilled and plugged.','https://www.gbase.com/gear/rickenbacker-1998'),sold('1978 4001 Autumnglo, Rivington Guitars','$3,799 USD','Dealer described an original bass with its case.','https://www.gbase.com/gear/rickenbacker-model-4001-1978-autumnglo')],
+  {
+    "heading": "Do Not Give Every 4001 The Same Price",
+    "paragraphs": [
+      "A 1960s bass, an early-1970s transitional example and a later-1970s 4001 can attract different buyers. Match the period, exact variant, pickups, finish and structural condition. One-pickup 4000s, S models and factory fretless instruments should not be folded into a single average.",
+      "The chart separates early instruments, transitional 1973 features and later production. Match the original finish where a color is specified. The 4000, 4001, factory fretless, S-series and later reissues each need their own row; an export-model claim also needs supporting identification."
+    ]
+  },
+  {
+    "heading": "Separate Wear From Expensive Neck Problems",
+    "paragraphs": [
+      "Buckle wear and finish checking are visible; truss-rod damage or a lifting fingerboard can be harder to assess remotely. A playable bass with documented cosmetic wear can be a better comparison than a shiny bass needing uncertain structural work. Obtain a specific repair assessment where needed.",
+      "Changed pickups, a routed body or refinishing can alter collector interest. Keep replaced parts when available and explain what remains original. A good modern bridge does not erase the effect of additional holes, although it may be a useful feature for a player."
+    ]
+  },
+  {
+    "heading": "Document Color And Provenance Claims",
+    "paragraphs": [
+      "Confirm the original finish before assigning a rare-color premium. Compare the surface, period and protected areas. A photograph’s white balance can make the same bass look quite different, so an uncertain Autumnglo or Walnut description needs closer inspection.",
+      "Send a full serial photo, pickup and tailpiece details, neck and fingerboard views, outputs and any repair records. For export, fretless or artist-associated claims, include supporting paperwork. An unsupported story should not be priced as documented provenance."
+    ]
+  }
+],
  sources:[factory('1977','January','Period reference for 4000, 4001, fretless and multi-string variants.'),{title:'Rickenbacker Factory FAQ',url:'https://www.rickenbacker.com/faq/',note:'Explains differences between original horseshoe pickups, covers and later recreations.'},factory('1988','June','Lists the later 4001V63 separately from contemporary standard basses.')]
  },
  {
@@ -186,15 +336,32 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Verify Special Versions And Original Finish','Black trim or unusual paint can be factory specification, owner customization or restoration. Photograph the entire bass and the hardware closely, and seek period documentation for a special-edition claim. Color appearance alone is unreliable under mixed lighting.','For five-string, eight-string or fretless versions, inspect the headstock, nut, bridge and fingerboard for conversions. A replacement guard or neck can change the configuration without changing the body’s serial plate. Describe what the instrument is now and what evidence supports its original identity.')
  ],
  valuation:[
- section('Use Early 4003 Comparisons For Early Basses','A new 4003 street price or broad used average is not a complete appraisal for an early-1980s bass. Match year range, model variant, finish, originality and neck condition. Keep later production and special editions separate until there is evidence that they are useful comparisons.','The 1983 and 1986 examples below carry different repair and originality disclosures. Their displayed prices illustrate individual listings, not a guaranteed range. A higher asking price with an unresolved structural concern is not evidence of a better-condition instrument.'),
- section('Consider Function Alongside Original Parts','A working bridge, healthy neck and reliable pickups matter to players. Changed hardware can improve function, but extra holes, altered routes and refinishing can reduce collector appeal. Document both sides instead of describing every replacement as an upgrade that raises value.','A split or lifting fingerboard needs a repair diagnosis. Subtracting an estimated repair bill from a clean example’s price may still overstate value because buyers also account for repair history and uncertainty. Use repaired comparisons where possible.'),
- section('Support Special-Edition Premiums With Evidence','An unusual color, black hardware or a limited-edition name should be supported by period details and a consistent serial. Ask whether the finish is original and whether all special components remain. A standard bass repainted to resemble a scarce version belongs in a modified category.','For an appraisal, send the serial, complete front and back, both headstock faces, bridge side view, outputs and detailed neck photos. Include original parts and receipts. State whether you want a purchase offer or a likely retail asking price.')
- ],
- examples:[sold('1983 4003 Jetglo, Chicago Music Exchange','$2,295 USD','Mixed replacement pots and wear were disclosed.','https://www.gbase.com/gear/rickenbacker-4003-jetglo-1'),ask('1986 4003 BT Midnight Blue, Imperial Vintage','$3,495 USD','Listing disclosed a fingerboard split; the asking price is not a clean-condition benchmark.','https://www.gbase.com/gear/rickenbacker-4003-bt-1986-midnight-blue')],
+  {
+    "heading": "Use Early 4003 Comparisons For Early Basses",
+    "paragraphs": [
+      "Match the model variant, production period, finish, originality and neck condition. Standard 4003 basses, factory fretless examples and special editions belong in separate rows. An early manufacturing date alone does not settle the value of a particular bass.",
+      "The standard-model row covers a broad production period and is a starting point, not a separate premium for every early year. Special editions, factory fretless basses and five- or eight-string versions have their own rows. Unusual early features or a disputed finish need an individual appraisal."
+    ]
+  },
+  {
+    "heading": "Consider Function Alongside Original Parts",
+    "paragraphs": [
+      "A working bridge, healthy neck and reliable pickups matter to players. Changed hardware can improve function, but extra holes, altered routes and refinishing can reduce collector appeal. Document both sides instead of describing every replacement as an upgrade that raises value.",
+      "A split or lifting fingerboard needs a repair diagnosis. Subtracting an estimated repair bill from a clean example’s price may still overstate value because buyers also account for repair history and uncertainty. Use repaired comparisons where possible."
+    ]
+  },
+  {
+    "heading": "Support Special-Edition Premiums With Evidence",
+    "paragraphs": [
+      "An unusual color, black hardware or a limited-edition name should be supported by period details and a consistent serial. Ask whether the finish is original and whether all special components remain. A standard bass repainted to resemble a scarce version belongs in a modified category.",
+      "For an appraisal, send the serial, complete front and back, both headstock faces, bridge side view, outputs and detailed neck photos. Include original parts and receipts. State whether you want a purchase offer or an estimate of market value."
+    ]
+  }
+],
  sources:[factory('1988','June','Lists standard, S, fretless and multi-string 4003 versions.'),{title:'Rickenbacker Factory FAQ',url:'https://www.rickenbacker.com/faq/',note:'Explains early 4003 differences from the 4001, including the two-piece guard and neck system.'}]
  },
  {
- key:'4005',name:'Vintage 4005 Basses',group:'Basses',period:'Original Hollowbody Basses And Later Recreations',photoSet:'4005',comparison:'The photos show the 1968 Azureglo 4005 from Joe’s archive and Reverb listing. They document this instrument; other years, WB versions and modern recreations differ.',
+ key:'4005',name:'Vintage 4005 Basses',group:'Basses',period:'Original Hollowbody Basses And Later Recreations',photoSet:'4005',comparison:'The photos show the 1968 Azureglo 4005 from Joe’s archive. They document this instrument; other years, WB versions and modern recreations differ.',
  intro:'The original 4005 combines a hollow body with a bass neck and a very different shape from the 4001. Its originality and condition need close inspection around the neck joint, bridge, binding and thin body edges. Later 4005-named instruments should be identified separately before choosing a value comparison.',
  variants:[['4005','Original hollowbody bass family; inspect the period’s pickups and appointments.'],['4005 WB','Double-bound body variant; confirm the actual body construction.'],['4005/6','Six-string bass version, not a standard six-string guitar.'],['4005XC / 4005V','Later models with their own specifications and manufacturing dates.']],
  authentication:[
@@ -204,11 +371,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Inspect Binding, Finish And Tuner Footprints','The archive close-ups show checking, edge wear and rear binding clearly. Those photographs are more useful than a distant glossy front view for identifying condition. Examine loose binding, replaced sections and cracks around the soundhole or jack area.','Azureglo or another unusual color needs evidence of original finish before it receives a premium. Compare exposed and protected areas through a qualified inspection, and record any overspray. Rear headstock views can reveal changed tuner footprints even when the front appears untouched.')
  ],
  valuation:[
- section('Match Original-Era Basses Before Comparing Prices','An original 4005, a WB variant and a modern recreation belong in different price groups. Also separate four-string and six-string basses. The examples below show a wide spread in displayed prices, but they differ in repairs, changed parts, finish and selling circumstances.','Joe’s 1967 example provides a concrete reminder that an attractive vintage bass can have a replaced nut, moved bridge and other disclosed issues. Its asking price should not be used as evidence that every original 4005 in any condition is worth that amount.'),
- section('Give Structural Condition A Full Description','A neck reset, fingerboard reglue or moved bridge may be necessary repair work, but buyers need to know about it. Show the result and explain whether the bass now has usable action and accurate intonation. Obtain a repair assessment for any unresolved movement or separation.','Original finish and pickups can matter to collectors, while worn frets or a broken case may be more straightforward to address. Evaluate each issue independently. There is no defensible universal percentage deduction that applies equally to a tuner swap, refinishing and a major neck repair.'),
- section('Use Rare-Color Claims Carefully','A scarce original color can affect demand, but a blue finish by itself does not prove a factory Azureglo example. Verify the finish and date before choosing rare-color comparisons. Avoid relying on a dealer’s unsupported production-count claim.','For an offer, include the full serial, body edges, heel, bridge side views, both headstock faces and clear photos of finish wear. Keep the original case and documentation with the bass. Compare advertised prices with realistic selling time and any repairs a buyer will need to undertake.')
- ],
- examples:[ask('1967 4005 Fireglo, Joe’s Vintage Guitars','$6,705 USD','Replaced nut, moved bridge and other condition issues were disclosed.','https://www.gbase.com/gear/rickenbacker-4005-1967-fireglo'),sold('1967 4005 Mapleglo, Chicago Music Exchange','$8,950 USD','Changed Fender tuners and wiring work were disclosed.','https://www.gbase.com/gear/rickenbacker-4005-1967-mapleglo'),ask('1967 4005 Jetglo, Guitar Traders','$11,000 USD','Dealer-described original finish with original case.','https://www.gbase.com/gear/rickenbacker-4005-1967-jet-glow'),sold('1968 4005 Fireglo, Killer Vintage','$12,499 USD','Fingerboard reglue and a non-original case were disclosed.','https://www.gbase.com/gear/rickenbacker-4005-1968-fireglo')],
+  {
+    "heading": "Match The Original 4005 Configuration",
+    "paragraphs": [
+      "An original 4005, a double-bound WB and a modern recreation belong in different groups. The chart separates the original four-string bass from six- and eight-string versions. Match the production years and original finish where the row specifies a color.",
+      "The ranges assume excellent, original condition. A moved bridge, fingerboard repair, changed pickups or refinishing needs an individual adjustment. The vintage rows do not apply to modern XC or V-series recreations, even where the body styling is similar."
+    ]
+  },
+  {
+    "heading": "Give Structural Condition A Full Description",
+    "paragraphs": [
+      "A neck reset, fingerboard reglue or moved bridge may be necessary repair work, but buyers need to know about it. Show the result and explain whether the bass now has usable action and accurate intonation. Obtain a repair assessment for any unresolved movement or separation.",
+      "Original finish and pickups can matter to collectors, while worn frets or a broken case may be more straightforward to address. Evaluate each issue independently. There is no defensible universal percentage deduction that applies equally to a tuner swap, refinishing and a major neck repair."
+    ]
+  },
+  {
+    "heading": "Check Rare Colors And Repair History",
+    "paragraphs": [
+      "A scarce original color can affect demand, but a blue finish by itself does not prove a factory Azureglo example. Verify the finish and date before assigning a premium. The chart does not supply a separate Azureglo range, so an original-color claim should be reviewed individually.",
+      "For an offer, include the full serial, body edges, heel, bridge side views, both headstock faces and clear photos of finish wear. Keep the original case and documentation with the bass. Explain any repairs a future owner will need to undertake."
+    ]
+  }
+],
  sources:[factory('1977','January','Lists original-era 4005 and six-string bass variants.'),{title:'Joe’s 1968 Azureglo 4005 Archive Listing',url:'https://reverb.com/item/93803936-rickenbacker-4005-1968-azureglo',note:'The owned instrument pictured throughout this guide.'},{title:'Current Rickenbacker Guitar And Bass Models',url:'https://www.rickenbacker.com/guitars/',note:'Manufacturer descriptions identify modern recreations separately from original production.'}]
  },
  {
@@ -222,11 +406,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Separate Later Reissues From Original Production','Later 4002-named instruments exist, including documented 2026 dealer offerings. A familiar outline and deluxe trim cannot establish a 1970s date. Read the actual serial, inspect the current construction and request purchase documentation.','Avoid repeating production totals from listings as established fact. Published counts can conflict. For a specific bass, a consistent identity, clear provenance and documented condition are stronger evidence than an unsupported claim that it is one of a particular number.')
  ],
  valuation:[
- section('Treat Sparse Asking Prices As Limited Evidence','A rare model may have only a few visible listings, and the prices can be far apart. One high asking price does not establish a sale or a narrow market range. The original-era example below is advertised in euros as displayed by Reverb; it is not a verified transaction or a converted US-dollar appraisal.','Later reissues belong in a separate comparison group. The 2026 listing below is included specifically to prevent confusion with an original 4002. Do not average the two figures or treat their difference as a fixed vintage premium.'),
- section('Evaluate Missing Electronics Before Setting A Price','A changed or damaged model-specific pickup may be harder to replace correctly than a common control pot. Have the complete circuit tested and identify any absent functions. A bass that works through one output may still have substantial electrical changes.','Structural condition also matters: binding work, a repaired neck and a replacement bridge should be documented individually. A restoration estimate helps define the cost, but restored condition may still attract a different buyer from an untouched example.'),
- section('Use An Individual Appraisal For A Serious Sale','Send the serial, full front and back, all outputs, pickup close-ups, fingerboard and binding details. Include service records and any original components that were removed. A short recording of all working output modes can supplement the photographs.','Request a comparison-based appraisal that states its uncertainty and sale context. For a scarce bass, time available to find a buyer can materially affect the acceptable offer. A retail asking price and an immediate dealer purchase offer answer different questions.')
- ],
- examples:[ask('1979 4002 Mapleglo, Bass Direct','€17,499.97 EUR','Displayed Reverb asking price; no completed transaction verified. Currency retained as displayed.','https://reverb.com/item/92791051-rickenbacker-4002-1979-mapleglo'),sold('2026 4002 Fireglo Reissue, Kansas City Vintage Guitars','$9,500 USD','Modern reissue comparison only; not an original-era 4002.','https://www.gbase.com/gear/rickenbacker-4002-2026-fireglo')],
+  {
+    "heading": "Value An Original 4002 As Its Own Model",
+    "paragraphs": [
+      "The chart applies to original 4002 production from 1977 to 1984 in excellent, original condition. This model’s electronics, appointments and construction need to be checked together before applying the range. A modified 4001 or 4003 does not become a 4002 because it has similar cosmetic details.",
+      "Later recreations require a separate appraisal. The original-era range does not cover a modern reissue, an instrument with replacement model-specific pickups or a bass with unresolved structural repairs. Complete original electronics and documented condition are central to the estimate."
+    ]
+  },
+  {
+    "heading": "Evaluate Missing Electronics Before Setting A Price",
+    "paragraphs": [
+      "A changed or damaged model-specific pickup may be harder to replace correctly than a common control pot. Have the complete circuit tested and identify any absent functions. A bass that works through one output may still have substantial electrical changes.",
+      "Structural condition also matters: binding work, a repaired neck and a replacement bridge should be documented individually. A restoration estimate helps define the cost, but restored condition may still attract a different buyer from an untouched example."
+    ]
+  },
+  {
+    "heading": "Use An Individual Appraisal For A Serious Sale",
+    "paragraphs": [
+      "Send the serial, full front and back, all outputs, pickup close-ups, fingerboard and binding details. Include service records and any original components that were removed. A short recording of all working output modes can supplement the photographs.",
+      "For a scarce bass, the time available to find a buyer can affect an acceptable offer. Tell Joe whether you want an estimate of market value or an immediate purchase offer, and disclose any work that remains unresolved."
+    ]
+  }
+],
  sources:[factory('1977','January','Lists the original deluxe 4002 with its special output arrangement.'),{title:'Rickenbacker 4002 Circuit Reference',url:'https://www.rickenbacker.com/guitar-schematics/',note:'Factory index includes a separate 4002 high- and low-impedance circuit.'},{title:'Documented 1979 4002',url:'https://www.ronsvintage.com/bass/rickenbacker-model-4002',note:'Owner’s instrument-specific photographs and description; production-count claims are not used here.'}]
  },
  {
@@ -240,11 +441,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Corroborate The Date And Finish','Use the complete serial alongside construction and any dated paperwork. A replacement plate can carry a plausible date while the neck or body tells a different story. Photograph labels and markings before cleaning or polishing them.','Check finish around the neck joint, pickup opening and hardware footprints. An attractive refinish is still a refinish. Keep plain wear, local touch-up and stripped or repainted surfaces in separate descriptions so a buyer can compare the bass accurately.')
  ],
  valuation:[
- section('Compare The 3000 And 3001 Separately','Short-scale and full-scale basses serve different players. Match the actual model, scale, electronics and condition before looking at price. A 4001 or 4003 listing can illustrate the broader brand market but does not establish the value of these designs.','The examples below are two different models with different dealer descriptions. Their displayed prices are useful starting evidence, not the ends of a universal 3000-series range. More recent matched examples should be added before setting an asking price.'),
- section('Allow For Originality And Practical Use','A functioning original pickup, sound neck attachment and adjustable bridge support a straightforward sale. Replacement pickups, enlarged routes and extra switches can reduce collector interest even if a player likes the result. Describe modifications in terms a buyer can verify.','Consider weight, balance, fret wear and action as well as cosmetics. A bass that needs work should be priced with a repair diagnosis rather than a vague promise of an easy setup. Original cases and loose parts add context but cannot compensate for undisclosed structural issues.'),
- section('Build A Clear Selling Description','State the measured scale, serial, control functions, modifications and known repairs. Include whole-instrument photos, neck-joint details and a close view of the bridge and pickup. Photograph the original case and any paperwork separately.','A small comparison pool means the asking price may need more flexibility. Distinguish a dealer’s retail listing from the amount you could receive in an immediate purchase. Ask for an appraisal tied to the specific bass rather than a generic Rickenbacker average.')
- ],
- examples:[sold('1976 3000 Natural, Empire Guitars','$1,250 USD','Short-scale example with wear and a small stable guard crack disclosed.','https://www.gbase.com/gear/rickenbacker-3000-1976-natural'),sold('1978 3001 Autumnglo, Thunder Road','$2,799 USD','Full-scale single-pickup model with original case described.','https://www.gbase.com/gear/rickenbacker-3001-bass-1978-autumnglo')],
+  {
+    "heading": "Identify The 3000 Or 3001 Before Valuing It",
+    "paragraphs": [
+      "The short-scale 3000 and longer-scale 3001 serve different players. Measure the scale and confirm the neck, pickup and control layout before selecting the chart row. A 4001 or 4003 price is not a substitute for an appraisal of these designs.",
+      "Both rows assume original instruments in excellent condition. The individual bass’s setup, neck attachment, electronics and repair history determine how closely it fits that assumption. A changed pickup or enlarged route can move it outside the range."
+    ]
+  },
+  {
+    "heading": "Allow For Originality And Practical Use",
+    "paragraphs": [
+      "A functioning original pickup, sound neck attachment and adjustable bridge support a straightforward sale. Replacement pickups, enlarged routes and extra switches can reduce collector interest even if a player likes the result. Describe modifications in terms a buyer can verify.",
+      "Consider weight, balance, fret wear and action as well as cosmetics. A bass that needs work should be priced with a repair diagnosis rather than a vague promise of an easy setup. Original cases and loose parts add context but cannot compensate for undisclosed structural issues."
+    ]
+  },
+  {
+    "heading": "Build A Clear Selling Description",
+    "paragraphs": [
+      "State the measured scale, serial, control functions, modifications and known repairs. Include whole-instrument photos, neck-joint details and a close view of the bridge and pickup. Photograph the original case and any paperwork separately.",
+      "Tell Joe whether you want a market-value estimate or a direct purchase offer. A specific appraisal can account for fret wear, missing parts and the work needed to make the bass reliable for its next player."
+    ]
+  }
+],
  sources:[factory('1977','January','Separates the short-scale 3000 from the full-scale 3001.'),{title:'Rickenbacker 3000-Series Circuit Reference',url:'https://www.rickenbacker.com/guitar-schematics/',note:'Factory circuit index includes the 3000/3001 family; compare the actual model and period.'}]
  },
  {
@@ -258,15 +476,32 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Inspect Controls, Tuners And Conversions','Count original tuner holes and inspect the nut and bridge for added string positions. Extra tuners, drilled metal or a new nut can reveal a six-to-eight or other conversion. Such an instrument may still be playable, but it needs a modified description.','Check jack mounting, control holes and solder work. An added tone control changes originality even if it is useful. Inspect the case and any matching amplifier separately; a case or amplifier found with the steel does not by itself establish that they were sold together.')
  ],
  valuation:[
- section('Use The Correct Scale And Construction Group','Compare an A-22 with documented A-22 examples and an A-25 with measured long-scale examples. Separate later recreations and converted instruments. A familiar round silhouette is not enough to borrow the price of an original early steel.','The A-22 example below had an added tone control. Its displayed price is a modified-instrument reference, not a universal price for Frying Pans. Scarce examples with uncertain dates or extensive restoration need individual appraisal rather than a narrow published range.'),
- section('Assess The Casting And Pickup Before Cosmetics','Cracked or altered aluminum, extra tuner holes and extensive pickup changes can affect both collectibility and practical use. A specialist’s diagnosis is useful when the pickup is weak or the instrument has been electrically modified. Replacing original parts without that assessment can remove evidence and create unnecessary cost.','Surface wear, polishing and recoating should be described separately. An original case can add interest, but a deteriorated case may offer little protection for shipping. Value an accompanying amplifier on its own identity and condition before treating the pair as an original set.'),
- section('Preserve The Evidence For An Appraisal','Send full front and back views, measured scale, headstock end, badge, pickup, controls and close-ups of damage. Include a description of output and any known service work. Photograph loose parts and old paperwork rather than cleaning them first.','Avoid an exact-year or rarity claim based on an uncertain online serial chart. An appraisal can state an era and its evidence without pretending to know a precise year. That clarity is more useful to a buyer than an unsupported early date.')
- ],
- examples:[sold('1935-Labeled Electro A-22, Imperial Vintage','$2,995 USD','Added tone control disclosed; original case described. The dealer’s year attribution is not independently verified here.','https://www.gbase.com/gear/rickenbacker-electro-a-22')],
+  {
+    "heading": "Use The Correct Scale And Construction Group",
+    "paragraphs": [
+      "Compare an A-22 with documented A-22 examples and an A-25 with measured long-scale examples. Separate later recreations and converted instruments. A familiar round silhouette is not enough to borrow the price of an original early steel.",
+      "The chart gives separate ranges for the early A-22 and A-25 groups shown. Confirm the scale length and supported era before applying a row. Added controls, repaired castings, converted string counts and extensive pickup work can put an instrument outside the original-condition range."
+    ]
+  },
+  {
+    "heading": "Assess The Casting And Pickup Before Cosmetics",
+    "paragraphs": [
+      "Cracked or altered aluminum, extra tuner holes and extensive pickup changes can affect both collectibility and practical use. A specialist’s diagnosis is useful when the pickup is weak or the instrument has been electrically modified. Replacing original parts without that assessment can remove evidence and create unnecessary cost.",
+      "Surface wear, polishing and recoating should be described separately. An original case can add interest, but a deteriorated case may offer little protection for shipping. Value an accompanying amplifier on its own identity and condition before treating the pair as an original set."
+    ]
+  },
+  {
+    "heading": "Preserve The Evidence For An Appraisal",
+    "paragraphs": [
+      "Send full front and back views, measured scale, headstock end, badge, pickup, controls and close-ups of damage. Include a description of output and any known service work. Photograph loose parts and old paperwork rather than cleaning them first.",
+      "Avoid an exact-year or rarity claim based on an uncertain online serial chart. An appraisal can state an era and its evidence without pretending to know a precise year. That clarity is more useful to a buyer than an unsupported early date."
+    ]
+  }
+],
  sources:[{title:'Rickenbacker Company History: Early Electric Instruments',url:'https://www.rickenbacker.com/legacy/',note:'Manufacturer history describes cast-aluminum Frying Pans, scale options and early steel designs.'}]
  },
  {
- key:'bakelite-lap-steel',name:'Bakelite And Other Lap Steels',group:'Lap Steels',period:'Model B, BD, Panda And Related Steels',photoSet:'a22',comparison:'The photos show our cast-aluminum A-22, not a Bakelite Model B. They illustrate early horseshoe-pickup and inspection details. Follow the owned B6 listing below for a model-specific comparison.',
+ key:'bakelite-lap-steel',name:'Bakelite And Other Lap Steels',group:'Lap Steels',period:'Model B, BD, Panda And Related Steels',photoSet:'a22',comparison:'The photos show our cast-aluminum A-22, not a Bakelite Model B. They illustrate early horseshoe-pickup and inspection details. They do not show Model B construction.',
  intro:'Rickenbacher and Rickenbacker lap steels include Bakelite, metal and wood-bodied designs. A black-and-white “Panda” nickname does not establish an exact model or date, and not every horseshoe-equipped steel has a Bakelite body. Authentication starts with the material, construction, string count and pickup system before moving to badges, plate colors and value.',
  variants:[['Model B / B6 / B7','Bakelite family; distinguish string count and construction details.'],['BD And Panda Examples','Later versions and collector nicknames require inspection of the actual instrument.'],['Silver Hawaiian And Metal Models','Metal-bodied designs have different construction and condition concerns.'],['Model 100 / 102 / J6','Other steel models should be identified separately from Bakelite instruments.'],['Console And Double-Neck Steels','Count necks, strings and original stand or leg hardware; do not price as a single lap steel.']],
  authentication:[
@@ -276,11 +511,28 @@ export const rickenbackerModels:ModelGuide[]=[
  section('Distinguish Lap, Spanish And Console Designs','Some early instruments share materials or pickup ideas while serving different playing styles. Inspect the neck, string height and playing surface before calling a Bakelite instrument a lap steel or a fretted Spanish guitar. Motorized Vibrola instruments are a separate specialist category.','For double-neck or console models, document all necks, pickups, controls, legs and fittings. Missing original support hardware can affect usability and value. A stripped wood-bodied steel should be described as stripped or refinished rather than reclassified from its newly exposed color.')
  ],
  valuation:[
- section('Match Material, Model And Production Era','A prewar Bakelite Model B, a later Panda, a wood-bodied student steel and a double-neck console belong in different comparison groups. Match string count and original pickup condition as well as appearance. A case or amplifier should be identified separately before assigning value to a package.','Joe’s sold 1950s B6 listing below displays $1,250, but the page does not verify the final transaction amount. It is evidence for that advertised instrument, not a price for every Bakelite steel or for rarer prewar examples.'),
- section('Give Cracks And Missing Parts Full Weight','A crack in Bakelite is different from a finish scratch, and an incomplete pickup assembly is different from a worn knob. Obtain a specialist repair assessment before assuming either can be restored cheaply. Some replacement work can make the steel usable while leaving a lasting collector-value difference.','Original decorative plates, tuners and cases can matter, but their condition should be described accurately. Replaced tuner buttons are not the same as a fully changed tuner set with additional holes. Keep old parts with the instrument and photograph them separately.'),
- section('Choose A Sale Description That Can Be Verified','Include material, string count, visible marks, control functions, repairs and missing pieces. Send photographs of both sides, the pickup, neck joint, bridge, tuners and any cracks. If the exact year is uncertain, state the supported era instead.','For an uncommon console, motorized model or unusually early steel, seek an individual appraisal. A handful of online asking prices can overstate the available market. Clear documentation and a realistic view of condition give both buyer and seller a better basis for discussing price.')
- ],
- examples:[sold('1950s B6 Panda, Joe’s Vintage Guitars','$1,250 USD','Owned Reverb listing with case; displayed price is not a verified final sale amount.','https://reverb.com/item/85283504-rickenbacker-b6-panda-1950s-black')],
+  {
+    "heading": "Match Material, Model And Production Era",
+    "paragraphs": [
+      "A prewar Bakelite Model B, a later Panda, a wood-bodied student steel and a double-neck console belong in different comparison groups. Match string count and original pickup condition as well as appearance. A case or amplifier should be identified separately before assigning value to a package.",
+      "The chart separates the Model B and BD from student models and steel- or wood-bodied instruments. The broad Model B row covers the stated production period; it does not assign a separate premium to every plate color or nickname. Cracks, missing parts and converted string counts need individual review."
+    ]
+  },
+  {
+    "heading": "Give Cracks And Missing Parts Full Weight",
+    "paragraphs": [
+      "A crack in Bakelite is different from a finish scratch, and an incomplete pickup assembly is different from a worn knob. Obtain a specialist repair assessment before assuming either can be restored cheaply. Some replacement work can make the steel usable while leaving a lasting collector-value difference.",
+      "Original decorative plates, tuners and cases can matter, but their condition should be described accurately. Replaced tuner buttons are not the same as a fully changed tuner set with additional holes. Keep old parts with the instrument and photograph them separately."
+    ]
+  },
+  {
+    "heading": "Choose A Sale Description That Can Be Verified",
+    "paragraphs": [
+      "Include material, string count, visible marks, control functions, repairs and missing pieces. Send photographs of both sides, the pickup, neck joint, bridge, tuners and any cracks. If the exact year is uncertain, state the supported era instead.",
+      "For an uncommon console, motorized model or unusually early steel, seek an individual appraisal. The chart only covers the configurations and years shown. Clear documentation and an accurate condition description give both buyer and seller a better basis for discussing price."
+    ]
+  }
+],
  sources:[{title:'Rickenbacker Company History: Bakelite And Steel Models',url:'https://www.rickenbacker.com/legacy/',note:'Manufacturer background on the different early materials and instrument designs.'},{title:'1937-Labeled Model B6, Cream City Music',url:'https://www.creamcitymusic.com/vintage-rickenbacker-electro-model-b6-lap-steel-1937/',note:'Dealer examination of a specific Bakelite example, including its replaced tuners.'},{title:'Joe’s B6 Panda Photo Listing',url:'https://reverb.com/item/85283504-rickenbacker-b6-panda-1950s-black',note:'Model-specific photos from Joe’s sold instrument archive.'}]
  },
 ];

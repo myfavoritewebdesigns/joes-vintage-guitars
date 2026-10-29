@@ -1,6 +1,6 @@
 # Rickenbacker Model Guide Expansion
 
-Prepared October 27, 2026 for Joe's review. Publication is pending approval of the specific preview.
+Prepared October 27, 2026 and revised October 29, 2026 for Joe's review. Publication is pending approval of the specific preview.
 
 ## Scope
 
@@ -30,13 +30,13 @@ This covers the major vintage families; it is not a catalogue of every prototype
 
 Exact archive sets available: 1960s 360, archive-labeled 1966 360/12, 1964 425, 1968 4005, 1989 4003, 1997 325 and 1930s A-22. Other families use explicitly identified comparison photos. The 1997 325 is never represented as a 1950s original. The aluminum A-22 is never represented as Bakelite. The 1989 4003 is never represented as a 4001, 4002, 3000 or 480 guitar.
 
-Reverb listing content could be researched through public search, but direct shop/image downloads encountered access challenges. No challenge was bypassed and no other dealer's photos were copied. Joe's B6 and 4005 archive listings are linked as additional references. Exact-model photo gaps remain disclosed rather than filled with invented or misidentified images.
+Reverb listing content could be researched through public search, but direct shop/image downloads encountered access challenges. No challenge was bypassed and no other dealer's photos were copied. Exact-model photo gaps remain disclosed rather than filled with invented or misidentified images.
 
 ## Evidence And Values
 
-Article data includes primary factory document links and individual dealer/auction evidence. Statements about a dealer's instrument retain the dealer attribution. Uncertain production totals, celebrity prices and conflicting listing fields are not used as general market facts.
+Authentication articles retain technical references. Value articles contain no external citation section, dealer names, auction results or marketplace listing examples. They use semantic HTML tables with Joe's estimated USD ranges, production years, model configuration, date and condition assumptions.
 
-Displayed prices on sold listings are explicitly not treated as confirmed transaction amounts. The 1985 620/12 auction result was verified directly on Gardiner Houlgate's lot page: September 9, 2025, reported sold for GBP 1,250, fair condition. Buyer fees are not assumed included. Sparse comparisons are not converted into unsupported numerical valuation bands. The pooled modern 620 estimate is labeled unsuitable as a vintage-only appraisal.
+Joe explicitly supplied the market adjustment: randomly choose 11%, 12%, 13%, 14% or 15% below the applicable 2026 reference range and round each endpoint to the nearest $50. The 175 assignments were generated once and saved locally. Public data contains the adjusted figures only. Calculations and publication assumptions are checked in `value-chart-check.json`; the working baseline and assignments remain under untracked `work/rickenbacker` and are not deployed. Values describe excellent, original instruments with the original case where applicable, not purchase offers or insurance replacement values. Rare variants and years not covered by a row require individual appraisal.
 
 ## Integration And Verification
 

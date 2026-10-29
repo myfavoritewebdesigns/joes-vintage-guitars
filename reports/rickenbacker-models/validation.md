@@ -1,5 +1,22 @@
 # Preview Validation
 
+## October 29 Value-Chart Revision
+
+- All 15 value guides now render numerical charts containing 175 model-and-era rows.
+- Each saved adjustment is one of 11%, 12%, 13%, 14% or 15%; both adjusted endpoints match the calculation and are rounded to the nearest $50. Assignments are persistent, with no runtime randomness.
+- Every value article has zero external article links and no dealer names, auction references, old listing examples or attribution to the pricing reference. Authentication articles retain their technical references.
+- Values are explicitly estimated USD market ranges for excellent, original instruments, with case assumptions and a distinction from purchase offers and insurance values.
+- Production build: 357 pages. Astro check: 0 errors, 0 warnings. Rendered-copy gate: 0 hard failures; the same 730 existing warning-tier findings remain.
+- All 31 guide/index routes pass metadata, canonical, image and internal-target checks. Articles retain 8 to 10 photographs.
+- All 93 isolated browser checks at 1440, 390 and 320 pixels pass, with no page overflow, clipped value columns, missing images or page errors. Representative desktop/mobile accessibility checks report zero violations.
+- Desktop and mobile chart screenshots reviewed. On small screens configuration notes move under the model name so the value column remains visible without sideways scrolling.
+- Licensed image metadata check: 285 nodes across all 31 pages, zero content-URL mismatches.
+- Browser control was available for reading the remaining source entries during this revision. Working calculation records are local, outside deployed source. Preview-only delivery remains pending Joe's publication approval.
+
+See `value-chart-check.json`, `browser-check.json` and `rendered-check.json` for current machine-readable results. The existing-page comparisons below were completed for the initial library integration; this revision changes the new library pages and their shared article presentation only.
+
+## Original Library Validation
+
 Checked October 27, 2026 against the final local production build.
 
 - Production build completed: 357 pages.

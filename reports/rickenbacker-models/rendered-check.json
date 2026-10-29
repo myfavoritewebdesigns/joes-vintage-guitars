@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-27T16:47:11.518Z",
+  "checkedAt": "2026-10-29T17:42:33.349Z",
   "pages": [
     {
       "route": "/rickenbacker-authentication-and-value-guides/",
       "titleLength": 44,
-      "descriptionLength": 157,
+      "descriptionLength": 159,
       "images": 15,
-      "words": 656,
+      "words": 673,
       "schemas": 21
     },
     {
@@ -14,15 +14,15 @@
       "titleLength": 53,
       "descriptionLength": 146,
       "images": 8,
-      "words": 1162,
+      "words": 1148,
       "schemas": 15
     },
     {
       "route": "/post/rickenbacker-325-value-guide/",
       "titleLength": 44,
-      "descriptionLength": 149,
+      "descriptionLength": 138,
       "images": 8,
-      "words": 1105,
+      "words": 1221,
       "schemas": 15
     },
     {
@@ -30,15 +30,15 @@
       "titleLength": 45,
       "descriptionLength": 138,
       "images": 10,
-      "words": 1148,
+      "words": 1134,
       "schemas": 17
     },
     {
       "route": "/post/rickenbacker-330-340-value-guide/",
       "titleLength": 60,
-      "descriptionLength": 141,
+      "descriptionLength": 128,
       "images": 10,
-      "words": 1149,
+      "words": 1209,
       "schemas": 17
     },
     {
@@ -46,15 +46,15 @@
       "titleLength": 45,
       "descriptionLength": 138,
       "images": 10,
-      "words": 1148,
+      "words": 1134,
       "schemas": 17
     },
     {
       "route": "/post/rickenbacker-360-370-value-guide/",
       "titleLength": 60,
-      "descriptionLength": 141,
+      "descriptionLength": 128,
       "images": 10,
-      "words": 1130,
+      "words": 1254,
       "schemas": 17
     },
     {
@@ -62,15 +62,15 @@
       "titleLength": 47,
       "descriptionLength": 140,
       "images": 9,
-      "words": 1123,
+      "words": 1109,
       "schemas": 16
     },
     {
       "route": "/post/rickenbacker-12-string-value-guide/",
       "titleLength": 38,
-      "descriptionLength": 143,
+      "descriptionLength": 139,
       "images": 9,
-      "words": 1141,
+      "words": 1303,
       "schemas": 16
     },
     {
@@ -78,15 +78,15 @@
       "titleLength": 45,
       "descriptionLength": 138,
       "images": 10,
-      "words": 1086,
+      "words": 1072,
       "schemas": 17
     },
     {
       "route": "/post/rickenbacker-381-value-guide/",
       "titleLength": 60,
-      "descriptionLength": 141,
+      "descriptionLength": 131,
       "images": 10,
-      "words": 1096,
+      "words": 1092,
       "schemas": 17
     },
     {
@@ -94,15 +94,15 @@
       "titleLength": 50,
       "descriptionLength": 143,
       "images": 9,
-      "words": 1106,
+      "words": 1092,
       "schemas": 16
     },
     {
       "route": "/post/rickenbacker-425-450-460-value-guide/",
       "titleLength": 41,
-      "descriptionLength": 146,
+      "descriptionLength": 138,
       "images": 9,
-      "words": 1079,
+      "words": 1170,
       "schemas": 16
     },
     {
@@ -110,15 +110,15 @@
       "titleLength": 44,
       "descriptionLength": 137,
       "images": 9,
-      "words": 1083,
+      "words": 1069,
       "schemas": 16
     },
     {
       "route": "/post/rickenbacker-600-series-value-guide/",
       "titleLength": 59,
-      "descriptionLength": 140,
+      "descriptionLength": 139,
       "images": 9,
-      "words": 1148,
+      "words": 1168,
       "schemas": 16
     },
     {
@@ -126,15 +126,15 @@
       "titleLength": 45,
       "descriptionLength": 138,
       "images": 8,
-      "words": 1072,
+      "words": 1058,
       "schemas": 15
     },
     {
       "route": "/post/rickenbacker-480-481-value-guide/",
       "titleLength": 60,
-      "descriptionLength": 141,
+      "descriptionLength": 133,
       "images": 8,
-      "words": 1061,
+      "words": 1096,
       "schemas": 15
     },
     {
@@ -142,15 +142,15 @@
       "titleLength": 47,
       "descriptionLength": 140,
       "images": 8,
-      "words": 1100,
+      "words": 1086,
       "schemas": 15
     },
     {
       "route": "/post/rickenbacker-4000-4001-value-guide/",
       "titleLength": 38,
-      "descriptionLength": 143,
+      "descriptionLength": 130,
       "images": 8,
-      "words": 1107,
+      "words": 1190,
       "schemas": 15
     },
     {
@@ -158,15 +158,15 @@
       "titleLength": 46,
       "descriptionLength": 139,
       "images": 8,
-      "words": 1069,
+      "words": 1055,
       "schemas": 15
     },
     {
       "route": "/post/rickenbacker-4003-value-guide/",
       "titleLength": 37,
-      "descriptionLength": 142,
+      "descriptionLength": 136,
       "images": 8,
-      "words": 1083,
+      "words": 1117,
       "schemas": 15
     },
     {
@@ -174,15 +174,15 @@
       "titleLength": 46,
       "descriptionLength": 139,
       "images": 10,
-      "words": 1099,
+      "words": 1082,
       "schemas": 17
     },
     {
       "route": "/post/rickenbacker-4005-value-guide/",
       "titleLength": 37,
-      "descriptionLength": 142,
+      "descriptionLength": 136,
       "images": 10,
-      "words": 1148,
+      "words": 1160,
       "schemas": 17
     },
     {
@@ -190,15 +190,15 @@
       "titleLength": 46,
       "descriptionLength": 139,
       "images": 8,
-      "words": 1046,
+      "words": 1032,
       "schemas": 15
     },
     {
       "route": "/post/rickenbacker-4002-value-guide/",
       "titleLength": 37,
-      "descriptionLength": 142,
+      "descriptionLength": 136,
       "images": 8,
-      "words": 1094,
+      "words": 1040,
       "schemas": 15
     },
     {
@@ -206,15 +206,15 @@
       "titleLength": 47,
       "descriptionLength": 140,
       "images": 8,
-      "words": 1016,
+      "words": 1002,
       "schemas": 15
     },
     {
       "route": "/post/rickenbacker-3000-3001-value-guide/",
       "titleLength": 38,
-      "descriptionLength": 143,
+      "descriptionLength": 137,
       "images": 8,
-      "words": 1058,
+      "words": 1017,
       "schemas": 15
     },
     {
@@ -222,15 +222,15 @@
       "titleLength": 44,
       "descriptionLength": 137,
       "images": 10,
-      "words": 1103,
+      "words": 1089,
       "schemas": 17
     },
     {
       "route": "/post/rickenbacker-frying-pan-value-guide/",
       "titleLength": 59,
-      "descriptionLength": 140,
+      "descriptionLength": 141,
       "images": 10,
-      "words": 1096,
+      "words": 1101,
       "schemas": 17
     },
     {
@@ -238,15 +238,15 @@
       "titleLength": 52,
       "descriptionLength": 145,
       "images": 10,
-      "words": 1152,
+      "words": 1135,
       "schemas": 17
     },
     {
       "route": "/post/rickenbacker-bakelite-lap-steel-value-guide/",
       "titleLength": 43,
-      "descriptionLength": 148,
+      "descriptionLength": 146,
       "images": 10,
-      "words": 1157,
+      "words": 1211,
       "schemas": 17
     }
   ],
