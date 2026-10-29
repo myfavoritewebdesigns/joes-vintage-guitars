@@ -1,0 +1,1262 @@
+{
+  "updated": "2026-10-29",
+  "currency": "USD",
+  "condition": "Excellent, original condition",
+  "tables": {
+    "325": [
+      {
+        "model": "310",
+        "years": "1959 to 1960",
+        "details": "Capri, thick body",
+        "low": 12750,
+        "high": 17000
+      },
+      {
+        "model": "310",
+        "years": "1964 to 1969",
+        "details": "Thinner body",
+        "low": 5600,
+        "high": 7300
+      },
+      {
+        "model": "310",
+        "years": "1981 to 1985",
+        "details": "Reintroduced model",
+        "low": 1750,
+        "high": 2200
+      },
+      {
+        "model": "315",
+        "years": "1959 to 1960",
+        "details": "Capri, thick body",
+        "low": 13350,
+        "high": 17800
+      },
+      {
+        "model": "315",
+        "years": "1964 to 1969",
+        "details": "Thinner body",
+        "low": 6900,
+        "high": 8600
+      },
+      {
+        "model": "320",
+        "years": "1964 to 1969",
+        "details": "Fireglo",
+        "low": 5700,
+        "high": 7500
+      },
+      {
+        "model": "320",
+        "years": "1966 to 1969",
+        "details": "Mapleglo",
+        "low": 5300,
+        "high": 6600
+      },
+      {
+        "model": "320",
+        "years": "1974 to 1979",
+        "details": "Later production",
+        "low": 3000,
+        "high": 3850
+      },
+      {
+        "model": "320",
+        "years": "1980 to 1992",
+        "details": "Later production",
+        "low": 2400,
+        "high": 3050
+      },
+      {
+        "model": "325",
+        "years": "1958",
+        "details": "Late Capri, thick body with f-hole; excludes the first six Mapleglo examples",
+        "low": 35200,
+        "high": 44000
+      },
+      {
+        "model": "325",
+        "years": "1959 to 1960",
+        "details": "Original early production",
+        "low": 26100,
+        "high": 33050
+      },
+      {
+        "model": "325",
+        "years": "1964 to 1970",
+        "details": "Fireglo or Jetglo",
+        "low": 5700,
+        "high": 7500
+      },
+      {
+        "model": "325",
+        "years": "1966 to 1970",
+        "details": "Mapleglo",
+        "low": 5350,
+        "high": 6700
+      },
+      {
+        "model": "325",
+        "years": "1974 to 1979",
+        "details": "Later production",
+        "low": 3100,
+        "high": 4000
+      },
+      {
+        "model": "325V59",
+        "years": "1984 to 2001",
+        "details": "Later reissue",
+        "low": 2650,
+        "high": 4000
+      },
+      {
+        "model": "325V63",
+        "years": "1984 to 2001",
+        "details": "Later reissue",
+        "low": 2350,
+        "high": 3400
+      },
+      {
+        "model": "325C58",
+        "years": "2002 to 2014",
+        "details": "Later reissue",
+        "low": 2350,
+        "high": 3000
+      },
+      {
+        "model": "325C64",
+        "years": "2002 to 2019",
+        "details": "Later reissue",
+        "low": 2150,
+        "high": 3000
+      },
+      {
+        "model": "325S",
+        "years": "1964 to 1967",
+        "details": "F-hole export configuration",
+        "low": 7050,
+        "high": 10550
+      }
+    ],
+    "381": [
+      {
+        "model": "381",
+        "years": "1969 to 1974",
+        "details": "Original carved-body production",
+        "low": 6250,
+        "high": 8450
+      },
+      {
+        "model": "381V69",
+        "years": "1987 to 2023",
+        "details": "Later six-string reissue",
+        "low": 3550,
+        "high": 4900
+      },
+      {
+        "model": "381/12V69",
+        "years": "1987 to 2023",
+        "details": "Later twelve-string reissue",
+        "low": 3900,
+        "high": 5650
+      },
+      {
+        "model": "381JK",
+        "years": "1988 to 1997",
+        "details": "John Kay signature model",
+        "low": 4450,
+        "high": 6700
+      }
+    ],
+    "4002": [
+      {
+        "model": "4002",
+        "years": "1977 to 1984",
+        "details": "Original production; does not cover a modern reissue",
+        "low": 10000,
+        "high": 11750
+      }
+    ],
+    "4003": [
+      {
+        "model": "4003",
+        "years": "1979 to 2024",
+        "details": "Standard model across this production period",
+        "low": 1600,
+        "high": 2350
+      },
+      {
+        "model": "4003FL",
+        "years": "1979 to 2017",
+        "details": "Factory fretless",
+        "low": 1500,
+        "high": 2200
+      },
+      {
+        "model": "4003S",
+        "years": "1986 to 2003",
+        "details": "Original S-series production",
+        "low": 1500,
+        "high": 2200
+      },
+      {
+        "model": "4003S/5",
+        "years": "1986 to 2003",
+        "details": "Five-string",
+        "low": 3350,
+        "high": 4000
+      },
+      {
+        "model": "4003S/8",
+        "years": "1986 to 2003",
+        "details": "Eight-string",
+        "low": 3100,
+        "high": 4450
+      },
+      {
+        "model": "4003 Shadow",
+        "years": "1986",
+        "details": "Black finish and hardware, checkerboard binding",
+        "low": 3000,
+        "high": 4750
+      },
+      {
+        "model": "4003S Redneck",
+        "years": "1988",
+        "details": "Red body, fingerboard and headstock",
+        "low": 3000,
+        "high": 4700
+      },
+      {
+        "model": "4003S Tuxedo",
+        "years": "1987",
+        "details": "White body and fingerboard",
+        "low": 3000,
+        "high": 4750
+      },
+      {
+        "model": "4003S/SPC Blackstar",
+        "years": "1989",
+        "details": "Black body and fingerboard",
+        "low": 3850,
+        "high": 4700
+      }
+    ],
+    "4005": [
+      {
+        "model": "4005",
+        "years": "1965 to 1966",
+        "details": "Fireglo",
+        "low": 9050,
+        "high": 12050
+      },
+      {
+        "model": "4005",
+        "years": "1965 to 1966",
+        "details": "Jetglo",
+        "low": 8900,
+        "high": 11550
+      },
+      {
+        "model": "4005",
+        "years": "1965 to 1966",
+        "details": "Mapleglo",
+        "low": 9050,
+        "high": 11200
+      },
+      {
+        "model": "4005",
+        "years": "1967 to 1969",
+        "details": "Fireglo",
+        "low": 8600,
+        "high": 10750
+      },
+      {
+        "model": "4005",
+        "years": "1967 to 1969",
+        "details": "Jetglo",
+        "low": 6950,
+        "high": 9150
+      },
+      {
+        "model": "4005",
+        "years": "1967 to 1969",
+        "details": "Mapleglo",
+        "low": 8250,
+        "high": 10900
+      },
+      {
+        "model": "4005",
+        "years": "1970 to 1979",
+        "details": "Various colors",
+        "low": 6150,
+        "high": 7900
+      },
+      {
+        "model": "4005",
+        "years": "1980 to 1984",
+        "details": "Various colors",
+        "low": 5200,
+        "high": 6950
+      },
+      {
+        "model": "4005-6",
+        "years": "1965 to 1969",
+        "details": "Original six-string bass",
+        "low": 9050,
+        "high": 11600
+      },
+      {
+        "model": "4005-6",
+        "years": "1970 to 1977",
+        "details": "Original six-string bass",
+        "low": 5950,
+        "high": 8100
+      },
+      {
+        "model": "4005-8",
+        "years": "1968 to 1969",
+        "details": "Original eight-string bass",
+        "low": 8500,
+        "high": 11050
+      },
+      {
+        "model": "4005WB",
+        "years": "1966",
+        "details": "Double-bound old-style body, Fireglo",
+        "low": 9550,
+        "high": 12200
+      },
+      {
+        "model": "4005WB",
+        "years": "1967 to 1969",
+        "details": "Double-bound old-style body, Fireglo",
+        "low": 8500,
+        "high": 10650
+      },
+      {
+        "model": "4005WB",
+        "years": "1970 to 1979",
+        "details": "Double-bound old-style body, Fireglo",
+        "low": 5600,
+        "high": 7300
+      },
+      {
+        "model": "4005WB",
+        "years": "1980 to 1983",
+        "details": "Double-bound old-style body, Fireglo",
+        "low": 5350,
+        "high": 6700
+      }
+    ],
+    "330-340": [
+      {
+        "model": "330",
+        "years": "1958 to 1960",
+        "details": "Capri, thick body",
+        "low": 7900,
+        "high": 10550
+      },
+      {
+        "model": "330",
+        "years": "1965 to 1969",
+        "details": "Thinner body",
+        "low": 3550,
+        "high": 5800
+      },
+      {
+        "model": "330",
+        "years": "1970 to 1976",
+        "details": "21 frets",
+        "low": 2200,
+        "high": 3500
+      },
+      {
+        "model": "330",
+        "years": "1977 to 1983",
+        "details": "Small headstock, Jetglo or Burgundyglo",
+        "low": 2150,
+        "high": 3400
+      },
+      {
+        "model": "335",
+        "years": "1958 to 1960",
+        "details": "Capri, thick body",
+        "low": 7850,
+        "high": 10450
+      },
+      {
+        "model": "335",
+        "years": "1965 to 1969",
+        "details": "Thinner body",
+        "low": 3500,
+        "high": 5650
+      },
+      {
+        "model": "335",
+        "years": "1970 to 1976",
+        "details": "21 frets",
+        "low": 2250,
+        "high": 3550
+      },
+      {
+        "model": "335S",
+        "years": "1964 to 1967",
+        "details": "Rose Morris export",
+        "low": 5650,
+        "high": 7850
+      },
+      {
+        "model": "340",
+        "years": "1958 to 1960",
+        "details": "Capri, thick body",
+        "low": 7850,
+        "high": 10450
+      },
+      {
+        "model": "340",
+        "years": "1965 to 1969",
+        "details": "Thinner body",
+        "low": 3500,
+        "high": 5650
+      },
+      {
+        "model": "340",
+        "years": "1970 to 1976",
+        "details": "21 frets",
+        "low": 3100,
+        "high": 4850
+      },
+      {
+        "model": "340",
+        "years": "1980 to 2014",
+        "details": "Later production",
+        "low": 2150,
+        "high": 3400
+      },
+      {
+        "model": "345",
+        "years": "1958 to 1960",
+        "details": "Capri, thick body",
+        "low": 7650,
+        "high": 10650
+      },
+      {
+        "model": "345",
+        "years": "1965 to 1969",
+        "details": "Thinner body",
+        "low": 3450,
+        "high": 6450
+      },
+      {
+        "model": "345",
+        "years": "1970 to 1976",
+        "details": "21 frets",
+        "low": 2250,
+        "high": 4900
+      }
+    ],
+    "12-string": [
+      {
+        "model": "330/12",
+        "years": "1965 to 1969",
+        "details": "330-style body",
+        "low": 3850,
+        "high": 5550
+      },
+      {
+        "model": "330/12",
+        "years": "1970 to 1976",
+        "details": "21 frets",
+        "low": 2600,
+        "high": 3900
+      },
+      {
+        "model": "330/12",
+        "years": "1980 to 1989",
+        "details": "Later production",
+        "low": 2150,
+        "high": 3000
+      },
+      {
+        "model": "330/12",
+        "years": "1990 to 1999",
+        "details": "Later production",
+        "low": 2000,
+        "high": 2650
+      },
+      {
+        "model": "340/12",
+        "years": "1980 to 2014",
+        "details": "Three-pickup model",
+        "low": 2200,
+        "high": 3100
+      },
+      {
+        "model": "360/12",
+        "years": "1964 to 1969",
+        "details": "New style, rounded horns; Fireglo or Mapleglo",
+        "low": 5650,
+        "high": 7400
+      },
+      {
+        "model": "360/12",
+        "years": "1964 to 1969",
+        "details": "Old style, pointed horns; Mapleglo",
+        "low": 17400,
+        "high": 21750
+      },
+      {
+        "model": "360/12",
+        "years": "1965 to 1969",
+        "details": "Old style, pointed horns; Fireglo",
+        "low": 22000,
+        "high": 30800
+      },
+      {
+        "model": "360/12",
+        "years": "1970 to 1973",
+        "details": "21 frets, 1960s features",
+        "low": 3900,
+        "high": 5650
+      },
+      {
+        "model": "360/12",
+        "years": "1974 to 1979",
+        "details": "24 frets",
+        "low": 3100,
+        "high": 4450
+      },
+      {
+        "model": "360/12",
+        "years": "1980 to 2009",
+        "details": "Later production",
+        "low": 2650,
+        "high": 3500
+      },
+      {
+        "model": "360/12V64",
+        "years": "1985 to 2003",
+        "details": "Later reissue",
+        "low": 2400,
+        "high": 3500
+      },
+      {
+        "model": "360/12C63",
+        "years": "2004 to 2024",
+        "details": "Later reissue",
+        "low": 2250,
+        "high": 3100
+      },
+      {
+        "model": "366/12 Convertible",
+        "years": "1967 to 1970",
+        "details": "New-style body, complete mechanism",
+        "low": 4750,
+        "high": 6450
+      },
+      {
+        "model": "366/12 Convertible",
+        "years": "1967 to 1970",
+        "details": "Old-style double-bound body, complete mechanism",
+        "low": 8700,
+        "high": 10900
+      },
+      {
+        "model": "370/12",
+        "years": "1964 to 1972",
+        "details": "Three pickups, 21 frets",
+        "low": 5950,
+        "high": 8500
+      },
+      {
+        "model": "370/12",
+        "years": "1974 to 2023",
+        "details": "24 frets",
+        "low": 2550,
+        "high": 3400
+      },
+      {
+        "model": "450/12",
+        "years": "1964 to 1966",
+        "details": "Solidbody twelve-string",
+        "low": 2650,
+        "high": 3300
+      },
+      {
+        "model": "450/12",
+        "years": "1967 to 1969",
+        "details": "Solidbody twelve-string",
+        "low": 2450,
+        "high": 3100
+      },
+      {
+        "model": "450/12",
+        "years": "1970 to 1979",
+        "details": "Solidbody twelve-string",
+        "low": 1900,
+        "high": 2350
+      },
+      {
+        "model": "450/12",
+        "years": "1980 to 1985",
+        "details": "Solidbody twelve-string",
+        "low": 1650,
+        "high": 2050
+      },
+      {
+        "model": "456/12 Convertible",
+        "years": "1968 to 1969",
+        "details": "Complete string-comb mechanism",
+        "low": 3000,
+        "high": 3850
+      },
+      {
+        "model": "456/12 Convertible",
+        "years": "1970 to 1978",
+        "details": "Complete string-comb mechanism",
+        "low": 2650,
+        "high": 3500
+      },
+      {
+        "model": "1993/12RM",
+        "years": "July 1964",
+        "details": "Rose Morris export, flat tailpiece",
+        "low": 21500,
+        "high": 30100
+      },
+      {
+        "model": "1993/12RM",
+        "years": "1964 to 1967",
+        "details": "Rose Morris export, R tailpiece",
+        "low": 19600,
+        "high": 26700
+      }
+    ],
+    "360-370": [
+      {
+        "model": "360",
+        "years": "1958 to 1960",
+        "details": "Capri, thick body",
+        "low": 10550,
+        "high": 13200
+      },
+      {
+        "model": "360",
+        "years": "1961 to 1963",
+        "details": "New Capri, bound body",
+        "low": 7050,
+        "high": 10550
+      },
+      {
+        "model": "360",
+        "years": "1964 to 1969",
+        "details": "New-style body",
+        "low": 4800,
+        "high": 6100
+      },
+      {
+        "model": "360",
+        "years": "1965 to 1970",
+        "details": "Old-style body",
+        "low": 6600,
+        "high": 8350
+      },
+      {
+        "model": "360",
+        "years": "1970 to 1973",
+        "details": "21 frets, no vibrato",
+        "low": 3450,
+        "high": 4300
+      },
+      {
+        "model": "360VB",
+        "years": "1974 to 1984",
+        "details": "24 frets, vibrato",
+        "low": 2600,
+        "high": 3450
+      },
+      {
+        "model": "365",
+        "years": "1958 to 1960",
+        "details": "Capri, thick body",
+        "low": 10450,
+        "high": 13050
+      },
+      {
+        "model": "365",
+        "years": "1961 to 1963",
+        "details": "New Capri, bound body",
+        "low": 7050,
+        "high": 10550
+      },
+      {
+        "model": "365",
+        "years": "1964 to 1970",
+        "details": "New-style body, 21 frets",
+        "low": 4900,
+        "high": 6250
+      },
+      {
+        "model": "365",
+        "years": "1965 to 1970",
+        "details": "Old-style body",
+        "low": 6450,
+        "high": 8150
+      },
+      {
+        "model": "370",
+        "years": "1958 to 1960",
+        "details": "Capri, thick body",
+        "low": 10700,
+        "high": 13350
+      },
+      {
+        "model": "370",
+        "years": "1961 to 1963",
+        "details": "New Capri, bound body",
+        "low": 6800,
+        "high": 10200
+      },
+      {
+        "model": "370",
+        "years": "1964 to 1970",
+        "details": "New-style body, 21 frets",
+        "low": 4850,
+        "high": 6150
+      },
+      {
+        "model": "370",
+        "years": "1965 to 1970",
+        "details": "Old-style body",
+        "low": 6550,
+        "high": 8250
+      },
+      {
+        "model": "370",
+        "years": "1974 to 1979",
+        "details": "24 frets",
+        "low": 2600,
+        "high": 3250
+      },
+      {
+        "model": "375",
+        "years": "1958 to 1960",
+        "details": "Capri, thick body",
+        "low": 10300,
+        "high": 12900
+      },
+      {
+        "model": "375",
+        "years": "1964 to 1969",
+        "details": "New-style body, 21 frets",
+        "low": 4900,
+        "high": 6250
+      },
+      {
+        "model": "375",
+        "years": "1965 to 1970",
+        "details": "Old-style body",
+        "low": 6450,
+        "high": 8150
+      }
+    ],
+    "425-450-460": [
+      {
+        "model": "420",
+        "years": "1965 to 1968",
+        "details": "Single pickup, fixed tailpiece",
+        "low": 2000,
+        "high": 2550
+      },
+      {
+        "model": "420",
+        "years": "1969 to 1983",
+        "details": "Single pickup, fixed tailpiece",
+        "low": 1550,
+        "high": 2000
+      },
+      {
+        "model": "425",
+        "years": "1958 to 1959",
+        "details": "Cresting-wave body",
+        "low": 3450,
+        "high": 4300
+      },
+      {
+        "model": "425",
+        "years": "1960",
+        "details": "Original production",
+        "low": 2650,
+        "high": 3300
+      },
+      {
+        "model": "425",
+        "years": "1961 to 1964",
+        "details": "Original production",
+        "low": 1950,
+        "high": 2400
+      },
+      {
+        "model": "425",
+        "years": "1965 to 1968",
+        "details": "Original production",
+        "low": 1700,
+        "high": 2150
+      },
+      {
+        "model": "425",
+        "years": "1969 to 1973",
+        "details": "Original production",
+        "low": 1500,
+        "high": 1900
+      },
+      {
+        "model": "450 / Combo 450",
+        "years": "1957 to 1958",
+        "details": "Tulip body",
+        "low": 4800,
+        "high": 6100
+      },
+      {
+        "model": "450",
+        "years": "1958 to 1959",
+        "details": "Cresting-wave body",
+        "low": 3550,
+        "high": 4450
+      },
+      {
+        "model": "450",
+        "years": "1960",
+        "details": "Flat cresting-wave body",
+        "low": 2550,
+        "high": 3200
+      },
+      {
+        "model": "450",
+        "years": "1961 to 1966",
+        "details": "Slim cresting-wave body",
+        "low": 2200,
+        "high": 2850
+      },
+      {
+        "model": "450",
+        "years": "1970 to 1979",
+        "details": "Later production",
+        "low": 1900,
+        "high": 2550
+      },
+      {
+        "model": "450",
+        "years": "1980 to 1984",
+        "details": "Later production",
+        "low": 1300,
+        "high": 1750
+      },
+      {
+        "model": "460",
+        "years": "1961 to 1965",
+        "details": "Deluxe solidbody",
+        "low": 3100,
+        "high": 3950
+      },
+      {
+        "model": "460",
+        "years": "1966 to 1969",
+        "details": "Deluxe solidbody",
+        "low": 2650,
+        "high": 3350
+      },
+      {
+        "model": "460",
+        "years": "1970 to 1979",
+        "details": "Deluxe solidbody",
+        "low": 2250,
+        "high": 2900
+      },
+      {
+        "model": "460",
+        "years": "1980 to 1985",
+        "details": "Deluxe solidbody",
+        "low": 1500,
+        "high": 1950
+      }
+    ],
+    "480-481": [
+      {
+        "model": "480",
+        "years": "1973 to 1979",
+        "details": "Standard two-pickup model",
+        "low": 2200,
+        "high": 3100
+      },
+      {
+        "model": "480",
+        "years": "1980 to 1984",
+        "details": "Standard two-pickup model",
+        "low": 2000,
+        "high": 2850
+      },
+      {
+        "model": "481",
+        "years": "1973 to 1979",
+        "details": "Angled frets, two humbuckers",
+        "low": 2400,
+        "high": 3500
+      },
+      {
+        "model": "481",
+        "years": "1980 to 1983",
+        "details": "Angled frets, two humbuckers",
+        "low": 2150,
+        "high": 3200
+      },
+      {
+        "model": "483",
+        "years": "1973 to 1979",
+        "details": "Three humbuckers",
+        "low": 2650,
+        "high": 3950
+      },
+      {
+        "model": "483",
+        "years": "1980 to 1983",
+        "details": "Three humbuckers",
+        "low": 2200,
+        "high": 3100
+      }
+    ],
+    "600-series": [
+      {
+        "model": "Combo 600",
+        "years": "1954 to 1957",
+        "details": "Blond or white, horseshoe pickup",
+        "low": 5100,
+        "high": 6800
+      },
+      {
+        "model": "Combo 600",
+        "years": "1956 to 1958",
+        "details": "Ocean Turquoise / Blue Turquoise",
+        "low": 5100,
+        "high": 6800
+      },
+      {
+        "model": "Combo 800",
+        "years": "1954 to 1957",
+        "details": "One pickup",
+        "low": 6400,
+        "high": 8100
+      },
+      {
+        "model": "Combo 800",
+        "years": "1957 to 1959",
+        "details": "Two pickups",
+        "low": 6550,
+        "high": 8250
+      },
+      {
+        "model": "610",
+        "years": "1985 to 1991",
+        "details": "Two-pickup solidbody",
+        "low": 2250,
+        "high": 3100
+      },
+      {
+        "model": "610/12",
+        "years": "1988 to 1997",
+        "details": "Twelve-string version",
+        "low": 2000,
+        "high": 2650
+      },
+      {
+        "model": "615",
+        "years": "1962 to 1965",
+        "details": "Vibrato version",
+        "low": 2400,
+        "high": 3100
+      },
+      {
+        "model": "615",
+        "years": "1966 to 1977",
+        "details": "Vibrato version",
+        "low": 2150,
+        "high": 2650
+      },
+      {
+        "model": "620",
+        "years": "1974 to 1979",
+        "details": "Deluxe neck-through solidbody",
+        "low": 2150,
+        "high": 3000
+      },
+      {
+        "model": "620",
+        "years": "1980 to 2024",
+        "details": "Later production",
+        "low": 1700,
+        "high": 2550
+      },
+      {
+        "model": "620/12",
+        "years": "1981 to 2023",
+        "details": "Twelve-string version",
+        "low": 2200,
+        "high": 3100
+      },
+      {
+        "model": "625",
+        "years": "1962 to 1963",
+        "details": "Deluxe vibrato model",
+        "low": 3850,
+        "high": 5150
+      },
+      {
+        "model": "625",
+        "years": "1965 to 1969",
+        "details": "Deluxe vibrato model",
+        "low": 3900,
+        "high": 4800
+      },
+      {
+        "model": "625",
+        "years": "1970 to 1977",
+        "details": "Deluxe vibrato model",
+        "low": 2650,
+        "high": 3550
+      }
+    ],
+    "3000-3001": [
+      {
+        "model": "3000",
+        "years": "1975 to 1984",
+        "details": "Short-scale model",
+        "low": 1600,
+        "high": 2150
+      },
+      {
+        "model": "3001",
+        "years": "1975 to 1984",
+        "details": "Long-scale model",
+        "low": 1650,
+        "high": 2200
+      }
+    ],
+    "4000-4001": [
+      {
+        "model": "1999 Rose Morris",
+        "years": "1964 to 1966",
+        "details": "Original export bass",
+        "low": 15300,
+        "high": 21250
+      },
+      {
+        "model": "4000",
+        "years": "1958 to 1962",
+        "details": "Plank-style early body",
+        "low": 12750,
+        "high": 17150
+      },
+      {
+        "model": "4000",
+        "years": "1963 to 1966",
+        "details": "Original production",
+        "low": 10650,
+        "high": 14050
+      },
+      {
+        "model": "4000",
+        "years": "1967 to 1969",
+        "details": "Original production",
+        "low": 8250,
+        "high": 10900
+      },
+      {
+        "model": "4000",
+        "years": "1970 to 1972",
+        "details": "Later production",
+        "low": 3100,
+        "high": 3950
+      },
+      {
+        "model": "4000",
+        "years": "1973 to 1985",
+        "details": "Later production",
+        "low": 2450,
+        "high": 3250
+      },
+      {
+        "model": "4001",
+        "years": "1961 to 1963",
+        "details": "Fireglo",
+        "low": 17000,
+        "high": 21250
+      },
+      {
+        "model": "4001",
+        "years": "1963 to 1966",
+        "details": "Mapleglo",
+        "low": 15650,
+        "high": 21750
+      },
+      {
+        "model": "4001",
+        "years": "1964 to 1966",
+        "details": "Fireglo",
+        "low": 17000,
+        "high": 21250
+      },
+      {
+        "model": "4001",
+        "years": "1967 to 1969",
+        "details": "Various colors",
+        "low": 7900,
+        "high": 10550
+      },
+      {
+        "model": "4001",
+        "years": "1970 to 1972",
+        "details": "Various colors",
+        "low": 5750,
+        "high": 7000
+      },
+      {
+        "model": "4001",
+        "years": "Early 1973",
+        "details": "Early-year features",
+        "low": 3000,
+        "high": 4700
+      },
+      {
+        "model": "4001",
+        "years": "Late 1973",
+        "details": "Late-year features",
+        "low": 3100,
+        "high": 4600
+      },
+      {
+        "model": "4001",
+        "years": "1974 to 1979",
+        "details": "Various colors",
+        "low": 2450,
+        "high": 3850
+      },
+      {
+        "model": "4001",
+        "years": "1980 to 1986",
+        "details": "Various colors",
+        "low": 2400,
+        "high": 3050
+      },
+      {
+        "model": "4001FL",
+        "years": "1968 to 1986",
+        "details": "Factory fretless",
+        "low": 2450,
+        "high": 4450
+      },
+      {
+        "model": "4001S",
+        "years": "1980 to 1985",
+        "details": "Standard export-style model",
+        "low": 1750,
+        "high": 2200
+      },
+      {
+        "model": "4001V63",
+        "years": "1984 to 2000",
+        "details": "Later reissue",
+        "low": 2650,
+        "high": 3350
+      },
+      {
+        "model": "4001CS",
+        "years": "1991 to 1999",
+        "details": "Chris Squire signature with certificate",
+        "low": 4300,
+        "high": 6450
+      }
+    ],
+    "frying-pan": [
+      {
+        "model": "A-22 Frying Pan",
+        "years": "1934 to 1936",
+        "details": "Original cast-aluminum lap steel",
+        "low": 3900,
+        "high": 5200
+      },
+      {
+        "model": "A-25 Frying Pan",
+        "years": "1932 to 1933",
+        "details": "Early long-scale cast-aluminum lap steel",
+        "low": 6700,
+        "high": 7550
+      }
+    ],
+    "bakelite-lap-steel": [
+      {
+        "model": "Model B",
+        "years": "1935 to 1955",
+        "details": "Bakelite, six or eight strings",
+        "low": 2200,
+        "high": 3100
+      },
+      {
+        "model": "Model BD",
+        "years": "1949 to 1960",
+        "details": "Deluxe Bakelite, six strings",
+        "low": 850,
+        "high": 1050
+      },
+      {
+        "model": "Academy",
+        "years": "1946 to 1947",
+        "details": "Bakelite student model",
+        "low": 500,
+        "high": 650
+      },
+      {
+        "model": "Ace",
+        "years": "1948 to 1953",
+        "details": "Bakelite student model",
+        "low": 500,
+        "high": 650
+      },
+      {
+        "model": "Silver Hawaiian",
+        "years": "1937 to 1943",
+        "details": "Chrome-plated sheet-steel body",
+        "low": 1350,
+        "high": 2250
+      },
+      {
+        "model": "Model G",
+        "years": "1948 to 1957",
+        "details": "Chrome-plated steel body",
+        "low": 750,
+        "high": 1100
+      },
+      {
+        "model": "S / NS",
+        "years": "1946 to 1949",
+        "details": "Sheet-steel body",
+        "low": 700,
+        "high": 900
+      },
+      {
+        "model": "Model 59",
+        "years": "1937 to 1943",
+        "details": "Sheet-steel body, colored finish",
+        "low": 600,
+        "high": 750
+      },
+      {
+        "model": "Model 100",
+        "years": "1956 to 1970",
+        "details": "Wood body, six strings",
+        "low": 650,
+        "high": 850
+      }
+    ]
+  }
+}

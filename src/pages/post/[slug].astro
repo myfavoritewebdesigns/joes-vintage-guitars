@@ -17,6 +17,8 @@ import MartinValueGuide from "../../components/MartinValueGuide.astro";
 import martinValueGuides from "../../data/martin-value-guides.json";
 import MartinModelHistory from "../../components/MartinModelHistory.astro";
 import martinModelHistories from "../../data/martin-model-history.json";
+import RickenbackerModelGuide from "../../components/RickenbackerModelGuide.astro";
+import { rickenbackerModels, rickenbackerGuideSlug } from "../../data/rickenbacker-models";
 import MartinD18Guide from "../../components/MartinD18Guide.astro";
 import GibsonJ200Guide from "../../components/GibsonJ200Guide.astro";
 import GibsonES225Guide from "../../components/GibsonES225Guide.astro";
@@ -58,6 +60,8 @@ const { Content } = await render(entry);
 const { data } = entry;
 const martinValueGuide = martinValueGuides.find(guide => guide.slug === entry.id);
 const martinModelHistory = martinModelHistories.find(guide => guide.slug === entry.id);
+const rickenbackerModel = rickenbackerModels.find(model => ['authentication','value'].some(kind => rickenbackerGuideSlug(model,kind as 'authentication'|'value') === entry.id));
+const rickenbackerKind = entry.id.endsWith('-authentication-guide') ? 'authentication' : 'value';
 const isVintageSellingGuide = entry.id === "what-to-consider-when-selling-a-vintage-guitar";
 const isBurstYearGuide = /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(entry.id);
 const isNorlinGuide = ["norlin-les-paul-custom-year-guide", "1968-gibson-les-paul-custom-guide", "1969-gibson-les-paul-custom-guide", "1970-gibson-les-paul-custom-guide", "1968-1969-1970-les-paul-custom-dating-guide"].includes(entry.id);
@@ -593,6 +597,8 @@ const articleSchema = {
     <VintageSellingGuide />
   ) : martinValueGuide ? (
     <MartinValueGuide guide={martinValueGuide} />
+  ) : rickenbackerModel ? (
+    <RickenbackerModelGuide model={rickenbackerModel} kind={rickenbackerKind} />
   ) : martinModelHistory ? (
     <MartinModelHistory guide={martinModelHistory} />
   ) : isOneOwner1956Martin00021Story ? (
