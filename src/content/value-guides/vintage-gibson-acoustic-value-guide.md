@@ -2,6 +2,35 @@ Vintage Gibson acoustic values differ sharply by model: an excellent, original 1
 
 I use this hub to connect the model guides and explain which table fits each guitar. The ranges were reviewed in October 2026. A repaired or modified guitar needs its own appraisal.
 
+## Choose Your Gibson Acoustic Model
+
+Select your model for its full value guide, price tables and condition notes.
+
+<nav class="gavhub-model-grid" aria-label="Gibson acoustic model value guides">
+  <a class="gavhub-model-card" href="/vintage-gibson-j-45-value-guide/" aria-labelledby="gavhub-j45-title">
+    <h3 id="gavhub-j45-title">Gibson J-45</h3>
+    <p>Year-by-year coverage from 1942 through 1979, including wartime, postwar and later models.</p>
+    <span class="gavhub-model-card__cta">View J-45 Values <span aria-hidden="true">&rarr;</span></span>
+  </a>
+  <a class="gavhub-model-card" href="/vintage-gibson-j-200-value-guide/" aria-labelledby="gavhub-j200-title">
+    <h3 id="gavhub-j200-title">Gibson J-200 / SJ-200</h3>
+    <p>Postwar values from 1947 through 1979, with notes on originality and repairs.</p>
+    <span class="gavhub-model-card__cta">View J-200 Values <span aria-hidden="true">&rarr;</span></span>
+  </a>
+  <a class="gavhub-model-card" href="/post/vintage-gibson-hummingbird-history-value-guide/" aria-labelledby="gavhub-hummingbird-title">
+    <h3 id="gavhub-hummingbird-title">Gibson Hummingbird</h3>
+    <p>Annual price references, model history and details that help identify your Hummingbird.</p>
+    <span class="gavhub-model-card__cta">View Hummingbird Values <span aria-hidden="true">&rarr;</span></span>
+  </a>
+  <a class="gavhub-model-card" href="/vintage-gibson-lg-series-value-guide/" aria-labelledby="gavhub-lg-title">
+    <h3 id="gavhub-lg-title">Gibson LG-0, LG-1, LG-2 &amp; LG-3</h3>
+    <p>Small-body Gibson values, with separate price ranges for each LG model.</p>
+    <span class="gavhub-model-card__cta">View LG-Series Values <span aria-hidden="true">&rarr;</span></span>
+  </a>
+</nav>
+
+Not sure which model you have? Start with the [J-45, J-50 and Southern Jumbo identification guide](/post/identify-vintage-gibson-j45-j50-sj/) for that family. J-50 and Southern Jumbo guitars need their own model-specific comparisons.
+
 ## Gibson Acoustic Values By Model
 
 Match the model and era, then read its condition requirements. The Hummingbird figures are dealer asking ranges; the other rows are guide-value ranges.
