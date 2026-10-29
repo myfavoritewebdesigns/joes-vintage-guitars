@@ -13,7 +13,7 @@ The table groups similar configurations into era ranges. Adjacent years can shar
 | 1941 | Early full-depth single-pickup sunburst | $2,150 to $2,850 |
 | 1942 | Early full-depth single-pickup sunburst | $2,100 to $2,800 |
 | 1946 | Postwar full-depth, nonadjustable P-90 | $2,500 to $3,500 |
-| 1947 | Postwar full-depth, nonadjustable P-90 | $2,200 to $2,900 |
+| 1947 | Postwar full-depth, nonadjustable P-90 | $2,100 to $2,800 |
 | 1948 | Postwar full-depth, nonadjustable P-90 | $2,100 to $2,800 |
 | 1949 | Postwar full-depth, nonadjustable P-90 | $2,150 to $2,850 |
 | 1950 | Full-depth single-pickup sunburst | $2,050 to $2,650 |
@@ -34,7 +34,7 @@ The table groups similar configurations into era ranges. Adjacent years can shar
 | 1965 | Full-depth single-pickup sunburst | $1,350 to $1,750 |
 | 1966 | Full-depth single-pickup sunburst | $1,250 to $1,600 |
 | 1967 | Full-depth single-pickup sunburst | $1,250 to $1,650 |
-| 1968 | Full-depth single-pickup sunburst | $1,300 to $1,650 |
+| 1968 | Full-depth single-pickup sunburst | $1,250 to $1,600 |
 | 1969 | Full-depth single-pickup sunburst | $1,250 to $1,600 |
 | 1970 | Full-depth single-pickup sunburst | $1,250 to $1,650 |
 

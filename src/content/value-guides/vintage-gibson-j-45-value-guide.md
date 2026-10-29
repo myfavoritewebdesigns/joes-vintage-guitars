@@ -1,4 +1,4 @@
-A clean 1955 to 1959 Gibson J-45 has a guide range of $7,000 to $9,000 in excellent condition with original parts and the original case. Earlier Banner guitars and later square-shoulder examples sit in different ranges. I reviewed these values in October 2026 and assess repairs and originality separately.
+A clean 1955 to 1959 Gibson J-45 has a guide range of $6,000 to $8,450 in excellent condition with original parts and the original case. Earlier Banner guitars and later square-shoulder examples sit in different ranges. I reviewed these values in October 2026 and assess repairs and originality separately.
 
 For model identification, use my [Gibson J-45, J-50 and Southern Jumbo identification guide](/post/identify-vintage-gibson-j45-j50-sj/). The ranges assume the guitar has been identified and focuses on its value, the condition the ranges require and what an owner needs for an appraisal.
 
@@ -13,21 +13,21 @@ The figures assume an all-original guitar in excellent condition with its origin
 | 1942 | Banner, combined wood references | $10,000 to $17,000 |
 | 1943 | Banner, combined wood references | $10,000 to $17,000 |
 | 1944 | Banner, combined wood references | $10,000 to $17,000 |
-| 1945 | Banner, combined wood references | $10,000 to $17,000 |
-| 1946 | Early postwar and small-guard era | $8,000 to $14,000 |
-| 1947 | Early postwar and small-guard era | $8,000 to $14,000 |
-| 1948 | Early postwar and small-guard era | $8,000 to $14,000 |
+| 1945 | Banner, combined wood references | $9,900 to $13,900 |
+| 1946 | Early postwar and small-guard era | $8,700 to $12,200 |
+| 1947 | Early postwar and small-guard era | $8,700 to $12,200 |
+| 1948 | Early postwar and small-guard era | $8,500 to $11,900 |
 | 1949 | Early postwar and small-guard era | $7,400 to $10,450 |
-| 1950 | Small-guard postwar era | $8,000 to $10,000 |
-| 1951 | Small-guard postwar era | $8,000 to $10,000 |
-| 1952 | Small-guard postwar era | $8,000 to $10,000 |
-| 1953 | Small-guard postwar era | $8,000 to $10,000 |
-| 1954 | Small-guard postwar era | $8,000 to $10,000 |
-| 1955 | Large-guard sunburst era | $7,000 to $9,000 |
-| 1956 | Large-guard sunburst era | $7,000 to $9,000 |
-| 1957 | Large-guard sunburst era | $7,000 to $9,000 |
-| 1958 | Large-guard sunburst era | $7,000 to $9,000 |
-| 1959 | Large-guard sunburst era | $7,000 to $9,000 |
+| 1950 | Small-guard postwar era | $6,800 to $9,350 |
+| 1951 | Small-guard postwar era | $6,950 to $9,550 |
+| 1952 | Small-guard postwar era | $6,900 to $9,450 |
+| 1953 | Small-guard postwar era | $6,900 to $9,450 |
+| 1954 | Small-guard postwar era | $6,900 to $9,450 |
+| 1955 | Large-guard sunburst era | $6,000 to $8,150 |
+| 1956 | Large-guard sunburst era | $6,000 to $8,150 |
+| 1957 | Large-guard sunburst era | $6,250 to $8,450 |
+| 1958 | Large-guard sunburst era | $6,150 to $8,350 |
+| 1959 | Large-guard sunburst era | $6,100 to $8,250 |
 | 1960 | Standard sunburst, including body transition | $3,000 to $7,000 |
 | 1961 | Standard sunburst, including body transition | $3,000 to $7,000 |
 | 1962 | Standard sunburst, including body transition | $3,000 to $7,000 |
@@ -38,16 +38,16 @@ The figures assume an all-original guitar in excellent condition with its origin
 | 1967 | Standard sunburst, including body transition | $2,950 to $4,050 |
 | 1968 | Standard sunburst, including body transition | $2,850 to $4,000 |
 | 1969 | Standard sunburst, including body transition | $2,800 to $3,950 |
-| 1970 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
-| 1971 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
-| 1972 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
-| 1973 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
-| 1974 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
-| 1975 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
-| 1976 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
-| 1977 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
-| 1978 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
-| 1979 | Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
+| 1970 | Square-shoulder J-45 and Deluxe | $2,050 to $3,100 |
+| 1971 | Square-shoulder J-45 and Deluxe | $1,750 to $3,050 |
+| 1972 | Square-shoulder J-45 and Deluxe | $1,700 to $3,000 |
+| 1973 | Square-shoulder J-45 and Deluxe | $1,750 to $3,100 |
+| 1974 | Square-shoulder J-45 and Deluxe | $1,750 to $3,050 |
+| 1975 | Square-shoulder J-45 and Deluxe | $1,750 to $3,050 |
+| 1976 | Square-shoulder J-45 and Deluxe | $1,700 to $3,000 |
+| 1977 | Square-shoulder J-45 and Deluxe | $1,700 to $3,000 |
+| 1978 | Square-shoulder J-45 and Deluxe | $1,700 to $3,000 |
+| 1979 | Square-shoulder J-45 and Deluxe | $1,750 to $3,050 |
 
 The Banner range covers several top-wood configurations. The 1960s range includes the standard sunburst model's body transition, with rare factory colors and special provenance assessed separately. I identify those features before placing a guitar within a band.
 
@@ -57,7 +57,7 @@ The ranges assume clean, original guitars in the condition described above. Repa
 
 ## The Banner Years
 
-The 1942 to 1945 Banner range is $10,000 to $17,000 across the wood configurations covered here. The decal alone doesn't establish that value. Construction, originality and repairs determine which part of the range fits.
+The 1942 to 1945 Banner range is $9,900 to $17,000 across the wood configurations covered here. The decal alone doesn't establish that value. Construction, originality and repairs determine which part of the range fits.
 
 I keep the Banner group separate from postwar J-45s. A seller's broad wartime date can be enough to begin research, but it isn't enough to claim a precise year or a specific wood premium. The identification page handles those questions before a final valuation.
 
@@ -67,7 +67,7 @@ An instrument with a celebrity story also needs separate treatment. A claimed as
 
 ## Early Postwar And Small-Guard Guitars
 
-The 1946 to 1949 range is $7,400 to $14,000. The 1950 to 1954 small-guard group sits at $8,000 to $10,000. Both assume excellent, original condition with the original case.
+The 1946 to 1949 range is $7,400 to $14,000. The 1950 to 1954 small-guard group sits at $6,800 to $9,550. Both assume excellent, original condition with the original case.
 
 The distinction between an original finish and a refinished guitar can be larger than the difference between adjacent years. I assess the date alongside the complete condition description. A well-repaired instrument may be an appealing player while belonging outside the clean reference.
 
@@ -89,7 +89,7 @@ I keep case details separate from the instrument's structural condition. A missi
 
 ## Later 1950s Values
 
-For 1955 to 1959, the guide range is $7,000 to $9,000. Non-scalloped bracing arrives in 1955, separating these guitars from the earlier scalloped-brace construction. Each year uses that shared band. I assess condition and originality before assigning a value within it.
+For 1955 to 1959, the guide range is $6,000 to $8,450. Non-scalloped bracing arrives in 1955, separating these guitars from the earlier scalloped-brace construction. Each year uses that shared band. I assess condition and originality before assigning a value within it.
 
 This is a useful place to separate a guitar's age from its present state. An original finish, documented maintenance and a clear parts history make comparisons easier. A listing that says only that the guitar plays well leaves several valuation questions unanswered.
 
@@ -115,7 +115,7 @@ A transition-year guitar needs its actual construction checked. I wouldn't force
 
 ## Square-Shoulder J-45 And Deluxe Values
 
-The combined 1970 to 1979 reference is $2,500 to $3,000. These guitars have their own market and construction details. Each annual row repeats the clearly labeled 1970s reference.
+The combined 1970 to 1979 reference is $1,700 to $3,100. These guitars have their own market and construction details. Each annual row repeats the clearly labeled 1970s reference.
 
 A clean, playable early example differs from one with high action or binding work. The table assumes the guitar is structurally sound and properly playable. I assess repair and service needs separately.
 

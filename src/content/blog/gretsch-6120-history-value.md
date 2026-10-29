@@ -59,7 +59,7 @@ Many players, including Brian Setzer, consider these the greatest 6120s ever bui
     
 -   **Inlays:** “Neo-Classical” or “Thumbprint” inlays on the side of the fretboard.
     
--   **Market Value:** **$9,000 to $16,000.** (1959 is the “Holy Grail” year for players).
+-   **Market Value:** **$8,600 to $12,900.** (1959 is the “Holy Grail” year for players).
     
 
 ### 1960 to 1961: The Thinner Body
@@ -85,7 +85,7 @@ A radical redesign that split the collector market.
     
 -   **F-Holes:** Many 1962 models have **painted-on** (simulated) F-holes to further reduce feedback.
     
--   **Market Value:** **$4,000 to $7,500.**
+-   **Market Value:** **$3,850 to $5,950.**
     
 
 ## The “Red Flags”: Originality and Condition Checks

@@ -70,8 +70,8 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     detailCaption: "This 1955 body date shows the kind of hidden pencil evidence used to distinguish neighboring maple-neck years.",
     customColorSummary: "Original non-sunburst 1954 Stratocasters are too scarce and specification-dependent for a dependable single price band. Authenticate the finish and appraise the guitar individually before applying any premium.",
     subRanges: [
-      { label: "Early spring 1954", range: "$108,000 to $198,000", note: "Tremolo-cover serials, earliest plastics, strong provenance, and exceptional originality can place a guitar in this upper first-year market." },
-      { label: "Later 1954 production", range: "$62,000 to $126,000", note: "Later neck-plate guitars overlap the early market when unusually clean, but most trade in this broader production band." },
+      { label: "Early spring 1954", range: "$88,000 to $184,800", note: "Tremolo-cover serials, earliest plastics, strong provenance, and exceptional originality can place a guitar in this upper first-year market." },
+      { label: "Later 1954 production", range: "$66,750 to $106,800", note: "Later neck-plate guitars overlap the early market when unusually clean, but most trade in this broader production band." },
     ],
   },
   {

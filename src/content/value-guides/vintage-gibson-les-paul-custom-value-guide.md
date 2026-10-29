@@ -1,4 +1,4 @@
-A clean, original 1968 or 1969 Gibson Les Paul Custom has a guide range of $11,000 to $23,150. Standard two-pickup Customs from 1975 through 1979 sit at $4,500 to $6,000 in excellent condition. A 1950s Custom belongs in a different market, with its pickup configuration separating the groups below.
+A clean, original 1968 or 1969 Gibson Les Paul Custom has a guide range of $11,000 to $23,150. Standard two-pickup Customs from 1975 through 1979 sit at $4,150 to $5,800 in excellent condition. A 1950s Custom belongs in a different market, with its pickup configuration separating the groups below.
 
 I buy vintage Les Paul Customs and start by separating the original 1950s carved-body guitars from the model that returned in 1968. If you haven't established the year, use the [Les Paul Custom dating and construction guide](/post/norlin-les-paul-custom-year-guide/) before choosing a row. The table here handles value; that guide handles the evidence behind the date.
 
@@ -10,10 +10,10 @@ Each production year has a row, and adjacent years can share a range. I use the 
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1954 | Staple neck pickup and P-90 bridge | $23,000 to $50,000 |
-| 1955 | Staple neck pickup and P-90 bridge | $23,000 to $50,000 |
-| 1956 | Staple neck pickup and P-90 bridge | $23,000 to $50,000 |
-| 1957 | Staple neck pickup and P-90 bridge | $23,000 to $50,000 |
+| 1954 | Staple neck pickup and P-90 bridge | $27,950 to $38,700 |
+| 1955 | Staple neck pickup and P-90 bridge | $27,950 to $38,700 |
+| 1956 | Staple neck pickup and P-90 bridge | $28,300 to $39,150 |
+| 1957 | Staple neck pickup and P-90 bridge | $27,650 to $38,250 |
 | 1957 | Original factory humbuckers | $77,400 to $104,400 |
 | 1958 | Original factory humbuckers | $54,000 to $203,000 |
 | 1959 | Original factory humbuckers | $54,000 to $203,000 |
@@ -25,11 +25,11 @@ Each production year has a row, and adjacent years can share a range. I use the 
 | 1972 | Standard two-pickup Custom | $5,750 to $7,500 |
 | 1973 | Standard two-pickup Custom | $5,700 to $7,400 |
 | 1974 | Standard two-pickup Custom | $5,400 to $7,050 |
-| 1975 | Standard two-pickup Custom | $4,500 to $6,000 |
-| 1976 | Standard two-pickup Custom | $4,500 to $6,000 |
-| 1977 | Standard two-pickup Custom | $4,500 to $6,000 |
-| 1978 | Standard two-pickup Custom | $4,500 to $6,000 |
-| 1979 | Standard two-pickup Custom | $4,500 to $6,000 |
+| 1975 | Standard two-pickup Custom | $4,150 to $5,400 |
+| 1976 | Standard two-pickup Custom | $4,300 to $5,600 |
+| 1977 | Standard two-pickup Custom | $4,200 to $5,450 |
+| 1978 | Standard two-pickup Custom | $4,300 to $5,550 |
+| 1979 | Standard two-pickup Custom | $4,250 to $5,800 |
 
 Missing or replaced parts and case condition affect a Custom's value. An Excellent label doesn't establish that the guitar is all-original. I check its actual parts and repair history before applying the clean range.
 

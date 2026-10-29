@@ -3,7 +3,7 @@ title: "Martin D-28 And D-28S Value Guide"
 seoTitle: "Martin D-28 And D-28S Value Guide"
 pubDate: "2026-10-26T14:00:00-07:00"
 modified: "2026-10-26T14:00:00-07:00"
-excerpt: "Vintage Martin D-28 values vary sharply by construction period. Typical retail ranges are $12,000 to $20,000 for 1950s guitars and $6,000 to $12,000 for 1960s Brazilian-rosewood examples. Original prewar guitars can be worth substantially more."
+excerpt: "Vintage Martin D-28 values vary sharply by construction period. Typical retail ranges are $12,200 to $17,400 for 1950s guitars and $6,000 to $12,000 for 1960s Brazilian-rosewood examples. Original prewar guitars can be worth substantially more."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: ["Martin guitars", "Martin values", "d-28"]

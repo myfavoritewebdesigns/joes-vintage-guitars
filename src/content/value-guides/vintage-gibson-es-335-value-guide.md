@@ -1,4 +1,4 @@
-Vintage Gibson ES-335 guide values run from $3,000 to $5,000 for typical 1970s examples to $23,400 to $83,050 for early dot-neck guitars, reviewed in October 2026. The broader all-original dot-neck market spans $27,000 to $72,000+, so the table isn't a ceiling for a rare or exceptional guitar.
+Vintage Gibson ES-335 guide values run from $2,750 to $5,000 for typical 1970s examples to $23,400 to $83,050 for early dot-neck guitars, reviewed in October 2026. The broader all-original dot-neck market spans $22,100 to $65,900+, so the table isn't a ceiling for a rare or exceptional guitar.
 
 For the year and original specification, use my [Gibson ES-335 dating and identification guide](/gibson-es-335-345-355-dating-guide/#es-335). This guide covers market value and the features that move it.
 
@@ -8,7 +8,7 @@ For the year and original specification, use my [Gibson ES-335 dating and identi
 
 | Year | Value Range | Configuration And Year Notes |
 | --- | --- | --- |
-| 1958 | $30,000 to $63,000 | Launch year; early unbound fingerboard and long guard. |
+| 1958 | $38,050 to $51,200 | Launch year; early unbound fingerboard and long guard. |
 | [1959](/post/1959-gibson-es-335-authentication-guide/) | $65,250 to $83,050 | Sunburst dot neck; natural examples excluded here. |
 | 1960 | $33,400 to $42,300 | Cherry joins sunburst; neck profile changes within the year. |
 | 1961 | $23,400 to $31,500 | Dot inlays and PAFs; factory tailpiece affects value. |
@@ -19,7 +19,7 @@ For the year and original specification, use my [Gibson ES-335 dating and identi
 | [1965](/post/1965-gibson-es-335-short-maestro-vibrola/) | $8,550 to $10,800 | Wide to narrow nut transition; both widths are included. |
 | [1966](/post/1966-gibson-es-335-authentication-guide/) | $5,850 to $7,650 | Narrow nut and trapeze; played-original reference. |
 | 1967 | $7,450 to $10,150 | Trapeze era; factory custom finishes excluded. Played original. |
-| [1968](/post/1968-gibson-es-335-guide/) | $6,500 to $7,500 | Clean-original condition; one-piece neck and long tenon. |
+| [1968](/post/1968-gibson-es-335-guide/) | $5,800 to $7,550 | Clean-original condition; one-piece neck and long tenon. |
 | 1969 | $4,500 to $7,000 | Multi-piece neck and shorter tenon transition. Played original. |
 | 1970 | $3,000 to $5,000 | Later construction; ordinary ES-335TD reference. |
 | 1971 | $3,000 to $5,000 | ES-335TD; retain the actual factory tailpiece. |
@@ -28,9 +28,9 @@ For the year and original specification, use my [Gibson ES-335 dating and identi
 | 1974 | $3,000 to $5,000 | Standard TD configurations; condition remains decisive. |
 | 1975 | $3,000 to $5,000 | Original finish and working electronics assumed. |
 | 1976 | $3,000 to $5,000 | Check working controls and disclosed service needs. |
-| 1977 | $3,000 to $5,000 | Case and hardware completeness affect placement. |
-| 1978 | $3,000 to $5,000 | Later controls vary; working electronics affect value. |
-| 1979 | $3,000 to $5,000 | ES-335 Pro, CRS and CRR excluded. |
+| 1977 | $2,750 to $4,300 | Case and hardware completeness affect placement. |
+| 1978 | $2,850 to $4,450 | Later controls vary; working electronics affect value. |
+| 1979 | $2,850 to $4,450 | ES-335 Pro, CRS and CRR excluded. |
 
 Natural finishes need a separate appraisal from the sunburst and cherry guitars in the table. The 1965 range includes both 1 11/16 inch and 1 9/16 inch nuts without assigning a fixed wide-neck premium. The 1966 and 1969 ranges allow played condition and minor parts changes; the 1968 range assumes a clean original. I wouldn't read those differences as a fixed annual gain or loss.
 
@@ -54,7 +54,7 @@ The early ES-335 combines a maple body with a solid center block, two humbuckers
 
 The dot-neck market also contains several distinct guitars. An early 1958 can have an unbound fingerboard; the 1959 is associated with the fuller neck many buyers seek; the 1960 neck becomes slimmer. A long pickguard and the original pickup pair add to the complete early appearance, but replacing a short guard with a reproduction long one doesn't create an earlier guitar.
 
-The broader all-original dot-neck market spans $27,000 to $72,000+. A clean 1959 and a heavily played early example can sit far apart within it. I consider the year, finish, pickups and maintenance history together.
+The broader all-original dot-neck market spans $22,100 to $65,900+. A clean 1959 and a heavily played early example can sit far apart within it. I consider the year, finish, pickups and maintenance history together.
 
 ### Sunburst, Natural And Early Cherry
 
@@ -106,7 +106,7 @@ The factory short Maestro shown here sits outside the ordinary trapeze category.
 
 Later 1960s ES-335s offer original Gibson humbuckers and the familiar semi-hollow construction at a lower entry point than the dot-neck group. Narrower nuts, later pickup specifications and trapeze tailpieces help explain the market separation. Original finish and an intact neck still distinguish the better examples from heavily altered players.
 
-The 1968 row gives a $6,500 to $7,500 range for clean originals. Its one-piece mahogany neck and long tenon are the construction features described in the linked year guide. The 1969 row is separate because the multi-piece neck and shorter tenon transition changes the reference, even though condition can make individual prices overlap.
+The 1968 row gives a $5,800 to $7,550 range for clean originals. Its one-piece mahogany neck and long tenon are the construction features described in the linked year guide. The 1969 row is separate because the multi-piece neck and shorter tenon transition changes the reference, even though condition can make individual prices overlap.
 
 <figure>
 
@@ -116,7 +116,7 @@ The 1968 row gives a $6,500 to $7,500 range for clean originals. Its one-piece m
 
 </figure>
 
-For the 1970s, the $3,000 to $5,000 band covers ordinary ES-335TD guitars with original finish and pickups. Lower-priced examples may need control servicing or have minor hardware changes. A clean, fully functioning example should be judged accordingly.
+For the 1970s, the $2,750 to $5,000 band covers ordinary ES-335TD guitars with original finish and pickups. Lower-priced examples may need control servicing or have minor hardware changes. A clean, fully functioning example should be judged accordingly.
 
 The 1979 Country Rock Stereo, abbreviated CRS, the CRR and the ES-335 Pro are excluded from this ordinary TD band. Likewise, a 1981 dot reissue is outside the 1958 to 1979 scope. Dot inlays on a later guitar don't put it in the original PAF dot-neck market.
 

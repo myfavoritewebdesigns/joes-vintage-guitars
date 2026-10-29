@@ -26,7 +26,7 @@ Amounts are in U.S. dollars, and adjacent years can share a range. The 1957 tran
 | 1961 | $13,500 to $18,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware changes disclosed |
 | 1962 | $12,050 to $14,600 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware changes disclosed |
 | 1963 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware changes disclosed |
-| 1964 | $9,000 to $16,000 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware changes disclosed |
+| 1964 | $10,100 to $12,300 | 1960 to 1964 era; Very Good to Excellent sunburst, guard and hardware changes disclosed |
 | 1965 | $6,000 to $12,000 | 1965 to 1969 era; Very Good to Excellent sunburst, serviced controls and case condition |
 | 1966 | $5,800 to $8,500 | 1965 to 1969 era; Very Good to Excellent sunburst, serviced controls and case condition |
 | 1967 | $5,750 to $8,400 | 1965 to 1969 era; Very Good to Excellent sunburst, serviced controls and case condition |
@@ -35,7 +35,7 @@ Amounts are in U.S. dollars, and adjacent years can share a range. The 1957 tran
 | 1970 | $3,500 to $4,800 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
 | 1971 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
 | 1972 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
-| 1973 | $2,500 to $5,000 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
+| 1973 | $2,750 to $3,850 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
 | 1974 | $2,200 to $3,550 | 1970 to 1974 era; Very Good to Excellent standard finishes, serviced controls allowed |
 | 1975 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, playing wear and serviced parts |
 | 1976 | $2,000 to $4,000 | 1975 to 1979 era; Good to Excellent standard finishes, playing wear and serviced parts |

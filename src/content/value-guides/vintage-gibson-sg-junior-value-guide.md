@@ -8,17 +8,17 @@ For the year and original specification, use my [Gibson SG Junior dating and ide
 
 | Year | Value Range | Configuration And Year Notes | Shipments |
 | --- | --- | --- | --- |
-| 1961 | $5,500 to $8,000 | Small guard, dog-ear P-90 and wraparound bridge. | Not listed |
-| 1962 | $5,500 to $8,000 | Small guard, dog-ear P-90 and wraparound bridge. Lightning-bar bridge appears around this year. | 2,395 |
-| 1963 | $5,500 to $8,000 | Small guard and dog-ear P-90; lightning-bar bridge. | 2,318 |
+| 1961 | $5,200 to $6,950 | Small guard, dog-ear P-90 and wraparound bridge. | Not listed |
+| 1962 | $5,200 to $6,950 | Small guard, dog-ear P-90 and wraparound bridge. Lightning-bar bridge appears around this year. | 2,395 |
+| 1963 | $4,950 to $6,650 | Small guard and dog-ear P-90; lightning-bar bridge. | 2,318 |
 | 1964 | $5,100 to $6,600 | Small guard and dog-ear P-90; lightning-bar bridge. | 3,364 |
 | 1965 | $3,750 to $5,000 | Small guard and dog-ear P-90; lightning-bar bridge. | 3,570 |
 | 1966 | $3,300 to $4,350 | Small to large guard transition; match actual version. | 1,928 |
 | 1967 | $3,250 to $4,300 | Large guard and soapbar P-90; factory vibrato reference. | 1,021 |
 | 1968 | $3,350 to $4,400 | Large guard and soapbar P-90; factory vibrato reference. | 561 |
 | 1969 | $3,400 to $4,500 | Large guard and soapbar P-90; factory vibrato reference. | 751 |
-| 1970 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | 938 |
-| 1971 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | Not listed |
+| 1970 | $2,500 to $3,400 | Large guard and soapbar P-90; factory vibrato reference. | 938 |
+| 1971 | $2,500 to $3,400 | Large guard and soapbar P-90; factory vibrato reference. | Not listed |
 | 1972 | Outside Original Run | Outside this original Junior run. | Not listed |
 | 1973 | Outside Original Run | Outside this original Junior run. | Not listed |
 | 1974 | Outside Original Run | Outside this original Junior run. | Not listed |

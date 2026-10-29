@@ -1,4 +1,4 @@
-Vintage Gibson acoustic values differ sharply by model: an excellent, original 1955 to 1959 J-45 falls in the $7,000 to $9,000 range, while a 1952 to 1959 J-200 sits at $15,000 to $20,000. Both assume the original case. They aren't interchangeable estimates for a large old Gibson acoustic.
+Vintage Gibson acoustic values differ sharply by model: an excellent, original 1955 to 1959 J-45 falls in the $6,000 to $8,450 range, while a 1952 to 1959 J-200 sits at $12,750 to $17,800. Both assume the original case. They aren't interchangeable estimates for a large old Gibson acoustic.
 
 I use this hub to connect the model guides and explain which table fits each guitar. The ranges were reviewed in October 2026. A repaired or modified guitar needs its own appraisal.
 
@@ -8,11 +8,11 @@ Match the model and era, then read its condition requirements. The Hummingbird f
 
 | Model | Era Or Configuration | Value Range |
 | --- | --- | --- |
-| J-45 | 1955 to 1959: Large-guard sunburst era | $7,000 to $9,000 |
-| J-45 | 1970 to 1979: Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
-| J-200 | 1952 to 1959: Standard natural or sunburst | $15,000 to $20,000 |
-| J-200 | 1970 to 1979: J-200 and Artist period | $4,500 to $6,000 |
-| LG-0 | 1958 to 1974: LG-0 | $750 to $1,650 |
+| J-45 | 1955 to 1959: Large-guard sunburst era | $6,000 to $8,450 |
+| J-45 | 1970 to 1979: Square-shoulder J-45 and Deluxe | $1,700 to $3,100 |
+| J-200 | 1952 to 1959: Standard natural or sunburst | $12,750 to $17,800 |
+| J-200 | 1970 to 1979: J-200 and Artist period | $3,550 to $5,800 |
+| LG-0 | 1958 to 1974: LG-0 | $700 to $1,600 |
 | LG-1 | Postwar to 1968: LG-1 | $2,000 to $4,500 |
 | LG-2 | 1950 to 1962: LG-2 | $2,700 to $5,350 |
 | LG-3 | 1950s to early 1960s: LG-3 | $3,600 to $4,450 |

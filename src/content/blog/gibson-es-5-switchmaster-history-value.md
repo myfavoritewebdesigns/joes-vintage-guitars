@@ -12,7 +12,7 @@ heroImageAlt: "Front of a 1953 Gibson ES-5 in sunburst with three dog-ear P-90 p
 metaDescription: "Vintage Gibson ES-5 and Switchmaster values by year, with P-90 and PAF asking ranges, original finish, repairs, dating details and photos from my shop."
 ogImage: "/images/blog/gibson-es-5-switchmaster-history-value/1953-gibson-es-5-sunburst-front.jpg"
 ---
-The asking range for an all-original, excellent sunburst Gibson ES-5 is $7,000 to $18,000 across the original P-90 and Switchmaster versions. A three-PAF Switchmaster sits at $13,000 to $18,000, while the earlier three-P-90 ES-5 sits at $7,000 to $9,000. I identify the pickups and construction before assessing condition and repairs.
+The asking range for an all-original, excellent sunburst Gibson ES-5 is $7,000 to $17,100 across the original P-90 and Switchmaster versions. A three-PAF Switchmaster sits at $12,750 to $16,900, while the earlier three-P-90 ES-5 sits at $7,000 to $9,000. I identify the pickups and construction before assessing condition and repairs.
 
 <h2 id="es5-value">Gibson ES-5 And Switchmaster Values By Year</h2>
 
@@ -29,10 +29,10 @@ As of October 2026, these are asking ranges for all-original, excellent sunburst
 | 1955 | Switchmaster, Three P-90s | $8,500 to $13,000 |
 | 1956 | Switchmaster, Three P-90s | $7,850 to $10,050 |
 | 1957 | Switchmaster, Three P-90s | $7,950 to $10,150 |
-| 1957 | Switchmaster, Three PAFs | $13,000 to $18,000 |
-| 1958 | Switchmaster, Three PAFs | $13,000 to $18,000 |
-| 1959 | Switchmaster, Three PAFs | $13,000 to $18,000 |
-| 1960 | Rounded Cutaway, Three PAFs | $13,000 to $18,000 |
+| 1957 | Switchmaster, Three PAFs | $12,750 to $16,150 |
+| 1958 | Switchmaster, Three PAFs | $13,050 to $16,550 |
+| 1959 | Switchmaster, Three PAFs | $12,900 to $16,350 |
+| 1960 | Rounded Cutaway, Three PAFs | $13,350 to $16,900 |
 | 1960 | Florentine Cutaway | $13,500 to $17,100 |
 | 1961 | Florentine Cutaway | $10,350 to $13,050 |
 | 1962 | Florentine Cutaway | $10,250 to $12,950 |
@@ -294,7 +294,7 @@ Because it carries three original PAF humbuckers, the same sought-after late-195
 
 **What is my vintage Gibson ES-5 worth?**
 
-As of October 2026, asking ranges are $7,000 to $9,000 for an all-original, excellent sunburst P-90 ES-5 and $13,000 to $18,000 for a rounded-cutaway three-PAF Switchmaster. These aren't guaranteed selling prices or cash offers. Natural finish, repairs, originality and case completeness need individual consideration.
+As of October 2026, asking ranges are $7,000 to $9,000 for an all-original, excellent sunburst P-90 ES-5 and $12,750 to $16,900 for a rounded-cutaway three-PAF Switchmaster. These aren't guaranteed selling prices or cash offers. Natural finish, repairs, originality and case completeness need individual consideration.
 
 **Is a natural, or blonde, ES-5 worth more than a sunburst?**
 
@@ -425,7 +425,7 @@ No. The Custom Shop reissues from the mid-1990s and later are good guitars, but 
       "name": "What is my vintage Gibson ES-5 worth?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "As of October 2026, asking ranges are $7,000 to $9,000 for an all-original, excellent sunburst P-90 ES-5 and $13,000 to $18,000 for a rounded-cutaway three-PAF Switchmaster. These aren't guaranteed selling prices or cash offers. Natural finish, repairs, originality and case completeness need individual consideration."
+        "text": "As of October 2026, asking ranges are $7,000 to $9,000 for an all-original, excellent sunburst P-90 ES-5 and $12,750 to $16,900 for a rounded-cutaway three-PAF Switchmaster. These aren't guaranteed selling prices or cash offers. Natural finish, repairs, originality and case completeness need individual consideration."
       }
     },
     {
