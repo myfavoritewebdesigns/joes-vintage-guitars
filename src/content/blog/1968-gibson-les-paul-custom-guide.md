@@ -176,7 +176,7 @@ toc: [{"href":"#1968-custom-return","label":"Gibson Les Paul Custom Reintroducti
 
 <h2 id="1968-les-paul-custom-value">What Is A 1968 Les Paul Custom Worth?</h2>
 
-<p>Our <a href="/vintage-gibson-les-paul-market-value-guide/">Les Paul value guide</a>, checked in October 2026, gives a broad US retail estimate of $11,000 to $17,000 for 1968 to 1969 Customs in excellent, all-original condition with the correct case. That is a condition-specific guide range, not a price for every black Custom carrying a 1968 attribution.</p><p>For a 1968 example, confirm the date and original construction before comparing prices. An original finish, unrepaired headstock, original pickups and undisturbed hardware support a different comparison from a refinished or repaired guitar. A refret affects the low-fret feel and originality; its workmanship should be described rather than hidden behind a general condition grade.</p>
+<p>Our <a href="/vintage-gibson-les-paul-market-value-guide/">Les Paul value guide</a>, checked in October 2026, gives a broad US retail estimate of $11,000 to $23,150 for 1968 to 1969 Customs in excellent, all-original condition with the correct case. That is a condition-specific guide range, not a price for every black Custom carrying a 1968 attribution.</p><p>For a 1968 example, confirm the date and original construction before comparing prices. An original finish, unrepaired headstock, original pickups and undisturbed hardware support a different comparison from a refinished or repaired guitar. A refret affects the low-fret feel and originality; its workmanship should be described rather than hidden behind a general condition grade.</p>
 
 
 

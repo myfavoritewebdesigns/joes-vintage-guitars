@@ -1,4 +1,4 @@
-Vintage Gibson ES-335 guide values run from $3,000 to $5,000 for typical 1970s examples to $30,000 to $63,000 for early dot-neck guitars, reviewed in October 2026. The broader all-original dot-neck market spans $27,000 to $72,000+, so the table isn't a ceiling for a rare or exceptional guitar.
+Vintage Gibson ES-335 guide values run from $3,000 to $5,000 for typical 1970s examples to $23,400 to $83,050 for early dot-neck guitars, reviewed in October 2026. The broader all-original dot-neck market spans $27,000 to $72,000+, so the table isn't a ceiling for a rare or exceptional guitar.
 
 For the year and original specification, use my [Gibson ES-335 dating and identification guide](/gibson-es-335-345-355-dating-guide/#es-335). This guide covers market value and the features that move it.
 

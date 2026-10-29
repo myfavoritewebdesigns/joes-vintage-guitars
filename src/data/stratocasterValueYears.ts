@@ -48,7 +48,7 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
     customRange: "Individual appraisal required",
     metaValueRange: "$108,750 to $175,450",
     metaDescription: "1954 Fender Stratocaster value guide: $108,750 to $175,450. Compare early tremolo-cover serials, later production, originality and first-year specs.",
-    veryGoodRange: "$46,000 to $179,000",
+    veryGoodRange: "$97,900 to $157,900",
     refinishRange: "$28,000 to $119,000",
     answer: "An excellent, all-original 1954 Fender Stratocaster with its original case can bring roughly $108,750 to $175,450. The earliest spring guitars, exceptional preservation, and documented provenance explain the unusually wide spread.",
     intro: "1954 is the Stratocaster's launch year and a market unto itself. Fender changed details while the design moved from the earliest spring instruments into regular production, so two authentic 1954 Strats can carry different serial locations, pots, knobs, and small construction details.",
