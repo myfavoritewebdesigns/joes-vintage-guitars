@@ -1,10 +1,10 @@
 # Rickenbacker Model Guide Expansion
 
-Prepared October 27, 2026 and revised October 29, 2026 for Joe's review. Publication is pending approval of the specific preview.
+Prepared October 27, 2026 and published October 29, 2026 after Joe approved the value-chart preview. The subsequent blog-placement revision is awaiting preview approval.
 
 ## Scope
 
-30 articles in 15 paired authentication/value families, plus a browsable index. Related variants are grouped rather than given near-duplicate individual pages:
+30 individual blog articles in 15 paired authentication/value families. Related variants are grouped rather than given near-duplicate individual pages:
 
 - 310/315/320/325 and later short-scale recreations
 - 330/335/340/345 and export relatives
@@ -40,6 +40,6 @@ Joe explicitly supplied the market adjustment: randomly choose 11%, 12%, 13%, 14
 
 ## Integration And Verification
 
-The index links every pair and existing Rickenbacker hardware guides. Incoming index links are added to the blog identification dropdown, the Rickenbacker dating layout and the selling page. Existing URLs and titles are retained. The paired library remains accessible through its index, category, related links and sitemap; the main chronological blog feed keeps its existing sequence instead of inserting 30 consecutive guide cards.
+At Joe's explicit request, all 30 articles appear in the main chronological blog feed. The 15 value guides use Value & Evaluation; the 15 authentication guides use Specific Model Highlights. The identification-dropdown link and dedicated model hub are removed. The former hub and Rickenbacker category redirect to /blog/. Article URLs and titles are retained. Paired articles link directly to each other, and existing dating and selling pages link to relevant individual articles. Earlier validation reports describe the original hub-based preview; blog-placement-check.json records the revised archive behavior.
 
 Required build, type and rendered-copy checks, deterministic new-route checks and affected-existing-page comparisons are recorded separately. New routes have no live-page baseline. This is content/build verification, not a substitute for the unavailable external specialist SEO methodology. No agent reviewer was spawned because the active developer instructions prohibit unsolicited delegation.
