@@ -1,0 +1,7 @@
+---
+import ModelGuide from '../layouts/AcousticModelGuide.astro';
+import { Content, getHeadings } from '../content/model-guides/gibson-dove-authentication-guide.md';
+import data from '../data/model-guides/gibson-dove-authentication-guide.json';
+import hero from '../assets/acoustic-models/1976-dove-front.jpg';
+---
+<ModelGuide data={data} headings={getHeadings()} image={hero}><Content /></ModelGuide>

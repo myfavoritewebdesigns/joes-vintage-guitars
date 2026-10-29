@@ -1,5 +1,7 @@
 # Gibson Acoustic Model Cards
 
+This initial four-card scope was expanded later on October 29 at Joe's request. The current nine-card hub and ten new pages are documented in [gibson-acoustic-guides.md](gibson-acoustic-guides.md); that report supersedes the original model coverage below.
+
 Requested by Joe on October 29, 2026: make the acoustic value hub's model guides easy to find through clickable cards.
 
 ## Design Decision

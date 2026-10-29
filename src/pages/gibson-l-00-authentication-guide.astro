@@ -1,0 +1,7 @@
+---
+import ModelGuide from '../layouts/AcousticModelGuide.astro';
+import { Content, getHeadings } from '../content/model-guides/gibson-l-00-authentication-guide.md';
+import data from '../data/model-guides/gibson-l-00-authentication-guide.json';
+import hero from '../assets/acoustic-models/1930s-l-00-drive.jpg';
+---
+<ModelGuide data={data} headings={getHeadings()} image={hero}><Content /></ModelGuide>

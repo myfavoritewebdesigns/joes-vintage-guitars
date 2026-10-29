@@ -1,0 +1,7 @@
+---
+import ModelGuide from '../layouts/AcousticModelGuide.astro';
+import { Content, getHeadings } from '../content/model-guides/gibson-country-western-authentication-guide.md';
+import data from '../data/model-guides/gibson-country-western-authentication-guide.json';
+
+---
+<ModelGuide data={data} headings={getHeadings()} ><Content /></ModelGuide>

@@ -1,0 +1,25 @@
+{
+  "title": "Gibson L-0 Authentication Guide",
+  "description": "Identify a vintage Gibson L-0: compare model features, dating evidence, original parts, repairs and reissues, with photographs from Joe’s archive.",
+  "h1": "Gibson L-0 Authentication Guide",
+  "url": "/gibson-l-0-authentication-guide/",
+  "date": "2026-10-29T00:00:00-07:00",
+  "model": "Gibson L-0",
+  "kind": "authentication",
+  "alt": "1920s Gibson L-0 with small rounded body and natural mahogany appearance",
+  "caption": "A 1920s L-0 from my completed Reverb listing. It has substantial repaired cracks, a refret and a replacement case; its condition differs from the table’s benchmark.",
+  "faqs": [
+    {
+      "q": "Can a serial number authenticate my Gibson L-0?",
+      "a": "No. The number must agree with the body, neck, trim, hardware and construction. Some Gibson number sequences overlap, and an interior factory order number must be interpreted in context."
+    },
+    {
+      "q": "Does a repair mean the guitar is not authentic?",
+      "a": "No. Model identity, manufacture date and originality are separate findings. A repaired instrument may be authentic, while its changed parts and condition still need disclosure."
+    },
+    {
+      "q": "Can a modern reissue look like a vintage example?",
+      "a": "Yes. Period-style appointments are deliberately reproduced. Confirm the actual manufacturing date, serial system, construction and paperwork before using a vintage price comparison."
+    }
+  ]
+}
