@@ -3,7 +3,7 @@ title: "Vintage Martin Plectrum Guitar Value Guide"
 seoTitle: "Vintage Martin Plectrum Guitar Value Guide"
 pubDate: "2026-10-26T14:00:00-07:00"
 modified: "2026-10-26T14:00:00-07:00"
-excerpt: "A vintage Martin 1-17P is approximately $1,600 to $2,000, a 1-28P is $3,200 to $4,000, and an OM-18P is $6,800 to $8,400 in excellent original condition. Rare variants require individual appraisal."
+excerpt: "A vintage Martin 1-17P is approximately $1,550 to $2,450, a 1-28P is $3,200 to $4,000, and an OM-18P is $7,200 to $10,800 in excellent original condition. Rare variants require individual appraisal."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: ["Martin guitars", "Martin values", "plectrum"]

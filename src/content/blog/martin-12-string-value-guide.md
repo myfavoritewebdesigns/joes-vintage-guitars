@@ -3,7 +3,7 @@ title: "Martin D12-20 And D12-35 Value Guide"
 seoTitle: "Martin D12-20 And D12-35 Value Guide"
 pubDate: "2026-10-26T14:00:00-07:00"
 modified: "2026-10-26T14:00:00-07:00"
-excerpt: "A 1964 to 1969 Martin D12-20 is approximately $1,800 to $2,400. A Brazilian-rosewood D12-35 from 1965 to 1969 is approximately $5,200 to $6,800 in excellent original condition."
+excerpt: "A 1964 to 1969 Martin D12-20 is approximately $1,800 to $3,100. A Brazilian-rosewood D12-35 from 1965 to 1969 is approximately $5,200 to $9,000 in excellent original condition."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: ["Martin guitars", "Martin values", "12-string"]

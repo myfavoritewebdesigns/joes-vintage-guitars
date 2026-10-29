@@ -35,7 +35,7 @@ These are the most visually distinct 6120s. They were designed to appeal to the 
     
 -   **Pickups:** DeArmond Dynasonic single-coils (clear, punchy, and loud).
     
--   **Market Value:** **$14,000-$18,000+** (depending on condition and “G” brand clarity).
+-   **Market Value:** **$13,500-$22,500+** (depending on condition and “G” brand clarity).
     
 
 ### 1957: The Transition Year
@@ -46,7 +46,7 @@ Gretsch began stripping away the “Cowboy” aesthetic. The “G” brand disap
     
 -   **Pickups:** Still Dynasonics, but often with newer “Bar” bridges.
     
--   **Market Value:** **$10,000 to $16,000.**
+-   **Market Value:** **$8,900 to $13,350.**
     
 
 ### 1958 to 1959: The “Trestle Bracing” Peak

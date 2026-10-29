@@ -3,7 +3,7 @@ title: "Martin D-21 Value Guide: 1955 To 1969"
 seoTitle: "Martin D-21 Value Guide: 1955 To 1969"
 pubDate: "2026-10-26T14:00:00-07:00"
 modified: "2026-10-26T14:00:00-07:00"
-excerpt: "Vintage Martin D-21 values generally range from $5,100 to $9,350 for 1960s guitars and $8,075 to $12,750 for 1956 to 1959 examples. Condition, originality and wood determine where a guitar falls within its range."
+excerpt: "Vintage Martin D-21 values generally range from $6,700 to $11,550 for 1960s guitars and $10,100 to $12,750 for 1956 to 1959 examples. Condition, originality and wood determine where a guitar falls within its range."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: ["Martin guitars", "Martin values", "d-21"]

@@ -1,4 +1,4 @@
-Vintage Gibson ES-335 guide values run from $3,000 to $5,000 for typical 1970s examples to $30,000 to $63,000 for early dot-neck guitars, reviewed in October 2026. The broader all-original dot-neck market spans $27,000 to $72,000+, so the table isn't a ceiling for a rare or exceptional guitar.
+Vintage Gibson ES-335 guide values run from $3,000 to $5,000 for typical 1970s examples to $23,400 to $83,050 for early dot-neck guitars, reviewed in October 2026. The broader all-original dot-neck market spans $27,000 to $72,000+, so the table isn't a ceiling for a rare or exceptional guitar.
 
 For the year and original specification, use my [Gibson ES-335 dating and identification guide](/gibson-es-335-345-355-dating-guide/#es-335). This guide covers market value and the features that move it.
 
@@ -9,16 +9,16 @@ For the year and original specification, use my [Gibson ES-335 dating and identi
 | Year | Value Range | Configuration And Year Notes |
 | --- | --- | --- |
 | 1958 | $30,000 to $63,000 | Launch year; early unbound fingerboard and long guard. |
-| [1959](/post/1959-gibson-es-335-authentication-guide/) | $30,000 to $63,000 | Sunburst dot neck; natural examples excluded here. |
-| 1960 | $30,000 to $63,000 | Cherry joins sunburst; neck profile changes within the year. |
-| 1961 | $30,000 to $63,000 | Dot inlays and PAFs; factory tailpiece affects value. |
-| 1962, Early Dot Neck | $30,000 to $63,000 | PAF dot-neck reference; block guitars use the next row. |
-| [1962](/post/1962-gibson-es-335-guide/) Block Neck | $23,000 to $34,000 | Dot to block transition; use the matching row. |
-| 1963 | $23,000 to $34,000 | Block inlays; check original pickup and tailpiece combination. |
-| 1964 | $23,000 to $34,000 | Wide nut and early block-neck construction. |
-| [1965](/post/1965-gibson-es-335-short-maestro-vibrola/) | $12,000 to $14,000 | Wide to narrow nut transition; both widths are included. |
-| [1966](/post/1966-gibson-es-335-authentication-guide/) | $4,500 to $7,000 | Narrow nut and trapeze; played-original reference. |
-| 1967 | $4,500 to $7,000 | Trapeze era; factory custom finishes excluded. Played original. |
+| [1959](/post/1959-gibson-es-335-authentication-guide/) | $65,250 to $83,050 | Sunburst dot neck; natural examples excluded here. |
+| 1960 | $33,400 to $42,300 | Cherry joins sunburst; neck profile changes within the year. |
+| 1961 | $23,400 to $31,500 | Dot inlays and PAFs; factory tailpiece affects value. |
+| 1962, Early Dot Neck | $23,850 to $31,500 | PAF dot-neck reference; block guitars use the next row. |
+| [1962](/post/1962-gibson-es-335-guide/) Block Neck | $15,700 to $19,600 | Dot to block transition; use the matching row. |
+| 1963 | $15,050 to $18,950 | Block inlays; check original pickup and tailpiece combination. |
+| 1964 | $15,250 to $19,150 | Wide nut and early block-neck construction. |
+| [1965](/post/1965-gibson-es-335-short-maestro-vibrola/) | $8,550 to $10,800 | Wide to narrow nut transition; both widths are included. |
+| [1966](/post/1966-gibson-es-335-authentication-guide/) | $5,850 to $7,650 | Narrow nut and trapeze; played-original reference. |
+| 1967 | $7,450 to $10,150 | Trapeze era; factory custom finishes excluded. Played original. |
 | [1968](/post/1968-gibson-es-335-guide/) | $6,500 to $7,500 | Clean-original condition; one-piece neck and long tenon. |
 | 1969 | $4,500 to $7,000 | Multi-piece neck and shorter tenon transition. Played original. |
 | 1970 | $3,000 to $5,000 | Later construction; ordinary ES-335TD reference. |

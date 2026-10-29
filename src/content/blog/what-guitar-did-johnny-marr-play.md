@@ -134,13 +134,13 @@ The sale itself is Thursday 17 September 2026, 2pm BST, at Christie's in London,
 
 Christie's numbers are what someone might pay for his instruments. Below is what a regular one of these actually trades for, from public asking and sold dealer pages, so read them as market context rather than as an offer from me. The market's thin, and asking usually runs ahead of sold.
 
-A 1959 ES-355TD mono in cherry, all-original, sits about **$27,000 to $41,000** on my [ES-355 model value guide](/vintage-gibson-es-355-value-guide/), and stereo Vari-tone is a bit lower, roughly $20,000 to $35,000 on that same page.
+A 1959 ES-355TD mono in cherry, all-original, sits about **$24,950 to $31,150** on my [ES-355 model value guide](/vintage-gibson-es-355-value-guide/), and stereo Vari-tone is a bit lower, roughly $18,000 to $22,500 on that same page.
 
 A 1960s Rickenbacker 330 is asking about **$4,500 to $8,500** right now. Chicago Music Exchange had a 1966 Fireglo at $4,700, and Fretted Americana had a near-mint 1966 at $8,500. An 1980s 330 with no provenance is more like **$2,000 to $4,000**, and the comps there are thin, so don't price a 1982 off 1966 comps, because those are two different buyers.
 
 For a standard sunburst Jaguar, use my [Fender Jaguar value guide](/vintage-fender-jaguar-value-guide/) to match the exact year and condition. A signature-model reissue and a guitar with documented celebrity ownership belong to separate markets.
 
-An early-1970s D-28 in Indian rosewood is asking about **$3,500 to $7,500**. I wouldn't use the 1960-69 Brazilian D-28 table on it, because the wood and the years aren't comparable.
+An early-1970s D-28 in Indian rosewood is asking about **$3,350 to $4,400**. I wouldn't use the 1960-69 Brazilian D-28 table on it, because the wood and the years aren't comparable.
 
 Set next to those, the named lots in pounds are another conversation: £100,000 to £150,000 for the 355, £60,000 to £80,000 for the 1982 330, £30,000 to £50,000 for the 1971 D-28, £20,000 to £30,000 for the Giffin, and £8,000 to £12,000 for the signature Jag. That's provenance money, which isn't what a regular 1959 355 or a 1960s 330 trades for.
 
@@ -184,7 +184,7 @@ No. Porter's '53 or '54 did Charming Man, and that Tele isn't in the sale. The G
 
 <h3 id="what-is-a-vintage-es-355-worth-without-johnny-marr-provenance">What Is A Vintage ES-355 Worth Without Johnny Marr Provenance?</h3>
 
-A clean original mono 1959 is about $27,000 to $41,000 in the ES-355 model value guide, stereo a bit less. His estimate is in pounds because of the name.
+A clean original mono 1959 is about $24,950 to $31,150 in the ES-355 model value guide, stereo a bit less. His estimate is in pounds because of the name.
 
 <h3 id="will-you-buy-a-1971-d-28-or-a-1982-330-or-a-signature-jaguar">Will You Buy A 1971 D-28, A 1982 330, Or A Signature Jaguar?</h3>
 
@@ -260,7 +260,7 @@ Who I am and how I work is on the [about page](/about-me/).
       "name": "What Is A Vintage ES-355 Worth Without Johnny Marr Provenance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A clean original mono 1959 is about $27,000 to $41,000 in the ES-355 model value guide, stereo a bit less. His estimate is in pounds because of the name."
+        "text": "A clean original mono 1959 is about $24,950 to $31,150 in the ES-355 model value guide, stereo a bit less. His estimate is in pounds because of the name."
       }
     },
     {

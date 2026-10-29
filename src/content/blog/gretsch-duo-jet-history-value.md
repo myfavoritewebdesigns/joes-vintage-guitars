@@ -246,9 +246,9 @@ Vintage Duo Jet values move with the year, the pickups, the condition, and above
 
 | Segment | Player or modified | All-original, excellent |
 | --- | --- | --- |
-| DeArmond era single-cut, 1953 to 1957 | about $4,000 to $7,000 | about $8,000 to $14,000 |
-| Filter'Tron era single-cut, 1958 to 1961 | about $4,000 to $7,000 | about $7,000 to $13,000 |
-| Double-cut, early to mid 1960s | about $3,000 to $5,000 | about $5,000 to $9,000 |
+| DeArmond era single-cut, 1953 to 1957 | about $4,000 to $7,000 | about $5,400 to $9,000 |
+| Filter'Tron era single-cut, 1958 to 1961 | about $4,000 to $7,000 | about $4,400 to $7,950 |
+| Double-cut, early to mid 1960s | about $3,000 to $5,000 | about $3,600 to $7,200 |
 
 A few things sit outside the table. The 1953 first-batch "Scripty Jet" is a category of its own and commands a clear premium over a standard early Jet, often well into five figures for a clean one. The Silver Jet, Jet Fire Bird, and the western Round-Up each carry their own collector interest, and the White Penguin is a grail guitar that trades in a different world entirely.
 
@@ -286,7 +286,7 @@ Start with the serial number label inside the control cavity and match it to a k
 
 **What is my vintage Gretsch Duo Jet worth?**
 
-An all-original single-cut Duo Jet from the 1950s generally falls in the range of about $8,000 to $14,000 in excellent condition, with 1958 to 1961 Filter'Tron guitars a bit under that and double-cut 1960s examples lower still. A first-batch 1953 is worth a strong premium, and any refinish, converted pickups, or added Bigsby lowers the number. Condition and originality matter more than anything else, so the only way to know is to have it appraised.
+An all-original single-cut Duo Jet from the 1950s generally falls in the range of about $5,400 to $9,000 in excellent condition, with 1958 to 1961 Filter'Tron guitars a bit under that and double-cut 1960s examples lower still. A first-batch 1953 is worth a strong premium, and any refinish, converted pickups, or added Bigsby lowers the number. Condition and originality matter more than anything else, so the only way to know is to have it appraised.
 
 **What is the difference between DeArmond and Filter'Tron pickups?**
 

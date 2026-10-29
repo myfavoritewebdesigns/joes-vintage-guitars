@@ -17,8 +17,8 @@ The assumption is all-original, excellent condition, with the original case and 
 | 1947 | Early postwar maple | $18,000 to $23,000 |
 | 1948 | Early postwar maple | $18,000 to $23,000 |
 | 1949 | Early postwar maple | $18,000 to $23,000 |
-| 1950 | Early postwar maple | $18,000 to $23,000 |
-| 1951 | Early postwar maple | $18,000 to $23,000 |
+| 1950 | Early postwar maple | $13,050 to $17,400 |
+| 1951 | Early postwar maple | $13,500 to $18,000 |
 | 1952 | Standard natural or sunburst | $15,000 to $20,000 |
 | 1953 | Standard natural or sunburst | $15,000 to $20,000 |
 | 1954 | Standard natural or sunburst | $15,000 to $20,000 |
@@ -78,7 +78,7 @@ Replacement tuners, bridge work, pickup installations and high action can also a
 
 The earlier SJ-200 name and the later J-200 name can appear within the postwar family. The actual model and construction determine the comparison. The guitar's construction, date and originality need to support the comparison.
 
-The 1947 to 1951 postwar maple group sits at $18,000 to $23,000, followed by $15,000 to $20,000 for 1952 to 1959. Both assume excellent, original condition with the original case.
+The 1947 to 1951 postwar maple group sits at $13,050 to $23,000, followed by $15,000 to $20,000 for 1952 to 1959. Both assume excellent, original condition with the original case.
 
 An early guitar with an original-looking exterior can still have bridge-plate changes, an old neck reset or repaired cracks. Those details affect its collector category even when they don't stand out in a full-front photograph. I want the repair description before assuming it belongs in the clean reference.
 

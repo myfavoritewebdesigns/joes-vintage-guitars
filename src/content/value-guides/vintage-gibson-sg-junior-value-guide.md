@@ -1,4 +1,4 @@
-Vintage Gibson SG Junior guide values run from $2,500 to $4,000 for later large-guard guitars to $5,500 to $8,000 for early small-guard examples, as of October 2026. These are cherry guitars with their original P-90 and finish, with the wear and maintenance noted below.
+Vintage Gibson SG Junior guide values run from $2,500 to $4,500 for later large-guard guitars to $3,750 to $8,000 for early small-guard examples, as of October 2026. These are cherry guitars with their original P-90 and finish, with the wear and maintenance noted below.
 
 For the year and original specification, use my [Gibson SG Junior dating and identification guide](/gibson-sg-dating-guide/#sg-junior). This guide covers market value and the features that move it.
 
@@ -11,12 +11,12 @@ For the year and original specification, use my [Gibson SG Junior dating and ide
 | 1961 | $5,500 to $8,000 | Small guard, dog-ear P-90 and wraparound bridge. | Not listed |
 | 1962 | $5,500 to $8,000 | Small guard, dog-ear P-90 and wraparound bridge. Lightning-bar bridge appears around this year. | 2,395 |
 | 1963 | $5,500 to $8,000 | Small guard and dog-ear P-90; lightning-bar bridge. | 2,318 |
-| 1964 | $5,500 to $8,000 | Small guard and dog-ear P-90; lightning-bar bridge. | 3,364 |
-| 1965 | $5,500 to $8,000 | Small guard and dog-ear P-90; lightning-bar bridge. | 3,570 |
-| 1966 | $2,500 to $4,000 | Small to large guard transition; match actual version. | 1,928 |
-| 1967 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | 1,021 |
-| 1968 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | 561 |
-| 1969 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | 751 |
+| 1964 | $5,100 to $6,600 | Small guard and dog-ear P-90; lightning-bar bridge. | 3,364 |
+| 1965 | $3,750 to $5,000 | Small guard and dog-ear P-90; lightning-bar bridge. | 3,570 |
+| 1966 | $3,300 to $4,350 | Small to large guard transition; match actual version. | 1,928 |
+| 1967 | $3,250 to $4,300 | Large guard and soapbar P-90; factory vibrato reference. | 1,021 |
+| 1968 | $3,350 to $4,400 | Large guard and soapbar P-90; factory vibrato reference. | 561 |
+| 1969 | $3,400 to $4,500 | Large guard and soapbar P-90; factory vibrato reference. | 751 |
 | 1970 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | 938 |
 | 1971 | $2,500 to $4,000 | Large guard and soapbar P-90; factory vibrato reference. | Not listed |
 | 1972 | Outside Original Run | Outside this original Junior run. | Not listed |
@@ -42,7 +42,7 @@ Small and large guards overlap during 1966; match the actual pickup mounting and
 
 The early Junior is a direct package: one bridge-position P-90, one volume, one tone and a wraparound bridge. Its mahogany body and neck have the pointed SG outline, with a small guard and an unbound rosewood fingerboard. An original pickup and finish carry much of the collector appeal because there are so few parts to begin with.
 
-The early $5,500 to $8,000 band allows quality refrets and disclosed maintenance while retaining the original cherry finish and P-90. It isn't a museum-quality ceiling. An unusually complete early example deserves a closer match than a worn player with changed parts.
+The early $3,750 to $8,000 band allows quality refrets and disclosed maintenance while retaining the original cherry finish and P-90. It isn't a museum-quality ceiling. An unusually complete early example deserves a closer match than a worn player with changed parts.
 
 ### Dog-Ear Pickup And Wraparound Bridge
 
@@ -62,7 +62,7 @@ Some Juniors have a factory short vibrato behind the bridge. A guitar with that 
 
 The guard and pickup mounting change during 1966. The later large-guard Junior carries a soapbar-style P-90 mounted through the guard, rather than the earlier dog-ear arrangement. It still has one pickup and two controls.
 
-The $2,500 to $4,000 later band covers original cherry large-guard guitars with factory vibratos. A small-guard 1966 needs the earlier configuration considered. A Special with a pickup removed also doesn't become a Junior; the factory model remains part of what is being valued.
+The $2,500 to $4,500 later band covers original cherry large-guard guitars with factory vibratos. A small-guard 1966 needs the earlier configuration considered. A Special with a pickup removed also doesn't become a Junior; the factory model remains part of what is being valued.
 
 <figure>
 

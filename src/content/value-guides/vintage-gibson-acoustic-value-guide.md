@@ -12,10 +12,10 @@ Match the model and era, then read its condition requirements. The Hummingbird f
 | J-45 | 1970 to 1979: Square-shoulder J-45 and Deluxe | $2,500 to $3,000 |
 | J-200 | 1952 to 1959: Standard natural or sunburst | $15,000 to $20,000 |
 | J-200 | 1970 to 1979: J-200 and Artist period | $4,500 to $6,000 |
-| LG-0 | 1958 to 1974: LG-0 | $1,000 to $2,000 |
+| LG-0 | 1958 to 1974: LG-0 | $750 to $1,650 |
 | LG-1 | Postwar to 1968: LG-1 | $2,000 to $4,500 |
-| LG-2 | 1950 to 1962: LG-2 | $3,500 to $6,000 |
-| LG-3 | 1950s to early 1960s: LG-3 | $3,500 to $8,000 |
+| LG-2 | 1950 to 1962: LG-2 | $2,700 to $5,350 |
+| LG-3 | 1950s to early 1960s: LG-3 | $3,600 to $4,450 |
 | Hummingbird | 1960 to 1962 | $7,500 to $11,000 asking |
 
 I identify the model, year and condition before choosing a range. The individual guides explain which configurations and repairs each table covers.
