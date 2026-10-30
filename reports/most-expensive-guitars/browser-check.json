@@ -1,0 +1,142 @@
+{
+  "sorts": [
+    {
+      "key": "price",
+      "order": "ascending",
+      "pass": true
+    },
+    {
+      "key": "price",
+      "order": "descending",
+      "pass": true
+    },
+    {
+      "key": "adjusted",
+      "order": "descending",
+      "pass": true
+    },
+    {
+      "key": "adjusted",
+      "order": "ascending",
+      "pass": true
+    },
+    {
+      "key": "sold",
+      "order": "descending",
+      "pass": true
+    },
+    {
+      "key": "sold",
+      "order": "ascending",
+      "pass": true
+    },
+    {
+      "key": "estimate",
+      "order": "descending",
+      "pass": true
+    },
+    {
+      "key": "estimate",
+      "order": "ascending",
+      "pass": true
+    }
+  ],
+  "filters": [
+    {
+      "group": "type",
+      "value": "all",
+      "visible": 19,
+      "valid": true,
+      "count": "Showing 19 of 19 guitars",
+      "pass": true
+    },
+    {
+      "group": "type",
+      "value": "electric",
+      "visible": 14,
+      "valid": true,
+      "count": "Showing 14 of 19 guitars",
+      "pass": true
+    },
+    {
+      "group": "type",
+      "value": "acoustic",
+      "visible": 5,
+      "valid": true,
+      "count": "Showing 5 of 19 guitars",
+      "pass": true
+    },
+    {
+      "group": "type",
+      "value": "bass",
+      "visible": 0,
+      "valid": true,
+      "count": "Showing 0 of 19 guitars",
+      "pass": true
+    },
+    {
+      "group": "brand",
+      "value": "all",
+      "visible": 19,
+      "valid": true,
+      "count": "Showing 19 of 19 guitars",
+      "pass": true
+    },
+    {
+      "group": "brand",
+      "value": "fender",
+      "visible": 6,
+      "valid": true,
+      "count": "Showing 6 of 19 guitars",
+      "pass": true
+    },
+    {
+      "group": "brand",
+      "value": "gibson",
+      "visible": 4,
+      "valid": true,
+      "count": "Showing 4 of 19 guitars",
+      "pass": true
+    },
+    {
+      "group": "brand",
+      "value": "martin",
+      "visible": 3,
+      "valid": true,
+      "count": "Showing 3 of 19 guitars",
+      "pass": true
+    },
+    {
+      "group": "brand",
+      "value": "gretsch",
+      "visible": 1,
+      "valid": true,
+      "count": "Showing 1 of 19 guitars",
+      "pass": true
+    },
+    {
+      "group": "brand",
+      "value": "rickenbacker",
+      "visible": 1,
+      "valid": true,
+      "count": "Showing 1 of 19 guitars",
+      "pass": true
+    },
+    {
+      "group": "brand",
+      "value": "other",
+      "visible": 4,
+      "valid": true,
+      "count": "Showing 4 of 19 guitars",
+      "pass": true
+    }
+  ],
+  "keyboard": true,
+  "jsOff": {
+    "rows": 19,
+    "cards": 7,
+    "faq": 6,
+    "filtersHidden": true
+  },
+  "errors": []
+}

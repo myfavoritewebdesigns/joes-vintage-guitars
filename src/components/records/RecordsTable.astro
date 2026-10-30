@@ -1,0 +1,56 @@
+---
+import { ranked, money, date, adjusted, saleTypeLabel, titleCase, cpi } from '../../data/auction-records';
+const sorts = [['price','Price'],['adjusted','2026 Dollars'],['sold','Sold'],['estimate','Vs. Estimate']];
+---
+<div class="mx-records" data-records>
+  <div class="mx-controls" hidden>
+    {[['Type',['All','Electric','Acoustic','Bass']],['Brand',['All','Fender','Gibson','Martin','Gretsch','Rickenbacker','Other']]].map(([label,values])=><fieldset><legend>{label}</legend><div>{(values as string[]).map(value=><button type="button" data-filter={String(label).toLowerCase()} data-value={value.toLowerCase()} aria-pressed={value==='All'?'true':'false'}>{value}</button>)}</div></fieldset>)}
+  </div>
+  <p class="mx-count" aria-live="polite" aria-atomic="true">Showing {ranked.length} of {ranked.length} guitars</p>
+  <p class="mx-scroll-hint">Scroll across for dates, auction houses and estimates. Price ranks stay fixed when you sort.</p>
+  <div class="mx-scroll" tabindex="0" role="region" aria-label="Million Dollar Guitar Auction Results">
+    <table class="mx-record-table"><caption>Verified Public Guitar Auctions, Including Buyer's Premium</caption>
+      <thead><tr><th scope="col">Guitar</th><th scope="col">Rank By Price</th><th scope="col">Played By</th><th scope="col">Type</th>{sorts.slice(0,3).map(([key,label])=><th scope="col" aria-sort={key==='price'?'descending':'none'}><button type="button" data-sort={key}>{label}<span class="mx-sort-icon" aria-hidden="true"></span></button></th>)}<th scope="col">Auction House</th><th scope="col">Estimate</th><th scope="col" aria-sort="none"><button type="button" data-sort="estimate">Vs. Estimate<span class="mx-sort-icon" aria-hidden="true"></span></button></th><th scope="col">Sale Type</th></tr></thead>
+      <tbody>{ranked.map((r,i)=><tr data-price={r.priceUsd} data-adjusted={adjusted(r)} data-sold={Date.parse(r.saleDate)} data-estimate={r.estimateUsd?r.priceUsd/r.estimateUsd.high:''} data-type={r.type} data-brand={r.brand.toLowerCase()}>
+        <th scope="row">{r.guitar}{r.nickname&&<small>{r.nickname}</small>}</th><td>{i+1}</td><td>{r.player}</td><td>{titleCase(r.type)}</td><td class="mx-price">{money(r.priceUsd)}{r.priceOriginal&&<small>£{r.priceOriginal.amount.toLocaleString('en-US')} GBP</small>}</td><td>{money(adjusted(r))}</td><td><time datetime={r.saleDate}>{date(r.saleDate)}</time></td><td>{r.house}<small>{r.saleName}</small></td><td>{r.estimateUsd?`${money(r.estimateUsd.low)} to ${money(r.estimateUsd.high)}`:'Not Published'}</td><td>{r.estimateUsd?`${(r.priceUsd/r.estimateUsd.high).toFixed(1)}x`:''}</td><td>{saleTypeLabel(r.saleType)}{r.saleNote&&<small>{r.saleNote}</small>}</td>
+      </tr>)}</tbody>
+    </table>
+  </div>
+  <p class="mx-method">Prices include buyer's premium and use US dollars at the time of sale. Original pound results appear beside the converted prices. Bonhams supplies Gallagher's dollar equivalent; Beck's guitars use the Federal Reserve's sale-date rate. Estimates exclude premium, so the estimate ratio compares different fee bases. Missing verified estimates read Not Published.</p>
+  <p class="mx-method">2026 Dollars uses BLS CPI-U, all items, US city average ({cpi.series}), through September 2026. Earlier results are multiplied by the latest index divided by the sale-month index and rounded to the nearest thousand. The unavailable October 2025 index uses the published annual average. Sales during 2026 retain their nominal price. Private sales and unverified candidates are excluded; a repeat sale occupies one row, using its latest verified result.</p>
+</div>
+<script is:inline>
+(() => {
+  const init = () => document.querySelectorAll('[data-records]').forEach(root => {
+    if (root.dataset.ready) return;
+    root.dataset.ready = 'true';
+    const tbody = root.querySelector('tbody');
+    const rows = Array.from(tbody.rows);
+    const filters = {type:'all',brand:'all'};
+    let sortKey = 'price', direction = -1;
+    root.querySelector('.mx-controls').hidden = false;
+    root.querySelectorAll('[data-sort]').forEach(button => button.addEventListener('click', () => {
+      const key = button.dataset.sort;
+      direction = sortKey === key ? -direction : -1;
+      sortKey = key;
+      rows.sort((a,b) => {
+        const av=a.dataset[key], bv=b.dataset[key];
+        if(av==='') return bv===''?0:1;
+        if(bv==='') return -1;
+        return direction*(Number(av)-Number(bv)) || Number(b.dataset.price)-Number(a.dataset.price);
+      }).forEach(row=>tbody.append(row));
+      root.querySelectorAll('[aria-sort]').forEach(th=>th.setAttribute('aria-sort','none'));
+      button.closest('th').setAttribute('aria-sort',direction===1?'ascending':'descending');
+    }));
+    root.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
+      const group=button.dataset.filter;
+      filters[group]=button.dataset.value;
+      root.querySelectorAll(`[data-filter="${group}"]`).forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+      let count=0;
+      rows.forEach(row=>{row.hidden=!Object.entries(filters).every(([key,value])=>value==='all'||row.dataset[key]===value); if(!row.hidden)count++;});
+      root.querySelector('.mx-count').textContent=`Showing ${count} of ${rows.length} guitars`;
+    }));
+  });
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+})();
+</script>

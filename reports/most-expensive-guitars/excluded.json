@@ -1,0 +1,93 @@
+[
+  {
+    "id": "reach-out-to-asia",
+    "reportedPrice": 2700000,
+    "reason": "No retrievable house result or two independent major-outlet reports establishing premium-inclusive guitar price separately from charity fundraising total.",
+    "lead": "https://www.qatarairways.com/en-nl/press-releases/2005/Nov/aboutus_news_17nov05.html"
+  },
+  {
+    "id": "wolf",
+    "reportedPrice": 1900000,
+    "reason": "House page documents event, not final exact result. Reports differ between rounded $1.9m and $1.932m. No qualifying pair establishing exact premium-inclusive total was obtained.",
+    "leads": [
+      "https://www.guernseys.com/v2/wolf.html",
+      "https://www.cbsnews.com/news/grateful-deads-jerry-garcias-wolf-guitar-auctioned-whopping-sum/"
+    ]
+  },
+  {
+    "id": "allman-goldtop",
+    "reportedPrice": 1250000,
+    "reason": "Gotta Have Rock and Roll primary lot returned 403. No two independent major-outlet results satisfying the brief were obtained. No access challenge bypassed.",
+    "lead": "https://www.gottahaverockandroll.com/Duane_Allman_s_Owned_and_Extensively_Played_1957_G-LOT27848.aspx"
+  },
+  {
+    "id": "elvis-1942-d18",
+    "reportedPrice": 1320000,
+    "reason": "No retrievable house result or qualifying two-outlet fallback obtained. Excluded rather than using listicle as evidence."
+  },
+  {
+    "id": "dylan-newport-strat",
+    "reportedPrice": 965000,
+    "reason": "Below nominal million-dollar cutoff and outside top five electric results. Its mapped JVG year guide is linked; not promoted into main table using inflation."
+  },
+  {
+    "id": "blackie",
+    "priceUsd": 959500,
+    "reason": "Below nominal cutoff and outside top five electrics; no ordinary comparison for assembled instrument.",
+    "source": "https://www.christies.com/presscenter/pdf/06252004/guitars_062404.pdf"
+  },
+  {
+    "id": "tiger-2002-prior",
+    "reportedPrice": 957500,
+    "reason": "Christie’s confirms prior Guernsey’s date and lot identity, but no exact primary price or qualifying independent pair was obtained. Current 2026 result is included; this earlier transaction is omitted from resale calculations.",
+    "leads": [
+      "https://www.christies.com/en/lot/lot-6573406",
+      "https://www.sfgate.com/news/article/garcia-s-guitars-fetch-record-wolf-tiger-2839686.php"
+    ]
+  },
+  {
+    "id": "mustang-2022-prior",
+    "reportedPrice": 4550000,
+    "reason": "Current 2026 result included. Older house articles round result to $4.5m; exact $4.55m appears in secondary coverage. Exact prior result omitted pending primary or qualifying two-outlet verification."
+  },
+  {
+    "id": "harrison-sg-prior",
+    "reason": "Earlier public sale investigated but no qualifying exact-price source obtained."
+  },
+  {
+    "id": "prewar-d45-ordinary",
+    "reason": "Joe’s D-45 page supplies no prewar valuation row. No amount invented."
+  },
+  {
+    "id": "gretsch-1963-ordinary",
+    "reason": "Joe’s $3,850 to $5,950 text is under 1962. No explicit scope extending it to 1963; no numeric card."
+  },
+  {
+    "id": "d18e-ordinary",
+    "reason": "No JVG D-18E figure; authentication guide linked."
+  },
+  {
+    "id": "00042-ordinary",
+    "reason": "No matching prewar 000-42 figure; prewar and small-body guides linked."
+  },
+  {
+    "id": "j160e-ordinary",
+    "reason": "No JVG J-160E row; Gibson acoustic guide linked."
+  },
+  {
+    "id": "ace-frehley",
+    "reportedPrice": 512000,
+    "reason": "Reported completed May 2026 result below threshold. Mentioned as attributed report, not upcoming."
+  },
+  {
+    "id": "bill-wyman-bass",
+    "reportedPrice": 384000,
+    "reason": "Artist site corroborates result; house result or two-outlet fallback not obtained. Bass list labeled as verified subset, not exhaustive top five."
+  },
+  {
+    "id": "lonnie-mack-flying-v",
+    "reportedPrice": 550000,
+    "reason": "Below cutoff and sold with amplifier; not a standalone million-dollar guitar.",
+    "source": "https://entertainment.ha.com/heritage-auctions-press-releases-and-news.s?releaseId=5559"
+  }
+]

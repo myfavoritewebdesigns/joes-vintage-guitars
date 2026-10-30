@@ -87,7 +87,7 @@ function relatedTokens(p: Post): Set<string> {
  * 3 newest posts in the largest category on nearly every page.
  */
 export function getRelated(posts: Post[], current: Post, n = 3): Post[] {
-  const others = posts.filter((p) => p.id !== current.id);
+  const others = posts.filter((p) => p.id !== current.id && p.id !== "most-expensive-guitars-ever-sold");
   // This comparison needs acoustic Gibson context, not generic Gibson matches.
   if (current.id === "identify-vintage-gibson-j45-j50-sj") {
     const acousticIds = [
