@@ -2251,14 +2251,14 @@
     {
       "path": "vintage-fender-stratocaster-value-guide/index.html",
       "sha256": "34f2e08e8ed5211f54c27617f90b9ca5f80c44abe85fcd1baed011a2c373cfb1",
-      "afterSha256": "34f2e08e8ed5211f54c27617f90b9ca5f80c44abe85fcd1baed011a2c373cfb1",
-      "identical": true
+      "afterSha256": "c179c67de4ebfaa1e8308b7fd0a5d2f169ca08c4cadf597c0c5887f8d5b66746",
+      "identical": false
     },
     {
       "path": "vintage-fender-telecaster-value-guide/index.html",
       "sha256": "0aac86e8b4888603415a3a25e96253d66c756ef516ab060d3c6680b776f88a5c",
-      "afterSha256": "0aac86e8b4888603415a3a25e96253d66c756ef516ab060d3c6680b776f88a5c",
-      "identical": true
+      "afterSha256": "c52a37462ae6efbf396ec91a0c92d18124e8b5cb8db1af519f6a7eac7a7058b3",
+      "identical": false
     },
     {
       "path": "vintage-fender-value-guide/index.html",
@@ -2789,5 +2789,6 @@
       "identical": true
     }
   ],
-  "brokenInternalLinks": []
+  "brokenInternalLinks": [],
+  "protectedBaselineNote": "The original 505d4dc comparison is retained. Two Fender value pages now differ because approved main commit 4caefc7 changed consignment copy. The Epiphone PR does not modify those files relative to current main. See current-main-protected-check.json for the integrated-production comparison."
 }
