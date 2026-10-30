@@ -347,6 +347,8 @@ The eras really do sound different. An early sixties one with light bracing and 
 
 <h2 id="versus">Hummingbird Vs J-45 Vs Dove</h2>
 
+For the maple-bodied model in this comparison, my [Dove authentication guide](/gibson-dove-authentication-guide/) covers its bridge, woods and original features, while the [Dove value guide](/vintage-gibson-dove-value-guide/) provides its own era ranges. A natural Gibson with Southern Jumbo trim also needs a separate comparison; see the [Country Western authentication guide](/gibson-country-western-authentication-guide/).
+
 The three questions we get asked most, answered together.
 
 | | Hummingbird | J-45 | Dove |

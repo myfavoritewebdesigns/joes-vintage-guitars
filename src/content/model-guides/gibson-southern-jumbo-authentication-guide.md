@@ -84,6 +84,8 @@ Inspect the heel, binding, soundhole edge and bridge area for sanding, finish bu
 
 ## Factory Order Numbers And Interior Evidence
 
+If a natural finish raises an SJ-versus-SJN question, compare the label, body shape and finish evidence in the [Country Western authentication guide](/gibson-country-western-authentication-guide/). A refinish alone does not change the model.
+
 Photograph the neck block through the soundhole and any other factory marks before trying to decode them. Preserve faint letters, spaces and suffixes. A factory order number records production-batch evidence and must be interpreted differently from a later headstock serial. Some wartime guitars have no readable FON; that alone does not make them inauthentic.
 
 Use the [Gibson number guide](/how-to-read-gibson-serial-numbers/) alongside construction. If the proposed date disagrees with the logo, neck or body, investigate the disagreement. Do not force an exact year out of an indistinct mark.

@@ -4,6 +4,8 @@ If the model is uncertain, start with my [Gibson LG identification and construct
 
 ## Gibson LG Values By Model And Era
 
+If the guitar is an L-0 or L-00, use the [combined Gibson L-0 and L-00 value and identification guide](/vintage-gibson-l-0-l-00-value-guide/). The similar names do not put those earlier models into the LG price table.
+
 Match the model and era first. The natural-finish LG-3 is the premium X-braced sibling of the sunburst LG-2, while the ladder-braced LG-1 and mahogany LG-0 have separate markets.
 
 Each range assumes an all-original guitar in excellent condition, structurally sound and accompanied by its original case. A quality refret is accepted maintenance, although it removes museum-quality status. Refinished, repaired or substantially altered instruments need a separate comparison.
