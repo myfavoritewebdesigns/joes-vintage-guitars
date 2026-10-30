@@ -20,6 +20,8 @@ import martinModelHistories from "../../data/martin-model-history.json";
 import RickenbackerModelGuide from "../../components/RickenbackerModelGuide.astro";
 import { rickenbackerModels, rickenbackerGuideSlug } from "../../data/rickenbacker-models";
 import MartinD18Guide from "../../components/MartinD18Guide.astro";
+import ModelGuide from '../../components/model-guide/ModelGuide.astro';
+import { modelGuides } from '../../data/model-guides';
 import GibsonJ200Guide from "../../components/GibsonJ200Guide.astro";
 import GibsonES225Guide from "../../components/GibsonES225Guide.astro";
 import DennisHiattLesPaulStory from "../../components/DennisHiattLesPaulStory.astro";
@@ -51,13 +53,15 @@ export const getStaticPaths = (async () => {
   const customPostRoutes = new Set(["gibson-es-335-345-355-guide", "is-your-vintage-guitar-valuable-7-factors-that-determine-its-value"]);
   return posts.filter((entry) => !customPostRoutes.has(entry.id)).map((entry) => ({
     params: { slug: entry.id },
-    props: { entry, related: getRelated(posts, entry, 3) },
+    props: { entry, related: getRelated(modelGuides.some(guide => guide.slug === entry.id) ? posts : posts.filter(post => !modelGuides.some(guide => guide.slug === post.id)), entry, 3) },
   }));
 }) satisfies GetStaticPaths;
 
 const { entry, related } = Astro.props;
 const { Content } = await render(entry);
 const { data } = entry;
+const modelGuide = modelGuides.find(guide => guide.slug === entry.id);
+const modelGuideFaqSchema = modelGuide ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: modelGuide.faqs.map(faq => ({ '@type': 'Question', name: faq.q, acceptedAnswer: { '@type': 'Answer', text: faq.a } })) } : null;
 const martinValueGuide = martinValueGuides.find(guide => guide.slug === entry.id);
 const martinModelHistory = martinModelHistories.find(guide => guide.slug === entry.id);
 const rickenbackerModel = rickenbackerModels.find(model => ['authentication','value'].some(kind => rickenbackerGuideSlug(model,kind as 'authentication'|'value') === entry.id));
@@ -188,7 +192,7 @@ const guideBrands: Record<string, "Fender" | "Gibson" | "Gretsch" | "Guild" | "R
 const guideBrand = guideBrands[entry.id];
 const hasGuideHero = presentationPaths.includes('/post/' + entry.id + '/') && Boolean(guideBrand);
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
-const heroRenderWidth = heroMeta ? Math.min(1200, heroMeta.width) : 1200;
+const heroRenderWidth = heroMeta ? Math.min(modelGuide ? 1800 : 1200, heroMeta.width) : 1200;
 const captionedHero = heroMeta && data.heroImageCaption
   ? await getImage({ src: heroMeta, layout: "constrained", width: heroRenderWidth })
   : null;
@@ -560,7 +564,7 @@ const articleSchema = {
 ---
 
 <Layout
-  bodyClass={isVintageSellingGuide ? "blog-post-page vintage-selling-guide-page" : isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
+  bodyClass={modelGuide ? "blog-post-page mg-page" : isVintageSellingGuide ? "blog-post-page vintage-selling-guide-page" : isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
   title={pageTitle}
   noIndex={data.draft}
   description={data.metaDescription || data.excerpt}
@@ -572,7 +576,7 @@ const articleSchema = {
   ogType="article"
   publishedTime={data.pubDate.toISOString()}
   modifiedTime={data.modified.toISOString()}
-  structuredData={isGibsonJ200Guide
+  structuredData={modelGuide ? [breadcrumbSchema, articleSchema, modelGuideFaqSchema!] : isGibsonJ200Guide
     ? [breadcrumbSchema, articleSchema, j200FaqSchema]
     : isCustomMartinGuide
     ? [breadcrumbSchema, articleSchema, martinFaqSchema]
@@ -593,7 +597,9 @@ const articleSchema = {
 
   {hasGuideHero && !isGibsonSGFamilyGuide && !isGibsonJ200Guide && <GuideHero title={data.title} image={heroMeta || comparisonHero} alt={data.heroImageAlt || 'Sunburst Gibson ES-335 in a pink-lined case'} brand={guideBrand!} byline={'By ' + data.author + ' · ' + formatDate(data.pubDate)} />}
 
-  {isVintageSellingGuide ? (
+  {modelGuide ? (
+    <ModelGuide guide={modelGuide} />
+  ) : isVintageSellingGuide ? (
     <VintageSellingGuide />
   ) : martinValueGuide ? (
     <MartinValueGuide guide={martinValueGuide} />
@@ -772,7 +778,7 @@ const articleSchema = {
     </div>
   </article>
 
-  {displayedRelated.length > 0 && (
+  {!modelGuide && displayedRelated.length > 0 && (
     <section class="bpost-related" aria-label="Related posts">
       <div class="bpost__inner">
         <h2 class="bpost-related__h2">Keep Reading</h2>
@@ -787,7 +793,7 @@ const articleSchema = {
 
   {datingBrand && <BrandDatingGuides brand={datingBrand} featuredGuide={featuredDatingGuide} />}
 
-  {!isAlexandriaStratocasterStory && !isJoshuaTelecasterStory && !isLesPaulFamilyGuide && !isGibsonSGFamilyGuide && <ContactSection />}
+  {!modelGuide && !isAlexandriaStratocasterStory && !isJoshuaTelecasterStory && !isLesPaulFamilyGuide && !isGibsonSGFamilyGuide && <ContactSection />}
 
   <!-- Floating TOC behavior: hide the sidebar over the contact form, and power
        the mobile "Sections" button by cloning the sidebar links into the sheet.

@@ -1,10 +1,10 @@
 ---
-interface Props { brand: 'Fender' | 'Gibson' | 'Gretsch' | 'Guild' | 'Rickenbacker'; }
-const { brand } = Astro.props;
+interface Props { brand: 'Fender' | 'Gibson' | 'Gretsch' | 'Guild' | 'Rickenbacker' | 'National' | 'Epiphone'; label?: string; href?: string; }
+const { brand, label, href } = Astro.props;
 ---
 <div class="jvg-guide-actions" aria-label="Appraisal And Selling">
   <a href="/free-appraisal/">Free Appraisal</a>
-  <a href={`/sell-my-${brand.toLowerCase()}-guitar/`}>Sell My {brand}</a>
+  <a href={href ?? `/sell-my-${brand.toLowerCase()}-guitar/`}>{label ?? `Sell My ${brand}`}</a>
 </div>
 <style>
   .jvg-guide-actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0;font-family:var(--font-display),sans-serif}

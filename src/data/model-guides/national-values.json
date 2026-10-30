@@ -1,0 +1,234 @@
+[
+  {
+    "family": "national-resonator-guitar",
+    "model": "Duolian",
+    "years": "1930 to 1934",
+    "configuration": "Round neck",
+    "low": 3100,
+    "high": 4000
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style O",
+    "years": "1930 to 1934",
+    "configuration": "Round neck, 12 fret, common etching",
+    "low": 3100,
+    "high": 4000
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style O",
+    "years": "1930 to 1934",
+    "configuration": "Round neck, 12 fret, rare etching",
+    "low": 3850,
+    "high": 6800
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style O",
+    "years": "1933 to 1934",
+    "configuration": "Square neck, common etching",
+    "low": 1300,
+    "high": 1700
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style O",
+    "years": "1933 to 1934",
+    "configuration": "Square neck, rare etching",
+    "low": 2650,
+    "high": 3300
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style O",
+    "years": "1935 to 1942",
+    "configuration": "Round neck, 14 fret, flat cutoffs",
+    "low": 6150,
+    "high": 7900
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style O",
+    "years": "1935 to 1942",
+    "configuration": "Round neck, 14 fret, common etching",
+    "low": 2650,
+    "high": 3350
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style O",
+    "years": "1935 to 1942",
+    "configuration": "Round neck, 14 fret, rare etching",
+    "low": 3900,
+    "high": 6550
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style O Tenor",
+    "years": "1929 to 1930",
+    "configuration": "Four string",
+    "low": 850,
+    "high": 1100
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 1 Tricone",
+    "years": "1927 to 1943",
+    "configuration": "Round neck",
+    "low": 4750,
+    "high": 6450
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 1 Tricone",
+    "years": "1928 to 1943",
+    "configuration": "Square neck",
+    "low": 3400,
+    "high": 4250
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 1 Tricone Plectrum",
+    "years": "1928 to 1935",
+    "configuration": "Four string, 26 inch scale",
+    "low": 1800,
+    "high": 2250
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 1 Tricone Tenor",
+    "years": "1928 to 1935",
+    "configuration": "Four string, 23 inch scale",
+    "low": 1700,
+    "high": 2150
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 1.5 Tricone",
+    "years": "1930s",
+    "configuration": "Round neck",
+    "low": 8000,
+    "high": 10250
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 1.5 Tricone",
+    "years": "1930s",
+    "configuration": "Square neck",
+    "low": 2650,
+    "high": 3500
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 2 Tricone",
+    "years": "1927 to 1942",
+    "configuration": "Round neck",
+    "low": 10000,
+    "high": 12600
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 2 Tricone",
+    "years": "1927 to 1942",
+    "configuration": "Square neck",
+    "low": 3000,
+    "high": 3850
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 2 Tricone Plectrum",
+    "years": "1928 to 1935",
+    "configuration": "Four string",
+    "low": 1300,
+    "high": 1700
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 2 Tricone Tenor",
+    "years": "1928 to 1935",
+    "configuration": "Four string",
+    "low": 1500,
+    "high": 1950
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 2.5 Tricone",
+    "years": "1927 to 1928",
+    "configuration": "Engraved fingerboard and coverplate",
+    "low": 7500,
+    "high": 10100
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 3 Tricone",
+    "years": "1928 to 1939",
+    "configuration": "Round neck",
+    "low": 12200,
+    "high": 15650
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 3 Tricone",
+    "years": "1928 to 1941",
+    "configuration": "Square neck",
+    "low": 4250,
+    "high": 5550
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 3 Tricone Plectrum",
+    "years": "1928 to 1935",
+    "configuration": "Four string",
+    "low": 2550,
+    "high": 3400
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 3 Tricone Tenor",
+    "years": "1928 to 1939",
+    "configuration": "Four string",
+    "low": 2400,
+    "high": 3100
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 4 Tricone",
+    "years": "1928 to 1940",
+    "configuration": "Round neck",
+    "low": 16000,
+    "high": 20050
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Style 4 Tricone",
+    "years": "1928 to 1940",
+    "configuration": "Square neck",
+    "low": 4250,
+    "high": 5950
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Triolian",
+    "years": "1928 to 1936",
+    "configuration": "Various colors, metal body",
+    "low": 2650,
+    "high": 3350
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Triolian",
+    "years": "1936 to 1937",
+    "configuration": "Faux rosewood grain, metal body",
+    "low": 2400,
+    "high": 3050
+  },
+  {
+    "family": "national-resonator-guitar",
+    "model": "Triolian Tenor",
+    "years": "1928 to 1936",
+    "configuration": "Four string, metal body",
+    "low": 950,
+    "high": 1300
+  }
+]

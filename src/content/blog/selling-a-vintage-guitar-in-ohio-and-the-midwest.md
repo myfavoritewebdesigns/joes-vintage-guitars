@@ -72,7 +72,7 @@ Cardinal buys the same instruments we are always looking for at Joe's. In broad 
 -   **[Vintage Martin](/sell-my-martin-guitar/):** the 000, OM, D-18, D-28, D-45, and the small body prewar flattops.
 -   **Other desirable makes:** Gretsch, Rickenbacker, Epiphone, National, Guild, and quality vintage amplifiers.
 
-For a National resonator, include clear photos of the body, coverplate and headstock, plus any repair history. You can also read about [selling a vintage National guitar to Joe](/sell-my-national-guitar/) if you prefer the nationwide buying option.
+For a [National resonator](/post/national-resonator-guitar-authentication-guide/), include clear photos of the body, coverplate and headstock, plus any [repair history](/post/national-resonator-guitar-value-guide/). You can also read about [selling a vintage National guitar to Joe](/sell-my-national-guitar/) if you prefer the nationwide buying option.
 
 As a general rule the older and more original, the more interesting it is to us, but we buy well beyond the 1950s. Clean 1960s and 1970s instruments, and desirable later pieces, are all fair game. If you are not sure whether what you have is collectible, that is exactly the kind of question Cardinal is happy to answer.
 
@@ -86,6 +86,8 @@ The process mirrors how Joe's has always operated, just closer to home:
 4.  **Get paid promptly.** No long waiting period. Once the deal is set, payment follows quickly.
 
 If you would rather ship, you still can. The in person option is a convenience for sellers who want it, not a requirement.
+
+For a Guild Starfire, check the [model and pickup configuration](/post/guild-starfire-authentication-guide/) before comparing its condition with the [Starfire value chart](/post/guild-starfire-value-guide/).
 
 <h2 id="know-your-value">Know What Your Guitar Is Worth First</h2>
 

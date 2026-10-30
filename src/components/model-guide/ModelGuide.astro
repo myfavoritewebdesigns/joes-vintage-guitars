@@ -1,0 +1,46 @@
+---
+import GuideActions from '../GuideActions.astro';
+import FAQ from '../FAQ.astro';
+import LicensedImage from '../primitives/LicensedImage.astro';
+import joePortrait from '../../assets/images/fender-sn/about-me-joe-1.jpg';
+import GuideBlock from './GuideBlock.astro';
+import Photo from './Photo.astro';
+import type { ModelGuideData } from './types';
+import stylesheet from './model-guide.css?url';
+interface Props { guide: ModelGuideData }
+const { guide } = Astro.props;
+const category = guide.kind === 'value' ? ['value-evaluation', 'Value & Evaluation'] : ['specific-model-highlights', 'Specific Model Highlights'];
+let sectionNumber = 0;
+const assessmentNote = guide.kind === 'value'
+  ? 'This Is An Estimate Of Market Value, Not An Offer To Buy And Not A Guarantee. Market Values Fluctuate; Have Your Specific Item Appraised.'
+  : 'Authenticity And Originality Are Assessed From The Information Provided. A Hands-On Inspection Can Change The Conclusion.';
+---
+<link rel="stylesheet" href={stylesheet} />
+<article class="mg-guide" data-model-guide={guide.slug}>
+  <header class="mg-hero">
+    <div class="mg-wrap mg-hero-copy">
+      <nav class="mg-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog/">Blog</a><span>›</span><a href={`/category/${category[0]}/`}>{category[1]}</a></nav>
+      <p class="mg-eyebrow">{guide.eyebrow}</p>
+      <h1>{guide.title}</h1>
+      <GuideActions brand={guide.brand} label={guide.sellLabel} href={guide.sellHref} />
+      <p class="mg-dek">{guide.dek}</p>
+      <p class="mg-byline">By <a href="/about-me/">Joe Dampt</a> · {guide.date}</p>
+      <div class="mg-actions">{guide.secondaryActions.map(action => <a href={action.href}>{action.label}</a>)}</div>
+      <div class="mg-hero-grid"><Photo photo={guide.hero} eager width={1800} /><aside><b>{guide.glanceTitle}</b>{guide.glance.map(([label, value]) => <p><strong>{label}</strong>{value}</p>)}</aside></div>
+    </div>
+  </header>
+  <section class="mg-intro mg-wrap"><div class="mg-drop"><div set:html={guide.intro.html} /><p>{assessmentNote}</p></div><aside><b>{guide.intro.calloutTitle}</b><p>{guide.intro.callout}</p></aside></section>
+  <nav class="mg-toc mg-wrap" aria-label="On This Page"><strong>On This Page</strong><div>{guide.sections.filter(section => section.type === 'section').map(section => section.type === 'section' && <a href={`#${section.id}`}>{section.nav || section.title}</a>)}<a href="#faq">FAQ</a></div></nav>
+  {guide.sections.map(section => section.type === 'section' ? (
+    <section id={section.id} class:list={['mg-band', {'mg-dark': section.tone === 'dark', 'mg-archive': section.tone === 'archive'}]}>
+      <div class="mg-section mg-wrap"><header class="mg-head"><span>{String(++sectionNumber).padStart(2, '0')}</span><div><p>{section.eyebrow}</p><h2>{section.title}</h2></div></header>{section.blocks.map(block => <GuideBlock block={block} />)}</div>
+    </section>
+  ) : section.type === 'photo-band' ? (
+    <div class="mg-photo-band"><Photo photo={section.photos[0]} /><blockquote>{section.quote}{section.attribution && <cite>{section.attribution}</cite>}</blockquote><Photo photo={section.photos[1]} /></div>
+  ) : (
+    <section class="mg-stat"><div class="mg-wrap"><b>{section.figure}</b><h2>{section.title}</h2><div set:html={section.html} /><a href={section.source.href}>{section.source.label}</a></div></section>
+  ))}
+  <FAQ faqs={guide.faqs} mainTitle="Questions About" subTitle={guide.kind === 'value' ? `${guide.brand} Values` : `${guide.brand} Identification`} sectionId="faq" headingLevel="h2" />
+  <section class="mg-closing mg-wrap"><div><p class="mg-eyebrow">The Last Word</p><h2>{guide.kind === 'value' ? 'A Value For Your Guitar' : 'Keep The Evidence Together'}</h2><div set:html={guide.closing} /><p>{assessmentNote}</p></div></section>
+  <aside class="mg-author mg-wrap" aria-label="About The Author"><LicensedImage src={joePortrait} alt="Joe Dampt, owner of Joe's Vintage Guitars" width={140} /><div><p class="mg-eyebrow">About The Author</p><h2>Joe Dampt</h2><p>{guide.authorBio}</p><div><a href="/about-me/">Meet Joe</a><a href={guide.sellHref || `/sell-my-${guide.brand.toLowerCase()}-guitar/`}>{guide.sellLabel || `Sell My ${guide.brand}`}</a></div></div></aside>
+</article>

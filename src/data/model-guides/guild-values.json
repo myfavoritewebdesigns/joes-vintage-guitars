@@ -1,0 +1,218 @@
+[
+  {
+    "family": "guild-starfire",
+    "model": "Starfire I",
+    "years": "1960 to 1961",
+    "configuration": "One pickup",
+    "low": 1300,
+    "high": 1900
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire I",
+    "years": "1962 to 1964",
+    "configuration": "One pickup",
+    "low": 1300,
+    "high": 1900
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire II",
+    "years": "1960 to 1961",
+    "configuration": "Sunburst",
+    "low": 2150,
+    "high": 3200
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire II",
+    "years": "1962",
+    "configuration": "Emerald green",
+    "low": 2050,
+    "high": 3100
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire II",
+    "years": "1962 to 1966",
+    "configuration": "Special colors",
+    "low": 2250,
+    "high": 3450
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire II",
+    "years": "1962 to 1966",
+    "configuration": "Sunburst or Starfire red",
+    "low": 2050,
+    "high": 3050
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire II",
+    "years": "1967 to 1969",
+    "configuration": "Sunburst or Starfire red",
+    "low": 1950,
+    "high": 2900
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire II",
+    "years": "1970 to 1976",
+    "configuration": "Sunburst or Starfire red",
+    "low": 1700,
+    "high": 2600
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire II",
+    "years": "1997 to 2001",
+    "configuration": "Westerly reissue",
+    "low": 1200,
+    "high": 1800
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire III",
+    "years": "1960 to 1966",
+    "configuration": "Vibrato",
+    "low": 2650,
+    "high": 3950
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire III",
+    "years": "1967 to 1974",
+    "configuration": "Vibrato",
+    "low": 2500,
+    "high": 3750
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire IV",
+    "years": "1963 to 1966",
+    "configuration": "Double cutaway",
+    "low": 2650,
+    "high": 4000
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire IV",
+    "years": "1967 to 1975",
+    "configuration": "Double cutaway",
+    "low": 2450,
+    "high": 3700
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire IV",
+    "years": "1976 to 1987",
+    "configuration": "Double cutaway",
+    "low": 2150,
+    "high": 3250
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire V",
+    "years": "1963 to 1966",
+    "configuration": "Double cutaway, vibrato",
+    "low": 2650,
+    "high": 4000
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire V",
+    "years": "1967 to 1973",
+    "configuration": "Double cutaway, vibrato",
+    "low": 2450,
+    "high": 3650
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire V",
+    "years": "1997 to 2001",
+    "configuration": "Westerly reissue",
+    "low": 1300,
+    "high": 1900
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire VI",
+    "years": "1964 to 1966",
+    "configuration": "Deluxe appointments",
+    "low": 2600,
+    "high": 3850
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire VI",
+    "years": "1967 to 1975",
+    "configuration": "Deluxe appointments",
+    "low": 2400,
+    "high": 3600
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire VI",
+    "years": "1976 to 1979",
+    "configuration": "Deluxe appointments",
+    "low": 2200,
+    "high": 3350
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire XII",
+    "years": "1966 to 1969",
+    "configuration": "Twelve string",
+    "low": 1900,
+    "high": 2850
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire XII",
+    "years": "1970 to 1973",
+    "configuration": "Twelve string",
+    "low": 1950,
+    "high": 2950
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire Bass",
+    "years": "1965 to 1969",
+    "configuration": "One single-coil pickup",
+    "low": 1950,
+    "high": 2800
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire Bass",
+    "years": "1970 to 1975",
+    "configuration": "One humbucking pickup",
+    "low": 2000,
+    "high": 2900
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire II Bass",
+    "years": "1967 to 1969",
+    "configuration": "Two single-coil pickups",
+    "low": 2000,
+    "high": 2850
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire II Bass",
+    "years": "1967 to 1969",
+    "configuration": "Black finish",
+    "low": 2450,
+    "high": 3100
+  },
+  {
+    "family": "guild-starfire",
+    "model": "Starfire II Bass",
+    "years": "1970 to 1978",
+    "configuration": "Two humbucking pickups",
+    "low": 1950,
+    "high": 2800
+  }
+]
