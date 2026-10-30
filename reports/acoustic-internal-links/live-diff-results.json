@@ -1,0 +1,72 @@
+[
+  {
+    "route": "/blog/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/blog/\n[audit] Local: http://127.0.0.1:4330/blog/\n[audit] Slug:  acoustic-links-blog\n\n[audit] Liveness-checking 8 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-blog-audit-2026-10-30T16-50-01-731Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 3  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/how-to-read-gibson-serial-numbers/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/\n[audit] Local: http://127.0.0.1:4330/how-to-read-gibson-serial-numbers/\n[audit] Slug:  acoustic-links-how-to-read-gibson-serial-numbers\n\n[audit] Liveness-checking 20 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-how-to-read-gibson-serial-numbers-audit-2026-10-30T16-50-01-956Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 3  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/sell-my-gibson-guitar/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/\n[audit] Local: http://127.0.0.1:4330/sell-my-gibson-guitar/\n[audit] Slug:  acoustic-links-sell-my-gibson-guitar\n\n[audit] Liveness-checking 28 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-sell-my-gibson-guitar-audit-2026-10-30T16-50-02-051Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/what-guitar-do-i-have/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/what-guitar-do-i-have/\n[audit] Local: http://127.0.0.1:4330/what-guitar-do-i-have/\n[audit] Slug:  acoustic-links-what-guitar-do-i-have\n\n[audit] Liveness-checking 12 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-what-guitar-do-i-have-audit-2026-10-30T16-50-02-504Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/gibson-southern-jumbo-authentication-guide/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/gibson-southern-jumbo-authentication-guide/\n[audit] Local: http://127.0.0.1:4330/gibson-southern-jumbo-authentication-guide/\n[audit] Slug:  acoustic-links-gibson-southern-jumbo-authentication-guide\n\n[audit] Liveness-checking 10 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-gibson-southern-jumbo-authentication-guide-audit-2026-10-30T16-50-02-869Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/gibson-physical-features-hardware-guide/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/gibson-physical-features-hardware-guide/\n[audit] Local: http://127.0.0.1:4330/gibson-physical-features-hardware-guide/\n[audit] Slug:  acoustic-links-gibson-physical-features-hardware-guide\n\n[audit] Liveness-checking 26 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-gibson-physical-features-hardware-guide-audit-2026-10-30T16-50-02-944Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/identify-vintage-gibson-j45-j50-sj/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/identify-vintage-gibson-j45-j50-sj/\n[audit] Local: http://127.0.0.1:4330/post/identify-vintage-gibson-j45-j50-sj/\n[audit] Slug:  acoustic-links-post-identify-vintage-gibson-j45-j50-sj\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-post-identify-vintage-gibson-j45-j50-sj-audit-2026-10-30T16-50-03-300Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/vintage-gibson-value-guide/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/vintage-gibson-value-guide/\n[audit] Local: http://127.0.0.1:4330/vintage-gibson-value-guide/\n[audit] Slug:  acoustic-links-vintage-gibson-value-guide\n\n[audit] Liveness-checking 25 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-vintage-gibson-value-guide-audit-2026-10-30T16-50-04-212Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/gibson-headstock-logo-chronology/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/gibson-headstock-logo-chronology/\n[audit] Local: http://127.0.0.1:4330/gibson-headstock-logo-chronology/\n[audit] Slug:  acoustic-links-gibson-headstock-logo-chronology\n\n[audit] Liveness-checking 17 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-gibson-headstock-logo-chronology-audit-2026-10-30T16-50-04-214Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/vintage-gibson-hummingbird-history-value-guide/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/vintage-gibson-hummingbird-history-value-guide/\n[audit] Local: http://127.0.0.1:4330/post/vintage-gibson-hummingbird-history-value-guide/\n[audit] Slug:  acoustic-links-post-vintage-gibson-hummingbird-history-value\n\n[audit] Liveness-checking 28 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-post-vintage-gibson-hummingbird-history-value-audit-2026-10-30T16-50-04-213Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/vintage-gibson-j-45-value-guide/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/vintage-gibson-j-45-value-guide/\n[audit] Local: http://127.0.0.1:4330/vintage-gibson-j-45-value-guide/\n[audit] Slug:  acoustic-links-vintage-gibson-j-45-value-guide\n\n[audit] Liveness-checking 8 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-vintage-gibson-j-45-value-guide-audit-2026-10-30T16-50-05-061Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/gibson-tuner-dating-guide/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/gibson-tuner-dating-guide/\n[audit] Local: http://127.0.0.1:4330/gibson-tuner-dating-guide/\n[audit] Slug:  acoustic-links-gibson-tuner-dating-guide\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-gibson-tuner-dating-guide-audit-2026-10-30T16-50-05-124Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/joesvintageguitarsaz-com-identify-gibson-lg-series/\n[audit] Local: http://127.0.0.1:4330/post/joesvintageguitarsaz-com-identify-gibson-lg-series/\n[audit] Slug:  acoustic-links-post-joesvintageguitarsaz-com-identify-gibson\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-post-joesvintageguitarsaz-com-identify-gibson-audit-2026-10-30T16-50-05-125Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  },
+  {
+    "route": "/vintage-gibson-lg-series-value-guide/",
+    "passed": true,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/vintage-gibson-lg-series-value-guide/\n[audit] Local: http://127.0.0.1:4330/vintage-gibson-lg-series-value-guide/\n[audit] Slug:  acoustic-links-vintage-gibson-lg-series-value-guide\n\n[audit] Liveness-checking 8 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\can\\work\\jvg-acoustic-links\\reports\\acoustic-links-vintage-gibson-lg-series-value-guide-audit-2026-10-30T16-50-05-608Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+  }
+]

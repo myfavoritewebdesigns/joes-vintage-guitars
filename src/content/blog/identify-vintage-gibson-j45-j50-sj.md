@@ -58,6 +58,8 @@ A stunning 1952 Gibson J-50 in its original natural finish. This example perfect
 
 ### 3\. The Southern Jumbo (SJ): The Southerner Deluxe
 
+For Banner headstocks, wartime wood variations and later construction changes, use the dedicated [Southern Jumbo authentication guide](/gibson-southern-jumbo-authentication-guide/). Once the model and condition are established, compare the [Southern Jumbo value ranges](/vintage-gibson-southern-jumbo-value-guide/).
+
 -   **Fretboard:** This is the dead giveaway. It features **Double-Parallelogram inlays**.
     
 -   **Binding:** Multi-ply binding on the top and back, and almost always features a **bound fingerboard**.
@@ -70,6 +72,8 @@ A stunning 1952 Gibson J-50 in its original natural finish. This example perfect
 Detailed view of the split-parallelogram mother-of-pearl inlays on a Gibson  fretboard. These “deluxe” inlays are the most reliable visual indicator to differentiate a Southern Jumbo or Country Western from the more common dot-inlay J-45 and J-50 models.
 
 ### 4\. The Country Western (SJN): The Blonde Deluxe
+
+The [Country Western authentication guide](/gibson-country-western-authentication-guide/) explains the natural-finish SJN family and how to distinguish it from a refinished SJ. Use the separate [Country Western value guide](/vintage-gibson-country-western-value-guide/) for its model and era ranges.
 
 -   If you see the parallelogram inlays and fancy binding of an SJ, but the guitar has a **Natural finish**, you are looking at a **Country Western** (introduced in 1956).
     

@@ -1,0 +1,377 @@
+{
+  "addedLinks": 48,
+  "changedPages": 14,
+  "pages": [
+    "/blog/",
+    "/how-to-read-gibson-serial-numbers/",
+    "/sell-my-gibson-guitar/",
+    "/what-guitar-do-i-have/",
+    "/gibson-physical-features-hardware-guide/",
+    "/gibson-southern-jumbo-authentication-guide/",
+    "/post/identify-vintage-gibson-j45-j50-sj/",
+    "/post/vintage-gibson-hummingbird-history-value-guide/",
+    "/vintage-gibson-value-guide/",
+    "/gibson-headstock-logo-chronology/",
+    "/gibson-tuner-dating-guide/",
+    "/vintage-gibson-j-45-value-guide/",
+    "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+    "/vintage-gibson-lg-series-value-guide/"
+  ],
+  "coverage": [
+    {
+      "url": "/vintage-gibson-acoustic-value-guide/",
+      "before": 14,
+      "after": 18,
+      "establishedPages": 11,
+      "depthFromHome": 2
+    },
+    {
+      "url": "/gibson-country-western-authentication-guide/",
+      "before": 2,
+      "after": 9,
+      "establishedPages": 6,
+      "depthFromHome": 2
+    },
+    {
+      "url": "/gibson-dove-authentication-guide/",
+      "before": 2,
+      "after": 7,
+      "establishedPages": 5,
+      "depthFromHome": 2
+    },
+    {
+      "url": "/gibson-southern-jumbo-authentication-guide/",
+      "before": 3,
+      "after": 10,
+      "establishedPages": 7,
+      "depthFromHome": 2
+    },
+    {
+      "url": "/vintage-gibson-country-western-value-guide/",
+      "before": 3,
+      "after": 9,
+      "establishedPages": 6,
+      "depthFromHome": 2
+    },
+    {
+      "url": "/vintage-gibson-dove-value-guide/",
+      "before": 2,
+      "after": 7,
+      "establishedPages": 5,
+      "depthFromHome": 2
+    },
+    {
+      "url": "/vintage-gibson-l-0-l-00-value-guide/",
+      "before": 1,
+      "after": 9,
+      "establishedPages": 8,
+      "depthFromHome": 2
+    },
+    {
+      "url": "/vintage-gibson-southern-jumbo-value-guide/",
+      "before": 3,
+      "after": 9,
+      "establishedPages": 6,
+      "depthFromHome": 2
+    }
+  ],
+  "added": [
+    {
+      "source": "/blog/",
+      "href": "/vintage-gibson-acoustic-value-guide/",
+      "text": "All Gibson Acoustic Models",
+      "context": "All Gibson Acoustic Models"
+    },
+    {
+      "source": "/how-to-read-gibson-serial-numbers/",
+      "href": "/vintage-gibson-acoustic-value-guide/",
+      "text": "All Gibson Acoustic Models",
+      "context": "All Gibson Acoustic Models"
+    },
+    {
+      "source": "/sell-my-gibson-guitar/",
+      "href": "/vintage-gibson-acoustic-value-guide/",
+      "text": "Gibson acoustic overview",
+      "context": "Selling a Gibson acoustic? Compare the model and condition in the Dove, Southern Jumbo, Country Western or L-0 and L-00 value guide. Each guide includes identification help or a link to its authentication page. The Gibson acoustic overview covers the other flat-top families."
+    },
+    {
+      "source": "/what-guitar-do-i-have/",
+      "href": "/vintage-gibson-acoustic-value-guide/#choose-your-gibson-acoustic-model",
+      "text": "Gibson acoustic model directory",
+      "context": "For a Gibson flat-top, the Gibson acoustic model directory links photographs and identification guides for the J-45, J-200, Hummingbird, Dove, Southern Jumbo, Country Western, L-0, L-00 and LG family. Choose the model before applying its value range."
+    },
+    {
+      "source": "/blog/",
+      "href": "/gibson-country-western-authentication-guide/",
+      "text": "Gibson Country Western Authentication",
+      "context": "Gibson Country Western Authentication"
+    },
+    {
+      "source": "/gibson-physical-features-hardware-guide/",
+      "href": "/gibson-country-western-authentication-guide/",
+      "text": "Country Western authentication guide",
+      "context": "The Dove authentication guide shows its acoustic Tune-o-matic saddle assembly and explains later changes. For adjustable-saddle and body-shape comparisons in the natural-finish SJN family, see the Country Western authentication guide."
+    },
+    {
+      "source": "/gibson-southern-jumbo-authentication-guide/",
+      "href": "/gibson-country-western-authentication-guide/",
+      "text": "Country Western authentication guide",
+      "context": "If a natural finish raises an SJ-versus-SJN question, compare the label, body shape and finish evidence in the Country Western authentication guide. A refinish alone does not change the model."
+    },
+    {
+      "source": "/how-to-read-gibson-serial-numbers/",
+      "href": "/gibson-country-western-authentication-guide/",
+      "text": "Country Western Authentication",
+      "context": "Country Western Authentication"
+    },
+    {
+      "source": "/post/identify-vintage-gibson-j45-j50-sj/",
+      "href": "/gibson-country-western-authentication-guide/",
+      "text": "Country Western authentication guide",
+      "context": "The Country Western authentication guide explains the natural-finish SJN family and how to distinguish it from a refinished SJ. Use the separate Country Western value guide for its model and era ranges."
+    },
+    {
+      "source": "/post/vintage-gibson-hummingbird-history-value-guide/",
+      "href": "/gibson-country-western-authentication-guide/",
+      "text": "Country Western authentication guide",
+      "context": "For the maple-bodied model in this comparison, my Dove authentication guide covers its bridge, woods and original features, while the Dove value guide provides its own era ranges. A natural Gibson with Southern Jumbo trim also needs a separate comparison; see the Country Western authentication guide."
+    },
+    {
+      "source": "/vintage-gibson-value-guide/",
+      "href": "/gibson-country-western-authentication-guide/",
+      "text": "Country Western Authentication",
+      "context": "Country Western Values · Country Western Authentication"
+    },
+    {
+      "source": "/blog/",
+      "href": "/gibson-dove-authentication-guide/",
+      "text": "Gibson Dove Authentication",
+      "context": "Gibson Dove Authentication"
+    },
+    {
+      "source": "/gibson-physical-features-hardware-guide/",
+      "href": "/gibson-dove-authentication-guide/",
+      "text": "Dove authentication guide",
+      "context": "The Dove authentication guide shows its acoustic Tune-o-matic saddle assembly and explains later changes. For adjustable-saddle and body-shape comparisons in the natural-finish SJN family, see the Country Western authentication guide."
+    },
+    {
+      "source": "/how-to-read-gibson-serial-numbers/",
+      "href": "/gibson-dove-authentication-guide/",
+      "text": "Dove Authentication",
+      "context": "Dove Authentication"
+    },
+    {
+      "source": "/post/vintage-gibson-hummingbird-history-value-guide/",
+      "href": "/gibson-dove-authentication-guide/",
+      "text": "Dove authentication guide",
+      "context": "For the maple-bodied model in this comparison, my Dove authentication guide covers its bridge, woods and original features, while the Dove value guide provides its own era ranges. A natural Gibson with Southern Jumbo trim also needs a separate comparison; see the Country Western authentication guide."
+    },
+    {
+      "source": "/vintage-gibson-value-guide/",
+      "href": "/gibson-dove-authentication-guide/",
+      "text": "Dove Authentication",
+      "context": "Dove Values · Dove Authentication"
+    },
+    {
+      "source": "/blog/",
+      "href": "/gibson-southern-jumbo-authentication-guide/",
+      "text": "Gibson Southern Jumbo Authentication",
+      "context": "Gibson Southern Jumbo Authentication"
+    },
+    {
+      "source": "/gibson-headstock-logo-chronology/",
+      "href": "/gibson-southern-jumbo-authentication-guide/",
+      "text": "Southern Jumbo authentication guide",
+      "context": "For the complete guitar behind a wartime Banner, see the Southern Jumbo authentication guide. For earlier small-body guitars with script or stenciled logos, use the L-0 and L-00 identification checklist alongside the body and finish details."
+    },
+    {
+      "source": "/gibson-tuner-dating-guide/",
+      "href": "/gibson-southern-jumbo-authentication-guide/",
+      "text": "Southern Jumbo authentication guide",
+      "context": "Compare the headstock and tuner photographs in the L-0 and L-00 identification guide. The Southern Jumbo authentication guide also explains wartime tuner variation and the mounting evidence left by replacements."
+    },
+    {
+      "source": "/how-to-read-gibson-serial-numbers/",
+      "href": "/gibson-southern-jumbo-authentication-guide/",
+      "text": "Southern Jumbo Authentication",
+      "context": "Southern Jumbo Authentication"
+    },
+    {
+      "source": "/post/identify-vintage-gibson-j45-j50-sj/",
+      "href": "/gibson-southern-jumbo-authentication-guide/",
+      "text": "Southern Jumbo authentication guide",
+      "context": "For Banner headstocks, wartime wood variations and later construction changes, use the dedicated Southern Jumbo authentication guide. Once the model and condition are established, compare the Southern Jumbo value ranges."
+    },
+    {
+      "source": "/vintage-gibson-j-45-value-guide/",
+      "href": "/gibson-southern-jumbo-authentication-guide/",
+      "text": "authentication guide",
+      "context": "Use the Southern Jumbo value guide for SJ ranges and its authentication guide for Banner, trim and construction checks. The Country Western value guide covers the natural-finish SJN family; those values should not be taken from the J-45 table."
+    },
+    {
+      "source": "/vintage-gibson-value-guide/",
+      "href": "/gibson-southern-jumbo-authentication-guide/",
+      "text": "Southern Jumbo Authentication",
+      "context": "Southern Jumbo Values · Southern Jumbo Authentication"
+    },
+    {
+      "source": "/blog/",
+      "href": "/vintage-gibson-country-western-value-guide/",
+      "text": "Gibson Country Western Values",
+      "context": "Gibson Country Western Values"
+    },
+    {
+      "source": "/how-to-read-gibson-serial-numbers/",
+      "href": "/vintage-gibson-country-western-value-guide/",
+      "text": "Country Western Values",
+      "context": "Country Western Values"
+    },
+    {
+      "source": "/post/identify-vintage-gibson-j45-j50-sj/",
+      "href": "/vintage-gibson-country-western-value-guide/",
+      "text": "Country Western value guide",
+      "context": "The Country Western authentication guide explains the natural-finish SJN family and how to distinguish it from a refinished SJ. Use the separate Country Western value guide for its model and era ranges."
+    },
+    {
+      "source": "/sell-my-gibson-guitar/",
+      "href": "/vintage-gibson-country-western-value-guide/",
+      "text": "Country Western",
+      "context": "Selling a Gibson acoustic? Compare the model and condition in the Dove, Southern Jumbo, Country Western or L-0 and L-00 value guide. Each guide includes identification help or a link to its authentication page. The Gibson acoustic overview covers the other flat-top families."
+    },
+    {
+      "source": "/vintage-gibson-j-45-value-guide/",
+      "href": "/vintage-gibson-country-western-value-guide/",
+      "text": "Country Western value guide",
+      "context": "Use the Southern Jumbo value guide for SJ ranges and its authentication guide for Banner, trim and construction checks. The Country Western value guide covers the natural-finish SJN family; those values should not be taken from the J-45 table."
+    },
+    {
+      "source": "/vintage-gibson-value-guide/",
+      "href": "/vintage-gibson-country-western-value-guide/",
+      "text": "Country Western Values",
+      "context": "Country Western Values · Country Western Authentication"
+    },
+    {
+      "source": "/blog/",
+      "href": "/vintage-gibson-dove-value-guide/",
+      "text": "Gibson Dove Values",
+      "context": "Gibson Dove Values"
+    },
+    {
+      "source": "/how-to-read-gibson-serial-numbers/",
+      "href": "/vintage-gibson-dove-value-guide/",
+      "text": "Dove Values",
+      "context": "Dove Values"
+    },
+    {
+      "source": "/post/vintage-gibson-hummingbird-history-value-guide/",
+      "href": "/vintage-gibson-dove-value-guide/",
+      "text": "Dove value guide",
+      "context": "For the maple-bodied model in this comparison, my Dove authentication guide covers its bridge, woods and original features, while the Dove value guide provides its own era ranges. A natural Gibson with Southern Jumbo trim also needs a separate comparison; see the Country Western authentication guide."
+    },
+    {
+      "source": "/sell-my-gibson-guitar/",
+      "href": "/vintage-gibson-dove-value-guide/",
+      "text": "Dove",
+      "context": "Selling a Gibson acoustic? Compare the model and condition in the Dove, Southern Jumbo, Country Western or L-0 and L-00 value guide. Each guide includes identification help or a link to its authentication page. The Gibson acoustic overview covers the other flat-top families."
+    },
+    {
+      "source": "/vintage-gibson-value-guide/",
+      "href": "/vintage-gibson-dove-value-guide/",
+      "text": "Dove Values",
+      "context": "Dove Values · Dove Authentication"
+    },
+    {
+      "source": "/blog/",
+      "href": "/vintage-gibson-l-0-l-00-value-guide/",
+      "text": "Gibson L-0 And L-00 Values And Identification",
+      "context": "Gibson L-0 And L-00 Values And Identification"
+    },
+    {
+      "source": "/gibson-headstock-logo-chronology/",
+      "href": "/vintage-gibson-l-0-l-00-value-guide/#authentication-checklist",
+      "text": "L-0 and L-00 identification checklist",
+      "context": "For the complete guitar behind a wartime Banner, see the Southern Jumbo authentication guide. For earlier small-body guitars with script or stenciled logos, use the L-0 and L-00 identification checklist alongside the body and finish details."
+    },
+    {
+      "source": "/gibson-tuner-dating-guide/",
+      "href": "/vintage-gibson-l-0-l-00-value-guide/",
+      "text": "L-0 and L-00 identification guide",
+      "context": "Compare the headstock and tuner photographs in the L-0 and L-00 identification guide. The Southern Jumbo authentication guide also explains wartime tuner variation and the mounting evidence left by replacements."
+    },
+    {
+      "source": "/how-to-read-gibson-serial-numbers/",
+      "href": "/vintage-gibson-l-0-l-00-value-guide/",
+      "text": "L-0 And L-00 Values And Identification",
+      "context": "L-0 And L-00 Values And Identification"
+    },
+    {
+      "source": "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+      "href": "/vintage-gibson-l-0-l-00-value-guide/",
+      "text": "combined L-0 and L-00 guide",
+      "context": "The L-0 and L-00 are separate small-body Gibson models, not alternative names for the LG-0 or LG-2. My combined L-0 and L-00 guide compares the early all-mahogany L-0, revived black L-0 and sunburst L-00, with photographs, identification checks and values."
+    },
+    {
+      "source": "/sell-my-gibson-guitar/",
+      "href": "/vintage-gibson-l-0-l-00-value-guide/",
+      "text": "L-0 and L-00",
+      "context": "Selling a Gibson acoustic? Compare the model and condition in the Dove, Southern Jumbo, Country Western or L-0 and L-00 value guide. Each guide includes identification help or a link to its authentication page. The Gibson acoustic overview covers the other flat-top families."
+    },
+    {
+      "source": "/vintage-gibson-lg-series-value-guide/",
+      "href": "/vintage-gibson-l-0-l-00-value-guide/",
+      "text": "combined Gibson L-0 and L-00 value and identification guide",
+      "context": "If the guitar is an L-0 or L-00, use the combined Gibson L-0 and L-00 value and identification guide. The similar names do not put those earlier models into the LG price table."
+    },
+    {
+      "source": "/vintage-gibson-value-guide/",
+      "href": "/vintage-gibson-l-0-l-00-value-guide/",
+      "text": "L-0 And L-00 Values And Identification",
+      "context": "L-0 And L-00 Values And Identification"
+    },
+    {
+      "source": "/blog/",
+      "href": "/vintage-gibson-southern-jumbo-value-guide/",
+      "text": "Gibson Southern Jumbo Values",
+      "context": "Gibson Southern Jumbo Values"
+    },
+    {
+      "source": "/how-to-read-gibson-serial-numbers/",
+      "href": "/vintage-gibson-southern-jumbo-value-guide/",
+      "text": "Southern Jumbo Values",
+      "context": "Southern Jumbo Values"
+    },
+    {
+      "source": "/post/identify-vintage-gibson-j45-j50-sj/",
+      "href": "/vintage-gibson-southern-jumbo-value-guide/",
+      "text": "Southern Jumbo value ranges",
+      "context": "For Banner headstocks, wartime wood variations and later construction changes, use the dedicated Southern Jumbo authentication guide. Once the model and condition are established, compare the Southern Jumbo value ranges."
+    },
+    {
+      "source": "/sell-my-gibson-guitar/",
+      "href": "/vintage-gibson-southern-jumbo-value-guide/",
+      "text": "Southern Jumbo",
+      "context": "Selling a Gibson acoustic? Compare the model and condition in the Dove, Southern Jumbo, Country Western or L-0 and L-00 value guide. Each guide includes identification help or a link to its authentication page. The Gibson acoustic overview covers the other flat-top families."
+    },
+    {
+      "source": "/vintage-gibson-j-45-value-guide/",
+      "href": "/vintage-gibson-southern-jumbo-value-guide/",
+      "text": "Southern Jumbo value guide",
+      "context": "Use the Southern Jumbo value guide for SJ ranges and its authentication guide for Banner, trim and construction checks. The Country Western value guide covers the natural-finish SJN family; those values should not be taken from the J-45 table."
+    },
+    {
+      "source": "/vintage-gibson-value-guide/",
+      "href": "/vintage-gibson-southern-jumbo-value-guide/",
+      "text": "Southern Jumbo Values",
+      "context": "Southern Jumbo Values · Southern Jumbo Authentication"
+    }
+  ],
+  "checks": {
+    "destinations": true,
+    "fragments": true,
+    "metadata": true,
+    "photos": true,
+    "prices": true,
+    "existingLinks": true,
+    "schema": true
+  }
+}

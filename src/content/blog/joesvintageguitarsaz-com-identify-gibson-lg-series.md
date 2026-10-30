@@ -19,6 +19,8 @@ A prime example of a late 1950s Gibson LG-2. This model features the transition-
 
 For annual price references and repair context, use my [vintage Gibson LG series value guide](/vintage-gibson-lg-series-value-guide/). This page explains identification and construction.
 
+The L-0 and L-00 are separate small-body Gibson models, not alternative names for the LG-0 or LG-2. My [combined L-0 and L-00 guide](/vintage-gibson-l-0-l-00-value-guide/) compares the early all-mahogany L-0, revived black L-0 and sunburst L-00, with photographs, identification checks and values.
+
 Among vintage acoustics, the **Gibson LG series** is a real “sleeper” guitar. While the J-45 gets the attention for its big volume, the LG models (the LG-0, LG-1, LG-2, and LG-3) are studio favorites. Their 14 1/8″ body size makes them comfortable, balanced, and very articulate.
 
 At **Joe’s Vintage Guitars**, we see many collectors and heirs who are unsure exactly which model they have. Knowing the differences between these models matters, both for your playing and for understanding the real market value of your instrument. Feel free to contact us at any time for a [free appraisal](/free-appraisal/) or to [sell your Gibson](/sell-my-gibson-guitar/).

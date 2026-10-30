@@ -123,6 +123,8 @@ The table stops at 1979 because that is the vintage span covered here. Later ori
 
 ## The J-50 And Southern Jumbo Are Separate Models
 
+Use the [Southern Jumbo value guide](/vintage-gibson-southern-jumbo-value-guide/) for SJ ranges and its [authentication guide](/gibson-southern-jumbo-authentication-guide/) for Banner, trim and construction checks. The [Country Western value guide](/vintage-gibson-country-western-value-guide/) covers the natural-finish SJN family; those values should not be taken from the J-45 table.
+
 The J-50, Southern Jumbo and J-45 share enough family resemblance to cause mistaken comparisons. I keep their identities separate before discussing price. A natural top or more elaborate trim doesn't create an automatic addition to the J-45 range.
 
 <figure>
