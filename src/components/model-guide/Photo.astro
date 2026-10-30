@@ -4,7 +4,7 @@ import type { GuidePhoto } from './types';
 interface Props { photo: GuidePhoto; eager?: boolean; width?: number }
 const { photo, eager = false, width = 1400 } = Astro.props;
 ---
-<figure>
+<figure class={photo.captionBelow ? 'mg-caption-below' : undefined}>
   <LicensedImage src={photo.src} alt={photo.alt} caption={photo.caption} width={Math.min(width, photo.src.width)} loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} style={`object-position:${photo.position || 'center'};object-fit:${photo.fit || 'cover'}`} />
   <figcaption>{photo.caption}</figcaption>
 </figure>

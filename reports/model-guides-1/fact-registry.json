@@ -15828,6 +15828,108 @@
       "lastVerified": "2026-10-30",
       "refreshCadence": "Review on new instrument evidence",
       "Status": "Reviewed For Preview"
+    },
+    {
+      "FactID": "MG1-gretsch-country-gentleman-value-guide-1965-photo-1",
+      "page": "gretsch-country-gentleman-value-guide",
+      "section": "archive",
+      "approvedWording": "This 1965 Country Gentleman shows the double-cutaway body, walnut finish, simulated f-holes and Gretsch-branded Bigsby. Its neck pickup has blades, while the bridge pickup has two rows of screw poles. The separate headstock photograph reads “The Chet Atkins Country Gentleman” and shows serial 69723.",
+      "Authority": [
+        "Joe’s two original photographs supplied from Downloads on October 30, 2026; 1965 identification supplied by Joe",
+        "1965-gretsch-country-gentleman.jpg: double-cutaway body and visible pickup/hardware details",
+        "1965-country-gentleman-headstock.jpeg: Country Gentleman nameplate and readable serial 69723"
+      ],
+      "Jurisdiction": "US",
+      "publicFacingSafe": true,
+      "verifyWithAttorney": false,
+      "lastVerified": "2026-10-30",
+      "refreshCadence": "Review on new instrument evidence",
+      "Status": "Reviewed For Preview"
+    },
+    {
+      "FactID": "MG1-gretsch-country-gentleman-value-guide-1965-photo-2",
+      "page": "gretsch-country-gentleman-value-guide",
+      "section": "archive",
+      "approvedWording": "Use the body view to record the installed pickups, bridge, mute hardware and controls. The headstock view connects the model name and serial with this guitar. An estimate also needs the back, binding, neck joint and any repair history; these two photographs do not establish every part’s originality.",
+      "Authority": [
+        "Joe’s two original photographs supplied from Downloads on October 30, 2026; 1965 identification supplied by Joe",
+        "1965-gretsch-country-gentleman.jpg: double-cutaway body and visible pickup/hardware details",
+        "1965-country-gentleman-headstock.jpeg: Country Gentleman nameplate and readable serial 69723"
+      ],
+      "Jurisdiction": "US",
+      "publicFacingSafe": true,
+      "verifyWithAttorney": false,
+      "lastVerified": "2026-10-30",
+      "refreshCadence": "Review on new instrument evidence",
+      "Status": "Reviewed For Preview"
+    },
+    {
+      "FactID": "MG1-gretsch-country-gentleman-authentication-guide-1965-photo-1",
+      "page": "gretsch-country-gentleman-authentication-guide",
+      "section": "archive",
+      "approvedWording": "The 1965 guitar has a double-cutaway body and simulated f-holes. The close body photograph shows the blade neck pickup, screw-pole bridge pickup, mute hardware, controls and Bigsby together. It provides a direct comparison with the earlier single-cutaway guitar above.",
+      "Authority": [
+        "Joe’s two original photographs supplied from Downloads on October 30, 2026; 1965 identification supplied by Joe",
+        "1965-gretsch-country-gentleman.jpg: double-cutaway body and visible pickup/hardware details",
+        "1965-country-gentleman-headstock.jpeg: Country Gentleman nameplate and readable serial 69723"
+      ],
+      "Jurisdiction": "US",
+      "publicFacingSafe": true,
+      "verifyWithAttorney": false,
+      "lastVerified": "2026-10-30",
+      "refreshCadence": "Review on new instrument evidence",
+      "Status": "Reviewed For Preview"
+    },
+    {
+      "FactID": "MG1-gretsch-country-gentleman-authentication-guide-1965-photo-2",
+      "page": "gretsch-country-gentleman-authentication-guide",
+      "section": "archive",
+      "approvedWording": "The headstock plate names the Country Gentleman and reads 69723. Keep that number with this double-cutaway guitar when comparing the archive examples. It is a separate instrument from the single cutaway with plate 35114.",
+      "Authority": [
+        "Joe’s two original photographs supplied from Downloads on October 30, 2026; 1965 identification supplied by Joe",
+        "1965-gretsch-country-gentleman.jpg: double-cutaway body and visible pickup/hardware details",
+        "1965-country-gentleman-headstock.jpeg: Country Gentleman nameplate and readable serial 69723"
+      ],
+      "Jurisdiction": "US",
+      "publicFacingSafe": true,
+      "verifyWithAttorney": false,
+      "lastVerified": "2026-10-30",
+      "refreshCadence": "Review on new instrument evidence",
+      "Status": "Reviewed For Preview"
+    },
+    {
+      "FactID": "MG1-gretsch-country-gentleman-authentication-guide-1965-photo-3",
+      "page": "gretsch-country-gentleman-authentication-guide",
+      "section": "serial",
+      "approvedWording": "The close-up clearly shows 69723 beneath “The Chet Atkins Country Gentleman.” All five digits are visible on the metal plate. The body photograph belongs with this headstock view and shows the double-cutaway configuration.",
+      "Authority": [
+        "Joe’s two original photographs supplied from Downloads on October 30, 2026; 1965 identification supplied by Joe",
+        "1965-gretsch-country-gentleman.jpg: double-cutaway body and visible pickup/hardware details",
+        "1965-country-gentleman-headstock.jpeg: Country Gentleman nameplate and readable serial 69723"
+      ],
+      "Jurisdiction": "US",
+      "publicFacingSafe": true,
+      "verifyWithAttorney": false,
+      "lastVerified": "2026-10-30",
+      "refreshCadence": "Review on new instrument evidence",
+      "Status": "Reviewed For Preview"
+    },
+    {
+      "FactID": "MG1-gretsch-country-gentleman-authentication-guide-1965-photo-4",
+      "page": "gretsch-country-gentleman-authentication-guide",
+      "section": "pickups",
+      "approvedWording": "The single-cutaway archive guitar shows Filter’Tron-style metal covers with two rows of adjustable screw poles. The photographed 1965 double cutaway pairs a blade-style Super’Tron neck pickup with a screw-pole Filter’Tron bridge pickup. A neck pickup with blades and a bridge pickup with screws shouldn't automatically be called a mismatched replacement pair; some Country Gentleman configurations used different pickup types. Establish the exact period specification and inspect the installation.",
+      "Authority": [
+        "Joe’s two original photographs supplied from Downloads on October 30, 2026; 1965 identification supplied by Joe",
+        "1965-gretsch-country-gentleman.jpg: double-cutaway body and visible pickup/hardware details",
+        "1965-country-gentleman-headstock.jpeg: Country Gentleman nameplate and readable serial 69723"
+      ],
+      "Jurisdiction": "US",
+      "publicFacingSafe": true,
+      "verifyWithAttorney": false,
+      "lastVerified": "2026-10-30",
+      "refreshCadence": "Review on new instrument evidence",
+      "Status": "Reviewed For Preview"
     }
   ]
 }

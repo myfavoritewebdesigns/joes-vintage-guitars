@@ -5,6 +5,7 @@ export interface GuidePhoto {
   src: ImageMetadata;
   alt: string;
   caption: string;
+  captionBelow?: boolean;
   position?: string;
   fit?: 'cover' | 'contain';
 }

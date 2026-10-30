@@ -360,6 +360,18 @@
       "note": "Ended listing and six selected photographs. Two Filter’Trons, bridge, fixed G tailpiece, finish, badge, heel and tuners visually checked. No serial reading or achieved sale price inferred.",
       "accessed": "2026-10-30",
       "purpose": "User-requested image source; no external pricing used"
+    },
+    {
+      "id": "country-gentleman-1965-local-photos",
+      "family": "country-gentleman",
+      "title": "Joe’s 1965 Country Gentleman Original Photographs",
+      "localFiles": [
+        "src/assets/images/model-guides-1/1965-gretsch-country-gentleman.jpg",
+        "src/assets/images/model-guides-1/1965-country-gentleman-headstock.jpeg"
+      ],
+      "note": "User-provided 1965 identification. Model name and serial69723 read directly from headstock; body and pickup configuration visually inspected. No independent serial-chart date claim added.",
+      "accessed": "2026-10-30",
+      "purpose": "Photographic model, feature and serial evidence; no pricing change"
     }
   ]
 }

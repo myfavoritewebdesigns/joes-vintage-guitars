@@ -1,5 +1,5 @@
 {
-  "count": 58,
+  "count": 60,
   "photos": [
     {
       "asset": "src/assets/images/model-guides-1/falcon-01.jpg",
@@ -656,6 +656,34 @@
         1066
       ],
       "resolutionNote": "1600×1066 is the largest gallery rendition exposed by this listing. Camera originals were not located in Drive."
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/1965-gretsch-country-gentleman.jpg",
+      "driveId": null,
+      "sourceType": "User-provided local original",
+      "shaMatches": true,
+      "originalShaMatches": true,
+      "originalBytesPreserved": false,
+      "fullPixelCountPreserved": true,
+      "transformation": "EXIF orientation only; full pixel dimensions retained",
+      "dimensions": [
+        3000,
+        4000
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/1965-country-gentleman-headstock.jpeg",
+      "driveId": null,
+      "sourceType": "User-provided local original",
+      "shaMatches": true,
+      "originalShaMatches": true,
+      "originalBytesPreserved": false,
+      "fullPixelCountPreserved": true,
+      "transformation": "EXIF orientation only; full pixel dimensions retained",
+      "dimensions": [
+        4284,
+        5712
+      ]
     }
   ]
 }

@@ -1,3 +1,5 @@
+import gent1965Body from '../../assets/images/model-guides-1/1965-gretsch-country-gentleman.jpg';
+import gent1965Headstock from '../../assets/images/model-guides-1/1965-country-gentleman-headstock.jpeg';
 import doubleAnniversary19591 from '../../assets/images/model-guides-1/double-anniversary-1959-01.jpg';
 import doubleAnniversary19592 from '../../assets/images/model-guides-1/double-anniversary-1959-02.jpg';
 import doubleAnniversary19593 from '../../assets/images/model-guides-1/double-anniversary-1959-03.jpg';
@@ -58,6 +60,8 @@ import style318 from '../../assets/images/model-guides-1/style-3-18.jpg';
 import style320 from '../../assets/images/model-guides-1/style-3-20.jpg';
 import type { GuidePhoto } from '../../components/model-guide/types';
 export const photos: Record<string, GuidePhoto> = {
+"gent1965Body": {src:gent1965Body,alt:"1965 Gretsch Country Gentleman double-cutaway body with blade neck pickup, screw-pole bridge pickup and Bigsby",caption:"1965 Gretsch Country Gentleman. Double-Cutaway Body, Pickup Pair And Bigsby. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"gent1965Headstock": {src:gent1965Headstock,alt:"1965 Gretsch Country Gentleman headstock with model nameplate and serial 69723",caption:"1965 Gretsch Country Gentleman. Headstock Nameplate Reading 69723. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
 "doubleAnniversary19591": {src:doubleAnniversary19591,alt:"1959 Gretsch 6118 Double Anniversary showing body front and two filter’tron pickups",caption:"1959 Gretsch 6118 Double Anniversary. Body Front And Two Filter’Tron Pickups. Photo from Joe’s archive.",fit:'contain'},
 "doubleAnniversary19592": {src:doubleAnniversary19592,alt:"1959 Gretsch 6118 Double Anniversary showing headstock and anniversary badge",caption:"1959 Gretsch 6118 Double Anniversary. Headstock And Anniversary Badge. Photo from Joe’s archive.",fit:'contain'},
 "doubleAnniversary19593": {src:doubleAnniversary19593,alt:"1959 Gretsch 6118 Double Anniversary showing darker green back",caption:"1959 Gretsch 6118 Double Anniversary. Darker Green Back. Photo from Joe’s archive.",fit:'contain'},

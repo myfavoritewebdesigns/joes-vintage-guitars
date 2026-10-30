@@ -114,20 +114,20 @@
       "titleLength": 53,
       "description": "Compare vintage Gretsch Country Gentleman values by year, body style and condition, with photos from Joe’s archive and help assessing repairs or changes.",
       "descriptionLength": 153,
-      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1450,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1584,
       "h2": [
         "Country Gentleman Prices By Period",
         "What Separates The Price Groups",
         "Where A Country Gentleman Loses Its Comparison",
-        "The Walnut Guitar In Joe’s Archive",
+        "Single And Double Cutaways In Joe’s Archive",
         "A Useful Condition Ranking",
         "Send A Country Gentleman Photo Set",
         "Questions AboutGretsch Values",
         "A Value For Your Guitar",
         "Joe Dampt"
       ],
-      "photos": 7,
-      "exactModelPhotos": 6,
+      "photos": 9,
+      "exactModelPhotos": 8,
       "comparisonPhotos": 0,
       "existingAuthorPortrait": 1,
       "inboundCount": 3,
@@ -158,7 +158,7 @@
       ],
       "sellLabel": "Sell My Gretsch",
       "sellHref": "/sell-my-gretsch-guitar/",
-      "twinOverlapPercent": 4.08
+      "twinOverlapPercent": 4.42
     },
     {
       "slug": "gretsch-country-gentleman-authentication-guide",
@@ -166,15 +166,15 @@
       "titleLength": 51,
       "description": "Identify a vintage Gretsch Country Gentleman through body shape, pickups, mutes and serial details, with original archive photos and later-model checks.",
       "descriptionLength": 152,
-      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2044,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2210,
       "h2": [
         "The Body Separates The Main Versions",
         "From Atkins Collaboration To The 7670",
         "How The Country Gentleman Changed",
         "Read The Pickup Pair And The Controls",
         "Country Gentleman Versions In Context",
-        "The Single-Cutaway Country Gentleman Archive",
-        "The Nameplate Reading And Its Limits",
+        "Single And Double-Cutaway Country Gentlemen",
+        "Read Each Guitar’s Nameplate",
         "Inspect The Woodwork And Removable Equipment",
         "Recognize A Later Country Gentleman",
         "Resolve A Country Gentleman Identification",
@@ -183,8 +183,8 @@
         "Keep The Evidence Together",
         "Joe Dampt"
       ],
-      "photos": 10,
-      "exactModelPhotos": 9,
+      "photos": 13,
+      "exactModelPhotos": 12,
       "comparisonPhotos": 0,
       "existingAuthorPortrait": 1,
       "inboundCount": 3,
@@ -215,7 +215,7 @@
       ],
       "sellLabel": "Sell My Gretsch",
       "sellHref": "/sell-my-gretsch-guitar/",
-      "twinOverlapPercent": 4.08
+      "twinOverlapPercent": 4.42
     },
     {
       "slug": "gretsch-anniversary-value-guide",
@@ -557,8 +557,8 @@
       "a": "gretsch-white-falcon-value-guide",
       "b": "gretsch-country-gentleman-value-guide",
       "twin": false,
-      "articlePercent": 5.04,
-      "wholePagePercent": 10.22
+      "articlePercent": 4.92,
+      "wholePagePercent": 10
     },
     {
       "a": "gretsch-white-falcon-value-guide",
@@ -613,8 +613,8 @@
       "a": "gretsch-white-falcon-authentication-guide",
       "b": "gretsch-country-gentleman-value-guide",
       "twin": false,
-      "articlePercent": 1.54,
-      "wholePagePercent": 6.83
+      "articlePercent": 1.44,
+      "wholePagePercent": 6.42
     },
     {
       "a": "gretsch-white-falcon-authentication-guide",
@@ -669,50 +669,50 @@
       "a": "gretsch-country-gentleman-value-guide",
       "b": "gretsch-country-gentleman-authentication-guide",
       "twin": true,
-      "articlePercent": 4.08,
-      "wholePagePercent": 9.23
+      "articlePercent": 4.42,
+      "wholePagePercent": 9.24
     },
     {
       "a": "gretsch-country-gentleman-value-guide",
       "b": "gretsch-anniversary-value-guide",
       "twin": false,
-      "articlePercent": 4.99,
-      "wholePagePercent": 10.17
+      "articlePercent": 4.67,
+      "wholePagePercent": 9.56
     },
     {
       "a": "gretsch-country-gentleman-value-guide",
       "b": "gretsch-anniversary-authentication-guide",
       "twin": false,
-      "articlePercent": 1.54,
-      "wholePagePercent": 6.83
+      "articlePercent": 1.44,
+      "wholePagePercent": 6.42
     },
     {
       "a": "gretsch-country-gentleman-value-guide",
       "b": "guild-starfire-value-guide",
       "twin": false,
-      "articlePercent": 4.88,
-      "wholePagePercent": 9.68
+      "articlePercent": 4.57,
+      "wholePagePercent": 9.1
     },
     {
       "a": "gretsch-country-gentleman-value-guide",
       "b": "guild-starfire-authentication-guide",
       "twin": false,
-      "articlePercent": 1.49,
-      "wholePagePercent": 6.43
+      "articlePercent": 1.39,
+      "wholePagePercent": 6.05
     },
     {
       "a": "gretsch-country-gentleman-value-guide",
       "b": "national-resonator-guitar-value-guide",
       "twin": false,
-      "articlePercent": 4.3,
-      "wholePagePercent": 9.33
+      "articlePercent": 4.02,
+      "wholePagePercent": 8.77
     },
     {
       "a": "gretsch-country-gentleman-value-guide",
       "b": "national-resonator-guitar-authentication-guide",
       "twin": false,
-      "articlePercent": 1.49,
-      "wholePagePercent": 6.43
+      "articlePercent": 1.39,
+      "wholePagePercent": 6.05
     },
     {
       "a": "gretsch-country-gentleman-authentication-guide",
@@ -725,8 +725,8 @@
       "a": "gretsch-country-gentleman-authentication-guide",
       "b": "gretsch-anniversary-authentication-guide",
       "twin": false,
-      "articlePercent": 1.82,
-      "wholePagePercent": 5.65
+      "articlePercent": 1.73,
+      "wholePagePercent": 5.38
     },
     {
       "a": "gretsch-country-gentleman-authentication-guide",
@@ -739,8 +739,8 @@
       "a": "gretsch-country-gentleman-authentication-guide",
       "b": "guild-starfire-authentication-guide",
       "twin": false,
-      "articlePercent": 1.74,
-      "wholePagePercent": 5.33
+      "articlePercent": 1.73,
+      "wholePagePercent": 5.29
     },
     {
       "a": "gretsch-country-gentleman-authentication-guide",

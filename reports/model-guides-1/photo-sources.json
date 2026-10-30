@@ -1,6 +1,6 @@
 {
-  "source": "Joe’s connected Google Drive archives and Joe’s specifically requested ended 1959 Reverb listing",
-  "selection": "Drive originals retained at full resolution; six 1959 Reverb images use the largest exposed 1600×1066 gallery rendition, preserved without additional editing.",
+  "source": "Joe’s connected Google Drive archives, two user-supplied Downloads originals and Joe’s requested ended 1959 Reverb listing",
+  "selection": "Original Drive/Downloads resolution retained, EXIF rotation only where needed. Six 1959 Reverb images preserve the largest exposed 1600×1066 gallery rendition.",
   "photos": [
     {
       "driveId": "12TM0i1o0E8NWeDr1dvbcYmaEXLXsBPl4",
@@ -1191,6 +1191,48 @@
       "detail": "Two-Pickup Body In Its Case",
       "classification": "Exact model and year identified by Joe and his listing; two Filter’Trons visually verified",
       "resolutionNote": "1600×1066 is the largest gallery rendition exposed by this listing. Camera originals were not located in Drive."
+    },
+    {
+      "driveId": null,
+      "sourceType": "User-provided local original",
+      "sourcePath": "C:/Users/joeda/Downloads/1965-gretsch-country-gentleman.jpg",
+      "title": "1965-gretsch-country-gentleman.jpg",
+      "bytes": 4396469,
+      "family": "gent",
+      "localName": "1965-gretsch-country-gentleman.jpg",
+      "width": 4000,
+      "height": 3000,
+      "orientation": 6,
+      "sha256": "02a1f1dccc66cabab1405133b93c95028ea19998ab719d945e2a0c1427bf8e68",
+      "asset": "src/assets/images/model-guides-1/1965-gretsch-country-gentleman.jpg",
+      "assetSha256": "f538fd9fea4e167b7170cf1c3955e203b17e0adbe06b2e6f9948d3896b7633ef",
+      "assetWidth": 3000,
+      "assetHeight": 4000,
+      "transformation": "EXIF orientation only; full pixel dimensions retained",
+      "subject": "1965 Gretsch Country Gentleman",
+      "detail": "Double-Cutaway Body, Pickup Pair And Bigsby",
+      "classification": "Exact model: nameplate identifies Country Gentleman; year supplied by Joe and filenames; serial 69723 visually read from headstock image"
+    },
+    {
+      "driveId": null,
+      "sourceType": "User-provided local original",
+      "sourcePath": "C:/Users/joeda/Downloads/1965-country-gentleman-headstock.jpeg",
+      "title": "1965-country-gentleman-headstock.jpeg",
+      "bytes": 4720763,
+      "family": "gent",
+      "localName": "1965-country-gentleman-headstock.jpeg",
+      "width": 5712,
+      "height": 4284,
+      "orientation": 6,
+      "sha256": "9df5c8912f621791e30598696bbea3500f1c8021a6c1a9e4a97cd955a136dde2",
+      "asset": "src/assets/images/model-guides-1/1965-country-gentleman-headstock.jpeg",
+      "assetSha256": "4a29817ef52e37f031df00701d85e0963ce2c26ececd964f0a74c316f78c4260",
+      "assetWidth": 4284,
+      "assetHeight": 5712,
+      "transformation": "EXIF orientation only; full pixel dimensions retained",
+      "subject": "1965 Gretsch Country Gentleman",
+      "detail": "Headstock Nameplate Reading 69723",
+      "classification": "Exact model: nameplate identifies Country Gentleman; year supplied by Joe and filenames; serial 69723 visually read from headstock image"
     }
   ]
 }

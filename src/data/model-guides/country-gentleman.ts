@@ -14,7 +14,7 @@ export const countryGentlemanGuides: ModelGuideData[] = [
     "description": "Compare vintage Gretsch Country Gentleman values by year, body style and condition, with photos from Joe’s archive and help assessing repairs or changes.",
     "eyebrow": "Country Gentleman · Original American Models",
     "dek": "Prices for the single-cutaway 6122, early double cutaways and later 7670, with the condition details an appraisal needs.",
-    "hero": ph.gent11,
+    "hero": ph.gent1965Body,
     "glanceTitle": "Country Gentleman Values",
     "glance": [
       [
@@ -98,10 +98,10 @@ export const countryGentlemanGuides: ModelGuideData[] = [
       {
         "type": "photo-band",
         "photos": [
-          ph.gent9,
-          ph.gent13
+          ph.gent11,
+          ph.gent1965Body
         ],
-        "quote": "A pickup close-up and a neck-heel view answer different questions. Both belong beside a price estimate."
+        "quote": "The early single cutaway and the 1965 double cutaway belong in different price groups. Compare the body and equipment before selecting a chart row."
       },
       {
         "type": "section",
@@ -137,7 +137,7 @@ export const countryGentlemanGuides: ModelGuideData[] = [
       {
         "type": "section",
         "id": "archive",
-        "title": "The Walnut Guitar In Joe’s Archive",
+        "title": "Single And Double Cutaways In Joe’s Archive",
         "eyebrow": "Photo Timeline",
         "blocks": [
           {
@@ -151,6 +151,15 @@ export const countryGentlemanGuides: ModelGuideData[] = [
                   ph.gent7,
                   ph.gent10,
                   ph.gent5
+                ]
+              },
+              {
+                "label": "1965 · Double-Cutaway Country Gentleman",
+                "title": "Body Details And Nameplate 69723",
+                "html": "<p>This 1965 Country Gentleman shows the double-cutaway body, walnut finish, simulated f-holes and Gretsch-branded Bigsby. Its neck pickup has blades, while the bridge pickup has two rows of screw poles. The separate headstock photograph reads “The Chet Atkins Country Gentleman” and shows serial 69723.</p><p>Use the body view to record the installed pickups, bridge, mute hardware and controls. The headstock view connects the model name and serial with this guitar. An estimate also needs the back, binding, neck joint and any repair history; these two photographs do not establish every part’s originality.</p>",
+                "photos": [
+                  ph.gent1965Body,
+                  ph.gent1965Headstock
                 ]
               }
             ]
@@ -255,7 +264,7 @@ export const countryGentlemanGuides: ModelGuideData[] = [
     "description": "Identify a vintage Gretsch Country Gentleman through body shape, pickups, mutes and serial details, with original archive photos and later-model checks.",
     "eyebrow": "Chet Atkins Country Gentleman · Original U.S. Era",
     "dek": "Follow the 6122 and later 7670 through changes in cutaways, f-holes, pickups and controls, using the whole instrument as evidence.",
-    "hero": ph.gent7,
+    "hero": ph.gent1965Body,
     "glanceTitle": "Country Gentleman Identity",
     "glance": [
       [
@@ -271,8 +280,8 @@ export const countryGentlemanGuides: ModelGuideData[] = [
         "Large, relatively shallow hollowbody"
       ],
       [
-        "Archive Caution",
-        "35114 needs a date cross-check"
+        "Photographed 1965 Serial",
+        "69723 · Headstock nameplate"
       ]
     ],
     "secondaryActions": [
@@ -288,7 +297,7 @@ export const countryGentlemanGuides: ModelGuideData[] = [
     "intro": {
       "html": "<p>A Country Gentleman is identified by its own sequence of body and equipment changes. The walnut finish, gold hardware and Chet Atkins association aren't enough to date it. Start with the cutaway shape and complete model designation, then compare the f-holes, fingerboard, pickups and controls with the serial evidence. The American 6122 and later 7670 are the subjects here. Japanese recreations are considered only as exclusions from that original production. The companion <a href=\"/post/gretsch-country-gentleman-value-guide/\">Country Gentleman value page</a> separates the price groups. This page explains how to establish which group deserves consideration, and where an identification remains uncertain.</p>",
       "calloutTitle": "One Archive Date Remains Open",
-      "callout": "Joe’s walnut guitar is archived as 1959, while its readable nameplate is 35114. Published chart placement raises a date conflict. Both are retained here pending a closer review."
+      "callout": "Joe’s single-cutaway guitar is archived as 1959, while its readable nameplate is 35114. Published chart placement raises a date conflict. Both are retained here pending a closer review."
     },
     "sections": [
       {
@@ -425,7 +434,7 @@ export const countryGentlemanGuides: ModelGuideData[] = [
         "blocks": [
           {
             "type": "prose",
-            "html": "<p>The archive guitar shows Filter’Tron-style metal covers with two rows of adjustable screw poles. A Super’Tron uses blades instead. A neck pickup with blades and a bridge pickup with screws shouldn't automatically be called a mismatched replacement pair; some Country Gentleman configurations used different pickup types. Establish the exact period specification and inspect the installation.</p><p>Look at the mounting rings and the edges of the openings. Added adapters, enlarged cuts or unused screw holes can explain why a pickup differs from the catalog. A cover’s patent wording is also separate from the age of the coils beneath it. Photograph the wording, but don't let it date the guitar on its own.</p>"
+            "html": "<p>The single-cutaway archive guitar shows Filter’Tron-style metal covers with two rows of adjustable screw poles. The photographed 1965 double cutaway pairs a blade-style Super’Tron neck pickup with a screw-pole Filter’Tron bridge pickup. A neck pickup with blades and a bridge pickup with screws shouldn't automatically be called a mismatched replacement pair; some Country Gentleman configurations used different pickup types. Establish the exact period specification and inspect the installation.</p><p>Look at the mounting rings and the edges of the openings. Added adapters, enlarged cuts or unused screw holes can explain why a pickup differs from the catalog. A cover’s patent wording is also separate from the age of the coils beneath it. Photograph the wording, but don't let it date the guitar on its own.</p>"
           },
           {
             "type": "columns",
@@ -473,10 +482,10 @@ export const countryGentlemanGuides: ModelGuideData[] = [
       {
         "type": "photo-band",
         "photos": [
-          ph.gent9,
-          ph.gent3
+          ph.gent11,
+          ph.gent1965Body
         ],
-        "quote": "Check a pickup’s installation and a tuner’s footprint. The shape of the removable part is only part of the evidence."
+        "quote": "The single-cutaway example has two screw-pole pickups. The 1965 double cutaway shows blades at the neck and screw poles at the bridge."
       },
       {
         "type": "section",
@@ -508,7 +517,7 @@ export const countryGentlemanGuides: ModelGuideData[] = [
       {
         "type": "section",
         "id": "archive",
-        "title": "The Single-Cutaway Country Gentleman Archive",
+        "title": "Single And Double-Cutaway Country Gentlemen",
         "eyebrow": "Photo Timeline",
         "blocks": [
           {
@@ -523,6 +532,15 @@ export const countryGentlemanGuides: ModelGuideData[] = [
                   ph.gent5,
                   ph.gent13
                 ]
+              },
+              {
+                "label": "1965 Gretsch Country Gentleman",
+                "title": "A Double Cutaway With Two Pickup Designs",
+                "html": "<p>The 1965 guitar has a double-cutaway body and simulated f-holes. The close body photograph shows the blade neck pickup, screw-pole bridge pickup, mute hardware, controls and Bigsby together. It provides a direct comparison with the earlier single-cutaway guitar above.</p><p>The headstock plate names the Country Gentleman and reads 69723. Keep that number with this double-cutaway guitar when comparing the archive examples. It is a separate instrument from the single cutaway with plate 35114.</p>",
+                "photos": [
+                  ph.gent1965Body,
+                  ph.gent1965Headstock
+                ]
               }
             ]
           }
@@ -532,8 +550,8 @@ export const countryGentlemanGuides: ModelGuideData[] = [
       {
         "type": "section",
         "id": "serial",
-        "title": "The Nameplate Reading And Its Limits",
-        "eyebrow": "Dating The Archive Guitar",
+        "title": "Read Each Guitar’s Nameplate",
+        "eyebrow": "Two Photographed Serial Numbers",
         "blocks": [
           {
             "type": "serials",
@@ -543,6 +561,12 @@ export const countryGentlemanGuides: ModelGuideData[] = [
                 "title": "Walnut Single Cutaway Archived As 1959",
                 "photo": ph.gent10,
                 "html": "<p>The digits 35114 are visible at the bottom of the metal Country Gentleman nameplate. Joe’s archive calls the guitar a 1959. Gretsch’s published product-dating table places the 35,000s with 1960, creating a disagreement that this guide leaves unresolved.</p><p>The photograph establishes the transcription; it leaves the exact build year unresolved. Keep the full headstock, body and plate views together for further review. The nameplate itself is a part whose history can also need investigation.</p>"
+              },
+              {
+                "serial": "69723",
+                "title": "1965 Double-Cutaway Country Gentleman",
+                "photo": ph.gent1965Headstock,
+                "html": "<p>The close-up clearly shows 69723 beneath “The Chet Atkins Country Gentleman.” All five digits are visible on the metal plate. The body photograph belongs with this headstock view and shows the double-cutaway configuration.</p>"
               }
             ]
           },
@@ -679,7 +703,7 @@ export const countryGentlemanGuides: ModelGuideData[] = [
       },
       {
         "q": "Can The Serial Be On The Country Gentleman Plate?",
-        "a": "Yes. The archive example’s metal headstock plate reads 35114. Photograph the complete plate and surrounding headstock rather than submitting only the digits."
+        "a": "Yes. The 1965 double-cutaway example’s headstock plate reads 69723; the separate single-cutaway example reads 35114. Photograph the complete plate and surrounding headstock rather than submitting only the digits."
       },
       {
         "q": "Does A Super’Tron And Filter’Tron Pair Prove Modification?",

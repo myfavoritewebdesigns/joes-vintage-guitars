@@ -26,13 +26,17 @@ One pre-existing issue outside the new charts was noticed: the Duo Jet post’s 
 
 Joe supplied and explicitly requested the ended 1959 6118 listing (68361286). Six photos are now used across both Anniversary guides, including the hero, photo bands and a separate archive entry. The 1960 Single remains correctly identified. Search now includes Reverb Ended, Ordered and Out of Stock listings; 101 Gretsch titles were inventoried, not 101 galleries inspected. The selected Reverb files preserve the largest exposed gallery rendition at 1600×1066. They are not described as camera originals.
 
+## 1965 Country Gentleman Photos Added
+
+Joe supplied two originals in Downloads: 1965-gretsch-country-gentleman.jpg and 1965-country-gentleman-headstock.jpeg. The filenames, visible headstock model plate and double-cutaway body establish that these are Country Gentleman photos; the request called the model a Double Anniversary. Both Country Gentleman guides now use them, labeled 1965 as Joe specified. Serial 69723 is directly readable. Full pixel dimensions were retained with EXIF rotation only. The separate single-cutaway 35114 date question remains unchanged.
+
 ## Missing Photos
 
 **In stock, no exact set found:** 6124 Single Anniversary; 1964 Guild Starfire II.
 
 **Additional requested sold examples not found or not independently confirmed:** 1967 Starfire III; an independently dated 1962 Starfire III. The supplied early III is shown with its broader archive description. A later 1997 Double Anniversary was not substituted for an original-era instrument.
 
-The requested White Falcon, walnut Country Gentleman, Single Anniversary, Starfire XII and four National families have original Drive images. All 58 selected views are exact-family/model reference images; no comparison/reissue photograph is presented as an original. The existing Joe portrait is reused from the site separately.
+The requested White Falcon, walnut Country Gentleman, Single Anniversary, Starfire XII and four National families have original Drive images. All 60 selected views are exact-family/model reference images; no comparison/reissue photograph is presented as an original. The existing Joe portrait is reused from the site separately.
 
 ## Pricing Coverage Gaps
 
