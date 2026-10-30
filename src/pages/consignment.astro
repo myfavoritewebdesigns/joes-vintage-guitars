@@ -1,258 +1,324 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import PageHero from "../components/primitives/PageHero.astro";
-import Button from "../components/primitives/Button.astro";
 import ContactSection from "../components/ContactSection.astro";
-import { contact, hrefs } from "../config/site";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import { contact, hrefs, SITE_URL } from "../config/site";
+import { buildImageGraph } from "../lib/imageLicense";
+import { consignmentTiers } from "../data/consignment";
+import shippingPhoto from "../assets/images/sell-martin/martin-guitars-at-fedex.webp";
+import joePhoto from "../assets/images/guild-sn/joe-dampt.jpg";
 
-const structuredData = [
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.joesvintageguitarsaz.com/" },
-      { "@type": "ListItem", position: 2, name: "Consignment", item: "https://www.joesvintageguitarsaz.com/consignment/" },
-    ],
-  },
+const heroImage = "/images/sell-fender-redesign/fender-hero.webp";
+const heroAlt = "1956 Fender Stratocaster resting in its red-lined case, from Joe’s guitar archive";
+const faqs = [
+  { q: "Can I Consign a Guitar From Anywhere in the United States?", a: "Yes. I accept consignments from all 50 states. Joe’s Zero Risk Shipping Process lets you send your guitar to me fully insured, with no shipping risk to you. Contact me first so we can agree on the consignment and arrange your shipment." },
+  { q: "What Is Joe’s Zero Risk Shipping Process?", a: "It’s my process for getting your guitar to Joe’s Vintage Guitars safely from anywhere in the US. I coordinate packing and shipping with you and arrange full transit insurance before you send it. When you use the shipping process I arrange, your shipment is protected against loss or damage. There’s no shipping risk to you as the seller." },
+  { q: "Do I Get Your Bulk FedEx Shipping Discounts?", a: "Yes. My bulk FedEx discounts make shipping your guitar much less expensive than arranging the shipment yourself. You get my discounted shipping rates through Joe’s Zero Risk Shipping Process, with full transit insurance. I’ll go over the shipping cost with you before you send your guitar." },
+  { q: "What Are Your Consignment Fees?", a: "My commission is 18.5% for a final sale price below $3,000, 15% from $3,000 to $49,999.99, 12% from $50,000 to $99,999.99, and 10% at $100,000 and above. The applicable rate applies to the full sale price of each instrument. We review your expected proceeds and any agreed expenses before you consign." },
+  { q: "Do I Still Own My Guitar While It’s on Consignment?", a: "Yes. You keep ownership until the guitar sells. We agree on the asking price and consignment terms, and I handle the photography, listing, buyer questions and sale." },
+  { q: "How Long Will It Take to Sell My Guitar?", a: "Timing depends on the model, condition, asking price and the buyers looking for that instrument. I’ll discuss a realistic asking price with you and keep you informed. If you’d prefer a direct purchase, ask me about an outright offer." },
+  { q: "When Do I Get Paid?", a: "Consignment payment follows the sale of your guitar. We agree on payment timing and method as part of your consignment terms before you send it. Wire transfer, cash, check and electronic transfer are available options." },
+  { q: "Can I Consign a Collection or Bring My Guitar in Person?", a: "Yes. Send a group photo and an approximate instrument count for a collection, and I’ll help you plan the next step. If you’re near Mesa, Arizona, contact me to arrange a local appointment instead of shipping." },
+  { q: "Should I Clean or Repair My Guitar First?", a: "Please send photos before cleaning, polishing, replacing parts or arranging repairs. Original finish, hardware, paperwork and the case can all affect a vintage guitar’s value. Include any original parts and history you have." },
 ];
-
-const advantages = [
-  { t: "A Higher Selling Price", b: "You get the benefit of professional marketing and authentication, which is what lets a high-end vintage guitar reach its real price instead of a quick-sale number." },
-  { t: "A Worldwide Audience", b: "Your guitar gets advertised, shipped, and insured to buyers around the world, not just whoever happens to be local." },
-  { t: "Real Marketing", b: "Proper photos, an accurate listing, and a demo video put your instrument in front of the collectors who actually buy at this level." },
-  { t: "Less Hassle for You", b: "I handle the listing, the questions, the negotiation, the packing, the shipping, and the insurance. You don’t have to deal with tire-kickers." },
-];
-
 const steps = [
-  { n: "01", t: "Send It Over", b: "Get in touch with photos and a description of your guitar. From there we talk about what you have and what you’re hoping to get." },
-  { n: "02", t: "Assessment & Valuation", b: "I give you a realistic, market-based valuation and we agree on a price to list it at." },
-  { n: "03", t: "Marketing & Promotion", b: "I photograph it properly, write an accurate listing, often shoot a demo video, and put it in front of my buyer network and collectors worldwide." },
-  { n: "04", t: "Sale & Payment", b: "Once it sells, I handle full insurance and shipping and pay you by wire transfer, cash, check, or electronic transfer." },
+  { n: "01", title: "Show Me Your Guitar", copy: "Send the make, model and any history you know. Photos of the front, back, headstock and case are a good place to start." },
+  { n: "02", title: "Agree on the Details", copy: "I evaluate your guitar, recommend an asking price and explain your commission, expected proceeds and consignment terms." },
+  { n: "03", title: "Ship With Zero Risk", copy: "Use Joe’s Zero Risk Shipping Process for fully insured delivery from anywhere in the US, or arrange a visit in Mesa." },
+  { n: "04", title: "I Sell It. You Get Paid.", copy: "I handle the photos, listing, buyer questions and sale. When your guitar sells, you’re paid according to our agreed terms." },
 ];
-
-const tips = [
-  { t: "Keep It in Good Shape", b: "A clean, humidified guitar in working order sells for more. Don’t try to ‘fix it up’ yourself, just keep it stable." },
-  { t: "Document Its History", b: "Receipts, original paperwork, old photos, stories, and the original case all add real value. Send whatever you have." },
-  { t: "Work With Someone Reputable", b: "Look for an established seller with real reviews and professional listings, not someone who’ll bury your guitar in a sea of bad photos." },
-  { t: "Be Ready to Negotiate", b: "Values move, and serious buyers usually negotiate. Going in with a reasonable range gets the deal done." },
-];
-
-const why = [
-  { t: "Low, Honest Fees", b: "Consignment fees as low as 8% for top-tier vintage instruments, with no hidden or surprise charges." },
-  { t: "Flexible Terms", b: "Remote consignment, no minimum consignment period, and you deal directly with me, not a front desk." },
-  { t: "A Real Buyer Network", b: "A built-up network of collectors and buyers, which sometimes means a guitar sells almost immediately." },
-  { t: "Straightforward Service", b: "I answer your questions, keep you posted, and treat your guitar like it’s my own." },
+const imageNodes = await buildImageGraph([{ renderedSrc: heroImage, alt: heroAlt }]);
+const structuredData = [
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+    { "@type": "ListItem", position: 2, name: "Consignment", item: SITE_URL + "/consignment/" },
+  ] },
+  { "@context": "https://schema.org", "@type": "Service", "@id": SITE_URL + "/consignment/#service", name: "Nationwide Vintage Guitar Consignment", serviceType: "Vintage guitar consignment", provider: { "@id": SITE_URL + "/" }, areaServed: { "@type": "Country", name: "United States" }, description: "Nationwide vintage guitar consignment with fees from 10% to 18.5% and fully insured shipping through Joe’s Zero Risk Shipping Process." },
+  { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map(({q,a}) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) },
+  { "@context": "https://schema.org", "@type": "WebApplication", name: "Guitar Consignment Commission Calculator", url: SITE_URL + "/consignment/#calculator", applicationCategory: "FinanceApplication", operatingSystem: "Any", browserRequirements: "Requires JavaScript", description: "Estimate commission and proceeds for a proposed guitar sale price using Joe’s consignment fee tiers." },
+  ...imageNodes,
 ];
 ---
 
-<Layout
-  title="Vintage Guitar Consignment | Joe’s Vintage Guitars"
-  description="Consign your vintage guitar with Joe's Vintage Guitars: professional photos, real authentication, a worldwide buyer network, and fees as low as 8%."
-  canonical="/consignment/"
-  ogImage="https://www.joesvintageguitarsaz.com/images/og/consignment.jpg"
-  ogImageAlt="Vintage guitar consignment at Joe's Vintage Guitars"
-  structuredData={structuredData}
->
-  <PageHero
-    eyebrow="Consignment"
-    title="Vintage Guitar Consignment"
-    subhead="Sell your vintage guitar for what it’s really worth, with professional photos, real authentication, and a buyer network built over a decade."
-    subheadTag="p"
-    subheadHtml={true}
-    bgImage="/images/hero-background.jpg"
-  >
-    <Button slot="cta" href={hrefs.tel} variant="cream" size="lg">{contact.phone}</Button>
-    <Button slot="cta" href="#contact" variant="cream" size="lg">Contact Now</Button>
-  </PageHero>
-
-  <!-- What it is -->
-  <section class="con-section">
-    <div class="con-inner">
-      <h2 class="con-head">What Vintage Guitar Consignment Is</h2>
-      <div class="con-rule" aria-hidden="true"></div>
-      <p>
-        Consignment is when you sell your guitar through someone who handles the whole sale for you, reaching a
-        far bigger audience than you could on your own and usually getting a better price for it. For high-end
-        instruments, that also means a proper demo video that shows the guitar off in the hands of a good player.
-        You keep ownership until it sells; I do the work to sell it right.
-      </p>
-      <p>
-        Consignment is not the right answer for everyone. If you would rather take cash today and be done with it,
-        I buy outright too: <a href="/sell-my-fender-guitar/">Fender</a>, <a href="/sell-my-gibson-guitar/">Gibson</a>,
-        <a href="/sell-my-martin-guitar/">Martin</a>, and <a href="/sell-a-guitar-collection/">whole collections</a>.
-        Either way, start with a <a href="/free-appraisal/">free appraisal</a> so you know what the guitar is worth
-        before you choose. Phoenix-area owners can also use my <a href="/where-to-sell-vintage-guitar-phoenix/">local selling guide</a>
-        to compare consignment with a private sale, auction, trade-in, or direct specialist offer.
-      </p>
-    </div>
-  </section>
-
-  <!-- Advantages -->
-  <section class="con-section con-section--alt">
-    <div class="con-inner">
-      <h2 class="con-head">Why Consign Your Vintage Guitar</h2>
-      <div class="con-rule" aria-hidden="true"></div>
-      <div class="con-grid">
-        {advantages.map((a) => (
-          <article class="con-card">
-            <h3 set:html={a.t} />
-            <p set:html={a.b} />
-          </article>
-        ))}
+<Layout title="Vintage Guitar Consignment | Joe’s Vintage Guitars"
+  description="Consign your vintage guitar from anywhere in the US. Fees from 10% to 18.5%. Fully insured shipping with Joe’s Zero Risk Shipping Process. Get a free quote."
+  canonical="/consignment/" ogImage={SITE_URL + heroImage} ogImageAlt={heroAlt}
+  ogImageWidth={2000} ogImageHeight={1333} bodyClass="consignment-page" structuredData={structuredData}>
+  <div class="con-page">
+    <section class="con-hero" aria-labelledby="consignment-title">
+      <div class="con-wrap con-hero-grid">
+        <div>
+          <p class="con-eyebrow">Your Guitar. My Expertise. Nationwide.</p>
+          <h1 id="consignment-title">Nationwide Vintage Guitar <span>Consignment</span></h1>
+          <p class="con-hero-lede">Put your guitar in front of serious buyers. I handle the sale, and you keep up to 90% of the sale price before any agreed expenses.</p>
+          <div class="con-hero-promise">
+            <svg viewBox="0 0 32 36" aria-hidden="true"><path d="M16 2 29 7v10c0 8-6 13-13 17C9 30 3 25 3 17V7Z"/><path d="m9 17 5 5 9-10"/></svg>
+            <p><strong>Joe’s Zero Risk Shipping Process</strong><br />Fully insured shipments from all 50 states.<br /><b>No shipping risk to you.</b></p>
+          </div>
+          <div class="con-actions"><a class="con-btn con-btn--cream" href="#contact">Get My Free Consignment Quote <span aria-hidden="true">→</span></a><a class="con-text-link" href="#rates">See the Fees</a></div>
+        </div>
+        <figure class="con-hero-photo">
+          <img src={heroImage} alt={heroAlt} width="2000" height="1333" fetchpriority="high" loading="eager" />
+          <figcaption>From My Archive <span>1956 Fender Stratocaster</span></figcaption>
+        </figure>
       </div>
-    </div>
-  </section>
+    </section>
+    <nav class="con-jump" aria-label="Consignment page sections"><div class="con-wrap"><a href="#rates">Consignment Fees</a><a href="#shipping">Zero Risk Shipping</a><a href="#how-it-works">How It Works</a><a href="#consignment-faq">Questions &amp; Answers</a></div></nav>
 
-  <!-- Process -->
-  <section class="con-section">
-    <div class="con-inner">
-      <h2 class="con-head">How the Consignment Process Works</h2>
-      <div class="con-rule" aria-hidden="true"></div>
-      <div class="con-grid con-grid--steps">
-        {steps.map((s) => (
-          <article class="con-step">
-            <span class="con-step__n">{s.n}</span>
-            <h3 set:html={s.t} />
-            <p set:html={s.b} />
-          </article>
-        ))}
+    <section class="con-section" id="rates" aria-labelledby="rates-title">
+      <div class="con-wrap">
+        <div class="con-section-top"><div><p class="con-eyebrow">Know What You Keep</p><h2 id="rates-title">Straightforward Consignment Fees</h2></div><p>Your commission is based on the final sale price of each instrument. One rate applies to the entire sale.</p></div>
+        <div class="con-rate-grid">{consignmentTiers.map((tier) => <article class="con-rate"><p class="con-rate-range">{tier.label}</p><h3><span>{tier.rate}%</span><span class="con-rate-label">Commission</span></h3><p class="con-keep">You keep <strong>{tier.keep}</strong></p></article>)}</div>
+        <p class="con-note">Percentages retained are before any agreed expenses. I’ll go over the shipping arrangements, terms and expected proceeds with you before you consign.</p>
+        <div class="con-calculator" id="calculator">
+          <div class="con-calc-intro"><h3>What Could You Take Home?</h3><p>Enter a possible sale price to see the commission.</p></div>
+          <div class="con-price-field"><label for="sale-price">Estimated Sale Price (USD)</label><div class="con-input"><span aria-hidden="true">$</span><input id="sale-price" type="number" inputmode="decimal" min="0.01" max="100000000" step="0.01" value="10000" aria-describedby="calculator-note calculator-error" /></div></div>
+          <div class="con-calc-results" aria-live="polite" aria-atomic="true"><p><span>Commission <b id="commission-rate">15%</b></span><strong id="commission-amount">$1,500</strong></p><p class="con-net"><span>You Keep</span><strong id="seller-proceeds">$8,500</strong></p></div>
+          <p class="con-note con-calc-note" id="calculator-note">Estimate after commission only, before any agreed expenses. This is an illustration, not an appraisal or guaranteed sale price.</p>
+          <p class="con-calc-error" id="calculator-error" role="status" hidden>Enter a sale price from $0.01 to $100,000,000.</p>
+          <noscript><p>For a $10,000 sale, the 15% commission is $1,500 and you keep $8,500 before agreed expenses. Enable JavaScript to try another amount.</p></noscript>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- What drives top dollar -->
-  <section class="con-section con-section--alt">
-    <div class="con-inner">
-      <h2 class="con-head">What Drives a Top-Dollar Sale</h2>
-      <div class="con-rule" aria-hidden="true"></div>
-      <p>
-        Getting top dollar on a vintage guitar comes down to a few things: a specific, accurate listing, the right
-        details called out, and photos that do the instrument justice.
-      </p>
-      <h3 class="con-sub">Professional Photos</h3>
-      <p>
-        Serious buyers look closely, so the photos have to be an honest, sharp representation of the guitar, and
-        good enough to actually catch a collector’s eye.
-      </p>
-      <h3 class="con-sub">A Reputation for Honest Authentication</h3>
-      <p>
-        With vintage gear, the details are everything. The same model can be worth $100,000+ if it’s original
-        and around $13,000 if it’s been refinished. I’ve spent more than a decade selling correct
-        instruments and being straight about what they are, and that track record is part of what gets your guitar
-        a fair price.
-      </p>
-      <h3 class="con-sub">The Setup to Actually Sell It</h3>
-      <p>
-        High-dollar guitars sell more easily when there’s real infrastructure behind them. I run a busy
-        online shop, I’m a top-rated seller on the major platforms like Reverb, and I photograph,
-        authenticate, describe, package, ship, and insure every instrument, plus shoot a demo video for the
-        top-tier pieces.
-      </p>
-    </div>
-  </section>
-
-  <!-- Tips -->
-  <section class="con-section">
-    <div class="con-inner">
-      <h2 class="con-head">Tips for a Smooth Consignment</h2>
-      <div class="con-rule" aria-hidden="true"></div>
-      <div class="con-grid">
-        {tips.map((t) => (
-          <article class="con-card">
-            <h3 set:html={t.t} />
-            <p set:html={t.b} />
-          </article>
-        ))}
+    <section class="con-section con-shipping" id="shipping" aria-labelledby="shipping-title">
+      <div class="con-wrap con-shipping-grid">
+        <div>
+          <p class="con-eyebrow">Anywhere in the US. Fully Insured.</p>
+          <h2 id="shipping-title">Joe’s Zero Risk<br />Shipping Process</h2>
+          <p class="con-shipping-lede">Your guitar can come to me from across town or across the country. <strong>You take no shipping risk.</strong></p>
+          <p>I coordinate the packing and shipping with you and arrange full transit insurance before your instrument leaves. You’ll know how it’s getting here and how it’s protected.</p>
+          <p><strong>My bulk FedEx discounts make shipping your guitar much less expensive than arranging it yourself.</strong> I’ll go over the discounted shipping cost with you before you send it.</p>
+          <ul class="con-shipping-list">
+            <li><span aria-hidden="true">01</span><div><h3>We Arrange It Together</h3><p>Contact me first. We agree on the instrument, its value and the shipping plan before you send anything.</p></div></li>
+            <li><span aria-hidden="true">02</span><div><h3>Your Guitar Travels Fully Insured</h3><p>I coordinate the packing and insured shipment to Joe’s Vintage Guitars. The process is available in all 50 states.</p></div></li>
+            <li><span aria-hidden="true">03</span><div><h3>No Shipping Risk to the Seller</h3><p>When you use the shipping process I arrange, your instrument is protected against loss or damage in transit.</p></div></li>
+          </ul>
+          <a class="con-btn con-btn--cream" href="#contact">Arrange My Insured Shipment <span aria-hidden="true">→</span></a>
+        </div>
+        <figure class="con-shipping-photo"><LicensedImage src={shippingPhoto} alt="Guitar cases on a FedEx counter beside a guitar shipping box" width={820} sizes="(max-width: 760px) calc(100vw - 48px), 380px" loading="lazy" /><figcaption><strong>Guitars Come to Me From Across the Country.</strong> A photograph from my shipping archive.</figcaption></figure>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Why Joe -->
-  <section class="con-section con-section--alt">
-    <div class="con-inner">
-      <h2 class="con-head">Why Consign With Joe’s Vintage Guitars</h2>
-      <div class="con-rule" aria-hidden="true"></div>
-      <div class="con-grid">
-        {why.map((w) => (
-          <article class="con-card">
-            <h3 set:html={w.t} />
-            <p set:html={w.b} />
-          </article>
-        ))}
+    <section class="con-section" id="how-it-works" aria-labelledby="process-title">
+      <div class="con-wrap"><p class="con-eyebrow">From Your First Photo to the Final Sale</p><h2 id="process-title">How Nationwide Consignment Works</h2>
+        <div class="con-steps">{steps.map((step) => <article><span class="con-step-number" aria-hidden="true">{step.n}</span><h3>{step.title}</h3><p>{step.copy}</p></article>)}</div>
+        <div class="con-process-contact"><p>Have a guitar or a whole collection in mind?</p><a href={hrefs.tel}>Call {contact.phone}</a><span aria-hidden="true">/</span><a href={hrefs.sms}>Text Me Photos</a></div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section class="con-section con-why" aria-labelledby="why-title">
+      <div class="con-wrap con-why-grid">
+        <div class="con-joe"><LicensedImage src={joePhoto} alt="Joe Dampt playing a vintage electric guitar" width={712} sizes="(max-width: 760px) calc(100vw - 48px), 420px" loading="lazy" /><p class="con-joe-name">Joe Dampt <span>Owner, Joe’s Vintage Guitars</span></p><p>You deal directly with me, from the first photos through the sale.</p><a class="con-inline-link" href="/about-me/">More About Joe <span aria-hidden="true">→</span></a></div>
+        <div><p class="con-eyebrow">Put My Experience to Work for You</p><h2 id="why-title">Your Guitar Deserves the Right Buyer</h2><p>A good consignment listing starts with knowing exactly what the guitar is. I’ve spent more than a decade buying, assessing and selling vintage instruments.</p>
+          <div class="con-benefits">
+            <article><h3>Careful Authentication</h3><p>I look at originality, condition, repairs and the details collectors ask about, then describe the instrument accurately.</p></article>
+            <article><h3>Photography That Shows the Details</h3><p>Clear photographs show buyers what they’re considering. For top-tier instruments, a demo video lets them hear it too.</p></article>
+            <article><h3>Collectors Beyond Your Local Market</h3><p>Your guitar reaches my buyer network and online audience, including collectors around the world.</p></article>
+            <article><h3>The Sale Is Handled for You</h3><p>I manage the listing, questions, negotiation, packing, shipping and insurance. You keep ownership until it sells.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="con-section con-options" aria-labelledby="options-title"><div class="con-wrap con-options-grid">
+      <div><p class="con-eyebrow">One Instrument or an Entire Collection</p><h2 id="options-title">Start With What You Have</h2><p>I specialize in vintage and collectible guitars. Send your <a href="/sell-my-fender-guitar/">Fender</a>, <a href="/sell-my-gibson-guitar/">Gibson</a>, <a href="/sell-my-martin-guitar/">Martin</a>, Gretsch, Guild, Rickenbacker or another instrument you’d like me to consider.</p><p>Not sure of the year or model? Send photos. For a <a href="/sell-a-guitar-collection/">whole collection</a>, start with a group photograph and an approximate count.</p></div>
+      <aside class="con-buy"><h3>Prefer an Outright Sale?</h3><p>Consignment means waiting for your guitar to sell. I also buy guitars directly. Ask me to explain both options so you can decide which fits you.</p><a class="con-btn con-btn--rust" href="/free-appraisal/">Get a Free Appraisal <span aria-hidden="true">→</span></a></aside>
+    </div></section>
+
+    <section class="con-section con-faq" id="consignment-faq" aria-labelledby="faq-title"><div class="con-wrap con-faq-grid"><div><p class="con-eyebrow">Before You Consign</p><h2 id="faq-title">Your Questions,<br />Answered</h2><p>Have something else on your mind? <a href={hrefs.tel}>Call me at {contact.phone}</a>.</p></div><div>{faqs.map(({q,a}) => <details><summary>{q}<span aria-hidden="true">+</span></summary><p>{a}</p></details>)}</div></div></section>
+    <section class="con-closing" aria-label="Request a consignment quote"><div class="con-wrap"><p class="con-eyebrow">Your Next Step</p><h2>Let’s Talk About Your Guitar</h2><p>Get a free consignment quote and arrange fully insured shipping from anywhere in the US through Joe’s Zero Risk Shipping Process.</p><p class="con-closing-small">Use the form below. You can upload photos after submitting your details.</p></div></section>
+  </div>
   <ContactSection />
 </Layout>
 
+<script>
+  import { estimateConsignment } from "../data/consignment";
+  const input = document.querySelector<HTMLInputElement>("#sale-price");
+  const rate = document.querySelector("#commission-rate");
+  const commission = document.querySelector("#commission-amount");
+  const proceeds = document.querySelector("#seller-proceeds");
+  const error = document.querySelector<HTMLElement>("#calculator-error");
+  const money = (value: number) => new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", minimumFractionDigits: Number.isInteger(value) ? 0 : 2, maximumFractionDigits: 2 }).format(value);
+  function updateEstimate() {
+    if (!input || !rate || !commission || !proceeds || !error) return;
+    const estimate = input.validity.valid ? estimateConsignment(input.valueAsNumber) : null;
+    input.setAttribute("aria-invalid", String(!estimate));
+    error.hidden = !!estimate;
+    rate.textContent = estimate ? estimate.rate + "%" : "";
+    commission.textContent = estimate ? money(estimate.commission) : "Enter a price";
+    proceeds.textContent = estimate ? money(estimate.proceeds) : "Enter a price";
+  }
+  input?.addEventListener("input", updateEstimate);
+</script>
+
 <style>
-  .con-inner { max-width: var(--container-site, 1100px); margin: 0 auto; padding: 0 24px; }
-  .con-section { background: #fff; padding: 64px 0; }
-  .con-section--alt { background: var(--color-brand-cream-light, #f9f1de); }
-  .con-head {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: clamp(26px, 3vw, 38px);
-    color: var(--color-brand-rust-dark);
-    margin: 0;
-    line-height: 1.2;
+  .con-page { --con-dark:#251b14; --con-cream:#f7f1e5; font:17px/1.7 var(--font-sans); color:#332b24; }
+  .con-page * { box-sizing:border-box; }
+  .con-page :is(h1,h2,h3,p,figure) { margin:0; }
+  .con-wrap { width:min(1200px,calc(100% - 64px)); margin-inline:auto; }
+  .con-section { padding:88px 0; scroll-margin-top:24px; }
+  .con-page h2 { color:#682412; font:600 clamp(32px,3.2vw,46px)/1.15 var(--font-display); text-wrap:balance; margin-bottom:24px; }
+  .con-page h3 { font:600 23px/1.3 var(--font-display); color:#682412; }
+  .con-page p + p { margin-top:18px; }
+  .con-eyebrow { font-size:12px; font-weight:750; letter-spacing:.16em; text-transform:uppercase; color:#8b3019; line-height:1.6; margin-bottom:16px!important; }
+  .con-hero { background:var(--con-dark); color:var(--con-cream); padding:280px 0 76px; }
+  .con-hero-grid { display:grid; grid-template-columns:1.06fr 1fr; align-items:center; gap:52px; }
+  .con-hero .con-eyebrow { color:#d2b48c; }
+  .con-hero h1 { font:600 clamp(42px,4.2vw,62px)/1.08 var(--font-display); letter-spacing:-.02em; margin:0 0 24px; text-wrap:balance; }
+  .con-hero h1 span { display:block; color:#e4c28e; }
+  .con-hero-lede { font-size:18px; max-width:540px; }
+  .con-hero-promise { display:flex; gap:18px; margin:28px 0; padding:22px 0; border-block:1px solid #ffffff26; }
+  .con-hero-promise svg { width:36px; height:42px; flex-shrink:0; fill:none; stroke:#e4c28e; stroke-width:1.8; margin-top:5px; }
+  .con-hero-promise p { font-size:15px; }
+  .con-hero-promise strong { font-size:18px; color:#eedfc0; }
+  .con-hero-promise b { font-weight:650; }
+  .con-actions { display:flex; flex-wrap:wrap; align-items:center; gap:20px; }
+  .con-btn { display:inline-flex; align-items:center; justify-content:center; gap:18px; padding:16px 22px; font-size:15px; line-height:1.5; text-align:center; font-weight:700; text-decoration:none; border:1px solid transparent; }
+  .con-btn--cream { background:#eedfc0; color:#682412; }
+  .con-btn--rust { background:#8b3019; color:#fff; }
+  .con-btn:hover { filter:brightness(.94); }
+  .con-text-link { color:#eedfc0; font-size:14px; text-decoration:underline; text-underline-offset:5px; padding-block:12px; }
+  .con-hero-photo { align-self:stretch; min-width:0; display:flex; flex-direction:column; padding-top:10px; }
+  .con-hero-photo img { width:100%; height:100%; max-height:520px; min-height:400px; object-fit:cover; object-position:57% center; }
+  .con-hero-photo figcaption { display:flex; justify-content:space-between; gap:12px; padding-top:15px; font-size:11px; color:#d2b48c; letter-spacing:.06em; text-transform:uppercase; }
+  .con-hero-photo figcaption span { text-transform:none; letter-spacing:0; font-size:13px; color:#eedfc0; }
+  .con-jump { background:#eedfc0; border-bottom:1px solid #d9cbb2; }
+  .con-jump .con-wrap { display:flex; justify-content:center; gap:48px; }
+  .con-jump a { color:#682412; font-size:13px; font-weight:700; padding:21px 0; text-decoration:none; }
+  .con-jump a:hover { text-decoration:underline; text-underline-offset:5px; }
+  .con-section-top { display:grid; grid-template-columns:1.3fr 1fr; gap:50px; align-items:end; margin-bottom:34px; }
+  .con-section-top h2 { margin:0; }
+  .con-section-top > p { font-size:16px; }
+  .con-rate-grid { display:grid; grid-template-columns:repeat(4,1fr); border:1px solid #d9cbb2; }
+  .con-rate { padding:30px 24px; background:#faf7f0; border-right:1px solid #d9cbb2; }
+  .con-rate:last-child { border-right:0; background:#eee1c9; }
+  .con-rate-range { font-size:13px; font-weight:700; }
+  .con-rate h3 { margin:14px 0 20px; }
+  .con-rate h3 > span:first-child { display:block; font-size:62px; line-height:1.1; letter-spacing:-.03em; }
+  .con-rate-label { font:400 14px/1.4 var(--font-sans); }
+  .con-keep { border-top:1px solid #d9cbb2; padding-top:16px; font-size:15px; }
+  .con-note { font-size:13px; color:#605547; margin-top:16px!important; }
+  .con-calculator { display:grid; grid-template-columns:1.05fr .7fr 1.2fr; align-items:center; gap:24px 30px; margin-top:34px; padding:28px 32px; border:1px solid #d9cbb2; }
+  .con-calc-intro h3 { font-size:24px; margin-bottom:5px; }
+  .con-calc-intro p { font-size:14px; }
+  .con-price-field label { display:block; font-size:12px; font-weight:700; margin-bottom:8px; }
+  .con-input { display:flex; align-items:center; border:1px solid #8f7c66; background:#fff; }
+  .con-input > span { padding-left:14px; }
+  .con-input input { width:100%; min-width:0; padding:12px 8px; border:0; font:600 20px var(--font-sans); background:transparent; color:#332b24; }
+  .con-calc-results { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  .con-calc-results p { margin:0!important; }
+  .con-calc-results p > span { display:block; font-size:12px; }
+  .con-calc-results strong { display:block; font:600 clamp(24px,2.5vw,34px)/1.4 var(--font-display); overflow-wrap:anywhere; }
+  .con-net { color:#682412; }
+  .con-calc-note { grid-column:1/-1; margin:0!important; border-top:1px solid #e3dacd; padding-top:16px; font-size:12px; }
+  .con-calc-error { grid-column:1/-1; margin:0!important; color:#8b3019; font-size:13px; font-weight:650; }
+  .con-shipping { background:#682412; color:#fff7e9; }
+  .con-shipping-grid { display:grid; grid-template-columns:1.4fr .8fr; gap:88px; align-items:start; }
+  .con-shipping .con-eyebrow { color:#e4c28e; }
+  .con-shipping h2 { color:#eedfc0; font-size:clamp(40px,4.2vw,60px); }
+  .con-shipping-lede { font-size:21px; }
+  .con-shipping-lede strong { color:#eedfc0; }
+  .con-shipping-list { list-style:none; padding:0; margin:34px 0; display:grid; gap:23px; }
+  .con-shipping-list li { display:flex; gap:20px; }
+  .con-shipping-list li > span { color:#e4c28e; font:600 22px/1.4 var(--font-display); padding-top:1px; }
+  .con-shipping-list h3 { color:#eedfc0; font-size:21px; margin-bottom:6px; }
+  .con-shipping-list p { font-size:15px; }
+  .con-shipping-photo { padding-top:8px!important; }
+  .con-shipping-photo :global(img) { width:100%; height:540px; object-fit:cover; object-position:center 42%; border:8px solid #f1e0c3; }
+  .con-shipping-photo figcaption { padding:20px 0 0; font-size:13px; color:#eddcc7; }
+  .con-shipping-photo figcaption strong { display:block; font-size:15px; color:#fff7e9; margin-bottom:6px; }
+  .con-steps { display:grid; grid-template-columns:repeat(4,1fr); gap:32px; margin-top:46px; }
+  .con-step-number { display:block; border-top:1px solid #d9cbb2; padding-top:18px; color:#a06043; font:600 42px/1.2 var(--font-display); margin-bottom:20px; }
+  .con-steps h3 { font-size:22px; margin-bottom:15px; }
+  .con-steps p { font-size:15px; }
+  .con-process-contact { display:flex; flex-wrap:wrap; gap:18px; align-items:center; padding:24px 28px; background:#f7f1e5; margin-top:40px; font-size:15px; }
+  .con-process-contact p { margin-right:auto; }
+  .con-process-contact a, .con-inline-link, .con-options p a, .con-faq a { color:#682412; font-weight:650; text-decoration:underline; text-underline-offset:4px; }
+  .con-why { background:#f7f1e5; }
+  .con-why-grid { display:grid; grid-template-columns:.8fr 1.3fr; gap:76px; }
+  .con-joe :global(img) { width:100%; height:auto; }
+  .con-joe-name { font:600 28px/1.3 var(--font-display); color:#682412; margin-top:24px!important; }
+  .con-joe-name span { display:block; font:400 13px/1.6 var(--font-sans); color:#605547; margin-top:4px; }
+  .con-joe > p:not(.con-joe-name) { font-size:16px; margin:20px 0; }
+  .con-inline-link { font-size:14px; }
+  .con-benefits { display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:34px; }
+  .con-benefits article { border-top:1px solid #d9cbb2; padding-top:19px; }
+  .con-benefits h3 { font-size:21px; margin-bottom:10px; }
+  .con-benefits p { font-size:15px; }
+  .con-options-grid { display:grid; grid-template-columns:1.3fr .8fr; gap:76px; align-items:center; }
+  .con-buy { border:1px solid #d9cbb2; padding:32px; }
+  .con-buy h3 { font-size:28px; margin-bottom:16px; }
+  .con-buy p { font-size:15px; margin-bottom:24px; }
+  .con-faq { background:#f7f1e5; }
+  .con-faq-grid { display:grid; grid-template-columns:.7fr 1.3fr; gap:76px; }
+  .con-faq-grid > div > p:not(.con-eyebrow) { font-size:15px; }
+  .con-faq details { border-top:1px solid #cdbfa8; }
+  .con-faq details:last-child { border-bottom:1px solid #cdbfa8; }
+  .con-faq summary { display:flex; justify-content:space-between; align-items:center; list-style:none; gap:20px; cursor:pointer; padding:21px 0; color:#682412; font:600 20px/1.4 var(--font-display); }
+  .con-faq summary::-webkit-details-marker { display:none; }
+  .con-faq summary span { font:400 25px/1 var(--font-sans); flex-shrink:0; }
+  .con-faq details[open] summary span { transform:rotate(45deg); }
+  .con-faq details > p { padding:0 30px 24px 0; font-size:15px; }
+  .con-closing { background:#eedfc0; text-align:center; padding:64px 0; }
+  .con-closing .con-wrap { max-width:780px; }
+  .con-closing-small { font-size:13px; }
+  .con-page :is(a,input,summary):focus-visible { outline:3px solid #b66b25; outline-offset:5px; }
+  :global(body.consignment-page .jvgct) { scroll-margin-top:16px; }
+  @media (max-width:1100px) {
+    .con-wrap { width:calc(100% - 48px); }
+    .con-hero-grid { gap:30px; }
+    .con-hero-photo img { min-height:450px; }
+    .con-rate { padding:26px 18px; }
+    .con-rate-range { font-size:12px; }
+    .con-calculator { grid-template-columns:1fr 1fr; }
+    .con-calc-intro { grid-column:1/-1; }
+    .con-shipping-grid, .con-why-grid, .con-options-grid, .con-faq-grid { gap:40px; }
+    .con-shipping-photo :global(img) { height:500px; }
+    .con-steps { grid-template-columns:repeat(2,1fr); }
   }
-  .con-rule { width: 80px; height: 3px; background: var(--color-brand-rust); margin: 14px 0 22px; }
-  /* No global `a` rule exists, so prose links here need their own brand styling
-     or they fall back to the browser default blue. */
-  .con-section p a { color: var(--color-brand-rust-dark); text-decoration: underline; font-weight: 600; }
-  .con-section p a:hover { color: var(--color-brand-rust-bright); }
-  .con-section p {
-    font-family: var(--font-sans);
-    font-size: 16px;
-    line-height: 1.7;
-    color: var(--color-brand-charcoal);
-    margin: 0 0 16px;
-    max-width: 900px;
+  @media (max-width:760px) {
+    .con-section { padding:56px 0; }
+    .con-hero { padding:222px 0 42px; }
+    .con-hero-grid { grid-template-columns:1fr; gap:34px; }
+    .con-hero h1 { max-width:600px; font-size:clamp(42px,7.5vw,58px); }
+    .con-hero-photo { padding:0; }
+    .con-hero-photo img { min-height:0; max-height:none; height:auto; aspect-ratio:3/2; object-fit:contain; }
+    .con-hero-photo figcaption { font-size:10px; }
+    .con-jump .con-wrap { display:grid; grid-template-columns:1fr 1fr; gap:0 18px; }
+    .con-jump a { padding:14px 0; border-bottom:1px solid #d9cbb2; font-size:12px; }
+    .con-section-top, .con-shipping-grid, .con-why-grid, .con-options-grid, .con-faq-grid { grid-template-columns:1fr; gap:28px; }
+    .con-rate-grid { grid-template-columns:1fr 1fr; }
+    .con-rate:nth-child(2) { border-right:0; }
+    .con-rate:nth-child(-n+2) { border-bottom:1px solid #d9cbb2; }
+    .con-rate h3 > span:first-child { font-size:52px; }
+    .con-calculator { padding:24px 20px; gap:22px; }
+    .con-price-field, .con-calc-results { grid-column:1/-1; }
+    .con-shipping-photo { max-width:440px; width:100%; margin-inline:auto!important; }
+    .con-shipping-photo :global(img) { height:460px; object-position:center 44%; }
+    .con-steps { gap:32px 24px; margin-top:30px; }
+    .con-process-contact { padding:22px; gap:10px 15px; }
+    .con-process-contact p { width:100%; margin-bottom:8px; }
+    .con-why-grid { gap:42px; }
+    .con-joe { max-width:500px; }
+    .con-buy { padding:26px; }
+    .con-faq-grid { gap:14px; }
+    .con-faq summary { font-size:19px; }
   }
-  .con-sub {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 19px;
-    color: var(--color-brand-rust);
-    margin: 24px 0 8px;
+  @media (max-width:639px) { .con-hero { padding-top:158px; } }
+  @media (max-width:440px) {
+    .con-wrap { width:calc(100% - 40px); }
+    .con-hero-promise { gap:13px; }
+    .con-hero-promise strong { font-size:16px; }
+    .con-hero-promise p { font-size:14px; }
+    .con-actions .con-btn { width:100%; padding:15px 12px; gap:8px; font-size:14px; }
+    .con-rate { padding:24px 15px; }
+    .con-rate-range { font-size:11px; }
+    .con-steps { grid-template-columns:1fr; gap:28px; }
+    .con-steps article { display:grid; grid-template-columns:46px 1fr; gap:0 16px; }
+    .con-step-number { grid-row:1/3; border:0; padding:0; font-size:32px; }
+    .con-steps h3 { margin-bottom:9px; }
+    .con-benefits { grid-template-columns:1fr; gap:24px; }
   }
-  .con-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 22px;
-    margin-top: 8px;
-  }
-  .con-card {
-    background: var(--color-brand-cream-light, #f9f1de);
-    border-left: 4px solid var(--color-brand-rust-bright);
-    padding: 20px 22px;
-  }
-  .con-section--alt .con-card { background: #fff; }
-  .con-card h3 {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--color-brand-rust-dark);
-    margin: 0 0 8px;
-    line-height: 1.25;
-  }
-  .con-card p { font-size: 15px; margin: 0; }
-  .con-step { position: relative; padding: 6px 0 0; }
-  .con-step__n {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 30px;
-    color: var(--color-brand-rust-bright);
-    line-height: 1;
-  }
-  .con-step h3 {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--color-brand-rust-dark);
-    margin: 8px 0 8px;
-  }
-  .con-step p { font-size: 15px; margin: 0; }
+@media (max-width:600px) { :global(body.consignment-page aside[aria-label="Quick contact"]) { display:none; } }
 </style>
