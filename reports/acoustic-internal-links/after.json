@@ -4,15 +4,9 @@
     {
       "url": "/vintage-gibson-acoustic-value-guide/",
       "depthFromHome": 2,
-      "inboundPages": 18,
-      "externalToGroup": 11,
+      "inboundPages": 17,
+      "externalToGroup": 10,
       "links": [
-        {
-          "source": "/blog/",
-          "href": "/vintage-gibson-acoustic-value-guide/",
-          "text": "All Gibson Acoustic Models",
-          "context": "All Gibson Acoustic Models"
-        },
         {
           "source": "/gibson-country-western-authentication-guide/",
           "href": "/vintage-gibson-acoustic-value-guide/",
@@ -120,15 +114,9 @@
     {
       "url": "/gibson-country-western-authentication-guide/",
       "depthFromHome": 2,
-      "inboundPages": 9,
-      "externalToGroup": 6,
+      "inboundPages": 8,
+      "externalToGroup": 5,
       "links": [
-        {
-          "source": "/blog/",
-          "href": "/gibson-country-western-authentication-guide/",
-          "text": "Gibson Country Western Authentication",
-          "context": "Gibson Country Western Authentication"
-        },
         {
           "source": "/gibson-physical-features-hardware-guide/",
           "href": "/gibson-country-western-authentication-guide/",
@@ -188,15 +176,9 @@
     {
       "url": "/gibson-dove-authentication-guide/",
       "depthFromHome": 2,
-      "inboundPages": 7,
-      "externalToGroup": 5,
+      "inboundPages": 6,
+      "externalToGroup": 4,
       "links": [
-        {
-          "source": "/blog/",
-          "href": "/gibson-dove-authentication-guide/",
-          "text": "Gibson Dove Authentication",
-          "context": "Gibson Dove Authentication"
-        },
         {
           "source": "/gibson-physical-features-hardware-guide/",
           "href": "/gibson-dove-authentication-guide/",
@@ -244,15 +226,9 @@
     {
       "url": "/gibson-southern-jumbo-authentication-guide/",
       "depthFromHome": 2,
-      "inboundPages": 10,
-      "externalToGroup": 7,
+      "inboundPages": 9,
+      "externalToGroup": 6,
       "links": [
-        {
-          "source": "/blog/",
-          "href": "/gibson-southern-jumbo-authentication-guide/",
-          "text": "Gibson Southern Jumbo Authentication",
-          "context": "Gibson Southern Jumbo Authentication"
-        },
         {
           "source": "/gibson-country-western-authentication-guide/",
           "href": "/gibson-southern-jumbo-authentication-guide/",
@@ -324,15 +300,9 @@
     {
       "url": "/vintage-gibson-country-western-value-guide/",
       "depthFromHome": 2,
-      "inboundPages": 9,
-      "externalToGroup": 6,
+      "inboundPages": 8,
+      "externalToGroup": 5,
       "links": [
-        {
-          "source": "/blog/",
-          "href": "/vintage-gibson-country-western-value-guide/",
-          "text": "Gibson Country Western Values",
-          "context": "Gibson Country Western Values"
-        },
         {
           "source": "/gibson-country-western-authentication-guide/",
           "href": "/vintage-gibson-country-western-value-guide/",
@@ -404,15 +374,9 @@
     {
       "url": "/vintage-gibson-dove-value-guide/",
       "depthFromHome": 2,
-      "inboundPages": 7,
-      "externalToGroup": 5,
+      "inboundPages": 6,
+      "externalToGroup": 4,
       "links": [
-        {
-          "source": "/blog/",
-          "href": "/vintage-gibson-dove-value-guide/",
-          "text": "Gibson Dove Values",
-          "context": "Gibson Dove Values"
-        },
         {
           "source": "/gibson-dove-authentication-guide/",
           "href": "/vintage-gibson-dove-value-guide/",
@@ -466,15 +430,9 @@
     {
       "url": "/vintage-gibson-l-0-l-00-value-guide/",
       "depthFromHome": 2,
-      "inboundPages": 9,
-      "externalToGroup": 8,
+      "inboundPages": 8,
+      "externalToGroup": 7,
       "links": [
-        {
-          "source": "/blog/",
-          "href": "/vintage-gibson-l-0-l-00-value-guide/",
-          "text": "Gibson L-0 And L-00 Values And Identification",
-          "context": "Gibson L-0 And L-00 Values And Identification"
-        },
         {
           "source": "/gibson-headstock-logo-chronology/",
           "href": "/vintage-gibson-l-0-l-00-value-guide/#authentication-checklist",
@@ -546,15 +504,9 @@
     {
       "url": "/vintage-gibson-southern-jumbo-value-guide/",
       "depthFromHome": 2,
-      "inboundPages": 9,
-      "externalToGroup": 6,
+      "inboundPages": 8,
+      "externalToGroup": 5,
       "links": [
-        {
-          "source": "/blog/",
-          "href": "/vintage-gibson-southern-jumbo-value-guide/",
-          "text": "Gibson Southern Jumbo Values",
-          "context": "Gibson Southern Jumbo Values"
-        },
         {
           "source": "/gibson-southern-jumbo-authentication-guide/",
           "href": "/vintage-gibson-southern-jumbo-value-guide/",

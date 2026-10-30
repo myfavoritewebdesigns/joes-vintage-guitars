@@ -64,27 +64,6 @@ const { heading, intro, posts, current, total, basePath, categories, activeCateg
       </section>
     )}
 
-    {basePath === "/blog" && current === 1 && (
-      <section class="barch__guides" aria-labelledby="gibson-acoustic-guides">
-        <details>
-          <summary><h2 id="gibson-acoustic-guides">Gibson Acoustic Value And Authentication Guides</h2></summary>
-          <div class="barch__guide-links">
-            <p>Choose a value guide for model and era comparisons, or an authentication guide to check construction and original features.</p>
-            <ul>
-              <li><a href="/vintage-gibson-acoustic-value-guide/">All Gibson Acoustic Models</a></li>
-              <li><a href="/vintage-gibson-dove-value-guide/">Gibson Dove Values</a></li>
-              <li><a href="/gibson-dove-authentication-guide/">Gibson Dove Authentication</a></li>
-              <li><a href="/vintage-gibson-southern-jumbo-value-guide/">Gibson Southern Jumbo Values</a></li>
-              <li><a href="/gibson-southern-jumbo-authentication-guide/">Gibson Southern Jumbo Authentication</a></li>
-              <li><a href="/vintage-gibson-country-western-value-guide/">Gibson Country Western Values</a></li>
-              <li><a href="/gibson-country-western-authentication-guide/">Gibson Country Western Authentication</a></li>
-              <li><a href="/vintage-gibson-l-0-l-00-value-guide/">Gibson L-0 And L-00 Values And Identification</a></li>
-            </ul>
-          </div>
-        </details>
-      </section>
-    )}
-
     <nav class="barch__cats" aria-label="Blog categories">
       <a class={`barch__cat${activeCategory === "" ? " is-active" : ""}`} href="/blog/">All Posts</a>
       {categories.map((c) => (

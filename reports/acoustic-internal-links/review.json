@@ -1,8 +1,7 @@
 {
-  "addedLinks": 48,
-  "changedPages": 14,
+  "addedLinks": 40,
+  "changedPages": 13,
   "pages": [
-    "/blog/",
     "/how-to-read-gibson-serial-numbers/",
     "/sell-my-gibson-guitar/",
     "/what-guitar-do-i-have/",
@@ -21,67 +20,61 @@
     {
       "url": "/vintage-gibson-acoustic-value-guide/",
       "before": 14,
-      "after": 18,
-      "establishedPages": 11,
+      "after": 17,
+      "establishedPages": 10,
       "depthFromHome": 2
     },
     {
       "url": "/gibson-country-western-authentication-guide/",
       "before": 2,
-      "after": 9,
-      "establishedPages": 6,
+      "after": 8,
+      "establishedPages": 5,
       "depthFromHome": 2
     },
     {
       "url": "/gibson-dove-authentication-guide/",
       "before": 2,
-      "after": 7,
-      "establishedPages": 5,
+      "after": 6,
+      "establishedPages": 4,
       "depthFromHome": 2
     },
     {
       "url": "/gibson-southern-jumbo-authentication-guide/",
       "before": 3,
-      "after": 10,
-      "establishedPages": 7,
+      "after": 9,
+      "establishedPages": 6,
       "depthFromHome": 2
     },
     {
       "url": "/vintage-gibson-country-western-value-guide/",
       "before": 3,
-      "after": 9,
-      "establishedPages": 6,
+      "after": 8,
+      "establishedPages": 5,
       "depthFromHome": 2
     },
     {
       "url": "/vintage-gibson-dove-value-guide/",
       "before": 2,
-      "after": 7,
-      "establishedPages": 5,
+      "after": 6,
+      "establishedPages": 4,
       "depthFromHome": 2
     },
     {
       "url": "/vintage-gibson-l-0-l-00-value-guide/",
       "before": 1,
-      "after": 9,
-      "establishedPages": 8,
+      "after": 8,
+      "establishedPages": 7,
       "depthFromHome": 2
     },
     {
       "url": "/vintage-gibson-southern-jumbo-value-guide/",
       "before": 3,
-      "after": 9,
-      "establishedPages": 6,
+      "after": 8,
+      "establishedPages": 5,
       "depthFromHome": 2
     }
   ],
   "added": [
-    {
-      "source": "/blog/",
-      "href": "/vintage-gibson-acoustic-value-guide/",
-      "text": "All Gibson Acoustic Models",
-      "context": "All Gibson Acoustic Models"
-    },
     {
       "source": "/how-to-read-gibson-serial-numbers/",
       "href": "/vintage-gibson-acoustic-value-guide/",
@@ -99,12 +92,6 @@
       "href": "/vintage-gibson-acoustic-value-guide/#choose-your-gibson-acoustic-model",
       "text": "Gibson acoustic model directory",
       "context": "For a Gibson flat-top, the Gibson acoustic model directory links photographs and identification guides for the J-45, J-200, Hummingbird, Dove, Southern Jumbo, Country Western, L-0, L-00 and LG family. Choose the model before applying its value range."
-    },
-    {
-      "source": "/blog/",
-      "href": "/gibson-country-western-authentication-guide/",
-      "text": "Gibson Country Western Authentication",
-      "context": "Gibson Country Western Authentication"
     },
     {
       "source": "/gibson-physical-features-hardware-guide/",
@@ -143,12 +130,6 @@
       "context": "Country Western Values · Country Western Authentication"
     },
     {
-      "source": "/blog/",
-      "href": "/gibson-dove-authentication-guide/",
-      "text": "Gibson Dove Authentication",
-      "context": "Gibson Dove Authentication"
-    },
-    {
       "source": "/gibson-physical-features-hardware-guide/",
       "href": "/gibson-dove-authentication-guide/",
       "text": "Dove authentication guide",
@@ -171,12 +152,6 @@
       "href": "/gibson-dove-authentication-guide/",
       "text": "Dove Authentication",
       "context": "Dove Values · Dove Authentication"
-    },
-    {
-      "source": "/blog/",
-      "href": "/gibson-southern-jumbo-authentication-guide/",
-      "text": "Gibson Southern Jumbo Authentication",
-      "context": "Gibson Southern Jumbo Authentication"
     },
     {
       "source": "/gibson-headstock-logo-chronology/",
@@ -215,12 +190,6 @@
       "context": "Southern Jumbo Values · Southern Jumbo Authentication"
     },
     {
-      "source": "/blog/",
-      "href": "/vintage-gibson-country-western-value-guide/",
-      "text": "Gibson Country Western Values",
-      "context": "Gibson Country Western Values"
-    },
-    {
       "source": "/how-to-read-gibson-serial-numbers/",
       "href": "/vintage-gibson-country-western-value-guide/",
       "text": "Country Western Values",
@@ -251,12 +220,6 @@
       "context": "Country Western Values · Country Western Authentication"
     },
     {
-      "source": "/blog/",
-      "href": "/vintage-gibson-dove-value-guide/",
-      "text": "Gibson Dove Values",
-      "context": "Gibson Dove Values"
-    },
-    {
       "source": "/how-to-read-gibson-serial-numbers/",
       "href": "/vintage-gibson-dove-value-guide/",
       "text": "Dove Values",
@@ -279,12 +242,6 @@
       "href": "/vintage-gibson-dove-value-guide/",
       "text": "Dove Values",
       "context": "Dove Values · Dove Authentication"
-    },
-    {
-      "source": "/blog/",
-      "href": "/vintage-gibson-l-0-l-00-value-guide/",
-      "text": "Gibson L-0 And L-00 Values And Identification",
-      "context": "Gibson L-0 And L-00 Values And Identification"
     },
     {
       "source": "/gibson-headstock-logo-chronology/",
@@ -327,12 +284,6 @@
       "href": "/vintage-gibson-l-0-l-00-value-guide/",
       "text": "L-0 And L-00 Values And Identification",
       "context": "L-0 And L-00 Values And Identification"
-    },
-    {
-      "source": "/blog/",
-      "href": "/vintage-gibson-southern-jumbo-value-guide/",
-      "text": "Gibson Southern Jumbo Values",
-      "context": "Gibson Southern Jumbo Values"
     },
     {
       "source": "/how-to-read-gibson-serial-numbers/",
