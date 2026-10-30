@@ -35,3 +35,9 @@ The independent Final Read is recorded separately. Canonical writing-database co
 ## October 30 Preview Correction
 
 Joe identified dark ranking-card headings missed by the earlier visual review. The shared styles now provide readable colors for all affected headings, links and light-background section labels. Twenty route/viewport cases pass computed text contrast and axe's color-contrast rule; manual-review limitations are retained. See the [before/after evidence and verification](contrast-review/README.md). This supersedes the earlier contrast assessment; no article copy or prices changed.
+
+## October 30: Single Anniversary Year Confirmed
+
+Joe confirmed the photographed Single Anniversary is a 1960. Both guides now state **1960 Gretsch 6125 Single Anniversary** directly in the text, photo captions, alt descriptions and FAQ. Submission-date qualifications have been removed. The readable serial 36439 and blank model field remain documented.
+
+Validation: 372-page production build succeeds; rendered copy check has zero hard failures (760 existing warning-tier findings). Both Anniversary pages contain the direct 1960 identification with no remaining submission-date qualifications. All 105 protected HTML pages remain byte-identical; no internal-link or metadata failures. No photo or price changes.

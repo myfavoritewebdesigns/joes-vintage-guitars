@@ -223,7 +223,7 @@
       "titleLength": 57,
       "description": "See vintage Gretsch Single and Double Anniversary values by period, finish and configuration, with repair checks and Joe’s archive photos for comparison.",
       "descriptionLength": 153,
-      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1446,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1433,
       "h2": [
         "Single And Double Anniversary Values",
         "Green, Sunburst And The Correct Row",
@@ -267,7 +267,7 @@
       ],
       "sellLabel": "Sell My Gretsch",
       "sellHref": "/sell-my-gretsch-guitar/",
-      "twinOverlapPercent": 4.08
+      "twinOverlapPercent": 3.6
     },
     {
       "slug": "gretsch-anniversary-authentication-guide",
@@ -275,7 +275,7 @@
       "titleLength": 53,
       "description": "Identify vintage Gretsch Anniversary models by pickup count, finish, model number and serial, using archive photos and checks for conversions or reissues.",
       "descriptionLength": 154,
-      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2049,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2018,
       "h2": [
         "The Original Anniversary Model Map",
         "The Anniversary As An Accessible Hollowbody",
@@ -283,7 +283,7 @@
         "One Pickup, Two Pickups And A Possible Conversion",
         "Single, Double And Stereo Anniversaries",
         "A Two-Tone Single In The Archive",
-        "Read The Submitted 1960 Single’s Label",
+        "Read The 1960 Single’s Label",
         "Bridge, Tailpiece And Construction Checks",
         "Later Anniversary Guitars Repeat The Look",
         "Have The Anniversary Evidence Reviewed",
@@ -324,7 +324,7 @@
       ],
       "sellLabel": "Sell My Gretsch",
       "sellHref": "/sell-my-gretsch-guitar/",
-      "twinOverlapPercent": 4.08
+      "twinOverlapPercent": 3.6
     },
     {
       "slug": "guild-starfire-value-guide",
@@ -627,15 +627,15 @@
       "a": "gretsch-white-falcon-authentication-guide",
       "b": "gretsch-anniversary-value-guide",
       "twin": false,
-      "articlePercent": 1.52,
-      "wholePagePercent": 6.45
+      "articlePercent": 1.53,
+      "wholePagePercent": 6.47
     },
     {
       "a": "gretsch-white-falcon-authentication-guide",
       "b": "gretsch-anniversary-authentication-guide",
       "twin": false,
-      "articlePercent": 1.91,
-      "wholePagePercent": 5.76
+      "articlePercent": 1.93,
+      "wholePagePercent": 5.82
     },
     {
       "a": "gretsch-white-falcon-authentication-guide",
@@ -719,14 +719,14 @@
       "b": "gretsch-anniversary-value-guide",
       "twin": false,
       "articlePercent": 1.43,
-      "wholePagePercent": 6.36
+      "wholePagePercent": 6.38
     },
     {
       "a": "gretsch-country-gentleman-authentication-guide",
       "b": "gretsch-anniversary-authentication-guide",
       "twin": false,
-      "articlePercent": 1.83,
-      "wholePagePercent": 5.69
+      "articlePercent": 1.85,
+      "wholePagePercent": 5.75
     },
     {
       "a": "gretsch-country-gentleman-authentication-guide",
@@ -760,36 +760,36 @@
       "a": "gretsch-anniversary-value-guide",
       "b": "gretsch-anniversary-authentication-guide",
       "twin": true,
-      "articlePercent": 4.08,
-      "wholePagePercent": 8.86
+      "articlePercent": 3.6,
+      "wholePagePercent": 8.43
     },
     {
       "a": "gretsch-anniversary-value-guide",
       "b": "guild-starfire-value-guide",
       "twin": false,
-      "articlePercent": 4.57,
-      "wholePagePercent": 9.05
+      "articlePercent": 4.59,
+      "wholePagePercent": 9.08
     },
     {
       "a": "gretsch-anniversary-value-guide",
       "b": "guild-starfire-authentication-guide",
       "twin": false,
       "articlePercent": 1.38,
-      "wholePagePercent": 5.99
+      "wholePagePercent": 6.01
     },
     {
       "a": "gretsch-anniversary-value-guide",
       "b": "national-resonator-guitar-value-guide",
       "twin": false,
-      "articlePercent": 3.98,
-      "wholePagePercent": 8.54
+      "articlePercent": 4,
+      "wholePagePercent": 8.57
     },
     {
       "a": "gretsch-anniversary-value-guide",
       "b": "national-resonator-guitar-authentication-guide",
       "twin": false,
       "articlePercent": 1.38,
-      "wholePagePercent": 5.99
+      "wholePagePercent": 6.01
     },
     {
       "a": "gretsch-anniversary-authentication-guide",
@@ -802,8 +802,8 @@
       "a": "gretsch-anniversary-authentication-guide",
       "b": "guild-starfire-authentication-guide",
       "twin": false,
-      "articlePercent": 1.76,
-      "wholePagePercent": 5.37
+      "articlePercent": 1.78,
+      "wholePagePercent": 5.43
     },
     {
       "a": "gretsch-anniversary-authentication-guide",

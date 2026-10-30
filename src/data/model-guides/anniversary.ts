@@ -147,9 +147,9 @@ export const anniversaryGuides: ModelGuideData[] = [
             "type": "archive",
             "items": [
               {
-                "label": "Submitted As 1960 · Model 6125",
+                "label": "1960 · Model 6125",
                 "title": "Two-Tone Finish And One Pickup",
-                "html": "<p>This guitar came from the customer-photo archive with a 1960 identification. Its readable serial is 36439, and the photographs show a single HiLo’Tron-style pickup, Space Control bridge and G-cutout tailpiece. The model field in the pictured label is blank, so the submitted model identification and visible configuration are kept together.</p><p>It illustrates the views that help with an estimate, not a current sale or an example of an untouched guitar at a stated price. The rear view records the darker finish; the front shows the controls and hardware. A description that only says “green Anniversary” would omit several of those useful distinctions.</p>",
+                "html": "<p>This 1960 Gretsch 6125 Single Anniversary comes from Joe’s customer-photo archive. Its readable serial is 36439, and the photographs show a single HiLo’Tron-style pickup, Space Control bridge and G-cutout tailpiece. The model field in the pictured label is blank, while the one-pickup, two-tone configuration identifies the 6125 Single Anniversary.</p><p>It illustrates the views that help with an estimate, not a current sale or an example of an untouched guitar at a stated price. The rear view records the darker finish; the front shows the controls and hardware. A description that only says “green Anniversary” would omit several of those useful distinctions.</p>",
                 "photos": [
                   ph.anniversary7,
                   ph.anniversary5,
@@ -275,7 +275,7 @@ export const anniversaryGuides: ModelGuideData[] = [
       ],
       [
         "Photographed Number",
-        "36439, submitted as 1960"
+        "36439 · 1960"
       ]
     ],
     "secondaryActions": [
@@ -291,7 +291,7 @@ export const anniversaryGuides: ModelGuideData[] = [
     "intro": {
       "html": "<p>The original Gretsch Anniversary family includes single-pickup and double-pickup guitars, sunburst and two-tone finishes, and a separate stereo branch. “Double” describes the pickups, not a double cutaway. A green guitar with two pickups needs its model and production period checked before it can be called an original 6118. The 1958 anniversary design continued beyond its commemorative year and returned in later production. This guide follows the original American versions and uses later examples only to explain the boundary. After identification, the <a href=\"/post/gretsch-anniversary-value-guide/\">Anniversary value chart</a> separates the relevant period and finish comparisons.</p>",
       "calloutTitle": "Check The Model Field And The Body",
-      "callout": "The pictured label has a readable serial but a blank model field. Its one-pickup, two-tone configuration is evidence to compare with the submitted 6125 identification, not a model number printed on the paper."
+      "callout": "The pictured 1960 Gretsch 6125 Single Anniversary has a readable serial but a blank model field. Its single pickup and two-tone green finish identify the configuration; the model number is not printed on this label."
     },
     "sections": [
       {
@@ -419,7 +419,7 @@ export const anniversaryGuides: ModelGuideData[] = [
               {
                 "date": "Around 1960",
                 "title": "The HiLo’Tron Period",
-                "html": "<p>The archive Single submitted as 1960 shows a HiLo’Tron-style face with one row of adjustable poles. Compare that observation with its complete serial and body details. The date a pickup family was announced doesn't establish a universal changeover for every Gretsch model.</p>"
+                "html": "<p>The 1960 Single Anniversary shows a HiLo’Tron-style face with one row of adjustable poles. Compare that observation with its complete serial and body details. The date a pickup family was announced doesn't establish a universal changeover for every Gretsch model.</p>"
               },
               {
                 "date": "Early 1960s",
@@ -515,9 +515,9 @@ export const anniversaryGuides: ModelGuideData[] = [
             "type": "archive",
             "items": [
               {
-                "label": "1960 Identification Supplied With Photos",
+                "label": "1960 Gretsch 6125 Single Anniversary",
                 "title": "Front, Back And Headstock Of One Guitar",
-                "html": "<p>The photographs belong to the same submitted Single Anniversary. Its light top contrasts with the darker green back, while the headstock carries the Anniversary badge. The face photograph shows the pickup and bridge without requiring disassembly. The photographs show this Single Anniversary’s one-pickup body and controls.</p><p>Take the same views of your instrument before drawing a conclusion about color. Phone white balance can turn pale green into cream, and glare can hide a sunburst transition. The guard's color should also be described separately from the painted body. A different guard shade doesn't by itself establish a refinish.</p>",
+                "html": "<p>The photographs show the same 1960 Gretsch 6125 Single Anniversary. Its light top contrasts with the darker green back, while the headstock carries the Anniversary badge. The face photograph shows the pickup and bridge without requiring disassembly. The photographs show this Single Anniversary’s one-pickup body and controls.</p><p>Take the same views of your instrument before drawing a conclusion about color. Phone white balance can turn pale green into cream, and glare can hide a sunburst transition. The guard's color should also be described separately from the painted body. A different guard shade doesn't by itself establish a refinish.</p>",
                 "photos": [
                   ph.anniversary7,
                   ph.anniversary2,
@@ -533,7 +533,7 @@ export const anniversaryGuides: ModelGuideData[] = [
       {
         "type": "section",
         "id": "label",
-        "title": "Read The Submitted 1960 Single’s Label",
+        "title": "Read The 1960 Single’s Label",
         "eyebrow": "The Digits Actually Visible",
         "blocks": [
           {
@@ -543,13 +543,13 @@ export const anniversaryGuides: ModelGuideData[] = [
                 "serial": "36439",
                 "title": "A Blank Model Field Beside A Readable Number",
                 "photo": ph.anniversary6,
-                "html": "<p>The interior label in this customer archive set reads 36439. The model line appears blank. The supplied identification calls the instrument a 1960 6125, and the visible one-pickup, two-tone configuration is consistent with the Single branch. The serial is recorded exactly rather than reconstructed from the submitted year.</p><p>The photograph shows a rectangular Brooklyn label with an oval Gretsch emblem. The orange and gray paper, oval emblem and readable serial can be recorded without filling in the empty model field.</p>"
+                "html": "<p>The interior label in this 1960 Gretsch 6125 Single Anniversary reads 36439. The model line is blank. Its one-pickup, two-tone green configuration identifies the Single Anniversary version. Read the complete serial alongside the body, pickup and hardware details.</p><p>The photograph shows a rectangular Brooklyn label with an oval Gretsch emblem. The orange and gray paper, oval emblem and readable serial can be recorded without filling in the empty model field.</p>"
               }
             ]
           },
           {
             "type": "prose",
-            "html": "<p>Gretsch’s published sequential chart places the 36,000s in the 1960 area, but a chart match still doesn't prove that a label has never moved or that every installed part is factory original. Compare the complete guitar and retain the submitted date as provenance. A model field left blank shouldn't be filled from what an owner hopes the guitar is.</p><p>Use the <a href=\"/gretsch-labels-and-serial-number-locations/\">Gretsch label examples</a> and <a href=\"/gretsch-serial-number-lookup/\">serial lookup</a> together. Later orange labels can carry a different sequence, and Baldwin month/year codes require their own interpretation. A number’s length is not enough to choose between systems.</p><p>The reused 1957-label batch discussed in Joe’s Gretsch guides is another warning against a serial-only verdict. If a number points to a period before the Anniversary's introduction, examine the format, label and body rather than declaring a previously unknown early Anniversary. Keep an unresolved mismatch visible until further evidence explains it.</p>"
+            "html": "<p>Gretsch’s published sequential chart places serial 36439 in 1960. A chart match still doesn't prove that a label has never moved or that every installed part is factory original. Compare the complete guitar when assessing originality. A model field left blank shouldn't be filled from what an owner hopes the guitar is.</p><p>Use the <a href=\"/gretsch-labels-and-serial-number-locations/\">Gretsch label examples</a> and <a href=\"/gretsch-serial-number-lookup/\">serial lookup</a> together. Later orange labels can carry a different sequence, and Baldwin month/year codes require their own interpretation. A number’s length is not enough to choose between systems.</p><p>The reused 1957-label batch discussed in Joe’s Gretsch guides is another warning against a serial-only verdict. If a number points to a period before the Anniversary's introduction, examine the format, label and body rather than declaring a previously unknown early Anniversary. Keep an unresolved mismatch visible until further evidence explains it.</p>"
           }
         ],
         "tone": "light"
@@ -684,7 +684,7 @@ export const anniversaryGuides: ModelGuideData[] = [
       },
       {
         "q": "Can A Blank Model Line Still Allow Identification?",
-        "a": "It can leave enough evidence for a model comparison, but the missing field should be disclosed. The submitted 6125 example combines serial 36439 with a one-pickup, two-tone body."
+        "a": "It can leave enough evidence for a model comparison, but the missing field should be disclosed. The 1960 6125 example combines serial 36439 with a one-pickup, two-tone body."
       },
       {
         "q": "Does A Green Finish And Anniversary Badge Prove A 1958 Build?",

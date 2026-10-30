@@ -13,7 +13,7 @@ Answer only the prompts where you have something useful to add. These questions 
 
 - **Country Gentleman 35114:** Joe’s archive calls the walnut guitar 1959. Gretsch’s published 35,000-series table places it in 1960. Both are retained; neither date was silently substituted. No existing page was corrected.
 - The early Guild Starfire III archive set does not establish a readable serial or independently secure the requested 1962 date. Captions use the documented early-1960s context. It is not relabeled as the 1967 III.
-- Anniversary label 36439 is readable and its model line is blank. The pictured one-pickup two-tone guitar is identified as the submitted 1960 6125, with the blank field disclosed. No additional label-shape conflict is asserted.
+- Anniversary label 36439 is readable and its model line is blank. The pictured one-pickup two-tone guitar is identified directly as a 1960 6125 per Joe’s October 30 confirmation, with the blank field disclosed. No additional label-shape conflict is asserted.
 - Source dates and body details are treated as period comparisons, with transition uncertainty retained. No production or shipping totals were invented.
 
 ## Price Conflicts
