@@ -161,3 +161,13 @@
 # Prefix form. The AMP plugin mirrored the real site structure, so the splat is
 # the live path (e.g. /amp/free-appraisal/ -> /free-appraisal/).
 /amp/*                                                           /:splat                               301
+
+# Consolidated L-0 / L-00 guide requested by Joe.
+/vintage-gibson-l-0-value-guide /vintage-gibson-l-0-l-00-value-guide/ 301
+/vintage-gibson-l-0-value-guide/ /vintage-gibson-l-0-l-00-value-guide/ 301
+/vintage-gibson-l-00-value-guide /vintage-gibson-l-0-l-00-value-guide/ 301
+/vintage-gibson-l-00-value-guide/ /vintage-gibson-l-0-l-00-value-guide/ 301
+/gibson-l-0-authentication-guide /vintage-gibson-l-0-l-00-value-guide/#authentication-checklist 301
+/gibson-l-0-authentication-guide/ /vintage-gibson-l-0-l-00-value-guide/#authentication-checklist 301
+/gibson-l-00-authentication-guide /vintage-gibson-l-0-l-00-value-guide/#authentication-checklist 301
+/gibson-l-00-authentication-guide/ /vintage-gibson-l-0-l-00-value-guide/#authentication-checklist 301

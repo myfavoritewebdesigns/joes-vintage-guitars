@@ -1,0 +1,25 @@
+{
+  "title": "Gibson Dove Authentication Guide",
+  "description": "Identify a vintage Gibson Dove: compare model features, dating evidence, original parts, repairs and reissues, with photographs from Joe’s archive.",
+  "h1": "Gibson Dove Authentication Guide",
+  "url": "/gibson-dove-authentication-guide/",
+  "date": "2026-10-29T00:00:00-07:00",
+  "model": "Gibson Dove",
+  "kind": "authentication",
+  "alt": "Natural 1968 Gibson Dove from Joe’s Reverb listing with a converted fixed saddle and reproduction bird pickguard",
+  "caption": "The 1968 natural Dove from my Reverb listing. Its fixed-saddle conversion and reproduction guard are disclosed in the listing; the article below explains the other changes.",
+  "faqs": [
+    {
+      "q": "Can a serial number authenticate my Gibson Dove?",
+      "a": "No. The number must agree with the body, neck, trim, hardware and construction. Some Gibson number sequences overlap, and an interior factory order number must be interpreted in context."
+    },
+    {
+      "q": "Does a repair mean the guitar is not authentic?",
+      "a": "No. Model identity, manufacture date and originality are separate findings. A repaired instrument may be authentic, while its changed parts and condition still need disclosure."
+    },
+    {
+      "q": "Can a modern reissue look like a vintage example?",
+      "a": "Yes. Period-style appointments are deliberately reproduced. Confirm the actual manufacturing date, serial system, construction and paperwork before using a vintage price comparison."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "pages": [
+    {
+      "url": "/gibson-country-western-authentication-guide/",
+      "images": 4,
+      "headings": 8,
+      "kind": "authentication"
+    },
+    {
+      "url": "/gibson-dove-authentication-guide/",
+      "images": 7,
+      "headings": 8,
+      "kind": "authentication"
+    },
+    {
+      "url": "/gibson-southern-jumbo-authentication-guide/",
+      "images": 7,
+      "headings": 10,
+      "kind": "authentication"
+    },
+    {
+      "url": "/vintage-gibson-country-western-value-guide/",
+      "images": 4,
+      "headings": 6,
+      "kind": "value"
+    },
+    {
+      "url": "/vintage-gibson-dove-value-guide/",
+      "images": 7,
+      "headings": 6,
+      "kind": "value"
+    },
+    {
+      "url": "/vintage-gibson-l-0-l-00-value-guide/",
+      "images": 8,
+      "headings": 10,
+      "kind": "combined"
+    },
+    {
+      "url": "/vintage-gibson-southern-jumbo-value-guide/",
+      "images": 5,
+      "headings": 6,
+      "kind": "value"
+    }
+  ],
+  "priceRows": 38,
+  "hubCards": 8,
+  "redirects": 4,
+  "checks": [
+    "routes",
+    "h1",
+    "canonical",
+    "preview noindex",
+    "internal links and fragments",
+    "unique main IDs",
+    "local optimized images and dimensions",
+    "image licenses match rendered URLs",
+    "FAQ visible/schema agreement",
+    "price reductions and rendered table values",
+    "hub links and price consistency",
+    "four consolidated L-family redirects",
+    "Hummingbird fixed wooden saddle correction"
+  ]
+}

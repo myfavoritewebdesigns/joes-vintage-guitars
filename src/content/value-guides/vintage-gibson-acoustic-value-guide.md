@@ -2,6 +2,79 @@ Vintage Gibson acoustic values differ sharply by model: an excellent, original 1
 
 I use this hub to connect the model guides and explain which table fits each guitar. The ranges were reviewed in October 2026. A repaired or modified guitar needs its own appraisal.
 
+## Choose Your Gibson Acoustic Model
+
+Choose a model card for prices and condition notes. Each card also links to its authentication guide so you can check the model and original features before choosing a range.
+
+<nav class="gavhub-model-grid" aria-label="Gibson acoustic model guides">
+  <div class="gavhub-model-group">
+    <a class="gavhub-model-card" href="/vintage-gibson-j-45-value-guide/" aria-labelledby="gavhub-j45-title">
+      <h3 id="gavhub-j45-title">Gibson J-45</h3>
+      <p>Wartime, postwar and later J-45 values from 1942 through 1979.</p>
+      <span class="gavhub-model-card__cta">View Value Guide <span aria-hidden="true">&rarr;</span></span>
+    </a>
+    <a class="gavhub-model-auth" href="/post/identify-vintage-gibson-j45-j50-sj/">Authentication Guide<span class="gavhub-sr-only">: Gibson J-45</span> <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="gavhub-model-group">
+    <a class="gavhub-model-card" href="/vintage-gibson-j-200-value-guide/" aria-labelledby="gavhub-j200-title">
+      <h3 id="gavhub-j200-title">Gibson J-200 / SJ-200</h3>
+      <p>Postwar Super Jumbo values, with bridge, bracing and originality details.</p>
+      <span class="gavhub-model-card__cta">View Value Guide <span aria-hidden="true">&rarr;</span></span>
+    </a>
+    <a class="gavhub-model-auth" href="/post/gibson-j200-model-history-authentication-guide/">Authentication Guide<span class="gavhub-sr-only">: Gibson J-200 / SJ-200</span> <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="gavhub-model-group">
+    <a class="gavhub-model-card" href="/post/vintage-gibson-hummingbird-history-value-guide/" aria-labelledby="gavhub-hummingbird-title">
+      <h3 id="gavhub-hummingbird-title">Gibson Hummingbird</h3>
+      <p>Values, model history and identification in one Hummingbird guide.</p>
+      <span class="gavhub-model-card__cta">View Value Guide <span aria-hidden="true">&rarr;</span></span>
+    </a>
+    <a class="gavhub-model-auth" href="/post/vintage-gibson-hummingbird-history-value-guide/">History &amp; Identification<span class="gavhub-sr-only">: Gibson Hummingbird</span> <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="gavhub-model-group">
+    <a class="gavhub-model-card" href="/vintage-gibson-dove-value-guide/" aria-labelledby="gavhub-dove-title">
+      <h3 id="gavhub-dove-title">Gibson Dove</h3>
+      <p>1962 to 1979 values and a separate guide to Dove construction and original parts.</p>
+      <span class="gavhub-model-card__cta">View Value Guide <span aria-hidden="true">&rarr;</span></span>
+    </a>
+    <a class="gavhub-model-auth" href="/gibson-dove-authentication-guide/">Authentication Guide<span class="gavhub-sr-only">: Gibson Dove</span> <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="gavhub-model-group">
+    <a class="gavhub-model-card" href="/vintage-gibson-southern-jumbo-value-guide/" aria-labelledby="gavhub-southern-jumbo-title">
+      <h3 id="gavhub-southern-jumbo-title">Gibson Southern Jumbo</h3>
+      <p>Banner, postwar, square-shoulder and SJ Deluxe references from 1942 to 1978.</p>
+      <span class="gavhub-model-card__cta">View Value Guide <span aria-hidden="true">&rarr;</span></span>
+    </a>
+    <a class="gavhub-model-auth" href="/gibson-southern-jumbo-authentication-guide/">Authentication Guide<span class="gavhub-sr-only">: Gibson Southern Jumbo</span> <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="gavhub-model-group">
+    <a class="gavhub-model-card" href="/vintage-gibson-country-western-value-guide/" aria-labelledby="gavhub-country-western-title">
+      <h3 id="gavhub-country-western-title">Gibson Country Western</h3>
+      <p>Country Western, SJN and SJN Deluxe values, plus original-finish identification.</p>
+      <span class="gavhub-model-card__cta">View Value Guide <span aria-hidden="true">&rarr;</span></span>
+    </a>
+    <a class="gavhub-model-auth" href="/gibson-country-western-authentication-guide/">Authentication Guide<span class="gavhub-sr-only">: Gibson Country Western</span> <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="gavhub-model-group">
+    <a class="gavhub-model-card" href="/vintage-gibson-l-0-l-00-value-guide/" aria-labelledby="gavhub-l-0-l-00-title">
+      <h3 id="gavhub-l-0-l-00-title">Gibson L-0 &amp; L-00</h3>
+      <p>One guide to the early mahogany L-0, revived black L-0 and sunburst L-00, with values and identification.</p>
+      <span class="gavhub-model-card__cta">View Combined Guide <span aria-hidden="true">&rarr;</span></span>
+    </a>
+    <a class="gavhub-model-auth" href="/vintage-gibson-l-0-l-00-value-guide/#authentication-checklist">Identification &amp; Authentication<span class="gavhub-sr-only">: Gibson L-0 and L-00</span> <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="gavhub-model-group">
+    <a class="gavhub-model-card" href="/vintage-gibson-lg-series-value-guide/" aria-labelledby="gavhub-lg-title">
+      <h3 id="gavhub-lg-title">Gibson LG-0, LG-1, LG-2 &amp; LG-3</h3>
+      <p>Individual LG model values and a guide to identifying the small-body family.</p>
+      <span class="gavhub-model-card__cta">View Value Guide <span aria-hidden="true">&rarr;</span></span>
+    </a>
+    <a class="gavhub-model-auth" href="/post/joesvintageguitarsaz-com-identify-gibson-lg-series/">Authentication Guide<span class="gavhub-sr-only">: Gibson LG-0, LG-1, LG-2 &amp; LG-3</span> <span aria-hidden="true">&rarr;</span></a>
+  </div>
+</nav>
+
+Not sure which model you have? Start with the [J-45, J-50 and Southern Jumbo identification guide](/post/identify-vintage-gibson-j45-j50-sj/) for that family. The Southern Jumbo now has its own value and authentication guides above. A J-50 still needs model-specific comparisons.
+
 ## Gibson Acoustic Values By Model
 
 Match the model and era, then read its condition requirements. The Hummingbird figures are dealer asking ranges; the other rows are guide-value ranges.
@@ -17,6 +90,13 @@ Match the model and era, then read its condition requirements. The Hummingbird f
 | LG-2 | 1950 to 1962: LG-2 | $2,700 to $5,350 |
 | LG-3 | 1950s to early 1960s: LG-3 | $3,600 to $4,450 |
 | Hummingbird | 1960 to 1962 | $7,500 to $11,000 asking |
+| [Dove](/vintage-gibson-dove-value-guide/) | 1962 to 1964: Early Dove | $7,650 to $10,200 |
+| [Southern Jumbo](/vintage-gibson-southern-jumbo-value-guide/) | 1942 to 1944: Banner; Adirondack spruce top | $16,910 to $22,250 |
+| [Country Western](/vintage-gibson-country-western-value-guide/) | 1956 to 1959: Country Western / SJN | $6,160 to $8,360 |
+| [L-00](/vintage-gibson-l-0-l-00-value-guide/#gibson-l-00-values) | 1932 to 1946: Original-production L-00; shared guide band | $5,280 to $6,600 |
+| [L-0](/vintage-gibson-l-0-l-00-value-guide/#gibson-l-0-values) | 1926 to 1928: 13½-inch body; maple category in the guide | $4,840 to $6,160 |
+
+The Dove, Southern Jumbo, Country Western, L-00 and L-0 examples above are adjusted references from the 2026 Vintage Guitar price guide; each full guide explains its condition baseline and the fixed 11% to 15% reduction applied to source rows. They are not recorded transaction prices.
 
 I identify the model, year and condition before choosing a range. The individual guides explain which configurations and repairs each table covers.
 
@@ -28,7 +108,7 @@ The [Gibson J-45 value guide](/vintage-gibson-j-45-value-guide/) covers every ye
 
 The [J-45, J-50 and Southern Jumbo identification guide](/post/identify-vintage-gibson-j45-j50-sj/) handles the family comparisons. Use it when the model itself is uncertain. A natural finish, a label or a familiar body outline needs to be read with the rest of the instrument.
 
-J-50 and Southern Jumbo guitars need model-specific comparisons. Their finish, trim and construction can differ from a J-45 of the same year.
+Use the [Southern Jumbo value guide](/vintage-gibson-southern-jumbo-value-guide/) for SJ prices and its [authentication guide](/gibson-southern-jumbo-authentication-guide/) for model and originality checks. The [Country Western value guide](/vintage-gibson-country-western-value-guide/) covers the named natural-finish SJN family. A J-50 still needs its own model-specific comparisons.
 
 The J-45 guide also labels its comparison photographs. A J-50 or Southern Jumbo photograph can help explain the family, but it isn't evidence that the J-45 table applies to the guitar pictured. Model identity comes before price selection.
 
