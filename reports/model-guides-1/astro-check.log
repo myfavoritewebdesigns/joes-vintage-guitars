@@ -1,0 +1,469 @@
+17:50:05 [content] Syncing content
+17:50:05 [content] Synced content
+17:50:05 [types] Generated 598ms
+17:50:05 [check] Getting diagnostics for Astro files in C:\Users\joeda\Documents\Codex\2026-10-29\files-pasted-by-the-user-codex\work\joes-vintage-guitars...
+[96mpublic/scripts/fsn-tool.js[0m:[93m7[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'NUMERIC_RANGES' is declared but its value is never read.
+
+[7m7[0m   var NUMERIC_RANGES = [
+[7m [0m [93m      ~~~~~~~~~~~~~~[0m
+
+[96mpublic/scripts/grsn-tool.js[0m:[93m664[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'prominent' is declared but its value is never read.
+
+[7m664[0m   function buildCTA(text, prominent) {
+[7m   [0m [93m                          ~~~~~~~~~[0m
+[96mpublic/scripts/grsn-tool.js[0m:[93m365[0m:[93m13[0m - [93mwarning[0m[90m ts(6133): [0m'altYear' is declared but its value is never read.
+
+[7m365[0m       const altYear = r.year - 1; // e.g. if decoded as Jan 1970, could be Oct/Nov/Dec 1969
+[7m   [0m [93m            ~~~~~~~[0m
+[96mpublic/scripts/grsn-tool.js[0m:[93m364[0m:[93m13[0m - [93mwarning[0m[90m ts(6133): [0m'altMonth' is declared but its value is never read.
+
+[7m364[0m       const altMonth = r.month;
+[7m   [0m [93m            ~~~~~~~~[0m
+[96mpublic/scripts/grsn-tool.js[0m:[93m179[0m:[93m28[0m - [93mwarning[0m[90m ts(6133): [0m'digits' is declared but its value is never read.
+
+[7m179[0m   function decodeFourDigit(digits, num) {
+[7m   [0m [93m                           ~~~~~~[0m
+
+[96mreference/_extract-fender-sn.cjs[0m:[93m424[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'tables' is declared but its value is never read.
+
+[7m424[0m const tables = (md.match(/^\|/gm) || []).length; // total table lines — divide later
+[7m   [0m [93m      ~~~~~~[0m
+
+[96mreference/fsn-tool.js[0m:[93m7[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'NUMERIC_RANGES' is declared but its value is never read.
+
+[7m7[0m   var NUMERIC_RANGES = [
+[7m [0m [93m      ~~~~~~~~~~~~~~[0m
+
+[96mreference/hex-to-var.mjs[0m:[93m37[0m:[93m61[0m - [93mwarning[0m[90m ts(6133): [0m'm' is declared but its value is never read.
+
+[7m37[0m   return src.replace(/<style([^>]*)>([\s\S]*?)<\/style>/g, (m, attrs, body) => {
+[7m  [0m [93m                                                            ~[0m
+
+[96mscripts/audit-section-crops.mjs[0m:[93m31[0m:[93m21[0m - [93mwarning[0m[90m ts(6133): [0m'existsSync' is declared but its value is never read.
+
+[7m31[0m import { mkdirSync, existsSync, writeFileSync } from 'node:fs';
+[7m  [0m [93m                    ~~~~~~~~~~[0m
+
+[96mscripts/extract-html-first.mjs[0m:[93m128[0m:[93m75[0m - [93mwarning[0m[90m ts(6133): [0m'origin' is declared but its value is never read.
+
+[7m128[0m   const { html, descriptorList, assetUrls } = await page.evaluate(({ sel, origin }) => {
+[7m   [0m [93m                                                                          ~~~~~~[0m
+
+[96mscripts/fix-dashes.mjs[0m:[93m84[0m:[93m32[0m - [93mwarning[0m[90m ts(6133): [0m'm' is declared but its value is never read.
+
+[7m84[0m       text = text.replace(re, (m) => { count++; return sub; });
+[7m  [0m [93m                               ~[0m
+[96mscripts/fix-dashes.mjs[0m:[93m57[0m:[93m81[0m - [93mwarning[0m[90m ts(6133): [0m'm' is declared but its value is never read.
+
+[7m57[0m   { name: "era-prefix", re: /\b(early|mid|late|pre|post)\s*[–—]\s*(\d)/gi, fn: (m, a, b) => `${a}-${b}` },
+[7m  [0m [93m                                                                                ~[0m
+[96mscripts/fix-dashes.mjs[0m:[93m56[0m:[93m95[0m - [93mwarning[0m[90m ts(6133): [0m'm' is declared but its value is never read.
+
+[7m56[0m   { name: "digit-to-word", re: /(\d)\s*[–—]\s*(Present|present|Today|today|Now|now)\b/g, fn: (m, a, b) => `${a} to ${b}` },
+[7m  [0m [93m                                                                                              ~[0m
+[96mscripts/fix-dashes.mjs[0m:[93m55[0m:[93m61[0m - [93mwarning[0m[90m ts(6133): [0m'm' is declared but its value is never read.
+
+[7m55[0m   { name: "digit-to-digit", re: /(\d)\s*[–—]\s*(\d)/g, fn: (m, a, b) => `${a} to ${b}` },
+[7m  [0m [93m                                                            ~[0m
+[96mscripts/fix-dashes.mjs[0m:[93m54[0m:[93m66[0m - [93mwarning[0m[90m ts(6133): [0m'm' is declared but its value is never read.
+
+[7m54[0m   { name: "digit-to-currency", re: /(\d)\s*[–—]\s*\$(\d)/g, fn: (m, a, b) => `${a} to $${b}` },
+[7m  [0m [93m                                                                 ~[0m
+[96mscripts/fix-dashes.mjs[0m:[93m53[0m:[93m81[0m - [93mwarning[0m[90m ts(6133): [0m'm' is declared but its value is never read.
+
+[7m53[0m   { name: "year-abbrev-range", re: /\b(19|20)(\d{2})\s*[–—]\s*(\d{2})\b/g, fn: (m, a, b, c) => `${a}${b} to ${a}${c}` },
+[7m  [0m [93m                                                                                ~[0m
+[96mscripts/fix-dashes.mjs[0m:[93m52[0m:[93m72[0m - [93mwarning[0m[90m ts(6133): [0m'm' is declared but its value is never read.
+
+[7m52[0m   { name: "decade-range", re: /\b(\d{4}s)\s*[–—]\s*(\d{4}s?)\b/g, fn: (m, a, b) => `${a} to ${b}` },
+[7m  [0m [93m                                                                       ~[0m
+
+[96mscripts/verify-martin-values.mjs[0m:[93m32[0m:[93m29[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m32[0m   article.find('img').each((i,n)=>{
+[7m  [0m [93m                            ~[0m
+[96mscripts/verify-martin-values.mjs[0m:[93m27[0m:[93m33[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m27[0m   article.find('a[href]').each((i,n)=>{
+[7m  [0m [93m                                ~[0m
+[96mscripts/verify-martin-values.mjs[0m:[93m26[0m:[93m38[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m26[0m   article.find('a[href^="#"]').each((i,n)=>check(ids.includes($(n).attr('href').slice(1)),`${g.key}: anchor`));
+[7m  [0m [93m                                     ~[0m
+[96mscripts/verify-martin-values.mjs[0m:[93m24[0m:[93m28[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m24[0m   const ids=$('[id]').map((i,n)=>$(n).attr('id')).get();
+[7m  [0m [93m                           ~[0m
+
+[96msrc/content.config.ts[0m:[93m61[0m:[93m54[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m61[0m           .array(z.object({ start: z.number(), name: z.string() }))
+[7m  [0m [93m                                                     ~[0m
+[96msrc/content.config.ts[0m:[93m61[0m:[93m36[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m61[0m           .array(z.object({ start: z.number(), name: z.string() }))
+[7m  [0m [93m                                   ~[0m
+[96msrc/content.config.ts[0m:[93m61[0m:[93m18[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m61[0m           .array(z.object({ start: z.number(), name: z.string() }))
+[7m  [0m [93m                 ~[0m
+[96msrc/content.config.ts[0m:[93m60[0m:[93m19[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m60[0m         chapters: z
+[7m  [0m [93m                  ~[0m
+[96msrc/content.config.ts[0m:[93m59[0m:[93m18[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m59[0m         seconds: z.number(),
+[7m  [0m [93m                 ~[0m
+[96msrc/content.config.ts[0m:[93m57[0m:[93m21[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m57[0m         uploadDate: z.string(),
+[7m  [0m [93m                    ~[0m
+[96msrc/content.config.ts[0m:[93m55[0m:[93m22[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m55[0m         description: z.string(),
+[7m  [0m [93m                     ~[0m
+[96msrc/content.config.ts[0m:[93m54[0m:[93m16[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m54[0m         title: z.string(),
+[7m  [0m [93m               ~[0m
+[96msrc/content.config.ts[0m:[93m53[0m:[93m13[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m53[0m         id: z.string(),
+[7m  [0m [93m            ~[0m
+[96msrc/content.config.ts[0m:[93m51[0m:[93m12[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m51[0m     video: z
+[7m  [0m [93m           ~[0m
+[96msrc/content.config.ts[0m:[93m43[0m:[93m16[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m43[0m           sub: z.boolean().default(false),
+[7m  [0m [93m               ~[0m
+[96msrc/content.config.ts[0m:[93m42[0m:[93m18[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m42[0m           label: z.string(),
+[7m  [0m [93m                 ~[0m
+[96msrc/content.config.ts[0m:[93m41[0m:[93m17[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m41[0m           href: z.string(),
+[7m  [0m [93m                ~[0m
+[96msrc/content.config.ts[0m:[93m40[0m:[93m9[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m40[0m         z.object({
+[7m  [0m [93m        ~[0m
+[96msrc/content.config.ts[0m:[93m38[0m:[93m10[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m38[0m     toc: z
+[7m  [0m [93m         ~[0m
+[96msrc/content.config.ts[0m:[93m34[0m:[93m17[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m34[0m     faqsInline: z.boolean().default(false),
+[7m  [0m [93m                ~[0m
+[96msrc/content.config.ts[0m:[93m31[0m:[93m49[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m31[0m       link: z.object({ href: z.string(), label: z.string() }).optional(),
+[7m  [0m [93m                                                ~[0m
+[96msrc/content.config.ts[0m:[93m31[0m:[93m30[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m31[0m       link: z.object({ href: z.string(), label: z.string() }).optional(),
+[7m  [0m [93m                             ~[0m
+[96msrc/content.config.ts[0m:[93m31[0m:[93m13[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m31[0m       link: z.object({ href: z.string(), label: z.string() }).optional(),
+[7m  [0m [93m            ~[0m
+[96msrc/content.config.ts[0m:[93m30[0m:[93m10[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m30[0m       a: z.string(),
+[7m  [0m [93m         ~[0m
+[96msrc/content.config.ts[0m:[93m29[0m:[93m10[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m29[0m       q: z.string(),
+[7m  [0m [93m         ~[0m
+[96msrc/content.config.ts[0m:[93m28[0m:[93m19[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m28[0m     faqs: z.array(z.object({
+[7m  [0m [93m                  ~[0m
+[96msrc/content.config.ts[0m:[93m28[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m28[0m     faqs: z.array(z.object({
+[7m  [0m [93m          ~[0m
+[96msrc/content.config.ts[0m:[93m26[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m26[0m     wpId: z.number().optional(),
+[7m  [0m [93m          ~[0m
+[96msrc/content.config.ts[0m:[93m25[0m:[93m12[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m25[0m     draft: z.boolean().default(false),
+[7m  [0m [93m           ~[0m
+[96msrc/content.config.ts[0m:[93m24[0m:[93m13[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m24[0m     author: z.string().default("Joe Dampt"),
+[7m  [0m [93m            ~[0m
+[96msrc/content.config.ts[0m:[93m23[0m:[93m14[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m23[0m     ogImage: z.string().default(""),
+[7m  [0m [93m             ~[0m
+[96msrc/content.config.ts[0m:[93m22[0m:[93m22[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m22[0m     metaDescription: z.string().default(""),
+[7m  [0m [93m                     ~[0m
+[96msrc/content.config.ts[0m:[93m21[0m:[93m24[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m21[0m     heroImageLicensed: z.boolean().default(true),
+[7m  [0m [93m                       ~[0m
+[96msrc/content.config.ts[0m:[93m20[0m:[93m58[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m20[0m     heroImageSource: z.object({ href: z.string(), label: z.string() }).optional(),
+[7m  [0m [93m                                                         ~[0m
+[96msrc/content.config.ts[0m:[93m20[0m:[93m39[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m20[0m     heroImageSource: z.object({ href: z.string(), label: z.string() }).optional(),
+[7m  [0m [93m                                      ~[0m
+[96msrc/content.config.ts[0m:[93m20[0m:[93m22[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m20[0m     heroImageSource: z.object({ href: z.string(), label: z.string() }).optional(),
+[7m  [0m [93m                     ~[0m
+[96msrc/content.config.ts[0m:[93m19[0m:[93m23[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m19[0m     heroImageCaption: z.string().optional(),
+[7m  [0m [93m                      ~[0m
+[96msrc/content.config.ts[0m:[93m18[0m:[93m19[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m18[0m     heroImageAlt: z.string().default(""),
+[7m  [0m [93m                  ~[0m
+[96msrc/content.config.ts[0m:[93m17[0m:[93m16[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m17[0m     heroImage: z.string().default(""),
+[7m  [0m [93m               ~[0m
+[96msrc/content.config.ts[0m:[93m16[0m:[93m19[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m16[0m     tags: z.array(z.string()).default([]),
+[7m  [0m [93m                  ~[0m
+[96msrc/content.config.ts[0m:[93m16[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m16[0m     tags: z.array(z.string()).default([]),
+[7m  [0m [93m          ~[0m
+[96msrc/content.config.ts[0m:[93m15[0m:[93m19[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m15[0m     categoryName: z.string(),
+[7m  [0m [93m                  ~[0m
+[96msrc/content.config.ts[0m:[93m14[0m:[93m15[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m14[0m     category: z.string(),
+[7m  [0m [93m              ~[0m
+[96msrc/content.config.ts[0m:[93m13[0m:[93m14[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m13[0m     excerpt: z.string().default(""),
+[7m  [0m [93m             ~[0m
+[96msrc/content.config.ts[0m:[93m12[0m:[93m15[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m12[0m     modified: z.coerce.date(),
+[7m  [0m [93m              ~[0m
+[96msrc/content.config.ts[0m:[93m11[0m:[93m14[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m11[0m     pubDate: z.coerce.date(),
+[7m  [0m [93m             ~[0m
+[96msrc/content.config.ts[0m:[93m10[0m:[93m15[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m10[0m     seoTitle: z.string().optional(),
+[7m  [0m [93m              ~[0m
+[96msrc/content.config.ts[0m:[93m9[0m:[93m12[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m9[0m     title: z.string(),
+[7m [0m [93m           ~[0m
+[96msrc/content.config.ts[0m:[93m8[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m8[0m   schema: z.object({
+[7m [0m [93m          ~[0m
+[96msrc/content.config.ts[0m:[93m1[0m:[93m28[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m1[0m import { defineCollection, z } from "astro:content";
+[7m [0m [93m                           ~[0m
+
+[96msrc/components/Guide.astro[0m:[93m198[0m:[93m15[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m198[0m       <script type="application/ld+json" set:html={JSON.stringify(shipVideoSchema)} />
+[7m   [0m [93m              ~~~~[0m
+
+[96msrc/layouts/GibsonGuideLayout.astro[0m:[93m52[0m:[93m90[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m52[0m       <link rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m  [0m [93m                                                                                         ~~~~~[0m
+
+[96msrc/pages/about-me.astro[0m:[93m4[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'SectionHeader' is declared but its value is never read.
+
+[7m4[0m import SectionHeader from "../components/primitives/SectionHeader.astro";
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/pages/fender-guitars-serial-number-guide.astro[0m:[93m250[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m250[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m   [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/fender-neck-dates.astro[0m:[93m199[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m199[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m   [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/fender-pot-codes.astro[0m:[93m195[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m195[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m   [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/fender-stratocaster-dating-guide.astro[0m:[93m63[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'G67' is declared but its value is never read.
+
+[7m63[0m const G67 = "1967-fender-stratocaster-authentication-guide";
+[7m  [0m [93m      ~~~[0m
+[96msrc/pages/fender-stratocaster-dating-guide.astro[0m:[93m61[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'G63' is declared but its value is never read.
+
+[7m61[0m const G63 = "1963-fender-stratocaster-authentication-guide";
+[7m  [0m [93m      ~~~[0m
+
+[96msrc/pages/free-appraisal.astro[0m:[93m90[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m90[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m  [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/how-to-read-gibson-serial-numbers.astro[0m:[93m508[0m:[93m13[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m508[0m     <script src="/scripts/decoder.js" defer></script>
+[7m   [0m [93m            ~~~[0m
+[96msrc/pages/how-to-read-gibson-serial-numbers.astro[0m:[93m506[0m:[93m13[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m506[0m     <script src="/scripts/special-formats.js" defer></script>
+[7m   [0m [93m            ~~~[0m
+
+[96msrc/pages/index.astro[0m:[93m84[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m84[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m  [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/sell-a-guitar-collection.astro[0m:[93m330[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m330[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m   [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/sell-an-amplifier-or-effect.astro[0m:[93m6[0m:[93m1[0m - [93mwarning[0m[90m ts(6192): [0mAll imports in import declaration are unused.
+
+[7m6[0m import { contact, hrefs } from "../config/site";
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/pages/sell-my-gibson-guitar.astro[0m:[93m149[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m149[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m   [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/sell-my-gretsch-guitar.astro[0m:[93m103[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m103[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m   [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/sell-my-guild-guitar.astro[0m:[93m157[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m157[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m   [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/sell-my-martin-guitar.astro[0m:[93m133[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m133[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m   [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/sell-my-national-guitar.astro[0m:[93m68[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m68[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m  [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/sell-your-vintage-dangelico-guitar-in-the-us.astro[0m:[93m87[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m87[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m  [0m [93m                                                                                                 ~~~~~[0m
+
+[96msrc/pages/vintage-fender-stratocaster-value-guide.astro[0m:[93m9[0m:[93m1[0m - [93mwarning[0m[90m ts(6192): [0mAll imports in import declaration are unused.
+
+[7m9[0m import { contact, hrefs } from "../config/site";
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/pages/vintage-fender-stratocaster-value-guide.astro[0m:[93m5[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'Button' is declared but its value is never read.
+
+[7m5[0m import Button from "../components/primitives/Button.astro";
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/pages/post/[slug].astro[0m:[93m593[0m:[93m102[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
+
+[7m593[0m       <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+[7m   [0m [93m                                                                                                     ~~~~~[0m
+
+[96mwork/model-guides-1/contact-sheets.mjs[0m:[93m4[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'pathToFileURL' is declared but its value is never read.
+
+[7m4[0m import { pathToFileURL } from 'node:url';
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mwork/model-guides-1/contact-sheets.mjs[0m:[93m2[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'path' is declared but its value is never read.
+
+[7m2[0m import path from 'node:path';
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mwork/model-guides-1/draft-data.mjs[0m:[93m18[0m:[93m42[0m - [93mwarning[0m[90m ts(6133): [0m'key' is declared but its value is never read.
+
+[7m18[0m    const photo=Object.entries(ph).find(([key,x])=>x===v)?.[0];
+[7m  [0m [93m                                         ~~~[0m
+[96mwork/model-guides-1/draft-data.mjs[0m:[93m17[0m:[93m29[0m - [93mwarning[0m[90m ts(6133): [0m'k' is declared but its value is never read.
+
+[7m17[0m   let s=JSON.stringify(arr,(k,v)=>{
+[7m  [0m [93m                            ~[0m
+[96mwork/model-guides-1/draft-data.mjs[0m:[93m7[0m:[93m101[0m - [93mwarning[0m[90m ts(6385): [0m'None' is deprecated.
+
+[7m7[0m  const js=ts.transpileModule(s,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.None}}).outputText;
+[7m [0m [93m                                                                                                    ~~~~[0m
+
+[96mwork/model-guides-1/evidence.mjs[0m:[93m30[0m:[93m95[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m30[0m    for(const str of strings){const $=load(str);const paras=$('p');if(paras.length)paras.each((i,e)=>add(s.id,plain($(e).html()),authority));else if(plain(str))add(s.id,plain(str),authority);}
+[7m  [0m [93m                                                                                              ~[0m
+
+[96mwork/model-guides-1/package-reports.mjs[0m:[93m1[0m:[93m26[0m - [93mwarning[0m[90m ts(6133): [0m'guides' is declared but its value is never read.
+
+[7m1[0m import fs from 'node:fs';import {guides} from './draft-data.mjs';
+[7m [0m [93m                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mwork/model-guides-1/refine-drafts.mjs[0m:[93m2[0m:[93m16[0m - [93mwarning[0m[90m ts(6133): [0m'ph' is declared but its value is never read.
+
+[7m2[0m import {guides,ph,save} from './draft-data.mjs';
+[7m [0m [93m               ~~[0m
+
+[96mwork/model-guides-1/schema-audit.mjs[0m:[93m12[0m:[93m50[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m12[0m   const visible=$('.mg-guide #faq details').map((i,e)=>({q:text($(e).find('.fusion-toggle-heading').html()),a:text($(e).find('.faqr-toggle__body').html())})).get();
+[7m  [0m [93m                                                 ~[0m
+[96mwork/model-guides-1/schema-audit.mjs[0m:[93m9[0m:[93m49[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m9[0m   $('script[type="application/ld+json"]').each((i,e)=>walk(JSON.parse($(e).text())));
+[7m [0m [93m                                                ~[0m
+
+[96mwork/model-guides-1/static-audit.mjs[0m:[93m41[0m:[93m146[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m41[0m for(const slug of [...all.map(g=>'post/'+g.slug),...touched]){const $=load(fs.readFileSync(`dist/${slug}/index.html`,'utf8'));$('a[href]').each((i,e)=>{const href=$(e).attr('href');if((!href.startsWith('/')&&!href.startsWith('#'))||href.startsWith('//'))return;const url=new URL(href,`https://local.test/${slug}/`),target=url.pathname,hash=url.hash.slice(1);if(!pageMap.has(target)&&!fs.existsSync('dist'+target))broken.push({page:slug,href});else if(hash&&pageMap.has(target)){const d=load(fs.readFileSync('dist/'+pageMap.get(target),'utf8'));if(!d(`[id="${decodeURIComponent(hash)}"],a[name="${decodeURIComponent(hash)}"]`).length)broken.push({page:slug,href,reason:'fragment'});}});}
+[7m  [0m [93m                                                                                                                                                 ~[0m
+[96mwork/model-guides-1/static-audit.mjs[0m:[93m29[0m:[93m194[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m29[0m  rows.push({slug:g.slug,title,titleLength:title.length,description,descriptionLength:description.length,bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor:bodyCount,h2:a.find('h2').map((i,e)=>$(e).text()).get(),photos:a.find('img').length,exactModelPhotos:a.find('img').length-1,comparisonPhotos:0,existingAuthorPortrait:1,inboundCount:inbound.length,inboundSources:inbound,faqCount:g.faqs.length,schemas:[...new Set(types)],sellLabel:`Sell My ${g.brand}`,sellHref:`/sell-my-${g.brand.toLowerCase()}-guitar/`});
+[7m  [0m [93m                                                                                                                                                                                                 ~[0m
+[96mwork/model-guides-1/static-audit.mjs[0m:[93m25[0m:[93m63[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m25[0m  const types=[];$('script[type="application/ld+json"]').each((i,e)=>{try{const obj=JSON.parse($(e).text());const walk=o=>{if(o&&typeof o==='object'){if(o['@type'])types.push(o['@type']);Object.values(o).forEach(walk);}};walk(obj);}catch{}});
+[7m  [0m [93m                                                              ~[0m
+
+Result (379 files):
+- 0 errors
+- 0 warnings
+- 103 hints

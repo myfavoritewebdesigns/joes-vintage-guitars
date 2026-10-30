@@ -1,0 +1,356 @@
+{
+  "note": "Primary manufacturer catalogs, official histories/serial tables, firsthand instrument studies and Joe’s own photographs. References are printed on authentication pages only. Historical research comparisons are not exact-date guarantees.",
+  "sources": [
+    {
+      "id": "white-falcon-source-1",
+      "family": "white-falcon",
+      "title": "Gretsch’s White Falcon History",
+      "href": "https://www.gretsch.com/2020/01/webster-designed-gretsch-white-falcon-turns-60/",
+      "note": "Webster, the 1954 presentation, 1955 lineup, stereo introduction and Electrotone development.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "white-falcon-source-2",
+      "family": "white-falcon",
+      "title": "Gretsch 1978 Catalog",
+      "href": "https://acousticmusic.org/wp-content/uploads/2016/02/Gretsch-1978-Catalog.pdf",
+      "note": "PDF pages 3 and 4: 7593, 7594 and 7595 dimensions, neck joins and equipment.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "white-falcon-source-3",
+      "family": "white-falcon",
+      "title": "Gretsch’s Early Serial History",
+      "href": "https://blog.gretschguitars.com/2016/05/gretschtech-serial-numbers-1930s-1966/",
+      "note": "Sequential systems, serial locations and reused labels.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "white-falcon-source-4",
+      "family": "white-falcon",
+      "title": "Gretsch’s Modern Serial Format",
+      "href": "https://blog.gretschguitars.com/2013/07/gretschtech-understanding-modern-gretsch-serial-numbers/",
+      "note": "Factory prefixes and year/month fields on later instruments.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "white-falcon-source-5",
+      "family": "white-falcon",
+      "title": "Joe’s Gretsch Pickup Guide",
+      "href": "/gretsch-pickup-dating-guide/",
+      "note": "Pickup-family identification and model-specific timing cautions.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "white-falcon-source-6",
+      "family": "white-falcon",
+      "title": "Joe’s White Falcon Label Example",
+      "href": "/gretsch-labels-and-serial-number-locations/",
+      "note": "The photographed 8.6014 label and its documented 1970s context.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "white-falcon-source-7",
+      "family": "white-falcon",
+      "title": "Firsthand Study Of A 1958 White Falcon",
+      "href": "https://www.premierguitar.com/gear/1958-gretsch-6136-white-falcon",
+      "note": "The instrument’s caretakers document the pickup, logo, fingerboard-inlay and bridge changes visible on their 1958 example.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "white-falcon-source-8",
+      "family": "white-falcon",
+      "title": "Gretsch’s 1958 Design Retrospective",
+      "href": "https://blog.gretschguitars.com/2017/02/great-8-58/",
+      "note": "Manufacturer explanation of the Falcon’s transitional tone-knob and tone-switch arrangement, presented with later recreations of the design.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "country-gentleman-source-1",
+      "family": "country-gentleman",
+      "title": "Gretsch Company Timeline",
+      "href": "https://www.gretsch.com/about/",
+      "note": "The 1957 Country Gentleman presentation.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "country-gentleman-source-2",
+      "family": "country-gentleman",
+      "title": "Gretsch 1968 Catalog",
+      "href": "https://acousticmusic.org/wp-content/uploads/2016/02/Gretsch-1968-Catalog.pdf",
+      "note": "Printed page 5: 6122 Electrotone body, pickup and mute equipment.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "country-gentleman-source-3",
+      "family": "country-gentleman",
+      "title": "Gretsch 1978 Catalog",
+      "href": "https://acousticmusic.org/wp-content/uploads/2016/02/Gretsch-1978-Catalog.pdf",
+      "note": "PDF page 6: 7670 construction, open sound holes and omitted standby switch.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "country-gentleman-source-4",
+      "family": "country-gentleman",
+      "title": "Gretsch Product Dating",
+      "href": "https://gretschguitars.com/support/product-dating",
+      "note": "Published chart placement of 35,000-series numbers; conflict retained for Joe’s review.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "country-gentleman-source-5",
+      "family": "country-gentleman",
+      "title": "Joe’s Body And Inlay Guide",
+      "href": "/gretsch-body-binding-and-inlays/",
+      "note": "Model proportions, cutaway changes and limits of individual features.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "country-gentleman-source-6",
+      "family": "country-gentleman",
+      "title": "Joe’s Pickup And Control References",
+      "href": "/gretsch-pickup-dating-guide/",
+      "note": "Filter’Tron, Super’Tron and removable-cover distinctions.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "country-gentleman-source-7",
+      "family": "country-gentleman",
+      "title": "Gretsch Early Numbering History",
+      "href": "https://blog.gretschguitars.com/2016/05/gretschtech-serial-numbers-1930s-1966/",
+      "note": "Number locations and reused-label exceptions.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "country-gentleman-source-8",
+      "family": "country-gentleman",
+      "title": "Scotty Moore Archive: Country Gentleman Study",
+      "href": "https://www.scottymoore.net/ep64Gretsch.html",
+      "note": "Photographed instrument and technical notes on mixed pickups, screw and flip-up mutes, and approximate mid-1960s transitions.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "anniversary-source-1",
+      "family": "anniversary",
+      "title": "Gretsch 1968 Catalog",
+      "href": "https://acousticmusic.org/wp-content/uploads/2016/02/Gretsch-1968-Catalog.pdf",
+      "note": "Printed page 26: model-to-finish mapping, Single and Double equipment, HiLo’Trons and Space Control bridges.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "anniversary-source-2",
+      "family": "anniversary",
+      "title": "Gretsch 2006 Catalog",
+      "href": "https://assets.ctfassets.net/3xaxfhpie9jb/5cyb04bUhGs8gSQ8sq8S0q/da3d4b7448b60bd15a82b2e6de07c9da/2006-Gretsch-Catalog.pdf",
+      "note": "The 1958 commemorative origin and manufacturer-documented later Anniversary models.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "anniversary-source-3",
+      "family": "anniversary",
+      "title": "Georgia Southern’s Gretsch Collection",
+      "href": "https://www.georgiasouthern.edu/campuses/visit/gretsch-museum/collection",
+      "note": "The collection’s later American 7560 Anniversary example.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "anniversary-source-4",
+      "family": "anniversary",
+      "title": "Gretsch Product Dating",
+      "href": "https://gretschguitars.com/support/product-dating",
+      "note": "Sequential chart placement and changes in label and date-code systems.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "anniversary-source-5",
+      "family": "anniversary",
+      "title": "Joe’s Pickup Reference",
+      "href": "/gretsch-pickup-dating-guide/",
+      "note": "Visible HiLo’Tron and Filter’Tron differences and limits of cover identification.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "anniversary-source-6",
+      "family": "anniversary",
+      "title": "Joe’s Gretsch Body Guide",
+      "href": "/gretsch-body-binding-and-inlays/",
+      "note": "Anniversary branches, inlays and binding inspection context.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "anniversary-source-7",
+      "family": "anniversary",
+      "title": "Gretsch Early Serial History",
+      "href": "https://blog.gretschguitars.com/2016/05/gretschtech-serial-numbers-1930s-1966/",
+      "note": "The need to retain serial-location context and reused-label exceptions.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "anniversary-source-8",
+      "family": "anniversary",
+      "title": "Firsthand Examination Of A 1960 Single Anniversary",
+      "href": "https://archive.12fret.com/sold/1960-gretsch-6124-single-anniversary/",
+      "note": "Measured body and scale, rosewood board, HiLo’Tron equipment, and the earlier ebony/Filter’Tron comparison.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "starfire-source-1",
+      "family": "starfire",
+      "title": "Guild 1960 Catalog",
+      "href": "https://www.gad.net/Blog/wp-content/uploads/2019/08/Guild-1960-Catalog.pdf",
+      "note": "The first single- and double-pickup Starfires and period equipment.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "starfire-source-2",
+      "family": "starfire",
+      "title": "Guild 1966 Catalog",
+      "href": "https://acousticmusic.org/wp-content/uploads/2016/02/Guild-1966-Catalog.pdf",
+      "note": "Starfire family, Anti-Hum pickups, XII, bass and deluxe appointments.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "starfire-source-3",
+      "family": "starfire",
+      "title": "Guild’s Published Serial Records",
+      "href": "https://guildguitars.com/guild-support/history-of-my-guild/",
+      "note": "Shared sequences, model-prefix ranges and the XII DC101 to DC586 record for 1966.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "starfire-source-4",
+      "family": "starfire",
+      "title": "Documented 1961 Starfire III",
+      "href": "https://www.ggjaguar.com/sf-3.htm",
+      "note": "Firsthand instrument study of DeArmond equipment and early vibrato arrangements.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "starfire-source-5",
+      "family": "starfire",
+      "title": "Documented 1962 Starfire III",
+      "href": "https://www.ggjaguar.com/62sf-3.htm",
+      "note": "Binding and pickup comparison for the following production period.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "starfire-source-6",
+      "family": "starfire",
+      "title": "Westerly Starfire IV Feature Study",
+      "href": "https://www.ggjaguar.com/sf-4%20features.htm",
+      "note": "Approximate bridge, tuner, pickup, marker and control changes; exceptions explicitly retained.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "starfire-source-7",
+      "family": "starfire",
+      "title": "Joe’s Guild Factory Eras",
+      "href": "/guild-factory-eras/",
+      "note": "The 1967 move, later factory transitions and printed-label limitations.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "starfire-source-8",
+      "family": "starfire",
+      "title": "Joe’s Guild Hardware Reference",
+      "href": "/guild-pickup-and-hardware-dating-guide/",
+      "note": "Bass pickups, compact Anti-Hum, HB-1 and modern-name distinctions.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "national-source-1",
+      "family": "national",
+      "title": "National Reso-Phonic Company History",
+      "href": "https://www.nationalguitars.com/about-5",
+      "note": "Original Dopyera context and the separate manufacturer founded in 1989.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "national-source-2",
+      "family": "national",
+      "title": "National’s Current Tricone Description",
+      "href": "https://www.nationalguitars.com/style-1",
+      "note": "Resonator design context and later instruments explicitly presented as reissues.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "national-source-3",
+      "family": "national",
+      "title": "Documented National Tricone Examples",
+      "href": "https://guitars.com/archived-inventory/National/nationals.html",
+      "note": "Firsthand Style 3 and Style 4 examples, engraving names and square-neck construction.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "national-source-4",
+      "family": "national",
+      "title": "National Model And Serial Research",
+      "href": "https://guitarhq.com/national.html",
+      "note": "Observed body, neck, resonator and serial distinctions; approximate chronology is not treated as a universal decoder.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "national-source-5",
+      "family": "national",
+      "title": "Joe’s National Buying Guide",
+      "href": "/sell-my-national-guitar/",
+      "note": "The model families and photo information used for an individual appraisal.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "national-source-6",
+      "family": "national",
+      "title": "Documented Early Steel Style O",
+      "href": "https://retrofret.com/products/national-style-0-resophonic-guitar-1930-4161",
+      "note": "Firsthand construction description of a steel-bodied example identified as 1930.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    },
+    {
+      "id": "national-source-7",
+      "family": "national",
+      "title": "Documented Early Brass Style O",
+      "href": "https://retrofret.com/products/national-style-0-resophonic-guitar-1930-10081",
+      "note": "Firsthand construction description of a brass-bodied example identified as 1930.",
+      "accessed": "2026-10-29",
+      "purpose": "Technical identification only; no external pricing used"
+    }
+  ]
+}

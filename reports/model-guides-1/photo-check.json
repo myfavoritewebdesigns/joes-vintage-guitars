@@ -1,0 +1,577 @@
+{
+  "count": 52,
+  "photos": [
+    {
+      "asset": "src/assets/images/model-guides-1/falcon-01.jpg",
+      "driveId": "12TM0i1o0E8NWeDr1dvbcYmaEXLXsBPl4",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/gretsch-dating/white-label.jpg",
+      "driveId": "1M83Z_42D0BLOTyTzbcosQD_3wx9WNgxZ",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/falcon-06.jpg",
+      "driveId": "1qr_RJylHnr-Z2zE8XML9CvXW0zs409ss",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/falcon-08.jpg",
+      "driveId": "1VOjr_QZVWBzPTWGtC9duVh3y7xn9ms6D",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/falcon-09.jpg",
+      "driveId": "1vDXd-nUdayF-CUsNkWRMcrUv62m52yaM",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/gretsch-dating/white-bridge.jpg",
+      "driveId": "1giJvsQsTuw_mOsGOGyiMtERfMcLUycdT",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/falcon-15.jpg",
+      "driveId": "1-S-DMh8rJd3KFu3LXkDxoz1P_3SBKDCs",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/falcon-16.jpg",
+      "driveId": "1IIGo05mJsHEUr_Z4mv-mq4TJuciU-029",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/falcon-20.jpg",
+      "driveId": "15xSpOuTu-2095trDM239FSelyilpGo2d",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        4160,
+        6240
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/gentleman-03.jpg",
+      "driveId": "1R8akCx8HdRTdJUfgA624PJM0OPdouqCY",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/gentleman-04.jpg",
+      "driveId": "1eEXyOAItW54IrUug4_B2LpxsdMgUlE-H",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/gentleman-05.jpg",
+      "driveId": "1QE4w6pXno10FByg68MFCVdO_dLNRmm9q",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/gentleman-07.jpg",
+      "driveId": "1jIrsaC3dhNafn7plJmXSD24iciX-C2Up",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        4160,
+        6240
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/gentleman-09.jpg",
+      "driveId": "15qVcTBzaDOn3SVrROjEJhYzboKYvKzHU",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        4160,
+        6240
+      ]
+    },
+    {
+      "asset": "src/assets/images/gretsch-dating/gent-nameplate.jpg",
+      "driveId": "1-NhJVlmdSSEB3oIloglr9OtMqm6B9eLM",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/gentleman-11.jpg",
+      "driveId": "1nkTC9ZWnN2zDw_g0AFD0lMHgwsVsvy1T",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/gentleman-13.jpg",
+      "driveId": "1TzPQTgktOF6QVDly8mNPhpx3BUlqiUcy",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/anniversary-01.jpg",
+      "driveId": "18tZxGOCSTQRjdQAJYugtMQ4hxnU6Unm_",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        3020,
+        4028
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/anniversary-02.jpg",
+      "driveId": "1aAZ5kK5E60Cvgyl8Aw0F5UDMYf55u1Zq",
+      "shaMatches": true,
+      "originalBytesPreserved": false,
+      "transformation": "EXIF orientation only; full pixel dimensions retained",
+      "dimensions": [
+        3024,
+        4032
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/anniversary-04.jpg",
+      "driveId": "15BBAV-5n6s97SXfyYeGk6UmKIqNWZjfM",
+      "shaMatches": true,
+      "originalBytesPreserved": false,
+      "transformation": "EXIF orientation only; full pixel dimensions retained",
+      "dimensions": [
+        3024,
+        4032
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/anniversary-05.jpg",
+      "driveId": "1Px6RWJkfSuFR55kMBvyYNngZLjKz5VXg",
+      "shaMatches": true,
+      "originalBytesPreserved": false,
+      "transformation": "EXIF orientation only; full pixel dimensions retained",
+      "dimensions": [
+        3024,
+        4032
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/anniversary-06.jpg",
+      "driveId": "1a8pEtgqA5PnsYXyT-xgKwLLo3-oCF3yI",
+      "shaMatches": true,
+      "originalBytesPreserved": false,
+      "transformation": "EXIF orientation only; full pixel dimensions retained",
+      "dimensions": [
+        3024,
+        4032
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/anniversary-07.jpg",
+      "driveId": "1ihvSIF2tR6O9AKzFacHpFyIpB4RZfCwv",
+      "shaMatches": true,
+      "originalBytesPreserved": false,
+      "transformation": "EXIF orientation only; full pixel dimensions retained",
+      "dimensions": [
+        3024,
+        4032
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/starfire-01.jpg",
+      "driveId": "1KAjPFQTt7tIiDhCL9u9rJ5-B-uhPyKEL",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/starfire-02.jpg",
+      "driveId": "1KTAv3hVDgtUeoGst4Dd_JrxbQ2_Z0YQN",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        4160,
+        6240
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/starfire-03.jpg",
+      "driveId": "10DLLnIoRdmC-gwgqJ3ZtMMfaMV9YZzrz",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/starfire-04.jpg",
+      "driveId": "1TpZfnON0JWIUApvJfN07RwdTW4Qil0dT",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/starfire-05.jpg",
+      "driveId": "11KRLHNUdO6Vx4cQNpUlll56fU4x-zzS-",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/starfire-xii-02.jpg",
+      "driveId": "1QZ6sUudOBAEMlLPCFHChbp6NLI8R5Irf",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/starfire-xii-03.jpg",
+      "driveId": "1jg37X4rbFWG_wXwvEtEu-mqpWqeNlBvH",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/starfire-xii-04.jpg",
+      "driveId": "1GeIQwfH0XXxTJiHWnBsfKOy_iF7GWklc",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/starfire-xii-05.jpg",
+      "driveId": "1Qz8LtQcpXRkuOrLm6YgncZRy86yn99hL",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        3648,
+        5472
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/starfire-xii-06.jpg",
+      "driveId": "1PiLGg1stU2JXtYYiPaZexXpt4TE4tqaI",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/starfire-xii-07.jpg",
+      "driveId": "1nNRHGrbqZwnQtjWwRUFcTNWb8DcWcVAZ",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/duolian-02.jpg",
+      "driveId": "1WohnOD9iQzOKLi9k8nKrE1kX1-yAAGSa",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        4160,
+        6240
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/duolian-07.jpg",
+      "driveId": "1s3YTolY8rvZLY3KPczks04U8mQwC69y8",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        4160,
+        6240
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/duolian-08.jpg",
+      "driveId": "1aieBxXyTC88E_WjzunLO35N22UWyqNS0",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/duolian-10.jpg",
+      "driveId": "1EYNvJAvGMEA37re-X4QD47EvRrftRStK",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5977,
+        3985
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/triolian-02.jpg",
+      "driveId": "1wjaMWCmFSYoFPNYJSWlMLTYmS7MuShRE",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/triolian-05.jpg",
+      "driveId": "12usVLusDiU-IK1-ccsC_rzW_Pfv1LyV8",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        6240,
+        4160
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/triolian-12.jpg",
+      "driveId": "1g4sJUFLkyWRUCKj_f6X2ZTGvDfUZat76",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        4160,
+        6240
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/style-o-11.jpg",
+      "driveId": "198fp3thjZURq8g5fNazMkoKU01Wwn5iC",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/style-o-12.jpg",
+      "driveId": "158XgvBpw-JLCUYUIjRF98f5oFPjMwMm3",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/style-o-14.jpg",
+      "driveId": "1WNXHEULhM38aDwplSm2djn1sqPqF5u9v",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/style-o-15.jpg",
+      "driveId": "1R9uIzqmll5RuyYAjnUxyoT0yii-fd9nf",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        3648,
+        5472
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/style-o-16.jpg",
+      "driveId": "1eRKMX4mGmR7cWFDrLFd44YAXOrLGXiW-",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/style-3-07.jpg",
+      "driveId": "15lD1Z4IB22JMi2-FuJ2DjxDr-ggQcEg-",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/style-3-08.jpg",
+      "driveId": "1-1TdpzVKc95ZzXr9xOyDbvmrdv_ZZzy9",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5332,
+        3555
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/style-3-12.jpg",
+      "driveId": "16QeaewMn-pT4bYDfmnFldJgm2ixkh5yg",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/style-3-16.jpg",
+      "driveId": "18uqm4UFfTBIwUUMzFR4fmIU8e4AJnORs",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/style-3-18.jpg",
+      "driveId": "1PKkfzI00rRH8TFYi4vZAkF4J_5ldyZ_j",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5472,
+        3648
+      ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/style-3-20.jpg",
+      "driveId": "1raDs4mmAO6cX1-DF4Lq3punf4vUYFpWX",
+      "shaMatches": true,
+      "originalBytesPreserved": true,
+      "transformation": "None; original bytes preserved",
+      "dimensions": [
+        5464,
+        3643
+      ]
+    }
+  ]
+}

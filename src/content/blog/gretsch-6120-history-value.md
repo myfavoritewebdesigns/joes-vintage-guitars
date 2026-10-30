@@ -17,6 +17,9 @@ The 1960 model year was an important refinement for the 6120, featuring the slim
 
 Few instruments are as tied to the ‘Golden Era’ of rock ‘n’ roll as the **Gretsch 6120**. From its ‘Western Orange’ finish to its ‘Filter’Tron’ twang, the 6120 is a high-value piece of American history. **At Joe’s Vintage Guitars, we are currently looking to add original 1950s and 60s 6120s to our collection. If you have an instrument you’re considering selling, we provide expert [Gretsch guitar appraisals](/free-appraisal/gretsch/) and offer [top-dollar payouts](/) for well-preserved examples.** If you’re a collector or have recently inherited one, knowing its specific history is what tells you its real market value.
 
+
+<p>For a White Falcon, compare the <a href="/post/gretsch-white-falcon-authentication-guide/">body and mono or stereo configuration</a> before using the <a href="/post/gretsch-white-falcon-value-guide/">White Falcon price ranges</a>. A Country Gentleman needs its <a href="/post/gretsch-country-gentleman-authentication-guide/">6122 or 7670 details checked</a> against the matching <a href="/post/gretsch-country-gentleman-value-guide/">Country Gentleman value group</a>. With an Anniversary, establish the <a href="/post/gretsch-anniversary-authentication-guide/">Single or Double configuration</a> before comparing <a href="/post/gretsch-anniversary-value-guide/">Anniversary prices by period and finish</a>.</p>
+
 ## Year-by-Year Evolution & Specifications
 
 The “Golden Era” of the 6120 (1954 to 1961) is defined by rapid changes in aesthetics and internal construction. Identifying these shifts is the first step in determining a guitar’s market value.
