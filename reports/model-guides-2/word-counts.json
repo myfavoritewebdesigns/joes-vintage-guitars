@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "epiphone-broadway-value-guide",
+    "title": 54,
+    "description": 153,
+    "bodyWords": 1214,
+    "minimum": 1200
+  },
+  {
+    "slug": "epiphone-broadway-authentication-guide",
+    "title": 55,
+    "description": 148,
+    "bodyWords": 1945,
+    "minimum": 1800
+  },
+  {
+    "slug": "epiphone-casino-value-guide",
+    "title": 53,
+    "description": 153,
+    "bodyWords": 1262,
+    "minimum": 1200
+  },
+  {
+    "slug": "epiphone-casino-authentication-guide",
+    "title": 53,
+    "description": 152,
+    "bodyWords": 1875,
+    "minimum": 1800
+  },
+  {
+    "slug": "epiphone-deluxe-value-guide",
+    "title": 58,
+    "description": 153,
+    "bodyWords": 1263,
+    "minimum": 1200
+  },
+  {
+    "slug": "epiphone-deluxe-authentication-guide",
+    "title": 55,
+    "description": 155,
+    "bodyWords": 2006,
+    "minimum": 1800
+  },
+  {
+    "slug": "epiphone-emperor-value-guide",
+    "title": 53,
+    "description": 147,
+    "bodyWords": 1235,
+    "minimum": 1200
+  },
+  {
+    "slug": "epiphone-emperor-authentication-guide",
+    "title": 54,
+    "description": 152,
+    "bodyWords": 1956,
+    "minimum": 1800
+  },
+  {
+    "slug": "epiphone-olympic-value-guide",
+    "title": 59,
+    "description": 154,
+    "bodyWords": 1297,
+    "minimum": 1200
+  },
+  {
+    "slug": "epiphone-olympic-authentication-guide",
+    "title": 59,
+    "description": 152,
+    "bodyWords": 1908,
+    "minimum": 1800
+  },
+  {
+    "slug": "epiphone-sorrento-value-guide",
+    "title": 51,
+    "description": 155,
+    "bodyWords": 1230,
+    "minimum": 1200
+  },
+  {
+    "slug": "epiphone-sorrento-authentication-guide",
+    "title": 55,
+    "description": 150,
+    "bodyWords": 1898,
+    "minimum": 1800
+  },
+  {
+    "slug": "epiphone-triumph-value-guide",
+    "title": 53,
+    "description": 151,
+    "bodyWords": 1218,
+    "minimum": 1200
+  },
+  {
+    "slug": "epiphone-triumph-authentication-guide",
+    "title": 56,
+    "description": 151,
+    "bodyWords": 1872,
+    "minimum": 1800
+  },
+  {
+    "slug": "epiphone-windsor-value-guide",
+    "title": 50,
+    "description": 153,
+    "bodyWords": 1267,
+    "minimum": 1200
+  },
+  {
+    "slug": "epiphone-windsor-authentication-guide",
+    "title": 51,
+    "description": 150,
+    "bodyWords": 1883,
+    "minimum": 1800
+  },
+  {
+    "slug": "epiphone-zephyr-value-guide",
+    "title": 52,
+    "description": 153,
+    "bodyWords": 1230,
+    "minimum": 1200
+  },
+  {
+    "slug": "epiphone-zephyr-authentication-guide",
+    "title": 54,
+    "description": 148,
+    "bodyWords": 1950,
+    "minimum": 1800
+  }
+]

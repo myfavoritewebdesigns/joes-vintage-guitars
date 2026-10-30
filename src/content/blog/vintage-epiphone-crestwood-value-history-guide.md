@@ -13,7 +13,7 @@ metaDescription: "Epiphone's first original solid-body, from 1958. How Crestwood
 ogImage: "/images/blog/vintage-epiphone-crestwood-value-history-guide/1961-epiphone-crestwood-symmetrical-headstock-scaled.jpg"
 wpId: 18185
 ---
-The Gibson SG and Les Paul usually get all the attention, but the **Epiphone Crestwood** is worth a close look if you care about mid-century solid-body electrics. It was built in the Kalamazoo factory during the “Golden Era” of guitar manufacturing, and it was Epiphone’s flagship original design. It was more than a Gibson alternative; it had technical features and a sound that stood on its own against the more expensive SGs. We’re always looking to add nice vintage USA-made Epiphone guitars to our collection. Contact us to sell or for a [free appraisal!](/free-appraisal/)
+The Gibson SG and Les Paul usually get all the attention, but the **Epiphone Crestwood** is worth a close look if you care about mid-century solid-body electrics. It was built in the Kalamazoo factory during the “Golden Era” of guitar manufacturing, and it was Epiphone’s flagship original design. It was more than a Gibson alternative; it had technical features and a sound that stood on its own against the more expensive SGs. We’re always looking to add nice vintage USA-made Epiphone guitars to our collection. Contact us to [sell](/sell-my-epiphone-guitar/) or for a [free appraisal!](/free-appraisal/)
 
 The 1961 “short” headstock design, which maintained the symmetrical shape common in the early Kalamazoo production years before the transition to the asymmetrical “Batwing” style.
 
