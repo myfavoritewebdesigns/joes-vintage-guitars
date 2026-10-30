@@ -28,3 +28,11 @@ The review confirmed readable contrast, intended typography and colors, loaded p
 - `live-diff/`: native repository comparisons of every existing link-source page, zero must-fix findings.
 
 Canonical writing-database completion and any external plagiarism-service scan remain separate account-owner/agency follow-ups. See `qa-gate.md` and `review-notes.md`.
+
+## October 30 Contrast Review Correction
+
+Joe found dark-on-dark headings in the rank cards, missed by the original representative review. The later contrast review supersedes the earlier contrast assessment. Shared styles now explicitly color text on dark rank cards and serial-card links, and use rust for labels on light surfaces.
+
+`visual_cross_review` independently inspected all eight affected rank screenshots (four guides at 1280px and 375px), then rendered Guild's condition cards and expanded FAQ at both widths: **PASS**. It subsequently reviewed ten representative captures of serial cards, section labels, closing text, author panels and expanded FAQ at both widths: **PASS**, with readable text and links and no remaining dark-on-dark issue found. The wood-textured FAQ was readable in the rendered captures.
+
+The all-guide computed check covers 4,670 text runs in twenty route/width cases, zero failures. A separate axe color-contrast run reports zero violations but retains 330 incomplete nodes caused by background/overlap ambiguity. The visual review resolves representative background ambiguity; it does not claim to certify every incomplete node or every possible viewport/interaction. Initial supplemental serial-card captures had not loaded the lazy photographs; their review was text-only, and the saved serial captures were refreshed after decoding their images. No photograph or article copy was changed. See `contrast-review/README.md` for evidence.

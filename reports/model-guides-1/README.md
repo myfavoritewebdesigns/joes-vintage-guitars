@@ -31,3 +31,7 @@ New model pages end with their own FAQ, closing and author block, so the generic
 The independent Final Read is recorded separately. Canonical writing-database completeness (QA_GATE 17) remains open, and an external plagiarism-service scan remains an agency follow-up. The task-specific evidence ledger is not represented as a replacement for missing canonical locality/professional/practice databases. Publication still requires Joe’s explicit preview approval and resolution or owner approval of that editorial data-floor exception.
 
 [Independent review scopes and verdicts](independent-reviews.md) · [Complete QA gate and open data-floor item](qa-gate.md) · [Rendered schema parity](schema-audit.json)
+
+## October 30 Preview Correction
+
+Joe identified dark ranking-card headings missed by the earlier visual review. The shared styles now provide readable colors for all affected headings, links and light-background section labels. Twenty route/viewport cases pass computed text contrast and axe's color-contrast rule; manual-review limitations are retained. See the [before/after evidence and verification](contrast-review/README.md). This supersedes the earlier contrast assessment; no article copy or prices changed.
