@@ -7,11 +7,11 @@ excerpt: "See Guild Starfire values for models I through VI, XII and basses, wit
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: ["Guild","Value Guides","Guitars"]
-heroImage: "images/model-guides-1/starfire-01.jpg"
-heroImageAlt: "Early-1960s Guild Starfire III showing dearmond pickups and vibrato"
-heroImageCaption: "Early-1960s Guild Starfire III. DeArmond Pickups And Vibrato. Photo from Joe’s archive."
+heroImage: "images/model-guides-1/starfire-v-1966-01.jpg"
+heroImageAlt: "1966 Guild Starfire V in sunburst with factory Bigsby"
+heroImageCaption: "1966 Guild Starfire V. Sunburst Body With Factory Bigsby. Photo from Joe’s archive."
 heroImageLicensed: true
-ogImage: "images/model-guides-1/starfire-01.jpg"
+ogImage: "images/model-guides-1/starfire-v-1966-01.jpg"
 metaDescription: "See Guild Starfire values for models I through VI, XII and basses, with Hoboken and Westerly comparisons, condition guidance and photos from Joe’s archive."
 author: "Joe Dampt"
 draft: false

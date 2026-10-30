@@ -1,0 +1,74 @@
+{
+  "pages": [
+    {
+      "slug": "guild-starfire-value-guide",
+      "hero": "/_astro/starfire-v-1966-01.DQhXPi7P_F1svL.webp",
+      "og": "https://www.joesvintageguitarsaz.com/_astro/starfire-v-1966-01.DQhXPi7P.jpg",
+      "twitter": "https://www.joesvintageguitarsaz.com/_astro/starfire-v-1966-01.DQhXPi7P.jpg",
+      "articleImages": [
+        [
+          {
+            "@type": "ImageObject",
+            "url": "https://www.joesvintageguitarsaz.com/_astro/starfire-v-1966-01.DQhXPi7P_F1svL.webp",
+            "width": 1600,
+            "height": 1066,
+            "caption": "1966 Guild Starfire V in sunburst with factory Bigsby",
+            "license": "https://www.joesvintageguitarsaz.com/photo-license/",
+            "acquireLicensePage": "https://www.joesvintageguitarsaz.com/photo-license/",
+            "creditText": "Joe Dampt, Joe's Vintage Guitars",
+            "creator": {
+              "@id": "https://www.joesvintageguitarsaz.com/about-me/#person"
+            },
+            "copyrightNotice": "© Joe Dampt, Joe's Vintage Guitars"
+          }
+        ]
+      ]
+    },
+    {
+      "slug": "guild-starfire-authentication-guide",
+      "hero": "/_astro/starfire-v-1966-01.DQhXPi7P_F1svL.webp",
+      "og": "https://www.joesvintageguitarsaz.com/_astro/starfire-v-1966-01.DQhXPi7P.jpg",
+      "twitter": "https://www.joesvintageguitarsaz.com/_astro/starfire-v-1966-01.DQhXPi7P.jpg",
+      "articleImages": [
+        [
+          {
+            "@type": "ImageObject",
+            "url": "https://www.joesvintageguitarsaz.com/_astro/starfire-v-1966-01.DQhXPi7P_F1svL.webp",
+            "width": 1600,
+            "height": 1066,
+            "caption": "1966 Guild Starfire V in sunburst with factory Bigsby",
+            "license": "https://www.joesvintageguitarsaz.com/photo-license/",
+            "acquireLicensePage": "https://www.joesvintageguitarsaz.com/photo-license/",
+            "creditText": "Joe Dampt, Joe's Vintage Guitars",
+            "creator": {
+              "@id": "https://www.joesvintageguitarsaz.com/about-me/#person"
+            },
+            "copyrightNotice": "© Joe Dampt, Joe's Vintage Guitars"
+          }
+        ]
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "page": "blog/index.html",
+      "slug": "guild-starfire-value-guide",
+      "src": "/_astro/starfire-v-1966-01.DQhXPi7P_Z1bWHgQ.webp"
+    },
+    {
+      "page": "blog/index.html",
+      "slug": "guild-starfire-authentication-guide",
+      "src": "/_astro/starfire-v-1966-01.DQhXPi7P_Z1bWHgQ.webp"
+    },
+    {
+      "page": "category/specific-model-highlights/index.html",
+      "slug": "guild-starfire-authentication-guide",
+      "src": "/_astro/starfire-v-1966-01.DQhXPi7P_Z1bWHgQ.webp"
+    },
+    {
+      "page": "category/value-evaluation/index.html",
+      "slug": "guild-starfire-value-guide",
+      "src": "/_astro/starfire-v-1966-01.DQhXPi7P_Z1bWHgQ.webp"
+    }
+  ]
+}

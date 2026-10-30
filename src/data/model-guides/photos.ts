@@ -1,3 +1,13 @@
+import sfII1964Front from '../../assets/images/model-guides-1/starfire-ii-1964-01.jpg';
+import sfII1964Pickups from '../../assets/images/model-guides-1/starfire-ii-1964-04.jpg';
+import sfII1964Back from '../../assets/images/model-guides-1/starfire-ii-1964-09.jpg';
+import sfV1966Hero from '../../assets/images/model-guides-1/starfire-v-1966-01.jpg';
+import sfV1966Full from '../../assets/images/model-guides-1/starfire-v-1966-02.jpg';
+import sfV1966Bigsby from '../../assets/images/model-guides-1/starfire-v-1966-04.jpg';
+import sfV1966Bridge from '../../assets/images/model-guides-1/starfire-v-1966-05.jpg';
+import sfIV1977Front from '../../assets/images/model-guides-1/starfire-iv-1977-01.jpg';
+import sfIV1977Head from '../../assets/images/model-guides-1/starfire-iv-1977-08.jpg';
+import sfIV1977Back from '../../assets/images/model-guides-1/starfire-iv-1977-10.jpg';
 import gent1965Body from '../../assets/images/model-guides-1/1965-gretsch-country-gentleman.jpg';
 import gent1965Headstock from '../../assets/images/model-guides-1/1965-country-gentleman-headstock.jpeg';
 import doubleAnniversary19591 from '../../assets/images/model-guides-1/double-anniversary-1959-01.jpg';
@@ -60,6 +70,22 @@ import style318 from '../../assets/images/model-guides-1/style-3-18.jpg';
 import style320 from '../../assets/images/model-guides-1/style-3-20.jpg';
 import type { GuidePhoto } from '../../components/model-guide/types';
 export const photos: Record<string, GuidePhoto> = {
+"sfII1964Front": {src:sfII1964Front,alt:"1964 Guild Starfire II showing single-cutaway front with harp tailpiece",caption:"1964 Guild Starfire II. Single-Cutaway Front With Harp Tailpiece. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfII1964FrontValue": {src:sfII1964Front,alt:"1964 Guild Starfire II showing single-cutaway front with harp tailpiece",caption:"1964 Guild Starfire II. Cherry Finish And Body Edges. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfII1964Pickups": {src:sfII1964Pickups,alt:"1964 Guild Starfire II showing two humbuckers and bridge",caption:"1964 Guild Starfire II. Two Humbuckers And Bridge. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfII1964Back": {src:sfII1964Back,alt:"1964 Guild Starfire II showing cherry back and neck heel",caption:"1964 Guild Starfire II. Cherry Back And Neck Heel. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfII1964BackValue": {src:sfII1964Back,alt:"1964 Guild Starfire II showing cherry back and neck heel",caption:"1964 Guild Starfire II. Rear Finish And Binding Condition. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfV1966Hero": {src:sfV1966Hero,alt:"1966 Guild Starfire V showing sunburst body with factory Bigsby",caption:"1966 Guild Starfire V. Sunburst Body With Factory Bigsby. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfV1966Full": {src:sfV1966Full,alt:"1966 Guild Starfire V showing complete double-cutaway guitar",caption:"1966 Guild Starfire V. Complete Double-Cutaway Guitar. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfV1966FullValue": {src:sfV1966Full,alt:"1966 Guild Starfire V showing complete double-cutaway guitar",caption:"1966 Guild Starfire V. Sunburst Guitar Beside Its Case. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfV1966Bigsby": {src:sfV1966Bigsby,alt:"1966 Guild Starfire V showing Guild-branded factory Bigsby",caption:"1966 Guild Starfire V. Guild-Branded Factory Bigsby. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfV1966BigsbyValue": {src:sfV1966Bigsby,alt:"1966 Guild Starfire V showing Guild-branded factory Bigsby",caption:"1966 Guild Starfire V. Vibrato And Tailpiece Details. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfV1966Bridge": {src:sfV1966Bridge,alt:"1966 Guild Starfire V showing aluminum bridge and vibrato assembly",caption:"1966 Guild Starfire V. Aluminum Bridge And Vibrato Assembly. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfIV1977Front": {src:sfIV1977Front,alt:"1977 Guild Starfire IV showing blonde double-cutaway body and harp tailpiece",caption:"1977 Guild Starfire IV. Blonde Double-Cutaway Body And Harp Tailpiece. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfIV1977FrontValue": {src:sfIV1977Front,alt:"1977 Guild Starfire IV showing blonde double-cutaway body and harp tailpiece",caption:"1977 Guild Starfire IV. Westerly Guitar With Blonde Finish. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfIV1977Head": {src:sfIV1977Head,alt:"1977 Guild Starfire IV showing headstock with SF-4 marking",caption:"1977 Guild Starfire IV. Headstock With SF-4 Marking. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfIV1977Back": {src:sfIV1977Back,alt:"1977 Guild Starfire IV showing blonde back and neck joint",caption:"1977 Guild Starfire IV. Blonde Back And Neck Joint. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
+"sfIV1977BackValue": {src:sfIV1977Back,alt:"1977 Guild Starfire IV showing blonde back and neck joint",caption:"1977 Guild Starfire IV. Rear Surface And Body Binding. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
 "gent1965Body": {src:gent1965Body,alt:"1965 Gretsch Country Gentleman double-cutaway body with blade neck pickup, screw-pole bridge pickup and Bigsby",caption:"1965 Gretsch Country Gentleman. Double-Cutaway Body, Pickup Pair And Bigsby. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
 "gent1965Headstock": {src:gent1965Headstock,alt:"1965 Gretsch Country Gentleman headstock with model nameplate and serial 69723",caption:"1965 Gretsch Country Gentleman. Headstock Nameplate Reading 69723. Photo from Joe’s archive.",fit:'contain',captionBelow:true},
 "doubleAnniversary19591": {src:doubleAnniversary19591,alt:"1959 Gretsch 6118 Double Anniversary showing body front and two filter’tron pickups",caption:"1959 Gretsch 6118 Double Anniversary. Body Front And Two Filter’Tron Pickups. Photo from Joe’s archive.",fit:'contain'},

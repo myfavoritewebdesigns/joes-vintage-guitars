@@ -372,6 +372,36 @@
       "note": "User-provided 1965 identification. Model name and serial69723 read directly from headstock; body and pickup configuration visually inspected. No independent serial-chart date claim added.",
       "accessed": "2026-10-30",
       "purpose": "Photographic model, feature and serial evidence; no pricing change"
+    },
+    {
+      "id": "starfire-listing-103262144",
+      "family": "starfire",
+      "title": "1964 Guild Starfire II From Joe’s Reverb Inventory",
+      "href": "https://reverb.com/item/103262144-1964-guild-starfire-ii-cherry-red-vintage-hollowbody-electric-guitar-usa",
+      "listingStatusAtReview": "Live",
+      "note": "Photographs show a single-cutaway II despite the listing description saying double-cutaway. Year/model and nonfunctional neck-pickup tone control are from Joe’s listing; body configuration follows the photographs.",
+      "accessed": "2026-10-30",
+      "purpose": "Requested photographic evidence; no pricing imported"
+    },
+    {
+      "id": "starfire-listing-94555597",
+      "family": "starfire",
+      "title": "1966 Guild Starfire V From Joe’s Reverb Inventory",
+      "href": "https://reverb.com/item/94555597-guild-starfire-v-1966-sunburst-factory-bigsby",
+      "listingStatusAtReview": "Sold",
+      "note": "Year/model and feature documentation from Joe’s listing, checked against the supplied gallery photographs.",
+      "accessed": "2026-10-30",
+      "purpose": "Requested photographic evidence; no pricing imported"
+    },
+    {
+      "id": "starfire-listing-102344960",
+      "family": "starfire",
+      "title": "1977 Guild Starfire IV From Joe’s Reverb Inventory",
+      "href": "https://reverb.com/item/102344960-1977-guild-starfire-iv-sf-4-blonde-vintage-westerly-usa-original-hardshell-case",
+      "listingStatusAtReview": "Live",
+      "note": "Year/model and feature documentation from Joe’s listing, checked against the supplied gallery photographs.",
+      "accessed": "2026-10-30",
+      "purpose": "Requested photographic evidence; no pricing imported"
     }
   ]
 }

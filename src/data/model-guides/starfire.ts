@@ -14,7 +14,7 @@ export const starfireGuides: ModelGuideData[] = [
     "description": "See Guild Starfire values for models I through VI, XII and basses, with Hoboken and Westerly comparisons, condition guidance and photos from Joe’s archive.",
     "eyebrow": "Starfire I Through VI, XII And Bass · Hoboken And Westerly",
     "dek": "Match the model, period and equipment before putting a value on a Starfire guitar or bass.",
-    "hero": ph.starfire1,
+    "hero": ph.sfV1966Hero,
     "glanceTitle": "Starfire Price Comparisons",
     "glance": [
       [
@@ -128,10 +128,10 @@ export const starfireGuides: ModelGuideData[] = [
       {
         "type": "photo-band",
         "photos": [
-          ph.starfire2,
-          ph.starfirexii5
+          ph.sfII1964FrontValue,
+          ph.sfIV1977FrontValue
         ],
-        "quote": "A single-cutaway Starfire III and a Starfire XII need different price rows and different condition questions."
+        "quote": "The cherry 1964 II and blonde 1977 IV have different body designs and production contexts. Match the model and year before comparing condition."
       },
       {
         "type": "section",
@@ -153,6 +153,24 @@ export const starfireGuides: ModelGuideData[] = [
                 ]
               },
               {
+                "label": "1964 · Starfire II",
+                "title": "Cherry Hollowbody With A Fixed Tailpiece",
+                "html": "<p>This 1964 Starfire II has a cherry-red single-cutaway body, two covered humbuckers and a Guild harp tailpiece. Its front and back views show the finish and body edges for a condition comparison. The fixed tailpiece separates this example from the vibrato-equipped III already shown.</p><p>Joe’s listing discloses a neck-pickup tone control that does not change the tone. A value assessment should include that fault and the diagnosis or repair needed. Exterior photographs document appearance; they cannot demonstrate that every control works.</p>",
+                "photos": [
+                  ph.sfII1964FrontValue,
+                  ph.sfII1964BackValue
+                ]
+              },
+              {
+                "label": "1966 · Starfire V",
+                "title": "Sunburst Finish And Factory Bigsby",
+                "html": "<p>The sunburst 1966 Starfire V is the featured guitar at the top of this guide. Joe’s listing identifies its factory Bigsby and aluminum bridge. Use the V’s own chart row when comparing this double-cutaway guitar, keeping its equipment separate from an added-vibrato example.</p><p>The complete view places the hardware in context, while the tailpiece close-up records the installed vibrato. For an individual estimate, add photographs of the fret wear, binding and headstock surface, along with any repairs. A factory feature does not establish the condition of the rest of the instrument.</p>",
+                "photos": [
+                  ph.sfV1966FullValue,
+                  ph.sfV1966BigsbyValue
+                ]
+              },
+              {
                 "label": "1966 · Starfire XII",
                 "title": "Twelve Strings And A Readable Model-Prefix Serial",
                 "html": "<p>The XII archive set includes the complete headstock, body and rear wear. Its DC347 serial supports the 1966 model-chart reading described in the authentication page. The additional tuners and paired strings are visible in the same set as the condition details.</p><p>For a twelve-string appraisal, show the neck heel and bridge as well as the face. A clean-looking top doesn't establish the action, neck angle or condition of every tuner.</p>",
@@ -160,6 +178,15 @@ export const starfireGuides: ModelGuideData[] = [
                   ph.starfirexii5,
                   ph.starfirexii6,
                   ph.starfirexii3
+                ]
+              },
+              {
+                "label": "1977 · Starfire IV",
+                "title": "A Blonde Westerly Example",
+                "html": "<p>This 1977 Starfire IV is a later Westerly comparison in a blonde finish. Its double-cutaway body, covered pickups and fixed harp tailpiece distinguish the pictured configuration from the sunburst V. The rear photograph adds the body binding and neck joint to the condition record.</p><p>Finish wear and repair history belong with the model and year when choosing a comparison. A bright front photograph can leave the back and edges undocumented. Show those surfaces together and describe known changes rather than assigning the top of a range from color alone.</p>",
+                "photos": [
+                  ph.sfIV1977FrontValue,
+                  ph.sfIV1977BackValue
                 ]
               }
             ]
@@ -268,7 +295,7 @@ export const starfireGuides: ModelGuideData[] = [
     "description": "Identify Guild Starfire guitars, twelve-strings and basses with model differences, Hoboken and Westerly serial checks, hardware details and archive photos.",
     "eyebrow": "The Starfire Family · Hoboken And Westerly Production",
     "dek": "Distinguish I through VI, XII and bass models, then read the serial system and factory evidence that apply to the actual instrument.",
-    "hero": ph.starfirexii5,
+    "hero": ph.sfV1966Hero,
     "glanceTitle": "Starfire Identification",
     "glance": [
       [
@@ -492,10 +519,10 @@ export const starfireGuides: ModelGuideData[] = [
       {
         "type": "photo-band",
         "photos": [
-          ph.starfire1,
-          ph.starfirexii7
+          ph.sfII1964Front,
+          ph.sfV1966Hero
         ],
-        "quote": "The early III’s single-coil equipment and the XII’s compact humbuckers belong to different model and period comparisons."
+        "quote": "One cutaway and a harp tailpiece on the 1964 II; two cutaways and a Bigsby on the 1966 V. Keep the model distinctions visible in every photo set."
       },
       {
         "type": "section",
@@ -527,7 +554,7 @@ export const starfireGuides: ModelGuideData[] = [
       {
         "type": "section",
         "id": "archive",
-        "title": "Two Starfire Branches In Joe’s Archive",
+        "title": "Five Starfire Examples In Joe’s Archive",
         "eyebrow": "Photo Timeline",
         "blocks": [
           {
@@ -544,6 +571,26 @@ export const starfireGuides: ModelGuideData[] = [
                 ]
               },
               {
+                "label": "1964 Guild Starfire II",
+                "title": "Single Cutaway, Two Humbuckers And A Harp Tailpiece",
+                "html": "<p>The cherry Starfire II photographs show one cutaway, two humbucking pickups, a floating bridge and a fixed harp-style tailpiece. The close front view preserves the pickup covers, bridge and surrounding body surface. The back view records the neck joint and binding.</p><p>Keep the body shape visible when identifying a II. This guitar’s single cutaway should be compared with the double-cutaway IV and V shown below. Adding a vibrato to a II would not, by itself, establish that it left the factory as a III.</p>",
+                "photos": [
+                  ph.sfII1964Front,
+                  ph.sfII1964Pickups,
+                  ph.sfII1964Back
+                ]
+              },
+              {
+                "label": "1966 Guild Starfire V",
+                "title": "The Sunburst V And Its Bigsby Assembly",
+                "html": "<p>The 1966 Starfire V has a double-cutaway body, two covered pickups and block fingerboard markers. Joe’s listing identifies the Bigsby as factory equipment. The detail photograph shows its Guild-branded face, and the bridge view records the aluminum bridge, base and string path.</p><p>Read those pieces as an installed assembly. The arm, hinge, bridge and nearby body surface help distinguish a configuration from a loose replacement part. The photographed Bigsby belongs to this V example; it should not become a blanket specification for every Starfire model.</p>",
+                "photos": [
+                  ph.sfV1966Full,
+                  ph.sfV1966Bigsby,
+                  ph.sfV1966Bridge
+                ]
+              },
+              {
                 "label": "1966 · Starfire XII",
                 "title": "The Number And Body Agree",
                 "html": "<p>The XII's DC347 mark can be paired with the front and headstock views in this set. Twelve tuners and paired strings make the model branch visible, while the back and heel photographs preserve condition evidence. The serial chart result dates the instrument's record; it doesn't certify every installed component.</p><p>When assessing your own XII, show the neck joint and string height as well as the tuner array. A replaced tuner, refret or earlier neck work should be documented separately from the model's manufacture year.</p>",
@@ -552,6 +599,16 @@ export const starfireGuides: ModelGuideData[] = [
                   ph.starfirexii6,
                   ph.starfirexii2,
                   ph.starfirexii3
+                ]
+              },
+              {
+                "label": "1977 Guild Starfire IV",
+                "title": "SF-4 Headstock And Later Body Details",
+                "html": "<p>The blonde 1977 IV shows the later double-cutaway body, block markers, two humbuckers and a fixed harp tailpiece. Its headstock photograph includes the SF-4 marking beneath the Guild inlay. The back view connects the neck joint and rear finish with that same guitar.</p><p>The model marking identifies a branch of the family rather than acting as a date code. Compare this Westerly example with the earlier instruments using its own controls, bridge mounting and serial system. A blonde finish or an SF-4 marking alone cannot establish a manufacture year.</p>",
+                "photos": [
+                  ph.sfIV1977Front,
+                  ph.sfIV1977Head,
+                  ph.sfIV1977Back
                 ]
               }
             ]

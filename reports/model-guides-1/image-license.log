@@ -6,9 +6,9 @@
   post/gretsch-country-gentleman-authentication-guide          nodes= 13  OK
   post/gretsch-anniversary-value-guide                         nodes= 10  OK
   post/gretsch-anniversary-authentication-guide                nodes= 13  OK
-  post/guild-starfire-value-guide                              nodes= 10  OK
-  post/guild-starfire-authentication-guide                     nodes= 12  OK
+  post/guild-starfire-value-guide                              nodes= 16  OK
+  post/guild-starfire-authentication-guide                     nodes= 21  OK
   post/national-resonator-guitar-value-guide                   nodes= 12  OK
   post/national-resonator-guitar-authentication-guide          nodes= 18  OK
 
-TOTAL licensed-content nodes: 115, mismatches: 0
+TOTAL licensed-content nodes: 130, mismatches: 0
