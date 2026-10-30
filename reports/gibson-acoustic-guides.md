@@ -9,6 +9,7 @@ Joe requested separate value and authentication pages for Dove, Southern Jumbo, 
 - Existing model prices are preserved. Five new sample rows in the hub match the new model tables exactly.
 - Preview builds are noindex. Production indexing follows the Cloudflare main-branch environment.
 - Joe supplied four Country Western photographs from Downloads after reviewing the initial preview. Both Country Western pages now use the 1957 slope-shoulder guitar as their hero and show the transitional example, square-shoulder example and interior label in the article. These replace the Southern Jumbo comparison image. No pricing rows were changed.
+- Joe then supplied six Dove photographs from Downloads and specified Reverb listing 97238588. Both Dove pages use the listed natural 1968 guitar as their hero and all six supplied photographs in the article. These replace the earlier 1976 Ebony example. Captions distinguish the archive details from the listed guitar, and the listing's disclosed modifications are explained. The loose saddle assemblies use a responsive presentation crop to make their details readable. No pricing rows were changed.
 
 ## Price provenance
 
@@ -20,11 +21,16 @@ The L-00 retains one broad 1932–1946 source band. The L-0 production gap is pr
 
 ## Photo provenance and condition
 
-All fifteen assets are local under `src/assets/acoustic-models/`. Joe's established license helper emits metadata against the actual optimized image URLs.
+All nineteen assets are local under `src/assets/acoustic-models/`. Joe's established license helper emits metadata against the actual optimized image URLs.
 
 | Local assets | Source | Caption limitations |
 | --- | --- | --- |
-| 1976-dove-front/body/headstock.jpg | https://reverb.com/item/78866390-gibson-dove-1976-ebony | Verified sold, shop `joesvintageguitars`, ID 159880. Listing notes factory 2 stamp and small bridge-pin crack. The F-prefix color theory is not treated as an established fact. |
+| 1968-dove-reverb-97238588-front.jpg | https://reverb.com/item/97238588-gibson-dove-1968-natural | Joe's specified listing, shop `joesvintageguitars`, ID 159880. API state was live when inspected, so this is not called a completed sale. Fixed-saddle conversion, replacement nut and reproduction guard, passive endpin pickup and a small headstock-side crack are disclosed. Asking price is not used in the table. |
+| dove-natural-archive-front.jpg | Joe's Downloads: `1965-gibson-dove-natural.JPG` | Full natural-finish example; filename year is not used to authenticate the guitar or identify other photos as the same instrument. |
+| dove-waffleback-tuners.jpg | Joe's Downloads: `gibson-dove-waffleback-tuners.JPG` | Visible waffleback housings; no legible serial number or blanket originality claim. |
+| dove-tune-o-matic-front/back.jpg | Joe's Downloads: `gibson-dove-tune-o-matic-front.JPG` and `gibson-dove-tune-o-matic-back.JPG` | Detached saddle assembly, front and reverse; Gibson/patent markings are not presented as a guitar serial number or build date. |
+| dove-label-serial-845019.jpeg | Joe's Downloads: `gibson-dove-label-serial-845019.jpeg` | Orange label in a red-topped example; captions explicitly do not transfer this number to the natural 1968 listing. |
+| dove-maple-back.jpeg | Joe's Downloads: `1965 -gibson-dove-maple-back.jpeg` | Figured maple under red finish. Exact year and shared instrument identity are not asserted from filenames alone. |
 | 1920s-l-0-front/bridge/headstock.jpg | https://reverb.com/item/80791235-gibson-l-0-1920s-flattop | Verified sold by the same shop. Broad decade date; substantial crack repairs, refret and replacement case disclosed. |
 | 1938-l-00-body/headstock.jpg | https://reverb.com/item/67254292-gibson-l-00-1938-black | Verified sold by the same shop. Listed as 1938, original black finish, repaired back/side cracks, neck reset, replacement case. |
 | 1946-southern-jumbo-front/detail.jpg | Drive folder `1TGUU_EXti111-inslGzTBCCEc6_BvCKR`, files `1D_zWilXj8rBVVd8heDr_5CEV8F3WL-HW` and `1bdHoxs9NcfJwN8dy4ok77I1b0JkrFfyJ` | Refinish and non-original painted guard confirmed by https://reverb.com/item/98162860-gibson-southern-jumbo-1946-natural . That listing was live at research time, so it is never called completed. |
@@ -47,3 +53,4 @@ The articles link sources where specific historical claims are made: Gibson's ac
 - Live-diff audit of the hub: zero must-fix items, no broken assets. Two expected warnings: the new model headings and existing shared Reverb icons lacking dimensions. Existing heading IDs and price content remain intact.
 - Browser review at 1440px and 390px: two-column/one-column card layouts, no document overflow, authentication links over 44px tall, working card-to-value and value-to-authentication navigation, readable Southern Jumbo price table and working mobile section navigation. The Country Western photo update also passed a new build, copy gate and all ten-page rendered checks; both Country Western pages now contain four licensed, local optimized photos. Desktop/mobile inspection confirmed sizing, portrait orientation and label readability. The price-ledger SHA-256 is unchanged: `D9AC438CAEA8DACEC1D6B9F75D9D9B7F4623625D026CE2970229A73FB59126F1`.
 - New routes have no existing live originals for parity comparison. Hosted checks are tracked by the draft PR; no merge or production deployment was requested.
+- Dove listing/photo update: a new 371-page build and copy gate passed (zero hard failures, 754 existing warnings). All ten rendered-page checks passed again; both Dove pages now contain seven local optimized images with matching license metadata. Browser review confirmed loaded photos, readable hardware crops, working value-to-authentication navigation and no document overflow at 1440px/390px. The price-ledger SHA-256 remains unchanged.

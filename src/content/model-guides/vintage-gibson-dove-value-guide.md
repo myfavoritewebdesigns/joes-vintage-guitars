@@ -28,18 +28,67 @@ The guide separates early and late 1965. A six-digit number that could fall in m
 
 The table ends at 1979. Later Bozeman Doves, reissues, signature models and Epiphone Doves need separate comparisons. A model name on a truss-rod cover does not establish which version you have.
 
+<figure>
+
+![Natural-finish Gibson Dove showing its square shoulders, bird pickguard, decorated bridge and split parallelogram inlays](../../assets/acoustic-models/dove-natural-archive-front.jpg)
+
+<figcaption>A natural-finish Dove from my photo archive. The full view brings together the body outline, bird guard, bridge decoration and fingerboard markers; original parts still need individual examination.</figcaption>
+</figure>
+
+### Check The Model And Dating Evidence
+
+<figure>
+
+![Orange Gibson Dove label numbered 845019 inside a guitar with a red-finished top](../../assets/acoustic-models/dove-label-serial-845019.jpeg)
+
+<figcaption>The orange label identifies the Dove model and records number 845019. This is a separate archive detail, not the serial number of the natural 1968 guitar in the linked listing. Check the number against the rest of its own instrument.</figcaption>
+</figure>
+
+An attractive front view or a legible label cannot resolve a conflicting year attribution by itself. Match the body, scale, hardware and number before choosing the early- or late-1965 category.
+
 ## Bridge, Pickguard And Repair Effects
 
 An early metal saddle assembly and a later fixed-saddle bridge are different configurations. A conversion can be useful to a player, but it changes the originality comparison. Look for enlarged bridge footprints, filled holes, an altered bridge plate and insufficient saddle height. A reproduction bird guard should be disclosed even when it looks convincing.
 
-<figure>
+<figure class="amg-hardware-photo">
 
-![Ebony 1976 Gibson Dove body with white binding, bird guard and fixed saddle](../../assets/acoustic-models/1976-dove-body.jpg)
+![Detached Dove Tune-o-matic saddle assembly showing six light-colored saddles and adjustment screws](../../assets/acoustic-models/dove-tune-o-matic-front.jpg)
 
-<figcaption>This 1976 Dove comes from my <a href="https://reverb.com/item/78866390-gibson-dove-1976-ebony">completed Reverb listing</a>. The listing notes a factory “2” stamp and a small bridge-pin crack. It does not establish the realized sale price or a premium for every Ebony Dove.</figcaption>
+<figcaption>Front view of a detached Tune-o-matic assembly. The individual saddles and screws show what to inspect when assessing the hardware. A loose part must be matched to its instrument before it is described as original.</figcaption>
 </figure>
 
-Unusual color alone does not justify adding a fixed premium. Establish whether the finish is factory-applied, document any repairs and compare the same version. A healthy neck angle and enough saddle height matter alongside appearance.
+Keep removed parts with the guitar and document the work. A conversion and an untouched adjustable assembly represent different originality descriptions, even when both guitars are playable.
+
+<figure class="amg-hardware-photo">
+
+![Reverse of the Dove Tune-o-matic assembly showing Gibson and patent markings](../../assets/acoustic-models/dove-tune-o-matic-back.jpg)
+
+<figcaption>Reverse view showing the Gibson and patent markings. A patent number identifies a design; it is not the guitar’s serial number or manufacturing date.</figcaption>
+</figure>
+
+### A Modified 1968 Dove Example
+
+The guitar pictured at the top comes from my [1968 natural Dove listing](https://reverb.com/item/97238588-gibson-dove-1968-natural). It has a fixed-saddle conversion, replacement nut and guard, an added passive pickup and a small headstock crack described as stable. This is a condition example, not an all-original benchmark. The listing’s asking price is not a recorded sale or an input to the guide table.
+
+## Maple, Finish And Tuner Condition
+
+<figure>
+
+![Gibson Dove maple back with visible figure beneath a red finish](../../assets/acoustic-models/dove-maple-back.jpeg)
+
+<figcaption>Figured maple beneath the red finish on this Dove back. Wood, body construction and scale help separate the vintage Dove from a standard mahogany-bodied Hummingbird.</figcaption>
+</figure>
+
+Figure and color are only part of the comparison. Establish whether the finish is factory-applied, document any repairs and compare the same version. A healthy neck angle and enough saddle height matter alongside appearance.
+
+<figure>
+
+![Back of a Gibson Dove headstock with six waffleback tuner housings](../../assets/acoustic-models/dove-waffleback-tuners.jpg)
+
+<figcaption>Waffleback tuners in the supplied archive photo. Inspect screw placement, the surrounding finish and any unused holes before deciding whether the installed set is original to that guitar.</figcaption>
+</figure>
+
+Replacement tuners, extra mounting holes and any retained original parts belong in the condition record. The archive photographs above show individual features; they do not certify that every part on a pictured guitar is original.
 
 ## From A Reference Range To Your Guitar
 

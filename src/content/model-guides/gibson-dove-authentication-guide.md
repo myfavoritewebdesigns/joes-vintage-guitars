@@ -6,15 +6,40 @@ The original Dove arrived in 1962 with a square-shoulder body, spruce top, maple
 
 Compare a suspected Hummingbird carefully: both can have square shoulders, split inlays and a bird-themed guard. The standard vintage Hummingbird’s mahogany body and shorter scale make the wood and measurements more useful than a quick glance at the decoration. Measure scale from the nut to the 12th fret and double it; the saddle includes compensation.
 
+<figure>
+
+![Natural-finish Gibson Dove showing its square shoulders, bird pickguard, decorated bridge and split parallelogram inlays](../../assets/acoustic-models/dove-natural-archive-front.jpg)
+
+<figcaption>A natural-finish Dove from my photo archive. The full view brings together the body outline, bird guard, bridge decoration and fingerboard markers; original parts still need individual examination.</figcaption>
+</figure>
+
+The back supplies another useful comparison. Examine the wood and body construction alongside the front appointments, especially when parts have been replaced.
+
+<figure>
+
+![Gibson Dove maple back with visible figure beneath a red finish](../../assets/acoustic-models/dove-maple-back.jpeg)
+
+<figcaption>Figured maple beneath the red finish on this Dove back. Wood, body construction and scale help separate the vintage Dove from a standard mahogany-bodied Hummingbird.</figcaption>
+</figure>
+
 ## Bridge And Pickguard Timeline
 
 Early Doves used a metal Tune-o-matic-style saddle assembly. By the late 1960s, bridge and saddle arrangements changed; later examples use a fixed saddle. Guard construction also changed, and surviving guitars may have replacement parts. [GuitarHQ’s Gibson flat-top reference](https://www.guitarhq.com/gibson6.html) documents these transitions.
 
-<figure>
+<figure class="amg-hardware-photo">
 
-![1976 Ebony Dove with fixed saddle, decorated bridge and bird pickguard](../../assets/acoustic-models/1976-dove-body.jpg)
+![Detached Dove Tune-o-matic saddle assembly showing six light-colored saddles and adjustment screws](../../assets/acoustic-models/dove-tune-o-matic-front.jpg)
 
-<figcaption>A later configuration: my 1976 Ebony Dove, photographed for a <a href="https://reverb.com/item/78866390-gibson-dove-1976-ebony">completed listing</a>. Use this as a 1970s comparison, not a template for an untouched 1962 guitar.</figcaption>
+<figcaption>Front view of a detached Tune-o-matic assembly. The individual saddles and screws show what to inspect when assessing the hardware. A loose part must be matched to its instrument before it is described as original.</figcaption>
+</figure>
+
+Photograph both faces of any removed assembly, and retain repair paperwork that connects it to the guitar. A branded loose part does not establish the instrument’s build year.
+
+<figure class="amg-hardware-photo">
+
+![Reverse of the Dove Tune-o-matic assembly showing Gibson and patent markings](../../assets/acoustic-models/dove-tune-o-matic-back.jpg)
+
+<figcaption>Reverse view showing the Gibson and patent markings. A patent number identifies a design; it is not the guitar’s serial number or manufacturing date.</figcaption>
 </figure>
 
 Ask whether the bridge footprint, saddle hardware and screw holes agree. A fixed-saddle conversion on an older guitar does not make it a counterfeit Dove, but the modification belongs in its description. Examine guard edges and the surrounding finish for replacement evidence; an attractive reproduction is still a changed part.
@@ -23,14 +48,27 @@ Ask whether the bridge footprint, saddle hardware and screw holes agree. A fixed
 
 <figure>
 
-![Headstock of the completed 1976 Dove showing Gibson logo, crown and Dove truss-rod cover](../../assets/acoustic-models/1976-dove-headstock.jpg)
+![Orange Gibson Dove label numbered 845019 inside a guitar with a red-finished top](../../assets/acoustic-models/dove-label-serial-845019.jpeg)
 
-<figcaption>The headstock of the same 1976 Dove. A branded truss-rod cover is removable and cannot authenticate a guitar by itself.</figcaption>
+<figcaption>The orange label identifies the Dove model and records number 845019. This is a separate archive detail, not the serial number of the natural 1968 guitar in the linked listing. Check the number against the rest of its own instrument.</figcaption>
 </figure>
 
 Photograph the entire back of the headstock, its number and any additional stamp. Use the [Gibson serial-number guide](/how-to-read-gibson-serial-numbers/) to establish candidate dates, then compare construction. Some Gibson number sequences repeat; entering a number into a lookup is not a complete authentication.
 
-Check the neck-to-headstock transition under angled light for repaired breaks or overspray. Examine tuner screw patterns and extra holes. The listing for this Ebony example notes an “F” prefix and factory “2” stamp; its suggested explanation for the prefix is not proof that every such stamp establishes a custom color.
+Check the neck-to-headstock transition under angled light for repaired breaks or overspray. Examine tuner screw patterns and extra holes, and compare the installed hardware with the proposed era.
+
+<figure>
+
+![Back of a Gibson Dove headstock with six waffleback tuner housings](../../assets/acoustic-models/dove-waffleback-tuners.jpg)
+
+<figcaption>Waffleback tuners in the supplied archive photo. Inspect screw placement, the surrounding finish and any unused holes before deciding whether the installed set is original to that guitar.</figcaption>
+</figure>
+
+## A Modified 1968 Dove From My Listing
+
+My [1968 natural Dove listing](https://reverb.com/item/97238588-gibson-dove-1968-natural) documents a fixed bone-saddle conversion, replacement nut, handmade reproduction pickguard and passive endpin pickup. It also notes a small headstock-side crack described as stable. Those details belong in its authentication and condition record even when the instrument plays well.
+
+The listing photograph at the top of this page shows that modified guitar. The archive detail photos illustrate additional examples and loose hardware; they should not be treated as a single instrument’s complete parts record.
 
 ## Originality, Repairs And Modern Reissues
 
