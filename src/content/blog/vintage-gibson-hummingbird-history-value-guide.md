@@ -254,9 +254,9 @@ What we tell people: **do not convert a clean, original, early Hummingbird.** A 
 
 <figure>
 
-![Close up of the rectangular rosewood bridge on a 1961 Gibson Hummingbird, showing a rosewood saddle set into the routed slot with no height adjustment screws present.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-rosewood-bridge-detail.jpg)
+![Close up of the rectangular rosewood bridge on a 1961 Gibson Hummingbird, showing a later fixed wooden saddle made to fit the original adjustable-saddle channel.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-rosewood-bridge-detail.jpg)
 
-<figcaption><strong>Here is what to look for.</strong> The 1961 has a wide routed saddle channel with a rosewood saddle sitting down in it and no adjuster screws at either end. Given that 1961 is the exact year the adjustable saddle came in, this one could be a transitional guitar or it could be an adjustable bridge that lost its hardware. That is a question worth settling with the guitar in your hands before you agree a number.</figcaption>
+<figcaption><strong>Here is what to look for.</strong> This 1961 left the factory with an adjustable saddle. Someone later made a non-adjustable wooden saddle to fit the wide routed channel, removing the height-adjustment hardware. The fixed wooden saddle is a modification, not a factory transitional feature. Include that change when judging originality and value.</figcaption>
 </figure>
 
 <figure>
@@ -327,7 +327,7 @@ Check that the number on the label matches the stamp on the headstock. On the 19
 This is how you actually date one, and it takes about a minute:
 
 1. **Look at the fretboard inlays.** Blocks means 1973 to about 1980. Parallelograms means everything else.
-2. **Look at the bridge.** Adjustable saddle on two screws means 1961 to 1969. Plain fixed saddle means either a first year guitar or 1970 and later, and the rest of the list tells you which.
+2. **Look at the bridge.** Adjustable saddle on two screws means 1961 to 1969. A factory fixed saddle can indicate a first-year guitar or 1970 and later, but a converted adjustable bridge also loses its screws. Check the slot and repair history before dating it.
 3. **Look at the bridge shape.** Belly up through most of the sixties, moving to belly down across 1968 and 1969.
 4. **Look at the tuner plating.** Gold means the sixties. Chrome means 1970 or later.
 5. **Look at the back of the neck.** One piece mahogany, no glue lines, means the sixties. Two visible glue lines means 1970 or later.
@@ -393,7 +393,7 @@ The mid sixties guitar in these photos is the honest example. It has the prettie
 
 For the record, since every photo above is one of these:
 
-**The 1961, serial 35384.** Two word HUMMING BIRD label matching the headstock stamp, gold Klusons with white buttons, deep original cherry on the mahogany. The bridge on this one has a rosewood saddle sitting in the slot with no adjuster screws present, so at some point somebody dealt with the adjustable hardware. Worth knowing about, and exactly the kind of thing to check before you agree a price.
+**The 1961, serial 35384.** Two word HUMMING BIRD label matching the headstock stamp, gold Klusons with white buttons, deep original cherry on the mahogany. It originally had an adjustable saddle; someone later made a fixed wooden replacement for that routed channel and removed the adjustment hardware. That conversion belongs in its condition report.
 
 **The mid sixties example, serial 150277.** Two word label matching the headstock stamp, gold tuners, and the best preserved burst of the five, complete with its case, the case key, and an unopened box of Gibson strings. The adjustable bridge with the rosewood saddle is a replacement, which we mention because a guitar this clean is exactly the kind where a buyer assumes everything is original and nobody thinks to ask.
 

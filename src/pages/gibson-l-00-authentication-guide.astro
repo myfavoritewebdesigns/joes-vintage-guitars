@@ -1,7 +1,4 @@
 ---
-import ModelGuide from '../layouts/AcousticModelGuide.astro';
-import { Content, getHeadings } from '../content/model-guides/gibson-l-00-authentication-guide.md';
-import data from '../data/model-guides/gibson-l-00-authentication-guide.json';
-import hero from '../assets/acoustic-models/1930s-l-00-drive.jpg';
+// Joe combined L-0 and L-00 into one identification and value guide.
+return Astro.redirect('/vintage-gibson-l-0-l-00-value-guide/#authentication-checklist',301);
 ---
-<ModelGuide data={data} headings={getHeadings()} image={hero}><Content /></ModelGuide>

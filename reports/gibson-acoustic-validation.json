@@ -14,21 +14,9 @@
       "kind": "authentication"
     },
     {
-      "url": "/gibson-l-0-authentication-guide/",
-      "images": 3,
-      "headings": 8,
-      "kind": "authentication"
-    },
-    {
-      "url": "/gibson-l-00-authentication-guide/",
-      "images": 3,
-      "headings": 8,
-      "kind": "authentication"
-    },
-    {
       "url": "/gibson-southern-jumbo-authentication-guide/",
-      "images": 2,
-      "headings": 8,
+      "images": 7,
+      "headings": 10,
       "kind": "authentication"
     },
     {
@@ -44,26 +32,21 @@
       "kind": "value"
     },
     {
-      "url": "/vintage-gibson-l-0-value-guide/",
-      "images": 2,
-      "headings": 5,
-      "kind": "value"
-    },
-    {
-      "url": "/vintage-gibson-l-00-value-guide/",
-      "images": 2,
-      "headings": 5,
-      "kind": "value"
+      "url": "/vintage-gibson-l-0-l-00-value-guide/",
+      "images": 8,
+      "headings": 10,
+      "kind": "combined"
     },
     {
       "url": "/vintage-gibson-southern-jumbo-value-guide/",
-      "images": 2,
-      "headings": 5,
+      "images": 5,
+      "headings": 6,
       "kind": "value"
     }
   ],
   "priceRows": 38,
-  "hubCards": 9,
+  "hubCards": 8,
+  "redirects": 4,
   "checks": [
     "routes",
     "h1",
@@ -75,6 +58,8 @@
     "image licenses match rendered URLs",
     "FAQ visible/schema agreement",
     "price reductions and rendered table values",
-    "hub links and price consistency"
+    "hub links and price consistency",
+    "four consolidated L-family redirects",
+    "Hummingbird fixed wooden saddle correction"
   ]
 }

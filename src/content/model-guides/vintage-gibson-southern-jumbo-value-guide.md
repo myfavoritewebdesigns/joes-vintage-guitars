@@ -38,13 +38,38 @@ The baseline is an all-original instrument in excellent condition, with its orig
 
 ## Match The Top, Finish And Body Shape
 
-The Banner rows distinguish Adirondack spruce and mahogany tops. A Banner decal cannot select between those categories. The broad standard rows do not separately value rare rosewood-bodied wartime instruments; those need specialist comparison.
+The Banner rows distinguish Adirondack spruce and mahogany tops. A Banner decal cannot select between those categories. The broad standard rows do not separately value rare rosewood-bodied or maple-back wartime instruments; those need specialist comparison. Identify the back separately from the neck, since a maple neck does not establish a maple body.
+
+<figure>
+
+![Banner and Gibson script on Joe's 1944 Southern Jumbo headstock](../../assets/acoustic-models/1944-southern-jumbo-banner-headstock.jpg)
+
+<figcaption>The headstock from my <a href="https://reverb.com/item/81589697-gibson-southern-jumbo-1944-sunburst-banner">1944 SJ listing</a>. The Banner is an era clue; use the <a href="/gibson-southern-jumbo-authentication-guide/">Southern Jumbo authentication guide</a> to check the woods, construction and originality before choosing a value row.</figcaption>
+</figure>
 
 The overlapping 1962 rows reflect the guide’s round-shoulder and square-shoulder categories. Reference histories place the transition around 1962 to 1963. Use the body in front of you, plus its dating evidence, rather than treating January 1 as a universal specification change.
 
 The 1954 to 1956 natural-option row covers the early natural SJ category. The [Country Western value guide](/vintage-gibson-country-western-value-guide/) covers the named Country Western/SJN and SJN Deluxe entries. Do not combine the two tables or choose whichever is higher for the same guitar.
 
+## An Original-Finish Banner With A Replacement Bridge
+
+<figure>
+
+![Replacement bridge and saddle on the 1944 sunburst Banner Southern Jumbo](../../assets/acoustic-models/1944-southern-jumbo-replacement-bridge.jpg)
+
+<figcaption>The 1944 SJ retains the finish, guard and tuners described as original in my listing, but the installed bridge is a replacement. Repaired back cracks, filled headstock holes and a replacement case are also disclosed.</figcaption>
+</figure>
+
+Original finish and original parts are separate findings. The retained old bridge and repair history help document this guitar, but an original-finish instrument with a replaced bridge is still a different comparison from the table's excellent-original baseline. Its listing is a condition example, not a realized-sale input to these ranges.
+
 ## What A Refinish Changes
+
+<figure>
+
+![Refinished natural 1946 Southern Jumbo with a painted replacement pickguard](../../assets/acoustic-models/1946-southern-jumbo-front.jpg)
+
+<figcaption>The refinished 1946 SJ, compared with the sunburst Banner above. Its current natural finish and painted guard are later changes.</figcaption>
+</figure>
 
 <figure>
 

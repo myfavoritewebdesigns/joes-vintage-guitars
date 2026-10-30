@@ -56,20 +56,12 @@ Choose a model card for prices and condition notes. Each card also links to its 
     <a class="gavhub-model-auth" href="/gibson-country-western-authentication-guide/">Authentication Guide<span class="gavhub-sr-only">: Gibson Country Western</span> <span aria-hidden="true">&rarr;</span></a>
   </div>
   <div class="gavhub-model-group">
-    <a class="gavhub-model-card" href="/vintage-gibson-l-00-value-guide/" aria-labelledby="gavhub-l-00-title">
-      <h3 id="gavhub-l-00-title">Gibson L-00</h3>
-      <p>Original-production L-00 values and small-body model identification.</p>
-      <span class="gavhub-model-card__cta">View Value Guide <span aria-hidden="true">&rarr;</span></span>
+    <a class="gavhub-model-card" href="/vintage-gibson-l-0-l-00-value-guide/" aria-labelledby="gavhub-l-0-l-00-title">
+      <h3 id="gavhub-l-0-l-00-title">Gibson L-0 &amp; L-00</h3>
+      <p>One guide to the early mahogany L-0, revived black L-0 and sunburst L-00, with values and identification.</p>
+      <span class="gavhub-model-card__cta">View Combined Guide <span aria-hidden="true">&rarr;</span></span>
     </a>
-    <a class="gavhub-model-auth" href="/gibson-l-00-authentication-guide/">Authentication Guide<span class="gavhub-sr-only">: Gibson L-00</span> <span aria-hidden="true">&rarr;</span></a>
-  </div>
-  <div class="gavhub-model-group">
-    <a class="gavhub-model-card" href="/vintage-gibson-l-0-value-guide/" aria-labelledby="gavhub-l-0-title">
-      <h3 id="gavhub-l-0-title">Gibson L-0</h3>
-      <p>Separate references for early small-body and later L-0 configurations.</p>
-      <span class="gavhub-model-card__cta">View Value Guide <span aria-hidden="true">&rarr;</span></span>
-    </a>
-    <a class="gavhub-model-auth" href="/gibson-l-0-authentication-guide/">Authentication Guide<span class="gavhub-sr-only">: Gibson L-0</span> <span aria-hidden="true">&rarr;</span></a>
+    <a class="gavhub-model-auth" href="/vintage-gibson-l-0-l-00-value-guide/#authentication-checklist">Identification &amp; Authentication<span class="gavhub-sr-only">: Gibson L-0 and L-00</span> <span aria-hidden="true">&rarr;</span></a>
   </div>
   <div class="gavhub-model-group">
     <a class="gavhub-model-card" href="/vintage-gibson-lg-series-value-guide/" aria-labelledby="gavhub-lg-title">
@@ -101,8 +93,8 @@ Match the model and era, then read its condition requirements. The Hummingbird f
 | [Dove](/vintage-gibson-dove-value-guide/) | 1962 to 1964: Early Dove | $7,650 to $10,200 |
 | [Southern Jumbo](/vintage-gibson-southern-jumbo-value-guide/) | 1942 to 1944: Banner; Adirondack spruce top | $16,910 to $22,250 |
 | [Country Western](/vintage-gibson-country-western-value-guide/) | 1956 to 1959: Country Western / SJN | $6,160 to $8,360 |
-| [L-00](/vintage-gibson-l-00-value-guide/) | 1932 to 1946: Original-production L-00; shared guide band | $5,280 to $6,600 |
-| [L-0](/vintage-gibson-l-0-value-guide/) | 1926 to 1928: 13½-inch body; maple category in the guide | $4,840 to $6,160 |
+| [L-00](/vintage-gibson-l-0-l-00-value-guide/#gibson-l-00-values) | 1932 to 1946: Original-production L-00; shared guide band | $5,280 to $6,600 |
+| [L-0](/vintage-gibson-l-0-l-00-value-guide/#gibson-l-0-values) | 1926 to 1928: 13½-inch body; maple category in the guide | $4,840 to $6,160 |
 
 The Dove, Southern Jumbo, Country Western, L-00 and L-0 examples above are adjusted references from the 2026 Vintage Guitar price guide; each full guide explains its condition baseline and the fixed 11% to 15% reduction applied to source rows. They are not recorded transaction prices.
 
