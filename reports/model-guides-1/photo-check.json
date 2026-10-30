@@ -1,5 +1,5 @@
 {
-  "count": 52,
+  "count": 58,
   "photos": [
     {
       "asset": "src/assets/images/model-guides-1/falcon-01.jpg",
@@ -572,6 +572,90 @@
         5464,
         3643
       ]
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/double-anniversary-1959-01.jpg",
+      "driveId": null,
+      "listingUrl": "https://reverb.com/item/68361286-gretsch-6118-double-anniversary-1959-2-tone-smoke-green",
+      "shaMatches": true,
+      "originalBytesPreserved": false,
+      "downloadedGalleryBytesPreserved": true,
+      "transformation": "None; downloaded gallery bytes preserved",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "resolutionNote": "1600×1066 is the largest gallery rendition exposed by this listing. Camera originals were not located in Drive."
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/double-anniversary-1959-02.jpg",
+      "driveId": null,
+      "listingUrl": "https://reverb.com/item/68361286-gretsch-6118-double-anniversary-1959-2-tone-smoke-green",
+      "shaMatches": true,
+      "originalBytesPreserved": false,
+      "downloadedGalleryBytesPreserved": true,
+      "transformation": "None; downloaded gallery bytes preserved",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "resolutionNote": "1600×1066 is the largest gallery rendition exposed by this listing. Camera originals were not located in Drive."
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/double-anniversary-1959-03.jpg",
+      "driveId": null,
+      "listingUrl": "https://reverb.com/item/68361286-gretsch-6118-double-anniversary-1959-2-tone-smoke-green",
+      "shaMatches": true,
+      "originalBytesPreserved": false,
+      "downloadedGalleryBytesPreserved": true,
+      "transformation": "None; downloaded gallery bytes preserved",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "resolutionNote": "1600×1066 is the largest gallery rendition exposed by this listing. Camera originals were not located in Drive."
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/double-anniversary-1959-06.jpg",
+      "driveId": null,
+      "listingUrl": "https://reverb.com/item/68361286-gretsch-6118-double-anniversary-1959-2-tone-smoke-green",
+      "shaMatches": true,
+      "originalBytesPreserved": false,
+      "downloadedGalleryBytesPreserved": true,
+      "transformation": "None; downloaded gallery bytes preserved",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "resolutionNote": "1600×1066 is the largest gallery rendition exposed by this listing. Camera originals were not located in Drive."
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/double-anniversary-1959-08.jpg",
+      "driveId": null,
+      "listingUrl": "https://reverb.com/item/68361286-gretsch-6118-double-anniversary-1959-2-tone-smoke-green",
+      "shaMatches": true,
+      "originalBytesPreserved": false,
+      "downloadedGalleryBytesPreserved": true,
+      "transformation": "None; downloaded gallery bytes preserved",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "resolutionNote": "1600×1066 is the largest gallery rendition exposed by this listing. Camera originals were not located in Drive."
+    },
+    {
+      "asset": "src/assets/images/model-guides-1/double-anniversary-1959-10.jpg",
+      "driveId": null,
+      "listingUrl": "https://reverb.com/item/68361286-gretsch-6118-double-anniversary-1959-2-tone-smoke-green",
+      "shaMatches": true,
+      "originalBytesPreserved": false,
+      "downloadedGalleryBytesPreserved": true,
+      "transformation": "None; downloaded gallery bytes preserved",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "resolutionNote": "1600×1066 is the largest gallery rendition exposed by this listing. Camera originals were not located in Drive."
     }
   ]
 }

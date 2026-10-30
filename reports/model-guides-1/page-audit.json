@@ -223,20 +223,20 @@
       "titleLength": 57,
       "description": "See vintage Gretsch Single and Double Anniversary values by period, finish and configuration, with repair checks and Joe’s archive photos for comparison.",
       "descriptionLength": 153,
-      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1433,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1583,
       "h2": [
         "Single And Double Anniversary Values",
         "Green, Sunburst And The Correct Row",
         "When A Second Pickup Changes The Question",
-        "A Single Anniversary In The Photo Record",
+        "Single And Double Anniversaries In Joe’s Archive",
         "Decide Which Condition Comparison Fits",
         "Show Joe Your Anniversary’s Details",
         "Questions AboutGretsch Values",
         "A Value For Your Guitar",
         "Joe Dampt"
       ],
-      "photos": 7,
-      "exactModelPhotos": 6,
+      "photos": 10,
+      "exactModelPhotos": 9,
       "comparisonPhotos": 0,
       "existingAuthorPortrait": 1,
       "inboundCount": 3,
@@ -267,7 +267,7 @@
       ],
       "sellLabel": "Sell My Gretsch",
       "sellHref": "/sell-my-gretsch-guitar/",
-      "twinOverlapPercent": 3.6
+      "twinOverlapPercent": 4.16
     },
     {
       "slug": "gretsch-anniversary-authentication-guide",
@@ -275,14 +275,14 @@
       "titleLength": 53,
       "description": "Identify vintage Gretsch Anniversary models by pickup count, finish, model number and serial, using archive photos and checks for conversions or reissues.",
       "descriptionLength": 154,
-      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2018,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2197,
       "h2": [
         "The Original Anniversary Model Map",
         "The Anniversary As An Accessible Hollowbody",
         "The Anniversary Outlasted Its Birthday",
         "One Pickup, Two Pickups And A Possible Conversion",
         "Single, Double And Stereo Anniversaries",
-        "A Two-Tone Single In The Archive",
+        "A 1959 Double And A 1960 Single In The Archive",
         "Read The 1960 Single’s Label",
         "Bridge, Tailpiece And Construction Checks",
         "Later Anniversary Guitars Repeat The Look",
@@ -292,8 +292,8 @@
         "Keep The Evidence Together",
         "Joe Dampt"
       ],
-      "photos": 9,
-      "exactModelPhotos": 8,
+      "photos": 13,
+      "exactModelPhotos": 12,
       "comparisonPhotos": 0,
       "existingAuthorPortrait": 1,
       "inboundCount": 3,
@@ -324,7 +324,7 @@
       ],
       "sellLabel": "Sell My Gretsch",
       "sellHref": "/sell-my-gretsch-guitar/",
-      "twinOverlapPercent": 3.6
+      "twinOverlapPercent": 4.16
     },
     {
       "slug": "guild-starfire-value-guide",
@@ -627,15 +627,15 @@
       "a": "gretsch-white-falcon-authentication-guide",
       "b": "gretsch-anniversary-value-guide",
       "twin": false,
-      "articlePercent": 1.53,
-      "wholePagePercent": 6.47
+      "articlePercent": 1.42,
+      "wholePagePercent": 6.01
     },
     {
       "a": "gretsch-white-falcon-authentication-guide",
       "b": "gretsch-anniversary-authentication-guide",
       "twin": false,
-      "articlePercent": 1.93,
-      "wholePagePercent": 5.82
+      "articlePercent": 1.91,
+      "wholePagePercent": 5.76
     },
     {
       "a": "gretsch-white-falcon-authentication-guide",
@@ -718,15 +718,15 @@
       "a": "gretsch-country-gentleman-authentication-guide",
       "b": "gretsch-anniversary-value-guide",
       "twin": false,
-      "articlePercent": 1.43,
-      "wholePagePercent": 6.38
+      "articlePercent": 1.32,
+      "wholePagePercent": 5.93
     },
     {
       "a": "gretsch-country-gentleman-authentication-guide",
       "b": "gretsch-anniversary-authentication-guide",
       "twin": false,
-      "articlePercent": 1.85,
-      "wholePagePercent": 5.75
+      "articlePercent": 1.82,
+      "wholePagePercent": 5.65
     },
     {
       "a": "gretsch-country-gentleman-authentication-guide",
@@ -760,36 +760,36 @@
       "a": "gretsch-anniversary-value-guide",
       "b": "gretsch-anniversary-authentication-guide",
       "twin": true,
-      "articlePercent": 3.6,
-      "wholePagePercent": 8.43
+      "articlePercent": 4.16,
+      "wholePagePercent": 8.61
     },
     {
       "a": "gretsch-anniversary-value-guide",
       "b": "guild-starfire-value-guide",
       "twin": false,
-      "articlePercent": 4.59,
-      "wholePagePercent": 9.08
+      "articlePercent": 4.5,
+      "wholePagePercent": 8.92
     },
     {
       "a": "gretsch-anniversary-value-guide",
       "b": "guild-starfire-authentication-guide",
       "twin": false,
-      "articlePercent": 1.38,
-      "wholePagePercent": 6.01
+      "articlePercent": 1.28,
+      "wholePagePercent": 5.58
     },
     {
       "a": "gretsch-anniversary-value-guide",
       "b": "national-resonator-guitar-value-guide",
       "twin": false,
-      "articlePercent": 4,
-      "wholePagePercent": 8.57
+      "articlePercent": 3.79,
+      "wholePagePercent": 8.16
     },
     {
       "a": "gretsch-anniversary-value-guide",
       "b": "national-resonator-guitar-authentication-guide",
       "twin": false,
-      "articlePercent": 1.38,
-      "wholePagePercent": 6.01
+      "articlePercent": 1.28,
+      "wholePagePercent": 5.58
     },
     {
       "a": "gretsch-anniversary-authentication-guide",
@@ -802,8 +802,8 @@
       "a": "gretsch-anniversary-authentication-guide",
       "b": "guild-starfire-authentication-guide",
       "twin": false,
-      "articlePercent": 1.78,
-      "wholePagePercent": 5.43
+      "articlePercent": 1.8,
+      "wholePagePercent": 5.36
     },
     {
       "a": "gretsch-anniversary-authentication-guide",

@@ -22,13 +22,17 @@ No conflicting live price range for these five exact model families was identifi
 
 One pre-existing issue outside the new charts was noticed: the Duo Jet post’s visible early-period FAQ and its FAQ JSON-LD contain different figures ($5,400 to $9,000 versus $8,000 to $14,000). It remains unchanged and should be reviewed separately.
 
+## 1959 Double Anniversary Photos Added
+
+Joe supplied and explicitly requested the ended 1959 6118 listing (68361286). Six photos are now used across both Anniversary guides, including the hero, photo bands and a separate archive entry. The 1960 Single remains correctly identified. Search now includes Reverb Ended, Ordered and Out of Stock listings; 101 Gretsch titles were inventoried, not 101 galleries inspected. The selected Reverb files preserve the largest exposed gallery rendition at 1600×1066. They are not described as camera originals.
+
 ## Missing Photos
 
 **In stock, no exact set found:** 6124 Single Anniversary; 1964 Guild Starfire II.
 
-**Additional requested sold examples not found or not independently confirmed:** original-era Double Anniversary; 1967 Starfire III; an independently dated 1962 Starfire III. The supplied early III is shown with its broader archive description. A later 1997 Double Anniversary was not substituted for an original-era instrument.
+**Additional requested sold examples not found or not independently confirmed:** 1967 Starfire III; an independently dated 1962 Starfire III. The supplied early III is shown with its broader archive description. A later 1997 Double Anniversary was not substituted for an original-era instrument.
 
-The requested White Falcon, walnut Country Gentleman, Single Anniversary, Starfire XII and four National families have original Drive images. All 52 selected views are exact-family/model reference images; no comparison/reissue photograph is presented as an original. The existing Joe portrait is reused from the site separately.
+The requested White Falcon, walnut Country Gentleman, Single Anniversary, Starfire XII and four National families have original Drive images. All 58 selected views are exact-family/model reference images; no comparison/reissue photograph is presented as an original. The existing Joe portrait is reused from the site separately.
 
 ## Pricing Coverage Gaps
 

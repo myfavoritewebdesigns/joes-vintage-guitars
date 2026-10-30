@@ -14,11 +14,11 @@ New model pages end with their own FAQ, closing and author block, so the generic
 
 - Build: 372 pages; Astro check: 0 errors, 0 warnings (pre-existing and scratch-script hints are not errors).
 - Site copy audit: 0 hard failures. Required runscan: 0 Tier 1 bans; nonblocking warnings reviewed.
-- 103 licensed content-image nodes checked, 0 mismatches.
+- 110 licensed content-image nodes checked, 0 mismatches.
 - 0 broken internal links or fragment targets across the ten new pages and eight existing link-source pages.
 - 105/105 protected HTML documents byte-identical, including J-200, all 30 Rickenbacker guides and every existing GuideActions consumer.
 - 94 priced rows independently traced to the 2026 book and checked against frozen per-row 11–15% assignments, rounded to the nearest $50. No baseline figures are committed.
-- 52 selected original Drive views: 47 unchanged byte for byte, five EXIF-rotation-only corrections; three existing identical original assets reused. No downscaling or third-party photo downloads.
+- 52 selected original Drive views: 47 unchanged byte for byte, five EXIF-rotation-only corrections; three existing identical original assets reused. The October 30 addition below records six user-requested Reverb gallery images separately; all source bytes remain unchanged.
 - Every guide meets its word minimum, title/description limits, unique metadata, three contextual inbound links and both twin links. All pairwise 8-gram comparisons pass, including whole-page twin overlap below 10%.
 - Desktop/mobile checks cover all ten routes, with both GuideActions visible and no page-level horizontal overflow. Tables scroll inside their wrappers.
 - Repository live-diff script: zero must-fix findings on all eight existing link-source pages. Remaining warnings concern existing decorative SVG dimensions/metadata and were not changed. New URLs have no previous live-page baseline.
@@ -41,3 +41,11 @@ Joe identified dark ranking-card headings missed by the earlier visual review. T
 Joe confirmed the photographed Single Anniversary is a 1960. Both guides now state **1960 Gretsch 6125 Single Anniversary** directly in the text, photo captions, alt descriptions and FAQ. Submission-date qualifications have been removed. The readable serial 36439 and blank model field remain documented.
 
 Validation: 372-page production build succeeds; rendered copy check has zero hard failures (760 existing warning-tier findings). Both Anniversary pages contain the direct 1960 identification with no remaining submission-date qualifications. All 105 protected HTML pages remain byte-identical; no internal-link or metadata failures. No photo or price changes.
+
+## October 30: Requested 1959 Double Anniversary Photos
+
+Added six views from Joe’s ended 1959 Gretsch 6118 listing to both Anniversary guides. Both heroes now show the 1959 Double; photo bands compare it with the 1960 Single, and each archive has a separate 1959 entry. Captions identify the year, model and visible detail. The new photos show two Filter’Trons, not a later reissue.
+
+The exact user-supplied listing is recorded in photo-sources.json. Each 1600×1066 file preserves the largest exposed gallery rendition without additional resizing, cropping or editing. Camera originals were not found in Drive. This requested set supersedes the initial Drive-only instruction; the decision log records that instruction and the requirement to search ended and sold Reverb inventory. No prices changed.
+
+Build: 372 pages. Copy: zero hard failures, 760 existing warning-tier findings. All ten pages: 110 licensed image nodes, zero mismatches. All 105 protected existing pages remain byte-identical; zero broken internal links or duplicate metadata. The two updated pages meet their word minimums and twin-overlap limit. Targeted visual review is recorded in anniversary-1959-review.

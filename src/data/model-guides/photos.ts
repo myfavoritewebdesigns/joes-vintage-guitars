@@ -1,3 +1,9 @@
+import doubleAnniversary19591 from '../../assets/images/model-guides-1/double-anniversary-1959-01.jpg';
+import doubleAnniversary19592 from '../../assets/images/model-guides-1/double-anniversary-1959-02.jpg';
+import doubleAnniversary19593 from '../../assets/images/model-guides-1/double-anniversary-1959-03.jpg';
+import doubleAnniversary19596 from '../../assets/images/model-guides-1/double-anniversary-1959-06.jpg';
+import doubleAnniversary19598 from '../../assets/images/model-guides-1/double-anniversary-1959-08.jpg';
+import doubleAnniversary195910 from '../../assets/images/model-guides-1/double-anniversary-1959-10.jpg';
 import falcon1 from '../../assets/images/model-guides-1/falcon-01.jpg';
 import falcon2 from '../../assets/images/gretsch-dating/white-label.jpg';
 import falcon6 from '../../assets/images/model-guides-1/falcon-06.jpg';
@@ -52,6 +58,12 @@ import style318 from '../../assets/images/model-guides-1/style-3-18.jpg';
 import style320 from '../../assets/images/model-guides-1/style-3-20.jpg';
 import type { GuidePhoto } from '../../components/model-guide/types';
 export const photos: Record<string, GuidePhoto> = {
+"doubleAnniversary19591": {src:doubleAnniversary19591,alt:"1959 Gretsch 6118 Double Anniversary showing body front and two filter’tron pickups",caption:"1959 Gretsch 6118 Double Anniversary. Body Front And Two Filter’Tron Pickups. Photo from Joe’s archive.",fit:'contain'},
+"doubleAnniversary19592": {src:doubleAnniversary19592,alt:"1959 Gretsch 6118 Double Anniversary showing headstock and anniversary badge",caption:"1959 Gretsch 6118 Double Anniversary. Headstock And Anniversary Badge. Photo from Joe’s archive.",fit:'contain'},
+"doubleAnniversary19593": {src:doubleAnniversary19593,alt:"1959 Gretsch 6118 Double Anniversary showing darker green back",caption:"1959 Gretsch 6118 Double Anniversary. Darker Green Back. Photo from Joe’s archive.",fit:'contain'},
+"doubleAnniversary19596": {src:doubleAnniversary19596,alt:"1959 Gretsch 6118 Double Anniversary showing neck heel and binding",caption:"1959 Gretsch 6118 Double Anniversary. Neck Heel And Binding. Photo from Joe’s archive.",fit:'contain'},
+"doubleAnniversary19598": {src:doubleAnniversary19598,alt:"1959 Gretsch 6118 Double Anniversary showing rear headstock and tuners",caption:"1959 Gretsch 6118 Double Anniversary. Rear Headstock And Tuners. Photo from Joe’s archive.",fit:'contain'},
+"doubleAnniversary195910": {src:doubleAnniversary195910,alt:"1959 Gretsch 6118 Double Anniversary showing two-pickup body in its case",caption:"1959 Gretsch 6118 Double Anniversary. Two-Pickup Body In Its Case. Photo from Joe’s archive.",fit:'contain'},
 "falcon1": {src:falcon1,alt:"1976 Gretsch White Falcon Mono showing full front in its case",caption:"1976 Gretsch White Falcon Mono. Full Front In Its Case. Photo from Joe’s archive.",fit:'contain'},
 "falcon2": {src:falcon2,alt:"1976 Gretsch White Falcon Mono showing label reading 8.6014",caption:"1976 Gretsch White Falcon Mono. Label Reading 8.6014. Photo from Joe’s archive.",fit:'contain'},
 "falcon6": {src:falcon6,alt:"1976 Gretsch White Falcon Mono showing tuner backs",caption:"1976 Gretsch White Falcon Mono. Tuner Backs. Photo from Joe’s archive.",fit:'contain'},

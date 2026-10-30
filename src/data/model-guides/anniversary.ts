@@ -14,7 +14,7 @@ export const anniversaryGuides: ModelGuideData[] = [
     "description": "See vintage Gretsch Single and Double Anniversary values by period, finish and configuration, with repair checks and Joe’s archive photos for comparison.",
     "eyebrow": "Single And Double Anniversary · Original U.S. Models",
     "dek": "Compare single-pickup, double-pickup and stereo Anniversary guitars without pricing an altered Single as a factory Double.",
-    "hero": ph.anniversary7,
+    "hero": ph.doubleAnniversary19591,
     "glanceTitle": "Anniversary Value Basics",
     "glance": [
       [
@@ -132,20 +132,30 @@ export const anniversaryGuides: ModelGuideData[] = [
       {
         "type": "photo-band",
         "photos": [
-          ph.anniversary1,
-          ph.anniversary2
+          ph.doubleAnniversary195910,
+          ph.anniversary1
         ],
-        "quote": "The pale top, darker back and one-pickup layout describe this Single Anniversary more clearly than its badge alone."
+        "quote": "The 1959 Double has two Filter’Trons. The 1960 Single has one HiLo’Tron. Compare each with its own period and configuration."
       },
       {
         "type": "section",
         "id": "archive",
-        "title": "A Single Anniversary In The Photo Record",
+        "title": "Single And Double Anniversaries In Joe’s Archive",
         "eyebrow": "Photo Timeline",
         "blocks": [
           {
             "type": "archive",
             "items": [
+              {
+                "label": "1959 · Model 6118",
+                "title": "Two Filter’Trons And A Two-Tone Finish",
+                "html": "<p>This 1959 Gretsch 6118 Double Anniversary comes from Joe’s ended Reverb listing. Its front view shows two Filter’Tron pickups, a Space Control bridge and a fixed G-cutout tailpiece. The back photograph records the darker green finish. These details place it with the early two-tone Double Anniversary examples in the chart.</p><p>The close view of the heel records the binding and the edge of the heel cap. Include this view in a value request so the condition of that area can be assessed alongside the full guitar. The photographs illustrate the model and its condition; the ended listing is not a verified sale price.</p>",
+                "photos": [
+                  ph.doubleAnniversary19591,
+                  ph.doubleAnniversary19593,
+                  ph.doubleAnniversary19596
+                ]
+              },
               {
                 "label": "1960 · Model 6125",
                 "title": "Two-Tone Finish And One Pickup",
@@ -258,7 +268,7 @@ export const anniversaryGuides: ModelGuideData[] = [
     "description": "Identify vintage Gretsch Anniversary models by pickup count, finish, model number and serial, using archive photos and checks for conversions or reissues.",
     "eyebrow": "Anniversary Family · Singles, Doubles And Stereo",
     "dek": "Sort the original Anniversary model numbers, inspect pickup changes and read a real label without confusing a later recreation with a vintage guitar.",
-    "hero": ph.anniversary7,
+    "hero": ph.doubleAnniversary19591,
     "glanceTitle": "Identify An Anniversary",
     "glance": [
       [
@@ -274,8 +284,8 @@ export const anniversaryGuides: ModelGuideData[] = [
         "6111 and 6112"
       ],
       [
-        "Photographed Number",
-        "36439 · 1960"
+        "Photo Examples",
+        "1959 Double · 1960 Single"
       ]
     ],
     "secondaryActions": [
@@ -291,7 +301,7 @@ export const anniversaryGuides: ModelGuideData[] = [
     "intro": {
       "html": "<p>The original Gretsch Anniversary family includes single-pickup and double-pickup guitars, sunburst and two-tone finishes, and a separate stereo branch. “Double” describes the pickups, not a double cutaway. A green guitar with two pickups needs its model and production period checked before it can be called an original 6118. The 1958 anniversary design continued beyond its commemorative year and returned in later production. This guide follows the original American versions and uses later examples only to explain the boundary. After identification, the <a href=\"/post/gretsch-anniversary-value-guide/\">Anniversary value chart</a> separates the relevant period and finish comparisons.</p>",
       "calloutTitle": "Check The Model Field And The Body",
-      "callout": "The pictured 1960 Gretsch 6125 Single Anniversary has a readable serial but a blank model field. Its single pickup and two-tone green finish identify the configuration; the model number is not printed on this label."
+      "callout": "The 1960 Gretsch 6125 Single Anniversary shown below has a readable serial but a blank model field. Its single pickup and two-tone green finish identify the configuration; the model number is not printed on this label."
     },
     "sections": [
       {
@@ -473,10 +483,10 @@ export const anniversaryGuides: ModelGuideData[] = [
       {
         "type": "photo-band",
         "photos": [
-          ph.anniversary1,
-          ph.anniversary5
+          ph.doubleAnniversary19591,
+          ph.anniversary1
         ],
-        "quote": "The Anniversary badge names a family. The pickup layout and full serial provide the next evidence."
+        "quote": "Two Filter’Trons identify the pickup layout of this 1959 Double. The 1960 Single beside it shows the later HiLo’Tron design."
       },
       {
         "type": "section",
@@ -508,12 +518,23 @@ export const anniversaryGuides: ModelGuideData[] = [
       {
         "type": "section",
         "id": "archive",
-        "title": "A Two-Tone Single In The Archive",
+        "title": "A 1959 Double And A 1960 Single In The Archive",
         "eyebrow": "Photo Timeline",
         "blocks": [
           {
             "type": "archive",
             "items": [
+              {
+                "label": "1959 Gretsch 6118 Double Anniversary",
+                "title": "Filter’Tron Pickups On An Early Double",
+                "html": "<p>Joe’s 1959 6118 Double Anniversary has two Filter’Tron pickups with two rows of pole screws on each pickup face. The front view also shows the Space Control bridge, fixed G-cutout tailpiece and two-tone Smoke Green finish. The headstock photograph records the Anniversary badge; the rear view shows the open-gear tuners.</p><p>These photographs come from Joe’s ended Reverb listing for this guitar. Compare its pickup faces with the single HiLo’Tron on the 1960 6125 below. Both instruments have an Anniversary badge and a green finish, but the pickup designs and factory configurations differ. No serial reading is assigned to the 1959 guitar because this photo set does not include a readable label.</p>",
+                "photos": [
+                  ph.doubleAnniversary19591,
+                  ph.doubleAnniversary19592,
+                  ph.doubleAnniversary19593,
+                  ph.doubleAnniversary19598
+                ]
+              },
               {
                 "label": "1960 Gretsch 6125 Single Anniversary",
                 "title": "Front, Back And Headstock Of One Guitar",
